@@ -28,6 +28,13 @@ import Terms from './pages/Terms'
 import Locations from './pages/Locations'
 import LocationDetail from './pages/LocationDetail'
 import ServiceDetail from './pages/ServiceDetail'
+import PartyCatering from './pages/PartyCatering'
+import BachelorPartyCatering from './pages/BachelorPartyCatering'
+import BachelorettePartyCatering from './pages/BachelorettePartyCatering'
+import EngagementCatering from './pages/EngagementCatering'
+import AnniversaryCatering from './pages/AnniversaryCatering'
+import BabyShowerCatering from './pages/BabyShowerCatering'
+import PrivatePartyCatering from './pages/PrivatePartyCatering'
 
 export default function App() {
   return (
@@ -61,6 +68,13 @@ export default function App() {
         <Route path="/locations" element={<Locations />} />
         <Route path="/locations/:slug" element={<LocationDetail />} />
         <Route path="/services/:slug" element={<ServiceDetail />} />
+        <Route path="/party-catering-dubai" element={<PartyCatering />} />
+        <Route path="/bachelor-party-catering-dubai" element={<BachelorPartyCatering />} />
+        <Route path="/bachelorette-party-catering-dubai" element={<BachelorettePartyCatering />} />
+        <Route path="/engagement-catering-dubai" element={<EngagementCatering />} />
+        <Route path="/anniversary-catering-dubai" element={<AnniversaryCatering />} />
+        <Route path="/baby-shower-catering-dubai" element={<BabyShowerCatering />} />
+        <Route path="/private-party-catering-dubai" element={<PrivatePartyCatering />} />
         <Route path="*" element={<Home />} />
       </Routes>
     </Layout>

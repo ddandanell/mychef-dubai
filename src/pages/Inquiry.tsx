@@ -8,7 +8,7 @@ import { breadcrumbSchema } from '@/utils/schema'
 
 gsap.registerPlugin(ScrollTrigger)
 
-const WHATSAPP_NUMBER = '971500000000'
+const WHATSAPP_NUMBER = '971588274544'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to request a quote')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
@@ -165,13 +165,30 @@ export default function Inquiry() {
       return
     }
 
-    // Simulate submission
+    // Build WhatsApp lead and hand off to the business
     setIsSubmitting(true)
+    const lines = [
+      'New quote request — myCHEF Dubai',
+      '',
+      `Name: ${formData.fullName}`,
+      `Email: ${formData.email}`,
+      `WhatsApp: ${formData.whatsapp}`,
+      `Service: ${formData.serviceType}`,
+      `Event date: ${formData.eventDate}`,
+      `Guests: ${formData.numGuests}`,
+      `Location: ${formData.location}`,
+      formData.cuisinePreferences ? `Cuisine: ${formData.cuisinePreferences}` : '',
+      formData.dietaryRestrictions.length ? `Dietary: ${formData.dietaryRestrictions.join(', ')}` : '',
+      formData.additionalServices.length ? `Add-ons: ${formData.additionalServices.join(', ')}` : '',
+      formData.specialRequests ? `Notes: ${formData.specialRequests}` : '',
+    ].filter(Boolean)
+    const waUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(lines.join('\n'))}`
+    window.open(waUrl, '_blank')
     setTimeout(() => {
       setIsSubmitting(false)
       setIsSubmitted(true)
       window.scrollTo({ top: 0, behavior: 'smooth' })
-    }, 1500)
+    }, 800)
   }
 
   useEffect(() => {
@@ -693,11 +710,11 @@ export default function Inquiry() {
           {/* Other contacts */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
             <a
-              href="tel:+971500000000"
+              href="tel:+971588274544"
               className="flex items-center gap-2 font-inter text-body-sm text-gray-500 hover:text-gold transition-colors"
             >
               <Phone size={16} className="text-gold" />
-              +971 50 000 0000
+              +971 58 827 4544
             </a>
             <a
               href="mailto:hello@mychef.ae"

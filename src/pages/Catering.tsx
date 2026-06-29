@@ -20,7 +20,7 @@ import SEO from '../components/SEO'
 
 gsap.registerPlugin(ScrollTrigger)
 
-const WHATSAPP_NUMBER = '971500000000'
+const WHATSAPP_NUMBER = '971588274544'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to request a catering quote')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
@@ -186,8 +186,8 @@ const schema = {
   provider: {
     '@type': 'FoodService',
     name: 'myCHEF Dubai',
-    url: 'https://mychefdubai.com',
-    telephone: '+971-50-000-0000',
+    url: 'https://mychef.ae',
+    telephone: '+971-58-827-4544',
     areaServed: 'Dubai, UAE',
   },
   serviceType: 'Catering Service',
@@ -206,8 +206,8 @@ const breadcrumbSchema = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://mychefdubai.com' },
-    { '@type': 'ListItem', position: 2, name: 'Catering Dubai', item: 'https://mychefdubai.com/catering-dubai' },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://mychef.ae' },
+    { '@type': 'ListItem', position: 2, name: 'Catering Dubai', item: 'https://mychef.ae/catering-dubai' },
   ],
 }
 

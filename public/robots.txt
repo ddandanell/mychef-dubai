@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /thank-you
+Disallow: /inquiry
 
-Sitemap: https://mychef.dubai/sitemap.xml
+Sitemap: https://mychef.ae/sitemap.xml

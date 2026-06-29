@@ -1,4 +1,4 @@
-const SITE_URL = 'https://mychefdubai.com'
+const SITE_URL = 'https://mychef.ae'
 const SITE_NAME = 'myCHEF Dubai'
 const LOGO_URL = `${SITE_URL}/logo.svg`
 
@@ -15,7 +15,7 @@ export function organizationSchema() {
     ],
     contactPoint: {
       '@type': 'ContactPoint',
-      telephone: '+971-50-000-0000',
+      telephone: '+971-58-827-4544',
       contactType: 'customer service',
       areaServed: 'AE',
       availableLanguage: ['English'],
@@ -41,7 +41,7 @@ export function localBusinessSchema() {
       '@type': 'City',
       name: 'Dubai',
     },
-    telephone: '+971-50-000-0000',
+    telephone: '+971-58-827-4544',
     priceRange: '$$$$',
     currenciesAccepted: 'AED, USD',
     paymentAccepted: 'Cash, Credit Card, Bank Transfer',

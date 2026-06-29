@@ -1,50 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://mychef.dubai/</loc><priority>1.0</priority><changefreq>weekly</changefreq></url>
-  <url><loc>https://mychef.dubai/about</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://mychef.dubai/contact</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://mychef.dubai/how-it-works</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://mychef.dubai/our-chefs</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://mychef.dubai/menus</loc><priority>0.8</priority><changefreq>weekly</changefreq></url>
-  <url><loc>https://mychef.dubai/private-chef-dubai</loc><priority>1.0</priority><changefreq>weekly</changefreq></url>
-  <url><loc>https://mychef.dubai/catering-dubai</loc><priority>1.0</priority><changefreq>weekly</changefreq></url>
-  <url><loc>https://mychef.dubai/luxury-dining-experiences</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
-  <url><loc>https://mychef.dubai/events</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
-  <url><loc>https://mychef.dubai/corporate</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
-  <url><loc>https://mychef.dubai/villas-private-residences</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
-  <url><loc>https://mychef.dubai/yachts</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
-  <url><loc>https://mychef.dubai/faq</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://mychef.dubai/inquiry</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://mychef.dubai/thank-you</loc><priority>0.3</priority><changefreq>yearly</changefreq></url>
-  <url><loc>https://mychef.dubai/privacy-policy</loc><priority>0.3</priority><changefreq>yearly</changefreq></url>
-  <url><loc>https://mychef.dubai/terms</loc><priority>0.3</priority><changefreq>yearly</changefreq></url>
-  <url><loc>https://mychef.dubai/locations</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
-  <url><loc>https://mychef.dubai/locations/palm-jumeirah</loc><priority>0.8</priority><changefreq>weekly</changefreq></url>
-  <url><loc>https://mychef.dubai/locations/downtown-dubai</loc><priority>0.8</priority><changefreq>weekly</changefreq></url>
-  <url><loc>https://mychef.dubai/locations/dubai-marina</loc><priority>0.8</priority><changefreq>weekly</changefreq></url>
-  <url><loc>https://mychef.dubai/locations/emirates-hills</loc><priority>0.8</priority><changefreq>weekly</changefreq></url>
-  <url><loc>https://mychef.dubai/locations/jumeirah</loc><priority>0.8</priority><changefreq>weekly</changefreq></url>
-  <url><loc>https://mychef.dubai/locations/jbr</loc><priority>0.8</priority><changefreq>weekly</changefreq></url>
-  <url><loc>https://mychef.dubai/locations/business-bay</loc><priority>0.8</priority><changefreq>weekly</changefreq></url>
-  <url><loc>https://mychef.dubai/locations/difc</loc><priority>0.8</priority><changefreq>weekly</changefreq></url>
-  <url><loc>https://mychef.dubai/locations/dubai-hills</loc><priority>0.7</priority><changefreq>weekly</changefreq></url>
-  <url><loc>https://mychef.dubai/locations/jumeirah-islands</loc><priority>0.7</priority><changefreq>weekly</changefreq></url>
-  <url><loc>https://mychef.dubai/locations/arabian-ranches</loc><priority>0.7</priority><changefreq>weekly</changefreq></url>
-  <url><loc>https://mychef.dubai/locations/bluewaters-island</loc><priority>0.7</priority><changefreq>weekly</changefreq></url>
-  <url><loc>https://mychef.dubai/locations/jumeirah-golf-estates</loc><priority>0.7</priority><changefreq>weekly</changefreq></url>
-  <url><loc>https://mychef.dubai/locations/the-springs</loc><priority>0.7</priority><changefreq>weekly</changefreq></url>
-  <url><loc>https://mychef.dubai/locations/al-barari</loc><priority>0.7</priority><changefreq>weekly</changefreq></url>
-  <url><loc>https://mychef.dubai/locations/meydan</loc><priority>0.7</priority><changefreq>weekly</changefreq></url>
-  <url><loc>https://mychef.dubai/services/private-chef-dubai</loc><priority>0.8</priority><changefreq>weekly</changefreq></url>
-  <url><loc>https://mychef.dubai/services/luxury-private-dining</loc><priority>0.8</priority><changefreq>weekly</changefreq></url>
-  <url><loc>https://mychef.dubai/services/romantic-dinner</loc><priority>0.7</priority><changefreq>weekly</changefreq></url>
-  <url><loc>https://mychef.dubai/services/birthday-catering</loc><priority>0.7</priority><changefreq>weekly</changefreq></url>
-  <url><loc>https://mychef.dubai/services/wedding-catering</loc><priority>0.7</priority><changefreq>weekly</changefreq></url>
-  <url><loc>https://mychef.dubai/services/corporate-catering</loc><priority>0.8</priority><changefreq>weekly</changefreq></url>
-  <url><loc>https://mychef.dubai/services/yacht-catering</loc><priority>0.8</priority><changefreq>weekly</changefreq></url>
-  <url><loc>https://mychef.dubai/services/bbq-catering</loc><priority>0.7</priority><changefreq>weekly</changefreq></url>
-  <url><loc>https://mychef.dubai/services/buffet-catering</loc><priority>0.7</priority><changefreq>weekly</changefreq></url>
-  <url><loc>https://mychef.dubai/services/canape-catering</loc><priority>0.7</priority><changefreq>weekly</changefreq></url>
-  <url><loc>https://mychef.dubai/services/iftar-catering</loc><priority>0.7</priority><changefreq>weekly</changefreq></url>
-  <url><loc>https://mychef.dubai/services/healthy-meal-prep</loc><priority>0.7</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://mychef.ae/</loc><priority>1.0</priority><changefreq>weekly</changefreq></url>
+
+  <!-- Core hubs -->
+  <url><loc>https://mychef.ae/catering-dubai</loc><priority>1.0</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://mychef.ae/private-chef-dubai</loc><priority>1.0</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://mychef.ae/luxury-dining-experiences</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://mychef.ae/events</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://mychef.ae/corporate</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://mychef.ae/villas-private-residences</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://mychef.ae/yachts</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://mychef.ae/party-catering-dubai</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+
+  <!-- Event & party spokes -->
+  <url><loc>https://mychef.ae/wedding-catering-dubai</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://mychef.ae/birthday-catering-dubai</loc><priority>0.8</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://mychef.ae/bachelor-party-catering-dubai</loc><priority>0.8</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://mychef.ae/bachelorette-party-catering-dubai</loc><priority>0.8</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://mychef.ae/engagement-catering-dubai</loc><priority>0.8</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://mychef.ae/anniversary-catering-dubai</loc><priority>0.8</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://mychef.ae/baby-shower-catering-dubai</loc><priority>0.8</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://mychef.ae/private-party-catering-dubai</loc><priority>0.8</priority><changefreq>weekly</changefreq></url>
+
+  <!-- Seasonal & themed -->
+  <url><loc>https://mychef.ae/romantic-dinner-dubai</loc><priority>0.8</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://mychef.ae/iftar-catering-dubai</loc><priority>0.7</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://mychef.ae/christmas-catering-dubai</loc><priority>0.7</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://mychef.ae/new-year-catering-dubai</loc><priority>0.7</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://mychef.ae/brunch-catering-dubai</loc><priority>0.7</priority><changefreq>weekly</changefreq></url>
+
+  <!-- Supporting -->
+  <url><loc>https://mychef.ae/menus</loc><priority>0.8</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://mychef.ae/our-chefs</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://mychef.ae/how-it-works</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://mychef.ae/about</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://mychef.ae/contact</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://mychef.ae/faq</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+
+  <!-- Locations -->
+  <url><loc>https://mychef.ae/locations</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://mychef.ae/locations/palm-jumeirah</loc><priority>0.8</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://mychef.ae/locations/downtown-dubai</loc><priority>0.8</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://mychef.ae/locations/dubai-marina</loc><priority>0.8</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://mychef.ae/locations/emirates-hills</loc><priority>0.8</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://mychef.ae/locations/jumeirah</loc><priority>0.8</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://mychef.ae/locations/jbr</loc><priority>0.8</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://mychef.ae/locations/business-bay</loc><priority>0.8</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://mychef.ae/locations/difc</loc><priority>0.8</priority><changefreq>weekly</changefreq></url>
+
+  <!-- Legal -->
+  <url><loc>https://mychef.ae/privacy-policy</loc><priority>0.3</priority><changefreq>yearly</changefreq></url>
+  <url><loc>https://mychef.ae/terms</loc><priority>0.3</priority><changefreq>yearly</changefreq></url>
 </urlset>

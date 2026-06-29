@@ -30,7 +30,7 @@ export default function WeddingCatering() {
           <p className="text-gray-300 text-lg max-w-2xl mx-auto">Elegant wedding catering from intimate ceremonies to grand receptions. Bespoke menus, impeccable presentation, flawless service.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
             <a href="/inquiry" className="btn-primary">Plan Wedding Catering</a>
-            <a href="https://wa.me/971501234567" target="_blank" rel="noopener noreferrer" className="btn-secondary">Chat on WhatsApp</a>
+            <a href="https://wa.me/971588274544" target="_blank" rel="noopener noreferrer" className="btn-secondary">Chat on WhatsApp</a>
           </div>
         </div>
       </section>

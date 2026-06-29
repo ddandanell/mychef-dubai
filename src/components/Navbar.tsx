@@ -11,7 +11,7 @@ const navLinks = [
   { label: 'Contact', href: '/contact' },
 ]
 
-const WHATSAPP_NUMBER = '971501234567'
+const WHATSAPP_NUMBER = '971588274544'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I would like to request a quote for private chef or catering services.')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
@@ -35,7 +35,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="sticky top-0 z-50 h-20 md:h-20 bg-black/95 backdrop-blur-xl border-b border-white/5">
+      <nav className="sticky top-0 z-50 h-20 md:h-20 bg-black lg:bg-black/95 lg:backdrop-blur-xl border-b border-white/5">
         <div className="container-custom h-full flex items-center justify-between">
           {/* Mobile: Hamburger */}
           <button
@@ -99,7 +99,7 @@ export default function Navbar() {
 
       {/* Mobile Menu Overlay */}
       <div
-        className={`fixed inset-0 z-[100] bg-black/97 transition-opacity duration-300 lg:hidden ${
+        className={`fixed inset-0 z-[100] bg-black transition-opacity duration-300 lg:hidden ${
           mobileOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
         }`}
       >

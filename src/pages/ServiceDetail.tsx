@@ -55,9 +55,9 @@ export default function ServiceDetail() {
           '@context': 'https://schema.org',
           '@type': 'BreadcrumbList',
           itemListElement: [
-            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://mychefdubai.com/' },
-            { '@type': 'ListItem', position: 2, name: 'Services', item: 'https://mychefdubai.com/services' },
-            { '@type': 'ListItem', position: 3, name: svc.name, item: `https://mychefdubai.com/services/${slug}` }
+            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://mychef.ae/' },
+            { '@type': 'ListItem', position: 2, name: 'Services', item: 'https://mychef.ae/services' },
+            { '@type': 'ListItem', position: 3, name: svc.name, item: `https://mychef.ae/services/${slug}` }
           ]
         }}
       />
@@ -128,7 +128,7 @@ export default function ServiceDetail() {
             <a href="/inquiry" className="inline-flex items-center justify-center px-8 py-4 bg-gold text-black font-medium text-sm tracking-wider uppercase hover:bg-[#D9BC7A] transition-all duration-300 hover:-translate-y-0.5">
               Request My Custom Quote
             </a>
-            <a href="https://wa.me/971501234567" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center px-8 py-4 border border-gold text-gold font-medium text-sm tracking-wider uppercase hover:bg-gold hover:text-black transition-all duration-300">
+            <a href="https://wa.me/971588274544" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center px-8 py-4 border border-gold text-gold font-medium text-sm tracking-wider uppercase hover:bg-gold hover:text-black transition-all duration-300">
               Chat on WhatsApp
             </a>
           </div>

@@ -8,7 +8,7 @@ import SEO from '@/components/SEO'
 
 gsap.registerPlugin(ScrollTrigger)
 
-const WHATSAPP_NUMBER = '971500000000'
+const WHATSAPP_NUMBER = '971588274544'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to request a quote')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
@@ -50,8 +50,8 @@ const breadcrumbSchema = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://mychefdubai.com/' },
-    { '@type': 'ListItem', position: 2, name: 'How It Works', item: 'https://mychefdubai.com/how-it-works' },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://mychef.ae/' },
+    { '@type': 'ListItem', position: 2, name: 'How It Works', item: 'https://mychef.ae/how-it-works' },
   ],
 }
 

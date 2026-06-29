@@ -61,8 +61,8 @@ export default function Locations() {
           '@context': 'https://schema.org',
           '@type': 'BreadcrumbList',
           itemListElement: [
-            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://mychefdubai.com/' },
-            { '@type': 'ListItem', position: 2, name: 'Locations', item: 'https://mychefdubai.com/locations' }
+            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://mychef.ae/' },
+            { '@type': 'ListItem', position: 2, name: 'Locations', item: 'https://mychef.ae/locations' }
           ]
         }}
       />
@@ -139,7 +139,7 @@ export default function Locations() {
           <p className="text-gray-400 mb-8">We serve all of Dubai and surrounding Emirates. Message us to confirm availability for your location.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://wa.me/971501234567?text=Hi%20myCHEF%20Dubai%2C%20I%27d%20like%20to%20request%20a%20quote"
+              href="https://wa.me/971588274544?text=Hi%20myCHEF%20Dubai%2C%20I%27d%20like%20to%20request%20a%20quote"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-8 py-4 bg-gold text-black font-medium text-sm tracking-wider uppercase hover:bg-[#D9BC7A] transition-all duration-300 hover:-translate-y-0.5"
@@ -147,7 +147,7 @@ export default function Locations() {
               Request My Custom Quote
             </a>
             <a
-              href="https://wa.me/971501234567"
+              href="https://wa.me/971588274544"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-8 py-4 border border-gold text-gold font-medium text-sm tracking-wider uppercase hover:bg-gold hover:text-black transition-all duration-300"

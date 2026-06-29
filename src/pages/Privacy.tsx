@@ -12,8 +12,8 @@ const breadcrumbSchema = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://mychefdubai.com/' },
-    { '@type': 'ListItem', position: 2, name: 'Privacy Policy', item: 'https://mychefdubai.com/privacy-policy' },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://mychef.ae/' },
+    { '@type': 'ListItem', position: 2, name: 'Privacy Policy', item: 'https://mychef.ae/privacy-policy' },
   ],
 }
 

@@ -8,7 +8,7 @@ import { breadcrumbSchema } from '@/utils/schema'
 
 gsap.registerPlugin(ScrollTrigger)
 
-const WHATSAPP_NUMBER = '971500000000'
+const WHATSAPP_NUMBER = '971588274544'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to request a quote')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 

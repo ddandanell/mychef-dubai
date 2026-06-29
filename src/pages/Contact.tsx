@@ -8,7 +8,7 @@ import SEO from '@/components/SEO'
 
 gsap.registerPlugin(ScrollTrigger)
 
-const WHATSAPP_NUMBER = '971500000000'
+const WHATSAPP_NUMBER = '971588274544'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to request a quote')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
@@ -72,8 +72,8 @@ const breadcrumbSchema = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://mychefdubai.com/' },
-    { '@type': 'ListItem', position: 2, name: 'Contact', item: 'https://mychefdubai.com/contact' },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://mychef.ae/' },
+    { '@type': 'ListItem', position: 2, name: 'Contact', item: 'https://mychef.ae/contact' },
   ],
 }
 
@@ -106,9 +106,24 @@ export default function Contact() {
     e.preventDefault()
     if (!validate()) return
     setFormState('submitting')
+    const lines = [
+      'New enquiry — myCHEF Dubai',
+      '',
+      `Name: ${formData.name}`,
+      `Email: ${formData.email}`,
+      `Phone: ${formData.phone}`,
+      `Service: ${formData.serviceType}`,
+      `Event date: ${formData.eventDate}`,
+      `Guests: ${formData.guests}`,
+      `Location: ${formData.location}`,
+      '',
+      `Message: ${formData.message}`,
+    ].filter(Boolean)
+    const waUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(lines.join('\n'))}`
+    window.open(waUrl, '_blank')
     setTimeout(() => {
       setFormState('success')
-    }, 1500)
+    }, 800)
   }
 
   const handleChange = (field: string, value: string) => {

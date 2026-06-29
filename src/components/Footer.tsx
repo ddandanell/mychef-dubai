@@ -20,7 +20,7 @@ const locationLinks = [
   { label: 'DIFC', href: '/locations/difc' },
 ]
 
-const WHATSAPP_NUMBER = '971500000000'
+const WHATSAPP_NUMBER = '971588274544'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to request a quote')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
@@ -95,7 +95,7 @@ export default function Footer() {
                   className="flex items-center gap-3 font-inter text-body-sm text-gray-400 hover:text-gold transition-colors duration-200"
                 >
                   <Phone size={16} className="text-gold flex-shrink-0" />
-                  <span>+971 50 000 0000</span>
+                  <span>+971 58 827 4544</span>
                 </a>
               </li>
               <li>
