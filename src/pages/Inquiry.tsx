@@ -1,0 +1,718 @@
+import { useEffect, useRef, useState } from 'react'
+import { Link } from 'react-router'
+import gsap from 'gsap'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { Check, Phone, Mail, MapPin, Loader2 } from 'lucide-react'
+import SEO from '@/components/SEO'
+import { breadcrumbSchema } from '@/utils/schema'
+
+gsap.registerPlugin(ScrollTrigger)
+
+const WHATSAPP_NUMBER = '971500000000'
+const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to request a quote')
+const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
+
+const breadcrumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Request a Quote', path: '/inquiry' },
+]
+
+const serviceTypes = [
+  'Private Chef — Dinner Party',
+  'Private Chef — Weekly/Regular',
+  'Catering — Buffet',
+  'Catering — Plated Dinner',
+  'Catering — Canapes & Cocktails',
+  'Catering — BBQ',
+  'Luxury Dining Experience',
+  'Corporate Event',
+  'Yacht Catering',
+  'Villa Chef',
+  'Other',
+]
+
+const dietaryOptions = [
+  'Vegetarian',
+  'Vegan',
+  'Gluten-Free',
+  'Halal',
+  'Kosher',
+  'Nut Allergies',
+  'Other',
+]
+
+const additionalServices = [
+  'Waiter',
+  'Bartender',
+  'Sommelier',
+  'Butler',
+  'Table Setting',
+  'Cleanup',
+]
+
+const dubaiAreas = [
+  'Palm Jumeirah',
+  'Downtown Dubai',
+  'Dubai Marina',
+  'Emirates Hills',
+  'JBR (Jumeirah Beach Residence)',
+  'DIFC',
+  'Jumeirah',
+  'Business Bay',
+  'Dubai Hills',
+  'Arabian Ranches',
+  'Al Barari',
+  'Bluewaters Island',
+  'Dubai Creek Harbour',
+  'Jumeirah Islands',
+  'The Lakes',
+  'Meadows',
+  'Springs',
+  'Victory Heights',
+  'Other / Not Listed',
+]
+
+type FormErrors = Partial<Record<string, string>>
+
+export default function Inquiry() {
+  const [formData, setFormData] = useState({
+    fullName: '',
+    email: '',
+    whatsapp: '',
+    serviceType: '',
+    eventDate: '',
+    numGuests: '',
+    location: '',
+    cuisinePreferences: '',
+    dietaryRestrictions: [] as string[],
+    additionalServices: [] as string[],
+    specialRequests: '',
+  })
+  const [errors, setErrors] = useState<FormErrors>({})
+  const [isSubmitting, setIsSubmitting] = useState(false)
+  const [isSubmitted, setIsSubmitted] = useState(false)
+
+  const heroRef = useRef<HTMLDivElement>(null)
+  const heroTitleRef = useRef<HTMLHeadingElement>(null)
+  const heroSubRef = useRef<HTMLParagraphElement>(null)
+  const formRef = useRef<HTMLDivElement>(null)
+  const sidebarRef = useRef<HTMLDivElement>(null)
+  const altContactRef = useRef<HTMLDivElement>(null)
+
+  const validateField = (name: string, value: string | string[]): string | undefined => {
+    switch (name) {
+      case 'fullName':
+        if (!value || (typeof value === 'string' && value.trim().length < 2)) return 'Please enter your full name (at least 2 characters)'
+        break
+      case 'email':
+        if (!value || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value as string)) return 'Please enter a valid email address'
+        break
+      case 'whatsapp':
+        if (!value || (typeof value === 'string' && value.trim().length < 7)) return 'Please enter a valid phone number'
+        break
+      case 'eventDate':
+        if (!value) return 'Please select an event date'
+        break
+      case 'location':
+        if (!value || value === '') return 'Please select a location area'
+        break
+      case 'numGuests':
+        if (!value || Number(value) < 1) return 'Please enter the number of guests'
+        break
+      case 'serviceType':
+        if (!value || value === '') return 'Please select a service type'
+        break
+    }
+    return undefined
+  }
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
+    const { name, value } = e.target
+    setFormData((prev) => ({ ...prev, [name]: value }))
+    // Clear error on change
+    if (errors[name]) {
+      setErrors((prev) => {
+        const next = { ...prev }
+        delete next[name]
+        return next
+      })
+    }
+  }
+
+  const handleCheckboxChange = (name: 'dietaryRestrictions' | 'additionalServices', value: string) => {
+    setFormData((prev) => {
+      const current = prev[name]
+      const updated = current.includes(value)
+        ? current.filter((v) => v !== value)
+        : [...current, value]
+      return { ...prev, [name]: updated }
+    })
+  }
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault()
+    const newErrors: FormErrors = {}
+
+    // Validate all required fields
+    const requiredFields = ['fullName', 'email', 'whatsapp', 'serviceType', 'eventDate', 'numGuests', 'location']
+    requiredFields.forEach((field) => {
+      const error = validateField(field, formData[field as keyof typeof formData] as string)
+      if (error) newErrors[field] = error
+    })
+
+    if (Object.keys(newErrors).length > 0) {
+      setErrors(newErrors)
+      return
+    }
+
+    // Simulate submission
+    setIsSubmitting(true)
+    setTimeout(() => {
+      setIsSubmitting(false)
+      setIsSubmitted(true)
+      window.scrollTo({ top: 0, behavior: 'smooth' })
+    }, 1500)
+  }
+
+  useEffect(() => {
+    const ctx = gsap.context(() => {
+      // Hero title word stagger
+      if (heroTitleRef.current) {
+        const words = heroTitleRef.current.querySelectorAll('.word')
+        gsap.fromTo(words,
+          { opacity: 0, y: 40 },
+          { opacity: 1, y: 0, stagger: 0.05, duration: 0.8, ease: 'power3.out', delay: 0.2 }
+        )
+      }
+
+      // Hero subtitle
+      if (heroSubRef.current) {
+        gsap.fromTo(heroSubRef.current,
+          { opacity: 0, y: 20 },
+          { opacity: 1, y: 0, duration: 0.6, delay: 0.5, ease: 'power3.out' }
+        )
+      }
+
+      // Form section
+      if (formRef.current) {
+        gsap.fromTo(formRef.current,
+          { opacity: 0, x: -30 },
+          { opacity: 1, x: 0, duration: 0.8, ease: 'power3.out',
+            scrollTrigger: { trigger: formRef.current, start: 'top 80%' } }
+        )
+      }
+
+      // Sidebar
+      if (sidebarRef.current) {
+        gsap.fromTo(sidebarRef.current,
+          { opacity: 0, x: 30 },
+          { opacity: 1, x: 0, duration: 0.8, delay: 0.2, ease: 'power3.out',
+            scrollTrigger: { trigger: sidebarRef.current, start: 'top 80%' } }
+        )
+      }
+
+      // Alt contact section
+      if (altContactRef.current) {
+        gsap.fromTo(altContactRef.current.querySelector('.alt-content'),
+          { opacity: 0, y: 30 },
+          { opacity: 1, y: 0, duration: 0.6, ease: 'power3.out',
+            scrollTrigger: { trigger: altContactRef.current, start: 'top 85%' } }
+        )
+      }
+    })
+
+    return () => ctx.revert()
+  }, [])
+
+  // Success State
+  if (isSubmitted) {
+    return (
+      <>
+        <SEO
+          title="Quote Requested | myCHEF Dubai"
+          description="Thank you for requesting a quote. We will respond within 2 hours with a bespoke proposal tailored to your event."
+          canonicalPath="/inquiry"
+          noindex
+        />
+        <div className="min-h-[60vh] flex items-center justify-center bg-cream">
+          <div className="container-custom max-w-[600px] text-center py-20">
+            <div className="w-16 h-16 rounded-full bg-gold/20 flex items-center justify-center mx-auto mb-6">
+              <Check size={32} className="text-gold" />
+            </div>
+            <h2 className="font-playfair text-h2 text-black mb-4">
+              Thank You!
+            </h2>
+            <p className="font-inter text-body text-gray-500 mb-4">
+              We have received your request and will craft a bespoke proposal within 2 hours.
+            </p>
+            <p className="font-inter text-body-sm text-gray-500 mb-8">
+              In the meantime, feel free to reach out on WhatsApp for immediate questions.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a
+                href={WHATSAPP_LINK}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-primary inline-flex items-center gap-2"
+              >
+                <Phone size={16} />
+                Chat on WhatsApp
+              </a>
+              <Link to="/" className="btn-secondary">
+                Back to Home
+              </Link>
+            </div>
+          </div>
+        </div>
+      </>
+    )
+  }
+
+  return (
+    <>
+      <SEO
+        title="Request a Quote | Private Chef & Catering Dubai | myCHEF Dubai"
+        description="Request a custom quote for private chef services or luxury catering in Dubai. We respond within 2 hours with a bespoke proposal tailored to your event."
+        canonicalPath="/inquiry"
+        schema={breadcrumbSchema(breadcrumbs) as unknown as Record<string, unknown>}
+      />
+
+      {/* Breadcrumb Navigation */}
+      <div className="bg-black border-b border-charcoal-light">
+        <div className="container-custom py-4">
+          <nav className="flex items-center gap-2 font-inter text-caption text-gray-500">
+            <Link to="/" className="hover:text-gold transition-colors">Home</Link>
+            <span className="text-gray-500">/</span>
+            <span className="text-gold">Request a Quote</span>
+          </nav>
+        </div>
+      </div>
+
+      {/* Section 1: Page Hero */}
+      <section ref={heroRef} className="relative min-h-[40vh] flex items-center justify-center bg-black">
+        <div className="container-custom text-center py-16">
+          <span className="font-inter text-caption font-medium uppercase tracking-wider text-gold mb-4 block">
+            GET STARTED
+          </span>
+          <h1
+            ref={heroTitleRef}
+            className="font-playfair text-h1 md:text-[56px] text-white mb-6"
+          >
+            <span className="word inline-block">Request</span>{' '}
+            <span className="word inline-block">Your</span>
+            <br className="hidden sm:block" />
+            <span className="word inline-block">Custom</span>{' '}
+            <span className="word inline-block">Quote</span>
+          </h1>
+          <p ref={heroSubRef} className="font-inter text-lg text-gray-400 max-w-[600px] mx-auto">
+            Tell us about your event and we will craft a bespoke proposal within 2 hours.
+          </p>
+        </div>
+      </section>
+
+      {/* Section 2: Quote Request Form */}
+      <section className="bg-white py-20">
+        <div className="container-custom max-w-[1200px]">
+          <div className="grid grid-cols-1 lg:grid-cols-[60%_40%] gap-12 lg:gap-16">
+            {/* Left Column — Form */}
+            <div ref={formRef}>
+              <h2 className="font-playfair text-[32px] text-black mb-2">
+                Tell Us About Your Event
+              </h2>
+              <p className="font-inter text-body-sm text-gray-500 mb-8">
+                All fields are required unless marked optional.
+              </p>
+
+              <form onSubmit={handleSubmit} className="flex flex-col gap-5">
+                {/* 1. Full Name */}
+                <div>
+                  <label htmlFor="fullName" className="font-inter text-caption font-medium uppercase tracking-wider text-black mb-2 block">
+                    Your Name *
+                  </label>
+                  <input
+                    type="text"
+                    id="fullName"
+                    name="fullName"
+                    placeholder="Full name"
+                    value={formData.fullName}
+                    onChange={handleChange}
+                    className={`w-full bg-charcoal border px-4 py-3.5 font-inter text-body text-white placeholder-gray-500 outline-none transition-all duration-200 focus:border-gold focus:shadow-[0_0_0_2px_rgba(200,164,92,0.2)] ${
+                      errors.fullName ? 'border-red-500' : 'border-charcoal-light'
+                    }`}
+                  />
+                  {errors.fullName && (
+                    <p className="font-inter text-xs text-red-500 mt-1">{errors.fullName}</p>
+                  )}
+                </div>
+
+                {/* 2. Email */}
+                <div>
+                  <label htmlFor="email" className="font-inter text-caption font-medium uppercase tracking-wider text-black mb-2 block">
+                    Email Address *
+                  </label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="your@email.com"
+                    value={formData.email}
+                    onChange={handleChange}
+                    className={`w-full bg-charcoal border px-4 py-3.5 font-inter text-body text-white placeholder-gray-500 outline-none transition-all duration-200 focus:border-gold focus:shadow-[0_0_0_2px_rgba(200,164,92,0.2)] ${
+                      errors.email ? 'border-red-500' : 'border-charcoal-light'
+                    }`}
+                  />
+                  {errors.email && (
+                    <p className="font-inter text-xs text-red-500 mt-1">{errors.email}</p>
+                  )}
+                </div>
+
+                {/* 3. WhatsApp */}
+                <div>
+                  <label htmlFor="whatsapp" className="font-inter text-caption font-medium uppercase tracking-wider text-black mb-2 block">
+                    Phone / WhatsApp *
+                  </label>
+                  <input
+                    type="tel"
+                    id="whatsapp"
+                    name="whatsapp"
+                    placeholder="+971 XX XXX XXXX"
+                    value={formData.whatsapp}
+                    onChange={handleChange}
+                    className={`w-full bg-charcoal border px-4 py-3.5 font-inter text-body text-white placeholder-gray-500 outline-none transition-all duration-200 focus:border-gold focus:shadow-[0_0_0_2px_rgba(200,164,92,0.2)] ${
+                      errors.whatsapp ? 'border-red-500' : 'border-charcoal-light'
+                    }`}
+                  />
+                  {errors.whatsapp && (
+                    <p className="font-inter text-xs text-red-500 mt-1">{errors.whatsapp}</p>
+                  )}
+                  <p className="font-inter text-xs text-gray-500 mt-1">
+                    We will contact you via WhatsApp for faster communication.
+                  </p>
+                </div>
+
+                {/* 4. Service Type */}
+                <div>
+                  <label htmlFor="serviceType" className="font-inter text-caption font-medium uppercase tracking-wider text-black mb-2 block">
+                    Type of Service *
+                  </label>
+                  <select
+                    id="serviceType"
+                    name="serviceType"
+                    value={formData.serviceType}
+                    onChange={handleChange}
+                    className={`w-full bg-charcoal border px-4 py-3.5 font-inter text-body text-white outline-none transition-all duration-200 focus:border-gold focus:shadow-[0_0_0_2px_rgba(200,164,92,0.2)] appearance-none cursor-pointer ${
+                      errors.serviceType ? 'border-red-500' : 'border-charcoal-light'
+                    } ${!formData.serviceType ? 'text-gray-500' : 'text-white'}`}
+                    style={{ backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23C8A45C' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E")`, backgroundRepeat: 'no-repeat', backgroundPosition: 'right 16px center' }}
+                  >
+                    <option value="" disabled>Select a service type</option>
+                    {serviceTypes.map((type) => (
+                      <option key={type} value={type}>{type}</option>
+                    ))}
+                  </select>
+                  {errors.serviceType && (
+                    <p className="font-inter text-xs text-red-500 mt-1">{errors.serviceType}</p>
+                  )}
+                </div>
+
+                {/* 5. Event Date */}
+                <div>
+                  <label htmlFor="eventDate" className="font-inter text-caption font-medium uppercase tracking-wider text-black mb-2 block">
+                    Event Date *
+                  </label>
+                  <input
+                    type="date"
+                    id="eventDate"
+                    name="eventDate"
+                    value={formData.eventDate}
+                    onChange={handleChange}
+                    min={new Date().toISOString().split('T')[0]}
+                    className={`w-full bg-charcoal border px-4 py-3.5 font-inter text-body text-white outline-none transition-all duration-200 focus:border-gold focus:shadow-[0_0_0_2px_rgba(200,164,92,0.2)] ${
+                      errors.eventDate ? 'border-red-500' : 'border-charcoal-light'
+                    }`}
+                  />
+                  {errors.eventDate && (
+                    <p className="font-inter text-xs text-red-500 mt-1">{errors.eventDate}</p>
+                  )}
+                </div>
+
+                {/* 6. Number of Guests */}
+                <div>
+                  <label htmlFor="numGuests" className="font-inter text-caption font-medium uppercase tracking-wider text-black mb-2 block">
+                    Number of Guests *
+                  </label>
+                  <input
+                    type="number"
+                    id="numGuests"
+                    name="numGuests"
+                    placeholder="Approximate number of guests"
+                    min="1"
+                    value={formData.numGuests}
+                    onChange={handleChange}
+                    className={`w-full bg-charcoal border px-4 py-3.5 font-inter text-body text-white placeholder-gray-500 outline-none transition-all duration-200 focus:border-gold focus:shadow-[0_0_0_2px_rgba(200,164,92,0.2)] ${
+                      errors.numGuests ? 'border-red-500' : 'border-charcoal-light'
+                    }`}
+                  />
+                  {errors.numGuests && (
+                    <p className="font-inter text-xs text-red-500 mt-1">{errors.numGuests}</p>
+                  )}
+                </div>
+
+                {/* 7. Location */}
+                <div>
+                  <label htmlFor="location" className="font-inter text-caption font-medium uppercase tracking-wider text-black mb-2 block">
+                    Event Location/Area *
+                  </label>
+                  <select
+                    id="location"
+                    name="location"
+                    value={formData.location}
+                    onChange={handleChange}
+                    className={`w-full bg-charcoal border px-4 py-3.5 font-inter text-body text-white outline-none transition-all duration-200 focus:border-gold focus:shadow-[0_0_0_2px_rgba(200,164,92,0.2)] appearance-none cursor-pointer ${
+                      errors.location ? 'border-red-500' : 'border-charcoal-light'
+                    } ${!formData.location ? 'text-gray-500' : 'text-white'}`}
+                    style={{ backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23C8A45C' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E")`, backgroundRepeat: 'no-repeat', backgroundPosition: 'right 16px center' }}
+                  >
+                    <option value="" disabled>Select your area in Dubai</option>
+                    {dubaiAreas.map((area) => (
+                      <option key={area} value={area}>{area}</option>
+                    ))}
+                  </select>
+                  {errors.location && (
+                    <p className="font-inter text-xs text-red-500 mt-1">{errors.location}</p>
+                  )}
+                </div>
+
+                {/* 8. Cuisine Preferences */}
+                <div>
+                  <label htmlFor="cuisinePreferences" className="font-inter text-caption font-medium uppercase tracking-wider text-black mb-2 block">
+                    Cuisine Preferences <span className="text-gray-500 normal-case tracking-normal">(optional)</span>
+                  </label>
+                  <input
+                    type="text"
+                    id="cuisinePreferences"
+                    name="cuisinePreferences"
+                    placeholder="e.g., Mediterranean, Asian Fusion, French..."
+                    value={formData.cuisinePreferences}
+                    onChange={handleChange}
+                    className="w-full bg-charcoal border border-charcoal-light px-4 py-3.5 font-inter text-body text-white placeholder-gray-500 outline-none transition-all duration-200 focus:border-gold focus:shadow-[0_0_0_2px_rgba(200,164,92,0.2)]"
+                  />
+                </div>
+
+                {/* 9. Dietary Restrictions */}
+                <div>
+                  <label className="font-inter text-caption font-medium uppercase tracking-wider text-black mb-3 block">
+                    Dietary Restrictions <span className="text-gray-500 normal-case tracking-normal">(optional)</span>
+                  </label>
+                  <div className="flex flex-wrap gap-3">
+                    {dietaryOptions.map((option) => (
+                      <label
+                        key={option}
+                        className={`inline-flex items-center gap-2 border px-4 py-2 font-inter text-body-sm cursor-pointer transition-all duration-200 select-none ${
+                          formData.dietaryRestrictions.includes(option)
+                            ? 'border-gold bg-gold/10 text-black'
+                            : 'border-charcoal-light bg-charcoal text-gray-400 hover:border-gold/50'
+                        }`}
+                      >
+                        <input
+                          type="checkbox"
+                          className="sr-only"
+                          checked={formData.dietaryRestrictions.includes(option)}
+                          onChange={() => handleCheckboxChange('dietaryRestrictions', option)}
+                        />
+                        {option}
+                      </label>
+                    ))}
+                  </div>
+                </div>
+
+                {/* 10. Additional Services */}
+                <div>
+                  <label className="font-inter text-caption font-medium uppercase tracking-wider text-black mb-3 block">
+                    Additional Services <span className="text-gray-500 normal-case tracking-normal">(optional)</span>
+                  </label>
+                  <div className="flex flex-wrap gap-3">
+                    {additionalServices.map((service) => (
+                      <label
+                        key={service}
+                        className={`inline-flex items-center gap-2 border px-4 py-2 font-inter text-body-sm cursor-pointer transition-all duration-200 select-none ${
+                          formData.additionalServices.includes(service)
+                            ? 'border-gold bg-gold/10 text-black'
+                            : 'border-charcoal-light bg-charcoal text-gray-400 hover:border-gold/50'
+                        }`}
+                      >
+                        <input
+                          type="checkbox"
+                          className="sr-only"
+                          checked={formData.additionalServices.includes(service)}
+                          onChange={() => handleCheckboxChange('additionalServices', service)}
+                        />
+                        {service}
+                      </label>
+                    ))}
+                  </div>
+                </div>
+
+                {/* 11. Special Requests */}
+                <div>
+                  <label htmlFor="specialRequests" className="font-inter text-caption font-medium uppercase tracking-wider text-black mb-2 block">
+                    Special Requests <span className="text-gray-500 normal-case tracking-normal">(optional)</span>
+                  </label>
+                  <textarea
+                    id="specialRequests"
+                    name="specialRequests"
+                    rows={4}
+                    placeholder="Share any details about your vision, occasion, or special requests..."
+                    value={formData.specialRequests}
+                    onChange={handleChange}
+                    className="w-full bg-charcoal border border-charcoal-light px-4 py-3.5 font-inter text-body text-white placeholder-gray-500 outline-none transition-all duration-200 focus:border-gold focus:shadow-[0_0_0_2px_rgba(200,164,92,0.2)] resize-none"
+                  />
+                </div>
+
+                {/* Submit Button */}
+                <button
+                  type="submit"
+                  disabled={isSubmitting}
+                  className="btn-primary w-full mt-2 disabled:opacity-70 disabled:cursor-not-allowed"
+                >
+                  {isSubmitting ? (
+                    <span className="inline-flex items-center gap-2">
+                      <Loader2 size={16} className="animate-spin" />
+                      Sending...
+                    </span>
+                  ) : (
+                    'Request My Custom Quote'
+                  )}
+                </button>
+
+                {/* General error */}
+                {Object.keys(errors).length > 0 && (
+                  <p className="font-inter text-xs text-red-500 text-center">
+                    Please fix the errors above and try again.
+                  </p>
+                )}
+              </form>
+            </div>
+
+            {/* Right Column — Trust Sidebar */}
+            <div ref={sidebarRef}>
+              <div className="bg-black p-8 lg:sticky lg:top-[100px]">
+                <h3 className="font-playfair text-[24px] text-white mb-8">
+                  What Happens Next?
+                </h3>
+
+                {/* Steps */}
+                <div className="flex flex-col gap-6 mb-8">
+                  <div className="flex gap-4">
+                    <div className="w-8 h-8 rounded-full bg-gold flex items-center justify-center flex-shrink-0">
+                      <span className="font-inter text-sm font-medium text-black">1</span>
+                    </div>
+                    <div>
+                      <h4 className="font-inter text-body-sm font-medium text-white mb-1">
+                        We Review Your Request
+                      </h4>
+                      <p className="font-inter text-body-sm text-gray-400">
+                        Within 2 hours, our team reviews your details.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="flex gap-4">
+                    <div className="w-8 h-8 rounded-full bg-gold flex items-center justify-center flex-shrink-0">
+                      <span className="font-inter text-sm font-medium text-black">2</span>
+                    </div>
+                    <div>
+                      <h4 className="font-inter text-body-sm font-medium text-white mb-1">
+                        We Create Your Proposal
+                      </h4>
+                      <p className="font-inter text-body-sm text-gray-400">
+                        A bespoke menu and quote tailored to your event.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="flex gap-4">
+                    <div className="w-8 h-8 rounded-full bg-gold flex items-center justify-center flex-shrink-0">
+                      <span className="font-inter text-sm font-medium text-black">3</span>
+                    </div>
+                    <div>
+                      <h4 className="font-inter text-body-sm font-medium text-white mb-1">
+                        You Confirm & Relax
+                      </h4>
+                      <p className="font-inter text-body-sm text-gray-400">
+                        Once confirmed, we handle everything else.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Divider */}
+                <div className="border-t border-charcoal-light my-8" />
+
+                {/* Trust Badges */}
+                <div className="flex flex-col gap-3">
+                  {[
+                    'Response within 2 hours',
+                    'No obligation quote',
+                    'Fully insured service',
+                    'Discreet & professional',
+                  ].map((badge) => (
+                    <div key={badge} className="flex items-center gap-3">
+                      <Check size={16} className="text-gold flex-shrink-0" />
+                      <span className="font-inter text-body-sm text-gray-400">{badge}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Section 3: Alternative Contact */}
+      <section ref={altContactRef} className="bg-cream py-16">
+        <div className="alt-content container-custom max-w-[800px] text-center">
+          <h3 className="font-playfair text-[24px] text-black mb-4">
+            Prefer to Talk Directly?
+          </h3>
+          <p className="font-inter text-body text-gray-500 mb-6">
+            We are available on WhatsApp for quick questions and immediate availability.
+          </p>
+
+          {/* WhatsApp CTA */}
+          <a
+            href={WHATSAPP_LINK}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-primary inline-flex items-center gap-2 mb-6"
+          >
+            <Phone size={16} />
+            Chat on WhatsApp
+          </a>
+
+          {/* Other contacts */}
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
+            <a
+              href="tel:+971500000000"
+              className="flex items-center gap-2 font-inter text-body-sm text-gray-500 hover:text-gold transition-colors"
+            >
+              <Phone size={16} className="text-gold" />
+              +971 50 000 0000
+            </a>
+            <a
+              href="mailto:hello@mychef.ae"
+              className="flex items-center gap-2 font-inter text-body-sm text-gray-500 hover:text-gold transition-colors"
+            >
+              <Mail size={16} className="text-gold" />
+              hello@mychef.ae
+            </a>
+            <span className="flex items-center gap-2 font-inter text-body-sm text-gray-500">
+              <MapPin size={16} className="text-gold" />
+              Dubai, UAE
+            </span>
+          </div>
+        </div>
+      </section>
+    </>
+  )
+}
