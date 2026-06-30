@@ -33,43 +33,58 @@ const corporateServices = [
     title: 'Boardroom Lunch',
     description:
       'Elegant working lunches for board meetings and executive sessions. Plated or buffet service.',
-    link: '/services/boardroom-lunch-catering-dubai',
+    link: '/business-lunch-catering-dubai',
   },
   {
     icon: Users,
     title: 'Team Lunch Catering',
     description:
       'Group lunch catering for teams of 10\u2013200. Fresh, delicious, and professionally served.',
-    link: '/services/team-lunch-catering-dubai',
+    link: '/office-catering-dubai',
   },
   {
     icon: Award,
     title: 'Client Entertainment',
     description:
       'Impress clients with sophisticated private dining. Bespoke menus in your office or a private venue.',
-    link: '/services/client-dining-dubai',
+    link: '/luxury-dining-experiences',
   },
   {
     icon: PartyPopper,
     title: 'Corporate Events',
     description:
       'Product launches, company celebrations, networking events. Full-service catering and coordination.',
-    link: '/services/corporate-event-catering-dubai',
+    link: '/corporate-event-catering-dubai',
   },
   {
     icon: Clock,
     title: 'Daily Office Catering',
     description:
       'Regular catering for your Dubai office. Breakfast, lunch, or both \u2014 scheduled and reliable.',
-    link: '/services/daily-office-catering-dubai',
+    link: '/office-catering-dubai',
   },
   {
     icon: Star,
     title: 'Executive Private Chef',
     description:
       'A dedicated chef for your executive dining room. Daily meal preparation for leadership teams.',
-    link: '/services/executive-private-chef-dubai',
+    link: '/private-chef-dubai',
   },
+]
+
+const corporateSolutions = [
+  { title: 'Office Catering', link: '/office-catering-dubai' },
+  { title: 'Business Lunch Catering', link: '/business-lunch-catering-dubai' },
+  { title: 'Corporate Event Catering', link: '/corporate-event-catering-dubai' },
+  { title: 'Conference Catering', link: '/conference-catering-dubai' },
+  { title: 'Staff Meals Catering', link: '/staff-meals-catering-dubai' },
+  { title: 'Film Crew Catering', link: '/film-crew-catering-dubai' },
+  { title: 'Production Catering', link: '/production-catering-dubai' },
+  { title: 'School Catering', link: '/school-catering-dubai' },
+  { title: 'Nursery Catering', link: '/nursery-catering-dubai' },
+  { title: 'Corporate Meal Prep', link: '/corporate-meal-prep-dubai' },
+  { title: 'Product Launch Catering', link: '/product-launch-catering-dubai' },
+  { title: 'Gala Dinner Catering', link: '/gala-dinner-catering-dubai' },
 ]
 
 const trustFeatures = [
@@ -222,6 +237,7 @@ const schema = [
 
 export default function Corporate() {
   const cardsRef = useRef<HTMLDivElement>(null)
+  const solutionsRef = useRef<HTMLDivElement>(null)
   const trustRef = useRef<HTMLDivElement>(null)
   const tiersRef = useRef<HTMLDivElement>(null)
   const processRef = useRef<HTMLDivElement>(null)
@@ -241,6 +257,19 @@ export default function Corporate() {
           {
             opacity: 1, y: 0, duration: 0.8, stagger: 0.1, ease: 'power3.out',
             scrollTrigger: { trigger: cardsRef.current, start: 'top 85%' },
+          }
+        )
+      }
+
+      /* Corporate solutions */
+      if (solutionsRef.current) {
+        const items = solutionsRef.current.children
+        gsap.fromTo(
+          items,
+          { opacity: 0, y: 40 },
+          {
+            opacity: 1, y: 0, duration: 0.7, stagger: 0.08, ease: 'power3.out',
+            scrollTrigger: { trigger: solutionsRef.current, start: 'top 85%' },
           }
         )
       }
@@ -359,6 +388,12 @@ export default function Corporate() {
             <h2 className="font-playfair text-h2 text-black mt-4">
               Business Dining Solutions
             </h2>
+            <p className="font-inter text-body text-gray-500 leading-relaxed mt-4 max-w-[700px] mx-auto">
+              We deliver corporate catering across Dubai's key business districts, including{' '}
+              <Link to="/locations/business-bay" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Business Bay</Link>{' '}
+              and{' '}
+              <Link to="/locations/difc" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">DIFC</Link>.
+            </p>
           </div>
           <div ref={cardsRef} className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {corporateServices.map((svc) => (
@@ -373,6 +408,34 @@ export default function Corporate() {
                   {svc.description}
                 </p>
                 <span className="inline-flex items-center gap-2 font-inter text-body-sm font-medium uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
+                  Learn More <ArrowRight size={14} />
+                </span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ─── Corporate Catering Solutions ─── */}
+      <section className="bg-cream section-padding">
+        <div className="container-custom">
+          <div className="text-center mb-12">
+            <span className="font-inter text-caption font-medium uppercase tracking-widest text-gold">
+              CORPORATE SOLUTIONS
+            </span>
+            <h2 className="font-playfair text-h2 text-black mt-4">
+              Corporate Catering Solutions
+            </h2>
+          </div>
+          <div ref={solutionsRef} className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            {corporateSolutions.map((solution) => (
+              <Link
+                key={solution.title}
+                to={solution.link}
+                className="group bg-white p-6 border-l-[3px] border-gold hover:-translate-y-1 hover:shadow-lg transition-all duration-300"
+              >
+                <h3 className="font-playfair text-h3 text-black mb-2">{solution.title}</h3>
+                <span className="inline-flex items-center gap-2 font-inter text-body-sm font-medium uppercase tracking-wider text-gold group-hover:text-gold-dark transition-colors">
                   Learn More <ArrowRight size={14} />
                 </span>
               </Link>

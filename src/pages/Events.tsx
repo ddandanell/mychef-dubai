@@ -33,42 +33,69 @@ const eventTypes = [
     title: 'Birthday Catering',
     description:
       'From intimate family dinners to milestone celebrations. Custom menus, cakes, and full service.',
-    link: '/services/birthday-catering-dubai',
+    link: '/birthday-catering-dubai',
   },
   {
     image: '/service-luxury-dining.webp',
     title: 'Wedding Catering',
     description:
       'Receptions, rehearsal dinners, post-wedding brunches. Elegant, bespoke, and unforgettable.',
-    link: '/services/wedding-catering-dubai',
+    link: '/wedding-catering-dubai',
   },
   {
     image: '/service-villa.webp',
     title: 'Villa Party Catering',
     description:
       'Full-service catering for villa events. Setup, service, cleanup \u2014 all handled professionally.',
-    link: '/services/villa-party-catering-dubai',
+    link: '/villas-private-residences',
   },
   {
     image: '/service-corporate.webp',
     title: 'Corporate Events',
     description:
       'Product launches, client entertaining, team celebrations. Professional and impressive.',
-    link: '/services/corporate-event-catering-dubai',
+    link: '/corporate-event-catering-dubai',
   },
   {
     image: '/service-yacht.webp',
     title: 'Yacht Event Catering',
     description:
       'Catering for yacht parties and events. Canapes, BBQ, plated service on the water.',
-    link: '/services/yacht-event-catering-dubai',
+    link: '/yachts',
   },
   {
     image: '/service-catering.webp',
     title: 'Cocktail Receptions',
     description:
       'Sophisticated canapes, passed appetizers, and cocktail service for networking events.',
-    link: '/services/cocktail-reception-catering-dubai',
+    link: '/cocktail-party-catering-dubai',
+  },
+]
+
+const relatedEventCatering = [
+  {
+    image: '/service-events.webp',
+    title: 'Private Party Catering',
+    description: 'Bespoke catering for any private celebration with friends and family.',
+    link: '/private-party-catering-dubai',
+  },
+  {
+    image: '/service-luxury-dining.webp',
+    title: 'Engagement Catering',
+    description: 'Elegant menus and styling to celebrate your engagement in style.',
+    link: '/engagement-catering-dubai',
+  },
+  {
+    image: '/service-catering.webp',
+    title: 'Anniversary Catering',
+    description: 'Romantic, refined catering for milestone anniversaries at home or venue.',
+    link: '/anniversary-catering-dubai',
+  },
+  {
+    image: '/menu-canapes.webp',
+    title: 'Baby Shower Catering',
+    description: 'Beautiful grazing tables, canapes, and sweet treats for baby showers.',
+    link: '/baby-shower-catering-dubai',
   },
 ]
 
@@ -194,6 +221,7 @@ export default function Events() {
   const testimonialRef = useRef<HTMLDivElement>(null)
   const ctaRef = useRef<HTMLDivElement>(null)
   const relatedRef = useRef<HTMLDivElement>(null)
+  const relatedEventsRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
     const ctx = gsap.context(() => {
@@ -335,6 +363,26 @@ export default function Events() {
         )
       }
 
+      /* Related event catering */
+      if (relatedEventsRef.current) {
+        const cards = relatedEventsRef.current.children
+        gsap.fromTo(
+          cards,
+          { opacity: 0, y: 40 },
+          {
+            opacity: 1,
+            y: 0,
+            duration: 0.7,
+            stagger: 0.12,
+            ease: 'power3.out',
+            scrollTrigger: {
+              trigger: relatedEventsRef.current,
+              start: 'top 85%',
+            },
+          }
+        )
+      }
+
       return () => ctx.revert()
     })
 
@@ -368,13 +416,24 @@ export default function Events() {
       <section className="bg-white section-padding">
         <div className="container-custom">
           {/* Header */}
-          <div className="text-center mb-12">
+          <div className="text-center mb-12 max-w-3xl mx-auto">
             <span className="font-inter text-caption font-medium uppercase tracking-widest text-gold">
               EVENTS WE CATER
             </span>
             <h2 className="font-playfair text-h2 text-black mt-4">
               Every Celebration Deserves Exceptional Food
             </h2>
+            <p className="font-inter text-base text-gray-600 mt-4 leading-relaxed">
+              From intimate gatherings to grand occasions, myCHEF Dubai delivers
+              flawless service and bespoke menus for every kind of{' '}
+              <Link
+                to="/party-catering-dubai"
+                className="text-gold hover:text-gold-dark underline underline-offset-4 transition-colors"
+              >
+                party catering Dubai
+              </Link>{' '}
+              experience.
+            </p>
           </div>
 
           {/* Grid */}
@@ -610,7 +669,55 @@ export default function Events() {
         </div>
       </section>
 
-      {/* ─── Section 9: CTA Banner ─── */}
+      {/* ─── Section 9: Related Event Catering ─── */}
+      <section className="bg-white section-padding">
+        <div className="container-custom">
+          <div className="text-center mb-12">
+            <span className="font-inter text-caption font-medium uppercase tracking-widest text-gold">
+              MORE EVENTS
+            </span>
+            <h2 className="font-playfair text-h2 text-black mt-4">
+              Related Event Catering
+            </h2>
+          </div>
+          <div
+            ref={relatedEventsRef}
+            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"
+          >
+            {relatedEventCatering.map((event) => (
+              <Link
+                key={event.title}
+                to={event.link}
+                className="group bg-cream overflow-hidden hover:-translate-y-1 hover:shadow-lg transition-all duration-300"
+              >
+                <div className="relative aspect-video overflow-hidden">
+                  <img
+                    src={event.image}
+                    alt={event.title}
+                    loading="lazy"
+                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                    decoding="async"
+                  />
+                  <div className="absolute inset-0 gradient-overlay-bottom" />
+                </div>
+                <div className="p-6">
+                  <h3 className="font-playfair text-h3 text-black mb-2">
+                    {event.title}
+                  </h3>
+                  <p className="font-inter text-body-sm text-gray-500 leading-relaxed mb-4">
+                    {event.description}
+                  </p>
+                  <span className="inline-flex items-center gap-2 font-inter text-body-sm font-medium uppercase tracking-wider text-gold group-hover:text-gold-dark transition-colors">
+                    Explore <ArrowRight size={14} />
+                  </span>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ─── Section 10: CTA Banner ─── */}
       <section
         className="relative py-28 md:py-32 overflow-hidden"
         style={{

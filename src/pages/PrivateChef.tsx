@@ -29,37 +29,37 @@ const serviceTypes = [
     icon: Utensils,
     title: 'Dinner Party Chef',
     description: 'Multi-course fine dining for dinner parties of 2\u201320 guests. Perfect for celebrations and special occasions.',
-    link: '/services/private-dinner-party-chef-dubai',
+    link: '/luxury-dining-experiences',
   },
   {
     icon: Home,
     title: 'Weekly Private Chef',
     description: 'A dedicated chef for your household \u2014 daily meal preparation, menu planning, and kitchen management.',
-    link: '/services/weekly-private-chef-dubai',
+    link: '/private-chef-dubai',
   },
   {
     icon: Calendar,
     title: 'Holiday Chef',
     description: 'Short-term private chef for your Dubai holiday. We handle every meal so you can relax.',
-    link: '/services/holiday-private-chef-dubai',
+    link: '/christmas-catering-dubai',
   },
   {
     icon: Baby,
     title: 'Family Chef',
     description: 'Family-friendly menus that delight every age. Nutritious, delicious, and beautifully presented.',
-    link: '/services/family-private-chef-dubai',
+    link: '/catering-dubai',
   },
   {
     icon: Leaf,
     title: 'Healthy Meal Prep',
     description: 'Nutrition-focused menus designed around your health goals. Fresh, balanced, and flavourful.',
-    link: '/services/healthy-private-chef-dubai',
+    link: '/healthy-catering-dubai',
   },
   {
     icon: Star,
     title: 'VIP & Celebrity Chef',
     description: 'Ultra-discreet service for high-profile clients. Confidentiality guaranteed.',
-    link: '/services/vip-private-chef-dubai',
+    link: '/vip-club',
   },
 ]
 
@@ -291,7 +291,9 @@ export default function PrivateChef() {
                 A private chef is a professional culinary expert who comes to your home, villa, or yacht to prepare bespoke meals exclusively for you and your guests. Unlike a restaurant experience, everything is designed around your preferences — the menu, the pacing, the atmosphere, the dietary requirements.
               </p>
               <p className="font-inter text-body text-gray-500 leading-relaxed">
-                At myCHEF Dubai, our private chef service includes menu consultation, ingredient sourcing, meal preparation, professional plating, table service, and complete kitchen cleanup. You simply enjoy the evening.
+                At myCHEF Dubai, our private chef service includes menu consultation, ingredient sourcing, meal preparation, professional plating, table service, and complete kitchen cleanup. You simply enjoy the evening. We regularly serve clients in{' '}
+                <Link to="/locations/downtown-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Downtown Dubai</Link>{' '}
+                and across every major Dubai community.
               </p>
             </div>
 
@@ -521,7 +523,9 @@ export default function PrivateChef() {
           <h3 className="font-playfair text-h3 text-black mb-4">Related Guides</h3>
           <p className="font-inter text-body text-gray-500 leading-relaxed">
             Planning an event in Dubai? Read our{' '}
-            <Link to="/private-chef-vs-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Private Chef vs Catering</Link>.
+            <Link to="/private-chef-vs-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Private Chef vs Catering</Link>{' '}
+            guide, or see{' '}
+            <Link to="/blog/how-much-does-private-chef-cost-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">how much does a private chef cost in Dubai</Link>.
           </p>
         </div>
       </section>

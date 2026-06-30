@@ -14,12 +14,12 @@ const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to reque
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 const yachtServices = [
-  { icon: Utensils, title: 'Yacht Private Chef', desc: 'A dedicated chef on board for your voyage. Multi-course dining prepared fresh in the yacht galley with the Dubai skyline as your backdrop.', link: '/services/yacht-private-chef-dubai' },
-  { icon: GlassWater, title: 'Cocktail Party', desc: 'Sophisticated passed canapes and appetizers for yacht cocktail receptions and sunset cruises. Elegant, effortless entertaining.', link: '/services/yacht-canape-service-dubai' },
-  { icon: Flame, title: 'BBQ on Deck', desc: 'Premium BBQ dining on deck. Chef-manned grilling station with premium cuts, fresh seafood, and Mediterranean-inspired sides.', link: '/services/yacht-bbq-dubai' },
-  { icon: UtensilsCrossed, title: 'Formal Yacht Dinner', desc: 'Multi-course plated dinner service on your yacht. White-glove service, stunning presentation, and an unforgettable atmosphere.', link: '/services/yacht-fine-dining-dubai' },
-  { icon: Ship, title: 'Yacht Event Catering', desc: 'Full-service catering for yacht parties and events. Canapes, buffet, plated options — we scale to your guest count.', link: '/services/yacht-event-catering-dubai' },
-  { icon: Sunrise, title: 'Sunrise & Sunset Brunch', desc: 'Elegant brunch service for morning or evening yacht cruises. Fresh, light, and beautifully presented for any time of day.', link: '/services/yacht-brunch-dubai' },
+  { icon: Utensils, title: 'Yacht Private Chef', desc: 'A dedicated chef on board for your voyage. Multi-course dining prepared fresh in the yacht galley with the Dubai skyline as your backdrop.', link: '/private-chef-dubai' },
+  { icon: GlassWater, title: 'Cocktail Party', desc: 'Sophisticated passed canapes and appetizers for yacht cocktail receptions and sunset cruises. Elegant, effortless entertaining.', link: '/cocktail-party-catering-dubai' },
+  { icon: Flame, title: 'BBQ on Deck', desc: 'Premium BBQ dining on deck. Chef-manned grilling station with premium cuts, fresh seafood, and Mediterranean-inspired sides.', link: '/bbq-catering-dubai' },
+  { icon: UtensilsCrossed, title: 'Formal Yacht Dinner', desc: 'Multi-course plated dinner service on your yacht. White-glove service, stunning presentation, and an unforgettable atmosphere.', link: '/luxury-dining-experiences' },
+  { icon: Ship, title: 'Yacht Event Catering', desc: 'Full-service catering for yacht parties and events. Canapes, buffet, plated options — we scale to your guest count.', link: '/events' },
+  { icon: Sunrise, title: 'Sunrise & Sunset Brunch', desc: 'Elegant brunch service for morning or evening yacht cruises. Fresh, light, and beautifully presented for any time of day.', link: '/brunch-catering-dubai' },
 ]
 
 const yachtRoutes = [
@@ -214,7 +214,7 @@ export default function Yachts() {
               </h3>
               <div className="space-y-4 font-inter text-body text-gray-400" style={{ lineHeight: '1.7' }}>
                 <p>There is nothing quite like dining on the water with Dubai&apos;s iconic skyline as your backdrop. Whether you are anchored off Palm Jumeirah, cruising past Burj Al Arab, or watching the sunset over Dubai Marina — a private chef elevates the experience to something truly extraordinary.</p>
-                <p>Our yacht chef services are designed around the unique challenges and opportunities of cooking at sea. We plan menus that work beautifully in a yacht galley, source ingredients that travel well, and present each course with the same precision you would expect in a fine dining restaurant.</p>
+                <p>Our yacht chef services are designed around the unique challenges and opportunities of cooking at sea. We plan menus that work beautifully in a yacht galley, source ingredients that travel well, and present each course with the same precision you would expect in a fine dining restaurant. For inspiration, explore our <Link to="/blog/yacht-party-menu-ideas-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">yacht party menu ideas</Link>.</p>
               </div>
             </div>
             <div className="yacht-exp-right">
@@ -267,6 +267,37 @@ export default function Yachts() {
                 <MapPin size={14} className="text-gold" />
                 {route}
               </span>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Section 4b: Yacht Catering Locations */}
+      <section className="bg-cream section-padding">
+        <div className="container-custom">
+          <div className="text-center mb-12">
+            <p className="font-inter text-caption font-medium uppercase tracking-wider text-gold mb-3">LOCATIONS</p>
+            <h2 className="font-playfair text-h2 text-black" style={{ lineHeight: '1.15' }}>
+              Yacht Catering Locations
+            </h2>
+            <p className="font-inter text-body text-gray-500 mt-4 max-w-xl mx-auto">
+              We board at Dubai&apos;s premier marinas and yacht destinations.
+            </p>
+          </div>
+          <div className="grid md:grid-cols-3 gap-6 max-w-[1000px] mx-auto">
+            {[
+              { label: 'Dubai Marina', href: '/locations/dubai-marina' },
+              { label: 'Palm Jumeirah', href: '/locations/palm-jumeirah' },
+              { label: 'Bluewaters Island', href: '/locations/bluewaters-island' },
+            ].map((loc) => (
+              <Link
+                key={loc.href}
+                to={loc.href}
+                className="group flex items-center justify-between p-6 border border-gray-200 hover:border-gold transition-all duration-300 bg-white"
+              >
+                <span className="font-playfair text-h4 text-black group-hover:text-gold transition-colors">{loc.label}</span>
+                <ChevronRight size={18} className="text-gold" />
+              </Link>
             ))}
           </div>
         </div>

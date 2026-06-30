@@ -459,6 +459,74 @@ export default function LocationDetail() {
         </div>
       </section>
 
+      {/* Services in [location] */}
+      <section className="bg-charcoal section-padding">
+        <div className="container-custom">
+          <div className="loc-section opacity-0 translate-y-8 text-center mb-12">
+            <h2 className="font-playfair text-h2 text-white">Services in {loc.name}</h2>
+            <p className="font-inter text-body text-gray-400 max-w-[600px] mx-auto mt-4">
+              Discover premium chef and catering services available across {loc.name}.
+            </p>
+          </div>
+          <div className="loc-links grid grid-cols-2 md:grid-cols-3 gap-4">
+            <Link
+              to="/private-chef-dubai"
+              className="loc-link group bg-black p-6 text-center hover:bg-charcoal-light transition-all duration-300 opacity-0"
+            >
+              <Users size={28} className="text-gold mx-auto mb-3" />
+              <p className="font-inter text-sm text-white group-hover:text-gold transition-colors">
+                Private Chef {loc.name}
+              </p>
+            </Link>
+            <Link
+              to="/catering-dubai"
+              className="loc-link group bg-black p-6 text-center hover:bg-charcoal-light transition-all duration-300 opacity-0"
+            >
+              <UtensilsCrossed size={28} className="text-gold mx-auto mb-3" />
+              <p className="font-inter text-sm text-white group-hover:text-gold transition-colors">
+                Catering {loc.name}
+              </p>
+            </Link>
+            <Link
+              to="/corporate"
+              className="loc-link group bg-black p-6 text-center hover:bg-charcoal-light transition-all duration-300 opacity-0"
+            >
+              <Building size={28} className="text-gold mx-auto mb-3" />
+              <p className="font-inter text-sm text-white group-hover:text-gold transition-colors">
+                Corporate Catering {loc.name}
+              </p>
+            </Link>
+            <Link
+              to="/yachts"
+              className="loc-link group bg-black p-6 text-center hover:bg-charcoal-light transition-all duration-300 opacity-0"
+            >
+              <Ship size={28} className="text-gold mx-auto mb-3" />
+              <p className="font-inter text-sm text-white group-hover:text-gold transition-colors">
+                Yacht Catering {loc.name}
+              </p>
+            </Link>
+            <Link
+              to="/villas-private-residences"
+              className="loc-link group bg-black p-6 text-center hover:bg-charcoal-light transition-all duration-300 opacity-0"
+            >
+              <Home size={28} className="text-gold mx-auto mb-3" />
+              <p className="font-inter text-sm text-white group-hover:text-gold transition-colors">
+                Villa Catering {loc.name}
+              </p>
+            </Link>
+            <Link
+              to="/events"
+              className="loc-link group bg-black p-6 text-center hover:bg-charcoal-light transition-all duration-300 opacity-0"
+            >
+              <Calendar size={28} className="text-gold mx-auto mb-3" />
+              <p className="font-inter text-sm text-white group-hover:text-gold transition-colors">
+                Event Catering {loc.name}
+              </p>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* Related Services */}
       <section className="bg-black section-padding">
         <div className="container-custom">

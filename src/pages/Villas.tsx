@@ -14,12 +14,19 @@ const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to reque
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 const villaServices = [
-  { icon: Utensils, title: 'Daily Private Chef', desc: 'A dedicated chef for your daily meals. Fresh, restaurant-quality dining prepared right in your villa kitchen, every day of your stay.', link: '/services/daily-villa-chef-dubai' },
-  { icon: Calendar, title: 'Weekly Meal Prep', desc: 'Comprehensive weekly meal planning and preparation. Nutritious, delicious meals ready when you are — perfect for busy families.', link: '/services/weekly-villa-chef-dubai' },
-  { icon: Home, title: 'Special Occasion Dinner', desc: 'An unforgettable multi-course dinner for birthdays, anniversaries, or any special celebration in the comfort of your villa.', link: '/services/villa-occasion-dinner-dubai' },
-  { icon: PartyPopper, title: 'Family Style Dining', desc: 'Beautifully presented family-style meals that bring everyone together. Perfect for family gatherings and multi-generational stays.', link: '/services/family-villa-dining-dubai' },
-  { icon: Baby, title: 'Poolside BBQ', desc: 'Premium BBQ dining by your villa pool. Chef-manned grilling station with premium cuts, seafood, and all the trimmings.', link: '/services/villa-poolside-bbq-dubai' },
-  { icon: Leaf, title: 'Breakfast & Brunch', desc: 'Elegant breakfast and brunch service at your villa. Fresh pastries, eggs any style, smoothie bowls, and champagne upon request.', link: '/services/villa-breakfast-brunch-dubai' },
+  { icon: Utensils, title: 'Daily Private Chef', desc: 'A dedicated chef for your daily meals. Fresh, restaurant-quality dining prepared right in your villa kitchen, every day of your stay.', link: '/private-chef-dubai' },
+  { icon: Calendar, title: 'Weekly Meal Prep', desc: 'Comprehensive weekly meal planning and preparation. Nutritious, delicious meals ready when you are — perfect for busy families.', link: '/corporate-meal-prep-dubai' },
+  { icon: Home, title: 'Special Occasion Dinner', desc: 'An unforgettable multi-course dinner for birthdays, anniversaries, or any special celebration in the comfort of your villa.', link: '/luxury-dining-experiences' },
+  { icon: PartyPopper, title: 'Family Style Dining', desc: 'Beautifully presented family-style meals that bring everyone together. Perfect for family gatherings and multi-generational stays.', link: '/catering-dubai' },
+  { icon: Baby, title: 'Poolside BBQ', desc: 'Premium BBQ dining by your villa pool. Chef-manned grilling station with premium cuts, seafood, and all the trimmings.', link: '/bbq-catering-dubai' },
+  { icon: Leaf, title: 'Breakfast & Brunch', desc: 'Elegant breakfast and brunch service at your villa. Fresh pastries, eggs any style, smoothie bowls, and champagne upon request.', link: '/brunch-catering-dubai' },
+]
+
+const villaLocationsWeServe = [
+  { image: '/loc-emirates-hills.webp', name: 'Emirates Hills', link: '/locations/emirates-hills' },
+  { image: '/loc-jbr.webp', name: 'Arabian Ranches', link: '/locations/arabian-ranches' },
+  { image: '/loc-jumeirah.webp', name: 'Jumeirah', link: '/locations/jumeirah' },
+  { image: '/loc-palm-jumeirah.webp', name: 'Palm Jumeirah', link: '/locations/palm-jumeirah' },
 ]
 
 const villaCommunities = [
@@ -128,6 +135,12 @@ export default function Villas() {
       gsap.from('.community-card', {
         opacity: 0, y: 50, duration: 0.8, stagger: 0.1, ease: 'power3.out',
         scrollTrigger: { trigger: '.communities-grid', start: 'top 85%', toggleActions: 'play none none none' },
+      })
+
+      // Villa location cards
+      gsap.from('.villa-location-card', {
+        opacity: 0, y: 50, duration: 0.8, stagger: 0.1, ease: 'power3.out',
+        scrollTrigger: { trigger: '.villa-locations-grid', start: 'top 85%', toggleActions: 'play none none none' },
       })
 
       // Experience features
@@ -247,7 +260,30 @@ export default function Villas() {
         </div>
       </section>
 
-      {/* Section 4: The Villa Experience */}
+      {/* Section 4: Villa Locations We Serve */}
+      <section className="bg-white section-padding">
+        <div className="container-custom">
+          <div className="text-center mb-16">
+            <p className="font-inter text-caption font-medium uppercase tracking-wider text-gold mb-3">VILLA LOCATIONS</p>
+            <h2 className="font-playfair text-h2 text-black" style={{ lineHeight: '1.15' }}>
+              Villa Locations We Serve
+            </h2>
+          </div>
+          <div className="villa-locations-grid grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {villaLocationsWeServe.map((loc) => (
+              <Link key={loc.name} to={loc.link} className="villa-location-card group relative overflow-hidden block">
+                <img src={loc.image} alt={loc.name} className="w-full h-64 object-cover transition-transform duration-700 group-hover:scale-105" decoding="async" loading="lazy"/>
+                <div className="absolute inset-0" style={{ background: 'linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.2) 50%, rgba(0,0,0,0) 100%)' }} />
+                <div className="absolute bottom-0 left-0 right-0 p-6">
+                  <h3 className="font-playfair text-h4 text-white group-hover:text-gold transition-colors">{loc.name}</h3>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Section 5: The Villa Experience */}
       <section className="bg-cream section-padding">
         <div className="container-custom">
           <div className="text-center mb-16">
@@ -269,7 +305,7 @@ export default function Villas() {
         </div>
       </section>
 
-      {/* Section 5: Villa Features */}
+      {/* Section 6: Villa Features */}
       <section className="bg-white section-padding">
         <div className="container-custom">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
@@ -279,7 +315,7 @@ export default function Villas() {
                 The myCHEF Villa<br />Advantage
               </h2>
               <p className="font-inter text-body text-gray-500 mb-8" style={{ lineHeight: '1.7' }}>
-                Having a private chef in your villa transforms everyday dining into an extraordinary experience. No reservations, no travel, no crowds — just exceptional food, prepared exclusively for you in the comfort of your own home.
+                Having a private chef in your villa transforms everyday dining into an extraordinary experience. No reservations, no travel, no crowds — just exceptional food, prepared exclusively for you in the comfort of your own home. Browse our <Link to="/villa-catering-ideas-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">villa catering ideas</Link> for inspiration.
               </p>
               <div className="villa-features-grid space-y-6">
                 {villaFeatures.map((feat) => (
@@ -306,7 +342,7 @@ export default function Villas() {
         </div>
       </section>
 
-      {/* Section 6: Gallery */}
+      {/* Section 7: Gallery */}
       <section className="bg-black py-20">
         <div className="container-custom">
           <div className="text-center mb-12">
@@ -326,7 +362,7 @@ export default function Villas() {
         </div>
       </section>
 
-      {/* Section 7: Testimonial */}
+      {/* Section 8: Testimonial */}
       <section className="bg-charcoal py-20">
         <div className="villa-testimonial max-w-[800px] mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="text-gold text-4xl font-playfair mb-6">&ldquo;</div>
@@ -339,7 +375,7 @@ export default function Villas() {
         </div>
       </section>
 
-      {/* Section 8: FAQ */}
+      {/* Section 9: FAQ */}
       <section className="bg-white section-padding">
         <div className="max-w-[800px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
@@ -372,7 +408,7 @@ export default function Villas() {
         </div>
       </section>
 
-      {/* Section 9: Related Services */}
+      {/* Section 10: Related Services */}
       <section className="bg-cream py-16">
         <div className="container-custom">
           <div className="flex flex-wrap items-center justify-center gap-4">
@@ -402,7 +438,7 @@ export default function Villas() {
         </div>
       </section>
 
-      {/* Section 10: CTA Banner */}
+      {/* Section 11: CTA Banner */}
       <section className="villas-cta-section bg-black py-24">
         <div className="villas-cta-content container-custom text-center">
           <h2 className="font-playfair text-h2 text-white mb-4" style={{ lineHeight: '1.15' }}>

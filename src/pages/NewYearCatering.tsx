@@ -465,6 +465,23 @@ export default function NewYearCatering() {
         </div>
       </section>
 
+      {/* ═══════════════ Section 9b: Related Seasonal Services ═══════════════ */}
+      <section className="bg-cream section-padding">
+        <div className="container-custom max-w-[900px]">
+          <h2 className="font-playfair text-h3 text-black text-center mb-8">
+            Related Seasonal Services
+          </h2>
+          <p className="font-inter text-body text-gray-500 text-center mb-8 leading-relaxed">
+            Celebrate the festive season across Dubai with these related catering services.
+          </p>
+          <div className="flex flex-wrap items-center justify-center gap-3">
+            <Link to="/christmas-catering-dubai" className="px-5 py-2.5 border border-gold/30 text-gold font-inter text-sm hover:bg-gold hover:text-black transition-colors rounded-sm">Christmas Catering Dubai</Link>
+            <Link to="/cocktail-party-catering-dubai" className="px-5 py-2.5 border border-gold/30 text-gold font-inter text-sm hover:bg-gold hover:text-black transition-colors rounded-sm">Cocktail Party Catering Dubai</Link>
+            <Link to="/brunch-catering-dubai" className="px-5 py-2.5 border border-gold/30 text-gold font-inter text-sm hover:bg-gold hover:text-black transition-colors rounded-sm">Brunch Catering Dubai</Link>
+          </div>
+        </div>
+      </section>
+
       {/* ═══════════════ Section 10: FAQ ═══════════════ */}
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
