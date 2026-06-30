@@ -15,7 +15,7 @@ export function organizationSchema() {
     ],
     contactPoint: {
       '@type': 'ContactPoint',
-      telephone: '+971-58-827-4544',
+      telephone: '+971-55-174-4849',
       contactType: 'customer service',
       areaServed: 'AE',
       availableLanguage: ['English'],
@@ -41,7 +41,7 @@ export function localBusinessSchema() {
       '@type': 'City',
       name: 'Dubai',
     },
-    telephone: '+971-58-827-4544',
+    telephone: '+971-55-174-4849',
     priceRange: '$$$$',
     currenciesAccepted: 'AED, USD',
     paymentAccepted: 'Cash, Credit Card, Bank Transfer',

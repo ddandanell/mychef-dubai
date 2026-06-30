@@ -23,7 +23,7 @@ import {
 
 gsap.registerPlugin(ScrollTrigger)
 
-const WHATSAPP_NUMBER = '971588274544'
+const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent(
   "Hi myCHEF Dubai, I'd like to request a quote for event catering"
 )

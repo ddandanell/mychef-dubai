@@ -11,7 +11,7 @@ const navLinks = [
   { label: 'Contact', href: '/contact' },
 ]
 
-const WHATSAPP_NUMBER = '971588274544'
+const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I would like to request a quote for private chef or catering services.')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 

@@ -20,7 +20,7 @@ import SEO from '../components/SEO'
 
 gsap.registerPlugin(ScrollTrigger)
 
-const WHATSAPP_NUMBER = '971588274544'
+const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to request a catering quote')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
@@ -28,34 +28,34 @@ const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}
 
 const cateringFormats = [
   {
-    title: 'Plated Dinner Service',
-    description: 'Elegant multi-course dinners with professional table service. Perfect for formal events and intimate celebrations.',
-    link: '/services/plated-dinner-catering-dubai',
+    title: 'BBQ Catering',
+    description: 'Premium outdoor BBQ with chef-manned grilling stations. Perfect for villa parties and casual celebrations.',
+    link: '/bbq-catering-dubai',
   },
   {
     title: 'Buffet Catering',
     description: 'Beautifully presented buffet stations with hot and cold options. Ideal for larger gatherings and corporate events.',
-    link: '/services/buffet-catering-dubai',
+    link: '/buffet-catering-dubai',
   },
   {
-    title: 'Canapes & Cocktails',
-    description: 'Sophisticated finger food and passed canapes for cocktail receptions, openings, and networking events.',
-    link: '/services/canape-catering-dubai',
+    title: 'Canapé Catering',
+    description: 'Sophisticated passed canapés and finger food for cocktail receptions, openings, and networking events.',
+    link: '/canape-catering-dubai',
   },
   {
-    title: 'BBQ Catering',
-    description: 'Premium outdoor BBQ with chef-manned grilling stations. Perfect for villa parties and casual celebrations.',
-    link: '/services/bbq-catering-dubai',
+    title: 'Grazing Tables',
+    description: 'Artisan grazing spreads of cheeses, charcuterie, and seasonal produce — a striking centrepiece for any gathering.',
+    link: '/grazing-table-dubai',
   },
   {
-    title: 'Brunch Catering',
-    description: 'Elegant brunch spreads for morning and midday events. From continental to full hot brunch stations.',
-    link: '/services/brunch-catering-dubai',
+    title: 'Live Cooking Stations',
+    description: 'Interactive chef stations that bring theatre to your event, freshly prepared in front of your guests.',
+    link: '/live-cooking-stations-dubai',
   },
   {
-    title: 'Family-Style Dining',
-    description: 'Shared platters served to the table for a warm, convivial atmosphere. Great for family gatherings.',
-    link: '/services/family-style-catering-dubai',
+    title: 'Dessert Tables',
+    description: 'Patisserie, cakes, and sweet tables styled to your theme — the perfect finish to weddings and celebrations.',
+    link: '/dessert-table-catering-dubai',
   },
 ]
 
@@ -117,7 +117,7 @@ const locations = [
   { name: 'Downtown Dubai', slug: 'downtown-dubai' },
   { name: 'Dubai Marina', slug: 'dubai-marina' },
   { name: 'Emirates Hills', slug: 'emirates-hills' },
-  { name: 'JBR', slug: 'jumeirah-beach-residence' },
+  { name: 'JBR', slug: 'jbr' },
   { name: 'DIFC', slug: 'difc' },
   { name: 'Business Bay', slug: 'business-bay' },
   { name: 'Jumeirah', slug: 'jumeirah' },
@@ -187,7 +187,7 @@ const schema = {
     '@type': 'FoodService',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
-    telephone: '+971-58-827-4544',
+    telephone: '+971-55-174-4849',
     areaServed: 'Dubai, UAE',
   },
   serviceType: 'Catering Service',

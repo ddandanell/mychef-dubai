@@ -11,7 +11,7 @@ const locations = [
   { image: '/loc-downtown.jpg', name: 'Downtown Dubai', slug: 'downtown-dubai' },
   { image: '/loc-dubai-marina.jpg', name: 'Dubai Marina', slug: 'dubai-marina' },
   { image: '/loc-emirates-hills.jpg', name: 'Emirates Hills', slug: 'emirates-hills' },
-  { image: '/loc-jbr.jpg', name: 'Jumeirah Beach Residence', slug: 'jumeirah-beach-residence' },
+  { image: '/loc-jbr.jpg', name: 'JBR', slug: 'jbr' },
   { image: '/loc-difc.jpg', name: 'DIFC', slug: 'difc' },
 ]
 

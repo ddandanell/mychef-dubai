@@ -30,7 +30,7 @@ export default function NewYearCatering() {
           <p className="text-gray-300 text-lg max-w-2xl mx-auto">Ring in the New Year with spectacular catering. Gala dinners, yacht parties, and villa celebrations across Dubai.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
             <a href="/inquiry" className="btn-primary">Plan New Year&apos;s Eve</a>
-            <a href="https://wa.me/971588274544" target="_blank" rel="noopener noreferrer" className="btn-secondary">Chat on WhatsApp</a>
+            <a href="https://wa.me/971551744849" target="_blank" rel="noopener noreferrer" className="btn-secondary">Chat on WhatsApp</a>
           </div>
         </div>
       </section>

@@ -146,7 +146,7 @@ const policySections = [
       'If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us:',
     ],
     bullets: [
-      'Email: hello@mychef.ae',
+      'Email: hallo@mychef.ae',
       'WhatsApp: +971 50 XXX XXXX',
       'We will respond to all privacy-related inquiries within 48 hours.',
     ],
@@ -234,11 +234,11 @@ export default function Privacy() {
               If you have any questions or concerns about how we handle your data, we are here to help.
             </p>
             <a
-              href="mailto:hello@mychef.ae"
+              href="mailto:hallo@mychef.ae"
               className="inline-flex items-center gap-2 font-inter text-body-sm font-medium text-gold hover:text-gold-dark transition-colors"
             >
               <Mail size={16} />
-              hello@mychef.ae
+              hallo@mychef.ae
             </a>
           </div>
         </div>

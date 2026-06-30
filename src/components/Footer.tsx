@@ -12,15 +12,24 @@ const serviceLinks = [
 ]
 
 const locationLinks = [
-  { label: 'Palm Jumeirah', href: '/locations/palm-jumeirah' },
-  { label: 'Downtown Dubai', href: '/locations/downtown-dubai' },
   { label: 'Dubai Marina', href: '/locations/dubai-marina' },
-  { label: 'Emirates Hills', href: '/locations/emirates-hills' },
-  { label: 'JBR', href: '/locations/jumeirah-beach-residence' },
+  { label: 'Downtown Dubai', href: '/locations/downtown-dubai' },
+  { label: 'Palm Jumeirah', href: '/locations/palm-jumeirah' },
+  { label: 'Jumeirah', href: '/locations/jumeirah' },
+  { label: 'JBR', href: '/locations/jbr' },
+  { label: 'Business Bay', href: '/locations/business-bay' },
   { label: 'DIFC', href: '/locations/difc' },
+  { label: 'Emirates Hills', href: '/locations/emirates-hills' },
+  { label: 'Arabian Ranches', href: '/locations/arabian-ranches' },
+  { label: 'Dubai Hills', href: '/locations/dubai-hills' },
+  { label: 'JVC', href: '/locations/jvc' },
+  { label: 'JLT', href: '/locations/jlt' },
+  { label: 'Bluewaters Island', href: '/locations/bluewaters-island' },
+  { label: 'Umm Suqeim', href: '/locations/umm-suqeim' },
+  { label: 'Al Barsha', href: '/locations/al-barsha' },
 ]
 
-const WHATSAPP_NUMBER = '971588274544'
+const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to request a quote')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
@@ -95,7 +104,7 @@ export default function Footer() {
                   className="flex items-center gap-3 font-inter text-body-sm text-gray-400 hover:text-gold transition-colors duration-200"
                 >
                   <Phone size={16} className="text-gold flex-shrink-0" />
-                  <span>+971 58 827 4544</span>
+                  <span>+971 55 174 4849</span>
                 </a>
               </li>
               <li>

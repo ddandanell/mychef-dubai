@@ -8,7 +8,7 @@ import { breadcrumbSchema } from '@/utils/schema'
 
 gsap.registerPlugin(ScrollTrigger)
 
-const WHATSAPP_NUMBER = '971588274544'
+const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to request a quote')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
@@ -171,7 +171,7 @@ export default function OurChefs() {
       <section ref={heroRef} className="relative min-h-[55vh] flex items-center justify-center bg-black overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="/team-kitchen.jpg"
+            src="/service-private-chef.jpg"
             alt="Our culinary team at work"
             className="w-full h-full object-cover opacity-30"
             loading="eager"

@@ -8,7 +8,7 @@ import { breadcrumbSchema } from '@/utils/schema'
 
 gsap.registerPlugin(ScrollTrigger)
 
-const WHATSAPP_NUMBER = '971588274544'
+const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to request a quote')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
@@ -710,18 +710,18 @@ export default function Inquiry() {
           {/* Other contacts */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
             <a
-              href="tel:+971588274544"
+              href="tel:+971551744849"
               className="flex items-center gap-2 font-inter text-body-sm text-gray-500 hover:text-gold transition-colors"
             >
               <Phone size={16} className="text-gold" />
-              +971 58 827 4544
+              +971 55 174 4849
             </a>
             <a
-              href="mailto:hello@mychef.ae"
+              href="mailto:hallo@mychef.ae"
               className="flex items-center gap-2 font-inter text-body-sm text-gray-500 hover:text-gold transition-colors"
             >
               <Mail size={16} className="text-gold" />
-              hello@mychef.ae
+              hallo@mychef.ae
             </a>
             <span className="flex items-center gap-2 font-inter text-body-sm text-gray-500">
               <MapPin size={16} className="text-gold" />

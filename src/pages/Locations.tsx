@@ -1,34 +1,38 @@
 import { useEffect, useRef } from 'react'
 import { Link } from 'react-router'
-import { gsap } from 'gsap'
+import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import SEO from '../components/SEO'
-import { MapPin, ArrowRight } from 'lucide-react'
+import { MapPin, ArrowRight, Phone } from 'lucide-react'
 
 gsap.registerPlugin(ScrollTrigger)
 
+const WHATSAPP_NUMBER = '971551744849'
+const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to request a quote')
+const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
+
 const dubaiLocations = [
-  { name: 'Palm Jumeirah', slug: 'palm-jumeirah', image: '/loc-palm-jumeirah.jpg', description: 'Private chef services for Palm Jumeirah villas and apartments' },
+  { name: 'Dubai Marina', slug: 'dubai-marina', image: '/loc-dubai-marina.jpg', description: 'Yacht-ready private dining and event catering in Dubai Marina' },
   { name: 'Downtown Dubai', slug: 'downtown-dubai', image: '/loc-downtown.jpg', description: 'Premium private dining near Burj Khalifa' },
-  { name: 'Dubai Marina', slug: 'dubai-marina', image: '/loc-dubai-marina.jpg', description: 'Private chef and yacht catering in Dubai Marina' },
-  { name: 'Emirates Hills', slug: 'emirates-hills', image: '/loc-emirates-hills.jpg', description: 'Luxury villa chef services in Emirates Hills' },
-  { name: 'Jumeirah', slug: 'jumeirah', image: '/loc-jumeirah.jpg', description: 'Private chef for Jumeirah beach villas' },
-  { name: 'JBR', slug: 'jbr', image: '/loc-jbr.jpg', description: 'Catering and private chef services in JBR' },
+  { name: 'Palm Jumeirah', slug: 'palm-jumeirah', image: '/loc-palm-jumeirah.jpg', description: 'Ultra-luxury private chef services for Palm Jumeirah villas' },
+  { name: 'Jumeirah', slug: 'jumeirah', image: '/loc-jumeirah.jpg', description: 'Beachfront private chef for Jumeirah villas' },
+  { name: 'JBR', slug: 'jbr', image: '/loc-jbr.jpg', description: 'Beachfront catering and private chef services in JBR' },
   { name: 'Business Bay', slug: 'business-bay', image: '/loc-difc.jpg', description: 'Corporate catering and private dining in Business Bay' },
   { name: 'DIFC', slug: 'difc', image: '/loc-difc.jpg', description: 'Executive dining and corporate catering in DIFC' },
-  { name: 'Dubai Hills', slug: 'dubai-hills', image: '/loc-emirates-hills.jpg', description: 'Villa private chef services in Dubai Hills' },
-  { name: 'Jumeirah Islands', slug: 'jumeirah-islands', image: '/loc-palm-jumeirah.jpg', description: 'Private chef for Jumeirah Islands residences' },
-  { name: 'Arabian Ranches', slug: 'arabian-ranches', image: '/loc-emirates-hills.jpg', description: 'Family chef and catering in Arabian Ranches' },
-  { name: 'Bluewaters Island', slug: 'bluewaters-island', image: '/loc-dubai-marina.jpg', description: 'Luxury dining at Bluewaters Island' },
-  { name: 'Jumeirah Golf Estates', slug: 'jumeirah-golf-estates', image: '/loc-emirates-hills.jpg', description: 'Private chef for golf estate villas' },
-  { name: 'The Springs', slug: 'the-springs', image: '/loc-emirates-hills.jpg', description: 'Private chef services in The Springs' },
-  { name: 'Al Barari', slug: 'al-barari', image: '/loc-emirates-hills.jpg', description: 'Luxury private dining in Al Barari' },
-  { name: 'Meydan', slug: 'meydan', image: '/loc-downtown.jpg', description: 'Private chef services near Meydan' },
+  { name: 'Emirates Hills', slug: 'emirates-hills', image: '/loc-emirates-hills.jpg', description: 'Discreet luxury villa chef services in Emirates Hills' },
+  { name: 'Arabian Ranches', slug: 'arabian-ranches', image: '/loc-emirates-hills.jpg', description: 'Family chef and BBQ catering in Arabian Ranches' },
+  { name: 'Dubai Hills', slug: 'dubai-hills', image: '/loc-emirates-hills.jpg', description: 'Villa private chef and golf event catering in Dubai Hills' },
+  { name: 'JVC', slug: 'jvc', image: '/loc-dubai-marina.jpg', description: 'Family-focused private chef and catering in JVC' },
+  { name: 'JLT', slug: 'jlt', image: '/loc-dubai-marina.jpg', description: 'Lakeside office and residential catering in JLT' },
+  { name: 'Bluewaters Island', slug: 'bluewaters-island', image: '/loc-jbr.jpg', description: 'Luxury private dining for Bluewaters Island residents and visitors' },
+  { name: 'Umm Suqeim', slug: 'umm-suqeim', image: '/loc-jumeirah.jpg', description: 'Beachfront villa private dining in Umm Suqeim' },
+  { name: 'Al Barsha', slug: 'al-barsha', image: '/loc-downtown.jpg', description: 'Flexible luxury catering for Al Barsha homes and offices' },
 ]
 
 const additionalAreas = [
-  'Umm Suqeim', 'Al Safa', 'Jumeirah Village Circle', 'Dubai Creek Harbour',
-  'Nad Al Sheba', 'Al Wasl', 'Dubai Silicon Oasis', 'Mirdif',
+  'Mirdif', 'Meydan', 'Dubai Creek Harbour', 'Jumeirah Islands',
+  'Jumeirah Golf Estates', 'The Springs', 'The Meadows', 'Al Barari',
+  'Al Safa', 'Dubai Silicon Oasis', 'Nad Al Sheba', 'Al Wasl',
   'Deira', 'Bur Dubai', 'Al Quoz', 'Dubai South', 'Expo City Dubai'
 ]
 
@@ -37,6 +41,8 @@ export default function Locations() {
 
   useEffect(() => {
     const ctx = gsap.context(() => {
+      gsap.from('.gsap-hero', { opacity: 0, y: 30, duration: 0.8 })
+
       gsap.utils.toArray<HTMLElement>('.gsap-loc-card').forEach((card, i) => {
         gsap.from(card, {
           opacity: 0,
@@ -46,7 +52,6 @@ export default function Locations() {
           scrollTrigger: { trigger: card, start: 'top 90%', toggleActions: 'play none none none' }
         })
       })
-      gsap.from('.gsap-hero', { opacity: 0, y: 30, duration: 0.8 })
     }, pageRef)
     return () => ctx.revert()
   }, [])
@@ -55,8 +60,9 @@ export default function Locations() {
     <div ref={pageRef}>
       <SEO
         title="Private Chef & Catering Locations | myCHEF Dubai"
-        description="Premium private chef and luxury catering services across all Dubai locations. Palm Jumeirah, Downtown, Dubai Marina, Emirates Hills, JBR, DIFC & more."
+        description="Premium private chef and luxury catering services across Dubai. Palm Jumeirah, Downtown, Dubai Marina, Emirates Hills, JBR, DIFC, Business Bay, JVC & more."
         canonicalPath="/locations"
+        ogImage="/loc-downtown.jpg"
         schema={{
           '@context': 'https://schema.org',
           '@type': 'BreadcrumbList',
@@ -77,15 +83,15 @@ export default function Locations() {
             We Serve All of Dubai
           </h1>
           <p className="text-gray-300 text-lg max-w-2xl mx-auto">
-            From Palm Jumeirah to Downtown, our private chefs and catering teams cover every corner of Dubai
+            From Palm Jumeirah to Downtown, Emirates Hills to Dubai Marina — we bring premium dining to your doorstep.
           </p>
         </div>
       </section>
 
       {/* Location Cards Grid */}
       <section className="py-24 bg-black">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="container-custom">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {dubaiLocations.map((loc) => (
               <Link
                 key={loc.slug}
@@ -107,6 +113,9 @@ export default function Locations() {
                     <span className="text-xs uppercase tracking-wider">Dubai</span>
                   </div>
                   <h3 className="font-playfair text-xl text-white font-medium mb-1">{loc.name}</h3>
+                  <p className="text-gray-400 text-xs leading-snug opacity-0 group-hover:opacity-100 transition-opacity duration-300 mb-2">
+                    {loc.description}
+                  </p>
                   <div className="flex items-center text-gold text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <span>Explore</span>
                     <ArrowRight size={14} className="ml-1" />
@@ -120,7 +129,7 @@ export default function Locations() {
 
       {/* Additional Areas */}
       <section className="py-16 bg-charcoal">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="container-custom">
           <h2 className="font-playfair text-2xl text-white text-center mb-8">Also Serving</h2>
           <div className="flex flex-wrap justify-center gap-3">
             {additionalAreas.map((area) => (
@@ -139,15 +148,16 @@ export default function Locations() {
           <p className="text-gray-400 mb-8">We serve all of Dubai and surrounding Emirates. Message us to confirm availability for your location.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://wa.me/971588274544?text=Hi%20myCHEF%20Dubai%2C%20I%27d%20like%20to%20request%20a%20quote"
+              href={WHATSAPP_LINK}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-8 py-4 bg-gold text-black font-medium text-sm tracking-wider uppercase hover:bg-[#D9BC7A] transition-all duration-300 hover:-translate-y-0.5"
             >
+              <Phone size={16} className="mr-2" />
               Request My Custom Quote
             </a>
             <a
-              href="https://wa.me/971588274544"
+              href={`https://wa.me/${WHATSAPP_NUMBER}`}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-8 py-4 border border-gold text-gold font-medium text-sm tracking-wider uppercase hover:bg-gold hover:text-black transition-all duration-300"

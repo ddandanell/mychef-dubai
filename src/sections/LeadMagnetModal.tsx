@@ -41,7 +41,7 @@ export default function LeadMagnetModal() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
     if (phone.trim()) {
-      const waUrl = `https://wa.me/971588274544?text=${encodeURIComponent(
+      const waUrl = `https://wa.me/971551744849?text=${encodeURIComponent(
         `Hi myCHEF Dubai, please send me the price guide. My WhatsApp/phone: ${phone}`,
       )}`
       window.open(waUrl, '_blank')

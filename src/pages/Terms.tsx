@@ -8,7 +8,7 @@ import SEO from '@/components/SEO'
 
 gsap.registerPlugin(ScrollTrigger)
 
-const WHATSAPP_NUMBER = '971588274544'
+const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to request a quote')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
@@ -204,7 +204,7 @@ const sections = [
   {
     title: 'Contact',
     content: (
-      <p>For questions about these terms, please contact us at <a href="mailto:hello@mychef.ae" className="text-gold hover:underline">hello@mychef.ae</a> or via WhatsApp.</p>
+      <p>For questions about these terms, please contact us at <a href="mailto:hallo@mychef.ae" className="text-gold hover:underline">hallo@mychef.ae</a> or via WhatsApp.</p>
     ),
   },
 ]

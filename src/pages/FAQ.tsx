@@ -8,7 +8,7 @@ import SEO from '@/components/SEO'
 
 gsap.registerPlugin(ScrollTrigger)
 
-const WHATSAPP_NUMBER = '971588274544'
+const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to request a quote')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
@@ -75,7 +75,7 @@ const relatedLinks = [
     { label: 'Downtown Dubai', href: '/locations/downtown-dubai' },
     { label: 'Dubai Marina', href: '/locations/dubai-marina' },
     { label: 'Emirates Hills', href: '/locations/emirates-hills' },
-    { label: 'JBR', href: '/locations/jumeirah-beach-residence' },
+    { label: 'JBR', href: '/locations/jbr' },
     { label: 'DIFC', href: '/locations/difc' },
   ]},
   { title: 'Information', links: [
@@ -248,7 +248,7 @@ export default function FAQ() {
               <Phone size={18} />
               Chat on WhatsApp
             </a>
-            <a href="mailto:hello@mychef.ae" className="btn-secondary inline-flex items-center gap-2">
+            <a href="mailto:hallo@mychef.ae" className="btn-secondary inline-flex items-center gap-2">
               <Mail size={18} />
               Send Us an Email
             </a>

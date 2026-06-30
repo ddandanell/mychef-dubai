@@ -19,7 +19,7 @@ import SEO from '../components/SEO'
 
 gsap.registerPlugin(ScrollTrigger)
 
-const WHATSAPP_NUMBER = '971588274544'
+const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to plan party catering in Dubai')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
@@ -108,7 +108,7 @@ const locations = [
   { name: 'Downtown Dubai', slug: 'downtown-dubai' },
   { name: 'Dubai Marina', slug: 'dubai-marina' },
   { name: 'Emirates Hills', slug: 'emirates-hills' },
-  { name: 'JBR', slug: 'jumeirah-beach-residence' },
+  { name: 'JBR', slug: 'jbr' },
   { name: 'DIFC', slug: 'difc' },
   { name: 'Business Bay', slug: 'business-bay' },
   { name: 'Jumeirah', slug: 'jumeirah' },
@@ -187,7 +187,7 @@ const serviceSchema = {
     '@type': 'FoodService',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
-    telephone: '+971-58-827-4544',
+    telephone: '+971-55-174-4849',
     areaServed: 'Dubai, UAE',
   },
   areaServed: 'Dubai, UAE',
