@@ -121,6 +121,16 @@
   <url><loc>https://mychef.ae/ramadan-catering-guide-dubai</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://mychef.ae/luxury-dinner-planning-guide-dubai</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
 
+  <!-- Additional service & experience pages -->
+  <url><loc>https://mychef.ae/bar-services-dubai</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://mychef.ae/product-launch-catering-dubai</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://mychef.ae/brand-activation-catering-dubai</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://mychef.ae/gala-dinner-catering-dubai</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://mychef.ae/private-cooking-classes-dubai</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://mychef.ae/vip-club</loc><priority>0.6</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://mychef.ae/gift-cards</loc><priority>0.6</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://mychef.ae/case-studies</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+
   <!-- Legal -->
   <url><loc>https://mychef.ae/privacy-policy</loc><priority>0.3</priority><changefreq>yearly</changefreq></url>
   <url><loc>https://mychef.ae/terms</loc><priority>0.3</priority><changefreq>yearly</changefreq></url>

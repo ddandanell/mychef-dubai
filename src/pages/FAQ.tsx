@@ -13,9 +13,9 @@ const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to request a quote (via mychef.ae/faq)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
-type Category = 'All' | 'Booking' | 'Services' | 'Pricing' | 'Dietary' | 'Locations' | 'Day of Service'
+type Category = 'All' | 'Booking' | 'Services' | 'Pricing' | 'Dietary' | 'Locations' | 'Day of Service' | 'Bar & VIP'
 
-const categories: Category[] = ['All', 'Booking', 'Services', 'Pricing', 'Dietary', 'Locations', 'Day of Service']
+const categories: Category[] = ['All', 'Booking', 'Services', 'Pricing', 'Dietary', 'Locations', 'Day of Service', 'Bar & VIP']
 
 const faqData: Record<Exclude<Category, 'All'>, { q: string; a: string }[]> = {
   Booking: [
@@ -24,6 +24,11 @@ const faqData: Record<Exclude<Category, 'All'>, { q: string; a: string }[]> = {
     { q: 'Can I make changes after booking?', a: 'Yes. Contact us as soon as possible and we will adjust your booking. Changes made within 24 hours of the event may be subject to limitations.' },
     { q: 'What is your cancellation policy?', a: 'Cancellations more than 48 hours before receive a full refund. Cancellations within 48 hours may incur a fee. Contact us for details.' },
     { q: 'Do I need to pay a deposit?', a: 'For most bookings, we require a deposit to confirm. The balance is due before or on the day of service.' },
+    { q: 'Can I book a private chef for tonight in Dubai?', a: 'We accommodate last-minute requests whenever possible. Contact us on WhatsApp at +971 55 174 4849 and we will confirm availability quickly.' },
+    { q: 'How do I change the number of guests after booking?', a: 'Let us know as soon as your guest count changes. We adjust ingredients, staffing, and seating up to 24 hours before the event when possible.' },
+    { q: 'Can I schedule a menu tasting before my event?', a: 'Yes. Tastings can be arranged for weddings, large galas, and corporate events. Ask your event manager for availability and options.' },
+    { q: 'Do you offer same-week catering for corporate events?', a: 'Yes, depending on the menu and scale. We recommend booking early, but our team can often deliver high-quality catering within a few days.' },
+    { q: 'Can I book catering for multiple event dates at once?', a: 'Yes. We can create a multi-date event package with consistent menus, rotating options, and dedicated staffing.' },
   ],
   Services: [
     { q: 'What services do you offer?', a: 'Private chef services, luxury catering, event catering, corporate dining, yacht catering, villa chef services, and bespoke dining experiences across Dubai.' },
@@ -31,6 +36,11 @@ const faqData: Record<Exclude<Category, 'All'>, { q: string; a: string }[]> = {
     { q: 'Do you provide service staff?', a: 'Yes. We provide professional waiters, bartenders, and hosts as needed for your event.' },
     { q: 'Do you handle setup and cleanup?', a: 'Absolutely. Full setup, service, and cleanup are included in all our services.' },
     { q: 'Can you cook in any kitchen?', a: 'Our chefs are experienced with all kitchen types and bring any specialized equipment needed.' },
+    { q: 'Do you cater breakfast and brunch events in Dubai?', a: 'Yes. We offer breakfast meetings, brunch gatherings, and full brunch catering with live stations, pastries, and beverage service.' },
+    { q: 'Can you provide a full wedding cake as part of catering?', a: 'Yes. Our pastry team can design a bespoke wedding cake and dessert table as part of your wedding catering package.' },
+    { q: 'Do you offer kids’ menus for family events?', a: 'Yes. We create child-friendly menus alongside adult options for family celebrations, birthdays, and casual villa gatherings.' },
+    { q: 'Can my chef cook a family recipe or favourite dish?', a: 'Absolutely. Share the recipe or describe the dish and our chef will recreate it with the same care and premium ingredients.' },
+    { q: 'Do you provide event styling and florals?', a: 'We handle tableware, linens, and food presentation styling. For full event design and florals, we partner with trusted stylists and can coordinate on your behalf.' },
   ],
   Pricing: [
     { q: 'How much does a private chef cost in Dubai?', a: 'Every event is unique. Pricing depends on guest count, menu complexity, number of courses, and location. Contact us for a custom quote.' },
@@ -38,6 +48,11 @@ const faqData: Record<Exclude<Category, 'All'>, { q: string; a: string }[]> = {
     { q: 'What is included in the price?', a: 'Menu design, ingredient sourcing, preparation, service, and cleanup. Tableware and linens can be arranged at additional cost if needed.' },
     { q: 'Do you charge for travel?', a: 'Travel within Dubai is included. For locations outside Dubai, a travel fee may apply.' },
     { q: 'Are there any hidden fees?', a: 'No. Your quote includes all costs. We are transparent about pricing.' },
+    { q: 'Is there a minimum guest count for catering?', a: 'Minimums depend on the service style and location. Private chef dinners typically start from 2 guests; larger catering formats may have higher minimums.' },
+    { q: 'How does pricing work for yacht catering?', a: 'Yacht catering pricing is based on guest count, menu, duration, and marina logistics. We provide a flat all-inclusive quote for each trip.' },
+    { q: 'Are tableware and linens included in the catering price?', a: 'Standard packages include the necessary service equipment. Premium tableware, linens, and glassware can be added based on your event style.' },
+    { q: 'Do you offer corporate retainer packages?', a: 'Yes. We offer retainer and membership options for businesses that need regular catering, including the myCHEF VIP Club for frequent hosts.' },
+    { q: 'Can I get a fixed-price menu for my event?', a: 'Yes. We can propose fixed-price menus per person once the guest count, format, and cuisine preferences are confirmed.' },
   ],
   Dietary: [
     { q: 'Do you accommodate dietary restrictions?', a: 'Yes. We handle all dietary requirements including vegetarian, vegan, gluten-free, halal, kosher, nut allergies, and more.' },
@@ -45,12 +60,21 @@ const faqData: Record<Exclude<Category, 'All'>, { q: string; a: string }[]> = {
     { q: 'Do you offer vegan menus?', a: 'Yes. Our chefs create exceptional plant-based menus that are creative, flavorful, and beautifully presented.' },
     { q: 'Can you handle severe allergies?', a: 'Yes. We take allergies extremely seriously. Our team follows strict protocols to prevent cross-contamination.' },
     { q: 'Can I request a specific cuisine?', a: 'Of course. Every menu is fully bespoke. Share your preferences and our chef will design accordingly.' },
+    { q: 'Can you prepare keto or low-carb menus?', a: 'Yes. Our chefs design keto, low-carb, and high-protein menus tailored to your preferences and macros.' },
+    { q: 'Do you offer pescatarian or dairy-free menus?', a: 'Yes. We cater to pescatarian, dairy-free, egg-free, and other dietary requirements as part of our bespoke menu design.' },
+    { q: 'How do you handle cross-contamination for allergies?', a: 'We follow strict allergen protocols, separate preparation areas where possible, and clearly label dishes. Always inform us of severe allergies in advance.' },
+    { q: 'Can you provide Jain or other religious dietary menus?', a: 'Yes. We accommodate Jain, vegetarian, halal, and other religious dietary requirements with careful ingredient sourcing.' },
+    { q: 'Is your food prepared fresh on the day?', a: 'Yes. We prepare dishes as close to service time as possible, using fresh, premium ingredients sourced for each event.' },
   ],
   Locations: [
     { q: 'What areas of Dubai do you cover?', a: 'We serve all areas of Dubai including Palm Jumeirah, Downtown, Dubai Marina, Emirates Hills, JBR, DIFC, Business Bay, Jumeirah, Arabian Ranches, and everywhere in between.' },
     { q: 'Do you cater on yachts?', a: 'Yes. We provide private chef and catering services for yachts across Dubai Marina, Palm Jumeirah, and Dubai Harbour.' },
     { q: 'Can you cater at hotels?', a: 'In most cases, yes. Some hotels have restrictions on external catering. Contact us and we will coordinate with the venue.' },
     { q: 'Do you serve outside Dubai?', a: 'We primarily serve Dubai. For locations in Abu Dhabi or other Emirates, contact us to discuss.' },
+    { q: 'Do you cater at beach clubs and pool venues in Dubai?', a: 'Yes. We cater at beach clubs, pool venues, and outdoor spaces, working with venue teams to meet their requirements.' },
+    { q: 'Can you cater in Abu Dhabi or other Emirates?', a: 'We primarily serve Dubai. For Abu Dhabi and other Emirates, contact us to discuss logistics, travel, and minimum requirements.' },
+    { q: 'Do you cater at golf clubs and sports venues?', a: 'Yes. We provide catering for golf clubs, sports venues, and outdoor activity spaces across Dubai.' },
+    { q: 'Can you serve at multiple venues during one event?', a: 'Yes. We can coordinate multi-venue events such as welcome receptions, main dinners, and after-parties with tailored menus at each location.' },
   ],
   'Day of Service': [
     { q: 'What time will the chef arrive?', a: 'Typically 2–3 hours before service for private chef dinners. For catering events, we arrive earlier based on the event size.' },
@@ -58,6 +82,14 @@ const faqData: Record<Exclude<Category, 'All'>, { q: string; a: string }[]> = {
     { q: 'How long does the service last?', a: 'A typical private chef dinner lasts 3–4 hours. Catering events vary based on the schedule.' },
     { q: 'What happens to leftovers?', a: 'We can package leftovers for you or dispose of them — your choice.' },
     { q: 'Is your team insured?', a: 'Yes. myCHEF Dubai is fully licensed and insured. All team members are professionally vetted.' },
+    { q: 'What happens if a guest has an unexpected allergy on the day?', a: 'Inform the service captain or chef immediately. We carry ingredient lists for all dishes and can advise guests or prepare a safe alternative if time and ingredients allow.' },
+  ],
+  'Bar & VIP': [
+    { q: 'What bar services do you offer?', a: 'We provide full bartender and mixology services, including craft cocktails, mocktail bars, wine service, and champagne presentations for events across Dubai.' },
+    { q: 'Can I book a mocktail bar for a family event?', a: 'Yes. Our mocktail bar is completely alcohol-free and ideal for family celebrations, kids’ parties, and Ramadan gatherings.' },
+    { q: 'What is the myCHEF VIP Club?', a: 'The myCHEF VIP Club is a membership for frequent hosts, offering priority booking, exclusive menus, dedicated account management, and special event perks.' },
+    { q: 'How do I join the VIP Club?', a: 'Contact us via WhatsApp or the inquiry form and ask about VIP Club membership. We will recommend the right tier based on your event calendar.' },
+    { q: 'Do you offer gift cards for private chef experiences?', a: 'Yes. myCHEF gift cards are available for private dining experiences, cooking classes, and bespoke catering. They make a memorable gift for any occasion.' },
   ],
 }
 
