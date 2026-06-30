@@ -316,7 +316,7 @@ export default function CaseStudies() {
         title="Event Case Studies | Luxury Catering Dubai | myCHEF"
         description="See how myCHEF Dubai delivers luxury catering for weddings, yachts, villas, and corporate events. Real event stories, menus, and guest experiences."
         canonicalPath={CANONICAL_PATH}
-        ogImage="/service-events.webp"
+        ogImage="/images/case-studies-hero.webp"
         schema={schema}
       />
 
@@ -324,7 +324,7 @@ export default function CaseStudies() {
       <section className="relative min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
-          style={{ backgroundImage: 'url(/images/events-catering-dubai-hero.webp)' }}
+          style={{ backgroundImage: 'url(/images/case-studies-hero.webp)' }}
         />
         <div className="absolute inset-0 bg-black/50" />
 

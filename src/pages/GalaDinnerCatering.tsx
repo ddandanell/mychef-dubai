@@ -253,7 +253,7 @@ export default function GalaDinnerCatering() {
         title="Gala Dinner Catering Dubai | Formal Events | myCHEF"
         description="Elegant gala dinner catering in Dubai for awards nights, charity balls, and corporate galas. Multi-course menus and white-glove service."
         canonicalPath="/gala-dinner-catering-dubai"
-        ogImage="/images/luxury-dining-dubai-hero.webp"
+        ogImage="/images/gala-dinner-catering-dubai-hero.webp"
         schema={schema}
       />
 
@@ -261,7 +261,7 @@ export default function GalaDinnerCatering() {
       <section className="relative min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
-          style={{ backgroundImage: 'url(/images/luxury-dining-dubai-hero.webp)' }}
+          style={{ backgroundImage: 'url(/images/gala-dinner-catering-dubai-hero.webp)' }}
         />
         <div className="absolute inset-0 bg-black/50" />
 

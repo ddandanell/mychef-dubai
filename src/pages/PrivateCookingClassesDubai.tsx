@@ -295,7 +295,7 @@ export default function PrivateCookingClassesDubai() {
         title="Private Cooking Classes Dubai | Chef Experience | myCHEF"
         description="Learn from a private chef with hands-on cooking classes in Dubai. Perfect for couples, families, and team building. Bespoke menus & premium ingredients."
         canonicalPath="/private-cooking-classes-dubai"
-        ogImage="/images/live-cooking-stations-dubai-hero.webp"
+        ogImage="/images/private-cooking-classes-dubai-hero.webp"
         schema={schema}
       />
 
@@ -303,7 +303,7 @@ export default function PrivateCookingClassesDubai() {
       <section className="relative min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
-          style={{ backgroundImage: 'url(/images/live-cooking-stations-dubai-hero.webp)' }}
+          style={{ backgroundImage: 'url(/images/private-cooking-classes-dubai-hero.webp)' }}
         />
         <div className="absolute inset-0 bg-black/50" />
 

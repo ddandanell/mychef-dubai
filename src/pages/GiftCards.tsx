@@ -312,7 +312,7 @@ export default function GiftCards() {
         title="Gift Cards Dubai | Private Chef Experience"
         description="Give an unforgettable private chef experience in Dubai with myCHEF gift cards. Digital or printed vouchers for birthdays, anniversaries, and corporate gifts."
         canonicalPath="/gift-cards"
-        ogImage="/images/luxury-dining-dubai-hero.webp"
+        ogImage="/images/gift-cards-hero.webp"
         schema={schema}
       />
 
@@ -320,7 +320,7 @@ export default function GiftCards() {
       <section className="relative min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
-          style={{ backgroundImage: 'url(/images/luxury-dining-dubai-hero.webp)' }}
+          style={{ backgroundImage: 'url(/images/gift-cards-hero.webp)' }}
         />
         <div className="absolute inset-0 bg-black/50" />
 

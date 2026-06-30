@@ -292,7 +292,7 @@ export default function EventCateringPriceGuide2026() {
         title="Dubai Event Catering Price Guide 2026 | Budget & Quotes | myCHEF"
         description="Honest Dubai event catering prices for 2026: per-person ranges for weddings, corporate events, yacht catering, BBQ, buffet, and plated dinners. Plus factors that affect cost."
         canonicalPath="/dubai-event-catering-price-guide-2026"
-        ogImage="/service-catering.webp"
+        ogImage="/images/event-catering-price-guide-hero.webp"
         schema={schema}
       />
 
@@ -300,7 +300,7 @@ export default function EventCateringPriceGuide2026() {
       <section className="relative min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
-          style={{ backgroundImage: 'url(/images/catering-dubai-hero.webp)' }}
+          style={{ backgroundImage: 'url(/images/event-catering-price-guide-hero.webp)' }}
         />
         <div className="absolute inset-0 bg-black/50" />
 

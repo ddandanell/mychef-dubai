@@ -272,7 +272,7 @@ export default function BarServices() {
         title="Premium Bar Services Dubai | Hire Bartenders | myCHEF"
         description="Hire bartenders and mobile bar services in Dubai for weddings, yachts, villas, and corporate events. Cocktails, mocktails & premium service."
         canonicalPath="/bar-services-dubai"
-        ogImage="/images/cocktail-party-catering-dubai-hero.webp"
+        ogImage="/images/bar-services-dubai-hero.webp"
         schema={schema}
       />
 
@@ -280,7 +280,7 @@ export default function BarServices() {
       <section className="relative min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
-          style={{ backgroundImage: 'url(/images/cocktail-party-catering-dubai-hero.webp)' }}
+          style={{ backgroundImage: 'url(/images/bar-services-dubai-hero.webp)' }}
         />
         <div className="absolute inset-0 bg-black/50" />
 

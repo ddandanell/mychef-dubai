@@ -366,7 +366,7 @@ export default function WeddingMenuPlanningGuide() {
         title="Wedding Catering Menu Planning Guide Dubai | myCHEF"
         description="Plan a Dubai wedding catering menu: service styles, cuisines, dietary needs, sample menus, and how to work with your caterer. WhatsApp +971 55 174 4849."
         canonicalPath="/wedding-catering-menu-planning-dubai"
-        ogImage="/wedding-catering-dubai-hero.webp"
+        ogImage="/images/wedding-menu-planning-guide-hero.webp"
         schema={schema}
       />
 
@@ -374,7 +374,7 @@ export default function WeddingMenuPlanningGuide() {
       <section className="relative min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
-          style={{ backgroundImage: 'url(/images/wedding-catering-dubai-hero.webp)' }}
+          style={{ backgroundImage: 'url(/images/wedding-menu-planning-guide-hero.webp)' }}
         />
         <div className="absolute inset-0 bg-black/50" />
 

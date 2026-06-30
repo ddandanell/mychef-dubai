@@ -259,7 +259,7 @@ export default function ProductLaunchCatering() {
         title="Product Launch Catering Dubai | B2B Events | myCHEF"
         description="Impress investors, media, and guests with product launch catering in Dubai. Branded menus, canapés, live stations & full service."
         canonicalPath="/product-launch-catering-dubai"
-        ogImage="/images/corporate-catering-dubai-hero.webp"
+        ogImage="/images/product-launch-catering-dubai-hero.webp"
         schema={schema}
       />
 
@@ -267,7 +267,7 @@ export default function ProductLaunchCatering() {
       <section className="relative min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
-          style={{ backgroundImage: 'url(/images/canape-catering-dubai-hero.webp)' }}
+          style={{ backgroundImage: 'url(/images/product-launch-catering-dubai-hero.webp)' }}
         />
         <div className="absolute inset-0 bg-black/50" />
 

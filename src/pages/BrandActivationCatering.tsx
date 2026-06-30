@@ -262,7 +262,7 @@ export default function BrandActivationCatering() {
         title="Brand Activation Catering Dubai | Experiential | myCHEF"
         description="Create memorable brand activations with experiential catering in Dubai. Sampling stations, themed menus, live chefs & branded food experiences."
         canonicalPath="/brand-activation-catering-dubai"
-        ogImage="/images/live-cooking-stations-dubai-hero.webp"
+        ogImage="/images/brand-activation-catering-dubai-hero.webp"
         schema={schema}
       />
 
@@ -270,7 +270,7 @@ export default function BrandActivationCatering() {
       <section className="relative min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
-          style={{ backgroundImage: 'url(/images/live-cooking-stations-dubai-hero.webp)' }}
+          style={{ backgroundImage: 'url(/images/brand-activation-catering-dubai-hero.webp)' }}
         />
         <div className="absolute inset-0 bg-black/50" />
 

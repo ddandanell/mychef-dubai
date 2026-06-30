@@ -295,7 +295,7 @@ export default function PrivateDiningGuide() {
         title="Private Dining Dubai: A Complete Guide | myCHEF"
         description="A complete guide to private dining in Dubai: where to host, types of experiences, how to choose a private chef, menu planning, pricing, and FAQs."
         canonicalPath="/guide/private-dining-dubai"
-        ogImage="/private-chef-dubai-hero.webp"
+        ogImage="/images/private-dining-guide-hero.webp"
         schema={schema}
       />
 
@@ -303,7 +303,7 @@ export default function PrivateDiningGuide() {
       <section className="relative min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
-          style={{ backgroundImage: 'url(/images/private-chef-dubai-hero.webp)' }}
+          style={{ backgroundImage: 'url(/images/private-dining-guide-hero.webp)' }}
         />
         <div className="absolute inset-0 bg-black/50" />
 

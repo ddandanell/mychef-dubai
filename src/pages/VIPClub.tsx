@@ -250,7 +250,7 @@ export default function VIPClub() {
         title="VIP Club Dubai | Private Chef Membership | myCHEF"
         description="Join the myCHEF VIP Club for priority private chef bookings, exclusive menus, member rates, and concierge dining across Dubai."
         canonicalPath="/vip-club"
-        ogImage="/images/luxury-dining-dubai-hero.webp"
+        ogImage="/images/vip-club-hero.webp"
         schema={schema}
       />
 
@@ -258,7 +258,7 @@ export default function VIPClub() {
       <section className="relative min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
-          style={{ backgroundImage: 'url(/images/luxury-dining-dubai-hero.webp)' }}
+          style={{ backgroundImage: 'url(/images/vip-club-hero.webp)' }}
         />
         <div className="absolute inset-0 bg-black/50" />
 
