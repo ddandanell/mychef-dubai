@@ -14,6 +14,10 @@ const serviceLinks = [
 
 const guideLinks = [
   { label: 'Catering Prices Guide', href: '/dubai-catering-prices-guide' },
+  { label: 'Cost Calculator', href: '/catering-cost-calculator-dubai' },
+  { label: 'Gallery', href: '/gallery' },
+  { label: 'Blog', href: '/blog' },
+  { label: 'Venue Partners', href: '/venue-partners' },
   { label: 'Choose a Caterer', href: '/how-to-choose-caterer-dubai' },
   { label: 'Villa Catering Ideas', href: '/villa-catering-ideas-dubai' },
   { label: 'Wedding Checklist', href: '/wedding-catering-checklist-dubai' },

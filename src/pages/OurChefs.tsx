@@ -21,27 +21,39 @@ const breadcrumbs = [
 const chefs = [
   {
     image: '/team-head-chef.webp',
-    name: 'Marco Adriano',
-    role: 'Executive Chef & Founder',
-    experience: '15+ Years',
-    bio: 'Marco began his career in Milan, training under a Michelin-starred chef before leading kitchens across Europe. He founded myCHEF Dubai to bring that same level of precision and artistry to private dining. Under his leadership, the team has grown to serve hundreds of events across Dubai with an unwavering commitment to excellence.',
-    specialties: ['Fine Dining', 'European Cuisine', 'Menu Design', 'Team Leadership'],
+    name: 'Ahmed Al-Rashid',
+    role: 'Executive Chef',
+    experience: '18+ Years',
+    slug: '/chefs/ahmed-executive-chef',
+    bio: 'Ahmed brings nearly two decades of luxury dining experience to myCHEF Dubai. Trained in classical French technique and seasoned in Michelin-starred kitchens across Europe, he leads private chef experiences for villas, yachts, and corporate events with calm precision and flawless timing.',
+    specialties: ['Modern European', 'Fine Dining', 'Menu Design', 'Villa Dining'],
   },
   {
     image: '/team-sous-chef.webp',
-    name: 'Elena Vasquez',
-    role: 'Head Sous Chef',
-    experience: '12+ Years',
-    bio: 'Elena brings a decade of experience from Barcelona\'s celebrated restaurant scene, including two years at a 2-Michelin-star establishment. Her expertise in seafood, molecular techniques, and artistic plating adds a creative dimension to every menu. She leads menu innovation and ensures every dish meets our exacting standards.',
-    specialties: ['Seafood', 'Molecular Gastronomy', 'Plating Design', 'Mediterranean'],
+    name: 'Marco Rossi',
+    role: 'Italian Chef',
+    experience: '15+ Years',
+    slug: '/chefs/marco-italian-chef',
+    bio: 'Born and trained in Tuscany, Marco celebrates the honest flavours of Italian regional cuisine. From handmade pasta to wood-fired grills and coastal seafood, his menus turn every meal into a convivial experience rooted in tradition.',
+    specialties: ['Italian Cuisine', 'Handmade Pasta', 'Seafood', 'Family Style'],
   },
   {
     image: '/team-pastry-chef.webp',
-    name: 'Thomas Chen',
+    name: 'Sofia Moretti',
     role: 'Pastry Chef',
-    experience: '10+ Years',
-    bio: 'A graduate of Le Cordon Bleu Paris, Thomas specializes in modern patisserie that transforms dessert into an experience. His chocolate work and sugar artistry have become a signature of myCHEF Dubai events. He believes dessert should be the conversation everyone remembers.',
-    specialties: ['Pastry', 'Chocolate Work', 'Dessert Design', 'Sugar Art'],
+    experience: '12+ Years',
+    slug: '/chefs/sofia-pastry-chef',
+    bio: 'A Le Cordon Bleu Paris graduate, Sofia creates desserts that are as theatrical as they are delicious. Her chocolate work, sugar art, and plated desserts have become the signature finish at weddings, product launches, and intimate dinners across Dubai.',
+    specialties: ['Pastry', 'Chocolate Work', 'Wedding Cakes', 'Plated Desserts'],
+  },
+  {
+    image: '/images/arabic-catering-dubai-hero.webp',
+    name: 'Layla Hassan',
+    role: 'Middle Eastern Chef',
+    experience: '14+ Years',
+    slug: '/chefs/layla-middle-eastern-chef',
+    bio: 'Layla champions the bold, generous flavours of the Middle East. With formal training in Lebanese and Emirati kitchens, she creates refined mezze spreads, grilled meats, and Iftar feasts that honour tradition while delighting modern palates.',
+    specialties: ['Arabic Mezze', 'Grilled Meats', 'Iftar Feasts', 'Live Stations'],
   },
 ]
 
@@ -241,7 +253,7 @@ export default function OurChefs() {
                   <p className="font-inter text-body text-gray-400 leading-relaxed mb-6">
                     {chef.bio}
                   </p>
-                  <div className="flex flex-wrap gap-2">
+                  <div className="flex flex-wrap gap-2 mb-6">
                     {chef.specialties.map((specialty) => (
                       <span
                         key={specialty}
@@ -252,6 +264,13 @@ export default function OurChefs() {
                       </span>
                     ))}
                   </div>
+
+                  <Link
+                    to={chef.slug}
+                    className="inline-flex items-center justify-center px-5 py-2.5 font-inter text-xs font-medium uppercase tracking-wider border border-gold text-gold hover:bg-gold hover:text-black transition-all duration-300"
+                  >
+                    View Profile
+                  </Link>
                 </div>
               </div>
             ))}

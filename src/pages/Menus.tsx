@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import { Check, Wine, GlassWater, Users } from 'lucide-react'
+import { Check, ChevronRight, Wine, GlassWater, Users } from 'lucide-react'
 import SEO from '@/components/SEO'
 import PageHero from '@/components/PageHero'
 import { breadcrumbSchema } from '@/utils/schema'
@@ -61,12 +61,73 @@ const pairings = [
   },
 ]
 
+const pricingTiers = [
+  {
+    name: 'Private Chef Experience',
+    price: '950',
+    features: [
+      'Multi-course bespoke menu designed around your preferences',
+      'Private chef and dedicated service staff',
+      'Premium ingredients and elegant plating',
+      'Ideal for intimate dinners, villas, and celebrations',
+    ],
+  },
+  {
+    name: 'Canapes & Cocktails',
+    price: '280',
+    features: [
+      'Curated selection of hand-passed canapés',
+      'Welcome cocktails and palate cleansers',
+      'Professional service staff included',
+      'Perfect for receptions and networking events',
+    ],
+  },
+  {
+    name: 'Buffet & Family Style',
+    price: '220',
+    features: [
+      'Generous shared dishes and live stations',
+      'Hot and cold options to suit all tastes',
+      'Flexible menu design and dietary coverage',
+      'Great for larger gatherings and celebrations',
+    ],
+  },
+  {
+    name: 'BBQ & Live Stations',
+    price: '260',
+    features: [
+      'Grilled meats, seafood, and vegetable stations',
+      'Live chef cooking and interactive service',
+      'Sides, salads, and condiments included',
+      'Ideal for poolside, garden, and villa events',
+    ],
+  },
+]
+
+const pricingFaqs = [
+  {
+    q: 'How much does a private chef cost in Dubai?',
+    a: 'Private chef experiences in Dubai typically start from AED 950 per person for a bespoke multi-course menu. Final pricing depends on guest count, menu complexity, ingredient selection, and service level.',
+  },
+  {
+    q: 'Is there a minimum guest count?',
+    a: 'We cater events of almost any size, from intimate dinners for two to large celebrations. Smaller groups may have a higher per-person rate due to dedicated staff and preparation time.',
+  },
+  {
+    q: 'Can we customize the menu?',
+    a: 'Absolutely. Every menu is designed from scratch based on your preferences, dietary requirements, and event style. Our chefs collaborate with you to create a menu that fits your vision.',
+  },
+]
+
 export default function Menus() {
   const [activeFilter, setActiveFilter] = useState('All')
+  const [openFaq, setOpenFaq] = useState<number | null>(null)
+  const pricingRef = useRef<HTMLDivElement>(null)
   const galleryRef = useRef<HTMLDivElement>(null)
   const sampleRef = useRef<HTMLDivElement>(null)
   const dietaryRef = useRef<HTMLDivElement>(null)
   const pairingsRef = useRef<HTMLDivElement>(null)
+  const faqRef = useRef<HTMLDivElement>(null)
   const ctaRef = useRef<HTMLDivElement>(null)
 
   const filteredItems = activeFilter === 'All'
@@ -75,6 +136,16 @@ export default function Menus() {
 
   useEffect(() => {
     const ctx = gsap.context(() => {
+
+      // Pricing cards scroll reveal
+      if (pricingRef.current) {
+        const cards = pricingRef.current.querySelectorAll('.pricing-card')
+        gsap.fromTo(cards,
+          { opacity: 0, y: 40 },
+          { opacity: 1, y: 0, stagger: 0.1, duration: 0.7, ease: 'power3.out',
+            scrollTrigger: { trigger: pricingRef.current, start: 'top 80%' } }
+        )
+      }
 
       // Gallery cards scroll reveal
       if (galleryRef.current) {
@@ -120,6 +191,16 @@ export default function Menus() {
           { opacity: 0, y: 30 },
           { opacity: 1, y: 0, stagger: 0.12, duration: 0.7, ease: 'power3.out',
             scrollTrigger: { trigger: pairingsRef.current, start: 'top 80%' } }
+        )
+      }
+
+      // Pricing FAQ
+      if (faqRef.current) {
+        const items = faqRef.current.querySelectorAll('.faq-item')
+        gsap.fromTo(items,
+          { opacity: 0, y: 20 },
+          { opacity: 1, y: 0, stagger: 0.1, duration: 0.6, ease: 'power3.out',
+            scrollTrigger: { trigger: faqRef.current, start: 'top 80%' } }
         )
       }
 
@@ -173,7 +254,61 @@ export default function Menus() {
         overlay="dark"
       />
 
-      {/* Section 2: Cuisine Categories - Filterable Gallery */}
+      {/* Section 2: Transparent Pricing */}
+      <section ref={pricingRef} className="bg-cream section-padding">
+        <div className="container-custom">
+          {/* Section Header */}
+          <div className="text-center mb-12">
+            <span className="font-inter text-caption font-medium uppercase tracking-wider text-gold mb-4 block">
+              PRICING & PACKAGES
+            </span>
+            <h2 className="font-playfair text-h2 text-black mb-4">Transparent Pricing</h2>
+            <p className="font-inter text-body text-gray-500 max-w-[640px] mx-auto">
+              Clear starting prices for our most popular private chef and catering formats. Every quote is tailored to your event.
+            </p>
+          </div>
+
+          {/* Pricing Cards */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-10">
+            {pricingTiers.map((tier) => (
+              <div
+                key={tier.name}
+                className="pricing-card bg-white p-8 border border-gray-200 flex flex-col"
+              >
+                <h3 className="font-playfair text-h4 text-black mb-2">{tier.name}</h3>
+                <div className="mb-5">
+                  <span className="font-inter text-caption text-gray-500 uppercase tracking-wider">from</span>
+                  <p className="font-playfair text-3xl text-gold">
+                    AED {tier.price}
+                    <span className="font-inter text-sm text-gray-500 ml-1">/ person</span>
+                  </p>
+                </div>
+                <ul className="flex-1 space-y-3 mb-8">
+                  {tier.features.map((feature) => (
+                    <li key={feature} className="flex items-start gap-2 font-inter text-body-sm text-gray-500">
+                      <Check size={16} className="text-gold flex-shrink-0 mt-0.5" />
+                      {feature}
+                    </li>
+                  ))}
+                </ul>
+                <Link
+                  to="/inquiry?utm_source=mychef.ae&utm_medium=pricing_card&utm_campaign=menus"
+                  className="btn-primary text-center w-full"
+                >
+                  Request Custom Quote
+                </Link>
+              </div>
+            ))}
+          </div>
+
+          {/* Pricing Note */}
+          <p className="font-inter text-body-sm text-gray-500 text-center max-w-[700px] mx-auto">
+            Final quotes depend on guest count, menu complexity, service level, and location.
+          </p>
+        </div>
+      </section>
+
+      {/* Section 3: Cuisine Categories - Filterable Gallery */}
       <section className="bg-white section-padding">
         <div className="container-custom">
           {/* Filter Tabs */}
@@ -315,6 +450,39 @@ export default function Menus() {
                 <p className="font-inter text-body-sm text-gray-400 leading-relaxed">
                   {description}
                 </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Section: Pricing FAQ */}
+      <section ref={faqRef} className="bg-white py-20">
+        <div className="container-custom max-w-[800px]">
+          <h2 className="font-playfair text-[36px] text-black text-center mb-10">
+            Pricing FAQ
+          </h2>
+
+          <div className="space-y-3">
+            {pricingFaqs.map((faq, i) => (
+              <div key={i} className="faq-item border border-gray-200">
+                <button
+                  onClick={() => setOpenFaq(openFaq === i ? null : i)}
+                  className="w-full flex items-center justify-between p-5 text-left"
+                >
+                  <span className="font-inter text-base font-medium text-black pr-4">{faq.q}</span>
+                  <ChevronRight
+                    size={18}
+                    className={`text-gold flex-shrink-0 transition-transform duration-300 ${openFaq === i ? 'rotate-90' : ''}`}
+                  />
+                </button>
+                <div
+                  className={`overflow-hidden transition-all duration-300 ${openFaq === i ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'}`}
+                >
+                  <div className="px-5 pb-5">
+                    <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{faq.a}</p>
+                  </div>
+                </div>
               </div>
             ))}
           </div>

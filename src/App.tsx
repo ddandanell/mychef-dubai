@@ -24,6 +24,8 @@ const ChristmasCatering = lazy(() => import('./pages/ChristmasCatering'))
 const NewYearCatering = lazy(() => import('./pages/NewYearCatering'))
 const BrunchCatering = lazy(() => import('./pages/BrunchCatering'))
 const FAQ = lazy(() => import('./pages/FAQ'))
+const Gallery = lazy(() => import('./pages/Gallery'))
+const VenuePartners = lazy(() => import('./pages/VenuePartners'))
 const Inquiry = lazy(() => import('./pages/Inquiry'))
 const ThankYou = lazy(() => import('./pages/ThankYou'))
 const Privacy = lazy(() => import('./pages/Privacy'))
@@ -72,7 +74,17 @@ const SuhoorCatering = lazy(() => import('./pages/SuhoorCatering'))
 const EidCatering = lazy(() => import('./pages/EidCatering'))
 const DiwaliCatering = lazy(() => import('./pages/DiwaliCatering'))
 const Guides = lazy(() => import('./pages/Guides'))
+const Blog = lazy(() => import('./pages/Blog'))
+const RamadanIftarTrends2026 = lazy(() => import('./pages/blog/RamadanIftarTrends2026'))
+const YachtPartyMenuIdeas = lazy(() => import('./pages/blog/YachtPartyMenuIdeas'))
+const PrivateChefCostDubai = lazy(() => import('./pages/blog/PrivateChefCostDubai'))
+const CorporateCateringFullServiceVsDropOff = lazy(() => import('./pages/blog/CorporateCateringFullServiceVsDropOff'))
 const DubaiCateringPricesGuide = lazy(() => import('./pages/guides/DubaiCateringPricesGuide'))
+const ChefAhmed = lazy(() => import('./pages/chefs/ChefAhmed'))
+const ChefSofia = lazy(() => import('./pages/chefs/ChefSofia'))
+const ChefMarco = lazy(() => import('./pages/chefs/ChefMarco'))
+const ChefLayla = lazy(() => import('./pages/chefs/ChefLayla'))
+const CateringCostCalculator = lazy(() => import('./pages/CateringCostCalculator'))
 const HowToChooseCatererDubai = lazy(() => import('./pages/guides/HowToChooseCatererDubai'))
 const VillaCateringIdeas = lazy(() => import('./pages/guides/VillaCateringIdeas'))
 const WeddingCateringChecklist = lazy(() => import('./pages/guides/WeddingCateringChecklist'))
@@ -101,6 +113,10 @@ export default function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/how-it-works" element={<HowItWorks />} />
           <Route path="/our-chefs" element={<OurChefs />} />
+          <Route path="/chefs/ahmed-executive-chef" element={<ChefAhmed />} />
+          <Route path="/chefs/sofia-pastry-chef" element={<ChefSofia />} />
+          <Route path="/chefs/marco-italian-chef" element={<ChefMarco />} />
+          <Route path="/chefs/layla-middle-eastern-chef" element={<ChefLayla />} />
           <Route path="/menus" element={<Menus />} />
           <Route path="/private-chef-dubai" element={<PrivateChef />} />
           <Route path="/catering-dubai" element={<Catering />} />
@@ -117,6 +133,8 @@ export default function App() {
           <Route path="/new-year-catering-dubai" element={<NewYearCatering />} />
           <Route path="/brunch-catering-dubai" element={<BrunchCatering />} />
           <Route path="/faq" element={<FAQ />} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/venue-partners" element={<VenuePartners />} />
           <Route path="/inquiry" element={<Inquiry />} />
           <Route path="/thank-you" element={<ThankYou />} />
           <Route path="/privacy-policy" element={<Privacy />} />
@@ -165,7 +183,13 @@ export default function App() {
           <Route path="/eid-catering-dubai" element={<EidCatering />} />
           <Route path="/diwali-catering-dubai" element={<DiwaliCatering />} />
           <Route path="/guides" element={<Guides />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/blog/ramadan-iftar-catering-trends-2026" element={<RamadanIftarTrends2026 />} />
+          <Route path="/blog/yacht-party-menu-ideas-dubai" element={<YachtPartyMenuIdeas />} />
+          <Route path="/blog/how-much-does-private-chef-cost-dubai" element={<PrivateChefCostDubai />} />
+          <Route path="/blog/corporate-catering-full-service-vs-drop-off" element={<CorporateCateringFullServiceVsDropOff />} />
           <Route path="/dubai-catering-prices-guide" element={<DubaiCateringPricesGuide />} />
+          <Route path="/catering-cost-calculator-dubai" element={<CateringCostCalculator />} />
           <Route path="/how-to-choose-caterer-dubai" element={<HowToChooseCatererDubai />} />
           <Route path="/villa-catering-ideas-dubai" element={<VillaCateringIdeas />} />
           <Route path="/wedding-catering-checklist-dubai" element={<WeddingCateringChecklist />} />
