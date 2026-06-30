@@ -92,7 +92,7 @@ export default function HeroSection() {
           ref={imageRef}
           className="absolute inset-0 bg-cover bg-center scale-105"
           style={{
-            backgroundImage: 'url(/hero-home.jpg)',
+            backgroundImage: 'url(/images/home-hero.webp)',
           }}
         />
         {/* Gradient overlay */}

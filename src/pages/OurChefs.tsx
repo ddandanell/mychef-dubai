@@ -171,7 +171,7 @@ export default function OurChefs() {
       <section ref={heroRef} className="relative min-h-[55vh] flex items-center justify-center bg-black overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="/service-private-chef.jpg"
+            src="/images/about-mychef-dubai-hero.webp"
             alt="Our culinary team at work"
             className="w-full h-full object-cover opacity-30"
             loading="eager"

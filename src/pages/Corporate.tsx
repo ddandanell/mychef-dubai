@@ -376,7 +376,7 @@ export default function Corporate() {
           <div
             ref={heroImageRef}
             className="absolute inset-0 bg-cover bg-center scale-105"
-            style={{ backgroundImage: 'url(/service-corporate.jpg)' }}
+            style={{ backgroundImage: 'url(/images/corporate-catering-dubai-hero.webp)' }}
           />
           <div className="absolute inset-0 bg-black/50" />
         </div>

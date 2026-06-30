@@ -126,7 +126,7 @@ export default function About() {
       {/* Section 1: Hero */}
       <section className="relative min-h-[60vh] flex items-center justify-center bg-black overflow-hidden">
         <img
-          src="/hero-home.jpg"
+          src="/images/about-mychef-dubai-hero.webp"
           alt="myCHEF Dubai kitchen team"
           className="absolute inset-0 w-full h-full object-cover opacity-30"
         />

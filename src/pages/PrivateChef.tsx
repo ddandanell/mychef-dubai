@@ -283,7 +283,7 @@ export default function PrivateChef() {
         {/* Background */}
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
-          style={{ backgroundImage: 'url(/service-private-chef.jpg)' }}
+          style={{ backgroundImage: 'url(/images/private-chef-dubai-hero.webp)' }}
         />
         {/* Overlay */}
         <div className="absolute inset-0 bg-black/50" />

@@ -274,7 +274,7 @@ export default function SushiCatering() {
       <section className="relative min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
-          style={{ backgroundImage: 'url(/menu-seafood.jpg)' }}
+          style={{ backgroundImage: 'url(/images/sushi-catering-dubai-hero.webp)' }}
         />
         <div className="absolute inset-0 bg-black/50" />
 

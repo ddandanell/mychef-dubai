@@ -116,7 +116,7 @@ export default function HowItWorks() {
 
       {/* Section 1: Hero */}
       <section className="relative min-h-[55vh] flex items-center justify-center bg-black overflow-hidden">
-        <img src="/process-4.jpg" alt="Dining experience" className="absolute inset-0 w-full h-full object-cover opacity-25" />
+        <img src="/images/how-it-works-dubai-hero.webp" alt="Dining experience" className="absolute inset-0 w-full h-full object-cover opacity-25" />
         <div className="absolute inset-0" style={{ background: 'linear-gradient(to bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.9) 100%)' }} />
         <div className="relative z-10 text-center container-custom py-24">
           <nav aria-label="Breadcrumb" className="mb-8">

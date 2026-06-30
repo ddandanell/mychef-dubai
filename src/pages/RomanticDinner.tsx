@@ -28,7 +28,7 @@ export default function RomanticDinner() {
       <SEO title="Romantic Private Dinner Dubai" description="Intimate romantic dinners in Dubai. Private chef, candlelit setting, bespoke menu for couples, anniversaries, and proposals." />
 
       <section className="relative min-h-[70vh] flex items-center justify-center bg-black overflow-hidden">
-        <div className="absolute inset-0"><img src="/service-luxury-dining.jpg" alt="Romantic dinner" className="w-full h-full object-cover opacity-40" /><div className="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-black/30" /></div>
+        <div className="absolute inset-0"><img src="/images/romantic-dinner-dubai-hero.webp" alt="Romantic dinner" className="w-full h-full object-cover opacity-40" /><div className="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-black/30" /></div>
         <div className="relative z-10 text-center px-4 max-w-4xl">
           <nav className="text-sm mb-6"><Link to="/" className="text-gray-400 hover:text-gold">Home</Link><span className="text-gray-600 mx-2">/</span><span className="text-gold">Romantic Dinner Dubai</span></nav>
           <p className="text-gold text-sm tracking-[0.2em] uppercase mb-4">For Two</p>

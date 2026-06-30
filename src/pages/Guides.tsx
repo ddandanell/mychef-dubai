@@ -198,7 +198,7 @@ export default function Guides() {
       <section className="relative min-h-[85dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
-          style={{ backgroundImage: 'url(/service-catering.jpg)' }}
+          style={{ backgroundImage: 'url(/images/guides-hub-dubai-hero.webp)' }}
         />
         <div className="absolute inset-0 bg-black/55" />
 

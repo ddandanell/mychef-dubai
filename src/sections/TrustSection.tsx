@@ -96,7 +96,7 @@ export default function TrustSection() {
           className="w-full lg:w-1/2 relative min-h-[400px] lg:min-h-0"
         >
           <img
-            src="/service-yacht.jpg"
+            src="/images/yacht-catering-dubai-hero.webp"
             alt="Luxury yacht dining experience"
             className="absolute inset-0 w-full h-full object-cover"
             loading="lazy"

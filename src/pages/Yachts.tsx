@@ -166,7 +166,7 @@ export default function Yachts() {
       {/* Section 1: Hero */}
       <section className="relative min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <img
-          src="/service-yacht.jpg"
+          src="/images/yacht-catering-dubai-hero.webp"
           alt="Yacht catering experience in Dubai"
           className="absolute inset-0 w-full h-full object-cover opacity-40"
           style={{ objectPosition: 'center' }}

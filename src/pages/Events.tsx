@@ -396,7 +396,7 @@ export default function Events() {
           <div
             ref={heroImageRef}
             className="absolute inset-0 bg-cover bg-center scale-105"
-            style={{ backgroundImage: 'url(/service-events.jpg)' }}
+            style={{ backgroundImage: 'url(/images/events-catering-dubai-hero.webp)' }}
           />
           <div className="absolute inset-0 bg-black/50" />
         </div>

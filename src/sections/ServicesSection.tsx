@@ -7,37 +7,37 @@ gsap.registerPlugin(ScrollTrigger)
 
 const services = [
   {
-    image: '/service-private-chef.jpg',
+    image: '/images/private-chef-dubai-hero.webp',
     title: 'Private Chef Dubai',
     description: 'Your own professional chef for an evening, a week, or longer. Fully bespoke menus prepared in your kitchen.',
     link: '/private-chef-dubai',
   },
   {
-    image: '/service-catering.jpg',
+    image: '/images/catering-dubai-hero.webp',
     title: 'Catering Dubai',
     description: 'Full-service luxury catering for events of any size. From plated dinners to grand buffets.',
     link: '/catering-dubai',
   },
   {
-    image: '/service-luxury-dining.jpg',
+    image: '/images/luxury-dining-dubai-hero.webp',
     title: 'Luxury Dining Experiences',
     description: 'Intimate fine dining at home, romantic dinners, birthday celebrations — all prepared and served by our team.',
     link: '/luxury-dining-experiences',
   },
   {
-    image: '/service-events.jpg',
+    image: '/images/events-catering-dubai-hero.webp',
     title: 'Events & Celebrations',
     description: 'From intimate gatherings to large celebrations. We handle the food, service, and presentation.',
     link: '/events',
   },
   {
-    image: '/service-corporate.jpg',
+    image: '/images/corporate-catering-dubai-hero.webp',
     title: 'Corporate Dining',
     description: 'Impress clients and colleagues with sophisticated corporate dining and boardroom catering.',
     link: '/corporate',
   },
   {
-    image: '/service-villa.jpg',
+    image: '/images/villa-catering-dubai-hero.webp',
     title: 'Villas & Residences',
     description: 'Dedicated villa chef services for holiday homes, long-stay guests, and luxury residences across Dubai.',
     link: '/villas-private-residences',

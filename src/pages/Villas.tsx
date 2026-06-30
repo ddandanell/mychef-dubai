@@ -183,7 +183,7 @@ export default function Villas() {
       {/* Section 1: Hero */}
       <section className="relative min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <img
-          src="/service-villa.jpg"
+          src="/images/villa-catering-dubai-hero.webp"
           alt="Villa private chef dining experience in Dubai"
           className="absolute inset-0 w-full h-full object-cover opacity-40"
           style={{ objectPosition: 'center' }}
