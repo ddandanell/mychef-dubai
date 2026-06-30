@@ -434,7 +434,7 @@ export default function Inquiry() {
                 </div>
               </div>
 
-              <form onSubmit={handleSubmit} className="flex flex-col gap-5">
+              <form id="inquiry-form" onSubmit={handleSubmit} className="flex flex-col gap-5">
                 {/* Step 1: Event Details */}
                 {currentStep === 1 && (
                   <div className="flex flex-col gap-5">

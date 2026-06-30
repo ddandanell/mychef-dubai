@@ -286,7 +286,7 @@ export default function Contact() {
                 <p className="font-inter text-body text-gray-500 mb-8">
                   Fill in the details below and we will get back to you within 2 hours with a bespoke proposal.
                 </p>
-                <form onSubmit={handleSubmit} className="space-y-5">
+                <form id="contact-form" onSubmit={handleSubmit} className="space-y-5">
                   <div>
                     <input
                       type="text"

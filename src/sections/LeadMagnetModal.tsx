@@ -1,5 +1,6 @@
-import { useState, useEffect, useCallback } from 'react'
+import { useState, useEffect, useCallback, useRef } from 'react'
 import { X } from 'lucide-react'
+import { trackEvent } from '../lib/analytics'
 
 const STORAGE_KEY = 'mychef_lead_magnet_dismissed'
 
@@ -7,6 +8,7 @@ export default function LeadMagnetModal() {
   const [isVisible, setIsVisible] = useState(false)
   const [isSubmitted, setIsSubmitted] = useState(false)
   const [phone, setPhone] = useState('')
+  const impressionTracked = useRef(false)
 
   const openModal = useCallback(() => {
     const dismissed = sessionStorage.getItem(STORAGE_KEY)
@@ -33,6 +35,15 @@ export default function LeadMagnetModal() {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [openModal])
 
+  useEffect(() => {
+    if (isVisible && !impressionTracked.current) {
+      impressionTracked.current = true
+      trackEvent('lead_magnet_impression', {
+        page_path: window.location.pathname,
+      })
+    }
+  }, [isVisible])
+
   const dismiss = () => {
     setIsVisible(false)
     sessionStorage.setItem(STORAGE_KEY, 'true')
@@ -41,6 +52,10 @@ export default function LeadMagnetModal() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
     if (phone.trim()) {
+      trackEvent('lead_magnet_submit', {
+        phone_provided: true,
+        page_path: window.location.pathname,
+      })
       const waUrl = `https://wa.me/971551744849?text=${encodeURIComponent(
         `Hi myCHEF Dubai, please send me the price guide. My WhatsApp/phone: ${phone} (via mychef.ae)`,
       )}`
@@ -85,7 +100,7 @@ export default function LeadMagnetModal() {
               Discover how to plan the perfect private dining experience in Dubai. Tips, menu ideas, and insider recommendations — delivered to your WhatsApp.
             </p>
 
-            <form onSubmit={handleSubmit} className="space-y-4">
+            <form id="lead-magnet-form" onSubmit={handleSubmit} className="space-y-4">
               <input
                 type="tel"
                 value={phone}
