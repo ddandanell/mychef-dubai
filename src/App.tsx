@@ -69,6 +69,17 @@ import RamadanCatering from './pages/RamadanCatering'
 import SuhoorCatering from './pages/SuhoorCatering'
 import EidCatering from './pages/EidCatering'
 import DiwaliCatering from './pages/DiwaliCatering'
+import Guides from './pages/Guides'
+import DubaiCateringPricesGuide from './pages/guides/DubaiCateringPricesGuide'
+import HowToChooseCatererDubai from './pages/guides/HowToChooseCatererDubai'
+import VillaCateringIdeas from './pages/guides/VillaCateringIdeas'
+import WeddingCateringChecklist from './pages/guides/WeddingCateringChecklist'
+import CorporateCateringChecklist from './pages/guides/CorporateCateringChecklist'
+import PrivateChefVsCatering from './pages/guides/PrivateChefVsCatering'
+import BuffetVsPlated from './pages/guides/BuffetVsPlated'
+import YachtCateringGuide from './pages/guides/YachtCateringGuide'
+import RamadanCateringGuide from './pages/guides/RamadanCateringGuide'
+import LuxuryDinnerPlanningGuide from './pages/guides/LuxuryDinnerPlanningGuide'
 
 export default function App() {
   return (
@@ -143,6 +154,17 @@ export default function App() {
         <Route path="/suhoor-catering-dubai" element={<SuhoorCatering />} />
         <Route path="/eid-catering-dubai" element={<EidCatering />} />
         <Route path="/diwali-catering-dubai" element={<DiwaliCatering />} />
+        <Route path="/guides" element={<Guides />} />
+        <Route path="/dubai-catering-prices-guide" element={<DubaiCateringPricesGuide />} />
+        <Route path="/how-to-choose-caterer-dubai" element={<HowToChooseCatererDubai />} />
+        <Route path="/villa-catering-ideas-dubai" element={<VillaCateringIdeas />} />
+        <Route path="/wedding-catering-checklist-dubai" element={<WeddingCateringChecklist />} />
+        <Route path="/corporate-catering-checklist-dubai" element={<CorporateCateringChecklist />} />
+        <Route path="/private-chef-vs-catering-dubai" element={<PrivateChefVsCatering />} />
+        <Route path="/buffet-vs-plated-dubai" element={<BuffetVsPlated />} />
+        <Route path="/yacht-catering-guide-dubai" element={<YachtCateringGuide />} />
+        <Route path="/ramadan-catering-guide-dubai" element={<RamadanCateringGuide />} />
+        <Route path="/luxury-dinner-planning-guide-dubai" element={<LuxuryDinnerPlanningGuide />} />
         <Route path="*" element={<Home />} />
       </Routes>
     </Layout>

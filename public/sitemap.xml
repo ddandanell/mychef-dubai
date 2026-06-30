@@ -94,6 +94,19 @@
   <url><loc>https://mychef.ae/locations/umm-suqeim</loc><priority>0.8</priority><changefreq>weekly</changefreq></url>
   <url><loc>https://mychef.ae/locations/al-barsha</loc><priority>0.8</priority><changefreq>weekly</changefreq></url>
 
+  <!-- Guides -->
+  <url><loc>https://mychef.ae/guides</loc><priority>0.8</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://mychef.ae/dubai-catering-prices-guide</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://mychef.ae/how-to-choose-caterer-dubai</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://mychef.ae/villa-catering-ideas-dubai</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://mychef.ae/wedding-catering-checklist-dubai</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://mychef.ae/corporate-catering-checklist-dubai</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://mychef.ae/private-chef-vs-catering-dubai</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://mychef.ae/buffet-vs-plated-dubai</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://mychef.ae/yacht-catering-guide-dubai</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://mychef.ae/ramadan-catering-guide-dubai</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://mychef.ae/luxury-dinner-planning-guide-dubai</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+
   <!-- Legal -->
   <url><loc>https://mychef.ae/privacy-policy</loc><priority>0.3</priority><changefreq>yearly</changefreq></url>
   <url><loc>https://mychef.ae/terms</loc><priority>0.3</priority><changefreq>yearly</changefreq></url>

@@ -522,6 +522,19 @@ export default function Catering() {
         </div>
       </section>
 
+      {/* ═══════════════ Related Guides ═══════════════ */}
+      <section className="bg-cream py-16">
+        <div className="container-custom max-w-[800px] text-center">
+          <h3 className="font-playfair text-h3 text-black mb-4">Related Guides</h3>
+          <p className="font-inter text-body text-[#737373] leading-relaxed">
+            Planning an event in Dubai? Read our{' '}
+            <Link to="/dubai-catering-prices-guide" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Dubai Catering Prices Guide</Link>
+            {' '}and{' '}
+            <Link to="/how-to-choose-caterer-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">How to Choose a Caterer in Dubai</Link>.
+          </p>
+        </div>
+      </section>
+
       {/* ═══════════════ Section 9: CTA Banner ═══════════════ */}
       <section className="bg-gradient-to-b from-charcoal to-black py-20">
         <div className="container-custom text-center cat-cta opacity-0 translate-y-8">

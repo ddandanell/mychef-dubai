@@ -419,6 +419,17 @@ export default function Villas() {
         </div>
       </section>
 
+      {/* ═══════════════ Related Guides ═══════════════ */}
+      <section className="bg-cream py-16">
+        <div className="container-custom max-w-[800px] text-center">
+          <h3 className="font-playfair text-h3 text-black mb-4">Related Guides</h3>
+          <p className="font-inter text-body text-[#737373] leading-relaxed">
+            Planning an event in Dubai? Read our{' '}
+            <Link to="/villa-catering-ideas-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Villa Catering Ideas</Link>.
+          </p>
+        </div>
+      </section>
+
       {/* Section 10: CTA Banner */}
       <section className="villas-cta-section bg-black py-24">
         <div className="villas-cta-content container-custom text-center">

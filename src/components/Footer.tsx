@@ -11,6 +11,19 @@ const serviceLinks = [
   { label: 'Yachts', href: '/yachts' },
 ]
 
+const guideLinks = [
+  { label: 'Catering Prices Guide', href: '/dubai-catering-prices-guide' },
+  { label: 'Choose a Caterer', href: '/how-to-choose-caterer-dubai' },
+  { label: 'Villa Catering Ideas', href: '/villa-catering-ideas-dubai' },
+  { label: 'Wedding Checklist', href: '/wedding-catering-checklist-dubai' },
+  { label: 'Corporate Checklist', href: '/corporate-catering-checklist-dubai' },
+  { label: 'Private Chef vs Catering', href: '/private-chef-vs-catering-dubai' },
+  { label: 'Buffet vs Plated', href: '/buffet-vs-plated-dubai' },
+  { label: 'Yacht Catering Guide', href: '/yacht-catering-guide-dubai' },
+  { label: 'Ramadan Catering Guide', href: '/ramadan-catering-guide-dubai' },
+  { label: 'Luxury Dinner Guide', href: '/luxury-dinner-planning-guide-dubai' },
+]
+
 const locationLinks = [
   { label: 'Dubai Marina', href: '/locations/dubai-marina' },
   { label: 'Downtown Dubai', href: '/locations/downtown-dubai' },
@@ -37,8 +50,8 @@ export default function Footer() {
   return (
     <footer className="bg-black border-t border-charcoal-light">
       <div className="container-custom pt-20 pb-10">
-        {/* 4-Column Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8">
+        {/* 5-Column Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-12 lg:gap-6">
           {/* Col 1: Brand */}
           <div>
             <Link to="/" className="font-playfair text-3xl font-semibold text-gold">
@@ -71,7 +84,26 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Col 3: Locations */}
+          {/* Col 3: Guides */}
+          <div>
+            <h4 className="font-inter text-caption font-medium uppercase tracking-wider text-white mb-6">
+              Guides
+            </h4>
+            <ul className="space-y-3">
+              {guideLinks.map((link) => (
+                <li key={link.href}>
+                  <Link
+                    to={link.href}
+                    className="font-inter text-body-sm text-gray-400 hover:text-gold transition-colors duration-200"
+                  >
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Col 4: Locations */}
           <div>
             <h4 className="font-inter text-caption font-medium uppercase tracking-wider text-white mb-6">
               Locations
@@ -109,11 +141,11 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="mailto:info@mychefdubai.com"
+                  href="mailto:hallo@mychef.ae"
                   className="flex items-center gap-3 font-inter text-body-sm text-gray-400 hover:text-gold transition-colors duration-200"
                 >
                   <Mail size={16} className="text-gold flex-shrink-0" />
-                  <span>info@mychefdubai.com</span>
+                  <span>hallo@mychef.ae</span>
                 </a>
               </li>
               <li>

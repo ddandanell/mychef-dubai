@@ -484,6 +484,17 @@ export default function LuxuryDining() {
         </div>
       </section>
 
+      {/* ═══════════════ Related Guides ═══════════════ */}
+      <section className="bg-cream py-16">
+        <div className="container-custom max-w-[800px] text-center">
+          <h3 className="font-playfair text-h3 text-black mb-4">Related Guides</h3>
+          <p className="font-inter text-body text-[#737373] leading-relaxed">
+            Planning an event in Dubai? Read our{' '}
+            <Link to="/luxury-dinner-planning-guide-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Luxury Dinner Planning Guide</Link>.
+          </p>
+        </div>
+      </section>
+
       {/* ═══════════════ Section 8: CTA Banner ═══════════════ */}
       <section className="bg-gradient-to-b from-charcoal to-black py-20">
         <div className="container-custom text-center ld-cta opacity-0 translate-y-8">
