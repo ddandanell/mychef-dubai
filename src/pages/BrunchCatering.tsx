@@ -521,7 +521,7 @@ export default function BrunchCatering() {
           <h2 className="font-playfair text-h2 text-white text-center mb-10">
             Explore More from myCHEF Dubai
           </h2>
-          <div className="grid md:grid-cols-2 gap-6">
+          <div className="grid md:grid-cols-3 gap-6">
             <div>
               <h3 className="font-inter text-caption uppercase tracking-wider text-gold mb-4">Related Services</h3>
               <ul className="space-y-3">
@@ -529,6 +529,14 @@ export default function BrunchCatering() {
                 <li><Link to="/private-chef-dubai" className="font-inter text-body text-gray-400 hover:text-gold transition-colors flex items-center gap-2"><ArrowRight size={14} /> Private Chef Dubai</Link></li>
                 <li><Link to="/corporate" className="font-inter text-body text-gray-400 hover:text-gold transition-colors flex items-center gap-2"><ArrowRight size={14} /> Corporate Catering</Link></li>
                 <li><Link to="/party-catering-dubai" className="font-inter text-body text-gray-400 hover:text-gold transition-colors flex items-center gap-2"><ArrowRight size={14} /> Party Catering</Link></li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="font-inter text-caption uppercase tracking-wider text-gold mb-4">Related Seasonal Services</h3>
+              <ul className="space-y-3">
+                <li><Link to="/new-year-catering-dubai" className="font-inter text-body text-gray-400 hover:text-gold transition-colors flex items-center gap-2"><ArrowRight size={14} /> New Year's Eve Catering Dubai</Link></li>
+                <li><Link to="/christmas-catering-dubai" className="font-inter text-body text-gray-400 hover:text-gold transition-colors flex items-center gap-2"><ArrowRight size={14} /> Christmas Catering Dubai</Link></li>
+                <li><Link to="/birthday-catering-dubai" className="font-inter text-body text-gray-400 hover:text-gold transition-colors flex items-center gap-2"><ArrowRight size={14} /> Birthday Catering Dubai</Link></li>
               </ul>
             </div>
             <div>

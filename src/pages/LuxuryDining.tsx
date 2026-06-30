@@ -20,25 +20,46 @@ const experiences = [
     image: '/service-luxury-dining.webp',
     title: 'Romantic Dinner Dubai',
     description: 'An intimate evening for two. Candlelit table, bespoke multi-course menu, discreet service. Perfect for anniversaries, proposals, or simply celebrating love.',
-    link: '/services/romantic-dinner-dubai',
+    link: '/romantic-dinner-dubai',
   },
   {
     image: '/service-private-chef.webp',
     title: 'Fine Dining at Home',
     description: 'Restaurant-quality cuisine in the comfort of your home. A multi-course tasting menu with wine pairing, served by our team.',
-    link: '/services/fine-dining-at-home-dubai',
+    link: '/private-chef-dubai',
   },
   {
     image: '/service-events.webp',
     title: 'Birthday Dinner Experience',
     description: 'A memorable birthday celebration with a custom menu, elegant presentation, and attentive service. From intimate to grand.',
-    link: '/services/birthday-catering-dubai',
+    link: '/birthday-catering-dubai',
   },
   {
     image: '/service-yacht.webp',
     title: 'Yacht Dining Experience',
     description: 'A private chef experience on your yacht with the Dubai skyline as your backdrop. Canapes, multi-course dinner, or BBQ.',
-    link: '/services/yacht-dining-dubai',
+    link: '/yachts',
+  },
+]
+
+const relatedExperiences = [
+  {
+    title: 'Private Cooking Classes',
+    description: 'Learn professional techniques from our chefs in a hands-on, private setting.',
+    image: '/service-private-chef.webp',
+    link: '/private-cooking-classes-dubai',
+  },
+  {
+    title: 'VIP Club',
+    description: 'Priority access, exclusive menus, and dedicated concierge for frequent hosts.',
+    image: '/service-luxury-dining.webp',
+    link: '/vip-club',
+  },
+  {
+    title: 'Gift Cards',
+    description: 'Give the gift of a bespoke dining experience with a myCHEF Dubai gift card.',
+    image: '/menu-dessert.webp',
+    link: '/gift-cards',
   },
 ]
 
@@ -212,6 +233,12 @@ export default function LuxuryDining() {
       opacity: 1, y: 0, duration: 0.8, stagger: 0.1, ease: 'power3.out',
     })
 
+    // Related Experiences
+    gsap.to('.ld-rel-exp-card', {
+      scrollTrigger: { trigger: '.ld-rel-exp-grid', start: 'top 85%', toggleActions: 'play none none none' },
+      opacity: 1, y: 0, duration: 0.8, stagger: 0.1, ease: 'power3.out',
+    })
+
     // CTA
     gsap.to('.ld-cta', {
       scrollTrigger: { trigger: '.ld-cta', start: 'top 85%', toggleActions: 'play none none none' },
@@ -252,6 +279,11 @@ export default function LuxuryDining() {
             <h2 className="font-playfair text-h2 text-black">
               Dining Experiences Tailored to You
             </h2>
+            <p className="font-inter text-body text-gray-500 leading-relaxed max-w-[700px] mx-auto mt-4">
+              From penthouses in Downtown to villas in{' '}
+              <Link to="/locations/emirates-hills" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Emirates Hills</Link>
+              , we bring Michelin-level dining to your door.
+            </p>
           </div>
 
           <div className="ld-exp-grid grid md:grid-cols-2 gap-8">
@@ -434,6 +466,42 @@ export default function LuxuryDining() {
                 <div className="p-6">
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
+                  <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
+                    Explore <ArrowRight size={14} />
+                  </span>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ═══════════════ Related Experiences ═══════════════ */}
+      <section className="bg-white py-20">
+        <div className="container-custom">
+          <div className="text-center mb-10">
+            <h3 className="font-playfair text-h3 text-black">
+              Related Experiences
+            </h3>
+          </div>
+
+          <div className="ld-rel-exp-grid grid md:grid-cols-3 gap-6">
+            {relatedExperiences.map((exp, i) => (
+              <Link
+                key={i}
+                to={exp.link}
+                className="ld-rel-exp-card group bg-cream overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-lg opacity-0 translate-y-12"
+              >
+                <div className="aspect-video overflow-hidden">
+                  <img
+                    src={exp.image}
+                    alt={exp.title}
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    loading="lazy" decoding="async"/>
+                </div>
+                <div className="p-6">
+                  <h4 className="font-playfair text-h4 text-black mb-2">{exp.title}</h4>
+                  <p className="font-inter text-body-sm text-gray-500 mb-4">{exp.description}</p>
                   <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
                     Explore <ArrowRight size={14} />
                   </span>

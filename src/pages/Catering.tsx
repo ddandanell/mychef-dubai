@@ -32,6 +32,11 @@ const cateringFormats = [
     link: '/canape-catering-dubai',
   },
   {
+    title: 'Finger Food Catering',
+    description: 'Bite-sized delights perfect for mingling, from arancini to sliders and artisan skewers.',
+    link: '/finger-food-catering-dubai',
+  },
+  {
     title: 'Grazing Tables',
     description: 'Artisan grazing spreads of cheeses, charcuterie, and seasonal produce — a striking centrepiece for any gathering.',
     link: '/grazing-table-dubai',
@@ -40,6 +45,16 @@ const cateringFormats = [
     title: 'Live Cooking Stations',
     description: 'Interactive chef stations that bring theatre to your event, freshly prepared in front of your guests.',
     link: '/live-cooking-stations-dubai',
+  },
+  {
+    title: 'Cocktail Party Catering',
+    description: 'Elegant cocktail receptions with premium canapés, stylish bar service, and seamless hospitality.',
+    link: '/cocktail-party-catering-dubai',
+  },
+  {
+    title: 'Mocktail Bar Catering',
+    description: 'Creative alcohol-free bars and refreshing mocktails crafted by our mixologists for any celebration.',
+    link: '/mocktail-bar-catering-dubai',
   },
   {
     title: 'Dessert Tables',
@@ -283,6 +298,19 @@ export default function Catering() {
         overlay="dark"
       />
 
+      {/* ═══════════════ Opening ═══════════════ */}
+      <section className="bg-black py-14 border-b border-charcoal">
+        <div className="container-custom max-w-3xl text-center">
+          <p className="font-inter text-body text-gray-400 leading-relaxed">
+            We deliver exceptional catering across Dubai's most prestigious districts, including{' '}
+            <Link to="/locations/business-bay" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Business Bay catering</Link>
+            {' '}and{' '}
+            <Link to="/locations/difc" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">DIFC catering</Link>.
+            Whether you are planning a corporate lunch, a private celebration, or a large gala, our team creates menus and service plans tailored to your venue and guests.
+          </p>
+        </div>
+      </section>
+
       {/* ═══════════════ Section 2: Catering Formats ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom">
@@ -295,7 +323,7 @@ export default function Catering() {
             </h2>
           </div>
 
-          <div className="cat-fmt-grid grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="cat-fmt-grid grid md:grid-cols-3 gap-6">
             {cateringFormats.map((fmt, i) => (
               <Link
                 key={i}
@@ -312,6 +340,61 @@ export default function Catering() {
                 </span>
               </Link>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ═══════════════ Catering by Dubai Location ═══════════════ */}
+      <section className="bg-cream py-16">
+        <div className="container-custom">
+          <div className="text-center mb-10">
+            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
+              WHERE WE SERVE
+            </span>
+            <h2 className="font-playfair text-h2 text-black">
+              Catering by Dubai Location
+            </h2>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-6">
+            <Link
+              to="/locations/business-bay"
+              className="group bg-white p-8 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-md"
+            >
+              <h3 className="font-playfair text-h3 text-black mb-2">Business Bay</h3>
+              <p className="font-inter text-body-sm text-gray-500 leading-relaxed mb-4">
+                Premium catering for offices, events, and residences in Dubai's bustling business district.
+              </p>
+              <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
+                Explore <ArrowRight size={14} />
+              </span>
+            </Link>
+
+            <Link
+              to="/locations/difc"
+              className="group bg-white p-8 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-md"
+            >
+              <h3 className="font-playfair text-h3 text-black mb-2">DIFC</h3>
+              <p className="font-inter text-body-sm text-gray-500 leading-relaxed mb-4">
+                Sophisticated corporate and private dining tailored to the DIFC lifestyle.
+              </p>
+              <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
+                Explore <ArrowRight size={14} />
+              </span>
+            </Link>
+
+            <Link
+              to="/locations/dubai-marina"
+              className="group bg-white p-8 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-md"
+            >
+              <h3 className="font-playfair text-h3 text-black mb-2">Dubai Marina</h3>
+              <p className="font-inter text-body-sm text-gray-500 leading-relaxed mb-4">
+                Yacht, apartment, and terrace catering with stunning waterfront views.
+              </p>
+              <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
+                Explore <ArrowRight size={14} />
+              </span>
+            </Link>
           </div>
         </div>
       </section>

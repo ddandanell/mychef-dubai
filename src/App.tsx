@@ -32,7 +32,6 @@ const Privacy = lazy(() => import('./pages/Privacy'))
 const Terms = lazy(() => import('./pages/Terms'))
 const Locations = lazy(() => import('./pages/Locations'))
 const LocationDetail = lazy(() => import('./pages/LocationDetail'))
-const ServiceDetail = lazy(() => import('./pages/ServiceDetail'))
 const PartyCatering = lazy(() => import('./pages/PartyCatering'))
 const BachelorPartyCatering = lazy(() => import('./pages/BachelorPartyCatering'))
 const BachelorettePartyCatering = lazy(() => import('./pages/BachelorettePartyCatering'))
@@ -149,7 +148,6 @@ export default function App() {
           <Route path="/terms" element={<Terms />} />
           <Route path="/locations" element={<Locations />} />
           <Route path="/locations/:slug" element={<LocationDetail />} />
-          <Route path="/services/:slug" element={<ServiceDetail />} />
           <Route path="/party-catering-dubai" element={<PartyCatering />} />
           <Route path="/bachelor-party-catering-dubai" element={<BachelorPartyCatering />} />
           <Route path="/bachelorette-party-catering-dubai" element={<BachelorettePartyCatering />} />

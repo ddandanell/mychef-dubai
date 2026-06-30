@@ -13,11 +13,15 @@ const serviceLinks = [
 ]
 
 const guideLinks = [
+  { label: 'FAQ', href: '/faq' },
+  { label: 'How It Works', href: '/how-it-works' },
+  { label: 'Menus', href: '/menus' },
+  { label: 'Our Chefs', href: '/our-chefs' },
+  { label: 'Gallery', href: '/gallery' },
+  { label: 'Venue Partners', href: '/venue-partners' },
   { label: 'Catering Prices Guide', href: '/dubai-catering-prices-guide' },
   { label: 'Cost Calculator', href: '/catering-cost-calculator-dubai' },
-  { label: 'Gallery', href: '/gallery' },
   { label: 'Blog', href: '/blog' },
-  { label: 'Venue Partners', href: '/venue-partners' },
   { label: 'Choose a Caterer', href: '/how-to-choose-caterer-dubai' },
   { label: 'Villa Catering Ideas', href: '/villa-catering-ideas-dubai' },
   { label: 'Wedding Checklist', href: '/wedding-catering-checklist-dubai' },
@@ -94,10 +98,10 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Col 3: Guides */}
+          {/* Col 3: Company */}
           <div>
             <h4 className="font-inter text-caption font-medium uppercase tracking-wider text-white mb-5 md:mb-6">
-              Guides
+              Company
             </h4>
             <ul className="space-y-3">
               {guideLinks.map((link) => (
