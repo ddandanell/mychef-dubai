@@ -3,6 +3,7 @@ import { Link } from 'react-router'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import SEO from '../components/SEO'
+import PageHero from '../components/PageHero'
 import { MapPin, ArrowRight, Phone } from 'lucide-react'
 
 gsap.registerPlugin(ScrollTrigger)
@@ -12,21 +13,21 @@ const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to reque
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 const dubaiLocations = [
-  { name: 'Dubai Marina', slug: 'dubai-marina', image: '/loc-dubai-marina.jpg', description: 'Yacht-ready private dining and event catering in Dubai Marina' },
-  { name: 'Downtown Dubai', slug: 'downtown-dubai', image: '/loc-downtown.jpg', description: 'Premium private dining near Burj Khalifa' },
-  { name: 'Palm Jumeirah', slug: 'palm-jumeirah', image: '/loc-palm-jumeirah.jpg', description: 'Ultra-luxury private chef services for Palm Jumeirah villas' },
-  { name: 'Jumeirah', slug: 'jumeirah', image: '/loc-jumeirah.jpg', description: 'Beachfront private chef for Jumeirah villas' },
-  { name: 'JBR', slug: 'jbr', image: '/loc-jbr.jpg', description: 'Beachfront catering and private chef services in JBR' },
-  { name: 'Business Bay', slug: 'business-bay', image: '/loc-difc.jpg', description: 'Corporate catering and private dining in Business Bay' },
-  { name: 'DIFC', slug: 'difc', image: '/loc-difc.jpg', description: 'Executive dining and corporate catering in DIFC' },
-  { name: 'Emirates Hills', slug: 'emirates-hills', image: '/loc-emirates-hills.jpg', description: 'Discreet luxury villa chef services in Emirates Hills' },
-  { name: 'Arabian Ranches', slug: 'arabian-ranches', image: '/loc-emirates-hills.jpg', description: 'Family chef and BBQ catering in Arabian Ranches' },
-  { name: 'Dubai Hills', slug: 'dubai-hills', image: '/loc-emirates-hills.jpg', description: 'Villa private chef and golf event catering in Dubai Hills' },
-  { name: 'JVC', slug: 'jvc', image: '/loc-dubai-marina.jpg', description: 'Family-focused private chef and catering in JVC' },
-  { name: 'JLT', slug: 'jlt', image: '/loc-dubai-marina.jpg', description: 'Lakeside office and residential catering in JLT' },
-  { name: 'Bluewaters Island', slug: 'bluewaters-island', image: '/loc-jbr.jpg', description: 'Luxury private dining for Bluewaters Island residents and visitors' },
-  { name: 'Umm Suqeim', slug: 'umm-suqeim', image: '/loc-jumeirah.jpg', description: 'Beachfront villa private dining in Umm Suqeim' },
-  { name: 'Al Barsha', slug: 'al-barsha', image: '/loc-downtown.jpg', description: 'Flexible luxury catering for Al Barsha homes and offices' },
+  { name: 'Dubai Marina', slug: 'dubai-marina', image: '/loc-dubai-marina.webp', description: 'Yacht-ready private dining and event catering in Dubai Marina' },
+  { name: 'Downtown Dubai', slug: 'downtown-dubai', image: '/loc-downtown.webp', description: 'Premium private dining near Burj Khalifa' },
+  { name: 'Palm Jumeirah', slug: 'palm-jumeirah', image: '/loc-palm-jumeirah.webp', description: 'Ultra-luxury private chef services for Palm Jumeirah villas' },
+  { name: 'Jumeirah', slug: 'jumeirah', image: '/loc-jumeirah.webp', description: 'Beachfront private chef for Jumeirah villas' },
+  { name: 'JBR', slug: 'jbr', image: '/loc-jbr.webp', description: 'Beachfront catering and private chef services in JBR' },
+  { name: 'Business Bay', slug: 'business-bay', image: '/loc-difc.webp', description: 'Corporate catering and private dining in Business Bay' },
+  { name: 'DIFC', slug: 'difc', image: '/loc-difc.webp', description: 'Executive dining and corporate catering in DIFC' },
+  { name: 'Emirates Hills', slug: 'emirates-hills', image: '/loc-emirates-hills.webp', description: 'Discreet luxury villa chef services in Emirates Hills' },
+  { name: 'Arabian Ranches', slug: 'arabian-ranches', image: '/loc-emirates-hills.webp', description: 'Family chef and BBQ catering in Arabian Ranches' },
+  { name: 'Dubai Hills', slug: 'dubai-hills', image: '/loc-emirates-hills.webp', description: 'Villa private chef and golf event catering in Dubai Hills' },
+  { name: 'JVC', slug: 'jvc', image: '/loc-dubai-marina.webp', description: 'Family-focused private chef and catering in JVC' },
+  { name: 'JLT', slug: 'jlt', image: '/loc-dubai-marina.webp', description: 'Lakeside office and residential catering in JLT' },
+  { name: 'Bluewaters Island', slug: 'bluewaters-island', image: '/loc-jbr.webp', description: 'Luxury private dining for Bluewaters Island residents and visitors' },
+  { name: 'Umm Suqeim', slug: 'umm-suqeim', image: '/loc-jumeirah.webp', description: 'Beachfront villa private dining in Umm Suqeim' },
+  { name: 'Al Barsha', slug: 'al-barsha', image: '/loc-downtown.webp', description: 'Flexible luxury catering for Al Barsha homes and offices' },
 ]
 
 const additionalAreas = [
@@ -41,7 +42,6 @@ export default function Locations() {
 
   useEffect(() => {
     const ctx = gsap.context(() => {
-      gsap.from('.gsap-hero', { opacity: 0, y: 30, duration: 0.8 })
 
       gsap.utils.toArray<HTMLElement>('.gsap-loc-card').forEach((card, i) => {
         gsap.from(card, {
@@ -62,7 +62,7 @@ export default function Locations() {
         title="Private Chef & Catering Locations | myCHEF Dubai"
         description="Premium private chef and luxury catering services across Dubai. Palm Jumeirah, Downtown, Dubai Marina, Emirates Hills, JBR, DIFC, Business Bay, JVC & more."
         canonicalPath="/locations"
-        ogImage="/loc-downtown.jpg"
+        ogImage="/loc-downtown.webp"
         schema={{
           '@context': 'https://schema.org',
           '@type': 'BreadcrumbList',
@@ -74,19 +74,16 @@ export default function Locations() {
       />
 
       {/* Hero */}
-      <section className="relative min-h-[50vh] flex items-center justify-center overflow-hidden bg-black">
-        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black" />
-        <div className="absolute inset-0 opacity-30" style={{ backgroundImage: 'url(/images/locations-dubai-hero.webp)', backgroundSize: 'cover', backgroundPosition: 'center' }} />
-        <div className="relative z-10 text-center px-4 gsap-hero">
-          <p className="text-gold text-sm font-medium tracking-[0.2em] uppercase mb-4">Dubai Coverage</p>
-          <h1 className="font-playfair text-4xl md:text-6xl text-white font-semibold mb-4">
-            We Serve All of Dubai
-          </h1>
-          <p className="text-gray-300 text-lg max-w-2xl mx-auto">
-            From Palm Jumeirah to Downtown, Emirates Hills to Dubai Marina — we bring premium dining to your doorstep.
-          </p>
-        </div>
-      </section>
+      <PageHero
+        eyebrow="Dubai Coverage"
+        title="We Serve All of Dubai"
+        subtitle="From Palm Jumeirah to Downtown, Emirates Hills to Dubai Marina — we bring premium dining to your doorstep."
+        image="/images/locations-dubai-hero.webp"
+        imageAlt="Map of Dubai locations served by myCHEF"
+        breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Locations' }]}
+        minHeight="medium"
+        overlay="dark"
+      />
 
       {/* Location Cards Grid */}
       <section className="py-24 bg-black">

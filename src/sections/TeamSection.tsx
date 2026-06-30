@@ -11,11 +11,17 @@ export default function TeamSection() {
   const rightRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
+    const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
     const ctx = gsap.context(() => {
+      if (reduced) {
+        gsap.set([leftRef.current, rightRef.current], { opacity: 1, x: 0 })
+        return
+      }
+
       gsap.fromTo(leftRef.current,
         { opacity: 0, x: -30 },
         {
-          opacity: 1, x: 0, duration: 0.8, ease: 'power3.out',
+          opacity: 1, x: 0, duration: 0.7, ease: 'power3.out',
           scrollTrigger: { trigger: sectionRef.current, start: 'top 80%' },
         }
       )
@@ -23,7 +29,7 @@ export default function TeamSection() {
       gsap.fromTo(rightRef.current,
         { opacity: 0, x: 30 },
         {
-          opacity: 1, x: 0, duration: 0.8, delay: 0.2, ease: 'power3.out',
+          opacity: 1, x: 0, duration: 0.7, delay: 0.15, ease: 'power3.out',
           scrollTrigger: { trigger: sectionRef.current, start: 'top 80%' },
         }
       )
@@ -39,13 +45,15 @@ export default function TeamSection() {
           {/* Left Column - Image */}
           <div
             ref={leftRef}
-            className="w-full lg:w-2/5 relative min-h-[400px] lg:min-h-[500px]"
+            className="w-full lg:w-2/5 relative min-h-[320px] md:min-h-[400px] lg:min-h-[500px]"
           >
             <img
-              src="/team-head-chef.jpg"
+              src="/team-head-chef.webp"
               alt="Executive Chef - myCHEF Dubai Head Chef"
               className="absolute inset-0 w-full h-full object-cover object-top"
-              loading="lazy"
+              loading="eager"
+              fetchPriority="high"
+              decoding="async"
             />
           </div>
 
@@ -57,7 +65,7 @@ export default function TeamSection() {
             <span className="font-inter text-caption font-medium uppercase tracking-[0.1em] text-gold">
               Meet the Team
             </span>
-            <h2 className="font-playfair text-h2 text-white mt-4 mb-6">
+            <h2 className="font-playfair text-fluid-h2 text-white mt-4 mb-6">
               Led by a Passion for Excellence
             </h2>
             <p className="font-inter text-base text-gray-400 leading-[1.7] mb-4 max-w-lg">
@@ -66,7 +74,7 @@ export default function TeamSection() {
             <p className="font-inter text-base text-gray-400 leading-[1.7] mb-8 max-w-lg">
               Behind every event is a dedicated team of chefs, sous chefs, pastry specialists, and service staff — all committed to one goal: making your experience unforgettable.
             </p>
-            <Link to="/our-chefs" className="btn-secondary inline-flex self-start">
+            <Link to="/our-chefs" className="btn-secondary inline-flex self-start focus-visible:ring-offset-black">
               Meet Our Chefs
             </Link>
           </div>

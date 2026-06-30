@@ -219,12 +219,12 @@ export default function DubaiCateringPricesGuide() {
         title="Dubai Catering Prices Guide 2026 | What to Budget | myCHEF"
         description="Dubai catering prices per person in 2026: private chef, canapés, buffet, plated dinner, BBQ, and yacht catering. Learn what affects cost and how to get an accurate quote."
         canonicalPath="/dubai-catering-prices-guide"
-        ogImage="/service-catering.jpg"
+        ogImage="/service-catering.webp"
         schema={schema}
       />
 
       {/* ═══════════════ Hero ═══════════════ */}
-      <section className="relative min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
+      <section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
           style={{ backgroundImage: 'url(/images/catering-dubai-hero.webp)' }}
@@ -233,16 +233,16 @@ export default function DubaiCateringPricesGuide() {
 
         <div className="relative z-10 container-custom text-center max-w-[800px] py-20">
           <nav className="mb-6 opacity-0 translate-y-4 price-hero-h1">
-            <ol className="flex items-center justify-center gap-2 font-inter text-[13px]">
-              <li><Link to="/" className="text-[#A3A3A3] hover:text-gold transition-colors">Home</Link></li>
-              <li className="text-[#A3A3A3]">/</li>
-              <li><Link to="/guides" className="text-[#A3A3A3] hover:text-gold transition-colors">Guides</Link></li>
-              <li className="text-[#A3A3A3]">/</li>
+            <ol className="flex items-center justify-center gap-2 font-inter text-body-sm">
+              <li><Link to="/" className="text-gray-400 hover:text-gold transition-colors">Home</Link></li>
+              <li className="text-gray-400">/</li>
+              <li><Link to="/guides" className="text-gray-400 hover:text-gold transition-colors">Guides</Link></li>
+              <li className="text-gray-400">/</li>
               <li><span className="text-gold">Dubai Catering Prices Guide</span></li>
             </ol>
           </nav>
 
-          <h1 className="font-playfair text-[40px] md:text-[56px] lg:text-[72px] font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 price-hero-h1">
+          <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 price-hero-h1">
             Dubai Catering Prices Guide: What to Budget for Your Event
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 price-hero-sub">
@@ -272,10 +272,10 @@ export default function DubaiCateringPricesGuide() {
           <h2 className="font-playfair text-h2 text-black mb-6">
             Understand Catering Costs Before You Book
           </h2>
-          <p className="font-inter text-body-lg text-[#737373] leading-relaxed mb-5">
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Catering prices in Dubai vary widely depending on the format, guest count, cuisine, and venue. A private chef dinner for ten will be priced very differently from a buffet for eighty or a yacht cruise for thirty. Understanding the range for each format helps you set a realistic budget and compare quotes on equal terms.
           </p>
-          <p className="font-inter text-body-lg text-[#737373] leading-relaxed">
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             This guide explains typical per-person costs for the most popular Dubai catering formats and the key factors that affect your final quote. For a precise figure, we always recommend a custom proposal based on your specific event details.
           </p>
         </div>
@@ -291,7 +291,7 @@ export default function DubaiCateringPricesGuide() {
             <h2 className="font-playfair text-h2 text-white">
               Catering Costs Per Person in Dubai
             </h2>
-            <p className="font-inter text-body text-[#A3A3A3] max-w-[640px] mx-auto mt-4">
+            <p className="font-inter text-body text-gray-400 max-w-[640px] mx-auto mt-4">
               Prices are indicative guides for mid-market to premium catering in Dubai. Final quotes depend on menu choices, staff levels, rentals, and venue logistics.
             </p>
           </div>
@@ -308,11 +308,11 @@ export default function DubaiCateringPricesGuide() {
               </thead>
               <tbody>
                 {priceTable.map((row, i) => (
-                  <tr key={i} className="price-table-row border-b border-[#2A2A2A] opacity-0 translate-y-4">
+                  <tr key={i} className="price-table-row border-b border-charcoal-light opacity-0 translate-y-4">
                     <td className="py-4 px-4 font-playfair text-white text-lg">{row.format}</td>
-                    <td className="py-4 px-4 font-inter text-[#A3A3A3]">AED {row.min}</td>
-                    <td className="py-4 px-4 font-inter text-[#A3A3A3]">AED {row.max}</td>
-                    <td className="py-4 px-4 font-inter text-body-sm text-[#737373]">{row.note}</td>
+                    <td className="py-4 px-4 font-inter text-gray-400">AED {row.min}</td>
+                    <td className="py-4 px-4 font-inter text-gray-400">AED {row.max}</td>
+                    <td className="py-4 px-4 font-inter text-body-sm text-gray-500">{row.note}</td>
                   </tr>
                 ))}
               </tbody>
@@ -340,7 +340,7 @@ export default function DubaiCateringPricesGuide() {
                 <div key={i} className="price-factor-card bg-charcoal p-8 opacity-0 translate-y-12">
                   <Icon size={36} className="text-gold mb-4" />
                   <h3 className="font-playfair text-h3 text-white mb-3">{factor.title}</h3>
-                  <p className="font-inter text-body-sm text-[#A3A3A3] leading-relaxed">{factor.description}</p>
+                  <p className="font-inter text-body-sm text-gray-400 leading-relaxed">{factor.description}</p>
                 </div>
               )
             })}
@@ -379,7 +379,7 @@ export default function DubaiCateringPricesGuide() {
               <h2 className="font-playfair text-h2 text-black mb-6">
                 Why Custom Quotes Beat Fixed Packages
               </h2>
-              <p className="font-inter text-body-lg text-[#737373] leading-relaxed mb-6">
+              <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-6">
                 Fixed packages can look simple, but they often force you into a predetermined menu, guest count band, or service style that does not match your event. A custom quote starts from your brief and builds outward.
               </p>
               <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=dubai-catering-prices-guide" className="btn-primary">Get My Custom Quote</Link>
@@ -388,7 +388,7 @@ export default function DubaiCateringPricesGuide() {
               {whyCustom.map((item, i) => (
                 <div key={i} className="flex gap-3">
                   <Check size={20} className="text-gold flex-shrink-0 mt-0.5" />
-                  <p className="font-inter text-body text-[#737373] leading-relaxed">{item}</p>
+                  <p className="font-inter text-body text-gray-500 leading-relaxed">{item}</p>
                 </div>
               ))}
             </div>
@@ -412,7 +412,7 @@ export default function DubaiCateringPricesGuide() {
             {dubaiExamples.map((ex, i) => (
               <div key={i} className="price-dubai-card bg-charcoal p-8 opacity-0 translate-y-10">
                 <h3 className="font-playfair text-h3 text-white mb-3">{ex.title}</h3>
-                <p className="font-inter text-body-sm text-[#A3A3A3] leading-relaxed">{ex.description}</p>
+                <p className="font-inter text-body-sm text-gray-400 leading-relaxed">{ex.description}</p>
               </div>
             ))}
           </div>
@@ -435,7 +435,7 @@ export default function DubaiCateringPricesGuide() {
               >
                 <div>
                   <h4 className="font-playfair text-h4 text-white mb-1">{link.title}</h4>
-                  <p className="font-inter text-body-sm text-[#A3A3A3]">{link.description}</p>
+                  <p className="font-inter text-body-sm text-gray-400">{link.description}</p>
                 </div>
                 <ArrowRight size={18} className="text-gold flex-shrink-0 ml-4 group-hover:translate-x-1 transition-transform" />
               </Link>
@@ -453,7 +453,7 @@ export default function DubaiCateringPricesGuide() {
 
           <div className="price-faq space-y-3">
             {faqs.map((faq, i) => (
-              <div key={i} className="price-faq-item border border-[#E5E5E5] opacity-0 translate-y-5">
+              <div key={i} className="price-faq-item border border-gray-200 opacity-0 translate-y-5">
                 <button
                   onClick={() => setOpenFaq(openFaq === i ? null : i)}
                   className="w-full flex items-center justify-between p-5 text-left"
@@ -468,7 +468,7 @@ export default function DubaiCateringPricesGuide() {
                   className={`overflow-hidden transition-all duration-300 ${openFaq === i ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'}`}
                 >
                   <div className="px-5 pb-5">
-                    <p className="font-inter text-body-sm text-[#737373] leading-relaxed">{faq.a}</p>
+                    <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{faq.a}</p>
                   </div>
                 </div>
               </div>
@@ -483,7 +483,7 @@ export default function DubaiCateringPricesGuide() {
           <h2 className="font-playfair text-h2 text-white mb-4">
             Get a Transparent Catering Quote
           </h2>
-          <p className="font-inter text-body-lg text-[#A3A3A3] max-w-[600px] mx-auto mb-8">
+          <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
             Tell us about your event and we will send an itemised custom proposal that matches your menu, guest count, and venue.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

@@ -2,6 +2,7 @@ import { useEffect, useRef } from 'react'
 import { Link } from 'react-router'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { ArrowRight } from 'lucide-react'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -50,14 +51,19 @@ export default function ServicesSection() {
   const cardsRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
+    const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
     const ctx = gsap.context(() => {
-      // Header animation
+      if (reduced) {
+        gsap.set([headerRef.current, cardsRef.current?.querySelectorAll('.service-card')], { opacity: 1, y: 0, x: 0 })
+        return
+      }
+
       gsap.fromTo(headerRef.current,
-        { opacity: 0, y: 50 },
+        { opacity: 0, y: 40 },
         {
           opacity: 1,
           y: 0,
-          duration: 0.8,
+          duration: 0.7,
           ease: 'power3.out',
           scrollTrigger: {
             trigger: headerRef.current,
@@ -66,16 +72,15 @@ export default function ServicesSection() {
         }
       )
 
-      // Cards staggered animation
       const cards = cardsRef.current?.querySelectorAll('.service-card')
       if (cards) {
         gsap.fromTo(cards,
-          { opacity: 0, y: 60 },
+          { opacity: 0, y: 50 },
           {
             opacity: 1,
             y: 0,
-            duration: 0.8,
-            stagger: 0.1,
+            duration: 0.7,
+            stagger: 0.08,
             ease: 'power3.out',
             scrollTrigger: {
               trigger: cardsRef.current,
@@ -97,11 +102,11 @@ export default function ServicesSection() {
     >
       <div className="container-custom">
         {/* Section Header */}
-        <div ref={headerRef} className="text-center mb-16">
+        <div ref={headerRef} className="text-center mb-12 md:mb-16">
           <span className="font-inter text-caption font-medium uppercase tracking-[0.1em] text-gold">
             What We Do
           </span>
-          <h2 className="font-playfair text-h2 text-white mt-4 mb-4">
+          <h2 className="font-playfair text-fluid-h2 text-white mt-4 mb-4">
             Tailored Culinary Experiences
           </h2>
           <div className="gold-line mx-auto" />
@@ -116,7 +121,7 @@ export default function ServicesSection() {
             <Link
               key={service.link}
               to={service.link}
-              className="service-card group block bg-charcoal overflow-hidden transition-all duration-400 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)]"
+              className="service-card group block bg-charcoal transition-all duration-300 hover:-translate-y-1 hover:shadow-card focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-black"
             >
               {/* Image */}
               <div className="relative aspect-[16/10] overflow-hidden">
@@ -125,6 +130,7 @@ export default function ServicesSection() {
                   alt={service.title}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   loading="lazy"
+                  decoding="async"
                 />
                 <div className="absolute inset-0 gradient-overlay-bottom" />
               </div>
@@ -137,11 +143,9 @@ export default function ServicesSection() {
                 <p className="font-inter text-body-sm text-gray-400 leading-relaxed mb-4">
                   {service.description}
                 </p>
-                <span className="inline-flex items-center gap-2 font-inter text-[13px] font-medium uppercase tracking-wider text-gold group-hover:gap-3 transition-all duration-300">
+                <span className="inline-flex items-center gap-2 font-inter text-body-sm font-medium uppercase tracking-wider text-gold group-hover:gap-3 transition-all duration-300">
                   Explore
-                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" className="transition-transform duration-300 group-hover:translate-x-1">
-                    <path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                  </svg>
+                  <ArrowRight size={16} className="transition-transform duration-300 group-hover:translate-x-1" />
                 </span>
               </div>
             </Link>

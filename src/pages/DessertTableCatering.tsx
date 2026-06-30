@@ -95,12 +95,12 @@ const useCases = [
 ]
 
 const galleryImages = [
-  { src: '/menu-dessert.jpg', alt: 'Styled dessert table in Dubai' },
-  { src: '/service-events.jpg', alt: 'Event dessert station set-up' },
-  { src: '/menu-canapes.jpg', alt: 'Sweet and savoury display' },
-  { src: '/service-villa.jpg', alt: 'Villa dessert table styling' },
-  { src: '/menu-appetizer.jpg', alt: 'Patisserie and mini treats' },
-  { src: '/service-luxury-dining.jpg', alt: 'Luxury dining dessert service' },
+  { src: '/menu-dessert.webp', alt: 'Styled dessert table in Dubai' },
+  { src: '/service-events.webp', alt: 'Event dessert station set-up' },
+  { src: '/menu-canapes.webp', alt: 'Sweet and savoury display' },
+  { src: '/service-villa.webp', alt: 'Villa dessert table styling' },
+  { src: '/menu-appetizer.webp', alt: 'Patisserie and mini treats' },
+  { src: '/service-luxury-dining.webp', alt: 'Luxury dining dessert service' },
 ]
 
 const locations = [
@@ -153,19 +153,19 @@ const relatedServices = [
   {
     title: 'Wedding Catering',
     description: 'Full-service wedding dining, from canapés to sweet tables for your special day.',
-    image: '/service-events.jpg',
+    image: '/service-events.webp',
     link: '/wedding-catering-dubai',
   },
   {
     title: 'Birthday Catering',
     description: 'Custom cakes, themed menus, and full service for birthdays of every age.',
-    image: '/menu-dessert.jpg',
+    image: '/menu-dessert.webp',
     link: '/birthday-catering-dubai',
   },
   {
     title: 'Baby Shower Catering',
     description: 'Pastel dessert tables and afternoon-tea menus for an intimate baby shower.',
-    image: '/menu-canapes.jpg',
+    image: '/menu-canapes.webp',
     link: '/baby-shower-catering-dubai',
   },
 ]
@@ -266,12 +266,12 @@ export default function DessertTableCatering() {
         title="Dessert Table Dubai | Patisserie & Sweet Tables"
         description="Bespoke dessert tables in Dubai for weddings, birthdays, and baby showers. Custom cakes, French patisserie, styled sweet displays with full set-up and dietary options."
         canonicalPath="/dessert-table-catering-dubai"
-        ogImage="/menu-dessert.jpg"
+        ogImage="/menu-dessert.webp"
         schema={schema}
       />
 
       {/* ═══════════════ Section 1: Hero ═══════════════ */}
-      <section className="relative min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
+      <section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
           style={{ backgroundImage: 'url(/images/dessert-table-catering-dubai-hero.webp)' }}
@@ -280,14 +280,14 @@ export default function DessertTableCatering() {
 
         <div className="relative z-10 container-custom text-center max-w-[800px] py-20">
           <nav className="mb-6 opacity-0 translate-y-4 des-hero-h1">
-            <ol className="flex items-center justify-center gap-2 font-inter text-[13px]">
-              <li><Link to="/" className="text-[#A3A3A3] hover:text-gold transition-colors">Home</Link></li>
-              <li className="text-[#A3A3A3]">/</li>
+            <ol className="flex items-center justify-center gap-2 font-inter text-body-sm">
+              <li><Link to="/" className="text-gray-400 hover:text-gold transition-colors">Home</Link></li>
+              <li className="text-gray-400">/</li>
               <li><span className="text-gold">Dessert Table Dubai</span></li>
             </ol>
           </nav>
 
-          <h1 className="font-playfair text-[40px] md:text-[56px] lg:text-[72px] font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 des-hero-h1">
+          <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 des-hero-h1">
             Dessert Tables in Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 des-hero-sub">
@@ -317,10 +317,10 @@ export default function DessertTableCatering() {
           <h2 className="font-playfair text-h2 text-black mb-6">
             The Sweetest Moment of the Day
           </h2>
-          <p className="font-inter text-body-lg text-[#737373] leading-relaxed mb-5">
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             The dessert table is where a celebration lingers. It is the centrepiece cake everyone photographs, the tower of macarons that disappears first, the styled display that frames the room. At myCHEF Dubai, our pastry kitchen builds dessert tables as composed, considered installations — bespoke cakes, refined French patisserie, and bite-sized sweets arranged across tiered stands and plinths to match your palette and theme.
           </p>
-          <p className="font-inter text-body-lg text-[#737373] leading-relaxed">
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             Whether you are planning an elegant wedding sweet table, a colourful birthday display, a pastel baby shower, or a refined dessert and coffee station to close a dinner, our team designs, delivers, and styles it on-site at your villa or venue. Discover our dessert formats below, or see how they fit within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
           </p>
         </div>
@@ -345,14 +345,14 @@ export default function DessertTableCatering() {
                 <Link
                   key={i}
                   to={fmt.link}
-                  className="des-fmt-card group bg-charcoal p-8 transition-all duration-400 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
+                  className="des-fmt-card group bg-charcoal p-8 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
                 >
                   <Icon size={36} className="text-gold mb-4" />
                   <h3 className="font-playfair text-h3 text-white mb-3">{fmt.title}</h3>
-                  <p className="font-inter text-body-sm text-[#A3A3A3] leading-relaxed mb-4">
+                  <p className="font-inter text-body-sm text-gray-400 leading-relaxed mb-4">
                     {fmt.description}
                   </p>
-                  <span className="inline-flex items-center gap-1 font-inter text-[13px] uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
+                  <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
                     Learn More <ArrowRight size={14} />
                   </span>
                 </Link>
@@ -378,7 +378,7 @@ export default function DessertTableCatering() {
             {useCases.map((uc, i) => (
               <div key={i} className="des-uc-item bg-charcoal p-8 opacity-0 translate-y-10">
                 <h3 className="font-playfair text-h3 text-white mb-3">{uc.title}</h3>
-                <p className="font-inter text-body-sm text-[#A3A3A3] leading-relaxed">{uc.description}</p>
+                <p className="font-inter text-body-sm text-gray-400 leading-relaxed">{uc.description}</p>
               </div>
             ))}
           </div>
@@ -398,7 +398,7 @@ export default function DessertTableCatering() {
                 <Check size={20} className="text-gold flex-shrink-0 mt-0.5" />
                 <div>
                   <h4 className="font-inter text-base font-medium text-black mb-1">{item.title}</h4>
-                  <p className="font-inter text-body-sm text-[#737373] leading-relaxed">{item.description}</p>
+                  <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{item.description}</p>
                 </div>
               </div>
             ))}
@@ -419,7 +419,7 @@ export default function DessertTableCatering() {
                 <img
                   src={img.src}
                   alt={img.alt}
-                  className="w-full h-full object-cover transition-transform duration-400 hover:scale-[1.03]"
+                  className="w-full h-full object-cover transition-transform duration-300 hover:scale-[1.03]"
                   loading="lazy"
                 />
               </div>
@@ -437,7 +437,7 @@ export default function DessertTableCatering() {
 
           <div className="des-faq space-y-3">
             {faqs.map((faq, i) => (
-              <div key={i} className="des-faq-item border border-[#E5E5E5] opacity-0 translate-y-5">
+              <div key={i} className="des-faq-item border border-gray-200 opacity-0 translate-y-5">
                 <button
                   onClick={() => setOpenFaq(openFaq === i ? null : i)}
                   className="w-full flex items-center justify-between p-5 text-left"
@@ -452,7 +452,7 @@ export default function DessertTableCatering() {
                   className={`overflow-hidden transition-all duration-300 ${openFaq === i ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'}`}
                 >
                   <div className="px-5 pb-5">
-                    <p className="font-inter text-body-sm text-[#737373] leading-relaxed">{faq.a}</p>
+                    <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{faq.a}</p>
                   </div>
                 </div>
               </div>
@@ -473,7 +473,7 @@ export default function DessertTableCatering() {
               <Link
                 key={loc.slug}
                 to={`/locations/${loc.slug}`}
-                className="des-loc-item flex items-center gap-2 font-inter text-sm text-[#A3A3A3] hover:text-gold transition-colors opacity-0"
+                className="des-loc-item flex items-center gap-2 font-inter text-sm text-gray-400 hover:text-gold transition-colors opacity-0"
               >
                 <span className="w-1.5 h-1.5 rounded-full bg-gold flex-shrink-0" />
                 {loc.name}
@@ -495,7 +495,7 @@ export default function DessertTableCatering() {
               <Link
                 key={i}
                 to={svc.link}
-                className="des-rel-card group bg-charcoal overflow-hidden transition-all duration-400 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
+                className="des-rel-card group bg-charcoal overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
               >
                 <div className="aspect-video overflow-hidden">
                   <img
@@ -507,8 +507,8 @@ export default function DessertTableCatering() {
                 </div>
                 <div className="p-6">
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
-                  <p className="font-inter text-body-sm text-[#A3A3A3] mb-4">{svc.description}</p>
-                  <span className="inline-flex items-center gap-1 font-inter text-[13px] uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
+                  <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
+                  <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
                     Explore <ArrowRight size={14} />
                   </span>
                 </div>
@@ -524,7 +524,7 @@ export default function DessertTableCatering() {
           <h2 className="font-playfair text-h2 text-white mb-4">
             Let's Design Your Dessert Table
           </h2>
-          <p className="font-inter text-body-lg text-[#A3A3A3] max-w-[600px] mx-auto mb-8">
+          <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
             Tell us about your celebration and we'll create a cake and dessert table styled to your theme, palette, and guest count.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

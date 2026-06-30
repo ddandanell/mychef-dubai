@@ -135,19 +135,19 @@ const relatedServices = [
   {
     title: 'Party Catering',
     description: 'Full-service catering for celebrations of every size, from intimate dinners to large villa parties.',
-    image: '/service-events.jpg',
+    image: '/service-events.webp',
     link: '/party-catering-dubai',
   },
   {
     title: 'Yacht Catering',
     description: 'Marine-friendly menus and service for yacht events, sunset cruises, and countdown celebrations.',
-    image: '/service-luxury-dining.jpg',
+    image: '/service-luxury-dining.webp',
     link: '/yachts',
   },
   {
     title: 'Luxury Dining Experiences',
     description: 'Multi-course private dining, wine-style service, and refined menus for special occasions.',
-    image: '/service-villa.jpg',
+    image: '/service-villa.webp',
     link: '/luxury-dining-experiences',
   },
 ]
@@ -243,12 +243,12 @@ export default function NewYearCatering() {
         title="New Year's Eve Catering Dubai | Gala, Yacht & Villa Parties"
         description="New Year's Eve catering in Dubai for gala dinners, yacht countdowns, and villa parties. Custom menus, full service, and midnight hospitality across Dubai."
         canonicalPath="/new-year-catering-dubai"
-        ogImage="/service-luxury-dining.jpg"
+        ogImage="/service-luxury-dining.webp"
         schema={schema}
       />
 
       {/* ═══════════════ Section 1: Hero ═══════════════ */}
-      <section className="relative min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
+      <section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
           style={{ backgroundImage: 'url(/images/new-year-catering-dubai-hero.webp)' }}
@@ -257,16 +257,16 @@ export default function NewYearCatering() {
 
         <div className="relative z-10 container-custom text-center max-w-[800px] py-20">
           <nav className="mb-6 opacity-0 translate-y-4 nye-hero-h1">
-            <ol className="flex items-center justify-center gap-2 font-inter text-[13px]">
-              <li><Link to="/" className="text-[#A3A3A3] hover:text-gold transition-colors">Home</Link></li>
-              <li className="text-[#A3A3A3]">/</li>
-              <li><Link to="/events" className="text-[#A3A3A3] hover:text-gold transition-colors">Events</Link></li>
-              <li className="text-[#A3A3A3]">/</li>
+            <ol className="flex items-center justify-center gap-2 font-inter text-body-sm">
+              <li><Link to="/" className="text-gray-400 hover:text-gold transition-colors">Home</Link></li>
+              <li className="text-gray-400">/</li>
+              <li><Link to="/events" className="text-gray-400 hover:text-gold transition-colors">Events</Link></li>
+              <li className="text-gray-400">/</li>
               <li><span className="text-gold">New Year's Eve Catering Dubai</span></li>
             </ol>
           </nav>
 
-          <h1 className="font-playfair text-[40px] md:text-[56px] lg:text-[72px] font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 nye-hero-h1">
+          <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 nye-hero-h1">
             New Year's Eve Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 nye-hero-sub">
@@ -296,10 +296,10 @@ export default function NewYearCatering() {
           <h2 className="font-playfair text-h2 text-black mb-6">
             A New Year's Eve Worth Remembering
           </h2>
-          <p className="font-inter text-body-lg text-[#737373] leading-relaxed mb-5">
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             New Year's Eve in Dubai is one of the most anticipated nights of the year. From private villa parties with views of the fireworks to elegant yacht countdowns and corporate galas, the right catering sets the tone for the entire evening. At myCHEF Dubai, we create New Year's Eve catering experiences that match the energy and style of your celebration.
           </p>
-          <p className="font-inter text-body-lg text-[#737373] leading-relaxed">
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             Our chefs and event team design menus ranging from refined multi-course gala dinners to lively canapé and live-station parties, with full staffing, bar service, and a structured midnight toast. You share the vision; we deliver the details. Explore our New Year's Eve catering options below, or see how they connect to our wider <Link to="/events" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">event catering in Dubai</Link>.
           </p>
         </div>
@@ -314,7 +314,7 @@ export default function NewYearCatering() {
           <h2 className="font-playfair text-h2 text-black mb-6">
             Hosts Who Want a Seamless Countdown
           </h2>
-          <p className="font-inter text-body-lg text-[#737373] leading-relaxed">
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             Our New Year's Eve catering is designed for Dubai hosts who want a memorable celebration without managing the kitchen. Villa owners throwing private countdown parties, families welcoming the new year together, companies hosting year-end galas, and yacht guests watching the fireworks all rely on our team. We also cater hotel suites, rooftop terraces, and corporate boardrooms. Whether your event is intimate or large, formal or festive, we adapt the menu, format, and service to match the occasion and the venue.
           </p>
         </div>
@@ -339,14 +339,14 @@ export default function NewYearCatering() {
                 <Link
                   key={i}
                   to={fmt.link}
-                  className="nye-fmt-card group bg-charcoal p-8 transition-all duration-400 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
+                  className="nye-fmt-card group bg-charcoal p-8 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
                 >
                   <Icon size={36} className="text-gold mb-4" />
                   <h3 className="font-playfair text-h3 text-white mb-3">{fmt.title}</h3>
-                  <p className="font-inter text-body-sm text-[#A3A3A3] leading-relaxed mb-4">
+                  <p className="font-inter text-body-sm text-gray-400 leading-relaxed mb-4">
                     {fmt.description}
                   </p>
-                  <span className="inline-flex items-center gap-1 font-inter text-[13px] uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
+                  <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
                     Learn More <ArrowRight size={14} />
                   </span>
                 </Link>
@@ -369,7 +369,7 @@ export default function NewYearCatering() {
                 <Check size={20} className="text-gold flex-shrink-0 mt-0.5" />
                 <div>
                   <h4 className="font-inter text-base font-medium text-black mb-1">{item.title}</h4>
-                  <p className="font-inter text-body-sm text-[#737373] leading-relaxed">{item.description}</p>
+                  <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{item.description}</p>
                 </div>
               </div>
             ))}
@@ -392,9 +392,9 @@ export default function NewYearCatering() {
           <div className="nye-steps grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {howItWorks.map((step, i) => (
               <div key={i} className="nye-step-item bg-charcoal p-8 opacity-0 translate-y-10">
-                <span className="font-playfair text-[32px] text-gold/40 block mb-3">{step.step}</span>
+                <span className="font-playfair text-fluid-h3 text-gold/40 block mb-3">{step.step}</span>
                 <h3 className="font-playfair text-h3 text-white mb-2">{step.title}</h3>
-                <p className="font-inter text-body-sm text-[#A3A3A3] leading-relaxed">{step.description}</p>
+                <p className="font-inter text-body-sm text-gray-400 leading-relaxed">{step.description}</p>
               </div>
             ))}
           </div>
@@ -410,10 +410,10 @@ export default function NewYearCatering() {
           <h2 className="font-playfair text-h2 text-black mb-6">
             End-to-End NYE Hospitality
           </h2>
-          <p className="font-inter text-body-lg text-[#737373] leading-relaxed mb-5">
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             New Year's Eve events demand precision, timing, and calm execution. At myCHEF Dubai, we plan every phase of the evening, from guest arrival through the midnight toast to final clear-down. Our teams are available for Dubai events in private villas, homes, offices, yachts, and event spaces, and we design each menu around your venue, guest profile, and celebration style.
           </p>
-          <p className="font-inter text-body-lg text-[#737373] leading-relaxed">
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             We do not use off-the-shelf packages. Instead, we build a custom proposal that covers food, drinks, staffing, and timing, with menus adapted to guest count, dietary needs, and event style. That means your New Year's Eve celebration feels personal, polished, and completely under control.
           </p>
         </div>
@@ -436,7 +436,7 @@ export default function NewYearCatering() {
               <div key={i} className="nye-uc-item bg-charcoal p-8 opacity-0 translate-y-10">
                 <Home size={28} className="text-gold mb-4" />
                 <h3 className="font-playfair text-h3 text-white mb-3">{uc.title}</h3>
-                <p className="font-inter text-body-sm text-[#A3A3A3] leading-relaxed">{uc.description}</p>
+                <p className="font-inter text-body-sm text-gray-400 leading-relaxed">{uc.description}</p>
               </div>
             ))}
           </div>
@@ -449,7 +449,7 @@ export default function NewYearCatering() {
           <h2 className="font-playfair text-h3 text-white text-center mb-8">
             Explore Related Services & Locations
           </h2>
-          <p className="font-inter text-body text-[#A3A3A3] text-center mb-8 leading-relaxed">
+          <p className="font-inter text-body text-gray-400 text-center mb-8 leading-relaxed">
             New Year's Eve catering connects to our wider event, yacht, and luxury dining services. Browse these related pages to plan your full countdown experience across Dubai.
           </p>
           <div className="flex flex-wrap items-center justify-center gap-3">
@@ -474,7 +474,7 @@ export default function NewYearCatering() {
 
           <div className="nye-faq space-y-3">
             {faqs.map((faq, i) => (
-              <div key={i} className="nye-faq-item border border-[#E5E5E5] opacity-0 translate-y-5">
+              <div key={i} className="nye-faq-item border border-gray-200 opacity-0 translate-y-5">
                 <button
                   onClick={() => setOpenFaq(openFaq === i ? null : i)}
                   className="w-full flex items-center justify-between p-5 text-left"
@@ -489,7 +489,7 @@ export default function NewYearCatering() {
                   className={`overflow-hidden transition-all duration-300 ${openFaq === i ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'}`}
                 >
                   <div className="px-5 pb-5">
-                    <p className="font-inter text-body-sm text-[#737373] leading-relaxed">{faq.a}</p>
+                    <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{faq.a}</p>
                   </div>
                 </div>
               </div>
@@ -510,7 +510,7 @@ export default function NewYearCatering() {
               <Link
                 key={i}
                 to={svc.link}
-                className="nye-rel-card group bg-charcoal overflow-hidden transition-all duration-400 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
+                className="nye-rel-card group bg-charcoal overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
               >
                 <div className="aspect-video overflow-hidden">
                   <img
@@ -522,8 +522,8 @@ export default function NewYearCatering() {
                 </div>
                 <div className="p-6">
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
-                  <p className="font-inter text-body-sm text-[#A3A3A3] mb-4">{svc.description}</p>
-                  <span className="inline-flex items-center gap-1 font-inter text-[13px] uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
+                  <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
+                  <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
                     Explore <ArrowRight size={14} />
                   </span>
                 </div>
@@ -539,7 +539,7 @@ export default function NewYearCatering() {
           <h2 className="font-playfair text-h2 text-white mb-4">
             Plan My New Year's Eve Catering
           </h2>
-          <p className="font-inter text-body-lg text-[#A3A3A3] max-w-[600px] mx-auto mb-8">
+          <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
             Tell us about your venue, guest count, and vision. We will design a menu, service plan, and midnight countdown experience that lets you ring in the new year without a worry.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -554,7 +554,7 @@ export default function NewYearCatering() {
               Chat on WhatsApp
             </a>
           </div>
-          <p className="font-inter text-sm text-[#A3A3A3] mt-6">
+          <p className="font-inter text-sm text-gray-400 mt-6">
             We typically reply within 2 hours during business hours.
           </p>
         </div>

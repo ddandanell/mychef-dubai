@@ -135,19 +135,19 @@ const relatedServices = [
   {
     title: 'Private Chef Dubai',
     description: 'Bespoke dining experiences brought to your home, villa, or event space.',
-    image: '/service-catering.jpg',
+    image: '/service-catering.webp',
     link: '/private-chef-dubai',
   },
   {
     title: 'Corporate Catering',
     description: 'Professional catering for boardrooms, offices, and company events across Dubai.',
-    image: '/service-events.jpg',
+    image: '/service-events.webp',
     link: '/corporate',
   },
   {
     title: 'Party Catering',
     description: 'Full-service catering for celebrations, from intimate dinners to large gatherings.',
-    image: '/service-villa.jpg',
+    image: '/service-villa.webp',
     link: '/party-catering-dubai',
   },
 ]
@@ -267,12 +267,12 @@ export default function RamadanIftar() {
         title="Iftar Catering Dubai | Ramadan Private Chef"
         description="Iftar catering and Ramadan private chef service in Dubai. Traditional menus, dates, mezze, grills, desserts, and full service for family and corporate Iftars."
         canonicalPath="/iftar-catering-dubai"
-        ogImage="/service-catering.jpg"
+        ogImage="/service-catering.webp"
         schema={schema}
       />
 
       {/* ═══════════════ Section 1: Hero ═══════════════ */}
-      <section className="relative min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
+      <section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
           style={{ backgroundImage: 'url(/images/ramadan-iftar-catering-dubai-hero.webp)' }}
@@ -281,11 +281,11 @@ export default function RamadanIftar() {
 
         <div className="relative z-10 container-custom text-center max-w-[800px] py-20">
           <nav className="mb-6 opacity-0 translate-y-4 iftar-hero-h1" aria-label="Breadcrumb">
-            <ol className="flex items-center justify-center gap-2 font-inter text-[13px]">
-              <li><Link to="/" className="text-[#A3A3A3] hover:text-gold transition-colors">Home</Link></li>
-              <li className="text-[#A3A3A3]">/</li>
-              <li><Link to="/catering-dubai" className="text-[#A3A3A3] hover:text-gold transition-colors">Catering</Link></li>
-              <li className="text-[#A3A3A3]">/</li>
+            <ol className="flex items-center justify-center gap-2 font-inter text-body-sm">
+              <li><Link to="/" className="text-gray-400 hover:text-gold transition-colors">Home</Link></li>
+              <li className="text-gray-400">/</li>
+              <li><Link to="/catering-dubai" className="text-gray-400 hover:text-gold transition-colors">Catering</Link></li>
+              <li className="text-gray-400">/</li>
               <li><span className="text-gold">Iftar Catering Dubai</span></li>
             </ol>
           </nav>
@@ -293,7 +293,7 @@ export default function RamadanIftar() {
           <p className="font-inter text-caption uppercase tracking-[0.2em] text-gold mb-4 opacity-0 translate-y-4 iftar-hero-h1">
             Ramadan Kareem
           </p>
-          <h1 className="font-playfair text-[40px] md:text-[56px] lg:text-[72px] font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 iftar-hero-h1">
+          <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 iftar-hero-h1">
             Iftar Catering & Ramadan Private Chef in Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 iftar-hero-sub">
@@ -323,10 +323,10 @@ export default function RamadanIftar() {
           <h2 className="font-playfair text-h2 text-black mb-6">
             Iftar Gatherings Made Meaningful
           </h2>
-          <p className="font-inter text-body-lg text-[#737373] leading-relaxed mb-5">
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Iftar is more than a meal — it is a moment of gratitude, togetherness, and tradition. At myCHEF Dubai, we create Iftar catering experiences that respect the rhythm of Ramadan while delivering food your guests will remember. From the first date to the final cup of Arabic coffee, every detail is planned around your family, your colleagues, or your community.
           </p>
-          <p className="font-inter text-body-lg text-[#737373] leading-relaxed">
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             Whether you are hosting an intimate family Iftar, a corporate gathering for staff, or a community event at a hotel or event space, our team brings the menu, staff, and setup to you. Menus can be adapted to guest count, dietary needs, and event style, ensuring each evening feels personal and effortless.
           </p>
         </div>
@@ -344,20 +344,20 @@ export default function RamadanIftar() {
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-6 text-center">
-            <div className="bg-white p-8 border border-[#E5E5E5]">
+            <div className="bg-white p-8 border border-gray-200">
               <Home className="w-8 h-8 text-gold mx-auto mb-4" />
               <h3 className="font-playfair text-h4 text-black mb-2">Families & Homes</h3>
-              <p className="font-inter text-body-sm text-[#737373]">Relaxed Iftars in villas and apartments across Dubai, with traditional dishes served to family and friends.</p>
+              <p className="font-inter text-body-sm text-gray-500">Relaxed Iftars in villas and apartments across Dubai, with traditional dishes served to family and friends.</p>
             </div>
-            <div className="bg-white p-8 border border-[#E5E5E5]">
+            <div className="bg-white p-8 border border-gray-200">
               <Users className="w-8 h-8 text-gold mx-auto mb-4" />
               <h3 className="font-playfair text-h4 text-black mb-2">Companies & Teams</h3>
-              <p className="font-inter text-body-sm text-[#737373]">Corporate Iftars in offices, hotels, and event venues, with polished buffet or plated service.</p>
+              <p className="font-inter text-body-sm text-gray-500">Corporate Iftars in offices, hotels, and event venues, with polished buffet or plated service.</p>
             </div>
-            <div className="bg-white p-8 border border-[#E5E5E5]">
+            <div className="bg-white p-8 border border-gray-200">
               <Star className="w-8 h-8 text-gold mx-auto mb-4" />
               <h3 className="font-playfair text-h4 text-black mb-2">Communities & Embassies</h3>
-              <p className="font-inter text-body-sm text-[#737373]">Large-scale community Iftars with scalable menus, timely service, and cultural sensitivity.</p>
+              <p className="font-inter text-body-sm text-gray-500">Large-scale community Iftars with scalable menus, timely service, and cultural sensitivity.</p>
             </div>
           </div>
         </div>
@@ -382,14 +382,14 @@ export default function RamadanIftar() {
                 <Link
                   key={i}
                   to={fmt.link}
-                  className="iftar-fmt-card group bg-charcoal p-8 transition-all duration-400 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
+                  className="iftar-fmt-card group bg-charcoal p-8 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
                 >
                   <Icon size={36} className="text-gold mb-4" />
                   <h3 className="font-playfair text-h3 text-white mb-3">{fmt.title}</h3>
-                  <p className="font-inter text-body-sm text-[#A3A3A3] leading-relaxed mb-4">
+                  <p className="font-inter text-body-sm text-gray-400 leading-relaxed mb-4">
                     {fmt.description}
                   </p>
-                  <span className="inline-flex items-center gap-1 font-inter text-[13px] uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
+                  <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
                     Learn More <ArrowRight size={14} />
                   </span>
                 </Link>
@@ -412,7 +412,7 @@ export default function RamadanIftar() {
                 <Check size={20} className="text-gold flex-shrink-0 mt-0.5" />
                 <div>
                   <h4 className="font-inter text-base font-medium text-black mb-1">{item.title}</h4>
-                  <p className="font-inter text-body-sm text-[#737373] leading-relaxed">{item.description}</p>
+                  <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{item.description}</p>
                 </div>
               </div>
             ))}
@@ -441,7 +441,7 @@ export default function RamadanIftar() {
             ))}
           </div>
 
-          <p className="font-inter text-body text-[#A3A3A3] text-center max-w-[700px] mx-auto mt-10 leading-relaxed">
+          <p className="font-inter text-body text-gray-400 text-center max-w-[700px] mx-auto mt-10 leading-relaxed">
             Every Iftar menu is built from scratch. We do not use fixed set menus. Instead, we design around your preferences, combining traditional Ramadan staples with contemporary dishes so the spread feels both familiar and fresh.
           </p>
         </div>
@@ -466,7 +466,7 @@ export default function RamadanIftar() {
                   {String(i + 1).padStart(2, '0')}
                 </span>
                 <h3 className="font-inter text-base font-semibold text-black mb-2">{step.title}</h3>
-                <p className="font-inter text-body-sm text-[#737373] leading-relaxed">{step.description}</p>
+                <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{step.description}</p>
               </div>
             ))}
           </div>
@@ -481,10 +481,10 @@ export default function RamadanIftar() {
               Why Choose myCHEF for Ramadan
             </h2>
             <div className="space-y-5">
-              <p className="font-inter text-body-lg text-[#A3A3A3] leading-relaxed">
+              <p className="font-inter text-body-lg text-gray-400 leading-relaxed">
                 We understand that Ramadan catering in Dubai is about more than great food. It is about timing, hospitality, and respect for tradition. Our chefs and service teams arrive prepared, serve with discretion, and ensure that the fast is broken smoothly and beautifully.
               </p>
-              <p className="font-inter text-body-lg text-[#A3A3A3] leading-relaxed">
+              <p className="font-inter text-body-lg text-gray-400 leading-relaxed">
                 We plan every Iftar around your schedule, your space, and your guests. Menus are fully customised, dietary requirements are carefully managed, and our team handles setup, service, and clear-down so you can focus on what matters most during the holy month.
               </p>
             </div>
@@ -506,9 +506,9 @@ export default function RamadanIftar() {
 
           <div className="iftar-uc-grid grid md:grid-cols-2 gap-6">
             {useCases.map((uc, i) => (
-              <div key={i} className="iftar-uc-item bg-white p-8 border border-[#E5E5E5] opacity-0 translate-y-10">
+              <div key={i} className="iftar-uc-item bg-white p-8 border border-gray-200 opacity-0 translate-y-10">
                 <h3 className="font-playfair text-h3 text-black mb-3">{uc.title}</h3>
-                <p className="font-inter text-body-sm text-[#737373] leading-relaxed">{uc.description}</p>
+                <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{uc.description}</p>
               </div>
             ))}
           </div>
@@ -525,18 +525,18 @@ export default function RamadanIftar() {
             <div>
               <h3 className="font-inter text-caption uppercase tracking-wider text-gold mb-4">Related Services</h3>
               <ul className="space-y-3">
-                <li><Link to="/catering-dubai" className="font-inter text-body text-[#A3A3A3] hover:text-gold transition-colors flex items-center gap-2"><ArrowRight size={14} /> Luxury Catering Dubai</Link></li>
-                <li><Link to="/private-chef-dubai" className="font-inter text-body text-[#A3A3A3] hover:text-gold transition-colors flex items-center gap-2"><ArrowRight size={14} /> Private Chef Dubai</Link></li>
-                <li><Link to="/corporate" className="font-inter text-body text-[#A3A3A3] hover:text-gold transition-colors flex items-center gap-2"><ArrowRight size={14} /> Corporate Catering</Link></li>
-                <li><Link to="/party-catering-dubai" className="font-inter text-body text-[#A3A3A3] hover:text-gold transition-colors flex items-center gap-2"><ArrowRight size={14} /> Party Catering</Link></li>
+                <li><Link to="/catering-dubai" className="font-inter text-body text-gray-400 hover:text-gold transition-colors flex items-center gap-2"><ArrowRight size={14} /> Luxury Catering Dubai</Link></li>
+                <li><Link to="/private-chef-dubai" className="font-inter text-body text-gray-400 hover:text-gold transition-colors flex items-center gap-2"><ArrowRight size={14} /> Private Chef Dubai</Link></li>
+                <li><Link to="/corporate" className="font-inter text-body text-gray-400 hover:text-gold transition-colors flex items-center gap-2"><ArrowRight size={14} /> Corporate Catering</Link></li>
+                <li><Link to="/party-catering-dubai" className="font-inter text-body text-gray-400 hover:text-gold transition-colors flex items-center gap-2"><ArrowRight size={14} /> Party Catering</Link></li>
               </ul>
             </div>
             <div>
               <h3 className="font-inter text-caption uppercase tracking-wider text-gold mb-4">Popular Locations</h3>
               <ul className="space-y-3">
-                <li><Link to="/locations/downtown-dubai" className="font-inter text-body text-[#A3A3A3] hover:text-gold transition-colors flex items-center gap-2"><ArrowRight size={14} /> Downtown Dubai</Link></li>
-                <li><Link to="/locations/dubai-marina" className="font-inter text-body text-[#A3A3A3] hover:text-gold transition-colors flex items-center gap-2"><ArrowRight size={14} /> Dubai Marina</Link></li>
-                <li><Link to="/locations/palm-jumeirah" className="font-inter text-body text-[#A3A3A3] hover:text-gold transition-colors flex items-center gap-2"><ArrowRight size={14} /> Palm Jumeirah</Link></li>
+                <li><Link to="/locations/downtown-dubai" className="font-inter text-body text-gray-400 hover:text-gold transition-colors flex items-center gap-2"><ArrowRight size={14} /> Downtown Dubai</Link></li>
+                <li><Link to="/locations/dubai-marina" className="font-inter text-body text-gray-400 hover:text-gold transition-colors flex items-center gap-2"><ArrowRight size={14} /> Dubai Marina</Link></li>
+                <li><Link to="/locations/palm-jumeirah" className="font-inter text-body text-gray-400 hover:text-gold transition-colors flex items-center gap-2"><ArrowRight size={14} /> Palm Jumeirah</Link></li>
               </ul>
             </div>
           </div>
@@ -557,7 +557,7 @@ export default function RamadanIftar() {
 
           <div className="iftar-faq space-y-3">
             {faqs.map((faq, i) => (
-              <div key={i} className="iftar-faq-item border border-[#E5E5E5] opacity-0 translate-y-5">
+              <div key={i} className="iftar-faq-item border border-gray-200 opacity-0 translate-y-5">
                 <button
                   onClick={() => setOpenFaq(openFaq === i ? null : i)}
                   className="w-full flex items-center justify-between p-5 text-left"
@@ -573,7 +573,7 @@ export default function RamadanIftar() {
                   className={`overflow-hidden transition-all duration-300 ${openFaq === i ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'}`}
                 >
                   <div className="px-5 pb-5">
-                    <p className="font-inter text-body-sm text-[#737373] leading-relaxed">{faq.a}</p>
+                    <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{faq.a}</p>
                   </div>
                 </div>
               </div>
@@ -594,7 +594,7 @@ export default function RamadanIftar() {
               <Link
                 key={loc.slug}
                 to={`/locations/${loc.slug}`}
-                className="iftar-loc-item flex items-center gap-2 font-inter text-sm text-[#A3A3A3] hover:text-gold transition-colors opacity-0"
+                className="iftar-loc-item flex items-center gap-2 font-inter text-sm text-gray-400 hover:text-gold transition-colors opacity-0"
               >
                 <span className="w-1.5 h-1.5 rounded-full bg-gold flex-shrink-0" />
                 {loc.name}
@@ -616,7 +616,7 @@ export default function RamadanIftar() {
               <Link
                 key={i}
                 to={svc.link}
-                className="iftar-rel-card group bg-black overflow-hidden transition-all duration-400 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
+                className="iftar-rel-card group bg-black overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
               >
                 <div className="aspect-video overflow-hidden">
                   <img
@@ -628,8 +628,8 @@ export default function RamadanIftar() {
                 </div>
                 <div className="p-6">
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
-                  <p className="font-inter text-body-sm text-[#A3A3A3] mb-4">{svc.description}</p>
-                  <span className="inline-flex items-center gap-1 font-inter text-[13px] uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
+                  <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
+                  <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
                     Explore <ArrowRight size={14} />
                   </span>
                 </div>
@@ -645,7 +645,7 @@ export default function RamadanIftar() {
           <h2 className="font-playfair text-h2 text-white mb-4">
             Plan Your Iftar with myCHEF
           </h2>
-          <p className="font-inter text-body-lg text-[#A3A3A3] max-w-[600px] mx-auto mb-8">
+          <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
             Ramadan dates fill quickly. Share your plans and we will design a custom Iftar menu and service plan for your home, office, or event space in Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -660,7 +660,7 @@ export default function RamadanIftar() {
               Chat on WhatsApp
             </a>
           </div>
-          <p className="font-inter text-body-sm text-[#737373] mt-6">
+          <p className="font-inter text-body-sm text-gray-500 mt-6">
             We typically reply within 2 hours during business hours.
           </p>
         </div>

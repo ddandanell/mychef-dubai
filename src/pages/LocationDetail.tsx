@@ -214,7 +214,7 @@ export default function LocationDetail() {
       />
 
       {/* Hero */}
-      <section className="relative min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
+      <section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
           style={{ backgroundImage: `url(${loc.heroImage})` }}
@@ -223,16 +223,16 @@ export default function LocationDetail() {
 
         <div className="relative z-10 container-custom text-center max-w-[900px] py-20">
           <nav className="mb-6 opacity-0 translate-y-4 loc-hero-h1">
-            <ol className="flex items-center justify-center gap-2 font-inter text-[13px]">
-              <li><Link to="/" className="text-[#A3A3A3] hover:text-gold transition-colors">Home</Link></li>
-              <li className="text-[#A3A3A3]">/</li>
-              <li><Link to="/locations" className="text-[#A3A3A3] hover:text-gold transition-colors">Locations</Link></li>
-              <li className="text-[#A3A3A3]">/</li>
+            <ol className="flex items-center justify-center gap-2 font-inter text-body-sm">
+              <li><Link to="/" className="text-gray-400 hover:text-gold transition-colors">Home</Link></li>
+              <li className="text-gray-400">/</li>
+              <li><Link to="/locations" className="text-gray-400 hover:text-gold transition-colors">Locations</Link></li>
+              <li className="text-gray-400">/</li>
               <li><span className="text-gold">{loc.name}</span></li>
             </ol>
           </nav>
 
-          <h1 className="font-playfair text-[40px] md:text-[56px] lg:text-[72px] font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 loc-hero-h1">
+          <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 loc-hero-h1">
             {loc.h1}
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[700px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 loc-hero-sub">
@@ -267,7 +267,7 @@ export default function LocationDetail() {
             </h2>
             <div className="space-y-5">
               {loc.intro.map((paragraph, i) => (
-                <p key={i} className="font-inter text-body-lg text-[#4A4A4A] leading-relaxed">
+                <p key={i} className="font-inter text-body-lg text-gray-600 leading-relaxed">
                   {paragraph}
                 </p>
               ))}
@@ -285,7 +285,7 @@ export default function LocationDetail() {
                 <Home size={28} className="text-gold" />
                 <h2 className="font-playfair text-h3 text-white">Properties We Serve in {loc.name}</h2>
               </div>
-              <p className="font-inter text-body-lg text-[#A3A3A3] leading-relaxed">
+              <p className="font-inter text-body-lg text-gray-400 leading-relaxed">
                 {loc.propertyType}
               </p>
             </div>
@@ -297,7 +297,7 @@ export default function LocationDetail() {
               </div>
               <div className="space-y-4">
                 {loc.targetAudience.paragraphs.map((paragraph, i) => (
-                  <p key={i} className="font-inter text-body text-[#A3A3A3] leading-relaxed">
+                  <p key={i} className="font-inter text-body text-gray-400 leading-relaxed">
                     {paragraph}
                   </p>
                 ))}
@@ -332,7 +332,7 @@ export default function LocationDetail() {
             <h2 className="font-playfair text-h2 text-white mb-6">{loc.menuOptions.title}</h2>
             <div className="space-y-4 mb-8">
               {loc.menuOptions.paragraphs.map((paragraph, i) => (
-                <p key={i} className="font-inter text-body text-[#A3A3A3] leading-relaxed">
+                <p key={i} className="font-inter text-body text-gray-400 leading-relaxed">
                   {paragraph}
                 </p>
               ))}
@@ -369,7 +369,7 @@ export default function LocationDetail() {
                   {String(i + 1).padStart(2, '0')}
                 </span>
                 <h3 className="font-inter text-base font-semibold text-black mb-2">{step.title}</h3>
-                <p className="font-inter text-body-sm text-[#737373] leading-relaxed">{step.description}</p>
+                <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{step.description}</p>
               </div>
             ))}
           </div>
@@ -383,7 +383,7 @@ export default function LocationDetail() {
             <h2 className="font-playfair text-h2 text-white mb-8">{loc.whyChoose.title}</h2>
             <div className="space-y-5">
               {loc.whyChoose.paragraphs.map((paragraph, i) => (
-                <p key={i} className="font-inter text-body-lg text-[#A3A3A3] leading-relaxed">
+                <p key={i} className="font-inter text-body-lg text-gray-400 leading-relaxed">
                   {paragraph}
                 </p>
               ))}
@@ -402,10 +402,10 @@ export default function LocationDetail() {
             {loc.useCases.cases.map((useCase, i) => (
               <div
                 key={i}
-                className="loc-card bg-white p-8 border border-[#E5E5E5] opacity-0 translate-y-6"
+                className="loc-card bg-white p-8 border border-gray-200 opacity-0 translate-y-6"
               >
                 <h3 className="font-playfair text-h4 text-black mb-3">{useCase.title}</h3>
-                <p className="font-inter text-body text-[#737373] leading-relaxed">{useCase.description}</p>
+                <p className="font-inter text-body text-gray-500 leading-relaxed">{useCase.description}</p>
               </div>
             ))}
           </div>
@@ -422,7 +422,7 @@ export default function LocationDetail() {
             </div>
             <div className="space-y-4">
               {loc.logistics.paragraphs.map((paragraph, i) => (
-                <p key={i} className="font-inter text-body text-[#A3A3A3] leading-relaxed">
+                <p key={i} className="font-inter text-body text-gray-400 leading-relaxed">
                   {paragraph}
                 </p>
               ))}
@@ -450,7 +450,7 @@ export default function LocationDetail() {
                   </h3>
                   <ArrowRight size={18} className="text-gold" />
                 </div>
-                <p className="font-inter text-body-sm text-[#737373] group-hover:text-[#A3A3A3] transition-colors">
+                <p className="font-inter text-body-sm text-gray-500 group-hover:text-gray-400 transition-colors">
                   {nearby.description}
                 </p>
               </Link>
@@ -514,7 +514,7 @@ export default function LocationDetail() {
           </div>
           <div className="loc-faq space-y-3">
             {loc.faqs.map((faq, i) => (
-              <div key={i} className="loc-faq-item border border-[#E5E5E5] opacity-0 translate-y-5">
+              <div key={i} className="loc-faq-item border border-gray-200 opacity-0 translate-y-5">
                 <button
                   onClick={() => setOpenFaq(openFaq === i ? null : i)}
                   className="w-full flex items-center justify-between p-5 text-left"
@@ -529,7 +529,7 @@ export default function LocationDetail() {
                   className={`overflow-hidden transition-all duration-300 ${openFaq === i ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'}`}
                 >
                   <div className="px-5 pb-5">
-                    <p className="font-inter text-body-sm text-[#737373] leading-relaxed">{faq.a}</p>
+                    <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{faq.a}</p>
                   </div>
                 </div>
               </div>
@@ -542,7 +542,7 @@ export default function LocationDetail() {
       <section className="bg-gradient-to-b from-charcoal to-black py-20">
         <div className="container-custom text-center loc-cta opacity-0 translate-y-8">
           <h2 className="font-playfair text-h2 text-white mb-4">{loc.callToAction.title}</h2>
-          <p className="font-inter text-body-lg text-[#A3A3A3] max-w-[600px] mx-auto mb-8">
+          <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
             {loc.callToAction.subtitle}
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

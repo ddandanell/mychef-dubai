@@ -95,12 +95,12 @@ const useCases = [
 ]
 
 const galleryImages = [
-  { src: '/service-corporate.jpg', alt: 'Staff meals catering set-up for a Dubai workforce' },
-  { src: '/menu-meat.jpg', alt: 'Hearty daily staff meal main course' },
-  { src: '/service-catering.jpg', alt: 'Staff canteen buffet service styling' },
-  { src: '/service-events.jpg', alt: 'Team meal catering for a large organisation' },
-  { src: '/menu-appetizer.jpg', alt: 'Balanced staff meal sides and salads' },
-  { src: '/menu-seafood.jpg', alt: 'Lighter staff meal option plate' },
+  { src: '/service-corporate.webp', alt: 'Staff meals catering set-up for a Dubai workforce' },
+  { src: '/menu-meat.webp', alt: 'Hearty daily staff meal main course' },
+  { src: '/service-catering.webp', alt: 'Staff canteen buffet service styling' },
+  { src: '/service-events.webp', alt: 'Team meal catering for a large organisation' },
+  { src: '/menu-appetizer.webp', alt: 'Balanced staff meal sides and salads' },
+  { src: '/menu-seafood.webp', alt: 'Lighter staff meal option plate' },
 ]
 
 const locations = [
@@ -153,19 +153,19 @@ const relatedServices = [
   {
     title: 'Office Catering',
     description: 'Daily office lunches, breakfast spreads, and recurring retainers for teams across Dubai.',
-    image: '/menu-appetizer.jpg',
+    image: '/menu-appetizer.webp',
     link: '/office-catering-dubai',
   },
   {
     title: 'Healthy Catering',
     description: 'Balanced, nutrition-focused menus with low-carb, keto, and lighter options for teams.',
-    image: '/menu-seafood.jpg',
+    image: '/menu-seafood.webp',
     link: '/healthy-catering-dubai',
   },
   {
     title: 'Corporate Catering',
     description: 'Professional corporate dining, from daily staff meals to large company functions.',
-    image: '/service-corporate.jpg',
+    image: '/service-corporate.webp',
     link: '/corporate',
   },
 ]
@@ -266,12 +266,12 @@ export default function StaffMealsCatering() {
         title="Staff Meals Catering Dubai | Daily Team & Canteen"
         description="Staff meals catering in Dubai with daily team meals, canteen service, and recurring retainers. Halal menus, reliable delivery, and clear billing. Request your quote today."
         canonicalPath="/staff-meals-catering-dubai"
-        ogImage="/service-corporate.jpg"
+        ogImage="/service-corporate.webp"
         schema={schema}
       />
 
       {/* ═══════════════ Section 1: Hero ═══════════════ */}
-      <section className="relative min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
+      <section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
           style={{ backgroundImage: 'url(/images/staff-meals-catering-dubai-hero.webp)' }}
@@ -280,14 +280,14 @@ export default function StaffMealsCatering() {
 
         <div className="relative z-10 container-custom text-center max-w-[800px] py-20">
           <nav className="mb-6 opacity-0 translate-y-4 staff-hero-h1">
-            <ol className="flex items-center justify-center gap-2 font-inter text-[13px]">
-              <li><Link to="/" className="text-[#A3A3A3] hover:text-gold transition-colors">Home</Link></li>
-              <li className="text-[#A3A3A3]">/</li>
+            <ol className="flex items-center justify-center gap-2 font-inter text-body-sm">
+              <li><Link to="/" className="text-gray-400 hover:text-gold transition-colors">Home</Link></li>
+              <li className="text-gray-400">/</li>
               <li><span className="text-gold">Staff Meals Catering Dubai</span></li>
             </ol>
           </nav>
 
-          <h1 className="font-playfair text-[40px] md:text-[56px] lg:text-[72px] font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 staff-hero-h1">
+          <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 staff-hero-h1">
             Staff Meals Catering in Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 staff-hero-sub">
@@ -317,10 +317,10 @@ export default function StaffMealsCatering() {
           <h2 className="font-playfair text-h2 text-black mb-6">
             A Reliable Meal for Every Team Member
           </h2>
-          <p className="font-inter text-body-lg text-[#737373] leading-relaxed mb-5">
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Feeding a workforce well is one of the quieter ways an organisation shows it values its people. A dependable daily meal keeps teams energised, saves staff the hassle of sorting lunch themselves, and builds a small but real sense of being looked after. The challenge at scale is consistency and cost — which is exactly what a planned staff meals service is built to solve. At myCHEF Dubai, we provide reliable team catering designed around the realities of a working operation.
           </p>
-          <p className="font-inter text-body-lg text-[#737373] leading-relaxed">
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             From daily team meals and managed staff canteens to recurring retainers and shift-based catering, we keep your people well fed without the daily admin. Menus are fully halal and built to a high standard, with balanced and dietary options throughout, and a standing retainer gives you predictable invoicing and one reliable point of contact. Explore the formats below, or see how staff catering fits within our wider <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering in Dubai</Link>.
           </p>
         </div>
@@ -345,14 +345,14 @@ export default function StaffMealsCatering() {
                 <Link
                   key={i}
                   to={fmt.link}
-                  className="staff-fmt-card group bg-charcoal p-8 transition-all duration-400 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
+                  className="staff-fmt-card group bg-charcoal p-8 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
                 >
                   <Icon size={36} className="text-gold mb-4" />
                   <h3 className="font-playfair text-h3 text-white mb-3">{fmt.title}</h3>
-                  <p className="font-inter text-body-sm text-[#A3A3A3] leading-relaxed mb-4">
+                  <p className="font-inter text-body-sm text-gray-400 leading-relaxed mb-4">
                     {fmt.description}
                   </p>
-                  <span className="inline-flex items-center gap-1 font-inter text-[13px] uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
+                  <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
                     Learn More <ArrowRight size={14} />
                   </span>
                 </Link>
@@ -378,7 +378,7 @@ export default function StaffMealsCatering() {
             {useCases.map((uc, i) => (
               <div key={i} className="staff-uc-item bg-charcoal p-8 opacity-0 translate-y-10">
                 <h3 className="font-playfair text-h3 text-white mb-3">{uc.title}</h3>
-                <p className="font-inter text-body-sm text-[#A3A3A3] leading-relaxed">{uc.description}</p>
+                <p className="font-inter text-body-sm text-gray-400 leading-relaxed">{uc.description}</p>
               </div>
             ))}
           </div>
@@ -398,7 +398,7 @@ export default function StaffMealsCatering() {
                 <Check size={20} className="text-gold flex-shrink-0 mt-0.5" />
                 <div>
                   <h4 className="font-inter text-base font-medium text-black mb-1">{item.title}</h4>
-                  <p className="font-inter text-body-sm text-[#737373] leading-relaxed">{item.description}</p>
+                  <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{item.description}</p>
                 </div>
               </div>
             ))}
@@ -419,7 +419,7 @@ export default function StaffMealsCatering() {
                 <img
                   src={img.src}
                   alt={img.alt}
-                  className="w-full h-full object-cover transition-transform duration-400 hover:scale-[1.03]"
+                  className="w-full h-full object-cover transition-transform duration-300 hover:scale-[1.03]"
                   loading="lazy"
                 />
               </div>
@@ -437,7 +437,7 @@ export default function StaffMealsCatering() {
 
           <div className="staff-faq space-y-3">
             {faqs.map((faq, i) => (
-              <div key={i} className="staff-faq-item border border-[#E5E5E5] opacity-0 translate-y-5">
+              <div key={i} className="staff-faq-item border border-gray-200 opacity-0 translate-y-5">
                 <button
                   onClick={() => setOpenFaq(openFaq === i ? null : i)}
                   className="w-full flex items-center justify-between p-5 text-left"
@@ -452,7 +452,7 @@ export default function StaffMealsCatering() {
                   className={`overflow-hidden transition-all duration-300 ${openFaq === i ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'}`}
                 >
                   <div className="px-5 pb-5">
-                    <p className="font-inter text-body-sm text-[#737373] leading-relaxed">{faq.a}</p>
+                    <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{faq.a}</p>
                   </div>
                 </div>
               </div>
@@ -473,7 +473,7 @@ export default function StaffMealsCatering() {
               <Link
                 key={loc.slug}
                 to={`/locations/${loc.slug}`}
-                className="staff-loc-item flex items-center gap-2 font-inter text-sm text-[#A3A3A3] hover:text-gold transition-colors opacity-0"
+                className="staff-loc-item flex items-center gap-2 font-inter text-sm text-gray-400 hover:text-gold transition-colors opacity-0"
               >
                 <span className="w-1.5 h-1.5 rounded-full bg-gold flex-shrink-0" />
                 {loc.name}
@@ -495,7 +495,7 @@ export default function StaffMealsCatering() {
               <Link
                 key={i}
                 to={svc.link}
-                className="staff-rel-card group bg-charcoal overflow-hidden transition-all duration-400 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
+                className="staff-rel-card group bg-charcoal overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
               >
                 <div className="aspect-video overflow-hidden">
                   <img
@@ -507,8 +507,8 @@ export default function StaffMealsCatering() {
                 </div>
                 <div className="p-6">
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
-                  <p className="font-inter text-body-sm text-[#A3A3A3] mb-4">{svc.description}</p>
-                  <span className="inline-flex items-center gap-1 font-inter text-[13px] uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
+                  <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
+                  <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
                     Explore <ArrowRight size={14} />
                   </span>
                 </div>
@@ -524,7 +524,7 @@ export default function StaffMealsCatering() {
           <h2 className="font-playfair text-h2 text-white mb-4">
             Feed Your Team, Every Day
           </h2>
-          <p className="font-inter text-body-lg text-[#A3A3A3] max-w-[600px] mx-auto mb-8">
+          <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
             Tell us your headcount, schedule, and dietary needs and we'll build a reliable staff meals plan — daily, canteen, or recurring retainer — with halal menus and clear, predictable pricing.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

@@ -214,12 +214,12 @@ export default function HowToChooseCatererDubai() {
         title="How to Choose a Caterer in Dubai | 10-Point Checklist | myCHEF"
         description="Use our 10-point checklist to choose a caterer in Dubai. Covers tastings, licenses, staffing, dietary handling, transparent quotes, venue familiarity, and red flags."
         canonicalPath="/how-to-choose-caterer-dubai"
-        ogImage="/service-catering.jpg"
+        ogImage="/service-catering.webp"
         schema={schema}
       />
 
       {/* ═══════════════ Hero ═══════════════ */}
-      <section className="relative min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
+      <section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
           style={{ backgroundImage: 'url(/images/catering-dubai-hero.webp)' }}
@@ -228,16 +228,16 @@ export default function HowToChooseCatererDubai() {
 
         <div className="relative z-10 container-custom text-center max-w-[800px] py-20">
           <nav className="mb-6 opacity-0 translate-y-4 choose-hero-h1">
-            <ol className="flex items-center justify-center gap-2 font-inter text-[13px]">
-              <li><Link to="/" className="text-[#A3A3A3] hover:text-gold transition-colors">Home</Link></li>
-              <li className="text-[#A3A3A3]">/</li>
-              <li><Link to="/guides" className="text-[#A3A3A3] hover:text-gold transition-colors">Guides</Link></li>
-              <li className="text-[#A3A3A3]">/</li>
+            <ol className="flex items-center justify-center gap-2 font-inter text-body-sm">
+              <li><Link to="/" className="text-gray-400 hover:text-gold transition-colors">Home</Link></li>
+              <li className="text-gray-400">/</li>
+              <li><Link to="/guides" className="text-gray-400 hover:text-gold transition-colors">Guides</Link></li>
+              <li className="text-gray-400">/</li>
               <li><span className="text-gold">How to Choose a Caterer in Dubai</span></li>
             </ol>
           </nav>
 
-          <h1 className="font-playfair text-[40px] md:text-[56px] lg:text-[72px] font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 choose-hero-h1">
+          <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 choose-hero-h1">
             How to Choose the Right Caterer in Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 choose-hero-sub">
@@ -267,10 +267,10 @@ export default function HowToChooseCatererDubai() {
           <h2 className="font-playfair text-h2 text-black mb-6">
             Make Your Decision With Confidence
           </h2>
-          <p className="font-inter text-body-lg text-[#737373] leading-relaxed mb-5">
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Choosing a caterer is one of the most important decisions for any event. The right partner will ask the right questions, offer a clear proposal, and handle the details so you can focus on hosting. The wrong one can create stress on the day through poor communication, hidden costs, or mismatched service.
           </p>
-          <p className="font-inter text-body-lg text-[#737373] leading-relaxed">
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             This checklist covers ten areas to evaluate before signing a contract, from menu flexibility and tastings to licenses, staffing, and backup plans.
           </p>
         </div>
@@ -297,7 +297,7 @@ export default function HowToChooseCatererDubai() {
                   </span>
                   <h3 className="font-playfair text-h3 text-white pt-1">{item.title}</h3>
                 </div>
-                <p className="font-inter text-body-sm text-[#A3A3A3] leading-relaxed">{item.description}</p>
+                <p className="font-inter text-body-sm text-gray-400 leading-relaxed">{item.description}</p>
               </div>
             ))}
           </div>
@@ -315,7 +315,7 @@ export default function HowToChooseCatererDubai() {
               <h2 className="font-playfair text-h2 text-black mb-6">
                 Red Flags to Avoid
               </h2>
-              <p className="font-inter text-body-lg text-[#737373] leading-relaxed">
+              <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
                 These warning signs suggest a caterer may not be ready to deliver the service your event needs. Trust your instincts during the enquiry stage.
               </p>
             </div>
@@ -323,7 +323,7 @@ export default function HowToChooseCatererDubai() {
               {redFlags.map((flag, i) => (
                 <div key={i} className="choose-flag-item flex gap-3 bg-white p-5 opacity-0 -translate-x-5">
                   <AlertTriangle size={20} className="text-gold flex-shrink-0 mt-0.5" />
-                  <p className="font-inter text-body text-[#737373] leading-relaxed">{flag}</p>
+                  <p className="font-inter text-body text-gray-500 leading-relaxed">{flag}</p>
                 </div>
               ))}
             </div>
@@ -345,7 +345,7 @@ export default function HowToChooseCatererDubai() {
 
           <div className="choose-questions grid md:grid-cols-2 gap-4">
             {questionsToAsk.map((q, i) => (
-              <div key={i} className="choose-question-item flex gap-3 items-start p-5 border border-[#E5E5E5] opacity-0 translate-y-5">
+              <div key={i} className="choose-question-item flex gap-3 items-start p-5 border border-gray-200 opacity-0 translate-y-5">
                 <MessageSquare size={18} className="text-gold flex-shrink-0 mt-0.5" />
                 <p className="font-inter text-body text-black leading-relaxed">{q}</p>
               </div>
@@ -375,7 +375,7 @@ export default function HowToChooseCatererDubai() {
             ].map((item, i) => (
               <div key={i} className="flex gap-3">
                 <Check size={20} className="text-gold flex-shrink-0 mt-0.5" />
-                <p className="font-inter text-body text-[#A3A3A3] leading-relaxed">{item}</p>
+                <p className="font-inter text-body text-gray-400 leading-relaxed">{item}</p>
               </div>
             ))}
           </div>
@@ -398,7 +398,7 @@ export default function HowToChooseCatererDubai() {
               >
                 <div>
                   <h4 className="font-playfair text-h4 text-white mb-1">{link.title}</h4>
-                  <p className="font-inter text-body-sm text-[#A3A3A3]">{link.description}</p>
+                  <p className="font-inter text-body-sm text-gray-400">{link.description}</p>
                 </div>
                 <ArrowRight size={18} className="text-gold flex-shrink-0 ml-4 group-hover:translate-x-1 transition-transform" />
               </Link>
@@ -416,7 +416,7 @@ export default function HowToChooseCatererDubai() {
 
           <div className="choose-faq space-y-3">
             {faqs.map((faq, i) => (
-              <div key={i} className="choose-faq-item border border-[#E5E5E5] opacity-0 translate-y-5">
+              <div key={i} className="choose-faq-item border border-gray-200 opacity-0 translate-y-5">
                 <button
                   onClick={() => setOpenFaq(openFaq === i ? null : i)}
                   className="w-full flex items-center justify-between p-5 text-left"
@@ -431,7 +431,7 @@ export default function HowToChooseCatererDubai() {
                   className={`overflow-hidden transition-all duration-300 ${openFaq === i ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'}`}
                 >
                   <div className="px-5 pb-5">
-                    <p className="font-inter text-body-sm text-[#737373] leading-relaxed">{faq.a}</p>
+                    <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{faq.a}</p>
                   </div>
                 </div>
               </div>
@@ -446,7 +446,7 @@ export default function HowToChooseCatererDubai() {
           <h2 className="font-playfair text-h2 text-white mb-4">
             Compare Caterers With Confidence
           </h2>
-          <p className="font-inter text-body-lg text-[#A3A3A3] max-w-[600px] mx-auto mb-8">
+          <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
             Ask us anything on your checklist. We will answer honestly, share a clear itemised quote, and help you decide if we are the right fit.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

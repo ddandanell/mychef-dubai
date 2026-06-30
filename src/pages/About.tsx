@@ -1,10 +1,11 @@
 import { useRef } from 'react'
 import { Link } from 'react-router'
-import { Star, Shield, Heart, Clock, ChevronRight } from 'lucide-react'
+import { Star, Shield, Heart, Clock } from 'lucide-react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { useGSAP } from '@gsap/react'
 import SEO from '@/components/SEO'
+import PageHero from '@/components/PageHero'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -20,9 +21,9 @@ const values = [
 ]
 
 const team = [
-  { image: '/team-head-chef.jpg', name: 'Marco Adriano', role: 'Executive Chef', bio: 'Trained under Michelin-starred chefs in Milan. Two decades of experience across Europe and the Middle East. Specializes in modern European cuisine with Mediterranean influences.', exp: '20+ Years Experience' },
-  { image: '/team-sous-chef.jpg', name: 'Elena Vasquez', role: 'Sous Chef', bio: 'Formerly of a 2-Michelin-star restaurant in Barcelona. Expert in seafood, molecular gastronomy, and artistic plating. Brings creativity and precision to every dish.', exp: '15+ Years Experience' },
-  { image: '/team-pastry-chef.jpg', name: 'Thomas Chen', role: 'Pastry Chef', bio: 'Graduate of Le Cordon Bleu Paris. Specializes in modern patisserie, chocolate work, and dessert presentation that doubles as edible art.', exp: '12+ Years Experience' },
+  { image: '/team-head-chef.webp', name: 'Marco Adriano', role: 'Executive Chef', bio: 'Trained under Michelin-starred chefs in Milan. Two decades of experience across Europe and the Middle East. Specializes in modern European cuisine with Mediterranean influences.', exp: '20+ Years Experience' },
+  { image: '/team-sous-chef.webp', name: 'Elena Vasquez', role: 'Sous Chef', bio: 'Formerly of a 2-Michelin-star restaurant in Barcelona. Expert in seafood, molecular gastronomy, and artistic plating. Brings creativity and precision to every dish.', exp: '15+ Years Experience' },
+  { image: '/team-pastry-chef.webp', name: 'Thomas Chen', role: 'Pastry Chef', bio: 'Graduate of Le Cordon Bleu Paris. Specializes in modern patisserie, chocolate work, and dessert presentation that doubles as edible art.', exp: '12+ Years Experience' },
 ]
 
 const stats = [
@@ -54,11 +55,14 @@ export default function About() {
   const containerRef = useRef<HTMLDivElement>(null)
 
   useGSAP(() => {
+    const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
     const ctx = gsap.context(() => {
-      // Hero animations
-      gsap.from('.about-hero-eyebrow', { opacity: 0, y: 20, duration: 0.6, ease: 'power3.out' })
-      gsap.from('.about-hero-h1', { opacity: 0, y: 40, duration: 0.8, ease: 'power3.out', delay: 0.2 })
-      gsap.from('.about-hero-sub', { opacity: 0, y: 20, duration: 0.6, ease: 'power3.out', delay: 0.8 })
+      if (reduced) {
+        gsap.set('.story-left, .story-right, .value-card, .team-card, .coverage-item, .about-cta-content', {
+          opacity: 1, x: 0, y: 0, scale: 1,
+        })
+        return
+      }
 
       // Story section
       gsap.from('.story-left', {
@@ -82,10 +86,13 @@ export default function About() {
         scrollTrigger: { trigger: '.team-grid', start: 'top 85%', toggleActions: 'play none none none' },
       })
 
-      // Stats counter
-      const statEls = document.querySelectorAll('.stat-number')
-      statEls.forEach((el) => {
-        const target = parseInt(el.getAttribute('data-target') || '0', 10)
+      // Stats counter (scoped to this component)
+      const statEls = containerRef.current?.querySelectorAll('.stat-number')
+      statEls?.forEach((el) => {
+        const valueEl = el.querySelector('.stat-value')
+        const targetAttr = el.getAttribute('data-target')
+        if (!valueEl || !targetAttr) return
+        const target = parseInt(targetAttr, 10)
         const suffix = el.getAttribute('data-suffix') || ''
         const obj = { val: 0 }
         gsap.to(obj, {
@@ -93,7 +100,7 @@ export default function About() {
           duration: 2,
           ease: 'power2.out',
           scrollTrigger: { trigger: el, start: 'top 85%', toggleActions: 'play none none none' },
-          onUpdate: () => { el.textContent = Math.round(obj.val) + suffix },
+          onUpdate: () => { valueEl.textContent = Math.round(obj.val) + suffix },
         })
       })
 
@@ -119,36 +126,21 @@ export default function About() {
         title="About myCHEF Dubai"
         description="Discover the story behind myCHEF Dubai. Led by experienced culinary professionals, we deliver premium private chef services and luxury catering across Dubai."
         canonicalPath="/about"
-        ogImage="/team-head-chef.jpg"
+        ogImage="/team-head-chef.webp"
         schema={breadcrumbSchema}
       />
 
       {/* Section 1: Hero */}
-      <section className="relative min-h-[60vh] flex items-center justify-center bg-black overflow-hidden">
-        <img
-          src="/images/about-mychef-dubai-hero.webp"
-          alt="myCHEF Dubai kitchen team"
-          className="absolute inset-0 w-full h-full object-cover opacity-30"
-        />
-        <div className="absolute inset-0" style={{ background: 'linear-gradient(to bottom, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.9) 100%)' }} />
-        <div className="relative z-10 text-center container-custom py-24">
-          {/* Breadcrumb */}
-          <nav aria-label="Breadcrumb" className="mb-8">
-            <ol className="flex items-center justify-center gap-2 font-inter text-body-sm text-gray-400">
-              <li><Link to="/" className="hover:text-gold transition-colors">Home</Link></li>
-              <li><ChevronRight size={14} className="text-gray-500" /></li>
-              <li className="text-gold">About</li>
-            </ol>
-          </nav>
-          <p className="about-hero-eyebrow font-inter text-caption font-medium uppercase tracking-[0.1em] text-gold mb-4">ABOUT US</p>
-          <h1 className="about-hero-h1 font-playfair text-h1 md:text-[3.5rem] text-white mb-6" style={{ lineHeight: '1.1' }}>
-            The Story Behind<br />Every Exceptional Meal
-          </h1>
-          <p className="about-hero-sub font-inter text-body-lg text-gray-400 max-w-xl mx-auto">
-            Experience, passion, and an unwavering commitment to excellence.
-          </p>
-        </div>
-      </section>
+      <PageHero
+        eyebrow="ABOUT US"
+        title={<>The Story Behind<br />Every Exceptional Meal</>}
+        subtitle="Experience, passion, and an unwavering commitment to excellence."
+        image="/images/about-mychef-dubai-hero.webp"
+        imageAlt="myCHEF Dubai kitchen team"
+        minHeight="medium"
+        overlay="dark"
+        breadcrumb={[{ label: 'Home', href: '/' }, { label: 'About' }]}
+      />
 
       {/* Section 2: Our Story */}
       <section className="bg-white section-padding">
@@ -156,7 +148,7 @@ export default function About() {
           <div className="grid lg:grid-cols-[55%_45%] gap-12 lg:gap-16 items-center">
             <div className="story-left">
               <p className="font-inter text-caption font-medium uppercase tracking-wider text-gold mb-3">OUR STORY</p>
-              <h2 className="font-playfair text-h2 text-black mb-8" style={{ lineHeight: '1.15' }}>
+              <h2 className="font-playfair text-fluid-h2 text-black mb-8" style={{ lineHeight: '1.15' }}>
                 From Fine Kitchens<br />to Dubai's Finest Homes
               </h2>
               <div className="space-y-4 font-inter text-body text-gray-500" style={{ lineHeight: '1.7' }}>
@@ -167,10 +159,12 @@ export default function About() {
             </div>
             <div className="story-right">
               <img
-                src="/testimonial-villa.jpg"
+                src="/testimonial-villa.webp"
                 alt="Founder at a private dinner event"
                 className="w-full object-cover"
                 style={{ border: '1px solid rgba(200,164,92,0.3)' }}
+                loading="lazy"
+                decoding="async"
               />
             </div>
           </div>
@@ -180,9 +174,9 @@ export default function About() {
       {/* Section 3: Values */}
       <section className="bg-cream section-padding">
         <div className="container-custom">
-          <div className="text-center mb-16">
+          <div className="text-center mb-12 md:mb-16">
             <p className="font-inter text-caption font-medium uppercase tracking-wider text-gold mb-3">OUR VALUES</p>
-            <h2 className="font-playfair text-h2 text-black" style={{ lineHeight: '1.15' }}>What Drives Us</h2>
+            <h2 className="font-playfair text-fluid-h2 text-black" style={{ lineHeight: '1.15' }}>What Drives Us</h2>
           </div>
           <div className="values-grid grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {values.map((v) => (
@@ -199,16 +193,16 @@ export default function About() {
       {/* Section 4: Team */}
       <section className="bg-black section-padding">
         <div className="container-custom">
-          <div className="text-center mb-16">
+          <div className="text-center mb-12 md:mb-16">
             <p className="font-inter text-caption font-medium uppercase tracking-wider text-gold mb-3">THE TEAM</p>
-            <h2 className="font-playfair text-h2 text-white mb-4" style={{ lineHeight: '1.15' }}>Meet the Culinary Team</h2>
+            <h2 className="font-playfair text-fluid-h2 text-white mb-4" style={{ lineHeight: '1.15' }}>Meet the Culinary Team</h2>
             <p className="font-inter text-body text-gray-400 max-w-xl mx-auto">Experienced professionals, each bringing unique expertise to your table.</p>
           </div>
           <div className="team-grid grid md:grid-cols-3 gap-8">
             {team.map((chef) => (
               <div key={chef.name} className="team-card">
                 <div className="aspect-[3/4] overflow-hidden mb-4">
-                  <img src={chef.image} alt={chef.name} className="w-full h-full object-cover" loading="lazy" />
+                  <img src={chef.image} alt={chef.name} className="w-full h-full object-cover" loading="lazy" decoding="async" />
                 </div>
                 <h3 className="font-playfair text-h3 text-white">{chef.name}</h3>
                 <p className="font-inter text-body-sm text-gold uppercase tracking-[0.05em] mt-1">{chef.role}</p>
@@ -227,11 +221,11 @@ export default function About() {
             {stats.map((s) => (
               <div key={s.label}>
                 <div
-                  className="stat-number font-playfair text-[48px] text-gold"
+                  className="stat-number font-playfair text-4xl md:text-[48px] text-gold"
                   data-target={s.number}
                   data-suffix={s.suffix}
                 >
-                  0{s.suffix}
+                  <span className="stat-value">0</span>{s.suffix}
                 </div>
                 <p className="font-inter text-body-sm text-gray-400 uppercase tracking-wider mt-2">{s.label}</p>
               </div>
@@ -257,7 +251,7 @@ export default function About() {
                       <Link
                         key={item}
                         to={`/locations/${item.toLowerCase().replace(/\s+/g, '-')}`}
-                        className="font-inter text-body-sm text-gray-500 hover:text-gold transition-colors"
+                        className="font-inter text-body-sm text-gray-500 hover:text-gold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-charcoal rounded-sm"
                       >
                         {item}
                       </Link>
@@ -290,13 +284,13 @@ export default function About() {
       {/* Section 7: CTA Banner */}
       <section className="about-cta bg-black section-padding">
         <div className="about-cta-content container-custom text-center">
-          <h2 className="font-playfair text-h2 text-white mb-4" style={{ lineHeight: '1.15' }}>Experience the Difference</h2>
+          <h2 className="font-playfair text-fluid-h2 text-white mb-4" style={{ lineHeight: '1.15' }}>Experience the Difference</h2>
           <p className="font-inter text-body text-gray-400 max-w-xl mx-auto mb-8">
             Join the discerning clients who trust myCHEF Dubai for their most important occasions.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=about" className="btn-primary">Request My Custom Quote</Link>
-            <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-secondary">Chat on WhatsApp</a>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=about" className="btn-primary focus-visible:ring-offset-black">Request My Custom Quote</Link>
+            <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-secondary focus-visible:ring-offset-black">Chat on WhatsApp</a>
           </div>
         </div>
       </section>

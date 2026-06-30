@@ -95,12 +95,12 @@ const useCases = [
 ]
 
 const galleryImages = [
-  { src: '/service-events.jpg', alt: 'Luxury wedding catering setup in Dubai' },
-  { src: '/service-luxury-dining.jpg', alt: 'Elegant plated wedding dinner' },
-  { src: '/menu-canapes.jpg', alt: 'Canapé service at a wedding reception' },
-  { src: '/service-villa.jpg', alt: 'Villa wedding catering in Dubai' },
-  { src: '/menu-dessert.jpg', alt: 'Wedding dessert table' },
-  { src: '/menu-meat.jpg', alt: 'Plated main course at a wedding' },
+  { src: '/service-events.webp', alt: 'Luxury wedding catering setup in Dubai' },
+  { src: '/service-luxury-dining.webp', alt: 'Elegant plated wedding dinner' },
+  { src: '/menu-canapes.webp', alt: 'Canapé service at a wedding reception' },
+  { src: '/service-villa.webp', alt: 'Villa wedding catering in Dubai' },
+  { src: '/menu-dessert.webp', alt: 'Wedding dessert table' },
+  { src: '/menu-meat.webp', alt: 'Plated main course at a wedding' },
 ]
 
 const locations = [
@@ -153,19 +153,19 @@ const relatedServices = [
   {
     title: 'Engagement Catering',
     description: 'Elegant menus and service for engagement parties and proposal celebrations.',
-    image: '/service-events.jpg',
+    image: '/service-events.webp',
     link: '/engagement-catering-dubai',
   },
   {
     title: 'Luxury Dining Experiences',
     description: 'Bespoke fine-dining experiences for the most special moments of your celebration.',
-    image: '/service-luxury-dining.jpg',
+    image: '/service-luxury-dining.webp',
     link: '/luxury-dining-experiences',
   },
   {
     title: 'Dessert Table Catering',
     description: 'Bespoke wedding cakes and styled sweet tables to close your celebration.',
-    image: '/menu-dessert.jpg',
+    image: '/menu-dessert.webp',
     link: '/dessert-table-catering-dubai',
   },
 ]
@@ -266,12 +266,12 @@ export default function WeddingCatering() {
         title="Wedding Catering Dubai | Luxury Reception Dining"
         description="Luxury wedding catering in Dubai for villa, garden, and venue receptions. Plated dinners, buffets, canapés, multi-cuisine menus, service staff, and bespoke dessert tables."
         canonicalPath="/wedding-catering-dubai"
-        ogImage="/service-events.jpg"
+        ogImage="/service-events.webp"
         schema={schema}
       />
 
       {/* ═══════════════ Section 1: Hero ═══════════════ */}
-      <section className="relative min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
+      <section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
           style={{ backgroundImage: 'url(/images/wedding-catering-dubai-hero.webp)' }}
@@ -280,14 +280,14 @@ export default function WeddingCatering() {
 
         <div className="relative z-10 container-custom text-center max-w-[800px] py-20">
           <nav className="mb-6 opacity-0 translate-y-4 wed-hero-h1">
-            <ol className="flex items-center justify-center gap-2 font-inter text-[13px]">
-              <li><Link to="/" className="text-[#A3A3A3] hover:text-gold transition-colors">Home</Link></li>
-              <li className="text-[#A3A3A3]">/</li>
+            <ol className="flex items-center justify-center gap-2 font-inter text-body-sm">
+              <li><Link to="/" className="text-gray-400 hover:text-gold transition-colors">Home</Link></li>
+              <li className="text-gray-400">/</li>
               <li><span className="text-gold">Wedding Catering Dubai</span></li>
             </ol>
           </nav>
 
-          <h1 className="font-playfair text-[40px] md:text-[56px] lg:text-[72px] font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 wed-hero-h1">
+          <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 wed-hero-h1">
             Wedding Catering in Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 wed-hero-sub">
@@ -317,10 +317,10 @@ export default function WeddingCatering() {
           <h2 className="font-playfair text-h2 text-black mb-6">
             Catering Worthy of Your Wedding Day
           </h2>
-          <p className="font-inter text-body-lg text-[#737373] leading-relaxed mb-5">
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Your wedding deserves a culinary experience as memorable as the day itself. At myCHEF Dubai, we design wedding catering around your love story — the cuisines that mean something to you, the moments you want to savour, and the guests you want to delight. From the welcome canapés to the final slice of cake, every detail is considered, styled, and executed with quiet precision.
           </p>
-          <p className="font-inter text-body-lg text-[#737373] leading-relaxed">
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             Whether you are planning an intimate villa ceremony, a grand hotel reception, or a multi-day celebration spanning engagement to brunch, our team brings the kitchen, the service, and the styling to you. We work seamlessly with planners and stylists, and pair naturally with our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>. Explore our wedding services below.
           </p>
         </div>
@@ -345,14 +345,14 @@ export default function WeddingCatering() {
                 <Link
                   key={i}
                   to={fmt.link}
-                  className="wed-fmt-card group bg-charcoal p-8 transition-all duration-400 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
+                  className="wed-fmt-card group bg-charcoal p-8 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
                 >
                   <Icon size={36} className="text-gold mb-4" />
                   <h3 className="font-playfair text-h3 text-white mb-3">{fmt.title}</h3>
-                  <p className="font-inter text-body-sm text-[#A3A3A3] leading-relaxed mb-4">
+                  <p className="font-inter text-body-sm text-gray-400 leading-relaxed mb-4">
                     {fmt.description}
                   </p>
-                  <span className="inline-flex items-center gap-1 font-inter text-[13px] uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
+                  <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
                     Learn More <ArrowRight size={14} />
                   </span>
                 </Link>
@@ -378,7 +378,7 @@ export default function WeddingCatering() {
             {useCases.map((uc, i) => (
               <div key={i} className="wed-uc-item bg-charcoal p-8 opacity-0 translate-y-10">
                 <h3 className="font-playfair text-h3 text-white mb-3">{uc.title}</h3>
-                <p className="font-inter text-body-sm text-[#A3A3A3] leading-relaxed">{uc.description}</p>
+                <p className="font-inter text-body-sm text-gray-400 leading-relaxed">{uc.description}</p>
               </div>
             ))}
           </div>
@@ -398,7 +398,7 @@ export default function WeddingCatering() {
                 <Check size={20} className="text-gold flex-shrink-0 mt-0.5" />
                 <div>
                   <h4 className="font-inter text-base font-medium text-black mb-1">{item.title}</h4>
-                  <p className="font-inter text-body-sm text-[#737373] leading-relaxed">{item.description}</p>
+                  <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{item.description}</p>
                 </div>
               </div>
             ))}
@@ -419,7 +419,7 @@ export default function WeddingCatering() {
                 <img
                   src={img.src}
                   alt={img.alt}
-                  className="w-full h-full object-cover transition-transform duration-400 hover:scale-[1.03]"
+                  className="w-full h-full object-cover transition-transform duration-300 hover:scale-[1.03]"
                   loading="lazy"
                 />
               </div>
@@ -437,7 +437,7 @@ export default function WeddingCatering() {
 
           <div className="wed-faq space-y-3">
             {faqs.map((faq, i) => (
-              <div key={i} className="wed-faq-item border border-[#E5E5E5] opacity-0 translate-y-5">
+              <div key={i} className="wed-faq-item border border-gray-200 opacity-0 translate-y-5">
                 <button
                   onClick={() => setOpenFaq(openFaq === i ? null : i)}
                   className="w-full flex items-center justify-between p-5 text-left"
@@ -452,7 +452,7 @@ export default function WeddingCatering() {
                   className={`overflow-hidden transition-all duration-300 ${openFaq === i ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'}`}
                 >
                   <div className="px-5 pb-5">
-                    <p className="font-inter text-body-sm text-[#737373] leading-relaxed">{faq.a}</p>
+                    <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{faq.a}</p>
                   </div>
                 </div>
               </div>
@@ -473,7 +473,7 @@ export default function WeddingCatering() {
               <Link
                 key={loc.slug}
                 to={`/locations/${loc.slug}`}
-                className="wed-loc-item flex items-center gap-2 font-inter text-sm text-[#A3A3A3] hover:text-gold transition-colors opacity-0"
+                className="wed-loc-item flex items-center gap-2 font-inter text-sm text-gray-400 hover:text-gold transition-colors opacity-0"
               >
                 <span className="w-1.5 h-1.5 rounded-full bg-gold flex-shrink-0" />
                 {loc.name}
@@ -495,7 +495,7 @@ export default function WeddingCatering() {
               <Link
                 key={i}
                 to={svc.link}
-                className="wed-rel-card group bg-charcoal overflow-hidden transition-all duration-400 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
+                className="wed-rel-card group bg-charcoal overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
               >
                 <div className="aspect-video overflow-hidden">
                   <img
@@ -507,8 +507,8 @@ export default function WeddingCatering() {
                 </div>
                 <div className="p-6">
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
-                  <p className="font-inter text-body-sm text-[#A3A3A3] mb-4">{svc.description}</p>
-                  <span className="inline-flex items-center gap-1 font-inter text-[13px] uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
+                  <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
+                  <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
                     Explore <ArrowRight size={14} />
                   </span>
                 </div>
@@ -522,7 +522,7 @@ export default function WeddingCatering() {
       <section className="bg-cream py-16">
         <div className="container-custom max-w-[800px] text-center">
           <h3 className="font-playfair text-h3 text-black mb-4">Related Guides</h3>
-          <p className="font-inter text-body text-[#737373] leading-relaxed">
+          <p className="font-inter text-body text-gray-500 leading-relaxed">
             Planning an event in Dubai? Read our{' '}
             <Link to="/wedding-catering-checklist-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Wedding Catering Checklist</Link>.
           </p>
@@ -535,7 +535,7 @@ export default function WeddingCatering() {
           <h2 className="font-playfair text-h2 text-white mb-4">
             Let's Plan Your Wedding Catering
           </h2>
-          <p className="font-inter text-body-lg text-[#A3A3A3] max-w-[600px] mx-auto mb-8">
+          <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
             Share your vision and we'll craft a bespoke menu, service plan, and styling to make your wedding day unforgettable.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

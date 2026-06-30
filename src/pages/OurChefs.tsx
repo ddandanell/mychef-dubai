@@ -4,6 +4,7 @@ import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { Shield, Award, Utensils, Heart } from 'lucide-react'
 import SEO from '@/components/SEO'
+import PageHero from '@/components/PageHero'
 import { breadcrumbSchema } from '@/utils/schema'
 
 gsap.registerPlugin(ScrollTrigger)
@@ -19,7 +20,7 @@ const breadcrumbs = [
 
 const chefs = [
   {
-    image: '/team-head-chef.jpg',
+    image: '/team-head-chef.webp',
     name: 'Marco Adriano',
     role: 'Executive Chef & Founder',
     experience: '15+ Years',
@@ -27,7 +28,7 @@ const chefs = [
     specialties: ['Fine Dining', 'European Cuisine', 'Menu Design', 'Team Leadership'],
   },
   {
-    image: '/team-sous-chef.jpg',
+    image: '/team-sous-chef.webp',
     name: 'Elena Vasquez',
     role: 'Head Sous Chef',
     experience: '12+ Years',
@@ -35,7 +36,7 @@ const chefs = [
     specialties: ['Seafood', 'Molecular Gastronomy', 'Plating Design', 'Mediterranean'],
   },
   {
-    image: '/team-pastry-chef.jpg',
+    image: '/team-pastry-chef.webp',
     name: 'Thomas Chen',
     role: 'Pastry Chef',
     experience: '10+ Years',
@@ -52,9 +53,6 @@ const standards = [
 ]
 
 export default function OurChefs() {
-  const heroRef = useRef<HTMLDivElement>(null)
-  const heroTitleRef = useRef<HTMLHeadingElement>(null)
-  const heroSubRef = useRef<HTMLParagraphElement>(null)
   const philosophyRef = useRef<HTMLDivElement>(null)
   const profilesRef = useRef<HTMLDivElement>(null)
   const standardsRef = useRef<HTMLDivElement>(null)
@@ -63,22 +61,6 @@ export default function OurChefs() {
 
   useEffect(() => {
     const ctx = gsap.context(() => {
-      // Hero title word stagger
-      if (heroTitleRef.current) {
-        const words = heroTitleRef.current.querySelectorAll('.word')
-        gsap.fromTo(words,
-          { opacity: 0, y: 40 },
-          { opacity: 1, y: 0, stagger: 0.06, duration: 0.8, ease: 'power3.out', delay: 0.2 }
-        )
-      }
-
-      // Hero subtitle
-      if (heroSubRef.current) {
-        gsap.fromTo(heroSubRef.current,
-          { opacity: 0, y: 20 },
-          { opacity: 1, y: 0, duration: 0.6, delay: 0.6, ease: 'power3.out' }
-        )
-      }
 
       // Philosophy section
       if (philosophyRef.current) {
@@ -156,52 +138,17 @@ export default function OurChefs() {
         schema={breadcrumbSchema(breadcrumbs) as unknown as Record<string, unknown>}
       />
 
-      {/* Breadcrumb Navigation */}
-      <div className="bg-black border-b border-charcoal-light">
-        <div className="container-custom py-4">
-          <nav className="flex items-center gap-2 font-inter text-caption text-gray-500">
-            <Link to="/" className="hover:text-gold transition-colors">Home</Link>
-            <span className="text-gray-500">/</span>
-            <span className="text-gold">Our Chefs</span>
-          </nav>
-        </div>
-      </div>
-
       {/* Section 1: Page Hero */}
-      <section ref={heroRef} className="relative min-h-[55vh] flex items-center justify-center bg-black overflow-hidden">
-        <div className="absolute inset-0">
-          <img
-            src="/images/about-mychef-dubai-hero.webp"
-            alt="Our culinary team at work"
-            className="w-full h-full object-cover opacity-30"
-            loading="eager"
-          />
-          <div
-            className="absolute inset-0"
-            style={{ background: 'linear-gradient(to bottom, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.85) 100%)' }}
-          />
-        </div>
-        <div className="relative z-10 container-custom text-center py-20">
-          <span className="font-inter text-caption font-medium uppercase tracking-wider text-gold mb-4 block">
-            THE TEAM
-          </span>
-          <h1
-            ref={heroTitleRef}
-            className="font-playfair text-h1 md:text-[56px] text-white mb-6"
-          >
-            <span className="word inline-block">The</span>{' '}
-            <span className="word inline-block">Hands</span>{' '}
-            <span className="word inline-block">Behind</span>
-            <br className="hidden sm:block" />
-            <span className="word inline-block">Every</span>{' '}
-            <span className="word inline-block">Extraordinary</span>{' '}
-            <span className="word inline-block">Meal</span>
-          </h1>
-          <p ref={heroSubRef} className="font-inter text-lg text-gray-400 max-w-[600px] mx-auto">
-            Experienced professionals. Passionate craftspeople. Dedicated to your experience.
-          </p>
-        </div>
-      </section>
+      <PageHero
+        eyebrow="THE TEAM"
+        title={<>The Hands Behind<br className="hidden sm:block" /> Every Extraordinary Meal</>}
+        subtitle="Experienced professionals. Passionate craftspeople. Dedicated to your experience."
+        image="/images/about-mychef-dubai-hero.webp"
+        imageAlt="myCHEF culinary team at work"
+        breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Our Chefs' }]}
+        minHeight="medium"
+        overlay="dark"
+      />
 
       {/* Section 2: Culinary Philosophy */}
       <section ref={philosophyRef} className="bg-white section-padding">

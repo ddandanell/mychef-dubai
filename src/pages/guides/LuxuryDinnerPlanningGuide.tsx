@@ -222,12 +222,12 @@ export default function LuxuryDinnerPlanningGuide() {
         title="Luxury Dinner Planning Guide Dubai | Private Dining | myCHEF"
         description="Plan a luxury dinner in Dubai: tasting menus, tablescape, wine pairings, private chef, service staff, lighting, music, ambience, and hosting tips."
         canonicalPath="/luxury-dinner-planning-guide-dubai"
-        ogImage="/service-luxury-dining.jpg"
+        ogImage="/service-luxury-dining.webp"
         schema={schema}
       />
 
       {/* ═══════════════ Hero ═══════════════ */}
-      <section className="relative min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
+      <section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
           style={{ backgroundImage: 'url(/images/romantic-dinner-dubai-hero.webp)' }}
@@ -236,16 +236,16 @@ export default function LuxuryDinnerPlanningGuide() {
 
         <div className="relative z-10 container-custom text-center max-w-[800px] py-20">
           <nav className="mb-6 opacity-0 translate-y-4 lux-hero-h1">
-            <ol className="flex items-center justify-center gap-2 font-inter text-[13px]">
-              <li><Link to="/" className="text-[#A3A3A3] hover:text-gold transition-colors">Home</Link></li>
-              <li className="text-[#A3A3A3]">/</li>
-              <li><Link to="/guides" className="text-[#A3A3A3] hover:text-gold transition-colors">Guides</Link></li>
-              <li className="text-[#A3A3A3]">/</li>
+            <ol className="flex items-center justify-center gap-2 font-inter text-body-sm">
+              <li><Link to="/" className="text-gray-400 hover:text-gold transition-colors">Home</Link></li>
+              <li className="text-gray-400">/</li>
+              <li><Link to="/guides" className="text-gray-400 hover:text-gold transition-colors">Guides</Link></li>
+              <li className="text-gray-400">/</li>
               <li><span className="text-gold">Luxury Dinner Planning Guide Dubai</span></li>
             </ol>
           </nav>
 
-          <h1 className="font-playfair text-[40px] md:text-[56px] lg:text-[72px] font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 lux-hero-h1">
+          <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 lux-hero-h1">
             Luxury Dinner Planning Guide for Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 lux-hero-sub">
@@ -275,10 +275,10 @@ export default function LuxuryDinnerPlanningGuide() {
           <h2 className="font-playfair text-h2 text-black mb-6">
             Create an Evening Worth Remembering
           </h2>
-          <p className="font-inter text-body-lg text-[#737373] leading-relaxed mb-5">
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             A luxury dinner is not only about fine food. It is the combination of a considered menu, beautiful surroundings, attentive service, and a host who can relax and enjoy the evening. In Dubai, private villas, penthouses, yachts, and exclusive spaces provide the perfect canvas for an intimate, restaurant-quality experience at home.
           </p>
-          <p className="font-inter text-body-lg text-[#737373] leading-relaxed">
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             This guide walks you through the key decisions, from defining the occasion to designing the menu, tablescape, ambience, and service flow.
           </p>
         </div>
@@ -301,7 +301,7 @@ export default function LuxuryDinnerPlanningGuide() {
               <div key={i} className="lux-occasion-card bg-charcoal p-8 opacity-0 translate-y-12">
                 <Sparkles size={32} className="text-gold mb-4" />
                 <h3 className="font-playfair text-h3 text-white mb-3">{item.title}</h3>
-                <p className="font-inter text-body-sm text-[#A3A3A3] leading-relaxed">{item.description}</p>
+                <p className="font-inter text-body-sm text-gray-400 leading-relaxed">{item.description}</p>
               </div>
             ))}
           </div>
@@ -325,7 +325,7 @@ export default function LuxuryDinnerPlanningGuide() {
               <div key={i} className="lux-menu-card bg-white p-8 opacity-0 translate-y-10">
                 <UtensilsCrossed size={28} className="text-gold mb-4" />
                 <h3 className="font-playfair text-h3 text-black mb-3">{item.title}</h3>
-                <p className="font-inter text-body-sm text-[#737373] leading-relaxed">{item.description}</p>
+                <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{item.description}</p>
               </div>
             ))}
           </div>
@@ -350,7 +350,7 @@ export default function LuxuryDinnerPlanningGuide() {
                 <Check size={20} className="text-gold flex-shrink-0 mt-0.5" />
                 <div>
                   <h3 className="font-playfair text-h3 text-black mb-1">{item.title}</h3>
-                  <p className="font-inter text-body-sm text-[#737373] leading-relaxed">{item.note}</p>
+                  <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{item.note}</p>
                 </div>
               </div>
             ))}
@@ -374,7 +374,7 @@ export default function LuxuryDinnerPlanningGuide() {
             {ambience.map((item, i) => (
               <div key={i} className="lux-ambience-card bg-charcoal p-8 opacity-0 translate-y-10">
                 <h3 className="font-playfair text-h3 text-white mb-3">{item.title}</h3>
-                <p className="font-inter text-body-sm text-[#A3A3A3] leading-relaxed">{item.note}</p>
+                <p className="font-inter text-body-sm text-gray-400 leading-relaxed">{item.note}</p>
               </div>
             ))}
           </div>
@@ -392,7 +392,7 @@ export default function LuxuryDinnerPlanningGuide() {
               <h2 className="font-playfair text-h2 text-white mb-6">
                 Chef and Service Staff
               </h2>
-              <p className="font-inter text-body-lg text-[#A3A3A3] leading-relaxed">
+              <p className="font-inter text-body-lg text-gray-400 leading-relaxed">
                 A luxury dinner requires a team that understands timing and discretion. The chef executes the menu while service staff anticipate guest needs without interrupting conversation.
               </p>
             </div>
@@ -405,7 +405,7 @@ export default function LuxuryDinnerPlanningGuide() {
               ].map((item, i) => (
                 <div key={i} className="flex gap-3">
                   <Check size={20} className="text-gold flex-shrink-0 mt-0.5" />
-                  <p className="font-inter text-body text-[#A3A3A3] leading-relaxed">{item}</p>
+                  <p className="font-inter text-body text-gray-400 leading-relaxed">{item}</p>
                 </div>
               ))}
             </div>
@@ -427,7 +427,7 @@ export default function LuxuryDinnerPlanningGuide() {
 
           <div className="lux-tips space-y-4">
             {hostingTips.map((tip, i) => (
-              <div key={i} className="lux-tip-item flex gap-3 p-5 border border-[#E5E5E5] opacity-0 translate-y-5">
+              <div key={i} className="lux-tip-item flex gap-3 p-5 border border-gray-200 opacity-0 translate-y-5">
                 <Check size={20} className="text-gold flex-shrink-0 mt-0.5" />
                 <p className="font-inter text-body text-black leading-relaxed">{tip}</p>
               </div>
@@ -452,7 +452,7 @@ export default function LuxuryDinnerPlanningGuide() {
               >
                 <div>
                   <h4 className="font-playfair text-h4 text-white mb-1">{link.title}</h4>
-                  <p className="font-inter text-body-sm text-[#A3A3A3]">{link.description}</p>
+                  <p className="font-inter text-body-sm text-gray-400">{link.description}</p>
                 </div>
                 <ArrowRight size={18} className="text-gold flex-shrink-0 ml-4 group-hover:translate-x-1 transition-transform" />
               </Link>
@@ -470,7 +470,7 @@ export default function LuxuryDinnerPlanningGuide() {
 
           <div className="lux-faq space-y-3">
             {faqs.map((faq, i) => (
-              <div key={i} className="lux-faq-item border border-[#E5E5E5] opacity-0 translate-y-5">
+              <div key={i} className="lux-faq-item border border-gray-200 opacity-0 translate-y-5">
                 <button
                   onClick={() => setOpenFaq(openFaq === i ? null : i)}
                   className="w-full flex items-center justify-between p-5 text-left"
@@ -485,7 +485,7 @@ export default function LuxuryDinnerPlanningGuide() {
                   className={`overflow-hidden transition-all duration-300 ${openFaq === i ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'}`}
                 >
                   <div className="px-5 pb-5">
-                    <p className="font-inter text-body-sm text-[#737373] leading-relaxed">{faq.a}</p>
+                    <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{faq.a}</p>
                   </div>
                 </div>
               </div>
@@ -500,7 +500,7 @@ export default function LuxuryDinnerPlanningGuide() {
           <h2 className="font-playfair text-h2 text-white mb-4">
             Design Your Luxury Dinner
           </h2>
-          <p className="font-inter text-body-lg text-[#A3A3A3] max-w-[600px] mx-auto mb-8">
+          <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
             Tell us about your occasion, guest list, and vision. We will create a tailored menu, tablescape, and service plan for an unforgettable evening.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

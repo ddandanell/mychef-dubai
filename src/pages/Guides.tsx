@@ -3,23 +3,9 @@ import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import {
-  BookOpen,
-  ArrowRight,
-  Phone,
-  DollarSign,
-  ClipboardCheck,
-  Home,
-  Heart,
-  Briefcase,
-  Users,
-  UtensilsCrossed,
-  Ship,
-  Moon,
-  Sparkles,
-  ChevronRight,
-} from 'lucide-react'
+import { BookOpen, ArrowRight, Phone, DollarSign, ClipboardCheck, Home, Heart, Briefcase, Users, UtensilsCrossed, Ship, Moon, Sparkles, ChevronRight, } from 'lucide-react'
 import SEO from '../components/SEO'
+import PageHero from '../components/PageHero'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -157,10 +143,6 @@ export default function Guides() {
   useGSAP(() => {
     if (!containerRef.current) return
 
-    gsap.to('.guides-hero-h1', { opacity: 1, y: 0, duration: 0.8, ease: 'power3.out' })
-    gsap.to('.guides-hero-sub', { opacity: 1, y: 0, duration: 0.6, delay: 0.3, ease: 'power3.out' })
-    gsap.to('.guides-hero-cta', { opacity: 1, y: 0, duration: 0.5, stagger: 0.15, delay: 0.6, ease: 'power3.out' })
-
     gsap.to('.guides-card', {
       scrollTrigger: { trigger: '.guides-grid', start: 'top 85%', toggleActions: 'play none none none' },
       opacity: 1, y: 0, duration: 0.7, stagger: 0.08, ease: 'power3.out',
@@ -190,52 +172,23 @@ export default function Guides() {
         title="Catering Guides Dubai | Prices, Checklists & Planning | myCHEF"
         description="Free Dubai catering guides: prices, wedding and corporate checklists, villa ideas, yacht catering, Ramadan planning, private chef vs catering, and more."
         canonicalPath="/guides"
-        ogImage="/service-catering.jpg"
+        ogImage="/service-catering.webp"
         schema={schema}
       />
 
       {/* ═══════════════ Hero ═══════════════ */}
-      <section className="relative min-h-[85dvh] flex items-center justify-center bg-black overflow-hidden">
-        <div
-          className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
-          style={{ backgroundImage: 'url(/images/guides-hub-dubai-hero.webp)' }}
-        />
-        <div className="absolute inset-0 bg-black/55" />
-
-        <div className="relative z-10 container-custom text-center max-w-[800px] py-20">
-          <nav className="mb-6 opacity-0 translate-y-4 guides-hero-h1" aria-label="Breadcrumb">
-            <ol className="flex items-center justify-center gap-2 font-inter text-[13px]">
-              <li><Link to="/" className="text-[#A3A3A3] hover:text-gold transition-colors">Home</Link></li>
-              <li className="text-[#A3A3A3]">/</li>
-              <li><span className="text-gold">Guides</span></li>
-            </ol>
-          </nav>
-
-          <p className="font-inter text-caption uppercase tracking-[0.2em] text-gold mb-4 opacity-0 translate-y-4 guides-hero-h1">
-            Free Planning Resources
-          </p>
-          <h1 className="font-playfair text-[40px] md:text-[56px] lg:text-[72px] font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 guides-hero-h1">
-            Catering Guides for Dubai
-          </h1>
-          <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 guides-hero-sub">
-            Practical guides to help you plan private dining, events, weddings, corporate functions and celebrations across Dubai — from budgets and checklists to menu ideas and timing.
-          </p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=guides" className="btn-primary opacity-0 translate-y-4 guides-hero-cta">
-              Request a Custom Quote
-            </Link>
-            <a
-              href={WHATSAPP_LINK}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-secondary opacity-0 translate-y-4 guides-hero-cta"
-            >
-              <Phone size={16} className="mr-2" />
-              Chat on WhatsApp
-            </a>
-          </div>
-        </div>
-      </section>
+      <PageHero
+        eyebrow="Free Planning Resources"
+        title="Catering Guides for Dubai"
+        subtitle="Practical guides to help you plan private dining, events, weddings, corporate functions and celebrations across Dubai — from budgets and checklists to menu ideas and timing."
+        image="/images/guides-hub-dubai-hero.webp"
+        imageAlt="Dubai catering guides"
+        cta={{ label: 'Request a Custom Quote', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=guides' }}
+        secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
+        breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Guides' }]}
+        minHeight="tall"
+        overlay="dark"
+      />
 
       {/* ═══════════════ Guides Grid ═══════════════ */}
       <section className="bg-white section-padding">
@@ -256,7 +209,7 @@ export default function Guides() {
                 <Link
                   key={i}
                   to={guide.slug}
-                  className="guides-card group flex gap-5 bg-cream p-6 border border-[#E5E5E5] transition-all duration-400 hover:-translate-y-1 hover:shadow-[0_8px_30px_rgba(0,0,0,0.08)] opacity-0 translate-y-10"
+                  className="guides-card group flex gap-5 bg-cream p-6 border border-gray-200 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_8px_30px_rgba(0,0,0,0.08)] opacity-0 translate-y-10"
                 >
                   <div className="flex-shrink-0 w-12 h-12 bg-black flex items-center justify-center">
                     <Icon size={22} className="text-gold" />
@@ -265,10 +218,10 @@ export default function Guides() {
                     <h3 className="font-playfair text-h3 text-black mb-2 group-hover:text-gold transition-colors">
                       {guide.title}
                     </h3>
-                    <p className="font-inter text-body-sm text-[#737373] leading-relaxed mb-3">
+                    <p className="font-inter text-body-sm text-gray-500 leading-relaxed mb-3">
                       {guide.description}
                     </p>
-                    <span className="inline-flex items-center gap-1 font-inter text-[13px] uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
+                    <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
                       Read Guide <ArrowRight size={14} />
                     </span>
                   </div>
@@ -315,7 +268,7 @@ export default function Guides() {
 
           <div className="guides-faq space-y-3">
             {faqs.map((faq, i) => (
-              <div key={i} className="guides-faq-item border border-[#E5E5E5] opacity-0 translate-y-5">
+              <div key={i} className="guides-faq-item border border-gray-200 opacity-0 translate-y-5">
                 <button
                   onClick={() => setOpenFaq(openFaq === i ? null : i)}
                   className="w-full flex items-center justify-between p-5 text-left"
@@ -331,7 +284,7 @@ export default function Guides() {
                   className={`overflow-hidden transition-all duration-300 ${openFaq === i ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'}`}
                 >
                   <div className="px-5 pb-5">
-                    <p className="font-inter text-body-sm text-[#737373] leading-relaxed">{faq.a}</p>
+                    <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{faq.a}</p>
                   </div>
                 </div>
               </div>
@@ -347,7 +300,7 @@ export default function Guides() {
           <h2 className="font-playfair text-h2 text-white mb-4">
             Ready to Plan Your Event?
           </h2>
-          <p className="font-inter text-body-lg text-[#A3A3A3] max-w-[600px] mx-auto mb-8">
+          <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
             Read the guides, then request a custom proposal. We design menus and service plans for villas, offices, yachts and event spaces across Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -364,7 +317,7 @@ export default function Guides() {
               Chat on WhatsApp
             </a>
           </div>
-          <p className="font-inter text-sm text-[#A3A3A3] mt-6">
+          <p className="font-inter text-sm text-gray-400 mt-6">
             We typically reply within 2 hours during business hours.
           </p>
         </div>

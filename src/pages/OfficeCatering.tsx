@@ -95,12 +95,12 @@ const useCases = [
 ]
 
 const galleryImages = [
-  { src: '/service-corporate.jpg', alt: 'Office catering set-up for a Dubai workplace' },
-  { src: '/menu-appetizer.jpg', alt: 'Fresh office lunch spread of appetizers and sides' },
-  { src: '/service-catering.jpg', alt: 'Daily office lunch buffet styling in Dubai' },
-  { src: '/service-events.jpg', alt: 'Corporate team gathering catering' },
-  { src: '/menu-seafood.jpg', alt: 'Lighter office lunch plate' },
-  { src: '/menu-canapes.jpg', alt: 'Office celebration finger food selection' },
+  { src: '/service-corporate.webp', alt: 'Office catering set-up for a Dubai workplace' },
+  { src: '/menu-appetizer.webp', alt: 'Fresh office lunch spread of appetizers and sides' },
+  { src: '/service-catering.webp', alt: 'Daily office lunch buffet styling in Dubai' },
+  { src: '/service-events.webp', alt: 'Corporate team gathering catering' },
+  { src: '/menu-seafood.webp', alt: 'Lighter office lunch plate' },
+  { src: '/menu-canapes.webp', alt: 'Office celebration finger food selection' },
 ]
 
 const locations = [
@@ -153,19 +153,19 @@ const relatedServices = [
   {
     title: 'Business Lunch Catering',
     description: 'Boardroom lunches, client meetings, and working lunches presented to a professional standard.',
-    image: '/menu-appetizer.jpg',
+    image: '/menu-appetizer.webp',
     link: '/business-lunch-catering-dubai',
   },
   {
     title: 'Staff Meals Catering',
     description: 'Daily team meals, canteens, and retainer catering that keeps your whole workforce well fed.',
-    image: '/menu-meat.jpg',
+    image: '/menu-meat.webp',
     link: '/staff-meals-catering-dubai',
   },
   {
     title: 'Corporate Catering',
     description: 'Professional corporate dining, from recurring office lunches to large company functions.',
-    image: '/service-corporate.jpg',
+    image: '/service-corporate.webp',
     link: '/corporate',
   },
 ]
@@ -266,12 +266,12 @@ export default function OfficeCatering() {
         title="Office Catering Dubai | Daily Lunches & Retainers"
         description="Office catering in Dubai with daily lunches, breakfast spreads, and recurring retainers for DIFC and Business Bay teams. Reliable delivery and clear billing. Request a quote."
         canonicalPath="/office-catering-dubai"
-        ogImage="/service-corporate.jpg"
+        ogImage="/service-corporate.webp"
         schema={schema}
       />
 
       {/* ═══════════════ Section 1: Hero ═══════════════ */}
-      <section className="relative min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
+      <section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
           style={{ backgroundImage: 'url(/images/office-catering-dubai-hero.webp)' }}
@@ -280,14 +280,14 @@ export default function OfficeCatering() {
 
         <div className="relative z-10 container-custom text-center max-w-[800px] py-20">
           <nav className="mb-6 opacity-0 translate-y-4 off-hero-h1">
-            <ol className="flex items-center justify-center gap-2 font-inter text-[13px]">
-              <li><Link to="/" className="text-[#A3A3A3] hover:text-gold transition-colors">Home</Link></li>
-              <li className="text-[#A3A3A3]">/</li>
+            <ol className="flex items-center justify-center gap-2 font-inter text-body-sm">
+              <li><Link to="/" className="text-gray-400 hover:text-gold transition-colors">Home</Link></li>
+              <li className="text-gray-400">/</li>
               <li><span className="text-gold">Office Catering Dubai</span></li>
             </ol>
           </nav>
 
-          <h1 className="font-playfair text-[40px] md:text-[56px] lg:text-[72px] font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 off-hero-h1">
+          <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 off-hero-h1">
             Office Catering in Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 off-hero-sub">
@@ -317,10 +317,10 @@ export default function OfficeCatering() {
           <h2 className="font-playfair text-h2 text-black mb-6">
             Well-Fed Teams, Every Working Day
           </h2>
-          <p className="font-inter text-body-lg text-[#737373] leading-relaxed mb-5">
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             A good office lunch does more than feed people — it keeps teams on-site, sharpens the afternoon, and quietly signals that a company looks after its own. The challenge is consistency. Ad-hoc deliveries are unpredictable, repetitive, and surprisingly hard to manage at scale. At myCHEF Dubai, we solve that with a planned, reliable office catering service designed around the rhythm of a working week, from daily lunches and breakfast spreads to full recurring retainers.
           </p>
-          <p className="font-inter text-body-lg text-[#737373] leading-relaxed">
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             For offices in DIFC, Business Bay, and across the city, a standing arrangement is the most cost-effective and dependable way to cater. You get a rotating menu your team genuinely looks forward to, a single point of contact who knows your preferences, and consolidated invoicing instead of a stream of individual orders. Explore the formats below, or see how office catering fits within our wider <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering in Dubai</Link>.
           </p>
         </div>
@@ -345,14 +345,14 @@ export default function OfficeCatering() {
                 <Link
                   key={i}
                   to={fmt.link}
-                  className="off-fmt-card group bg-charcoal p-8 transition-all duration-400 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
+                  className="off-fmt-card group bg-charcoal p-8 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
                 >
                   <Icon size={36} className="text-gold mb-4" />
                   <h3 className="font-playfair text-h3 text-white mb-3">{fmt.title}</h3>
-                  <p className="font-inter text-body-sm text-[#A3A3A3] leading-relaxed mb-4">
+                  <p className="font-inter text-body-sm text-gray-400 leading-relaxed mb-4">
                     {fmt.description}
                   </p>
-                  <span className="inline-flex items-center gap-1 font-inter text-[13px] uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
+                  <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
                     Learn More <ArrowRight size={14} />
                   </span>
                 </Link>
@@ -378,7 +378,7 @@ export default function OfficeCatering() {
             {useCases.map((uc, i) => (
               <div key={i} className="off-uc-item bg-charcoal p-8 opacity-0 translate-y-10">
                 <h3 className="font-playfair text-h3 text-white mb-3">{uc.title}</h3>
-                <p className="font-inter text-body-sm text-[#A3A3A3] leading-relaxed">{uc.description}</p>
+                <p className="font-inter text-body-sm text-gray-400 leading-relaxed">{uc.description}</p>
               </div>
             ))}
           </div>
@@ -398,7 +398,7 @@ export default function OfficeCatering() {
                 <Check size={20} className="text-gold flex-shrink-0 mt-0.5" />
                 <div>
                   <h4 className="font-inter text-base font-medium text-black mb-1">{item.title}</h4>
-                  <p className="font-inter text-body-sm text-[#737373] leading-relaxed">{item.description}</p>
+                  <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{item.description}</p>
                 </div>
               </div>
             ))}
@@ -419,7 +419,7 @@ export default function OfficeCatering() {
                 <img
                   src={img.src}
                   alt={img.alt}
-                  className="w-full h-full object-cover transition-transform duration-400 hover:scale-[1.03]"
+                  className="w-full h-full object-cover transition-transform duration-300 hover:scale-[1.03]"
                   loading="lazy"
                 />
               </div>
@@ -437,7 +437,7 @@ export default function OfficeCatering() {
 
           <div className="off-faq space-y-3">
             {faqs.map((faq, i) => (
-              <div key={i} className="off-faq-item border border-[#E5E5E5] opacity-0 translate-y-5">
+              <div key={i} className="off-faq-item border border-gray-200 opacity-0 translate-y-5">
                 <button
                   onClick={() => setOpenFaq(openFaq === i ? null : i)}
                   className="w-full flex items-center justify-between p-5 text-left"
@@ -452,7 +452,7 @@ export default function OfficeCatering() {
                   className={`overflow-hidden transition-all duration-300 ${openFaq === i ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'}`}
                 >
                   <div className="px-5 pb-5">
-                    <p className="font-inter text-body-sm text-[#737373] leading-relaxed">{faq.a}</p>
+                    <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{faq.a}</p>
                   </div>
                 </div>
               </div>
@@ -473,7 +473,7 @@ export default function OfficeCatering() {
               <Link
                 key={loc.slug}
                 to={`/locations/${loc.slug}`}
-                className="off-loc-item flex items-center gap-2 font-inter text-sm text-[#A3A3A3] hover:text-gold transition-colors opacity-0"
+                className="off-loc-item flex items-center gap-2 font-inter text-sm text-gray-400 hover:text-gold transition-colors opacity-0"
               >
                 <span className="w-1.5 h-1.5 rounded-full bg-gold flex-shrink-0" />
                 {loc.name}
@@ -495,7 +495,7 @@ export default function OfficeCatering() {
               <Link
                 key={i}
                 to={svc.link}
-                className="off-rel-card group bg-charcoal overflow-hidden transition-all duration-400 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
+                className="off-rel-card group bg-charcoal overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
               >
                 <div className="aspect-video overflow-hidden">
                   <img
@@ -507,8 +507,8 @@ export default function OfficeCatering() {
                 </div>
                 <div className="p-6">
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
-                  <p className="font-inter text-body-sm text-[#A3A3A3] mb-4">{svc.description}</p>
-                  <span className="inline-flex items-center gap-1 font-inter text-[13px] uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
+                  <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
+                  <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
                     Explore <ArrowRight size={14} />
                   </span>
                 </div>
@@ -524,7 +524,7 @@ export default function OfficeCatering() {
           <h2 className="font-playfair text-h2 text-white mb-4">
             Set Up Catering for Your Office
           </h2>
-          <p className="font-inter text-body-lg text-[#A3A3A3] max-w-[600px] mx-auto mb-8">
+          <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
             Tell us your headcount, schedule, and dietary needs and we'll build a reliable office catering plan — daily, weekly, or on a recurring retainer — with clear, predictable pricing.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

@@ -1,13 +1,11 @@
 import { useRef, useState } from 'react'
 import { Link } from 'react-router'
-import {
-  ChevronRight, Utensils, GlassWater, Flame, UtensilsCrossed, Ship, Sunrise,
-  Check, ChevronDown, Phone, MapPin, Anchor,
-} from 'lucide-react'
+import { ChevronRight, Utensils, GlassWater, Flame, UtensilsCrossed, Ship, Sunrise, Check, ChevronDown, Phone, MapPin, Anchor, } from 'lucide-react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { useGSAP } from '@gsap/react'
 import SEO from '@/components/SEO'
+import PageHero from '@/components/PageHero'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -44,12 +42,12 @@ const yachtFeatures = [
 ]
 
 const galleryImages = [
-  '/service-yacht.jpg',
-  '/service-luxury-dining.jpg',
-  '/menu-seafood.jpg',
-  '/menu-cocktails.jpg',
-  '/service-events.jpg',
-  '/testimonial-yacht.jpg',
+  '/service-yacht.webp',
+  '/service-luxury-dining.webp',
+  '/menu-seafood.webp',
+  '/menu-cocktails.webp',
+  '/service-events.webp',
+  '/testimonial-yacht.webp',
 ]
 
 const faqItems = [
@@ -98,10 +96,6 @@ export default function Yachts() {
   useGSAP(() => {
     const ctx = gsap.context(() => {
       // Hero
-      gsap.from('.yachts-hero-eyebrow', { opacity: 0, y: 20, duration: 0.6, ease: 'power3.out' })
-      gsap.from('.yachts-hero-h1', { opacity: 0, y: 40, duration: 0.8, ease: 'power3.out', delay: 0.2 })
-      gsap.from('.yachts-hero-sub', { opacity: 0, y: 20, duration: 0.6, ease: 'power3.out', delay: 0.5 })
-      gsap.from('.yachts-hero-cta', { opacity: 0, y: 20, duration: 0.6, ease: 'power3.out', delay: 0.7 })
 
       // Service cards
       gsap.from('.yacht-service-card', {
@@ -159,44 +153,23 @@ export default function Yachts() {
         title="Yacht Catering Dubai"
         description="Premium yacht catering and private chef services in Dubai. Dining on your yacht with Dubai Marina and Palm Jumeirah as your backdrop. Request a bespoke quote."
         canonicalPath="/yachts"
-        ogImage="/service-yacht.jpg"
+        ogImage="/service-yacht.webp"
         schema={breadcrumbSchema}
       />
 
       {/* Section 1: Hero */}
-      <section className="relative min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
-        <img
-          src="/images/yacht-catering-dubai-hero.webp"
-          alt="Yacht catering experience in Dubai"
-          className="absolute inset-0 w-full h-full object-cover opacity-40"
-          style={{ objectPosition: 'center' }}
-        />
-        <div className="absolute inset-0" style={{ background: 'linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.85) 100%)' }} />
-        <div className="relative z-10 text-center container-custom py-24">
-          <nav aria-label="Breadcrumb" className="mb-8">
-            <ol className="flex items-center justify-center gap-2 font-inter text-body-sm text-gray-400">
-              <li><Link to="/" className="hover:text-gold transition-colors">Home</Link></li>
-              <li><ChevronRight size={14} className="text-gray-500" /></li>
-              <li className="text-gold">Yachts</li>
-            </ol>
-          </nav>
-          <p className="yachts-hero-eyebrow font-inter text-caption font-medium uppercase tracking-[0.1em] text-gold mb-4">YACHT CATERING</p>
-          <h1 className="yachts-hero-h1 font-playfair text-display md:text-[3.5rem] text-white mb-6" style={{ lineHeight: '1.05' }}>
-            Yacht Catering<br />Dubai
-          </h1>
-          <p className="yachts-hero-sub font-inter text-body-lg text-white max-w-2xl mx-auto mb-10" style={{ opacity: 0.9 }}>
-            Exceptional dining on the water. A private chef experience with Dubai&apos;s iconic skyline as your setting.
-          </p>
-          <div className="yachts-hero-cta flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-primary">
-              Request Yacht Catering
-            </a>
-            <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-secondary">
-              Chat on WhatsApp
-            </a>
-          </div>
-        </div>
-      </section>
+      <PageHero
+        eyebrow="YACHT CATERING"
+        title="<>Yacht Catering<br />Dubai</>"
+        subtitle="Exceptional dining on the water. A private chef experience with Dubai's iconic skyline as your setting."
+        image="/images/yacht-catering-dubai-hero.webp"
+        imageAlt="Yacht catering in Dubai"
+        cta={{ label: 'Request Yacht Catering', href: WHATSAPP_LINK, external: true }}
+        secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
+        breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Yachts' }]}
+        minHeight="tall"
+        overlay="dark"
+      />
 
       {/* Section 2: Yacht Services */}
       <section className="bg-white section-padding">
@@ -411,7 +384,7 @@ export default function Yachts() {
       <section className="bg-cream py-16">
         <div className="container-custom max-w-[800px] text-center">
           <h3 className="font-playfair text-h3 text-black mb-4">Related Guides</h3>
-          <p className="font-inter text-body text-[#737373] leading-relaxed">
+          <p className="font-inter text-body text-gray-500 leading-relaxed">
             Planning an event in Dubai? Read our{' '}
             <Link to="/yacht-catering-guide-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Yacht Catering Guide</Link>.
           </p>

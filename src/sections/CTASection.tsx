@@ -14,17 +14,21 @@ export default function CTASection() {
   const contentRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
+    const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
     const ctx = gsap.context(() => {
       const children = contentRef.current?.children
-      if (children) {
-        gsap.fromTo(children,
-          { opacity: 0, y: 40 },
-          {
-            opacity: 1, y: 0, duration: 0.8, stagger: 0.15, ease: 'power3.out',
-            scrollTrigger: { trigger: sectionRef.current, start: 'top 80%' },
-          }
-        )
+      if (!children) return
+      if (reduced) {
+        gsap.set(children, { opacity: 1, y: 0 })
+        return
       }
+      gsap.fromTo(children,
+        { opacity: 0, y: 40 },
+        {
+          opacity: 1, y: 0, duration: 0.7, stagger: 0.12, ease: 'power3.out',
+          scrollTrigger: { trigger: sectionRef.current, start: 'top 80%' },
+        }
+      )
     }, sectionRef)
 
     return () => ctx.revert()
@@ -33,7 +37,7 @@ export default function CTASection() {
   return (
     <section
       ref={sectionRef}
-      className="relative py-28 md:py-32 overflow-hidden"
+      className="relative py-24 md:py-32 overflow-hidden"
       style={{ background: 'linear-gradient(135deg, #1A1A1A 0%, #0A0A0A 100%)' }}
     >
       <div className="container-custom text-center">
@@ -42,7 +46,7 @@ export default function CTASection() {
           <div className="gold-line mx-auto mb-8" />
 
           {/* Headline */}
-          <h2 className="font-playfair text-h2 md:text-[48px] text-white mb-6">
+          <h2 className="font-playfair text-fluid-h2 text-white mb-6">
             Ready to Experience<br />
             <span className="text-gold">Something Exceptional?</span>
           </h2>
@@ -54,14 +58,14 @@ export default function CTASection() {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=home" className="btn-primary">
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=home" className="btn-primary focus-visible:ring-offset-[#1A1A1A]">
               Request a Proposal
             </Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
               rel="noopener noreferrer"
-              className="btn-secondary"
+              className="btn-secondary focus-visible:ring-offset-[#1A1A1A]"
             >
               Chat on WhatsApp
             </a>

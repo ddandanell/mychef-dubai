@@ -95,12 +95,12 @@ const includedItems = [
 ]
 
 const galleryImages = [
-  { src: '/menu-appetizer.jpg', alt: 'Arabic mezze appetizer spread in Dubai' },
-  { src: '/menu-meat.jpg', alt: 'Arabic charcoal grilled meats catering' },
-  { src: '/service-events.jpg', alt: 'Arabic catering event setup in Dubai' },
-  { src: '/menu-canapes.jpg', alt: 'Arabic canapé and finger food selection' },
-  { src: '/service-villa.jpg', alt: 'Arabic villa feast catering in Dubai' },
-  { src: '/menu-dessert.jpg', alt: 'Arabic sweets and baklava display' },
+  { src: '/menu-appetizer.webp', alt: 'Arabic mezze appetizer spread in Dubai' },
+  { src: '/menu-meat.webp', alt: 'Arabic charcoal grilled meats catering' },
+  { src: '/service-events.webp', alt: 'Arabic catering event setup in Dubai' },
+  { src: '/menu-canapes.webp', alt: 'Arabic canapé and finger food selection' },
+  { src: '/service-villa.webp', alt: 'Arabic villa feast catering in Dubai' },
+  { src: '/menu-dessert.webp', alt: 'Arabic sweets and baklava display' },
 ]
 
 const locations = [
@@ -153,19 +153,19 @@ const relatedServices = [
   {
     title: 'Luxury Catering Dubai',
     description: 'Full-service event catering across Dubai with bespoke menus for any occasion.',
-    image: '/service-catering.jpg',
+    image: '/service-catering.webp',
     link: '/catering-dubai',
   },
   {
     title: 'Mediterranean Catering',
     description: 'Greek and coastal menus built on seafood, olive oil, and fresh, healthy flavour.',
-    image: '/menu-seafood.jpg',
+    image: '/menu-seafood.webp',
     link: '/mediterranean-catering-dubai',
   },
   {
     title: 'Grazing Tables',
     description: 'Artisan grazing spreads styled corner to corner as a striking centrepiece.',
-    image: '/menu-appetizer.jpg',
+    image: '/menu-appetizer.webp',
     link: '/grazing-table-dubai',
   },
 ]
@@ -266,12 +266,12 @@ export default function ArabicCatering() {
         title="Arabic Catering Dubai | Mezze, Grills & Ouzi"
         description="Arabic catering in Dubai for weddings, majlis, and corporate events. Mezze spreads, charcoal grills, Emirati and Levantine dishes, ouzi, and halal menus throughout."
         canonicalPath="/arabic-catering-dubai"
-        ogImage="/menu-appetizer.jpg"
+        ogImage="/menu-appetizer.webp"
         schema={schema}
       />
 
       {/* ═══════════════ Section 1: Hero ═══════════════ */}
-      <section className="relative min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
+      <section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
           style={{ backgroundImage: 'url(/images/arabic-catering-dubai-hero.webp)' }}
@@ -280,14 +280,14 @@ export default function ArabicCatering() {
 
         <div className="relative z-10 container-custom text-center max-w-[800px] py-20">
           <nav className="mb-6 opacity-0 translate-y-4 arab-hero-h1">
-            <ol className="flex items-center justify-center gap-2 font-inter text-[13px]">
-              <li><Link to="/" className="text-[#A3A3A3] hover:text-gold transition-colors">Home</Link></li>
-              <li className="text-[#A3A3A3]">/</li>
+            <ol className="flex items-center justify-center gap-2 font-inter text-body-sm">
+              <li><Link to="/" className="text-gray-400 hover:text-gold transition-colors">Home</Link></li>
+              <li className="text-gray-400">/</li>
               <li><span className="text-gold">Arabic Catering Dubai</span></li>
             </ol>
           </nav>
 
-          <h1 className="font-playfair text-[40px] md:text-[56px] lg:text-[72px] font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 arab-hero-h1">
+          <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 arab-hero-h1">
             Arabic Catering in Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 arab-hero-sub">
@@ -317,10 +317,10 @@ export default function ArabicCatering() {
           <h2 className="font-playfair text-h2 text-black mb-6">
             The Generous Heart of Arabic Hospitality
           </h2>
-          <p className="font-inter text-body-lg text-[#737373] leading-relaxed mb-5">
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Arabic cuisine is built on generosity — a table that overflows, dishes meant to be shared, and the unhurried ritual of breaking bread together. It begins with mezze: hummus, moutabal, tabbouleh, vine leaves, and warm flatbread arriving in abundance. It builds through smoky charcoal grills and slow-cooked classics, and it closes with kunafa, baklava, and cardamom-scented Arabic coffee. At myCHEF Dubai, we cook this cuisine the way it is meant to be served — warm, plentiful, and rooted in tradition.
           </p>
-          <p className="font-inter text-body-lg text-[#737373] leading-relaxed">
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             Spanning Emirati specialities like machboos and harees, Levantine grills and fatteh, and showpiece dishes such as a carved whole-lamb ouzi, our menus suit weddings, majlis evenings, iftar gatherings, and corporate functions alike. Halal sourcing is the baseline, vegetarian and vegan mezze are plentiful, and our team handles the styling, service, and pack-down — see how it fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
           </p>
         </div>
@@ -345,14 +345,14 @@ export default function ArabicCatering() {
                 <Link
                   key={i}
                   to={fmt.link}
-                  className="arab-fmt-card group bg-charcoal p-8 transition-all duration-400 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
+                  className="arab-fmt-card group bg-charcoal p-8 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
                 >
                   <Icon size={36} className="text-gold mb-4" />
                   <h3 className="font-playfair text-h3 text-white mb-3">{fmt.title}</h3>
-                  <p className="font-inter text-body-sm text-[#A3A3A3] leading-relaxed mb-4">
+                  <p className="font-inter text-body-sm text-gray-400 leading-relaxed mb-4">
                     {fmt.description}
                   </p>
-                  <span className="inline-flex items-center gap-1 font-inter text-[13px] uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
+                  <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
                     Learn More <ArrowRight size={14} />
                   </span>
                 </Link>
@@ -378,7 +378,7 @@ export default function ArabicCatering() {
             {useCases.map((uc, i) => (
               <div key={i} className="arab-uc-item bg-charcoal p-8 opacity-0 translate-y-10">
                 <h3 className="font-playfair text-h3 text-white mb-3">{uc.title}</h3>
-                <p className="font-inter text-body-sm text-[#A3A3A3] leading-relaxed">{uc.description}</p>
+                <p className="font-inter text-body-sm text-gray-400 leading-relaxed">{uc.description}</p>
               </div>
             ))}
           </div>
@@ -398,7 +398,7 @@ export default function ArabicCatering() {
                 <Check size={20} className="text-gold flex-shrink-0 mt-0.5" />
                 <div>
                   <h4 className="font-inter text-base font-medium text-black mb-1">{item.title}</h4>
-                  <p className="font-inter text-body-sm text-[#737373] leading-relaxed">{item.description}</p>
+                  <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{item.description}</p>
                 </div>
               </div>
             ))}
@@ -419,7 +419,7 @@ export default function ArabicCatering() {
                 <img
                   src={img.src}
                   alt={img.alt}
-                  className="w-full h-full object-cover transition-transform duration-400 hover:scale-[1.03]"
+                  className="w-full h-full object-cover transition-transform duration-300 hover:scale-[1.03]"
                   loading="lazy"
                 />
               </div>
@@ -437,7 +437,7 @@ export default function ArabicCatering() {
 
           <div className="arab-faq space-y-3">
             {faqs.map((faq, i) => (
-              <div key={i} className="arab-faq-item border border-[#E5E5E5] opacity-0 translate-y-5">
+              <div key={i} className="arab-faq-item border border-gray-200 opacity-0 translate-y-5">
                 <button
                   onClick={() => setOpenFaq(openFaq === i ? null : i)}
                   className="w-full flex items-center justify-between p-5 text-left"
@@ -452,7 +452,7 @@ export default function ArabicCatering() {
                   className={`overflow-hidden transition-all duration-300 ${openFaq === i ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'}`}
                 >
                   <div className="px-5 pb-5">
-                    <p className="font-inter text-body-sm text-[#737373] leading-relaxed">{faq.a}</p>
+                    <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{faq.a}</p>
                   </div>
                 </div>
               </div>
@@ -473,7 +473,7 @@ export default function ArabicCatering() {
               <Link
                 key={loc.slug}
                 to={`/locations/${loc.slug}`}
-                className="arab-loc-item flex items-center gap-2 font-inter text-sm text-[#A3A3A3] hover:text-gold transition-colors opacity-0"
+                className="arab-loc-item flex items-center gap-2 font-inter text-sm text-gray-400 hover:text-gold transition-colors opacity-0"
               >
                 <span className="w-1.5 h-1.5 rounded-full bg-gold flex-shrink-0" />
                 {loc.name}
@@ -495,7 +495,7 @@ export default function ArabicCatering() {
               <Link
                 key={i}
                 to={svc.link}
-                className="arab-rel-card group bg-charcoal overflow-hidden transition-all duration-400 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
+                className="arab-rel-card group bg-charcoal overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
               >
                 <div className="aspect-video overflow-hidden">
                   <img
@@ -507,8 +507,8 @@ export default function ArabicCatering() {
                 </div>
                 <div className="p-6">
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
-                  <p className="font-inter text-body-sm text-[#A3A3A3] mb-4">{svc.description}</p>
-                  <span className="inline-flex items-center gap-1 font-inter text-[13px] uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
+                  <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
+                  <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
                     Explore <ArrowRight size={14} />
                   </span>
                 </div>
@@ -524,7 +524,7 @@ export default function ArabicCatering() {
           <h2 className="font-playfair text-h2 text-white mb-4">
             Plan Your Arabic Feast
           </h2>
-          <p className="font-inter text-body-lg text-[#A3A3A3] max-w-[600px] mx-auto mb-8">
+          <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
             Tell us about your celebration and we'll design an Arabic menu that suits your guests, dietary needs, and the scale of your occasion.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

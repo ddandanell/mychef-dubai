@@ -95,12 +95,12 @@ const useCases = [
 ]
 
 const galleryImages = [
-  { src: '/service-catering.jpg', alt: 'Luxury buffet catering setup in Dubai' },
-  { src: '/menu-seafood.jpg', alt: 'Seafood station on a buffet' },
-  { src: '/menu-appetizer.jpg', alt: 'Appetizer and salad buffet display' },
-  { src: '/service-events.jpg', alt: 'Buffet stations at a Dubai event' },
-  { src: '/service-corporate.jpg', alt: 'Corporate buffet lunch' },
-  { src: '/menu-meat.jpg', alt: 'Carving station at a buffet' },
+  { src: '/service-catering.webp', alt: 'Luxury buffet catering setup in Dubai' },
+  { src: '/menu-seafood.webp', alt: 'Seafood station on a buffet' },
+  { src: '/menu-appetizer.webp', alt: 'Appetizer and salad buffet display' },
+  { src: '/service-events.webp', alt: 'Buffet stations at a Dubai event' },
+  { src: '/service-corporate.webp', alt: 'Corporate buffet lunch' },
+  { src: '/menu-meat.webp', alt: 'Carving station at a buffet' },
 ]
 
 const locations = [
@@ -153,19 +153,19 @@ const relatedServices = [
   {
     title: 'Catering Dubai',
     description: 'Full-service luxury catering for events of every size across Dubai.',
-    image: '/service-catering.jpg',
+    image: '/service-catering.webp',
     link: '/catering-dubai',
   },
   {
     title: 'BBQ Catering',
     description: 'Chef-manned grills, premium meats, and seafood for villa and yacht events.',
-    image: '/service-events.jpg',
+    image: '/service-events.webp',
     link: '/bbq-catering-dubai',
   },
   {
     title: 'Corporate Catering',
     description: 'Professional dining for boardroom lunches, conferences, and functions.',
-    image: '/service-corporate.jpg',
+    image: '/service-corporate.webp',
     link: '/corporate',
   },
 ]
@@ -266,12 +266,12 @@ export default function BuffetCatering() {
         title="Buffet Catering Dubai | Hot & Cold Stations"
         description="Premium buffet catering in Dubai with hot and cold stations, live action counters, and international menus. Ideal for corporate events, weddings, and large gatherings."
         canonicalPath="/buffet-catering-dubai"
-        ogImage="/service-catering.jpg"
+        ogImage="/service-catering.webp"
         schema={schema}
       />
 
       {/* ═══════════════ Section 1: Hero ═══════════════ */}
-      <section className="relative min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
+      <section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
           style={{ backgroundImage: 'url(/images/buffet-catering-dubai-hero.webp)' }}
@@ -280,14 +280,14 @@ export default function BuffetCatering() {
 
         <div className="relative z-10 container-custom text-center max-w-[800px] py-20">
           <nav className="mb-6 opacity-0 translate-y-4 buf-hero-h1">
-            <ol className="flex items-center justify-center gap-2 font-inter text-[13px]">
-              <li><Link to="/" className="text-[#A3A3A3] hover:text-gold transition-colors">Home</Link></li>
-              <li className="text-[#A3A3A3]">/</li>
+            <ol className="flex items-center justify-center gap-2 font-inter text-body-sm">
+              <li><Link to="/" className="text-gray-400 hover:text-gold transition-colors">Home</Link></li>
+              <li className="text-gray-400">/</li>
               <li><span className="text-gold">Buffet Catering Dubai</span></li>
             </ol>
           </nav>
 
-          <h1 className="font-playfair text-[40px] md:text-[56px] lg:text-[72px] font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 buf-hero-h1">
+          <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 buf-hero-h1">
             Buffet Catering in Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 buf-hero-sub">
@@ -317,10 +317,10 @@ export default function BuffetCatering() {
           <h2 className="font-playfair text-h2 text-black mb-6">
             Generous Stations, Effortless Service
           </h2>
-          <p className="font-inter text-body-lg text-[#737373] leading-relaxed mb-5">
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             A well-designed buffet is one of the most generous ways to host. It lets guests choose what they love, return for more, and dine at their own pace — while the room stays relaxed and the conversation keeps flowing. At myCHEF Dubai, we treat buffet catering as a balance of abundance and elegance, with stations styled as carefully as they are stocked.
           </p>
-          <p className="font-inter text-body-lg text-[#737373] leading-relaxed">
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             Our menus span hot mains, slow-cooked roasts, vibrant salads, seafood on ice, breads, and desserts, drawing on Arabic, Mediterranean, Asian, and Continental traditions. Live counters add freshness and theatre, while our service team keeps every station full and the flow smooth from first guest to last. Whether it is a corporate lunch, a wedding reception, or a large family celebration, we bring the stations, the staff, and the styling to you. Explore our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>, or speak to us to start planning.
           </p>
         </div>
@@ -345,14 +345,14 @@ export default function BuffetCatering() {
                 <Link
                   key={i}
                   to={fmt.link}
-                  className="buf-fmt-card group bg-charcoal p-8 transition-all duration-400 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
+                  className="buf-fmt-card group bg-charcoal p-8 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
                 >
                   <Icon size={36} className="text-gold mb-4" />
                   <h3 className="font-playfair text-h3 text-white mb-3">{fmt.title}</h3>
-                  <p className="font-inter text-body-sm text-[#A3A3A3] leading-relaxed mb-4">
+                  <p className="font-inter text-body-sm text-gray-400 leading-relaxed mb-4">
                     {fmt.description}
                   </p>
-                  <span className="inline-flex items-center gap-1 font-inter text-[13px] uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
+                  <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
                     Learn More <ArrowRight size={14} />
                   </span>
                 </Link>
@@ -378,7 +378,7 @@ export default function BuffetCatering() {
             {useCases.map((uc, i) => (
               <div key={i} className="buf-uc-item bg-charcoal p-8 opacity-0 translate-y-10">
                 <h3 className="font-playfair text-h3 text-white mb-3">{uc.title}</h3>
-                <p className="font-inter text-body-sm text-[#A3A3A3] leading-relaxed">{uc.description}</p>
+                <p className="font-inter text-body-sm text-gray-400 leading-relaxed">{uc.description}</p>
               </div>
             ))}
           </div>
@@ -398,7 +398,7 @@ export default function BuffetCatering() {
                 <Check size={20} className="text-gold flex-shrink-0 mt-0.5" />
                 <div>
                   <h4 className="font-inter text-base font-medium text-black mb-1">{item.title}</h4>
-                  <p className="font-inter text-body-sm text-[#737373] leading-relaxed">{item.description}</p>
+                  <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{item.description}</p>
                 </div>
               </div>
             ))}
@@ -419,7 +419,7 @@ export default function BuffetCatering() {
                 <img
                   src={img.src}
                   alt={img.alt}
-                  className="w-full h-full object-cover transition-transform duration-400 hover:scale-[1.03]"
+                  className="w-full h-full object-cover transition-transform duration-300 hover:scale-[1.03]"
                   loading="lazy"
                 />
               </div>
@@ -437,7 +437,7 @@ export default function BuffetCatering() {
 
           <div className="buf-faq space-y-3">
             {faqs.map((faq, i) => (
-              <div key={i} className="buf-faq-item border border-[#E5E5E5] opacity-0 translate-y-5">
+              <div key={i} className="buf-faq-item border border-gray-200 opacity-0 translate-y-5">
                 <button
                   onClick={() => setOpenFaq(openFaq === i ? null : i)}
                   className="w-full flex items-center justify-between p-5 text-left"
@@ -452,7 +452,7 @@ export default function BuffetCatering() {
                   className={`overflow-hidden transition-all duration-300 ${openFaq === i ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'}`}
                 >
                   <div className="px-5 pb-5">
-                    <p className="font-inter text-body-sm text-[#737373] leading-relaxed">{faq.a}</p>
+                    <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{faq.a}</p>
                   </div>
                 </div>
               </div>
@@ -473,7 +473,7 @@ export default function BuffetCatering() {
               <Link
                 key={loc.slug}
                 to={`/locations/${loc.slug}`}
-                className="buf-loc-item flex items-center gap-2 font-inter text-sm text-[#A3A3A3] hover:text-gold transition-colors opacity-0"
+                className="buf-loc-item flex items-center gap-2 font-inter text-sm text-gray-400 hover:text-gold transition-colors opacity-0"
               >
                 <span className="w-1.5 h-1.5 rounded-full bg-gold flex-shrink-0" />
                 {loc.name}
@@ -495,7 +495,7 @@ export default function BuffetCatering() {
               <Link
                 key={i}
                 to={svc.link}
-                className="buf-rel-card group bg-charcoal overflow-hidden transition-all duration-400 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
+                className="buf-rel-card group bg-charcoal overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
               >
                 <div className="aspect-video overflow-hidden">
                   <img
@@ -507,8 +507,8 @@ export default function BuffetCatering() {
                 </div>
                 <div className="p-6">
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
-                  <p className="font-inter text-body-sm text-[#A3A3A3] mb-4">{svc.description}</p>
-                  <span className="inline-flex items-center gap-1 font-inter text-[13px] uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
+                  <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
+                  <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
                     Explore <ArrowRight size={14} />
                   </span>
                 </div>
@@ -524,7 +524,7 @@ export default function BuffetCatering() {
           <h2 className="font-playfair text-h2 text-white mb-4">
             Plan Your Buffet
           </h2>
-          <p className="font-inter text-body-lg text-[#A3A3A3] max-w-[600px] mx-auto mb-8">
+          <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
             Tell us about your event and we'll design a buffet menu, stations, and service plan that fits it perfectly.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

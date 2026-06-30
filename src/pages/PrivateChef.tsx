@@ -3,19 +3,9 @@ import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import {
-  Utensils,
-  Home,
-  Calendar,
-  Baby,
-  Leaf,
-  Star,
-  Check,
-  ChevronRight,
-  Phone,
-  ArrowRight,
-} from 'lucide-react'
+import { Utensils, Home, Calendar, Baby, Leaf, Star, Check, ChevronRight, Phone, ArrowRight, } from 'lucide-react'
 import SEO from '../components/SEO'
+import PageHero from '../components/PageHero'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -151,19 +141,19 @@ const relatedServices = [
   {
     title: 'Luxury Dining',
     description: 'Bespoke private dining experiences for romantic dinners and special occasions.',
-    image: '/service-luxury-dining.jpg',
+    image: '/service-luxury-dining.webp',
     link: '/luxury-dining-experiences',
   },
   {
     title: 'Villa Chef',
     description: 'Dedicated private chef services for your villa stay or residence.',
-    image: '/service-villa.jpg',
+    image: '/service-villa.webp',
     link: '/villas-private-residences',
   },
   {
     title: 'Catering',
     description: 'Full-service catering for larger events, parties, and celebrations.',
-    image: '/service-catering.jpg',
+    image: '/service-catering.webp',
     link: '/catering-dubai',
   },
 ]
@@ -211,9 +201,6 @@ export default function PrivateChef() {
     if (!containerRef.current) return
 
     // Hero animations
-    gsap.to('.pc-hero-h1', { opacity: 1, y: 0, duration: 0.8, ease: 'power3.out' })
-    gsap.to('.pc-hero-sub', { opacity: 1, y: 0, duration: 0.6, delay: 0.3, ease: 'power3.out' })
-    gsap.to('.pc-hero-cta', { opacity: 1, y: 0, duration: 0.5, stagger: 0.15, delay: 0.6, ease: 'power3.out' })
 
     // Explanation section
     gsap.to('.pc-exp-left', {
@@ -274,54 +261,22 @@ export default function PrivateChef() {
         title="Private Chef Dubai | Hire a Personal Chef"
         description="Hire a professional private chef in Dubai. Bespoke dining experiences in your villa, home, or yacht. Fully customized menus. Request your quote today."
         canonicalPath="/private-chef-dubai"
-        ogImage="/service-private-chef.jpg"
+        ogImage="/service-private-chef.webp"
         schema={{ ...schema, ...breadcrumbSchema }}
       />
 
       {/* ═══════════════ Section 1: Hero ═══════════════ */}
-      <section className="relative min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
-        {/* Background */}
-        <div
-          className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
-          style={{ backgroundImage: 'url(/images/private-chef-dubai-hero.webp)' }}
-        />
-        {/* Overlay */}
-        <div className="absolute inset-0 bg-black/50" />
-
-        {/* Content */}
-        <div className="relative z-10 container-custom text-center max-w-[800px] py-20">
-          {/* Breadcrumb */}
-          <nav className="mb-6 opacity-0 translate-y-4 pc-hero-h1">
-            <ol className="flex items-center justify-center gap-2 font-inter text-[13px]">
-              <li><Link to="/" className="text-[#A3A3A3] hover:text-gold transition-colors">Home</Link></li>
-              <li className="text-[#A3A3A3]">/</li>
-              <li><span className="text-gold">Private Chef Dubai</span></li>
-            </ol>
-          </nav>
-
-          <h1 className="font-playfair text-[40px] md:text-[56px] lg:text-[72px] font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 pc-hero-h1">
-            Private Chef Dubai
-          </h1>
-          <p className="font-inter text-lg text-white/90 max-w-[600px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 pc-hero-sub">
-            A world-class chef in your kitchen. Fully bespoke menus. Impeccable service. From intimate dinners to week-long villa stays.
-          </p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link
-              to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=private-chef-dubai"
-              className="btn-primary opacity-0 translate-y-4 pc-hero-cta"
-            >Request a Proposal</Link>
-            <a
-              href={WHATSAPP_LINK}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-secondary opacity-0 translate-y-4 pc-hero-cta"
-            >
-              <Phone size={16} className="mr-2" />
-              Chat on WhatsApp
-            </a>
-          </div>
-        </div>
-      </section>
+      <PageHero
+        title="Private Chef Dubai"
+        subtitle="A world-class chef in your kitchen. Fully bespoke menus. Impeccable service. From intimate dinners to week-long villa stays."
+        image="/images/private-chef-dubai-hero.webp"
+        imageAlt="Private chef preparing a meal in Dubai"
+        cta={{ label: 'Request a Proposal', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=private-chef-dubai' }}
+        secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
+        breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Private Chef Dubai' }]}
+        minHeight="tall"
+        overlay="dark"
+      />
 
       {/* ═══════════════ Section 2: What Is a Private Chef ═══════════════ */}
       <section className="bg-white section-padding">
@@ -332,10 +287,10 @@ export default function PrivateChef() {
               <h2 className="font-playfair text-h2 text-black mb-6">
                 What Is a Private Chef Service?
               </h2>
-              <p className="font-inter text-body text-[#737373] leading-relaxed mb-4">
+              <p className="font-inter text-body text-gray-500 leading-relaxed mb-4">
                 A private chef is a professional culinary expert who comes to your home, villa, or yacht to prepare bespoke meals exclusively for you and your guests. Unlike a restaurant experience, everything is designed around your preferences — the menu, the pacing, the atmosphere, the dietary requirements.
               </p>
-              <p className="font-inter text-body text-[#737373] leading-relaxed">
+              <p className="font-inter text-body text-gray-500 leading-relaxed">
                 At myCHEF Dubai, our private chef service includes menu consultation, ingredient sourcing, meal preparation, professional plating, table service, and complete kitchen cleanup. You simply enjoy the evening.
               </p>
             </div>
@@ -347,7 +302,7 @@ export default function PrivateChef() {
                   <div className="w-6 h-6 rounded-full bg-gold/20 flex items-center justify-center flex-shrink-0">
                     <Check size={14} className="text-gold" />
                   </div>
-                  <span className="font-inter text-body text-[#737373]">{item}</span>
+                  <span className="font-inter text-body text-gray-500">{item}</span>
                 </div>
               ))}
             </div>
@@ -381,7 +336,7 @@ export default function PrivateChef() {
                     className={`flex items-center gap-3 px-4 py-3 text-left font-inter text-sm whitespace-nowrap transition-all duration-300 border-l-2 ${
                       activeServiceTab === i
                         ? 'border-gold text-gold bg-charcoal'
-                        : 'border-charcoal-light text-[#A3A3A3] hover:text-white hover:border-[#A3A3A3]'
+                        : 'border-charcoal-light text-gray-400 hover:text-white hover:border-gray-400'
                     }`}
                   >
                     <Icon size={18} />
@@ -402,18 +357,18 @@ export default function PrivateChef() {
                     <div
                       key={i}
                       onClick={() => setActiveServiceTab(i)}
-                      className={`pc-svc-card bg-charcoal p-8 cursor-pointer transition-all duration-400 opacity-0 translate-y-12 ${
+                      className={`pc-svc-card bg-charcoal p-8 cursor-pointer transition-all duration-300 opacity-0 translate-y-12 ${
                         isActive ? 'ring-1 ring-gold' : 'hover:bg-charcoal-light'
                       }`}
                     >
                       <Icon size={40} className="text-gold mb-4" />
                       <h3 className="font-playfair text-h3 text-white mb-3">{svc.title}</h3>
-                      <p className="font-inter text-body-sm text-[#A3A3A3] leading-relaxed mb-4">
+                      <p className="font-inter text-body-sm text-gray-400 leading-relaxed mb-4">
                         {svc.description}
                       </p>
                       <Link
                         to={svc.link}
-                        className="inline-flex items-center gap-1 font-inter text-[13px] uppercase tracking-wider text-gold hover:text-gold-light transition-colors"
+                        className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold hover:text-gold-light transition-colors"
                       >
                         Learn More <ArrowRight size={14} />
                       </Link>
@@ -441,7 +396,7 @@ export default function PrivateChef() {
                 </span>
                 <div>
                   <h3 className="font-playfair text-h3 text-black mb-2">{step.title}</h3>
-                  <p className="font-inter text-body text-[#737373] leading-relaxed">{step.description}</p>
+                  <p className="font-inter text-body text-gray-500 leading-relaxed">{step.description}</p>
                 </div>
               </div>
             ))}
@@ -466,7 +421,7 @@ export default function PrivateChef() {
               <Link
                 key={loc.slug}
                 to={`/locations/${loc.slug}`}
-                className="pc-loc-item flex items-center gap-2 font-inter text-sm text-[#A3A3A3] hover:text-gold transition-colors opacity-0"
+                className="pc-loc-item flex items-center gap-2 font-inter text-sm text-gray-400 hover:text-gold transition-colors opacity-0"
               >
                 <span className="w-1.5 h-1.5 rounded-full bg-gold flex-shrink-0" />
                 {loc.name}
@@ -485,7 +440,7 @@ export default function PrivateChef() {
 
           <div className="pc-faq space-y-3">
             {faqs.map((faq, i) => (
-              <div key={i} className="pc-faq-item border border-[#E5E5E5] opacity-0 translate-y-5">
+              <div key={i} className="pc-faq-item border border-gray-200 opacity-0 translate-y-5">
                 <button
                   onClick={() => setOpenFaq(openFaq === i ? null : i)}
                   className="w-full flex items-center justify-between p-5 text-left"
@@ -500,7 +455,7 @@ export default function PrivateChef() {
                   className={`overflow-hidden transition-all duration-300 ${openFaq === i ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'}`}
                 >
                   <div className="px-5 pb-5">
-                    <p className="font-inter text-body-sm text-[#737373] leading-relaxed">{faq.a}</p>
+                    <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{faq.a}</p>
                   </div>
                 </div>
               </div>
@@ -519,7 +474,7 @@ export default function PrivateChef() {
             <p className="font-playfair text-lg md:text-xl text-white italic leading-relaxed mb-6">
               &ldquo;Having Marco and his team prepare dinner for our anniversary was the best decision we made. The food was extraordinary, the service was flawless, and we did not lift a finger. We have already booked them for our next dinner party.&rdquo;
             </p>
-            <p className="font-inter text-body-sm text-[#A3A3A3]">
+            <p className="font-inter text-body-sm text-gray-400">
               &mdash; Layla &amp; Ahmed R., Palm Jumeirah
             </p>
           </div>
@@ -538,7 +493,7 @@ export default function PrivateChef() {
               <Link
                 key={i}
                 to={svc.link}
-                className="pc-rel-card group bg-charcoal overflow-hidden transition-all duration-400 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
+                className="pc-rel-card group bg-charcoal overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
               >
                 <div className="aspect-video overflow-hidden">
                   <img
@@ -550,8 +505,8 @@ export default function PrivateChef() {
                 </div>
                 <div className="p-6">
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
-                  <p className="font-inter text-body-sm text-[#A3A3A3] mb-4">{svc.description}</p>
-                  <span className="inline-flex items-center gap-1 font-inter text-[13px] uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
+                  <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
+                  <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
                     Explore <ArrowRight size={14} />
                   </span>
                 </div>
@@ -565,7 +520,7 @@ export default function PrivateChef() {
       <section className="bg-cream py-16">
         <div className="container-custom max-w-[800px] text-center">
           <h3 className="font-playfair text-h3 text-black mb-4">Related Guides</h3>
-          <p className="font-inter text-body text-[#737373] leading-relaxed">
+          <p className="font-inter text-body text-gray-500 leading-relaxed">
             Planning an event in Dubai? Read our{' '}
             <Link to="/private-chef-vs-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Private Chef vs Catering</Link>.
           </p>
@@ -578,7 +533,7 @@ export default function PrivateChef() {
           <h2 className="font-playfair text-h2 text-white mb-4">
             Book Your Private Chef Today
           </h2>
-          <p className="font-inter text-body-lg text-[#A3A3A3] max-w-[600px] mx-auto mb-8">
+          <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
             Tell us about your occasion and we will craft a bespoke proposal within 2 hours.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

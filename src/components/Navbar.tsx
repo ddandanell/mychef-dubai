@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { Link, useLocation } from 'react-router'
 import { Menu, X, Phone } from 'lucide-react'
 
@@ -18,6 +18,8 @@ const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false)
   const location = useLocation()
+  const hamburgerRef = useRef<HTMLButtonElement>(null)
+  const closeRef = useRef<HTMLButtonElement>(null)
 
   useEffect(() => {
     setMobileOpen(false)
@@ -27,8 +29,10 @@ export default function Navbar() {
   useEffect(() => {
     if (mobileOpen) {
       document.body.style.overflow = 'hidden'
+      closeRef.current?.focus()
     } else {
       document.body.style.overflow = ''
+      hamburgerRef.current?.focus()
     }
     return () => { document.body.style.overflow = '' }
   }, [mobileOpen])
@@ -39,7 +43,8 @@ export default function Navbar() {
         <div className="container-custom h-full flex items-center justify-between">
           {/* Mobile: Hamburger */}
           <button
-            className="lg:hidden text-gold p-1"
+            ref={hamburgerRef}
+            className="lg:hidden text-gold p-2.5 -ml-2.5 min-w-11 min-h-11 flex items-center justify-center rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold"
             onClick={() => setMobileOpen(true)}
             aria-label="Open menu"
           >
@@ -53,15 +58,22 @@ export default function Navbar() {
 
           {/* Desktop Nav Links */}
           <div className="hidden lg:flex items-center gap-8">
-            {navLinks.map((link) => (
-              <Link
-                key={link.href}
-                to={link.href}
-                className="font-inter text-nav font-medium uppercase text-white hover:text-gold transition-colors duration-200"
-              >
-                {link.label}
-              </Link>
-            ))}
+            {navLinks.map((link) => {
+              const isActive = location.pathname === link.href || (link.href !== '/' && location.pathname.startsWith(link.href))
+              return (
+                <Link
+                  key={link.href}
+                  to={link.href}
+                  aria-current={isActive ? 'page' : undefined}
+                  className={`font-inter text-nav font-medium uppercase transition-colors duration-200 relative ${
+                    isActive ? 'text-gold' : 'text-white hover:text-gold'
+                  }`}
+                >
+                  {link.label}
+                  {isActive && <span className="absolute -bottom-1.5 left-0 right-0 h-px bg-gold" />}
+                </Link>
+              )
+            })}
           </div>
 
           {/* Desktop CTA Buttons */}
@@ -89,7 +101,7 @@ export default function Navbar() {
             href={WHATSAPP_LINK}
             target="_blank"
             rel="noopener noreferrer"
-            className="lg:hidden text-gold p-1"
+            className="lg:hidden text-gold p-2.5 -mr-2.5 min-w-11 min-h-11 flex items-center justify-center rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold"
             aria-label="Chat on WhatsApp"
           >
             <Phone size={24} />
@@ -108,8 +120,9 @@ export default function Navbar() {
           <div className="h-20 flex items-center justify-between">
             <span className="font-playfair text-2xl font-semibold text-gold">myCHEF</span>
             <button
+              ref={closeRef}
               onClick={() => setMobileOpen(false)}
-              className="text-white p-1"
+              className="text-white p-2.5 -mr-2.5 min-w-11 min-h-11 flex items-center justify-center rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold"
               aria-label="Close menu"
             >
               <X size={24} />
@@ -118,16 +131,22 @@ export default function Navbar() {
 
           {/* Links */}
           <div className="flex-1 flex flex-col items-center justify-center gap-8">
-            {navLinks.map((link) => (
-              <Link
-                key={link.href}
-                to={link.href}
-                className="font-inter text-xl font-medium text-white hover:text-gold transition-colors duration-200"
-                onClick={() => setMobileOpen(false)}
-              >
-                {link.label}
-              </Link>
-            ))}
+            {navLinks.map((link) => {
+              const isActive = location.pathname === link.href || (link.href !== '/' && location.pathname.startsWith(link.href))
+              return (
+                <Link
+                  key={link.href}
+                  to={link.href}
+                  aria-current={isActive ? 'page' : undefined}
+                  className={`font-inter text-xl font-medium transition-colors duration-200 ${
+                    isActive ? 'text-gold' : 'text-white hover:text-gold'
+                  }`}
+                  onClick={() => setMobileOpen(false)}
+                >
+                  {link.label}
+                </Link>
+              )
+            })}
           </div>
 
           {/* CTA */}

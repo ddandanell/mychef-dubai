@@ -1,13 +1,11 @@
 import { useRef, useState } from 'react'
 import { Link } from 'react-router'
-import {
-  ChevronRight, Utensils, Calendar, Home, PartyPopper, Baby, Leaf,
-  ShoppingBag, Users, Sparkles, Clock, Shield, ChevronDown, Phone, MapPin,
-} from 'lucide-react'
+import { ChevronRight, Utensils, Calendar, Home, PartyPopper, Baby, Leaf, ShoppingBag, Users, Sparkles, Clock, Shield, ChevronDown, Phone, MapPin, } from 'lucide-react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { useGSAP } from '@gsap/react'
 import SEO from '@/components/SEO'
+import PageHero from '@/components/PageHero'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -25,12 +23,12 @@ const villaServices = [
 ]
 
 const villaCommunities = [
-  { image: '/loc-palm-jumeirah.jpg', name: 'Palm Jumeirah', link: '/locations/palm-jumeirah' },
-  { image: '/loc-emirates-hills.jpg', name: 'Emirates Hills', link: '/locations/emirates-hills' },
-  { image: '/loc-downtown.jpg', name: 'Dubai Hills', link: '/locations/dubai-hills' },
-  { image: '/loc-dubai-marina.jpg', name: 'Jumeirah Islands', link: '/locations/jumeirah-islands' },
-  { image: '/loc-jbr.jpg', name: 'Arabian Ranches', link: '/locations/arabian-ranches' },
-  { image: '/loc-difc.jpg', name: 'Jumeirah Golf Estates', link: '/locations/jumeirah-golf-estates' },
+  { image: '/loc-palm-jumeirah.webp', name: 'Palm Jumeirah', link: '/locations/palm-jumeirah' },
+  { image: '/loc-emirates-hills.webp', name: 'Emirates Hills', link: '/locations/emirates-hills' },
+  { image: '/loc-downtown.webp', name: 'Dubai Hills', link: '/locations/dubai-hills' },
+  { image: '/loc-dubai-marina.webp', name: 'Jumeirah Islands', link: '/locations/jumeirah-islands' },
+  { image: '/loc-jbr.webp', name: 'Arabian Ranches', link: '/locations/arabian-ranches' },
+  { image: '/loc-difc.webp', name: 'Jumeirah Golf Estates', link: '/locations/jumeirah-golf-estates' },
 ]
 
 const extraCommunities = [
@@ -65,12 +63,12 @@ const villaFeatures = [
 ]
 
 const galleryImages = [
-  '/service-villa.jpg',
-  '/service-luxury-dining.jpg',
-  '/service-private-chef.jpg',
-  '/service-events.jpg',
-  '/testimonial-villa.jpg',
-  '/menu-appetizer.jpg',
+  '/service-villa.webp',
+  '/service-luxury-dining.webp',
+  '/service-private-chef.webp',
+  '/service-events.webp',
+  '/testimonial-villa.webp',
+  '/menu-appetizer.webp',
 ]
 
 const faqItems = [
@@ -119,10 +117,6 @@ export default function Villas() {
   useGSAP(() => {
     const ctx = gsap.context(() => {
       // Hero
-      gsap.from('.villas-hero-eyebrow', { opacity: 0, y: 20, duration: 0.6, ease: 'power3.out' })
-      gsap.from('.villas-hero-h1', { opacity: 0, y: 40, duration: 0.8, ease: 'power3.out', delay: 0.2 })
-      gsap.from('.villas-hero-sub', { opacity: 0, y: 20, duration: 0.6, ease: 'power3.out', delay: 0.5 })
-      gsap.from('.villas-hero-cta', { opacity: 0, y: 20, duration: 0.6, ease: 'power3.out', delay: 0.7 })
 
       // Service cards
       gsap.from('.villa-service-card', {
@@ -176,44 +170,23 @@ export default function Villas() {
         title="Villa Private Chef Dubai"
         description="Private chef services for Dubai villas and luxury residences. Palm Jumeirah, Emirates Hills, Arabian Ranches, and more. Bespoke dining at your villa. Request a quote."
         canonicalPath="/villas-private-residences"
-        ogImage="/service-villa.jpg"
+        ogImage="/service-villa.webp"
         schema={breadcrumbSchema}
       />
 
       {/* Section 1: Hero */}
-      <section className="relative min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
-        <img
-          src="/images/villa-catering-dubai-hero.webp"
-          alt="Villa private chef dining experience in Dubai"
-          className="absolute inset-0 w-full h-full object-cover opacity-40"
-          style={{ objectPosition: 'center' }}
-        />
-        <div className="absolute inset-0" style={{ background: 'linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.85) 100%)' }} />
-        <div className="relative z-10 text-center container-custom py-24">
-          <nav aria-label="Breadcrumb" className="mb-8">
-            <ol className="flex items-center justify-center gap-2 font-inter text-body-sm text-gray-400">
-              <li><Link to="/" className="hover:text-gold transition-colors">Home</Link></li>
-              <li><ChevronRight size={14} className="text-gray-500" /></li>
-              <li className="text-gold">Villas & Private Residences</li>
-            </ol>
-          </nav>
-          <p className="villas-hero-eyebrow font-inter text-caption font-medium uppercase tracking-[0.1em] text-gold mb-4">VILLA CHEF SERVICES</p>
-          <h1 className="villas-hero-h1 font-playfair text-display md:text-[3.5rem] text-white mb-6" style={{ lineHeight: '1.05' }}>
-            Villa Private Chef<br />Dubai
-          </h1>
-          <p className="villas-hero-sub font-inter text-body-lg text-white max-w-2xl mx-auto mb-10" style={{ opacity: 0.9 }}>
-            A world-class chef in your Dubai villa. From one-night dinners to full-time residential chef services — experience exceptional dining without leaving home.
-          </p>
-          <div className="villas-hero-cta flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-primary">
-              Request a Villa Chef
-            </a>
-            <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-secondary">
-              Chat on WhatsApp
-            </a>
-          </div>
-        </div>
-      </section>
+      <PageHero
+        eyebrow="VILLA CHEF SERVICES"
+        title="<>Villa Private Chef<br />Dubai</>"
+        subtitle="A world-class chef in your Dubai villa. From one-night dinners to full-time residential chef services — experience exceptional dining without leaving home."
+        image="/images/villa-catering-dubai-hero.webp"
+        imageAlt="Villa private chef in Dubai"
+        cta={{ label: 'Request a Villa Chef', href: WHATSAPP_LINK, external: true }}
+        secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
+        breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Villas & Private Residences' }]}
+        minHeight="tall"
+        overlay="dark"
+      />
 
       {/* Section 2: Villa Chef Services */}
       <section className="bg-white section-padding">
@@ -324,7 +297,7 @@ export default function Villas() {
             </div>
             <div>
               <img
-                src="/testimonial-villa.jpg"
+                src="/testimonial-villa.webp"
                 alt="Private villa dining experience in Dubai"
                 className="w-full h-[500px] object-cover"
                 style={{ border: '1px solid rgba(200,164,92,0.2)' }}
@@ -423,7 +396,7 @@ export default function Villas() {
       <section className="bg-cream py-16">
         <div className="container-custom max-w-[800px] text-center">
           <h3 className="font-playfair text-h3 text-black mb-4">Related Guides</h3>
-          <p className="font-inter text-body text-[#737373] leading-relaxed">
+          <p className="font-inter text-body text-gray-500 leading-relaxed">
             Planning an event in Dubai? Read our{' '}
             <Link to="/villa-catering-ideas-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Villa Catering Ideas</Link>.
           </p>

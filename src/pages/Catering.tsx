@@ -3,20 +3,9 @@ import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import {
-  UtensilsCrossed,
-  PartyPopper,
-  Heart,
-  Building,
-  Ship,
-  Home,
-  Cake,
-  Check,
-  ChevronRight,
-  Phone,
-  ArrowRight,
-} from 'lucide-react'
+import { UtensilsCrossed, PartyPopper, Heart, Building, Ship, Home, Cake, Check, ChevronRight, Phone, ArrowRight, } from 'lucide-react'
 import SEO from '../components/SEO'
+import PageHero from '../components/PageHero'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -104,12 +93,12 @@ const includedItems = [
 ]
 
 const galleryImages = [
-  { src: '/service-catering.jpg', alt: 'Elegant catering setup' },
-  { src: '/service-events.jpg', alt: 'Luxury event catering' },
-  { src: '/service-corporate.jpg', alt: 'Corporate catering' },
-  { src: '/service-villa.jpg', alt: 'Villa celebration catering' },
-  { src: '/menu-canapes.jpg', alt: 'Canapes and cocktail service' },
-  { src: '/service-luxury-dining.jpg', alt: 'Luxury dining catering' },
+  { src: '/service-catering.webp', alt: 'Elegant catering setup' },
+  { src: '/service-events.webp', alt: 'Luxury event catering' },
+  { src: '/service-corporate.webp', alt: 'Corporate catering' },
+  { src: '/service-villa.webp', alt: 'Villa celebration catering' },
+  { src: '/menu-canapes.webp', alt: 'Canapes and cocktail service' },
+  { src: '/service-luxury-dining.webp', alt: 'Luxury dining catering' },
 ]
 
 const locations = [
@@ -162,19 +151,19 @@ const relatedServices = [
   {
     title: 'Private Chef',
     description: 'Intimate dining with a dedicated chef in your home or villa.',
-    image: '/service-private-chef.jpg',
+    image: '/service-private-chef.webp',
     link: '/private-chef-dubai',
   },
   {
     title: 'Events',
     description: 'Full-service event planning and catering for celebrations of any size.',
-    image: '/service-events.jpg',
+    image: '/service-events.webp',
     link: '/events',
   },
   {
     title: 'Corporate',
     description: 'Professional corporate dining, from boardroom lunches to large functions.',
-    image: '/service-corporate.jpg',
+    image: '/service-corporate.webp',
     link: '/corporate',
   },
 ]
@@ -221,9 +210,6 @@ export default function Catering() {
     if (!containerRef.current) return
 
     // Hero
-    gsap.to('.cat-hero-h1', { opacity: 1, y: 0, duration: 0.8, ease: 'power3.out' })
-    gsap.to('.cat-hero-sub', { opacity: 1, y: 0, duration: 0.6, delay: 0.3, ease: 'power3.out' })
-    gsap.to('.cat-hero-cta', { opacity: 1, y: 0, duration: 0.5, stagger: 0.15, delay: 0.6, ease: 'power3.out' })
 
     // Catering format cards
     gsap.to('.cat-fmt-card', {
@@ -280,47 +266,22 @@ export default function Catering() {
         title="Luxury Catering Dubai | Private Event Catering"
         description="Premium catering services in Dubai for events, corporate functions, weddings, and private celebrations. Bespoke menus, full service, flawless execution. Request a quote."
         canonicalPath="/catering-dubai"
-        ogImage="/service-catering.jpg"
+        ogImage="/service-catering.webp"
         schema={{ ...schema, ...breadcrumbSchema }}
       />
 
       {/* ═══════════════ Section 1: Hero ═══════════════ */}
-      <section className="relative min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
-        <div
-          className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
-          style={{ backgroundImage: 'url(/images/catering-dubai-hero.webp)' }}
-        />
-        <div className="absolute inset-0 bg-black/50" />
-
-        <div className="relative z-10 container-custom text-center max-w-[800px] py-20">
-          <nav className="mb-6 opacity-0 translate-y-4 cat-hero-h1">
-            <ol className="flex items-center justify-center gap-2 font-inter text-[13px]">
-              <li><Link to="/" className="text-[#A3A3A3] hover:text-gold transition-colors">Home</Link></li>
-              <li className="text-[#A3A3A3]">/</li>
-              <li><span className="text-gold">Catering Dubai</span></li>
-            </ol>
-          </nav>
-
-          <h1 className="font-playfair text-[40px] md:text-[56px] lg:text-[72px] font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 cat-hero-h1">
-            Catering Dubai
-          </h1>
-          <p className="font-inter text-lg text-white/90 max-w-[600px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 cat-hero-sub">
-            Premium event catering across Dubai. From intimate gatherings to grand celebrations — every detail handled, every course perfected.
-          </p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=catering-dubai" className="btn-primary opacity-0 translate-y-4 cat-hero-cta">Request a Proposal</Link>
-            <a
-              href={WHATSAPP_LINK}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-secondary opacity-0 translate-y-4 cat-hero-cta"
-            >
-              <Phone size={16} className="mr-2" />
-              Chat on WhatsApp
-            </a>
-          </div>
-        </div>
-      </section>
+      <PageHero
+        title="Catering Dubai"
+        subtitle="Premium event catering across Dubai. From intimate gatherings to grand celebrations — every detail handled, every course perfected."
+        image="/images/catering-dubai-hero.webp"
+        imageAlt="Elegant catering setup in Dubai"
+        cta={{ label: 'Request a Proposal', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=catering-dubai' }}
+        secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
+        breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Catering Dubai' }]}
+        minHeight="tall"
+        overlay="dark"
+      />
 
       {/* ═══════════════ Section 2: Catering Formats ═══════════════ */}
       <section className="bg-white section-padding">
@@ -339,14 +300,14 @@ export default function Catering() {
               <Link
                 key={i}
                 to={fmt.link}
-                className="cat-fmt-card group bg-charcoal p-8 transition-all duration-400 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
+                className="cat-fmt-card group bg-charcoal p-8 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
               >
                 <UtensilsCrossed size={36} className="text-gold mb-4" />
                 <h3 className="font-playfair text-h3 text-white mb-3">{fmt.title}</h3>
-                <p className="font-inter text-body-sm text-[#A3A3A3] leading-relaxed mb-4">
+                <p className="font-inter text-body-sm text-gray-400 leading-relaxed mb-4">
                   {fmt.description}
                 </p>
-                <span className="inline-flex items-center gap-1 font-inter text-[13px] uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
+                <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
                   Learn More <ArrowRight size={14} />
                 </span>
               </Link>
@@ -378,7 +339,7 @@ export default function Catering() {
                   <Icon size={36} className="text-gold flex-shrink-0" />
                   <div>
                     <h3 className="font-playfair text-h3 text-white mb-2">{ev.title}</h3>
-                    <p className="font-inter text-body-sm text-[#A3A3A3] leading-relaxed">{ev.description}</p>
+                    <p className="font-inter text-body-sm text-gray-400 leading-relaxed">{ev.description}</p>
                   </div>
                 </div>
               )
@@ -400,7 +361,7 @@ export default function Catering() {
                 <Check size={20} className="text-gold flex-shrink-0 mt-0.5" />
                 <div>
                   <h4 className="font-inter text-base font-medium text-black mb-1">{item.title}</h4>
-                  <p className="font-inter text-body-sm text-[#737373] leading-relaxed">{item.description}</p>
+                  <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{item.description}</p>
                 </div>
               </div>
             ))}
@@ -421,7 +382,7 @@ export default function Catering() {
                 <img
                   src={img.src}
                   alt={img.alt}
-                  className="w-full h-full object-cover transition-transform duration-400 hover:scale-[1.03]"
+                  className="w-full h-full object-cover transition-transform duration-300 hover:scale-[1.03]"
                   loading="lazy"
                 />
               </div>
@@ -439,7 +400,7 @@ export default function Catering() {
 
           <div className="cat-faq space-y-3">
             {faqs.map((faq, i) => (
-              <div key={i} className="cat-faq-item border border-[#E5E5E5] opacity-0 translate-y-5">
+              <div key={i} className="cat-faq-item border border-gray-200 opacity-0 translate-y-5">
                 <button
                   onClick={() => setOpenFaq(openFaq === i ? null : i)}
                   className="w-full flex items-center justify-between p-5 text-left"
@@ -454,7 +415,7 @@ export default function Catering() {
                   className={`overflow-hidden transition-all duration-300 ${openFaq === i ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'}`}
                 >
                   <div className="px-5 pb-5">
-                    <p className="font-inter text-body-sm text-[#737373] leading-relaxed">{faq.a}</p>
+                    <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{faq.a}</p>
                   </div>
                 </div>
               </div>
@@ -475,7 +436,7 @@ export default function Catering() {
               <Link
                 key={loc.slug}
                 to={`/locations/${loc.slug}`}
-                className="cat-loc-item flex items-center gap-2 font-inter text-sm text-[#A3A3A3] hover:text-gold transition-colors opacity-0"
+                className="cat-loc-item flex items-center gap-2 font-inter text-sm text-gray-400 hover:text-gold transition-colors opacity-0"
               >
                 <span className="w-1.5 h-1.5 rounded-full bg-gold flex-shrink-0" />
                 {loc.name}
@@ -497,7 +458,7 @@ export default function Catering() {
               <Link
                 key={i}
                 to={svc.link}
-                className="cat-rel-card group bg-charcoal overflow-hidden transition-all duration-400 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
+                className="cat-rel-card group bg-charcoal overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
               >
                 <div className="aspect-video overflow-hidden">
                   <img
@@ -509,8 +470,8 @@ export default function Catering() {
                 </div>
                 <div className="p-6">
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
-                  <p className="font-inter text-body-sm text-[#A3A3A3] mb-4">{svc.description}</p>
-                  <span className="inline-flex items-center gap-1 font-inter text-[13px] uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
+                  <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
+                  <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
                     Explore <ArrowRight size={14} />
                   </span>
                 </div>
@@ -524,7 +485,7 @@ export default function Catering() {
       <section className="bg-cream py-16">
         <div className="container-custom max-w-[800px] text-center">
           <h3 className="font-playfair text-h3 text-black mb-4">Related Guides</h3>
-          <p className="font-inter text-body text-[#737373] leading-relaxed">
+          <p className="font-inter text-body text-gray-500 leading-relaxed">
             Planning an event in Dubai? Read our{' '}
             <Link to="/dubai-catering-prices-guide" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Dubai Catering Prices Guide</Link>
             {' '}and{' '}
@@ -539,7 +500,7 @@ export default function Catering() {
           <h2 className="font-playfair text-h2 text-white mb-4">
             Plan Your Event Catering
           </h2>
-          <p className="font-inter text-body-lg text-[#A3A3A3] max-w-[600px] mx-auto mb-8">
+          <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
             From concept to execution — we handle every detail of your catering experience.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

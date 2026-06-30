@@ -95,12 +95,12 @@ const includedItems = [
 ]
 
 const galleryImages = [
-  { src: '/menu-appetizer.jpg', alt: 'Italian antipasti spread catering in Dubai' },
-  { src: '/menu-meat.jpg', alt: 'Italian cured meats and main course catering' },
-  { src: '/service-catering.jpg', alt: 'Italian catering buffet setup in Dubai' },
-  { src: '/menu-canapes.jpg', alt: 'Italian canapé and finger food selection' },
-  { src: '/service-events.jpg', alt: 'Italian event catering with live station' },
-  { src: '/menu-dessert.jpg', alt: 'Italian dolci and tiramisu dessert display' },
+  { src: '/menu-appetizer.webp', alt: 'Italian antipasti spread catering in Dubai' },
+  { src: '/menu-meat.webp', alt: 'Italian cured meats and main course catering' },
+  { src: '/service-catering.webp', alt: 'Italian catering buffet setup in Dubai' },
+  { src: '/menu-canapes.webp', alt: 'Italian canapé and finger food selection' },
+  { src: '/service-events.webp', alt: 'Italian event catering with live station' },
+  { src: '/menu-dessert.webp', alt: 'Italian dolci and tiramisu dessert display' },
 ]
 
 const locations = [
@@ -153,19 +153,19 @@ const relatedServices = [
   {
     title: 'Luxury Catering Dubai',
     description: 'Full-service event catering across Dubai with bespoke menus for any occasion.',
-    image: '/service-catering.jpg',
+    image: '/service-catering.webp',
     link: '/catering-dubai',
   },
   {
     title: 'Live Cooking Stations',
     description: 'Interactive chef stations that bring theatre and fresh-cooked plates to your event.',
-    image: '/service-events.jpg',
+    image: '/service-events.webp',
     link: '/live-cooking-stations-dubai',
   },
   {
     title: 'Luxury Dining Experiences',
     description: 'Multi-course plated dining with restaurant-level care in your own home or villa.',
-    image: '/service-luxury-dining.jpg',
+    image: '/service-luxury-dining.webp',
     link: '/luxury-dining-experiences',
   },
 ]
@@ -266,12 +266,12 @@ export default function ItalianCatering() {
         title="Italian Catering Dubai | Handmade Pasta & Risotto"
         description="Italian catering in Dubai — handmade pasta, risotto, antipasti, and live pasta and pizza stations for weddings, villa dinners, and corporate events. Halal sourcing."
         canonicalPath="/italian-catering-dubai"
-        ogImage="/menu-appetizer.jpg"
+        ogImage="/menu-appetizer.webp"
         schema={schema}
       />
 
       {/* ═══════════════ Section 1: Hero ═══════════════ */}
-      <section className="relative min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
+      <section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
           style={{ backgroundImage: 'url(/images/italian-catering-dubai-hero.webp)' }}
@@ -280,14 +280,14 @@ export default function ItalianCatering() {
 
         <div className="relative z-10 container-custom text-center max-w-[800px] py-20">
           <nav className="mb-6 opacity-0 translate-y-4 ital-hero-h1">
-            <ol className="flex items-center justify-center gap-2 font-inter text-[13px]">
-              <li><Link to="/" className="text-[#A3A3A3] hover:text-gold transition-colors">Home</Link></li>
-              <li className="text-[#A3A3A3]">/</li>
+            <ol className="flex items-center justify-center gap-2 font-inter text-body-sm">
+              <li><Link to="/" className="text-gray-400 hover:text-gold transition-colors">Home</Link></li>
+              <li className="text-gray-400">/</li>
               <li><span className="text-gold">Italian Catering Dubai</span></li>
             </ol>
           </nav>
 
-          <h1 className="font-playfair text-[40px] md:text-[56px] lg:text-[72px] font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 ital-hero-h1">
+          <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 ital-hero-h1">
             Italian Catering in Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 ital-hero-sub">
@@ -317,10 +317,10 @@ export default function ItalianCatering() {
           <h2 className="font-playfair text-h2 text-black mb-6">
             Made by Hand, Served with Warmth
           </h2>
-          <p className="font-inter text-body-lg text-[#737373] leading-relaxed mb-5">
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Italian food is the cuisine of generosity and craft — a few good ingredients, treated with patience, turned into something that brings people to the table and keeps them there. Pasta rolled and cut by hand, risotto stirred to that perfect creamy texture, antipasti laid out to share, and dolci to finish slowly over espresso. At myCHEF Dubai, we cook in that tradition, making pasta fresh and simmering sauces from scratch rather than reaching for shortcuts.
           </p>
-          <p className="font-inter text-body-lg text-[#737373] leading-relaxed">
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             From antipasti and handmade pasta to wood-fired pizza, live risotto stations, and a tiramisu-and-espresso finish, our Italian menus suit weddings, villa dinners, corporate receptions, and intimate plated occasions alike. Halal sourcing is the baseline, vegetarian and vegan dishes are plentiful, and a chef-manned <Link to="/live-cooking-stations-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">live cooking station</Link> can become the centrepiece of your event — explore how it fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
           </p>
         </div>
@@ -345,14 +345,14 @@ export default function ItalianCatering() {
                 <Link
                   key={i}
                   to={fmt.link}
-                  className="ital-fmt-card group bg-charcoal p-8 transition-all duration-400 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
+                  className="ital-fmt-card group bg-charcoal p-8 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
                 >
                   <Icon size={36} className="text-gold mb-4" />
                   <h3 className="font-playfair text-h3 text-white mb-3">{fmt.title}</h3>
-                  <p className="font-inter text-body-sm text-[#A3A3A3] leading-relaxed mb-4">
+                  <p className="font-inter text-body-sm text-gray-400 leading-relaxed mb-4">
                     {fmt.description}
                   </p>
-                  <span className="inline-flex items-center gap-1 font-inter text-[13px] uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
+                  <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
                     Learn More <ArrowRight size={14} />
                   </span>
                 </Link>
@@ -378,7 +378,7 @@ export default function ItalianCatering() {
             {useCases.map((uc, i) => (
               <div key={i} className="ital-uc-item bg-charcoal p-8 opacity-0 translate-y-10">
                 <h3 className="font-playfair text-h3 text-white mb-3">{uc.title}</h3>
-                <p className="font-inter text-body-sm text-[#A3A3A3] leading-relaxed">{uc.description}</p>
+                <p className="font-inter text-body-sm text-gray-400 leading-relaxed">{uc.description}</p>
               </div>
             ))}
           </div>
@@ -398,7 +398,7 @@ export default function ItalianCatering() {
                 <Check size={20} className="text-gold flex-shrink-0 mt-0.5" />
                 <div>
                   <h4 className="font-inter text-base font-medium text-black mb-1">{item.title}</h4>
-                  <p className="font-inter text-body-sm text-[#737373] leading-relaxed">{item.description}</p>
+                  <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{item.description}</p>
                 </div>
               </div>
             ))}
@@ -419,7 +419,7 @@ export default function ItalianCatering() {
                 <img
                   src={img.src}
                   alt={img.alt}
-                  className="w-full h-full object-cover transition-transform duration-400 hover:scale-[1.03]"
+                  className="w-full h-full object-cover transition-transform duration-300 hover:scale-[1.03]"
                   loading="lazy"
                 />
               </div>
@@ -437,7 +437,7 @@ export default function ItalianCatering() {
 
           <div className="ital-faq space-y-3">
             {faqs.map((faq, i) => (
-              <div key={i} className="ital-faq-item border border-[#E5E5E5] opacity-0 translate-y-5">
+              <div key={i} className="ital-faq-item border border-gray-200 opacity-0 translate-y-5">
                 <button
                   onClick={() => setOpenFaq(openFaq === i ? null : i)}
                   className="w-full flex items-center justify-between p-5 text-left"
@@ -452,7 +452,7 @@ export default function ItalianCatering() {
                   className={`overflow-hidden transition-all duration-300 ${openFaq === i ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'}`}
                 >
                   <div className="px-5 pb-5">
-                    <p className="font-inter text-body-sm text-[#737373] leading-relaxed">{faq.a}</p>
+                    <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{faq.a}</p>
                   </div>
                 </div>
               </div>
@@ -473,7 +473,7 @@ export default function ItalianCatering() {
               <Link
                 key={loc.slug}
                 to={`/locations/${loc.slug}`}
-                className="ital-loc-item flex items-center gap-2 font-inter text-sm text-[#A3A3A3] hover:text-gold transition-colors opacity-0"
+                className="ital-loc-item flex items-center gap-2 font-inter text-sm text-gray-400 hover:text-gold transition-colors opacity-0"
               >
                 <span className="w-1.5 h-1.5 rounded-full bg-gold flex-shrink-0" />
                 {loc.name}
@@ -495,7 +495,7 @@ export default function ItalianCatering() {
               <Link
                 key={i}
                 to={svc.link}
-                className="ital-rel-card group bg-charcoal overflow-hidden transition-all duration-400 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
+                className="ital-rel-card group bg-charcoal overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
               >
                 <div className="aspect-video overflow-hidden">
                   <img
@@ -507,8 +507,8 @@ export default function ItalianCatering() {
                 </div>
                 <div className="p-6">
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
-                  <p className="font-inter text-body-sm text-[#A3A3A3] mb-4">{svc.description}</p>
-                  <span className="inline-flex items-center gap-1 font-inter text-[13px] uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
+                  <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
+                  <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
                     Explore <ArrowRight size={14} />
                   </span>
                 </div>
@@ -524,7 +524,7 @@ export default function ItalianCatering() {
           <h2 className="font-playfair text-h2 text-white mb-4">
             Plan Your Italian Feast
           </h2>
-          <p className="font-inter text-body-lg text-[#A3A3A3] max-w-[600px] mx-auto mb-8">
+          <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
             Tell us about your celebration and we'll design an Italian menu — with live stations if you like — that suits your guests, dietary needs, and the scale of your occasion.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

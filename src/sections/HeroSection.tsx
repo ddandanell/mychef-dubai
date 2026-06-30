@@ -2,6 +2,9 @@ import { useEffect, useRef } from 'react'
 import { Link } from 'react-router'
 import gsap from 'gsap'
 
+const prefersReducedMotion = () =>
+  typeof window !== 'undefined' && window.matchMedia('(prefers-reduced-motion: reduce)').matches
+
 export default function HeroSection() {
   const sectionRef = useRef<HTMLDivElement>(null)
   const lineRef = useRef<HTMLDivElement>(null)
@@ -10,55 +13,63 @@ export default function HeroSection() {
   const ctaRef = useRef<HTMLDivElement>(null)
   const statsRef = useRef<HTMLDivElement>(null)
   const imageRef = useRef<HTMLDivElement>(null)
+  const rafRef = useRef<number | null>(null)
 
   useEffect(() => {
+    const reduced = prefersReducedMotion()
     const ctx = gsap.context(() => {
-      // Gold accent line
-      gsap.fromTo(lineRef.current,
+      if (reduced) {
+        // Make everything visible immediately for reduced-motion users
+        gsap.set([lineRef.current, headlineRef.current, subtextRef.current, ctaRef.current, statsRef.current], {
+          opacity: 1, y: 0, width: 60,
+        })
+        return
+      }
+
+      const tl = gsap.timeline({ defaults: { ease: 'power3.out' } })
+
+      tl.fromTo(lineRef.current,
         { width: 0, opacity: 0 },
-        { width: 60, opacity: 1, duration: 0.6, delay: 0.3, ease: 'power3.out' }
+        { width: 60, opacity: 1, duration: 0.5 }
       )
-
-      // Headline
-      gsap.fromTo(headlineRef.current,
-        { opacity: 0, y: 40 },
-        { opacity: 1, y: 0, duration: 0.8, delay: 0.5, ease: 'power3.out' }
+      .fromTo(headlineRef.current,
+        { opacity: 0, y: 30 },
+        { opacity: 1, y: 0, duration: 0.7 },
+        '-=0.2'
       )
-
-      // Subtext
-      gsap.fromTo(subtextRef.current,
-        { opacity: 0, y: 20 },
-        { opacity: 1, y: 0, duration: 0.6, delay: 1.2, ease: 'power3.out' }
+      .fromTo(subtextRef.current,
+        { opacity: 0, y: 16 },
+        { opacity: 1, y: 0, duration: 0.5 },
+        '-=0.3'
       )
-
-      // CTA buttons
-      gsap.fromTo(ctaRef.current?.children || [],
-        { opacity: 0, y: 15 },
-        { opacity: 1, y: 0, duration: 0.5, delay: 1.5, stagger: 0.15, ease: 'power3.out' }
+      .fromTo(ctaRef.current?.children || [],
+        { opacity: 0, y: 12 },
+        { opacity: 1, y: 0, duration: 0.4, stagger: 0.1 },
+        '-=0.2'
       )
-
-      // Stats
-      gsap.fromTo(statsRef.current,
-        { opacity: 0, y: 20 },
-        { opacity: 1, y: 0, duration: 0.6, delay: 1.8, ease: 'power3.out' }
+      .fromTo(statsRef.current,
+        { opacity: 0, y: 16 },
+        { opacity: 1, y: 0, duration: 0.5 },
+        '-=0.2'
       )
 
       // Counter animation
       const statNumbers = statsRef.current?.querySelectorAll('.stat-number')
       if (statNumbers) {
         statNumbers.forEach((el) => {
-          const target = parseInt(el.getAttribute('data-target') || '0', 10)
+          const valueEl = el.querySelector('.stat-value')
+          const targetAttr = el.getAttribute('data-target')
+          if (!valueEl || !targetAttr) return
+          const target = parseInt(targetAttr, 10)
           const suffix = el.getAttribute('data-suffix') || ''
-          gsap.fromTo({ val: 0 }, {
-            val: 0,
-          }, {
+          const obj = { val: 0 }
+          gsap.to(obj, {
             val: target,
-            duration: 2,
-            delay: 1.8,
+            duration: 1.6,
+            delay: 0.8,
             ease: 'power2.out',
-            onUpdate: function () {
-              const current = Math.round(this.targets()[0].val)
-              el.textContent = current + suffix
+            onUpdate: () => {
+              valueEl.textContent = Math.round(obj.val) + suffix
             },
           })
         })
@@ -68,17 +79,34 @@ export default function HeroSection() {
     return () => ctx.revert()
   }, [])
 
-  // Parallax effect on scroll
+  // RAF-throttled parallax
   useEffect(() => {
-    const handleScroll = () => {
+    if (prefersReducedMotion() || !imageRef.current) return
+
+    let scrollY = 0
+    let ticking = false
+
+    const updateTransform = () => {
       if (imageRef.current) {
-        const scrollY = window.scrollY
-        const rate = scrollY * 0.3
-        imageRef.current.style.transform = `scale(1.05) translateY(${rate * 0.5}px)`
+        const rate = scrollY * 0.15
+        imageRef.current.style.transform = `scale(1.05) translateY(${rate}px)`
+      }
+      ticking = false
+    }
+
+    const handleScroll = () => {
+      scrollY = window.scrollY
+      if (!ticking) {
+        rafRef.current = requestAnimationFrame(updateTransform)
+        ticking = true
       }
     }
+
     window.addEventListener('scroll', handleScroll, { passive: true })
-    return () => window.removeEventListener('scroll', handleScroll)
+    return () => {
+      window.removeEventListener('scroll', handleScroll)
+      if (rafRef.current) cancelAnimationFrame(rafRef.current)
+    }
   }, [])
 
   return (
@@ -86,11 +114,11 @@ export default function HeroSection() {
       ref={sectionRef}
       className="relative min-h-[100dvh] flex items-center justify-center overflow-hidden -mt-20"
     >
-      {/* Background Image with Ken Burns */}
+      {/* Background Image */}
       <div className="absolute inset-0 overflow-hidden">
         <div
           ref={imageRef}
-          className="absolute inset-0 bg-cover bg-center scale-105"
+          className="absolute inset-0 bg-cover bg-center scale-105 will-change-transform"
           style={{
             backgroundImage: 'url(/images/home-hero.webp)',
           }}
@@ -100,14 +128,14 @@ export default function HeroSection() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 container-custom pt-32 pb-48 md:pb-40">
+      <div className="relative z-10 container-custom pt-32 pb-28 md:pb-24">
         {/* Gold accent line */}
-        <div ref={lineRef} className="gold-line mb-8 opacity-0" />
+        <div ref={lineRef} className="gold-line mb-6 md:mb-8 opacity-0" />
 
         {/* Headline */}
         <h1
           ref={headlineRef}
-          className="font-playfair text-display-mobile md:text-[56px] lg:text-display font-semibold leading-tight opacity-0"
+          className="font-playfair text-fluid-display font-semibold leading-tight opacity-0"
         >
           <span className="text-white block">Exceptional Dining,</span>
           <span className="text-gold font-normal block mt-1">Crafted for You</span>
@@ -116,13 +144,13 @@ export default function HeroSection() {
         {/* Subtext */}
         <p
           ref={subtextRef}
-          className="mt-6 font-inter text-lg md:text-body-lg font-light text-white/90 max-w-xl leading-relaxed opacity-0"
+          className="mt-5 md:mt-6 font-inter text-base md:text-body-lg font-light text-white/90 max-w-xl leading-relaxed opacity-0"
         >
           Premium private chef services and luxury catering across Dubai. From intimate villa dinners to grand yacht events — every experience is tailored to your taste.
         </p>
 
         {/* CTA Row */}
-        <div ref={ctaRef} className="mt-10 flex flex-col sm:flex-row gap-4">
+        <div ref={ctaRef} className="mt-8 md:mt-10 flex flex-col sm:flex-row gap-4">
           <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=home" className="btn-primary text-center">
             Request a Proposal
           </Link>
@@ -134,45 +162,39 @@ export default function HeroSection() {
         {/* Stats Row */}
         <div
           ref={statsRef}
-          className="absolute bottom-8 left-0 right-0 md:relative md:bottom-auto md:left-auto md:right-auto md:mt-16 opacity-0"
+          className="mt-12 md:mt-16 opacity-0"
         >
-          <div className="container-custom">
-            <div className="grid grid-cols-3 gap-4 md:gap-8 max-w-2xl">
-              <div className="text-center md:text-left">
-                <div
-                  className="stat-number font-playfair text-2xl md:text-4xl text-gold font-semibold"
-                  data-target="500"
-                  data-suffix="+"
-                >
-                  0+
-                </div>
-                <div className="font-inter text-[11px] md:text-[13px] text-gray-400 uppercase tracking-wider mt-1">
-                  Private Events Hosted
-                </div>
+          <div className="grid grid-cols-3 gap-4 md:gap-8 max-w-2xl">
+            <div className="text-center md:text-left">
+              <div
+                className="stat-number font-playfair text-2xl md:text-4xl text-gold font-semibold"
+                data-target="500"
+                data-suffix="+"
+              >
+                <span className="stat-value">0</span>+
               </div>
-              <div className="text-center md:text-left">
-                <div
-                  className="stat-number font-playfair text-2xl md:text-4xl text-gold font-semibold"
-                  data-target="50"
-                  data-suffix="+"
-                >
-                  0+
-                </div>
-                <div className="font-inter text-[11px] md:text-[13px] text-gray-400 uppercase tracking-wider mt-1">
-                  Expert Hospitality Team
-                </div>
+              <div className="font-inter text-caption md:text-body-sm text-gray-400 uppercase tracking-wider mt-1">
+                Private Events Hosted
               </div>
-              <div className="text-center md:text-left">
-                <div
-                  className="stat-number font-playfair text-2xl md:text-4xl text-gold font-semibold"
-                  data-target="1"
-                  data-suffix=""
-                >
-                  <span className="text-gold">Dubai-wide</span>
-                </div>
-                <div className="font-inter text-[11px] md:text-[13px] text-gray-400 uppercase tracking-wider mt-1">
-                  Service Coverage
-                </div>
+            </div>
+            <div className="text-center md:text-left">
+              <div
+                className="stat-number font-playfair text-2xl md:text-4xl text-gold font-semibold"
+                data-target="50"
+                data-suffix="+"
+              >
+                <span className="stat-value">0</span>+
+              </div>
+              <div className="font-inter text-caption md:text-body-sm text-gray-400 uppercase tracking-wider mt-1">
+                Expert Hospitality Team
+              </div>
+            </div>
+            <div className="text-center md:text-left">
+              <div className="stat-number font-playfair text-2xl md:text-4xl text-gold font-semibold">
+                <span className="text-gold">Dubai-wide</span>
+              </div>
+              <div className="font-inter text-caption md:text-body-sm text-gray-400 uppercase tracking-wider mt-1">
+                Service Coverage
               </div>
             </div>
           </div>

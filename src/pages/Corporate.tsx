@@ -9,25 +9,13 @@ import {
   AccordionContent,
 } from '@/components/ui/accordion'
 import SEO from '@/components/SEO'
+import PageHero from '@/components/PageHero'
 import {
   breadcrumbSchema,
   faqPageSchema,
   serviceSchema,
 } from '@/utils/schema'
-import {
-  Check,
-  Quote,
-  Star,
-  ArrowRight,
-  Clock,
-  Shield,
-  Award,
-  Users,
-  Leaf,
-  FileText,
-  Building,
-  PartyPopper,
-} from 'lucide-react'
+import { Check, Quote, Star, ArrowRight, Clock, Shield, Award, Users, Leaf, FileText, Building, PartyPopper, } from 'lucide-react'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -233,8 +221,6 @@ const schema = [
 /* ───── Page Component ───── */
 
 export default function Corporate() {
-  const heroContentRef = useRef<HTMLDivElement>(null)
-  const heroImageRef = useRef<HTMLDivElement>(null)
   const cardsRef = useRef<HTMLDivElement>(null)
   const trustRef = useRef<HTMLDivElement>(null)
   const tiersRef = useRef<HTMLDivElement>(null)
@@ -245,23 +231,6 @@ export default function Corporate() {
 
   useEffect(() => {
     const ctx = gsap.context(() => {
-      /* Hero entrance */
-      const heroEls = heroContentRef.current?.children
-      if (heroEls) {
-        gsap.fromTo(
-          heroEls,
-          { opacity: 0, y: 40 },
-          { opacity: 1, y: 0, duration: 0.8, stagger: 0.15, ease: 'power3.out', delay: 0.2 }
-        )
-      }
-
-      /* Hero parallax */
-      const handleScroll = () => {
-        if (heroImageRef.current) {
-          heroImageRef.current.style.transform = `scale(1.05) translateY(${window.scrollY * 0.5}px)`
-        }
-      }
-      window.addEventListener('scroll', handleScroll, { passive: true })
 
       /* Service cards */
       if (cardsRef.current) {
@@ -351,10 +320,7 @@ export default function Corporate() {
         )
       }
 
-      return () => {
-        ctx.revert()
-        window.removeEventListener('scroll', handleScroll)
-      }
+      return () => ctx.revert()
     })
 
     return () => ctx.revert()
@@ -366,47 +332,22 @@ export default function Corporate() {
         title="Corporate Catering Dubai"
         description="Professional corporate catering in Dubai. Boardroom lunches, client dinners, team events, and office catering. Discreet, premium, reliable. Request a quote."
         canonicalPath="/corporate"
-        ogImage="/service-corporate.jpg"
+        ogImage="/service-corporate.webp"
         schema={schema as unknown as Record<string, unknown>}
       />
 
       {/* ─── Hero ─── */}
-      <section className="relative min-h-[100dvh] flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 overflow-hidden">
-          <div
-            ref={heroImageRef}
-            className="absolute inset-0 bg-cover bg-center scale-105"
-            style={{ backgroundImage: 'url(/images/corporate-catering-dubai-hero.webp)' }}
-          />
-          <div className="absolute inset-0 bg-black/50" />
-        </div>
-        <div ref={heroContentRef} className="relative z-10 container-custom text-center pt-20">
-          <nav className="mb-6">
-            <ol className="flex items-center justify-center gap-2 font-inter text-sm text-gray-400">
-              <li><Link to="/" className="hover:text-gold transition-colors">Home</Link></li>
-              <li>/</li>
-              <li><Link to="/catering-dubai" className="hover:text-gold transition-colors">Services</Link></li>
-              <li>/</li>
-              <li className="text-gold">Corporate</li>
-            </ol>
-          </nav>
-          <div className="gold-line mx-auto mb-8" />
-          <h1 className="font-playfair text-h1 md:text-[56px] lg:text-[72px] font-semibold text-white leading-tight">
-            Corporate Dining
-            <br />
-            <span className="text-gold font-normal">Dubai</span>
-          </h1>
-          <p className="mt-6 font-inter text-lg text-white/90 max-w-2xl mx-auto leading-relaxed">
-            Impress clients. Reward teams. Elevate every business occasion with premium corporate dining and catering.
-          </p>
-          <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=corporate" className="btn-primary">Request a Proposal</Link>
-            <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-secondary">
-              Chat on WhatsApp
-            </a>
-          </div>
-        </div>
-      </section>
+      <PageHero
+        title={<>Corporate Dining<br /><span className="text-gold font-normal">Dubai</span></>}
+        subtitle="Impress clients. Reward teams. Elevate every business occasion with premium corporate dining and catering."
+        image="/images/corporate-catering-dubai-hero.webp"
+        imageAlt="Corporate catering in Dubai"
+        cta={{ label: 'Request a Proposal', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=corporate' }}
+        secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
+        breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Corporate' }]}
+        minHeight="tall"
+        overlay="dark"
+      />
 
       {/* ─── Corporate Services ─── */}
       <section className="bg-white section-padding">
@@ -424,14 +365,14 @@ export default function Corporate() {
               <Link
                 key={svc.title}
                 to={svc.link}
-                className="group bg-charcoal p-8 text-center hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] transition-all duration-400"
+                className="group bg-charcoal p-8 text-center hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] transition-all duration-300"
               >
                 <svc.icon size={48} className="text-gold mx-auto mb-4" />
                 <h3 className="font-playfair text-h3 text-white mb-2">{svc.title}</h3>
                 <p className="font-inter text-body-sm text-gray-400 leading-relaxed mb-4">
                   {svc.description}
                 </p>
-                <span className="inline-flex items-center gap-2 font-inter text-[13px] font-medium uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
+                <span className="inline-flex items-center gap-2 font-inter text-body-sm font-medium uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
                   Learn More <ArrowRight size={14} />
                 </span>
               </Link>
@@ -567,7 +508,7 @@ export default function Corporate() {
               >
                 <h3 className="font-playfair text-h3 text-black mb-2">{service.title}</h3>
                 <p className="font-inter text-body-sm text-gray-500 mb-4">{service.description}</p>
-                <span className="inline-flex items-center gap-2 font-inter text-[13px] font-medium uppercase tracking-wider text-gold group-hover:text-gold-dark transition-colors">
+                <span className="inline-flex items-center gap-2 font-inter text-body-sm font-medium uppercase tracking-wider text-gold group-hover:text-gold-dark transition-colors">
                   Learn More <ArrowRight size={14} />
                 </span>
               </Link>
@@ -580,7 +521,7 @@ export default function Corporate() {
       <section className="bg-cream py-16">
         <div className="container-custom max-w-[800px] text-center">
           <h3 className="font-playfair text-h3 text-black mb-4">Related Guides</h3>
-          <p className="font-inter text-body text-[#737373] leading-relaxed">
+          <p className="font-inter text-body text-gray-500 leading-relaxed">
             Planning an event in Dubai? Read our{' '}
             <Link to="/corporate-catering-checklist-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Corporate Catering Checklist</Link>.
           </p>

@@ -85,6 +85,11 @@ const stepFields: Record<number, string[]> = {
   3: [],
 }
 
+const inputClasses =
+  'w-full bg-charcoal border px-4 py-3.5 min-h-[48px] font-inter text-body text-white placeholder-gray-500 outline-none transition-all duration-200 focus:border-gold focus:ring-2 focus:ring-gold/20'
+const inputErrorClasses = 'border-red-500 focus:border-red-500 focus:ring-red-500/20'
+const inputNormalClasses = 'border-charcoal-light'
+
 type FormErrors = Partial<Record<string, string>>
 
 export default function Inquiry() {
@@ -197,10 +202,10 @@ export default function Inquiry() {
 
     if (Object.keys(newErrors).length > 0) {
       setErrors(newErrors)
-      // Jump to the first step with errors
-      const firstErrorStep = (Object.keys(newErrors)[0] ?
-        Object.entries(stepFields).find(([, fields]) => fields.includes(Object.keys(newErrors)[0]))?.[0]
-        : undefined)
+      const firstErrorField = Object.keys(newErrors)[0]
+      const firstErrorStep = firstErrorField
+        ? Object.entries(stepFields).find(([, fields]) => fields.includes(firstErrorField))?.[0]
+        : undefined
       if (firstErrorStep) setCurrentStep(Number(firstErrorStep))
       return
     }
@@ -226,12 +231,19 @@ export default function Inquiry() {
     setTimeout(() => {
       setIsSubmitting(false)
       setIsSubmitted(true)
-      window.scrollTo({ top: 0, behavior: 'smooth' })
+      window.scrollTo({ top: 0, behavior: 'auto' })
     }, 800)
   }
 
   useEffect(() => {
+    const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
     const ctx = gsap.context(() => {
+      if (reduced) {
+        gsap.set(heroTitleRef.current?.querySelectorAll('.word') || [], { opacity: 1, y: 0 })
+        gsap.set([heroSubRef.current, formRef.current, sidebarRef.current, altContactRef.current?.querySelector('.alt-content')], { opacity: 1, y: 0, x: 0 })
+        return
+      }
+
       if (heroTitleRef.current) {
         const words = heroTitleRef.current.querySelectorAll('.word')
         gsap.fromTo(words,
@@ -287,9 +299,9 @@ export default function Inquiry() {
         <div className="min-h-[60vh] flex items-center justify-center bg-cream">
           <div className="container-custom max-w-[600px] text-center py-20">
             <div className="w-16 h-16 rounded-full bg-gold/20 flex items-center justify-center mx-auto mb-6">
-              <Check size={32} className="text-gold" />
+              <Check size={32} className="text-gold" aria-hidden="true" />
             </div>
-            <h2 className="font-playfair text-h2 text-black mb-4">
+            <h2 className="font-playfair text-fluid-h2 text-black mb-4">
               Thank You!
             </h2>
             <p className="font-inter text-body text-gray-500 mb-4">
@@ -303,12 +315,12 @@ export default function Inquiry() {
                 href={WHATSAPP_LINK}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn-primary inline-flex items-center gap-2"
+                className="btn-primary inline-flex items-center gap-2 focus-visible:ring-offset-cream"
               >
-                <Phone size={16} />
+                <Phone size={16} aria-hidden="true" />
                 Chat on WhatsApp
               </a>
-              <Link to="/" className="btn-secondary">
+              <Link to="/" className="btn-secondary focus-visible:ring-offset-cream">
                 Back to Home
               </Link>
             </div>
@@ -331,7 +343,7 @@ export default function Inquiry() {
       <div className="bg-black border-b border-charcoal-light">
         <div className="container-custom py-4">
           <nav className="flex items-center gap-2 font-inter text-caption text-gray-500">
-            <Link to="/" className="hover:text-gold transition-colors">Home</Link>
+            <Link to="/" className="hover:text-gold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-black rounded-sm">Home</Link>
             <span className="text-gray-500">/</span>
             <span className="text-gold">Request a Quote</span>
           </nav>
@@ -346,7 +358,7 @@ export default function Inquiry() {
           </span>
           <h1
             ref={heroTitleRef}
-            className="font-playfair text-h1 md:text-[56px] text-white mb-6"
+            className="font-playfair text-fluid-h1 text-white mb-6"
           >
             <span className="word inline-block">Your</span>{' '}
             <span className="word inline-block">Quote</span>
@@ -363,12 +375,12 @@ export default function Inquiry() {
       </section>
 
       {/* Section 2: Quote Request Form */}
-      <section className="bg-white py-20">
+      <section className="bg-white py-16 md:py-20">
         <div className="container-custom max-w-[1200px]">
-          <div className="grid grid-cols-1 lg:grid-cols-[60%_40%] gap-12 lg:gap-16">
+          <div className="grid grid-cols-1 lg:grid-cols-[60%_40%] gap-y-12 lg:gap-x-12">
             {/* Left Column — Form */}
             <div ref={formRef}>
-              <h2 className="font-playfair text-[32px] text-black mb-2">
+              <h2 className="font-playfair text-fluid-h3 text-black mb-2">
                 Tell Us About Your Event
               </h2>
               <p className="font-inter text-body-sm text-gray-500 mb-8">
@@ -398,7 +410,7 @@ export default function Inquiry() {
                           }`}
                         >
                           {isCompleted ? (
-                            <Check size={16} className="text-black" />
+                            <Check size={16} className="text-black" aria-hidden="true" />
                           ) : (
                             <span
                               className={`font-inter text-sm font-medium ${
@@ -426,7 +438,7 @@ export default function Inquiry() {
                 {/* Step 1: Event Details */}
                 {currentStep === 1 && (
                   <div className="flex flex-col gap-5">
-                    <h3 className="font-playfair text-[24px] text-black mb-2">
+                    <h3 className="font-playfair text-fluid-h3 text-black mb-2">
                       Event Details
                     </h3>
 
@@ -440,9 +452,7 @@ export default function Inquiry() {
                         name="serviceType"
                         value={formData.serviceType}
                         onChange={handleChange}
-                        className={`w-full bg-charcoal border px-4 py-3.5 font-inter text-body text-white outline-none transition-all duration-200 focus:border-gold focus:shadow-[0_0_0_2px_rgba(200,164,92,0.2)] appearance-none cursor-pointer ${
-                          errors.serviceType ? 'border-red-500' : 'border-charcoal-light'
-                        } ${!formData.serviceType ? 'text-gray-500' : 'text-white'}`}
+                        className={`${inputClasses} appearance-none cursor-pointer ${errors.serviceType ? inputErrorClasses : inputNormalClasses} ${!formData.serviceType ? 'text-gray-500' : 'text-white'}`}
                         style={{ backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23C8A45C' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E")`, backgroundRepeat: 'no-repeat', backgroundPosition: 'right 16px center' }}
                       >
                         <option value="" disabled>Select a service type</option>
@@ -467,9 +477,7 @@ export default function Inquiry() {
                         value={formData.eventDate}
                         onChange={handleChange}
                         min={new Date().toISOString().split('T')[0]}
-                        className={`w-full bg-charcoal border px-4 py-3.5 font-inter text-body text-white outline-none transition-all duration-200 focus:border-gold focus:shadow-[0_0_0_2px_rgba(200,164,92,0.2)] ${
-                          errors.eventDate ? 'border-red-500' : 'border-charcoal-light'
-                        }`}
+                        className={`${inputClasses} ${errors.eventDate ? inputErrorClasses : inputNormalClasses}`}
                       />
                       {errors.eventDate && (
                         <p className="font-inter text-xs text-red-500 mt-1">{errors.eventDate}</p>
@@ -489,9 +497,7 @@ export default function Inquiry() {
                         min="1"
                         value={formData.numGuests}
                         onChange={handleChange}
-                        className={`w-full bg-charcoal border px-4 py-3.5 font-inter text-body text-white placeholder-gray-500 outline-none transition-all duration-200 focus:border-gold focus:shadow-[0_0_0_2px_rgba(200,164,92,0.2)] ${
-                          errors.numGuests ? 'border-red-500' : 'border-charcoal-light'
-                        }`}
+                        className={`${inputClasses} ${errors.numGuests ? inputErrorClasses : inputNormalClasses}`}
                       />
                       {errors.numGuests && (
                         <p className="font-inter text-xs text-red-500 mt-1">{errors.numGuests}</p>
@@ -508,9 +514,7 @@ export default function Inquiry() {
                         name="location"
                         value={formData.location}
                         onChange={handleChange}
-                        className={`w-full bg-charcoal border px-4 py-3.5 font-inter text-body text-white outline-none transition-all duration-200 focus:border-gold focus:shadow-[0_0_0_2px_rgba(200,164,92,0.2)] appearance-none cursor-pointer ${
-                          errors.location ? 'border-red-500' : 'border-charcoal-light'
-                        } ${!formData.location ? 'text-gray-500' : 'text-white'}`}
+                        className={`${inputClasses} appearance-none cursor-pointer ${errors.location ? inputErrorClasses : inputNormalClasses} ${!formData.location ? 'text-gray-500' : 'text-white'}`}
                         style={{ backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23C8A45C' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E")`, backgroundRepeat: 'no-repeat', backgroundPosition: 'right 16px center' }}
                       >
                         <option value="" disabled>Select your area in Dubai</option>
@@ -528,7 +532,7 @@ export default function Inquiry() {
                 {/* Step 2: Contact Info */}
                 {currentStep === 2 && (
                   <div className="flex flex-col gap-5">
-                    <h3 className="font-playfair text-[24px] text-black mb-2">
+                    <h3 className="font-playfair text-fluid-h3 text-black mb-2">
                       Contact Information
                     </h3>
 
@@ -544,9 +548,7 @@ export default function Inquiry() {
                         placeholder="Full name"
                         value={formData.fullName}
                         onChange={handleChange}
-                        className={`w-full bg-charcoal border px-4 py-3.5 font-inter text-body text-white placeholder-gray-500 outline-none transition-all duration-200 focus:border-gold focus:shadow-[0_0_0_2px_rgba(200,164,92,0.2)] ${
-                          errors.fullName ? 'border-red-500' : 'border-charcoal-light'
-                        }`}
+                        className={`${inputClasses} ${errors.fullName ? inputErrorClasses : inputNormalClasses}`}
                       />
                       {errors.fullName && (
                         <p className="font-inter text-xs text-red-500 mt-1">{errors.fullName}</p>
@@ -565,9 +567,7 @@ export default function Inquiry() {
                         placeholder="your@email.com"
                         value={formData.email}
                         onChange={handleChange}
-                        className={`w-full bg-charcoal border px-4 py-3.5 font-inter text-body text-white placeholder-gray-500 outline-none transition-all duration-200 focus:border-gold focus:shadow-[0_0_0_2px_rgba(200,164,92,0.2)] ${
-                          errors.email ? 'border-red-500' : 'border-charcoal-light'
-                        }`}
+                        className={`${inputClasses} ${errors.email ? inputErrorClasses : inputNormalClasses}`}
                       />
                       {errors.email && (
                         <p className="font-inter text-xs text-red-500 mt-1">{errors.email}</p>
@@ -586,9 +586,7 @@ export default function Inquiry() {
                         placeholder="+971 XX XXX XXXX"
                         value={formData.whatsapp}
                         onChange={handleChange}
-                        className={`w-full bg-charcoal border px-4 py-3.5 font-inter text-body text-white placeholder-gray-500 outline-none transition-all duration-200 focus:border-gold focus:shadow-[0_0_0_2px_rgba(200,164,92,0.2)] ${
-                          errors.whatsapp ? 'border-red-500' : 'border-charcoal-light'
-                        }`}
+                        className={`${inputClasses} ${errors.whatsapp ? inputErrorClasses : inputNormalClasses}`}
                       />
                       {errors.whatsapp && (
                         <p className="font-inter text-xs text-red-500 mt-1">{errors.whatsapp}</p>
@@ -603,7 +601,7 @@ export default function Inquiry() {
                 {/* Step 3: Preferences & Submit */}
                 {currentStep === 3 && (
                   <div className="flex flex-col gap-5">
-                    <h3 className="font-playfair text-[24px] text-black mb-2">
+                    <h3 className="font-playfair text-fluid-h3 text-black mb-2">
                       Preferences & Special Requests
                     </h3>
 
@@ -619,7 +617,7 @@ export default function Inquiry() {
                         placeholder="e.g., Mediterranean, Asian Fusion, French..."
                         value={formData.cuisinePreferences}
                         onChange={handleChange}
-                        className="w-full bg-charcoal border border-charcoal-light px-4 py-3.5 font-inter text-body text-white placeholder-gray-500 outline-none transition-all duration-200 focus:border-gold focus:shadow-[0_0_0_2px_rgba(200,164,92,0.2)]"
+                        className={`${inputClasses} ${inputNormalClasses}`}
                       />
                     </div>
 
@@ -629,24 +627,27 @@ export default function Inquiry() {
                         Dietary Restrictions <span className="text-gray-500 normal-case tracking-normal">(optional)</span>
                       </label>
                       <div className="flex flex-wrap gap-3">
-                        {dietaryOptions.map((option) => (
-                          <label
-                            key={option}
-                            className={`inline-flex items-center gap-2 border px-4 py-2 font-inter text-body-sm cursor-pointer transition-all duration-200 select-none ${
-                              formData.dietaryRestrictions.includes(option)
-                                ? 'border-gold bg-gold/10 text-black'
-                                : 'border-charcoal-light bg-charcoal text-gray-400 hover:border-gold/50'
-                            }`}
-                          >
-                            <input
-                              type="checkbox"
-                              className="sr-only"
-                              checked={formData.dietaryRestrictions.includes(option)}
-                              onChange={() => handleCheckboxChange('dietaryRestrictions', option)}
-                            />
-                            {option}
-                          </label>
-                        ))}
+                        {dietaryOptions.map((option) => {
+                          const checked = formData.dietaryRestrictions.includes(option)
+                          return (
+                            <label
+                              key={option}
+                              className={`inline-flex items-center gap-2 border px-4 py-2 font-inter text-body-sm cursor-pointer transition-all duration-200 select-none focus-within:ring-2 focus-within:ring-gold/30 ${
+                                checked
+                                  ? 'border-gold bg-gold/10 text-black'
+                                  : 'border-charcoal-light bg-charcoal text-gray-400 hover:border-gold/50'
+                              }`}
+                            >
+                              <input
+                                type="checkbox"
+                                className="sr-only"
+                                checked={checked}
+                                onChange={() => handleCheckboxChange('dietaryRestrictions', option)}
+                              />
+                              {option}
+                            </label>
+                          )
+                        })}
                       </div>
                     </div>
 
@@ -656,24 +657,27 @@ export default function Inquiry() {
                         Additional Services <span className="text-gray-500 normal-case tracking-normal">(optional)</span>
                       </label>
                       <div className="flex flex-wrap gap-3">
-                        {additionalServices.map((service) => (
-                          <label
-                            key={service}
-                            className={`inline-flex items-center gap-2 border px-4 py-2 font-inter text-body-sm cursor-pointer transition-all duration-200 select-none ${
-                              formData.additionalServices.includes(service)
-                                ? 'border-gold bg-gold/10 text-black'
-                                : 'border-charcoal-light bg-charcoal text-gray-400 hover:border-gold/50'
-                            }`}
-                          >
-                            <input
-                              type="checkbox"
-                              className="sr-only"
-                              checked={formData.additionalServices.includes(service)}
-                              onChange={() => handleCheckboxChange('additionalServices', service)}
-                            />
-                            {service}
-                          </label>
-                        ))}
+                        {additionalServices.map((service) => {
+                          const checked = formData.additionalServices.includes(service)
+                          return (
+                            <label
+                              key={service}
+                              className={`inline-flex items-center gap-2 border px-4 py-2 font-inter text-body-sm cursor-pointer transition-all duration-200 select-none focus-within:ring-2 focus-within:ring-gold/30 ${
+                                checked
+                                  ? 'border-gold bg-gold/10 text-black'
+                                  : 'border-charcoal-light bg-charcoal text-gray-400 hover:border-gold/50'
+                              }`}
+                            >
+                              <input
+                                type="checkbox"
+                                className="sr-only"
+                                checked={checked}
+                                onChange={() => handleCheckboxChange('additionalServices', service)}
+                              />
+                              {service}
+                            </label>
+                          )
+                        })}
                       </div>
                     </div>
 
@@ -689,13 +693,13 @@ export default function Inquiry() {
                         placeholder="Share any details about your vision, occasion, or special requests..."
                         value={formData.specialRequests}
                         onChange={handleChange}
-                        className="w-full bg-charcoal border border-charcoal-light px-4 py-3.5 font-inter text-body text-white placeholder-gray-500 outline-none transition-all duration-200 focus:border-gold focus:shadow-[0_0_0_2px_rgba(200,164,92,0.2)] resize-none"
+                        className={`${inputClasses} resize-none ${inputNormalClasses}`}
                       />
                     </div>
 
                     {/* Review Summary */}
                     <div className="bg-cream border border-gold/20 p-5 mt-2">
-                      <h4 className="font-playfair text-[20px] text-black mb-4">
+                      <h4 className="font-playfair text-h4 text-black mb-4">
                         Review Your Request
                       </h4>
                       <dl className="grid grid-cols-1 sm:grid-cols-2 gap-3 font-inter text-body-sm">
@@ -756,7 +760,7 @@ export default function Inquiry() {
                     <button
                       type="button"
                       onClick={handleBack}
-                      className="btn-secondary w-full sm:w-auto inline-flex items-center justify-center gap-2"
+                      className="btn-secondary w-full sm:w-auto inline-flex items-center justify-center gap-2 focus-visible:ring-offset-white"
                     >
                       <ChevronLeft size={16} />
                       Back
@@ -766,7 +770,7 @@ export default function Inquiry() {
                     <button
                       type="button"
                       onClick={handleNext}
-                      className="btn-primary w-full sm:w-auto sm:ml-auto inline-flex items-center justify-center gap-2"
+                      className="btn-primary w-full sm:w-auto sm:ml-auto inline-flex items-center justify-center gap-2 focus-visible:ring-offset-white"
                     >
                       Next
                       <ChevronRight size={16} />
@@ -775,11 +779,11 @@ export default function Inquiry() {
                     <button
                       type="submit"
                       disabled={isSubmitting}
-                      className="btn-primary w-full sm:w-auto sm:ml-auto disabled:opacity-70 disabled:cursor-not-allowed inline-flex items-center justify-center gap-2"
+                      className="btn-primary w-full sm:w-auto sm:ml-auto disabled:opacity-70 disabled:cursor-not-allowed inline-flex items-center justify-center gap-2 focus-visible:ring-offset-white"
                     >
                       {isSubmitting ? (
                         <>
-                          <Loader2 size={16} className="animate-spin" />
+                          <Loader2 size={16} className="animate-spin" aria-hidden="true" />
                           Sending...
                         </>
                       ) : (
@@ -791,7 +795,7 @@ export default function Inquiry() {
 
                 {/* General error */}
                 {Object.keys(errors).length > 0 && (
-                  <p className="font-inter text-xs text-red-500 text-center">
+                  <p className="font-inter text-xs text-red-500 text-center" role="alert">
                     Please fix the errors above and try again.
                   </p>
                 )}
@@ -800,54 +804,32 @@ export default function Inquiry() {
 
             {/* Right Column — Trust Sidebar */}
             <div ref={sidebarRef}>
-              <div className="bg-black p-8 lg:sticky lg:top-[100px]">
-                <h3 className="font-playfair text-[24px] text-white mb-8">
+              <div className="bg-black p-6 md:p-8 lg:sticky lg:top-[100px]">
+                <h3 className="font-playfair text-fluid-h3 text-white mb-8">
                   What Happens Next?
                 </h3>
 
                 {/* Steps */}
                 <div className="flex flex-col gap-6 mb-8">
-                  <div className="flex gap-4">
-                    <div className="w-8 h-8 rounded-full bg-gold flex items-center justify-center flex-shrink-0">
-                      <span className="font-inter text-sm font-medium text-black">1</span>
+                  {[
+                    { title: 'We Review Your Request', desc: 'Within 2 hours, our team reviews your details.' },
+                    { title: 'We Create Your Proposal', desc: 'A bespoke menu and quote tailored to your event.' },
+                    { title: 'You Confirm & Relax', desc: 'Once confirmed, we handle everything else.' },
+                  ].map((item, i) => (
+                    <div key={item.title} className="flex gap-4">
+                      <div className="w-8 h-8 rounded-full bg-gold flex items-center justify-center flex-shrink-0">
+                        <span className="font-inter text-sm font-medium text-black">{i + 1}</span>
+                      </div>
+                      <div>
+                        <h4 className="font-inter text-body-sm font-medium text-white mb-1">
+                          {item.title}
+                        </h4>
+                        <p className="font-inter text-body-sm text-gray-400">
+                          {item.desc}
+                        </p>
+                      </div>
                     </div>
-                    <div>
-                      <h4 className="font-inter text-body-sm font-medium text-white mb-1">
-                        We Review Your Request
-                      </h4>
-                      <p className="font-inter text-body-sm text-gray-400">
-                        Within 2 hours, our team reviews your details.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="flex gap-4">
-                    <div className="w-8 h-8 rounded-full bg-gold flex items-center justify-center flex-shrink-0">
-                      <span className="font-inter text-sm font-medium text-black">2</span>
-                    </div>
-                    <div>
-                      <h4 className="font-inter text-body-sm font-medium text-white mb-1">
-                        We Create Your Proposal
-                      </h4>
-                      <p className="font-inter text-body-sm text-gray-400">
-                        A bespoke menu and quote tailored to your event.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="flex gap-4">
-                    <div className="w-8 h-8 rounded-full bg-gold flex items-center justify-center flex-shrink-0">
-                      <span className="font-inter text-sm font-medium text-black">3</span>
-                    </div>
-                    <div>
-                      <h4 className="font-inter text-body-sm font-medium text-white mb-1">
-                        You Confirm & Relax
-                      </h4>
-                      <p className="font-inter text-body-sm text-gray-400">
-                        Once confirmed, we handle everything else.
-                      </p>
-                    </div>
-                  </div>
+                  ))}
                 </div>
 
                 {/* Divider */}
@@ -862,7 +844,7 @@ export default function Inquiry() {
                     'Discreet & professional',
                   ].map((badge) => (
                     <div key={badge} className="flex items-center gap-3">
-                      <Check size={16} className="text-gold flex-shrink-0" />
+                      <Check size={16} className="text-gold flex-shrink-0" aria-hidden="true" />
                       <span className="font-inter text-body-sm text-gray-400">{badge}</span>
                     </div>
                   ))}
@@ -878,7 +860,7 @@ export default function Inquiry() {
       {/* Section 3: Alternative Contact */}
       <section ref={altContactRef} className="bg-cream py-16">
         <div className="alt-content container-custom max-w-[800px] text-center">
-          <h3 className="font-playfair text-[24px] text-black mb-4">
+          <h3 className="font-playfair text-fluid-h3 text-black mb-4">
             Prefer to Talk Directly?
           </h3>
           <p className="font-inter text-body text-gray-500 mb-6">
@@ -890,9 +872,9 @@ export default function Inquiry() {
             href={WHATSAPP_LINK}
             target="_blank"
             rel="noopener noreferrer"
-            className="btn-primary inline-flex items-center gap-2 mb-6"
+            className="btn-primary inline-flex items-center gap-2 mb-6 focus-visible:ring-offset-cream"
           >
-            <Phone size={16} />
+            <Phone size={16} aria-hidden="true" />
             Chat on WhatsApp
           </a>
 
@@ -900,20 +882,20 @@ export default function Inquiry() {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
             <a
               href="tel:+971551744849"
-              className="flex items-center gap-2 font-inter text-body-sm text-gray-500 hover:text-gold transition-colors"
+              className="flex items-center gap-2 font-inter text-body-sm text-gray-500 hover:text-gold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-cream rounded-sm"
             >
-              <Phone size={16} className="text-gold" />
+              <Phone size={16} className="text-gold" aria-hidden="true" />
               +971 55 174 4849
             </a>
             <a
               href="mailto:hallo@mychef.ae"
-              className="flex items-center gap-2 font-inter text-body-sm text-gray-500 hover:text-gold transition-colors"
+              className="flex items-center gap-2 font-inter text-body-sm text-gray-500 hover:text-gold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-cream rounded-sm"
             >
-              <Mail size={16} className="text-gold" />
+              <Mail size={16} className="text-gold" aria-hidden="true" />
               hallo@mychef.ae
             </a>
             <span className="flex items-center gap-2 font-inter text-body-sm text-gray-500">
-              <MapPin size={16} className="text-gold" />
+              <MapPin size={16} className="text-gold" aria-hidden="true" />
               Dubai, UAE
             </span>
           </div>

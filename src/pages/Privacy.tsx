@@ -1,10 +1,10 @@
 import { useRef } from 'react'
-import { Link } from 'react-router'
-import { ChevronRight, Mail } from 'lucide-react'
+import { Mail } from 'lucide-react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { useGSAP } from '@gsap/react'
 import SEO from '@/components/SEO'
+import PageHero from '@/components/PageHero'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -158,8 +158,6 @@ export default function Privacy() {
 
   useGSAP(() => {
     const ctx = gsap.context(() => {
-      gsap.from('.privacy-hero-h1', { opacity: 0, y: 30, duration: 0.6, ease: 'power3.out' })
-      gsap.from('.privacy-hero-date', { opacity: 0, y: 20, duration: 0.6, ease: 'power3.out', delay: 0.3 })
 
       gsap.from('.privacy-section', {
         opacity: 0, y: 20, duration: 0.6, stagger: 0.1, ease: 'power3.out',
@@ -181,25 +179,14 @@ export default function Privacy() {
       />
 
       {/* Section 1: Hero */}
-      <section className="relative min-h-[35vh] flex items-center justify-center bg-black overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-black via-charcoal to-black" />
-        <div className="relative z-10 text-center container-custom py-24">
-          <nav aria-label="Breadcrumb" className="mb-8">
-            <ol className="flex items-center justify-center gap-2 font-inter text-body-sm text-gray-400">
-              <li><Link to="/" className="hover:text-gold transition-colors">Home</Link></li>
-              <li><ChevronRight size={14} className="text-gray-500" /></li>
-              <li className="text-gold">Privacy Policy</li>
-            </ol>
-          </nav>
-          <p className="font-inter text-caption font-medium uppercase tracking-[0.1em] text-gold mb-4">LEGAL</p>
-          <h1 className="privacy-hero-h1 font-playfair text-h1 md:text-[3.5rem] text-white mb-4" style={{ lineHeight: '1.1' }}>
-            Privacy Policy
-          </h1>
-          <p className="privacy-hero-date font-inter text-body-sm text-gray-500">
-            Last updated: January 2025
-          </p>
-        </div>
-      </section>
+      <PageHero
+        eyebrow="LEGAL"
+        title="Privacy Policy"
+        breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Privacy Policy' }]}
+        minHeight="short"
+        overlay="dark"
+        children={<p className="font-inter text-body-sm text-gray-500 mt-4">Last updated: January 2025</p>}
+      />
 
       {/* Section 2: Policy Content */}
       <section className="privacy-content bg-white py-20">

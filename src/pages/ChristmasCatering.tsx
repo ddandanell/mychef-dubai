@@ -135,19 +135,19 @@ const relatedServices = [
   {
     title: 'Party Catering',
     description: 'Full-service catering for private parties, celebrations, and seasonal gatherings across Dubai.',
-    image: '/service-events.jpg',
+    image: '/service-events.webp',
     link: '/party-catering-dubai',
   },
   {
     title: 'Corporate Catering',
     description: 'Office lunches, boardroom dining, and corporate events with professional service.',
-    image: '/service-catering.jpg',
+    image: '/service-catering.webp',
     link: '/corporate',
   },
   {
     title: 'Private Chef Dubai',
     description: 'A dedicated chef and team for intimate dinners and special occasions at your location.',
-    image: '/service-luxury-dining.jpg',
+    image: '/service-luxury-dining.webp',
     link: '/private-chef-dubai',
   },
 ]
@@ -243,12 +243,12 @@ export default function ChristmasCatering() {
         title="Christmas Catering Dubai | Private Chef & Festive Menus"
         description="Festive Christmas catering in Dubai with private chef service, roasted turkey, canapés, and seasonal menus for villa, office, and family celebrations across Dubai."
         canonicalPath="/christmas-catering-dubai"
-        ogImage="/service-catering.jpg"
+        ogImage="/service-catering.webp"
         schema={schema}
       />
 
       {/* ═══════════════ Section 1: Hero ═══════════════ */}
-      <section className="relative min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
+      <section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
           style={{ backgroundImage: 'url(/images/christmas-catering-dubai-hero.webp)' }}
@@ -257,16 +257,16 @@ export default function ChristmasCatering() {
 
         <div className="relative z-10 container-custom text-center max-w-[800px] py-20">
           <nav className="mb-6 opacity-0 translate-y-4 xmas-hero-h1">
-            <ol className="flex items-center justify-center gap-2 font-inter text-[13px]">
-              <li><Link to="/" className="text-[#A3A3A3] hover:text-gold transition-colors">Home</Link></li>
-              <li className="text-[#A3A3A3]">/</li>
-              <li><Link to="/events" className="text-[#A3A3A3] hover:text-gold transition-colors">Events</Link></li>
-              <li className="text-[#A3A3A3]">/</li>
+            <ol className="flex items-center justify-center gap-2 font-inter text-body-sm">
+              <li><Link to="/" className="text-gray-400 hover:text-gold transition-colors">Home</Link></li>
+              <li className="text-gray-400">/</li>
+              <li><Link to="/events" className="text-gray-400 hover:text-gold transition-colors">Events</Link></li>
+              <li className="text-gray-400">/</li>
               <li><span className="text-gold">Christmas Catering Dubai</span></li>
             </ol>
           </nav>
 
-          <h1 className="font-playfair text-[40px] md:text-[56px] lg:text-[72px] font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 xmas-hero-h1">
+          <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 xmas-hero-h1">
             Christmas Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 xmas-hero-sub">
@@ -296,10 +296,10 @@ export default function ChristmasCatering() {
           <h2 className="font-playfair text-h2 text-black mb-6">
             A Christmas Feast Without the Stress
           </h2>
-          <p className="font-inter text-body-lg text-[#737373] leading-relaxed mb-5">
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Christmas in Dubai is a special time of year. With cooler evenings, twinkling city lights, and a community that loves to gather, many families and companies choose to host festive celebrations at home, in the office, or on a private terrace. At myCHEF Dubai, our Christmas catering service brings the seasonal spirit to your table with traditional flavours, modern presentation, and full-service hospitality.
           </p>
-          <p className="font-inter text-body-lg text-[#737373] leading-relaxed">
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             From roasted turkey and honey-glazed ham to vegetarian festive mains and styled dessert tables, we design menus that suit your guest list, venue, and celebration style. Every detail is handled by our team, so you can focus on the people around you. Explore our Christmas catering options below, or see how they fit within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
           </p>
         </div>
@@ -314,7 +314,7 @@ export default function ChristmasCatering() {
           <h2 className="font-playfair text-h2 text-black mb-6">
             Celebrations for Every Kind of Host
           </h2>
-          <p className="font-inter text-body-lg text-[#737373] leading-relaxed">
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             Our Christmas catering is designed for Dubai hosts who want a festive meal without the stress of cooking and cleanup. Families gathering for Christmas Eve or Christmas Day, companies hosting end-of-year parties, villa owners entertaining friends, and expat groups celebrating away from home all use our service. We also cater Christmas brunches, corporate gift-lunch events, and private yacht celebrations during the holiday season. Whether your group is small and intimate or spans fifty guests, our team adapts the menu, staffing, and format to match the occasion.
           </p>
         </div>
@@ -339,14 +339,14 @@ export default function ChristmasCatering() {
                 <Link
                   key={i}
                   to={fmt.link}
-                  className="xmas-fmt-card group bg-charcoal p-8 transition-all duration-400 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
+                  className="xmas-fmt-card group bg-charcoal p-8 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
                 >
                   <Icon size={36} className="text-gold mb-4" />
                   <h3 className="font-playfair text-h3 text-white mb-3">{fmt.title}</h3>
-                  <p className="font-inter text-body-sm text-[#A3A3A3] leading-relaxed mb-4">
+                  <p className="font-inter text-body-sm text-gray-400 leading-relaxed mb-4">
                     {fmt.description}
                   </p>
-                  <span className="inline-flex items-center gap-1 font-inter text-[13px] uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
+                  <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
                     Learn More <ArrowRight size={14} />
                   </span>
                 </Link>
@@ -369,7 +369,7 @@ export default function ChristmasCatering() {
                 <Check size={20} className="text-gold flex-shrink-0 mt-0.5" />
                 <div>
                   <h4 className="font-inter text-base font-medium text-black mb-1">{item.title}</h4>
-                  <p className="font-inter text-body-sm text-[#737373] leading-relaxed">{item.description}</p>
+                  <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{item.description}</p>
                 </div>
               </div>
             ))}
@@ -392,9 +392,9 @@ export default function ChristmasCatering() {
           <div className="xmas-steps grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {howItWorks.map((step, i) => (
               <div key={i} className="xmas-step-item bg-charcoal p-8 opacity-0 translate-y-10">
-                <span className="font-playfair text-[32px] text-gold/40 block mb-3">{step.step}</span>
+                <span className="font-playfair text-fluid-h3 text-gold/40 block mb-3">{step.step}</span>
                 <h3 className="font-playfair text-h3 text-white mb-2">{step.title}</h3>
-                <p className="font-inter text-body-sm text-[#A3A3A3] leading-relaxed">{step.description}</p>
+                <p className="font-inter text-body-sm text-gray-400 leading-relaxed">{step.description}</p>
               </div>
             ))}
           </div>
@@ -410,10 +410,10 @@ export default function ChristmasCatering() {
           <h2 className="font-playfair text-h2 text-black mb-6">
             Festive Hospitality, Delivered to Your Door
           </h2>
-          <p className="font-inter text-body-lg text-[#737373] leading-relaxed mb-5">
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             At myCHEF Dubai, we bring the full restaurant experience to your Christmas celebration. Our chefs and event team are available for Dubai events in private villas, homes, offices, and event spaces, designing menus that reflect both tradition and your personal taste.
           </p>
-          <p className="font-inter text-body-lg text-[#737373] leading-relaxed">
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             We never use fixed, one-size-fits-all menus. Instead, we listen to your plans and build a custom proposal that covers food, drinks, service, and styling. Menus can be adapted to guest count, dietary needs, and event style, so your Christmas celebration feels considered, personal, and effortless from start to finish.
           </p>
         </div>
@@ -436,7 +436,7 @@ export default function ChristmasCatering() {
               <div key={i} className="xmas-uc-item bg-charcoal p-8 opacity-0 translate-y-10">
                 <Home size={28} className="text-gold mb-4" />
                 <h3 className="font-playfair text-h3 text-white mb-3">{uc.title}</h3>
-                <p className="font-inter text-body-sm text-[#A3A3A3] leading-relaxed">{uc.description}</p>
+                <p className="font-inter text-body-sm text-gray-400 leading-relaxed">{uc.description}</p>
               </div>
             ))}
           </div>
@@ -449,7 +449,7 @@ export default function ChristmasCatering() {
           <h2 className="font-playfair text-h3 text-white text-center mb-8">
             Explore Related Services & Locations
           </h2>
-          <p className="font-inter text-body text-[#A3A3A3] text-center mb-8 leading-relaxed">
+          <p className="font-inter text-body text-gray-400 text-center mb-8 leading-relaxed">
             Christmas catering is part of our wider event and private dining services. Browse these related pages to plan your full festive experience across Dubai.
           </p>
           <div className="flex flex-wrap items-center justify-center gap-3">
@@ -474,7 +474,7 @@ export default function ChristmasCatering() {
 
           <div className="xmas-faq space-y-3">
             {faqs.map((faq, i) => (
-              <div key={i} className="xmas-faq-item border border-[#E5E5E5] opacity-0 translate-y-5">
+              <div key={i} className="xmas-faq-item border border-gray-200 opacity-0 translate-y-5">
                 <button
                   onClick={() => setOpenFaq(openFaq === i ? null : i)}
                   className="w-full flex items-center justify-between p-5 text-left"
@@ -489,7 +489,7 @@ export default function ChristmasCatering() {
                   className={`overflow-hidden transition-all duration-300 ${openFaq === i ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'}`}
                 >
                   <div className="px-5 pb-5">
-                    <p className="font-inter text-body-sm text-[#737373] leading-relaxed">{faq.a}</p>
+                    <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{faq.a}</p>
                   </div>
                 </div>
               </div>
@@ -510,7 +510,7 @@ export default function ChristmasCatering() {
               <Link
                 key={i}
                 to={svc.link}
-                className="xmas-rel-card group bg-charcoal overflow-hidden transition-all duration-400 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
+                className="xmas-rel-card group bg-charcoal overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
               >
                 <div className="aspect-video overflow-hidden">
                   <img
@@ -522,8 +522,8 @@ export default function ChristmasCatering() {
                 </div>
                 <div className="p-6">
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
-                  <p className="font-inter text-body-sm text-[#A3A3A3] mb-4">{svc.description}</p>
-                  <span className="inline-flex items-center gap-1 font-inter text-[13px] uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
+                  <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
+                  <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
                     Explore <ArrowRight size={14} />
                   </span>
                 </div>
@@ -539,7 +539,7 @@ export default function ChristmasCatering() {
           <h2 className="font-playfair text-h2 text-white mb-4">
             Book My Christmas Catering
           </h2>
-          <p className="font-inter text-body-lg text-[#A3A3A3] max-w-[600px] mx-auto mb-8">
+          <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
             Tell us about your Christmas plans and we will design a menu, service plan, and festive setup that lets you enjoy the day with your guests.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -554,7 +554,7 @@ export default function ChristmasCatering() {
               Chat on WhatsApp
             </a>
           </div>
-          <p className="font-inter text-sm text-[#A3A3A3] mt-6">
+          <p className="font-inter text-sm text-gray-400 mt-6">
             We typically reply within 2 hours during business hours.
           </p>
         </div>

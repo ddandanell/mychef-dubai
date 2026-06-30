@@ -46,7 +46,7 @@ export default function ServiceDetail() {
   const svc = serviceData[slug || ''] || {
     name: slug?.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase()) || 'Private Chef Service',
     description: `Premium ${slug?.replace(/-/g, ' ')} services in Dubai. Request a custom quote for your event.`,
-    image: '/hero-home.jpg'
+    image: '/hero-home.webp'
   }
 
   return (

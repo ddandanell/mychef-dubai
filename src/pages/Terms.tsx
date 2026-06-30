@@ -1,10 +1,10 @@
 import { useRef } from 'react'
 import { Link } from 'react-router'
-import { ChevronRight } from 'lucide-react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { useGSAP } from '@gsap/react'
 import SEO from '@/components/SEO'
+import PageHero from '@/components/PageHero'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -214,7 +214,6 @@ export default function Terms() {
 
   useGSAP(() => {
     const ctx = gsap.context(() => {
-      gsap.from('.terms-hero-h1', { opacity: 0, y: 30, duration: 0.6, ease: 'power3.out' })
       gsap.from('.terms-section', {
         opacity: 0, y: 20, duration: 0.6, stagger: 0.1, ease: 'power3.out',
         scrollTrigger: { trigger: '.terms-content', start: 'top 85%', toggleActions: 'play none none none' },
@@ -233,20 +232,14 @@ export default function Terms() {
       />
 
       {/* Section 1: Header */}
-      <section className="bg-black min-h-[35vh] flex items-center justify-center">
-        <div className="relative z-10 text-center container-custom py-24">
-          <nav aria-label="Breadcrumb" className="mb-8">
-            <ol className="flex items-center justify-center gap-2 font-inter text-body-sm text-gray-400">
-              <li><Link to="/" className="hover:text-gold transition-colors">Home</Link></li>
-              <li><ChevronRight size={14} className="text-gray-500" /></li>
-              <li className="text-gold">Terms of Service</li>
-            </ol>
-          </nav>
-          <p className="font-inter text-caption font-medium uppercase tracking-[0.1em] text-gold mb-4">LEGAL</p>
-          <h1 className="terms-hero-h1 font-playfair text-[3rem] text-white mb-4" style={{ lineHeight: '1.1' }}>Terms of Service</h1>
-          <p className="font-inter text-body-sm text-gray-500">Last updated: January 2025</p>
-        </div>
-      </section>
+      <PageHero
+        eyebrow="LEGAL"
+        title="Terms of Service"
+        breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Terms of Service' }]}
+        minHeight="short"
+        overlay="dark"
+        children={<p className="font-inter text-body-sm text-gray-500 mt-4">Last updated: January 2025</p>}
+      />
 
       {/* Section 2: Terms Content */}
       <section className="terms-content bg-white py-20">

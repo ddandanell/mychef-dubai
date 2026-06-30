@@ -70,7 +70,7 @@ export default function LeadMagnetModal() {
         {/* Close Button */}
         <button
           onClick={dismiss}
-          className="absolute top-4 right-4 text-gray-400 hover:text-white transition-colors duration-200"
+          className="absolute top-2 right-2 w-11 h-11 flex items-center justify-center text-gray-400 hover:text-white transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-charcoal rounded-sm"
           aria-label="Close modal"
         >
           <X size={24} />

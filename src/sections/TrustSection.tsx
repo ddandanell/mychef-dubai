@@ -19,14 +19,19 @@ export default function TrustSection() {
   const rightRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
+    const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
     const ctx = gsap.context(() => {
-      // Left column slide in
+      if (reduced) {
+        gsap.set([leftRef.current, rightRef.current], { opacity: 1, x: 0 })
+        return
+      }
+
       gsap.fromTo(leftRef.current,
-        { opacity: 0, x: -40 },
+        { opacity: 0, x: -30 },
         {
           opacity: 1,
           x: 0,
-          duration: 0.8,
+          duration: 0.7,
           ease: 'power3.out',
           scrollTrigger: {
             trigger: sectionRef.current,
@@ -35,13 +40,12 @@ export default function TrustSection() {
         }
       )
 
-      // Right column slide in
       gsap.fromTo(rightRef.current,
-        { opacity: 0, x: 40 },
+        { opacity: 0, x: 30 },
         {
           opacity: 1,
           x: 0,
-          duration: 0.8,
+          duration: 0.7,
           ease: 'power3.out',
           scrollTrigger: {
             trigger: sectionRef.current,
@@ -65,7 +69,7 @@ export default function TrustSection() {
           <span className="font-inter text-caption font-medium uppercase tracking-[0.1em] text-gold">
             Why myCHEF Dubai
           </span>
-          <h2 className="font-playfair text-h2 text-white mt-4 mb-6">
+          <h2 className="font-playfair text-fluid-h2 text-white mt-4 mb-6">
             Crafted by Experience.<br />
             <span className="text-gold">Served with Discretion.</span>
           </h2>
@@ -77,7 +81,7 @@ export default function TrustSection() {
           <div className="grid grid-cols-2 gap-x-8 gap-y-6 mb-10">
             {trustBadges.map((badge) => (
               <div key={badge.label} className="flex items-center gap-3">
-                <badge.icon size={24} className="text-gold flex-shrink-0" />
+                <badge.icon size={24} className="text-gold flex-shrink-0" aria-hidden="true" />
                 <span className="font-inter text-caption font-medium uppercase tracking-wider text-white">
                   {badge.label}
                 </span>
@@ -85,7 +89,7 @@ export default function TrustSection() {
             ))}
           </div>
 
-          <Link to="/about" className="btn-secondary inline-flex">
+          <Link to="/about" className="btn-secondary inline-flex focus-visible:ring-offset-charcoal">
             Learn About Our Team
           </Link>
         </div>
@@ -93,13 +97,15 @@ export default function TrustSection() {
         {/* Right Column - Image */}
         <div
           ref={rightRef}
-          className="w-full lg:w-1/2 relative min-h-[400px] lg:min-h-0"
+          className="w-full lg:w-1/2 relative min-h-[320px] md:min-h-[400px] lg:min-h-0"
         >
           <img
             src="/images/yacht-catering-dubai-hero.webp"
             alt="Luxury yacht dining experience"
             className="absolute inset-0 w-full h-full object-cover"
-            loading="lazy"
+            loading="eager"
+            fetchPriority="high"
+            decoding="async"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-charcoal/60 via-transparent to-transparent lg:from-charcoal/40" />
         </div>

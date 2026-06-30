@@ -34,39 +34,59 @@ export default function TestimonialsSection() {
   const sectionRef = useRef<HTMLDivElement>(null)
   const headerRef = useRef<HTMLDivElement>(null)
   const quoteRef = useRef<HTMLDivElement>(null)
+  const currentRef = useRef(0)
 
-  const goTo = useCallback((index: number) => {
-    if (quoteRef.current) {
+  // Keep ref in sync for stable interval callback
+  useEffect(() => { currentRef.current = current }, [current])
+
+  const animateIn = useCallback(() => {
+    if (quoteRef.current && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
       gsap.fromTo(quoteRef.current,
-        { opacity: 0, x: 30 },
-        { opacity: 1, x: 0, duration: 0.5, ease: 'power2.out' }
+        { opacity: 0, x: 20 },
+        { opacity: 1, x: 0, duration: 0.45, ease: 'power2.out' }
       )
     }
-    setCurrent(index)
+  }, [])
+
+  const goTo = useCallback((index: number) => {
+    const next = (index + testimonials.length) % testimonials.length
+    setCurrent(next)
   }, [])
 
   const next = useCallback(() => {
-    goTo((current + 1) % testimonials.length)
-  }, [current, goTo])
+    goTo(currentRef.current + 1)
+  }, [goTo])
 
   const prev = useCallback(() => {
-    goTo((current - 1 + testimonials.length) % testimonials.length)
-  }, [current, goTo])
+    goTo(currentRef.current - 1)
+  }, [goTo])
 
-  // Auto-advance
+  // Animate whenever current changes
+  useEffect(() => {
+    animateIn()
+  }, [current, animateIn])
+
+  // Auto-advance (stable callback using ref)
   useEffect(() => {
     if (isPaused) return
-    const timer = setInterval(next, 6000)
+    const timer = setInterval(() => {
+      goTo(currentRef.current + 1)
+    }, 6000)
     return () => clearInterval(timer)
-  }, [next, isPaused])
+  }, [isPaused, goTo])
 
   // Entrance animation
   useEffect(() => {
+    const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
     const ctx = gsap.context(() => {
+      if (reduced) {
+        gsap.set(headerRef.current, { opacity: 1, y: 0 })
+        return
+      }
       gsap.fromTo(headerRef.current,
         { opacity: 0, y: 30 },
         {
-          opacity: 1, y: 0, duration: 0.8, ease: 'power3.out',
+          opacity: 1, y: 0, duration: 0.7, ease: 'power3.out',
           scrollTrigger: { trigger: sectionRef.current, start: 'top 85%' },
         }
       )
@@ -85,11 +105,11 @@ export default function TestimonialsSection() {
     >
       <div className="container-custom max-w-[1000px]">
         {/* Header */}
-        <div ref={headerRef} className="text-center mb-12">
+        <div ref={headerRef} className="text-center mb-10 md:mb-12">
           <span className="font-inter text-caption font-medium uppercase tracking-[0.1em] text-gold">
             Client Stories
           </span>
-          <h2 className="font-playfair text-h2 text-white mt-4">
+          <h2 className="font-playfair text-fluid-h2 text-white mt-4">
             What Our Clients Say
           </h2>
         </div>
@@ -99,25 +119,25 @@ export default function TestimonialsSection() {
           {/* Navigation Arrows */}
           <button
             onClick={prev}
-            className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 md:-translate-x-16 z-10 w-12 h-12 rounded-full border border-gold text-gold flex items-center justify-center hover:bg-gold hover:text-black transition-all duration-300"
+            className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-2 md:-translate-x-16 z-10 w-12 h-12 rounded-full border border-gold text-gold flex items-center justify-center hover:bg-gold hover:text-black transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-charcoal"
             aria-label="Previous testimonial"
           >
             <ChevronLeft size={20} />
           </button>
           <button
             onClick={next}
-            className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 md:translate-x-16 z-10 w-12 h-12 rounded-full border border-gold text-gold flex items-center justify-center hover:bg-gold hover:text-black transition-all duration-300"
+            className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-2 md:translate-x-16 z-10 w-12 h-12 rounded-full border border-gold text-gold flex items-center justify-center hover:bg-gold hover:text-black transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-charcoal"
             aria-label="Next testimonial"
           >
             <ChevronRight size={20} />
           </button>
 
           {/* Quote Content */}
-          <div ref={quoteRef} className="bg-charcoal-light px-8 py-10 md:px-12 md:py-12 text-center">
-            <Quote size={32} className="text-gold mx-auto mb-6" />
+          <div ref={quoteRef} className="bg-charcoal-light px-6 py-10 md:px-12 md:py-12 text-center mx-8 md:mx-0">
+            <Quote size={32} className="text-gold mx-auto mb-6" aria-hidden="true" />
 
             {/* Stars */}
-            <div className="flex justify-center gap-1 mb-6">
+            <div className="flex justify-center gap-1 mb-6" aria-hidden="true">
               {[...Array(5)].map((_, i) => (
                 <Star key={i} size={18} className="text-gold fill-gold" />
               ))}
@@ -139,10 +159,11 @@ export default function TestimonialsSection() {
               <button
                 key={i}
                 onClick={() => goTo(i)}
-                className={`w-2.5 h-2.5 rounded-full transition-all duration-300 ${
-                  i === current ? 'bg-gold w-6' : 'bg-gray-500 hover:bg-gray-400'
+                className={`h-2.5 rounded-full transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-charcoal ${
+                  i === current ? 'bg-gold w-6' : 'bg-gray-500 hover:bg-gray-400 w-2.5'
                 }`}
                 aria-label={`Go to testimonial ${i + 1}`}
+                aria-current={i === current ? 'true' : undefined}
               />
             ))}
           </div>

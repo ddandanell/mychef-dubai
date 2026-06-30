@@ -196,12 +196,12 @@ export default function BuffetVsPlated() {
         title="Buffet vs Plated Service Dubai | Catering Guide | myCHEF"
         description="Buffet vs plated catering in Dubai: compare atmosphere, variety, cost, staffing, and venue fit. Learn when to choose each or combine both formats."
         canonicalPath="/buffet-vs-plated-dubai"
-        ogImage="/service-catering.jpg"
+        ogImage="/service-catering.webp"
         schema={schema}
       />
 
       {/* ═══════════════ Hero ═══════════════ */}
-      <section className="relative min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
+      <section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
           style={{ backgroundImage: 'url(/images/buffet-catering-dubai-hero.webp)' }}
@@ -210,16 +210,16 @@ export default function BuffetVsPlated() {
 
         <div className="relative z-10 container-custom text-center max-w-[800px] py-20">
           <nav className="mb-6 opacity-0 translate-y-4 bp-hero-h1">
-            <ol className="flex items-center justify-center gap-2 font-inter text-[13px]">
-              <li><Link to="/" className="text-[#A3A3A3] hover:text-gold transition-colors">Home</Link></li>
-              <li className="text-[#A3A3A3]">/</li>
-              <li><Link to="/guides" className="text-[#A3A3A3] hover:text-gold transition-colors">Guides</Link></li>
-              <li className="text-[#A3A3A3]">/</li>
+            <ol className="flex items-center justify-center gap-2 font-inter text-body-sm">
+              <li><Link to="/" className="text-gray-400 hover:text-gold transition-colors">Home</Link></li>
+              <li className="text-gray-400">/</li>
+              <li><Link to="/guides" className="text-gray-400 hover:text-gold transition-colors">Guides</Link></li>
+              <li className="text-gray-400">/</li>
               <li><span className="text-gold">Buffet vs Plated Service Dubai</span></li>
             </ol>
           </nav>
 
-          <h1 className="font-playfair text-[40px] md:text-[56px] lg:text-[72px] font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 bp-hero-h1">
+          <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 bp-hero-h1">
             Buffet vs Plated Service: Choosing the Right Format in Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 bp-hero-sub">
@@ -249,10 +249,10 @@ export default function BuffetVsPlated() {
           <h2 className="font-playfair text-h2 text-black mb-6">
             Match the Service Style to Your Event
           </h2>
-          <p className="font-inter text-body-lg text-[#737373] leading-relaxed mb-5">
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Buffet and plated service are the two most common formats for Dubai events, and each creates a different atmosphere. Buffets encourage guests to move, choose, and socialise. Plated service delivers a refined, paced experience where every dish arrives at the table.
           </p>
-          <p className="font-inter text-body-lg text-[#737373] leading-relaxed">
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             The right choice depends on your guest count, formality, venue layout, and budget. Many events also combine the two for the best of both worlds.
           </p>
         </div>
@@ -281,10 +281,10 @@ export default function BuffetVsPlated() {
               </thead>
               <tbody>
                 {comparison.map((row, i) => (
-                  <tr key={i} className="bp-table-row border-b border-[#2A2A2A] opacity-0 translate-y-4">
+                  <tr key={i} className="bp-table-row border-b border-charcoal-light opacity-0 translate-y-4">
                     <td className="py-4 px-4 font-playfair text-white">{row.aspect}</td>
-                    <td className="py-4 px-4 font-inter text-body-sm text-[#A3A3A3]">{row.buffet}</td>
-                    <td className="py-4 px-4 font-inter text-body-sm text-[#A3A3A3]">{row.plated}</td>
+                    <td className="py-4 px-4 font-inter text-body-sm text-gray-400">{row.buffet}</td>
+                    <td className="py-4 px-4 font-inter text-body-sm text-gray-400">{row.plated}</td>
                   </tr>
                 ))}
               </tbody>
@@ -315,18 +315,18 @@ export default function BuffetVsPlated() {
                     {buffetPros.map((item, i) => (
                       <li key={i} className="flex gap-3">
                         <Check size={16} className="text-gold flex-shrink-0 mt-1" />
-                        <span className="font-inter text-body-sm text-[#737373] leading-relaxed">{item}</span>
+                        <span className="font-inter text-body-sm text-gray-500 leading-relaxed">{item}</span>
                       </li>
                     ))}
                   </ul>
                 </div>
                 <div>
-                  <h4 className="font-inter text-sm uppercase tracking-wider text-[#737373] mb-2">Considerations</h4>
+                  <h4 className="font-inter text-sm uppercase tracking-wider text-gray-500 mb-2">Considerations</h4>
                   <ul className="space-y-2">
                     {buffetCons.map((item, i) => (
                       <li key={i} className="flex gap-3">
                         <span className="w-1.5 h-1.5 rounded-full bg-[#A3A3A3] flex-shrink-0 mt-2" />
-                        <span className="font-inter text-body-sm text-[#737373] leading-relaxed">{item}</span>
+                        <span className="font-inter text-body-sm text-gray-500 leading-relaxed">{item}</span>
                       </li>
                     ))}
                   </ul>
@@ -342,18 +342,18 @@ export default function BuffetVsPlated() {
                     {platedPros.map((item, i) => (
                       <li key={i} className="flex gap-3">
                         <Check size={16} className="text-gold flex-shrink-0 mt-1" />
-                        <span className="font-inter text-body-sm text-[#737373] leading-relaxed">{item}</span>
+                        <span className="font-inter text-body-sm text-gray-500 leading-relaxed">{item}</span>
                       </li>
                     ))}
                   </ul>
                 </div>
                 <div>
-                  <h4 className="font-inter text-sm uppercase tracking-wider text-[#737373] mb-2">Considerations</h4>
+                  <h4 className="font-inter text-sm uppercase tracking-wider text-gray-500 mb-2">Considerations</h4>
                   <ul className="space-y-2">
                     {platedCons.map((item, i) => (
                       <li key={i} className="flex gap-3">
                         <span className="w-1.5 h-1.5 rounded-full bg-[#A3A3A3] flex-shrink-0 mt-2" />
-                        <span className="font-inter text-body-sm text-[#737373] leading-relaxed">{item}</span>
+                        <span className="font-inter text-body-sm text-gray-500 leading-relaxed">{item}</span>
                       </li>
                     ))}
                   </ul>
@@ -380,7 +380,7 @@ export default function BuffetVsPlated() {
             {combining.map((combo, i) => (
               <div key={i} className="bp-combo-card bg-cream p-8 opacity-0 translate-y-12">
                 <h3 className="font-playfair text-h3 text-black mb-3">{combo.title}</h3>
-                <p className="font-inter text-body-sm text-[#737373] leading-relaxed">{combo.description}</p>
+                <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{combo.description}</p>
               </div>
             ))}
           </div>
@@ -403,7 +403,7 @@ export default function BuffetVsPlated() {
               >
                 <div>
                   <h4 className="font-playfair text-h4 text-white mb-1">{link.title}</h4>
-                  <p className="font-inter text-body-sm text-[#A3A3A3]">{link.description}</p>
+                  <p className="font-inter text-body-sm text-gray-400">{link.description}</p>
                 </div>
                 <ArrowRight size={18} className="text-gold flex-shrink-0 ml-4 group-hover:translate-x-1 transition-transform" />
               </Link>
@@ -421,7 +421,7 @@ export default function BuffetVsPlated() {
 
           <div className="bp-faq space-y-3">
             {faqs.map((faq, i) => (
-              <div key={i} className="bp-faq-item border border-[#E5E5E5] opacity-0 translate-y-5">
+              <div key={i} className="bp-faq-item border border-gray-200 opacity-0 translate-y-5">
                 <button
                   onClick={() => setOpenFaq(openFaq === i ? null : i)}
                   className="w-full flex items-center justify-between p-5 text-left"
@@ -436,7 +436,7 @@ export default function BuffetVsPlated() {
                   className={`overflow-hidden transition-all duration-300 ${openFaq === i ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'}`}
                 >
                   <div className="px-5 pb-5">
-                    <p className="font-inter text-body-sm text-[#737373] leading-relaxed">{faq.a}</p>
+                    <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{faq.a}</p>
                   </div>
                 </div>
               </div>
@@ -451,7 +451,7 @@ export default function BuffetVsPlated() {
           <h2 className="font-playfair text-h2 text-white mb-4">
             Choose the Right Format for Your Event
           </h2>
-          <p className="font-inter text-body-lg text-[#A3A3A3] max-w-[600px] mx-auto mb-8">
+          <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
             Tell us about your guest count, venue, and occasion. We will recommend a format and build a menu that fits.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

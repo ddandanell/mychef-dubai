@@ -135,19 +135,19 @@ const relatedServices = [
   {
     title: 'Private Chef Dubai',
     description: 'Bespoke dining and daily chef services brought to your home or villa.',
-    image: '/service-catering.jpg',
+    image: '/service-catering.webp',
     link: '/private-chef-dubai',
   },
   {
     title: 'Corporate Catering',
     description: 'Professional catering for meetings, launches, and company events.',
-    image: '/service-events.jpg',
+    image: '/service-events.webp',
     link: '/corporate',
   },
   {
     title: 'Villa Dining',
     description: 'Private dining experiences designed for villas and residences across Dubai.',
-    image: '/service-villa.jpg',
+    image: '/service-villa.webp',
     link: '/villas-private-residences',
   },
 ]
@@ -267,12 +267,12 @@ export default function BrunchCatering() {
         title="Brunch Catering Dubai | Private Breakfast Chef"
         description="Brunch catering and private breakfast chef service in Dubai. Weekend villa brunches, corporate mornings, fresh pastries, eggs, and artisanal coffee."
         canonicalPath="/brunch-catering-dubai"
-        ogImage="/service-villa.jpg"
+        ogImage="/service-villa.webp"
         schema={schema}
       />
 
       {/* ═══════════════ Section 1: Hero ═══════════════ */}
-      <section className="relative min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
+      <section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
           style={{ backgroundImage: 'url(/images/brunch-catering-dubai-hero.webp)' }}
@@ -281,11 +281,11 @@ export default function BrunchCatering() {
 
         <div className="relative z-10 container-custom text-center max-w-[800px] py-20">
           <nav className="mb-6 opacity-0 translate-y-4 brunch-hero-h1" aria-label="Breadcrumb">
-            <ol className="flex items-center justify-center gap-2 font-inter text-[13px]">
-              <li><Link to="/" className="text-[#A3A3A3] hover:text-gold transition-colors">Home</Link></li>
-              <li className="text-[#A3A3A3]">/</li>
-              <li><Link to="/catering-dubai" className="text-[#A3A3A3] hover:text-gold transition-colors">Catering</Link></li>
-              <li className="text-[#A3A3A3]">/</li>
+            <ol className="flex items-center justify-center gap-2 font-inter text-body-sm">
+              <li><Link to="/" className="text-gray-400 hover:text-gold transition-colors">Home</Link></li>
+              <li className="text-gray-400">/</li>
+              <li><Link to="/catering-dubai" className="text-gray-400 hover:text-gold transition-colors">Catering</Link></li>
+              <li className="text-gray-400">/</li>
               <li><span className="text-gold">Brunch Catering Dubai</span></li>
             </ol>
           </nav>
@@ -293,7 +293,7 @@ export default function BrunchCatering() {
           <p className="font-inter text-caption uppercase tracking-[0.2em] text-gold mb-4 opacity-0 translate-y-4 brunch-hero-h1">
             Morning Indulgence
           </p>
-          <h1 className="font-playfair text-[40px] md:text-[56px] lg:text-[72px] font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 brunch-hero-h1">
+          <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 brunch-hero-h1">
             Brunch Catering & Private Breakfast Chef in Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 brunch-hero-sub">
@@ -323,10 +323,10 @@ export default function BrunchCatering() {
           <h2 className="font-playfair text-h2 text-black mb-6">
             Start the Day Exceptionally
           </h2>
-          <p className="font-inter text-body-lg text-[#737373] leading-relaxed mb-5">
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             A great brunch sets the tone for the entire day. At myCHEF Dubai, we design brunch and breakfast catering that feels relaxed, abundant, and completely effortless. From a slow weekend gathering at your villa to a polished corporate breakfast before a big meeting, we bring the menu, the chef, and the service to you.
           </p>
-          <p className="font-inter text-body-lg text-[#737373] leading-relaxed">
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             Our brunch menus are built around fresh, seasonal ingredients and your personal tastes. Whether you want healthy bowls and fresh juice or eggs Benedict and pastries, we create a spread that suits the occasion. Every detail — from the coffee to the clear-down — is handled by our team.
           </p>
         </div>
@@ -344,20 +344,20 @@ export default function BrunchCatering() {
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-6 text-center">
-            <div className="bg-white p-8 border border-[#E5E5E5]">
+            <div className="bg-white p-8 border border-gray-200">
               <Sun className="w-8 h-8 text-gold mx-auto mb-4" />
               <h3 className="font-playfair text-h4 text-black mb-2">Villa Residents</h3>
-              <p className="font-inter text-body-sm text-[#737373]">Weekend brunches at home with family and friends, served poolside or around the dining table.</p>
+              <p className="font-inter text-body-sm text-gray-500">Weekend brunches at home with family and friends, served poolside or around the dining table.</p>
             </div>
-            <div className="bg-white p-8 border border-[#E5E5E5]">
+            <div className="bg-white p-8 border border-gray-200">
               <Users className="w-8 h-8 text-gold mx-auto mb-4" />
               <h3 className="font-playfair text-h4 text-black mb-2">Companies & Teams</h3>
-              <p className="font-inter text-body-sm text-[#737373]">Breakfast meetings, team brunches, and corporate morning events with professional service.</p>
+              <p className="font-inter text-body-sm text-gray-500">Breakfast meetings, team brunches, and corporate morning events with professional service.</p>
             </div>
-            <div className="bg-white p-8 border border-[#E5E5E5]">
+            <div className="bg-white p-8 border border-gray-200">
               <Croissant className="w-8 h-8 text-gold mx-auto mb-4" />
               <h3 className="font-playfair text-h4 text-black mb-2">Visitors & Hotels</h3>
-              <p className="font-inter text-body-sm text-[#737373]">Daily breakfast chef service for villa stays, holiday homes, and extended visits in Dubai.</p>
+              <p className="font-inter text-body-sm text-gray-500">Daily breakfast chef service for villa stays, holiday homes, and extended visits in Dubai.</p>
             </div>
           </div>
         </div>
@@ -382,14 +382,14 @@ export default function BrunchCatering() {
                 <Link
                   key={i}
                   to={fmt.link}
-                  className="brunch-fmt-card group bg-charcoal p-8 transition-all duration-400 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
+                  className="brunch-fmt-card group bg-charcoal p-8 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
                 >
                   <Icon size={36} className="text-gold mb-4" />
                   <h3 className="font-playfair text-h3 text-white mb-3">{fmt.title}</h3>
-                  <p className="font-inter text-body-sm text-[#A3A3A3] leading-relaxed mb-4">
+                  <p className="font-inter text-body-sm text-gray-400 leading-relaxed mb-4">
                     {fmt.description}
                   </p>
-                  <span className="inline-flex items-center gap-1 font-inter text-[13px] uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
+                  <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
                     Learn More <ArrowRight size={14} />
                   </span>
                 </Link>
@@ -412,7 +412,7 @@ export default function BrunchCatering() {
                 <Check size={20} className="text-gold flex-shrink-0 mt-0.5" />
                 <div>
                   <h4 className="font-inter text-base font-medium text-black mb-1">{item.title}</h4>
-                  <p className="font-inter text-body-sm text-[#737373] leading-relaxed">{item.description}</p>
+                  <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{item.description}</p>
                 </div>
               </div>
             ))}
@@ -441,7 +441,7 @@ export default function BrunchCatering() {
             ))}
           </div>
 
-          <p className="font-inter text-body text-[#A3A3A3] text-center max-w-[700px] mx-auto mt-10 leading-relaxed">
+          <p className="font-inter text-body text-gray-400 text-center max-w-[700px] mx-auto mt-10 leading-relaxed">
             Every brunch menu is designed from scratch. We do not offer fixed set menus. Instead, we combine your favourite morning dishes with seasonal produce and dietary preferences to create a spread that feels personal and generous.
           </p>
         </div>
@@ -466,7 +466,7 @@ export default function BrunchCatering() {
                   {String(i + 1).padStart(2, '0')}
                 </span>
                 <h3 className="font-inter text-base font-semibold text-black mb-2">{step.title}</h3>
-                <p className="font-inter text-body-sm text-[#737373] leading-relaxed">{step.description}</p>
+                <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{step.description}</p>
               </div>
             ))}
           </div>
@@ -481,10 +481,10 @@ export default function BrunchCatering() {
               Why Choose myCHEF for Brunch
             </h2>
             <div className="space-y-5">
-              <p className="font-inter text-body-lg text-[#A3A3A3] leading-relaxed">
+              <p className="font-inter text-body-lg text-gray-400 leading-relaxed">
                 Brunch should feel effortless. We arrive early, set the table, prepare every dish fresh, and serve with warmth so you can focus on your guests. Our chefs are experienced in both relaxed villa mornings and structured corporate events, which means the same attention to detail whether you are hosting six people or sixty.
               </p>
-              <p className="font-inter text-body-lg text-[#A3A3A3] leading-relaxed">
+              <p className="font-inter text-body-lg text-gray-400 leading-relaxed">
                 We source seasonal produce, freshly baked pastries, and quality coffee so the food tastes as good as it looks. Menus are adapted to dietary needs, event style, and guest count, and our team handles the entire setup and clear-down so your space is left spotless.
               </p>
             </div>
@@ -506,9 +506,9 @@ export default function BrunchCatering() {
 
           <div className="brunch-uc-grid grid md:grid-cols-2 gap-6">
             {useCases.map((uc, i) => (
-              <div key={i} className="brunch-uc-item bg-white p-8 border border-[#E5E5E5] opacity-0 translate-y-10">
+              <div key={i} className="brunch-uc-item bg-white p-8 border border-gray-200 opacity-0 translate-y-10">
                 <h3 className="font-playfair text-h3 text-black mb-3">{uc.title}</h3>
-                <p className="font-inter text-body-sm text-[#737373] leading-relaxed">{uc.description}</p>
+                <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{uc.description}</p>
               </div>
             ))}
           </div>
@@ -525,18 +525,18 @@ export default function BrunchCatering() {
             <div>
               <h3 className="font-inter text-caption uppercase tracking-wider text-gold mb-4">Related Services</h3>
               <ul className="space-y-3">
-                <li><Link to="/catering-dubai" className="font-inter text-body text-[#A3A3A3] hover:text-gold transition-colors flex items-center gap-2"><ArrowRight size={14} /> Luxury Catering Dubai</Link></li>
-                <li><Link to="/private-chef-dubai" className="font-inter text-body text-[#A3A3A3] hover:text-gold transition-colors flex items-center gap-2"><ArrowRight size={14} /> Private Chef Dubai</Link></li>
-                <li><Link to="/corporate" className="font-inter text-body text-[#A3A3A3] hover:text-gold transition-colors flex items-center gap-2"><ArrowRight size={14} /> Corporate Catering</Link></li>
-                <li><Link to="/party-catering-dubai" className="font-inter text-body text-[#A3A3A3] hover:text-gold transition-colors flex items-center gap-2"><ArrowRight size={14} /> Party Catering</Link></li>
+                <li><Link to="/catering-dubai" className="font-inter text-body text-gray-400 hover:text-gold transition-colors flex items-center gap-2"><ArrowRight size={14} /> Luxury Catering Dubai</Link></li>
+                <li><Link to="/private-chef-dubai" className="font-inter text-body text-gray-400 hover:text-gold transition-colors flex items-center gap-2"><ArrowRight size={14} /> Private Chef Dubai</Link></li>
+                <li><Link to="/corporate" className="font-inter text-body text-gray-400 hover:text-gold transition-colors flex items-center gap-2"><ArrowRight size={14} /> Corporate Catering</Link></li>
+                <li><Link to="/party-catering-dubai" className="font-inter text-body text-gray-400 hover:text-gold transition-colors flex items-center gap-2"><ArrowRight size={14} /> Party Catering</Link></li>
               </ul>
             </div>
             <div>
               <h3 className="font-inter text-caption uppercase tracking-wider text-gold mb-4">Popular Locations</h3>
               <ul className="space-y-3">
-                <li><Link to="/locations/downtown-dubai" className="font-inter text-body text-[#A3A3A3] hover:text-gold transition-colors flex items-center gap-2"><ArrowRight size={14} /> Downtown Dubai</Link></li>
-                <li><Link to="/locations/dubai-marina" className="font-inter text-body text-[#A3A3A3] hover:text-gold transition-colors flex items-center gap-2"><ArrowRight size={14} /> Dubai Marina</Link></li>
-                <li><Link to="/locations/palm-jumeirah" className="font-inter text-body text-[#A3A3A3] hover:text-gold transition-colors flex items-center gap-2"><ArrowRight size={14} /> Palm Jumeirah</Link></li>
+                <li><Link to="/locations/downtown-dubai" className="font-inter text-body text-gray-400 hover:text-gold transition-colors flex items-center gap-2"><ArrowRight size={14} /> Downtown Dubai</Link></li>
+                <li><Link to="/locations/dubai-marina" className="font-inter text-body text-gray-400 hover:text-gold transition-colors flex items-center gap-2"><ArrowRight size={14} /> Dubai Marina</Link></li>
+                <li><Link to="/locations/palm-jumeirah" className="font-inter text-body text-gray-400 hover:text-gold transition-colors flex items-center gap-2"><ArrowRight size={14} /> Palm Jumeirah</Link></li>
               </ul>
             </div>
           </div>
@@ -557,7 +557,7 @@ export default function BrunchCatering() {
 
           <div className="brunch-faq space-y-3">
             {faqs.map((faq, i) => (
-              <div key={i} className="brunch-faq-item border border-[#E5E5E5] opacity-0 translate-y-5">
+              <div key={i} className="brunch-faq-item border border-gray-200 opacity-0 translate-y-5">
                 <button
                   onClick={() => setOpenFaq(openFaq === i ? null : i)}
                   className="w-full flex items-center justify-between p-5 text-left"
@@ -573,7 +573,7 @@ export default function BrunchCatering() {
                   className={`overflow-hidden transition-all duration-300 ${openFaq === i ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'}`}
                 >
                   <div className="px-5 pb-5">
-                    <p className="font-inter text-body-sm text-[#737373] leading-relaxed">{faq.a}</p>
+                    <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{faq.a}</p>
                   </div>
                 </div>
               </div>
@@ -594,7 +594,7 @@ export default function BrunchCatering() {
               <Link
                 key={loc.slug}
                 to={`/locations/${loc.slug}`}
-                className="brunch-loc-item flex items-center gap-2 font-inter text-sm text-[#A3A3A3] hover:text-gold transition-colors opacity-0"
+                className="brunch-loc-item flex items-center gap-2 font-inter text-sm text-gray-400 hover:text-gold transition-colors opacity-0"
               >
                 <span className="w-1.5 h-1.5 rounded-full bg-gold flex-shrink-0" />
                 {loc.name}
@@ -616,7 +616,7 @@ export default function BrunchCatering() {
               <Link
                 key={i}
                 to={svc.link}
-                className="brunch-rel-card group bg-black overflow-hidden transition-all duration-400 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
+                className="brunch-rel-card group bg-black overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
               >
                 <div className="aspect-video overflow-hidden">
                   <img
@@ -628,8 +628,8 @@ export default function BrunchCatering() {
                 </div>
                 <div className="p-6">
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
-                  <p className="font-inter text-body-sm text-[#A3A3A3] mb-4">{svc.description}</p>
-                  <span className="inline-flex items-center gap-1 font-inter text-[13px] uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
+                  <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
+                  <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
                     Explore <ArrowRight size={14} />
                   </span>
                 </div>
@@ -645,7 +645,7 @@ export default function BrunchCatering() {
           <h2 className="font-playfair text-h2 text-white mb-4">
             Plan Your Brunch with myCHEF
           </h2>
-          <p className="font-inter text-body-lg text-[#A3A3A3] max-w-[600px] mx-auto mb-8">
+          <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
             Tell us about your morning event and we will design a bespoke brunch menu, service style, and staffing plan for your villa, office, or event space in Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -660,7 +660,7 @@ export default function BrunchCatering() {
               Chat on WhatsApp
             </a>
           </div>
-          <p className="font-inter text-body-sm text-[#737373] mt-6">
+          <p className="font-inter text-body-sm text-gray-500 mt-6">
             We typically reply within 2 hours during business hours.
           </p>
         </div>

@@ -94,12 +94,12 @@ const useCases = [
 ]
 
 const galleryImages = [
-  { src: '/menu-meat.jpg', alt: 'Indian festive mains for Diwali in Dubai' },
-  { src: '/menu-dessert.jpg', alt: 'Traditional Diwali mithai and sweets' },
-  { src: '/service-events.jpg', alt: 'Diwali celebration catering event in Dubai' },
-  { src: '/menu-appetizer.jpg', alt: 'Indian chaat and appetizers for Diwali' },
-  { src: '/service-villa.jpg', alt: 'Villa Diwali catering styling in Dubai' },
-  { src: '/service-catering.jpg', alt: 'Diwali festive buffet catering spread' },
+  { src: '/menu-meat.webp', alt: 'Indian festive mains for Diwali in Dubai' },
+  { src: '/menu-dessert.webp', alt: 'Traditional Diwali mithai and sweets' },
+  { src: '/service-events.webp', alt: 'Diwali celebration catering event in Dubai' },
+  { src: '/menu-appetizer.webp', alt: 'Indian chaat and appetizers for Diwali' },
+  { src: '/service-villa.webp', alt: 'Villa Diwali catering styling in Dubai' },
+  { src: '/service-catering.webp', alt: 'Diwali festive buffet catering spread' },
 ]
 
 const locations = [
@@ -152,19 +152,19 @@ const relatedServices = [
   {
     title: 'Indian Catering',
     description: 'Authentic North and South Indian menus — curries, biryanis, and breads for any event.',
-    image: '/menu-meat.jpg',
+    image: '/menu-meat.webp',
     link: '/indian-catering-dubai',
   },
   {
     title: 'Vegetarian Catering',
     description: 'Inventive, fully vegetarian menus — paneer, dals, chaat, and more for inclusive events.',
-    image: '/menu-appetizer.jpg',
+    image: '/menu-appetizer.webp',
     link: '/vegetarian-catering-dubai',
   },
   {
     title: 'Live Cooking Stations',
     description: 'Interactive chef stations — chaat, dosa, and more — that bring theatre to your event.',
-    image: '/service-events.jpg',
+    image: '/service-events.webp',
     link: '/live-cooking-stations-dubai',
   },
 ]
@@ -265,12 +265,12 @@ export default function DiwaliCatering() {
         title="Diwali Catering Dubai | Indian Festive & Mithai Menus"
         description="Diwali catering in Dubai with festive Indian menus, vegetarian and Jain spreads, live chaat stations, and traditional mithai. Book four to six weeks ahead — request your quote today."
         canonicalPath="/diwali-catering-dubai"
-        ogImage="/menu-meat.jpg"
+        ogImage="/menu-meat.webp"
         schema={schema}
       />
 
       {/* ═══════════════ Section 1: Hero ═══════════════ */}
-      <section className="relative min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
+      <section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
           style={{ backgroundImage: 'url(/images/diwali-catering-dubai-hero.webp)' }}
@@ -279,14 +279,14 @@ export default function DiwaliCatering() {
 
         <div className="relative z-10 container-custom text-center max-w-[800px] py-20">
           <nav className="mb-6 opacity-0 translate-y-4 diw-hero-h1">
-            <ol className="flex items-center justify-center gap-2 font-inter text-[13px]">
-              <li><Link to="/" className="text-[#A3A3A3] hover:text-gold transition-colors">Home</Link></li>
-              <li className="text-[#A3A3A3]">/</li>
+            <ol className="flex items-center justify-center gap-2 font-inter text-body-sm">
+              <li><Link to="/" className="text-gray-400 hover:text-gold transition-colors">Home</Link></li>
+              <li className="text-gray-400">/</li>
               <li><span className="text-gold">Diwali Catering Dubai</span></li>
             </ol>
           </nav>
 
-          <h1 className="font-playfair text-[40px] md:text-[56px] lg:text-[72px] font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 diw-hero-h1">
+          <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 diw-hero-h1">
             Diwali Catering in Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 diw-hero-sub">
@@ -316,10 +316,10 @@ export default function DiwaliCatering() {
           <h2 className="font-playfair text-h2 text-black mb-6">
             A Festive Table to Celebrate Diwali
           </h2>
-          <p className="font-inter text-body-lg text-[#737373] leading-relaxed mb-5">
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Diwali is a festival of light, abundance, and togetherness — and the food carries its joy. At myCHEF Dubai, we bring vibrant Indian festive menus to homes, offices, and villas across the city, from rich North and South Indian classics to fully vegetarian and Jain spreads. Live chaat and dosa stations add theatre, while generous tables of mithai bring the celebration to a sweet close.
           </p>
-          <p className="font-inter text-body-lg text-[#737373] leading-relaxed">
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             Whether you are hosting an intimate family Diwali, a corporate celebration, or a large villa party, our chefs cook on-site and our staff handle the service and pack-down, so the hosts can light the diyas and enjoy the evening. Our Diwali catering draws on our <Link to="/indian-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Indian catering</Link> and <Link to="/vegetarian-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">vegetarian catering</Link> menus, adds <Link to="/live-cooking-stations-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">live cooking stations</Link> for energy, and fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>. Because the festive period is busy, we recommend booking four to six weeks ahead.
           </p>
         </div>
@@ -344,14 +344,14 @@ export default function DiwaliCatering() {
                 <Link
                   key={i}
                   to={fmt.link}
-                  className="diw-fmt-card group bg-charcoal p-8 transition-all duration-400 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
+                  className="diw-fmt-card group bg-charcoal p-8 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
                 >
                   <Icon size={36} className="text-gold mb-4" />
                   <h3 className="font-playfair text-h3 text-white mb-3">{fmt.title}</h3>
-                  <p className="font-inter text-body-sm text-[#A3A3A3] leading-relaxed mb-4">
+                  <p className="font-inter text-body-sm text-gray-400 leading-relaxed mb-4">
                     {fmt.description}
                   </p>
-                  <span className="inline-flex items-center gap-1 font-inter text-[13px] uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
+                  <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
                     Learn More <ArrowRight size={14} />
                   </span>
                 </Link>
@@ -377,7 +377,7 @@ export default function DiwaliCatering() {
             {useCases.map((uc, i) => (
               <div key={i} className="diw-uc-item bg-charcoal p-8 opacity-0 translate-y-10">
                 <h3 className="font-playfair text-h3 text-white mb-3">{uc.title}</h3>
-                <p className="font-inter text-body-sm text-[#A3A3A3] leading-relaxed">{uc.description}</p>
+                <p className="font-inter text-body-sm text-gray-400 leading-relaxed">{uc.description}</p>
               </div>
             ))}
           </div>
@@ -397,7 +397,7 @@ export default function DiwaliCatering() {
                 <Check size={20} className="text-gold flex-shrink-0 mt-0.5" />
                 <div>
                   <h4 className="font-inter text-base font-medium text-black mb-1">{item.title}</h4>
-                  <p className="font-inter text-body-sm text-[#737373] leading-relaxed">{item.description}</p>
+                  <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{item.description}</p>
                 </div>
               </div>
             ))}
@@ -418,7 +418,7 @@ export default function DiwaliCatering() {
                 <img
                   src={img.src}
                   alt={img.alt}
-                  className="w-full h-full object-cover transition-transform duration-400 hover:scale-[1.03]"
+                  className="w-full h-full object-cover transition-transform duration-300 hover:scale-[1.03]"
                   loading="lazy"
                 />
               </div>
@@ -436,7 +436,7 @@ export default function DiwaliCatering() {
 
           <div className="diw-faq space-y-3">
             {faqs.map((faq, i) => (
-              <div key={i} className="diw-faq-item border border-[#E5E5E5] opacity-0 translate-y-5">
+              <div key={i} className="diw-faq-item border border-gray-200 opacity-0 translate-y-5">
                 <button
                   onClick={() => setOpenFaq(openFaq === i ? null : i)}
                   className="w-full flex items-center justify-between p-5 text-left"
@@ -451,7 +451,7 @@ export default function DiwaliCatering() {
                   className={`overflow-hidden transition-all duration-300 ${openFaq === i ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'}`}
                 >
                   <div className="px-5 pb-5">
-                    <p className="font-inter text-body-sm text-[#737373] leading-relaxed">{faq.a}</p>
+                    <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{faq.a}</p>
                   </div>
                 </div>
               </div>
@@ -472,7 +472,7 @@ export default function DiwaliCatering() {
               <Link
                 key={loc.slug}
                 to={`/locations/${loc.slug}`}
-                className="diw-loc-item flex items-center gap-2 font-inter text-sm text-[#A3A3A3] hover:text-gold transition-colors opacity-0"
+                className="diw-loc-item flex items-center gap-2 font-inter text-sm text-gray-400 hover:text-gold transition-colors opacity-0"
               >
                 <span className="w-1.5 h-1.5 rounded-full bg-gold flex-shrink-0" />
                 {loc.name}
@@ -494,7 +494,7 @@ export default function DiwaliCatering() {
               <Link
                 key={i}
                 to={svc.link}
-                className="diw-rel-card group bg-charcoal overflow-hidden transition-all duration-400 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
+                className="diw-rel-card group bg-charcoal overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
               >
                 <div className="aspect-video overflow-hidden">
                   <img
@@ -506,8 +506,8 @@ export default function DiwaliCatering() {
                 </div>
                 <div className="p-6">
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
-                  <p className="font-inter text-body-sm text-[#A3A3A3] mb-4">{svc.description}</p>
-                  <span className="inline-flex items-center gap-1 font-inter text-[13px] uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
+                  <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
+                  <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
                     Explore <ArrowRight size={14} />
                   </span>
                 </div>
@@ -523,7 +523,7 @@ export default function DiwaliCatering() {
           <h2 className="font-playfair text-h2 text-white mb-4">
             Let's Plan Your Diwali Celebration
           </h2>
-          <p className="font-inter text-body-lg text-[#A3A3A3] max-w-[600px] mx-auto mb-8">
+          <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
             Tell us about your Diwali gathering and we'll design a festive Indian menu — vegetarian or mixed, with live stations and mithai — and handle every detail. Book four to six weeks ahead to secure your date.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

@@ -3,16 +3,9 @@ import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import {
-  MessageCircle,
-  Palette,
-  Sparkles,
-  Utensils,
-  ChevronRight,
-  Phone,
-  ArrowRight,
-} from 'lucide-react'
+import { MessageCircle, Palette, Sparkles, Utensils, ChevronRight, Phone, ArrowRight, } from 'lucide-react'
 import SEO from '../components/SEO'
+import PageHero from '../components/PageHero'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -24,25 +17,25 @@ const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}
 
 const experiences = [
   {
-    image: '/service-luxury-dining.jpg',
+    image: '/service-luxury-dining.webp',
     title: 'Romantic Dinner Dubai',
     description: 'An intimate evening for two. Candlelit table, bespoke multi-course menu, discreet service. Perfect for anniversaries, proposals, or simply celebrating love.',
     link: '/services/romantic-dinner-dubai',
   },
   {
-    image: '/service-private-chef.jpg',
+    image: '/service-private-chef.webp',
     title: 'Fine Dining at Home',
     description: 'Restaurant-quality cuisine in the comfort of your home. A multi-course tasting menu with wine pairing, served by our team.',
     link: '/services/fine-dining-at-home-dubai',
   },
   {
-    image: '/service-events.jpg',
+    image: '/service-events.webp',
     title: 'Birthday Dinner Experience',
     description: 'A memorable birthday celebration with a custom menu, elegant presentation, and attentive service. From intimate to grand.',
     link: '/services/birthday-catering-dubai',
   },
   {
-    image: '/service-yacht.jpg',
+    image: '/service-yacht.webp',
     title: 'Yacht Dining Experience',
     description: 'A private chef experience on your yacht with the Dubai skyline as your backdrop. Canapes, multi-course dinner, or BBQ.',
     link: '/services/yacht-dining-dubai',
@@ -73,12 +66,12 @@ const processSteps = [
 ]
 
 const galleryImages = [
-  { src: '/service-luxury-dining.jpg', alt: 'Luxury dining experience', className: 'aspect-[4/3]' },
-  { src: '/menu-appetizer.jpg', alt: 'Fine dining appetizer', className: 'aspect-[3/4]' },
-  { src: '/menu-dessert.jpg', alt: 'Elegant dessert', className: 'aspect-[1/1]' },
-  { src: '/service-villa.jpg', alt: 'Villa dining setup', className: 'aspect-[4/3]' },
-  { src: '/menu-seafood.jpg', alt: 'Premium seafood dish', className: 'aspect-[3/4]' },
-  { src: '/testimonial-villa.jpg', alt: 'Happy guests at dinner', className: 'aspect-[4/3]' },
+  { src: '/service-luxury-dining.webp', alt: 'Luxury dining experience', className: 'aspect-[4/3]' },
+  { src: '/menu-appetizer.webp', alt: 'Fine dining appetizer', className: 'aspect-[3/4]' },
+  { src: '/menu-dessert.webp', alt: 'Elegant dessert', className: 'aspect-[1/1]' },
+  { src: '/service-villa.webp', alt: 'Villa dining setup', className: 'aspect-[4/3]' },
+  { src: '/menu-seafood.webp', alt: 'Premium seafood dish', className: 'aspect-[3/4]' },
+  { src: '/testimonial-villa.webp', alt: 'Happy guests at dinner', className: 'aspect-[4/3]' },
 ]
 
 const occasionTags = [
@@ -123,19 +116,19 @@ const relatedServices = [
   {
     title: 'Private Chef',
     description: 'Your own personal chef for an evening of bespoke cuisine in your home.',
-    image: '/service-private-chef.jpg',
+    image: '/service-private-chef.webp',
     link: '/private-chef-dubai',
   },
   {
     title: 'Catering',
     description: 'Elegant catering for larger gatherings and celebrations across Dubai.',
-    image: '/service-catering.jpg',
+    image: '/service-catering.webp',
     link: '/catering-dubai',
   },
   {
     title: 'Yachts',
     description: 'Private dining on the water with the Dubai skyline as your backdrop.',
-    image: '/service-yacht.jpg',
+    image: '/service-yacht.webp',
     link: '/yachts',
   },
 ]
@@ -182,9 +175,6 @@ export default function LuxuryDining() {
     if (!containerRef.current) return
 
     // Hero
-    gsap.to('.ld-hero-h1', { opacity: 1, y: 0, duration: 0.8, ease: 'power3.out' })
-    gsap.to('.ld-hero-sub', { opacity: 1, y: 0, duration: 0.6, delay: 0.3, ease: 'power3.out' })
-    gsap.to('.ld-hero-cta', { opacity: 1, y: 0, duration: 0.5, stagger: 0.15, delay: 0.6, ease: 'power3.out' })
 
     // Experience cards
     gsap.to('.ld-exp-card', {
@@ -235,47 +225,22 @@ export default function LuxuryDining() {
         title="Luxury Private Dining Dubai | Fine Dining at Home"
         description="Experience luxury private dining in Dubai. Romantic dinners, special occasions, and bespoke culinary experiences in your villa or penthouse. Request your custom menu."
         canonicalPath="/luxury-dining-experiences"
-        ogImage="/service-luxury-dining.jpg"
+        ogImage="/service-luxury-dining.webp"
         schema={{ ...schema, ...breadcrumbSchema }}
       />
 
       {/* ═══════════════ Section 1: Hero ═══════════════ */}
-      <section className="relative min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
-        <div
-          className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
-          style={{ backgroundImage: 'url(/images/luxury-dining-dubai-hero.webp)' }}
-        />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/30 to-black/70" />
-
-        <div className="relative z-10 container-custom text-center max-w-[800px] py-20">
-          <nav className="mb-6 opacity-0 translate-y-4 ld-hero-h1">
-            <ol className="flex items-center justify-center gap-2 font-inter text-[13px]">
-              <li><Link to="/" className="text-[#A3A3A3] hover:text-gold transition-colors">Home</Link></li>
-              <li className="text-[#A3A3A3]">/</li>
-              <li><span className="text-gold">Luxury Dining Experiences</span></li>
-            </ol>
-          </nav>
-
-          <h1 className="font-playfair text-[40px] md:text-[56px] lg:text-[72px] font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 ld-hero-h1">
-            Luxury Dining<br className="hidden sm:block" /> Experiences
-          </h1>
-          <p className="font-inter text-lg text-white/90 max-w-[600px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 ld-hero-sub">
-            Bespoke private dining crafted for life's most memorable moments. In your villa, on your yacht, or at your penthouse.
-          </p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=luxury-dining-experiences" className="btn-primary opacity-0 translate-y-4 ld-hero-cta">Request a Proposal</Link>
-            <a
-              href={WHATSAPP_LINK}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-secondary opacity-0 translate-y-4 ld-hero-cta"
-            >
-              <Phone size={16} className="mr-2" />
-              Chat on WhatsApp
-            </a>
-          </div>
-        </div>
-      </section>
+      <PageHero
+        title={<>Luxury Dining<br className="hidden sm:block" /> Experiences</>}
+        subtitle="Bespoke private dining crafted for life's most memorable moments. In your villa, on your yacht, or at your penthouse."
+        image="/images/luxury-dining-dubai-hero.webp"
+        imageAlt="Luxury private dining in Dubai"
+        cta={{ label: 'Request a Proposal', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=luxury-dining-experiences' }}
+        secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
+        breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Luxury Dining Experiences' }]}
+        minHeight="tall"
+        overlay="dark"
+      />
 
       {/* ═══════════════ Section 2: Experience Types ═══════════════ */}
       <section className="bg-white section-padding">
@@ -294,7 +259,7 @@ export default function LuxuryDining() {
               <Link
                 key={i}
                 to={exp.link}
-                className="ld-exp-card group bg-white border border-[#E5E5E5] overflow-hidden transition-all duration-400 hover:-translate-y-1 hover:shadow-lg opacity-0 translate-y-12"
+                className="ld-exp-card group bg-white border border-gray-200 overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-lg opacity-0 translate-y-12"
               >
                 <div className="aspect-video overflow-hidden">
                   <img
@@ -306,10 +271,10 @@ export default function LuxuryDining() {
                 </div>
                 <div className="p-8">
                   <h3 className="font-playfair text-h3 text-black mb-3">{exp.title}</h3>
-                  <p className="font-inter text-body text-[#737373] leading-relaxed mb-4">
+                  <p className="font-inter text-body text-gray-500 leading-relaxed mb-4">
                     {exp.description}
                   </p>
-                  <span className="inline-flex items-center gap-1 font-inter text-[13px] uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
+                  <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
                     Explore This Experience <ArrowRight size={14} />
                   </span>
                 </div>
@@ -349,7 +314,7 @@ export default function LuxuryDining() {
                     {/* Content side */}
                     <div className={`flex-1 text-center ${isEven ? 'md:text-right' : 'md:text-left'}`}>
                       <h3 className="font-playfair text-h3 text-white mb-2">{step.title}</h3>
-                      <p className="font-inter text-body text-[#A3A3A3] leading-relaxed">{step.description}</p>
+                      <p className="font-inter text-body text-gray-400 leading-relaxed">{step.description}</p>
                     </div>
 
                     {/* Icon circle */}
@@ -383,7 +348,7 @@ export default function LuxuryDining() {
                 <img
                   src={img.src}
                   alt={img.alt}
-                  className="w-full h-full object-cover transition-transform duration-400 hover:scale-[1.03]"
+                  className="w-full h-full object-cover transition-transform duration-300 hover:scale-[1.03]"
                   loading="lazy"
                 />
               </div>
@@ -403,7 +368,7 @@ export default function LuxuryDining() {
             {occasionTags.map((tag, i) => (
               <span
                 key={i}
-                className="ld-tag bg-white border border-[#E5E5E5] px-5 py-2.5 font-inter text-sm text-black opacity-0 scale-90"
+                className="ld-tag bg-white border border-gray-200 px-5 py-2.5 font-inter text-sm text-black opacity-0 scale-90"
               >
                 {tag}
               </span>
@@ -421,7 +386,7 @@ export default function LuxuryDining() {
 
           <div className="ld-faq space-y-3">
             {faqs.map((faq, i) => (
-              <div key={i} className="ld-faq-item border border-[#E5E5E5] opacity-0 translate-y-5">
+              <div key={i} className="ld-faq-item border border-gray-200 opacity-0 translate-y-5">
                 <button
                   onClick={() => setOpenFaq(openFaq === i ? null : i)}
                   className="w-full flex items-center justify-between p-5 text-left"
@@ -436,7 +401,7 @@ export default function LuxuryDining() {
                   className={`overflow-hidden transition-all duration-300 ${openFaq === i ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'}`}
                 >
                   <div className="px-5 pb-5">
-                    <p className="font-inter text-body-sm text-[#737373] leading-relaxed">{faq.a}</p>
+                    <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{faq.a}</p>
                   </div>
                 </div>
               </div>
@@ -459,7 +424,7 @@ export default function LuxuryDining() {
               <Link
                 key={i}
                 to={svc.link}
-                className="ld-rel-card group bg-charcoal overflow-hidden transition-all duration-400 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
+                className="ld-rel-card group bg-charcoal overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
               >
                 <div className="aspect-video overflow-hidden">
                   <img
@@ -471,8 +436,8 @@ export default function LuxuryDining() {
                 </div>
                 <div className="p-6">
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
-                  <p className="font-inter text-body-sm text-[#A3A3A3] mb-4">{svc.description}</p>
-                  <span className="inline-flex items-center gap-1 font-inter text-[13px] uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
+                  <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
+                  <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
                     Explore <ArrowRight size={14} />
                   </span>
                 </div>
@@ -486,7 +451,7 @@ export default function LuxuryDining() {
       <section className="bg-cream py-16">
         <div className="container-custom max-w-[800px] text-center">
           <h3 className="font-playfair text-h3 text-black mb-4">Related Guides</h3>
-          <p className="font-inter text-body text-[#737373] leading-relaxed">
+          <p className="font-inter text-body text-gray-500 leading-relaxed">
             Planning an event in Dubai? Read our{' '}
             <Link to="/luxury-dinner-planning-guide-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Luxury Dinner Planning Guide</Link>.
           </p>
@@ -499,7 +464,7 @@ export default function LuxuryDining() {
           <h2 className="font-playfair text-h2 text-white mb-4">
             Create an Unforgettable Evening
           </h2>
-          <p className="font-inter text-body-lg text-[#A3A3A3] max-w-[600px] mx-auto mb-8">
+          <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
             Your bespoke dining experience begins with a single conversation.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

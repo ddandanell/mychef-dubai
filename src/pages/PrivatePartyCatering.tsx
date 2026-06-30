@@ -89,12 +89,12 @@ const useCases = [
 ]
 
 const galleryImages = [
-  { src: '/service-events.jpg', alt: 'Private party catering in Dubai' },
-  { src: '/service-villa.jpg', alt: 'Villa private party catering setup' },
-  { src: '/menu-canapes.jpg', alt: 'Canapés for a private party' },
-  { src: '/service-villa.jpg', alt: 'Live cooking station at a home party' },
-  { src: '/menu-canapes.jpg', alt: 'Sharing boards for a private party' },
-  { src: '/service-events.jpg', alt: 'Full service private party in Dubai' },
+  { src: '/service-events.webp', alt: 'Private party catering in Dubai' },
+  { src: '/service-villa.webp', alt: 'Villa private party catering setup' },
+  { src: '/menu-canapes.webp', alt: 'Canapés for a private party' },
+  { src: '/service-villa.webp', alt: 'Live cooking station at a home party' },
+  { src: '/menu-canapes.webp', alt: 'Sharing boards for a private party' },
+  { src: '/service-events.webp', alt: 'Full service private party in Dubai' },
 ]
 
 const locations = [
@@ -147,19 +147,19 @@ const relatedServices = [
   {
     title: 'Party Catering',
     description: 'The hub for birthdays, showers, and every kind of private celebration.',
-    image: '/service-events.jpg',
+    image: '/service-events.webp',
     link: '/party-catering-dubai',
   },
   {
     title: 'Luxury Catering',
     description: 'Bespoke menus and full service for events of any size across Dubai.',
-    image: '/menu-canapes.jpg',
+    image: '/menu-canapes.webp',
     link: '/catering-dubai',
   },
   {
     title: 'Villas & Private Residences',
     description: 'Tailored catering and chef service for villa and residence entertaining.',
-    image: '/service-villa.jpg',
+    image: '/service-villa.webp',
     link: '/villas-private-residences',
   },
 ]
@@ -269,12 +269,12 @@ export default function PrivatePartyCatering() {
         title="Private Party Catering Dubai | Home & Villa"
         description="Private party catering in Dubai for villas and homes — live cooking stations, canapés, cocktails, and full-service staff. Bespoke menus, flawless setup and service."
         canonicalPath="/private-party-catering-dubai"
-        ogImage="/service-villa.jpg"
+        ogImage="/service-villa.webp"
         schema={schema}
       />
 
       {/* ═══════════════ Section 1: Hero ═══════════════ */}
-      <section className="relative min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
+      <section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
           style={{ backgroundImage: 'url(/images/party-catering-dubai-hero.webp)' }}
@@ -283,16 +283,16 @@ export default function PrivatePartyCatering() {
 
         <div className="relative z-10 container-custom text-center max-w-[800px] py-20">
           <nav className="mb-6 opacity-0 translate-y-4 ppc-hero-h1">
-            <ol className="flex items-center justify-center gap-2 font-inter text-[13px]">
-              <li><Link to="/" className="text-[#A3A3A3] hover:text-gold transition-colors">Home</Link></li>
-              <li className="text-[#A3A3A3]">/</li>
-              <li><Link to="/party-catering-dubai" className="text-[#A3A3A3] hover:text-gold transition-colors">Party Catering</Link></li>
-              <li className="text-[#A3A3A3]">/</li>
+            <ol className="flex items-center justify-center gap-2 font-inter text-body-sm">
+              <li><Link to="/" className="text-gray-400 hover:text-gold transition-colors">Home</Link></li>
+              <li className="text-gray-400">/</li>
+              <li><Link to="/party-catering-dubai" className="text-gray-400 hover:text-gold transition-colors">Party Catering</Link></li>
+              <li className="text-gray-400">/</li>
               <li><span className="text-gold">Private Party</span></li>
             </ol>
           </nav>
 
-          <h1 className="font-playfair text-[40px] md:text-[56px] lg:text-[72px] font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 ppc-hero-h1">
+          <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 ppc-hero-h1">
             Private Party Catering in Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 ppc-hero-sub">
@@ -322,10 +322,10 @@ export default function PrivatePartyCatering() {
           <h2 className="font-playfair text-h2 text-black mb-6">
             Your Home, Transformed Into a Venue
           </h2>
-          <p className="font-inter text-body-lg text-[#737373] leading-relaxed mb-5">
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             The best private parties feel effortless — for the guests and, just as importantly, for the host. At myCHEF Dubai, we bring everything a great party needs directly to your villa or home: a full mobile kitchen, professional chefs, live cooking stations, a styled bar, and attentive service staff who look after every detail from the first welcome drink to the final clear-down.
           </p>
-          <p className="font-inter text-body-lg text-[#737373] leading-relaxed">
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             Whether you are planning an intimate dinner, a lively cocktail reception, or a large celebration spilling across the garden and terrace, we design the menu and service around your space and your guests. Private party catering sits within our broader <Link to="/party-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">party catering in Dubai</Link> and our full <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering service</Link>.
           </p>
         </div>
@@ -353,7 +353,7 @@ export default function PrivatePartyCatering() {
                 >
                   <Icon size={36} className="text-gold mb-4" />
                   <h3 className="font-playfair text-h3 text-white mb-3">{fmt.title}</h3>
-                  <p className="font-inter text-body-sm text-[#A3A3A3] leading-relaxed">
+                  <p className="font-inter text-body-sm text-gray-400 leading-relaxed">
                     {fmt.description}
                   </p>
                 </div>
@@ -379,7 +379,7 @@ export default function PrivatePartyCatering() {
             {useCases.map((uc, i) => (
               <div key={i} className="ppc-uc-item bg-charcoal p-8 opacity-0 translate-y-10">
                 <h3 className="font-playfair text-h3 text-white mb-3">{uc.title}</h3>
-                <p className="font-inter text-body-sm text-[#A3A3A3] leading-relaxed">{uc.description}</p>
+                <p className="font-inter text-body-sm text-gray-400 leading-relaxed">{uc.description}</p>
               </div>
             ))}
           </div>
@@ -399,7 +399,7 @@ export default function PrivatePartyCatering() {
                 <Check size={20} className="text-gold flex-shrink-0 mt-0.5" />
                 <div>
                   <h4 className="font-inter text-base font-medium text-black mb-1">{item.title}</h4>
-                  <p className="font-inter text-body-sm text-[#737373] leading-relaxed">{item.description}</p>
+                  <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{item.description}</p>
                 </div>
               </div>
             ))}
@@ -420,7 +420,7 @@ export default function PrivatePartyCatering() {
                 <img
                   src={img.src}
                   alt={img.alt}
-                  className="w-full h-full object-cover transition-transform duration-400 hover:scale-[1.03]"
+                  className="w-full h-full object-cover transition-transform duration-300 hover:scale-[1.03]"
                   loading="lazy"
                 />
               </div>
@@ -438,7 +438,7 @@ export default function PrivatePartyCatering() {
 
           <div className="ppc-faq space-y-3">
             {faqs.map((faq, i) => (
-              <div key={i} className="ppc-faq-item border border-[#E5E5E5] opacity-0 translate-y-5">
+              <div key={i} className="ppc-faq-item border border-gray-200 opacity-0 translate-y-5">
                 <button
                   onClick={() => setOpenFaq(openFaq === i ? null : i)}
                   className="w-full flex items-center justify-between p-5 text-left"
@@ -453,7 +453,7 @@ export default function PrivatePartyCatering() {
                   className={`overflow-hidden transition-all duration-300 ${openFaq === i ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'}`}
                 >
                   <div className="px-5 pb-5">
-                    <p className="font-inter text-body-sm text-[#737373] leading-relaxed">{faq.a}</p>
+                    <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{faq.a}</p>
                   </div>
                 </div>
               </div>
@@ -474,7 +474,7 @@ export default function PrivatePartyCatering() {
               <Link
                 key={loc.slug}
                 to={`/locations/${loc.slug}`}
-                className="ppc-loc-item flex items-center gap-2 font-inter text-sm text-[#A3A3A3] hover:text-gold transition-colors opacity-0"
+                className="ppc-loc-item flex items-center gap-2 font-inter text-sm text-gray-400 hover:text-gold transition-colors opacity-0"
               >
                 <span className="w-1.5 h-1.5 rounded-full bg-gold flex-shrink-0" />
                 {loc.name}
@@ -496,7 +496,7 @@ export default function PrivatePartyCatering() {
               <Link
                 key={i}
                 to={svc.link}
-                className="ppc-rel-card group bg-charcoal overflow-hidden transition-all duration-400 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
+                className="ppc-rel-card group bg-charcoal overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
               >
                 <div className="aspect-video overflow-hidden">
                   <img
@@ -508,8 +508,8 @@ export default function PrivatePartyCatering() {
                 </div>
                 <div className="p-6">
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
-                  <p className="font-inter text-body-sm text-[#A3A3A3] mb-4">{svc.description}</p>
-                  <span className="inline-flex items-center gap-1 font-inter text-[13px] uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
+                  <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
+                  <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
                     Explore <ArrowRight size={14} />
                   </span>
                 </div>
@@ -525,7 +525,7 @@ export default function PrivatePartyCatering() {
           <h2 className="font-playfair text-h2 text-white mb-4">
             Host Without Lifting a Finger
           </h2>
-          <p className="font-inter text-body-lg text-[#A3A3A3] max-w-[600px] mx-auto mb-8">
+          <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
             Tell us about your party and your space, and we'll design the menu, bar, and service to bring it all together.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

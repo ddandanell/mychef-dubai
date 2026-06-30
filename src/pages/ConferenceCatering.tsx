@@ -95,12 +95,12 @@ const useCases = [
 ]
 
 const galleryImages = [
-  { src: '/service-corporate.jpg', alt: 'Conference catering set-up in Dubai' },
-  { src: '/menu-appetizer.jpg', alt: 'Conference coffee break pastries and bites' },
-  { src: '/service-events.jpg', alt: 'Conference working lunch buffet' },
-  { src: '/service-catering.jpg', alt: 'Multi-day conference refreshment station' },
-  { src: '/menu-seafood.jpg', alt: 'Conference lunch plated selection' },
-  { src: '/menu-canapes.jpg', alt: 'Closing networking reception canapés' },
+  { src: '/service-corporate.webp', alt: 'Conference catering set-up in Dubai' },
+  { src: '/menu-appetizer.webp', alt: 'Conference coffee break pastries and bites' },
+  { src: '/service-events.webp', alt: 'Conference working lunch buffet' },
+  { src: '/service-catering.webp', alt: 'Multi-day conference refreshment station' },
+  { src: '/menu-seafood.webp', alt: 'Conference lunch plated selection' },
+  { src: '/menu-canapes.webp', alt: 'Closing networking reception canapés' },
 ]
 
 const locations = [
@@ -153,19 +153,19 @@ const relatedServices = [
   {
     title: 'Corporate Event Catering',
     description: 'Product launches, galas, and networking receptions, styled and coordinated end to end.',
-    image: '/service-events.jpg',
+    image: '/service-events.webp',
     link: '/corporate-event-catering-dubai',
   },
   {
     title: 'Business Lunch Catering',
     description: 'Boardroom lunches, client meetings, and working lunches presented to a professional standard.',
-    image: '/menu-appetizer.jpg',
+    image: '/menu-appetizer.webp',
     link: '/business-lunch-catering-dubai',
   },
   {
     title: 'Corporate Catering',
     description: 'Professional corporate dining, from working lunches to large company functions.',
-    image: '/service-corporate.jpg',
+    image: '/service-corporate.webp',
     link: '/corporate',
   },
 ]
@@ -266,12 +266,12 @@ export default function ConferenceCatering() {
         title="Conference Catering Dubai | Breaks & Working Lunches"
         description="Conference catering in Dubai with coffee breaks, working lunches, and multi-day refreshments. Timed service, rotating menus, and full venue coordination. Request a quote today."
         canonicalPath="/conference-catering-dubai"
-        ogImage="/service-corporate.jpg"
+        ogImage="/service-corporate.webp"
         schema={schema}
       />
 
       {/* ═══════════════ Section 1: Hero ═══════════════ */}
-      <section className="relative min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
+      <section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
           style={{ backgroundImage: 'url(/images/office-catering-dubai-hero.webp)' }}
@@ -280,14 +280,14 @@ export default function ConferenceCatering() {
 
         <div className="relative z-10 container-custom text-center max-w-[800px] py-20">
           <nav className="mb-6 opacity-0 translate-y-4 conf-hero-h1">
-            <ol className="flex items-center justify-center gap-2 font-inter text-[13px]">
-              <li><Link to="/" className="text-[#A3A3A3] hover:text-gold transition-colors">Home</Link></li>
-              <li className="text-[#A3A3A3]">/</li>
+            <ol className="flex items-center justify-center gap-2 font-inter text-body-sm">
+              <li><Link to="/" className="text-gray-400 hover:text-gold transition-colors">Home</Link></li>
+              <li className="text-gray-400">/</li>
               <li><span className="text-gold">Conference Catering Dubai</span></li>
             </ol>
           </nav>
 
-          <h1 className="font-playfair text-[40px] md:text-[56px] lg:text-[72px] font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 conf-hero-h1">
+          <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 conf-hero-h1">
             Conference Catering in Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 conf-hero-sub">
@@ -317,10 +317,10 @@ export default function ConferenceCatering() {
           <h2 className="font-playfair text-h2 text-black mb-6">
             Keeping Delegates Sharp All Day
           </h2>
-          <p className="font-inter text-body-lg text-[#737373] leading-relaxed mb-5">
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Conference catering is a logistics challenge as much as a culinary one. A full room of delegates needs to be fed and refreshed quickly, on a tight schedule, without losing energy across a long programme. The food matters — but so does the timing, the flow, and the way a break gets people back to their seats. At myCHEF Dubai, we plan conference catering around your agenda first, so service supports the day rather than slowing it down.
           </p>
-          <p className="font-inter text-body-lg text-[#737373] leading-relaxed">
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             From barista-style coffee breaks and efficient working lunches to all-day refreshments and rotating multi-day menus, we keep delegates energised from the opening session to the closing remarks. Organisers who run regular events find a standing relationship invaluable — we already understand your format and standards, so each conference is quicker to plan. Explore the formats below, or see our wider <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering in Dubai</Link>.
           </p>
         </div>
@@ -345,14 +345,14 @@ export default function ConferenceCatering() {
                 <Link
                   key={i}
                   to={fmt.link}
-                  className="conf-fmt-card group bg-charcoal p-8 transition-all duration-400 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
+                  className="conf-fmt-card group bg-charcoal p-8 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
                 >
                   <Icon size={36} className="text-gold mb-4" />
                   <h3 className="font-playfair text-h3 text-white mb-3">{fmt.title}</h3>
-                  <p className="font-inter text-body-sm text-[#A3A3A3] leading-relaxed mb-4">
+                  <p className="font-inter text-body-sm text-gray-400 leading-relaxed mb-4">
                     {fmt.description}
                   </p>
-                  <span className="inline-flex items-center gap-1 font-inter text-[13px] uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
+                  <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
                     Learn More <ArrowRight size={14} />
                   </span>
                 </Link>
@@ -378,7 +378,7 @@ export default function ConferenceCatering() {
             {useCases.map((uc, i) => (
               <div key={i} className="conf-uc-item bg-charcoal p-8 opacity-0 translate-y-10">
                 <h3 className="font-playfair text-h3 text-white mb-3">{uc.title}</h3>
-                <p className="font-inter text-body-sm text-[#A3A3A3] leading-relaxed">{uc.description}</p>
+                <p className="font-inter text-body-sm text-gray-400 leading-relaxed">{uc.description}</p>
               </div>
             ))}
           </div>
@@ -398,7 +398,7 @@ export default function ConferenceCatering() {
                 <Check size={20} className="text-gold flex-shrink-0 mt-0.5" />
                 <div>
                   <h4 className="font-inter text-base font-medium text-black mb-1">{item.title}</h4>
-                  <p className="font-inter text-body-sm text-[#737373] leading-relaxed">{item.description}</p>
+                  <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{item.description}</p>
                 </div>
               </div>
             ))}
@@ -419,7 +419,7 @@ export default function ConferenceCatering() {
                 <img
                   src={img.src}
                   alt={img.alt}
-                  className="w-full h-full object-cover transition-transform duration-400 hover:scale-[1.03]"
+                  className="w-full h-full object-cover transition-transform duration-300 hover:scale-[1.03]"
                   loading="lazy"
                 />
               </div>
@@ -437,7 +437,7 @@ export default function ConferenceCatering() {
 
           <div className="conf-faq space-y-3">
             {faqs.map((faq, i) => (
-              <div key={i} className="conf-faq-item border border-[#E5E5E5] opacity-0 translate-y-5">
+              <div key={i} className="conf-faq-item border border-gray-200 opacity-0 translate-y-5">
                 <button
                   onClick={() => setOpenFaq(openFaq === i ? null : i)}
                   className="w-full flex items-center justify-between p-5 text-left"
@@ -452,7 +452,7 @@ export default function ConferenceCatering() {
                   className={`overflow-hidden transition-all duration-300 ${openFaq === i ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'}`}
                 >
                   <div className="px-5 pb-5">
-                    <p className="font-inter text-body-sm text-[#737373] leading-relaxed">{faq.a}</p>
+                    <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{faq.a}</p>
                   </div>
                 </div>
               </div>
@@ -473,7 +473,7 @@ export default function ConferenceCatering() {
               <Link
                 key={loc.slug}
                 to={`/locations/${loc.slug}`}
-                className="conf-loc-item flex items-center gap-2 font-inter text-sm text-[#A3A3A3] hover:text-gold transition-colors opacity-0"
+                className="conf-loc-item flex items-center gap-2 font-inter text-sm text-gray-400 hover:text-gold transition-colors opacity-0"
               >
                 <span className="w-1.5 h-1.5 rounded-full bg-gold flex-shrink-0" />
                 {loc.name}
@@ -495,7 +495,7 @@ export default function ConferenceCatering() {
               <Link
                 key={i}
                 to={svc.link}
-                className="conf-rel-card group bg-charcoal overflow-hidden transition-all duration-400 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
+                className="conf-rel-card group bg-charcoal overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
               >
                 <div className="aspect-video overflow-hidden">
                   <img
@@ -507,8 +507,8 @@ export default function ConferenceCatering() {
                 </div>
                 <div className="p-6">
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
-                  <p className="font-inter text-body-sm text-[#A3A3A3] mb-4">{svc.description}</p>
-                  <span className="inline-flex items-center gap-1 font-inter text-[13px] uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
+                  <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
+                  <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
                     Explore <ArrowRight size={14} />
                   </span>
                 </div>
@@ -524,7 +524,7 @@ export default function ConferenceCatering() {
           <h2 className="font-playfair text-h2 text-white mb-4">
             Plan Your Conference Catering
           </h2>
-          <p className="font-inter text-body-lg text-[#A3A3A3] max-w-[600px] mx-auto mb-8">
+          <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
             Share your agenda, delegate numbers, and venue, and we'll build a timed catering plan — coffee breaks, working lunches, and multi-day menus — that keeps your conference running smoothly.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

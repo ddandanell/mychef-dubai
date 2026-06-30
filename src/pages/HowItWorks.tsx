@@ -1,10 +1,11 @@
 import { useRef, useState } from 'react'
 import { Link } from 'react-router'
-import { Clock, Shield, Utensils, Users, Sparkles, Award, ChevronRight, Plus, Minus } from 'lucide-react'
+import { Clock, Shield, Utensils, Users, Sparkles, Award, Plus, Minus } from 'lucide-react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { useGSAP } from '@gsap/react'
 import SEO from '@/components/SEO'
+import PageHero from '@/components/PageHero'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -13,10 +14,10 @@ const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to reque
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 const steps = [
-  { num: '01', image: '/process-1.jpg', title: 'Reach Out', desc: 'Contact us via WhatsApp or our online form. Tell us about your occasion — the date, number of guests, location in Dubai, and any vision you have in mind. No detail is too small.' },
-  { num: '02', image: '/process-2.jpg', title: 'We Design Your Menu', desc: 'Our chef creates a bespoke menu tailored to your tastes, dietary requirements, and the nature of your event. We share the proposal with you for approval and adjustments.' },
-  { num: '03', image: '/process-3.jpg', title: 'We Source & Arrive', desc: 'On the day, we arrive early with everything needed — premium ingredients, professional equipment, tableware if required. We prepare everything in your kitchen or event space.' },
-  { num: '04', image: '/process-4.jpg', title: 'You Simply Enjoy', desc: 'Your chef plates each course with precision. Our service team attends to your guests. After the final course, we leave your kitchen spotless. You remember the evening.' },
+  { num: '01', image: '/process-1.webp', title: 'Reach Out', desc: 'Contact us via WhatsApp or our online form. Tell us about your occasion — the date, number of guests, location in Dubai, and any vision you have in mind. No detail is too small.' },
+  { num: '02', image: '/process-2.webp', title: 'We Design Your Menu', desc: 'Our chef creates a bespoke menu tailored to your tastes, dietary requirements, and the nature of your event. We share the proposal with you for approval and adjustments.' },
+  { num: '03', image: '/process-3.webp', title: 'We Source & Arrive', desc: 'On the day, we arrive early with everything needed — premium ingredients, professional equipment, tableware if required. We prepare everything in your kitchen or event space.' },
+  { num: '04', image: '/process-4.webp', title: 'You Simply Enjoy', desc: 'Your chef plates each course with precision. Our service team attends to your guests. After the final course, we leave your kitchen spotless. You remember the evening.' },
 ]
 
 const features = [
@@ -71,9 +72,6 @@ export default function HowItWorks() {
 
   useGSAP(() => {
     const ctx = gsap.context(() => {
-      gsap.from('.hiw-hero-eyebrow', { opacity: 0, y: 20, duration: 0.6, ease: 'power3.out' })
-      gsap.from('.hiw-hero-h1', { opacity: 0, y: 40, duration: 0.8, ease: 'power3.out', delay: 0.2 })
-      gsap.from('.hiw-hero-sub', { opacity: 0, y: 20, duration: 0.6, ease: 'power3.out', delay: 0.6 })
 
       // Timeline steps
       gsap.from('.timeline-step', {
@@ -115,26 +113,16 @@ export default function HowItWorks() {
       />
 
       {/* Section 1: Hero */}
-      <section className="relative min-h-[55vh] flex items-center justify-center bg-black overflow-hidden">
-        <img src="/images/how-it-works-dubai-hero.webp" alt="Dining experience" className="absolute inset-0 w-full h-full object-cover opacity-25" />
-        <div className="absolute inset-0" style={{ background: 'linear-gradient(to bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.9) 100%)' }} />
-        <div className="relative z-10 text-center container-custom py-24">
-          <nav aria-label="Breadcrumb" className="mb-8">
-            <ol className="flex items-center justify-center gap-2 font-inter text-body-sm text-gray-400">
-              <li><Link to="/" className="hover:text-gold transition-colors">Home</Link></li>
-              <li><ChevronRight size={14} className="text-gray-500" /></li>
-              <li className="text-gold">How It Works</li>
-            </ol>
-          </nav>
-          <p className="hiw-hero-eyebrow font-inter text-caption font-medium uppercase tracking-[0.1em] text-gold mb-4">THE EXPERIENCE</p>
-          <h1 className="hiw-hero-h1 font-playfair text-h1 md:text-[3.5rem] text-white mb-6" style={{ lineHeight: '1.1' }}>
-            Simple. Seamless.<br />Extraordinary.
-          </h1>
-          <p className="hiw-hero-sub font-inter text-body-lg text-gray-400 max-w-xl mx-auto">
-            From your first message to the final course — every step is handled with care.
-          </p>
-        </div>
-      </section>
+      <PageHero
+        eyebrow="THE EXPERIENCE"
+        title="<>Simple. Seamless.<br />Extraordinary.</>"
+        subtitle="From your first message to the final course — every step is handled with care."
+        image="/images/how-it-works-dubai-hero.webp"
+        imageAlt="How myCHEF works"
+        breadcrumb={[{ label: 'Home', href: '/' }, { label: 'How It Works' }]}
+        minHeight="tall"
+        overlay="dark"
+      />
 
       {/* Section 2: Timeline */}
       <section className="timeline-section bg-cream section-padding">
@@ -210,7 +198,7 @@ export default function HowItWorks() {
                   </span>
                 </button>
                 <div
-                  className="overflow-hidden transition-all duration-400"
+                  className="overflow-hidden transition-all duration-300"
                   style={{ maxHeight: openFaq === i ? '300px' : '0', opacity: openFaq === i ? 1 : 0 }}
                 >
                   <p className="pt-4 font-inter text-body text-gray-500" style={{ lineHeight: '1.7' }}>{faq.a}</p>

@@ -39,11 +39,17 @@ export default function HowItWorksSection() {
   const cardsRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
+    const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
     const ctx = gsap.context(() => {
+      if (reduced) {
+        gsap.set([headerRef.current, cardsRef.current?.querySelectorAll('.step-card')], { opacity: 1, y: 0 })
+        return
+      }
+
       gsap.fromTo(headerRef.current,
-        { opacity: 0, y: 50 },
+        { opacity: 0, y: 40 },
         {
-          opacity: 1, y: 0, duration: 0.8, ease: 'power3.out',
+          opacity: 1, y: 0, duration: 0.7, ease: 'power3.out',
           scrollTrigger: { trigger: headerRef.current, start: 'top 85%' },
         }
       )
@@ -51,9 +57,9 @@ export default function HowItWorksSection() {
       const cards = cardsRef.current?.querySelectorAll('.step-card')
       if (cards) {
         gsap.fromTo(cards,
-          { opacity: 0, y: 50 },
+          { opacity: 0, y: 40 },
           {
-            opacity: 1, y: 0, duration: 0.8, stagger: 0.15, ease: 'power3.out',
+            opacity: 1, y: 0, duration: 0.7, stagger: 0.1, ease: 'power3.out',
             scrollTrigger: { trigger: cardsRef.current, start: 'top 80%' },
           }
         )
@@ -67,14 +73,14 @@ export default function HowItWorksSection() {
     <section ref={sectionRef} className="bg-cream section-padding">
       <div className="container-custom">
         {/* Header */}
-        <div ref={headerRef} className="text-center mb-16">
+        <div ref={headerRef} className="text-center mb-12 md:mb-16">
           <span className="font-inter text-caption font-medium uppercase tracking-[0.1em] text-gold">
             The Process
           </span>
-          <h2 className="font-playfair text-h2 text-black mt-4 mb-4">
+          <h2 className="font-playfair text-fluid-h2 text-black mt-4 mb-4">
             How It Works
           </h2>
-          <p className="font-inter text-lg text-gray-500 max-w-xl mx-auto">
+          <p className="font-inter text-base md:text-lg text-gray-500 max-w-xl mx-auto">
             From your first message to the final course — a seamless experience.
           </p>
         </div>
@@ -82,21 +88,21 @@ export default function HowItWorksSection() {
         {/* Steps Grid */}
         <div
           ref={cardsRef}
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8"
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8"
         >
           {steps.map((step) => (
             <div
               key={step.number}
-              className="step-card relative text-center p-8 bg-white"
+              className="step-card relative text-center p-6 md:p-8 bg-white"
             >
               {/* Step Number (decorative) */}
-              <span className="absolute top-4 left-4 font-playfair text-[72px] font-semibold text-gold/20 leading-none select-none">
+              <span className="absolute top-4 left-4 font-playfair text-[64px] md:text-[72px] font-semibold text-gold/20 leading-none select-none" aria-hidden="true">
                 {step.number}
               </span>
 
               {/* Icon */}
               <div className="relative z-10 flex justify-center mb-6">
-                <step.icon size={48} className="text-gold" strokeWidth={1.5} />
+                <step.icon size={44} className="text-gold" strokeWidth={1.5} aria-hidden="true" />
               </div>
 
               {/* Content */}
@@ -111,8 +117,8 @@ export default function HowItWorksSection() {
         </div>
 
         {/* CTA */}
-        <div className="text-center mt-12">
-          <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=home" className="btn-primary">
+        <div className="text-center mt-10 md:mt-12">
+          <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=home" className="btn-primary focus-visible:ring-offset-cream">
             Request a Proposal
           </Link>
         </div>

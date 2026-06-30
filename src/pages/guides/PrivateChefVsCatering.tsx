@@ -195,12 +195,12 @@ export default function PrivateChefVsCatering() {
         title="Private Chef vs Catering Dubai | Which to Choose | myCHEF"
         description="Private chef vs catering in Dubai: compare guest count, service style, cost, and when to choose each. Hybrid options and scale guidance included."
         canonicalPath="/private-chef-vs-catering-dubai"
-        ogImage="/service-private-chef.jpg"
+        ogImage="/service-private-chef.webp"
         schema={schema}
       />
 
       {/* ═══════════════ Hero ═══════════════ */}
-      <section className="relative min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
+      <section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
           style={{ backgroundImage: 'url(/images/catering-dubai-hero.webp)' }}
@@ -209,16 +209,16 @@ export default function PrivateChefVsCatering() {
 
         <div className="relative z-10 container-custom text-center max-w-[800px] py-20">
           <nav className="mb-6 opacity-0 translate-y-4 pvc-hero-h1">
-            <ol className="flex items-center justify-center gap-2 font-inter text-[13px]">
-              <li><Link to="/" className="text-[#A3A3A3] hover:text-gold transition-colors">Home</Link></li>
-              <li className="text-[#A3A3A3]">/</li>
-              <li><Link to="/guides" className="text-[#A3A3A3] hover:text-gold transition-colors">Guides</Link></li>
-              <li className="text-[#A3A3A3]">/</li>
+            <ol className="flex items-center justify-center gap-2 font-inter text-body-sm">
+              <li><Link to="/" className="text-gray-400 hover:text-gold transition-colors">Home</Link></li>
+              <li className="text-gray-400">/</li>
+              <li><Link to="/guides" className="text-gray-400 hover:text-gold transition-colors">Guides</Link></li>
+              <li className="text-gray-400">/</li>
               <li><span className="text-gold">Private Chef vs Catering Dubai</span></li>
             </ol>
           </nav>
 
-          <h1 className="font-playfair text-[40px] md:text-[56px] lg:text-[72px] font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 pvc-hero-h1">
+          <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 pvc-hero-h1">
             Private Chef vs Catering: What Works Best in Dubai?
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 pvc-hero-sub">
@@ -248,10 +248,10 @@ export default function PrivateChefVsCatering() {
           <h2 className="font-playfair text-h2 text-black mb-6">
             Choose the Right Service for Your Occasion
           </h2>
-          <p className="font-inter text-body-lg text-[#737373] leading-relaxed mb-5">
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Private chefs and catering teams both bring restaurant-quality food to your location, but they serve different needs. A private chef is ideal when you want close collaboration and an intimate experience. Catering is the better fit when you need a full team to manage a larger event with service, rentals, and clear-down.
           </p>
-          <p className="font-inter text-body-lg text-[#737373] leading-relaxed">
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             Below is a side-by-side comparison, plus guidance on hybrid options and how cost changes with scale.
           </p>
         </div>
@@ -280,10 +280,10 @@ export default function PrivateChefVsCatering() {
               </thead>
               <tbody>
                 {comparison.map((row, i) => (
-                  <tr key={i} className="pvc-table-row border-b border-[#2A2A2A] opacity-0 translate-y-4">
+                  <tr key={i} className="pvc-table-row border-b border-charcoal-light opacity-0 translate-y-4">
                     <td className="py-4 px-4 font-playfair text-white">{row.feature}</td>
-                    <td className="py-4 px-4 font-inter text-body-sm text-[#A3A3A3]">{row.privateChef}</td>
-                    <td className="py-4 px-4 font-inter text-body-sm text-[#A3A3A3]">{row.catering}</td>
+                    <td className="py-4 px-4 font-inter text-body-sm text-gray-400">{row.privateChef}</td>
+                    <td className="py-4 px-4 font-inter text-body-sm text-gray-400">{row.catering}</td>
                   </tr>
                 ))}
               </tbody>
@@ -314,7 +314,7 @@ export default function PrivateChefVsCatering() {
                 {privateChefBest.map((item, i) => (
                   <li key={i} className="flex gap-3">
                     <Check size={18} className="text-gold flex-shrink-0 mt-0.5" />
-                    <span className="font-inter text-body text-[#737373] leading-relaxed">{item}</span>
+                    <span className="font-inter text-body text-gray-500 leading-relaxed">{item}</span>
                   </li>
                 ))}
               </ul>
@@ -328,7 +328,7 @@ export default function PrivateChefVsCatering() {
                 {cateringBest.map((item, i) => (
                   <li key={i} className="flex gap-3">
                     <Check size={18} className="text-gold flex-shrink-0 mt-0.5" />
-                    <span className="font-inter text-body text-[#737373] leading-relaxed">{item}</span>
+                    <span className="font-inter text-body text-gray-500 leading-relaxed">{item}</span>
                   </li>
                 ))}
               </ul>
@@ -353,7 +353,7 @@ export default function PrivateChefVsCatering() {
             {hybridOptions.map((opt, i) => (
               <div key={i} className="pvc-hybrid-card bg-cream p-8 opacity-0 translate-y-12">
                 <h3 className="font-playfair text-h3 text-black mb-3">{opt.title}</h3>
-                <p className="font-inter text-body-sm text-[#737373] leading-relaxed">{opt.description}</p>
+                <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{opt.description}</p>
               </div>
             ))}
           </div>
@@ -378,7 +378,7 @@ export default function PrivateChefVsCatering() {
                 <Check size={20} className="text-gold flex-shrink-0 mt-0.5" />
                 <div>
                   <h3 className="font-playfair text-h3 text-white mb-1">{item.title}</h3>
-                  <p className="font-inter text-body-sm text-[#A3A3A3] leading-relaxed">{item.note}</p>
+                  <p className="font-inter text-body-sm text-gray-400 leading-relaxed">{item.note}</p>
                 </div>
               </div>
             ))}
@@ -402,7 +402,7 @@ export default function PrivateChefVsCatering() {
               >
                 <div>
                   <h4 className="font-playfair text-h4 text-white mb-1">{link.title}</h4>
-                  <p className="font-inter text-body-sm text-[#A3A3A3]">{link.description}</p>
+                  <p className="font-inter text-body-sm text-gray-400">{link.description}</p>
                 </div>
                 <ArrowRight size={18} className="text-gold flex-shrink-0 ml-4 group-hover:translate-x-1 transition-transform" />
               </Link>
@@ -420,7 +420,7 @@ export default function PrivateChefVsCatering() {
 
           <div className="pvc-faq space-y-3">
             {faqs.map((faq, i) => (
-              <div key={i} className="pvc-faq-item border border-[#E5E5E5] opacity-0 translate-y-5">
+              <div key={i} className="pvc-faq-item border border-gray-200 opacity-0 translate-y-5">
                 <button
                   onClick={() => setOpenFaq(openFaq === i ? null : i)}
                   className="w-full flex items-center justify-between p-5 text-left"
@@ -435,7 +435,7 @@ export default function PrivateChefVsCatering() {
                   className={`overflow-hidden transition-all duration-300 ${openFaq === i ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'}`}
                 >
                   <div className="px-5 pb-5">
-                    <p className="font-inter text-body-sm text-[#737373] leading-relaxed">{faq.a}</p>
+                    <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{faq.a}</p>
                   </div>
                 </div>
               </div>
@@ -450,7 +450,7 @@ export default function PrivateChefVsCatering() {
           <h2 className="font-playfair text-h2 text-white mb-4">
             Not Sure Which to Choose?
           </h2>
-          <p className="font-inter text-body-lg text-[#A3A3A3] max-w-[600px] mx-auto mb-8">
+          <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
             Tell us about your guest count, venue, and the experience you want. We will recommend the right service and send a tailored quote.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

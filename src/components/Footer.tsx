@@ -48,14 +48,19 @@ const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to reque
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 export default function Footer() {
+  const currentYear = new Date().getFullYear()
+
   return (
     <footer className="bg-black border-t border-charcoal-light">
-      <div className="container-custom pt-20 pb-10">
+      <div className="container-custom pt-16 pb-10 md:pt-20">
         {/* 5-Column Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-12 lg:gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-10 lg:gap-6">
           {/* Col 1: Brand */}
-          <div>
-            <Link to="/" className="font-playfair text-3xl font-semibold text-gold">
+          <div className="sm:col-span-2 lg:col-span-1">
+            <Link
+              to="/"
+              className="font-playfair text-3xl font-semibold text-gold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-black rounded-sm inline-block"
+            >
               myCHEF
             </Link>
             <p className="mt-4 font-inter text-body-sm text-gray-400 leading-relaxed">
@@ -68,7 +73,7 @@ export default function Footer() {
 
           {/* Col 2: Services */}
           <div>
-            <h4 className="font-inter text-caption font-medium uppercase tracking-wider text-white mb-6">
+            <h4 className="font-inter text-caption font-medium uppercase tracking-wider text-white mb-5 md:mb-6">
               Services
             </h4>
             <ul className="space-y-3">
@@ -76,7 +81,7 @@ export default function Footer() {
                 <li key={link.href}>
                   <Link
                     to={link.href}
-                    className="font-inter text-body-sm text-gray-400 hover:text-gold transition-colors duration-200"
+                    className="font-inter text-body-sm text-gray-400 hover:text-gold transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-black rounded-sm"
                   >
                     {link.label}
                   </Link>
@@ -87,7 +92,7 @@ export default function Footer() {
 
           {/* Col 3: Guides */}
           <div>
-            <h4 className="font-inter text-caption font-medium uppercase tracking-wider text-white mb-6">
+            <h4 className="font-inter text-caption font-medium uppercase tracking-wider text-white mb-5 md:mb-6">
               Guides
             </h4>
             <ul className="space-y-3">
@@ -95,7 +100,7 @@ export default function Footer() {
                 <li key={link.href}>
                   <Link
                     to={link.href}
-                    className="font-inter text-body-sm text-gray-400 hover:text-gold transition-colors duration-200"
+                    className="font-inter text-body-sm text-gray-400 hover:text-gold transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-black rounded-sm"
                   >
                     {link.label}
                   </Link>
@@ -106,7 +111,7 @@ export default function Footer() {
 
           {/* Col 4: Locations */}
           <div>
-            <h4 className="font-inter text-caption font-medium uppercase tracking-wider text-white mb-6">
+            <h4 className="font-inter text-caption font-medium uppercase tracking-wider text-white mb-5 md:mb-6">
               Locations
             </h4>
             <ul className="space-y-3">
@@ -114,7 +119,7 @@ export default function Footer() {
                 <li key={link.href}>
                   <Link
                     to={link.href}
-                    className="font-inter text-body-sm text-gray-400 hover:text-gold transition-colors duration-200"
+                    className="font-inter text-body-sm text-gray-400 hover:text-gold transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-black rounded-sm"
                   >
                     {link.label}
                   </Link>
@@ -123,9 +128,9 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Col 4: Contact */}
+          {/* Col 5: Contact */}
           <div>
-            <h4 className="font-inter text-caption font-medium uppercase tracking-wider text-white mb-6">
+            <h4 className="font-inter text-caption font-medium uppercase tracking-wider text-white mb-5 md:mb-6">
               Contact
             </h4>
             <ul className="space-y-4">
@@ -134,24 +139,25 @@ export default function Footer() {
                   href={WHATSAPP_LINK}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-3 font-inter text-body-sm text-gray-400 hover:text-gold transition-colors duration-200"
+                  aria-label="Chat on WhatsApp"
+                  className="flex items-center gap-3 font-inter text-body-sm text-gray-400 hover:text-gold transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-black rounded-sm"
                 >
-                  <Phone size={16} className="text-gold flex-shrink-0" />
+                  <Phone size={16} className="text-gold flex-shrink-0" aria-hidden="true" />
                   <span>+971 55 174 4849</span>
                 </a>
               </li>
               <li>
                 <a
                   href="mailto:hallo@mychef.ae"
-                  className="flex items-center gap-3 font-inter text-body-sm text-gray-400 hover:text-gold transition-colors duration-200"
+                  className="flex items-center gap-3 font-inter text-body-sm text-gray-400 hover:text-gold transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-black rounded-sm"
                 >
-                  <Mail size={16} className="text-gold flex-shrink-0" />
+                  <Mail size={16} className="text-gold flex-shrink-0" aria-hidden="true" />
                   <span>hallo@mychef.ae</span>
                 </a>
               </li>
               <li>
                 <span className="flex items-start gap-3 font-inter text-body-sm text-gray-400">
-                  <MapPin size={16} className="text-gold flex-shrink-0 mt-0.5" />
+                  <MapPin size={16} className="text-gold flex-shrink-0 mt-0.5" aria-hidden="true" />
                   <span>Dubai, United Arab Emirates</span>
                 </span>
               </li>
@@ -165,19 +171,19 @@ export default function Footer() {
         {/* Divider */}
         <div className="border-t border-charcoal-light mt-8 pt-8">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-            <p className="font-inter text-xs text-gray-500">
-              &copy; {new Date().getFullYear()} myCHEF Dubai. All rights reserved.
+            <p className="font-inter text-xs text-gray-500 text-center md:text-left">
+              &copy; {currentYear} myCHEF Dubai. All rights reserved.
             </p>
             <div className="flex items-center gap-6">
               <Link
                 to="/privacy-policy"
-                className="font-inter text-xs text-gray-500 hover:text-gold transition-colors duration-200"
+                className="font-inter text-xs text-gray-500 hover:text-gold transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-black rounded-sm"
               >
                 Privacy Policy
               </Link>
               <Link
                 to="/terms"
-                className="font-inter text-xs text-gray-500 hover:text-gold transition-colors duration-200"
+                className="font-inter text-xs text-gray-500 hover:text-gold transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-black rounded-sm"
               >
                 Terms of Service
               </Link>

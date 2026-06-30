@@ -9,17 +9,13 @@ import {
   AccordionContent,
 } from '@/components/ui/accordion'
 import SEO from '@/components/SEO'
+import PageHero from '@/components/PageHero'
 import {
   breadcrumbSchema,
   faqPageSchema,
   serviceSchema,
 } from '@/utils/schema'
-import {
-  Check,
-  Quote,
-  Star,
-  ArrowRight,
-} from 'lucide-react'
+import { Check, Quote, Star, ArrowRight, } from 'lucide-react'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -33,42 +29,42 @@ const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}
 
 const eventTypes = [
   {
-    image: '/service-events.jpg',
+    image: '/service-events.webp',
     title: 'Birthday Catering',
     description:
       'From intimate family dinners to milestone celebrations. Custom menus, cakes, and full service.',
     link: '/services/birthday-catering-dubai',
   },
   {
-    image: '/service-luxury-dining.jpg',
+    image: '/service-luxury-dining.webp',
     title: 'Wedding Catering',
     description:
       'Receptions, rehearsal dinners, post-wedding brunches. Elegant, bespoke, and unforgettable.',
     link: '/services/wedding-catering-dubai',
   },
   {
-    image: '/service-villa.jpg',
+    image: '/service-villa.webp',
     title: 'Villa Party Catering',
     description:
       'Full-service catering for villa events. Setup, service, cleanup \u2014 all handled professionally.',
     link: '/services/villa-party-catering-dubai',
   },
   {
-    image: '/service-corporate.jpg',
+    image: '/service-corporate.webp',
     title: 'Corporate Events',
     description:
       'Product launches, client entertaining, team celebrations. Professional and impressive.',
     link: '/services/corporate-event-catering-dubai',
   },
   {
-    image: '/service-yacht.jpg',
+    image: '/service-yacht.webp',
     title: 'Yacht Event Catering',
     description:
       'Catering for yacht parties and events. Canapes, BBQ, plated service on the water.',
     link: '/services/yacht-event-catering-dubai',
   },
   {
-    image: '/service-catering.jpg',
+    image: '/service-catering.webp',
     title: 'Cocktail Receptions',
     description:
       'Sophisticated canapes, passed appetizers, and cocktail service for networking events.',
@@ -115,12 +111,12 @@ const includedItems = [
 ]
 
 const galleryImages = [
-  '/service-events.jpg',
-  '/service-catering.jpg',
-  '/service-villa.jpg',
-  '/service-luxury-dining.jpg',
-  '/menu-canapes.jpg',
-  '/testimonial-villa.jpg',
+  '/service-events.webp',
+  '/service-catering.webp',
+  '/service-villa.webp',
+  '/service-luxury-dining.webp',
+  '/menu-canapes.webp',
+  '/testimonial-villa.webp',
 ]
 
 const faqs = [
@@ -191,9 +187,6 @@ const schema = [
 /* ───── Page Component ───── */
 
 export default function Events() {
-  const heroRef = useRef<HTMLDivElement>(null)
-  const heroContentRef = useRef<HTMLDivElement>(null)
-  const heroImageRef = useRef<HTMLDivElement>(null)
   const eventCardsRef = useRef<HTMLDivElement>(null)
   const processRef = useRef<HTMLDivElement>(null)
   const includedRef = useRef<HTMLDivElement>(null)
@@ -204,31 +197,6 @@ export default function Events() {
 
   useEffect(() => {
     const ctx = gsap.context(() => {
-      /* Hero entrance */
-      const heroEls = heroContentRef.current?.children
-      if (heroEls) {
-        gsap.fromTo(
-          heroEls,
-          { opacity: 0, y: 40 },
-          {
-            opacity: 1,
-            y: 0,
-            duration: 0.8,
-            stagger: 0.15,
-            ease: 'power3.out',
-            delay: 0.2,
-          }
-        )
-      }
-
-      /* Hero parallax */
-      const handleScroll = () => {
-        if (heroImageRef.current) {
-          const scrollY = window.scrollY
-          heroImageRef.current.style.transform = `scale(1.05) translateY(${scrollY * 0.5}px)`
-        }
-      }
-      window.addEventListener('scroll', handleScroll, { passive: true })
 
       /* Event cards */
       if (eventCardsRef.current) {
@@ -367,10 +335,7 @@ export default function Events() {
         )
       }
 
-      return () => {
-        ctx.revert()
-        window.removeEventListener('scroll', handleScroll)
-      }
+      return () => ctx.revert()
     })
 
     return () => ctx.revert()
@@ -382,82 +347,22 @@ export default function Events() {
         title="Event Catering Dubai"
         description="Premium event catering in Dubai for birthdays, weddings, and private celebrations. Full-service catering with bespoke menus and professional staff. Get your quote."
         canonicalPath="/events"
-        ogImage="/service-events.jpg"
+        ogImage="/service-events.webp"
         schema={schema as unknown as Record<string, unknown>}
       />
 
       {/* ─── Section 1: Hero ─── */}
-      <section
-        ref={heroRef}
-        className="relative min-h-[100dvh] flex items-center justify-center overflow-hidden"
-      >
-        {/* Background Image */}
-        <div className="absolute inset-0 overflow-hidden">
-          <div
-            ref={heroImageRef}
-            className="absolute inset-0 bg-cover bg-center scale-105"
-            style={{ backgroundImage: 'url(/images/events-catering-dubai-hero.webp)' }}
-          />
-          <div className="absolute inset-0 bg-black/50" />
-        </div>
-
-        {/* Content */}
-        <div
-          ref={heroContentRef}
-          className="relative z-10 container-custom text-center pt-20"
-        >
-          {/* Breadcrumb */}
-          <nav className="mb-6">
-            <ol className="flex items-center justify-center gap-2 font-inter text-sm text-gray-400">
-              <li>
-                <Link to="/" className="hover:text-gold transition-colors">
-                  Home
-                </Link>
-              </li>
-              <li>/</li>
-              <li>
-                <Link
-                  to="/catering-dubai"
-                  className="hover:text-gold transition-colors"
-                >
-                  Services
-                </Link>
-              </li>
-              <li>/</li>
-              <li className="text-gold">Events</li>
-            </ol>
-          </nav>
-
-          {/* Gold Line */}
-          <div className="gold-line mx-auto mb-8" />
-
-          {/* H1 */}
-          <h1 className="font-playfair text-h1 md:text-[56px] lg:text-[72px] font-semibold text-white leading-tight">
-            Event Catering
-            <br />
-            <span className="text-gold font-normal">Dubai</span>
-          </h1>
-
-          {/* Subtitle */}
-          <p className="mt-6 font-inter text-lg text-white/90 max-w-2xl mx-auto leading-relaxed">
-            From intimate celebrations to grand occasions — exceptional food,
-            flawless service, unforgettable events.
-          </p>
-
-          {/* CTA Row */}
-          <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=events" className="btn-primary">Request a Proposal</Link>
-            <a
-              href={WHATSAPP_LINK}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-secondary"
-            >
-              Chat on WhatsApp
-            </a>
-          </div>
-        </div>
-      </section>
+      <PageHero
+        title={<>Event Catering<br /><span className="text-gold font-normal">Dubai</span></>}
+        subtitle="From intimate celebrations to grand occasions — exceptional food, flawless service, unforgettable events."
+        image="/images/events-catering-dubai-hero.webp"
+        imageAlt="Event catering in Dubai"
+        cta={{ label: 'Request a Proposal', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=events' }}
+        secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
+        breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Events' }]}
+        minHeight="tall"
+        overlay="dark"
+      />
 
       {/* ─── Section 2: Event Types ─── */}
       <section className="bg-white section-padding">
@@ -480,7 +385,7 @@ export default function Events() {
             {eventTypes.map((event) => (
               <div
                 key={event.title}
-                className="group bg-charcoal overflow-hidden transition-all duration-400 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)]"
+                className="group bg-charcoal overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)]"
               >
                 {/* Image */}
                 <div className="relative aspect-video overflow-hidden">
@@ -488,7 +393,7 @@ export default function Events() {
                     src={event.image}
                     alt={event.title}
                     loading="lazy"
-                    className="w-full h-full object-cover transition-transform duration-400 group-hover:scale-105"
+                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                   />
                   <div className="absolute inset-0 gradient-overlay-bottom" />
                 </div>
@@ -502,7 +407,7 @@ export default function Events() {
                   </p>
                   <Link
                     to={event.link}
-                    className="inline-flex items-center gap-2 font-inter text-[13px] font-medium uppercase tracking-wider text-gold hover:text-gold-light transition-colors"
+                    className="inline-flex items-center gap-2 font-inter text-body-sm font-medium uppercase tracking-wider text-gold hover:text-gold-light transition-colors"
                   >
                     Explore <ArrowRight size={14} />
                   </Link>
@@ -698,7 +603,7 @@ export default function Events() {
                 <p className="font-inter text-body-sm text-gray-500 mb-4">
                   {service.description}
                 </p>
-                <span className="inline-flex items-center gap-2 font-inter text-[13px] font-medium uppercase tracking-wider text-gold group-hover:text-gold-dark transition-colors">
+                <span className="inline-flex items-center gap-2 font-inter text-body-sm font-medium uppercase tracking-wider text-gold group-hover:text-gold-dark transition-colors">
                   Learn More <ArrowRight size={14} />
                 </span>
               </Link>

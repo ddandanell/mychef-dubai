@@ -4,6 +4,7 @@ import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { Check, Wine, GlassWater, Users } from 'lucide-react'
 import SEO from '@/components/SEO'
+import PageHero from '@/components/PageHero'
 import { breadcrumbSchema } from '@/utils/schema'
 
 gsap.registerPlugin(ScrollTrigger)
@@ -20,12 +21,12 @@ const breadcrumbs = [
 const filters = ['All', 'European', 'Mediterranean', 'Middle Eastern', 'Asian', 'Seafood', 'Desserts']
 
 const menuItems = [
-  { image: '/menu-appetizer.jpg', name: 'Truffle & Burrata Tartlet', cuisine: 'European' },
-  { image: '/menu-seafood.jpg', name: 'Pan-Seared Sea Bass', cuisine: 'Seafood' },
-  { image: '/menu-meat.jpg', name: 'Wagyu Beef Tenderloin', cuisine: 'European' },
-  { image: '/menu-dessert.jpg', name: 'Dark Chocolate Fondant', cuisine: 'Desserts' },
-  { image: '/menu-cocktails.jpg', name: 'Signature Cocktail Pairing', cuisine: 'European' },
-  { image: '/menu-canapes.jpg', name: 'Smoked Salmon Canapes', cuisine: 'European' },
+  { image: '/menu-appetizer.webp', name: 'Truffle & Burrata Tartlet', cuisine: 'European' },
+  { image: '/menu-seafood.webp', name: 'Pan-Seared Sea Bass', cuisine: 'Seafood' },
+  { image: '/menu-meat.webp', name: 'Wagyu Beef Tenderloin', cuisine: 'European' },
+  { image: '/menu-dessert.webp', name: 'Dark Chocolate Fondant', cuisine: 'Desserts' },
+  { image: '/menu-cocktails.webp', name: 'Signature Cocktail Pairing', cuisine: 'European' },
+  { image: '/menu-canapes.webp', name: 'Smoked Salmon Canapes', cuisine: 'European' },
 ]
 
 const courses = [
@@ -62,9 +63,6 @@ const pairings = [
 
 export default function Menus() {
   const [activeFilter, setActiveFilter] = useState('All')
-  const heroRef = useRef<HTMLDivElement>(null)
-  const heroTitleRef = useRef<HTMLHeadingElement>(null)
-  const heroSubRef = useRef<HTMLParagraphElement>(null)
   const galleryRef = useRef<HTMLDivElement>(null)
   const sampleRef = useRef<HTMLDivElement>(null)
   const dietaryRef = useRef<HTMLDivElement>(null)
@@ -77,22 +75,6 @@ export default function Menus() {
 
   useEffect(() => {
     const ctx = gsap.context(() => {
-      // Hero title word stagger
-      if (heroTitleRef.current) {
-        const words = heroTitleRef.current.querySelectorAll('.word')
-        gsap.fromTo(words,
-          { opacity: 0, y: 40 },
-          { opacity: 1, y: 0, stagger: 0.05, duration: 0.8, ease: 'power3.out', delay: 0.2 }
-        )
-      }
-
-      // Hero subtitle
-      if (heroSubRef.current) {
-        gsap.fromTo(heroSubRef.current,
-          { opacity: 0, y: 20 },
-          { opacity: 1, y: 0, duration: 0.6, delay: 0.5, ease: 'power3.out' }
-        )
-      }
 
       // Gallery cards scroll reveal
       if (galleryRef.current) {
@@ -181,40 +163,15 @@ export default function Menus() {
         schema={breadcrumbSchema(breadcrumbs) as unknown as Record<string, unknown>}
       />
 
-      {/* Breadcrumb Navigation */}
-      <div className="bg-black border-b border-charcoal-light">
-        <div className="container-custom py-4">
-          <nav className="flex items-center gap-2 font-inter text-caption text-gray-500">
-            <Link to="/" className="hover:text-gold transition-colors">Home</Link>
-            <span className="text-gray-500">/</span>
-            <span className="text-gold">Menus</span>
-          </nav>
-        </div>
-      </div>
-
       {/* Section 1: Page Hero */}
-      <section ref={heroRef} className="relative min-h-[50vh] flex items-center justify-center bg-black">
-        <div className="container-custom text-center py-20">
-          <span className="font-inter text-caption font-medium uppercase tracking-wider text-gold mb-4 block">
-            CULINARY OFFERINGS
-          </span>
-          <h1
-            ref={heroTitleRef}
-            className="font-playfair text-h1 md:text-[56px] text-white mb-6"
-          >
-            <span className="word inline-block">Bespoke</span>{' '}
-            <span className="word inline-block">Menus,</span>
-            <br className="hidden sm:block" />
-            <span className="word inline-block">Crafted</span>{' '}
-            <span className="word inline-block">for</span>{' '}
-            <span className="word inline-block">Every</span>{' '}
-            <span className="word inline-block">Palate</span>
-          </h1>
-          <p ref={heroSubRef} className="font-inter text-lg text-gray-400 max-w-[600px] mx-auto">
-            Every menu is designed from scratch. Here is a glimpse of what we create.
-          </p>
-        </div>
-      </section>
+      <PageHero
+        eyebrow="CULINARY OFFERINGS"
+        title={<>Bespoke Menus,<br className="hidden sm:block" /> Crafted for Every Palate</>}
+        subtitle="Every menu is designed from scratch. Here is a glimpse of what we create."
+        breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Menus' }]}
+        minHeight="medium"
+        overlay="dark"
+      />
 
       {/* Section 2: Cuisine Categories - Filterable Gallery */}
       <section className="bg-white section-padding">

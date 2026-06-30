@@ -222,12 +222,12 @@ export default function VillaCateringIdeas() {
         title="Villa Catering Ideas Dubai | Private Chef & Party Menus | myCHEF"
         description="Villa catering ideas for Dubai homes: BBQ, mezze, brunch, canapés, seated dinners, live stations, and dessert tables. Setup tips, staffing, and seasonality advice."
         canonicalPath="/villa-catering-ideas-dubai"
-        ogImage="/service-villa.jpg"
+        ogImage="/service-villa.webp"
         schema={schema}
       />
 
       {/* ═══════════════ Hero ═══════════════ */}
-      <section className="relative min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
+      <section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
           style={{ backgroundImage: 'url(/images/villa-catering-dubai-hero.webp)' }}
@@ -236,16 +236,16 @@ export default function VillaCateringIdeas() {
 
         <div className="relative z-10 container-custom text-center max-w-[800px] py-20">
           <nav className="mb-6 opacity-0 translate-y-4 villa-hero-h1">
-            <ol className="flex items-center justify-center gap-2 font-inter text-[13px]">
-              <li><Link to="/" className="text-[#A3A3A3] hover:text-gold transition-colors">Home</Link></li>
-              <li className="text-[#A3A3A3]">/</li>
-              <li><Link to="/guides" className="text-[#A3A3A3] hover:text-gold transition-colors">Guides</Link></li>
-              <li className="text-[#A3A3A3]">/</li>
+            <ol className="flex items-center justify-center gap-2 font-inter text-body-sm">
+              <li><Link to="/" className="text-gray-400 hover:text-gold transition-colors">Home</Link></li>
+              <li className="text-gray-400">/</li>
+              <li><Link to="/guides" className="text-gray-400 hover:text-gold transition-colors">Guides</Link></li>
+              <li className="text-gray-400">/</li>
               <li><span className="text-gold">Villa Catering Ideas Dubai</span></li>
             </ol>
           </nav>
 
-          <h1 className="font-playfair text-[40px] md:text-[56px] lg:text-[72px] font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 villa-hero-h1">
+          <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 villa-hero-h1">
             Villa Catering Ideas for Dubai Homes and Residences
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 villa-hero-sub">
@@ -275,10 +275,10 @@ export default function VillaCateringIdeas() {
           <h2 className="font-playfair text-h2 text-black mb-6">
             Turn Your Villa Into the Venue
           </h2>
-          <p className="font-inter text-body-lg text-[#737373] leading-relaxed mb-5">
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Dubai's villas and private homes are some of the best places to host. With space for a pool, garden, terrace, and indoor dining, a villa lets you design an event that feels personal and relaxed. The right catering format brings the venue to life and keeps guests comfortable from arrival to clear-down.
           </p>
-          <p className="font-inter text-body-lg text-[#737373] leading-relaxed">
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             Below are the most popular villa catering formats in Dubai, plus practical setup, staffing, and seasonality tips to help you plan.
           </p>
         </div>
@@ -303,7 +303,7 @@ export default function VillaCateringIdeas() {
                 <div key={i} className="villa-format-card bg-charcoal p-8 opacity-0 translate-y-12">
                   <Icon size={36} className="text-gold mb-4" />
                   <h3 className="font-playfair text-h3 text-white mb-3">{fmt.title}</h3>
-                  <p className="font-inter text-body-sm text-[#A3A3A3] leading-relaxed">{fmt.description}</p>
+                  <p className="font-inter text-body-sm text-gray-400 leading-relaxed">{fmt.description}</p>
                 </div>
               )
             })}
@@ -322,7 +322,7 @@ export default function VillaCateringIdeas() {
               <h2 className="font-playfair text-h2 text-black mb-6">
                 Villa Setup Tips
               </h2>
-              <p className="font-inter text-body-lg text-[#737373] leading-relaxed">
+              <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
                 A well-planned layout keeps guests moving, protects food quality, and lets staff work efficiently. Think in zones: arrival, food, drinks, dining, and lounging.
               </p>
             </div>
@@ -330,7 +330,7 @@ export default function VillaCateringIdeas() {
               {setupTips.map((tip, i) => (
                 <div key={i} className="villa-tip-item flex gap-3 bg-white p-5 opacity-0 -translate-x-5">
                   <Check size={20} className="text-gold flex-shrink-0 mt-0.5" />
-                  <p className="font-inter text-body text-[#737373] leading-relaxed">{tip}</p>
+                  <p className="font-inter text-body text-gray-500 leading-relaxed">{tip}</p>
                 </div>
               ))}
             </div>
@@ -353,16 +353,16 @@ export default function VillaCateringIdeas() {
           <div className="villa-staff overflow-x-auto">
             <table className="w-full min-w-[600px] border-collapse">
               <thead>
-                <tr className="border-b border-[#E5E5E5]">
+                <tr className="border-b border-gray-200">
                   <th className="text-left font-inter text-sm uppercase tracking-wider text-gold py-4 px-4">Role</th>
                   <th className="text-left font-inter text-sm uppercase tracking-wider text-gold py-4 px-4">Responsibility</th>
                 </tr>
               </thead>
               <tbody>
                 {staffingNeeds.map((row, i) => (
-                  <tr key={i} className="villa-staff-row border-b border-[#E5E5E5] opacity-0 translate-y-4">
+                  <tr key={i} className="villa-staff-row border-b border-gray-200 opacity-0 translate-y-4">
                     <td className="py-4 px-4 font-playfair text-black text-lg">{row.role}</td>
-                    <td className="py-4 px-4 font-inter text-body-sm text-[#737373]">{row.note}</td>
+                    <td className="py-4 px-4 font-inter text-body-sm text-gray-500">{row.note}</td>
                   </tr>
                 ))}
               </tbody>
@@ -388,7 +388,7 @@ export default function VillaCateringIdeas() {
               <div key={i} className="villa-season-card bg-charcoal p-8 text-center opacity-0 translate-y-12">
                 <Sun size={32} className="text-gold mx-auto mb-4" />
                 <h3 className="font-playfair text-h3 text-white mb-3">{s.season}</h3>
-                <p className="font-inter text-body-sm text-[#A3A3A3] leading-relaxed">{s.note}</p>
+                <p className="font-inter text-body-sm text-gray-400 leading-relaxed">{s.note}</p>
               </div>
             ))}
           </div>
@@ -416,7 +416,7 @@ export default function VillaCateringIdeas() {
             ].map((item, i) => (
               <div key={i} className="flex gap-3">
                 <Check size={20} className="text-gold flex-shrink-0 mt-0.5" />
-                <p className="font-inter text-body text-[#A3A3A3] leading-relaxed">{item}</p>
+                <p className="font-inter text-body text-gray-400 leading-relaxed">{item}</p>
               </div>
             ))}
           </div>
@@ -439,7 +439,7 @@ export default function VillaCateringIdeas() {
               >
                 <div>
                   <h4 className="font-playfair text-h4 text-white mb-1">{link.title}</h4>
-                  <p className="font-inter text-body-sm text-[#A3A3A3]">{link.description}</p>
+                  <p className="font-inter text-body-sm text-gray-400">{link.description}</p>
                 </div>
                 <ArrowRight size={18} className="text-gold flex-shrink-0 ml-4 group-hover:translate-x-1 transition-transform" />
               </Link>
@@ -457,7 +457,7 @@ export default function VillaCateringIdeas() {
 
           <div className="villa-faq space-y-3">
             {faqs.map((faq, i) => (
-              <div key={i} className="villa-faq-item border border-[#E5E5E5] opacity-0 translate-y-5">
+              <div key={i} className="villa-faq-item border border-gray-200 opacity-0 translate-y-5">
                 <button
                   onClick={() => setOpenFaq(openFaq === i ? null : i)}
                   className="w-full flex items-center justify-between p-5 text-left"
@@ -472,7 +472,7 @@ export default function VillaCateringIdeas() {
                   className={`overflow-hidden transition-all duration-300 ${openFaq === i ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'}`}
                 >
                   <div className="px-5 pb-5">
-                    <p className="font-inter text-body-sm text-[#737373] leading-relaxed">{faq.a}</p>
+                    <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{faq.a}</p>
                   </div>
                 </div>
               </div>
@@ -487,7 +487,7 @@ export default function VillaCateringIdeas() {
           <h2 className="font-playfair text-h2 text-white mb-4">
             Plan Your Villa Party
           </h2>
-          <p className="font-inter text-body-lg text-[#A3A3A3] max-w-[600px] mx-auto mb-8">
+          <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
             Tell us about your villa, guest count, and preferred format. We will design a menu and setup plan that fits your space and your occasion.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
