@@ -21,7 +21,7 @@ import SEO from '../components/SEO'
 gsap.registerPlugin(ScrollTrigger)
 
 const WHATSAPP_NUMBER = '971551744849'
-const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to request a catering quote')
+const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to request a catering quote (via mychef.ae/catering-dubai)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 /* ────────────────────── Data ────────────────────── */
@@ -308,9 +308,7 @@ export default function Catering() {
             Premium event catering across Dubai. From intimate gatherings to grand celebrations — every detail handled, every course perfected.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 cat-hero-cta">
-              Request a Catering Quote
-            </Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=catering-dubai" className="btn-primary opacity-0 translate-y-4 cat-hero-cta">Request a Proposal</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -545,9 +543,7 @@ export default function Catering() {
             From concept to execution — we handle every detail of your catering experience.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">
-              Request My Custom Quote
-            </Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=catering-dubai" className="btn-primary">Request a Proposal</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

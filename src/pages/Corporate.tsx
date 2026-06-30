@@ -33,7 +33,7 @@ gsap.registerPlugin(ScrollTrigger)
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent(
-  "Hi myCHEF Dubai, I'd like to request a corporate catering quote"
+  "Hi myCHEF Dubai, I'd like to request a corporate catering quote (via mychef.ae/corporate)"
 )
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
@@ -400,7 +400,7 @@ export default function Corporate() {
             Impress clients. Reward teams. Elevate every business occasion with premium corporate dining and catering.
           </p>
           <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
-            <Link to="/inquiry" className="btn-primary">Request Corporate Quote</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=corporate" className="btn-primary">Request a Proposal</Link>
             <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-secondary">
               Chat on WhatsApp
             </a>
@@ -483,9 +483,7 @@ export default function Corporate() {
                     </li>
                   ))}
                 </ul>
-                <Link to="/inquiry" className="btn-secondary w-full text-center text-sm py-3">
-                  Request This Service
-                </Link>
+                <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=corporate" className="btn-secondary w-full text-center text-sm py-3">Request a Proposal</Link>
               </div>
             ))}
           </div>
@@ -604,7 +602,7 @@ export default function Corporate() {
               Premium corporate catering that reflects the quality of your brand.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link to="/inquiry" className="btn-primary">Request My Custom Quote</Link>
+              <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=corporate" className="btn-primary">Request a Proposal</Link>
               <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-secondary">
                 Chat on WhatsApp
               </a>

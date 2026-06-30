@@ -20,7 +20,7 @@ import SEO from '../components/SEO'
 gsap.registerPlugin(ScrollTrigger)
 
 const WHATSAPP_NUMBER = '971551744849'
-const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to set up a corporate meal prep programme in Dubai')
+const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to set up a corporate meal prep programme in Dubai (via mychef.ae/corporate-meal-prep-dubai)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 /* ────────────────────── Data ────────────────────── */
@@ -294,9 +294,7 @@ export default function CorporateMealPrep() {
             Recurring, portioned meal programmes and wellness retainers for teams across Dubai — balanced menus delivered on a reliable schedule, so good food becomes part of the working week.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 cmp-hero-cta">
-              Request a Meal Prep Quote
-            </Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=corporate-meal-prep-dubai" className="btn-primary opacity-0 translate-y-4 cmp-hero-cta">Request a Proposal</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -530,9 +528,7 @@ export default function CorporateMealPrep() {
             Tell us about your team, your office days, and any dietary needs, and we'll design a recurring, portioned meal programme — wellness-focused and fully managed — that keeps your people well fed week after week.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">
-              Request My Custom Quote
-            </Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=corporate-meal-prep-dubai" className="btn-primary">Request a Proposal</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

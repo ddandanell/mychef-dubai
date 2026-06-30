@@ -20,7 +20,7 @@ import SEO from '../components/SEO'
 gsap.registerPlugin(ScrollTrigger)
 
 const WHATSAPP_NUMBER = '971551744849'
-const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to plan sushi catering in Dubai')
+const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to plan sushi catering in Dubai (via mychef.ae/sushi-catering-dubai)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 /* ────────────────────── Data ────────────────────── */
@@ -294,9 +294,7 @@ export default function SushiCatering() {
             Premium sashimi and nigiri platters, signature maki, and a live sushi chef — from villa gatherings and yacht parties to corporate receptions across Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 sush-hero-cta">
-              Request a Sushi Catering Quote
-            </Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=sushi-catering-dubai" className="btn-primary opacity-0 translate-y-4 sush-hero-cta">Request a Proposal</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -530,9 +528,7 @@ export default function SushiCatering() {
             Tell us about your event and we'll design a sushi menu — and, if you wish, a live sushi chef — built around your guests, venue, and occasion.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">
-              Request My Custom Quote
-            </Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=sushi-catering-dubai" className="btn-primary">Request a Proposal</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

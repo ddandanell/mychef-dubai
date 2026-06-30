@@ -20,7 +20,7 @@ import SEO from '../components/SEO'
 gsap.registerPlugin(ScrollTrigger)
 
 const WHATSAPP_NUMBER = '971551744849'
-const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to request a quote for a private chef')
+const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to request a quote for a private chef (via mychef.ae/private-chef-dubai)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 /* ────────────────────── Data ────────────────────── */
@@ -307,11 +307,9 @@ export default function PrivateChef() {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
-              to="/inquiry"
+              to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=private-chef-dubai"
               className="btn-primary opacity-0 translate-y-4 pc-hero-cta"
-            >
-              Request a Private Chef Quote
-            </Link>
+            >Request a Proposal</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -584,9 +582,7 @@ export default function PrivateChef() {
             Tell us about your occasion and we will craft a bespoke proposal within 2 hours.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">
-              Request My Custom Quote
-            </Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=private-chef-dubai" className="btn-primary">Request a Proposal</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

@@ -21,7 +21,7 @@ import SEO from '../components/SEO'
 gsap.registerPlugin(ScrollTrigger)
 
 const WHATSAPP_NUMBER = '971551744849'
-const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to book Christmas catering in Dubai')
+const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to book Christmas catering in Dubai (via mychef.ae/christmas-catering-dubai)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 /* ────────────────────── Data ────────────────────── */
@@ -273,9 +273,7 @@ export default function ChristmasCatering() {
             Traditional festive menus, roast turkey, canapés, and full-service Christmas catering for villa dinners, office parties, and family celebrations across Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 xmas-hero-cta">
-              Request a Christmas Quote
-            </Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=christmas-catering-dubai" className="btn-primary opacity-0 translate-y-4 xmas-hero-cta">Request a Proposal</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -545,9 +543,7 @@ export default function ChristmasCatering() {
             Tell us about your Christmas plans and we will design a menu, service plan, and festive setup that lets you enjoy the day with your guests.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">
-              Request My Custom Quote
-            </Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=christmas-catering-dubai" className="btn-primary">Request a Proposal</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

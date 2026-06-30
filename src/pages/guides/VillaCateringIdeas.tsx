@@ -21,7 +21,7 @@ import SEO from '../../components/SEO'
 gsap.registerPlugin(ScrollTrigger)
 
 const WHATSAPP_NUMBER = '971551744849'
-const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like villa catering ideas for my home')
+const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like villa catering ideas for my home (via mychef.ae/villa-catering-ideas-dubai)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 /* ────────────────────── Data ────────────────────── */
@@ -252,9 +252,7 @@ export default function VillaCateringIdeas() {
             Menu formats, setup tips, and staffing guidance for unforgettable villa parties across Dubai, from poolside BBQs to elegant seated dinners.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 villa-hero-cta">
-              Plan My Villa Catering
-            </Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=villa-catering-ideas-dubai" className="btn-primary opacity-0 translate-y-4 villa-hero-cta">Get My Custom Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -493,9 +491,7 @@ export default function VillaCateringIdeas() {
             Tell us about your villa, guest count, and preferred format. We will design a menu and setup plan that fits your space and your occasion.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">
-              Request My Villa Catering Quote
-            </Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=villa-catering-ideas-dubai" className="btn-primary">Get My Custom Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

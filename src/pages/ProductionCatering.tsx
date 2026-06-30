@@ -20,7 +20,7 @@ import SEO from '../components/SEO'
 gsap.registerPlugin(ScrollTrigger)
 
 const WHATSAPP_NUMBER = '971551744849'
-const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to arrange production catering in Dubai')
+const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to arrange production catering in Dubai (via mychef.ae/production-catering-dubai)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 /* ────────────────────── Data ────────────────────── */
@@ -294,9 +294,7 @@ export default function ProductionCatering() {
             On-location catering for TV, photo, and event productions across Dubai — daily crew meals, craft services, and full dietary coverage that keeps every shoot running on time.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 prod-hero-cta">
-              Request a Production Catering Quote
-            </Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=production-catering-dubai" className="btn-primary opacity-0 translate-y-4 prod-hero-cta">Request a Proposal</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -530,9 +528,7 @@ export default function ProductionCatering() {
             Tell us about your shoot — the dates, locations, headcount, and dietary needs — and we'll build a catering plan that keeps your production fed, focused, and on schedule.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">
-              Request My Custom Quote
-            </Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=production-catering-dubai" className="btn-primary">Request a Proposal</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

@@ -19,7 +19,7 @@ import SEO from '../components/SEO'
 gsap.registerPlugin(ScrollTrigger)
 
 const WHATSAPP_NUMBER = '971551744849'
-const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to plan Ramadan catering in Dubai')
+const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to plan Ramadan catering in Dubai (via mychef.ae/ramadan-catering-dubai)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 /* ────────────────────── Data ────────────────────── */
@@ -293,9 +293,7 @@ export default function RamadanCatering() {
             Halal iftar and suhoor menus for home, majlis, corporate, and villa gatherings across Dubai — traditional spreads, attentive service, and timing planned around prayer.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 ram-hero-cta">
-              Request a Ramadan Catering Quote
-            </Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=ramadan-catering-dubai" className="btn-primary opacity-0 translate-y-4 ram-hero-cta">Request a Proposal</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -540,9 +538,7 @@ export default function RamadanCatering() {
             Tell us about your iftar or suhoor and we'll design a halal menu, time the service around prayer, and handle every detail. Booking six to eight weeks ahead secures your dates.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">
-              Request My Custom Quote
-            </Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=ramadan-catering-dubai" className="btn-primary">Request a Proposal</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

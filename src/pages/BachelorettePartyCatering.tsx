@@ -20,7 +20,7 @@ import SEO from '../components/SEO'
 gsap.registerPlugin(ScrollTrigger)
 
 const WHATSAPP_NUMBER = '971551744849'
-const WHATSAPP_MESSAGE = encodeURIComponent("Hi myCHEF Dubai, I'd like to plan bachelorette party catering")
+const WHATSAPP_MESSAGE = encodeURIComponent("Hi myCHEF Dubai, I'd like to plan bachelorette party catering (via mychef.ae/bachelorette-party-catering-dubai)")
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 /* ────────────────────── Data ────────────────────── */
@@ -292,9 +292,7 @@ export default function BachelorettePartyCatering() {
             Elegant canapes, lavish grazing tables, signature cocktails and mocktails, and styled dessert spreads. Refined catering for villa and rooftop celebrations across Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 bt-hero-cta">
-              Request a Custom Proposal
-            </Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=bachelorette-party-catering-dubai" className="btn-primary opacity-0 translate-y-4 bt-hero-cta">Request a Proposal</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -324,7 +322,7 @@ export default function BachelorettePartyCatering() {
             Every menu is designed around the theme, the colours, and the group, with elegant alcohol-free mocktails poured alongside signature cocktails so no guest is left out. Our team styles the space, serves throughout, and clears it all away, available for Dubai events of every size. Explore our wider{' '}
             <Link to="/catering-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">catering in Dubai</Link>{' '}
             or request a{' '}
-            <Link to="/inquiry" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">custom proposal</Link>.
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=bachelorette-party-catering-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">Request a Proposal</Link>.
           </p>
         </div>
       </section>
@@ -537,9 +535,7 @@ export default function BachelorettePartyCatering() {
             Share the date, the venue, and the theme — we will style the grazing tables, the bar, and the dessert spread around it.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">
-              Request a Custom Proposal
-            </Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=bachelorette-party-catering-dubai" className="btn-primary">Request a Proposal</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

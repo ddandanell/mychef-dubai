@@ -16,7 +16,7 @@ import SEO from '../../components/SEO'
 gsap.registerPlugin(ScrollTrigger)
 
 const WHATSAPP_NUMBER = '971551744849'
-const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'m deciding between a private chef and catering')
+const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'m deciding between a private chef and catering (via mychef.ae/private-chef-vs-catering-dubai)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 /* ────────────────────── Data ────────────────────── */
@@ -225,9 +225,7 @@ export default function PrivateChefVsCatering() {
             A clear comparison to help you choose between a private chef and full catering for your Dubai home, villa, or event.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 pvc-hero-cta">
-              Get Personalised Advice
-            </Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=private-chef-vs-catering-dubai" className="btn-primary opacity-0 translate-y-4 pvc-hero-cta">Get My Custom Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -456,9 +454,7 @@ export default function PrivateChefVsCatering() {
             Tell us about your guest count, venue, and the experience you want. We will recommend the right service and send a tailored quote.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">
-              Request My Recommendation
-            </Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=private-chef-vs-catering-dubai" className="btn-primary">Get My Custom Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

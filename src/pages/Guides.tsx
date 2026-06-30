@@ -24,7 +24,7 @@ import SEO from '../components/SEO'
 gsap.registerPlugin(ScrollTrigger)
 
 const WHATSAPP_NUMBER = '971551744849'
-const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I found your guides and would like to discuss catering')
+const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I found your guides and would like to discuss catering (via mychef.ae/guides)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 const guides = [
@@ -221,7 +221,7 @@ export default function Guides() {
             Practical guides to help you plan private dining, events, weddings, corporate functions and celebrations across Dubai — from budgets and checklists to menu ideas and timing.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 guides-hero-cta">
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=guides" className="btn-primary opacity-0 translate-y-4 guides-hero-cta">
               Request a Custom Quote
             </Link>
             <a
@@ -351,7 +351,7 @@ export default function Guides() {
             Read the guides, then request a custom proposal. We design menus and service plans for villas, offices, yachts and event spaces across Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=guides" className="btn-primary">
               Request My Custom Quote
             </Link>
             <a

@@ -1,4 +1,5 @@
 import SEO from '@/components/SEO'
+import TrustBar from '@/components/TrustBar'
 import HeroSection from '@/sections/HeroSection'
 import ServicesSection from '@/sections/ServicesSection'
 import TrustSection from '@/sections/TrustSection'
@@ -26,6 +27,7 @@ export default function Home() {
         schema={combinedSchema as unknown as Record<string, unknown>}
       />
       <HeroSection />
+      <TrustBar />
       <ServicesSection />
       <TrustSection />
       <HowItWorksSection />

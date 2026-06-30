@@ -16,7 +16,7 @@ import SEO from '../../components/SEO'
 gsap.registerPlugin(ScrollTrigger)
 
 const WHATSAPP_NUMBER = '971551744849'
-const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like help planning a luxury dinner')
+const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like help planning a luxury dinner (via mychef.ae/luxury-dinner-planning-guide-dubai)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 /* ────────────────────── Data ────────────────────── */
@@ -252,9 +252,7 @@ export default function LuxuryDinnerPlanningGuide() {
             How to design an unforgettable private dining experience, from menu and tablescape to lighting, service, and hosting.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 lux-hero-cta">
-              Plan a Luxury Dinner
-            </Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=luxury-dinner-planning-guide-dubai" className="btn-primary opacity-0 translate-y-4 lux-hero-cta">Get My Custom Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -506,9 +504,7 @@ export default function LuxuryDinnerPlanningGuide() {
             Tell us about your occasion, guest list, and vision. We will create a tailored menu, tablescape, and service plan for an unforgettable evening.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">
-              Plan My Luxury Dinner
-            </Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=luxury-dinner-planning-guide-dubai" className="btn-primary">Get My Custom Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

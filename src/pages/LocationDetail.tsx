@@ -61,9 +61,9 @@ export default function LocationDetail() {
 
   const whatsappLink = loc
     ? `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(
-        loc.callToAction.whatsappMessage
+        `${loc.callToAction.whatsappMessage} (via mychef.ae/locations/${loc.slug})`
       )}`
-    : `https://wa.me/${WHATSAPP_NUMBER}`
+    : `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent('Hi myCHEF Dubai, I\'d like to request a quote (via mychef.ae/locations)')}`
 
   useGSAP(
     () => {
@@ -127,9 +127,12 @@ export default function LocationDetail() {
           <p className="text-gray-400 mb-8">We serve all of Dubai. Explore our locations or contact us directly.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/locations" className="btn-primary">View All Locations</Link>
-            <a href={`https://wa.me/${WHATSAPP_NUMBER}`} target="_blank" rel="noopener noreferrer" className="btn-secondary">
-              Chat on WhatsApp
-            </a>
+            <a
+              href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent('Hi myCHEF Dubai, I\'d like to request a quote (via mychef.ae/locations)')}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-secondary"
+            >Chat on WhatsApp</a>
           </div>
         </div>
       </div>
@@ -236,8 +239,8 @@ export default function LocationDetail() {
             {loc.heroSubtitle}
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 loc-hero-cta">
-              Request a Custom Quote
+            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=locations/${loc.slug}`} className="btn-primary opacity-0 translate-y-4 loc-hero-cta">
+              Check Availability
             </Link>
             <a
               href={whatsappLink}
@@ -543,8 +546,8 @@ export default function LocationDetail() {
             {loc.callToAction.subtitle}
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">
-              Request My Custom Quote
+            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=locations/${loc.slug}`} className="btn-primary">
+              Check Availability
             </Link>
             <a
               href={whatsappLink}

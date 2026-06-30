@@ -25,7 +25,7 @@ gsap.registerPlugin(ScrollTrigger)
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent(
-  "Hi myCHEF Dubai, I'd like to request a quote for event catering"
+  "Hi myCHEF Dubai, I'd like to request a quote for event catering (via mychef.ae/events)"
 )
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
@@ -446,9 +446,7 @@ export default function Events() {
 
           {/* CTA Row */}
           <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
-            <Link to="/inquiry" className="btn-primary">
-              Plan My Event
-            </Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=events" className="btn-primary">Request a Proposal</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -727,9 +725,7 @@ export default function Events() {
               experience your guests will never forget.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link to="/inquiry" className="btn-primary">
-                Request My Custom Quote
-              </Link>
+              <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=events" className="btn-primary">Request a Proposal</Link>
               <a
                 href={WHATSAPP_LINK}
                 target="_blank"

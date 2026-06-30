@@ -19,7 +19,7 @@ import SEO from '../components/SEO'
 gsap.registerPlugin(ScrollTrigger)
 
 const WHATSAPP_NUMBER = '971551744849'
-const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to plan Eid catering in Dubai')
+const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to plan Eid catering in Dubai (via mychef.ae/eid-catering-dubai)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 /* ────────────────────── Data ────────────────────── */
@@ -293,9 +293,7 @@ export default function EidCatering() {
             Halal Eid al-Fitr and Eid al-Adha feasts for family gatherings across Dubai — ouzi and whole-lamb roasts, generous mezze and grills, and traditional Eid sweets.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 eid-hero-cta">
-              Request an Eid Catering Quote
-            </Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=eid-catering-dubai" className="btn-primary opacity-0 translate-y-4 eid-hero-cta">Request a Proposal</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -529,9 +527,7 @@ export default function EidCatering() {
             Tell us about your Eid gathering and we'll design a halal feast — ouzi, grills, and sweets — handle the cooking and service, and let you enjoy the day. Book six to eight weeks ahead to secure your dates.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">
-              Request My Custom Quote
-            </Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=eid-catering-dubai" className="btn-primary">Request a Proposal</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

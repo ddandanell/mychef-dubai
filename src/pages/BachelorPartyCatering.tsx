@@ -20,7 +20,7 @@ import SEO from '../components/SEO'
 gsap.registerPlugin(ScrollTrigger)
 
 const WHATSAPP_NUMBER = '971551744849'
-const WHATSAPP_MESSAGE = encodeURIComponent("Hi myCHEF Dubai, I'd like to plan bachelor party catering")
+const WHATSAPP_MESSAGE = encodeURIComponent("Hi myCHEF Dubai, I'd like to plan bachelor party catering (via mychef.ae/bachelor-party-catering-dubai)")
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 /* ────────────────────── Data ────────────────────── */
@@ -292,9 +292,7 @@ export default function BachelorPartyCatering() {
             Live grills, premium cuts, and full cocktail service for the send-off. Catering built for yacht charters, villa takeovers, and unforgettable nights across Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 bp-hero-cta">
-              Request a Custom Proposal
-            </Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=bachelor-party-catering-dubai" className="btn-primary opacity-0 translate-y-4 bp-hero-cta">Request a Proposal</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -324,7 +322,7 @@ export default function BachelorPartyCatering() {
             We lean into bold, carnivore-forward menus: dry-aged steaks, wagyu sliders, slow-smoked brisket, and lamb chops seared over live flame. Pair them with signature cocktails poured by professional bartenders and you have a setup designed for a long night with a great group. Every detail is planned with you in advance and available for Dubai events of all sizes. Browse our wider{' '}
             <Link to="/catering-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">catering in Dubai</Link>{' '}
             or jump straight to a{' '}
-            <Link to="/inquiry" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">custom proposal</Link>.
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=bachelor-party-catering-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">Request a Proposal</Link>.
           </p>
         </div>
       </section>
@@ -538,9 +536,7 @@ export default function BachelorPartyCatering() {
             Tell us the date, the venue, and the group — we will build the grill, the bar, and the menu around it.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">
-              Request a Custom Proposal
-            </Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=bachelor-party-catering-dubai" className="btn-primary">Request a Proposal</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

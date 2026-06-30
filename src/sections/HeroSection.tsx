@@ -123,8 +123,8 @@ export default function HeroSection() {
 
         {/* CTA Row */}
         <div ref={ctaRef} className="mt-10 flex flex-col sm:flex-row gap-4">
-          <Link to="/inquiry" className="btn-primary text-center">
-            Request My Custom Quote
+          <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=home" className="btn-primary text-center">
+            Request a Proposal
           </Link>
           <a href="#services" className="btn-secondary text-center">
             Browse Our Services

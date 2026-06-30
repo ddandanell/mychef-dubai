@@ -15,7 +15,7 @@ export default function Placeholder({ title }: PlaceholderProps) {
           This page is coming soon. Contact us to learn more about our services.
         </p>
         <div className="flex flex-col sm:flex-row gap-4">
-          <Link to="/inquiry" className="btn-primary">Request a Quote</Link>
+          <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=placeholder" className="btn-primary">Request a Quote</Link>
           <Link to="/" className="btn-secondary">Back to Home</Link>
         </div>
       </div>

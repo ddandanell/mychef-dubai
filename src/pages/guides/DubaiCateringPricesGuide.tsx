@@ -19,7 +19,7 @@ import SEO from '../../components/SEO'
 gsap.registerPlugin(ScrollTrigger)
 
 const WHATSAPP_NUMBER = '971551744849'
-const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like a custom catering quote for my event')
+const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like a custom catering quote for my event (via mychef.ae/dubai-catering-prices-guide)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 /* ────────────────────── Data ────────────────────── */
@@ -249,9 +249,7 @@ export default function DubaiCateringPricesGuide() {
             A practical breakdown of Dubai catering costs per person, the factors that move the price, and how to request a custom quote that fits your event.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 price-hero-cta">
-              Request a Custom Quote
-            </Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=dubai-catering-prices-guide" className="btn-primary opacity-0 translate-y-4 price-hero-cta">Get My Custom Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -384,9 +382,7 @@ export default function DubaiCateringPricesGuide() {
               <p className="font-inter text-body-lg text-[#737373] leading-relaxed mb-6">
                 Fixed packages can look simple, but they often force you into a predetermined menu, guest count band, or service style that does not match your event. A custom quote starts from your brief and builds outward.
               </p>
-              <Link to="/inquiry" className="btn-primary">
-                Get Your Custom Quote
-              </Link>
+              <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=dubai-catering-prices-guide" className="btn-primary">Get My Custom Quote</Link>
             </div>
             <div className="space-y-4">
               {whyCustom.map((item, i) => (
@@ -491,9 +487,7 @@ export default function DubaiCateringPricesGuide() {
             Tell us about your event and we will send an itemised custom proposal that matches your menu, guest count, and venue.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">
-              Request My Custom Quote
-            </Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=dubai-catering-prices-guide" className="btn-primary">Get My Custom Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

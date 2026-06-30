@@ -2,8 +2,9 @@ import { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import { Check, Phone, Mail, MapPin, Loader2 } from 'lucide-react'
+import { Check, Phone, Mail, MapPin, Loader2, ChevronLeft, ChevronRight } from 'lucide-react'
 import SEO from '@/components/SEO'
+import TrustBar from '@/components/TrustBar'
 import { breadcrumbSchema } from '@/utils/schema'
 
 gsap.registerPlugin(ScrollTrigger)
@@ -72,6 +73,18 @@ const dubaiAreas = [
   'Other / Not Listed',
 ]
 
+const steps = [
+  { number: 1, label: 'Event Details' },
+  { number: 2, label: 'Contact Info' },
+  { number: 3, label: 'Preferences' },
+]
+
+const stepFields: Record<number, string[]> = {
+  1: ['serviceType', 'eventDate', 'numGuests', 'location'],
+  2: ['fullName', 'email', 'whatsapp'],
+  3: [],
+}
+
 type FormErrors = Partial<Record<string, string>>
 
 export default function Inquiry() {
@@ -89,6 +102,7 @@ export default function Inquiry() {
     specialRequests: '',
   })
   const [errors, setErrors] = useState<FormErrors>({})
+  const [currentStep, setCurrentStep] = useState(1)
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [isSubmitted, setIsSubmitted] = useState(false)
 
@@ -126,10 +140,18 @@ export default function Inquiry() {
     return undefined
   }
 
+  const validateStep = (step: number): FormErrors => {
+    const newErrors: FormErrors = {}
+    stepFields[step].forEach((field) => {
+      const error = validateField(field, formData[field as keyof typeof formData] as string)
+      if (error) newErrors[field] = error
+    })
+    return newErrors
+  }
+
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target
     setFormData((prev) => ({ ...prev, [name]: value }))
-    // Clear error on change
     if (errors[name]) {
       setErrors((prev) => {
         const next = { ...prev }
@@ -149,23 +171,40 @@ export default function Inquiry() {
     })
   }
 
+  const handleNext = () => {
+    const stepErrors = validateStep(currentStep)
+    if (Object.keys(stepErrors).length > 0) {
+      setErrors(stepErrors)
+      return
+    }
+    setErrors({})
+    setCurrentStep((prev) => Math.min(prev + 1, 3))
+  }
+
+  const handleBack = () => {
+    setErrors({})
+    setCurrentStep((prev) => Math.max(prev - 1, 1))
+  }
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    const newErrors: FormErrors = {}
 
-    // Validate all required fields
-    const requiredFields = ['fullName', 'email', 'whatsapp', 'serviceType', 'eventDate', 'numGuests', 'location']
-    requiredFields.forEach((field) => {
+    const newErrors: FormErrors = {}
+    Object.values(stepFields).flat().forEach((field) => {
       const error = validateField(field, formData[field as keyof typeof formData] as string)
       if (error) newErrors[field] = error
     })
 
     if (Object.keys(newErrors).length > 0) {
       setErrors(newErrors)
+      // Jump to the first step with errors
+      const firstErrorStep = (Object.keys(newErrors)[0] ?
+        Object.entries(stepFields).find(([, fields]) => fields.includes(Object.keys(newErrors)[0]))?.[0]
+        : undefined)
+      if (firstErrorStep) setCurrentStep(Number(firstErrorStep))
       return
     }
 
-    // Build WhatsApp lead and hand off to the business
     setIsSubmitting(true)
     const lines = [
       'New quote request — myCHEF Dubai',
@@ -193,7 +232,6 @@ export default function Inquiry() {
 
   useEffect(() => {
     const ctx = gsap.context(() => {
-      // Hero title word stagger
       if (heroTitleRef.current) {
         const words = heroTitleRef.current.querySelectorAll('.word')
         gsap.fromTo(words,
@@ -202,7 +240,6 @@ export default function Inquiry() {
         )
       }
 
-      // Hero subtitle
       if (heroSubRef.current) {
         gsap.fromTo(heroSubRef.current,
           { opacity: 0, y: 20 },
@@ -210,7 +247,6 @@ export default function Inquiry() {
         )
       }
 
-      // Form section
       if (formRef.current) {
         gsap.fromTo(formRef.current,
           { opacity: 0, x: -30 },
@@ -219,7 +255,6 @@ export default function Inquiry() {
         )
       }
 
-      // Sidebar
       if (sidebarRef.current) {
         gsap.fromTo(sidebarRef.current,
           { opacity: 0, x: 30 },
@@ -228,7 +263,6 @@ export default function Inquiry() {
         )
       }
 
-      // Alt contact section
       if (altContactRef.current) {
         gsap.fromTo(altContactRef.current.querySelector('.alt-content'),
           { opacity: 0, y: 30 },
@@ -241,7 +275,6 @@ export default function Inquiry() {
     return () => ctx.revert()
   }, [])
 
-  // Success State
   if (isSubmitted) {
     return (
       <>
@@ -315,14 +348,16 @@ export default function Inquiry() {
             ref={heroTitleRef}
             className="font-playfair text-h1 md:text-[56px] text-white mb-6"
           >
-            <span className="word inline-block">Request</span>{' '}
-            <span className="word inline-block">Your</span>
-            <br className="hidden sm:block" />
-            <span className="word inline-block">Custom</span>{' '}
+            <span className="word inline-block">Your</span>{' '}
             <span className="word inline-block">Quote</span>
+            <br className="hidden sm:block" />
+            <span className="word inline-block">in</span>{' '}
+            <span className="word inline-block">3</span>{' '}
+            <span className="word inline-block">Simple</span>{' '}
+            <span className="word inline-block">Steps</span>
           </h1>
           <p ref={heroSubRef} className="font-inter text-lg text-gray-400 max-w-[600px] mx-auto">
-            Tell us about your event and we will craft a bespoke proposal within 2 hours.
+            Complete our short multi-step quote form and we will craft a bespoke proposal within 2 hours.
           </p>
         </div>
       </section>
@@ -337,270 +372,422 @@ export default function Inquiry() {
                 Tell Us About Your Event
               </h2>
               <p className="font-inter text-body-sm text-gray-500 mb-8">
-                All fields are required unless marked optional.
+                Step {currentStep} of 3 — {steps[currentStep - 1].label}
               </p>
 
+              {/* Step Indicator */}
+              <div className="relative mb-10">
+                {/* Background track */}
+                <div className="absolute top-4 left-0 w-full h-[2px] bg-charcoal-light" />
+                {/* Active progress fill */}
+                <div
+                  className="absolute top-4 left-0 h-[2px] bg-gold transition-all duration-300"
+                  style={{ width: `${((currentStep - 1) / (steps.length - 1)) * 100}%` }}
+                />
+                <div className="relative flex justify-between">
+                  {steps.map((step) => {
+                    const isCompleted = currentStep > step.number
+                    const isActive = currentStep === step.number
+                    return (
+                      <div key={step.number} className="flex flex-col items-center">
+                        <div
+                          className={`w-8 h-8 rounded-full flex items-center justify-center border-2 transition-colors duration-200 ${
+                            isActive || isCompleted
+                              ? 'bg-gold border-gold'
+                              : 'bg-white border-charcoal-light'
+                          }`}
+                        >
+                          {isCompleted ? (
+                            <Check size={16} className="text-black" />
+                          ) : (
+                            <span
+                              className={`font-inter text-sm font-medium ${
+                                isActive ? 'text-black' : 'text-gray-500'
+                              }`}
+                            >
+                              {step.number}
+                            </span>
+                          )}
+                        </div>
+                        <span
+                          className={`font-inter text-caption mt-2 hidden sm:block ${
+                            isActive || isCompleted ? 'text-black' : 'text-gray-500'
+                          }`}
+                        >
+                          {step.label}
+                        </span>
+                      </div>
+                    )
+                  })}
+                </div>
+              </div>
+
               <form onSubmit={handleSubmit} className="flex flex-col gap-5">
-                {/* 1. Full Name */}
-                <div>
-                  <label htmlFor="fullName" className="font-inter text-caption font-medium uppercase tracking-wider text-black mb-2 block">
-                    Your Name *
-                  </label>
-                  <input
-                    type="text"
-                    id="fullName"
-                    name="fullName"
-                    placeholder="Full name"
-                    value={formData.fullName}
-                    onChange={handleChange}
-                    className={`w-full bg-charcoal border px-4 py-3.5 font-inter text-body text-white placeholder-gray-500 outline-none transition-all duration-200 focus:border-gold focus:shadow-[0_0_0_2px_rgba(200,164,92,0.2)] ${
-                      errors.fullName ? 'border-red-500' : 'border-charcoal-light'
-                    }`}
-                  />
-                  {errors.fullName && (
-                    <p className="font-inter text-xs text-red-500 mt-1">{errors.fullName}</p>
-                  )}
-                </div>
+                {/* Step 1: Event Details */}
+                {currentStep === 1 && (
+                  <div className="flex flex-col gap-5">
+                    <h3 className="font-playfair text-[24px] text-black mb-2">
+                      Event Details
+                    </h3>
 
-                {/* 2. Email */}
-                <div>
-                  <label htmlFor="email" className="font-inter text-caption font-medium uppercase tracking-wider text-black mb-2 block">
-                    Email Address *
-                  </label>
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    placeholder="your@email.com"
-                    value={formData.email}
-                    onChange={handleChange}
-                    className={`w-full bg-charcoal border px-4 py-3.5 font-inter text-body text-white placeholder-gray-500 outline-none transition-all duration-200 focus:border-gold focus:shadow-[0_0_0_2px_rgba(200,164,92,0.2)] ${
-                      errors.email ? 'border-red-500' : 'border-charcoal-light'
-                    }`}
-                  />
-                  {errors.email && (
-                    <p className="font-inter text-xs text-red-500 mt-1">{errors.email}</p>
-                  )}
-                </div>
-
-                {/* 3. WhatsApp */}
-                <div>
-                  <label htmlFor="whatsapp" className="font-inter text-caption font-medium uppercase tracking-wider text-black mb-2 block">
-                    Phone / WhatsApp *
-                  </label>
-                  <input
-                    type="tel"
-                    id="whatsapp"
-                    name="whatsapp"
-                    placeholder="+971 XX XXX XXXX"
-                    value={formData.whatsapp}
-                    onChange={handleChange}
-                    className={`w-full bg-charcoal border px-4 py-3.5 font-inter text-body text-white placeholder-gray-500 outline-none transition-all duration-200 focus:border-gold focus:shadow-[0_0_0_2px_rgba(200,164,92,0.2)] ${
-                      errors.whatsapp ? 'border-red-500' : 'border-charcoal-light'
-                    }`}
-                  />
-                  {errors.whatsapp && (
-                    <p className="font-inter text-xs text-red-500 mt-1">{errors.whatsapp}</p>
-                  )}
-                  <p className="font-inter text-xs text-gray-500 mt-1">
-                    We will contact you via WhatsApp for faster communication.
-                  </p>
-                </div>
-
-                {/* 4. Service Type */}
-                <div>
-                  <label htmlFor="serviceType" className="font-inter text-caption font-medium uppercase tracking-wider text-black mb-2 block">
-                    Type of Service *
-                  </label>
-                  <select
-                    id="serviceType"
-                    name="serviceType"
-                    value={formData.serviceType}
-                    onChange={handleChange}
-                    className={`w-full bg-charcoal border px-4 py-3.5 font-inter text-body text-white outline-none transition-all duration-200 focus:border-gold focus:shadow-[0_0_0_2px_rgba(200,164,92,0.2)] appearance-none cursor-pointer ${
-                      errors.serviceType ? 'border-red-500' : 'border-charcoal-light'
-                    } ${!formData.serviceType ? 'text-gray-500' : 'text-white'}`}
-                    style={{ backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23C8A45C' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E")`, backgroundRepeat: 'no-repeat', backgroundPosition: 'right 16px center' }}
-                  >
-                    <option value="" disabled>Select a service type</option>
-                    {serviceTypes.map((type) => (
-                      <option key={type} value={type}>{type}</option>
-                    ))}
-                  </select>
-                  {errors.serviceType && (
-                    <p className="font-inter text-xs text-red-500 mt-1">{errors.serviceType}</p>
-                  )}
-                </div>
-
-                {/* 5. Event Date */}
-                <div>
-                  <label htmlFor="eventDate" className="font-inter text-caption font-medium uppercase tracking-wider text-black mb-2 block">
-                    Event Date *
-                  </label>
-                  <input
-                    type="date"
-                    id="eventDate"
-                    name="eventDate"
-                    value={formData.eventDate}
-                    onChange={handleChange}
-                    min={new Date().toISOString().split('T')[0]}
-                    className={`w-full bg-charcoal border px-4 py-3.5 font-inter text-body text-white outline-none transition-all duration-200 focus:border-gold focus:shadow-[0_0_0_2px_rgba(200,164,92,0.2)] ${
-                      errors.eventDate ? 'border-red-500' : 'border-charcoal-light'
-                    }`}
-                  />
-                  {errors.eventDate && (
-                    <p className="font-inter text-xs text-red-500 mt-1">{errors.eventDate}</p>
-                  )}
-                </div>
-
-                {/* 6. Number of Guests */}
-                <div>
-                  <label htmlFor="numGuests" className="font-inter text-caption font-medium uppercase tracking-wider text-black mb-2 block">
-                    Number of Guests *
-                  </label>
-                  <input
-                    type="number"
-                    id="numGuests"
-                    name="numGuests"
-                    placeholder="Approximate number of guests"
-                    min="1"
-                    value={formData.numGuests}
-                    onChange={handleChange}
-                    className={`w-full bg-charcoal border px-4 py-3.5 font-inter text-body text-white placeholder-gray-500 outline-none transition-all duration-200 focus:border-gold focus:shadow-[0_0_0_2px_rgba(200,164,92,0.2)] ${
-                      errors.numGuests ? 'border-red-500' : 'border-charcoal-light'
-                    }`}
-                  />
-                  {errors.numGuests && (
-                    <p className="font-inter text-xs text-red-500 mt-1">{errors.numGuests}</p>
-                  )}
-                </div>
-
-                {/* 7. Location */}
-                <div>
-                  <label htmlFor="location" className="font-inter text-caption font-medium uppercase tracking-wider text-black mb-2 block">
-                    Event Location/Area *
-                  </label>
-                  <select
-                    id="location"
-                    name="location"
-                    value={formData.location}
-                    onChange={handleChange}
-                    className={`w-full bg-charcoal border px-4 py-3.5 font-inter text-body text-white outline-none transition-all duration-200 focus:border-gold focus:shadow-[0_0_0_2px_rgba(200,164,92,0.2)] appearance-none cursor-pointer ${
-                      errors.location ? 'border-red-500' : 'border-charcoal-light'
-                    } ${!formData.location ? 'text-gray-500' : 'text-white'}`}
-                    style={{ backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23C8A45C' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E")`, backgroundRepeat: 'no-repeat', backgroundPosition: 'right 16px center' }}
-                  >
-                    <option value="" disabled>Select your area in Dubai</option>
-                    {dubaiAreas.map((area) => (
-                      <option key={area} value={area}>{area}</option>
-                    ))}
-                  </select>
-                  {errors.location && (
-                    <p className="font-inter text-xs text-red-500 mt-1">{errors.location}</p>
-                  )}
-                </div>
-
-                {/* 8. Cuisine Preferences */}
-                <div>
-                  <label htmlFor="cuisinePreferences" className="font-inter text-caption font-medium uppercase tracking-wider text-black mb-2 block">
-                    Cuisine Preferences <span className="text-gray-500 normal-case tracking-normal">(optional)</span>
-                  </label>
-                  <input
-                    type="text"
-                    id="cuisinePreferences"
-                    name="cuisinePreferences"
-                    placeholder="e.g., Mediterranean, Asian Fusion, French..."
-                    value={formData.cuisinePreferences}
-                    onChange={handleChange}
-                    className="w-full bg-charcoal border border-charcoal-light px-4 py-3.5 font-inter text-body text-white placeholder-gray-500 outline-none transition-all duration-200 focus:border-gold focus:shadow-[0_0_0_2px_rgba(200,164,92,0.2)]"
-                  />
-                </div>
-
-                {/* 9. Dietary Restrictions */}
-                <div>
-                  <label className="font-inter text-caption font-medium uppercase tracking-wider text-black mb-3 block">
-                    Dietary Restrictions <span className="text-gray-500 normal-case tracking-normal">(optional)</span>
-                  </label>
-                  <div className="flex flex-wrap gap-3">
-                    {dietaryOptions.map((option) => (
-                      <label
-                        key={option}
-                        className={`inline-flex items-center gap-2 border px-4 py-2 font-inter text-body-sm cursor-pointer transition-all duration-200 select-none ${
-                          formData.dietaryRestrictions.includes(option)
-                            ? 'border-gold bg-gold/10 text-black'
-                            : 'border-charcoal-light bg-charcoal text-gray-400 hover:border-gold/50'
-                        }`}
-                      >
-                        <input
-                          type="checkbox"
-                          className="sr-only"
-                          checked={formData.dietaryRestrictions.includes(option)}
-                          onChange={() => handleCheckboxChange('dietaryRestrictions', option)}
-                        />
-                        {option}
+                    {/* Service Type */}
+                    <div>
+                      <label htmlFor="serviceType" className="font-inter text-caption font-medium uppercase tracking-wider text-black mb-2 block">
+                        Type of Service *
                       </label>
-                    ))}
-                  </div>
-                </div>
-
-                {/* 10. Additional Services */}
-                <div>
-                  <label className="font-inter text-caption font-medium uppercase tracking-wider text-black mb-3 block">
-                    Additional Services <span className="text-gray-500 normal-case tracking-normal">(optional)</span>
-                  </label>
-                  <div className="flex flex-wrap gap-3">
-                    {additionalServices.map((service) => (
-                      <label
-                        key={service}
-                        className={`inline-flex items-center gap-2 border px-4 py-2 font-inter text-body-sm cursor-pointer transition-all duration-200 select-none ${
-                          formData.additionalServices.includes(service)
-                            ? 'border-gold bg-gold/10 text-black'
-                            : 'border-charcoal-light bg-charcoal text-gray-400 hover:border-gold/50'
-                        }`}
+                      <select
+                        id="serviceType"
+                        name="serviceType"
+                        value={formData.serviceType}
+                        onChange={handleChange}
+                        className={`w-full bg-charcoal border px-4 py-3.5 font-inter text-body text-white outline-none transition-all duration-200 focus:border-gold focus:shadow-[0_0_0_2px_rgba(200,164,92,0.2)] appearance-none cursor-pointer ${
+                          errors.serviceType ? 'border-red-500' : 'border-charcoal-light'
+                        } ${!formData.serviceType ? 'text-gray-500' : 'text-white'}`}
+                        style={{ backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23C8A45C' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E")`, backgroundRepeat: 'no-repeat', backgroundPosition: 'right 16px center' }}
                       >
-                        <input
-                          type="checkbox"
-                          className="sr-only"
-                          checked={formData.additionalServices.includes(service)}
-                          onChange={() => handleCheckboxChange('additionalServices', service)}
-                        />
-                        {service}
+                        <option value="" disabled>Select a service type</option>
+                        {serviceTypes.map((type) => (
+                          <option key={type} value={type}>{type}</option>
+                        ))}
+                      </select>
+                      {errors.serviceType && (
+                        <p className="font-inter text-xs text-red-500 mt-1">{errors.serviceType}</p>
+                      )}
+                    </div>
+
+                    {/* Event Date */}
+                    <div>
+                      <label htmlFor="eventDate" className="font-inter text-caption font-medium uppercase tracking-wider text-black mb-2 block">
+                        Event Date *
                       </label>
-                    ))}
+                      <input
+                        type="date"
+                        id="eventDate"
+                        name="eventDate"
+                        value={formData.eventDate}
+                        onChange={handleChange}
+                        min={new Date().toISOString().split('T')[0]}
+                        className={`w-full bg-charcoal border px-4 py-3.5 font-inter text-body text-white outline-none transition-all duration-200 focus:border-gold focus:shadow-[0_0_0_2px_rgba(200,164,92,0.2)] ${
+                          errors.eventDate ? 'border-red-500' : 'border-charcoal-light'
+                        }`}
+                      />
+                      {errors.eventDate && (
+                        <p className="font-inter text-xs text-red-500 mt-1">{errors.eventDate}</p>
+                      )}
+                    </div>
+
+                    {/* Number of Guests */}
+                    <div>
+                      <label htmlFor="numGuests" className="font-inter text-caption font-medium uppercase tracking-wider text-black mb-2 block">
+                        Number of Guests *
+                      </label>
+                      <input
+                        type="number"
+                        id="numGuests"
+                        name="numGuests"
+                        placeholder="Approximate number of guests"
+                        min="1"
+                        value={formData.numGuests}
+                        onChange={handleChange}
+                        className={`w-full bg-charcoal border px-4 py-3.5 font-inter text-body text-white placeholder-gray-500 outline-none transition-all duration-200 focus:border-gold focus:shadow-[0_0_0_2px_rgba(200,164,92,0.2)] ${
+                          errors.numGuests ? 'border-red-500' : 'border-charcoal-light'
+                        }`}
+                      />
+                      {errors.numGuests && (
+                        <p className="font-inter text-xs text-red-500 mt-1">{errors.numGuests}</p>
+                      )}
+                    </div>
+
+                    {/* Location */}
+                    <div>
+                      <label htmlFor="location" className="font-inter text-caption font-medium uppercase tracking-wider text-black mb-2 block">
+                        Event Location/Area *
+                      </label>
+                      <select
+                        id="location"
+                        name="location"
+                        value={formData.location}
+                        onChange={handleChange}
+                        className={`w-full bg-charcoal border px-4 py-3.5 font-inter text-body text-white outline-none transition-all duration-200 focus:border-gold focus:shadow-[0_0_0_2px_rgba(200,164,92,0.2)] appearance-none cursor-pointer ${
+                          errors.location ? 'border-red-500' : 'border-charcoal-light'
+                        } ${!formData.location ? 'text-gray-500' : 'text-white'}`}
+                        style={{ backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23C8A45C' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E")`, backgroundRepeat: 'no-repeat', backgroundPosition: 'right 16px center' }}
+                      >
+                        <option value="" disabled>Select your area in Dubai</option>
+                        {dubaiAreas.map((area) => (
+                          <option key={area} value={area}>{area}</option>
+                        ))}
+                      </select>
+                      {errors.location && (
+                        <p className="font-inter text-xs text-red-500 mt-1">{errors.location}</p>
+                      )}
+                    </div>
                   </div>
-                </div>
+                )}
 
-                {/* 11. Special Requests */}
-                <div>
-                  <label htmlFor="specialRequests" className="font-inter text-caption font-medium uppercase tracking-wider text-black mb-2 block">
-                    Special Requests <span className="text-gray-500 normal-case tracking-normal">(optional)</span>
-                  </label>
-                  <textarea
-                    id="specialRequests"
-                    name="specialRequests"
-                    rows={4}
-                    placeholder="Share any details about your vision, occasion, or special requests..."
-                    value={formData.specialRequests}
-                    onChange={handleChange}
-                    className="w-full bg-charcoal border border-charcoal-light px-4 py-3.5 font-inter text-body text-white placeholder-gray-500 outline-none transition-all duration-200 focus:border-gold focus:shadow-[0_0_0_2px_rgba(200,164,92,0.2)] resize-none"
-                  />
-                </div>
+                {/* Step 2: Contact Info */}
+                {currentStep === 2 && (
+                  <div className="flex flex-col gap-5">
+                    <h3 className="font-playfair text-[24px] text-black mb-2">
+                      Contact Information
+                    </h3>
 
-                {/* Submit Button */}
-                <button
-                  type="submit"
-                  disabled={isSubmitting}
-                  className="btn-primary w-full mt-2 disabled:opacity-70 disabled:cursor-not-allowed"
-                >
-                  {isSubmitting ? (
-                    <span className="inline-flex items-center gap-2">
-                      <Loader2 size={16} className="animate-spin" />
-                      Sending...
-                    </span>
+                    {/* Full Name */}
+                    <div>
+                      <label htmlFor="fullName" className="font-inter text-caption font-medium uppercase tracking-wider text-black mb-2 block">
+                        Your Name *
+                      </label>
+                      <input
+                        type="text"
+                        id="fullName"
+                        name="fullName"
+                        placeholder="Full name"
+                        value={formData.fullName}
+                        onChange={handleChange}
+                        className={`w-full bg-charcoal border px-4 py-3.5 font-inter text-body text-white placeholder-gray-500 outline-none transition-all duration-200 focus:border-gold focus:shadow-[0_0_0_2px_rgba(200,164,92,0.2)] ${
+                          errors.fullName ? 'border-red-500' : 'border-charcoal-light'
+                        }`}
+                      />
+                      {errors.fullName && (
+                        <p className="font-inter text-xs text-red-500 mt-1">{errors.fullName}</p>
+                      )}
+                    </div>
+
+                    {/* Email */}
+                    <div>
+                      <label htmlFor="email" className="font-inter text-caption font-medium uppercase tracking-wider text-black mb-2 block">
+                        Email Address *
+                      </label>
+                      <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="your@email.com"
+                        value={formData.email}
+                        onChange={handleChange}
+                        className={`w-full bg-charcoal border px-4 py-3.5 font-inter text-body text-white placeholder-gray-500 outline-none transition-all duration-200 focus:border-gold focus:shadow-[0_0_0_2px_rgba(200,164,92,0.2)] ${
+                          errors.email ? 'border-red-500' : 'border-charcoal-light'
+                        }`}
+                      />
+                      {errors.email && (
+                        <p className="font-inter text-xs text-red-500 mt-1">{errors.email}</p>
+                      )}
+                    </div>
+
+                    {/* WhatsApp */}
+                    <div>
+                      <label htmlFor="whatsapp" className="font-inter text-caption font-medium uppercase tracking-wider text-black mb-2 block">
+                        Phone / WhatsApp *
+                      </label>
+                      <input
+                        type="tel"
+                        id="whatsapp"
+                        name="whatsapp"
+                        placeholder="+971 XX XXX XXXX"
+                        value={formData.whatsapp}
+                        onChange={handleChange}
+                        className={`w-full bg-charcoal border px-4 py-3.5 font-inter text-body text-white placeholder-gray-500 outline-none transition-all duration-200 focus:border-gold focus:shadow-[0_0_0_2px_rgba(200,164,92,0.2)] ${
+                          errors.whatsapp ? 'border-red-500' : 'border-charcoal-light'
+                        }`}
+                      />
+                      {errors.whatsapp && (
+                        <p className="font-inter text-xs text-red-500 mt-1">{errors.whatsapp}</p>
+                      )}
+                      <p className="font-inter text-xs text-gray-500 mt-1">
+                        We will contact you via WhatsApp for faster communication.
+                      </p>
+                    </div>
+                  </div>
+                )}
+
+                {/* Step 3: Preferences & Submit */}
+                {currentStep === 3 && (
+                  <div className="flex flex-col gap-5">
+                    <h3 className="font-playfair text-[24px] text-black mb-2">
+                      Preferences & Special Requests
+                    </h3>
+
+                    {/* Cuisine Preferences */}
+                    <div>
+                      <label htmlFor="cuisinePreferences" className="font-inter text-caption font-medium uppercase tracking-wider text-black mb-2 block">
+                        Cuisine Preferences <span className="text-gray-500 normal-case tracking-normal">(optional)</span>
+                      </label>
+                      <input
+                        type="text"
+                        id="cuisinePreferences"
+                        name="cuisinePreferences"
+                        placeholder="e.g., Mediterranean, Asian Fusion, French..."
+                        value={formData.cuisinePreferences}
+                        onChange={handleChange}
+                        className="w-full bg-charcoal border border-charcoal-light px-4 py-3.5 font-inter text-body text-white placeholder-gray-500 outline-none transition-all duration-200 focus:border-gold focus:shadow-[0_0_0_2px_rgba(200,164,92,0.2)]"
+                      />
+                    </div>
+
+                    {/* Dietary Restrictions */}
+                    <div>
+                      <label className="font-inter text-caption font-medium uppercase tracking-wider text-black mb-3 block">
+                        Dietary Restrictions <span className="text-gray-500 normal-case tracking-normal">(optional)</span>
+                      </label>
+                      <div className="flex flex-wrap gap-3">
+                        {dietaryOptions.map((option) => (
+                          <label
+                            key={option}
+                            className={`inline-flex items-center gap-2 border px-4 py-2 font-inter text-body-sm cursor-pointer transition-all duration-200 select-none ${
+                              formData.dietaryRestrictions.includes(option)
+                                ? 'border-gold bg-gold/10 text-black'
+                                : 'border-charcoal-light bg-charcoal text-gray-400 hover:border-gold/50'
+                            }`}
+                          >
+                            <input
+                              type="checkbox"
+                              className="sr-only"
+                              checked={formData.dietaryRestrictions.includes(option)}
+                              onChange={() => handleCheckboxChange('dietaryRestrictions', option)}
+                            />
+                            {option}
+                          </label>
+                        ))}
+                      </div>
+                    </div>
+
+                    {/* Additional Services */}
+                    <div>
+                      <label className="font-inter text-caption font-medium uppercase tracking-wider text-black mb-3 block">
+                        Additional Services <span className="text-gray-500 normal-case tracking-normal">(optional)</span>
+                      </label>
+                      <div className="flex flex-wrap gap-3">
+                        {additionalServices.map((service) => (
+                          <label
+                            key={service}
+                            className={`inline-flex items-center gap-2 border px-4 py-2 font-inter text-body-sm cursor-pointer transition-all duration-200 select-none ${
+                              formData.additionalServices.includes(service)
+                                ? 'border-gold bg-gold/10 text-black'
+                                : 'border-charcoal-light bg-charcoal text-gray-400 hover:border-gold/50'
+                            }`}
+                          >
+                            <input
+                              type="checkbox"
+                              className="sr-only"
+                              checked={formData.additionalServices.includes(service)}
+                              onChange={() => handleCheckboxChange('additionalServices', service)}
+                            />
+                            {service}
+                          </label>
+                        ))}
+                      </div>
+                    </div>
+
+                    {/* Special Requests */}
+                    <div>
+                      <label htmlFor="specialRequests" className="font-inter text-caption font-medium uppercase tracking-wider text-black mb-2 block">
+                        Special Requests <span className="text-gray-500 normal-case tracking-normal">(optional)</span>
+                      </label>
+                      <textarea
+                        id="specialRequests"
+                        name="specialRequests"
+                        rows={4}
+                        placeholder="Share any details about your vision, occasion, or special requests..."
+                        value={formData.specialRequests}
+                        onChange={handleChange}
+                        className="w-full bg-charcoal border border-charcoal-light px-4 py-3.5 font-inter text-body text-white placeholder-gray-500 outline-none transition-all duration-200 focus:border-gold focus:shadow-[0_0_0_2px_rgba(200,164,92,0.2)] resize-none"
+                      />
+                    </div>
+
+                    {/* Review Summary */}
+                    <div className="bg-cream border border-gold/20 p-5 mt-2">
+                      <h4 className="font-playfair text-[20px] text-black mb-4">
+                        Review Your Request
+                      </h4>
+                      <dl className="grid grid-cols-1 sm:grid-cols-2 gap-3 font-inter text-body-sm">
+                        <div>
+                          <dt className="text-gray-500">Service</dt>
+                          <dd className="text-black">{formData.serviceType || '—'}</dd>
+                        </div>
+                        <div>
+                          <dt className="text-gray-500">Event Date</dt>
+                          <dd className="text-black">{formData.eventDate || '—'}</dd>
+                        </div>
+                        <div>
+                          <dt className="text-gray-500">Guests</dt>
+                          <dd className="text-black">{formData.numGuests || '—'}</dd>
+                        </div>
+                        <div>
+                          <dt className="text-gray-500">Location</dt>
+                          <dd className="text-black">{formData.location || '—'}</dd>
+                        </div>
+                        <div>
+                          <dt className="text-gray-500">Name</dt>
+                          <dd className="text-black">{formData.fullName || '—'}</dd>
+                        </div>
+                        <div>
+                          <dt className="text-gray-500">Email</dt>
+                          <dd className="text-black">{formData.email || '—'}</dd>
+                        </div>
+                        <div>
+                          <dt className="text-gray-500">WhatsApp</dt>
+                          <dd className="text-black">{formData.whatsapp || '—'}</dd>
+                        </div>
+                        <div>
+                          <dt className="text-gray-500">Cuisine</dt>
+                          <dd className="text-black">{formData.cuisinePreferences || '—'}</dd>
+                        </div>
+                        <div className="sm:col-span-2">
+                          <dt className="text-gray-500">Dietary Restrictions</dt>
+                          <dd className="text-black">{formData.dietaryRestrictions.length ? formData.dietaryRestrictions.join(', ') : '—'}</dd>
+                        </div>
+                        <div className="sm:col-span-2">
+                          <dt className="text-gray-500">Additional Services</dt>
+                          <dd className="text-black">{formData.additionalServices.length ? formData.additionalServices.join(', ') : '—'}</dd>
+                        </div>
+                        {formData.specialRequests && (
+                          <div className="sm:col-span-2">
+                            <dt className="text-gray-500">Special Requests</dt>
+                            <dd className="text-black">{formData.specialRequests}</dd>
+                          </div>
+                        )}
+                      </dl>
+                    </div>
+                  </div>
+                )}
+
+                {/* Navigation Buttons */}
+                <div className="flex flex-col-reverse sm:flex-row gap-4 mt-2">
+                  {currentStep > 1 && (
+                    <button
+                      type="button"
+                      onClick={handleBack}
+                      className="btn-secondary w-full sm:w-auto inline-flex items-center justify-center gap-2"
+                    >
+                      <ChevronLeft size={16} />
+                      Back
+                    </button>
+                  )}
+                  {currentStep < 3 ? (
+                    <button
+                      type="button"
+                      onClick={handleNext}
+                      className="btn-primary w-full sm:w-auto sm:ml-auto inline-flex items-center justify-center gap-2"
+                    >
+                      Next
+                      <ChevronRight size={16} />
+                    </button>
                   ) : (
-                    'Request My Custom Quote'
+                    <button
+                      type="submit"
+                      disabled={isSubmitting}
+                      className="btn-primary w-full sm:w-auto sm:ml-auto disabled:opacity-70 disabled:cursor-not-allowed inline-flex items-center justify-center gap-2"
+                    >
+                      {isSubmitting ? (
+                        <>
+                          <Loader2 size={16} className="animate-spin" />
+                          Sending...
+                        </>
+                      ) : (
+                        'Request My Custom Quote'
+                      )}
+                    </button>
                   )}
-                </button>
+                </div>
 
                 {/* General error */}
                 {Object.keys(errors).length > 0 && (
@@ -667,7 +854,7 @@ export default function Inquiry() {
                 <div className="border-t border-charcoal-light my-8" />
 
                 {/* Trust Badges */}
-                <div className="flex flex-col gap-3">
+                <div className="flex flex-col gap-3 mb-8">
                   {[
                     'Response within 2 hours',
                     'No obligation quote',
@@ -680,6 +867,8 @@ export default function Inquiry() {
                     </div>
                   ))}
                 </div>
+
+                <TrustBar variant="dark" />
               </div>
             </div>
           </div>

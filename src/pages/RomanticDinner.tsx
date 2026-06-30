@@ -7,6 +7,10 @@ import { Heart, Sparkles, Wine } from 'lucide-react'
 
 gsap.registerPlugin(ScrollTrigger)
 
+const WHATSAPP_NUMBER = '971551744849'
+const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to request a proposal (via mychef.ae/romantic-dinner)')
+const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
+
 export default function RomanticDinner() {
   const pageRef = useRef<HTMLDivElement>(null)
 
@@ -31,8 +35,8 @@ export default function RomanticDinner() {
           <h1 className="font-playfair text-4xl md:text-6xl text-white font-semibold mb-4">Romantic Dinner Dubai</h1>
           <p className="text-gray-300 text-lg max-w-2xl mx-auto">An unforgettable evening for you and your loved one. Private chef, candlelit table, bespoke menu.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
-            <a href="/inquiry" className="btn-primary">Plan My Romantic Dinner</a>
-            <a href="https://wa.me/971551744849" target="_blank" rel="noopener noreferrer" className="btn-secondary">Chat on WhatsApp</a>
+            <a href="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=romantic-dinner" className="btn-primary">Request a Proposal</a>
+            <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-secondary">Chat on WhatsApp</a>
           </div>
         </div>
       </section>
@@ -67,7 +71,7 @@ export default function RomanticDinner() {
         <div className="max-w-4xl mx-auto px-4 text-center gsap-reveal">
           <h2 className="font-playfair text-3xl text-white mb-6">Create an Unforgettable Evening</h2>
           <p className="text-gray-400 mb-8">Let us handle everything while you focus on what matters most.</p>
-          <a href="/inquiry" className="btn-primary">Request a Romantic Dinner Quote</a>
+          <a href="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=romantic-dinner" className="btn-primary">Request a Proposal</a>
         </div>
       </section>
     </div>

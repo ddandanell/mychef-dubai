@@ -19,7 +19,7 @@ import SEO from '../components/SEO'
 gsap.registerPlugin(ScrollTrigger)
 
 const WHATSAPP_NUMBER = '971551744849'
-const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to plan Diwali catering in Dubai')
+const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to plan Diwali catering in Dubai (via mychef.ae/diwali-catering-dubai)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 /* ────────────────────── Data ────────────────────── */
@@ -293,9 +293,7 @@ export default function DiwaliCatering() {
             Festive Indian menus for Diwali celebrations across Dubai — vegetarian and Jain spreads, live chaat stations, and traditional mithai for home, corporate, and villa gatherings.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 diw-hero-cta">
-              Request a Diwali Catering Quote
-            </Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=diwali-catering-dubai" className="btn-primary opacity-0 translate-y-4 diw-hero-cta">Request a Proposal</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -529,9 +527,7 @@ export default function DiwaliCatering() {
             Tell us about your Diwali gathering and we'll design a festive Indian menu — vegetarian or mixed, with live stations and mithai — and handle every detail. Book four to six weeks ahead to secure your date.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">
-              Request My Custom Quote
-            </Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=diwali-catering-dubai" className="btn-primary">Request a Proposal</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

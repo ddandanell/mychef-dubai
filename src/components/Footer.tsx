@@ -1,5 +1,6 @@
 import { Link } from 'react-router'
 import { Phone, Mail, MapPin } from 'lucide-react'
+import TrustBar from '@/components/TrustBar'
 
 const serviceLinks = [
   { label: 'Private Chef Dubai', href: '/private-chef-dubai' },
@@ -158,8 +159,11 @@ export default function Footer() {
           </div>
         </div>
 
+        {/* Trust bar */}
+        <TrustBar variant="compact" className="mt-12" />
+
         {/* Divider */}
-        <div className="border-t border-charcoal-light mt-16 pt-8">
+        <div className="border-t border-charcoal-light mt-8 pt-8">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="font-inter text-xs text-gray-500">
               &copy; {new Date().getFullYear()} myCHEF Dubai. All rights reserved.

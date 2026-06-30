@@ -9,7 +9,7 @@ import { breadcrumbSchema } from '@/utils/schema'
 gsap.registerPlugin(ScrollTrigger)
 
 const WHATSAPP_NUMBER = '971551744849'
-const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to request a quote')
+const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to request a quote (via mychef.ae/our-chefs)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 const breadcrumbs = [
@@ -361,7 +361,7 @@ export default function OurChefs() {
               Every dish prepared by hands that have trained in the world&apos;s finest kitchens.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link to="/inquiry" className="btn-primary">
+              <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=our-chefs" className="btn-primary">
                 Request My Custom Quote
               </Link>
               <a

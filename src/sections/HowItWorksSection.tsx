@@ -112,8 +112,8 @@ export default function HowItWorksSection() {
 
         {/* CTA */}
         <div className="text-center mt-12">
-          <Link to="/inquiry" className="btn-primary">
-            Start Your Experience
+          <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=home" className="btn-primary">
+            Request a Proposal
           </Link>
         </div>
       </div>

@@ -1,6 +1,10 @@
 import { useParams, Link } from 'react-router'
 import SEO from '../components/SEO'
 
+const WHATSAPP_NUMBER = '971551744849'
+const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to request a proposal (via mychef.ae/services)')
+const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
+
 const serviceData: Record<string, { name: string; description: string; image: string }> = {
   'private-chef-dubai': { name: 'Private Chef Dubai', description: 'Your personal chef for any occasion. Custom menus, premium ingredients, full service.', image: '/service-private-chef.jpg' },
   'personal-chef-dubai': { name: 'Personal Chef Dubai', description: 'A dedicated chef for your household. Regular meal preparation, dietary accommodation.', image: '/service-private-chef.jpg' },
@@ -125,10 +129,10 @@ export default function ServiceDetail() {
           <h2 className="font-playfair text-3xl md:text-4xl text-white mb-6">Book {svc.name}</h2>
           <p className="text-gray-400 mb-8">Tell us about your event and we\'ll create a custom proposal tailored to your needs.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="/inquiry" className="inline-flex items-center justify-center px-8 py-4 bg-gold text-black font-medium text-sm tracking-wider uppercase hover:bg-[#D9BC7A] transition-all duration-300 hover:-translate-y-0.5">
-              Request My Custom Quote
+            <a href="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=services" className="inline-flex items-center justify-center px-8 py-4 bg-gold text-black font-medium text-sm tracking-wider uppercase hover:bg-[#D9BC7A] transition-all duration-300 hover:-translate-y-0.5">
+              Request a Proposal
             </a>
-            <a href="https://wa.me/971551744849" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center px-8 py-4 border border-gold text-gold font-medium text-sm tracking-wider uppercase hover:bg-gold hover:text-black transition-all duration-300">
+            <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center px-8 py-4 border border-gold text-gold font-medium text-sm tracking-wider uppercase hover:bg-gold hover:text-black transition-all duration-300">
               Chat on WhatsApp
             </a>
           </div>

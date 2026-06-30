@@ -15,7 +15,7 @@ import SEO from '../../components/SEO'
 gsap.registerPlugin(ScrollTrigger)
 
 const WHATSAPP_NUMBER = '971551744849'
-const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like a yacht catering guide and quote')
+const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like a yacht catering guide and quote (via mychef.ae/yacht-catering-guide-dubai)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 /* ────────────────────── Data ────────────────────── */
@@ -245,9 +245,7 @@ export default function YachtCateringGuide() {
             Everything you need to plan catering for a Dubai yacht charter, from menu formats and route timing to crew coordination and onboard service.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 yacht-hero-cta">
-              Plan Yacht Catering
-            </Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=yacht-catering-guide-dubai" className="btn-primary opacity-0 translate-y-4 yacht-hero-cta">Get My Custom Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -443,9 +441,7 @@ export default function YachtCateringGuide() {
             Share your yacht size, route, and guest count. We will design a sea-ready menu and service plan for your Dubai cruise.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">
-              Request My Yacht Quote
-            </Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=yacht-catering-guide-dubai" className="btn-primary">Get My Custom Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

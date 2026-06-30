@@ -20,7 +20,7 @@ import SEO from '../components/SEO'
 gsap.registerPlugin(ScrollTrigger)
 
 const WHATSAPP_NUMBER = '971551744849'
-const WHATSAPP_MESSAGE = encodeURIComponent("Hi myCHEF Dubai, I'd like to plan an anniversary dinner")
+const WHATSAPP_MESSAGE = encodeURIComponent("Hi myCHEF Dubai, I'd like to plan an anniversary dinner (via mychef.ae/anniversary-catering-dubai)")
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 /* ────────────────────── Data ────────────────────── */
@@ -292,9 +292,7 @@ export default function AnniversaryCatering() {
             Romantic private-chef dinners at home, multi-course tasting menus, and celebration desserts. Intimate anniversary dining brought to your villa or home across Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 an-hero-cta">
-              Request a Custom Proposal
-            </Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=anniversary-catering-dubai" className="btn-primary opacity-0 translate-y-4 an-hero-cta">Request a Proposal</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -324,7 +322,7 @@ export default function AnniversaryCatering() {
             Whether it is an intimate dinner for two or a larger milestone gathering with family, every menu is designed around your tastes, paced for conversation, and finished with a celebration dessert to mark the occasion. Our team handles the setup, the service, and the cleanup, available for Dubai homes and villas of every size. Explore our{' '}
             <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">private chef service</Link>{' '}
             or request a{' '}
-            <Link to="/inquiry" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">custom proposal</Link>.
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=anniversary-catering-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">Request a Proposal</Link>.
           </p>
         </div>
       </section>
@@ -536,9 +534,7 @@ export default function AnniversaryCatering() {
             Share the date and your tastes — we will bring the chef, the menu, and the celebration to your table.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">
-              Request a Custom Proposal
-            </Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=anniversary-catering-dubai" className="btn-primary">Request a Proposal</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

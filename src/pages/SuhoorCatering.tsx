@@ -19,7 +19,7 @@ import SEO from '../components/SEO'
 gsap.registerPlugin(ScrollTrigger)
 
 const WHATSAPP_NUMBER = '971551744849'
-const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to plan suhoor catering in Dubai')
+const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to plan suhoor catering in Dubai (via mychef.ae/suhoor-catering-dubai)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 /* ────────────────────── Data ────────────────────── */
@@ -293,9 +293,7 @@ export default function SuhoorCatering() {
             Halal pre-dawn suhoor menus for home, majlis, and corporate gatherings across Dubai — light or hearty, sustaining, and served quietly into the early hours before Fajr.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 suh-hero-cta">
-              Request a Suhoor Catering Quote
-            </Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=suhoor-catering-dubai" className="btn-primary opacity-0 translate-y-4 suh-hero-cta">Request a Proposal</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -529,9 +527,7 @@ export default function SuhoorCatering() {
             Tell us about your pre-dawn gathering and we'll design a halal menu — light or hearty — time the service before Fajr, and handle every detail. Book six to eight weeks ahead to secure your dates.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">
-              Request My Custom Quote
-            </Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=suhoor-catering-dubai" className="btn-primary">Request a Proposal</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

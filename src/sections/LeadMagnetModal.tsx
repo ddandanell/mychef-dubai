@@ -42,7 +42,7 @@ export default function LeadMagnetModal() {
     e.preventDefault()
     if (phone.trim()) {
       const waUrl = `https://wa.me/971551744849?text=${encodeURIComponent(
-        `Hi myCHEF Dubai, please send me the price guide. My WhatsApp/phone: ${phone}`,
+        `Hi myCHEF Dubai, please send me the price guide. My WhatsApp/phone: ${phone} (via mychef.ae)`,
       )}`
       window.open(waUrl, '_blank')
       setIsSubmitted(true)

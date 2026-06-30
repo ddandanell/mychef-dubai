@@ -16,7 +16,7 @@ import SEO from '../../components/SEO'
 gsap.registerPlugin(ScrollTrigger)
 
 const WHATSAPP_NUMBER = '971551744849'
-const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'m comparing caterers and would like to learn more')
+const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'m comparing caterers and would like to learn more (via mychef.ae/how-to-choose-caterer-dubai)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 /* ────────────────────── Data ────────────────────── */
@@ -244,9 +244,7 @@ export default function HowToChooseCatererDubai() {
             A practical 10-point checklist to help you compare caterers, spot red flags, and book a team that matches your event, venue, and guests.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 choose-hero-cta">
-              Request a Catering Quote
-            </Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=how-to-choose-caterer-dubai" className="btn-primary opacity-0 translate-y-4 choose-hero-cta">Get My Custom Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -452,9 +450,7 @@ export default function HowToChooseCatererDubai() {
             Ask us anything on your checklist. We will answer honestly, share a clear itemised quote, and help you decide if we are the right fit.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">
-              Request My Catering Quote
-            </Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=how-to-choose-caterer-dubai" className="btn-primary">Get My Custom Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
