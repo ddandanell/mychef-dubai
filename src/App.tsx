@@ -94,6 +94,14 @@ const BuffetVsPlated = lazy(() => import('./pages/guides/BuffetVsPlated'))
 const YachtCateringGuide = lazy(() => import('./pages/guides/YachtCateringGuide'))
 const RamadanCateringGuide = lazy(() => import('./pages/guides/RamadanCateringGuide'))
 const LuxuryDinnerPlanningGuide = lazy(() => import('./pages/guides/LuxuryDinnerPlanningGuide'))
+const BarServices = lazy(() => import('./pages/BarServices'))
+const ProductLaunchCatering = lazy(() => import('./pages/ProductLaunchCatering'))
+const BrandActivationCatering = lazy(() => import('./pages/BrandActivationCatering'))
+const GalaDinnerCatering = lazy(() => import('./pages/GalaDinnerCatering'))
+const PrivateCookingClassesDubai = lazy(() => import('./pages/PrivateCookingClassesDubai'))
+const VIPClub = lazy(() => import('./pages/VIPClub'))
+const GiftCards = lazy(() => import('./pages/GiftCards'))
+const CaseStudies = lazy(() => import('./pages/CaseStudies'))
 
 export default function App() {
   return (
@@ -199,6 +207,14 @@ export default function App() {
           <Route path="/yacht-catering-guide-dubai" element={<YachtCateringGuide />} />
           <Route path="/ramadan-catering-guide-dubai" element={<RamadanCateringGuide />} />
           <Route path="/luxury-dinner-planning-guide-dubai" element={<LuxuryDinnerPlanningGuide />} />
+          <Route path="/bar-services-dubai" element={<BarServices />} />
+          <Route path="/product-launch-catering-dubai" element={<ProductLaunchCatering />} />
+          <Route path="/brand-activation-catering-dubai" element={<BrandActivationCatering />} />
+          <Route path="/gala-dinner-catering-dubai" element={<GalaDinnerCatering />} />
+          <Route path="/private-cooking-classes-dubai" element={<PrivateCookingClassesDubai />} />
+          <Route path="/vip-club" element={<VIPClub />} />
+          <Route path="/gift-cards" element={<GiftCards />} />
+          <Route path="/case-studies" element={<CaseStudies />} />
           <Route path="*" element={<Home />} />
         </Routes>
       </Suspense>
