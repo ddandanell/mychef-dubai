@@ -266,8 +266,7 @@ export default function LuxuryDining() {
                     src={exp.image}
                     alt={exp.title}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                    loading="lazy"
-                  />
+                    loading="lazy" decoding="async"/>
                 </div>
                 <div className="p-8">
                   <h3 className="font-playfair text-h3 text-black mb-3">{exp.title}</h3>
@@ -349,8 +348,7 @@ export default function LuxuryDining() {
                   src={img.src}
                   alt={img.alt}
                   className="w-full h-full object-cover transition-transform duration-300 hover:scale-[1.03]"
-                  loading="lazy"
-                />
+                  loading="lazy" decoding="async"/>
               </div>
             ))}
           </div>
@@ -431,8 +429,7 @@ export default function LuxuryDining() {
                     src={svc.image}
                     alt={svc.title}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                    loading="lazy"
-                  />
+                    loading="lazy" decoding="async"/>
                 </div>
                 <div className="p-6">
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>

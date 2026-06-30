@@ -420,8 +420,7 @@ export default function ConferenceCatering() {
                   src={img.src}
                   alt={img.alt}
                   className="w-full h-full object-cover transition-transform duration-300 hover:scale-[1.03]"
-                  loading="lazy"
-                />
+                  loading="lazy" decoding="async"/>
               </div>
             ))}
           </div>
@@ -502,8 +501,7 @@ export default function ConferenceCatering() {
                     src={svc.image}
                     alt={svc.title}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                    loading="lazy"
-                  />
+                    loading="lazy" decoding="async"/>
                 </div>
                 <div className="p-6">
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>

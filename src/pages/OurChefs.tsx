@@ -223,8 +223,7 @@ export default function OurChefs() {
                       src={chef.image}
                       alt={chef.name}
                       className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
-                      loading="lazy"
-                    />
+                      loading="lazy" decoding="async"/>
                   </div>
                 </div>
 

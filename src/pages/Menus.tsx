@@ -202,8 +202,7 @@ export default function Menus() {
                     src={item.image}
                     alt={item.name}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                    loading="lazy"
-                  />
+                    loading="lazy" decoding="async"/>
                   {/* Hover Overlay */}
                   <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col items-center justify-center">
                     <span className="font-inter text-caption font-medium uppercase tracking-wider text-gold mb-2">

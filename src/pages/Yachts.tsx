@@ -307,7 +307,7 @@ export default function Yachts() {
           <div className="gallery-grid grid grid-cols-2 md:grid-cols-3 gap-4">
             {galleryImages.map((img, i) => (
               <div key={i} className="gallery-item relative overflow-hidden group aspect-[4/3]">
-                <img src={img} alt={`Yacht dining gallery ${i + 1}`} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                <img src={img} alt={`Yacht dining gallery ${i + 1}`} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" decoding="async" loading="lazy"/>
                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300" />
               </div>
             ))}

@@ -145,7 +145,7 @@ export default function HowItWorks() {
                   {/* Content */}
                   <div className={`ml-12 lg:ml-0 lg:w-[calc(50%-32px)] ${i % 2 === 0 ? 'lg:pr-8 lg:text-right' : 'lg:pl-8'}`}>
                     <span className="font-playfair text-[72px] text-gold leading-none opacity-15 block mb-2">{step.num}</span>
-                    <img src={step.image} alt={step.title} className="w-full aspect-[16/10] object-cover mb-4" loading="lazy" />
+                    <img src={step.image} alt={step.title} className="w-full aspect-[16/10] object-cover mb-4" loading="lazy" decoding="async"/>
                     <h3 className="font-playfair text-h3 text-black mb-3">{step.title}</h3>
                     <p className="font-inter text-body text-gray-500" style={{ lineHeight: '1.7' }}>{step.desc}</p>
                   </div>

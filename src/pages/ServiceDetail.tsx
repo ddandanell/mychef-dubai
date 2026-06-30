@@ -69,7 +69,7 @@ export default function ServiceDetail() {
       {/* Hero */}
       <section className="relative min-h-[60vh] flex items-center justify-center overflow-hidden bg-black">
         <div className="absolute inset-0">
-          <img src={svc.image} alt={svc.name} className="w-full h-full object-cover opacity-40" />
+          <img src={svc.image} alt={svc.name} className="w-full h-full object-cover opacity-40" decoding="async" loading="eager" fetchPriority="high"/>
           <div className="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-black/30" />
         </div>
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
