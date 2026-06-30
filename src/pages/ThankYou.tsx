@@ -1,9 +1,10 @@
-import { useRef } from 'react'
+import { useEffect, useRef } from 'react'
 import { Link } from 'react-router'
 import { Check, Clock, FileText, Phone, ChevronRight } from 'lucide-react'
 import gsap from 'gsap'
 import { useGSAP } from '@gsap/react'
 import SEO from '@/components/SEO'
+import { trackEvent } from '@/lib/analytics'
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to request a quote (via mychef.ae/thank-you)')
@@ -23,6 +24,14 @@ const exploreLinks = [
 
 export default function ThankYou() {
   const containerRef = useRef<HTMLDivElement>(null)
+
+  useEffect(() => {
+    trackEvent('conversion', {
+      event_category: 'lead',
+      event_label: 'form_submit',
+      page_path: window.location.pathname,
+    })
+  }, [])
 
   useGSAP(() => {
     const ctx = gsap.context(() => {

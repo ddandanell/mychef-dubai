@@ -1,5 +1,5 @@
 import { useRef, useState } from 'react'
-import { Link } from 'react-router'
+import { Link, useNavigate } from 'react-router'
 import { Phone, Mail, Clock, ChevronRight, Check, MapPin } from 'lucide-react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
@@ -83,6 +83,7 @@ const inputErrorClasses = 'border-red-500 focus:border-red-500 focus:ring-red-50
 const inputNormalClasses = 'border-gray-200'
 
 export default function Contact() {
+  const navigate = useNavigate()
   const containerRef = useRef<HTMLDivElement>(null)
   const [formState, setFormState] = useState<'idle' | 'submitting' | 'success'>('idle')
   const [formData, setFormData] = useState({
@@ -107,28 +108,52 @@ export default function Contact() {
     return Object.keys(newErrors).length === 0
   }
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     if (!validate()) return
     setFormState('submitting')
-    const lines = [
-      'New enquiry — myCHEF Dubai',
-      '',
-      `Name: ${formData.name}`,
-      `Email: ${formData.email}`,
-      `Phone: ${formData.phone}`,
-      `Service: ${formData.serviceType}`,
-      `Event date: ${formData.eventDate}`,
-      `Guests: ${formData.guests}`,
-      `Location: ${formData.location}`,
-      '',
-      `Message: ${formData.message}`,
-    ].filter(Boolean)
-    const waUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(lines.join('\n'))}`
-    window.open(waUrl, '_blank')
-    setTimeout(() => {
+
+    const payload = {
+      name: formData.name,
+      email: formData.email,
+      phone: formData.phone,
+      serviceType: formData.serviceType,
+      eventDate: formData.eventDate,
+      guests: formData.guests,
+      location: formData.location,
+      message: formData.message,
+      formId: 'contact-form',
+      page: window.location.pathname + window.location.search,
+      source: 'contact_page',
+    }
+
+    try {
+      const res = await fetch('/api/submit-lead', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+      })
+      if (!res.ok) throw new Error('Submit failed')
+      navigate('/thank-you')
+    } catch {
+      // Fallback: open WhatsApp so the lead isn't lost
+      const lines = [
+        'New enquiry — myCHEF Dubai',
+        '',
+        `Name: ${formData.name}`,
+        `Email: ${formData.email}`,
+        `Phone: ${formData.phone}`,
+        `Service: ${formData.serviceType}`,
+        `Event date: ${formData.eventDate}`,
+        `Guests: ${formData.guests}`,
+        `Location: ${formData.location}`,
+        '',
+        `Message: ${formData.message}`,
+      ].filter(Boolean)
+      const waUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(lines.join('\n'))}`
+      window.open(waUrl, '_blank')
       setFormState('success')
-    }, 800)
+    }
   }
 
   const handleChange = (field: string, value: string) => {

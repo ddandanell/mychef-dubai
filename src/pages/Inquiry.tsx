@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
-import { Link } from 'react-router'
+import { Link, useNavigate } from 'react-router'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { Check, Phone, Mail, MapPin, Loader2, ChevronLeft, ChevronRight } from 'lucide-react'
@@ -93,6 +93,7 @@ const inputNormalClasses = 'border-charcoal-light'
 type FormErrors = Partial<Record<string, string>>
 
 export default function Inquiry() {
+  const navigate = useNavigate()
   const [formData, setFormData] = useState({
     fullName: '',
     email: '',
@@ -191,7 +192,7 @@ export default function Inquiry() {
     setCurrentStep((prev) => Math.max(prev - 1, 1))
   }
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
 
     const newErrors: FormErrors = {}
@@ -211,28 +212,56 @@ export default function Inquiry() {
     }
 
     setIsSubmitting(true)
-    const lines = [
-      'New quote request — myCHEF Dubai',
-      '',
-      `Name: ${formData.fullName}`,
-      `Email: ${formData.email}`,
-      `WhatsApp: ${formData.whatsapp}`,
-      `Service: ${formData.serviceType}`,
-      `Event date: ${formData.eventDate}`,
-      `Guests: ${formData.numGuests}`,
-      `Location: ${formData.location}`,
+
+    const messageLines = [
       formData.cuisinePreferences ? `Cuisine: ${formData.cuisinePreferences}` : '',
       formData.dietaryRestrictions.length ? `Dietary: ${formData.dietaryRestrictions.join(', ')}` : '',
       formData.additionalServices.length ? `Add-ons: ${formData.additionalServices.join(', ')}` : '',
       formData.specialRequests ? `Notes: ${formData.specialRequests}` : '',
     ].filter(Boolean)
-    const waUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(lines.join('\n'))}`
-    window.open(waUrl, '_blank')
-    setTimeout(() => {
+
+    const payload = {
+      name: formData.fullName,
+      email: formData.email,
+      phone: formData.whatsapp,
+      serviceType: formData.serviceType,
+      eventDate: formData.eventDate,
+      guests: formData.numGuests,
+      location: formData.location,
+      message: messageLines.join('\n') || undefined,
+      formId: 'inquiry-form',
+      page: window.location.pathname + window.location.search,
+      source: 'inquiry_page',
+    }
+
+    try {
+      const res = await fetch('/api/submit-lead', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+      })
+      if (!res.ok) throw new Error('Submit failed')
+      navigate('/thank-you')
+    } catch {
+      // Fallback: open WhatsApp with the full message so the lead isn't lost
+      const lines = [
+        'New quote request — myCHEF Dubai',
+        '',
+        `Name: ${formData.fullName}`,
+        `Email: ${formData.email}`,
+        `WhatsApp: ${formData.whatsapp}`,
+        `Service: ${formData.serviceType}`,
+        `Event date: ${formData.eventDate}`,
+        `Guests: ${formData.numGuests}`,
+        `Location: ${formData.location}`,
+        ...messageLines,
+      ].filter(Boolean)
+      const waUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(lines.join('\n'))}`
+      window.open(waUrl, '_blank')
       setIsSubmitting(false)
       setIsSubmitted(true)
       window.scrollTo({ top: 0, behavior: 'auto' })
-    }, 800)
+    }
   }
 
   useEffect(() => {

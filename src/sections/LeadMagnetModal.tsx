@@ -1,13 +1,16 @@
 import { useState, useEffect, useCallback, useRef } from 'react'
+import { useNavigate } from 'react-router'
 import { X } from 'lucide-react'
 import { trackEvent } from '../lib/analytics'
 
 const STORAGE_KEY = 'mychef_lead_magnet_dismissed'
 
 export default function LeadMagnetModal() {
+  const navigate = useNavigate()
   const [isVisible, setIsVisible] = useState(false)
   const [isSubmitted, setIsSubmitted] = useState(false)
   const [phone, setPhone] = useState('')
+  const [isSubmitting, setIsSubmitting] = useState(false)
   const impressionTracked = useRef(false)
 
   const openModal = useCallback(() => {
@@ -49,17 +52,38 @@ export default function LeadMagnetModal() {
     sessionStorage.setItem(STORAGE_KEY, 'true')
   }
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    if (phone.trim()) {
-      trackEvent('lead_magnet_submit', {
-        phone_provided: true,
-        page_path: window.location.pathname,
+    if (!phone.trim()) return
+
+    trackEvent('lead_magnet_submit', {
+      phone_provided: true,
+      page_path: window.location.pathname,
+    })
+    setIsSubmitting(true)
+
+    try {
+      const res = await fetch('/api/submit-lead', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          phone: phone.trim(),
+          serviceType: 'Private Dining Guide',
+          message: 'Requested via lead magnet modal',
+          formId: 'lead-magnet-form',
+          page: window.location.pathname + window.location.search,
+          source: 'lead_magnet',
+        }),
       })
+      if (!res.ok) throw new Error('Submit failed')
+      navigate('/thank-you')
+    } catch {
+      // Fallback: open WhatsApp so the lead isn't lost
       const waUrl = `https://wa.me/971551744849?text=${encodeURIComponent(
         `Hi myCHEF Dubai, please send me the price guide. My WhatsApp/phone: ${phone} (via mychef.ae)`,
       )}`
       window.open(waUrl, '_blank')
+      setIsSubmitting(false)
       setIsSubmitted(true)
       setTimeout(() => {
         dismiss()
@@ -111,9 +135,10 @@ export default function LeadMagnetModal() {
               />
               <button
                 type="submit"
-                className="btn-primary w-full"
+                disabled={isSubmitting}
+                className="btn-primary w-full disabled:opacity-70 disabled:cursor-not-allowed"
               >
-                Send Me the Guide
+                {isSubmitting ? 'Sending...' : 'Send Me the Guide'}
               </button>
             </form>
           </>
