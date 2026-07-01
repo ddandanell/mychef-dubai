@@ -48,7 +48,7 @@
 | Page / URL | Priority | Status | Notes |
 |---|---|---|---|
 | Valentine's Day Private Dining — `/valentines-day-catering-dubai` | Medium | built | Live; unique hero, 6 FAQs, internal links |
-| Mother's Day Catering Dubai — `/mothers-day-catering-dubai` | Medium | missing | Mar spike |
+| Mother's Day Catering Dubai — `/mothers-day-catering-dubai` | Medium | built | Live; unique hero, 6 FAQs, internal links |
 | Father's Day Catering Dubai — `/fathers-day-catering-dubai` | Low | missing | Jun spike |
 | Easter Catering Dubai — `/easter-catering-dubai` | Low | missing | Mar/Apr |
 | Halloween Catering Dubai — `/halloween-catering-dubai` | Low | missing | Oct |
