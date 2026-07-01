@@ -44,6 +44,11 @@ const EngagementCatering = lazy(() => import('./pages/EngagementCatering'))
 const AnniversaryCatering = lazy(() => import('./pages/AnniversaryCatering'))
 const BabyShowerCatering = lazy(() => import('./pages/BabyShowerCatering'))
 const PrivatePartyCatering = lazy(() => import('./pages/PrivatePartyCatering'))
+const KidsBirthdayCatering = lazy(() => import('./pages/KidsBirthdayCatering'))
+const PoolPartyCatering = lazy(() => import('./pages/PoolPartyCatering'))
+const BeachCatering = lazy(() => import('./pages/BeachCatering'))
+const DesertDining = lazy(() => import('./pages/DesertDining'))
+const AfternoonTeaCatering = lazy(() => import('./pages/AfternoonTeaCatering'))
 const BBQCatering = lazy(() => import('./pages/BBQCatering'))
 const BuffetCatering = lazy(() => import('./pages/BuffetCatering'))
 const CanapeCatering = lazy(() => import('./pages/CanapeCatering'))
@@ -177,6 +182,11 @@ export default function App() {
           <Route path="/anniversary-catering-dubai" element={<AnniversaryCatering />} />
           <Route path="/baby-shower-catering-dubai" element={<BabyShowerCatering />} />
           <Route path="/private-party-catering-dubai" element={<PrivatePartyCatering />} />
+          <Route path="/kids-birthday-catering-dubai" element={<KidsBirthdayCatering />} />
+          <Route path="/pool-party-catering-dubai" element={<PoolPartyCatering />} />
+          <Route path="/beach-catering-dubai" element={<BeachCatering />} />
+          <Route path="/desert-dining-dubai" element={<DesertDining />} />
+          <Route path="/afternoon-tea-catering-dubai" element={<AfternoonTeaCatering />} />
           <Route path="/bbq-catering-dubai" element={<BBQCatering />} />
           <Route path="/buffet-catering-dubai" element={<BuffetCatering />} />
           <Route path="/canape-catering-dubai" element={<CanapeCatering />} />

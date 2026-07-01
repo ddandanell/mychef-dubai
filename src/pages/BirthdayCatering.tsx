@@ -163,10 +163,10 @@ const relatedServices = [
     link: '/dessert-table-catering-dubai',
   },
   {
-    title: 'Private Party Catering',
-    description: 'Live stations, canapés, and full-service staff for sophisticated home parties.',
-    image: '/service-villa.webp',
-    link: '/private-party-catering-dubai',
+    title: 'Kids Birthday Catering',
+    description: 'Safe, fun, allergy-aware party food designed for children and their friends.',
+    image: '/images/kids-birthday-catering-dubai-hero.webp',
+    link: '/kids-birthday-catering-dubai',
   },
 ]
 

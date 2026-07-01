@@ -157,16 +157,16 @@ const relatedServices = [
     link: '/birthday-catering-dubai',
   },
   {
-    title: 'Baby Shower Catering',
-    description: 'Grazing tables, afternoon tea, and dessert displays styled for a baby shower.',
-    image: '/menu-dessert.webp',
-    link: '/baby-shower-catering-dubai',
+    title: 'Kids Birthday Catering',
+    description: 'Safe, fun, allergy-aware catering designed specifically for children’s parties.',
+    image: '/images/kids-birthday-catering-dubai-hero.webp',
+    link: '/kids-birthday-catering-dubai',
   },
   {
-    title: 'Private Party Catering',
-    description: 'Live stations, canapés, and full-service staff for sophisticated home parties.',
-    image: '/service-villa.webp',
-    link: '/private-party-catering-dubai',
+    title: 'Pool Party Catering',
+    description: 'Fresh, light menus and live grills for villa pool parties and beach clubs.',
+    image: '/images/pool-party-catering-dubai-hero.webp',
+    link: '/pool-party-catering-dubai',
   },
 ]
 

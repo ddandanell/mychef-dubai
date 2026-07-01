@@ -19,11 +19,11 @@
 
 | Page / URL | Priority | Status | Notes |
 |---|---|---|---|
-| Gluten-Free Catering Dubai — `/gluten-free-catering-dubai` | High | planned | First batch; complements vegan/healthy |
-| Dairy-Free Catering Dubai — `/dairy-free-catering-dubai` | High | planned | First batch |
-| Nut-Free Catering Dubai — `/nut-free-catering-dubai` | High | planned | First batch; strong event/school demand |
-| Keto & Low-Carb Catering Dubai — `/keto-catering-dubai` | High | planned | First batch |
-| Jain Catering Dubai — `/jain-catering-dubai` | Medium | planned | Strong UAE/Indian demographic fit |
+| Gluten-Free Catering Dubai — `/gluten-free-catering-dubai` | High | built | Live; unique hero, 6 FAQs, internal links |
+| Dairy-Free Catering Dubai — `/dairy-free-catering-dubai` | High | built | Live; unique hero, 6 FAQs, internal links |
+| Nut-Free Catering Dubai — `/nut-free-catering-dubai` | High | built | Live; unique hero, 6 FAQs, internal links |
+| Keto & Low-Carb Catering Dubai — `/keto-catering-dubai` | High | built | Live; unique hero, 6 FAQs, internal links |
+| Jain Catering Dubai — `/jain-catering-dubai` | Medium | built | Live; unique hero, 6 FAQs, internal links |
 | Pescatarian Catering Dubai — `/pescatarian-catering-dubai` | Medium | missing | Seafood-forward menus |
 | Halal Private Dining (standalone) — `/halal-private-dining-dubai` | Medium | missing | Deep-dive beyond `/halal-catering-dubai` |
 | Sugar-Free / Diabetic-Friendly Catering — `/sugar-free-catering-dubai` | Low | missing | Wellness/corporate niche |
@@ -33,11 +33,11 @@
 
 | Page / URL | Priority | Status | Notes |
 |---|---|---|---|
-| Kids Birthday Catering Dubai — `/kids-birthday-catering-dubai` | High | missing | Distinct from general birthday |
-| Pool Party Catering Dubai — `/pool-party-catering-dubai` | Medium | missing | Villa/family segment |
-| Beach Catering Dubai — `/beach-catering-dubai` | Medium | missing | Seasonal demand |
-| Desert Dining & Camp Catering Dubai — `/desert-dining-dubai` | Medium | missing | Experience/tourism segment |
-| Afternoon Tea / High Tea Catering — `/afternoon-tea-catering-dubai` | Medium | missing | Hotel-style at-home |
+| Kids Birthday Catering Dubai — `/kids-birthday-catering-dubai` | High | built | Live; unique hero, 6 FAQs, internal links |
+| Pool Party Catering Dubai — `/pool-party-catering-dubai` | Medium | built | Live; unique hero, 6 FAQs, internal links |
+| Beach Catering Dubai — `/beach-catering-dubai` | Medium | built | Live; unique hero, 6 FAQs, internal links |
+| Desert Dining & Camp Catering Dubai — `/desert-dining-dubai` | Medium | built | Live; unique hero, 6 FAQs, internal links |
+| Afternoon Tea / High Tea Catering — `/afternoon-tea-catering-dubai` | Medium | built | Live; unique hero, 6 FAQs, internal links |
 | Housewarming Catering Dubai — `/housewarming-catering-dubai` | Low | missing | New-home celebration |
 | Graduation Party Catering Dubai — `/graduation-catering-dubai` | Low | missing | Seasonal school/uni |
 | Retirement / Farewell Catering Dubai — `/farewell-catering-dubai` | Low | missing | Corporate/social overlap |
@@ -85,14 +85,30 @@ Mirdif, Deira, Bur Dubai, Al Quoz, Dubai Silicon Oasis, Nad Al Sheba, Dubai Spor
 
 ---
 
-## In-progress batch
+## Completed batches
 
-**Batch 1 (dietary/allergen)** — building now:
-1. `/gluten-free-catering-dubai`
-2. `/dairy-free-catering-dubai`
-3. `/nut-free-catering-dubai`
-4. `/keto-catering-dubai`
-5. `/jain-catering-dubai`
+**Batch 1 (dietary/allergen)** — built and deployed:
+1. ✅ `/gluten-free-catering-dubai`
+2. ✅ `/dairy-free-catering-dubai`
+3. ✅ `/nut-free-catering-dubai`
+4. ✅ `/keto-catering-dubai`
+5. ✅ `/jain-catering-dubai`
+
+**Batch 2 (social occasions)** — built and deployed:
+1. ✅ `/kids-birthday-catering-dubai`
+2. ✅ `/pool-party-catering-dubai`
+3. ✅ `/beach-catering-dubai`
+4. ✅ `/desert-dining-dubai`
+5. ✅ `/afternoon-tea-catering-dubai`
+
+## Next recommended batch
+
+**Batch 3 (seasonal holidays)**:
+1. `/valentines-day-catering-dubai`
+2. `/mothers-day-catering-dubai`
+3. `/uae-national-day-catering-dubai`
+4. `/easter-catering-dubai`
+5. `/halloween-catering-dubai`
 
 ---
 

@@ -103,6 +103,15 @@ const relatedLinks = [
     { label: 'Vegan Catering', href: '/vegan-catering-dubai' },
     { label: 'Vegetarian Catering', href: '/vegetarian-catering-dubai' },
   ]},
+  { title: 'Occasions', links: [
+    { label: 'Kids Birthday Catering', href: '/kids-birthday-catering-dubai' },
+    { label: 'Pool Party Catering', href: '/pool-party-catering-dubai' },
+    { label: 'Beach Catering', href: '/beach-catering-dubai' },
+    { label: 'Desert Dining', href: '/desert-dining-dubai' },
+    { label: 'Afternoon Tea Catering', href: '/afternoon-tea-catering-dubai' },
+    { label: 'Party Catering', href: '/party-catering-dubai' },
+    { label: 'Wedding Catering', href: '/wedding-catering-dubai' },
+  ]},
   { title: 'Trust & Info', links: [
     { label: 'How We Vet Our Chefs', href: '/how-we-vet-our-chefs' },
     { label: 'Booking Protection', href: '/booking-protection-insurance' },

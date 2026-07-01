@@ -106,6 +106,9 @@ const relatedServices = [
   { label: 'Luxury Dining Experiences', href: '/luxury-dining-experiences' },
   { label: 'Yacht Catering', href: '/yachts' },
   { label: 'Event Catering', href: '/events' },
+  { label: 'Pool Party Catering', href: '/pool-party-catering-dubai' },
+  { label: 'Beach Catering', href: '/beach-catering-dubai' },
+  { label: 'Desert Dining', href: '/desert-dining-dubai' },
 ]
 
 const breadcrumbSchema = {

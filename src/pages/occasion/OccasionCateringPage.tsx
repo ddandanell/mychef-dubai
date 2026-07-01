@@ -9,6 +9,6 @@ import type {
   Faq,
 } from '../shared/ServiceLandingPage'
 
-export type DietaryPageConfig = ServicePageConfig
+export type OccasionPageConfig = ServicePageConfig
 export type { FormatItem, IncludedItem, UseCase, GalleryImage, RelatedService, Faq }
 export default ServiceLandingPage

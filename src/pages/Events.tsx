@@ -103,6 +103,24 @@ const relatedEventCatering = [
     description: 'Seasonal menus for Christmas, New Year, Ramadan, Eid, Diwali and more.',
     link: '/festive-catering-dubai',
   },
+  {
+    image: '/images/beach-catering-dubai-hero.webp',
+    title: 'Beach Catering',
+    description: 'Fresh seafood, grills and salads for Dubai beach clubs and shoreline events.',
+    link: '/beach-catering-dubai',
+  },
+  {
+    image: '/images/desert-dining-dubai-hero.webp',
+    title: 'Desert Dining',
+    description: 'Bedouin-inspired feasts and live grills under the stars in the Dubai dunes.',
+    link: '/desert-dining-dubai',
+  },
+  {
+    image: '/images/afternoon-tea-catering-dubai-hero.webp',
+    title: 'Afternoon Tea Catering',
+    description: 'Elegant high tea with tiered stands for showers, birthdays and corporate events.',
+    link: '/afternoon-tea-catering-dubai',
+  },
 ]
 
 const processSteps = [
