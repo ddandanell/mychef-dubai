@@ -26,7 +26,7 @@
 | Jain Catering Dubai — `/jain-catering-dubai` | Medium | built | Live; unique hero, 6 FAQs, internal links |
 | Pescatarian Catering Dubai — `/pescatarian-catering-dubai` | Medium | built | Live; unique hero, 6 FAQs, internal links |
 | Halal Private Dining (standalone) — `/halal-private-dining-dubai` | Medium | built | Live; unique hero, 6 FAQs, internal links |
-| Sugar-Free / Diabetic-Friendly Catering — `/sugar-free-catering-dubai` | Low | missing | Wellness/corporate niche |
+| Sugar-Free / Diabetic-Friendly Catering — `/sugar-free-catering-dubai` | Low | built | Live; reused hero, 6 FAQs, internal links |
 | FODMAP-Friendly Catering — `/fodmap-catering-dubai` | Low | missing | Very niche |
 
 ## Social occasions & event types
@@ -118,3 +118,4 @@ Mirdif, Deira, Bur Dubai, Al Quoz, Dubai Silicon Oasis, Nad Al Sheba, Dubai Spor
 ## Recently completed
 
 1. ✅ `/housewarming-catering-dubai` — built, deployed, and verified live
+2. ✅ `/sugar-free-catering-dubai` — built, deployed, and verified live
