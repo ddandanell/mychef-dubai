@@ -198,6 +198,12 @@ const relatedServices = [
     image: '/service-events.webp',
     link: '/fathers-day-catering-dubai',
   },
+  {
+    title: 'Picnic Catering',
+    description: 'Styled outdoor baskets and grazing boxes for relaxed park, beach and villa picnics.',
+    image: '/images/beach-catering-dubai-hero.webp',
+    link: '/picnic-catering-dubai',
+  },
 ]
 
 const faqSchema = {

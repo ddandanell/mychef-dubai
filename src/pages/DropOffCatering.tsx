@@ -173,6 +173,12 @@ const config: ServicePageConfig = {
       image: '/menu-appetizer.webp',
       link: '/business-lunch-catering-dubai',
     },
+    {
+      title: 'Picnic Catering Dubai',
+      description: 'Styled outdoor baskets and grazing boxes delivered to beaches, parks and villas.',
+      image: '/images/beach-catering-dubai-hero.webp',
+      link: '/picnic-catering-dubai',
+    },
   ],
   ctaH2: 'Order Drop-Off Catering That Arrives Ready to Serve',
   ctaP:

@@ -181,6 +181,12 @@ const relatedServices = [
     link: '/holi-catering-dubai',
   },
   {
+    title: 'Picnic Catering',
+    description: 'Outdoor baskets and grazing boxes for relaxed villa garden and park parties.',
+    image: '/images/beach-catering-dubai-hero.webp',
+    link: '/picnic-catering-dubai',
+  },
+  {
     title: 'Graduation Party Catering',
     description: 'Milestone graduation celebrations with personalised menus and full service.',
     image: '/service-events.webp',
