@@ -180,6 +180,12 @@ const relatedServices = [
     image: '/images/afternoon-tea-catering-dubai-hero.webp',
     link: '/coffee-tea-service-dubai',
   },
+  {
+    title: 'Live Shawarma & Kebab Station',
+    description: 'Interactive Arabic shawarma and kebab station for corporate receptions and team events.',
+    image: '/images/arabic-catering-dubai-hero.webp',
+    link: '/shawarma-station-dubai',
+  },
 ]
 
 const faqSchema = {

@@ -168,6 +168,12 @@ const relatedServices = [
     image: '/menu-appetizer.webp',
     link: '/grazing-table-dubai',
   },
+  {
+    title: 'Live Shawarma & Kebab Station',
+    description: 'Freshly carved shawarma and grilled kebabs cooked to order at your event.',
+    image: '/images/arabic-catering-dubai-hero.webp',
+    link: '/shawarma-station-dubai',
+  },
 ]
 
 const faqSchema = {

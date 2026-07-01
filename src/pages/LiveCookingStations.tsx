@@ -168,6 +168,12 @@ const relatedServices = [
     image: '/service-corporate.webp',
     link: '/corporate',
   },
+  {
+    title: 'Live Shawarma & Kebab Station',
+    description: 'Arabic shawarma and kebab station with mezze, breads and sauces.',
+    image: '/images/arabic-catering-dubai-hero.webp',
+    link: '/shawarma-station-dubai',
+  },
 ]
 
 const faqSchema = {
