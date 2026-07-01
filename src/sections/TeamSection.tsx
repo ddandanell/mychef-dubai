@@ -63,10 +63,10 @@ export default function TeamSection() {
             className="w-full lg:w-3/5 flex flex-col justify-center py-10 lg:py-0 lg:pl-8"
           >
             <span className="font-inter text-caption font-medium uppercase tracking-[0.1em] text-gold">
-              Meet the Team
+              Meet Our Chefs
             </span>
             <h2 className="font-playfair text-fluid-h2 text-white mt-4 mb-6">
-              Led by a Passion for Excellence
+              Who are the chefs behind myCHEF Dubai?
             </h2>
             <p className="font-inter text-base text-gray-400 leading-[1.7] mb-4 max-w-lg">
               Our head chef brings decades of experience from respected European kitchens to Dubai&apos;s most distinguished homes. Every menu is designed with precision, every plate tells a story.

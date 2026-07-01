@@ -384,10 +384,10 @@ export default function Corporate() {
         <div className="container-custom">
           <div className="text-center mb-12">
             <span className="font-inter text-caption font-medium uppercase tracking-widest text-gold">
-              CORPORATE SOLUTIONS
+              WHAT WE OFFER
             </span>
             <h2 className="font-playfair text-h2 text-black mt-4">
-              Business Dining Solutions
+              What corporate dining solutions does myCHEF Dubai offer?
             </h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed mt-4 max-w-[700px] mx-auto">
               We deliver corporate catering across Dubai's key business districts, including{' '}
@@ -422,10 +422,10 @@ export default function Corporate() {
         <div className="container-custom">
           <div className="text-center mb-12">
             <span className="font-inter text-caption font-medium uppercase tracking-widest text-gold">
-              CORPORATE SOLUTIONS
+              CATERING OPTIONS
             </span>
             <h2 className="font-playfair text-h2 text-black mt-4">
-              Corporate Catering Solutions
+              What types of corporate catering do you provide in Dubai?
             </h2>
           </div>
           <div ref={solutionsRef} className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -450,10 +450,10 @@ export default function Corporate() {
         <div className="container-custom max-w-[1000px]">
           <div className="text-center mb-16">
             <span className="font-inter text-caption font-medium uppercase tracking-widest text-gold">
-              TRUSTED BY BUSINESS
+              WHY CHOOSE US
             </span>
             <h2 className="font-playfair text-h2 text-white mt-4">
-              Why Dubai Companies Trust myCHEF
+              Why do Dubai companies choose myCHEF for corporate catering?
             </h2>
           </div>
           <div ref={trustRef} className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -473,7 +473,7 @@ export default function Corporate() {
         <div className="container-custom max-w-[1000px]">
           <div className="text-center mb-12">
             <h2 className="font-playfair text-h2 text-black">
-              Corporate Catering Options
+              What corporate catering packages are available in Dubai?
             </h2>
           </div>
           <div ref={tiersRef} className="grid grid-cols-1 sm:grid-cols-3 gap-6">
@@ -500,7 +500,7 @@ export default function Corporate() {
         <div className="container-custom max-w-[900px]">
           <div className="text-center mb-16">
             <h2 className="font-playfair text-h2 text-white">
-              How Corporate Catering Works
+              How does corporate catering work with myCHEF Dubai?
             </h2>
           </div>
           <div ref={processRef} className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -540,7 +540,7 @@ export default function Corporate() {
         <div className="container-custom max-w-[800px]">
           <div className="text-center mb-12">
             <span className="font-inter text-caption font-medium uppercase tracking-widest text-gold">FAQ</span>
-            <h2 className="font-playfair text-h2 text-black mt-4">Common Questions</h2>
+            <h2 className="font-playfair text-h2 text-black mt-4">Frequently Asked Questions About Corporate Catering in Dubai</h2>
           </div>
           <Accordion type="single" collapsible className="w-full">
             {faqs.map((faq, i) => (
@@ -561,7 +561,7 @@ export default function Corporate() {
       <section className="bg-cream section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <h2 className="font-playfair text-h2 text-black">Explore More Services</h2>
+            <h2 className="font-playfair text-h2 text-black">Which other catering services does myCHEF Dubai offer?</h2>
           </div>
           <div ref={relatedRef} className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-[1000px] mx-auto">
             {relatedServices.map((service) => (
@@ -583,15 +583,15 @@ export default function Corporate() {
 
       <StarterPackagesSection
         campaign="corporate"
-        eyebrow="CORPORATE PACKAGES"
-        title="Starter Packages"
+        eyebrow="CORPORATE CATERING PRICING"
+        title="How much does corporate catering cost in Dubai?"
         subtitle="Transparent starting prices for corporate dinners, boardroom lunches, and team events in Dubai."
       />
 
       {/* ═══════════════ Related Guides ═══════════════ */}
       <section className="bg-cream py-16">
         <div className="container-custom max-w-[800px] text-center">
-          <h3 className="font-playfair text-h3 text-black mb-4">Related Guides</h3>
+          <h3 className="font-playfair text-h3 text-black mb-4">Helpful Guides for Planning Corporate Events in Dubai</h3>
           <p className="font-inter text-body text-gray-500 leading-relaxed">
             Planning an event in Dubai? Read our{' '}
             <Link to="/corporate-catering-checklist-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Corporate Catering Checklist</Link>.
@@ -608,7 +608,7 @@ export default function Corporate() {
           <div ref={ctaRef}>
             <div className="gold-line mx-auto mb-8" />
             <h2 className="font-playfair text-h2 md:text-[48px] text-white mb-6">
-              Elevate Your Next Business Event
+              Ready to book corporate catering in Dubai?
             </h2>
             <p className="font-inter text-lg text-gray-400 max-w-[500px] mx-auto mb-10">
               Premium corporate catering that reflects the quality of your brand.

@@ -57,10 +57,10 @@ export default function LocationsSection() {
         {/* Header */}
         <div ref={headerRef} className="text-center mb-12 md:mb-16">
           <span className="font-inter text-caption font-medium uppercase tracking-[0.1em] text-gold">
-            Across Dubai
+            Where We Serve in Dubai
           </span>
           <h2 className="font-playfair text-fluid-h2 text-white mt-4 mb-4">
-            We Serve Every Corner of Dubai
+            Which areas in Dubai does myCHEF serve?
           </h2>
           <p className="font-inter text-base md:text-lg text-gray-400 max-w-2xl mx-auto">
             From Palm Jumeirah to Downtown, Emirates Hills to Dubai Marina — we bring premium dining to your doorstep.

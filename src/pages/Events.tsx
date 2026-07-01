@@ -102,25 +102,25 @@ const relatedEventCatering = [
 const processSteps = [
   {
     num: '01',
-    title: 'Initial Consultation',
+    title: 'Share your event details',
     description:
       'We discuss your event vision, guest count, venue, dietary needs, and budget.',
   },
   {
     num: '02',
-    title: 'Menu & Service Design',
+    title: 'We design your bespoke menu',
     description:
       'Our chef creates a bespoke menu and we design the service flow for your event.',
   },
   {
     num: '03',
-    title: 'Event Day Execution',
+    title: 'We execute flawlessly on the day',
     description:
       'We arrive early, set up, and execute flawlessly. You focus on your guests.',
   },
   {
     num: '04',
-    title: 'Post-Event Wrap-Up',
+    title: 'We handle cleanup and follow-up',
     description:
       'Complete cleanup and follow-up to ensure everything exceeded expectations.',
   },
@@ -418,10 +418,10 @@ export default function Events() {
           {/* Header */}
           <div className="text-center mb-12 max-w-3xl mx-auto">
             <span className="font-inter text-caption font-medium uppercase tracking-widest text-gold">
-              EVENTS WE CATER
+              WHAT EVENTS DO YOU CATER?
             </span>
             <h2 className="font-playfair text-h2 text-black mt-4">
-              Every Celebration Deserves Exceptional Food
+              What events can myCHEF Dubai cater?
             </h2>
             <p className="font-inter text-base text-gray-600 mt-4 leading-relaxed">
               From intimate gatherings to grand occasions, myCHEF Dubai delivers
@@ -482,10 +482,10 @@ export default function Events() {
           {/* Header */}
           <div className="text-center mb-16">
             <span className="font-inter text-caption font-medium uppercase tracking-widest text-gold">
-              OUR PROCESS
+              HOW IT WORKS
             </span>
             <h2 className="font-playfair text-h2 text-white mt-4">
-              From Planning to Perfect Execution
+              How does booking event catering in Dubai work?
             </h2>
           </div>
 
@@ -520,7 +520,7 @@ export default function Events() {
           {/* Header */}
           <div className="text-center mb-12">
             <h2 className="font-playfair text-h2 text-black">
-              What&apos;s Included in Event Catering
+              What is included in event catering in Dubai?
             </h2>
           </div>
 
@@ -550,10 +550,10 @@ export default function Events() {
           {/* Header */}
           <div className="text-center mb-12">
             <span className="font-inter text-caption font-medium uppercase tracking-widest text-gold">
-              GALLERY
+              EVENT GALLERY
             </span>
             <h2 className="font-playfair text-h2 text-white mt-4">
-              Event Moments
+              What do myCHEF Dubai events look like?
             </h2>
           </div>
 
@@ -614,10 +614,10 @@ export default function Events() {
           {/* Header */}
           <div className="text-center mb-12">
             <span className="font-inter text-caption font-medium uppercase tracking-widest text-gold">
-              FAQ
+              COMMON QUESTIONS
             </span>
             <h2 className="font-playfair text-h2 text-black mt-4">
-              Common Questions
+              Frequently asked questions about event catering in Dubai
             </h2>
           </div>
 
@@ -641,7 +641,7 @@ export default function Events() {
         <div className="container-custom">
           <div className="text-center mb-12">
             <h2 className="font-playfair text-h2 text-black">
-              Explore More Services
+              What other catering services does myCHEF Dubai offer?
             </h2>
           </div>
           <div
@@ -674,10 +674,10 @@ export default function Events() {
         <div className="container-custom">
           <div className="text-center mb-12">
             <span className="font-inter text-caption font-medium uppercase tracking-widest text-gold">
-              MORE EVENTS
+              MORE EVENTS WE CATER
             </span>
             <h2 className="font-playfair text-h2 text-black mt-4">
-              Related Event Catering
+              Which other events can myCHEF Dubai cater?
             </h2>
           </div>
           <div
@@ -728,7 +728,7 @@ export default function Events() {
           <div ref={ctaRef}>
             <div className="gold-line mx-auto mb-8" />
             <h2 className="font-playfair text-h2 md:text-[48px] text-white mb-6">
-              Let&apos;s Plan Your Next Event
+              Ready to book event catering in Dubai?
             </h2>
             <p className="font-inter text-lg text-gray-400 max-w-[500px] mx-auto mb-10">
               Tell us about your celebration and we will create a catering

@@ -32,8 +32,8 @@ export default function Home() {
       <ServicesSection />
       <StarterPackagesSection
         campaign="home"
-        eyebrow="TRANSPARENT PRICING"
-        title="Popular Packages"
+        eyebrow="INDICATIVE PRICING"
+        title="How much does a private chef or catering package cost in Dubai?"
         subtitle="Ready-to-book starting points for Dubai's most requested private chef and catering experiences."
       />
       <TrustSection />

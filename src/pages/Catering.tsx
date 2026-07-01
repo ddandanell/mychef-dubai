@@ -317,10 +317,10 @@ export default function Catering() {
         <div className="container-custom">
           <div className="text-center mb-12">
             <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              CATERING OPTIONS
+              WHAT CATERING OPTIONS ARE AVAILABLE?
             </span>
             <h2 className="font-playfair text-h2 text-black">
-              Catering for Every Occasion
+              What types of catering does myCHEF offer in Dubai?
             </h2>
           </div>
 
@@ -350,10 +350,10 @@ export default function Catering() {
         <div className="container-custom">
           <div className="text-center mb-10">
             <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WHERE WE SERVE
+              WHERE IN DUBAI DO YOU CATER?
             </span>
             <h2 className="font-playfair text-h2 text-black">
-              Catering by Dubai Location
+              Where can I book catering in Dubai?
             </h2>
           </div>
 
@@ -405,10 +405,10 @@ export default function Catering() {
         <div className="container-custom">
           <div className="text-center mb-12">
             <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              EVENTS WE CATER
+              WHAT EVENTS DO YOU CATER?
             </span>
             <h2 className="font-playfair text-h2 text-white">
-              Catering for Every Event
+              What events can myCHEF cater in Dubai?
             </h2>
           </div>
 
@@ -436,7 +436,7 @@ export default function Catering() {
       <section className="bg-cream section-padding">
         <div className="container-custom max-w-[1000px]">
           <h2 className="font-playfair text-h2 text-black text-center mb-12">
-            What Our Catering Includes
+            What is included in myCHEF catering service?
           </h2>
 
           <div className="cat-inc-grid grid md:grid-cols-2 gap-6">
@@ -457,7 +457,7 @@ export default function Catering() {
       <section className="bg-black py-20">
         <div className="container-custom">
           <h2 className="font-playfair text-fluid-h2 text-white text-center mb-10">
-            Gallery of Past Events
+            What do myCHEF catering events look like?
           </h2>
 
           <div className="cat-gallery grid grid-cols-2 lg:grid-cols-3 gap-4">
@@ -478,7 +478,7 @@ export default function Catering() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Catering Questions
+            What should I know before booking catering in Dubai?
           </h2>
 
           <div className="cat-faq space-y-3">
@@ -511,7 +511,7 @@ export default function Catering() {
       <section className="bg-charcoal py-20">
         <div className="container-custom">
           <h2 className="font-playfair text-fluid-h2 text-white text-center mb-10">
-            Catering Across Dubai
+            Which areas in Dubai does myCHEF cater?
           </h2>
 
           <div className="cat-loc-grid grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
@@ -533,7 +533,7 @@ export default function Catering() {
       <section className="bg-black py-20">
         <div className="container-custom">
           <h3 className="font-playfair text-h3 text-white text-center mb-10">
-            You May Also Like
+            What other services does myCHEF offer?
           </h3>
 
           <div className="cat-rel-grid grid md:grid-cols-3 gap-6">
@@ -565,15 +565,15 @@ export default function Catering() {
 
       <StarterPackagesSection
         campaign="catering-dubai"
-        eyebrow="CATERING PACKAGES"
-        title="Starter Packages"
+        eyebrow="HOW MUCH DOES CATERING COST IN DUBAI?"
+        title="How much does event catering cost in Dubai?"
         subtitle="Transparent starting prices for event catering in Dubai. Packages scale from intimate dinners to corporate events."
       />
 
       {/* ═══════════════ Related Guides ═══════════════ */}
       <section className="bg-cream py-16">
         <div className="container-custom max-w-[800px] text-center">
-          <h3 className="font-playfair text-h3 text-black mb-4">Related Guides</h3>
+          <h3 className="font-playfair text-h3 text-black mb-4">Where can I read more about Dubai catering?</h3>
           <p className="font-inter text-body text-gray-500 leading-relaxed">
             Planning an event in Dubai? Read our{' '}
             <Link to="/dubai-catering-prices-guide" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Dubai Catering Prices Guide</Link>
@@ -587,7 +587,7 @@ export default function Catering() {
       <section className="bg-gradient-to-b from-charcoal to-black py-20">
         <div className="container-custom text-center cat-cta opacity-0 translate-y-8">
           <h2 className="font-playfair text-h2 text-white mb-4">
-            Plan Your Event Catering
+            Ready to book catering for your Dubai event?
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
             From concept to execution — we handle every detail of your catering experience.

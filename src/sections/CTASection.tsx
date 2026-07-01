@@ -47,8 +47,7 @@ export default function CTASection() {
 
           {/* Headline */}
           <h2 className="font-playfair text-fluid-h2 text-white mb-6">
-            Ready to Experience<br />
-            <span className="text-gold">Something Exceptional?</span>
+            Ready to book a private chef or catering in Dubai?
           </h2>
 
           {/* Subtitle */}

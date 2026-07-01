@@ -286,7 +286,7 @@ export default function PrivateChef() {
             {/* Left Column */}
             <div className="pc-exp-left opacity-0 -translate-x-8">
               <h2 className="font-playfair text-h2 text-black mb-6">
-                What Is a Private Chef Service?
+                What does a private chef do in Dubai?
               </h2>
               <p className="font-inter text-body text-gray-500 leading-relaxed mb-4">
                 A private chef is a professional culinary expert who comes to your home, villa, or yacht to prepare bespoke meals exclusively for you and your guests. Unlike a restaurant experience, everything is designed around your preferences — the menu, the pacing, the atmosphere, the dietary requirements.
@@ -319,10 +319,10 @@ export default function PrivateChef() {
           {/* Header */}
           <div className="text-center mb-12">
             <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              HOW WE SERVE YOU
+              WHAT KIND OF PRIVATE CHEF DO YOU NEED?
             </span>
             <h2 className="font-playfair text-h2 text-white">
-              Private Chef Services in Dubai
+              What private chef services are available in Dubai?
             </h2>
           </div>
 
@@ -388,7 +388,7 @@ export default function PrivateChef() {
       <section className="bg-cream section-padding">
         <div className="container-custom max-w-[1000px]">
           <h2 className="font-playfair text-h2 text-black text-center mb-12">
-            What Your Evening Includes
+            How does a private chef dinner work in Dubai?
           </h2>
 
           <div className="pc-steps space-y-10">
@@ -412,10 +412,10 @@ export default function PrivateChef() {
         <div className="container-custom">
           <div className="text-center mb-12">
             <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              COVERAGE
+              WHERE IN DUBAI DO YOU COVER?
             </span>
             <h2 className="font-playfair text-fluid-h2 text-white">
-              Private Chef Services Across Dubai
+              Where in Dubai can I hire a private chef?
             </h2>
           </div>
 
@@ -438,7 +438,7 @@ export default function PrivateChef() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Private Chef Questions
+            What should I know before hiring a private chef in Dubai?
           </h2>
 
           <div className="pc-faq space-y-3">
@@ -488,7 +488,7 @@ export default function PrivateChef() {
       <section className="bg-black py-20">
         <div className="container-custom">
           <h3 className="font-playfair text-h3 text-white text-center mb-10">
-            You May Also Be Interested In
+            Which other services pair with a private chef in Dubai?
           </h3>
 
           <div className="pc-rel-grid grid md:grid-cols-3 gap-6">
@@ -520,15 +520,15 @@ export default function PrivateChef() {
 
       <StarterPackagesSection
         campaign="private-chef-dubai"
-        eyebrow="PRIVATE CHEF PACKAGES"
-        title="Starter Packages"
+        eyebrow="HOW MUCH DOES A PRIVATE CHEF COST IN DUBAI?"
+        title="How much does a private chef cost in Dubai?"
         subtitle="Transparent starting prices for private chef experiences in Dubai. Every menu is tailored to your occasion."
       />
 
       {/* ═══════════════ Related Guides ═══════════════ */}
       <section className="bg-cream py-16">
         <div className="container-custom max-w-[800px] text-center">
-          <h3 className="font-playfair text-h3 text-black mb-4">Related Guides</h3>
+          <h3 className="font-playfair text-h3 text-black mb-4">Where can I learn more about hiring a private chef in Dubai?</h3>
           <p className="font-inter text-body text-gray-500 leading-relaxed">
             Planning an event in Dubai? Read our{' '}
             <Link to="/private-chef-vs-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Private Chef vs Catering</Link>{' '}

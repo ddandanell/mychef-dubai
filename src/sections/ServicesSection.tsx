@@ -104,10 +104,10 @@ export default function ServicesSection() {
         {/* Section Header */}
         <div ref={headerRef} className="text-center mb-12 md:mb-16">
           <span className="font-inter text-caption font-medium uppercase tracking-[0.1em] text-gold">
-            What We Do
+            Private Chef & Catering Services
           </span>
           <h2 className="font-playfair text-fluid-h2 text-white mt-4 mb-4">
-            Tailored Culinary Experiences
+            What private chef and catering services does myCHEF Dubai offer?
           </h2>
           <div className="gold-line mx-auto" />
         </div>

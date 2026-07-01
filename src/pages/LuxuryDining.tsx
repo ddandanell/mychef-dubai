@@ -67,22 +67,22 @@ const relatedExperiences = [
 const processSteps = [
   {
     icon: MessageCircle,
-    title: 'Consultation',
+    title: 'What happens during the consultation?',
     description: 'We discuss your vision, preferences, dietary requirements, and the mood you want to create.',
   },
   {
     icon: Palette,
-    title: 'Menu Design',
+    title: 'How is your bespoke menu created?',
     description: 'Our chef crafts a bespoke menu that tells a story through each course.',
   },
   {
     icon: Sparkles,
-    title: 'The Setup',
+    title: 'How do we prepare your dining space?',
     description: 'We arrive early, transform your space, and prepare everything to perfection.',
   },
   {
     icon: Utensils,
-    title: 'The Experience',
+    title: 'What happens on the night of your dinner?',
     description: 'You and your guests enjoy an unforgettable evening. We handle every detail.',
   },
 ]
@@ -275,10 +275,10 @@ export default function LuxuryDining() {
         <div className="container-custom">
           <div className="text-center mb-12">
             <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              CURATED EXPERIENCES
+              LUXURY DINING OPTIONS
             </span>
             <h2 className="font-playfair text-h2 text-black">
-              Dining Experiences Tailored to You
+              What luxury dining experiences can you book in Dubai?
             </h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed max-w-[700px] mx-auto mt-4">
               From penthouses in Downtown to villas in{' '}
@@ -321,10 +321,10 @@ export default function LuxuryDining() {
         <div className="container-custom max-w-[1000px]">
           <div className="text-center mb-12">
             <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              THE EXPERIENCE
+              HOW IT WORKS
             </span>
             <h2 className="font-playfair text-h2 text-white">
-              A Evening Designed Around You
+              How does booking a luxury dining experience in Dubai work?
             </h2>
           </div>
 
@@ -368,7 +368,7 @@ export default function LuxuryDining() {
       <section className="bg-charcoal py-20">
         <div className="container-custom">
           <h2 className="font-playfair text-fluid-h2 text-white text-center mb-10">
-            Moments We Have Created
+            What do our luxury dining experiences look like?
           </h2>
 
           <div className="ld-gallery columns-2 md:columns-3 gap-3 space-y-3">
@@ -392,7 +392,7 @@ export default function LuxuryDining() {
       <section className="bg-cream py-20">
         <div className="container-custom max-w-[1000px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Perfect For Every Special Occasion
+            What occasions can you celebrate with luxury dining in Dubai?
           </h2>
 
           <div className="ld-tags flex flex-wrap justify-center gap-3">
@@ -412,7 +412,7 @@ export default function LuxuryDining() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Luxury Dining Questions
+            What are the most common questions about luxury dining in Dubai?
           </h2>
 
           <div className="ld-faq space-y-3">
@@ -446,7 +446,7 @@ export default function LuxuryDining() {
         <div className="container-custom">
           <div className="text-center mb-10">
             <h3 className="font-playfair text-h3 text-white">
-              Explore Our Services
+              Which myCHEF services pair with luxury dining?
             </h3>
           </div>
 
@@ -482,7 +482,7 @@ export default function LuxuryDining() {
         <div className="container-custom">
           <div className="text-center mb-10">
             <h3 className="font-playfair text-h3 text-black">
-              Related Experiences
+              What other experiences can you add?
             </h3>
           </div>
 
@@ -515,15 +515,15 @@ export default function LuxuryDining() {
 
       <StarterPackagesSection
         campaign="luxury-dining-experiences"
-        eyebrow="LUXURY DINING PACKAGES"
-        title="Starter Packages"
+        eyebrow="LUXURY DINING PRICING"
+        title="How much does luxury private dining cost in Dubai?"
         subtitle="Transparent starting prices for bespoke luxury dining experiences in Dubai. Every menu is designed around your occasion."
       />
 
       {/* ═══════════════ Related Guides ═══════════════ */}
       <section className="bg-cream py-16">
         <div className="container-custom max-w-[800px] text-center">
-          <h3 className="font-playfair text-h3 text-black mb-4">Related Guides</h3>
+          <h3 className="font-playfair text-h3 text-black mb-4">Which guides help plan a luxury dinner in Dubai?</h3>
           <p className="font-inter text-body text-gray-500 leading-relaxed">
             Planning an event in Dubai? Read our{' '}
             <Link to="/luxury-dinner-planning-guide-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Luxury Dinner Planning Guide</Link>.
@@ -535,7 +535,7 @@ export default function LuxuryDining() {
       <section className="bg-gradient-to-b from-charcoal to-black py-20">
         <div className="container-custom text-center ld-cta opacity-0 translate-y-8">
           <h2 className="font-playfair text-h2 text-white mb-4">
-            Create an Unforgettable Evening
+            Ready to book your luxury dining experience in Dubai?
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
             Your bespoke dining experience begins with a single conversation.

@@ -10,25 +10,25 @@ const steps = [
   {
     number: '01',
     icon: MessageCircle,
-    title: 'Send Us a Message',
+    title: 'Tell us about your event',
     description: 'Reach out via WhatsApp or our inquiry form. Tell us about your event, your guests, and your vision.',
   },
   {
     number: '02',
     icon: FileText,
-    title: 'We Design Your Menu',
+    title: 'We design your bespoke menu',
     description: 'Our chef creates a bespoke menu tailored to your preferences, dietary needs, and the occasion.',
   },
   {
     number: '03',
     icon: ShoppingBag,
-    title: 'We Shop & Prepare',
+    title: 'We source ingredients and prepare',
     description: 'We source the best available ingredients and arrive at your venue fully prepared to deliver excellence.',
   },
   {
     number: '04',
     icon: Utensils,
-    title: 'You Enjoy',
+    title: 'You enjoy; we handle cleanup',
     description: 'Sit back and enjoy a flawless dining experience. We handle everything from plating to cleanup.',
   },
 ]
@@ -75,10 +75,10 @@ export default function HowItWorksSection() {
         {/* Header */}
         <div ref={headerRef} className="text-center mb-12 md:mb-16">
           <span className="font-inter text-caption font-medium uppercase tracking-[0.1em] text-gold">
-            The Process
+            How It Works
           </span>
           <h2 className="font-playfair text-fluid-h2 text-black mt-4 mb-4">
-            How It Works
+            How does booking a private chef in Dubai work?
           </h2>
           <p className="font-inter text-base md:text-lg text-gray-500 max-w-xl mx-auto">
             From your first message to the final course — a seamless experience.

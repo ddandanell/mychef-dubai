@@ -107,10 +107,10 @@ export default function TestimonialsSection() {
         {/* Header */}
         <div ref={headerRef} className="text-center mb-10 md:mb-12">
           <span className="font-inter text-caption font-medium uppercase tracking-[0.1em] text-gold">
-            Client Stories
+            Client Testimonials
           </span>
           <h2 className="font-playfair text-fluid-h2 text-white mt-4">
-            What Our Clients Say
+            What do clients say about myCHEF Dubai?
           </h2>
         </div>
 

@@ -67,11 +67,10 @@ export default function TrustSection() {
           className="w-full lg:w-1/2 bg-charcoal py-16 md:py-20 lg:py-24 px-6 md:px-12 lg:px-20"
         >
           <span className="font-inter text-caption font-medium uppercase tracking-[0.1em] text-gold">
-            Why myCHEF Dubai
+            Why Book With myCHEF Dubai
           </span>
           <h2 className="font-playfair text-fluid-h2 text-white mt-4 mb-6">
-            Crafted by Experience.<br />
-            <span className="text-gold">Served with Discretion.</span>
+            Why book a private chef or caterer in Dubai with myCHEF?
           </h2>
           <p className="font-inter text-base text-gray-400 leading-[1.7] mb-10 max-w-lg">
             Founded by a team with deep roots in luxury hospitality, myCHEF Dubai brings experienced culinary talent directly to your door. Every dish is prepared with premium ingredients, every service delivered with discretion.
