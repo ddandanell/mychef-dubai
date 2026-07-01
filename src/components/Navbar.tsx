@@ -92,7 +92,7 @@ export default function Navbar() {
               to="/inquiry"
               className="btn-primary text-sm py-3 px-6"
             >
-              Get My Quote
+              Request a Proposal
             </Link>
           </div>
 
@@ -152,7 +152,7 @@ export default function Navbar() {
           {/* CTA */}
           <div className="pb-10 flex flex-col items-center gap-4">
             <Link to="/inquiry" className="btn-primary w-full text-center" onClick={() => setMobileOpen(false)}>
-              Get My Quote
+              Request a Proposal
             </Link>
             <a
               href={WHATSAPP_LINK}

@@ -271,7 +271,7 @@ export default function WeddingCatering() {
       />
 
       {/* ═══════════════ Section 1: Hero ═══════════════ */}
-      <section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
+      <section className="relative min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
           style={{ backgroundImage: 'url(/images/wedding-catering-dubai-hero.webp)' }}
@@ -409,7 +409,7 @@ export default function WeddingCatering() {
       {/* ═══════════════ Section 6: Gallery ═══════════════ */}
       <section className="bg-black py-20">
         <div className="container-custom">
-          <h2 className="font-playfair text-[36px] text-white text-center mb-10">
+          <h2 className="font-playfair text-fluid-h2 text-white text-center mb-10">
             A Taste of Our Wedding Catering
           </h2>
 
@@ -430,7 +430,7 @@ export default function WeddingCatering() {
       {/* ═══════════════ Section 7: FAQ ═══════════════ */}
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
-          <h2 className="font-playfair text-[36px] text-black text-center mb-10">
+          <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
             Wedding Catering Questions
           </h2>
 
@@ -463,7 +463,7 @@ export default function WeddingCatering() {
       {/* ═══════════════ Section 8: Locations ═══════════════ */}
       <section className="bg-charcoal py-20">
         <div className="container-custom">
-          <h2 className="font-playfair text-[36px] text-white text-center mb-10">
+          <h2 className="font-playfair text-fluid-h2 text-white text-center mb-10">
             Wedding Catering Across Dubai
           </h2>
 

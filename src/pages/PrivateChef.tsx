@@ -413,7 +413,7 @@ export default function PrivateChef() {
             <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
               COVERAGE
             </span>
-            <h2 className="font-playfair text-[36px] text-white">
+            <h2 className="font-playfair text-fluid-h2 text-white">
               Private Chef Services Across Dubai
             </h2>
           </div>
@@ -436,7 +436,7 @@ export default function PrivateChef() {
       {/* ═══════════════ Section 6: FAQ ═══════════════ */}
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
-          <h2 className="font-playfair text-[36px] text-black text-center mb-10">
+          <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
             Private Chef Questions
           </h2>
 

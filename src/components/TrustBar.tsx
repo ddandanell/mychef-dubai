@@ -6,9 +6,6 @@ interface TrustBarProps {
   className?: string
 }
 
-const GOOGLE_REVIEW_URL = 'https://www.google.com/search?q=myCHEF+Dubai'
-const TRUSTPILOT_URL = 'https://www.trustpilot.com/review/mychef.ae'
-
 export default function TrustBar({ variant = 'light', className }: TrustBarProps) {
   const isLight = variant === 'light'
   const isCompact = variant === 'compact'
@@ -62,35 +59,6 @@ export default function TrustBar({ variant = 'light', className }: TrustBarProps
             </span>
           </div>
 
-          {/* Google Reviews link */}
-          <a
-            href={GOOGLE_REVIEW_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={cn(
-              'font-inter text-body-sm font-medium transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 rounded-sm',
-              isLight
-                ? 'text-gold hover:text-gold-dark focus-visible:ring-offset-cream'
-                : 'text-gold hover:text-gold-light focus-visible:ring-offset-charcoal'
-            )}
-          >
-            Google Review Us
-          </a>
-
-          {/* Trustpilot link */}
-          <a
-            href={TRUSTPILOT_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={cn(
-              'font-inter text-body-sm font-medium transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 rounded-sm',
-              isLight
-                ? 'text-gold hover:text-gold-dark focus-visible:ring-offset-cream'
-                : 'text-gold hover:text-gold-light focus-visible:ring-offset-charcoal'
-            )}
-          >
-            Find us on Trustpilot
-          </a>
         </div>
       </div>
     </section>

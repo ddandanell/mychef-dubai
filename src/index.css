@@ -34,7 +34,7 @@
     --border: 0 0% 16%;
     --input: 0 0% 16%;
     --ring: 42 48% 57%;
-    --radius: 0px;
+    --radius: 0.25rem;
   }
 
   html {
@@ -67,10 +67,10 @@
     }
   }
 
-  /* Visible focus rings for keyboard users */
+  /* Visible focus rings for keyboard users (white offset so it shows on dark UI) */
   :focus-visible {
     outline: none;
-    box-shadow: 0 0 0 2px #000000, 0 0 0 4px var(--gold);
+    box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px var(--gold);
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -108,7 +108,7 @@
 
   /* Primary CTA Button */
   .btn-primary {
-    @apply inline-flex items-center justify-center px-6 md:px-8 py-3.5 min-h-12 md:min-h-0 font-inter text-button font-medium uppercase tracking-wider transition-all duration-300;
+    @apply inline-flex items-center justify-center px-6 md:px-8 py-3.5 min-h-12 md:min-h-0 font-inter text-button font-medium uppercase tracking-wider rounded-sm transition-all duration-300;
     background-color: var(--gold);
     color: #000000;
   }
@@ -126,7 +126,7 @@
 
   .btn-primary:focus-visible {
     outline: none;
-    box-shadow: 0 0 0 2px #000000, 0 0 0 4px var(--gold-light);
+    box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px var(--gold-light);
   }
 
   .btn-primary:disabled,
@@ -139,7 +139,7 @@
 
   /* Secondary / Outline CTA Button */
   .btn-secondary {
-    @apply inline-flex items-center justify-center px-6 md:px-8 py-3.5 min-h-12 md:min-h-0 font-inter text-button font-medium uppercase tracking-wider border transition-all duration-300;
+    @apply inline-flex items-center justify-center px-6 md:px-8 py-3.5 min-h-12 md:min-h-0 font-inter text-button font-medium uppercase tracking-wider border rounded-sm transition-all duration-300;
     border-color: var(--gold);
     color: var(--gold);
     background: transparent;
@@ -159,7 +159,7 @@
 
   .btn-secondary:focus-visible {
     outline: none;
-    box-shadow: 0 0 0 2px #000000, 0 0 0 4px var(--gold-light);
+    box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px var(--gold-light);
   }
 
   .btn-secondary:disabled,

@@ -98,14 +98,14 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Col 3: Company */}
+          {/* Col 3: Planning */}
           <div>
             <h4 className="font-inter text-caption font-medium uppercase tracking-wider text-white mb-5 md:mb-6">
-              Company
+              Planning
             </h4>
             <ul className="space-y-3">
-              {guideLinks.map((link) => (
-                <li key={link.href}>
+              {guideLinks.map((link, idx) => (
+                <li key={link.href} className={idx >= 5 ? 'hidden sm:block' : ''}>
                   <Link
                     to={link.href}
                     className="font-inter text-body-sm text-gray-400 hover:text-gold transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-black rounded-sm"
@@ -114,6 +114,14 @@ export default function Footer() {
                   </Link>
                 </li>
               ))}
+              <li className="sm:hidden">
+                <Link
+                  to="/guides"
+                  className="font-inter text-body-sm text-gold hover:text-gold-light transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-black rounded-sm"
+                >
+                  View all guides →
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -123,8 +131,8 @@ export default function Footer() {
               Locations
             </h4>
             <ul className="space-y-3">
-              {locationLinks.map((link) => (
-                <li key={link.href}>
+              {locationLinks.map((link, idx) => (
+                <li key={link.href} className={idx >= 5 ? 'hidden sm:block' : ''}>
                   <Link
                     to={link.href}
                     className="font-inter text-body-sm text-gray-400 hover:text-gold transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-black rounded-sm"
@@ -133,6 +141,14 @@ export default function Footer() {
                   </Link>
                 </li>
               ))}
+              <li className="sm:hidden">
+                <Link
+                  to="/locations"
+                  className="font-inter text-body-sm text-gold hover:text-gold-light transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-black rounded-sm"
+                >
+                  View all locations →
+                </Link>
+              </li>
             </ul>
           </div>
 

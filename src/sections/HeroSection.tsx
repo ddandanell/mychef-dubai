@@ -12,7 +12,7 @@ export default function HeroSection() {
   const subtextRef = useRef<HTMLParagraphElement>(null)
   const ctaRef = useRef<HTMLDivElement>(null)
   const statsRef = useRef<HTMLDivElement>(null)
-  const imageRef = useRef<HTMLDivElement>(null)
+  const imageRef = useRef<HTMLImageElement>(null)
   const rafRef = useRef<number | null>(null)
 
   useEffect(() => {
@@ -116,12 +116,13 @@ export default function HeroSection() {
     >
       {/* Background Image */}
       <div className="absolute inset-0 overflow-hidden">
-        <div
+        <img
           ref={imageRef}
-          className="absolute inset-0 bg-cover bg-center scale-105 will-change-transform"
-          style={{
-            backgroundImage: 'url(/images/home-hero.webp)',
-          }}
+          src="/images/home-hero.webp"
+          alt="Premium private chef dining experience in Dubai"
+          fetchPriority="high"
+          decoding="async"
+          className="absolute inset-0 w-full h-full object-cover scale-105 will-change-transform"
         />
         {/* Gradient overlay */}
         <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/40 to-black/80" />

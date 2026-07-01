@@ -406,7 +406,7 @@ export default function BrandActivationCatering() {
       {/* ═══════════════ Section 6: Gallery ═══════════════ */}
       <section className="bg-black py-20">
         <div className="container-custom">
-          <h2 className="font-playfair text-[36px] text-white text-center mb-10">
+          <h2 className="font-playfair text-fluid-h2 text-white text-center mb-10">
             Activation Catering in Action
           </h2>
 
@@ -427,7 +427,7 @@ export default function BrandActivationCatering() {
       {/* ═══════════════ Section 7: FAQ ═══════════════ */}
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
-          <h2 className="font-playfair text-[36px] text-black text-center mb-10">
+          <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
             Brand Activation Catering Questions
           </h2>
 
@@ -460,7 +460,7 @@ export default function BrandActivationCatering() {
       {/* ═══════════════ Section 8: Locations ═══════════════ */}
       <section className="bg-charcoal py-20">
         <div className="container-custom">
-          <h2 className="font-playfair text-[36px] text-white text-center mb-10">
+          <h2 className="font-playfair text-fluid-h2 text-white text-center mb-10">
             Activation Catering Locations in Dubai
           </h2>
 

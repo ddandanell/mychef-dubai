@@ -116,17 +116,17 @@ export default function TestimonialsSection() {
 
         {/* Testimonial Card */}
         <div className="relative">
-          {/* Navigation Arrows */}
+          {/* Navigation Arrows (desktop) */}
           <button
             onClick={prev}
-            className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-2 md:-translate-x-16 z-10 w-12 h-12 rounded-full border border-gold text-gold flex items-center justify-center hover:bg-gold hover:text-black transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-charcoal"
+            className="hidden md:flex absolute left-0 top-1/2 -translate-y-1/2 -translate-x-2 md:-translate-x-16 z-10 w-12 h-12 rounded-full border border-gold text-gold items-center justify-center hover:bg-gold hover:text-black transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-charcoal"
             aria-label="Previous testimonial"
           >
             <ChevronLeft size={20} />
           </button>
           <button
             onClick={next}
-            className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-2 md:translate-x-16 z-10 w-12 h-12 rounded-full border border-gold text-gold flex items-center justify-center hover:bg-gold hover:text-black transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-charcoal"
+            className="hidden md:flex absolute right-0 top-1/2 -translate-y-1/2 translate-x-2 md:translate-x-16 z-10 w-12 h-12 rounded-full border border-gold text-gold items-center justify-center hover:bg-gold hover:text-black transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-charcoal"
             aria-label="Next testimonial"
           >
             <ChevronRight size={20} />
@@ -166,6 +166,24 @@ export default function TestimonialsSection() {
                 aria-current={i === current ? 'true' : undefined}
               />
             ))}
+          </div>
+
+          {/* Mobile arrows */}
+          <div className="flex md:hidden justify-center gap-4 mt-6">
+            <button
+              onClick={prev}
+              className="w-12 h-12 rounded-full border border-gold text-gold flex items-center justify-center hover:bg-gold hover:text-black transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-charcoal"
+              aria-label="Previous testimonial"
+            >
+              <ChevronLeft size={20} />
+            </button>
+            <button
+              onClick={next}
+              className="w-12 h-12 rounded-full border border-gold text-gold flex items-center justify-center hover:bg-gold hover:text-black transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-charcoal"
+              aria-label="Next testimonial"
+            >
+              <ChevronRight size={20} />
+            </button>
           </div>
         </div>
       </div>

@@ -450,7 +450,7 @@ export default function BarServices() {
       {/* ═══════════════ Section 7: Gallery ═══════════════ */}
       <section className="bg-black py-20">
         <div className="container-custom">
-          <h2 className="font-playfair text-[36px] text-white text-center mb-10">
+          <h2 className="font-playfair text-fluid-h2 text-white text-center mb-10">
             Bar Service in Action
           </h2>
 
@@ -471,7 +471,7 @@ export default function BarServices() {
       {/* ═══════════════ Section 8: FAQ ═══════════════ */}
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
-          <h2 className="font-playfair text-[36px] text-black text-center mb-10">
+          <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
             Bar Service Questions
           </h2>
 
@@ -504,7 +504,7 @@ export default function BarServices() {
       {/* ═══════════════ Section 9: Locations ═══════════════ */}
       <section className="bg-charcoal py-20">
         <div className="container-custom">
-          <h2 className="font-playfair text-[36px] text-white text-center mb-10">
+          <h2 className="font-playfair text-fluid-h2 text-white text-center mb-10">
             Bar Service Across Dubai
           </h2>
 

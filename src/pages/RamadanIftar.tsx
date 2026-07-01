@@ -558,7 +558,7 @@ export default function RamadanIftar() {
             <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
               FAQ
             </span>
-            <h2 className="font-playfair text-[36px] text-black">
+            <h2 className="font-playfair text-fluid-h2 text-black">
               Ramadan Iftar Questions
             </h2>
           </div>
@@ -593,7 +593,7 @@ export default function RamadanIftar() {
       {/* ═══════════════ Section 12: Locations ═══════════════ */}
       <section className="bg-black py-20">
         <div className="container-custom">
-          <h2 className="font-playfair text-[36px] text-white text-center mb-10">
+          <h2 className="font-playfair text-fluid-h2 text-white text-center mb-10">
             Iftar Catering Across Dubai
           </h2>
 

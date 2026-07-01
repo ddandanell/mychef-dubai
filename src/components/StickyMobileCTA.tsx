@@ -4,7 +4,7 @@ import { Phone, FileText } from 'lucide-react'
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to request a proposal')
-const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
+const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}&utm_source=mychef.ae&utm_medium=sticky_bar&utm_campaign=mobile`
 
 const StickyMobileCTA = memo(function StickyMobileCTA() {
   return (

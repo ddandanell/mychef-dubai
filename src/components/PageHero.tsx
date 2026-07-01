@@ -51,7 +51,7 @@ export default function PageHero({
 }: PageHeroProps) {
   const sectionRef = useRef<HTMLDivElement>(null)
   const contentRef = useRef<HTMLDivElement>(null)
-  const imageRef = useRef<HTMLDivElement>(null)
+  const imageRef = useRef<HTMLImageElement>(null)
   const rafRef = useRef<number | null>(null)
 
   useEffect(() => {
@@ -105,12 +105,13 @@ export default function PageHero({
       {/* Background */}
       {image ? (
         <div className="absolute inset-0 overflow-hidden">
-          <div
+          <img
             ref={imageRef}
-            className="absolute inset-0 bg-cover bg-center scale-105 will-change-transform"
-            style={{ backgroundImage: `url(${image})` }}
-            role="img"
-            aria-label={imageAlt}
+            src={image}
+            alt={imageAlt}
+            fetchPriority="high"
+            decoding="async"
+            className="absolute inset-0 w-full h-full object-cover scale-105 will-change-transform"
           />
           <div className={`absolute inset-0 bg-gradient-to-b ${overlayClasses[overlay]}`} />
         </div>

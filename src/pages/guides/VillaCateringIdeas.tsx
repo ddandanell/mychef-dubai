@@ -451,7 +451,7 @@ export default function VillaCateringIdeas() {
       {/* ═══════════════ FAQ ═══════════════ */}
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
-          <h2 className="font-playfair text-[36px] text-black text-center mb-10">
+          <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
             Villa Catering FAQ
           </h2>
 

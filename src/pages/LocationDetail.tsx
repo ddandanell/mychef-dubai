@@ -578,7 +578,7 @@ export default function LocationDetail() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <div className="loc-section opacity-0 translate-y-8 text-center mb-10">
-            <h2 className="font-playfair text-[36px] text-black">Questions About {loc.name} Catering</h2>
+            <h2 className="font-playfair text-fluid-h2 text-black">Questions About {loc.name} Catering</h2>
           </div>
           <div className="loc-faq space-y-3">
             {loc.faqs.map((faq, i) => (

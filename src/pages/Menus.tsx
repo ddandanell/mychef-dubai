@@ -405,7 +405,7 @@ export default function Menus() {
       {/* Section 4: Dietary Accommodations */}
       <section ref={dietaryRef} className="bg-cream py-20">
         <div className="container-custom max-w-[1000px]">
-          <h2 className="font-playfair text-[36px] text-black text-center mb-10">
+          <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
             Every Dietary Need, Expertly Handled
           </h2>
 
@@ -436,7 +436,7 @@ export default function Menus() {
             <span className="font-inter text-caption font-medium uppercase tracking-wider text-gold mb-4 block">
               ELEVATE YOUR EXPERIENCE
             </span>
-            <h2 className="font-playfair text-[36px] text-white">Wine, Cocktails & Service</h2>
+            <h2 className="font-playfair text-fluid-h2 text-white">Wine, Cocktails & Service</h2>
           </div>
 
           {/* 3-Column Grid */}
@@ -459,7 +459,7 @@ export default function Menus() {
       {/* Section: Pricing FAQ */}
       <section ref={faqRef} className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
-          <h2 className="font-playfair text-[36px] text-black text-center mb-10">
+          <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
             Pricing FAQ
           </h2>
 

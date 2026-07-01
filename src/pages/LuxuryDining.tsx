@@ -366,7 +366,7 @@ export default function LuxuryDining() {
       {/* ═══════════════ Section 4: Gallery ═══════════════ */}
       <section className="bg-charcoal py-20">
         <div className="container-custom">
-          <h2 className="font-playfair text-[36px] text-white text-center mb-10">
+          <h2 className="font-playfair text-fluid-h2 text-white text-center mb-10">
             Moments We Have Created
           </h2>
 
@@ -390,7 +390,7 @@ export default function LuxuryDining() {
       {/* ═══════════════ Section 5: Special Occasions ═══════════════ */}
       <section className="bg-cream py-20">
         <div className="container-custom max-w-[1000px]">
-          <h2 className="font-playfair text-[36px] text-black text-center mb-10">
+          <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
             Perfect For Every Special Occasion
           </h2>
 
@@ -410,7 +410,7 @@ export default function LuxuryDining() {
       {/* ═══════════════ Section 6: FAQ ═══════════════ */}
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
-          <h2 className="font-playfair text-[36px] text-black text-center mb-10">
+          <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
             Luxury Dining Questions
           </h2>
 

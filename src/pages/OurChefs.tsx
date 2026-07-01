@@ -281,7 +281,7 @@ export default function OurChefs() {
       {/* Section 4: Kitchen Standards */}
       <section ref={standardsRef} className="bg-charcoal py-20">
         <div className="container-custom max-w-[1000px]">
-          <h2 className="font-playfair text-[36px] text-white text-center mb-12">Our Standards</h2>
+          <h2 className="font-playfair text-fluid-h2 text-white text-center mb-12">Our Standards</h2>
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
             {standards.map(({ icon: Icon, label }) => (
               <div key={label} className="standard-item flex flex-col items-center text-center">

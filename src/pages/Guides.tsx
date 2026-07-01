@@ -261,7 +261,7 @@ export default function Guides() {
             <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
               FAQ
             </span>
-            <h2 className="font-playfair text-[36px] text-black">
+            <h2 className="font-playfair text-fluid-h2 text-black">
               About Our Catering Guides
             </h2>
           </div>
