@@ -139,6 +139,12 @@ const relatedEventCatering = [
     description: 'Emirati-inspired menus, live grills and elegant buffets for 2 December celebrations across Dubai.',
     link: '/uae-national-day-catering-dubai',
   },
+  {
+    image: '/images/easter-catering-dubai-hero.webp',
+    title: 'Easter Catering',
+    description: 'Spring brunches, roast lunches and garden parties for Easter celebrations with family and friends.',
+    link: '/easter-catering-dubai',
+  },
 ]
 
 const processSteps = [
