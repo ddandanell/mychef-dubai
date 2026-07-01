@@ -60,7 +60,7 @@
 
 | Page / URL | Priority | Status | Notes |
 |---|---|---|---|
-| Breakfast Catering Dubai — `/breakfast-catering-dubai` | Medium | missing | Corporate/hotel checkout niche |
+| Breakfast Catering Dubai — `/breakfast-catering-dubai` | Medium | built | Live; unique hero, 6 FAQs, internal links |
 | Picnic Catering Dubai — `/picnic-catering-dubai` | Low | missing | Styled outdoor baskets |
 | Drop-Off Catering Dubai — `/drop-off-catering-dubai` | Medium | missing | Lower-touch, faster turnaround |
 | Tasting Menu / Chef's Table Dubai — `/tasting-menu-dubai` | Medium | missing | Luxury dining upsell |
