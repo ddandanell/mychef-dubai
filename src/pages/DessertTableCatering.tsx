@@ -168,6 +168,12 @@ const relatedServices = [
     image: '/menu-canapes.webp',
     link: '/baby-shower-catering-dubai',
   },
+  {
+    title: 'Gelato & Dessert Cart',
+    description: 'Mobile gelato, crepe, candy and mini dessert carts for events of any size.',
+    image: '/images/dessert-table-catering-dubai-hero.webp',
+    link: '/dessert-cart-dubai',
+  },
 ]
 
 const faqSchema = {

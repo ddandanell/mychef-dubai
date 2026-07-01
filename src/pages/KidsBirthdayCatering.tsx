@@ -166,6 +166,12 @@ const config: OccasionPageConfig = {
       image: '/menu-dessert.webp',
       link: '/dessert-table-catering-dubai',
     },
+    {
+      title: 'Gelato & Dessert Cart',
+      description: 'Fun ice cream, candy and dessert carts that kids love at birthday parties.',
+      image: '/images/dessert-table-catering-dubai-hero.webp',
+      link: '/dessert-cart-dubai',
+    },
   ],
   ctaH2: 'Plan a Kids Birthday Party Everyone Will Love',
   ctaP:

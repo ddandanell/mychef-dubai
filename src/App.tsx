@@ -66,6 +66,7 @@ const ChineseNewYearCatering = lazy(() => import('./pages/ChineseNewYearCatering
 const HoliCatering = lazy(() => import('./pages/HoliCatering'))
 const PicnicCatering = lazy(() => import('./pages/PicnicCatering'))
 const CoffeeTeaService = lazy(() => import('./pages/CoffeeTeaService'))
+const DessertCart = lazy(() => import('./pages/DessertCart'))
 const BBQCatering = lazy(() => import('./pages/BBQCatering'))
 const BuffetCatering = lazy(() => import('./pages/BuffetCatering'))
 const CanapeCatering = lazy(() => import('./pages/CanapeCatering'))
@@ -226,6 +227,7 @@ export default function App() {
           <Route path="/holi-catering-dubai" element={<HoliCatering />} />
           <Route path="/picnic-catering-dubai" element={<PicnicCatering />} />
           <Route path="/coffee-tea-service-dubai" element={<CoffeeTeaService />} />
+          <Route path="/dessert-cart-dubai" element={<DessertCart />} />
           <Route path="/bbq-catering-dubai" element={<BBQCatering />} />
           <Route path="/buffet-catering-dubai" element={<BuffetCatering />} />
           <Route path="/canape-catering-dubai" element={<CanapeCatering />} />

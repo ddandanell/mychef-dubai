@@ -168,6 +168,12 @@ const relatedServices = [
     image: '/menu-dessert.webp',
     link: '/dessert-table-catering-dubai',
   },
+  {
+    title: 'Gelato & Dessert Cart',
+    description: 'Elegant gelato and sweet carts to add theatre to your wedding reception.',
+    image: '/images/dessert-table-catering-dubai-hero.webp',
+    link: '/dessert-cart-dubai',
+  },
 ]
 
 const faqSchema = {
