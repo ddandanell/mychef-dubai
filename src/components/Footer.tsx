@@ -11,6 +11,7 @@ const serviceLinks = [
   { label: 'Corporate Dining', href: '/corporate' },
   { label: 'Villas & Residences', href: '/villas-private-residences' },
   { label: 'Yachts', href: '/yachts' },
+  { label: 'World Cuisines', href: '/cuisines-dubai' },
 ]
 
 const guideLinks = [

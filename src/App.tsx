@@ -60,6 +60,7 @@ const VeganCatering = lazy(() => import('./pages/VeganCatering'))
 const VegetarianCatering = lazy(() => import('./pages/VegetarianCatering'))
 const HalalCatering = lazy(() => import('./pages/HalalCatering'))
 const HealthyCatering = lazy(() => import('./pages/HealthyCatering'))
+const Cuisines = lazy(() => import('./pages/Cuisines'))
 const OfficeCatering = lazy(() => import('./pages/OfficeCatering'))
 const BusinessLunchCatering = lazy(() => import('./pages/BusinessLunchCatering'))
 const CorporateEventCatering = lazy(() => import('./pages/CorporateEventCatering'))
@@ -183,6 +184,7 @@ export default function App() {
           <Route path="/vegetarian-catering-dubai" element={<VegetarianCatering />} />
           <Route path="/halal-catering-dubai" element={<HalalCatering />} />
           <Route path="/healthy-catering-dubai" element={<HealthyCatering />} />
+          <Route path="/cuisines-dubai" element={<Cuisines />} />
           <Route path="/office-catering-dubai" element={<OfficeCatering />} />
           <Route path="/business-lunch-catering-dubai" element={<BusinessLunchCatering />} />
           <Route path="/corporate-event-catering-dubai" element={<CorporateEventCatering />} />
