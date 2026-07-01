@@ -149,6 +149,12 @@ const config: OccasionPageConfig = {
   ],
   relatedServices: [
     {
+      title: "Mother's Day Catering",
+      description: 'A refined afternoon tea or brunch to celebrate Mum in style.',
+      image: '/images/mothers-day-catering-dubai-hero.webp',
+      link: '/mothers-day-catering-dubai',
+    },
+    {
       title: 'Canapé Catering',
       description: 'Elegant bite-sized options that complement any afternoon tea menu.',
       image: '/images/canape-catering-dubai-hero.webp',

@@ -133,6 +133,12 @@ const faqs = [
 
 const relatedServices = [
   {
+    title: "Mother's Day Catering",
+    description: 'Celebrate Mum with a beautiful brunch, lunch or high tea at home or venue.',
+    image: '/images/mothers-day-catering-dubai-hero.webp',
+    link: '/mothers-day-catering-dubai',
+  },
+  {
     title: 'Private Chef Dubai',
     description: 'Bespoke dining and daily chef services brought to your home or villa.',
     image: '/service-catering.webp',

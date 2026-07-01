@@ -127,6 +127,12 @@ const relatedEventCatering = [
     description: 'Candlelit private dining and romantic catering for proposals, anniversaries and February 14.',
     link: '/valentines-day-catering-dubai',
   },
+  {
+    image: '/images/mothers-day-catering-dubai-hero.webp',
+    title: "Mother's Day Catering",
+    description: 'Elegant brunch, lunch and high tea catering to celebrate Mum at home or venue.',
+    link: '/mothers-day-catering-dubai',
+  },
 ]
 
 const processSteps = [
