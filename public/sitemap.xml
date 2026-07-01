@@ -47,6 +47,11 @@
   <url><loc>https://mychef.ae/vegetarian-catering-dubai</loc><priority>0.7</priority><changefreq>weekly</changefreq></url>
   <url><loc>https://mychef.ae/halal-catering-dubai</loc><priority>0.8</priority><changefreq>weekly</changefreq></url>
   <url><loc>https://mychef.ae/healthy-catering-dubai</loc><priority>0.7</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://mychef.ae/gluten-free-catering-dubai</loc><priority>0.7</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://mychef.ae/dairy-free-catering-dubai</loc><priority>0.7</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://mychef.ae/nut-free-catering-dubai</loc><priority>0.7</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://mychef.ae/keto-catering-dubai</loc><priority>0.7</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://mychef.ae/jain-catering-dubai</loc><priority>0.7</priority><changefreq>weekly</changefreq></url>
 
   <!-- Corporate & institutional -->
   <url><loc>https://mychef.ae/office-catering-dubai</loc><priority>0.8</priority><changefreq>weekly</changefreq></url>

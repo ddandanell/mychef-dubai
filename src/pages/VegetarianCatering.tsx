@@ -157,10 +157,10 @@ const relatedServices = [
     link: '/vegan-catering-dubai',
   },
   {
-    title: 'Indian Catering',
-    description: 'Aromatic Indian menus, from curries and biryani to chaat, for celebrations of any size.',
-    image: '/menu-appetizer.webp',
-    link: '/indian-catering-dubai',
+    title: 'Jain Catering',
+    description: 'Respectful Jain menus prepared without onion, garlic, root vegetables, mushrooms or eggs.',
+    image: '/images/jain-catering-dubai-hero.webp',
+    link: '/jain-catering-dubai',
   },
   {
     title: 'Healthy Catering',

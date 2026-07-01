@@ -1,0 +1,99 @@
+# myCHEF Dubai — Missing Services Tracker
+
+> This tracker lists service landing pages and deep-dive pages that are **not yet built** on mychef.ae, so we always know what is still missing while we close the gaps.
+>
+> Status: `missing` = not started, `planned` = brief exists or component in progress, `built` = live on production.
+
+---
+
+## How to use
+
+1. Pick the next highest-value category (top-down).
+2. Build each page to the [20-point page spec](../src/components/SEO.tsx + tracker §Definition of Done).
+3. Mark `built` only after route, sitemap entry, internal links, build, and live verification.
+4. Keep this file updated every session.
+
+---
+
+## Dietary, allergen & lifestyle (high-value gaps)
+
+| Page / URL | Priority | Status | Notes |
+|---|---|---|---|
+| Gluten-Free Catering Dubai — `/gluten-free-catering-dubai` | High | planned | First batch; complements vegan/healthy |
+| Dairy-Free Catering Dubai — `/dairy-free-catering-dubai` | High | planned | First batch |
+| Nut-Free Catering Dubai — `/nut-free-catering-dubai` | High | planned | First batch; strong event/school demand |
+| Keto & Low-Carb Catering Dubai — `/keto-catering-dubai` | High | planned | First batch |
+| Jain Catering Dubai — `/jain-catering-dubai` | Medium | planned | Strong UAE/Indian demographic fit |
+| Pescatarian Catering Dubai — `/pescatarian-catering-dubai` | Medium | missing | Seafood-forward menus |
+| Halal Private Dining (standalone) — `/halal-private-dining-dubai` | Medium | missing | Deep-dive beyond `/halal-catering-dubai` |
+| Sugar-Free / Diabetic-Friendly Catering — `/sugar-free-catering-dubai` | Low | missing | Wellness/corporate niche |
+| FODMAP-Friendly Catering — `/fodmap-catering-dubai` | Low | missing | Very niche |
+
+## Social occasions & event types
+
+| Page / URL | Priority | Status | Notes |
+|---|---|---|---|
+| Kids Birthday Catering Dubai — `/kids-birthday-catering-dubai` | High | missing | Distinct from general birthday |
+| Pool Party Catering Dubai — `/pool-party-catering-dubai` | Medium | missing | Villa/family segment |
+| Beach Catering Dubai — `/beach-catering-dubai` | Medium | missing | Seasonal demand |
+| Desert Dining & Camp Catering Dubai — `/desert-dining-dubai` | Medium | missing | Experience/tourism segment |
+| Afternoon Tea / High Tea Catering — `/afternoon-tea-catering-dubai` | Medium | missing | Hotel-style at-home |
+| Housewarming Catering Dubai — `/housewarming-catering-dubai` | Low | missing | New-home celebration |
+| Graduation Party Catering Dubai — `/graduation-catering-dubai` | Low | missing | Seasonal school/uni |
+| Retirement / Farewell Catering Dubai — `/farewell-catering-dubai` | Low | missing | Corporate/social overlap |
+| Reunion Catering Dubai — `/reunion-catering-dubai` | Low | missing | Family/friends |
+
+## Holiday & seasonal occasions
+
+| Page / URL | Priority | Status | Notes |
+|---|---|---|---|
+| Valentine's Day Private Dining — `/valentines-day-catering-dubai` | Medium | missing | Feb spike |
+| Mother's Day Catering Dubai — `/mothers-day-catering-dubai` | Medium | missing | Mar spike |
+| Father's Day Catering Dubai — `/fathers-day-catering-dubai` | Low | missing | Jun spike |
+| Easter Catering Dubai — `/easter-catering-dubai` | Low | missing | Mar/Apr |
+| Halloween Catering Dubai — `/halloween-catering-dubai` | Low | missing | Oct |
+| UAE National Day Catering — `/uae-national-day-catering-dubai` | Medium | missing | Dec 2 |
+| Chinese New Year Catering — `/chinese-new-year-catering-dubai` | Low | missing | Jan/Feb |
+| Holi Catering Dubai — `/holi-catering-dubai` | Low | missing | Mar |
+
+## Service formats & stations
+
+| Page / URL | Priority | Status | Notes |
+|---|---|---|---|
+| Breakfast Catering Dubai — `/breakfast-catering-dubai` | Medium | missing | Corporate/hotel checkout niche |
+| Picnic Catering Dubai — `/picnic-catering-dubai` | Low | missing | Styled outdoor baskets |
+| Drop-Off Catering Dubai — `/drop-off-catering-dubai` | Medium | missing | Lower-touch, faster turnaround |
+| Tasting Menu / Chef's Table Dubai — `/tasting-menu-dubai` | Medium | missing | Luxury dining upsell |
+| Coffee & Tea Service Dubai — `/coffee-tea-service-dubai` | Low | missing | Corporate reception add-on |
+| Gelato / Dessert Cart Dubai — `/dessert-cart-dubai` | Low | missing | Funnel from dessert table |
+| Live Shawarma / Kebab Station — `/shawarma-station-dubai` | Low | missing | Arabic format station |
+| Oyster & Seafood Bar Dubai — `/oyster-bar-dubai` | Low | missing | Premium format |
+
+## Corporate & institutional
+
+| Page / URL | Priority | Status | Notes |
+|---|---|---|---|
+| Exhibition & Trade Show Catering — `/exhibition-catering-dubai` | Medium | missing | Expo/DWTC adjacency |
+| Government Event Catering Dubai — `/government-event-catering-dubai` | Low | missing | Tender-style language |
+| University / Student Catering Dubai — `/university-catering-dubai` | Low | missing | Campus events |
+| Hospital / Healthcare Catering Dubai — `/healthcare-catering-dubai` | Low | missing | Strict compliance angle |
+
+## Location expansion (lower priority)
+
+Already 15 location pages exist. Future expansions to consider only after all service gaps are closed:
+Mirdif, Deira, Bur Dubai, Al Quoz, Dubai Silicon Oasis, Nad Al Sheba, Dubai Sports City, Motor City, Discovery Gardens, Damac Hills, Mudon, Town Square, Al Furjan, Jumeirah Park, Dubai South / Expo City.
+
+---
+
+## In-progress batch
+
+**Batch 1 (dietary/allergen)** — building now:
+1. `/gluten-free-catering-dubai`
+2. `/dairy-free-catering-dubai`
+3. `/nut-free-catering-dubai`
+4. `/keto-catering-dubai`
+5. `/jain-catering-dubai`
+
+---
+
+*Last updated: 2026-06-30*

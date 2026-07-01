@@ -150,22 +150,22 @@ const faqs = [
 
 const relatedServices = [
   {
-    title: 'Mediterranean Catering',
-    description: 'Bright, balanced Mediterranean menus — grilled fish, salads, and mezze for any event.',
-    image: '/menu-seafood.webp',
-    link: '/mediterranean-catering-dubai',
+    title: 'Gluten-Free Catering',
+    description: 'Coeliac-safe menus and clearly labelled dishes for guests avoiding gluten.',
+    image: '/images/gluten-free-catering-dubai-hero.webp',
+    link: '/gluten-free-catering-dubai',
   },
   {
-    title: 'Vegan Catering',
-    description: 'Fully plant-based fine dining, canapés, and dairy-free desserts for inclusive events.',
-    image: '/menu-appetizer.webp',
-    link: '/vegan-catering-dubai',
+    title: 'Keto & Low-Carb Catering',
+    description: 'High-protein, low-carb menus designed for macro-conscious guests and wellness events.',
+    image: '/images/keto-catering-dubai-hero.webp',
+    link: '/keto-catering-dubai',
   },
   {
-    title: 'Corporate Catering',
-    description: 'Professional corporate dining, from wellness lunches to large functions.',
-    image: '/service-corporate.webp',
-    link: '/corporate',
+    title: 'Dairy-Free Catering',
+    description: 'Lactose-free menus with creamy plant-based alternatives for every course.',
+    image: '/images/dairy-free-catering-dubai-hero.webp',
+    link: '/dairy-free-catering-dubai',
   },
 ]
 
@@ -320,7 +320,7 @@ export default function HealthyCatering() {
             Healthy catering should never feel like a sacrifice. The best balanced menus are built on quality ingredients and thoughtful composition — lean proteins, whole grains, vibrant vegetables, and just enough indulgence — so guests finish a meal feeling light and energised rather than weighed down. At myCHEF Dubai, we treat nutrition and flavour as partners, not trade-offs, crafting menus that look generous and eat well.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Whether you are planning a corporate wellness day, a fitness retreat, a light summer reception, or a balanced family gathering, our team designs menus around your goals — including low-carb, keto, and high-protein options. Explore our healthy formats below, or see how it fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
+            Whether you are planning a corporate wellness day, a fitness retreat, a light summer reception, or a balanced family gathering, our team designs menus around your goals. Explore dedicated <Link to="/keto-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">keto catering Dubai</Link> and <Link to="/gluten-free-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">gluten-free catering Dubai</Link> options, or see how healthy dining fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
           </p>
         </div>
       </section>

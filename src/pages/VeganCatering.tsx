@@ -157,16 +157,16 @@ const relatedServices = [
     link: '/vegetarian-catering-dubai',
   },
   {
-    title: 'Healthy Catering',
-    description: 'Nutrition-focused, balanced menus for wellness days and corporate events.',
-    image: '/service-corporate.webp',
-    link: '/healthy-catering-dubai',
+    title: 'Dairy-Free Catering',
+    description: 'Lactose-free menus with creamy plant-based alternatives for every course.',
+    image: '/images/dairy-free-catering-dubai-hero.webp',
+    link: '/dairy-free-catering-dubai',
   },
   {
-    title: 'Grazing Tables',
-    description: 'Artisan grazing spreads — including fully plant-based versions — styled as a centrepiece.',
-    image: '/menu-dessert.webp',
-    link: '/grazing-table-dubai',
+    title: 'Nut-Free Catering',
+    description: 'Allergy-aware catering free from peanuts and tree nuts for safe family events.',
+    image: '/images/nut-free-catering-dubai-hero.webp',
+    link: '/nut-free-catering-dubai',
   },
 ]
 

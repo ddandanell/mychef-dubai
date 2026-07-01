@@ -18,6 +18,10 @@ import {
   Phone,
   ArrowRight,
   ChevronRight,
+  WheatOff,
+  MilkOff,
+  NutOff,
+  Sprout,
 } from 'lucide-react'
 import SEO from '../components/SEO'
 import PageHero from '../components/PageHero'
@@ -94,6 +98,39 @@ const cuisines = [
     title: 'Healthy Catering',
     description: 'Balanced, nutrient-focused menus for wellness events, offices and health-conscious gatherings.',
     icon: Heart,
+  },
+]
+
+const dietaryOptions = [
+  {
+    slug: '/gluten-free-catering-dubai',
+    title: 'Gluten-Free Catering',
+    description: 'Coeliac-safe menus, clearly labelled dishes and kitchen-aware prep for events and family gatherings.',
+    icon: WheatOff,
+  },
+  {
+    slug: '/dairy-free-catering-dubai',
+    title: 'Dairy-Free Catering',
+    description: 'Lactose-free menus with creamy plant-based alternatives for canapés, mains and desserts.',
+    icon: MilkOff,
+  },
+  {
+    slug: '/nut-free-catering-dubai',
+    title: 'Nut-Free Catering',
+    description: 'Allergy-aware catering free from peanuts and tree nuts, ideal for schools, kids’ parties and family events.',
+    icon: NutOff,
+  },
+  {
+    slug: '/keto-catering-dubai',
+    title: 'Keto & Low-Carb Catering',
+    description: 'High-protein, low-carb menus built around quality proteins, healthy fats and seasonal vegetables.',
+    icon: Flame,
+  },
+  {
+    slug: '/jain-catering-dubai',
+    title: 'Jain Catering',
+    description: 'Respectful Jain menus prepared without onion, garlic, root vegetables, mushrooms or eggs.',
+    icon: Sprout,
   },
 ]
 
@@ -241,6 +278,48 @@ export default function Cuisines() {
                     </h3>
                     <p className="font-inter text-body-sm text-gray-500 leading-relaxed mb-3">
                       {cuisine.description}
+                    </p>
+                  </div>
+                  <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
+                    Explore Menu <ArrowRight size={14} />
+                  </span>
+                </Link>
+              )
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* ═══════════════ Dietary & Allergen-Aware Catering ═══════════════ */}
+      <section className="bg-cream section-padding">
+        <div className="container-custom max-w-[1100px]">
+          <div className="text-center mb-12">
+            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
+              Dietary & Allergen Catering
+            </span>
+            <h2 className="font-playfair text-h2 text-black">
+              Inclusive Menus for Every Guest
+            </h2>
+          </div>
+
+          <div className="cuisines-grid grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {dietaryOptions.map((option, i) => {
+              const Icon = option.icon
+              return (
+                <Link
+                  key={i}
+                  to={option.slug}
+                  className="cuisines-card group flex flex-col gap-5 bg-white p-6 border border-gray-200 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_8px_30px_rgba(0,0,0,0.08)] opacity-0 translate-y-10"
+                >
+                  <div className="flex-shrink-0 w-12 h-12 bg-black flex items-center justify-center">
+                    <Icon size={22} className="text-gold" />
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="font-playfair text-h3 text-black mb-2 group-hover:text-gold transition-colors">
+                      {option.title}
+                    </h3>
+                    <p className="font-inter text-body-sm text-gray-500 leading-relaxed mb-3">
+                      {option.description}
                     </p>
                   </div>
                   <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
