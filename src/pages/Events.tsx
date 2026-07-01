@@ -133,6 +133,12 @@ const relatedEventCatering = [
     description: 'Elegant brunch, lunch and high tea catering to celebrate Mum at home or venue.',
     link: '/mothers-day-catering-dubai',
   },
+  {
+    image: '/images/uae-national-day-catering-dubai-hero.webp',
+    title: 'UAE National Day Catering',
+    description: 'Emirati-inspired menus, live grills and elegant buffets for 2 December celebrations across Dubai.',
+    link: '/uae-national-day-catering-dubai',
+  },
 ]
 
 const processSteps = [

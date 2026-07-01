@@ -211,13 +211,19 @@ export default function Contact() {
         title="Contact Us"
         description="Get in touch with myCHEF Dubai. Request a custom quote for private chef services, luxury catering, or bespoke dining experiences across Dubai. WhatsApp available."
         canonicalPath="/contact"
-        ogImage="/hero-home.webp"
+        ogImage="/images/contact-hero.webp"
         schema={breadcrumbSchema}
       />
 
       {/* Section 1: Hero */}
-      <section className="relative min-h-[50vh] flex items-center justify-center bg-black overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-black via-charcoal to-black" />
+      <section className="relative min-h-[60vh] flex items-center justify-center bg-black overflow-hidden">
+        <img
+          src="/images/contact-hero.webp"
+          alt="Private chef consultation with premium ingredients in a Dubai villa kitchen"
+          className="absolute inset-0 w-full h-full object-cover"
+          aria-hidden="true"
+        />
+        <div className="absolute inset-0 bg-black/70" />
         <div className="relative z-10 text-center container-custom py-24">
           <nav aria-label="Breadcrumb" className="mb-8">
             <ol className="flex items-center justify-center gap-2 font-inter text-body-sm text-gray-400">
