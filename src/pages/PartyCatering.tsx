@@ -174,6 +174,12 @@ const relatedServices = [
     image: '/service-villa.webp',
     link: '/housewarming-catering-dubai',
   },
+  {
+    title: 'Graduation Party Catering',
+    description: 'Celebrate school and university milestones with themed menus and full event service.',
+    image: '/service-events.webp',
+    link: '/graduation-catering-dubai',
+  },
 ]
 
 const faqSchema = {

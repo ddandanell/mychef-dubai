@@ -173,6 +173,12 @@ const config: ServicePageConfig = {
       image: '/menu-canapes.webp',
       link: '/canape-catering-dubai',
     },
+    {
+      title: 'Graduation Party Catering',
+      description: 'Celebrate school and university milestones with themed menus and full service.',
+      image: '/service-events.webp',
+      link: '/graduation-catering-dubai',
+    },
   ],
   ctaH2: 'Host a Housewarming Your Guests Will Remember',
   ctaP:
