@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from 'react'
 import { Link, useLocation } from 'react-router'
 import { Menu, X, Phone } from 'lucide-react'
+import ChefHatLogo from './ChefHatLogo'
 
 const navLinks = [
   { label: 'Private Chef', href: '/private-chef-dubai' },
@@ -52,8 +53,11 @@ export default function Navbar() {
           </button>
 
           {/* Logo */}
-          <Link to="/" className="font-playfair text-2xl font-semibold text-gold tracking-tight">
-            myCHEF
+          <Link to="/" className="flex items-center gap-2 group" aria-label="myCHEF Dubai home">
+            <ChefHatLogo className="h-7 w-7 text-gold transition-transform duration-300 group-hover:scale-110" />
+            <span className="font-playfair text-2xl font-semibold text-gold tracking-tight">
+              myCHEF
+            </span>
           </Link>
 
           {/* Desktop Nav Links */}
@@ -117,7 +121,10 @@ export default function Navbar() {
         <div className="container-custom h-full flex flex-col">
           {/* Header */}
           <div className="h-20 flex items-center justify-between">
-            <span className="font-playfair text-2xl font-semibold text-gold">myCHEF</span>
+            <span className="flex items-center gap-2">
+              <ChefHatLogo className="h-7 w-7 text-gold" />
+              <span className="font-playfair text-2xl font-semibold text-gold">myCHEF</span>
+            </span>
             <button
               ref={closeRef}
               onClick={() => setMobileOpen(false)}
