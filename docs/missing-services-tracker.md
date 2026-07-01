@@ -63,7 +63,7 @@
 | Breakfast Catering Dubai — `/breakfast-catering-dubai` | Medium | built | Live; unique hero, 6 FAQs, internal links |
 | Picnic Catering Dubai — `/picnic-catering-dubai` | Low | missing | Styled outdoor baskets |
 | Drop-Off Catering Dubai — `/drop-off-catering-dubai` | Medium | built | Live; unique hero, 6 FAQs, internal links |
-| Tasting Menu / Chef's Table Dubai — `/tasting-menu-dubai` | Medium | missing | Luxury dining upsell |
+| Tasting Menu / Chef's Table Dubai — `/tasting-menu-dubai` | Medium | built | Live; unique hero, 6 FAQs, internal links |
 | Coffee & Tea Service Dubai — `/coffee-tea-service-dubai` | Low | missing | Corporate reception add-on |
 | Gelato / Dessert Cart Dubai — `/dessert-cart-dubai` | Low | missing | Funnel from dessert table |
 | Live Shawarma / Kebab Station — `/shawarma-station-dubai` | Low | missing | Arabic format station |
