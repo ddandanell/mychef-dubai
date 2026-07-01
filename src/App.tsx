@@ -13,6 +13,7 @@ const Menus = lazy(() => import('./pages/Menus'))
 const PrivateChef = lazy(() => import('./pages/PrivateChef'))
 const PrivateChefPrices = lazy(() => import('./pages/PrivateChefPrices'))
 const Catering = lazy(() => import('./pages/Catering'))
+const CateringPackages = lazy(() => import('./pages/CateringPackages'))
 const LuxuryDining = lazy(() => import('./pages/LuxuryDining'))
 const Events = lazy(() => import('./pages/Events'))
 const Corporate = lazy(() => import('./pages/Corporate'))
@@ -140,6 +141,7 @@ export default function App() {
           <Route path="/private-chef-dubai" element={<PrivateChef />} />
           <Route path="/private-chef-prices-dubai" element={<PrivateChefPrices />} />
           <Route path="/catering-dubai" element={<Catering />} />
+          <Route path="/catering-packages-dubai" element={<CateringPackages />} />
           <Route path="/luxury-dining-experiences" element={<LuxuryDining />} />
           <Route path="/events" element={<Events />} />
           <Route path="/corporate" element={<Corporate />} />

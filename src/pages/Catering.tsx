@@ -576,8 +576,10 @@ export default function Catering() {
           <h3 className="font-playfair text-h3 text-black mb-4">Where can I read more about Dubai catering?</h3>
           <p className="font-inter text-body text-gray-500 leading-relaxed">
             Planning an event in Dubai? Read our{' '}
-            <Link to="/dubai-catering-prices-guide" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Dubai Catering Prices Guide</Link>
-            {' '}and{' '}
+            <Link to="/dubai-catering-prices-guide" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Dubai Catering Prices Guide</Link>,
+            {' '}see our{' '}
+            <Link to="/catering-packages-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Catering Packages Dubai</Link>
+            {' '}overview, or read{' '}
             <Link to="/how-to-choose-caterer-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">How to Choose a Caterer in Dubai</Link>.
           </p>
         </div>

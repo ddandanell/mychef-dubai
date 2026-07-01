@@ -25,6 +25,7 @@ const guideLinks = [
   { label: 'Catering Prices Guide', href: '/dubai-catering-prices-guide' },
   { label: 'Private Chef Prices', href: '/private-chef-prices-dubai' },
   { label: 'Cost Calculator', href: '/catering-cost-calculator-dubai' },
+  { label: 'Catering Packages', href: '/catering-packages-dubai' },
   { label: 'Blog', href: '/blog' },
   { label: 'Choose a Caterer', href: '/how-to-choose-caterer-dubai' },
   { label: 'Villa Catering Ideas', href: '/villa-catering-ideas-dubai' },
