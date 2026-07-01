@@ -151,10 +151,10 @@ const relatedServices = [
     link: '/corporate',
   },
   {
-    title: 'Villa Dining',
-    description: 'Private dining experiences designed for villas and residences across Dubai.',
-    image: '/service-villa.webp',
-    link: '/villas-private-residences',
+    title: 'Breakfast Catering Dubai',
+    description: 'Fresh morning spreads for offices, villas and hotels that start the day beautifully.',
+    image: '/images/breakfast-catering-dubai-hero.webp',
+    link: '/breakfast-catering-dubai',
   },
 ]
 

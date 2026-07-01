@@ -163,10 +163,10 @@ const relatedServices = [
     link: '/staff-meals-catering-dubai',
   },
   {
-    title: 'Corporate Catering',
-    description: 'Professional corporate dining, from recurring office lunches to large company functions.',
-    image: '/service-corporate.webp',
-    link: '/corporate',
+    title: 'Breakfast Catering Dubai',
+    description: 'Morning menus delivered fresh for office meetings, early starts and corporate hospitality.',
+    image: '/images/breakfast-catering-dubai-hero.webp',
+    link: '/breakfast-catering-dubai',
   },
 ]
 

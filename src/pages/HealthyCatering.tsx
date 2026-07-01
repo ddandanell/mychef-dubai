@@ -162,10 +162,10 @@ const relatedServices = [
     link: '/keto-catering-dubai',
   },
   {
-    title: 'Pescatarian Catering',
-    description: 'Seafood-focused menus with responsibly sourced fish and plant-based accompaniments.',
-    image: '/images/pescatarian-catering-dubai-hero.webp',
-    link: '/pescatarian-catering-dubai',
+    title: 'Breakfast Catering Dubai',
+    description: 'Fresh, balanced morning menus with healthy bowls, fruit and light proteins.',
+    image: '/images/breakfast-catering-dubai-hero.webp',
+    link: '/breakfast-catering-dubai',
   },
 ]
 
