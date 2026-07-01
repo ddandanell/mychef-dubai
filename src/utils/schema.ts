@@ -100,6 +100,28 @@ export function serviceSchema(
   }
 }
 
+export function howToSchema(
+  name: string,
+  description: string,
+  steps: { name: string; text: string; image?: string }[],
+  totalTime?: string,
+) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'HowTo',
+    name,
+    description,
+    totalTime,
+    step: steps.map((step, index) => ({
+      '@type': 'HowToStep',
+      position: index + 1,
+      name: step.name,
+      text: step.text,
+      image: step.image,
+    })),
+  }
+}
+
 export function websiteSchema() {
   return {
     '@context': 'https://schema.org',

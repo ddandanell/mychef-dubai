@@ -225,9 +225,22 @@ const breadcrumbSchema = {
   ],
 }
 
+const howToSchema = {
+  '@type': 'HowTo',
+  name: 'How to Book a Private Cooking Class in Dubai',
+  description: 'A simple 5-step guide to booking and enjoying a bespoke private cooking class with a professional chef in your own Dubai home or venue.',
+  totalTime: 'P1D',
+  step: howItWorks.map((step, index) => ({
+    '@type': 'HowToStep',
+    position: index + 1,
+    name: step.title,
+    text: step.description,
+  })),
+}
+
 const schema = {
   '@context': 'https://schema.org',
-  '@graph': [serviceSchema, faqSchema, breadcrumbSchema],
+  '@graph': [serviceSchema, faqSchema, breadcrumbSchema, howToSchema],
 }
 
 /* ────────────────────── Component ────────────────────── */

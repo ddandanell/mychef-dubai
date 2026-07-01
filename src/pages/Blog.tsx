@@ -46,6 +46,14 @@ const posts = [
     date: 'July 2026',
     image: '/images/corporate-catering-dubai-hero.webp',
   },
+  {
+    slug: '/blog/weekly-meal-prep-vs-full-time-chef-dubai',
+    title: 'Weekly Meal Prep vs Hiring a Full-Time Chef in Dubai',
+    excerpt: 'Compare weekly meal prep services and full-time private chefs in Dubai by cost, flexibility, vetting, and lifestyle fit so you can choose the right option.',
+    category: 'Meal Prep',
+    date: 'July 2026',
+    image: '/images/weekly-meal-prep-dubai-hero.webp',
+  },
 ]
 
 const collectionSchema = {

@@ -80,6 +80,7 @@ const RamadanIftarTrends2026 = lazy(() => import('./pages/blog/RamadanIftarTrend
 const YachtPartyMenuIdeas = lazy(() => import('./pages/blog/YachtPartyMenuIdeas'))
 const PrivateChefCostDubai = lazy(() => import('./pages/blog/PrivateChefCostDubai'))
 const CorporateCateringFullServiceVsDropOff = lazy(() => import('./pages/blog/CorporateCateringFullServiceVsDropOff'))
+const WeeklyMealPrepVsFullTimeChef = lazy(() => import('./pages/blog/WeeklyMealPrepVsFullTimeChef'))
 const DubaiCateringPricesGuide = lazy(() => import('./pages/guides/DubaiCateringPricesGuide'))
 const ChefAhmed = lazy(() => import('./pages/chefs/ChefAhmed'))
 const ChefSofia = lazy(() => import('./pages/chefs/ChefSofia'))
@@ -197,6 +198,7 @@ export default function App() {
           <Route path="/blog/yacht-party-menu-ideas-dubai" element={<YachtPartyMenuIdeas />} />
           <Route path="/blog/how-much-does-private-chef-cost-dubai" element={<PrivateChefCostDubai />} />
           <Route path="/blog/corporate-catering-full-service-vs-drop-off" element={<CorporateCateringFullServiceVsDropOff />} />
+          <Route path="/blog/weekly-meal-prep-vs-full-time-chef-dubai" element={<WeeklyMealPrepVsFullTimeChef />} />
           <Route path="/dubai-catering-prices-guide" element={<DubaiCateringPricesGuide />} />
           <Route path="/catering-cost-calculator-dubai" element={<CateringCostCalculator />} />
           <Route path="/how-to-choose-caterer-dubai" element={<HowToChooseCatererDubai />} />
