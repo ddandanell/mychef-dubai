@@ -54,6 +54,30 @@ const posts = [
     date: 'July 2026',
     image: '/images/weekly-meal-prep-dubai-hero.webp',
   },
+  {
+    slug: '/blog/best-private-chef-birthday-dinner-dubai',
+    title: 'Best Private Chef Birthday Dinner in Dubai: Menu Ideas, Costs & How to Book',
+    excerpt: 'Plan a private chef birthday dinner in Dubai with menu ideas, indicative costs, booking tips, and answers to the most common host questions.',
+    category: 'Birthday',
+    date: 'July 2026',
+    image: '/images/birthday-catering-dubai-hero.webp',
+  },
+  {
+    slug: '/blog/private-chef-palm-jumeirah-guide',
+    title: 'Private Chef Palm Jumeirah: A Complete Guide to Dining at Home',
+    excerpt: 'A practical guide to hiring a private chef in Palm Jumeirah, covering menus, service styles, indicative pricing, and how to book a curated dining experience at home.',
+    category: 'Private Chef',
+    date: 'July 2026',
+    image: '/images/luxury-dining-dubai-hero.webp',
+  },
+  {
+    slug: '/blog/halal-private-dining-dubai-what-to-ask',
+    title: 'Halal Private Dining in Dubai: What to Ask Before You Book',
+    excerpt: 'A practical guide for Dubai hosts booking halal private dining, covering certification, cross-contamination, alcohol policy, sourcing, and indicative costs.',
+    category: 'Halal',
+    date: 'July 2026',
+    image: '/images/halal-catering-dubai-hero.webp',
+  },
 ]
 
 const collectionSchema = {
