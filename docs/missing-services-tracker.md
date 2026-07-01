@@ -76,7 +76,7 @@
 | Exhibition & Trade Show Catering — `/exhibition-catering-dubai` | Medium | built | Live; reused hero, 6 FAQs, internal links |
 | Government Event Catering Dubai — `/government-event-catering-dubai` | Low | built | Live; reused corporate-catering hero, 6 FAQs, internal links |
 | University / Student Catering Dubai — `/university-catering-dubai` | Low | built | Live; reused school-catering hero, 6 FAQs, internal links |
-| Hospital / Healthcare Catering Dubai — `/healthcare-catering-dubai` | Low | missing | Strict compliance angle |
+| Hospital / Healthcare Catering Dubai — `/healthcare-catering-dubai` | Low | built | Live; reused corporate-catering hero, 6 FAQs, internal links |
 
 ## Location expansion (lower priority)
 
@@ -125,3 +125,4 @@ Mirdif, Deira, Bur Dubai, Al Quoz, Dubai Silicon Oasis, Nad Al Sheba, Dubai Spor
 6. ✅ `/reunion-catering-dubai` — built, deployed, and verified live
 7. ✅ `/fathers-day-catering-dubai` — built, deployed, and verified live
 8. ✅ `/university-catering-dubai` — built, deployed, and verified live
+9. ✅ `/healthcare-catering-dubai` — built, deployed, and verified live
