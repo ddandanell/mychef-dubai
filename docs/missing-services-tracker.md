@@ -25,7 +25,7 @@
 | Keto & Low-Carb Catering Dubai — `/keto-catering-dubai` | High | built | Live; unique hero, 6 FAQs, internal links |
 | Jain Catering Dubai — `/jain-catering-dubai` | Medium | built | Live; unique hero, 6 FAQs, internal links |
 | Pescatarian Catering Dubai — `/pescatarian-catering-dubai` | Medium | built | Live; unique hero, 6 FAQs, internal links |
-| Halal Private Dining (standalone) — `/halal-private-dining-dubai` | Medium | missing | Deep-dive beyond `/halal-catering-dubai` |
+| Halal Private Dining (standalone) — `/halal-private-dining-dubai` | Medium | built | Live; unique hero, 6 FAQs, internal links |
 | Sugar-Free / Diabetic-Friendly Catering — `/sugar-free-catering-dubai` | Low | missing | Wellness/corporate niche |
 | FODMAP-Friendly Catering — `/fodmap-catering-dubai` | Low | missing | Very niche |
 
