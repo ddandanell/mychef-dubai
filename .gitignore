@@ -9,3 +9,6 @@ dist
 *.bak
 .vercel
 .env*
+
+# Autopush worker state
+.bluebook-pulse.lock
