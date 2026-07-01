@@ -41,7 +41,7 @@
 | Housewarming Catering Dubai — `/housewarming-catering-dubai` | Low | built | Live; reused hero, 6 FAQs, internal links |
 | Graduation Party Catering Dubai — `/graduation-catering-dubai` | Low | built | Live; reused hero, 6 FAQs, internal links |
 | Retirement / Farewell Catering Dubai — `/farewell-catering-dubai` | Low | built | Live; reused hero, 6 FAQs, internal links |
-| Reunion Catering Dubai — `/reunion-catering-dubai` | Low | missing | Family/friends |
+| Reunion Catering Dubai — `/reunion-catering-dubai` | Low | built | Live; reused hero, 6 FAQs, internal links |
 
 ## Holiday & seasonal occasions
 
@@ -122,3 +122,4 @@ Mirdif, Deira, Bur Dubai, Al Quoz, Dubai Silicon Oasis, Nad Al Sheba, Dubai Spor
 3. ✅ `/fodmap-catering-dubai` — built, deployed, and verified live
 4. ✅ `/graduation-catering-dubai` — built, deployed, and verified live
 5. ✅ `/farewell-catering-dubai` — built, deployed, and verified live
+6. ✅ `/reunion-catering-dubai` — built, deployed, and verified live
