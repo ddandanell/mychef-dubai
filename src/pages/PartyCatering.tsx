@@ -186,6 +186,12 @@ const relatedServices = [
     image: '/service-events.webp',
     link: '/farewell-catering-dubai',
   },
+  {
+    title: 'Reunion Catering',
+    description: 'Family, friends and alumni reunions with generous shared menus and relaxed service.',
+    image: '/service-events.webp',
+    link: '/reunion-catering-dubai',
+  },
 ]
 
 const faqSchema = {

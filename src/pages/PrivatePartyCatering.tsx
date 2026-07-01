@@ -180,6 +180,12 @@ const relatedServices = [
     image: '/service-events.webp',
     link: '/farewell-catering-dubai',
   },
+  {
+    title: 'Reunion Catering',
+    description: 'Private reunions for family, old friends and alumni with shared menus.',
+    image: '/service-events.webp',
+    link: '/reunion-catering-dubai',
+  },
 ]
 
 const faqSchema = {

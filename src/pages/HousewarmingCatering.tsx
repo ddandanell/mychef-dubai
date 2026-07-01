@@ -179,6 +179,12 @@ const config: ServicePageConfig = {
       image: '/service-events.webp',
       link: '/graduation-catering-dubai',
     },
+    {
+      title: 'Reunion Catering',
+      description: 'Bring family and friends back together with generous shared menus.',
+      image: '/service-events.webp',
+      link: '/reunion-catering-dubai',
+    },
   ],
   ctaH2: 'Host a Housewarming Your Guests Will Remember',
   ctaP:
