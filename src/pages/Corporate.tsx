@@ -209,9 +209,9 @@ const relatedServices = [
     link: '/villas-private-residences',
   },
   {
-    title: 'Yacht Catering',
-    description: 'Catering for yacht events and cruises.',
-    link: '/yachts',
+    title: 'Exhibition Catering',
+    description: 'Trade show and exhibition catering for DWTC, Expo City and venues across Dubai.',
+    link: '/exhibition-catering-dubai',
   },
 ]
 

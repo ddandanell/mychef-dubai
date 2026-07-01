@@ -163,10 +163,10 @@ const relatedServices = [
     link: '/canape-catering-dubai',
   },
   {
-    title: 'Drop-Off Catering Dubai',
-    description: 'Cost-effective delivered catering for working lunches, meetings and smaller corporate gatherings.',
-    image: '/images/drop-off-catering-dubai-hero.webp',
-    link: '/drop-off-catering-dubai',
+    title: 'Exhibition Catering Dubai',
+    description: 'Trade show and exhibition catering for stands, pavilions and hospitality suites across Dubai.',
+    image: '/service-events.webp',
+    link: '/exhibition-catering-dubai',
   },
 ]
 

@@ -131,6 +131,7 @@ const DubaiFoodTrendsReport2026 = lazy(() => import('./pages/guides/DubaiFoodTre
 const BarServices = lazy(() => import('./pages/BarServices'))
 const ProductLaunchCatering = lazy(() => import('./pages/ProductLaunchCatering'))
 const BrandActivationCatering = lazy(() => import('./pages/BrandActivationCatering'))
+const ExhibitionCatering = lazy(() => import('./pages/ExhibitionCatering'))
 const GalaDinnerCatering = lazy(() => import('./pages/GalaDinnerCatering'))
 const PrivateCookingClassesDubai = lazy(() => import('./pages/PrivateCookingClassesDubai'))
 const VIPClub = lazy(() => import('./pages/VIPClub'))
@@ -275,6 +276,7 @@ export default function App() {
           <Route path="/bar-services-dubai" element={<BarServices />} />
           <Route path="/product-launch-catering-dubai" element={<ProductLaunchCatering />} />
           <Route path="/brand-activation-catering-dubai" element={<BrandActivationCatering />} />
+          <Route path="/exhibition-catering-dubai" element={<ExhibitionCatering />} />
           <Route path="/gala-dinner-catering-dubai" element={<GalaDinnerCatering />} />
           <Route path="/private-cooking-classes-dubai" element={<PrivateCookingClassesDubai />} />
           <Route path="/vip-club" element={<VIPClub />} />

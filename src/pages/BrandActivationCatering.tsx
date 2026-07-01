@@ -159,10 +159,10 @@ const relatedServices = [
     link: '/corporate-event-catering-dubai',
   },
   {
-    title: 'Live Cooking Stations',
-    description: 'Interactive chef-led stations that bring theatre to your event and keep guests engaged.',
-    image: '/images/live-cooking-stations-dubai-hero.webp',
-    link: '/live-cooking-stations-dubai',
+    title: 'Exhibition Catering Dubai',
+    description: 'Trade show and exhibition catering for branded stands, pavilions and visitor hospitality.',
+    image: '/service-events.webp',
+    link: '/exhibition-catering-dubai',
   },
 ]
 
