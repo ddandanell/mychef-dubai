@@ -163,6 +163,12 @@ const relatedServices = [
     link: '/university-catering-dubai',
   },
   {
+    title: 'Hospital & Healthcare Catering',
+    description: 'Safe, nutritious and compliant catering for hospitals, clinics and care homes across Dubai.',
+    image: '/images/corporate-catering-dubai-hero.webp',
+    link: '/healthcare-catering-dubai',
+  },
+  {
     title: 'Corporate Catering',
     description: 'Professional catering for staff, faculty, and institutional events.',
     image: '/service-corporate.webp',

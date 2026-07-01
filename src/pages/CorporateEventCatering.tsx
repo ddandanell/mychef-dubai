@@ -198,6 +198,12 @@ const relatedServices = [
     image: '/images/school-catering-dubai-hero.webp',
     link: '/university-catering-dubai',
   },
+  {
+    title: 'Hospital & Healthcare Catering',
+    description: 'Compliant, nutritionally balanced catering for hospitals, clinics and healthcare conferences.',
+    image: '/images/corporate-catering-dubai-hero.webp',
+    link: '/healthcare-catering-dubai',
+  },
 ]
 
 const faqSchema = {

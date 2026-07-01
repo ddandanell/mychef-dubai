@@ -71,6 +71,7 @@ const ShawarmaStation = lazy(() => import('./pages/ShawarmaStation'))
 const OysterBar = lazy(() => import('./pages/OysterBar'))
 const GovernmentEventCatering = lazy(() => import('./pages/GovernmentEventCatering'))
 const UniversityCatering = lazy(() => import('./pages/UniversityCatering'))
+const HealthcareCatering = lazy(() => import('./pages/HealthcareCatering'))
 const BBQCatering = lazy(() => import('./pages/BBQCatering'))
 const BuffetCatering = lazy(() => import('./pages/BuffetCatering'))
 const CanapeCatering = lazy(() => import('./pages/CanapeCatering'))
@@ -236,6 +237,7 @@ export default function App() {
           <Route path="/oyster-bar-dubai" element={<OysterBar />} />
           <Route path="/government-event-catering-dubai" element={<GovernmentEventCatering />} />
           <Route path="/university-catering-dubai" element={<UniversityCatering />} />
+          <Route path="/healthcare-catering-dubai" element={<HealthcareCatering />} />
           <Route path="/bbq-catering-dubai" element={<BBQCatering />} />
           <Route path="/buffet-catering-dubai" element={<BuffetCatering />} />
           <Route path="/canape-catering-dubai" element={<CanapeCatering />} />

@@ -168,6 +168,12 @@ const relatedServices = [
     image: '/service-corporate.webp',
     link: '/corporate',
   },
+  {
+    title: 'Hospital & Healthcare Catering',
+    description: 'Safe, nutritionally balanced catering for hospitals, clinics and medical events in Dubai.',
+    image: '/images/corporate-catering-dubai-hero.webp',
+    link: '/healthcare-catering-dubai',
+  },
 ]
 
 const faqSchema = {
