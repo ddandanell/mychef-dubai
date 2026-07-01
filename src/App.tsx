@@ -25,6 +25,7 @@ const RamadanIftar = lazy(() => import('./pages/RamadanIftar'))
 const ChristmasCatering = lazy(() => import('./pages/ChristmasCatering'))
 const NewYearCatering = lazy(() => import('./pages/NewYearCatering'))
 const BrunchCatering = lazy(() => import('./pages/BrunchCatering'))
+const FestiveCatering = lazy(() => import('./pages/FestiveCatering'))
 const FAQ = lazy(() => import('./pages/FAQ'))
 const Gallery = lazy(() => import('./pages/Gallery'))
 const VenuePartners = lazy(() => import('./pages/VenuePartners'))
@@ -151,6 +152,7 @@ export default function App() {
           <Route path="/christmas-catering-dubai" element={<ChristmasCatering />} />
           <Route path="/new-year-catering-dubai" element={<NewYearCatering />} />
           <Route path="/brunch-catering-dubai" element={<BrunchCatering />} />
+          <Route path="/festive-catering-dubai" element={<FestiveCatering />} />
           <Route path="/faq" element={<FAQ />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/venue-partners" element={<VenuePartners />} />

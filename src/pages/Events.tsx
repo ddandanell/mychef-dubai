@@ -97,6 +97,12 @@ const relatedEventCatering = [
     description: 'Beautiful grazing tables, canapes, and sweet treats for baby showers.',
     link: '/baby-shower-catering-dubai',
   },
+  {
+    image: '/service-events.webp',
+    title: 'Festive Catering',
+    description: 'Seasonal menus for Christmas, New Year, Ramadan, Eid, Diwali and more.',
+    link: '/festive-catering-dubai',
+  },
 ]
 
 const processSteps = [

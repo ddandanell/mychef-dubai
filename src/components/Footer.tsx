@@ -8,6 +8,7 @@ const serviceLinks = [
   { label: 'Weekly Meal Prep', href: '/weekly-meal-prep-dubai' },
   { label: 'Luxury Dining', href: '/luxury-dining-experiences' },
   { label: 'Events & Celebrations', href: '/events' },
+  { label: 'Festive Catering', href: '/festive-catering-dubai' },
   { label: 'Corporate Dining', href: '/corporate' },
   { label: 'Villas & Residences', href: '/villas-private-residences' },
   { label: 'Yachts', href: '/yachts' },
