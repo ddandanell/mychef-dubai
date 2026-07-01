@@ -2,6 +2,7 @@ import type { ReactNode } from 'react'
 import Navbar from './Navbar'
 import Footer from './Footer'
 import StickyMobileCTA from './StickyMobileCTA'
+import FloatingChefChat from './FloatingChefChat'
 
 interface LayoutProps {
   children: ReactNode
@@ -16,6 +17,7 @@ export default function Layout({ children }: LayoutProps) {
       </main>
       <Footer />
       <StickyMobileCTA />
+      <FloatingChefChat />
     </div>
   )
 }
