@@ -79,6 +79,8 @@
   <url><loc>https://mychef.ae/about</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://mychef.ae/contact</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://mychef.ae/faq</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://mychef.ae/inquiry</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://mychef.ae/thank-you</loc><priority>0.3</priority><changefreq>yearly</changefreq></url>
 
   <!-- Bluebook trust & service pages -->
   <url><loc>https://mychef.ae/weekly-meal-prep-dubai</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
