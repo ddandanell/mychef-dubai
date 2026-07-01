@@ -96,6 +96,8 @@ const relatedLinks = [
     { label: 'Booking Protection', href: '/booking-protection-insurance' },
     { label: 'Become a myCHEF', href: '/become-a-mychef' },
     { label: 'Our Chefs', href: '/our-chefs' },
+    { label: 'Leave a Review', href: '/review' },
+    { label: 'Partner With Us', href: '/partner-with-us' },
     { label: 'Menus', href: '/menus' },
     { label: 'Inquiry', href: '/inquiry' },
   ]},

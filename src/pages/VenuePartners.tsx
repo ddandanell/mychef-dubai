@@ -323,10 +323,10 @@ export default function VenuePartners() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
-                to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=venue-partners"
+                to="/partner-with-us"
                 className="btn-primary"
               >
-                Request a Partnership Quote
+                Become a Partner
               </Link>
               <a
                 href={WHATSAPP_LINK}
@@ -337,6 +337,13 @@ export default function VenuePartners() {
                 Chat on WhatsApp
               </a>
             </div>
+            <p className="mt-6 font-inter text-body-sm text-gray-500">
+              Already have an event in mind?{' '}
+              <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=venue-partners" className="text-gold hover:underline">
+                Request a custom quote
+              </Link>
+              .
+            </p>
           </div>
         </div>
       </section>

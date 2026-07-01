@@ -417,7 +417,7 @@ export default function Contact() {
                     </div>
                   ))}
                 </div>
-                <div className="mt-10 pt-8 border-t border-charcoal-light">
+                <div className="mt-10 pt-8 border-t border-charcoal-light space-y-4">
                   <div className="flex items-center gap-3">
                     <MapPin size={18} className="text-gold" aria-hidden="true" />
                     <div>
@@ -425,6 +425,20 @@ export default function Contact() {
                       <p className="font-inter text-body-sm text-gold">We respond within 2 hours</p>
                     </div>
                   </div>
+                  <p className="font-inter text-body-sm text-gray-400">
+                    Loved your experience?{' '}
+                    <Link to="/review" className="text-gold hover:underline">
+                      Leave a review and earn AED 50 credit
+                    </Link>
+                    .
+                  </p>
+                  <p className="font-inter text-body-sm text-gray-400">
+                    Own a venue?{' '}
+                    <Link to="/partner-with-us" className="text-gold hover:underline">
+                      Partner with us
+                    </Link>
+                    .
+                  </p>
                 </div>
               </div>
             </div>

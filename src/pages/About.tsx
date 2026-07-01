@@ -288,6 +288,13 @@ export default function About() {
             <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=about" className="btn-primary focus-visible:ring-offset-black">Request My Custom Quote</Link>
             <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-secondary focus-visible:ring-offset-black">Chat on WhatsApp</a>
           </div>
+          <p className="mt-6 font-inter text-body-sm text-gray-500">
+            Own a venue or manage properties?{' '}
+            <Link to="/partner-with-us" className="text-gold hover:underline">
+              Partner with us
+            </Link>
+            .
+          </p>
         </div>
       </section>
     </div>

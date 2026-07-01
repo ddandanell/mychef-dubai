@@ -338,6 +338,13 @@ export default function OurChefs() {
                 Chat on WhatsApp
               </a>
             </div>
+            <p className="mt-6 font-inter text-body-sm text-gray-500">
+              Own a venue or manage a concierge team?{' '}
+              <Link to="/partner-with-us" className="text-gold hover:underline">
+                Partner with us
+              </Link>
+              .
+            </p>
           </div>
         </div>
       </section>
