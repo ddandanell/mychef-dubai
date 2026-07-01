@@ -173,6 +173,12 @@ const config: ServicePageConfig = {
       image: '/service-catering.webp',
       link: '/healthy-catering-dubai',
     },
+    {
+      title: 'Coffee & Tea Service',
+      description: 'Barista-style coffee, specialty teas and pastries to complete any morning event.',
+      image: '/images/afternoon-tea-catering-dubai-hero.webp',
+      link: '/coffee-tea-service-dubai',
+    },
   ],
   ctaH2: 'Book Breakfast Catering That Gets the Morning Right',
   ctaP:

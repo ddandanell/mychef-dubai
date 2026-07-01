@@ -168,6 +168,12 @@ const relatedServices = [
     image: '/images/drop-off-catering-dubai-hero.webp',
     link: '/drop-off-catering-dubai',
   },
+  {
+    title: 'Coffee & Tea Service',
+    description: 'Barista coffee and specialty tea service for meetings, receptions and office events.',
+    image: '/images/afternoon-tea-catering-dubai-hero.webp',
+    link: '/coffee-tea-service-dubai',
+  },
 ]
 
 const faqSchema = {

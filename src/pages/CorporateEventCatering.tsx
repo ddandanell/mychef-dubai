@@ -174,6 +174,12 @@ const relatedServices = [
     image: '/service-events.webp',
     link: '/farewell-catering-dubai',
   },
+  {
+    title: 'Coffee & Tea Service',
+    description: 'Barista coffee, specialty teas and light bites for receptions, breaks and networking.',
+    image: '/images/afternoon-tea-catering-dubai-hero.webp',
+    link: '/coffee-tea-service-dubai',
+  },
 ]
 
 const faqSchema = {
