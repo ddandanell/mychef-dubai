@@ -112,7 +112,7 @@ export default function HeroSection() {
   return (
     <section
       ref={sectionRef}
-      className="relative min-h-[100dvh] flex items-center justify-center overflow-hidden -mt-20"
+      className="relative min-h-[100dvh] flex items-center justify-center overflow-hidden -mt-16"
     >
       {/* Background Image */}
       <div className="absolute inset-0 overflow-hidden">
@@ -129,7 +129,7 @@ export default function HeroSection() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 container-custom pt-32 pb-28 md:pb-24">
+      <div className="relative z-10 container-custom pt-28 pb-28 md:pb-24">
         {/* Gold accent line */}
         <div ref={lineRef} className="gold-line mb-6 md:mb-8 opacity-0" />
 

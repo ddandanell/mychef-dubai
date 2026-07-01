@@ -100,7 +100,7 @@ export default function PageHero({
   return (
     <section
       ref={sectionRef}
-      className={`relative flex justify-center overflow-hidden -mt-20 ${heightClasses[minHeight]}`}
+      className={`relative flex justify-center overflow-hidden -mt-16 ${heightClasses[minHeight]}`}
     >
       {/* Background */}
       {image ? (
@@ -122,7 +122,7 @@ export default function PageHero({
       {/* Content */}
       <div
         ref={contentRef}
-        className={`relative z-10 container-custom flex flex-col justify-center pt-32 pb-20 md:pb-24 ${alignmentClass}`}
+        className={`relative z-10 container-custom flex flex-col justify-center pt-28 pb-20 md:pb-24 ${alignmentClass}`}
       >
         {breadcrumb && breadcrumb.length > 0 && (
           <nav aria-label="Breadcrumb" className="mb-6">

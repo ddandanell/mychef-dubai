@@ -40,28 +40,28 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="sticky top-0 z-50 h-20 md:h-20 bg-black lg:bg-black/95 lg:backdrop-blur-xl border-b border-white/5">
+      <nav className="sticky top-0 z-50 h-16 bg-black lg:bg-black/95 lg:backdrop-blur-xl border-b border-white/5">
         <div className="container-custom h-full flex items-center justify-between">
           {/* Mobile: Hamburger */}
           <button
             ref={hamburgerRef}
-            className="lg:hidden text-gold p-2.5 -ml-2.5 min-w-11 min-h-11 flex items-center justify-center rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold"
+            className="lg:hidden text-gold p-2 -ml-2 min-w-10 min-h-10 flex items-center justify-center rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold"
             onClick={() => setMobileOpen(true)}
             aria-label="Open menu"
           >
-            <Menu size={24} />
+            <Menu size={22} />
           </button>
 
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-2 group" aria-label="myCHEF Dubai home">
-            <ChefHatLogo className="h-7 w-7 text-gold transition-transform duration-300 group-hover:scale-110" />
-            <span className="font-playfair text-2xl font-semibold text-gold tracking-tight">
+          <Link to="/" className="flex items-center gap-1.5 group" aria-label="myCHEF Dubai home">
+            <ChefHatLogo className="h-6 w-6 text-gold transition-transform duration-300 group-hover:scale-110" />
+            <span className="font-playfair text-xl font-semibold text-gold tracking-tight">
               myCHEF
             </span>
           </Link>
 
           {/* Desktop Nav Links */}
-          <div className="hidden lg:flex items-center gap-8">
+          <div className="hidden lg:flex items-center gap-6">
             {navLinks.map((link) => {
               const isActive = location.pathname === link.href || (link.href !== '/' && location.pathname.startsWith(link.href))
               return (
@@ -69,32 +69,32 @@ export default function Navbar() {
                   key={link.href}
                   to={link.href}
                   aria-current={isActive ? 'page' : undefined}
-                  className={`font-inter text-nav font-medium uppercase transition-colors duration-200 relative ${
+                  className={`font-inter text-xs font-medium uppercase tracking-wide transition-colors duration-200 relative ${
                     isActive ? 'text-gold' : 'text-white hover:text-gold'
                   }`}
                 >
                   {link.label}
-                  {isActive && <span className="absolute -bottom-1.5 left-0 right-0 h-px bg-gold" />}
+                  {isActive && <span className="absolute -bottom-1 left-0 right-0 h-px bg-gold" />}
                 </Link>
               )
             })}
           </div>
 
           {/* Desktop CTA Buttons */}
-          <div className="hidden lg:flex items-center gap-4">
+          <div className="hidden lg:flex items-center gap-3">
             <a
               href={WHATSAPP_LINK}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 text-gold border border-gold rounded-full px-4 py-2 text-sm font-medium hover:bg-gold hover:text-black transition-all duration-300"
+              className="flex items-center gap-1.5 text-gold border border-gold rounded-full px-3 py-1.5 text-xs font-medium hover:bg-gold hover:text-black transition-all duration-300"
               aria-label="Chat on WhatsApp"
             >
-              <Phone size={16} />
+              <Phone size={14} />
               <span className="hidden xl:inline">Chat</span>
             </a>
             <Link
               to="/inquiry"
-              className="btn-primary text-sm py-3 px-6"
+              className="btn-primary text-xs py-2 px-4"
             >
               Request a Proposal
             </Link>
@@ -105,10 +105,10 @@ export default function Navbar() {
             href={WHATSAPP_LINK}
             target="_blank"
             rel="noopener noreferrer"
-            className="lg:hidden text-gold p-2.5 -mr-2.5 min-w-11 min-h-11 flex items-center justify-center rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold"
+            className="lg:hidden text-gold p-2 -mr-2 min-w-10 min-h-10 flex items-center justify-center rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold"
             aria-label="Chat on WhatsApp"
           >
-            <Phone size={24} />
+            <Phone size={22} />
           </a>
         </div>
       </nav>
@@ -120,23 +120,23 @@ export default function Navbar() {
       >
         <div className="container-custom h-full flex flex-col">
           {/* Header */}
-          <div className="h-20 flex items-center justify-between">
-            <span className="flex items-center gap-2">
-              <ChefHatLogo className="h-7 w-7 text-gold" />
-              <span className="font-playfair text-2xl font-semibold text-gold">myCHEF</span>
+          <div className="h-16 flex items-center justify-between">
+            <span className="flex items-center gap-1.5">
+              <ChefHatLogo className="h-6 w-6 text-gold" />
+              <span className="font-playfair text-xl font-semibold text-gold">myCHEF</span>
             </span>
             <button
               ref={closeRef}
               onClick={() => setMobileOpen(false)}
-              className="text-white p-2.5 -mr-2.5 min-w-11 min-h-11 flex items-center justify-center rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold"
+              className="text-white p-2 -mr-2 min-w-10 min-h-10 flex items-center justify-center rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold"
               aria-label="Close menu"
             >
-              <X size={24} />
+              <X size={22} />
             </button>
           </div>
 
           {/* Links */}
-          <div className="flex-1 flex flex-col items-center justify-center gap-8">
+          <div className="flex-1 flex flex-col items-center justify-center gap-6">
             {navLinks.map((link) => {
               const isActive = location.pathname === link.href || (link.href !== '/' && location.pathname.startsWith(link.href))
               return (
@@ -144,7 +144,7 @@ export default function Navbar() {
                   key={link.href}
                   to={link.href}
                   aria-current={isActive ? 'page' : undefined}
-                  className={`font-inter text-xl font-medium transition-colors duration-200 ${
+                  className={`font-inter text-lg font-medium transition-colors duration-200 ${
                     isActive ? 'text-gold' : 'text-white hover:text-gold'
                   }`}
                   onClick={() => setMobileOpen(false)}
