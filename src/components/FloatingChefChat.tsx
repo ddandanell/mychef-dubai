@@ -4,6 +4,7 @@ import { X } from 'lucide-react'
 
 const WHATSAPP_NUMBER = '971551744849'
 const STORAGE_KEY = 'mychef-chef-chat-closed'
+const EXCLUDED_PATHS = ['/inquiry', '/thank-you']
 
 const topicMap: Record<string, string> = {
   '/': 'our private chef and catering services',
@@ -47,7 +48,7 @@ export default function FloatingChefChat() {
   useEffect(() => {
     setMounted(true)
     const closed = localStorage.getItem(STORAGE_KEY)
-    if (closed) return
+    if (closed || EXCLUDED_PATHS.includes(pathname)) return
 
     const timer = setTimeout(() => {
       setVisible(true)
