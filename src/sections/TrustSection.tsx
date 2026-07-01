@@ -74,7 +74,7 @@ export default function TrustSection() {
             <span className="text-gold">Served with Discretion.</span>
           </h2>
           <p className="font-inter text-base text-gray-400 leading-[1.7] mb-10 max-w-lg">
-            Founded by a team with deep roots in luxury hospitality, myCHEF Dubai brings world-class culinary talent directly to your door. Every dish is prepared with premium ingredients, every service delivered with the utmost discretion.
+            Founded by a team with deep roots in luxury hospitality, myCHEF Dubai brings experienced culinary talent directly to your door. Every dish is prepared with premium ingredients, every service delivered with discretion.
           </p>
 
           {/* Trust Badges */}

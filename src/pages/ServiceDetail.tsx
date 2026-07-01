@@ -9,7 +9,7 @@ const serviceData: Record<string, { name: string; description: string; image: st
   'private-chef-dubai': { name: 'Private Chef Dubai', description: 'Your personal chef for any occasion. Custom menus, premium ingredients, full service.', image: '/images/private-chef-dubai-hero.webp' },
   'personal-chef-dubai': { name: 'Personal Chef Dubai', description: 'A dedicated chef for your household. Regular meal preparation, dietary accommodation.', image: '/images/private-chef-dubai-hero.webp' },
   'villa-private-chef': { name: 'Villa Private Chef Dubai', description: 'Private chef services for Dubai villas. Poolside dining, BBQs, family meals.', image: '/images/villa-catering-dubai-hero.webp' },
-  'luxury-private-dining': { name: 'Luxury Private Dining Dubai', description: 'Michelin-level private dining experiences in your Dubai home.', image: '/images/luxury-dining-dubai-hero.webp' },
+  'luxury-private-dining': { name: 'Luxury Private Dining Dubai', description: 'Restaurant-quality private dining experiences in your Dubai home.', image: '/images/luxury-dining-dubai-hero.webp' },
   'fine-dining-at-home': { name: 'Fine Dining at Home Dubai', description: 'Restaurant-quality fine dining without leaving your home.', image: '/images/luxury-dining-dubai-hero.webp' },
   'romantic-dinner': { name: 'Romantic Dinner Dubai', description: 'Intimate private dinners for couples. Perfect for anniversaries and proposals.', image: '/images/romantic-dinner-dubai-hero.webp' },
   'birthday-catering': { name: 'Birthday Catering Dubai', description: 'Make your birthday unforgettable with bespoke catering.', image: '/images/birthday-catering-dubai-hero.webp' },
@@ -90,7 +90,7 @@ export default function ServiceDetail() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { title: 'Custom Menu Design', desc: 'Every menu is created specifically for your tastes, dietary needs, and event theme.' },
-              { title: 'Premium Ingredients', desc: 'We source the finest ingredients from Dubai\'s best suppliers and markets.' },
+              { title: 'Premium Ingredients', desc: 'We source the best available ingredients from trusted Dubai suppliers and markets.' },
               { title: 'Full Service', desc: 'From preparation to cleanup, we handle everything so you can enjoy your event.' },
               { title: 'Professional Chefs', desc: 'Our chefs are trained in international cuisines with years of experience.' },
               { title: 'Flexible Booking', desc: 'Available 7 days a week, from last-minute requests to months in advance.' },

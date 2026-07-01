@@ -69,7 +69,7 @@ export default function TeamSection() {
               Led by a Passion for Excellence
             </h2>
             <p className="font-inter text-base text-gray-400 leading-[1.7] mb-4 max-w-lg">
-              Our head chef brings decades of experience from Europe&apos;s finest kitchens to Dubai&apos;s most exclusive homes. Every menu is designed with precision, every plate tells a story.
+              Our head chef brings decades of experience from respected European kitchens to Dubai&apos;s most distinguished homes. Every menu is designed with precision, every plate tells a story.
             </p>
             <p className="font-inter text-base text-gray-400 leading-[1.7] mb-8 max-w-lg">
               Behind every event is a dedicated team of chefs, sous chefs, pastry specialists, and service staff — all committed to one goal: making your experience unforgettable.

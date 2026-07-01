@@ -272,7 +272,7 @@ export default function Gallery() {
             INSPIRATION FOR EVERY OCCASION
           </span>
           <h2 className="reveal font-playfair text-h2 text-white mb-6">
-            Where Culinary Art Meets Dubai&apos;s Finest Venues
+            Where Culinary Art Meets Distinguished Dubai Venues
           </h2>
           <p className="reveal font-inter text-body text-gray-400">
             Browse moments from real myCHEF events. Each image reflects our commitment to exquisite

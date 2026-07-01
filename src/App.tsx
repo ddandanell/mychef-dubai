@@ -106,6 +106,10 @@ const PrivateCookingClassesDubai = lazy(() => import('./pages/PrivateCookingClas
 const VIPClub = lazy(() => import('./pages/VIPClub'))
 const GiftCards = lazy(() => import('./pages/GiftCards'))
 const CaseStudies = lazy(() => import('./pages/CaseStudies'))
+const WeeklyMealPrep = lazy(() => import('./pages/WeeklyMealPrep'))
+const HowWeVetOurChefs = lazy(() => import('./pages/HowWeVetOurChefs'))
+const BookingProtectionInsurance = lazy(() => import('./pages/BookingProtectionInsurance'))
+const BecomeAMyChef = lazy(() => import('./pages/BecomeAMyChef'))
 
 export default function App() {
   return (
@@ -222,6 +226,10 @@ export default function App() {
           <Route path="/vip-club" element={<VIPClub />} />
           <Route path="/gift-cards" element={<GiftCards />} />
           <Route path="/case-studies" element={<CaseStudies />} />
+          <Route path="/weekly-meal-prep-dubai" element={<WeeklyMealPrep />} />
+          <Route path="/how-we-vet-our-chefs" element={<HowWeVetOurChefs />} />
+          <Route path="/booking-protection-insurance" element={<BookingProtectionInsurance />} />
+          <Route path="/become-a-mychef" element={<BecomeAMyChef />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Suspense>

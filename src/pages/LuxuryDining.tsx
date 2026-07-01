@@ -282,7 +282,7 @@ export default function LuxuryDining() {
             <p className="font-inter text-body text-gray-500 leading-relaxed max-w-[700px] mx-auto mt-4">
               From penthouses in Downtown to villas in{' '}
               <Link to="/locations/emirates-hills" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Emirates Hills</Link>
-              , we bring Michelin-level dining to your door.
+              , we bring restaurant-quality dining to your door.
             </p>
           </div>
 

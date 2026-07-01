@@ -58,7 +58,7 @@ const serviceTypes = [
   {
     icon: Star,
     title: 'VIP & Celebrity Chef',
-    description: 'Ultra-discreet service for high-profile clients. Confidentiality guaranteed.',
+    description: 'Ultra-discreet service for high-profile clients. Confidentiality is standard.',
     link: '/vip-club',
   },
 ]
@@ -72,7 +72,7 @@ const experienceSteps = [
   {
     num: '02',
     title: 'Ingredient Sourcing',
-    description: 'We hand-select the finest ingredients \u2014 seafood from the market, produce from premium suppliers, specialty items imported as needed.',
+    description: 'We hand-select the best available ingredients \u2014 seafood from the market, produce from premium suppliers, specialty items imported as needed.',
   },
   {
     num: '03',
@@ -268,7 +268,7 @@ export default function PrivateChef() {
       {/* ═══════════════ Section 1: Hero ═══════════════ */}
       <PageHero
         title="Private Chef Dubai"
-        subtitle="A world-class chef in your kitchen. Fully bespoke menus. Impeccable service. From intimate dinners to week-long villa stays."
+        subtitle="An experienced private chef in your kitchen. Fully bespoke menus. Impeccable service. From intimate dinners to week-long villa stays."
         image="/images/private-chef-dubai-hero.webp"
         imageAlt="Private chef preparing a meal in Dubai"
         cta={{ label: 'Request a Proposal', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=private-chef-dubai' }}

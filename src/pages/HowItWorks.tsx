@@ -23,7 +23,7 @@ const steps = [
 const features = [
   { icon: Clock, title: 'Punctual Arrival', desc: 'We arrive early, fully prepared. Timing is never an afterthought.' },
   { icon: Shield, title: 'Discreet Service', desc: 'Our team blends into the background. Your privacy is always respected.' },
-  { icon: Utensils, title: 'Premium Ingredients', desc: 'We source the freshest, finest ingredients — locally and internationally.' },
+  { icon: Utensils, title: 'Premium Ingredients', desc: 'We source the freshest, best available ingredients — locally and internationally.' },
   { icon: Users, title: 'Attentive Staff', desc: 'Professional service staff dedicated to your guests\' comfort.' },
   { icon: Sparkles, title: 'Immaculate Cleanup', desc: 'We leave your kitchen cleaner than we found it. Every single time.' },
   { icon: Award, title: 'Flexible Menus', desc: 'Dietary restrictions, allergies, preferences — all accommodated without compromise.' },

@@ -278,7 +278,7 @@ export default function GalaDinnerCatering() {
             Gala Dinners Worthy of the Occasion
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 gala-hero-sub">
-            Refined catering for awards nights, charity galas, and formal celebrations across Dubai’s finest venues.
+            Refined catering for awards nights, charity galas, and formal celebrations across distinguished Dubai venues.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=gala-dinner-catering-dubai" className="btn-primary opacity-0 translate-y-4 gala-hero-cta">Request a Proposal</Link>
