@@ -6,6 +6,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { Phone } from 'lucide-react'
 import SEO from '../../components/SEO'
 import PageHero from '../../components/PageHero'
+import BlogRelated from '../../components/BlogRelated'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -276,6 +277,8 @@ export default function HalalPrivateDiningDubaiWhatToAsk() {
               ))}
             </div>
           </section>
+
+          <BlogRelated currentSlug="/blog/halal-private-dining-dubai-what-to-ask" />
 
           <section className="article-cta opacity-0 translate-y-8 bg-cream p-8 md:p-12 text-center">
             <h2 className="font-playfair text-h3 text-black mb-4">Book a Fully Halal Private Dining Experience</h2>

@@ -51,7 +51,8 @@ export default function ThankYou() {
         title="Thank You"
         description="Thank you for your inquiry. Our team will contact you within 2 hours with a bespoke proposal."
         canonicalPath="/thank-you"
-        noindex
+        ogImage="/service-catering.webp"
+        noindex={true}
       />
 
       {/* Section 1: Confirmation */}

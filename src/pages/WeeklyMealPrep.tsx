@@ -348,6 +348,9 @@ export default function WeeklyMealPrep() {
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
               If you are comparing options, you may also be interested in our <Link to="/corporate-meal-prep-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate meal prep programmes</Link> or the full <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef experience in Dubai</Link>. For menu inspiration, explore our <Link to="/menus" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">bespoke menus</Link>.
             </p>
+            <p className="font-inter text-body-lg text-gray-500 leading-relaxed mt-5">
+              Deciding between weekly prep and a full-time chef? Read our comparison of <Link to="/blog/weekly-meal-prep-vs-full-time-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">weekly meal prep vs full-time chef in Dubai</Link>.
+            </p>
           </div>
         </div>
       </section>

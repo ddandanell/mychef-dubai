@@ -307,7 +307,7 @@ export default function Catering() {
             <Link to="/locations/business-bay" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Business Bay catering</Link>
             {' '}and{' '}
             <Link to="/locations/difc" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">DIFC catering</Link>.
-            Whether you are planning a corporate lunch, a private celebration, or a large gala, our team creates menus and service plans tailored to your venue and guests.
+            Whether you are planning a corporate lunch, a private celebration, or a large gala, our team creates menus and service plans tailored to your venue and guests — from <Link to="/finger-food-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">finger food</Link> and <Link to="/cocktail-party-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">cocktail party catering</Link> to full banquets.
           </p>
         </div>
       </section>
@@ -579,8 +579,10 @@ export default function Catering() {
             <Link to="/dubai-catering-prices-guide" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Dubai Catering Prices Guide</Link>,
             {' '}see our{' '}
             <Link to="/catering-packages-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Catering Packages Dubai</Link>
-            {' '}overview, or read{' '}
-            <Link to="/how-to-choose-caterer-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">How to Choose a Caterer in Dubai</Link>.
+            {' '}overview, read{' '}
+            <Link to="/how-to-choose-caterer-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">How to Choose a Caterer in Dubai</Link>,
+            {' '}or compare{' '}
+            <Link to="/buffet-vs-plated-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">buffet vs plated service in Dubai</Link>.
           </p>
         </div>
       </section>

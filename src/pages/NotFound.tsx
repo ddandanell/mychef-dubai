@@ -8,6 +8,7 @@ export default function NotFound() {
         title="Page Not Found | myCHEF Dubai"
         description="We couldn't find that page. Explore myCHEF Dubai's private chef, catering, and luxury dining services, or request a custom quote."
         canonicalPath="/404"
+        ogImage="/images/catering-dubai-hero.webp"
       />
       <section className="relative min-h-[80dvh] flex items-center justify-center bg-black overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-charcoal via-black to-black" />

@@ -528,7 +528,12 @@ export default function WeddingCatering() {
           <h3 className="font-playfair text-h3 text-black mb-4">Related Guides</h3>
           <p className="font-inter text-body text-gray-500 leading-relaxed">
             Planning an event in Dubai? Read our{' '}
-            <Link to="/wedding-catering-checklist-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Wedding Catering Checklist</Link>.
+            <Link to="/wedding-catering-checklist-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Wedding Catering Checklist</Link>{' '}
+            and{' '}
+            <Link to="/wedding-catering-menu-planning-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">wedding catering menu planning guide</Link>,
+            {' '}and meet{' '}
+            <Link to="/chefs/sofia-pastry-chef" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Pastry Chef Sofia</Link>{' '}
+            for your dessert table.
           </p>
         </div>
       </section>

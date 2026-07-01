@@ -74,6 +74,24 @@ const festivePages = [
     description: 'Weekend brunch spreads with live stations, pastries, egg dishes and bottomless-style beverages.',
     icon: UtensilsCrossed,
   },
+  {
+    slug: '/halloween-catering-dubai',
+    title: 'Halloween Catering',
+    description: 'Spooky, playful menus and themed treats for Halloween parties at home or in a Dubai venue.',
+    icon: PartyPopper,
+  },
+  {
+    slug: '/easter-catering-dubai',
+    title: 'Easter Catering',
+    description: 'Spring-inspired brunches, roasts and family feasts for Easter celebrations across Dubai.',
+    icon: Sun,
+  },
+  {
+    slug: '/uae-national-day-catering-dubai',
+    title: 'UAE National Day Catering',
+    description: 'Patriotic themed menus and national-colour styling for UAE National Day gatherings and events.',
+    icon: Sparkles,
+  },
 ]
 
 const relatedServices = [

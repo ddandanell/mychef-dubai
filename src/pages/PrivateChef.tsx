@@ -6,6 +6,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { Utensils, Home, Calendar, Baby, Leaf, Star, Check, ChevronRight, Phone, ArrowRight, } from 'lucide-react'
 import SEO from '../components/SEO'
 import PageHero from '../components/PageHero'
+import LocationStrip from '../components/LocationStrip'
 import StarterPackagesSection from '@/sections/StarterPackagesSection'
 
 gsap.registerPlugin(ScrollTrigger)
@@ -534,11 +535,19 @@ export default function PrivateChef() {
             <Link to="/private-chef-vs-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Private Chef vs Catering</Link>{' '}
             guide, see our{' '}
             <Link to="/private-chef-prices-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef prices Dubai</Link>{' '}
-            breakdown, or read{' '}
-            <Link to="/blog/how-much-does-private-chef-cost-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">how much does a private chef cost in Dubai</Link>.
+            breakdown, read{' '}
+            <Link to="/blog/how-much-does-private-chef-cost-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">how much does a private chef cost in Dubai</Link>,
+            {' '}or explore{' '}
+            <Link to="/blog/private-chef-palm-jumeirah-guide" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef Palm Jumeirah</Link>,
+            {' '}
+            <Link to="/guide/private-dining-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private dining in Dubai</Link>
+            {' '}and{' '}
+            <Link to="/buffet-vs-plated-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">buffet vs plated service in Dubai</Link>.
           </p>
         </div>
       </section>
+
+      <LocationStrip title="Private chef services across Dubai" />
 
       {/* ═══════════════ Section 9: CTA Banner ═══════════════ */}
       <section className="bg-gradient-to-b from-charcoal to-black py-20">

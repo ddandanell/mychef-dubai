@@ -6,6 +6,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { Phone } from 'lucide-react'
 import SEO from '../../components/SEO'
 import PageHero from '../../components/PageHero'
+import BlogRelated from '../../components/BlogRelated'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -246,6 +247,8 @@ export default function BestPrivateChefBirthdayDinnerDubai() {
               ))}
             </div>
           </section>
+
+          <BlogRelated currentSlug="/blog/best-private-chef-birthday-dinner-dubai" />
 
           <section className="article-cta opacity-0 translate-y-8 bg-cream p-8 md:p-12 text-center">
             <h2 className="font-playfair text-h3 text-black mb-4">Ready to Plan Your Birthday Dinner?</h2>

@@ -323,6 +323,7 @@ export default function Inquiry() {
           title="Quote Requested | myCHEF Dubai"
           description="Thank you for requesting a quote. We will respond within 2 hours with a bespoke proposal tailored to your event."
           canonicalPath="/inquiry"
+          ogImage="/service-catering.webp"
           noindex
         />
         <div className="min-h-[60vh] flex items-center justify-center bg-cream">
@@ -365,6 +366,7 @@ export default function Inquiry() {
         title="Request a Quote | Private Chef & Catering Dubai | myCHEF Dubai"
         description="Request a custom quote for private chef services or luxury catering in Dubai. We respond within 2 hours with a bespoke proposal tailored to your event."
         canonicalPath="/inquiry"
+        ogImage="/service-catering.webp"
         schema={breadcrumbSchema(breadcrumbs) as unknown as Record<string, unknown>}
       />
 
@@ -927,6 +929,12 @@ export default function Inquiry() {
               <MapPin size={16} className="text-gold" aria-hidden="true" />
               Dubai, UAE
             </span>
+          </div>
+
+          <div className="mt-8 flex flex-wrap items-center justify-center gap-4 font-inter text-body-sm text-gray-400">
+            <Link to="/privacy-policy" className="hover:text-gold transition-colors underline underline-offset-4">Privacy Policy</Link>
+            <span className="hidden sm:inline">·</span>
+            <Link to="/terms" className="hover:text-gold transition-colors underline underline-offset-4">Terms of Service</Link>
           </div>
         </div>
       </section>

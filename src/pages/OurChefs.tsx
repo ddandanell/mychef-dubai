@@ -147,6 +147,7 @@ export default function OurChefs() {
         title="Our Chefs | myCHEF Dubai | Private Chef Team & Culinary Experts"
         description="Meet the experienced culinary team behind myCHEF Dubai. Professional private chefs specializing in fine dining, international cuisine, and luxury hospitality."
         canonicalPath="/our-chefs"
+        ogImage="/images/about-mychef-dubai-hero.webp"
         schema={breadcrumbSchema(breadcrumbs) as unknown as Record<string, unknown>}
       />
 

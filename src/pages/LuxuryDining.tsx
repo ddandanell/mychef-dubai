@@ -532,7 +532,9 @@ export default function LuxuryDining() {
           <h3 className="font-playfair text-h3 text-black mb-4">Which guides help plan a luxury dinner in Dubai?</h3>
           <p className="font-inter text-body text-gray-500 leading-relaxed">
             Planning an event in Dubai? Read our{' '}
-            <Link to="/luxury-dinner-planning-guide-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Luxury Dinner Planning Guide</Link>.
+            <Link to="/luxury-dinner-planning-guide-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Luxury Dinner Planning Guide</Link>,
+            {' '}explore <Link to="/romantic-dinner-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">romantic dinner Dubai</Link> experiences,
+            {' '}or see indicative costs in our <Link to="/private-chef-prices-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef prices Dubai</Link> guide.
           </p>
         </div>
       </section>

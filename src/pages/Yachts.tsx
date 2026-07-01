@@ -6,6 +6,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { useGSAP } from '@gsap/react'
 import SEO from '@/components/SEO'
 import PageHero from '@/components/PageHero'
+import LocationStrip from '@/components/LocationStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -418,10 +419,18 @@ export default function Yachts() {
           <h3 className="font-playfair text-h3 text-black mb-4">Related Guides</h3>
           <p className="font-inter text-body text-gray-500 leading-relaxed">
             Planning an event in Dubai? Read our{' '}
-            <Link to="/yacht-catering-guide-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Yacht Catering Guide</Link>.
+            <Link to="/yacht-catering-guide-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Yacht Catering Guide</Link>,
+            {' '}download the{' '}
+            <Link to="/yacht-catering-checklist-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Yacht Catering Checklist</Link>,
+            {' '}or see our service areas in{' '}
+            <Link to="/locations/dubai-marina" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Dubai Marina</Link>{' '}
+            and{' '}
+            <Link to="/locations/palm-jumeirah" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Palm Jumeirah</Link>.
           </p>
         </div>
       </section>
+
+      <LocationStrip title="Yacht catering across Dubai" />
 
       {/* Section 10: CTA Banner */}
       <section className="yachts-cta-section bg-black py-24">

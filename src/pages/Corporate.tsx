@@ -10,6 +10,7 @@ import {
 } from '@/components/ui/accordion'
 import SEO from '@/components/SEO'
 import PageHero from '@/components/PageHero'
+import LocationStrip from '@/components/LocationStrip'
 import StarterPackagesSection from '@/sections/StarterPackagesSection'
 import {
   breadcrumbSchema,
@@ -594,10 +595,19 @@ export default function Corporate() {
           <h3 className="font-playfair text-h3 text-black mb-4">Helpful Guides for Planning Corporate Events in Dubai</h3>
           <p className="font-inter text-body text-gray-500 leading-relaxed">
             Planning an event in Dubai? Read our{' '}
-            <Link to="/corporate-catering-checklist-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Corporate Catering Checklist</Link>.
+            <Link to="/corporate-catering-checklist-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Corporate Catering Checklist</Link>,
+            {' '}compare{' '}
+            <Link to="/blog/corporate-catering-full-service-vs-drop-off" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">full-service vs drop-off corporate catering</Link>,
+            {' '}or explore our{' '}
+            <Link to="/exhibition-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">exhibition catering</Link>{' '}
+            and{' '}
+            <Link to="/brand-activation-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">brand activation catering</Link>{' '}
+            services.
           </p>
         </div>
       </section>
+
+      <LocationStrip title="Corporate catering across Dubai" />
 
       {/* ─── CTA Banner ─── */}
       <section

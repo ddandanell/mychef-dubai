@@ -82,6 +82,7 @@ export default function CateringCostCalculator() {
         title="Catering Cost Calculator Dubai | myCHEF Dubai"
         description="Estimate the cost of private chef and luxury catering services in Dubai. Instant per-person pricing for villas, yachts, weddings, and corporate events."
         canonicalPath="/catering-cost-calculator-dubai"
+        ogImage="/images/catering-dubai-hero.webp"
         schema={breadcrumbSchema(breadcrumbs) as unknown as Record<string, unknown>}
       />
 

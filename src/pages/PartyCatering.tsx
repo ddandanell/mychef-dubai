@@ -16,6 +16,7 @@ import {
   ArrowRight,
 } from 'lucide-react'
 import SEO from '../components/SEO'
+import LocationStrip from '../components/LocationStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -372,7 +373,10 @@ export default function PartyCatering() {
             A great party is more than good food — it is the rhythm of the evening, the moment guests gather around a grazing table, the cocktail that arrives at exactly the right time. At myCHEF Dubai, we treat party catering as a complete experience, designed from your theme and venue outward.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Whether you are hosting an intimate gathering in your villa, a lively bachelor weekend, an elegant bachelorette afternoon, a heartfelt baby shower, or a polished private party, our team brings the kitchen, the staff, and the styling to you. Explore our dedicated party services below, or speak to us directly to start planning. We also pair seamlessly with our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
+            Whether you are hosting an intimate gathering in your villa, a lively bachelor weekend, an elegant bachelorette afternoon, a heartfelt baby shower, an <Link to="/anniversary-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">anniversary celebration</Link>, a <Link to="/housewarming-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">housewarming</Link>, or a <Link to="/pool-party-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">pool party</Link>, our team brings the kitchen, the staff, and the styling to you. Explore our dedicated party services below, or speak to us directly to start planning. We also pair seamlessly with our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
+          </p>
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mt-5">
+            For easy mingling food, try our <Link to="/finger-food-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">finger food catering</Link>. Seasonal hosts can also explore <Link to="/halloween-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Halloween catering in Dubai</Link>.
           </p>
         </div>
       </section>
@@ -566,6 +570,8 @@ export default function PartyCatering() {
           </div>
         </div>
       </section>
+
+      <LocationStrip title="Party catering across Dubai" />
 
       {/* ═══════════════ Section 10: CTA Banner ═══════════════ */}
       <section className="bg-gradient-to-b from-charcoal to-black py-20">

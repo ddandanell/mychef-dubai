@@ -109,6 +109,7 @@ export default function HowItWorks() {
         title="How It Works"
         description="See how easy it is to book a private chef in Dubai. From your first message to the final course — a seamless, bespoke experience every time."
         canonicalPath="/how-it-works"
+        ogImage="/images/how-it-works-dubai-hero.webp"
         schema={{ ...breadcrumbSchema, ...faqSchema }}
       />
 

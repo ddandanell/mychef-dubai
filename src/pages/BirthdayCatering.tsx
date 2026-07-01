@@ -323,6 +323,9 @@ export default function BirthdayCatering() {
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             Whether you are planning an intimate family lunch, a lively kids’ party, or a polished milestone celebration in your villa, our team handles every detail from concept to clear-down. Explore our birthday services below, or see how they fit within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
           </p>
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mt-5">
+            Looking for inspiration? Read our guide to the <Link to="/blog/best-private-chef-birthday-dinner-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">best private chef birthday dinner in Dubai</Link>.
+          </p>
         </div>
       </section>
 

@@ -6,6 +6,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { Phone } from 'lucide-react'
 import SEO from '../../components/SEO'
 import PageHero from '../../components/PageHero'
+import BlogRelated from '../../components/BlogRelated'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -173,6 +174,8 @@ export default function YachtPartyMenuIdeas() {
               From sunset canapés to multi-course dinners at anchor, we design yacht menus that look as good as they taste.
             </p>
           </section>
+
+          <BlogRelated currentSlug="/blog/yacht-party-menu-ideas-dubai" />
 
           {/* ═══════════════ CTA ═══════════════ */}
           <section className="article-cta bg-cream border border-gray-200 p-8 md:p-10 opacity-0 translate-y-8">

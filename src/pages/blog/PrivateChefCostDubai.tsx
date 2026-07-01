@@ -6,6 +6,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { Phone } from 'lucide-react'
 import SEO from '../../components/SEO'
 import PageHero from '../../components/PageHero'
+import BlogRelated from '../../components/BlogRelated'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -167,6 +168,8 @@ export default function PrivateChefCostDubai() {
               Share your vision with us and we will provide a transparent, itemised quote based on your group, menu, and venue.
             </p>
           </section>
+
+          <BlogRelated currentSlug="/blog/how-much-does-private-chef-cost-dubai" />
 
           {/* ═══════════════ CTA ═══════════════ */}
           <section className="article-cta bg-cream border border-gray-200 p-8 md:p-10 opacity-0 translate-y-8">

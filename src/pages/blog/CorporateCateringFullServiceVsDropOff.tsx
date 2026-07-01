@@ -6,6 +6,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { Phone, Check, X } from 'lucide-react'
 import SEO from '../../components/SEO'
 import PageHero from '../../components/PageHero'
+import BlogRelated from '../../components/BlogRelated'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -198,6 +199,8 @@ export default function CorporateCateringFullServiceVsDropOff() {
               From daily office lunches to gala dinners and conference receptions, we deliver food that reflects the professionalism of your brand.
             </p>
           </section>
+
+          <BlogRelated currentSlug="/blog/corporate-catering-full-service-vs-drop-off" />
 
           {/* ═══════════════ CTA ═══════════════ */}
           <section className="article-cta bg-cream border border-gray-200 p-8 md:p-10 opacity-0 translate-y-8">

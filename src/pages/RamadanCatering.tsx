@@ -521,7 +521,13 @@ export default function RamadanCatering() {
           <h3 className="font-playfair text-h3 text-black mb-4">Related Guides</h3>
           <p className="font-inter text-body text-gray-500 leading-relaxed">
             Planning an event in Dubai? Read our{' '}
-            <Link to="/ramadan-catering-guide-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Ramadan Catering Guide</Link>.
+            <Link to="/ramadan-catering-guide-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Ramadan Catering Guide</Link>,
+            {' '}see the latest{' '}
+            <Link to="/blog/ramadan-iftar-catering-trends-2026" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Ramadan iftar catering trends for 2026</Link>,
+            {' '}or browse dedicated{' '}
+            <Link to="/iftar-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">iftar</Link>{' '}
+            and{' '}
+            <Link to="/suhoor-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">suhoor catering</Link>.
           </p>
         </div>
       </section>

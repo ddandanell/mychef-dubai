@@ -323,6 +323,9 @@ export default function CanapeCatering() {
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             Our team builds menus that move easily through a room, pairing chilled seafood bites, warm savoury morsels, and sweet petit fours with optional cocktails and mocktails. Servers pass canapés with timing and grace, while styled displays give guests a centrepiece to gather around. Whether it is a cocktail reception, a gallery opening, a rooftop gathering, or an engagement toast, we bring the bites, the staff, and the styling to you. Explore our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>, or speak to us to start planning.
           </p>
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mt-5">
+            For more casual mingling menus, see our <Link to="/finger-food-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">finger food catering in Dubai</Link>.
+          </p>
         </div>
       </section>
 

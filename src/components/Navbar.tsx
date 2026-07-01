@@ -8,6 +8,7 @@ const navLinks = [
   { label: 'Catering', href: '/catering-dubai' },
   { label: 'Experiences', href: '/luxury-dining-experiences' },
   { label: 'Locations', href: '/locations' },
+  { label: 'Blog', href: '/blog' },
   { label: 'About', href: '/about' },
   { label: 'Contact', href: '/contact' },
 ]

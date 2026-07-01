@@ -10,6 +10,7 @@ import {
 } from '@/components/ui/accordion'
 import SEO from '@/components/SEO'
 import PageHero from '@/components/PageHero'
+import LocationStrip from '@/components/LocationStrip'
 import {
   breadcrumbSchema,
   faqPageSchema,
@@ -150,6 +151,12 @@ const relatedEventCatering = [
     title: 'Halloween Catering',
     description: 'Spooky, stylish menus and themed treats for home parties, kids events and venue celebrations.',
     link: '/halloween-catering-dubai',
+  },
+  {
+    image: '/images/diwali-catering-dubai-hero.webp',
+    title: 'Diwali Catering',
+    description: 'Festive Indian menus, sweets and celebratory spreads for Diwali gatherings across Dubai.',
+    link: '/diwali-catering-dubai',
   },
 ]
 
@@ -770,6 +777,8 @@ export default function Events() {
           </div>
         </div>
       </section>
+
+      <LocationStrip title="Event catering across Dubai" />
 
       {/* ─── Section 10: CTA Banner ─── */}
       <section

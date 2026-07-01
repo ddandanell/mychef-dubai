@@ -1,6 +1,7 @@
 import { Link } from 'react-router'
 import { Phone, Mail, MapPin } from 'lucide-react'
 import TrustBar from '@/components/TrustBar'
+import SocialLinks from '@/components/SocialLinks'
 
 const serviceLinks = [
   { label: 'Private Chef Dubai', href: '/private-chef-dubai' },
@@ -26,7 +27,6 @@ const guideLinks = [
   { label: 'Private Chef Prices', href: '/private-chef-prices-dubai' },
   { label: 'Cost Calculator', href: '/catering-cost-calculator-dubai' },
   { label: 'Catering Packages', href: '/catering-packages-dubai' },
-  { label: 'Blog', href: '/blog' },
   { label: 'Choose a Caterer', href: '/how-to-choose-caterer-dubai' },
   { label: 'Villa Catering Ideas', href: '/villa-catering-ideas-dubai' },
   { label: 'Wedding Checklist', href: '/wedding-catering-checklist-dubai' },
@@ -37,6 +37,17 @@ const guideLinks = [
   { label: 'Ramadan Catering Guide', href: '/ramadan-catering-guide-dubai' },
   { label: 'Luxury Dinner Guide', href: '/luxury-dinner-planning-guide-dubai' },
   { label: 'Food Trends Report 2026', href: '/dubai-food-trends-report-2026' },
+]
+
+const companyLinks = [
+  { label: 'About', href: '/about' },
+  { label: 'Contact', href: '/contact' },
+  { label: 'How It Works', href: '/how-it-works' },
+  { label: 'Our Chefs', href: '/our-chefs' },
+  { label: 'Blog', href: '/blog' },
+  { label: 'Case Studies', href: '/case-studies' },
+  { label: 'Gallery', href: '/gallery' },
+  { label: 'Leave a Review', href: '/review' },
 ]
 
 const locationLinks = [
@@ -67,8 +78,8 @@ export default function Footer() {
   return (
     <footer className="bg-black border-t border-charcoal-light">
       <div className="container-custom pt-16 pb-10 md:pt-20">
-        {/* 5-Column Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-10 lg:gap-6">
+        {/* 6-Column Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-10 lg:gap-6">
           {/* Col 1: Brand */}
           <div className="sm:col-span-2 lg:col-span-1">
             <Link
@@ -83,6 +94,7 @@ export default function Footer() {
             <p className="mt-4 font-inter text-body-sm text-gray-500 leading-relaxed">
               Bespoke culinary experiences for villas, yachts, and events across Dubai.
             </p>
+            <SocialLinks className="mt-5" />
           </div>
 
           {/* Col 2: Services */}
@@ -131,7 +143,26 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Col 4: Locations */}
+          {/* Col 4: Company */}
+          <div>
+            <h4 className="font-inter text-caption font-medium uppercase tracking-wider text-white mb-5 md:mb-6">
+              Company
+            </h4>
+            <ul className="space-y-3">
+              {companyLinks.map((link) => (
+                <li key={link.href}>
+                  <Link
+                    to={link.href}
+                    className="font-inter text-body-sm text-gray-400 hover:text-gold transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-black rounded-sm"
+                  >
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Col 5: Locations */}
           <div>
             <h4 className="font-inter text-caption font-medium uppercase tracking-wider text-white mb-5 md:mb-6">
               Locations
@@ -158,7 +189,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Col 5: Trust & Contact */}
+          {/* Col 6: Trust & Contact */}
           <div>
             <h4 className="font-inter text-caption font-medium uppercase tracking-wider text-white mb-5 md:mb-6">
               Trust & Contact

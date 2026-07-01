@@ -323,6 +323,9 @@ export default function HalalCatering() {
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             Our halal menus are as varied as they are considered — spanning Arabic grills from our <Link to="/arabic-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Arabic catering Dubai</Link> menus, Indian classics, Asian favourites, and Continental plates, all from a fully halal kitchen. Whether you are hosting a wedding, a Ramadan iftar, a villa dinner, or a corporate function, our team designs and serves a menu suited to your occasion. Explore the formats below, or see how it fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
           </p>
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mt-5">
+            Hosting an intimate halal dinner? See what to ask when booking <Link to="/blog/halal-private-dining-dubai-what-to-ask" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">halal private dining in Dubai</Link>.
+          </p>
         </div>
       </section>
 

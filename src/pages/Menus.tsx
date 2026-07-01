@@ -242,6 +242,7 @@ export default function Menus() {
         title="Menus & Cuisine | myCHEF Dubai | Private Chef Menu Inspiration"
         description="Explore bespoke menu options from myCHEF Dubai. Fine dining, Mediterranean, Middle Eastern, Asian fusion, and more. Every menu is custom-designed for your event."
         canonicalPath="/menus"
+        ogImage="/images/catering-dubai-hero.webp"
         schema={breadcrumbSchema(breadcrumbs) as unknown as Record<string, unknown>}
       />
 

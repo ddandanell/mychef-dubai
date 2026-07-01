@@ -94,6 +94,7 @@ export default function ReviewRequest() {
         description="Share your myCHEF Dubai experience and receive AED 50 credit toward your next private chef or catering booking."
         canonicalPath={`/${SLUG}`}
         ogImage="/images/about-mychef-dubai-hero.webp"
+        noindex={true}
         schema={schema}
       />
 

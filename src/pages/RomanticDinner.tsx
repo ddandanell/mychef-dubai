@@ -25,7 +25,12 @@ export default function RomanticDinner() {
 
   return (
     <div ref={pageRef}>
-      <SEO title="Romantic Private Dinner Dubai" description="Intimate romantic dinners in Dubai. Private chef, candlelit setting, bespoke menu for couples, anniversaries, and proposals." />
+      <SEO
+        title="Romantic Private Dinner Dubai"
+        description="Intimate romantic dinners in Dubai. Private chef, candlelit setting, bespoke menu for couples, anniversaries, and proposals."
+        canonicalPath="/romantic-dinner-dubai"
+        ogImage="/images/romantic-dinner-dubai-hero.webp"
+      />
 
       <section className="relative min-h-[70vh] flex items-center justify-center bg-black overflow-hidden">
         <div className="absolute inset-0"><img src="/images/romantic-dinner-dubai-hero.webp" alt="Romantic dinner" className="w-full h-full object-cover opacity-40" decoding="async" loading="eager" fetchPriority="high"/><div className="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-black/30" /></div>

@@ -228,6 +228,7 @@ export default function Terms() {
         title="Terms of Service"
         description="myCHEF Dubai terms of service. Booking conditions, cancellation policy, and service terms."
         canonicalPath="/terms"
+        ogImage="/images/catering-dubai-hero.webp"
         schema={breadcrumbSchema}
       />
 
