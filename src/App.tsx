@@ -115,6 +115,7 @@ const WeeklyMealPrep = lazy(() => import('./pages/WeeklyMealPrep'))
 const HowWeVetOurChefs = lazy(() => import('./pages/HowWeVetOurChefs'))
 const BookingProtectionInsurance = lazy(() => import('./pages/BookingProtectionInsurance'))
 const BecomeAMyChef = lazy(() => import('./pages/BecomeAMyChef'))
+const ReviewRequest = lazy(() => import('./pages/ReviewRequest'))
 
 export default function App() {
   return (
@@ -232,6 +233,7 @@ export default function App() {
           <Route path="/how-we-vet-our-chefs" element={<HowWeVetOurChefs />} />
           <Route path="/booking-protection-insurance" element={<BookingProtectionInsurance />} />
           <Route path="/become-a-mychef" element={<BecomeAMyChef />} />
+          <Route path="/review" element={<ReviewRequest />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Suspense>
