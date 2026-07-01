@@ -61,7 +61,7 @@
 | Page / URL | Priority | Status | Notes |
 |---|---|---|---|
 | Breakfast Catering Dubai — `/breakfast-catering-dubai` | Medium | built | Live; unique hero, 6 FAQs, internal links |
-| Picnic Catering Dubai — `/picnic-catering-dubai` | Low | missing | Styled outdoor baskets |
+| Picnic Catering Dubai — `/picnic-catering-dubai` | Low | built | Live; reused beach-catering hero, 6 FAQs, internal links |
 | Drop-Off Catering Dubai — `/drop-off-catering-dubai` | Medium | built | Live; unique hero, 6 FAQs, internal links |
 | Tasting Menu / Chef's Table Dubai — `/tasting-menu-dubai` | Medium | built | Live; unique hero, 6 FAQs, internal links |
 | Coffee & Tea Service Dubai — `/coffee-tea-service-dubai` | Low | missing | Corporate reception add-on |
