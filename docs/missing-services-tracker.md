@@ -53,7 +53,7 @@
 | Easter Catering Dubai — `/easter-catering-dubai` | Low | built | Live; unique hero, 6 FAQs, internal links |
 | Halloween Catering Dubai — `/halloween-catering-dubai` | Low | built | Live; unique hero, 6 FAQs, internal links |
 | UAE National Day Catering — `/uae-national-day-catering-dubai` | Medium | built | Live; unique hero, 6 FAQs, internal links |
-| Chinese New Year Catering — `/chinese-new-year-catering-dubai` | Low | missing | Jan/Feb |
+| Chinese New Year Catering — `/chinese-new-year-catering-dubai` | Low | built | Live; reused Asian-catering hero, 6 FAQs, internal links |
 | Holi Catering Dubai — `/holi-catering-dubai` | Low | missing | Mar |
 
 ## Service formats & stations
