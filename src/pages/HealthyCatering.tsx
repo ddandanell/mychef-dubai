@@ -167,6 +167,12 @@ const relatedServices = [
     image: '/images/breakfast-catering-dubai-hero.webp',
     link: '/breakfast-catering-dubai',
   },
+  {
+    title: 'Sugar-Free Catering',
+    description: 'Diabetic-friendly and reduced-sugar menus for health-conscious events.',
+    image: '/images/healthy-catering-dubai-hero.webp',
+    link: '/sugar-free-catering-dubai',
+  },
 ]
 
 const faqSchema = {

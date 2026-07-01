@@ -155,6 +155,12 @@ const config: DietaryPageConfig = {
       link: '/healthy-catering-dubai',
     },
     {
+      title: 'Sugar-Free Catering',
+      description: 'Reduced-sugar menus that align naturally with low-carb goals.',
+      image: '/images/healthy-catering-dubai-hero.webp',
+      link: '/sugar-free-catering-dubai',
+    },
+    {
       title: 'BBQ Catering',
       description: 'Protein-forward grilling stations perfect for low-carb gatherings.',
       image: '/service-events.webp',

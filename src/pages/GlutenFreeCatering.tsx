@@ -155,6 +155,12 @@ const config: DietaryPageConfig = {
       link: '/healthy-catering-dubai',
     },
     {
+      title: 'Sugar-Free Catering',
+      description: 'Reduced-sugar and diabetic-friendly menus that can be combined with gluten-free options.',
+      image: '/images/healthy-catering-dubai-hero.webp',
+      link: '/sugar-free-catering-dubai',
+    },
+    {
       title: 'Vegan Catering',
       description: 'Fully plant-based menus that also happen to be naturally gluten-free friendly.',
       image: '/menu-appetizer.webp',

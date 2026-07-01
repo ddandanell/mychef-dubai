@@ -83,6 +83,7 @@ const NutFreeCatering = lazy(() => import('./pages/NutFreeCatering'))
 const KetoCatering = lazy(() => import('./pages/KetoCatering'))
 const JainCatering = lazy(() => import('./pages/JainCatering'))
 const PescatarianCatering = lazy(() => import('./pages/PescatarianCatering'))
+const SugarFreeCatering = lazy(() => import('./pages/SugarFreeCatering'))
 const HalalPrivateDining = lazy(() => import('./pages/HalalPrivateDining'))
 const Cuisines = lazy(() => import('./pages/Cuisines'))
 const OfficeCatering = lazy(() => import('./pages/OfficeCatering'))
@@ -233,6 +234,7 @@ export default function App() {
           <Route path="/keto-catering-dubai" element={<KetoCatering />} />
           <Route path="/jain-catering-dubai" element={<JainCatering />} />
           <Route path="/pescatarian-catering-dubai" element={<PescatarianCatering />} />
+          <Route path="/sugar-free-catering-dubai" element={<SugarFreeCatering />} />
           <Route path="/halal-private-dining-dubai" element={<HalalPrivateDining />} />
           <Route path="/cuisines-dubai" element={<Cuisines />} />
           <Route path="/office-catering-dubai" element={<OfficeCatering />} />
