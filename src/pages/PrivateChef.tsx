@@ -152,10 +152,10 @@ const relatedServices = [
     link: '/villas-private-residences',
   },
   {
-    title: 'Catering',
-    description: 'Full-service catering for larger events, parties, and celebrations.',
-    image: '/service-catering.webp',
-    link: '/catering-dubai',
+    title: 'Tasting Menu Dubai',
+    description: 'Multi-course chef’s table dining for intimate groups who want a curated culinary journey.',
+    image: '/images/tasting-menu-dubai-hero.webp',
+    link: '/tasting-menu-dubai',
   },
 ]
 

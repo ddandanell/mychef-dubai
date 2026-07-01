@@ -154,10 +154,10 @@ const relatedServices = [
     link: '/halal-private-dining-dubai',
   },
   {
-    title: 'Yachts',
-    description: 'Private dining on the water with the Dubai skyline as your backdrop.',
-    image: '/service-yacht.webp',
-    link: '/yachts',
+    title: 'Tasting Menu Dubai',
+    description: 'Multi-course chef’s table experiences designed for intimate dinners and special occasions.',
+    image: '/images/tasting-menu-dubai-hero.webp',
+    link: '/tasting-menu-dubai',
   },
 ]
 
