@@ -3,7 +3,7 @@ import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import { BookOpen, ArrowRight, Phone, DollarSign, ClipboardCheck, Home, Heart, Briefcase, Users, UtensilsCrossed, Ship, Moon, Sparkles, ChevronRight, } from 'lucide-react'
+import { BookOpen, ArrowRight, Phone, DollarSign, ClipboardCheck, Home, Heart, Briefcase, Users, UtensilsCrossed, Ship, Moon, Sparkles, ChevronRight, FileText, Anchor, ClipboardList, ChefHat, TrendingUp, } from 'lucide-react'
 import SEO from '../components/SEO'
 import PageHero from '../components/PageHero'
 
@@ -19,6 +19,18 @@ const guides = [
     title: 'Dubai Catering Prices Guide',
     description: 'Realistic per-person budgets for private chefs, canapés, buffets, plated dinners, BBQs and yacht catering in Dubai.',
     icon: DollarSign,
+  },
+  {
+    slug: '/dubai-event-catering-price-guide-2026',
+    title: 'Event Catering Price Guide 2026',
+    description: 'Per-person and total budgets for weddings, corporate events, yacht parties and galas in Dubai.',
+    icon: FileText,
+  },
+  {
+    slug: '/wedding-catering-menu-planning-dubai',
+    title: 'Wedding Menu Planning Guide',
+    description: 'Build a wedding catering menu from guest profile and tasting to final service style and dietary coverage.',
+    icon: ClipboardList,
   },
   {
     slug: '/how-to-choose-caterer-dubai',
@@ -63,6 +75,18 @@ const guides = [
     icon: Ship,
   },
   {
+    slug: '/yacht-catering-checklist-dubai',
+    title: 'Yacht Catering Checklist',
+    description: 'A printable week-by-week checklist for catering on Dubai yachts and boats.',
+    icon: Anchor,
+  },
+  {
+    slug: '/guide/private-dining-dubai',
+    title: 'Private Dining Guide',
+    description: 'The complete guide to hiring a private chef in Dubai: formats, tastings, pricing and best occasions.',
+    icon: ChefHat,
+  },
+  {
     slug: '/ramadan-catering-guide-dubai',
     title: 'Ramadan Catering Guide',
     description: 'Planning Iftar, Suhoor and Eid gatherings with halal menus, cultural timing and large-group service.',
@@ -73,6 +97,12 @@ const guides = [
     title: 'Luxury Dinner Planning Guide',
     description: 'Design an intimate fine-dining experience at home with tasting menus, tablescape ideas and service details.',
     icon: Sparkles,
+  },
+  {
+    slug: '/dubai-food-trends-report-2026',
+    title: 'Dubai Food Trends Report 2026',
+    description: 'The catering and private-dining trends shaping Dubai events this year.',
+    icon: TrendingUp,
   },
 ]
 
