@@ -157,10 +157,10 @@ const relatedServices = [
     link: '/asian-catering-dubai',
   },
   {
-    title: 'Canapé Catering',
-    description: 'Passed canapés and bite-sized elegance for receptions and cocktail moments.',
-    image: '/menu-canapes.webp',
-    link: '/canape-catering-dubai',
+    title: 'Pescatarian Catering',
+    description: 'Seafood-focused menus with responsibly sourced fish and plant-based accompaniments.',
+    image: '/images/pescatarian-catering-dubai-hero.webp',
+    link: '/pescatarian-catering-dubai',
   },
   {
     title: 'Luxury Dining',

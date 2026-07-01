@@ -162,10 +162,10 @@ const relatedServices = [
     link: '/keto-catering-dubai',
   },
   {
-    title: 'Dairy-Free Catering',
-    description: 'Lactose-free menus with creamy plant-based alternatives for every course.',
-    image: '/images/dairy-free-catering-dubai-hero.webp',
-    link: '/dairy-free-catering-dubai',
+    title: 'Pescatarian Catering',
+    description: 'Seafood-focused menus with responsibly sourced fish and plant-based accompaniments.',
+    image: '/images/pescatarian-catering-dubai-hero.webp',
+    link: '/pescatarian-catering-dubai',
   },
 ]
 

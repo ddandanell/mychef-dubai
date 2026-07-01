@@ -132,6 +132,12 @@ const dietaryOptions = [
     description: 'Respectful Jain menus prepared without onion, garlic, root vegetables, mushrooms or eggs.',
     icon: Sprout,
   },
+  {
+    slug: '/pescatarian-catering-dubai',
+    title: 'Pescatarian Catering',
+    description: 'Seafood-forward menus with responsibly sourced fish, shellfish and plant-based sides.',
+    icon: Fish,
+  },
 ]
 
 const relatedServices = [
