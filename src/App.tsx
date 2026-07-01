@@ -107,6 +107,7 @@ const PrivateDiningGuide = lazy(() => import('./pages/guides/PrivateDiningGuide'
 const EventCateringPriceGuide2026 = lazy(() => import('./pages/EventCateringPriceGuide2026'))
 const YachtCateringChecklist = lazy(() => import('./pages/guides/YachtCateringChecklist'))
 const WeddingMenuPlanningGuide = lazy(() => import('./pages/guides/WeddingMenuPlanningGuide'))
+const DubaiFoodTrendsReport2026 = lazy(() => import('./pages/guides/DubaiFoodTrendsReport2026'))
 const BarServices = lazy(() => import('./pages/BarServices'))
 const ProductLaunchCatering = lazy(() => import('./pages/ProductLaunchCatering'))
 const BrandActivationCatering = lazy(() => import('./pages/BrandActivationCatering'))
@@ -230,6 +231,7 @@ export default function App() {
           <Route path="/dubai-event-catering-price-guide-2026" element={<EventCateringPriceGuide2026 />} />
           <Route path="/yacht-catering-checklist-dubai" element={<YachtCateringChecklist />} />
           <Route path="/wedding-catering-menu-planning-dubai" element={<WeddingMenuPlanningGuide />} />
+          <Route path="/dubai-food-trends-report-2026" element={<DubaiFoodTrendsReport2026 />} />
           <Route path="/bar-services-dubai" element={<BarServices />} />
           <Route path="/product-launch-catering-dubai" element={<ProductLaunchCatering />} />
           <Route path="/brand-activation-catering-dubai" element={<BrandActivationCatering />} />

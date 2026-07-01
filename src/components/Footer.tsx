@@ -36,6 +36,7 @@ const guideLinks = [
   { label: 'Yacht Catering Guide', href: '/yacht-catering-guide-dubai' },
   { label: 'Ramadan Catering Guide', href: '/ramadan-catering-guide-dubai' },
   { label: 'Luxury Dinner Guide', href: '/luxury-dinner-planning-guide-dubai' },
+  { label: 'Food Trends Report 2026', href: '/dubai-food-trends-report-2026' },
 ]
 
 const locationLinks = [
