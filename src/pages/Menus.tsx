@@ -104,6 +104,65 @@ const pricingTiers = [
   },
 ]
 
+const starterPackages = [
+  {
+    name: 'Date Night',
+    guests: '2',
+    price: '1,200',
+    perPerson: '600',
+    included: 'Bespoke 3-course menu for two, private chef, table service, and full cleanup.',
+    recurring: false,
+  },
+  {
+    name: 'Family Feast',
+    guests: '6–8',
+    price: '2,400',
+    perPerson: '300–400',
+    included: 'Generous sharing-style menu, premium ingredients, chef and service support for a relaxed family dinner.',
+    recurring: false,
+  },
+  {
+    name: 'Birthday Celebration',
+    guests: '8–12',
+    price: '3,600',
+    perPerson: '300–450',
+    included: 'Celebration menu with canapés or starter, main course, dessert, and service staff.',
+    recurring: false,
+  },
+  {
+    name: 'Weekly Prep Lite',
+    guests: '2–3 (recurring)',
+    price: '1,898',
+    perPerson: '~949/session',
+    included: '2 weekly prep sessions, bespoke menu, portioned meals, container labelling, and cleanup.',
+    recurring: true,
+  },
+  {
+    name: 'Weekly Prep Standard',
+    guests: '4–6 (recurring)',
+    price: '2,698',
+    perPerson: '~899/session',
+    included: '2 weekly prep sessions for larger households, rotating menus, dietary flexibility, and cleanup.',
+    recurring: true,
+  },
+  {
+    name: 'Corporate Dinner',
+    guests: '10–15',
+    price: '4,500',
+    perPerson: '300–450',
+    included: 'Professional multi-course or buffet menu, service staff, and elegant presentation for board or team dinners.',
+    recurring: false,
+  },
+  {
+    name: 'The Full Experience',
+    guests: '6–10',
+    price: '5,500',
+    perPerson: '550–900',
+    included: 'Multi-course tasting menu, wine pairing consultation, full service team, and premium plating.',
+    recurring: false,
+  },
+]
+
 const pricingFaqs = [
   {
     q: 'How much does a private chef cost in Dubai?',
@@ -122,6 +181,7 @@ const pricingFaqs = [
 export default function Menus() {
   const [activeFilter, setActiveFilter] = useState('All')
   const [openFaq, setOpenFaq] = useState<number | null>(null)
+  const starterPackagesRef = useRef<HTMLDivElement>(null)
   const pricingRef = useRef<HTMLDivElement>(null)
   const galleryRef = useRef<HTMLDivElement>(null)
   const sampleRef = useRef<HTMLDivElement>(null)
@@ -136,6 +196,16 @@ export default function Menus() {
 
   useEffect(() => {
     const ctx = gsap.context(() => {
+
+      // Starter package cards scroll reveal
+      if (starterPackagesRef.current) {
+        const cards = starterPackagesRef.current.querySelectorAll('.starter-package-card')
+        gsap.fromTo(cards,
+          { opacity: 0, y: 40 },
+          { opacity: 1, y: 0, stagger: 0.08, duration: 0.7, ease: 'power3.out',
+            scrollTrigger: { trigger: starterPackagesRef.current, start: 'top 80%' } }
+        )
+      }
 
       // Pricing cards scroll reveal
       if (pricingRef.current) {
@@ -254,26 +324,86 @@ export default function Menus() {
         overlay="dark"
       />
 
-      {/* Section 2: Transparent Pricing */}
-      <section ref={pricingRef} className="bg-cream section-padding">
+      {/* Section 2: Starter Packages */}
+      <section ref={starterPackagesRef} className="bg-cream section-padding">
         <div className="container-custom">
           {/* Section Header */}
           <div className="text-center mb-12">
             <span className="font-inter text-caption font-medium uppercase tracking-wider text-gold mb-4 block">
               PRICING & PACKAGES
             </span>
-            <h2 className="font-playfair text-h2 text-black mb-4">Transparent Pricing</h2>
+            <h2 className="font-playfair text-h2 text-black mb-4">Starter Packages</h2>
             <p className="font-inter text-body text-gray-500 max-w-[640px] mx-auto">
-              Clear starting prices for our most popular private chef and catering formats. Every quote is tailored to your event.
+              Transparent starting prices for our most popular private chef and catering experiences. Every quote is tailored to your event.
             </p>
           </div>
 
-          {/* Pricing Cards */}
+          {/* Package Cards */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mb-10">
+            {starterPackages.map((pkg) => (
+              <div
+                key={pkg.name}
+                className="starter-package-card bg-white p-6 border border-gray-200 flex flex-col"
+              >
+                <h3 className="font-playfair text-h4 text-black mb-2">{pkg.name}</h3>
+                <p className="font-inter text-body-sm text-gray-500 mb-4">{pkg.guests} guests</p>
+                <div className="mb-4">
+                  <span className="font-inter text-caption text-gray-500 uppercase tracking-wider">from</span>
+                  <p className="font-playfair text-3xl text-gold">
+                    AED {pkg.price}
+                    {pkg.recurring && <span className="font-inter text-sm text-gray-500 ml-1">/ week</span>}
+                  </p>
+                  <p className="font-inter text-body-sm text-gold mt-1">{pkg.perPerson} per person</p>
+                </div>
+                <p className="font-inter text-body-sm text-gray-500 leading-relaxed flex-1 mb-6">
+                  {pkg.included}
+                </p>
+                {pkg.recurring ? (
+                  <Link
+                    to="/weekly-meal-prep-dubai?utm_source=mychef.ae&utm_medium=starter_package_card&utm_campaign=menus"
+                    className="btn-secondary text-center w-full"
+                  >
+                    View Weekly Prep
+                  </Link>
+                ) : (
+                  <a
+                    href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(`Hi myCHEF Dubai, I'd like to request a proposal for the ${pkg.name} package (via mychef.ae/menus)`)}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn-primary text-center w-full"
+                  >
+                    Request This Package
+                  </a>
+                )}
+              </div>
+            ))}
+          </div>
+
+          {/* Pricing Note */}
+          <p className="font-inter text-body-sm text-gray-500 text-center max-w-[700px] mx-auto">
+            Prices are indicative starting points. Final quotes depend on guest count, menu selection, ingredients, and service level.
+          </p>
+        </div>
+      </section>
+
+      {/* Section 3: Service Format Pricing */}
+      <section ref={pricingRef} className="bg-white section-padding">
+        <div className="container-custom">
+          <div className="text-center mb-12">
+            <span className="font-inter text-caption font-medium uppercase tracking-wider text-gold mb-4 block">
+              PER-PERSON STARTING RATES
+            </span>
+            <h2 className="font-playfair text-h2 text-black mb-4">Service Format Pricing</h2>
+            <p className="font-inter text-body text-gray-500 max-w-[640px] mx-auto">
+              Per-person starting rates for bespoke menu formats. These sit alongside our fixed starter packages above.
+            </p>
+          </div>
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-10">
             {pricingTiers.map((tier) => (
               <div
                 key={tier.name}
-                className="pricing-card bg-white p-8 border border-gray-200 flex flex-col"
+                className="pricing-card bg-cream p-8 border border-gray-200 flex flex-col"
               >
                 <h3 className="font-playfair text-h4 text-black mb-2">{tier.name}</h3>
                 <div className="mb-5">
@@ -301,7 +431,6 @@ export default function Menus() {
             ))}
           </div>
 
-          {/* Pricing Note */}
           <p className="font-inter text-body-sm text-gray-500 text-center max-w-[700px] mx-auto">
             Final quotes depend on guest count, menu complexity, service level, and location.
           </p>
