@@ -192,6 +192,12 @@ const relatedServices = [
     image: '/images/corporate-catering-dubai-hero.webp',
     link: '/government-event-catering-dubai',
   },
+  {
+    title: 'University & Student Catering',
+    description: 'Campus event catering for universities, colleges and student societies across Dubai.',
+    image: '/images/school-catering-dubai-hero.webp',
+    link: '/university-catering-dubai',
+  },
 ]
 
 const faqSchema = {

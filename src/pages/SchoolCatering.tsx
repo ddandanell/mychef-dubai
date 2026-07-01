@@ -157,6 +157,12 @@ const relatedServices = [
     link: '/nursery-catering-dubai',
   },
   {
+    title: 'University & Student Catering',
+    description: 'Fresh, inclusive catering for campus events, societies and graduation celebrations in Dubai.',
+    image: '/images/school-catering-dubai-hero.webp',
+    link: '/university-catering-dubai',
+  },
+  {
     title: 'Corporate Catering',
     description: 'Professional catering for staff, faculty, and institutional events.',
     image: '/service-corporate.webp',

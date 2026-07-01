@@ -181,6 +181,12 @@ const relatedServices = [
     link: '/graduation-catering-dubai',
   },
   {
+    title: 'University & Student Catering',
+    description: 'Fresh, budget-friendly catering for university events, society meetups and campus celebrations.',
+    image: '/images/school-catering-dubai-hero.webp',
+    link: '/university-catering-dubai',
+  },
+  {
     title: 'Farewell & Retirement Catering',
     description: 'Office send-offs, retirement parties and goodbye gatherings with full catering service.',
     image: '/service-events.webp',
