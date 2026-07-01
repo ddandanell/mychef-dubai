@@ -175,6 +175,12 @@ const relatedServices = [
     link: '/chinese-new-year-catering-dubai',
   },
   {
+    title: 'Holi Catering',
+    description: 'Colourful Indian festival menus and thandai bars for vibrant private Holi parties.',
+    image: '/images/indian-catering-dubai-hero.webp',
+    link: '/holi-catering-dubai',
+  },
+  {
     title: 'Graduation Party Catering',
     description: 'Milestone graduation celebrations with personalised menus and full service.',
     image: '/service-events.webp',

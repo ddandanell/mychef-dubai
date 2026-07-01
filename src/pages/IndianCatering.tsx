@@ -168,6 +168,12 @@ const relatedServices = [
     image: '/menu-seafood.webp',
     link: '/asian-catering-dubai',
   },
+  {
+    title: 'Holi Catering Dubai',
+    description: 'Colourful Indian festival menus, chaat stations, thandai and sweets for Holi parties.',
+    image: '/images/indian-catering-dubai-hero.webp',
+    link: '/holi-catering-dubai',
+  },
 ]
 
 const faqSchema = {
