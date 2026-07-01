@@ -38,7 +38,7 @@
 | Beach Catering Dubai — `/beach-catering-dubai` | Medium | built | Live; unique hero, 6 FAQs, internal links |
 | Desert Dining & Camp Catering Dubai — `/desert-dining-dubai` | Medium | built | Live; unique hero, 6 FAQs, internal links |
 | Afternoon Tea / High Tea Catering — `/afternoon-tea-catering-dubai` | Medium | built | Live; unique hero, 6 FAQs, internal links |
-| Housewarming Catering Dubai — `/housewarming-catering-dubai` | Low | missing | New-home celebration |
+| Housewarming Catering Dubai — `/housewarming-catering-dubai` | Low | built | Live; reused hero, 6 FAQs, internal links |
 | Graduation Party Catering Dubai — `/graduation-catering-dubai` | Low | missing | Seasonal school/uni |
 | Retirement / Farewell Catering Dubai — `/farewell-catering-dubai` | Low | missing | Corporate/social overlap |
 | Reunion Catering Dubai — `/reunion-catering-dubai` | Low | missing | Family/friends |
@@ -114,3 +114,7 @@ Mirdif, Deira, Bur Dubai, Al Quoz, Dubai Silicon Oasis, Nad Al Sheba, Dubai Spor
 ---
 
 *Last updated: 2026-06-30*
+
+## Recently completed
+
+1. ✅ `/housewarming-catering-dubai` — built, deployed, and verified live
