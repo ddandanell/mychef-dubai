@@ -121,6 +121,12 @@ const relatedEventCatering = [
     description: 'Elegant high tea with tiered stands for showers, birthdays and corporate events.',
     link: '/afternoon-tea-catering-dubai',
   },
+  {
+    image: '/images/valentines-day-catering-dubai-hero.webp',
+    title: "Valentine's Day Catering",
+    description: 'Candlelit private dining and romantic catering for proposals, anniversaries and February 14.',
+    link: '/valentines-day-catering-dubai',
+  },
 ]
 
 const processSteps = [

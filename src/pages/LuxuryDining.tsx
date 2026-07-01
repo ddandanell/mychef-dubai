@@ -45,6 +45,12 @@ const experiences = [
 
 const relatedExperiences = [
   {
+    title: "Valentine's Day Catering",
+    description: 'Candlelit private dining, proposal setups and romantic menus for February 14 and beyond.',
+    image: '/images/valentines-day-catering-dubai-hero.webp',
+    link: '/valentines-day-catering-dubai',
+  },
+  {
     title: 'Private Cooking Classes',
     description: 'Learn professional techniques from our chefs in a hands-on, private setting.',
     image: '/service-private-chef.webp',

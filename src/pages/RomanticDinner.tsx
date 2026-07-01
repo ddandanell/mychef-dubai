@@ -67,6 +67,20 @@ export default function RomanticDinner() {
         </div>
       </section>
 
+      <section className="py-24 bg-charcoal">
+        <div className="max-w-4xl mx-auto px-4 text-center gsap-reveal">
+          <h2 className="font-playfair text-3xl text-white mb-6">Planning Valentine's Day?</h2>
+          <p className="text-gray-400 mb-8">
+            Make February 14 unforgettable with our{' '}
+            <Link to="/valentines-day-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
+              Valentine's Day private dining in Dubai
+            </Link>
+            {' '}— candlelit setup, bespoke menu and discreet service for a night to remember.
+          </p>
+          <Link to="/valentines-day-catering-dubai" className="btn-primary">Explore Valentine's Dining</Link>
+        </div>
+      </section>
+
       <section className="py-24 bg-black">
         <div className="max-w-4xl mx-auto px-4 text-center gsap-reveal">
           <h2 className="font-playfair text-3xl text-white mb-6">Create an Unforgettable Evening</h2>

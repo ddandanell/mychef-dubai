@@ -20,6 +20,7 @@ const Corporate = lazy(() => import('./pages/Corporate'))
 const Villas = lazy(() => import('./pages/Villas'))
 const Yachts = lazy(() => import('./pages/Yachts'))
 const RomanticDinner = lazy(() => import('./pages/RomanticDinner'))
+const ValentinesDayCatering = lazy(() => import('./pages/ValentinesDayCatering'))
 const BirthdayCatering = lazy(() => import('./pages/BirthdayCatering'))
 const WeddingCatering = lazy(() => import('./pages/WeddingCatering'))
 const RamadanIftar = lazy(() => import('./pages/RamadanIftar'))
@@ -159,6 +160,7 @@ export default function App() {
           <Route path="/villas-private-residences" element={<Villas />} />
           <Route path="/yachts" element={<Yachts />} />
           <Route path="/romantic-dinner-dubai" element={<RomanticDinner />} />
+          <Route path="/valentines-day-catering-dubai" element={<ValentinesDayCatering />} />
           <Route path="/birthday-catering-dubai" element={<BirthdayCatering />} />
           <Route path="/wedding-catering-dubai" element={<WeddingCatering />} />
           <Route path="/iftar-catering-dubai" element={<RamadanIftar />} />
