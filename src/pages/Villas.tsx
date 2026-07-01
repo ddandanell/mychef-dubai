@@ -109,6 +109,7 @@ const relatedServices = [
   { label: 'Pool Party Catering', href: '/pool-party-catering-dubai' },
   { label: 'Beach Catering', href: '/beach-catering-dubai' },
   { label: 'Desert Dining', href: '/desert-dining-dubai' },
+  { label: 'Housewarming Catering', href: '/housewarming-catering-dubai' },
 ]
 
 const breadcrumbSchema = {

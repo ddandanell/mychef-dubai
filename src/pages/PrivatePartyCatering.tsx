@@ -162,6 +162,12 @@ const relatedServices = [
     image: '/service-villa.webp',
     link: '/villas-private-residences',
   },
+  {
+    title: 'Housewarming Catering',
+    description: 'Warm, welcoming menus and full service for new-home celebrations.',
+    image: '/service-villa.webp',
+    link: '/housewarming-catering-dubai',
+  },
 ]
 
 const faqSchema = {

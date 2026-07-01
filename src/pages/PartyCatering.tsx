@@ -168,6 +168,12 @@ const relatedServices = [
     image: '/images/pool-party-catering-dubai-hero.webp',
     link: '/pool-party-catering-dubai',
   },
+  {
+    title: 'Housewarming Catering',
+    description: 'Welcoming new-home celebrations with relaxed menus and full-service hospitality.',
+    image: '/service-villa.webp',
+    link: '/housewarming-catering-dubai',
+  },
 ]
 
 const faqSchema = {
