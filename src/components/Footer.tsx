@@ -179,6 +179,11 @@ export default function Footer() {
                   Leave a Review
                 </Link>
               </li>
+              <li>
+                <Link to="/partner-with-us" className="font-inter text-body-sm text-gray-400 hover:text-gold transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-black rounded-sm">
+                  Partner With Us
+                </Link>
+              </li>
             </ul>
             <ul className="space-y-4">
               <li>
