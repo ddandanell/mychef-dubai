@@ -5,6 +5,7 @@ import TrustBar from '@/components/TrustBar'
 const serviceLinks = [
   { label: 'Private Chef Dubai', href: '/private-chef-dubai' },
   { label: 'Catering Dubai', href: '/catering-dubai' },
+  { label: 'Weekly Meal Prep', href: '/weekly-meal-prep-dubai' },
   { label: 'Luxury Dining', href: '/luxury-dining-experiences' },
   { label: 'Events & Celebrations', href: '/events' },
   { label: 'Corporate Dining', href: '/corporate' },
@@ -152,11 +153,28 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Col 5: Contact */}
+          {/* Col 5: Trust & Contact */}
           <div>
             <h4 className="font-inter text-caption font-medium uppercase tracking-wider text-white mb-5 md:mb-6">
-              Contact
+              Trust & Contact
             </h4>
+            <ul className="space-y-3 mb-6">
+              <li>
+                <Link to="/how-we-vet-our-chefs" className="font-inter text-body-sm text-gray-400 hover:text-gold transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-black rounded-sm">
+                  How We Vet Our Chefs
+                </Link>
+              </li>
+              <li>
+                <Link to="/booking-protection-insurance" className="font-inter text-body-sm text-gray-400 hover:text-gold transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-black rounded-sm">
+                  Booking Protection & Insurance
+                </Link>
+              </li>
+              <li>
+                <Link to="/become-a-mychef" className="font-inter text-body-sm text-gray-400 hover:text-gold transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-black rounded-sm">
+                  Become a myCHEF Chef
+                </Link>
+              </li>
+            </ul>
             <ul className="space-y-4">
               <li>
                 <a
