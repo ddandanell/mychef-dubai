@@ -24,7 +24,7 @@
 | Nut-Free Catering Dubai — `/nut-free-catering-dubai` | High | built | Live; unique hero, 6 FAQs, internal links |
 | Keto & Low-Carb Catering Dubai — `/keto-catering-dubai` | High | built | Live; unique hero, 6 FAQs, internal links |
 | Jain Catering Dubai — `/jain-catering-dubai` | Medium | built | Live; unique hero, 6 FAQs, internal links |
-| Pescatarian Catering Dubai — `/pescatarian-catering-dubai` | Medium | missing | Seafood-forward menus |
+| Pescatarian Catering Dubai — `/pescatarian-catering-dubai` | Medium | built | Live; unique hero, 6 FAQs, internal links |
 | Halal Private Dining (standalone) — `/halal-private-dining-dubai` | Medium | missing | Deep-dive beyond `/halal-catering-dubai` |
 | Sugar-Free / Diabetic-Friendly Catering — `/sugar-free-catering-dubai` | Low | missing | Wellness/corporate niche |
 | FODMAP-Friendly Catering — `/fodmap-catering-dubai` | Low | missing | Very niche |
@@ -93,6 +93,7 @@ Mirdif, Deira, Bur Dubai, Al Quoz, Dubai Silicon Oasis, Nad Al Sheba, Dubai Spor
 3. ✅ `/nut-free-catering-dubai`
 4. ✅ `/keto-catering-dubai`
 5. ✅ `/jain-catering-dubai`
+6. ✅ `/pescatarian-catering-dubai`
 
 **Batch 2 (social occasions)** — built and deployed:
 1. ✅ `/kids-birthday-catering-dubai`
