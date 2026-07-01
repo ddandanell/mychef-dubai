@@ -168,6 +168,12 @@ const relatedServices = [
     image: '/service-corporate.webp',
     link: '/corporate',
   },
+  {
+    title: 'Government Event Catering',
+    description: 'Protocol-aware catering for official conferences, summits and government functions.',
+    image: '/images/corporate-catering-dubai-hero.webp',
+    link: '/government-event-catering-dubai',
+  },
 ]
 
 const faqSchema = {

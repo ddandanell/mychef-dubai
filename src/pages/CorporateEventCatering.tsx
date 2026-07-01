@@ -186,6 +186,12 @@ const relatedServices = [
     image: '/images/arabic-catering-dubai-hero.webp',
     link: '/shawarma-station-dubai',
   },
+  {
+    title: 'Government Event Catering',
+    description: 'Protocol-aware catering for official functions, ceremonies and public-sector events.',
+    image: '/images/corporate-catering-dubai-hero.webp',
+    link: '/government-event-catering-dubai',
+  },
 ]
 
 const faqSchema = {

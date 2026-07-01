@@ -173,6 +173,12 @@ const config: ServicePageConfig = {
       image: '/menu-canapes.webp',
       link: '/canape-catering-dubai',
     },
+    {
+      title: 'Government Event Catering',
+      description: 'Formal, scalable catering for government pavilions, official stands and public-sector events.',
+      image: '/images/corporate-catering-dubai-hero.webp',
+      link: '/government-event-catering-dubai',
+    },
   ],
   ctaH2: 'Plan Exhibition Catering That Works as Hard as Your Stand',
   ctaP:
