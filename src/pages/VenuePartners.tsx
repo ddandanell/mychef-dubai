@@ -23,11 +23,11 @@ const partnerCategories = [
     id: 'yachts',
     title: 'Yachts',
     icon: Anchor,
-    description: 'Set sail with a private chef on board. We partner with the finest yacht charter companies in Dubai to deliver world-class dining at sea.',
+    description: 'Set sail with a private chef on board. We work with leading yacht charter companies in Dubai to deliver refined dining at sea.',
     partners: [
       {
         name: 'Xclusive Yachts',
-        description: 'Dubai’s largest private yacht charter fleet, offering luxury vessels for intimate dinners and celebrations on the water.',
+        description: 'A well-known private yacht charter fleet, offering luxury vessels for intimate dinners and celebrations on the water.',
         location: 'Dubai Marina',
       },
       {
@@ -78,7 +78,7 @@ const partnerCategories = [
       },
       {
         name: 'Armani Hotel Dubai',
-        description: 'Sophisticated events in the heart of Downtown Dubai, with sleek interiors and world-class hospitality.',
+        description: 'Sophisticated events in the heart of Downtown Dubai, with sleek interiors and attentive hospitality.',
         location: 'Burj Khalifa, Downtown Dubai',
       },
       {
@@ -198,7 +198,7 @@ export default function VenuePartners() {
     <>
       <SEO
         title="Venue Partners | myCHEF Dubai | Preferred Catering Partners"
-        description="Discover our trusted venue partners across Dubai. From yacht charters to luxury villas and event spaces, we cater at the finest locations."
+        description="Discover Dubai venues where myCHEF provides private chef and catering services. From yacht charters to luxury villas and event spaces, we cater at distinguished locations."
         canonicalPath="/venue-partners"
         ogImage="/images/locations-dubai-hero.webp"
         schema={schema as Record<string, unknown>}
@@ -207,7 +207,7 @@ export default function VenuePartners() {
       <PageHero
         eyebrow="PARTNER NETWORK"
         title={<>Venue Partners</>}
-        subtitle="Dubai’s most exclusive venues, paired with world-class private chef and catering service."
+        subtitle="Exceptional Dubai venues where our private chefs and catering teams regularly deliver bespoke service."
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Venue Partners' }]}
         minHeight="medium"
         overlay="dark"
@@ -223,13 +223,18 @@ export default function VenuePartners() {
               WHY PARTNER WITH MYCHEF
             </span>
             <h2 className="reveal font-playfair text-h2 text-white mb-6">
-              Preferred Catering Partners for Dubai&apos;s Finest Venues
+              Preferred Catering Partners for Distinguished Dubai Venues
             </h2>
             <p className="reveal font-inter text-body text-gray-400">
               Our venue partner program brings together the best locations in Dubai with bespoke culinary
               experiences. Whether you are a yacht charter, a luxury villa manager, a hotel events team, or a
               corporate venue, we provide seamless private chef and catering services that elevate every guest
               experience.
+            </p>
+            <p className="reveal font-inter text-body-sm text-gray-500 mt-4">
+              We are an independent private chef and catering service. Venue names shown are examples of
+              distinguished Dubai locations where we regularly provide service; they do not imply an official
+              partnership unless explicitly agreed in writing.
             </p>
           </div>
 
@@ -314,7 +319,7 @@ export default function VenuePartners() {
               <span className="text-gold">myCHEF Venue Partner?</span>
             </h2>
             <p className="font-inter text-lg text-gray-400 max-w-[600px] mx-auto mb-10">
-              Join our network of Dubai&apos;s finest venues and offer your guests an unforgettable private chef experience.
+              Join our network of leading Dubai venues and offer your guests an unforgettable private chef experience.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link

@@ -167,27 +167,19 @@ export default function HeroSection() {
         >
           <div className="grid grid-cols-3 gap-4 md:gap-8 max-w-2xl">
             <div className="text-center md:text-left">
-              <div
-                className="stat-number font-playfair text-2xl md:text-4xl text-gold font-semibold"
-                data-target="500"
-                data-suffix="+"
-              >
-                <span className="stat-value">0</span>+
+              <div className="stat-number font-playfair text-2xl md:text-4xl text-gold font-semibold">
+                <span className="text-gold">Private</span>
               </div>
               <div className="font-inter text-caption md:text-body-sm text-gray-400 uppercase tracking-wider mt-1">
-                Private Events Hosted
+                Events & Dinners
               </div>
             </div>
             <div className="text-center md:text-left">
-              <div
-                className="stat-number font-playfair text-2xl md:text-4xl text-gold font-semibold"
-                data-target="50"
-                data-suffix="+"
-              >
-                <span className="stat-value">0</span>+
+              <div className="stat-number font-playfair text-2xl md:text-4xl text-gold font-semibold">
+                <span className="text-gold">Chef-Led</span>
               </div>
               <div className="font-inter text-caption md:text-body-sm text-gray-400 uppercase tracking-wider mt-1">
-                Expert Hospitality Team
+                Hospitality Team
               </div>
             </div>
             <div className="text-center md:text-left">

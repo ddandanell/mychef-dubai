@@ -14,23 +14,23 @@ const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to reque
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 const values = [
-  { icon: Star, title: 'Uncompromising Quality', desc: 'Only the finest ingredients. Only the most skilled preparation. We never cut corners — ever.' },
+  { icon: Star, title: 'Uncompromising Quality', desc: 'Only premium ingredients. Only skilled preparation. We never cut corners — ever.' },
   { icon: Shield, title: 'Complete Discretion', desc: 'Your privacy is paramount. Our team operates with the utmost professionalism and confidentiality.' },
   { icon: Heart, title: 'Genuine Hospitality', desc: 'We do not just cook — we create experiences. Warm, attentive service that makes every guest feel special.' },
   { icon: Clock, title: 'Reliability & Precision', desc: 'On time, every time. Meticulous planning ensures your event runs flawlessly from start to finish.' },
 ]
 
 const team = [
-  { image: '/team-head-chef.webp', name: 'Marco Adriano', role: 'Executive Chef', bio: 'Trained under Michelin-starred chefs in Milan. Two decades of experience across Europe and the Middle East. Specializes in modern European cuisine with Mediterranean influences.', exp: '20+ Years Experience' },
-  { image: '/team-sous-chef.webp', name: 'Elena Vasquez', role: 'Sous Chef', bio: 'Formerly of a 2-Michelin-star restaurant in Barcelona. Expert in seafood, molecular gastronomy, and artistic plating. Brings creativity and precision to every dish.', exp: '15+ Years Experience' },
-  { image: '/team-pastry-chef.webp', name: 'Thomas Chen', role: 'Pastry Chef', bio: 'Graduate of Le Cordon Bleu Paris. Specializes in modern patisserie, chocolate work, and dessert presentation that doubles as edible art.', exp: '12+ Years Experience' },
+  { image: '/team-head-chef.webp', name: 'Marco Adriano', role: 'Executive Chef', bio: 'Classically trained in modern European fine dining across Europe and the Middle East. Two decades of experience shaping menus that balance precision with Mediterranean warmth.', exp: 'Fine Dining Leadership' },
+  { image: '/team-sous-chef.webp', name: 'Elena Vasquez', role: 'Sous Chef', bio: 'Experienced in seafood-led cuisine, modern plating, and kitchen coordination for high-end private events. Brings creativity and calm execution to every service.', exp: 'Private Event Specialist' },
+  { image: '/team-pastry-chef.webp', name: 'Thomas Chen', role: 'Pastry Chef', bio: 'Specializes in modern patisserie, chocolate work, and dessert presentation designed to close a meal with impact and elegance.', exp: 'Dessert & Pastry' },
 ]
 
 const stats = [
-  { number: 500, suffix: '+', label: 'Private Events Hosted' },
-  { number: 50, suffix: '+', label: 'Hospitality Professionals' },
-  { number: 30, suffix: '+', label: 'Dubai Locations Served' },
-  { number: 100, suffix: '%', label: 'Client Satisfaction' },
+  { value: 'Tailored', label: 'Menus' },
+  { value: 'Chef-Led', label: 'Team' },
+  { value: 'Dubai-wide', label: 'Coverage' },
+  { value: 'Clear', label: 'Pricing' },
 ]
 
 const locations = [
@@ -149,7 +149,7 @@ export default function About() {
             <div className="story-left">
               <p className="font-inter text-caption font-medium uppercase tracking-wider text-gold mb-3">OUR STORY</p>
               <h2 className="font-playfair text-fluid-h2 text-black mb-8" style={{ lineHeight: '1.15' }}>
-                From Fine Kitchens<br />to Dubai's Finest Homes
+                From Fine Kitchens<br />to Dubai's Most Distinguished Homes
               </h2>
               <div className="space-y-4 font-inter text-body text-gray-500" style={{ lineHeight: '1.7' }}>
                 <p>myCHEF Dubai was founded with a simple belief: that exceptional dining should not be limited to restaurants. Drawing on years of experience in Europe's most demanding kitchens, our founder assembled a team of culinary talent dedicated to bringing restaurant-quality dining into private homes, villas, and yachts across Dubai.</p>
@@ -220,12 +220,8 @@ export default function About() {
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 max-w-[1000px] mx-auto text-center">
             {stats.map((s) => (
               <div key={s.label}>
-                <div
-                  className="stat-number font-playfair text-4xl md:text-[48px] text-gold"
-                  data-target={s.number}
-                  data-suffix={s.suffix}
-                >
-                  <span className="stat-value">0</span>{s.suffix}
+                <div className="stat-number font-playfair text-4xl md:text-[48px] text-gold">
+                  {s.value}
                 </div>
                 <p className="font-inter text-body-sm text-gray-400 uppercase tracking-wider mt-2">{s.label}</p>
               </div>

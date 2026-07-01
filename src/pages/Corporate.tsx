@@ -98,7 +98,7 @@ const trustFeatures = [
     icon: Shield,
     title: 'Discreet & Professional',
     description:
-      'Confidentiality guaranteed. Our staff operates with the discretion your business demands.',
+      'Confidentiality assured. Our staff operates with the discretion your business demands.',
   },
   {
     icon: Award,

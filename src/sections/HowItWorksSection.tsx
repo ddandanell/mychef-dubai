@@ -23,7 +23,7 @@ const steps = [
     number: '03',
     icon: ShoppingBag,
     title: 'We Shop & Prepare',
-    description: 'We source the finest ingredients and arrive at your venue fully prepared to deliver excellence.',
+    description: 'We source the best available ingredients and arrive at your venue fully prepared to deliver excellence.',
   },
   {
     number: '04',

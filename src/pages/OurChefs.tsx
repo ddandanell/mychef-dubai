@@ -25,7 +25,7 @@ const chefs = [
     role: 'Executive Chef',
     experience: '18+ Years',
     slug: '/chefs/ahmed-executive-chef',
-    bio: 'Ahmed brings nearly two decades of luxury dining experience to myCHEF Dubai. Trained in classical French technique and seasoned in Michelin-starred kitchens across Europe, he leads private chef experiences for villas, yachts, and corporate events with calm precision and flawless timing.',
+    bio: 'Ahmed brings nearly two decades of luxury dining experience to myCHEF Dubai. Trained in classical French technique and seasoned in acclaimed fine-dining kitchens across Europe, he leads private chef experiences for villas, yachts, and corporate events with calm precision and flawless timing.',
     specialties: ['Modern European', 'Fine Dining', 'Menu Design', 'Villa Dining'],
   },
   {
@@ -323,7 +323,7 @@ export default function OurChefs() {
               <span className="text-gold">Experience Makes</span>
             </h2>
             <p className="font-inter text-lg text-gray-400 max-w-[600px] mx-auto mb-10">
-              Every dish prepared by hands that have trained in the world&apos;s finest kitchens.
+              Every dish prepared by hands that have trained in respected professional kitchens around the world.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=our-chefs" className="btn-primary">
