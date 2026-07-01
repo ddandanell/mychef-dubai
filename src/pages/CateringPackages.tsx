@@ -117,7 +117,7 @@ export default function CateringPackages() {
         title="Catering Packages Dubai | Private Chef & Event Menus | myCHEF"
         description="Indicative catering packages in Dubai for date nights, family dinners, birthdays, corporate events and weekly meal prep. See what's included and request a quote."
         canonicalPath="/catering-packages-dubai"
-        ogImage="/images/events-catering-dubai-hero.webp"
+        ogImage="/images/catering-packages-dubai-hero.webp"
         schema={schema}
       />
 
@@ -126,7 +126,7 @@ export default function CateringPackages() {
         eyebrow="Transparent Packages"
         title="Catering Packages in Dubai"
         subtitle="Starter packages for the most popular private chef and catering experiences. Every menu is tailored to your occasion, dietary needs and budget."
-        image="/images/events-catering-dubai-hero.webp"
+        image="/images/catering-packages-dubai-hero.webp"
         imageAlt="Catering packages and event menus in Dubai"
         cta={{ label: 'Request My Custom Quote', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=catering-packages' }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}

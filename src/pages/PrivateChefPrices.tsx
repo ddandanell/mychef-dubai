@@ -191,7 +191,7 @@ export default function PrivateChefPrices() {
         title="Private Chef Prices Dubai | Cost Per Person & Group | myCHEF"
         description="Indicative private chef prices in Dubai by group size, menu style and service level. See what's included, cost factors and FAQs. Request a custom quote."
         canonicalPath="/private-chef-prices-dubai"
-        ogImage="/images/private-chef-dubai-hero.webp"
+        ogImage="/images/private-chef-prices-dubai-hero.webp"
         schema={schema}
       />
 
@@ -200,7 +200,7 @@ export default function PrivateChefPrices() {
         eyebrow="Transparent Pricing"
         title="Private Chef Prices in Dubai"
         subtitle="See indicative private chef costs by group size, what affects the price, and what is included — so you can budget with confidence."
-        image="/images/private-chef-dubai-hero.webp"
+        image="/images/private-chef-prices-dubai-hero.webp"
         imageAlt="Private chef prices and menus in Dubai"
         cta={{ label: 'Request My Custom Quote', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=private-chef-prices' }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}

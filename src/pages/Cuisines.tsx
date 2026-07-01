@@ -193,7 +193,7 @@ export default function Cuisines() {
         title="Catering by Cuisine Dubai | Private Chefs & Menus | myCHEF"
         description="Explore private chef and catering menus by cuisine in Dubai: Italian, Arabic, Mediterranean, Indian, Asian, sushi, BBQ, vegan, vegetarian, halal and healthy."
         canonicalPath="/cuisines-dubai"
-        ogImage="/catering-dubai-hero.webp"
+        ogImage="/images/cuisines-hub-dubai-hero.webp"
         schema={schema}
       />
 
@@ -202,7 +202,7 @@ export default function Cuisines() {
         eyebrow="World Flavours, Dubai Style"
         title="Catering by Cuisine in Dubai"
         subtitle="From Italian trattoria classics and Arabic mezze to Asian tasting menus and plant-forward dishes — choose a cuisine and we’ll match you with a private chef or catering team that cooks it authentically."
-        image="/images/catering-dubai-hero.webp"
+        image="/images/cuisines-hub-dubai-hero.webp"
         imageAlt="International catering cuisines prepared by private chefs in Dubai"
         cta={{ label: 'Request a Custom Menu', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=cuisines' }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
