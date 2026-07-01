@@ -148,10 +148,10 @@ const relatedServices = [
     link: '/private-chef-dubai',
   },
   {
-    title: 'Catering',
-    description: 'Elegant catering for larger gatherings and celebrations across Dubai.',
-    image: '/service-catering.webp',
-    link: '/catering-dubai',
+    title: 'Halal Private Dining',
+    description: 'Bespoke fully halal private dinners at home or in your venue, served by a dedicated chef team.',
+    image: '/images/halal-private-dining-dubai-hero.webp',
+    link: '/halal-private-dining-dubai',
   },
   {
     title: 'Yachts',

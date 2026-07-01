@@ -163,10 +163,10 @@ const relatedServices = [
     link: '/iftar-catering-dubai',
   },
   {
-    title: 'Wedding Catering',
-    description: 'Elegant fully halal wedding menus, from canapés to grand buffets and plated dinners.',
-    image: '/service-events.webp',
-    link: '/wedding-catering-dubai',
+    title: 'Halal Private Dining',
+    description: 'Intimate halal chef-led dinners at home or in your venue for celebrations and corporate hospitality.',
+    image: '/images/halal-private-dining-dubai-hero.webp',
+    link: '/halal-private-dining-dubai',
   },
 ]
 

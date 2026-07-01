@@ -468,7 +468,11 @@ export default function PrivateDiningGuide() {
             <div className="pd-dietary-item opacity-0 translate-y-10">
               <h3 className="font-playfair text-h3 text-white mb-4">Dietary Accommodations</h3>
               <p className="font-inter text-body text-gray-400 leading-relaxed mb-6">
-                Dubai&apos;s population is diverse, and dietary requirements are common. A professional private chef should comfortably handle a wide range of needs. Be specific about allergies and cross-contamination concerns during the consultation.
+                Dubai&apos;s population is diverse, and dietary requirements are common. A professional private chef should comfortably handle a wide range of needs. Be specific about allergies and cross-contamination concerns during the consultation. For guests who require fully halal menus prepared and served in a private setting, explore our dedicated{' '}
+                <Link to="/halal-private-dining-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
+                  halal private dining Dubai
+                </Link>{' '}
+                service.
               </p>
               <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=private-dining-guide" className="btn-primary">Start Planning My Menu</Link>
             </div>
