@@ -73,7 +73,7 @@
 
 | Page / URL | Priority | Status | Notes |
 |---|---|---|---|
-| Exhibition & Trade Show Catering — `/exhibition-catering-dubai` | Medium | missing | Expo/DWTC adjacency |
+| Exhibition & Trade Show Catering — `/exhibition-catering-dubai` | Medium | built | Live; reused hero, 6 FAQs, internal links |
 | Government Event Catering Dubai — `/government-event-catering-dubai` | Low | missing | Tender-style language |
 | University / Student Catering Dubai — `/university-catering-dubai` | Low | missing | Campus events |
 | Hospital / Healthcare Catering Dubai — `/healthcare-catering-dubai` | Low | missing | Strict compliance angle |
