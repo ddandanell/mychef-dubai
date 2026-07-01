@@ -52,7 +52,7 @@
 | Father's Day Catering Dubai — `/fathers-day-catering-dubai` | Low | missing | Jun spike |
 | Easter Catering Dubai — `/easter-catering-dubai` | Low | missing | Mar/Apr |
 | Halloween Catering Dubai — `/halloween-catering-dubai` | Low | missing | Oct |
-| UAE National Day Catering — `/uae-national-day-catering-dubai` | Medium | missing | Dec 2 |
+| UAE National Day Catering — `/uae-national-day-catering-dubai` | Medium | built | Live; unique hero, 6 FAQs, internal links |
 | Chinese New Year Catering — `/chinese-new-year-catering-dubai` | Low | missing | Jan/Feb |
 | Holi Catering Dubai — `/holi-catering-dubai` | Low | missing | Mar |
 
