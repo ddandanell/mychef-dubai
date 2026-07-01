@@ -173,6 +173,12 @@ const config: ServicePageConfig = {
       image: '/menu-canapes.webp',
       link: '/gluten-free-catering-dubai',
     },
+    {
+      title: 'FODMAP-Friendly Catering Dubai',
+      description: 'Low-FODMAP menus for guests managing digestive sensitivities alongside sugar intake.',
+      image: '/images/healthy-catering-dubai-hero.webp',
+      link: '/fodmap-catering-dubai',
+    },
   ],
   ctaH2: 'Plan Sugar-Free Catering That Everyone Enjoys',
   ctaP:

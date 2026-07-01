@@ -173,6 +173,12 @@ const relatedServices = [
     image: '/images/healthy-catering-dubai-hero.webp',
     link: '/sugar-free-catering-dubai',
   },
+  {
+    title: 'FODMAP-Friendly Catering',
+    description: 'Low-FODMAP menus designed for IBS-sensitive guests and gentle digestion.',
+    image: '/images/healthy-catering-dubai-hero.webp',
+    link: '/fodmap-catering-dubai',
+  },
 ]
 
 const faqSchema = {

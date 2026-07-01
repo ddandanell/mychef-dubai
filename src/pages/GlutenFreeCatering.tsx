@@ -161,6 +161,12 @@ const config: DietaryPageConfig = {
       link: '/sugar-free-catering-dubai',
     },
     {
+      title: 'FODMAP-Friendly Catering',
+      description: 'Low-FODMAP menus that also work well alongside gluten-free requirements.',
+      image: '/images/healthy-catering-dubai-hero.webp',
+      link: '/fodmap-catering-dubai',
+    },
+    {
       title: 'Vegan Catering',
       description: 'Fully plant-based menus that also happen to be naturally gluten-free friendly.',
       image: '/menu-appetizer.webp',
