@@ -168,6 +168,12 @@ const relatedServices = [
     image: '/service-events.webp',
     link: '/exhibition-catering-dubai',
   },
+  {
+    title: 'Farewell & Retirement Catering',
+    description: 'Send-offs and retirement celebrations for colleagues, teams and long-serving staff.',
+    image: '/service-events.webp',
+    link: '/farewell-catering-dubai',
+  },
 ]
 
 const faqSchema = {

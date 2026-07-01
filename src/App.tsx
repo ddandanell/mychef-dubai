@@ -59,6 +59,7 @@ const DesertDining = lazy(() => import('./pages/DesertDining'))
 const AfternoonTeaCatering = lazy(() => import('./pages/AfternoonTeaCatering'))
 const HousewarmingCatering = lazy(() => import('./pages/HousewarmingCatering'))
 const GraduationCatering = lazy(() => import('./pages/GraduationCatering'))
+const FarewellCatering = lazy(() => import('./pages/FarewellCatering'))
 const BBQCatering = lazy(() => import('./pages/BBQCatering'))
 const BuffetCatering = lazy(() => import('./pages/BuffetCatering'))
 const CanapeCatering = lazy(() => import('./pages/CanapeCatering'))
@@ -212,6 +213,7 @@ export default function App() {
           <Route path="/afternoon-tea-catering-dubai" element={<AfternoonTeaCatering />} />
           <Route path="/housewarming-catering-dubai" element={<HousewarmingCatering />} />
           <Route path="/graduation-catering-dubai" element={<GraduationCatering />} />
+          <Route path="/farewell-catering-dubai" element={<FarewellCatering />} />
           <Route path="/bbq-catering-dubai" element={<BBQCatering />} />
           <Route path="/buffet-catering-dubai" element={<BuffetCatering />} />
           <Route path="/canape-catering-dubai" element={<CanapeCatering />} />

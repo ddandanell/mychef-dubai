@@ -174,6 +174,12 @@ const relatedServices = [
     image: '/service-events.webp',
     link: '/graduation-catering-dubai',
   },
+  {
+    title: 'Farewell & Retirement Catering',
+    description: 'Private farewell and retirement parties at home or in a villa across Dubai.',
+    image: '/service-events.webp',
+    link: '/farewell-catering-dubai',
+  },
 ]
 
 const faqSchema = {
