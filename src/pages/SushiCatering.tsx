@@ -168,6 +168,12 @@ const relatedServices = [
     image: '/service-luxury-dining.webp',
     link: '/luxury-dining-experiences',
   },
+  {
+    title: 'Oyster & Seafood Bar',
+    description: 'Freshly shucked oysters, chilled shellfish and caviar for premium events.',
+    image: '/images/sushi-catering-dubai-hero.webp',
+    link: '/oyster-bar-dubai',
+  },
 ]
 
 const faqSchema = {

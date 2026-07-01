@@ -78,6 +78,7 @@ const relatedServices = [
   { label: 'Luxury Dining Experiences', href: '/luxury-dining-experiences' },
   { label: 'Villa Private Chef', href: '/villas-private-residences' },
   { label: 'Event Catering', href: '/events' },
+  { label: 'Oyster & Seafood Bar', href: '/oyster-bar-dubai' },
 ]
 
 const breadcrumbSchema = {

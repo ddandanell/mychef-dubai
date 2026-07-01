@@ -155,6 +155,12 @@ const relatedServices = [
     image: '/canape-catering-dubai-hero.webp',
     link: '/canape-catering-dubai',
   },
+  {
+    title: 'Oyster & Seafood Bar',
+    description: 'Premium oyster and shellfish bar for an impressive gala reception or dinner finale.',
+    image: '/images/sushi-catering-dubai-hero.webp',
+    link: '/oyster-bar-dubai',
+  },
 ]
 
 const faqSchema = {
