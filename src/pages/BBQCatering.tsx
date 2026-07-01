@@ -168,6 +168,12 @@ const relatedServices = [
     image: '/service-villa.webp',
     link: '/party-catering-dubai',
   },
+  {
+    title: "Father's Day Catering",
+    description: "Celebrate Dad with a BBQ or brunch menu he'll love.",
+    image: '/service-events.webp',
+    link: '/fathers-day-catering-dubai',
+  },
 ]
 
 const faqSchema = {

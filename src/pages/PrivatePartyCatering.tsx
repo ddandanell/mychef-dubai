@@ -186,6 +186,12 @@ const relatedServices = [
     image: '/service-events.webp',
     link: '/reunion-catering-dubai',
   },
+  {
+    title: "Father's Day Catering",
+    description: "Private Father's Day brunches, BBQs and dinners at home or in a villa.",
+    image: '/service-events.webp',
+    link: '/fathers-day-catering-dubai',
+  },
 ]
 
 const faqSchema = {

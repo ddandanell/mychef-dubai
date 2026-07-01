@@ -192,6 +192,12 @@ const relatedServices = [
     image: '/service-events.webp',
     link: '/reunion-catering-dubai',
   },
+  {
+    title: "Father's Day Catering",
+    description: "Celebrate Dad with brunch, BBQ and family feasts across Dubai.",
+    image: '/service-events.webp',
+    link: '/fathers-day-catering-dubai',
+  },
 ]
 
 const faqSchema = {
