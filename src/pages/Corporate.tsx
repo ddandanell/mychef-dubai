@@ -10,6 +10,7 @@ import {
 } from '@/components/ui/accordion'
 import SEO from '@/components/SEO'
 import PageHero from '@/components/PageHero'
+import StarterPackagesSection from '@/sections/StarterPackagesSection'
 import {
   breadcrumbSchema,
   faqPageSchema,
@@ -579,6 +580,13 @@ export default function Corporate() {
           </div>
         </div>
       </section>
+
+      <StarterPackagesSection
+        campaign="corporate"
+        eyebrow="CORPORATE PACKAGES"
+        title="Starter Packages"
+        subtitle="Transparent starting prices for corporate dinners, boardroom lunches, and team events in Dubai."
+      />
 
       {/* ═══════════════ Related Guides ═══════════════ */}
       <section className="bg-cream py-16">

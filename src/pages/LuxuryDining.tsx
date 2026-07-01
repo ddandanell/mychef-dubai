@@ -6,6 +6,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { MessageCircle, Palette, Sparkles, Utensils, ChevronRight, Phone, ArrowRight, } from 'lucide-react'
 import SEO from '../components/SEO'
 import PageHero from '../components/PageHero'
+import StarterPackagesSection from '@/sections/StarterPackagesSection'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -511,6 +512,13 @@ export default function LuxuryDining() {
           </div>
         </div>
       </section>
+
+      <StarterPackagesSection
+        campaign="luxury-dining-experiences"
+        eyebrow="LUXURY DINING PACKAGES"
+        title="Starter Packages"
+        subtitle="Transparent starting prices for bespoke luxury dining experiences in Dubai. Every menu is designed around your occasion."
+      />
 
       {/* ═══════════════ Related Guides ═══════════════ */}
       <section className="bg-cream py-16">

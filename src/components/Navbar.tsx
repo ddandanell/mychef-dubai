@@ -110,10 +110,9 @@ export default function Navbar() {
       </nav>
 
       {/* Mobile Menu Overlay */}
+      {mobileOpen && (
       <div
-        className={`fixed inset-0 z-[100] bg-black transition-opacity duration-300 lg:hidden ${
-          mobileOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
-        }`}
+        className="fixed inset-0 z-[100] bg-black lg:hidden"
       >
         <div className="container-custom h-full flex flex-col">
           {/* Header */}
@@ -165,6 +164,7 @@ export default function Navbar() {
           </div>
         </div>
       </div>
+      )}
     </>
   )
 }

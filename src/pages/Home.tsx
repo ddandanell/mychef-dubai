@@ -8,6 +8,7 @@ import LocationsSection from '@/sections/LocationsSection'
 import TestimonialsSection from '@/sections/TestimonialsSection'
 import TeamSection from '@/sections/TeamSection'
 import CTASection from '@/sections/CTASection'
+import StarterPackagesSection from '@/sections/StarterPackagesSection'
 import LeadMagnetModal from '@/sections/LeadMagnetModal'
 import { organizationSchema, localBusinessSchema, websiteSchema } from '@/utils/schema'
 
@@ -29,6 +30,12 @@ export default function Home() {
       <HeroSection />
       <TrustBar />
       <ServicesSection />
+      <StarterPackagesSection
+        campaign="home"
+        eyebrow="TRANSPARENT PRICING"
+        title="Popular Packages"
+        subtitle="Ready-to-book starting points for Dubai's most requested private chef and catering experiences."
+      />
       <TrustSection />
       <HowItWorksSection />
       <LocationsSection />

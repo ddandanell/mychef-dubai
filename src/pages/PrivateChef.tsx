@@ -6,6 +6,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { Utensils, Home, Calendar, Baby, Leaf, Star, Check, ChevronRight, Phone, ArrowRight, } from 'lucide-react'
 import SEO from '../components/SEO'
 import PageHero from '../components/PageHero'
+import StarterPackagesSection from '@/sections/StarterPackagesSection'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -516,6 +517,13 @@ export default function PrivateChef() {
           </div>
         </div>
       </section>
+
+      <StarterPackagesSection
+        campaign="private-chef-dubai"
+        eyebrow="PRIVATE CHEF PACKAGES"
+        title="Starter Packages"
+        subtitle="Transparent starting prices for private chef experiences in Dubai. Every menu is tailored to your occasion."
+      />
 
       {/* ═══════════════ Related Guides ═══════════════ */}
       <section className="bg-cream py-16">

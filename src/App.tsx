@@ -2,6 +2,7 @@ import { Suspense, lazy } from 'react'
 import { Routes, Route } from 'react-router'
 import Layout from './components/Layout'
 import Analytics from './components/Analytics'
+import PageLoader from './components/PageLoader'
 
 const Home = lazy(() => import('./pages/Home'))
 const About = lazy(() => import('./pages/About'))
@@ -115,14 +116,7 @@ export default function App() {
   return (
     <Layout>
       <Analytics />
-      <Suspense fallback={
-        <div className="min-h-screen bg-black flex items-center justify-center">
-          <div className="text-center">
-            <div className="font-playfair text-gold text-2xl mb-4">myCHEF</div>
-            <div className="gold-line mx-auto animate-pulse" />
-          </div>
-        </div>
-      }>
+      <Suspense fallback={<PageLoader />}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
