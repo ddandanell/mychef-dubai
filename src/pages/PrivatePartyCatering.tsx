@@ -169,6 +169,12 @@ const relatedServices = [
     link: '/housewarming-catering-dubai',
   },
   {
+    title: 'Chinese New Year Catering',
+    description: 'Lunar New Year reunion menus, dim sum and live wok stations for private celebrations.',
+    image: '/images/asian-catering-dubai-hero.webp',
+    link: '/chinese-new-year-catering-dubai',
+  },
+  {
     title: 'Graduation Party Catering',
     description: 'Milestone graduation celebrations with personalised menus and full service.',
     image: '/service-events.webp',

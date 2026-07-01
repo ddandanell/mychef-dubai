@@ -168,6 +168,12 @@ const relatedServices = [
     image: '/menu-appetizer.webp',
     link: '/indian-catering-dubai',
   },
+  {
+    title: 'Chinese New Year Catering',
+    description: 'Lunar New Year menus, dim sum brunches, live wok stations and lucky reunion banquets.',
+    image: '/images/asian-catering-dubai-hero.webp',
+    link: '/chinese-new-year-catering-dubai',
+  },
 ]
 
 const faqSchema = {

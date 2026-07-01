@@ -83,6 +83,7 @@ const relatedServices = [
   { title: 'Yacht Catering', link: '/yachts' },
   { title: 'Corporate Catering', link: '/corporate' },
   { title: 'Party Catering', link: '/party-catering-dubai' },
+  { title: 'Chinese New Year Catering', link: '/chinese-new-year-catering-dubai' },
 ]
 
 const faqs = [

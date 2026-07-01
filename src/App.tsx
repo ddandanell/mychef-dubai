@@ -62,6 +62,7 @@ const GraduationCatering = lazy(() => import('./pages/GraduationCatering'))
 const FarewellCatering = lazy(() => import('./pages/FarewellCatering'))
 const ReunionCatering = lazy(() => import('./pages/ReunionCatering'))
 const FathersDayCatering = lazy(() => import('./pages/FathersDayCatering'))
+const ChineseNewYearCatering = lazy(() => import('./pages/ChineseNewYearCatering'))
 const BBQCatering = lazy(() => import('./pages/BBQCatering'))
 const BuffetCatering = lazy(() => import('./pages/BuffetCatering'))
 const CanapeCatering = lazy(() => import('./pages/CanapeCatering'))
@@ -218,6 +219,7 @@ export default function App() {
           <Route path="/farewell-catering-dubai" element={<FarewellCatering />} />
           <Route path="/reunion-catering-dubai" element={<ReunionCatering />} />
           <Route path="/fathers-day-catering-dubai" element={<FathersDayCatering />} />
+          <Route path="/chinese-new-year-catering-dubai" element={<ChineseNewYearCatering />} />
           <Route path="/bbq-catering-dubai" element={<BBQCatering />} />
           <Route path="/buffet-catering-dubai" element={<BuffetCatering />} />
           <Route path="/canape-catering-dubai" element={<CanapeCatering />} />
