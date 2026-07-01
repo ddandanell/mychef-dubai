@@ -11,6 +11,7 @@ const HowItWorks = lazy(() => import('./pages/HowItWorks'))
 const OurChefs = lazy(() => import('./pages/OurChefs'))
 const Menus = lazy(() => import('./pages/Menus'))
 const PrivateChef = lazy(() => import('./pages/PrivateChef'))
+const PrivateChefPrices = lazy(() => import('./pages/PrivateChefPrices'))
 const Catering = lazy(() => import('./pages/Catering'))
 const LuxuryDining = lazy(() => import('./pages/LuxuryDining'))
 const Events = lazy(() => import('./pages/Events'))
@@ -136,6 +137,7 @@ export default function App() {
           <Route path="/chefs/layla-middle-eastern-chef" element={<ChefLayla />} />
           <Route path="/menus" element={<Menus />} />
           <Route path="/private-chef-dubai" element={<PrivateChef />} />
+          <Route path="/private-chef-prices-dubai" element={<PrivateChefPrices />} />
           <Route path="/catering-dubai" element={<Catering />} />
           <Route path="/luxury-dining-experiences" element={<LuxuryDining />} />
           <Route path="/events" element={<Events />} />

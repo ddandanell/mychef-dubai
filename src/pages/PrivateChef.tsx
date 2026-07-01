@@ -532,7 +532,9 @@ export default function PrivateChef() {
           <p className="font-inter text-body text-gray-500 leading-relaxed">
             Planning an event in Dubai? Read our{' '}
             <Link to="/private-chef-vs-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Private Chef vs Catering</Link>{' '}
-            guide, or see{' '}
+            guide, see our{' '}
+            <Link to="/private-chef-prices-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef prices Dubai</Link>{' '}
+            breakdown, or read{' '}
             <Link to="/blog/how-much-does-private-chef-cost-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">how much does a private chef cost in Dubai</Link>.
           </p>
         </div>

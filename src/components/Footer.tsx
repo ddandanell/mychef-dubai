@@ -22,6 +22,7 @@ const guideLinks = [
   { label: 'Gallery', href: '/gallery' },
   { label: 'Venue Partners', href: '/venue-partners' },
   { label: 'Catering Prices Guide', href: '/dubai-catering-prices-guide' },
+  { label: 'Private Chef Prices', href: '/private-chef-prices-dubai' },
   { label: 'Cost Calculator', href: '/catering-cost-calculator-dubai' },
   { label: 'Blog', href: '/blog' },
   { label: 'Choose a Caterer', href: '/how-to-choose-caterer-dubai' },
