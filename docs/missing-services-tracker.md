@@ -66,7 +66,7 @@
 | Tasting Menu / Chef's Table Dubai — `/tasting-menu-dubai` | Medium | built | Live; unique hero, 6 FAQs, internal links |
 | Coffee & Tea Service Dubai — `/coffee-tea-service-dubai` | Low | built | Live; reused afternoon-tea hero, 6 FAQs, internal links |
 | Gelato / Dessert Cart Dubai — `/dessert-cart-dubai` | Low | built | Live; reused dessert-table hero, 6 FAQs, internal links |
-| Live Shawarma / Kebab Station — `/shawarma-station-dubai` | Low | missing | Arabic format station |
+| Live Shawarma / Kebab Station — `/shawarma-station-dubai` | Low | built | Live; reused Arabic-catering hero, 6 FAQs, internal links |
 | Oyster & Seafood Bar Dubai — `/oyster-bar-dubai` | Low | missing | Premium format |
 
 ## Corporate & institutional
