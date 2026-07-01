@@ -49,7 +49,7 @@
 |---|---|---|---|
 | Valentine's Day Private Dining — `/valentines-day-catering-dubai` | Medium | built | Live; unique hero, 6 FAQs, internal links |
 | Mother's Day Catering Dubai — `/mothers-day-catering-dubai` | Medium | built | Live; unique hero, 6 FAQs, internal links |
-| Father's Day Catering Dubai — `/fathers-day-catering-dubai` | Low | missing | Jun spike |
+| Father's Day Catering Dubai — `/fathers-day-catering-dubai` | Low | built | Live; reused hero, 6 FAQs, internal links |
 | Easter Catering Dubai — `/easter-catering-dubai` | Low | built | Live; unique hero, 6 FAQs, internal links |
 | Halloween Catering Dubai — `/halloween-catering-dubai` | Low | built | Live; unique hero, 6 FAQs, internal links |
 | UAE National Day Catering — `/uae-national-day-catering-dubai` | Medium | built | Live; unique hero, 6 FAQs, internal links |
@@ -123,3 +123,4 @@ Mirdif, Deira, Bur Dubai, Al Quoz, Dubai Silicon Oasis, Nad Al Sheba, Dubai Spor
 4. ✅ `/graduation-catering-dubai` — built, deployed, and verified live
 5. ✅ `/farewell-catering-dubai` — built, deployed, and verified live
 6. ✅ `/reunion-catering-dubai` — built, deployed, and verified live
+7. ✅ `/fathers-day-catering-dubai` — built, deployed, and verified live
