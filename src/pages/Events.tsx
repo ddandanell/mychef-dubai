@@ -145,6 +145,12 @@ const relatedEventCatering = [
     description: 'Spring brunches, roast lunches and garden parties for Easter celebrations with family and friends.',
     link: '/easter-catering-dubai',
   },
+  {
+    image: '/images/halloween-catering-dubai-hero.webp',
+    title: 'Halloween Catering',
+    description: 'Spooky, stylish menus and themed treats for home parties, kids events and venue celebrations.',
+    link: '/halloween-catering-dubai',
+  },
 ]
 
 const processSteps = [
