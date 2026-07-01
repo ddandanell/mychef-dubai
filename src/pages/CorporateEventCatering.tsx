@@ -163,10 +163,10 @@ const relatedServices = [
     link: '/canape-catering-dubai',
   },
   {
-    title: 'Corporate Catering',
-    description: 'Professional corporate dining, from boardroom lunches to large company functions.',
-    image: '/service-corporate.webp',
-    link: '/corporate',
+    title: 'Drop-Off Catering Dubai',
+    description: 'Cost-effective delivered catering for working lunches, meetings and smaller corporate gatherings.',
+    image: '/images/drop-off-catering-dubai-hero.webp',
+    link: '/drop-off-catering-dubai',
   },
 ]
 

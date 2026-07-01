@@ -163,10 +163,10 @@ const relatedServices = [
     link: '/conference-catering-dubai',
   },
   {
-    title: 'Corporate Catering',
-    description: 'Professional corporate dining, from boardroom lunches to large company functions.',
-    image: '/service-corporate.webp',
-    link: '/corporate',
+    title: 'Drop-Off Catering Dubai',
+    description: 'Delivered working lunches and meeting boxes served simply with no on-site staff required.',
+    image: '/images/drop-off-catering-dubai-hero.webp',
+    link: '/drop-off-catering-dubai',
   },
 ]
 

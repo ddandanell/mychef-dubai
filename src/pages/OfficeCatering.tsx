@@ -163,10 +163,10 @@ const relatedServices = [
     link: '/staff-meals-catering-dubai',
   },
   {
-    title: 'Breakfast Catering Dubai',
-    description: 'Morning menus delivered fresh for office meetings, early starts and corporate hospitality.',
-    image: '/images/breakfast-catering-dubai-hero.webp',
-    link: '/breakfast-catering-dubai',
+    title: 'Drop-Off Catering Dubai',
+    description: 'Individually packed meals and platters delivered ready to serve — no on-site staff needed.',
+    image: '/images/drop-off-catering-dubai-hero.webp',
+    link: '/drop-off-catering-dubai',
   },
 ]
 
