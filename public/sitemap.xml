@@ -192,6 +192,9 @@
   <url><loc>https://mychef.ae/gift-cards</loc><priority>0.6</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://mychef.ae/case-studies</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
 
+  <!-- Press / Media -->
+  <url><loc>https://mychef.ae/press</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+
   <!-- Legal -->
   <url><loc>https://mychef.ae/privacy-policy</loc><priority>0.3</priority><changefreq>yearly</changefreq></url>
   <url><loc>https://mychef.ae/terms</loc><priority>0.3</priority><changefreq>yearly</changefreq></url>

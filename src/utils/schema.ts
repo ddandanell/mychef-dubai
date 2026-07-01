@@ -10,12 +10,12 @@ export function organizationSchema() {
     url: SITE_URL,
     logo: LOGO_URL,
     description: 'Premium private chef and luxury catering services in Dubai.',
-    sameAs: [
-      'https://www.instagram.com/mychefdubai',
-    ],
+    // sameAs: add verified social profile URLs here once accounts are live
+    // (Instagram, Facebook, LinkedIn, TikTok, Pinterest, Google Business Profile)
     contactPoint: {
       '@type': 'ContactPoint',
       telephone: '+971-55-174-4849',
+      email: 'hallo@mychef.ae',
       contactType: 'customer service',
       areaServed: 'AE',
       availableLanguage: ['English'],

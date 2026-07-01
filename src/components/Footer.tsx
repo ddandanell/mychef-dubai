@@ -47,6 +47,7 @@ const companyLinks = [
   { label: 'Blog', href: '/blog' },
   { label: 'Case Studies', href: '/case-studies' },
   { label: 'Gallery', href: '/gallery' },
+  { label: 'Press & Media', href: '/press' },
   { label: 'Leave a Review', href: '/review' },
 ]
 

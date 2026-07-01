@@ -160,6 +160,7 @@ const BookingProtectionInsurance = lazy(() => import('./pages/BookingProtectionI
 const BecomeAMyChef = lazy(() => import('./pages/BecomeAMyChef'))
 const ReviewRequest = lazy(() => import('./pages/ReviewRequest'))
 const PartnerWithUs = lazy(() => import('./pages/PartnerWithUs'))
+const Press = lazy(() => import('./pages/Press'))
 
 export default function App() {
   return (
@@ -322,6 +323,7 @@ export default function App() {
           <Route path="/become-a-mychef" element={<BecomeAMyChef />} />
           <Route path="/review" element={<ReviewRequest />} />
           <Route path="/partner-with-us" element={<PartnerWithUs />} />
+          <Route path="/press" element={<Press />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Suspense>
