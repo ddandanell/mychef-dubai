@@ -276,6 +276,12 @@ export default function Footer() {
               >
                 Terms of Service
               </Link>
+              <Link
+                to="/site-map"
+                className="font-inter text-xs text-gray-500 hover:text-gold transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-black rounded-sm"
+              >
+                Site Map
+              </Link>
             </div>
           </div>
         </div>

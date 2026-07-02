@@ -195,6 +195,9 @@
   <!-- Press / Media -->
   <url><loc>https://mychef.ae/press</loc><lastmod>2026-07-02</lastmod><priority>0.7</priority><changefreq>monthly</changefreq></url>
 
+  <!-- Utility -->
+  <url><loc>https://mychef.ae/site-map</loc><lastmod>2026-07-02</lastmod><priority>0.5</priority><changefreq>monthly</changefreq></url>
+
   <!-- Legal -->
   <url><loc>https://mychef.ae/privacy-policy</loc><lastmod>2026-07-02</lastmod><priority>0.3</priority><changefreq>yearly</changefreq></url>
   <url><loc>https://mychef.ae/terms</loc><lastmod>2026-07-02</lastmod><priority>0.3</priority><changefreq>yearly</changefreq></url>

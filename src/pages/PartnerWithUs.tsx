@@ -1,4 +1,5 @@
 import { useRef } from 'react'
+import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
@@ -217,6 +218,13 @@ export default function PartnerWithUs() {
             </div>
             <p className="font-inter text-sm text-gray-400 mt-6">
               Or email us at <a href="mailto:hallo@mychef.ae" className="text-gold hover:text-gold-light underline underline-offset-4">hallo@mychef.ae</a>
+            </p>
+            <p className="font-inter text-sm text-gray-400 mt-4">
+              Need logos, bios, or media assets? Download everything from our{' '}
+              <Link to="/press" className="text-gold hover:text-gold-light underline underline-offset-4">
+                press kit
+              </Link>
+              .
             </p>
           </section>
         </div>

@@ -293,6 +293,10 @@ export default function About() {
             <Link to="/partner-with-us" className="text-gold hover:underline">
               Partner with us
             </Link>
+            . Press or media inquiries? Visit our{' '}
+            <Link to="/press" className="text-gold hover:underline">
+              press kit
+            </Link>
             .
           </p>
         </div>
