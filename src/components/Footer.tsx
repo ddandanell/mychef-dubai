@@ -257,6 +257,42 @@ export default function Footer() {
         {/* Trust bar */}
         <TrustBar variant="compact" className="mt-12" />
 
+        {/* Global Catering */}
+        <div className="border-t border-charcoal-light mt-8 pt-8">
+          <div className="flex flex-col items-center gap-3 text-center">
+            <p className="font-inter text-xs text-gray-500 uppercase tracking-wider">
+              Part of Global Catering
+            </p>
+            <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6">
+              <div className="text-center">
+                <p className="font-inter text-sm text-gray-400">Bali, Indonesia</p>
+                <a
+                  href="https://mychef.id"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-inter text-xs text-gray-500 hover:text-gold transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-black rounded-sm"
+                >
+                  mychef.id
+                </a>
+              </div>
+              <span className="hidden sm:inline text-gray-600" aria-hidden="true">
+                ·
+              </span>
+              <div className="text-center">
+                <p className="font-inter text-sm text-gray-400">Dubai, UAE</p>
+                <a
+                  href="https://www.mychef.ae"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-inter text-xs text-gray-500 hover:text-gold transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-black rounded-sm"
+                >
+                  mychef.ae
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
         {/* Divider */}
         <div className="border-t border-charcoal-light mt-8 pt-8">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
