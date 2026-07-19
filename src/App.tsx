@@ -168,6 +168,10 @@ const ReferralProgramme = lazy(() => import('./pages/ReferralProgramme'))
 const QualityGuarantee = lazy(() => import('./pages/QualityGuarantee'))
 const AllergySafeCatering = lazy(() => import('./pages/AllergySafeCatering'))
 const MyChefMembership = lazy(() => import('./pages/MyChefMembership'))
+const CorporateRetainer = lazy(() => import('./pages/CorporateRetainer'))
+const PostpartumMealPrep = lazy(() => import('./pages/PostpartumMealPrep'))
+const FitnessMealPrep = lazy(() => import('./pages/FitnessMealPrep'))
+const TouristVillaChef = lazy(() => import('./pages/TouristVillaChef'))
 const PartnerWithUs = lazy(() => import('./pages/PartnerWithUs'))
 const VillaRentalsPartner = lazy(() => import('./pages/partners/VillaRentalsPartner'))
 const YachtChartersPartner = lazy(() => import('./pages/partners/YachtChartersPartner'))
@@ -345,6 +349,10 @@ export default function App() {
           <Route path="/quality-guarantee-dubai" element={<QualityGuarantee />} />
           <Route path="/allergy-safe-catering-dubai" element={<AllergySafeCatering />} />
           <Route path="/mychef-membership" element={<MyChefMembership />} />
+          <Route path="/corporate-retainer-dubai" element={<CorporateRetainer />} />
+          <Route path="/postpartum-meal-prep-dubai" element={<PostpartumMealPrep />} />
+          <Route path="/fitness-meal-prep-dubai" element={<FitnessMealPrep />} />
+          <Route path="/tourist-villa-chef-dubai" element={<TouristVillaChef />} />
           <Route path="/partner-with-us" element={<PartnerWithUs />} />
           <Route path="/partners/villa-rentals-dubai" element={<VillaRentalsPartner />} />
           <Route path="/partners/yacht-charters-dubai" element={<YachtChartersPartner />} />

@@ -166,11 +166,24 @@ export default function SiteMap() {
             <h2 className="font-playfair text-xl text-black mb-4">Bluebook trust & service pages</h2>
             <ul className="space-y-2 font-inter text-body-sm">
               <li><Link to="/weekly-meal-prep-dubai" className="text-gray-600 hover:text-gold transition-colors">/weekly-meal-prep-dubai</Link></li>
+              <li><Link to="/wellness-meal-prep-dubai" className="text-gray-600 hover:text-gold transition-colors">/wellness-meal-prep-dubai</Link></li>
               <li><Link to="/how-we-vet-our-chefs" className="text-gray-600 hover:text-gold transition-colors">/how-we-vet-our-chefs</Link></li>
               <li><Link to="/booking-protection-insurance" className="text-gray-600 hover:text-gold transition-colors">/booking-protection-insurance</Link></li>
+              <li><Link to="/quality-guarantee-dubai" className="text-gray-600 hover:text-gold transition-colors">/quality-guarantee-dubai</Link></li>
+              <li><Link to="/allergy-safe-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/allergy-safe-catering-dubai</Link></li>
               <li><Link to="/become-a-mychef" className="text-gray-600 hover:text-gold transition-colors">/become-a-mychef</Link></li>
               <li><Link to="/review" className="text-gray-600 hover:text-gold transition-colors">/review</Link></li>
+              <li><Link to="/referral-programme" className="text-gray-600 hover:text-gold transition-colors">/referral-programme</Link></li>
+              <li><Link to="/mychef-membership" className="text-gray-600 hover:text-gold transition-colors">/mychef-membership</Link></li>
+              <li><Link to="/corporate-retainer-dubai" className="text-gray-600 hover:text-gold transition-colors">/corporate-retainer-dubai</Link></li>
+              <li><Link to="/postpartum-meal-prep-dubai" className="text-gray-600 hover:text-gold transition-colors">/postpartum-meal-prep-dubai</Link></li>
+              <li><Link to="/fitness-meal-prep-dubai" className="text-gray-600 hover:text-gold transition-colors">/fitness-meal-prep-dubai</Link></li>
+              <li><Link to="/tourist-villa-chef-dubai" className="text-gray-600 hover:text-gold transition-colors">/tourist-villa-chef-dubai</Link></li>
               <li><Link to="/partner-with-us" className="text-gray-600 hover:text-gold transition-colors">/partner-with-us</Link></li>
+              <li><Link to="/partners/villa-rentals-dubai" className="text-gray-600 hover:text-gold transition-colors">/partners/villa-rentals-dubai</Link></li>
+              <li><Link to="/partners/yacht-charters-dubai" className="text-gray-600 hover:text-gold transition-colors">/partners/yacht-charters-dubai</Link></li>
+              <li><Link to="/partners/event-planners-dubai" className="text-gray-600 hover:text-gold transition-colors">/partners/event-planners-dubai</Link></li>
+              <li><Link to="/partners/concierge-services-dubai" className="text-gray-600 hover:text-gold transition-colors">/partners/concierge-services-dubai</Link></li>
             </ul>
           </div>
           <div>
