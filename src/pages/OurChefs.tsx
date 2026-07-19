@@ -15,7 +15,7 @@ const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}
 
 const breadcrumbs = [
   { name: 'Home', path: '/' },
-  { name: 'Our Chefs', path: '/our-chefs' },
+  { name: 'The Chefs We Choose', path: '/our-chefs' },
 ]
 
 const chefs = [
@@ -25,7 +25,7 @@ const chefs = [
     role: 'Executive Chef',
     experience: '18+ Years',
     slug: '/chefs/ahmed-executive-chef',
-    bio: 'Ahmed brings nearly two decades of luxury dining experience to myCHEF Dubai. Trained in classical French technique and seasoned in acclaimed fine-dining kitchens across Europe, he leads private chef experiences for villas, yachts, and corporate events with calm precision and flawless timing.',
+    bio: 'Ahmed brings nearly two decades of luxury dining experience to the myCHEF network. Trained in classical French technique and seasoned in acclaimed fine-dining kitchens across Europe, he is matched to private chef experiences for villas, yachts, and corporate events, delivering calm precision and flawless timing.',
     specialties: ['Modern European', 'Fine Dining', 'Menu Design', 'Villa Dining'],
   },
   {
@@ -43,7 +43,7 @@ const chefs = [
     role: 'Pastry Chef',
     experience: '12+ Years',
     slug: '/chefs/sofia-pastry-chef',
-    bio: 'A Le Cordon Bleu Paris graduate, Sofia creates desserts that are as theatrical as they are delicious. Her chocolate work, sugar art, and plated desserts have become the signature finish at weddings, product launches, and intimate dinners across Dubai.',
+    bio: 'A Le Cordon Bleu Paris graduate, Sofia creates desserts that are as theatrical as they are delicious. Her chocolate work, sugar art, and plated desserts are the finishing touch at weddings, product launches, and intimate dinners across Dubai.',
     specialties: ['Pastry', 'Chocolate Work', 'Wedding Cakes', 'Plated Desserts'],
   },
   {
@@ -58,7 +58,7 @@ const chefs = [
 ]
 
 const standards = [
-  { icon: Shield, label: 'Background-checked team members' },
+  { icon: Shield, label: 'Background-checked, licensed independent chefs' },
   { icon: Award, label: 'Formal culinary training required' },
   { icon: Utensils, label: 'Regular skills assessments' },
   { icon: Heart, label: 'Hospitality-first mindset' },
@@ -144,8 +144,8 @@ export default function OurChefs() {
   return (
     <>
       <SEO
-        title="Our Chefs | myCHEF Dubai | Private Chef Team & Culinary Experts"
-        description="Meet the experienced culinary team behind myCHEF Dubai. Professional private chefs specializing in fine dining, international cuisine, and luxury hospitality."
+        title="The Chefs We Choose | myCHEF Dubai | Private Chef Network & Culinary Experts"
+        description="Meet the experienced private chefs in the myCHEF Dubai network. Professional independent chefs specializing in fine dining, international cuisine, and luxury hospitality."
         canonicalPath="/our-chefs"
         ogImage="/images/about-mychef-dubai-hero.webp"
         schema={breadcrumbSchema(breadcrumbs) as unknown as Record<string, unknown>}
@@ -153,12 +153,12 @@ export default function OurChefs() {
 
       {/* Section 1: Page Hero */}
       <PageHero
-        eyebrow="THE TEAM"
-        title={<>The Hands Behind<br className="hidden sm:block" /> Every Extraordinary Meal</>}
-        subtitle="Experienced professionals. Passionate craftspeople. Dedicated to your experience."
+        eyebrow="THE CHEFS WE CHOOSE"
+        title={<>The Chefs Behind<br className="hidden sm:block" /> Every Extraordinary Experience</>}
+        subtitle="Handpicked artisans. Vetted credentials. One standard of selection."
         image="/images/about-mychef-dubai-hero.webp"
-        imageAlt="myCHEF culinary team at work"
-        breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Our Chefs' }]}
+        imageAlt="A partner chef at work for a myCHEF Dubai private dining experience"
+        breadcrumb={[{ label: 'Home', href: '/' }, { label: 'The Chefs We Choose' }]}
         minHeight="medium"
         overlay="dark"
       />
@@ -173,14 +173,13 @@ export default function OurChefs() {
                 OUR APPROACH
               </span>
               <h2 className="font-playfair text-h2 text-black mb-6">
-                More Than Cooking —<br />
-                An Act of Hospitality
+                The Chefs We Choose
               </h2>
               <p className="font-inter text-body text-gray-500 leading-relaxed mb-4">
-                Every chef on our team has been selected not only for technical skill but for something harder to teach: the instinct for genuine hospitality. We believe that a truly exceptional dining experience is about how your guests feel — not just what they eat.
+                Behind every myCHEF evening is a chef we handpicked — vetted for credentials, licensing and food-safety before they ever cook for a client. We choose the talent. We hold the standard. The artistry is theirs.
               </p>
               <p className="font-inter text-body text-gray-500 leading-relaxed">
-                Our culinary approach blends classical technique with modern creativity. We draw from European fine dining traditions, Mediterranean warmth, Middle Eastern flavors, and Asian precision to create menus that are both familiar and surprising.
+                Every chef in our network is independently vetted and selected not only for technical skill but for something harder to teach: the instinct for genuine hospitality. We believe that a truly exceptional dining experience is about how your guests feel — not just what they eat.
               </p>
             </div>
 
@@ -195,7 +194,7 @@ export default function OurChefs() {
               <div className="stat-block border-l-2 border-gold pl-6">
                 <h4 className="font-playfair text-h4 text-black mb-2">International Experience</h4>
                 <p className="font-inter text-body-sm text-gray-500">
-                  Team members from Europe, Asia, and the Middle East
+                  Chefs from Europe, Asia, and the Middle East
                 </p>
               </div>
               <div className="stat-block border-l-2 border-gold pl-6">
@@ -215,9 +214,9 @@ export default function OurChefs() {
           {/* Section Header */}
           <div className="text-center mb-16">
             <span className="font-inter text-caption font-medium uppercase tracking-wider text-gold mb-4 block">
-              MEET THE TEAM
+              MEET THE CHEFS WE WORK WITH
             </span>
-            <h2 className="font-playfair text-h2 text-white">Our Culinary Team</h2>
+            <h2 className="font-playfair text-h2 text-white">Chefs In Our Network</h2>
           </div>
 
           {/* Chef Cards */}
@@ -250,7 +249,10 @@ export default function OurChefs() {
                       {chef.experience}
                     </span>
                   </div>
-                  <h3 className="font-playfair text-h2 text-white mb-4">{chef.name}</h3>
+                  <h3 className="font-playfair text-h2 text-white mb-2">{chef.name}</h3>
+                  <p className="font-inter text-caption font-medium uppercase tracking-wider text-gold mb-4">
+                    Independent partner chef
+                  </p>
                   <p className="font-inter text-body text-gray-400 leading-relaxed mb-6">
                     {chef.bio}
                   </p>
@@ -282,7 +284,7 @@ export default function OurChefs() {
       {/* Section 4: Kitchen Standards */}
       <section ref={standardsRef} className="bg-charcoal py-20">
         <div className="container-custom max-w-[1000px]">
-          <h2 className="font-playfair text-fluid-h2 text-white text-center mb-12">Our Standards</h2>
+          <h2 className="font-playfair text-fluid-h2 text-white text-center mb-12">How We Vet Every Chef</h2>
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
             {standards.map(({ icon: Icon, label }) => (
               <div key={label} className="standard-item flex flex-col items-center text-center">
@@ -297,15 +299,15 @@ export default function OurChefs() {
       {/* Section 5: Hiring Inquiry */}
       <section ref={hiringRef} className="bg-cream py-20">
         <div className="hiring-content container-custom max-w-[800px] text-center">
-          <h3 className="font-playfair text-h3 text-black mb-4">Join Our Team?</h3>
+          <h3 className="font-playfair text-h3 text-black mb-4">Cook with myCHEF</h3>
           <p className="font-inter text-body text-gray-500 mb-4">
-            We are always looking for exceptional culinary talent. If you are an experienced chef with a passion for private dining, we would love to hear from you.
+            If you are an experienced, licensed independent chef with a passion for private dining, we&apos;d love to welcome you to our partner network.
           </p>
           <a
-            href="mailto:careers@mychef.ae"
+            href="mailto:partners@mychef.ae"
             className="font-inter text-body text-gold hover:underline"
           >
-            Send your CV to careers@mychef.ae
+            Apply to join our culinary network at partners@mychef.ae
           </a>
         </div>
       </section>
@@ -324,7 +326,7 @@ export default function OurChefs() {
               <span className="text-gold">Experience Makes</span>
             </h2>
             <p className="font-inter text-lg text-gray-400 max-w-[600px] mx-auto mb-10">
-              Every dish prepared by hands that have trained in respected professional kitchens around the world.
+              Every dish prepared by handpicked independent chefs who have trained in respected professional kitchens around the world.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=our-chefs" className="btn-primary">
