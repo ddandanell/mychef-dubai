@@ -16,6 +16,7 @@ import {
   ArrowRight,
 } from 'lucide-react'
 import SEO from '../components/SEO'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -29,7 +30,7 @@ const bbqFormats = [
   {
     icon: Flame,
     title: 'Partner Chef-Led Grills',
-    description: 'A dedicated grill chef works live at your event, cooking each cut to order so every plate arrives hot, charred, and exactly how your guests like it.',
+    description: 'A dedicated partner grill chef works live at your event, cooking each cut to order so every plate arrives hot, charred, and exactly how your guests like it.',
     link: '/catering-dubai',
   },
   {
@@ -314,6 +315,8 @@ export default function BBQCatering() {
         </div>
       </section>
 
+      <TrustSignalStrip />
+
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
@@ -327,7 +330,7 @@ export default function BBQCatering() {
             There is something timeless about food cooked over fire — the sound of the grill, the aroma drifting across the terrace, the moment guests gather while a chef plates a perfectly charred cut. At myCHEF Dubai, our BBQ catering turns that simple pleasure into a polished, full-service experience, designed around your venue and your guests.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Our grill chefs work live at your event, cooking premium steaks, lamb, marinated chicken, gourmet burgers, and fresh seafood to order. Around the grill we build a generous spread of mezze, salads, hot sides, and house sauces, so every guest finds something they love. Whether it is a relaxed villa gathering, a yacht charter, or a corporate celebration, we bring the stations, the staff, and the styling to you. Explore our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>, or speak to us directly to start planning your menu.
+            Grill chefs in our network work live at your event, cooking premium steaks, lamb, marinated chicken, gourmet burgers, and fresh seafood to order. Around the grill we build a generous spread of mezze, salads, hot sides, and house sauces, so every guest finds something they love. Whether it is a relaxed villa gathering, a yacht charter, or a corporate celebration, we bring the stations, the staff, and the styling to you. Explore our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>, or speak to us directly to start planning your menu.
           </p>
         </div>
       </section>

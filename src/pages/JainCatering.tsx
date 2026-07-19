@@ -9,6 +9,7 @@ const config: DietaryPageConfig = {
   metaDescription:
     'Jain catering in Dubai for weddings, festivals and family events. Lacto-vegetarian menus prepared without onion, garlic, root vegetables or eggs.',
   canonicalPath: '/jain-catering-dubai',
+  showTrustSignalStrip: true,
   ogImage: '/images/jain-catering-dubai-hero.webp',
   breadcrumbLabel: 'Jain Catering Dubai',
   h1: 'Jain Catering in Dubai',

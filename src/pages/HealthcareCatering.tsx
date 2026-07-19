@@ -178,6 +178,7 @@ const config: ServicePageConfig = {
   ctaH2: 'Plan Healthcare Catering with myCHEF Dubai',
   ctaP:
     'Tell us about your facility, patient or staff numbers, dietary needs and compliance requirements. We will build a healthcare catering plan that is safe, nutritious and reliable.',
+  showTrustSignalStrip: true,
 }
 
 export default function HealthcareCatering() {

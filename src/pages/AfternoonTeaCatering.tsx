@@ -176,6 +176,7 @@ const config: OccasionPageConfig = {
   ctaH2: 'Host an Afternoon Tea to Remember',
   ctaP:
     'Tell us about your occasion, guest list and preferred venue. We will design an elegant afternoon tea menu and table experience that feels like a luxury hotel brought to you.',
+  showTrustSignalStrip: true,
 }
 
 export default function AfternoonTeaCatering() {

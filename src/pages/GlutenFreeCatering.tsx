@@ -9,6 +9,7 @@ const config: DietaryPageConfig = {
   metaDescription:
     'Gluten-free catering in Dubai for events, villas and offices. Coeliac-safe menus, transparent ingredients and full-service execution. Request a quote today.',
   canonicalPath: '/gluten-free-catering-dubai',
+  showTrustSignalStrip: true,
   ogImage: '/images/gluten-free-catering-dubai-hero.webp',
   breadcrumbLabel: 'Gluten-Free Catering Dubai',
   h1: 'Gluten-Free Catering in Dubai',

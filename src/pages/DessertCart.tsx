@@ -10,6 +10,7 @@ const config: ServicePageConfig = {
     'Dessert cart and gelato cart hire in Dubai: ice cream, sorbet, crepes, waffles and sweet treats for weddings, parties, corporate events and kids birthdays.',
   canonicalPath: '/dessert-cart-dubai',
   ogImage: '/images/dessert-table-catering-dubai-hero.webp',
+  showTrustSignalStrip: true,
   breadcrumbLabel: 'Gelato & Dessert Cart Dubai',
   h1: 'Gelato & Dessert Cart in Dubai',
   heroSub:

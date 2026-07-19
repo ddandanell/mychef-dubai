@@ -176,6 +176,7 @@ const config: OccasionPageConfig = {
   ctaH2: 'Plan a Kids Birthday Party Everyone Will Love',
   ctaP:
     'Tell us about the age group, theme, allergies and venue. We will design a safe, fun kids birthday menu that lets you enjoy the party as much as they do.',
+  showTrustSignalStrip: true,
 }
 
 export default function KidsBirthdayCatering() {

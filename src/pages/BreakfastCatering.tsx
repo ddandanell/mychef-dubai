@@ -10,6 +10,7 @@ const config: ServicePageConfig = {
     'Breakfast catering in Dubai for offices, villas and hotels. Fresh pastries, hot dishes, healthy bowls, coffee and juice, delivered or fully served. Request a morning menu quote.',
   canonicalPath: '/breakfast-catering-dubai',
   ogImage: '/images/breakfast-catering-dubai-hero.webp',
+  showTrustSignalStrip: true,
   breadcrumbLabel: 'Breakfast Catering Dubai',
   h1: 'Breakfast Catering in Dubai',
   heroSub:

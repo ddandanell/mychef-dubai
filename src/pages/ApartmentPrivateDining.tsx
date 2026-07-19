@@ -14,6 +14,7 @@ import {
   Check,
 } from 'lucide-react'
 import SEO from '../components/SEO'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 import { breadcrumbSchema, faqPageSchema, serviceSchema } from '../utils/schema'
 
 gsap.registerPlugin(ScrollTrigger)
@@ -29,7 +30,7 @@ const features = [
   {
     icon: Home,
     title: 'Designed for Apartments',
-    description: 'Compact kitchen? No problem. Our chefs are experienced in apartment cooking and bring only what is needed, working cleanly and efficiently in smaller spaces.',
+    description: 'Compact kitchen? No problem. Chefs in our network are experienced in apartment cooking and bring only what is needed, working cleanly and efficiently in smaller spaces.',
   },
   {
     icon: Users,
@@ -70,7 +71,7 @@ const menus = [
 const faqs = [
   {
     q: 'Will the chef fit in my apartment kitchen?',
-    a: 'Yes. Our chefs are selected for adaptability and are comfortable working in Dubai apartment kitchens, including those in Dubai Marina, Downtown, JBR, Business Bay, and DIFC.',
+    a: 'Yes. Chefs in our network are selected for adaptability and are comfortable working in Dubai apartment kitchens, including those in Dubai Marina, Downtown, JBR, Business Bay, and DIFC.',
   },
   {
     q: 'How many guests can an apartment dinner accommodate?',
@@ -217,6 +218,8 @@ export default function ApartmentPrivateDining() {
         </div>
       </section>
 
+      <TrustSignalStrip />
+
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
           <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
@@ -230,7 +233,7 @@ export default function ApartmentPrivateDining() {
               Tell us about your apartment location, guest count, and occasion. We will match you with a vetted private chef within 24 hours and send a tailored, no-obligation quote — then you simply arrive at your dining table while the chef handles shopping, cooking, serving, and cleanup. Dubai Marina, Downtown, JBR, Business Bay, and DIFC apartments are ideal for this intimate format.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Our chefs are selected for their ability to work beautifully in compact spaces. They arrive with ingredients, prepare a multi-course menu, serve with care, and leave your kitchen spotless. All you need is a table, chairs, and good company.
+              Chefs in our network are selected for their ability to work beautifully in compact spaces. They arrive with ingredients, prepare a multi-course menu, serve with care, and leave your kitchen spotless. All you need is a table, chairs, and good company.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
               Explore <Link to="/romantic-dinner-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">romantic dinners</Link>, <Link to="/date-night-package-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">date night packages</Link>, or <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef services</Link>.

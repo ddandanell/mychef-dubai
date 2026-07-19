@@ -15,6 +15,7 @@ import {
   Sparkles,
 } from 'lucide-react'
 import SEO from '../components/SEO'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 import { breadcrumbSchema, faqPageSchema, serviceSchema } from '../utils/schema'
 
 gsap.registerPlugin(ScrollTrigger)
@@ -92,7 +93,7 @@ const packages = [
 const faqs = [
   {
     q: 'Can menus accommodate allergies and intolerances?',
-    a: 'Yes. We design around allergies, intolerances, and religious dietary requirements. Our chefs follow strict cross-contamination protocols and label every container clearly.',
+    a: 'Yes. We design around allergies, intolerances, and religious dietary requirements. Chefs in our network follow strict cross-contamination protocols and label every container clearly.',
   },
   {
     q: 'Do you handle picky eaters?',
@@ -239,6 +240,8 @@ export default function KidsNutritionChef() {
           </div>
         </div>
       </section>
+
+      <TrustSignalStrip />
 
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">

@@ -14,6 +14,7 @@ import {
   Leaf,
 } from 'lucide-react'
 import SEO from '../components/SEO'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 import { breadcrumbSchema, faqPageSchema, serviceSchema } from '../utils/schema'
 
 gsap.registerPlugin(ScrollTrigger)
@@ -77,7 +78,7 @@ const faqs = [
     a: 'Yes, but with clear boundaries. We flag high-severity allergies, match the booking to experienced chefs, and apply enhanced separation protocols. Clients must still carry their own emergency medication and inform guests of residual risk.',
   },
   {
-    q: 'Are your chefs certified in allergen training?',
+    q: 'Are chefs in your network certified in allergen training?',
     a: 'All chefs in our network are required to demonstrate food safety awareness, including allergen handling. For high-risk bookings, we prioritise chefs with additional allergen or clinical-dietary experience.',
   },
   {
@@ -217,6 +218,8 @@ export default function AllergySafeCatering() {
           </div>
         </div>
       </section>
+
+      <TrustSignalStrip />
 
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">

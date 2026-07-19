@@ -177,6 +177,7 @@ const config: ServicePageConfig = {
   ctaH2: 'Plan Your Perfect Dubai Picnic',
   ctaP:
     'Tell us where you are heading, how many guests you have and any dietary preferences. We will prepare a picnic catering basket that makes the day effortless and delicious.',
+  showTrustSignalStrip: true,
 }
 
 export default function PicnicCatering() {

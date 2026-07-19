@@ -9,6 +9,7 @@ const config: DietaryPageConfig = {
   metaDescription:
     'Dairy-free and lactose-free catering in Dubai for weddings, villas, offices and parties. Creamy textures without dairy, full-service execution. Request a quote.',
   canonicalPath: '/dairy-free-catering-dubai',
+  showTrustSignalStrip: true,
   ogImage: '/images/dairy-free-catering-dubai-hero.webp',
   breadcrumbLabel: 'Dairy-Free Catering Dubai',
   h1: 'Dairy-Free Catering in Dubai',

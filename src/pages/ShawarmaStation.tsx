@@ -10,6 +10,7 @@ const config: ServicePageConfig = {
     'Live shawarma and kebab station hire in Dubai: freshly carved meats, grilled skewers, Arabic breads and salads for weddings, parties and corporate events.',
   canonicalPath: '/shawarma-station-dubai',
   ogImage: '/images/arabic-catering-dubai-hero.webp',
+  showTrustSignalStrip: true,
   breadcrumbLabel: 'Live Shawarma & Kebab Station Dubai',
   h1: 'Live Shawarma & Kebab Station in Dubai',
   heroSub:
@@ -25,7 +26,7 @@ const config: ServicePageConfig = {
         Few catering stations draw a crowd like a live shawarma spit. The aroma of slowly roasted meat, the theatre of the chef carving thin slices into warm Arabic bread, and the custom toppings guests choose themselves make it a highlight of any event. Our live shawarma and kebab station in Dubai brings this experience to weddings, corporate events, private parties and community celebrations across the city.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        We offer a complete Arabic street-food setup: vertical shawarma spits for chicken and beef, charcoal or grill-fired kebab skewers, fresh khubz and saj bread, mezze dips, pickles, garlic sauce, tahini and chopped salads. Everything is prepared fresh on site and served hot by experienced station chefs who keep the line moving and the energy high.
+        We offer a complete Arabic street-food setup: vertical shawarma spits for chicken and beef, charcoal or grill-fired kebab skewers, fresh khubz and saj bread, mezze dips, pickles, garlic sauce, tahini and chopped salads. Everything is prepared fresh on site and served hot by experienced partner chefs at the station who keep the line moving and the energy high.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
         This station fits naturally within our{' '}

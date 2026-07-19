@@ -11,6 +11,7 @@ import {
   ArrowRight,
 } from 'lucide-react'
 import SEO from '../../components/SEO'
+import TrustSignalStrip from '../../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -65,6 +66,7 @@ export interface ServicePageConfig {
   introH2: string
   introNodes: ReactNode
   noindex?: boolean
+  showTrustSignalStrip?: boolean
   formats: FormatItem[]
   formatsH2: string
   useCases: UseCase[]
@@ -237,6 +239,8 @@ export default function ServiceLandingPage({ config }: Props) {
           </div>
         </div>
       </section>
+
+      {config.showTrustSignalStrip && <TrustSignalStrip variant="dark" />}
 
       {/* Intro */}
       <section className="bg-white section-padding">

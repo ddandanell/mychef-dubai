@@ -3,6 +3,7 @@ import { Link } from 'react-router'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import SEO from '../components/SEO'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 import { Heart, Sparkles, Wine } from 'lucide-react'
 
 gsap.registerPlugin(ScrollTrigger)
@@ -73,6 +74,8 @@ export default function RomanticDinner() {
           </div>
         </div>
       </section>
+
+      <TrustSignalStrip />
 
       <section className="py-24 bg-black">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

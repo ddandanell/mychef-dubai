@@ -24,7 +24,7 @@ export default function EventPlannersPartner() {
       howItWorks={[
         'Share your event brief, guest count, and culinary requirements with our partner team.',
         'We provide a tailored proposal with menu options, staffing, and pricing.',
-        'Our chefs and service team execute the catering on the day of the event.',
+        'Chefs in our network and our service team execute the catering on the day of the event.',
         'You receive post-event reporting and partner benefits for future bookings.',
       ]}
       ctaText="Discuss Event Partnership"

@@ -189,6 +189,7 @@ const config: ServicePageConfig = {
   ctaH2: 'Host a Housewarming Your Guests Will Remember',
   ctaP:
     'Tell us about your new home, guest count and preferred style. We will design a housewarming catering menu that lets you relax and enjoy your celebration.',
+  showTrustSignalStrip: true,
 }
 
 export default function HousewarmingCatering() {

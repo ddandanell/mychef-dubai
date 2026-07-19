@@ -177,6 +177,7 @@ const config: ServicePageConfig = {
   ctaH2: 'Make Your Holi Celebration Unforgettable',
   ctaP:
     'Tell us about your Holi plans, guest count, venue and preferred menu style. We will create a colourful catering experience that matches the joy of the festival.',
+  showTrustSignalStrip: true,
 }
 
 export default function HoliCatering() {

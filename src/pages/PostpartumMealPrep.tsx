@@ -14,6 +14,7 @@ import {
   Baby,
 } from 'lucide-react'
 import SEO from '../components/SEO'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 import { breadcrumbSchema, faqPageSchema, serviceSchema } from '../utils/schema'
 
 gsap.registerPlugin(ScrollTrigger)
@@ -34,7 +35,7 @@ const features = [
   {
     icon: Leaf,
     title: 'Culturally Appropriate Options',
-    description: 'We understand that postpartum nutrition is deeply cultural. Our chefs can prepare Arabic, South Asian, East Asian, Mediterranean, and Western recovery-style meals adapted to your family\'s traditions.',
+    description: 'We understand that postpartum nutrition is deeply cultural. Chefs in our network can prepare Arabic, South Asian, East Asian, Mediterranean, and Western recovery-style meals adapted to your family\'s traditions.',
   },
   {
     icon: Moon,
@@ -74,7 +75,7 @@ const faqs = [
   },
   {
     q: 'Do you provide medical or clinical nutrition advice?',
-    a: 'No. Our chefs prepare wholesome, recovery-focused meals based on your preferences and any guidance you provide from your healthcare provider. For clinical conditions, we recommend consulting a licensed nutritionist or doctor.',
+    a: 'No. Chefs in our network prepare wholesome, recovery-focused meals based on your preferences and any guidance you provide from your healthcare provider. For clinical conditions, we recommend consulting a licensed nutritionist or doctor.',
   },
   {
     q: 'Can meals be adapted for the whole family?',
@@ -217,6 +218,8 @@ export default function PostpartumMealPrep() {
           </div>
         </div>
       </section>
+
+      <TrustSignalStrip />
 
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">

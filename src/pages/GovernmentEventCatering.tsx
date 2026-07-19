@@ -178,6 +178,7 @@ const config: ServicePageConfig = {
   ctaH2: 'Discuss Your Government Event Catering Requirements',
   ctaP:
     'Share your event scope, expected guest count, venue and any protocol or dietary requirements. We will prepare a detailed, professional catering proposal for your official function.',
+  showTrustSignalStrip: true,
 }
 
 export default function GovernmentEventCatering() {

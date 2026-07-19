@@ -16,6 +16,7 @@ import {
   ArrowRight,
 } from 'lucide-react'
 import SEO from '../components/SEO'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -90,7 +91,7 @@ const useCases = [
 const includedItems = [
   { title: 'Bespoke Menu Design', description: 'A multi-course or canape menu created around your taste, theme, and guest list, planned in advance.' },
   { title: 'Premium Ingredients', description: 'Fresh, high-quality produce and ingredients sourced from trusted Dubai suppliers.' },
-  { title: 'Professional Chefs', description: 'An experienced culinary team preparing and plating each course with care.' },
+  { title: 'Partner Chefs', description: 'An experienced culinary team preparing and plating each course with care.' },
   { title: 'Service Staff', description: 'Waiters, hosts, and bar staff scaled to your event size for seamless service.' },
   { title: 'Table Setting & Styling', description: 'Elegant tableware, linens, and presentation styling to complement your celebration.' },
   { title: 'Dessert & Toast Service', description: 'A styled dessert table and toast-ready drinks service for the high points of the evening.' },
@@ -305,6 +306,8 @@ export default function EngagementCatering() {
           </div>
         </div>
       </section>
+
+      <TrustSignalStrip />
 
       {/* ═══════════════ Section 2: Intro ═══════════════ */}
       <section className="bg-white section-padding">

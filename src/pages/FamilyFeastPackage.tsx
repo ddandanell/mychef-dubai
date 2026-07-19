@@ -45,7 +45,7 @@ export default function FamilyFeastPackage() {
         },
         {
           q: 'How much space do you need in my kitchen?',
-          a: 'Our chefs are experienced in working in Dubai apartment and villa kitchens of all sizes. We bring any specialised equipment needed.',
+          a: 'Chefs in our network are experienced in working in Dubai apartment and villa kitchens of all sizes. We bring any specialised equipment needed.',
         },
         {
           q: 'Can I increase the guest count?',

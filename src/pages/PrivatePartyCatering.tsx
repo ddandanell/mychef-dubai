@@ -16,6 +16,7 @@ import {
   ArrowRight,
 } from 'lucide-react'
 import SEO from '../components/SEO'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -119,7 +120,7 @@ const locations = [
 const faqs = [
   {
     q: 'Do you cater private parties at home and in villas?',
-    a: 'Yes — private home and villa parties are our specialty. We bring a private chef, chefs, service staff, and a bar to your space, and handle setup and cleanup so your home is left exactly as we found it.',
+    a: 'Yes — private home and villa parties are our specialty. We bring a private chef, partner chefs, service staff, and a bar to your space, and handle setup and cleanup so your home is left exactly as we found it.',
   },
   {
     q: 'What is a live cooking station?',
@@ -361,6 +362,8 @@ export default function PrivatePartyCatering() {
         </div>
       </section>
 
+      <TrustSignalStrip />
+
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
@@ -371,7 +374,7 @@ export default function PrivatePartyCatering() {
             Your Home, Transformed Into a Venue
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            The best private parties feel effortless — for the guests and, just as importantly, for the host. At myCHEF Dubai, we bring everything a great party needs directly to your villa or home: a private chef, professional chefs, live cooking stations, a styled bar, and attentive service staff who look after every detail from the first welcome drink to the final clear-down.
+            The best private parties feel effortless — for the guests and, just as importantly, for the host. At myCHEF Dubai, we bring everything a great party needs directly to your villa or home: a private chef, partner chefs, live cooking stations, a styled bar, and attentive service staff who look after every detail from the first welcome drink to the final clear-down.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             Whether you are planning an intimate dinner, a lively cocktail reception, or a large celebration spilling across the garden and terrace, we design the menu and service around your space and your guests. Private party catering sits within our broader <Link to="/party-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">party catering in Dubai</Link> and our full <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering service</Link>.

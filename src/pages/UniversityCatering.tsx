@@ -178,6 +178,7 @@ const config: ServicePageConfig = {
   ctaH2: 'Plan Your Campus Catering with myCHEF Dubai',
   ctaP:
     'Tell us about your university event, student numbers, dietary needs and budget. We will create a campus catering plan that keeps students happy and your team stress-free.',
+  showTrustSignalStrip: true,
 }
 
 export default function UniversityCatering() {

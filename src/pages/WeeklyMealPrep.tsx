@@ -19,6 +19,7 @@ import {
   ArrowRight,
 } from 'lucide-react'
 import SEO from '../components/SEO'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 import VIPPromoSection from '../components/VIPPromoSection'
 import { breadcrumbSchema, faqPageSchema, serviceSchema } from '../utils/schema'
 
@@ -329,6 +330,8 @@ export default function WeeklyMealPrep() {
           </div>
         </div>
       </section>
+
+      <TrustSignalStrip />
 
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">

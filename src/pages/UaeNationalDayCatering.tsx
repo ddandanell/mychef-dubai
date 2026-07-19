@@ -107,7 +107,7 @@ const config: OccasionPageConfig = {
   includedItems: [
     { title: 'Bespoke Emirati Menu', description: 'A personalised menu blending traditional UAE dishes with modern canapés and crowd favourites.' },
     { title: 'Live Cooking Stations', description: 'Optional live grill, shawarma or Arabic bread stations to add theatre and freshness.' },
-    { title: 'Professional Chefs & Staff', description: 'Experienced chefs, servers and event support who deliver polished hospitality throughout your event.' },
+    { title: 'Partner Chefs & Staff', description: 'Experienced chefs, servers and event support who deliver polished hospitality throughout your event.' },
     { title: 'Styling & Theming', description: 'Subtle National Day colour accents, linens, serving ware and décor that suit the occasion.' },
     { title: 'Halal & Dietary Options', description: 'All menus are halal by default; vegetarian, vegan and allergy-aware options available.' },
     { title: 'Setup, Service & Cleanup', description: 'We arrive early, manage service, and leave your venue spotless after the celebration.' },
@@ -173,6 +173,7 @@ const config: OccasionPageConfig = {
   ctaH2: 'Book Your UAE National Day Catering',
   ctaP:
     'Tell us about your guest count, venue and vision. We will design a National Day menu and service plan that celebrates the occasion beautifully.',
+  showTrustSignalStrip: true,
 }
 
 export default function UaeNationalDayCatering() {

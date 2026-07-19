@@ -177,6 +177,7 @@ const config: ServicePageConfig = {
   ctaH2: 'Celebrate the Year Ahead with myCHEF Dubai',
   ctaP:
     'Tell us about your Lunar New Year plans, guest count, venue and menu style. We will create a Chinese New Year catering experience that honours tradition and impresses your guests.',
+  showTrustSignalStrip: true,
 }
 
 export default function ChineseNewYearCatering() {

@@ -14,6 +14,7 @@ import {
   ChefHat,
 } from 'lucide-react'
 import SEO from '../components/SEO'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 import { breadcrumbSchema, faqPageSchema, serviceSchema } from '../utils/schema'
 
 gsap.registerPlugin(ScrollTrigger)
@@ -215,6 +216,8 @@ export default function ChefsTable() {
           </div>
         </div>
       </section>
+
+      <TrustSignalStrip />
 
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">

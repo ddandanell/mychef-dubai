@@ -183,6 +183,7 @@ const config: ServicePageConfig = {
   ctaH2: 'Plan Exhibition Catering That Works as Hard as Your Stand',
   ctaP:
     'Tell us your venue, stand size and visitor numbers. We will design an exhibition catering package that keeps your team energised and your guests impressed.',
+  showTrustSignalStrip: true,
 }
 
 export default function ExhibitionCatering() {

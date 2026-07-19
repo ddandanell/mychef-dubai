@@ -16,6 +16,7 @@ import {
   ArrowRight,
 } from 'lucide-react'
 import SEO from '../components/SEO'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -312,6 +313,7 @@ export default function ArabicCatering() {
             </a>
           </div>
         </div>
+        <TrustSignalStrip className="mt-8" variant="dark" />
       </section>
 
       {/* ═══════════════ Section 2: Opening ═══════════════ */}

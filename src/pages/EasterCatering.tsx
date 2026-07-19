@@ -109,7 +109,7 @@ const config: OccasionPageConfig = {
     { title: 'Roast Mains & Carving', description: 'Herb-crusted lamb, honey-glazed ham or vegetarian centrepieces, carved and served at the table.' },
     { title: 'Spring Starters & Salads', description: 'Light appetisers, fresh salads and seasonal vegetables to balance the meal.' },
     { title: 'Easter Desserts & Treats', description: 'Chocolate eggs, hot cross buns, simnel cake and other festive sweet treats.' },
-    { title: 'Professional Chef & Staff', description: 'Experienced chefs and attentive servers who keep the day running smoothly.' },
+    { title: 'Partner Chef & Staff', description: 'Experienced chefs and attentive servers who keep the day running smoothly.' },
     { title: 'Dietary Accommodation', description: 'Halal, vegetarian, vegan, gluten-free and allergy-aware options available.' },
     { title: 'Table Styling & Floral Touches', description: 'Elegant tableware, linens and subtle spring décor to suit the occasion.' },
     { title: 'Full Setup & Cleanup', description: 'We arrive early, prepare, serve and leave your space spotless after the celebration.' },
@@ -173,6 +173,7 @@ const config: OccasionPageConfig = {
   ctaH2: 'Plan Your Easter Celebration in Dubai',
   ctaP:
     'Tell us about your guest count, venue and menu preferences. We will design an Easter catering experience that feels seasonal, effortless and memorable.',
+  showTrustSignalStrip: true,
 }
 
 export default function EasterCatering() {

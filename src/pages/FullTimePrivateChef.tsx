@@ -15,6 +15,7 @@ import {
   Home,
 } from 'lucide-react'
 import SEO from '../components/SEO'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 import { breadcrumbSchema, faqPageSchema, serviceSchema } from '../utils/schema'
 
 gsap.registerPlugin(ScrollTrigger)
@@ -108,7 +109,7 @@ const faqs = [
   },
   {
     q: 'What cuisines can they cook?',
-    a: 'Our chefs cover Arabic, Mediterranean, Italian, Indian, Asian, sushi, healthy, halal, vegan, and child-friendly cuisines. We match chefs to your specific taste profile during selection.',
+    a: 'Chefs in our network cover Arabic, Mediterranean, Italian, Indian, Asian, sushi, healthy, halal, vegan, and child-friendly cuisines. We match chefs to your specific taste profile during selection.',
   },
 ]
 
@@ -239,6 +240,8 @@ export default function FullTimePrivateChef() {
           </div>
         </div>
       </section>
+
+      <TrustSignalStrip />
 
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">

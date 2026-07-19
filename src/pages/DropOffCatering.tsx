@@ -10,6 +10,7 @@ const config: ServicePageConfig = {
     'Drop-off catering in Dubai: individually packed meals, labelled platters and buffet boxes delivered to your office, villa or venue. No on-site staff needed. Request a quote today.',
   canonicalPath: '/drop-off-catering-dubai',
   ogImage: '/images/drop-off-catering-dubai-hero.webp',
+  showTrustSignalStrip: true,
   breadcrumbLabel: 'Drop-Off Catering Dubai',
   h1: 'Drop-Off Catering in Dubai',
   heroSub:
@@ -131,7 +132,7 @@ const config: ServicePageConfig = {
   faqs: [
     {
       q: 'What is drop-off catering?',
-      a: 'Drop-off catering means your chef prepares, packs and delivers your food ready to serve. There is no chef or service team on site, making it a cost-effective option for meetings, offices and small gatherings.',
+      a: 'Drop-off catering means the chef in our network prepares, packs and delivers your food ready to serve. There is no chef or service team on site, making it a cost-effective option for meetings, offices and small gatherings.',
     },
     {
       q: 'Is drop-off catering suitable for offices?',

@@ -170,6 +170,7 @@ const config: OccasionPageConfig = {
   ctaH2: 'Plan the Perfect Pool Party Menu',
   ctaP:
     'Tell us about your pool, guest list and timing. We will design a fresh, light menu that keeps everyone cool, fed and in the party mood.',
+  showTrustSignalStrip: true,
 }
 
 export default function PoolPartyCatering() {

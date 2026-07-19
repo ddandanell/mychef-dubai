@@ -9,6 +9,7 @@ const config: DietaryPageConfig = {
   metaDescription:
     'Keto and low-carb catering in Dubai for events, villas, offices and wellness retreats. High-protein menus, healthy fats and zero compromise on flavour.',
   canonicalPath: '/keto-catering-dubai',
+  showTrustSignalStrip: true,
   ogImage: '/images/keto-catering-dubai-hero.webp',
   breadcrumbLabel: 'Keto & Low-Carb Catering Dubai',
   h1: 'Keto & Low-Carb Catering in Dubai',

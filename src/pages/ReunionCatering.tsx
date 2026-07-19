@@ -177,6 +177,7 @@ const config: ServicePageConfig = {
   ctaH2: 'Bring Everyone Together With Great Food',
   ctaP:
     'Tell us about your reunion, guest count, venue and preferred cuisine. We will create a warm, generous catering experience that lets you focus on the people.',
+  showTrustSignalStrip: true,
 }
 
 export default function ReunionCatering() {

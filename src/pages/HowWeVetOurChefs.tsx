@@ -90,8 +90,8 @@ const faqs = [
     a: 'We verify identity, UAE visa status, and right-to-work documents. We also conduct practical skill assessments, reference checks, food-safety evaluations, and supervised trial events.',
   },
   {
-    q: 'Are all your chefs food-safety-certified (partner-held) certified?',
-    a: 'We do not claim that every chef holds food-safety-certified (partner-held) certification. We require basic food-hygiene awareness and safe handling practices. PIC (Person in Charge) certification is preferred where available.',
+    q: 'Are chefs in your network food-safety-certified?',
+    a: 'We do not claim that every chef in our network holds a specific food-safety certification. We require basic food-hygiene awareness and safe handling practices. PIC (Person in Charge) certification is preferred where available.',
   },
   {
     q: 'Do you check references for every chef?',

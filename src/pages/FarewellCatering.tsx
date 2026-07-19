@@ -177,6 +177,7 @@ const config: ServicePageConfig = {
   ctaH2: 'Send Them Off With Catering Worth Remembering',
   ctaP:
     'Tell us about the guest of honour, venue, guest count and preferred style. We will create a farewell or retirement menu that honours the moment and lets everyone celebrate together.',
+  showTrustSignalStrip: true,
 }
 
 export default function FarewellCatering() {

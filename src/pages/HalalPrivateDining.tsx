@@ -9,6 +9,7 @@ const config: ServicePageConfig = {
   metaDescription:
     'Halal private dining in Dubai: bespoke halal menus served in your villa, home or venue by a dedicated chef and service team. Perfect for intimate dinners, family celebrations and corporate hospitality.',
   canonicalPath: '/halal-private-dining-dubai',
+  showTrustSignalStrip: true,
   ogImage: '/images/halal-private-dining-dubai-hero.webp',
   breadcrumbLabel: 'Halal Private Dining Dubai',
   h1: 'Halal Private Dining in Dubai',

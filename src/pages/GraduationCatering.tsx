@@ -177,6 +177,7 @@ const config: ServicePageConfig = {
   ctaH2: 'Celebrate the Graduate With Catering They Will Remember',
   ctaP:
     'Tell us about the graduate, guest count, venue and preferred style. We will create a graduation party menu that matches the achievement and the mood.',
+  showTrustSignalStrip: true,
 }
 
 export default function GraduationCatering() {

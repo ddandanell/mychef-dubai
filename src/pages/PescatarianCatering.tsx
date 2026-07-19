@@ -9,6 +9,7 @@ const config: DietaryPageConfig = {
   metaDescription:
     'Pescatarian catering in Dubai for events, villas and offices. Seafood-forward menus with seasonal vegetables, dairy-free options and full-service execution. Request a quote today.',
   canonicalPath: '/pescatarian-catering-dubai',
+  showTrustSignalStrip: true,
   ogImage: '/images/pescatarian-catering-dubai-hero.webp',
   breadcrumbLabel: 'Pescatarian Catering Dubai',
   h1: 'Pescatarian Catering in Dubai',

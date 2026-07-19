@@ -109,7 +109,7 @@ const config: OccasionPageConfig = {
     { title: 'Spooky Starters & Canapes', description: 'Creative bites like pumpkin soup shots, blackened crostini and themed tartlets.' },
     { title: 'Themed Mains & Sides', description: 'Seasonal dishes such as roasted pumpkin, beetroot risotto, haunted pasta and premium grills.' },
     { title: 'Halloween Desserts & Treats', description: 'Spiderweb cakes, ghost meringues, themed cupcakes and candy displays.' },
-    { title: 'Professional Chef & Staff', description: 'Experienced chefs and servers dressed to suit the occasion and keep service smooth.' },
+    { title: 'Partner Chef & Staff', description: 'Experienced chefs and servers dressed to suit the occasion and keep service smooth.' },
     { title: 'Dietary Accommodation', description: 'Halal, vegetarian, vegan, gluten-free and allergy-aware options available.' },
     { title: 'Dark & Dramatic Styling', description: 'Black and gold tableware, candlelight and seasonal décor to set the scene.' },
     { title: 'Full Setup & Cleanup', description: 'We arrive early, prepare, serve and leave your space spotless after the party.' },
@@ -173,6 +173,7 @@ const config: OccasionPageConfig = {
   ctaH2: 'Plan Your Halloween Celebration in Dubai',
   ctaP:
     'Tell us about your guest count, venue and theme. We will design a Halloween catering experience that is stylish, spooky and effortlessly hosted.',
+  showTrustSignalStrip: true,
 }
 
 export default function HalloweenCatering() {

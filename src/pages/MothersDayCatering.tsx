@@ -170,6 +170,7 @@ const config: OccasionPageConfig = {
   ctaH2: "Give Mum the Mother's Day She Deserves",
   ctaP:
     "Tell us about your family, venue and how you want to spoil her. We will design a beautiful Mother's Day menu and experience that lets everyone relax and celebrate together.",
+  showTrustSignalStrip: true,
 }
 
 export default function MothersDayCatering() {

@@ -14,6 +14,7 @@ import {
   Activity,
 } from 'lucide-react'
 import SEO from '../components/SEO'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 import { breadcrumbSchema, faqPageSchema, serviceSchema } from '../utils/schema'
 
 gsap.registerPlugin(ScrollTrigger)
@@ -82,7 +83,7 @@ const faqs = [
   },
   {
     q: 'What cuisines can be made macro-friendly?',
-    a: 'Almost any. Our chefs regularly prepare macro-balanced Middle Eastern, Mediterranean, Asian, Indian, and Western meals. We adapt recipes rather than strip them of flavour.',
+    a: 'Almost any. Chefs in our network regularly prepare macro-balanced Middle Eastern, Mediterranean, Asian, Indian, and Western meals. We adapt recipes rather than strip them of flavour.',
   },
   {
     q: 'How much does fitness meal prep cost?',
@@ -217,6 +218,8 @@ export default function FitnessMealPrep() {
           </div>
         </div>
       </section>
+
+      <TrustSignalStrip />
 
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">

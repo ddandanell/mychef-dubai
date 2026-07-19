@@ -170,6 +170,7 @@ const config: OccasionPageConfig = {
   ctaH2: 'Plan Your Beach Celebration',
   ctaP:
     'Tell us about your beach, guest count and vision. We will create a fresh, coastal menu that makes the most of Dubai’s beautiful shoreline.',
+  showTrustSignalStrip: true,
 }
 
 export default function BeachCatering() {

@@ -9,6 +9,7 @@ const config: DietaryPageConfig = {
   metaDescription:
     'Nut-free catering in Dubai for schools, nurseries, family events and corporate functions. Allergy-aware prep, clear labelling and safe, delicious menus.',
   canonicalPath: '/nut-free-catering-dubai',
+  showTrustSignalStrip: true,
   ogImage: '/images/nut-free-catering-dubai-hero.webp',
   breadcrumbLabel: 'Nut-Free Catering Dubai',
   h1: 'Nut-Free Catering in Dubai',

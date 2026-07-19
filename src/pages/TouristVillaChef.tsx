@@ -13,6 +13,7 @@ import {
   Palmtree,
 } from 'lucide-react'
 import SEO from '../components/SEO'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 import { breadcrumbSchema, faqPageSchema, serviceSchema } from '../utils/schema'
 
 gsap.registerPlugin(ScrollTrigger)
@@ -93,7 +94,7 @@ const faqs = [
   },
   {
     q: 'Do I need to provide kitchen equipment?',
-    a: 'No. Our chefs work with what is available in your villa. If a specific menu requires special equipment, we will discuss it during the pre-arrival briefing.',
+    a: 'No. Chefs in our network work with what is available in your villa. If a specific menu requires special equipment, we will discuss it during the pre-arrival briefing.',
   },
   {
     q: 'Can the chef cater to children or picky eaters?',
@@ -236,6 +237,8 @@ export default function TouristVillaChef() {
           </div>
         </div>
       </section>
+
+      <TrustSignalStrip />
 
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">

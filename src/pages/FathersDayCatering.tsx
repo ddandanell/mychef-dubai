@@ -177,6 +177,7 @@ const config: ServicePageConfig = {
   ctaH2: "Make This Father's Day One to Remember",
   ctaP:
     "Tell us about Dad, your family size, venue and preferred style. We will create a Father's Day catering menu that lets him relax and enjoy the celebration.",
+  showTrustSignalStrip: true,
 }
 
 export default function FathersDayCatering() {
