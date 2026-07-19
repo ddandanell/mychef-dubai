@@ -23,13 +23,13 @@ const locations = [
   { name: 'Al Barsha', slug: 'al-barsha' },
 ]
 
-export default function LocationStrip({ title = 'Catering across Dubai', className = '' }: LocationStripProps) {
+export default function LocationStrip({ title = 'Private chef & luxury dining across Dubai', className = '' }: LocationStripProps) {
   return (
     <section className={`bg-cream py-16 ${className}`}>
       <div className="container-custom max-w-[1100px]">
         <div className="text-center mb-8">
           <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            Where We Cater
+            Where We Serve
           </span>
           <h3 className="font-playfair text-h3 text-black">
             {title}

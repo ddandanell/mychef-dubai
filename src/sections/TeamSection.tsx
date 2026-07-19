@@ -49,7 +49,7 @@ export default function TeamSection() {
           >
             <img
               src="/team-head-chef.webp"
-              alt="Executive Chef - myCHEF Dubai Head Chef"
+              alt="Chef in the myCHEF network"
               className="absolute inset-0 w-full h-full object-cover object-top"
               loading="eager"
               fetchPriority="high"
@@ -63,19 +63,19 @@ export default function TeamSection() {
             className="w-full lg:w-3/5 flex flex-col justify-center py-10 lg:py-0 lg:pl-8"
           >
             <span className="font-inter text-caption font-medium uppercase tracking-[0.1em] text-gold">
-              Meet Our Chefs
+              The Chefs We Choose
             </span>
             <h2 className="font-playfair text-fluid-h2 text-white mt-4 mb-6">
-              Who are the chefs behind myCHEF Dubai?
+              Who cooks at a myCHEF Dubai experience?
             </h2>
             <p className="font-inter text-base text-gray-400 leading-[1.7] mb-4 max-w-lg">
-              Our head chef brings decades of experience from respected European kitchens to Dubai&apos;s most distinguished homes. Every menu is designed with precision, every plate tells a story.
+              The chefs in our network bring decades of experience from respected European and international kitchens to Dubai&apos;s most distinguished homes — every menu designed with precision, every plate telling a story.
             </p>
             <p className="font-inter text-base text-gray-400 leading-[1.7] mb-8 max-w-lg">
-              Behind every event is a dedicated team of chefs, sous chefs, pastry specialists, and service staff — all committed to one goal: making your experience unforgettable.
+              Every chef, sous chef, pastry specialist, and service professional in our network is independent, handpicked and vetted before they ever cook for a myCHEF client.
             </p>
             <Link to="/our-chefs" className="btn-secondary inline-flex self-start focus-visible:ring-offset-black">
-              Meet Our Chefs
+              Our Culinary Network
             </Link>
           </div>
         </div>

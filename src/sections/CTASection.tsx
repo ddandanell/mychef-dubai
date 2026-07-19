@@ -47,12 +47,12 @@ export default function CTASection() {
 
           {/* Headline */}
           <h2 className="font-playfair text-fluid-h2 text-white mb-6">
-            Ready to book a private chef or catering in Dubai?
+            Ready to plan an unforgettable dining experience in Dubai?
           </h2>
 
           {/* Subtitle */}
           <p className="font-inter text-lg text-gray-400 max-w-[500px] mx-auto mb-10">
-            Tell us about your event. We will craft a bespoke proposal tailored to your vision.
+            Tell us about your event. We will design a bespoke proposal tailored to your vision.
           </p>
 
           {/* CTA Buttons */}

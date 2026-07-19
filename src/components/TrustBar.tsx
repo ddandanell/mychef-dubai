@@ -55,7 +55,7 @@ export default function TrustBar({ variant = 'light', className }: TrustBarProps
                 isLight ? 'text-charcoal' : 'text-gray-400'
               )}
             >
-              HACCP-aligned food safety protocols
+              Independent chefs who hold their own food-safety credentials
             </span>
           </div>
 

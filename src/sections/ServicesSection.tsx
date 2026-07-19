@@ -10,37 +10,37 @@ const services = [
   {
     image: '/images/private-chef-dubai-hero.webp',
     title: 'Private Chef Dubai',
-    description: 'Your own professional chef for an evening, a week, or longer. Fully bespoke menus prepared in your kitchen.',
+    description: 'A handpicked professional chef for an evening, a week, or longer. We match the right chef to your taste and design the menu with you — bespoke dining, prepared by your chef in your own home.',
     link: '/private-chef-dubai',
   },
   {
     image: '/images/catering-dubai-hero.webp',
     title: 'Catering Dubai',
-    description: 'Full-service luxury catering for events of any size. From plated dinners to grand buffets.',
+    description: 'Plated dinners to grand buffets, for events of any size — designed with you, delivered by Dubai\'s finest licensed caterers you engage through us.',
     link: '/catering-dubai',
   },
   {
     image: '/images/luxury-dining-dubai-hero.webp',
     title: 'Luxury Dining Experiences',
-    description: 'Intimate fine dining at home, romantic dinners, birthday celebrations — all prepared and served by our team.',
+    description: 'Intimate fine dining at home, romantic evenings, milestone celebrations — every course designed with you and prepared by your handpicked chef.',
     link: '/luxury-dining-experiences',
   },
   {
     image: '/images/events-catering-dubai-hero.webp',
     title: 'Events & Celebrations',
-    description: 'From intimate gatherings to large celebrations. We handle the food, service, and presentation.',
+    description: 'From intimate gatherings to grand celebrations — we design the experience and bring in the chef, service and styling, so you host while your chef delivers.',
     link: '/events',
   },
   {
     image: '/images/corporate-catering-dubai-hero.webp',
     title: 'Corporate Dining',
-    description: 'Impress clients and colleagues with sophisticated corporate dining and boardroom catering.',
+    description: 'Impress clients and colleagues with sophisticated boardroom dining and corporate events — designed with you and delivered by chefs and caterers who work to corporate standard.',
     link: '/corporate',
   },
   {
     image: '/images/villa-catering-dubai-hero.webp',
     title: 'Villas & Residences',
-    description: 'Dedicated villa chef services for holiday homes, long-stay guests, and luxury residences across Dubai.',
+    description: 'Dedicated villa chef arrangements for holiday homes, long-stay guests, and luxury residences across Dubai — we match you with a vetted chef you engage, and design the dining around your home.',
     link: '/villas-private-residences',
   },
 ]
@@ -104,10 +104,10 @@ export default function ServicesSection() {
         {/* Section Header */}
         <div ref={headerRef} className="text-center mb-12 md:mb-16">
           <span className="font-inter text-caption font-medium uppercase tracking-[0.1em] text-gold">
-            Private Chef & Catering Services
+            Private Chef & Luxury Dining
           </span>
           <h2 className="font-playfair text-fluid-h2 text-white mt-4 mb-4">
-            What private chef and catering services does myCHEF Dubai offer?
+            What private chef and luxury dining experiences does myCHEF Dubai offer?
           </h2>
           <div className="gold-line mx-auto" />
         </div>

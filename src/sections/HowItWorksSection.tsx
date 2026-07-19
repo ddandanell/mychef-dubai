@@ -10,26 +10,26 @@ const steps = [
   {
     number: '01',
     icon: MessageCircle,
-    title: 'Tell us about your event',
-    description: 'Reach out via WhatsApp or our inquiry form. Tell us about your event, your guests, and your vision.',
+    title: 'Reach Out',
+    description: 'Tell us about your occasion, your guests, and your vision — no detail is too small.',
   },
   {
     number: '02',
     icon: FileText,
-    title: 'We design your bespoke menu',
-    description: 'Our chef creates a bespoke menu tailored to your preferences, dietary needs, and the occasion.',
+    title: 'We Design the Evening',
+    description: 'We shape the menu around your tastes and your guests, and choose the right chef to bring it to life.',
   },
   {
     number: '03',
     icon: ShoppingBag,
-    title: 'We source ingredients and prepare',
-    description: 'We source the best available ingredients and arrive at your venue fully prepared to deliver excellence.',
+    title: 'Your Chef Arrives, We Run the Room',
+    description: 'On the day, the chef we chose arrives early and cooks to order in your kitchen — while we choreograph every detail around it.',
   },
   {
     number: '04',
     icon: Utensils,
-    title: 'You enjoy; we handle cleanup',
-    description: 'Sit back and enjoy a flawless dining experience. We handle everything from plating to cleanup.',
+    title: 'You Simply Enjoy',
+    description: 'The courses are plated with precision; the service we arrange looks after your guests; the kitchen is left immaculate. All you keep is the memory.',
   },
 ]
 

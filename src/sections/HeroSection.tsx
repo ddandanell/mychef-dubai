@@ -139,7 +139,7 @@ export default function HeroSection() {
           className="font-playfair text-fluid-display font-semibold leading-tight opacity-0"
         >
           <span className="text-white block">Exceptional Dining,</span>
-          <span className="text-gold font-normal block mt-1">Crafted for You</span>
+          <span className="text-gold font-normal block mt-1">Crafted Around You</span>
         </h1>
 
         {/* Subtext */}
@@ -147,7 +147,7 @@ export default function HeroSection() {
           ref={subtextRef}
           className="mt-5 md:mt-6 font-inter text-base md:text-body-lg font-light text-white/90 max-w-xl leading-relaxed opacity-0"
         >
-          Premium private chef services and luxury catering across Dubai. From intimate villa dinners to grand yacht events — every experience is tailored to your taste.
+          Dubai&apos;s private-dining house. We design the evening, choose your chef, and run every detail to one standard — ours — so you&apos;re a guest at your own table.
         </p>
 
         {/* CTA Row */}
@@ -156,7 +156,7 @@ export default function HeroSection() {
             Request a Proposal
           </Link>
           <a href="#services" className="btn-secondary text-center">
-            Browse Our Services
+            Browse Our Experiences
           </a>
         </div>
 
@@ -179,7 +179,7 @@ export default function HeroSection() {
                 <span className="text-gold">Chef-Led</span>
               </div>
               <div className="font-inter text-caption md:text-body-sm text-gray-400 uppercase tracking-wider mt-1">
-                Hospitality Team
+                Dining Experiences
               </div>
             </div>
             <div className="text-center md:text-left">
