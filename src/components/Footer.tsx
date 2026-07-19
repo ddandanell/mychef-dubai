@@ -90,10 +90,10 @@ export default function Footer() {
               myCHEF
             </Link>
             <p className="mt-4 font-inter text-body-sm text-gray-400 leading-relaxed">
-              Premium Private Chef & Catering, Dubai
+              Private Dining & Event Design, Dubai
             </p>
             <p className="mt-4 font-inter text-body-sm text-gray-500 leading-relaxed">
-              Bespoke culinary experiences for villas, yachts, and events across Dubai.
+              Bespoke dining experiences for villas, yachts, and events across Dubai.
             </p>
             <SocialLinks className="mt-5" />
           </div>
@@ -291,6 +291,13 @@ export default function Footer() {
               </div>
             </div>
           </div>
+        </div>
+
+        {/* Role statement */}
+        <div className="border-t border-charcoal-light mt-8 pt-8">
+          <p className="font-inter text-xs text-gray-500 text-center leading-relaxed max-w-4xl mx-auto">
+            myCHEF Dubai designs and manages private dining and event experiences and connects clients with independent, licensed chefs and catering professionals. Culinary preparation is performed by those licensed third parties, whom the client engages; myCHEF is not a food establishment.
+          </p>
         </div>
 
         {/* Divider */}
