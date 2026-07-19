@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react'
 import { Link } from 'react-router'
-import { Check, Clock, FileText, Phone, ChevronRight } from 'lucide-react'
+import { Check, Clock, FileText, Phone, ChevronRight, Gift } from 'lucide-react'
 import gsap from 'gsap'
 import { useGSAP } from '@gsap/react'
 import SEO from '@/components/SEO'
@@ -89,7 +89,23 @@ export default function ThankYou() {
         </div>
       </section>
 
-      {/* Section 2: While You Wait */}
+      {/* Section 2: Referral Prompt */}
+      <section className="bg-cream py-16">
+        <div className="container-custom max-w-[800px]">
+          <div className="bg-black p-8 md:p-10 text-center">
+            <Gift size={40} className="text-gold mx-auto mb-4" />
+            <h3 className="font-playfair text-h3 text-white mb-3">Love myCHEF? Share the Reward</h3>
+            <p className="font-inter text-body text-gray-400 leading-relaxed mb-6">
+              Refer a friend to myCHEF Dubai and you will both receive AED 100 — them off their first booking, you as credit towards your next experience.
+            </p>
+            <Link to="/referral-programme?utm_source=mychef.ae&utm_medium=thank_you_banner&utm_campaign=referral-programme" className="btn-primary inline-flex items-center gap-2">
+              Join the Referral Programme <ChevronRight size={16} />
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Section 3: While You Wait */}
       <section className="bg-white py-16">
         <div className="container-custom max-w-[1000px]">
           <div className="text-center mb-10">

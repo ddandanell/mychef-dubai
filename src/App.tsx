@@ -164,6 +164,7 @@ const HowWeVetOurChefs = lazy(() => import('./pages/HowWeVetOurChefs'))
 const BookingProtectionInsurance = lazy(() => import('./pages/BookingProtectionInsurance'))
 const BecomeAMyChef = lazy(() => import('./pages/BecomeAMyChef'))
 const ReviewRequest = lazy(() => import('./pages/ReviewRequest'))
+const ReferralProgramme = lazy(() => import('./pages/ReferralProgramme'))
 const PartnerWithUs = lazy(() => import('./pages/PartnerWithUs'))
 const Press = lazy(() => import('./pages/Press'))
 const SiteMap = lazy(() => import('./pages/SiteMap'))
@@ -333,6 +334,7 @@ export default function App() {
           <Route path="/booking-protection-insurance" element={<BookingProtectionInsurance />} />
           <Route path="/become-a-mychef" element={<BecomeAMyChef />} />
           <Route path="/review" element={<ReviewRequest />} />
+          <Route path="/referral-programme" element={<ReferralProgramme />} />
           <Route path="/partner-with-us" element={<PartnerWithUs />} />
           <Route path="/press" element={<Press />} />
           <Route path="/site-map" element={<SiteMap />} />
