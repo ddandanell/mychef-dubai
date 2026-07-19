@@ -153,7 +153,7 @@ const locations = [
 const faqs = [
   {
     q: 'Do you offer private cooking classes at home in Dubai?',
-    a: 'Yes. Our chefs come to your villa, apartment, or venue with ingredients and equipment for a fully private cooking class.',
+    a: 'Yes. The chefs in our network come to your villa, apartment, or venue with ingredients and equipment for a fully private cooking class.',
   },
   {
     q: 'Are cooking classes suitable for beginners?',
@@ -208,7 +208,7 @@ const serviceSchema = {
   name: 'Private Cooking Classes Dubai',
   serviceType: 'Cooking Class / Chef Experience',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'ProfessionalService',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',

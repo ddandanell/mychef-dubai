@@ -60,7 +60,7 @@ const partyFormats = [
   {
     icon: Home,
     title: 'Villa Parties',
-    description: 'Full-service villa catering across Dubai — BBQ grills, buffet stations, bartenders, and seamless setup and cleanup.',
+    description: 'fully-coordinated catering across Dubai — BBQ grills, buffet stations, bartenders, and seamless setup and cleanup.',
     link: '/catering-dubai',
   },
 ]
@@ -70,7 +70,7 @@ const includedItems = [
   { title: 'Canapés & Grazing Tables', description: 'Beautifully styled sharing tables and passed canapés for every format.' },
   { title: 'Drinks & Mixology', description: 'Cocktails, mocktails, and bartender service tailored to your celebration.' },
   { title: 'Professional Service Staff', description: 'Waiters, hosts, and bartenders scaled to your party size.' },
-  { title: 'Live Cooking Stations', description: 'Interactive chef-manned stations that become part of the entertainment.' },
+  { title: 'Live Cooking Stations', description: 'Interactive partner-chef-led stations that become part of the entertainment.' },
   { title: 'Styling & Presentation', description: 'Elegant tableware, linens, and display styling to match your theme.' },
   { title: 'Full Setup & Cleanup', description: 'We arrive early, run the service, and leave your space spotless.' },
   { title: 'On-Site Coordination', description: 'A coordinator ensures flawless timing from first guest to last.' },
@@ -79,7 +79,7 @@ const includedItems = [
 const useCases = [
   {
     title: 'At-Home & Villa Celebrations',
-    description: 'Transform your villa, garden, or rooftop into a full event space. We bring the kitchen, the staff, and the styling to you — across Palm Jumeirah, Emirates Hills, Dubai Hills, and beyond.',
+    description: 'Transform your villa, garden, or rooftop into a full event space. We bring the chefs, staff, and styling to you — across Palm Jumeirah, Emirates Hills, Dubai Hills, and beyond.',
   },
   {
     title: 'Yacht & Marina Parties',
@@ -91,7 +91,7 @@ const useCases = [
   },
   {
     title: 'Last-Minute Gatherings',
-    description: 'Hosting on short notice? Our team can assemble a polished grazing table, canapé selection, or BBQ spread quickly without compromising on quality.',
+    description: 'Hosting on short notice? The chefs in our network can assemble a polished grazing table, canapé selection, or BBQ spread quickly without compromising on quality.',
   },
 ]
 
@@ -126,11 +126,11 @@ const locations = [
 const faqs = [
   {
     q: 'What kinds of parties do you cater in Dubai?',
-    a: 'We cater birthdays, bachelor and bachelorette parties, baby showers, private home and villa parties, yacht gatherings, and milestone celebrations. Each menu is built around your theme, guest count, and venue.',
+    a: 'we coordinate catering for birthdays, bachelor and bachelorette parties, baby showers, private home and villa parties, yacht gatherings, and milestone celebrations. Each menu is built around your theme, guest count, and venue.',
   },
   {
     q: 'How many guests do you cater for?',
-    a: 'We cater intimate parties from around 10 guests up to large celebrations of several hundred. For very small gatherings, our private chef service may be a better fit, and we are happy to advise.',
+    a: 'we coordinate catering intimate parties from around 10 guests up to large celebrations of several hundred. For very small gatherings, our private chef service may be a better fit, and we are happy to advise.',
   },
   {
     q: 'Can you provide drinks, cocktails, and bartenders?',
@@ -227,7 +227,7 @@ const serviceSchema = {
   name: 'Party Catering Dubai',
   serviceType: 'Party Catering Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'ProfessionalService',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',
@@ -373,7 +373,7 @@ export default function PartyCatering() {
             A great party is more than good food — it is the rhythm of the evening, the moment guests gather around a grazing table, the cocktail that arrives at exactly the right time. At myCHEF Dubai, we treat party catering as a complete experience, designed from your theme and venue outward.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Whether you are hosting an intimate gathering in your villa, a lively bachelor weekend, an elegant bachelorette afternoon, a heartfelt baby shower, an <Link to="/anniversary-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">anniversary celebration</Link>, a <Link to="/housewarming-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">housewarming</Link>, or a <Link to="/pool-party-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">pool party</Link>, our team brings the kitchen, the staff, and the styling to you. Explore our dedicated party services below, or speak to us directly to start planning. We also pair seamlessly with our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
+            Whether you are hosting an intimate gathering in your villa, a lively bachelor weekend, an elegant bachelorette afternoon, a heartfelt baby shower, an <Link to="/anniversary-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">anniversary celebration</Link>, a <Link to="/housewarming-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">housewarming</Link>, or a <Link to="/pool-party-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">pool party</Link>, the chefs in our network bring the staff and the styling to you. Explore our dedicated party services below, or speak to us directly to start planning. We also pair seamlessly with our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mt-5">
             For easy mingling food, try our <Link to="/finger-food-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">finger food catering</Link>. Seasonal hosts can also explore <Link to="/halloween-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Halloween catering in Dubai</Link>.
@@ -386,7 +386,7 @@ export default function PartyCatering() {
         <div className="container-custom">
           <div className="text-center mb-12">
             <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              PARTY TYPES WE CATER
+              PARTY TYPES we coordinate catering for
             </span>
             <h2 className="font-playfair text-h2 text-white">
               Choose Your Celebration
@@ -422,7 +422,7 @@ export default function PartyCatering() {
         <div className="container-custom">
           <div className="text-center mb-12">
             <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WHERE WE CATER
+              WHERE WE SERVE
             </span>
             <h2 className="font-playfair text-h2 text-white">
               Parties for Every Setting

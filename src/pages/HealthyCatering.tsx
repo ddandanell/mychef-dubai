@@ -195,7 +195,7 @@ const serviceSchema = {
   name: 'Healthy Catering Dubai',
   serviceType: 'Catering Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'ProfessionalService',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',
@@ -332,7 +332,7 @@ export default function HealthyCatering() {
             Healthy catering should never feel like a sacrifice. The best balanced menus are built on quality ingredients and thoughtful composition — lean proteins, whole grains, vibrant vegetables, and just enough indulgence — so guests finish a meal feeling light and energised rather than weighed down. At myCHEF Dubai, we treat nutrition and flavour as partners, not trade-offs, crafting menus that look generous and eat well.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Whether you are planning a corporate wellness day, a fitness retreat, a light summer reception, or a balanced family gathering, our team designs menus around your goals. Explore dedicated <Link to="/keto-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">keto catering Dubai</Link> and <Link to="/gluten-free-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">gluten-free catering Dubai</Link> options, or see how healthy dining fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
+            Whether you are planning a corporate wellness day, a fitness retreat, a light summer reception, or a balanced family gathering, the chefs in our network design menus around your goals. Explore dedicated <Link to="/keto-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">keto catering Dubai</Link> and <Link to="/gluten-free-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">gluten-free catering Dubai</Link> options, or see how healthy dining fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
           </p>
         </div>
       </section>

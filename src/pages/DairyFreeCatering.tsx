@@ -22,7 +22,7 @@ const config: DietaryPageConfig = {
   introNodes: (
     <>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        Dairy-free catering has moved far beyond omission. With the right oils, nut milks, coconut creams and cultured alternatives, our chefs build menus that are every bit as rich, rounded and satisfying as their dairy-based equivalents. Whether your guests are lactose intolerant, vegan, or simply avoiding dairy, we create events where no one feels they are missing out.
+        Dairy-free catering has moved far beyond omission. With the right oils, nut milks, coconut creams and cultured alternatives, the chefs in our network build menus that are every bit as rich, rounded and satisfying as their dairy-based equivalents. Whether your guests are lactose intolerant, vegan, or simply avoiding dairy, we create events where no one feels they are missing out.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
         From dairy-free wedding cakes to creamy risottos and luscious desserts, every course is designed without milk, cream, butter or cheese. Browse how this connects with our{' '}
@@ -107,7 +107,7 @@ const config: DietaryPageConfig = {
     { title: 'Dairy-Free Bakery', description: 'Cakes, tarts and pastries made with alternative fats and milks for texture and flavour.' },
     { title: 'Clear Menu Labelling', description: 'Guests know exactly which dishes are dairy-free, with staff briefed to answer questions.' },
     { title: 'Custom Menu Design', description: 'Menus tailored to your occasion, guest count and any other dietary overlaps.' },
-    { title: 'On-Site Cooking & Service', description: 'Food cooked and finished at your venue by our team, served with full front-of-house support.' },
+    { title: 'On-Site Cooking & Service', description: 'Food cooked and finished at your venue by the chefs in our network, served with full front-of-house support.' },
     { title: 'Mixed-Diet Solutions', description: 'We can serve a fully dairy-free event or integrate options within a wider menu.' },
     { title: 'Setup & Pack-Down', description: 'We bring equipment, serve and clear away, leaving your venue tidy.' },
   ],

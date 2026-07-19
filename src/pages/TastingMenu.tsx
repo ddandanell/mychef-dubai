@@ -147,7 +147,7 @@ const config: ServicePageConfig = {
     },
     {
       q: 'Do you provide drinks pairing?',
-      a: 'We create mocktail, juice and tonic pairings to complement each course. If you would like alcoholic pairings, our team can coordinate with your selected sommelier or supplier.',
+      a: 'We create mocktail, juice and tonic pairings to complement each course. If you would like alcoholic pairings, the chefs in our network can coordinate with your selected sommelier or supplier.',
     },
     {
       q: 'How far in advance should I book a tasting menu?',

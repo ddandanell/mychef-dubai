@@ -9,7 +9,7 @@ export function organizationSchema() {
     name: SITE_NAME,
     url: SITE_URL,
     logo: LOGO_URL,
-    description: 'Premium private chef and luxury catering services in Dubai.',
+    description: 'Premium private chef and luxury catering coordination in Dubai.',
     // sameAs: add verified social profile URLs here once accounts are live
     // (Instagram, Facebook, LinkedIn, TikTok, Pinterest, Google Business Profile)
     contactPoint: {
@@ -26,11 +26,11 @@ export function organizationSchema() {
 export function localBusinessSchema() {
   return {
     '@context': 'https://schema.org',
-    '@type': 'FoodService',
+    '@type': 'ProfessionalService',
     name: SITE_NAME,
     url: SITE_URL,
     logo: LOGO_URL,
-    description: 'Premium private chef and luxury catering services in Dubai.',
+    description: 'Premium private chef and luxury catering coordination in Dubai.',
     address: {
       '@type': 'PostalAddress',
       addressLocality: 'Dubai',

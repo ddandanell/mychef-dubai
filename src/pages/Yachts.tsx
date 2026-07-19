@@ -17,9 +17,9 @@ const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}
 const yachtServices = [
   { icon: Utensils, title: 'Yacht Private Chef', desc: 'A dedicated chef on board for your voyage. Multi-course dining prepared fresh in the yacht galley with the Dubai skyline as your backdrop.', link: '/private-chef-dubai' },
   { icon: GlassWater, title: 'Cocktail Party', desc: 'Sophisticated passed canapes and appetizers for yacht cocktail receptions and sunset cruises. Elegant, effortless entertaining.', link: '/cocktail-party-catering-dubai' },
-  { icon: Flame, title: 'BBQ on Deck', desc: 'Premium BBQ dining on deck. Chef-manned grilling station with premium cuts, fresh seafood, and Mediterranean-inspired sides.', link: '/bbq-catering-dubai' },
+  { icon: Flame, title: 'BBQ on Deck', desc: 'Premium BBQ dining on deck. Partner-chef-led grilling station with premium cuts, fresh seafood, and Mediterranean-inspired sides.', link: '/bbq-catering-dubai' },
   { icon: UtensilsCrossed, title: 'Formal Yacht Dinner', desc: 'Multi-course plated dinner service on your yacht. White-glove service, stunning presentation, and an unforgettable atmosphere.', link: '/luxury-dining-experiences' },
-  { icon: Ship, title: 'Yacht Event Catering', desc: 'Full-service catering for yacht parties and events. Canapes, buffet, plated options — we scale to your guest count.', link: '/events' },
+  { icon: Ship, title: 'Yacht Event Catering', desc: 'fully-coordinated catering for yacht parties and events. Canapes, buffet, plated options — we scale to your guest count.', link: '/events' },
   { icon: Sunrise, title: 'Sunrise & Sunset Brunch', desc: 'Elegant brunch service for morning or evening yacht cruises. Fresh, light, and beautifully presented for any time of day.', link: '/brunch-catering-dubai' },
 ]
 
@@ -39,7 +39,7 @@ const yachtFeatures = [
   { title: 'Maritime-Experienced Chefs', desc: 'Our yacht chefs are specifically trained for cooking at sea — they understand galley constraints and plan accordingly.' },
   { title: 'Compact Kitchen Expertise', desc: 'We bring portable equipment and techniques optimized for small yacht galleys. No dish is beyond our reach.' },
   { title: 'Weather-Adaptive Menus', desc: 'Hot day? Cool, refreshing dishes. Evening breeze? Warm, comforting courses. We adapt to conditions.' },
-  { title: 'Dock-to-Deck Service', desc: 'We handle everything from provisioning at the marina to plating on deck. Seamless, start to finish.' },
+  { title: 'Dock-to-Deck Service', desc: 'we design and manage the experience from provisioning at the marina to plating on deck. Seamless, start to finish.' },
 ]
 
 const galleryImages = [
@@ -58,7 +58,7 @@ const faqItems = [
   },
   {
     q: 'What yacht sizes do you cater?',
-    a: 'From intimate 40-foot yachts to 200+ foot superyachts. We scale our team and service to match your vessel. Whether it is a romantic dinner for two or a celebration for fifty, we deliver the same exceptional standard.',
+    a: 'From intimate 40-foot yachts to 200+ foot superyachts. We scale the chefs in our network and service to match your vessel. Whether it is a romantic dinner for two or a celebration for fifty, we deliver the same exceptional standard.',
   },
   {
     q: 'Do you provide service staff for yachts?',
@@ -254,7 +254,7 @@ export default function Yachts() {
         <div className="max-w-[1000px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="font-playfair text-h2 text-black" style={{ lineHeight: '1.15' }}>
-              We Cater Yachts Across Dubai
+              we coordinate catering for Yachts Across Dubai
             </h2>
             <p className="font-inter text-body text-gray-500 mt-4 max-w-xl mx-auto">
               From Dubai Marina to the World Islands — our yacht chefs serve every waterway in the city.

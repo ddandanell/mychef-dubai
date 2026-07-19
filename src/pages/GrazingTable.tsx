@@ -70,7 +70,7 @@ const includedItems = [
   { title: 'Breads, Crackers & Dips', description: 'Warm breads, artisan crackers, and house-made dips and preserves.' },
   { title: 'Bespoke Styling', description: 'On-trend grazing styling with boards, vessels, foliage, and florals.' },
   { title: 'Sweet & Savoury Mix', description: 'A considered balance of savoury bites and sweet touches across the table.' },
-  { title: 'On-Site Set-Up', description: 'Our team builds and arranges the grazing table at your venue.' },
+  { title: 'On-Site Set-Up', description: 'the chefs in our network build and arranges the grazing table at your venue.' },
   { title: 'Dietary Options', description: 'Vegetarian, vegan, halal, and gluten-free elements arranged on request.' },
   { title: 'Full Pack-Down', description: 'We clear, pack down, and leave your space spotless after the event.' },
 ]
@@ -141,7 +141,7 @@ const faqs = [
   },
   {
     q: 'Do you set up the grazing table on-site?',
-    a: 'Yes. Our team builds and styles the grazing table at your venue, whether that is a villa, garden, rooftop, or office, and we return to pack down and clear afterwards so you do not have to.',
+    a: 'Yes. The chefs in our network build and styles the grazing table at your venue, whether that is a villa, garden, rooftop, or office, and we return to pack down and clear afterwards so you do not have to.',
   },
   {
     q: 'How far in advance should I book?',
@@ -184,7 +184,7 @@ const serviceSchema = {
   name: 'Grazing Table Dubai',
   serviceType: 'Catering Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'ProfessionalService',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',
@@ -321,7 +321,7 @@ export default function GrazingTable() {
             A grazing table is more than food on a board — it is a moment. The abundant cascade of cured meats, aged cheeses, seasonal fruits, warm breads, and house-made dips becomes the visual heart of your celebration, the place guests drift back to all afternoon. At myCHEF Dubai, we treat each grazing table as an edible installation, composed and styled corner to corner for both flavour and effect.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Whether you are hosting a soft, floral bridal shower, a pastel baby shower, a relaxed villa gathering, or a polished corporate reception, our team builds the spread on-site and tailors every element to your palette, theme, and guest count. Explore our grazing formats below, or see how it fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
+            Whether you are hosting a soft, floral bridal shower, a pastel baby shower, a relaxed villa gathering, or a polished corporate reception, the chefs in our network build the spread on-site and tailors every element to your palette, theme, and guest count. Explore our grazing formats below, or see how it fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
           </p>
         </div>
       </section>

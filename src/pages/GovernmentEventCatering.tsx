@@ -131,8 +131,8 @@ const config: ServicePageConfig = {
   faqsH2: 'Government Event Catering Questions',
   faqs: [
     {
-      q: 'What types of government events do you cater?',
-      a: 'We cater official receptions, ministry functions, diplomatic events, national day celebrations, conferences, summits, ribbon-cuttings, award ceremonies and working lunches.',
+      q: 'What types of government events can myCHEF support?',
+      a: 'We coordinate catering for official receptions, ministry functions, diplomatic events, national day celebrations, conferences, summits, ribbon-cuttings, award ceremonies and working lunches.',
     },
     {
       q: 'Can you accommodate large guest numbers?',
@@ -158,7 +158,7 @@ const config: ServicePageConfig = {
   relatedServices: [
     {
       title: 'Corporate Event Catering',
-      description: 'Full-service catering for conferences, launches and company celebrations across Dubai.',
+      description: 'Comprehensive catering for conferences, launches and company celebrations across Dubai.',
       image: '/service-corporate.webp',
       link: '/corporate-event-catering-dubai',
     },

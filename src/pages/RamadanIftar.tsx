@@ -80,7 +80,7 @@ const howItWorks = [
   { title: 'Share Your Iftar Plans', description: 'Tell us your dates, guest count, location in Dubai, and any dietary or halal requirements for the gathering.' },
   { title: 'Receive a Custom Proposal', description: 'We design a bespoke Iftar menu with traditional and contemporary dishes, service style, and staffing plan.' },
   { title: 'Confirm Your Booking', description: 'Once the menu and logistics are approved, we lock in your preferred Ramadan dates and confirm every detail.' },
-  { title: 'We Source Ingredients', description: 'Our team shops for fresh produce, premium proteins, dates, and specialty ingredients ahead of the event.' },
+  { title: 'We Source Ingredients', description: 'the chefs in our network shop for fresh produce, premium proteins, dates, and specialty ingredients ahead of the event.' },
   { title: 'Arrive & Prepare On-Site', description: 'Chefs and service staff arrive early to set up, prepare dishes, and be ready the moment the fast is broken.' },
   { title: 'Serve, Support & Clean', description: 'We host your Iftar service, attend to guests, and clear away everything afterwards, leaving your space tidy.' },
 ]
@@ -96,7 +96,7 @@ const useCases = [
   },
   {
     title: 'Community & Embassy Iftars',
-    description: 'We cater larger community gatherings with scalable menus, timely service at sunset, and the cultural sensitivity that Ramadan occasions deserve.',
+    description: 'we coordinate catering for larger community gatherings with scalable menus, timely service at sunset, and the cultural sensitivity that Ramadan occasions deserve.',
   },
   {
     title: 'Suhoor Before Fajr',
@@ -107,7 +107,7 @@ const useCases = [
 const faqs = [
   {
     q: 'Do you cater Iftar for both small families and large companies?',
-    a: 'Yes. We cater intimate family Iftars at home as well as large corporate, embassy, and community Iftars in hotels, offices, and event spaces across Dubai.',
+    a: 'Yes. We coordinate catering intimate family Iftars at home as well as large corporate, embassy, and community Iftars in hotels, offices, and event spaces across Dubai.',
   },
   {
     q: 'Can the menu include traditional Ramadan dishes?',
@@ -115,7 +115,7 @@ const faqs = [
   },
   {
     q: 'Do you accommodate halal and dietary requirements?',
-    a: 'Yes. We prepare halal menus and can accommodate vegetarian, vegan, gluten-free, dairy-free, and allergy-aware requirements with advance notice.',
+    a: 'Yes. your chef prepares halal menus and can accommodate vegetarian, vegan, gluten-free, dairy-free, and allergy-aware requirements with advance notice.',
   },
   {
     q: 'Can you provide service staff and equipment?',
@@ -146,7 +146,7 @@ const relatedServices = [
   },
   {
     title: 'Party Catering',
-    description: 'Full-service catering for celebrations, from intimate dinners to large gatherings.',
+    description: 'fully-coordinated catering for celebrations, from intimate dinners to large gatherings.',
     image: '/service-villa.webp',
     link: '/party-catering-dubai',
   },
@@ -174,7 +174,7 @@ const serviceSchema = {
   name: 'Iftar Catering Dubai',
   serviceType: 'Catering Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'ProfessionalService',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',
@@ -327,7 +327,7 @@ export default function RamadanIftar() {
             Iftar is more than a meal — it is a moment of gratitude, togetherness, and tradition. At myCHEF Dubai, we create Iftar catering experiences that respect the rhythm of Ramadan while delivering food your guests will remember. From the first date to the final cup of Arabic coffee, every detail is planned around your family, your colleagues, or your community.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Whether you are hosting an intimate family Iftar, a corporate gathering for staff, or a community event at a hotel or event space, our team brings the menu, staff, and setup to you. Menus can be adapted to guest count, dietary needs, and event style, ensuring each evening feels personal and effortless.
+            Whether you are hosting an intimate family Iftar, a corporate gathering for staff, or a community event at a hotel or event space, the chefs in our network bring the menu, staff, and setup to you. Menus can be adapted to guest count, dietary needs, and event style, ensuring each evening feels personal and effortless.
           </p>
         </div>
       </section>
@@ -482,10 +482,10 @@ export default function RamadanIftar() {
             </h2>
             <div className="space-y-5">
               <p className="font-inter text-body-lg text-gray-400 leading-relaxed">
-                We understand that Ramadan catering in Dubai is about more than great food. It is about timing, hospitality, and respect for tradition. Our chefs and service teams arrive prepared, serve with discretion, and ensure that the fast is broken smoothly and beautifully.
+                We understand that Ramadan catering in Dubai is about more than great food. It is about timing, hospitality, and respect for tradition. The chefs in our network and service teams arrive prepared, serve with discretion, and ensure that the fast is broken smoothly and beautifully.
               </p>
               <p className="font-inter text-body-lg text-gray-400 leading-relaxed">
-                We plan every Iftar around your schedule, your space, and your guests. Menus are fully customised, dietary requirements are carefully managed, and our team handles setup, service, and clear-down so you can focus on what matters most during the holy month.
+                We plan every Iftar around your schedule, your space, and your guests. Menus are fully customised, dietary requirements are carefully managed, and the chefs in our network handle setup, service, and clear-down so you can focus on what matters most during the holy month.
               </p>
             </div>
           </div>

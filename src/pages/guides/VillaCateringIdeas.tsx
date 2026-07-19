@@ -89,7 +89,7 @@ const seasonalNotes = [
 const internalLinks = [
   { title: 'Private Chef Dubai', link: '/private-chef-dubai', description: 'Personal chef service for villa dinners and events.' },
   { title: 'BBQ Catering Dubai', link: '/bbq-catering-dubai', description: 'Grill-focused outdoor menus for poolsides and gardens.' },
-  { title: 'Party Catering Dubai', link: '/party-catering-dubai', description: 'Full-service catering for villa parties and celebrations.' },
+  { title: 'Party Catering Dubai', link: '/party-catering-dubai', description: 'fully-coordinated catering for villa parties and celebrations.' },
   { title: 'Luxury Dining Dubai', link: '/luxury-dining-dubai', description: 'Plated dinners and private dining experiences at home.' },
   { title: 'Birthday Catering Dubai', link: '/birthday-catering-dubai', description: 'Themed menus and cakes for villa birthday parties.' },
   { title: 'Dubai Catering Prices Guide', link: '/dubai-catering-prices-guide', description: 'Understand per-person costs for villa catering formats.' },
@@ -144,7 +144,7 @@ const serviceSchema = {
   name: 'Villa Catering Ideas Dubai',
   serviceType: 'Catering Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'ProfessionalService',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',

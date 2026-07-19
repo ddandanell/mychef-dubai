@@ -152,7 +152,7 @@ const faqs = [
 const relatedServices = [
   {
     title: 'Catering Dubai',
-    description: 'Full-service luxury catering for events of every size across Dubai.',
+    description: 'fully-coordinated catering for events of every size across Dubai.',
     image: '/service-catering.webp',
     link: '/catering-dubai',
   },
@@ -184,7 +184,7 @@ const serviceSchema = {
   name: 'Canapé Catering Dubai',
   serviceType: 'Catering Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'ProfessionalService',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',
@@ -321,7 +321,7 @@ export default function CanapeCatering() {
             A great canapé does a lot of work in a single bite. It sets the tone of a reception, keeps guests mingling, and looks as considered as it tastes. At myCHEF Dubai, we treat canapé catering as precision work — each piece designed for balance, elegance, and the way it photographs on the tray.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Our team builds menus that move easily through a room, pairing chilled seafood bites, warm savoury morsels, and sweet petit fours with optional cocktails and mocktails. Servers pass canapés with timing and grace, while styled displays give guests a centrepiece to gather around. Whether it is a cocktail reception, a gallery opening, a rooftop gathering, or an engagement toast, we bring the bites, the staff, and the styling to you. Explore our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>, or speak to us to start planning.
+            the chefs in our network build menus that move easily through a room, pairing chilled seafood bites, warm savoury morsels, and sweet petit fours with optional cocktails and mocktails. Servers pass canapés with timing and grace, while styled displays give guests a centrepiece to gather around. Whether it is a cocktail reception, a gallery opening, a rooftop gathering, or an engagement toast, we bring the bites, the staff, and the styling to you. Explore our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>, or speak to us to start planning.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mt-5">
             For more casual mingling menus, see our <Link to="/finger-food-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">finger food catering in Dubai</Link>.
@@ -370,7 +370,7 @@ export default function CanapeCatering() {
         <div className="container-custom">
           <div className="text-center mb-12">
             <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WHERE WE CATER
+              WHERE WE SERVE
             </span>
             <h2 className="font-playfair text-h2 text-white">
               Canapés for Every Setting

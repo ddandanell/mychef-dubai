@@ -25,7 +25,7 @@ const config: ServicePageConfig = {
         Saying goodbye is never easy, but the right food and atmosphere can turn a farewell into a celebration of everything that has been achieved. Our farewell and retirement catering in Dubai is designed for office send-offs, retirement dinners, leaving parties and recognition events where colleagues, friends and family come together to honour a milestone.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        We cater across Dubai for corporate farewells in DIFC and Business Bay, relaxed rooftop receptions in Dubai Marina, and intimate villa gatherings in Emirates Hills and Palm Jumeirah. Menus range from refined canapés and grazing tables to plated dinners, BBQ live stations and themed dessert displays. Our team handles setup, service and cleanup so hosts can focus on speeches, memories and the guest of honour.
+        we coordinate catering across Dubai for corporate farewells in DIFC and Business Bay, relaxed rooftop receptions in Dubai Marina, and intimate villa gatherings in Emirates Hills and Palm Jumeirah. Menus range from refined canapés and grazing tables to plated dinners, BBQ live stations and themed dessert displays. The chefs in our network handle setup, service and cleanup so hosts can focus on speeches, memories and the guest of honour.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
         This service sits between our{' '}
@@ -67,7 +67,7 @@ const config: ServicePageConfig = {
     {
       Icon: Home,
       title: 'Private Villa Farewells',
-      description: 'Full-service catering at home or in a villa for family-focused goodbye gatherings.',
+      description: 'fully-coordinated catering at home or in a villa for family-focused goodbye gatherings.',
       link: '/villas-private-residences',
     },
     {
@@ -104,7 +104,7 @@ const config: ServicePageConfig = {
     {
       title: 'Expat Farewell Gatherings',
       description:
-        'Dubai is a transient city. We cater expat leaving parties with menus that suit mixed nationalities and dietary preferences.',
+        'Dubai is a transient city. We coordinate catering for expat leaving parties with menus that suit mixed nationalities and dietary preferences.',
     },
   ],
   includedH2: "What's Included in Our Farewell & Retirement Catering",
@@ -131,7 +131,7 @@ const config: ServicePageConfig = {
   faqs: [
     {
       q: 'What types of farewell events do you cater?',
-      a: 'We cater retirement parties, office leaving lunches, corporate send-offs, expat goodbye gatherings and private family farewell dinners across Dubai.',
+      a: 'we coordinate catering for retirement parties, office leaving lunches, corporate send-offs, expat goodbye gatherings and private family farewell dinners across Dubai.',
     },
     {
       q: 'Can the menu reflect the guest of honour?',
@@ -157,7 +157,7 @@ const config: ServicePageConfig = {
   relatedServices: [
     {
       title: 'Corporate Event Catering',
-      description: 'Full-service catering for company events, award ceremonies and team gatherings.',
+      description: 'fully-coordinated catering for company events, award ceremonies and team gatherings.',
       image: '/service-corporate.webp',
       link: '/corporate-event-catering-dubai',
     },

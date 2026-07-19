@@ -7,7 +7,7 @@ const config: ServicePageConfig = {
   slug: 'housewarming-catering-dubai',
   seoTitle: 'Housewarming Catering Dubai | New-Home Celebration Menus',
   metaDescription:
-    'Housewarming party catering in Dubai: relaxed, delicious menus for new homes and villas across the city. From canapés to BBQ buffets, we handle the food so you can enjoy your guests.',
+    'Housewarming party catering in Dubai: relaxed, delicious menus for new homes and villas across the city. From canapés to BBQ buffets, we design and manage the experience so you can enjoy your guests.',
   canonicalPath: '/housewarming-catering-dubai',
   ogImage: '/service-villa.webp',
   breadcrumbLabel: 'Housewarming Catering Dubai',

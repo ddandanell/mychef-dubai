@@ -61,11 +61,11 @@ const costScale = [
 
 const internalLinks = [
   { title: 'Private Chef Dubai', link: '/private-chef-dubai', description: 'Personal chef service for homes and villas.' },
-  { title: 'Catering Dubai', link: '/catering-dubai', description: 'Full-service catering for events of all sizes.' },
+  { title: 'Catering Dubai', link: '/catering-dubai', description: 'fully-coordinated catering for events of all sizes.' },
   { title: 'Villa Catering Ideas', link: '/villa-catering-ideas-dubai', description: 'Menu formats designed for Dubai homes.' },
   { title: 'Luxury Dining Dubai', link: '/luxury-dining-dubai', description: 'Elegant private dining experiences.' },
   { title: 'Dubai Catering Prices Guide', link: '/dubai-catering-prices-guide', description: 'Cost guidance for chef and catering formats.' },
-  { title: 'Party Catering Dubai', link: '/party-catering-dubai', description: 'Full-service catering for private celebrations.' },
+  { title: 'Party Catering Dubai', link: '/party-catering-dubai', description: 'fully-coordinated catering for private celebrations.' },
 ]
 
 const faqs = [
@@ -117,7 +117,7 @@ const serviceSchema = {
   name: 'Private Chef vs Catering Dubai',
   serviceType: 'Catering Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'ProfessionalService',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',

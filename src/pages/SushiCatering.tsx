@@ -86,7 +86,7 @@ const useCases = [
   },
   {
     title: 'Yacht Parties on the Water',
-    description: 'Chilled sushi towers and sashimi boats are made for yacht charters around Dubai Marina and Bluewaters. We prepare and present so the menu travels beautifully out onto the water.',
+    description: 'Chilled sushi towers and sashimi boats are made for yacht charters around Dubai Marina and Bluewaters. Your chef prepares and presents so the menu travels beautifully out onto the water.',
   },
   {
     title: 'Corporate Entertaining',
@@ -190,7 +190,7 @@ const serviceSchema = {
   name: 'Sushi Catering Dubai',
   serviceType: 'Catering Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'ProfessionalService',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',
@@ -327,7 +327,7 @@ export default function SushiCatering() {
             Few things draw a room together like a beautifully composed sushi spread. The clean lines of hand-cut sashimi, the gloss of fresh nigiri, the careful balance of a well-built maki roll — sushi is as much about presentation as it is about flavour. At myCHEF Dubai, we treat each platter as a piece of edible craft, slicing premium fish to order and arranging every element with intention so it looks as considered as it tastes.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Whether you are hosting an intimate villa dinner, a cocktail reception, a yacht charter on the marina, or a polished corporate lunch, our team can build the experience around you — from a styled sashimi centrepiece to a live sushi chef rolling in front of your guests. Explore the formats below, see how sushi fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>, or browse our <Link to="/pescatarian-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">pescatarian catering</Link> and <Link to="/asian-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Asian catering</Link> menus.
+            Whether you are hosting an intimate villa dinner, a cocktail reception, a yacht charter on the marina, or a polished corporate lunch, the chefs in our network can build the experience around you — from a styled sashimi centrepiece to a live sushi chef rolling in front of your guests. Explore the formats below, see how sushi fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>, or browse our <Link to="/pescatarian-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">pescatarian catering</Link> and <Link to="/asian-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Asian catering</Link> menus.
           </p>
         </div>
       </section>

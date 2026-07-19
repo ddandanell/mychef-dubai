@@ -69,7 +69,7 @@ const processSteps = [
   {
     num: '02',
     title: 'Document Review',
-    description: 'Our team reviews your experience, checks your right-to-work documents, and verifies references or portfolio samples.',
+    description: 'the chefs in our network review your experience, checks your right-to-work documents, and verifies references or portfolio samples.',
   },
   {
     num: '03',
@@ -103,8 +103,8 @@ const faqs = [
     a: 'We welcome experienced private chefs, restaurant chefs, event chefs, pastry chefs, and hospitality professionals who can demonstrate strong cooking skills, professionalism, and legal right to work in the UAE.',
   },
   {
-    q: 'Do I need HACCP certification?',
-    a: 'HACCP is not mandatory, but food-hygiene awareness and safe handling practices are required. PIC (Person in Charge) certification is preferred.',
+    q: 'Do I need food-safety-certified (partner-held) certification?',
+    a: 'food-safety-certified (partner-held) is not mandatory, but food-hygiene awareness and safe handling practices are required. PIC (Person in Charge) certification is preferred.',
   },
   {
     q: 'What cuisines are in demand?',
@@ -126,13 +126,13 @@ const faqs = [
 
 const relatedServices = [
   {
-    title: 'How We Vet Our Chefs',
+    title: 'How We Vet the Chefs in Our Network',
     description: 'Understand the verification and assessment process every chef completes.',
     image: '/images/how-we-vet-our-chefs-dubai-hero.webp',
     link: '/how-we-vet-our-chefs',
   },
   {
-    title: 'Our Chefs',
+    title: 'The Chefs in Our Network',
     description: 'Meet the chefs who represent myCHEF Dubai at private events.',
     image: '/service-private-chef.webp',
     link: '/our-chefs',
@@ -375,7 +375,7 @@ export default function BecomeAMyChef() {
               We are not a gig platform. We are a curated network. Every chef is vetted, every menu is bespoke, and every event is supported by a team that understands the standards expected in Dubai's luxury market. In return, you get access to interesting clients, flexible scheduling, clear payment terms, and a brand that promotes your skills professionally.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              Read on to see our requirements, the application process, and what makes a strong candidate. You can also review <Link to="/how-we-vet-our-chefs" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">how we vet our chefs</Link> or explore the <Link to="/our-chefs" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">chefs already in our network</Link>.
+              Read on to see our requirements, the application process, and what makes a strong candidate. You can also review <Link to="/how-we-vet-our-chefs" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">how we vet the chefs in our network</Link> or explore the <Link to="/our-chefs" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">chefs already in our network</Link>.
             </p>
           </div>
         </div>
@@ -473,7 +473,7 @@ export default function BecomeAMyChef() {
               </div>
               <h2 className="font-playfair text-fluid-h2 text-black mb-4">Application Received</h2>
               <p className="font-inter text-body text-gray-500 mb-8">
-                Thank you for applying to become a myCHEF. Our team will review your details and respond within 2–3 business days.
+                Thank you for applying to become a myCHEF. The chefs in our network will review your details and respond within 2–3 business days.
               </p>
               <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-primary inline-flex items-center gap-2">
                 <Phone size={18} />
@@ -721,7 +721,7 @@ export default function BecomeAMyChef() {
             Ready to Join?
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Take the first step toward cooking with myCHEF Dubai. Submit your application and our team will be in touch within 2–3 business days.
+            Take the first step toward cooking with myCHEF Dubai. Submit your application and the chefs in our network will be in touch within 2–3 business days.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a href="#chef-application-form" className="btn-primary">Apply Now</a>

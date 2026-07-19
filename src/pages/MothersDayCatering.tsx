@@ -25,7 +25,7 @@ const config: OccasionPageConfig = {
         Mother's Day should feel effortless for the person who usually does everything. Instead of packing the family into a busy restaurant, bring the celebration home with a private chef and catering team who handle every detail. From a leisurely brunch spread to an elegant afternoon tea or a multi-course lunch, we create a relaxed, beautiful experience centred around her.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-        We cater Mother's Day gatherings across Dubai — villas in Emirates Hills and Arabian Ranches, penthouses in Downtown, beachfront homes in Jumeirah and venues across the city. Pair this with our{' '}
+        we coordinate catering for Mother's Day gatherings across Dubai — villas in Emirates Hills and Arabian Ranches, penthouses in Downtown, beachfront homes in Jumeirah and venues across the city. Pair this with our{' '}
         <Link to="/afternoon-tea-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           afternoon tea catering Dubai
         </Link>{' '}

@@ -152,7 +152,7 @@ const faqs = [
 const relatedServices = [
   {
     title: 'Catering Dubai',
-    description: 'Full-service luxury catering for events of every size across Dubai.',
+    description: 'fully-coordinated catering for events of every size across Dubai.',
     image: '/service-catering.webp',
     link: '/catering-dubai',
   },
@@ -184,7 +184,7 @@ const serviceSchema = {
   name: 'Finger Food Catering Dubai',
   serviceType: 'Catering Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'ProfessionalService',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',
@@ -367,7 +367,7 @@ export default function FingerFoodCatering() {
         <div className="container-custom">
           <div className="text-center mb-12">
             <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WHERE WE CATER
+              WHERE WE SERVE
             </span>
             <h2 className="font-playfair text-h2 text-white">
               Finger Food for Every Setting

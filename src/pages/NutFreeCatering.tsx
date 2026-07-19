@@ -25,7 +25,7 @@ const config: DietaryPageConfig = {
         Nut allergies demand more than a simple ingredient swap — they require clear communication, controlled prep and service processes that reduce risk. Our nut-free catering is designed for hosts who need peace of mind, whether they are planning a school event, a children’s party, a corporate lunch or a family celebration. Every menu is built without tree nuts and peanuts, with staff trained to serve and answer guest questions confidently.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-        We know that nut-free food still needs to feel exciting. Our chefs use seeds, herbs, spices, crunchy vegetables and other ingredients to create texture and flavour without ever opening a nut packet. Learn more about our{' '}
+        We know that nut-free food still needs to feel exciting. The chefs in our network use seeds, herbs, spices, crunchy vegetables and other ingredients to create texture and flavour without ever opening a nut packet. Learn more about our{' '}
         <Link to="/school-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           school catering Dubai
         </Link>{' '}

@@ -123,11 +123,11 @@ const faqs = [
   },
   {
     q: 'What cuisines can your chefs prepare?',
-    a: 'Our team specializes in European fine dining, Mediterranean, Middle Eastern, Asian fusion, seafood-focused menus, and modern international cuisine. Every menu is customized to your preferences.',
+    a: 'the chefs in our network specialize in European fine dining, Mediterranean, Middle Eastern, Asian fusion, seafood-focused menus, and modern international cuisine. Every menu is customized to your preferences.',
   },
   {
     q: 'Do I need special kitchen equipment?',
-    a: 'No. Our chefs bring all necessary equipment. We only need access to your kitchen and basic utilities.',
+    a: 'No. The chefs in our network bring all necessary equipment. We only need access to your kitchen and basic utilities.',
   },
   {
     q: 'How long does a private chef dinner take?',
@@ -135,7 +135,7 @@ const faqs = [
   },
   {
     q: 'Is the service discreet?',
-    a: 'Absolutely. Discretion is a core value at myCHEF Dubai. Our team operates with complete professionalism and confidentiality.',
+    a: 'Absolutely. Discretion is a core value at myCHEF Dubai. The chefs in our network operate with complete professionalism and confidentiality.',
   },
 ]
 
@@ -165,7 +165,7 @@ const schema = {
   '@type': 'Service',
   name: 'Private Chef Dubai',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'ProfessionalService',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',

@@ -94,7 +94,7 @@ const config: ServicePageConfig = {
     {
       title: 'Organiser & Pavilion Hospitality',
       description:
-        'We cater organiser lounges, press rooms, speaker green rooms and national pavilions with efficient service and menus that scale across multi-day events.',
+        'we coordinate catering for organiser lounges, press rooms, speaker green rooms and national pavilions with efficient service and menus that scale across multi-day events.',
     },
     {
       title: 'Product Launches at Trade Shows',
@@ -131,7 +131,7 @@ const config: ServicePageConfig = {
   faqs: [
     {
       q: 'Which exhibition venues in Dubai do you cater?',
-      a: 'We cater at Dubai World Trade Centre, Expo City Dubai, major hotel exhibition halls and outdoor show sites across the emirate. We are familiar with venue access, loading and service restrictions.',
+      a: 'we coordinate catering at Dubai World Trade Centre, Expo City Dubai, major hotel exhibition halls and outdoor show sites across the emirate. We are familiar with venue access, loading and service restrictions.',
     },
     {
       q: 'Can you brand the catering counter to match our stand?',
@@ -139,7 +139,7 @@ const config: ServicePageConfig = {
     },
     {
       q: 'Do you provide staff for exhibition stands?',
-      a: 'Yes. We supply chefs, baristas and service staff who understand the pace of exhibition service and can engage professionally with your visitors.',
+      a: 'Yes. we match you with a vetted chef you engage, baristas and service staff who understand the pace of exhibition service and can engage professionally with your visitors.',
     },
     {
       q: 'Can you handle dietary requirements for a large crowd?',
@@ -157,7 +157,7 @@ const config: ServicePageConfig = {
   relatedServices: [
     {
       title: 'Corporate Event Catering',
-      description: 'Full-service corporate catering for conferences, launches and company events across Dubai.',
+      description: 'fully-coordinated catering for conferences, launches and company events across Dubai.',
       image: '/service-events.webp',
       link: '/corporate-event-catering-dubai',
     },

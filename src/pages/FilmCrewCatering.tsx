@@ -59,7 +59,7 @@ const crewFormats = [
   {
     icon: Truck,
     title: 'Mobile Location Service',
-    description: 'Self-sufficient setups for remote desert, beach, and city locations, with our own equipment, power, and crew bringing the kitchen to you.',
+    description: 'Self-sufficient setups for remote desert, beach, and city locations, with our own equipment, power, and crew that arrives fully equipped.',
     link: '/catering-dubai',
   },
 ]
@@ -79,7 +79,7 @@ const useCases = [
   },
   {
     title: 'Mixed Cast & Crew Requirements',
-    description: 'From talent with specific dietary plans to a large technical crew, we prepare a full range of options side by side, keeping vegetarian, vegan, gluten-free, and halal meals clearly separated and easy to find.',
+    description: 'From talent with specific dietary plans to a large technical crew, your chef prepares a full range of options side by side, keeping vegetarian, vegan, gluten-free, and halal meals clearly separated and easy to find.',
   },
 ]
 
@@ -133,7 +133,7 @@ const faqs = [
   },
   {
     q: 'How do you manage different dietary needs across a crew?',
-    a: 'We prepare vegetarian, vegan, gluten-free, halal, and allergy-aware meals alongside the main service and label them clearly. Provide a breakdown of requirements and we will make sure every cast and crew member is covered.',
+    a: 'Your chef prepares vegetarian, vegan, gluten-free, halal, and allergy-aware meals alongside the main service and labels them clearly. Provide a breakdown of requirements and we will make sure every cast and crew member is covered.',
   },
   {
     q: 'Can you provide second meals and wrap catering?',
@@ -141,7 +141,7 @@ const faqs = [
   },
   {
     q: 'How do you scale for large units?',
-    a: 'We cater everything from small commercial crews to large feature units, scaling breakfast, lunch, and craft tables to the headcount on the call sheet and adjusting day to day as numbers change.',
+    a: 'we coordinate catering for everything from small commercial crews to large feature units, scaling breakfast, lunch, and craft tables to the headcount on the call sheet and adjusting day to day as numbers change.',
   },
   {
     q: 'How far in advance should we book?',
@@ -184,7 +184,7 @@ const serviceSchema = {
   name: 'Film Crew Catering Dubai',
   serviceType: 'Catering Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'ProfessionalService',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',

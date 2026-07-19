@@ -41,7 +41,7 @@ const activationFormats = [
   {
     icon: Flame,
     title: 'Live Chef Theatre',
-    description: 'Chef-manned cooking demos that draw crowds, create social content, and turn passers-by into engaged audiences.',
+    description: 'partner-chef-led cooking demos that draw crowds, create social content, and turn passers-by into engaged audiences.',
     link: '/live-cooking-stations-dubai',
   },
   {
@@ -180,7 +180,7 @@ const serviceSchema = {
   name: 'Brand Activation Catering Dubai',
   serviceType: 'Catering Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'ProfessionalService',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',

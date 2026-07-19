@@ -134,7 +134,7 @@ const faqs = [
   },
   {
     q: 'Can you create a custom cocktail menu for our event?',
-    a: 'Absolutely. Our team designs signature cocktails and mocktails to match your event theme, season, and guest preferences.',
+    a: 'Absolutely. The chefs in our network design signature cocktails and mocktails to match your event theme, season, and guest preferences.',
   },
   {
     q: 'Do you offer non-alcoholic / mocktail bars?',
@@ -142,7 +142,7 @@ const faqs = [
   },
   {
     q: 'What types of events do you provide bar services for?',
-    a: 'We cater weddings, yacht parties, villa dinners, corporate events, gala dinners, birthdays, and brand activations.',
+    a: 'we coordinate catering for weddings, yacht parties, villa dinners, corporate events, gala dinners, birthdays, and brand activations.',
   },
   {
     q: 'Is glassware and bar equipment included?',
@@ -185,7 +185,7 @@ const serviceSchema = {
   name: 'Bar Services Dubai',
   serviceType: 'Bar & Bartender Hire Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'ProfessionalService',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',

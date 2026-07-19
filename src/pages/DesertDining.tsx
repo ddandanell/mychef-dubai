@@ -22,10 +22,10 @@ const config: OccasionPageConfig = {
   introNodes: (
     <>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        Dubai’s desert is one of the most dramatic places to host a meal. Whether you are planning a private dune dinner, a corporate retreat, a romantic proposal or a Bedouin-style celebration, our desert dining catering brings the kitchen to the sand. We design menus that feel authentic to the setting — Arabic sharing plates, live grills, fragrant rice dishes and slow-cooked meats — while keeping logistics, safety and guest comfort front of mind.
+        Dubai’s desert is one of the most dramatic places to host a meal. Whether you are planning a private dune dinner, a corporate retreat, a romantic proposal or a Bedouin-style celebration, our desert dining catering travels to the sand. We design menus that feel authentic to the setting — Arabic sharing plates, live grills, fragrant rice dishes and slow-cooked meats — while keeping logistics, safety and guest comfort front of mind.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-        Our team handles transport, on-site cooking, service styling and pack-down, working with desert camps, event planners and private estates. Explore our{' '}
+        the chefs in our network handle transport, on-site cooking, service styling and pack-down, working with desert camps, event planners and private estates. Explore our{' '}
         <Link to="/arabic-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           Arabic catering Dubai
         </Link>{' '}
@@ -66,7 +66,7 @@ const config: OccasionPageConfig = {
     {
       Icon: Home,
       title: 'Private Desert Camps',
-      description: 'Full-service catering at licensed desert camps and private setups arranged by your event planner.',
+      description: 'fully-coordinated catering at licensed desert camps and private setups arranged by your event planner.',
       link: '/event-catering-dubai',
     },
     {
@@ -124,7 +124,7 @@ const config: OccasionPageConfig = {
   faqs: [
     {
       q: 'Can you cater at any desert camp in Dubai?',
-      a: 'We cater at licensed desert camps and private setups arranged by event planners. If you already have a camp or location, we coordinate directly with them on access, power and service areas.',
+      a: 'we coordinate catering at licensed desert camps and private setups arranged by event planners. If you already have a camp or location, we coordinate directly with them on access, power and service areas.',
     },
     {
       q: 'What food is best for desert dining?',

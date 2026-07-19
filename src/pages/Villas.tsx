@@ -18,7 +18,7 @@ const villaServices = [
   { icon: Calendar, title: 'Weekly Meal Prep', desc: 'Comprehensive weekly meal planning and preparation. Nutritious, delicious meals ready when you are — perfect for busy families.', link: '/corporate-meal-prep-dubai' },
   { icon: Home, title: 'Special Occasion Dinner', desc: 'An unforgettable multi-course dinner for birthdays, anniversaries, or any special celebration in the comfort of your villa.', link: '/luxury-dining-experiences' },
   { icon: PartyPopper, title: 'Family Style Dining', desc: 'Beautifully presented family-style meals that bring everyone together. Perfect for family gatherings and multi-generational stays.', link: '/catering-dubai' },
-  { icon: Baby, title: 'Poolside BBQ', desc: 'Premium BBQ dining by your villa pool. Chef-manned grilling station with premium cuts, seafood, and all the trimmings.', link: '/bbq-catering-dubai' },
+  { icon: Baby, title: 'Poolside BBQ', desc: 'Premium BBQ dining by your villa pool. Partner-chef-led grilling station with premium cuts, seafood, and all the trimmings.', link: '/bbq-catering-dubai' },
   { icon: Leaf, title: 'Breakfast & Brunch', desc: 'Elegant breakfast and brunch service at your villa. Fresh pastries, eggs any style, smoothie bowls, and champagne upon request.', link: '/brunch-catering-dubai' },
 ]
 
@@ -59,14 +59,14 @@ const experienceFeatures = [
   { icon: Users, title: 'Full Service', desc: 'Professional service staff attend to your guests throughout the meal, ensuring an effortless experience.' },
   { icon: Sparkles, title: 'Complete Cleanup', desc: 'We leave your villa kitchen spotless. You will not know we were there.' },
   { icon: Clock, title: 'Flexible Scheduling', desc: 'Available for breakfast, lunch, dinner, or all-day service. You set the schedule that works for you.' },
-  { icon: Shield, title: 'Discreet & Professional', desc: 'Our team respects your privacy and operates with complete discretion at all times.' },
+  { icon: Shield, title: 'Discreet & Professional', desc: 'the chefs in our network respect your privacy and operates with complete discretion at all times.' },
 ]
 
 const villaFeatures = [
   { title: 'Familiar Chef Assignment', desc: 'The same chef for your entire stay — they learn your preferences and anticipate your needs.' },
   { title: 'Kitchen Stocking', desc: 'We handle all grocery shopping and pantry stocking. Your villa kitchen is always prepared.' },
   { title: 'Family-Friendly Menus', desc: 'From toddler-approved meals to gourmet adult dining — everyone at the table is delighted.' },
-  { title: 'Discreet Service', desc: 'Our team blends seamlessly into your villa environment. Professional, quiet, invisible.' },
+  { title: 'Discreet Service', desc: 'the chefs in our network blend seamlessly into your villa environment. Professional, quiet, invisible.' },
 ]
 
 const galleryImages = [
@@ -81,11 +81,11 @@ const galleryImages = [
 const faqItems = [
   {
     q: 'Can a private chef cook in my villa kitchen?',
-    a: 'Yes. Our chefs are experienced in working with all types of villa kitchens — from compact apartments to expansive estates. They bring any specialized equipment needed and adapt seamlessly to your space.',
+    a: 'Yes. The chefs in our network are experienced in working with all types of villa kitchens — from compact apartments to expansive estates. They bring any specialized equipment needed and adapt seamlessly to your space.',
   },
   {
     q: 'Do I need to be present during the service?',
-    a: 'Not at all. Many of our clients are out enjoying Dubai while we prepare dinner. We coordinate access and timing in advance, and our team is fully vetted and trustworthy. Your villa is in safe hands.',
+    a: 'Not at all. Many of our clients are out enjoying Dubai while your chef prepares dinner. We coordinate access and timing in advance, and the chefs in our network are fully vetted and trustworthy. Your villa is in safe hands.',
   },
   {
     q: 'Can you cater for large villa parties?',
@@ -93,7 +93,7 @@ const faqItems = [
   },
   {
     q: 'Do you work with Airbnb and short-stay guests?',
-    a: 'Yes. We provide private chef services for short-stay villa and apartment guests across Dubai. Many guests book us for their entire stay, making their Dubai holiday truly exceptional.',
+    a: 'Yes. we match you with a vetted chef you engage services for short-stay villa and apartment guests across Dubai. Many guests book us for their entire stay, making their Dubai holiday truly exceptional.',
   },
   {
     q: 'What villa communities do you cover?',

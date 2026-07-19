@@ -24,7 +24,7 @@ const includedItems = [
 
 const relatedLinks = [
   { title: 'Menus', link: '/menus', description: 'Browse sample dishes and menu inspiration.' },
-  { title: 'Catering Dubai', link: '/catering-dubai', description: 'Full-service catering for events of any size.' },
+  { title: 'Catering Dubai', link: '/catering-dubai', description: 'fully-coordinated catering for events of any size.' },
   { title: 'Private Chef Dubai', link: '/private-chef-dubai', description: 'Intimate dinners and personal chef experiences.' },
   { title: 'Catering Cost Calculator', link: '/catering-cost-calculator-dubai', description: 'Estimate your event catering budget.' },
 ]
@@ -44,7 +44,7 @@ const faqs = [
   },
   {
     q: 'Do you cater small groups or only large events?',
-    a: 'We cater both. Our Date Night package is designed for two guests, while our Corporate Dinner and Full Experience packages scale to larger groups and events.',
+    a: 'we coordinate catering for both. Our Date Night package is designed for two guests, while our Corporate Dinner and Full Experience packages scale to larger groups and events.',
   },
   {
     q: 'Can I add bar service, live stations or a grazing table?',

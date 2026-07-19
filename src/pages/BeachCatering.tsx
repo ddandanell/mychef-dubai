@@ -25,7 +25,7 @@ const config: OccasionPageConfig = {
         Dubai’s coastline offers some of the most beautiful settings for a celebration — private beaches, beach clubs and shoreline villas where the water is the backdrop. Our beach catering is designed for the environment: fresh seafood, grilled meats, crisp salads and plenty of chilled refreshments, all served in a way that handles sand, breeze and sunshine with ease.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-        We work with beach clubs, private villa estates and event planners to deliver menus that feel relaxed but refined. Whether it is a family day, a brand activation or an intimate sunset dinner, we bring the kitchen to the shore. Pair beach catering with our{' '}
+        We work with beach clubs, private villa estates and event planners to deliver menus that feel relaxed but refined. Whether it is a family day, a brand activation or an intimate sunset dinner, we bring the service to the shore. Pair beach catering with our{' '}
         <Link to="/yachts" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           yacht catering Dubai
         </Link>{' '}
@@ -66,7 +66,7 @@ const config: OccasionPageConfig = {
     {
       Icon: Umbrella,
       title: 'Beach Club Catering',
-      description: 'Full-service catering coordination for Dubai beach clubs, cabanas and waterfront venues.',
+      description: 'fully-coordinated catering coordination for Dubai beach clubs, cabanas and waterfront venues.',
       link: '/event-catering-dubai',
     },
     {
@@ -124,7 +124,7 @@ const config: OccasionPageConfig = {
   faqs: [
     {
       q: 'Can you cater on any Dubai beach?',
-      a: 'We cater at private beaches, beach clubs and villa beachfronts. Public beach events may require permits; we can advise on requirements once we know your location.',
+      a: 'we coordinate catering at private beaches, beach clubs and villa beachfronts. Public beach events may require permits; we can advise on requirements once we know your location.',
     },
     {
       q: 'How do you keep food fresh on the beach?',
@@ -162,7 +162,7 @@ const config: OccasionPageConfig = {
     },
     {
       title: 'Event Catering',
-      description: 'Full-service catering for celebrations of any size and venue.',
+      description: 'fully-coordinated catering for celebrations of any size and venue.',
       image: '/service-events.webp',
       link: '/event-catering-dubai',
     },

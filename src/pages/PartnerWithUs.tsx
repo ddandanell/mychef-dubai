@@ -54,7 +54,7 @@ const faqs = [
   },
   {
     q: 'How does the partnership work?',
-    a: 'You introduce clients who need private chef or catering services. We prepare a tailored proposal, execute the event, and share a commission or credit on confirmed bookings.',
+    a: 'You introduce clients who need private chef or catering services. Your chef prepares a tailored proposal, executes the event, and shares a commission or credit on confirmed bookings.',
   },
   {
     q: 'What is the commission structure?',

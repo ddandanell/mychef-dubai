@@ -41,7 +41,7 @@ const posts = [
   {
     slug: '/blog/corporate-catering-full-service-vs-drop-off',
     title: 'Corporate Catering: Full-Service vs Drop-Off',
-    excerpt: 'Compare drop-off and full-service corporate catering by cost, setup, staffing, and guest experience so you can choose the right format.',
+    excerpt: 'Compare drop-off and fully-coordinated catering by cost, setup, staffing, and guest experience so you can choose the right format.',
     category: 'Corporate',
     date: 'July 2026',
     image: '/images/corporate-catering-dubai-hero.webp',

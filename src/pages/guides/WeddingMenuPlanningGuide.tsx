@@ -203,7 +203,7 @@ const worksheetItems = [
 ]
 
 const internalLinks = [
-  { title: 'Wedding Catering Dubai', link: '/wedding-catering-dubai', description: 'Bespoke menus and full-service wedding catering across Dubai.' },
+  { title: 'Wedding Catering Dubai', link: '/wedding-catering-dubai', description: 'Bespoke menus and fully-coordinated catering across Dubai.' },
   { title: 'Buffet Catering Dubai', link: '/buffet-catering-dubai', description: 'Flexible buffet stations for celebrations of any size.' },
   { title: 'Canapé Catering Dubai', link: '/canape-catering-dubai', description: 'Elegant bite-sized reception food and cocktail catering.' },
   { title: 'Private Chef Dubai', link: '/private-chef-dubai', description: 'Intimate chef-led dining for rehearsal dinners and small gatherings.' },
@@ -268,7 +268,7 @@ const serviceSchema = {
   name: 'Wedding Catering Menu Planning Guide',
   serviceType: 'Wedding Catering Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'ProfessionalService',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',

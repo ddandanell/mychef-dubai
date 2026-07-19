@@ -163,13 +163,13 @@ const config: ServicePageConfig = {
     },
     {
       title: 'Live Cooking Stations',
-      description: 'Interactive chef-manned stations including pasta, wok, tandoor and BBQ stations.',
+      description: 'Interactive partner-chef-led stations including pasta, wok, tandoor and BBQ stations.',
       image: '/service-events.webp',
       link: '/live-cooking-stations-dubai',
     },
     {
       title: 'Corporate Event Catering',
-      description: 'Full-service catering for conferences, launches and company celebrations across Dubai.',
+      description: 'fully-coordinated catering for conferences, launches and company celebrations across Dubai.',
       image: '/service-corporate.webp',
       link: '/corporate-event-catering-dubai',
     },

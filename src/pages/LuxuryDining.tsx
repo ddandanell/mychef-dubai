@@ -26,7 +26,7 @@ const experiences = [
   {
     image: '/service-private-chef.webp',
     title: 'Fine Dining at Home',
-    description: 'Restaurant-quality cuisine in the comfort of your home. A multi-course tasting menu with wine pairing, served by our team.',
+    description: 'Restaurant-quality cuisine in the comfort of your home. A multi-course tasting menu with wine pairing, served by the chefs in our network.',
     link: '/private-chef-dubai',
   },
   {
@@ -52,7 +52,7 @@ const relatedExperiences = [
   },
   {
     title: 'Private Cooking Classes',
-    description: 'Learn professional techniques from our chefs in a hands-on, private setting.',
+    description: 'Learn professional techniques from the chefs in our network in a hands-on, private setting.',
     image: '/service-private-chef.webp',
     link: '/private-cooking-classes-dubai',
   },
@@ -79,11 +79,11 @@ const processSteps = [
   {
     icon: Palette,
     title: 'How is your bespoke menu created?',
-    description: 'Our chef crafts a bespoke menu that tells a story through each course.',
+    description: 'the chefs in our network crafts a bespoke menu that tells a story through each course.',
   },
   {
     icon: Sparkles,
-    title: 'How do we prepare your dining space?',
+    title: 'How does your chef prepare your dining space?',
     description: 'We arrive early, transform your space, and prepare everything to perfection.',
   },
   {
@@ -136,7 +136,7 @@ const faqs = [
   },
   {
     q: 'Can I request a specific cuisine?',
-    a: 'Of course. Every menu is fully bespoke. Share your preferences and our chef will design the perfect menu.',
+    a: 'Of course. Every menu is fully bespoke. Share your preferences and the chefs in our network will design the perfect menu.',
   },
 ]
 
@@ -166,7 +166,7 @@ const schema = {
   '@type': 'Service',
   name: 'Luxury Dining Experiences Dubai',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'ProfessionalService',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',

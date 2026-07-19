@@ -47,7 +47,7 @@ const eventTypes = [
     image: '/service-villa.webp',
     title: 'Villa Party Catering',
     description:
-      'Full-service catering for villa events. Setup, service, cleanup \u2014 all handled professionally.',
+      'fully-coordinated catering for villa events. Setup, service, cleanup \u2014 all handled professionally.',
     link: '/villas-private-residences',
   },
   {
@@ -171,7 +171,7 @@ const processSteps = [
     num: '02',
     title: 'We design your bespoke menu',
     description:
-      'Our chef creates a bespoke menu and we design the service flow for your event.',
+      'the chefs in our network creates a bespoke menu and we design the service flow for your event.',
   },
   {
     num: '03',
@@ -216,12 +216,12 @@ const faqs = [
   {
     question: 'Can you cater at any venue in Dubai?',
     answer:
-      'Yes. We cater at villas, penthouses, yachts, event spaces, and outdoor venues across Dubai.',
+      'Yes. We coordinate catering at villas, penthouses, yachts, event spaces, and outdoor venues across Dubai.',
   },
   {
     question: 'Do you provide staff for large events?',
     answer:
-      'Absolutely. We provide chefs, waiters, bartenders, and event coordinators based on your guest count and service style.',
+      'Absolutely. we match you with a vetted chef you engage, waiters, bartenders, and event coordinators based on your guest count and service style.',
   },
   {
     question: 'Can you create themed menus?',
@@ -454,7 +454,7 @@ export default function Events() {
     <>
       <SEO
         title="Event Catering Dubai"
-        description="Premium event catering in Dubai for birthdays, weddings, and private celebrations. Full-service catering with bespoke menus and professional staff. Get your quote."
+        description="Premium event catering in Dubai for birthdays, weddings, and private celebrations. fully-coordinated catering with bespoke menus and professional staff. Get your quote."
         canonicalPath="/events"
         ogImage="/service-events.webp"
         schema={schema as unknown as Record<string, unknown>}
@@ -735,7 +735,7 @@ export default function Events() {
         <div className="container-custom">
           <div className="text-center mb-12">
             <span className="font-inter text-caption font-medium uppercase tracking-widest text-gold">
-              MORE EVENTS WE CATER
+              MORE EVENTS we coordinate catering for
             </span>
             <h2 className="font-playfair text-h2 text-black mt-4">
               Which other events can myCHEF Dubai cater?

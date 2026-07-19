@@ -75,7 +75,7 @@ const useCases = [
   },
   {
     title: 'School Events & Parent Days',
-    description: 'From sports days and open mornings to parent evenings and graduation ceremonies, we cater the full range of school occasions with refreshments, buffets, and styled catering that suits the audience and the moment.',
+    description: 'From sports days and open mornings to parent evenings and graduation ceremonies, we cover the full range of school occasions with refreshments, buffets, and styled catering that suits the audience and the moment.',
   },
   {
     title: 'Staff & Faculty Catering',
@@ -136,8 +136,8 @@ const faqs = [
     a: 'Yes. Our school menus are fully halal as standard, with vegetarian and other dietary options available so every student has a suitable, satisfying meal each day.',
   },
   {
-    q: 'Can you cater school events as well as daily lunches?',
-    a: 'Absolutely. Alongside daily lunch programmes, we cater sports days, parent evenings, open mornings, graduations, and staff functions, with refreshments and buffets tailored to the occasion.',
+    q: 'Can you coordinate school events as well as daily lunches?',
+    a: 'Absolutely. Alongside daily lunch programmes, we coordinate sports days, parent evenings, open mornings, graduations, and staff functions, with refreshments and buffets tailored to the occasion.',
   },
   {
     q: 'Can the programme flex with the school calendar?',
@@ -196,7 +196,7 @@ const serviceSchema = {
   name: 'School Catering Dubai',
   serviceType: 'Catering Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'ProfessionalService',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',

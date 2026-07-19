@@ -35,7 +35,7 @@ const menuHighlights = [
   {
     icon: Flame,
     title: 'Tandoor Live Stations',
-    description: 'A chef-manned clay-oven station searing kebabs, tikka, paneer, and fresh naan to order — theatre and aroma brought straight to your guests.',
+    description: 'A partner-chef-led clay-oven station searing kebabs, tikka, paneer, and fresh naan to order — theatre and aroma brought straight to your guests.',
     link: '/buffet-catering-dubai',
   },
   {
@@ -71,7 +71,7 @@ const useCases = [
   },
   {
     title: 'Villa & Home Celebrations',
-    description: 'For Diwali dinners, milestone birthdays, and family gatherings across Dubai, our team brings the kitchen to your villa — cooking, serving, and clearing so you can host without lifting a finger.',
+    description: 'For Diwali dinners, milestone birthdays, and family gatherings across Dubai, the chefs in our network come to your villa fully equipped — cooking, serving, and clearing so you can host without lifting a finger.',
   },
   {
     title: 'Corporate & Cultural Events',
@@ -85,11 +85,11 @@ const useCases = [
 
 const includedItems = [
   { title: 'Regional Menu Design', description: 'North Indian, South Indian, or a blended spread built around your guests and occasion.' },
-  { title: 'Live Tandoor & Chaat', description: 'Chef-manned stations for fresh-from-the-oven breads, kebabs, and street-food counters.' },
+  { title: 'Live Tandoor & Chaat', description: 'partner-chef-led stations for fresh-from-the-oven breads, kebabs, and street-food counters.' },
   { title: 'Spice-Level Tailoring', description: 'Heat and seasoning adjusted across dishes so every guest is comfortable.' },
   { title: 'Jain, Veg & Vegan', description: 'Pure-vegetarian, Jain (no onion or garlic), and vegan options arranged on request.' },
   { title: 'Halal Sourcing', description: 'Halal meat and poultry as standard, sourced from trusted suppliers.' },
-  { title: 'Professional Chefs', description: 'Experienced Indian culinary team led by our executive chef.' },
+  { title: 'Professional Chefs', description: 'Experienced Indian culinary team led by a partner chef.' },
   { title: 'Service & Setup', description: 'Waiters, buffet styling, warmers, and full on-site coordination.' },
   { title: 'Full Pack-Down', description: 'We set up, serve, and clear so your space is left spotless.' },
 ]
@@ -129,7 +129,7 @@ const faqs = [
   },
   {
     q: 'Can you provide Jain and pure-vegetarian menus?',
-    a: 'Absolutely. We prepare pure-vegetarian, vegan, and Jain menus, including no-onion and no-garlic preparations on request. We can run an entirely vegetarian event or arrange dedicated vegetarian sections within a larger spread.',
+    a: 'Absolutely. your chef prepares pure-vegetarian, vegan, and Jain menus, including no-onion and no-garlic preparations on request. We can run an entirely vegetarian event or arrange dedicated vegetarian sections within a larger spread.',
   },
   {
     q: 'Is the meat halal?',
@@ -141,7 +141,7 @@ const faqs = [
   },
   {
     q: 'Do you offer live tandoor and chaat stations?',
-    a: 'Yes. Chef-manned tandoor stations grill kebabs, tikka, paneer, and fresh naan to order, while live chaat counters serve pani puri, bhel, and tikki. These interactive stations are popular at weddings and large receptions.',
+    a: 'Yes. Partner-chef-led tandoor stations grill kebabs, tikka, paneer, and fresh naan to order, while live chaat counters serve pani puri, bhel, and tikki. These interactive stations are popular at weddings and large receptions.',
   },
   {
     q: 'How far in advance should I book Indian catering?',
@@ -152,7 +152,7 @@ const faqs = [
 const relatedServices = [
   {
     title: 'Luxury Catering Dubai',
-    description: 'Full-service event catering across Dubai with bespoke menus for any occasion.',
+    description: 'fully-coordinated catering across Dubai with bespoke menus for any occasion.',
     image: '/service-catering.webp',
     link: '/catering-dubai',
   },
@@ -190,7 +190,7 @@ const serviceSchema = {
   name: 'Indian Catering Dubai',
   serviceType: 'Catering Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'ProfessionalService',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',
@@ -327,7 +327,7 @@ export default function IndianCatering() {
             Indian food is built on layers — of spice, of region, of ritual. A great Indian menu is not a single cuisine but dozens, from the smoky tandoors and saffron biryanis of the north to the coconut curries, dosa, and tangy chutneys of the south. At myCHEF Dubai, we treat each menu as a journey across that map, cooking the way each dish is meant to be cooked and seasoning it with respect for tradition rather than shortcuts.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Whether you are hosting a grand wedding banquet, a Diwali dinner at your villa, or a corporate function that needs to feel both generous and refined, our team, led by <Link to="/chefs/ahmed-executive-chef" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Executive Chef Ahmed</Link>, brings live tandoor and chaat stations, slow-cooked curries, and considered vegetarian, vegan, and Jain options to the table. Halal sourcing is the baseline, spice levels are tailored to your guests, and every detail is handled — explore how it fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>, or plan a dedicated <Link to="/diwali-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Diwali catering in Dubai</Link> menu.
+            Whether you are hosting a grand wedding banquet, a Diwali dinner at your villa, or a corporate function that needs to feel both generous and refined, the chefs in our network, led by <Link to="/chefs/ahmed-executive-chef" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Executive Chef Ahmed</Link>, brings live tandoor and chaat stations, slow-cooked curries, and considered vegetarian, vegan, and Jain options to the table. Halal sourcing is the baseline, spice levels are tailored to your guests, and every detail is handled — explore how it fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>, or plan a dedicated <Link to="/diwali-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Diwali catering in Dubai</Link> menu.
           </p>
         </div>
       </section>
@@ -373,7 +373,7 @@ export default function IndianCatering() {
         <div className="container-custom">
           <div className="text-center mb-12">
             <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WHO WE COOK FOR
+              WHO your chef prepares FOR
             </span>
             <h2 className="font-playfair text-h2 text-white">
               Indian Catering for Every Occasion

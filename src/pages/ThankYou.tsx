@@ -19,7 +19,7 @@ const steps = [
 const exploreLinks = [
   { title: 'Our Services', desc: 'Discover our full range of private chef and catering services.', href: '/private-chef-dubai' },
   { title: 'How It Works', desc: 'See how easy it is to book a private chef in Dubai.', href: '/how-it-works' },
-  { title: 'Our Chefs', desc: 'Meet the culinary team behind every exceptional meal.', href: '/our-chefs' },
+  { title: 'The Chefs in Our Network', desc: 'Meet the culinary team behind every exceptional meal.', href: '/our-chefs' },
 ]
 
 export default function ThankYou() {
@@ -49,7 +49,7 @@ export default function ThankYou() {
     <div ref={containerRef}>
       <SEO
         title="Thank You"
-        description="Thank you for your inquiry. Our team will contact you within 2 hours with a bespoke proposal."
+        description="Thank you for your inquiry. The chefs in our network will contact you within 2 hours with a bespoke proposal."
         canonicalPath="/thank-you"
         ogImage="/service-catering.webp"
         noindex={true}
@@ -65,7 +65,7 @@ export default function ThankYou() {
 
           <h1 className="ty-h1 font-playfair text-[3rem] text-white mb-6" style={{ lineHeight: '1.1' }}>Thank You</h1>
           <p className="ty-sub font-inter text-body text-gray-400 mb-10">
-            Your inquiry has been received. Our team will review your details and contact you within 2 hours with a bespoke proposal.
+            Your inquiry has been received. The chefs in our network will review your details and contact you within 2 hours with a bespoke proposal.
           </p>
 
           {/* Next Steps */}

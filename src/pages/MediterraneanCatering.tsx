@@ -152,7 +152,7 @@ const faqs = [
 const relatedServices = [
   {
     title: 'Luxury Catering Dubai',
-    description: 'Full-service event catering across Dubai with bespoke menus for any occasion.',
+    description: 'fully-coordinated catering across Dubai with bespoke menus for any occasion.',
     image: '/service-catering.webp',
     link: '/catering-dubai',
   },
@@ -184,7 +184,7 @@ const serviceSchema = {
   name: 'Mediterranean Catering Dubai',
   serviceType: 'Catering Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'ProfessionalService',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',
@@ -318,10 +318,10 @@ export default function MediterraneanCatering() {
             Sun, Sea, and the Simplicity of Good Ingredients
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            The Mediterranean table is a celebration of restraint — pristine seafood, ripe vegetables, good olive oil, and fresh herbs, allowed to taste of themselves. It is bright, generous, and naturally light: a cuisine that leaves guests satisfied rather than heavy. At myCHEF Dubai, we cook in that spirit, sourcing seafood and produce for quality and dressing each plate with little more than lemon, oil, and care.
+            The Mediterranean table is a celebration of restraint — pristine seafood, ripe vegetables, good olive oil, and fresh herbs, allowed to taste of themselves. It is bright, generous, and naturally light: a cuisine that leaves guests satisfied rather than heavy. At myCHEF Dubai, your chef prepares in that spirit, sourcing seafood and produce for quality and dressing each plate with little more than lemon, oil, and care.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Spanning Greek mezze, coastal grills, garden salads, and shared seafood platters, our Mediterranean menus — developed alongside <Link to="/chefs/marco-italian-chef" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Chef Marco, our Italian chef</Link> — suit poolside parties, villa lunches, wellness-minded celebrations, and refined corporate dining. Halal sourcing is the baseline, vegetarian and vegan dishes are plentiful, and our team handles styling, service, and pack-down — see how it fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>, or explore our <Link to="/healthy-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">healthy catering Dubai</Link> menus. For seafood-focused dining, see <Link to="/pescatarian-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">pescatarian catering in Dubai</Link>.
+            Spanning Greek mezze, coastal grills, garden salads, and shared seafood platters, our Mediterranean menus — developed alongside <Link to="/chefs/marco-italian-chef" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Chef Marco, our Italian chef</Link> — suit poolside parties, villa lunches, wellness-minded celebrations, and refined corporate dining. Halal sourcing is the baseline, vegetarian and vegan dishes are plentiful, and the chefs in our network handle styling, service, and pack-down — see how it fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>, or explore our <Link to="/healthy-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">healthy catering Dubai</Link> menus. For seafood-focused dining, see <Link to="/pescatarian-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">pescatarian catering in Dubai</Link>.
           </p>
         </div>
       </section>
@@ -367,7 +367,7 @@ export default function MediterraneanCatering() {
         <div className="container-custom">
           <div className="text-center mb-12">
             <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WHO WE COOK FOR
+              WHO your chef prepares FOR
             </span>
             <h2 className="font-playfair text-h2 text-white">
               Mediterranean Catering for Every Occasion

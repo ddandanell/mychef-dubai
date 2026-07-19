@@ -139,7 +139,7 @@ const faqs = [
   },
   {
     q: 'Can you cater a larger milestone anniversary celebration?',
-    a: 'Yes. Alongside intimate dinners for two, we cater larger milestone anniversaries for family and close friends, with a seated menu, attentive service, and a celebration dessert scaled to your guest count.',
+    a: 'Yes. Alongside intimate dinners for two, we coordinate catering for larger milestone anniversaries for family and close friends, with a seated menu, attentive service, and a celebration dessert scaled to your guest count.',
   },
   {
     q: 'How far in advance should we book?',
@@ -150,7 +150,7 @@ const faqs = [
 const relatedServices = [
   {
     title: 'Catering Dubai',
-    description: 'Full-service event catering across Dubai for celebrations of every size and style.',
+    description: 'fully-coordinated catering across Dubai for celebrations of every size and style.',
     image: '/service-catering.webp',
     link: '/catering-dubai',
   },
@@ -173,7 +173,7 @@ const serviceObj = {
   name: 'Anniversary Dinner Catering Dubai',
   serviceType: 'Anniversary Dinner Catering',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'ProfessionalService',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',
@@ -319,7 +319,7 @@ export default function AnniversaryCatering() {
             An anniversary deserves more than another night out. There is something quietly special about celebrating in your own space, with a chef cooking just for you and no table to vacate by a certain hour. Our anniversary dinner catering brings a dedicated private chef to your home or villa, preparing a romantic multi-course menu and serving it course by course while you simply enjoy the evening together.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Whether it is an intimate dinner for two or a larger milestone gathering with family, every menu is designed around your tastes, paced for conversation, and finished with a celebration dessert to mark the occasion. Our team handles the setup, the service, and the cleanup, available for Dubai homes and villas of every size. Explore our{' '}
+            Whether it is an intimate dinner for two or a larger milestone gathering with family, every menu is designed around your tastes, paced for conversation, and finished with a celebration dessert to mark the occasion. The chefs in our network handle the setup, the service, and the cleanup, available for Dubai homes and villas of every size. Explore our{' '}
             <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">private chef service</Link>{' '}
             or request a{' '}
             <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=anniversary-catering-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">Request a Proposal</Link>.
@@ -367,7 +367,7 @@ export default function AnniversaryCatering() {
               WAYS TO CELEBRATE
             </span>
             <h2 className="font-playfair text-h2 text-black">
-              How We Cater Anniversary Dinners
+              How we coordinate catering for Anniversary Dinners
             </h2>
           </div>
 

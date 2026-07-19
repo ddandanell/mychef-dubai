@@ -25,7 +25,7 @@ const config: ServicePageConfig = {
         Graduation marks the end of years of hard work and the start of something new. Whether you are planning a school prom after-party, a university graduation lunch, or an intimate family dinner at home, our graduation party catering brings the food, styling and service needed to match the occasion.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        We cater across Dubai for graduating classes, parent-hosted villa parties, faculty events and mixed-age celebrations. Menus range from relaxed grazing tables and BBQ live stations to elegant plated dinners and themed dessert displays. Our team handles setup, service and cleanup so graduates and their families can focus on photographs, speeches and making memories.
+        we coordinate catering across Dubai for graduating classes, parent-hosted villa parties, faculty events and mixed-age celebrations. Menus range from relaxed grazing tables and BBQ live stations to elegant plated dinners and themed dessert displays. The chefs in our network handle setup, service and cleanup so graduates and their families can focus on photographs, speeches and making memories.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
         This service fits naturally within our wider{' '}
@@ -67,7 +67,7 @@ const config: ServicePageConfig = {
     {
       Icon: Home,
       title: 'Villa & Home Graduation Parties',
-      description: 'Full-service catering at your home or villa across Dubai, with setup, service and pack-down included.',
+      description: 'fully-coordinated catering at your home or villa across Dubai, with setup, service and pack-down included.',
       link: '/villas-private-residences',
     },
     {
@@ -131,7 +131,7 @@ const config: ServicePageConfig = {
   faqs: [
     {
       q: 'What types of graduation events do you cater?',
-      a: 'We cater school leaver parties, university graduation celebrations, postgraduate dinners, family villa gatherings, and institutional receptions across Dubai.',
+      a: 'we coordinate catering for school leaver parties, university graduation celebrations, postgraduate dinners, family villa gatherings, and institutional receptions across Dubai.',
     },
     {
       q: 'Can you match the school or university colours and theme?',
@@ -143,7 +143,7 @@ const config: ServicePageConfig = {
     },
     {
       q: 'Can graduation catering be held at home or in a villa?',
-      a: 'Yes. We provide full-service villa and home catering across Dubai, including setup, service and cleanup, so families can celebrate without stress.',
+      a: 'Yes. We provide fully-coordinated catering across Dubai, including setup, service and cleanup, so families can celebrate without stress.',
     },
     {
       q: 'Do you cater for mixed-age groups including children and grandparents?',

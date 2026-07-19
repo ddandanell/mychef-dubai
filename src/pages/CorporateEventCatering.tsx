@@ -125,11 +125,11 @@ const locations = [
 const faqs = [
   {
     q: 'What types of corporate events do you cater?',
-    a: 'We cater the full range of corporate events — product launches, galas and award dinners, networking receptions, conferences, client hospitality, and seasonal celebrations. Whatever the format and scale, we design the menu and service style around your brand, venue, and guest profile.',
+    a: 'we coordinate catering for the full range of corporate events — product launches, galas and award dinners, networking receptions, conferences, client hospitality, and seasonal celebrations. Whatever the format and scale, we design the menu and service style around your brand, venue, and guest profile.',
   },
   {
     q: 'How many guests can you cater for?',
-    a: 'We cater intimate executive gatherings as well as large-scale corporate events with hundreds of guests. For bigger events, the difference is in coordination — we scale staff, stations, and timing so the experience stays polished no matter the headcount.',
+    a: 'we coordinate catering intimate executive gatherings as well as large-scale corporate events with hundreds of guests. For bigger events, the difference is in coordination — we scale staff, stations, and timing so the experience stays polished no matter the headcount.',
   },
   {
     q: 'Can you provide service staff and on-site coordination?',
@@ -220,7 +220,7 @@ const serviceSchema = {
   name: 'Corporate Event Catering Dubai',
   serviceType: 'Catering Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'ProfessionalService',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',

@@ -112,11 +112,11 @@ const pricingFaqs = [
   },
   {
     q: 'Is there a minimum guest count?',
-    a: 'We cater events of almost any size, from intimate dinners for two to large celebrations. Smaller groups may have a higher per-person rate due to dedicated staff and preparation time.',
+    a: 'we coordinate catering for events of almost any size, from intimate dinners for two to large celebrations. Smaller groups may have a higher per-person rate due to dedicated staff and preparation time.',
   },
   {
     q: 'Can we customize the menu?',
-    a: 'Absolutely. Every menu is designed from scratch based on your preferences, dietary requirements, and event style. Our chefs collaborate with you to create a menu that fits your vision.',
+    a: 'Absolutely. Every menu is designed from scratch based on your preferences, dietary requirements, and event style. The chefs in our network collaborate with you to create a menu that fits your vision.',
   },
 ]
 

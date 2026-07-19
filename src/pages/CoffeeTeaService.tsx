@@ -163,7 +163,7 @@ const config: ServicePageConfig = {
     },
     {
       title: 'Corporate Event Catering',
-      description: 'Full-service catering for conferences, product launches and company celebrations.',
+      description: 'fully-coordinated catering for conferences, product launches and company celebrations.',
       image: '/service-events.webp',
       link: '/corporate-event-catering-dubai',
     },

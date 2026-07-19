@@ -53,7 +53,7 @@ const vegFormats = [
   {
     icon: Home,
     title: 'Villa & Garden Menus',
-    description: 'Full-service vegetarian catering for villa dinners and garden parties across Dubai, with on-site cooking, service, and pack-down.',
+    description: 'fully-coordinated catering for villa dinners and garden parties across Dubai, with on-site cooking, service, and pack-down.',
     link: '/catering-dubai',
   },
   {
@@ -78,7 +78,7 @@ const includedItems = [
 const useCases = [
   {
     title: 'Indian & Jain Celebrations',
-    description: 'For festivals, pujas, and family gatherings, we prepare rich vegetarian Indian menus, including Jain-friendly dishes made without onion and garlic. Every spread is built to feel abundant and authentic for the occasion.',
+    description: 'For festivals, pujas, and family gatherings, your chef prepares rich vegetarian Indian menus, including Jain-friendly dishes made without onion and garlic. Every spread is built to feel abundant and authentic for the occasion.',
   },
   {
     title: 'Mezze & Mediterranean Spreads',
@@ -184,7 +184,7 @@ const serviceSchema = {
   name: 'Vegetarian Catering Dubai',
   serviceType: 'Catering Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'ProfessionalService',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',
@@ -321,7 +321,7 @@ export default function VegetarianCatering() {
             Vegetarian food is some of the most varied and characterful cooking in the world. From the spice and depth of Indian and Jain kitchens to the bright, shareable abundance of a Mediterranean mezze, there is no shortage of colour, texture, or generosity when meat is left off the plate. At myCHEF Dubai, we draw on that breadth to build vegetarian menus that feel complete and celebratory, never like a compromise.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Whether you are hosting a festival or family gathering, a mezze-style reception, a villa dinner, or an inclusive corporate lunch, our team designs and serves a menu suited to your guests — including <Link to="/jain-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Jain-friendly dishes</Link> without onion and garlic. For a fully plant-based version, see our <Link to="/vegan-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">vegan catering Dubai</Link> menus. Explore our vegetarian formats below, or see how it fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
+            Whether you are hosting a festival or family gathering, a mezze-style reception, a villa dinner, or an inclusive corporate lunch, the chefs in our network design and serves a menu suited to your guests — including <Link to="/jain-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Jain-friendly dishes</Link> without onion and garlic. For a fully plant-based version, see our <Link to="/vegan-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">vegan catering Dubai</Link> menus. Explore our vegetarian formats below, or see how it fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
           </p>
         </div>
       </section>

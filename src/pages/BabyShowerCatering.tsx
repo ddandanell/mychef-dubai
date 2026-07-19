@@ -131,7 +131,7 @@ const faqs = [
   },
   {
     q: 'How many guests do you cater for at a baby shower?',
-    a: 'We cater intimate showers of around 10 guests up to larger gatherings of 50 or more. Grazing tables and dessert displays scale beautifully, and we advise on quantities based on your guest list.',
+    a: 'we coordinate catering intimate showers of around 10 guests up to larger gatherings of 50 or more. Grazing tables and dessert displays scale beautifully, and we advise on quantities based on your guest list.',
   },
   {
     q: 'Can you accommodate dietary requirements?',
@@ -178,7 +178,7 @@ const serviceSchema = {
   name: 'Baby Shower Catering Dubai',
   serviceType: 'Baby Shower Catering Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'ProfessionalService',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',
@@ -326,7 +326,7 @@ export default function BabyShowerCatering() {
             A baby shower is a soft, joyful kind of celebration — and the food should feel the same way. At myCHEF Dubai, we specialise in light, elegant catering that looks as lovely as it tastes: abundant grazing tables, delicate canapés, afternoon-tea bites, and dessert displays styled around your colours and theme.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Everything is alcohol-free by default, with a fresh mocktail bar designed to feel celebratory and special. Our team handles the styling, the service, and the cleanup, so the mum-to-be and her guests can simply relax and enjoy the moment. Baby shower catering is part of our wider <Link to="/party-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">party catering in Dubai</Link>, and pairs beautifully with our <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering service</Link>.
+            Everything is alcohol-free by default, with a fresh mocktail bar designed to feel celebratory and special. The chefs in our network handle the styling, the service, and the cleanup, so the mum-to-be and her guests can simply relax and enjoy the moment. Baby shower catering is part of our wider <Link to="/party-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">party catering in Dubai</Link>, and pairs beautifully with our <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering service</Link>.
           </p>
         </div>
       </section>
@@ -371,7 +371,7 @@ export default function BabyShowerCatering() {
               EVERY KIND OF SHOWER
             </span>
             <h2 className="font-playfair text-h2 text-white">
-              Showers We Cater
+              Showers we coordinate catering for
             </h2>
           </div>
 

@@ -53,7 +53,7 @@ const halalFormats = [
   {
     icon: Home,
     title: 'Villa & Garden Halal Menus',
-    description: 'Full-service halal catering for villa dinners and garden gatherings across Dubai, with on-site cooking, service, and pack-down.',
+    description: 'fully-coordinated catering for villa dinners and garden gatherings across Dubai, with on-site cooking, service, and pack-down.',
     link: '/catering-dubai',
   },
   {
@@ -82,7 +82,7 @@ const useCases = [
   },
   {
     title: 'Ramadan Iftar & Suhoor',
-    description: 'During Ramadan, we prepare generous halal iftar and suhoor spreads — from dates, soups, and salads to mixed grills and traditional sweets — for homes, majlis gatherings, and corporate iftars across Dubai.',
+    description: 'During Ramadan, your chef prepares generous halal iftar and suhoor spreads — from dates, soups, and salads to mixed grills and traditional sweets — for homes, majlis gatherings, and corporate iftars across Dubai.',
   },
   {
     title: 'Villa & Garden Gatherings',
@@ -137,7 +137,7 @@ const faqs = [
   },
   {
     q: 'Do you offer halal iftar and suhoor catering?',
-    a: 'We do. During Ramadan we prepare generous halal iftar and suhoor menus for homes, majlis gatherings, and corporate iftars, from dates and soups to mixed grills and traditional sweets. Booking early in the season is recommended.',
+    a: 'We do. During Ramadan your chef prepares generous halal iftar and suhoor menus for homes, majlis gatherings, and corporate iftars, from dates and soups to mixed grills and traditional sweets. Booking early in the season is recommended.',
   },
   {
     q: 'What cuisines do you offer within a halal menu?',
@@ -184,7 +184,7 @@ const serviceSchema = {
   name: 'Halal Catering Dubai',
   serviceType: 'Catering Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'ProfessionalService',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',
@@ -321,7 +321,7 @@ export default function HalalCatering() {
             For many gatherings in Dubai, halal catering is not a special request — it is the natural starting point. When the full menu is prepared to halal standards, there are no questions and no exceptions to manage; every guest sits down to the same table and enjoys the same food. At myCHEF Dubai, halal sourcing and preparation run through everything we do, so hosts can plan with confidence and guests can eat with ease.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Our halal menus are as varied as they are considered — spanning Arabic grills from our <Link to="/arabic-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Arabic catering Dubai</Link> menus, Indian classics, Asian favourites, and Continental plates, all from a fully halal kitchen. Whether you are hosting a wedding, a Ramadan iftar, a villa dinner, or a corporate function, our team designs and serves a menu suited to your occasion. Explore the formats below, or see how it fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
+            Our halal menus are as varied as they are considered — spanning Arabic grills from our <Link to="/arabic-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Arabic catering Dubai</Link> menus, Indian classics, Asian favourites, and Continental plates, all from a fully halal kitchen. Whether you are hosting a wedding, a Ramadan iftar, a villa dinner, or a corporate function, the chefs in our network design and serves a menu suited to your occasion. Explore the formats below, or see how it fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mt-5">
             Hosting an intimate halal dinner? See what to ask when booking <Link to="/blog/halal-private-dining-dubai-what-to-ask" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">halal private dining in Dubai</Link>.

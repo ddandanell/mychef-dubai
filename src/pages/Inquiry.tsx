@@ -843,9 +843,9 @@ export default function Inquiry() {
                 {/* Steps */}
                 <div className="flex flex-col gap-6 mb-8">
                   {[
-                    { title: 'We Review Your Request', desc: 'Within 2 hours, our team reviews your details.' },
+                    { title: 'We Review Your Request', desc: 'Within 2 hours, the chefs in our network review your details.' },
                     { title: 'We Create Your Proposal', desc: 'A bespoke menu and quote tailored to your event.' },
-                    { title: 'You Confirm & Relax', desc: 'Once confirmed, we handle everything else.' },
+                    { title: 'You Confirm & Relax', desc: 'Once confirmed, we design and manage the experience else.' },
                   ].map((item, i) => (
                     <div key={item.title} className="flex gap-4">
                       <div className="w-8 h-8 rounded-full bg-gold flex items-center justify-center flex-shrink-0">

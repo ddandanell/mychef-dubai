@@ -90,8 +90,8 @@ const faqs = [
     a: 'We verify identity, UAE visa status, and right-to-work documents. We also conduct practical skill assessments, reference checks, food-safety evaluations, and supervised trial events.',
   },
   {
-    q: 'Are all your chefs HACCP certified?',
-    a: 'We do not claim that every chef holds HACCP certification. We require basic food-hygiene awareness and safe handling practices. PIC (Person in Charge) certification is preferred where available.',
+    q: 'Are all your chefs food-safety-certified (partner-held) certified?',
+    a: 'We do not claim that every chef holds food-safety-certified (partner-held) certification. We require basic food-hygiene awareness and safe handling practices. PIC (Person in Charge) certification is preferred where available.',
   },
   {
     q: 'Do you check references for every chef?',
@@ -113,7 +113,7 @@ const faqs = [
 
 const relatedServices = [
   {
-    title: 'Our Chefs',
+    title: 'The Chefs in Our Network',
     description: 'Meet the experienced chefs behind myCHEF Dubai.',
     image: '/service-private-chef.webp',
     link: '/our-chefs',
@@ -136,7 +136,7 @@ const schema = {
   '@context': 'https://schema.org',
   '@graph': [
     serviceSchema(
-      'How We Vet Our Chefs',
+      'How We Vet the Chefs in Our Network',
       'Learn how myCHEF Dubai vets private chefs through identity checks, skill assessments, reference verification, food-safety training, trial events, and ongoing reviews.',
       'Informational Service',
       'Dubai',
@@ -144,7 +144,7 @@ const schema = {
     faqPageSchema(faqs.map((f) => ({ question: f.q, answer: f.a }))),
     breadcrumbSchema([
       { name: 'Home', path: '/' },
-      { name: 'How We Vet Our Chefs', path: CANONICAL_PATH },
+      { name: 'How We Vet the Chefs in Our Network', path: CANONICAL_PATH },
     ]),
   ],
 }
@@ -194,7 +194,7 @@ export default function HowWeVetOurChefs() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="How We Vet Our Chefs | Trust & Safety"
+        title="How We Vet the Chefs in Our Network | Trust & Safety"
         description="See how myCHEF Dubai vets private chefs: ID checks, skill assessments, references, food-safety training, trial events, and ongoing reviews. No chef is guaranteed."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/how-we-vet-our-chefs-dubai-hero.webp"
@@ -214,7 +214,7 @@ export default function HowWeVetOurChefs() {
             <ol className="flex items-center justify-center gap-2 font-inter text-body-sm">
               <li><Link to="/" className="text-gray-400 hover:text-gold transition-colors">Home</Link></li>
               <li className="text-gray-400">/</li>
-              <li><span className="text-gold">How We Vet Our Chefs</span></li>
+              <li><span className="text-gold">How We Vet the Chefs in Our Network</span></li>
             </ol>
           </nav>
 
@@ -256,7 +256,7 @@ export default function HowWeVetOurChefs() {
               We are also honest about what vetting means. No system can eliminate every risk, and no chef is automatically guaranteed work. We match each event to the best available chef based on cuisine expertise, availability, and client requirements. Our commitment is that every chef who represents myCHEF Dubai has met the standards below — and continues to meet them through regular feedback and review.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              If you are considering a private chef for your next event, you may also want to read about <Link to="/booking-protection-insurance" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">booking protection and insurance</Link>, meet our <Link to="/our-chefs" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">featured chefs</Link>, or see how to <Link to="/become-a-mychef" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">join our chef network</Link>.
+              If you are considering a private chef for your next event, you may also want to read about <Link to="/booking-protection-insurance" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">booking protection and insurance</Link>, meet our <Link to="/our-chefs" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">featured chefs</Link>, or see how to <Link to="/become-a-mychef" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">join the chefs in our network</Link>.
             </p>
           </div>
         </div>

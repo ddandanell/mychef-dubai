@@ -28,7 +28,7 @@ const priceTable = [
   { format: 'Private chef / home dining', min: 350, max: 650, note: 'Per person; chef + service staff' },
   { format: 'Canapés & cocktail reception', min: 180, max: 350, note: 'Per person; 6–10 bites, service staff' },
   { format: 'Buffet catering', min: 220, max: 420, note: 'Per person; varied stations, hot & cold' },
-  { format: 'Plated seated dinner', min: 320, max: 620, note: 'Per person; multi-course, full service' },
+  { format: 'Plated seated dinner', min: 320, max: 620, note: 'Per person; multi-course, fully-coordinated catering' },
   { format: 'BBQ catering', min: 200, max: 380, note: 'Per person; grill, sides, salads, staff' },
   { format: 'Yacht catering', min: 280, max: 550, note: 'Per person; compact menus, stable service' },
 ]
@@ -141,7 +141,7 @@ const serviceSchema = {
   name: 'Dubai Catering Prices Guide',
   serviceType: 'Catering Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'ProfessionalService',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',

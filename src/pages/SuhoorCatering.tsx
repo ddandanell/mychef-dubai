@@ -58,7 +58,7 @@ const suhoorFormats = [
   {
     icon: Home,
     title: 'Villa Suhoor Service',
-    description: 'Full-service suhoor catering for villa gatherings across Dubai, with setup, cooking, service, and pack-down handled quietly so the night runs smoothly.',
+    description: 'fully-coordinated catering for villa gatherings across Dubai, with setup, cooking, service, and pack-down handled quietly so the night runs smoothly.',
     link: '/catering-dubai',
   },
 ]
@@ -140,7 +140,7 @@ const faqs = [
   },
   {
     q: 'How is suhoor service timed?',
-    a: 'We plan service so the meal is ready in the late-night hours and cleared before the call to Fajr. Our staff work quietly and attentively, keeping the table replenished without disrupting the calm of the gathering.',
+    a: 'We plan service so the meal is ready in the late-night hours and cleared before the call to Fajr. our service team work quietly and attentively, keeping the table replenished without disrupting the calm of the gathering.',
   },
   {
     q: 'How far in advance should I book suhoor catering?',
@@ -183,7 +183,7 @@ const serviceSchema = {
   name: 'Suhoor Catering Dubai',
   serviceType: 'Catering Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'ProfessionalService',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',
@@ -320,7 +320,7 @@ export default function SuhoorCatering() {
             Suhoor is the quiet meal of Ramadan — eaten before Fajr to carry you through the fasting day. At myCHEF Dubai, we bring that pre-dawn moment the same care we give any gathering, designing halal menus that are balanced, sustaining, and easy on the early-morning appetite. From light savoury pastries and labneh to warming dishes of foul, shakshuka, and grilled proteins, we build the suhoor your guests will actually want at that hour.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Whether you are hosting an intimate family suhoor at home, a majlis gathering, or a late-night function for your team, our chefs cook on-site and our staff serve quietly into the early hours. Suhoor sits within our wider <Link to="/ramadan-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Ramadan catering in Dubai</Link>, alongside <Link to="/iftar-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">iftar catering</Link> and our <Link to="/arabic-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Arabic catering</Link> menus — and slots naturally into our <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>. Because the season is in such demand, we recommend booking six to eight weeks ahead.
+            Whether you are hosting an intimate family suhoor at home, a majlis gathering, or a late-night function for your team, the chefs in our network cook on-site and our service team serve quietly into the early hours. Suhoor sits within our wider <Link to="/ramadan-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Ramadan catering in Dubai</Link>, alongside <Link to="/iftar-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">iftar catering</Link> and our <Link to="/arabic-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Arabic catering</Link> menus — and slots naturally into our <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>. Because the season is in such demand, we recommend booking six to eight weeks ahead.
           </p>
         </div>
       </section>
@@ -366,7 +366,7 @@ export default function SuhoorCatering() {
         <div className="container-custom">
           <div className="text-center mb-12">
             <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WHERE WE CATER
+              WHERE WE SERVE
             </span>
             <h2 className="font-playfair text-h2 text-white">
               Designed for the Occasion

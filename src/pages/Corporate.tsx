@@ -55,7 +55,7 @@ const corporateServices = [
     icon: PartyPopper,
     title: 'Corporate Events',
     description:
-      'Product launches, company celebrations, networking events. Full-service catering and coordination.',
+      'Product launches, company celebrations, networking events. fully-coordinated catering and coordination.',
     link: '/corporate-event-catering-dubai',
   },
   {
@@ -100,7 +100,7 @@ const trustFeatures = [
     icon: Shield,
     title: 'Discreet & Professional',
     description:
-      'Confidentiality assured. Our staff operates with the discretion your business demands.',
+      'Confidentiality assured. our service team operates with the discretion your business demands.',
   },
   {
     icon: Award,
@@ -166,7 +166,7 @@ const serviceTiers = [
 const processSteps = [
   { num: '01', title: 'Contact Us', description: 'Reach out with your event details and requirements.' },
   { num: '02', title: 'Menu Planning', description: 'We design a bespoke menu tailored to your occasion.' },
-  { num: '03', title: 'Event Execution', description: 'Our team delivers flawless service on the day.' },
+  { num: '03', title: 'Event Execution', description: 'the chefs in our network delivers flawless service on the day.' },
   { num: '04', title: 'Follow-Up', description: 'We follow up to ensure everything met your expectations.' },
 ]
 
@@ -179,7 +179,7 @@ const faqs = [
   {
     question: 'Can you cater at our office in DIFC?',
     answer:
-      'Absolutely. We cater across all Dubai business districts including DIFC, Business Bay, Downtown, and Dubai Media City.',
+      'Absolutely. We coordinate catering across all Dubai business districts including DIFC, Business Bay, Downtown, and Dubai Media City.',
   },
   {
     question: 'Do you provide setup for boardroom dining?',
@@ -189,7 +189,7 @@ const faqs = [
   {
     question: 'Can you accommodate large corporate events?',
     answer:
-      'Yes. We cater corporate events from 10 to 500+ guests with full service coordination.',
+      'Yes. We coordinate catering for corporate events from 10 to 500+ guests with full service coordination.',
   },
   {
     question: 'Is invoicing available for corporate accounts?',
@@ -597,7 +597,7 @@ export default function Corporate() {
             Planning an event in Dubai? Read our{' '}
             <Link to="/corporate-catering-checklist-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Corporate Catering Checklist</Link>,
             {' '}compare{' '}
-            <Link to="/blog/corporate-catering-full-service-vs-drop-off" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">full-service vs drop-off corporate catering</Link>,
+            <Link to="/blog/corporate-catering-full-service-vs-drop-off" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">fully-coordinated catering</Link>,
             {' '}or explore our{' '}
             <Link to="/exhibition-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">exhibition catering</Link>{' '}
             and{' '}

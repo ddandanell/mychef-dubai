@@ -66,7 +66,7 @@ const config: OccasionPageConfig = {
     {
       Icon: Home,
       title: 'Villa Pool Parties',
-      description: 'Full-service catering at your villa across Dubai, with waterproof-style setup, service and pack-down.',
+      description: 'fully-coordinated catering at your villa across Dubai, with waterproof-style setup, service and pack-down.',
       link: '/villa-catering-dubai',
     },
     {
@@ -136,7 +136,7 @@ const config: OccasionPageConfig = {
     },
     {
       q: 'Can you cater at a villa I have rented?',
-      a: 'Absolutely. We cater at private villas across Palm Jumeirah, Emirates Hills, Dubai Hills and beyond. We work around your pool, garden and kitchen setup.',
+      a: 'Absolutely. We coordinate catering at private villas across Palm Jumeirah, Emirates Hills, Dubai Hills and beyond. We work around your pool, garden and kitchen setup.',
     },
     {
       q: 'Do you handle setup and cleanup poolside?',

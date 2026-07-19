@@ -131,8 +131,8 @@ const config: ServicePageConfig = {
   faqsH2: 'University Catering Questions',
   faqs: [
     {
-      q: 'What university events can you cater?',
-      a: 'We cater orientation weeks, graduation ceremonies, society events, conferences, guest lectures, career fairs, sports days, cultural festivals and daily campus meal programs.',
+      q: 'What university events can myCHEF coordinate?',
+      a: 'We coordinate orientation weeks, graduation ceremonies, society events, conferences, guest lectures, career fairs, sports days, cultural festivals and daily campus meal programs.',
     },
     {
       q: 'Can you work with tight student budgets?',

@@ -152,7 +152,7 @@ const relatedServices = [
 const faqs = [
   {
     q: 'Can I mix cuisines at the same event?',
-    a: 'Yes. Many hosts combine cuisines — for example, Arabic mezze to start, Italian mains and Asian-influenced desserts. Our chefs design a cohesive menu so the transitions feel natural.',
+    a: 'Yes. Many hosts combine cuisines — for example, Arabic mezze to start, Italian mains and Asian-influenced desserts. The chefs in our network design a cohesive menu so the transitions feel natural.',
   },
   {
     q: 'Are the chefs experienced in the cuisine I choose?',

@@ -66,7 +66,7 @@ const config: OccasionPageConfig = {
     {
       Icon: Home,
       title: 'Villa & Home Parties',
-      description: 'Full-service catering at your home or villa across Dubai, with setup, service and pack-down handled for you.',
+      description: 'fully-coordinated catering at your home or villa across Dubai, with setup, service and pack-down handled for you.',
       link: '/villa-catering-dubai',
     },
     {
@@ -97,7 +97,7 @@ const config: OccasionPageConfig = {
     {
       title: 'Themed Celebrations',
       description:
-        'From unicorn tea parties to football-themed lunches, our chefs and styling team can match colours, shapes and flavours to the birthday theme without sacrificing food quality.',
+        'From unicorn tea parties to football-themed lunches, the chefs in our network and styling team can match colours, shapes and flavours to the birthday theme without sacrificing food quality.',
     },
   ],
   includedH2: "What's Included in Our Kids Birthday Catering",
@@ -140,7 +140,7 @@ const config: OccasionPageConfig = {
     },
     {
       q: 'Do you handle setup and cleanup at the venue?',
-      a: 'Yes. Our team arrives early to set up, serves during the party, and packs everything away afterwards. You just need to enjoy the celebration.',
+      a: 'Yes. The chefs in our network arrive early to set up, serves during the party, and packs everything away afterwards. You just need to enjoy the celebration.',
     },
     {
       q: 'How far in advance should I book kids birthday catering?',
@@ -150,7 +150,7 @@ const config: OccasionPageConfig = {
   relatedServices: [
     {
       title: 'Birthday Catering',
-      description: 'Full-service birthday catering for adults and mixed-age celebrations.',
+      description: 'fully-coordinated catering for adults and mixed-age celebrations.',
       image: '/images/birthday-catering-dubai-hero.webp',
       link: '/birthday-catering-dubai',
     },
