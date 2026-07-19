@@ -1,16 +1,14 @@
 import { useState, useEffect, useCallback, useRef } from 'react'
-import { useNavigate } from 'react-router'
-import { X } from 'lucide-react'
+import { X, Phone } from 'lucide-react'
 import { trackEvent } from '../lib/analytics'
 
 const STORAGE_KEY = 'mychef_lead_magnet_dismissed'
+const WHATSAPP_NUMBER = '971551744849'
+const WHATSAPP_MESSAGE = encodeURIComponent("Hi myCHEF Dubai, please send me the private dining guide (via mychef.ae)")
+const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 export default function LeadMagnetModal() {
-  const navigate = useNavigate()
   const [isVisible, setIsVisible] = useState(false)
-  const [isSubmitted, setIsSubmitted] = useState(false)
-  const [phone, setPhone] = useState('')
-  const [isSubmitting, setIsSubmitting] = useState(false)
   const impressionTracked = useRef(false)
 
   const openModal = useCallback(() => {
@@ -52,43 +50,12 @@ export default function LeadMagnetModal() {
     sessionStorage.setItem(STORAGE_KEY, 'true')
   }
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault()
-    if (!phone.trim()) return
-
+  const handleWhatsAppClick = () => {
     trackEvent('lead_magnet_submit', {
-      phone_provided: true,
+      method: 'whatsapp',
       page_path: window.location.pathname,
     })
-    setIsSubmitting(true)
-
-    try {
-      const res = await fetch('/api/submit-lead', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          phone: phone.trim(),
-          serviceType: 'Private Dining Guide',
-          message: 'Requested via lead magnet modal',
-          formId: 'lead-magnet-form',
-          page: window.location.pathname + window.location.search,
-          source: 'lead_magnet',
-        }),
-      })
-      if (!res.ok) throw new Error('Submit failed')
-      navigate('/thank-you')
-    } catch {
-      // Fallback: open WhatsApp so the lead isn't lost
-      const waUrl = `https://wa.me/971551744849?text=${encodeURIComponent(
-        `Hi myCHEF Dubai, please send me the price guide. My WhatsApp/phone: ${phone} (via mychef.ae)`,
-      )}`
-      window.open(waUrl, '_blank')
-      setIsSubmitting(false)
-      setIsSubmitted(true)
-      setTimeout(() => {
-        dismiss()
-      }, 3000)
-    }
+    dismiss()
   }
 
   if (!isVisible) return null
@@ -115,43 +82,23 @@ export default function LeadMagnetModal() {
           <X size={24} />
         </button>
 
-        {!isSubmitted ? (
-          <>
-            <h3 className="font-playfair text-h3 text-white mb-4">
-              Get Our Private Dining Guide
-            </h3>
-            <p className="font-inter text-body-sm text-gray-400 leading-relaxed mb-8">
-              Discover how to plan the perfect private dining experience in Dubai. Tips, menu ideas, and insider recommendations — delivered to your WhatsApp.
-            </p>
+        <h3 className="font-playfair text-h3 text-white mb-4">
+          Get Our Private Dining Guide
+        </h3>
+        <p className="font-inter text-body-sm text-gray-400 leading-relaxed mb-8">
+          Discover how to plan the perfect private dining experience in Dubai. Tips, menu ideas, and insider recommendations — sent straight to your WhatsApp.
+        </p>
 
-            <form id="lead-magnet-form" onSubmit={handleSubmit} className="space-y-4">
-              <input
-                type="tel"
-                value={phone}
-                onChange={(e) => setPhone(e.target.value)}
-                placeholder="Your phone number (WhatsApp)"
-                className="w-full bg-charcoal-light border border-charcoal-light text-white placeholder:text-gray-500 px-4 py-3.5 font-inter text-sm focus:border-gold focus:outline-none focus:ring-2 focus:ring-gold/20 transition-all duration-200"
-                required
-              />
-              <button
-                type="submit"
-                disabled={isSubmitting}
-                className="btn-primary w-full disabled:opacity-70 disabled:cursor-not-allowed"
-              >
-                {isSubmitting ? 'Sending...' : 'Send Me the Guide'}
-              </button>
-            </form>
-          </>
-        ) : (
-          <div className="text-center py-8">
-            <h3 className="font-playfair text-h3 text-gold mb-4">
-              Thank You!
-            </h3>
-            <p className="font-inter text-body-sm text-gray-400">
-              We will send your guide shortly.
-            </p>
-          </div>
-        )}
+        <a
+          href={WHATSAPP_LINK}
+          target="_blank"
+          rel="noopener noreferrer"
+          onClick={handleWhatsAppClick}
+          className="btn-primary w-full inline-flex items-center justify-center gap-2"
+        >
+          <Phone size={18} aria-hidden="true" />
+          Send Me the Guide on WhatsApp
+        </a>
       </div>
     </div>
   )
