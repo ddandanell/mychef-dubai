@@ -25,8 +25,8 @@ export default function Home() {
   return (
     <>
       <SEO
-        title="Premium Private Chef & Luxury Catering Dubai"
-        description="myCHEF Dubai delivers premium private chef services, luxury catering, and bespoke dining experiences across Dubai. From villas to yachts — request your custom quote today."
+        title="Private Chef & Luxury Dining Experiences Dubai"
+        description="myCHEF Dubai designs private dining experiences and connects you with handpicked, licensed chefs across Dubai. From villas to yachts — request your custom quote today."
         canonicalPath="/"
         ogImage="/images/home-hero.webp"
         schema={combinedSchema as unknown as Record<string, unknown>}
@@ -37,13 +37,13 @@ export default function Home() {
       <StarterPackagesSection
         campaign="home"
         eyebrow="INDICATIVE PRICING"
-        title="How much does a private chef or catering package cost in Dubai?"
-        subtitle="Ready-to-book starting points for Dubai's most requested private chef and catering experiences."
+        title="How much does a private chef or luxury dining package cost in Dubai?"
+        subtitle="Ready-to-book starting points for Dubai's most requested private chef and luxury dining experiences."
       />
       <TrustSection />
       <HowItWorksSection />
       <LocationsSection />
-      <LocationStrip title="Private chef & catering across Dubai" />
+      <LocationStrip title="Private chef & luxury dining across Dubai" />
       <TestimonialsSection />
       <GuidesTeaserSection />
 
