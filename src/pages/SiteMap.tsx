@@ -180,6 +180,14 @@ export default function SiteMap() {
               <li><Link to="/fitness-meal-prep-dubai" className="text-gray-600 hover:text-gold transition-colors">/fitness-meal-prep-dubai</Link></li>
               <li><Link to="/tourist-villa-chef-dubai" className="text-gray-600 hover:text-gold transition-colors">/tourist-villa-chef-dubai</Link></li>
               <li><Link to="/proposal-dinner-dubai" className="text-gray-600 hover:text-gold transition-colors">/proposal-dinner-dubai</Link></li>
+              <li><Link to="/founding-customer-offer" className="text-gray-600 hover:text-gold transition-colors">/founding-customer-offer</Link></li>
+              <li><Link to="/loyalty-programme" className="text-gray-600 hover:text-gold transition-colors">/loyalty-programme</Link></li>
+              <li><Link to="/mychef-certified" className="text-gray-600 hover:text-gold transition-colors">/mychef-certified</Link></li>
+              <li><Link to="/mystery-dining-dubai" className="text-gray-600 hover:text-gold transition-colors">/mystery-dining-dubai</Link></li>
+              <li><Link to="/chef-training-academy" className="text-gray-600 hover:text-gold transition-colors">/chef-training-academy</Link></li>
+              <li><Link to="/influencer-partnerships" className="text-gray-600 hover:text-gold transition-colors">/influencer-partnerships</Link></li>
+              <li><Link to="/full-time-private-chef-dubai" className="text-gray-600 hover:text-gold transition-colors">/full-time-private-chef-dubai</Link></li>
+              <li><Link to="/kids-nutrition-chef-dubai" className="text-gray-600 hover:text-gold transition-colors">/kids-nutrition-chef-dubai</Link></li>
               <li><Link to="/apartment-private-dining-dubai" className="text-gray-600 hover:text-gold transition-colors">/apartment-private-dining-dubai</Link></li>
               <li><Link to="/chefs-table-dubai" className="text-gray-600 hover:text-gold transition-colors">/chefs-table-dubai</Link></li>
               <li><Link to="/part-time-private-chef-dubai" className="text-gray-600 hover:text-gold transition-colors">/part-time-private-chef-dubai</Link></li>

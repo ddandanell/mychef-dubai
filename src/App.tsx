@@ -161,6 +161,14 @@ const CaseStudies = lazy(() => import('./pages/CaseStudies'))
 const WeeklyMealPrep = lazy(() => import('./pages/WeeklyMealPrep'))
 const WellnessMealPrep = lazy(() => import('./pages/WellnessMealPrep'))
 const HowWeVetOurChefs = lazy(() => import('./pages/HowWeVetOurChefs'))
+const MyChefCertified = lazy(() => import('./pages/MyChefCertified'))
+const FoundingCustomerOffer = lazy(() => import('./pages/FoundingCustomerOffer'))
+const LoyaltyProgramme = lazy(() => import('./pages/LoyaltyProgramme'))
+const MysteryDining = lazy(() => import('./pages/MysteryDining'))
+const ChefTrainingAcademy = lazy(() => import('./pages/ChefTrainingAcademy'))
+const InfluencerPartnerships = lazy(() => import('./pages/InfluencerPartnerships'))
+const FullTimePrivateChef = lazy(() => import('./pages/FullTimePrivateChef'))
+const KidsNutritionChef = lazy(() => import('./pages/KidsNutritionChef'))
 const BookingProtectionInsurance = lazy(() => import('./pages/BookingProtectionInsurance'))
 const BecomeAMyChef = lazy(() => import('./pages/BecomeAMyChef'))
 const ReviewRequest = lazy(() => import('./pages/ReviewRequest'))
@@ -346,6 +354,14 @@ export default function App() {
           <Route path="/weekly-meal-prep-dubai" element={<WeeklyMealPrep />} />
           <Route path="/wellness-meal-prep-dubai" element={<WellnessMealPrep />} />
           <Route path="/how-we-vet-our-chefs" element={<HowWeVetOurChefs />} />
+          <Route path="/mychef-certified" element={<MyChefCertified />} />
+          <Route path="/founding-customer-offer" element={<FoundingCustomerOffer />} />
+          <Route path="/loyalty-programme" element={<LoyaltyProgramme />} />
+          <Route path="/mystery-dining-dubai" element={<MysteryDining />} />
+          <Route path="/chef-training-academy" element={<ChefTrainingAcademy />} />
+          <Route path="/influencer-partnerships" element={<InfluencerPartnerships />} />
+          <Route path="/full-time-private-chef-dubai" element={<FullTimePrivateChef />} />
+          <Route path="/kids-nutrition-chef-dubai" element={<KidsNutritionChef />} />
           <Route path="/booking-protection-insurance" element={<BookingProtectionInsurance />} />
           <Route path="/become-a-mychef" element={<BecomeAMyChef />} />
           <Route path="/review" element={<ReviewRequest />} />
