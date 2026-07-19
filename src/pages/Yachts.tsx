@@ -348,16 +348,20 @@ export default function Yachts() {
         </div>
       </section>
 
-      {/* Section 7: Testimonial */}
+      {/* Section 7: Yacht Trust CTA */}
       <section className="bg-charcoal py-20">
         <div className="yacht-testimonial max-w-[800px] mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="text-gold text-4xl font-playfair mb-6">&ldquo;</div>
-          <blockquote className="font-playfair text-h3 text-white mb-6" style={{ lineHeight: '1.3' }}>
-            We chartered a yacht for our anniversary and had myCHEF provide the dining. Watching the sunset over the Burj Al Arab while enjoying a 7-course meal — it was the most romantic evening of our lives. The chef was incredible.
-          </blockquote>
-          <cite className="font-inter text-body-sm text-gray-400 not-italic">
-            — Aisha &amp; Omar K., Dubai Marina
-          </cite>
+          <h2 className="font-playfair text-h3 text-white mb-6" style={{ lineHeight: '1.3' }}>
+            Make your next yacht charter unforgettable with a private chef on board.
+          </h2>
+          <p className="font-inter text-body text-gray-400 mb-6">
+            We are collecting verified reviews from yacht charter guests. Share your experience and receive AED 50 credit towards your next booking.
+          </p>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <Link to="/review" className="btn-primary">Leave a Review</Link>
+            <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-secondary">Chat on WhatsApp</a>
+          </div>
         </div>
       </section>
 

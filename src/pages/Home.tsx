@@ -8,7 +8,7 @@ import ServicesSection from '@/sections/ServicesSection'
 import TrustSection from '@/sections/TrustSection'
 import HowItWorksSection from '@/sections/HowItWorksSection'
 import LocationsSection from '@/sections/LocationsSection'
-import TestimonialsSection from '@/sections/TestimonialsSection'
+import ReviewInviteSection from '@/sections/ReviewInviteSection'
 import TeamSection from '@/sections/TeamSection'
 import CTASection from '@/sections/CTASection'
 import StarterPackagesSection from '@/sections/StarterPackagesSection'
@@ -46,7 +46,7 @@ export default function Home() {
       <HowItWorksSection />
       <LocationsSection />
       <LocationStrip title="Private chef & luxury dining across Dubai" />
-      <TestimonialsSection />
+      <ReviewInviteSection />
       <GuidesTeaserSection />
 
       {/* Experience links */}

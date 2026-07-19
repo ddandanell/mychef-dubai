@@ -584,21 +584,20 @@ export default function Corporate() {
         </div>
       </section>
 
-      {/* ─── Testimonial ─── */}
+      {/* ─── Corporate Trust CTA ─── */}
       <section className="bg-charcoal py-20 md:py-24">
         <div className="container-custom max-w-[800px]">
           <div ref={testimonialRef} className="text-center">
             <Quote size={32} className="text-gold mx-auto mb-6" />
-            <blockquote className="font-playfair text-xl md:text-2xl text-white italic leading-relaxed mb-6">
-              &ldquo;We have used myCHEF for over a dozen client dinners at our DIFC office. The quality is consistently exceptional, the team is always professional, and our clients are always impressed. They have become our go-to catering partner.&rdquo;
-            </blockquote>
-            <cite className="font-inter text-body-sm text-gray-400 not-italic">
-              — Richard Hale, Managing Director, DIFC
-            </cite>
-            <div className="flex items-center justify-center gap-1 mt-4">
-              {[...Array(5)].map((_, i) => (
-                <Star key={i} size={16} className="text-gold" fill="#C8A45C" />
-              ))}
+            <h2 className="font-playfair text-xl md:text-2xl text-white italic leading-relaxed mb-6">
+              Join the Dubai businesses that trust myCHEF for boardroom lunches, client dinners, and team events.
+            </h2>
+            <p className="font-inter text-body text-gray-400 mb-6">
+              We are collecting verified reviews from corporate clients. Share your experience and receive AED 50 credit towards your next booking.
+            </p>
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+              <Link to="/review" className="btn-primary">Leave a Review</Link>
+              <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-secondary">Chat on WhatsApp</a>
             </div>
           </div>
         </div>
