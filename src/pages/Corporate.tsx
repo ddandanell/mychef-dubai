@@ -11,6 +11,7 @@ import {
 import SEO from '@/components/SEO'
 import PageHero from '@/components/PageHero'
 import LocationStrip from '@/components/LocationStrip'
+import TrustSignalStrip from '@/components/TrustSignalStrip'
 import StarterPackagesSection from '@/sections/StarterPackagesSection'
 import {
   breadcrumbSchema,
@@ -26,6 +27,10 @@ const WHATSAPP_MESSAGE = encodeURIComponent(
   "Hi myCHEF Dubai, I'd like to request a corporate catering quote (via mychef.ae/corporate)"
 )
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
+const RETAINER_MESSAGE = encodeURIComponent(
+  "Hi myCHEF Dubai, I'd like a corporate retainer proposal (via mychef.ae/corporate)"
+)
+const RETAINER_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${RETAINER_MESSAGE}`
 
 /* ───── Data ───── */
 
@@ -379,6 +384,7 @@ export default function Corporate() {
         minHeight="tall"
         overlay="dark"
       />
+      <TrustSignalStrip />
 
       {/* ─── Corporate Services ─── */}
       <section className="bg-white section-padding">
@@ -492,6 +498,68 @@ export default function Corporate() {
                 <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=corporate" className="btn-secondary w-full text-center text-sm py-3">Request a Proposal</Link>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ─── Corporate Retainer Tiers ─── */}
+      <section className="bg-black section-padding">
+        <div className="container-custom max-w-[1000px]">
+          <div className="text-center mb-12">
+            <span className="font-inter text-caption font-medium uppercase tracking-widest text-gold">
+              MONTHLY RETAINERS
+            </span>
+            <h2 className="font-playfair text-h2 text-white mt-4">
+              Ongoing corporate catering plans for Dubai businesses
+            </h2>
+            <p className="font-inter text-body text-gray-400 leading-relaxed mt-4 max-w-[700px] mx-auto">
+              Predictable monthly catering for boardrooms, teams, and client events. VAT-compliant invoicing with TRN-ready documentation.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+            <div className="bg-charcoal p-8 border-t-[3px] border-gold">
+              <h3 className="font-playfair text-h3 text-white mb-2">Starter</h3>
+              <p className="font-playfair text-3xl text-gold mb-1">AED 3,500<span className="text-base text-gray-400">/mo</span></p>
+              <p className="font-inter text-body-sm text-gray-400 mb-6">Ideal for small offices and monthly board lunches.</p>
+              <ul className="space-y-3 mb-8">
+                <li className="flex items-start gap-3"><Check size={16} className="text-gold flex-shrink-0 mt-1" /><span className="font-inter text-body-sm text-gray-300">1 catered event per month</span></li>
+                <li className="flex items-start gap-3"><Check size={16} className="text-gold flex-shrink-0 mt-1" /><span className="font-inter text-body-sm text-gray-300">Up to 20 guests</span></li>
+                <li className="flex items-start gap-3"><Check size={16} className="text-gold flex-shrink-0 mt-1" /><span className="font-inter text-body-sm text-gray-300">Menu consultation included</span></li>
+                <li className="flex items-start gap-3"><Check size={16} className="text-gold flex-shrink-0 mt-1" /><span className="font-inter text-body-sm text-gray-300">VAT invoice provided</span></li>
+              </ul>
+              <a href={RETAINER_LINK} target="_blank" rel="noopener noreferrer" className="btn-secondary w-full text-center text-sm py-3">Get a Retainer Quote</a>
+            </div>
+            <div className="bg-charcoal p-8 border-t-[3px] border-gold relative">
+              <span className="absolute top-0 right-0 bg-gold text-black text-xs font-bold uppercase tracking-wider px-3 py-1">Popular</span>
+              <h3 className="font-playfair text-h3 text-white mb-2">Professional</h3>
+              <p className="font-playfair text-3xl text-gold mb-1">AED 8,500<span className="text-base text-gray-400">/mo</span></p>
+              <p className="font-inter text-body-sm text-gray-400 mb-6">For growing teams with regular client and team events.</p>
+              <ul className="space-y-3 mb-8">
+                <li className="flex items-start gap-3"><Check size={16} className="text-gold flex-shrink-0 mt-1" /><span className="font-inter text-body-sm text-gray-300">2 catered events per month</span></li>
+                <li className="flex items-start gap-3"><Check size={16} className="text-gold flex-shrink-0 mt-1" /><span className="font-inter text-body-sm text-gray-300">Quarterly team lunch</span></li>
+                <li className="flex items-start gap-3"><Check size={16} className="text-gold flex-shrink-0 mt-1" /><span className="font-inter text-body-sm text-gray-300">Priority scheduling</span></li>
+                <li className="flex items-start gap-3"><Check size={16} className="text-gold flex-shrink-0 mt-1" /><span className="font-inter text-body-sm text-gray-300">TRN-ready invoicing</span></li>
+              </ul>
+              <a href={RETAINER_LINK} target="_blank" rel="noopener noreferrer" className="btn-primary w-full text-center text-sm py-3">Get a Retainer Quote</a>
+            </div>
+            <div className="bg-charcoal p-8 border-t-[3px] border-gold">
+              <h3 className="font-playfair text-h3 text-white mb-2">Enterprise</h3>
+              <p className="font-playfair text-3xl text-gold mb-1">AED 18,000<span className="text-base text-gray-400">+ /mo</span></p>
+              <p className="font-inter text-body-sm text-gray-400 mb-6">Dedicated support for larger organisations and venues.</p>
+              <ul className="space-y-3 mb-8">
+                <li className="flex items-start gap-3"><Check size={16} className="text-gold flex-shrink-0 mt-1" /><span className="font-inter text-body-sm text-gray-300">4+ events per month</span></li>
+                <li className="flex items-start gap-3"><Check size={16} className="text-gold flex-shrink-0 mt-1" /><span className="font-inter text-body-sm text-gray-300">Dedicated account manager</span></li>
+                <li className="flex items-start gap-3"><Check size={16} className="text-gold flex-shrink-0 mt-1" /><span className="font-inter text-body-sm text-gray-300">Custom menus & branding</span></li>
+                <li className="flex items-start gap-3"><Check size={16} className="text-gold flex-shrink-0 mt-1" /><span className="font-inter text-body-sm text-gray-300">Consolidated monthly billing</span></li>
+              </ul>
+              <a href={RETAINER_LINK} target="_blank" rel="noopener noreferrer" className="btn-secondary w-full text-center text-sm py-3">Get a Retainer Quote</a>
+            </div>
+          </div>
+          <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-3 text-center">
+            <FileText size={18} className="text-gold" />
+            <span className="font-inter text-body-sm text-gray-400">
+              All retainers include detailed VAT invoices and TRN-ready documentation for your finance team.
+            </span>
           </div>
         </div>
       </section>
