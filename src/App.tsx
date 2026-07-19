@@ -166,6 +166,10 @@ const BecomeAMyChef = lazy(() => import('./pages/BecomeAMyChef'))
 const ReviewRequest = lazy(() => import('./pages/ReviewRequest'))
 const ReferralProgramme = lazy(() => import('./pages/ReferralProgramme'))
 const PartnerWithUs = lazy(() => import('./pages/PartnerWithUs'))
+const VillaRentalsPartner = lazy(() => import('./pages/partners/VillaRentalsPartner'))
+const YachtChartersPartner = lazy(() => import('./pages/partners/YachtChartersPartner'))
+const EventPlannersPartner = lazy(() => import('./pages/partners/EventPlannersPartner'))
+const ConciergeServicesPartner = lazy(() => import('./pages/partners/ConciergeServicesPartner'))
 const Press = lazy(() => import('./pages/Press'))
 const SiteMap = lazy(() => import('./pages/SiteMap'))
 
@@ -336,6 +340,10 @@ export default function App() {
           <Route path="/review" element={<ReviewRequest />} />
           <Route path="/referral-programme" element={<ReferralProgramme />} />
           <Route path="/partner-with-us" element={<PartnerWithUs />} />
+          <Route path="/partners/villa-rentals-dubai" element={<VillaRentalsPartner />} />
+          <Route path="/partners/yacht-charters-dubai" element={<YachtChartersPartner />} />
+          <Route path="/partners/event-planners-dubai" element={<EventPlannersPartner />} />
+          <Route path="/partners/concierge-services-dubai" element={<ConciergeServicesPartner />} />
           <Route path="/press" element={<Press />} />
           <Route path="/site-map" element={<SiteMap />} />
           <Route path="*" element={<NotFound />} />
