@@ -9,7 +9,7 @@ export default function EventPlannersPartner() {
       description="Partner with myCHEF Dubai for reliable, premium catering and private chef services for your events across Dubai."
       canonicalPath="/partners/event-planners-dubai"
       ogImage="/images/events-catering-dubai-hero.webp"
-      headline={<>Event Planner<br />Partnership Dubai</>}
+      headline="Event Planner Partnership Dubai"
       eyebrow="FOR EVENT PLANNING COMPANIES"
       subheadline="A premium catering partner for weddings, corporate events, private parties, and luxury celebrations."
       intro="Deliver Flawless Catering for Every Event"

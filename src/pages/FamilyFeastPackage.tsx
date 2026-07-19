@@ -8,7 +8,7 @@ export default function FamilyFeastPackage() {
       description="A relaxed, generous private chef dinner for 6–8 guests in Dubai. The Family Feast package features sharing-style menus, premium ingredients, and full service so you can enjoy the evening with family and friends."
       canonicalPath="/family-feast-package-dubai"
       ogImage="/images/celebration-catering-dubai-hero.webp"
-      headline={<>Family Feast<br />Private Chef Dubai</>}
+      headline="Family Feast Private Chef Dubai"
       eyebrow="FAMILY DINING PACKAGE"
       subheadline="A generous sharing-style dinner for family and friends — prepared in your home and served without the stress."
       price="2,400"

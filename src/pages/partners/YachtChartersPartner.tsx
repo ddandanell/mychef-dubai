@@ -9,7 +9,7 @@ export default function YachtChartersPartner() {
       description="Partner with myCHEF Dubai to offer private chef and catering services on your yacht charters across Dubai Marina, Palm Jumeirah, and beyond."
       canonicalPath="/partners/yacht-charters-dubai"
       ogImage="/images/yacht-catering-dubai-hero.webp"
-      headline={<>Yacht Charter<br />Partnership Dubai</>}
+      headline="Yacht Charter Partnership Dubai"
       eyebrow="FOR YACHT CHARTER COMPANIES"
       subheadline="Elevate every charter with onboard private chef dining, canapés, BBQs, and tailored menus."
       intro="Turn Every Charter Into a Culinary Experience"

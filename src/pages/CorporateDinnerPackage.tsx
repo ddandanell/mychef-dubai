@@ -8,7 +8,7 @@ export default function CorporateDinnerPackage() {
       description="A professional corporate dinner package for 10–15 guests in Dubai. Ideal for boardroom dinners, team celebrations, and client entertainment with multi-course or buffet menus and full service."
       canonicalPath="/corporate-dinner-package-dubai"
       ogImage="/images/corporate-catering-dubai-hero.webp"
-      headline={<>Corporate Dinner<br />Catering Dubai</>}
+      headline="Corporate Dinner Catering Dubai"
       eyebrow="CORPORATE DINING PACKAGE"
       subheadline="Impress clients and reward teams with a polished private dinner delivered to your office or venue in Dubai."
       price="4,500"
