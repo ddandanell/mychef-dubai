@@ -3,7 +3,7 @@ import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import { Gift, Users, MessageCircle, Wallet, Check, Phone, ArrowRight } from 'lucide-react'
+import { Gift, Users, MessageCircle, Wallet, Check, Phone } from 'lucide-react'
 import SEO from '../components/SEO'
 import PageHero from '../components/PageHero'
 import TrustSignalStrip from '../components/TrustSignalStrip'
@@ -95,7 +95,7 @@ export default function ReferralProgramme() {
 
       <PageHero
         eyebrow="REFER & REWARD"
-        title={<>Give AED 100,<br />Get AED 100</>}
+        title="Give AED 100, Get AED 100"
         subtitle="Share myCHEF Dubai with friends and family. They save on their first booking, and you earn credit towards your next experience."
         image="/images/celebration-catering-dubai-hero.webp"
         imageAlt="myCHEF Dubai referral programme"

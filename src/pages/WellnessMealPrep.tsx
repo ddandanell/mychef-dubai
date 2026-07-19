@@ -17,7 +17,6 @@ import {
   Check,
   ChevronRight,
   Phone,
-  ArrowRight,
 } from 'lucide-react'
 import SEO from '../components/SEO'
 import PageHero from '../components/PageHero'
@@ -194,7 +193,7 @@ export default function WellnessMealPrep() {
 
       <PageHero
         eyebrow="HEALTH-FOCUSED MEAL PREP"
-        title={<>Wellness Meal Prep<br />Dubai</>}
+        title="Wellness Meal Prep Dubai"
         subtitle="Nutritionist-aligned, macro-calculated meals prepared by a private chef in your own kitchen — designed around your health and fitness goals."
         image="/images/healthy-catering-dubai-hero.webp"
         imageAlt="Wellness meal prep in Dubai"
