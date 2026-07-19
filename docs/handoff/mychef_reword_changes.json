@@ -1,0 +1,197 @@
+{
+  "_meta": {
+    "doc_id": "DOS-BLU-009",
+    "version": "2.0 (red-team-hardened)",
+    "for": "David — implement on mychef.ae with Kimi Code",
+    "prepared": "2026-07-10",
+    "status": "DRAFT — BLOCKING gates before publish: (1) regulated-sector quarantine done, (2) one UAE legal review pass signed off, (3) scanner returns zero. Do not deploy before all three.",
+    "site": "mychef.ae — ~180 pages, JS-rendered (React/SPA), programmatic SEO. Full list in sitemap.xml.",
+    "goal": "Stop the brand claiming it COOKS/CATERS or that it EMPLOYS, SUPPLIES or PLACES chefs. Reposition as an experience brand that DESIGNS the occasion and INTRODUCES/RECOMMENDS independent licensed chefs the client engages; the chef performs the regulated work. Resolves the management-consultancy-vs-catering gap (HC-03/HC-28).",
+
+    "PRIME_RULES": [
+      "TEST 1 — Performance: 'Does this claim WE cook/cater/prepare/serve?' If yes -> rewrite so the chef does it.",
+      "TEST 2 — Chef relationship: 'Does this claim we EMPLOY, SUPPLY, PLACE or STAFF the chef?' If yes -> rewrite to INTRODUCE / MATCH / RECOMMEND independent chefs the client engages. (Employment AND manpower-supply are separate regulated activities the licence does not cover — flagged by legal red-team.)",
+      "TEST 3 — Control: avoid 'we manage/control DELIVERY to our standard' about the COOKING. It's fine to say we DESIGN the experience and SELECT chefs to a high standard; it is risky to claim we operationally control the food service."
+    ],
+    "keep": "ALL SEO keywords stay: the noun 'catering', 'private chef', every /*-catering-dubai URL/title/H1. Only the CLAIM of performing/employing changes. EXCEPTION: the HOMEPAGE hero title/H1 is deliberately repositioned from 'Luxury Catering' to 'Luxury Dining Experiences' (owner-approved brand move, DOS-BLU-002); this exception applies ONLY to the homepage hero, not to the ~100 occasion/catering page titles which KEEP 'Catering'.",
+
+    "how_to_apply": [
+      "STEP 0 (BLOCKING) — Quarantine: noindex + 301 the regulated-sector pages in `pre_step_quarantine` to a generic page BEFORE rewording. A lawyer per-sector go/no-go decides which return. The scanner does NOT substitute for this.",
+      "STEP 1 — Locate copy: this is a React/SPA + programmatic site, so strings live in components and/or a CMS/data layer, NOT static HTML. Grep the repo/CMS for each find-string; report match count per file; FAIL LOUDLY on any zero-match find-string (means the string moved — re-scan the live page).",
+      "STEP 2 — Deterministic swaps: apply `global.find_replace_exact` and every template `find_replace` verbatim.",
+      "STEP 3 — Guided rewrite: apply `global.phrase_map` across ALL pages and ALL surfaces. Each row has ONE canonical replacement; use it, adapting grammar only.",
+      "STEP 4 — Surfaces: apply steps 2–3 to EVERY surface in `global.surfaces` (not just body): <title>, meta description, og:/twitter: tags, image alt + captions, breadcrumbs, nav, 'You May Also Like' cards, AND regenerate all JSON-LD from the reworded copy.",
+      "STEP 5 — Additions: add `global.additions` to every page.",
+      "STEP 6 (BLOCKING) — Scanner: run `global.scanner` CASE-INSENSITIVELY over the RENDERED DOM text + head + JSON-LD of every one of the ~180 pages. Every pattern must return ZERO. Also run `global.positive_assertions` — each must PASS.",
+      "STEP 7 (BLOCKING) — one UAE legal review pass, then publish from staging."
+    ],
+    "coverage_note": "All 180 URLs from sitemap.xml. Live-scanned templates: homepage, occasion-catering (wedding), chef page (our-chefs). The phrase_map + case-insensitive scanner are the safety net for the ~150 templated pages not hand-scanned. STEP 1 grep + STEP 6 scanner catch anything the exact pairs miss.",
+    "do_not": [
+      "Do NOT change any URL (SEO + 301 risk) — except the STEP-0 quarantine redirects.",
+      "Do NOT add checkout/cart (HC-14/HC-32).",
+      "Do NOT remove pricing.",
+      "Do NOT claim HACCP / 'licensed caterer' about myCHEF itself.",
+      "Do NOT keep any named chef presented as an employee.",
+      "Do NOT use any replacement token containing the literal 'our chef' (it trips the scanner and re-asserts employment)."
+    ]
+  },
+
+  "pre_step_quarantine": {
+    "why": "These pages advertise regulated/institutional catering a coordinator may not be able to promote at all — a lawyer go/no-go, not a reword. Legal red-team: quarantine BEFORE the reword pass.",
+    "action": "noindex + 301 to a generic 'private dining' page until per-sector legal clearance",
+    "pages": [
+      "/healthcare-catering-dubai", "/school-catering-dubai", "/nursery-catering-dubai",
+      "/university-catering-dubai", "/government-event-catering-dubai"
+    ]
+  },
+
+  "global": {
+    "surfaces": ["<title>", "meta description", "og:title", "og:description", "twitter:title", "twitter:description", "og:image:alt", "H1/H2/H3 headings (incl. ALL-CAPS)", "body copy", "FAQ answers", "image alt text + captions", "breadcrumbs", "nav labels", "'You May Also Like' / related cards", "footer", "all JSON-LD string values"],
+
+    "homepage_title": {
+      "find": "Premium Private Chef & Luxury Catering Dubai | myCHEF Dubai — Premium Private Chef & Catering",
+      "replace": "Private Chef & Luxury Dining Experiences Dubai | myCHEF Dubai",
+      "note": "Homepage-only repositioning exception (see _meta.keep). All OTHER page titles keep their 'Catering' keyword; only the global suffix ' — Premium Private Chef & Catering' is trimmed off them."
+    },
+    "global_title_suffix": { "find": " — Premium Private Chef & Catering", "replace": "", "applies": "every non-home page <title> ends with this suffix; remove it (keyword already in the page-specific title)." },
+
+    "find_replace_exact": [
+      { "find": "Premium private chef services and luxury catering across Dubai. From intimate villa dinners to grand yacht events — every experience is tailored to your taste.", "replace": "Dubai's premium private chef and luxury dining experiences. From intimate villa dinners to grand yacht events — we design every detail and bring in Dubai's finest chefs for your table." },
+      { "find": "BROWSE OUR SERVICES", "replace": "BROWSE OUR EXPERIENCES" },
+      { "find": "HOSPITALITY TEAM", "replace": "DINING EXPERIENCES" },
+      { "find": "HACCP-aligned food safety protocols", "replace": "Independent chefs who hold their own food-safety credentials" },
+      { "find": "PRIVATE CHEF & CATERING SERVICES", "replace": "PRIVATE CHEF & LUXURY DINING" },
+      { "find": "Your own professional chef for an evening, a week, or longer. Fully bespoke menus prepared in your kitchen.", "replace": "A handpicked professional chef for an evening, a week, or longer. We match the right chef to your taste and design the menu with you — bespoke dining, prepared by your chef in your own home." },
+      { "find": "Full-service luxury catering for events of any size. From plated dinners to grand buffets.", "replace": "Plated dinners to grand buffets, for events of any size — designed with you, delivered by Dubai's finest licensed caterers you engage through us." },
+      { "find": "Intimate fine dining at home, romantic dinners, birthday celebrations — all prepared and served by our team.", "replace": "Intimate fine dining at home, romantic evenings, milestone celebrations — every course designed with you and prepared by your handpicked chef." },
+      { "find": "From intimate gatherings to large celebrations. We handle the food, service, and presentation.", "replace": "From intimate gatherings to grand celebrations — we design the experience and bring in the chef, service and styling, so you host while your chef delivers." },
+      { "find": "Impress clients and colleagues with sophisticated corporate dining and boardroom catering.", "replace": "Impress clients and colleagues with sophisticated boardroom dining and corporate events — designed with you and delivered by chefs and caterers who work to corporate standard." },
+      { "find": "Dedicated villa chef services for holiday homes, long-stay guests, and luxury residences across Dubai.", "replace": "Dedicated villa chef arrangements for holiday homes, long-stay guests, and luxury residences across Dubai — we match you with a vetted chef you engage, and design the dining around your home." },
+      { "find": "Founded by a team with deep roots in luxury hospitality, myCHEF Dubai brings experienced culinary talent directly to your door. Every dish is prepared with premium ingredients, every service delivered with discretion.", "replace": "Founded by a team with deep roots in luxury hospitality, myCHEF Dubai connects you with Dubai's most talented culinary artists — every chef handpicked, every experience designed and delivered with discretion. One point of contact. One standard of selection." },
+      { "find": "VERIFIED CHEFS", "replace": "HANDPICKED CHEFS" },
+      { "find": "Our chef creates a bespoke menu tailored to your preferences, dietary needs, and the occasion.", "replace": "We match you with the ideal chef, and together you design a bespoke menu around your preferences, dietary needs, and the occasion." },
+      { "find": "We source the best available ingredients and arrive at your venue fully prepared to deliver excellence.", "replace": "Your chef sources the finest ingredients and arrives fully prepared — while we confirm every detail behind the scenes." },
+      { "find": "We source ingredients and prepare", "replace": "Your chef sources and prepares" },
+      { "find": "Sit back and enjoy a flawless dining experience. We handle everything from plating to cleanup.", "replace": "Sit back and enjoy. Your chef and service team handle everything from plating to cleanup — and we make sure every detail was arranged to plan." },
+      { "find": "You enjoy; we handle cleanup", "replace": "You enjoy; your chef handles cleanup" },
+      { "find": "Our head chef brings decades of experience from respected European kitchens to Dubai's most distinguished homes. Every menu is designed with precision, every plate tells a story.", "replace": "The chefs in our network bring decades of experience from respected European and international kitchens to Dubai's most distinguished homes — every menu designed with precision, every plate telling a story." },
+      { "find": "Behind every event is a dedicated team of chefs, sous chefs, pastry specialists, and service staff — all committed to one goal: making your experience unforgettable.", "replace": "Every chef, sous chef, pastry specialist, and service professional in our network is independent, handpicked and vetted before they ever cook for a myCHEF client." },
+      { "find": "MEET OUR CHEFS", "replace": "OUR CULINARY NETWORK" },
+      { "find": "Who are the chefs behind myCHEF Dubai?", "replace": "Who cooks at a myCHEF Dubai experience?" },
+      { "find": "WHERE WE CATER", "replace": "WHERE WE SERVE" },
+      { "find": "Private chef & catering across Dubai", "replace": "Private chef & luxury dining across Dubai" },
+      { "find": "Ready to book a private chef or catering in Dubai?", "replace": "Ready to plan an unforgettable dining experience in Dubai?" }
+    ],
+
+    "phrase_map": [
+      { "banned_regex": "(?i)\\bwe cater(\\s+for)?\\b", "replace": "we coordinate catering for", "guidance": "Verb only. The NOUN 'catering' in titles/URLs/keywords STAYS untouched." },
+      { "banned_regex": "(?i)\\bour (culinary )?team( of chefs)?\\b|(?i)\\bteam members?\\b", "replace": "the chefs in our network", "guidance": "Chefs are independent partners, not staff." },
+      { "banned_regex": "(?i)\\bour chefs?\\b", "replace": "the chefs in our network", "guidance": "Never output a token containing 'our chef'." },
+      { "banned_regex": "(?i)\\bour (head|pastry|executive|sous) chef\\b", "replace": "a partner chef", "guidance": "e.g. 'our pastry chef' -> 'partner pastry chef Sofia'." },
+      { "banned_regex": "(?i)\\bour (mobile )?kitchen\\b|(?i)bring(s|ing)? the kitchen\\b|(?i)full mobile kitchen", "replace": "your chef arrives fully equipped", "guidance": "myCHEF has no kitchen." },
+      { "banned_regex": "(?i)\\bwe (cook|prepare)\\b|(?i)prepared by (our team|us)|(?i)served by our team", "replace": "your chef prepares", "guidance": "The chef cooks, not myCHEF." },
+      { "banned_regex": "(?i)\\bwe handle (the food|everything)\\b", "replace": "we design and manage the experience", "guidance": "Design/arrange, not perform." },
+      { "banned_regex": "(?i)full[- ]service\\b([^.]{0,25})catering", "replace": "fully-coordinated catering", "guidance": "'full-service wedding catering' -> 'fully-coordinated wedding catering'." },
+      { "banned_regex": "(?i)\\bwe (provide|place|supply|staff) ([^.]{0,20})chefs?\\b|(?i)hire our chefs|(?i)choose a chef from our team", "replace": "we match you with a vetted chef you engage", "guidance": "INTRODUCE, do not supply/place (TEST 2)." },
+      { "banned_regex": "(?i)join our team|(?i)careers@mychef\\.ae|(?i)\\bour staff\\b", "replace": "become a partner chef · partners@mychef.ae", "guidance": "Recruitment language -> partner-network language." },
+      { "banned_regex": "(?i)chef[- ]manned|(?i)manned by our chefs", "replace": "chef-led (by a partner chef)", "guidance": null },
+      { "banned_regex": "(?i)\\bHACCP\\b", "replace": "food-safety-certified (partner-held)", "guidance": "Only about partners, and only if evidenced (see warranty flag)." }
+    ],
+
+    "additions": {
+      "footer_role_statement_EVERY_PAGE": "myCHEF Dubai designs and manages private dining and event experiences and connects clients with independent, licensed chefs and catering professionals. Culinary preparation is performed by those licensed third parties, whom the client engages; myCHEF is not a food establishment.",
+      "footer_license_line_EVERY_PAGE": "myCHEF Dubai · [LEGAL ENTITY NAME] · Licence No. [•] · [LICENSING AUTHORITY] — David: values from owner (Owner Action Pack §A).",
+      "schema_professionalservice_HOMEPAGE_ONLY": {
+        "@context": "https://schema.org", "@type": "ProfessionalService", "name": "myCHEF Dubai",
+        "description": "Premium private-dining and event design in Dubai. We design bespoke culinary experiences and connect clients with vetted, licensed independent chefs and catering partners. Culinary preparation is performed by those licensed third parties.",
+        "url": "https://mychef.ae/", "areaServed": "Dubai, United Arab Emirates", "knowsLanguage": ["en", "ar"], "priceRange": "$$$"
+      },
+      "schema_rules": [
+        "Emit ProfessionalService ONCE (homepage/Organization level) — do NOT duplicate on all 180 pages.",
+        "REGENERATE every existing JSON-LD block (FAQPage answers, Organization/LocalBusiness name+description, etc.) FROM the reworded copy — do not leave stale 'we cater'/'Luxury Catering' inside structured data.",
+        "If any page emits @type Caterer / CateringService / Restaurant / FoodEstablishment, change it to ProfessionalService.",
+        "Wrap each page's reworded FAQ in FAQPage JSON-LD."
+      ]
+    },
+
+    "scanner": {
+      "run": "CASE-INSENSITIVE, over the RENDERED DOM text + <head> (title/meta/og/twitter) + all JSON-LD string values + img alt, on every one of the ~180 pages. Every pattern must return ZERO.",
+      "regex_must_be_zero": [
+        "(?i)\\bwe cater\\b", "(?i)\\bwe cook\\b", "(?i)\\bwe prepare\\b", "(?i)\\bwe handle (the food|everything)\\b",
+        "(?i)\\bour chefs?\\b", "(?i)\\bour (head|pastry|executive|sous) chef\\b", "(?i)\\bour (culinary )?team\\b",
+        "(?i)\\bour team of chefs\\b", "(?i)\\bteam members?\\b", "(?i)\\bour staff\\b",
+        "(?i)\\bour (mobile )?kitchen\\b", "(?i)bring(s|ing)? the kitchen", "(?i)full mobile kitchen",
+        "(?i)prepared by (our team|us)", "(?i)served by our team", "(?i)full[- ]service[^.]{0,25}catering",
+        "(?i)\\bchef[- ]manned\\b", "(?i)\\bwe (provide|place|supply|staff) [^.]{0,20}chefs?\\b", "(?i)\\bwe bring the chef\\b",
+        "(?i)\\bHACCP\\b", "(?i)careers@mychef", "(?i)join our team",
+        "\"@type\"\\s*:\\s*\"(Caterer|CateringService|Restaurant|FoodEstablishment)\""
+      ]
+    },
+    "positive_assertions": [
+      "Every /*-catering-dubai page: its <title> and H1 STILL contain the word 'Catering' (keyword preserved).",
+      "Every page: footer contains the role statement string.",
+      "Homepage: exactly one ProfessionalService JSON-LD node exists site-wide."
+    ]
+  },
+
+  "templates": {
+    "occasion-catering (~120 pages: every /*-catering-dubai, cuisine, dietary, festive, corporate-type page)": {
+      "find_replace": [
+        { "find": "our team brings the kitchen, the service, and the styling to you", "replace": "we bring in the chef, the service, and the styling — through vetted licensed partners you engage" },
+        { "find": "our pastry chef for wedding desserts", "replace": "a partner pastry chef for your wedding desserts" },
+        { "find": "finished by our pastry chef", "replace": "finished by a partner pastry chef" },
+        { "find": "Full-service wedding catering at your villa, garden, or chosen venue across Dubai, with setup, service, and clear-down.", "replace": "Fully-coordinated wedding catering at your villa, garden, or chosen venue across Dubai — chef, setup, service, and clear-down, arranged and managed by us." },
+        { "find": "bringing a full mobile kitchen, staff, and styling", "replace": "coordinating the chef, staff, and styling" },
+        { "find": "We handle every detail from arrival to the final clean-up.", "replace": "Every detail is arranged and overseen from arrival to the final clean-up." }
+      ],
+      "rule": "Apply phrase_map to EVERY occasion/cuisine page. The FAQ answers are highest-risk ('We cater...') — the phrase_map rewrites them. Keep each H1/title keyword (e.g. 'Wedding Catering Dubai'). Full occasion-swap: the same template renders for birthday-, bbq-, arabic-, vegan- etc. — same fixes, occasion word varies."
+    },
+    "chef pages (/our-chefs + /chefs/ahmed-executive-chef, /chefs/sofia-pastry-chef, /chefs/marco-italian-chef, /chefs/layla-middle-eastern-chef)": {
+      "severity": "HIGHEST RISK — currently asserts EMPLOYED staff. Reframe to independent, vetted, licensed partner chefs the client engages.",
+      "find_replace": [
+        { "find": "THE TEAM", "replace": "OUR CULINARY NETWORK" },
+        { "find": "The Hands Behind\nEvery Extraordinary Meal", "replace": "The Chefs Behind\nEvery Extraordinary Experience" },
+        { "find": "Every chef on our team has been selected", "replace": "Every chef in our network is independently vetted and selected" },
+        { "find": "MEET THE TEAM", "replace": "MEET THE CHEFS WE WORK WITH" },
+        { "find": "Our Culinary Team", "replace": "Chefs In Our Network" },
+        { "find": "Our Standards", "replace": "How We Vet Every Chef" },
+        { "find": "Background-checked team members", "replace": "Background-checked, licensed independent chefs" },
+        { "find": "Join Our Team?", "replace": "Join Our Culinary Network?" },
+        { "find": "If you are an experienced chef with a passion for private dining, we would love to hear from you.", "replace": "If you are an experienced, licensed independent chef with a passion for private dining, we'd love to welcome you to our partner network." },
+        { "find": "Send your CV to careers@mychef.ae", "replace": "Apply to join our culinary network at partners@mychef.ae" },
+        { "find": "Every dish prepared by hands that have trained in respected professional kitchens around the world.", "replace": "Every dish prepared by handpicked independent chefs who have trained in respected professional kitchens around the world." }
+      ],
+      "bio_rule": "Each named chef (Ahmed, Marco, Sofia, Layla) — apply phrase_map AND: (a) add 'Independent partner chef' under the name; (b) rewrite any 'leads ... for myCHEF Dubai' -> 'is matched to ... myCHEF experiences'; (c) keep tenure badges as the chef's OWN experience. STEP-1 grep will surface each bio's exact live sentences (only Ahmed's was hand-scanned) — fix each with the phrase_map, do not rely on one exact string. Job-title labels (EXECUTIVE CHEF) are fine as the chef's discipline, not a myCHEF post."
+    },
+    "location pages (/locations/*)": {
+      "find_replace": [ { "find": "WHERE WE CATER", "replace": "WHERE WE SERVE" } ],
+      "rule": "Apply phrase_map ('bringing the kitchen' -> 'bringing your chef'; 'we cater in [area]' -> 'we coordinate private dining in [area]'). Full green copy for Palm Jumeirah / Emirates Hills / Dubai Marina is in DOS-BLU-008."
+    },
+    "service pages (/private-chef-dubai, /catering-dubai, /luxury-dining-experiences, /events, /corporate, /villas-private-residences, /yachts)": {
+      "rule": "Full green copy in DOS-BLU-007. Replace body per that doc; apply phrase_map to residual."
+    },
+    "/terms (Terms of Service)": {
+      "severity": "HIGH — a lawyer reads this first.",
+      "rule": "Redefine 'the Services' as experience DESIGN, coordination, and quality-selection — NOT the provision of food/catering. State culinary work is performed by independent licensed chefs/caterers the client engages; myCHEF is not a food establishment and does not employ the chefs. MUST go through the legal review pass. Refund terms: 7-day alternative-good / ~30-day defect notice (NOT '14 days')."
+    },
+    "/case-studies + /press + /gallery": {
+      "rule": "Narrative pages full of first-person cooking claims ('we catered a 200-guest wedding', 'our chefs prepared', photo alt 'our team plating'). Apply phrase_map to prose, image alt text, and captions: 'we catered' -> 'we coordinated', 'our chefs prepared' -> 'a partner chef prepared', 'our team plating' -> 'plating by the chef'."
+    },
+    "blog & guides (/blog/*, /guides, /*-guide, /*-checklist-dubai, /dubai-food-trends-report-2026)": {
+      "rule": "Keyword titles fine. Sweep body, author bios, CTAs, and image alt with the phrase_map. Add footer role statement."
+    },
+    "catch-all (every remaining sitemap page + shared components)": {
+      "rule": "Apply phrase_map + case-insensitive scanner to EVERY page and every shared component (nav, footer, 'You May Also Like' cards, /contact, /vip-club, /gift-cards, /become-a-mychef, /how-we-vet-our-chefs, /booking-protection-insurance, /how-it-works, /faq, /about, /site-map). No page ships unscanned."
+    }
+  },
+
+  "strategic_flags_for_owner_and_lawyer": [
+    "LICENCE/ACTIVITY (legal red-team, CRITICAL): even the coordinator wording must not read as manpower-supply or staffing (a separate UAE activity). Frame as design + introduction/recommendation of independent chefs the client engages. Lawyer to confirm the held/target activities (Concierge 8110001 / Event Organising 8230009 / Management Consultancy) actually cover 'introducing chefs' — else adjust wording or licence.",
+    "BREADTH (blocking pre-step): regulated-sector pages (healthcare/school/nursery/university/government catering) are QUARANTINED in pre_step_quarantine pending per-sector legal go/no-go — do not merely reword and publish them.",
+    "EMPLOYMENT: /our-chefs + 4 bios asserted an employed team — the single strongest contradiction. Reframe to independent network is mandatory.",
+    "WARRANTY: the 'licensed / food-safety-certified / background-checked partners' claim is a factual warranty on all pages — publish only once the owner can evidence it for the active partner pool; else soften to 'we require partners to hold their own licences and food-safety credentials'.",
+    "CONTROL: keep 'one standard' as a SELECTION/curation promise, not a claim that myCHEF operationally controls the cooking (TEST 3).",
+    "This JSON rewords only; the invoice/checkout question (HC-14/HC-32) is separate — enquiry-to-proposal only, no cart.",
+    "Deploy: quarantine -> reword on staging -> case-insensitive scanner ZERO + positive assertions PASS -> one UAE legal pass -> publish -> myCHEF's editorial/press backlink tier then unlocks."
+  ]
+}
