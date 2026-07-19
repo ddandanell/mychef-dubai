@@ -138,6 +138,17 @@ export default function CateringPackages() {
       />
       <TrustSignalStrip />
 
+      {/* ═══════════════ Package Selector ═══════════════ */}
+      <section className="bg-white section-padding">
+        <div className="container-custom max-w-[800px]">
+          <div className="packages-section opacity-0 translate-y-8 text-center mb-8">
+            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">Find Your Package</span>
+            <h2 className="font-playfair text-h2 text-black">Which catering package fits your occasion?</h2>
+          </div>
+          <PackageSelector />
+        </div>
+      </section>
+
       {/* ═══════════════ Packages ═══════════════ */}
       <StarterPackagesSection
         campaign="catering-packages-dubai"
@@ -287,6 +298,132 @@ export default function CateringPackages() {
           </p>
         </div>
       </section>
+    </div>
+  )
+}
+
+function PackageSelector() {
+  const [occasion, setOccasion] = useState('')
+  const [guests, setGuests] = useState('')
+
+  const recommendations: Record<string, { title: string; path: string; guests: string; price: string; description: string }> = {
+    'date-night': {
+      title: 'Date Night Package',
+      path: '/date-night-package-dubai',
+      guests: '2',
+      price: 'AED 1,200',
+      description: 'An intimate 3-course private chef dinner for two.',
+    },
+    'family-dinner': {
+      title: 'Family Feast Package',
+      path: '/family-feast-package-dubai',
+      guests: '6–8',
+      price: 'AED 2,400',
+      description: 'A relaxed sharing-style dinner for family and friends.',
+    },
+    'birthday': {
+      title: 'Birthday Celebration Package',
+      path: '/birthday-catering-package-dubai',
+      guests: '8–12',
+      price: 'AED 3,600',
+      description: 'Celebration menu, cake, and service for birthday parties.',
+    },
+    'corporate': {
+      title: 'Corporate Dinner Package',
+      path: '/corporate-dinner-package-dubai',
+      guests: '10–15',
+      price: 'AED 4,500',
+      description: 'Professional dinner catering for boardrooms and teams.',
+    },
+    'weekly-prep': {
+      title: 'Weekly Meal Prep',
+      path: '/weekly-meal-prep-dubai',
+      guests: '2–6',
+      price: 'from AED 1,898/week',
+      description: 'Recurring fresh meal prep by a private chef.',
+    },
+  }
+
+  const recommendation = occasion ? recommendations[occasion] : null
+
+  const WHATSAPP_NUMBER = '971551744849'
+  const whatsappMessage = encodeURIComponent(
+    `Hi myCHEF Dubai, I'm looking for a catering package. Occasion: ${occasion || 'not specified'}, Guests: ${guests || 'not specified'} (via mychef.ae/catering-packages-dubai)`
+  )
+  const whatsappLink = `https://wa.me/${WHATSAPP_NUMBER}?text=${whatsappMessage}`
+
+  return (
+    <div className="bg-cream p-6 md:p-8">
+      <div className="grid sm:grid-cols-2 gap-4 mb-6">
+        <div>
+          <label htmlFor="occasion" className="block font-inter text-body-sm text-gray-600 mb-2">Occasion</label>
+          <select
+            id="occasion"
+            value={occasion}
+            onChange={(e) => setOccasion(e.target.value)}
+            className="w-full bg-white border border-gray-200 p-3 font-inter text-body text-black focus:outline-none focus:border-gold"
+          >
+            <option value="">Select an occasion</option>
+            <option value="date-night">Date Night</option>
+            <option value="family-dinner">Family Dinner</option>
+            <option value="birthday">Birthday Celebration</option>
+            <option value="corporate">Corporate Dinner</option>
+            <option value="weekly-prep">Weekly Meal Prep</option>
+            <option value="other">Something Else</option>
+          </select>
+        </div>
+        <div>
+          <label htmlFor="guests" className="block font-inter text-body-sm text-gray-600 mb-2">Number of Guests</label>
+          <select
+            id="guests"
+            value={guests}
+            onChange={(e) => setGuests(e.target.value)}
+            className="w-full bg-white border border-gray-200 p-3 font-inter text-body text-black focus:outline-none focus:border-gold"
+          >
+            <option value="">Select guest count</option>
+            <option value="2">2</option>
+            <option value="4-6">4–6</option>
+            <option value="8-12">8–12</option>
+            <option value="10-15">10–15</option>
+            <option value="20+">20+</option>
+            <option value="not-sure">Not sure yet</option>
+          </select>
+        </div>
+      </div>
+
+      {recommendation && (
+        <div className="bg-black p-6 mb-6">
+          <p className="font-inter text-caption text-gold uppercase tracking-wider mb-2">Recommended Package</p>
+          <h3 className="font-playfair text-h3 text-white mb-2">{recommendation.title}</h3>
+          <p className="font-inter text-body text-gray-400 mb-1">{recommendation.description}</p>
+          <p className="font-inter text-body text-gray-400 mb-4">{recommendation.guests} guests · {recommendation.price}</p>
+          <div className="flex flex-col sm:flex-row gap-3">
+            <Link to={recommendation.path} className="btn-primary text-center text-sm">
+              View Package
+            </Link>
+            <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="btn-secondary text-center text-sm inline-flex items-center justify-center gap-2">
+              <Phone size={14} />
+              Request on WhatsApp
+            </a>
+          </div>
+        </div>
+      )}
+
+      {!recommendation && occasion === 'other' && (
+        <div className="bg-black p-6 mb-6">
+          <p className="font-inter text-body text-gray-300 mb-4">
+            Tell us more about your occasion and we will recommend the right package or design something bespoke.
+          </p>
+          <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="btn-primary inline-flex items-center gap-2 text-sm">
+            <Phone size={14} />
+            Chat on WhatsApp
+          </a>
+        </div>
+      )}
+
+      <p className="font-inter text-body-sm text-gray-500 text-center">
+        Not sure? Browse all starter packages below or <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="text-gold hover:underline">ask us on WhatsApp</a>.
+      </p>
     </div>
   )
 }
