@@ -7,7 +7,7 @@ export default function DateNightPackage() {
       seoTitle="Date Night Private Chef Package Dubai | Romantic Dinner at Home"
       description="A romantic private chef dinner for two in your Dubai home, villa, or apartment. The Date Night package includes a bespoke 3-course menu, personal chef service, elegant plating, and full cleanup."
       canonicalPath="/date-night-package-dubai"
-      ogImage="/images/date-night-package-dubai-hero.webp"
+      ogImage="/images/romantic-dinner-dubai-hero.webp"
       headline={<>Date Night<br />Private Chef Dubai</>}
       eyebrow="ROMANTIC DINING PACKAGE"
       subheadline="An intimate private chef dinner for two — designed around your tastes and served in the comfort of your own space."
@@ -72,7 +72,7 @@ export default function DateNightPackage() {
           link: '/catering-packages-dubai',
         },
       ]}
-      heroImage="/images/date-night-package-dubai-hero.webp"
+      heroImage="/images/romantic-dinner-dubai-hero.webp"
       breadcrumbLabel="Date Night Package Dubai"
       campaign="date-night-package-dubai"
     />

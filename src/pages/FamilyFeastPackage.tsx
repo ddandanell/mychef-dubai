@@ -7,7 +7,7 @@ export default function FamilyFeastPackage() {
       seoTitle="Family Feast Private Chef Package Dubai | Dinner for 6–8"
       description="A relaxed, generous private chef dinner for 6–8 guests in Dubai. The Family Feast package features sharing-style menus, premium ingredients, and full service so you can enjoy the evening with family and friends."
       canonicalPath="/family-feast-package-dubai"
-      ogImage="/images/family-feast-package-dubai-hero.webp"
+      ogImage="/images/celebration-catering-dubai-hero.webp"
       headline={<>Family Feast<br />Private Chef Dubai</>}
       eyebrow="FAMILY DINING PACKAGE"
       subheadline="A generous sharing-style dinner for family and friends — prepared in your home and served without the stress."
@@ -72,7 +72,7 @@ export default function FamilyFeastPackage() {
           link: '/catering-packages-dubai',
         },
       ]}
-      heroImage="/images/family-feast-package-dubai-hero.webp"
+      heroImage="/images/celebration-catering-dubai-hero.webp"
       breadcrumbLabel="Family Feast Package Dubai"
       campaign="family-feast-package-dubai"
     />

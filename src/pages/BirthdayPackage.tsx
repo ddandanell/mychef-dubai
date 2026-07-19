@@ -7,7 +7,7 @@ export default function BirthdayPackage() {
       seoTitle="Birthday Catering Package Dubai | Private Chef Party Menu"
       description="A private chef birthday celebration package for 8–12 guests in Dubai. Includes a bespoke celebration menu, canapés or starter, main course, dessert, and professional service staff."
       canonicalPath="/birthday-catering-package-dubai"
-      ogImage="/images/birthday-catering-package-dubai-hero.webp"
+      ogImage="/images/birthday-catering-dubai-hero.webp"
       headline={<>Birthday Celebration<br />Catering Dubai</>}
       eyebrow="BIRTHDAY PARTY PACKAGE"
       subheadline="Celebrate at home or in a private venue with a tailored menu, birthday cake, and full service for you and your guests."
@@ -72,7 +72,7 @@ export default function BirthdayPackage() {
           link: '/catering-packages-dubai',
         },
       ]}
-      heroImage="/images/birthday-catering-package-dubai-hero.webp"
+      heroImage="/images/birthday-catering-dubai-hero.webp"
       breadcrumbLabel="Birthday Catering Package Dubai"
       campaign="birthday-catering-package-dubai"
     />

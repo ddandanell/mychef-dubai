@@ -7,7 +7,7 @@ export default function CorporateDinnerPackage() {
       seoTitle="Corporate Dinner Catering Package Dubai | Boardroom & Team Dining"
       description="A professional corporate dinner package for 10–15 guests in Dubai. Ideal for boardroom dinners, team celebrations, and client entertainment with multi-course or buffet menus and full service."
       canonicalPath="/corporate-dinner-package-dubai"
-      ogImage="/images/corporate-dinner-package-dubai-hero.webp"
+      ogImage="/images/corporate-catering-dubai-hero.webp"
       headline={<>Corporate Dinner<br />Catering Dubai</>}
       eyebrow="CORPORATE DINING PACKAGE"
       subheadline="Impress clients and reward teams with a polished private dinner delivered to your office or venue in Dubai."
@@ -72,7 +72,7 @@ export default function CorporateDinnerPackage() {
           link: '/catering-packages-dubai',
         },
       ]}
-      heroImage="/images/corporate-dinner-package-dubai-hero.webp"
+      heroImage="/images/corporate-catering-dubai-hero.webp"
       breadcrumbLabel="Corporate Dinner Package Dubai"
       campaign="corporate-dinner-package-dubai"
     />
