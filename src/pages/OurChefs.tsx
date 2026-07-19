@@ -154,7 +154,7 @@ export default function OurChefs() {
       {/* Section 1: Page Hero */}
       <PageHero
         eyebrow="THE CHEFS WE CHOOSE"
-        title={<>The Chefs Behind<br className="hidden sm:block" /> Every Extraordinary Experience</>}
+        title="The Chefs Behind Every Extraordinary Experience"
         subtitle="Handpicked artisans. Vetted credentials. One standard of selection."
         image="/images/about-mychef-dubai-hero.webp"
         imageAlt="A partner chef at work for a myCHEF Dubai private dining experience"

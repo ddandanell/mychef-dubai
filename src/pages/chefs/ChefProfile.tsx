@@ -177,7 +177,7 @@ export default function ChefProfile({ chef }: ChefProfileProps) {
 
       <PageHero
         eyebrow="MEET THE CHEF"
-        title={<>{chef.name}</>}
+        title={chef.name}
         subtitle={`${chef.title} • ${chef.cuisine}`}
         image={chef.image}
         imageAlt={chef.imageAlt}

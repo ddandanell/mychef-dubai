@@ -205,7 +205,7 @@ export default function VenuePartners() {
 
       <PageHero
         eyebrow="PARTNER NETWORK"
-        title={<>Venue Partners</>}
+        title="Venue Partners"
         subtitle="Exceptional Dubai venues where our private chefs and catering teams regularly deliver bespoke service."
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Venue Partners' }]}
         minHeight="medium"

@@ -374,7 +374,7 @@ export default function Corporate() {
 
       {/* ─── Hero ─── */}
       <PageHero
-        title={<>Corporate Dining<br /><span className="text-gold font-normal">Dubai</span></>}
+        title="Corporate Dining Dubai"
         subtitle="Impress clients. Reward teams. Elevate every business occasion with premium corporate dining and catering."
         image="/images/corporate-catering-dubai-hero.webp"
         imageAlt="Corporate catering in Dubai"

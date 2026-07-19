@@ -249,7 +249,7 @@ export default function Menus() {
       {/* Section 1: Page Hero */}
       <PageHero
         eyebrow="CULINARY OFFERINGS"
-        title={<>Bespoke Menus,<br className="hidden sm:block" /> Crafted for Every Palate</>}
+        title="Bespoke Menus, Crafted for Every Palate"
         subtitle="Every menu is designed from scratch. Here is a glimpse of what we create."
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Menus' }]}
         minHeight="medium"

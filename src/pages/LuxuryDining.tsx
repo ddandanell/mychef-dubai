@@ -265,7 +265,7 @@ export default function LuxuryDining() {
 
       {/* ═══════════════ Section 1: Hero ═══════════════ */}
       <PageHero
-        title={<>Luxury Dining<br className="hidden sm:block" /> Experiences</>}
+        title="Luxury Dining Experiences"
         subtitle="Bespoke private dining crafted for life's most memorable moments. In your villa, on your yacht, or at your penthouse."
         image="/images/luxury-dining-dubai-hero.webp"
         imageAlt="Luxury private dining in Dubai"

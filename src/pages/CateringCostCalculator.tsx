@@ -88,7 +88,7 @@ export default function CateringCostCalculator() {
 
       <PageHero
         eyebrow="PRICING TOOL"
-        title={<>Catering Cost<br />Calculator Dubai</>}
+        title="Catering Cost Calculator Dubai"
         subtitle="Get an instant estimate for private chef and luxury catering services based on your guest count and service style."
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Cost Calculator' }]}
         minHeight="medium"

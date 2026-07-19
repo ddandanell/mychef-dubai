@@ -162,7 +162,7 @@ export default function Yachts() {
       {/* Section 1: Hero */}
       <PageHero
         eyebrow="YACHT CATERING"
-        title={<>Yacht Catering<br />Dubai</>}
+        title="Yacht Catering Dubai"
         subtitle="Exceptional dining on the water. A private chef experience with Dubai's iconic skyline as your setting."
         image="/images/yacht-catering-dubai-hero.webp"
         imageAlt="Yacht catering in Dubai"

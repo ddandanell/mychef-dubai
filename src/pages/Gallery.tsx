@@ -256,7 +256,7 @@ export default function Gallery() {
 
       <PageHero
         eyebrow="PORTFOLIO"
-        title={<>Event Gallery</>}
+        title="Event Gallery"
         subtitle="A curated look at the private dinners, yacht celebrations, villa events, and corporate experiences we bring to life across Dubai."
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Gallery' }]}
         minHeight="medium"

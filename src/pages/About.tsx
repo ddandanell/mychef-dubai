@@ -133,7 +133,7 @@ export default function About() {
       {/* Section 1: Hero */}
       <PageHero
         eyebrow="ABOUT US"
-        title={<>The Story Behind<br />Every Exceptional Meal</>}
+        title="The Story Behind Every Exceptional Meal"
         subtitle="Experience, passion, and an unwavering commitment to excellence."
         image="/images/about-mychef-dubai-hero.webp"
         imageAlt="myCHEF Dubai private dining experience"

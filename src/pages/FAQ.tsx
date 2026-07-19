@@ -197,7 +197,7 @@ export default function FAQ() {
       {/* Section 1: Hero */}
       <PageHero
         eyebrow="HELP CENTER"
-        title={<>Frequently Asked<br />Questions</>}
+        title="Frequently Asked Questions"
         subtitle="Everything you need to know about private chef services, catering, pricing, and bookings in Dubai."
         image="/images/faq-dubai-hero.webp"
         imageAlt="myCHEF Dubai customer support and FAQ"

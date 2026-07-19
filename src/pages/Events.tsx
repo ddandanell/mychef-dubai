@@ -462,7 +462,7 @@ export default function Events() {
 
       {/* ─── Section 1: Hero ─── */}
       <PageHero
-        title={<>Event Catering<br /><span className="text-gold font-normal">Dubai</span></>}
+        title="Event Catering Dubai"
         subtitle="From intimate celebrations to grand occasions — exceptional food, flawless service, unforgettable events."
         image="/images/events-catering-dubai-hero.webp"
         imageAlt="Event catering in Dubai"
