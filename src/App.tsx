@@ -172,6 +172,10 @@ const CorporateRetainer = lazy(() => import('./pages/CorporateRetainer'))
 const PostpartumMealPrep = lazy(() => import('./pages/PostpartumMealPrep'))
 const FitnessMealPrep = lazy(() => import('./pages/FitnessMealPrep'))
 const TouristVillaChef = lazy(() => import('./pages/TouristVillaChef'))
+const ProposalDinner = lazy(() => import('./pages/ProposalDinner'))
+const ApartmentPrivateDining = lazy(() => import('./pages/ApartmentPrivateDining'))
+const ChefsTable = lazy(() => import('./pages/ChefsTable'))
+const PartTimePrivateChef = lazy(() => import('./pages/PartTimePrivateChef'))
 const PartnerWithUs = lazy(() => import('./pages/PartnerWithUs'))
 const VillaRentalsPartner = lazy(() => import('./pages/partners/VillaRentalsPartner'))
 const YachtChartersPartner = lazy(() => import('./pages/partners/YachtChartersPartner'))
@@ -353,6 +357,10 @@ export default function App() {
           <Route path="/postpartum-meal-prep-dubai" element={<PostpartumMealPrep />} />
           <Route path="/fitness-meal-prep-dubai" element={<FitnessMealPrep />} />
           <Route path="/tourist-villa-chef-dubai" element={<TouristVillaChef />} />
+          <Route path="/proposal-dinner-dubai" element={<ProposalDinner />} />
+          <Route path="/apartment-private-dining-dubai" element={<ApartmentPrivateDining />} />
+          <Route path="/chefs-table-dubai" element={<ChefsTable />} />
+          <Route path="/part-time-private-chef-dubai" element={<PartTimePrivateChef />} />
           <Route path="/partner-with-us" element={<PartnerWithUs />} />
           <Route path="/partners/villa-rentals-dubai" element={<VillaRentalsPartner />} />
           <Route path="/partners/yacht-charters-dubai" element={<YachtChartersPartner />} />

@@ -179,6 +179,10 @@ export default function SiteMap() {
               <li><Link to="/postpartum-meal-prep-dubai" className="text-gray-600 hover:text-gold transition-colors">/postpartum-meal-prep-dubai</Link></li>
               <li><Link to="/fitness-meal-prep-dubai" className="text-gray-600 hover:text-gold transition-colors">/fitness-meal-prep-dubai</Link></li>
               <li><Link to="/tourist-villa-chef-dubai" className="text-gray-600 hover:text-gold transition-colors">/tourist-villa-chef-dubai</Link></li>
+              <li><Link to="/proposal-dinner-dubai" className="text-gray-600 hover:text-gold transition-colors">/proposal-dinner-dubai</Link></li>
+              <li><Link to="/apartment-private-dining-dubai" className="text-gray-600 hover:text-gold transition-colors">/apartment-private-dining-dubai</Link></li>
+              <li><Link to="/chefs-table-dubai" className="text-gray-600 hover:text-gold transition-colors">/chefs-table-dubai</Link></li>
+              <li><Link to="/part-time-private-chef-dubai" className="text-gray-600 hover:text-gold transition-colors">/part-time-private-chef-dubai</Link></li>
               <li><Link to="/partner-with-us" className="text-gray-600 hover:text-gold transition-colors">/partner-with-us</Link></li>
               <li><Link to="/partners/villa-rentals-dubai" className="text-gray-600 hover:text-gold transition-colors">/partners/villa-rentals-dubai</Link></li>
               <li><Link to="/partners/yacht-charters-dubai" className="text-gray-600 hover:text-gold transition-colors">/partners/yacht-charters-dubai</Link></li>
