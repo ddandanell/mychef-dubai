@@ -302,6 +302,13 @@ export default function Catering() {
       />
       <TrustSignalStrip />
 
+      <StarterPackagesSection
+        campaign="catering-dubai"
+        eyebrow="START WITH A PACKAGE"
+        title="Catering Packages in Dubai"
+        subtitle="Transparent starting prices for Dubai's most popular catering and private chef experiences. Every package is customised to your guest count, menu, and venue."
+      />
+
       {/* ═══════════════ Opening ═══════════════ */}
       <section className="bg-black py-14 border-b border-charcoal">
         <div className="container-custom max-w-3xl text-center">

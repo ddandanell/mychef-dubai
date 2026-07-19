@@ -282,6 +282,13 @@ export default function PrivateChef() {
       />
       <TrustSignalStrip />
 
+      <StarterPackagesSection
+        campaign="private-chef-dubai"
+        eyebrow="START WITH A PACKAGE"
+        title="Private Chef Packages in Dubai"
+        subtitle="Transparent starting prices for our most requested private chef experiences. Every menu is tailored to your occasion and dietary preferences."
+      />
+
       {/* ═══════════════ Section 2: What Is a Private Chef ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom">
