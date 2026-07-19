@@ -159,6 +159,7 @@ const VIPClub = lazy(() => import('./pages/VIPClub'))
 const GiftCards = lazy(() => import('./pages/GiftCards'))
 const CaseStudies = lazy(() => import('./pages/CaseStudies'))
 const WeeklyMealPrep = lazy(() => import('./pages/WeeklyMealPrep'))
+const WellnessMealPrep = lazy(() => import('./pages/WellnessMealPrep'))
 const HowWeVetOurChefs = lazy(() => import('./pages/HowWeVetOurChefs'))
 const BookingProtectionInsurance = lazy(() => import('./pages/BookingProtectionInsurance'))
 const BecomeAMyChef = lazy(() => import('./pages/BecomeAMyChef'))
@@ -327,6 +328,7 @@ export default function App() {
           <Route path="/gift-cards" element={<GiftCards />} />
           <Route path="/case-studies" element={<CaseStudies />} />
           <Route path="/weekly-meal-prep-dubai" element={<WeeklyMealPrep />} />
+          <Route path="/wellness-meal-prep-dubai" element={<WellnessMealPrep />} />
           <Route path="/how-we-vet-our-chefs" element={<HowWeVetOurChefs />} />
           <Route path="/booking-protection-insurance" element={<BookingProtectionInsurance />} />
           <Route path="/become-a-mychef" element={<BecomeAMyChef />} />
