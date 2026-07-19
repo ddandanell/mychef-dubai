@@ -16,6 +16,7 @@ export interface ChefProfileData {
   slug: string
   name: string
   title: string
+  partnerLabel?: string
   experience: string
   cuisine: string
   image: string
@@ -61,13 +62,8 @@ export default function ChefProfile({ chef }: ChefProfileProps) {
         '@type': 'Person',
         name: chef.name,
         jobTitle: chef.title,
-        description: `${chef.name} is a ${chef.cuisine} chef with ${chef.experience} of experience.`,
+        description: `${chef.name} is an independent partner chef in the myCHEF Dubai network, specialising in ${chef.cuisine} with ${chef.experience} of experience.`,
         image: `${SITE_URL}${chef.image}`,
-        worksFor: {
-          '@type': 'Organization',
-          name: 'myCHEF Dubai',
-          url: SITE_URL,
-        },
         knowsAbout: chef.cuisine,
       },
     ],
@@ -173,7 +169,7 @@ export default function ChefProfile({ chef }: ChefProfileProps) {
     <>
       <SEO
         title={`${chef.name} | ${chef.title} | myCHEF Dubai`}
-        description={`Meet ${chef.name}, ${chef.title} at myCHEF Dubai. ${chef.experience} of ${chef.cuisine} expertise for private dining, villas, yachts, and events across Dubai.`}
+        description={`Meet ${chef.name}, independent partner ${chef.title} in the myCHEF Dubai network. ${chef.experience} of ${chef.cuisine} expertise for private dining, villas, yachts, and events across Dubai.`}
         canonicalPath={chef.slug}
         ogImage={chef.image}
         schema={schema as unknown as Record<string, unknown>}
@@ -213,7 +209,10 @@ export default function ChefProfile({ chef }: ChefProfileProps) {
               <span className="font-inter text-caption font-medium uppercase tracking-wider text-gold mb-4 block">
                 {chef.title}
               </span>
-              <h2 className="font-playfair text-h2 text-black mb-4">{chef.name}</h2>
+              <h2 className="font-playfair text-h2 text-black mb-2">{chef.name}</h2>
+              {chef.partnerLabel && (
+                <p className="font-inter text-body-sm text-gold mb-4">{chef.partnerLabel}</p>
+              )}
 
               <div className="flex flex-wrap items-center gap-3 mb-6">
                 <span className="font-inter text-caption font-medium uppercase tracking-wider bg-charcoal text-gold px-3 py-1">
