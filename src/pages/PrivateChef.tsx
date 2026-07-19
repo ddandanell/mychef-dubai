@@ -7,6 +7,7 @@ import { Utensils, Home, Calendar, Baby, Leaf, Star, Check, ChevronRight, Phone,
 import SEO from '../components/SEO'
 import PageHero from '../components/PageHero'
 import LocationStrip from '../components/LocationStrip'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 import StarterPackagesSection from '@/sections/StarterPackagesSection'
 
 gsap.registerPlugin(ScrollTrigger)
@@ -279,6 +280,7 @@ export default function PrivateChef() {
         minHeight="tall"
         overlay="dark"
       />
+      <TrustSignalStrip />
 
       {/* ═══════════════ Section 2: What Is a Private Chef ═══════════════ */}
       <section className="bg-white section-padding">

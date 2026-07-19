@@ -7,6 +7,7 @@ import { Phone, ArrowRight, ChevronRight, Check, Gift } from 'lucide-react'
 import SEO from '../components/SEO'
 import PageHero from '../components/PageHero'
 import StarterPackagesSection from '../sections/StarterPackagesSection'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -134,6 +135,7 @@ export default function CateringPackages() {
         minHeight="tall"
         overlay="dark"
       />
+      <TrustSignalStrip />
 
       {/* ═══════════════ Packages ═══════════════ */}
       <StarterPackagesSection

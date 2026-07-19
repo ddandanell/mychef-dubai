@@ -1,6 +1,7 @@
 import { Link } from 'react-router'
 import SEO from '@/components/SEO'
 import TrustBar from '@/components/TrustBar'
+import TrustSignalStrip from '@/components/TrustSignalStrip'
 import LocationStrip from '@/components/LocationStrip'
 import HeroSection from '@/sections/HeroSection'
 import ServicesSection from '@/sections/ServicesSection'
@@ -32,6 +33,7 @@ export default function Home() {
         schema={combinedSchema as unknown as Record<string, unknown>}
       />
       <HeroSection />
+      <TrustSignalStrip />
       <TrustBar />
       <ServicesSection />
       <StarterPackagesSection

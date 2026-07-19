@@ -6,6 +6,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { UtensilsCrossed, PartyPopper, Heart, Building, Ship, Home, Cake, Check, ChevronRight, Phone, ArrowRight, } from 'lucide-react'
 import SEO from '../components/SEO'
 import PageHero from '../components/PageHero'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 import StarterPackagesSection from '@/sections/StarterPackagesSection'
 
 gsap.registerPlugin(ScrollTrigger)
@@ -299,6 +300,7 @@ export default function Catering() {
         minHeight="tall"
         overlay="dark"
       />
+      <TrustSignalStrip />
 
       {/* ═══════════════ Opening ═══════════════ */}
       <section className="bg-black py-14 border-b border-charcoal">
