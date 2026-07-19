@@ -5,6 +5,7 @@ import type { ServicePageConfig } from './shared/ServiceLandingPage'
 
 const config: ServicePageConfig = {
   slug: 'government-event-catering-dubai',
+  noindex: true,
   seoTitle: 'Government Event Catering Dubai | Official & Protocol Functions',
   metaDescription:
     'Government event catering in Dubai: protocol-aware service, scalable menus, full documentation and reliable execution for official functions, ceremonies and receptions.',

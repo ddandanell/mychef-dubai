@@ -64,6 +64,7 @@ export interface ServicePageConfig {
   eyebrow: string
   introH2: string
   introNodes: ReactNode
+  noindex?: boolean
   formats: FormatItem[]
   formatsH2: string
   useCases: UseCase[]
@@ -187,6 +188,7 @@ export default function ServiceLandingPage({ config }: Props) {
         description={config.metaDescription}
         canonicalPath={config.canonicalPath}
         ogImage={config.ogImage}
+        noindex={config.noindex}
         schema={schema}
       />
 

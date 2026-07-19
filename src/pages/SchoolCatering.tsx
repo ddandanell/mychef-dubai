@@ -279,6 +279,7 @@ export default function SchoolCatering() {
         description="School catering in Dubai with nutritious, balanced student lunches, halal menus, allergen-aware service, and daily programmes. Request your custom quote today."
         canonicalPath="/school-catering-dubai"
         ogImage="/service-catering.webp"
+        noindex
         schema={schema}
       />
 

@@ -267,6 +267,7 @@ export default function NurseryCatering() {
         description="Nursery catering in Dubai with soft, balanced meals, allergen-safe preparation, halal menus, and hygiene-first standards for young children. Request your custom quote today."
         canonicalPath="/nursery-catering-dubai"
         ogImage="/service-catering.webp"
+        noindex
         schema={schema}
       />
 
