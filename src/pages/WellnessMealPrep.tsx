@@ -106,7 +106,7 @@ const benefits = [
   {
     icon: HeartPulse,
     title: 'Condition-Specific Menus',
-    description: 'Diabetic, low-sodium, low-FODMAP, anti-inflammatory, and allergy-safe options available.',
+    description: <>Diabetic, low-sodium, low-FODMAP, anti-inflammatory, and allergy-safe options available. Browse our <Link to="/allergy-safe-catering-dubai" className="text-gold underline hover:no-underline">allergy-safe catering</Link> protocols.</>,
   },
   {
     icon: Check,
@@ -116,7 +116,7 @@ const benefits = [
   {
     icon: ChefHat,
     title: 'Private Chef Convenience',
-    description: 'A chef cooks in your home, handles cleanup, and leaves your fridge stocked for the week.',
+    description: <>A chef cooks in your home, handles cleanup, and leaves your fridge stocked for the week. Compare <Link to="/private-chef-prices-dubai" className="text-gold underline hover:no-underline">private chef prices in Dubai</Link>.</>,
   },
 ]
 
@@ -194,10 +194,10 @@ export default function WellnessMealPrep() {
       <PageHero
         eyebrow="HEALTH-FOCUSED MEAL PREP"
         title="Wellness Meal Prep Dubai"
-        subtitle="Nutritionist-aligned, macro-calculated meals prepared by a private chef in your own kitchen — designed around your health and fitness goals."
+        subtitle="Nutritionist-aligned, macro-calculated meals prepared by a private chef in your own kitchen. Tell us about your household and goals — we will match you with a vetted wellness chef and send a tailored quote within 24 hours."
         image="/images/healthy-catering-dubai-hero.webp"
         imageAlt="Wellness meal prep in Dubai"
-        cta={{ label: 'Request a Wellness Plan', href: WHATSAPP_LINK, external: true }}
+        cta={{ label: 'Plan My Wellness Menu', href: `/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}` }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Wellness Meal Prep Dubai' }]}
         minHeight="tall"
@@ -221,6 +221,7 @@ export default function WellnessMealPrep() {
                   <h3 className="font-playfair text-h3 text-black mb-2">{p.title}</h3>
                   <p className="font-inter text-body-sm text-gray-500 leading-relaxed mb-4">{p.description}</p>
                   <p className="font-inter text-body-sm text-gold font-medium">{p.price}</p>
+                  <p className="font-inter text-sm text-gray-500 mt-2">Final quote tailored to your household.</p>
                 </div>
               )
             })}
@@ -315,16 +316,16 @@ export default function WellnessMealPrep() {
         <div className="container-custom text-center wm-fade opacity-0 translate-y-8">
           <h2 className="font-playfair text-h2 text-white mb-4">Start Your Wellness Meal Plan</h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Tell us your goals and dietary needs. We will design a wellness meal prep plan that fits your lifestyle.
+            Tell us your goals, dietary needs, and household size. We will match you with a vetted wellness chef and send a tailored quote within 24 hours.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-primary inline-flex items-center gap-2">
-              <Phone size={16} />
-              Request a Wellness Plan
-            </a>
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-secondary">
-              Send an Inquiry
+            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">
+              Get a Meal Prep Quote
             </Link>
+            <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-secondary inline-flex items-center gap-2">
+              <Phone size={16} />
+              Chat on WhatsApp
+            </a>
           </div>
         </div>
       </section>

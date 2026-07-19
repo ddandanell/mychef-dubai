@@ -226,7 +226,7 @@ export default function KidsNutritionChef() {
             Healthy, delicious meals designed for children — and approved by parents. From school lunches to family dinners, we make nutrition easy.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 kn-hero-cta">Book a Kids Nutrition Chef</Link>
+            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 kn-hero-cta">Plan My Kids' Nutrition Menu</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -251,7 +251,7 @@ export default function KidsNutritionChef() {
           </h2>
           <div className="kn-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Feeding a family well takes more than good recipes. It means balancing nutrition with picky palates, managing allergies, and finding time to cook between school runs and work. Our kids nutrition chefs design meals that check every box — wholesome, tasty, and tailored to your family.
+              Give your children balanced, home-style meals they actually want to eat — and get your evenings back. Tell us about your household, your children's preferences, and any allergies or dietary goals, and we will match you with a vetted kids nutrition chef within 24 hours to build a plan that fits your family.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               Whether you need packed lunches for the week, balanced family dinners, or a full meal-prep service, we work around your schedule and your children's needs. Every menu is reviewed with parents, prepared with care, and delivered ready to serve.
@@ -314,7 +314,8 @@ export default function KidsNutritionChef() {
                   </span>
                 )}
                 <h3 className="font-playfair text-h3 mb-2">{pkg.name}</h3>
-                <p className="font-playfair text-2xl font-semibold text-gold mb-2">{pkg.price}</p>
+                <p className="font-playfair text-2xl font-semibold text-gold mb-1">{pkg.price}</p>
+                <p className="font-inter text-xs text-gray-500 mb-4 leading-relaxed">Final quote tailored to your household.</p>
                 <p className="font-inter text-body-sm text-gray-400 mb-6 leading-relaxed">
                   {pkg.description}
                 </p>
@@ -418,7 +419,7 @@ export default function KidsNutritionChef() {
             Tell us about your children, their preferences, and your weekly routine. We will design a nutrition plan the whole family enjoys.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Book a Kids Nutrition Chef</Link>
+            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Plan My Kids' Nutrition Menu</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

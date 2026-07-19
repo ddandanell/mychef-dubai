@@ -225,17 +225,14 @@ export default function AllergySafeCatering() {
             ALLERGEN-AWARE PRIVATE DINING
           </span>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            Safety Through Protocol, Not Assumption
+            Safe Menus Every Guest Can Enjoy
           </h2>
           <div className="asc-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Feeding guests with allergies, intolerances, or strict dietary requirements demands more than a talented chef. It requires a system: clear communication, verified ingredients, controlled preparation, and honest disclosure of what can and cannot be guaranteed.
-            </p>
-            <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              At myCHEF Dubai, allergy-safe catering begins before the chef shops. We collect a detailed allergen profile, match the booking to chefs with relevant experience, verify ingredients and suppliers, and apply cross-contact controls appropriate to the severity of the allergy. We do not claim miracles — we claim methodical care.
+              Tell us about your guests' allergies, intolerances, and dietary needs, and we will match you with a vetted chef experienced in allergy-safe preparation — usually within 24 hours. From ingredient verification to cross-contact controls, we build a clear protocol so everyone at your table can eat with confidence.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              Explore our <Link to="/gluten-free-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">gluten-free</Link>, <Link to="/dairy-free-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">dairy-free</Link>, and <Link to="/nut-free-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">nut-free</Link> catering pages, or learn about our broader <Link to="/healthy-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">healthy catering</Link> options.
+              Explore dedicated <Link to="/gluten-free-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">gluten-free</Link>, <Link to="/dairy-free-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">dairy-free</Link>, and <Link to="/nut-free-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">nut-free</Link> catering, or view our broader <Link to="/healthy-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">healthy catering</Link> options.
             </p>
           </div>
         </div>
@@ -376,7 +373,7 @@ export default function AllergySafeCatering() {
             Tell us about your guests' allergies and dietary needs. We will design a safe, delicious menu and match you with a chef who knows how to execute it.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Request a Quote</Link>
+            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Request an Allergy-Safe Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

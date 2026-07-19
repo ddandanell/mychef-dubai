@@ -28,7 +28,7 @@ const CAMPAIGN = 'corporate-retainer'
 const tiers = [
   {
     name: 'Essential',
-    price: 'AED 3,500–8,000',
+    price: 'From AED 3,500',
     period: '/month',
     description: 'For SMEs and teams that need reliable monthly catering without the overhead of a full-service contract.',
     icon: Building2,
@@ -45,7 +45,7 @@ const tiers = [
   },
   {
     name: 'Enterprise',
-    price: 'AED 8,000–18,000',
+    price: 'From AED 8,000',
     period: '/month',
     description: 'For companies with regular boardroom dining, client entertainment, and multi-site catering needs.',
     icon: Briefcase,
@@ -217,7 +217,7 @@ export default function CorporateRetainer() {
             Corporate Retainer Catering
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 cr-hero-sub">
-            Monthly catering credit, priority scheduling, and a dedicated account manager — designed for Dubai companies that entertain clients and feed teams regularly.
+            Monthly catering credit, priority scheduling, and a dedicated account manager — designed for Dubai companies that entertain clients and feed teams regularly. Tell us about your monthly rhythm and we will design a retainer plan within 24 hours.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 cr-hero-cta">Request Retainer Info</Link>
@@ -245,10 +245,10 @@ export default function CorporateRetainer() {
           </h2>
           <div className="cr-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Most Dubai companies order catering at least once a month, yet few have a structured relationship with a provider they trust. The result is last-minute scrambling, inconsistent quality, and a finance team drowning in one-off invoices.
+              Our corporate retainer gives your Dubai company one reliable catering partner, predictable monthly spend, and priority access to vetted chefs. Tell us about your monthly rhythm — boardroom lunches, client dinners, team events — and we will design a written retainer proposal within 24 hours.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Our corporate retainer fixes that. For a fixed monthly fee, your company gets a pre-allocated catering credit, priority booking, a dedicated contact, and one consolidated invoice. Whether you need boardroom lunches, client dinners, or team events, the process is the same: brief us, confirm the date, and we handle the rest.
+              For a fixed monthly fee, your team gets a pre-allocated catering credit, priority booking, a dedicated contact, and one consolidated VAT invoice. The process is simple: brief us, confirm the date, and we handle chef selection, ingredients, service, and cleanup.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
               Learn more about <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering</Link>, <Link to="/business-lunch-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">business lunches</Link>, or <Link to="/corporate-event-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate events</Link>.
@@ -315,7 +315,7 @@ export default function CorporateRetainer() {
           </div>
 
           <p className="text-center font-inter text-body-sm text-gray-500 mt-8 max-w-[700px] mx-auto">
-            Pricing is indicative. Exact retainer terms, credit rollover, and event inclusions are agreed in a written proposal tailored to your company.
+            Starting prices are indicative; final retainer terms, credit rollover, and event inclusions are agreed in a written proposal tailored to your company after a short briefing.
           </p>
         </div>
       </section>

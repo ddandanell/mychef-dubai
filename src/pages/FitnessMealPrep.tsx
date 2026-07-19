@@ -86,7 +86,7 @@ const faqs = [
   },
   {
     q: 'How much does fitness meal prep cost?',
-    a: 'Fitness meal prep typically ranges from AED 1,200–2,500 per week depending on meal count, portion size, and ingredient quality. We quote fixed pricing after understanding your targets.',
+    a: 'Fitness meal prep starts from AED 1,200 per week depending on meal count, portion size, and ingredient quality. Final quote tailored to your targets and household.',
   },
 ]
 
@@ -229,13 +229,13 @@ export default function FitnessMealPrep() {
           </h2>
           <div className="fm-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Dubai's fitness culture is serious. Whether you are training for a competition, working through a transformation, or simply want your nutrition to match your discipline, meal prep is the lever that makes everything else easier.
+              Dubai's fitness culture is serious. Whether you are training for a competition, working through a transformation, or simply want your nutrition to match your discipline, the right meal prep is the lever that makes everything else easier. Tell us about your goals, training schedule, and household and we will match you with a vetted private chef within 24 hours.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Our fitness meal prep service pairs you with a private chef who prepares macro-calculated meals in your own kitchen. No more weighing food, no more bland containers, no more falling off plan because the healthy option was too hard to find.
+              Our fitness meal prep service pairs you with a private chef who prepares macro-calculated meals in your own kitchen. No more weighing food, no more bland containers, no more falling off plan because the healthy option was too hard to find. If you need broader nutritionist-aligned support, explore our <Link to="/wellness-meal-prep-dubai" className="text-gold hover:underline">Wellness Meal Prep</Link> programme.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              We do not write your nutrition plan — we execute it. Share your targets or your coach's guidance and we will build a weekly menu that hits your numbers and tastes like real food.
+              We do not write your nutrition plan — we execute it. Share your targets or your coach's guidance and we will build a weekly menu that hits your numbers and tastes like real food. For recurring household coverage, see <Link to="/weekly-meal-prep-dubai" className="text-gold hover:underline">Weekly Meal Prep Dubai</Link>.
             </p>
           </div>
         </div>

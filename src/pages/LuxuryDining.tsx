@@ -193,6 +193,16 @@ const breadcrumbSchema = {
   ],
 }
 
+const faqPageSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqs.map((faq) => ({
+    '@type': 'Question',
+    name: faq.q,
+    acceptedAnswer: { '@type': 'Answer', text: faq.a },
+  })),
+}
+
 /* ────────────────────── Component ────────────────────── */
 
 export default function LuxuryDining() {
@@ -260,7 +270,7 @@ export default function LuxuryDining() {
         description="Experience luxury private dining in Dubai. Romantic dinners, special occasions, and bespoke culinary experiences in your villa or penthouse. Request your custom menu."
         canonicalPath="/luxury-dining-experiences"
         ogImage="/service-luxury-dining.webp"
-        schema={{ ...schema, ...breadcrumbSchema }}
+        schema={{ ...schema, ...breadcrumbSchema, ...faqPageSchema }}
       />
 
       {/* ═══════════════ Section 1: Hero ═══════════════ */}
@@ -287,9 +297,11 @@ export default function LuxuryDining() {
               What luxury dining experiences can you book in Dubai?
             </h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed max-w-[700px] mx-auto mt-4">
-              From penthouses in Downtown to villas in{' '}
+              Tell us about your occasion and we will match you with a vetted{' '}
+              <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef</Link>
+              {' '}within 24 hours. From penthouses in Downtown to villas in{' '}
               <Link to="/locations/emirates-hills" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Emirates Hills</Link>
-              , we bring restaurant-quality dining to your door.
+              , we bring restaurant-quality dining to your door — with a bespoke menu, elegant table styling, and discreet service.
             </p>
           </div>
 
@@ -523,7 +535,7 @@ export default function LuxuryDining() {
         campaign="luxury-dining-experiences"
         eyebrow="LUXURY DINING PRICING"
         title="How much does luxury private dining cost in Dubai?"
-        subtitle="Transparent starting prices for bespoke luxury dining experiences in Dubai. Every menu is designed around your occasion."
+        subtitle="Indicative starting prices for bespoke luxury dining experiences in Dubai. Every final quote is tailored to your guest count, menu, and occasion."
       />
 
       {/* ═══════════════ Related Guides ═══════════════ */}

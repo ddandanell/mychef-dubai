@@ -51,17 +51,17 @@ const formats = [
 const menus = [
   {
     title: '5-Course Chef\'s Table',
-    price: 'AED 500–700 per person',
+    price: 'From AED 500 per person',
     description: 'Seasonal starter, seafood, main, cheese, and dessert with narration throughout.',
   },
   {
     title: '7-Course Omakase',
-    price: 'AED 700–1,000 per person',
+    price: 'From AED 700 per person',
     description: 'Japanese-inspired progression including sashimi, nigiri, hot dishes, and dessert. Sushi-chef dependent.',
   },
   {
     title: '9-Course Tasting Journey',
-    price: 'AED 900–1,500+ per person',
+    price: 'From AED 900 per person',
     description: 'Michelin-style pacing with premium ingredients, wine pairing, and dedicated service.',
   },
 ]
@@ -202,7 +202,7 @@ export default function ChefsTable() {
             Interactive multi-course tasting experiences where the chef becomes part of the evening. For Dubai hosts who want dinner and entertainment in one.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 ct-hero-cta">Book a Chef's Table</Link>
+            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 ct-hero-cta">Plan My Chef's Table</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -226,7 +226,7 @@ export default function ChefsTable() {
           </h2>
           <div className="ct-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              A chef's table turns dining into an experience. Guests do not just eat — they watch, learn, and engage as each course is prepared and presented. It is the format Dubai's most food-obsessed couples and small groups keep coming back to.
+              A chef's table turns dining into an experience. Guests do not just eat — they watch, learn, and engage as each course is prepared and presented. Tell us about your evening and we will match you with a vetted chef within 24 hours.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               We offer two main formats: the classic chef's table, where the chef narrates a multi-course tasting menu, and omakase, where the chef chooses the progression based on the freshest ingredients and your preferences. Both are intimate, memorable, and highly shareable.
@@ -290,6 +290,9 @@ export default function ChefsTable() {
               </div>
             ))}
           </div>
+          <p className="font-inter text-body-sm text-gray-400 text-center mt-8">
+            Final quote tailored to your group size, menu preferences, and event date.
+          </p>
         </div>
       </section>
 
@@ -368,7 +371,7 @@ export default function ChefsTable() {
             Tell us your group size, preferred cuisine, and any occasion. We will design a chef's table or omakase evening your guests will talk about for years.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Book Chef's Table</Link>
+            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Plan My Chef's Table</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

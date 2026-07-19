@@ -8,8 +8,35 @@ import { Heart, Sparkles, Wine } from 'lucide-react'
 gsap.registerPlugin(ScrollTrigger)
 
 const WHATSAPP_NUMBER = '971551744849'
-const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to request a proposal (via mychef.ae/romantic-dinner)')
+const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to plan a romantic dinner (via mychef.ae/romantic-dinner-dubai)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
+
+const serviceSchema = {
+  '@type': 'Service',
+  name: 'Romantic Dinner Dubai',
+  serviceType: 'Private Dining Service',
+  provider: {
+    '@type': 'Organization',
+    name: 'myCHEF Dubai',
+    url: 'https://mychef.ae',
+    telephone: '+971-55-174-4849',
+    areaServed: 'Dubai, UAE',
+  },
+  areaServed: 'Dubai, UAE',
+}
+
+const breadcrumbSchema = {
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://mychef.ae/' },
+    { '@type': 'ListItem', position: 2, name: 'Romantic Dinner Dubai', item: 'https://mychef.ae/romantic-dinner-dubai' },
+  ],
+}
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@graph': [serviceSchema, breadcrumbSchema],
+}
 
 export default function RomanticDinner() {
   const pageRef = useRef<HTMLDivElement>(null)
@@ -30,6 +57,7 @@ export default function RomanticDinner() {
         description="Intimate romantic dinners in Dubai. Private chef, candlelit setting, bespoke menu for couples, anniversaries, and proposals."
         canonicalPath="/romantic-dinner-dubai"
         ogImage="/images/romantic-dinner-dubai-hero.webp"
+        schema={schema}
       />
 
       <section className="relative min-h-[70vh] flex items-center justify-center bg-black overflow-hidden">
@@ -38,10 +66,10 @@ export default function RomanticDinner() {
           <nav className="text-sm mb-6"><Link to="/" className="text-gray-400 hover:text-gold">Home</Link><span className="text-gray-600 mx-2">/</span><span className="text-gold">Romantic Dinner Dubai</span></nav>
           <p className="text-gold text-sm tracking-[0.2em] uppercase mb-4">For Two</p>
           <h1 className="font-playfair text-4xl md:text-6xl text-white font-semibold mb-4">Romantic Dinner Dubai</h1>
-          <p className="text-gray-300 text-lg max-w-2xl mx-auto">An unforgettable evening for you and your loved one. Private chef, candlelit table, bespoke menu.</p>
+          <p className="text-gray-300 text-lg max-w-2xl mx-auto">Tell us about your evening and we will match you with a vetted private chef, arrange the candlelit table, and build a bespoke menu for an unforgettable night together.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=romantic-dinner" className="btn-primary">Request a Proposal</Link>
-            <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-secondary">Chat on WhatsApp</a>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=romantic-dinner-dubai" className="btn-primary">Plan My Romantic Dinner</Link>
+            <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-secondary">WhatsApp My Plans</a>
           </div>
         </div>
       </section>
@@ -65,8 +93,14 @@ export default function RomanticDinner() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="font-playfair text-3xl text-white text-center mb-12 gsap-reveal">Perfect For</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            {['Anniversaries', 'Marriage Proposals', 'Birthday Surprises', 'Date Nights', 'Valentine\'s Day', 'Honeymoon Dining', 'Reconciliation Dinners', 'Just Because'].map((item, i) => (
-              <div key={i} className="bg-black p-6 text-center gsap-reveal"><span className="text-gold text-2xl mb-2 block">&#10084;</span><p className="text-white font-medium">{item}</p></div>
+            {[{label: 'Anniversaries'}, {label: 'Marriage Proposals', link: '/proposal-dinner-dubai'}, {label: 'Birthday Surprises'}, {label: 'Date Nights'}, {label: 'Valentine\'s Day'}, {label: 'Honeymoon Dining'}, {label: 'Reconciliation Dinners'}, {label: 'Just Because'}].map((item, i) => (
+              <div key={i} className="bg-black p-6 text-center gsap-reveal"><span className="text-gold text-2xl mb-2 block">&#10084;</span>
+                {item.link ? (
+                  <Link to={item.link} className="text-white font-medium hover:text-gold transition-colors">{item.label}</Link>
+                ) : (
+                  <p className="text-white font-medium">{item.label}</p>
+                )}
+              </div>
             ))}
           </div>
         </div>
@@ -89,8 +123,11 @@ export default function RomanticDinner() {
       <section className="py-24 bg-black">
         <div className="max-w-4xl mx-auto px-4 text-center gsap-reveal">
           <h2 className="font-playfair text-3xl text-white mb-6">Create an Unforgettable Evening</h2>
-          <p className="text-gray-400 mb-8">Let us handle everything while you focus on what matters most.</p>
-          <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=romantic-dinner" className="btn-primary">Request a Proposal</Link>
+          <p className="text-gray-400 mb-8">Tell us about your date, dietary preferences, and venue. We will match you with a vetted chef and send a tailored proposal within 24 hours.</p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=romantic-dinner-dubai" className="btn-primary">Plan My Romantic Dinner</Link>
+            <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-secondary">WhatsApp My Plans</a>
+          </div>
         </div>
       </section>
     </div>

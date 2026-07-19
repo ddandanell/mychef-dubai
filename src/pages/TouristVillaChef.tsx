@@ -248,13 +248,13 @@ export default function TouristVillaChef() {
           </h2>
           <div className="tvc-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Dubai welcomed nearly 20 million visitors in 2025, and a growing number choose luxury villas over hotels. The missing piece? A culinary experience that matches the privacy and quality of the accommodation.
+              Tell us your villa location, travel dates, and group size, and we will match you with a vetted private chef within 24 hours. Our tourist villa chef service gives visitors a curated multi-day dining programme — a private chef shops, cooks, serves, and cleans so you can spend your holiday actually on holiday.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Our tourist villa chef service gives visitors a curated multi-day dining programme. A private chef shops, cooks, serves, and cleans — so you can spend your holiday actually on holiday. Menus move through Dubai's best culinary influences and culminate in an Arabic feast that feels like the perfect farewell.
+              Menus move through Dubai's best culinary influences and culminate in an Arabic feast that feels like the perfect farewell. We coordinate with villa rental agencies, concierges, and property managers so access and timing are seamless.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              We coordinate with villa rental agencies, concierges, and property managers so access and timing are seamless. Explore <Link to="/villas-private-residences" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">villa dining</Link>, <Link to="/yachts" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">yacht catering</Link>, or <Link to="/desert-dining-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">desert dining</Link> for more experiences.
+              Looking for more ways to dine? Explore <Link to="/villas-private-residences" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">villa dining</Link> or <Link to="/yachts" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">yacht catering</Link> while you are in Dubai.
             </p>
           </div>
         </div>
@@ -300,20 +300,18 @@ export default function TouristVillaChef() {
                     </li>
                   ))}
                 </ul>
-                <a
-                  href={WHATSAPP_LINK}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <Link
+                  to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`}
                   className={`block text-center w-full py-3 font-inter text-sm uppercase tracking-wider transition-colors ${pkg.highlighted ? 'bg-gold text-black hover:bg-gold-light' : 'bg-black text-white hover:bg-charcoal'}`}
                 >
-                  Enquire
-                </a>
+                  Request This Package
+                </Link>
               </div>
             ))}
           </div>
 
           <p className="text-center font-inter text-body-sm text-gray-500 mt-8 max-w-[700px] mx-auto">
-            Prices are indicative for 2–6 guests and vary with group size, menu complexity, and villa location. Final quotes are provided after a brief planning call.
+            Prices shown are a starting point for 2–6 guests and vary with group size, menu complexity, and villa location. Final quote tailored to your villa, dates, and guest count after a brief planning call.
           </p>
         </div>
       </section>
@@ -426,7 +424,7 @@ export default function TouristVillaChef() {
             Share your villa location, dates, and group size. We will design a multi-day chef package that turns your Dubai stay into a culinary journey.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Plan My Package</Link>
+            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Plan My Villa Chef Package</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

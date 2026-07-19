@@ -193,6 +193,19 @@ const breadcrumbSchema = {
   ],
 }
 
+const faqPageSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqs.map((faq) => ({
+    '@type': 'Question',
+    name: faq.q,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: faq.a,
+    },
+  })),
+}
+
 /* ────────────────────── Component ────────────────────── */
 
 export default function PrivateChef() {
@@ -265,16 +278,16 @@ export default function PrivateChef() {
         description="Hire a professional private chef in Dubai. Bespoke dining experiences in your villa, home, or yacht. Fully customized menus. Request your quote today."
         canonicalPath="/private-chef-dubai"
         ogImage="/service-private-chef.webp"
-        schema={{ ...schema, ...breadcrumbSchema }}
+        schema={{ ...schema, ...breadcrumbSchema, ...faqPageSchema }}
       />
 
       {/* ═══════════════ Section 1: Hero ═══════════════ */}
       <PageHero
         title="Private Chef Dubai"
-        subtitle="An experienced private chef in your kitchen. Fully bespoke menus. Impeccable service. From intimate dinners to week-long villa stays."
+        subtitle="Tell us about your event and we will match you with a vetted private chef within 24 hours. Fully bespoke menus, prepared in your home or villa, with service and cleanup included."
         image="/images/private-chef-dubai-hero.webp"
         imageAlt="Private chef preparing a meal in Dubai"
-        cta={{ label: 'Request a Proposal', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=private-chef-dubai' }}
+        cta={{ label: 'Request a Private Chef Quote', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=private-chef-dubai' }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Private Chef Dubai' }]}
         minHeight="tall"
@@ -286,7 +299,7 @@ export default function PrivateChef() {
         campaign="private-chef-dubai"
         eyebrow="START WITH A PACKAGE"
         title="Private Chef Packages in Dubai"
-        subtitle="Transparent starting prices for our most requested private chef experiences. Every menu is tailored to your occasion and dietary preferences."
+        subtitle="Transparent starting prices for our most requested private chef experiences. Final quote tailored to your event, menu, and dietary preferences."
       />
 
       {/* ═══════════════ Section 2: What Is a Private Chef ═══════════════ */}
@@ -302,9 +315,11 @@ export default function PrivateChef() {
                 A private chef is a professional culinary expert who comes to your home, villa, or yacht to prepare bespoke meals exclusively for you and your guests. Unlike a restaurant experience, everything is designed around your preferences — the menu, the pacing, the atmosphere, the dietary requirements.
               </p>
               <p className="font-inter text-body text-gray-500 leading-relaxed">
-                At myCHEF Dubai, our private chef service includes menu consultation, ingredient sourcing, meal preparation, professional plating, table service, and complete kitchen cleanup. You simply enjoy the evening. We regularly serve clients in{' '}
+                At myCHEF Dubai, our private chef service includes menu consultation, ingredient sourcing, meal preparation, professional plating, table service, and complete kitchen cleanup. You simply enjoy the evening. Tell us about your occasion and we will send a tailored proposal within 24 hours. We regularly serve clients in{' '}
                 <Link to="/locations/downtown-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Downtown Dubai</Link>{' '}
-                and across every major Dubai community.
+                and across every major Dubai community, from relaxed family dinners to{' '}
+                <Link to="/luxury-dining-experiences" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury private dining</Link>{' '}
+                experiences.
               </p>
             </div>
 
@@ -477,19 +492,17 @@ export default function PrivateChef() {
         </div>
       </section>
 
-      {/* ═══════════════ Section 7: Testimonial ═══════════════ */}
+      {/* ═══════════════ Section 7: Review Invite ═══════════════ */}
       <section className="bg-charcoal py-20">
         <div className="container-custom max-w-[800px]">
-          <div className="pc-testi bg-charcoal border border-charcoal-light p-8 md:p-10 opacity-0 translate-y-5">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" className="text-gold mb-4">
-              <path d="M4 19c0-3.5 2-6.5 5-8l.5 1C7 13.5 6 15.5 6 18h4c0-3 .5-5.5 1.5-7.5S14 7 14 5c0-1.5-.5-2.5-1.5-3S10.5 1 9 1 6.5 1.5 5 2.5 3 4.5 3 6.5c0 1.5.5 2.5 1.5 3s2 .5 3 0l-.5 2c-1.5.5-3 1.5-3 3.5V19H4zm11 0c0-3.5 2-6.5 5-8l.5 1c-2.5 1.5-3.5 3.5-3.5 6h4c0-3 .5-5.5 1.5-7.5S25 7 25 5c0-1.5-.5-2.5-1.5-3S21.5 1 20 1s-2.5.5-4 1.5-2 2-2 4c0 1.5.5 2.5 1.5 3s2 .5 3 0l-.5 2c-1.5.5-3 1.5-3 3.5V19h-1z" fill="currentColor"/>
-            </svg>
-            <p className="font-playfair text-lg md:text-xl text-white italic leading-relaxed mb-6">
-              &ldquo;Having Marco and his team prepare dinner for our anniversary was the best decision we made. The food was extraordinary, the service was flawless, and we did not lift a finger. We have already booked them for our next dinner party.&rdquo;
+          <div className="pc-testi bg-charcoal border border-charcoal-light p-8 md:p-10 opacity-0 translate-y-5 text-center">
+            <h3 className="font-playfair text-h3 text-white mb-4">Love your myCHEF experience?</h3>
+            <p className="font-inter text-body text-gray-400 leading-relaxed mb-6">
+              Leave us a review and receive AED 50 credit toward your next private chef booking.
             </p>
-            <p className="font-inter text-body-sm text-gray-400">
-              &mdash; Layla &amp; Ahmed R., Palm Jumeirah
-            </p>
+            <Link to="/review" className="btn-primary">
+              Leave a Review
+            </Link>
           </div>
         </div>
       </section>
@@ -532,7 +545,7 @@ export default function PrivateChef() {
         campaign="private-chef-dubai"
         eyebrow="HOW MUCH DOES A PRIVATE CHEF COST IN DUBAI?"
         title="How much does a private chef cost in Dubai?"
-        subtitle="Transparent starting prices for private chef experiences in Dubai. Every menu is tailored to your occasion."
+        subtitle="Transparent starting prices for private chef experiences in Dubai. Final quote tailored to your event, menu, and guest count."
       />
 
       {/* ═══════════════ Related Guides ═══════════════ */}
@@ -568,7 +581,7 @@ export default function PrivateChef() {
             Tell us about your occasion and we will craft a bespoke proposal within 2 hours.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=private-chef-dubai" className="btn-primary">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=private-chef-dubai" className="btn-primary">Request a Private Chef Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

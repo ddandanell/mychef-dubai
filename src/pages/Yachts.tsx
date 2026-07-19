@@ -11,7 +11,7 @@ import LocationStrip from '@/components/LocationStrip'
 gsap.registerPlugin(ScrollTrigger)
 
 const WHATSAPP_NUMBER = '971551744849'
-const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to request a quote (via mychef.ae/yachts)')
+const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to plan a yacht dinner — please send me a tailored quote (via mychef.ae/yachts)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 const yachtServices = [
@@ -91,6 +91,38 @@ const breadcrumbSchema = {
   ],
 }
 
+const serviceSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Service',
+  name: 'Yacht Catering Dubai',
+  description: 'Premium yacht catering and private chef services in Dubai. Dining on your yacht with Dubai Marina and Palm Jumeirah as your backdrop.',
+  provider: {
+    '@type': 'Organization',
+    name: 'myCHEF Dubai',
+    url: 'https://mychef.ae',
+    telephone: '+971 55 174 4849',
+  },
+  areaServed: {
+    '@type': 'Place',
+    name: 'Dubai, UAE',
+  },
+  serviceType: 'Yacht Catering',
+  url: 'https://mychef.ae/yachts',
+}
+
+const faqPageSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqItems.map((item) => ({
+    '@type': 'Question',
+    name: item.q,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: item.a,
+    },
+  })),
+}
+
 export default function Yachts() {
   const containerRef = useRef<HTMLDivElement>(null)
   const [openFaq, setOpenFaq] = useState<number | null>(null)
@@ -156,17 +188,20 @@ export default function Yachts() {
         description="Premium yacht catering and private chef services in Dubai. Dining on your yacht with Dubai Marina and Palm Jumeirah as your backdrop. Request a bespoke quote."
         canonicalPath="/yachts"
         ogImage="/service-yacht.webp"
-        schema={breadcrumbSchema}
+        schema={{
+          '@context': 'https://schema.org',
+          '@graph': [serviceSchema, breadcrumbSchema, faqPageSchema],
+        }}
       />
 
       {/* Section 1: Hero */}
       <PageHero
         eyebrow="YACHT CATERING"
         title="Yacht Catering Dubai"
-        subtitle="Exceptional dining on the water. A private chef experience with Dubai's iconic skyline as your setting."
+        subtitle="Tell us about your yacht event and we will match you with a vetted chef within 24 hours. Exceptional dining on the water with Dubai's iconic skyline as your setting."
         image="/images/yacht-catering-dubai-hero.webp"
         imageAlt="Yacht catering in Dubai"
-        cta={{ label: 'Request Yacht Catering', href: WHATSAPP_LINK, external: true }}
+        cta={{ label: 'Plan My Yacht Dinner', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=yachts' }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Yachts' }]}
         minHeight="tall"
@@ -215,8 +250,8 @@ export default function Yachts() {
                 Why Yacht Dining Is Special
               </h3>
               <div className="space-y-4 font-inter text-body text-gray-400" style={{ lineHeight: '1.7' }}>
-                <p>There is nothing quite like dining on the water with Dubai&apos;s iconic skyline as your backdrop. Whether you are anchored off Palm Jumeirah, cruising past Burj Al Arab, or watching the sunset over Dubai Marina — a private chef elevates the experience to something truly extraordinary.</p>
-                <p>Our yacht chef services are designed around the unique challenges and opportunities of cooking at sea. We plan menus that work beautifully in a yacht galley, source ingredients that travel well, and present each course with the same precision you would expect in a fine dining restaurant. For inspiration, explore our <Link to="/blog/yacht-party-menu-ideas-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">yacht party menu ideas</Link>.</p>
+                <p>There is nothing quite like dining on the water with Dubai&apos;s iconic skyline as your backdrop. Whether you are anchored off Palm Jumeirah, cruising past Burj Al Arab, or watching the sunset over Dubai Marina — a <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef</Link> elevates the experience to something truly extraordinary.</p>
+                <p>Our yacht chef services are designed around the unique challenges and opportunities of cooking at sea. We plan menus that work beautifully in a yacht galley, source ingredients that travel well, and present each course with the same precision you would expect in a fine dining restaurant. For inspiration, explore our <Link to="/blog/yacht-party-menu-ideas-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">yacht party menu ideas</Link> or browse <Link to="/luxury-dining-experiences" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury dining experiences</Link> for your next celebration.</p>
               </div>
             </div>
             <div className="yacht-exp-right">
@@ -446,10 +481,10 @@ export default function Yachts() {
             Your private yacht chef experience awaits. Contact us to plan your on-board culinary journey.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-primary inline-flex items-center gap-2">
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=yachts" className="btn-primary inline-flex items-center gap-2">
               <Phone size={18} />
-              Request My Custom Quote
-            </a>
+              Plan My Yacht Dinner
+            </Link>
             <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-secondary">
               Chat on WhatsApp
             </a>

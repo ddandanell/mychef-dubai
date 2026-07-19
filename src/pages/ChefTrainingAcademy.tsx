@@ -52,7 +52,7 @@ const inclusions = [
 const packages = [
   {
     name: 'Foundation Course',
-    price: 'AED 2,500',
+    price: 'From AED 2,500',
     description: 'Two-day introduction for aspiring private dining chefs.',
     features: [
       '2 days of hands-on training',
@@ -64,7 +64,7 @@ const packages = [
   },
   {
     name: 'Professional Certificate',
-    price: 'AED 6,500',
+    price: 'From AED 6,500',
     description: 'Five-day intensive programme with live service practice and assessment.',
     features: [
       '5 days of practical instruction',
@@ -77,7 +77,7 @@ const packages = [
   },
   {
     name: 'Master Private Chef Diploma',
-    price: 'AED 12,000',
+    price: 'From AED 12,000',
     description: 'Ten-day residential-style programme for chefs ready to lead private events.',
     features: [
       '10 days of advanced training',
@@ -226,7 +226,7 @@ export default function ChefTrainingAcademy() {
             A practical academy for chefs who want to excel in private dining. Learn the standards that make myCHEF Dubai chefs trusted in the city's finest homes.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 ct-hero-cta">Apply Now</Link>
+            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 ct-hero-cta">Apply to the Academy</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -251,10 +251,10 @@ export default function ChefTrainingAcademy() {
           </h2>
           <div className="ct-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Private dining is a different discipline from restaurant service. Our academy teaches the timing, presentation, and guest-service skills that turn a good cook into a confident private chef. Every module is practical, every assessment is hands-on, and every graduate leaves ready to work in Dubai's finest homes.
+              Private dining is a different discipline from restaurant service. Our academy teaches the timing, presentation, and guest-service skills that turn a good cook into a confident private chef. Tell us about your experience and goals, and we will recommend the right programme and help you enrol for the next intake.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              You will learn how to design menus for real households, manage dietary requirements with confidence, plate under pressure, and run a villa kitchen from prep to final course. Instructors are experienced private-dining chefs who understand what families, hosts, and guests expect.
+              You will learn how to design menus for real households, manage dietary requirements with confidence, plate under pressure, and run a villa kitchen from prep to final course. Instructors are experienced private-dining chefs who understand what families, hosts, and guests expect. Graduates who meet our standards are also invited to join the <Link to="/become-a-mychef" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">myCHEF Dubai chef network</Link>.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
               Explore <Link to="/become-a-mychef" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">joining our chef network</Link>, <Link to="/how-we-vet-our-chefs" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">our vetting process</Link>, or <Link to="/mychef-certified" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">myCHEF certification</Link> to see how the academy connects to our platform.
@@ -300,6 +300,9 @@ export default function ChefTrainingAcademy() {
             <h2 className="font-playfair text-h2 text-white">
               Choose Your Path
             </h2>
+            <p className="font-inter text-body-sm text-gray-400 mt-3 max-w-[600px] mx-auto">
+              Final quote is tailored to your chosen programme, schedule, and any add-on modules.
+            </p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-6">
@@ -418,7 +421,7 @@ export default function ChefTrainingAcademy() {
             Applications are open for the next intake. Tell us about your experience and goals, and we will recommend the right programme.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Apply Now</Link>
+            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Apply to the Academy</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

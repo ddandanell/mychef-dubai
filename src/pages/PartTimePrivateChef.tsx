@@ -44,7 +44,7 @@ const benefits = [
   {
     icon: Wallet,
     title: 'More Accessible Than Full-Time',
-    description: 'Part-time chef arrangements typically range from AED 8,000–20,000 per month — a practical middle ground for households earning AED 30,000+.',
+    description: 'Part-time chef arrangements start from around AED 8,000 per month — a practical middle ground between ad-hoc bookings and full-time placement. Final quote tailored to your schedule and household needs.',
   },
 ]
 
@@ -74,7 +74,7 @@ const faqs = [
   },
   {
     q: 'How much does a part-time private chef cost in Dubai?',
-    a: 'Part-time private chef arrangements in Dubai typically range from AED 8,000–20,000 per month, depending on frequency, hours, household size, and menu complexity. This is less than a full-time live-out chef and more structured than ad-hoc bookings.',
+    a: 'Part-time private chef arrangements in Dubai typically start from AED 8,000 per month, depending on frequency, hours, household size, and menu complexity. We tailor every quote to your specific schedule and requirements.',
   },
   {
     q: 'Is the chef employed by myCHEF or by me?',
@@ -227,7 +227,7 @@ export default function PartTimePrivateChef() {
           </h2>
           <div className="pt-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Most Dubai households do not need a chef every day — but they also do not want to cook every evening. The part-time private chef fills that gap: reliable, regular support that keeps your fridge stocked and your evenings free.
+              Get reliable, restaurant-quality cooking at home without the cost of a full-time chef. Tell us about your household size, schedule, and dietary preferences, and we will match you with a vetted chef who fits your rhythm — usually within 24 hours.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               This is the highest-LTV segment in the private chef market. Families who book a chef 2–3 times per week generate predictable, recurring revenue and build long-term relationships with one trusted cook.

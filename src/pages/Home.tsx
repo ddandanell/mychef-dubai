@@ -57,6 +57,7 @@ export default function Home() {
             <Link to="/gift-cards" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">myCHEF gift cards</Link>,
             {' '}book a <Link to="/private-cooking-classes-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private cooking class in Dubai</Link>,
             {' '}or join the <Link to="/vip-club" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">VIP Club</Link> for priority access and exclusive menus.
+            {' '}For your main event, browse <Link to="/catering" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
           </p>
         </div>
       </section>

@@ -251,7 +251,7 @@ export default function FullTimePrivateChef() {
           </h2>
           <div className="fp-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              A full-time private chef is more than a cook — they are a household partner who understands your family's rhythms, preferences, and expectations. Whether you need daily meal coverage, support for entertaining, or specialised nutrition, myCHEF Dubai sources residential chefs who fit your home.
+              Hire a full-time private chef in Dubai and bring consistent, restaurant-quality dining into your home. Tell us about your household size, cuisine preferences, and schedule, and we will match you with a vetted residential chef within 24 hours.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               Every candidate is vetted for culinary skill, professionalism, food-safety awareness, and experience in private households. We handle the shortlisting, interviews, and placement terms so you can focus on finding the right match for your family.
@@ -314,7 +314,10 @@ export default function FullTimePrivateChef() {
                   </span>
                 )}
                 <h3 className="font-playfair text-h3 mb-2">{pkg.name}</h3>
-                <p className="font-playfair text-2xl font-semibold text-gold mb-2">{pkg.price}</p>
+                <p className="font-playfair text-2xl font-semibold text-gold mb-1">{pkg.price}</p>
+                <p className="font-inter text-xs text-gray-500 mb-4 leading-relaxed">
+                  Final quote tailored to your household after consultation.
+                </p>
                 <p className="font-inter text-body-sm text-gray-400 mb-6 leading-relaxed">
                   {pkg.description}
                 </p>

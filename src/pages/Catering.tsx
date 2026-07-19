@@ -218,6 +218,19 @@ const breadcrumbSchema = {
   ],
 }
 
+const faqPageSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqs.map((faq) => ({
+    '@type': 'Question',
+    name: faq.q,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: faq.a,
+    },
+  })),
+}
+
 /* ────────────────────── Component ────────────────────── */
 
 export default function Catering() {
@@ -285,7 +298,7 @@ export default function Catering() {
         description="Premium catering experiences in Dubai for events, corporate functions, weddings, and private celebrations. Bespoke menus, end-to-end coordination, flawless execution. Request a quote."
         canonicalPath="/catering-dubai"
         ogImage="/service-catering.webp"
-        schema={{ ...schema, ...breadcrumbSchema }}
+        schema={{ '@context': 'https://schema.org', '@graph': [schema, breadcrumbSchema, faqPageSchema] }}
       />
 
       {/* ═══════════════ Section 1: Hero ═══════════════ */}
@@ -294,7 +307,7 @@ export default function Catering() {
         subtitle="Premium event catering across Dubai. From intimate gatherings to grand celebrations — every detail designed, every course perfected by your chef."
         image="/images/catering-dubai-hero.webp"
         imageAlt="Elegant catering setup in Dubai"
-        cta={{ label: 'Request a Proposal', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=catering-dubai' }}
+        cta={{ label: 'Get a Catering Quote', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=catering-dubai' }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Catering Dubai' }]}
         minHeight="tall"
@@ -306,18 +319,18 @@ export default function Catering() {
         campaign="catering-dubai"
         eyebrow="START WITH A PACKAGE"
         title="Catering Packages in Dubai"
-        subtitle="Transparent starting prices for Dubai's most popular catering and private chef experiences. Every package is customised to your guest count, menu, and venue."
+        subtitle="Transparent starting prices for Dubai's most popular catering and private chef experiences. Every package is customised to your guest count, menu, and venue — final quote tailored to your event."
       />
 
       {/* ═══════════════ Opening ═══════════════ */}
       <section className="bg-black py-14 border-b border-charcoal">
         <div className="container-custom max-w-3xl text-center">
           <p className="font-inter text-body text-gray-400 leading-relaxed">
-            We design exceptional catering experiences across Dubai's most prestigious districts, including{' '}
+            Tell us about your event and we will match you with a vetted, licensed chef within 24 hours. From menu design and ingredient sourcing to service staff and cleanup, we coordinate every detail of your catering experience across Dubai's most prestigious districts, including{' '}
             <Link to="/locations/business-bay" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Business Bay catering</Link>
             {' '}and{' '}
             <Link to="/locations/difc" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">DIFC catering</Link>.
-            Whether you are planning a corporate lunch, a private celebration, or a large gala, we design menus and service plans tailored to your venue and guests — from <Link to="/finger-food-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">finger food</Link> and <Link to="/cocktail-party-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">cocktail party catering</Link> to full banquets.
+            Whether you are planning a corporate lunch, a private celebration, or a large gala, we design menus and service plans tailored to your venue and guests — from <Link to="/finger-food-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">finger food</Link> and <Link to="/cocktail-party-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">cocktail party catering</Link> to full banquets. For a faster starting point, explore our <Link to="/catering-packages-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Catering Packages Dubai</Link>.
           </p>
         </div>
       </section>
@@ -577,7 +590,7 @@ export default function Catering() {
         campaign="catering-dubai"
         eyebrow="HOW MUCH DOES CATERING COST IN DUBAI?"
         title="How much does event catering cost in Dubai?"
-        subtitle="Transparent starting prices for event catering in Dubai. Packages scale from intimate dinners to corporate events."
+        subtitle="Transparent starting prices for event catering in Dubai. Packages scale from intimate dinners to corporate events — final quote tailored to your event."
       />
 
       {/* ═══════════════ Related Guides ═══════════════ */}
@@ -607,7 +620,7 @@ export default function Catering() {
             From concept to execution — we design and manage every detail of your catering experience.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=catering-dubai" className="btn-primary">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=catering-dubai" className="btn-primary">Get a Catering Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

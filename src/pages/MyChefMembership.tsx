@@ -130,7 +130,7 @@ const schema = {
   '@graph': [
     serviceSchema(
       'myCHEF Membership',
-      'myCHEF Dubai membership programme: AED 99 Lite and AED 199 Premium monthly plans with priority booking, dining credits, member pricing, and concierge support.',
+      'myCHEF Dubai membership programme with priority booking, dining credits, member pricing, and concierge support. Plans start from AED 99/month.',
       'Membership Service',
       'Dubai',
     ),
@@ -187,8 +187,8 @@ export default function MyChefMembership() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="myCHEF Membership Dubai | AED 99 & AED 199 Monthly Plans"
-        description="Join myCHEF Dubai membership for priority booking, quarterly dining credits, member-only pricing, and concierge support. Lite AED 99/month. Premium AED 199/month."
+        title="myCHEF Membership Dubai | Priority Booking & Member Perks"
+        description="Join myCHEF Dubai membership for priority booking, quarterly dining credits, member-only pricing, and concierge support. Plans start from AED 99/month."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/luxury-dining-dubai-hero.webp"
         schema={schema}
@@ -218,16 +218,16 @@ export default function MyChefMembership() {
             Priority booking, quarterly dining credits, member-only pricing, and a dedicated concierge line — designed for Dubai hosts who love great food without the friction.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 mem-hero-cta">Join MyChef Membership</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
               rel="noopener noreferrer"
-              className="btn-primary opacity-0 translate-y-4 mem-hero-cta"
+              className="btn-secondary opacity-0 translate-y-4 mem-hero-cta"
             >
               <Phone size={16} className="mr-2" />
               Join via WhatsApp
             </a>
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-secondary opacity-0 translate-y-4 mem-hero-cta">Request Membership Info</Link>
           </div>
         </div>
       </section>
@@ -243,7 +243,7 @@ export default function MyChefMembership() {
           </h2>
           <div className="mem-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              If you book private dining or catering more than a couple of times per year, membership pays for itself. myCHEF Membership is not a meal subscription — it is a access pass that unlocks priority dates, real dining credits, member pricing, and a direct concierge line.
+              Tell us how often you host and what you value most, and we will recommend the right membership tier within one business day. myCHEF Membership is not a meal subscription — it is an access pass that unlocks priority dates, real dining credits, member pricing, and a direct concierge line.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               Whether you host monthly dinner parties, run a busy household with weekly meal prep, or simply want first access to seasonal menus and chef experiences, membership gives you a smoother, more rewarding way to dine.
@@ -285,11 +285,14 @@ export default function MyChefMembership() {
                     <h3 className="font-playfair text-h3">{tier.name}</h3>
                   </div>
                   <div className="flex items-baseline gap-1 mb-4">
-                    <span className={`font-playfair text-4xl font-semibold ${tier.highlighted ? 'text-white' : 'text-black'}`}>AED {tier.price}</span>
+                    <span className={`font-playfair text-4xl font-semibold ${tier.highlighted ? 'text-white' : 'text-black'}`}>From AED {tier.price}</span>
                     <span className="font-inter text-body-sm text-gray-500">{tier.period}</span>
                   </div>
-                  <p className="font-inter text-body-sm text-gray-500 mb-6 leading-relaxed">
+                  <p className="font-inter text-body-sm text-gray-500 mb-2 leading-relaxed">
                     {tier.description}
+                  </p>
+                  <p className="font-inter text-body-xs text-gray-500 mb-6 leading-relaxed italic">
+                    Final quote tailored to your household and booking frequency.
                   </p>
                   <ul className="space-y-3 mb-8">
                     {tier.features.map((feature, fi) => (
@@ -426,16 +429,16 @@ export default function MyChefMembership() {
             Get priority access, quarterly credits, and member-only pricing for private chef and catering experiences in Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Join MyChef Membership</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
               rel="noopener noreferrer"
-              className="btn-primary"
+              className="btn-secondary"
             >
               <Phone size={16} className="mr-2" />
               Join via WhatsApp
             </a>
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-secondary">Request Membership Info</Link>
           </div>
         </div>
       </section>

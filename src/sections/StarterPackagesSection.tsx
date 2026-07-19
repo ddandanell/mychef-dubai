@@ -62,12 +62,12 @@ export default function StarterPackagesSection({
               <h3 className="font-playfair text-h4 text-black mb-2">{pkg.name}</h3>
               <p className="font-inter text-body-sm text-gray-500 mb-4">{pkg.guests} guests</p>
               <div className="mb-4">
-                <span className="font-inter text-caption text-gray-500 uppercase tracking-wider">from</span>
+                <span className="font-inter text-caption text-gray-500 uppercase tracking-wider">From AED</span>
                 <p className="font-playfair text-3xl text-gold">
-                  AED {pkg.price}
+                  {pkg.price}
                   {pkg.recurring && <span className="font-inter text-sm text-gray-500 ml-1">/ week</span>}
                 </p>
-                <p className="font-inter text-body-sm text-gold mt-1">{pkg.perPerson} per person</p>
+                <p className="font-inter text-body-sm text-gray-500 mt-2">Final quote tailored to your event.</p>
               </div>
               <p className="font-inter text-body-sm text-gray-500 leading-relaxed flex-1 mb-6">
                 {pkg.included}

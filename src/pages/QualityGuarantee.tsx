@@ -205,7 +205,7 @@ export default function QualityGuarantee() {
             Every myCHEF Dubai booking is backed by vetted chefs, backup cover, clear written terms, and a fair resolution promise — because trust is the real product.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 qg-hero-cta">Request a Proposal</Link>
+            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 qg-hero-cta">Request a Guaranteed Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -230,7 +230,7 @@ export default function QualityGuarantee() {
           </h2>
           <div className="qg-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              The Dubai private chef market has a trust problem. Research shows that food quality scores consistently outrank chef professionalism scores across major platforms — meaning the cooking may be good, but the overall experience is uneven. MyCHEF Dubai was designed to close that gap.
+              Tell us about your event, dietary needs, and preferred style, and we will match you with a vetted private chef in Dubai within 24 hours. Every myCHEF Dubai booking is backed by identity-checked chefs, backup cover, written terms, and a fair resolution promise — because trust is the real product.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               Our quality guarantee is not a marketing slogan. It is a set of operational promises: every chef is vetted, every booking is confirmed in writing, backup cover is available, and if something genuinely falls short, we investigate and make it right. We do not claim perfection. We claim accountability.
@@ -261,7 +261,12 @@ export default function QualityGuarantee() {
                 <div key={i} className="qg-guarantee-card bg-white p-8 opacity-0 translate-y-10">
                   <Icon size={32} className="text-gold mb-4" />
                   <h3 className="font-playfair text-h3 text-black mb-3">{item.title}</h3>
-                  <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{item.description}</p>
+                  <p className="font-inter text-body-sm text-gray-500 leading-relaxed">
+                    {item.description}
+                    {i === 0 && (
+                      <> Read more about <Link to="/how-we-vet-our-chefs" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">how we vet our chefs</Link>.</>
+                    )}
+                  </p>
                 </div>
               )
             })}
@@ -377,7 +382,7 @@ export default function QualityGuarantee() {
             Get a clear written proposal, vetted chef matching, and the backing of our quality guarantee for your next private dining or catering event in Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Request a Proposal</Link>
+            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Request a Guaranteed Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

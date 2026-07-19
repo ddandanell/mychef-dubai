@@ -251,7 +251,7 @@ export default function ProposalDinner() {
           </h2>
           <div className="pd-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              A proposal dinner is not just a meal — it is a story told through food, setting, and timing. Our team works with you to design an experience that feels personal and effortless, whether it is an intimate dinner for two or a surprise celebration with family hiding in the next room.
+              A proposal dinner is not just a meal — it is a story told through food, setting, and timing. Tell us about your partner, your vision, and your venue, and we will match you with a vetted private chef and event manager who reply within 24 hours to start shaping your perfect "yes".
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               From the first course to the moment you get down on one knee, we manage the pacing, the styling, and the coordination with photographers and florists. You arrive as a guest; we make sure the evening unfolds exactly as you imagined.
@@ -314,7 +314,8 @@ export default function ProposalDinner() {
                   </span>
                 )}
                 <h3 className="font-playfair text-h3 mb-2">{pkg.name}</h3>
-                <p className="font-playfair text-2xl font-semibold text-gold mb-2">{pkg.price}</p>
+                <p className="font-playfair text-2xl font-semibold text-gold mb-1">{pkg.price}</p>
+                <p className="font-inter text-xs text-gold/80 mb-4">Final quote tailored to your event.</p>
                 <p className="font-inter text-body-sm text-gray-400 mb-6 leading-relaxed">
                   {pkg.description}
                 </p>
@@ -326,14 +327,12 @@ export default function ProposalDinner() {
                     </li>
                   ))}
                 </ul>
-                <a
-                  href={WHATSAPP_LINK}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <Link
+                  to={`/inquiry?utm_source=mychef.ae&utm_medium=package_card&utm_campaign=${CAMPAIGN}`}
                   className="block text-center w-full py-3 font-inter text-sm uppercase tracking-wider bg-gold text-black hover:bg-gold-light transition-colors"
                 >
-                  Enquire
-                </a>
+                  Enquire Now
+                </Link>
               </div>
             ))}
           </div>

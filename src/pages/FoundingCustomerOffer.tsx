@@ -52,7 +52,7 @@ const inclusions = [
 const packages = [
   {
     name: 'Silver Founding Member',
-    price: 'AED 2,500/year',
+    price: 'From AED 2,500/year',
     description: 'Perfect for households who want priority access and locked-in rates for intimate dining.',
     features: [
       '12 months locked-in pricing',
@@ -64,7 +64,7 @@ const packages = [
   },
   {
     name: 'Gold Founding Member',
-    price: 'AED 5,500/year',
+    price: 'From AED 5,500/year',
     description: 'Our most popular founding tier for families and hosts who dine privately several times a year.',
     features: [
       'Everything in Silver, plus',
@@ -77,7 +77,7 @@ const packages = [
   },
   {
     name: 'Platinum Founding Member',
-    price: 'AED 12,000/year',
+    price: 'From AED 12,000/year',
     description: 'The full concierge experience for villas, yachts, and frequent entertainers who expect white-glove service.',
     features: [
       'Everything in Gold, plus',
@@ -251,10 +251,10 @@ export default function FoundingCustomerOffer() {
           </h2>
           <div className="fc-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              myCHEF Dubai is building a new standard for private chef and luxury catering experiences in the city. As a founding customer, you are not just booking a service — you are helping shape a concierge-level offering designed around how Dubai actually dines.
+              Lock in priority access, a dedicated concierge, and a fixed founding rate for 12 months. Tell us how you dine and we will recommend the right founding tier, confirm availability, and match you with a vetted private chef in Dubai within 24 hours.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              In return for joining early, we lock in your pricing, reserve priority access to our best chefs, and assign a dedicated concierge who learns your preferences over time. Whether it is a weekly family dinner or a milestone celebration, your experience gets better with every booking.
+              In return for joining early, we reserve priority access to our best chefs and assign a dedicated concierge who learns your preferences over time. Whether it is a weekly family dinner or a milestone celebration, your experience gets better with every booking.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
               Explore more ways to dine with us: <Link to="/mychef-membership" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">membership</Link>, <Link to="/vip-club" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">VIP Club</Link>, or <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef services</Link>.
@@ -314,7 +314,10 @@ export default function FoundingCustomerOffer() {
                   </span>
                 )}
                 <h3 className="font-playfair text-h3 mb-2">{pkg.name}</h3>
-                <p className="font-playfair text-2xl font-semibold text-gold mb-2">{pkg.price}</p>
+                <p className="font-playfair text-2xl font-semibold text-gold mb-1">{pkg.price}</p>
+                <p className="font-inter text-xs text-gray-500 mb-4 leading-relaxed">
+                  Final quote tailored to your dining frequency and group size.
+                </p>
                 <p className="font-inter text-body-sm text-gray-400 mb-6 leading-relaxed">
                   {pkg.description}
                 </p>
@@ -326,14 +329,12 @@ export default function FoundingCustomerOffer() {
                     </li>
                   ))}
                 </ul>
-                <a
-                  href={WHATSAPP_LINK}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <Link
+                  to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`}
                   className="block text-center w-full py-3 font-inter text-sm uppercase tracking-wider bg-gold text-black hover:bg-gold-light transition-colors"
                 >
                   Enquire
-                </a>
+                </Link>
               </div>
             ))}
           </div>

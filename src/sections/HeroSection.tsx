@@ -2,6 +2,10 @@ import { useEffect, useRef } from 'react'
 import { Link } from 'react-router'
 import gsap from 'gsap'
 
+const WHATSAPP_NUMBER = '971551744849'
+const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to plan an event (via mychef.ae/)')
+const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
+
 const prefersReducedMotion = () =>
   typeof window !== 'undefined' && window.matchMedia('(prefers-reduced-motion: reduce)').matches
 
@@ -136,10 +140,9 @@ export default function HeroSection() {
         {/* Headline */}
         <h1
           ref={headlineRef}
-          className="font-playfair text-fluid-display font-semibold leading-tight opacity-0"
+          className="font-playfair text-fluid-display font-semibold leading-tight text-white opacity-0"
         >
-          <span className="text-white block">Exceptional Dining,</span>
-          <span className="text-gold font-normal block mt-1">Crafted Around You</span>
+          Exceptional Dining, Crafted Around You
         </h1>
 
         {/* Subtext */}
@@ -147,16 +150,21 @@ export default function HeroSection() {
           ref={subtextRef}
           className="mt-5 md:mt-6 font-inter text-base md:text-body-lg font-light text-white/90 max-w-xl leading-relaxed opacity-0"
         >
-          Dubai&apos;s private-dining house. We design the evening, choose your chef, and run every detail to one standard — ours — so you&apos;re a guest at your own table.
+          Tell us about your event and we will match you with a vetted, licensed chef within 24 hours. We design the menu, run every detail, and keep you a guest at your own table.
         </p>
 
         {/* CTA Row */}
         <div ref={ctaRef} className="mt-8 md:mt-10 flex flex-col sm:flex-row gap-4">
           <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=home" className="btn-primary text-center">
-            Request a Proposal
+            Plan My Event
           </Link>
-          <a href="#services" className="btn-secondary text-center">
-            Browse Our Experiences
+          <a
+            href={WHATSAPP_LINK}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-secondary text-center"
+          >
+            Chat on WhatsApp
           </a>
         </div>
 

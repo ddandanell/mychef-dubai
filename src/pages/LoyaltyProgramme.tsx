@@ -64,7 +64,7 @@ const packages = [
   {
     name: 'Gold',
     price: '1.25x Points',
-    description: 'Unlocked after AED 10,000 in lifetime bookings.',
+    description: 'Reached as your lifetime booking value grows.',
     features: [
       'Earn 1.25 points per AED spent',
       'Complimentary chef upgrade on select bookings',
@@ -77,7 +77,7 @@ const packages = [
   {
     name: 'Platinum',
     price: '1.5x Points',
-    description: 'Unlocked after AED 30,000 in lifetime bookings.',
+    description: 'Reached after consistent bookings across the year.',
     features: [
       'Earn 1.5 points per AED spent',
       'Dedicated concierge support',
@@ -103,7 +103,7 @@ const faqs = [
   },
   {
     q: 'How do tiers work?',
-    a: 'Tiers are based on your lifetime spend with myCHEF Dubai. Silver starts from your first booking, Gold unlocks at AED 10,000, and Platinum unlocks at AED 30,000. Once reached, tiers are reviewed annually.',
+    a: 'Tiers are based on your lifetime spend with myCHEF Dubai. Silver starts from your first booking, while Gold and Platinum unlock as your lifetime spend crosses higher thresholds. Once reached, tiers are reviewed annually.',
   },
   {
     q: 'Can I transfer points?',
@@ -250,13 +250,13 @@ export default function LoyaltyProgramme() {
           </h2>
           <div className="lp-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              At myCHEF Dubai, we believe exceptional dining should be rewarded. Our loyalty programme recognises every booking you make — whether it is a weekly meal-prep arrangement, a private chef dinner, or a full-scale celebration — and turns your spend into meaningful benefits.
+              Join the myCHEF Dubai loyalty programme and turn every private chef dinner, catering event, and weekly meal-prep plan into credits, complimentary upgrades, and member-only experiences. Tell us how you like to dine and our concierge team will enrol you and match you with a vetted chef within 24 hours.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              As you move through Silver, Gold and Platinum tiers, you unlock higher points multipliers, complimentary upgrades, priority booking windows, and invitations to member-only experiences. There are no hidden fees or complicated rules: just dine well, earn more, and enjoy the perks.
+              As you move through Silver, Gold and Platinum tiers, you unlock higher points multipliers, priority booking windows, and invitations to exclusive tastings and previews. There are no hidden fees or complicated rules: just dine well, earn more, and enjoy the perks.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              Combine loyalty rewards with our <Link to="/referral-programme" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">referral programme</Link> for even faster earnings, or explore <Link to="/mychef-membership" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">MyChef Membership</Link> for standing reservations and fixed pricing.
+              Combine loyalty rewards with our <Link to="/referral-programme" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">referral programme</Link> for even faster earnings, or explore <Link to="/mychef-membership" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">MyChef Membership</Link> for standing reservations and a dedicated account manager.
             </p>
           </div>
         </div>

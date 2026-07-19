@@ -251,7 +251,7 @@ export default function MyChefCertified() {
           </h2>
           <div className="mc-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              MyChef Certified is not a badge we hand out lightly. It is the result of a structured vetting process designed to give Dubai households confidence in every chef we send to their home, villa, or yacht.
+              MyChef Certified means every chef we send to your home, villa, or yacht in Dubai has passed in-person auditions, background checks, food-safety verification, and halal-competency screening. Tell us about your event and we will match you with a vetted chef within 24 hours.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               From the first tasting to the final reference check, we look for chefs who combine technical skill with professionalism, discretion, and respect for the dietary and cultural expectations that matter in this city.
@@ -337,6 +337,9 @@ export default function MyChefCertified() {
               </div>
             ))}
           </div>
+          <p className="font-inter text-body-sm text-gray-400 text-center mt-8 max-w-[600px] mx-auto">
+            Certification scope and timeline are tailored to each chef's experience. Final details confirmed after application review.
+          </p>
         </div>
       </section>
 

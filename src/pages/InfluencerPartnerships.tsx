@@ -223,7 +223,7 @@ export default function InfluencerPartnerships() {
             Influencer Partnerships
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 ip-hero-sub">
-            Create unforgettable content with myCHEF Dubai. We collaborate with food, lifestyle, and luxury creators for private chef experiences and exclusive events.
+            Tell us about your audience and content goals, and our partnerships team will reply within 24 hours with a tailored collaboration proposal — from a single private chef experience to an ongoing ambassador arrangement.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 ip-hero-cta">Discuss a Partnership</Link>
@@ -251,7 +251,7 @@ export default function InfluencerPartnerships() {
           </h2>
           <div className="ip-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              MyCHEF Dubai works with creators who appreciate exceptional food, beautiful presentation, and one-of-a-kind experiences. Whether you are filming a tasting menu reveal, hosting a giveaway, or documenting a luxury villa dinner, we design the experience around your content goals.
+              MyCHEF Dubai partners with food, lifestyle, and luxury creators who want exceptional food and shareable moments for their audience. Tell us about your content goals and follower profile, and we will match you with a vetted private chef and a collaboration plan that fits your brand.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               Our partnerships team handles menu curation, chef matching, styling, shoot timing, and usage rights. You bring your voice and audience; we bring the culinary production value that makes every post stand out.
@@ -337,6 +337,9 @@ export default function InfluencerPartnerships() {
               </div>
             ))}
           </div>
+          <p className="font-inter text-body-sm text-gray-400 text-center mt-8 max-w-[600px] mx-auto">
+            Final collaboration terms are tailored to your audience size, content scope, and event requirements.
+          </p>
         </div>
       </section>
 

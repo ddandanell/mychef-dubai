@@ -6,7 +6,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 gsap.registerPlugin(ScrollTrigger)
 
 const WHATSAPP_NUMBER = '971551744849'
-const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to request a proposal (via mychef.ae)')
+const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to request a proposal (via mychef.ae/)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 export default function CTASection() {
@@ -52,13 +52,13 @@ export default function CTASection() {
 
           {/* Subtitle */}
           <p className="font-inter text-lg text-gray-400 max-w-[500px] mx-auto mb-10">
-            Tell us about your event. We will design a bespoke proposal tailored to your vision.
+            Tell us about your event. We will match you with a vetted chef and send a tailored proposal within 24 hours.
           </p>
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=home" className="btn-primary focus-visible:ring-offset-[#1A1A1A]">
-              Request a Proposal
+              Plan My Event
             </Link>
             <a
               href={WHATSAPP_LINK}

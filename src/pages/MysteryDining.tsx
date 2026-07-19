@@ -223,10 +223,10 @@ export default function MysteryDining() {
             Mystery Dining Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 md-hero-sub">
-            Tell us what you love, then let go. A myCHEF Dubai chef designs a surprise menu around your tastes, delivered as an unforgettable private dining experience.
+            Tell us what excites your palate and any dietary boundaries. We will match you with a vetted private chef who designs a surprise menu around your tastes, delivered in your home, apartment, or villa within 24 hours.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 md-hero-cta">Book Mystery Dining</Link>
+            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 md-hero-cta">Plan My Mystery Dinner</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -251,13 +251,13 @@ export default function MysteryDining() {
           </h2>
           <div className="md-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Mystery dining is for people who love food but are tired of choosing every course. You tell us what excites your palate — and what must stay off the plate — and we hand the creative control to a private chef who designs a surprise menu just for you.
+              Tell us about your event and we will match you with a vetted private chef within 24 hours. You share what excites your palate and what must stay off the plate; the chef designs a surprise menu around those boundaries so every course lands as a discovery.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              The result is a relaxed, conversational dinner where each course arrives as a discovery. It works equally well for romantic date nights, small group celebrations, and curious diners who want a tasting-menu experience without leaving their home or villa.
+              The result is a relaxed, conversational dinner where guests arrive curious and leave impressed. It works equally well for romantic date nights, small group celebrations, and diners who want a tasting-menu experience without leaving their home or villa.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              Browse <Link to="/romantic-dinner-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">romantic dinners</Link>, <Link to="/tasting-menu-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">tasting menus</Link>, or <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef service</Link> for more bespoke dining options.
+              Browse <Link to="/romantic-dinner-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">romantic dinners</Link> or <Link to="/tasting-menu-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">tasting menus</Link> for more bespoke dining options.
             </p>
           </div>
         </div>
@@ -314,7 +314,10 @@ export default function MysteryDining() {
                   </span>
                 )}
                 <h3 className="font-playfair text-h3 mb-2">{pkg.name}</h3>
-                <p className="font-playfair text-2xl font-semibold text-gold mb-2">{pkg.price}</p>
+                <p className="font-playfair text-2xl font-semibold text-gold mb-1">{pkg.price}</p>
+                <p className="font-inter text-body-sm text-gray-400 mb-6 leading-relaxed">
+                  Final quote tailored to your event.
+                </p>
                 <p className="font-inter text-body-sm text-gray-400 mb-6 leading-relaxed">
                   {pkg.description}
                 </p>
@@ -326,14 +329,12 @@ export default function MysteryDining() {
                     </li>
                   ))}
                 </ul>
-                <a
-                  href={WHATSAPP_LINK}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <Link
+                  to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`}
                   className="block text-center w-full py-3 font-inter text-sm uppercase tracking-wider bg-gold text-black hover:bg-gold-light transition-colors"
                 >
-                  Enquire
-                </a>
+                  Get Your Quote
+                </Link>
               </div>
             ))}
           </div>
@@ -415,10 +416,10 @@ export default function MysteryDining() {
             Let the Chef Surprise You
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Share your tastes, set your boundaries, and leave the creativity to us. A surprise menu tailored to you is only an enquiry away.
+            Share your tastes, set your boundaries, and leave the creativity to us. A surprise menu tailored to you is only an enquiry away — response within 24 hours.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Book Mystery Dining</Link>
+            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Plan My Mystery Dinner</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

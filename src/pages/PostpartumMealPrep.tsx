@@ -212,7 +212,7 @@ export default function PostpartumMealPrep() {
               className="btn-secondary opacity-0 translate-y-4 ppm-hero-cta"
             >
               <Phone size={16} className="mr-2" />
-              Chat on WhatsApp
+              WhatsApp About Postpartum Meals
             </a>
           </div>
         </div>
@@ -229,13 +229,13 @@ export default function PostpartumMealPrep() {
           </h2>
           <div className="ppm-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              The weeks after birth are demanding. Sleep is scarce, routines are new, and nutrition often becomes an afterthought — yet it is precisely when the body needs steady, wholesome support. Our postpartum meal prep service gives new mothers in Dubai one less thing to worry about.
+              The weeks after birth are demanding. Sleep is scarce, routines are new, and nutrition often becomes an afterthought — yet it is precisely when the body needs steady, wholesome support. Tell us about your household and we will match you with a vetted chef who prepares postpartum recovery meals in your own kitchen, usually within 24 hours.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              A private chef visits your home, prepares multiple days of recovery-focused meals, portions them for easy reheating, and leaves your kitchen clean. Menus are built around nutrient density, warmth, digestibility, and the cultural foods that feel like home.
+              A private chef visits your home, prepares multiple days of recovery-focused meals, portions them for easy reheating, and leaves your kitchen clean. If your needs continue beyond the fourth trimester, our <Link to="/weekly-meal-prep-dubai" className="text-gold hover:underline">weekly meal prep</Link> service can keep your household fed without the daily effort.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              We do not provide medical advice, but we do listen carefully to your preferences, your doctor or nutritionist\'s guidance, and the traditions that matter to your family.
+              We do not provide medical advice, but we do listen carefully to your preferences, your doctor or nutritionist&apos;s guidance, and the traditions that matter to your family. For ongoing health and fitness goals, our <Link to="/wellness-meal-prep-dubai" className="text-gold hover:underline">wellness meal prep</Link> programmes offer nutritionist-aligned support.
             </p>
           </div>
         </div>
@@ -292,7 +292,7 @@ export default function PostpartumMealPrep() {
 
           <div className="mt-10 bg-charcoal p-8 border-l-4 border-gold">
             <p className="font-inter text-body text-gray-400 leading-relaxed">
-              <strong className="text-white">Pricing guide:</strong> Postpartum meal prep typically ranges from AED 1,500–2,500 per week depending on visit frequency, portion count, and menu complexity. We provide a fixed quote after a brief consultation.
+              <strong className="text-white">Pricing guide:</strong> Postpartum meal prep starts from AED 1,500 per week. Final quote tailored to your household based on visit frequency, portion count, and menu complexity — we provide a fixed quote after a brief consultation.
             </p>
           </div>
         </div>
@@ -376,7 +376,7 @@ export default function PostpartumMealPrep() {
             Book a postpartum meal prep consultation and give yourself or a loved one the gift of warm, recovery-focused meals at home.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Plan My Meals</Link>
+            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Plan My Postpartum Meals</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -384,7 +384,7 @@ export default function PostpartumMealPrep() {
               className="btn-secondary"
             >
               <Phone size={16} className="mr-2" />
-              Chat on WhatsApp
+              WhatsApp About Postpartum Meals
             </a>
           </div>
         </div>

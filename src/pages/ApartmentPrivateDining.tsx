@@ -51,19 +51,19 @@ const features = [
 const menus = [
   {
     title: 'Date Night for Two',
-    description: '3–4 courses with candlelit presentation. AED 296–482 per person.',
+    description: '3–4 courses with candlelit presentation. From AED 296 per person — final quote tailored to your menu.',
   },
   {
     title: 'Dinner with Friends',
-    description: 'Shared plates and family-style service for 4–6 guests. AED 250–400 per person.',
+    description: 'Shared plates and family-style service for 4–6 guests. From AED 250 per person — final quote tailored to your event.',
   },
   {
     title: 'Celebration Menu',
-    description: '4–5 courses with dessert and celebration touches for birthdays and anniversaries. AED 300–500 per person.',
+    description: '4–5 courses with dessert and celebration touches for birthdays and anniversaries. From AED 300 per person — final quote tailored to your event.',
   },
   {
     title: 'Tasting Menu',
-    description: '5–7 courses for guests who want a refined, restaurant-style progression. AED 450–800 per person.',
+    description: '5–7 courses for guests who want a refined, restaurant-style progression. From AED 450 per person — final quote tailored to your event.',
   },
 ]
 
@@ -82,7 +82,7 @@ const faqs = [
   },
   {
     q: 'Is there a minimum spend?',
-    a: 'Most apartment private dinners start from AED 1,200–1,500 total for two guests, depending on menu and cuisine. We provide a fixed quote before booking.',
+    a: 'Most apartment private dinners start from AED 1,200 total for two guests, depending on menu and cuisine. We provide a fixed, tailored quote before booking.',
   },
   {
     q: 'Can the chef cater to dietary requirements?',
@@ -203,7 +203,7 @@ export default function ApartmentPrivateDining() {
             Restaurant-quality multi-course dining for 2–8 guests, prepared in your own kitchen. No reservations, no travel, no compromise.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 apd-hero-cta">Book Apartment Dining</Link>
+            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 apd-hero-cta">Get a Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -227,7 +227,7 @@ export default function ApartmentPrivateDining() {
           </h2>
           <div className="apd-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Dubai Marina, Downtown, JBR, Business Bay, and DIFC are filled with young professionals and couples who love great food but do not always want the restaurant experience. Apartment private dining brings the chef to you — turning your dining table into the best table in town.
+              Tell us about your apartment location, guest count, and occasion. We will match you with a vetted private chef within 24 hours and send a tailored, no-obligation quote — then you simply arrive at your dining table while the chef handles shopping, cooking, serving, and cleanup. Dubai Marina, Downtown, JBR, Business Bay, and DIFC apartments are ideal for this intimate format.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               Our chefs are selected for their ability to work beautifully in compact spaces. They arrive with ingredients, prepare a multi-course menu, serve with care, and leave your kitchen spotless. All you need is a table, chairs, and good company.
@@ -363,7 +363,7 @@ export default function ApartmentPrivateDining() {
             Tell us your apartment location, guest count, and occasion. We will match you with a chef who turns your home into the best dining room in Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Book Apartment Dining</Link>
+            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Request Apartment Dining</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
