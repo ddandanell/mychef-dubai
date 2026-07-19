@@ -9,7 +9,8 @@ export function organizationSchema() {
     name: SITE_NAME,
     url: SITE_URL,
     logo: LOGO_URL,
-    description: 'Premium private chef and luxury catering coordination in Dubai.',
+    description:
+      'Premium private-dining and event design in Dubai. We design bespoke culinary experiences and connect clients with vetted, licensed independent chefs and catering partners.',
     // sameAs: add verified social profile URLs here once accounts are live
     // (Instagram, Facebook, LinkedIn, TikTok, Pinterest, Google Business Profile)
     contactPoint: {
@@ -23,6 +24,39 @@ export function organizationSchema() {
   }
 }
 
+export function professionalServiceSchema() {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'ProfessionalService',
+    '@id': `${SITE_URL}/#business`,
+    name: SITE_NAME,
+    description:
+      'Premium private-dining and event design in Dubai. We design bespoke culinary experiences and connect clients with vetted, licensed independent chefs and catering partners. Culinary preparation is performed by those licensed third parties.',
+    url: SITE_URL,
+    logo: LOGO_URL,
+    image: `${SITE_URL}/images/home-hero.webp`,
+    telephone: '+971-55-174-4849',
+    email: 'hallo@mychef.ae',
+    priceRange: '$$$$',
+    currenciesAccepted: 'AED',
+    areaServed: { '@type': 'City', name: 'Dubai' },
+    address: {
+      '@type': 'PostalAddress',
+      addressLocality: 'Dubai',
+      addressCountry: 'AE',
+    },
+    knowsLanguage: ['en', 'ar'],
+    slogan: 'One conversation. One plan. One standard. One unforgettable experience.',
+    contactPoint: {
+      '@type': 'ContactPoint',
+      contactType: 'customer service',
+      telephone: '+971-55-174-4849',
+      email: 'hallo@mychef.ae',
+      availableLanguage: ['English', 'Arabic'],
+    },
+  }
+}
+
 export function localBusinessSchema() {
   return {
     '@context': 'https://schema.org',
@@ -30,7 +64,8 @@ export function localBusinessSchema() {
     name: SITE_NAME,
     url: SITE_URL,
     logo: LOGO_URL,
-    description: 'Premium private chef and luxury catering coordination in Dubai.',
+    description:
+      'Premium private-dining and event design in Dubai. We design bespoke culinary experiences and connect clients with vetted, licensed independent chefs and catering partners.',
     address: {
       '@type': 'PostalAddress',
       addressLocality: 'Dubai',

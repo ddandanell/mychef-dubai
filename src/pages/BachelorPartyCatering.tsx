@@ -173,7 +173,7 @@ const serviceObj = {
   name: 'Bachelor Party Catering Dubai',
   serviceType: 'Bachelor Party Catering',
   provider: {
-    '@type': 'ProfessionalService',
+    '@type': 'Organization',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',

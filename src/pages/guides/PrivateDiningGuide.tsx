@@ -192,7 +192,7 @@ const serviceSchema = {
   name: 'Private Dining Dubai',
   serviceType: 'Private Dining and Private Chef Service',
   provider: {
-    '@type': 'ProfessionalService',
+    '@type': 'Organization',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',

@@ -208,7 +208,7 @@ const serviceSchema = {
   name: 'Private Chef & Dining Experience Gift Cards Dubai',
   serviceType: 'Gift Voucher Service',
   provider: {
-    '@type': 'ProfessionalService',
+    '@type': 'Organization',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',

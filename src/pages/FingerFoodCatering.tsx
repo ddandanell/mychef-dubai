@@ -184,7 +184,7 @@ const serviceSchema = {
   name: 'Finger Food Catering Dubai',
   serviceType: 'Catering Service',
   provider: {
-    '@type': 'ProfessionalService',
+    '@type': 'Organization',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',

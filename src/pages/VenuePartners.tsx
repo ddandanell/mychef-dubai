@@ -5,7 +5,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { Anchor, Building2, Hotel, Briefcase } from 'lucide-react'
 import SEO from '@/components/SEO'
 import PageHero from '@/components/PageHero'
-import { breadcrumbSchema, organizationSchema, localBusinessSchema } from '@/utils/schema'
+import { breadcrumbSchema, organizationSchema } from '@/utils/schema'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -123,7 +123,6 @@ const schema = {
   '@graph': [
     breadcrumbSchema(breadcrumbs),
     organizationSchema(),
-    localBusinessSchema(),
   ],
 }
 

@@ -173,7 +173,7 @@ const serviceObj = {
   name: 'Anniversary Dinner Catering Dubai',
   serviceType: 'Anniversary Dinner Catering',
   provider: {
-    '@type': 'ProfessionalService',
+    '@type': 'Organization',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',

@@ -180,7 +180,7 @@ const serviceSchema = {
   name: 'Luxury Catering Case Studies Dubai',
   serviceType: 'Catering Portfolio and Event Planning Service',
   provider: {
-    '@type': 'ProfessionalService',
+    '@type': 'Organization',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',
