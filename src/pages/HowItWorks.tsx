@@ -117,7 +117,7 @@ export default function HowItWorks() {
       {/* Section 1: Hero */}
       <PageHero
         eyebrow="THE EXPERIENCE"
-        title="<>Simple. Seamless.<br />Extraordinary.</>"
+        title={<>Simple. Seamless.<br />Extraordinary.</>}
         subtitle="From your first message to the final course — every step is designed and coordinated with care."
         image="/images/how-it-works-dubai-hero.webp"
         imageAlt="How myCHEF works"

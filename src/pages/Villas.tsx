@@ -194,7 +194,7 @@ export default function Villas() {
       {/* Section 1: Hero */}
       <PageHero
         eyebrow="VILLA CHEF SERVICES"
-        title="<>Villa Private Chef<br />Dubai</>"
+        title={<>Villa Private Chef<br />Dubai</>}
         subtitle="An experienced private chef in your Dubai villa. From one-night dinners to full-time residential chef services — experience exceptional dining without leaving home."
         image="/images/villa-catering-dubai-hero.webp"
         imageAlt="Villa private chef in Dubai"
