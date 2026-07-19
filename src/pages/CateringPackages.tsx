@@ -8,6 +8,7 @@ import SEO from '../components/SEO'
 import PageHero from '../components/PageHero'
 import StarterPackagesSection from '../sections/StarterPackagesSection'
 import TrustSignalStrip from '../components/TrustSignalStrip'
+import VIPPromoSection from '../components/VIPPromoSection'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -183,6 +184,8 @@ export default function CateringPackages() {
           </div>
         </div>
       </section>
+
+      <VIPPromoSection campaign="catering-packages-dubai" variant="dark" />
 
       {/* ═══════════════ Related Links ═══════════════ */}
       <section className="bg-white section-padding">

@@ -19,6 +19,7 @@ import {
   ArrowRight,
 } from 'lucide-react'
 import SEO from '../components/SEO'
+import VIPPromoSection from '../components/VIPPromoSection'
 import { breadcrumbSchema, faqPageSchema, serviceSchema } from '../utils/schema'
 
 gsap.registerPlugin(ScrollTrigger)
@@ -437,6 +438,8 @@ export default function WeeklyMealPrep() {
           </p>
         </div>
       </section>
+
+      <VIPPromoSection campaign="weekly-meal-prep-dubai" variant="light" />
 
       {/* ═══════════════ Section 5: Benefits ═══════════════ */}
       <section className="bg-white section-padding">
