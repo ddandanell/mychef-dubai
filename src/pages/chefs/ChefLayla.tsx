@@ -4,6 +4,7 @@ const chef: ChefProfileData = {
   slug: '/chefs/layla-middle-eastern-chef',
   name: 'Layla Hassan',
   title: 'Middle Eastern Chef',
+  partnerLabel: 'Independent partner chef',
   experience: '14+ Years',
   cuisine: 'Middle Eastern & Arabic',
   image: '/images/arabic-catering-dubai-hero.webp',
@@ -52,7 +53,7 @@ const chef: ChefProfileData = {
     },
   ],
   certifications: [
-    'HACCP Level 3 Certified',
+    'Food-safety certified (partner-held)',
     'Dubai Municipality Food Safety Certification',
     'Halal Preparation Standards',
   ],
