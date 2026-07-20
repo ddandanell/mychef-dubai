@@ -52,7 +52,7 @@ export default function CTASection() {
 
           {/* Subtitle */}
           <p className="font-inter text-lg text-gray-400 max-w-[500px] mx-auto mb-10">
-            Tell us about your event. We will match you with a vetted chef and send a tailored proposal within 24 hours.
+            Tell us about your event. We reply within 15 minutes during business hours, then match you with a vetted chef and send a tailored proposal.
           </p>
 
           {/* CTA Buttons */}
