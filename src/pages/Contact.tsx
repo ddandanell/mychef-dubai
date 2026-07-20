@@ -43,11 +43,11 @@ const contactCards = [
 const trustItems = [
   'Bespoke menus designed for every client',
   'Premium ingredients sourced daily',
-  'Experienced, professional chefs',
+  'Vetted, experienced chefs in our network',
   'Full service including setup and cleanup',
   'Available across all Dubai locations',
   'Discreet, confidential service',
-  'Fully insured and licensed',
+  'Booking protection & insurance',
 ]
 
 const serviceAreas = [
@@ -127,7 +127,7 @@ export default function Contact() {
     <div ref={containerRef}>
       <SEO
         title="Contact Us"
-        description="Get in touch with myCHEF Dubai. Request a custom quote for private chef services, luxury catering, or bespoke dining experiences across Dubai. WhatsApp available."
+        description="Get in touch with myCHEF Dubai. Request a custom quote for private chef services, luxury catering, or bespoke dining experiences across Dubai. We reply within 15 minutes during business hours."
         canonicalPath="/contact"
         ogImage="/images/contact-hero.webp"
         schema={breadcrumbSchema}

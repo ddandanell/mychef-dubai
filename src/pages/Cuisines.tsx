@@ -244,7 +244,7 @@ export default function Cuisines() {
       <PageHero
         eyebrow="World Flavours, Dubai Style"
         title="Catering by Cuisine in Dubai"
-        subtitle="From Italian trattoria classics and Arabic mezze to Asian tasting menus and plant-forward dishes — choose a cuisine and we’ll match you with a private chef or catering team that cooks it authentically."
+        subtitle="From Italian trattoria classics and Arabic mezze to Asian tasting menus and plant-forward dishes — choose a cuisine and we’ll match you with a private chef or catering team. We reply within 15 minutes during business hours."
         image="/images/cuisines-hub-dubai-hero.webp"
         imageAlt="International catering cuisines prepared by private chefs in Dubai"
         cta={{ label: 'Request a Custom Menu', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=cuisines' }}

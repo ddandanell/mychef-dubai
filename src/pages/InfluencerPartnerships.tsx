@@ -224,7 +224,7 @@ export default function InfluencerPartnerships() {
             Influencer Partnerships
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 ip-hero-sub">
-            Tell us about your audience and content goals, and our partnerships team will reply within 24 hours with a tailored collaboration proposal — from a single private chef experience to an ongoing ambassador arrangement.
+            Tell us about your audience and content goals, and our partnerships team will reply within 15 minutes during business hours with a tailored collaboration proposal — from a single private chef experience to an ongoing ambassador arrangement.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 ip-hero-cta">Discuss a Partnership</Link>

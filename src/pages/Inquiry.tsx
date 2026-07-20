@@ -20,14 +20,14 @@ const breadcrumbs = [
 
 const valueBullets = [
   'Custom menu designed around your event',
-  'Transparent AED pricing guidance',
+  'Vetted, licensed chefs matched to your occasion',
   'Reply within 15 minutes during business hours',
 ]
 
 const trustBadges = [
   'Reply within 15 minutes during business hours',
   'No obligation quote',
-  'Fully insured service',
+  'Booking protection & insurance',
   'Discreet & professional',
 ]
 
@@ -192,9 +192,9 @@ export default function Inquiry() {
                 {/* Steps */}
                 <div className="flex flex-col gap-6 mb-8">
                   {[
-                    { title: 'We Review Your Request', desc: 'Within 15 minutes during business hours, the chefs in our network review your details.' },
-                    { title: 'We Create Your Proposal', desc: 'A bespoke menu and quote tailored to your event.' },
-                    { title: 'You Confirm & Relax', desc: 'Once confirmed, we design and manage the experience.' },
+                    { title: 'We Review Your Request', desc: 'Within 15 minutes during business hours, a coordinator reviews your details and matches you with a vetted chef.' },
+                    { title: 'We Create Your Proposal', desc: 'A bespoke menu and indicative quote tailored to your event.' },
+                    { title: 'You Confirm & Relax', desc: 'Once confirmed, we coordinate every detail so you can be a guest at your own event.' },
                   ].map((item, i) => (
                     <div key={item.title} className="flex gap-4">
                       <div className="w-8 h-8 rounded-full bg-gold flex items-center justify-center flex-shrink-0">

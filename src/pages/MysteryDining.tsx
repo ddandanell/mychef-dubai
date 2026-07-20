@@ -419,7 +419,7 @@ export default function MysteryDining() {
             Let the Chef Surprise You
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Share your tastes, set your boundaries, and leave the creativity to us. A surprise menu tailored to you is only an enquiry away — response within 24 hours.
+            Share your tastes, set your boundaries, and leave the creativity to us. A surprise menu tailored to you is only an enquiry away — we reply within 15 minutes during business hours.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Plan My Mystery Dinner</Link>

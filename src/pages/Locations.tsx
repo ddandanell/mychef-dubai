@@ -76,11 +76,13 @@ export default function Locations() {
       {/* Hero */}
       <PageHero
         eyebrow="Dubai Coverage"
-        title="We Serve All of Dubai"
-        subtitle="From Palm Jumeirah to Downtown, Emirates Hills to Dubai Marina — we bring premium dining to your doorstep."
+        title="Private Chef & Catering Across Dubai"
+        subtitle="From Palm Jumeirah to Downtown, Emirates Hills to Dubai Marina — we bring premium dining to your doorstep. We reply within 15 minutes during business hours."
         image="/images/locations-dubai-hero.webp"
         imageAlt="Map of Dubai locations served by myCHEF"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Locations' }]}
+        cta={{ label: 'Request a Custom Quote', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=locations' }}
+        secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         minHeight="medium"
         overlay="dark"
       />
@@ -162,7 +164,7 @@ export default function Locations() {
             </a>
           </div>
           <p className="mt-6 text-gray-400 text-sm">
-            We reply to every inquiry within 24 hours. No commitment required.
+            We reply within 15 minutes during business hours. No commitment required.
           </p>
         </div>
       </section>
