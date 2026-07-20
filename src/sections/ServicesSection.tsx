@@ -16,7 +16,7 @@ const services = [
   {
     image: '/images/catering-dubai-hero.webp',
     title: 'Catering Dubai',
-    description: 'Plated dinners to grand buffets, for events of any size — designed with you, delivered by Dubai\'s finest licensed caterers you engage through us.',
+    description: 'Plated dinners to grand buffets, for events of any size — designed with you and delivered by experienced, licensed caterers you engage through us.',
     link: '/catering-dubai',
   },
   {

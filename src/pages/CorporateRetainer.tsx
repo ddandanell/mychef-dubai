@@ -428,7 +428,7 @@ export default function CorporateRetainer() {
             Set Up Your Corporate Retainer
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Tell us about your monthly catering rhythm and we will design a retainer plan that saves time, controls spend, and guarantees quality.
+            Tell us about your monthly catering rhythm and we will design a retainer plan that saves time, controls spend, and delivers consistent quality.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Request Retainer Info</Link>

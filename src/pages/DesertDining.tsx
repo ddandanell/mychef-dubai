@@ -169,7 +169,7 @@ const config: OccasionPageConfig = {
   ],
   ctaH2: 'Plan a Desert Dining Experience',
   ctaP:
-    'Tell us about your camp, group size and vision. We will design a Bedouin-inspired menu and service plan that makes the dunes feel like the finest dining room in Dubai.',
+    'Tell us about your camp, group size and vision. We will design a Bedouin-inspired menu and service plan that makes the dunes feel like an unforgettable private dining room.',
   showTrustSignalStrip: true,
 }
 

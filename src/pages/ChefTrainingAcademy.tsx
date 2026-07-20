@@ -224,7 +224,7 @@ export default function ChefTrainingAcademy() {
             Chef Training Academy
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 ct-hero-sub">
-            A practical academy for chefs who want to excel in private dining. Learn the standards that make myCHEF Dubai chefs trusted in the city's finest homes.
+            A practical academy for chefs who want to excel in private dining. Learn the standards that make myCHEF Dubai chefs trusted in the city&apos;s most distinguished homes.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 ct-hero-cta">Apply to the Academy</Link>

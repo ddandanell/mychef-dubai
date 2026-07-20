@@ -95,7 +95,7 @@ export default function Inquiry() {
     <>
       <SEO
         title="Request a Quote | Private Chef & Catering Dubai | myCHEF Dubai"
-        description="Request a custom quote for private chef services or luxury catering in Dubai. We respond within 2 hours with a bespoke proposal tailored to your event."
+        description="Request a custom quote for private chef services or luxury catering in Dubai. We typically respond within 15 minutes with a bespoke proposal tailored to your event."
         canonicalPath="/inquiry"
         ogImage="/service-catering.webp"
         schema={breadcrumbSchema(breadcrumbs) as unknown as Record<string, unknown>}
