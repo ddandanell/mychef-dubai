@@ -13,23 +13,28 @@ const StickyMobileCTA = memo(function StickyMobileCTA() {
       style={{ paddingBottom: 'env(safe-area-inset-bottom)' }}
       aria-label="Mobile call-to-action"
     >
-      <div className="flex items-center min-h-16 px-4 gap-3 py-2">
-        <Link
-          to="/inquiry?utm_source=mychef.ae&utm_medium=sticky_bar&utm_campaign=mobile"
-          className="btn-primary flex-1 min-h-12 px-4 text-xs uppercase tracking-wider"
-        >
-          <FileText size={16} className="mr-2 shrink-0" />
-          Request a Proposal
-        </Link>
-        <a
-          href={WHATSAPP_LINK}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="btn-secondary flex-1 min-h-12 px-4 text-xs uppercase tracking-wider"
-        >
-          <Phone size={16} className="mr-2 shrink-0" />
-          Chat on WhatsApp
-        </a>
+      <div className="flex flex-col px-4 py-2">
+        <div className="flex items-center min-h-16 gap-3">
+          <Link
+            to="/inquiry?utm_source=mychef.ae&utm_medium=sticky_bar&utm_campaign=mobile"
+            className="btn-primary flex-1 min-h-12 px-4 text-xs uppercase tracking-wider"
+          >
+            <FileText size={16} className="mr-2 shrink-0" />
+            Get a Quote
+          </Link>
+          <a
+            href={WHATSAPP_LINK}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-secondary flex-1 min-h-12 px-4 text-xs uppercase tracking-wider"
+          >
+            <Phone size={16} className="mr-2 shrink-0" />
+            Chat on WhatsApp
+          </a>
+        </div>
+        <p className="text-center font-inter text-[10px] uppercase tracking-wider text-gray-400 mt-1 mb-1">
+          Typical reply within 15 min · No obligation
+        </p>
       </div>
     </div>
   )

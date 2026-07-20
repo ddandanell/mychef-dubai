@@ -21,11 +21,11 @@ const breadcrumbs = [
 const valueBullets = [
   'Custom menu designed around your event',
   'Transparent AED pricing guidance',
-  'Same-day WhatsApp response',
+  'Reply within 15 minutes during business hours',
 ]
 
 const trustBadges = [
-  'Response within 2 hours',
+  'Reply within 15 minutes during business hours',
   'No obligation quote',
   'Fully insured service',
   'Discreet & professional',
@@ -124,14 +124,15 @@ export default function Inquiry() {
           >
             <span className="word inline-block">Get</span>{' '}
             <span className="word inline-block">Your</span>{' '}
-            <span className="word inline-block">Bespoke</span>
+            <span className="word inline-block">Free,</span>{' '}
+            <span className="word inline-block">Tailored</span>
             <br className="hidden sm:block" />
             <span className="word inline-block">Quote</span>{' '}
             <span className="word inline-block">on</span>{' '}
             <span className="word inline-block">WhatsApp</span>
           </h1>
           <p ref={heroSubRef} className="font-inter text-lg text-gray-400 max-w-[600px] mx-auto">
-            Tell us what you are planning and we will reply with menu ideas and indicative pricing within 2 hours.
+            Tell us what you are planning and we will reply with menu ideas and indicative pricing. Most requests get a response within 15 minutes during business hours.
           </p>
         </div>
       </section>
@@ -143,10 +144,10 @@ export default function Inquiry() {
             {/* Left Column — WhatsApp CTA */}
             <div ref={ctaRef}>
               <h2 className="font-playfair text-fluid-h3 text-black mb-4">
-                Request My Quote on WhatsApp
+                Get Your Tailored Quote on WhatsApp
               </h2>
               <p className="font-inter text-body text-gray-500 mb-8">
-                Tap the button below to start a WhatsApp chat. A coordinator will review your event and send a tailored proposal.
+                Tap the button below to start a WhatsApp chat. A coordinator will review your event and send a tailored proposal fast.
               </p>
 
               <ul className="flex flex-col gap-4 mb-8">
@@ -165,8 +166,13 @@ export default function Inquiry() {
                 className="btn-primary inline-flex items-center gap-2 focus-visible:ring-offset-white"
               >
                 <Phone size={18} aria-hidden="true" />
-                Request My Quote on WhatsApp
+                Get My Free Quote on WhatsApp
               </a>
+
+              <p className="font-inter text-body-sm text-gray-600 mt-4 flex items-center gap-2">
+                <Check size={16} className="text-gold flex-shrink-0" aria-hidden="true" />
+                We reply within 15 minutes during business hours
+              </p>
 
               <p className="font-inter text-body-sm text-gray-500 mt-6">
                 Prefer email?{' '}
@@ -186,7 +192,7 @@ export default function Inquiry() {
                 {/* Steps */}
                 <div className="flex flex-col gap-6 mb-8">
                   {[
-                    { title: 'We Review Your Request', desc: 'Within 2 hours, the chefs in our network review your details.' },
+                    { title: 'We Review Your Request', desc: 'Within 15 minutes during business hours, the chefs in our network review your details.' },
                     { title: 'We Create Your Proposal', desc: 'A bespoke menu and quote tailored to your event.' },
                     { title: 'You Confirm & Relax', desc: 'Once confirmed, we design and manage the experience.' },
                   ].map((item, i) => (

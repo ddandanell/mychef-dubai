@@ -16,6 +16,7 @@ import {
   Check,
 } from 'lucide-react'
 import SEO from '../../components/SEO'
+import TrustSignalStrip from '../../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -260,6 +261,8 @@ export default function DubaiFoodTrendsReport2026() {
           </div>
         </div>
       </section>
+
+      <TrustSignalStrip />
 
       {/* ═══════════════ Introduction ═══════════════ */}
       <section className="bg-white section-padding">

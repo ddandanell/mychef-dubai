@@ -7,6 +7,7 @@ import { Phone } from 'lucide-react'
 import SEO from '../../components/SEO'
 import PageHero from '../../components/PageHero'
 import BlogRelated from '../../components/BlogRelated'
+import TrustSignalStrip from '../../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -14,7 +15,7 @@ const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I read your yacht party menu ideas blog and would like a custom yacht menu (via mychef.ae/blog/yacht-party-menu-ideas-dubai)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
-const CTA_HREF = '/inquiry?utm_source=mychef.ae&utm_medium=blog_cta&utm_campaign=yacht-party-menu-ideas-dubai'
+const CTA_HREF = '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=yacht-party-menu-ideas-dubai'
 const SLUG = 'yacht-party-menu-ideas-dubai'
 
 const articleSchema = {
@@ -80,6 +81,8 @@ export default function YachtPartyMenuIdeas() {
         minHeight="tall"
         overlay="dark"
       />
+
+      <TrustSignalStrip />
 
       {/* ═══════════════ Article ═══════════════ */}
       <article className="bg-white section-padding">

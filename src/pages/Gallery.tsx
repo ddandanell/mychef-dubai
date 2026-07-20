@@ -4,6 +4,7 @@ import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import SEO from '@/components/SEO'
 import PageHero from '@/components/PageHero'
+import TrustSignalStrip from '@/components/TrustSignalStrip'
 import { breadcrumbSchema } from '@/utils/schema'
 
 gsap.registerPlugin(ScrollTrigger)
@@ -264,6 +265,8 @@ export default function Gallery() {
         image="/images/events-catering-dubai-hero.webp"
         imageAlt="Luxury event gallery — private chef dubai"
       />
+
+      <TrustSignalStrip />
 
       {/* Intro */}
       <section ref={introRef} className="bg-black section-padding">

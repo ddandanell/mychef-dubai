@@ -19,6 +19,7 @@ import {
   PartyPopper,
 } from 'lucide-react'
 import SEO from '../components/SEO'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -357,6 +358,8 @@ export default function CaseStudies() {
           </div>
         </div>
       </section>
+
+      <TrustSignalStrip />
 
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">

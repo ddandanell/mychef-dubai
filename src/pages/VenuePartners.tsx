@@ -5,6 +5,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { Anchor, Building2, Hotel, Briefcase } from 'lucide-react'
 import SEO from '@/components/SEO'
 import PageHero from '@/components/PageHero'
+import TrustSignalStrip from '@/components/TrustSignalStrip'
 import { breadcrumbSchema, organizationSchema } from '@/utils/schema'
 
 gsap.registerPlugin(ScrollTrigger)
@@ -213,6 +214,8 @@ export default function VenuePartners() {
         image="/images/locations-dubai-hero.webp"
         imageAlt="Trusted venue partners for luxury catering dubai"
       />
+
+      <TrustSignalStrip />
 
       {/* Intro */}
       <section ref={introRef} className="bg-black section-padding">

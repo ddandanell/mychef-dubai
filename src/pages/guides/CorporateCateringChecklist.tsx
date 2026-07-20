@@ -10,6 +10,7 @@ import {
   Check,
 } from 'lucide-react'
 import SEO from '../../components/SEO'
+import TrustSignalStrip from '../../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -266,6 +267,8 @@ export default function CorporateCateringChecklist() {
           </div>
         </div>
       </section>
+
+      <TrustSignalStrip />
 
       {/* ═══════════════ Opening ═══════════════ */}
       <section className="bg-white section-padding">

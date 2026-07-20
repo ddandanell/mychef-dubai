@@ -6,6 +6,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { useGSAP } from '@gsap/react'
 import SEO from '@/components/SEO'
 import PageHero from '@/components/PageHero'
+import TrustSignalStrip from '@/components/TrustSignalStrip'
 import { faqPageSchema, breadcrumbSchema } from '@/utils/schema'
 
 gsap.registerPlugin(ScrollTrigger)
@@ -205,6 +206,8 @@ export default function FAQ() {
         minHeight="short"
         overlay="dark"
       />
+
+      <TrustSignalStrip />
 
       {/* Section 2: Category Tabs */}
       <section className="bg-white pt-16">

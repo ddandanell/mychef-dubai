@@ -6,6 +6,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { useGSAP } from '@gsap/react'
 import SEO from '@/components/SEO'
 import PageHero from '@/components/PageHero'
+import TrustSignalStrip from '@/components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -118,13 +119,15 @@ export default function HowItWorks() {
       <PageHero
         eyebrow="THE EXPERIENCE"
         title="Simple. Seamless. Extraordinary."
-        subtitle="From your first message to the final course — every step is designed and coordinated with care."
+        subtitle="Tell us your occasion and we will match you with a vetted chef within 24 hours. From your first message to the final course — every step is designed and coordinated with care."
         image="/images/how-it-works-dubai-hero.webp"
         imageAlt="How myCHEF works"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'How It Works' }]}
         minHeight="tall"
         overlay="dark"
       />
+
+      <TrustSignalStrip />
 
       {/* Section 2: Timeline */}
       <section className="timeline-section bg-cream section-padding">

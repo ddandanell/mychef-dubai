@@ -17,6 +17,7 @@ import {
   MessageCircle,
 } from 'lucide-react'
 import SEO from '../components/SEO'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 import { breadcrumbSchema, faqPageSchema, serviceSchema } from '../utils/schema'
 
 gsap.registerPlugin(ScrollTrigger)
@@ -69,7 +70,7 @@ const processSteps = [
   {
     num: '02',
     title: 'Document Review',
-    description: 'the chefs in our network review your experience, checks your right-to-work documents, and verifies references or portfolio samples.',
+    description: 'We review your experience, check your right-to-work documents, and verify references or portfolio samples.',
   },
   {
     num: '03',
@@ -268,6 +269,8 @@ export default function BecomeAMyChef() {
           </div>
         </div>
       </section>
+
+      <TrustSignalStrip />
 
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">

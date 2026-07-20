@@ -1,10 +1,12 @@
 import { useRef } from 'react'
+import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import { Download, Mail, Phone, Globe, MapPin, Clock, Calendar, Utensils, Users } from 'lucide-react'
+import { Download, Phone, Globe, MapPin, Clock, Calendar, Utensils, Users } from 'lucide-react'
 import SEO from '../components/SEO'
 import PageHero from '../components/PageHero'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 import { organizationSchema } from '../utils/schema'
 
 gsap.registerPlugin(ScrollTrigger)
@@ -141,6 +143,8 @@ export default function Press() {
         overlay="dark"
       />
 
+      <TrustSignalStrip />
+
       <div className="bg-white section-padding">
         <div className="press-body container-custom max-w-[1000px]">
           <section className="press-section opacity-0 translate-y-8 mb-16 text-center">
@@ -238,23 +242,28 @@ export default function Press() {
             Reach out for interviews, high-resolution images, co-branded proposals, or press passes.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <Link
+              to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=press"
+              className="btn-primary inline-flex items-center gap-2"
+            >
+              Request a Proposal
+            </Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
               rel="noopener noreferrer"
-              className="btn-primary inline-flex items-center gap-2"
+              className="btn-secondary inline-flex items-center gap-2"
             >
               <Phone size={18} />
               WhatsApp Us
             </a>
-            <a
-              href="mailto:hallo@mychef.ae?subject=Press%20enquiry%20-%20myCHEF%20Dubai"
-              className="inline-flex items-center gap-2 px-6 py-3 font-inter text-button font-medium uppercase tracking-wider border border-gold text-gold hover:bg-gold hover:text-black transition-all duration-300"
-            >
-              <Mail size={18} />
-              Email Press Team
-            </a>
           </div>
+          <p className="mt-6 font-inter text-body-sm text-gray-500">
+            Or email us at{' '}
+            <a href="mailto:hallo@mychef.ae?subject=Press%20enquiry%20-%20myCHEF%20Dubai" className="text-gold hover:text-gold-light underline underline-offset-4">
+              hallo@mychef.ae
+            </a>
+          </p>
         </div>
       </section>
     </div>

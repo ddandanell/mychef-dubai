@@ -5,6 +5,7 @@ import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { useGSAP } from '@gsap/react'
 import SEO from '@/components/SEO'
+import TrustSignalStrip from '@/components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -159,6 +160,8 @@ export default function Contact() {
         </div>
       </section>
 
+      <TrustSignalStrip />
+
       {/* Section 2: Contact Cards */}
       <section className="relative bg-cream py-16 md:py-20" style={{ marginTop: '-40px' }}>
         <div className="max-w-[1000px] mx-auto px-4 sm:px-6 lg:px-8">
@@ -294,17 +297,25 @@ export default function Contact() {
         <div className="contact-final-cta container-custom text-center">
           <h3 className="font-playfair text-fluid-h3 text-white mb-4">Ready to Start Planning?</h3>
           <p className="font-inter text-body text-gray-400 max-w-lg mx-auto mb-8">
-            Message us on WhatsApp and a coordinator will guide you through the next steps.
+            Tell us your occasion and we will match you with a vetted chef within 24 hours.
           </p>
-          <a
-            href={WHATSAPP_LINK}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn-primary inline-flex items-center gap-2 focus-visible:ring-offset-black"
-          >
-            <Phone size={18} aria-hidden="true" />
-            Chat on WhatsApp
-          </a>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <Link
+              to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=contact"
+              className="btn-primary focus-visible:ring-offset-black"
+            >
+              Request My Custom Quote
+            </Link>
+            <a
+              href={WHATSAPP_LINK}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-secondary inline-flex items-center gap-2 focus-visible:ring-offset-black"
+            >
+              <Phone size={18} aria-hidden="true" />
+              Chat on WhatsApp
+            </a>
+          </div>
         </div>
       </section>
     </div>

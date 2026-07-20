@@ -15,6 +15,7 @@ import {
   ArrowRight,
 } from 'lucide-react'
 import SEO from '../components/SEO'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -46,7 +47,7 @@ const giftOptions = [
   {
     icon: ChefHat,
     title: 'Couples Cooking Class',
-    description: 'A hands-on cooking class gift voucher where a myCHEF chef guides you through a bespoke menu in your own kitchen.',
+    description: 'A hands-on cooking class gift voucher where a chef in our network guides you through a bespoke menu in your own kitchen.',
     link: '/private-cooking-classes-dubai',
   },
   {
@@ -116,7 +117,7 @@ const howItWorks = [
   {
     num: '05',
     title: 'Chef Designs & Delivers',
-    description: 'the chefs in our network plan, prepares, and serves the experience — leaving only memories behind.',
+    description: 'A chef in our network plans, prepares, and serves the experience — leaving only memories behind.',
   },
 ]
 
@@ -353,6 +354,8 @@ export default function GiftCards() {
           </div>
         </div>
       </section>
+
+      <TrustSignalStrip />
 
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">

@@ -5,6 +5,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { Shield, Award, Utensils, Heart } from 'lucide-react'
 import SEO from '@/components/SEO'
 import PageHero from '@/components/PageHero'
+import TrustSignalStrip from '@/components/TrustSignalStrip'
 import { breadcrumbSchema } from '@/utils/schema'
 
 gsap.registerPlugin(ScrollTrigger)
@@ -162,6 +163,8 @@ export default function OurChefs() {
         minHeight="medium"
         overlay="dark"
       />
+
+      <TrustSignalStrip />
 
       {/* Section 2: Culinary Philosophy */}
       <section ref={philosophyRef} className="bg-white section-padding">

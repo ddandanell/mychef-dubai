@@ -58,7 +58,7 @@ export default function CTASection() {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=home" className="btn-primary focus-visible:ring-offset-[#1A1A1A]">
-              Plan My Event
+              Get a Tailored Quote
             </Link>
             <a
               href={WHATSAPP_LINK}
@@ -69,6 +69,10 @@ export default function CTASection() {
               Chat on WhatsApp
             </a>
           </div>
+          <p className="mt-4 font-inter text-body-sm text-gray-400 flex items-center justify-center gap-2">
+            <span className="inline-block w-1.5 h-1.5 rounded-full bg-gold" aria-hidden="true" />
+            Typical reply within 15 min · No obligation
+          </p>
         </div>
       </div>
     </section>

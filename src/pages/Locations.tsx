@@ -161,6 +161,9 @@ export default function Locations() {
               Chat on WhatsApp
             </a>
           </div>
+          <p className="mt-6 text-gray-400 text-sm">
+            We reply to every inquiry within 24 hours. No commitment required.
+          </p>
         </div>
       </section>
     </div>

@@ -17,6 +17,7 @@ import {
   FileDown,
 } from 'lucide-react'
 import SEO from '../components/SEO'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -333,6 +334,8 @@ export default function EventCateringPriceGuide2026() {
           </div>
         </div>
       </section>
+
+      <TrustSignalStrip />
 
       {/* ═══════════════ Opening ═══════════════ */}
       <section className="bg-white section-padding">

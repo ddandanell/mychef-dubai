@@ -6,6 +6,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { Phone, Building2, Ship, HeartHandshake, Briefcase, CheckCircle2 } from 'lucide-react'
 import SEO from '../components/SEO'
 import PageHero from '../components/PageHero'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -54,7 +55,7 @@ const faqs = [
   },
   {
     q: 'How does the partnership work?',
-    a: 'You introduce clients who need private chef or catering services. Your chef prepares a tailored proposal, executes the event, and shares a commission or credit on confirmed bookings.',
+    a: 'You introduce clients who need private chef or catering services. A chef in our network prepares a tailored proposal, executes the event, and you receive a commission or credit on confirmed bookings.',
   },
   {
     q: 'What is the commission structure?',
@@ -139,6 +140,8 @@ export default function PartnerWithUs() {
         overlay="dark"
       />
 
+      <TrustSignalStrip />
+
       <div className="bg-white section-padding">
         <div className="partner-body container-custom max-w-[1000px]">
           <section className="partner-section opacity-0 translate-y-8 mb-12 text-center">
@@ -211,9 +214,15 @@ export default function PartnerWithUs() {
               Tell us about your business and the clients you serve. We will reply within one business day with partnership options and next steps.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-primary inline-flex items-center gap-2">
+              <Link
+                to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=partner-with-us"
+                className="btn-primary inline-flex items-center gap-2"
+              >
+                Request Partnership Info
+              </Link>
+              <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-secondary inline-flex items-center gap-2">
                 <Phone size={16} />
-                Discuss Partnership on WhatsApp
+                Discuss on WhatsApp
               </a>
             </div>
             <p className="font-inter text-sm text-gray-400 mt-6">

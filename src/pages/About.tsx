@@ -6,6 +6,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { useGSAP } from '@gsap/react'
 import SEO from '@/components/SEO'
 import PageHero from '@/components/PageHero'
+import TrustSignalStrip from '@/components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -134,13 +135,15 @@ export default function About() {
       <PageHero
         eyebrow="ABOUT US"
         title="The Story Behind Every Exceptional Meal"
-        subtitle="Experience, passion, and an unwavering commitment to excellence."
+        subtitle="Tell us your occasion and we will match you with a vetted chef within 24 hours."
         image="/images/about-mychef-dubai-hero.webp"
         imageAlt="myCHEF Dubai private dining experience"
         minHeight="medium"
         overlay="dark"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'About' }]}
       />
+
+      <TrustSignalStrip />
 
       {/* Section 2: Our Story */}
       <section className="bg-white section-padding">

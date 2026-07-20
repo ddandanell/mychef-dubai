@@ -5,6 +5,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { Check, ChevronRight, Wine, GlassWater, Users } from 'lucide-react'
 import SEO from '@/components/SEO'
 import PageHero from '@/components/PageHero'
+import TrustSignalStrip from '@/components/TrustSignalStrip'
 import StarterPackagesSection from '@/sections/StarterPackagesSection'
 import { breadcrumbSchema } from '@/utils/schema'
 
@@ -250,11 +251,13 @@ export default function Menus() {
       <PageHero
         eyebrow="CULINARY OFFERINGS"
         title="Bespoke Menus, Crafted for Every Palate"
-        subtitle="Every menu is designed from scratch. Here is a glimpse of what we create."
+        subtitle="Tell us your occasion and we will match you with a vetted chef within 24 hours. Every menu is designed from scratch — here is a glimpse of what we create."
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Menus' }]}
         minHeight="medium"
         overlay="dark"
       />
+
+      <TrustSignalStrip />
 
       {/* Section 2: Starter Packages */}
       <StarterPackagesSection campaign="menus" />
