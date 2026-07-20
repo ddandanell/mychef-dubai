@@ -18,6 +18,7 @@ import {
 } from 'lucide-react'
 import SEO from '../components/SEO'
 import PageHero from '../components/PageHero'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -209,6 +210,8 @@ export default function FestiveCatering() {
         minHeight="tall"
         overlay="dark"
       />
+
+      <TrustSignalStrip variant="dark" />
 
       {/* ═══════════════ Festive Grid ═══════════════ */}
       <section className="bg-white section-padding">

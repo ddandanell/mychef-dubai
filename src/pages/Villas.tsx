@@ -6,6 +6,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { useGSAP } from '@gsap/react'
 import SEO from '@/components/SEO'
 import PageHero from '@/components/PageHero'
+import TrustSignalStrip from '@/components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -240,6 +241,8 @@ export default function Villas() {
         minHeight="tall"
         overlay="dark"
       />
+
+      <TrustSignalStrip variant="dark" />
 
       {/* Section 2: Villa Chef Services */}
       <section className="bg-white section-padding">

@@ -10,6 +10,7 @@ import {
 } from '@/components/ui/accordion'
 import SEO from '@/components/SEO'
 import PageHero from '@/components/PageHero'
+import TrustSignalStrip from '@/components/TrustSignalStrip'
 import LocationStrip from '@/components/LocationStrip'
 import {
   breadcrumbSchema,
@@ -472,6 +473,8 @@ export default function Events() {
         minHeight="tall"
         overlay="dark"
       />
+
+      <TrustSignalStrip variant="dark" />
 
       {/* ─── Section 2: Event Types ─── */}
       <section className="bg-white section-padding">

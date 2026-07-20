@@ -16,6 +16,7 @@ import {
   ArrowRight,
 } from 'lucide-react'
 import SEO from '../components/SEO'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 import LocationStrip from '../components/LocationStrip'
 
 gsap.registerPlugin(ScrollTrigger)
@@ -359,6 +360,8 @@ export default function PartyCatering() {
           </div>
         </div>
       </section>
+
+      <TrustSignalStrip variant="dark" />
 
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">

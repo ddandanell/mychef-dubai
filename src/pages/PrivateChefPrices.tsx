@@ -19,6 +19,7 @@ import {
 } from 'lucide-react'
 import SEO from '../components/SEO'
 import PageHero from '../components/PageHero'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -208,6 +209,8 @@ export default function PrivateChefPrices() {
         minHeight="tall"
         overlay="dark"
       />
+
+      <TrustSignalStrip variant="dark" />
 
       {/* ═══════════════ Price Table ═══════════════ */}
       <section className="bg-white section-padding prices-content">

@@ -6,6 +6,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { MessageCircle, Palette, Sparkles, Utensils, ChevronRight, Phone, ArrowRight, } from 'lucide-react'
 import SEO from '../components/SEO'
 import PageHero from '../components/PageHero'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 import StarterPackagesSection from '@/sections/StarterPackagesSection'
 
 gsap.registerPlugin(ScrollTrigger)
@@ -285,6 +286,8 @@ export default function LuxuryDining() {
         minHeight="tall"
         overlay="dark"
       />
+
+      <TrustSignalStrip variant="dark" />
 
       {/* ═══════════════ Section 2: Experience Types ═══════════════ */}
       <section className="bg-white section-padding">

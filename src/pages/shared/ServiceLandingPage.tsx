@@ -240,7 +240,7 @@ export default function ServiceLandingPage({ config }: Props) {
         </div>
       </section>
 
-      {config.showTrustSignalStrip && <TrustSignalStrip variant="dark" />}
+      {config.showTrustSignalStrip !== false && <TrustSignalStrip variant="dark" />}
 
       {/* Intro */}
       <section className="bg-white section-padding">

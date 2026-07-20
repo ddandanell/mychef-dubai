@@ -6,6 +6,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { useGSAP } from '@gsap/react'
 import SEO from '@/components/SEO'
 import PageHero from '@/components/PageHero'
+import TrustSignalStrip from '@/components/TrustSignalStrip'
 import LocationStrip from '@/components/LocationStrip'
 
 gsap.registerPlugin(ScrollTrigger)
@@ -207,6 +208,8 @@ export default function Yachts() {
         minHeight="tall"
         overlay="dark"
       />
+
+      <TrustSignalStrip variant="dark" />
 
       {/* Section 2: Yacht Services */}
       <section className="bg-white section-padding">

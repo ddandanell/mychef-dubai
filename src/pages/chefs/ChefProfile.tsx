@@ -5,6 +5,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { Award, Calendar, ChefHat, Check } from 'lucide-react'
 import SEO from '@/components/SEO'
 import PageHero from '@/components/PageHero'
+import TrustSignalStrip from '@/components/TrustSignalStrip'
 import { breadcrumbSchema } from '@/utils/schema'
 
 gsap.registerPlugin(ScrollTrigger)
@@ -190,6 +191,8 @@ export default function ChefProfile({ chef }: ChefProfileProps) {
         minHeight="medium"
         overlay="dark"
       />
+
+      <TrustSignalStrip variant="dark" />
 
       {/* Overview */}
       <section ref={overviewRef} className="bg-white section-padding">
