@@ -276,8 +276,8 @@ export default function LuxuryDining() {
 
       {/* ═══════════════ Section 1: Hero ═══════════════ */}
       <PageHero
-        title="Luxury Dining Experiences"
-        subtitle="Bespoke private dining crafted for life's most memorable moments. In your villa, on your yacht, or at your penthouse."
+        title="Luxury Private Dining in Dubai"
+        subtitle="Bespoke private dining crafted for life's most memorable moments. In your villa, on your yacht, or at your penthouse — we reply within 15 minutes during business hours."
         image="/images/luxury-dining-dubai-hero.webp"
         imageAlt="Luxury private dining in Dubai"
         cta={{ label: 'Request a Proposal', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=luxury-dining-experiences' }}

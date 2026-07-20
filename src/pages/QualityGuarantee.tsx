@@ -267,7 +267,7 @@ export default function QualityGuarantee() {
                   <p className="font-inter text-body-sm text-gray-500 leading-relaxed">
                     {item.description}
                     {i === 0 && (
-                      <> Read more about <Link to="/how-we-vet-our-chefs" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">how we vet our chefs</Link>.</>
+                      <> Read more about <Link to="/how-we-vet-our-chefs" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">how we vet partner chefs</Link>.</>
                     )}
                   </p>
                 </div>

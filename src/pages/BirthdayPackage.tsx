@@ -45,7 +45,7 @@ export default function BirthdayPackage() {
         },
         {
           q: 'Can the party be at a villa or venue?',
-          a: 'Absolutely. We cater at homes, villas, gardens, rooftops, and private venues across Dubai, handling setup and cleanup.',
+          a: 'Absolutely. We coordinate private chefs and caterers at homes, villas, gardens, rooftops, and private venues across Dubai, handling setup and cleanup.'
         },
         {
           q: 'How far in advance should I book?',
@@ -55,7 +55,7 @@ export default function BirthdayPackage() {
       relatedServices={[
         {
           title: 'Birthday Catering Dubai',
-          description: 'Full-service birthday catering for all ages and venues.',
+          description: 'Full-service birthday dining coordination for all ages and venues.',
           image: '/service-events.webp',
           link: '/birthday-catering-dubai',
         },

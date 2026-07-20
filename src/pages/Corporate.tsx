@@ -374,8 +374,8 @@ export default function Corporate() {
 
       {/* ─── Hero ─── */}
       <PageHero
-        title="Corporate Dining Dubai"
-        subtitle="Impress clients. Reward teams. Elevate every business occasion with premium corporate dining and catering."
+        title="Corporate Dining & Event Catering Dubai"
+        subtitle="Impress clients. Reward teams. Elevate every business occasion with premium corporate dining and catering. We reply within 15 minutes during business hours."
         image="/images/corporate-catering-dubai-hero.webp"
         imageAlt="Corporate catering in Dubai"
         cta={{ label: 'Get a Corporate Quote', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=corporate' }}

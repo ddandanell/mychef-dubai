@@ -464,7 +464,7 @@ export default function Events() {
       {/* ─── Section 1: Hero ─── */}
       <PageHero
         title="Event Catering Dubai"
-        subtitle="Tell us about your event and we will match you with a vetted chef within 24 hours. From intimate celebrations to grand occasions — exceptional food, flawless service, unforgettable events."
+        subtitle="Tell us about your event and we will match you with a vetted chef. From intimate celebrations to grand occasions — exceptional food, flawless service, unforgettable events. We reply within 15 minutes during business hours."
         image="/images/events-catering-dubai-hero.webp"
         imageAlt="Event catering in Dubai"
         cta={{ label: 'Plan My Event', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=events' }}

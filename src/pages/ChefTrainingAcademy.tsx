@@ -127,8 +127,8 @@ const relatedServices = [
     link: '/mychef-certified',
   },
   {
-    title: 'How We Vet Our Chefs',
-    description: 'Discover the interview, tasting, and background-check process behind every myCHEF chef.',
+    title: 'How We Vet Partner Chefs',
+    description: 'Discover the interview, tasting, and background-check process behind every chef in our network.',
     image: '/images/how-we-vet-our-chefs-dubai-hero.webp',
     link: '/how-we-vet-our-chefs',
   },
@@ -260,7 +260,7 @@ export default function ChefTrainingAcademy() {
               You will learn how to design menus for real households, manage dietary requirements with confidence, plate under pressure, and run a villa kitchen from prep to final course. Instructors are experienced private-dining chefs who understand what families, hosts, and guests expect. Graduates who meet our standards are also invited to join the <Link to="/become-a-mychef" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">myCHEF Dubai chef network</Link>.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              Explore <Link to="/become-a-mychef" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">joining our chef network</Link>, <Link to="/how-we-vet-our-chefs" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">our vetting process</Link>, or <Link to="/mychef-certified" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">myCHEF certification</Link> to see how the academy connects to our platform.
+              Explore <Link to="/become-a-mychef" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">joining the myCHEF chef network</Link>, <Link to="/how-we-vet-our-chefs" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">the vetting process</Link>, or <Link to="/mychef-certified" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">myCHEF certification</Link> to see how the academy connects to our platform.
             </p>
           </div>
         </div>

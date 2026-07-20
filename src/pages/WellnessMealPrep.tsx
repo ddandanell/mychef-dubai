@@ -135,7 +135,7 @@ const faqs = [
   },
   {
     q: 'Is this suitable for medical conditions like diabetes?',
-    a: 'Yes. We prepare diabetic-friendly, low-sodium, and heart-healthy meals. For clinical conditions, we recommend nutritionist oversight.',
+    a: 'Yes. Your assigned chef prepares diabetic-friendly, low-sodium, and heart-healthy meals. For clinical conditions, we recommend nutritionist oversight.',
   },
   {
     q: 'How much does wellness meal prep cost in Dubai?',

@@ -142,7 +142,7 @@ export default function HeroSection() {
           ref={headlineRef}
           className="font-playfair text-fluid-display font-semibold leading-tight text-white opacity-0"
         >
-          Exceptional Dining, Crafted Around You
+          Private Chef & Luxury Catering in Dubai
         </h1>
 
         {/* Subtext */}
@@ -150,7 +150,7 @@ export default function HeroSection() {
           ref={subtextRef}
           className="mt-5 md:mt-6 font-inter text-base md:text-body-lg font-light text-white/90 max-w-xl leading-relaxed opacity-0"
         >
-          Tell us about your event and we will match you with a vetted, licensed chef within 24 hours. We design the menu, run every detail, and keep you a guest at your own table.
+          Tell us about your event and we will match you with a vetted, licensed chef. We reply within 15 minutes during business hours. We design the menu, coordinate every detail, and keep you a guest at your own table.
         </p>
 
         {/* CTA Row */}

@@ -122,7 +122,7 @@ const relatedServices = [
   },
   {
     title: 'Corporate Event Catering',
-    description: 'Full-service catering for product launches, conferences, and galas.',
+    description: 'End-to-end event catering for product launches, conferences, and galas.',
     image: '/images/corporate-catering-dubai-hero.webp',
     link: '/corporate-event-catering-dubai',
   },

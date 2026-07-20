@@ -40,7 +40,7 @@ const features = [
   {
     icon: ChefHat,
     title: 'Full-Service Experience',
-    description: 'The chef shops, cooks, serves, and cleans. You provide the table and the company; we handle everything that happens in the kitchen.',
+    description: 'The chef shops, cooks, serves, and cleans. You provide the table and the company; your chef handles everything that happens in the kitchen.'
   },
   {
     icon: Sparkles,

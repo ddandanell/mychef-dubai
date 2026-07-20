@@ -224,7 +224,7 @@ export default function ProposalDinner() {
             Proposal Dinner Planning in Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 pd-hero-sub">
-            Private chef, personalised menu, flowers, candles, and perfect timing — so you can focus on the question while we handle everything else.
+            Private chef, personalised menu, flowers, candles, and perfect timing — so you can focus on the question while your chef handles everything else.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 pd-hero-cta">Plan My Proposal Dinner</Link>

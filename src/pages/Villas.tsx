@@ -232,7 +232,7 @@ export default function Villas() {
       <PageHero
         eyebrow="VILLA CHEF SERVICES"
         title="Villa Private Chef Dubai"
-        subtitle="Tell us about your villa stay or special occasion and we will match you with a vetted private chef in Dubai within 24 hours. From one-night dinners to full-time residential chef services — exceptional dining without leaving home."
+        subtitle="Tell us about your villa stay or special occasion and we will match you with a vetted private chef in Dubai. From one-night dinners to full-time residential chef services — exceptional dining without leaving home. We reply within 15 minutes during business hours."
         image="/images/villa-catering-dubai-hero.webp"
         imageAlt="Villa private chef in Dubai"
         cta={{ label: 'Plan My Villa Dining', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=villas-private-residences' }}

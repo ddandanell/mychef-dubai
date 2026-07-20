@@ -13,9 +13,9 @@ export default function EventPlannersPartner() {
       eyebrow="FOR EVENT PLANNING COMPANIES"
       subheadline="A premium catering partner for weddings, corporate events, private parties, and luxury celebrations."
       intro="Deliver Flawless Catering for Every Event"
-      valueProposition="Event planners need catering partners they can trust. myCHEF Dubai provides bespoke menus, professional chefs, service staff, and full event catering coordination — so you can focus on the experience while we handle the food."
+      valueProposition="Event planners need catering partners they can trust. myCHEF Dubai coordinates bespoke menus, professional chefs, service staff, and full event catering — so you can focus on the experience while the chef team handles the food."
       benefits={[
-        { icon: Calendar, title: 'Full-Service Catering', description: 'From menu design and tasting to service and cleanup, we manage the culinary side of your events end-to-end.' },
+        { icon: Calendar, title: 'End-to-End Event Catering', description: 'From menu design and tasting to service and cleanup, we manage the culinary side of your events end-to-end.' },
         { icon: TrendingUp, title: 'Win More Bids', description: 'Offer your clients premium private chef and catering options that elevate your event proposals.' },
         { icon: Shield, title: 'Reliable Execution', description: 'Vetted chefs, professional staff, and backup plans so every event runs smoothly.' },
         { icon: Users, title: 'Dedicated Event Support', description: 'A single account manager for quotes, logistics, dietary requirements, and on-the-day coordination.' },

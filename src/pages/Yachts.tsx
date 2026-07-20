@@ -199,7 +199,7 @@ export default function Yachts() {
       <PageHero
         eyebrow="YACHT CATERING"
         title="Yacht Catering Dubai"
-        subtitle="Tell us about your yacht event and we will match you with a vetted chef within 24 hours. Exceptional dining on the water with Dubai's iconic skyline as your setting."
+        subtitle="Tell us about your yacht event and we will match you with a vetted chef. Exceptional dining on the water with Dubai's iconic skyline as your setting — we reply within 15 minutes during business hours."
         image="/images/yacht-catering-dubai-hero.webp"
         imageAlt="Yacht catering in Dubai"
         cta={{ label: 'Plan My Yacht Dinner', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=yachts' }}

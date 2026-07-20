@@ -79,7 +79,7 @@ const faqs = [
   },
   {
     q: 'Do you provide nutrition coaching?',
-    a: 'No. We execute the meal plan. If you need a nutrition plan, we recommend working with a licensed nutritionist or certified coach, then we prepare the meals to match their guidance.',
+    a: 'No. Your assigned chef executes the meal plan. If you need a nutrition plan, we recommend working with a licensed nutritionist or certified coach, then the chef prepares the meals to match their guidance.',
   },
   {
     q: 'What cuisines can be made macro-friendly?',
@@ -295,7 +295,7 @@ export default function FitnessMealPrep() {
 
           <div className="mt-10 bg-charcoal p-8 border-l-4 border-gold">
             <p className="font-inter text-body text-gray-400 leading-relaxed">
-              <strong className="text-white">Honest scope:</strong> We prepare meals to your specified macros and calorie targets. We do not provide medical advice, diagnose conditions, or guarantee specific physical results. For clinical nutrition, please consult a licensed professional.
+              <strong className="text-white">Honest scope:</strong> Your assigned chef prepares meals to your specified macros and calorie targets. We do not provide medical advice, diagnose conditions, or guarantee specific physical results. For clinical nutrition, please consult a licensed professional.
             </p>
           </div>
         </div>

@@ -41,7 +41,7 @@ const benefits = [
   'Your friend also receives AED 100 off their first booking',
   'No limit on referrals — share as often as you like',
   'Credit applies to any private chef or catering booking',
-  'Track your referrals via WhatsApp with our team',
+  'Track your referrals via WhatsApp with your account manager',
 ]
 
 const terms = [

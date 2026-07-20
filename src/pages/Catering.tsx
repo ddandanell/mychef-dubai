@@ -303,8 +303,8 @@ export default function Catering() {
 
       {/* ═══════════════ Section 1: Hero ═══════════════ */}
       <PageHero
-        title="Catering Dubai"
-        subtitle="Premium event catering across Dubai. From intimate gatherings to grand celebrations — every detail designed, every course perfected by your chef."
+        title="Luxury Catering for Events in Dubai"
+        subtitle="Premium event catering across Dubai. From intimate gatherings to grand celebrations — we reply within 15 minutes and coordinate every detail, from menu design to service staff and cleanup."
         image="/images/catering-dubai-hero.webp"
         imageAlt="Elegant catering setup in Dubai"
         cta={{ label: 'Get a Catering Quote', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=catering-dubai' }}
@@ -319,7 +319,7 @@ export default function Catering() {
         campaign="catering-dubai"
         eyebrow="START WITH A PACKAGE"
         title="Catering Packages in Dubai"
-        subtitle="Transparent starting prices for Dubai's most popular catering and private chef experiences. Every package is customised to your guest count, menu, and venue — final quote tailored to your event."
+        subtitle="Ready-to-book starting points for Dubai's most popular catering and private chef experiences. Every package is customised to your guest count, menu, and venue — final quote tailored to your event."
       />
 
       {/* ═══════════════ Opening ═══════════════ */}

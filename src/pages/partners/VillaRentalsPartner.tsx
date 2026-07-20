@@ -11,9 +11,9 @@ export default function VillaRentalsPartner() {
       ogImage="/images/villa-catering-dubai-hero.webp"
       headline="Villa Rental Partnership Dubai"
       eyebrow="FOR VILLA RENTAL COMPANIES"
-      subheadline="Give your guests an unforgettable in-villa dining experience with a private chef and full-service catering."
+      subheadline="Give your guests an unforgettable in-villa dining experience with a private chef and full-service dining coordination."
       intro="Add a Premium Dining Experience to Every Villa Stay"
-      valueProposition="Dubai’s luxury villa rental guests expect more than a beautiful property — they expect memorable experiences. Partner with myCHEF Dubai to offer bespoke private chef dinners, breakfast hampers, BBQs, and celebration catering directly to your guests, managed end-to-end by our team."
+      valueProposition="Dubai’s luxury villa rental guests expect more than a beautiful property — they expect memorable experiences. Partner with myCHEF Dubai to offer bespoke private chef dinners, breakfast hampers, BBQs, and celebration dining directly to your guests, managed end-to-end by our coordination team."
       benefits={[
         { icon: Home, title: 'In-Villa Private Chef', description: 'A private chef prepares breakfast, lunch, dinner, or events in the villa kitchen, so guests never need to leave the property.' },
         { icon: TrendingUp, title: 'Higher Booking Value', description: 'Differentiate your listings and increase average booking value with an exclusive dining add-on.' },

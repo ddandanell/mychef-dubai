@@ -115,8 +115,8 @@ const faqs = [
 
 const relatedServices = [
   {
-    title: 'How We Vet Our Chefs',
-    description: 'The full myCHEF Dubai vetting process: auditions, checks, and ongoing quality control.',
+    title: 'How We Vet Partner Chefs',
+    description: 'The full myCHEF Dubai vetting process: auditions, checks, and ongoing quality control for every chef in our network.',
     image: '/images/how-we-vet-our-chefs-dubai-hero.webp',
     link: '/how-we-vet-our-chefs',
   },
@@ -260,7 +260,7 @@ export default function MyChefCertified() {
               From the first tasting to the final reference check, we look for chefs who combine technical skill with professionalism, discretion, and respect for the dietary and cultural expectations that matter in this city.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              Read more about <Link to="/how-we-vet-our-chefs" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">how we vet our chefs</Link>, <Link to="/become-a-mychef" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">apply as a chef</Link>, or <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">book a private chef</Link> for your next occasion.
+              Read more about <Link to="/how-we-vet-our-chefs" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">how we vet partner chefs</Link>, <Link to="/become-a-mychef" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">apply as a chef</Link>, or <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">book a private chef</Link> for your next occasion.
             </p>
           </div>
         </div>

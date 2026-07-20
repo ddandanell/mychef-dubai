@@ -283,8 +283,8 @@ export default function PrivateChef() {
 
       {/* ═══════════════ Section 1: Hero ═══════════════ */}
       <PageHero
-        title="Private Chef Dubai"
-        subtitle="Tell us about your event and we will match you with a vetted private chef within 24 hours. Fully bespoke menus, prepared in your home or villa, with service and cleanup included."
+        title="Hire a Private Chef in Dubai"
+        subtitle="Tell us about your event and we will match you with a vetted private chef. We reply within 15 minutes during business hours. Fully bespoke menus, prepared in your home or villa, with service and cleanup included."
         image="/images/private-chef-dubai-hero.webp"
         imageAlt="Private chef preparing a meal in Dubai"
         cta={{ label: 'Request a Private Chef Quote', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=private-chef-dubai' }}
@@ -299,7 +299,7 @@ export default function PrivateChef() {
         campaign="private-chef-dubai"
         eyebrow="START WITH A PACKAGE"
         title="Private Chef Packages in Dubai"
-        subtitle="Transparent starting prices for our most requested private chef experiences. Final quote tailored to your event, menu, and dietary preferences."
+        subtitle="Ready-to-book starting points for our most requested private chef experiences. Final quote tailored to your event, menu, and dietary preferences."
       />
 
       {/* ═══════════════ Section 2: What Is a Private Chef ═══════════════ */}
