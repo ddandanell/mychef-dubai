@@ -155,11 +155,13 @@ export default function OurChefs() {
       {/* Section 1: Page Hero */}
       <PageHero
         eyebrow="THE CHEFS WE CHOOSE"
-        title="The Chefs Behind Every Extraordinary Experience"
-        subtitle="Handpicked artisans. Vetted credentials. One standard of selection."
+        title="Vetted Private Chefs in Dubai"
+        subtitle="Every chef in our network is interviewed, tasted, and background-checked before joining. We match you with the right chef for your occasion — reply within 15 minutes during business hours."
         image="/images/about-mychef-dubai-hero.webp"
         imageAlt="A partner chef at work for a myCHEF Dubai private dining experience"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'The Chefs We Choose' }]}
+        cta={{ label: 'Request a Chef Match', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=our-chefs' }}
+        secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         minHeight="medium"
         overlay="dark"
       />

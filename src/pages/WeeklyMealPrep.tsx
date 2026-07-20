@@ -314,7 +314,7 @@ export default function WeeklyMealPrep() {
             Weekly Meal Prep by a Private Chef in Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 wmp-hero-sub">
-            Fresh, portioned meals prepared in your own kitchen each week — so you can eat well, save time, and skip the takeout cycle.
+            Fresh, portioned meals prepared in your own kitchen each week — so you can eat well, save time, and skip the takeout cycle. We reply within 15 minutes during business hours.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 wmp-hero-cta">Get a Meal Prep Quote</Link>
@@ -344,7 +344,7 @@ export default function WeeklyMealPrep() {
           </h2>
           <div className="wmp-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Tell us about your household — your size, dietary goals, preferred cuisines, and any allergies — and we will match you with a vetted private chef within 24 hours. Our weekly meal prep service puts that chef in your kitchen once or twice a week to prepare fresh, portioned meals designed around your tastes, schedule, and health goals, so you can reclaim your evenings and skip the takeout cycle.
+              Tell us about your household — your size, dietary goals, preferred cuisines, and any allergies — and we will reply within 15 minutes during business hours, then match you with a vetted private chef. Our weekly meal prep service puts that chef in your kitchen once or twice a week to prepare fresh, portioned meals designed around your tastes, schedule, and health goals, so you can reclaim your evenings and skip the takeout cycle.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               Unlike mass-market meal plans, this is fully bespoke. Your chef designs a rotating menu, sources premium ingredients, cooks in your home, packages everything cleanly, and leaves your kitchen spotless. The result is a fridge full of restaurant-quality meals that simply need reheating — whether you are feeding a family, an athlete, or a household with specific dietary needs. For strict allergen protocols, explore our <Link to="/allergy-safe-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">allergy-safe catering in Dubai</Link>.
