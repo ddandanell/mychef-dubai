@@ -63,7 +63,7 @@ const menus = [
   {
     title: '9-Course Tasting Journey',
     price: 'From AED 900 per person',
-    description: 'Michelin-style pacing with premium ingredients, wine pairing, and dedicated service.',
+    description: 'Fine-dining pacing with premium ingredients, wine pairing-style service, and dedicated front-of-house staff.'
   },
 ]
 

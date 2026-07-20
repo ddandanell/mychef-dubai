@@ -1,4 +1,4 @@
-import { Shield, CheckCircle, Utensils } from 'lucide-react'
+import { Shield, CheckCircle, Utensils, Clock } from 'lucide-react'
 
 interface TrustSignalStripProps {
   className?: string
@@ -8,7 +8,7 @@ interface TrustSignalStripProps {
 const signals = [
   {
     icon: Shield,
-    label: 'AED 5M Liability Insurance',
+    label: 'Booking Protection & Insurance',
   },
   {
     icon: CheckCircle,
@@ -17,6 +17,10 @@ const signals = [
   {
     icon: Utensils,
     label: 'Halal-First Kitchen Standards',
+  },
+  {
+    icon: Clock,
+    label: 'Typical 15-Min Reply',
   },
 ]
 

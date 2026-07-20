@@ -38,7 +38,7 @@ export default function TrustBar({ variant = 'light', className }: TrustBarProps
                 isLight ? 'text-charcoal' : 'text-gray-400'
               )}
             >
-              We typically reply within 2 hours
+              Typical reply within 15 minutes
             </span>
           </div>
 

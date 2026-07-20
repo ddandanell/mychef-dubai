@@ -257,7 +257,7 @@ export default function FoundingCustomerOffer() {
               Lock in priority access, a dedicated concierge, and a fixed founding rate for 12 months. Tell us how you dine and we will recommend the right founding tier, confirm availability, and match you with a vetted private chef in Dubai within 24 hours.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              In return for joining early, we reserve priority access to our best chefs and assign a dedicated concierge who learns your preferences over time. Whether it is a weekly family dinner or a milestone celebration, your experience gets better with every booking.
+              In return for joining early, we reserve priority access to our most experienced, vetted chefs and assign a dedicated concierge who learns your preferences over time. Whether it is a weekly family dinner or a milestone celebration, your experience gets better with every booking.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
               Explore more ways to dine with us: <Link to="/mychef-membership" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">membership</Link>, <Link to="/vip-club" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">VIP Club</Link>, or <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef services</Link>.
