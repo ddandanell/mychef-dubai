@@ -33,7 +33,7 @@ const contactCards = [
   {
     icon: Clock,
     title: 'Response Time',
-    detail: 'We reply within 2 hours',
+    detail: 'We reply within 15 minutes',
     action: 'Chat on WhatsApp',
     actionType: 'link' as const,
     href: WHATSAPP_LINK,
@@ -208,7 +208,7 @@ export default function Contact() {
                 Chat With Us on WhatsApp
               </h2>
               <p className="font-inter text-body text-gray-500 mb-8">
-                We are available on WhatsApp for quick questions, availability checks, and bespoke quotes. We typically respond within 2 hours.
+                We are available on WhatsApp for quick questions, availability checks, and bespoke quotes. We typically respond within 15 minutes during business hours.
               </p>
 
               <a
@@ -247,7 +247,7 @@ export default function Contact() {
                   <MapPin size={18} className="text-gold" aria-hidden="true" />
                   <div>
                     <p className="font-inter text-body-sm text-gray-400">Serving all of Dubai</p>
-                    <p className="font-inter text-body-sm text-gold">We respond within 2 hours</p>
+                    <p className="font-inter text-body-sm text-gold">We respond within 15 minutes</p>
                   </div>
                 </div>
                 <p className="font-inter text-body-sm text-gray-400">

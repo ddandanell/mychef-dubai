@@ -201,7 +201,7 @@ export default function CateringCostCalculator() {
             <p className="font-inter text-body-sm text-gray-500">
               This calculator provides a rough estimate only. Premium ingredients, custom menus, late-night service,
               special dietary requirements, and venue logistics can affect the final price. For an exact bespoke
-              proposal, request a quote and we will respond within 2 hours.
+              proposal, request a quote and we will respond within 15 minutes during business hours.
             </p>
           </div>
         </div>

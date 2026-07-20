@@ -157,7 +157,7 @@ export default function PackagePageTemplate({
               <p className="font-inter text-body text-gray-400 mb-6">{guests} · {perPerson} per person</p>
               <div className="border-t border-charcoal-light pt-6">
                 <p className="font-inter text-body-sm text-gray-500 leading-relaxed">
-                  Final pricing depends on your chosen menu, ingredients, dietary requirements, and service level. We reply within 2 hours during business hours.
+                  Final pricing depends on your chosen menu, ingredients, dietary requirements, and service level. We reply within 15 minutes during business hours.
                 </p>
               </div>
             </div>

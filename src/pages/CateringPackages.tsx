@@ -277,7 +277,7 @@ export default function CateringPackages() {
             Get a Tailored Catering Proposal
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Choose a starter package or ask us to design something bespoke. We reply within 2 hours during business hours.
+            Choose a starter package or ask us to design something bespoke. We reply within 15 minutes during business hours.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=catering-packages" className="btn-primary">
@@ -294,7 +294,7 @@ export default function CateringPackages() {
             </a>
           </div>
           <p className="font-inter text-sm text-gray-400 mt-6">
-            We typically reply within 2 hours during business hours.
+            We typically reply within 15 minutes during business hours.
           </p>
         </div>
       </section>

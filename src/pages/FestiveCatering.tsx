@@ -341,7 +341,7 @@ export default function FestiveCatering() {
             </a>
           </div>
           <p className="font-inter text-sm text-gray-400 mt-6">
-            We typically reply within 2 hours during business hours.
+            We typically reply within 15 minutes during business hours.
           </p>
         </div>
       </section>

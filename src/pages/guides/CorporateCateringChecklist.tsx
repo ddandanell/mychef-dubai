@@ -472,7 +472,7 @@ export default function CorporateCateringChecklist() {
             Plan Your Next Corporate Event
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Send us your headcount, date, and format. We will return an itemised corporate catering proposal within two hours.
+            Send us your headcount, date, and format. We will return an itemised corporate catering proposal within 15 minutes during business hours.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=corporate-catering-checklist-dubai" className="btn-primary">Get My Custom Quote</Link>

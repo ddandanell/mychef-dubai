@@ -578,7 +578,7 @@ export default function PrivateChef() {
             Book Your Private Chef Today
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Tell us about your occasion and we will craft a bespoke proposal within 2 hours.
+            Tell us about your occasion and we will craft a bespoke proposal within 15 minutes during business hours.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=private-chef-dubai" className="btn-primary">Request a Private Chef Quote</Link>

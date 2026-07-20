@@ -30,7 +30,7 @@ const faqData: Record<Exclude<Category, 'All'>, { q: string; a: string }[]> = {
     { q: 'How does corporate meal prep pricing work?', a: 'Corporate meal prep is priced as a recurring programme based on headcount, menu complexity, and delivery frequency. Visit /corporate-meal-prep-dubai for details.' },
   ],
   'Booking process': [
-    { q: 'How do I book a private chef in Dubai?', a: 'Contact us via WhatsApp or our online /inquiry form. Tell us about your event, and we will respond within 2 hours with a bespoke proposal.' },
+    { q: 'How do I book a private chef in Dubai?', a: 'Contact us via WhatsApp or our online /inquiry form. Tell us about your event, and we will respond within 15 minutes during business hours with a bespoke proposal.' },
     { q: 'How far in advance should I book?', a: 'We recommend 48 hours for private chef bookings and 1–2 weeks for larger catering events. Last-minute requests are accommodated when possible.' },
     { q: 'Can I make changes after booking?', a: 'Yes. Contact us as soon as possible and we will adjust your booking. Changes made within 24 hours of the event may be subject to limitations.' },
     { q: 'Do I need to pay a deposit?', a: 'Most bookings require a 50% deposit to confirm the date, ingredients, and staffing. The balance is typically due before or on the day of service.' },
@@ -272,7 +272,7 @@ export default function FAQ() {
         <div className="still-questions-content container-custom max-w-[800px] text-center">
           <h2 className="font-playfair text-[2.25rem] text-white mb-4" style={{ lineHeight: '1.15' }}>Still Have Questions?</h2>
           <p className="font-inter text-body text-gray-400 mb-8">
-            We're happy to help. Reach out and we will respond within 2 hours.
+            We're happy to help. Reach out and we will respond within 15 minutes during business hours.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-primary inline-flex items-center gap-2">

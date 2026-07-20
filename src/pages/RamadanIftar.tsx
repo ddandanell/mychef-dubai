@@ -671,7 +671,7 @@ export default function RamadanIftar() {
             </a>
           </div>
           <p className="font-inter text-body-sm text-gray-500 mt-6">
-            We typically reply within 2 hours during business hours.
+            We typically reply within 15 minutes during business hours.
           </p>
         </div>
       </section>
