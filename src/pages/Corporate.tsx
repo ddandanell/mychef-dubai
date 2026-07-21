@@ -87,8 +87,6 @@ const corporateSolutions = [
   { title: 'Staff Meals Catering', link: '/staff-meals-catering-dubai' },
   { title: 'Film Crew Catering', link: '/film-crew-catering-dubai' },
   { title: 'Production Catering', link: '/production-catering-dubai' },
-  { title: 'School Catering', link: '/school-catering-dubai' },
-  { title: 'Nursery Catering', link: '/nursery-catering-dubai' },
   { title: 'Corporate Meal Prep', link: '/corporate-meal-prep-dubai' },
   { title: 'Product Launch Catering', link: '/product-launch-catering-dubai' },
   { title: 'Gala Dinner Catering', link: '/gala-dinner-catering-dubai' },

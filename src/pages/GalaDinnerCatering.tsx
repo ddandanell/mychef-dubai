@@ -13,7 +13,6 @@ import {
   HeartHandshake,
   Building2,
   Users,
-  Flag,
   Check,
   ChevronRight,
   Phone,
@@ -78,11 +77,6 @@ const galaTypes = [
     icon: Users,
     title: 'Association & Industry Dinners',
     description: 'Formal dinners for professional associations, trade bodies, and industry groups across Dubai.',
-  },
-  {
-    icon: Flag,
-    title: 'National Day & Diplomatic Events',
-    description: 'Protocol-aware catering for diplomatic receptions, national celebrations, and formal state occasions.',
   },
 ]
 
