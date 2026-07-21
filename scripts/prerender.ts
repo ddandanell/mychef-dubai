@@ -90,16 +90,26 @@ async function renderRoute(
     timeout: NAVIGATION_TIMEOUT_MS,
   })
 
-  // Wait for React to mount real content
+  // Wait for React to mount real content and for the document to carry
+  // meaningful text. This guards against capturing the empty SPA shell.
   await page.waitForFunction(
     () => {
       const root = document.getElementById("root")
-      return root !== null && root.childElementCount > 0
+      const title = document.title || ""
+      const bodyText = document.body ? document.body.innerText.trim() : ""
+      return (
+        root !== null &&
+        root.childElementCount > 0 &&
+        title.length > 5 &&
+        bodyText.length > 200
+      )
     },
     { timeout: RENDER_TIMEOUT_MS },
   )
 
-  // Give GSAP / ScrollTrigger a moment to settle
+  // Brief pause so GSAP / ScrollTrigger entrance animations can settle
+  // before we snapshot the DOM. Without this, elements that animate in
+  // (fade/slide) may still be at initial visibility states.
   await new Promise((resolve) => setTimeout(resolve, 500))
 
   const html = await page.content()
