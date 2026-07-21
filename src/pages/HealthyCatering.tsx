@@ -275,7 +275,7 @@ export default function HealthyCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Healthy Catering Dubai | Balanced & Wellness Menus"
+        title="Healthy Catering Dubai | Wellness Menus"
         description="Healthy catering in Dubai with nutrition-focused, balanced menus, low-carb and keto options, salad bars, and corporate wellness lunches. Request your custom quote today."
         canonicalPath="/healthy-catering-dubai"
         ogImage="/menu-seafood.webp"

@@ -270,7 +270,7 @@ export default function IndianCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Indian Catering Dubai | Biryani, Tandoor & Veg"
+        title="Indian Catering Dubai | Biryani & Tandoor"
         description="Indian catering in Dubai for weddings, villas, and corporate events. North & South Indian menus, live tandoor and chaat stations, biryani, halal and Jain options."
         canonicalPath="/indian-catering-dubai"
         ogImage="/menu-meat.webp"

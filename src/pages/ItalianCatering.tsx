@@ -264,7 +264,7 @@ export default function ItalianCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Italian Catering Dubai | Handmade Pasta & Risotto"
+        title="Italian Catering Dubai | Pasta & Risotto"
         description="Italian catering in Dubai — handmade pasta, risotto, antipasti, and live pasta and pizza stations for weddings, villa dinners, and corporate events. Halal sourcing."
         canonicalPath="/italian-catering-dubai"
         ogImage="/menu-appetizer.webp"

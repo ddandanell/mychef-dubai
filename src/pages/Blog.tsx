@@ -120,7 +120,7 @@ export default function Blog() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Blog | myCHEF Dubai | Private Chef & Catering Insights"
+        title="Blog | Private Chef & Catering Insights"
         description="Expert tips, trends, and inspiration for private dining and luxury catering in Dubai."
         canonicalPath="/blog"
         ogImage="/images/guides-hub-dubai-hero.webp"

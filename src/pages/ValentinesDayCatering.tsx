@@ -5,7 +5,7 @@ import type { OccasionPageConfig } from './occasion/OccasionCateringPage'
 
 const config: OccasionPageConfig = {
   slug: 'valentines-day-catering-dubai',
-  seoTitle: "Valentine's Day Private Dining Dubai | Romantic Dinner",
+  seoTitle: "Valentine's Day Private Dining Dubai",
   metaDescription:
     "Valentine's Day private dining and romantic catering in Dubai. Candlelit dinners for two, proposals, anniversaries and intimate celebrations at home or venue.",
   canonicalPath: '/valentines-day-catering-dubai',

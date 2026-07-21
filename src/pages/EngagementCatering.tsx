@@ -262,7 +262,7 @@ export default function EngagementCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Engagement Party Catering Dubai | Plated & Canapes"
+        title="Engagement Party Catering Dubai"
         description="Engagement party catering in Dubai with refined plated dinners, canape receptions, and dessert tables for intimate villa celebrations. Request a custom proposal today."
         canonicalPath="/engagement-catering-dubai"
         ogImage="/service-luxury-dining.webp"

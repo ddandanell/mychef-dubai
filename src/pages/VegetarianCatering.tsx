@@ -264,7 +264,7 @@ export default function VegetarianCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Vegetarian Catering Dubai | Global Veg & Jain Menus"
+        title="Vegetarian Catering Dubai | Global Veg"
         description="Vegetarian catering in Dubai spanning Indian and Jain menus, Mediterranean mezze, salads, and live stations for inclusive events. Request your custom quote today."
         canonicalPath="/vegetarian-catering-dubai"
         ogImage="/menu-appetizer.webp"

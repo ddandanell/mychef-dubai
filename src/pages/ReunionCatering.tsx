@@ -5,7 +5,7 @@ import type { ServicePageConfig } from './shared/ServiceLandingPage'
 
 const config: ServicePageConfig = {
   slug: 'reunion-catering-dubai',
-  seoTitle: 'Reunion Catering Dubai | Family & Friends Get-Togethers',
+  seoTitle: "Reunion Catering Dubai | Family & Friends",
   metaDescription:
     'Reunion catering in Dubai for family gatherings, school reunions and friends get-togethers. Shared menus, live stations, villa service and full setup. Request a quote.',
   canonicalPath: '/reunion-catering-dubai',

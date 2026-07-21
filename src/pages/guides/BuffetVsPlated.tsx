@@ -194,7 +194,7 @@ export default function BuffetVsPlated() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Buffet vs Plated Service Dubai | Catering Guide"
+        title="Buffet vs Plated Service Dubai | Guide"
         description="Buffet vs plated catering in Dubai: compare atmosphere, variety, cost, staffing, and venue fit. Learn when to choose each or combine both formats."
         canonicalPath="/buffet-vs-plated-dubai"
         ogImage="/service-catering.webp"

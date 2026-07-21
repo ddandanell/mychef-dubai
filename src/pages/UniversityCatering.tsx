@@ -6,7 +6,7 @@ import type { ServicePageConfig } from './shared/ServiceLandingPage'
 const config: ServicePageConfig = {
   slug: 'university-catering-dubai',
   noindex: true,
-  seoTitle: 'University & Student Catering Dubai | Campus Events & Meals',
+  seoTitle: "University & Student Catering Dubai",
   metaDescription:
     'University and student catering in Dubai: campus events, student meals, fresh food stations and dietary-friendly menus for universities, colleges and student groups.',
   canonicalPath: '/university-catering-dubai',

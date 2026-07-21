@@ -4,7 +4,7 @@ export default function BirthdayPackage() {
   return (
     <PackagePageTemplate
       name="Birthday Celebration"
-      seoTitle="Birthday Catering Package Dubai | Private Chef Party Menu"
+      seoTitle="Birthday Catering Package Dubai | Menu"
       description="A private chef birthday celebration package for 8–12 guests in Dubai. Includes a bespoke celebration menu, canapés or starter, main course, dessert, and professional service staff."
       canonicalPath="/birthday-catering-package-dubai"
       ogImage="/images/birthday-catering-dubai-hero.webp"

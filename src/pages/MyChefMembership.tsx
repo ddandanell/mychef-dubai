@@ -188,7 +188,7 @@ export default function MyChefMembership() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="myCHEF Membership Dubai | Priority Booking & Member Perks"
+        title="myCHEF Membership Dubai | Priority Booking"
         description="Join myCHEF Dubai membership for priority booking, quarterly dining credits, member-only pricing, and concierge support. Plans start from AED 99/month."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/luxury-dining-dubai-hero.webp"

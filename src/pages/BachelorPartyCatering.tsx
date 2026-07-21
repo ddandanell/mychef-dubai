@@ -262,7 +262,7 @@ export default function BachelorPartyCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Bachelor Party Catering Dubai | Grills & Cocktails"
+        title="Bachelor Party Catering Dubai | Grills"
         description="Bachelor party catering in Dubai with live BBQ grills, premium meats, and cocktail bar service for yacht and villa parties. Request a custom proposal today."
         canonicalPath="/bachelor-party-catering-dubai"
         ogImage="/service-events.webp"

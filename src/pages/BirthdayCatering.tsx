@@ -264,7 +264,7 @@ export default function BirthdayCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Birthday Catering Dubai | Kids & Adult Parties"
+        title="Birthday Catering Dubai | Kids & Adults"
         description="Birthday party catering in Dubai for kids and adults. Themed menus, custom cakes, grazing and dessert tables, mocktail bars, and full villa-party service across Dubai."
         canonicalPath="/birthday-catering-dubai"
         ogImage="/service-events.webp"

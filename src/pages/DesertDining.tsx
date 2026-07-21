@@ -5,7 +5,7 @@ import type { OccasionPageConfig } from './occasion/OccasionCateringPage'
 
 const config: OccasionPageConfig = {
   slug: 'desert-dining-dubai',
-  seoTitle: 'Desert Dining & Camp Catering Dubai | Luxury Outdoor Feasts',
+  seoTitle: "Desert Dining Dubai | Luxury Outdoor Feasts",
   metaDescription:
     'Desert dining and camp catering in Dubai: private dune dinners, Bedouin-style feasts, live grills and full-service outdoor events under the stars.',
   canonicalPath: '/desert-dining-dubai',

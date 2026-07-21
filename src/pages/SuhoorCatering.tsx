@@ -263,7 +263,7 @@ export default function SuhoorCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Suhoor Catering Dubai | Pre-Dawn Ramadan Menus"
+        title="Suhoor Catering Dubai | Ramadan Pre-Dawn"
         description="Suhoor catering in Dubai with halal pre-dawn menus, light and hearty options, home, majlis, and corporate service. Book six to eight weeks ahead — request your custom quote today."
         canonicalPath="/suhoor-catering-dubai"
         ogImage="/menu-appetizer.webp"

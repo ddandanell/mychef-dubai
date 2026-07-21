@@ -174,7 +174,7 @@ export default function AllergySafeCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Allergy-Safe Private Dining Dubai | No Cross-Contact"
+        title="Allergy-Safe Private Dining Dubai"
         description="Allergy-safe private chef and catering in Dubai. Detailed allergen briefings, ingredient verification, cross-contact controls, and dietary accommodation."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/healthy-catering-dubai-hero.webp"

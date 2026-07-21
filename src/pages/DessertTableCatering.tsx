@@ -270,7 +270,7 @@ export default function DessertTableCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Dessert Table Dubai | Patisserie & Sweet Tables"
+        title="Dessert Table Dubai | Patisserie"
         description="Bespoke dessert tables in Dubai for weddings, birthdays, and baby showers. Custom cakes, French patisserie, styled sweet displays with full set-up and dietary options."
         canonicalPath="/dessert-table-catering-dubai"
         ogImage="/menu-dessert.webp"

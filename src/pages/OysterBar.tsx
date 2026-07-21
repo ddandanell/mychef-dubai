@@ -5,7 +5,7 @@ import type { ServicePageConfig } from './shared/ServiceLandingPage'
 
 const config: ServicePageConfig = {
   slug: 'oyster-bar-dubai',
-  seoTitle: 'Oyster & Seafood Bar Dubai | Premium Shellfish & Caviar',
+  seoTitle: "Oyster & Seafood Bar Dubai | Shellfish",
   metaDescription:
     'Oyster and seafood bar in Dubai: fresh oysters, chilled shellfish, caviar and premium seafood platters for weddings, corporate events and private parties.',
   canonicalPath: '/oyster-bar-dubai',

@@ -5,7 +5,7 @@ import type { DietaryPageConfig } from './dietary/DietaryCateringPage'
 
 const config: DietaryPageConfig = {
   slug: 'jain-catering-dubai',
-  seoTitle: 'Jain Catering Dubai | Vegetarian No-Onion/Garlic Menus',
+  seoTitle: "Jain Catering Dubai | No-Onion/Garlic",
   metaDescription:
     'Jain catering in Dubai for weddings, festivals and family events. Lacto-vegetarian menus prepared without onion, garlic, root vegetables or eggs.',
   canonicalPath: '/jain-catering-dubai',

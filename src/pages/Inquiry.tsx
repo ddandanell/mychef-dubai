@@ -94,7 +94,7 @@ export default function Inquiry() {
   return (
     <>
       <SEO
-        title="Request a Quote | Private Chef & Catering Dubai"
+        title="Request a Quote | Private Chef Dubai"
         description="Request a custom quote for private chef services or luxury catering in Dubai. We typically respond within 15 minutes with a bespoke proposal tailored to your event."
         canonicalPath="/inquiry"
         ogImage="/service-catering.webp"

@@ -264,7 +264,7 @@ export default function FilmCrewCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Film Crew Catering Dubai | On-Set Production Meals"
+        title="Film Crew Catering Dubai | On-Set Meals"
         description="Film crew catering in Dubai with early call breakfasts, hot on-set lunches, craft services, and full dietary coverage for long shoots. Request your custom quote today."
         canonicalPath="/film-crew-catering-dubai"
         ogImage="/service-catering.webp"

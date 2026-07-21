@@ -26,7 +26,7 @@ export default function Home() {
   return (
     <>
       <SEO
-        title="Private Chef & Luxury Dining Experiences Dubai"
+        title="Private Chef & Luxury Dining Dubai"
         description="myCHEF Dubai designs private dining experiences and connects you with handpicked, licensed chefs across Dubai. From villas to yachts — request your custom quote today."
         canonicalPath="/"
         ogImage="/images/home-hero.webp"

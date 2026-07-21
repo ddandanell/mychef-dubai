@@ -5,7 +5,7 @@ export default function YachtChartersPartner() {
   return (
     <PartnerPageTemplate
       name="Yacht Charters"
-      seoTitle="Yacht Charter Partnership Dubai | Onboard Private Chef"
+      seoTitle="Yacht Charter Partnership Dubai | Chef"
       description="Partner with myCHEF Dubai to offer private chef and catering services on your yacht charters across Dubai Marina, Palm Jumeirah, and beyond."
       canonicalPath="/partners/yacht-charters-dubai"
       ogImage="/images/yacht-catering-dubai-hero.webp"

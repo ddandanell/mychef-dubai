@@ -5,7 +5,7 @@ import type { ServicePageConfig } from './shared/ServiceLandingPage'
 
 const config: ServicePageConfig = {
   slug: 'dessert-cart-dubai',
-  seoTitle: 'Gelato & Dessert Cart Dubai | Ice Cream Cart Hire for Events',
+  seoTitle: "Gelato & Dessert Cart Dubai | Events",
   metaDescription:
     'Dessert cart and gelato cart hire in Dubai: ice cream, sorbet, crepes, waffles and sweet treats for weddings, parties, corporate events and kids birthdays.',
   canonicalPath: '/dessert-cart-dubai',

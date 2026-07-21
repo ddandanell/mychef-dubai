@@ -196,7 +196,7 @@ export default function FullTimePrivateChef() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Full-Time Private Chef Dubai | Live-In & Residential Chefs"
+        title="Full-Time Private Chef Dubai | Live-In"
         description="Hire a full-time private chef in Dubai. myCHEF Dubai sources vetted residential chefs for villas, families, and HNWI households."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/private-chef-dubai-hero.webp"

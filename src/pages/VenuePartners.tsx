@@ -197,7 +197,7 @@ export default function VenuePartners() {
   return (
     <>
       <SEO
-        title="Venue Partners | myCHEF Dubai | Preferred Catering Partners"
+        title="Venue Partners | Preferred Catering"
         description="Discover Dubai venues where myCHEF provides private chef and catering services. From yacht charters to luxury villas and event spaces, we coordinate catering at distinguished locations."
         canonicalPath="/venue-partners"
         ogImage="/images/locations-dubai-hero.webp"

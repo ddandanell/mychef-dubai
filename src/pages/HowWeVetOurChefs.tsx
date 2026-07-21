@@ -194,7 +194,7 @@ export default function HowWeVetOurChefs() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="How We Vet the Chefs in Our Network | Trust & Safety"
+        title="How We Vet the Chefs in Our Network"
         description="See how myCHEF Dubai vets private chefs: ID checks, skill assessments, references, food-safety training, trial events, and ongoing reviews. No chef is guaranteed."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/how-we-vet-our-chefs-dubai-hero.webp"

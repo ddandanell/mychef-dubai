@@ -193,7 +193,7 @@ export default function PrivateChefVsCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Private Chef vs Catering Dubai | Which to Choose"
+        title="Private Chef vs Catering Dubai | Guide"
         description="Private chef vs catering in Dubai: compare guest count, service style, cost, and when to choose each. Hybrid options and scale guidance included."
         canonicalPath="/private-chef-vs-catering-dubai"
         ogImage="/service-private-chef.webp"

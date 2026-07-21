@@ -190,7 +190,7 @@ export default function FestiveCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Festive Catering Dubai | Christmas, Ramadan, Eid, NYE"
+        title="Festive Catering Dubai | Ramadan, Eid, NYE"
         description="Seasonal catering in Dubai for Christmas, New Year, Ramadan, Iftar, Suhoor, Eid, Diwali and brunch. Private chefs, bespoke menus and full service."
         canonicalPath="/festive-catering-dubai"
         ogImage="/images/festive-catering-dubai-hero.webp"

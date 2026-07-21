@@ -270,7 +270,7 @@ export default function WeddingCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Wedding Catering Dubai | Luxury Reception Dining"
+        title="Wedding Catering Dubai | Reception Dining"
         description="Luxury wedding catering in Dubai for villa, garden, and venue receptions. Plated dinners, buffets, canapés, multi-cuisine menus, service staff, and bespoke dessert tables."
         canonicalPath="/wedding-catering-dubai"
         ogImage="/service-events.webp"

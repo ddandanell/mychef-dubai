@@ -5,7 +5,7 @@ import type { ServicePageConfig } from './shared/ServiceLandingPage'
 
 const config: ServicePageConfig = {
   slug: 'holi-catering-dubai',
-  seoTitle: 'Holi Catering Dubai | Colourful Festival Feasts & Thandai',
+  seoTitle: "Holi Catering Dubai | Festival Feasts",
   metaDescription:
     'Holi catering in Dubai: vibrant Indian festival menus, chaat stations, thandai, biryanis and colourful desserts for home, villa and corporate celebrations.',
   canonicalPath: '/holi-catering-dubai',

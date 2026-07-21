@@ -5,7 +5,7 @@ import type { DietaryPageConfig } from './dietary/DietaryCateringPage'
 
 const config: DietaryPageConfig = {
   slug: 'keto-catering-dubai',
-  seoTitle: 'Keto & Low-Carb Catering Dubai | High-Protein Event Menus',
+  seoTitle: "Keto & Low-Carb Catering Dubai | High-Protein",
   metaDescription:
     'Keto and low-carb catering in Dubai for events, villas, offices and wellness retreats. High-protein menus, healthy fats and zero compromise on flavour.',
   canonicalPath: '/keto-catering-dubai',

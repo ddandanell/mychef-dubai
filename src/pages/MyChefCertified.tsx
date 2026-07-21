@@ -196,7 +196,7 @@ export default function MyChefCertified() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="MyChef Certified Chefs Dubai | Vetting & Quality Standard"
+        title="MyChef Certified Chefs Dubai | Quality"
         description="Only MyChef Certified chefs make it to your table. Learn our audition, background-check, food-safety and halal competency standards for Dubai."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/how-we-vet-our-chefs-dubai-hero.webp"

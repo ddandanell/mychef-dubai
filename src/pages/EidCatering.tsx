@@ -263,7 +263,7 @@ export default function EidCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Eid Catering Dubai | Eid al-Fitr & al-Adha Feasts"
+        title="Eid Catering Dubai | al-Fitr & al-Adha"
         description="Eid catering in Dubai with halal feasts for Eid al-Fitr and al-Adha, ouzi and whole-lamb roasts, family gatherings, and Eid sweets. Book early — request your custom quote today."
         canonicalPath="/eid-catering-dubai"
         ogImage="/service-events.webp"

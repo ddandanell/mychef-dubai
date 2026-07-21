@@ -262,7 +262,7 @@ export default function AnniversaryCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Anniversary Dinner Catering Dubai | Private Chef"
+        title="Anniversary Dinner Catering Dubai"
         description="Anniversary dinner catering in Dubai with romantic private-chef dinners at home, multi-course tasting menus, and celebration desserts. Request a custom proposal today."
         canonicalPath="/anniversary-catering-dubai"
         ogImage="/service-luxury-dining.webp"

@@ -264,7 +264,7 @@ export default function ProductionCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Production Catering Dubai | TV, Photo & Event Crews"
+        title="Production Catering Dubai | TV & Photo Crews"
         description="Production catering in Dubai for TV, photo, and event shoots — daily crew meals, craft services, early calls, and full dietary coverage. Request your custom quote today."
         canonicalPath="/production-catering-dubai"
         ogImage="/service-catering.webp"

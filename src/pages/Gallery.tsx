@@ -248,7 +248,7 @@ export default function Gallery() {
   return (
     <>
       <SEO
-        title="Event Gallery | myCHEF Dubai | Private Chef & Catering"
+        title="Event Gallery | Private Chef & Catering"
         description="Explore our portfolio of luxury private chef and catering events across Dubai. Villa dinners, yacht parties, weddings, and corporate events."
         canonicalPath="/gallery"
         ogImage="/images/events-catering-dubai-hero.webp"

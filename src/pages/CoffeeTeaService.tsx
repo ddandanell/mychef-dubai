@@ -5,7 +5,7 @@ import type { ServicePageConfig } from './shared/ServiceLandingPage'
 
 const config: ServicePageConfig = {
   slug: 'coffee-tea-service-dubai',
-  seoTitle: 'Coffee & Tea Service Dubai | Corporate Receptions & Events',
+  seoTitle: "Coffee & Tea Service Dubai | Receptions",
   metaDescription:
     'Coffee and tea service in Dubai: barista-style coffee, specialty teas, pastries and light bites for corporate receptions, meetings, breakfasts and events.',
   canonicalPath: '/coffee-tea-service-dubai',

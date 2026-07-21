@@ -270,7 +270,7 @@ export default function OfficeCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Office Catering Dubai | Daily Lunches & Retainers"
+        title="Office Catering Dubai | Daily Lunches"
         description="Office catering in Dubai with daily lunches, breakfast spreads, and recurring retainers for DIFC and Business Bay teams. Reliable delivery and clear billing. Request a quote."
         canonicalPath="/office-catering-dubai"
         ogImage="/service-corporate.webp"

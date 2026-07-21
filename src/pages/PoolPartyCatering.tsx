@@ -5,7 +5,7 @@ import type { OccasionPageConfig } from './occasion/OccasionCateringPage'
 
 const config: OccasionPageConfig = {
   slug: 'pool-party-catering-dubai',
-  seoTitle: 'Pool Party Catering Dubai | Fresh, Light Villa Party Food',
+  seoTitle: "Pool Party Catering Dubai | Villa Food",
   metaDescription:
     'Pool party catering in Dubai for villas and beach clubs. Fresh, light menus, hydration stations, BBQ and sweet treats — full setup and service.',
   canonicalPath: '/pool-party-catering-dubai',

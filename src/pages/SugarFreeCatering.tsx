@@ -5,7 +5,7 @@ import type { ServicePageConfig } from './shared/ServiceLandingPage'
 
 const config: ServicePageConfig = {
   slug: 'sugar-free-catering-dubai',
-  seoTitle: 'Sugar-Free Catering Dubai | Diabetic-Friendly Event Menus',
+  seoTitle: "Sugar-Free Catering Dubai | Diabetic-Friendly",
   metaDescription:
     'Sugar-free and diabetic-friendly catering in Dubai for offices, villas and wellness events. Naturally sweetened dishes, low-GI menus and full setup. Request a quote.',
   canonicalPath: '/sugar-free-catering-dubai',

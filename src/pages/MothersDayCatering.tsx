@@ -5,7 +5,7 @@ import type { OccasionPageConfig } from './occasion/OccasionCateringPage'
 
 const config: OccasionPageConfig = {
   slug: 'mothers-day-catering-dubai',
-  seoTitle: "Mother's Day Catering Dubai | Brunch, Lunch & High Tea",
+  seoTitle: "Mother's Day Catering Dubai | Brunch & Lunch",
   metaDescription:
     "Mother's Day catering in Dubai: elegant brunch, private lunch and high tea at home or venue. Spoil her with a bespoke menu, flowers and seamless service.",
   canonicalPath: '/mothers-day-catering-dubai',

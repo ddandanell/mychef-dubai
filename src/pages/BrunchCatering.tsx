@@ -271,7 +271,7 @@ export default function BrunchCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Brunch Catering Dubai | Private Breakfast Chef"
+        title="Brunch Catering Dubai | Breakfast Chef"
         description="Brunch catering and private breakfast chef service in Dubai. Weekend villa brunches, corporate mornings, fresh pastries, eggs, and artisanal coffee."
         canonicalPath="/brunch-catering-dubai"
         ogImage="/service-villa.webp"

@@ -5,7 +5,7 @@ import type { ServicePageConfig } from './shared/ServiceLandingPage'
 
 const config: ServicePageConfig = {
   slug: 'fathers-day-catering-dubai',
-  seoTitle: "Father's Day Catering Dubai | Brunch, BBQ & Family Feasts",
+  seoTitle: "Father's Day Catering Dubai | Brunch & BBQ",
   metaDescription:
     "Father's Day catering in Dubai: brunch, BBQ, family lunches and private dining to celebrate Dad. Full setup, custom menus and service. Request a quote.",
   canonicalPath: '/fathers-day-catering-dubai',

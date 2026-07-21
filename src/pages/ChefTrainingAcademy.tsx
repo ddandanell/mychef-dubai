@@ -196,7 +196,7 @@ export default function ChefTrainingAcademy() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Chef Training Academy Dubai | MyChef Certification"
+        title="Chef Training Academy Dubai | Certified"
         description="Train with myCHEF Dubai's chef academy. Master private dining standards, food safety, plating, and halal competency for high-end home dining."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/how-we-vet-our-chefs-dubai-hero.webp"

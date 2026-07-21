@@ -175,7 +175,7 @@ export default function QualityGuarantee() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Quality Guarantee Dubai | Not Satisfied, We'll Make It Right"
+        title="Quality Guarantee Dubai | Satisfaction"
         description="myCHEF Dubai quality guarantee: vetted chefs, backup cover, written briefings, and fair resolution if your private chef or catering experience falls short."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/how-we-vet-our-chefs-dubai-hero.webp"

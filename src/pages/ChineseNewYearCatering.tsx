@@ -5,7 +5,7 @@ import type { ServicePageConfig } from './shared/ServiceLandingPage'
 
 const config: ServicePageConfig = {
   slug: 'chinese-new-year-catering-dubai',
-  seoTitle: 'Chinese New Year Catering Dubai | Lunar New Year Feasts',
+  seoTitle: "Chinese New Year Catering Dubai | Feasts",
   metaDescription:
     'Chinese New Year catering in Dubai: Lunar New Year menus, dim sum, Peking duck, live noodle stations and family banquets at home or venues. Request a quote.',
   canonicalPath: '/chinese-new-year-catering-dubai',

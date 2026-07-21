@@ -5,7 +5,7 @@ import type { OccasionPageConfig } from './occasion/OccasionCateringPage'
 
 const config: OccasionPageConfig = {
   slug: 'beach-catering-dubai',
-  seoTitle: 'Beach Catering Dubai | Fresh Seafood & Shoreline Menus',
+  seoTitle: "Beach Catering Dubai | Seafood Menus",
   metaDescription:
     'Beach catering in Dubai for private gatherings, beach clubs and shoreline events. Fresh seafood, grilled meats, salads and full service by the water.',
   canonicalPath: '/beach-catering-dubai',

@@ -5,7 +5,7 @@ import type { OccasionPageConfig } from './occasion/OccasionCateringPage'
 
 const config: OccasionPageConfig = {
   slug: 'kids-birthday-catering-dubai',
-  seoTitle: 'Kids Birthday Catering Dubai | Fun, Safe Party Food',
+  seoTitle: "Kids Birthday Catering Dubai | Party Food",
   metaDescription:
     'Kids birthday party catering in Dubai: nut-free, allergy-aware menus, fun food stations, themed treats and full setup. Request a custom party quote today.',
   canonicalPath: '/kids-birthday-catering-dubai',

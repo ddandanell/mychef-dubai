@@ -5,7 +5,7 @@ import type { DietaryPageConfig } from './dietary/DietaryCateringPage'
 
 const config: DietaryPageConfig = {
   slug: 'nut-free-catering-dubai',
-  seoTitle: 'Nut-Free Private Dining & Allergy-Safe Menus Dubai',
+  seoTitle: "Nut-Free Private Dining & Menus Dubai",
   metaDescription:
     'Nut-free menus designed for private events and intimate dining in Dubai. myCHEF coordinates allergy-safe chef experiences — tell us your requirements.',
   canonicalPath: '/nut-free-catering-dubai',

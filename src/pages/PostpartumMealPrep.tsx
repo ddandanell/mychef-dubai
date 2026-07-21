@@ -174,7 +174,7 @@ export default function PostpartumMealPrep() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Postpartum Meal Prep Dubai | New Mother Recovery Meals"
+        title="Postpartum Meal Prep Dubai | Recovery"
         description="Postpartum meal prep in Dubai by a private chef. Nutrient-dense, culturally appropriate recovery meals for new mothers during the fourth trimester."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/weekly-meal-prep-dubai-hero.webp"

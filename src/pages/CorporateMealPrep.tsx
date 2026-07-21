@@ -264,7 +264,7 @@ export default function CorporateMealPrep() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Corporate Meal Prep Dubai | Recurring Team Programmes"
+        title="Corporate Meal Prep Dubai | Team Plans"
         description="Corporate meal prep in Dubai — recurring portioned meal programmes, wellness retainers, and balanced menus delivered to your workplace. Request your custom quote today."
         canonicalPath="/corporate-meal-prep-dubai"
         ogImage="/service-corporate.webp"

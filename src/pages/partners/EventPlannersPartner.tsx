@@ -5,7 +5,7 @@ export default function EventPlannersPartner() {
   return (
     <PartnerPageTemplate
       name="Event Planners"
-      seoTitle="Event Planner Partnership Dubai | Catering Partner"
+      seoTitle="Event Planner Partnership Dubai"
       description="Partner with myCHEF Dubai for reliable, premium catering and private chef services for your events across Dubai."
       canonicalPath="/partners/event-planners-dubai"
       ogImage="/images/events-catering-dubai-hero.webp"

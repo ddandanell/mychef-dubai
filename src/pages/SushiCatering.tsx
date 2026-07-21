@@ -270,7 +270,7 @@ export default function SushiCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Sushi Catering Dubai | Sashimi & Live Sushi Chef"
+        title="Sushi Catering Dubai | Live Sushi Chef"
         description="Sushi catering in Dubai with sashimi and nigiri platters, signature maki, and a live sushi chef for villas, yachts, and corporate events. Request your custom quote."
         canonicalPath="/sushi-catering-dubai"
         ogImage="/menu-seafood.webp"

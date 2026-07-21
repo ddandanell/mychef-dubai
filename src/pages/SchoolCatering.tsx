@@ -276,7 +276,7 @@ export default function SchoolCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="School Catering Dubai | Nutritious Student Meals"
+        title="School Catering Dubai | Student Meals"
         description="School catering in Dubai with nutritious, balanced student lunches, halal menus, allergen-aware service, and daily programmes. Request your custom quote today."
         canonicalPath="/school-catering-dubai"
         ogImage="/service-catering.webp"

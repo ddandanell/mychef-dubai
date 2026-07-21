@@ -260,7 +260,7 @@ export default function BrandActivationCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Brand Activation Catering Dubai | Experiential"
+        title="Brand Activation Catering Dubai"
         description="Create memorable brand activations with experiential catering in Dubai. Sampling stations, themed menus, live chefs & branded food experiences."
         canonicalPath="/brand-activation-catering-dubai"
         ogImage="/images/brand-activation-catering-dubai-hero.webp"

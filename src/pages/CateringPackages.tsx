@@ -116,7 +116,7 @@ export default function CateringPackages() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Catering Packages Dubai | Private Chef & Event Menus"
+        title="Catering Packages Dubai | Chef & Event"
         description="Indicative catering packages in Dubai for date nights, family dinners, birthdays, corporate events and weekly meal prep. See what's included and request a quote."
         canonicalPath="/catering-packages-dubai"
         ogImage="/images/catering-packages-dubai-hero.webp"

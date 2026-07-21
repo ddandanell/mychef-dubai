@@ -363,7 +363,7 @@ export default function Corporate() {
   return (
     <>
       <SEO
-        title="Corporate Dining & Private Chef Experiences Dubai"
+        title="Corporate Dining & Private Chef Dubai"
         description="Private dining experiences and chef-coordinated corporate events in Dubai. myCHEF designs menus and manages every detail — request a tailored quote."
         canonicalPath="/corporate"
         ogImage="/service-corporate.webp"

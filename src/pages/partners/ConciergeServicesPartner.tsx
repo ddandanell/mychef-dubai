@@ -5,7 +5,7 @@ export default function ConciergeServicesPartner() {
   return (
     <PartnerPageTemplate
       name="Concierge Services"
-      seoTitle="Concierge Partnership Dubai | Private Chef & Catering"
+      seoTitle="Concierge Partnership Dubai | Catering"
       description="Partner with myCHEF Dubai to offer your concierge clients exclusive private chef and luxury catering experiences across Dubai."
       canonicalPath="/partners/concierge-services-dubai"
       ogImage="/images/luxury-dining-dubai-hero.webp"

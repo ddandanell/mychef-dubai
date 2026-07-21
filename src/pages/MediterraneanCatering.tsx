@@ -264,7 +264,7 @@ export default function MediterraneanCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Mediterranean Catering Dubai | Seafood & Mezze"
+        title="Mediterranean Catering Dubai | Seafood"
         description="Mediterranean catering in Dubai — fresh seafood, Greek mezze, chargrilled mains, and healthy, olive-oil-led menus for villas, summer events, and corporate dining."
         canonicalPath="/mediterranean-catering-dubai"
         ogImage="/menu-seafood.webp"

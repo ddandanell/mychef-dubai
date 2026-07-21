@@ -5,7 +5,7 @@ import type { ServicePageConfig } from './shared/ServiceLandingPage'
 
 const config: ServicePageConfig = {
   slug: 'shawarma-station-dubai',
-  seoTitle: 'Live Shawarma & Kebab Station Dubai | Arabic Catering',
+  seoTitle: "Live Shawarma & Kebab Station Dubai",
   metaDescription:
     'Live shawarma and kebab station hire in Dubai: freshly carved meats, grilled skewers, Arabic breads and salads for weddings, parties and corporate events.',
   canonicalPath: '/shawarma-station-dubai',

@@ -4,7 +4,7 @@ export default function DateNightPackage() {
   return (
     <PackagePageTemplate
       name="Date Night"
-      seoTitle="Date Night Private Chef Package Dubai | Romantic Dinner"
+      seoTitle="Date Night Private Chef Package Dubai"
       description="A romantic private chef dinner for two in your Dubai home, villa, or apartment. The Date Night package includes a bespoke 3-course menu, personal chef service, elegant plating, and full cleanup."
       canonicalPath="/date-night-package-dubai"
       ogImage="/images/romantic-dinner-dubai-hero.webp"

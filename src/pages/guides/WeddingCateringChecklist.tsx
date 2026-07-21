@@ -193,7 +193,7 @@ export default function WeddingCateringChecklist() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Wedding Catering Checklist Dubai | Planning Guide"
+        title="Wedding Catering Checklist Dubai"
         description="A wedding catering checklist for Dubai celebrations: timeline, menu decisions, tastings, dietary needs, bar service, cake, rentals, staff, setup, and cleanup."
         canonicalPath="/wedding-catering-checklist-dubai"
         ogImage="/service-events.webp"

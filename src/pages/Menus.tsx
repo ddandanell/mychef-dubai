@@ -240,7 +240,7 @@ export default function Menus() {
   return (
     <>
       <SEO
-        title="Menus & Cuisine Dubai | Private Chef Inspiration"
+        title="Menus & Cuisine Dubai | Chef Inspiration"
         description="Explore bespoke menu options from myCHEF Dubai. Fine dining, Mediterranean, Middle Eastern, Asian fusion, and more. Every menu is custom-designed for your event."
         canonicalPath="/menus"
         ogImage="/images/catering-dubai-hero.webp"

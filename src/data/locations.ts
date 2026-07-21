@@ -53,7 +53,7 @@ const allLocations: LocationData[] = [
 {
     slug: 'dubai-marina',
     name: 'Dubai Marina',
-    title: 'Luxury Private Chef & Catering in Dubai Marina | myCHEF',
+    title: 'Private Chef & Catering Dubai Marina',
     metaDescription:
       'Luxury catering and private chef in Dubai Marina. Yacht parties, penthouse dinners and sunset events with tailored menus, setup and cleanup. Request a quote.',
     h1: 'Private Chef & Catering Dubai Marina',
@@ -250,7 +250,7 @@ const allLocations: LocationData[] = [
   {
     slug: 'downtown-dubai',
     name: 'Downtown Dubai',
-    title: 'Luxury Catering in Downtown Dubai & Private Chef | myCHEF',
+    title: 'Private Chef & Catering Downtown Dubai',
     metaDescription:
       'Private chef and luxury catering in Downtown Dubai. Burj Khalifa views, corporate events and penthouse dinners with tailored menus. Request a quote today.',
     h1: 'Private Chef & Catering Downtown Dubai',
@@ -447,7 +447,7 @@ const allLocations: LocationData[] = [
   {
     slug: 'palm-jumeirah',
     name: 'Palm Jumeirah',
-    title: 'Luxury Private Chef & Catering in Palm Jumeirah | myCHEF',
+    title: 'Private Chef & Catering Palm Jumeirah',
     metaDescription:
       'Hire a private chef for luxury catering in Palm Jumeirah. Seven-course villa dining, beach BBQs and discreet service. Request your bespoke proposal today.',
     h1: 'Private Chef & Catering Palm Jumeirah',
@@ -643,7 +643,7 @@ const allLocations: LocationData[] = [
   {
     slug: 'jumeirah',
     name: 'Jumeirah',
-    title: 'Fine Dining Private Chef & Catering Jumeirah Dubai | myCHEF',
+    title: 'Private Chef & Catering Jumeirah Dubai',
     metaDescription:
       'Beachfront private chef and catering in Jumeirah Dubai. Villa dinners, family celebrations and garden parties with tailored menus. Get a custom quote today.',
     h1: 'Private Chef & Catering Jumeirah Dubai',
@@ -840,7 +840,7 @@ const allLocations: LocationData[] = [
   {
     slug: 'jbr',
     name: 'JBR',
-    title: 'Luxury Beachfront Catering JBR Dubai & Private Chef | myCHEF',
+    title: 'Beachfront Catering & Private Chef JBR',
     metaDescription:
       'Beachfront catering and private chef in JBR Dubai. Birthday parties, apartment gatherings and sunset dinners with tailored menus. Request a custom quote today.',
     h1: 'Private Chef & Catering JBR Dubai',
@@ -1038,7 +1038,7 @@ const allLocations: LocationData[] = [
 {
     slug: 'business-bay',
     name: 'Business Bay',
-    title: 'Premium Private Chef & Catering Business Bay Dubai | myCHEF',
+    title: 'Private Chef & Catering Business Bay Dubai',
     metaDescription:
       'Book myCHEF Dubai for private chef and catering in Business Bay. Elevated office lunches, corporate events and canal-front dining. Request a proposal today.',
     h1: 'Private Chef & Catering Business Bay Dubai',
@@ -1229,7 +1229,7 @@ const allLocations: LocationData[] = [
   {
     slug: 'difc',
     name: 'DIFC',
-    title: 'Corporate Catering & Private Chef in DIFC Dubai | myCHEF',
+    title: 'Corporate Catering & Private Chef DIFC Dubai',
     metaDescription:
       'Book myCHEF Dubai for private chef and corporate catering in DIFC. Power lunches, boardroom dining and galas for finance teams. Request bespoke menu today.',
     h1: 'Corporate Catering & Private Chef DIFC Dubai',
@@ -1414,7 +1414,7 @@ const allLocations: LocationData[] = [
   {
     slug: 'emirates-hills',
     name: 'Emirates Hills',
-    title: 'Luxury Private Chef & Catering Emirates Hills Dubai | myCHEF',
+    title: 'Private Chef & Catering Emirates Hills Dubai',
     metaDescription:
       'Hire a discreet private chef in Emirates Hills with myCHEF Dubai. Villa dining, tasting menus and private service for ultra-luxury homes. Request a proposal.',
     h1: 'Private Chef & Villa Catering Emirates Hills Dubai',
@@ -1605,7 +1605,7 @@ const allLocations: LocationData[] = [
   {
     slug: 'arabian-ranches',
     name: 'Arabian Ranches',
-    title: 'Family Catering & Private Chef Arabian Ranches, myCHEF Dubai',
+    title: 'Private Chef & Catering Arabian Ranches',
     metaDescription:
       'Book myCHEF Dubai for family catering and private chef service in Arabian Ranches. Villa BBQs, community events and children\'s parties. Request a menu now.',
     h1: 'Family Catering & Private Chef Arabian Ranches Dubai',
@@ -1796,7 +1796,7 @@ const allLocations: LocationData[] = [
   {
     slug: 'dubai-hills',
     name: 'Dubai Hills',
-    title: 'Private Chef & Family Catering Dubai Hills Estate | myCHEF',
+    title: 'Private Chef & Catering Dubai Hills Estate',
     metaDescription:
       'Book myCHEF Dubai for private chef and family catering in Dubai Hills. Villa garden dining, golf events and birthday celebrations. Request a proposal today.',
     h1: 'Private Chef & Catering Dubai Hills Dubai',
@@ -1988,7 +1988,7 @@ const allLocations: LocationData[] = [
 {
     slug: "jvc",
     name: "JVC",
-    title: "Catering JVC Dubai | Private Chef & Events | myCHEF",
+    title: "Catering JVC Dubai | Private Chef & Events",
     metaDescription: "Private chef and catering in JVC Dubai for family celebrations, birthday parties and home gatherings. Custom menus, full setup and cleanup. Request a quote today.",
     h1: "Private Chef & Catering JVC Dubai",
     heroImage: "/loc-dubai-marina.webp",
@@ -2102,7 +2102,7 @@ const allLocations: LocationData[] = [
   {
     slug: "jlt",
     name: "JLT",
-    title: "Catering JLT Dubai | Office & Private Events | myCHEF",
+    title: "Catering JLT Dubai | Office & Private Events",
     metaDescription: "Private chef and catering in JLT Dubai for office lunches, corporate events and apartment gatherings around the lakes. Custom menus. Get a quote today.",
     h1: "Private Chef & Catering JLT Dubai",
     heroImage: "/loc-dubai-marina.webp",
@@ -2217,7 +2217,7 @@ const allLocations: LocationData[] = [
   {
     slug: "bluewaters-island",
     name: "Bluewaters",
-    title: "Catering Bluewaters Dubai | Private Chef | myCHEF",
+    title: "Catering Bluewaters Dubai | Private Chef",
     metaDescription: "Private chef and catering on Bluewaters Island Dubai for residents, visitors and short-stay celebrations. Ain Dubai views, custom menus. Request your quote.",
     h1: "Private Chef & Catering Bluewaters Dubai",
     heroImage: "/loc-jbr.webp",
@@ -2330,7 +2330,7 @@ const allLocations: LocationData[] = [
   {
     slug: "umm-suqeim",
     name: "Umm Suqeim",
-    title: "Catering Umm Suqeim Dubai | Private Chef | myCHEF",
+    title: "Catering Umm Suqeim Dubai | Private Chef",
     metaDescription: "Private chef and catering in Umm Suqeim Dubai for beachfront villas, family gatherings and coastal celebrations. Custom menus. Request a quote today.",
     h1: "Private Chef & Catering Umm Suqeim Dubai",
     heroImage: "/loc-jumeirah.webp",
@@ -2443,7 +2443,7 @@ const allLocations: LocationData[] = [
   {
     slug: "al-barsha",
     name: "Al Barsha",
-    title: "Catering Al Barsha Dubai | Private Chef & Events | myCHEF",
+    title: "Catering Al Barsha Dubai | Private Chef",
     metaDescription: "Private chef and catering in Al Barsha Dubai for families, apartments, villas and Mall of the Emirates events. Flexible menus. Request your quote today.",
     h1: "Private Chef & Catering Al Barsha Dubai",
     heroImage: "/loc-downtown.webp",

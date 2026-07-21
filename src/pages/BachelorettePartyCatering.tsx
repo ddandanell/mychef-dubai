@@ -262,7 +262,7 @@ export default function BachelorettePartyCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Bachelorette Party Catering Dubai | Canapes & More"
+        title="Bachelorette Party Catering Dubai"
         description="Bachelorette party catering in Dubai with elegant canapes, grazing tables, cocktails, mocktails, and dessert spreads for villa and rooftop celebrations. Request a proposal."
         canonicalPath="/bachelorette-party-catering-dubai"
         ogImage="/service-events.webp"

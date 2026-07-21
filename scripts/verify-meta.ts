@@ -1,14 +1,20 @@
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
+import allLocations from '../src/data/locations.ts'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const pagesDir = path.resolve(__dirname, '../src/pages')
 
+const SITE_NAME = 'myCHEF Dubai'
+const TITLE_SUFFIX = ` | ${SITE_NAME}`
+const MAX_FINAL_TITLE_LEN = 60
+const MAX_PROP_TITLE_LEN = MAX_FINAL_TITLE_LEN - TITLE_SUFFIX.length
+
 interface Meta {
   title: string
   description: string
-  source: 'direct' | 'config' | 'prop'
+  source: 'direct' | 'config' | 'prop' | 'location' | 'chef'
 }
 
 function findTsx(dir: string): string[] {
@@ -78,14 +84,48 @@ const forbiddenPatterns = [
 const skipFiles = new Set([
   'shared/ServiceLandingPage.tsx',
   'partners/PartnerPageTemplate.tsx',
-  'chefs/ChefProfile.tsx',
   'dietary/DietaryCateringPage.tsx',
   'occasion/OccasionCateringPage.tsx',
-  'LocationDetail.tsx',
 ])
 
-const files = findTsx(pagesDir).sort()
+// These files render SEO dynamically from data sources that are linted separately.
+const coveredByDataSources = new Set([
+  'LocationDetail.tsx',
+  'chefs/ChefProfile.tsx',
+])
+
 let issues = 0
+
+function logIssue(type: string, label: string, detail: string) {
+  issues++
+  console.log(`${type}\t${label}\t${detail}`)
+}
+
+function checkMeta(meta: Meta, label: string) {
+  const finalTitleLen = meta.title.length + TITLE_SUFFIX.length
+
+  if (finalTitleLen > MAX_FINAL_TITLE_LEN) {
+    logIssue(
+      'LONG_TITLE',
+      label,
+      `prop=${meta.title.length} final=${finalTitleLen} "${meta.title}"`
+    )
+  }
+
+  if (/[,|]\s*myCHEF(?:\s+Dubai)?\s*$/.test(meta.title)) {
+    logIssue('DUP_SUFFIX', label, meta.title)
+  }
+
+  for (const pattern of forbiddenPatterns) {
+    if (pattern.test(meta.description)) {
+      logIssue('CLAIM', label, meta.description)
+      break
+    }
+  }
+}
+
+// 1. Lint page components
+const files = findTsx(pagesDir).sort()
 
 for (const f of files) {
   const content = fs.readFileSync(f, 'utf8')
@@ -93,33 +133,72 @@ for (const f of files) {
 
   if (skipFiles.has(rel)) continue
 
-  // Chef profile pages render SEO via the ChefProfile template
+  // Chef profile data files are covered by the explicit chef check below.
   if (rel.startsWith('chefs/') && /import\s+ChefProfile\b/.test(content)) continue
 
   const meta = getMeta(content)
 
   if (!meta) {
-    issues++
-    console.log(`MISSING\t${rel}`)
+    if (!coveredByDataSources.has(rel)) {
+      logIssue('MISSING', rel, '')
+    }
     continue
   }
 
-  if (meta.title.length > 60) {
-    issues++
-    console.log(`LONG_TITLE (${meta.title.length})\t${rel}\t${meta.title}`)
+  checkMeta(meta, rel)
+}
+
+// 2. Lint location data
+for (const loc of allLocations) {
+  checkMeta(
+    {
+      title: loc.title,
+      description: loc.metaDescription,
+      source: 'location',
+    },
+    `locations:${loc.slug}`
+  )
+}
+
+// 3. Lint ChefProfile template and each chef's rendered title
+const chefProfilePath = path.join(pagesDir, 'chefs/ChefProfile.tsx')
+const chefProfileContent = fs.readFileSync(chefProfilePath, 'utf8')
+
+const chefTitleTemplate = chefProfileContent.match(/title=\{`([\s\S]*?)`\}/)
+if (!chefTitleTemplate) {
+  logIssue('CHEF_TEMPLATE', 'chefs/ChefProfile.tsx', 'Could not find title template')
+} else if (chefTitleTemplate[1].includes('myCHEF Dubai')) {
+  logIssue(
+    'DUP_SUFFIX',
+    'chefs/ChefProfile.tsx',
+    `Title template already includes site name: ${chefTitleTemplate[1]}`
+  )
+}
+
+const chefFiles = findTsx(path.join(pagesDir, 'chefs'))
+  .filter((f) => /import\s+ChefProfile\b/.test(fs.readFileSync(f, 'utf8')))
+  .sort()
+
+for (const f of chefFiles) {
+  const content = fs.readFileSync(f, 'utf8')
+  const rel = path.relative(pagesDir, f)
+  const nameMatch = content.match(/name:\s*['"]([^'"]+)['"]/)
+  const titleMatch = content.match(/\btitle:\s*['"]([^'"]+)['"]/)
+
+  if (!nameMatch || !titleMatch) {
+    logIssue('CHEF_DATA', rel, 'Could not extract chef name/title')
+    continue
   }
 
-  if (/\|\s*myCHEF(?:\s+Dubai)?\s*$/.test(meta.title)) {
-    issues++
-    console.log(`DUP_SUFFIX\t${rel}\t${meta.title}`)
-  }
+  const titleProp = `${nameMatch[1]} | ${titleMatch[1]}`
+  const finalTitleLen = titleProp.length + TITLE_SUFFIX.length
 
-  for (const pattern of forbiddenPatterns) {
-    if (pattern.test(meta.description)) {
-      issues++
-      console.log(`CLAIM\t${rel}\t${meta.description}`)
-      break
-    }
+  if (finalTitleLen > MAX_FINAL_TITLE_LEN) {
+    logIssue(
+      'LONG_TITLE',
+      rel,
+      `prop=${titleProp.length} final=${finalTitleLen} "${titleProp}"`
+    )
   }
 }
 

@@ -5,7 +5,7 @@ import type { ServicePageConfig } from './shared/ServiceLandingPage'
 
 const config: ServicePageConfig = {
   slug: 'breakfast-catering-dubai',
-  seoTitle: 'Breakfast Catering Dubai | Office & Private Breakfast Menus',
+  seoTitle: "Breakfast Catering Dubai | Office & Home",
   metaDescription:
     'Breakfast catering in Dubai for offices, villas and hotels. Fresh pastries, hot dishes, healthy bowls, coffee and juice, delivered or fully served. Request a morning menu quote.',
   canonicalPath: '/breakfast-catering-dubai',

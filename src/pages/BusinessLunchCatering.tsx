@@ -264,7 +264,7 @@ export default function BusinessLunchCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Business Lunch Catering Dubai | Boardroom & Clients"
+        title="Business Lunch Catering Dubai | Boardroom"
         description="Business lunch catering in Dubai for boardroom meetings, client hosting, and working lunches. Refined plated or buffet service, timed around your agenda. Request a quote today."
         canonicalPath="/business-lunch-catering-dubai"
         ogImage="/service-corporate.webp"

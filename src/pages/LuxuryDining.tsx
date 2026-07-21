@@ -267,7 +267,7 @@ export default function LuxuryDining() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Luxury Private Dining Dubai | Fine Dining at Home"
+        title="Luxury Private Dining Dubai | Fine Dining"
         description="Experience luxury private dining in Dubai. Romantic dinners, special occasions, and bespoke culinary experiences in your villa or penthouse. Request your custom menu."
         canonicalPath="/luxury-dining-experiences"
         ogImage="/service-luxury-dining.webp"

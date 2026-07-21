@@ -125,7 +125,7 @@ export default function Press() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Press & Media | myCHEF Dubai | Brand Assets & Media Kit"
+        title="Press & Media | Brand Assets & Media Kit"
         description="Download the myCHEF Dubai press kit: brand facts, media assets, linkable resources, and contact details for journalists, bloggers, and partners."
         canonicalPath={`/${SLUG}`}
         ogImage="/images/case-studies-hero.webp"

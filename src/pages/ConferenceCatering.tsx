@@ -264,7 +264,7 @@ export default function ConferenceCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Conference Dining Dubai | Breaks & Working Lunches"
+        title="Conference Dining Dubai | Working Lunches"
         description="Chef-coordinated conference dining in Dubai with coffee breaks, working lunches, and multi-day refreshments. Timed service and rotating menus — request a quote."
         canonicalPath="/conference-catering-dubai"
         ogImage="/service-corporate.webp"

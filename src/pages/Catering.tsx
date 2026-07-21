@@ -294,7 +294,7 @@ export default function Catering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Luxury Catering Dubai | Private Event Catering"
+        title="Luxury Catering Dubai | Private Events"
         description="Premium catering experiences in Dubai for events, corporate functions, weddings, and private celebrations. Bespoke menus, end-to-end coordination, flawless execution. Request a quote."
         canonicalPath="/catering-dubai"
         ogImage="/service-catering.webp"

@@ -86,7 +86,7 @@ export default function ReferralProgramme() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Referral Programme Dubai | Give AED 100, Get AED 100"
+        title="Referral Programme Dubai | Give & Get AED 100"
         description="Refer friends to myCHEF Dubai and earn AED 100 credit for every booking. Your friend also receives AED 100 off their first private chef or catering experience."
         canonicalPath="/referral-programme"
         ogImage="/images/celebration-catering-dubai-hero.webp"

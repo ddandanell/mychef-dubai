@@ -196,7 +196,7 @@ export default function FoundingCustomerOffer() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Founding Customer Offer Dubai | Early Access Private Chef"
+        title="Founding Customer Offer Dubai | Early Access"
         description="Join myCHEF Dubai as a founding customer. Exclusive pricing, priority booking, and premium perks for early members who trust us first."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/home-hero.webp"

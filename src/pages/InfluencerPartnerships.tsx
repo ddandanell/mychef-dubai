@@ -196,7 +196,7 @@ export default function InfluencerPartnerships() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Influencer Partnerships Dubai | MyChef Collaborations"
+        title="Influencer Partnerships Dubai"
         description="Partner with myCHEF Dubai for private chef experiences, content collaborations, and exclusive dining events across the UAE."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/luxury-dining-dubai-hero.webp"

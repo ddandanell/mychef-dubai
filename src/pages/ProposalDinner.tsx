@@ -196,7 +196,7 @@ export default function ProposalDinner() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Proposal Dinner Dubai | Private Chef Proposal Packages"
+        title="Proposal Dinner Dubai | Private Chef"
         description="Plan an unforgettable proposal dinner in Dubai with a private chef, personalised menu, floral styling, photography coordination, and perfect timing."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/romantic-dinner-dubai-hero.webp"
