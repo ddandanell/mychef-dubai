@@ -10,9 +10,10 @@ interface SEOProps {
 }
 
 const SITE_NAME = 'myCHEF Dubai'
+const DEFAULT_TITLE = 'myCHEF Dubai — Premium Private Chef & Luxury Dining Experiences'
 const DEFAULT_DESCRIPTION = 'myCHEF Dubai designs private dining experiences and connects you with handpicked, licensed chefs across Dubai. From villas to yachts — request your custom quote today.'
 const DEFAULT_OG_IMAGE = '/images/home-hero.webp'
-const SITE_URL = 'https://mychef.ae'
+const SITE_URL = 'https://www.mychef.ae'
 
 export default function SEO({
   title,
@@ -22,9 +23,7 @@ export default function SEO({
   noindex = false,
   schema,
 }: SEOProps) {
-  const fullTitle = title
-    ? `${title} | ${SITE_NAME}`
-    : `${SITE_NAME} — Premium Private Chef & Luxury Dining Experiences Dubai`
+  const fullTitle = title ? `${title} | ${SITE_NAME}` : DEFAULT_TITLE
 
   const canonicalUrl = `${SITE_URL}${canonicalPath}`
 
