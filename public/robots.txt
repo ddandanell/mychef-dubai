@@ -3,4 +3,4 @@ Allow: /
 Disallow: /thank-you
 Disallow: /inquiry
 
-Sitemap: https://mychef.ae/sitemap.xml
+Sitemap: https://www.mychef.ae/sitemap.xml

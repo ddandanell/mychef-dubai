@@ -14,7 +14,7 @@ import { fileURLToPath } from 'url'
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const APP_TSX = path.resolve(__dirname, '../src/App.tsx')
 const SITEMAP_OUT = path.resolve(__dirname, '../public/sitemap.xml')
-const DOMAIN = 'https://mychef.ae'
+const DOMAIN = 'https://www.mychef.ae'
 
 // Paths that must never appear in the sitemap
 const EXCLUDED_PATHS = new Set([
