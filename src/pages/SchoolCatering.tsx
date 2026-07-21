@@ -160,7 +160,7 @@ const relatedServices = [
   {
     title: 'University & Student Catering',
     description: 'Fresh, inclusive catering for campus events, societies and graduation celebrations in Dubai.',
-    image: '/images/school-catering-dubai-hero.webp',
+    image: '/service-corporate.webp',
     link: '/university-catering-dubai',
   },
   {
