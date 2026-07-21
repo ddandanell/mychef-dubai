@@ -195,7 +195,7 @@ export default function LoyaltyProgramme() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Loyalty Programme Dubai | Rewards for Private Dining | myCHEF"
+        title="Loyalty Programme Dubai | Rewards for Private Dining"
         description="Earn rewards every time you book a private chef or catering with myCHEF Dubai. Our loyalty programme turns repeat dining into credits and experiences."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/luxury-dining-dubai-hero.webp"

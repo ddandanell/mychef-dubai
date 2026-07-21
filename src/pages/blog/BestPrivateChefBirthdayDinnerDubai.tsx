@@ -95,7 +95,7 @@ export default function BestPrivateChefBirthdayDinnerDubai() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Best Private Chef Birthday Dinner in Dubai: Menu Ideas, Costs & How to Book | myCHEF"
+        title="Best Private Chef Birthday Dinner Dubai | Menu Ideas"
         description="Plan a private chef birthday dinner in Dubai with menu ideas, indicative costs, booking tips, and answers to the most common host questions."
         canonicalPath={`/blog/${SLUG}`}
         ogImage="/images/birthday-catering-dubai-hero.webp"

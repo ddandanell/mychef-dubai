@@ -74,7 +74,7 @@ export default function CorporateCateringFullServiceVsDropOff() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Corporate Catering: Full-Service vs Drop-Off | myCHEF"
+        title="Corporate Catering: Full-Service vs Drop-Off"
         description="Compare drop-off and fully-coordinated catering by cost, setup, staffing, and guest experience so you can choose the right format."
         canonicalPath={`/blog/${SLUG}`}
         ogImage="/images/corporate-catering-dubai-hero.webp"

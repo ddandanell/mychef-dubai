@@ -293,7 +293,7 @@ export default function PrivateDiningGuide() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Private Dining Dubai: A Complete Guide | myCHEF"
+        title="Private Dining Dubai: A Complete Guide"
         description="A complete guide to private dining in Dubai: where to host, types of experiences, how to choose a private chef, menu planning, pricing, and FAQs."
         canonicalPath="/guide/private-dining-dubai"
         ogImage="/images/private-dining-guide-hero.webp"

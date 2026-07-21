@@ -5,7 +5,7 @@ import type { ServicePageConfig } from './shared/ServiceLandingPage'
 
 const config: ServicePageConfig = {
   slug: 'graduation-catering-dubai',
-  seoTitle: 'Graduation Party Catering Dubai | School & University Celebrations',
+  seoTitle: 'Graduation Party Dining Dubai | School & Uni',
   metaDescription:
     'Graduation party catering in Dubai for schools, universities and private celebrations. Buffet, canapés, live stations and full event service. Request a quote.',
   canonicalPath: '/graduation-catering-dubai',

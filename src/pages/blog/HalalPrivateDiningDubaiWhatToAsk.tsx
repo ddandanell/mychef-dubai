@@ -95,7 +95,7 @@ export default function HalalPrivateDiningDubaiWhatToAsk() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Halal Private Dining in Dubai: What to Ask Before You Book | myCHEF"
+        title="Halal Private Dining in Dubai: What to Ask Before You Book"
         description="A practical guide for Dubai hosts booking halal private dining, covering certification, cross-contamination, alcohol policy, sourcing, and indicative costs."
         canonicalPath={`/blog/${SLUG}`}
         ogImage="/images/halal-catering-dubai-hero.webp"

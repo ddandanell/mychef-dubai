@@ -290,7 +290,7 @@ export default function EventCateringPriceGuide2026() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Dubai Event Catering Price Guide 2026 | Budget & Quotes | myCHEF"
+        title="Dubai Event Catering Price Guide 2026 | Budget & Quotes"
         description="Honest Dubai event catering prices for 2026: per-person ranges for weddings, corporate events, yacht catering, BBQ, buffet, and plated dinners. Plus factors that affect cost."
         canonicalPath="/dubai-event-catering-price-guide-2026"
         ogImage="/images/event-catering-price-guide-hero.webp"

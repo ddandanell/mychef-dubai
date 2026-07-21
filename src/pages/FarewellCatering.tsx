@@ -5,7 +5,7 @@ import type { ServicePageConfig } from './shared/ServiceLandingPage'
 
 const config: ServicePageConfig = {
   slug: 'farewell-catering-dubai',
-  seoTitle: 'Farewell & Retirement Catering Dubai | Leaving & Send-Off Parties',
+  seoTitle: 'Farewell & Retirement Dining Dubai | Send-Off',
   metaDescription:
     'Farewell and retirement party catering in Dubai for office send-offs, retirement celebrations and goodbye gatherings. Buffets, canapés, live stations and full service.',
   canonicalPath: '/farewell-catering-dubai',

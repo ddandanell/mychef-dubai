@@ -363,8 +363,8 @@ export default function Corporate() {
   return (
     <>
       <SEO
-        title="Corporate Catering Dubai"
-        description="Professional corporate catering in Dubai. Boardroom lunches, client dinners, team events, and office catering. Discreet, premium, reliable. Request a quote."
+        title="Corporate Dining & Private Chef Experiences Dubai"
+        description="Private dining experiences and chef-coordinated corporate events in Dubai. myCHEF designs menus and manages every detail — request a tailored quote."
         canonicalPath="/corporate"
         ogImage="/service-corporate.webp"
         schema={schema as unknown as Record<string, unknown>}

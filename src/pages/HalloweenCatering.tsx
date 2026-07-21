@@ -5,7 +5,7 @@ import type { OccasionPageConfig } from './occasion/OccasionCateringPage'
 
 const config: OccasionPageConfig = {
   slug: 'halloween-catering-dubai',
-  seoTitle: 'Halloween Catering Dubai | Spooky Private Party & Event Menus',
+  seoTitle: 'Halloween Dining Dubai | Spooky Party Menus',
   metaDescription:
     'Halloween catering in Dubai. Spooky, stylish menus for home parties, kids events and venue celebrations. Private chef service, themed treats and full setup included.',
   canonicalPath: '/halloween-catering-dubai',

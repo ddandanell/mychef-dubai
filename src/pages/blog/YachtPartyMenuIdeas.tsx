@@ -63,7 +63,7 @@ export default function YachtPartyMenuIdeas() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Yacht Party Menu Ideas in Dubai | myCHEF"
+        title="Yacht Party Menu Ideas in Dubai"
         description="Plan a stylish, seaworthy menu for your next Dubai Marina or Palm Jumeirah cruise with canapés, fresh seafood, and desserts that travel well."
         canonicalPath={`/blog/${SLUG}`}
         ogImage="/images/yacht-catering-dubai-hero.webp"

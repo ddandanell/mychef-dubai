@@ -59,7 +59,7 @@ export default function Locations() {
   return (
     <div ref={pageRef}>
       <SEO
-        title="Private Chef & Catering Locations | myCHEF Dubai"
+        title="Private Chef & Catering Locations"
         description="Premium private chef and luxury catering services across Dubai. Palm Jumeirah, Downtown, Dubai Marina, Emirates Hills, JBR, DIFC, Business Bay, JVC & more."
         canonicalPath="/locations"
         ogImage="/loc-downtown.webp"

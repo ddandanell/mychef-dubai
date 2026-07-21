@@ -5,9 +5,9 @@ import type { ServicePageConfig } from './shared/ServiceLandingPage'
 
 const config: ServicePageConfig = {
   slug: 'exhibition-catering-dubai',
-  seoTitle: 'Exhibition & Trade Show Catering Dubai | DWTC & Expo City',
+  seoTitle: 'Exhibition Dining Dubai | DWTC & Expo City',
   metaDescription:
-    'Exhibition and trade show catering in Dubai for DWTC, Expo City and venues across the city. Branded counters, canapés, coffee stations and full-service stands for exhibitors and organisers.',
+    'Chef-coordinated exhibition dining in Dubai for DWTC, Expo City and venues across the city. Branded counters, canapés, coffee stations and staffed stands for exhibitors and organisers.',
   canonicalPath: '/exhibition-catering-dubai',
   ogImage: '/service-events.webp',
   breadcrumbLabel: 'Exhibition Catering Dubai',

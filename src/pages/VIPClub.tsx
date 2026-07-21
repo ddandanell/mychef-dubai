@@ -248,7 +248,7 @@ export default function VIPClub() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="VIP Club Dubai | Private Chef Membership | myCHEF"
+        title="VIP Club Dubai | Private Chef Membership"
         description="Join the myCHEF VIP Club for priority private chef bookings, exclusive menus, member rates, and concierge dining across Dubai."
         canonicalPath="/vip-club"
         ogImage="/images/vip-club-hero.webp"

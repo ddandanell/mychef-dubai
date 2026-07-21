@@ -264,8 +264,8 @@ export default function StaffMealsCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Staff Meals Catering Dubai | Daily Team & Canteen"
-        description="Staff meals catering in Dubai with daily team meals, canteen service, and recurring retainers. Halal menus, reliable delivery, and clear billing. Request your quote today."
+        title="Staff Meals & Team Dining Dubai | Daily & Retainer"
+        description="Chef-coordinated staff meals and team dining in Dubai with daily service, canteen-style menus, and recurring retainers. Halal options and clear billing — request a quote."
         canonicalPath="/staff-meals-catering-dubai"
         ogImage="/service-corporate.webp"
         schema={schema}

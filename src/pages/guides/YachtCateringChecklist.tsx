@@ -273,7 +273,7 @@ export default function YachtCateringChecklist() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Yacht Catering Checklist Dubai | Plan a Flawless Cruise | myCHEF"
+        title="Yacht Catering Checklist Dubai | Plan a Flawless Cruise"
         description="Downloadable yacht catering checklist for Dubai. Plan menus, galley logistics, loading, service, and cleanup for yacht events in Dubai Marina and the Arabian Gulf."
         canonicalPath="/yacht-catering-checklist-dubai"
         ogImage="/images/yacht-catering-checklist-hero.webp"

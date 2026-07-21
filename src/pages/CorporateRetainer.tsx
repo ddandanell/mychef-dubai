@@ -190,7 +190,7 @@ export default function CorporateRetainer() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Corporate Retainer Catering Dubai | Monthly Catering Credit | myCHEF"
+        title="Corporate Retainer Catering Dubai | Monthly Catering Credit"
         description="myCHEF Dubai corporate retainer programmes for Dubai businesses. Monthly catering credit, priority booking, consolidated invoicing, and dedicated account management."
         canonicalPath={CANONICAL_PATH}
         ogImage="/service-corporate.webp"

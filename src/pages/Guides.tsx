@@ -199,7 +199,7 @@ export default function Guides() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Catering Guides Dubai | Prices, Checklists & Planning | myCHEF"
+        title="Catering Guides Dubai | Prices, Checklists & Planning"
         description="Free Dubai catering guides: prices, wedding and corporate checklists, villa ideas, yacht catering, Ramadan planning, private chef vs catering, and more."
         canonicalPath="/guides"
         ogImage="/service-catering.webp"

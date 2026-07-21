@@ -215,7 +215,7 @@ export default function DubaiFoodTrendsReport2026() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Dubai Food Trends Report 2026 | Catering & Private Dining Insights"
+        title="Dubai Food Trends Report 2026 | Dining Insights"
         description="The Dubai catering trends shaping events in 2026: local sourcing, inclusive menus, chef-led tasting experiences, global-Dubai cuisine, live stations and non-alcoholic pairings."
         canonicalPath="/dubai-food-trends-report-2026"
         ogImage="/images/dubai-food-trends-report-hero.webp"

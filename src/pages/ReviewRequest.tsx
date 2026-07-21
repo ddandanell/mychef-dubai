@@ -90,7 +90,7 @@ export default function ReviewRequest() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Leave a Review & Get AED 50 Credit | myCHEF Dubai"
+        title="Leave a Review & Get AED 50 Credit"
         description="Share your myCHEF Dubai experience and receive AED 50 credit toward your next private chef or catering booking."
         canonicalPath={`/${SLUG}`}
         ogImage="/images/about-mychef-dubai-hero.webp"

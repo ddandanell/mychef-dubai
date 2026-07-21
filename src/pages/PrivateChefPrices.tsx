@@ -189,7 +189,7 @@ export default function PrivateChefPrices() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Private Chef Prices Dubai | Cost Per Person & Group | myCHEF"
+        title="Private Chef Prices Dubai | Cost Per Person & Group"
         description="Indicative private chef prices in Dubai by group size, menu style and service level. See what's included, cost factors and FAQs. Request a custom quote."
         canonicalPath="/private-chef-prices-dubai"
         ogImage="/images/private-chef-prices-dubai-hero.webp"

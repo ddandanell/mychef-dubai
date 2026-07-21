@@ -251,8 +251,8 @@ export default function GalaDinnerCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Gala Dinner Catering Dubai | Formal Events | myCHEF"
-        description="Elegant gala dinner catering in Dubai for awards nights, charity balls, and corporate galas. Multi-course menus and white-glove service."
+        title="Gala Dinner Dining Dubai | Formal Events"
+        description="Chef-coordinated gala dinner experiences in Dubai for awards nights, charity balls, and corporate galas. Multi-course menus and white-glove service."
         canonicalPath="/gala-dinner-catering-dubai"
         ogImage="/images/gala-dinner-catering-dubai-hero.webp"
         schema={schema}

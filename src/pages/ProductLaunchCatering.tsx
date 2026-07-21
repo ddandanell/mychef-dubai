@@ -257,7 +257,7 @@ export default function ProductLaunchCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Product Launch Catering Dubai | B2B Events | myCHEF"
+        title="Product Launch Catering Dubai | B2B Events"
         description="Impress investors, media, and guests with product launch catering in Dubai. Branded menus, canapés, live stations & full service."
         canonicalPath="/product-launch-catering-dubai"
         ogImage="/images/product-launch-catering-dubai-hero.webp"

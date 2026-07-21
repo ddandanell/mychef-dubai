@@ -221,7 +221,7 @@ export default function CorporateCateringChecklist() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Corporate Catering Checklist Dubai | Office Events | myCHEF"
+        title="Corporate Catering Checklist Dubai | Office Events"
         description="A corporate catering checklist for Dubai businesses: headcount, dietary needs, format, timing, budget, menu options, service flow, and post-event follow-up."
         canonicalPath="/corporate-catering-checklist-dubai"
         ogImage="/service-corporate.webp"

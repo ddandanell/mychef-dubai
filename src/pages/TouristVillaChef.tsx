@@ -193,7 +193,7 @@ export default function TouristVillaChef() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Tourist Villa Chef Dubai | Multi-Day Private Chef Packages | myCHEF"
+        title="Tourist Villa Chef Dubai | Multi-Day Private Chef Packages"
         description="Tourist villa chef packages in Dubai. Multi-day private chef service for luxury villa rentals, with themed dinners and an Arabic feast finale."
         canonicalPath={CANONICAL_PATH}
         ogImage="/service-villa.webp"

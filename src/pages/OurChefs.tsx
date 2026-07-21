@@ -145,7 +145,7 @@ export default function OurChefs() {
   return (
     <>
       <SEO
-        title="The Chefs We Choose | myCHEF Dubai | Private Chef Network & Culinary Experts"
+        title="Private Chef Network Dubai | Meet Our Vetted Chefs"
         description="Meet the experienced private chefs in the myCHEF Dubai network. Professional independent chefs specializing in fine dining, international cuisine, and luxury hospitality."
         canonicalPath="/our-chefs"
         ogImage="/images/about-mychef-dubai-hero.webp"

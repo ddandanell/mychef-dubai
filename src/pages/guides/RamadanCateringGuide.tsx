@@ -204,7 +204,7 @@ export default function RamadanCateringGuide() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Ramadan Catering Guide Dubai | Iftar, Suhoor & Eid | myCHEF"
+        title="Ramadan Catering Guide Dubai | Iftar, Suhoor & Eid"
         description="Ramadan catering guide for Dubai: iftar, suhoor, and Eid menus, timing around sunset and Fajr, halal requirements, large gatherings, and booking timelines."
         canonicalPath="/ramadan-catering-guide-dubai"
         ogImage="/service-catering.webp"

@@ -95,7 +95,7 @@ export default function PrivateChefPalmJumeirahGuide() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Private Chef Palm Jumeirah: A Complete Guide | myCHEF"
+        title="Private Chef Palm Jumeirah: A Complete Guide"
         description="A practical guide to hiring a private chef in Palm Jumeirah, covering menus, service styles, indicative pricing, and how to book a curated dining experience at home."
         canonicalPath={`/blog/${SLUG}`}
         ogImage="/images/luxury-dining-dubai-hero.webp"

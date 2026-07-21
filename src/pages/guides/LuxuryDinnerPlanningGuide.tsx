@@ -220,7 +220,7 @@ export default function LuxuryDinnerPlanningGuide() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Luxury Dinner Planning Guide Dubai | Private Dining | myCHEF"
+        title="Luxury Dinner Planning Guide Dubai | Private Dining"
         description="Plan a luxury dinner in Dubai: tasting menus, tablescape, wine pairings, private chef, service staff, lighting, music, ambience, and hosting tips."
         canonicalPath="/luxury-dinner-planning-guide-dubai"
         ogImage="/service-luxury-dining.webp"

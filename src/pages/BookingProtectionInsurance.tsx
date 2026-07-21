@@ -190,7 +190,7 @@ export default function BookingProtectionInsurance() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Booking Protection & Insurance | myCHEF Dubai"
+        title="Booking Protection & Insurance"
         description="Learn how myCHEF Dubai protects your booking with backup chefs, liability insurance, fair cancellation terms, deposit structure, and complaint handling."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/booking-protection-insurance-dubai-hero.webp"

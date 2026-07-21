@@ -174,7 +174,7 @@ export default function FitnessMealPrep() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Fitness Meal Prep Dubai | Macro-Calculated Private Chef Meals | myCHEF"
+        title="Fitness Meal Prep Dubai | Macro-Calculated Private Chef"
         description="Fitness meal prep in Dubai by a private chef. Macro-calculated, calorie-precision meals for fat loss, muscle gain, and athletic performance."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/healthy-catering-dubai-hero.webp"

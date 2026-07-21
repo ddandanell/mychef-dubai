@@ -220,7 +220,7 @@ export default function VillaCateringIdeas() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Villa Catering Ideas Dubai | Private Chef & Party Menus | myCHEF"
+        title="Villa Catering Ideas Dubai | Private Chef & Party Menus"
         description="Villa catering ideas for Dubai homes: BBQ, mezze, brunch, canapés, seated dinners, live stations, and dessert tables. Setup tips, staffing, and seasonality advice."
         canonicalPath="/villa-catering-ideas-dubai"
         ogImage="/service-villa.webp"

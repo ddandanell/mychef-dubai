@@ -364,7 +364,7 @@ export default function WeddingMenuPlanningGuide() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Wedding Catering Menu Planning Guide Dubai | myCHEF"
+        title="Wedding Catering Menu Planning Guide Dubai"
         description="Plan a Dubai wedding catering menu: service styles, cuisines, dietary needs, sample menus, and how to work with your caterer. WhatsApp +971 55 174 4849."
         canonicalPath="/wedding-catering-menu-planning-dubai"
         ogImage="/images/wedding-menu-planning-guide-hero.webp"

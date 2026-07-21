@@ -63,7 +63,7 @@ export default function PrivateChefCostDubai() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="How Much Does a Private Chef Cost in Dubai? | myCHEF"
+        title="How Much Does a Private Chef Cost in Dubai?"
         description="A practical breakdown of private chef pricing in Dubai, the factors that move the cost, and how to get an accurate quote for your dinner."
         canonicalPath={`/blog/${SLUG}`}
         ogImage="/images/private-chef-dubai-hero.webp"

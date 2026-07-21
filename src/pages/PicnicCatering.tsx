@@ -5,7 +5,7 @@ import type { ServicePageConfig } from './shared/ServiceLandingPage'
 
 const config: ServicePageConfig = {
   slug: 'picnic-catering-dubai',
-  seoTitle: 'Picnic Catering Dubai | Styled Outdoor Baskets & Grazing Boxes',
+  seoTitle: 'Picnic Dining Dubai | Outdoor Baskets & Grazing',
   metaDescription:
     'Picnic catering in Dubai: beautifully styled outdoor baskets, grazing boxes, fresh sandwiches and salads delivered to parks, beaches, deserts and villas.',
   canonicalPath: '/picnic-catering-dubai',

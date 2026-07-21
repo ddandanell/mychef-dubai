@@ -188,7 +188,7 @@ export default function FAQ() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="FAQ | Private Chef & Catering Dubai | myCHEF"
+        title="FAQ | Private Chef & Catering Dubai"
         description="Find answers about private chef services, catering, pricing, booking, chefs, halal, locations, and more. myCHEF Dubai's comprehensive FAQ hub."
         canonicalPath="/faq"
         ogImage="/images/faq-dubai-hero.webp"

@@ -310,8 +310,8 @@ export default function PartyCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Party Catering Dubai | Private Celebrations"
-        description="Premium party catering in Dubai for birthdays, bachelor and bachelorette parties, baby showers, and private celebrations. Bespoke menus, canapés, drinks, full service."
+        title="Party Dining Dubai | Private Celebrations"
+        description="Chef-coordinated party dining in Dubai for birthdays, bachelor and bachelorette parties, baby showers, and private celebrations. Bespoke menus, canapés, and drinks."
         canonicalPath="/party-catering-dubai"
         ogImage="/service-events.webp"
         schema={schema}

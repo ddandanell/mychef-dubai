@@ -4,7 +4,7 @@ export default function CorporateDinnerPackage() {
   return (
     <PackagePageTemplate
       name="Corporate Dinner"
-      seoTitle="Corporate Dinner Catering Package Dubai | Boardroom & Team Dining"
+      seoTitle="Corporate Dinner Package Dubai | Boardroom Dining"
       description="A professional corporate dinner package for 10–15 guests in Dubai. Ideal for boardroom dinners, team celebrations, and client entertainment with multi-course or buffet menus and full service."
       canonicalPath="/corporate-dinner-package-dubai"
       ogImage="/images/corporate-catering-dubai-hero.webp"

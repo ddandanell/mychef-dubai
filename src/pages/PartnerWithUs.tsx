@@ -122,7 +122,7 @@ export default function PartnerWithUs() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Partner With Us | myCHEF Dubai | Private Chef & Catering Partnerships"
+        title="Partner With Us Dubai | Private Chef Partnerships"
         description="Partner with myCHEF Dubai to offer private chef and luxury catering services to villa guests, yacht charter clients, wedding parties, and corporate contacts."
         canonicalPath={`/${SLUG}`}
         ogImage="/images/case-studies-hero.webp"

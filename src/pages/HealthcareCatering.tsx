@@ -6,7 +6,7 @@ import type { ServicePageConfig } from './shared/ServiceLandingPage'
 const config: ServicePageConfig = {
   slug: 'healthcare-catering-dubai',
   noindex: true,
-  seoTitle: 'Hospital & Healthcare Catering Dubai | Medical Facility Meals',
+  seoTitle: 'Healthcare Dining Dubai | Medical Facility Meals',
   metaDescription:
     'Hospital and healthcare catering in Dubai: safe, nutritious and compliant meal solutions for hospitals, clinics, care homes, medical conferences and healthcare facilities.',
   canonicalPath: '/healthcare-catering-dubai',

@@ -5,7 +5,7 @@ import type { OccasionPageConfig } from './occasion/OccasionCateringPage'
 
 const config: OccasionPageConfig = {
   slug: 'uae-national-day-catering-dubai',
-  seoTitle: 'UAE National Day Catering Dubai | Private Chef & Celebration Menu',
+  seoTitle: 'UAE National Day Dining Dubai | Chef & Menu',
   metaDescription:
     'UAE National Day catering in Dubai. Celebrate 2 December with bespoke Emirati menus, live grills and elegant buffets at home, villas, offices or venues across Dubai.',
   canonicalPath: '/uae-national-day-catering-dubai',

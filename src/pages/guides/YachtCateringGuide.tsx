@@ -213,7 +213,7 @@ export default function YachtCateringGuide() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Yacht Catering Guide Dubai | Menus, Planning & Tips | myCHEF"
+        title="Yacht Catering Guide Dubai | Menus, Planning & Tips"
         description="Plan yacht catering in Dubai: galley constraints, canapés, BBQ, buffet, seated menus, Marina and Palm routes, weather, crew coordination, and permits."
         canonicalPath="/yacht-catering-guide-dubai"
         ogImage="/service-yacht.webp"

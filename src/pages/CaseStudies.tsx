@@ -314,7 +314,7 @@ export default function CaseStudies() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Event Case Studies | Luxury Catering Dubai | myCHEF"
+        title="Event Case Studies | Luxury Catering Dubai"
         description="See how myCHEF Dubai delivers luxury catering for weddings, yachts, villas, and corporate events. Real event stories, menus, and guest experiences."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/case-studies-hero.webp"
