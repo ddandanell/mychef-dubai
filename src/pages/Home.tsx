@@ -14,15 +14,9 @@ import CTASection from '@/sections/CTASection'
 import StarterPackagesSection from '@/sections/StarterPackagesSection'
 import GuidesTeaserSection from '@/sections/GuidesTeaserSection'
 import LeadMagnetModal from '@/sections/LeadMagnetModal'
-import { organizationSchema, professionalServiceSchema, websiteSchema } from '@/utils/schema'
+import { ORGANIZATION_SCHEMA } from '@/lib/organizationSchema'
 
 export default function Home() {
-  const combinedSchema = [
-    organizationSchema(),
-    professionalServiceSchema(),
-    websiteSchema(),
-  ]
-
   return (
     <>
       <SEO
@@ -30,7 +24,7 @@ export default function Home() {
         description="myCHEF Dubai designs private dining experiences and connects you with handpicked, licensed chefs across Dubai. From villas to yachts — request your custom quote today."
         canonicalPath="/"
         ogImage="/images/home-hero.webp"
-        schema={combinedSchema as unknown as Record<string, unknown>}
+        schema={ORGANIZATION_SCHEMA}
       />
       <HeroSection />
       <TrustSignalStrip />
