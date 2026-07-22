@@ -6,6 +6,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { useGSAP } from '@gsap/react'
 import SEO from '@/components/SEO'
 import PageHero from '@/components/PageHero'
+import TrustSignalStrip from '@/components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -15,29 +16,30 @@ const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}
 
 const steps = [
   { num: '01', image: '/process-1.webp', title: 'Reach Out', desc: 'Contact us via WhatsApp or our online form. Tell us about your occasion — the date, number of guests, location in Dubai, and any vision you have in mind. No detail is too small.' },
-  { num: '02', image: '/process-2.webp', title: 'We Design Your Menu', desc: 'Our chef creates a bespoke menu tailored to your tastes, dietary requirements, and the nature of your event. We share the proposal with you for approval and adjustments.' },
-  { num: '03', image: '/process-3.webp', title: 'We Source & Arrive', desc: 'On the day, we arrive early with everything needed — premium ingredients, professional equipment, tableware if required. We prepare everything in your kitchen or event space.' },
-  { num: '04', image: '/process-4.webp', title: 'You Simply Enjoy', desc: 'Your chef plates each course with precision. Our service team attends to your guests. After the final course, we leave your kitchen spotless. You remember the evening.' },
+  { num: '02', image: '/process-2.webp', title: 'We Design the Evening', desc: 'We shape the menu around your tastes and your guests, and choose the right chef to bring it to life.' },
+  { num: '03', image: '/process-3.webp', title: 'Your Chef Arrives, We Run the Room', desc: 'On the day, the chef we chose arrives early and cooks to order in your kitchen — while we choreograph every detail around it.' },
+  { num: '04', image: '/process-4.webp', title: 'You Simply Enjoy', desc: 'The courses are plated with precision; the service we arrange looks after your guests; the kitchen is left immaculate. All you keep is the memory.' },
 ]
 
 const features = [
-  { icon: Clock, title: 'Punctual Arrival', desc: 'We arrive early, fully prepared. Timing is never an afterthought.' },
-  { icon: Shield, title: 'Discreet Service', desc: 'Our team blends into the background. Your privacy is always respected.' },
-  { icon: Utensils, title: 'Premium Ingredients', desc: 'We source the freshest, best available ingredients — locally and internationally.' },
-  { icon: Users, title: 'Attentive Staff', desc: 'Professional service staff dedicated to your guests\' comfort.' },
-  { icon: Sparkles, title: 'Immaculate Cleanup', desc: 'We leave your kitchen cleaner than we found it. Every single time.' },
+  { icon: Clock, title: 'Punctual Arrival', desc: 'The chef we choose arrives early, fully prepared. Timing is never an afterthought.' },
+  { icon: Shield, title: 'Discreet Service', desc: 'The service team we arrange blends into the background. Your privacy is always respected.' },
+  { icon: Utensils, title: 'Premium Ingredients', desc: 'Your chef brings the freshest, best available ingredients — locally and internationally.' },
+  { icon: Users, title: 'Attentive Service Team', desc: 'An attentive service team we run, dedicated to your guests\' comfort.' },
+  { icon: Sparkles, title: 'Immaculate Cleanup', desc: 'The kitchen is left cleaner than we found it. Every single time.' },
   { icon: Award, title: 'Flexible Menus', desc: 'Dietary restrictions, allergies, preferences — all accommodated without compromise.' },
 ]
 
 const faqs = [
   { q: 'How far in advance should I book?', a: 'We recommend booking at least 48 hours in advance for private chef services and 1 week for larger catering events. However, we do accommodate last-minute requests when possible — contact us and we will do our best.' },
   { q: 'What areas of Dubai do you cover?', a: 'We serve all areas of Dubai including Palm Jumeirah, Downtown Dubai, Dubai Marina, Emirates Hills, JBR, DIFC, Business Bay, Jumeirah, Arabian Ranches, and everywhere in between.' },
-  { q: 'Do you accommodate dietary restrictions?', a: 'Absolutely. We handle all dietary requirements including vegetarian, vegan, gluten-free, halal, kosher, nut allergies, and any other restrictions. Every menu is fully customized.' },
-  { q: 'Do I need to provide anything?', a: 'We bring all ingredients, cooking equipment, and serving tools. If you need tableware, glassware, or linens, let us know and we can arrange those as well.' },
+  { q: 'Do you accommodate dietary restrictions?', a: 'Absolutely. We accommodate all dietary requirements including vegetarian, vegan, gluten-free, halal, kosher, nut allergies, and any other restrictions. Every menu is designed with you.' },
+  { q: 'Do I need to provide anything?', a: 'Your chef brings all ingredients, cooking equipment, and serving tools. If you need tableware, glassware, or linens, let us know and we can arrange those as well.' },
   { q: 'How long does a private chef dinner typically last?', a: 'A standard multi-course dinner service lasts 3–4 hours from arrival to departure. This includes setup, cooking, service, and cleanup. We adjust timing based on your schedule.' },
-  { q: 'Can I see sample menus?', a: 'Yes — visit our Menus page to explore the types of cuisine and dishes we offer. Keep in mind that every menu is bespoke and created specifically for your event.' },
-  { q: 'Is your service insured?', a: 'Yes. myCHEF Dubai is fully licensed and insured. Our team members are professionally trained and background-checked.' },
+  { q: 'Can I see sample menus?', a: 'Yes — visit our Menus page to explore the types of cuisine and dishes on offer. Keep in mind that every menu is bespoke and designed specifically for your event.' },
+  { q: 'Is your service insured?', a: 'Yes. myCHEF Dubai is fully licensed and insured. We require every partner chef and service professional to carry their own food-handling and personal liability protection, and to be background-checked.' },
   { q: 'What is your cancellation policy?', a: 'Cancellations made more than 48 hours before the event receive a full refund. Cancellations within 48 hours may be subject to a cancellation fee. Contact us for details.' },
+  { q: 'Do you cook, or do you bring a chef?', a: 'We design and run your entire private-dining experience; the cooking is done by an independent, licensed chef we handpick, vet, and stand behind. One standard, one point of contact — you deal only with us.' },
 ]
 
 const timelineStages = [
@@ -116,14 +118,16 @@ export default function HowItWorks() {
       {/* Section 1: Hero */}
       <PageHero
         eyebrow="THE EXPERIENCE"
-        title="<>Simple. Seamless.<br />Extraordinary.</>"
-        subtitle="From your first message to the final course — every step is handled with care."
+        title="Simple. Seamless. Extraordinary."
+        subtitle="Tell us your occasion and we will match you with a vetted chef within 24 hours. From your first message to the final course — every step is designed and coordinated with care."
         image="/images/how-it-works-dubai-hero.webp"
         imageAlt="How myCHEF works"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'How It Works' }]}
         minHeight="tall"
         overlay="dark"
       />
+
+      <TrustSignalStrip />
 
       {/* Section 2: Timeline */}
       <section className="timeline-section bg-cream section-padding">

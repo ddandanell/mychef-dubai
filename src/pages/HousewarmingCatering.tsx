@@ -5,9 +5,9 @@ import type { ServicePageConfig } from './shared/ServiceLandingPage'
 
 const config: ServicePageConfig = {
   slug: 'housewarming-catering-dubai',
-  seoTitle: 'Housewarming Catering Dubai | New-Home Celebration Menus',
+  seoTitle: "Housewarming Catering Dubai | New Home",
   metaDescription:
-    'Housewarming party catering in Dubai: relaxed, delicious menus for new homes and villas across the city. From canapés to BBQ buffets, we handle the food so you can enjoy your guests.',
+    'Housewarming party catering in Dubai: relaxed, delicious menus for new homes and villas across the city. From canapés to BBQ buffets, we design and manage the experience so you can enjoy your guests.',
   canonicalPath: '/housewarming-catering-dubai',
   ogImage: '/service-villa.webp',
   breadcrumbLabel: 'Housewarming Catering Dubai',
@@ -189,6 +189,7 @@ const config: ServicePageConfig = {
   ctaH2: 'Host a Housewarming Your Guests Will Remember',
   ctaP:
     'Tell us about your new home, guest count and preferred style. We will design a housewarming catering menu that lets you relax and enjoy your celebration.',
+  showTrustSignalStrip: true,
 }
 
 export default function HousewarmingCatering() {

@@ -5,6 +5,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { Award, Calendar, ChefHat, Check } from 'lucide-react'
 import SEO from '@/components/SEO'
 import PageHero from '@/components/PageHero'
+import TrustSignalStrip from '@/components/TrustSignalStrip'
 import { breadcrumbSchema } from '@/utils/schema'
 
 gsap.registerPlugin(ScrollTrigger)
@@ -16,6 +17,7 @@ export interface ChefProfileData {
   slug: string
   name: string
   title: string
+  partnerLabel?: string
   experience: string
   cuisine: string
   image: string
@@ -49,7 +51,7 @@ export default function ChefProfile({ chef }: ChefProfileProps) {
 
   const breadcrumbs = [
     { name: 'Home', path: '/' },
-    { name: 'Our Chefs', path: '/our-chefs' },
+    { name: 'The Chefs in Our Network', path: '/our-chefs' },
     { name: chef.name, path: chef.slug },
   ]
 
@@ -61,13 +63,8 @@ export default function ChefProfile({ chef }: ChefProfileProps) {
         '@type': 'Person',
         name: chef.name,
         jobTitle: chef.title,
-        description: `${chef.name} is a ${chef.cuisine} chef with ${chef.experience} of experience.`,
+        description: `${chef.name} is an independent partner chef in the myCHEF Dubai network, specialising in ${chef.cuisine} with ${chef.experience} of experience.`,
         image: `${SITE_URL}${chef.image}`,
-        worksFor: {
-          '@type': 'Organization',
-          name: 'myCHEF Dubai',
-          url: SITE_URL,
-        },
         knowsAbout: chef.cuisine,
       },
     ],
@@ -172,8 +169,8 @@ export default function ChefProfile({ chef }: ChefProfileProps) {
   return (
     <>
       <SEO
-        title={`${chef.name} | ${chef.title} | myCHEF Dubai`}
-        description={`Meet ${chef.name}, ${chef.title} at myCHEF Dubai. ${chef.experience} of ${chef.cuisine} expertise for private dining, villas, yachts, and events across Dubai.`}
+        title={`${chef.name} | ${chef.title}`}
+        description={`Meet ${chef.name}, independent partner ${chef.title} in the myCHEF Dubai network. ${chef.experience} of ${chef.cuisine} expertise for private dining, villas, yachts, and events across Dubai.`}
         canonicalPath={chef.slug}
         ogImage={chef.image}
         schema={schema as unknown as Record<string, unknown>}
@@ -181,19 +178,21 @@ export default function ChefProfile({ chef }: ChefProfileProps) {
 
       <PageHero
         eyebrow="MEET THE CHEF"
-        title={<>{chef.name}</>}
+        title={chef.name}
         subtitle={`${chef.title} • ${chef.cuisine}`}
         image={chef.image}
         imageAlt={chef.imageAlt}
         breadcrumb={[
           { label: 'Home', href: '/' },
-          { label: 'Our Chefs', href: '/our-chefs' },
+          { label: 'The Chefs in Our Network', href: '/our-chefs' },
           { label: chef.name },
         ]}
         cta={{ label: `Request ${firstName}`, href: inquiryLink }}
         minHeight="medium"
         overlay="dark"
       />
+
+      <TrustSignalStrip variant="dark" />
 
       {/* Overview */}
       <section ref={overviewRef} className="bg-white section-padding">
@@ -213,7 +212,10 @@ export default function ChefProfile({ chef }: ChefProfileProps) {
               <span className="font-inter text-caption font-medium uppercase tracking-wider text-gold mb-4 block">
                 {chef.title}
               </span>
-              <h2 className="font-playfair text-h2 text-black mb-4">{chef.name}</h2>
+              <h2 className="font-playfair text-h2 text-black mb-2">{chef.name}</h2>
+              {chef.partnerLabel && (
+                <p className="font-inter text-body-sm text-gold mb-4">{chef.partnerLabel}</p>
+              )}
 
               <div className="flex flex-wrap items-center gap-3 mb-6">
                 <span className="font-inter text-caption font-medium uppercase tracking-wider bg-charcoal text-gold px-3 py-1">

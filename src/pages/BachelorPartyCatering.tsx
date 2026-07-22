@@ -16,6 +16,7 @@ import {
   ArrowRight,
 } from 'lucide-react'
 import SEO from '../components/SEO'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -30,7 +31,7 @@ const formats = [
     icon: Flame,
     title: 'Live Grill & BBQ Stations',
     description:
-      'Chef-manned grilling stations searing premium cuts to order. The smoke, the sizzle, and the showmanship that make a bachelor party feel like an event.',
+      'partner-chef-led grilling stations searing premium cuts to order. The smoke, the sizzle, and the showmanship that make a bachelor party feel like an event.',
   },
   {
     icon: Beef,
@@ -83,17 +84,17 @@ const useCases = [
   {
     title: 'Desert & Rooftop Nights',
     description:
-      'From rooftop terraces to desert setups, we cater wherever the night takes you, with portable grilling stations and full bar service.',
+      'From rooftop terraces to desert setups, we coordinate catering for wherever the night takes you, with portable grilling stations and full bar service.',
   },
 ]
 
 const includedItems = [
   { title: 'Custom Menu Build', description: 'A menu shaped around the group, the venue, and the appetite — built with you in advance.' },
   { title: 'Premium Cuts & Ingredients', description: 'Quality steaks, meats, and produce sourced from trusted Dubai suppliers.' },
-  { title: 'Chef-Manned Grills', description: 'Experienced chefs running live BBQ and grilling stations throughout the event.' },
+  { title: 'Partner Chef-Led Grills', description: 'Experienced chefs running live BBQ and grilling stations throughout the event.' },
   { title: 'Professional Bartenders', description: 'Cocktail service and a stocked bar managed by skilled bar staff.' },
   { title: 'Full Setup & Service', description: 'We arrive early, set up the stations, serve through the night, and clean up after.' },
-  { title: 'Flexible Venues', description: 'Yacht, villa, rooftop, or desert — we cater wherever the party is happening.' },
+  { title: 'Flexible Venues', description: 'Yacht, villa, rooftop, or desert — We coordinate catering for wherever the party is happening.' },
   { title: 'Sharing-Style Platters', description: 'Generous boards and platters designed for groups to dig into together.' },
   { title: 'On-Site Coordination', description: 'A coordinator keeps timing, service, and the bar running smoothly all evening.' },
 ]
@@ -131,7 +132,7 @@ const faqs = [
   },
   {
     q: 'Can you run a live BBQ or grill at a villa?',
-    a: 'Absolutely. Chef-manned grilling stations are a signature part of our bachelor party catering. We set up at your villa, grill premium cuts to order, and handle the full setup and cleanup.',
+    a: 'Absolutely. Partner-chef-led grilling stations are a signature part of our bachelor party catering. We set up at your villa, grill premium cuts to order, and handle the full setup and cleanup.',
   },
   {
     q: 'How many guests can you cater for?',
@@ -150,7 +151,7 @@ const faqs = [
 const relatedServices = [
   {
     title: 'Catering Dubai',
-    description: 'Full-service event catering across Dubai for celebrations of every size and style.',
+    description: 'fully-coordinated catering across Dubai for celebrations of every size and style.',
     image: '/service-catering.webp',
     link: '/catering-dubai',
   },
@@ -173,7 +174,7 @@ const serviceObj = {
   name: 'Bachelor Party Catering Dubai',
   serviceType: 'Bachelor Party Catering',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'Organization',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',
@@ -261,7 +262,7 @@ export default function BachelorPartyCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Bachelor Party Catering Dubai | Grills & Cocktails"
+        title="Bachelor Party Catering Dubai | Grills"
         description="Bachelor party catering in Dubai with live BBQ grills, premium meats, and cocktail bar service for yacht and villa parties. Request a custom proposal today."
         canonicalPath="/bachelor-party-catering-dubai"
         ogImage="/service-events.webp"
@@ -305,6 +306,8 @@ export default function BachelorPartyCatering() {
           </div>
         </div>
       </section>
+
+      <TrustSignalStrip />
 
       {/* ═══════════════ Section 2: Intro ═══════════════ */}
       <section className="bg-white section-padding">
@@ -367,7 +370,7 @@ export default function BachelorPartyCatering() {
               WAYS TO CELEBRATE
             </span>
             <h2 className="font-playfair text-h2 text-black">
-              Where We Cater Bachelor Parties
+              Where we coordinate catering for Bachelor Parties
             </h2>
           </div>
 
@@ -384,7 +387,7 @@ export default function BachelorPartyCatering() {
             <Link to="/yachts" className="text-gold hover:text-gold-dark transition-colors underline underline-offset-2">yacht catering</Link>{' '}
             covers the full charter, and for a steakhouse-style dinner at the villa, a{' '}
             <Link to="/private-chef-dubai" className="text-gold hover:text-gold-dark transition-colors underline underline-offset-2">private chef</Link>{' '}
-            brings the kitchen to you.
+            comes to you fully equipped.
           </p>
         </div>
       </section>

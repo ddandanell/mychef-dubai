@@ -20,7 +20,7 @@ const guideLinks = [
   { label: 'FAQ', href: '/faq' },
   { label: 'How It Works', href: '/how-it-works' },
   { label: 'Menus', href: '/menus' },
-  { label: 'Our Chefs', href: '/our-chefs' },
+  { label: 'The Chefs in Our Network', href: '/our-chefs' },
   { label: 'Gallery', href: '/gallery' },
   { label: 'Venue Partners', href: '/venue-partners' },
   { label: 'Catering Prices Guide', href: '/dubai-catering-prices-guide' },
@@ -43,7 +43,7 @@ const companyLinks = [
   { label: 'About', href: '/about' },
   { label: 'Contact', href: '/contact' },
   { label: 'How It Works', href: '/how-it-works' },
-  { label: 'Our Chefs', href: '/our-chefs' },
+  { label: 'The Chefs in Our Network', href: '/our-chefs' },
   { label: 'Blog', href: '/blog' },
   { label: 'Case Studies', href: '/case-studies' },
   { label: 'Gallery', href: '/gallery' },
@@ -90,10 +90,10 @@ export default function Footer() {
               myCHEF
             </Link>
             <p className="mt-4 font-inter text-body-sm text-gray-400 leading-relaxed">
-              Premium Private Chef & Catering, Dubai
+              Private Dining & Event Design, Dubai
             </p>
             <p className="mt-4 font-inter text-body-sm text-gray-500 leading-relaxed">
-              Bespoke culinary experiences for villas, yachts, and events across Dubai.
+              Bespoke dining experiences for villas, yachts, and events across Dubai.
             </p>
             <SocialLinks className="mt-5" />
           </div>
@@ -198,7 +198,7 @@ export default function Footer() {
             <ul className="space-y-3 mb-6">
               <li>
                 <Link to="/how-we-vet-our-chefs" className="font-inter text-body-sm text-gray-400 hover:text-gold transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-black rounded-sm">
-                  How We Vet Our Chefs
+                  How We Vet the chefs in our network
                 </Link>
               </li>
               <li>
@@ -237,11 +237,11 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="mailto:hallo@mychef.ae"
+                  href="mailto:hello@mychef.ae"
                   className="flex items-center gap-3 font-inter text-body-sm text-gray-400 hover:text-gold transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-black rounded-sm"
                 >
                   <Mail size={16} className="text-gold flex-shrink-0" aria-hidden="true" />
-                  <span>hallo@mychef.ae</span>
+                  <span>hello@mychef.ae</span>
                 </a>
               </li>
               <li>
@@ -291,6 +291,13 @@ export default function Footer() {
               </div>
             </div>
           </div>
+        </div>
+
+        {/* Role statement */}
+        <div className="border-t border-charcoal-light mt-8 pt-8">
+          <p className="font-inter text-xs text-gray-500 text-center leading-relaxed max-w-4xl mx-auto">
+            myCHEF Dubai designs and manages private dining and event experiences and connects clients with independent, licensed chefs and catering professionals. Culinary preparation is performed by those licensed third parties, whom the client engages; myCHEF is not a food establishment.
+          </p>
         </div>
 
         {/* Divider */}

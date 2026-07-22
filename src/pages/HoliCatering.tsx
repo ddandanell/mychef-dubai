@@ -5,7 +5,7 @@ import type { ServicePageConfig } from './shared/ServiceLandingPage'
 
 const config: ServicePageConfig = {
   slug: 'holi-catering-dubai',
-  seoTitle: 'Holi Catering Dubai | Colourful Festival Feasts & Thandai',
+  seoTitle: "Holi Catering Dubai | Festival Feasts",
   metaDescription:
     'Holi catering in Dubai: vibrant Indian festival menus, chaat stations, thandai, biryanis and colourful desserts for home, villa and corporate celebrations.',
   canonicalPath: '/holi-catering-dubai',
@@ -73,7 +73,7 @@ const config: ServicePageConfig = {
     {
       Icon: Home,
       title: 'Villa & Home Celebrations',
-      description: 'Full-service catering at your home or villa anywhere in Dubai with setup, service and cleanup handled for you.',
+      description: 'fully-coordinated catering at your home or villa anywhere in Dubai with setup, service and cleanup handled for you.',
       link: '/villas-private-residences',
     },
     {
@@ -135,7 +135,7 @@ const config: ServicePageConfig = {
     },
     {
       q: 'Can you cater Holi at our villa or outdoor venue?',
-      a: 'Yes. We provide full-service outdoor and villa catering across Dubai, including garden setups, live stations, buffet service and cleanup.',
+      a: 'Yes. We provide fully-coordinated catering across Dubai, including garden setups, live stations, buffet service and cleanup.',
     },
     {
       q: 'Do you offer vegetarian or Jain Holi catering?',
@@ -147,7 +147,7 @@ const config: ServicePageConfig = {
     },
     {
       q: 'How many guests can you cater for Holi?',
-      a: 'We cater intimate home gatherings from 10 guests up to large community events of 100 or more.',
+      a: 'we coordinate catering intimate home gatherings from 10 guests up to large community events of 100 or more.',
     },
     {
       q: 'How far in advance should I book Holi catering?',
@@ -163,7 +163,7 @@ const config: ServicePageConfig = {
     },
     {
       title: 'Festive Catering Dubai',
-      description: 'Themed menus and full-service catering for celebrations throughout the year.',
+      description: 'Themed menus and fully-coordinated catering for celebrations throughout the year.',
       image: '/service-events.webp',
       link: '/festive-catering-dubai',
     },
@@ -177,6 +177,7 @@ const config: ServicePageConfig = {
   ctaH2: 'Make Your Holi Celebration Unforgettable',
   ctaP:
     'Tell us about your Holi plans, guest count, venue and preferred menu style. We will create a colourful catering experience that matches the joy of the festival.',
+  showTrustSignalStrip: true,
 }
 
 export default function HoliCatering() {

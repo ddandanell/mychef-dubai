@@ -11,6 +11,7 @@ import {
   Sun,
 } from 'lucide-react'
 import SEO from '../../components/SEO'
+import TrustSignalStrip from '../../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -130,6 +131,8 @@ const articleSchema = {
   description: 'A guide to yacht catering in Dubai: galley constraints, menu formats, popular routes, weather considerations, crew coordination, and planning tips.',
   author: { '@type': 'Organization', name: 'myCHEF Dubai' },
   publisher: { '@type': 'Organization', name: 'myCHEF Dubai', url: 'https://mychef.ae' },
+  datePublished: '2026-07-01',
+  dateModified: '2026-07-22',
 }
 
 const serviceSchema = {
@@ -137,7 +140,7 @@ const serviceSchema = {
   name: 'Yacht Catering Guide Dubai',
   serviceType: 'Catering Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'Organization',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',
@@ -212,7 +215,7 @@ export default function YachtCateringGuide() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Yacht Catering Guide Dubai | Menus, Planning & Tips | myCHEF"
+        title="Yacht Catering Guide Dubai | Menus"
         description="Plan yacht catering in Dubai: galley constraints, canapés, BBQ, buffet, seated menus, Marina and Palm routes, weather, crew coordination, and permits."
         canonicalPath="/yacht-catering-guide-dubai"
         ogImage="/service-yacht.webp"
@@ -258,6 +261,8 @@ export default function YachtCateringGuide() {
           </div>
         </div>
       </section>
+
+      <TrustSignalStrip />
 
       {/* ═══════════════ Opening ═══════════════ */}
       <section className="bg-white section-padding">

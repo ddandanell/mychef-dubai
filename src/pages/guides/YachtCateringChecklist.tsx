@@ -18,6 +18,7 @@ import {
   FileDown,
 } from 'lucide-react'
 import SEO from '../../components/SEO'
+import TrustSignalStrip from '../../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -190,6 +191,8 @@ const articleSchema = {
   description: 'A step-by-step checklist for planning flawless yacht catering in Dubai, covering timelines, menu ideas, galley coordination, and day-of service.',
   author: { '@type': 'Organization', name: 'myCHEF Dubai' },
   publisher: { '@type': 'Organization', name: 'myCHEF Dubai', url: 'https://mychef.ae' },
+  datePublished: '2026-07-01',
+  dateModified: '2026-07-22',
 }
 
 const serviceSchema = {
@@ -197,7 +200,7 @@ const serviceSchema = {
   name: 'Yacht Catering Dubai',
   serviceType: 'Catering Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'Organization',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',
@@ -272,7 +275,7 @@ export default function YachtCateringChecklist() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Yacht Catering Checklist Dubai | Plan a Flawless Cruise | myCHEF"
+        title="Yacht Catering Checklist Dubai"
         description="Downloadable yacht catering checklist for Dubai. Plan menus, galley logistics, loading, service, and cleanup for yacht events in Dubai Marina and the Arabian Gulf."
         canonicalPath="/yacht-catering-checklist-dubai"
         ogImage="/images/yacht-catering-checklist-hero.webp"
@@ -318,6 +321,8 @@ export default function YachtCateringChecklist() {
           </div>
         </div>
       </section>
+
+      <TrustSignalStrip />
 
       {/* ═══════════════ Opening ═══════════════ */}
       <section className="bg-white section-padding">

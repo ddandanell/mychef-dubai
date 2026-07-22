@@ -16,6 +16,7 @@ import {
   ArrowRight,
 } from 'lucide-react'
 import SEO from '../components/SEO'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -184,7 +185,7 @@ const serviceSchema = {
   name: 'Nursery Catering Dubai',
   serviceType: 'Catering Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'Organization',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',
@@ -263,10 +264,11 @@ export default function NurseryCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Nursery Catering Dubai | Meals for Young Children"
+        title="Nursery Catering Dubai | Children Meals"
         description="Nursery catering in Dubai with soft, balanced meals, allergen-safe preparation, halal menus, and hygiene-first standards for young children. Request your custom quote today."
         canonicalPath="/nursery-catering-dubai"
         ogImage="/service-catering.webp"
+        noindex
         schema={schema}
       />
 
@@ -307,6 +309,8 @@ export default function NurseryCatering() {
           </div>
         </div>
       </section>
+
+      <TrustSignalStrip variant="dark" />
 
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">

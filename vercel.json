@@ -3,7 +3,35 @@
   "framework": "vite",
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
+  "redirects": [
+    {
+      "source": "/healthcare-catering-dubai",
+      "destination": "/luxury-dining-experiences",
+      "statusCode": 301
+    },
+    {
+      "source": "/school-catering-dubai",
+      "destination": "/luxury-dining-experiences",
+      "statusCode": 301
+    },
+    {
+      "source": "/nursery-catering-dubai",
+      "destination": "/luxury-dining-experiences",
+      "statusCode": 301
+    },
+    {
+      "source": "/university-catering-dubai",
+      "destination": "/luxury-dining-experiences",
+      "statusCode": 301
+    },
+    {
+      "source": "/government-event-catering-dubai",
+      "destination": "/luxury-dining-experiences",
+      "statusCode": 301
+    }
+  ],
   "rewrites": [
-    { "source": "/((?!assets/|.*\\.).*)", "destination": "/index.html" }
+    { "source": "/inquiry", "destination": "/index.html" },
+    { "source": "/thank-you", "destination": "/index.html" }
   ]
 }

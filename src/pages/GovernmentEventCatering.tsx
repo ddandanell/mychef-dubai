@@ -5,7 +5,8 @@ import type { ServicePageConfig } from './shared/ServiceLandingPage'
 
 const config: ServicePageConfig = {
   slug: 'government-event-catering-dubai',
-  seoTitle: 'Government Event Catering Dubai | Official & Protocol Functions',
+  noindex: true,
+  seoTitle: "Government Event Dining Dubai | Protocol",
   metaDescription:
     'Government event catering in Dubai: protocol-aware service, scalable menus, full documentation and reliable execution for official functions, ceremonies and receptions.',
   canonicalPath: '/government-event-catering-dubai',
@@ -130,8 +131,8 @@ const config: ServicePageConfig = {
   faqsH2: 'Government Event Catering Questions',
   faqs: [
     {
-      q: 'What types of government events do you cater?',
-      a: 'We cater official receptions, ministry functions, diplomatic events, national day celebrations, conferences, summits, ribbon-cuttings, award ceremonies and working lunches.',
+      q: 'What types of government events can myCHEF support?',
+      a: 'We coordinate catering for official receptions, ministry functions, diplomatic events, national day celebrations, conferences, summits, ribbon-cuttings, award ceremonies and working lunches.',
     },
     {
       q: 'Can you accommodate large guest numbers?',
@@ -157,7 +158,7 @@ const config: ServicePageConfig = {
   relatedServices: [
     {
       title: 'Corporate Event Catering',
-      description: 'Full-service catering for conferences, launches and company celebrations across Dubai.',
+      description: 'Comprehensive catering for conferences, launches and company celebrations across Dubai.',
       image: '/service-corporate.webp',
       link: '/corporate-event-catering-dubai',
     },
@@ -177,6 +178,7 @@ const config: ServicePageConfig = {
   ctaH2: 'Discuss Your Government Event Catering Requirements',
   ctaP:
     'Share your event scope, expected guest count, venue and any protocol or dietary requirements. We will prepare a detailed, professional catering proposal for your official function.',
+  showTrustSignalStrip: true,
 }
 
 export default function GovernmentEventCatering() {

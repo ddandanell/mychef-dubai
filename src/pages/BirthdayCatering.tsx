@@ -16,6 +16,7 @@ import {
   ArrowRight,
 } from 'lucide-react'
 import SEO from '../components/SEO'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -53,7 +54,7 @@ const birthdayFormats = [
   {
     icon: Home,
     title: 'Villa & Garden Parties',
-    description: 'Full-service birthday catering at your villa, garden, or rooftop across Dubai, with setup, service, and clear-down.',
+    description: 'fully-coordinated catering at your villa, garden, or rooftop across Dubai, with setup, service, and clear-down.',
     link: '/catering-dubai',
   },
   {
@@ -86,7 +87,7 @@ const useCases = [
   },
   {
     title: 'Villa & Garden Parties',
-    description: 'We transform your villa, garden, rooftop, or pool deck into a full party space across Palm Jumeirah, Emirates Hills, Dubai Hills, and beyond, bringing the kitchen, the staff, and the styling to you.',
+    description: 'We transform your villa, garden, rooftop, or pool deck into a full party space across Palm Jumeirah, Emirates Hills, Dubai Hills, and beyond, bringing the chefs, staff, and styling to you.',
   },
   {
     title: 'Themed & Surprise Parties',
@@ -141,7 +142,7 @@ const faqs = [
   },
   {
     q: 'Do you cater birthday parties at villas and at home?',
-    a: 'Yes. We regularly cater villa, garden, rooftop, and at-home birthday parties across Dubai, bringing a full mobile kitchen, service staff, and styling, then handling setup and clear-down so you can simply celebrate.',
+    a: 'Yes. We regularly cater villa, garden, rooftop, and at-home birthday parties across Dubai, bringing a private chef, service staff, and styling, then handling setup and clear-down so you can simply celebrate.',
   },
   {
     q: 'How far in advance should I book birthday catering?',
@@ -184,7 +185,7 @@ const serviceSchema = {
   name: 'Birthday Catering Dubai',
   serviceType: 'Catering Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'Organization',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',
@@ -263,7 +264,7 @@ export default function BirthdayCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Birthday Catering Dubai | Kids & Adult Parties"
+        title="Birthday Catering Dubai | Kids & Adults"
         description="Birthday party catering in Dubai for kids and adults. Themed menus, custom cakes, grazing and dessert tables, mocktail bars, and full villa-party service across Dubai."
         canonicalPath="/birthday-catering-dubai"
         ogImage="/service-events.webp"
@@ -308,6 +309,8 @@ export default function BirthdayCatering() {
         </div>
       </section>
 
+      <TrustSignalStrip />
+
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
@@ -321,7 +324,7 @@ export default function BirthdayCatering() {
             Every birthday deserves to feel like an occasion. At myCHEF Dubai, we design birthday catering around the guest of honour — their age, their theme, and the people gathered to celebrate them. From a child’s playful first party to a glamorous milestone evening, we bring the menu, the cake, the styling, and the service, so the host gets to enjoy the day as much as everyone else.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Whether you are planning an intimate family lunch, a lively kids’ party, or a polished milestone celebration in your villa, our team handles every detail from concept to clear-down. Explore our birthday services below, or see how they fit within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
+            Whether you are planning an intimate family lunch, a lively kids’ party, or a polished milestone celebration in your villa, the chefs in our network handle every detail from concept to clear-down. Explore our birthday services below, or see how they fit within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mt-5">
             Looking for inspiration? Read our guide to the <Link to="/blog/best-private-chef-birthday-dinner-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">best private chef birthday dinner in Dubai</Link>.

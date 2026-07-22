@@ -21,6 +21,7 @@ import {
   Heart,
 } from 'lucide-react'
 import SEO from '../components/SEO'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 import allLocations from '../data/locations.ts'
 
 gsap.registerPlugin(ScrollTrigger)
@@ -150,7 +151,7 @@ export default function LocationDetail() {
         description: loc.metaDescription,
         serviceType: 'Catering Service',
         provider: {
-          '@type': 'FoodService',
+          '@type': 'Organization',
           name: 'myCHEF Dubai',
           url: 'https://mychef.ae',
           telephone: '+971-55-174-4849',
@@ -187,7 +188,7 @@ export default function LocationDetail() {
         name: 'myCHEF Dubai',
         url: 'https://mychef.ae',
         telephone: '+971-55-174-4849',
-        email: 'hallo@mychef.ae',
+        email: 'hello@mychef.ae',
         image: `https://mychef.ae${loc.heroImage}`,
         priceRange: '$$$$',
         areaServed: {
@@ -235,11 +236,14 @@ export default function LocationDetail() {
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 loc-hero-h1">
             {loc.h1}
           </h1>
-          <p className="font-inter text-lg text-white/90 max-w-[700px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 loc-hero-sub">
+          <p className="font-inter text-lg text-white/90 max-w-[700px] mx-auto mb-4 leading-relaxed opacity-0 translate-y-5 loc-hero-sub">
             {loc.heroSubtitle}
           </p>
+          <p className="font-inter text-base text-gold max-w-[700px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 loc-hero-sub">
+            Tell us your occasion and we will match you with a vetted chef in this area within 24 hours.
+          </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=locations/${loc.slug}`} className="btn-primary opacity-0 translate-y-4 loc-hero-cta">
+            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=locations-${loc.slug}`} className="btn-primary opacity-0 translate-y-4 loc-hero-cta">
               Check Availability
             </Link>
             <a
@@ -254,6 +258,8 @@ export default function LocationDetail() {
           </div>
         </div>
       </section>
+
+      <TrustSignalStrip />
 
       {/* Intro */}
       <section className="bg-white section-padding">
@@ -614,7 +620,7 @@ export default function LocationDetail() {
             {loc.callToAction.subtitle}
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=locations/${loc.slug}`} className="btn-primary">
+            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=locations-${loc.slug}`} className="btn-primary">
               Check Availability
             </Link>
             <a

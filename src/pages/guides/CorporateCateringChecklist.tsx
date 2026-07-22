@@ -10,6 +10,7 @@ import {
   Check,
 } from 'lucide-react'
 import SEO from '../../components/SEO'
+import TrustSignalStrip from '../../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -88,7 +89,7 @@ const dubaiExamples = [
 ]
 
 const internalLinks = [
-  { title: 'Corporate Catering Dubai', link: '/corporate-catering-dubai', description: 'Full-service business catering for offices and events.' },
+  { title: 'Corporate Catering Dubai', link: '/corporate-catering-dubai', description: 'fully-coordinated catering for offices and events.' },
   { title: 'Office Catering Dubai', link: '/office-catering-dubai', description: 'Daily and one-off office lunch solutions.' },
   { title: 'Business Lunch Catering', link: '/business-lunch-catering-dubai', description: 'Refined lunches for meetings and client entertaining.' },
   { title: 'Conference Catering Dubai', link: '/conference-catering-dubai', description: 'Multi-day event catering for conferences and seminars.' },
@@ -138,6 +139,8 @@ const articleSchema = {
   description: 'A corporate catering checklist for Dubai: pre-event planning, menu formats, service flow, post-event follow-up, and office event tips.',
   author: { '@type': 'Organization', name: 'myCHEF Dubai' },
   publisher: { '@type': 'Organization', name: 'myCHEF Dubai', url: 'https://mychef.ae' },
+  datePublished: '2026-07-01',
+  dateModified: '2026-07-22',
 }
 
 const serviceSchema = {
@@ -145,7 +148,7 @@ const serviceSchema = {
   name: 'Corporate Catering Checklist Dubai',
   serviceType: 'Catering Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'Organization',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',
@@ -220,7 +223,7 @@ export default function CorporateCateringChecklist() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Corporate Catering Checklist Dubai | Office Events | myCHEF"
+        title="Corporate Catering Checklist Dubai"
         description="A corporate catering checklist for Dubai businesses: headcount, dietary needs, format, timing, budget, menu options, service flow, and post-event follow-up."
         canonicalPath="/corporate-catering-checklist-dubai"
         ogImage="/service-corporate.webp"
@@ -266,6 +269,8 @@ export default function CorporateCateringChecklist() {
           </div>
         </div>
       </section>
+
+      <TrustSignalStrip />
 
       {/* ═══════════════ Opening ═══════════════ */}
       <section className="bg-white section-padding">
@@ -469,7 +474,7 @@ export default function CorporateCateringChecklist() {
             Plan Your Next Corporate Event
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Send us your headcount, date, and format. We will return an itemised corporate catering proposal within two hours.
+            Send us your headcount, date, and format. We will return an itemised corporate catering proposal within 15 minutes during business hours.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=corporate-catering-checklist-dubai" className="btn-primary">Get My Custom Quote</Link>

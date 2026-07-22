@@ -10,13 +10,14 @@ import {
 } from '@/components/ui/accordion'
 import SEO from '@/components/SEO'
 import PageHero from '@/components/PageHero'
+import TrustSignalStrip from '@/components/TrustSignalStrip'
 import LocationStrip from '@/components/LocationStrip'
 import {
   breadcrumbSchema,
   faqPageSchema,
   serviceSchema,
 } from '@/utils/schema'
-import { Check, Quote, Star, ArrowRight, } from 'lucide-react'
+import { Check, Quote, ArrowRight, } from 'lucide-react'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -47,7 +48,7 @@ const eventTypes = [
     image: '/service-villa.webp',
     title: 'Villa Party Catering',
     description:
-      'Full-service catering for villa events. Setup, service, cleanup \u2014 all handled professionally.',
+      'fully-coordinated catering for villa events. Setup, service, cleanup \u2014 all handled professionally.',
     link: '/villas-private-residences',
   },
   {
@@ -171,7 +172,7 @@ const processSteps = [
     num: '02',
     title: 'We design your bespoke menu',
     description:
-      'Our chef creates a bespoke menu and we design the service flow for your event.',
+      'the chefs in our network creates a bespoke menu and we design the service flow for your event.',
   },
   {
     num: '03',
@@ -216,12 +217,12 @@ const faqs = [
   {
     question: 'Can you cater at any venue in Dubai?',
     answer:
-      'Yes. We cater at villas, penthouses, yachts, event spaces, and outdoor venues across Dubai.',
+      'Yes. We coordinate catering at villas, penthouses, yachts, event spaces, and outdoor venues across Dubai.',
   },
   {
     question: 'Do you provide staff for large events?',
     answer:
-      'Absolutely. We provide chefs, waiters, bartenders, and event coordinators based on your guest count and service style.',
+      'Absolutely. we match you with a vetted chef you engage, waiters, bartenders, and event coordinators based on your guest count and service style.',
   },
   {
     question: 'Can you create themed menus?',
@@ -454,7 +455,7 @@ export default function Events() {
     <>
       <SEO
         title="Event Catering Dubai"
-        description="Premium event catering in Dubai for birthdays, weddings, and private celebrations. Full-service catering with bespoke menus and professional staff. Get your quote."
+        description="Premium event catering in Dubai for birthdays, weddings, and private celebrations. fully-coordinated catering with bespoke menus and professional staff. Get your quote."
         canonicalPath="/events"
         ogImage="/service-events.webp"
         schema={schema as unknown as Record<string, unknown>}
@@ -462,16 +463,18 @@ export default function Events() {
 
       {/* ─── Section 1: Hero ─── */}
       <PageHero
-        title={<>Event Catering<br /><span className="text-gold font-normal">Dubai</span></>}
-        subtitle="From intimate celebrations to grand occasions — exceptional food, flawless service, unforgettable events."
+        title="Event Catering Dubai"
+        subtitle="Tell us about your event and we will match you with a vetted chef. From intimate celebrations to grand occasions — exceptional food, flawless service, unforgettable events. We reply within 15 minutes during business hours."
         image="/images/events-catering-dubai-hero.webp"
         imageAlt="Event catering in Dubai"
-        cta={{ label: 'Request a Proposal', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=events' }}
+        cta={{ label: 'Plan My Event', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=events' }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Events' }]}
         minHeight="tall"
         overlay="dark"
       />
+
+      <TrustSignalStrip variant="dark" />
 
       {/* ─── Section 2: Event Types ─── */}
       <section className="bg-white section-padding">
@@ -493,7 +496,14 @@ export default function Events() {
               >
                 party catering Dubai
               </Link>{' '}
-              experience.
+              experience. Looking for a ready-to-book option? See our{' '}
+              <Link
+                to="/catering-packages-dubai"
+                className="text-gold hover:text-gold-dark underline underline-offset-4 transition-colors"
+              >
+                catering packages Dubai
+              </Link>{' '}
+              collection.
             </p>
           </div>
 
@@ -640,30 +650,43 @@ export default function Events() {
         </div>
       </section>
 
-      {/* ─── Section 6: Testimonial ─── */}
+      {/* ─── Section 6: Review Invitation ─── */}
       <section className="bg-charcoal py-20 md:py-24">
         <div className="container-custom max-w-[800px]">
           <div ref={testimonialRef} className="text-center">
             <Quote size={32} className="text-gold mx-auto mb-6" />
-            <blockquote className="font-playfair text-xl md:text-2xl text-white italic leading-relaxed mb-6">
-              &ldquo;myCHEF catered our daughter&rsquo;s 21st birthday at our
-              Emirates Hills villa. The food was extraordinary, the presentation
-              was stunning, and the team was so professional. Our guests are still
-              talking about it.&rdquo;
-            </blockquote>
-            <cite className="font-inter text-body-sm text-gray-400 not-italic">
-              — Fatima Al-Rashid, Emirates Hills
-            </cite>
-            {/* Stars */}
-            <div className="flex items-center justify-center gap-1 mt-4">
-              {[...Array(5)].map((_, i) => (
-                <Star
-                  key={i}
-                  size={16}
-                  className="text-gold"
-                  fill="#C8A45C"
-                />
-              ))}
+            <h2 className="font-playfair text-xl md:text-2xl text-white italic leading-relaxed mb-6">
+              Your event could be our next featured celebration
+            </h2>
+            <p className="font-inter text-body-sm text-gray-400 max-w-[600px] mx-auto mb-8">
+              After your event, we will invite you to share a quick review. Your feedback helps us match future hosts with the right chef even faster.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link
+                to="/inquiry?utm_source=mychef.ae&utm_medium=trust_section&utm_campaign=events"
+                className="btn-primary"
+              >
+                Plan My Event
+              </Link>
+              <a
+                href={WHATSAPP_LINK}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-secondary"
+              >
+                Chat on WhatsApp
+              </a>
+            </div>
+            <div className="mt-10 pt-8 border-t border-white/10 flex flex-wrap justify-center gap-6 text-gray-400 font-inter text-sm">
+              <span className="flex items-center gap-2">
+                <Check size={16} className="text-gold" /> Vetted chef network
+              </span>
+              <span className="flex items-center gap-2">
+                <Check size={16} className="text-gold" /> 24-hour quote response
+              </span>
+              <span className="flex items-center gap-2">
+                <Check size={16} className="text-gold" /> Full setup & cleanup
+              </span>
             </div>
           </div>
         </div>
@@ -735,7 +758,7 @@ export default function Events() {
         <div className="container-custom">
           <div className="text-center mb-12">
             <span className="font-inter text-caption font-medium uppercase tracking-widest text-gold">
-              MORE EVENTS WE CATER
+              MORE EVENTS we coordinate catering for
             </span>
             <h2 className="font-playfair text-h2 text-black mt-4">
               Which other events can myCHEF Dubai cater?
@@ -798,7 +821,7 @@ export default function Events() {
               experience your guests will never forget.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=events" className="btn-primary">Request a Proposal</Link>
+              <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=events" className="btn-primary">Get an Event Catering Quote</Link>
               <a
                 href={WHATSAPP_LINK}
                 target="_blank"

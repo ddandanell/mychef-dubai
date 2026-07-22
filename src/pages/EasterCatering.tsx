@@ -5,7 +5,7 @@ import type { OccasionPageConfig } from './occasion/OccasionCateringPage'
 
 const config: OccasionPageConfig = {
   slug: 'easter-catering-dubai',
-  seoTitle: 'Easter Catering Dubai | Brunch, Lunch & Private Chef Service',
+  seoTitle: "Easter Catering Dubai | Brunch & Lunch",
   metaDescription:
     'Easter catering in Dubai. Celebrate with a bespoke spring brunch, roast lunch or garden party menu crafted by a private chef for family and friends at home or venue.',
   canonicalPath: '/easter-catering-dubai',
@@ -25,10 +25,10 @@ const config: OccasionPageConfig = {
         Easter in Dubai is the perfect occasion to gather family and friends over a generous, beautifully presented meal. Whether you are hosting a relaxed garden brunch, a formal sit-down lunch or a lively egg hunt party for children, our Easter catering service brings seasonal flavours and effortless hospitality to your chosen setting. Every menu is designed around your guest list, dietary preferences and the mood of the day.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        Our chefs combine classic Easter favourites with fresh, spring-inspired dishes. Expect herb-crusted lamb, honey-glazed ham, seasonal vegetables, artisan breads, fresh salads and indulgent desserts. We handle the shopping, preparation, service and cleanup, so you can focus on enjoying the celebration with your guests.
+        the chefs in our network combine classic Easter favourites with fresh, spring-inspired dishes. Expect herb-crusted lamb, honey-glazed ham, seasonal vegetables, artisan breads, fresh salads and indulgent desserts. We handle the shopping, preparation, service and cleanup, so you can focus on enjoying the celebration with your guests.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-        We cater Easter events across Dubai, from villas and apartments to rooftop terraces and event venues. Pair this with our{' '}
+        we coordinate catering for Easter events across Dubai, from villas and apartments to rooftop terraces and event venues. Pair this with our{' '}
         <Link to="/brunch-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           brunch catering
         </Link>{' '}
@@ -109,7 +109,7 @@ const config: OccasionPageConfig = {
     { title: 'Roast Mains & Carving', description: 'Herb-crusted lamb, honey-glazed ham or vegetarian centrepieces, carved and served at the table.' },
     { title: 'Spring Starters & Salads', description: 'Light appetisers, fresh salads and seasonal vegetables to balance the meal.' },
     { title: 'Easter Desserts & Treats', description: 'Chocolate eggs, hot cross buns, simnel cake and other festive sweet treats.' },
-    { title: 'Professional Chef & Staff', description: 'Experienced chefs and attentive servers who keep the day running smoothly.' },
+    { title: 'Partner Chef & Staff', description: 'Experienced chefs and attentive servers who keep the day running smoothly.' },
     { title: 'Dietary Accommodation', description: 'Halal, vegetarian, vegan, gluten-free and allergy-aware options available.' },
     { title: 'Table Styling & Floral Touches', description: 'Elegant tableware, linens and subtle spring décor to suit the occasion.' },
     { title: 'Full Setup & Cleanup', description: 'We arrive early, prepare, serve and leave your space spotless after the celebration.' },
@@ -173,6 +173,7 @@ const config: OccasionPageConfig = {
   ctaH2: 'Plan Your Easter Celebration in Dubai',
   ctaP:
     'Tell us about your guest count, venue and menu preferences. We will design an Easter catering experience that feels seasonal, effortless and memorable.',
+  showTrustSignalStrip: true,
 }
 
 export default function EasterCatering() {

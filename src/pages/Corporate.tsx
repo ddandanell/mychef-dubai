@@ -11,6 +11,7 @@ import {
 import SEO from '@/components/SEO'
 import PageHero from '@/components/PageHero'
 import LocationStrip from '@/components/LocationStrip'
+import TrustSignalStrip from '@/components/TrustSignalStrip'
 import StarterPackagesSection from '@/sections/StarterPackagesSection'
 import {
   breadcrumbSchema,
@@ -26,6 +27,10 @@ const WHATSAPP_MESSAGE = encodeURIComponent(
   "Hi myCHEF Dubai, I'd like to request a corporate catering quote (via mychef.ae/corporate)"
 )
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
+const RETAINER_MESSAGE = encodeURIComponent(
+  "Hi myCHEF Dubai, I'd like a corporate retainer proposal (via mychef.ae/corporate)"
+)
+const RETAINER_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${RETAINER_MESSAGE}`
 
 /* ───── Data ───── */
 
@@ -55,7 +60,7 @@ const corporateServices = [
     icon: PartyPopper,
     title: 'Corporate Events',
     description:
-      'Product launches, company celebrations, networking events. Full-service catering and coordination.',
+      'Product launches, company celebrations, networking events. fully-coordinated catering and coordination.',
     link: '/corporate-event-catering-dubai',
   },
   {
@@ -82,8 +87,6 @@ const corporateSolutions = [
   { title: 'Staff Meals Catering', link: '/staff-meals-catering-dubai' },
   { title: 'Film Crew Catering', link: '/film-crew-catering-dubai' },
   { title: 'Production Catering', link: '/production-catering-dubai' },
-  { title: 'School Catering', link: '/school-catering-dubai' },
-  { title: 'Nursery Catering', link: '/nursery-catering-dubai' },
   { title: 'Corporate Meal Prep', link: '/corporate-meal-prep-dubai' },
   { title: 'Product Launch Catering', link: '/product-launch-catering-dubai' },
   { title: 'Gala Dinner Catering', link: '/gala-dinner-catering-dubai' },
@@ -100,7 +103,7 @@ const trustFeatures = [
     icon: Shield,
     title: 'Discreet & Professional',
     description:
-      'Confidentiality assured. Our staff operates with the discretion your business demands.',
+      'Confidentiality assured. our service team operates with the discretion your business demands.',
   },
   {
     icon: Award,
@@ -166,7 +169,7 @@ const serviceTiers = [
 const processSteps = [
   { num: '01', title: 'Contact Us', description: 'Reach out with your event details and requirements.' },
   { num: '02', title: 'Menu Planning', description: 'We design a bespoke menu tailored to your occasion.' },
-  { num: '03', title: 'Event Execution', description: 'Our team delivers flawless service on the day.' },
+  { num: '03', title: 'Event Execution', description: 'the chefs in our network delivers flawless service on the day.' },
   { num: '04', title: 'Follow-Up', description: 'We follow up to ensure everything met your expectations.' },
 ]
 
@@ -179,7 +182,7 @@ const faqs = [
   {
     question: 'Can you cater at our office in DIFC?',
     answer:
-      'Absolutely. We cater across all Dubai business districts including DIFC, Business Bay, Downtown, and Dubai Media City.',
+      'Absolutely. We coordinate catering across all Dubai business districts including DIFC, Business Bay, Downtown, and Dubai Media City.',
   },
   {
     question: 'Do you provide setup for boardroom dining?',
@@ -189,7 +192,7 @@ const faqs = [
   {
     question: 'Can you accommodate large corporate events?',
     answer:
-      'Yes. We cater corporate events from 10 to 500+ guests with full service coordination.',
+      'Yes. We coordinate catering for corporate events from 10 to 500+ guests with full service coordination.',
   },
   {
     question: 'Is invoicing available for corporate accounts?',
@@ -360,8 +363,8 @@ export default function Corporate() {
   return (
     <>
       <SEO
-        title="Corporate Catering Dubai"
-        description="Professional corporate catering in Dubai. Boardroom lunches, client dinners, team events, and office catering. Discreet, premium, reliable. Request a quote."
+        title="Corporate Dining & Private Chef Dubai"
+        description="Private dining experiences and chef-coordinated corporate events in Dubai. myCHEF designs menus and manages every detail — request a tailored quote."
         canonicalPath="/corporate"
         ogImage="/service-corporate.webp"
         schema={schema as unknown as Record<string, unknown>}
@@ -369,16 +372,17 @@ export default function Corporate() {
 
       {/* ─── Hero ─── */}
       <PageHero
-        title={<>Corporate Dining<br /><span className="text-gold font-normal">Dubai</span></>}
-        subtitle="Impress clients. Reward teams. Elevate every business occasion with premium corporate dining and catering."
+        title="Corporate Dining & Event Catering Dubai"
+        subtitle="Impress clients. Reward teams. Elevate every business occasion with premium corporate dining and catering. We reply within 15 minutes during business hours."
         image="/images/corporate-catering-dubai-hero.webp"
         imageAlt="Corporate catering in Dubai"
-        cta={{ label: 'Request a Proposal', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=corporate' }}
+        cta={{ label: 'Get a Corporate Quote', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=corporate' }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Corporate' }]}
         minHeight="tall"
         overlay="dark"
       />
+      <TrustSignalStrip />
 
       {/* ─── Corporate Services ─── */}
       <section className="bg-white section-padding">
@@ -391,10 +395,13 @@ export default function Corporate() {
               What corporate dining solutions does myCHEF Dubai offer?
             </h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed mt-4 max-w-[700px] mx-auto">
+              Tell us about your event and we will match you with a vetted chef within 24 hours.
               We deliver corporate catering across Dubai's key business districts, including{' '}
               <Link to="/locations/business-bay" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Business Bay</Link>{' '}
               and{' '}
-              <Link to="/locations/difc" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">DIFC</Link>.
+              <Link to="/locations/difc" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">DIFC</Link>,
+              from boardroom lunches to{' '}
+              <Link to="/corporate-event-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">company-wide events</Link>.
             </p>
           </div>
           <div ref={cardsRef} className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -489,9 +496,74 @@ export default function Corporate() {
                     </li>
                   ))}
                 </ul>
-                <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=corporate" className="btn-secondary w-full text-center text-sm py-3">Request a Proposal</Link>
+                <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=corporate" className="btn-secondary w-full text-center text-sm py-3">Get a Corporate Quote</Link>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ─── Corporate Retainer Tiers ─── */}
+      <section className="bg-black section-padding">
+        <div className="container-custom max-w-[1000px]">
+          <div className="text-center mb-12">
+            <span className="font-inter text-caption font-medium uppercase tracking-widest text-gold">
+              MONTHLY RETAINERS
+            </span>
+            <h2 className="font-playfair text-h2 text-white mt-4">
+              Ongoing corporate catering plans for Dubai businesses
+            </h2>
+            <p className="font-inter text-body text-gray-400 leading-relaxed mt-4 max-w-[700px] mx-auto">
+              Predictable monthly catering for boardrooms, teams, and client events. VAT-compliant invoicing with TRN-ready documentation.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+            <div className="bg-charcoal p-8 border-t-[3px] border-gold">
+              <h3 className="font-playfair text-h3 text-white mb-2">Starter</h3>
+              <p className="font-playfair text-3xl text-gold mb-1">From AED 3,500<span className="text-base text-gray-400">/mo</span></p>
+              <p className="font-inter text-body-sm text-gray-400 mb-6">Ideal for small offices and monthly board lunches.</p>
+              <ul className="space-y-3 mb-8">
+                <li className="flex items-start gap-3"><Check size={16} className="text-gold flex-shrink-0 mt-1" /><span className="font-inter text-body-sm text-gray-300">1 catered event per month</span></li>
+                <li className="flex items-start gap-3"><Check size={16} className="text-gold flex-shrink-0 mt-1" /><span className="font-inter text-body-sm text-gray-300">Up to 20 guests</span></li>
+                <li className="flex items-start gap-3"><Check size={16} className="text-gold flex-shrink-0 mt-1" /><span className="font-inter text-body-sm text-gray-300">Menu consultation included</span></li>
+                <li className="flex items-start gap-3"><Check size={16} className="text-gold flex-shrink-0 mt-1" /><span className="font-inter text-body-sm text-gray-300">VAT invoice provided</span></li>
+              </ul>
+              <a href={RETAINER_LINK} target="_blank" rel="noopener noreferrer" className="btn-secondary w-full text-center text-sm py-3">Get a Retainer Quote</a>
+            </div>
+            <div className="bg-charcoal p-8 border-t-[3px] border-gold relative">
+              <span className="absolute top-0 right-0 bg-gold text-black text-xs font-bold uppercase tracking-wider px-3 py-1">Popular</span>
+              <h3 className="font-playfair text-h3 text-white mb-2">Professional</h3>
+              <p className="font-playfair text-3xl text-gold mb-1">From AED 8,500<span className="text-base text-gray-400">/mo</span></p>
+              <p className="font-inter text-body-sm text-gray-400 mb-6">For growing teams with regular client and team events.</p>
+              <ul className="space-y-3 mb-8">
+                <li className="flex items-start gap-3"><Check size={16} className="text-gold flex-shrink-0 mt-1" /><span className="font-inter text-body-sm text-gray-300">2 catered events per month</span></li>
+                <li className="flex items-start gap-3"><Check size={16} className="text-gold flex-shrink-0 mt-1" /><span className="font-inter text-body-sm text-gray-300">Quarterly team lunch</span></li>
+                <li className="flex items-start gap-3"><Check size={16} className="text-gold flex-shrink-0 mt-1" /><span className="font-inter text-body-sm text-gray-300">Priority scheduling</span></li>
+                <li className="flex items-start gap-3"><Check size={16} className="text-gold flex-shrink-0 mt-1" /><span className="font-inter text-body-sm text-gray-300">TRN-ready invoicing</span></li>
+              </ul>
+              <a href={RETAINER_LINK} target="_blank" rel="noopener noreferrer" className="btn-primary w-full text-center text-sm py-3">Get a Retainer Quote</a>
+            </div>
+            <div className="bg-charcoal p-8 border-t-[3px] border-gold">
+              <h3 className="font-playfair text-h3 text-white mb-2">Enterprise</h3>
+              <p className="font-playfair text-3xl text-gold mb-1">From AED 18,000<span className="text-base text-gray-400">/mo</span></p>
+              <p className="font-inter text-body-sm text-gray-400 mb-6">Dedicated support for larger organisations and venues.</p>
+              <ul className="space-y-3 mb-8">
+                <li className="flex items-start gap-3"><Check size={16} className="text-gold flex-shrink-0 mt-1" /><span className="font-inter text-body-sm text-gray-300">4+ events per month</span></li>
+                <li className="flex items-start gap-3"><Check size={16} className="text-gold flex-shrink-0 mt-1" /><span className="font-inter text-body-sm text-gray-300">Dedicated account manager</span></li>
+                <li className="flex items-start gap-3"><Check size={16} className="text-gold flex-shrink-0 mt-1" /><span className="font-inter text-body-sm text-gray-300">Custom menus & branding</span></li>
+                <li className="flex items-start gap-3"><Check size={16} className="text-gold flex-shrink-0 mt-1" /><span className="font-inter text-body-sm text-gray-300">Consolidated monthly billing</span></li>
+              </ul>
+              <a href={RETAINER_LINK} target="_blank" rel="noopener noreferrer" className="btn-secondary w-full text-center text-sm py-3">Get a Retainer Quote</a>
+            </div>
+          </div>
+          <p className="font-inter text-body-sm text-gray-400 text-center mt-10 mb-3">
+            Final quote tailored to your headcount, frequency, and menu choices.
+          </p>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-3 text-center">
+            <FileText size={18} className="text-gold" />
+            <span className="font-inter text-body-sm text-gray-400">
+              All retainers include detailed VAT invoices and TRN-ready documentation for your finance team.
+            </span>
           </div>
         </div>
       </section>
@@ -516,21 +588,20 @@ export default function Corporate() {
         </div>
       </section>
 
-      {/* ─── Testimonial ─── */}
+      {/* ─── Corporate Trust CTA ─── */}
       <section className="bg-charcoal py-20 md:py-24">
         <div className="container-custom max-w-[800px]">
           <div ref={testimonialRef} className="text-center">
             <Quote size={32} className="text-gold mx-auto mb-6" />
-            <blockquote className="font-playfair text-xl md:text-2xl text-white italic leading-relaxed mb-6">
-              &ldquo;We have used myCHEF for over a dozen client dinners at our DIFC office. The quality is consistently exceptional, the team is always professional, and our clients are always impressed. They have become our go-to catering partner.&rdquo;
-            </blockquote>
-            <cite className="font-inter text-body-sm text-gray-400 not-italic">
-              — Richard Hale, Managing Director, DIFC
-            </cite>
-            <div className="flex items-center justify-center gap-1 mt-4">
-              {[...Array(5)].map((_, i) => (
-                <Star key={i} size={16} className="text-gold" fill="#C8A45C" />
-              ))}
+            <h2 className="font-playfair text-xl md:text-2xl text-white italic leading-relaxed mb-6">
+              Join the Dubai businesses that trust myCHEF for boardroom lunches, client dinners, and team events.
+            </h2>
+            <p className="font-inter text-body text-gray-400 mb-6">
+              We are collecting verified reviews from corporate clients. Share your experience and receive AED 50 credit towards your next booking.
+            </p>
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+              <Link to="/review" className="btn-primary">Leave a Review</Link>
+              <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-secondary">Chat on WhatsApp</a>
             </div>
           </div>
         </div>
@@ -597,7 +668,7 @@ export default function Corporate() {
             Planning an event in Dubai? Read our{' '}
             <Link to="/corporate-catering-checklist-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Corporate Catering Checklist</Link>,
             {' '}compare{' '}
-            <Link to="/blog/corporate-catering-full-service-vs-drop-off" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">full-service vs drop-off corporate catering</Link>,
+            <Link to="/blog/corporate-catering-full-service-vs-drop-off" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">fully-coordinated catering</Link>,
             {' '}or explore our{' '}
             <Link to="/exhibition-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">exhibition catering</Link>{' '}
             and{' '}
@@ -624,7 +695,7 @@ export default function Corporate() {
               Premium corporate catering that reflects the quality of your brand.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=corporate" className="btn-primary">Request a Proposal</Link>
+              <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=corporate" className="btn-primary">Get a Corporate Quote</Link>
               <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-secondary">
                 Chat on WhatsApp
               </a>

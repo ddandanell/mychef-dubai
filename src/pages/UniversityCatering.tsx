@@ -5,16 +5,17 @@ import type { ServicePageConfig } from './shared/ServiceLandingPage'
 
 const config: ServicePageConfig = {
   slug: 'university-catering-dubai',
-  seoTitle: 'University & Student Catering Dubai | Campus Events & Meals',
+  noindex: true,
+  seoTitle: "University & Student Catering Dubai",
   metaDescription:
     'University and student catering in Dubai: campus events, student meals, fresh food stations and dietary-friendly menus for universities, colleges and student groups.',
   canonicalPath: '/university-catering-dubai',
-  ogImage: '/images/school-catering-dubai-hero.webp',
+  ogImage: '/service-corporate.webp',
   breadcrumbLabel: 'University & Student Catering Dubai',
   h1: 'University & Student Catering in Dubai',
   heroSub:
     'Fresh, affordable and inclusive catering for universities and student groups in Dubai — from campus events and welcome weeks to society gatherings, graduations and daily meal solutions.',
-  heroImage: '/images/school-catering-dubai-hero.webp',
+  heroImage: '/service-corporate.webp',
   whatsappMessage:
     'Hi myCHEF Dubai, I would like to arrange university or student catering in Dubai (via mychef.ae/university-catering-dubai)',
   eyebrow: 'UNIVERSITY & STUDENT CATERING IN DUBAI',
@@ -120,7 +121,7 @@ const config: ServicePageConfig = {
   ],
   galleryH2: 'A Taste of Our University Catering',
   galleryImages: [
-    { src: '/images/school-catering-dubai-hero.webp', alt: 'University catering set-up in Dubai' },
+    { src: '/service-corporate.webp', alt: 'University catering set-up in Dubai' },
     { src: '/service-events.webp', alt: 'Campus event catering for students' },
     { src: '/menu-appetizer.webp', alt: 'Fresh wraps and salads for student meals' },
     { src: '/menu-dessert.webp', alt: 'Healthy snacks and desserts for campus events' },
@@ -130,8 +131,8 @@ const config: ServicePageConfig = {
   faqsH2: 'University Catering Questions',
   faqs: [
     {
-      q: 'What university events can you cater?',
-      a: 'We cater orientation weeks, graduation ceremonies, society events, conferences, guest lectures, career fairs, sports days, cultural festivals and daily campus meal programs.',
+      q: 'What university events can myCHEF coordinate?',
+      a: 'We coordinate orientation weeks, graduation ceremonies, society events, conferences, guest lectures, career fairs, sports days, cultural festivals and daily campus meal programs.',
     },
     {
       q: 'Can you work with tight student budgets?',
@@ -158,7 +159,7 @@ const config: ServicePageConfig = {
     {
       title: 'School Catering Dubai',
       description: 'Safe, nutritious catering for schools, nurseries and educational institutions across Dubai.',
-      image: '/images/school-catering-dubai-hero.webp',
+      image: '/images/staff-meals-catering-dubai-hero.webp',
       link: '/school-catering-dubai',
     },
     {
@@ -177,6 +178,7 @@ const config: ServicePageConfig = {
   ctaH2: 'Plan Your Campus Catering with myCHEF Dubai',
   ctaP:
     'Tell us about your university event, student numbers, dietary needs and budget. We will create a campus catering plan that keeps students happy and your team stress-free.',
+  showTrustSignalStrip: true,
 }
 
 export default function UniversityCatering() {

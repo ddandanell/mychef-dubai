@@ -10,6 +10,7 @@ import {
   Check,
 } from 'lucide-react'
 import SEO from '../../components/SEO'
+import TrustSignalStrip from '../../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -116,6 +117,8 @@ const articleSchema = {
   description: 'Compare buffet and plated catering in Dubai: pros and cons, guest count fit, venue fit, staffing differences, and how to combine both formats.',
   author: { '@type': 'Organization', name: 'myCHEF Dubai' },
   publisher: { '@type': 'Organization', name: 'myCHEF Dubai', url: 'https://mychef.ae' },
+  datePublished: '2026-07-01',
+  dateModified: '2026-07-22',
 }
 
 const serviceSchema = {
@@ -123,7 +126,7 @@ const serviceSchema = {
   name: 'Buffet vs Plated Service Dubai',
   serviceType: 'Catering Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'Organization',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',
@@ -193,7 +196,7 @@ export default function BuffetVsPlated() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Buffet vs Plated Service Dubai | Catering Guide | myCHEF"
+        title="Buffet vs Plated Service Dubai | Guide"
         description="Buffet vs plated catering in Dubai: compare atmosphere, variety, cost, staffing, and venue fit. Learn when to choose each or combine both formats."
         canonicalPath="/buffet-vs-plated-dubai"
         ogImage="/service-catering.webp"
@@ -239,6 +242,8 @@ export default function BuffetVsPlated() {
           </div>
         </div>
       </section>
+
+      <TrustSignalStrip />
 
       {/* ═══════════════ Opening ═══════════════ */}
       <section className="bg-white section-padding">

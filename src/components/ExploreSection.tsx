@@ -7,7 +7,7 @@ interface ExploreSectionProps {
 const exploreLinks = [
   { label: 'Blog', href: '/blog' },
   { label: 'Case Studies', href: '/case-studies' },
-  { label: 'Our Chefs', href: '/our-chefs' },
+  { label: 'The Chefs in Our Network', href: '/our-chefs' },
   { label: 'Gallery', href: '/gallery' },
   { label: 'How It Works', href: '/how-it-works' },
   { label: 'Guides', href: '/guides' },

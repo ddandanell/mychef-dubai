@@ -13,13 +13,13 @@ import {
   HeartHandshake,
   Building2,
   Users,
-  Flag,
   Check,
   ChevronRight,
   Phone,
   ArrowRight,
 } from 'lucide-react'
 import SEO from '../components/SEO'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -78,11 +78,6 @@ const galaTypes = [
     title: 'Association & Industry Dinners',
     description: 'Formal dinners for professional associations, trade bodies, and industry groups across Dubai.',
   },
-  {
-    icon: Flag,
-    title: 'National Day & Diplomatic Events',
-    description: 'Protocol-aware catering for diplomatic receptions, national celebrations, and formal state occasions.',
-  },
 ]
 
 const includedItems = [
@@ -116,7 +111,7 @@ const locations = [
 const faqs = [
   {
     q: 'Do you cater large gala dinners in Dubai?',
-    a: 'Yes. We cater gala dinners from 50 to several hundred guests, with menus and staffing scaled to the venue and event format.',
+    a: 'Yes. We coordinate catering for gala dinners from 50 to several hundred guests, with menus and staffing scaled to the venue and event format.',
   },
   {
     q: 'Can you create a multi-course plated menu for a formal dinner?',
@@ -177,7 +172,7 @@ const serviceSchema = {
   name: 'Gala Dinner Catering Dubai',
   serviceType: 'Catering Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'Organization',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',
@@ -256,8 +251,8 @@ export default function GalaDinnerCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Gala Dinner Catering Dubai | Formal Events | myCHEF"
-        description="Elegant gala dinner catering in Dubai for awards nights, charity balls, and corporate galas. Multi-course menus and white-glove service."
+        title="Gala Dinner Dining Dubai | Formal Events"
+        description="Chef-coordinated gala dinner experiences in Dubai for awards nights, charity balls, and corporate galas. Multi-course menus and white-glove service."
         canonicalPath="/gala-dinner-catering-dubai"
         ogImage="/images/gala-dinner-catering-dubai-hero.webp"
         schema={schema}
@@ -301,6 +296,8 @@ export default function GalaDinnerCatering() {
         </div>
       </section>
 
+      <TrustSignalStrip variant="dark" />
+
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
@@ -311,7 +308,7 @@ export default function GalaDinnerCatering() {
             The Importance of Gala Catering
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            A gala is a statement. From the moment guests arrive to the final course, every detail should reflect the prestige of the occasion. At myCHEF Dubai, we deliver gala dinner catering that matches the elegance of the venue, the formality of the dress code, and the ambition of the event itself. Our team designs multi-course menus, curates sommelier-style beverage service, and fields polished front-of-house teams trained for black-tie occasions.
+            A gala is a statement. From the moment guests arrive to the final course, every detail should reflect the prestige of the occasion. At myCHEF Dubai, we deliver gala dinner catering that matches the elegance of the venue, the formality of the dress code, and the ambition of the event itself. The chefs in our network design multi-course menus, curates sommelier-style beverage service, and fields polished front-of-house teams trained for black-tie occasions.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             Whether you are planning an awards ceremony, charity ball, or corporate anniversary gala, we work behind the scenes so the evening flows flawlessly. Explore our gala formats below, or see how we complement formal occasions through our{' '}
@@ -362,7 +359,7 @@ export default function GalaDinnerCatering() {
               Gala Types
             </span>
             <h2 className="font-playfair text-h2 text-white">
-              Occasions We Cater
+              Occasions we coordinate catering for
             </h2>
           </div>
 

@@ -16,6 +16,7 @@ import {
   ArrowRight,
 } from 'lucide-react'
 import SEO from '../components/SEO'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -66,7 +67,7 @@ const dessertFormats = [
 
 const includedItems = [
   { title: 'Bespoke Cake Design', description: 'A signature cake designed around your theme, palette, and flavour.' },
-  { title: 'Patisserie Selection', description: 'Macarons, tarts, éclairs, and petits fours from our pastry kitchen.' },
+  { title: 'Patisserie Selection', description: 'Macarons, tarts, éclairs, and petits fours from the pastry chefs in our network.' },
   { title: 'Mini Sweets & Treats', description: 'Cupcakes, cake pops, cookies, and bite-sized confections.' },
   { title: 'Styled Display', description: 'Tiered stands, cake plinths, glassware, and themed styling.' },
   { title: 'Themed Presentation', description: 'Colour palettes, florals, and signage matched to your celebration.' },
@@ -141,7 +142,7 @@ const faqs = [
   },
   {
     q: 'Do you set up and clear the dessert table?',
-    a: 'Yes. Our team delivers, builds, and styles the dessert table on-site at your villa or venue, and we return to pack down and clear afterwards so you can simply enjoy the celebration.',
+    a: 'Yes. The chefs in our network delivers, builds, and styles the dessert table on-site at your villa or venue, and we return to pack down and clear afterwards so you can simply enjoy the celebration.',
   },
   {
     q: 'How far in advance should I book a dessert table?',
@@ -190,7 +191,7 @@ const serviceSchema = {
   name: 'Dessert Table Catering Dubai',
   serviceType: 'Catering Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'Organization',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',
@@ -269,7 +270,7 @@ export default function DessertTableCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Dessert Table Dubai | Patisserie & Sweet Tables"
+        title="Dessert Table Dubai | Patisserie"
         description="Bespoke dessert tables in Dubai for weddings, birthdays, and baby showers. Custom cakes, French patisserie, styled sweet displays with full set-up and dietary options."
         canonicalPath="/dessert-table-catering-dubai"
         ogImage="/menu-dessert.webp"
@@ -314,6 +315,8 @@ export default function DessertTableCatering() {
         </div>
       </section>
 
+      <TrustSignalStrip />
+
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
@@ -324,10 +327,10 @@ export default function DessertTableCatering() {
             The Sweetest Moment of the Day
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            The dessert table is where a celebration lingers. It is the centrepiece cake everyone photographs, the tower of macarons that disappears first, the styled display that frames the room. At myCHEF Dubai, our pastry kitchen, led by <Link to="/chefs/sofia-pastry-chef" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Pastry Chef Sofia</Link>, builds dessert tables as composed, considered installations — bespoke cakes, refined French patisserie, and bite-sized sweets arranged across tiered stands and plinths to match your palette and theme.
+            The dessert table is where a celebration lingers. It is the centrepiece cake everyone photographs, the tower of macarons that disappears first, the styled display that frames the room. At myCHEF Dubai, pastry chefs in our network — including <Link to="/chefs/sofia-pastry-chef" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Pastry Chef Sofia</Link> — build dessert tables as composed, considered installations — bespoke cakes, refined French patisserie, and bite-sized sweets arranged across tiered stands and plinths to match your palette and theme.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Whether you are planning an elegant <Link to="/wedding-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">wedding sweet table</Link>, a colourful <Link to="/birthday-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">birthday dessert display</Link>, a pastel baby shower, or a refined dessert and coffee station to close a dinner, our team designs, delivers, and styles it on-site at your villa or venue. Discover our dessert formats below, or see how they fit within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
+            Whether you are planning an elegant <Link to="/wedding-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">wedding sweet table</Link>, a colourful <Link to="/birthday-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">birthday dessert display</Link>, a pastel baby shower, or a refined dessert and coffee station to close a dinner, the chefs in our network design, delivers, and styles it on-site at your villa or venue. Discover our dessert formats below, or see how they fit within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
           </p>
         </div>
       </section>

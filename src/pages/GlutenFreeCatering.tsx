@@ -5,10 +5,11 @@ import type { DietaryPageConfig } from './dietary/DietaryCateringPage'
 
 const config: DietaryPageConfig = {
   slug: 'gluten-free-catering-dubai',
-  seoTitle: 'Gluten-Free Catering Dubai | Coeliac-Safe Event Menus',
+  seoTitle: "Gluten-Free Catering Dubai | Coeliac-Safe",
   metaDescription:
     'Gluten-free catering in Dubai for events, villas and offices. Coeliac-safe menus, transparent ingredients and full-service execution. Request a quote today.',
   canonicalPath: '/gluten-free-catering-dubai',
+  showTrustSignalStrip: true,
   ogImage: '/images/gluten-free-catering-dubai-hero.webp',
   breadcrumbLabel: 'Gluten-Free Catering Dubai',
   h1: 'Gluten-Free Catering in Dubai',
@@ -25,7 +26,7 @@ const config: DietaryPageConfig = {
         Eating gluten-free in Dubai should never mean settling for a plain salad while everyone else enjoys a full menu. Our gluten-free catering is built around the simple idea that a dietary requirement is an invitation to cook more creatively, not less. We design complete spreads — canapés, mains, sides, breads and desserts — where every element is prepared without gluten, clearly labelled, and served with the same luxury finish as every other myCHEF Dubai menu.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-        Whether you are managing coeliac disease, a wheat intolerance, or simply want a fully gluten-free celebration, our kitchen processes reduce cross-contamination risk and our team plans the service around your guests’ needs. Explore how this sits alongside our{' '}
+        Whether you are managing coeliac disease, a wheat intolerance, or simply want a fully gluten-free celebration, strict processes reduce cross-contamination risk and the chefs in our network plan the service around your guests’ needs. Explore how this sits alongside our{' '}
         <Link to="/healthy-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           healthy catering Dubai
         </Link>{' '}
@@ -136,7 +137,7 @@ const config: DietaryPageConfig = {
     },
     {
       q: 'What grains and starches do you use instead of wheat?',
-      a: 'Our chefs use rice, quinoa, polenta, buckwheat, lentils, potatoes and seasonal vegetables as the base for gluten-free mains and sides, keeping menus varied and satisfying.',
+      a: 'the chefs in our network use rice, quinoa, polenta, buckwheat, lentils, potatoes and seasonal vegetables as the base for gluten-free mains and sides, keeping menus varied and satisfying.',
     },
     {
       q: 'Can the whole menu be gluten-free for an event?',

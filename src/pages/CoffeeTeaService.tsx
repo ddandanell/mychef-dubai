@@ -5,11 +5,12 @@ import type { ServicePageConfig } from './shared/ServiceLandingPage'
 
 const config: ServicePageConfig = {
   slug: 'coffee-tea-service-dubai',
-  seoTitle: 'Coffee & Tea Service Dubai | Corporate Receptions & Events',
+  seoTitle: "Coffee & Tea Service Dubai | Receptions",
   metaDescription:
     'Coffee and tea service in Dubai: barista-style coffee, specialty teas, pastries and light bites for corporate receptions, meetings, breakfasts and events.',
   canonicalPath: '/coffee-tea-service-dubai',
   ogImage: '/images/afternoon-tea-catering-dubai-hero.webp',
+  showTrustSignalStrip: true,
   breadcrumbLabel: 'Coffee & Tea Service Dubai',
   h1: 'Coffee & Tea Service in Dubai',
   heroSub:
@@ -163,7 +164,7 @@ const config: ServicePageConfig = {
     },
     {
       title: 'Corporate Event Catering',
-      description: 'Full-service catering for conferences, product launches and company celebrations.',
+      description: 'fully-coordinated catering for conferences, product launches and company celebrations.',
       image: '/service-events.webp',
       link: '/corporate-event-catering-dubai',
     },

@@ -21,6 +21,7 @@ import {
   ArrowRight,
 } from 'lucide-react'
 import SEO from '../components/SEO'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -52,7 +53,7 @@ const launchFormats = [
   {
     icon: Flame,
     title: 'Live Station Theatre',
-    description: 'Chef-manned stations that create energy and shareable moments around your product, from carving to made-to-order small plates.',
+    description: 'partner-chef-led stations that create energy and shareable moments around your product, from carving to made-to-order small plates.',
     link: '/live-cooking-stations-dubai',
   },
   {
@@ -117,7 +118,7 @@ const locations = [
 const faqs = [
   {
     q: 'Do you cater small product launches in Dubai?',
-    a: 'Yes. We cater intimate press previews through to large-scale public launches, scaling the menu and team to your guest count.',
+    a: 'Yes. We coordinate catering intimate press previews through to large-scale public launches, scaling the menu and team to your guest count.',
   },
   {
     q: 'Can the menu reflect our brand or product theme?',
@@ -133,14 +134,14 @@ const faqs = [
   },
   {
     q: 'Can you cater at venues, showrooms, or offices?',
-    a: 'Yes. We cater at offices, showrooms, hotels, yachts, and partner venues across Dubai, and can coordinate directly with your venue team.',
+    a: 'Yes. We coordinate catering at offices, showrooms, hotels, yachts, and partner venues across Dubai, and can coordinate directly with your venue team.',
   },
 ]
 
 const relatedServices = [
   {
     title: 'Corporate Event Catering',
-    description: 'Full-service catering for conferences, galas, and company milestones across Dubai.',
+    description: 'fully-coordinated catering for conferences, galas, and company milestones across Dubai.',
     image: '/images/corporate-catering-dubai-hero.webp',
     link: '/corporate-event-catering-dubai',
   },
@@ -172,7 +173,7 @@ const serviceSchema = {
   name: 'Product Launch Catering Dubai',
   serviceType: 'Catering Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'Organization',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',
@@ -256,7 +257,7 @@ export default function ProductLaunchCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Product Launch Catering Dubai | B2B Events | myCHEF"
+        title="Product Launch Catering Dubai | B2B Events"
         description="Impress investors, media, and guests with product launch catering in Dubai. Branded menus, canapés, live stations & full service."
         canonicalPath="/product-launch-catering-dubai"
         ogImage="/images/product-launch-catering-dubai-hero.webp"
@@ -301,6 +302,8 @@ export default function ProductLaunchCatering() {
         </div>
       </section>
 
+      <TrustSignalStrip variant="dark" />
+
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
@@ -314,7 +317,7 @@ export default function ProductLaunchCatering() {
             A product launch is more than a presentation — it is the first impression your market will have of something new. The food, the drinks, and the service all signal the quality and attention to detail behind your brand. At myCHEF Dubai, we design product launch catering around your product, your audience, and your venue, so every bite reinforces the story you are telling.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            From intimate investor dinners in DIFC to large-scale unveilings in Downtown Dubai, our team plans menus that match the tone of the event. We time service around speeches and reveals, cater to dietary and cultural requirements, and create presentation that photographs beautifully for press and social coverage. Whether you need a canapé reception, a media lunch, or a branded dessert bar, we deliver the polish your launch deserves.
+            From intimate investor dinners in DIFC to large-scale unveilings in Downtown Dubai, the chefs in our network plan menus that match the tone of the event. We time service around speeches and reveals, cater to dietary and cultural requirements, and create presentation that photographs beautifully for press and social coverage. Whether you need a canapé reception, a media lunch, or a branded dessert bar, we deliver the polish your launch deserves.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             Explore our launch formats below, or see how we support wider <Link to="/corporate-event-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate event catering in Dubai</Link>, <Link to="/brand-activation-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">brand activation catering</Link>, and <Link to="/business-lunch-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">business lunch catering</Link>.
@@ -427,7 +430,7 @@ export default function ProductLaunchCatering() {
       <section className="bg-black py-20">
         <div className="container-custom">
           <h2 className="font-playfair text-fluid-h2 text-white text-center mb-10">
-            Launch Moments We Cater
+            Launch Moments we coordinate catering for
           </h2>
 
           <div className="plc-gallery grid grid-cols-2 lg:grid-cols-3 gap-4">

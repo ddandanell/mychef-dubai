@@ -5,7 +5,8 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { Anchor, Building2, Hotel, Briefcase } from 'lucide-react'
 import SEO from '@/components/SEO'
 import PageHero from '@/components/PageHero'
-import { breadcrumbSchema, organizationSchema, localBusinessSchema } from '@/utils/schema'
+import TrustSignalStrip from '@/components/TrustSignalStrip'
+import { breadcrumbSchema, organizationSchema } from '@/utils/schema'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -123,7 +124,6 @@ const schema = {
   '@graph': [
     breadcrumbSchema(breadcrumbs),
     organizationSchema(),
-    localBusinessSchema(),
   ],
 }
 
@@ -197,8 +197,8 @@ export default function VenuePartners() {
   return (
     <>
       <SEO
-        title="Venue Partners | myCHEF Dubai | Preferred Catering Partners"
-        description="Discover Dubai venues where myCHEF provides private chef and catering services. From yacht charters to luxury villas and event spaces, we cater at distinguished locations."
+        title="Venue Partners | Preferred Catering"
+        description="Discover Dubai venues where myCHEF provides private chef and catering services. From yacht charters to luxury villas and event spaces, we coordinate catering at distinguished locations."
         canonicalPath="/venue-partners"
         ogImage="/images/locations-dubai-hero.webp"
         schema={schema as Record<string, unknown>}
@@ -206,7 +206,7 @@ export default function VenuePartners() {
 
       <PageHero
         eyebrow="PARTNER NETWORK"
-        title={<>Venue Partners</>}
+        title="Venue Partners"
         subtitle="Exceptional Dubai venues where our private chefs and catering teams regularly deliver bespoke service."
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Venue Partners' }]}
         minHeight="medium"
@@ -214,6 +214,8 @@ export default function VenuePartners() {
         image="/images/locations-dubai-hero.webp"
         imageAlt="Trusted venue partners for luxury catering dubai"
       />
+
+      <TrustSignalStrip />
 
       {/* Intro */}
       <section ref={introRef} className="bg-black section-padding">
@@ -228,7 +230,7 @@ export default function VenuePartners() {
             <p className="reveal font-inter text-body text-gray-400">
               Our venue partner program brings together the best locations in Dubai with bespoke culinary
               experiences. Whether you are a yacht charter, a luxury villa manager, a hotel events team, or a
-              corporate venue, we provide seamless private chef and catering services that elevate every guest
+              corporate venue, we match you with a vetted chef you engage and catering services that elevate every guest
               experience.
             </p>
             <p className="reveal font-inter text-body-sm text-gray-500 mt-4">

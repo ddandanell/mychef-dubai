@@ -16,6 +16,7 @@ import {
   ArrowRight,
 } from 'lucide-react'
 import SEO from '../components/SEO'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -75,7 +76,7 @@ const useCases = [
   },
   {
     title: 'Event & Live Productions',
-    description: 'Behind every event production is a crew that needs feeding. From conferences and concerts to brand activations, we cater the technical and operational teams who build, run, and break down the show.',
+    description: 'Behind every event production is a crew that needs feeding. From conferences and concerts to brand activations, we coordinate catering for the technical and operational teams who build, run, and break down the show.',
   },
   {
     title: 'Multi-Day & Remote Shoots',
@@ -125,7 +126,7 @@ const locations = [
 const faqs = [
   {
     q: 'What types of production do you cater for?',
-    a: 'We cater television and broadcast shoots, commercials, photographic and editorial productions, branded content, and event productions across Dubai. Whether the unit is small or large, we scale the service to suit.',
+    a: 'we coordinate catering for television and broadcast shoots, commercials, photographic and editorial productions, branded content, and event productions across Dubai. Whether the unit is small or large, we scale the service to suit.',
   },
   {
     q: 'What does craft services include?',
@@ -184,7 +185,7 @@ const serviceSchema = {
   name: 'Production Catering Dubai',
   serviceType: 'Catering Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'Organization',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',
@@ -263,7 +264,7 @@ export default function ProductionCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Production Catering Dubai | TV, Photo & Event Crews"
+        title="Production Catering Dubai | TV & Photo Crews"
         description="Production catering in Dubai for TV, photo, and event shoots — daily crew meals, craft services, early calls, and full dietary coverage. Request your custom quote today."
         canonicalPath="/production-catering-dubai"
         ogImage="/service-catering.webp"
@@ -307,6 +308,8 @@ export default function ProductionCatering() {
           </div>
         </div>
       </section>
+
+      <TrustSignalStrip variant="dark" />
 
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">

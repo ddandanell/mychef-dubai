@@ -12,6 +12,7 @@ import {
   AlertTriangle,
 } from 'lucide-react'
 import SEO from '../../components/SEO'
+import TrustSignalStrip from '../../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -86,7 +87,7 @@ const questionsToAsk = [
 const internalLinks = [
   { title: 'Dubai Catering Prices Guide', link: '/dubai-catering-prices-guide', description: 'Understand per-person costs and quote structure.' },
   { title: 'Private Chef Dubai', link: '/private-chef-dubai', description: 'Highly personalised chef service for homes and villas.' },
-  { title: 'Wedding Catering Dubai', link: '/wedding-catering-dubai', description: 'Full-service wedding catering and banquet menus.' },
+  { title: 'Wedding Catering Dubai', link: '/wedding-catering-dubai', description: 'fully-coordinated catering and banquet menus.' },
   { title: 'Corporate Catering Dubai', link: '/corporate-catering-dubai', description: 'Office lunches, boardroom catering, and events.' },
   { title: 'Yacht Catering Dubai', link: '/yacht-catering-dubai', description: 'Specialised catering for Dubai yacht events.' },
   { title: 'Villa Catering Ideas', link: '/villa-catering-ideas-dubai', description: 'Menu formats and setups for Dubai homes.' },
@@ -134,6 +135,8 @@ const articleSchema = {
   description: 'A 10-point checklist for choosing a caterer in Dubai: tastings, licenses, staffing, dietary handling, transparent quoting, venue familiarity, and red flags to avoid.',
   author: { '@type': 'Organization', name: 'myCHEF Dubai' },
   publisher: { '@type': 'Organization', name: 'myCHEF Dubai', url: 'https://mychef.ae' },
+  datePublished: '2026-07-01',
+  dateModified: '2026-07-22',
 }
 
 const serviceSchema = {
@@ -141,7 +144,7 @@ const serviceSchema = {
   name: 'How to Choose a Caterer in Dubai',
   serviceType: 'Catering Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'Organization',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',
@@ -211,7 +214,7 @@ export default function HowToChooseCatererDubai() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="How to Choose a Caterer in Dubai | 10-Point Checklist | myCHEF"
+        title="How to Choose a Caterer in Dubai"
         description="Use our 10-point checklist to choose a caterer in Dubai. Covers tastings, licenses, staffing, dietary handling, transparent quotes, venue familiarity, and red flags."
         canonicalPath="/how-to-choose-caterer-dubai"
         ogImage="/service-catering.webp"
@@ -257,6 +260,8 @@ export default function HowToChooseCatererDubai() {
           </div>
         </div>
       </section>
+
+      <TrustSignalStrip />
 
       {/* ═══════════════ Opening ═══════════════ */}
       <section className="bg-white section-padding">

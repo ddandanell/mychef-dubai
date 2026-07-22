@@ -5,7 +5,7 @@ import type { ServicePageConfig } from './shared/ServiceLandingPage'
 
 const config: ServicePageConfig = {
   slug: 'chinese-new-year-catering-dubai',
-  seoTitle: 'Chinese New Year Catering Dubai | Lunar New Year Feasts',
+  seoTitle: "Chinese New Year Catering Dubai | Feasts",
   metaDescription:
     'Chinese New Year catering in Dubai: Lunar New Year menus, dim sum, Peking duck, live noodle stations and family banquets at home or venues. Request a quote.',
   canonicalPath: '/chinese-new-year-catering-dubai',
@@ -73,7 +73,7 @@ const config: ServicePageConfig = {
     {
       Icon: Home,
       title: 'Villa & Home Celebrations',
-      description: 'Full-service catering in your home or villa across Dubai with setup, service and clear-down included.',
+      description: 'fully-coordinated catering in your home or villa across Dubai with setup, service and clear-down included.',
       link: '/villas-private-residences',
     },
     {
@@ -112,7 +112,7 @@ const config: ServicePageConfig = {
     { title: 'Symbolic Menu Design', description: 'Dishes chosen for prosperity, longevity, abundance and good fortune, adapted to your guest list.' },
     { title: 'Asian-Inspired Starters', description: 'Spring rolls, dumplings, char siu, salads and cold platters to open the meal auspiciously.' },
     { title: 'Sharing Mains & Sides', description: 'Whole fish, Peking duck, wok-fried noodles, fried rice, seasonal greens and signature sauces.' },
-    { title: 'Live Cooking Stations', description: 'Optional chef-manned wok, noodle and dumpling stations for energy and freshness.' },
+    { title: 'Live Cooking Stations', description: 'Optional partner-chef-led wok, noodle and dumpling stations for energy and freshness.' },
     { title: 'Vegetarian & Halal Options', description: 'Menus adjusted for dietary, halal and allergy requirements without losing authenticity.' },
     { title: 'Festive Desserts & Tea', description: 'Red bean pastries, sesame balls, rice cakes, fortune cookies and Chinese tea service.' },
     { title: 'Service Staff & Setup', description: 'Professional team to plate, serve, clear and keep the celebration flowing.' },
@@ -135,7 +135,7 @@ const config: ServicePageConfig = {
     },
     {
       q: 'Can you cater a Chinese New Year reunion dinner at our villa?',
-      a: 'Yes. We provide full-service villa and home catering across Dubai, including table setup, service staff, live stations and cleanup, so your family can focus on the celebration.',
+      a: 'Yes. We provide fully-coordinated catering across Dubai, including table setup, service staff, live stations and cleanup, so your family can focus on the celebration.',
     },
     {
       q: 'Do you offer halal Chinese New Year catering?',
@@ -147,7 +147,7 @@ const config: ServicePageConfig = {
     },
     {
       q: 'How many guests can you cater for?',
-      a: 'We cater intimate reunion dinners from 8 guests up to large corporate or community banquets of 100 or more.',
+      a: 'we coordinate catering intimate reunion dinners from 8 guests up to large corporate or community banquets of 100 or more.',
     },
     {
       q: 'How far in advance should I book Chinese New Year catering?',
@@ -177,6 +177,7 @@ const config: ServicePageConfig = {
   ctaH2: 'Celebrate the Year Ahead with myCHEF Dubai',
   ctaP:
     'Tell us about your Lunar New Year plans, guest count, venue and menu style. We will create a Chinese New Year catering experience that honours tradition and impresses your guests.',
+  showTrustSignalStrip: true,
 }
 
 export default function ChineseNewYearCatering() {

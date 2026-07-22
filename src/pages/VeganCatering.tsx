@@ -16,6 +16,7 @@ import {
   ArrowRight,
 } from 'lucide-react'
 import SEO from '../components/SEO'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -53,7 +54,7 @@ const veganFormats = [
   {
     icon: Home,
     title: 'Villa & Garden Vegan Menus',
-    description: 'Full-service plant-based catering for villa dinners and garden parties across Dubai, with on-site cooking, service, and pack-down.',
+    description: 'fully-coordinated catering for villa dinners and garden parties across Dubai, with on-site cooking, service, and pack-down.',
     link: '/catering-dubai',
   },
   {
@@ -184,7 +185,7 @@ const serviceSchema = {
   name: 'Vegan Catering Dubai',
   serviceType: 'Catering Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'Organization',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',
@@ -263,7 +264,7 @@ export default function VeganCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Vegan Catering Dubai | Plant-Based Fine Dining"
+        title="Vegan Catering Dubai | Plant-Based Dining"
         description="Vegan catering in Dubai with creative plant-based fine dining, canapés, grazing tables, and dairy-free desserts for inclusive events. Request your custom quote today."
         canonicalPath="/vegan-catering-dubai"
         ogImage="/menu-appetizer.webp"
@@ -306,6 +307,7 @@ export default function VeganCatering() {
             </a>
           </div>
         </div>
+        <TrustSignalStrip className="mt-8" variant="dark" />
       </section>
 
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
@@ -321,7 +323,7 @@ export default function VeganCatering() {
             Plant-based food has come a long way from the side salad. Done well, vegan catering is vivid, generous, and genuinely exciting — seasonal vegetables, grains, pulses, and herbs coaxed into dishes that feel complete in their own right. At myCHEF Dubai, we approach vegan menus with the same creativity and finish we bring to every event, so plant-based guests are never an afterthought and the food earns its place at the centre of the table.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Whether you are hosting a fully vegan dinner, a dietary-inclusive celebration with mixed guests, a corporate wellness day, or a styled reception, our team designs and serves menus tailored to your occasion. From canapés to dairy-free desserts, every course is considered. For events where some guests prefer vegetarian dishes, you can also explore our <Link to="/vegetarian-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">vegetarian catering Dubai</Link> menus, or browse our <Link to="/dairy-free-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">dairy-free</Link> and <Link to="/nut-free-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">nut-free catering</Link> options. Explore our vegan formats below, or see how it fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
+            Whether you are hosting a fully vegan dinner, a dietary-inclusive celebration with mixed guests, a corporate wellness day, or a styled reception, the chefs in our network design and serves menus tailored to your occasion. From canapés to dairy-free desserts, every course is considered. For events where some guests prefer vegetarian dishes, you can also explore our <Link to="/vegetarian-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">vegetarian catering Dubai</Link> menus, or browse our <Link to="/dairy-free-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">dairy-free</Link> and <Link to="/nut-free-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">nut-free catering</Link> options. Explore our vegan formats below, or see how it fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
           </p>
         </div>
       </section>

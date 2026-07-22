@@ -16,6 +16,7 @@ import {
   ArrowRight,
 } from 'lucide-react'
 import SEO from '../components/SEO'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -35,7 +36,7 @@ const menuHighlights = [
   {
     icon: Flame,
     title: 'Charcoal Grills',
-    description: 'Shish taouk, lamb kofta, kebab halabi, and lamb chops cooked over open charcoal — smoky, succulent, and grilled to order at a chef-manned station.',
+    description: 'Shish taouk, lamb kofta, kebab halabi, and lamb chops cooked over open charcoal — smoky, succulent, and grilled to order at a partner-chef-led station.',
     link: '/catering-dubai',
   },
   {
@@ -71,11 +72,11 @@ const useCases = [
   },
   {
     title: 'Majlis & Villa Gatherings',
-    description: 'For family majlis evenings and villa celebrations, our team recreates the warmth of a home feast — charcoal grills, sharing platters, and abundant mezze served the way hospitality demands.',
+    description: 'For family majlis evenings and villa celebrations, the chefs in our network recreates the warmth of a home feast — charcoal grills, sharing platters, and abundant mezze served the way hospitality demands.',
   },
   {
     title: 'Iftar & Ramadan Events',
-    description: 'During Ramadan, we cater iftar and suhoor gatherings with dates, soups, mezze, mains, and Arabic sweets, timed and styled for the occasion at homes, hotels, and corporate venues.',
+    description: 'During Ramadan, we coordinate catering for iftar and suhoor gatherings with dates, soups, mezze, mains, and Arabic sweets, timed and styled for the occasion at homes, hotels, and corporate venues.',
   },
   {
     title: 'Corporate & National Day',
@@ -85,7 +86,7 @@ const useCases = [
 
 const includedItems = [
   { title: 'Mezze Menu Design', description: 'A balanced spread of cold and hot mezze tailored to your guests and occasion.' },
-  { title: 'Live Charcoal Grills', description: 'Chef-manned grilling stations searing kebabs, taouk, and lamb to order.' },
+  { title: 'Live Charcoal Grills', description: 'partner-chef-led grilling stations searing kebabs, taouk, and lamb to order.' },
   { title: 'Ouzi & Carving', description: 'Slow-roasted whole lamb ouzi carved at the table as a centrepiece.' },
   { title: 'Emirati & Levantine', description: 'Authentic regional dishes from Emirati machboos to Levantine fatteh.' },
   { title: 'Halal Sourcing', description: 'Halal meat and poultry as standard, sourced from trusted suppliers.' },
@@ -137,7 +138,7 @@ const faqs = [
   },
   {
     q: 'Do you cater iftar and Ramadan gatherings?',
-    a: 'We do. We cater iftar and suhoor events with dates, soups, mezze, grilled mains, and Arabic sweets, timed for the occasion. We can serve at villas, hotels, and corporate venues across Dubai.',
+    a: 'We do. We coordinate catering for iftar and suhoor events with dates, soups, mezze, grilled mains, and Arabic sweets, timed for the occasion. We can serve at villas, hotels, and corporate venues across Dubai.',
   },
   {
     q: 'Do you offer vegetarian and vegan options?',
@@ -152,7 +153,7 @@ const faqs = [
 const relatedServices = [
   {
     title: 'Luxury Catering Dubai',
-    description: 'Full-service event catering across Dubai with bespoke menus for any occasion.',
+    description: 'fully-coordinated catering across Dubai with bespoke menus for any occasion.',
     image: '/service-catering.webp',
     link: '/catering-dubai',
   },
@@ -190,7 +191,7 @@ const serviceSchema = {
   name: 'Arabic Catering Dubai',
   serviceType: 'Catering Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'Organization',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',
@@ -312,6 +313,7 @@ export default function ArabicCatering() {
             </a>
           </div>
         </div>
+        <TrustSignalStrip className="mt-8" variant="dark" />
       </section>
 
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
@@ -324,10 +326,10 @@ export default function ArabicCatering() {
             The Generous Heart of Arabic Hospitality
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Arabic cuisine is built on generosity — a table that overflows, dishes meant to be shared, and the unhurried ritual of breaking bread together. It begins with mezze: hummus, moutabal, tabbouleh, vine leaves, and warm flatbread arriving in abundance. It builds through smoky charcoal grills and slow-cooked classics, and it closes with kunafa, baklava, and cardamom-scented Arabic coffee. At myCHEF Dubai, we cook this cuisine the way it is meant to be served — warm, plentiful, and rooted in tradition.
+            Arabic cuisine is built on generosity — a table that overflows, dishes meant to be shared, and the unhurried ritual of breaking bread together. It begins with mezze: hummus, moutabal, tabbouleh, vine leaves, and warm flatbread arriving in abundance. It builds through smoky charcoal grills and slow-cooked classics, and it closes with kunafa, baklava, and cardamom-scented Arabic coffee. At myCHEF Dubai, your chef prepares this cuisine the way it is meant to be served — warm, plentiful, and rooted in tradition.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Spanning Emirati specialities like machboos and harees, Levantine grills and fatteh, and showpiece dishes such as a carved whole-lamb ouzi, our menus are shaped by <Link to="/chefs/layla-middle-eastern-chef" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Chef Layla, Middle Eastern chef</Link>, and suit weddings, majlis evenings, iftar gatherings, and corporate functions alike. Halal sourcing is the baseline, vegetarian and vegan mezze are plentiful, and our team handles the styling, service, and pack-down — see how it fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>. For related flavours, explore our <Link to="/mediterranean-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Mediterranean catering</Link> and <Link to="/halal-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">halal catering</Link> menus.
+            Spanning Emirati specialities like machboos and harees, Levantine grills and fatteh, and showpiece dishes such as a carved whole-lamb ouzi, our menus are shaped by <Link to="/chefs/layla-middle-eastern-chef" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Chef Layla, Middle Eastern chef</Link>, and suit weddings, majlis evenings, iftar gatherings, and corporate functions alike. Halal sourcing is the baseline, vegetarian and vegan mezze are plentiful, and the chefs in our network handle the styling, service, and pack-down — see how it fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>. For related flavours, explore our <Link to="/mediterranean-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Mediterranean catering</Link> and <Link to="/halal-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">halal catering</Link> menus.
           </p>
         </div>
       </section>
@@ -373,7 +375,7 @@ export default function ArabicCatering() {
         <div className="container-custom">
           <div className="text-center mb-12">
             <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WHO WE COOK FOR
+              WHO your chef prepares FOR
             </span>
             <h2 className="font-playfair text-h2 text-white">
               Arabic Catering for Every Occasion

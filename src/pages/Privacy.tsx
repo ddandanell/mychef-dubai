@@ -75,7 +75,7 @@ const policySections = [
     ],
     bullets: [
       'We do not sell, trade, or rent your personal data to third parties',
-      'Your information may be shared with members of our culinary team solely for the purpose of delivering your service',
+      'Your information may be shared with members of the chefs in our network solely for the purpose of delivering your service',
       'We may disclose information if required by law or to protect our rights',
       'Any third-party service providers we engage are bound by confidentiality agreements',
     ],
@@ -85,7 +85,7 @@ const policySections = [
     title: 'Data Security',
     content: [
       'We implement appropriate technical and organizational measures to protect your personal data against unauthorized access, alteration, disclosure, or destruction.',
-      'All team members are bound by strict confidentiality agreements. We regularly review our security practices to ensure your information remains protected.',
+      'All the chefs in our network are bound by strict confidentiality agreements. We regularly review our security practices to ensure your information remains protected.',
     ],
     bullets: [],
   },
@@ -146,7 +146,7 @@ const policySections = [
       'If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us:',
     ],
     bullets: [
-      'Email: hallo@mychef.ae',
+      'Email: hello@mychef.ae',
       'WhatsApp: +971 50 XXX XXXX',
       'We will respond to all privacy-related inquiries within 48 hours.',
     ],
@@ -222,11 +222,11 @@ export default function Privacy() {
               If you have any questions or concerns about how we handle your data, we are here to help.
             </p>
             <a
-              href="mailto:hallo@mychef.ae"
+              href="mailto:hello@mychef.ae"
               className="inline-flex items-center gap-2 font-inter text-body-sm font-medium text-gold hover:text-gold-dark transition-colors"
             >
               <Mail size={16} />
-              hallo@mychef.ae
+              hello@mychef.ae
             </a>
           </div>
         </div>

@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import { Helmet } from 'react-helmet-async'
 
 interface SEOProps {
@@ -10,9 +11,10 @@ interface SEOProps {
 }
 
 const SITE_NAME = 'myCHEF Dubai'
-const DEFAULT_DESCRIPTION = 'myCHEF Dubai delivers premium private chef services, luxury catering, and bespoke dining experiences across Dubai. From villas to yachts — request your custom quote today.'
+const DEFAULT_TITLE = 'myCHEF Dubai — Premium Private Chef & Luxury Dining Experiences'
+const DEFAULT_DESCRIPTION = 'myCHEF Dubai designs private dining experiences and connects you with handpicked, licensed chefs across Dubai. From villas to yachts — request your custom quote today.'
 const DEFAULT_OG_IMAGE = '/images/home-hero.webp'
-const SITE_URL = 'https://mychef.ae'
+const SITE_URL = 'https://www.mychef.ae'
 
 export default function SEO({
   title,
@@ -22,11 +24,21 @@ export default function SEO({
   noindex = false,
   schema,
 }: SEOProps) {
-  const fullTitle = title
-    ? `${title} | ${SITE_NAME} — Premium Private Chef & Catering`
-    : `${SITE_NAME} — Premium Private Chef & Luxury Catering Dubai`
+  const fullTitle = title ? `${title} | ${SITE_NAME}` : DEFAULT_TITLE
 
   const canonicalUrl = `${SITE_URL}${canonicalPath}`
+
+  // React 19 natively hoists <title> to document.head; react-helmet-async can
+  // leave a duplicate after hydration on a prerendered page. Keep only the
+  // most-recently-rendered title so the audit sees exactly one <title>.
+  useEffect(() => {
+    const titles = document.head.querySelectorAll('title')
+    if (titles.length > 1) {
+      for (let i = 0; i < titles.length - 1; i += 1) {
+        titles[i].remove()
+      }
+    }
+  }, [fullTitle])
 
   return (
     <Helmet>

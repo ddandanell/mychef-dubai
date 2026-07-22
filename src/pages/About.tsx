@@ -6,6 +6,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { useGSAP } from '@gsap/react'
 import SEO from '@/components/SEO'
 import PageHero from '@/components/PageHero'
+import TrustSignalStrip from '@/components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -14,9 +15,9 @@ const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to reque
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 const values = [
-  { icon: Star, title: 'Uncompromising Quality', desc: 'Only premium ingredients. Only skilled preparation. We never cut corners — ever.' },
-  { icon: Shield, title: 'Complete Discretion', desc: 'Your privacy is paramount. Our team operates with the utmost professionalism and confidentiality.' },
-  { icon: Heart, title: 'Genuine Hospitality', desc: 'We do not just cook — we create experiences. Warm, attentive service that makes every guest feel special.' },
+  { icon: Star, title: 'Uncompromising Quality', desc: 'Only chefs who meet our standard, only premium ingredients — we never cut corners.' },
+  { icon: Shield, title: 'Complete Discretion', desc: 'Your privacy is paramount. The chefs and service professionals in our network operate with the utmost professionalism and confidentiality.' },
+  { icon: Heart, title: 'Genuine Hospitality', desc: 'A great dinner is remembered long after the plates are cleared — that feeling is what we design for. Warm, attentive service that makes every guest feel special.' },
   { icon: Clock, title: 'Reliability & Precision', desc: 'On time, every time. Meticulous planning ensures your event runs flawlessly from start to finish.' },
 ]
 
@@ -28,7 +29,7 @@ const team = [
 
 const stats = [
   { value: 'Tailored', label: 'Menus' },
-  { value: 'Chef-Led', label: 'Team' },
+  { value: 'Chef-Led', label: 'Network' },
   { value: 'Dubai-wide', label: 'Coverage' },
   { value: 'Clear', label: 'Pricing' },
 ]
@@ -124,7 +125,7 @@ export default function About() {
     <div ref={containerRef}>
       <SEO
         title="About myCHEF Dubai"
-        description="Discover the story behind myCHEF Dubai. Led by experienced culinary professionals, we deliver premium private chef services and luxury catering across Dubai."
+        description="Discover myCHEF Dubai — a private-dining house that designs bespoke dining experiences and connects you with handpicked, licensed chefs across Dubai."
         canonicalPath="/about"
         ogImage="/team-head-chef.webp"
         schema={breadcrumbSchema}
@@ -133,14 +134,16 @@ export default function About() {
       {/* Section 1: Hero */}
       <PageHero
         eyebrow="ABOUT US"
-        title={<>The Story Behind<br />Every Exceptional Meal</>}
-        subtitle="Experience, passion, and an unwavering commitment to excellence."
+        title="The Story Behind Every Exceptional Meal"
+        subtitle="Tell us your occasion and we will match you with a vetted chef within 24 hours."
         image="/images/about-mychef-dubai-hero.webp"
-        imageAlt="myCHEF Dubai kitchen team"
+        imageAlt="myCHEF Dubai private dining experience"
         minHeight="medium"
         overlay="dark"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'About' }]}
       />
+
+      <TrustSignalStrip />
 
       {/* Section 2: Our Story */}
       <section className="bg-white section-padding">
@@ -152,8 +155,8 @@ export default function About() {
                 From Fine Kitchens<br />to Dubai's Most Distinguished Homes
               </h2>
               <div className="space-y-4 font-inter text-body text-gray-500" style={{ lineHeight: '1.7' }}>
-                <p>myCHEF Dubai was founded with a simple belief: that exceptional dining should not be limited to restaurants. Drawing on years of experience in Europe's most demanding kitchens, our founder assembled a team of culinary talent dedicated to bringing restaurant-quality dining into private homes, villas, and yachts across Dubai.</p>
-                <p>Today, we are a full-service hospitality team — not just chefs, but a complete dining experience. From menu design and ingredient sourcing to table setting, service, and cleanup, we handle every detail so you can focus on what matters: enjoying the moment.</p>
+                <p>myCHEF Dubai was founded with a simple belief: that exceptional dining should not be limited to restaurants. Drawing on years of experience in Europe's most demanding kitchens, our founder built myCHEF around a simple idea: the guest should own the evening and none of the work — so we design the experience and choose the talent to bring it to life.</p>
+                <p>Today, myCHEF is a private-dining house. We design the experience end to end and run every part of the evening — from the first idea to the final cleared plate. We choose the chef, shape the menu, choreograph the service, and hold it all to one standard, so you're at the table, not managing it.</p>
                 <p>We serve clients across Dubai — from Palm Jumeirah to Emirates Hills, Downtown to Dubai Marina — and every engagement is approached with the same standard: excellence without compromise.</p>
               </div>
             </div>
@@ -194,18 +197,19 @@ export default function About() {
       <section className="bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12 md:mb-16">
-            <p className="font-inter text-caption font-medium uppercase tracking-wider text-gold mb-3">THE TEAM</p>
-            <h2 className="font-playfair text-fluid-h2 text-white mb-4" style={{ lineHeight: '1.15' }}>Meet the Culinary Team</h2>
-            <p className="font-inter text-body text-gray-400 max-w-xl mx-auto">Experienced professionals, each bringing unique expertise to your table.</p>
+            <p className="font-inter text-caption font-medium uppercase tracking-wider text-gold mb-3">THE CHEFS WE CHOOSE</p>
+            <h2 className="font-playfair text-fluid-h2 text-white mb-4" style={{ lineHeight: '1.15' }}>The Chefs We Choose</h2>
+            <p className="font-inter text-body text-gray-400 max-w-xl mx-auto">Behind every myCHEF evening is a chef we handpicked — vetted for credentials, licensing and food-safety before they ever cook for a client. We choose the talent. We hold the standard. The artistry is theirs.</p>
           </div>
           <div className="team-grid grid md:grid-cols-3 gap-8">
             {team.map((chef) => (
               <div key={chef.name} className="team-card">
                 <div className="aspect-[3/4] overflow-hidden mb-4">
-                  <img src={chef.image} alt={chef.name} className="w-full h-full object-cover" loading="lazy" decoding="async" />
+                  <img src={chef.image} alt={`${chef.name}, independent partner chef`} className="w-full h-full object-cover" loading="lazy" decoding="async" />
                 </div>
                 <h3 className="font-playfair text-h3 text-white">{chef.name}</h3>
-                <p className="font-inter text-body-sm text-gold uppercase tracking-[0.05em] mt-1">{chef.role}</p>
+                <p className="font-inter text-body-sm text-gold uppercase tracking-[0.05em] mt-1">Independent partner chef</p>
+                <p className="font-inter text-body-sm text-gray-500 mt-2">{chef.role}</p>
                 <p className="font-inter text-body-sm text-gray-400 mt-3" style={{ lineHeight: '1.6' }}>{chef.bio}</p>
                 <span className="inline-block mt-3 font-inter text-caption text-gray-400 border border-charcoal-light px-3 py-1">{chef.exp}</span>
               </div>

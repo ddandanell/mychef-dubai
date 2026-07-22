@@ -19,6 +19,7 @@ import {
   PartyPopper,
 } from 'lucide-react'
 import SEO from '../components/SEO'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -180,7 +181,7 @@ const serviceSchema = {
   name: 'Luxury Catering Case Studies Dubai',
   serviceType: 'Catering Portfolio and Event Planning Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'Organization',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',
@@ -313,7 +314,7 @@ export default function CaseStudies() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Event Case Studies | Luxury Catering Dubai | myCHEF"
+        title="Event Case Studies | Luxury Catering Dubai"
         description="See how myCHEF Dubai delivers luxury catering for weddings, yachts, villas, and corporate events. Real event stories, menus, and guest experiences."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/case-studies-hero.webp"
@@ -357,6 +358,8 @@ export default function CaseStudies() {
           </div>
         </div>
       </section>
+
+      <TrustSignalStrip />
 
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">

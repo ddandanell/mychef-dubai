@@ -5,10 +5,11 @@ import type { DietaryPageConfig } from './dietary/DietaryCateringPage'
 
 const config: DietaryPageConfig = {
   slug: 'jain-catering-dubai',
-  seoTitle: 'Jain Catering Dubai | Vegetarian No-Onion/Garlic Menus',
+  seoTitle: "Jain Catering Dubai | No-Onion/Garlic",
   metaDescription:
     'Jain catering in Dubai for weddings, festivals and family events. Lacto-vegetarian menus prepared without onion, garlic, root vegetables or eggs.',
   canonicalPath: '/jain-catering-dubai',
+  showTrustSignalStrip: true,
   ogImage: '/images/jain-catering-dubai-hero.webp',
   breadcrumbLabel: 'Jain Catering Dubai',
   h1: 'Jain Catering in Dubai',
@@ -72,7 +73,7 @@ const config: DietaryPageConfig = {
     {
       Icon: Building,
       title: 'Corporate Jain Lunches',
-      description: 'Inclusive vegetarian lunch options for offices with Jain team members or guests.',
+      description: 'Inclusive vegetarian lunch options for offices with Jain the chefs in our network or guests.',
       link: '/corporate-catering-dubai',
     },
   ],
@@ -162,7 +163,7 @@ const config: DietaryPageConfig = {
     },
     {
       title: 'Wedding Catering',
-      description: 'Full-service wedding catering that respects every dietary tradition.',
+      description: 'fully-coordinated catering that respects every dietary tradition.',
       image: '/service-events.webp',
       link: '/wedding-catering-dubai',
     },

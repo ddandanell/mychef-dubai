@@ -16,11 +16,12 @@ import {
   ArrowRight,
 } from 'lucide-react'
 import SEO from '../components/SEO'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
 const WHATSAPP_NUMBER = '971551744849'
-const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to set up office catering for our team (via mychef.ae/office-catering-dubai)')
+const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to set up office catering for the chefs in our network (via mychef.ae/office-catering-dubai)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 /* ────────────────────── Data ────────────────────── */
@@ -71,7 +72,7 @@ const includedItems = [
   { title: 'Single Point of Contact', description: 'One account contact who knows your office, preferences, and schedule.' },
   { title: 'Flexible Headcount', description: 'Scale daily covers up or down as your team size and needs change.' },
   { title: 'Predictable Invoicing', description: 'Clear, consolidated billing on a weekly or monthly retainer cycle.' },
-  { title: 'On-Site Set-Up', description: 'Buffet styling, labelling, and tidy pack-down handled by our team.' },
+  { title: 'On-Site Set-Up', description: 'Buffet styling, labelling, and tidy pack-down handled by the chefs in our network.' },
   { title: 'Quality Ingredients', description: 'Fresh produce and proteins prepared to a high standard every service.' },
 ]
 
@@ -190,7 +191,7 @@ const serviceSchema = {
   name: 'Office Catering Dubai',
   serviceType: 'Catering Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'Organization',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',
@@ -269,7 +270,7 @@ export default function OfficeCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Office Catering Dubai | Daily Lunches & Retainers"
+        title="Office Catering Dubai | Daily Lunches"
         description="Office catering in Dubai with daily lunches, breakfast spreads, and recurring retainers for DIFC and Business Bay teams. Reliable delivery and clear billing. Request a quote."
         canonicalPath="/office-catering-dubai"
         ogImage="/service-corporate.webp"
@@ -313,6 +314,8 @@ export default function OfficeCatering() {
           </div>
         </div>
       </section>
+
+      <TrustSignalStrip variant="dark" />
 
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
@@ -373,7 +376,7 @@ export default function OfficeCatering() {
         <div className="container-custom">
           <div className="text-center mb-12">
             <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WHO WE CATER FOR
+              WHO we coordinate catering for
             </span>
             <h2 className="font-playfair text-h2 text-white">
               Built for Busy Offices

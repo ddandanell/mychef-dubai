@@ -7,6 +7,9 @@ import { Phone } from 'lucide-react'
 import SEO from '../../components/SEO'
 import PageHero from '../../components/PageHero'
 import BlogRelated from '../../components/BlogRelated'
+import TrustSignalStrip from '../../components/TrustSignalStrip'
+import KeyFactsBox from '../../components/KeyFactsBox'
+import SourcesBlock from '../../components/SourcesBlock'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -14,7 +17,7 @@ const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I read your Halal Private Dining in Dubai blog and would like a custom quote (via mychef.ae/blog/halal-private-dining-dubai-what-to-ask)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
-const CTA_HREF = '/inquiry?utm_source=mychef.ae&utm_medium=blog_cta&utm_campaign=halal-private-dining-dubai-what-to-ask'
+const CTA_HREF = '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=halal-private-dining-dubai-what-to-ask'
 const SLUG = 'halal-private-dining-dubai-what-to-ask'
 
 const faqs = [
@@ -47,7 +50,7 @@ const articleSchema = {
   author: { '@type': 'Organization', name: 'myCHEF Dubai Team' },
   publisher: { '@type': 'Organization', name: 'myCHEF Dubai', url: 'https://mychef.ae' },
   datePublished: '2026-07-01',
-  dateModified: '2026-07-01',
+  dateModified: '2026-07-22',
   mainEntityOfPage: { '@type': 'WebPage', '@id': `https://mychef.ae/blog/${SLUG}` },
 }
 
@@ -94,7 +97,7 @@ export default function HalalPrivateDiningDubaiWhatToAsk() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Halal Private Dining in Dubai: What to Ask Before You Book | myCHEF"
+        title="Halal Private Dining Dubai: What to Ask"
         description="A practical guide for Dubai hosts booking halal private dining, covering certification, cross-contamination, alcohol policy, sourcing, and indicative costs."
         canonicalPath={`/blog/${SLUG}`}
         ogImage="/images/halal-catering-dubai-hero.webp"
@@ -113,6 +116,8 @@ export default function HalalPrivateDiningDubaiWhatToAsk() {
         overlay="dark"
       />
 
+      <TrustSignalStrip />
+
       {/* Article */}
       <article className="bg-white section-padding">
         <div className="article-body container-custom max-w-[820px]">
@@ -121,6 +126,17 @@ export default function HalalPrivateDiningDubaiWhatToAsk() {
             <span>|</span>
             <time dateTime="2026-07-01">July 2026</time>
           </div>
+
+          <KeyFactsBox
+            answer="When booking halal private dining in Dubai, ask for written confirmation of halal sourcing, cross-contamination controls, alcohol policy, and supplier certification before confirming the chef."
+            facts={[
+              { label: 'Halal oversight', value: 'MoIAT regulates halal certification under UAE Cabinet Decree 10/2014' },
+              { label: 'Multi-course dinner', value: 'AED 350–750 per person' },
+              { label: 'Buffet / family-style', value: 'AED 180–350 per person' },
+              { label: 'Full-time private chef', value: 'AED 18,000–35,000+ per month plus employment costs' },
+              { label: 'Key framework', value: 'Dubai Municipality Food Code 2.0' },
+            ]}
+          />
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
@@ -233,6 +249,14 @@ export default function HalalPrivateDiningDubaiWhatToAsk() {
               Always request an itemised quote that separates food, service, rentals, and any travel fees so you can compare options fairly.
             </p>
           </section>
+
+          <SourcesBlock
+            sources={[
+              { label: 'UAE Ministry of Industry and Advanced Technology (MoIAT) — Halal programme', url: 'https://moiat.gov.ae/en/programs/halal' },
+              { label: 'Dubai Municipality Food Code 2.0 — food safety and licensing requirements' },
+              { label: 'u.ae — consumer licence verification and federal food-safety framework' },
+            ]}
+          />
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
             <h2 className="font-playfair text-h2 text-black mb-5">Final Checklist Before You Confirm</h2>

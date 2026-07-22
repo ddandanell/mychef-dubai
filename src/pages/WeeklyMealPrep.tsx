@@ -19,6 +19,8 @@ import {
   ArrowRight,
 } from 'lucide-react'
 import SEO from '../components/SEO'
+import TrustSignalStrip from '../components/TrustSignalStrip'
+import VIPPromoSection from '../components/VIPPromoSection'
 import { breadcrumbSchema, faqPageSchema, serviceSchema } from '../utils/schema'
 
 gsap.registerPlugin(ScrollTrigger)
@@ -70,7 +72,7 @@ const tiers = [
     sessions: '2 prep sessions / week',
     price: '1,898',
     unit: '/ week',
-    highlight: '~949 AED per session',
+    highlight: 'Final quote tailored to your household',
     features: [
       'Bespoke menu plan for 2–3 guests',
       '2 chef-led prep sessions per week',
@@ -86,7 +88,7 @@ const tiers = [
     sessions: '2 prep sessions / week',
     price: '2,698',
     unit: '/ week',
-    highlight: '~899 AED per session',
+    highlight: 'Final quote tailored to your household',
     features: [
       'Bespoke menu plan for 4–6 guests',
       '2 chef-led prep sessions per week',
@@ -166,7 +168,7 @@ const faqs = [
   },
   {
     q: 'How much does weekly meal prep cost in Dubai?',
-    a: 'Our starting prices are AED 1,898 per week for the Weekly Prep Lite plan (2–3 people, 2 sessions) and AED 2,698 per week for the Weekly Prep Standard plan (4–6 people, 2 sessions). Final pricing depends on menu complexity, dietary requirements, and frequency.',
+    a: 'Plans start from AED 1,898 per week for Weekly Prep Lite (2–3 people, 2 sessions) and from AED 2,698 per week for Weekly Prep Standard (4–6 people, 2 sessions). Final pricing depends on menu complexity, dietary requirements, and frequency.',
   },
   {
     q: 'Can I choose the cuisines each week?',
@@ -284,7 +286,7 @@ export default function WeeklyMealPrep() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Weekly Meal Prep Dubai | Private Chef Meal Prep"
+        title="Weekly Meal Prep Dubai | Private Chef"
         description="Weekly meal prep in Dubai by a private chef. Fresh, portioned meals prepared in your home. Starting from AED 1,898/week. Halal, healthy, and fully customised."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/weekly-meal-prep-dubai-hero.webp"
@@ -312,10 +314,10 @@ export default function WeeklyMealPrep() {
             Weekly Meal Prep by a Private Chef in Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 wmp-hero-sub">
-            Fresh, portioned meals prepared in your own kitchen each week — so you can eat well, save time, and skip the takeout cycle.
+            Fresh, portioned meals prepared in your own kitchen each week — so you can eat well, save time, and skip the takeout cycle. We reply within 15 minutes during business hours.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 wmp-hero-cta">Request a Proposal</Link>
+            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 wmp-hero-cta">Get a Meal Prep Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -329,6 +331,8 @@ export default function WeeklyMealPrep() {
         </div>
       </section>
 
+      <TrustSignalStrip />
+
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
@@ -340,10 +344,10 @@ export default function WeeklyMealPrep() {
           </h2>
           <div className="wmp-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Life in Dubai moves fast. Between work, family, exercise, and social commitments, finding time to plan, shop, cook, and clean up every day is a challenge most busy households know too well. Takeout feels convenient until it becomes repetitive — and expensive. At myCHEF Dubai, our weekly meal prep service puts a private chef in your kitchen once or twice a week to prepare fresh, portioned meals designed around your tastes, your schedule, and your health goals.
+              Tell us about your household — your size, dietary goals, preferred cuisines, and any allergies — and we will reply within 15 minutes during business hours, then match you with a vetted private chef. Our weekly meal prep service puts that chef in your kitchen once or twice a week to prepare fresh, portioned meals designed around your tastes, schedule, and health goals, so you can reclaim your evenings and skip the takeout cycle.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Unlike mass-market meal plans, this is fully bespoke. Your chef consults with you, designs a rotating menu, sources premium ingredients, cooks in your home, packages everything cleanly, and leaves your kitchen spotless. The result is a fridge full of restaurant-quality meals that simply need reheating — whether you are feeding a family, an athlete, or a household with specific dietary needs.
+              Unlike mass-market meal plans, this is fully bespoke. Your chef designs a rotating menu, sources premium ingredients, cooks in your home, packages everything cleanly, and leaves your kitchen spotless. The result is a fridge full of restaurant-quality meals that simply need reheating — whether you are feeding a family, an athlete, or a household with specific dietary needs. For strict allergen protocols, explore our <Link to="/allergy-safe-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">allergy-safe catering in Dubai</Link>.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
               If you are comparing options, you may also be interested in our <Link to="/corporate-meal-prep-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate meal prep programmes</Link> or the full <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef experience in Dubai</Link>. For menu inspiration, explore our <Link to="/menus" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">bespoke menus</Link>.
@@ -437,6 +441,8 @@ export default function WeeklyMealPrep() {
           </p>
         </div>
       </section>
+
+      <VIPPromoSection campaign="weekly-meal-prep-dubai" variant="light" />
 
       {/* ═══════════════ Section 5: Benefits ═══════════════ */}
       <section className="bg-white section-padding">
@@ -586,7 +592,7 @@ export default function WeeklyMealPrep() {
             Tell us about your household, dietary needs, and preferred cuisines, and we will design a private chef meal prep plan that fits your week.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Request a Proposal</Link>
+            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Get a Meal Prep Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

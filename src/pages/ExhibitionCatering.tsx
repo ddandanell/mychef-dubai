@@ -5,9 +5,9 @@ import type { ServicePageConfig } from './shared/ServiceLandingPage'
 
 const config: ServicePageConfig = {
   slug: 'exhibition-catering-dubai',
-  seoTitle: 'Exhibition & Trade Show Catering Dubai | DWTC & Expo City',
+  seoTitle: 'Exhibition Dining Dubai | DWTC & Expo City',
   metaDescription:
-    'Exhibition and trade show catering in Dubai for DWTC, Expo City and venues across the city. Branded counters, canapés, coffee stations and full-service stands for exhibitors and organisers.',
+    'Chef-coordinated exhibition dining in Dubai for DWTC, Expo City and venues across the city. Branded counters, canapés, coffee stations and staffed stands for exhibitors and organisers.',
   canonicalPath: '/exhibition-catering-dubai',
   ogImage: '/service-events.webp',
   breadcrumbLabel: 'Exhibition Catering Dubai',
@@ -25,7 +25,7 @@ const config: ServicePageConfig = {
         Trade shows and exhibitions in Dubai move fast. Whether you are hosting a stand at Dubai World Trade Centre, organising a pavilion at Expo City, or running a corporate showcase at a hotel ballroom, your catering needs to keep pace with long hours, high footfall and back-to-back meetings. Our exhibition catering service is built around reliability, speed and presentation that reflects your brand.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        We provide branded food counters, passed canapés, grab-and-go lunch boxes, barista coffee stations, refreshment trolleys and VIP hospitality menus. Everything is designed to be served efficiently in a busy exhibition environment, with clear labelling for dietary needs and packaging that travels well from prep kitchen to stand.
+        We provide branded food counters, passed canapés, grab-and-go meal boxes, barista coffee stations, refreshment trolleys and VIP hospitality menus. Everything is designed to be served efficiently in a busy exhibition environment, with clear labelling for dietary needs and packaging that travels well from prep kitchen to stand.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
         Exhibition catering sits within our wider{' '}
@@ -66,8 +66,8 @@ const config: ServicePageConfig = {
     },
     {
       Icon: Truck,
-      title: 'Grab-and-Go Lunch Boxes',
-      description: 'Individually packed lunches for staff, crew and visitors who need to eat quickly without leaving the venue.',
+      title: 'Grab-and-Go Meal Boxes',
+      description: 'Individually packed meals for staff, crew and visitors who need to eat quickly without leaving the venue.',
       link: '/drop-off-catering-dubai',
     },
     {
@@ -94,7 +94,7 @@ const config: ServicePageConfig = {
     {
       title: 'Organiser & Pavilion Hospitality',
       description:
-        'We cater organiser lounges, press rooms, speaker green rooms and national pavilions with efficient service and menus that scale across multi-day events.',
+        'we coordinate catering for organiser lounges, press rooms, speaker green rooms and national pavilions with efficient service and menus that scale across multi-day events.',
     },
     {
       title: 'Product Launches at Trade Shows',
@@ -131,7 +131,7 @@ const config: ServicePageConfig = {
   faqs: [
     {
       q: 'Which exhibition venues in Dubai do you cater?',
-      a: 'We cater at Dubai World Trade Centre, Expo City Dubai, major hotel exhibition halls and outdoor show sites across the emirate. We are familiar with venue access, loading and service restrictions.',
+      a: 'we coordinate catering at Dubai World Trade Centre, Expo City Dubai, major hotel exhibition halls and outdoor show sites across the emirate. We are familiar with venue access, loading and service restrictions.',
     },
     {
       q: 'Can you brand the catering counter to match our stand?',
@@ -139,7 +139,7 @@ const config: ServicePageConfig = {
     },
     {
       q: 'Do you provide staff for exhibition stands?',
-      a: 'Yes. We supply chefs, baristas and service staff who understand the pace of exhibition service and can engage professionally with your visitors.',
+      a: 'Yes. we match you with a vetted chef you engage, baristas and service staff who understand the pace of exhibition service and can engage professionally with your visitors.',
     },
     {
       q: 'Can you handle dietary requirements for a large crowd?',
@@ -157,7 +157,7 @@ const config: ServicePageConfig = {
   relatedServices: [
     {
       title: 'Corporate Event Catering',
-      description: 'Full-service corporate catering for conferences, launches and company events across Dubai.',
+      description: 'fully-coordinated catering for conferences, launches and company events across Dubai.',
       image: '/service-events.webp',
       link: '/corporate-event-catering-dubai',
     },
@@ -173,16 +173,11 @@ const config: ServicePageConfig = {
       image: '/menu-canapes.webp',
       link: '/canape-catering-dubai',
     },
-    {
-      title: 'Government Event Catering',
-      description: 'Formal, scalable catering for government pavilions, official stands and public-sector events.',
-      image: '/images/corporate-catering-dubai-hero.webp',
-      link: '/government-event-catering-dubai',
-    },
   ],
   ctaH2: 'Plan Exhibition Catering That Works as Hard as Your Stand',
   ctaP:
     'Tell us your venue, stand size and visitor numbers. We will design an exhibition catering package that keeps your team energised and your guests impressed.',
+  showTrustSignalStrip: true,
 }
 
 export default function ExhibitionCatering() {

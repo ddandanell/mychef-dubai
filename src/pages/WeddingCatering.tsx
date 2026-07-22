@@ -16,6 +16,7 @@ import {
   ArrowRight,
 } from 'lucide-react'
 import SEO from '../components/SEO'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -35,7 +36,7 @@ const weddingFormats = [
   {
     icon: Users,
     title: 'Buffet & Live Stations',
-    description: 'Beautifully styled buffet and chef-manned live stations offering variety and movement for larger weddings.',
+    description: 'Beautifully styled buffet and partner-chef-led live stations offering variety and movement for larger weddings.',
     link: '/catering-dubai',
   },
   {
@@ -53,7 +54,7 @@ const weddingFormats = [
   {
     icon: Home,
     title: 'Villa & Venue Weddings',
-    description: 'Full-service wedding catering at your villa, garden, or chosen venue across Dubai, with setup, service, and clear-down.',
+    description: 'fully-coordinated catering at your villa, garden, or chosen venue across Dubai, with setup, service, and clear-down.',
     link: '/catering-dubai',
   },
   {
@@ -72,13 +73,13 @@ const includedItems = [
   { title: 'Dietary & Cultural Catering', description: 'Halal, vegetarian, vegan, and allergy-conscious menus as standard.' },
   { title: 'Table Styling & Tableware', description: 'Elegant tableware, glassware, linens, and presentation styling.' },
   { title: 'Wedding Cake & Desserts', description: 'A bespoke cake and dessert table styled to your theme.' },
-  { title: 'Full Setup & Clear-Down', description: 'We handle every detail from arrival to the final clean-up.' },
+  { title: 'Full Setup & Clear-Down', description: 'Every detail is arranged and overseen from arrival to the final clean-up.' },
 ]
 
 const useCases = [
   {
     title: 'Villa & Garden Weddings',
-    description: 'For intimate weddings at home, we transform your villa, garden, or terrace into a full reception space — bringing the kitchen, the staff, and the styling to you across Palm Jumeirah, Emirates Hills, Dubai Hills, and beyond.',
+    description: 'For intimate weddings at home, we transform your villa, garden, or terrace into a full reception space — bringing the chefs, staff, and styling to you across Palm Jumeirah, Emirates Hills, Dubai Hills, and beyond.',
   },
   {
     title: 'Grand Hotel & Venue Receptions',
@@ -125,7 +126,7 @@ const locations = [
 const faqs = [
   {
     q: 'How many guests can you cater for at a wedding?',
-    a: 'We cater weddings of every scale, from intimate gatherings of around 20 to grand receptions of several hundred guests. The service style, staffing, and kitchen set-up are tailored to your final guest count and venue.',
+    a: 'we coordinate catering for weddings of every scale, from intimate gatherings of around 20 to grand receptions of several hundred guests. The service style, staffing, and kitchen set-up are tailored to your final guest count and venue.',
   },
   {
     q: 'What service styles do you offer for weddings?',
@@ -133,7 +134,7 @@ const faqs = [
   },
   {
     q: 'Can you create multi-cuisine and cultural menus?',
-    a: 'Yes. We design Arabic, Mediterranean, Asian, and international menus, and we are happy to blend cuisines across courses. All menus can be prepared to halal standards, and we cater for vegetarian, vegan, and allergy needs.',
+    a: 'Yes. We design Arabic, Mediterranean, Asian, and international menus, and we are happy to blend cuisines across courses. All menus can be prepared to halal standards, and we coordinate catering for vegetarian, vegan, and allergy needs.',
   },
   {
     q: 'Do you provide staff, tableware, and bar service?',
@@ -141,7 +142,7 @@ const faqs = [
   },
   {
     q: 'Can you cater weddings at villas and outdoor venues?',
-    a: 'Yes. We regularly cater villa, garden, beach, and rooftop weddings across Dubai, bringing a full mobile kitchen, staff, and styling. We also work within hotels and dedicated venues alongside your planner.',
+    a: 'Yes. We regularly cater villa, garden, beach, and rooftop weddings across Dubai, coordinating the chef, staff, and styling. We also work within hotels and dedicated venues alongside your planner.',
   },
   {
     q: 'How far in advance should we book wedding catering?',
@@ -190,7 +191,7 @@ const serviceSchema = {
   name: 'Wedding Catering Dubai',
   serviceType: 'Catering Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'Organization',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',
@@ -269,7 +270,7 @@ export default function WeddingCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Wedding Catering Dubai | Luxury Reception Dining"
+        title="Wedding Catering Dubai | Reception Dining"
         description="Luxury wedding catering in Dubai for villa, garden, and venue receptions. Plated dinners, buffets, canapés, multi-cuisine menus, service staff, and bespoke dessert tables."
         canonicalPath="/wedding-catering-dubai"
         ogImage="/service-events.webp"
@@ -314,6 +315,8 @@ export default function WeddingCatering() {
         </div>
       </section>
 
+      <TrustSignalStrip />
+
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
@@ -324,10 +327,10 @@ export default function WeddingCatering() {
             Catering Worthy of Your Wedding Day
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Your wedding deserves a culinary experience as memorable as the day itself. At myCHEF Dubai, we design wedding catering around your love story — the cuisines that mean something to you, the moments you want to savour, and the guests you want to delight. From the welcome canapés to the final slice of cake — finished by our <Link to="/chefs/sofia-pastry-chef" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">pastry chef for wedding desserts</Link> — every detail is considered, styled, and executed with quiet precision.
+            Your wedding deserves a culinary experience as memorable as the day itself. At myCHEF Dubai, we design wedding catering around your love story — the cuisines that mean something to you, the moments you want to savour, and the guests you want to delight. From the welcome canapés to the final slice of cake — finished by our partner <Link to="/chefs/sofia-pastry-chef" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">pastry chef for wedding desserts</Link> — every detail is considered, styled, and executed with quiet precision.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Whether you are planning an intimate villa ceremony, a grand hotel reception, or a multi-day celebration spanning engagement to brunch, our team brings the kitchen, the service, and the styling to you. We work seamlessly with planners and stylists, and pair naturally with our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>. Explore our wedding services below.
+            Whether you are planning an intimate villa ceremony, a grand hotel reception, or a multi-day celebration spanning engagement to brunch, we bring in the chef, the service, and the styling — through vetted licensed partners you engage. We work seamlessly with planners and stylists, and pair naturally with our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>. Explore our wedding services below.
           </p>
         </div>
       </section>
@@ -373,7 +376,7 @@ export default function WeddingCatering() {
         <div className="container-custom">
           <div className="text-center mb-12">
             <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WHERE WE CATER
+              WHERE WE SERVE
             </span>
             <h2 className="font-playfair text-h2 text-white">
               Weddings for Every Setting

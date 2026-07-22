@@ -6,7 +6,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 gsap.registerPlugin(ScrollTrigger)
 
 const WHATSAPP_NUMBER = '971551744849'
-const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to request a proposal (via mychef.ae)')
+const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to request a proposal (via mychef.ae/)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 export default function CTASection() {
@@ -47,18 +47,18 @@ export default function CTASection() {
 
           {/* Headline */}
           <h2 className="font-playfair text-fluid-h2 text-white mb-6">
-            Ready to book a private chef or catering in Dubai?
+            Ready to plan an unforgettable dining experience in Dubai?
           </h2>
 
           {/* Subtitle */}
           <p className="font-inter text-lg text-gray-400 max-w-[500px] mx-auto mb-10">
-            Tell us about your event. We will craft a bespoke proposal tailored to your vision.
+            Tell us about your event. We reply within 15 minutes during business hours, then match you with a vetted chef and send a tailored proposal.
           </p>
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=home" className="btn-primary focus-visible:ring-offset-[#1A1A1A]">
-              Request a Proposal
+              Get a Tailored Quote
             </Link>
             <a
               href={WHATSAPP_LINK}
@@ -69,6 +69,10 @@ export default function CTASection() {
               Chat on WhatsApp
             </a>
           </div>
+          <p className="mt-4 font-inter text-body-sm text-gray-400 flex items-center justify-center gap-2">
+            <span className="inline-block w-1.5 h-1.5 rounded-full bg-gold" aria-hidden="true" />
+            Typical reply within 15 min · No obligation
+          </p>
         </div>
       </div>
     </section>

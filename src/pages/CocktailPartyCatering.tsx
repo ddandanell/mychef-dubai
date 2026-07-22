@@ -16,6 +16,7 @@ import {
   ArrowRight,
 } from 'lucide-react'
 import SEO from '../components/SEO'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -184,7 +185,7 @@ const serviceSchema = {
   name: 'Cocktail Party Catering Dubai',
   serviceType: 'Catering Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'Organization',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',
@@ -263,7 +264,7 @@ export default function CocktailPartyCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Cocktail Party Catering Dubai | Mixology & Canapés"
+        title="Cocktail Party Catering Dubai | Canapés"
         description="Cocktail party catering in Dubai with professional mixologists, signature cocktails, and passed canapés for rooftop, yacht, villa, and corporate receptions. Full bar service."
         canonicalPath="/cocktail-party-catering-dubai"
         ogImage="/menu-cocktails.webp"
@@ -308,6 +309,8 @@ export default function CocktailPartyCatering() {
         </div>
       </section>
 
+      <TrustSignalStrip />
+
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
@@ -321,7 +324,7 @@ export default function CocktailPartyCatering() {
             A great cocktail party has a rhythm of its own — the clink of a styled bar, a signature drink that becomes the talk of the evening, a tray of canapés arriving at exactly the right moment. At myCHEF Dubai, we design cocktail receptions as a complete experience, pairing professional mixologists and a bespoke drinks list with elegant, perfectly-timed canapés that keep your guests circulating.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Whether you are hosting a rooftop reception against the skyline, a yacht party around Dubai Marina, an intimate villa soirée, or a corporate networking evening, our team brings the bar, the staff, and the styling to you. Explore our cocktail formats below, or see how they fit within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
+            Whether you are hosting a rooftop reception against the skyline, a yacht party around Dubai Marina, an intimate villa soirée, or a corporate networking evening, the chefs in our network bring the bar, the staff, and the styling to you. Explore our cocktail formats below, or see how they fit within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
           </p>
         </div>
       </section>

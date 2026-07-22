@@ -5,10 +5,11 @@ import type { DietaryPageConfig } from './dietary/DietaryCateringPage'
 
 const config: DietaryPageConfig = {
   slug: 'keto-catering-dubai',
-  seoTitle: 'Keto & Low-Carb Catering Dubai | High-Protein Event Menus',
+  seoTitle: "Keto & Low-Carb Catering Dubai | High-Protein",
   metaDescription:
     'Keto and low-carb catering in Dubai for events, villas, offices and wellness retreats. High-protein menus, healthy fats and zero compromise on flavour.',
   canonicalPath: '/keto-catering-dubai',
+  showTrustSignalStrip: true,
   ogImage: '/images/keto-catering-dubai-hero.webp',
   breadcrumbLabel: 'Keto & Low-Carb Catering Dubai',
   h1: 'Keto & Low-Carb Catering in Dubai',
@@ -108,7 +109,7 @@ const config: DietaryPageConfig = {
     { title: 'Vegetable-Forward Sides', description: 'Roasted, grilled and raw vegetable dishes that add colour, fibre and flavour.' },
     { title: 'Low-Carb Desserts', description: 'Sugar-free or naturally low-sugar desserts using alternative sweeteners where appropriate.' },
     { title: 'Macro Awareness', description: 'Dishes designed with carbohydrate content in mind, with guidance available on request.' },
-    { title: 'On-Site Cooking & Service', description: 'Prepared and finished at your venue by our chefs and service team.' },
+    { title: 'On-Site Cooking & Service', description: 'Prepared and finished at your venue by the chefs in our network and service team.' },
     { title: 'Customisable for Other Diets', description: 'Combine keto, gluten-free, dairy-free or halal requirements in one menu.' },
   ],
   galleryH2: 'A Taste of Our Keto & Low-Carb Catering',

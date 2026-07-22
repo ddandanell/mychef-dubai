@@ -16,6 +16,7 @@ import {
   ArrowRight,
 } from 'lucide-react'
 import SEO from '../components/SEO'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -65,7 +66,7 @@ const stationFormats = [
 ]
 
 const includedItems = [
-  { title: 'Chef-Manned Stations', description: 'Skilled chefs cooking and plating live throughout your event.' },
+  { title: 'Partner Chef-Led Stations', description: 'Skilled chefs cooking and plating live throughout your event.' },
   { title: 'Made-to-Order Dishes', description: 'Guests choose their components and watch each plate finished fresh.' },
   { title: 'Curated Station Menus', description: 'Carving, pasta, grill, street food, and dessert stations, mixed to suit.' },
   { title: 'Theatre & Interaction', description: 'The cooking becomes part of the entertainment and the conversation.' },
@@ -125,7 +126,7 @@ const locations = [
 const faqs = [
   {
     q: 'What are live cooking stations?',
-    a: 'Live cooking stations are chef-manned counters where dishes are prepared and plated to order in front of your guests. From carving and pasta to grill and dessert stations, the cooking becomes part of the entertainment.',
+    a: 'Live cooking stations are partner-chef-led counters where dishes are prepared and plated to order in front of your guests. From carving and pasta to grill and dessert stations, the cooking becomes part of the entertainment.',
   },
   {
     q: 'What types of stations can you provide?',
@@ -152,13 +153,13 @@ const faqs = [
 const relatedServices = [
   {
     title: 'Catering Dubai',
-    description: 'Full-service luxury catering for events of every size across Dubai.',
+    description: 'fully-coordinated catering for events of every size across Dubai.',
     image: '/service-catering.webp',
     link: '/catering-dubai',
   },
   {
     title: 'BBQ Catering',
-    description: 'Chef-manned grills, premium meats, and seafood for villa and yacht events.',
+    description: 'partner-chef-led grills, premium meats, and seafood for villa and yacht events.',
     image: '/service-events.webp',
     link: '/bbq-catering-dubai',
   },
@@ -190,7 +191,7 @@ const serviceSchema = {
   name: 'Live Cooking Stations Dubai',
   serviceType: 'Catering Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'Organization',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',
@@ -269,8 +270,8 @@ export default function LiveCookingStations() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Live Cooking Stations Dubai | Interactive Chefs"
-        description="Premium live cooking stations in Dubai with chef-manned carving, pasta, grill, and dessert counters. Interactive, made-to-order catering for weddings and corporate events."
+        title="Live Cooking Stations Dubai | Interactive"
+        description="Premium live cooking stations in Dubai with partner-chef-led carving, pasta, grill, and dessert counters. Interactive, made-to-order catering for weddings and corporate events."
         canonicalPath="/live-cooking-stations-dubai"
         ogImage="/process-2.webp"
         schema={schema}
@@ -297,7 +298,7 @@ export default function LiveCookingStations() {
             Live Cooking Stations in Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 lcs-hero-sub">
-            Interactive chef-manned stations — carving, pasta, grill, street food, and dessert counters cooked to order. The theatre of food, plated fresh in front of your guests at weddings and corporate events across Dubai.
+            Interactive partner-chef-led stations — carving, pasta, grill, street food, and dessert counters cooked to order. The theatre of food, plated fresh in front of your guests at weddings and corporate events across Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=live-cooking-stations-dubai" className="btn-primary opacity-0 translate-y-4 lcs-hero-cta">Request a Proposal</Link>
@@ -314,6 +315,8 @@ export default function LiveCookingStations() {
         </div>
       </section>
 
+      <TrustSignalStrip />
+
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
@@ -327,7 +330,7 @@ export default function LiveCookingStations() {
             Some of the most memorable moments at an event happen around the food — guests gathering at a counter, watching a chef finish a dish, the aroma rising as it is plated to order. At myCHEF Dubai, live cooking stations turn dining into an experience, where the cooking itself becomes part of the entertainment and the conversation.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Our chefs work at self-contained, beautifully styled counters — carving prime cuts, finishing pasta and risotto in the pan, grilling over open flame, assembling global street food, and flambéing desserts. Stations can be mixed and themed to match your event, spreading guests across the room and offering variety at every turn. Whether it is a wedding, a gala, or a corporate launch, we bring the stations, the chefs, and the styling to you. Explore our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>, or speak to us to start planning.
+            the chefs in our network work at self-contained, beautifully styled counters — carving prime cuts, finishing pasta and risotto in the pan, grilling over open flame, assembling global street food, and flambéing desserts. Stations can be mixed and themed to match your event, spreading guests across the room and offering variety at every turn. Whether it is a wedding, a gala, or a corporate launch, we bring the stations, the chefs, and the styling to you. Explore our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>, or speak to us to start planning.
           </p>
         </div>
       </section>
@@ -373,7 +376,7 @@ export default function LiveCookingStations() {
         <div className="container-custom">
           <div className="text-center mb-12">
             <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WHERE WE CATER
+              WHERE WE SERVE
             </span>
             <h2 className="font-playfair text-h2 text-white">
               Stations for Every Occasion

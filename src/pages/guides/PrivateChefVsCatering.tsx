@@ -12,6 +12,7 @@ import {
   Check,
 } from 'lucide-react'
 import SEO from '../../components/SEO'
+import TrustSignalStrip from '../../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -61,11 +62,11 @@ const costScale = [
 
 const internalLinks = [
   { title: 'Private Chef Dubai', link: '/private-chef-dubai', description: 'Personal chef service for homes and villas.' },
-  { title: 'Catering Dubai', link: '/catering-dubai', description: 'Full-service catering for events of all sizes.' },
+  { title: 'Catering Dubai', link: '/catering-dubai', description: 'fully-coordinated catering for events of all sizes.' },
   { title: 'Villa Catering Ideas', link: '/villa-catering-ideas-dubai', description: 'Menu formats designed for Dubai homes.' },
   { title: 'Luxury Dining Dubai', link: '/luxury-dining-dubai', description: 'Elegant private dining experiences.' },
   { title: 'Dubai Catering Prices Guide', link: '/dubai-catering-prices-guide', description: 'Cost guidance for chef and catering formats.' },
-  { title: 'Party Catering Dubai', link: '/party-catering-dubai', description: 'Full-service catering for private celebrations.' },
+  { title: 'Party Catering Dubai', link: '/party-catering-dubai', description: 'fully-coordinated catering for private celebrations.' },
 ]
 
 const faqs = [
@@ -110,6 +111,8 @@ const articleSchema = {
   description: 'Compare private chef and catering services in Dubai: guest count, service style, cost, when to choose each, and hybrid options.',
   author: { '@type': 'Organization', name: 'myCHEF Dubai' },
   publisher: { '@type': 'Organization', name: 'myCHEF Dubai', url: 'https://mychef.ae' },
+  datePublished: '2026-07-01',
+  dateModified: '2026-07-22',
 }
 
 const serviceSchema = {
@@ -117,7 +120,7 @@ const serviceSchema = {
   name: 'Private Chef vs Catering Dubai',
   serviceType: 'Catering Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'Organization',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',
@@ -192,7 +195,7 @@ export default function PrivateChefVsCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Private Chef vs Catering Dubai | Which to Choose | myCHEF"
+        title="Private Chef vs Catering Dubai | Guide"
         description="Private chef vs catering in Dubai: compare guest count, service style, cost, and when to choose each. Hybrid options and scale guidance included."
         canonicalPath="/private-chef-vs-catering-dubai"
         ogImage="/service-private-chef.webp"
@@ -238,6 +241,8 @@ export default function PrivateChefVsCatering() {
           </div>
         </div>
       </section>
+
+      <TrustSignalStrip />
 
       {/* ═══════════════ Opening ═══════════════ */}
       <section className="bg-white section-padding">

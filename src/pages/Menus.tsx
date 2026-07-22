@@ -5,6 +5,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { Check, ChevronRight, Wine, GlassWater, Users } from 'lucide-react'
 import SEO from '@/components/SEO'
 import PageHero from '@/components/PageHero'
+import TrustSignalStrip from '@/components/TrustSignalStrip'
 import StarterPackagesSection from '@/sections/StarterPackagesSection'
 import { breadcrumbSchema } from '@/utils/schema'
 
@@ -112,11 +113,11 @@ const pricingFaqs = [
   },
   {
     q: 'Is there a minimum guest count?',
-    a: 'We cater events of almost any size, from intimate dinners for two to large celebrations. Smaller groups may have a higher per-person rate due to dedicated staff and preparation time.',
+    a: 'we coordinate catering for events of almost any size, from intimate dinners for two to large celebrations. Smaller groups may have a higher per-person rate due to dedicated staff and preparation time.',
   },
   {
     q: 'Can we customize the menu?',
-    a: 'Absolutely. Every menu is designed from scratch based on your preferences, dietary requirements, and event style. Our chefs collaborate with you to create a menu that fits your vision.',
+    a: 'Absolutely. Every menu is designed from scratch based on your preferences, dietary requirements, and event style. The chefs in our network collaborate with you to create a menu that fits your vision.',
   },
 ]
 
@@ -239,7 +240,7 @@ export default function Menus() {
   return (
     <>
       <SEO
-        title="Menus & Cuisine | myCHEF Dubai | Private Chef Menu Inspiration"
+        title="Menus & Cuisine Dubai | Chef Inspiration"
         description="Explore bespoke menu options from myCHEF Dubai. Fine dining, Mediterranean, Middle Eastern, Asian fusion, and more. Every menu is custom-designed for your event."
         canonicalPath="/menus"
         ogImage="/images/catering-dubai-hero.webp"
@@ -249,12 +250,14 @@ export default function Menus() {
       {/* Section 1: Page Hero */}
       <PageHero
         eyebrow="CULINARY OFFERINGS"
-        title={<>Bespoke Menus,<br className="hidden sm:block" /> Crafted for Every Palate</>}
-        subtitle="Every menu is designed from scratch. Here is a glimpse of what we create."
+        title="Bespoke Menus, Crafted for Every Palate"
+        subtitle="Tell us your occasion and we will match you with a vetted chef within 24 hours. Every menu is designed from scratch — here is a glimpse of what we create."
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Menus' }]}
         minHeight="medium"
         overlay="dark"
       />
+
+      <TrustSignalStrip />
 
       {/* Section 2: Starter Packages */}
       <StarterPackagesSection campaign="menus" />

@@ -11,6 +11,7 @@ import {
   Check,
 } from 'lucide-react'
 import SEO from '../../components/SEO'
+import TrustSignalStrip from '../../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -115,6 +116,8 @@ const articleSchema = {
   description: 'A timeline checklist for planning wedding catering in Dubai: menu decisions, tastings, dietary needs, bar service, cake, staff, rentals, setup, and cleanup.',
   author: { '@type': 'Organization', name: 'myCHEF Dubai' },
   publisher: { '@type': 'Organization', name: 'myCHEF Dubai', url: 'https://mychef.ae' },
+  datePublished: '2026-07-01',
+  dateModified: '2026-07-22',
 }
 
 const serviceSchema = {
@@ -122,7 +125,7 @@ const serviceSchema = {
   name: 'Wedding Catering Checklist Dubai',
   serviceType: 'Catering Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'Organization',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',
@@ -192,7 +195,7 @@ export default function WeddingCateringChecklist() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Wedding Catering Checklist Dubai | Planning Guide | myCHEF"
+        title="Wedding Catering Checklist Dubai"
         description="A wedding catering checklist for Dubai celebrations: timeline, menu decisions, tastings, dietary needs, bar service, cake, rentals, staff, setup, and cleanup."
         canonicalPath="/wedding-catering-checklist-dubai"
         ogImage="/service-events.webp"
@@ -238,6 +241,8 @@ export default function WeddingCateringChecklist() {
           </div>
         </div>
       </section>
+
+      <TrustSignalStrip />
 
       {/* ═══════════════ Opening ═══════════════ */}
       <section className="bg-white section-padding">

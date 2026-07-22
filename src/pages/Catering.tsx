@@ -6,6 +6,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { UtensilsCrossed, PartyPopper, Heart, Building, Ship, Home, Cake, Check, ChevronRight, Phone, ArrowRight, } from 'lucide-react'
 import SEO from '../components/SEO'
 import PageHero from '../components/PageHero'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 import StarterPackagesSection from '@/sections/StarterPackagesSection'
 
 gsap.registerPlugin(ScrollTrigger)
@@ -19,7 +20,7 @@ const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}
 const cateringFormats = [
   {
     title: 'BBQ Catering',
-    description: 'Premium outdoor BBQ with chef-manned grilling stations. Perfect for villa parties and casual celebrations.',
+    description: 'Premium outdoor BBQ with chef-led grilling stations. Perfect for villa parties and casual celebrations.',
     link: '/bbq-catering-dubai',
   },
   {
@@ -44,7 +45,7 @@ const cateringFormats = [
   },
   {
     title: 'Live Cooking Stations',
-    description: 'Interactive chef stations that bring theatre to your event, freshly prepared in front of your guests.',
+    description: 'Interactive chef stations that bring theatre to your event, with dishes freshly prepared by your chef in front of your guests.',
     link: '/live-cooking-stations-dubai',
   },
   {
@@ -54,7 +55,7 @@ const cateringFormats = [
   },
   {
     title: 'Mocktail Bar Catering',
-    description: 'Creative alcohol-free bars and refreshing mocktails crafted by our mixologists for any celebration.',
+    description: 'Creative alcohol-free bars and refreshing mocktails crafted by the mixologists we bring in for any celebration.',
     link: '/mocktail-bar-catering-dubai',
   },
   {
@@ -68,7 +69,7 @@ const eventTypes = [
   {
     icon: PartyPopper,
     title: 'Birthday Parties',
-    description: 'From intimate family dinners to milestone celebrations. Custom cakes, themed menus, and full service.',
+    description: 'From intimate family dinners to milestone celebrations. Custom cakes, themed menus, and full coordination.',
   },
   {
     icon: Heart,
@@ -88,7 +89,7 @@ const eventTypes = [
   {
     icon: Home,
     title: 'Villa Celebrations',
-    description: 'Full-service catering for villa events across Dubai. Setup, service, and cleanup \u2014 all handled.',
+    description: 'Fully-run villa events across Dubai. Setup, service, and cleanup \u2014 all arranged.',
   },
   {
     icon: Cake,
@@ -98,12 +99,12 @@ const eventTypes = [
 ]
 
 const includedItems = [
-  { title: 'Bespoke Menu Design', description: 'Custom menu created for your event, dietary needs, and preferences.' },
-  { title: 'Premium Ingredients', description: 'Fresh, high-quality ingredients sourced from trusted suppliers.' },
-  { title: 'Professional Chefs', description: 'Experienced culinary team led by our executive chef.' },
-  { title: 'Service Staff', description: 'Waiters, bartenders, and hosts as required for your event size.' },
+  { title: 'Bespoke Menu Design', description: 'Custom menu designed with you for your event, dietary needs, and preferences.' },
+  { title: 'Premium Ingredients', description: 'Fresh, high-quality ingredients sourced by your chef from trusted suppliers.' },
+  { title: 'Professional Chefs', description: 'Experienced chefs in our network, handpicked for your event.' },
+  { title: 'Service Staff', description: 'Waiters, bartenders, and hosts arranged for your event size.' },
   { title: 'Table Setting & Decor', description: 'Elegant tableware, linens, and presentation styling.' },
-  { title: 'Full Setup & Cleanup', description: 'We handle everything from arrival to departure.' },
+  { title: 'Full Setup & Cleanup', description: 'Every detail arranged and overseen from arrival to departure.' },
   { title: 'On-Site Coordination', description: 'Event coordination to ensure flawless timing and service.' },
   { title: 'Flexible Service Style', description: 'Plated, buffet, family-style, or cocktail service \u2014 your choice.' },
 ]
@@ -139,15 +140,15 @@ const locations = [
 const faqs = [
   {
     q: 'What is the minimum number of guests?',
-    a: 'We cater events from 10 guests upward. For very small gatherings, our private chef service may be more suitable.',
+    a: 'We coordinate catering for events from 10 guests upward. For very small gatherings, a private chef experience may be more suitable.',
   },
   {
     q: 'Do you provide tableware and linens?',
-    a: 'Yes. We can provide full tableware, glassware, linens, and decor as part of our catering package. Let us know your requirements.',
+    a: 'Yes. We can arrange full tableware, glassware, linens, and decor as part of your catering package. Let us know your requirements.',
   },
   {
     q: 'Can you cater outdoor events?',
-    a: 'Absolutely. We regularly cater villa garden parties, beach events, yacht gatherings, and poolside celebrations across Dubai.',
+    a: 'Absolutely. We regularly coordinate catering for villa garden parties, beach events, yacht gatherings, and poolside celebrations across Dubai.',
   },
   {
     q: 'How is the food served at large events?',
@@ -172,7 +173,7 @@ const relatedServices = [
   },
   {
     title: 'Events',
-    description: 'Full-service event planning and catering for celebrations of any size.',
+    description: 'Fully-coordinated event planning and catering for celebrations of any size.',
     image: '/service-events.webp',
     link: '/events',
   },
@@ -189,11 +190,12 @@ const schema = {
   '@type': 'Service',
   name: 'Luxury Catering Dubai',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'Organization',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',
     areaServed: 'Dubai, UAE',
+    description: 'myCHEF Dubai designs and manages private dining and event experiences and connects clients with independent, licensed chefs and catering professionals. Culinary preparation is performed by those licensed third parties, whom the client engages.',
   },
   serviceType: 'Catering Service',
   areaServed: 'Dubai, UAE',
@@ -214,6 +216,19 @@ const breadcrumbSchema = {
     { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://mychef.ae' },
     { '@type': 'ListItem', position: 2, name: 'Catering Dubai', item: 'https://mychef.ae/catering-dubai' },
   ],
+}
+
+const faqPageSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqs.map((faq) => ({
+    '@type': 'Question',
+    name: faq.q,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: faq.a,
+    },
+  })),
 }
 
 /* ────────────────────── Component ────────────────────── */
@@ -279,35 +294,43 @@ export default function Catering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Luxury Catering Dubai | Private Event Catering"
-        description="Premium catering services in Dubai for events, corporate functions, weddings, and private celebrations. Bespoke menus, full service, flawless execution. Request a quote."
+        title="Luxury Catering Dubai | Private Events"
+        description="Premium catering experiences in Dubai for events, corporate functions, weddings, and private celebrations. Bespoke menus, end-to-end coordination, flawless execution. Request a quote."
         canonicalPath="/catering-dubai"
         ogImage="/service-catering.webp"
-        schema={{ ...schema, ...breadcrumbSchema }}
+        schema={{ '@context': 'https://schema.org', '@graph': [schema, breadcrumbSchema, faqPageSchema] }}
       />
 
       {/* ═══════════════ Section 1: Hero ═══════════════ */}
       <PageHero
-        title="Catering Dubai"
-        subtitle="Premium event catering across Dubai. From intimate gatherings to grand celebrations — every detail handled, every course perfected."
+        title="Luxury Catering for Events in Dubai"
+        subtitle="Premium event catering across Dubai. From intimate gatherings to grand celebrations — we reply within 15 minutes and coordinate every detail, from menu design to service staff and cleanup."
         image="/images/catering-dubai-hero.webp"
         imageAlt="Elegant catering setup in Dubai"
-        cta={{ label: 'Request a Proposal', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=catering-dubai' }}
+        cta={{ label: 'Get a Catering Quote', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=catering-dubai' }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Catering Dubai' }]}
         minHeight="tall"
         overlay="dark"
+      />
+      <TrustSignalStrip />
+
+      <StarterPackagesSection
+        campaign="catering-dubai"
+        eyebrow="START WITH A PACKAGE"
+        title="Catering Packages in Dubai"
+        subtitle="Ready-to-book starting points for Dubai's most popular catering and private chef experiences. Every package is customised to your guest count, menu, and venue — final quote tailored to your event."
       />
 
       {/* ═══════════════ Opening ═══════════════ */}
       <section className="bg-black py-14 border-b border-charcoal">
         <div className="container-custom max-w-3xl text-center">
           <p className="font-inter text-body text-gray-400 leading-relaxed">
-            We deliver exceptional catering across Dubai's most prestigious districts, including{' '}
+            Tell us about your event and we will match you with a vetted, licensed chef within 24 hours. From menu design and ingredient sourcing to service staff and cleanup, we coordinate every detail of your catering experience across Dubai's most prestigious districts, including{' '}
             <Link to="/locations/business-bay" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Business Bay catering</Link>
             {' '}and{' '}
             <Link to="/locations/difc" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">DIFC catering</Link>.
-            Whether you are planning a corporate lunch, a private celebration, or a large gala, our team creates menus and service plans tailored to your venue and guests — from <Link to="/finger-food-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">finger food</Link> and <Link to="/cocktail-party-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">cocktail party catering</Link> to full banquets.
+            Whether you are planning a corporate lunch, a private celebration, or a large gala, we design menus and service plans tailored to your venue and guests — from <Link to="/finger-food-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">finger food</Link> and <Link to="/cocktail-party-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">cocktail party catering</Link> to full banquets. For a faster starting point, explore our <Link to="/catering-packages-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Catering Packages Dubai</Link>.
           </p>
         </div>
       </section>
@@ -350,7 +373,7 @@ export default function Catering() {
         <div className="container-custom">
           <div className="text-center mb-10">
             <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WHERE IN DUBAI DO YOU CATER?
+              WHERE IN DUBAI DO YOU COORDINATE CATERING?
             </span>
             <h2 className="font-playfair text-h2 text-black">
               Where can I book catering in Dubai?
@@ -405,10 +428,10 @@ export default function Catering() {
         <div className="container-custom">
           <div className="text-center mb-12">
             <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WHAT EVENTS DO YOU CATER?
+              WHAT EVENTS DO YOU COORDINATE CATERING FOR?
             </span>
             <h2 className="font-playfair text-h2 text-white">
-              What events can myCHEF cater in Dubai?
+              What events can myCHEF design catering for in Dubai?
             </h2>
           </div>
 
@@ -511,7 +534,7 @@ export default function Catering() {
       <section className="bg-charcoal py-20">
         <div className="container-custom">
           <h2 className="font-playfair text-fluid-h2 text-white text-center mb-10">
-            Which areas in Dubai does myCHEF cater?
+            Which areas in Dubai does myCHEF serve?
           </h2>
 
           <div className="cat-loc-grid grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
@@ -567,7 +590,7 @@ export default function Catering() {
         campaign="catering-dubai"
         eyebrow="HOW MUCH DOES CATERING COST IN DUBAI?"
         title="How much does event catering cost in Dubai?"
-        subtitle="Transparent starting prices for event catering in Dubai. Packages scale from intimate dinners to corporate events."
+        subtitle="Transparent starting prices for event catering in Dubai. Packages scale from intimate dinners to corporate events — final quote tailored to your event."
       />
 
       {/* ═══════════════ Related Guides ═══════════════ */}
@@ -594,10 +617,10 @@ export default function Catering() {
             Ready to book catering for your Dubai event?
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            From concept to execution — we handle every detail of your catering experience.
+            From concept to execution — we design and manage every detail of your catering experience.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=catering-dubai" className="btn-primary">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=catering-dubai" className="btn-primary">Get a Catering Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

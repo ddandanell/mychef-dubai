@@ -79,7 +79,7 @@ export default function CateringCostCalculator() {
   return (
     <>
       <SEO
-        title="Catering Cost Calculator Dubai | myCHEF Dubai"
+        title="Catering Cost Calculator Dubai"
         description="Estimate the cost of private chef and luxury catering services in Dubai. Instant per-person pricing for villas, yachts, weddings, and corporate events."
         canonicalPath="/catering-cost-calculator-dubai"
         ogImage="/images/catering-dubai-hero.webp"
@@ -88,7 +88,7 @@ export default function CateringCostCalculator() {
 
       <PageHero
         eyebrow="PRICING TOOL"
-        title={<>Catering Cost<br />Calculator Dubai</>}
+        title="Catering Cost Calculator Dubai"
         subtitle="Get an instant estimate for private chef and luxury catering services based on your guest count and service style."
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Cost Calculator' }]}
         minHeight="medium"
@@ -201,7 +201,7 @@ export default function CateringCostCalculator() {
             <p className="font-inter text-body-sm text-gray-500">
               This calculator provides a rough estimate only. Premium ingredients, custom menus, late-night service,
               special dietary requirements, and venue logistics can affect the final price. For an exact bespoke
-              proposal, request a quote and we will respond within 2 hours.
+              proposal, request a quote and we will respond within 15 minutes during business hours.
             </p>
           </div>
         </div>

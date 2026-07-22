@@ -16,6 +16,7 @@ import {
   Check,
 } from 'lucide-react'
 import SEO from '../../components/SEO'
+import TrustSignalStrip from '../../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -185,6 +186,8 @@ const articleSchema = {
   description: 'A practical guide to private dining in Dubai: what it is, where it happens, how to choose a private chef, menu planning, pricing, and the best occasions to book.',
   author: { '@type': 'Organization', name: 'myCHEF Dubai' },
   publisher: { '@type': 'Organization', name: 'myCHEF Dubai', url: 'https://mychef.ae' },
+  datePublished: '2026-07-01',
+  dateModified: '2026-07-22',
 }
 
 const serviceSchema = {
@@ -192,7 +195,7 @@ const serviceSchema = {
   name: 'Private Dining Dubai',
   serviceType: 'Private Dining and Private Chef Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'Organization',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',
@@ -292,7 +295,7 @@ export default function PrivateDiningGuide() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Private Dining Dubai: A Complete Guide | myCHEF"
+        title="Private Dining Dubai: A Complete Guide"
         description="A complete guide to private dining in Dubai: where to host, types of experiences, how to choose a private chef, menu planning, pricing, and FAQs."
         canonicalPath="/guide/private-dining-dubai"
         ogImage="/images/private-dining-guide-hero.webp"
@@ -338,6 +341,8 @@ export default function PrivateDiningGuide() {
           </div>
         </div>
       </section>
+
+      <TrustSignalStrip />
 
       {/* ═══════════════ Opening ═══════════════ */}
       <section className="bg-white section-padding">

@@ -17,6 +17,7 @@ import {
   FileDown,
 } from 'lucide-react'
 import SEO from '../components/SEO'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -189,7 +190,7 @@ const serviceSchema = {
   name: 'Dubai Event Catering Price Guide 2026',
   serviceType: 'Catering Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'Organization',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',
@@ -289,7 +290,7 @@ export default function EventCateringPriceGuide2026() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Dubai Event Catering Price Guide 2026 | Budget & Quotes | myCHEF"
+        title="Dubai Event Catering Prices 2026"
         description="Honest Dubai event catering prices for 2026: per-person ranges for weddings, corporate events, yacht catering, BBQ, buffet, and plated dinners. Plus factors that affect cost."
         canonicalPath="/dubai-event-catering-price-guide-2026"
         ogImage="/images/event-catering-price-guide-hero.webp"
@@ -333,6 +334,8 @@ export default function EventCateringPriceGuide2026() {
           </div>
         </div>
       </section>
+
+      <TrustSignalStrip />
 
       {/* ═══════════════ Opening ═══════════════ */}
       <section className="bg-white section-padding">

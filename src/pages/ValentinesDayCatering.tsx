@@ -5,7 +5,7 @@ import type { OccasionPageConfig } from './occasion/OccasionCateringPage'
 
 const config: OccasionPageConfig = {
   slug: 'valentines-day-catering-dubai',
-  seoTitle: "Valentine's Day Private Dining Dubai | Romantic Dinner at Home",
+  seoTitle: "Valentine's Day Private Dining Dubai",
   metaDescription:
     "Valentine's Day private dining and romantic catering in Dubai. Candlelit dinners for two, proposals, anniversaries and intimate celebrations at home or venue.",
   canonicalPath: '/valentines-day-catering-dubai',
@@ -87,7 +87,7 @@ const config: OccasionPageConfig = {
     {
       title: 'Anniversary Celebrations',
       description:
-        'Mark a milestone with a menu that recalls favourite dishes, destinations or memories. Our chefs can recreate a honeymoon meal or design a tasting menu around your years together.',
+        'Mark a milestone with a menu that recalls favourite dishes, destinations or memories. The chefs in our network can recreate a honeymoon meal or design a tasting menu around your years together.',
     },
     {
       title: 'At-Home Date Nights',
@@ -97,7 +97,7 @@ const config: OccasionPageConfig = {
     {
       title: 'Yacht & Rooftop Romance',
       description:
-        "For a dramatic backdrop, we cater Valentine's dinners on Dubai yachts, rooftop terraces and pool decks, with menus that travel well and service that feels effortless.",
+        "For a dramatic backdrop, we coordinate catering for Valentine's dinners on Dubai yachts, rooftop terraces and pool decks, with menus that travel well and service that feels effortless.",
     },
   ],
   includedH2: "What's Included in Our Valentine's Day Catering",
@@ -170,6 +170,7 @@ const config: OccasionPageConfig = {
   ctaH2: "Plan a Valentine's Dinner They'll Never Forget",
   ctaP:
     "Tell us about your plans, venue and dietary preferences. We will design a romantic Valentine's dinner that feels effortless, intimate and unforgettable.",
+  showTrustSignalStrip: true,
 }
 
 export default function ValentinesDayCatering() {

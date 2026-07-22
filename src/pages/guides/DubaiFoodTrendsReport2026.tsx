@@ -16,6 +16,7 @@ import {
   Check,
 } from 'lucide-react'
 import SEO from '../../components/SEO'
+import TrustSignalStrip from '../../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -91,7 +92,7 @@ const internalLinks = [
   { title: 'Dubai Event Catering Price Guide 2026', link: '/dubai-event-catering-price-guide-2026', description: 'Realistic per-person pricing for events, weddings and corporate functions.' },
   { title: 'Yacht Catering Checklist', link: '/yacht-catering-checklist-dubai', description: 'A practical checklist for catering on Dubai yachts and boats.' },
   { title: 'Wedding Menu Planning Guide', link: '/wedding-catering-menu-planning-dubai', description: 'How to plan a wedding catering menu from tasting to table.' },
-  { title: 'Catering Dubai', link: '/catering-dubai', description: 'Full-service catering for events, celebrations and corporate functions.' },
+  { title: 'Catering Dubai', link: '/catering-dubai', description: 'fully-coordinated catering for events, celebrations and corporate functions.' },
   { title: 'Private Chef Dubai', link: '/private-chef-dubai', description: 'Personal chef service for intimate dinners and daily dining.' },
 ]
 
@@ -138,7 +139,7 @@ const articleSchema = {
     logo: { '@type': 'ImageObject', url: 'https://mychef.ae/images/mychef-logo.png' },
   },
   datePublished: '2026-07-01',
-  dateModified: '2026-07-01',
+  dateModified: '2026-07-22',
   mainEntityOfPage: {
     '@type': 'WebPage',
     '@id': 'https://mychef.ae/dubai-food-trends-report-2026',
@@ -214,7 +215,7 @@ export default function DubaiFoodTrendsReport2026() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Dubai Food Trends Report 2026 | Catering & Private Dining Insights"
+        title="Dubai Food Trends Report 2026"
         description="The Dubai catering trends shaping events in 2026: local sourcing, inclusive menus, chef-led tasting experiences, global-Dubai cuisine, live stations and non-alcoholic pairings."
         canonicalPath="/dubai-food-trends-report-2026"
         ogImage="/images/dubai-food-trends-report-hero.webp"
@@ -260,6 +261,8 @@ export default function DubaiFoodTrendsReport2026() {
           </div>
         </div>
       </section>
+
+      <TrustSignalStrip />
 
       {/* ═══════════════ Introduction ═══════════════ */}
       <section className="bg-white section-padding">
@@ -460,7 +463,7 @@ export default function DubaiFoodTrendsReport2026() {
             </a>
           </div>
           <p className="font-inter text-sm text-gray-400 mt-6">
-            We typically reply within 2 hours during business hours.
+            We typically reply within 15 minutes during business hours.
           </p>
         </div>
       </section>

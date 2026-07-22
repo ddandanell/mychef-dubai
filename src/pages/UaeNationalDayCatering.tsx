@@ -5,7 +5,7 @@ import type { OccasionPageConfig } from './occasion/OccasionCateringPage'
 
 const config: OccasionPageConfig = {
   slug: 'uae-national-day-catering-dubai',
-  seoTitle: 'UAE National Day Catering Dubai | Private Chef & Celebration Menu',
+  seoTitle: 'UAE National Day Dining Dubai | Chef & Menu',
   metaDescription:
     'UAE National Day catering in Dubai. Celebrate 2 December with bespoke Emirati menus, live grills and elegant buffets at home, villas, offices or venues across Dubai.',
   canonicalPath: '/uae-national-day-catering-dubai',
@@ -25,10 +25,10 @@ const config: OccasionPageConfig = {
         UAE National Day is one of the most joyful occasions in Dubai — a time to come together, honour heritage and celebrate progress. Whether you are hosting an intimate family gathering, a villa party for friends or a corporate reception for colleagues, our National Day catering service brings the flavours of the Emirates to your chosen setting. We combine traditional Emirati dishes with contemporary presentation, so every buffet feels both rooted and refined.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        Our chefs design menus around your guest list, venue and schedule. Expect slow-cooked lamb ouzi, fragrant machboos, freshly baked khameer, date-based desserts and live shawarma or kebab stations that draw guests in. We handle everything from setup and service to cleanup, leaving you free to enjoy the fireworks, music and company.
+        the chefs in our network design menus around your guest list, venue and schedule. Expect slow-cooked lamb ouzi, fragrant machboos, freshly baked khameer, date-based desserts and live shawarma or kebab stations that draw guests in. we design and manage the experience from setup and service to cleanup, leaving you free to enjoy the fireworks, music and company.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-        We cater UAE National Day events across Dubai, from Palm Jumeirah villas and Emirates Hills homes to Downtown offices and desert camps. Pair this with our{' '}
+        we coordinate catering for UAE National Day events across Dubai, from Palm Jumeirah villas and Emirates Hills homes to Downtown offices and desert camps. Pair this with our{' '}
         <Link to="/eid-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           Eid catering
         </Link>{' '}
@@ -107,7 +107,7 @@ const config: OccasionPageConfig = {
   includedItems: [
     { title: 'Bespoke Emirati Menu', description: 'A personalised menu blending traditional UAE dishes with modern canapés and crowd favourites.' },
     { title: 'Live Cooking Stations', description: 'Optional live grill, shawarma or Arabic bread stations to add theatre and freshness.' },
-    { title: 'Professional Chefs & Staff', description: 'Experienced chefs, servers and event support who deliver polished hospitality throughout your event.' },
+    { title: 'Partner Chefs & Staff', description: 'Experienced chefs, servers and event support who deliver polished hospitality throughout your event.' },
     { title: 'Styling & Theming', description: 'Subtle National Day colour accents, linens, serving ware and décor that suit the occasion.' },
     { title: 'Halal & Dietary Options', description: 'All menus are halal by default; vegetarian, vegan and allergy-aware options available.' },
     { title: 'Setup, Service & Cleanup', description: 'We arrive early, manage service, and leave your venue spotless after the celebration.' },
@@ -135,7 +135,7 @@ const config: OccasionPageConfig = {
     },
     {
       q: 'Can you handle large corporate National Day events?',
-      a: 'Yes. We cater office receptions, large corporate gatherings and community events with scalable buffets, live stations and efficient service flow.',
+      a: 'Yes. We coordinate catering for office receptions, large corporate gatherings and community events with scalable buffets, live stations and efficient service flow.',
     },
     {
       q: 'Do you provide live cooking stations?',
@@ -173,6 +173,7 @@ const config: OccasionPageConfig = {
   ctaH2: 'Book Your UAE National Day Catering',
   ctaP:
     'Tell us about your guest count, venue and vision. We will design a National Day menu and service plan that celebrates the occasion beautifully.',
+  showTrustSignalStrip: true,
 }
 
 export default function UaeNationalDayCatering() {

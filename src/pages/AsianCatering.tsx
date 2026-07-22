@@ -16,6 +16,7 @@ import {
   ArrowRight,
 } from 'lucide-react'
 import SEO from '../components/SEO'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -29,7 +30,7 @@ const menuHighlights = [
   {
     icon: Flame,
     title: 'Live Wok Stations',
-    description: 'A chef-manned wok station firing noodles, fried rice, and stir-fries to order — high heat, fresh ingredients, and a plate served sizzling to every guest.',
+    description: 'A partner-chef-led wok station firing noodles, fried rice, and stir-fries to order — high heat, fresh ingredients, and a plate served sizzling to every guest.',
     link: '/live-cooking-stations-dubai',
   },
   {
@@ -85,12 +86,12 @@ const useCases = [
 
 const includedItems = [
   { title: 'Pan-Asian Menu Design', description: 'Thai, Chinese, Japanese, and fusion dishes balanced for your guests and occasion.' },
-  { title: 'Live Wok & Dim Sum', description: 'Chef-manned stations firing stir-fries and steaming fresh dumplings to order.' },
+  { title: 'Live Wok & Dim Sum', description: 'partner-chef-led stations firing stir-fries and steaming fresh dumplings to order.' },
   { title: 'Sushi Counter', description: 'Hand-rolled maki, nigiri, and sashimi prepared live, with vegetarian rolls.' },
   { title: 'Spice-Level Tailoring', description: 'Heat adjusted across dishes so every guest is comfortable.' },
   { title: 'Halal Sourcing', description: 'Halal meat and poultry as standard, sourced from trusted suppliers.' },
   { title: 'Vegetarian & Vegan', description: 'Plentiful plant-based stir-fries, curries, and rolls arranged on request.' },
-  { title: 'Professional Chefs', description: 'Experienced pan-Asian culinary team led by our executive chef.' },
+  { title: 'Professional Chefs', description: 'Experienced pan-Asian culinary team led by a partner chef.' },
   { title: 'Full Setup & Service', description: 'Styling, waiters, on-site coordination, and full pack-down included.' },
 ]
 
@@ -129,7 +130,7 @@ const faqs = [
   },
   {
     q: 'Can you set up live wok and dim sum stations?',
-    a: 'Yes. Chef-manned live wok stations fire noodles and stir-fries to order, while dim sum stations steam fresh dumplings and bao. These interactive stations are popular at receptions, weddings, and themed corporate nights.',
+    a: 'Yes. Partner-chef-led live wok stations fire noodles and stir-fries to order, while dim sum stations steam fresh dumplings and bao. These interactive stations are popular at receptions, weddings, and themed corporate nights.',
   },
   {
     q: 'Is the meat halal?',
@@ -152,7 +153,7 @@ const faqs = [
 const relatedServices = [
   {
     title: 'Luxury Catering Dubai',
-    description: 'Full-service event catering across Dubai with bespoke menus for any occasion.',
+    description: 'fully-coordinated catering across Dubai with bespoke menus for any occasion.',
     image: '/service-catering.webp',
     link: '/catering-dubai',
   },
@@ -190,7 +191,7 @@ const serviceSchema = {
   name: 'Asian Catering Dubai',
   serviceType: 'Catering Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'Organization',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',
@@ -312,6 +313,7 @@ export default function AsianCatering() {
             </a>
           </div>
         </div>
+        <TrustSignalStrip className="mt-8" variant="dark" />
       </section>
 
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
@@ -373,7 +375,7 @@ export default function AsianCatering() {
         <div className="container-custom">
           <div className="text-center mb-12">
             <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WHO WE COOK FOR
+              WHO your chef prepares FOR
             </span>
             <h2 className="font-playfair text-h2 text-white">
               Asian Catering for Every Occasion

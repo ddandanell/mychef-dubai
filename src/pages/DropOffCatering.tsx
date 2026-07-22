@@ -5,11 +5,12 @@ import type { ServicePageConfig } from './shared/ServiceLandingPage'
 
 const config: ServicePageConfig = {
   slug: 'drop-off-catering-dubai',
-  seoTitle: 'Drop-Off Catering Dubai | Delivered Meals for Offices & Events',
+  seoTitle: "Drop-Off Meals Dubai | Office & Events",
   metaDescription:
     'Drop-off catering in Dubai: individually packed meals, labelled platters and buffet boxes delivered to your office, villa or venue. No on-site staff needed. Request a quote today.',
   canonicalPath: '/drop-off-catering-dubai',
   ogImage: '/images/drop-off-catering-dubai-hero.webp',
+  showTrustSignalStrip: true,
   breadcrumbLabel: 'Drop-Off Catering Dubai',
   h1: 'Drop-Off Catering in Dubai',
   heroSub:
@@ -22,7 +23,7 @@ const config: ServicePageConfig = {
   introNodes: (
     <>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        Not every event needs a full service team on site. Drop-off catering in Dubai is the practical choice for working lunches, team meetings, villa gatherings and small celebrations where you want restaurant-quality food without the logistics of live service. We prepare everything in our kitchen, pack it beautifully, and deliver it to your door with clear labelling and simple reheating or serving instructions.
+        Not every event needs a full service team on site. Drop-off catering in Dubai is the practical choice for working lunches, team meetings, villa gatherings and small celebrations where you want restaurant-quality food without the logistics of live service. Our partner chefs prepare everything in a licensed central kitchen, pack it beautifully, and deliver it to your door with clear labelling and simple reheating or serving instructions.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
         Our drop-off menus include individually packed lunch boxes, shareable mezze and salad platters, sandwich and wrap trays, hot mains in transport containers, and dessert portions. Every item is sealed, labelled and portioned so your guests can help themselves with confidence. Dietary requirements — halal, vegetarian, vegan, gluten-free, dairy-free and nut-free — are marked clearly.
@@ -131,7 +132,7 @@ const config: ServicePageConfig = {
   faqs: [
     {
       q: 'What is drop-off catering?',
-      a: 'Drop-off catering means we prepare, pack and deliver your food ready to serve. There is no chef or service team on site, making it a cost-effective option for meetings, offices and small gatherings.',
+      a: 'Drop-off catering means the chef in our network prepares, packs and delivers your food ready to serve. There is no chef or service team on site, making it a cost-effective option for meetings, offices and small gatherings.',
     },
     {
       q: 'Is drop-off catering suitable for offices?',
@@ -163,7 +164,7 @@ const config: ServicePageConfig = {
     },
     {
       title: 'Corporate Event Catering',
-      description: 'Full-service corporate catering when your event needs chefs and front-of-house staff.',
+      description: 'fully-coordinated catering when your event needs chefs and front-of-house staff.',
       image: '/service-events.webp',
       link: '/corporate-event-catering-dubai',
     },

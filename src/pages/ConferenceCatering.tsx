@@ -16,6 +16,7 @@ import {
   ArrowRight,
 } from 'lucide-react'
 import SEO from '../components/SEO'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -168,12 +169,6 @@ const relatedServices = [
     image: '/service-corporate.webp',
     link: '/corporate',
   },
-  {
-    title: 'Government Event Catering',
-    description: 'Protocol-aware catering for official conferences, summits and government functions.',
-    image: '/images/corporate-catering-dubai-hero.webp',
-    link: '/government-event-catering-dubai',
-  },
 ]
 
 const faqSchema = {
@@ -190,7 +185,7 @@ const serviceSchema = {
   name: 'Conference Catering Dubai',
   serviceType: 'Catering Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'Organization',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',
@@ -269,8 +264,8 @@ export default function ConferenceCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Conference Catering Dubai | Breaks & Working Lunches"
-        description="Conference catering in Dubai with coffee breaks, working lunches, and multi-day refreshments. Timed service, rotating menus, and full venue coordination. Request a quote today."
+        title="Conference Dining Dubai | Working Lunches"
+        description="Chef-coordinated conference dining in Dubai with coffee breaks, working lunches, and multi-day refreshments. Timed service and rotating menus — request a quote."
         canonicalPath="/conference-catering-dubai"
         ogImage="/service-corporate.webp"
         schema={schema}
@@ -313,6 +308,8 @@ export default function ConferenceCatering() {
           </div>
         </div>
       </section>
+
+      <TrustSignalStrip variant="dark" />
 
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">

@@ -6,6 +6,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { MessageCircle, Palette, Sparkles, Utensils, ChevronRight, Phone, ArrowRight, } from 'lucide-react'
 import SEO from '../components/SEO'
 import PageHero from '../components/PageHero'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 import StarterPackagesSection from '@/sections/StarterPackagesSection'
 
 gsap.registerPlugin(ScrollTrigger)
@@ -26,7 +27,7 @@ const experiences = [
   {
     image: '/service-private-chef.webp',
     title: 'Fine Dining at Home',
-    description: 'Restaurant-quality cuisine in the comfort of your home. A multi-course tasting menu with wine pairing, served by our team.',
+    description: 'Restaurant-quality cuisine in the comfort of your home. A multi-course tasting menu with wine pairing, served by the chefs in our network.',
     link: '/private-chef-dubai',
   },
   {
@@ -52,7 +53,7 @@ const relatedExperiences = [
   },
   {
     title: 'Private Cooking Classes',
-    description: 'Learn professional techniques from our chefs in a hands-on, private setting.',
+    description: 'Learn professional techniques from the chefs in our network in a hands-on, private setting.',
     image: '/service-private-chef.webp',
     link: '/private-cooking-classes-dubai',
   },
@@ -79,11 +80,11 @@ const processSteps = [
   {
     icon: Palette,
     title: 'How is your bespoke menu created?',
-    description: 'Our chef crafts a bespoke menu that tells a story through each course.',
+    description: 'the chefs in our network crafts a bespoke menu that tells a story through each course.',
   },
   {
     icon: Sparkles,
-    title: 'How do we prepare your dining space?',
+    title: 'How does your chef prepare your dining space?',
     description: 'We arrive early, transform your space, and prepare everything to perfection.',
   },
   {
@@ -136,7 +137,7 @@ const faqs = [
   },
   {
     q: 'Can I request a specific cuisine?',
-    a: 'Of course. Every menu is fully bespoke. Share your preferences and our chef will design the perfect menu.',
+    a: 'Of course. Every menu is fully bespoke. Share your preferences and the chefs in our network will design the perfect menu.',
   },
 ]
 
@@ -166,7 +167,7 @@ const schema = {
   '@type': 'Service',
   name: 'Luxury Dining Experiences Dubai',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'Organization',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',
@@ -191,6 +192,16 @@ const breadcrumbSchema = {
     { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://mychef.ae' },
     { '@type': 'ListItem', position: 2, name: 'Luxury Dining Experiences', item: 'https://mychef.ae/luxury-dining-experiences' },
   ],
+}
+
+const faqPageSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqs.map((faq) => ({
+    '@type': 'Question',
+    name: faq.q,
+    acceptedAnswer: { '@type': 'Answer', text: faq.a },
+  })),
 }
 
 /* ────────────────────── Component ────────────────────── */
@@ -256,17 +267,17 @@ export default function LuxuryDining() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Luxury Private Dining Dubai | Fine Dining at Home"
+        title="Luxury Private Dining Dubai | Fine Dining"
         description="Experience luxury private dining in Dubai. Romantic dinners, special occasions, and bespoke culinary experiences in your villa or penthouse. Request your custom menu."
         canonicalPath="/luxury-dining-experiences"
         ogImage="/service-luxury-dining.webp"
-        schema={{ ...schema, ...breadcrumbSchema }}
+        schema={{ ...schema, ...breadcrumbSchema, ...faqPageSchema }}
       />
 
       {/* ═══════════════ Section 1: Hero ═══════════════ */}
       <PageHero
-        title={<>Luxury Dining<br className="hidden sm:block" /> Experiences</>}
-        subtitle="Bespoke private dining crafted for life's most memorable moments. In your villa, on your yacht, or at your penthouse."
+        title="Luxury Private Dining in Dubai"
+        subtitle="Bespoke private dining crafted for life's most memorable moments. In your villa, on your yacht, or at your penthouse — we reply within 15 minutes during business hours."
         image="/images/luxury-dining-dubai-hero.webp"
         imageAlt="Luxury private dining in Dubai"
         cta={{ label: 'Request a Proposal', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=luxury-dining-experiences' }}
@@ -275,6 +286,8 @@ export default function LuxuryDining() {
         minHeight="tall"
         overlay="dark"
       />
+
+      <TrustSignalStrip variant="dark" />
 
       {/* ═══════════════ Section 2: Experience Types ═══════════════ */}
       <section className="bg-white section-padding">
@@ -287,9 +300,11 @@ export default function LuxuryDining() {
               What luxury dining experiences can you book in Dubai?
             </h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed max-w-[700px] mx-auto mt-4">
-              From penthouses in Downtown to villas in{' '}
+              Tell us about your occasion and we will match you with a vetted{' '}
+              <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef</Link>
+              {' '}within 24 hours. From penthouses in Downtown to villas in{' '}
               <Link to="/locations/emirates-hills" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Emirates Hills</Link>
-              , we bring restaurant-quality dining to your door.
+              , we bring restaurant-quality dining to your door — with a bespoke menu, elegant table styling, and discreet service.
             </p>
           </div>
 
@@ -523,7 +538,7 @@ export default function LuxuryDining() {
         campaign="luxury-dining-experiences"
         eyebrow="LUXURY DINING PRICING"
         title="How much does luxury private dining cost in Dubai?"
-        subtitle="Transparent starting prices for bespoke luxury dining experiences in Dubai. Every menu is designed around your occasion."
+        subtitle="Indicative starting prices for bespoke luxury dining experiences in Dubai. Every final quote is tailored to your guest count, menu, and occasion."
       />
 
       {/* ═══════════════ Related Guides ═══════════════ */}

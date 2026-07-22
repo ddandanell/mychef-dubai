@@ -1,15 +1,16 @@
-import { useRef, useState } from 'react'
-import { Link, useNavigate } from 'react-router'
+import { useRef } from 'react'
+import { Link } from 'react-router'
 import { Phone, Mail, Clock, ChevronRight, Check, MapPin } from 'lucide-react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { useGSAP } from '@gsap/react'
 import SEO from '@/components/SEO'
+import TrustSignalStrip from '@/components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
 const WHATSAPP_NUMBER = '971551744849'
-const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to request a quote (via mychef.ae/contact)')
+const WHATSAPP_MESSAGE = encodeURIComponent("Hi myCHEF Dubai, I'd like to get in touch (via mychef.ae/contact)")
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 const contactCards = [
@@ -24,29 +25,29 @@ const contactCards = [
   {
     icon: Mail,
     title: 'Email',
-    detail: 'hallo@mychef.ae',
+    detail: 'hello@mychef.ae',
     action: 'Send Email',
     actionType: 'mailto' as const,
-    href: 'mailto:hallo@mychef.ae',
+    href: 'mailto:hello@mychef.ae',
   },
   {
     icon: Clock,
     title: 'Response Time',
-    detail: 'We reply within 2 hours',
-    action: 'Request Quote',
-    actionType: 'scroll' as const,
-    href: '#quote-form',
+    detail: 'We reply within 15 minutes',
+    action: 'Chat on WhatsApp',
+    actionType: 'link' as const,
+    href: WHATSAPP_LINK,
   },
 ]
 
 const trustItems = [
   'Bespoke menus designed for every client',
   'Premium ingredients sourced daily',
-  'Experienced, professional chefs',
+  'Vetted, experienced chefs in our network',
   'Full service including setup and cleanup',
   'Available across all Dubai locations',
   'Discreet, confidential service',
-  'Fully insured and licensed',
+  'Booking protection & insurance',
 ]
 
 const serviceAreas = [
@@ -77,97 +78,14 @@ const breadcrumbSchema = {
   ],
 }
 
-const inputClasses =
-  'w-full px-4 py-3.5 min-h-[48px] font-inter text-body border bg-white text-black placeholder:text-gray-400 focus:outline-none focus:border-gold focus:ring-2 focus:ring-gold/20 transition-all duration-200'
-const inputErrorClasses = 'border-red-500 focus:border-red-500 focus:ring-red-500/20'
-const inputNormalClasses = 'border-gray-200'
-
 export default function Contact() {
-  const navigate = useNavigate()
   const containerRef = useRef<HTMLDivElement>(null)
-  const [formState, setFormState] = useState<'idle' | 'submitting' | 'success'>('idle')
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    serviceType: '',
-    eventDate: '',
-    guests: '',
-    location: '',
-    message: '',
-  })
-  const [errors, setErrors] = useState<Record<string, boolean>>({})
-
-  const validate = () => {
-    const newErrors: Record<string, boolean> = {}
-    if (!formData.name.trim()) newErrors.name = true
-    if (!formData.email.trim() || !/\S+@\S+\.\S+/.test(formData.email)) newErrors.email = true
-    if (!formData.phone.trim()) newErrors.phone = true
-    if (!formData.serviceType) newErrors.serviceType = true
-    setErrors(newErrors)
-    return Object.keys(newErrors).length === 0
-  }
-
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault()
-    if (!validate()) return
-    setFormState('submitting')
-
-    const payload = {
-      name: formData.name,
-      email: formData.email,
-      phone: formData.phone,
-      serviceType: formData.serviceType,
-      eventDate: formData.eventDate,
-      guests: formData.guests,
-      location: formData.location,
-      message: formData.message,
-      formId: 'contact-form',
-      page: window.location.pathname + window.location.search,
-      source: 'contact_page',
-    }
-
-    try {
-      const res = await fetch('/api/submit-lead', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(payload),
-      })
-      if (!res.ok) throw new Error('Submit failed')
-      navigate('/thank-you')
-    } catch {
-      // Fallback: open WhatsApp so the lead isn't lost
-      const lines = [
-        'New enquiry — myCHEF Dubai',
-        '',
-        `Name: ${formData.name}`,
-        `Email: ${formData.email}`,
-        `Phone: ${formData.phone}`,
-        `Service: ${formData.serviceType}`,
-        `Event date: ${formData.eventDate}`,
-        `Guests: ${formData.guests}`,
-        `Location: ${formData.location}`,
-        '',
-        `Message: ${formData.message}`,
-      ].filter(Boolean)
-      const waUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(lines.join('\n'))}`
-      window.open(waUrl, '_blank')
-      setFormState('success')
-    }
-  }
-
-  const handleChange = (field: string, value: string) => {
-    setFormData(prev => ({ ...prev, [field]: value }))
-    if (errors[field]) {
-      setErrors(prev => ({ ...prev, [field]: false }))
-    }
-  }
 
   useGSAP(() => {
     const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
     const ctx = gsap.context(() => {
       if (reduced) {
-        gsap.set('.contact-hero-eyebrow, .contact-hero-h1, .contact-hero-sub, .contact-card, .contact-form-left, .contact-form-right, .service-area-tag, .contact-cta-content', {
+        gsap.set('.contact-hero-eyebrow, .contact-hero-h1, .contact-hero-sub, .contact-card, .contact-cta-left, .contact-cta-right, .service-area-tag, .contact-final-cta', {
           opacity: 1, y: 0, x: 0, scale: 1,
         })
         return
@@ -182,13 +100,13 @@ export default function Contact() {
         scrollTrigger: { trigger: '.contact-cards-grid', start: 'top 85%', toggleActions: 'play none none none' },
       })
 
-      gsap.from('.contact-form-left', {
+      gsap.from('.contact-cta-left', {
         opacity: 0, x: -30, duration: 0.8, ease: 'power3.out',
-        scrollTrigger: { trigger: '.contact-form-section', start: 'top 85%', toggleActions: 'play none none none' },
+        scrollTrigger: { trigger: '.contact-cta-section', start: 'top 85%', toggleActions: 'play none none none' },
       })
-      gsap.from('.contact-form-right', {
+      gsap.from('.contact-cta-right', {
         opacity: 0, x: 30, duration: 0.8, ease: 'power3.out', delay: 0.15,
-        scrollTrigger: { trigger: '.contact-form-section', start: 'top 85%', toggleActions: 'play none none none' },
+        scrollTrigger: { trigger: '.contact-cta-section', start: 'top 85%', toggleActions: 'play none none none' },
       })
 
       gsap.from('.service-area-tag', {
@@ -196,9 +114,9 @@ export default function Contact() {
         scrollTrigger: { trigger: '.service-areas-section', start: 'top 85%', toggleActions: 'play none none none' },
       })
 
-      gsap.from('.contact-cta-content', {
+      gsap.from('.contact-final-cta', {
         opacity: 0, y: 30, duration: 0.8, ease: 'power3.out',
-        scrollTrigger: { trigger: '.contact-cta-section', start: 'top 85%', toggleActions: 'play none none none' },
+        scrollTrigger: { trigger: '.contact-final-section', start: 'top 85%', toggleActions: 'play none none none' },
       })
     }, containerRef)
 
@@ -209,7 +127,7 @@ export default function Contact() {
     <div ref={containerRef}>
       <SEO
         title="Contact Us"
-        description="Get in touch with myCHEF Dubai. Request a custom quote for private chef services, luxury catering, or bespoke dining experiences across Dubai. WhatsApp available."
+        description="Get in touch with myCHEF Dubai. Request a custom quote for private chef services, luxury catering, or bespoke dining experiences across Dubai. We reply within 15 minutes during business hours."
         canonicalPath="/contact"
         ogImage="/images/contact-hero.webp"
         schema={breadcrumbSchema}
@@ -234,13 +152,15 @@ export default function Contact() {
           </nav>
           <p className="contact-hero-eyebrow font-inter text-caption font-medium uppercase tracking-[0.1em] text-gold mb-4">GET IN TOUCH</p>
           <h1 className="contact-hero-h1 font-playfair text-fluid-h1 text-white mb-6" style={{ lineHeight: '1.1' }}>
-            Let&apos;s Plan Something<br />Exceptional Together
+            Contact Us on<br />WhatsApp
           </h1>
           <p className="contact-hero-sub font-inter text-body-lg text-gray-400 max-w-xl mx-auto">
-            Whether you are planning an intimate dinner or a grand event, we are here to bring your vision to life.
+            Whether you are planning an intimate dinner or a grand event, start the conversation on WhatsApp for the fastest reply.
           </p>
         </div>
       </section>
+
+      <TrustSignalStrip />
 
       {/* Section 2: Contact Cards */}
       <section className="relative bg-cream py-16 md:py-20" style={{ marginTop: '-40px' }}>
@@ -271,184 +191,82 @@ export default function Contact() {
                     {card.action}
                   </a>
                 )}
-                {card.actionType === 'scroll' && (
-                  <a
-                    href={card.href}
-                    className="inline-flex items-center justify-center px-6 py-2.5 min-h-11 font-inter text-button font-medium uppercase tracking-wider border border-gold text-gold hover:bg-gold hover:text-black transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-cream"
-                  >
-                    {card.action}
-                  </a>
-                )}
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Section 3: Quote Request Form */}
-      <section id="quote-form" className="contact-form-section bg-white section-padding">
+      {/* Section 3: WhatsApp CTA */}
+      <section className="contact-cta-section bg-white section-padding">
         <div className="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
-          {formState === 'success' ? (
-            <div className="text-center max-w-xl mx-auto py-16">
-              <div className="w-16 h-16 mx-auto mb-6 flex items-center justify-center rounded-full bg-gold/10">
-                <Check size={32} className="text-gold" aria-hidden="true" />
-              </div>
-              <h2 className="font-playfair text-fluid-h2 text-black mb-4">Thank You!</h2>
+          <div className="grid grid-cols-1 lg:grid-cols-[55%_45%] gap-y-12 lg:gap-x-12">
+            {/* Left Column - WhatsApp CTA */}
+            <div className="contact-cta-left">
+              <p className="font-inter text-caption font-medium uppercase tracking-wider text-gold mb-3">WHATSAPP FIRST</p>
+              <h2 className="font-playfair text-fluid-h2 text-black mb-2" style={{ lineHeight: '1.15' }}>
+                Chat With Us on WhatsApp
+              </h2>
               <p className="font-inter text-body text-gray-500 mb-8">
-                Your inquiry has been received. We will get back to you within 2 hours with a bespoke proposal.
+                We are available on WhatsApp for quick questions, availability checks, and bespoke quotes. We typically respond within 15 minutes during business hours.
               </p>
+
               <a
                 href={WHATSAPP_LINK}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn-primary focus-visible:ring-offset-white"
+                className="btn-primary inline-flex items-center gap-2 focus-visible:ring-offset-white"
               >
+                <Phone size={18} aria-hidden="true" />
                 Chat on WhatsApp
               </a>
-            </div>
-          ) : (
-            <div className="grid grid-cols-1 lg:grid-cols-[55%_45%] gap-y-12 lg:gap-x-12">
-              {/* Left Column - Form */}
-              <div className="contact-form-left">
-                <p className="font-inter text-caption font-medium uppercase tracking-wider text-gold mb-3">REQUEST A QUOTE</p>
-                <h2 className="font-playfair text-fluid-h2 text-black mb-2" style={{ lineHeight: '1.15' }}>
-                  Request Your Custom Quote
-                </h2>
-                <p className="font-inter text-body text-gray-500 mb-8">
-                  Fill in the details below and we will get back to you within 2 hours with a bespoke proposal.
-                </p>
-                <form id="contact-form" onSubmit={handleSubmit} className="space-y-5">
-                  <div>
-                    <input
-                      type="text"
-                      placeholder="Your full name"
-                      value={formData.name}
-                      onChange={e => handleChange('name', e.target.value)}
-                      className={`${inputClasses} ${errors.name ? inputErrorClasses : inputNormalClasses}`}
-                    />
-                    {errors.name && <p className="text-red-500 text-body-sm mt-1">Name is required</p>}
-                  </div>
-                  <div>
-                    <input
-                      type="email"
-                      placeholder="your@email.com"
-                      value={formData.email}
-                      onChange={e => handleChange('email', e.target.value)}
-                      className={`${inputClasses} ${errors.email ? inputErrorClasses : inputNormalClasses}`}
-                    />
-                    {errors.email && <p className="text-red-500 text-body-sm mt-1">Valid email is required</p>}
-                  </div>
-                  <div>
-                    <input
-                      type="tel"
-                      placeholder="+971 XX XXX XXXX"
-                      value={formData.phone}
-                      onChange={e => handleChange('phone', e.target.value)}
-                      className={`${inputClasses} ${errors.phone ? inputErrorClasses : inputNormalClasses}`}
-                    />
-                    {errors.phone && <p className="text-red-500 text-body-sm mt-1">Phone number is required</p>}
-                  </div>
-                  <div>
-                    <select
-                      value={formData.serviceType}
-                      onChange={e => handleChange('serviceType', e.target.value)}
-                      className={`${inputClasses} appearance-none cursor-pointer ${errors.serviceType ? inputErrorClasses : inputNormalClasses} ${!formData.serviceType ? 'text-gray-400' : 'text-black'}`}
-                      style={{ backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23C8A45C' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E")`, backgroundRepeat: 'no-repeat', backgroundPosition: 'right 16px center' }}
-                    >
-                      <option value="">Select Service Type</option>
-                      <option value="private-chef">Private Chef</option>
-                      <option value="catering">Catering</option>
-                      <option value="luxury-dining">Luxury Dining</option>
-                      <option value="corporate">Corporate Event</option>
-                      <option value="yacht">Yacht Dining</option>
-                      <option value="villa">Villa Chef</option>
-                      <option value="other">Other</option>
-                    </select>
-                    {errors.serviceType && <p className="text-red-500 text-body-sm mt-1">Please select a service type</p>}
-                  </div>
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-                    <input
-                      type="date"
-                      value={formData.eventDate}
-                      onChange={e => handleChange('eventDate', e.target.value)}
-                      className={`${inputClasses} ${inputNormalClasses}`}
-                    />
-                    <input
-                      type="number"
-                      min="1"
-                      placeholder="Number of Guests"
-                      value={formData.guests}
-                      onChange={e => handleChange('guests', e.target.value)}
-                      className={`${inputClasses} ${inputNormalClasses}`}
-                    />
-                  </div>
-                  <div>
-                    <input
-                      type="text"
-                      placeholder="e.g., Palm Jumeirah, Downtown Dubai"
-                      value={formData.location}
-                      onChange={e => handleChange('location', e.target.value)}
-                      className={`${inputClasses} ${inputNormalClasses}`}
-                    />
-                  </div>
-                  <div>
-                    <textarea
-                      rows={5}
-                      placeholder="Tell us about your event, dietary preferences, and any special requests..."
-                      value={formData.message}
-                      onChange={e => handleChange('message', e.target.value)}
-                      className={`${inputClasses} resize-none ${inputNormalClasses}`}
-                    />
-                  </div>
-                  <button
-                    type="submit"
-                    disabled={formState === 'submitting'}
-                    className="btn-primary w-full disabled:opacity-50 disabled:cursor-not-allowed focus-visible:ring-offset-white"
-                  >
-                    {formState === 'submitting' ? 'Sending...' : 'Request My Quote'}
-                  </button>
-                </form>
-              </div>
 
-              {/* Right Column - Trust Sidebar */}
-              <div className="contact-form-right bg-black p-8 lg:p-12 h-fit">
-                <h3 className="font-playfair text-fluid-h3 text-white mb-8" style={{ lineHeight: '1.2' }}>
-                  Why Choose myCHEF Dubai?
-                </h3>
-                <div className="space-y-6">
-                  {trustItems.map((item) => (
-                    <div key={item} className="flex items-start gap-3">
-                      <Check size={16} className="text-gold mt-1 flex-shrink-0" aria-hidden="true" />
-                      <span className="font-inter text-body text-gray-400">{item}</span>
-                    </div>
-                  ))}
-                </div>
-                <div className="mt-10 pt-8 border-t border-charcoal-light space-y-4">
-                  <div className="flex items-center gap-3">
-                    <MapPin size={18} className="text-gold" aria-hidden="true" />
-                    <div>
-                      <p className="font-inter text-body-sm text-gray-400">Serving all of Dubai</p>
-                      <p className="font-inter text-body-sm text-gold">We respond within 2 hours</p>
-                    </div>
+              <p className="font-inter text-body-sm text-gray-500 mt-6">
+                Prefer email?{' '}
+                <a href="mailto:hello@mychef.ae" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
+                  hello@mychef.ae
+                </a>
+              </p>
+            </div>
+
+            {/* Right Column - Trust Sidebar */}
+            <div className="contact-cta-right bg-black p-8 lg:p-12 h-fit">
+              <h3 className="font-playfair text-fluid-h3 text-white mb-8" style={{ lineHeight: '1.2' }}>
+                Why Choose myCHEF Dubai?
+              </h3>
+              <div className="space-y-6">
+                {trustItems.map((item) => (
+                  <div key={item} className="flex items-start gap-3">
+                    <Check size={16} className="text-gold mt-1 flex-shrink-0" aria-hidden="true" />
+                    <span className="font-inter text-body text-gray-400">{item}</span>
                   </div>
-                  <p className="font-inter text-body-sm text-gray-400">
-                    Loved your experience?{' '}
-                    <Link to="/review" className="text-gold hover:underline">
-                      Leave a review and earn AED 50 credit
-                    </Link>
-                    .
-                  </p>
-                  <p className="font-inter text-body-sm text-gray-400">
-                    Own a venue?{' '}
-                    <Link to="/partner-with-us" className="text-gold hover:underline">
-                      Partner with us
-                    </Link>
-                    .
-                  </p>
+                ))}
+              </div>
+              <div className="mt-10 pt-8 border-t border-charcoal-light space-y-4">
+                <div className="flex items-center gap-3">
+                  <MapPin size={18} className="text-gold" aria-hidden="true" />
+                  <div>
+                    <p className="font-inter text-body-sm text-gray-400">Serving all of Dubai</p>
+                    <p className="font-inter text-body-sm text-gold">We respond within 15 minutes</p>
+                  </div>
                 </div>
+                <p className="font-inter text-body-sm text-gray-400">
+                  Loved your experience?{' '}
+                  <Link to="/review" className="text-gold hover:underline">
+                    Leave a review and earn AED 50 credit
+                  </Link>
+                  .
+                </p>
+                <p className="font-inter text-body-sm text-gray-400">
+                  Own a venue?{' '}
+                  <Link to="/partner-with-us" className="text-gold hover:underline">
+                    Partner with us
+                  </Link>
+                  .
+                </p>
               </div>
             </div>
-          )}
+          </div>
         </div>
       </section>
 
@@ -475,21 +293,29 @@ export default function Contact() {
       </section>
 
       {/* Section 5: Final CTA */}
-      <section className="contact-cta-section bg-black py-20">
-        <div className="contact-cta-content container-custom text-center">
-          <h3 className="font-playfair text-fluid-h3 text-white mb-4">Prefer to Chat Directly?</h3>
+      <section className="contact-final-section bg-black py-20">
+        <div className="contact-final-cta container-custom text-center">
+          <h3 className="font-playfair text-fluid-h3 text-white mb-4">Ready to Start Planning?</h3>
           <p className="font-inter text-body text-gray-400 max-w-lg mx-auto mb-8">
-            We are available on WhatsApp for quick questions and immediate availability checks.
+            Tell us your occasion and we will match you with a vetted chef within 24 hours.
           </p>
-          <a
-            href={WHATSAPP_LINK}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn-primary inline-flex items-center gap-2 focus-visible:ring-offset-black"
-          >
-            <Phone size={18} aria-hidden="true" />
-            Chat on WhatsApp
-          </a>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <Link
+              to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=contact"
+              className="btn-primary focus-visible:ring-offset-black"
+            >
+              Request My Custom Quote
+            </Link>
+            <a
+              href={WHATSAPP_LINK}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-secondary inline-flex items-center gap-2 focus-visible:ring-offset-black"
+            >
+              <Phone size={18} aria-hidden="true" />
+              Chat on WhatsApp
+            </a>
+          </div>
         </div>
       </section>
     </div>

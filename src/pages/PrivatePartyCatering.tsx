@@ -16,6 +16,7 @@ import {
   ArrowRight,
 } from 'lucide-react'
 import SEO from '../components/SEO'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -29,12 +30,12 @@ const partyFormats = [
   {
     icon: Home,
     title: 'Villa & Home Parties',
-    description: 'Full-service catering brought to your villa, apartment, or garden — we set up a complete kitchen and service around your space.',
+    description: 'fully-coordinated catering brought to your villa, apartment, or garden — we set up a complete kitchen and service around your space.',
   },
   {
     icon: Flame,
     title: 'Live Cooking Stations',
-    description: 'Chef-manned stations — pasta, grills, carving, and more — that turn the food into part of the entertainment.',
+    description: 'partner-chef-led stations — pasta, grills, carving, and more — that turn the food into part of the entertainment.',
   },
   {
     icon: Sparkles,
@@ -49,7 +50,7 @@ const partyFormats = [
   {
     icon: Utensils,
     title: 'Plated & Buffet Dining',
-    description: 'When you want a seated moment — refined plated courses or generous buffet stations served by our team.',
+    description: 'When you want a seated moment — refined plated courses or generous buffet stations served by the chefs in our network.',
   },
   {
     icon: Users,
@@ -60,7 +61,7 @@ const partyFormats = [
 
 const includedItems = [
   { title: 'Bespoke Party Menu', description: 'A menu designed around your guests, theme, and the feel of the evening.' },
-  { title: 'On-Site Chefs', description: 'Our culinary team cooks and finishes dishes live at your venue.' },
+  { title: 'On-Site Chefs', description: 'the chefs in our network cook and finishes dishes live at your venue.' },
   { title: 'Live Cooking Stations', description: 'Interactive grills, carving, and made-to-order stations as you like.' },
   { title: 'Bar & Mixology', description: 'Cocktails, mocktails, and bartender service styled to your party.' },
   { title: 'Service & Hosting Staff', description: 'Discreet, polished waiters and hosts to look after every guest.' },
@@ -119,11 +120,11 @@ const locations = [
 const faqs = [
   {
     q: 'Do you cater private parties at home and in villas?',
-    a: 'Yes — private home and villa parties are our specialty. We bring a full mobile kitchen, chefs, service staff, and a bar to your space, and handle setup and cleanup so your home is left exactly as we found it.',
+    a: 'Yes — private home and villa parties are our specialty. We bring a private chef, partner chefs, service staff, and a bar to your space, and handle setup and cleanup so your home is left exactly as we found it.',
   },
   {
     q: 'What is a live cooking station?',
-    a: 'A live station is a chef-manned setup where dishes are prepared or finished in front of your guests — for example a pasta, grill, carving, or dessert station. It adds theatre and keeps the food fresh, hot, and interactive.',
+    a: 'A live station is a partner-chef-led setup where dishes are prepared or finished in front of your guests — for example a pasta, grill, carving, or dessert station. It adds theatre and keeps the food fresh, hot, and interactive.',
   },
   {
     q: 'Can you provide bartenders and cocktails?',
@@ -135,7 +136,7 @@ const faqs = [
   },
   {
     q: 'How many guests can you cater for at a private party?',
-    a: 'We cater intimate gatherings of around 10 guests up to large home parties of a few hundred. For smaller, more personal evenings, our private chef service may also suit, and we are happy to advise.',
+    a: 'we coordinate catering intimate gatherings of around 10 guests up to large home parties of a few hundred. For smaller, more personal evenings, our private chef service may also suit, and we are happy to advise.',
   },
   {
     q: 'How far in advance should I book?',
@@ -226,7 +227,7 @@ const serviceSchema = {
   name: 'Private Party Catering Dubai',
   serviceType: 'Private Party Catering Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'Organization',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',
@@ -361,6 +362,8 @@ export default function PrivatePartyCatering() {
         </div>
       </section>
 
+      <TrustSignalStrip />
+
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
@@ -371,7 +374,7 @@ export default function PrivatePartyCatering() {
             Your Home, Transformed Into a Venue
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            The best private parties feel effortless — for the guests and, just as importantly, for the host. At myCHEF Dubai, we bring everything a great party needs directly to your villa or home: a full mobile kitchen, professional chefs, live cooking stations, a styled bar, and attentive service staff who look after every detail from the first welcome drink to the final clear-down.
+            The best private parties feel effortless — for the guests and, just as importantly, for the host. At myCHEF Dubai, we bring everything a great party needs directly to your villa or home: a private chef, partner chefs, live cooking stations, a styled bar, and attentive service staff who look after every detail from the first welcome drink to the final clear-down.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             Whether you are planning an intimate dinner, a lively cocktail reception, or a large celebration spilling across the garden and terrace, we design the menu and service around your space and your guests. Private party catering sits within our broader <Link to="/party-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">party catering in Dubai</Link> and our full <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering service</Link>.
@@ -419,7 +422,7 @@ export default function PrivatePartyCatering() {
               EVERY KIND OF GATHERING
             </span>
             <h2 className="font-playfair text-h2 text-white">
-              Private Parties We Cater
+              Private Parties we coordinate catering for
             </h2>
           </div>
 

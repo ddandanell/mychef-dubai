@@ -6,6 +6,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { useGSAP } from '@gsap/react'
 import SEO from '@/components/SEO'
 import PageHero from '@/components/PageHero'
+import TrustSignalStrip from '@/components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -18,7 +19,7 @@ const villaServices = [
   { icon: Calendar, title: 'Weekly Meal Prep', desc: 'Comprehensive weekly meal planning and preparation. Nutritious, delicious meals ready when you are — perfect for busy families.', link: '/corporate-meal-prep-dubai' },
   { icon: Home, title: 'Special Occasion Dinner', desc: 'An unforgettable multi-course dinner for birthdays, anniversaries, or any special celebration in the comfort of your villa.', link: '/luxury-dining-experiences' },
   { icon: PartyPopper, title: 'Family Style Dining', desc: 'Beautifully presented family-style meals that bring everyone together. Perfect for family gatherings and multi-generational stays.', link: '/catering-dubai' },
-  { icon: Baby, title: 'Poolside BBQ', desc: 'Premium BBQ dining by your villa pool. Chef-manned grilling station with premium cuts, seafood, and all the trimmings.', link: '/bbq-catering-dubai' },
+  { icon: Baby, title: 'Poolside BBQ', desc: 'Premium BBQ dining by your villa pool. Partner-chef-led grilling station with premium cuts, seafood, and all the trimmings.', link: '/bbq-catering-dubai' },
   { icon: Leaf, title: 'Breakfast & Brunch', desc: 'Elegant breakfast and brunch service at your villa. Fresh pastries, eggs any style, smoothie bowls, and champagne upon request.', link: '/brunch-catering-dubai' },
 ]
 
@@ -59,14 +60,14 @@ const experienceFeatures = [
   { icon: Users, title: 'Full Service', desc: 'Professional service staff attend to your guests throughout the meal, ensuring an effortless experience.' },
   { icon: Sparkles, title: 'Complete Cleanup', desc: 'We leave your villa kitchen spotless. You will not know we were there.' },
   { icon: Clock, title: 'Flexible Scheduling', desc: 'Available for breakfast, lunch, dinner, or all-day service. You set the schedule that works for you.' },
-  { icon: Shield, title: 'Discreet & Professional', desc: 'Our team respects your privacy and operates with complete discretion at all times.' },
+  { icon: Shield, title: 'Discreet & Professional', desc: 'the chefs in our network respect your privacy and operates with complete discretion at all times.' },
 ]
 
 const villaFeatures = [
   { title: 'Familiar Chef Assignment', desc: 'The same chef for your entire stay — they learn your preferences and anticipate your needs.' },
   { title: 'Kitchen Stocking', desc: 'We handle all grocery shopping and pantry stocking. Your villa kitchen is always prepared.' },
   { title: 'Family-Friendly Menus', desc: 'From toddler-approved meals to gourmet adult dining — everyone at the table is delighted.' },
-  { title: 'Discreet Service', desc: 'Our team blends seamlessly into your villa environment. Professional, quiet, invisible.' },
+  { title: 'Discreet Service', desc: 'the chefs in our network blend seamlessly into your villa environment. Professional, quiet, invisible.' },
 ]
 
 const galleryImages = [
@@ -81,11 +82,11 @@ const galleryImages = [
 const faqItems = [
   {
     q: 'Can a private chef cook in my villa kitchen?',
-    a: 'Yes. Our chefs are experienced in working with all types of villa kitchens — from compact apartments to expansive estates. They bring any specialized equipment needed and adapt seamlessly to your space.',
+    a: 'Yes. The chefs in our network are experienced in working with all types of villa kitchens — from compact apartments to expansive estates. They bring any specialized equipment needed and adapt seamlessly to your space.',
   },
   {
     q: 'Do I need to be present during the service?',
-    a: 'Not at all. Many of our clients are out enjoying Dubai while we prepare dinner. We coordinate access and timing in advance, and our team is fully vetted and trustworthy. Your villa is in safe hands.',
+    a: 'Not at all. Many of our clients are out enjoying Dubai while your chef prepares dinner. We coordinate access and timing in advance, and the chefs in our network are fully vetted and trustworthy. Your villa is in safe hands.',
   },
   {
     q: 'Can you cater for large villa parties?',
@@ -93,7 +94,7 @@ const faqItems = [
   },
   {
     q: 'Do you work with Airbnb and short-stay guests?',
-    a: 'Yes. We provide private chef services for short-stay villa and apartment guests across Dubai. Many guests book us for their entire stay, making their Dubai holiday truly exceptional.',
+    a: 'Yes. we match you with a vetted chef you engage services for short-stay villa and apartment guests across Dubai. Many guests book us for their entire stay, making their Dubai holiday truly exceptional.',
   },
   {
     q: 'What villa communities do you cover?',
@@ -112,6 +113,29 @@ const relatedServices = [
   { label: 'Housewarming Catering', href: '/housewarming-catering-dubai' },
 ]
 
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'Service',
+  name: 'Villa Private Chef Dubai',
+  provider: {
+    '@type': 'Organization',
+    name: 'myCHEF Dubai',
+    url: 'https://mychef.ae',
+    telephone: '+971-55-174-4849',
+    areaServed: 'Dubai, UAE',
+  },
+  serviceType: 'Villa Private Chef & Catering',
+  areaServed: 'Dubai, UAE',
+  hasOfferCatalog: {
+    '@type': 'OfferCatalog',
+    name: 'Villa Chef Services',
+    itemListElement: villaServices.map((s) => ({
+      '@type': 'Offer',
+      itemOffered: { '@type': 'Service', name: s.title },
+    })),
+  },
+}
+
 const breadcrumbSchema = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
@@ -119,6 +143,19 @@ const breadcrumbSchema = {
     { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://mychef.ae/' },
     { '@type': 'ListItem', position: 2, name: 'Villas & Private Residences', item: 'https://mychef.ae/villas-private-residences' },
   ],
+}
+
+const faqPageSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqItems.map((faq) => ({
+    '@type': 'Question',
+    name: faq.q,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: faq.a,
+    },
+  })),
 }
 
 export default function Villas() {
@@ -188,22 +225,24 @@ export default function Villas() {
         description="Private chef services for Dubai villas and luxury residences. Palm Jumeirah, Emirates Hills, Arabian Ranches, and more. Bespoke dining at your villa. Request a quote."
         canonicalPath="/villas-private-residences"
         ogImage="/service-villa.webp"
-        schema={breadcrumbSchema}
+        schema={{ ...schema, ...breadcrumbSchema, ...faqPageSchema }}
       />
 
       {/* Section 1: Hero */}
       <PageHero
         eyebrow="VILLA CHEF SERVICES"
-        title="<>Villa Private Chef<br />Dubai</>"
-        subtitle="An experienced private chef in your Dubai villa. From one-night dinners to full-time residential chef services — experience exceptional dining without leaving home."
+        title="Villa Private Chef Dubai"
+        subtitle="Tell us about your villa stay or special occasion and we will match you with a vetted private chef in Dubai. From one-night dinners to full-time residential chef services — exceptional dining without leaving home. We reply within 15 minutes during business hours."
         image="/images/villa-catering-dubai-hero.webp"
         imageAlt="Villa private chef in Dubai"
-        cta={{ label: 'Request a Villa Chef', href: WHATSAPP_LINK, external: true }}
+        cta={{ label: 'Plan My Villa Dining', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=villas-private-residences' }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Villas & Private Residences' }]}
         minHeight="tall"
         overlay="dark"
       />
+
+      <TrustSignalStrip variant="dark" />
 
       {/* Section 2: Villa Chef Services */}
       <section className="bg-white section-padding">
@@ -316,10 +355,10 @@ export default function Villas() {
             <div>
               <p className="font-inter text-caption font-medium uppercase tracking-wider text-gold mb-3">WHY VILLA DINING</p>
               <h2 className="font-playfair text-h2 text-black mb-6" style={{ lineHeight: '1.15' }}>
-                The myCHEF Villa<br />Advantage
+                The myCHEF Villa Advantage
               </h2>
               <p className="font-inter text-body text-gray-500 mb-8" style={{ lineHeight: '1.7' }}>
-                Having a private chef in your villa transforms everyday dining into an extraordinary experience. No reservations, no travel, no crowds — just exceptional food, prepared exclusively for you in the comfort of your own home. Browse our <Link to="/villa-catering-ideas-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">villa catering ideas</Link> for inspiration.
+                Having a private chef in your villa transforms everyday dining into an extraordinary experience. No reservations, no travel, no crowds — just exceptional food, prepared exclusively for you in the comfort of your own home. Browse our <Link to="/villa-catering-ideas-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">villa catering ideas</Link> for inspiration, or learn more about our <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef services in Dubai</Link>.
               </p>
               <div className="villa-features-grid space-y-6">
                 {villaFeatures.map((feat) => (
@@ -452,10 +491,10 @@ export default function Villas() {
             Whether it is one evening or your entire stay — we bring exceptional dining to your Dubai villa.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-primary inline-flex items-center gap-2">
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=villas-private-residences" className="btn-primary inline-flex items-center gap-2">
               <Phone size={18} />
-              Request My Custom Quote
-            </a>
+              Plan My Villa Dining
+            </Link>
             <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-secondary">
               Chat on WhatsApp
             </a>

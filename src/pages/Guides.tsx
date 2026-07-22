@@ -199,7 +199,7 @@ export default function Guides() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Catering Guides Dubai | Prices, Checklists & Planning | myCHEF"
+        title="Catering Guides Dubai | Prices & Planning"
         description="Free Dubai catering guides: prices, wedding and corporate checklists, villa ideas, yacht catering, Ramadan planning, private chef vs catering, and more."
         canonicalPath="/guides"
         ogImage="/service-catering.webp"
@@ -348,7 +348,7 @@ export default function Guides() {
             </a>
           </div>
           <p className="font-inter text-sm text-gray-400 mt-6">
-            We typically reply within 2 hours during business hours.
+            We typically reply within 15 minutes during business hours.
           </p>
         </div>
       </section>

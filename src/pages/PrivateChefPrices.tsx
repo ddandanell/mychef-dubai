@@ -19,6 +19,7 @@ import {
 } from 'lucide-react'
 import SEO from '../components/SEO'
 import PageHero from '../components/PageHero'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -188,7 +189,7 @@ export default function PrivateChefPrices() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Private Chef Prices Dubai | Cost Per Person & Group | myCHEF"
+        title="Private Chef Prices Dubai | Per Person"
         description="Indicative private chef prices in Dubai by group size, menu style and service level. See what's included, cost factors and FAQs. Request a custom quote."
         canonicalPath="/private-chef-prices-dubai"
         ogImage="/images/private-chef-prices-dubai-hero.webp"
@@ -208,6 +209,8 @@ export default function PrivateChefPrices() {
         minHeight="tall"
         overlay="dark"
       />
+
+      <TrustSignalStrip variant="dark" />
 
       {/* ═══════════════ Price Table ═══════════════ */}
       <section className="bg-white section-padding prices-content">
@@ -446,7 +449,7 @@ export default function PrivateChefPrices() {
             </a>
           </div>
           <p className="font-inter text-sm text-gray-400 mt-6">
-            We typically reply within 2 hours during business hours.
+            We typically reply within 15 minutes during business hours.
           </p>
         </div>
       </section>

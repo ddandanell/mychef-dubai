@@ -12,6 +12,7 @@ import {
   Check,
 } from 'lucide-react'
 import SEO from '../../components/SEO'
+import TrustSignalStrip from '../../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -132,6 +133,8 @@ const articleSchema = {
   description: 'A guide to planning a luxury dinner in Dubai: menu design, tasting menus, tablescape, chef and service staff, lighting, music, ambience, and hosting tips.',
   author: { '@type': 'Organization', name: 'myCHEF Dubai' },
   publisher: { '@type': 'Organization', name: 'myCHEF Dubai', url: 'https://mychef.ae' },
+  datePublished: '2026-07-01',
+  dateModified: '2026-07-22',
 }
 
 const serviceSchema = {
@@ -139,7 +142,7 @@ const serviceSchema = {
   name: 'Luxury Dinner Planning Guide Dubai',
   serviceType: 'Catering Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'Organization',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',
@@ -219,7 +222,7 @@ export default function LuxuryDinnerPlanningGuide() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Luxury Dinner Planning Guide Dubai | Private Dining | myCHEF"
+        title="Luxury Dinner Planning Guide Dubai"
         description="Plan a luxury dinner in Dubai: tasting menus, tablescape, wine pairings, private chef, service staff, lighting, music, ambience, and hosting tips."
         canonicalPath="/luxury-dinner-planning-guide-dubai"
         ogImage="/service-luxury-dining.webp"
@@ -265,6 +268,8 @@ export default function LuxuryDinnerPlanningGuide() {
           </div>
         </div>
       </section>
+
+      <TrustSignalStrip />
 
       {/* ═══════════════ Opening ═══════════════ */}
       <section className="bg-white section-padding">

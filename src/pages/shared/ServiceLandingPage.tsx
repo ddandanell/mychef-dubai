@@ -11,6 +11,7 @@ import {
   ArrowRight,
 } from 'lucide-react'
 import SEO from '../../components/SEO'
+import TrustSignalStrip from '../../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -64,6 +65,8 @@ export interface ServicePageConfig {
   eyebrow: string
   introH2: string
   introNodes: ReactNode
+  noindex?: boolean
+  showTrustSignalStrip?: boolean
   formats: FormatItem[]
   formatsH2: string
   useCases: UseCase[]
@@ -105,7 +108,7 @@ export default function ServiceLandingPage({ config }: Props) {
     name: config.seoTitle.split(' | ')[0],
     serviceType: 'Catering Service',
     provider: {
-      '@type': 'FoodService',
+      '@type': 'Organization',
       name: 'myCHEF Dubai',
       url: 'https://mychef.ae',
       telephone: '+971-55-174-4849',
@@ -187,6 +190,7 @@ export default function ServiceLandingPage({ config }: Props) {
         description={config.metaDescription}
         canonicalPath={config.canonicalPath}
         ogImage={config.ogImage}
+        noindex={config.noindex}
         schema={schema}
       />
 
@@ -235,6 +239,8 @@ export default function ServiceLandingPage({ config }: Props) {
           </div>
         </div>
       </section>
+
+      {config.showTrustSignalStrip !== false && <TrustSignalStrip variant="dark" />}
 
       {/* Intro */}
       <section className="bg-white section-padding">

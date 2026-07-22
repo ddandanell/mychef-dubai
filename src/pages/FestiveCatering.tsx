@@ -18,6 +18,7 @@ import {
 } from 'lucide-react'
 import SEO from '../components/SEO'
 import PageHero from '../components/PageHero'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -189,7 +190,7 @@ export default function FestiveCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Festive Catering Dubai | Christmas, Ramadan, Eid, NYE | myCHEF"
+        title="Festive Catering Dubai | Ramadan, Eid, NYE"
         description="Seasonal catering in Dubai for Christmas, New Year, Ramadan, Iftar, Suhoor, Eid, Diwali and brunch. Private chefs, bespoke menus and full service."
         canonicalPath="/festive-catering-dubai"
         ogImage="/images/festive-catering-dubai-hero.webp"
@@ -209,6 +210,8 @@ export default function FestiveCatering() {
         minHeight="tall"
         overlay="dark"
       />
+
+      <TrustSignalStrip variant="dark" />
 
       {/* ═══════════════ Festive Grid ═══════════════ */}
       <section className="bg-white section-padding">
@@ -338,7 +341,7 @@ export default function FestiveCatering() {
             </a>
           </div>
           <p className="font-inter text-sm text-gray-400 mt-6">
-            We typically reply within 2 hours during business hours.
+            We typically reply within 15 minutes during business hours.
           </p>
         </div>
       </section>

@@ -16,6 +16,7 @@ import {
   ArrowRight,
 } from 'lucide-react'
 import SEO from '../components/SEO'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -125,11 +126,11 @@ const locations = [
 const faqs = [
   {
     q: 'What is the minimum group size for a business lunch?',
-    a: 'We cater business lunches from small boardroom groups of around six upward. For intimate executive lunches we lean towards plated service, while larger meetings and client gatherings often work best as a buffet. Tell us your numbers and we will recommend the right format.',
+    a: 'we coordinate catering for business lunches from small boardroom groups of around six upward. For intimate executive lunches we lean towards plated service, while larger meetings and client gatherings often work best as a buffet. Tell us your numbers and we will recommend the right format.',
   },
   {
     q: 'Can you time the lunch precisely around our meeting?',
-    a: 'Yes. We plan delivery and set-up around your agenda so food is ready exactly when you break, not before. Our team works discreetly, and for working lunches we can have everything in place so the session never has to stop.',
+    a: 'Yes. We plan delivery and set-up around your agenda so food is ready exactly when you break, not before. The chefs in our network work discreetly, and for working lunches we can have everything in place so the session never has to stop.',
   },
   {
     q: 'Do you cater recurring client or leadership lunches?',
@@ -184,7 +185,7 @@ const serviceSchema = {
   name: 'Business Lunch Catering Dubai',
   serviceType: 'Catering Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'Organization',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',
@@ -263,7 +264,7 @@ export default function BusinessLunchCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Business Lunch Catering Dubai | Boardroom & Clients"
+        title="Business Lunch Catering Dubai | Boardroom"
         description="Business lunch catering in Dubai for boardroom meetings, client hosting, and working lunches. Refined plated or buffet service, timed around your agenda. Request a quote today."
         canonicalPath="/business-lunch-catering-dubai"
         ogImage="/service-corporate.webp"
@@ -307,6 +308,8 @@ export default function BusinessLunchCatering() {
           </div>
         </div>
       </section>
+
+      <TrustSignalStrip variant="dark" />
 
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">

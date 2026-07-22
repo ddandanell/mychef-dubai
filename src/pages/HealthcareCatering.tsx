@@ -5,7 +5,8 @@ import type { ServicePageConfig } from './shared/ServiceLandingPage'
 
 const config: ServicePageConfig = {
   slug: 'healthcare-catering-dubai',
-  seoTitle: 'Hospital & Healthcare Catering Dubai | Medical Facility Meals',
+  noindex: true,
+  seoTitle: "Healthcare Dining Dubai | Facility Meals",
   metaDescription:
     'Hospital and healthcare catering in Dubai: safe, nutritious and compliant meal solutions for hospitals, clinics, care homes, medical conferences and healthcare facilities.',
   canonicalPath: '/healthcare-catering-dubai',
@@ -25,7 +26,7 @@ const config: ServicePageConfig = {
         Healthcare environments demand more than good food. Meals must be safe, temperature-controlled, nutritionally appropriate and delivered with strict hygiene standards. Our hospital and healthcare catering service is designed for Dubai medical facilities, care homes and health-focused organisations that need reliable food partners, not just occasional caterers.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        We prepare menus for patients, visitors, medical staff and corporate healthcare events. Each menu can be tailored to dietary restrictions, texture-modified requirements, religious guidelines and clinical nutrition goals. From ward meal services and staff cafeterias to medical conference lunches and wellness seminars, we deliver food that supports recovery, energy and professionalism.
+        Menus are designed for patients, visitors, medical staff and corporate healthcare events. Each menu can be tailored to dietary restrictions, texture-modified requirements, religious guidelines and clinical nutrition goals. From ward meal services and staff cafeterias to medical conference lunches and wellness seminars, we coordinate food that supports recovery, energy and professionalism.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
         This service complements our{' '}
@@ -109,7 +110,7 @@ const config: ServicePageConfig = {
   ],
   includedH2: "What's Included in Our Healthcare Catering",
   includedItems: [
-    { title: 'HACCP-Informed Preparation', description: 'Food prepared with strict hygiene, storage and transport controls suitable for healthcare settings.' },
+    { title: 'Hygiene-First Preparation', description: 'Food prepared with strict hygiene, storage and transport controls suitable for healthcare settings.' },
     { title: 'Clinical Dietary Support', description: 'Menus for diabetic, renal, cardiac, low-sodium, texture-modified and allergen-restricted diets.' },
     { title: 'Halal & Religious Compliance', description: 'All meat is halal; vegetarian, vegan and other religious requirements accommodated.' },
     { title: 'Sealed & Labelled Packaging', description: 'Individually packed meals with ingredient and allergen labelling for patient safety.' },
@@ -130,8 +131,8 @@ const config: ServicePageConfig = {
   faqsH2: 'Healthcare Catering Questions',
   faqs: [
     {
-      q: 'What healthcare facilities do you cater for?',
-      a: 'We cater for hospitals, clinics, day surgery centres, care homes, rehabilitation facilities, medical conference venues and healthcare offices across Dubai.',
+      q: 'Which healthcare facilities does myCHEF support?',
+      a: 'We support hospitals, clinics, day surgery centres, care homes, rehabilitation facilities, medical conference venues and healthcare offices across Dubai.',
     },
     {
       q: 'Can you provide texture-modified or clinical diet meals?',
@@ -143,7 +144,7 @@ const config: ServicePageConfig = {
     },
     {
       q: 'How do you maintain food safety for hospital patients?',
-      a: 'We follow HACCP-informed preparation, sealed and labelled packaging, temperature-controlled transport, and clear handover protocols to minimise risk.',
+      a: 'We follow hygiene-assured preparation, sealed and labelled packaging, temperature-controlled transport, and clear handover protocols to minimise risk.',
     },
     {
       q: 'Can you set up a recurring staff meal programme?',
@@ -177,6 +178,7 @@ const config: ServicePageConfig = {
   ctaH2: 'Plan Healthcare Catering with myCHEF Dubai',
   ctaP:
     'Tell us about your facility, patient or staff numbers, dietary needs and compliance requirements. We will build a healthcare catering plan that is safe, nutritious and reliable.',
+  showTrustSignalStrip: true,
 }
 
 export default function HealthcareCatering() {

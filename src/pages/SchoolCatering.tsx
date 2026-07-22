@@ -16,6 +16,7 @@ import {
   ArrowRight,
 } from 'lucide-react'
 import SEO from '../components/SEO'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -75,7 +76,7 @@ const useCases = [
   },
   {
     title: 'School Events & Parent Days',
-    description: 'From sports days and open mornings to parent evenings and graduation ceremonies, we cater the full range of school occasions with refreshments, buffets, and styled catering that suits the audience and the moment.',
+    description: 'From sports days and open mornings to parent evenings and graduation ceremonies, we cover the full range of school occasions with refreshments, buffets, and styled catering that suits the audience and the moment.',
   },
   {
     title: 'Staff & Faculty Catering',
@@ -136,8 +137,8 @@ const faqs = [
     a: 'Yes. Our school menus are fully halal as standard, with vegetarian and other dietary options available so every student has a suitable, satisfying meal each day.',
   },
   {
-    q: 'Can you cater school events as well as daily lunches?',
-    a: 'Absolutely. Alongside daily lunch programmes, we cater sports days, parent evenings, open mornings, graduations, and staff functions, with refreshments and buffets tailored to the occasion.',
+    q: 'Can you coordinate school events as well as daily lunches?',
+    a: 'Absolutely. Alongside daily lunch programmes, we coordinate sports days, parent evenings, open mornings, graduations, and staff functions, with refreshments and buffets tailored to the occasion.',
   },
   {
     q: 'Can the programme flex with the school calendar?',
@@ -159,7 +160,7 @@ const relatedServices = [
   {
     title: 'University & Student Catering',
     description: 'Fresh, inclusive catering for campus events, societies and graduation celebrations in Dubai.',
-    image: '/images/school-catering-dubai-hero.webp',
+    image: '/service-corporate.webp',
     link: '/university-catering-dubai',
   },
   {
@@ -196,7 +197,7 @@ const serviceSchema = {
   name: 'School Catering Dubai',
   serviceType: 'Catering Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'Organization',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',
@@ -275,10 +276,11 @@ export default function SchoolCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="School Catering Dubai | Nutritious Student Meals"
+        title="School Catering Dubai | Student Meals"
         description="School catering in Dubai with nutritious, balanced student lunches, halal menus, allergen-aware service, and daily programmes. Request your custom quote today."
         canonicalPath="/school-catering-dubai"
         ogImage="/service-catering.webp"
+        noindex
         schema={schema}
       />
 
@@ -319,6 +321,8 @@ export default function SchoolCatering() {
           </div>
         </div>
       </section>
+
+      <TrustSignalStrip variant="dark" />
 
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">

@@ -16,6 +16,7 @@ import {
   ArrowRight,
 } from 'lucide-react'
 import SEO from '../components/SEO'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -41,7 +42,7 @@ const buffetFormats = [
   {
     icon: Soup,
     title: 'Live Action Stations',
-    description: 'Pasta, risotto, carving, and grill stations manned by our chefs, adding theatre and freshness to the buffet experience.',
+    description: 'Pasta, risotto, carving, and grill stations manned by the chefs in our network, adding theatre and freshness to the buffet experience.',
     link: '/party-catering-dubai',
   },
   {
@@ -66,7 +67,7 @@ const buffetFormats = [
 
 const includedItems = [
   { title: 'Hot & Cold Stations', description: 'Balanced buffet menus spanning warm mains, fresh salads, and sides.' },
-  { title: 'Live Action Counters', description: 'Chef-manned pasta, carving, and grill stations for freshness and theatre.' },
+  { title: 'Live Action Counters', description: 'partner-chef-led pasta, carving, and grill stations for freshness and theatre.' },
   { title: 'International Menus', description: 'Arabic, Mediterranean, Asian, and Continental options, or a tailored blend.' },
   { title: 'Elegant Display Styling', description: 'Tiered presentation, chafing dishes, linens, and signage for each dish.' },
   { title: 'Professional Service Staff', description: 'Servers, station chefs, and hosts scaled to your guest count.' },
@@ -133,7 +134,7 @@ const faqs = [
   },
   {
     q: 'Do you provide live cooking stations with the buffet?',
-    a: 'Yes. We can add chef-manned pasta, carving, grill, and other live stations to your buffet. They bring freshness and a sense of theatre, and are popular for weddings and corporate events.',
+    a: 'Yes. We can add partner-chef-led pasta, carving, grill, and other live stations to your buffet. They bring freshness and a sense of theatre, and are popular for weddings and corporate events.',
   },
   {
     q: 'Can you cater corporate buffet lunches?',
@@ -152,13 +153,13 @@ const faqs = [
 const relatedServices = [
   {
     title: 'Catering Dubai',
-    description: 'Full-service luxury catering for events of every size across Dubai.',
+    description: 'fully-coordinated catering for events of every size across Dubai.',
     image: '/service-catering.webp',
     link: '/catering-dubai',
   },
   {
     title: 'BBQ Catering',
-    description: 'Chef-manned grills, premium meats, and seafood for villa and yacht events.',
+    description: 'partner-chef-led grills, premium meats, and seafood for villa and yacht events.',
     image: '/service-events.webp',
     link: '/bbq-catering-dubai',
   },
@@ -184,7 +185,7 @@ const serviceSchema = {
   name: 'Buffet Catering Dubai',
   serviceType: 'Catering Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'Organization',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',
@@ -308,6 +309,8 @@ export default function BuffetCatering() {
         </div>
       </section>
 
+      <TrustSignalStrip />
+
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
@@ -367,7 +370,7 @@ export default function BuffetCatering() {
         <div className="container-custom">
           <div className="text-center mb-12">
             <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WHERE WE CATER
+              WHERE WE SERVE
             </span>
             <h2 className="font-playfair text-h2 text-white">
               Buffets for Every Occasion

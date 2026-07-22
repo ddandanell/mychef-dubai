@@ -5,7 +5,7 @@ import type { OccasionPageConfig } from './occasion/OccasionCateringPage'
 
 const config: OccasionPageConfig = {
   slug: 'pool-party-catering-dubai',
-  seoTitle: 'Pool Party Catering Dubai | Fresh, Light Villa Party Food',
+  seoTitle: "Pool Party Catering Dubai | Villa Food",
   metaDescription:
     'Pool party catering in Dubai for villas and beach clubs. Fresh, light menus, hydration stations, BBQ and sweet treats — full setup and service.',
   canonicalPath: '/pool-party-catering-dubai',
@@ -66,7 +66,7 @@ const config: OccasionPageConfig = {
     {
       Icon: Home,
       title: 'Villa Pool Parties',
-      description: 'Full-service catering at your villa across Dubai, with waterproof-style setup, service and pack-down.',
+      description: 'fully-coordinated catering at your villa across Dubai, with waterproof-style setup, service and pack-down.',
       link: '/villa-catering-dubai',
     },
     {
@@ -136,7 +136,7 @@ const config: OccasionPageConfig = {
     },
     {
       q: 'Can you cater at a villa I have rented?',
-      a: 'Absolutely. We cater at private villas across Palm Jumeirah, Emirates Hills, Dubai Hills and beyond. We work around your pool, garden and kitchen setup.',
+      a: 'Absolutely. We coordinate catering at private villas across Palm Jumeirah, Emirates Hills, Dubai Hills and beyond. We work around your pool, garden and kitchen setup.',
     },
     {
       q: 'Do you handle setup and cleanup poolside?',
@@ -170,6 +170,7 @@ const config: OccasionPageConfig = {
   ctaH2: 'Plan the Perfect Pool Party Menu',
   ctaP:
     'Tell us about your pool, guest list and timing. We will design a fresh, light menu that keeps everyone cool, fed and in the party mood.',
+  showTrustSignalStrip: true,
 }
 
 export default function PoolPartyCatering() {

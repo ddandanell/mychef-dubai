@@ -20,6 +20,7 @@ import {
   Download,
 } from 'lucide-react'
 import SEO from '../../components/SEO'
+import TrustSignalStrip from '../../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -203,7 +204,7 @@ const worksheetItems = [
 ]
 
 const internalLinks = [
-  { title: 'Wedding Catering Dubai', link: '/wedding-catering-dubai', description: 'Bespoke menus and full-service wedding catering across Dubai.' },
+  { title: 'Wedding Catering Dubai', link: '/wedding-catering-dubai', description: 'Bespoke menus and fully-coordinated catering across Dubai.' },
   { title: 'Buffet Catering Dubai', link: '/buffet-catering-dubai', description: 'Flexible buffet stations for celebrations of any size.' },
   { title: 'Canapé Catering Dubai', link: '/canape-catering-dubai', description: 'Elegant bite-sized reception food and cocktail catering.' },
   { title: 'Private Chef Dubai', link: '/private-chef-dubai', description: 'Intimate chef-led dining for rehearsal dinners and small gatherings.' },
@@ -261,6 +262,8 @@ const articleSchema = {
   description: 'Plan a Dubai wedding catering menu: service styles, cuisines, dietary considerations, sample menus, and how to work with your caterer.',
   author: { '@type': 'Organization', name: 'myCHEF Dubai' },
   publisher: { '@type': 'Organization', name: 'myCHEF Dubai', url: 'https://mychef.ae' },
+  datePublished: '2026-07-01',
+  dateModified: '2026-07-22',
 }
 
 const serviceSchema = {
@@ -268,7 +271,7 @@ const serviceSchema = {
   name: 'Wedding Catering Menu Planning Guide',
   serviceType: 'Wedding Catering Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'Organization',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',
@@ -363,7 +366,7 @@ export default function WeddingMenuPlanningGuide() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Wedding Catering Menu Planning Guide Dubai | myCHEF"
+        title="Wedding Catering Menu Planning Guide Dubai"
         description="Plan a Dubai wedding catering menu: service styles, cuisines, dietary needs, sample menus, and how to work with your caterer. WhatsApp +971 55 174 4849."
         canonicalPath="/wedding-catering-menu-planning-dubai"
         ogImage="/images/wedding-menu-planning-guide-hero.webp"
@@ -409,6 +412,8 @@ export default function WeddingMenuPlanningGuide() {
           </div>
         </div>
       </section>
+
+      <TrustSignalStrip />
 
       {/* ═══════════════ Opening ═══════════════ */}
       <section className="bg-white section-padding">

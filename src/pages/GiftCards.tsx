@@ -15,6 +15,7 @@ import {
   ArrowRight,
 } from 'lucide-react'
 import SEO from '../components/SEO'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -46,7 +47,7 @@ const giftOptions = [
   {
     icon: ChefHat,
     title: 'Couples Cooking Class',
-    description: 'A hands-on cooking class gift voucher where a myCHEF chef guides you through a bespoke menu in your own kitchen.',
+    description: 'A hands-on cooking class gift voucher where a chef in our network guides you through a bespoke menu in your own kitchen.',
     link: '/private-cooking-classes-dubai',
   },
   {
@@ -116,7 +117,7 @@ const howItWorks = [
   {
     num: '05',
     title: 'Chef Designs & Delivers',
-    description: 'Our chef plans, prepares, and serves the experience — leaving only memories behind.',
+    description: 'A chef in our network plans, prepares, and serves the experience — leaving only memories behind.',
   },
 ]
 
@@ -128,7 +129,7 @@ const includedItems = [
   { title: 'Bespoke Menu Design', description: 'Every experience is built around the recipient’s preferences.' },
   { title: 'Premium Ingredient Sourcing', description: 'Fresh, high-quality produce and specialty items selected by the chef.' },
   { title: 'Private Chef & Service Staff', description: 'Professional chef and service team included in the experience.' },
-  { title: 'Full Setup & Clear-Down', description: 'We handle everything from arrival to departure, leaving the space spotless.' },
+  { title: 'Full Setup & Clear-Down', description: 'we design and manage the experience from arrival to departure, leaving the space spotless.' },
 ]
 
 const galleryImages = [
@@ -174,7 +175,7 @@ const faqs = [
   },
   {
     q: 'Can the recipient choose their own menu or date?',
-    a: 'Yes. The recipient contacts us to book their preferred date and works with our chef to design their bespoke menu.',
+    a: 'Yes. The recipient contacts us to book their preferred date and works with the chefs in our network to design their bespoke menu.',
   },
   {
     q: 'Can I customize the gift card amount?',
@@ -208,7 +209,7 @@ const serviceSchema = {
   name: 'Private Chef & Dining Experience Gift Cards Dubai',
   serviceType: 'Gift Voucher Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'Organization',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',
@@ -353,6 +354,8 @@ export default function GiftCards() {
           </div>
         </div>
       </section>
+
+      <TrustSignalStrip />
 
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">

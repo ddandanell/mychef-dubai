@@ -6,20 +6,21 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { useGSAP } from '@gsap/react'
 import SEO from '@/components/SEO'
 import PageHero from '@/components/PageHero'
+import TrustSignalStrip from '@/components/TrustSignalStrip'
 import LocationStrip from '@/components/LocationStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
 const WHATSAPP_NUMBER = '971551744849'
-const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to request a quote (via mychef.ae/yachts)')
+const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to plan a yacht dinner — please send me a tailored quote (via mychef.ae/yachts)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 const yachtServices = [
   { icon: Utensils, title: 'Yacht Private Chef', desc: 'A dedicated chef on board for your voyage. Multi-course dining prepared fresh in the yacht galley with the Dubai skyline as your backdrop.', link: '/private-chef-dubai' },
   { icon: GlassWater, title: 'Cocktail Party', desc: 'Sophisticated passed canapes and appetizers for yacht cocktail receptions and sunset cruises. Elegant, effortless entertaining.', link: '/cocktail-party-catering-dubai' },
-  { icon: Flame, title: 'BBQ on Deck', desc: 'Premium BBQ dining on deck. Chef-manned grilling station with premium cuts, fresh seafood, and Mediterranean-inspired sides.', link: '/bbq-catering-dubai' },
+  { icon: Flame, title: 'BBQ on Deck', desc: 'Premium BBQ dining on deck. Partner-chef-led grilling station with premium cuts, fresh seafood, and Mediterranean-inspired sides.', link: '/bbq-catering-dubai' },
   { icon: UtensilsCrossed, title: 'Formal Yacht Dinner', desc: 'Multi-course plated dinner service on your yacht. White-glove service, stunning presentation, and an unforgettable atmosphere.', link: '/luxury-dining-experiences' },
-  { icon: Ship, title: 'Yacht Event Catering', desc: 'Full-service catering for yacht parties and events. Canapes, buffet, plated options — we scale to your guest count.', link: '/events' },
+  { icon: Ship, title: 'Yacht Event Catering', desc: 'fully-coordinated catering for yacht parties and events. Canapes, buffet, plated options — we scale to your guest count.', link: '/events' },
   { icon: Sunrise, title: 'Sunrise & Sunset Brunch', desc: 'Elegant brunch service for morning or evening yacht cruises. Fresh, light, and beautifully presented for any time of day.', link: '/brunch-catering-dubai' },
 ]
 
@@ -39,7 +40,7 @@ const yachtFeatures = [
   { title: 'Maritime-Experienced Chefs', desc: 'Our yacht chefs are specifically trained for cooking at sea — they understand galley constraints and plan accordingly.' },
   { title: 'Compact Kitchen Expertise', desc: 'We bring portable equipment and techniques optimized for small yacht galleys. No dish is beyond our reach.' },
   { title: 'Weather-Adaptive Menus', desc: 'Hot day? Cool, refreshing dishes. Evening breeze? Warm, comforting courses. We adapt to conditions.' },
-  { title: 'Dock-to-Deck Service', desc: 'We handle everything from provisioning at the marina to plating on deck. Seamless, start to finish.' },
+  { title: 'Dock-to-Deck Service', desc: 'we design and manage the experience from provisioning at the marina to plating on deck. Seamless, start to finish.' },
 ]
 
 const galleryImages = [
@@ -58,7 +59,7 @@ const faqItems = [
   },
   {
     q: 'What yacht sizes do you cater?',
-    a: 'From intimate 40-foot yachts to 200+ foot superyachts. We scale our team and service to match your vessel. Whether it is a romantic dinner for two or a celebration for fifty, we deliver the same exceptional standard.',
+    a: 'From intimate 40-foot yachts to 200+ foot superyachts. We scale the chefs in our network and service to match your vessel. Whether it is a romantic dinner for two or a celebration for fifty, we deliver the same exceptional standard.',
   },
   {
     q: 'Do you provide service staff for yachts?',
@@ -89,6 +90,38 @@ const breadcrumbSchema = {
     { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://mychef.ae/' },
     { '@type': 'ListItem', position: 2, name: 'Yachts', item: 'https://mychef.ae/yachts' },
   ],
+}
+
+const serviceSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Service',
+  name: 'Yacht Catering Dubai',
+  description: 'Premium yacht catering and private chef services in Dubai. Dining on your yacht with Dubai Marina and Palm Jumeirah as your backdrop.',
+  provider: {
+    '@type': 'Organization',
+    name: 'myCHEF Dubai',
+    url: 'https://mychef.ae',
+    telephone: '+971 55 174 4849',
+  },
+  areaServed: {
+    '@type': 'Place',
+    name: 'Dubai, UAE',
+  },
+  serviceType: 'Yacht Catering',
+  url: 'https://mychef.ae/yachts',
+}
+
+const faqPageSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqItems.map((item) => ({
+    '@type': 'Question',
+    name: item.q,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: item.a,
+    },
+  })),
 }
 
 export default function Yachts() {
@@ -156,22 +189,27 @@ export default function Yachts() {
         description="Premium yacht catering and private chef services in Dubai. Dining on your yacht with Dubai Marina and Palm Jumeirah as your backdrop. Request a bespoke quote."
         canonicalPath="/yachts"
         ogImage="/service-yacht.webp"
-        schema={breadcrumbSchema}
+        schema={{
+          '@context': 'https://schema.org',
+          '@graph': [serviceSchema, breadcrumbSchema, faqPageSchema],
+        }}
       />
 
       {/* Section 1: Hero */}
       <PageHero
         eyebrow="YACHT CATERING"
-        title="<>Yacht Catering<br />Dubai</>"
-        subtitle="Exceptional dining on the water. A private chef experience with Dubai's iconic skyline as your setting."
+        title="Yacht Catering Dubai"
+        subtitle="Tell us about your yacht event and we will match you with a vetted chef. Exceptional dining on the water with Dubai's iconic skyline as your setting — we reply within 15 minutes during business hours."
         image="/images/yacht-catering-dubai-hero.webp"
         imageAlt="Yacht catering in Dubai"
-        cta={{ label: 'Request Yacht Catering', href: WHATSAPP_LINK, external: true }}
+        cta={{ label: 'Plan My Yacht Dinner', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=yachts' }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Yachts' }]}
         minHeight="tall"
         overlay="dark"
       />
+
+      <TrustSignalStrip variant="dark" />
 
       {/* Section 2: Yacht Services */}
       <section className="bg-white section-padding">
@@ -215,8 +253,8 @@ export default function Yachts() {
                 Why Yacht Dining Is Special
               </h3>
               <div className="space-y-4 font-inter text-body text-gray-400" style={{ lineHeight: '1.7' }}>
-                <p>There is nothing quite like dining on the water with Dubai&apos;s iconic skyline as your backdrop. Whether you are anchored off Palm Jumeirah, cruising past Burj Al Arab, or watching the sunset over Dubai Marina — a private chef elevates the experience to something truly extraordinary.</p>
-                <p>Our yacht chef services are designed around the unique challenges and opportunities of cooking at sea. We plan menus that work beautifully in a yacht galley, source ingredients that travel well, and present each course with the same precision you would expect in a fine dining restaurant. For inspiration, explore our <Link to="/blog/yacht-party-menu-ideas-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">yacht party menu ideas</Link>.</p>
+                <p>There is nothing quite like dining on the water with Dubai&apos;s iconic skyline as your backdrop. Whether you are anchored off Palm Jumeirah, cruising past Burj Al Arab, or watching the sunset over Dubai Marina — a <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef</Link> elevates the experience to something truly extraordinary.</p>
+                <p>Our yacht chef services are designed around the unique challenges and opportunities of cooking at sea. We plan menus that work beautifully in a yacht galley, source ingredients that travel well, and present each course with the same precision you would expect in a fine dining restaurant. For inspiration, explore our <Link to="/blog/yacht-party-menu-ideas-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">yacht party menu ideas</Link> or browse <Link to="/luxury-dining-experiences" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury dining experiences</Link> for your next celebration.</p>
               </div>
             </div>
             <div className="yacht-exp-right">
@@ -254,7 +292,7 @@ export default function Yachts() {
         <div className="max-w-[1000px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="font-playfair text-h2 text-black" style={{ lineHeight: '1.15' }}>
-              We Cater Yachts Across Dubai
+              we coordinate catering for Yachts Across Dubai
             </h2>
             <p className="font-inter text-body text-gray-500 mt-4 max-w-xl mx-auto">
               From Dubai Marina to the World Islands — our yacht chefs serve every waterway in the city.
@@ -348,16 +386,20 @@ export default function Yachts() {
         </div>
       </section>
 
-      {/* Section 7: Testimonial */}
+      {/* Section 7: Yacht Trust CTA */}
       <section className="bg-charcoal py-20">
         <div className="yacht-testimonial max-w-[800px] mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="text-gold text-4xl font-playfair mb-6">&ldquo;</div>
-          <blockquote className="font-playfair text-h3 text-white mb-6" style={{ lineHeight: '1.3' }}>
-            We chartered a yacht for our anniversary and had myCHEF provide the dining. Watching the sunset over the Burj Al Arab while enjoying a 7-course meal — it was the most romantic evening of our lives. The chef was incredible.
-          </blockquote>
-          <cite className="font-inter text-body-sm text-gray-400 not-italic">
-            — Aisha &amp; Omar K., Dubai Marina
-          </cite>
+          <h2 className="font-playfair text-h3 text-white mb-6" style={{ lineHeight: '1.3' }}>
+            Make your next yacht charter unforgettable with a private chef on board.
+          </h2>
+          <p className="font-inter text-body text-gray-400 mb-6">
+            We are collecting verified reviews from yacht charter guests. Share your experience and receive AED 50 credit towards your next booking.
+          </p>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <Link to="/review" className="btn-primary">Leave a Review</Link>
+            <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-secondary">Chat on WhatsApp</a>
+          </div>
         </div>
       </section>
 
@@ -442,10 +484,10 @@ export default function Yachts() {
             Your private yacht chef experience awaits. Contact us to plan your on-board culinary journey.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-primary inline-flex items-center gap-2">
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=yachts" className="btn-primary inline-flex items-center gap-2">
               <Phone size={18} />
-              Request My Custom Quote
-            </a>
+              Plan My Yacht Dinner
+            </Link>
             <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-secondary">
               Chat on WhatsApp
             </a>

@@ -16,6 +16,7 @@ import {
   ArrowRight,
 } from 'lucide-react'
 import SEO from '../components/SEO'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -125,11 +126,11 @@ const locations = [
 const faqs = [
   {
     q: 'What types of corporate events do you cater?',
-    a: 'We cater the full range of corporate events — product launches, galas and award dinners, networking receptions, conferences, client hospitality, and seasonal celebrations. Whatever the format and scale, we design the menu and service style around your brand, venue, and guest profile.',
+    a: 'we coordinate catering for the full range of corporate events — product launches, galas and award dinners, networking receptions, conferences, client hospitality, and seasonal celebrations. Whatever the format and scale, we design the menu and service style around your brand, venue, and guest profile.',
   },
   {
     q: 'How many guests can you cater for?',
-    a: 'We cater intimate executive gatherings as well as large-scale corporate events with hundreds of guests. For bigger events, the difference is in coordination — we scale staff, stations, and timing so the experience stays polished no matter the headcount.',
+    a: 'we coordinate catering intimate executive gatherings as well as large-scale corporate events with hundreds of guests. For bigger events, the difference is in coordination — we scale staff, stations, and timing so the experience stays polished no matter the headcount.',
   },
   {
     q: 'Can you provide service staff and on-site coordination?',
@@ -186,24 +187,6 @@ const relatedServices = [
     image: '/images/arabic-catering-dubai-hero.webp',
     link: '/shawarma-station-dubai',
   },
-  {
-    title: 'Government Event Catering',
-    description: 'Protocol-aware catering for official functions, ceremonies and public-sector events.',
-    image: '/images/corporate-catering-dubai-hero.webp',
-    link: '/government-event-catering-dubai',
-  },
-  {
-    title: 'University & Student Catering',
-    description: 'Campus event catering for universities, colleges and student societies across Dubai.',
-    image: '/images/school-catering-dubai-hero.webp',
-    link: '/university-catering-dubai',
-  },
-  {
-    title: 'Hospital & Healthcare Catering',
-    description: 'Compliant, nutritionally balanced catering for hospitals, clinics and healthcare conferences.',
-    image: '/images/corporate-catering-dubai-hero.webp',
-    link: '/healthcare-catering-dubai',
-  },
 ]
 
 const faqSchema = {
@@ -220,7 +203,7 @@ const serviceSchema = {
   name: 'Corporate Event Catering Dubai',
   serviceType: 'Catering Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'Organization',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',
@@ -299,8 +282,8 @@ export default function CorporateEventCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Corporate Event Catering Dubai | Launches & Galas"
-        description="Corporate event catering in Dubai for product launches, galas, networking receptions, and conferences. Styled menus, professional service, full coordination. Request a quote."
+        title="Corporate Event Dining Dubai | Galas"
+        description="Chef-coordinated corporate events in Dubai for product launches, galas, networking receptions, and conferences. myCHEF designs menus and manages service — request a quote."
         canonicalPath="/corporate-event-catering-dubai"
         ogImage="/service-corporate.webp"
         schema={schema}
@@ -343,6 +326,8 @@ export default function CorporateEventCatering() {
           </div>
         </div>
       </section>
+
+      <TrustSignalStrip variant="dark" />
 
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">

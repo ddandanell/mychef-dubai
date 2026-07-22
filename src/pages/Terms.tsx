@@ -6,6 +6,8 @@ import { useGSAP } from '@gsap/react'
 import SEO from '@/components/SEO'
 import PageHero from '@/components/PageHero'
 
+// PENDING LEGAL REVIEW — do not publish until lawyer approves
+
 gsap.registerPlugin(ScrollTrigger)
 
 const WHATSAPP_NUMBER = '971551744849'
@@ -25,7 +27,13 @@ const sections = [
   {
     title: 'Acceptance of Terms',
     content: (
-      <p>By booking our services, you agree to be bound by these terms of service. If you do not agree to these terms, please do not use our services. These terms apply to all private chef services, catering, and related hospitality services provided by myCHEF Dubai.</p>
+      <p>By booking the Services, you agree to be bound by these terms of service. If you do not agree to these terms, please do not use the Services. These terms apply to the private-dining and event-experience design, coordination, and chef-matching services provided by myCHEF Dubai, and to the culinary services performed by the independent licensed chefs and catering professionals you engage through us.</p>
+    ),
+  },
+  {
+    title: 'The Services',
+    content: (
+      <p>myCHEF Dubai designs and manages private dining and event experiences and connects clients with independent, licensed chefs and catering professionals. Culinary preparation, food service, and on-site hospitality are performed by those licensed third parties, whom the client engages; myCHEF is not a food establishment and does not employ the chefs.</p>
     ),
   },
   {
@@ -53,7 +61,7 @@ const sections = [
     title: 'Payment Terms',
     content: (
       <>
-        <p className="mb-4">Payment for our services is structured as follows:</p>
+        <p className="mb-4">Payment for the Services is structured as follows:</p>
         <ul className="space-y-2">
           {[
             'A deposit is required to confirm your booking',
@@ -113,16 +121,16 @@ const sections = [
     ),
   },
   {
-    title: 'Service Delivery',
+    title: 'Experience Delivery',
     content: (
       <>
-        <p className="mb-4">Our service delivery standards include:</p>
+        <p className="mb-4">Our delivery standards include:</p>
         <ul className="space-y-2">
           {[
-            'We arrive at the agreed time and location',
+            'We coordinate arrival at the agreed time and location with your chef and service team',
             'The client must provide access to kitchen facilities and basic utilities',
-            'We reserve the right to adjust menus based on ingredient availability',
-            'Setup, service, and cleanup are included as part of our service',
+            'Menus may be adjusted based on ingredient availability in consultation with your chef',
+            'Setup, service, and cleanup are coordinated as part of the experience',
           ].map((item) => (
             <li key={item} className="flex items-start gap-3">
               <span className="w-1.5 h-1.5 rounded-full bg-gold flex-shrink-0 mt-2" />
@@ -137,12 +145,12 @@ const sections = [
     title: 'Dietary Requirements',
     content: (
       <>
-        <p className="mb-4">We take dietary requirements seriously:</p>
+        <p className="mb-4">Dietary requirements are coordinated directly with your chef:</p>
         <ul className="space-y-2">
           {[
             'All dietary requirements must be communicated at the time of booking',
-            'We handle allergies with strict protocols to prevent cross-contamination',
-            'While we take every precaution, we cannot guarantee completely allergen-free environments',
+            'Your chef handles allergies with strict protocols to prevent cross-contamination',
+            'While every precaution is taken, we cannot guarantee completely allergen-free environments',
             'Last-minute dietary requests may have limited accommodation options',
           ].map((item) => (
             <li key={item} className="flex items-start gap-3">
@@ -158,10 +166,10 @@ const sections = [
     title: 'Liability',
     content: (
       <>
-        <p className="mb-4">Our liability is governed by the following terms:</p>
+        <p className="mb-4">Liability is governed by the following terms:</p>
         <ul className="space-y-2">
           {[
-            'We are fully insured for public liability',
+            'myCHEF Dubai maintains public liability insurance for its coordination services',
             'We are not liable for issues arising from undisclosed allergies or dietary restrictions',
             'We are not responsible for damage to existing kitchen equipment due to pre-existing conditions',
             'Our total liability shall not exceed the total value of the booking',
@@ -204,7 +212,7 @@ const sections = [
   {
     title: 'Contact',
     content: (
-      <p>For questions about these terms, please contact us at <a href="mailto:hallo@mychef.ae" className="text-gold hover:underline">hallo@mychef.ae</a> or via WhatsApp.</p>
+      <p>For questions about these terms, please contact us at <a href="mailto:hello@mychef.ae" className="text-gold hover:underline">hello@mychef.ae</a> or via WhatsApp.</p>
     ),
   },
 ]
@@ -226,7 +234,7 @@ export default function Terms() {
     <div ref={containerRef}>
       <SEO
         title="Terms of Service"
-        description="myCHEF Dubai terms of service. Booking conditions, cancellation policy, and service terms."
+        description="myCHEF Dubai terms of service for private dining experience design, chef matching, and event coordination."
         canonicalPath="/terms"
         ogImage="/images/catering-dubai-hero.webp"
         schema={breadcrumbSchema}
@@ -257,7 +265,7 @@ export default function Terms() {
           {/* CTA */}
           <div className="mt-16 pt-10 border-t border-gray-200 text-center">
             <p className="font-inter text-body text-gray-500 mb-6">
-              Have questions about our terms? We are happy to clarify.
+              Have questions about these terms? We are happy to clarify.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-primary">Chat on WhatsApp</a>

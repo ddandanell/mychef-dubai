@@ -5,7 +5,7 @@ import type { ServicePageConfig } from './shared/ServiceLandingPage'
 
 const config: ServicePageConfig = {
   slug: 'picnic-catering-dubai',
-  seoTitle: 'Picnic Catering Dubai | Styled Outdoor Baskets & Grazing Boxes',
+  seoTitle: "Picnic Dining Dubai | Outdoor Baskets",
   metaDescription:
     'Picnic catering in Dubai: beautifully styled outdoor baskets, grazing boxes, fresh sandwiches and salads delivered to parks, beaches, deserts and villas.',
   canonicalPath: '/picnic-catering-dubai',
@@ -25,7 +25,7 @@ const config: ServicePageConfig = {
         Dubai’s outdoors are made for picnics — sunny beaches, landscaped parks, desert dunes and villa gardens all call for relaxed, shareable food served without the hassle. Our picnic catering in Dubai provides beautifully prepared baskets and boxes filled with fresh sandwiches, salads, charcuterie, pastries, fruits and treats, ready to enjoy wherever you choose to lay your blanket.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        We handle the food, presentation and delivery so you can focus on the moment. Choose from individual picnic boxes for corporate outings, generous grazing baskets for friends, or fully styled setups with rugs, low tables and tableware for special celebrations. Every menu can be tailored for dietary preferences, group size and location.
+        we design and manage the experience, presentation and delivery so you can focus on the moment. Choose from individual picnic boxes for corporate outings, generous grazing baskets for friends, or fully styled setups with rugs, low tables and tableware for special celebrations. Every menu can be tailored for dietary preferences, group size and location.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
         Picnic catering pairs naturally with our{' '}
@@ -177,6 +177,7 @@ const config: ServicePageConfig = {
   ctaH2: 'Plan Your Perfect Dubai Picnic',
   ctaP:
     'Tell us where you are heading, how many guests you have and any dietary preferences. We will prepare a picnic catering basket that makes the day effortless and delicious.',
+  showTrustSignalStrip: true,
 }
 
 export default function PicnicCatering() {

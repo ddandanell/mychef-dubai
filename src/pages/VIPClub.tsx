@@ -13,6 +13,7 @@ import {
   Check,
 } from 'lucide-react'
 import SEO from '../components/SEO'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -168,7 +169,7 @@ const serviceSchema = {
   name: 'myCHEF VIP Club Dubai',
   serviceType: 'Membership',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'Organization',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',
@@ -247,7 +248,7 @@ export default function VIPClub() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="VIP Club Dubai | Private Chef Membership | myCHEF"
+        title="VIP Club Dubai | Private Chef Membership"
         description="Join the myCHEF VIP Club for priority private chef bookings, exclusive menus, member rates, and concierge dining across Dubai."
         canonicalPath="/vip-club"
         ogImage="/images/vip-club-hero.webp"
@@ -291,6 +292,8 @@ export default function VIPClub() {
           </div>
         </div>
       </section>
+
+      <TrustSignalStrip />
 
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">

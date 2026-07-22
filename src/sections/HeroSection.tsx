@@ -2,6 +2,10 @@ import { useEffect, useRef } from 'react'
 import { Link } from 'react-router'
 import gsap from 'gsap'
 
+const WHATSAPP_NUMBER = '971551744849'
+const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to plan an event (via mychef.ae/)')
+const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
+
 const prefersReducedMotion = () =>
   typeof window !== 'undefined' && window.matchMedia('(prefers-reduced-motion: reduce)').matches
 
@@ -136,10 +140,9 @@ export default function HeroSection() {
         {/* Headline */}
         <h1
           ref={headlineRef}
-          className="font-playfair text-fluid-display font-semibold leading-tight opacity-0"
+          className="font-playfair text-fluid-display font-semibold leading-tight text-white opacity-0"
         >
-          <span className="text-white block">Exceptional Dining,</span>
-          <span className="text-gold font-normal block mt-1">Crafted for You</span>
+          Private Chef & Luxury Catering in Dubai
         </h1>
 
         {/* Subtext */}
@@ -147,18 +150,27 @@ export default function HeroSection() {
           ref={subtextRef}
           className="mt-5 md:mt-6 font-inter text-base md:text-body-lg font-light text-white/90 max-w-xl leading-relaxed opacity-0"
         >
-          Premium private chef services and luxury catering across Dubai. From intimate villa dinners to grand yacht events — every experience is tailored to your taste.
+          Tell us about your event and we will match you with a vetted, licensed chef. We reply within 15 minutes during business hours. We design the menu, coordinate every detail, and keep you a guest at your own table.
         </p>
 
         {/* CTA Row */}
         <div ref={ctaRef} className="mt-8 md:mt-10 flex flex-col sm:flex-row gap-4">
           <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=home" className="btn-primary text-center">
-            Request a Proposal
+            Get a Tailored Quote
           </Link>
-          <a href="#services" className="btn-secondary text-center">
-            Browse Our Services
+          <a
+            href={WHATSAPP_LINK}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-secondary text-center"
+          >
+            Chat on WhatsApp
           </a>
         </div>
+        <p className="mt-4 font-inter text-body-sm text-white/70 flex items-center gap-2">
+          <span className="inline-block w-1.5 h-1.5 rounded-full bg-gold" aria-hidden="true" />
+          Typical reply within 15 min · No obligation
+        </p>
 
         {/* Stats Row */}
         <div
@@ -179,7 +191,7 @@ export default function HeroSection() {
                 <span className="text-gold">Chef-Led</span>
               </div>
               <div className="font-inter text-caption md:text-body-sm text-gray-400 uppercase tracking-wider mt-1">
-                Hospitality Team
+                Dining Experiences
               </div>
             </div>
             <div className="text-center md:text-left">

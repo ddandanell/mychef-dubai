@@ -14,6 +14,10 @@ const PrivateChef = lazy(() => import('./pages/PrivateChef'))
 const PrivateChefPrices = lazy(() => import('./pages/PrivateChefPrices'))
 const Catering = lazy(() => import('./pages/Catering'))
 const CateringPackages = lazy(() => import('./pages/CateringPackages'))
+const DateNightPackage = lazy(() => import('./pages/DateNightPackage'))
+const FamilyFeastPackage = lazy(() => import('./pages/FamilyFeastPackage'))
+const BirthdayPackage = lazy(() => import('./pages/BirthdayPackage'))
+const CorporateDinnerPackage = lazy(() => import('./pages/CorporateDinnerPackage'))
 const LuxuryDining = lazy(() => import('./pages/LuxuryDining'))
 const Events = lazy(() => import('./pages/Events'))
 const Corporate = lazy(() => import('./pages/Corporate'))
@@ -155,11 +159,36 @@ const VIPClub = lazy(() => import('./pages/VIPClub'))
 const GiftCards = lazy(() => import('./pages/GiftCards'))
 const CaseStudies = lazy(() => import('./pages/CaseStudies'))
 const WeeklyMealPrep = lazy(() => import('./pages/WeeklyMealPrep'))
+const WellnessMealPrep = lazy(() => import('./pages/WellnessMealPrep'))
 const HowWeVetOurChefs = lazy(() => import('./pages/HowWeVetOurChefs'))
+const MyChefCertified = lazy(() => import('./pages/MyChefCertified'))
+const FoundingCustomerOffer = lazy(() => import('./pages/FoundingCustomerOffer'))
+const LoyaltyProgramme = lazy(() => import('./pages/LoyaltyProgramme'))
+const MysteryDining = lazy(() => import('./pages/MysteryDining'))
+const ChefTrainingAcademy = lazy(() => import('./pages/ChefTrainingAcademy'))
+const InfluencerPartnerships = lazy(() => import('./pages/InfluencerPartnerships'))
+const FullTimePrivateChef = lazy(() => import('./pages/FullTimePrivateChef'))
+const KidsNutritionChef = lazy(() => import('./pages/KidsNutritionChef'))
 const BookingProtectionInsurance = lazy(() => import('./pages/BookingProtectionInsurance'))
 const BecomeAMyChef = lazy(() => import('./pages/BecomeAMyChef'))
 const ReviewRequest = lazy(() => import('./pages/ReviewRequest'))
+const ReferralProgramme = lazy(() => import('./pages/ReferralProgramme'))
+const QualityGuarantee = lazy(() => import('./pages/QualityGuarantee'))
+const AllergySafeCatering = lazy(() => import('./pages/AllergySafeCatering'))
+const MyChefMembership = lazy(() => import('./pages/MyChefMembership'))
+const CorporateRetainer = lazy(() => import('./pages/CorporateRetainer'))
+const PostpartumMealPrep = lazy(() => import('./pages/PostpartumMealPrep'))
+const FitnessMealPrep = lazy(() => import('./pages/FitnessMealPrep'))
+const TouristVillaChef = lazy(() => import('./pages/TouristVillaChef'))
+const ProposalDinner = lazy(() => import('./pages/ProposalDinner'))
+const ApartmentPrivateDining = lazy(() => import('./pages/ApartmentPrivateDining'))
+const ChefsTable = lazy(() => import('./pages/ChefsTable'))
+const PartTimePrivateChef = lazy(() => import('./pages/PartTimePrivateChef'))
 const PartnerWithUs = lazy(() => import('./pages/PartnerWithUs'))
+const VillaRentalsPartner = lazy(() => import('./pages/partners/VillaRentalsPartner'))
+const YachtChartersPartner = lazy(() => import('./pages/partners/YachtChartersPartner'))
+const EventPlannersPartner = lazy(() => import('./pages/partners/EventPlannersPartner'))
+const ConciergeServicesPartner = lazy(() => import('./pages/partners/ConciergeServicesPartner'))
 const Press = lazy(() => import('./pages/Press'))
 const SiteMap = lazy(() => import('./pages/SiteMap'))
 
@@ -183,6 +212,10 @@ export default function App() {
           <Route path="/private-chef-prices-dubai" element={<PrivateChefPrices />} />
           <Route path="/catering-dubai" element={<Catering />} />
           <Route path="/catering-packages-dubai" element={<CateringPackages />} />
+          <Route path="/date-night-package-dubai" element={<DateNightPackage />} />
+          <Route path="/family-feast-package-dubai" element={<FamilyFeastPackage />} />
+          <Route path="/birthday-catering-package-dubai" element={<BirthdayPackage />} />
+          <Route path="/corporate-dinner-package-dubai" element={<CorporateDinnerPackage />} />
           <Route path="/luxury-dining-experiences" element={<LuxuryDining />} />
           <Route path="/events" element={<Events />} />
           <Route path="/corporate" element={<Corporate />} />
@@ -319,11 +352,36 @@ export default function App() {
           <Route path="/gift-cards" element={<GiftCards />} />
           <Route path="/case-studies" element={<CaseStudies />} />
           <Route path="/weekly-meal-prep-dubai" element={<WeeklyMealPrep />} />
+          <Route path="/wellness-meal-prep-dubai" element={<WellnessMealPrep />} />
           <Route path="/how-we-vet-our-chefs" element={<HowWeVetOurChefs />} />
+          <Route path="/mychef-certified" element={<MyChefCertified />} />
+          <Route path="/founding-customer-offer" element={<FoundingCustomerOffer />} />
+          <Route path="/loyalty-programme" element={<LoyaltyProgramme />} />
+          <Route path="/mystery-dining-dubai" element={<MysteryDining />} />
+          <Route path="/chef-training-academy" element={<ChefTrainingAcademy />} />
+          <Route path="/influencer-partnerships" element={<InfluencerPartnerships />} />
+          <Route path="/full-time-private-chef-dubai" element={<FullTimePrivateChef />} />
+          <Route path="/kids-nutrition-chef-dubai" element={<KidsNutritionChef />} />
           <Route path="/booking-protection-insurance" element={<BookingProtectionInsurance />} />
           <Route path="/become-a-mychef" element={<BecomeAMyChef />} />
           <Route path="/review" element={<ReviewRequest />} />
+          <Route path="/referral-programme" element={<ReferralProgramme />} />
+          <Route path="/quality-guarantee-dubai" element={<QualityGuarantee />} />
+          <Route path="/allergy-safe-catering-dubai" element={<AllergySafeCatering />} />
+          <Route path="/mychef-membership" element={<MyChefMembership />} />
+          <Route path="/corporate-retainer-dubai" element={<CorporateRetainer />} />
+          <Route path="/postpartum-meal-prep-dubai" element={<PostpartumMealPrep />} />
+          <Route path="/fitness-meal-prep-dubai" element={<FitnessMealPrep />} />
+          <Route path="/tourist-villa-chef-dubai" element={<TouristVillaChef />} />
+          <Route path="/proposal-dinner-dubai" element={<ProposalDinner />} />
+          <Route path="/apartment-private-dining-dubai" element={<ApartmentPrivateDining />} />
+          <Route path="/chefs-table-dubai" element={<ChefsTable />} />
+          <Route path="/part-time-private-chef-dubai" element={<PartTimePrivateChef />} />
           <Route path="/partner-with-us" element={<PartnerWithUs />} />
+          <Route path="/partners/villa-rentals-dubai" element={<VillaRentalsPartner />} />
+          <Route path="/partners/yacht-charters-dubai" element={<YachtChartersPartner />} />
+          <Route path="/partners/event-planners-dubai" element={<EventPlannersPartner />} />
+          <Route path="/partners/concierge-services-dubai" element={<ConciergeServicesPartner />} />
           <Route path="/press" element={<Press />} />
           <Route path="/site-map" element={<SiteMap />} />
           <Route path="*" element={<NotFound />} />

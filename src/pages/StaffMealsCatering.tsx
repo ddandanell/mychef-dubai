@@ -16,6 +16,7 @@ import {
   ArrowRight,
 } from 'lucide-react'
 import SEO from '../components/SEO'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -59,7 +60,7 @@ const staffFormats = [
   {
     icon: Leaf,
     title: 'Healthy & Dietary Options',
-    description: 'Balanced, lighter choices alongside vegetarian, vegan, and gluten-free options so every team member is catered for.',
+    description: 'Balanced, lighter choices alongside vegetarian, vegan, and gluten-free options so every colleague is catered for.',
     link: '/healthy-catering-dubai',
   },
 ]
@@ -129,7 +130,7 @@ const faqs = [
   },
   {
     q: 'Are your staff menus halal?',
-    a: 'Yes. We prepare fully halal menus to a high standard, which makes them suitable for diverse teams. If your workforce has additional requirements, share them when planning and we will build the rotation to suit everyone.',
+    a: 'Yes. your chef prepares fully halal menus to a high standard, which makes them suitable for diverse teams. If your workforce has additional requirements, share them when planning and we will build the rotation to suit everyone.',
   },
   {
     q: 'Can you cater large workforces with a canteen service?',
@@ -168,12 +169,6 @@ const relatedServices = [
     image: '/service-corporate.webp',
     link: '/corporate',
   },
-  {
-    title: 'Hospital & Healthcare Catering',
-    description: 'Safe, nutritionally balanced catering for hospitals, clinics and medical events in Dubai.',
-    image: '/images/corporate-catering-dubai-hero.webp',
-    link: '/healthcare-catering-dubai',
-  },
 ]
 
 const faqSchema = {
@@ -190,7 +185,7 @@ const serviceSchema = {
   name: 'Staff Meals Catering Dubai',
   serviceType: 'Catering Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'Organization',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',
@@ -269,8 +264,8 @@ export default function StaffMealsCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Staff Meals Catering Dubai | Daily Team & Canteen"
-        description="Staff meals catering in Dubai with daily team meals, canteen service, and recurring retainers. Halal menus, reliable delivery, and clear billing. Request your quote today."
+        title="Staff Meals & Team Dining Dubai"
+        description="Chef-coordinated staff meals and team dining in Dubai with daily service, canteen-style menus, and recurring retainers. Halal options and clear billing — request a quote."
         canonicalPath="/staff-meals-catering-dubai"
         ogImage="/service-corporate.webp"
         schema={schema}
@@ -314,6 +309,8 @@ export default function StaffMealsCatering() {
         </div>
       </section>
 
+      <TrustSignalStrip variant="dark" />
+
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
@@ -321,7 +318,7 @@ export default function StaffMealsCatering() {
             CATERING FOR YOUR WORKFORCE
           </span>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            A Reliable Meal for Every Team Member
+            A Reliable Meal for Every Shift
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Feeding a workforce well is one of the quieter ways an organisation shows it values its people. A dependable daily meal keeps teams energised, saves staff the hassle of sorting lunch themselves, and builds a small but real sense of being looked after. The challenge at scale is consistency and cost — which is exactly what a planned staff meals service is built to solve. At myCHEF Dubai, we provide reliable team catering designed around the realities of a working operation.
@@ -395,7 +392,7 @@ export default function StaffMealsCatering() {
       <section className="bg-cream section-padding">
         <div className="container-custom max-w-[1000px]">
           <h2 className="font-playfair text-h2 text-black text-center mb-12">
-            What Our Staff Meals Catering Includes
+            What Staff Meals Catering Includes
           </h2>
 
           <div className="staff-inc-grid grid md:grid-cols-2 gap-6">
@@ -416,7 +413,7 @@ export default function StaffMealsCatering() {
       <section className="bg-black py-20">
         <div className="container-custom">
           <h2 className="font-playfair text-fluid-h2 text-white text-center mb-10">
-            A Taste of Our Staff Catering
+            A Taste of Staff Meals Catering
           </h2>
 
           <div className="staff-gallery grid grid-cols-2 lg:grid-cols-3 gap-4">

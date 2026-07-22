@@ -16,6 +16,7 @@ import {
   ArrowRight,
 } from 'lucide-react'
 import SEO from '../components/SEO'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -35,7 +36,7 @@ const menuHighlights = [
   {
     icon: ChefHat,
     title: 'Live Pasta Station',
-    description: 'A chef-manned station tossing pasta to order in a wheel of parmesan or a pan of fresh sauce — theatre, aroma, and a plate served warm to every guest.',
+    description: 'A partner-chef-led station tossing pasta to order in a wheel of parmesan or a pan of fresh sauce — theatre, aroma, and a plate served warm to every guest.',
     link: '/live-cooking-stations-dubai',
   },
   {
@@ -85,7 +86,7 @@ const useCases = [
 
 const includedItems = [
   { title: 'Handmade Pasta', description: 'Fresh pasta made by hand and paired with sauces cooked from scratch.' },
-  { title: 'Live Pasta & Risotto', description: 'Chef-manned stations tossing pasta and stirring risotto to order.' },
+  { title: 'Live Pasta & Risotto', description: 'partner-chef-led stations tossing pasta and stirring risotto to order.' },
   { title: 'Antipasti Spread', description: 'Cured meats, cheeses, marinated vegetables, and bruschetta to open the meal.' },
   { title: 'Wood-Fired Pizza', description: 'Neapolitan-style pizzas baked to order at a live oven station.' },
   { title: 'Halal Sourcing', description: 'Halal meat and poultry as standard, sourced from trusted suppliers.' },
@@ -129,7 +130,7 @@ const faqs = [
   },
   {
     q: 'Can you set up a live pasta station?',
-    a: 'Yes. A chef-manned live pasta station — tossing fresh pasta to order, sometimes in a wheel of parmesan — is one of our most popular options. We also offer live risotto and wood-fired pizza stations.',
+    a: 'Yes. A partner-chef-led live pasta station — tossing fresh pasta to order, sometimes in a wheel of parmesan — is one of our most popular options. We also offer live risotto and wood-fired pizza stations.',
   },
   {
     q: 'Is the meat halal?',
@@ -152,7 +153,7 @@ const faqs = [
 const relatedServices = [
   {
     title: 'Luxury Catering Dubai',
-    description: 'Full-service event catering across Dubai with bespoke menus for any occasion.',
+    description: 'fully-coordinated catering across Dubai with bespoke menus for any occasion.',
     image: '/service-catering.webp',
     link: '/catering-dubai',
   },
@@ -184,7 +185,7 @@ const serviceSchema = {
   name: 'Italian Catering Dubai',
   serviceType: 'Catering Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'Organization',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',
@@ -263,7 +264,7 @@ export default function ItalianCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Italian Catering Dubai | Handmade Pasta & Risotto"
+        title="Italian Catering Dubai | Pasta & Risotto"
         description="Italian catering in Dubai — handmade pasta, risotto, antipasti, and live pasta and pizza stations for weddings, villa dinners, and corporate events. Halal sourcing."
         canonicalPath="/italian-catering-dubai"
         ogImage="/menu-appetizer.webp"
@@ -306,6 +307,7 @@ export default function ItalianCatering() {
             </a>
           </div>
         </div>
+        <TrustSignalStrip className="mt-8" variant="dark" />
       </section>
 
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
@@ -318,10 +320,10 @@ export default function ItalianCatering() {
             Made by Hand, Served with Warmth
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Italian food is the cuisine of generosity and craft — a few good ingredients, treated with patience, turned into something that brings people to the table and keeps them there. Pasta rolled and cut by hand, risotto stirred to that perfect creamy texture, antipasti laid out to share, and dolci to finish slowly over espresso. At myCHEF Dubai, we cook in that tradition, making pasta fresh and simmering sauces from scratch rather than reaching for shortcuts.
+            Italian food is the cuisine of generosity and craft — a few good ingredients, treated with patience, turned into something that brings people to the table and keeps them there. Pasta rolled and cut by hand, risotto stirred to that perfect creamy texture, antipasti laid out to share, and dolci to finish slowly over espresso. At myCHEF Dubai, your chef prepares in that tradition, making pasta fresh and simmering sauces from scratch rather than reaching for shortcuts.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            From antipasti and handmade pasta to wood-fired pizza, live risotto stations, and a tiramisu-and-espresso finish, our Italian menus are developed by <Link to="/chefs/marco-italian-chef" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Chef Marco, our Italian chef</Link>, and suit weddings, villa dinners, corporate receptions, and intimate plated occasions alike. Halal sourcing is the baseline, vegetarian and vegan dishes are plentiful, and a chef-manned <Link to="/live-cooking-stations-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">live cooking station</Link> can become the centrepiece of your event — explore how it fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
+            From antipasti and handmade pasta to wood-fired pizza, live risotto stations, and a tiramisu-and-espresso finish, our Italian menus are developed by <Link to="/chefs/marco-italian-chef" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Chef Marco, our Italian chef</Link>, and suit weddings, villa dinners, corporate receptions, and intimate plated occasions alike. Halal sourcing is the baseline, vegetarian and vegan dishes are plentiful, and a partner-chef-led <Link to="/live-cooking-stations-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">live cooking station</Link> can become the centrepiece of your event — explore how it fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
           </p>
         </div>
       </section>
@@ -367,7 +369,7 @@ export default function ItalianCatering() {
         <div className="container-custom">
           <div className="text-center mb-12">
             <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WHO WE COOK FOR
+              WHO your chef prepares FOR
             </span>
             <h2 className="font-playfair text-h2 text-white">
               Italian Catering for Every Occasion

@@ -1,10 +1,12 @@
 import { useRef } from 'react'
+import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import { Download, Mail, Phone, Globe, MapPin, Clock, Calendar, Utensils, Users } from 'lucide-react'
+import { Download, Phone, Globe, MapPin, Clock, Calendar, Utensils, Users } from 'lucide-react'
 import SEO from '../components/SEO'
 import PageHero from '../components/PageHero'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 import { organizationSchema } from '../utils/schema'
 
 gsap.registerPlugin(ScrollTrigger)
@@ -73,7 +75,7 @@ const pressFaqs = [
   },
   {
     q: 'Who can I interview for a feature?',
-    a: 'We can arrange interviews with the myCHEF Dubai founder, head of operations, or one of our vetted executive chefs. Reach out to hallo@mychef.ae with your deadline.',
+    a: 'We can arrange interviews with the myCHEF Dubai founder, head of operations, or one of our vetted executive chefs. Reach out to hello@mychef.ae with your deadline.',
   },
   {
     q: 'Do you have a partnership or affiliate programme?',
@@ -123,7 +125,7 @@ export default function Press() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Press & Media | myCHEF Dubai | Brand Assets & Media Kit"
+        title="Press & Media | Brand Assets & Media Kit"
         description="Download the myCHEF Dubai press kit: brand facts, media assets, linkable resources, and contact details for journalists, bloggers, and partners."
         canonicalPath={`/${SLUG}`}
         ogImage="/images/case-studies-hero.webp"
@@ -140,6 +142,8 @@ export default function Press() {
         minHeight="tall"
         overlay="dark"
       />
+
+      <TrustSignalStrip />
 
       <div className="bg-white section-padding">
         <div className="press-body container-custom max-w-[1000px]">
@@ -212,7 +216,7 @@ export default function Press() {
               <p className="font-playfair text-h4 text-white mb-4">myCHEF Dubai</p>
               <p className="font-inter text-body text-gray-400 mb-2">Dubai, United Arab Emirates</p>
               <p className="font-inter text-body text-gray-400 mb-2">Phone / WhatsApp: +971 55 174 4849</p>
-              <p className="font-inter text-body text-gray-400 mb-2">Email: hallo@mychef.ae</p>
+              <p className="font-inter text-body text-gray-400 mb-2">Email: hello@mychef.ae</p>
               <p className="font-inter text-body text-gray-400">Website: https://www.mychef.ae</p>
             </div>
           </section>
@@ -238,23 +242,28 @@ export default function Press() {
             Reach out for interviews, high-resolution images, co-branded proposals, or press passes.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <Link
+              to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=press"
+              className="btn-primary inline-flex items-center gap-2"
+            >
+              Request a Proposal
+            </Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
               rel="noopener noreferrer"
-              className="btn-primary inline-flex items-center gap-2"
+              className="btn-secondary inline-flex items-center gap-2"
             >
               <Phone size={18} />
               WhatsApp Us
             </a>
-            <a
-              href="mailto:hallo@mychef.ae?subject=Press%20enquiry%20-%20myCHEF%20Dubai"
-              className="inline-flex items-center gap-2 px-6 py-3 font-inter text-button font-medium uppercase tracking-wider border border-gold text-gold hover:bg-gold hover:text-black transition-all duration-300"
-            >
-              <Mail size={18} />
-              Email Press Team
-            </a>
           </div>
+          <p className="mt-6 font-inter text-body-sm text-gray-500">
+            Or email us at{' '}
+            <a href="mailto:hello@mychef.ae?subject=Press%20enquiry%20-%20myCHEF%20Dubai" className="text-gold hover:text-gold-light underline underline-offset-4">
+              hello@mychef.ae
+            </a>
+          </p>
         </div>
       </section>
     </div>

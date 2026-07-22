@@ -20,6 +20,7 @@ import {
   Sparkles,
 } from 'lucide-react'
 import SEO from '../components/SEO'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -153,7 +154,7 @@ const locations = [
 const faqs = [
   {
     q: 'Do you offer private cooking classes at home in Dubai?',
-    a: 'Yes. Our chefs come to your villa, apartment, or venue with ingredients and equipment for a fully private cooking class.',
+    a: 'Yes. The chefs in our network come to your villa, apartment, or venue with ingredients and equipment for a fully private cooking class.',
   },
   {
     q: 'Are cooking classes suitable for beginners?',
@@ -208,7 +209,7 @@ const serviceSchema = {
   name: 'Private Cooking Classes Dubai',
   serviceType: 'Cooking Class / Chef Experience',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'Organization',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',
@@ -305,7 +306,7 @@ export default function PrivateCookingClassesDubai() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Private Cooking Classes Dubai | Chef Experience | myCHEF"
+        title="Private Cooking Classes Dubai | Chef"
         description="Learn from a private chef with hands-on cooking classes in Dubai. Perfect for couples, families, and team building. Bespoke menus & premium ingredients."
         canonicalPath="/private-cooking-classes-dubai"
         ogImage="/images/private-cooking-classes-dubai-hero.webp"
@@ -349,6 +350,8 @@ export default function PrivateCookingClassesDubai() {
           </div>
         </div>
       </section>
+
+      <TrustSignalStrip variant="dark" />
 
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">

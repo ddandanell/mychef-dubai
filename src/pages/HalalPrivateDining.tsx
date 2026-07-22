@@ -5,10 +5,11 @@ import type { ServicePageConfig } from './shared/ServiceLandingPage'
 
 const config: ServicePageConfig = {
   slug: 'halal-private-dining-dubai',
-  seoTitle: 'Halal Private Dining Dubai | Intimate Halal-Certified Menus at Home',
+  seoTitle: "Halal Private Dining Dubai | Certified",
   metaDescription:
     'Halal private dining in Dubai: bespoke halal menus served in your villa, home or venue by a dedicated chef and service team. Perfect for intimate dinners, family celebrations and corporate hospitality.',
   canonicalPath: '/halal-private-dining-dubai',
+  showTrustSignalStrip: true,
   ogImage: '/images/halal-private-dining-dubai-hero.webp',
   breadcrumbLabel: 'Halal Private Dining Dubai',
   h1: 'Halal Private Dining in Dubai',
@@ -119,7 +120,7 @@ const config: ServicePageConfig = {
     { title: 'Fully Halal Menus', description: 'All proteins and ingredients sourced and prepared to trusted halal standards from start to finish.' },
     { title: 'Bespoke Menu Design', description: 'A menu tailored to your tastes, occasion and dietary preferences, from Arabic classics to modern international.' },
     { title: 'Private Chef & Service Team', description: 'A dedicated chef and front-of-house staff focused entirely on your table and your guests.' },
-    { title: 'In-Home or Venue Service', description: 'We cook, plate, serve and clean up at your villa, apartment, office or chosen venue anywhere in Dubai.' },
+    { title: 'In-Home or Venue Service', description: 'Your chef prepares, plates, serves and cleans up at your villa, apartment, office or chosen venue anywhere in Dubai.' },
     { title: 'Premium Table Presentation', description: 'Restaurant-quality plating, linens, crockery and styling arranged to suit the setting.' },
     { title: 'Ramadan & Celebration Specials', description: 'Themed menus and service pacing for iftar, suhoor, Eid and other milestone occasions.' },
     { title: 'Mocktail & Beverage Pairing', description: 'Non-alcoholic drinks, juices and mocktails selected to complement the halal menu.' },
@@ -154,7 +155,7 @@ const config: ServicePageConfig = {
     },
     {
       q: 'How many guests can you cater for in a private dining setting?',
-      a: 'Private dining is ideal for small to medium groups, typically from 2 to 30 guests. For larger celebrations, we scale into full-service halal catering with additional chefs and service staff.',
+      a: 'Private dining is ideal for small to medium groups, typically from 2 to 30 guests. For larger celebrations, we scale into fully-coordinated catering with additional chefs and service staff.',
     },
     {
       q: 'How far in advance should I book?',
@@ -164,7 +165,7 @@ const config: ServicePageConfig = {
   relatedServices: [
     {
       title: 'Halal Catering Dubai',
-      description: 'Full-service halal catering for events, weddings and corporate functions of any size.',
+      description: 'fully-coordinated catering for events, weddings and corporate functions of any size.',
       image: '/menu-meat.webp',
       link: '/halal-catering-dubai',
     },

@@ -5,7 +5,7 @@ import type { ServicePageConfig } from './shared/ServiceLandingPage'
 
 const config: ServicePageConfig = {
   slug: 'reunion-catering-dubai',
-  seoTitle: 'Reunion Catering Dubai | Family & Friends Get-Togethers',
+  seoTitle: "Reunion Catering Dubai | Family & Friends",
   metaDescription:
     'Reunion catering in Dubai for family gatherings, school reunions and friends get-togethers. Shared menus, live stations, villa service and full setup. Request a quote.',
   canonicalPath: '/reunion-catering-dubai',
@@ -25,7 +25,7 @@ const config: ServicePageConfig = {
         Reunions are about reconnecting, sharing stories and enjoying the people you have missed. The last thing any host wants is to be stuck in the kitchen while everyone else is catching up. Our reunion catering in Dubai is built around relaxed, generous service that keeps guests fed, happy and together from the first arrival to the final goodbye.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        We cater family reunions in villas across Emirates Hills and Palm Jumeirah, school and alumni gatherings in Dubai Marina and Jumeirah, and friends’ get-togethers in penthouses, gardens and beach clubs. Menus are designed for sharing: mezze and antipasti, grazing tables, BBQ live stations, family-style mains and dessert spreads that invite everyone to the table.
+        we coordinate catering for family reunions in villas across Emirates Hills and Palm Jumeirah, school and alumni gatherings in Dubai Marina and Jumeirah, and friends’ get-togethers in penthouses, gardens and beach clubs. Menus are designed for sharing: mezze and antipasti, grazing tables, BBQ live stations, family-style mains and dessert spreads that invite everyone to the table.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
         This service works beautifully alongside our{' '}
@@ -67,7 +67,7 @@ const config: ServicePageConfig = {
     {
       Icon: Home,
       title: 'Villa & Home Reunions',
-      description: 'Full-service catering at your villa or home with setup, service and cleanup so you can simply host.',
+      description: 'fully-coordinated catering at your villa or home with setup, service and cleanup so you can simply host.',
       link: '/villas-private-residences',
     },
     {
@@ -111,7 +111,7 @@ const config: ServicePageConfig = {
   includedItems: [
     { title: 'Generous Sharing Menus', description: 'Family-style and grazing formats designed for groups who want to eat together.' },
     { title: 'Multi-Cuisine Options', description: 'Mediterranean, Middle Eastern, Asian, Indian, international and fusion menus to suit every group.' },
-    { title: 'Live Cooking Stations', description: 'Chef-manned stations that add theatre and keep food fresh throughout the event.' },
+    { title: 'Live Cooking Stations', description: 'partner-chef-led stations that add theatre and keep food fresh throughout the event.' },
     { title: 'Dietary Flexibility', description: 'Vegetarian, vegan, halal, gluten-free and allergy-aware options for mixed groups.' },
     { title: 'Tableware & Styling', description: 'Elegant platters, linen, serveware and styling that suit the tone of the reunion.' },
     { title: 'Attentive Service Staff', description: 'Friendly staff who keep the food flowing and the space tidy without interrupting conversations.' },
@@ -131,11 +131,11 @@ const config: ServicePageConfig = {
   faqs: [
     {
       q: 'What types of reunions do you cater?',
-      a: 'We cater family reunions, school and alumni reunions, friends’ get-togethers, anniversary reunions and any gathering where people are coming back together to celebrate shared history.',
+      a: 'we coordinate catering for family reunions, school and alumni reunions, friends’ get-togethers, anniversary reunions and any gathering where people are coming back together to celebrate shared history.',
     },
     {
       q: 'Can you cater a reunion at a villa or home?',
-      a: 'Yes. We provide full-service villa and home reunion catering across Dubai, including setup, service and cleanup.',
+      a: 'Yes. We provide fully-coordinated catering across Dubai, including setup, service and cleanup.',
     },
     {
       q: 'What food works best for a reunion?',
@@ -177,6 +177,7 @@ const config: ServicePageConfig = {
   ctaH2: 'Bring Everyone Together With Great Food',
   ctaP:
     'Tell us about your reunion, guest count, venue and preferred cuisine. We will create a warm, generous catering experience that lets you focus on the people.',
+  showTrustSignalStrip: true,
 }
 
 export default function ReunionCatering() {

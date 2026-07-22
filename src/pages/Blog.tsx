@@ -41,7 +41,7 @@ const posts = [
   {
     slug: '/blog/corporate-catering-full-service-vs-drop-off',
     title: 'Corporate Catering: Full-Service vs Drop-Off',
-    excerpt: 'Compare drop-off and full-service corporate catering by cost, setup, staffing, and guest experience so you can choose the right format.',
+    excerpt: 'Compare drop-off and fully-coordinated catering by cost, setup, staffing, and guest experience so you can choose the right format.',
     category: 'Corporate',
     date: 'July 2026',
     image: '/images/corporate-catering-dubai-hero.webp',
@@ -120,7 +120,7 @@ export default function Blog() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Blog | myCHEF Dubai | Private Chef & Catering Insights"
+        title="Blog | Private Chef & Catering Insights"
         description="Expert tips, trends, and inspiration for private dining and luxury catering in Dubai."
         canonicalPath="/blog"
         ogImage="/images/guides-hub-dubai-hero.webp"
@@ -217,7 +217,7 @@ export default function Blog() {
             </a>
           </div>
           <p className="font-inter text-sm text-gray-400 mt-6">
-            We typically reply within 2 hours during business hours.
+            We typically reply within 15 minutes during business hours.
           </p>
         </div>
       </section>

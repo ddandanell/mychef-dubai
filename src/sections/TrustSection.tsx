@@ -7,10 +7,10 @@ import { Shield, Leaf, Clock, Award } from 'lucide-react'
 gsap.registerPlugin(ScrollTrigger)
 
 const trustBadges = [
-  { icon: Shield, label: 'Verified Chefs' },
+  { icon: Shield, label: 'Handpicked Chefs' },
   { icon: Leaf, label: 'Premium Ingredients' },
   { icon: Clock, label: 'Punctual Service' },
-  { icon: Award, label: 'Experienced Team' },
+  { icon: Award, label: 'Experienced Network' },
 ]
 
 export default function TrustSection() {
@@ -73,7 +73,7 @@ export default function TrustSection() {
             Why book a private chef or caterer in Dubai with myCHEF?
           </h2>
           <p className="font-inter text-base text-gray-400 leading-[1.7] mb-10 max-w-lg">
-            Founded by a team with deep roots in luxury hospitality, myCHEF Dubai brings experienced culinary talent directly to your door. Every dish is prepared with premium ingredients, every service delivered with discretion.
+            Founded by a team with deep roots in luxury hospitality, myCHEF Dubai connects you with Dubai&apos;s most talented culinary artists — every chef handpicked, every experience designed and delivered with discretion. One point of contact. One standard of selection.
           </p>
 
           {/* Trust Badges */}
@@ -89,7 +89,7 @@ export default function TrustSection() {
           </div>
 
           <Link to="/about" className="btn-secondary inline-flex focus-visible:ring-offset-charcoal">
-            Learn About Our Team
+            About Us
           </Link>
         </div>
 

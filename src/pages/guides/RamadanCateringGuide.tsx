@@ -11,6 +11,7 @@ import {
   Check,
 } from 'lucide-react'
 import SEO from '../../components/SEO'
+import TrustSignalStrip from '../../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -71,7 +72,7 @@ const largeGatherings = [
 ]
 
 const internalLinks = [
-  { title: 'Ramadan Catering Dubai', link: '/ramadan-catering-dubai', description: 'Full-service Ramadan catering for homes and venues.' },
+  { title: 'Ramadan Catering Dubai', link: '/ramadan-catering-dubai', description: 'fully-coordinated catering for homes and venues.' },
   { title: 'Iftar Catering Dubai', link: '/iftar-catering-dubai', description: 'Evening iftar menus and buffet service.' },
   { title: 'Suhoor Catering Dubai', link: '/suhoor-catering-dubai', description: 'Pre-dawn suhoor menus and lounge setups.' },
   { title: 'Eid Catering Dubai', link: '/eid-catering-dubai', description: 'Festive menus for Eid gatherings.' },
@@ -98,7 +99,7 @@ const faqs = [
   },
   {
     q: 'Do you cater large corporate and community iftars?',
-    a: 'Yes. We cater corporate iftars, community events, and large family gatherings with buffet stations, seated service, or a combination. High-volume timing and dietary labelling are planned in advance.',
+    a: 'Yes. We coordinate catering for corporate iftars, community events, and large family gatherings with buffet stations, seated service, or a combination. High-volume timing and dietary labelling are planned in advance.',
   },
   {
     q: 'How far in advance should I book Ramadan catering?',
@@ -121,6 +122,8 @@ const articleSchema = {
   description: 'A guide to Ramadan catering in Dubai: etiquette, iftar, suhoor and Eid menus, timing around sunset and Fajr, halal requirements, and booking timelines.',
   author: { '@type': 'Organization', name: 'myCHEF Dubai' },
   publisher: { '@type': 'Organization', name: 'myCHEF Dubai', url: 'https://mychef.ae' },
+  datePublished: '2026-07-01',
+  dateModified: '2026-07-22',
 }
 
 const serviceSchema = {
@@ -128,7 +131,7 @@ const serviceSchema = {
   name: 'Ramadan Catering Guide Dubai',
   serviceType: 'Catering Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'Organization',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',
@@ -203,7 +206,7 @@ export default function RamadanCateringGuide() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Ramadan Catering Guide Dubai | Iftar, Suhoor & Eid | myCHEF"
+        title="Ramadan Catering Guide Dubai | Iftar"
         description="Ramadan catering guide for Dubai: iftar, suhoor, and Eid menus, timing around sunset and Fajr, halal requirements, large gatherings, and booking timelines."
         canonicalPath="/ramadan-catering-guide-dubai"
         ogImage="/service-catering.webp"
@@ -249,6 +252,8 @@ export default function RamadanCateringGuide() {
           </div>
         </div>
       </section>
+
+      <TrustSignalStrip />
 
       {/* ═══════════════ Opening ═══════════════ */}
       <section className="bg-white section-padding">

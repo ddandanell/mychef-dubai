@@ -5,7 +5,7 @@ export default function NotFound() {
   return (
     <>
       <SEO
-        title="Page Not Found | myCHEF Dubai"
+        title="Page Not Found"
         description="We couldn't find that page. Explore myCHEF Dubai's private chef, catering, and luxury dining services, or request a custom quote."
         canonicalPath="/404"
         ogImage="/images/catering-dubai-hero.webp"

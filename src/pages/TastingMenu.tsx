@@ -5,15 +5,16 @@ import type { ServicePageConfig } from './shared/ServiceLandingPage'
 
 const config: ServicePageConfig = {
   slug: 'tasting-menu-dubai',
-  seoTitle: 'Tasting Menu Dubai | Private Chef’s Table Experiences',
+  seoTitle: "Tasting Menu Dubai | Chef’s Table",
   metaDescription:
     'Bespoke tasting menus and chef’s table experiences in Dubai for intimate dinners, celebrations and corporate hospitality. Multi-course menus served by a private chef team.',
   canonicalPath: '/tasting-menu-dubai',
   ogImage: '/images/tasting-menu-dubai-hero.webp',
+  showTrustSignalStrip: true,
   breadcrumbLabel: 'Tasting Menu Dubai',
   h1: 'Tasting Menu & Chef’s Table in Dubai',
   heroSub:
-    'Multi-course tasting menus and interactive chef’s table experiences in your villa, venue or private dining room — designed, cooked and presented by a dedicated myCHEF Dubai chef.',
+    'Multi-course tasting menus and interactive chef’s table experiences in your villa, venue or private dining room — designed, cooked and presented by a dedicated partner chef.',
   heroImage: '/images/tasting-menu-dubai-hero.webp',
   whatsappMessage:
     "Hi myCHEF Dubai, I'd like to book a tasting menu or chef's table in Dubai (via mychef.ae/tasting-menu-dubai)",
@@ -22,7 +23,7 @@ const config: ServicePageConfig = {
   introNodes: (
     <>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        A tasting menu is the most intimate way to experience a chef’s creativity. Our private chef’s table and tasting menu experiences in Dubai bring a curated, multi-course journey to your dining table — whether that is in a Palm Jumeirah villa, a Downtown penthouse, a corporate boardroom or a carefully chosen venue. Each course is introduced, every flavour is considered, and the pacing is designed around the conversation at the table.
+        A tasting menu is the most intimate way to experience a chef’s creativity. Private chef’s table and tasting menu experiences in our network bring a curated, multi-course journey to your dining table — whether that is in a Palm Jumeirah villa, a Downtown penthouse, a corporate boardroom or a carefully chosen venue. Each course is introduced, every flavour is considered, and the pacing is designed around the conversation at the table.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
         We begin with a consultation to understand your tastes, any dietary requirements and the tone of the evening. The chef then designs a bespoke menu that can span modern European, Japanese, Mediterranean, Middle Eastern or fusion influences. Wine-pairing-style mocktails, amuse-bouches, palate cleansers and petits fours complete the experience, with service that is attentive but never intrusive.
@@ -111,7 +112,7 @@ const config: ServicePageConfig = {
   includedItems: [
     { title: 'Bespoke Menu Design', description: 'A personalised tasting menu created after a detailed consultation with the chef.' },
     { title: 'Premium Ingredients', description: 'Seasonal produce, quality proteins and speciality ingredients chosen for each course.' },
-    { title: 'Private Chef & Team', description: 'A dedicated chef and service staff focused entirely on your table for the evening.' },
+    { title: 'Private Chef & Team', description: 'A dedicated partner chef and service staff focused entirely on your table for the evening.' },
     { title: 'Course Introductions', description: 'Each course presented with context, ingredients and inspiration for a richer experience.' },
     { title: 'Mocktail & Beverage Pairing', description: 'Non-alcoholic pairings, juices and tonics selected to complement the menu.' },
     { title: 'Table Styling & Plating', description: 'Restaurant-quality crockery, glassware and presentation arranged to suit the setting.' },
@@ -147,7 +148,7 @@ const config: ServicePageConfig = {
     },
     {
       q: 'Do you provide drinks pairing?',
-      a: 'We create mocktail, juice and tonic pairings to complement each course. If you would like alcoholic pairings, our team can coordinate with your selected sommelier or supplier.',
+      a: 'We create mocktail, juice and tonic pairings to complement each course. If you would like alcoholic pairings, the chefs in our network can coordinate with your selected sommelier or supplier.',
     },
     {
       q: 'How far in advance should I book a tasting menu?',

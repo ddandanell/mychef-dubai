@@ -152,7 +152,7 @@ const relatedServices = [
 const faqs = [
   {
     q: 'Can I mix cuisines at the same event?',
-    a: 'Yes. Many hosts combine cuisines — for example, Arabic mezze to start, Italian mains and Asian-influenced desserts. Our chefs design a cohesive menu so the transitions feel natural.',
+    a: 'Yes. Many hosts combine cuisines — for example, Arabic mezze to start, Italian mains and Asian-influenced desserts. The chefs in our network design a cohesive menu so the transitions feel natural.',
   },
   {
     q: 'Are the chefs experienced in the cuisine I choose?',
@@ -233,7 +233,7 @@ export default function Cuisines() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Catering by Cuisine Dubai | Private Chefs & Menus | myCHEF"
+        title="Catering by Cuisine Dubai | Chefs & Menus"
         description="Explore private chef and catering menus by cuisine in Dubai: Italian, Arabic, Mediterranean, Indian, Asian, sushi, BBQ, vegan, vegetarian, halal and healthy."
         canonicalPath="/cuisines-dubai"
         ogImage="/images/cuisines-hub-dubai-hero.webp"
@@ -244,7 +244,7 @@ export default function Cuisines() {
       <PageHero
         eyebrow="World Flavours, Dubai Style"
         title="Catering by Cuisine in Dubai"
-        subtitle="From Italian trattoria classics and Arabic mezze to Asian tasting menus and plant-forward dishes — choose a cuisine and we’ll match you with a private chef or catering team that cooks it authentically."
+        subtitle="From Italian trattoria classics and Arabic mezze to Asian tasting menus and plant-forward dishes — choose a cuisine and we’ll match you with a private chef or catering team. We reply within 15 minutes during business hours."
         image="/images/cuisines-hub-dubai-hero.webp"
         imageAlt="International catering cuisines prepared by private chefs in Dubai"
         cta={{ label: 'Request a Custom Menu', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=cuisines' }}
@@ -424,7 +424,7 @@ export default function Cuisines() {
             </a>
           </div>
           <p className="font-inter text-sm text-gray-400 mt-6">
-            We typically reply within 2 hours during business hours.
+            We typically reply within 15 minutes during business hours.
           </p>
         </div>
       </section>

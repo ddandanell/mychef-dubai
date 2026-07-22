@@ -5,11 +5,12 @@ import type { ServicePageConfig } from './shared/ServiceLandingPage'
 
 const config: ServicePageConfig = {
   slug: 'oyster-bar-dubai',
-  seoTitle: 'Oyster & Seafood Bar Dubai | Premium Shellfish & Caviar',
+  seoTitle: "Oyster & Seafood Bar Dubai | Shellfish",
   metaDescription:
     'Oyster and seafood bar in Dubai: fresh oysters, chilled shellfish, caviar and premium seafood platters for weddings, corporate events and private parties.',
   canonicalPath: '/oyster-bar-dubai',
   ogImage: '/images/sushi-catering-dubai-hero.webp',
+  showTrustSignalStrip: true,
   breadcrumbLabel: 'Oyster & Seafood Bar Dubai',
   h1: 'Oyster & Seafood Bar in Dubai',
   heroSub:
@@ -25,7 +26,7 @@ const config: ServicePageConfig = {
         An oyster and seafood bar is the ultimate statement in elegant catering. Piled high with crushed ice, lemon wedges, delicate sauces and the freshest shellfish, it becomes a natural gathering point at weddings, corporate galas, yacht parties and private dinners. Our oyster and seafood bar in Dubai brings restaurant-quality presentation and flavour to any venue across the city.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        We source premium oysters, chilled prawns, crab legs, lobster, mussels, clams and seasonal fish, arranged on tiered platters or custom-built ice bars. Our team includes experienced shuckers and servers who keep the station replenished, clean and inviting throughout your event. Pair the bar with champagne, white wine or bespoke mocktails for a complete luxury experience.
+        We source premium oysters, chilled prawns, crab legs, lobster, mussels, clams and seasonal fish, arranged on tiered platters or custom-built ice bars. The chefs in our network includes experienced shuckers and servers who keep the station replenished, clean and inviting throughout your event. Pair the bar with champagne, white wine or bespoke mocktails for a complete luxury experience.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
         The seafood bar pairs beautifully with our{' '}
@@ -116,7 +117,7 @@ const config: ServicePageConfig = {
     { title: 'Caviar & Luxury Add-Ons', description: 'Optional caviar service, blinis and premium garnishes for top-tier events.' },
     { title: 'Drink Pairing Suggestions', description: 'Champagne, white wine and mocktail pairing recommendations on request.' },
     { title: 'Service Staff & Replenishment', description: 'Attentive team to keep the bar full, clean and visually striking.' },
-    { title: 'Setup, Breakdown & Cleanup', description: 'Full station setup, service and clear-down handled by our team.' },
+    { title: 'Setup, Breakdown & Cleanup', description: 'Full station setup, service and clear-down handled by the chefs in our network.' },
   ],
   galleryH2: 'A Taste of Our Oyster & Seafood Bar',
   galleryImages: [
@@ -135,7 +136,7 @@ const config: ServicePageConfig = {
     },
     {
       q: 'Can the oyster bar be set up on a yacht or beach venue?',
-      a: 'Yes. Our team is experienced in catering for yachts, beach clubs, poolside venues and outdoor locations across Dubai.',
+      a: 'Yes. The chefs in our network are experienced in catering for yachts, beach clubs, poolside venues and outdoor locations across Dubai.',
     },
     {
       q: 'Do you provide professional oyster shuckers?',
@@ -169,7 +170,7 @@ const config: ServicePageConfig = {
     },
     {
       title: 'Gala Dinner Catering',
-      description: 'Full-service gala catering with premium menus, stations and white-glove service.',
+      description: 'fully-coordinated catering with premium menus, stations and white-glove service.',
       image: '/service-events.webp',
       link: '/gala-dinner-catering-dubai',
     },

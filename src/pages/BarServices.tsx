@@ -19,6 +19,7 @@ import {
   ArrowRight,
 } from 'lucide-react'
 import SEO from '../components/SEO'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -134,7 +135,7 @@ const faqs = [
   },
   {
     q: 'Can you create a custom cocktail menu for our event?',
-    a: 'Absolutely. Our team designs signature cocktails and mocktails to match your event theme, season, and guest preferences.',
+    a: 'Absolutely. The chefs in our network design signature cocktails and mocktails to match your event theme, season, and guest preferences.',
   },
   {
     q: 'Do you offer non-alcoholic / mocktail bars?',
@@ -142,7 +143,7 @@ const faqs = [
   },
   {
     q: 'What types of events do you provide bar services for?',
-    a: 'We cater weddings, yacht parties, villa dinners, corporate events, gala dinners, birthdays, and brand activations.',
+    a: 'we coordinate catering for weddings, yacht parties, villa dinners, corporate events, gala dinners, birthdays, and brand activations.',
   },
   {
     q: 'Is glassware and bar equipment included?',
@@ -185,7 +186,7 @@ const serviceSchema = {
   name: 'Bar Services Dubai',
   serviceType: 'Bar & Bartender Hire Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'Organization',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',
@@ -269,7 +270,7 @@ export default function BarServices() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Premium Bar Services Dubai | Hire Bartenders | myCHEF"
+        title="Premium Bar Services Dubai | Hire Bartenders"
         description="Hire bartenders and mobile bar services in Dubai for weddings, yachts, villas, and corporate events. Cocktails, mocktails & premium service."
         canonicalPath="/bar-services-dubai"
         ogImage="/images/bar-services-dubai-hero.webp"
@@ -313,6 +314,8 @@ export default function BarServices() {
           </div>
         </div>
       </section>
+
+      <TrustSignalStrip />
 
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">

@@ -16,6 +16,7 @@ import {
   ArrowRight,
 } from 'lucide-react'
 import SEO from '../components/SEO'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -28,8 +29,8 @@ const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}
 const bbqFormats = [
   {
     icon: Flame,
-    title: 'Chef-Manned Grills',
-    description: 'A dedicated grill chef works live at your event, cooking each cut to order so every plate arrives hot, charred, and exactly how your guests like it.',
+    title: 'Partner Chef-Led Grills',
+    description: 'A dedicated partner grill chef works live at your event, cooking each cut to order so every plate arrives hot, charred, and exactly how your guests like it.',
     link: '/catering-dubai',
   },
   {
@@ -47,7 +48,7 @@ const bbqFormats = [
   {
     icon: Home,
     title: 'Villa & Garden BBQ',
-    description: 'Full-service grilling for villa terraces, gardens, and rooftops across Dubai, with setup, live cooking, and cleanup all handled by our team.',
+    description: 'Full-service grilling for villa terraces, gardens, and rooftops across Dubai, with setup, live cooking, and cleanup all handled by the chefs in our network.',
     link: '/catering-dubai',
   },
   {
@@ -65,9 +66,9 @@ const bbqFormats = [
 ]
 
 const includedItems = [
-  { title: 'Live Grilling Stations', description: 'Professional grill setup and chef-manned cooking throughout your event.' },
+  { title: 'Live Grilling Stations', description: 'Professional grill setup and partner-chef-led cooking throughout your event.' },
   { title: 'Premium Meats & Seafood', description: 'Quality cuts, marinated proteins, and fresh seafood prepared to order.' },
-  { title: 'Marinades & Rubs', description: 'House marinades, spice rubs, and sauces developed by our culinary team.' },
+  { title: 'Marinades & Rubs', description: 'House marinades, spice rubs, and sauces developed by the chefs in our network.' },
   { title: 'Sides, Salads & Mezze', description: 'A generous spread of hot sides, fresh salads, breads, and dips.' },
   { title: 'Professional Service Staff', description: 'Grill chefs, servers, and hosts scaled to your guest count.' },
   { title: 'Equipment & Setup', description: 'We bring the grills, stations, tableware, and everything needed on site.' },
@@ -90,7 +91,7 @@ const useCases = [
   },
   {
     title: 'Corporate & Team Events',
-    description: 'A chef-manned BBQ brings a warm, social energy to company days, client entertaining, and team celebrations — polished enough to impress, relaxed enough to enjoy.',
+    description: 'A partner-chef-led BBQ brings a warm, social energy to company days, client entertaining, and team celebrations — polished enough to impress, relaxed enough to enjoy.',
   },
 ]
 
@@ -141,7 +142,7 @@ const faqs = [
   },
   {
     q: 'How many guests can you cater a BBQ for?',
-    a: 'We grill for intimate gatherings of around 10 guests up to large celebrations of several hundred. Our team scales the number of grill chefs and stations to match your event size.',
+    a: 'We grill for intimate gatherings of around 10 guests up to large celebrations of several hundred. The chefs in our network scale the number of grill chefs and stations to match your event size.',
   },
   {
     q: 'How far in advance should I book BBQ catering?',
@@ -152,7 +153,7 @@ const faqs = [
 const relatedServices = [
   {
     title: 'Catering Dubai',
-    description: 'Full-service luxury catering for events of every size across Dubai.',
+    description: 'fully-coordinated catering for events of every size across Dubai.',
     image: '/service-catering.webp',
     link: '/catering-dubai',
   },
@@ -190,7 +191,7 @@ const serviceSchema = {
   name: 'BBQ Catering Dubai',
   serviceType: 'Catering Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'Organization',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',
@@ -269,8 +270,8 @@ export default function BBQCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="BBQ Catering Dubai | Chef-Manned Grills"
-        description="Premium BBQ catering in Dubai with chef-manned grills, aged steaks, gourmet burgers, and grilled seafood. Villa, garden, beach, and yacht BBQ with full service."
+        title="BBQ Catering Dubai | Partner Chef-Led Grills"
+        description="Premium BBQ catering in Dubai with partner-chef-led grills, aged steaks, gourmet burgers, and grilled seafood. Villa, garden, beach, and yacht BBQ with full service."
         canonicalPath="/bbq-catering-dubai"
         ogImage="/service-events.webp"
         schema={schema}
@@ -297,7 +298,7 @@ export default function BBQCatering() {
             BBQ Catering in Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 bbq-hero-sub">
-            Chef-manned grills, premium meats, and fresh seafood cooked live at your villa, garden, beach, or yacht — the theatre and aroma of open-flame cooking with flawless full service across Dubai.
+            partner-chef-led grills, premium meats, and fresh seafood cooked live at your villa, garden, beach, or yacht — the theatre and aroma of open-flame cooking with flawless full service across Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=bbq-catering-dubai" className="btn-primary opacity-0 translate-y-4 bbq-hero-cta">Request a Proposal</Link>
@@ -314,6 +315,8 @@ export default function BBQCatering() {
         </div>
       </section>
 
+      <TrustSignalStrip />
+
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
@@ -327,7 +330,7 @@ export default function BBQCatering() {
             There is something timeless about food cooked over fire — the sound of the grill, the aroma drifting across the terrace, the moment guests gather while a chef plates a perfectly charred cut. At myCHEF Dubai, our BBQ catering turns that simple pleasure into a polished, full-service experience, designed around your venue and your guests.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Our grill chefs work live at your event, cooking premium steaks, lamb, marinated chicken, gourmet burgers, and fresh seafood to order. Around the grill we build a generous spread of mezze, salads, hot sides, and house sauces, so every guest finds something they love. Whether it is a relaxed villa gathering, a yacht charter, or a corporate celebration, we bring the stations, the staff, and the styling to you. Explore our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>, or speak to us directly to start planning your menu.
+            Grill chefs in our network work live at your event, cooking premium steaks, lamb, marinated chicken, gourmet burgers, and fresh seafood to order. Around the grill we build a generous spread of mezze, salads, hot sides, and house sauces, so every guest finds something they love. Whether it is a relaxed villa gathering, a yacht charter, or a corporate celebration, we bring the stations, the staff, and the styling to you. Explore our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>, or speak to us directly to start planning your menu.
           </p>
         </div>
       </section>

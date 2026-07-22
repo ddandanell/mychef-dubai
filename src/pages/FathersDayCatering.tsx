@@ -5,7 +5,7 @@ import type { ServicePageConfig } from './shared/ServiceLandingPage'
 
 const config: ServicePageConfig = {
   slug: 'fathers-day-catering-dubai',
-  seoTitle: "Father's Day Catering Dubai | Brunch, BBQ & Family Feasts",
+  seoTitle: "Father's Day Catering Dubai | Brunch & BBQ",
   metaDescription:
     "Father's Day catering in Dubai: brunch, BBQ, family lunches and private dining to celebrate Dad. Full setup, custom menus and service. Request a quote.",
   canonicalPath: '/fathers-day-catering-dubai',
@@ -67,7 +67,7 @@ const config: ServicePageConfig = {
     {
       Icon: Home,
       title: 'Villa & Home Celebrations',
-      description: 'Full-service catering in your home or villa across Dubai with setup, service and cleanup.',
+      description: 'fully-coordinated catering in your home or villa across Dubai with setup, service and cleanup.',
       link: '/villas-private-residences',
     },
     {
@@ -112,7 +112,7 @@ const config: ServicePageConfig = {
     { title: "Dad-Focused Menu Design", description: "Menus built around hearty proteins, bold flavours and relaxed presentation Dad will appreciate." },
     { title: 'Brunch, Lunch or Dinner', description: 'Flexible timings and formats to suit your family schedule and Dad’s preferences.' },
     { title: 'Premium Meats & Seafood', description: 'Quality steaks, ribs, burgers, prawns and fish prepared to order.' },
-    { title: 'Live BBQ & Grill Stations', description: 'Chef-manned grills and smokers for poolside or garden celebrations.' },
+    { title: 'Live BBQ & Grill Stations', description: 'partner-chef-led grills and smokers for poolside or garden celebrations.' },
     { title: 'Fresh Sides & Salads', description: 'Balanced sides, breads and salads to complement the main dishes.' },
     { title: 'Desserts & Celebration Cake', description: "Father's Day cakes, chocolate desserts and sweet stations for the whole family." },
     { title: 'Service Staff & Setup', description: 'Friendly team to serve, clear and keep the celebration running smoothly.' },
@@ -135,7 +135,7 @@ const config: ServicePageConfig = {
     },
     {
       q: "Can you cater Father's Day at our home or villa?",
-      a: 'Yes. We provide full-service home and villa catering across Dubai, including setup, service and cleanup, so the family can focus on Dad.',
+      a: 'Yes. We provide fully-coordinated catering across Dubai, including setup, service and cleanup, so the family can focus on Dad.',
     },
     {
       q: 'Do you offer brunch as well as lunch and dinner?',
@@ -147,7 +147,7 @@ const config: ServicePageConfig = {
     },
     {
       q: 'How many guests can you cater for Father’s Day?',
-      a: 'We cater intimate family dinners from around 8 guests up to large family gatherings of 100 or more in a villa or venue.',
+      a: 'we coordinate catering intimate family dinners from around 8 guests up to large family gatherings of 100 or more in a villa or venue.',
     },
     {
       q: 'How far in advance should I book Father’s Day catering?',
@@ -177,6 +177,7 @@ const config: ServicePageConfig = {
   ctaH2: "Make This Father's Day One to Remember",
   ctaP:
     "Tell us about Dad, your family size, venue and preferred style. We will create a Father's Day catering menu that lets him relax and enjoy the celebration.",
+  showTrustSignalStrip: true,
 }
 
 export default function FathersDayCatering() {

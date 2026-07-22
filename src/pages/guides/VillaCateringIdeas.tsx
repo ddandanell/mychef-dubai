@@ -17,6 +17,7 @@ import {
   Sun,
 } from 'lucide-react'
 import SEO from '../../components/SEO'
+import TrustSignalStrip from '../../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -89,7 +90,7 @@ const seasonalNotes = [
 const internalLinks = [
   { title: 'Private Chef Dubai', link: '/private-chef-dubai', description: 'Personal chef service for villa dinners and events.' },
   { title: 'BBQ Catering Dubai', link: '/bbq-catering-dubai', description: 'Grill-focused outdoor menus for poolsides and gardens.' },
-  { title: 'Party Catering Dubai', link: '/party-catering-dubai', description: 'Full-service catering for villa parties and celebrations.' },
+  { title: 'Party Catering Dubai', link: '/party-catering-dubai', description: 'fully-coordinated catering for villa parties and celebrations.' },
   { title: 'Luxury Dining Dubai', link: '/luxury-dining-dubai', description: 'Plated dinners and private dining experiences at home.' },
   { title: 'Birthday Catering Dubai', link: '/birthday-catering-dubai', description: 'Themed menus and cakes for villa birthday parties.' },
   { title: 'Dubai Catering Prices Guide', link: '/dubai-catering-prices-guide', description: 'Understand per-person costs for villa catering formats.' },
@@ -137,6 +138,8 @@ const articleSchema = {
   description: 'Villa catering ideas for Dubai homes: BBQ, mezze, brunch, canapé parties, seated dinners, live cooking stations, dessert tables, setup tips, and staffing.',
   author: { '@type': 'Organization', name: 'myCHEF Dubai' },
   publisher: { '@type': 'Organization', name: 'myCHEF Dubai', url: 'https://mychef.ae' },
+  datePublished: '2026-07-01',
+  dateModified: '2026-07-22',
 }
 
 const serviceSchema = {
@@ -144,7 +147,7 @@ const serviceSchema = {
   name: 'Villa Catering Ideas Dubai',
   serviceType: 'Catering Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'Organization',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',
@@ -219,7 +222,7 @@ export default function VillaCateringIdeas() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Villa Catering Ideas Dubai | Private Chef & Party Menus | myCHEF"
+        title="Villa Catering Ideas Dubai | Party Menus"
         description="Villa catering ideas for Dubai homes: BBQ, mezze, brunch, canapés, seated dinners, live stations, and dessert tables. Setup tips, staffing, and seasonality advice."
         canonicalPath="/villa-catering-ideas-dubai"
         ogImage="/service-villa.webp"
@@ -265,6 +268,8 @@ export default function VillaCateringIdeas() {
           </div>
         </div>
       </section>
+
+      <TrustSignalStrip />
 
       {/* ═══════════════ Opening ═══════════════ */}
       <section className="bg-white section-padding">

@@ -16,6 +16,7 @@ import {
   ArrowRight,
 } from 'lucide-react'
 import SEO from '../components/SEO'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -41,7 +42,7 @@ const activationFormats = [
   {
     icon: Flame,
     title: 'Live Chef Theatre',
-    description: 'Chef-manned cooking demos that draw crowds, create social content, and turn passers-by into engaged audiences.',
+    description: 'partner-chef-led cooking demos that draw crowds, create social content, and turn passers-by into engaged audiences.',
     link: '/live-cooking-stations-dubai',
   },
   {
@@ -180,7 +181,7 @@ const serviceSchema = {
   name: 'Brand Activation Catering Dubai',
   serviceType: 'Catering Service',
   provider: {
-    '@type': 'FoodService',
+    '@type': 'Organization',
     name: 'myCHEF Dubai',
     url: 'https://mychef.ae',
     telephone: '+971-55-174-4849',
@@ -259,7 +260,7 @@ export default function BrandActivationCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Brand Activation Catering Dubai | Experiential | myCHEF"
+        title="Brand Activation Catering Dubai"
         description="Create memorable brand activations with experiential catering in Dubai. Sampling stations, themed menus, live chefs & branded food experiences."
         canonicalPath="/brand-activation-catering-dubai"
         ogImage="/images/brand-activation-catering-dubai-hero.webp"
@@ -303,6 +304,8 @@ export default function BrandActivationCatering() {
           </div>
         </div>
       </section>
+
+      <TrustSignalStrip variant="dark" />
 
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">

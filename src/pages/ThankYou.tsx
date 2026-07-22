@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react'
 import { Link } from 'react-router'
-import { Check, Clock, FileText, Phone, ChevronRight } from 'lucide-react'
+import { Check, Clock, FileText, Phone, ChevronRight, Gift } from 'lucide-react'
 import gsap from 'gsap'
 import { useGSAP } from '@gsap/react'
 import SEO from '@/components/SEO'
@@ -12,14 +12,14 @@ const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}
 
 const steps = [
   { icon: Clock, text: 'We are reviewing your request' },
-  { icon: FileText, text: 'You will receive a proposal within 2 hours' },
+  { icon: FileText, text: 'You will receive a proposal within 15 minutes' },
   { icon: Check, text: 'Confirm your booking and relax' },
 ]
 
 const exploreLinks = [
   { title: 'Our Services', desc: 'Discover our full range of private chef and catering services.', href: '/private-chef-dubai' },
   { title: 'How It Works', desc: 'See how easy it is to book a private chef in Dubai.', href: '/how-it-works' },
-  { title: 'Our Chefs', desc: 'Meet the culinary team behind every exceptional meal.', href: '/our-chefs' },
+  { title: 'The Chefs in Our Network', desc: 'Meet the culinary team behind every exceptional meal.', href: '/our-chefs' },
 ]
 
 export default function ThankYou() {
@@ -49,7 +49,7 @@ export default function ThankYou() {
     <div ref={containerRef}>
       <SEO
         title="Thank You"
-        description="Thank you for your inquiry. Our team will contact you within 2 hours with a bespoke proposal."
+        description="Thank you for your inquiry. The chefs in our network will contact you within 15 minutes with a bespoke proposal."
         canonicalPath="/thank-you"
         ogImage="/service-catering.webp"
         noindex={true}
@@ -65,7 +65,7 @@ export default function ThankYou() {
 
           <h1 className="ty-h1 font-playfair text-[3rem] text-white mb-6" style={{ lineHeight: '1.1' }}>Thank You</h1>
           <p className="ty-sub font-inter text-body text-gray-400 mb-10">
-            Your inquiry has been received. Our team will review your details and contact you within 2 hours with a bespoke proposal.
+            Your inquiry has been received. The chefs in our network will review your details and contact you within 15 minutes with a bespoke proposal.
           </p>
 
           {/* Next Steps */}
@@ -89,7 +89,23 @@ export default function ThankYou() {
         </div>
       </section>
 
-      {/* Section 2: While You Wait */}
+      {/* Section 2: Referral Prompt */}
+      <section className="bg-cream py-16">
+        <div className="container-custom max-w-[800px]">
+          <div className="bg-black p-8 md:p-10 text-center">
+            <Gift size={40} className="text-gold mx-auto mb-4" />
+            <h3 className="font-playfair text-h3 text-white mb-3">Love myCHEF? Share the Reward</h3>
+            <p className="font-inter text-body text-gray-400 leading-relaxed mb-6">
+              Refer a friend to myCHEF Dubai and you will both receive AED 100 — them off their first booking, you as credit towards your next experience.
+            </p>
+            <Link to="/referral-programme?utm_source=mychef.ae&utm_medium=thank_you_banner&utm_campaign=referral-programme" className="btn-primary inline-flex items-center gap-2">
+              Join the Referral Programme <ChevronRight size={16} />
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Section 3: While You Wait */}
       <section className="bg-white py-16">
         <div className="container-custom max-w-[1000px]">
           <div className="text-center mb-10">

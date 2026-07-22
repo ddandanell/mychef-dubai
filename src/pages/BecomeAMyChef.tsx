@@ -1,5 +1,5 @@
-import { useRef, useState } from 'react'
-import { Link, useNavigate } from 'react-router'
+import { useState } from 'react'
+import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
@@ -14,9 +14,10 @@ import {
   ChevronRight,
   Phone,
   ArrowRight,
-  Send,
+  MessageCircle,
 } from 'lucide-react'
 import SEO from '../components/SEO'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 import { breadcrumbSchema, faqPageSchema, serviceSchema } from '../utils/schema'
 
 gsap.registerPlugin(ScrollTrigger)
@@ -63,13 +64,13 @@ const requirements = [
 const processSteps = [
   {
     num: '01',
-    title: 'Apply Online',
-    description: 'Complete the application form below with your experience, cuisines, visa status, certifications, and portfolio or CV link.',
+    title: 'Apply on WhatsApp',
+    description: 'Send us a message with your experience, cuisines, visa status, certifications, and portfolio or CV link. We review every application personally.',
   },
   {
     num: '02',
     title: 'Document Review',
-    description: 'Our team reviews your experience, checks your right-to-work documents, and verifies references or portfolio samples.',
+    description: 'We review your experience, check your right-to-work documents, and verify references or portfolio samples.',
   },
   {
     num: '03',
@@ -103,8 +104,8 @@ const faqs = [
     a: 'We welcome experienced private chefs, restaurant chefs, event chefs, pastry chefs, and hospitality professionals who can demonstrate strong cooking skills, professionalism, and legal right to work in the UAE.',
   },
   {
-    q: 'Do I need HACCP certification?',
-    a: 'HACCP is not mandatory, but food-hygiene awareness and safe handling practices are required. PIC (Person in Charge) certification is preferred.',
+    q: 'Do I need food-safety-certified (partner-held) certification?',
+    a: 'food-safety-certified (partner-held) is not mandatory, but food-hygiene awareness and safe handling practices are required. PIC (Person in Charge) certification is preferred.',
   },
   {
     q: 'What cuisines are in demand?',
@@ -126,13 +127,13 @@ const faqs = [
 
 const relatedServices = [
   {
-    title: 'How We Vet Our Chefs',
+    title: 'How We Vet the Chefs in Our Network',
     description: 'Understand the verification and assessment process every chef completes.',
     image: '/images/how-we-vet-our-chefs-dubai-hero.webp',
     link: '/how-we-vet-our-chefs',
   },
   {
-    title: 'Our Chefs',
+    title: 'The Chefs in Our Network',
     description: 'Meet the chefs who represent myCHEF Dubai at private events.',
     image: '/service-private-chef.webp',
     link: '/our-chefs',
@@ -145,17 +146,12 @@ const relatedServices = [
   },
 ]
 
-const inputClasses =
-  'w-full px-4 py-3.5 min-h-[48px] font-inter text-body border bg-white text-black placeholder:text-gray-400 focus:outline-none focus:border-gold focus:ring-2 focus:ring-gold/20 transition-all duration-200'
-const inputErrorClasses = 'border-red-500 focus:border-red-500 focus:ring-red-500/20'
-const inputNormalClasses = 'border-gray-200'
-
 const schema = {
   '@context': 'https://schema.org',
   '@graph': [
     serviceSchema(
       'Become a myCHEF',
-      'Join the myCHEF Dubai private chef network. Apply online with your experience, cuisines, visa status, and certifications.',
+      'Join the myCHEF Dubai private chef network. Experienced chefs, pastry chefs, and event chefs can apply via WhatsApp. Flexible events across Dubai.',
       'Chef Recruitment Service',
       'Dubai',
     ),
@@ -168,98 +164,9 @@ const schema = {
 }
 
 export default function BecomeAMyChef() {
-  const navigate = useNavigate()
-  const containerRef = useRef<HTMLDivElement>(null)
   const [openFaq, setOpenFaq] = useState<number | null>(null)
-  const [formState, setFormState] = useState<'idle' | 'submitting' | 'success'>('idle')
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    experience: '',
-    cuisines: '',
-    visaStatus: '',
-    certificate: '',
-    portfolio: '',
-    message: '',
-  })
-  const [errors, setErrors] = useState<Record<string, boolean>>({})
-
-  const validate = () => {
-    const newErrors: Record<string, boolean> = {}
-    if (!formData.name.trim()) newErrors.name = true
-    if (!formData.email.trim() || !/\S+@\S+\.\S+/.test(formData.email)) newErrors.email = true
-    if (!formData.phone.trim()) newErrors.phone = true
-    if (!formData.experience) newErrors.experience = true
-    if (!formData.cuisines.trim()) newErrors.cuisines = true
-    if (!formData.visaStatus) newErrors.visaStatus = true
-    setErrors(newErrors)
-    return Object.keys(newErrors).length === 0
-  }
-
-  const handleChange = (field: string, value: string) => {
-    setFormData(prev => ({ ...prev, [field]: value }))
-    if (errors[field]) {
-      setErrors(prev => ({ ...prev, [field]: false }))
-    }
-  }
-
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault()
-    if (!validate()) return
-    setFormState('submitting')
-
-    const payload = {
-      name: formData.name,
-      email: formData.email,
-      phone: formData.phone,
-      serviceType: 'chef-application',
-      message: [
-        'Years of experience: ' + formData.experience,
-        'Cuisines: ' + formData.cuisines,
-        'Visa status: ' + formData.visaStatus,
-        'Food handling / PIC certificate: ' + formData.certificate,
-        'Portfolio / CV: ' + formData.portfolio,
-        '',
-        formData.message,
-      ].filter(Boolean).join('\n'),
-      formId: 'chef-application-form',
-      page: window.location.pathname + window.location.search,
-      source: 'become_a_mychef_page',
-    }
-
-    try {
-      const res = await fetch('/api/submit-lead', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(payload),
-      })
-      if (!res.ok) throw new Error('Submit failed')
-      navigate('/thank-you')
-    } catch {
-      const lines = [
-        'New chef application — myCHEF Dubai',
-        '',
-        `Name: ${formData.name}`,
-        `Email: ${formData.email}`,
-        `Phone: ${formData.phone}`,
-        `Experience: ${formData.experience}`,
-        `Cuisines: ${formData.cuisines}`,
-        `Visa status: ${formData.visaStatus}`,
-        `Certificate: ${formData.certificate}`,
-        `Portfolio/CV: ${formData.portfolio}`,
-        '',
-        `Message: ${formData.message}`,
-      ].filter(Boolean)
-      const waUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(lines.join('\n'))}`
-      window.open(waUrl, '_blank')
-      setFormState('success')
-    }
-  }
 
   useGSAP(() => {
-    if (!containerRef.current) return
-
     gsap.to('.bmc-hero-h1', { opacity: 1, y: 0, duration: 0.8, ease: 'power3.out' })
     gsap.to('.bmc-hero-sub', { opacity: 1, y: 0, duration: 0.6, delay: 0.3, ease: 'power3.out' })
     gsap.to('.bmc-hero-cta', { opacity: 1, y: 0, duration: 0.5, stagger: 0.15, delay: 0.6, ease: 'power3.out' })
@@ -308,13 +215,13 @@ export default function BecomeAMyChef() {
       scrollTrigger: { trigger: '.bmc-cta', start: 'top 85%', toggleActions: 'play none none none' },
       opacity: 1, y: 0, duration: 0.7, ease: 'power3.out',
     })
-  }, { scope: containerRef })
+  })
 
   return (
-    <div ref={containerRef}>
+    <div>
       <SEO
         title="Become a myCHEF | Private Chef Jobs Dubai"
-        description="Join the myCHEF Dubai private chef network. Experienced chefs, pastry chefs, and event chefs can apply online. Flexible events across Dubai."
+        description="Join the myCHEF Dubai private chef network. Experienced chefs, pastry chefs, and event chefs can apply via WhatsApp. Flexible events across Dubai."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/become-a-mychef-dubai-hero.webp"
         schema={schema}
@@ -344,19 +251,26 @@ export default function BecomeAMyChef() {
             Experienced private chefs, pastry chefs, and event chefs — work with Dubai's trusted luxury catering brand on flexible, premium events.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a href="#chef-application-form" className="btn-primary opacity-0 translate-y-4 bmc-hero-cta">Apply Now</a>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
               rel="noopener noreferrer"
-              className="btn-secondary opacity-0 translate-y-4 bmc-hero-cta"
+              className="btn-primary opacity-0 translate-y-4 bmc-hero-cta inline-flex items-center gap-2"
             >
-              <Phone size={16} className="mr-2" />
-              Chat on WhatsApp
+              <MessageCircle size={18} />
+              Apply on WhatsApp
+            </a>
+            <a
+              href="mailto:hello@mychef.ae"
+              className="btn-secondary opacity-0 translate-y-4 bmc-hero-cta inline-flex items-center gap-2"
+            >
+              Email Instead
             </a>
           </div>
         </div>
       </section>
+
+      <TrustSignalStrip />
 
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
@@ -375,7 +289,7 @@ export default function BecomeAMyChef() {
               We are not a gig platform. We are a curated network. Every chef is vetted, every menu is bespoke, and every event is supported by a team that understands the standards expected in Dubai's luxury market. In return, you get access to interesting clients, flexible scheduling, clear payment terms, and a brand that promotes your skills professionally.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              Read on to see our requirements, the application process, and what makes a strong candidate. You can also review <Link to="/how-we-vet-our-chefs" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">how we vet our chefs</Link> or explore the <Link to="/our-chefs" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">chefs already in our network</Link>.
+              Read on to see our requirements, the application process, and what makes a strong candidate. You can also review <Link to="/how-we-vet-our-chefs" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">how we vet the chefs in our network</Link> or explore the <Link to="/our-chefs" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">chefs already in our network</Link>.
             </p>
           </div>
         </div>
@@ -463,187 +377,80 @@ export default function BecomeAMyChef() {
         </div>
       </section>
 
-      {/* ═══════════════ Section 6: Application Form ═══════════════ */}
+      {/* ═══════════════ Section 6: WhatsApp Application CTA ═══════════════ */}
       <section id="chef-application-form" className="bmc-form-section bg-cream section-padding">
         <div className="container-custom max-w-[1200px]">
-          {formState === 'success' ? (
-            <div className="text-center max-w-xl mx-auto py-16">
-              <div className="w-16 h-16 mx-auto mb-6 flex items-center justify-center rounded-full bg-gold/10">
-                <Check size={32} className="text-gold" />
-              </div>
-              <h2 className="font-playfair text-fluid-h2 text-black mb-4">Application Received</h2>
+          <div className="grid grid-cols-1 lg:grid-cols-[55%_45%] gap-y-12 lg:gap-x-12">
+            <div className="bmc-form-left">
+              <span className="font-inter text-caption font-medium uppercase tracking-wider text-gold mb-3 block">CHEF APPLICATION</span>
+              <h2 className="font-playfair text-fluid-h2 text-black mb-2" style={{ lineHeight: '1.15' }}>
+                Apply to Become a myCHEF
+              </h2>
               <p className="font-inter text-body text-gray-500 mb-8">
-                Thank you for applying to become a myCHEF. Our team will review your details and respond within 2–3 business days.
+                Tap the button below and send us your details on WhatsApp. Include your experience, cuisines, visa status, certifications, and a link to your portfolio or CV — the more detail, the faster we can assess your fit.
               </p>
-              <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-primary inline-flex items-center gap-2">
-                <Phone size={18} />
-                Follow Up on WhatsApp
+              <a
+                href={WHATSAPP_LINK}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-primary inline-flex items-center gap-2"
+              >
+                <MessageCircle size={20} />
+                Apply on WhatsApp
               </a>
-            </div>
-          ) : (
-            <div className="grid grid-cols-1 lg:grid-cols-[55%_45%] gap-y-12 lg:gap-x-12">
-              <div className="bmc-form-left">
-                <span className="font-inter text-caption font-medium uppercase tracking-wider text-gold mb-3 block">CHEF APPLICATION</span>
-                <h2 className="font-playfair text-fluid-h2 text-black mb-2" style={{ lineHeight: '1.15' }}>
-                  Apply to Become a myCHEF
-                </h2>
-                <p className="font-inter text-body text-gray-500 mb-8">
-                  Fill in the form below. The more detail you provide about your experience and cuisines, the faster we can assess your fit.
-                </p>
-                <form id="chef-application-form" onSubmit={handleSubmit} className="space-y-5">
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-                    <div>
-                      <input
-                        type="text"
-                        placeholder="Full name"
-                        value={formData.name}
-                        onChange={e => handleChange('name', e.target.value)}
-                        className={`${inputClasses} ${errors.name ? inputErrorClasses : inputNormalClasses}`}
-                      />
-                      {errors.name && <p className="text-red-500 text-body-sm mt-1">Name is required</p>}
-                    </div>
-                    <div>
-                      <input
-                        type="email"
-                        placeholder="your@email.com"
-                        value={formData.email}
-                        onChange={e => handleChange('email', e.target.value)}
-                        className={`${inputClasses} ${errors.email ? inputErrorClasses : inputNormalClasses}`}
-                      />
-                      {errors.email && <p className="text-red-500 text-body-sm mt-1">Valid email is required</p>}
-                    </div>
-                  </div>
-                  <div>
-                    <input
-                      type="tel"
-                      placeholder="+971 XX XXX XXXX"
-                      value={formData.phone}
-                      onChange={e => handleChange('phone', e.target.value)}
-                      className={`${inputClasses} ${errors.phone ? inputErrorClasses : inputNormalClasses}`}
-                    />
-                    {errors.phone && <p className="text-red-500 text-body-sm mt-1">Phone number is required</p>}
-                  </div>
-                  <div>
-                    <select
-                      value={formData.experience}
-                      onChange={e => handleChange('experience', e.target.value)}
-                      className={`${inputClasses} appearance-none cursor-pointer ${errors.experience ? inputErrorClasses : inputNormalClasses} ${!formData.experience ? 'text-gray-400' : 'text-black'}`}
-                      style={{ backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23C8A45C' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E")`, backgroundRepeat: 'no-repeat', backgroundPosition: 'right 16px center' }}
-                    >
-                      <option value="">Years of professional cooking experience</option>
-                      <option value="1-3 years">1–3 years</option>
-                      <option value="3-5 years">3–5 years</option>
-                      <option value="5-10 years">5–10 years</option>
-                      <option value="10+ years">10+ years</option>
-                    </select>
-                    {errors.experience && <p className="text-red-500 text-body-sm mt-1">Please select your experience</p>}
-                  </div>
-                  <div>
-                    <input
-                      type="text"
-                      placeholder="Cuisines you specialise in (e.g. Arabic, Indian, pastry, sushi)"
-                      value={formData.cuisines}
-                      onChange={e => handleChange('cuisines', e.target.value)}
-                      className={`${inputClasses} ${errors.cuisines ? inputErrorClasses : inputNormalClasses}`}
-                    />
-                    {errors.cuisines && <p className="text-red-500 text-body-sm mt-1">Please list your cuisines</p>}
-                  </div>
-                  <div>
-                    <select
-                      value={formData.visaStatus}
-                      onChange={e => handleChange('visaStatus', e.target.value)}
-                      className={`${inputClasses} appearance-none cursor-pointer ${errors.visaStatus ? inputErrorClasses : inputNormalClasses} ${!formData.visaStatus ? 'text-gray-400' : 'text-black'}`}
-                      style={{ backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23C8A45C' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E")`, backgroundRepeat: 'no-repeat', backgroundPosition: 'right 16px center' }}
-                    >
-                      <option value="">Current visa / right-to-work status</option>
-                      <option value="UAE resident visa with work permit">UAE resident visa with work permit</option>
-                      <option value="Freelance permit (culinary/F&B)">Freelance permit (culinary/F&B)</option>
-                      <option value="Sponsor visa, eligible for freelance">Sponsor visa, eligible for freelance</option>
-                      <option value="Other">Other</option>
-                    </select>
-                    {errors.visaStatus && <p className="text-red-500 text-body-sm mt-1">Please select your visa status</p>}
-                  </div>
-                  <div>
-                    <select
-                      value={formData.certificate}
-                      onChange={e => handleChange('certificate', e.target.value)}
-                      className={`${inputClasses} appearance-none cursor-pointer ${inputNormalClasses} ${!formData.certificate ? 'text-gray-400' : 'text-black'}`}
-                      style={{ backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23C8A45C' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E")`, backgroundRepeat: 'no-repeat', backgroundPosition: 'right 16px center' }}
-                    >
-                      <option value="">Do you hold a valid food-handling / PIC certificate?</option>
-                      <option value="Yes, PIC certificate">Yes, PIC certificate</option>
-                      <option value="Yes, basic food hygiene">Yes, basic food hygiene</option>
-                      <option value="No, but willing to obtain">No, but willing to obtain</option>
-                      <option value="No">No</option>
-                    </select>
-                  </div>
-                  <div>
-                    <input
-                      type="url"
-                      placeholder="Link to portfolio, CV, or Instagram"
-                      value={formData.portfolio}
-                      onChange={e => handleChange('portfolio', e.target.value)}
-                      className={`${inputClasses} ${inputNormalClasses}`}
-                    />
-                  </div>
-                  <div>
-                    <textarea
-                      rows={5}
-                      placeholder="Tell us about your background, favourite cuisines, and why you want to join myCHEF Dubai..."
-                      value={formData.message}
-                      onChange={e => handleChange('message', e.target.value)}
-                      className={`${inputClasses} resize-none ${inputNormalClasses}`}
-                    />
-                  </div>
-                  <button
-                    type="submit"
-                    disabled={formState === 'submitting'}
-                    className="btn-primary w-full disabled:opacity-50 disabled:cursor-not-allowed inline-flex items-center justify-center gap-2"
-                  >
-                    <Send size={18} />
-                    {formState === 'submitting' ? 'Sending...' : 'Submit Application'}
-                  </button>
-                </form>
+              <div className="mt-6 flex flex-col gap-3">
+                <div className="flex items-start gap-3">
+                  <Check size={16} className="text-gold mt-1 flex-shrink-0" />
+                  <span className="font-inter text-body-sm text-gray-500">Response within 2–3 business days.</span>
+                </div>
+                <div className="flex items-start gap-3">
+                  <Check size={16} className="text-gold mt-1 flex-shrink-0" />
+                  <span className="font-inter text-body-sm text-gray-500">No account or app download needed — just WhatsApp.</span>
+                </div>
+                <div className="flex items-start gap-3">
+                  <Check size={16} className="text-gold mt-1 flex-shrink-0" />
+                  <span className="font-inter text-body-sm text-gray-500">Prefer email? Send your CV to <a href="mailto:hello@mychef.ae" className="text-gold hover:text-gold-light underline underline-offset-4">hello@mychef.ae</a>.</span>
+                </div>
               </div>
+            </div>
 
-              <div className="bmc-form-right bg-black p-8 lg:p-12 h-fit">
-                <h3 className="font-playfair text-fluid-h3 text-white mb-8" style={{ lineHeight: '1.2' }}>
-                  Before You Apply
-                </h3>
-                <div className="space-y-6">
-                  <div className="flex items-start gap-3">
-                    <Check size={16} className="text-gold mt-1 flex-shrink-0" />
-                    <span className="font-inter text-body text-gray-400">Only experienced professional chefs are accepted.</span>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <Check size={16} className="text-gold mt-1 flex-shrink-0" />
-                    <span className="font-inter text-body text-gray-400">Right-to-work in the UAE is mandatory.</span>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <Check size={16} className="text-gold mt-1 flex-shrink-0" />
-                    <span className="font-inter text-body text-gray-400">A practical trial cook is required before approval.</span>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <Check size={16} className="text-gold mt-1 flex-shrink-0" />
-                    <span className="font-inter text-body text-gray-400">References and portfolio strengthen your application.</span>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <Check size={16} className="text-gold mt-1 flex-shrink-0" />
-                    <span className="font-inter text-body text-gray-400">No chef is guaranteed events — work is matched by fit and availability.</span>
-                  </div>
+            <div className="bmc-form-right bg-black p-8 lg:p-12 h-fit">
+              <h3 className="font-playfair text-fluid-h3 text-white mb-8" style={{ lineHeight: '1.2' }}>
+                Before You Apply
+              </h3>
+              <div className="space-y-6">
+                <div className="flex items-start gap-3">
+                  <Check size={16} className="text-gold mt-1 flex-shrink-0" />
+                  <span className="font-inter text-body text-gray-400">Only experienced professional chefs are accepted.</span>
                 </div>
-                <div className="mt-10 pt-8 border-t border-charcoal-light">
-                  <p className="font-inter text-body-sm text-gray-400 mb-4">
-                    Questions before applying? Reach out directly.
-                  </p>
-                  <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-secondary inline-flex items-center gap-2 w-full justify-center">
-                    <Phone size={16} />
-                    Chat on WhatsApp
-                  </a>
+                <div className="flex items-start gap-3">
+                  <Check size={16} className="text-gold mt-1 flex-shrink-0" />
+                  <span className="font-inter text-body text-gray-400">Right-to-work in the UAE is mandatory.</span>
+                </div>
+                <div className="flex items-start gap-3">
+                  <Check size={16} className="text-gold mt-1 flex-shrink-0" />
+                  <span className="font-inter text-body text-gray-400">A practical trial cook is required before approval.</span>
+                </div>
+                <div className="flex items-start gap-3">
+                  <Check size={16} className="text-gold mt-1 flex-shrink-0" />
+                  <span className="font-inter text-body text-gray-400">References and portfolio strengthen your application.</span>
+                </div>
+                <div className="flex items-start gap-3">
+                  <Check size={16} className="text-gold mt-1 flex-shrink-0" />
+                  <span className="font-inter text-body text-gray-400">No chef is guaranteed events — work is matched by fit and availability.</span>
                 </div>
               </div>
+              <div className="mt-10 pt-8 border-t border-charcoal-light">
+                <p className="font-inter text-body-sm text-gray-400 mb-4">
+                  Questions before applying? Reach out directly.
+                </p>
+                <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-secondary inline-flex items-center gap-2 w-full justify-center">
+                  <Phone size={16} />
+                  Chat on WhatsApp
+                </a>
+              </div>
             </div>
-          )}
+          </div>
         </div>
       </section>
 
@@ -658,21 +465,22 @@ export default function BecomeAMyChef() {
             {faqs.map((faq, i) => (
               <div key={i} className="bmc-faq-item border border-gray-200 opacity-0 translate-y-5">
                 <button
+                  type="button"
                   onClick={() => setOpenFaq(openFaq === i ? null : i)}
-                  className="w-full flex items-center justify-between p-5 text-left"
+                  className="w-full flex items-center justify-between p-5 text-left hover:bg-gray-50 transition-colors"
                 >
-                  <span className="font-inter text-base font-medium text-black pr-4">{faq.q}</span>
+                  <span className="font-playfair text-h4 text-black pr-4">{faq.q}</span>
                   <ChevronRight
-                    size={18}
+                    size={20}
                     className={`text-gold flex-shrink-0 transition-transform duration-300 ${openFaq === i ? 'rotate-90' : ''}`}
                   />
                 </button>
                 <div
-                  className={`overflow-hidden transition-all duration-300 ${openFaq === i ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'}`}
+                  className={`overflow-hidden transition-all duration-300 ${openFaq === i ? 'max-h-96' : 'max-h-0'}`}
                 >
-                  <div className="px-5 pb-5">
-                    <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{faq.a}</p>
-                  </div>
+                  <p className="font-inter text-body text-gray-500 px-5 pb-5 leading-relaxed">
+                    {faq.a}
+                  </p>
                 </div>
               </div>
             ))}
@@ -680,21 +488,20 @@ export default function BecomeAMyChef() {
         </div>
       </section>
 
-      {/* ═══════════════ Section 8: Related Services ═══════════════ */}
+      {/* ═══════════════ Section 8: Related Pages ═══════════════ */}
       <section className="bg-black py-20">
         <div className="container-custom">
-          <h3 className="font-playfair text-h3 text-white text-center mb-10">
-            You May Also Like
-          </h3>
-
+          <h2 className="font-playfair text-h2 text-white text-center mb-10">
+            You Might Also Like
+          </h2>
           <div className="bmc-rel-grid grid md:grid-cols-3 gap-6">
             {relatedServices.map((svc, i) => (
               <Link
                 key={i}
                 to={svc.link}
-                className="bmc-rel-card group bg-charcoal overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
+                className="bmc-rel-card group block bg-charcoal overflow-hidden opacity-0 translate-y-8"
               >
-                <div className="aspect-video overflow-hidden">
+                <div className="aspect-[16/10] overflow-hidden">
                   <img
                     src={svc.image}
                     alt={svc.title}
@@ -721,18 +528,23 @@ export default function BecomeAMyChef() {
             Ready to Join?
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Take the first step toward cooking with myCHEF Dubai. Submit your application and our team will be in touch within 2–3 business days.
+            Take the first step toward cooking with myCHEF Dubai. Send your application on WhatsApp and the chefs in our network will be in touch within 2–3 business days.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a href="#chef-application-form" className="btn-primary">Apply Now</a>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
               rel="noopener noreferrer"
-              className="btn-secondary"
+              className="btn-primary inline-flex items-center gap-2"
             >
-              <Phone size={16} className="mr-2" />
-              Chat on WhatsApp
+              <MessageCircle size={18} />
+              Apply on WhatsApp
+            </a>
+            <a
+              href="mailto:hello@mychef.ae"
+              className="btn-secondary inline-flex items-center gap-2"
+            >
+              Email Instead
             </a>
           </div>
         </div>
