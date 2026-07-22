@@ -47,7 +47,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     const port = process.env.SMTP_PORT ? Number(process.env.SMTP_PORT) : 587
     const user = process.env.SMTP_USER
     const pass = process.env.SMTP_PASS
-    const to = process.env.LEAD_EMAIL_TO || 'hallo@mychef.ae'
+    const to = process.env.LEAD_EMAIL_TO || 'hello@mychef.ae'
     const from = process.env.SMTP_FROM || user || 'leads@mychef.ae'
 
     let emailSent = false

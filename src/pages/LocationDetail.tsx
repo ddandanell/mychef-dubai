@@ -188,7 +188,7 @@ export default function LocationDetail() {
         name: 'myCHEF Dubai',
         url: 'https://mychef.ae',
         telephone: '+971-55-174-4849',
-        email: 'hallo@mychef.ae',
+        email: 'hello@mychef.ae',
         image: `https://mychef.ae${loc.heroImage}`,
         priceRange: '$$$$',
         areaServed: {

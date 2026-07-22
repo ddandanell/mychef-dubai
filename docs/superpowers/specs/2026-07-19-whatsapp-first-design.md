@@ -20,7 +20,7 @@ Make WhatsApp the primary communication channel on mychef.ae. Every place where 
   - Reply within 2 hours
 - Primary CTA: gold "Request My Quote on WhatsApp" button.
 - Pre-filled WhatsApp message: `"Hi myCHEF Dubai, I'd like to request a bespoke quote (via mychef.ae/inquiry)"`.
-- Small fallback line: "Prefer email? hallo@mychef.ae".
+- Small fallback line: "Prefer email? hello@mychef.ae".
 
 ### 2. `/contact` (Contact)
 - Remove the contact form.

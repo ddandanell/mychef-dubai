@@ -226,7 +226,7 @@ export default function PartnerWithUs() {
               </a>
             </div>
             <p className="font-inter text-sm text-gray-400 mt-6">
-              Or email us at <a href="mailto:hallo@mychef.ae" className="text-gold hover:text-gold-light underline underline-offset-4">hallo@mychef.ae</a>
+              Or email us at <a href="mailto:hello@mychef.ae" className="text-gold hover:text-gold-light underline underline-offset-4">hello@mychef.ae</a>
             </p>
             <p className="font-inter text-sm text-gray-400 mt-4">
               Need logos, bios, or media assets? Download everything from our{' '}

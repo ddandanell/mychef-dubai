@@ -237,11 +237,11 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="mailto:hallo@mychef.ae"
+                  href="mailto:hello@mychef.ae"
                   className="flex items-center gap-3 font-inter text-body-sm text-gray-400 hover:text-gold transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-black rounded-sm"
                 >
                   <Mail size={16} className="text-gold flex-shrink-0" aria-hidden="true" />
-                  <span>hallo@mychef.ae</span>
+                  <span>hello@mychef.ae</span>
                 </a>
               </li>
               <li>

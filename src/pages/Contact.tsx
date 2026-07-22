@@ -25,10 +25,10 @@ const contactCards = [
   {
     icon: Mail,
     title: 'Email',
-    detail: 'hallo@mychef.ae',
+    detail: 'hello@mychef.ae',
     action: 'Send Email',
     actionType: 'mailto' as const,
-    href: 'mailto:hallo@mychef.ae',
+    href: 'mailto:hello@mychef.ae',
   },
   {
     icon: Clock,
@@ -223,8 +223,8 @@ export default function Contact() {
 
               <p className="font-inter text-body-sm text-gray-500 mt-6">
                 Prefer email?{' '}
-                <a href="mailto:hallo@mychef.ae" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
-                  hallo@mychef.ae
+                <a href="mailto:hello@mychef.ae" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
+                  hello@mychef.ae
                 </a>
               </p>
             </div>
