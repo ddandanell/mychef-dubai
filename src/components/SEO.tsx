@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import { Helmet } from 'react-helmet-async'
 
 interface SEOProps {
@@ -26,6 +27,18 @@ export default function SEO({
   const fullTitle = title ? `${title} | ${SITE_NAME}` : DEFAULT_TITLE
 
   const canonicalUrl = `${SITE_URL}${canonicalPath}`
+
+  // React 19 natively hoists <title> to document.head; react-helmet-async can
+  // leave a duplicate after hydration on a prerendered page. Keep only the
+  // most-recently-rendered title so the audit sees exactly one <title>.
+  useEffect(() => {
+    const titles = document.head.querySelectorAll('title')
+    if (titles.length > 1) {
+      for (let i = 0; i < titles.length - 1; i += 1) {
+        titles[i].remove()
+      }
+    }
+  }, [fullTitle])
 
   return (
     <Helmet>

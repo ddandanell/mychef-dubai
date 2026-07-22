@@ -25,7 +25,7 @@ const config: ServicePageConfig = {
         Trade shows and exhibitions in Dubai move fast. Whether you are hosting a stand at Dubai World Trade Centre, organising a pavilion at Expo City, or running a corporate showcase at a hotel ballroom, your catering needs to keep pace with long hours, high footfall and back-to-back meetings. Our exhibition catering service is built around reliability, speed and presentation that reflects your brand.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        We provide branded food counters, passed canapés, grab-and-go lunch boxes, barista coffee stations, refreshment trolleys and VIP hospitality menus. Everything is designed to be served efficiently in a busy exhibition environment, with clear labelling for dietary needs and packaging that travels well from prep kitchen to stand.
+        We provide branded food counters, passed canapés, grab-and-go meal boxes, barista coffee stations, refreshment trolleys and VIP hospitality menus. Everything is designed to be served efficiently in a busy exhibition environment, with clear labelling for dietary needs and packaging that travels well from prep kitchen to stand.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
         Exhibition catering sits within our wider{' '}
@@ -66,8 +66,8 @@ const config: ServicePageConfig = {
     },
     {
       Icon: Truck,
-      title: 'Grab-and-Go Lunch Boxes',
-      description: 'Individually packed lunches for staff, crew and visitors who need to eat quickly without leaving the venue.',
+      title: 'Grab-and-Go Meal Boxes',
+      description: 'Individually packed meals for staff, crew and visitors who need to eat quickly without leaving the venue.',
       link: '/drop-off-catering-dubai',
     },
     {
