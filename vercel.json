@@ -31,6 +31,7 @@
     }
   ],
   "rewrites": [
-    { "source": "/((?!assets/|.*\\.).*)", "destination": "/index.html" }
+    { "source": "/inquiry", "destination": "/index.html" },
+    { "source": "/thank-you", "destination": "/index.html" }
   ]
 }
