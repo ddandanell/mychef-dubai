@@ -8,6 +8,8 @@ import SEO from '../../components/SEO'
 import PageHero from '../../components/PageHero'
 import BlogRelated from '../../components/BlogRelated'
 import TrustSignalStrip from '../../components/TrustSignalStrip'
+import KeyFactsBox from '../../components/KeyFactsBox'
+import SourcesBlock from '../../components/SourcesBlock'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -25,7 +27,7 @@ const articleSchema = {
   author: { '@type': 'Organization', name: 'myCHEF Dubai Team' },
   publisher: { '@type': 'Organization', name: 'myCHEF Dubai', url: 'https://mychef.ae' },
   datePublished: '2026-07-01',
-  dateModified: '2026-07-01',
+  dateModified: '2026-07-22',
   mainEntityOfPage: { '@type': 'WebPage', '@id': `https://mychef.ae/blog/${SLUG}` },
 }
 
@@ -38,9 +40,41 @@ const breadcrumbSchema = {
   ],
 }
 
+const faqs = [
+  {
+    q: 'What are the top Ramadan Iftar catering trends for 2026?',
+    a: 'The leading trends are grazing-style Iftar tables, modern Emirati dishes served in lighter formats, locally sourced ingredients, creative mocktails and hydration menus, and digital pre-ordering to manage dietary needs and reduce waste.',
+  },
+  {
+    q: 'How can I reduce food waste at a large Iftar?',
+    a: 'Plan around accurate headcounts, use portion-controlled live stations, and arrange for untouched surplus to be donated through local food-sharing platforms. Grazing tables also let guests take only what they want.',
+  },
+  {
+    q: 'What drinks are popular for Iftar in Dubai?',
+    a: 'Beyond traditional jallab and tamarind, hosts are requesting rose-water lemonade, date smoothies, sparkling pomegranate spritzers, and cardamom iced coffee. Water and electrolyte-rich options are also provided through the evening.',
+  },
+  {
+    q: 'Can Iftar catering accommodate dietary restrictions?',
+    a: 'Yes. Vegetarian, vegan, gluten-free, dairy-free, and nut-free options can be built into the menu from the start. Collect requirements early so the kitchen can plan safely and avoid cross-contamination.',
+  },
+  {
+    q: 'How far in advance should I book Ramadan catering in Dubai?',
+    a: 'For intimate family Iftars, one week is usually enough. For corporate Iftars, large venues, or peak weekends during Ramadan, book two to four weeks ahead to secure staff and preferred ingredients.',
+  },
+]
+
+const faqSchema = {
+  '@type': 'FAQPage',
+  mainEntity: faqs.map((f) => ({
+    '@type': 'Question',
+    name: f.q,
+    acceptedAnswer: { '@type': 'Answer', text: f.a },
+  })),
+}
+
 const schema = {
   '@context': 'https://schema.org',
-  '@graph': [articleSchema, breadcrumbSchema],
+  '@graph': [articleSchema, faqSchema, breadcrumbSchema],
 }
 
 export default function RamadanIftarTrends2026() {
@@ -92,6 +126,17 @@ export default function RamadanIftarTrends2026() {
             <span>|</span>
             <time dateTime="2026-07-01">July 2026</time>
           </div>
+
+          <KeyFactsBox
+            answer="In 2026, Dubai Iftar catering trends favor grazing-style sharing tables, modern Emirati flavors, locally sourced ingredients, creative mocktails, and digital pre-ordering to reduce waste and accommodate dietary needs."
+            facts={[
+              { label: 'Leading formats', value: 'Grazing tables, live stations, sharing mezze' },
+              { label: 'Signature dishes', value: 'Lamb ouzi, harees, machboos, balaleet' },
+              { label: 'Beverage focus', value: 'Rose lemonade, date smoothies, cardamom iced coffee' },
+              { label: 'Sourcing priority', value: 'Al Ain dates, UAE farm vegetables, regional seafood' },
+              { label: 'Planning tip', value: 'Collect dietary requirements early' },
+            ]}
+          />
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
@@ -158,6 +203,14 @@ export default function RamadanIftarTrends2026() {
             </p>
           </section>
 
+          <SourcesBlock
+            sources={[
+              { label: 'Dubai Municipality Food Code 2.0 — food safety, allergen controls, and catering guidance' },
+              { label: 'UAE Government Portal (u.ae) — Ramadan customs, working hours, and public observance' },
+            ]}
+            note="Cultural and culinary trends described reflect current Dubai hospitality practices and commonly requested Iftar formats; they are not official decrees."
+          />
+
           <section className="article-section opacity-0 translate-y-8 mb-12">
             <h2 className="font-playfair text-h2 text-black mb-5">Planning Your Iftar with myCHEF Dubai</h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
@@ -166,6 +219,18 @@ export default function RamadanIftarTrends2026() {
             <p className="font-inter text-body text-gray-500 leading-relaxed">
               Whether you want a traditional Emirati spread, a modern grazing table, or a mix of both, we build each Iftar menu around your group size, venue, and preferences.
             </p>
+          </section>
+
+          <section className="article-section opacity-0 translate-y-8 mb-12">
+            <h2 className="font-playfair text-h2 text-black mb-5">Frequently Asked Questions</h2>
+            <div className="space-y-6">
+              {faqs.map((f, i) => (
+                <div key={i}>
+                  <h3 className="font-playfair text-h4 text-black mb-2">{f.q}</h3>
+                  <p className="font-inter text-body text-gray-500 leading-relaxed">{f.a}</p>
+                </div>
+              ))}
+            </div>
           </section>
 
           <BlogRelated currentSlug="/blog/ramadan-iftar-catering-trends-2026" />

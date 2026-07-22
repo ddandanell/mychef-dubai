@@ -133,6 +133,8 @@ const articleSchema = {
   description: 'A guide to planning a luxury dinner in Dubai: menu design, tasting menus, tablescape, chef and service staff, lighting, music, ambience, and hosting tips.',
   author: { '@type': 'Organization', name: 'myCHEF Dubai' },
   publisher: { '@type': 'Organization', name: 'myCHEF Dubai', url: 'https://mychef.ae' },
+  datePublished: '2026-07-01',
+  dateModified: '2026-07-22',
 }
 
 const serviceSchema = {

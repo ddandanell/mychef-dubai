@@ -8,6 +8,8 @@ import SEO from '../../components/SEO'
 import PageHero from '../../components/PageHero'
 import BlogRelated from '../../components/BlogRelated'
 import TrustSignalStrip from '../../components/TrustSignalStrip'
+import KeyFactsBox from '../../components/KeyFactsBox'
+import SourcesBlock from '../../components/SourcesBlock'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -48,7 +50,7 @@ const articleSchema = {
   author: { '@type': 'Organization', name: 'myCHEF Dubai Team' },
   publisher: { '@type': 'Organization', name: 'myCHEF Dubai', url: 'https://mychef.ae' },
   datePublished: '2026-07-01',
-  dateModified: '2026-07-01',
+  dateModified: '2026-07-22',
   mainEntityOfPage: { '@type': 'WebPage', '@id': `https://mychef.ae/blog/${SLUG}` },
 }
 
@@ -124,6 +126,17 @@ export default function PrivateChefPalmJumeirahGuide() {
             <span>|</span>
             <time dateTime="2026-07-01">July 2026</time>
           </div>
+
+          <KeyFactsBox
+            answer="A private chef in Palm Jumeirah typically costs AED 950–1,450 for breakfast or brunch, AED 1,450–2,450 for lunch, and AED 2,200–4,500 for dinner for 2–8 guests, with full-time live-in chefs starting around AED 22,000 per month."
+            facts={[
+              { label: 'Breakfast / brunch', value: 'AED 950–1,450' },
+              { label: 'Lunch (2–8 guests)', value: 'AED 1,450–2,450' },
+              { label: 'Dinner (2–8 guests)', value: 'AED 2,200–4,500' },
+              { label: 'Large party (10–30 guests)', value: 'AED 4,500–12,000+' },
+              { label: 'Full-time live-in chef', value: 'AED 22,000–38,000+ / month + benefits' },
+            ]}
+          />
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
@@ -204,6 +217,14 @@ export default function PrivateChefPalmJumeirahGuide() {
               These ranges are indicative and vary by menu, guest count, ingredient quality, and staffing. Grocery costs are usually billed separately or bundled into a per-person package, depending on the chef.
             </p>
           </section>
+
+          <SourcesBlock
+            sources={[
+              { label: 'Market-reference pricing compiled from competitor published menus and private-chef platforms (2025–26): Take a Chef, Splidu, Chef On Demand, Caterernear, Maison Culinaire' },
+              { label: 'Nakheel — Palm Jumeirah community and access guidelines (general reference)' },
+            ]}
+            note="Pricing ranges are indicative and depend on menu complexity, guest count, service style, and ingredient sourcing. Always request an itemised quote before booking."
+          />
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
             <h2 className="font-playfair text-h2 text-black mb-5">How to Plan the Menu</h2>

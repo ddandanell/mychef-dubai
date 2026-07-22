@@ -111,6 +111,8 @@ const articleSchema = {
   description: 'Compare private chef and catering services in Dubai: guest count, service style, cost, when to choose each, and hybrid options.',
   author: { '@type': 'Organization', name: 'myCHEF Dubai' },
   publisher: { '@type': 'Organization', name: 'myCHEF Dubai', url: 'https://mychef.ae' },
+  datePublished: '2026-07-01',
+  dateModified: '2026-07-22',
 }
 
 const serviceSchema = {

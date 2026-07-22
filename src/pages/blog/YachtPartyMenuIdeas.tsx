@@ -8,6 +8,8 @@ import SEO from '../../components/SEO'
 import PageHero from '../../components/PageHero'
 import BlogRelated from '../../components/BlogRelated'
 import TrustSignalStrip from '../../components/TrustSignalStrip'
+import KeyFactsBox from '../../components/KeyFactsBox'
+import SourcesBlock from '../../components/SourcesBlock'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -25,7 +27,7 @@ const articleSchema = {
   author: { '@type': 'Organization', name: 'myCHEF Dubai Team' },
   publisher: { '@type': 'Organization', name: 'myCHEF Dubai', url: 'https://mychef.ae' },
   datePublished: '2026-07-01',
-  dateModified: '2026-07-01',
+  dateModified: '2026-07-22',
   mainEntityOfPage: { '@type': 'WebPage', '@id': `https://mychef.ae/blog/${SLUG}` },
 }
 
@@ -38,9 +40,41 @@ const breadcrumbSchema = {
   ],
 }
 
+const faqs = [
+  {
+    q: 'What food works best for a yacht party in Dubai?',
+    a: 'Handheld, one-bite foods work best: canapés, skewers, mini cones, grazing boxes, fresh seafood, and individually portioned desserts. They travel well, need little cutlery, and reduce spills on a moving deck.',
+  },
+  {
+    q: 'How do you plan a menu for a small yacht galley?',
+    a: 'Prepare most dishes onshore and finish them on the boat. Avoid elaborate last-minute frying, baking, or assembly. Cold starters, pre-plated salads, and individually portioned desserts keep service efficient in a compact galley.',
+  },
+  {
+    q: 'What desserts survive heat and movement on a yacht?',
+    a: 'Choose sturdy, heat-tolerant desserts such as mini fruit tarts, chocolate truffles, date-based bites, individual panna cotta pots, and layered trifles in clear cups. Avoid tall cakes and ice cream.',
+  },
+  {
+    q: 'Should I serve alcohol or mocktails on a Dubai yacht cruise?',
+    a: 'Mocktails are always appropriate. Sparkling water with citrus, iced hibiscus tea, fresh coconut water, and a signature non-alcoholic serve are popular. Alcohol is only permitted where the yacht operator holds the correct licence and the guests are of legal drinking age.',
+  },
+  {
+    q: 'How far in advance should I order yacht catering?',
+    a: 'For small sunset cruises, three to five days is usually enough. For larger celebrations, themed menus, or peak-season weekends, book one to two weeks ahead so the chef can plan around galley constraints and secure fresh ingredients.',
+  },
+]
+
+const faqSchema = {
+  '@type': 'FAQPage',
+  mainEntity: faqs.map((f) => ({
+    '@type': 'Question',
+    name: f.q,
+    acceptedAnswer: { '@type': 'Answer', text: f.a },
+  })),
+}
+
 const schema = {
   '@context': 'https://schema.org',
-  '@graph': [articleSchema, breadcrumbSchema],
+  '@graph': [articleSchema, faqSchema, breadcrumbSchema],
 }
 
 export default function YachtPartyMenuIdeas() {
@@ -93,6 +127,17 @@ export default function YachtPartyMenuIdeas() {
             <time dateTime="2026-07-01">July 2026</time>
           </div>
 
+          <KeyFactsBox
+            answer="The best yacht party menus in Dubai feature handheld canapés, pre-plated seafood, individually portioned desserts, and hydrating mocktails that travel well on the water."
+            facts={[
+              { label: 'Outdoor yacht season', value: 'Nov–Apr daily max 24–32°C' },
+              { label: 'Summer peak', value: 'Jul–Aug ≈ 40°C' },
+              { label: 'Best formats', value: 'Canapés, skewers, mini cones, grazing boxes' },
+              { label: 'Recommended proteins', value: 'Grilled sea bass, king prawns, sushi-grade tuna' },
+              { label: 'Maritime regulator', value: 'Dubai Maritime Authority (DMA) under PCFC' },
+            ]}
+          />
+
           <section className="article-section opacity-0 translate-y-8 mb-12">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               A yacht party in Dubai is one of the most memorable ways to celebrate a birthday, anniversary, corporate milestone, or simply a sunset among friends. But the best yacht menus are not just smaller versions of a land-based banquet. They need to account for compact galleys, movement on the water, limited plating space, and guests who want to socialise without juggling heavy plates.
@@ -113,6 +158,14 @@ export default function YachtPartyMenuIdeas() {
               On a moving vessel, guests prefer food they can hold in one hand while holding a drink in the other. Canapés, skewers, mini cones, and grazing boxes eliminate the need for cutlery and reduce the risk of spills.
             </p>
           </section>
+
+          <SourcesBlock
+            sources={[
+              { label: 'Dubai Maritime Authority (DMA) — yacht charter and maritime safety regulations under Ports, Customs and Free Zone Corporation (PCFC)' },
+              { label: 'UAE National Centre of Meteorology — historical climate data for Dubai' },
+            ]}
+            note="Temperature ranges are historical averages for Dubai. Yacht catering logistics should always be confirmed with your yacht operator and captain."
+          />
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
             <h2 className="font-playfair text-h2 text-black mb-5">Canapés and Handheld Starters</h2>
@@ -176,6 +229,18 @@ export default function YachtPartyMenuIdeas() {
             <p className="font-inter text-body text-gray-500 leading-relaxed">
               From sunset canapés to multi-course dinners at anchor, we design yacht menus that look as good as they taste.
             </p>
+          </section>
+
+          <section className="article-section opacity-0 translate-y-8 mb-12">
+            <h2 className="font-playfair text-h2 text-black mb-5">Frequently Asked Questions</h2>
+            <div className="space-y-6">
+              {faqs.map((f, i) => (
+                <div key={i}>
+                  <h3 className="font-playfair text-h4 text-black mb-2">{f.q}</h3>
+                  <p className="font-inter text-body text-gray-500 leading-relaxed">{f.a}</p>
+                </div>
+              ))}
+            </div>
           </section>
 
           <BlogRelated currentSlug="/blog/yacht-party-menu-ideas-dubai" />

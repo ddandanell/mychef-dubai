@@ -8,6 +8,8 @@ import SEO from '../../components/SEO'
 import PageHero from '../../components/PageHero'
 import BlogRelated from '../../components/BlogRelated'
 import TrustSignalStrip from '../../components/TrustSignalStrip'
+import KeyFactsBox from '../../components/KeyFactsBox'
+import SourcesBlock from '../../components/SourcesBlock'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -48,7 +50,7 @@ const articleSchema = {
   author: { '@type': 'Organization', name: 'myCHEF Dubai Team' },
   publisher: { '@type': 'Organization', name: 'myCHEF Dubai', url: 'https://mychef.ae' },
   datePublished: '2026-07-01',
-  dateModified: '2026-07-01',
+  dateModified: '2026-07-22',
   mainEntityOfPage: { '@type': 'WebPage', '@id': `https://mychef.ae/blog/${SLUG}` },
 }
 
@@ -125,6 +127,17 @@ export default function WeeklyMealPrepVsFullTimeChef() {
             <time dateTime="2026-07-01">July 2026</time>
           </div>
 
+          <KeyFactsBox
+            answer="Weekly meal prep in Dubai usually costs AED 1,898–2,698 per week and suits busy households wanting flexibility; a full-time private chef costs AED 18,000–35,000+ per month and suits households needing daily on-call cooking."
+            facts={[
+              { label: 'Weekly meal prep', value: 'AED 1,898–2,698 / week' },
+              { label: 'Full-time private chef', value: 'AED 18,000–35,000+ / month + benefits' },
+              { label: 'Meal prep commitment', value: 'Weekly or monthly plan' },
+              { label: 'Full-time commitment', value: 'Annual contract typical' },
+              { label: 'Best for meal prep', value: 'Professionals, small families, health-focused households' },
+            ]}
+          />
+
           <section className="article-section opacity-0 translate-y-8 mb-12">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               Eating well at home in Dubai should be simple, but the choice between a <strong>weekly meal prep service</strong> and a <strong>full-time private chef</strong> is not always obvious. Both give you restaurant-quality food without cooking yourself, yet they differ sharply in cost, commitment, flexibility, and day-to-day lifestyle.
@@ -178,6 +191,14 @@ export default function WeeklyMealPrepVsFullTimeChef() {
               For most Dubai households, meal prep is the more economical route. You get professionally cooked, portioned meals without the overhead of a full-time employee.
             </p>
           </section>
+
+          <SourcesBlock
+            sources={[
+              { label: 'Market-reference pricing compiled from competitor published menus and private-chef platforms (2025–26): Take a Chef, Splidu, Chef On Demand, Caterernear, Maison Culinaire' },
+              { label: 'u.ae — federal labour and household-employer responsibilities overview' },
+            ]}
+            note="Cost ranges are indicative. Full-time employment costs include salary, accommodation or transport allowance, health insurance, visa sponsorship, annual leave, and end-of-service benefits where applicable."
+          />
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
             <h2 className="font-playfair text-h2 text-black mb-5">How Weekly Meal Prep Works</h2>

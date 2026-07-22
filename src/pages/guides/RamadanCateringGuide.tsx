@@ -122,6 +122,8 @@ const articleSchema = {
   description: 'A guide to Ramadan catering in Dubai: etiquette, iftar, suhoor and Eid menus, timing around sunset and Fajr, halal requirements, and booking timelines.',
   author: { '@type': 'Organization', name: 'myCHEF Dubai' },
   publisher: { '@type': 'Organization', name: 'myCHEF Dubai', url: 'https://mychef.ae' },
+  datePublished: '2026-07-01',
+  dateModified: '2026-07-22',
 }
 
 const serviceSchema = {

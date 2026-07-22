@@ -262,6 +262,8 @@ const articleSchema = {
   description: 'Plan a Dubai wedding catering menu: service styles, cuisines, dietary considerations, sample menus, and how to work with your caterer.',
   author: { '@type': 'Organization', name: 'myCHEF Dubai' },
   publisher: { '@type': 'Organization', name: 'myCHEF Dubai', url: 'https://mychef.ae' },
+  datePublished: '2026-07-01',
+  dateModified: '2026-07-22',
 }
 
 const serviceSchema = {

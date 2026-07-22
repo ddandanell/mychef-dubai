@@ -8,6 +8,8 @@ import SEO from '../../components/SEO'
 import PageHero from '../../components/PageHero'
 import BlogRelated from '../../components/BlogRelated'
 import TrustSignalStrip from '../../components/TrustSignalStrip'
+import KeyFactsBox from '../../components/KeyFactsBox'
+import SourcesBlock from '../../components/SourcesBlock'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -48,7 +50,7 @@ const articleSchema = {
   author: { '@type': 'Organization', name: 'myCHEF Dubai Team' },
   publisher: { '@type': 'Organization', name: 'myCHEF Dubai', url: 'https://mychef.ae' },
   datePublished: '2026-07-01',
-  dateModified: '2026-07-01',
+  dateModified: '2026-07-22',
   mainEntityOfPage: { '@type': 'WebPage', '@id': `https://mychef.ae/blog/${SLUG}` },
 }
 
@@ -124,6 +126,17 @@ export default function BestPrivateChefBirthdayDinnerDubai() {
             <span>|</span>
             <time dateTime="2026-07-01">July 2026</time>
           </div>
+
+          <KeyFactsBox
+            answer="A private chef birthday dinner in Dubai typically costs AED 1,500–3,500 for 4–8 guests and can scale to AED 10,000–20,000+ for larger celebrations with full service and waiting staff."
+            facts={[
+              { label: 'Intimate seated dinner', value: 'AED 1,500–3,500 (4–8 guests)' },
+              { label: 'Multi-course plated', value: 'AED 4,000–7,500 (8–16 guests)' },
+              { label: 'Sharing / family-style', value: 'AED 5,500–10,000 (15–30 guests)' },
+              { label: 'Full-service celebration', value: 'AED 10,000–20,000+ (30+ guests)' },
+              { label: 'Ideal booking window', value: '2–4 weeks ahead' },
+            ]}
+          />
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
@@ -202,6 +215,13 @@ export default function BestPrivateChefBirthdayDinnerDubai() {
               These ranges typically cover the chef fee, ingredients, basic service, and kitchen cleanup. Premium proteins, imported ingredients, bespoke cake design, bar service, and event rentals are usually quoted separately.
             </p>
           </section>
+
+          <SourcesBlock
+            sources={[
+              { label: 'Market-reference pricing compiled from competitor published menus (2025–26): Cedar Tree Catering, Al Farah Gourmet, Tablez, Scalini, Take a Chef, Splidu, Chef On Demand' },
+            ]}
+            note="Pricing ranges are indicative and depend on guest count, menu complexity, ingredients, and staffing. Always request an itemised quote before booking."
+          />
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
             <h2 className="font-playfair text-h2 text-black mb-5">How to Book the Right Private Chef</h2>

@@ -8,6 +8,8 @@ import SEO from '../../components/SEO'
 import PageHero from '../../components/PageHero'
 import BlogRelated from '../../components/BlogRelated'
 import TrustSignalStrip from '../../components/TrustSignalStrip'
+import KeyFactsBox from '../../components/KeyFactsBox'
+import SourcesBlock from '../../components/SourcesBlock'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -25,7 +27,7 @@ const articleSchema = {
   author: { '@type': 'Organization', name: 'myCHEF Dubai Team' },
   publisher: { '@type': 'Organization', name: 'myCHEF Dubai', url: 'https://mychef.ae' },
   datePublished: '2026-07-01',
-  dateModified: '2026-07-01',
+  dateModified: '2026-07-22',
   mainEntityOfPage: { '@type': 'WebPage', '@id': `https://mychef.ae/blog/${SLUG}` },
 }
 
@@ -38,11 +40,6 @@ const breadcrumbSchema = {
   ],
 }
 
-const schema = {
-  '@context': 'https://schema.org',
-  '@graph': [articleSchema, breadcrumbSchema],
-}
-
 const comparison = [
   { label: 'Food delivery', dropOff: true, fullService: true },
   { label: 'Set-up at venue', dropOff: false, fullService: true },
@@ -53,6 +50,43 @@ const comparison = [
   { label: 'Lowest cost per head', dropOff: true, fullService: false },
   { label: 'Best for formal events', dropOff: false, fullService: true },
 ]
+
+const faqs = [
+  {
+    q: 'What is the difference between drop-off and full-service corporate catering?',
+    a: 'Drop-off catering delivers prepared food to your office in trays; your team handles set-up and clean-up. Full-service catering includes delivery, set-up, on-site staff, replenishment, clear-down, and often tableware and linens.',
+  },
+  {
+    q: 'When should I choose full-service catering over drop-off?',
+    a: 'Choose full-service for client-facing events, board meetings, product launches, award ceremonies, or any occasion where presentation and guest experience matter. Drop-off works well for internal working lunches and training sessions.',
+  },
+  {
+    q: 'Can drop-off catering handle dietary restrictions and allergens?',
+    a: 'Yes, but it requires clear labelling and separate packaging. Full-service makes real-time allergen management easier because staff can guide guests and keep vegetarian, halal, and allergy-aware options separate.',
+  },
+  {
+    q: 'How far in advance should I book corporate catering in Dubai?',
+    a: 'For most office events, 48 to 72 hours is enough. For large galas, conferences, or events during Ramadan or the holiday season, book one to two weeks ahead to secure the best staff and ingredients.',
+  },
+  {
+    q: 'What is included in full-service corporate catering?',
+    a: 'A full-service package typically includes menu consultation, delivery, set-up, service staff, replenishment during the event, kitchen and dining clear-down, and often tableware, linens, and basic styling.',
+  },
+]
+
+const faqSchema = {
+  '@type': 'FAQPage',
+  mainEntity: faqs.map((f) => ({
+    '@type': 'Question',
+    name: f.q,
+    acceptedAnswer: { '@type': 'Answer', text: f.a },
+  })),
+}
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@graph': [articleSchema, faqSchema, breadcrumbSchema],
+}
 
 export default function CorporateCateringFullServiceVsDropOff() {
   const containerRef = useRef<HTMLDivElement>(null)
@@ -103,6 +137,17 @@ export default function CorporateCateringFullServiceVsDropOff() {
             <span>|</span>
             <time dateTime="2026-07-01">July 2026</time>
           </div>
+
+          <KeyFactsBox
+            answer="Drop-off catering is best for internal working lunches and tight budgets; full-service catering is better for client-facing events where setup, service, and clear-down matter."
+            facts={[
+              { label: 'Drop-off strengths', value: 'Lower cost, fast setup, minimal space needed' },
+              { label: 'Full-service strengths', value: 'Staff, styling, replenishment, clear-down included' },
+              { label: 'Best for drop-off', value: 'Working lunches, training sessions, casual meetings' },
+              { label: 'Best for full-service', value: 'Board dinners, launches, awards, client events' },
+              { label: 'Dietary deadline', value: 'Share requirements 48 hours ahead' },
+            ]}
+          />
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
@@ -193,6 +238,14 @@ export default function CorporateCateringFullServiceVsDropOff() {
             </p>
           </section>
 
+          <SourcesBlock
+            sources={[
+              { label: 'Dubai Municipality Food Code 2.0 — food safety, allergen management, and catering hygiene requirements' },
+              { label: 'u.ae — federal food-safety framework and consumer licence verification' },
+            ]}
+            note="Service formats and allergen practices described reflect standard UAE catering conventions and Dubai Municipality guidance."
+          />
+
           <section className="article-section opacity-0 translate-y-8 mb-12">
             <h2 className="font-playfair text-h2 text-black mb-5">Corporate Catering with myCHEF Dubai</h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
@@ -201,6 +254,18 @@ export default function CorporateCateringFullServiceVsDropOff() {
             <p className="font-inter text-body text-gray-500 leading-relaxed">
               From daily office lunches to gala dinners and conference receptions, we deliver food that reflects the professionalism of your brand.
             </p>
+          </section>
+
+          <section className="article-section opacity-0 translate-y-8 mb-12">
+            <h2 className="font-playfair text-h2 text-black mb-5">Frequently Asked Questions</h2>
+            <div className="space-y-6">
+              {faqs.map((f, i) => (
+                <div key={i}>
+                  <h3 className="font-playfair text-h4 text-black mb-2">{f.q}</h3>
+                  <p className="font-inter text-body text-gray-500 leading-relaxed">{f.a}</p>
+                </div>
+              ))}
+            </div>
           </section>
 
           <BlogRelated currentSlug="/blog/corporate-catering-full-service-vs-drop-off" />

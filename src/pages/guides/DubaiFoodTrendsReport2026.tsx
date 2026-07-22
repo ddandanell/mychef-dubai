@@ -139,7 +139,7 @@ const articleSchema = {
     logo: { '@type': 'ImageObject', url: 'https://mychef.ae/images/mychef-logo.png' },
   },
   datePublished: '2026-07-01',
-  dateModified: '2026-07-01',
+  dateModified: '2026-07-22',
   mainEntityOfPage: {
     '@type': 'WebPage',
     '@id': 'https://mychef.ae/dubai-food-trends-report-2026',

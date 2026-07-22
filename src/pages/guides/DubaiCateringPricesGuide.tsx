@@ -135,6 +135,8 @@ const articleSchema = {
   description: 'A practical guide to Dubai catering prices per person for private chef, canapés, buffet, plated dinner, BBQ, and yacht catering, plus factors that affect cost.',
   author: { '@type': 'Organization', name: 'myCHEF Dubai' },
   publisher: { '@type': 'Organization', name: 'myCHEF Dubai', url: 'https://mychef.ae' },
+  datePublished: '2026-07-01',
+  dateModified: '2026-07-22',
 }
 
 const serviceSchema = {

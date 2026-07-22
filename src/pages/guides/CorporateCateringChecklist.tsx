@@ -139,6 +139,8 @@ const articleSchema = {
   description: 'A corporate catering checklist for Dubai: pre-event planning, menu formats, service flow, post-event follow-up, and office event tips.',
   author: { '@type': 'Organization', name: 'myCHEF Dubai' },
   publisher: { '@type': 'Organization', name: 'myCHEF Dubai', url: 'https://mychef.ae' },
+  datePublished: '2026-07-01',
+  dateModified: '2026-07-22',
 }
 
 const serviceSchema = {

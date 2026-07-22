@@ -117,6 +117,8 @@ const articleSchema = {
   description: 'Compare buffet and plated catering in Dubai: pros and cons, guest count fit, venue fit, staffing differences, and how to combine both formats.',
   author: { '@type': 'Organization', name: 'myCHEF Dubai' },
   publisher: { '@type': 'Organization', name: 'myCHEF Dubai', url: 'https://mychef.ae' },
+  datePublished: '2026-07-01',
+  dateModified: '2026-07-22',
 }
 
 const serviceSchema = {
