@@ -171,7 +171,7 @@ const serviceSchema = {
   provider: {
     '@type': 'Organization',
     name: 'myCHEF Dubai',
-    url: 'https://mychef.ae',
+    url: 'https://www.mychef.ae',
     telephone: '+971-55-174-4849',
     areaServed: 'Dubai, UAE',
   },
@@ -181,8 +181,8 @@ const serviceSchema = {
 const breadcrumbSchema = {
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://mychef.ae/' },
-    { '@type': 'ListItem', position: 2, name: 'VIP Club', item: 'https://mychef.ae/vip-club' },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.mychef.ae/' },
+    { '@type': 'ListItem', position: 2, name: 'VIP Club', item: 'https://www.mychef.ae/vip-club' },
   ],
 }
 

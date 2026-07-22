@@ -53,8 +53,8 @@ const breadcrumbSchema = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://mychef.ae/' },
-    { '@type': 'ListItem', position: 2, name: 'How It Works', item: 'https://mychef.ae/how-it-works' },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.mychef.ae/' },
+    { '@type': 'ListItem', position: 2, name: 'How It Works', item: 'https://www.mychef.ae/how-it-works' },
   ],
 }
 

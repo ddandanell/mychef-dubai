@@ -75,7 +75,7 @@ const serviceSchema = {
   '@type': 'Service',
   name: 'myCHEF Dubai Partnership Program',
   description: 'Partner with myCHEF Dubai to offer private chef and luxury catering services to your villa guests, yacht charter clients, wedding parties, and corporate contacts.',
-  provider: { '@type': 'Organization', name: 'myCHEF Dubai', url: 'https://mychef.ae' },
+  provider: { '@type': 'Organization', name: 'myCHEF Dubai', url: 'https://www.mychef.ae' },
   areaServed: { '@type': 'City', name: 'Dubai' },
   serviceType: 'Private chef and catering partnership program',
 }
@@ -92,8 +92,8 @@ const faqSchema = {
 const breadcrumbSchema = {
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://mychef.ae/' },
-    { '@type': 'ListItem', position: 2, name: 'Partner With Us', item: `https://mychef.ae/${SLUG}` },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.mychef.ae/' },
+    { '@type': 'ListItem', position: 2, name: 'Partner With Us', item: `https://www.mychef.ae/${SLUG}` },
   ],
 }
 

@@ -132,7 +132,7 @@ const articleSchema = {
   headline: 'Luxury Dinner Planning Guide for Dubai',
   description: 'A guide to planning a luxury dinner in Dubai: menu design, tasting menus, tablescape, chef and service staff, lighting, music, ambience, and hosting tips.',
   author: { '@type': 'Organization', name: 'myCHEF Dubai' },
-  publisher: { '@type': 'Organization', name: 'myCHEF Dubai', url: 'https://mychef.ae' },
+  publisher: { '@type': 'Organization', name: 'myCHEF Dubai', url: 'https://www.mychef.ae' },
   datePublished: '2026-07-01',
   dateModified: '2026-07-22',
 }
@@ -144,7 +144,7 @@ const serviceSchema = {
   provider: {
     '@type': 'Organization',
     name: 'myCHEF Dubai',
-    url: 'https://mychef.ae',
+    url: 'https://www.mychef.ae',
     telephone: '+971-55-174-4849',
     areaServed: 'Dubai, UAE',
   },
@@ -154,9 +154,9 @@ const serviceSchema = {
 const breadcrumbSchema = {
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://mychef.ae/' },
-    { '@type': 'ListItem', position: 2, name: 'Guides', item: 'https://mychef.ae/guides' },
-    { '@type': 'ListItem', position: 3, name: 'Luxury Dinner Planning Guide Dubai', item: 'https://mychef.ae/luxury-dinner-planning-guide-dubai' },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.mychef.ae/' },
+    { '@type': 'ListItem', position: 2, name: 'Guides', item: 'https://www.mychef.ae/guides' },
+    { '@type': 'ListItem', position: 3, name: 'Luxury Dinner Planning Guide Dubai', item: 'https://www.mychef.ae/luxury-dinner-planning-guide-dubai' },
   ],
 }
 

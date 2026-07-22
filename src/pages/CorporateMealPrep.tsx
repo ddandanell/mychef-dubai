@@ -187,7 +187,7 @@ const serviceSchema = {
   provider: {
     '@type': 'Organization',
     name: 'myCHEF Dubai',
-    url: 'https://mychef.ae',
+    url: 'https://www.mychef.ae',
     telephone: '+971-55-174-4849',
     areaServed: 'Dubai, UAE',
   },
@@ -197,8 +197,8 @@ const serviceSchema = {
 const breadcrumbSchema = {
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://mychef.ae/' },
-    { '@type': 'ListItem', position: 2, name: 'Corporate Meal Prep Dubai', item: 'https://mychef.ae/corporate-meal-prep-dubai' },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.mychef.ae/' },
+    { '@type': 'ListItem', position: 2, name: 'Corporate Meal Prep Dubai', item: 'https://www.mychef.ae/corporate-meal-prep-dubai' },
   ],
 }
 

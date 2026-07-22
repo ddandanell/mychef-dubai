@@ -184,15 +184,15 @@ const faqSchema = {
 const collectionSchema = {
   '@type': 'CollectionPage',
   name: 'Catering by Cuisine Dubai',
-  url: 'https://mychef.ae/cuisines-dubai',
+  url: 'https://www.mychef.ae/cuisines-dubai',
   description: 'Explore private chef and catering menus by cuisine in Dubai: Italian, Arabic, Mediterranean, Indian, Asian, sushi, BBQ, vegan, vegetarian, halal and healthy.',
 }
 
 const breadcrumbSchema = {
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://mychef.ae/' },
-    { '@type': 'ListItem', position: 2, name: 'Cuisines', item: 'https://mychef.ae/cuisines-dubai' },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.mychef.ae/' },
+    { '@type': 'ListItem', position: 2, name: 'Cuisines', item: 'https://www.mychef.ae/cuisines-dubai' },
   ],
 }
 

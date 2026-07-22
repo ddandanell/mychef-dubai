@@ -182,7 +182,7 @@ const articleSchema = {
   headline: 'Dubai Event Catering Price Guide 2026',
   description: 'An honest, Dubai-specific overview of event catering prices for 2026. Learn per-person ranges for weddings, corporate events, yacht catering, and the factors that affect cost.',
   author: { '@type': 'Organization', name: 'myCHEF Dubai' },
-  publisher: { '@type': 'Organization', name: 'myCHEF Dubai', url: 'https://mychef.ae' },
+  publisher: { '@type': 'Organization', name: 'myCHEF Dubai', url: 'https://www.mychef.ae' },
 }
 
 const serviceSchema = {
@@ -192,7 +192,7 @@ const serviceSchema = {
   provider: {
     '@type': 'Organization',
     name: 'myCHEF Dubai',
-    url: 'https://mychef.ae',
+    url: 'https://www.mychef.ae',
     telephone: '+971-55-174-4849',
     areaServed: 'Dubai, UAE',
   },
@@ -223,8 +223,8 @@ const faqSchema = {
 const breadcrumbSchema = {
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://mychef.ae/' },
-    { '@type': 'ListItem', position: 2, name: 'Dubai Event Catering Price Guide 2026', item: 'https://mychef.ae/dubai-event-catering-price-guide-2026' },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.mychef.ae/' },
+    { '@type': 'ListItem', position: 2, name: 'Dubai Event Catering Price Guide 2026', item: 'https://www.mychef.ae/dubai-event-catering-price-guide-2026' },
   ],
 }
 

@@ -141,15 +141,15 @@ const faqSchema = {
 const collectionSchema = {
   '@type': 'CollectionPage',
   name: 'Festive Catering Dubai',
-  url: 'https://mychef.ae/festive-catering-dubai',
+  url: 'https://www.mychef.ae/festive-catering-dubai',
   description: 'Festive and seasonal catering in Dubai: Christmas, New Year, Ramadan, Iftar, Suhoor, Eid, Diwali and brunch celebrations.',
 }
 
 const breadcrumbSchema = {
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://mychef.ae/' },
-    { '@type': 'ListItem', position: 2, name: 'Festive Catering Dubai', item: 'https://mychef.ae/festive-catering-dubai' },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.mychef.ae/' },
+    { '@type': 'ListItem', position: 2, name: 'Festive Catering Dubai', item: 'https://www.mychef.ae/festive-catering-dubai' },
   ],
 }
 

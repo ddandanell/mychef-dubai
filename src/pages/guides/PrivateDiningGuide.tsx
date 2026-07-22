@@ -185,7 +185,7 @@ const articleSchema = {
   headline: 'The Complete Guide to Private Dining in Dubai',
   description: 'A practical guide to private dining in Dubai: what it is, where it happens, how to choose a private chef, menu planning, pricing, and the best occasions to book.',
   author: { '@type': 'Organization', name: 'myCHEF Dubai' },
-  publisher: { '@type': 'Organization', name: 'myCHEF Dubai', url: 'https://mychef.ae' },
+  publisher: { '@type': 'Organization', name: 'myCHEF Dubai', url: 'https://www.mychef.ae' },
   datePublished: '2026-07-01',
   dateModified: '2026-07-22',
 }
@@ -197,7 +197,7 @@ const serviceSchema = {
   provider: {
     '@type': 'Organization',
     name: 'myCHEF Dubai',
-    url: 'https://mychef.ae',
+    url: 'https://www.mychef.ae',
     telephone: '+971-55-174-4849',
     areaServed: 'Dubai, UAE',
   },
@@ -207,9 +207,9 @@ const serviceSchema = {
 const breadcrumbSchema = {
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://mychef.ae/' },
-    { '@type': 'ListItem', position: 2, name: 'Guides', item: 'https://mychef.ae/guides' },
-    { '@type': 'ListItem', position: 3, name: 'Private Dining in Dubai', item: 'https://mychef.ae/guide/private-dining-dubai' },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.mychef.ae/' },
+    { '@type': 'ListItem', position: 2, name: 'Guides', item: 'https://www.mychef.ae/guides' },
+    { '@type': 'ListItem', position: 3, name: 'Private Dining in Dubai', item: 'https://www.mychef.ae/guide/private-dining-dubai' },
   ],
 }
 

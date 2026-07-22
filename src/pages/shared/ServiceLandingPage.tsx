@@ -110,7 +110,7 @@ export default function ServiceLandingPage({ config }: Props) {
     provider: {
       '@type': 'Organization',
       name: 'myCHEF Dubai',
-      url: 'https://mychef.ae',
+      url: 'https://www.mychef.ae',
       telephone: '+971-55-174-4849',
       areaServed: 'Dubai, UAE',
     },
@@ -120,12 +120,12 @@ export default function ServiceLandingPage({ config }: Props) {
   const breadcrumbSchema = {
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://mychef.ae/' },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.mychef.ae/' },
       {
         '@type': 'ListItem',
         position: 2,
         name: config.breadcrumbLabel,
-        item: `https://mychef.ae${config.canonicalPath}`,
+        item: `https://www.mychef.ae${config.canonicalPath}`,
       },
     ],
   }

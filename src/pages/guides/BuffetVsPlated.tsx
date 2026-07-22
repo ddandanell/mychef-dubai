@@ -116,7 +116,7 @@ const articleSchema = {
   headline: 'Buffet vs Plated Service: Choosing the Right Format in Dubai',
   description: 'Compare buffet and plated catering in Dubai: pros and cons, guest count fit, venue fit, staffing differences, and how to combine both formats.',
   author: { '@type': 'Organization', name: 'myCHEF Dubai' },
-  publisher: { '@type': 'Organization', name: 'myCHEF Dubai', url: 'https://mychef.ae' },
+  publisher: { '@type': 'Organization', name: 'myCHEF Dubai', url: 'https://www.mychef.ae' },
   datePublished: '2026-07-01',
   dateModified: '2026-07-22',
 }
@@ -128,7 +128,7 @@ const serviceSchema = {
   provider: {
     '@type': 'Organization',
     name: 'myCHEF Dubai',
-    url: 'https://mychef.ae',
+    url: 'https://www.mychef.ae',
     telephone: '+971-55-174-4849',
     areaServed: 'Dubai, UAE',
   },
@@ -138,9 +138,9 @@ const serviceSchema = {
 const breadcrumbSchema = {
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://mychef.ae/' },
-    { '@type': 'ListItem', position: 2, name: 'Guides', item: 'https://mychef.ae/guides' },
-    { '@type': 'ListItem', position: 3, name: 'Buffet vs Plated Service Dubai', item: 'https://mychef.ae/buffet-vs-plated-dubai' },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.mychef.ae/' },
+    { '@type': 'ListItem', position: 2, name: 'Guides', item: 'https://www.mychef.ae/guides' },
+    { '@type': 'ListItem', position: 3, name: 'Buffet vs Plated Service Dubai', item: 'https://www.mychef.ae/buffet-vs-plated-dubai' },
   ],
 }
 

@@ -83,15 +83,15 @@ const posts = [
 const collectionSchema = {
   '@type': 'CollectionPage',
   name: 'myCHEF Dubai Blog',
-  url: 'https://mychef.ae/blog',
+  url: 'https://www.mychef.ae/blog',
   description: 'Expert tips, trends, and inspiration for private dining and luxury catering in Dubai.',
 }
 
 const breadcrumbSchema = {
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://mychef.ae/' },
-    { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://mychef.ae/blog' },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.mychef.ae/' },
+    { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://www.mychef.ae/blog' },
   ],
 }
 

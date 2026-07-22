@@ -67,8 +67,8 @@ export default function Locations() {
           '@context': 'https://schema.org',
           '@type': 'BreadcrumbList',
           itemListElement: [
-            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://mychef.ae/' },
-            { '@type': 'ListItem', position: 2, name: 'Locations', item: 'https://mychef.ae/locations' }
+            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.mychef.ae/' },
+            { '@type': 'ListItem', position: 2, name: 'Locations', item: 'https://www.mychef.ae/locations' }
           ]
         }}
       />

@@ -11,7 +11,7 @@ import { breadcrumbSchema } from '@/utils/schema'
 gsap.registerPlugin(ScrollTrigger)
 
 const WHATSAPP_NUMBER = '971551744849'
-const SITE_URL = 'https://mychef.ae'
+const SITE_URL = 'https://www.mychef.ae'
 
 export interface ChefProfileData {
   slug: string

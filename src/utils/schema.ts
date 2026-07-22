@@ -1,4 +1,4 @@
-const SITE_URL = 'https://mychef.ae'
+const SITE_URL = 'https://www.mychef.ae'
 const SITE_NAME = 'myCHEF Dubai'
 const LOGO_URL = `${SITE_URL}/logo.svg`
 

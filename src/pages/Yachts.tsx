@@ -87,8 +87,8 @@ const breadcrumbSchema = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://mychef.ae/' },
-    { '@type': 'ListItem', position: 2, name: 'Yachts', item: 'https://mychef.ae/yachts' },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.mychef.ae/' },
+    { '@type': 'ListItem', position: 2, name: 'Yachts', item: 'https://www.mychef.ae/yachts' },
   ],
 }
 
@@ -100,7 +100,7 @@ const serviceSchema = {
   provider: {
     '@type': 'Organization',
     name: 'myCHEF Dubai',
-    url: 'https://mychef.ae',
+    url: 'https://www.mychef.ae',
     telephone: '+971 55 174 4849',
   },
   areaServed: {
@@ -108,7 +108,7 @@ const serviceSchema = {
     name: 'Dubai, UAE',
   },
   serviceType: 'Yacht Catering',
-  url: 'https://mychef.ae/yachts',
+  url: 'https://www.mychef.ae/yachts',
 }
 
 const faqPageSchema = {

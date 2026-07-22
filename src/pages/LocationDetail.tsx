@@ -140,7 +140,7 @@ export default function LocationDetail() {
     )
   }
 
-  const pageUrl = `https://mychef.ae/locations/${loc.slug}`
+  const pageUrl = `https://www.mychef.ae/locations/${loc.slug}`
 
   const schema = {
     '@context': 'https://schema.org',
@@ -153,7 +153,7 @@ export default function LocationDetail() {
         provider: {
           '@type': 'Organization',
           name: 'myCHEF Dubai',
-          url: 'https://mychef.ae',
+          url: 'https://www.mychef.ae',
           telephone: '+971-55-174-4849',
           areaServed: 'Dubai, UAE',
         },
@@ -178,18 +178,18 @@ export default function LocationDetail() {
       {
         '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://mychef.ae/' },
-          { '@type': 'ListItem', position: 2, name: 'Locations', item: 'https://mychef.ae/locations' },
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.mychef.ae/' },
+          { '@type': 'ListItem', position: 2, name: 'Locations', item: 'https://www.mychef.ae/locations' },
           { '@type': 'ListItem', position: 3, name: loc.name, item: pageUrl },
         ],
       },
       {
         '@type': 'LocalBusiness',
         name: 'myCHEF Dubai',
-        url: 'https://mychef.ae',
+        url: 'https://www.mychef.ae',
         telephone: '+971-55-174-4849',
         email: 'hello@mychef.ae',
-        image: `https://mychef.ae${loc.heroImage}`,
+        image: `https://www.mychef.ae${loc.heroImage}`,
         priceRange: '$$$$',
         areaServed: {
           '@type': 'Place',

@@ -86,8 +86,8 @@ const pressFaqs = [
 const breadcrumbSchema = {
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://mychef.ae/' },
-    { '@type': 'ListItem', position: 2, name: 'Press & Media', item: `https://mychef.ae/${SLUG}` },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.mychef.ae/' },
+    { '@type': 'ListItem', position: 2, name: 'Press & Media', item: `https://www.mychef.ae/${SLUG}` },
   ],
 }
 

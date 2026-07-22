@@ -150,15 +150,15 @@ const faqSchema = {
 const collectionSchema = {
   '@type': 'CollectionPage',
   name: 'Catering Guides Dubai',
-  url: 'https://mychef.ae/guides',
+  url: 'https://www.mychef.ae/guides',
   description: 'Free guides for planning catering in Dubai: prices, checklists, villa ideas, yacht catering, Ramadan, luxury dinners and more.',
 }
 
 const breadcrumbSchema = {
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://mychef.ae/' },
-    { '@type': 'ListItem', position: 2, name: 'Guides', item: 'https://mychef.ae/guides' },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.mychef.ae/' },
+    { '@type': 'ListItem', position: 2, name: 'Guides', item: 'https://www.mychef.ae/guides' },
   ],
 }
 

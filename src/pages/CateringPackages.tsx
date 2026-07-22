@@ -61,10 +61,10 @@ const faqs = [
 const serviceSchema = {
   '@type': 'Service',
   name: 'Catering Packages Dubai',
-  provider: { '@type': 'Organization', name: 'myCHEF Dubai', url: 'https://mychef.ae' },
+  provider: { '@type': 'Organization', name: 'myCHEF Dubai', url: 'https://www.mychef.ae' },
   areaServed: { '@type': 'City', name: 'Dubai', '@id': 'https://www.wikidata.org/wiki/Q612' },
   description: 'Indicative catering packages in Dubai for date nights, family dinners, birthdays, corporate events and weekly meal prep. Request a custom quote.',
-  url: 'https://mychef.ae/catering-packages-dubai',
+  url: 'https://www.mychef.ae/catering-packages-dubai',
 }
 
 const faqSchema = {
@@ -79,8 +79,8 @@ const faqSchema = {
 const breadcrumbSchema = {
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://mychef.ae/' },
-    { '@type': 'ListItem', position: 2, name: 'Catering Packages Dubai', item: 'https://mychef.ae/catering-packages-dubai' },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.mychef.ae/' },
+    { '@type': 'ListItem', position: 2, name: 'Catering Packages Dubai', item: 'https://www.mychef.ae/catering-packages-dubai' },
   ],
 }
 

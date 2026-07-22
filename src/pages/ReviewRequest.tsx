@@ -42,10 +42,10 @@ const articleSchema = {
   headline: 'Leave a Review & Get AED 50 Credit',
   description: 'Share your myCHEF Dubai experience and receive AED 50 credit toward your next private chef or catering booking.',
   author: { '@type': 'Organization', name: 'myCHEF Dubai Team' },
-  publisher: { '@type': 'Organization', name: 'myCHEF Dubai', url: 'https://mychef.ae' },
+  publisher: { '@type': 'Organization', name: 'myCHEF Dubai', url: 'https://www.mychef.ae' },
   datePublished: '2026-07-01',
   dateModified: '2026-07-01',
-  mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://mychef.ae/review' },
+  mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.mychef.ae/review' },
 }
 
 const faqSchema = {
@@ -60,8 +60,8 @@ const faqSchema = {
 const breadcrumbSchema = {
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://mychef.ae/' },
-    { '@type': 'ListItem', position: 2, name: 'Leave a Review', item: 'https://mychef.ae/review' },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.mychef.ae/' },
+    { '@type': 'ListItem', position: 2, name: 'Leave a Review', item: 'https://www.mychef.ae/review' },
   ],
 }
 

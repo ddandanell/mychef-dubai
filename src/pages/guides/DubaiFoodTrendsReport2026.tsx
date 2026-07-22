@@ -127,22 +127,22 @@ const articleSchema = {
   '@type': 'Article',
   headline: 'Dubai Food Trends Report 2026: What Hosts and Caterers Need to Know',
   description: 'A practical look at the Dubai catering trends shaping events in 2026 — local sourcing, inclusive menus, live stations, global-Dubai cuisine and non-alcoholic experiences.',
-  image: 'https://mychef.ae/images/dubai-food-trends-report-hero.webp',
+  image: 'https://www.mychef.ae/images/dubai-food-trends-report-hero.webp',
   author: {
     '@type': 'Organization',
     name: 'myCHEF Dubai',
-    url: 'https://mychef.ae',
+    url: 'https://www.mychef.ae',
   },
   publisher: {
     '@type': 'Organization',
     name: 'myCHEF Dubai',
-    logo: { '@type': 'ImageObject', url: 'https://mychef.ae/images/mychef-logo.png' },
+    logo: { '@type': 'ImageObject', url: 'https://www.mychef.ae/images/mychef-logo.png' },
   },
   datePublished: '2026-07-01',
   dateModified: '2026-07-22',
   mainEntityOfPage: {
     '@type': 'WebPage',
-    '@id': 'https://mychef.ae/dubai-food-trends-report-2026',
+    '@id': 'https://www.mychef.ae/dubai-food-trends-report-2026',
   },
 }
 
@@ -158,8 +158,8 @@ const faqSchema = {
 const breadcrumbSchema = {
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://mychef.ae/' },
-    { '@type': 'ListItem', position: 2, name: 'Dubai Food Trends Report 2026', item: 'https://mychef.ae/dubai-food-trends-report-2026' },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.mychef.ae/' },
+    { '@type': 'ListItem', position: 2, name: 'Dubai Food Trends Report 2026', item: 'https://www.mychef.ae/dubai-food-trends-report-2026' },
   ],
 }
 

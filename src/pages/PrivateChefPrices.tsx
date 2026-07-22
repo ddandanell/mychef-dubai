@@ -134,10 +134,10 @@ const faqs = [
 const serviceSchema = {
   '@type': 'Service',
   name: 'Private Chef Prices Dubai',
-  provider: { '@type': 'Organization', name: 'myCHEF Dubai', url: 'https://mychef.ae' },
+  provider: { '@type': 'Organization', name: 'myCHEF Dubai', url: 'https://www.mychef.ae' },
   areaServed: { '@type': 'City', name: 'Dubai', '@id': 'https://www.wikidata.org/wiki/Q612' },
   description: 'Indicative private chef prices in Dubai by group size, menu style, and service level. Request a custom quote for your dinner.',
-  url: 'https://mychef.ae/private-chef-prices-dubai',
+  url: 'https://www.mychef.ae/private-chef-prices-dubai',
 }
 
 const faqSchema = {
@@ -152,8 +152,8 @@ const faqSchema = {
 const breadcrumbSchema = {
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://mychef.ae/' },
-    { '@type': 'ListItem', position: 2, name: 'Private Chef Prices Dubai', item: 'https://mychef.ae/private-chef-prices-dubai' },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.mychef.ae/' },
+    { '@type': 'ListItem', position: 2, name: 'Private Chef Prices Dubai', item: 'https://www.mychef.ae/private-chef-prices-dubai' },
   ],
 }
 

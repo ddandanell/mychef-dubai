@@ -48,10 +48,10 @@ const articleSchema = {
   headline: 'Best Private Chef Birthday Dinner in Dubai: Menu Ideas, Costs & How to Book',
   description: 'Plan a private chef birthday dinner in Dubai with menu ideas, indicative costs, booking tips, and answers to the most common host questions.',
   author: { '@type': 'Organization', name: 'myCHEF Dubai Team' },
-  publisher: { '@type': 'Organization', name: 'myCHEF Dubai', url: 'https://mychef.ae' },
+  publisher: { '@type': 'Organization', name: 'myCHEF Dubai', url: 'https://www.mychef.ae' },
   datePublished: '2026-07-01',
   dateModified: '2026-07-22',
-  mainEntityOfPage: { '@type': 'WebPage', '@id': `https://mychef.ae/blog/${SLUG}` },
+  mainEntityOfPage: { '@type': 'WebPage', '@id': `https://www.mychef.ae/blog/${SLUG}` },
 }
 
 const faqSchema = {
@@ -66,9 +66,9 @@ const faqSchema = {
 const breadcrumbSchema = {
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://mychef.ae/' },
-    { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://mychef.ae/blog' },
-    { '@type': 'ListItem', position: 3, name: 'Best Private Chef Birthday Dinner Dubai', item: `https://mychef.ae/blog/${SLUG}` },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.mychef.ae/' },
+    { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://www.mychef.ae/blog' },
+    { '@type': 'ListItem', position: 3, name: 'Best Private Chef Birthday Dinner Dubai', item: `https://www.mychef.ae/blog/${SLUG}` },
   ],
 }
 

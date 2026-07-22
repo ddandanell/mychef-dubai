@@ -183,18 +183,18 @@ const serviceSchema = {
   provider: {
     '@type': 'Organization',
     name: 'myCHEF Dubai',
-    url: 'https://mychef.ae',
+    url: 'https://www.mychef.ae',
     telephone: '+971-55-174-4849',
     areaServed: 'Dubai, UAE',
   },
   areaServed: 'Dubai, UAE',
-  url: 'https://mychef.ae/case-studies',
+  url: 'https://www.mychef.ae/case-studies',
 }
 
 const collectionSchema = {
   '@type': 'CollectionPage',
   name: 'myCHEF Case Studies & Event Stories',
-  url: 'https://mychef.ae/case-studies',
+  url: 'https://www.mychef.ae/case-studies',
   description: 'See how myCHEF Dubai delivers luxury catering for weddings, yachts, villas, and corporate events. Real event stories, menus, and guest experiences.',
   mainEntity: {
     '@type': 'ItemList',
@@ -205,12 +205,12 @@ const collectionSchema = {
         '@type': 'Article',
         headline: cs.title,
         description: `${cs.menu}. ${cs.outcome}`,
-        image: `https://mychef.ae${cs.image}`,
-        url: `https://mychef.ae/case-studies/${cs.slug}`,
+        image: `https://www.mychef.ae${cs.image}`,
+        url: `https://www.mychef.ae/case-studies/${cs.slug}`,
         publisher: {
           '@type': 'Organization',
           name: 'myCHEF Dubai',
-          logo: { '@type': 'ImageObject', url: 'https://mychef.ae/logo.svg' },
+          logo: { '@type': 'ImageObject', url: 'https://www.mychef.ae/logo.svg' },
         },
       },
     })),
@@ -229,8 +229,8 @@ const faqSchema = {
 const breadcrumbSchema = {
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://mychef.ae/' },
-    { '@type': 'ListItem', position: 2, name: 'Case Studies', item: 'https://mychef.ae/case-studies' },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.mychef.ae/' },
+    { '@type': 'ListItem', position: 2, name: 'Case Studies', item: 'https://www.mychef.ae/case-studies' },
   ],
 }
 
