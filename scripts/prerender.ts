@@ -3,10 +3,12 @@ import fs from "node:fs"
 import path from "node:path"
 import { fileURLToPath } from "node:url"
 import express from "express"
-import puppeteer from "puppeteer"
+import type { Browser, Page } from "puppeteer"
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
+
+const IS_VERCEL = Boolean(process.env.VERCEL)
 
 const DIST_DIR = path.resolve(__dirname, "../dist")
 const SITEMAP_PATH = path.resolve(__dirname, "../dist/sitemap.xml")
@@ -78,8 +80,32 @@ async function startServer(): Promise<{ server: import("http").Server; url: stri
 /**
  * Render a single route and write the resulting HTML to disk.
  */
+/**
+ * Launch a browser appropriate for the environment.
+ * On Vercel builds we use @sparticuz/chromium, which ships a Chromium binary
+ * compiled for Amazon Linux 2 / Lambda build containers. Locally we fall back
+ * to the full puppeteer package so devs don't need to manage Chrome manually.
+ */
+async function launchBrowser(): Promise<Browser> {
+  if (IS_VERCEL) {
+    const chromium = await import("@sparticuz/chromium")
+    const puppeteerCore = await import("puppeteer-core")
+    return puppeteerCore.launch({
+      args: chromium.default.args,
+      executablePath: await chromium.default.executablePath(),
+      headless: chromium.default.headless as "shell" | true,
+    })
+  }
+
+  const puppeteer = await import("puppeteer")
+  return puppeteer.launch({
+    headless: true,
+    args: ["--no-sandbox", "--disable-setuid-sandbox", "--disable-dev-shm-usage"],
+  })
+}
+
 async function renderRoute(
-  page: puppeteer.Page,
+  page: Page,
   baseUrl: string,
   route: string,
 ): Promise<{ route: string; outPath: string }> {
@@ -166,10 +192,7 @@ async function main(): Promise<void> {
 
   const { server, url } = await startServer()
 
-  const browser = await puppeteer.launch({
-    headless: true,
-    args: ["--no-sandbox", "--disable-setuid-sandbox", "--disable-dev-shm-usage"],
-  })
+  const browser = await launchBrowser()
 
   try {
     await renderRoutes(browser, url, routes)
