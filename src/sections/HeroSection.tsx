@@ -116,7 +116,7 @@ export default function HeroSection() {
   return (
     <section
       ref={sectionRef}
-      className="relative min-h-[100dvh] flex items-center justify-center overflow-hidden -mt-16"
+      className="relative min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center overflow-hidden -mt-16"
     >
       {/* Background Image */}
       <div className="absolute inset-0 overflow-hidden">
@@ -133,14 +133,15 @@ export default function HeroSection() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 container-custom pt-28 pb-28 md:pb-24">
+      <div className="relative z-10 container-custom pt-20 pb-20 md:pb-24">
         {/* Gold accent line */}
-        <div ref={lineRef} className="gold-line mb-6 md:mb-8 opacity-0" />
+        <div ref={lineRef} className="gold-line mb-4 md:mb-8 opacity-0" />
 
         {/* Headline */}
         <h1
           ref={headlineRef}
-          className="font-playfair text-fluid-display font-semibold leading-tight text-white opacity-0"
+          className="font-playfair text-4xl sm:text-5xl md:text-[56px] lg:text-[72px] font-semibold leading-tight text-white opacity-0 max-w-3xl mx-auto md:mx-0 text-center md:text-left break-words"
+          style={{ lineHeight: 1.02 }}
         >
           Private Chef & Luxury Catering in Dubai
         </h1>
@@ -148,13 +149,13 @@ export default function HeroSection() {
         {/* Subtext */}
         <p
           ref={subtextRef}
-          className="mt-5 md:mt-6 font-inter text-base md:text-body-lg font-light text-white/90 max-w-xl leading-relaxed opacity-0"
+          className="mt-4 md:mt-6 font-inter text-base md:text-lg font-light text-white/90 max-w-xl mx-auto md:mx-0 leading-relaxed opacity-0 text-center md:text-left"
         >
           Tell us about your event and we will match you with a vetted, licensed chef. We reply within 15 minutes during business hours. We design the menu, coordinate every detail, and keep you a guest at your own table.
         </p>
 
         {/* CTA Row */}
-        <div ref={ctaRef} className="mt-8 md:mt-10 flex flex-col sm:flex-row gap-4">
+        <div ref={ctaRef} className="mt-8 md:mt-10 flex flex-col sm:flex-row gap-4 items-center md:items-start justify-center md:justify-start">
           <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=home" className="btn-primary text-center">
             Get a Tailored Quote
           </Link>
@@ -167,7 +168,7 @@ export default function HeroSection() {
             Chat on WhatsApp
           </a>
         </div>
-        <p className="mt-4 font-inter text-body-sm text-white/70 flex items-center gap-2">
+        <p className="mt-4 font-inter text-body-sm text-white/70 flex items-center gap-2 justify-center md:justify-start">
           <span className="inline-block w-1.5 h-1.5 rounded-full bg-gold" aria-hidden="true" />
           Typical reply within 15 min · No obligation
         </p>
@@ -175,9 +176,9 @@ export default function HeroSection() {
         {/* Stats Row */}
         <div
           ref={statsRef}
-          className="mt-12 md:mt-16 opacity-0"
+          className="mt-10 md:mt-16 opacity-0"
         >
-          <div className="grid grid-cols-3 gap-4 md:gap-8 max-w-2xl">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 md:gap-8 max-w-2xl mx-auto md:mx-0">
             <div className="text-center md:text-left">
               <div className="stat-number font-playfair text-2xl md:text-4xl text-gold font-semibold">
                 <span className="text-gold">Private</span>
