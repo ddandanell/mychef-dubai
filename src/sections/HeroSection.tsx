@@ -133,15 +133,15 @@ export default function HeroSection() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 container-custom pt-20 pb-20 md:pb-24">
+      <div className="relative z-10 container-custom" style={{ paddingTop: 'calc(5rem + env(safe-area-inset-top))', paddingBottom: '5rem' }}>
         {/* Gold accent line */}
         <div ref={lineRef} className="gold-line mb-4 md:mb-8 opacity-0" />
 
         {/* Headline */}
         <h1
           ref={headlineRef}
-          className="font-playfair text-4xl sm:text-5xl md:text-[56px] lg:text-[72px] font-semibold leading-tight text-white opacity-0 max-w-3xl mx-auto md:mx-0 text-center md:text-left break-words"
-          style={{ lineHeight: 1.02 }}
+          className="font-playfair font-semibold text-white opacity-0 max-w-3xl mx-auto md:mx-0 text-center md:text-left break-words"
+          style={{ fontSize: 'clamp(1.75rem, 5.5vw, 4.5rem)', lineHeight: 1.02 }}
         >
           Private Chef & Luxury Catering in Dubai
         </h1>
