@@ -120,14 +120,25 @@ export default function HeroSection() {
     >
       {/* Background Image */}
       <div className="absolute inset-0 overflow-hidden">
-        <img
-          ref={imageRef}
-          src="/images/home-hero.webp"
-          alt="Premium private chef dining experience in Dubai"
-          fetchPriority="high"
-          decoding="async"
-          className="absolute inset-0 w-full h-full object-cover scale-105 will-change-transform"
-        />
+        <picture>
+          {/*
+            We use a responsive srcset here. The image files are currently the single hero
+            image; as future work we can add dedicated small/medium/large WebP files.
+          */}
+          <source
+            type="image/webp"
+            srcSet="/images/home-hero.webp 1344w, /images/home-hero.webp 960w, /images/home-hero.webp 640w"
+            sizes="100vw"
+          />
+          <img
+            ref={imageRef}
+            src="/images/home-hero.webp"
+            alt="Premium private chef dining experience in Dubai"
+            fetchPriority="high"
+            decoding="async"
+            className="absolute inset-0 w-full h-full object-cover scale-105 will-change-transform"
+          />
+        </picture>
         {/* Gradient overlay */}
         <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/40 to-black/80" />
       </div>
