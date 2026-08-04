@@ -1,0 +1,188 @@
+{
+ "url": "/proposal-dinner-dubai",
+ "keyword_strategy": {
+  "main_keyword": "proposal dinner catering dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 8,
+  "subkeywords_carried": 7,
+  "coverage_percent": 88,
+  "subkeywords_carried_list": [
+   "home catering dubai",
+   "lebanese catering dubai",
+   "small party catering dubai",
+   "finger food catering dubai",
+   "proposal dinner catering dubai menu",
+   "best proposal dinner catering dubai",
+   "cheap proposal dinner catering dubai"
+  ],
+  "subkeywords_not_carried": [
+   "safadi catering"
+  ],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Proposal Dinner Catering Dubai | from AED 1,200 | myCHEF",
+  "meta_description": "Proposal dinner catering in Dubai — a private, chef-cooked dinner styled for the moment. From AED 1,200 for two, itemised, with canapés to open and any cuisine you choose.",
+  "h1": "Proposal Dinner Catering in Dubai — What It Costs and How to Book"
+ },
+ "opening_paragraph": [
+  "Proposal dinner catering in Dubai from myCHEF is a private, chef-cooked dinner styled around your proposal, from AED 1,200 for two. A vetted chef designs the menu, cooks it in your own space, serves each course and clears everything away, so the only thing you carry is the ring. Tell us the date, the venue and the number of guests, and you will have an itemised proposal promptly during our published business hours."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "Proposal Dinner Questions",
+   "match_confidence": 0.63,
+   "new_heading": "Common questions",
+   "new_paragraphs": [
+    "How much does proposal dinner catering cost in Dubai?",
+    "Proposal dinner catering in Dubai starts from AED 1,200 for a plated dinner for two. The final figure depends on the menu, the number of courses and the service level, so send your details for an itemised quote.",
+    "What is included in proposal dinner catering?",
+    "Included is a bespoke menu, a private chef, full table service, setup and discreet styling, plus cleanup afterwards. You focus on the moment; the chef handles the kitchen from start to finish.",
+    "Can you cook the proposal dinner at my home or villa?",
+    "Yes — proposal dinner home catering in Dubai is our most requested format. The chef cooks on-site at your apartment, villa, rooftop or a private venue, and leaves the space exactly as it was found.",
+    "Do you offer halal and vegetarian proposal dinner menus?",
+    "Yes. Every proposal dinner menu can be prepared fully halal, and we cater vegetarian, vegan, gluten-free and other dietary needs. Share the preferences and any allergies when you enquire.",
+    "How do I hire a proposal dinner caterer in Dubai?",
+    "Hiring is clear: send your date, guest count and venue, and we match a vetted chef and send an itemised proposal. We confirm the menu and timings with you before the day.",
+    "How far in advance should I book?",
+    "As guidance: 48 hours for a standard private-chef dinner, 5–7 days for a bespoke menu with styling, and 7–14 days or more if a larger engagement celebration is attached. Lead times depend on guest numbers, menu complexity, staffing, equipment, location and partner availability. Tight timeline for your proposal dinner? We check live partner availability before saying yes or no.",
+    "Which areas of Dubai do you cover?",
+    "All of Dubai — including Palm Jumeirah, Downtown, Dubai Marina, Emirates Hills, Jumeirah and Business Bay, as well as private venues, rooftops and yachts across the city.",
+    "For proposal dinner catering, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements ."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "Every Detail, Choreographed",
+  "Choose Your Setting",
+  "Plan the Perfect \"Yes\"",
+  "Explore myCHEF Dubai",
+  "More Than Just Dinner"
+ ],
+ "add_block": [
+  {
+   "new_heading": "What does proposal dinner catering in Dubai include?",
+   "new_paragraphs": [
+    "It includes a bespoke menu, a dedicated private chef, full table service, discreet styling and complete cleanup — cooked on-site wherever you plan to ask the question. From the moment your proposal dinner caterer arrives, the evening runs to a timeline you have agreed in advance. The chef brings the ingredients, cooks each course fresh, and a server paces the meal so nothing interrupts the moment you are building toward. Setup covers the table, candles and any styling you have requested; a floral or dessert-reveal detail can be arranged alongside. Because everything happens in your home, villa or chosen venue, there is no restaurant to book, no neighbouring tables, and no rushing the pause between courses. Afterwards the kitchen is left spotless. It is a full private proposal dinner chef service instead of a drop-off — the difference between food arriving and an evening being looked after end to end."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Every Detail, Choreographed'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Is proposal dinner catering only for proposals, or other occasions too?",
+   "new_paragraphs": [
+    "A proposal dinner setup suits any intimate milestone — the proposal itself, an engagement celebration the week after, a first anniversary, or a quiet corporate proposal dinner catering evening to mark a partnership. The same format scales gently: a plated dinner for two, a proposal dinner party catering table for close family once the yes is secured, or proposal dinner catering for events dubai couples want to keep private. Many hosts book the proposal, then return for the engagement dinner and the wedding-anniversary meal a year on, because the chef already knows their taste. Whether it is two people on a rooftop or ten around a villa table, the styling stays personal and the pace stays unhurried. Tell us the occasion behind the booking and the chef shapes the courses, the timing and the reveal around it, so the meal feels made for that particular evening instead of pulled from a fixed template."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Every Detail, Choreographed'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What is on a proposal dinner menu in Dubai?",
+   "new_paragraphs": [
+    "Every proposal dinner menu in Dubai is built for you, not chosen from a set list. A classic evening runs three to five courses — a canapé or amuse to open, a starter, a main and a dessert designed to double as the moment — but the shape is yours. Couples often ask for the dish from a first date, a cuisine from a shared trip, or a menu that leans Mediterranean, French, Arabic or Asian. All proposal dinner food catering can be prepared fully halal, and we handle vegetarian, vegan, pescatarian, gluten-free and allergy-specific requests without treating them as an afterthought. Wine or non-alcoholic pairings can be suggested to match each course. Dessert is where many proposals land, so it is worth planning: a plated finale, a ring-reveal dish, or a small celebration cake for afterward. Share likes, dislikes and any dietary needs at enquiry and the chef returns a draft menu to refine together."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Every Detail, Choreographed'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "The opening bites, and choosing the cuisine",
+   "new_paragraphs": [
+    "Most proposal evenings open with something you can eat standing up, holding a glass, while the chef finishes plating out of sight. Two warm bites and one cold one is usually right. It is the same craft as finger food catering in Dubai scaled down to two people: canapés built to be picked up cleanly, nothing that needs cutlery, nothing that needs explaining halfway through. It matters more than it sounds, because a proposal that starts with fifteen silent minutes at an empty table starts on the back foot. If the night grows into an engagement gathering for family the following week, that same canapé service scales up to a standing table without turning into a buffet. On cuisine, couples most often ask for the dish from a first date or the food from a shared trip. Lebanese is the most requested of those in Dubai by a distance — a mezze opening, then a grill, which suits an unhurried evening better than a formal tasting sequence — and our Arabic and Lebanese catering page covers those menus in full. French, Italian, Japanese and modern Emirati evenings are built the same way, by a chef who cooks that cuisine for a living rather than one adapting a house menu to fit."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Every Detail, Choreographed'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Is there a cheap way to do a proposal dinner in Dubai?",
+   "new_paragraphs": [
+    "Not in the way the word usually means, and it is fairer to say so than to imply otherwise. People searching for cheap proposal dinner catering in Dubai are almost always after a real number rather than a bargain, so here it is: AED 1,200 buys a plated dinner for two, cooked and served in your own space. That is the floor for a chef-led evening, not a stripped-back version of one. What moves the figure is course count, ingredient level and styling — there is no budget tier and premium tier, just a menu that grows. If the budget is the binding constraint, there are two honest routes. Cut courses instead of quality: three courses cooked properly beat five stretched thin, and the chef will tell you which to drop. Or, when the evening is really an engagement gathering for a group rather than a dinner for two, change format entirely — a spread dropped off ready to serve starts at AED 90 per person, a buffet at AED 120 and a live station at AED 150, against AED 700 to 950 per person for a chef cooking and serving on site. Volume formats carry a 10-guest minimum, 20 for a full buffet, and a minimum order value of AED 900. What we will not do is quote a low per-head figure and recover it in extras on the final invoice."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Every Detail, Choreographed'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Where can the dinner be styled and set up?",
+   "new_paragraphs": [
+    "Almost anywhere in the emirate — proposal dinner home catering in Dubai is the most popular choice, but the setting is up to you. The chef can cook and serve in your apartment, a private villa, a rooftop terrace, a beach or garden, or aboard a yacht, adapting to whatever kitchen or prep space is available. If your own space is not right, we can point you toward private venues through our partners. Styling is kept intentional and discreet: a laid table, soft lighting, and only the details that carry meaning, not a cluttered scene. Practical logistics are handled quietly in the background — timing the arrival so setup is finished before you are, staging the courses out of sight, and keeping any surprise element (a musician, a photographer, the ring itself) coordinated with your plan. The aim is an evening that looks effortless because the work stayed invisible."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Every Detail, Choreographed'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How much does proposal dinner catering in Dubai cost?",
+   "new_paragraphs": [
+    "Proposal dinner catering prices in Dubai start from AED 1,200 for a plated dinner for two, with the proposal dinner catering cost rising with more courses, premium ingredients or added styling. As a rough guide, curated experience packages sit around AED 1,200, AED 2,400 and AED 3,600 as you add courses, canapés and service detail, while a full multi-course tasting menu is from AED 1,400. If you are folding a larger engagement celebration into the same booking, per-head catering starts at AED 90 per person dropped off, AED 120 for a buffet and AED 150 with a live station, while a chef cooking and serving on site is AED 700 to 950 per person. Volume formats carry a 10-guest minimum, 20 for a full buffet, and a minimum order value of AED 900. Every quote is itemised, so you see exactly where the money goes. Compare the tiers on our prices page and the catering price guide , then request an exact figure for your date, guest count and menu."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Every Detail, Choreographed'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How do I hire proposal dinner catering in Dubai?",
+   "new_paragraphs": [
+    "Hiring is clear: send your date, guest count and venue, and we match a vetted chef and return an itemised proposal, usually within one business day. As the team coordinating your booking, we take the whole brief off your hands — menu design, timings, styling and any surprise coordination — through one point of contact. If you have been searching \"proposal dinner catering near me\", the value of a managed service is exactly this: you are not calling three suppliers, you are confirming one plan. Our proposal dinner catering services in Dubai cover the reservation of the chef, a menu draft to refine, a confirmed run-sheet for the evening, and on-the-day cooking, service and cleanup. Once you approve the proposal we lock the chef and the details; nearer the date we reconfirm timings so nothing is left to chance. Start any enquiry through contact and we take it from there."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Every Detail, Choreographed'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Why book your proposal dinner with myCHEF?",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you own the evening, we carry the work. Every chef working on proposal dinner catering has cleared identity checks, a practical cooking assessment, reference verification and ongoing performance reviews — a continuous standard, not a one-time tick. We are honest that no system removes every risk, so we match each event to the chef well suited to it, which is what makes for genuinely reliable, best-in-class proposal dinner catering in Dubai. For an occasion like this that is often Ahmed Al-Rashid , who brings 18+ years across Dubai, London and Paris in classical French technique and builds each menu with the host, every course timed and seasoned to order; for the dessert-reveal moment we can pair him with Sofia Moretti , our pastry and dessert specialist. Our work spans proposal dinner catering, villa weddings, yacht celebrations and corporate galas across Dubai."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Every Detail, Choreographed'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Proposal dinner catering across Dubai",
+   "new_paragraphs": [
+    "We arrange proposal dinners across every part of the city, matched to your venue and the moment you are planning. That includes Palm Jumeirah rooftops and beachfront villas, Downtown and Business Bay apartments, Dubai Marina and JBR, and the villa communities of Emirates Hills, Jumeirah and Arabian Ranches — as well as yachts and private desert settings for something further from the ordinary. Wherever you are, the chef travels to you, so proposal dinner catering near me effectively means anywhere in Dubai you can set a table. If you are still weighing formats, compare a private chef vs catering for the evening, or look at a date night package and a romantic dinner as related ways to plan it. You can also explore the full range of luxury dining experiences to see what else can be built around the night."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Every Detail, Choreographed'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning proposal dinner catering step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your proposal dinner catering proposal arrives.",
+    "Book to the lead-time guidance: 48 hours for a standard private-chef dinner, 5–7 days for a bespoke menu with styling, and 7–14 days or more where a larger engagement celebration is attached. Short-notice requests are assessed individually.",
+    "Confirm your proposal dinner catering menu about 7 days out, when the guest list is firm.",
+    "Ask early about allergies and dietary plates — not in the last 48 hours before proposal dinner catering.",
+    "Check the access route before proposal dinner catering day — setup starts roughly 2 hours ahead.",
+    "Plan on roughly 3 hours of proposal dinner catering service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Every Detail, Choreographed'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which proposal dinner catering format suits your event?",
+   "new_paragraphs": [
+    "Format What it gives you Staffing Cost position",
+    "Drop-off Food delivered ready to serve None From AED 90 per person",
+    "Buffet Presentation plus a maintained spread 1–2 From AED 120 per person",
+    "Live stations Cooking in front of your guests 2–4 From AED 150 per person",
+    "Plated, chef on site Every course cooked and served by a chef at your venue 3 and above AED 700–950 per person; from AED 1,200 for two"
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Every Detail, Choreographed'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  }
+ ],
+ "faq": []
+}

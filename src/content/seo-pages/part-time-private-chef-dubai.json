@@ -1,0 +1,181 @@
+{
+ "url": "/part-time-private-chef-dubai",
+ "keyword_strategy": {
+  "main_keyword": "part time private chef catering dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 4,
+  "subkeywords_carried": 3,
+  "coverage_percent": 75,
+  "subkeywords_carried_list": [
+   "private chef at home dubai",
+   "full time private chef dubai",
+   "part time private chef catering dubai price"
+  ],
+  "subkeywords_not_carried": [
+   "mexican private chef dubai"
+  ],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Part Time Private Chef Catering Dubai | Quoted Per Schedule | myCHEF",
+  "meta_description": "Part-Time Private Chef catering in Dubai — a household chef for set days each week. Quoted per schedule, with vetted chefs and full service. Request a proposal from myCHEF.",
+  "h1": "Part-Time Private Chef and Catering in Dubai — Prices and What You Get"
+ },
+ "opening_paragraph": [
+  "Part-time private chef catering in Dubai places a vetted household chef in your kitchen on set days each week, quoted per schedule, with standalone private dinners from AED 700 per person. Instead of a full-time hire or the cost of eating out, you get a professional cooking around your routine — two or three evenings, weekday lunches, or a weekend of prepped meals. The chef plans the menu, shops, cooks and cleans up, so you keep the calm of a home-cooked table without touching a pan."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "Part-Time Private Chef Questions",
+   "match_confidence": 0.74,
+   "new_heading": "Part-time private chefs across Dubai",
+   "new_paragraphs": [
+    "Yes — we place part-time private chefs in every Dubai community, so a \"part time private chef catering near me\" search is covered wherever you live. Regular household chefs cook in Palm Jumeirah, Emirates Hills, Dubai Hills and Arabian Ranches villas, and in Downtown, Business Bay, DIFC, Dubai Marina, JBR and JLT apartments. Whether it is home food catering for a busy Marina apartment or a full villa kitchen in Jumeirah, the same vetting, catering services and menu care apply. Explore the wider private chef service to see how a part-time rota fits alongside one-off dinners and events across the city."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "The \"Regular But Not Full-Time\" Solution",
+  "Benefits of a Part-Time Chef",
+  "Find Your Part-Time Chef",
+  "Explore myCHEF Dubai",
+  "How Families Use Part-Time Chefs"
+ ],
+ "add_block": [
+  {
+   "new_heading": "What does a part-time private chef in Dubai include?",
+   "new_paragraphs": [
+    "A part-time private chef gives you a dedicated household cook for a few days a week, with everything from planning to the last wiped counter handled for you. Each booking covers menu design tailored to your household, grocery shopping and sourcing, on-site cooking, plating and service, and a clean kitchen at the end. This is a full catering service, not a drop-off tray: the chef works in your own kitchen, adjusting seasoning and portions to your family's taste over time. As a part-time private chef caterer residents rely on for weeknight consistency, myCHEF keeps the same chef on your rota where possible, so recipes, allergies and preferences are remembered instead of re-explained. It is a proper catering service, run around your week. You set the days; the chef fits the rhythm of your home."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'The \"Regular But Not Full-Time\" Solution'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Part-time private chef catering for weddings, corporate and parties",
+   "new_paragraphs": [
+    "Your household chef can scale up from a quiet family dinner to a full occasion whenever you need it. The same chef you book for a birthday or an anniversary can plate a multi-course dinner for a small wedding at home, run a relaxed poolside spread, or handle the corporate catering a team needs for a director's dinner or an offsite lunch. Because the chef already knows your kitchen and equipment, adding a table of ten or twenty is a menu change, not a logistics scramble. Part time private chef party catering in Dubai works because the person cooking already understands your home. It is a genuinely useful bridge for the events households host through the year — regular weekday cooking on your schedule, with the flexibility to lift it into party service when the calendar calls for it. Tell us the guest count and we adjust courses, staffing and timing to match."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'The \"Regular But Not Full-Time\" Solution'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What is on a part-time private chef menu in Dubai?",
+   "new_paragraphs": [
+    "The menu is built entirely around your household — there is no fixed list to choose from. A part-time private chef menu families enjoy might rotate Levantine mezze, Italian pasta nights, Emirati and Gulf classics, Indian home cooking, or clean grilled proteins with seasonal vegetables. Your chef writes a weekly or fortnightly plan, then refines it as you give feedback. Halal, vegetarian, vegan, gluten-free, keto and low-sugar cooking are all standard, and children's menus sit happily alongside a grown-up dinner. Because this is real home catering cooked fresh each day, ingredients are shopped close to service instead of batch-frozen. Want a themed dinner, a healthy reset week, or the luxury touch some occasions call for? The plan flexes without changing chef or losing the household knowledge already built up."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'The \"Regular But Not Full-Time\" Solution'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How does scheduling and logistics work?",
+   "new_paragraphs": [
+    "You choose the days and hours; the chef and myCHEF handle the rest. A typical part-time rota is two to three days a week — some clients want dinner cooked and served, others want a batch of lunches and dinners prepped and stored so the fridge is stocked. Your chef arrives with a plan, brings or requests any specialist ingredients, cooks in your kitchen, serves or portions, then cleans down completely. Parking, building access and kitchen quirks are noted once and remembered. If a week changes — guests arriving, travel, a party bolted on — you flex the schedule with notice, and where your regular chef is unavailable we arrange trusted cover so the days you rely on are not dropped. Everything runs to Dubai Municipality food-safety practice, from sourcing to storage temperatures."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'The \"Regular But Not Full-Time\" Solution'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How do I hire a part-time private chef in Dubai?",
+   "new_paragraphs": [
+    "Send your schedule and we send an itemised proposal, usually within one business day. To hire part time private chef catering dubai households trust, share three things: the days and rough hours you want cooking, how large the household is, and any dietary needs or dishes you love. We match a vetted chef to your kitchen and cuisine, you approve the plan and price, and the chef starts on the agreed day. There is no long tie-in — adjust or pause the rota as your months change. Prefer to compare formats first? Our private chef vs catering guide sets out when a household placement beats event catering, and full-time chef or weekly meal prep may suit heavier routines."
+   ],
+   "insert_after_block": "How Families Use Part-Time Chefs",
+   "position": "after the block titled 'How Families Use Part-Time Chefs'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Why book a part-time private chef through myCHEF?",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you own the evening, we carry the work. Vetting for part time private chef catering means identity checks, a practical cooking assessment, reference verification and ongoing performance reviews — a continuous standard, not a one-time tick. We are honest about it, too: no system removes every risk, so we match each household to the best available chef for it. That vetting is why families treat us as the right option Dubai has for a part-time chef entering their home each week.",
+    "For a regular household placement, that chef is often Ahmed Al-Rashid — 18+ years across Dubai, London and Paris in classical French technique — who builds each week's menu as a collaboration with the host, every plate timed and seasoned to an exacting standard. As a catering company Dubai residents return to, we have also delivered villa weddings, yacht celebrations and corporate galas across the city. Every part time private chef catering booking includes, with client reviews added as events run."
+   ],
+   "insert_after_block": "How Families Use Part-Time Chefs",
+   "position": "after the block titled 'How Families Use Part-Time Chefs'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning part time private chef catering step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your part time private chef catering proposal arrives.",
+    "Book part time private chef catering about 2 weeks ahead off-peak, and 6 weeks ahead between November and March.",
+    "Confirm the part time private chef catering menu 7 days before the date, with final numbers.",
+    "Ask about allergies when booking part time private chef catering, well outside the final 48 hours .",
+    "Check how the team reaches the venue; part time private chef catering setup begins about 2 hours before guests.",
+    "Plan on roughly 3 hours of part time private chef catering service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": "Part-Time Private Chef Questions",
+   "position": "after the block titled 'Part-Time Private Chef Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which part time private chef catering format suits your event?",
+   "new_paragraphs": [
+    "Format What it gives you Staffing Cost position",
+    "Drop-off Food delivered ready to serve None Entry point",
+    "Buffet Presentation plus a maintained spread 1–2 From AED 700 per person",
+    "Live stations Cooking in front of your guests 2–4 Mid-range",
+    "Plated Every course served together 3 and above Top of the range"
+   ],
+   "insert_after_block": "Part-Time Private Chef Questions",
+   "position": "after the block titled 'Part-Time Private Chef Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Common questions",
+   "new_paragraphs": [
+    "How much does a part-time private chef cost in Dubai?",
+    "The placement is quoted per schedule, based on how many days and people you feed. As a reference, standalone private chef dinners start from AED 700 per person, and weekly meal-prep plans run AED 1898 to AED 2698. Send your schedule for an exact quote.",
+    "What is included with a part-time private chef?",
+    "Menu design, a vetted chef, grocery shopping, cooking, service and kitchen cleanup on your chosen days. Everything is agreed in an itemised proposal before you commit — no hidden extras.",
+    "How many days a week can I book a part-time private chef?",
+    "Anywhere from one day to most days of the week. Two or three days is the most common part-time private chef catering package in Dubai; the schedule is yours to set and adjust.",
+    "Can a part-time private chef cater a party or corporate event?",
+    "Yes — your household chef can scale up for a party or a corporate dinner, adding menu courses and service to match the guest count, without bringing in a stranger to your kitchen.",
+    "Do you offer part-time private chef catering near me across Dubai?",
+    "Yes. We place part-time private chefs across every Dubai community, from Palm Jumeirah and Emirates Hills villas to Downtown and Marina apartments — matched to your kitchen and cuisine.",
+    "Can the chef accommodate dietary needs and family menus?",
+    "Yes. Halal, vegetarian, gluten-free, keto, low-sugar, kids' menus and allergy management are all standard; your chef plans each week around the household's preferences.",
+    "How do I hire a part-time private chef in Dubai?",
+    "Hiring takes one message: tell us your days, household size and any dietary needs; we send an itemised proposal, usually within one business day, then match a vetted chef to start on your agreed day.",
+    "For part time private chef catering, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements ."
+   ],
+   "insert_after_block": "Part-Time Private Chef Questions",
+   "position": "after the block titled 'Part-Time Private Chef Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "More on part time private chef catering dubai",
+   "new_paragraphs": [
+    "Private chef umm suqeim",
+    "Private chef date night dubai",
+    "Private chef arabian ranches",
+    "Private chef jbr",
+    "Get an itemised quote"
+   ],
+   "insert_after_block": "Part-Time Private Chef Questions",
+   "position": "after the block titled 'Part-Time Private Chef Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How much does a part-time private chef cost in Dubai?",
+   "new_paragraphs": [
+    "Part-time placements start with a proposal quoted per schedule, because the fair price depends on how many days and how many mouths you feed. As reference points from our confirmed rates, standalone private chef dinners run from AED 700 per person, a tasting menu evening is AED 1400, and weekly meal-prep plans are AED 1898 or AED 2698 depending on volume. Your quote combines the days per week, household size, menu ambition and any event add-ons into one clear figure — no hidden extras. For a like-for-like view of the prices clients compare, see our private chef prices and the fuller Dubai catering price guide . We aim to be the affordable option that still uses genuinely vetted, professional chefs — value, not the cheapest tray. That is what fair part time private chef catering cost in Dubai should look like."
+   ],
+   "insert_after_block": "How Families Use Part-Time Chefs",
+   "position": "after the block titled 'How Families Use Part-Time Chefs'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  }
+ ],
+ "faq": []
+}

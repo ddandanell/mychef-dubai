@@ -1,0 +1,161 @@
+{
+ "url": "/vip-club",
+ "keyword_strategy": {
+  "main_keyword": "vip club catering dubai",
+  "main_keyword_placed_in": {
+   "title": false,
+   "h1": false,
+   "meta_description": false,
+   "opening_paragraph": false
+  },
+  "subkeywords_total": 5,
+  "subkeywords_carried": 0,
+  "coverage_percent": 0,
+  "subkeywords_carried_list": [],
+  "subkeywords_not_carried": [
+   "how much does catering cost in dubai?",
+   "where do celebrities go to eat in dubai?",
+   "luxury catering dubai",
+   "vip club catering dubai menu",
+   "vip club catering dubai contact number"
+  ],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "myCHEF VIP Club Membership | myCHEF Dubai",
+  "meta_description": "The myCHEF VIP Club: AED 199 annual membership with a 10% discount on the myCHEF coordination fee on eligible bookings, one canape upgrade a year and priority consideration during busy periods. Full terms.",
+  "h1": "myCHEF VIP Club"
+ },
+ "opening_paragraph": [
+  "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"Home\", \"item\": \"https://www.mychef.ae/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"myCHEF VIP Club\", \"item\": \"https://www.mychef.ae/vip-club\"}]} {\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"How much does the myCHEF VIP Club cost?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"AED 199 for a 12-month membership. It does not renew automatically, and it is non-transferable.\"}}, {\"@type\": \"Question\", \"name\": \"What discount do VIP members get?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"A 10% discount on the myCHEF coordination or service fee on eligible bookings only. The discount is capped at AED 500 per booking, can be used up to 4 times per membership year, is not stackable, and does not apply to third-party caterer or chef charges, ingredients, staffing, equipment, venues, transport or other externally supplied services.\"}}, {\"@type\": \"Question\", \"name\": \"Can I get a refund on VIP Club membership?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"The membership fee is refundable within 14 days of purchase if no benefit has been used; it is non-refundable after the first benefit is used.\"}}, {\"@type\": \"Question\", \"name\": \"Does VIP membership reserve dates or chefs?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"No. VIP members receive priority consideration for quotations and available booking slots during busy periods. Membership does not reserve dates, promise a particular chef or secure peak-season slots \\u2014 every booking confirms in the normal way.\"}}]}",
+  "Home",
+  "/ VIP Club",
+  "MEMBERSHIP",
+  "The myCHEF VIP Club is an annual membership of AED 199 for 12 months, built for guests who book private dining with us more than once a year. It carries a scoped discount on our coordination fee, one canapé upgrade a year and priority consideration during busy periods. This page sets out exactly what membership does — and, just as deliberately, what it does not."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "1. What the VIP Club is",
+   "match_confidence": 1.0,
+   "new_heading": "1. What the VIP Club is",
+   "new_paragraphs": [
+    "The VIP Club is a paid membership programme from myCHEF Dubai. Membership runs for 12 months from the date of purchase, does not renew automatically, and is non-transferable — it belongs to the named member and cannot be lent, shared or resold.",
+    "Refunds are simple: Refundable within 14 days of purchase if no benefit has been used; non-refundable after the first benefit is used."
+   ]
+  },
+  {
+   "block_on_your_page": "2. The 10% member discount",
+   "match_confidence": 1.0,
+   "new_heading": "2. The 10% member discount",
+   "new_paragraphs": [
+    "VIP members receive a 10% discount on the myCHEF coordination or service fee on eligible bookings only. The discount is capped at AED 500 per booking, can be used a maximum of 4 times per membership year, and is not stackable with any other offer or promotion.",
+    "The discount never applies to:",
+    "Third-party caterer or chef charges",
+    "Ingredients",
+    "Staffing",
+    "Equipment",
+    "Rentals",
+    "Venues",
+    "Entertainment",
+    "Transport",
+    "Government fees",
+    "Taxes",
+    "Gratuities",
+    "Externally supplied services",
+    "That scope matters, so we say it plainly: on most bookings the myCHEF coordination or service fee is one line of your itemised quote, and the discount applies to that line — not to the booking total."
+   ]
+  },
+  {
+   "block_on_your_page": "3. The annual canapé upgrade",
+   "match_confidence": 1.0,
+   "new_heading": "3. The annual canapé upgrade",
+   "new_paragraphs": [
+    "Once per membership year, members can add a canapé course to a qualifying booking: one chef-selected canapé, subject to ingredient, dietary and partner availability.",
+    "The qualifying booking must have a minimum booking value of AED 2,500 and no more than 6 guests. The upgrade is chef-selected rather than chosen from a menu, and there is no cash alternative if it is not used within the membership year."
+   ]
+  },
+  {
+   "block_on_your_page": "4. Priority consideration during busy periods",
+   "match_confidence": 1.0,
+   "new_heading": "4. Priority consideration during busy periods",
+   "new_paragraphs": [
+    "VIP members receive priority consideration for quotations and available booking slots during busy periods.",
+    "Priority consideration means your enquiry is looked at ahead of the queue when the calendar is contested — typically weekends between November and March. It does not reserve dates, does not promise a particular chef and does not secure peak-season slots; availability always depends on partner acceptance and cleared payment, for members and non-members alike."
+   ]
+  },
+  {
+   "block_on_your_page": "5. How to join",
+   "match_confidence": 0.92,
+   "new_heading": "6. How to join",
+   "new_paragraphs": [
+    "Message us on WhatsApp or email info@mychef.ae and ask for VIP Club membership. We confirm the start date in writing, and your 12 months run from that confirmation. We are available 9am to 9pm every day, and we typically reply within 15 minutes during business hours — so the arithmetic on whether membership pays for itself takes one short conversation."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "Explore myCHEF Dubai"
+ ],
+ "add_block": [
+  {
+   "new_heading": "5. What membership does not include",
+   "new_paragraphs": [
+    "An honest membership page lists the misses as clearly as the benefits:",
+    "No reserved dates or held slots — bookings confirm in the normal way, on written confirmation and cleared payment",
+    "No promise of a specific chef or partner",
+    "No change to how quickly we get to you outside the priority queue — we typically reply within 15 minutes during business hours, member or not",
+    "No discount on partner charges, ingredients, staffing or any other excluded line",
+    "No cash value — the fee is not credited against bookings, and unused benefits do not roll over, transfer or convert to cash"
+   ],
+   "insert_after_block": "4. Priority consideration during busy periods",
+   "position": "after the block titled '4. Priority consideration during busy periods'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Frequently asked questions",
+   "new_paragraphs": [
+    "How much does the myCHEF VIP Club cost?",
+    "AED 199 for a 12-month membership. It does not renew automatically, and it is non-transferable.",
+    "What discount do VIP members get?",
+    "A 10% discount on the myCHEF coordination or service fee on eligible bookings only. The discount is capped at AED 500 per booking, can be used up to 4 times per membership year, is not stackable, and does not apply to third-party caterer or chef charges, ingredients, staffing, equipment, venues, transport or other externally supplied services.",
+    "Can I get a refund on VIP Club membership?",
+    "The membership fee is refundable within 14 days of purchase if no benefit has been used; it is non-refundable after the first benefit is used.",
+    "Does VIP membership reserve dates or chefs?",
+    "No. VIP members receive priority consideration for quotations and available booking slots during busy periods. Membership does not reserve dates, promise a particular chef or secure peak-season slots — every booking confirms in the normal way.",
+    "Ready to join, or want to check the sums for your bookings first? Either works.",
+    "Chat on WhatsApp Contact Us"
+   ],
+   "insert_after_block": "5. How to join",
+   "position": "after the block titled '5. How to join'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  }
+ ],
+ "faq": [
+  {
+   "question": "How much does the myCHEF VIP Club cost?",
+   "answer": [
+    "AED 199 for a 12-month membership. It does not renew automatically, and it is non-transferable."
+   ]
+  },
+  {
+   "question": "What discount do VIP members get?",
+   "answer": [
+    "A 10% discount on the myCHEF coordination or service fee on eligible bookings only. The discount is capped at AED 500 per booking, can be used up to 4 times per membership year, is not stackable, and does not apply to third-party caterer or chef charges, ingredients, staffing, equipment, venues, transport or other externally supplied services."
+   ]
+  },
+  {
+   "question": "Can I get a refund on VIP Club membership?",
+   "answer": [
+    "The membership fee is refundable within 14 days of purchase if no benefit has been used; it is non-refundable after the first benefit is used."
+   ]
+  },
+  {
+   "question": "Does VIP membership reserve dates or chefs?",
+   "answer": [
+    "No. VIP members receive priority consideration for quotations and available booking slots during busy periods. Membership does not reserve dates, promise a particular chef or secure peak-season slots — every booking confirms in the normal way.",
+    "Ready to join, or want to check the sums for your bookings first? Either works.",
+    "Chat on WhatsApp Contact Us"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,338 @@
+{
+ "url": "/afternoon-tea-catering-dubai",
+ "keyword_strategy": {
+  "main_keyword": "afternoon tea catering dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 3,
+  "subkeywords_carried": 3,
+  "coverage_percent": 100,
+  "subkeywords_carried_list": [
+   "best afternoon tea catering dubai",
+   "afternoon tea catering dubai price",
+   "high tea catering dubai"
+  ],
+  "subkeywords_not_carried": [],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Afternoon Tea Catering Dubai | Menus & Prices | myCHEF",
+  "meta_description": "Afternoon Tea catering in Dubai from AED 700pp — finger sandwiches and savouries, vetted chefs and full service. Bespoke menus for your event. Get an itemised quote.",
+  "h1": "Afternoon Tea Catering in Dubai — Prices, Formats and What You Get"
+ },
+ "opening_paragraph": [
+  "Afternoon tea catering Dubai from myCHEF starts at AED 700 per person, with tiered stands, pots poured at the table and a chef who plates, serves and clears. Give us your date, guest count and venue, we typically reply within 15 minutes during business hours, with a full itemised quote to follow: finger sandwiches, warm scones, patisserie and a curated tea list, all designed around your occasion and any dietary needs."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "Afternoon Tea Catering Formats",
+   "match_confidence": 0.89,
+   "new_heading": "Afternoon tea catering FAQ",
+   "new_paragraphs": [
+    "How much does afternoon tea catering cost in Dubai?",
+    "From AED 700 per person, quoted to your guest count, menu and service. Buffet-style sits at the lower end; plated tiered service with staff sits higher. Set packages from AED 1,200 suit fixed numbers. Send your details for an itemised quote.",
+    "What is included in afternoon tea catering?",
+    "Included is a vetted chef, service staff where needed, tiered stands, china, plating, setup and cleanup, plus bespoke menu design from the first conversation. You host; we handle the rest.",
+    "How far ahead should I book afternoon tea catering in Dubai?",
+    "Book about a week ahead for a small gathering. Allow two to four weeks for weddings, large parties and peak dates such as Mother's Day and December, when the top chefs book up fastest.",
+    "Can you cater afternoon tea for corporate events and parties?",
+    "Yes. Corporate afternoon tea catering in Dubai covers client hospitality and team celebrations, plus bridal showers, birthdays and private parties, scaled from an intimate table to a large reception.",
+    "Do you offer vegan, gluten-free and halal afternoon tea options?",
+    "Yes. Vegan, vegetarian, gluten-free and nut-conscious menus may be available on request, subject to confirmation by the assigned culinary partner, and meat is prepared to halal standards. Partner kitchens may handle allergens, so share dietary needs in full when you enquire and the chef designs around them.",
+    "Can I get afternoon tea catering near me across Dubai?",
+    "Yes. We cover the whole city, from Palm Jumeirah and Jumeirah to Downtown, Dubai Marina, Business Bay and DIFC, serving villas, apartments, offices and gardens.",
+    "Do you offer afternoon tea catering packages?",
+    "Yes. Per-head pricing suits most events, while set packages from AED 1,200 work well for fixed guest counts and budgets. We will point you to whichever gives better value.",
+    "For afternoon tea catering, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements ."
+   ]
+  },
+  {
+   "block_on_your_page": "What's Included in Our Afternoon Tea Catering",
+   "match_confidence": 0.67,
+   "new_heading": "What afternoon tea catering includes",
+   "new_paragraphs": [
+    "Afternoon tea catering includes the food, the format and the full service: a three-tier spread of savouries, scones and pastries, plus a chef on site, service staff, tiered stands, china and linen, setup and cleanup. You host; we carry the work. As a full afternoon tea catering services provider, myCHEF designs the menu with you, brings everything the table needs and leaves the space as we found it. Unlike a bakery drop-off, a private afternoon tea chef finishes scones warm, whips cream fresh and paces the tea service so nothing sits and dries out. Whether it is a quiet gathering for eight or a large celebration, one team owns the timing from the first pot to the last plate. Every afternoon tea catering company in Dubai promises elegance; our difference is a vetted chef standing behind the stand, not just a delivery van at the door."
+   ]
+  },
+  {
+   "block_on_your_page": "A Taste of Our Afternoon Tea Catering",
+   "match_confidence": 0.62,
+   "new_heading": "The full afternoon tea menu, tier by tier",
+   "new_paragraphs": [
+    "This is the working list the chefs build from, set out in the order a tea is served: something poured, then savoury, then scones, then sweet. Nobody takes all of it. A three-tier stand carries four or five items per tier, a grazing table spreads wider and flatter, and a drop-off order narrows to what travels without wilting. Send the occasion, the guest count and the date, and a shortlist comes back against it.",
+    "How the tea is set out",
+    "Format decides the equipment, the staffing and half the cost, so it is worth settling before the food.",
+    "Three-tier stand service: poured at the table, roughly one stand per two guests",
+    "Continental spread on a plattered side credenza: no hot line, the boardroom-morning default",
+    "Grazing table: styled down the length of the room, wider and flatter than a stand",
+    "Drop-off platters and gathering boxes: sold by the number of persons served",
+    "Grab-and-go bar: pre-wrapped items near the entrance, eaten with one hand",
+    "High tea on-the-go: a takeaway stand for guests leaving with a box",
+    "Coffee-break format: a coffee station and pastry display for a 30 to 45 minute break",
+    "Plated brunch service: three to seven courses, seated",
+    "Bowl-and-fork standing service: for rooms where there is no seating",
+    "Live chef-manned stations: added on top of the stands, not instead of them",
+    "The welcome pour, before anything is eaten",
+    "One cold drink in hand while guests find their seats. Two or three is plenty.",
+    "Classic lemonade: lightly sweet, the safe default in the heat",
+    "Watermelon juice",
+    "Freshly squeezed orange juice",
+    "Berry fruit drink",
+    "Cold-pressed detox juices: green or beetroot-led, pressed the same morning",
+    "Infused water station: cucumber, mint and citrus, refilled through the service",
+    "Still and sparkling water",
+    "First tier — finger sandwiches and savouries",
+    "The bottom tier, eaten first, crusts off and halved. Four to six varieties is the market standard and the point at which a tea stops feeling thin.",
+    "Egg mayonnaise finger sandwiches: the one guests reach for first",
+    "Cucumber finger sandwiches: thin, salted, on white",
+    "Smoked salmon and cream cheese",
+    "Norwegian salmon with horseradish: sharper than the cream cheese version",
+    "Roast smoked beef with caramelised onion",
+    "Coronation-style chicken finger sandwiches: mild curried mayonnaise and sultanas",
+    "Salmon and cream cheese tartlets: for a tier that wants less bread on it",
+    "Canapés with mushrooms and cucumber",
+    "Mini quiches, vegetarian and chicken: served warm, often the only hot thing a tea needs",
+    "Mini rolls",
+    "First tier, the upgraded version — brunch canapés and bowl-and-fork",
+    "Where the tea is replacing lunch, or the brief is a wedding, the savoury tier is built from canapés and small bowls instead of sandwiches. Five to ten cold, six to eight hot.",
+    "Asparagus, poached quail egg, Taleggio, baguette en croute (V)",
+    "Smoked salmon, sour cream and chive blini, pickled gherkin, mustard cress",
+    "Cured mackerel, pickled fennel, horseradish crème fraiche, poppy-seed bagel",
+    "Wagyu beef cannoli, beetroot, spiced ricotta, baby herbs, sumac thyme sea salt",
+    "Pumpkin, spinach, mascarpone, oven roasted tomatoes, scones (V)",
+    "Crab, salmon, caviar, crumpet: the one that gets photographed",
+    "Mini scotch eggs",
+    "Chicken, asparagus and Taleggio pie",
+    "Pepper steak and mushroom pie",
+    "Pumpkin and sage calzone, semi dried tomatoes, buffalo mozzarella, basil",
+    "Rolled omelette, wilted spinach, sausage, roasted tomato",
+    "Smoked chicken apple sausage, egg slider",
+    "Sri Lankan egg hoppers, green sambal, split peas, sauté kale, coconut gel (V)",
+    "Second tier — the scone tier",
+    "Two or three scone types and three accompaniments. This tier barely varies across Dubai, which is exactly why it is judged: scones go out warm, cream and preserves separate, not pre-assembled.",
+    "Plain scones: finished on site to the service timing rather than baked in advance",
+    "Fruit and raisin scones",
+    "Chocolate scones: usually the children's tier at a shower",
+    "Orange blossom scones: the Levantine reading of the same tier",
+    "Clotted cream",
+    "Homemade jam and house preserves",
+    "Rose jam",
+    "Lemon curd",
+    "Date syrup (dibs) and local honey: what an Emirati table expects beside the cream",
+    "Third tier — patisserie and petit fours",
+    "Six to ten on the top tier, worked so the plate reads as a collection, not a cake selection.",
+    "Assorted macarons: colour-matched to the table if there is a palette",
+    "Pistachio macaroons",
+    "Éclairs",
+    "Profiteroles",
+    "Lemon and lime tarts: the acidity the rest of the tier needs",
+    "Lemon meringue tart",
+    "Marmalade financier",
+    "Orange blossom madeleines",
+    "Almond and pistachio biscotti",
+    "Assorted chocolate truffles",
+    "Cherry, rose water and hazelnut nougat",
+    "Panforte",
+    "Mini cheesecakes",
+    "Chocolate brownies",
+    "Chocolate, macadamia and pear brownie",
+    "Matcha choux buns, craquelin topping, vanilla yuzu custard",
+    "Battenberg cake",
+    "Cupcakes",
+    "Cinnamon snails",
+    "Oatmeal cookies with walnuts",
+    "Gold-leafed petit fours: for weddings and milestone tables",
+    "The Traditional Set — Arabic and Emirati high tea",
+    "The local answer to the three-tier stand, and the one most caterers skip. It is sold alongside the International Set above, not instead of it, and Emirati hosts serve it morning or evening as Fuala. Brass trays, not porcelain stands.",
+    "Luqaimat with date syrup: fried to order if a station is booked, otherwise finished on site",
+    "Regag with cheese",
+    "Khubz regag",
+    "Um Ali: served hot from a chafing dish",
+    "Omani halwa",
+    "Saffron pastries",
+    "Dates with dates molasses",
+    "Chebab (Emirati pancakes with date syrup)",
+    "Khameer bread",
+    "Balaleet (saffron vermicelli with omelette): sweet and savoury in the same spoonful",
+    "Khabeesah (pumpkin mash)",
+    "Al Batheetha",
+    "Knefeh",
+    "Manakish zaatar",
+    "Manakish cheese",
+    "Spinach fatayer",
+    "Mini fatayer",
+    "Zaatar labneh",
+    "Bakery basket and cold table, where the tea runs early",
+    "For a bridal-party morning, a wedding-morning breakfast or a boardroom tea that starts before eleven, the savoury tier gives way to viennoiserie and a cold dairy table.",
+    "All-butter croissants",
+    "Pain au chocolat",
+    "Almond croissants",
+    "Custard Danish",
+    "Fruit Danish pastries",
+    "Mini flavoured croissants (caramel, pistachio)",
+    "Mini muffins (feta and olive, raspberry almond): the savoury one is the surprise",
+    "Banana bread",
+    "Artisanal sourdough with preserves",
+    "Labneh",
+    "Walnut labneh",
+    "Grilled halloumi",
+    "Akkawi cheese",
+    "Nabulsi cheese boats",
+    "Premium French cheeses and cold cuts",
+    "Smoked salmon",
+    "Olives and fresh vegetables with warm pita",
+    "Fruit, parfaits and the lighter table",
+    "Individually portioned, which is what makes them work on a standing tea: no serving spoons, no queue.",
+    "Seasonal fruit platter",
+    "Seasonal fruit skewers",
+    "Individual fresh exotic fruit salad with honey cinnamon yogurt",
+    "Fruit skewer with elderflower jelly and gold leaf",
+    "Greek yoghurt with honey",
+    "Yoghurt granola pots, individually portioned: toppings kept separate so a guest can leave the nuts out",
+    "Berry chia pudding",
+    "Bircher muesli jam jar",
+    "Five berry breakfast jam jar",
+    "Banana and honey jam jar",
+    "Apple crumble jam jar",
+    "Crème brûlée jam jar",
+    "Brownie jam jar",
+    "The tea list, and what else is poured",
+    "A named tea programme is the cheapest way to lift a tea and the first thing a weak menu skips with the words \"choice of tea\". Five to nine is normal, hot and cold both expected.",
+    "Signature tea blends: Earl Grey, Darjeeling, Moroccan mint, oud, saffron-rose",
+    "Herbal infusions: the caffeine-free line, worth having for an afternoon table",
+    "Red tea",
+    "Karak chai",
+    "Arabic coffee (gahwa) with cardamom: poured from the dallah, served with dates",
+    "Lebanese coffee",
+    "Speciality roast coffee: flat white, cortado, long black, cappuccino",
+    "Cold brew",
+    "Matcha",
+    "Beetroot latte",
+    "Smoothies",
+    "Live stations, if you want the theatre",
+    "Chef-manned and added on top of the stands, usually two to four for an event. They need power, space and venue permission, so they are confirmed against the venue before they go in a quote.",
+    "Luqaimat and regag station: fried and rolled in front of guests, the strongest local finish",
+    "Live saj and manakish station: dough rolled and baked to order on a domed saj",
+    "Coffee and juice bar: barista-manned, sits well next to a coffee-break format",
+    "Belgian waffle station",
+    "Live crepe station, sweet and savoury: Nutella, strawberry, banana, olives, grilled vegetables, assorted cheeses",
+    "Sweet finish, where the tea runs past midday",
+    "Four to six, plated, for teas that turn into brunch.",
+    "Japanese fluffy air pancake",
+    "Chocolate thyme pancakes, maple syrup ice cream, honey handkerchiefs",
+    "Chocolate truffle waffle, vanilla Chantilly, stone fruit compote",
+    "Apple, rosemary salted caramel, candied orange, brioche",
+    "Strudel",
+    "Dessert profiteroles",
+    "Strawberry and marshmallow platter",
+    "Reading the menu: dietary flags and lead time",
+    "Vegetarian items are flagged (V) on the line itself, not pushed into a separate menu, and a vegan tea is built from coconut yoghurt, nut milks and vegan baked goods instead of by subtraction. Gluten-free, nut-conscious and other dietary menu options may be available on request, subject to confirmation by the assigned culinary partner. Partner kitchens may handle allergens, and cross-contact cannot be completely excluded unless dedicated controls have been specifically confirmed for the booking. Guests with allergies must provide full details before confirming their event.",
+    "On timing: we recommend booking as early as possible. Lead times depend on guest numbers, menu complexity, staffing, equipment, location and partner availability. Late afternoon tea enquiries are assessed one by one against real partner availability for the date. As guidance, a bespoke tea menu sits around five to seven days out, live stations three to five days, and a wedding or large corporate function seven to fourteen days or more."
+   ]
+  },
+  {
+   "block_on_your_page": "Afternoon Tea Catering Questions",
+   "match_confidence": 0.76,
+   "new_heading": "Afternoon tea menu & options",
+   "new_paragraphs": [
+    "The afternoon tea menu is bespoke, built around three classic tiers you can push in any direction. A typical spread runs finger sandwiches and savouries (smoked salmon, cucumber, coronation chicken, egg mayonnaise), then warm plain and fruit scones with clotted cream and preserves, up to a top tier of French patisserie, tarts, macarons and seasonal fruit. The tea list is curated too: classic blacks, greens, herbal infusions and a caffeine-free option, with coffee and a mocktail or sparkling toast on request. As afternoon tea food catering, every item is prepared fresh for your date instead of pulled from a shelf. Want a savoury-led tea for a corporate room, a pastel dessert-heavy table for a shower, or an Arabic-influenced twist with dates and rosewater? The chef adapts the menu to your taste, your guests and the season."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "Elegant, Versatile & Always Photogenic",
+  "Host an Afternoon Tea to Remember",
+  "Explore myCHEF Dubai",
+  "A Proper Afternoon Tea, Wherever You Are"
+ ],
+ "add_block": [
+  {
+   "new_heading": "Afternoon tea catering for corporate events, parties and weddings",
+   "new_paragraphs": [
+    "Afternoon tea flexes to nearly any occasion — corporate hospitality, showers, birthdays and weddings all suit the format. Corporate afternoon tea catering in Dubai works beautifully for client entertaining, team milestones and boardroom celebrations, where a refined spread signals care without the weight of a full lunch. For social hosts, afternoon tea party catering turns a bridal shower, baby shower or milestone birthday into something unhurried and photogenic. At weddings, a tiered tea moment makes a graceful pre-ceremony welcome or a relaxed morning-after brunch alternative. Because it is afternoon tea catering built for events of every size, we scale the same menu from an intimate eight-seat table to a hundred-plus guest reception, adjusting staff, stands and station count to match. Tell us the headcount and the mood, whether polished corporate, playful shower or romantic wedding, and the menu and styling follow."
+   ],
+   "insert_after_block": "What's Included in Our Afternoon Tea Catering",
+   "position": "after the block titled 'What's Included in Our Afternoon Tea Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Dietary options and styling",
+   "new_paragraphs": [
+    "Dietary needs are designed in from the start, not bolted on as an afterthought. Vegan, vegetarian, gluten-free and nut-conscious versions of the tea are designed on request, subject to confirmation by the assigned culinary partner, and meat is prepared to halal standards — so a mixed table of guests eats the same beautiful spread instead of a lesser \"special\" plate. On styling, the chef and team dress the tier stands to your setting: crisp white and silver for a corporate room, blush and florals for a shower, gold accents for a wedding. We work to your palette and venue, whether that is a marble villa dining room, a shaded garden or an office terrace. Fresh flowers, place cards, cake stands and a signature welcome drink can all be added. The result reads as a considered occasion, not a tray of sandwiches left on a sideboard."
+   ],
+   "insert_after_block": "A Taste of Our Afternoon Tea Catering",
+   "position": "after the block titled 'A Taste of Our Afternoon Tea Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How much does afternoon tea catering cost in Dubai?",
+   "new_paragraphs": [
+    "Afternoon tea catering in Dubai costs from AED 700 per person, with the format setting the range. Buffet-style trays and drop-off are the most affordable; plated, staffed tiered service sits higher; and a luxury afternoon tea with premium teas, a live pastry finish and full styling sits higher again. Most hosts pay per head, but set catering packages — from around AED 1,200 for a small group, scaling to AED 2,400 and AED 3,600 for larger counts, can give better value when your numbers are fixed. Afternoon tea home catering for a private villa is priced the same way, by guests, menu and service level. There are no hidden add-ons: your itemised quote lists food, staff, equipment and delivery separately so you can see exactly what drives the cost. Compare formats in our Dubai catering price guide , then send your details for an exact figure."
+   ],
+   "insert_after_block": "A Taste of Our Afternoon Tea Catering",
+   "position": "after the block titled 'A Taste of Our Afternoon Tea Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How to hire afternoon tea catering and how it works",
+   "new_paragraphs": [
+    "To hire afternoon tea catering, send your date, guest count, venue and any dietary needs, and we typically reply within 15 minutes during business hours with a menu and itemised quote. From there the path is set: we confirm the menu and tea list, match a chef, and lock the timeline. On the day, the team arrives ahead of your guests, sets the stands, finishes the scones and pastries on site, runs the service and clears everything away. Looking for an afternoon tea caterer near me comes down to coverage and reliability, and myCHEF serves every Dubai neighbourhood, so \"near me\" is wherever you are hosting. Booking a week ahead suits a small gathering; allow two to four weeks for weddings, large parties and peak dates. One point of contact manages the whole thing, so you are not chasing a delivery driver on the day."
+   ],
+   "insert_after_block": "A Taste of Our Afternoon Tea Catering",
+   "position": "after the block titled 'A Taste of Our Afternoon Tea Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Why myCHEF",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you own the occasion, we carry the work. Vetting for afternoon tea catering means identity checks, a practical cooking assessment, reference verification and ongoing performance reviews : a continuous standard, not a one-time tick. We are honest about it, too: no system removes every risk, so we match each event to the best available chef for it. For an afternoon tea, that is often Sofia Moretti , who brings 12+ years and Le Cordon Bleu Paris training; her scones, tarts, chocolate work and plated patisserie are a signature of weddings, showers and dinner parties. Afternoon tea catering sits alongside villa weddings, yacht celebrations and corporate galas across Dubai. Every afternoon tea catering booking includes, with client reviews added as events run."
+   ],
+   "insert_after_block": "A Taste of Our Afternoon Tea Catering",
+   "position": "after the block titled 'A Taste of Our Afternoon Tea Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Afternoon tea catering across Dubai",
+   "new_paragraphs": [
+    "We provide afternoon tea catering across Dubai, from Palm Jumeirah villas and Emirates Hills gardens to Downtown apartments, Dubai Marina, Jumeirah, Business Bay and DIFC offices. The service travels to you, which is why the \"near me\" question is about reach — and ours covers the whole city, indoors or out. A shaded garden tea in Arabian Ranches, a corporate tea in a DIFC boardroom and a bridal shower on a Marina terrace all run on the same standard: a vetted chef, fresh-finished food and full service. Planning a related celebration? See our baby shower catering and Mother's Day catering , explore all event catering , or browse the full range of catering in Dubai . Wherever you are hosting, the best afternoon tea catering meets you there, ready before your first guest arrives."
+   ],
+   "insert_after_block": "A Taste of Our Afternoon Tea Catering",
+   "position": "after the block titled 'A Taste of Our Afternoon Tea Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning afternoon tea catering step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your afternoon tea catering proposal arrives.",
+    "Book as early as you can: a bespoke afternoon tea catering menu sits around 5–7 days out, live stations 3–5 days , and a wedding or corporate function 7–14 days or more.",
+    "Confirm what goes on the afternoon tea catering menu 7 days out, once the count settles.",
+    "Ask for special diets up front; afternoon tea catering plates are planned, not improvised inside 48 hours .",
+    "Check loading and access details; allow 2 hours of afternoon tea catering setup on site.",
+    "Plan on roughly 3 hours of afternoon tea catering service, and add 5% VAT to the total.",
+    "Brunch at home dubai"
+   ],
+   "insert_after_block": "Afternoon Tea Catering Formats",
+   "position": "after the block titled 'Afternoon Tea Catering Formats'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which afternoon tea catering format suits your event?",
+   "new_paragraphs": [
+    "Format What it gives you Staffing Cost position",
+    "Drop-off Food delivered ready to serve None Entry point",
+    "Buffet Presentation plus a maintained spread 1–2 From AED 700 per person",
+    "Live stations Cooking in front of your guests 2–4 Mid-range",
+    "Plated Every course served together 3 and above Top of the range"
+   ],
+   "insert_after_block": "Afternoon Tea Catering Formats",
+   "position": "after the block titled 'Afternoon Tea Catering Formats'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  }
+ ],
+ "faq": []
+}

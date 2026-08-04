@@ -1,0 +1,230 @@
+{
+ "url": "/office-catering-dubai",
+ "keyword_strategy": {
+  "main_keyword": "office catering dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 11,
+  "subkeywords_carried": 10,
+  "coverage_percent": 91,
+  "subkeywords_carried_list": [
+   "catering services dubai",
+   "small party catering dubai",
+   "small office catering dubai",
+   "cheap office catering dubai",
+   "luxury office catering dubai",
+   "office breakfast catering dubai",
+   "affordable catering services in dubai",
+   "lunch catering dubai",
+   "corporate catering dubai",
+   "office lunch catering dubai"
+  ],
+  "subkeywords_not_carried": [
+   "adnh catering dubai office"
+  ],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Office Catering Dubai | Prices From AED 90 Per Head | myCHEF",
+  "meta_description": "Office catering in Dubai from AED 90 per head for a delivered working lunch, AED 700-950 per head for a chef cooking on site. Real per-head rates, published.",
+  "h1": "Office Catering in Dubai — Per-Head Prices From AED 90"
+ },
+ "opening_paragraph": [
+  "Office catering in Dubai from myCHEF starts at AED 90 per head , delivered and laid out, with no hidden extras on the invoice. An office event buffet starts at AED 120 per head, a premium spread with a BBQ or live station at AED 150, and a private chef who cooks and serves on site is AED 700–950 per head. Add 5% VAT.",
+  "Delivered formats start at 10 guests , a buffet at 20 , and the minimum order value is AED 900 . Send your headcount and your days and an itemised proposal comes back inside 24 hours on a working day."
+ ],
+ "replace_in_block": [],
+ "leave_untouched": [
+  "Well-Fed Teams, Every Working Day",
+  "Catering Around Your Working Week",
+  "Built for Busy Offices",
+  "Catering Across Dubai",
+  "Set Up Catering for Your Office",
+  "Explore myCHEF Dubai",
+  "What Our Office Catering Includes",
+  "A Taste of Our Office Catering",
+  "Office Catering Questions"
+ ],
+ "add_block": [
+  {
+   "new_heading": "Delivery or staffed — and what each one includes",
+   "new_paragraphs": [
+    "This is the choice that sets your budget, so decide it before you shortlist anyone.",
+    "Delivery (drop-off). Food arrives hot or chilled as the dish needs, in sealed single portions or on shared platters, with serving tongs, napkins and labels. We lay it out on your counter or boardroom table. Your team helps itself and facilities clears the trays. This is the AED 90 tier and it covers most weekday office lunch catering.",
+    "Staffed service. Our team arrives ahead of the sitting, builds the buffet line with chafing dishes and linen, keeps hot food hot and cold food cold through the service, serves or replenishes, then clears and wipes down so the room is usable for the next meeting. This is where the AED 120 and AED 150 tiers sit.",
+    "A chef cooking on site. Cooking and plating happen in front of your guests — a grill fired on the terrace, a station carved to order, courses sent out plated. That is the AED 700–950 band, and it is priced for a board dinner or a client evening, not for feeding the floor on a Tuesday.",
+    "If a quote does not tell you which of those three you are getting, it is not a quote yet."
+   ],
+   "insert_after_block": "What Our Office Catering Includes",
+   "position": "after the block titled 'What Our Office Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Office lunch catering in Dubai, daily or weekly",
+   "new_paragraphs": [
+    "Most offices that call us are not planning an event. They want the same team fed on the same days without anybody in HR chasing a caterer every week. A recurring arrangement gives you fixed delivery windows, a menu that rotates so nobody sees the same grain bowl twice in 2 weeks, one contact, and one monthly invoice instead of forty receipts.",
+    "The food rate stays the AED 90 working-lunch tier. We do not sell a prepaid membership or a subscription plan, and there is no published discount table for volume, so a recurring programme is quoted against your real schedule and headcount instead of dropped into a package tier. If a fixed monthly rate matters to your finance team, say so at the brief stage and the proposal will be built that way."
+   ],
+   "insert_after_block": "What Our Office Catering Includes",
+   "position": "after the block titled 'What Our Office Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Office breakfast catering in Dubai",
+   "new_paragraphs": [
+    "Breakfast runs on the same working format as lunch, from AED 90 per head, and it lands before the room fills: pastries and labneh, shakshuka kept hot, cut fruit, yoghurt and good coffee. It suits an early client meeting, a training morning, or the day a distributed team is all in the same building. Order it as a one-off or fold it into a weekly plan alongside lunch."
+   ],
+   "insert_after_block": "What Our Office Catering Includes",
+   "position": "after the block titled 'What Our Office Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Small office catering in Dubai — ten people to fifteen",
+   "new_paragraphs": [
+    "Small teams get quoted honestly, not turned away. Ten guests is where the delivered format starts, and up to about fifteen we run small office catering as a drop-off rather than a staffed buffet, because putting two service staff behind a buffet line for a dozen guests costs more than the food does and you would be paying for theatre. The per-head rate still starts at AED 90, and the AED 900 minimum order lands exactly where ten heads do. Below ten we would rather point you elsewhere than run a delivery we cannot do properly — or book a private chef, which carries no minimum headcount because it is priced per head. The same logic covers small party catering in Dubai when the reason to eat is a leaving do or a birthday in the kitchen area rather than a working meeting.",
+    "Above roughly twenty-five people a staffed line starts to earn its cost, and past sixty you want it, because a queue that moves badly ruins a lunch break faster than average food does."
+   ],
+   "insert_after_block": "What Our Office Catering Includes",
+   "position": "after the block titled 'What Our Office Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Luxury office catering and corporate hospitality",
+   "new_paragraphs": [
+    "Luxury office catering in Dubai is a genuinely separate job. A board dinner, an investor evening or a client hosting night wants a chef in the room, courses timed to the agenda, and someone pouring. That is the AED 700–950 per head band, and the reason for the gap is labour: you are booking a chef and a service team for an evening, not a delivery slot. Corporate catering in Dubai at this level is usually eight to thirty covers, seated. If you want the detail, our private chef prices page breaks the same rates down by guest count."
+   ],
+   "insert_after_block": "What Our Office Catering Includes",
+   "position": "after the block titled 'What Our Office Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Cheap office catering in Dubai — the honest version",
+   "new_paragraphs": [
+    "People search for cheap office catering in Dubai and they are right to. Feeding a team 5 days a week is a real line item, and the difference between AED 90 and AED 150 a head across a year is a hire.",
+    "What we will not do is pretend AED 90 is the floor of the market. It is not. You can order lower, and below that level something has been removed — the protein shrinks, the delivery window becomes a suggestion, or nobody turns up to set the food out. We price from AED 90 because that is where we can send food we would eat at our own desks. If your budget sits firmly under it, a platter order from a sandwich shop will serve you better than we will, and we would sooner say that now.",
+    "Affordable catering services in Dubai are the ones where the quote matches the invoice. Ask for the itemised version, check whether service staff and delivery are inside the per-head figure or bolted on afterwards, and confirm whether VAT is in the number you were shown. That is where budgets break."
+   ],
+   "insert_after_block": "What Our Office Catering Includes",
+   "position": "after the block titled 'What Our Office Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How to compare the top 10 catering companies in Dubai",
+   "new_paragraphs": [
+    "Search that phrase and you get lists written by the caterers on them. Skip the rankings and put your shortlist through the same six questions instead. Any credible office catering company answers all six in writing.",
+    "What is the per-head rate for my exact format? Not a range for the whole business — the number for a delivered lunch for my headcount.",
+    "Is there a minimum order value or minimum headcount? Several Dubai caterers hold a minimum order in the several-hundred-dirham range, which changes everything for a team of six.",
+    "Is service staff inside that rate or extra? This is the single biggest cause of a quote landing higher than expected.",
+    "Are delivery, setup, equipment and clear-down included? Chafing dishes and linen are chargeable at plenty of caterers.",
+    "What notice do you need, and what is the cut-off to change numbers? Headcounts move on the morning. You want that in writing.",
+    "Is VAT included in the figure shown? 5% on a weekly programme is not a rounding error.",
+    "Run our quote through the same six. If a competitor answers them better, take the competitor."
+   ],
+   "insert_after_block": "What Our Office Catering Includes",
+   "position": "after the block titled 'What Our Office Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What goes on the menu",
+   "new_paragraphs": [
+    "The menu is built to your team, not pulled off a shelf, and every dish can be made halal, vegetarian, vegan, gluten-free, dairy-free, keto or nut-free , with allergens labelled on the dish itself.",
+    "Lunch mains and salads — grilled proteins, grain bowls, Levantine mezze, pasta, seasonal vegetables.",
+    "Breakfast — pastries, shakshuka, fruit, yoghurt, coffee.",
+    "Shared platters and grazing boards for team days, plus sealed individual boxes for staggered shifts and hot-desk floors.",
+    "Office party food for a leaving lunch, a Ramadan gathering, Diwali or an end-of-quarter win — grazing tables, live stations or a seated meal.",
+    "Sweet finishes — a small dessert selection, or a full dessert table for celebrations.",
+    "Full options are on our menus page, and menus rotate week to week so a regular arrangement does not go stale."
+   ],
+   "insert_after_block": "What Our Office Catering Includes",
+   "position": "after the block titled 'What Our Office Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What we can prove, and what we cannot",
+   "new_paragraphs": [
+    "You are going to see accreditation badges and client logo walls on the sites ranking around this one. Here is our position on both, in plain terms.",
+    "What is true and checkable: the chefs and partner kitchens handling your booking work to Dubai Municipality food-safety requirements , and trade-licence details go out with the quote whenever you ask for them. No chef is offered for office work before clearing identity checks, a practical cooking assessment, reference verification and ongoing performance review — the process is set out on how we vet our chefs . MyCHEF is part of Global Catering and has been operating since 2015.",
+    "What is not on this page: client logos, star ratings, quotes from named companies and accreditation marks. We do not have written permission from the offices we have cooked for to publish their names, and we are not going to display a badge we cannot hand you the certificate for. When that permission exists, it goes here with the client named. Until then you have the rate card, the itemised quote and on the booking — and you can read the anonymised briefs in our."
+   ],
+   "insert_after_block": "What Our Office Catering Includes",
+   "position": "after the block titled 'What Our Office Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How to book, and how much notice we need",
+   "new_paragraphs": [
+    "Send the brief — headcount, the days or the date, dietary needs, and whether you want it delivered or staffed.",
+    "we typically reply within 15 minutes during business hours to confirm whether a chef and kitchen are free for your date. There is no published minimum notice period, so ask about the day you want instead of assuming it is too soon.",
+    "Itemised proposal follows within one business day: menu, format, per-head rate, staff, delivery, equipment and VAT on separate lines.",
+    "Confirm numbers . Headcounts move; tell us as early as you can and we will tell you the last point at which the kitchen can still change the order.",
+    "We deliver, set up and clear , and your team eats."
+   ],
+   "insert_after_block": "What Our Office Catering Includes",
+   "position": "after the block titled 'What Our Office Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How much does office catering in Dubai cost?",
+   "new_paragraphs": [
+    "Here is the whole rate card. Nothing behind a form.",
+    "What you are buying Service level Per head",
+    "Working lunch or office breakfast catering Delivered, laid out, you clear From AED 90",
+    "Office event buffet Delivered and set up; staff optional From AED 120",
+    "Premium buffet, BBQ, live station or canapés Staffed on site From AED 150",
+    "Private chef cooking and serving in your office Chef plus service team, cooked in front of you AED 700–950",
+    "Two things move the number inside each band: how big the room is, and how much labour the format needs. Twelve people at a boardroom table and a hundred at a town hall pay different rates for the same food, because the cost of a chef and a van is spread differently. VAT at 5% sits on top of every figure — the standard rate as published by the UAE Federal Tax Authority — and the quote itemises food, staff, delivery and equipment on separate lines so you can see which one you are paying for.",
+    "Publishing this at all is unusual here. Of the catering companies in Dubai that outrank this page today, most show no per-head figure anywhere on their site — the two largest publish none at all and quote only on request. You cannot compare catering services in Dubai on prices nobody prints, which is the main reason we print ours."
+   ],
+   "insert_after_block": "What Our Office Catering Includes",
+   "position": "after the block titled 'What Our Office Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  },
+  {
+   "new_heading": "Office catering FAQs",
+   "new_paragraphs": [
+    "How much does office catering cost in Dubai?",
+    "A delivered working lunch or breakfast starts at AED 90 per head. A standard office event buffet starts at AED 120 per head. A premium buffet, BBQ or canapé spread starts at AED 150 per head. A private chef cooking and serving on site is AED 700–950 per head. Add 5% VAT to every figure.",
+    "Is there a minimum headcount or minimum order for office catering?",
+    "Yes, and here they are. Anything delivered — working lunch, breakfast, drop-off — starts at 10 guests . A buffet starts at 20 , because a line built and staffed for fewer costs more than the food on it. The minimum order value is AED 900 , which is 10 heads at the AED 90 tier. A private chef cooking and serving on site has no minimum headcount at all, since that product is priced per head from AED 700 and two covers is a real booking. Most caterers in this market publish none of this and tell you after you have sent your numbers, so ask everyone on your shortlist the same question.",
+    "What is the difference between delivery and staffed office catering?",
+    "Delivery means the food arrives ready, laid out on your counter or boardroom table, and you clear it away. Staffed means our team sets the line, keeps hot food hot and cold food cold, serves, then clears and cleans. Delivery starts at AED 90 per head. Staffed service costs more per head because you are paying for the people and the equipment as well as the food.",
+    "Do you cater office breakfast in Dubai?",
+    "Yes. Office breakfast catering runs on the same working format as lunch, from AED 90 per head: pastries, shakshuka, labneh, fruit, yoghurt and coffee, delivered and set up before your team arrives.",
+    "Can you cater a small office of five or ten people?",
+    "Ten, yes — that is exactly where the delivered format starts. Small office catering runs as a drop-off instead of a staffed buffet, because staffing a line for ten people costs more than the food. Per-head rates start at the same AED 90, with the AED 900 minimum order. Five is under our minimum for a delivered order, so for a table that size book a private chef instead: no minimum headcount, priced per head.",
+    "Is cheap office catering in Dubai worth it?",
+    "Below roughly AED 90 per head in this market something is being cut — usually the protein, the delivery window, or the person who was supposed to set it up. We price from AED 90 because that is where partners can cook food we would eat ourselves. If your budget is firmly under that, a sandwich platter order will serve you better than us.",
+    "Do you run daily or weekly office lunch catering?",
+    "Yes, as a recurring arrangement with fixed delivery windows, a rotating menu and one monthly invoice. The per-head food rate is the same AED 90 working-lunch tier. We do not publish a subscription or membership price, so a recurring programme is quoted on your schedule and headcount.",
+    "How do I compare the top 10 catering companies in Dubai?",
+    "Ask all of them the same six questions: what is the per-head rate, what is the minimum order, is service staff included or extra, is delivery and setup included, what is the notice period, and is VAT in the number quoted. Most Dubai caterers publish no per-head price at all, so the comparison only becomes real once you have written quotes side by side.",
+    "How much notice do you need for office catering?",
+    "We do not publish a fixed minimum notice. Send the date and headcount and we tell you the same working day whether a chef and kitchen are free. We typically reply within 15 minutes during business hours, and an itemised proposal follows within one business day.",
+    "Do you cater to dietary requirements?",
+    "Every office menu can be made halal, vegetarian, vegan, gluten-free, dairy-free, keto or nut-free, with allergens labelled on each dish.",
+    "Send your headcount and get an itemised quote or message us on WhatsApp ."
+   ],
+   "insert_after_block": "A Taste of Our Office Catering",
+   "position": "after the block titled 'A Taste of Our Office Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  },
+  {
+   "new_heading": "Office catering across Dubai",
+   "new_paragraphs": [
+    "We cover offices across the city: DIFC, Business Bay and Downtown, out to JLT, Media City, Dubai Internet City, Dubai South and the Jebel Ali business parks. Chefs and delivery teams are spread across those areas so food arrives at temperature instead of after a forty-minute crawl down Sheikh Zayed Road. Access, parking and lift timing are agreed with your reception or facilities team before the first delivery, then fixed for the rest of the programme. Explore corporate catering , catering in Dubai , or add meal prep and staff meals to a regular plan."
+   ],
+   "insert_after_block": "Office Catering Questions",
+   "position": "after the block titled 'Office Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  }
+ ],
+ "faq": []
+}

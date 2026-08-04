@@ -1,0 +1,195 @@
+{
+ "url": "/how-it-works",
+ "keyword_strategy": {
+  "main_keyword": "private chef booking process dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 4,
+  "subkeywords_carried": 4,
+  "coverage_percent": 100,
+  "subkeywords_carried_list": [
+   "live in chef dubai",
+   "full time private chef dubai",
+   "private chef booking process dubai cost",
+   "private chef booking process dubai price"
+  ],
+  "subkeywords_not_carried": [],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Private Chef Booking Process Dubai — How It Works | myCHEF Dubai",
+  "meta_description": "The private chef booking process in Dubai: four steps, a prompt reply in business hours, and booking windows from 24 hours to 3 weeks. What we provide and what you provide.",
+  "h1": "Private Chef Booking Process Dubai — How It Works"
+ },
+ "opening_paragraph": [
+  "The private chef booking process in Dubai takes four steps, and with myCHEF it starts with one message. You send the date, guest count and location; we design the menu and match the chef; the chef arrives early and cooks in your kitchen; you host. We typically reply within 15 minutes during business hours and a chef is matched once your occasion details are confirmed."
+ ],
+ "replace_in_block": [],
+ "leave_untouched": [
+  "Your Experience, Step by Step",
+  "What You Can Always Expect",
+  "Common Questions",
+  "Ready to Begin?",
+  "Explore myCHEF Dubai"
+ ],
+ "add_block": [
+  {
+   "new_heading": "The four steps of the private chef booking process in Dubai",
+   "new_paragraphs": [
+    "One, reach out. Message on WhatsApp or send the form with your occasion: the date, the guest count, the Dubai location and what you have in mind. Two, we design the evening. The menu is shaped around your tastes and your guests, and the right chef is chosen to bring it to life — matched on cuisine, format and setting instead of on who happens to be free.",
+    "Three, your chef arrives and we run the room. The chef comes early, cooks in your kitchen, and everything around them is coordinated for you. Four, you enjoy it. Courses are plated with precision, the service team looks after your guests, and the kitchen is left immaculate. The whole point is that the host does none of the work."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Your Experience, Step by Step'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What we provide, and what you provide",
+   "new_paragraphs": [
+    "We handle chef selection and vetting, menu design, the service team, all cooking equipment and ingredients, and the kitchen cleanup. Tableware, glassware and linens are included when you ask for them. That list is deliberately complete: the intention is that nothing is left on your side of the line except the room and the guest list.",
+    "You provide two things: kitchen access, and the event details at booking. That is genuinely it. A working hob, an oven, some clear counter and cleared fridge space are what a chef needs; oven capacity is the only real constraint on how many hot mains can leave together, so mention your kitchen early and the menu is designed around it."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Your Experience, Step by Step'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How far ahead to book — timings, prices and options",
+   "new_paragraphs": [
+    "Booking windows depend on the event, not on the menu. 24 to 48 hours is enough for a last-minute private dinner. 3 to 7 days suits a standard villa or family event. 1 to 2 weeks covers corporate events and birthdays. 3 weeks or more is the window for weddings and large celebrations.",
+    "Season stretches all of those. From November to March, when days average around 27°C and nights fall to about 19°C ( Weather and Climate ), outdoor events work comfortably and the calendar is at its most contested — treat the windows above as a floor instead of a guide, and add several weeks for a weekend date in that window."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Your Experience, Step by Step'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Timing on the night",
+   "new_paragraphs": [
+    "A standard multi-course dinner runs 3 to 4 hours from the chef's arrival through to cleanup, and it flexes around your schedule instead of the other way round. The chef arrives roughly 2 hours before service to set up, which is the part hosts most often underestimate when planning arrivals.",
+    "Guests in Dubai tend to arrive later than the invitation suggests, so give the realistic arrival time instead of the printed one and the first course will land when the table is ready. If speeches or a cake are part of the evening, say when — the kitchen plan is built around those moments."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Your Experience, Step by Step'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Dietary requirements — the checklist explained",
+   "new_paragraphs": [
+    "Flag them when you enquire, with the guest count, instead of in the final 48 hours . Halal is standard across our menus, and vegetarian, vegan, gluten-free, dairy-free and nut-free covers are designed into the menu instead of improvised on the night. Severity matters as much as the allergen: a preference and an anaphylactic risk need different plans.",
+    "Food-safety training sits behind all of it. ICCA Dubai sets out that every food handler, supervisor and Person in Charge working under Dubai Municipality or another emirate authority must hold approved training, with at least one certified Person in Charge per food business. Ask what applies to your booking and the answer comes in writing."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Your Experience, Step by Step'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What the quote looks like: costs, packages and services included",
+   "new_paragraphs": [
+    "Itemised, and. Food, staffing, rentals and delivery appear as separate lines, with the 5% VAT shown on its own — in force since 1 January 2018 ( UAE Ministry of Finance ). Two quotes are only comparable when both are written against the same brief with the same inclusions.",
+    "To see the numbers before you enquire, the menus carry the published packages and per-person service formats, and the catering prices guide explains how the figure is assembled.",
+    "The same four steps cover a one-night dinner and longer arrangements alike. If you want a live-in chef or a full-time private chef in Dubai, say so in the first brief: the matching works the same way, and the quote sets out the cost per week rather than per event, with the price built from the published starting bands."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Your Experience, Step by Step'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning at a glance",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — we typically reply within 15 minutes during business hours.",
+    "Book about 2 weeks ahead off-peak, and 6 weeks ahead between November and March.",
+    "Confirm the menu roughly 7 days before, once your numbers settle.",
+    "Ask about dietary covers when you enquire, not inside the final 48 hours .",
+    "Check venue access; the team arrives about 2 hours before service.",
+    "Plan on roughly 3 hours at the table, and add 5% VAT to the total.",
+    "Review catering dubai",
+    "Referral programme catering dubai"
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Your Experience, Step by Step'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Frequently asked questions",
+   "new_paragraphs": [
+    "How does the private chef booking process work in Dubai?",
+    "Four steps: send your date, guest count and location; we design the menu and match the chef; the chef arrives early and cooks in your kitchen; you host. We typically reply within 15 minutes during business hours.",
+    "How quickly is a chef matched?",
+    "Once we have your occasion details, a chef is matched and an itemised proposal follows in writing.",
+    "How far ahead should I book?",
+    "24 to 48 hours for a last-minute dinner, 3 to 7 days for a standard villa or family event, 1 to 2 weeks for corporate events and birthdays, and 3 weeks or more for weddings and large celebrations.",
+    "How long does the evening take?",
+    "A standard multi-course dinner runs 3 to 4 hours from the chef's arrival through cleanup, adjustable to your schedule. The chef arrives about 2 hours before service to set up.",
+    "What do I need to provide?",
+    "Kitchen access and your event details at booking. We bring the chef, the menu, the service team, all equipment and ingredients, and we handle the cleanup.",
+    "Do you supply tableware and linens?",
+    "Yes, on request. Tableware, glassware and linens can be included alongside the chef, the service team and all cooking equipment.",
+    "When should I mention dietary requirements?",
+    "At enquiry, with the guest count — not inside the final 48 hours. Halal is standard, and other diets are designed into the menu instead of improvised."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Your Experience, Step by Step'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Sources",
+   "new_paragraphs": [
+    "Process, timings and booking windows are myCHEF's own published terms. Supporting facts: the UAE Ministry of Finance (5% VAT, in force since 1 January 2018), Dubai Municipality (Food Code and mandatory handler training), ICCA Dubai (food-handler and Person-in-Charge training requirements), and Weather and Climate (Dubai December averages of 27°C by day and 19°C at night).",
+    "Request a proposal or chat on WhatsApp ."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Your Experience, Step by Step'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  }
+ ],
+ "faq": [
+  {
+   "question": "How does the private chef booking process work in Dubai?",
+   "answer": [
+    "Four steps: send your date, guest count and location; we design the menu and match the chef; the chef arrives early and cooks in your kitchen; you host. We typically reply within 15 minutes during business hours."
+   ]
+  },
+  {
+   "question": "How quickly is a chef matched?",
+   "answer": [
+    "Once we have your occasion details, a chef is matched and an itemised proposal follows in writing."
+   ]
+  },
+  {
+   "question": "How far ahead should I book?",
+   "answer": [
+    "24 to 48 hours for a last-minute dinner, 3 to 7 days for a standard villa or family event, 1 to 2 weeks for corporate events and birthdays, and 3 weeks or more for weddings and large celebrations."
+   ]
+  },
+  {
+   "question": "How long does the evening take?",
+   "answer": [
+    "A standard multi-course dinner runs 3 to 4 hours from the chef's arrival through cleanup, adjustable to your schedule. The chef arrives about 2 hours before service to set up."
+   ]
+  },
+  {
+   "question": "What do I need to provide?",
+   "answer": [
+    "Kitchen access and your event details at booking. We bring the chef, the menu, the service team, all equipment and ingredients, and we handle the cleanup."
+   ]
+  },
+  {
+   "question": "Do you supply tableware and linens?",
+   "answer": [
+    "Yes, on request. Tableware, glassware and linens can be included alongside the chef, the service team and all cooking equipment."
+   ]
+  },
+  {
+   "question": "When should I mention dietary requirements?",
+   "answer": [
+    "At enquiry, with the guest count — not inside the final 48 hours. Halal is standard, and other diets are designed into the menu instead of improvised."
+   ]
+  }
+ ]
+}

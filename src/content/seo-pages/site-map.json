@@ -1,0 +1,423 @@
+{
+ "url": "/site-map",
+ "keyword_strategy": {
+  "main_keyword": "site map dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 10,
+  "subkeywords_carried": 6,
+  "coverage_percent": 60,
+  "subkeywords_carried_list": [
+   "free site map dubai",
+   "location map dubai app",
+   "area map dubai",
+   "dubai site map",
+   "location map dubai",
+   "dubai map location"
+  ],
+  "subkeywords_not_carried": [
+   "tadayori map location",
+   "where is impz in dubai",
+   "dubai mall map location",
+   "location map of dubai airport"
+  ],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Site Map Dubai | Every myCHEF Page | myCHEF Dubai",
+  "meta_description": "Site map for myCHEF Dubai. Every catering and private chef page on the site, grouped by service, location, cuisine, occasion, guide and blog.",
+  "h1": "Site Map — Every myCHEF Dubai Page"
+ },
+ "opening_paragraph": [
+  "The site map for myCHEF Dubai. This site map lists every page on mychef.ae, grouped by type, so you can reach any service, location, cuisine, guide or article in one click.",
+  "A site map is a single page that lists every URL on a website in one place, so a reader or a crawler can reach any page without guessing at the navigation. This one covers every published route in 9 groups.",
+  "The groups run in the order the site is built: 12 main services, 104 occasion, format and cuisine pages, 15 Dubai locations, 15 guides, 20 blog articles, 4 chef profiles, 4 partner pages, 27 company pages and 4 legal pages."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "Locations",
+   "match_confidence": 0.86,
+   "new_heading": "Locations (15)",
+   "new_paragraphs": [
+    "Private Chef & Catering Al Barsha",
+    "Family Catering & Private Chef Arabian Ranches",
+    "Private Chef & Catering Bluewaters",
+    "Private Chef & Catering Business Bay",
+    "Corporate Catering & Private Chef DIFC",
+    "Private Chef & Catering Downtown",
+    "Private Chef & Catering Dubai Hills",
+    "Private Chef & Catering Dubai Marina",
+    "Private Chef & Villa Catering Emirates Hills",
+    "Private Chef & Catering JBR",
+    "Private Chef & Catering JLT",
+    "Private Chef & Catering Jumeirah",
+    "Private Chef & Catering JVC",
+    "Private Chef & Catering Palm Jumeirah",
+    "Private Chef & Catering Umm Suqeim"
+   ]
+  },
+  {
+   "block_on_your_page": "Guides",
+   "match_confidence": 0.8,
+   "new_heading": "Guides (15)",
+   "new_paragraphs": [
+    "Catering Cost Calculator",
+    "Buffet vs Plated Service: Choosing the Right Format",
+    "Corporate Catering Checklist for Dubai Businesses",
+    "Dubai Catering Prices Guide: What to Budget for Your Event",
+    "How to Choose the Right Caterer",
+    "Luxury Dinner Planning Guide",
+    "Private Chef vs Catering: What works well in Dubai?",
+    "Ramadan Catering Guide for Dubai: Iftar, Suhoor & Eid",
+    "Wedding Catering Checklist for Dubai Celebrations",
+    "Yacht Catering Guide for Dubai Cruises and Celebrations",
+    "Dubai Event Catering Price Guide 2026",
+    "Dubai Food Trends Report 2026",
+    "The Complete Guide to Private Dining",
+    "Wedding Catering Menu Planning Guide",
+    "The Ultimate Dubai Yacht Catering Checklist"
+   ]
+  },
+  {
+   "block_on_your_page": "Legal",
+   "match_confidence": 0.83,
+   "new_heading": "Legal (4)",
+   "new_paragraphs": [
+    "Site Map",
+    "Privacy Policy",
+    "Terms of Service"
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "General",
+  "Core hubs",
+  "Event & party spokes",
+  "Food formats",
+  "Cuisines",
+  "Corporate & institutional",
+  "Seasonal & themed",
+  "Supporting",
+  "Bluebook trust & service pages",
+  "Content gaps closed",
+  "Linkable assets / guides",
+  "Additional service & experience pages",
+  "Press / Media",
+  "Utility",
+  "Explore myCHEF Dubai"
+ ],
+ "add_block": [
+  {
+   "new_heading": "Main services (12)",
+   "new_paragraphs": [
+    "myCHEF Dubai Home",
+    "Luxury Catering for Events",
+    "Catering Packages",
+    "Corporate Dining & Events",
+    "Events",
+    "Luxury Private Dining",
+    "Party Catering",
+    "Hire a Private Chef",
+    "Private Chef Prices",
+    "Villa Private Chef",
+    "Yacht Catering",
+    "Weekly Meal Prep by a Private Chef"
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'General'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Occasions, events & formats + cuisines (104)",
+   "new_paragraphs": [
+    "Afternoon Tea",
+    "Anniversary Dinner",
+    "Baby Shower",
+    "Bachelor Party",
+    "Bachelorette Party",
+    "Beach",
+    "Birthday Party",
+    "Chinese New Year",
+    "Engagement Party",
+    "Farewell & Retirement",
+    "Father's Day",
+    "Graduation Party",
+    "Holi",
+    "Housewarming",
+    "Kids Birthday",
+    "Picnic",
+    "Pool Party",
+    "Private Party",
+    "Reunion",
+    "Wedding",
+    "BBQ",
+    "Buffet",
+    "Canapé",
+    "Cocktail Party",
+    "Dessert Tables",
+    "Finger Food",
+    "Mocktail Bar",
+    "Arabic",
+    "Asian",
+    "Catering by Cuisine",
+    "Dairy-Free",
+    "FODMAP-Friendly",
+    "Gluten-Free",
+    "Halal",
+    "Healthy",
+    "Indian",
+    "Italian",
+    "Jain",
+    "Keto & Low-Carb",
+    "Mediterranean",
+    "Nut-Free",
+    "Pescatarian",
+    "Sugar-Free",
+    "Sushi",
+    "Vegan",
+    "Vegetarian",
+    "Business Lunch",
+    "Conference",
+    "Corporate Event",
+    "Corporate Meal Prep",
+    "Film Crew",
+    "Office",
+    "Production",
+    "Staff Meals",
+    "Breakfast",
+    "Brunch Catering & Private Breakfast Chef",
+    "Christmas",
+    "Diwali",
+    "Drop-Off",
+    "Easter",
+    "Eid",
+    "Festive",
+    "Halloween",
+    "Iftar Catering & Ramadan Private Chef",
+    "Mother's Day",
+    "New Year's Eve",
+    "Ramadan",
+    "Romantic Dinner",
+    "Suhoor",
+    "UAE National Day",
+    "Valentine's Day Private Dining",
+    "Villa Catering Ideas for Dubai Homes and Residences",
+    "Premium Bar Services & Bartender Hire",
+    "Brand Activation",
+    "Exhibition & Trade Show",
+    "Gala Dinners Worthy of the Occasion",
+    "Private Cooking Classes & Chef Experiences",
+    "Product Launch",
+    "Allergen-Aware Catering",
+    "Private Dining in Your Dubai Apartment",
+    "Birthday Celebration",
+    "Chef's Table & Omakase at Home",
+    "Coffee & Tea Service",
+    "Corporate Dinner",
+    "Corporate Retainer",
+    "Date Night Private Chef",
+    "Desert Dining & Camp",
+    "Gelato & Dessert Cart",
+    "Family Feast Private Chef",
+    "Fitness Meal Prep by a Private Chef",
+    "Full-Time Private Chef",
+    "Grazing Tables",
+    "Halal Private Dining",
+    "Kids Nutrition Chef",
+    "Live Cooking Stations",
+    "Mystery Dining",
+    "Oyster & Seafood Bar",
+    "Part-Time Private Chef for Your Home",
+    "Postpartum Meal Prep for New Mothers",
+    "Proposal Dinner Planning",
+    "Live Shawarma & Kebab Station",
+    "Tasting Menu & Chef’s Table",
+    "Your Private Chef for Your Dubai Villa Stay",
+    "Wellness Meal Prep"
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'General'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Blog (20)",
+   "new_paragraphs": [
+    "How to Plan a BBQ Party in Dubai",
+    "Dessert Table Ideas for Dubai Events",
+    "Desert Dinner Parties & Get-Togethers in Dubai",
+    "Wellness Catering for Dubai Events and Retreats",
+    "Private Chef Birthday Dinner in Dubai: Menu Ideas, Costs & How to Book",
+    "Corporate Catering: Full-Service vs Drop-Off",
+    "Halal Private Dining in Dubai: What to Ask Before You Book",
+    "How Much Does a Private Chef Cost in Dubai?",
+    "Private Chef Palm Jumeirah: A Complete Guide to Dining at Home",
+    "Ramadan Iftar Catering Trends for 2026",
+    "Weekly Meal Prep vs Hiring a Full-Time Chef",
+    "Yacht Party Menu Ideas",
+    "How to Hire a Private Chef in Dubai (Step by Step)",
+    "Private Chef vs Restaurant: Which for a Special Occasion?",
+    "Dinner Party Menu Ideas for Dubai Hosts",
+    "How Much Does Wedding Catering Cost in Dubai?",
+    "How to Host Brunch at Home in Dubai",
+    "Vegan & Plant-Based Catering in Dubai: What to Expect",
+    "Corporate Event Catering Ideas for Dubai Offices",
+    "Hosting Iftar at Home in Dubai: A Host's Guide",
+    "New Year's Eve Party Catering Ideas",
+    "Private Chef Date Night Ideas",
+    "Grazing Table vs Buffet: Which for Your Dubai Party?",
+    "How Far in Advance Should You Book a Caterer in Dubai?"
+   ],
+   "insert_after_block": "Guides",
+   "position": "after the block titled 'Guides'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Chefs (4)",
+   "new_paragraphs": [
+    "Ahmed Al-Rashid",
+    "Layla Hassan",
+    "Marco Rossi",
+    "Sofia Moretti"
+   ],
+   "insert_after_block": "Guides",
+   "position": "after the block titled 'Guides'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Partners (4)",
+   "new_paragraphs": [
+    "Concierge Partnership",
+    "Event Planner Partnership",
+    "Villa Rental Partnership",
+    "Yacht Charter Partnership"
+   ],
+   "insert_after_block": "Guides",
+   "position": "after the block titled 'Guides'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Company & info (27)",
+   "new_paragraphs": [
+    "About myCHEF Dubai",
+    "Join the myCHEF Dubai Chef Network",
+    "Contact Us on WhatsApp",
+    "Frequently Asked Questions",
+    "Event Gallery",
+    "Private Chef & Dining Experience Gift Cards",
+    "myCHEF Booking Protection",
+    "VIP Club Membership",
+    "How It Works",
+    "How We Vet Our Private Chefs",
+    "Menus",
+    "Vetted Private Chefs",
+    "Partner With myCHEF",
+    "Press Kit & Media Resources",
+    "Leave a Review & Get AED 50 Credit",
+    "Venue Partners",
+    "myCHEF VIP Club",
+    "Private Chef & Catering Blog",
+    "All Dubai Locations",
+    "All Catering Guides",
+    "Chef Training Academy",
+    "Founding Customer Offer",
+    "Influencer Partnerships",
+    "Loyalty Programme",
+    "MyChef Certified",
+    "myCHEF Membership",
+    "Quality Promise",
+    "Give AED 100, Get AED 100"
+   ],
+   "insert_after_block": "Guides",
+   "position": "after the block titled 'Guides'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How this map is grouped",
+   "new_paragraphs": [
+    "Pages are grouped the way the site is built: services for what we run, locations for where, cuisines for the food, occasions for the event type, and guides and blog for the planning reading. If you are looking for pricing, the prices page and the catering prices guide are the two entry points."
+   ],
+   "insert_after_block": "Legal",
+   "position": "after the block titled 'Legal'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Finding things quickly",
+   "new_paragraphs": [
+    "Where to start, by what you are trying to do What you want Start here",
+    "A number to budget against Private chef prices , then the catering prices guide",
+    "To know which format suits the evening Buffet vs plated or private chef vs catering",
+    "Food for one specific occasion The occasion pages, grouped in the second list above",
+    "A cuisine or a dietary requirement Catering by cuisine",
+    "Access and kitchen detail for your building Your Dubai location page",
+    "To send a brief and get a quote Contact",
+    "If you know the occasion, go to the occasion page — wedding, birthday, corporate, yacht, villa — because each one carries its own price anchor and lead time. If you know the cuisine, the cuisine pages list what each kitchen covers and any dietary variants. If you are still comparing, start in the guides section, which is built to be worked through in decision order instead of browsed.",
+    "For pricing, two pages do the work: the prices page carries the per-person rates and packages, and the catering prices guide explains how a quote is assembled so you can read anyone's proposal. Rates run in two bands. Volume formats such as a working lunch, an event buffet or a premium buffet start from AED 90, AED 120 and AED 150 per person. A private chef cooking and serving on site is AED 700 to AED 950 per person. Volume formats carry a 10-guest minimum, 20 for a buffet, and a AED 900 minimum order. Every UAE catering quote carries 5% VAT on top."
+   ],
+   "insert_after_block": "Legal",
+   "position": "after the block titled 'Legal'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How the site is structured",
+   "new_paragraphs": [
+    "The site is built in four layers. Hubs cover the broad service — private chef, catering, events, corporate, yachts, villas. Service pages sit under them for specific formats such as grazing tables, live stations, bar service and meal prep. Location pages cover 15 Dubai communities and the access and kitchen detail that changes between them. Guides and blog hold the planning reading.",
+    "Every page links upward to its hub and outward to its near neighbours, so you can move between a format, an occasion and an area without returning to the homepage. Booking runs through one route throughout: send your date, guest count and venue, and an itemised proposal follows."
+   ],
+   "insert_after_block": "Legal",
+   "position": "after the block titled 'Legal'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What sits behind the page names",
+   "new_paragraphs": [
+    "Three page families do most of the work, and knowing which one you want saves a lot of clicking. A format page (buffet, grazing table, canapés, live stations, drop-off) describes the food and how it reaches the table. An occasion page (wedding, birthday, baby shower, corporate dinner) describes the run of the evening and the numbers that usually come with it. A location page covers access, parking, lift and kitchen detail for one Dubai community, because those change more between areas than the menu does.",
+    "Where two pages seem to overlap, the format page carries the price and the occasion page carries the planning. A wedding buffet, for example, is priced on the buffet page and planned on the wedding page."
+   ],
+   "insert_after_block": "Legal",
+   "position": "after the block titled 'Legal'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Sources used across the site",
+   "new_paragraphs": [
+    "Figures and rules quoted on the pages listed here come from official sources: the UAE Ministry of Finance (5% VAT on catering, in force since 1 January 2018) and Dubai Municipality (Food Code, including requirements for food transportation and delivery vehicles and mandatory food-handler training). Confirm current requirements before you book."
+   ],
+   "insert_after_block": "Legal",
+   "position": "after the block titled 'Legal'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Frequently asked questions",
+   "new_paragraphs": [
+    "What is the quickest way to get a quote?",
+    "Send your date, guest count and venue through the contact page. An itemised proposal follows.",
+    "Where do I find pricing?",
+    "The prices page carries the per-person rates and packages; the catering prices guide explains how a quote is built.",
+    "Request your proposal or chat on WhatsApp ."
+   ],
+   "insert_after_block": "Legal",
+   "position": "after the block titled 'Legal'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  }
+ ],
+ "faq": [
+  {
+   "question": "What is the quickest way to get a quote?",
+   "answer": [
+    "Send your date, guest count and venue through the contact page. An itemised proposal follows."
+   ]
+  },
+  {
+   "question": "Where do I find pricing?",
+   "answer": [
+    "The prices page carries the per-person rates and packages; the catering prices guide explains how a quote is built.",
+    "Request your proposal or chat on WhatsApp ."
+   ]
+  }
+ ]
+}

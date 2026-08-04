@@ -1,0 +1,192 @@
+{
+ "url": "/nut-free-catering-dubai",
+ "keyword_strategy": {
+  "main_keyword": "nut free catering dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 15,
+  "subkeywords_carried": 8,
+  "coverage_percent": 53,
+  "subkeywords_carried_list": [
+   "gluten free and more dubai",
+   "nut free catering dubai menu",
+   "best nut free catering dubai",
+   "nut free dates",
+   "nut free meaning",
+   "nut free bakery dubai",
+   "gluten free catering dubai",
+   "best gluten free bakery dubai"
+  ],
+  "subkeywords_not_carried": [
+   "gluten free dubai mall",
+   "so free organic bakery menu",
+   "gluten free products in dubai",
+   "gluten free restaurants dubai mall",
+   "best gluten free restaurant dubai",
+   "gluten free restaurant dubai hills",
+   "gluten free restaurant dubai hills mall"
+  ],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Nut Free Catering Dubai | Menus & Prices | myCHEF",
+  "meta_description": "Nut free catering in Dubai from AED 90pp dropped off, AED 700pp with a chef on site — menus without intentionally added nuts, on request and subject to partner confirmation. Itemised quote.",
+  "h1": "Nut-Free Catering in Dubai — Prices, Formats and What You Get"
+ },
+ "opening_paragraph": [
+  "Nut-free catering in Dubai from myCHEF costs from AED 90 per person dropped off and AED 700 with a chef cooking on site, covering mains, sauces and desserts. myCHEF matches you with a vetted private chef who plans an allergy-conscious menu, cooks it on site, serves your guests and clears everything away afterwards. Whether it is a child's birthday, a wedding or a corporate lunch, every dish is built and labelled around the nut allergies you tell us about. Send your date, guest count and venue, and a written proposal reaches you promptly during our published business hours."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "Nut-Free Formats for Every Setting",
+   "match_confidence": 0.59,
+   "new_heading": "Which nut free catering format suits your event?",
+   "new_paragraphs": [
+    "Format What it gives you Staffing Cost position",
+    "Drop-off Food delivered ready to serve None From AED 90 per person",
+    "Buffet Presentation plus a maintained spread 1–2 From AED 120 per person",
+    "Live stations Cooking in front of your guests 2–4 From AED 150 per person",
+    "Plated, chef on site Every course cooked and served by a chef at your venue 3 and above AED 700–950 per person"
+   ]
+  },
+  {
+   "block_on_your_page": "What's Included in Our Nut-Free Catering",
+   "match_confidence": 0.73,
+   "new_heading": "What's on a nut free catering menu?",
+   "new_paragraphs": [
+    "Almost anything, rebuilt without nuts. A nut free menu in Dubai spans Mediterranean mezze, Italian pasta and risotto, Arabic grills, Indian curries, Asian stir-fries and modern European plates — the cuisine is your choice, the nut-free discipline is constant. The chef replaces nut oils with olive or sunflower oil, thickens sauces without ground almonds or cashews, and builds desserts around fruit, chocolate and dairy instead of praline, marzipan or frangipane. Nut free food catering in Dubai also means reading past the obvious: pesto, satay, some curry pastes, certain breads and many commercial cake mixes hide nuts, so the chef sources clean equivalents or makes them from scratch. You get a full tasting before the event to sign off on flavour and presentation, and the final menu lists every dish with its allergen status so nothing on the table is a guess."
+   ]
+  },
+  {
+   "block_on_your_page": "Nut-Free Catering Questions",
+   "match_confidence": 0.82,
+   "new_heading": "Nut free catering FAQs",
+   "new_paragraphs": [
+    "How much does nut free catering cost in Dubai?",
+    "From AED 90 per person dropped off, AED 120 for a standard buffet and AED 150 with live stations. A private chef cooking and serving on site is AED 700 to 950 per person. Minimums are 10 guests on volume formats, 20 on a full buffet and AED 900 on order value, and set packages run from AED 1,200 per group.",
+    "Is there a surcharge for a nut free menu?",
+    "No. Allergen-aware sourcing and preparation are built into how the chef cooks, so a nut free menu is priced the same as any other catering menu at the equivalent format and guest count.",
+    "Can you cater for a severe, anaphylaxis-level nut allergy?",
+    "Menus without intentionally added nuts may be available on request. However, partner kitchens may handle nuts and other allergens, so cross-contact cannot be excluded unless specifically confirmed. The chefs we work with cook in your home or venue kitchen, so for an anaphylaxis-level allergy the precautions have to be reviewed and confirmed with you and the assigned culinary partner before you book.",
+    "What cuisines can be cooked without added nuts?",
+    "Most of them. Italian, Mediterranean, Arabic, Indian and Asian menus can all be built without intentionally added nuts, with nut oils, praline, marzipan and ground-nut thickeners swapped for alternatives.",
+    "What is included in the service?",
+    "From menu planning to the chef, the service staff, the plating and the cleanup — one team covers all of it, including clear allergen labelling on the day.",
+    "How do I book nut free catering in Dubai?",
+    "Share your date, guest count, venue and the nature of the allergy; we match a vetted chef and send an itemised proposal, usually within one business day.",
+    "For nut free catering, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements ."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "Safe, Delicious Catering Without Nuts",
+  "Built for Safety and Confidence",
+  "Plan a Safe, Nut-Free Event",
+  "Explore myCHEF Dubai",
+  "A Taste of Our Nut-Free Catering"
+ ],
+ "add_block": [
+  {
+   "new_heading": "What does nut free catering in Dubai include?",
+   "new_paragraphs": [
+    "It covers the whole event, not just the cooking. A nut free catering company in Dubai handles menu design, ingredient sourcing, on-site cooking, service staff, plating, and full setup and cleanup — one team, start to finish. The chef reviews every recipe for tree nuts and peanuts, checks the labels on sauces, oils, spice blends, breads and desserts, and swaps out anything that carries a nut or a \"may contain\" warning. You confirm the guest count and the format you want; the chef confirms the menu and the precautions in writing. Because the food is prepared fresh for your event instead of pulled from a shared production line, there are fewer hidden ingredients to trace. That control is the whole point of a dedicated nut free caterer in Dubai: the person cooking your food is the same person who vetted every ingredient in it."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Safe, Delicious Catering Without Nuts'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Nut free catering for weddings, corporate events and parties",
+   "new_paragraphs": [
+    "Yes — nut free catering for events in Dubai scales from an intimate dinner to a large reception without dropping its guard on allergies. For weddings, the chef can ask the assigned partner kitchen for a separate preparation station — where that partner confirms it is workable — so a guest with a severe nut allergy can be offered the same courses as the rest of the table. Corporate nut free catering in Dubai suits office lunches, board dinners and conferences where you cannot vet every attendee's allergies in advance, so a nut free default is safer. Nut free party catering in Dubai works for birthdays, baby showers and school celebrations where children are present and a stray peanut is a real risk. Every format — plated, buffet, canapés or live stations — can be built without intentionally added nuts, and the service staff are briefed on what went into each dish so they can answer a guest's question accurately rather than guessing."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Safe, Delicious Catering Without Nuts'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What does nut free mean on a catering menu?",
+   "new_paragraphs": [
+    "It means no tree nut and no peanut has been intentionally put into any dish on the menu — and the meaning is narrower than most people assume, which is why we agree it in writing before the chef shops. Tree nuts are almonds, cashews, pistachios, walnuts, hazelnuts, pecans, macadamias and Brazil nuts. Peanuts are not tree nuts at all; botanically they are legumes, grown underground, and a guest can react badly to one group while eating the other happily. Tell us which applies, because it changes what the chef has to avoid. Two ingredients that sound like nuts usually are not: nutmeg is a seed and coconut is a fruit, though plenty of allergy plans exclude coconut anyway and the chef simply follows whatever your specialist has written. Sesame and pine nuts are a separate brief again, and we treat them as one. The phrase to watch on a packet is \"may contain nuts\". That is a manufacturer saying the product shared a production line with nuts, not that nuts are in the recipe — for a mild sensitivity it may be acceptable, for an anaphylaxis-level allergy it usually is not, so tell us where your line sits and the chef sources around it."
+   ],
+   "insert_after_block": "What's Included in Our Nut-Free Catering",
+   "position": "after the block titled 'What's Included in Our Nut-Free Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Desserts, cakes and dates — where the nuts actually hide",
+   "new_paragraphs": [
+    "Dessert is where a nut free event most often comes undone, and in Dubai the dates on the table are the first thing to check. Stuffed dates are a fixture at almost every gathering here, and the filling is nearly always an almond, a pistachio or a walnut, so the chef serves nut free dates instead — plain Medjool and Khidri, or stuffed with candied orange peel, dried apricot or crystallised ginger, which look and eat like the real thing on a majlis platter. Arabic sweets need the same rework: baklava, maamoul and halva are built on pistachio, walnut or sesame paste, so they are either rebuilt or swapped for kunafa, basbousa, muhalabia or a fruit-led plate. The cake is the other trap, and it catches parents constantly. A cake bought from a bakery in Dubai will almost always carry a \"may contain nuts\" line, because the same room is decorating with praline, marzipan and frangipane an hour earlier, and no amount of asking at the counter changes what happened on that bench. So the chef bakes to order for your event rather than buying one in — a sponge, a ganache, a cheesecake or a pavlova made from ingredients checked one at a time, decorated without nut brittle or nut paste. If a child at the party also needs the dessert to be gluten free, say it at the briefing stage rather than on the day; our gluten free catering page explains how the two briefs are combined."
+   ],
+   "insert_after_block": "What's Included in Our Nut-Free Catering",
+   "position": "after the block titled 'What's Included in Our Nut-Free Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How do you keep the kitchen safe for nut allergies?",
+   "new_paragraphs": [
+    "Through careful ingredient checking, separate preparation and clear labelling on the day. Tell us up front whether you are catering for a preference or a medical allergy — and if it is anaphylaxis-level, say so, because the precautions are more rigorous. The chef sources ingredients with no intentionally added nuts, prepares those dishes on cleaned surfaces with dedicated utensils to limit cross-contact, and labels each dish clearly at the buffet or on the plate. We are honest about the limits. Menus without intentionally added nuts may be available on request. However, partner kitchens may handle nuts and other allergens, so cross-contact cannot be excluded unless specifically confirmed. The chefs we work with cook in your home or venue kitchen, so for anaphylaxis-level allergies the exact precautions have to be reviewed and confirmed with you and the assigned culinary partner beforehand — we do not claim a completely nut-free environment without that agreement in place. Front-of-house staff are told what is in each dish and which items to keep separate, so no guest has to interrogate a waiter about their own dinner."
+   ],
+   "insert_after_block": "What's Included in Our Nut-Free Catering",
+   "position": "after the block titled 'What's Included in Our Nut-Free Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How much does nut free catering cost in Dubai?",
+   "new_paragraphs": [
+    "It depends on one thing more than any other: whether a chef is cooking at your venue. Nut free catering prices in Dubai open at AED 90 per person for a spread dropped off ready to serve, AED 120 for a standard buffet, and AED 150 where live stations are set up. A private chef who cooks on site, plates each course and serves your guests is AED 700 to 950 per person, and that is the format most allergy-critical bookings choose, because the person who checked every label is the person standing at the stove. Volume formats carry a 10-guest minimum, 20 for a full buffet, and a minimum order value of AED 900. Set nut free catering packages are also available — the same tiered structure as our wider catering, from AED 1,200 up to AED 5,500 per group depending on scope — which makes budgeting predictable for a fixed guest list. There is no nut-free surcharge; the allergen-aware sourcing and preparation are part of how the chef cooks, not an add-on. For a full breakdown of what drives nut free catering cost in Dubai, see our Dubai catering price guide , or send your details for an itemised quote."
+   ],
+   "insert_after_block": "What's Included in Our Nut-Free Catering",
+   "position": "after the block titled 'What's Included in Our Nut-Free Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How to hire nut free catering in Dubai",
+   "new_paragraphs": [
+    "Hiring nut free catering in Dubai takes three steps. First, share your date, guest count, venue and the nature of the allergy — preference, intolerance or anaphylaxis-level — so we brief the chef accurately. Second, we match a vetted private nut free chef in Dubai and send an itemised proposal, usually within one business day, with the menu, precautions and price laid out. Third, you approve, we schedule a tasting where useful, and the chef arrives to cook, serve and clean up on the day. You can hire nut free catering for a single dinner at home, a recurring arrangement, or a one-off large event — the booking flexes to you. Everything is confirmed in writing, so the menu you signed off is exactly what reaches the table."
+   ],
+   "insert_after_block": "What's Included in Our Nut-Free Catering",
+   "position": "after the block titled 'What's Included in Our Nut-Free Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Why myCHEF",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you own the evening, we carry the work. Vetting for nut free catering means identity checks, a practical cooking assessment, reference verification and ongoing performance reviews — a continuous standard, not a one-time tick. That vetting matters more with allergies than with almost anything else, because it means the person cooking has proven they can follow an allergen brief precisely. We are honest about it, too: no system removes every risk, so we match each event to the best available chef for it.",
+    "For an allergy-critical brief like this, that is often Ahmed Al-Rashid — 18+ years across Dubai, London and Paris in classical French technique — who designs each menu as a collaboration with the host, every course timed, seasoned and served to exacting standards, with allergen control treated as non-negotiable. Nut free catering sits alongside villa weddings, yacht celebrations and corporate galas across Dubai. Every nut free catering booking includes, with client reviews added as events run."
+   ],
+   "insert_after_block": "What's Included in Our Nut-Free Catering",
+   "position": "after the block titled 'What's Included in Our Nut-Free Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Nut free catering across Dubai",
+   "new_paragraphs": [
+    "MyCHEF arranges nut free catering across every neighbourhood in Dubai, so a search for \"nut free catering near me\" reaches a chef who can travel to you. We cover Palm Jumeirah, Dubai Marina, Downtown, Emirates Hills, Jumeirah, Business Bay and the surrounding communities, bringing nut free home catering in Dubai straight to your villa or apartment kitchen. The same allergy-conscious standard applies whether the event is a quiet family dinner or a corporate function, and affordable nut free catering is available at the entry tier without cutting the safety checks. Explore related allergen-aware menus such as dairy-free and gluten-free , browse all cuisines and sample menus , or plan a larger occasion from catering in Dubai ."
+   ],
+   "insert_after_block": "What's Included in Our Nut-Free Catering",
+   "position": "after the block titled 'What's Included in Our Nut-Free Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning nut free catering step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your nut free catering proposal arrives.",
+    "Book to the lead-time guidance: 72 hours for a standard nut free catering package, 3–5 days for live stations and multi-staff setups, 5–7 days for bespoke menus and larger private events, 7–14 days or more for weddings and corporate functions. Short-notice requests are assessed individually.",
+    "Confirm the nut free catering menu roughly 7 days before, once your numbers settle.",
+    "Ask about dietary covers for nut free catering when you enquire, not inside the final 48 hours .",
+    "Check venue access and parking for nut free catering; the team arrives about 2 hours before service.",
+    "Plan on roughly 3 hours of nut free catering service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": "Nut-Free Catering Questions",
+   "position": "after the block titled 'Nut-Free Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  }
+ ],
+ "faq": []
+}

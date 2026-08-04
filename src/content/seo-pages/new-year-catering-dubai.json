@@ -1,0 +1,179 @@
+{
+ "url": "/new-year-catering-dubai",
+ "keyword_strategy": {
+  "main_keyword": "new year catering dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 12,
+  "subkeywords_carried": 9,
+  "coverage_percent": 75,
+  "subkeywords_carried_list": [
+   "catering new years eve",
+   "hospitality catering dubai",
+   "best new year catering dubai",
+   "new years eve catering dubai",
+   "new year's eve catering dubai",
+   "new year catering dubai packages",
+   "new year restaurant dubai",
+   "new year's eve restaurant dubai",
+   "chinese new year restaurant dubai"
+  ],
+  "subkeywords_not_carried": [
+   "ramadan catering dubai",
+   "ramadan catering services",
+   "afternoon tea catering dubai"
+  ],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "New Year Catering Dubai | New Year's Eve Menus & Prices | myCHEF",
+  "meta_description": "New Year's Eve catering in Dubai from AED 700pp — canapés and grazing, vetted chefs and full service. Bespoke menus for your event. Get an itemised quote.",
+  "h1": "New Year's Eve Catering in Dubai — What It Costs and How to Book"
+ },
+ "opening_paragraph": [
+  "New Year catering in Dubai from myCHEF brings a chef into your home or venue to plan, cook and serve a celebration spread from AED 700 per person. Nobody should be plating canapés when the fireworks start over the Burj Khalifa. A vetted chef handles the food, the service and the cleanup, so your countdown is spent with a glass in hand instead of in the kitchen. Tell us your date, guest count and venue, we typically reply within 15 minutes during business hours, with an itemised proposal to follow built around your night."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "What Our New Year's Eve Catering Includes",
+   "match_confidence": 0.75,
+   "new_heading": "What does New Year catering in Dubai include?",
+   "new_paragraphs": [
+    "New year catering services in Dubai cover the whole evening end to end: menu design, a chef cooking on site, service staff where the format needs them, plating, setup and full cleanup afterwards. You are not buying trays of food dropped at the door — you are hiring a new year caterer in Dubai who builds the meal to your taste, brings professional kit, and runs the timing so courses land when you want them. The chef arrives ahead of your guests, preps in your kitchen or a service area, and manages everything through midnight. New year food catering can be as relaxed as grazing boards and live stations or as formal as a plated tasting menu, and every element is confirmed in writing before the night so there are no surprises when 31 December arrives."
+   ]
+  },
+  {
+   "block_on_your_page": "Where we coordinate catering for the Countdown Across Dubai",
+   "match_confidence": 0.56,
+   "new_heading": "New Year catering across Dubai",
+   "new_paragraphs": [
+    "Searching for new year catering near me usually means you want a team that already knows your neighbourhood, and myCHEF covers the whole city. New year home catering in Dubai comes to your villa or apartment in Palm Jumeirah, Emirates Hills, Downtown, Dubai Marina, Jumeirah, Business Bay and beyond, with the chef bringing the kit so nothing rides on your kitchen. We also cater yacht charters off the Marina and beach and desert setups when the party moves outdoors. Wherever you are counting down, the same vetted standard and the same itemised quote apply — no zone is treated as an afterthought.",
+    "Explore related options: cocktail party catering · yacht catering · all festive catering or every service in catering in Dubai ."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "Hosts Who Want a Seamless Countdown",
+  "Catering Styles for the Countdown",
+  "From Inquiry to Midnight Toast",
+  "End-to-End NYE Hospitality",
+  "Explore Related Services & Locations",
+  "Related Seasonal Services",
+  "Explore myCHEF Dubai",
+  "A New Year's Eve Worth Remembering",
+  "New Year's Eve Catering Questions",
+  "Plan My New Year's Eve Catering"
+ ],
+ "add_block": [
+  {
+   "new_heading": "New Year catering for parties, corporate events and villa celebrations",
+   "new_paragraphs": [
+    "Whatever shape your night takes, new year catering for events in Dubai scales to it — from an intimate villa dinner for eight to a rooftop party for a hundred. New year party catering in Dubai suits house gatherings, pool decks and yacht charters, where guests move between stations with a drink in hand while the chef fires dishes to order. Corporate new year catering in Dubai handles office countdowns, client receptions and end-of-year team dinners, with headcounts and invoicing kept clean for finance teams. Families often prefer a seated menu at home; hosts throwing a bigger bash lean toward canapés and grazing so nobody is tied to a table. Share the occasion, the venue and the numbers, and the format follows from there.",
+    "Corporate hospitality catering in Dubai concentrates on this one night. A firm takes a Downtown apartment, a rooftop or a yacht, invites clients for the fireworks, and needs food that works standing up, in the dark, with no sit-down moment to build the evening around. That is a hospitality brief, not a dinner-party one: passed bites on a tight rotation, a live station that keeps working while half the room is out on the balcony, and staff who clear as they go so the space still looks hosted at half past midnight. Tell us the headcount and the access times for the building and the staffing is planned around both."
+   ],
+   "insert_after_block": "What Our New Year's Eve Catering Includes",
+   "position": "after the block titled 'What Our New Year's Eve Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What is on a New Year's Eve menu in Dubai?",
+   "new_paragraphs": [
+    "Every new year menu in Dubai is built bespoke, but these are the starting points hosts ask for most:",
+    "Canapés and grazing — passed bites, seafood, charcuterie and cheese boards that keep a crowd fed as they mingle.",
+    "Live stations — a chef cooking to order, from a pasta or risotto station to grilled prawns and carved roasts.",
+    "A plated dinner — three to five courses timed to your evening, ideal for a seated villa celebration.",
+    "Midnight dessert and a bar setup — a sweet table, a midnight toast pour and coffee to carry the party past twelve.",
+    "Menus adapt to every guest: fully halal on request, plus vegetarian, vegan, gluten-free and nut-free dishes cooked with the same care as the rest of the spread."
+   ],
+   "insert_after_block": "What Our New Year's Eve Catering Includes",
+   "position": "after the block titled 'What Our New Year's Eve Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Formats, timing and countdown logistics",
+   "new_paragraphs": [
+    "Timing is what separates a smooth New Year's Eve from a scramble, so the format is chosen around your venue and your countdown. Plated service works when every guest is seated and you want a clear rhythm of courses; a buffet or live stations work when guests are moving between a terrace, a pool and a lounge. The chef maps the evening backwards from midnight — canapés on arrival, mains through the evening, dessert and a toast staged so plates are cleared before the fireworks. One team owns cooking, service, setup and cleanup, which means no separate hires to coordinate and a kitchen left spotless the next morning. For yacht and beach bookings we plan around limited galley space and access times so the food still arrives hot and on cue."
+   ],
+   "insert_after_block": "What Our New Year's Eve Catering Includes",
+   "position": "after the block titled 'What Our New Year's Eve Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How much does New Year catering cost in Dubai?",
+   "new_paragraphs": [
+    "New year catering in Dubai starts from AED 700 per person, and the format is what moves the price. Buffet and drop-off styles sit lowest per guest; canapés and grazing fall in the middle; plated service with dedicated staff sits at the top. New year catering packages in Dubai are quoted by guest count, menu and service level instead of a fixed rate, so you only pay for what your night needs — which keeps it genuinely affordable for smaller gatherings and predictable for large ones. Peak-date demand on 31 December means booking early protects both price and availability. For a full breakdown of new year catering prices and cost in Dubai, see our Dubai catering price guide , or send your numbers for an itemised quote with no obligation."
+   ],
+   "insert_after_block": "What Our New Year's Eve Catering Includes",
+   "position": "after the block titled 'What Our New Year's Eve Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What makes the best New Year catering in Dubai?",
+   "new_paragraphs": [
+    "The strongest team on 31 December is not the one with the longest menu — it is the team that still holds a schedule when the whole city is running late. Four questions separate them. Who is on site, and until when: canapés that arrive at eight are no use if nobody is clearing plates at half eleven. How the midnight window is staged — a caterer who has worked this night can tell you what is being served at 23:45 and what is already cleared away before the fireworks. What the quote contains: staffing, equipment, setup, cleanup and VAT written down, not a headline rate that grows once you commit. And who answers the phone if a chef falls ill on the one date in the calendar with no spare cover. MyCHEF puts all four in writing before the night, which is the only version of best that survives contact with a real New Year's Eve."
+   ],
+   "insert_after_block": "A New Year's Eve Worth Remembering",
+   "position": "after the block titled 'A New Year's Eve Worth Remembering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How to hire New Year catering in Dubai",
+   "new_paragraphs": [
+    "To hire new year catering in Dubai, send three things — your date, your guest count and your venue — and the rest follows quickly. We typically reply within 15 minutes during business hours with menu directions and an itemised proposal. You choose the format and dishes, we confirm the chef and staffing, and everything is agreed in writing before the night. A week is usually enough lead time for a small gathering, but 31 December is one of the busiest dates in the calendar, so larger parties and peak slots should be locked in well ahead. On the night, the chef arrives early, sets up, cooks, serves and clears — you host."
+   ],
+   "insert_after_block": "A New Year's Eve Worth Remembering",
+   "position": "after the block titled 'A New Year's Eve Worth Remembering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Why book New Year catering with myCHEF",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you own the evening, we carry the work. Every chef working on new year catering has cleared identity checks, a practical cooking assessment, reference verification and ongoing performance reviews — a continuous standard, not a one-time tick. That vetting is why hosts trust us as a new year catering company in Dubai for luxury and private celebrations alike. We are honest about it, too: no system removes every risk, so we match each event to the right chef for it instead of promising perfection.",
+    "For a fine-dining New Year's Eve, that is often Ahmed Al-Rashid — 18+ years across Dubai, London and Paris in classical French technique — who designs each menu as a collaboration with the host, every course timed, seasoned and served to exacting standards. Booking a private new year chef in Dubai through myCHEF means one accountable point of contact, not a faceless agency. We have delivered villa weddings, yacht celebrations and corporate galas across the city; one recent New Year's Eve villa dinner in Emirates Hills ran a five-course plated menu for 20 guests with a midnight dessert table. Covers new year catering; client reviews go up as events are delivered."
+   ],
+   "insert_after_block": "A New Year's Eve Worth Remembering",
+   "position": "after the block titled 'A New Year's Eve Worth Remembering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which new year catering format suits your event?",
+   "new_paragraphs": [
+    "Format What it gives you Staffing Cost position",
+    "Drop-off Food delivered ready to serve None Entry point",
+    "Buffet Presentation plus a maintained spread 1–2 From AED 700 per person",
+    "Live stations Cooking in front of your guests 2–4 Mid-range",
+    "Plated Every course served together 3 and above Top of the range"
+   ],
+   "insert_after_block": "Plan My New Year's Eve Catering",
+   "position": "after the block titled 'Plan My New Year's Eve Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Common questions",
+   "new_paragraphs": [
+    "How much does new year catering in Dubai cost?",
+    "New year catering in Dubai starts from around AED 700 per person and is quoted by guest count, menu and service level. Buffet styles cost least per head, plated service with staff costs more. Send your numbers for an itemised quote.",
+    "What is included in new year catering?",
+    "Included is menu design, a vetted chef cooking on site, service staff where needed, plating, setup and full cleanup. You host; the chef and team handle everything from prep to the last plate cleared.",
+    "How far ahead should I book new year catering in Dubai?",
+    "A week is usually enough for a small gathering, but book earlier for large parties and peak dates. 31 December is one of the busiest nights of the year, so popular slots and larger headcounts fill fast.",
+    "Can you cater a corporate new year party in Dubai?",
+    "Yes. Corporate new year catering in Dubai covers office countdowns, client receptions and team dinners, with canapés, live stations or a plated menu scaled to your headcount and clean invoicing for finance teams.",
+    "Do you offer new year home catering in Dubai?",
+    "Yes. New year home catering brings the chef and full kit to your villa or apartment, so the celebration happens in your own space with no venue hire and nothing depending on your own equipment.",
+    "Is halal or dietary-friendly new year catering available?",
+    "Yes. Menus can be fully halal, and chefs handle vegetarian, vegan, gluten-free and nut-free requests when you share them with your guest count, so every guest is looked after.",
+    "For new year catering, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements ."
+   ],
+   "insert_after_block": "Plan My New Year's Eve Catering",
+   "position": "after the block titled 'Plan My New Year's Eve Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  }
+ ],
+ "faq": []
+}

@@ -1,0 +1,268 @@
+{
+ "url": "/dessert-table-catering-dubai",
+ "keyword_strategy": {
+  "main_keyword": "dessert table catering dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 7,
+  "subkeywords_carried": 7,
+  "coverage_percent": 100,
+  "subkeywords_carried_list": [
+   "finger food catering dubai",
+   "afternoon tea catering dubai",
+   "best dessert table catering dubai",
+   "small dessert table catering dubai",
+   "dessert table catering dubai price",
+   "cheap dessert table catering dubai",
+   "dessert table catering dubai near me"
+  ],
+  "subkeywords_not_carried": [],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Dessert Table Catering Dubai | Menus & Prices | myCHEF",
+  "meta_description": "Dessert Table catering in Dubai from AED 700pp — cakes, tarts and pastries, vetted chefs and full service. Bespoke and reliable. Get an itemised quote.",
+  "h1": "Dessert Table Catering in Dubai — Prices, Formats and What You Get"
+ },
+ "opening_paragraph": [
+  "myCHEF arranges dessert table catering in Dubai from AED 700 per person : a styled sweet spread built by a vetted pastry chef who plans the menu and sets the display. You give us the date, the guest count and the look you want; during our published business hours your itemised quote arrives promptly, with no deposit needed to see the numbers."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "What Our Dessert Tables Include",
+   "match_confidence": 0.72,
+   "new_heading": "What goes on a dessert table menu?",
+   "new_paragraphs": [
+    "Your dessert table menu is built around a few hero pieces and a spread of smaller bites, so every guest finds something they like. A typical spread mixes layered cakes and tarts, French pastries and macarons, mini desserts in glasses, and a candy or chocolate corner. Arabic sweets like kunafa, baklava and basbousa are popular for local celebrations, and partners plate seasonal fruit for lighter tables. Sofia's pastry work brings chocolate showpieces and sugar decorations when you want a real centrepiece. Portions are planned per head so the table still looks generous for the last guest instead of bare by dessert time. Share your favourites and any no-go ingredients, and you get two or three menu directions at different price points, from a relaxed home spread to a plated finale."
+   ]
+  },
+  {
+   "block_on_your_page": "Catering Across Dubai",
+   "match_confidence": 0.75,
+   "new_heading": "Dessert table catering across Dubai",
+   "new_paragraphs": [
+    "We bring dessert table catering to homes, villas, offices and event venues right across Dubai. Regular routes cover Palm Jumeirah, Emirates Hills, Downtown, Dubai Marina, Jumeirah, Business Bay and the Hills communities, plus beach clubs and yacht berths along the coast. Home dessert table setups in an apartment work the same way as a villa: we plan for your access, kitchen and lift before the day. If your venue runs its own catering rules, we work within them and coordinate with your planner or building management. Pair the table with a dessert cart , a baby shower spread, or fold it into wider event catering or full catering in Dubai . Wherever you are in the city, the same vetted team and standards travel with the food."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "The Sweetest Moment of the Day",
+  "Sweet Tables for Every Occasion",
+  "Styled for Every Celebration",
+  "Let's Design Your Dessert Table",
+  "Explore myCHEF Dubai",
+  "A Taste of Our Dessert Tables",
+  "Dessert Table Questions"
+ ],
+ "add_block": [
+  {
+   "new_heading": "What does dessert table catering in Dubai include?",
+   "new_paragraphs": [
+    "Our dessert table catering services cover the whole sweet course from design to takedown, so you host instead of assembling boxes of cake. Your booking includes a tailored menu, a vetted chef and their team, delivery or on-site finishing, the styled setup, and the cleanup afterwards. The food, the labour and the display are costed in one itemised quote, with allergens flagged and dietary swaps built in. Vegan, gluten-free and sugar-free options sit alongside the classics, and we scale the same dessert table food from an intimate dozen to a few hundred guests. Nothing on the quote is a hidden line: you see the per-head price, the service fee and any rental for stands or linen before you confirm."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'The Sweetest Moment of the Day'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Dessert tables for weddings, corporate events and parties",
+   "new_paragraphs": [
+    "A dessert table suits almost any celebration where the sweets deserve a spotlight, and the styling shifts with the occasion. For weddings it doubles as the cake moment and the late-night grazing station, dressed to your palette and flowers. Corporate dessert table catering fits product launches, Ramadan majlis evenings and office milestones, where a branded display and tidy logistics matter. For a birthday or a private dessert table party, we lean into colour, candy and showpiece cakes the kids photograph first. Dessert table catering for events across Dubai also covers baby showers, engagements and anniversaries. Tell us the occasion and the room, and we shape the height, the volume and the flavours to match: a gala wants presence, a villa dinner wants restraint."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'The Sweetest Moment of the Day'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "The dessert table menu — everything that can go on it",
+   "new_paragraphs": [
+    "This is the full roster the pastry partners build from, in the order a table is read: the sweets that sit on the display, then the miniatures guests pick up, then the stations that cook in front of them, then what you pour alongside. A real table is a selection from it, not all of it — two hero pieces, eight to twelve smaller lines and one or two live stations is the shape that works for most events.",
+    "Arabic and Levantine sweets — the display",
+    "Weak menus write \"Arabic sweets\" and leave it there. These are separate items that look, cut and keep differently, and naming them is how you tell who makes them in house:",
+    "The kunafa family — Cheese Kounafah, Kounaffa Nabulsia and Kunafa Borma, cut hot and squared off in front of guests.",
+    "Othmalieh — Cheese Othmalieh and Kashta Othmalieh, the shredded-pastry sandwich, assembled late so the pastry stays crisp.",
+    "Maamoul — Maamoul bil Ashta alongside mixed maamoul with date, pistachio and walnut fillings.",
+    "The ashta group — Znoud El Sit, Halawet El Jibn, Halawet El Riz and Warbat. These are made the morning of the event because cream-filled pastry does not hold overnight.",
+    "Karabeej with Natef , Mafrouke, Ward El Sham, Balah el Sham and rolled hallawa.",
+    "Mixed Baklawa and an assorted Lebanese sweet selection, laid out by shape, not heaped on one tray.",
+    "Set in individual cups — Mohalabiah, Aish el Saraya, Halabieh, rice pudding and mixed kashta.",
+    "Oum Ali , served hot from a chafing dish on the buffet line, not cold on a stand.",
+    "Dates with Arabic coffee , which is where most Dubai tables start, not where they finish.",
+    "The Emirati fuala corner",
+    "Usually styled as a majlis corner with low seating, not added to the buffet line, and it earns its space at national-day events, Ramadan majlis evenings and any table where guests expect something local:",
+    "Luqaimat with date syrup or honey.",
+    "Chebab and regag; khameer bread served with date syrup, cheese or honey.",
+    "Balaleet.",
+    "A fuala selection — dates, nuts, seasonal fruit and Emirati sweets.",
+    "Gahwa poured to order with dates.",
+    "Whole cakes and tarts — the hero pieces",
+    "Black Forest, White Forest, caramel cake, dark chocolate cake and red velvet.",
+    "Strawberry tarte, cheesecake, tiramisu and apple strudel.",
+    "Croquembouche, priced per piece, for tables that need height.",
+    "Bespoke wedding cake, made to order to your palette and tier count.",
+    "Red velvet cupcakes and assorted brownies for the volume end of the same table.",
+    "Miniatures, dessert canapés and petit fours",
+    "This is dessert as finger food catering in Dubai — one bite, one hand, no plate and no fork, which is what you want at a reception where nobody sits down. Plan three to five pieces a head:",
+    "Macarons, mini cakes, mini cups, mini Danish and mini chocolate croissants.",
+    "Dessert shooters and verrines — mousse, tiramisu, lemon — plus mini cheesecakes and fresh fruit salad cups.",
+    "Éclairs, cake pops, mini donuts, chocolate truffles, mini tarts with granola and bite-sized brownies.",
+    "The Dubai-specific bites: mini kunafa cups, baklava tarts, modern maamoul bites, saffron-infused macarons and rosewater pistachio cupcakes.",
+    "At the boutique end the miniatures are composed, not assorted, and the menu says so component by component — a black cube of tonka bean crémeux, raspberry fluid gel, buckwheat milk-chocolate crispy base, lemon sponge and hibiscus glaze; frankincense and orange-blossom crémeux with rose Chantilly and chocolate feuilletine; sago crackers with yoghurt gel, blueberry Chantilly, lime fluid gel and freeze-dried blueberries; a chocolate bar of chocolate sponge, chocolate mousse, guava crémeux, coconut feuilletine, caramelised popcorn and dulcey ganache; an \"apple pie\" of green apple compote, custard apple crémeux, roasted pumpkin brittle, lemon sablé and lemon fluid gel; a \"Lego\" of bubblegum crémeux, raspberry marshmallow, berry citrus fluid gel and peanut chocolate cracker. That level of description is the difference between a boutique pastry brief and a volume one.",
+    "Indian mithai and fusion sweets",
+    "Traditional — gulab jamun, kaju katli, motichoor ladoo, rasmalai, besan ladoo, jalebi, soan papdi, peda, pista badam barfi, malpua with rabri and gajrela.",
+    "Spooned — kheer, phirni, shrikhand and kulfi.",
+    "Dry and keeping — chikki and gajak, which travel better than anything cream-based.",
+    "Fusion — jalebi churros, motichoor ladoo cheesecake, rasmalai tres leches, Nutella-stuffed jalebi, paan kulfi and chocolate barfi.",
+    "Portioning runs at one and a half to two pieces per guest, so a hundred-guest table takes roughly 150–200 gulab jamun, 200–250 kaju katli, 150–200 jalebi and 50–60 fusion slices. Traditional and fusion go on separate trays — mixed, guests take the novelty first and the classics sit untouched.",
+    "Fruit and the lighter end",
+    "Sliced fruit platter, fresh fruit salad and a seasonal fruit display.",
+    "Sorbet selection — rosewater lychee, mango and lemon — which also carries the dairy-free guests.",
+    "Live dessert stations — hot and fried",
+    "Stations belong in their own section, not buried under \"desserts\", because they are priced and staffed separately. Each is built around one hero item with a short toppings line:",
+    "Cheese kunafa station , cut and plated to order.",
+    "Halawet Al Geben station , rolled in front of guests.",
+    "Luqaimat and regag station — complete setup, a station chef, disposable crockery and cutlery, run for about four hours.",
+    "Live jalebi , fried in small batches so it reaches the guest hot, and a churro bar with dipping chocolate.",
+    "Kulfi counter , served on sticks.",
+    "Saj station , sweet and savoury, and a pastry frying station of sambousek and kebbe when the table needs a savoury counterweight.",
+    "Where each of the hot stations can actually be set up. The saj is the most portable live station we run: gas-fired in a villa garden or on a driveway, and electric indoors, on a terrace or inside an apartment, where a cylinder is not coming through the door. It is the one to lead with when the venue is tight. Anything fried to order — luqaimat, live jalebi, churros, the sambousek pastry station — is a different animal, because open hot oil is what venues regulate hardest. Outdoors at a villa, on hard standing and clear of the house, it runs. Inside an apartment or on a balcony it does not: a residential kitchen has none of the grease-rated extraction or suppression that hot-oil equipment is expected to sit under, and Emaar's vertical-community rules prohibit \"barbecues, grills, or any cooking equipment of any kind\" on balconies and terraces outright. On a yacht it is the same answer, for the plainer reason that an open vessel of hot oil does not belong on a deck that moves. Nothing leaves the menu because of it: the luqaimat, jalebi and churros are fried in a licensed partner kitchen, carried hot, and finished at the counter — syrup poured, sugar dusted, chocolate dipped in front of the guest — so the station still reads as live. For a rooftop or a desert setup, we confirm the position with the building management or the site operator before quoting the fried stations.",
+    "Crepe, waffle and pancake counter",
+    "Live crepe and waffle counter, finished to order.",
+    "Mini pancakes, and the Dubai chocolate pistachio crepe or waffle.",
+    "Churros with chocolate dip.",
+    "Build-your-own toppings line — fresh strawberries, banana, Nutella, pistachio, lotus, chocolate sauce and whipped cream.",
+    "The gelato cart and the frozen end",
+    "Gelato cart — up to six flavours, each in its own five-litre pan, drawn from a thirty-plus flavour list: fiordilatte, vanilla, hazelnut, pistachio, almond, espresso, salted caramel butter, Nutella, Ferrero Rocher, tiramisu, mango, strawberry, lemon. Cones, cups, toppings, an attendant scooping, separate kid and adult scoop sizes, setup through to cleanup, and roughly 300–350 scoops over the service.",
+    "Turkish dondurma cart with a performing vendor — vanilla, chocolate, pistachio, saffron and fruit-infused — where the teasing is half the reason to book it.",
+    "Soft-serve station, build-your-own sundae bar, ice cream sandwiches, milkshakes and popsicles.",
+    "Homemade sorbets and ice creams — saffron pistachio, cardamom vanilla, rosewater lychee.",
+    "Chocolate, candy and the carts children photograph first",
+    "Chocolate fountain with an attendant, dipped with strawberries, bananas, pineapple, cake, marshmallows, chocolate chip cookies, pretzel rods and vanilla, strawberry or hazelnut wafers.",
+    "Cotton candy cart, popcorn trolley, nachos machine and slush dispenser.",
+    "Candy cart, donut wall, macaron tower and a marshmallow display.",
+    "Cheesecake bar with its own toppings line, and a milkshake station.",
+    "Tea, coffee and what to pour",
+    "Arabic coffee, mint tea and jallab.",
+    "Fresh juice selection and full tea and coffee service.",
+    "A coffee cart, which pairs naturally with the gelato cart at a long reception.",
+    "Run the same spread at four in the afternoon with scones, finger sandwiches and a tiered stand and it becomes afternoon tea catering in Dubai instead — same pastry section, different service window and a shorter, lighter list.",
+    "Planning the stations and the space",
+    "Live stations need floor and services, so check them with your venue before you commit: allow roughly three metres by three metres per hot station, a dedicated power point and access to water. One or two stations is right for most events; three starts to compete with the main catering. Which stations, carts and equipment are available for your date depends on the assigned culinary partner's confirmed capability, and we check that before it goes on your quote, not after.",
+    "Gluten-free, nut-conscious and other dietary menu options may be available on request, subject to confirmation by the assigned culinary partner. Partner kitchens may handle allergens, and cross-contact cannot be completely excluded unless dedicated controls have been specifically confirmed for the booking. Guests with allergies must provide full details before confirming their event. On the buffet line the practical measures are the ones that matter: every dessert labelled, dairy items in individual cups, shaded placement with ice baths, and staff watching temperature and refilling through service.",
+    "What the dessert table costs as a format",
+    "Two different products sit on this page and they price apart. Run as a catering format — a styled display, drop-off platters, a live station with an attendant — a dessert table starts from AED 150 per person at the premium buffet and live-station tier, or from AED 120 per person for a standard event dessert buffet, with a minimum of 20 guests for a buffet display, 10 guests for drop-off, and a minimum order of AED 900. Run as a staffed pastry chef who designs, finishes and plates on site, it is the AED 700 to AED 950 per person product priced below. What the higher figure buys is a named chef and their team on your floor for the evening, plated work that cannot be made in advance, and one person accountable for the table — not more sugar."
+   ],
+   "insert_after_block": "What Our Dessert Tables Include",
+   "position": "after the block titled 'What Our Dessert Tables Include'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How much does dessert table catering cost in Dubai?",
+   "new_paragraphs": [
+    "Dessert table catering costs from AED 700 per person, and the final price moves with your headcount, menu and service level. A relaxed drop-off spread sits at the lower end; a plated, staffed dessert course with showpiece work runs higher, up to around AED 950 per person for premium menus. Catering packages start at AED 1,200 and step up through AED 2,400, 3,600, 4,500 and 5,500 as guest numbers and courses grow, which keeps larger events predictable. There is no charge to see an itemised quote, and affordable and luxury options are priced side by side so you choose the level, not us. For a full breakdown of dessert table catering prices and what drives them, see our Dubai catering price guide ."
+   ],
+   "insert_after_block": "Dessert Table Questions",
+   "position": "after the block titled 'Dessert Table Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What separates the best dessert table catering in Dubai from the cheapest",
+   "new_paragraphs": [
+    "Almost every caterer in the city writes \"Arabic sweets\" on the menu and stops. The caterers worth paying for name them — Kounaffa Nabulsia, Karabeej with Natef, Halawet El Riz — because naming a sweet is how you show someone on the team makes it. Three other things separate the ends of this market: live dessert stations listed as their own section with their inclusions spelled out, portions published per hundred guests instead of left vague, and composed miniatures described component by component instead of as \"assorted mini desserts\".",
+    "If you are pricing cheap dessert table catering in Dubai, the honest way down is format, not ingredients. A drop-off platter — mousse pots, brownies, macarons and a fruit platter, delivered ready to set out — carries no staffing cost at all. A styled display sits in the middle. A pastry chef finishing plates on site is the top. Removing the chef saves the most money and costs you the least on the table; cutting ingredient quality is the one that shows in every photograph."
+   ],
+   "insert_after_block": "Dessert Table Questions",
+   "position": "after the block titled 'Dessert Table Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How do you hire a dessert table caterer in Dubai?",
+   "new_paragraphs": [
+    "You hire a dessert table caterer in three steps, and the first one costs nothing. Send your date, guest count, venue and any dietary needs, and you get an itemised proposal, usually within one business day. Approve the menu and styling, pay to confirm the date, and your private dessert table chef and team handle the rest through to cleanup. Searching for dessert table catering near me in Dubai tends to return generic buffet firms; we match a named pastry specialist to your brief instead. You keep one point of contact from quote to takedown, so nothing gets lost between a salesperson and the kitchen. You can adjust numbers or menu up to a few days before, and we confirm the final run-sheet with you the week of the event."
+   ],
+   "insert_after_block": "Dessert Table Questions",
+   "position": "after the block titled 'Dessert Table Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning dessert table catering step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your dessert table catering proposal arrives.",
+    "Book with as much notice as you can: about 72 hours suits a standard dessert display or drop-off, live dessert stations and multi-staff events prefer 3–5 days , and bespoke or wedding dessert tables 5–7 days .",
+    "Confirm the dessert table catering menu roughly 7 days before, once your numbers settle.",
+    "Ask about dietary covers for dessert table catering when you enquire, not inside the final 48 hours .",
+    "Check venue access and parking for dessert table catering; the team arrives about 2 hours before service.",
+    "Plan on roughly 3 hours of dessert table catering service, and add 5% VAT to the total.",
+    "We recommend booking as early as possible. Lead times depend on guest numbers, menu complexity, staffing, equipment, location and partner availability. Short lead time on a dessert table is worth a message: some partners keep capacity for late requests."
+   ],
+   "insert_after_block": "Catering Across Dubai",
+   "position": "after the block titled 'Catering Across Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which dessert table catering format suits your event?",
+   "new_paragraphs": [
+    "Format What it gives you Staffing Cost position",
+    "Drop-off Food delivered ready to serve None Entry point",
+    "Buffet Presentation plus a maintained spread 1–2 From AED 700 per person",
+    "Live stations Cooking in front of your guests 2–4 Mid-range",
+    "Plated Every course served together 3 and above Top of the range"
+   ],
+   "insert_after_block": "Catering Across Dubai",
+   "position": "after the block titled 'Catering Across Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Common questions",
+   "new_paragraphs": [
+    "How much does dessert table catering cost in Dubai?",
+    "It starts from around AED 700 per person and is quoted by headcount, menu and service level. Larger events move onto catering packages from AED 1,200, and you see an itemised quote first.",
+    "What is included in a dessert table package?",
+    "Menu design, a vetted chef, delivery or on-site service, the styled setup and cleanup are all included. Stands, linen and any rentals are listed separately so the quote stays clear.",
+    "How do I book a dessert table caterer?",
+    "Tell us your date, guest count and schedule, and we send an itemised proposal, usually within one business day. Approve it and pay to confirm the date.",
+    "Can you cater dietary needs like vegan or gluten-free?",
+    "Yes. Vegan, gluten-free, dairy-free and sugar-free desserts sit alongside the classics, and we flag allergens on the menu before the event.",
+    "How many desserts do I need per guest?",
+    "Plan three to five pieces per guest for a dessert table alongside a meal, and more when it stands in for the main course. We size the spread to your headcount so it looks full to the end.",
+    "Do you cater weddings and corporate events?",
+    "Yes. We build dessert tables for weddings, corporate launches, parties and private celebrations across Dubai, scaling the same service from a dozen guests to several hundred.",
+    "Which areas of Dubai do you cover?",
+    "We cover homes, villas, offices and venues across Dubai, from Palm Jumeirah and Emirates Hills to Business Bay, Dubai Marina and the beach clubs.",
+    "For dessert table catering, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements ."
+   ],
+   "insert_after_block": "Catering Across Dubai",
+   "position": "after the block titled 'Catering Across Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "More on dessert table catering dubai",
+   "new_paragraphs": [
+    "Buffet catering dubai",
+    "Halloween catering dubai",
+    "New year catering dubai",
+    "Private party catering dubai",
+    "Get an itemised quote"
+   ],
+   "insert_after_block": "Catering Across Dubai",
+   "position": "after the block titled 'Catering Across Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Why choose myCHEF for your dessert table?",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you own the occasion, we carry the work. MyCHEF is implementing a structured 12-stage partner verification and quality-assurance framework across its culinary partner network, covering company identity, licences and permitted activities, food-safety documentation, allergen controls, menu capability and equipment. We are honest that no process removes every risk, which is why we match each event to the chef well suited to it. For a dessert table, that is often Sofia Moretti : 12-plus years in pastry with Le Cordon Bleu Paris training, whose chocolate work, sugar sculptures and plated desserts anchor weddings, launches and dinner parties. Dessert table catering sits alongside villa weddings, yacht celebrations and corporate galas we have delivered across Dubai."
+   ],
+   "insert_after_block": "A Taste of Our Dessert Tables",
+   "position": "after the block titled 'A Taste of Our Dessert Tables'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  }
+ ],
+ "faq": []
+}

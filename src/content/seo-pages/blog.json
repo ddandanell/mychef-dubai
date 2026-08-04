@@ -1,0 +1,185 @@
+{
+ "url": "/blog",
+ "keyword_strategy": {
+  "main_keyword": "catering blog dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 7,
+  "subkeywords_carried": 6,
+  "coverage_percent": 86,
+  "subkeywords_carried_list": [
+   "private catering dubai",
+   "food catering blog dubai",
+   "best catering blog dubai",
+   "wedding catering blog dubai",
+   "birthday catering blog dubai",
+   "affordable catering services in dubai"
+  ],
+  "subkeywords_not_carried": [
+   "finger food catering dubai"
+  ],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Catering Blog Dubai | Real Prices, Menus & How to Book | myCHEF Dubai",
+  "meta_description": "The myCHEF catering blog for Dubai: real prices, menus, formats and booking timing, with every figure sourced to an official authority.",
+  "h1": "Catering Blog Dubai — Real Prices, Menus and How to Book"
+ },
+ "opening_paragraph": [
+  "This is the myCHEF catering blog for Dubai. The myCHEF blog answers the questions Dubai hosts ask before booking: what a private chef costs, which format suits the room, and how far ahead to book. Every figure is a real published rate, and anything regulatory is cited to an official UAE source.",
+  "Guides, tips and ideas on private chefs, catering and events in Dubai.",
+  "best Private Chef Birthday Dinner in Dubai: Menu Ideas, Costs & How to Book",
+  "Corporate Catering: Full-Service vs Drop-Off",
+  "Halal Private Dining in Dubai: What to Ask Before You Book",
+  "How Much Does a Private Chef Cost in Dubai?",
+  "Private Chef Palm Jumeirah: A Complete Guide to Dining at Home",
+  "Ramadan Iftar Catering Trends for 2026",
+  "Weekly Meal Prep vs Hiring a Full-Time Chef in Dubai",
+  "Yacht Party Menu Ideas in Dubai",
+  "Dessert Table Ideas for Dubai Events",
+  "How to Plan a BBQ Party in Dubai",
+  "Wellness Catering for Dubai Events and Retreats",
+  "Desert Dinner Parties & Get-Togethers in Dubai",
+  "How to Hire a Private Chef in Dubai (Step by Step)",
+  "Private Chef vs Restaurant: Which for a Special Occasion?",
+  "Dinner Party Menu Ideas for Dubai Hosts",
+  "How Much Does Wedding Catering Cost in Dubai?",
+  "How to Host the Perfect Brunch at Home in Dubai",
+  "Vegan & Plant-Based Catering in Dubai: What to Expect",
+  "Corporate Event Catering Ideas for Dubai Offices",
+  "Hosting Iftar at Home in Dubai: A Host's Guide",
+  "New Year's Eve Party Catering Ideas in Dubai",
+  "Private Chef Date Night Ideas in Dubai",
+  "Grazing Table vs Buffet: Which for Your Dubai Party?",
+  "How Far in Advance Should You Book a Caterer in Dubai?"
+ ],
+ "replace_in_block": [],
+ "leave_untouched": [
+  "Insights for Dubai Hosts",
+  "Want a Bespoke Menu?",
+  "Explore myCHEF Dubai"
+ ],
+ "add_block": [
+  {
+   "new_heading": "What you will find here",
+   "new_paragraphs": [
+    "The articles fall into four groups. Cost pieces break down what you pay and why, from a private chef at home to a plated wedding. Comparison pieces put two options side by side — private chef against restaurant, grazing table against buffet, full service against drop-off — so you can see which one fits your evening. Menu and idea pieces give you formats that work in Dubai's climate and venues. Timing pieces cover how far ahead to book and how the seasons move demand."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Insights for Dubai Hosts'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which article should you read first?",
+   "new_paragraphs": [
+    "If you are pricing an event, start with what a private chef costs in Dubai and the wedding catering cost piece. If you are deciding on a format, read the private chef against restaurant comparison, or grazing table against buffet. If your date is close, read how far ahead to book a caterer. If you are hosting in Ramadan, the iftar and suhoor pieces cover timing, which matters more in that month than anywhere else in the calendar."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Insights for Dubai Hosts'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning catering blog step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your catering blog proposal arrives.",
+    "Book catering blog about 2 weeks ahead off-peak, and 6 weeks ahead between November and March.",
+    "Confirm the catering blog menu roughly 7 days before, once your numbers settle.",
+    "Ask about dietary covers for catering blog when you enquire, not inside the final 48 hours .",
+    "Check venue access and parking for catering blog; the team arrives about 2 hours before service.",
+    "Plan on roughly 3 hours of catering blog service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Insights for Dubai Hosts'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How we decide what goes in an article",
+   "new_paragraphs": [
+    "An article gets written when hosts keep asking the same question and the honest answer takes more than a sentence. That is why the library leans toward costs, comparisons and timing instead of trend pieces. Every price quoted is a rate published on this site, so an article and a service page not disagree. Where a claim is regulatory — VAT, food safety, licensing — it carries a link to the source, because a reader planning a wedding should be able to verify a rule without taking a caterer's word for it.",
+    "What you will not find is invented statistics. Where a pattern comes from our own bookings instead of published research, the article says so plainly. The 2026 trends piece is labelled first-party observation for exactly that reason, and it carries no percentages, because attaching numbers would have meant inventing them."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Insights for Dubai Hosts'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Reading the cost articles properly",
+   "new_paragraphs": [
+    "Catering prices move on three levers, and every cost article is built around them. The menu sets the ingredient floor. The service level sets the labour, which is the largest line on most quotes — a drop-off tray needs almost no staff, a plated dinner needs a brigade. The guest count spreads the fixed costs, which is why a dinner for eight can cost more per head than a reception for eighty.",
+    "Read any article's key facts first: they carry the numbers and the lead times in one block. Then compare against your own brief instead of against another caterer's headline figure, because two quotes are only comparable when they cover the same inclusions. If a quote omits staffing, rentals or the 5% VAT line, it is not cheaper — it is incomplete."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Insights for Dubai Hosts'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Seasonality changes what you should read",
+   "new_paragraphs": [
+    "Dubai's calendar splits the year. From November to March the outdoor season runs, nights sit near 19°C, and weddings, galas and the conference circuit compete for the same weekends. Between May and September, indoor planning dominates and the articles on villa and apartment dining matter more than the terrace and yacht pieces.",
+    "Ramadan moves each year and reshapes service entirely, because iftar is timed to sunset instead of to a convenient hour. If your event falls in that month, the iftar and suhoor articles cover the timing, the staffing and the menu pattern that follow from it."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Insights for Dubai Hosts'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Sources",
+   "new_paragraphs": [
+    "Figures and rules referenced across these pages come from official sources: the UAE Ministry of Finance (5% VAT on catering, in force since 1 January 2018), Dubai Municipality (Food Code, including requirements for food transportation and delivery vehicles and mandatory food-handler training), and Weather and Climate (Dubai December averages of 27°C by day and 19°C at night). Confirm current requirements before you book.",
+    "Related reading: our catering services pages, the packages and the prices . Whether you want a caterer for a corporate event, party catering at home, a luxury menu or an affordable food option near me, the blog explains what each catering company should quote and what the real cost covers before you hire."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Insights for Dubai Hosts'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Frequently asked questions",
+   "new_paragraphs": [
+    "How much does a private chef cost in Dubai?",
+    "Most private-chef dinners run about AED 700 to 950 per person, moving toward the upper end for a small table. The full breakdown is in the private chef cost article.",
+    "Are the prices in these articles real?",
+    "Yes. Every figure is a rate published on this site, not an estimate. Where an article states a rule or a statistic, it cites an official UAE source.",
+    "How far ahead should I book?",
+    "Two to three weeks off-peak, and six to eight weeks or more between November and March when the season is busiest.",
+    "Do you cover Ramadan and festive periods?",
+    "Yes, with dedicated pieces on iftar at home, suhoor, Ramadan trends, Christmas and New Year, because each has its own timing and menu pattern.",
+    "Request an itemised proposal or start on WhatsApp ."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Insights for Dubai Hosts'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  }
+ ],
+ "faq": [
+  {
+   "question": "How much does a private chef cost in Dubai?",
+   "answer": [
+    "Most private-chef dinners run about AED 700 to 950 per person, moving toward the upper end for a small table. The full breakdown is in the private chef cost article."
+   ]
+  },
+  {
+   "question": "Are the prices in these articles real?",
+   "answer": [
+    "Yes. Every figure is a rate published on this site, not an estimate. Where an article states a rule or a statistic, it cites an official UAE source."
+   ]
+  },
+  {
+   "question": "How far ahead should I book?",
+   "answer": [
+    "Two to three weeks off-peak, and six to eight weeks or more between November and March when the season is busiest."
+   ]
+  },
+  {
+   "question": "Do you cover Ramadan and festive periods?",
+   "answer": [
+    "Yes, with dedicated pieces on iftar at home, suhoor, Ramadan trends, Christmas and New Year, because each has its own timing and menu pattern.",
+    "Request an itemised proposal or start on WhatsApp ."
+   ]
+  }
+ ]
+}

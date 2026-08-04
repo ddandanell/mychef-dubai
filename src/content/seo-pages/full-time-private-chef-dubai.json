@@ -1,0 +1,191 @@
+{
+ "url": "/full-time-private-chef-dubai",
+ "keyword_strategy": {
+  "main_keyword": "full time private chef catering dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 10,
+  "subkeywords_carried": 10,
+  "coverage_percent": 100,
+  "subkeywords_carried_list": [
+   "can you rent a private chef?",
+   "how much does a private chef cost in dubai?",
+   "how much does a private chef earn in dubai?",
+   "how much does a private chef cost for a meal?",
+   "private chef at home dubai",
+   "full time private chef dubai",
+   "full time private chef catering dubai cost",
+   "best full time private chef catering dubai",
+   "full time private chef catering dubai price",
+   "full time private chef catering dubai reviews"
+  ],
+  "subkeywords_not_carried": [],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Full Time Private Chef Catering Dubai | Household Placement | myCHEF",
+  "meta_description": "Full-Time Private Chef catering in Dubai — a dedicated chef for your household, every day. Quoted per placement, with vetted chefs and full service. Request a proposal from myCHEF.",
+  "h1": "Full-Time Private Chef and Catering in Dubai — What It Costs and How to Book"
+ },
+ "opening_paragraph": [
+  "A full time private chef catering Dubai placement puts one dedicated, vetted chef in your household kitchen every day, with occasion menus for guests from AED 700 per person. It is the arrangement families reach for when they want restaurant-standard food at home without the daily work of planning, shopping and cooking. Your chef runs the whole kitchen — from the weekly menu and grocery run to breakfast, lunch, dinner and clean-up — and steps up to host dinner parties when you entertain. Tell us about your household and schedule, we typically reply within 15 minutes during business hours, with an itemised proposal to follow."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "Full-Time Chef Questions",
+   "match_confidence": 0.7,
+   "new_heading": "Full-time private chef Dubai — common questions",
+   "new_paragraphs": [
+    "How much does a private chef cost in Dubai?",
+    "For a dinner, AED 950 to AED 1300 per head at a table of two, AED 750 to AED 1000 at six, AED 700 to AED 950 at ten, and from AED 600 above twenty guests. The chef's day is shared between fewer people at a small table, which is why the per-head figure falls as the table grows.",
+    "How much does a full-time private chef cost in Dubai?",
+    "A full-time household placement is quoted per programme, based on daily meals, household size and days worked. For the occasion side the same chef covers, dinners start from AED 700 per person, set packages from AED 1200, and weekly meal prep from AED 1898. We quote every element in writing before you confirm.",
+    "Can you rent a private chef in Dubai?",
+    "Yes, in the sense people mean by it. You can have a private chef for a single evening from AED 700 per person, for a run of weeks through meal prep from AED 1898, or full-time in your kitchen on a placement quoted per programme. The same vetted chefs cover all three, so you can start with one evening and move up.",
+    "What is included with a full-time private chef?",
+    "Included are weekly menu planning, daily grocery shopping, cooking every meal, kitchen and pantry management, and clean-up — plus occasion and dinner-party menus when you host. The scope of full time private chef catering services in Dubai is agreed with you up front.",
+    "How do I hire a full-time private chef in Dubai?",
+    "Tell us your household size, schedule, cuisines and dietary needs. We match a vetted chef, send an itemised proposal — usually within one business day — and settle the chef into your kitchen once you confirm the scope and start date.",
+    "Can a full-time private chef cook halal and special diets?",
+    "Yes. Halal cooking is standard, and vegetarian, vegan and keto meals are prepared daily. Gluten-free, nut-conscious and other dietary menu options may be available on request, subject to confirmation by the assigned culinary partner. Partner kitchens may handle allergens, and cross-contact cannot be completely excluded unless dedicated controls have been specifically confirmed for the booking. Guests with allergies must provide full details before confirming their event.",
+    "Can the same chef cater dinner parties and events?",
+    "Yes. Beyond daily family meals, your chef handles full time private chef party catering in Dubai — dinner parties, corporate hosting and celebrations at home — with occasion menus from AED 700 per person and set packages from AED 1200.",
+    "Is a full-time chef better value than hiring per event?",
+    "For households that entertain often or want daily home-cooked meals, a full-time placement usually works out more affordable per meal than booking separately each time. For occasional needs, a part-time chef or weekly meal prep may suit better.",
+    "For full time private chef catering, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements ."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "A Chef Who Becomes Part of Your Home",
+  "Complete Household Culinary Support",
+  "Choose Your Arrangement",
+  "Find Your Household Chef",
+  "Explore myCHEF Dubai"
+ ],
+ "add_block": [
+  {
+   "new_heading": "What does a full-time private chef in Dubai include?",
+   "new_paragraphs": [
+    "It includes one chef who takes complete ownership of your home kitchen, from planning to plate to clean-up. A myCHEF full-time private chef caterer in Dubai builds a rotating weekly menu around your family's tastes, does the grocery shopping, cooks every meal fresh, manages the pantry and fridge, and leaves the kitchen spotless. As the team coordinating your booking, we agree the scope in writing first: which meals each day, household size, days worked, and the cuisines you love. Full time private chef catering services in Dubai from us also cover occasion cooking — dinner parties, family celebrations and guest hosting — so the same trusted chef handles both the Tuesday-night family dinner and the twelve-guest Saturday. You own the evening; the chef carries the work."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'A Chef Who Becomes Part of Your Home'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Full-time private chef for families, corporate households and events",
+   "new_paragraphs": [
+    "A full-time chef flexes far beyond daily family meals, which is why busy households and executives choose one. For families, it means healthy, consistent meals cooked to each member's preferences, from children's lunchboxes to a considered dinner. For corporate and executive households, a full time private chef catering for events in Dubai handles business entertaining at home — quiet working lunches, investor dinners and corporate full time private chef catering in Dubai for visiting colleagues. When you celebrate, the chef shifts into full time private chef party catering in Dubai mode for birthdays, engagements and milestone dinners. Health-focused clients pair the placement with structured plans, and travelling families keep the same standard on the move. One vetted person learns your household and adapts the menu to whatever the week holds."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'A Chef Who Becomes Part of Your Home'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What goes on a full-time private chef menu in Dubai?",
+   "new_paragraphs": [
+    "Your full time private chef menu in Dubai is built around your family, not a fixed list, and refreshed every week. A typical rotation blends everyday comfort with restaurant-level occasion food: balanced weekday dinners, fresh salads and grains, slow-cooked mains for the weekend, and dessert when it is called for. We cover Arabic, Indian, Asian, Italian, Mediterranean and mixed international cooking, and set the balance of meat, seafood and vegetarian dishes with you. Full time private chef food catering in Dubai is planned around real dietary needs — halal by default, with vegetarian, vegan and keto meals cooked daily. Gluten-free, nut-conscious and other dietary menu options may be available on request, subject to confirmation by the assigned culinary partner. Partner kitchens may handle allergens, and cross-contact cannot be completely excluded unless dedicated controls have been specifically confirmed for the booking. Guests with allergies must provide full details before confirming their event. When guests come, the chef scales up to a full occasion menu, and can add finger food or canapés for a drinks evening. Nothing is off a template; everything is built to your table."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'A Chef Who Becomes Part of Your Home'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "The daily rhythm, logistics and dietary planning",
+   "new_paragraphs": [
+    "Good full-time cooking is as much about a smooth daily rhythm as it is about the food. Once settled, your chef works to an agreed schedule — planning the week's menu, shopping to a budget, prepping ahead and cooking each meal to time, then clearing down so the kitchen is ready for the next service. Dietary requirements and family preferences are mapped up front and kept current as they change, with declared allergens recorded and handled carefully, though cross-contact cannot be completely excluded unless dedicated controls have been specifically confirmed. All food is stored, prepared and held to Dubai Municipality standards throughout the day. Because one chef learns your household, waste falls, favourites are remembered, and the weekly shop gets sharper over time. If your needs are lighter than a daily placement, we can scale back to weekly meal prep or a part-time private chef instead."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'A Chef Who Becomes Part of Your Home'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How much does a full-time private chef cost in Dubai?",
+   "new_paragraphs": [
+    "A full-time placement is quoted per programme instead of per head, based on the number of daily meals, household size, days worked and cuisine, so full time private chef catering prices in Dubai are set to your exact arrangement. To give you concrete figures for the occasion side: dinner-party and event cooking the same chef delivers starts from AED 700 per person and rises toward AED 950 for premium menus and full service; set full time private chef catering packages in Dubai begin around AED 1200; a multi-course tasting menu at home is AED 1400; and structured weekly meal prep runs from AED 1898 to AED 2698. We are open about what drives the full time private chef catering cost in Dubai, so you can weigh the best full time private chef catering against a more affordable full time private chef catering plan. See our prices and catering price guide , or request an itemised quote.",
+    "If the question underneath is what a private chef costs in Dubai generally, those per-head figures are published and do not move with the season: a dinner runs AED 950 to AED 1300 a head at a table of two, AED 800 to AED 1100 at four, AED 750 to AED 1000 at six, AED 700 to AED 950 at ten, and from AED 600 once you are above twenty. Small tables carry the chef's whole day between fewer people, which is the entire reason the figure falls as the table grows.",
+    "A placement is not priced that way because the variable is not headcount, it is how much of the week the chef works. Four things set the number: the meals cooked each day, the days worked, whether the chef lives in or travels to you, and how often you entertain. Two households of the same size can sit a long way apart on all four, which is why a placement comes back as a written programme quote instead of a published rate — and why we put every element of it in writing before you commit to anything."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'A Chef Who Becomes Part of Your Home'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How to hire a full-time private chef in Dubai",
+   "new_paragraphs": [
+    "To hire full time private chef catering in Dubai, send us your household size, weekly schedule, favourite cuisines and any dietary needs, and we do the matching. Searching \"full time private chef catering near me\" returns a long list of names; we shorten it by pairing one vetted chef to your household and putting the plan in writing. From there it is three steps: we send an itemised proposal, usually within one business day; you confirm the scope, menu direction and start date; and we settle your chef into the daily rhythm of the kitchen, adjusting in the first weeks until it fits. There is no obligation from a first quote — you see the full arrangement and price before you decide, and can compare it against private chef vs catering ."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'A Chef Who Becomes Part of Your Home'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Why choose myCHEF for a full-time private chef?",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you own the evening, we carry the work. Every chef working on full time private chef catering has cleared identity checks, a practical cooking assessment, reference verification and ongoing performance reviews — a continuous standard, not a one-time tick. We are honest about it, too: no system removes every risk, so we match each household to the right chef for it.",
+    "For a full-time household placement, that is often Ahmed Al-Rashid — 18+ years across Dubai, London and Paris in classical French technique — who treats a family menu as a season-long collaboration, adapting daily to the household's tastes. For halal-focused and Ramadan family cooking we might match Layla Hassan ; for Italian and Mediterranean family favourites, Marco Rossi ; and for the celebration desserts a full home deserves, pastry and wedding specialist Sofia Moretti . On a recent Emirates Hills placement, our chef ran a family's full weekly menu and stepped up to host a 40-guest anniversary dinner at home without missing a beat. Our work spans full time private chef catering, villa weddings, yacht celebrations and corporate galas across Dubai. Covers full time private chef catering; client reviews go up as events are delivered."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'A Chef Who Becomes Part of Your Home'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Full-time private chef catering across Dubai",
+   "new_paragraphs": [
+    "We place full time private chef home catering in Dubai across the city, from Palm Jumeirah and Emirates Hills villas to Downtown and Dubai Marina residences, Jumeirah homes and Business Bay apartments. The chef travels to your kitchen, so a luxury full time private chef catering standard does not change with the postcode. Whether it is a growing family in Arabian Ranches, an executive household in DIFC or a private full time private chef arrangement in a Jumeirah villa, the same vetting and the same care apply. Explore the wider private chef service or the full range of catering in Dubai , and browse our catering packages ."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'A Chef Who Becomes Part of Your Home'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning full time private chef catering step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your full time private chef catering proposal arrives.",
+    "Book a standard private-chef dinner at least 48 hours ahead and a catering package 72 hours ahead; multi-staff evenings want 3 to 5 days, and a household placement is worth starting a few weeks before you need the chef in the kitchen.",
+    "Confirm your full time private chef catering menu about 7 days out, when the guest list is firm.",
+    "Ask early about allergies and dietary plates — not in the last 48 hours before full time private chef catering.",
+    "Check the access route before full time private chef catering day — setup starts roughly 2 hours ahead.",
+    "Plan on roughly 3 hours of full time private chef catering service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": "Full-Time Chef Questions",
+   "position": "after the block titled 'Full-Time Chef Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which full time private chef catering format suits your event?",
+   "new_paragraphs": [
+    "These formats apply when your chef cooks for guests instead of the family. The daily household rhythm sits outside the table below; this is the choice you make for the nights you entertain.",
+    "Format What it gives you Staffing Cost position",
+    "Drop-off Food delivered ready to serve None Entry point",
+    "Buffet Presentation plus a maintained spread 1–2 From AED 700 per person",
+    "Live stations Cooking in front of your guests 2–4 Mid-range",
+    "Plated Every course served together 3 and above Top of the range"
+   ],
+   "insert_after_block": "Full-Time Chef Questions",
+   "position": "after the block titled 'Full-Time Chef Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "More on full time private chef catering dubai",
+   "new_paragraphs": [
+    "Private chef vs restaurant dubai",
+    "Private chef al barsha",
+    "Private chef jlt",
+    "Private chef business bay",
+    "Get an itemised quote",
+    "Weekly meal prep"
+   ],
+   "insert_after_block": "Full-Time Chef Questions",
+   "position": "after the block titled 'Full-Time Chef Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  }
+ ],
+ "faq": []
+}

@@ -1,0 +1,209 @@
+{
+ "url": "/healthy-catering-dubai",
+ "keyword_strategy": {
+  "main_keyword": "healthy catering dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 19,
+  "subkeywords_carried": 19,
+  "coverage_percent": 100,
+  "subkeywords_carried_list": [
+   "healthy meals in dubai",
+   "healthy cakes in dubai",
+   "healthy breakfast in dubai",
+   "is kcal restaurant healthy?",
+   "is 500 aed enough for food in dubai?",
+   "how much does catering cost in dubai?",
+   "healthy food dubai hills",
+   "healthy meal plans dubai",
+   "healthy food dubai airport",
+   "finger food catering dubai",
+   "small party catering dubai",
+   "healthy food dubai delivery",
+   "healthy catering dubai menu",
+   "healthy meal delivery dubai",
+   "cheap healthy catering dubai",
+   "healthy food dubai hills mall",
+   "healthy food dubai festival city",
+   "healthy food dubai",
+   "healthy food app dubai"
+  ],
+  "subkeywords_not_carried": [],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Healthy Catering Dubai | Menus & Prices | myCHEF",
+  "meta_description": "Healthy catering in Dubai from AED 90 per person for drop-off and working lunches, AED 120 buffet, AED 150 premium, or AED 700-950 for a chef cooking on site. Minimums, menus and honest answers.",
+  "h1": "Healthy Catering in Dubai: Prices, Minimums and What's on the Menu"
+ },
+ "opening_paragraph": [
+  "Healthy catering in Dubai costs from AED 90 per person for a drop-off or working lunch, booked through myCHEF. An event buffet is AED 120 a head, and a premium buffet, live stations or canapés AED 150. If you want a chef in the room — cooking on your worktops, plating and serving — that is a separate product priced at AED 700 to AED 950 per person, and the gap between the two numbers is service, not better lettuce. Volume formats need 10 guests, a buffet needs 20, and the smallest order we take is AED 900. Send the date, the headcount and the address, and an itemised written proposal comes back. VAT of 5% goes on every total."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "What Our Healthy Catering Includes",
+   "match_confidence": 0.74,
+   "new_heading": "What is on the healthy catering menu?",
+   "new_paragraphs": [
+    "There is no fixed list, because the menu is written around your table. As a starting point: grilled seafood and chicken, slow-roasted vegetables, grain bowls, mezze and crudités, poke-style plates, soups and cold-pressed juices. Healthy finger food catering is one of the more requested versions — skewers, lettuce cups, filo parcels baked, not fried, crudités with labneh and muhammara — and it works for a small party at home as easily as for a launch. A healthy breakfast in Dubai usually means eggs to order, labneh and za'atar, overnight oats, chia and yoghurt bowls, fruit and good coffee, not a tray of pastries nobody admits to eating; there is more on that at breakfast catering . The chef can lean the food Mediterranean, Levantine, Asian or Californian, and can shape it to keto, high-protein, plant-based or low-carb without it tasting like a punishment. You approve the full healthy catering menu, ingredients and drinks before the date.",
+    "The one piece of kit this menu deliberately leaves behind is the fryer, and the venue rules happen to agree with the cooking. Open hot oil wants a grease-rated hood and suppression over it, which a home kitchen does not have, so live frying is refused outright in an apartment — Emaar’s vertical-community rules bar barbecues, grills or cooking equipment of any kind from balconies and terraces — and on a yacht, where no additional gas cylinder may be brought aboard (D-Marin Art. 53.1(a)). At a villa or a permitted beach event it is a per-booking answer myCHEF confirms with the venue before quoting. On a rooftop it is conditional on extraction, with that same hood and suppression needed under any covered section — and gas is the flat no up there, because the UAE Fire and Life Safety Code (Table 11.1) keeps LPG cylinders off any roof or terrace, so a rooftop line runs induction and plancha and cooks the same menu. At a desert camp the blocker is enclosure rather than fuel: solid fuel is fine in the open air and banned inside a tent or an enclosed majlis, so the grill stands outside it, and the ash and coals leave with the caterer, which Dubai Municipality enforces against us rather than you. None of that costs you a dish. Where something fried genuinely belongs on the table — a few spring rolls beside the grilled skewers, a filo parcel that only works crisp — it is fried in the licensed partner kitchen and crisped to order on site in a countertop oven, and the rest of the menu is grilled, steamed or roasted, which is where it was heading anyway."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "Food That Leaves You Energised",
+  "Balanced for Every Occasion",
+  "Designed for the Moment",
+  "Catering Across Dubai",
+  "Let's Design Your Healthy Menu",
+  "Explore myCHEF Dubai",
+  "A Taste of Our Healthy Catering",
+  "Healthy Catering Questions"
+ ],
+ "add_block": [
+  {
+   "new_heading": "How much does catering cost in Dubai, and where do we sit?",
+   "new_paragraphs": [
+    "Most of the question is format, not food. A tray of grilled chicken, freekeh and roasted vegetables costs roughly the same to cook whether it arrives in a box or is plated by a chef at your table; what moves the price is how many staff are standing in your kitchen at 7pm. That is why the tiers below are set by service level, not by menu.",
+    "Format Service staff Minimum guests From, per person",
+    "Drop-off & working lunch None — delivered and set up; collection on request 10 AED 90",
+    "Event buffet 1–2 20 AED 120",
+    "Premium buffet, live stations, canapés 2–4 20 AED 150",
+    "Private chef, cooked and served on site Chef, plus staff for larger tables No minimum AED 700–950",
+    "Weekly meal prep, cooked in your kitchen One chef, one session a week Household AED 1,898 per week",
+    "Those are the real entry points, not teaser rates. The minimum order value of AED 900 is 10 guests at the AED 90 tier, so a small office lunch clears it and a tray for three does not. If you are hunting for cheap healthy catering in Dubai, AED 90 per head is the floor we can work to honestly, and we print it instead of making you ask. Several of the most visible catering companies in the city publish no per-head price at all and quote only on request, which makes comparing anything painful; there is a fuller breakdown across formats in our Dubai catering price guide and the plated rates sit on private chef prices ."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Food That Leaves You Energised'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What healthy catering includes, and what \"healthy\" is doing here",
+   "new_paragraphs": [
+    "The booking covers menu design, the cooking, the equipment, and the clear-down. On a drop-off, food arrives ready, is set out, and the trays are collected afterwards. On a staffed buffet, one or two people keep it looking alive for the length of the service. With a private chef, the cooking happens in your kitchen and the space is left the way it was found. Healthy here is a set of decisions, not a label: grilling, steaming and roasting instead of deep-frying; lean protein with vegetables beside it, not a garnish; whole grains where they belong; dressings and sauces on the side so nobody eats 200 calories of aioli they did not choose. Portions are set to the occasion. A wellness lunch that leaves a team awake at 3pm is a different brief from a birthday spread that has to look generous on the table, and both are achievable without pretending a fried platter is a salad."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Food That Leaves You Energised'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Healthy cakes and desserts",
+   "new_paragraphs": [
+    "Healthy cakes in Dubai are asked about far more often than most caterers admit, usually for a birthday where one person is training and the rest of the table wants cake. A chef can bake a lower-sugar celebration cake, or write a dessert course around fruit, nuts, yoghurt, dark chocolate and ricotta instead of buttercream and syrup. It is honest work, not a miracle: a cake with less sugar is still cake, and a good small one beats a virtuous large one nobody finishes. Because we are a catering and private chef service, not a bakery, the cake sits inside a booking alongside the rest of the menu. If a whole sweet spread is the point, see dessert table catering , and sugar-free catering covers the stricter end."
+   ],
+   "insert_after_block": "What Our Healthy Catering Includes",
+   "position": "after the block titled 'What Our Healthy Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Healthy meal plans, meal prep, and the delivery question",
+   "new_paragraphs": [
+    "A large share of what Dubai searches under healthy food is about delivery: a healthy meal delivery subscription, healthy food Dubai delivery to a desk, a healthy food app that pushes lunch at 11:30. We do not run one. There is no myCHEF app, no fleet, and no menu you tap through for a same-day drop. What exists instead is a chef. For a single date, drop-off catering brings healthy food to a home or office from AED 90 per person. For the ongoing version, weekly healthy meal plans send a chef to your kitchen once a week to shop that morning, cook the full week and portion it into labelled containers — from AED 1,898 per week, or AED 2,698 for a larger household or a wider menu. Nothing is frozen and nothing crosses the city in a foam box. If what you genuinely want is healthy food delivered tonight by an app, a delivery platform will serve you faster and cheaper than we will, and we would sooner say so than sell you the wrong thing. See weekly meal prep , fitness meal prep and drop-off catering for the three shapes this takes."
+   ],
+   "insert_after_block": "What Our Healthy Catering Includes",
+   "position": "after the block titled 'What Our Healthy Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Healthy food in Dubai Hills, Festival City and at the airport",
+   "new_paragraphs": [
+    "Some of these searches are not about catering at all. Someone looking for healthy food in Dubai Hills, a bowl at Dubai Hills Mall, a salad before a gate call at Dubai airport, or something light in Dubai Festival City wants a place to sit down and eat in the next twenty minutes. MyCHEF has no restaurant, no mall unit and no airport counter — not in Dubai Hills Mall, not in Festival City, nothing airside. The chefs travel to the address instead: a villa in Dubai Hills, an office in Festival City, a home in Jumeirah, a yacht in the Marina. So if you are between flights, this page is not your answer. If you are feeding a group somewhere in Dubai on a date you can name, it is. Our Dubai Hills page covers that neighbourhood specifically."
+   ],
+   "insert_after_block": "What Our Healthy Catering Includes",
+   "position": "after the block titled 'What Our Healthy Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Small parties, offices and corporate wellness",
+   "new_paragraphs": [
+    "The same kitchen covers three different jobs. Small party catering in Dubai — a birthday at home, a baby shower, a dozen friends on a terrace — usually lands as drop-off or a light staffed setup, which is where the 10-guest minimum matters most. Office and corporate work is the steadiest: wellness days, team lunches, conferences and standing weekly orders, priced at the working-lunch tier and scaled to headcount, with office catering and corporate meal prep handling the recurring versions. Weddings and larger celebrations take the plated or premium-buffet route, where lighter cooking keeps guests celebratory instead of sedated. Fitness clients book macro-aligned prep; families book it as everyday healthy home catering. The format follows the occasion, not the other way round, and finger food catering often ends up doing more work than a full buffet at half the fuss."
+   ],
+   "insert_after_block": "What Our Healthy Catering Includes",
+   "position": "after the block titled 'What Our Healthy Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Macros, allergens and the detail that decides it",
+   "new_paragraphs": [
+    "If you want it, the chef will align the menu to calorie, macro or low-sugar targets, so a client mid-training block gets measured protein and a wellness lunch stays light enough to work through the afternoon. Portioning is deliberate and consistent plate to plate, so nobody at the table is served noticeably less than their neighbour. Allergens are tracked from prep to plate, and cross-contamination is managed for coeliac, nut and dairy needs, not assumed away — tell us at enquiry, not in the final 48 hours, because ingredient sourcing is where the answer is won. For a mixed table, a lighter parallel menu keeps children and less strict eaters happy alongside the health-focused dishes. The chefs and partner kitchens working on your booking operate to Dubai Municipality food-safety requirements ."
+   ],
+   "insert_after_block": "What Our Healthy Catering Includes",
+   "position": "after the block titled 'What Our Healthy Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How to book, and how far ahead",
+   "new_paragraphs": [
+    "Send the date, guest count and venue — an itemised written proposal arrives.",
+    "Book about 2 weeks ahead off-peak, and 6 weeks ahead between November and March, when Dubai's calendar is full. Shorter notice is worth asking about, not assuming.",
+    "Confirm the menu roughly 7 days before, once your numbers settle.",
+    "Flag allergies and dietary covers when you enquire, not inside the final 48 hours .",
+    "Check venue access and parking; a staffed team arrives about 2 hours before service.",
+    "Plan on roughly 3 hours of service, and add the standard 5% UAE VAT to the total.",
+    "Postpartum meal prep catering dubai"
+   ],
+   "insert_after_block": "What Our Healthy Catering Includes",
+   "position": "after the block titled 'What Our Healthy Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Related menus and services",
+   "new_paragraphs": [
+    "Explore Mediterranean and keto menus, wellness meal prep , or browse all cuisines and sample menus . To scope a full event, start at catering in Dubai .",
+    "Request a healthy catering proposal or chat on WhatsApp ."
+   ],
+   "insert_after_block": "A Taste of Our Healthy Catering",
+   "position": "after the block titled 'A Taste of Our Healthy Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Healthy catering FAQs",
+   "new_paragraphs": [
+    "How much does catering cost in Dubai?",
+    "With myCHEF, healthy catering starts at AED 90 per person for a drop-off or working lunch, AED 120 per person for an event buffet, and AED 150 per person for a premium buffet, live stations or canapés. A private chef who cooks and serves on site is a different product at AED 700 to AED 950 per person. Volume formats need 10 guests, a buffet needs 20, and the minimum order is AED 900. VAT of 5% is added to every total.",
+    "Is 500 AED enough for food in Dubai?",
+    "For catering, not with us. Our minimum order is AED 900, which is 10 guests at the AED 90 working-lunch tier, so a 500-dirham budget sits below the point where we can send food out. For one or two people eating out or shopping for the week, 500 dirhams goes a long way in Dubai. For feeding a group, it is roughly five heads of a basic working lunch and that is the honest arithmetic.",
+    "What is the leading catering company in Dubai?",
+    "There is no official ranking, and any company claiming the title is claiming it about itself. We are not going to pretend it is us. A more useful test is what a caterer will tell you before you enquire: does it publish per-head prices, a minimum headcount and a minimum order value, and will it name what is included. Several of the most visible catering companies in Dubai publish no prices at all and quote only on request. Ours are printed on this page so you can compare us against anyone.",
+    "Is Kcal restaurant healthy?",
+    "Kcal is a separate Dubai healthy-food business with its own outlets and meal plans, and we are not affiliated with it, so we are not the right people to rate its food. Check its own published calorie and ingredient information. What makes any meal genuinely healthy is the same everywhere: lean protein, real vegetables, whole grains, a cooking method that is not deep-frying, a sensible portion, and what is hiding in the sauce. Judge any healthy restaurant on those, including ours.",
+    "Do you do healthy meal delivery in Dubai?",
+    "Not as a subscription or a same-day delivery service. Our drop-off catering brings healthy food to a home or office on a booked date from AED 90 per person, with 10 guests minimum. For ongoing eating, weekly meal prep sends a chef to your kitchen to shop, cook and portion a full week from AED 1,898 per week, or AED 2,698 for a larger household or a wider menu. If you want healthy food delivered tonight by an app, a delivery platform will serve you better than we will.",
+    "Is there a myCHEF app?",
+    "No. There is no healthy food app to download and no menu to tap through. Booking runs by message, WhatsApp or the enquiry form, and a written itemised proposal comes back. If an app-based lunch is what you are after, this is not it.",
+    "Can you make healthy cakes?",
+    "Yes, as part of a booking. A chef can bake a lower-sugar celebration cake, or build a dessert course around fruit, nuts, yoghurt and dark chocolate instead of buttercream and syrup. Healthy cakes in Dubai are a common request for birthdays and baby showers, and it is easier to hit when the same chef is already writing the rest of the menu. We are a catering and private chef service, not a bakery, so a cake sits inside a booking, not as a standalone order.",
+    "Do you do healthy breakfast catering?",
+    "Yes. A healthy breakfast in Dubai usually means eggs cooked to order, labneh and za'atar, overnight oats, chia and yoghurt bowls, fruit, and good coffee, not a tray of pastries. It runs as a drop-off from AED 90 per person or as a staffed morning buffet from AED 120, and it is one of the easier meals to keep genuinely light.",
+    "What is the minimum number of guests?",
+    "Ten guests for drop-off, working lunches and other volume formats, and 20 for a buffet, with a minimum order value of AED 900. A private chef cooking and serving on site has no minimum headcount, so a dinner for two is a normal booking at the AED 700 to AED 950 per person rate.",
+    "Is the food genuinely healthy, or just smaller portions?",
+    "It is built to be balanced, not shrunk: lean proteins, plenty of vegetables, whole grains and lighter cooking methods, with dressings and sauces served on the side so each guest controls their own. If you want it, the chef will align the menu to calorie, macro or low-sugar targets.",
+    "Can the menu handle dietary needs and allergies?",
+    "Every healthy menu is built to your table. Vegetarian, vegan, halal, gluten-free, dairy-free and nut-free versions of each dish are planned in from the first draft, not added later, and allergens are tracked from prep to plate.",
+    "Which areas of Dubai do you cover?",
+    "Chefs travel across the emirate, including Palm Jumeirah, Dubai Marina, Downtown, Emirates Hills, Dubai Hills, Jumeirah, Arabian Ranches and Business Bay, for homes, villas, offices, yachts and private venues. We have no restaurant, mall unit or airport counter anywhere in Dubai; the chef comes to your address."
+   ],
+   "insert_after_block": "A Taste of Our Healthy Catering",
+   "position": "after the block titled 'A Taste of Our Healthy Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  },
+  {
+   "new_heading": "Why book healthy catering with myCHEF?",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you set the goal, the team carries the work. No chef is offered before clearing identity checks, a practical cooking assessment, reference verification and ongoing performance reviews , which is a continuing standard, not a one-time tick. We are honest about the limits of that: no vetting removes every risk, so each event is matched to the chef whose cooking fits it. For balanced, produce-led cooking that is often Marco Rossi , an independent partner chef whose Italian and Mediterranean background is built on lean proteins, olive oil, vegetables and lighter technique. MyCHEF has delivered villa weddings, yacht celebrations and corporate galas across Dubai. Bookings carry. We do not publish star ratings or testimonials on this page, because we would sooner show you the prices and the case notes and let you decide."
+   ],
+   "insert_after_block": "Healthy Catering Questions",
+   "position": "after the block titled 'Healthy Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  }
+ ],
+ "faq": []
+}

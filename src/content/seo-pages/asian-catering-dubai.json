@@ -1,0 +1,312 @@
+{
+ "url": "/asian-catering-dubai",
+ "keyword_strategy": {
+  "main_keyword": "asian catering dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 13,
+  "subkeywords_carried": 10,
+  "coverage_percent": 77,
+  "subkeywords_carried_list": [
+   "indian catering dubai",
+   "asian food catering dubai",
+   "best asian catering dubai",
+   "asian catering dubai menu",
+   "asian catering dubai price",
+   "small party catering dubai",
+   "asian catering dubai near me",
+   "asian catering dubai price list",
+   "chinese food catering dubai",
+   "asian restaurant near me halal"
+  ],
+  "subkeywords_not_carried": [
+   "paprika catering dubai",
+   "asian finger food recipes",
+   "is asian market cafe halal"
+  ],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Pan-Asian Catering Dubai | Menus & Prices | myCHEF",
+  "meta_description": "Pan-Asian catering in Dubai from AED 700pp — sushi and sashimi and more, with vetted chefs and full service. Bespoke menus for any event. Get a quote.",
+  "h1": "Asian Catering in Dubai — Menus, Prices and What's Included"
+ },
+ "opening_paragraph": [
+  "Asian catering in Dubai from myCHEF is priced from AED 90 per person delivered, or AED 700 with a chef cooking on site. The menu covers sushi, dim sum, Thai curries and wok live stations. A vetted chef cooks it on site, designs your menu with you, serves your guests and clears everything away.",
+  "Whether you want a sushi counter at a marina villa, a live noodle station at a corporate launch, or a full pan-Asian banquet for a wedding, myCHEF matches you with the right specialist and runs the evening end to end. Send your date, guest count and venue, and you will have an itemised proposal promptly during our published business hours."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "What Our Asian Catering Includes",
+   "match_confidence": 0.79,
+   "new_heading": "What does Asian catering in Dubai include?",
+   "new_paragraphs": [
+    "Asian catering includes menu design and tasting, a vetted private Asian chef cooking on site, front-of-house service staff where needed, plating, and full setup and cleanup. One team runs the event from arrival to the last cleared plate. \"Asian\" here is pan-Asian: Japanese, Chinese, Thai, Vietnamese, Korean and South-East Asian dishes drawn together into one coherent menu. Our asian catering services in Dubai cover every format, from a private dinner for six to a large event buffet. Because it is chef-led, not a reheated tray of asian food, catering quality holds from the first canapé to the final dessert. Everything is prepared fresh to your brief, with dietary needs, spice levels and presentation agreed in advance so nothing is left to guesswork on the day."
+   ]
+  },
+  {
+   "block_on_your_page": "A Taste of Our Asian Catering",
+   "match_confidence": 0.71,
+   "new_heading": "Why choose myCHEF for Asian catering",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you own the evening, we carry the work. MyCHEF is implementing a structured partner verification standard across its chef network, covering identity, trade licensing and permitted activities, food-safety and food-handler records, and references ; some stages are in place and the rest are being rolled out as part of a continuing review. We are honest about it, too: no system removes every risk, so we match each event to the chef well suited to it, which is what makes us a dependable Asian catering choice in the city.",
+    "For a refined Asian brief, that might be Ahmed Al-Rashid , who brings 18+ years across Dubai, London and Paris and applies classical fine-dining technique to pan-Asian menus, with every course timed, seasoned and plated to exacting standards, built in collaboration with the host. We have run asian catering alongside villa weddings, yacht celebrations and corporate galas across Dubai. Client reviews are published only as events are delivered."
+   ]
+  },
+  {
+   "block_on_your_page": "Asian Catering Questions",
+   "match_confidence": 0.76,
+   "new_heading": "Asian catering menu and options",
+   "new_paragraphs": [
+    "Your Asian menu in Dubai is built around signature dishes and tailored to your guests. Popular choices include sushi and sashimi, dim sum and steamed bao, Thai green and red curries, pad thai and wok noodles, Korean fried chicken, satay skewers, bao sliders, and dessert options such as mochi and mango sticky rice. Every menu is bespoke: choose a single-cuisine focus (all-Japanese, all-Thai) or a true pan-Asian spread. Dietary versions are no trouble: vegan, vegetarian, gluten-free, dairy-free and nut-free dishes sit naturally within Asian cooking, and halal Asian menus are available on request. The chef balances familiar crowd-pleasers with a few refined plates so the menu feels considered, not generic. Portion counts, spice levels and plating style are all agreed at the tasting stage, so what you approve is exactly what your guests are served."
+   ]
+  },
+  {
+   "block_on_your_page": "Catering Across Dubai",
+   "match_confidence": 0.88,
+   "new_heading": "Asian catering across Dubai",
+   "new_paragraphs": [
+    "We provide Asian catering across every part of Dubai, bringing the chef and full setup to your address. That includes Palm Jumeirah, Dubai Marina, JBR, Downtown, Business Bay, DIFC, Emirates Hills, Arabian Ranches, Jumeirah and the wider city, plus yachts, beaches and desert venues. Wherever you are, the same standard applies: a vetted chef, fresh cooking on site, and a clean handover. Explore related menus — Sushi and Healthy — or see all cuisines and sample menus . Planning a full event? Start at catering in Dubai ."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "One Continent, Endless Flavour",
+  "From Wok to Counter",
+  "Plan Your Asian Feast",
+  "Explore myCHEF Dubai",
+  "Asian Catering for Every Occasion"
+ ],
+ "add_block": [
+  {
+   "new_heading": "Asian catering for weddings, corporate events and parties",
+   "new_paragraphs": [
+    "Asian catering suits weddings, corporate events and parties equally well because the food is interactive, colourful and scales cleanly. For weddings and engagements, a pan-Asian banquet or sushi and dumpling stations give guests something memorable to gather around. Corporate Asian catering in Dubai works for office lunches, product launches and gala dinners, where a live wok or ramen station doubles as entertainment and a talking point. For an asian party catering brief such as birthdays, pool days or house celebrations, grazing platters, bao buns and skewers keep the mood relaxed. We handle asian catering for events of every size, matching staffing and menu depth to your guest count. Tell us the occasion and we shape the format, whether that is elegant plated courses, a flowing buffet, or hands-on live stations that let guests watch each dish come together."
+   ],
+   "insert_after_block": "What Our Asian Catering Includes",
+   "position": "after the block titled 'What Our Asian Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "The Asian catering menu, course by course",
+   "new_paragraphs": [
+    "Below is the working list the specialist chefs we work with build from. Chinese, Thai, Japanese, Korean and Vietnamese are kept as named sections, not blended into one \"Asian\" bucket, because a panang curry and a miso nasu shigiyaki are not interchangeable and a buyer can tell. A typical Dubai buffet takes three to five cold starters, one soup, three or four hot appetisers, two or three noodle and rice dishes, two to four mains drawn across the national sections, and two desserts; live stations are chosen on top of that. Small party catering in Dubai runs from 10 guests, and a buffet line needs 20. Dishes are written out the way a restaurant menu writes them, with the composition stated, so you approve the plate, not the category. That specificity is the honest test of the best Asian catering in Dubai: a caterer who writes \"Thai curry\" has not decided which curry yet.",
+    "Cold starters and Asian salads",
+    "The opening spread, served cold and plated or set out before anything hot arrives. Choose three to five.",
+    "Thai papaya salad, pounded to order with chilli, lime and palm sugar",
+    "Thai larb gai — spicy minced chicken salad with toasted rice powder, mint and lime",
+    "Raw Thai citrus crunch salad with clementine",
+    "Thai noodle and Asian vegetable salad",
+    "Japanese goma salad in a toasted sesame dressing",
+    "Togarashi miso green bean salad",
+    "Sichuan bang bang protein salad",
+    "Asian slaw; bean sprout and cucumber salad",
+    "Beetroot and seaweed salad",
+    "Quinoa and edamame salad",
+    "Five-spiced salad with mushroom and carrot",
+    "Three-pepper Vietnamese salad with dehydrated nori and couscous",
+    "Teriyaki-glazed salad with asparagus",
+    "Asian protein and mango salad; pineapple, bamboo shoot and pepper salad",
+    "Black somen noodle salad, spicy peanut sauce, panko chicken",
+    "Rare teriyaki beef, udon noodles, pickled Japanese vegetables, fried onion, bonito dressing",
+    "Beef sirloin, pickled papaya, Asian greens, aromatic herb salad, nahm jim dressing",
+    "Soups",
+    "One or two on a buffet, or a single soup course on a plated menu. The thicker Thai and Chinese soups hold well in a station pot; the clear broths do not, so those are served from the pass.",
+    "Tom yum, and tom kha kai with coconut and galangal",
+    "Hot and sour soup; Manchow soup",
+    "Laksa soup; miso tofu soup",
+    "Lemon, coriander and glass-noodle broth",
+    "Mushroom, ginger and spinach broth",
+    "Sweetcorn clear soup; crab-stick soup",
+    "Dim sum and steamed bites",
+    "Better sold as its own bamboo-steamer station than as a chafing dish, because dim sum sits badly on a buffet line for more than a few minutes. Note the Dubai adaptation: shui mai is folded with chicken and char siu bao is made with barbecue chicken, so the section is halal by design, not by quiet omission.",
+    "Har gau — prawn dumpling in a translucent wrapper",
+    "Chicken shui mai",
+    "Char siu bao — barbecue chicken in a steamed bun",
+    "Chinese roast chicken bao bun",
+    "Gyoza, chicken or beef, steamed then crisped on one side",
+    "Steamed dumplings, and a vegetarian dim sum platter",
+    "Spring rolls served alongside as a combined dim sum and bao section",
+    "Hot appetisers, fried and skewered",
+    "Four to eight of these, and the same items double as the canapé tier for a standing reception.",
+    "Spring rolls — vegetable, cheese or chicken; butter chicken spring rolls",
+    "Chicken Manchurian bites; vegetable Manchurian balls",
+    "Chicken Shanghai; Shanghai fish bites",
+    "Schezwan chicken popcorn; sesame chicken fingers",
+    "Cottage cheese kung pao; hoisin barbecue chicken",
+    "Chicken teriyaki and yakitori",
+    "Chicken karaage — ginger, sesame, sweet miso",
+    "Tempura — vegetable, shrimp or lobster",
+    "Bang bang calamari; calamari tossed with sesame and soy",
+    "Dynamite shrimp; sambal terasi prawns; sesame fired prawns",
+    "Tofu dynamite; truffle edamame",
+    "Kushiyaki skewers — beef, lamb or mushroom",
+    "Chicken satay with peanut sauce — read the dietary note below before putting this on a mixed-group menu",
+    "Sushi, sashimi and the raw bar",
+    "A sushi set runs eight to ten roll types plus two to four nigiri and sashimi items. Rolled ahead for a boxed platter, or cut to order at a manned counter — the counter is a different product and is quoted as a station. The raw bar is also the one setup that goes anywhere in Dubai without a permission question: villa dining room, apartment, terrace, open public beach or yacht deck all take it, because there is no flame, no fuel and no extraction to approve. What it does need is cold chain. The fish is cut in the licensed kitchen, moved temperature-controlled and held on ice under shade, and outdoors between May and September that holding window, not the venue, is what decides how long the counter can run.",
+    "California roll and super California; spicy tuna; spicy salmon",
+    "Alaska roll; rainbow roll; dragon roll; Neptune roll",
+    "Kappa maki; sweet potato roll; crunchy crazy roll",
+    "Samurai roll; rock 'n' roll; sushi sandwich",
+    "Musashimaru sake, the Musa salmon roll",
+    "Forbidden roll, made on black sushi rice",
+    "Beef tataki roll; tempura prawn roll; salmon avocado roll",
+    "Uramaki — tuna, scallop, wagyu or duck",
+    "Nigiri — sake, tuna, kingfish, seabass, prawn",
+    "Take sashimi — tuna, whitefish, salmon, squid, steamed octopus, crabstick",
+    "Salmon sashimi; seabass ceviche",
+    "Noodles and rice",
+    "At least one noodle and one rice on every buffet. Noodles are the usual failure point of this cuisine on a buffet, so they are cooked in batches against the service timeline instead of being held from the start.",
+    "Pad thai; pad see ew; Thai drunken noodles with shrimp; kimchi phad thai",
+    "Hakka noodles; Hong Kong noodles; Singaporean noodles, and a vegan Singaporean version",
+    "Soy ginger flat noodles; chopsuey",
+    "Pancit canton; pancit bihon with chicken, lamb or shrimp",
+    "Jasmine rice; fried rice; coconut rice",
+    "Salt and pepper tofu bokkeumbap",
+    "Japanese donburi bowl; Korean vegan bibimbap",
+    "Chinese mains",
+    "Two to four selected. Each line carries its protein variants, so the vegetarian version sits on the same line as everything else, not in a separate afterthought section.",
+    "Sweet and sour — lamb, beef, chicken, fish or vegetable",
+    "Kung pao — chicken or vegetable",
+    "Manchurian in the saucy style — chicken or vegetable",
+    "Schezwan — chicken, fish or vegetable",
+    "Hunan; chilli — beef, chicken or fish",
+    "Oyster sauce — beef, chicken, fish or vegetable",
+    "Mapo tofu",
+    "Stir-fried Chinese greens in garlic pepper",
+    "Stir-fried wild mushroom in black bean sauce",
+    "Char siu grilled chicken; Peking-style duck served with pancakes",
+    "Thai mains",
+    "Two or three selected, with the heat level agreed at the tasting instead of assumed.",
+    "Thai green curry; Thai red curry",
+    "Massaman curry; panang curry",
+    "Pad kra pao, the holy basil stir-fry",
+    "Poached fish in Thai lemon chilli",
+    "Stir-fried seafood with Thai red curry",
+    "Stir-fried potato with scallions",
+    "Japanese, Korean and Vietnamese mains",
+    "Katsu curry, and a vegetarian Japanese katsu curry",
+    "Miso-glazed steamed fish",
+    "Miso nasu shigiyaki — aubergine, sesame, sweet miso",
+    "Stir-fried bok choy, lotus root and edamame in yuzu ponzu",
+    "Yakitori; Japanese kushiyaki — beef, lamb, mushrooms",
+    "Japanese vegetable donburi bowl",
+    "Grilled sambal chicken",
+    "Vietnamese turmeric grilled fish",
+    "Korean bulgogi and bibimbap",
+    "Live stations",
+    "One to three stations is the usual choice. A station only earns its cost when there is real theatre in it, so each of these is made in front of guests, not plated behind a screen. Stations depend on venue power, gas and ventilation clearance, and on the assigned culinary partner confirming both the equipment and the specialist chef for your date — that is checked before a station goes into your proposal.",
+    "Sushi and sashimi counter — maki, uramaki, nigiri and sashimi cut to order by a sushi chef",
+    "Dim sum steamer station, folded and steamed to order",
+    "Bao station; gyoza station",
+    "Wok station — Hakka noodles, fried rice, stir-fry and chow mein over high-output burners",
+    "Teppanyaki noodle bar on a flat-top grill",
+    "Hawaiian poke bowl bar, built to each guest's order from a chilled display",
+    "Vietnamese pho station; Tibetan thukpa station",
+    "Interactive hot pot — guests pick proteins, vegetables, noodles, sauces, rice and broth and cook at the table",
+    "Sides, sauces and condiments",
+    "The sauce list is written out, not left as \"assorted sauces\", because the sauce is where most of the dietary questions sit.",
+    "Stir-fry vegetables; tossed vegetables; edamame; steamed rice",
+    "Sweet chilli; Thai chilli; sesame soy; spicy mayo; coriander mint chutney",
+    "Desserts and drinks",
+    "Mango sticky rice; mochi",
+    "Matcha and coconut desserts; coconut sticky toffee",
+    "Coconut milk mango chia pudding, or the same served as a shooter",
+    "Fresh fruit cuts",
+    "Lemongrass iced tea; jasmine tea; black and green tea; tropical green fresh juice",
+    "Formats this menu is served in",
+    "The same list is built into a buffet, a plated multi-course menu, a canapé tier where maki, nigiri and sashimi sit on a spoon, glass or cucumber shell, bento boxes for boardroom lunches, or boxed sushi platters for drop-off. Presentation hardware — sushi boats and bridges, ceramic soy dishes, sharing plates and chopsticks — is quoted as a named add-on, so you can see whether it is in the number or not.",
+    "Halal and dietary notes on this menu",
+    "Every section above is built halal from the start: no pork anywhere, chicken shui mai and barbecue-chicken char siu bao in place of the versions most guests know, and a halal Japanese pantry using alcohol-free mirin and cooking sake. That substitution changes how a teriyaki reduces, which is why it is agreed with the chef in advance, not left to the day. Vegetarian and vegan guests are unusually well served by this cuisine — mapo tofu, Korean vegan bibimbap, kimchi phad thai, salt and pepper tofu bokkeumbap, Japanese vegetable donburi and vegetable katsu curry are all full dishes, not side plates. Two ingredients need naming out loud: satay and the spicy peanut sauces carry nuts, and soy sauce, tempura batter and most wheat noodles carry gluten.",
+    "Gluten-free, nut-conscious and other dietary menu options may be available on request, subject to confirmation by the assigned culinary partner. Partner kitchens may handle allergens, and cross-contact cannot be completely excluded unless dedicated controls have been specifically confirmed for the booking. Guests with allergies must provide full details before confirming their event.",
+    "Running more than one cuisine across a multi-day celebration? Indian catering in Dubai and sushi catering are handled by the same team and quoted on one proposal."
+   ],
+   "insert_after_block": "Asian Catering Questions",
+   "position": "after the block titled 'Asian Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How is Asian catering served in Dubai?",
+   "new_paragraphs": [
+    "Asian catering is served three ways in Dubai: plated, buffet, or interactive live stations, and the format is chosen around your venue and event. Live stations are where Asian cuisine shines. A sushi counter, a wok station or a ramen bar becomes part of the entertainment, with the chef cooking to order in front of guests. Buffets and grazing tables work well for relaxed gatherings and larger numbers, while plated multi-course service suits formal dinners and weddings. For homes and villas we bring everything needed, working cleanly around your kitchen; asian home catering leaves your space exactly as we found it. On yachts, rooftops and desert setups we plan the logistics of power, prep space and timing in advance. Whichever format you choose, service, equipment and cleanup are included so you host without lifting a finger."
+   ],
+   "insert_after_block": "Asian Catering Questions",
+   "position": "after the block titled 'Asian Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How much does Asian catering in Dubai cost?",
+   "new_paragraphs": [
+    "Asian catering in Dubai prices in two bands, and which one applies depends on whether you are buying the food or the chef. Delivered and buffet formats start from AED 90 per person for a working lunch, AED 120 for a standard event buffet, and AED 150 for a premium buffet or a live wok, ramen or sushi station. A chef cooking and serving on site — plated courses, or a counter worked in front of your guests all evening — is AED 700 to 950 per person, with a tasting menu and pairings from AED 1,400. Asian catering prices scale with the extras you choose, such as premium seafood, presentation hardware, or additional chefs and servers. Package options keep budgeting clear, and we quote every event as an itemised proposal so there are no surprises. Whether you want affordable Asian catering for a casual gathering or a luxury Asian catering experience for a landmark event, we build to your budget and tell you honestly what each tier delivers. For a full breakdown of what drives asian catering cost in Dubai, see our Dubai catering price guide or request an itemised quote for your date.",
+    "Asian catering price list",
+    "This is the published starting price for each format, so you can place your event before you enquire. The minimum order is AED 900, which is ten guests on the entry tier, and 5% VAT is added to the total.",
+    "Format From, per person Minimum guests What it suits",
+    "Drop-off — boxed sushi, bento, platters AED 90 10 Office lunches, informal gatherings",
+    "Standard event buffet AED 120 20 Birthdays, house parties, receptions",
+    "Premium buffet or live wok, ramen and sushi stations AED 150 20 Launches, weddings, milestone events",
+    "Plated, chef cooking and serving on site AED 700 none Dinner parties, private dining",
+    "Premium plated menu AED 950 none Formal dinners, fine dining at home",
+    "Tasting menu with pairings AED 1,400 none Landmark occasions"
+   ],
+   "insert_after_block": "Asian Catering Questions",
+   "position": "after the block titled 'Asian Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How to hire Asian catering in Dubai",
+   "new_paragraphs": [
+    "To hire Asian catering in Dubai, share three things: your date, guest count and venue. We match you with a vetted chef whose strengths fit your brief, then send an itemised proposal, usually within one business day. You approve the menu (a tasting is available for larger events), we confirm dietary needs and timings, and on the day the chef and any service staff arrive with everything required. If you have searched \"asian catering near me\" and want a caterer who turns up on time, cooks fresh and cleans up, this is the process. As an established Asian catering company covering all of Dubai, we handle single dinners and recurring corporate bookings alike. There is no obligation in getting a quote. Tell us what you are planning and we will point you to the right option for your budget, honestly."
+   ],
+   "insert_after_block": "Asian Catering Questions",
+   "position": "after the block titled 'Asian Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning asian catering step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your asian catering proposal arrives.",
+    "Book as early as you can. As guidance, standard catering packages want about 72 hours , live cooking stations and multi-staff events 3–5 days , and weddings or complex corporate productions 7–14 days or more.",
+    "Confirm the menu for asian catering some 7 days ahead, once numbers stop moving.",
+    "Ask anyway if your date is sooner. We recommend booking as early as possible. Lead times depend on guest numbers, menu complexity, staffing, equipment, location and partner availability. A asian at short notice is sometimes workable - availability is confirmed individually, never assumed.",
+    "Ask for dietary covers at the asian catering briefing stage instead of within 48 hours .",
+    "Check parking and lift access; your asian catering team is on site some 2 hours early.",
+    "Plan on roughly 3 hours of asian catering service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": "Asian Catering for Every Occasion",
+   "position": "after the block titled 'Asian Catering for Every Occasion'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which asian catering format suits your event?",
+   "new_paragraphs": [
+    "Format Service staff Guests it suits Indicative cost",
+    "Drop-off None 10 and above, informal From AED 90 per person",
+    "Buffet 1–2 20–60 From AED 120 per person",
+    "Live stations 2–4 20 and above From AED 150 per person",
+    "Plated service, chef on site 3 and above 2–40 seated AED 700–950 per person"
+   ],
+   "insert_after_block": "Asian Catering for Every Occasion",
+   "position": "after the block titled 'Asian Catering for Every Occasion'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "More on asian catering dubai",
+   "new_paragraphs": [
+    "Birthday package catering dubai",
+    "Picnic catering dubai",
+    "Corporate catering",
+    "Anniversary catering dubai",
+    "Get an itemised quote"
+   ],
+   "insert_after_block": "Asian Catering for Every Occasion",
+   "position": "after the block titled 'Asian Catering for Every Occasion'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  }
+ ],
+ "faq": []
+}

@@ -1,0 +1,234 @@
+{
+ "url": "/events",
+ "keyword_strategy": {
+  "main_keyword": "event catering dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 16,
+  "subkeywords_carried": 14,
+  "coverage_percent": 88,
+  "subkeywords_carried_list": [
+   "small event catering dubai",
+   "buffet catering dubai",
+   "cheap event catering dubai",
+   "finger food catering dubai",
+   "wedding event catering dubai",
+   "affordable catering services in dubai",
+   "how much does it cost to cater an event",
+   "party catering dubai",
+   "how to cater an event",
+   "what is event catering",
+   "event catering menu ideas",
+   "best party catering dubai",
+   "cheapest way to cater an event",
+   "best small party catering dubai"
+  ],
+  "subkeywords_not_carried": [
+   "restaurant event dubai",
+   "la parisienne catering event dubai"
+  ],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Event Catering Dubai | from AED 120 per person | myCHEF",
+  "meta_description": "Event catering in Dubai from AED 120 per person for a buffet, or AED 700 with a chef cooking on site. Vetted chefs, full service. Request an itemised proposal from myCHEF.",
+  "h1": "Event Catering in Dubai — What It Costs and How to Book"
+ },
+ "opening_paragraph": [
+  "myCHEF arranges full-service event catering in Dubai from AED 120 per person for a buffet, or from AED 700 with a chef cooking and serving on site. It covers weddings, product launches, galas and milestone dinners. A vetted chef and a small brigade own the menu, the pass, the setup and the cleanup, so the host stays a guest instead of kitchen staff. Tell us the date, the guest count and the venue, and we typically reply within 15 minutes during business hours, with an itemised proposal to follow built around your evening — not a copy-paste menu. The result is food people remember, and an evening you never had to leave the room to manage."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "How does booking event catering in Dubai work?",
+   "match_confidence": 0.75,
+   "new_heading": "How to hire event catering in Dubai",
+   "new_paragraphs": [
+    "To hire event catering in Dubai, send your date, guest count and venue and we typically reply within 15 minutes during business hours, with an itemised proposal to follow — usually confirmed within one business day. From there it is four steps: a short brief on your occasion and taste, a menu proposal (with a tasting for larger events), a confirmed chef and team matched to the food, then delivery on the day while you host. As an events catering company Dubai hosts can reach directly, we keep one contact across the whole job, so there is no handoff between sales and kitchen. Booking early helps in peak season, but we take shorter timelines where the calendar allows. When you are ready to hire , share the essentials and the proposal follows."
+   ]
+  },
+  {
+   "block_on_your_page": "What is included in event catering in Dubai?",
+   "match_confidence": 0.7,
+   "new_heading": "More on event catering in Dubai",
+   "new_paragraphs": [
+    "Buffet catering dubai",
+    "Corporate catering",
+    "Graduation catering dubai",
+    "Birthday catering dubai",
+    "Get an itemised quote",
+    "Valentines day catering dubai",
+    "Easter catering dubai",
+    "Chinese new year catering dubai",
+    "Mothers day catering dubai",
+    "Baby shower catering dubai",
+    "Beach catering dubai",
+    "Desert dining catering dubai",
+    "Bar services catering dubai"
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "What do myCHEF Dubai events look like?",
+  "Your event could be our next featured celebration",
+  "What other catering services does myCHEF Dubai offer?",
+  "Which other events can myCHEF Dubai cater?",
+  "Explore myCHEF Dubai",
+  "Frequently asked questions about event catering in Dubai",
+  "Ready to book event catering in Dubai?",
+  "What events can myCHEF Dubai cater?"
+ ],
+ "add_block": [
+  {
+   "new_heading": "Event catering for corporate events, parties and weddings",
+   "new_paragraphs": [
+    "Whether it is a boardroom lunch, a birthday or a black-tie reception, the same team adapts the format to the occasion. Corporate events catering Dubai companies rely on runs to the clock — conference breaks, seated award dinners, product launches where the food has to land between speeches — and we plan around your agenda, not ours. For celebrations, our events party catering Dubai setups swing from a relaxed villa barbecue to a styled cocktail reception with canapés passed on trays. Weddings get their own care: tastings, dietary mapping across the guest list, and a chef who times the mains to the speeches. Explore weddings , gala dinners , corporate events , parties , product launches and exhibitions to see how each format is built."
+   ],
+   "insert_after_block": "What events can myCHEF Dubai cater?",
+   "position": "after the block titled 'What events can myCHEF Dubai cater?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Your events menu and options",
+   "new_paragraphs": [
+    "Every events menu Dubai guests sit down to is designed for your event, not pulled off a fixed list. Start from a service style — passed canapés, grazing tables, a live cooking station, a plated three-course dinner or a generous buffet — and the chef builds the dishes around your cuisine, your season and your crowd. As an events food catering Dubai partner we cover Arabic mezze and grills, Italian and Mediterranean, Indian, pan-Asian and modern European, and we map every allergy and preference before the day: halal by default, plus vegan, vegetarian, gluten-free and nut-free tracks that taste like they were meant to be on the menu, not bolted on. Prefer to keep it simple? Ready-made catering packages bundle popular menus at a set price per head, and you can still swap courses to suit the room."
+   ],
+   "insert_after_block": "What events can myCHEF Dubai cater?",
+   "position": "after the block titled 'What events can myCHEF Dubai cater?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Styling, service staff and logistics",
+   "new_paragraphs": [
+    "Great food fails without the operation around it, so the logistics are part of the job, not an afterthought. We bring uniformed service staff — servers, a bar team and floor support — sized to your guest count and briefed on the run of the night. Styling covers table settings, grazing displays and live-station theatre, coordinated with your venue or planner so nothing clashes. On the practical side we handle equipment hire, power and water needs, timing sheets, and food-safe transport and holding, whether you are in a Downtown penthouse, a Palm villa or a desert camp. Because the private events chef Dubai families and companies book stays across the whole event, decisions get made on the spot instead of escalated. You get one plan, one team and one number to call — from the first delivery to the moment the last tray leaves."
+   ],
+   "insert_after_block": "What events can myCHEF Dubai cater?",
+   "position": "after the block titled 'What events can myCHEF Dubai cater?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What is the cheapest way to cater an event in Dubai?",
+   "new_paragraphs": [
+    "Drop-off. It is the cheapest way to cater an event because you are paying for food and packaging and nothing else: no service staff, no equipment hire, no chef on site. Volume drop-off starts at AED 90 per person for a working or office lunch, with a 10-guest minimum and a minimum order value of AED 900. The next step up is a standard event buffet from AED 120 per person, which adds presentation and a small team to set it out and keep it stocked, and needs 20 guests. Premium buffet, BBQ, live stations and canapé receptions start at AED 150. Cheap event catering in Dubai goes wrong in the same three places every time, so it is worth naming them: a price quoted without VAT, a headcount minimum discovered after you commit, and staffing charged as an extra line once the venue turns out to need it. Every figure on this page carries 5% VAT on top and states its minimum, so you can compare it against anything else you have been sent.",
+    "Three things cut the bill without cutting the food. Serve fewer dishes in larger quantity — a six-item buffet done properly beats a twelve-item one spread thin, and it costs less. Move the event off a peak Friday or Saturday in the November-to-March window. And choose one format instead of layering three: passed canapés and a buffet and a dessert station is where budgets quietly double."
+   ],
+   "insert_after_block": "Frequently asked questions about event catering in Dubai",
+   "position": "after the block titled 'Frequently asked questions about event catering in Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Small event catering in Dubai — the minimums, stated plainly",
+   "new_paragraphs": [
+    "Small event catering in Dubai has one question behind it: will anyone take the booking. The answer here is 10 guests for drop-off, platters and working-lunch formats, 20 guests for a buffet, and a minimum order value of AED 900 whichever you choose. A private chef cooking plated at your table carries no minimum headcount at all, which is why a dinner for six or eight is usually better served that way than by a scaled-down buffet — the food is cooked to order in the room, and nobody is maintaining a chafing dish for eight people. For a small party of twenty to forty, the format that works most often is a grazing table plus one live station: it fills the room visually, it needs a smaller team than plated service, and it gives guests a reason to move around. Best small party catering in Dubai is usually the simplest version, not the most elaborate one."
+   ],
+   "insert_after_block": "Frequently asked questions about event catering in Dubai",
+   "position": "after the block titled 'Frequently asked questions about event catering in Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Event catering menu ideas that actually work in a Dubai room",
+   "new_paragraphs": [
+    "Here are event catering menu ideas by format, taken from menus myCHEF has run rather than from a template. Pick one line as the spine of the evening and build outward from it.",
+    "Finger food catering, Dubai corporate style. Finger food is what a standing room needs: one filling on one base, eaten in a single bite with a drink in the other hand. Kibbeh balls stuffed with hummus, halloumi dippers with pesto, mini shawarma wraps, vine-leaf shooters, beef sliders, tomato and basil crostini, prawn skewers, and a sweet tray of mini kunafa and date bites. Twelve pieces per variety is the practical minimum, and six to ten pieces per guest replaces a meal.",
+    "Grazing table. Mezze-led and built to be looked at: hummus, moutabel, muhammara and labneh, cheese and zaatar manakish, falafel, halloumi, olives, dried fruit and warm breads, with cheese and charcuterie at one end. It scales from 25 guests upward and needs no service staff once it is set.",
+    "Buffet for a mixed guest list. Five or six cold mezze, three hot mezze, one charcoal-grill section, two mains — a rice-and-meat centrepiece such as chicken mandi or lamb kabsa alongside a vegetarian main — and two desserts. Halal by default, with the vegan and gluten-free items sitting on the main line rather than on a separate table.",
+    "Live stations. A shawarma or mixed-grill station outdoors in the cooler months, a pasta or wok pan indoors, a saj or manakish station for a daytime event, and a kunafa or loukoumades station late on. One station per fifty guests keeps the queue moving.",
+    "Plated, chef on site. Three to five courses timed to the run of the evening: a canapé on arrival, a starter, a fish or vegetable course, a centrepiece main carved or plated, then dessert with coffee. This is the format that needs a chef in the room and prices at AED 700–950 per person."
+   ],
+   "insert_after_block": "Frequently asked questions about event catering in Dubai",
+   "position": "after the block titled 'Frequently asked questions about event catering in Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Why myCHEF",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you own the evening, we carry the work. That standard starts with who we let near your guests. Every chef working on event catering has cleared identity checks, a practical cooking assessment, reference verification and ongoing performance reviews — a continuous bar, not a one-time tick. And we stay honest about it: no system removes every risk, so we match each event to the right chef for it.",
+    "For an occasion like this, that might be Ahmed Al-Rashid , who brings 18+ years across Dubai, London and Paris in classical French technique. He treats a menu as a conversation with the host: every course timed to the speeches and the toasts, seasoned and plated to exacting standards. Our work spans event catering, villa weddings, yacht celebrations and corporate galas across Dubai — for one 120-guest launch in Business Bay, Ahmed's team ran passed canapés and two live stations to the minute, so the client never had to leave the floor. Eachlays out the brief, the cuisine, the execution and the outcome, so you can judge us on the work instead of the promise. We add client reviews as events are delivered: real feedback only, not fabricated. Comparing formats? See private chef vs catering and our full catering range."
+   ],
+   "insert_after_block": "How does booking event catering in Dubai work?",
+   "position": "after the block titled 'How does booking event catering in Dubai work?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning event catering step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your event catering proposal arrives.",
+    "Book about 72 hours ahead for a standard catering package, 3 to 5 days for live stations or multi-staff service, and 7–14 days for a wedding or large corporate function — guidance, not a fixed rule.",
+    "Confirm the menu for event catering some 7 days ahead, once numbers stop moving.",
+    "Ask for dietary covers at the event catering briefing stage instead of within 48 hours .",
+    "Check parking and lift access; your event catering team is on site some 2 hours early.",
+    "Plan on roughly 3 hours of event catering service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": "Ready to book event catering in Dubai?",
+   "position": "after the block titled 'Ready to book event catering in Dubai?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which event catering format suits your event?",
+   "new_paragraphs": [
+    "Format What it gives you Staffing Cost position",
+    "Drop-off Food delivered ready to serve None From AED 90 per person, 10 guests minimum",
+    "Buffet Presentation plus a maintained spread 1–2 From AED 120 per person, 20 guests minimum",
+    "Live stations and canapés Cooking in front of your guests 2–4 From AED 150 per person",
+    "Plated, chef on site Every course cooked and served by a chef 3 and above AED 700–950 per person"
+   ],
+   "insert_after_block": "Ready to book event catering in Dubai?",
+   "position": "after the block titled 'Ready to book event catering in Dubai?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Common questions",
+   "new_paragraphs": [
+    "How much does event catering cost in Dubai?",
+    "From AED 120 per person for a standard event buffet, AED 150 for premium buffet, BBQ, live stations or canapés, and AED 700–950 per person with a chef cooking and serving on site. Ready-made packages run AED 1,200 to 5,500, and a chef's tasting is AED 1,400.",
+    "What's included in event catering?",
+    "Included is menu design, a vetted chef, service staff where needed, all setup and full cleanup. Larger events add a bar team, styling and live stations.",
+    "How do I hire event catering in Dubai?",
+    "Share your date, guest count and venue; we send an itemised proposal, usually within one business day, then confirm a chef matched to your menu.",
+    "Do you cater corporate events, parties and weddings?",
+    "Yes — the same team handles corporate events, private parties and weddings, adapting the format from a plated gala dinner to a relaxed villa celebration.",
+    "Can you handle dietary requirements and halal menus?",
+    "Yes — menus are halal by default, with vegan, vegetarian, gluten-free and nut-free tracks mapped across your guest list before the day.",
+    "Where in Dubai do you provide event catering?",
+    "Across all of Dubai, from Palm Jumeirah and Emirates Hills villas to Downtown, the Marina, DIFC and desert venues, with the team and equipment travelling to you.",
+    "How far in advance should I book an events caterer in Dubai?",
+    "About 72 hours for a standard catering package, 3 to 5 days once live stations or multiple staff are involved, and 7 to 14 days for a wedding or a large corporate function. Short-notice requests are assessed individually against partner availability.",
+    "What is the cheapest way to cater an event?",
+    "Drop-off, because you pay for food and packaging and nothing else. It starts at AED 90 per person in Dubai with a 10-guest minimum and an AED 900 minimum order. A buffet from AED 120 is the next step up and adds presentation and a small team.",
+    "What is the minimum number of guests for event catering?",
+    "Ten guests for drop-off, platters and working-lunch formats, and twenty for a buffet, with a minimum order value of AED 900. A private chef cooking plated at your table has no minimum headcount, so a dinner for six is a real booking.",
+    "Do you do finger food catering in Dubai?",
+    "Yes. Finger food and canapés are priced from AED 150 per person as a premium volume format, built as one filling on one base — kibbeh balls, halloumi dippers, mini shawarma wraps, sliders, prawn skewers and sweet bites. Count six to ten pieces per guest to replace a meal.",
+    "For event catering, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements ."
+   ],
+   "insert_after_block": "Ready to book event catering in Dubai?",
+   "position": "after the block titled 'Ready to book event catering in Dubai?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How much does event catering cost in Dubai?",
+   "new_paragraphs": [
+    "Event catering costs from AED 700 per person, and the final events catering cost Dubai hosts pay moves with the specifics: how many guests sit down, how many courses land, and whether you want canapés passed on trays or a full seated service with waiters and styling. We don't pad the number or bury a fee in the small print — the events catering prices Dubai clients see are itemised line by line. Ready-made packages run at AED 1,200, 2,400, 3,600, 4,500 and 5,500, and a chef's tasting is AED 1,400. Underneath all of that sit the volume formats, which is where affordable catering services in Dubai actually live: a working or office lunch from AED 90 per person, a standard event buffet from AED 120, and a premium buffet, BBQ, live-station or canapé spread from AED 150. The AED 700 figure buys a chef cooking and serving in the room; the AED 120 figure buys the food, presented and maintained. Weigh it against our private chef prices and the catering price guide , then send your details for an itemised quote."
+   ],
+   "insert_after_block": "Frequently asked questions about event catering in Dubai",
+   "position": "after the block titled 'Frequently asked questions about event catering in Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  },
+  {
+   "new_heading": "Event catering across Dubai",
+   "new_paragraphs": [
+    "We serve the whole of Dubai, so searches for events catering near me land on one team that already knows the venues. From Palm Jumeirah and Emirates Hills villas to Downtown penthouses, Marina rooftops, DIFC boardrooms and desert camps beyond the city, the brigade travels with its own equipment and food-safe transport. That reach is the point: the same standard applies whether it is home catering for twelve or a several-hundred-guest function, and the travel is priced into the proposal instead of appearing later. Wherever the address, we scope access, power and timing in advance so the day runs clean."
+   ],
+   "insert_after_block": "Ready to book event catering in Dubai?",
+   "position": "after the block titled 'Ready to book event catering in Dubai?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  }
+ ],
+ "faq": []
+}

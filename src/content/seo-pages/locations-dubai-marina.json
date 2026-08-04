@@ -1,0 +1,177 @@
+{
+ "url": "/locations/dubai-marina",
+ "keyword_strategy": {
+  "main_keyword": "private chef dubai marina",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 4,
+  "subkeywords_carried": 4,
+  "coverage_percent": 100,
+  "subkeywords_carried_list": [
+   "full time private chef dubai",
+   "private chef dubai marina menu",
+   "private chef dubai marina price",
+   "female private chef dubai marina"
+  ],
+  "subkeywords_not_carried": [],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Private Chef Dubai Marina | Villa Dining & Catering | myCHEF",
+  "meta_description": "Private chef & catering in Dubai Marina from AED 700pp — villa dining, events and bespoke menus with vetted chefs. Serving Marina Walk apartment towers. Request a proposal.",
+  "h1": "Private Chef Dubai Marina: Villa Dining & Catering — What It Costs and How to Book"
+ },
+ "opening_paragraph": [
+  "A private chef in Dubai Marina brings restaurant-grade cooking to your apartment, penthouse or chartered yacht, with private dining from AED 700 per person. myCHEF matches you with a vetted chef who plans the menu around your evening, cooks in your kitchen, serves each course and leaves the place spotless. We typically reply within 15 minutes during business hours, with a chef match to follow and an itemised proposal."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "Who books private chef and catering in Dubai Marina",
+   "match_confidence": 0.74,
+   "new_heading": "How much does a private chef cost in Dubai Marina?",
+   "new_paragraphs": [
+    "From AED 700 per person for larger groups, with smaller tables costing more per head. Dubai Marina private chef cost scales with the size of the table: a dinner for two sits nearer AED 950–1,300 per head, six guests around AED 750–1,000, and ten or more from AED 700. The number covers the chef, the menu, the cooking and the service; premium ingredients such as prime cuts, seafood or a longer tasting menu lift it. A luxury private chef Dubai Marina evening with rare produce and extra courses will sit at the upper end, while a relaxed family dinner stays lower. See the full breakdown on private chef prices in Dubai , or send your date and numbers for an exact, itemised quote with no surprises."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "At a Glance",
+  "Yacht-ready private chef and catering for Dubai Marina, with dedicated marine delivery and high-rise concierge coordination.",
+  "What is included in our Dubai Marina catering service",
+  "Popular Dubai Marina events",
+  "Logistics for Dubai Marina events",
+  "Also Serving Near Dubai Marina",
+  "Services in Dubai Marina",
+  "Explore Our Services",
+  "Popular Events in Dubai Marina",
+  "Questions About Dubai Marina Catering",
+  "Book Your Dubai Marina Private Chef",
+  "Explore myCHEF Dubai",
+  "Menu options for Dubai Marina events",
+  "Why myCHEF Dubai for Dubai Marina",
+  "Properties We Serve in Dubai Marina",
+  "How Dubai Marina catering works"
+ ],
+ "add_block": [
+  {
+   "new_heading": "What does a private chef in Dubai Marina include?",
+   "new_paragraphs": [
+    "Your booking is a full evening handled end to end, not a delivery dropped at the door. One team covers menu design, sourcing, the cooking in your own kitchen, table service and the full cleanup, so you host without lifting a pan. When you hire a chef Dubai Marina residents rely on, the private chef arrives with a plan built to your date, guest count and space — a tower apartment, a waterfront penthouse or a boat at the berth. Catering Dubai Marina bookings can also add service staff, extra courses or a canapé round on arrival. The chef confirms allergies and preferences in advance, adapts the menu to what looks freshest that week, plates each course at your table, then washes up and packs out. This is in-villa chef Dubai Marina work at its most complete: personal, unhurried and finished properly."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'At a Glance'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Private chef Dubai Marina for dinner parties, events and yachts",
+   "new_paragraphs": [
+    "The same chef scales from a quiet dinner for two to a full Dubai Marina party. A Dubai Marina dinner party catering booking might be six friends around a plated three-course menu; a penthouse celebration might be forty guests over a buffet and a canapé reception. Dubai Marina event catering covers birthdays, anniversaries and corporate hosting where you want the polish of a restaurant in your own space. Because this is a waterfront district, yacht work is common too — we cater charters leaving the marina berths with on-board menus that travel and plate well at sea. Whether it is home chef Dubai Marina dining for the family or a larger occasion, the chef and the service scale to match. Tell us the setting and the numbers and we size the team, the menu and the timing to the room."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'At a Glance'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How does in-villa dining work in a Marina apartment or penthouse?",
+   "new_paragraphs": [
+    "Here the water and the high-rise setting shape the brief. In a Marina Walk tower apartment the chef works within a domestic kitchen and plates for the table you already have; in a penthouse there is usually room for a longer service and a drinks station. For yacht charters we plan around a compact galley and a moving deck, prepping ahead so the on-board experience is calm. A villa chef Dubai Marina booking accounts for lift access, parking and building rules, and the chef arrives early to set up without disruption. You confirm the date, guest count and address; we match a vetted personal chef Dubai Marina hosts trust, lock the menu, then run the cooking, the service and the cleanup on the day. Popular formats here are apartment and penthouse dining, yacht catering from the marina and sunset canapé receptions."
+   ],
+   "insert_after_block": "How Dubai Marina catering works",
+   "position": "after the block titled 'How Dubai Marina catering works'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Private chef and catering across Dubai Marina and nearby",
+   "new_paragraphs": [
+    "We cover the whole neighbourhood and the communities around it, so wherever you are on the water we can reach you. Within Dubai Marina we serve the Marina Walk apartment towers, the waterfront penthouses and the yacht berths along the marina, plus the surrounding streets. Just next door we also look after JBR and JLT , and you can explore every area we cover across all Dubai locations . Best private chef Dubai Marina bookings still start the same way for a tower studio or a five-bedroom penthouse: one enquiry, one matched chef, one itemised proposal. Confirm your exact address when you enquire and we will tell you straight away whether we can staff your date."
+   ],
+   "insert_after_block": "Why myCHEF Dubai for Dubai Marina",
+   "position": "after the block titled 'Why myCHEF Dubai for Dubai Marina'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning private chef marina step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your private chef marina proposal arrives.",
+    "Book private chef marina about 2 weeks ahead off-peak, and 6 weeks ahead between November and March.",
+    "Confirm the private chef marina menu roughly 7 days before, once your numbers settle.",
+    "Ask about dietary covers for private chef marina when you enquire, not inside the final 48 hours .",
+    "Check venue access and parking for private chef marina; the team arrives about 2 hours before service.",
+    "Plan on roughly 3 hours of private chef marina service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": "Why myCHEF Dubai for Dubai Marina",
+   "position": "after the block titled 'Why myCHEF Dubai for Dubai Marina'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which private chef marina format suits your event?",
+   "new_paragraphs": [
+    "Format What it gives you Staffing Cost position",
+    "Drop-off Food delivered ready to serve None Entry point",
+    "Buffet Presentation plus a maintained spread 1–2 From AED 700 per person",
+    "Live stations Cooking in front of your guests 2–4 Mid-range",
+    "Plated Every course served together 3 and above Top of the range"
+   ],
+   "insert_after_block": "Why myCHEF Dubai for Dubai Marina",
+   "position": "after the block titled 'Why myCHEF Dubai for Dubai Marina'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Common questions",
+   "new_paragraphs": [
+    "How much does a private chef cost in Dubai Marina?",
+    "Private dining in Dubai Marina starts from about AED 700–950 per person, depending on guest count, menu and service level. Larger groups come down per head; send your numbers for an exact quote.",
+    "Which parts of Dubai Marina do you serve?",
+    "All of Dubai Marina — Marina Walk apartment towers, waterfront penthouses and the surrounding streets — plus nearby Dubai communities. Confirm your exact address when you enquire.",
+    "What's included?",
+    "From menu planning to the chef, the service staff, the plating and the cleanup — one team covers all of it.",
+    "How do I book?",
+    "Share your date, guest count and address; we match a vetted chef and send an itemised proposal, usually within one business day.",
+    "Can you cook on a yacht chartered from Dubai Marina?",
+    "Yes. We build on-board menus that travel and plate well at sea, and the chef works around the galley you have. Share the berth, the boat and the number aboard and we plan the day around your itinerary.",
+    "Do you cater a Dubai Marina dinner party or larger event?",
+    "Yes — from an intimate dinner party for two to a penthouse party or event for forty. Dubai Marina event catering scales with plated menus, buffets or canapé receptions, and we bring the service staff to match.",
+    "Is halal and allergen-aware catering available in Dubai Marina?",
+    "Yes. Fully halal menus are standard, and vegetarian and vegan dishes are built in. Gluten-free, nut-conscious and other dietary menu options may be available on request, subject to confirmation by the assigned culinary partner. Partner kitchens may handle allergens, and cross-contact cannot be completely excluded unless dedicated controls have been specifically confirmed for the booking. Guests with allergies must provide full details before confirming their event.",
+    "How far ahead should I book a personal chef in Dubai Marina?",
+    "A week or two gives the most menu freedom, but we take shorter-notice bookings when a chef is free. Send your date early and we confirm availability, usually within one business day.",
+    "Can I request a female private chef in Dubai Marina?",
+    "Yes — a female chef can be requested for your booking. Tell us when you enquire and myCHEF matches you with a female chef from the partner network for your date, cuisine and service style. In Dubai Marina the request usually comes from family apartments, women-only celebrations and yacht days where the host wants the galley kept private. Say so with your date rather than after the menu is agreed, because availability moves with the date, the cuisine and who in the partner network is free.",
+    "For private chef marina, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements ."
+   ],
+   "insert_after_block": "Why myCHEF Dubai for Dubai Marina",
+   "position": "after the block titled 'Why myCHEF Dubai for Dubai Marina'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "More on private chef dubai marina",
+   "new_paragraphs": [
+    "Private chef birthday dinner",
+    "How to hire a private chef dubai",
+    "Private chef cost",
+    "Private chef vs restaurant dubai",
+    "Get an itemised quote"
+   ],
+   "insert_after_block": "Menu options for Dubai Marina events",
+   "position": "after the block titled 'Menu options for Dubai Marina events'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  },
+  {
+   "new_heading": "Why book myCHEF for a Dubai Marina private chef?",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you own the evening, we carry the work. Every chef working on private chef marina has cleared identity checks, a practical cooking assessment, reference verification and ongoing performance reviews — a continuous standard, not a one-time tick. We are honest about it, too: no system removes every risk, so we match each event to the best available chef for it. For an occasion like this, that might be Ahmed Al-Rashid — 18+ years across Dubai, London and Paris in classical French technique — who designs each menu as a collaboration with the host, every course timed, seasoned and served to exacting standards. We have delivered intimate villa dinners and large celebrations across Dubai's communities. Covers private chef marina; client reviews go up as events are delivered."
+   ],
+   "insert_after_block": "Why myCHEF Dubai for Dubai Marina",
+   "position": "after the block titled 'Why myCHEF Dubai for Dubai Marina'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  }
+ ],
+ "faq": []
+}

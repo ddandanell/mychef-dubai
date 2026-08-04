@@ -1,0 +1,193 @@
+{
+ "url": "/tasting-menu-dubai",
+ "keyword_strategy": {
+  "main_keyword": "tasting menu catering dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 15,
+  "subkeywords_carried": 15,
+  "coverage_percent": 100,
+  "subkeywords_carried_list": [
+   "how much does catering cost in dubai?",
+   "how much will it cost to feed 40 guests?",
+   "what is the most expensive food in dubai?",
+   "home catering dubai",
+   "buffet catering dubai",
+   "outdoor catering dubai",
+   "small party catering dubai",
+   "finger food catering dubai",
+   "tasting menu catering dubai pdf",
+   "tasting menu catering dubai price",
+   "tasting menu price",
+   "tasting menu courses",
+   "tasting menus in dubai",
+   "tasting menu restaurant dubai",
+   "tasting menu how many courses"
+  ],
+  "subkeywords_not_carried": [],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Tasting Menu Catering Dubai | from AED 1,400 per person | myCHEF",
+  "meta_description": "Tasting Menu catering in Dubai — a curated multi-course journey, optionally wine-paired. From AED 1,400 per person, with vetted chefs and full service. Request a proposal from myCHEF.",
+  "h1": "Tasting Menu Catering in Dubai — Real Prices, Menus and Timings"
+ },
+ "opening_paragraph": [
+  "Tasting menu catering Dubai from myCHEF starts at AED 1,400 per person: a set, multi-course, chef's-choice dinner plated in your home, course by course, with optional beverage pairing. Tell us your date, guest count and venue, and during our published business hours a full itemised proposal comes back promptly, shaped around your occasion, your cuisine and any dietary needs at the table."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "Tasting Menu Formats",
+   "match_confidence": 0.62,
+   "new_heading": "Tasting menu options and courses",
+   "new_paragraphs": [
+    "Your tasting menu is built with you, not handed to you. Most evenings run five, seven or nine courses: a cold opener, one or two seafood or vegetable courses, a pasta or grain course, a main protein, a pre-dessert and a dessert, with canapés or an amuse to start. Those opening canapés are finger food in the literal sense — two or three bites taken standing, with a drink, before anyone sits down. You choose the register, whether classical French, modern Mediterranean, Levantine, or a route through several cuisines, and the kitchen shapes each course to the season and to your guests. Every menu is fully halal on request, and vegetarian, vegan and gluten-free routes, along with menus without intentionally added nuts, are designed in from the first draft rather than added late, subject to confirmation by the assigned culinary partner. As a tasting menu food catering service, Partners source produce close to the date so the courses taste of when they are cooked, then shares the full run of plates for your sign-off before the night."
+   ]
+  },
+  {
+   "block_on_your_page": "A Taste of Our Tasting Menu Experiences",
+   "match_confidence": 0.55,
+   "new_heading": "What tasting menu catering in Dubai includes",
+   "new_paragraphs": [
+    "A tasting menu is a set, multi-course meal chosen by the chef and served one plate at a time, and myCHEF brings that restaurant format into your own dining room. You get the food, the format and the full service: a sequence of small, precise courses, often five to eight, built around a season, a technique or a single ingredient, plus the chef on site, plating, table service, setup and cleanup. Where an à la carte dinner has every guest ordering differently, a tasting menu moves the whole table through the same story at the same pace. As a full tasting menu catering services provider, myCHEF designs the run of courses with you, brings the china, glassware and linen the table needs, and finishes every plate to order. You follow the courses; the kitchen keeps the clock."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "A Restaurant-Quality Experience, Private and Personal",
+  "Designed for Special Occasions",
+  "What's Included in Our Tasting Menu Experience",
+  "Design a Tasting Menu Your Guests Will Never Forget",
+  "Explore myCHEF Dubai",
+  "Tasting Menu & Chef’s Table Questions"
+ ],
+ "add_block": [
+  {
+   "new_heading": "Tasting menus for weddings, corporate events and parties",
+   "new_paragraphs": [
+    "A tasting menu suits any occasion where the meal is the event, not the backdrop. Intimate weddings, milestone anniversaries, corporate dinners and small private parties all read beautifully as a plated tasting. For a wedding or an engagement, the format turns dinner into the centrepiece: paced courses, a quiet flourish between each, and a chef who works to your run-of-show. Corporate tasting menu catering in Dubai gives a board dinner or a client evening a considered, unhurried rhythm a buffet cannot match. Smaller tasting menu party catering, for a birthday, a reunion or a farewell, lets a handful of guests eat the way a fine-dining room would serve them without leaving home. Tasting menu catering for events across Dubai scales from a table of four to a long table of twenty, with the course count and pacing set to the room."
+   ],
+   "insert_after_block": "A Taste of Our Tasting Menu Experiences",
+   "position": "after the block titled 'A Taste of Our Tasting Menu Experiences'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Wine and non-alcoholic pairing",
+   "new_paragraphs": [
+    "Yes, a tasting menu can be paired, and pairing is where a good tasting dinner becomes one your guests remember. You can add a wine flight matched course by course, or a non-alcoholic pairing of house sodas, cordials, teas and infusions that stands shoulder to shoulder with the food. The chef, and a service lead where you want one, maps each pour to the plate it sits beside and paces the service so nothing arrives early or waits. On logistics, the kitchen needs counter space, a sink and standard power; the team arrives ahead of service to prep, set the table and brief you on the running order. Setup, service and cleanup are handled, so at the end of the night you walk away from a clean kitchen while your guests are still talking about the dessert."
+   ],
+   "insert_after_block": "Tasting Menu Formats",
+   "position": "after the block titled 'Tasting Menu Formats'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How much does tasting menu catering cost in Dubai?",
+   "new_paragraphs": [
+    "A tasting menu in Dubai starts at AED 1,400 per person, and where your evening lands depends on the number of courses, the group size, the ingredients and whether you add a pairing. Fewer guests and rarer produce, such as a whole turbot, aged beef or a caviar course, sit at the upper end; a shorter five-course run for a larger table brings the per-head figure down, which is where more affordable tasting menu catering becomes workable. MyCHEF quotes tasting menu catering prices as one itemised figure covering food, chef, service and setup, with no service charge stacked on top, so what you approve is what you pay. For a sense of tasting menu catering cost against other formats, see our prices and the fuller catering price guide , then ask for a quote built to your date."
+   ],
+   "insert_after_block": "Tasting Menu Formats",
+   "position": "after the block titled 'Tasting Menu Formats'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How to hire a tasting menu chef",
+   "new_paragraphs": [
+    "Hiring a tasting menu chef takes one message. Tell myCHEF your date, guest count and venue, and during our published business hours a full itemised proposal comes back promptly. From there the path is short: you approve the quote, the kitchen drafts the run of courses, you adjust anything and confirm, then a matched chef and any service staff arrive on the day to cook, plate, serve and clear. To hire tasting menu catering in Dubai you need no fitted kitchen and no equipment, because the team brings what the menu requires. Prefer a fixed shape? Ask about tasting menu catering packages built around common course counts and headcounts. Booking ahead helps for weekend and peak dates, though shorter notice is often workable, and you can hold your date while the menu is finalised."
+   ],
+   "insert_after_block": "Tasting Menu Formats",
+   "position": "after the block titled 'Tasting Menu Formats'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Why book your tasting menu with myCHEF",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you own the evening, the kitchen carries the work. Before any chef joins the network they clear identity checks, a practical cooking assessment, reference verification and ongoing performance reviews , a continuous standard, not a one-time tick. We are honest about it, too: no system removes every risk, so each event is matched to the best available chef for it. For a plated tasting, that is often Ahmed Al-Rashid , with 18+ years across Dubai, London and Paris in classical French technique, who designs each menu as a collaboration with the host and times, seasons and serves every course to exacting standards. As a private tasting menu chef and a luxury tasting menu catering company, myCHEF has delivered villa weddings, yacht celebrations and corporate galas across Dubai."
+   ],
+   "insert_after_block": "Tasting Menu Formats",
+   "position": "after the block titled 'Tasting Menu Formats'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning tasting menu catering step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — during our published business hours the itemised proposal comes back promptly .",
+    "Book as early as you can. A bespoke tasting menu is usually set 5 to 7 days ahead; lead times move with guest numbers, menu complexity, staffing, equipment, location and partner availability, and short-notice dates are assessed individually.",
+    "Confirm the tasting menu catering menu 7 days before the date, with final numbers.",
+    "Ask about allergies when booking tasting menu catering, well outside the final 48 hours .",
+    "Check how the team reaches the venue; tasting menu catering setup begins about 2 hours before guests.",
+    "Plan on roughly 3 hours of tasting menu catering service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": "Tasting Menu & Chef’s Table Questions",
+   "position": "after the block titled 'Tasting Menu & Chef’s Table Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which tasting menu catering format suits your event?",
+   "new_paragraphs": [
+    "Format Service staff Guests it suits Indicative cost",
+    "Drop-off None Any size, informal Most economical",
+    "Buffet 1–2 20–60 From AED 120 per person",
+    "Live stations 2–4 40 and above From AED 150 per person",
+    "Plated tasting menu 3 and above 8–40 seated From AED 1,400 per person"
+   ],
+   "insert_after_block": "Tasting Menu & Chef’s Table Questions",
+   "position": "after the block titled 'Tasting Menu & Chef’s Table Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Common questions",
+   "new_paragraphs": [
+    "How much does a tasting menu cost in Dubai?",
+    "A tasting menu starts at AED 1,400 per person, quoted by course count, group size, ingredients and whether you add a pairing. Send your date and numbers for an exact, itemised figure.",
+    "How many courses is a tasting menu?",
+    "Most tasting menus run five, seven or nine courses, from an opener and seafood or vegetable plates through a main protein to a pre-dessert and dessert. You set the length with the chef.",
+    "Can the tasting menu be halal?",
+    "Yes. Every tasting menu can be prepared fully halal, with halal-certified meat and no pork or alcohol in the cooking, without changing the ambition of the courses.",
+    "Do you offer wine or non-alcoholic pairings?",
+    "Both. You can add a course-by-course wine flight or a non-alcoholic pairing of cordials, teas and infusions, each pour matched and paced to the plate beside it.",
+    "Can you cater a tasting menu for a wedding or corporate dinner?",
+    "Yes. Tasting menu catering for events covers weddings, engagements, corporate dinners and private parties, scaled from a small table to twenty guests with the pacing set to the occasion.",
+    "Do I need a professional kitchen at home?",
+    "No. A tasting menu home catering setup needs only counter space, a sink and standard power; the chef brings the equipment, plating and service the menu requires.",
+    "How do I hire a tasting menu chef in Dubai?",
+    "Send your date, guest count and venue to myCHEF, approve the itemised proposal, confirm the run of courses, and a vetted chef arrives on the day to cook, serve and clear.",
+    "How much will it cost to feed 40 guests?",
+    "Tasting menus are priced per head, so 40 guests is the per-person figure multiplied by 40, from AED 1,400 each, plus 5% VAT. At that headcount many hosts shorten the run to five courses or change format instead: an event buffet starts from AED 120 per person and a premium buffet or live-station spread from AED 150.",
+    "What is the most expensive food in Dubai?",
+    "The cost sits in ingredients rather than dishes. Caviar, truffle in season, aged and heavily marbled beef, and whole prime fish such as turbot are what lift a Dubai menu, and one of them in one course moves the whole per-head figure. We tell you which course carries the cost before you approve the menu.",
+    "Is there a tasting menu PDF I can download?",
+    "No, because no two of these dinners share a menu, so a generic tasting menu catering Dubai PDF would describe nobody's evening. You get the run of courses written for your date instead, sent with the itemised proposal for sign-off, as a PDF if you want it on paper.",
+    "For tasting menu catering, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements ."
+   ],
+   "insert_after_block": "Tasting Menu & Chef’s Table Questions",
+   "position": "after the block titled 'Tasting Menu & Chef’s Table Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "A tasting menu at home versus a restaurant tasting menu",
+   "new_paragraphs": [
+    "Most tasting menus in Dubai are eaten in restaurants, and a restaurant tasting menu is the simpler booking: reserve, arrive, eat what that kitchen has decided to serve this season. What you trade away is the room and the pace. At home the menu is written for your table rather than for a full dining room, courses land when your evening is ready for them, and nobody is waiting on the seating to turn over. It is also the only version where the run of courses can be built around what one specific guest at the table can and cannot eat. The trade in the other direction is cost: a restaurant absorbs the kitchen it already runs, while a tasting menu at home carries the chef, the service team and the equipment inside the per-head figure. If a restaurant tasting menu already suits the occasion, book one — this page is for the evenings where it does not.",
+    "Request a proposal or chat on WhatsApp , and most quotes land promptly during our published business hours."
+   ],
+   "insert_after_block": "Tasting Menu & Chef’s Table Questions",
+   "position": "after the block titled 'Tasting Menu & Chef’s Table Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Tasting menu catering across Dubai",
+   "new_paragraphs": [
+    "MyCHEF arranges tasting menus across every part of Dubai, from Palm Jumeirah and Emirates Hills villas to Downtown and Marina apartments, Business Bay penthouses and DIFC private rooms, so a search for tasting menu catering near me lands on a chef who will travel to your table. A trusted tasting menu caterer should read the room as much as the menu: a compact apartment kitchen and a sprawling villa call for different setups, and the team plans the pass, the service flow and the timing to the space you host in. Outdoors it changes again: for a terrace or garden dinner the kitchen sets up close to the seating so plates travel seconds rather than minutes, and the menu leans away from anything that suffers in Dubai heat, which is the practical difference between a plated tasting and ordinary outdoor catering in Dubai. Wherever you are, the standard holds, with the same vetted chefs, the same itemised quote and the same full service. If you are still weighing formats, our note on private chef vs catering lays out the surest way to match a format to the evening, and you can explore the wider luxury dining range, from a chef's table to a date night ."
+   ],
+   "insert_after_block": "Tasting Menu & Chef’s Table Questions",
+   "position": "after the block titled 'Tasting Menu & Chef’s Table Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  }
+ ],
+ "faq": []
+}

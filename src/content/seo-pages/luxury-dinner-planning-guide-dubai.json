@@ -1,0 +1,218 @@
+{
+ "url": "/luxury-dinner-planning-guide-dubai",
+ "keyword_strategy": {
+  "main_keyword": "luxury dinner planning guide dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 3,
+  "subkeywords_carried": 1,
+  "coverage_percent": 33,
+  "subkeywords_carried_list": [
+   "best show dinner dubai"
+  ],
+  "subkeywords_not_carried": [
+   "dinner with performance",
+   "fun dinner places in dubai"
+  ],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Luxury Dinner Planning Guide Dubai: How to Plan One | myCHEF Dubai",
+  "meta_description": "A luxury dinner planning guide for Dubai: choose the experience, set guests and budget, pick a private chef and menu, and let the chef handle sourcing, styling and service. Real prices and steps.",
+  "h1": "Luxury Dinner Planning Guide Dubai — Real Prices and Timings"
+ },
+ "opening_paragraph": [
+  "A luxury dinner in Dubai needs three decisions: the format, the chef and the venue. A luxury dinner planning guide for Dubai comes down to five choices, and a private chef at home through myCHEF starts from around AED 950 per person. Decide the experience you want, set your guest count and budget, choose a private chef and menu, confirm any dietary needs, then let the chef handle sourcing, styling, service and cleanup. Do those in order and the rest of the evening looks after itself."
+ ],
+ "replace_in_block": [],
+ "leave_untouched": [
+  "Create an Evening Worth Remembering",
+  "Defining the Occasion",
+  "Designing the Menu",
+  "Styling the Table",
+  "Lighting, Music & Ambience",
+  "Chef and Service Staff",
+  "Hosting Tips for the Evening",
+  "Related Private Dining Services",
+  "Luxury Dinner FAQ",
+  "Design Your Luxury Dinner",
+  "Explore myCHEF Dubai"
+ ],
+ "add_block": [
+  {
+   "new_heading": "Luxury Dinner Planning Guide Dubai: the five decisions explained",
+   "new_paragraphs": [
+    "Start with the experience, because it sets everything else. A luxury dinner planning guide for Dubai works well when you name the format first: a wine-paired tasting menu, an interactive chef's table where the cooking is part of the show, or a bespoke themed evening built around a cuisine or an occasion. Once the format is clear, the guest count and budget follow, then the chef, then the menu. Most hosts overthink the food and underthink the flow; in practice the order of decisions matters more than any single dish. Keep the guest list to the number your space seats comfortably, decide whether you want a plated dinner or grazing courses, and write down the one thing that would make the night feel special to you. That single note is the brief your chef will build around."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Create an Evening Worth Remembering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How much does a luxury dinner in Dubai cost?",
+   "new_paragraphs": [
+    "Luxury private dining in Dubai typically starts from around AED 950 per person for a plated, multi-course dinner cooked in your home. Wine-paired tasting menus begin from AED 1,400 per person, and a longer degustation with premium produce, more courses and a larger brigade costs more again. The prices move with three things: the number and rarity of courses, the size of the service team, and the ingredients. A dinner leaning on wagyu, lobster or imported truffle costs more than one built on superb seasonal produce cooked with care. Ask for the quote to be itemised so you can see where the money sits, then adjust the menu instead of the guest count if you want to manage the cost. That keeps the experience intact for every guest at the table."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Create an Evening Worth Remembering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How do you choose the right chef and menu?",
+   "new_paragraphs": [
+    "Match the chef to the cuisine and the occasion, not the other way round. For a refined tasting menu or classic fine dining, an experienced fine-dining chef such as Ahmed Al-Rashid is the natural fit; for an Italian or Mediterranean evening, a specialist like Marco Rossi; and for a dessert-led celebration or a show-stopping final course, a pastry chef such as Sofia Moretti. The chef then designs the menu with you instead of handing you a fixed list, shaping it around your tastes, the season and any dietary needs. myCHEF is implementing a documented vetting standard covering identity, a practical cooking assessment, references and post-event review. That vetting is the quiet part of luxury; it is why you can hand over your kitchen and enjoy being a guest at your own dinner."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Create an Evening Worth Remembering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Is the food safe, halal and properly sourced?",
+   "new_paragraphs": [
+    "Yes, and in Dubai that is governed, not left to chance. Private-chef and catering food falls under the Dubai Food Code, issued by the Food Safety Department of Dubai Municipality, which sets the rules on hygiene, food traceability and allergen handling. Under those rules, major allergens including nuts, milk, eggs, soy, wheat, fish and shellfish must be disclosed, and catering operators are expected to source through the municipality's FoodWatch system of approved suppliers. Halal cooking is standard on request, and a good chef will confirm your restrictions in writing before the menu is locked. When you plan the menu, list every allergy and preference at the table, from a nut allergy to a vegan guest, so the chef can design around it instead of improvising on the night. Reputable providers welcome those questions."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Create an Evening Worth Remembering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What can Dubai's fine-dining scene teach a dinner at home?",
+   "new_paragraphs": [
+    "It shows how high the bar sits, and how to borrow from it. Dubai has had its own Michelin Guide since the inaugural 2022 edition, which selected 69 restaurants across 21 cuisines, including 11 with stars ( Michelin Guide ). In May 2025 the city gained its first three-star restaurants, with Tresind Studio becoming the first Indian restaurant in the world to earn three stars, alongside FZN by Bjorn Frantzen ( Khaleej Times ). The lesson for a home dinner is not to copy those kitchens but to steal their discipline: a tight menu, precise timing, a clear point of view. A private chef brings that same rigour to your table, in your own space, with the privacy a restaurant cannot offer."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Create an Evening Worth Remembering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "When should you book, and what is trending in 2026?",
+   "new_paragraphs": [
+    "Book roughly three to four weeks ahead for an ordinary date, and earlier for the busy windows. Demand for chefs spikes around New Year, Valentine's and the May period when Dubai Restaurant Week returns, an edition that Gulf News reports features more than 125 restaurants across 25 cuisines with set-menu deals, including Michelin-starred names ( Gulf News ). When the restaurant scene is fully booked, a private chef at home becomes the smarter option for a milestone. As for 2026 ideas, hosts are asking for shorter, sharper tasting menus, more plant-forward and dietary-inclusive courses, and interactive formats where the chef finishes dishes at the table. The right time to plan is early, and the best dinners this year feel personal, not showy."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Create an Evening Worth Remembering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Your luxury dinner planning checklist and tips",
+   "new_paragraphs": [
+    "Keep it to one page. This checklist covers the planning services a good chef expects you to have thought about: the date and the format; the final guest count and seating; your budget per head; the cuisine or theme; every dietary need and allergy; whether you want wine or mocktail pairings; and the level of table styling. A few tips make the night easier. Confirm the menu in writing, agree arrival and service times, clear your fridge and counter space for the chef, and decide the one moment you want to land, whether that is a signature main or a dessert from Sofia Moretti. If you would prefer not to build the plan yourself, share the basics and myCHEF will turn them into a proposal. To find a luxury private chef near me in Dubai, most hosts just give their area, and we match a vetted chef who covers it."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Create an Evening Worth Remembering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Plan it with myCHEF",
+   "new_paragraphs": [
+    "Ready to book or want an exact quote? Luxury Dining · Tasting Menu · Chef's Table . Or start at private chef or catering in Dubai ."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Create an Evening Worth Remembering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning luxury dinner planning guide step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your luxury dinner planning guide proposal arrives.",
+    "Book luxury dinner planning guide about 2 weeks ahead off-peak, and 6 weeks ahead between November and March.",
+    "Confirm your luxury dinner planning guide menu about 7 days out, when the guest list is firm.",
+    "Ask early about allergies and dietary plates — not in the last 48 hours before luxury dinner planning guide.",
+    "Check the access route before luxury dinner planning guide day — setup starts roughly 2 hours ahead.",
+    "Plan on roughly 3 hours of luxury dinner planning guide service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Create an Evening Worth Remembering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Frequently asked questions",
+   "new_paragraphs": [
+    "What is a luxury dinner planning guide for Dubai?",
+    "It is a short sequence of decisions: pick the type of experience, set your guest count and budget, choose a private chef and menu, confirm dietary needs, then let the chef handle sourcing, styling, service and cleanup.",
+    "How much does a luxury private dinner in Dubai cost per person?",
+    "Luxury private dining usually starts from around AED 950 per person for a plated multi-course dinner, with wine-paired tasting menus from about AED 1,400 per person. Rare ingredients and larger service teams push the price higher.",
+    "How far in advance should I book a luxury dinner in Dubai?",
+    "Book roughly three to four weeks ahead for a normal date, and earlier for peak periods such as New Year, Valentine's and the May window around Dubai Restaurant Week, when demand for private chefs rises.",
+    "Can the chef cook halal food and handle dietary needs?",
+    "Yes. Chefs cook halal on request and design around allergies, vegetarian, vegan and other needs. Under the Dubai Food Code, major allergens must be disclosed, so tell your chef every restriction when you plan the menu.",
+    "Do you provide staff, table styling and cleanup?",
+    "Yes. A full luxury dinner service covers sourcing, cooking, plating, table styling, service staff for larger parties and cleanup, so you host the evening instead of running it.",
+    "Is a private chef better than a restaurant for a special occasion?",
+    "For privacy, a bespoke menu and hosting in your own space, a private chef wins. A Michelin restaurant is better if you want the room and the show. Many Dubai hosts choose a chef at home for milestone celebrations.",
+    "How do I find a luxury private chef near me in Dubai?",
+    "Share your area, date and guest count with myCHEF and we match a vetted chef who covers your community, from Palm Jumeirah villas to Downtown apartments and yachts.",
+    "How do I get an exact quote?",
+    "Share your date, guest count and venue with myCHEF and you will get an itemised proposal, usually within one business day."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Create an Evening Worth Remembering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Sources",
+   "new_paragraphs": [
+    "Michelin Guide Dubai selection and stars: guide.michelin.com . Dubai's first three-star restaurants: Khaleej Times . Dubai Restaurant Week: Gulf News . Food safety, allergen and sourcing rules: FoodWatch, Dubai Municipality .",
+    "Request an itemised proposal or start on WhatsApp ."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Create an Evening Worth Remembering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  }
+ ],
+ "faq": [
+  {
+   "question": "What is a luxury dinner planning guide for Dubai?",
+   "answer": [
+    "It is a short sequence of decisions: pick the type of experience, set your guest count and budget, choose a private chef and menu, confirm dietary needs, then let the chef handle sourcing, styling, service and cleanup."
+   ]
+  },
+  {
+   "question": "How much does a luxury private dinner in Dubai cost per person?",
+   "answer": [
+    "Luxury private dining usually starts from around AED 950 per person for a plated multi-course dinner, with wine-paired tasting menus from about AED 1,400 per person. Rare ingredients and larger service teams push the price higher."
+   ]
+  },
+  {
+   "question": "How far in advance should I book a luxury dinner in Dubai?",
+   "answer": [
+    "Book roughly three to four weeks ahead for a normal date, and earlier for peak periods such as New Year, Valentine's and the May window around Dubai Restaurant Week, when demand for private chefs rises."
+   ]
+  },
+  {
+   "question": "Can the chef cook halal food and handle dietary needs?",
+   "answer": [
+    "Yes. Chefs cook halal on request and design around allergies, vegetarian, vegan and other needs. Under the Dubai Food Code, major allergens must be disclosed, so tell your chef every restriction when you plan the menu."
+   ]
+  },
+  {
+   "question": "Do you provide staff, table styling and cleanup?",
+   "answer": [
+    "Yes. A full luxury dinner service covers sourcing, cooking, plating, table styling, service staff for larger parties and cleanup, so you host the evening instead of running it."
+   ]
+  },
+  {
+   "question": "Is a private chef better than a restaurant for a special occasion?",
+   "answer": [
+    "For privacy, a bespoke menu and hosting in your own space, a private chef wins. A Michelin restaurant is better if you want the room and the show. Many Dubai hosts choose a chef at home for milestone celebrations."
+   ]
+  },
+  {
+   "question": "How do I find a luxury private chef near me in Dubai?",
+   "answer": [
+    "Share your area, date and guest count with myCHEF and we match a vetted chef who covers your community, from Palm Jumeirah villas to Downtown apartments and yachts."
+   ]
+  },
+  {
+   "question": "How do I get an exact quote?",
+   "answer": [
+    "Share your date, guest count and venue with myCHEF and you will get an itemised proposal, usually within one business day."
+   ]
+  }
+ ]
+}

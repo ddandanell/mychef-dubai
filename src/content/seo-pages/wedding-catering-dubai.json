@@ -1,0 +1,302 @@
+{
+ "url": "/wedding-catering-dubai",
+ "keyword_strategy": {
+  "main_keyword": "wedding catering dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 12,
+  "subkeywords_carried": 12,
+  "coverage_percent": 100,
+  "subkeywords_carried_list": [
+   "buffet catering dubai",
+   "private catering dubai",
+   "lebanese catering dubai",
+   "small party catering dubai",
+   "best wedding catering dubai",
+   "wedding catering dubai packages",
+   "affordable wedding catering dubai",
+   "halal wedding catering prices",
+   "inexpensive wedding catering dubai",
+   "wedding catering services in dubai",
+   "catering cost for 200 person wedding",
+   "how much does wedding catering cost uk"
+  ],
+  "subkeywords_not_carried": [],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Wedding Catering Dubai | Prices, Menus & Reception Dining | myCHEF",
+  "meta_description": "Wedding catering in Dubai from AED 120pp for a reception buffet, AED 750pp plated. Villa, garden and venue receptions with vetted chefs, service staff and styling.",
+  "h1": "Wedding Catering in Dubai — Prices, Formats and What You Get"
+ },
+ "opening_paragraph": [
+  "Wedding catering in Dubai from myCHEF runs from AED 120 a head for a reception buffet to AED 750 and up for a plated multi-course dinner. Where you land inside that range is set by your guest count, the format and how much service is in the room. MyCHEF pairs you with a vetted private chef and a trained service team who cook on site — at your villa, a garden lawn, a stretch of beach or a licensed venue — and carry the menu design, styling, plating and cleanup, so the two of you spend the night as guests at your own wedding instead of as coordinators. Send your date and guest numbers and you will hear back promptly during our published business hours."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "What Our Wedding Catering Includes",
+   "match_confidence": 0.81,
+   "new_heading": "What does wedding catering in Dubai include?",
+   "new_paragraphs": [
+    "Wedding catering in Dubai includes everything between the menu on paper and the last plate cleared: bespoke menu design, chefs cooking fresh on site, front-of-house service staff, table styling and full setup and cleanup. As a full-service wedding catering company, myCHEF handles multi-cuisine menu design across Lebanese, Arabic, Mediterranean, Italian, Indian and Pan-Asian; sourcing and prep; on-site cooking so nothing arrives reheated; plating and presentation; and the front-of-house team who pour, serve and reset between courses. You get one point of contact for the whole food operation instead of a caterer, a stylist and a staffing agency to chase separately. If you want to extend the day, add a dessert table , a canapé reception for the drinks hour, or a cocktail and mocktail bar — all built into a single quote."
+   ]
+  },
+  {
+   "block_on_your_page": "Wedding Catering Questions",
+   "match_confidence": 1.0,
+   "new_heading": "Wedding catering questions",
+   "new_paragraphs": [
+    "How much is wedding catering in Dubai?",
+    "From AED 120 per person for a reception buffet, AED 150 for a premium buffet, live stations or canapés, and from AED 750 per person for a plated multi-course reception. The exact price is set by your guest count, format and service level, and every proposal is itemised. Minimum order value is AED 900, and 5% VAT is added to the total.",
+    "What is the catering cost for a 200-person wedding?",
+    "Multiply 200 covers by the per-head tier and add 5% VAT: 200 × AED 120 for a reception buffet, 200 × AED 150 for a premium buffet or live stations, or 200 × AED 750 and upward for a plated multi-course reception. Staffing is the line that does not scale evenly, which is why plated sits so far above buffet at that headcount, and a villa or beach setting adds a temporary kitchen and power that a hotel ballroom already has.",
+    "Do you offer affordable or inexpensive wedding catering?",
+    "Yes, and the honest lever is format, not quality. A reception buffet from AED 120 per person with minimal service staff is our least expensive route for a large guest list. We will tell you which format to change to reach your budget instead of quoting a low headline and recovering it later.",
+    "Do you cater Lebanese weddings?",
+    "Yes. A Lebanese wedding menu runs cold mezze, hot mezze and a mixed grill of shish taouk, lamb kofta and lahm meshwi, with a shawarma or manakish station for the drinks hour and knefeh or baklava to close. It works as a buffet from AED 120 per person, with a live grill station from AED 150, or plated from AED 750, and blends easily with Arabic, Mediterranean and Indian dishes where the two families eat differently.",
+    "What is the best wedding catering format — plated, buffet or canapés?",
+    "The right format depends on the room: plated for a seated, formal reception; buffet or live stations for a relaxed celebration; canapés for a standing cocktail reception before dinner.",
+    "How far ahead should we book wedding catering?",
+    "Allow 7 to 14 days or more for a wedding, and longer again for the October to April peak, when prime dates fill fast. We recommend booking as early as possible. Lead times depend on guest numbers, menu complexity, staffing, equipment, location and partner availability. Short lead time on a wedding is worth a message: some partners keep capacity for late requests.",
+    "Do you provide service staff and styling?",
+    "Yes — vetted chefs, front-of-house service, plating, styling, setup and cleanup are all included in the wedding catering, not charged as separate services.",
+    "Can you cater a home or villa wedding?",
+    "Yes. Home catering and villa receptions are our core work; the chef and team cook fresh on site at your address, so you are not tied to a venue's in-house kitchen.",
+    "Do you offer halal and dietary-specific wedding menus?",
+    "Yes. Halal is standard at every price tier and carries no premium, so halal wedding catering prices are the prices on this page. Vegetarian, vegan, gluten-free and nut-conscious menus are prepared to the same standard as the main service, available on request and subject to confirmation by the assigned culinary partner. Partner kitchens may handle allergens, and cross-contact cannot be completely excluded unless controls have been confirmed for your booking.",
+    "Which areas of Dubai do you cover?",
+    "All Dubai — villas, gardens, licensed venues and beaches across the Palm, Emirates Hills, Dubai Marina and beyond. Contact us to confirm coverage outside Dubai.",
+    "Where your venue holds an event-catering licence, the chefs and partner kitchens we work with operate to Dubai Municipality food-safety requirements and your venue's kitchen rules."
+   ]
+  },
+  {
+   "block_on_your_page": "Wedding Catering Across Dubai",
+   "match_confidence": 1.0,
+   "new_heading": "Wedding catering across Dubai",
+   "new_paragraphs": [
+    "MyCHEF delivers wedding catering across every part of Dubai, from villa receptions on Palm Jumeirah and Emirates Hills to garden weddings, hotel and event-venue functions, and beach celebrations. We serve all 15 Dubai areas and coordinate access, power and kitchen logistics for each setting, working to the venue's own kitchen rules where one applies. Whether your day is a private home dinner, a full-scale garden reception or a formal venue evening, the same vetted chefs and service team travel to you — which is what makes myCHEF a genuine wedding catering service, not a fixed banquet hall. Tell us where your wedding is and we will confirm coverage and the on-site plan for that address."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "Catering Worthy of Your Wedding Day",
+  "Weddings for Every Setting",
+  "Explore myCHEF Dubai",
+  "Catering for Every Wedding Format",
+  "A Taste of Our Wedding Catering",
+  "Let's Plan Your Wedding Catering"
+ ],
+ "add_block": [
+  {
+   "new_heading": "Wedding catering for receptions, celebrations and parties",
+   "new_paragraphs": [
+    "Whatever shape your celebration takes, the same team scales to it — an intimate 20-guest garden dinner, a 200-cover ballroom reception, or the wedding party catering Dubai families plan around a mehndi, a nikah or a welcome dinner. MyCHEF caters the full arc of the occasion: rehearsal dinners, the reception itself, and next-day brunches for out-of-town guests. Corporate wedding catering also sits within our remit, so a company celebrating a founder's marriage or hosting a formal engagement can brief the same planners who run our business events. Because we handle wedding catering for events of every size, the kitchen plan, staffing ratio and timing are built around your run-of-show instead of forced into a fixed package. Multi-day and multi-function weddings are coordinated as one booking with one consistent standard across each service."
+   ],
+   "insert_after_block": "What Our Wedding Catering Includes",
+   "position": "after the block titled 'What Our Wedding Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What are the wedding menu and format options?",
+   "new_paragraphs": [
+    "Your wedding menu in Dubai can be plated, served as a buffet, passed as canapés, or laid out as grazing and dessert tables — and most couples combine two or three across the evening. Plated fine-dining service suits a seated, formal reception where each course arrives at the table; live cooking stations and a buffet suit a relaxed celebration where guests move and mingle; canapés and bowl food suit a standing cocktail reception before dinner is called. Every menu is designed around your cuisines, the season, and your guests' dietary needs, with halal, vegetarian, vegan and allergen-aware options prepared to the same standard as the main service. Not sure which format fits your day? Read buffet vs plated in Dubai , then we build the tasting and the final menu around your choice."
+   ],
+   "insert_after_block": "What Our Wedding Catering Includes",
+   "position": "after the block titled 'What Our Wedding Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Styling, service staff and reception logistics",
+   "new_paragraphs": [
+    "Styling and service are part of the catering, not a separate hire — trained front-of-house staff, table presentation and the full logistics of feeding a crowd are included in the plan. Our team sets the service tempo to your timeline: canapés during photographs, dinner called on cue, dessert and cake service timed to the speeches. On site we manage the practical side venues rarely mention — power for cooking equipment, a working prep area, access and load-in times, and safe food holding in Dubai's heat for outdoor and beach receptions. Staffing ratios are set to your guest count so plates land warm and glasses stay full, and the same crew handles the complete breakdown and cleanup, leaving the venue as they found it. It is the level of coordination that separates genuinely luxury wedding catering from a drop-off tray, and it is standard here."
+   ],
+   "insert_after_block": "What Our Wedding Catering Includes",
+   "position": "after the block titled 'What Our Wedding Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How much does wedding catering cost in Dubai?",
+   "new_paragraphs": [
+    "Wedding catering cost in Dubai starts from around AED 750 per person for a plated reception and is priced per head, so it scales with your guest count and the format you choose. As a guide, myCHEF private dining runs roughly AED 700 to AED 950 per person depending on menu and service level; smaller, higher-touch receptions sit toward the top of that range, while larger receptions come down per head. Wedding catering prices in Dubai move with the number of courses, the mix of plated versus stations, staffing ratios and any bar or dessert additions, and every proposal is itemised so you can see exactly where the budget goes. Send your date, guest count and preferred format for a bespoke proposal within one business day."
+   ],
+   "insert_after_block": "What Our Wedding Catering Includes",
+   "position": "after the block titled 'What Our Wedding Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Wedding catering packages in Dubai — what each one costs and includes",
+   "new_paragraphs": [
+    "We do not hide the packages behind an enquiry form. There are four, they are priced per head, and the same inclusions run through all of them: menu design, chefs cooking on site, service staff, equipment, setup and full cleanup.",
+    "Reception buffet — from AED 120 per person. A maintained hot-and-cold spread with one or two staff keeping it stocked. Minimum 20 guests. The workhorse format for a large reception where the budget has to reach everyone.",
+    "Premium buffet, grazing tables or live stations — from AED 150 per person. More premium produce, presentation-led styling, and chefs cooking in front of the room at a pasta, carving or shawarma station.",
+    "Canapés and bowl food — from AED 150 per person. Passed service for the drinks hour, usually added alongside one of the other formats, not instead of it.",
+    "Plated multi-course — from AED 750 per person. A seated reception where every course is cooked and served to the table on cue, staffing scaled to the room. This is the tier most couples mean when they say fine dining.",
+    "Halal is standard across all four and carries no premium. VAT of 5% is added to the total, and the minimum order value is AED 900. When you compare us against another caterer, ask them what staffing, styling and cleanup their headline number includes — that is where an affordable-looking quote and a complete one diverge."
+   ],
+   "insert_after_block": "What Our Wedding Catering Includes",
+   "position": "after the block titled 'What Our Wedding Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Affordable and inexpensive wedding catering in Dubai",
+   "new_paragraphs": [
+    "Affordable wedding catering in Dubai is a format decision, not a quality one. Our least expensive route is a reception buffet from AED 120 per person with minimal service staff. For a large guest list that is the difference between feeding the whole room properly and cutting the list. An inexpensive wedding catering plan in Dubai usually looks like this: buffet for the main service, canapés dropped, dessert kept to one strong table instead of three, and the plated tier saved for a smaller rehearsal or family dinner where it gets noticed.",
+    "What we will not do is quote you a low headline and recover it later. If the number has to come down, we will tell you which format to change. We will not quietly thin the portions or drop staff you were counting on. Send the real budget and the real guest count and we will build to it."
+   ],
+   "insert_after_block": "Catering for Every Wedding Format",
+   "position": "after the block titled 'Catering for Every Wedding Format'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Lebanese wedding catering in Dubai",
+   "new_paragraphs": [
+    "Lebanese catering in Dubai is one of the most-requested wedding cuisines in the city, and it suits a reception better than almost anything else because it is built to be shared. A Lebanese wedding menu usually opens with a full cold mezze — hummus, moutabal, tabbouleh, fattoush, warak enab, labneh, muhammara — then hot mezze of kibbeh, rakakat, sambousek and grilled halloumi, and a mixed grill of shish taouk, lamb kofta and lahm meshwi carved to order. A shawarma or manakish station works hard through the drinks hour, and knefeh or a baklava tower closes the night.",
+    "It scales cleanly across all four package tiers: as a buffet from AED 120 per person, with a live grill or shawarma station from AED 150, or plated as a modern Lebanese tasting from AED 750. Menus can be built fully Lebanese or blended with Arabic, Mediterranean and Indian dishes where the two families eat differently — which at a Dubai wedding is more often than not."
+   ],
+   "insert_after_block": "Catering for Every Wedding Format",
+   "position": "after the block titled 'Catering for Every Wedding Format'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Why couples choose myCHEF for their wedding",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one belief: on your wedding day, you should own the evening and none of the work. That is why we vet before we ever match. Every chef in the network passes identity checks, a practical cooking assessment, reference verification and ongoing performance reviews — a continuous standard, not a one-time box-tick — and we are honest that no system removes every risk, so we match each wedding to the right available chef for it. For a reception, that might be Sofia Moretti — 12+ years and Le Cordon Bleu Paris training , whose chocolate work, sugar sculptures and plated desserts are a signature of weddings, launches and dinner parties, or another specialist chosen for your cuisines and setting.",
+    "We typically reply within 15 minutes during business hours, and one team handles the menu, chefs, service, styling and cleanup so you avoid juggling vendors on the day.",
+    "Client reviews are added here as each wedding is delivered — real feedback only, not fabricated."
+   ],
+   "insert_after_block": "A Taste of Our Wedding Catering",
+   "position": "after the block titled 'A Taste of Our Wedding Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning wedding catering step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your wedding catering proposal arrives.",
+    "Book 7–14 days ahead or more for a wedding, and earlier again for the October–April peak. Short-notice requests are assessed individually.",
+    "Confirm what goes on the wedding catering menu once the count settles — about a week out for most receptions.",
+    "Ask for special diets up front; wedding catering plates are planned, not improvised inside 48 hours .",
+    "Check loading and access details; allow 2 hours of wedding catering setup on site.",
+    "Plan on roughly 3 hours of wedding catering service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": "Wedding Catering Questions",
+   "position": "after the block titled 'Wedding Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which wedding catering format suits your event?",
+   "new_paragraphs": [
+    "Format What it gives you Staffing Cost position",
+    "Reception buffet A maintained spread guests serve themselves from 1–2 From AED 120 per person",
+    "Premium buffet or grazing tables Presentation-led spread, more premium produce 1–3 From AED 150 per person",
+    "Live stations Cooking in front of your guests 2–4 From AED 150 per person",
+    "Canapés and bowl food Passed service for a standing drinks hour 2–4 From AED 150 per person",
+    "Plated multi-course Every course served to the table together 3 and above From AED 750 per person"
+   ],
+   "insert_after_block": "Wedding Catering Questions",
+   "position": "after the block titled 'Wedding Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "12 to 8 months out: lock the caterer",
+   "new_paragraphs": [
+    "This is the only stage with a hard deadline attached to availability. Dubai's wedding season concentrates into the cooler months, so the same Saturdays are contested by every couple planning an outdoor reception. Confirm your venue first, because the venue determines whether you may bring an external caterer at all. Some hotels require in-house catering; villas, beach venues and private estates usually allow you to choose.",
+    "Once the venue is settled, shortlist two or three caterers and send all of them the same brief: date, approximate guest count, venue, service format and rough budget. Comparing quotes only works when the brief is identical. At this stage you are buying availability and confidence in the team, not a finished menu. Ask how many weddings of your size they run in a season and who the named chef would be."
+   ],
+   "insert_after_block": "Wedding Catering Questions",
+   "position": "after the block titled 'Wedding Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "6 months out: format, menu direction and the contract",
+   "new_paragraphs": [
+    "Now settle the shape of the day. Reception canapes or a seated arrival? Plated service, family-style sharing, or stations? Plated is the most formal and the most staff-intensive. Family-style suits long tables and warms the room. Stations work for larger counts and mixed crowds. This decision drives wedding menu planning more than any individual dish, and it sets the price per head.",
+    "Read the contract properly at this stage. The clauses that matter are the deposit and its refundability, the final-numbers deadline, the cancellation schedule, what happens if guest numbers drop, and whether service charge and the 5% VAT are shown separately. A clear contract at 6 months prevents an awkward conversation at one month. Our wedding catering page sets out how we structure this."
+   ],
+   "insert_after_block": "Wedding Catering Questions",
+   "position": "after the block titled 'Wedding Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "4 to 3 months out: the tasting",
+   "new_paragraphs": [
+    "Hold the tasting once the direction is set but while there is still room to change things. Too early and you are tasting dishes that will not be on the final menu; too late and any change is a rush. Bring the people whose opinion will matter on the day, and keep the group small, because six opinions produce a menu and twelve produce a compromise.",
+    "Taste the food you will serve, not a showcase version of it. Ask specifically how each dish behaves at scale: which can be pre-plated, which need finishing on the pass, and which will suffer if the speeches overrun by twenty minutes. That last question tells you more about a caterer than the food does. Confirm the children's menu and the vendor meals at the same sitting, since both are routinely forgotten until the final week."
+   ],
+   "insert_after_block": "Wedding Catering Questions",
+   "position": "after the block titled 'Wedding Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "2 months to 1 month out: dietary, staffing and logistics",
+   "new_paragraphs": [
+    "Collect dietary requirements with the RSVPs instead of chasing them later. In Dubai you can expect a wide spread as standard: halal across the board, plus vegetarian, vegan, gluten-free, dairy-free and nut-free covers. Send the caterer a consolidated list with table numbers where you can, so those plates are built into the service plan instead of improvised.",
+    "Confirm the logistics that live between the venue and the caterer: kitchen access times, power and water at the service point, where the team can change, parking and loading, and what time the venue requires everything cleared. If your venue has no kitchen, this is when the temporary kitchen plan is signed off. Agree the staffing ratio explicitly. An under-staffed wedding shows up as a slow service, and it is the most common complaint at large receptions."
+   ],
+   "insert_after_block": "Wedding Catering Questions",
+   "position": "after the block titled 'Wedding Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "The final two weeks and the day itself",
+   "new_paragraphs": [
+    "Final numbers are normally due 7 to 14 days out, and that figure is what you are charged for, whether or not every guest attends. Build in a small buffer instead of an optimistic count. Send the final running order at the same time: ceremony end, reception start, speeches, first dance and cake. The catering timeline is built around that document, so a late change to the speeches is a change to the kitchen plan.",
+    "In the last week, confirm the delivery window, the arrival time of the chef and service team, and one named contact who is not the couple. On the day itself, someone other than you should own the catering questions. Every legitimate quote carries 5% VAT ( UAE Ministry of Finance ). For the cost side of the planning, our catering prices guide explains how the number is built."
+   ],
+   "insert_after_block": "Wedding Catering Questions",
+   "position": "after the block titled 'Wedding Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What to ask before you sign",
+   "new_paragraphs": [
+    "Three questions separate caterers. First, food safety: licensed operators work to the Dubai Municipality Food Code, which covers transport and delivery vehicles as well as handling, and requires structured staff training. The Dubai Municipality Food Safety Department monitors food establishments and investigates food-borne illness, so compliance is checked in practice. Ask how food travels to a venue with no kitchen and how it is held before service.",
+    "Second, who cooks. The chef assigned to wedding catering checklist has passed identity checks, a practical cooking assessment, reference verification and post-event reviews by earlier clients. menu planning guide ."
+   ],
+   "insert_after_block": "Wedding Catering Questions",
+   "position": "after the block titled 'Wedding Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Sources",
+   "new_paragraphs": [
+    "Regulatory facts in this checklist are drawn from official sources: the UAE Ministry of Finance (5% VAT, effective 1 January 2018), Dubai Municipality (Food Code, food transportation and delivery-vehicle requirements, and mandatory food-handler training), Dubai Municipality Food Safety Department (food-establishment monitoring and food-borne illness investigation), and Weather and Climate (Dubai December averages of 27°C by day and 19°C at night). Timelines reflect standard Dubai practice; confirm the deadlines in your own contract.",
+    "Request an itemised proposal or start on WhatsApp ."
+   ],
+   "insert_after_block": "Wedding Catering Questions",
+   "position": "after the block titled 'Wedding Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What is the catering cost for a 200-person wedding?",
+   "new_paragraphs": [
+    "Do the arithmetic on the per-head tier, because that is all a caterer is doing when they quote you. Two hundred covers on a reception buffet is 200 × AED 120. On a premium buffet or live stations it is 200 × AED 150. On a plated reception it is 200 × AED 750 and upward. Add 5% VAT to whichever line you land on.",
+    "Two things move that figure once the format is set. Staffing does not scale in a straight line — a 200-cover plated service needs a far higher staff-to-guest ratio than a buffet, and it is the single biggest reason plated sits where it does. And a 200-guest wedding at a private villa or a beach usually needs a temporary kitchen, power and holding equipment brought in, which a hotel ballroom already has. We price both on their own lines so you can see the difference instead of guessing at it."
+   ],
+   "insert_after_block": "Catering for Every Wedding Format",
+   "position": "after the block titled 'Catering for Every Wedding Format'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  },
+  {
+   "new_heading": "How to hire your wedding caterer",
+   "new_paragraphs": [
+    "To hire wedding catering in Dubai, share three things — your date, your venue or area, and your guest count — and the rest runs on a clear sequence:",
+    "Tell us the date, setting and numbers; we confirm availability and coverage in your area.",
+    "We match a vetted chef and send a proposed wedding menu with an itemised proposal.",
+    "Book an optional tasting to refine dishes before you confirm.",
+    "On the day, we handle chefs, service staff, styling, setup and cleanup end to end.",
+    "Searching for wedding catering near me usually returns venues and drop-off trays; myCHEF instead brings a private chef and a full team to whichever address your wedding is at, whether that is a home celebration, a rented villa or a licensed venue."
+   ],
+   "insert_after_block": "A Taste of Our Wedding Catering",
+   "position": "after the block titled 'A Taste of Our Wedding Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  }
+ ],
+ "faq": []
+}

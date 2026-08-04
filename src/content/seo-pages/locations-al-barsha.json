@@ -1,0 +1,181 @@
+{
+ "url": "/locations/al-barsha",
+ "keyword_strategy": {
+  "main_keyword": "private chef al barsha",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 6,
+  "subkeywords_carried": 3,
+  "coverage_percent": 50,
+  "subkeywords_carried_list": [
+   "how much does a private chef cost in dubai?",
+   "best private chef al barsha",
+   "full time private chef dubai"
+  ],
+  "subkeywords_not_carried": [
+   "how much does a private chef cost for a meal?",
+   "how much should you charge as a private chef?",
+   "private chef al barsha husband"
+  ],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Private Chef Al Barsha | Villa Dining & Catering | myCHEF",
+  "meta_description": "Private chef & catering in Al Barsha from AED 700pp — villa dining, events and bespoke menus with vetted chefs. Serving Al Barsha 1, 2 and 3. Request a proposal.",
+  "h1": "Private Chef Al Barsha — In-Villa Dining & Catering"
+ },
+ "opening_paragraph": [
+  "A private chef in Al Barsha costs from AED 700 per person through myCHEF, and that brings restaurant-standard cooking to your own kitchen. Menu planning, on-site cooking, full table service and cleanup are all included, with a vetted chef matched to your occasion. Al Barsha's mix of family villas and apartment towers makes in-villa dining the natural way to host here, from a quiet dinner for two to a buffet for the whole compound."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "Who Books Private Chef & Catering in Al Barsha?",
+   "match_confidence": 0.76,
+   "new_heading": "How much does a private chef cost in Al Barsha?",
+   "new_paragraphs": [
+    "Al barsha private chef cost starts from AED 700 per person and is priced per head, so the total scales with your numbers. Intimate dinners for two sit nearer AED 950–1,300 per person, because the fixed cost of a chef's evening is shared across fewer guests; around six guests the rate settles near AED 750–1,000; and ten or more comes down from AED 700. Menu complexity, premium ingredients and whether you need extra service staff shift the figure. Al barsha catering services for a buffet or larger party are quoted on the same per-person logic. For the full picture, see our private chef prices in Dubai breakdown, or send your date, guest count and menu ideas for an itemised quote. Every proposal is transparent — you see exactly what each line covers before you commit."
+   ]
+  },
+  {
+   "block_on_your_page": "What Is Included in Al Barsha Catering",
+   "match_confidence": 0.63,
+   "new_heading": "What a private chef in Al Barsha includes",
+   "new_paragraphs": [
+    "Everything from the menu to the washing-up. When you book a private chef al barsha through myCHEF, one vetted chef handles the full evening: a menu designed around your guests and dietary needs, a shopping list of fresh ingredients, cooking done live in your kitchen, food plated or served course by course, and a spotless finish. For larger tables we add service staff so nobody at your gathering is clearing plates. This is personal chef al barsha service in the truest sense — the food, timing and pace are built for your room, not copied from a fixed restaurant menu. Whether you want a relaxed home chef al barsha experience for the family or a polished dinner party with wine pairings, the chef adapts. You provide the kitchen and the guest list; the chef brings the skill, the equipment they need and the calm that lets you enjoy your own party."
+   ]
+  },
+  {
+   "block_on_your_page": "Why myCHEF Dubai for Al Barsha Catering",
+   "match_confidence": 0.59,
+   "new_heading": "Why myCHEF for a private chef in Al Barsha",
+   "new_paragraphs": [
+    "Because every chef is vetted before they ever cook for you. MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you own the evening, we carry the work. Before joining the network, each chef passes identity checks, a practical cooking assessment, reference verification and ongoing performance reviews — a continuous standard, not a one-time tick. We are honest that no system removes every risk, so we match each event to the chef well suited to it. For a refined Al Barsha dinner that often means Ahmed Al-Rashid , whose 18+ years across Dubai, London and Paris in classical French technique show in the way he designs each menu as a collaboration with the host, every course timed and seasoned to exacting standards. We have delivered intimate villa dinners and large celebrations across Dubai's communities. Client reviews are added as events run."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "At a Glance",
+  "Flexible private chef and event catering tailored to Al Barsha's diverse mix of apartments, villas, hotel residences and local businesses.",
+  "Menu Styles for Al Barsha Events",
+  "Popular Al Barsha Catering Occasions",
+  "Also Serving Near Al Barsha",
+  "Services in Al Barsha",
+  "Explore Our Services",
+  "Popular Events in Al Barsha",
+  "Questions About Al Barsha Catering",
+  "Book Catering in Al Barsha",
+  "Explore myCHEF Dubai",
+  "How Al Barsha Private Chef Catering Works",
+  "Delivery & Access in Al Barsha",
+  "Properties We Serve in Al Barsha"
+ ],
+ "add_block": [
+  {
+   "new_heading": "Private chef in Al Barsha for parties, birthdays and gatherings",
+   "new_paragraphs": [
+    "Al Barsha's calendar leans toward home celebrations, and a chef quietly runs the food while you host. The most-booked formats here are family dinners, kids' birthday catering and buffets for the bigger crowd, but the same team covers al barsha party catering, al barsha dinner party catering and milestones like anniversaries and engagements. For an al barsha event catering brief — a housewarming in a new villa, a graduation, a Ramadan gathering — we scale the menu and staffing to the guest count instead of the calendar date. Larger celebrations often work well as a buffet or live-station spread; intimate ones as a plated multi-course dinner. Because Al Barsha's villas and apartments vary so much in kitchen size, the chef confirms what your space can handle before the day, so a fifty-guest party runs as smoothly as a table of six."
+   ],
+   "insert_after_block": "What Is Included in Al Barsha Catering",
+   "position": "after the block titled 'What Is Included in Al Barsha Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Al Barsha private dining menus and cuisine options",
+   "new_paragraphs": [
+    "Menus are built for your table, across every major cuisine and dietary need. Choose bespoke Arabic , Mediterranean , Italian , Indian and Pan-Asian menus, all available fully halal , with vegetarian, vegan, gluten-free and other allergen-aware menus on request, subject to confirmation by the assigned culinary partner. A private dining al barsha evening might be a five-course tasting for a special occasion, a shared family-style feast, or a grazing buffet for a crowd. Tell the chef your theme — a specific region, a nostalgic dish, a mix of small plates — and the menu comes back tailored, not templated. Browse sample menus for ideas or start from a blank page. Seasonal produce and the freshest available ingredients anchor every menu, and the chef talks you through swaps so the final line-up suits both your guests and your budget."
+   ],
+   "insert_after_block": "What Is Included in Al Barsha Catering",
+   "position": "after the block titled 'What Is Included in Al Barsha Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Private chef across Al Barsha and nearby",
+   "new_paragraphs": [
+    "From Al Barsha 1 to Al Barsha South, and out to the neighbouring communities, one team covers the whole area. If you want the best private chef al barsha or a luxury private chef al barsha for a standout occasion, the same vetting and matching applies whatever the address. We also serve nearby Dubai Hills and Jumeirah , or you can explore all Dubai locations to plan an event elsewhere in the city."
+   ],
+   "insert_after_block": "Why myCHEF Dubai for Al Barsha Catering",
+   "position": "after the block titled 'Why myCHEF Dubai for Al Barsha Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning private chef al barsha step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your private chef al barsha proposal arrives.",
+    "Book private chef al barsha about 2 weeks ahead off-peak, and 6 weeks ahead between November and March.",
+    "Confirm what goes on the private chef al barsha menu 7 days out, once the count settles.",
+    "Ask for special diets up front; private chef al barsha plates are planned, not improvised inside 48 hours .",
+    "Check loading and access details; allow 2 hours of private chef al barsha setup on site.",
+    "Plan on roughly 3 hours of private chef al barsha service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": "Why myCHEF Dubai for Al Barsha Catering",
+   "position": "after the block titled 'Why myCHEF Dubai for Al Barsha Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which private chef al barsha format suits your event?",
+   "new_paragraphs": [
+    "Format Service staff Guests it suits Indicative cost",
+    "Drop-off None Any size, informal Most economical",
+    "Buffet 1–2 20–60 From AED 700 per person",
+    "Live stations 2–4 40 and above From AED 700 per person",
+    "Plated service 3 and above 8–40 seated Highest per head"
+   ],
+   "insert_after_block": "Why myCHEF Dubai for Al Barsha Catering",
+   "position": "after the block titled 'Why myCHEF Dubai for Al Barsha Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Common questions",
+   "new_paragraphs": [
+    "How much does a private chef cost in Al Barsha?",
+    "Private dining in Al Barsha starts from about AED 700–950 per person, depending on guest count, menu and service level. Larger groups come down per head; send your numbers for an exact quote.",
+    "Which parts of Al Barsha do you serve?",
+    "All of Al Barsha — Al Barsha 1, 2 and 3, Al Barsha South and the surrounding streets — plus nearby Dubai communities. Confirm your exact address when you enquire.",
+    "What's included?",
+    "Included is a vetted chef, service staff where needed, plating, setup and the cleanup — all handled for you. You provide the kitchen; the chef brings everything else.",
+    "How do I book?",
+    "Booking takes one message: share your date, guest count and address; we match a vetted chef and send an itemised proposal, usually within one business day.",
+    "Can you cater a party or larger gathering?",
+    "Yes — al barsha party catering and dinner parties are among the most-booked formats here, served as a buffet, grazing table or plated menu scaled to your guest count.",
+    "Do you offer halal and dietary-specific menus in Al Barsha?",
+    "Every menu can be prepared fully halal. Gluten-free, nut-conscious and other dietary menu options may be available on request, subject to confirmation by the assigned culinary partner. Partner kitchens may handle allergens, and cross-contact cannot be completely excluded unless dedicated controls have been specifically confirmed for the booking. Guests with allergies must provide full details before confirming their event.",
+    "Do you cover apartments as well as villas?",
+    "Yes — an in-villa chef al barsha works in both. Whether you host in an Al Barsha villa or an apartment tower, the chef adapts the menu and prep to your kitchen.",
+    "For private chef al barsha, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements ."
+   ],
+   "insert_after_block": "Why myCHEF Dubai for Al Barsha Catering",
+   "position": "after the block titled 'Why myCHEF Dubai for Al Barsha Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How to hire a private chef in Al Barsha",
+   "new_paragraphs": [
+    "Booking takes one message and about a day to confirm. To hire a chef al barsha, share three things — your date, your guest count and your Al Barsha address — and we match a vetted chef suited to your occasion, then send an itemised proposal, usually within one business day. During our published business hours you will often hear back promptly with a first chef match. From there you confirm the menu together, note any dietary needs, and settle the details; the chef arrives with ingredients and equipment, cooks, serves and cleans up. There is no long contract for a one-off dinner — a single chef for hire al barsha, booked for a single evening. If you are weighing a plated chef dinner against a larger spread, compare private chef vs catering to decide which format fits your event."
+   ],
+   "insert_after_block": "How Al Barsha Private Chef Catering Works",
+   "position": "after the block titled 'How Al Barsha Private Chef Catering Works'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  },
+  {
+   "new_heading": "More on private chef al barsha",
+   "new_paragraphs": [
+    "Private chef birthday dinner",
+    "Private chef jvc",
+    "Private chef cost",
+    "Private chef jlt",
+    "Get an itemised quote"
+   ],
+   "insert_after_block": "Delivery & Access in Al Barsha",
+   "position": "after the block titled 'Delivery & Access in Al Barsha'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  }
+ ],
+ "faq": []
+}

@@ -1,0 +1,180 @@
+{
+ "url": "/locations/downtown-dubai",
+ "keyword_strategy": {
+  "main_keyword": "private chef downtown dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 3,
+  "subkeywords_carried": 3,
+  "coverage_percent": 100,
+  "subkeywords_carried_list": [
+   "live in chef dubai",
+   "private chef at home dubai",
+   "full time private chef dubai"
+  ],
+  "subkeywords_not_carried": [],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Private Chef Downtown Dubai | Villa Dining & Catering | myCHEF",
+  "meta_description": "Private chef & catering in Downtown Dubai from AED 700pp — villa dining, events and bespoke menus with vetted chefs. Serving Burj Khalifa residences. Request a proposal.",
+  "h1": "Private Chef & Catering in Downtown Dubai — Menus, Prices and What's Included"
+ },
+ "opening_paragraph": [
+  "A private chef in Downtown Dubai costs from AED 700 per person, and myCHEF handles the menu, the cooking and the cleanup. You get restaurant-grade cooking in your own tower kitchen, with nothing left for you to clear away. It is the simplest way to eat well in the heart of the city without booking a table or leaving your building. MyCHEF pairs you with a vetted chef who plans the menu around your occasion, cooks on site, serves each course and clears everything away. Downtown is a district of landmark apartment towers, many looking straight onto the Burj Khalifa or Dubai Opera, and the chef cooks for the residents and celebrants who live among them. Send your date and address, and during our published business hours you will usually hear back promptly with a chef match and an itemised proposal."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "Who books private chef and catering in Downtown Dubai",
+   "match_confidence": 0.75,
+   "new_heading": "How much does a private chef cost in Downtown Dubai?",
+   "new_paragraphs": [
+    "Downtown Dubai private chef cost starts from AED 700 per person and is priced per head. The number scales with your guest count and menu. An intimate dinner for two sits nearer AED 950–1,300 a head; six guests bring it to around AED 750–1,000; ten or more start from AED 700. Multi-course tasting menus and premium ingredients sit at the top of that band, simpler sharing menus at the base. A la carte multi-course tasting experiences are available from AED 1,400 per person for the full showcase. See the complete breakdown on private chef prices in Dubai , or send your numbers for an exact quote tied to your own event. Larger groups come down per head."
+   ]
+  },
+  {
+   "block_on_your_page": "What is included in our Downtown Dubai catering service",
+   "match_confidence": 0.55,
+   "new_heading": "What a private chef in Downtown Dubai includes",
+   "new_paragraphs": [
+    "A booking covers the whole evening end to end, so you host and nothing else. Your personal chef designs the menu with you, sources and brings the ingredients, cooks in your apartment kitchen, plates and serves each course, then leaves the space cleaner than they found it. For a private dining evening in Downtown Dubai that means real fine-dining without the logistics — no catering trays, no reheating, no scramble at the end of the night. Service staff can be added for larger tables, and canapés, grazing spreads or a full multi-course tasting are all on the table. Everything is built around your address and guest count, not a fixed package. A quiet dinner for two and a fifty-guest reception get the same tailored treatment, just scaled to the room and the occasion."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "At a Glance",
+  "Fine dining catering with Burj Khalifa views for penthouses, corporate events and private celebrations in Downtown Dubai.",
+  "How Downtown Dubai catering works",
+  "Popular Downtown Dubai events",
+  "Logistics for Downtown Dubai events",
+  "Also Serving Near Downtown Dubai",
+  "Services in Downtown Dubai",
+  "Explore Our Services",
+  "Popular Events in Downtown Dubai",
+  "Questions About Downtown Dubai Catering",
+  "Explore myCHEF Dubai",
+  "Menu options for Downtown Dubai events",
+  "Why myCHEF Dubai for Downtown Dubai",
+  "Plan Your Downtown Dubai Private Dinner",
+  "Properties We Serve in Downtown Dubai"
+ ],
+ "add_block": [
+  {
+   "new_heading": "Menus and options",
+   "new_paragraphs": [
+    "Menus are bespoke, spanning Arabic , Mediterranean , Italian , Indian and Pan-Asian cooking, with halal , vegetarian and vegan options as standard and allergen-aware menus on request, subject to confirmation by the assigned culinary partner. You can go classic French fine dining, a modern sharing feast, a seafood-led tasting or a fusion menu that mixes regions across courses. Every dish is agreed with you in advance, so dietary needs, dislikes and signature requests are all built in before the chef shops. Wine pairings and non-alcoholic pairings can be planned to match. If you would start from something concrete, browse sample menus for a feel of the range, then tell us your theme and we adapt from there. The sample is a starting point, not a ceiling."
+   ],
+   "insert_after_block": "Plan Your Downtown Dubai Private Dinner",
+   "position": "after the block titled 'Plan Your Downtown Dubai Private Dinner'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Tower logistics and in-villa service",
+   "new_paragraphs": [
+    "Downtown living puts the view at the centre of the evening, so a good villa chef and in-villa team plate to the setting and work around the building, not against it. Practically, that means coordinating with your tower — using resident service lifts and loading bays, timing the arrival to keep the lobby tidy, and setting up in your kitchen without turning the apartment upside down. For downtown Dubai villa catering and apartment dinners alike, the chef arrives with everything needed, works cleanly in the space you have, and packs down completely at the end. Parking, security clearance and delivery access are all sorted in advance once you share the address, so on the night your only job is to open the door and enjoy your own home as the setting."
+   ],
+   "insert_after_block": "Plan Your Downtown Dubai Private Dinner",
+   "position": "after the block titled 'Plan Your Downtown Dubai Private Dinner'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Why myCHEF",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you own the evening, we carry the work. No chef is offered for private chef downtown before clearing identity checks, a practical cooking assessment, reference verification and ongoing performance reviews — a continuous standard, not a one-time tick. We are honest about it, too: no system removes every risk, so we match each event to the right chef available for it. For a luxury private chef occasion in Downtown Dubai, that is often Ahmed Al-Rashid — 18+ years across Dubai, London and Paris in classical French technique. He designs each menu as a collaboration with the host, every course timed, seasoned and served to exacting standards. We have delivered intimate villa dinners and large celebrations across Dubai's communities. Client reviews are added as events run."
+   ],
+   "insert_after_block": "Why myCHEF Dubai for Downtown Dubai",
+   "position": "after the block titled 'Why myCHEF Dubai for Downtown Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning private chef downtown step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your private chef downtown proposal arrives.",
+    "Book private chef downtown about 2 weeks ahead off-peak, and 6 weeks ahead between November and March.",
+    "Confirm what goes on the private chef downtown menu 7 days out, once the count settles.",
+    "Ask for special diets up front; private chef downtown plates are planned, not improvised inside 48 hours .",
+    "Check loading and access details; allow 2 hours of private chef downtown setup on site.",
+    "Plan on roughly 3 hours of private chef downtown service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": "Properties We Serve in Downtown Dubai",
+   "position": "after the block titled 'Properties We Serve in Downtown Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which private chef downtown format suits your event?",
+   "new_paragraphs": [
+    "Format Service staff Guests it suits Indicative cost",
+    "Drop-off None Any size, informal Most economical",
+    "Buffet 1–2 20–60 From AED 700 per person",
+    "Live stations 2–4 40 and above From AED 700 per person",
+    "Plated service 3 and above 8–40 seated Highest per head"
+   ],
+   "insert_after_block": "Properties We Serve in Downtown Dubai",
+   "position": "after the block titled 'Properties We Serve in Downtown Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Common questions",
+   "new_paragraphs": [
+    "How much does a private chef cost in Downtown Dubai?",
+    "Private dining in Downtown Dubai starts from about AED 700–950 per person, depending on guest count, menu and service level. Larger groups come down per head; send your numbers for an exact quote.",
+    "Which parts of Downtown Dubai do you serve?",
+    "All of Downtown Dubai — Burj Khalifa residences, the Opera District and the surrounding streets — plus nearby Dubai communities. Confirm your exact address when you enquire.",
+    "What's included?",
+    "Everything from menu planning to the chef, the service staff, the plating and the cleanup — one team covers all of it, so you only host.",
+    "Can you cater a dinner party or event in a Downtown Dubai apartment?",
+    "Yes — Downtown Dubai dinner party catering and event catering are among our most common bookings here, from six-guest celebrations to canapé receptions for fifty in Boulevard and Old Town towers.",
+    "Do you offer halal and dietary options in Downtown Dubai?",
+    "Yes. Halal menus are standard. Gluten-free, nut-conscious and other dietary menu options may be available on request, subject to confirmation by the assigned culinary partner. Partner kitchens may handle allergens, and cross-contact cannot be completely excluded unless dedicated controls have been specifically confirmed for the booking. Guests with allergies must provide full details before confirming their event.",
+    "Is the chef vetted?",
+    "Every chef passes identity checks, a practical cooking assessment, reference verification and ongoing performance reviews before working an event in Downtown Dubai.",
+    "How do I book?",
+    "Share your date, guest count and address; we match a vetted chef and send an itemised proposal, usually within one business day.",
+    "For private chef downtown, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements ."
+   ],
+   "insert_after_block": "Properties We Serve in Downtown Dubai",
+   "position": "after the block titled 'Properties We Serve in Downtown Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "More on private chef downtown dubai",
+   "new_paragraphs": [
+    "Private chef date night dubai",
+    "Tourist villa chef catering dubai",
+    "How to hire a private chef dubai",
+    "Part time private chef catering dubai",
+    "Get an itemised quote"
+   ],
+   "insert_after_block": "Menu options for Downtown Dubai events",
+   "position": "after the block titled 'Menu options for Downtown Dubai events'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  },
+  {
+   "new_heading": "How to hire a chef in Downtown Dubai",
+   "new_paragraphs": [
+    "To hire a chef, share three things — your date, your guest count and your address — and we handle the rest. From there we match a vetted chef for hire to your cuisine and occasion, agree the menu together, and send an itemised proposal, usually within one business day. You confirm, we take care of the shopping, cooking, service and cleanup on the day itself. There is no membership and no obligation to enquire, and a home chef or personal chef can be booked for a one-off dinner or a recurring arrangement. If you are still weighing formats and want the best private chef for a specific brief, tell us what you are picturing. We will recommend the right chef and menu instead of upselling a package you do not need."
+   ],
+   "insert_after_block": "Why myCHEF Dubai for Downtown Dubai",
+   "position": "after the block titled 'Why myCHEF Dubai for Downtown Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  },
+  {
+   "new_heading": "Private chef Downtown Dubai for weddings, corporate and parties",
+   "new_paragraphs": [
+    "The same team handles celebrations, business hosting and parties across the district. Intimate weddings and engagement dinners suit the tower penthouses with their Burj Khalifa views; corporate hosts use us for board dinners and client entertaining near the Opera District; and Downtown Dubai party catering ranges from milestone birthdays to canapé receptions. Downtown Dubai event catering and dinner party catering are among our most requested formats here — a chef in your own home reads as far more personal than a restaurant back room. Whether it is a seated six-course meal or roaming finger food for a crowd, the menu, pacing and service are matched to the event. Tell us the occasion, the headcount and the mood. The chef then builds the night to fit, not to a template."
+   ],
+   "insert_after_block": "Plan Your Downtown Dubai Private Dinner",
+   "position": "after the block titled 'Plan Your Downtown Dubai Private Dinner'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  }
+ ],
+ "faq": []
+}

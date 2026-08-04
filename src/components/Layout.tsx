@@ -4,6 +4,8 @@ import Footer from './Footer'
 import ExploreSection from './ExploreSection'
 import StickyMobileCTA from './StickyMobileCTA'
 import FloatingChefChat from './FloatingChefChat'
+import SeoContent from './SeoContent'
+import SeoHead from './SeoHead'
 
 interface LayoutProps {
   children: ReactNode
@@ -15,11 +17,13 @@ export default function Layout({ children }: LayoutProps) {
       <Navbar />
       <main className="flex-1 pb-[calc(5rem+env(safe-area-inset-bottom))] lg:pb-0">
         {children}
+        <SeoContent />
       </main>
       <ExploreSection />
       <Footer />
       <StickyMobileCTA />
       <FloatingChefChat />
+      <SeoHead />
     </div>
   )
 }

@@ -1,0 +1,219 @@
+{
+ "url": "/bar-services-dubai",
+ "keyword_strategy": {
+  "main_keyword": "bar services catering dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 8,
+  "subkeywords_carried": 8,
+  "coverage_percent": 100,
+  "subkeywords_carried_list": [
+   "mobile bar dubai",
+   "bar rental dubai",
+   "bar catering dubai",
+   "hire a bar for a party",
+   "best bar services catering dubai",
+   "bar services catering dubai price",
+   "cheap bar services catering dubai",
+   "pro bar catering services dubai"
+  ],
+  "subkeywords_not_carried": [],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Bar Services Catering Dubai | mocktail & barista bars from AED 700 | myCHEF",
+  "meta_description": "Bar services catering in Dubai from AED 700 per person. Mocktail bars, barista stations, juice and coffee service with trained bartenders, setup and glassware. Request a proposal from myCHEF.",
+  "h1": "Bar Services Catering in Dubai — Real Prices, Menus and Timings"
+ },
+ "opening_paragraph": [
+  "Bar services catering in Dubai from myCHEF is the whole drinks side of your event, from AED 700 per person. We build and staff mocktail bars, barista stations and fresh-juice service, with trained bartenders on station. A good bar does more than pour: it controls the pace of an evening and gives guests somewhere to gather. Send your date, guest count and venue for an itemised proposal."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "What's Included",
+   "match_confidence": 0.65,
+   "new_heading": "What do bar services include?",
+   "new_paragraphs": [
+    "The full build, not just the drinks. A bar services caterer in Dubai brings the bar itself where the venue has none, the glassware, the ice programme, the garnish prep, the back-bar stock and the team who work it. As a bar services catering company, myCHEF plans the parts that decide whether a queue forms: how many bartenders per hundred guests, where the bar sits relative to the food, and whether you need a second service point for a reception that spills outdoors.",
+    "The bar services menu is designed like a food menu, not assembled from defaults. Two or three signature non-alcoholic serves built around the event, a short classic list, a soft option for guests who want something plain, and water service throughout. For longer events we stagger the list, opening with lighter, colder serves and moving to richer ones later in the night."
+   ]
+  },
+  {
+   "block_on_your_page": "Bar Service Questions",
+   "match_confidence": 0.55,
+   "new_heading": "Frequently asked questions",
+   "new_paragraphs": [
+    "How much do bar services cost in Dubai?",
+    "Bar services catering in Dubai starts from AED 700 per person for a staffed bar with a designed list. Staffing ratio, the bar build and how elaborate the drinks are set the final figure. Adding a bar to an existing catering booking is the most economical route.",
+    "Do you serve alcohol?",
+    "Alcohol service in Dubai is controlled by venue licensing and not by the caterer. We design and run the non-alcoholic programme and coordinate with your venue's licensed provider so both sides work as one bar.",
+    "What is included in a mocktail bar?",
+    "The bar build where needed, glassware, ice, fresh juice and house syrups, garnish prep, trained bartenders on station, service throughout, and clearing afterwards.",
+    "How many bartenders do I need?",
+    "It depends on guest count and service window. An under-staffed bar is the most common complaint at events, so we quote the ratio explicitly instead of leaving it implied, and add a second service point where the room splits.",
+    "Can you set up a bar outdoors or on a yacht?",
+    "Yes. Outdoor and yacht bars arrive flat-packed and are built on site. Between May and September they need shade, chilled storage near the service point and a larger ice allowance.",
+    "Do you offer barista and coffee service?",
+    "Yes. Barista stations suit corporate mornings and daytime events, and Arabic tea and coffee service with dates suits traditional receptions and Ramadan gatherings.",
+    "Is the ice handled safely?",
+    "Ice is treated as a food product under the Dubai Municipality Food Code: sourced from a licensed supplier, transported cold, stored covered and handled with scoops, not with glasses."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "Bar Service That Sets the Mood",
+  "A Taste of Our Drink Menu",
+  "Bar Service Across Dubai",
+  "Book Your Mobile Bar Team",
+  "Explore myCHEF Dubai",
+  "A Bar Setup for Every Event",
+  "Bar Service for Every Dubai Occasion",
+  "Bar Service in Action"
+ ],
+ "add_block": [
+  {
+   "new_heading": "Which bar formats suit which events?",
+   "new_paragraphs": [
+    "The mocktail bar is the workhorse and covers most Dubai events well, since a large share of guests at any gathering are not drinking alcohol. Built properly with fresh juice, house syrups, bitters-style aromatics and real technique, it reads as a bar, not a compromise. Our dedicated mocktail bar page covers that format in more depth.",
+    "A barista station suits daytime events, corporate mornings and weddings where guests need a lift after lunch. Fresh-juice and smoothie bars work at brunches, pool parties and wellness events. Tea service, including an Arabic tea and coffee setup with dates, suits traditional receptions and Ramadan gatherings. Dessert-drink pairings work at the end of a seated dinner, matching a drink to each of the final courses. Many events run two of these at once, splitting the room."
+   ],
+   "insert_after_block": "What's Included",
+   "position": "after the block titled 'What's Included'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Mobile bars and bar rental in Dubai",
+   "new_paragraphs": [
+    "Most Dubai venues that people celebrate in — a villa garden, a rooftop, a beach house, a yacht deck, an empty studio space — have no bar in them. A mobile bar solves that. The unit arrives flat-packed a couple of hours before service, is built where you want it, and comes with its own back-bar shelving, ice wells, waste bin and under-counter storage, so the team is not running to a kitchen every time a glass needs rinsing. What it needs from the venue is a firm level surface, a power point within reach for the ice and chillers, and a route in that fits the panels — a service lift, a garden gate, a passenger lift where the panels break down small enough. Tell us the access route at enquiry and we size the bar to it instead of discovering the problem on the day.",
+    "Two of those venues change the list, and it is worth saying how rather than promising to check. A rooftop is the straightforward one, for a reason most caterers discover late: the UAE Fire and Life Safety Code bars LPG cylinders from any roof or terrace, and on a building over 90 m no LPG reaches the roof at all, so gas kit is what gets refused up there while an all-electric bar has nothing to declare. What we confirm on a roof is the amperage at the socket and the lift the panels travel in. A desert site is off-grid, so the ice wells and chillers run off the event generator and we ask for its rating in kW before quoting the build — and everything we bring in leaves with us at the end, because Dubai Municipality enforces site clearance against the caterer, not against you.",
+    "Bar rental on its own — the unit, the glassware and the back-bar kit delivered without a team — is something we are asked for and it is worth being straight about. We quote it, but it is rarely the cheaper option once delivery, build, breakdown, glass hire and the ice programme are counted, and it moves the two things that go wrong at a bar, the pouring and the pacing, onto you. Where a dry hire genuinely makes sense is when your venue already supplies the staff under its own licence and only the furniture is missing. In every other case a staffed bar costs less per guest than the same evening rescued halfway through."
+   ],
+   "insert_after_block": "What's Included",
+   "position": "after the block titled 'What's Included'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What about alcohol?",
+   "new_paragraphs": [
+    "This is the part worth being clear about. Alcohol service in Dubai is controlled through venue licensing and not by the caterer. Licensed hotels and venues serve alcohol under their own permissions, and at a private venue it is arranged through a licensed provider, not brought in by your catering team.",
+    "In practice that means we focus on the non-alcoholic programme and work alongside whoever holds the licence at your venue, coordinating service timings, glassware and the bar layout so the two sides operate as one bar instead of two competing queues. If your venue's licensing position is unclear, confirm it with the venue before you plan the drinks, because it changes the bar design."
+   ],
+   "insert_after_block": "What's Included",
+   "position": "after the block titled 'What's Included'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Hygiene, ice and the Dubai heat",
+   "new_paragraphs": [
+    "Drinks carry real food-safety weight, and ice is where it concentrates. Licensed operators work to the Dubai Municipality Food Code, which sets requirements for food transportation and delivery vehicles as well as for handling, and obliges establishments to run a structured staff training system. Ice is treated as a food product: sourced from a licensed supplier, transported cold and handled with scoops, not glasses.",
+    "Heat is the other constraint. Between May and September an outdoor bar needs shade, a much larger ice budget and chilled storage close to the service point. From November to March, when days average around 27°C and nights fall to about 19°C, an outdoor bar needs no extra measures. Dubai Municipality 's Food Safety Department monitors food establishments and investigates food-borne illness, so licensed handling is checked in practice. The partner verification framework myCHEF is rolling out applies to bar services catering as it does everywhere else: identity and licence checks, practical assessment, references and post-event review."
+   ],
+   "insert_after_block": "Bar Service in Action",
+   "position": "after the block titled 'Bar Service in Action'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How to judge the best bar service for your event",
+   "new_paragraphs": [
+    "No caterer can award itself that label, so here is what to check before you book any bar services caterer in Dubai. Ask for the staffing ratio in writing, as a number of bartenders per hundred guests for a stated service window, not a promise that it will be adequate. Ask where the ice comes from and how it is stored, because ice is a food product and the answer separates operators quickly. Ask whether the quoted price includes the build, the breakdown, the glassware and the garnish prep, or whether those arrive later as extras. Ask what happens if the guest count moves in the last week. And ask to see the drinks list written out before you commit, because a bar with three considered signature serves will outperform one with a menu of twenty that all come from the same three bottles. A bar that answers those five plainly is the one worth booking."
+   ],
+   "insert_after_block": "Bar Service in Action",
+   "position": "after the block titled 'Bar Service in Action'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Where we cover — Dubai, and asking about Sharjah",
+   "new_paragraphs": [
+    "Bar services catering runs right across Dubai: villas and apartments, hotel and ballroom events, beach and desert setups, offices and yacht charters. Sharjah and the other northern emirates come up often enough to answer directly, and the honest answer is that it depends on the date and the venue, and is not a flat yes. Alcohol licensing, permitted activities and travel time all change the moment you cross an emirate border — Sharjah in particular is a dry emirate, so a bar there is a non-alcoholic bar by law, which is the programme we design anyway. If your venue sits outside Dubai, say so in your first message with the date and the address, and we will confirm whether a partner can cover it and what the travel and setup time adds before you plan anything around it."
+   ],
+   "insert_after_block": "Bar Service in Action",
+   "position": "after the block titled 'Bar Service in Action'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning bar services catering step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your bar services catering proposal arrives.",
+    "Book as early as you can — as a guide, 72 hours for a standard bar package and 3–5 days once a mobile bar build or extra staffing is involved. Short notice is assessed individually.",
+    "Confirm your bar services catering menu about 7 days out, when the guest list is firm.",
+    "Ask early about allergies and dietary plates — not in the last 48 hours before bar services catering.",
+    "Check the access route before bar services catering day — setup starts roughly 2 hours ahead.",
+    "Plan on roughly 3 hours of bar services catering service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": "A Bar Setup for Every Event",
+   "position": "after the block titled 'A Bar Setup for Every Event'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which bar services catering format suits your event?",
+   "new_paragraphs": [
+    "Format Service staff Guests it suits Indicative cost",
+    "Bar rental, dry hire None — venue supplies the team Any size Quoted on build and delivery",
+    "Barista or juice station 1–2 20–100, daytime Most economical staffed option",
+    "Mobile mocktail bar 2–3 40 and above From AED 700 per person",
+    "Two service points, full programme 4 and above 150 and above Highest per head"
+   ],
+   "insert_after_block": "A Bar Setup for Every Event",
+   "position": "after the block titled 'A Bar Setup for Every Event'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Sources",
+   "new_paragraphs": [
+    "Facts on this page are drawn from official sources: the UAE Ministry of Finance (5% VAT, effective 1 January 2018), Dubai Municipality (Food Code, food transportation and delivery-vehicle requirements, and mandatory food-handler training), and Dubai Municipality Food Safety Department (food-establishment monitoring and food-borne illness investigation). Seasonal temperature ranges are from Weather and Climate (Dubai December averages 27°C by day, 19°C at night). Alcohol licensing is set by your venue; confirm it with the venue directly."
+   ],
+   "insert_after_block": "Bar Service Questions",
+   "position": "after the block titled 'Bar Service Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  }
+ ],
+ "faq": [
+  {
+   "question": "How much do bar services cost in Dubai?",
+   "answer": [
+    "Bar services catering in Dubai starts from AED 700 per person for a staffed bar with a designed list. Staffing ratio, the bar build and how elaborate the drinks are set the final figure. Adding a bar to an existing catering booking is the most economical route."
+   ]
+  },
+  {
+   "question": "Do you serve alcohol?",
+   "answer": [
+    "Alcohol service in Dubai is controlled by venue licensing and not by the caterer. We design and run the non-alcoholic programme and coordinate with your venue's licensed provider so both sides work as one bar."
+   ]
+  },
+  {
+   "question": "What is included in a mocktail bar?",
+   "answer": [
+    "The bar build where needed, glassware, ice, fresh juice and house syrups, garnish prep, trained bartenders on station, service throughout, and clearing afterwards."
+   ]
+  },
+  {
+   "question": "How many bartenders do I need?",
+   "answer": [
+    "It depends on guest count and service window. An under-staffed bar is the most common complaint at events, so we quote the ratio explicitly instead of leaving it implied, and add a second service point where the room splits."
+   ]
+  },
+  {
+   "question": "Can you set up a bar outdoors or on a yacht?",
+   "answer": [
+    "Yes. Outdoor and yacht bars arrive flat-packed and are built on site. Between May and September they need shade, chilled storage near the service point and a larger ice allowance."
+   ]
+  },
+  {
+   "question": "Do you offer barista and coffee service?",
+   "answer": [
+    "Yes. Barista stations suit corporate mornings and daytime events, and Arabic tea and coffee service with dates suits traditional receptions and Ramadan gatherings."
+   ]
+  },
+  {
+   "question": "Is the ice handled safely?",
+   "answer": [
+    "Ice is treated as a food product under the Dubai Municipality Food Code: sourced from a licensed supplier, transported cold, stored covered and handled with scoops, not with glasses."
+   ]
+  }
+ ]
+}

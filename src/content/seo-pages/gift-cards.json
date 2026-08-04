@@ -1,0 +1,233 @@
+{
+ "url": "/gift-cards",
+ "keyword_strategy": {
+  "main_keyword": "gift vouchers dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 12,
+  "subkeywords_carried": 12,
+  "coverage_percent": 100,
+  "subkeywords_carried_list": [
+   "gift vouchers dubai",
+   "jumeirah gift voucher",
+   "best gift cards catering dubai",
+   "gift cards catering dubai price",
+   "birthday gift cards catering dubai",
+   "does dubai have gift card",
+   "gift card restaurant dubai",
+   "does dubai sell gift cards",
+   "is there gift cards in dubai",
+   "gift voucher restaurant dubai",
+   "what gift card does dubai use",
+   "which gift card available in dubai"
+  ],
+  "subkeywords_not_carried": [],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Gift Vouchers Dubai — myCHEF Does Not Offer Them | myCHEF Dubai",
+  "meta_description": "myCHEF does not currently offer gift vouchers or gift cards. What you can do instead is book the dinner yourself against an itemised quote — plus the questions to ask any Dubai caterer or restaurant before buying a gift voucher from them.",
+  "h1": "Gift Vouchers Dubai: myCHEF Does Not Offer Them, and What to Ask Anyone Who Does"
+ },
+ "opening_paragraph": [
+  "myCHEF does not currently offer gift vouchers or gift cards. There is no voucher to issue, no value to load and nothing to redeem, so this page will not price one or invent terms for one. What you can do instead is arrange the dinner itself: you make the booking, you pay the itemised quote, and your recipient sits down to the meal. The rest of this page is the part worth reading anyway — the questions to put to any Dubai caterer or restaurant before buying a gift voucher from them."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "Why a myCHEF Gift Card?",
+   "match_confidence": 0.67,
+   "new_heading": "Why there is no myCHEF gift voucher",
+   "new_paragraphs": [
+    "A voucher is not a graphic with a number on it. It is a product with a price, a payment route, a way of getting the thing to the person receiving it, and a system that recognises it months later and takes the value off a bill. Four separate pieces, each of which has to work on the day someone tries to use it.",
+    "MyCHEF has none of those four confirmed, and the position set on 31 July 2026 is that gift vouchers stay unavailable until all four exist and have been tested. So there is no denomination to quote here, no validity period, no refund position, no transfer route and no redemption step — not because they are commercially sensitive, but because they have not been built. Writing a plausible-looking version of them would be describing a product that does not exist, which is the one thing a page like this must not do.",
+    "This page also carries no waiting list and no interest register. Both would be a soft way of selling something unavailable, and neither has been authorised."
+   ]
+  },
+  {
+   "block_on_your_page": "Gift Card Questions",
+   "match_confidence": 0.67,
+   "new_heading": "Frequently asked questions",
+   "new_paragraphs": [
+    "Does myCHEF sell gift vouchers or gift cards?",
+    "No. MyCHEF does not currently offer gift vouchers or gift cards. There is no voucher to issue and nothing to redeem, so this page quotes no denomination, no validity period and no terms for one.",
+    "Can I still give someone a myCHEF dinner as a gift?",
+    "Yes, as a booking, not a voucher. You brief myCHEF with a date, a guest count and a Dubai address, you approve the itemised quote, and you pay it in your own name. The booking stays in your name and no value is transferred to anyone.",
+    "What does a dinner given as a gift cost in Dubai?",
+    "Volume catering formats start at AED 90 per head for a working lunch, AED 120 for a standard event buffet and AED 150 for a premium buffet, BBQ, live station or canapé format. Those are indicative starting points: the final price depends on menu, guest count, ingredients, staffing, equipment and venue requirements.",
+    "Does Dubai have gift cards, and does Dubai sell them?",
+    "Yes. Mall operators, retail chains, restaurant groups, hotel groups and payment apps all sell gift cards in the emirate, denominated in AED. There is no single card the whole city uses, so which gift card is available and useful depends on where the recipient eats and shops.",
+    "What should I ask before buying a gift voucher from a Dubai caterer or restaurant?",
+    "Ask for the exact expiry date and whether it is printed on the voucher, whether the value is refundable and to whom, whether it can be transferred, what happens to an unspent balance, whether the price card at redemption or at purchase applies, and who honours it if the business changes hands. Get every answer in writing before you pay.",
+    "Can I get a Jumeirah gift voucher through myCHEF?",
+    "No. MyCHEF does not sell or resell any hotel-group voucher and will not imply otherwise. If Jumeirah means the neighbourhood and not the hotel group, that address sits inside the published Dubai service area and a dinner can be booked there.",
+    "Is the referral programme the same as a gift voucher?",
+    "No. MyCHEF publishes a referral programme under the heading Give AED 100, Get AED 100. That is value earned by recommending myCHEF to someone who then books. It is not a voucher, it is not something you hand over, and it is not a substitute for one.",
+    "Will myCHEF offer gift vouchers in future?",
+    "Nothing has been announced and no date has been set. This page carries no waiting list and no interest register. Treat gift vouchers as unavailable and use one of the two routes described here instead."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "Choose the Perfect Gift",
+  "Moments Made for Gifting",
+  "How It Works",
+  "What's Included",
+  "A Taste of the Experience",
+  "Gift Experiences Across Dubai",
+  "Send an Experience They’ll Never Forget",
+  "Explore myCHEF Dubai"
+ ],
+ "add_block": [
+  {
+   "new_heading": "What you can do instead: book the dinner and give that",
+   "new_paragraphs": [
+    "The need behind the search is real. Someone has a birthday, an anniversary or a leaving date, and you want to hand them an evening, not an object. That can be done without any voucher at all, because a booking does the same job from the other direction.",
+    "You tell myCHEF the date, the guest count and the Dubai address. MyCHEF designs the experience and returns an itemised quote. You approve it and you pay it. On the night, a licensed culinary partner cooks and serves at that address, and the person you are giving it to sits down to a meal they did not have to organise.",
+    "Be clear about what that is and what it is not. It is a booking held in the name of whoever pays for it. It is not stored value, it is not credit on an account, and it is not something a third person can be handed to spend later. The practical consequence: the date, the guest count and the location have to be settled before payment, because a catered dinner is a scheduled service, not an item on a shelf. If your recipient wants to choose their own date, ask them first and book second. A surprise works better for the meal than for the diary."
+   ],
+   "insert_after_block": "Why a myCHEF Gift Card?",
+   "position": "after the block titled 'Why a myCHEF Gift Card?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Gift cards, catering in Dubai, price — what a gifted dinner costs",
+   "new_paragraphs": [
+    "MyCHEF publishes its figures instead of gating them behind a quote, so you can size the idea before you commit to it. Volume catering formats start at AED 90 per head for a working or office lunch, AED 120 for a standard event buffet, and AED 150 for a premium buffet, BBQ, live station or canapé format.",
+    "Treat those three numbers as indicative starting points, not a price list. The final price depends on menu, guest count, ingredients, staffing, equipment and venue requirements, and the itemised quote is where it becomes a real number. Volume formats carry a minimum of 10 guests, 20 on a buffet, and a minimum order value of AED 900 . A plated private chef is priced per head with no minimum headcount, and those figures sit on the private chef prices page alongside the packages on menus . Add 5% VAT to any total — in force since 1 January 2018 ( UAE Ministry of Finance )."
+   ],
+   "insert_after_block": "Why a myCHEF Gift Card?",
+   "position": "after the block titled 'Why a myCHEF Gift Card?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What to ask before buying a gift voucher from any Dubai caterer or restaurant",
+   "new_paragraphs": [
+    "This is the part most voucher pages skip, and it costs nothing to publish truthfully. If you are buying a voucher from a restaurant, a catering company or a delivery platform in Dubai, these are the questions that decide whether the gift is worth what you paid. Put them in one message and keep the reply.",
+    "What is the exact expiry date, and is it printed on the voucher itself? A validity period quoted in a chat window and absent from the document is the most common way value quietly disappears.",
+    "Is the value refundable, and to whom? The person who paid and the person holding it are often treated differently, and the difference matters if plans change.",
+    "Can the named recipient hand it to someone else? Transferability is a commercial choice, not a default. Ask; do not assume.",
+    "What happens to an unspent balance? If the meal comes in under the voucher value, find out whether the remainder stays available, expires on the spot, or is written off.",
+    "If the meal costs more, how is the difference settled? Confirm who pays the balance and whether the recipient can be asked for it at the table.",
+    "Does the price card in force at redemption apply, or the one on the day of purchase? Menu prices move. A voucher bought against one price card and redeemed against a later one buys less food for the same money.",
+    "Who honours it if the business changes hands, rebrands or closes? For a restaurant group, ask whether it works across every venue or only the one that sold it.",
+    "Which dates are excluded? Peak service — New Year's Eve, Eid, Valentine's, festive brunch — is frequently carved out, and that is usually when a gift gets used.",
+    "Do VAT and any service charge come off the voucher value, or get added at the till? Ask for a worked example on a sample bill.",
+    "If the booking cannot be filled, who is accountable — the platform that sold the voucher, or the kitchen that was meant to cook?",
+    "A supplier who answers all ten in writing is telling you something no marketing page can. One who answers none of them is telling you something too. The how to choose a caterer guide applies the same test to catering quotes, and the consumer-protection framework published by the UAE Ministry of Economy sits behind any purchase made in the emirate."
+   ],
+   "insert_after_block": "Why a myCHEF Gift Card?",
+   "position": "after the block titled 'Why a myCHEF Gift Card?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Does Dubai have gift cards, and which gift card is available here?",
+   "new_paragraphs": [
+    "Yes. Dubai does sell gift cards, and there are plenty of them: mall operators, retail chains, restaurant groups, hotel groups and payment apps all run their own programmes, denominated in AED. A search for a gift card restaurant Dubai usually lands on one restaurant group's own card, and a gift voucher restaurant Dubai search lands on the same thing under a different name.",
+    "What gift card does Dubai use? There is no single national or city-wide card that everywhere accepts. Each programme is a brand or a landlord scheme, so the useful question is not which card ranks highest in general but where the person receiving it eats and shops. This page publishes no ranking or inventory of those programmes, because myCHEF has not tested them and an untested list is not advice. The ten questions in this page transfer to every one of them.",
+    "The same applies to a Jumeirah gift voucher. If you searched that meaning the hotel group, myCHEF does not sell or resell one and will not imply otherwise. If you meant Jumeirah the neighbourhood, that address sits inside the published Dubai service area on the locations page, and a dinner can be booked there as it can in the Marina, Downtown or the villa communities.",
+    "On who cooks: myCHEF designs and manages each experience, and appropriately licensed culinary partners perform the regulated food services, working to Dubai Municipality requirements."
+   ],
+   "insert_after_block": "Why a myCHEF Gift Card?",
+   "position": "after the block titled 'Why a myCHEF Gift Card?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Birthday gift cards, catering in Dubai, and the occasions people ask about",
+   "new_paragraphs": [
+    "Birthdays are the most common reason people arrive on a page like this, followed by anniversaries, new-parent gifts and corporate thank-yous. The honest answer for all of them is the same: there is no voucher, and the route that works is a booked dinner sized to how the recipient entertains. A family that hosts twelve at a time is served by a buffet format; a couple who do not want to cook on their anniversary are served by a plated dinner at their own table. The birthday catering page sets out the formats, and how it works covers lead times for each one."
+   ],
+   "insert_after_block": "Why a myCHEF Gift Card?",
+   "position": "after the block titled 'Why a myCHEF Gift Card?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "The referral programme is a separate thing, and it is real",
+   "new_paragraphs": [
+    "Worth separating, because the two get confused. MyCHEF publishes a referral programme under the heading Give AED 100, Get AED 100 . That is value earned by recommending myCHEF to someone who goes on to book — not a voucher, not something you can hand over as a present, and not a stand-in for one. If a friend is already planning an event, the referral programme is the relevant page."
+   ],
+   "insert_after_block": "Why a myCHEF Gift Card?",
+   "position": "after the block titled 'Why a myCHEF Gift Card?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Giving someone dinner, without a voucher: the short checklist",
+   "new_paragraphs": [
+    "Ask the recipient for a date before anything else. A scheduled service needs a diary entry, and the best way to lose the effect of a gift is to book a night that does not suit.",
+    "Name the occasion in your first message. A birthday dinner is planned differently from a working lunch, and the brief drives the menu.",
+    "Read the itemised quote line by line , including staffing, equipment and VAT, so nothing lands as a surprise on the night.",
+    "Pay in your own name and keep the confirmation. The booking is yours, which is also why it cannot be passed to a third person.",
+    "If you would prefer to give a voucher instead of a dinner, use the ten questions in this page on whoever you buy one from.",
+    "Review catering dubai",
+    "Referral programme catering dubai"
+   ],
+   "insert_after_block": "Why a myCHEF Gift Card?",
+   "position": "after the block titled 'Why a myCHEF Gift Card?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Sources",
+   "new_paragraphs": [
+    "The unavailability of gift vouchers is myCHEF's own published position, set on 31 July 2026. Catering prices, minimums and lead times are myCHEF's own terms, listed in full on the menus and prices pages. Supporting facts: the UAE Ministry of Finance (5% VAT, in force since 1 January 2018), Dubai Municipality (food establishment requirements and mandatory handler training), and the UAE Ministry of Economy (consumer-protection framework). No voucher denomination, validity, refund, transfer or delivery term appears on this page, because none exists.",
+    "Talk to myCHEF about arranging a dinner or chat on WhatsApp ."
+   ],
+   "insert_after_block": "Gift Card Questions",
+   "position": "after the block titled 'Gift Card Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  }
+ ],
+ "faq": [
+  {
+   "question": "Does myCHEF sell gift vouchers or gift cards?",
+   "answer": [
+    "No. MyCHEF does not currently offer gift vouchers or gift cards. There is no voucher to issue and nothing to redeem, so this page quotes no denomination, no validity period and no terms for one."
+   ]
+  },
+  {
+   "question": "Can I still give someone a myCHEF dinner as a gift?",
+   "answer": [
+    "Yes, as a booking, not a voucher. You brief myCHEF with a date, a guest count and a Dubai address, you approve the itemised quote, and you pay it in your own name. The booking stays in your name and no value is transferred to anyone."
+   ]
+  },
+  {
+   "question": "What does a dinner given as a gift cost in Dubai?",
+   "answer": [
+    "Volume catering formats start at AED 90 per head for a working lunch, AED 120 for a standard event buffet and AED 150 for a premium buffet, BBQ, live station or canapé format. Those are indicative starting points: the final price depends on menu, guest count, ingredients, staffing, equipment and venue requirements."
+   ]
+  },
+  {
+   "question": "Does Dubai have gift cards, and does Dubai sell them?",
+   "answer": [
+    "Yes. Mall operators, retail chains, restaurant groups, hotel groups and payment apps all sell gift cards in the emirate, denominated in AED. There is no single card the whole city uses, so which gift card is available and useful depends on where the recipient eats and shops."
+   ]
+  },
+  {
+   "question": "What should I ask before buying a gift voucher from a Dubai caterer or restaurant?",
+   "answer": [
+    "Ask for the exact expiry date and whether it is printed on the voucher, whether the value is refundable and to whom, whether it can be transferred, what happens to an unspent balance, whether the price card at redemption or at purchase applies, and who honours it if the business changes hands. Get every answer in writing before you pay."
+   ]
+  },
+  {
+   "question": "Can I get a Jumeirah gift voucher through myCHEF?",
+   "answer": [
+    "No. MyCHEF does not sell or resell any hotel-group voucher and will not imply otherwise. If Jumeirah means the neighbourhood and not the hotel group, that address sits inside the published Dubai service area and a dinner can be booked there."
+   ]
+  },
+  {
+   "question": "Is the referral programme the same as a gift voucher?",
+   "answer": [
+    "No. MyCHEF publishes a referral programme under the heading Give AED 100, Get AED 100. That is value earned by recommending myCHEF to someone who then books. It is not a voucher, it is not something you hand over, and it is not a substitute for one."
+   ]
+  },
+  {
+   "question": "Will myCHEF offer gift vouchers in future?",
+   "answer": [
+    "Nothing has been announced and no date has been set. This page carries no waiting list and no interest register. Treat gift vouchers as unavailable and use one of the two routes described here instead."
+   ]
+  }
+ ]
+}

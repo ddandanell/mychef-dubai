@@ -1,0 +1,250 @@
+{
+ "url": "/menus",
+ "keyword_strategy": {
+  "main_keyword": "catering menus dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 15,
+  "subkeywords_carried": 14,
+  "coverage_percent": 93,
+  "subkeywords_carried_list": [
+   "what is a good catering menu?",
+   "how much does catering cost in dubai?",
+   "how much will it cost to feed 40 guests?",
+   "catering menus dubai pdf",
+   "food catering menus dubai",
+   "best catering menus dubai",
+   "small catering menus dubai",
+   "small party catering dubai",
+   "finger food catering dubai",
+   "family catering menus dubai",
+   "catering menu dubai",
+   "dinner catering dubai",
+   "catering menu description",
+   "catering business menu ideas"
+  ],
+  "subkeywords_not_carried": [
+   "paul catering menu dubai"
+  ],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Catering Menus Dubai — Published Packages and Per-Person Prices | myCHEF",
+  "meta_description": "Catering menus in Dubai with published prices: packages from AED 1,200 to AED 5,500, per-person formats from AED 90, private chef from AED 700, and 11 dietary options.",
+  "h1": "Catering Menus Dubai — Packages and Per-Person Prices"
+ },
+ "opening_paragraph": [
+  "Catering menus in Dubai from myCHEF are priced two ways: as a package for a set group size, or per person by service format. Packages run from AED 1,200 for a date night to AED 5,500 for the full experience. Per-person formats start at AED 90 for a working lunch and AED 120 for an event buffet, with a plated private chef at AED 700 to AED 950 per head."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "Starter Packages",
+   "match_confidence": 0.79,
+   "new_heading": "The packages",
+   "new_paragraphs": [
+    "Date Night , 2 guests, from AED 1,200 — a bespoke three-course menu for two with a private chef, table service and full cleanup. Family Feast , 6 to 8 guests, from AED 2,400 — premium ingredients with chef and service support for a relaxed family dinner. Birthday Celebration , 8 to 12 guests, from AED 3,600 — canapes or a starter, main course, dessert and service staff.",
+    "Corporate Dinner , 10 to 15 guests, from AED 4,500 — a multi-course or buffet menu with service staff and formal presentation. The Full Experience , 6 to 10 guests, from AED 5,500 — a multi-course tasting menu, pairing consultation, a full service team and premium plating. Weekly Prep runs from AED 1,898 per week for 2 to 3 recurring meals, or AED 2,698 for larger households at 4 to 6."
+   ]
+  },
+  {
+   "block_on_your_page": "Sample Evening Menu",
+   "match_confidence": 0.63,
+   "new_heading": "What a sample evening looks like",
+   "new_paragraphs": [
+    "A full tasting progression runs from an amuse-bouche through to dessert — scallops, sea bass, short rib, an artisan cheese course, and a Valrhona chocolate sphere with salted caramel and gold leaf to close. That is the top of the range instead of the default, and it is what the full experience package is built around.",
+    "Most evenings are simpler than that and better for it. Three or four courses executed properly beat seven stretched thin, and a shorter menu concentrates the kitchen's attention where it shows. If you are choosing between more courses and better ingredients, choose the ingredients."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "Every Dietary Need, Expertly Handled",
+  "Pricing FAQ",
+  "Your Perfect Menu Awaits",
+  "Explore myCHEF Dubai",
+  "Service Format Pricing",
+  "Wine, Cocktails & Service"
+ ],
+ "add_block": [
+  {
+   "new_heading": "What it will cost to feed 40 guests",
+   "new_paragraphs": [
+    "Multiply the per-head tier by your headcount and add 5% VAT — that is the whole calculation, and it is why the tiers are published. To feed 40 guests from a standard event buffet, work from AED 120 per person. The same 40 people at a working lunch start from AED 90 each; a premium buffet with live stations or a canape reception starts from AED 150. A plated private-chef dinner is a different product at AED 700 to AED 950 a head, and at 40 covers it needs a brigade instead of one chef, so most 40-guest events land in the buffet band.",
+    "Two things move the figure after that, and both are quoted as their own lines instead of being buried in the per-head number. Staffing is the first: drop-off trays need nobody on site, a buffet needs someone maintaining it for the length of service, and live stations need a chef standing at each one. Rentals are the second — furniture, linen, crockery and glassware for 40 rarely already exist in a villa, and hiring them is a real cost that some quotes hide. At 40 guests you are well clear of every minimum, so the only question left is which format you want."
+   ],
+   "insert_after_block": "Service Format Pricing",
+   "position": "after the block titled 'Service Format Pricing'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What makes a good catering menu",
+   "new_paragraphs": [
+    "A good catering menu is short, seasonal and built around what a kitchen can genuinely hold at temperature for the length of your event. Ideas are never the shortage in menu planning; the discipline is cutting. Four dishes cooked properly beat nine that arrive lukewarm, and every extra item takes attention away from the ones your guests will remember.",
+    "The best catering menus in Dubai also do three unglamorous things well. They give every dish a one-line description that says what is in it, so a guest with a dietary requirement can self-select without having to ask anyone. They balance the room — something substantial, something light, and at least one vegetarian dish nobody has to apologise for. And they respect the weather: an outdoor menu in July is built from dishes that survive the heat, which is not the same menu you would serve at the same villa in January."
+   ],
+   "insert_after_block": "Sample Evening Menu",
+   "position": "after the block titled 'Sample Evening Menu'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Dietary coverage",
+   "new_paragraphs": [
+    "Eleven diets are handled as standard: vegetarian, vegan, gluten-free, halal, kosher, dairy-free, nut-free, keto, pescatarian, low-sodium and diabetic-friendly. Halal is the default across our menus instead of a request you have to make.",
+    "Flag requirements at enquiry with the guest count instead of in the final 48 hours, and say how severe they are — a preference and an allergy need different plans. Food-safety training sits behind it: ICCA Dubai sets out that every handler, supervisor and Person in Charge under Dubai Municipality must hold approved training, with a certified Person in Charge carrying legal responsibility."
+   ],
+   "insert_after_block": "Sample Evening Menu",
+   "position": "after the block titled 'Sample Evening Menu'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Getting an exact figure",
+   "new_paragraphs": [
+    "Published prices are a starting point, not a quote. Send your date, guest count and venue and an itemised proposal follows, with food, staffing, rentals and delivery separated and the 5% VAT on its own line — in force since 1 January 2018 ( UAE Ministry of Finance ).",
+    "For the reasoning behind the numbers, the catering prices guide explains how a quote is assembled and the cost calculator gives you a range in a minute."
+   ],
+   "insert_after_block": "Wine, Cocktails & Service",
+   "position": "after the block titled 'Wine, Cocktails & Service'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning at a glance",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — we typically reply within 15 minutes during business hours.",
+    "Book at least 48 hours ahead for a private-chef dinner and 72 hours for a standard catering package; live stations and multi-staff events want 3 to 5 days, larger productions 7 to 14.",
+    "Confirm the menu roughly 7 days before, once your numbers settle.",
+    "Ask about dietary covers when you enquire, not inside the final 48 hours .",
+    "Check venue access; the team arrives about 2 hours before service.",
+    "Plan on roughly 3 hours at the table, and add 5% VAT to the total.",
+    "Gift cards catering dubai",
+    "Referral programme catering dubai"
+   ],
+   "insert_after_block": "Wine, Cocktails & Service",
+   "position": "after the block titled 'Wine, Cocktails & Service'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Frequently asked questions",
+   "new_paragraphs": [
+    "How much do catering menus cost in Dubai?",
+    "Packages run from AED 1,200 for a date night to AED 5,500 for the full experience. Per-person formats start at AED 90 for a working lunch, AED 120 for an event buffet and AED 150 for BBQ, live stations or canapes, with a plated private chef at AED 700 to AED 950.",
+    "Which format is the most economical?",
+    "A working or office lunch at AED 90 per person is the lowest per-head tier, and a standard event buffet at AED 120 is the usual choice for a party. What you pay above that is labour, not food quality.",
+    "How much will it cost to feed 40 guests?",
+    "Take the per-head tier and multiply by 40, then add 5% VAT. A standard event buffet works from AED 120 per person, a working lunch from AED 90, and a premium buffet or canape reception from AED 150. Staffing and rentals are quoted separately.",
+    "Do you have menus for a small party?",
+    "Yes. The Date Night package covers two guests and the Family Feast six to eight, so a small party is a normal booking. For a standing reception, canapes and other finger food suit a small group better than a seated menu. Volume formats start at 10 guests, or 20 for a buffet.",
+    "What is the leading catering company in Dubai?",
+    "No independent ranking of Dubai catering companies exists, so treat any top 10 list as advertising unless it publishes its method. Judge on what you can check yourself: published prices, a stated minimum, who holds the food licence, and whether the quote is itemised.",
+    "Can I download the menus as a PDF?",
+    "There is no PDF to request. Every format, package and price is on this page instead of behind a download form, and the menu written for your event arrives as an itemised proposal.",
+    "What does the private chef experience include?",
+    "A chef cooking and plating each course for your table, from AED 950 per person. Packages bundle it with service, equipment and cleanup for set group sizes.",
+    "Do you offer weekly meal prep?",
+    "Yes. From AED 1,898 per week for 2 to 3 recurring sessions, or AED 2,698 for larger households at 4 to 6, with rotating menus, portioning, labelling and cleanup.",
+    "Which dietary requirements do you cover?",
+    "Eleven as standard: vegetarian, vegan, gluten-free, halal, kosher, dairy-free, nut-free, keto, pescatarian, low-sodium and diabetic-friendly. Halal is the default.",
+    "Is VAT included in the published prices?",
+    "Add 5%. UAE catering carries 5% VAT, introduced on 1 January 2018, and a clear proposal shows it as its own line.",
+    "Can you serve alcohol?",
+    "Alcohol service is controlled by venue licensing instead of by the caterer. We design the non-alcoholic programme and coordinate with your venue's licensed provider."
+   ],
+   "insert_after_block": "Wine, Cocktails & Service",
+   "position": "after the block titled 'Wine, Cocktails & Service'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Sources",
+   "new_paragraphs": [
+    "Prices and menu details are myCHEF's own published rates. Regulatory facts: the UAE Ministry of Finance (5% VAT, in force since 1 January 2018), Dubai Municipality (Food Code, food-establishment requirements and mandatory handler training), and ICCA Dubai (food-handler and Person-in-Charge training). Alcohol licensing is set by your venue.",
+    "Request a proposal or chat on WhatsApp ."
+   ],
+   "insert_after_block": "Wine, Cocktails & Service",
+   "position": "after the block titled 'Wine, Cocktails & Service'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Per-person service formats",
+   "new_paragraphs": [
+    "Where a package does not fit the shape of your event, the same food is priced per head by format. A working or office lunch starts at AED 90 per person. A standard event buffet starts at AED 120 . Premium buffet, BBQ, live stations and canapes start at AED 150 . The private chef experience , plated course by course at your table, runs AED 700 to AED 950 .",
+    "The gap between AED 150 and AED 700 is not a food-quality difference; it is a labour difference. A buffet is set out once and maintained. A private chef cooks and plates every course for every guest, which is a different job and a different number of hours. Between those two sit the station formats, where a chef cooks in front of guests but serves many of them at a time. Decide the format first and the per-head figure follows from it.",
+    "Volume formats carry a minimum of 10 guests , or 20 for a buffet, and a minimum order of AED 900 . A plated private-chef dinner has no minimum headcount, which is why a table of two is a normal booking instead of an exception."
+   ],
+   "insert_after_block": "Service Format Pricing",
+   "position": "after the block titled 'Service Format Pricing'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  }
+ ],
+ "faq": [
+  {
+   "question": "How much do catering menus cost in Dubai?",
+   "answer": [
+    "Packages run from AED 1,200 for a date night to AED 5,500 for the full experience. Per-person formats start at AED 90 for a working lunch, AED 120 for an event buffet and AED 150 for BBQ, live stations or canapes, with a plated private chef at AED 700 to AED 950."
+   ]
+  },
+  {
+   "question": "Which format is the most economical?",
+   "answer": [
+    "A working or office lunch at AED 90 per person is the lowest per-head tier, and a standard event buffet at AED 120 is the usual choice for a party. What you pay above that is labour, not food quality."
+   ]
+  },
+  {
+   "question": "How much will it cost to feed 40 guests?",
+   "answer": [
+    "Take the per-head tier and multiply by 40, then add 5% VAT. A standard event buffet works from AED 120 per person, a working lunch from AED 90, and a premium buffet or canape reception from AED 150. Staffing and rentals are quoted separately."
+   ]
+  },
+  {
+   "question": "Do you have menus for a small party?",
+   "answer": [
+    "Yes. The Date Night package covers two guests and the Family Feast six to eight, so a small party is a normal booking. For a standing reception, canapes and other finger food suit a small group better than a seated menu. Volume formats start at 10 guests, or 20 for a buffet."
+   ]
+  },
+  {
+   "question": "What is the leading catering company in Dubai?",
+   "answer": [
+    "No independent ranking of Dubai catering companies exists, so treat any top 10 list as advertising unless it publishes its method. Judge on what you can check yourself: published prices, a stated minimum, who holds the food licence, and whether the quote is itemised."
+   ]
+  },
+  {
+   "question": "Can I download the menus as a PDF?",
+   "answer": [
+    "There is no PDF to request. Every format, package and price is on this page instead of behind a download form, and the menu written for your event arrives as an itemised proposal."
+   ]
+  },
+  {
+   "question": "What does the private chef experience include?",
+   "answer": [
+    "A chef cooking and plating each course for your table, from AED 950 per person. Packages bundle it with service, equipment and cleanup for set group sizes."
+   ]
+  },
+  {
+   "question": "Do you offer weekly meal prep?",
+   "answer": [
+    "Yes. From AED 1,898 per week for 2 to 3 recurring sessions, or AED 2,698 for larger households at 4 to 6, with rotating menus, portioning, labelling and cleanup."
+   ]
+  },
+  {
+   "question": "Which dietary requirements do you cover?",
+   "answer": [
+    "Eleven as standard: vegetarian, vegan, gluten-free, halal, kosher, dairy-free, nut-free, keto, pescatarian, low-sodium and diabetic-friendly. Halal is the default."
+   ]
+  },
+  {
+   "question": "Is VAT included in the published prices?",
+   "answer": [
+    "Add 5%. UAE catering carries 5% VAT, introduced on 1 January 2018, and a clear proposal shows it as its own line."
+   ]
+  },
+  {
+   "question": "Can you serve alcohol?",
+   "answer": [
+    "Alcohol service is controlled by venue licensing instead of by the caterer. We design the non-alcoholic programme and coordinate with your venue's licensed provider."
+   ]
+  }
+ ]
+}

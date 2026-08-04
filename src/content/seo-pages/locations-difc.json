@@ -1,0 +1,194 @@
+{
+ "url": "/locations/difc",
+ "keyword_strategy": {
+  "main_keyword": "private chef difc",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 5,
+  "subkeywords_carried": 3,
+  "coverage_percent": 60,
+  "subkeywords_carried_list": [
+   "best private chef difc",
+   "private chef difc dubai",
+   "full time private chef dubai"
+  ],
+  "subkeywords_not_carried": [
+   "mexican private chef dubai",
+   "private chef vacancy dubai"
+  ],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Private Chef DIFC | Villa Dining & Catering | myCHEF",
+  "meta_description": "Private chef & catering in DIFC from AED 700pp — villa dining, events and bespoke menus with vetted chefs. Serving Gate Village and the DIFC art district. Request a proposal.",
+  "h1": "Private Chef & Catering in DIFC — What It Costs and How to Book"
+ },
+ "opening_paragraph": [
+  "A private chef in DIFC brings restaurant-grade cooking to your apartment, with private dining from AED 700 per person. myCHEF pairs you with a vetted chef who plans the menu, shops, cooks in your kitchen, serves each course and clears everything away — so you host the evening without ever leaving the table. DIFC is a district of high-floor residences stacked above the trading floors, so most guests the chef cooks for here are finance professionals and residents of Dubai's financial centre. Send your date and address, and during our published business hours you'll hear back promptly with a chef match and an itemised proposal."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "What is included in every DIFC catering service?",
+   "match_confidence": 0.55,
+   "new_heading": "What's on a DIFC private dining menu?",
+   "new_paragraphs": [
+    "Menus are built around you, not pulled from a fixed list. The chef cooks bespoke menus across Arabic , Mediterranean , Italian , Indian and Pan-Asian cuisines, and every one can be made halal , vegetarian or vegan, with an allergen-aware approach to dietary requirements. Gluten-free options are available on request, subject to partner confirmation and an allergen review for the specific booking. Tell us the mood — a multi-course tasting dinner, a shared Levantine feast, a canapé reception — and the chef writes the menu to match your guest list and any dietary needs. Seasonal produce, a considered wine or mocktail pairing and a signature dessert are all on the table. Browse sample menus for a starting point, then adjust freely; nothing is locked until you approve the final menu and the itemised quote that goes with it."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "At a Glance",
+  "60-minute power lunches and discreet boardroom dining for Dubai's financial district.",
+  "Properties We Serve in DIFC",
+  "Menus suited to DIFC power lunches and galas",
+  "Why DIFC professionals choose myCHEF Dubai",
+  "Popular DIFC catering occasions",
+  "Delivery, access and parking in DIFC",
+  "Also Serving Near DIFC",
+  "Services in DIFC",
+  "Explore Our Services",
+  "Popular Events in DIFC",
+  "Questions About DIFC Catering",
+  "Request a DIFC catering proposal",
+  "Explore myCHEF Dubai",
+  "Who books private chef and corporate catering in DIFC?",
+  "How DIFC private chef and catering works"
+ ],
+ "add_block": [
+  {
+   "new_heading": "What does a private chef in DIFC include?",
+   "new_paragraphs": [
+    "A private chef DIFC booking is a full service, not just cooking — menu design, ingredient sourcing, on-site cooking, plated or family-style service and a spotless kitchen at the end are all part of it. Your personal chef arrives with the mise en place done, works around your appliances, and brings service staff for larger tables so nobody at the party is refilling plates. For smaller gatherings a single home chef handles both kitchen and pass; for a bigger dinner party we add servers and, if you want it, a bar or drinks station. Everything is priced up front in your proposal — there are no surprise line items, and the equipment, serviceware and clean-up are included. Whether you want a quiet supper for two or a standing reception, the format flexes to the room and the occasion."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'At a Glance'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Private chef DIFC for corporate dinners, celebrations and apartment parties",
+   "new_paragraphs": [
+    "DIFC bookings split three ways: polished corporate dining, milestone celebrations, and relaxed private apartment parties. As a finance and gallery district, DIFC event catering here leans toward boardroom lunches, client dinners and gallery-style receptions, where presentation matters as much as the food. For personal occasions we cover birthdays, engagements and anniversary dinners — the kind of DIFC dinner party catering that turns an apartment into the venue. Whether it's a DIFC apartment or a nearby villa, our catering scales from an intimate table to a full-floor gathering, and we can build a seated menu, a grazing spread or live stations to suit. Corporate hosts often book us to run the whole evening so their team can focus on guests; families book us so nobody spends the celebration in the kitchen. Every DIFC party catering brief is matched to a chef who suits that specific style of event."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'At a Glance'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which DIFC buildings and residences do you serve?",
+   "new_paragraphs": [
+    "We cover the whole district and the streets around it, so a private chef near DIFC is rarely more than a short drive away. That includes Gate Village and the DIFC art district, the Index Tower and Sky Gardens residences, and the Central Park towers, along with adjacent communities. Because these are secured towers, we arrange building access and the security sign-in in advance and coordinate the service lift for equipment, so the villa chef or in-villa chef DIFC setup runs on schedule with no lobby delays. We confirm parking, kitchen layout and any building rules before the day, and the chef arrives early to set up quietly. If your address sits just outside the district, we still serve it — just share the exact location when you enquire."
+   ],
+   "insert_after_block": "What is included in every DIFC catering service?",
+   "position": "after the block titled 'What is included in every DIFC catering service?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Why myCHEF",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you own the evening, we carry the work. Every chef working on private chef difc has cleared identity checks, a practical cooking assessment, reference verification and ongoing performance reviews — a continuous standard, not a one-time tick. We are honest about it, too: no system removes every risk, so we match each event to the chef well suited to it, which is how we earn a name as one of the best and most trusted options for luxury private dining in DIFC.",
+    "For a fine-dining occasion like this, that might be Ahmed Al-Rashid , who brings 18+ years across Dubai, London and Paris in classical French technique. He designs each menu as a collaboration with the host, every course timed, seasoned and served to exacting standards. We have delivered intimate villa dinners and large celebrations across Dubai's communities. Covers private chef difc; client reviews go up as events are delivered."
+   ],
+   "insert_after_block": "Who books private chef and corporate catering in DIFC?",
+   "position": "after the block titled 'Who books private chef and corporate catering in DIFC?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Private chef DIFC across the district and nearby",
+   "new_paragraphs": [
+    "Wherever you are in the financial centre, we can bring the kitchen to you, and we serve the neighbouring communities too. If your event sits closer to Business Bay or Downtown Dubai , the same vetted chefs and menus apply — or explore all Dubai locations . Still deciding on the format for your DIFC villa catering or apartment dinner? Compare private chef vs catering to see which suits your guest count and budget best."
+   ],
+   "insert_after_block": "Who books private chef and corporate catering in DIFC?",
+   "position": "after the block titled 'Who books private chef and corporate catering in DIFC?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning private chef difc step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your private chef difc proposal arrives.",
+    "Book private chef difc about 2 weeks ahead off-peak, and 6 weeks ahead between November and March.",
+    "Confirm what goes on the private chef difc menu 7 days out, once the count settles.",
+    "Ask for special diets up front; private chef difc plates are planned, not improvised inside 48 hours .",
+    "Check loading and access details; allow 2 hours of private chef difc setup on site.",
+    "Plan on roughly 3 hours of private chef difc service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": "Who books private chef and corporate catering in DIFC?",
+   "position": "after the block titled 'Who books private chef and corporate catering in DIFC?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which private chef difc format suits your event?",
+   "new_paragraphs": [
+    "Format What it gives you Staffing Cost position",
+    "Drop-off Food delivered ready to serve None Entry point",
+    "Buffet Presentation plus a maintained spread 1–2 From AED 700 per person",
+    "Live stations Cooking in front of your guests 2–4 Mid-range",
+    "Plated Every course served together 3 and above Top of the range"
+   ],
+   "insert_after_block": "Who books private chef and corporate catering in DIFC?",
+   "position": "after the block titled 'Who books private chef and corporate catering in DIFC?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Common questions",
+   "new_paragraphs": [
+    "How much does a private chef cost in DIFC?",
+    "Private dining in DIFC starts from about AED 700–950 per person, depending on guest count, menu and service level. Larger groups come down per head; send your numbers for an exact quote.",
+    "Which parts of DIFC do you serve?",
+    "All of DIFC — Gate Village and the DIFC art district, Index Tower and Sky Gardens residences and the surrounding streets — plus nearby Dubai communities. Confirm your exact address when you enquire.",
+    "What's included?",
+    "Everything from menu planning to the chef, the service staff, the plating and the cleanup — one team covers all of it, and it's all itemised in your quote.",
+    "How do I book?",
+    "Booking is clear: share your date, guest count and address; we match a vetted chef and send an itemised proposal, usually within one business day.",
+    "Can you cater a DIFC corporate dinner or boardroom event?",
+    "Yes — DIFC event catering is one of our most-requested formats, from boardroom lunches and client dinners to gallery-style receptions, all cooked on site by a vetted chef.",
+    "Do you offer halal, vegetarian and vegan menus in DIFC?",
+    "Yes. Every DIFC menu can be built halal, vegetarian or vegan across Arabic, Mediterranean, Italian, Indian and Pan-Asian cuisines. Gluten-free, nut-conscious and other dietary menu options may be available on request, subject to confirmation by the assigned culinary partner. Partner kitchens may handle allergens, and cross-contact cannot be completely excluded unless dedicated controls have been specifically confirmed for the booking. Guests with allergies must provide full details before confirming their event.",
+    "Can you handle building access and security at DIFC towers?",
+    "Yes. We arrange building access and the security sign-in for towers such as Index Tower, Sky Gardens and the Central Park residences, so the chef and equipment arrive without hold-ups.",
+    "For private chef difc, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements ."
+   ],
+   "insert_after_block": "Who books private chef and corporate catering in DIFC?",
+   "position": "after the block titled 'Who books private chef and corporate catering in DIFC?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "More on private chef difc",
+   "new_paragraphs": [
+    "Private chef umm suqeim",
+    "Part time private chef catering dubai",
+    "Private chef cost",
+    "Private chef birthday dinner",
+    "Get an itemised quote"
+   ],
+   "insert_after_block": "Who books private chef and corporate catering in DIFC?",
+   "position": "after the block titled 'Who books private chef and corporate catering in DIFC?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How do I hire a private chef in DIFC?",
+   "new_paragraphs": [
+    "To hire a chef in DIFC, share three things — your date, your guest count and your address — and we do the rest. From there we match a vetted chef for hire to your occasion, agree the menu together, and send an itemised proposal, usually within one business day (and promptly during our published business hours for the first response). Once you approve the menu and quote, the chef confirms the shopping list, we arrange building access, and on the day the team handles cooking, service and cleanup end to end. You can adjust guest numbers or courses up to a few days before. It's a clear way to hire DIFC catering services without managing a kitchen, staff or logistics yourself."
+   ],
+   "insert_after_block": "Who books private chef and corporate catering in DIFC?",
+   "position": "after the block titled 'Who books private chef and corporate catering in DIFC?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  },
+  {
+   "new_heading": "How much does a private chef in DIFC cost?",
+   "new_paragraphs": [
+    "DIFC private chef cost starts from AED 700 per person and scales with the size of your table. Intimate dinners for two sit nearer AED 950–1,300 per head because a full chef's evening is shared between fewer guests; six guests come to around AED 750–1,000 each; and ten or more start from AED 700 per person. The final figure depends on the menu, the number of courses and the service level — a seated tasting dinner costs more per head than a relaxed buffet. There are no hidden charges: shopping, cooking, service, serviceware and clean-up are all in the quote. See the full breakdown on private chef prices in Dubai , or send your date and guest count for an exact, itemised proposal."
+   ],
+   "insert_after_block": "How DIFC private chef and catering works",
+   "position": "after the block titled 'How DIFC private chef and catering works'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  }
+ ],
+ "faq": []
+}

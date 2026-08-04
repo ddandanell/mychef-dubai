@@ -1,0 +1,212 @@
+{
+ "url": "/exhibition-catering-dubai",
+ "keyword_strategy": {
+  "main_keyword": "exhibition catering dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 8,
+  "subkeywords_carried": 8,
+  "coverage_percent": 100,
+  "subkeywords_carried_list": [
+   "buffet catering dubai",
+   "luxury catering dubai",
+   "small party catering dubai",
+   "finger food catering dubai",
+   "dubai catering company list",
+   "food exhibition catering dubai",
+   "best exhibition catering dubai",
+   "event catering dubai"
+  ],
+  "subkeywords_not_carried": [],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Exhibition Catering Dubai | stand catering from AED 700 | myCHEF",
+  "meta_description": "Exhibition catering in Dubai from AED 700 per person. Stand catering, delegate lunches and hospitality suites at DWTC and across the city, with vetted chefs and full service from myCHEF.",
+  "h1": "Exhibition Catering in Dubai — What It Costs and How to Book"
+ },
+ "opening_paragraph": [
+  "Exhibition catering in Dubai from myCHEF feeds your stand, your delegates and your hospitality suite across show hours, from AED 700 per person. Trade shows break the normal catering rules: there is no kitchen, the aisles are packed, and food has to arrive in waves instead of in one service. We plan around that. Send your hall, stand number and show dates for an itemised proposal, usually within one business day."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "Exhibition Catering Formats",
+   "match_confidence": 0.71,
+   "new_heading": "Which exhibition catering format suits your event?",
+   "new_paragraphs": [
+    "Format What it gives you Staffing Cost position",
+    "Drop-off Food delivered ready to serve None Entry point",
+    "Buffet Presentation plus a maintained spread 1–2 From AED 700 per person",
+    "Live stations Cooking in front of your guests 2–4 Mid-range",
+    "Plated Every course served together 3 and above Top of the range"
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "Keep Your Stand, Staff and Visitors Well Fed",
+  "Plan Exhibition Catering That Works as Hard as Your Stand",
+  "Explore myCHEF Dubai",
+  "Exhibition Catering Questions",
+  "Built for the Show Floor",
+  "What's Included in Our Exhibition Catering",
+  "A Taste of Our Exhibition Catering"
+ ],
+ "add_block": [
+  {
+   "new_heading": "How much does exhibition catering cost in Dubai?",
+   "new_paragraphs": [
+    "Exhibition catering prices in Dubai start from AED 700 per person and depend less on luxury than on logistics. The main drivers are the number of service drops per day, whether you need staff standing on the stand or a delivery only, and the length of the show. A three-day show with four drops a day is a different exercise from a single evening reception, even at the same headcount.",
+    "Delivery-only stand catering is the most economical option. A staffed stand with a host costs more but keeps the food presentable and your team free to sell. Hospitality suites with a chef on site sit at the top. Multi-day shows are usually quoted as a package instead of per head, and event minimums of AED 2,400 or AED 3,600 are common once staffing and equipment are included. To control the exhibition catering cost, confirm your expected footfall early and book the whole run at once instead of day by day. Our catering packages show how the grouped options compare."
+   ],
+   "insert_after_block": "A Taste of Our Exhibition Catering",
+   "position": "after the block titled 'A Taste of Our Exhibition Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Do you cater stand receptions and small parties around the show?",
+   "new_paragraphs": [
+    "Yes, and most exhibition briefs turn out to include one. Exhibitors run a closing-day drinks reception on the stand, a small dinner for distributors who flew in for the week, or a thank-you lunch for the crew on breakdown day. Small party catering in Dubai during show week is easier to plan into the original proposal than to arrange halfway through: it uses the same loading bay, the same access window and the same holding space you have already cleared with the venue.",
+    "Scale decides the format. Volume formats start at 10 guests and buffets at 20, so a 15-person stand reception is an ordinary booking, not an exception, while a private hospitality suite with a chef cooking on site is priced per head instead. For an evening reception on a stand the practical answer is passed bites and one compact station instead of a full buffet, because floor space is the constraint nobody can negotiate away. Tell us the guest number and the hour it starts and the format follows from that."
+   ],
+   "insert_after_block": "Built for the Show Floor",
+   "position": "after the block titled 'Built for the Show Floor'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which venues do you serve?",
+   "new_paragraphs": [
+    "The Dubai World Trade Centre describes itself as Dubai's epicentre for events and business, drawing millions of visitors and thousands of exhibiting companies, with a new Dubai Exhibition Centre opening in 2026. Most of our exhibition catering for events runs through DWTC halls, but the same service covers hotel conference floors, Expo City venues, and private showrooms.",
+    "Every venue has its own access rules, and they shape the plan more than the menu does. Loading times, lift access, permitted equipment and whether you may hold chilled stock behind the stand all vary. We check those before quoting so nothing is discovered on build-up day. If you are searching for exhibition catering near me during a show, the same team also covers Business Bay , DIFC and Downtown Dubai for the meetings that happen around it."
+   ],
+   "insert_after_block": "Built for the Show Floor",
+   "position": "after the block titled 'Built for the Show Floor'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How is food safety managed without a kitchen?",
+   "new_paragraphs": [
+    "This is the core technical question at a trade show. Licensed caterers work to the Dubai Municipality Food Code, which covers not only kitchens but food transportation and delivery vehicles, and requires food establishments to operate a structured staff training system. On a show floor almost all the risk sits in transport and holding: how long food travels, at what temperature, and how long it sits before service.",
+    "Enforcement is real. The Dubai Municipality Food Safety Department monitors food establishments and investigates food-borne illness, so compliance is checked in practice. Our answer is to cook off site, move in insulated transport, hold chilled or hot behind the stand, and replenish in small batches so nothing stands out for long. MyCHEF is implementing a structured chef standard covering identity checks, a practical cooking assessment, reference verification and post-event review, and partner chefs are being onboarded against it as it rolls out."
+   ],
+   "insert_after_block": "Built for the Show Floor",
+   "position": "after the block titled 'Built for the Show Floor'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How do you judge the best exhibition catering in Dubai?",
+   "new_paragraphs": [
+    "Anyone can send a nice menu. If you are working through a list of Dubai catering companies for a stand, the differences that decide the day are logistical, and you can test all of them on one phone call before you commit to anyone.",
+    "Ask five questions. Has the caterer worked your specific hall, and can they describe its loading-bay window without going away to check? What is the holding plan behind the stand — chilled, hot, or neither — and for how long? How many replenishment drops are included in the price, and what happens if footfall runs ahead of the plan by lunchtime on day one? Who is standing on the stand, and are their show passes included or left for you to sort out? And is the quote itemised with the 5% VAT shown separately, or a single round number that hides the staffing inside it?",
+    "The elaborate menu is rarely the one that wins the week. The supplier worth booking is the one whose food is still worth eating at four in the afternoon on day three, because the plan was built for a long show and not for a good photograph on build-up day."
+   ],
+   "insert_after_block": "Built for the Show Floor",
+   "position": "after the block titled 'Built for the Show Floor'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How do I book stand catering?",
+   "new_paragraphs": [
+    "Send the show name, hall and stand number, your build-up and show dates, expected daily footfall and how many of your own team are on the stand. Those five details are enough for a costed plan. From there we confirm the menu, the drop times and the staffing, and issue an itemised proposal with the 5% VAT shown separately.",
+    "Book earlier than you would for a private event. Dubai's exhibition calendar concentrates into the cooler months, and the same weeks are busy for every caterer in the city, so popular show dates are committed well ahead. If your plans are not final, a provisional hold on the dates costs nothing. To hire exhibition catering or talk through a stand plan, see corporate catering or request a proposal ."
+   ],
+   "insert_after_block": "Built for the Show Floor",
+   "position": "after the block titled 'Built for the Show Floor'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Frequently asked questions",
+   "new_paragraphs": [
+    "How much does exhibition catering cost in Dubai?",
+    "Exhibition catering in Dubai starts from AED 700 per person. The cost is driven by the number of service drops per day, the length of the show and whether you need staff on the stand or delivery only. Multi-day shows are usually quoted as a package.",
+    "Can you deliver to a stand at Dubai World Trade Centre?",
+    "Yes. We work to each venue's loading-bay and access rules, plan the drop times around show hours and deliver directly to your stand, with chilled or hot holding behind the stand where the venue permits it.",
+    "What food works well for an exhibition stand?",
+    "One-handed, low-mess items: filled mini brioche, skewers, sliders, mezze cups, pastries and fruit pots. Anything that needs cutlery or drips is difficult for visitors standing in a busy aisle.",
+    "Do you cater delegate lunches and hospitality suites too?",
+    "Yes. Stand catering, seated delegate lunches and private hospitality suites can all run from the same plan, with a chef on site for VIP meeting rooms where required.",
+    "How do you keep food safe over a long show day?",
+    "Food is cooked off site, moved in insulated transport under the Dubai Municipality Food Code rules for delivery vehicles, held at temperature behind the stand and replenished in small batches so nothing sits out for hours.",
+    "Can you handle halal and dietary requirements?",
+    "Halal is standard. Vegetarian, vegan, gluten-free, dairy-free and nut-free items are planned into the count and clearly labelled, which matters at a show where visitors help themselves.",
+    "How far ahead should I book exhibition catering?",
+    "As soon as your stand is confirmed. Dubai's show calendar concentrates into the cooler months, so the busiest weeks are committed early. A provisional hold on the dates costs nothing."
+   ],
+   "insert_after_block": "Exhibition Catering Formats",
+   "position": "after the block titled 'Exhibition Catering Formats'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Sources",
+   "new_paragraphs": [
+    "Facts on this page come from official sources: the UAE Ministry of Finance (5% VAT, effective 1 January 2018), Dubai Municipality (Food Code, food transportation and delivery-vehicle requirements, and mandatory food-handler training), Dubai Municipality Food Safety Department (food-establishment monitoring and food-borne illness investigation), and Dubai World Trade Centre (venue scale and the Dubai Exhibition Centre opening in 2026). Confirm current venue and regulatory requirements before you book."
+   ],
+   "insert_after_block": "Exhibition Catering Formats",
+   "position": "after the block titled 'Exhibition Catering Formats'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning exhibition catering step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your exhibition catering proposal arrives.",
+    "Book as early as you can. A multi-day show sits in the 7–14 day window; short-notice requests are assessed individually against partner availability.",
+    "Confirm what goes on the exhibition catering menu 7 days out, once the count settles.",
+    "Ask for special diets up front; exhibition catering plates are planned, not improvised inside 48 hours .",
+    "Check loading and access details; allow 2 hours of exhibition catering setup on site.",
+    "Plan on roughly 3 hours of exhibition catering service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": "Exhibition Catering Questions",
+   "position": "after the block titled 'Exhibition Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  }
+ ],
+ "faq": [
+  {
+   "question": "How much does exhibition catering cost in Dubai?",
+   "answer": [
+    "Exhibition catering in Dubai starts from AED 700 per person. The cost is driven by the number of service drops per day, the length of the show and whether you need staff on the stand or delivery only. Multi-day shows are usually quoted as a package."
+   ]
+  },
+  {
+   "question": "Can you deliver to a stand at Dubai World Trade Centre?",
+   "answer": [
+    "Yes. We work to each venue's loading-bay and access rules, plan the drop times around show hours and deliver directly to your stand, with chilled or hot holding behind the stand where the venue permits it."
+   ]
+  },
+  {
+   "question": "What food works well for an exhibition stand?",
+   "answer": [
+    "One-handed, low-mess items: filled mini brioche, skewers, sliders, mezze cups, pastries and fruit pots. Anything that needs cutlery or drips is difficult for visitors standing in a busy aisle."
+   ]
+  },
+  {
+   "question": "Do you cater delegate lunches and hospitality suites too?",
+   "answer": [
+    "Yes. Stand catering, seated delegate lunches and private hospitality suites can all run from the same plan, with a chef on site for VIP meeting rooms where required."
+   ]
+  },
+  {
+   "question": "How do you keep food safe over a long show day?",
+   "answer": [
+    "Food is cooked off site, moved in insulated transport under the Dubai Municipality Food Code rules for delivery vehicles, held at temperature behind the stand and replenished in small batches so nothing sits out for hours."
+   ]
+  },
+  {
+   "question": "Can you handle halal and dietary requirements?",
+   "answer": [
+    "Halal is standard. Vegetarian, vegan, gluten-free, dairy-free and nut-free items are planned into the count and clearly labelled, which matters at a show where visitors help themselves."
+   ]
+  },
+  {
+   "question": "How far ahead should I book exhibition catering?",
+   "answer": [
+    "As soon as your stand is confirmed. Dubai's show calendar concentrates into the cooler months, so the busiest weeks are committed early. A provisional hold on the dates costs nothing."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,119 @@
+{
+ "url": "/chef-training-academy",
+ "keyword_strategy": {
+  "main_keyword": "chef training academy catering dubai",
+  "main_keyword_placed_in": {
+   "title": false,
+   "h1": false,
+   "meta_description": false,
+   "opening_paragraph": false
+  },
+  "subkeywords_total": 1,
+  "subkeywords_carried": 0,
+  "coverage_percent": 0,
+  "subkeywords_carried_list": [],
+  "subkeywords_not_carried": [
+   "can i learn cooking in 3 months?"
+  ],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Chef Training Academy Dubai | myCHEF Dubai",
+  "meta_description": "myCHEF Dubai's Chef Training Academy: non-accredited professional development for culinary, hospitality and event-service professionals in the partner network — service standards, guest communication and allergen-awareness procedures.",
+  "h1": "Chef Training Academy"
+ },
+ "opening_paragraph": [
+  "{\"@context\": \"https://schema.org\", \"@type\": \"Service\", \"name\": \"Chef Training Academy\", \"description\": \"Non-accredited professional development and service-standard training for culinary, hospitality and event-service professionals working with or seeking to join the myCHEF partner network.\", \"provider\": {\"@type\": \"Organization\", \"name\": \"myCHEF Dubai\", \"url\": \"https://www.mychef.ae\"}, \"serviceType\": \"Professional Development\", \"areaServed\": {\"@type\": \"City\", \"name\": \"Dubai\"}} {\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"Who is the Chef Training Academy for?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Culinary, hospitality and event-service professionals who work with, or want to join, the myCHEF Dubai partner network. Tell us about your role and experience, and we will confirm whether the next intake fits.\"}}, {\"@type\": \"Question\", \"name\": \"Is the academy accredited?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"No. The academy is non-accredited professional development and service-standard training. It is not a government-accredited qualification and it is not a substitute for any licence or certification legally required for a participant's role.\"}}, {\"@type\": \"Question\", \"name\": \"What do participants receive?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"A Certificate of Completion \\u2014 confirming participation in a myCHEF professional-development programme. This is not a government-accredited qualification or a substitute for any licence or certification legally required for the participant's role.\"}}, {\"@type\": \"Question\", \"name\": \"What does the training cover?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"myCHEF service standards, guest communication, villa and private-residence etiquette, event-service procedures, menu and dietary-requirement communication, allergen-awareness procedures, client privacy and discretion, table presentation, complaint handling, incident escalation, partner documentation requirements and food-safety awareness.\"}}, {\"@type\": \"Question\", \"name\": \"When is the next intake, and what does it cost?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Programme availability, entry requirements, dates and fees are confirmed for each training intake. Contact us and we will share the details for the next one.\"}}]} {\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"Home\", \"item\": \"https://www.mychef.ae/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"Chef Training Academy\", \"item\": \"https://www.mychef.ae/chef-training-academy\"}]}",
+  "Home",
+  "/",
+  "Chef Training Academy",
+  "Non-accredited professional development and service-standard training for culinary, hospitality and event-service professionals working with, or seeking to join, the myCHEF Dubai partner network.",
+  "Enquire About the Next Intake Chat on WhatsApp",
+  "Vetted Chefs",
+  "Halal-first menu planning",
+  "PROFESSIONAL DEVELOPMENT"
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "Chef Training Questions",
+   "match_confidence": 1.0,
+   "new_heading": "Chef Training Questions",
+   "new_paragraphs": [
+    "Who is the Chef Training Academy for?",
+    "Culinary, hospitality and event-service professionals who work with, or want to join, the myCHEF Dubai partner network. Tell us about your role and experience, and we will confirm whether the next intake fits.",
+    "Is the academy accredited?",
+    "No. The academy is non-accredited professional development and service-standard training. It is not a government-accredited qualification and it is not a substitute for any licence or certification legally required for a participant's role.",
+    "What do participants receive?",
+    "A Certificate of Completion — confirming participation in a myCHEF professional-development programme. This is not a government-accredited qualification or a substitute for any licence or certification legally required for the participant's role.",
+    "What does the training cover?",
+    "myCHEF service standards, guest communication, villa and private-residence etiquette, event-service procedures, menu and dietary-requirement communication, allergen-awareness procedures, client privacy and discretion, table presentation, complaint handling, incident escalation, partner documentation requirements and food-safety awareness.",
+    "When is the next intake, and what does it cost?",
+    "Programme availability, entry requirements, dates and fees are confirmed for each training intake. Contact us and we will share the details for the next one."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "Skills That Set You Apart",
+  "Choose Your Path",
+  "Begin Your Private Dining Journey",
+  "Explore myCHEF Dubai",
+  "Training Built for Private Dining"
+ ],
+ "add_block": [
+  {
+   "new_heading": "What the Training Covers",
+   "new_paragraphs": [
+    "Every module is service-standard training for real private-dining work. The full list:",
+    "MyCHEF service standards",
+    "Guest communication",
+    "Villa and private-residence etiquette",
+    "Event-service procedures",
+    "Menu and dietary-requirement communication",
+    "Allergen-awareness procedures",
+    "Client privacy and discretion",
+    "Table presentation",
+    "Complaint handling",
+    "Incident escalation",
+    "Partner documentation requirements",
+    "Food-safety awareness",
+    "WHAT PARTICIPANTS RECEIVE"
+   ],
+   "insert_after_block": "Training Built for Private Dining",
+   "position": "after the block titled 'Training Built for Private Dining'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "One Certificate, Honestly Described",
+   "new_paragraphs": [
+    "Certificate of Completion — confirming participation in a myCHEF professional-development programme. This is not a government-accredited qualification or a substitute for any licence or certification legally required for the participant's role.",
+    "That is the whole promise. Participants who want to work with myCHEF Dubai then go through the same vetting as every other chef and service professional in the network.",
+    "INTAKES"
+   ],
+   "insert_after_block": "Training Built for Private Dining",
+   "position": "after the block titled 'Training Built for Private Dining'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Dates, Entry Requirements and Fees",
+   "new_paragraphs": [
+    "Programme availability, entry requirements, dates and fees are confirmed for each training intake.",
+    "Tell us about your role and experience, and we will confirm the details of the next intake. We are available 9am to 9pm every day on info@mychef.ae or WhatsApp."
+   ],
+   "insert_after_block": "Training Built for Private Dining",
+   "position": "after the block titled 'Training Built for Private Dining'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Interested in the Next Intake?",
+   "new_paragraphs": [
+    "Tell us about your experience and your role, and we will confirm availability, entry requirements, dates and fees for the next training intake.",
+    "Enquire About the Next Intake Chat on WhatsApp"
+   ],
+   "insert_after_block": "Chef Training Questions",
+   "position": "after the block titled 'Chef Training Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  }
+ ],
+ "faq": []
+}

@@ -1,0 +1,167 @@
+{
+ "url": "/fathers-day-catering-dubai",
+ "keyword_strategy": {
+  "main_keyword": "fathers day catering dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": false,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 5,
+  "subkeywords_carried": 3,
+  "coverage_percent": 60,
+  "subkeywords_carried_list": [
+   "father's day uae",
+   "father's day gift",
+   "father's day brunch dubai"
+  ],
+  "subkeywords_not_carried": [
+   "father's day india",
+   "fathers day dubai 2026"
+  ],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Fathers Day Catering Dubai | Menus & Prices | myCHEF",
+  "meta_description": "Father's Day catering in Dubai from AED 700pp — a BBQ and grill spread, vetted chefs and full service. Bespoke menus for your event. Get an itemised quote.",
+  "h1": "Fathers Day Catering in Dubai — Menus, Prices and What's Included"
+ },
+ "opening_paragraph": [
+  "Fathers Day catering in Dubai costs from AED 700 per person, and myCHEF sends a private chef who fires up the grill on site. The chef cooks a relaxed BBQ feast and serves it to the whole family. You pick the date, the guest list and the venue — a villa garden, a rooftop, an apartment terrace or the beach — and one team handles the menu, the cooking, the service and the cleanup. Send your numbers and you'll have an itemised quote back promptly during our published business hours, so the only thing Dad has to plan is where to sit.",
+  "Below you will find what a booking covers, menu ideas, real per-head prices, how the booking works and the chefs who cook it."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "Father's Day Catering Formats",
+   "match_confidence": 0.74,
+   "new_heading": "Fathers Day catering across Dubai",
+   "new_paragraphs": [
+    "We bring Father's Day catering to homes, villas, gardens, rooftops and beaches right across the city — Palm Jumeirah, Dubai Marina, JBR, Downtown Dubai, Jumeirah, Umm Suqeim, Business Bay, Arabian Ranches, Emirates Hills, Dubai Hills and beyond. A private chef travels to your address with everything needed, so wherever Dad wants to spend the day, that's where the grill goes. Prefer to keep it low-key? A relaxed home catering lunch works just as well as a full garden party. Explore related BBQ catering and brunch catering , browse all event catering , or see the full range of catering in Dubai ."
+   ]
+  },
+  {
+   "block_on_your_page": "What's Included in Our Father's Day Catering",
+   "match_confidence": 0.76,
+   "new_heading": "What's on a Father's Day catering menu?",
+   "new_paragraphs": [
+    "A Father's Day menu in Dubai leans into generous, hands-on grilling — the food dads reliably love. Expect a BBQ and grill spread as the centrepiece: slow-smoked brisket, lamb chops, marinated chicken, prawns and fresh catch, cooked over live fire and carved at the table. Around it sit sharing platters, grilled vegetables, warm flatbreads, crisp salads and proper sides like truffle mac or loaded potatoes, then a dessert to finish — a sticky pudding, a cheese board, or something lighter if the day has already been rich. Every menu is fully bespoke, so if Dad would prefer a seafood feast, an Arabic mixed grill or a steakhouse-style tasting, the chef builds around that instead. All dietary needs are handled, and the whole spread can be prepared fully halal on request, so the menu fits the table, not the other way round."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "A Father's Day Feast Worthy of the Occasion",
+  "Built Around What Dad Loves",
+  "Explore myCHEF Dubai",
+  "Father's Day Catering Questions",
+  "A Taste of Our Father's Day Catering",
+  "Make This Father's Day One to Remember"
+ ],
+ "add_block": [
+  {
+   "new_heading": "What does Fathers Day catering in Dubai include?",
+   "new_paragraphs": [
+    "Our Father's Day catering services in Dubai cover the whole job, not just the food — the way a proper full-service catering company should. It starts with a bespoke menu built around what Dad likes to eat, then a vetted private chef arrives with the ingredients, fires the grill and cooks every course live in front of your guests. Depending on the headcount you also get service staff to plate and pour, plus all the kit: grill, chafers, crockery, glassware and linens, then complete setup before the meal and a full cleanup after, so your kitchen and garden look untouched by the time the guests head home. Whether you want an intimate home catering lunch for six or a bigger garden party for forty, one team owns the cooking, the service and the tidy-up from start to finish. Nothing is handed to a stranger on the day."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'A Father's Day Feast Worthy of the Occasion'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Father's Day catering for family lunches, corporate teams and gifting Dad a day off",
+   "new_paragraphs": [
+    "The most-booked format is a laid-back family lunch or dinner at home, where the whole point is that the family stays out of the kitchen and away from the washing-up. Father's Day catering suits plenty of other occasions too. Companies use corporate Father's Day catering to mark the day for working dads with a themed office lunch or an after-work grill on the terrace. Groups of friends pool together for a shared BBQ party; others fold it into a birthday or milestone that happens to land the same weekend. It also makes a genuinely good gift — instead of another gadget, you give Dad an afternoon with his feet up while a chef handles the grill and the guests he loves. Tell us the shape of your event and we'll match the right chef, service level and headcount to it, from a quiet table for four to a full garden celebration."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'A Father's Day Feast Worthy of the Occasion'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Grill stations, timing and dietary needs",
+   "new_paragraphs": [
+    "The default Father's Day setup is a live grill station where the chef cooks in the open and guests wander over for the next round straight off the coals — relaxed, social and exactly the pace of the day. If your space or the weather doesn't suit an outdoor BBQ, the same menu works plated at the table, laid out as a buffet, or run from an indoor kitchen; grazing tables and extra live stations slot in for bigger crowds. Timing is planned around Dad's day, not the kitchen's, so courses land when the table is ready, not on a rigid clock. Dietary requirements are built in from the first draft: vegetarian, vegan, gluten-free, nut-free and fully halal options sit alongside the main spread, and kids get their own crowd-pleasing plates, so every guest at the table is looked after."
+   ],
+   "insert_after_block": "What's Included in Our Father's Day Catering",
+   "position": "after the block titled 'What's Included in Our Father's Day Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How much does Fathers Day catering cost in Dubai?",
+   "new_paragraphs": [
+    "Father's Day catering in Dubai starts from AED 700 per person, with most bespoke menus landing between AED 700 and AED 950 per head depending on the guest count, the menu and how much service you want. Format is the biggest lever on price: a buffet or drop-off spread is the most affordable, while plated service with dedicated staff and premium cuts sits at the top end. If you prefer a fixed budget, curated catering packages run from AED 1,200 up through AED 2,400, AED 3,600, AED 4,500 and AED 5,500 as the menu and headcount grow, and an optional menu tasting is AED 1,400. For a full breakdown of what drives the numbers, from canapés to a luxury multi-course dinner, see our Dubai catering price guide , or just send your details for itemised, no-obligation catering prices with no pressure to commit."
+   ],
+   "insert_after_block": "What's Included in Our Father's Day Catering",
+   "position": "after the block titled 'What's Included in Our Father's Day Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How to hire Fathers Day catering in Dubai",
+   "new_paragraphs": [
+    "Hiring takes three steps. First, send your date, rough guest count and venue, whether you're searching for a Father's Day caterer near me in Dubai Marina or a private chef for a villa on the Palm, and you'll get an itemised proposal back promptly during our published business hours. Next, we shape the menu with you and match a chef whose style fits your event; you can add a menu tasting if you'd like to try the food first. Once you're happy, a deposit confirms the booking and the date is held. On the day itself, the chef and any service staff arrive early, set up, cook and serve through the meal, then clean up completely before they leave. You approve the menu, the timing and the final numbers at every step, with no surprises on the invoice and no obligation to commit until the details are right."
+   ],
+   "insert_after_block": "What's Included in Our Father's Day Catering",
+   "position": "after the block titled 'What's Included in Our Father's Day Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Why book Fathers Day catering with myCHEF",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you own the day, we carry the work. No chef reaches fathers day catering without clearing identity checks, a practical cooking assessment, reference verification and ongoing reviews from earlier clients. Ahmed Al-Rashid , with 18+ years across Dubai, London and Paris in classical French technique, who designs each menu as a collaboration with the host, with every course timed, seasoned and served to exacting standards. We've delivered villa celebrations, yacht parties and corporate galas across Dubai. Any client reviews are added only as events are delivered: real feedback, not invented."
+   ],
+   "insert_after_block": "What's Included in Our Father's Day Catering",
+   "position": "after the block titled 'What's Included in Our Father's Day Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Common questions about Fathers Day catering in Dubai",
+   "new_paragraphs": [
+    "How much does father's day catering cost in Dubai?",
+    "It starts from around AED 700 per person and is quoted by guest count, menu and service level. Most bespoke menus land between AED 700 and AED 950 per head, and fixed packages run from AED 1,200 — send your numbers for an itemised quote.",
+    "What's included in Father's Day catering?",
+    "Menu design, a vetted private chef cooking on site, service staff where needed, all equipment, plating, setup and full cleanup — the whole event, handled by one team.",
+    "How far ahead should I book Father's Day catering?",
+    "A week is usually enough for a small gathering; book earlier for large parties and peak dates so you get first pick of chefs and menus.",
+    "Can you cater a Father's Day BBQ at home or on the beach?",
+    "Yes — a private chef travels to your villa, apartment, garden, rooftop or a Dubai beach with everything needed to cook on site, so the grill goes wherever Dad wants to be.",
+    "Do you offer halal and dietary-friendly Father's Day menus?",
+    "Yes. The full spread can be prepared halal on request, and vegetarian, vegan, gluten-free and nut-free options are built in from the first draft alongside kids' plates.",
+    "Is there a corporate Father's Day catering option?",
+    "Yes — we arrange corporate Father's Day catering for office teams, from a themed lunch to an after-work grill on the terrace, scaled to your headcount and budget.",
+    "For fathers day catering, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements ."
+   ],
+   "insert_after_block": "Make This Father's Day One to Remember",
+   "position": "after the block titled 'Make This Father's Day One to Remember'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which fathers day catering format suits your event?",
+   "new_paragraphs": [
+    "Format Service staff Guests it suits Indicative cost",
+    "Drop-off None Any size, informal Most economical",
+    "Buffet 1–2 20–60 From AED 700 per person",
+    "Live stations 2–4 40 and above From AED 700 per person",
+    "Plated service 3 and above 8–40 seated Highest per head"
+   ],
+   "insert_after_block": "Father's Day Catering Questions",
+   "position": "after the block titled 'Father's Day Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning fathers day catering step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your fathers day catering proposal arrives.",
+    "Book fathers day catering about 2 weeks ahead off-peak, and 6 weeks ahead between November and March.",
+    "Confirm the fathers day catering menu 7 days before the date, with final numbers.",
+    "Ask about allergies when booking fathers day catering, well outside the final 48 hours .",
+    "Check how the team reaches the venue; fathers day catering setup begins about 2 hours before guests.",
+    "Plan on roughly 3 hours of fathers day catering service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": "Father's Day Catering Questions",
+   "position": "after the block titled 'Father's Day Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  }
+ ],
+ "faq": []
+}

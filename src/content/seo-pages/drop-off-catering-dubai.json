@@ -1,0 +1,192 @@
+{
+ "url": "/drop-off-catering-dubai",
+ "keyword_strategy": {
+  "main_keyword": "drop off catering dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 6,
+  "subkeywords_carried": 6,
+  "coverage_percent": 100,
+  "subkeywords_carried_list": [
+   "buffet catering dubai",
+   "small party catering dubai",
+   "finger food catering dubai",
+   "free drop off catering dubai",
+   "best drop off catering dubai",
+   "cheap drop off catering dubai"
+  ],
+  "subkeywords_not_carried": [],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Drop Off Catering Dubai | from AED 90 per person | myCHEF",
+  "meta_description": "Drop-off catering in Dubai — chef-cooked food delivered ready to serve, no staff to manage. From AED 90 per person, minimum 10 guests, AED 900 minimum order.",
+  "h1": "Drop Off Catering in Dubai — Prices, Formats and What You Get"
+ },
+ "opening_paragraph": [
+  "Drop off catering in Dubai from myCHEF is chef-cooked food delivered ready to serve, from AED 90 per person, with no on-site staff to manage. You get the standard of a private kitchen at close to the price of delivery: platters and trays arrive plated, labelled and set out, so you lift the lids and host. It suits office lunches, home gatherings and any occasion where you want restaurant-grade food without a full service brigade in the room. Tell us the date, headcount and venue and, during our published business hours, an itemised proposal comes back promptly."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "Drop-Off Catering Formats",
+   "match_confidence": 0.73,
+   "new_heading": "Drop off catering across Dubai",
+   "new_paragraphs": [
+    "We deliver drop off catering across all of Dubai, so a search for drop off catering near me gets a real answer wherever you are — Downtown and Business Bay offices, Marina and JLT apartments, and villas in Palm Jumeirah, Emirates Hills, Jumeirah and Arabian Ranches. Beach and desert setups are welcome too, with timing planned around access and heat.",
+    "Because we are a Dubai-based team, delivery windows are tight and reliable, not best-guess. Whether you want the best drop off catering for a milestone celebration, luxury drop off catering for a private event, or relaxed home catering for a weekend with family, the same vetted kitchens and clear pricing apply city-wide. Explore buffet catering , finger food and office catering , or browse full-service catering and corporate options."
+   ]
+  },
+  {
+   "block_on_your_page": "What's Included in Our Drop-Off Catering",
+   "match_confidence": 0.73,
+   "new_heading": "What's on a drop off catering menu?",
+   "new_paragraphs": [
+    "A drop off catering menu spans canapés, salads, hot mains, sharing platters and dessert, built around your guests instead of a fixed list. Popular picks include Arabic mezze, Mediterranean grazing boards, Indian and Asian mains, slow-cooked roasts and a seasonal dessert selection.",
+    "Every menu is designed to travel and hold well, so texture and temperature are right when guests eat, not just when the food leaves the kitchen. We cover dietary needs as standard — halal, vegetarian, vegan, gluten-free, nut-free and keto — and dish labelling is provided in line with the assigned partner's procedures. Prefer a lighter footprint? We also offer healthy and lower-sugar spreads. Tell us your favourite cuisines and we will shape the food catering around them, whether that is a working buffet or a celebration centrepiece."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "Great Food, Delivered Ready to Serve",
+  "A Simple Solution for Busy Hosts",
+  "Order Drop-Off Catering That Arrives Ready to Serve",
+  "Explore myCHEF Dubai",
+  "Drop-Off Catering Questions",
+  "A Taste of Our Drop-Off Catering"
+ ],
+ "add_block": [
+  {
+   "new_heading": "What does drop off catering in Dubai include?",
+   "new_paragraphs": [
+    "Drop off catering includes menu design, cooking by a vetted private chef, delivery to your door and setup of every dish — everything except live on-site service. Your partner handles the sourcing, prep, packing and logistics, then arrives ahead of your start time to lay out the food so it looks the part.",
+    "Each order comes with clear reheating and serving notes, allergen labels and, on request, chafing dishes, warmers and serving utensils. You choose the finish: elegant disposable platters for a low-key office lunch, or china and linen where the table needs to impress. This sits neatly between full drop off catering services and a private chef cooking in your kitchen — most of the polish, far less of the fuss, and a caterer handling the parts you would not."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Great Food, Delivered Ready to Serve'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Drop off catering for weddings, corporate events and parties",
+   "new_paragraphs": [
+    "Drop off catering works for almost any occasion where guests help themselves — from a birthday at home to a corporate lunch or a large family celebration. For corporate drop off catering we deliver boardroom lunches, all-day meeting spreads and staff feasts to offices across Dubai, invoiced cleanly for finance teams.",
+    "For social events, drop off party catering scales from an intimate gathering to a garden full of guests, with grazing tables, hot mains and dessert trays. It is a practical choice for engagements, baby showers and reunions, and a strong option for weddings — welcome dinners, next-day brunches and supplier meals around the main day. Whatever the event, the food arrives ready to enjoy, which is why so many hosts choose drop off catering for events large and small."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Great Food, Delivered Ready to Serve'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Delivery, timing and food safety",
+   "new_paragraphs": [
+    "Delivery is scheduled to land shortly before your event, so hot food stays hot and cold food stays cold. We plan timing around your headcount and venue — a JLT office tower, a Palm villa or a beach setup each have different access, and we account for parking, lifts and setup space in advance.",
+    "Food is transported in temperature-controlled packaging and set out in line with Dubai Municipality food-safety practice, with clear guidance on how long each dish can safely sit. For longer events we can supply warmers and ice trays, or stagger a second drop so the table still looks fresh late into the evening. If you would not lift a finger afterwards, add a collection and the cleanup becomes ours, not yours."
+   ],
+   "insert_after_block": "What's Included in Our Drop-Off Catering",
+   "position": "after the block titled 'What's Included in Our Drop-Off Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How much does drop off catering cost in Dubai?",
+   "new_paragraphs": [
+    "Drop off catering in Dubai starts from AED 90 per person for a working-lunch spread, AED 120 per person for a standard event buffet, and AED 150 per person for a premium, BBQ or grazing-table menu. Because there is no on-site brigade, it is our entry tier of catering in the useful sense — the drop off catering cost reflects the food and the delivery, not a front-of-house team standing in your kitchen for four hours. Where the same food is plated and served by a chef on site, the price moves into the AED 700 to 950 per person band, and that difference is the staffing, not the ingredients.",
+    "The minimum order is AED 900, which is ten guests on the entry tier, and buffets start at 20 guests. For structured budgets, our catering packages run from AED 1200 up to AED 5500 depending on scale, with larger set menus landing around AED 2400, AED 3600 and AED 4500. See private chef prices and the catering price guide for worked examples, then request an itemised quote so the drop off catering prices match your exact brief — no padding, no surprise line items."
+   ],
+   "insert_after_block": "What's Included in Our Drop-Off Catering",
+   "position": "after the block titled 'What's Included in Our Drop-Off Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Is delivery free, and what is the minimum order?",
+   "new_paragraphs": [
+    "MyCHEF does not advertise free drop off catering, and there is a reason to prefer that. Your proposal itemises the food, the delivery and the 5% VAT as separate lines, so you can see what reaching your address costs before you commit. A Business Bay office on a weekday is a different job from a Palm villa at nine on a Saturday or a beach setup with a long carry, and a flat \"free delivery\" headline usually just buries that inside the per-head price. The minimum order is AED 900 and the minimum headcount is 10 guests, 20 for a buffet — below that the delivery and setup stop making sense against the food.",
+    "Coverage is Dubai, city-wide. For an address outside the emirate — drop off catering in Sharjah, Ajman or Abu Dhabi — send it with your enquiry and we tell you before you commit whether it can be served from the Dubai network and what the travel adds. If you are comparing the top catering companies in Dubai on what they publish rather than what they promise, our comparison guide sets out who states prices, minimums and lead times openly."
+   ],
+   "insert_after_block": "What's Included in Our Drop-Off Catering",
+   "position": "after the block titled 'What's Included in Our Drop-Off Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How to hire drop off catering in Dubai",
+   "new_paragraphs": [
+    "To hire drop off catering, send your date, guest count, venue and any dietary needs, and we reply with an itemised proposal, usually within one business day. Once you approve the menu and numbers, we confirm the booking, take payment securely and lock the delivery window.",
+    "On the day, our team arrives ahead of schedule, sets out every dish and talks you through reheating and serving before we leave. There is no minimum drama: whether it is a working lunch for a small team or drop off catering for a hundred guests, the process is the same — clear menu, clear price, food delivered ready. Comparing formats? Read private chef vs catering to see which one fits your occasion."
+   ],
+   "insert_after_block": "What's Included in Our Drop-Off Catering",
+   "position": "after the block titled 'What's Included in Our Drop-Off Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Why choose myCHEF",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you own the occasion, we carry the work. MyCHEF is implementing a structured partner verification standard across its chef network, covering identity, trade licensing and permitted activities, food-safety and food-handler records, and references ; some stages are in place and the rest are being rolled out as part of a continuing review. We are honest about it, too: no system removes every risk, so we match each event to the chef well suited to it.",
+    "For drop-off work, that is often Ahmed Al-Rashid , who brings 18+ years across Dubai, London and Paris in classical French technique and builds menus that travel without losing their edge. Drop off catering sits alongside villa weddings, yacht celebrations and corporate galas we have delivered across Dubai, and drop-off is a natural fit for offices and homes. Client reviews are published only as events are delivered — real feedback, not fabricated."
+   ],
+   "insert_after_block": "What's Included in Our Drop-Off Catering",
+   "position": "after the block titled 'What's Included in Our Drop-Off Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which drop off catering format suits your event?",
+   "new_paragraphs": [
+    "Format What it gives you Staffing Cost position",
+    "Drop-off Food delivered ready to serve None From AED 90 per person, 10 guests",
+    "Buffet Presentation plus a maintained spread 1–2 From AED 120 per person, 20 guests",
+    "Live stations Cooking in front of your guests 2–4 From AED 150 per person",
+    "Plated, chef serving on site Every course served together 3 and above AED 700–950 per person"
+   ],
+   "insert_after_block": "Drop-Off Catering Questions",
+   "position": "after the block titled 'Drop-Off Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Common questions",
+   "new_paragraphs": [
+    "How much does drop off catering cost in Dubai?",
+    "From AED 90 per person for a working-lunch spread, AED 120 for a standard event buffet and AED 150 for a premium or BBQ menu. A chef plating and serving on site is a different product at AED 700 to 950 per person.",
+    "Is drop off catering delivery free in Dubai?",
+    "We do not advertise free delivery. Delivery is shown as its own line on your proposal alongside the food and the 5% VAT, so you can see what reaching your address costs instead of finding it folded into the per-head price.",
+    "What is the cheapest drop off catering in Dubai?",
+    "A working-lunch spread at AED 90 per person is our entry tier, with a minimum of 10 guests and an AED 900 minimum order. Skipping on-site staff is what makes drop-off less expensive than a buffet with servers or a chef cooking live.",
+    "Do you deliver drop off catering to Sharjah?",
+    "Coverage is Dubai. Send a Sharjah, Ajman or Abu Dhabi address with your enquiry and we tell you before you commit whether it can be served from the Dubai network and what the travel adds.",
+    "What's included in drop off catering?",
+    "Menu design, cooking by a vetted chef, delivery, setup of every dish, allergen labelling and clear serving notes are all included. Warmers, serving ware and a return collection can be added on request.",
+    "How do I hire drop off catering in Dubai?",
+    "Share your date, guest count and venue; we send an itemised proposal, usually within one business day, then confirm the menu, take secure payment and schedule delivery. It is a quick, low-pressure process.",
+    "Is drop off catering available for corporate events and parties?",
+    "Yes. Corporate drop off catering covers office lunches, meetings and staff meals, while drop off party catering handles birthdays, showers and celebrations at home — both delivered ready to serve.",
+    "Can you cater dietary requirements?",
+    "Yes. Halal is standard, and we regularly prepare vegetarian, vegan, gluten-free, nut-free and keto menus, with each dish labelled so guests can choose with confidence.",
+    "How far in advance should I order?",
+    "Ideally 48 hours or more for larger events, though shorter notice is often possible. Share your date early and we will confirm availability and hold your delivery slot.",
+    "Do you deliver drop off catering near me across Dubai?",
+    "Yes. We deliver to offices, apartments and villas right across Dubai, from Business Bay and the Marina to Palm Jumeirah, with timing planned around your venue's access.",
+    "For drop off catering, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements ."
+   ],
+   "insert_after_block": "Drop-Off Catering Questions",
+   "position": "after the block titled 'Drop-Off Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning drop off catering step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your drop off catering proposal arrives.",
+    "Book as early as you can — 72 hours of notice suits a standard drop-off order, and 5 to 7 days a larger or bespoke menu. Short-notice requests are assessed individually.",
+    "Confirm the menu for drop off catering some 7 days ahead, once numbers stop moving.",
+    "Ask for dietary covers at the drop off catering briefing stage instead of within 48 hours .",
+    "Check parking and lift access; your drop off catering team is on site some 2 hours early.",
+    "Plan on roughly 3 hours of drop off catering service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": "Drop-Off Catering Questions",
+   "position": "after the block titled 'Drop-Off Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  }
+ ],
+ "faq": []
+}

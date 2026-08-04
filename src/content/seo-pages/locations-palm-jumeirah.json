@@ -1,0 +1,192 @@
+{
+ "url": "/locations/palm-jumeirah",
+ "keyword_strategy": {
+  "main_keyword": "private chef palm jumeirah",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 10,
+  "subkeywords_carried": 9,
+  "coverage_percent": 90,
+  "subkeywords_carried_list": [
+   "how much does a private chef cost in dubai?",
+   "how much does it usually cost to have a private chef?",
+   "chef hire",
+   "my chef dubai",
+   "the private chef",
+   "healthy chef for hire",
+   "chef services near me",
+   "private chef dinner dubai",
+   "order a chef to your home"
+  ],
+  "subkeywords_not_carried": [
+   "how much is a private chef in palm springs?"
+  ],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Private Chef Palm Jumeirah | Villa Dining & Catering | myCHEF",
+  "meta_description": "Private chef & catering in Palm Jumeirah from AED 700pp — villa dining, events and bespoke menus with vetted chefs. Serving The Fronds (A–M) beach villas. Request a proposal.",
+  "h1": "Private Chef & Catering in Palm Jumeirah — Menus, Prices and What's Included"
+ },
+ "opening_paragraph": [
+  "A private chef in Palm Jumeirah costs from AED 700 per person , and myCHEF pairs you with a vetted chef who cooks in your villa. Your chef designs the menu, serves each course and clears everything away. On the Palm the sea is the view and your own address is the venue, so the whole evening happens where you already feel at home. Send your date and address; during our published business hours you will usually hear back promptly with a chef match and an itemised proposal."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "Who books private chef and catering in Palm Jumeirah",
+   "match_confidence": 0.82,
+   "new_heading": "Private chef and catering across Palm Jumeirah",
+   "new_paragraphs": [
+    "We cover the whole island and the communities around it. That means the Fronds beach villas, Shoreline and Palm Tower apartments, Signature Villas and the Atlantis area — plus quick reach to Dubai Marina and JBR next door, or explore all Dubai locations . Many hosts pair private chef Palm Jumeirah with fuller catering Palm Jumeirah when the guest list grows, and if you are weighing formats, compare private chef vs catering or ask us to recommend one. Wherever you are on the Palm, the same vetted-chef standard and per-head pricing apply."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "At a Glance",
+  "Discreet seven-course villa dining and private chef service for Palm Jumeirah's most exclusive addresses.",
+  "What is included in our Palm Jumeirah catering service",
+  "How Palm Jumeirah catering works",
+  "Logistics for Palm Jumeirah events",
+  "Also Serving Near Palm Jumeirah",
+  "Services in Palm Jumeirah",
+  "Explore Our Services",
+  "Popular Events in Palm Jumeirah",
+  "Questions About Palm Jumeirah Catering",
+  "Book Your Palm Jumeirah Private Chef",
+  "Explore myCHEF Dubai",
+  "Menu options for Palm Jumeirah events",
+  "Why myCHEF Dubai for Palm Jumeirah",
+  "Properties We Serve in Palm Jumeirah",
+  "Popular Palm Jumeirah events"
+ ],
+ "add_block": [
+  {
+   "new_heading": "Private dining Palm Jumeirah for parties, celebrations and corporate",
+   "new_paragraphs": [
+    "The same team handles everything from a two-person anniversary to a fifty-guest celebration. For hosts, palm jumeirah dinner party catering is the most requested format — a plated multi-course menu on the terrace as the sun goes down. Larger palm jumeirah party catering runs as grazing tables, live stations or a buffet, and palm jumeirah event catering scales up for birthdays, engagements and family gatherings. Companies use us for palm jumeirah catering services too: intimate client dinners, retreat lunches and executive entertaining at a villa instead of a restaurant. Because each Frond has its own beach, a private beach BBQ or seafood grill is one of the most popular ways to use the setting. Whatever the occasion, the chef and menu are built around it, not pulled from a fixed package."
+   ],
+   "insert_after_block": "Why myCHEF Dubai for Palm Jumeirah",
+   "position": "after the block titled 'Why myCHEF Dubai for Palm Jumeirah'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Menus and cuisine options",
+   "new_paragraphs": [
+    "Menus are bespoke and cover most cuisines cooked in Dubai. We build across Arabic , Mediterranean , Italian , Indian and Pan-Asian, with halal , vegetarian and vegan versions of every dish. Gluten-free, nut-conscious and other dietary menu options may be available on request, subject to confirmation by the assigned culinary partner. Partner kitchens may handle allergens, and cross-contact cannot be completely excluded unless dedicated controls have been specifically confirmed for the booking. Guests with allergies must provide full details before confirming their event. A signature choice here is seven-course villa dining, but you can also ask for a relaxed sharing feast, a seafood-led beach menu or yacht menus run from the nearby marina. Tell the chef your theme, the dishes you love and anything to avoid, and the menu comes back tailored. Browse sample menus for ideas or send your own. Every dish is priced per head so you can see exactly where the budget goes before you confirm."
+   ],
+   "insert_after_block": "Why myCHEF Dubai for Palm Jumeirah",
+   "position": "after the block titled 'Why myCHEF Dubai for Palm Jumeirah'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "A healthy chef for hire on the Palm",
+   "new_paragraphs": [
+    "A fair share of Palm bookings ask for the food to be light before they ask for it to be impressive, and that is a menu brief like any other. A healthy chef for hire here means grilled and roasted in place of fried, olive oil doing the work of butter, vegetables and whole grains carrying the plate, fish more often than red meat, and dessert built on fruit and citrus. If you train and count what you eat, give the chef the targets when you enquire — protein per plate, a carbohydrate range, no added sugar, no dairy — and the menu is designed to them from the start instead of being adjusted on the day. Guests who are not eating to a plan get the same dishes at full richness, so nothing on the table announces itself as the diet option. Healthy catering in Dubai sets out how the menus are built."
+   ],
+   "insert_after_block": "Why myCHEF Dubai for Palm Jumeirah",
+   "position": "after the block titled 'Why myCHEF Dubai for Palm Jumeirah'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Villa access and logistics on the Palm",
+   "new_paragraphs": [
+    "Getting onto the Palm smoothly is part of the job, and we plan it before the day. Access runs through the trunk and the secured Fronds (A–M), so we clear chef and staff entry with your security or building ahead of time and confirm parking and the service route. The Fronds are beach villas with full kitchens, ideal for palm jumeirah villa catering and open-air dining, while Shoreline and Palm Tower are apartments where a compact home chef Palm Jumeirah setup works better. The chef arrives early to prep, cooks around your timeline instead of rushing it, and works cleanly in a shared space. If you are a holidaymaker in a rented villa, we coordinate directly with the property so nothing lands on you."
+   ],
+   "insert_after_block": "Why myCHEF Dubai for Palm Jumeirah",
+   "position": "after the block titled 'Why myCHEF Dubai for Palm Jumeirah'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How much does a private chef in Palm Jumeirah cost?",
+   "new_paragraphs": [
+    "From AED 700 per person, with the exact figure set by guest count, menu and service level. Everything is priced per head, and the palm jumeirah private chef cost comes down as the group grows: an intimate dinner for two runs nearer AED 950–1,300 per person, six guests around AED 750–1,000, and ten or more from AED 700. Multi-course tasting menus and rare ingredients sit at the higher end; relaxed sharing menus at the lower. There are no hidden extras — groceries, staff and equipment are listed in the proposal. See the full breakdown on private chef prices in Dubai , or send your numbers for an exact quote on your event."
+   ],
+   "insert_after_block": "Why myCHEF Dubai for Palm Jumeirah",
+   "position": "after the block titled 'Why myCHEF Dubai for Palm Jumeirah'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Why myCHEF for private dining on the Palm",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you own the evening, we carry the work. No chef is offered for a Palm Jumeirah booking before clearing identity checks, a practical cooking assessment, reference verification and ongoing performance reviews — a continuous standard, not a one-time tick. We are honest about it: no system removes every risk, so we match each event to the chef whose background fits it, which is how you get a genuinely luxury private chef Palm Jumeirah experience instead of a lottery.",
+    "For an occasion like this, that might be Ahmed Al-Rashid — 18+ years across Dubai, London and Paris in classical French technique — who designs each menu as a collaboration with the host, every course timed, seasoned and served to exacting standards. To give one example, we delivered a seven-course terrace dinner for twelve on a Frond villa, coordinating security access, a beach-side canapé reception and a plated main service, all cleared by midnight."
+   ],
+   "insert_after_block": "Properties We Serve in Palm Jumeirah",
+   "position": "after the block titled 'Properties We Serve in Palm Jumeirah'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which format suits your event on the Palm?",
+   "new_paragraphs": [
+    "Format Service staff Guests it suits Indicative cost",
+    "Drop-off None Any size, informal Most economical",
+    "Buffet 1–2 20–60 From AED 700 per person",
+    "Live stations 2–4 40 and above From AED 700 per person",
+    "Plated service 3 and above 8–40 seated Highest per head"
+   ],
+   "insert_after_block": "Popular Palm Jumeirah events",
+   "position": "after the block titled 'Popular Palm Jumeirah events'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Common questions",
+   "new_paragraphs": [
+    "How much does a private chef cost in Palm Jumeirah?",
+    "Private dining in Palm Jumeirah starts from about AED 700–950 per person, depending on guest count, menu and service level. Larger groups come down per head; send your numbers for an exact quote.",
+    "Which parts of Palm Jumeirah do you serve?",
+    "All of Palm Jumeirah — The Fronds (A–M) beach villas, Shoreline and Palm Tower apartments and the surrounding streets — plus nearby Dubai communities. Confirm your exact address when you enquire.",
+    "What's included in a private chef booking?",
+    "Included is menu design, a vetted chef cooking on site, service staff where needed, plating, setup and full cleanup, plus itemised groceries and equipment. You keep a clean kitchen.",
+    "How far in advance should I book?",
+    "About 48 hours covers a standard private-chef dinner, and 5 to 7 days suits a bespoke menu or a larger private event. Short-notice requests are assessed individually against chef availability, so ask even if your date is close.",
+    "Can you cater a private beach BBQ or dinner party on the Palm?",
+    "Yes. Each Frond villa has its own beach, which suits a live BBQ, grazing spread or a plated multi-course dinner. We bring the grill, staff and everything needed, and clear it all afterwards.",
+    "Do you cater halal, vegetarian and allergen-aware menus?",
+    "Yes. Every menu can be built halal, vegetarian or vegan, and the chef designs around your requirements from the start. Gluten-free, nut-conscious and other dietary menu options may be available on request, subject to confirmation by the assigned culinary partner. Partner kitchens may handle allergens, and cross-contact cannot be completely excluded unless dedicated controls have been specifically confirmed for the booking. Guests with allergies must provide full details before confirming their event.",
+    "How do I book?",
+    "Share your date, guest count and address; we match a vetted chef and send an itemised proposal, usually within one business day.",
+    "Who is the best chef in the UAE?",
+    "No ranking settles that, and any list claiming to is one person's opinion. The useful question is narrower — who is the best chef for your evening — and myCHEF answers it by matching cuisine, format and guest count to a chef who cooks that food regularly in the UAE. A Levantine grill on a Frond beach and a French tasting menu for eight are two different people.",
+    "How much does it usually cost to have a private chef?",
+    "On the Palm the usual range is AED 700–950 per person once you are at ten guests or more. Six guests sit around AED 750–1,000, four around AED 800–1,100, and a dinner for two nearer AED 950–1,300, because the chef's time is spread across fewer plates.",
+    "Can I book a chef for healthy or macro-managed menus?",
+    "Yes. Give the chef your targets when you enquire — protein per plate, carbohydrate range, no added sugar, no dairy — and the menu is designed to them, with the rest of the table served the same dishes at full richness.",
+    "For private chef palm jumeirah, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements ."
+   ],
+   "insert_after_block": "Popular Palm Jumeirah events",
+   "position": "after the block titled 'Popular Palm Jumeirah events'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "More on private chef Palm Jumeirah",
+   "new_paragraphs": [
+    "Private chef bluewaters island",
+    "Private chef jvc",
+    "Private chef jlt",
+    "Private chef vs restaurant dubai",
+    "Get an itemised quote",
+    "Palm jumeirah villa dining"
+   ],
+   "insert_after_block": "Menu options for Palm Jumeirah events",
+   "position": "after the block titled 'Menu options for Palm Jumeirah events'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  },
+  {
+   "new_heading": "What does a private chef in Palm Jumeirah include?",
+   "new_paragraphs": [
+    "It includes everything from the first menu conversation to the last dish washed. Your booking covers a tasting-led menu built around your guests, a vetted chef cooking on site, service staff where the guest count needs them, plating, table setup and full cleanup — you are left with a clean kitchen and nothing to tidy. This is a true personal chef Palm Jumeirah service instead of a drop-off delivery: the food is cooked fresh in your own kitchen and served course by course. Groceries, premium ingredients and any specialist equipment are sourced by the chef and itemised in the proposal, so there are no surprises. Whether you want a quiet in-villa chef Palm Jumeirah dinner for two or a full villa chef Palm Jumeirah production for a party, the format flexes to the occasion."
+   ],
+   "insert_after_block": "Why myCHEF Dubai for Palm Jumeirah",
+   "position": "after the block titled 'Why myCHEF Dubai for Palm Jumeirah'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  }
+ ],
+ "faq": []
+}

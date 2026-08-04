@@ -1,0 +1,195 @@
+{
+ "url": "/product-launch-catering-dubai",
+ "keyword_strategy": {
+  "main_keyword": "product launch catering dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 8,
+  "subkeywords_carried": 8,
+  "coverage_percent": 100,
+  "subkeywords_carried_list": [
+   "catering ideas dubai",
+   "party catering dubai",
+   "dinner catering dubai",
+   "ramadan catering dubai",
+   "high end catering dubai",
+   "affordable catering dubai",
+   "hospitality catering dubai",
+   "product launch catering dubai menu"
+  ],
+  "subkeywords_not_carried": [],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Product Launch Catering Dubai | Menus & Prices | myCHEF",
+  "meta_description": "Product Launch in Dubai — catering that makes a launch feel premium. From aed 700 per person, with vetted chefs and full service. Request a proposal from myCHEF.",
+  "h1": "Product Launch Catering in Dubai — Prices, Formats and What You Get"
+ },
+ "opening_paragraph": [
+  "Product launch catering in Dubai starts from AED 700 per person — canapés, live stations and branded service designed so your launch feels like an event, not a buffet. A vetted chef handles the menu, cooking, service and cleanup, so your team works the room and the press instead of the trays. Tell us your date, guest count and venue, we typically reply within 15 minutes during business hours, with an itemised proposal to follow."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "Product Launch Catering Questions",
+   "match_confidence": 0.75,
+   "new_heading": "Product launch catering across Dubai",
+   "new_paragraphs": [
+    "MyCHEF arranges product launch catering across all of Dubai — from DIFC and Downtown boardrooms to Business Bay showrooms, Dubai Marina rooftops, Palm Jumeirah villas and the exhibition halls of Trade Centre. Wherever your venue, the same vetted-chef standard travels with it. Launches at hotels, galleries, retail stores, co-working spaces and private residences are all routine, and we adapt the setup to each — a compact station kit for an apartment reveal, a full mobile kitchen for a large activation. Because Dubai launches often run late and pivot fast, we staff for flexibility. Pair a product launch with brand activation or a gala dinner , and explore the wider range of event catering . Comparing formats? See private chef vs catering to decide what suits your guest list."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "Formats Built for Unveilings",
+  "Trusted Across Dubai Sectors",
+  "Launch Catering Planning Checklist",
+  "What's Included",
+  "Launch Moments we coordinate catering for",
+  "Ready to Launch?",
+  "Explore myCHEF Dubai",
+  "Why Launch Catering Matters",
+  "Launch Catering Locations"
+ ],
+ "add_block": [
+  {
+   "new_heading": "What does product launch catering in Dubai include?",
+   "new_paragraphs": [
+    "Product launch catering in Dubai includes menu design, a vetted chef, on-site cooking, service staff, setup and cleanup — everything a brand reveal needs, handled by one team. A full brief usually covers passed canapés, one or two live cooking stations, a soft-drink or mocktail bar, and branded finishing touches that echo your product. Because a launch is as much theatre as dining, the food is planned around your run-of-show: bites guests can hold while networking, nothing that needs two hands or a knife. Dietary coverage — halal, vegetarian, vegan, nut-free — is built in from the start, so no guest is left waiting. You get one point of contact, an itemised proposal, and a chef who arrives ready to plate, not to improvise."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Why Launch Catering Matters'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Product launch catering for corporate events, brand reveals and parties",
+   "new_paragraphs": [
+    "Corporate product launch catering in Dubai works well when the food matches the stakes of the moment — a car unveiling, a fashion drop, a tech keynote or a retail opening each call for a different rhythm. For a formal corporate reception, we lean on elegant canapés and a plated dessert moment timed to the reveal itself. For a livelier party crowd, live stations and a mocktail bar keep energy high and lines short. It scales cleanly, too: the same kitchen that serves an intimate 20-guest press preview handles a 300-guest activation without dropping standards. We coordinate with your event planner, AV team and venue so food service doesn't clash with the speeches. The goal is plain: guests remember the product, and remember eating well while they discovered it."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Why Launch Catering Matters'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What's on a product launch menu in Dubai?",
+   "new_paragraphs": [
+    "A product launch menu in Dubai is built around one-bite, walk-and-talk food: canapés, sliders, sushi, mezze and chef-manned live stations. The menu is designed from a short consultation — we ask about your brand, your guests and any signature colours or flavours you want echoed on the plate. Popular formats include a raw bar, a slider or shawarma station, a grazing table, and a dessert cart that can carry your logo. For a luxury reveal, we add caviar service, aged-cheese towers or a live pasta station. Everything is portioned for standing guests and refreshed in waves, so the last arrival gets the same quality as the first. If you prefer home catering for a smaller founder-and-press gathering in a villa or apartment, the same menus scale down without losing polish."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Why Launch Catering Matters'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Launch catering ideas that survive a real room",
+   "new_paragraphs": [
+    "Most catering ideas in Dubai are written for people sitting down. A launch room is the opposite: everyone is standing, holding a drink in one hand and a phone in the other, and half of them are trying to photograph your product. The ideas that work are the ones that respect that. One-bite food, nothing that needs a knife, nothing that drips onto a lanyard. A station that produces smell and sound — a grill, a wok, a robata — because the smell does more marketing across a room than a sign does. Colour rather than logos: matching the dessert and the drinks to your brand palette reads as considered, where a logo printed on every canapé reads as a compromise. And hold something back. A dessert cart or a coffee station that opens twenty minutes after the reveal is the cheapest way to keep a room from emptying the moment the speeches end.",
+    "What consistently fails: soup shots, anything served in a bowl needing two hands, a seated course scheduled against a keynote, and one long buffet table that turns into a queue past the very thing you are launching. High end catering in Dubai, at a launch, means fewer items sourced better and more staff per guest — not more trays. A launch is also a hospitality exercise before it is a catering one, and the two are easy to confuse. Press, VIPs, clients and your own team all want different things from the same room: press want to get in, get the shot and get out, VIPs want to be found and looked after, staff want to eat something at some point. That is why service is staffed to the guest list and not to the headcount, and why the floor lead knows who is being watched for.",
+    "Where a fired station can stand is a venue question, and it is worth settling before the run-of-show is printed. A robata counter is live charcoal, so it belongs outdoors on a villa's own plot, at ground level on a firm non-combustible base, with a clear standing zone around it — Dubai Municipality's barbecue guidance is explicit that coal is not lit in an enclosed space or indoors. Inside a tower it does not run at all: Emaar's vertical-community rules prohibit barbecues, grills or any cooking equipment of any kind on balconies and terraces regardless of fuel, and no permit unlocks that, because the constraint is the building's extraction and its fire position. For an apartment reveal or an indoor showroom the same skewer menu runs off an electric or induction robata-style counter, or the skewers are charred in the licensed kitchen and finished in front of guests: the chef, the counter and the serve-direct-to-guest rhythm all survive, and the binchotan aroma is the one thing lost. A raw bar has the opposite profile — no flame, no fuel, no extraction requirement — so it runs in a tower, at a villa and on a yacht deck alike, which is why it carries a launch when the fired station cannot. For a rooftop or a desert activation, myCHEF confirms the setup with the building management or the landowner before quoting."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Why Launch Catering Matters'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How is branding and timing handled at a launch?",
+   "new_paragraphs": [
+    "Branding and timing are handled by pre-planning every plate against your run-of-show, so the food supports the reveal instead of competing with it. We can brand napkins, station signage, dessert toppers and drink stirrers to your palette, and time the biggest moment — a flambé, a carving, a dessert reveal — to land exactly when your product does. Logistics matter as much as flavour: our team arrives early, sets up discreetly, and needs only power and water for most stations. Timing is mapped to the minute — arrival canapés during registration, stations opening after the keynote, dessert and coffee as the networking winds down. For outdoor or rooftop launches we plan around Dubai's heat with covered stations and chilled service. A private chef leads the floor, so if the schedule shifts, the food shifts with it — no scramble, no cold canapés."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Why Launch Catering Matters'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Launching during Ramadan",
+   "new_paragraphs": [
+    "Brands do launch during Ramadan in Dubai, and the plan is not the usual plan with the timings nudged. Daytime hospitality is not appropriate while people are fasting, so the event moves to one of two slots. An iftar launch is built backwards from sunset, which is a fixed time you cannot negotiate with: dates and water go out the moment the call comes, the room breaks for prayer within the first twenty minutes, and the real service window opens after that. A run-of-show that puts a keynote at sunset will lose the room entirely. The alternative is a suhoor activation, which runs from roughly 10pm to the pre-dawn hour, suits younger and media-heavy guest lists, and tends to be the livelier of the two. Ramadan catering in Dubai also books out early, and partner kitchens are at their busiest of the year, so a launch in that month wants more notice than one in October. If the event is primarily an iftar, our iftar catering page covers the menu structure in more depth; this page stays with the launch mechanics around it."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Why Launch Catering Matters'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How much does product launch catering cost in Dubai?",
+   "new_paragraphs": [
+    "Product launch catering in Dubai costs from AED 700 per person, with most launches landing between AED 700 and AED 950 per person depending on menu, guest count and service level. Prices scale with the format: a canapé-only reception sits at the lower end, while multi-station or luxury menus with premium seafood rise toward the top. For planning, our launch packages run at AED 1,200, AED 2,400, AED 3,600, AED 4,500 and AED 5,500, each stepping up the stations, courses and staff. A private tasting ahead of a flagship launch is AED 1,400. The honest answer on cost is that it depends on your numbers and ambition, so we quote every job itemised — see our prices and catering price guide . A more affordable launch is possible, and the way to get there is to cut the station count rather than the food quality — three things done properly beats six done thinly, and it costs less."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Why Launch Catering Matters'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How to hire product launch catering in Dubai",
+   "new_paragraphs": [
+    "To hire product launch catering in Dubai, send your date, guest count and venue, and we typically reply within 15 minutes during business hours, with an itemised proposal to follow. From there the process is clear: we match a vetted chef to your brief, agree the menu and run-of-show, and confirm with a deposit. If you want to taste first, we arrange a private tasting. On the day, the team arrives early, sets up, cooks and serves, then clears everything away, so you don't touch a tray. Searching \"product launch catering near me\" surfaces many options; what matters is who does the cooking, how they are vetted, and whether the quote is itemised or vague. When you book a launch through myCHEF, you get one accountable team, a named chef, and on every event. Tell us what you're launching and we build the rest around it."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Why Launch Catering Matters'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Why book product launch catering with myCHEF?",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you own the launch, we carry the work. Vetting for product launch catering means identity checks, a practical cooking assessment, reference verification and ongoing performance reviews — a continuous standard, not a one-time tick. We are honest about it: no system removes every risk, so we match each event to the best available chef for it, which is what makes myCHEF a serious launch caterer and not a booking form.",
+    "For an occasion like this, that might be Ahmed Al-Rashid — 18+ years across Dubai, London and Paris in classical French technique — who designs each menu as a collaboration with the host, every course timed, seasoned and served to exacting standards. We have delivered corporate galas and boardroom dinners across Dubai. It is the record we would want to see ourselves before handing a high-visibility reveal to a caterer. Every product launch catering booking includes, with client reviews added as events run."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Why Launch Catering Matters'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning product launch catering step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your product launch catering proposal arrives.",
+    "Book product launch catering about 2 weeks ahead off-peak, and 6 weeks ahead between November and March.",
+    "Confirm what goes on the product launch catering menu 7 days out, once the count settles.",
+    "Ask for special diets up front; product launch catering plates are planned, not improvised inside 48 hours .",
+    "Check loading and access details; allow 2 hours of product launch catering setup on site.",
+    "Plan on roughly 3 hours of product launch catering service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": "Why Launch Catering Matters",
+   "position": "after the block titled 'Why Launch Catering Matters'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which product launch catering format suits your event?",
+   "new_paragraphs": [
+    "Format What it gives you Staffing Cost position",
+    "Drop-off Food delivered ready to serve None Entry point",
+    "Buffet Presentation plus a maintained spread 1–2 From AED 700 per person",
+    "Live stations Cooking in front of your guests 2–4 Mid-range",
+    "Plated Every course served together 3 and above Top of the range"
+   ],
+   "insert_after_block": "Why Launch Catering Matters",
+   "position": "after the block titled 'Why Launch Catering Matters'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Product launch catering FAQs",
+   "new_paragraphs": [
+    "How much does product launch catering cost in Dubai?",
+    "Product launch catering costs from AED 700 per person, with most events between AED 700 and AED 950 depending on menu, numbers and service. Send your details for an itemised quote.",
+    "What's included in product launch catering?",
+    "Included is menu design, a vetted chef, service and setup staff, and cleanup. Branded stations, a mocktail bar and dessert options can be added.",
+    "How do I book product launch catering in Dubai?",
+    "Booking starts when you tell us your date, guest count and venue; we send an itemised proposal, usually within one business day, then confirm with a deposit.",
+    "Can you cater a corporate product launch for large guest numbers?",
+    "Yes. Corporate product launch catering in Dubai scales from a 20-guest press preview to a 300-plus activation with no drop in standards, staffed to match.",
+    "Do you offer halal and dietary options at launches?",
+    "Yes. Every product launch menu covers halal, vegetarian, vegan and nut-free options as standard, planned in from the first consultation.",
+    "Can you brand the food and stations to our product?",
+    "Yes. Napkins, signage, dessert toppers and drinks can carry your colours and logo, and we time the headline course to land with your reveal.",
+    "Do you provide product launch home catering for smaller events?",
+    "Yes. Product launch home catering in Dubai suits founder-and-press gatherings in a villa or apartment; the same menus scale down without losing polish.",
+    "For product launch catering, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements ."
+   ],
+   "insert_after_block": "Why Launch Catering Matters",
+   "position": "after the block titled 'Why Launch Catering Matters'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  }
+ ],
+ "faq": []
+}

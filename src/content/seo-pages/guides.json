@@ -1,0 +1,192 @@
+{
+ "url": "/guides",
+ "keyword_strategy": {
+  "main_keyword": "catering guides dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 6,
+  "subkeywords_carried": 1,
+  "coverage_percent": 17,
+  "subkeywords_carried_list": [
+   "catering guides dubai price"
+  ],
+  "subkeywords_not_carried": [
+   "small party catering dubai",
+   "finger food catering dubai",
+   "best catering guides dubai",
+   "small catering guides dubai",
+   "cheap catering guides dubai"
+  ],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Catering Guides Dubai | Prices, Checklists & Planning | myCHEF Dubai",
+  "meta_description": "How-to guides, checklists and price guides for planning private dining and catering in Dubai.",
+  "h1": "Catering Guides Dubai — Prices, Checklists and Planning"
+ },
+ "opening_paragraph": [
+  "These are the myCHEF catering guides for Dubai. These guides are the planning documents: what things cost in Dubai, what to confirm and when, and which format suits your event. Each one is built to be worked through in order instead of skimmed.",
+  "How-to guides, checklists and price guides for planning private dining and catering in Dubai.",
+  "Catering Cost Calculator Dubai",
+  "Buffet vs Plated Service: Choosing the Right Format in Dubai",
+  "Corporate Catering Checklist for Dubai Businesses",
+  "Dubai Catering Prices Guide: What to Budget for Your Event",
+  "How to Choose the Right Caterer in Dubai",
+  "Corporate Catering Checklist for Dubai: The 2026 Planning Guide",
+  "Wedding Catering Checklist for Dubai — Real Prices and Timings",
+  "Yacht Catering Checklist for Dubai — Real Prices and Timings",
+  "Luxury Dinner Planning Guide for Dubai",
+  "Private Chef vs Catering: What works well in Dubai?",
+  "Ramadan Catering Guide for Dubai: Iftar, Suhoor & Eid",
+  "Wedding Catering Checklist for Dubai Celebrations",
+  "Yacht Catering Guide for Dubai Cruises and Celebrations",
+  "Dubai Event Catering Price Guide 2026",
+  "Dubai Food Trends Report 2026",
+  "The Complete Guide to Private Dining in Dubai",
+  "Wedding Catering Menu Planning Guide for Dubai",
+  "The Ultimate Dubai Yacht Catering Checklist"
+ ],
+ "replace_in_block": [],
+ "leave_untouched": [
+  "Everything You Need to Plan Catering in Dubai",
+  "Explore Our Catering Services",
+  "About Our Catering Guides",
+  "Ready to Plan Your Event?",
+  "Explore myCHEF Dubai"
+ ],
+ "add_block": [
+  {
+   "new_heading": "How the guides are organised",
+   "new_paragraphs": [
+    "Price guides explain how a catering quote is built and what moves it — the catering prices guide and the 2026 event catering price guide are the two to start with. Checklists give you the sequence and the deadlines: wedding catering, yacht catering and corporate catering each have their own. Comparison guides settle a single decision, such as buffet against plated, or a private chef against a catering company. Planning guides cover the whole build for villas, yachts, weddings and luxury dinners."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Everything You Need to Plan Catering in Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Working through a guide",
+   "new_paragraphs": [
+    "Read the key facts at the top first — they carry the numbers and the lead times. Then work down in order, because each guide is sequenced the way the decisions happen: format before menu, guest count before price, venue before logistics. Where a guide states a regulation, a tax rate or a statistic, the source is linked at the foot of the page so you can verify it yourself instead of taking our word for it."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Everything You Need to Plan Catering in Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning catering guides step by step",
+   "new_paragraphs": [
+    "Check the indicative price on each guide — most formats begin from AED 700 per person, with tasting menus from about AED 1,400 .",
+    "Send your date, guest count and venue — your catering guides proposal arrives.",
+    "Book catering guides about 2 weeks ahead off-peak, and 6 weeks ahead between November and March.",
+    "Confirm the catering guides menu 7 days before the date, with final numbers.",
+    "Ask about allergies when booking catering guides, well outside the final 48 hours .",
+    "Check how the team reaches the venue; catering guides setup begins about 2 hours before guests.",
+    "Plan on roughly 3 hours of catering guides service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Everything You Need to Plan Catering in Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How a guide differs from a blog article",
+   "new_paragraphs": [
+    "A guide is built to be worked through; an article is built to be read. Guides are sequenced in the order decisions happen — venue before caterer, format before menu, guest count before price — and each one carries the deadlines attached to those decisions. That is why the checklists give you week counts instead of general advice.",
+    "The price guides do the opposite job: they explain how a number is assembled so you can read any quote, not just ours. Once you understand that labour instead of food drives most of the cost, comparing three proposals becomes clear instead of confusing."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Everything You Need to Plan Catering in Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "The deadlines that matter most",
+   "new_paragraphs": [
+    "Across every guide, four deadlines repeat. Book your caterer 8 to 12 months out for a peak-season wedding and 2 to 3 weeks for a standard dinner. Hold the tasting 3 to 4 months out for a large event, once the direction is set but while changes are still possible. Confirm the menu about 7 days before. Lock final guest numbers 7 to 14 days before, because that figure is what you are charged for whether or not every guest attends.",
+    "Miss those windows and your options narrow instead of vanish. The guides flag which decisions are genuinely time-critical and which can be left late without cost, so you spend your attention where it changes the outcome."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Everything You Need to Plan Catering in Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What every guide states plainly",
+   "new_paragraphs": [
+    "Each guide carries the same three commitments. Real published rates, so the figure in a guide matches the figure on the service page. Cited sources for anything regulatory, linked at the foot of the page. And an honest statement of what we do not know — where a price depends on your venue or your guest count, the guide says so instead of inventing a number.",
+    "Every catering quote in the UAE carries 5% VAT, and licensed operators work to the Dubai Municipality Food Code. Those two facts sit behind every figure in this section, and both are sourced below."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Everything You Need to Plan Catering in Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Sources",
+   "new_paragraphs": [
+    "Figures and rules referenced across these pages come from official sources: the UAE Ministry of Finance (5% VAT on catering, in force since 1 January 2018), Dubai Municipality (Food Code, including requirements for food transportation and delivery vehicles and mandatory food-handler training), and Weather and Climate (Dubai December averages of 27°C by day and 19°C at night). Confirm current requirements before you book."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Everything You Need to Plan Catering in Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "If you only read one section",
+   "new_paragraphs": [
+    "Start with the price guide, then the checklist that matches your event. Between those two you will have the number, the sequence and the deadlines — which is most of what planning an event requires. Everything else in this section refines a decision you have already framed.",
+    "A note on how to use the figures. Every rate here is a published myCHEF rate, so it will match the service pages exactly. What it will not do is predict your final total, because that depends on your guest count, your venue and your service format. Use the guides to understand how the number is built, then send your brief for a figure that applies to your event instead of to an average one. Proposals come back itemised, with the 5% VAT shown as its own line.",
+    "If a guide states a figure you intend to budget against, check the sources line at the foot of that page first. Every regulatory claim carries a link to the authority it came from, so you can confirm a tax rate or a food-safety rule yourself instead of relying on a caterer to summarise it accurately for you.",
+    "Which guide is suited to your event depends on the format — start with the price guide if you are budgeting, or a checklist if the date is set. Related: browse the full catering services in Dubai, compare our packages and prices , or look at corporate catering, party catering and luxury home catering by occasion. If you are searching for a caterer or catering company near me, a vetted chef and an itemised cost estimate are a message away — tell us the event, the menu and the guest count and you can hire the right team for the food, whether the budget is affordable or fully luxury."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Everything You Need to Plan Catering in Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Frequently asked questions",
+   "new_paragraphs": [
+    "Which guide should I start with?",
+    "The catering prices guide, because format and budget drive every other decision. Then the checklist that matches your event type.",
+    "Are these guides specific to Dubai?",
+    "Yes. Prices are Dubai rates, the seasons reflect the local calendar, and the regulatory points cite Dubai Municipality and UAE federal sources.",
+    "How current are the figures?",
+    "Rates are the ones published on this site and reviewed for 2026. Each guide carries an updated date, and sources are linked so you can confirm anything time-sensitive.",
+    "Do the guides cover Ramadan timing?",
+    "Yes. The Ramadan catering guide covers iftar and suhoor service windows, which shape both the menu and the staffing.",
+    "Get a proposal or ask on WhatsApp ."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Everything You Need to Plan Catering in Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  }
+ ],
+ "faq": [
+  {
+   "question": "Which guide should I start with?",
+   "answer": [
+    "The catering prices guide, because format and budget drive every other decision. Then the checklist that matches your event type."
+   ]
+  },
+  {
+   "question": "Are these guides specific to Dubai?",
+   "answer": [
+    "Yes. Prices are Dubai rates, the seasons reflect the local calendar, and the regulatory points cite Dubai Municipality and UAE federal sources."
+   ]
+  },
+  {
+   "question": "How current are the figures?",
+   "answer": [
+    "Rates are the ones published on this site and reviewed for 2026. Each guide carries an updated date, and sources are linked so you can confirm anything time-sensitive."
+   ]
+  },
+  {
+   "question": "Do the guides cover Ramadan timing?",
+   "answer": [
+    "Yes. The Ramadan catering guide covers iftar and suhoor service windows, which shape both the menu and the staffing.",
+    "Get a proposal or ask on WhatsApp ."
+   ]
+  }
+ ]
+}

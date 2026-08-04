@@ -1,0 +1,209 @@
+{
+ "url": "/gala-dinner-catering-dubai",
+ "keyword_strategy": {
+  "main_keyword": "gala dinner catering dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 3,
+  "subkeywords_carried": 2,
+  "coverage_percent": 67,
+  "subkeywords_carried_list": [
+   "gala dinner catering dubai menu",
+   "gala dinner catering dubai reviews"
+  ],
+  "subkeywords_not_carried": [
+   "gala dinner catering dubai contact number"
+  ],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Gala Dinner Catering Dubai | from AED 700 per person | myCHEF",
+  "meta_description": "Gala dinner catering in Dubai from AED 700 per person. Plated multi-course service, a vetted private chef, full front-of-house staffing and setup. Request an itemised proposal from myCHEF.",
+  "h1": "Gala Dinner Catering in Dubai — What It Costs and How to Book"
+ },
+ "opening_paragraph": [
+  "Gala dinner catering in Dubai from myCHEF is a plated, multi-course service for seated events, from AED 700 per person. A vetted chef brigade works the kitchen and a trained front-of-house team runs the floor. A gala is judged on timing more than on any single dish: 200 covers have to land together, hot, at the moment the programme allows. Send your date, guest count and venue and you get an itemised proposal, usually within one business day."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "A Taste of Our Gala Dinners",
+   "match_confidence": 0.62,
+   "new_heading": "What goes on a gala dinner menu?",
+   "new_paragraphs": [
+    "A gala dinner menu in Dubai has to do two jobs at once: read well on a printed card and survive being plated 200 times in twenty minutes. That rules out anything that collapses under a cloche. What works is a composed starter that can be pre-plated cold, a main built around a protein that holds its temperature, and a dessert finished on the pass. Around that you can be ambitious with garnish, sauce work and presentation.",
+    "Dubai galas usually need a wide dietary spread as standard, not as an afterthought. Halal is the default across most rooms, and vegetarian, vegan, gluten-free and nut-free covers are planned into the count from the start so those guests are served at the same moment as the rest of the table. Flag allergies when you enquire and the chef designs around them. Our chefs cover Arabic, Mediterranean, Italian, Indian and modern European menus, and you can browse the menus or the cuisines to start."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "Service Styles for Every Formal Dinner",
+  "Occasions we coordinate catering for",
+  "What’s Included",
+  "Gala Catering Across Dubai",
+  "Explore myCHEF Dubai",
+  "Gala Dinner Catering Questions",
+  "Plan Your Gala Dinner Catering",
+  "The Importance of Gala Catering"
+ ],
+ "add_block": [
+  {
+   "new_heading": "How much does a gala dinner cost in Dubai?",
+   "new_paragraphs": [
+    "Gala dinner catering prices in Dubai start from AED 700 per person and move with three levers. The menu is the first: a five-course tasting build with premium protein sits well above a three-course set menu, and full tasting-menu service begins from about AED 1,400 per person. The second is the service ratio. A plated gala needs far more staff per guest than a buffet, and that labour is the largest line on most quotes. The third is the venue, because a ballroom with a working kitchen costs less to service than a rooftop or a marquee where the kitchen has to be built for one night.",
+    "Larger events are often quoted as a total instead of per head, with event minimums of AED 2,400 or AED 3,600 common once staffing, rentals and styling are included. To keep the gala dinner catering cost predictable, fix the guest count and the service format first, then layer the menu. Comparing two quotes only works when both are written against the same brief. Our catering packages and chef prices give you a benchmark before you enquire."
+   ],
+   "insert_after_block": "Plan Your Gala Dinner Catering",
+   "position": "after the block titled 'Plan Your Gala Dinner Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Where do galas happen in Dubai, and what changes by venue?",
+   "new_paragraphs": [
+    "Corporate gala dinner catering clusters around the ballroom and conference venues, with the Dubai World Trade Centre describing itself as the city's epicentre for events and opening a new Dubai Exhibition Centre in 2026. Hotel ballrooms are the clear case: a working kitchen, a loading bay, a lift. Everything else needs planning. Rooftops and terraces bring wind and a long carry from the kitchen. Villas and private estates need a temporary kitchen and a generator plan. Yachts and beach venues add a tender or a buggy run for every tray.",
+    "Season matters as much as the room. Outdoor galas work from roughly November through March, when Dubai days average around 27°C and nights fall to about 19°C, and that window is also when the calendar is at its most crowded. If you want a terrace in January, book early. We cater gala dinner events across the city, and if you are searching for gala dinner catering near me the same vetted network serves DIFC , Downtown , Business Bay and Dubai Marina ."
+   ],
+   "insert_after_block": "A Taste of Our Gala Dinners",
+   "position": "after the block titled 'A Taste of Our Gala Dinners'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How is food safety handled at scale?",
+   "new_paragraphs": [
+    "Volume is where food safety gets tested. Licensed caterers in Dubai work to the Dubai Municipality Food Code, which sets requirements not only for the kitchen but for food transportation and delivery vehicles, and which obliges food establishments to run a structured staff training system. That matters at a gala, because most of the risk sits in the gap between where the food is cooked and where it is eaten: temperature control in transit, holding times on site, and a team that knows the rules under pressure.",
+    "Enforcement is active instead of nominal. The Dubai Municipality Food Safety Department monitors food establishments and investigates food-borne illness, so compliance is checked in practice. When you hire gala dinner catering, ask how the food travels, how it is held, and who on the night is responsible for temperature logs. A quote that is materially cheaper than the others is often cheaper because it has thinned the staffing or skipped the cold chain. The chef assigned to gala dinner catering has passed identity checks, a practical cooking assessment, reference verification and post-event reviews by earlier clients. chef vetting page."
+   ],
+   "insert_after_block": "A Taste of Our Gala Dinners",
+   "position": "after the block titled 'A Taste of Our Gala Dinners'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How do I plan and book a gala?",
+   "new_paragraphs": [
+    "Work backwards from the programme. Fix the date, the guest count and the run of show, because the speeches decide the service windows and the service windows decide the menu. Then choose the format, then the food. Four to eight weeks is a comfortable lead time for a seated gala above 100 guests; the festive season and the spring conference run fill earlier than people expect, so a provisional hold costs nothing and saves a lot.",
+    "Send your brief and you get an itemised proposal, usually within one business day, with the food, staffing, rentals and the 5% VAT shown as separate lines. A tasting is arranged for larger events so you sign off the menu before it reaches a room full of guests. Whether this is a corporate awards night, a charity fundraiser or a private celebration, the process is the same: a written brief, a named chef, a costed proposal. Start with corporate catering or event catering , or request a proposal directly."
+   ],
+   "insert_after_block": "A Taste of Our Gala Dinners",
+   "position": "after the block titled 'A Taste of Our Gala Dinners'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which gala dinner catering format suits your event?",
+   "new_paragraphs": [
+    "Format What it gives you Staffing Cost position",
+    "Drop-off Food delivered ready to serve None Entry point",
+    "Buffet Presentation plus a maintained spread 1–2 From AED 700 per person",
+    "Live stations Cooking in front of your guests 2–4 Mid-range",
+    "Plated Every course served together 3 and above Top of the range"
+   ],
+   "insert_after_block": "Gala Dinner Catering Questions",
+   "position": "after the block titled 'Gala Dinner Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Frequently asked questions",
+   "new_paragraphs": [
+    "How much does gala dinner catering cost in Dubai?",
+    "Gala dinner catering in Dubai starts from AED 700 per person and rises with the number of courses, the service ratio and the venue. Large seated events are often quoted as a total against an event minimum, with AED 2,400 and AED 3,600 minimums common once staffing and rentals are included.",
+    "How far in advance should I book a gala dinner?",
+    "Allow four to eight weeks for a seated gala of 100 guests or more. Peak season between November and March fills earlier, so place a provisional hold on the date as soon as the venue is confirmed.",
+    "Can you cater a gala at a venue with no kitchen?",
+    "Yes. Your partner builds a temporary kitchen on site with the required power, refrigeration and holding equipment, and plans the transport so food arrives within safe temperature ranges under the Dubai Municipality Food Code.",
+    "Is the food halal, and can you handle dietary requirements?",
+    "Halal is the standard for our gala menus. Vegetarian, vegan, gluten-free, dairy-free and nut-free covers are planned into the guest count and plated separately, so those guests are served alongside the rest of the table.",
+    "What is included in a gala dinner catering package?",
+    "Menu design and a tasting, a vetted chef brigade, front-of-house staffing, plating and service, crockery and linen hire where needed, on-site setup, and breakdown after the event. Bar services can be added.",
+    "Do you cater corporate galas as well as private events?",
+    "Both. We handle corporate gala dinner catering for awards nights, conference dinners and company milestones, and private galas for weddings, anniversaries and charity evenings.",
+    "Is VAT included in the quoted price?",
+    "Catering in the UAE carries 5% VAT, introduced on 1 January 2018. Our proposals show the pre-VAT figure and the 5% as separate lines so the total is clear before you commit."
+   ],
+   "insert_after_block": "Gala Dinner Catering Questions",
+   "position": "after the block titled 'Gala Dinner Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Sources",
+   "new_paragraphs": [
+    "Regulatory and venue facts in this page are drawn from official sources: the UAE Ministry of Finance (5% VAT, effective 1 January 2018), Dubai Municipality (Food Code, food transportation and delivery requirements, and mandatory food-handler training), Dubai Municipality Food Safety Department (food-establishment monitoring and food-borne illness investigation), and Dubai World Trade Centre (Dubai's events positioning and the Dubai Exhibition Centre opening in 2026). Confirm current requirements with these sources before you book."
+   ],
+   "insert_after_block": "Gala Dinner Catering Questions",
+   "position": "after the block titled 'Gala Dinner Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning gala dinner catering step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your gala dinner catering proposal arrives.",
+    "Book gala dinner catering about 2 weeks ahead off-peak, and 6 weeks ahead between November and March.",
+    "Confirm the menu for gala dinner catering some 7 days ahead, once numbers stop moving.",
+    "Ask for dietary covers at the gala dinner catering briefing stage instead of within 48 hours .",
+    "Check parking and lift access; your gala dinner catering team is on site some 2 hours early.",
+    "Plan on roughly 3 hours of gala dinner catering service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": "Gala Dinner Catering Questions",
+   "position": "after the block titled 'Gala Dinner Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  },
+  {
+   "new_heading": "What does gala dinner catering in Dubai include?",
+   "new_paragraphs": [
+    "It covers the whole evening, not the food alone. A gala dinner caterer in Dubai builds the menu, brings the kitchen team, staffs the room, plates every course to a called service and clears the floor afterwards. As a full-service gala dinner catering company, myCHEF handles the parts that decide whether the night runs calmly: the kitchen plan for a venue that may have no kitchen, the pass layout, the runner routes between tables, and the timing sheet that ties each course to the programme. You get a named private gala dinner chef who owns the menu from tasting to service, so the person who designed the food is the person cooking it.",
+    "The scope usually includes a canapé reception on arrival, three to five plated courses, a dessert service, and tea and coffee to close. Around that sit the things guests not notice when they are done well: linen and crockery hire, a service bar, dietary covers plated separately and labelled, and a quiet breakdown that leaves the venue as it was found."
+   ],
+   "insert_after_block": "Plan Your Gala Dinner Catering",
+   "position": "after the block titled 'Plan Your Gala Dinner Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  }
+ ],
+ "faq": [
+  {
+   "question": "How much does gala dinner catering cost in Dubai?",
+   "answer": [
+    "Gala dinner catering in Dubai starts from AED 700 per person and rises with the number of courses, the service ratio and the venue. Large seated events are often quoted as a total against an event minimum, with AED 2,400 and AED 3,600 minimums common once staffing and rentals are included."
+   ]
+  },
+  {
+   "question": "How far in advance should I book a gala dinner?",
+   "answer": [
+    "Allow four to eight weeks for a seated gala of 100 guests or more. Peak season between November and March fills earlier, so place a provisional hold on the date as soon as the venue is confirmed."
+   ]
+  },
+  {
+   "question": "Can you cater a gala at a venue with no kitchen?",
+   "answer": [
+    "Yes. Your partner builds a temporary kitchen on site with the required power, refrigeration and holding equipment, and plans the transport so food arrives within safe temperature ranges under the Dubai Municipality Food Code."
+   ]
+  },
+  {
+   "question": "Is the food halal, and can you handle dietary requirements?",
+   "answer": [
+    "Halal is the standard for our gala menus. Vegetarian, vegan, gluten-free, dairy-free and nut-free covers are planned into the guest count and plated separately, so those guests are served alongside the rest of the table."
+   ]
+  },
+  {
+   "question": "What is included in a gala dinner catering package?",
+   "answer": [
+    "Menu design and a tasting, a vetted chef brigade, front-of-house staffing, plating and service, crockery and linen hire where needed, on-site setup, and breakdown after the event. Bar services can be added."
+   ]
+  },
+  {
+   "question": "Do you cater corporate galas as well as private events?",
+   "answer": [
+    "Both. We handle corporate gala dinner catering for awards nights, conference dinners and company milestones, and private galas for weddings, anniversaries and charity evenings."
+   ]
+  },
+  {
+   "question": "Is VAT included in the quoted price?",
+   "answer": [
+    "Catering in the UAE carries 5% VAT, introduced on 1 January 2018. Our proposals show the pre-VAT figure and the 5% as separate lines so the total is clear before you commit."
+   ]
+  }
+ ]
+}

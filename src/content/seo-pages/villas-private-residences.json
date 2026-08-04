@@ -1,0 +1,163 @@
+{
+ "url": "/villas-private-residences",
+ "keyword_strategy": {
+  "main_keyword": "villa catering dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 6,
+  "subkeywords_carried": 5,
+  "coverage_percent": 83,
+  "subkeywords_carried_list": [
+   "villa catering dubai menu",
+   "villa catering dubai price",
+   "villa catering dubai reviews",
+   "villa price in dubai",
+   "villa restaurant dubai"
+  ],
+  "subkeywords_not_carried": [
+   "villa catering dubai owner"
+  ],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Villa Catering Dubai | Private Chef Dining, from AED 700–950 per person | myCHEF",
+  "meta_description": "Villa & Residence Dining in Dubai — private chef and catering for villas and residences. From aed 700–950 per person, vetted chefs, full service. Request a proposal from myCHEF.",
+  "h1": "Villa Catering Dubai — Private Chef Dining for Villas & Residences"
+ },
+ "opening_paragraph": [
+  "Villa catering in Dubai from myCHEF is priced from AED 700 per person , and a vetted private chef cooks, plates and serves dinner inside your own villa. The small service team then leaves the kitchen spotless. Whether it is a quiet family meal or a garden party for fifty, we bring the restaurant to your residence and hand the evening back to you, so you spend it with your guests instead of at the stove. Send your date and guest count and you will have an itemised proposal back, promptly during our published business hours."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "What the Villa Experience Includes",
+   "match_confidence": 0.68,
+   "new_heading": "What villa catering in Dubai includes",
+   "new_paragraphs": [
+    "Every booking covers menu design, a vetted private chef, service staff when the evening needs them, all cooking equipment, full setup and a complete cleanup. Your caterer turns up with everything, works around your kitchen and your family, and leaves the space exactly as it was found. We are a private-chef and catering company, not a fixed-menu kitchen, so each plate is cooked to order in your home — nothing is reheated from a van. The core catering services in Dubai here run from multi-course plated dinners to relaxed family-style sharing, live cooking stations and full-service buffets. You set the level of formality, and we scale the team and the food to match it. Households that host often also add apartment private dining and regular in-residence meals, so the same chef returns to a kitchen they already know."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "Chef Services for Your Dubai Villa",
+  "Villa Locations We Serve",
+  "The myCHEF Villa Advantage",
+  "Common Questions About Villa Chef Services",
+  "Book Your Villa Chef Today",
+  "Explore myCHEF Dubai",
+  "We Serve Every Villa Community in Dubai",
+  "Villa Dining Moments"
+ ],
+ "add_block": [
+  {
+   "new_heading": "Villa catering for corporate events, parties and weddings",
+   "new_paragraphs": [
+    "It works for far more than dinner: we cater home parties, milestone celebrations, weddings and corporate events held in private residences. For a birthday or a private party , the chef builds a menu that lets guests graze and mingle; for a wedding at home, we plan the flow course by course; for a corporate villa event, we deliver polished catering for events that reflects the host without the stiffness of a hotel ballroom. Poolside gatherings are a Dubai staple, so pool party catering is one of our most requested formats — grills, chilled platters and a bar that keeps pace with the afternoon. Whatever the occasion, the same vetted team runs it: one point of contact, one kitchen, one unbroken evening from arrival to the last cleared glass."
+   ],
+   "insert_after_block": "What the Villa Experience Includes",
+   "position": "after the block titled 'What the Villa Experience Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Styling, staffing and logistics in your villa",
+   "new_paragraphs": [
+    "A good night in a private home is as much logistics as cooking, and both are planned before anyone arrives. The chef checks your kitchen first — oven capacity, prep space, where to plate — so nothing stalls mid-service, and we carry in whatever your home lacks. Staffing follows the guest list: one chef for an intimate dinner, a full brigade with waiters for a large party. We line up table styling, timing and pacing with you, keep out of the way of children and pets, and stay tidy behind the scenes throughout. Parking and load-in for gated communities like Emirates Hills and Arabian Ranches get sorted ahead of time. The evening runs to a written timeline, so drinks, canapés, mains and dessert land when they should. When it wraps, the kitchen is clean and the bins are cleared — the only trace left is a table of happy guests."
+   ],
+   "insert_after_block": "Villa Dining Moments",
+   "position": "after the block titled 'Villa Dining Moments'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How much does villa catering cost in Dubai?",
+   "new_paragraphs": [
+    "Villa catering in Dubai costs from AED 700 to 950 per person, with the exact figure set by your menu, guest count and level of service. A relaxed sharing dinner sits at the lower end; a multi-course plated menu with full waiting staff sits higher. Fixed catering packages at AED 1200, 2400, 3600, 4500 and 5500 make budgeting clear, and a AED 1400 tasting lets you try the food first. This is genuinely affordable against a comparable restaurant booking for the same group, and at the luxury end it still undercuts hotel private-dining rates while giving you the whole villa to yourselves. There are no hidden add-ons: setup, service and cleanup are in the quote. For a full breakdown see our private chef prices and the catering price guide , or send your details for an itemised cost."
+   ],
+   "insert_after_block": "Villa Dining Moments",
+   "position": "after the block titled 'Villa Dining Moments'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How to hire villa catering in Dubai",
+   "new_paragraphs": [
+    "To hire villa catering, share your date, guest count and villa, and we return an itemised proposal — usually within one business day — with a chef matched to your menu. From there you confirm, the chef finalises the menu with you, and the team arrives on the day to cook, serve and clean up. Searching for a caterer near me in Dubai usually surfaces faceless companies; myCHEF instead pairs you with a named, vetted chef and one coordinator who owns your event end to end. Comparing formats first? Our guide to private chef vs catering explains which suits your evening, and holiday-home guests can book a dedicated tourist villa chef for the length of their stay. When you are ready, one message starts it."
+   ],
+   "insert_after_block": "Villa Dining Moments",
+   "position": "after the block titled 'Villa Dining Moments'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Why myCHEF",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you own the evening, we carry the work. No chef is offered for villa catering before clearing identity checks, a practical cooking assessment, reference verification and ongoing performance reviews — a continuous standard, not a one-time tick. We are honest about it, too: no system removes every risk, so we match each event to the chef well suited to it. For villa and residence dining that is often Ahmed Al-Rashid — 18+ years across Dubai, London and Paris in classical French technique — who designs each menu as a collaboration with the host, every course timed, seasoned and served to exacting standards. We have delivered intimate villa dinners and large home celebrations across Dubai's communities. Client reviews are added as events run."
+   ],
+   "insert_after_block": "Villa Dining Moments",
+   "position": "after the block titled 'Villa Dining Moments'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Villa catering across Dubai",
+   "new_paragraphs": [
+    "We provide villa catering across every Dubai community, and the chef is matched to your area and your home. On Palm Jumeirah that means beachfront villas and Signature penthouses; in Emirates Hills, Dubai Hills and Arabian Ranches it means garden dinners and family gatherings; in Jumeirah, Umm Suqeim and the Marina it means everything from a two-person anniversary to a full house party. Each villa asks for something different — a Palm penthouse and a Ranches garden are not the same brief — so we adapt the menu, the staffing and the setup to the space. Wherever your residence is, a private villas-and-residences chef and their team come to you, fully equipped, ready to cook. If you would prefer to build the whole experience with a dedicated private chef on the night, we arrange that as well."
+   ],
+   "insert_after_block": "Villa Dining Moments",
+   "position": "after the block titled 'Villa Dining Moments'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Villa catering FAQs",
+   "new_paragraphs": [
+    "How much does villa catering cost in Dubai?",
+    "Villa catering in Dubai is from AED 700–950 per person, quoted by guest count, menu and service level. Set packages run AED 1200 to 5500 and a chef tasting is AED 1400. Send your details for an itemised quote.",
+    "What is included in villa catering?",
+    "Included are menu design, a vetted private chef, service staff where needed, all cooking equipment, setup and full cleanup — you keep your kitchen and we hand it back spotless.",
+    "Do you cater villa parties, weddings and corporate events?",
+    "Yes — we cater home parties, weddings and corporate villa events, scaling the chef and service team to the guest count and the format of the evening.",
+    "Can you cook around dietary needs and specific cuisines?",
+    "Yes — every villa menu is built around your guests, including halal, vegetarian, vegan and allergen-aware cooking across Italian, Mediterranean, Arabic, Asian and modern European food.",
+    "Which Dubai areas do you cover for villa catering?",
+    "All of Dubai — Palm Jumeirah, Emirates Hills, Arabian Ranches, Dubai Hills, Jumeirah and the Marina among them, with a caterer near you matched to your community.",
+    "How far ahead should I book a villa caterer?",
+    "Two to three weeks is comfortable for larger events; smaller dinners can often be arranged within a few days, subject to chef availability.",
+    "How do I hire villa catering in Dubai?",
+    "Hire us by sharing your date, guest count and venue; we send an itemised proposal, usually within one business day, and match a vetted chef to your menu.",
+    "For villa catering, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements ."
+   ],
+   "insert_after_block": "Villa Dining Moments",
+   "position": "after the block titled 'Villa Dining Moments'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning villa catering step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your villa catering proposal arrives.",
+    "Book villa catering about 2 weeks ahead off-peak, and 6 weeks ahead between November and March.",
+    "Confirm your villa catering menu about 7 days out, when the guest list is firm.",
+    "Ask early about allergies and dietary plates — not in the last 48 hours before villa catering.",
+    "Check the access route before villa catering day — setup starts roughly 2 hours ahead.",
+    "Plan on roughly 3 hours of villa catering service, and add 5% VAT to the total.",
+    "Palm jumeirah villa dining"
+   ],
+   "insert_after_block": "Villa Dining Moments",
+   "position": "after the block titled 'Villa Dining Moments'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which villa catering format suits your event?",
+   "new_paragraphs": [
+    "Format Service staff Guests it suits Indicative cost",
+    "Drop-off None Any size, informal Most economical",
+    "Buffet 1–2 20–60 From AED 700 per person",
+    "Live stations 2–4 40 and above From AED 700 per person",
+    "Plated service 3 and above 8–40 seated Highest per head"
+   ],
+   "insert_after_block": "Villa Dining Moments",
+   "position": "after the block titled 'Villa Dining Moments'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  }
+ ],
+ "faq": []
+}

@@ -1,0 +1,194 @@
+{
+ "url": "/mystery-dining-dubai",
+ "keyword_strategy": {
+  "main_keyword": "mystery dining catering dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 9,
+  "subkeywords_carried": 6,
+  "coverage_percent": 67,
+  "subkeywords_carried_list": [
+   "how does mystery dining work?",
+   "how much does a personal chef cost in dubai?",
+   "mystery dining app",
+   "is mystery dining legit",
+   "mystery dining catering dubai menu",
+   "mystery dining catering dubai price"
+  ],
+  "subkeywords_not_carried": [
+   "is 500 aed enough for food in dubai?",
+   "where do celebrities go to eat in dubai?",
+   "hgem mystery dining"
+  ],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Mystery Dining Catering Dubai | from AED 700–950 per person | myCHEF",
+  "meta_description": "Mystery Dining catering in Dubai — a surprise menu you discover course by course. From aed 700–950 per person, with vetted chefs and full service. Request a proposal from myCHEF.",
+  "h1": "Mystery Dining Catering in Dubai — What It Costs and How to Book"
+ },
+ "opening_paragraph": [
+  "Mystery dining catering in Dubai is a surprise tasting menu you discover course by course, from AED 700 per person — you trust the chef and each plate arrives without a spoiler. As your mystery dining caterer in Dubai, myCHEF designs the menu, sends a vetted chef, runs the service and clears everything away, so your only job is to sit down curious. Tell us your date, guest count and venue, and during our published business hours you will hear back promptly with an itemised proposal."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "Mystery Dining Questions",
+   "match_confidence": 0.66,
+   "new_heading": "Mystery dining catering in Dubai: common questions",
+   "new_paragraphs": [
+    "How much does mystery dining cost in Dubai?",
+    "It's AED 700–950 per person, quoted by group size, menu and service level. Send your date, guest count and venue for an exact, itemised quote.",
+    "What's included?",
+    "Included is menu design, a vetted chef, all cooking and plating, service and setup, and cleanup where relevant — the surprise menu is built in advance and revealed course by course.",
+    "How do I book?",
+    "Booking takes one message: tell us your date, guest count and venue, and we send an itemised proposal, usually within one business day and often promptly during our published business hours.",
+    "Can you cater mystery dining at home or in a villa?",
+    "Yes — mystery dining home catering runs in apartments, villas and private residences across Dubai, with the chef cooking in your kitchen and serving at your table.",
+    "Do you handle dietary needs and allergies?",
+    "Yes — halal, vegetarian, vegan, gluten-free and allergy needs are built into the surprise menu before the reveal, so every guest is safely looked after without spoiling the surprise.",
+    "How many guests can you cater for?",
+    "Anything from an intimate table of two to large private parties and corporate groups; the format and pricing scale with your numbers.",
+    "Which areas of Dubai do you serve?",
+    "All of Dubai — from Palm Jumeirah and Downtown to Dubai Marina, Emirates Hills and Jumeirah — so a chef can reach your event wherever it is.",
+    "For mystery dining catering, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements ."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "A Menu Designed to Surprise You",
+  "How We Build the Surprise",
+  "Choose Your Level of Discovery",
+  "Let the Chef Surprise You",
+  "Explore myCHEF Dubai"
+ ],
+ "add_block": [
+  {
+   "new_heading": "What does mystery dining catering in Dubai include?",
+   "new_paragraphs": [
+    "It includes everything from the first idea to the final cleared plate. Our mystery dining catering services in Dubai cover a bespoke surprise menu built around your tastes, a vetted private chef, all the cooking and plating, table and station setup, premium ingredients, and a full clean-up so your kitchen looks untouched. As a dedicated mystery dining catering company, myCHEF treats the reveal as the product: the menu is designed but kept undisclosed, dishes are timed to land in a deliberate order, and each course is introduced only after you have tasted it. You choose the number of courses and the level of service; your partner handles sourcing, equipment and staffing. This is proper mystery dining food catering, not a delivered box — a chef in your space, cooking live, turning an ordinary evening into a sequence of small, deliberate surprises for you and your guests."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'A Menu Designed to Surprise You'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Mystery dining catering for weddings, corporate events and parties",
+   "new_paragraphs": [
+    "Mystery dining catering works for events of every kind in Dubai, from a two-person anniversary to a company milestone. For weddings and engagements, the reveal becomes the entertainment — guests talk about the courses instead of waiting between them. Corporate mystery dining catering in Dubai turns a client dinner or team celebration into a shared talking point, with the chef pacing each reveal around speeches and toasts. For birthdays, house parties and celebrations, mystery dining party catering in Dubai gives hosts a genuine surprise to unwrap alongside their guests. Because it is mystery dining catering for events of any size, the format scales cleanly: an intimate tasting for two, a villa dinner for twelve, or a seated corporate group. Whatever the occasion, the structure stays the same — a curated, undisclosed menu, revealed course by course, matched to the mood of your event and the people around the table."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'A Menu Designed to Surprise You'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What is on a mystery dining menu in Dubai?",
+   "new_paragraphs": [
+    "A mystery dining menu in Dubai is built specifically for you and then kept secret until each course arrives. There is no fixed card to read; instead your private mystery dining chef in Dubai plans a progression — often five to eight small courses — that moves through textures, temperatures and cuisines in a deliberate arc. You share what you love, what you avoid and any ingredients that are off-limits, and the chef designs around that, leaving room to surprise you within your own tastes. Menus can lean modern European, Levantine, Asian or a playful mix; seasonal produce and a standout centrepiece usually anchor the meal. Wine or mocktail pairings can be built in course by course. What you do not get is the running order in advance — the menu is revealed one plate at a time, each dish introduced by the chef as it lands, so anticipation is part of every course."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'A Menu Designed to Surprise You'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning the reveal: logistics, dietary needs and styling",
+   "new_paragraphs": [
+    "Good mystery dining depends on planning the guest cannot see. Beforehand we confirm your kitchen or a workable setup, power and space for live plating, and the flow between courses — mystery dining home catering in Dubai works in apartments and villas alike, with the chef cooking in your kitchen and serving at your table. Dietary needs are handled quietly and completely: halal, vegetarian, vegan, gluten-free, nut allergies and children's plates are all built into the surprise menu in advance, so no guest is ever caught out by the reveal. Styling matters too — plating, glassware, a considered table and the timing of the lights can lift a luxury mystery dining catering evening in Dubai from a meal into an occasion. You tell us the constraints and the mood; we take care of the choreography, so the only thing your guests notice is how relaxed the whole evening felt."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'A Menu Designed to Surprise You'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How much does mystery dining catering cost in Dubai?",
+   "new_paragraphs": [
+    "Mystery dining catering in Dubai starts from AED 700–950 per person, with the final figure set by your guest count, the number of courses, the ingredients and the level of service. Mystery dining catering prices in Dubai move with those choices: a longer tasting, premium produce like seafood or wagyu, or extra service staff raise the per-head cost, while a simpler progression keeps it lean. For groups, mystery dining catering packages in Dubai can be arranged as fixed bundles, from around AED 1,200 up to AED 5,500 for larger celebrations, and a dedicated tasting session runs about AED 1,400. If you are after affordable mystery dining catering without losing the surprise, we can shorten the menu or adjust portions while keeping the reveal intact. For the full picture on mystery dining catering cost in Dubai, see our prices and catering price guide , or send your details for an itemised quote."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'A Menu Designed to Surprise You'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How to hire mystery dining catering in Dubai",
+   "new_paragraphs": [
+    "To hire mystery dining catering in Dubai, start by sending your date, guest count and venue; promptly during our published business hours you will get an itemised proposal. From there it is four clear steps. First, we talk through the occasion, your tastes and any no-go ingredients — you set the boundaries, the chef keeps the surprise. Second, we match a vetted chef and confirm the format, courses and timing, then send a clear, itemised quote with no hidden extras. Third, your chef shops, preps and arrives with everything needed to cook and serve on site. Fourth, the reveal happens: course by course, introduced as each plate lands, with cleanup handled before we leave. Searching for mystery dining catering near me usually surfaces generic providers; booking through myCHEF gets you a specific, assessed chef matched to your event, not whoever happens to be free that night."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'A Menu Designed to Surprise You'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Why myCHEF for mystery dining",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you own the evening, we carry the work. Every chef working on mystery dining catering has cleared identity checks, a practical cooking assessment, reference verification and ongoing performance reviews — a continuous standard, not a one-time tick, and part of why clients come to us for the best mystery dining catering in Dubai. We are honest about it, too: no system removes every risk, so we match each event to the chef well suited to it. For a reveal-driven evening like this, that is often Ahmed Al-Rashid , whose 18+ years across Dubai, London and Paris in classical French technique show in the way he designs each menu as a collaboration with the host — every course timed, seasoned and served to exacting standards. Our work spans mystery dining catering, villa weddings, yacht celebrations and corporate galas across Dubai."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'A Menu Designed to Surprise You'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Mystery dining catering across Dubai",
+   "new_paragraphs": [
+    "Mystery dining catering reaches every corner of Dubai. Whether you are on Palm Jumeirah, in Downtown or Business Bay, along Dubai Marina and JBR, out in Emirates Hills, Arabian Ranches or Dubai Hills, or in a Jumeirah beach villa, a chef comes to you — which is the real answer to any mystery dining catering near me search. The experience sits within our wider luxury dining range: if you like the theatre but want to see the menu, a chef's table or a tasting menu offers the same craft with the running order revealed. Still deciding on the right format for your event? Our guide to private chef vs catering lays out how the options compare. Wherever you are in the city, the promise holds: a curated surprise, cooked live and served course by course."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'A Menu Designed to Surprise You'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning mystery dining catering step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your mystery dining catering proposal arrives.",
+    "Book mystery dining catering about 2 weeks ahead off-peak, and 6 weeks ahead between November and March.",
+    "Confirm what goes on the mystery dining catering menu 7 days out, once the count settles.",
+    "Ask for special diets up front; mystery dining catering plates are planned, not improvised inside 48 hours .",
+    "Check loading and access details; allow 2 hours of mystery dining catering setup on site.",
+    "Plan on roughly 3 hours of mystery dining catering service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": "Mystery Dining Questions",
+   "position": "after the block titled 'Mystery Dining Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which mystery dining catering format suits your event?",
+   "new_paragraphs": [
+    "Format What it gives you Staffing Cost position",
+    "Drop-off Food delivered ready to serve None Entry point",
+    "Buffet Presentation plus a maintained spread 1–2 From AED 700 per person",
+    "Live stations Cooking in front of your guests 2–4 Mid-range",
+    "Plated Every course served together 3 and above Top of the range"
+   ],
+   "insert_after_block": "Mystery Dining Questions",
+   "position": "after the block titled 'Mystery Dining Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Is mystery dining legit, and what does a personal chef cost?",
+   "new_paragraphs": [
+    "Mystery dining is a real and long-established practice: a diner books, eats and reports against a set brief, and the venue gets a structured account of the experience rather than a star rating. It is legitimate when the brief is agreed in advance and the reporting is honest, and it stops being legitimate the moment a report is written to a conclusion someone has already paid for.",
+    "How much does a personal chef cost in Dubai is a different question with a published answer: private chef bookings start from AED 700 per person, and the figure moves with course count, service style and guest numbers rather than with the occasion. Private chef prices sets out each tier."
+   ],
+   "insert_after_block": "Mystery Dining Questions",
+   "position": "after the block titled 'Mystery Dining Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "More on mystery dining dubai",
+   "new_paragraphs": [
+    "Pescatarian catering dubai",
+    "Holi catering dubai",
+    "Private party catering dubai",
+    "Healthy catering dubai",
+    "Get an itemised quote"
+   ],
+   "insert_after_block": "Mystery Dining Questions",
+   "position": "after the block titled 'Mystery Dining Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  }
+ ],
+ "faq": []
+}

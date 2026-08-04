@@ -1,0 +1,270 @@
+{
+ "url": "/blog/corporate-catering-full-service-vs-drop-off",
+ "keyword_strategy": {
+  "main_keyword": "corporate catering",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 18,
+  "subkeywords_carried": 11,
+  "coverage_percent": 61,
+  "subkeywords_carried_list": [
+   "corporate catering dubai",
+   "corporate catering companies",
+   "corporate catering near me",
+   "buffet catering dubai",
+   "catering services al quoz",
+   "small party catering dubai",
+   "corporate catering services",
+   "corporate catering dc",
+   "hire catering company",
+   "corporate catering food",
+   "corporate catering halal"
+  ],
+  "subkeywords_not_carried": [
+   "safadi catering",
+   "corporate catering melbourne",
+   "corporate catering concierge",
+   "corporate catering gta",
+   "corporate catering derby",
+   "corporate catering flyer",
+   "corporate catering sydney"
+  ],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Corporate Catering: Full-Service vs Drop-Off | myCHEF Dubai",
+  "meta_description": "Corporate catering in Dubai, explained: choose drop-off for everyday office meals and full-service for client events. Real prices, menu ideas and a booking checklist.",
+  "h1": "Corporate Catering: Full-Service vs Drop-Off in Dubai — Real Prices and Timings"
+ },
+ "opening_paragraph": [
+  "Drop-off corporate catering from myCHEF starts at AED 90 per person; full service starts at AED 120 and costs more because it puts staff on site. Corporate catering in Dubai splits into those two models and myCHEF arranges both. This guide has the full-service vs drop-off decision explained plainly, with real prices, menu ideas and a short planning checklist so you don't over-spend on a Tuesday lunch or under-cater a client dinner."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "Frequently Asked Questions",
+   "match_confidence": 1.0,
+   "new_heading": "Frequently asked questions",
+   "new_paragraphs": [
+    "What is corporate catering, in one line?",
+    "Corporate catering is food supplied to a workplace or a company event — either drop-off delivery for daily office meals, or staffed full-service for client dinners and conferences.",
+    "Is drop-off catering cheaper than full-service?",
+    "Yes. Drop-off is cheaper because no chefs or service staff are stationed at your venue — you pay for the food, packaging and delivery, not for on-site labour, setup or cleanup.",
+    "How much does corporate catering cost in Dubai?",
+    "Drop-off office lunches start at AED 90 per person, a staffed buffet at AED 120, and live cooking stations at AED 150. A chef cooking and plating on site is AED 700 to AED 950 per person, and set corporate dinner packages start at AED 1200. Minimums are 10 guests, 20 for a buffet, with a minimum order of AED 900, plus 5% VAT.",
+    "How do we shortlist corporate catering companies?",
+    "There is no official ranking, and lists titled \"top 10 catering companies in Dubai\" rarely say how the order was decided. Judge instead on six answers: is a per-head price published, is the quote itemised, who is the Person in Charge for the kitchen, how is delivered food kept outside the 5°C to 60°C band, can one supplier run both formats, and is one named person accountable on the day.",
+    "What is the minimum guest count for a small office order?",
+    "Ten guests for drop-off and working lunches, 20 for a buffet, against a minimum order of AED 900. Below that, a chef cooking plated carries no minimum headcount, so a team of six can still be catered properly at the AED 700 to AED 950 per person rate.",
+    "How is delivered office food kept safe in Dubai's heat?",
+    "Under Dubai Municipality rules, high-risk and perishable food must be held at 5°C or colder, or 60°C or hotter; the 5°C to 60°C band is the danger zone, so drop-off food is packed and timed to stay outside it.",
+    "Can we combine full-service and drop-off in the same week?",
+    "Yes, and most companies do. Run economical drop-off for daily office lunches and book full-service for the client dinner or conference, often on one retainer so the standard stays consistent.",
+    "Do you cater office lunches near me?",
+    "Yes. MyCHEF delivers drop-off and full-service corporate catering across Dubai, so an office near DIFC, Business Bay, Downtown or Dubai Marina is well within our delivery map.",
+    "Is the corporate catering halal, and how are allergies handled?",
+    "Yes. Halal menus are standard for corporate catering in Dubai, and vegetarian, vegan and gluten-free options are handled on request. Allergies are handled the allergen-aware way: declare them with your brief and the requirement goes to the assigned culinary partner before the booking is confirmed. The partner assesses ingredients, preparation environment and cross-contact controls and confirms whether the menu can be provided. Partner kitchens may handle allergens, so cross-contact cannot be excluded unless dedicated controls have been specifically confirmed for your booking.",
+    "How far in advance should we book?",
+    "A drop-off lunch is often possible at 48 to 72 hours' notice, live stations and multi-staff events want 3 to 5 days, and a conference or awards dinner wants 7 to 14 days. Lead times depend on guest numbers, menu complexity, staffing, equipment, location and partner availability, and short-notice requests are assessed individually."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "At a Glance",
+  "What Is Drop-Off Catering?",
+  "What Is fully-coordinated catering?",
+  "Head-to-Head Comparison",
+  "Budget Beyond the Menu",
+  "Dietary Requirements and Dietary Labels",
+  "Sources & Verification",
+  "More from the myCHEF Dubai Blog",
+  "Plan Your Next Corporate Event",
+  "Explore myCHEF Dubai",
+  "Corporate Catering with myCHEF Dubai"
+ ],
+ "add_block": [
+  {
+   "new_heading": "What is the difference between full-service and drop-off corporate catering?",
+   "new_paragraphs": [
+    "Full-service brings the whole event; drop-off brings only the food. Full-service corporate catering puts chefs, front-of-house staff, equipment, setup and cleanup on your site, so a chef cooks or finishes dishes while the team plates, pours, clears and resets the room — the pacing and polish a boardroom or ballroom needs, with one point of contact running the timeline. Drop-off means platters, trays and boxed meals arrive ready to serve, portioned and labelled, with no staff staying on. A colleague can lay it out in minutes. Because you pay for food, packaging and delivery instead of on-site labour, drop-off keeps the per-head price low, which is why it is the default for everyday office catering. Demand for both is strong: Dubai ranked first in the 2026 Cvent MEA meetings-destination report, and the UAE's meetings and events market keeps growing ( Coherent Market Insights )."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'At a Glance'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Full-service vs drop-off: which should you choose?",
+   "new_paragraphs": [
+    "Match the style to the stakes: drop-off for the everyday, full-service for the moments that carry weight. Daily desk lunches, brainstorming sessions and casual Friday spreads run happily on drop-off. Client dinners, product launches, awards nights, conferences and board meetings call for full-service, where staffed setup and timing make the room feel handled. Plenty of companies do both in a single week — drop-off Monday to Thursday, full-service for Thursday night's investor dinner — so neither budget nor impression is compromised. If you are weighing the corporate catering full-service vs drop-off question, start from the guest experience you want, then let that dictate the format instead of the other way round. A good rule of thumb: if the meal is part of the impression you are making, staff it; if it just needs to be good, warm and on time, deliver it."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'At a Glance'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How much does corporate catering cost in Dubai?",
+   "new_paragraphs": [
+    "Drop-off office lunches start at AED 90 per person, a staffed buffet at AED 120, and live cooking stations or a premium spread at AED 150. A chef cooking and plating course by course on site is a different product again at AED 700 to AED 950 per person, and set corporate dinner packages start at AED 1200. The gap between the tiers is labour, not food quality: drop-off pays for the food, the packaging and the delivery, while every tier above it pays people to be in your room. Volume formats need 10 guests, a buffet needs 20, the minimum order is AED 900, and 5% VAT goes on the total. A retainer holds the everyday rate steady for regular office catering. For an exact figure on either format, share your date, headcount and venue and you will get an itemised proposal with food, staff, equipment and delivery on separate lines.",
+    "What is the minimum for a small party or a small team?",
+    "Ten guests for drop-off and working lunches, and 20 for a buffet, against a minimum order value of AED 900 — which is 10 people at the entry tier. Small party catering in Dubai runs into this wall constantly, because a buffet's economics fight a short guest list: the setup, the transport and the staff cost the same whether 12 people or 40 eat from it. Two routes work below the buffet minimum. Order the drop-off tier and lay it out yourself, or book a chef to cook plated, which carries no minimum headcount at all and is the better answer for a team of six or eight having a proper sit-down. Ask for both prices against your number and take the one that fits; at eight people they are closer than you would expect."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'At a Glance'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How to shortlist corporate catering companies in Dubai",
+   "new_paragraphs": [
+    "There is no official ranking of corporate catering companies in Dubai, and the lists titled \"top 10 catering companies in Dubai\" rarely say how the order was decided, so treat them as a directory instead of a verdict. A shortlist you can defend to a finance team is built from six checks. Does the caterer publish a per-head price and a minimum guest count, or does everything arrive only after an enquiry? Will it name what the price includes, line by line, so you can compare two quotes instead of two adjectives? Who is the Person in Charge for the kitchen the food comes from, and what does its licence cover? How does delivered food stay outside the 5°C to 60°C band on a Dubai afternoon? Can it run both formats, so the Tuesday lunch and the Thursday client dinner sit on one account? And is there one named contact accountable on the day, or does the booking pass between a salesperson, a kitchen and a service team? Three or four suppliers judged on those six answers will separate faster than any ranking does."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'At a Glance'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What corporate catering menu ideas work well?",
+   "new_paragraphs": [
+    "Both styles draw on the same kitchen, so the menu is as broad for a desk lunch as for a gala. Popular corporate catering menu ideas in Dubai include international buffets, plated three-course dinners, grazing tables, canapé and cocktail-style receptions, healthy bowl lunches and live cooking stations for launches. Halal is standard, and vegetarian, vegan and gluten-free options are built in on request. Allergen-aware catering is handled differently and deliberately: an allergy declared with the brief goes to the assigned culinary partner before the booking is confirmed, and that partner assesses the ingredients, the preparation environment and the cross-contact controls before saying yes to the menu. Drop-off leans toward robust dishes that travel and hold well; full-service opens up delicate plating, à-la-minute cooking and dessert courses. For everyday office lunches, our Italian and Mediterranean specialist Marco Rossi builds menus that reheat and hold gracefully, while full-service dinners let a chef finish plates to order. Tell us the cuisine and the crowd, and the menu is tailored to both."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'At a Glance'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What food-safety rules should you check before you book?",
+   "new_paragraphs": [
+    "Ask how delivered food stays out of the danger zone, because in Dubai's heat that is the whole game. According to Dubai Municipality, high-risk and perishable food must be held at 5°C or colder, or 60°C or hotter — the 5°C to 60°C band is where bacteria multiply fastest ( Khaleej Times / Dubai Municipality ). A serious caterer packs, insulates and times drop-off runs so hot food stays hot and cold food stays cold from kitchen to desk. Licensed food businesses in Dubai also register on the municipality's FoodWatch platform, which tracks hygiene and allergen information ( FoodWatch, Dubai Municipality ). It is a fair question to put to any corporate catering services provider in Dubai before you sign."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'At a Glance'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How does myCHEF vet its chefs, and how do you hire?",
+   "new_paragraphs": [
+    "MyCHEF is implementing a structured 12-stage partner verification and quality-assurance framework across its culinary partner network, covering company identity, trade licence and permitted activities, food-safety permits, Person-in-Charge and food-handler training documentation, allergen controls, and a chef and service-team assessment. For high-stakes plated work and boardroom dinners, we often assign Ahmed Al-Rashid , our default for fine-dining service, who runs a room with the calm a client dinner demands. Hiring is quick: send your brief — occasion, headcount, venue, dietary needs — approve the itemised proposal, and confirm. On the day, drop-off arrives ready to serve while full-service teams handle setup, service and cleanup end to end. For recurring needs, a retainer keeps the same standard week after week, so you are not re-briefing every Monday."
+   ],
+   "insert_after_block": "Corporate Catering with myCHEF Dubai",
+   "position": "after the block titled 'Corporate Catering with myCHEF Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Corporate catering across Dubai — is there a caterer near me?",
+   "new_paragraphs": [
+    "Yes: myCHEF covers corporate catering across the whole city, so wherever your office sits, a caterer near me is part of the map. Drop-off office lunches and full-service events run in DIFC, Business Bay, Downtown Dubai, Dubai Marina, JLT, Media City and beyond. Catering services in Al Quoz are a regular run too, and worth a note of their own: it is a warehouse and studio district where the offices are spread across industrial plots rather than towers, so delivery windows there need the unit number, the gate and a contact on site, or a driver loses twenty minutes circling. The same applies to Dubai Investment Park and Ras Al Khor. Explore corporate catering , office catering and drop-off catering to set your programme up, and see the wider catering in Dubai and private chef options if your needs stretch beyond the office."
+   ],
+   "insert_after_block": "Corporate Catering with myCHEF Dubai",
+   "position": "after the block titled 'Corporate Catering with myCHEF Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Plan it with myCHEF",
+   "new_paragraphs": [
+    "Ready to book or want an exact quote? Corporate · Drop-Off · Office . Or start at private chef or catering in Dubai ."
+   ],
+   "insert_after_block": "Corporate Catering with myCHEF Dubai",
+   "position": "after the block titled 'Corporate Catering with myCHEF Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning corporate catering step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — we typically reply within 15 minutes during business hours, with the itemised proposal to follow.",
+    "Book as early as you can. A drop-off lunch is often possible at 48 to 72 hours , live stations and multi-staff events want 3 to 5 days , and a conference or awards dinner wants 7 to 14 days . Short-notice requests are assessed individually.",
+    "Confirm the menu for corporate catering some 7 days ahead, once numbers stop moving.",
+    "Ask for dietary covers at the corporate catering briefing stage instead of within 48 hours .",
+    "Check parking and lift access; your corporate catering team is on site some 2 hours early.",
+    "Plan on roughly 3 hours of corporate catering service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": "Corporate Catering with myCHEF Dubai",
+   "position": "after the block titled 'Corporate Catering with myCHEF Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Why the corporate calendar decides your format",
+   "new_paragraphs": [
+    "Scale explains why drop-off dominates the working week and full service owns the evening. Dubai World Trade Centre alone hosted 401 events in 2025, up 6% on the year, drawing 2.97 million attendees, a 12% year-on-year rise, according to the Dubai Media Office . That volume of business events concentrates catering demand into the same weeks and the same suppliers.",
+    "The working week shapes the daily pattern on top of that. The UAE moved to its current week on 1 January 2022 , with the weekend becoming Friday afternoon, Saturday and Sunday ( Khaleej Times ). Weekday lunches are therefore Monday to Thursday business, where drop-off wins on speed and cost, while client dinners and awards nights cluster into the same contested evenings, where full service earns its premium. If your event falls in a peak exhibition week, book the staffed format early or accept the drop-off."
+   ],
+   "insert_after_block": "Corporate Catering with myCHEF Dubai",
+   "position": "after the block titled 'Corporate Catering with myCHEF Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Sources",
+   "new_paragraphs": [
+    "Food safety for delivered and on-site catering in Dubai is governed by official authorities. According to Dubai Municipality (via Khaleej Times) , high-risk food must be held at 5°C or colder or 60°C or hotter; licensed food businesses register on Dubai Municipality's FoodWatch platform for hygiene and allergen tracking. Demand context is from Coherent Market Insights (UAE MICE market) . Confirm current requirements with these official sources. It also draws on the Dubai Media Office (Dubai World Trade Centre: 401 events and 2.97 million attendees in 2025) and Khaleej Times (the UAE working-week change of 1 January 2022).",
+    "Request a proposal or explore corporate catering ."
+   ],
+   "insert_after_block": "Frequently Asked Questions",
+   "position": "after the block titled 'Frequently Asked Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  }
+ ],
+ "faq": [
+  {
+   "question": "What is corporate catering, in one line?",
+   "answer": [
+    "Corporate catering is food supplied to a workplace or a company event — either drop-off delivery for daily office meals, or staffed full-service for client dinners and conferences."
+   ]
+  },
+  {
+   "question": "Is drop-off catering cheaper than full-service?",
+   "answer": [
+    "Yes. Drop-off is cheaper because no chefs or service staff are stationed at your venue — you pay for the food, packaging and delivery, not for on-site labour, setup or cleanup."
+   ]
+  },
+  {
+   "question": "How much does corporate catering cost in Dubai?",
+   "answer": [
+    "Drop-off office lunches start at AED 90 per person, a staffed buffet at AED 120, and live cooking stations at AED 150. A chef cooking and plating on site is AED 700 to AED 950 per person, and set corporate dinner packages start at AED 1200. Minimums are 10 guests, 20 for a buffet, with a minimum order of AED 900, plus 5% VAT."
+   ]
+  },
+  {
+   "question": "How do we shortlist corporate catering companies?",
+   "answer": [
+    "There is no official ranking, and lists titled \"top 10 catering companies in Dubai\" rarely say how the order was decided. Judge instead on six answers: is a per-head price published, is the quote itemised, who is the Person in Charge for the kitchen, how is delivered food kept outside the 5°C to 60°C band, can one supplier run both formats, and is one named person accountable on the day."
+   ]
+  },
+  {
+   "question": "What is the minimum guest count for a small office order?",
+   "answer": [
+    "Ten guests for drop-off and working lunches, 20 for a buffet, against a minimum order of AED 900. Below that, a chef cooking plated carries no minimum headcount, so a team of six can still be catered properly at the AED 700 to AED 950 per person rate."
+   ]
+  },
+  {
+   "question": "How is delivered office food kept safe in Dubai's heat?",
+   "answer": [
+    "Under Dubai Municipality rules, high-risk and perishable food must be held at 5°C or colder, or 60°C or hotter; the 5°C to 60°C band is the danger zone, so drop-off food is packed and timed to stay outside it."
+   ]
+  },
+  {
+   "question": "Can we combine full-service and drop-off in the same week?",
+   "answer": [
+    "Yes, and most companies do. Run economical drop-off for daily office lunches and book full-service for the client dinner or conference, often on one retainer so the standard stays consistent."
+   ]
+  },
+  {
+   "question": "Do you cater office lunches near me?",
+   "answer": [
+    "Yes. MyCHEF delivers drop-off and full-service corporate catering across Dubai, so an office near DIFC, Business Bay, Downtown or Dubai Marina is well within our delivery map."
+   ]
+  },
+  {
+   "question": "Is the corporate catering halal, and how are allergies handled?",
+   "answer": [
+    "Yes. Halal menus are standard for corporate catering in Dubai, and vegetarian, vegan and gluten-free options are handled on request. Allergies are handled the allergen-aware way: declare them with your brief and the requirement goes to the assigned culinary partner before the booking is confirmed. The partner assesses ingredients, preparation environment and cross-contact controls and confirms whether the menu can be provided. Partner kitchens may handle allergens, so cross-contact cannot be excluded unless dedicated controls have been specifically confirmed for your booking."
+   ]
+  },
+  {
+   "question": "How far in advance should we book?",
+   "answer": [
+    "A drop-off lunch is often possible at 48 to 72 hours' notice, live stations and multi-staff events want 3 to 5 days, and a conference or awards dinner wants 7 to 14 days. Lead times depend on guest numbers, menu complexity, staffing, equipment, location and partner availability, and short-notice requests are assessed individually."
+   ]
+  }
+ ]
+}

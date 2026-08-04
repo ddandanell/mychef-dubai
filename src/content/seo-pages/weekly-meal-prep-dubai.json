@@ -1,0 +1,188 @@
+{
+ "url": "/weekly-meal-prep-dubai",
+ "keyword_strategy": {
+  "main_keyword": "meal prep dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 20,
+  "subkeywords_carried": 18,
+  "coverage_percent": 90,
+  "subkeywords_carried_list": [
+   "meal prep in dubai",
+   "meal prep companies dubai",
+   "best meal prep delivery dubai",
+   "best meal prep companies dubai",
+   "meal prep dubai gym",
+   "meal delivery dubai",
+   "best meal prep dubai",
+   "best meal plans dubai",
+   "meal prep dubai weekly",
+   "meal prep dubai healthy",
+   "healthy meal prep dubai",
+   "meal prep dubai delivery",
+   "gluten free meal prep dubai",
+   "best meal prep service dubai",
+   "meal prep dubai for weight loss",
+   "how long can you meal prep rice",
+   "meal plan dubai",
+   "meal prep app dubai"
+  ],
+  "subkeywords_not_carried": [
+   "meal prep dubai cheap",
+   "meal plans dubai cheap"
+  ],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Weekly Meal Prep Dubai | from AED 1,898 per week | myCHEF",
+  "meta_description": "Weekly Meal Prep in Dubai — a private chef cooking a week of fresh meals in your kitchen. From aed 1,898 per week, vetted chefs, full service. Request a proposal from myCHEF.",
+  "h1": "Weekly Meal Prep in Dubai — What It Costs and How to Book"
+ },
+ "opening_paragraph": [
+  "Meal prep Dubai from myCHEF is a private chef who shops, cooks and portions a full week of fresh meals in your own kitchen, from AED 1,898 per week. Nothing is frozen and nothing travels the city in a foam box — every dish is shopped that morning, cooked on your worktops, then portioned into labelled glass and dated so Monday's lunch and Thursday's dinner sit one lid away, warm in minutes. Each weekly menu is built around how you eat day to day: the training block you are mid-way through, a household that argues over dinner, an allergy you are tired of re-explaining to a stranger every week. Tell us how your week runs and we typically reply within 15 minutes during business hours, with an itemised proposal to follow."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "Benefits of Weekly Meal Prep",
+   "match_confidence": 0.71,
+   "new_heading": "Why myCHEF for weekly meal prep",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you own your week, we carry the cooking. Every chef working on meal prep has cleared identity checks, a practical cooking assessment, reference verification and ongoing performance reviews — a continuous standard, not a one-time tick. We are honest that no system removes every risk, so we match each household to the best available chef for it. For steady, week-in week-out home cooking, that is often Ahmed Al-Rashid , 18+ years across Dubai, London and Paris in classical French technique, who designs each weekly menu as a collaboration with the host, every dish timed and seasoned to an exacting standard. Our work spans meal prep, villa weddings, yacht celebrations and corporate galas across Dubai."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "Skip the Takeout. Reclaim Your Evenings.",
+  "Start Your Weekly Meal Prep Plan",
+  "Explore myCHEF Dubai",
+  "Who Weekly Meal Prep Is For",
+  "Weekly Meal Prep Questions",
+  "How Weekly Meal Prep Works",
+  "Weekly Meal Prep Plans",
+  "A Taste of Our Meal Prep"
+ ],
+ "add_block": [
+  {
+   "new_heading": "Weekly meal prep for families, fitness and corporate teams",
+   "new_paragraphs": [
+    "Weekly meal prep works hardest for four kinds of household: busy families, anyone mid fitness goal, new parents in the early weeks, and corporate teams who want lunch handled on site. For training, our fitness meal prep chefs weigh and macro-count each portion; for recovery and clean eating, wellness meal prep keeps it light and vegetable-forward; for the fourth-trimester haze, postpartum meal prep stocks the fridge with one-handed, iron-rich food. Companies book corporate meal prep for a founder's home office or a small team, and weekly meal prep catering for events — a week of house guests, a birthday, a small party at home — is scoped the same transparent way. Weekly meal prep party catering and weekly meal prep home catering both run from the same steady weekly rhythm, so the plan bends to the household, not the other way round."
+   ],
+   "insert_after_block": "Weekly Meal Prep Questions",
+   "position": "after the block titled 'Weekly Meal Prep Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How does the weekly shop, cook and storage work?",
+   "new_paragraphs": [
+    "The chef arrives once a week, shops that morning, and cooks the full week in a single session of roughly four to six hours. Everything is portioned into your containers or food-grade glass we bring, and storage and reheating guidance is provided according to the dishes selected and the licensed culinary partner's food-safety procedures. Cooked food is chilled quickly and stored so it holds its texture; nothing is left to sit warm, and the more delicate dishes are flagged to eat first. You need only a working kitchen and some fridge space — a two-burner hob in a Marina apartment is plenty, and so is a full villa kitchen. When the cooking is done the chef clears down, bags the rubbish and wipes every surface before leaving, so the only sign anyone was there is a week of good food waiting behind the fridge door."
+   ],
+   "insert_after_block": "Weekly Meal Prep Plans",
+   "position": "after the block titled 'Weekly Meal Prep Plans'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How much does meal prep Dubai cost?",
+   "new_paragraphs": [
+    "Weekly meal prep in Dubai starts from AED 1,898 per week, with a larger household or a more ambitious menu from around AED 2,698. The weekly meal prep catering cost moves with three things: how many mouths you are feeding, how far the menu reaches, and whether you want the chef plating on the day or just the week cooked and left ready. There are no hidden weekly meal prep catering packages to decode — the weekly meal prep catering prices are itemised line by line, so an affordable single-person week and a luxury family week are quoted on the same honest basis. For the full picture see our private chef prices and the catering price guide . Weighing it against a one-off booking? Our note on private chef vs catering lays out when each makes sense; and if you are searching weekly meal prep catering near me, the local option worth trusting is usually the one that itemises, not the one that rounds up."
+   ],
+   "insert_after_block": "Weekly Meal Prep Plans",
+   "position": "after the block titled 'Weekly Meal Prep Plans'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning meal prep step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your meal prep proposal arrives.",
+    "Book meal prep about 2 weeks ahead off-peak, and 6 weeks ahead between November and March.",
+    "Confirm your meal prep menu about 7 days out, when the guest list is firm.",
+    "Ask early about allergies and dietary plates — not in the last 48 hours before meal prep.",
+    "Check the access route before meal prep day — setup starts roughly 2 hours ahead.",
+    "Plan on roughly 3 hours of meal prep service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": "How Weekly Meal Prep Works",
+   "position": "after the block titled 'How Weekly Meal Prep Works'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which meal prep format suits your event?",
+   "new_paragraphs": [
+    "Format What it gives you Staffing Cost position",
+    "Drop-off Food delivered ready to serve None Entry point",
+    "Buffet Presentation plus a maintained spread 1–2 From AED 700 per person",
+    "Live stations Cooking in front of your guests 2–4 Mid-range",
+    "Plated Every course served together 3 and above Top of the range"
+   ],
+   "insert_after_block": "How Weekly Meal Prep Works",
+   "position": "after the block titled 'How Weekly Meal Prep Works'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Delivery, or a chef cooking in your kitchen?",
+   "new_paragraphs": [
+    "Weekly meal prep in Dubai splits into two products, and the cost difference follows the labour. Meal prep delivery means the food is cooked in a licensed partner kitchen, portioned into containers and driven to your address on a set day. A chef cooking in your kitchen means the week is prepared at your home, so you see the portioning and decide what goes into the freezer.",
+    "Meal delivery in Dubai suits one person or a couple who want containers to arrive and the kitchen left alone. The in-home version suits a household running several diets at once, because the chef adjusts portions in front of you instead of working from a form. Neither is the better product in the abstract — they solve different problems, and the honest question is which one your week actually needs.",
+    "Gym meal prep, and cooking to a plan you already have",
+    "A gym meal plan is a set of macro targets, not a menu. your chef cooks to the macros you or your coach set — protein, carbohydrate and fat per meal, portioned and labelled — and does not write the plan itself. Send the numbers and the week is built around them.",
+    "The same applies to meal prep for weight loss. Your chef cooks to the targets you bring, and myCHEF does not promise a result. What a chef genuinely controls is portion size, cooking method and what is in the fridge on a Tuesday night, which is usually where a week comes apart. What a chef cannot do is replace a dietitian, and any plan with a medical dimension should come from one.",
+    "What “healthy” means in practice",
+    "Healthy meal prep in Dubai is a sourcing and method question more than a menu one: produce bought fresh for the week, grilling and steaming in place of deep-frying, and sauces built separately so they can be left off a portion rather than cooked into it. Meal plans differ enough between households that the word is worth defining out loud — tell us what it means for yours and the cook is built that way."
+   ],
+   "insert_after_block": "How Weekly Meal Prep Works",
+   "position": "after the block titled 'How Weekly Meal Prep Works'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Common questions",
+   "new_paragraphs": [
+    "How much does weekly meal prep cost in Dubai?",
+    "From AED 1,898 per week, quoted by household size, menu reach and service level. Larger or more elaborate weeks run from around AED 2,698, and every quote is itemised line by line so nothing is hidden.",
+    "Is the food cooked fresh or delivered frozen?",
+    "Fresh, every time. The chef shops that morning and cooks everything in your own kitchen; nothing is frozen in advance or driven across the city in a box. Cooked meals are then chilled and stored to keep their texture.",
+    "Can you cook for a specific diet or training plan?",
+    "Yes. Weeks are built around any diet or macro target — keto, vegan, vegetarian, halal, gluten-free, low-FODMAP, dairy-free or a weighed fitness plan. Tell the chef your goal and the menu is written to it.",
+    "How many meals does a week include?",
+    "As many as you need — the week is scoped to your household, from a few dinners to full breakfasts, lunches, dinners and snacks for a family. Portions and meal counts are agreed when we quote.",
+    "Do I need to provide anything?",
+    "Only a working kitchen and some fridge space. The chef brings the skill and, if you like, food-grade glass containers; a two-burner apartment hob is enough, and so is a full villa kitchen.",
+    "Which areas of Dubai do you cover?",
+    "All of Dubai — Marina, Downtown, Business Bay, Palm Jumeirah, Jumeirah, Arabian Ranches, Emirates Hills, Dubai Hills and beyond. If you are searching weekly meal prep catering near me, the chef travels to you.",
+    "How do I book weekly meal prep?",
+    "Share your household size, dietary needs, kitchen details and start week; we send an itemised proposal, usually within one business day, then match your chef and confirm the first cook day.",
+    "For meal prep, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements .",
+    "Do you deliver meal prep, or cook it here?",
+    "Both. Delivery is cooked in a licensed partner kitchen and driven to you on a set day; the in-home option is cooked in your kitchen so you control portioning and storage.",
+    "Can you cook to a gym or weight-loss plan?",
+    "Yes, to targets you or your coach set. Your chef cooks to your macros and labels each portion. myCHEF does not write the plan or promise an outcome, and anything with a medical dimension should come from a dietitian."
+   ],
+   "insert_after_block": "How Weekly Meal Prep Works",
+   "position": "after the block titled 'How Weekly Meal Prep Works'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How to hire a weekly meal prep chef",
+   "new_paragraphs": [
+    "To hire a weekly meal prep chef, send four things: how many you are feeding, any dietary needs, a note on your kitchen, and the week you want to start. We reply with an itemised proposal — usually within one business day, often promptly during our published business hours — and once you approve it we match a private weekly meal prep chef to your cuisine and confirm the first shop-and-cook day. There is no long tie-in: most clients run week to week and adjust the menu as their routine, training block or the family's appetites shift through the month. If you would prefer a chef living the rhythm with you full time, see our full-time private chef option; and for a single dinner instead of a week, a private chef booking covers that."
+   ],
+   "insert_after_block": "Who Weekly Meal Prep Is For",
+   "position": "after the block titled 'Who Weekly Meal Prep Is For'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  },
+  {
+   "new_heading": "What does weekly meal prep in Dubai include?",
+   "new_paragraphs": [
+    "Weekly meal prep includes menu design, all market shopping, a full week of cooking in your own kitchen, portioning into labelled containers, and complete cleanup before the chef leaves. Unlike a drop-off caterer who reheats trays made somewhere else, a weekly meal prep caterer works on site, so the food is fresh and the kitchen is left spotless. Choosing myCHEF over a large weekly meal prep catering company means one vetted chef learns your household — the coffee you like, the child who refuses coriander, the portion your partner leaves half-eaten — instead of a rotating line cook who barely sees your kitchen twice. The weekly meal prep catering services cover breakfasts, lunches, dinners, snacks and sauces, all cooked ahead and stored so each meal is ready in minutes. You keep the format you want: full plating on the day, or a quiet hand-off with the fridge stocked and the counter wiped."
+   ],
+   "insert_after_block": "Weekly Meal Prep Questions",
+   "position": "after the block titled 'Weekly Meal Prep Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  }
+ ],
+ "faq": []
+}

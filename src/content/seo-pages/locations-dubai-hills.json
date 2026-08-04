@@ -1,0 +1,154 @@
+{
+ "url": "/locations/dubai-hills",
+ "keyword_strategy": {
+  "main_keyword": "private chef dubai hills",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 2,
+  "subkeywords_carried": 2,
+  "coverage_percent": 100,
+  "subkeywords_carried_list": [
+   "best private chef dubai hills",
+   "private chef dubai hills price"
+  ],
+  "subkeywords_not_carried": [],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Private Chef Dubai Hills | Villa Dining & Catering | myCHEF",
+  "meta_description": "Private chef & catering in Dubai Hills from AED 700pp — villa dining, events and bespoke menus with vetted chefs. Serving Dubai Hills Estate villas and mansions. Request a proposal.",
+  "h1": "Private Chef & Catering in Dubai Hills — Menus, Prices and What's Included"
+ },
+ "opening_paragraph": [
+  "A private chef in Dubai Hills from myCHEF is a vetted chef who cooks in your villa kitchen, from AED 700 per person. They plan the menu, serve each course and clear away. You dine well without booking a table or leaving home. Send your date, guest count and address, we typically reply within 15 minutes during business hours, with a chef match to follow and an itemised proposal, built around your occasion and any dietary needs."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "Who books private chef and catering in Dubai Hills?",
+   "match_confidence": 0.73,
+   "new_heading": "How much does a private chef cost in Dubai Hills?",
+   "new_paragraphs": [
+    "A private chef in Dubai Hills costs from AED 700 per person, with the final figure set by guest count, menu and service level. Pricing is per head and comes down as numbers rise: intimate dinners for two sit nearer AED 950–1,300 per person, around six guests land near AED 750–1,000, and ten or more start from AED 700. That is the honest range for Dubai Hills private chef cost — no hidden add-ons, with food, staff and equipment listed separately on your quote. Set catering packages, from around AED 1,200 for a small group up to AED 2,400 and AED 3,600 for larger counts, can give better value when your numbers are fixed. Dubai Hills catering services are quoted the same clear way. See the full breakdown on private chef prices in Dubai , or send your details for an exact figure."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "At a Glance",
+  "Dubai Hills Estate's family luxury caterer — seven-course fine dining for villa gardens and golf events.",
+  "What is included in every Dubai Hills catering service?",
+  "Menus for Dubai Hills family and golf events",
+  "Why Dubai Hills families choose myCHEF Dubai",
+  "Popular Dubai Hills catering occasions",
+  "Delivery, access and parking in Dubai Hills",
+  "Also Serving Near Dubai Hills",
+  "Explore Our Services",
+  "Popular Events in Dubai Hills",
+  "Request a Dubai Hills catering proposal",
+  "Explore myCHEF Dubai",
+  "How Dubai Hills private chef and catering works",
+  "Questions About Dubai Hills Catering",
+  "Properties We Serve in Dubai Hills",
+  "Services in Dubai Hills"
+ ],
+ "add_block": [
+  {
+   "new_heading": "What a private chef in Dubai Hills includes",
+   "new_paragraphs": [
+    "A private chef in Dubai Hills covers the whole evening: menu design, the shopping, the cooking in your own kitchen, service to the table and a spotless finish. You host; the chef and any service staff carry the work. As a full personal chef Dubai Hills service, myCHEF plans the courses with you, brings the ingredients and equipment the meal needs, plates each dish fresh and leaves the villa exactly as it was found. Unlike a drop-off tray, an in-villa chef Dubai Hills finishes every course hot, paces the meal to your table and adjusts on the night. This is why so many residents choose a home chef Dubai Hills over a restaurant: the same standard of cooking, in a room you already love, with no drive home afterwards. One team owns the timing from the first canapé to the last plate cleared."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'At a Glance'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Private chef in Dubai Hills for dinner parties, events and celebrations",
+   "new_paragraphs": [
+    "A private chef in Dubai Hills suits nearly any gathering — an intimate dinner for two, a Dubai Hills dinner party catering booking for friends, a garden birthday or a milestone family celebration. This is a green, golf-course community of large villas and mansions, so most bookings here are exactly that: families hosting at home. For bigger occasions, Dubai Hills event catering scales the same kitchen from an eight-seat table to a hundred-plus garden reception, adjusting chefs, staff and stations to match. Dubai Hills party catering turns a poolside evening or a weekend lunch into something guests remember, while a quieter chef for hire Dubai Hills booking makes an anniversary or date night effortless. Whatever the setting, the menu and service are built around your occasion, your guests and the mood you want in the room."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'At a Glance'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Menus and options",
+   "new_paragraphs": [
+    "The menu is bespoke, built with you instead of picked from a fixed list. Choose across Arabic , Mediterranean , Italian , Indian and Pan-Asian cooking, plated in courses, served family-style or set out as a grazing spread. Every menu can be built halal , vegetarian, vegan or allergen-aware, so a mixed table eats the same considered food instead of a lesser \"special\" plate. Gluten-free, nut-conscious and other dietary menu options may be available on request, subject to confirmation by the assigned culinary partner. Partner kitchens may handle allergens, and cross-contact cannot be completely excluded unless dedicated controls have been specifically confirmed for the booking. Guests with allergies must provide full details before confirming their event. A villa chef Dubai Hills will design an Arabic mezze feast for a family gathering, a Mediterranean sharing table for the garden, or a refined multi-course tasting for a dinner party. Tell us the theme and any dietary needs, and the chef shapes the courses around your taste and the season. Browse sample menus for ideas, or describe the evening you have in mind."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'At a Glance'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Villa dining, styling and logistics",
+   "new_paragraphs": [
+    "Dubai Hills villa catering runs smoothly because the chef plans the practical details before the day. Dubai Hills Estate wraps around the golf course and Dubai Hills Park, and its generous villas suit both indoor plated dinners and garden gatherings under the stars. Estate-gate and community access is quick to pre-arrange — just pass us the details when you book, and the team arrives ahead of your guests to set up. The chef works around your kitchen, whatever its size, bringing extra equipment where needed, and can dress the table to your setting: crisp and formal for a dinner party, relaxed and floral for a garden lunch. Setup, service and full cleanup are included, so nothing lands on you before or after. Parking, timing and staff numbers are all confirmed in advance, leaving you free to enjoy your own evening."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'At a Glance'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Why myCHEF",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you own the evening, we carry the work. No chef is offered for private chef hills before clearing identity checks, a practical cooking assessment, reference verification and ongoing performance reviews — a continuous standard, not a one-time tick. We are honest about it, too: no system removes every risk, so we match each event to the chef well suited to it.",
+    "For a villa dinner or celebration in Dubai Hills, that is often Ahmed Al-Rashid — 18+ years across Dubai, London and Paris in classical French technique — who designs each menu as a collaboration with the host, every course timed, seasoned and served to exacting standards. That craft is why hosts booking the best private chef Dubai Hills, or a full luxury private chef Dubai Hills evening, come back for the next occasion. We have delivered intimate villa dinners and large celebrations across Dubai's communities. Client reviews are added as events run."
+   ],
+   "insert_after_block": "How Dubai Hills private chef and catering works",
+   "position": "after the block titled 'How Dubai Hills private chef and catering works'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning private chef hills step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your private chef hills proposal arrives.",
+    "Book private chef hills about 2 weeks ahead off-peak, and 6 weeks ahead between November and March.",
+    "Confirm the private chef hills menu roughly 7 days before, once your numbers settle.",
+    "Ask about dietary covers for private chef hills when you enquire, not inside the final 48 hours .",
+    "Check venue access and parking for private chef hills; the team arrives about 2 hours before service.",
+    "Plan on roughly 3 hours of private chef hills service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": "Properties We Serve in Dubai Hills",
+   "position": "after the block titled 'Properties We Serve in Dubai Hills'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which private chef hills format suits your event?",
+   "new_paragraphs": [
+    "Format Service staff Guests it suits Indicative cost",
+    "Drop-off None Any size, informal Most economical",
+    "Buffet 1–2 20–60 From AED 700 per person",
+    "Live stations 2–4 40 and above From AED 700 per person",
+    "Plated service 3 and above 8–40 seated Highest per head"
+   ],
+   "insert_after_block": "Properties We Serve in Dubai Hills",
+   "position": "after the block titled 'Properties We Serve in Dubai Hills'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How to hire a chef in Dubai Hills and how it works",
+   "new_paragraphs": [
+    "To hire a chef in Dubai Hills, send your date, guest count, address and any dietary needs, and we typically reply within 15 minutes during business hours, with a chef match to follow and itemised quote. From there the path is set: we confirm the menu, lock the timeline and handle access details for your community. On the day, the chef and any staff arrive ahead of your guests, set up, cook each course fresh, run the service and clear everything away. Looking for a private chef near Dubai Hills comes down to reach and reliability — myCHEF serves the whole neighbourhood and the communities around it, so \"near me\" is wherever your villa is. A week's notice suits a small dinner; allow two to four weeks for large parties and peak dates. One point of contact manages the whole booking, so you are not chasing a driver on the night."
+   ],
+   "insert_after_block": "How Dubai Hills private chef and catering works",
+   "position": "after the block titled 'How Dubai Hills private chef and catering works'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  },
+  {
+   "new_heading": "Private dining across Dubai Hills and nearby",
+   "new_paragraphs": [
+    "We provide private dining in Dubai Hills across the whole neighbourhood — Dubai Hills Estate villas and mansions, Golf Place and Parkway Vistas, and the Dubai Hills apartment buildings — plus the communities around it. The service travels to you, which is why the \"near me\" question is about reach, and ours covers every villa, garden and terrace in the area. A quiet plated dinner in an estate villa, a garden birthday off the park and a poolside party all run on the same standard: a vetted chef, fresh-cooked food and full service. Also serving Emirates Hills and Arabian Ranches , or explore all Dubai locations . Still deciding on format? Compare private chef vs catering to see which fits your evening."
+   ],
+   "insert_after_block": "Questions About Dubai Hills Catering",
+   "position": "after the block titled 'Questions About Dubai Hills Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  }
+ ],
+ "faq": []
+}

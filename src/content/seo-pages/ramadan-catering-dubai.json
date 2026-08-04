@@ -1,0 +1,266 @@
+{
+ "url": "/ramadan-catering-dubai",
+ "keyword_strategy": {
+  "main_keyword": "ramadan catering dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 7,
+  "subkeywords_carried": 7,
+  "coverage_percent": 100,
+  "subkeywords_carried_list": [
+   "ramadan buffet catering",
+   "ramadan catering services",
+   "ramadan catering dubai menu",
+   "best ramadan catering dubai",
+   "ramadan catering dubai price",
+   "ramadan catering dubai price list",
+   "ramadan restaurant dubai"
+  ],
+  "subkeywords_not_carried": [],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Ramadan Catering Dubai | Menus & Prices | myCHEF",
+  "meta_description": "Ramadan catering in Dubai from AED 700pp — a traditional iftar buffet, vetted chefs and full service. Bespoke menus for your event. Get an itemised quote.",
+  "h1": "Ramadan Catering in Dubai — Menus, Prices and What's Included"
+ },
+ "opening_paragraph": [
+  "myCHEF arranges Ramadan catering in Dubai, and the cost is from AED 700 per person for a vetted chef who plans the menu and cooks on site. The iftar table is ready the moment the fast breaks at Maghrib. Tell us your date, guest count and venue, and during our published business hours your itemised quote arrives promptly — no deposit needed to see the numbers."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "What Our Ramadan Catering Includes",
+   "match_confidence": 0.81,
+   "new_heading": "What does ramadan catering in Dubai include?",
+   "new_paragraphs": [
+    "Our ramadan catering services cover the whole evening from menu design to cleanup, so you host and pray instead of cook and carry. Each booking includes a bespoke menu, a vetted chef and their team, on-site cooking or careful drop-off, the setup and the full cleanup afterwards. As the team coordinating your booking, we itemise the food, the service staff and any rentals in one quote, with allergens flagged and dietary swaps built in. All meat is halal-sourced and every dish is prepared to halal standards, which is non-negotiable for an iftar or suhoor table. We scale the same ramadan food catering from an intimate home dinner of a dozen to a majlis or office gathering of several hundred. Nothing on the quote is hidden: you see the per-head price, the service fee and any charge for extra warmers or majlis seating before you confirm."
+   ]
+  },
+  {
+   "block_on_your_page": "A Taste of Our Ramadan Catering",
+   "match_confidence": 0.72,
+   "new_heading": "Why choose myCHEF for ramadan catering",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you own the evening, we carry the work. MyCHEF is implementing a structured 12-stage partner verification and quality-assurance framework across its culinary partner network, covering company identity, trade licence and permitted activities, food-safety approvals, allergen and cross-contact controls, menu capability, equipment and transport, references and performance review. We are honest that no process removes every risk, which is why we match each event to the chef well suited to it. For an iftar or suhoor, that is often Layla Hassan : 14-plus years in Lebanese and Emirati kitchens leading catering for prestige events, whose mezze, charcoal grills and aromatic rice are built for sharing and who is especially sought after for Ramadan and Eid. We have run ramadan catering alongside villa weddings, yacht celebrations and corporate galas across Dubai. Client reviews are added as events run."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "Catering for Every Evening of Ramadan",
+  "Iftar, Suhoor & Everything Between",
+  "Designed for the Occasion",
+  "Explore myCHEF Dubai",
+  "Ramadan Catering Questions",
+  "Catering Across Dubai",
+  "Let's Plan Your Ramadan Gathering"
+ ],
+ "add_block": [
+  {
+   "new_heading": "Ramadan catering for family gatherings, majlis and corporate events",
+   "new_paragraphs": [
+    "Ramadan catering suits any table where the fast is broken together, and the format shifts with the occasion. For a family iftar at home, we lay a generous buffet timed to Maghrib so the food is hot and the host sits down with the rest of the table. A majlis evening wants presence — long sharing platters, charcoal grills and aromatic rice that keep flowing as guests arrive through the night. Corporate ramadan catering fits office iftars, client majlis evenings and end-of-day team meals, where tidy logistics and a branded setup matter as much as the food. We also handle ramadan party catering for larger community gatherings and Eid celebrations that follow the month. Tell us the occasion and the room, and we shape the volume, the seating and the flavours to match: a company iftar wants efficiency, a family table wants warmth."
+   ],
+   "insert_after_block": "What Our Ramadan Catering Includes",
+   "position": "after the block titled 'What Our Ramadan Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What is on a ramadan iftar and suhoor menu?",
+   "new_paragraphs": [
+    "Your ramadan menu is built around the rhythm of the fast, opening gently and building to a shared feast. A traditional iftar buffet starts with dates and laban to break the fast, moves through soups like lentil and harira, then salads, fattoush and cold mezze, before hot mains of grilled meats, machboos, biryani and slow-cooked stews. Arabic sweets such as kunafa, luqaimat, baklava and basbousa close the evening alongside fresh fruit and Arabic coffee. For suhoor we plan a lighter, sustaining spread — foul, shakshuka, cheeses, labneh, eggs and slow-release grains to carry the day. Layla's Lebanese and Emirati cooking anchors the table with mezze and charcoal grills built for sharing. Share your favourites and any no-go ingredients, and you receive two or three menu directions at different price points, from a relaxed home iftar to a full plated feast."
+   ],
+   "insert_after_block": "What Our Ramadan Catering Includes",
+   "position": "after the block titled 'What Our Ramadan Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "The full ramadan catering dubai menu, course by course",
+   "new_paragraphs": [
+    "Below is the working menu our partner chefs build from, written in the order the evening runs, not as a marketing summary. An entry buffet takes a choice of five cold mezze, three hot mezze, three grills, three mains and three desserts; the premium tier moves to eight cold, five hot, five grills, four mains and five desserts, so you can see exactly what an upgrade buys. Nothing below is a placeholder — tell us the tier and we mark up your picks on the same document.",
+    "The iftar break — laid at Maghrib, before the buffet opens",
+    "Unlike a ramadan restaurant buffet in Dubai, where everything lands at once, this is staged as its own small table so the fast is broken the moment the adhan sounds. It is the part most caterers fold into “starters” and lose, and the best ramadan catering in Dubai is judged here first.",
+    "Dates: Medjool dates, a three-premium-date selection, dried apricots, figs, almonds and pistachios.",
+    "Fruit: fresh fruit cuts, exotic fresh fruit platter.",
+    "Warm openers: Thari Kanji, the Kerala rice-and-vermicelli porridge that Malabar households break the fast on.",
+    "To drink: Gahwa poured from the dallah, laban, Jallab with pine nuts, Qamar al-Din apricot nectar, Vimto, Rooh Afza, passion fruit sarbat, watermelon mint cooler, mint lemonade.",
+    "Soups",
+    "Lentil soup — close to universal on a Dubai iftar table, and the dish we send out first with the dates.",
+    "Harira, the Moroccan tomato, chickpea and lamb soup.",
+    "Chicken soup · seafood soup · mushroom soup · chicken tom yam goong.",
+    "Cold mezze and salads — the pick list",
+    "Dips and spreads: hummus, moutabal, baba ghanouj, mohamara, labneh with garlic, labneh with mint, beetroot moutabal, cheese with thyme, shanklish, makdous.",
+    "Salads: tabouleh, quinoa tabouleh, lentil tabouleh, fatoush, avocado fattoush, freekeh salad, rocca salad, baby rocca and strawberry salad, kale and quinoa, beetroot salad, olive salad, watermelon feta, caprese, greek salad, raw mango salad, pasta salad.",
+    "Cold plates: vine leaves, hindbeh, eggplant mousakaa, assorted cheese, shrimp cocktail, crab salad.",
+    "South Asian cold table: raitha, chana chaat, fruit chaat, dahi bhalla.",
+    "Hot mezze",
+    "Pastry: sambousik meat, cheese sambousik, lamb sambousek, fatayer spinach, cheese rolls, cheese sticks, chicken musakhan roll, spring rolls.",
+    "Fried: fried kebbe, kibbeh, falafel, spiced potato, fried chicken liver, fried makanek, fried sujouk, calamari — fried or provençal.",
+    "South Asian: vegetable samosa, chicken samosa, punjabi samosa, mini samosa, mix pakora, onion pakkavada, chicken cutlet, chicken kilikkodu, fish packets, and the Malabar sweet-savoury unnakkaya and irachi pathiri.",
+    "From the charcoal grill",
+    "Shish tawouk · kafta · chicken kafta · arayess kafta — kafta pressed into bread and grilled until the bread crisps.",
+    "Makanek · sujouk · beef kofta · lamb chops · charcoal baby chicken.",
+    "Grilled shrimp · grilled fish fillet · mixed grill.",
+    "Chicken sajji · chicken seekh kabab · green chicken boti for a Pakistani or Afghan-leaning table.",
+    "Main courses — Levantine, Gulf and Emirati",
+    "The centrepieces: lamb ouzi; ouzi stuffed with warak enab; whole or half lamb roast on a rice platter; lamb saddle; stuffed lamb; stuffed chicken; chicken roast with rice platter.",
+    "Rice mains: chicken kabsah, lamb kabseh, mandi, madfoon, haneeth, mathbi, Jordanian mansaf, chicken moghrabieh, chicken freekeh, fish sayadieh, seafood machboos.",
+    "Emirati heritage: harees, veal harees, thareed, madrouba, saloona, balaleet — the dishes an Emirati majlis expects and most caterers label vaguely as “Middle Eastern&rdquo.",
+    "Levantine stews, served with rice: dawood basha, kebbe bil laban, shakrieh, fasoulia stew, green pea stew, mloukhieh.",
+    "Fatteh and layered dishes: shawarma fatteh with tahini sauce, chicken fatteh, lamb makloubeh with eggplant, koussa waraq inab with fawaergh, koussa waraq inab with lamb chops, chicken mousakhan.",
+    "North African and slow-cooked: lamb tagine, butternut squash tagine, Algerian couscous casserole, slow-braised lamb shoulder with pilaf and roasted almonds, Moroccan-style braised beef brisket, lemon chicken with zaatar yogurt.",
+    "Main courses — South Asian",
+    "In Dubai this is a parallel track, not a sub-section: plenty of iftars run South Asian end to end.",
+    "Biryani and rice: Thalassery chicken biryani, Thalassery mutton biryani, chicken biryani, meat biryani, vegetable biryani, chicken pulao.",
+    "Slow-cooked: haleem, beef nihari, der raat ki mutton nihari, beef roast, beef karahi, chicken shinwari, malabar chicken khorma, butter chicken, kabab masala.",
+    "Vegetarian sides: vegetable stew, daal, okra yakhni.",
+    "Sides, rice and breads",
+    "Rice: oriental rice, ghee rice, arabic rice.",
+    "Breads: assorted arabic bread, saj bread, rigag, khameer, naan, paratha, coin paratha, nice pathiri, ney pathal, assorted rotis.",
+    "Accompaniments: stuffed zucchini, vegetable stew, papad, pickle and chutney, mint chutney.",
+    "Live cooking stations",
+    "Stations are quoted as separate units with a stated capacity, and the price of a station covers the chef who runs it and the setup, which plain buffet food does not. That is why the theatre costs what it does.",
+    "Full roasted lamb station , sized to serve 30, carved to order — and the ouzi carving station beside it.",
+    "Shawarma station — chicken, beef or Mexican-spiced, off the vertical spit; wagyu on request. A cake shawarma station for the dessert end.",
+    "Barbecue station — shish tawouk, grilled meat, kafta, arayess kafta and lamb chops cooked in front of guests.",
+    "Saj station — zaatar, cheese, meat, turkey and cheese, nutella, thrown and baked live on the domed saj.",
+    "Manakish station · falafel station · fajita station · burger station.",
+    "Pasta station — bolognese, alfredo, arabiata, four cheese.",
+    "Cheese kunafa station , supplied with 100 kunafa buns; live kunefe; a luqaimat station frying to order; a merry cream station.",
+    "Gahwa and Turkish coffee station · fresh juice station.",
+    "Desserts",
+    "Ramadan classics: luqaimat with date syrup, cheese kunafa, kunafa, halawet el jebben, katayef kashta, qatayef with cheese or nuts, othmalieh, umm ali.",
+    "Levantine sweets: basbousa with cream, assorted baklava, maamoul, layali lubnan, arabic delight selection, mohalabieh, muhallabia mousse, riz bel halib, crème caramel, custard.",
+    "South Asian: gulab jamun, jalebi, kheer, sheer khurma, zarda.",
+    "Lighter and plated: filo cheesecake parcels, assorted mini cakes, chocolate brownie, pineapple pudding, tender coconut pudding, seasonal fruit platter.",
+    "Beverages",
+    "Ramadan-specific drinks are what separate an iftar beverage list from an ordinary one.",
+    "Jallab · qamar al-din · vimto · laban · rooh afza.",
+    "Arabic coffee, karak tea, sulaimani with lemon and mint, tea and coffee.",
+    "Fresh juices — orange, mango, strawberry, pineapple, lemon mint — mocktails, soft drinks, mineral water.",
+    "Suhoor — a different menu, not a reheated iftar",
+    "Suhoor is breakfast-shaped and runs late, roughly 10pm to 2am. Full detail sits on our suhoor catering page; this is the short form.",
+    "Cold table: labneh salad, labneh with mint, assorted cheese, olive salad, makdous, assorted jams, hummus, moutabal, mohammara, vine leaves, tabbouleh, fattoush.",
+    "Hot table: foul medammas with tomatoes, onion and tahina sauce; hummus balila; eggs of choice; fatteh with yogurt; shakshuka with red bell pepper and tomatoes; chicken liver; balaleet; chebab with date syrup; seasonal fruits with honeyed yoghurt.",
+    "Live saj: manakeesh zaatar, cheese, kishek; lahem beajine; fatayer meat and cheese; fatayer akkawi cheese; fatayer zaatar and cheese; nutella flatbread.",
+    "To finish: cheese kunafah, umm ali, luqaimat, arabic delight selection, fresh juices, karak, tea and coffee.",
+    "Eid — the festive centrepiece",
+    "Eid replaces the fast-breaking opener with a grazing table and a dessert bar, and builds the meal around one whole lamb. See Eid catering for the full treatment.",
+    "Whole roasted lamb ouzi, stuffed with warak enab, carved in the room; lamb saddle; slow-cooked lamb.",
+    "Mezze platters, mixed grills, kebabs, biryani, arabic-asian fusion platters.",
+    "Continental sides — pasta, roasted vegetables, fresh salads.",
+    "Grazing table and dessert bar: luqaimat, baklava, maamoul.",
+    "For the children: mini sliders, wraps and finger foods.",
+    "Iftar meal boxes — a separate product line",
+    "Sealed individual boxes for staff, CSR and charity distribution, packed and delivered before Maghrib so nobody is opening a box after the adhan.",
+    "Basic: chicken or mutton biryani.",
+    "Standard: biryani, laban or juice, one fruit, three dates, water.",
+    "Premium: biryani, fruit, laban or juice, water, three dates.",
+    "Elite: premium contents in branded packaging.",
+    "Royal: biryani, laban or juice, fruit, three dates, water, samosa and pakora.",
+    "Full-meal box: snack or soup, veg or non-veg main, rice, fresh salad, raita, assorted rotis, papad, pickle and chutney, dessert.",
+    "Also packed: suhoor meal boxes, snack boxes, fruit platters.",
+    "Ordering terms for the menu above",
+    "Volume formats start at 10 guests, buffets at 20, and the minimum order value is AED 900. Gluten-free, nut-conscious and other dietary menu options may be available on request, subject to confirmation by the assigned culinary partner. Partner kitchens may handle allergens, and cross-contact cannot be completely excluded unless dedicated controls have been specifically confirmed for the booking. Guests with allergies must provide full details before confirming their event. All meat on this menu is halal-sourced.",
+    "Every station above runs through licensed culinary partners who hold the equipment. What decides which of them you get is the venue, so here is where each one lights. The saj is the easiest to place: a low-flame domed griddle that works on gas in a villa garden and, in its electric form, indoors, on a terrace or in an apartment, where no cylinder is coming through the door. The vertical shawarma spit works at a villa outdoors at ground level and at a permitted outdoor event, but not on a yacht — no extra gas cylinder may be brought aboard under D‑Marin's Dubai marina rules (Art. 53.1(a)). There the cone is cooked in a licensed partner kitchen, travels hot-held on its skewer and is carved live in front of guests, which is the part of the ritual anyone actually watches. The tandoor goes to villas and gardens, outdoors and at ground level; Dubai Municipality's barbecue guidance is blunt that you do not light coal \"in an enclosed space or indoors\" . It does not go into an apartment, because Emaar's vertical-community rules prohibit \"barbecues, grills, or any cooking equipment of any kind\" on balconies and terraces whatever the fuel — so for an apartment iftar the naan, kulcha and tikka are baked in the partner's tandoor kitchen and finished on induction in front of your guests, and the breads still arrive hot and brushed. The whole-lamb roast and its carving station carry no flame on site at all, which is why they travel to every one of those venues unchanged. On a rooftop the gas route closes: the UAE Fire and Life Safety Code (Table 11.1) bars LPG cylinders from any roof or terrace and keeps them at ground level, so the saj and the spit go up in their electric form and the menu is unchanged — and above 90 m there is no LPG on the roof at all, which is why myCHEF checks the tower height before anything gas is quoted. A desert camp is the opposite case, where fuel is not the problem and enclosure is: charcoal, tandoor and spit all run in the open air and none of them may run inside a tent or an enclosed majlis, so the fire line sits outside it and the coals and ash leave with the catering team at the end of the night."
+   ],
+   "insert_after_block": "What Our Ramadan Catering Includes",
+   "position": "after the block titled 'What Our Ramadan Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How is the timing and service planned around iftar?",
+   "new_paragraphs": [
+    "The whole service is built backwards from Maghrib, because in Ramadan the clock, not the guest list, sets the pace. We confirm the prayer time for your date, plan the kitchen so hot dishes land as the adhan sounds, and lay the dates, water and soups first so nobody waits. The team arrives well ahead, sets the buffet or plated covers quietly, and keeps platters topped through the evening as guests eat in waves. For homes and villas we work around your kitchen and prayer space; for offices we plan around the working day and building access. After the meal we pack down, wipe the surfaces and leave the space as we found it, so you end the night in prayer instead of washing up. You approve the run-sheet the week of the event, so the timing matches your household or venue exactly."
+   ],
+   "insert_after_block": "What Our Ramadan Catering Includes",
+   "position": "after the block titled 'What Our Ramadan Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How do you hire ramadan catering in Dubai?",
+   "new_paragraphs": [
+    "You hire ramadan catering in three steps, and the first one costs nothing. Send your date, guest count, venue and any dietary needs, and you get an itemised proposal, usually within one business day. Approve the menu and timing, pay to confirm the date, and your private ramadan chef and team handle the rest through to cleanup. Searching for ramadan catering near me in Dubai tends to return generic buffet firms; we match a named chef to your brief instead, so you know exactly who is cooking. You keep one point of contact from quote to takedown, so nothing gets lost between a salesperson and the kitchen. You can adjust numbers or menu up to a few days before, and because iftar dates cluster fast, the surest way to hire ramadan catering for a peak night is to book two to four weeks ahead."
+   ],
+   "insert_after_block": "Catering Across Dubai",
+   "position": "after the block titled 'Catering Across Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning ramadan catering step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your ramadan catering proposal arrives.",
+    "Book as guidance, not as a rule: 72 hours for a standard ramadan catering package, 3–5 days once live stations or extra staff are involved, 5–7 days for a bespoke menu or a larger private iftar, and 7–14 days or more for a corporate function or a complex production.",
+    "Confirm what goes on the ramadan catering menu 7 days out, once the count settles.",
+    "Ask for special diets up front; ramadan catering plates are planned, not improvised inside 48 hours .",
+    "Check loading and access details; allow 2 hours of ramadan catering setup on site.",
+    "Plan on roughly 3 hours of ramadan catering service, and add 5% VAT to the total.",
+    "We recommend booking as early as possible. Lead times depend on guest numbers, menu complexity, staffing, equipment, location and partner availability. Even inside the normal lead time, a ramadan can occasionally be arranged - ask, and we will confirm what is realistic."
+   ],
+   "insert_after_block": "Ramadan Catering Questions",
+   "position": "after the block titled 'Ramadan Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which ramadan catering format suits your event?",
+   "new_paragraphs": [
+    "Format Service on site Guests it suits Indicative cost",
+    "Drop-off Food only, no staff, no setup From 10 guests, informal Most economical",
+    "Buffet Setup, replenishment and clear-down From 20 guests From AED 700 per person",
+    "Live stations Chef-attended; the station price includes the chef and setup 40 and above From AED 700 per person",
+    "Plated service Full service team, courses served to the table Seated groups Highest per head"
+   ],
+   "insert_after_block": "Ramadan Catering Questions",
+   "position": "after the block titled 'Ramadan Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Common questions",
+   "new_paragraphs": [
+    "How much does ramadan catering cost in Dubai?",
+    "It starts from around AED 700 per person and is quoted by guest count, menu and service level. Larger iftars move onto catering packages from AED 1,200, and you see an itemised quote first.",
+    "What is included in ramadan catering?",
+    "Menu design, a vetted chef cooking on site, service staff where needed, plating, setup and full cleanup. Rentals such as majlis seating or extra warmers are listed separately so the quote stays clear.",
+    "How far ahead should I book ramadan catering?",
+    "Book as early as you can. These are guidance figures, not a promise: allow 72 hours for a standard catering package, 3 to 5 days once live stations or extra staff are involved, 5 to 7 days for a bespoke menu or a larger private iftar, and 7 to 14 days or more for a corporate function. Lead times depend on guest numbers, menu complexity, staffing, equipment, location and partner availability, and short-notice requests are assessed individually.",
+    "Is the food halal?",
+    "Yes. All meat is halal-sourced and every dish is prepared to halal standards, which matters for an iftar or suhoor table. We flag allergens and dietary needs on the menu before the event.",
+    "Can you cater both iftar and suhoor?",
+    "Yes. We handle the iftar spread to break the fast at Maghrib and the lighter suhoor meal before Fajr, on the same booking or as separate services through the month.",
+    "Do you cater corporate ramadan events?",
+    "Yes. We deliver corporate ramadan catering for office iftars, majlis evenings and client gatherings across Dubai, scaling from a small team to several hundred guests.",
+    "Which areas of Dubai do you cover?",
+    "We cover homes, villas, offices and venues across Dubai, from Palm Jumeirah and Emirates Hills to Business Bay, Dubai Marina, Jumeirah and the Hills communities.",
+    "For ramadan catering, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements ."
+   ],
+   "insert_after_block": "Ramadan Catering Questions",
+   "position": "after the block titled 'Ramadan Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Ramadan catering across Dubai",
+   "new_paragraphs": [
+    "We bring ramadan catering to homes, villas, offices and event venues right across Dubai. Regular routes cover Palm Jumeirah, Emirates Hills, Downtown, Dubai Marina, Jumeirah, Business Bay and the Hills communities, plus majlis venues and community halls. A home iftar in an apartment works the same way as a villa: we plan for your access, kitchen and prayer space before the day. If your venue or building runs its own catering rules, we work within them and coordinate with your planner or management. Pair the meal with dedicated iftar catering and suhoor catering , or fold it into wider event catering or full catering in Dubai . Wherever you are in the city, the same vetted team and standards travel with the food."
+   ],
+   "insert_after_block": "Ramadan Catering Questions",
+   "position": "after the block titled 'Ramadan Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  },
+  {
+   "new_heading": "How much does ramadan catering cost in Dubai?",
+   "new_paragraphs": [
+    "Ramadan catering costs from AED 700 per person, and the final figure moves with your guest count, menu and how it is served. A relaxed drop-off or buffet iftar sits at the lower end; a plated, staffed feast with live stations runs higher, up to around AED 950 per person for premium menus. Ramadan catering packages start at AED 1,200 and step up through AED 2,400, 3,600, 4,500 and 5,500 as numbers and courses grow, which keeps a large majlis or corporate iftar predictable. There is no charge to see an itemised quote, and affordable and luxury menus are priced side by side so you choose the level, not us. For a full breakdown of ramadan catering prices and what drives them, see our Dubai catering price guide ."
+   ],
+   "insert_after_block": "Catering Across Dubai",
+   "position": "after the block titled 'Catering Across Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  }
+ ],
+ "faq": []
+}

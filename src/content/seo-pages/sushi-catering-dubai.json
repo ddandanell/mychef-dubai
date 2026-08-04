@@ -1,0 +1,264 @@
+{
+ "url": "/sushi-catering-dubai",
+ "keyword_strategy": {
+  "main_keyword": "sushi catering dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 18,
+  "subkeywords_carried": 13,
+  "coverage_percent": 72,
+  "subkeywords_carried_list": [
+   "how much sushi for 100 people?",
+   "what sushi is best for catering?",
+   "how much does catering cost in dubai?",
+   "sushi dubai marina",
+   "sushi dubai delivery",
+   "sushi restaurant dubai deira",
+   "sushi restaurant dubai hills",
+   "sushi restaurant dubai hills mall",
+   "sushi platter dubai",
+   "sushi restaurant dubai",
+   "sushi restaurant bur dubai",
+   "top sushi restaurant dubai",
+   "sushi restaurant dubai mall"
+  ],
+  "subkeywords_not_carried": [
+   "sumo sushi jumeirah",
+   "sumo sushi menu dubai",
+   "sumo sushi motor city",
+   "sumo sushi and bento dubai",
+   "sumo sushi & bento al qasba"
+  ],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Sushi Catering Dubai | Menus & Prices | myCHEF",
+  "meta_description": "Sushi catering in Dubai from AED 700pp — a private sushi chef preparing fresh nigiri, maki and sashimi for events, parties, weddings and corporate. Get an itemised quote.",
+  "h1": "Sushi Catering in Dubai — What It Costs and How to Book"
+ },
+ "opening_paragraph": [
+  "Sushi catering in Dubai costs from AED 90 per person boxed, or from AED 700 with a myCHEF private sushi chef on site. The chef prepares fresh nigiri, maki, sashimi and hand rolls to order, in front of your guests. Tell us your date, guest count and venue, and we typically reply within 15 minutes during business hours, with an itemised proposal to follow — not a vague quote."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "What Our Sushi Catering Includes",
+   "match_confidence": 1.0,
+   "new_heading": "What our sushi catering includes",
+   "new_paragraphs": [
+    "As a specialist sushi caterer in Dubai, every booking is built around your event instead of pulled off a fixed list. A vetted chef arrives with fish sourced that day, prepares each piece to order in front of your guests, plates it beautifully and clears everything away afterwards, so you get to host instead of work. Our sushi catering services cover the full spread — nigiri, maki, uramaki, sashimi and temaki hand rolls — alongside sides like edamame, gyoza, seaweed salad and miso soup. You choose a set menu or an open, grazing-style display, and the chef handles the rice, wasabi, ginger, soy and the presentation so the table looks as good as it tastes."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "Sushi for Every Occasion",
+  "Styled for the Moment",
+  "Let's Plan Your Sushi Experience",
+  "Explore myCHEF Dubai",
+  "Sushi Catering Questions",
+  "Catering Across Dubai",
+  "Sushi, Crafted for the Occasion",
+  "A Taste of Our Sushi Catering"
+ ],
+ "add_block": [
+  {
+   "new_heading": "Sushi catering for corporate events, parties and weddings",
+   "new_paragraphs": [
+    "The same team handles a quiet dinner for six and a three-hundred-guest reception. Corporate sushi catering in Dubai suits product launches, client dinners and office celebrations, where a manned counter becomes part of the entertainment and gives guests a reason to gather. Sushi party catering keeps a birthday or villa gathering grazing and mingling, and for a wedding a sushi and seafood display makes a striking, photogenic centrepiece. Our sushi catering for events is priced per person and scales cleanly with your numbers, whether you want passed canapes on arrival, a live station through the evening, or a full buffet spread as the main event."
+   ],
+   "insert_after_block": "What Our Sushi Catering Includes",
+   "position": "after the block titled 'What Our Sushi Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Our sushi menu and options",
+   "new_paragraphs": [
+    "The sushi menu in Dubai is fully bespoke. The chef adjusts the fish, the rice seasoning and the level of spice to suit your guests, and builds vegetarian maki, tempura, gyoza and teriyaki alongside the raw selection so nobody is left out. Popular choices include salmon and tuna nigiri, dragon and rainbow rolls, spicy tuna hand rolls, chirashi bowls, and an omakase-style tasting for smaller, premium dinners. If any guest has a shellfish allergy or prefers cooked food, tell us at briefing and the menu is planned around it in advance. Tell us the mood, relaxed and colourful or refined and minimal, and we design the sushi food catering to match."
+   ],
+   "insert_after_block": "What Our Sushi Catering Includes",
+   "position": "after the block titled 'What Our Sushi Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "The sushi catering menu, course by course",
+   "new_paragraphs": [
+    "Below is the real shape of a Japanese menu as it is served in Dubai, in the order it reaches the table. Nothing here is a placeholder. Pick three to five cold starters, one soup, four to eight hot appetisers, then the counter selection, and finish with two or three desserts. A sushi set normally runs eight to ten roll types plus two to four nigiri or sashimi items. Anything on this list can be swapped, and anything you have eaten elsewhere and loved can be added.",
+    "Cold starters and salads",
+    "Japanese goma salad, toasted sesame dressing.",
+    "Togarashi miso green bean salad.",
+    "Bean sprout and cucumber salad.",
+    "Beetroot and seaweed salad.",
+    "Quinoa edamame salad.",
+    "Asian slaw salad.",
+    "Three pepper Vietnamese salad with dehydrated nori and couscous.",
+    "Teriyaki glazed salad with asparagus.",
+    "Rare teriyaki beef, udon noodles, pickled Japanese vegetables, fried onion, bonito dressing.",
+    "Black somen noodle salad, spicy peanut sauce, panko chicken. Contains peanut.",
+    "Seabass ceviche.",
+    "Soup",
+    "Miso tofu soup.",
+    "Mushroom, ginger and spinach broth.",
+    "Lemon coriander and glass noodle broth.",
+    "Hot appetisers, tempura and skewers",
+    "Chicken karaage, ginger, sesame, sweet miso.",
+    "Shrimp tempura, veggie tempura, lobster tempura.",
+    "Gyoza, chicken or beef, from a steamer basket.",
+    "Steamed dumplings and a vegetarian dim sum platter.",
+    "Chicken teriyaki yakitori skewers over charcoal.",
+    "Japanese kushiyaki: beef, lamb, mushroom.",
+    "Dynamite shrimp and tofu dynamite.",
+    "Truffle edamame.",
+    "Tossed calamari with sesame soy, or bang bang calamari.",
+    "Sesame fired prawns.",
+    "Spring rolls, vegetable, cheese or chicken.",
+    "The counter: maki, uramaki, nigiri and sashimi",
+    "This is the part guests remember, so it is worth choosing properly instead of asking for a mixed platter.",
+    "Maki and signature rolls: California roll, super California, spicy tuna roll, spicy salmon, Alaska roll, rainbow roll, dragon roll, Neptune roll, samurai roll, rock n roll, crunchy crazy roll, sushi sandwich.",
+    "Vegetable maki: kappa maki, sweet potato roll, forbidden roll built on black sushi rice.",
+    "House rolls: Musashimaru sake, the Musa salmon roll; salmon avocado roll; tempura prawn roll; beef tataki roll.",
+    "Uramaki, rice on the outside: tuna, scallop, wagyu, duck.",
+    "Nigiri: sake nigiri, tuna nigiri, and nigiri cut from kingfish, seabass and prawn.",
+    "Take sashimi: tuna, whitefish, salmon, squid, steamed octopus and crabstick.",
+    "Salmon sashimi, sliced at the counter and served straight to the plate.",
+    "Warm Japanese dishes for a buffet",
+    "Katsu curry, chicken or vegetarian.",
+    "Miso glazed steamed fish.",
+    "Miso nasu shigiyaki: aubergine, sesame, sweet miso.",
+    "Stir fried bok choy, lotus root and edamame in yuzu ponzu.",
+    "Grilled sambal chicken.",
+    "Japanese donburi bowl, and a vegetable donburi bowl.",
+    "Salt and pepper tofu bokkeumbap.",
+    "Korean vegan bibimbap.",
+    "Soy ginger flat noodles, steamed jasmine rice, fried rice.",
+    "Sides, sauces and condiments",
+    "Edamame, stir fry veggies, tossed veggies, steamed rice.",
+    "Sweet chilli sauce, Thai chilli sauce, sesame soy, spicy mayo.",
+    "Wasabi, pickled ginger and soy, plated, not sachet.",
+    "Japanese desserts and drinks",
+    "Mochi and a matcha dessert.",
+    "Mango sticky rice.",
+    "Coconut milk mango chia pudding, or the same as a shooter.",
+    "Coconut sticky toffee.",
+    "Fresh fruit cuts.",
+    "Jasmine tea, black and green tea, lemongrass ice tea, tropical green fresh juice.",
+    "The same menu in six formats",
+    "Live counter. A sushi chef rolls maki, uramaki, nigiri and sashimi to order in front of your guests.",
+    "Buffet. A laid display with the counter selection, two or three warm dishes and the salads. Minimum 20 guests.",
+    "Grazing display. A sushi and sashimi table styled for photographs, refreshed through the event.",
+    "Canape tier. Maki and uro rolls, nigiri and sashimi served on a spoon, a glass, a small plate or a cucumber shell.",
+    "Bento boxes. Individually packed Japanese sets for boardroom and office lunches.",
+    "Boxed sushi delivery. Platters and sets for drop-off, sized in the Dubai market as good for 10 to 12 people. Minimum 10 guests.",
+    "Presentation hardware is quoted separately, not folded into the food price: sushi boat, bridge display, ceramic soy dishes, sharing plates and chopsticks.",
+    "Halal and alcohol-free by default",
+    "Every menu here is built halal, which changes real dishes instead of just deleting a line. There is no pork anywhere: shui mai is made with chicken and char siu bao arrives as BBQ chicken, which is the Dubai-correct version of two dishes you may know differently. Mirin, cooking sake and rice-wine vinegar are replaced with alcohol-free substitutes, so the seasoning is adjusted at the source instead of being left out.",
+    "Dietary notes and how much to order",
+    "Satay, spicy peanut sauce and some creamy dressings carry nuts, so they are flagged on the list above, not left for you to discover. Gluten-free, nut-conscious and other dietary menu options may be available on request, subject to confirmation by the assigned culinary partner. Partner kitchens may handle allergens, and cross-contact cannot be completely excluded unless dedicated controls have been specifically confirmed for the booking. Guests with allergies must provide full details before confirming their event.",
+    "For a seated event the counter selection carries the first hour and the warm dishes carry the rest. Your proposal states the piece count per guest in writing, so nobody is guessing on the night."
+   ],
+   "insert_after_block": "What Our Sushi Catering Includes",
+   "position": "after the block titled 'What Our Sushi Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How much sushi for 100 people?",
+   "new_paragraphs": [
+    "Plan on eight to ten pieces a head when sushi is the meal, and four to six when it sits alongside hot dishes or canapes. For 100 people that is roughly 800 to 1,000 pieces as a standing dinner, or 400 to 600 as one part of a wider spread. Boxed sushi platters in Dubai are sized for 10 to 12 people, which is four to six pieces each, so a reception for 100 is usually built from nine or ten of those sets plus hot appetisers and one warm dish.",
+    "Two things move the count. Guests eat more when the sushi arrives early with nothing else on the table. They also eat more at a live counter, because each piece is handed over fresh and people keep coming back. Rice-heavy rolls fill a room faster than sashimi, so a menu weighted to maki lands nearer the lower number and a sashimi-led one nearer the higher."
+   ],
+   "insert_after_block": "What Our Sushi Catering Includes",
+   "position": "after the block titled 'What Our Sushi Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What sushi is best for catering?",
+   "new_paragraphs": [
+    "Cooked and cured items are the workhorses of a sushi platter: California rolls, tempura prawn rolls, teriyaki salmon maki, inari, kappa and vegetable maki, and anything built on cooked crab or chicken. They hold their texture across a normal service window, they photograph well an hour in, and they suit the guests at every event who do not eat raw fish.",
+    "Raw fish is a different job. Sashimi and nigiri are at their peak in the first minutes after they are cut, so they belong at a live counter, or on a display the chef refreshes rather than lays once. Avocado darkens, nori softens against rice, and dressed rolls lose their edge, which is why a good catering menu puts the raw selection where a chef is standing and the cooked selection where the buffet is. Holding times and cold-chain control are managed by the assigned culinary partner under Dubai Municipality food-safety requirements, and the plan for them is set before the event, not on the day."
+   ],
+   "insert_after_block": "What Our Sushi Catering Includes",
+   "position": "after the block titled 'What Our Sushi Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Live sushi stations and presentation",
+   "new_paragraphs": [
+    "A live sushi station is the difference between food and an experience. A chef works the counter, slicing and rolling to order while guests watch, which draws people together and keeps the energy up at a party or a corporate event. For a more formal dinner the chef plates a set progression, course by course, with the same care a good restaurant gives. Presentation matters as much as the fish: platters are arranged with colour and height, garnished with microherbs and citrus, and the service is timed so each piece reaches guests at its best instead of sitting out. Whether you want a theatrical manned counter or an elegant, minimal spread, the styling is built around your venue, your theme and the impression you want to make on the day."
+   ],
+   "insert_after_block": "What Our Sushi Catering Includes",
+   "position": "after the block titled 'What Our Sushi Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How to hire sushi catering, and how it works",
+   "new_paragraphs": [
+    "To hire sushi catering, share your date, guest count and venue; we match a vetted private sushi chef, send a menu with an itemised price, and confirm the details with you. On the day, the chef sets up, prepares everything fresh on site, serves through your event and cleans up afterwards. Searching for sushi catering near me for a last-minute gathering? Send the date over as early as you can, especially in peak season from October to April, and we will do our best to match a chef and hold it for you."
+   ],
+   "insert_after_block": "Catering Across Dubai",
+   "position": "after the block titled 'Catering Across Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Why choose myCHEF for sushi",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of the world's more demanding kitchens. MyCHEF designs and manages each experience; appropriately licensed culinary partners perform the regulated food services. We are currently implementing a 12-stage partner verification framework, and myCHEF verifies the relevant documentation during onboarding and as part of its continuing partner-review process. Sushi is only as good as its fish and its handling, so the assigned partner keeps the cold chain tight, prepares everything on site instead of letting it sit, and works to Dubai Municipality food-safety requirements . We have delivered sushi across villa dinners, yacht parties and corporate galas in Dubai."
+   ],
+   "insert_after_block": "Catering Across Dubai",
+   "position": "after the block titled 'Catering Across Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning sushi catering step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your sushi catering proposal arrives.",
+    "Book a standard private-chef sushi experience about 48 hours ahead; allow 3 to 5 days for a live sushi counter, and 5 to 7 days for a bespoke menu or a larger private event.",
+    "Allow 7 to 14 days or more for a wedding, a corporate function or a complex production.",
+    "Confirm the menu for sushi catering once numbers stop moving, and ask for dietary covers at the briefing stage, not at the last minute.",
+    "Check parking and lift access, and tell us the kitchen or counter space available at the venue.",
+    "Plan on roughly 3 hours of sushi catering service, and add 5% VAT to the total.",
+    "We recommend booking as early as possible. Lead times depend on guest numbers, menu complexity, staffing, equipment, location and partner availability. Even inside the normal lead time, a sushi can occasionally be arranged - ask, and we will confirm what is realistic."
+   ],
+   "insert_after_block": "Sushi, Crafted for the Occasion",
+   "position": "after the block titled 'Sushi, Crafted for the Occasion'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which sushi catering format suits your event?",
+   "new_paragraphs": [
+    "Format What it gives you Minimum From",
+    "Boxed sushi delivery Platters and bento delivered ready to serve, no service team 10 guests AED 90 per person",
+    "Buffet A laid sushi display plus warm dishes, maintained through the event 20 guests AED 120 per person",
+    "Live counter and canapes A sushi chef rolling to order in front of your guests 20 guests AED 150 per person",
+    "Private chef, plated Every course prepared and served on site, course by course No headcount minimum AED 700 per person",
+    "Minimum order value is AED 900. The jump from a boxed platter to a staffed counter is what you are paying for: at AED 90 the food arrives ready, and at AED 700 a chef prepares each piece in front of your guests and serves it. Sushi catering is available for delivery across Dubai, including Deira, Bur Dubai, the Marina, Dubai Hills and Jumeirah."
+   ],
+   "insert_after_block": "Sushi, Crafted for the Occasion",
+   "position": "after the block titled 'Sushi, Crafted for the Occasion'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Sushi catering across Dubai",
+   "new_paragraphs": [
+    "We bring sushi catering to villas, apartments, offices, yachts and venues right across the city — the Palm, the Marina, Downtown, DIFC, Emirates Hills and beyond. Tell us where you are and we confirm access, kitchen space and timing. Book early for a specific date: experienced sushi chefs and the freshest supply get reserved quickly around peak weekends and the festive season."
+   ],
+   "insert_after_block": "Sushi Catering Questions",
+   "position": "after the block titled 'Sushi Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  },
+  {
+   "new_heading": "How much does sushi catering cost in Dubai?",
+   "new_paragraphs": [
+    "Sushi catering in Dubai starts from around AED 700 per person and rises with the fish selection, the number of pieces and how much live service you want. Premium cuts, a dedicated chef and an omakase counter sit at the top of the range; a shared platter spread is the more affordable sushi catering option. We publish clear sushi catering prices so you can budget with confidence, and we send an itemised proposal instead of hiding everything behind a quote. Ask about sushi catering packages that bundle a set menu with service for easy planning, or luxury sushi catering with a dedicated chef and an omakase tasting for a flagship event."
+   ],
+   "insert_after_block": "Catering Across Dubai",
+   "position": "after the block titled 'Catering Across Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  }
+ ],
+ "faq": []
+}

@@ -1,0 +1,263 @@
+{
+ "url": "/blog/weekly-meal-prep-vs-full-time-chef-dubai",
+ "keyword_strategy": {
+  "main_keyword": "weekly meal prep",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 20,
+  "subkeywords_carried": 17,
+  "coverage_percent": 85,
+  "subkeywords_carried_list": [
+   "is weekly meal prep healthy",
+   "can meal prep last a week",
+   "what is a good weekly meal prep?",
+   "what is a healthy 7 day meal plan?",
+   "is it okay to meal prep for a week?",
+   "what is the 3 3 3 rule for meal prep?",
+   "why meal prep is bad",
+   "weekly meal prep schedule",
+   "week meal prep on a budget",
+   "weekly meal prep containers",
+   "meal prep ideas for weight loss",
+   "7-day meal prep for weight loss",
+   "weekly meal prep for weight loss",
+   "lunch meal prep ideas high-protein",
+   "healthy meal prep ideas for the week",
+   "weekly meal prep app",
+   "weekly meal prep com"
+  ],
+  "subkeywords_not_carried": [
+   "weekly meal prep template",
+   "healthy meal prep recipes",
+   "simple meal prep recipes for the week"
+  ],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Weekly Meal Prep vs a Full-Time Chef in Dubai | myCHEF Dubai",
+  "meta_description": "Choose weekly meal prep (from AED 1,898/week) for fresh, tailored meals cooked in batches on set days; choose a full-time chef for daily cooked-to-ord",
+  "h1": "Weekly Meal Prep vs a Full-Time Chef in Dubai — Real Prices and Timings"
+ },
+ "opening_paragraph": [
+  "Here is the short answer. myCHEF weekly meal prep starts from AED 1,898 per week and gives you fresh, tailored meals cooked in batches on set days by a vetted chef. A full-time chef, by contrast, is a dedicated household hire who plans, shops and cooks fresh every day. Meal prep fits most families and busy professionals; a full-time chef fits high-frequency, fully bespoke households."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "When a Full-Time Private Chef Makes Sense",
+   "match_confidence": 0.57,
+   "new_heading": "What employing a full-time chef commits you to",
+   "new_paragraphs": [
+    "This is the part the cost comparison usually misses. A full-time chef is an employee, and UAE labour rules apply. Per the UAE government portal , normal private-sector hours are 8 hours a day or 48 hours a week under Article 17 of Federal Decree Law No. 33 of 2021, and Ramadan hours reduce by 2 daily. Overtime is capped at 2 hours a day and paid at base plus 25% , rising to 50% for work between 10pm and 4am. Anyone working five consecutive hours is owed at least 1 hour of breaks, which do not count as working time, and work on a scheduled rest day means a substitute day off or pay plus 50% .",
+    "Read that against a dinner-party schedule and the arithmetic changes. Evening service, weekend events and late clear-downs are exactly the hours that attract premiums, so a chef employed for family meals is not automatically available for your Friday night party at no extra cost. Weekly meal prep sidesteps the whole question: you buy delivered output instead of employed hours, with no overtime exposure and no rest-day calculation."
+   ]
+  },
+  {
+   "block_on_your_page": "Frequently Asked Questions",
+   "match_confidence": 1.0,
+   "new_heading": "Frequently asked questions",
+   "new_paragraphs": [
+    "Is weekly meal prep cheaper than a full-time chef in Dubai?",
+    "Yes — weekly meal prep from AED 1,898 per week is far cheaper than a full-time chef, which costs a full monthly salary plus overheads. Meal prep wins unless you need daily cooked-to-order meals.",
+    "How much does weekly meal prep cost in Dubai?",
+    "Weekly meal prep costs from AED 1,898 per week, with a larger plan from AED 2,698 per week. The final price depends on people, meals per day and ingredient level; you approve it before cooking starts.",
+    "What is included in a weekly meal prep service?",
+    "A weekly meal prep service includes menu planning, grocery sourcing, in-home batch cooking on set days, and labelled, dated containers ready to reheat. Portions are weighed to your calorie or macro goals.",
+    "Can I find weekly meal prep near me across Dubai?",
+    "Yes — myCHEF provides weekly meal prep near you across all of Dubai, including Palm Jumeirah, Marina, Downtown, Jumeirah and Arabian Ranches. A vetted chef cooks in your own kitchen on your chosen days.",
+    "Is the meal prep menu customisable and halal?",
+    "The meal prep menu is fully customisable — keto, vegan, vegetarian, gluten-free and high-protein plans are all supported, and halal sourcing is standard. You approve every menu before each cooking day.",
+    "When is a full-time chef worth it instead of meal prep?",
+    "A full-time chef is worth it when you need daily, varied, cooked-to-order meals for a large household that entertains often. For most families and professionals, weekly meal prep is the better-value choice.",
+    "How do I get an exact quote?",
+    "Share your household size, meals per day and location with myCHEF and you will get an itemised proposal, usually within one business day.",
+    "Is it safe to meal prep a full seven days?",
+    "Not entirely chilled. Chilled food does not last a full week, so a seven-day plan means freezing the back half on the cooking day and thawing it as you go. Ask your chef what each dish holds for.",
+    "Is weekly meal prep healthy?",
+    "It is as healthy as the food in it. The controllable risks are storage and reheating rather than nutrition — reheat once until steaming, and never re-chill a warmed portion."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "At a Glance",
+  "Cost Comparison at a Glance",
+  "Sources & Verification",
+  "Vetting, Insurance, and Peace of Mind",
+  "Flexibility and Lifestyle Fit",
+  "The Verdict",
+  "Not Sure Which Option Is Right for You?",
+  "Explore myCHEF Dubai",
+  "How Weekly Meal Prep Works",
+  "More from the myCHEF Dubai Blog"
+ ],
+ "add_block": [
+  {
+   "new_heading": "What does weekly meal prep in Dubai include?",
+   "new_paragraphs": [
+    "Weekly meal prep includes a professional chef cooking and portioning several days of meals in one or two visits, then leaving them labelled and ready to reheat. You get a menu built to your goals, groceries sourced, food safely chilled, and your kitchen left clean.",
+    "Most plans cover breakfasts, lunches and dinners across five to seven days, with snacks on request. Portions are weighed for calorie or macro targets, allergens are separated, and containers are dated so nothing is guessed. Because the chef batch-cooks, these meal-prep services cost far less per plate than daily cooking. It is the practical middle ground between takeaway fatigue and hiring a household chef — the fresh, home-cooked result without a full-time commitment."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'At a Glance'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Weekly meal prep vs a full-time chef for families, fitness and corporate life",
+   "new_paragraphs": [
+    "For most families the honest answer is weekly meal prep, because it solves the real problem — no time to cook — without the cost of a salaried hire. A full-time chef earns its place only when cooking demand is daily and varied.",
+    "Busy parents use meal prep to keep the fridge stocked with balanced dinners and school lunches. Fitness and wellness clients lean on it for consistent, weighed macros through a training block. Executives and dual-income couples use it to reclaim weeknights. A full-time private chef, by contrast, suits large households that entertain often, want every meal cooked to order, and need someone on hand for last-minute guests. Some corporate clients even blend the two — weekday meal prep for the household, a private chef booked for the occasional dinner."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'At a Glance'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Weekly meal prep menu and options",
+   "new_paragraphs": [
+    "The weekly meal prep menu is built around you, not a fixed list — you pick cuisines, proteins and calorie targets, and the chef designs a rotating plan so the week never feels repetitive. Popular meal-prep ideas span Mediterranean grain bowls, lean grilled proteins, Arabic and Levantine mains, Asian stir-fries and light Italian plates.",
+    "Dietary paths are standard, not extra: high-protein, keto, vegan, vegetarian, gluten-free, dairy-free and low-sugar plans are all supported, and halal sourcing is the default across Dubai. You approve the menu before each cooking day, swap anything you dislike, and adjust portions as goals change. A short tasting or trial week is the quickest way to lock in the dishes you want on repeat before committing to a longer plan."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'At a Glance'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Meal prep logistics: delivery, storage and set cooking days",
+   "new_paragraphs": [
+    "Logistics are simple: you agree one or two fixed cooking days, the chef arrives with groceries, cooks in your kitchen, and leaves labelled containers you refrigerate or freeze. Searching for meal prep near me usually surfaces drop-off kitchens, but in-home prep means fresher food and no reheated-in-transit quality loss.",
+    "Use a quick planning checklist before you start: confirm how many people and meals per day, list allergies and dislikes, clear fridge and freezer space, and note your preferred cooking window. Storage and reheating guidance is provided according to the selected dishes and the licensed culinary partner's food-safety procedures. Your chef handles food-safe cooling and storage so the week runs itself, and you reheat when hungry."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'At a Glance'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How much does weekly meal prep cost in Dubai?",
+   "new_paragraphs": [
+    "Weekly meal prep in Dubai starts from AED 1,898 per week, with a larger plan from AED 2,698 per week for bigger households or more meals per day. Prices depend on people, meals per day and ingredient level — premium proteins and seafood sit at the top of the range.",
+    "Compared with a full-time private chef, the cost gap is wide: a full-time hire is a full monthly salary plus visa, accommodation and food overheads, so it only pays off at genuinely daily demand. Meal prep is a predictable weekly figure with no employment commitments. If you want to sample the standard first, a chef tasting menu is available from AED 1,400. Every plan is quoted transparently, so the weekly prices you approve are the prices you pay."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'At a Glance'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How to choose between weekly meal prep and a full-time chef, explained",
+   "new_paragraphs": [
+    "Choosing is one honest question: how often do you need cooked-to-order meals? If the answer is a few fresh dinners and stocked lunches, weekly meal prep wins; if it is daily, varied, on-demand cooking for a full household, a full-time chef earns its keep.",
+    "Use this quick guide. Count your real weekly cooking demand, set a monthly budget, and be honest about how much you entertain. A few practical tips: start with a meal-prep trial week before any bigger commitment, keep menus flexible for the first month, and revisit the decision each season as routines change. Most Dubai households land on weekly meal prep and only move to a full-time chef when entertaining becomes near-constant. Booking either takes little effort — you can start at weekly meal prep or a full-time private chef ."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'At a Glance'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Plan it with myCHEF",
+   "new_paragraphs": [
+    "Ready to book or want an exact quote? Meal Prep · Full-Time Chef · Fitness . Or start at private chef or catering in Dubai ."
+   ],
+   "insert_after_block": "How Weekly Meal Prep Works",
+   "position": "after the block titled 'How Weekly Meal Prep Works'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning weekly meal prep step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your weekly meal prep proposal arrives.",
+    "Book weekly meal prep about 2 weeks ahead off-peak, and 6 weeks ahead between November and March.",
+    "Confirm your weekly meal prep menu about 7 days out, when the guest list is firm.",
+    "Ask early about allergies and dietary plates — not in the last 48 hours before weekly meal prep.",
+    "Check the access route before weekly meal prep day — setup starts roughly 2 hours ahead.",
+    "Plan on roughly 3 hours of weekly meal prep service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": "How Weekly Meal Prep Works",
+   "position": "after the block titled 'How Weekly Meal Prep Works'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Is it okay to meal prep for a week?",
+   "new_paragraphs": [
+    "Partly, and the limit is storage rather than cooking. Chilled storage is the limit, not the cooking. A genuine 7 day meal plan means part of the week chilled and the remainder frozen on the cooking day, then thawed as the week goes on. Anyone offering seven days of fridge-fresh food is either cooking twice in the week or ignoring the chill rule.",
+    "That is also the honest answer to whether weekly meal prep is healthy: it is exactly as healthy as what goes into it, and the real risk is storage rather than nutrition. Reheat a portion once, until it is steaming throughout, and do not re-chill something you have already warmed. Those two habits matter more to a week of batch-cooked food than any ingredient choice.",
+    "Why meal prep is bad, in the cases where it is",
+    "The case against is worth stating plainly, because it is real. Texture degrades unevenly — rice and roasted vegetables hold, fried food and dressed leaves do not. Variety drops, and by day four most people stop wanting the thing they chose enthusiastically on Sunday. And a plan built for a good week tends to collapse in a bad one, which is when takeaway wins. A full-time chef solves that by cooking to the day you are actually having; meal prep solves cost and predictability instead.",
+    "Good weekly meal prep ideas, and prep aimed at weight loss",
+    "Good weekly meal prep ideas share a structure rather than a recipe: one protein, two vegetables, one starch, and sauces kept in separate containers so a portion can be changed without recooking it. Healthy meal prep ideas for the week follow from the method — grilled and steamed items reheat far better than fried ones, and they survive four days without turning to paste.",
+    "Meal prep ideas for weight loss use the same structure with portions weighed rather than judged by eye, which is the variable most people misjudge at home. A 7 day meal prep for weight loss, or any weekly meal prep for weight loss, works on portion control and consistency, not on a special ingredient. Neither a meal prep service nor myCHEF sets those targets: that is a matter for your coach or a dietitian, and a caterer promising a result is selling something it cannot evidence."
+   ],
+   "insert_after_block": "When a Full-Time Private Chef Makes Sense",
+   "position": "after the block titled 'When a Full-Time Private Chef Makes Sense'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Sources",
+   "new_paragraphs": [
+    "Food safety and business licensing in Dubai are governed by official authorities. According to Dubai Municipality , food businesses must meet defined hygiene and food-safety standards; catering companies operate under Government of Dubai and UAE Ministry of Climate Change & Environment food-handling rules. Confirm current requirements with these official sources. It also draws on the UAE government portal (UAE private-sector working hours, overtime and rest-day rules under Federal Decree Law No. 33 of 2021).",
+    "Request an itemised proposal or start on WhatsApp ."
+   ],
+   "insert_after_block": "Frequently Asked Questions",
+   "position": "after the block titled 'Frequently Asked Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  }
+ ],
+ "faq": [
+  {
+   "question": "Is weekly meal prep cheaper than a full-time chef in Dubai?",
+   "answer": [
+    "Yes — weekly meal prep from AED 1,898 per week is far cheaper than a full-time chef, which costs a full monthly salary plus overheads. Meal prep wins unless you need daily cooked-to-order meals."
+   ]
+  },
+  {
+   "question": "How much does weekly meal prep cost in Dubai?",
+   "answer": [
+    "Weekly meal prep costs from AED 1,898 per week, with a larger plan from AED 2,698 per week. The final price depends on people, meals per day and ingredient level; you approve it before cooking starts."
+   ]
+  },
+  {
+   "question": "What is included in a weekly meal prep service?",
+   "answer": [
+    "A weekly meal prep service includes menu planning, grocery sourcing, in-home batch cooking on set days, and labelled, dated containers ready to reheat. Portions are weighed to your calorie or macro goals."
+   ]
+  },
+  {
+   "question": "Can I find weekly meal prep near me across Dubai?",
+   "answer": [
+    "Yes — myCHEF provides weekly meal prep near you across all of Dubai, including Palm Jumeirah, Marina, Downtown, Jumeirah and Arabian Ranches. A vetted chef cooks in your own kitchen on your chosen days."
+   ]
+  },
+  {
+   "question": "Is the meal prep menu customisable and halal?",
+   "answer": [
+    "The meal prep menu is fully customisable — keto, vegan, vegetarian, gluten-free and high-protein plans are all supported, and halal sourcing is standard. You approve every menu before each cooking day."
+   ]
+  },
+  {
+   "question": "When is a full-time chef worth it instead of meal prep?",
+   "answer": [
+    "A full-time chef is worth it when you need daily, varied, cooked-to-order meals for a large household that entertains often. For most families and professionals, weekly meal prep is the better-value choice."
+   ]
+  },
+  {
+   "question": "How do I get an exact quote?",
+   "answer": [
+    "Share your household size, meals per day and location with myCHEF and you will get an itemised proposal, usually within one business day."
+   ]
+  },
+  {
+   "question": "Is it safe to meal prep a full seven days?",
+   "answer": [
+    "Not entirely chilled. Chilled food does not last a full week, so a seven-day plan means freezing the back half on the cooking day and thawing it as you go. Ask your chef what each dish holds for."
+   ]
+  },
+  {
+   "question": "Is weekly meal prep healthy?",
+   "answer": [
+    "It is as healthy as the food in it. The controllable risks are storage and reheating rather than nutrition — reheat once until steaming, and never re-chill a warmed portion."
+   ]
+  }
+ ]
+}

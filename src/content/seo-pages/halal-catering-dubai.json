@@ -1,0 +1,248 @@
+{
+ "url": "/halal-catering-dubai",
+ "keyword_strategy": {
+  "main_keyword": "halal catering dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 18,
+  "subkeywords_carried": 17,
+  "coverage_percent": 94,
+  "subkeywords_carried_list": [
+   "is dubai halal",
+   "is kfc halal in dubai",
+   "is having a cat halal",
+   "catering services dubai",
+   "halal food dubai airport",
+   "best halal catering dubai",
+   "halal catering dubai price",
+   "are all restaurants in dubai halal",
+   "halal food dubai",
+   "is kfc halal in uae",
+   "halal food dubai mall",
+   "best halal food dubai",
+   "halal restaurant dubai",
+   "halal certification cost",
+   "is all food in uae halal",
+   "is all food in dubai halal",
+   "is everything in uae halal"
+  ],
+  "subkeywords_not_carried": [
+   "is cats halal"
+  ],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Halal Catering Dubai | Menus & Prices | myCHEF",
+  "meta_description": "Halal catering in Dubai: buffets from AED 120 per head, working lunches from AED 90, a chef cooking and serving on site from AED 700. Real prices, plus straight answers on what is and is not halal here.",
+  "h1": "Halal Catering in Dubai — Prices, Formats and What You Get"
+ },
+ "opening_paragraph": [
+  "Halal catering in Dubai starts from AED 90 per head for a working lunch and from AED 120 for an event buffet, rising to AED 700–950 per person when a chef cooks and serves on site. Every dish is prepared to halal standards — halal-certified meat and poultry, no pork and no cooking alcohol — and a myCHEF vetted chef designs the menu, cooks, serves and clears up. Share your date, guest numbers and venue, we typically reply within 15 minutes during business hours, with an itemised proposal to follow you can read line by line."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "What Our Halal Catering Includes",
+   "match_confidence": 0.79,
+   "new_heading": "What does halal catering in Dubai include?",
+   "new_paragraphs": [
+    "Halal catering covers the whole event, not just the food: menu design, a vetted chef cooking on site, front-of-house service staff, plating, and full setup and cleanup, with one team running it end to end. What makes it halal is the discipline behind every dish — halal-certified meat and poultry, strictly no pork, and no alcohol used in cooking or sauces. Halal catering services in Dubai from myCHEF also cover the details that matter to observant guests: separate handling for different dishes, labelled stations, and a kitchen run to Dubai Municipality food-safety requirements . Whether you want a relaxed home dinner or a formal reception, the halal food catering in Dubai is built to your brief, not pulled off a fixed list, so the menu, the pace and the presentation all fit your occasion."
+   ]
+  },
+  {
+   "block_on_your_page": "A Taste of Our Halal Catering",
+   "match_confidence": 0.69,
+   "new_heading": "What is on a halal catering menu?",
+   "new_paragraphs": [
+    "A halal menu in Dubai spans far more than a single cuisine. We build around halal-certified meat and poultry and layer in the dishes your guests love: Arabic mezze, charcoal grills, shawarma and kebabs; Indian biryani, curries and tandoor; Mediterranean spreads; and international plates from pasta to seafood. Every menu is prepared with no pork and no cooking alcohol, so the whole spread stays halal without compromising on range or flavour. You choose the service style — plated courses, a generous buffet, live cooking stations, or grazing tables — and we match the format to your venue and guest count. Menus flex for the season too, from a Ramadan iftar spread to a summer poolside grill. Browse Arabic and Indian options, all our cuisines , or sample menus to shape your own.",
+    "The two fired setups on that list have a location answer, and it is worth having before you pick the room. Charcoal grills and the tandoor go to villas, outdoors on your own plot at ground level, because Dubai Municipality's barbecue guidance says plainly not to light coal in an enclosed space or indoors. They do not go into an apartment: Emaar's vertical-community rules bar barbecues, grills and cooking equipment of any kind from balconies and terraces, whatever the fuel. They do not go on a yacht either, where no additional gas cylinder may be brought aboard. On a rooftop the charcoal grill and the tandoor can run; the gas versions cannot. The UAE Fire and Life Safety Code (Table 11.1) keeps LPG cylinders off any roof or terrace — they belong at ground level — and above 90 m no LPG reaches the roof at all, so the tower height gets checked before gas is ever quoted. Charcoal goes up in its place, with extraction, and a grease-rated hood and suppression under any covered section. In the desert the blocker is the enclosure rather than the fuel: an open mangal and a shawarma spit are straightforwardly fine on open sand, but no solid fuel goes inside a tent or an enclosed majlis, so the fire line stays outside it and the ash and coals leave with the caterer at the end of the night. Where a tandoor or a mangal cannot travel, the naan, the kebabs and the tikka are cooked in the licensed partner kitchen and finished live on an induction plancha or carved at a station in front of your guests — the halal sourcing and the menu are unchanged, only the fire moves."
+   ]
+  },
+  {
+   "block_on_your_page": "Halal Catering Questions",
+   "match_confidence": 0.79,
+   "new_heading": "Halal catering FAQs",
+   "new_paragraphs": [
+    "How much does halal catering cost in Dubai?",
+    "It depends which product you are buying. The food format on its own starts from AED 90 per head for a working office lunch, from AED 120 for a standard event buffet, and from AED 150 for a premium buffet, BBQ or live stations. A chef cooking and serving on site is AED 700 to AED 950 per person. Add 5% VAT to any total.",
+    "Is all food in Dubai and the UAE halal?",
+    "Almost all of it, but not all of it. Halal is the default across supermarkets, food courts and standalone restaurants. Alcohol and pork are legally sold to non-Muslims in licensed places, such as hotel restaurants and bars and separately signed supermarket sections, so the honest answer to whether everything in the UAE is halal is no. The exceptions are licensed and signposted.",
+    "Are all restaurants in Dubai halal?",
+    "Most are. The large majority of standalone restaurants, mall food courts and delivery kitchens serve halal meat only. The usual exception is a venue holding a liquor licence, most often inside a hotel, where alcohol is served and a small number of menus include pork, normally flagged on the menu itself. Any halal restaurant in Dubai is used to being asked, and many display their certificate.",
+    "Is the food at Dubai airport and Dubai Mall halal?",
+    "Both follow the same pattern as the rest of the city. Halal food at Dubai airport is the norm across the terminals' restaurants and counters, with alcohol served in the licensed bars and lounges. Inside Dubai Mall the food courts and the great majority of restaurants are halal, and the licensed venues are the ones attached to hotels or holding their own licence.",
+    "Is KFC halal in Dubai and the UAE?",
+    "The international fast-food chains operating here, KFC among the most asked about, publish halal statements for their UAE outlets and display a certificate in branch. We are a caterer and not a certifying body, so we will not vouch for another company's supply chain. Ask to see the current certificate instead of trusting a logo, which is the same test we apply to the kitchens we work with.",
+    "Is Emirates halal?",
+    "Emirates says the meat served on its flights is halal and that pork is not served, while alcohol is available on board. That is the same split you find on the ground in Dubai: halal meat as standard, alcohol as the licensed exception. Airline catering is outside what we do, so treat the airline's own statement as the source.",
+    "How much does halal certification cost?",
+    "If you are booking an event it costs you nothing extra, because certification sits with the suppliers and the kitchen and is already inside the per-head price you are quoted. If you are a food business seeking certification, the fee is set by the certification body and scales with the size of the operation, the number of product lines and how many site audits the scope needs. We do not publish a figure for that, because we do not charge it and would only be guessing.",
+    "Is everything on your menu genuinely halal?",
+    "Yes. Every dish is prepared halal: halal-certified meat and poultry, no pork and no cooking alcohol, across Arabic, Indian, Mediterranean and international menus. Sourcing and certification are confirmed with the business, and the Business Verification List records what has been checked.",
+    "Can you cater to strict dietary or allergy needs?",
+    "Yes. Tell us the specifics when you enquire. We routinely build halal menus that are also gluten-free, dairy-free or nut-free, and label allergens at each station on request.",
+    "What is the minimum number of guests?",
+    "There is one, and here it is in numbers. The volume formats — delivery, working lunch and drop-off — start at 10 guests, and a buffet starts at 20, because below that a spread stops working as a buffet. Either way the minimum order value is AED 900. The private chef is the exception and carries no minimum headcount at all: it is priced per head, so a dinner for two is a real booking, and the rate moves with the numbers — around two guests it sits at AED 950 to AED 1,300 per person, easing to AED 700 to AED 950 at about ten and from AED 600 above twenty. Most caterers in this market publish none of this and leave you to ask.",
+    "Do you handle Ramadan iftar and Eid gatherings?",
+    "Yes. Iftar, suhoor and Eid are among our busiest bookings, and chef Layla Hassan is especially sought after for them. Book early, as Ramadan dates fill quickly.",
+    "What is included in the price?",
+    "Menu planning, the chef, the service staff, the plating and the cleanup, with one team covering all of it. Drop-off formats are the exception: those are the food only, delivered ready to serve, with no staff on site.",
+    "Do you offer corporate and party halal catering?",
+    "Yes. Corporate halal catering covers offices, conferences and galas; halal party catering covers birthdays, engagements and family celebrations, at home or at a venue.",
+    "How do I book?",
+    "Share your date, guest count and venue. We match a vetted chef and send an itemised proposal, usually within one business day, and you can adjust the menu before confirming.",
+    "Which areas of Dubai do you cover?",
+    "All of them: villas, apartments, offices, yachts and beach venues across the city. If you searched for halal catering near me, myCHEF comes to your address.",
+    "For halal catering, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements ."
+   ]
+  },
+  {
+   "block_on_your_page": "Catering Across Dubai",
+   "match_confidence": 0.88,
+   "new_heading": "Halal catering across Dubai",
+   "new_paragraphs": [
+    "We arrange halal catering across the whole of Dubai, matched to your occasion, guest count and venue. That includes homes and villas in Jumeirah, Palm Jumeirah, Emirates Hills, Arabian Ranches and Dubai Hills; apartments in Downtown, Business Bay, Dubai Marina and JBR; and offices and event spaces in DIFC and across the city — plus yachts and beach venues. Luxury halal catering in Dubai for a high-end reception and a relaxed family lunch are booked the same way; only the menu, staffing and scale change. Wherever you are in the city, halal catering for events comes to you, so the answer to \"halal catering near me\" is yes, at your address. Planning a full event? Start at catering in Dubai ."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "Catering Every Guest Can Enjoy",
+  "Halal for Every Occasion",
+  "Designed for the Moment",
+  "Let's Plan Your Halal Menu",
+  "Explore myCHEF Dubai"
+ ],
+ "add_block": [
+  {
+   "new_heading": "Is food in Dubai halal? The straight answer",
+   "new_paragraphs": [
+    "People ask whether Dubai is halal, and whether everything in the UAE is halal, more often than they ask anything about catering — so it is worth answering properly before we sell you anything. Almost all of it is, but not all of it, and the line between the two sits where you would expect. The UAE is a Muslim country and halal is the default: supermarkets, food courts, delivery kitchens and the ordinary restaurants people eat in day to day. What stops the answer being a flat yes is that alcohol and pork are legally available to non-Muslims in licensed places — hotel bars and restaurants holding a liquor licence, and separately signed pork sections in some supermarkets. So no, not all food in Dubai is halal and not all food in the UAE is halal. The exceptions are licensed and signposted, which is why most residents go years without meeting one by accident.",
+    "Are all restaurants in Dubai halal?",
+    "Most of them are. The large majority of standalone restaurants, mall food courts and delivery-only kitchens across the city serve halal meat and nothing else. The reliable exception is a venue holding a liquor licence, most often inside a hotel, where alcohol is served and a small number of menus carry pork, normally flagged on the menu itself. If it matters to you, two habits settle it: read the menu's own labelling, and ask. Any halal restaurant in Dubai is used to the question, and many display the certificate near the till without being asked.",
+    "Is the food at Dubai airport and Dubai Mall halal?",
+    "Both follow the pattern of the city around them. Halal food at Dubai airport is the norm across the terminals' restaurants, cafés and grab-and-go counters, with alcohol served in the licensed bars and lounges you would expect at any international hub. Inside Dubai Mall it is the same story: the food courts and the great majority of restaurants are halal, and the licensed venues tend to be the ones attached to a hotel or holding their own licence. Where a specific outlet matters — a business lunch, a first visit with family — the counter staff will tell you, and plenty of them have the paperwork on the wall.",
+    "Is KFC halal in Dubai, and is Emirates halal?",
+    "These two come up constantly, so here is the honest version. The international fast-food chains operating here, KFC among the most asked about, publish halal statements for their UAE outlets and display a certificate in branch. We are a caterer, not a certifying body, and we are not going to vouch for another company's supply chain from the outside — ask to see the current certificate instead of trusting a logo, which is exactly the test we apply to the kitchens we work with. As for the airline, Emirates says the meat served on its flights is halal and that pork is not served, while alcohol is available on board: the same split you find on the ground. Airline catering is outside what we do, so take the airline's own statement as the source, not ours."
+   ],
+   "insert_after_block": "What Our Halal Catering Includes",
+   "position": "after the block titled 'What Our Halal Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Halal certification, and what certification costs",
+   "new_paragraphs": [
+    "Two different questions hide inside \"halal certification cost\", and they have different answers. If you are booking an event, it costs you nothing extra: certification sits with the suppliers and the kitchen, and it is already inside the per-head price you are quoted. If you are a food business trying to get certified, the fee belongs to the certification body you apply to, and it scales with the size of the operation, the number of product lines and how many site audits your scope needs. We do not publish a number for that, because we do not charge it and anything we printed would be a guess. Ask two or three accredited certifiers for a written scope and fee, and compare them side by side.",
+    "For our own bookings, halal sourcing and certification are confirmed with the business — see the Business Verification List — and the chef assigned to your event handles ingredients to keep dishes apart. If your guests, or your client, need paperwork and not just reassurance, say so at booking and we will tell you plainly what documentation the kitchen serving your event can produce. We would sooner give you a short answer than a broad promise we have not checked."
+   ],
+   "insert_after_block": "What Our Halal Catering Includes",
+   "position": "after the block titled 'What Our Halal Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Halal catering for weddings, corporate events and parties",
+   "new_paragraphs": [
+    "The same fully halal kitchen scales from an intimate villa dinner to a several-hundred-guest reception. For weddings, your chef plates multi-course halal menus with charcoal grills, aromatic rice and generous mezze that suit both family elders and younger guests. Corporate halal catering in Dubai keeps offices, conferences and galas covered with buffets, working lunches and canapé receptions that every guest at the table can eat without asking questions. Halal party catering in Dubai brings the same standard to birthdays, engagements, baby showers and Eid gatherings, at home or at a venue. Because it is halal catering for events across every format, planners and families booking mixed-guest occasions do not have to run two menus — one halal kitchen serves the whole room, and no guest is left with a limited plate."
+   ],
+   "insert_after_block": "What Our Halal Catering Includes",
+   "position": "after the block titled 'What Our Halal Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Dietary, allergy and cross-contact handling",
+   "new_paragraphs": [
+    "Halal is the baseline, and we build the rest of your dietary needs on top of it. Tell us the specifics when you enquire and we routinely produce halal menus that are also gluten-free, dairy-free, nut-free or vegetarian, with allergens labelled at each station so guests can serve themselves with confidence. The chef handles ingredients to avoid cross-contact between dishes, and for mixed gatherings where some guests keep strict requirements and others do not, one carefully planned halal menu covers everybody — simpler and safer than juggling parallel kitchens. If a guest has a serious allergy, flag it at booking so the chef can plan around it from the first draft of the menu instead of on the night."
+   ],
+   "insert_after_block": "A Taste of Our Halal Catering",
+   "position": "after the block titled 'A Taste of Our Halal Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How much does halal catering cost in Dubai?",
+   "new_paragraphs": [
+    "There are two honest answers, because there are two different products behind the same search. If you want the food itself — a buffet, a grazing table, canapés or trays dropped off ready to serve — halal catering in Dubai starts from AED 90 per head for a working office lunch, from AED 120 per head for a standard event buffet, and from AED 150 per head for a premium buffet, a BBQ or live cooking stations. If you want a chef cooking and serving on site, with the food made in front of your guests, plated and cleared by a team, that is AED 700 to AED 950 per person. The gap between the two is not the ingredients; it is the chef, the staff, the equipment and the hours that come with them.",
+    "Guest numbers move the plated rate, because the chef's day is the same whether the table seats two or twenty. Around two guests it sits at AED 950 to AED 1,300 per person; at four, AED 800 to AED 1,100; at six, AED 750 to AED 1,000; at ten, AED 700 to AED 950; and above twenty it comes down from AED 600. For smaller private gatherings, set packages run from AED 1,200, AED 2,400, AED 3,600, AED 4,500 and AED 5,500, with a multi-course tasting menu from AED 1,400 per person. Add 5% VAT to any total.",
+    "Halal catering packages in Dubai bundle menu, chef and service so the halal catering cost in Dubai is clear before you commit, with no surprise line items on the night. Affordable halal catering in Dubai does not mean cutting the sourcing standard; it means matching the format to the budget — a buffet where a buffet will do, a chef where the evening deserves one. For a full breakdown see our Dubai catering price guide , or send your numbers and get an itemised quote."
+   ],
+   "insert_after_block": "A Taste of Our Halal Catering",
+   "position": "after the block titled 'A Taste of Our Halal Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What makes the best halal catering in Dubai, and how to compare companies",
+   "new_paragraphs": [
+    "Search for the top 10 catering companies in Dubai and you get listicles, most of them written by the companies inside them or by sites paid to carry the name. They are a poor shortlist. Four questions sort the field faster than any ranking:",
+    "Will they print a price? Much of this market quotes on request only. When we checked the published rates of the caterers ranking highest for these searches in July 2026, two of the most visible names showed no per-head figure anywhere on their sites. Every number on this page is one you can hold us to.",
+    "Is the whole kitchen halal, or only the meat? Halal events run through partners whose kitchens are fully halal end to end — no pork on any menu, no alcohol in any sauce, and no separate non-halal line running alongside.",
+    "Staffed, or dropped off? A per-head price tells you little until you know whether anyone is coming to serve it. Ask how many staff the quote includes and what time they leave.",
+    "What is not in the number? VAT, service hours, equipment hire, travel to a remote venue. Ours are itemised in the proposal, so you see them upfront instead of on the night.",
+    "The best halal food in Dubai at an event is rarely the most expensive version of it. It is the version matched to the room: a working lunch that people can eat in twenty minutes, a buffet that keeps its heat, a plated dinner where the pace is the point. Tell us which of those you are running and we will say which format we would book if it were ours — including when the cheaper one is the right one."
+   ],
+   "insert_after_block": "A Taste of Our Halal Catering",
+   "position": "after the block titled 'A Taste of Our Halal Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How to hire halal catering in Dubai",
+   "new_paragraphs": [
+    "To hire halal catering in Dubai, send us your date, guest count and venue, we typically reply within 15 minutes during business hours. From there it is three steps: we match you with a vetted chef suited to your cuisine and occasion; you review an itemised proposal, usually within one business day, and adjust the menu; then we confirm, and where useful a tasting, before your event. On the day the chef and team arrive, cook on site, serve and clean up, so you host instead of work. Looking for a private halal chef in Dubai for a recurring arrangement or a one-off dinner? The same booking route covers both, whether you want halal home catering for a family meal or a full-service event team. If you have searched \"halal catering near me\", myCHEF covers the whole city — see how the coverage works below."
+   ],
+   "insert_after_block": "A Taste of Our Halal Catering",
+   "position": "after the block titled 'A Taste of Our Halal Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Why book halal catering through myCHEF?",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you own the evening, we carry the work. Vetting for halal catering means identity checks, a practical cooking assessment, reference verification and ongoing performance reviews — a continuous standard instead of a one-time tick. We are honest about it, too: no system removes every risk, so as a halal catering company in Dubai we match each event to the chef well suited to it.",
+    "For a halal occasion, that is often Layla Hassan , whose 14+ years in Lebanese and Emirati kitchens running catering for prestige events show in mezze, charcoal grills and aromatic rice built for sharing; she is especially sought after for Ramadan and Eid. Example: for a recent villa Eid gathering of 40 guests, Layla built a mezze-and-grill spread with a separate kids' station, delivered fully halal end to end. Halal catering sits alongside villa weddings, yacht celebrations and corporate galas across Dubai. Every halal catering booking includes, with client reviews added as events run."
+   ],
+   "insert_after_block": "A Taste of Our Halal Catering",
+   "position": "after the block titled 'A Taste of Our Halal Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning halal catering step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your halal catering proposal arrives.",
+    "Book halal catering about 2 weeks ahead off-peak, and 6 weeks ahead between November and March.",
+    "Confirm your halal catering menu about 7 days out, when the guest list is firm.",
+    "Ask early about allergies and dietary plates — not in the last 48 hours before halal catering.",
+    "Check the access route before halal catering day — setup starts roughly 2 hours ahead.",
+    "Plan on roughly 3 hours of halal catering service, and add 5% VAT to the total.",
+    "Layla middle eastern chef catering dubai"
+   ],
+   "insert_after_block": "Halal Catering Questions",
+   "position": "after the block titled 'Halal Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which halal catering format suits your event?",
+   "new_paragraphs": [
+    "Format What it gives you Staffing Price per head",
+    "Working lunch, dropped off Food delivered ready to serve, no setup None From AED 90",
+    "Event buffet Presentation plus a maintained spread 1–2 From AED 120",
+    "Premium buffet, BBQ or live stations Cooking in front of your guests 2–4 From AED 150",
+    "Canapés and grazing tables Passed or laid out, staffed through the event 2–4 From AED 150",
+    "Private chef, plated and served Every course cooked on site and served together 3 and above AED 700–950"
+   ],
+   "insert_after_block": "Halal Catering Questions",
+   "position": "after the block titled 'Halal Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Halal catering Dubai: what to do next",
+   "new_paragraphs": [
+    "Send the brief — date, guest count, venue and roughly what you want the evening to feel like — and we will tell you which format suits the room and what it costs before you commit to anything. If the honest answer is that a buffet does the job and a private chef would be money spent on the wrong thing, that is what you will hear.",
+    "Request a halal catering proposal or chat on WhatsApp . Prefer to compare first? See our Dubai catering price guide or browse all cuisines ."
+   ],
+   "insert_after_block": "Halal Catering Questions",
+   "position": "after the block titled 'Halal Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  }
+ ],
+ "faq": []
+}

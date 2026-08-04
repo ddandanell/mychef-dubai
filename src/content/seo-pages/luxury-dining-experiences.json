@@ -1,0 +1,273 @@
+{
+ "url": "/luxury-dining-experiences",
+ "keyword_strategy": {
+  "main_keyword": "luxury private dining dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 8,
+  "subkeywords_carried": 8,
+  "coverage_percent": 100,
+  "subkeywords_carried_list": [
+   "cafe with private room dubai",
+   "romantic private dining dubai",
+   "best luxury private dining dubai",
+   "luxury private dining dubai menu",
+   "luxury private dining dubai price",
+   "cheap luxury private dining dubai",
+   "affordable private dining rooms dubai",
+   "restaurants with private cabins in dubai"
+  ],
+  "subkeywords_not_carried": [],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Luxury Private Dining Dubai | from AED 950 per person | myCHEF",
+  "meta_description": "Luxury Private Dining in Dubai — chef-led fine-dining experiences at home. From AED 950 per person, vetted chefs, full service. Request a proposal from myCHEF.",
+  "h1": "Luxury Private Dining in Dubai — Prices, Formats and What You Get"
+ },
+ "opening_paragraph": [
+  "Luxury private dining dubai brings a fine-dining restaurant into your own home from AED 950 per person, cooked and served by a vetted private chef myCHEF matches to your table. It is the meal you would book for a milestone — an anniversary, a proposal, a table of people you rarely gather — arriving in your dining room instead of a booked-out restaurant. A chef and their team handle the market shopping, the knife work, the cooking, the plating and every dish carried away afterward, so the evening stays yours. Send the date, the headcount and the venue and an itemised proposal comes back promptly during our published business hours."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "How much does luxury private dining cost in Dubai?",
+   "match_confidence": 0.75,
+   "new_heading": "Luxury private dining across Dubai",
+   "new_paragraphs": [
+    "We serve luxury private dining across every part of Dubai, so wherever you are hosting, a vetted chef can reach you. Whether you searched for a private chef near me in Dubai Marina, a caterer for a Palm Jumeirah villa, a Downtown apartment or a Business Bay penthouse, the same standard travels to your door. Compare your options with our guide to private chef vs catering , or start from the main private chef in Dubai service and tell us the neighbourhood. Home dining, party or corporate event — the team comes to you."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "What do our luxury dining experiences look like?",
+  "What occasions can you celebrate with luxury dining in Dubai?",
+  "Ready to book your luxury dining experience in Dubai?",
+  "Explore myCHEF Dubai",
+  "What luxury dining experiences can you book in Dubai?",
+  "How does booking a luxury dining experience in Dubai work?",
+  "What are the most common questions about luxury dining in Dubai?"
+ ],
+ "add_block": [
+  {
+   "new_heading": "Luxury private dining for corporate events, parties and weddings",
+   "new_paragraphs": [
+    "Luxury private dining works for far more than a quiet dinner for two — it scales cleanly to corporate events, milestone parties and intimate weddings. A corporate host might seat a board or close a deal over a plated tasting menu; a family might mark a landmark birthday, an engagement or an anniversary at home. For a wedding, an at-home chef gives couples a personal alternative to a banquet hall, with courses designed around the two of them instead of a fixed package. Because we cater for events of every size, the same team can run a six-seat chef's table or a standing party for fifty with canapes and stations. Tell us who is coming and why, and the format — seated, grazing, or a walk-around party — is shaped to match the occasion and the room."
+   ],
+   "insert_after_block": "What luxury dining experiences can you book in Dubai?",
+   "position": "after the block titled 'What luxury dining experiences can you book in Dubai?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Luxury private dining menu & options",
+   "new_paragraphs": [
+    "The menu is the heart of every luxury dining experience, and it is written for your evening instead of pulled from a template. Most guests start from a multi-course tasting menu, then refine it around a cuisine, the season and any dietary needs at the table. Options range from a tasting menu and an interactive chef's table to a fresh oyster bar , a surprise mystery dining journey, dramatic desert dining under the stars, or an intimate date night for two. Wine and non-alcoholic pairings can sit alongside each course. Nothing here is off-the-shelf: you approve the final menu before the date, so there are no surprises except the ones the chef plans."
+   ],
+   "insert_after_block": "What luxury dining experiences can you book in Dubai?",
+   "position": "after the block titled 'What luxury dining experiences can you book in Dubai?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Settings, styling and logistics",
+   "new_paragraphs": [
+    "Where you dine shapes the whole experience, so the setting and styling are planned as carefully as the food. A luxury private dining evening can be staged in a Palm villa, a Marina apartment, a Downtown penthouse, a yacht deck at golden hour or out in the desert, and the chef adapts the menu and equipment to whatever kitchen — or lack of one — the venue offers. Table styling, glassware, linen and lighting can be arranged to lift a home dining room to restaurant standard, or kept understated if that suits the night. Logistics are handled end to end: parking and access, timings, service flow and cleanup are agreed before the date so nothing lands on you as the host. All you decide is when to sit down.",
+    "The venue also decides how the food is cooked, and it is better to know that before you choose the room. At a villa the live kit is straightforward: charcoal, gas and a saj dome all run outdoors on your own plot — garden, driveway or a ground-level pool deck — on a firm level base and about three metres clear of windows, AC intakes and exit routes. The one hard line is fuel indoors: Dubai Municipality's barbecue guidance says plainly not to light coal in an enclosed space or indoors, so no mangal in the kitchen, an enclosed majlis or a closed marquee. A desert dinner is usually briefed around the same charcoal, tandoor and robata stations, and there myCHEF confirms the setup with the camp operator or the landholder before quoting rather than assuming the sand settles it — land permission and reserve rules are the part we sort before the date, not on it. A rooftop works the same way: we ask the building what its terrace already allows before we put a fired station on the proposal.",
+    "Apartments and yachts land in the same place, and it is a good place. In an apartment the building rules bite before the fire code does — Emaar's vertical-community rules bar barbecues, grills or cooking equipment of any kind from balconies, whatever the fuel — so the live cooking moves inside to induction and a plancha. On a yacht the marina rule is the one that decides it: no additional LPG or gas cylinder may be brought aboard, which is why almost nothing that burns fuel goes on a boat. What runs instead is a full evening: induction, plancha, live carving and a raw bar on deck, with the charring, the slow smoke and the bread work done in the licensed partner kitchen and finished in front of your guests. An oyster bar is the easiest station of the lot — no flame, no cylinder, no extraction — so it stands up in a penthouse, on a terrace or on a yacht exactly as it does in a garden."
+   ],
+   "insert_after_block": "What luxury dining experiences can you book in Dubai?",
+   "position": "after the block titled 'What luxury dining experiences can you book in Dubai?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Private dining at home vs restaurants with private rooms in Dubai",
+   "new_paragraphs": [
+    "Plenty of people searching for luxury private dining in Dubai are looking for a venue: restaurants with private rooms or private cabins, a cafe with a private room for a small gathering, a table screened off from the rest of the floor. That is a different purchase from this one, and it is worth being straight about which suits your evening, because both are good answers to different questions.",
+    "A restaurant or cafe private room A private chef at your address",
+    "What you book A room inside someone else's venue, usually with a minimum spend A chef, a menu and service, at a per-head price",
+    "The menu The house menu, sometimes with a set-menu option Written for your table, approved by you before the date",
+    "Privacy A private room, but shared kitchen, staff and building Nobody in the room who is not your guest",
+    "Timing A seating window; the room often turns over after it The evening runs as long as you want it to",
+    "Getting home Everyone drives or books a car You are already home",
+    "What it costs A minimum spend on food and drink, plus service From AED 950 per person, or AED 700–950 at ten guests and above",
+    "A private room wins when you want somebody else's setting — a view, a room you could not create, a central address for guests coming from all over the city. A chef at home wins when the point is the people and the food: no seating window, no menu compromise, no taxi at the end, and a room that is genuinely yours for the night. For a proposal, an anniversary or a table of ten close friends, the second usually beats the first. For a large group scattered across Dubai on a weeknight, the first often wins. MyCHEF only does the second, and would rather say so than pretend the two are the same product."
+   ],
+   "insert_after_block": "What luxury dining experiences can you book in Dubai?",
+   "position": "after the block titled 'What luxury dining experiences can you book in Dubai?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Romantic private dining and date night for two",
+   "new_paragraphs": [
+    "Romantic private dining in Dubai is the most-requested version of this service, and it is built differently from a scaled-down dinner party. A table for two means the chef is cooking six plates, not sixty, so the cooking can be precise in a way a large service cannot be: courses paced to how you are eating, a pause between them when the conversation is going somewhere, no waiter hovering to turn the table. The Date Night package starts at AED 1,200 for the two of you and covers a multi-course plated dinner cooked in your kitchen, served course by course, with the kitchen left clean afterwards. Ask for the chef to work quietly and disappear between courses, or to talk you through each plate — both are normal requests and either is arranged on the day.",
+    "Proposals are their own category, and they need one conversation more than a normal booking: where you want to be standing, what has to be ready and hidden, who is holding the ring, and what the signal is. Anniversaries, engagements and reconciliation dinners get the same care. A private chef at a set per-head price is also more predictable than an open tab at a restaurant, which matters more than people admit when the evening is meant to feel effortless."
+   ],
+   "insert_after_block": "What luxury dining experiences can you book in Dubai?",
+   "position": "after the block titled 'What luxury dining experiences can you book in Dubai?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How to hire luxury private dining and how it works",
+   "new_paragraphs": [
+    "To hire luxury private dining, send us three things — your date, your guest count and your venue — and we typically reply within 15 minutes during business hours. From there it works in four simple steps: we match a private chef to your cuisine and occasion, you approve the menu and the quote, the chef confirms shopping and timings, and on the night the team arrives, cooks, serves and cleans up. There is no lengthy contract to sign and no deposit-heavy commitment before you have seen the plan. If you have searched for luxury dining services near you and been quoted a flat menu, this is the opposite: a bespoke evening priced honestly, booked in a single conversation on WhatsApp or by email."
+   ],
+   "insert_after_block": "How does booking a luxury dining experience in Dubai work?",
+   "position": "after the block titled 'How does booking a luxury dining experience in Dubai work?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Why myCHEF",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you own the evening, we carry the work. Vetting for luxury private dining means identity checks, a practical cooking assessment, reference verification and ongoing performance reviews — a continuous standard, not a one-time tick. We are honest about it, too: no system removes every risk, so we match each event to the chef whose background fits it instead of promising perfection.",
+    "For an occasion like this, that might be Ahmed Al-Rashid — 18+ years across Dubai, London and Paris in classical French technique — who designs each menu as a collaboration with the host, every course timed, seasoned and served to exacting standards. As a company we have delivered villa weddings, yacht celebrations and corporate galas across Dubai. Every luxury private dining booking includes, with client reviews added as events run."
+   ],
+   "insert_after_block": "How does booking a luxury dining experience in Dubai work?",
+   "position": "after the block titled 'How does booking a luxury dining experience in Dubai work?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning luxury private dining step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your luxury private dining proposal arrives.",
+    "Book about 48 hours ahead for a standard private-chef dinner, and 5 to 7 days for a bespoke tasting menu or a larger private event — guidance, not a fixed rule, and short-notice requests are assessed individually.",
+    "Confirm the menu for luxury private dining some 7 days ahead, once numbers stop moving.",
+    "Ask for dietary covers at the luxury private dining briefing stage instead of within 48 hours .",
+    "Check parking and lift access; your luxury private dining team is on site some 2 hours early.",
+    "Plan on roughly 3 hours of luxury private dining service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": "How much does luxury private dining cost in Dubai?",
+   "position": "after the block titled 'How much does luxury private dining cost in Dubai?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which luxury private dining format suits your evening?",
+   "new_paragraphs": [
+    "Format What it gives you Guests it suits Cost position",
+    "Date night for two A plated multi-course dinner cooked and served at home 2 From AED 1,200 for the two of you",
+    "Plated tasting menu Five to seven courses, timed and served in sequence 2–12 seated From AED 950 per person; AED 1,400 for the chef's tasting with pairings",
+    "Chef's table The cooking happens in front of you, course by course 4–10 From AED 950 per person",
+    "Seated dinner, larger table The same plated service across a longer table 10 and above AED 700–950 per person",
+    "Walk-around with stations Canapés passed and live stations, standing 30 and above From AED 150 per person"
+   ],
+   "insert_after_block": "How much does luxury private dining cost in Dubai?",
+   "position": "after the block titled 'How much does luxury private dining cost in Dubai?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Frequently asked questions",
+   "new_paragraphs": [
+    "How much does luxury private dining cost in Dubai?",
+    "It is from AED 950 per person, quoted by guest count, menu and service level. Larger seated dinners can be more affordable per head; send your details for an itemised quote.",
+    "What is included in luxury private dining?",
+    "Included is menu design, a vetted private chef, service staff where needed, full setup and complete cleanup. The chef brings the food and cooks it fresh in your kitchen.",
+    "How do I hire and book a luxury private dining chef?",
+    "Share your date, guest count and venue, and we send an itemised proposal, promptly during our published business hours. Approve the menu and quote and the booking is confirmed.",
+    "Can luxury private dining cater for corporate events and parties?",
+    "Yes — luxury private dining suits corporate events, weddings and private parties as well as intimate dinners. The format scales from a six-seat chef's table to a standing party with stations.",
+    "Do you offer a tasting menu and chef's table?",
+    "Yes, a tasting menu and an interactive chef's table are our most popular formats, alongside an oyster bar, mystery dining and desert dining. You approve the final menu before the date.",
+    "Which areas of Dubai do you serve?",
+    "We serve all of Dubai, from Palm Jumeirah and Dubai Marina to Downtown, Business Bay and beyond. A vetted chef travels to your home, villa, yacht or office.",
+    "Are dietary requirements and halal options available?",
+    "Yes, the menu is built around your table, including halal, vegetarian, vegan and allergen-aware requests. Tell us the requirements when you enquire and the chef designs each course to fit. Where an allergy is declared, the requirement goes to the assigned culinary partner before confirmation; the partner assesses the ingredients, preparation environment and cross-contact controls and confirms whether the menu can be provided. Partner kitchens may handle allergens, so cross-contact cannot be completely excluded unless dedicated controls have been specifically confirmed for your booking.",
+    "Do you have a private dining room or a restaurant with private cabins?",
+    "No. MyCHEF sends a chef to your address instead of hosting you in a venue, so there is no private room to book. If you want somebody else's setting, a restaurant private room is the right search; if you want the evening in your own space with a menu written for your table, this is.",
+    "Can you do romantic private dining for two?",
+    "Yes, and it is the most-booked format here. The Date Night package starts at AED 1,200 for two and covers a multi-course plated dinner cooked in your kitchen and served course by course. Tell us if you want the chef visible and talking through each plate, or working quietly out of sight.",
+    "Is there a cheaper way to do luxury private dining?",
+    "Three, honestly: seat ten or more and the rate falls to AED 700–950 per person, run a walk-around evening with canapés and live stations from AED 150 per person, or shorten the menu to four courses using seasonal produce rather than lobster and wagyu. Tell us your budget and the chef designs to it.",
+    "For luxury private dining, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements ."
+   ],
+   "insert_after_block": "How much does luxury private dining cost in Dubai?",
+   "position": "after the block titled 'How much does luxury private dining cost in Dubai?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What luxury private dining in Dubai includes",
+   "new_paragraphs": [
+    "Every luxury private dining booking includes menu design, a vetted private chef, front-of-house service where the evening needs it, full setup and complete cleanup — you host, we carry the work. The chef arrives with the ingredients, cooks in your kitchen and plates each course to order, so the food reaches the table at its peak instead of after a delivery drive. Service staff pour, clear and reset between courses when the guest count calls for it. Afterward the kitchen is left exactly as it was found. These experiences are built to feel like the best restaurant you know, minus the reservation, the dress code and the journey home. It is a genuine catering service delivered privately, with the polish of a fine-dining room and the ease of your own address."
+   ],
+   "insert_after_block": "What luxury dining experiences can you book in Dubai?",
+   "position": "after the block titled 'What luxury dining experiences can you book in Dubai?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  },
+  {
+   "new_heading": "How much does luxury private dining cost in Dubai?",
+   "new_paragraphs": [
+    "Luxury private dining in Dubai starts from AED 950 per person, and the final cost follows your choices — the number of courses, the guest count and how much front-of-house service you want. Smaller, more elaborate tasting menus sit at the higher end; larger seated dinners spread the cost and can be more affordable per head. There are no hidden extras: the quote covers the chef, the food, the service and the cleanup. Browse private chef prices and the catering prices guide for the full range and sample packages, or send your details for an itemised quote built around your evening. We are transparent on price so you can compare us against any other caterer or catering company in Dubai.",
+    "There is no cheap version of this, and it would be dishonest to pretend otherwise — a chef cooking and serving a multi-course dinner in your kitchen is a person's whole evening, and that is what the per-head figure pays for. What does exist is a lower rung on the same ladder, and it is worth knowing where it is. Ten guests or more brings the rate down to AED 700–950 per person, because the chef's time is spread further. A walk-around evening with passed canapés and live stations starts at AED 150 per person and still reads as an occasion. And a shorter menu — four courses instead of seven, seasonal produce instead of lobster and wagyu — costs less without costing you the experience. If your budget is genuinely fixed, say the number when you enquire and the chef will design to it or tell you plainly that it does not reach; that beats a proposal you cannot accept."
+   ],
+   "insert_after_block": "How does booking a luxury dining experience in Dubai work?",
+   "position": "after the block titled 'How does booking a luxury dining experience in Dubai work?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  }
+ ],
+ "faq": [
+  {
+   "question": "How much does luxury private dining cost in Dubai?",
+   "answer": [
+    "It is from AED 950 per person, quoted by guest count, menu and service level. Larger seated dinners can be more affordable per head; send your details for an itemised quote."
+   ]
+  },
+  {
+   "question": "What is included in luxury private dining?",
+   "answer": [
+    "Included is menu design, a vetted private chef, service staff where needed, full setup and complete cleanup. The chef brings the food and cooks it fresh in your kitchen."
+   ]
+  },
+  {
+   "question": "How do I hire and book a luxury private dining chef?",
+   "answer": [
+    "Share your date, guest count and venue, and we send an itemised proposal, promptly during our published business hours. Approve the menu and quote and the booking is confirmed."
+   ]
+  },
+  {
+   "question": "Can luxury private dining cater for corporate events and parties?",
+   "answer": [
+    "Yes — luxury private dining suits corporate events, weddings and private parties as well as intimate dinners. The format scales from a six-seat chef's table to a standing party with stations."
+   ]
+  },
+  {
+   "question": "Do you offer a tasting menu and chef's table?",
+   "answer": [
+    "Yes, a tasting menu and an interactive chef's table are our most popular formats, alongside an oyster bar, mystery dining and desert dining. You approve the final menu before the date."
+   ]
+  },
+  {
+   "question": "Which areas of Dubai do you serve?",
+   "answer": [
+    "We serve all of Dubai, from Palm Jumeirah and Dubai Marina to Downtown, Business Bay and beyond. A vetted chef travels to your home, villa, yacht or office."
+   ]
+  },
+  {
+   "question": "Are dietary requirements and halal options available?",
+   "answer": [
+    "Yes, the menu is built around your table, including halal, vegetarian, vegan and allergen-aware requests. Tell us the requirements when you enquire and the chef designs each course to fit. Where an allergy is declared, the requirement goes to the assigned culinary partner before confirmation; the partner assesses the ingredients, preparation environment and cross-contact controls and confirms whether the menu can be provided. Partner kitchens may handle allergens, so cross-contact cannot be completely excluded unless dedicated controls have been specifically confirmed for your booking."
+   ]
+  },
+  {
+   "question": "Do you have a private dining room or a restaurant with private cabins?",
+   "answer": [
+    "No. MyCHEF sends a chef to your address instead of hosting you in a venue, so there is no private room to book. If you want somebody else's setting, a restaurant private room is the right search; if you want the evening in your own space with a menu written for your table, this is."
+   ]
+  },
+  {
+   "question": "Can you do romantic private dining for two?",
+   "answer": [
+    "Yes, and it is the most-booked format here. The Date Night package starts at AED 1,200 for two and covers a multi-course plated dinner cooked in your kitchen and served course by course. Tell us if you want the chef visible and talking through each plate, or working quietly out of sight."
+   ]
+  },
+  {
+   "question": "Is there a cheaper way to do luxury private dining?",
+   "answer": [
+    "Three, honestly: seat ten or more and the rate falls to AED 700–950 per person, run a walk-around evening with canapés and live stations from AED 150 per person, or shorten the menu to four courses using seasonal produce rather than lobster and wagyu. Tell us your budget and the chef designs to it.",
+    "For luxury private dining, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements ."
+   ]
+  }
+ ]
+}

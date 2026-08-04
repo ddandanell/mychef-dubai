@@ -1,0 +1,205 @@
+{
+ "url": "/brand-activation-catering-dubai",
+ "keyword_strategy": {
+  "main_keyword": "brand activation catering dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 2,
+  "subkeywords_carried": 1,
+  "coverage_percent": 50,
+  "subkeywords_carried_list": [
+   "best brand activation catering dubai"
+  ],
+  "subkeywords_not_carried": [
+   "luxury brand activation catering dubai"
+  ],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Brand Activation Catering Dubai | from AED 700 per person | myCHEF",
+  "meta_description": "Brand activation catering in Dubai from AED 700 per person. Branded menus, live stations and sampling for pop-ups, launches and roadshows, with vetted chefs and full service from myCHEF.",
+  "h1": "Brand Activation Catering in Dubai — What It Costs and How to Book"
+ },
+ "opening_paragraph": [
+  "Brand activation catering in Dubai from myCHEF turns food into part of the campaign, from AED 700 per person, with menus designed around your brand instead of pulled off a standard list. An activation has a different job from a dinner: it has to photograph well, work in short bursts as footfall arrives, and leave people with something to remember. Send your concept, dates and location for an itemised proposal."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "Where Brand Activation Catering Shines",
+   "match_confidence": 0.79,
+   "new_heading": "What is brand activation catering?",
+   "new_paragraphs": [
+    "It is catering built to serve a marketing objective instead of to feed a room. A brand activation caterer in Dubai starts from the campaign: the colours, the product, the story you want people to repeat, and then designs the food to carry it. That might mean a dessert in your brand palette, a live station that demonstrates the product, or a bite that echoes a flavour in what you are launching.",
+    "As the team coordinating your booking, we cover the practical side too, which is where most activations struggle. Footfall is unpredictable, the space is often a mall atrium or a car park instead of a venue, and the service window may be eight hours of trickle instead of one seated hour. The brand activation menu is built for that shape: items that hold, portions that are quick to hand over, and a station that stays photogenic at hour seven."
+   ]
+  },
+  {
+   "block_on_your_page": "Brand Activation Catering Questions",
+   "match_confidence": 0.71,
+   "new_heading": "Planning brand activation catering step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your brand activation catering proposal arrives.",
+    "Book brand activation catering about 2 weeks ahead off-peak, and 6 weeks ahead between November and March.",
+    "Confirm the menu for brand activation catering some 7 days ahead, once numbers stop moving.",
+    "Ask for dietary covers at the brand activation catering briefing stage instead of within 48 hours .",
+    "Check parking and lift access; your brand activation catering team is on site some 2 hours early.",
+    "Plan on roughly 3 hours of brand activation catering service, and add 5% VAT to the total."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "Formats Built for Engagement",
+  "What's Included",
+  "Make Your Next Activation Unforgettable",
+  "Explore myCHEF Dubai",
+  "Why Experiential Catering Works",
+  "Activation Catering in Action",
+  "Activation Catering Locations in Dubai"
+ ],
+ "add_block": [
+  {
+   "new_heading": "What formats work for activations in Dubai?",
+   "new_paragraphs": [
+    "Sampling is the most common. Small, one-bite portions handed out at volume, designed so a passer-by can take one without breaking stride. Live cooking stations work when you want dwell time, because people stop to watch something being made. A private brand activation chef doing a short demonstration on the hour turns a stand into a small event and gives your team a reason to start conversations.",
+    "For influencer previews and press days the format flips: fewer guests, more finish, and food that holds up under a camera. Seated tastings, grazing tables and a dessert wall all photograph well. Mall activations and roadshows need the most planning, since you may be working without water, without power beyond a single supply, and with a strict build-up window. We check those constraints before proposing a format."
+   ],
+   "insert_after_block": "Where Brand Activation Catering Shines",
+   "position": "after the block titled 'Where Brand Activation Catering Shines'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Making food that stays on brand",
+   "new_paragraphs": [
+    "The temptation is to put a logo on everything. It works better to pick one hero item that carries the brand clearly and let the rest of the food be good. A colour-matched dessert, a signature drink, or a single bite shaped around the product will do more than a dozen printed macarons.",
+    "Practical constraints shape what is possible. Colour matching is limited by what can be achieved with natural colouring at food-safe levels. Fine printed detail blurs on a soft surface. Frozen and chilled items have a short window outdoors, which matters between May and September when Dubai heat rules out anything delicate outside an air-conditioned space. Bring us the brand guidelines early and we will tell you what holds."
+   ],
+   "insert_after_block": "Why Experiential Catering Works",
+   "position": "after the block titled 'Why Experiential Catering Works'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Food safety and licensing at an activation",
+   "new_paragraphs": [
+    "Activations are catered off site and brought in, so the Dubai Municipality Food Code rules on food transportation and delivery vehicles do most of the work, alongside the requirement for food establishments to run a structured staff training system. Sampling to the public raises the bar again, because you are serving strangers who cannot be asked about allergies one by one. Every sampled item goes out with visible allergen labelling.",
+    "Dubai Municipality 's Food Safety Department monitors food establishments and investigates food-borne illness, so a mall or public activation is a realistic place to be checked. Venue and landlord approvals usually sit with your event agency, and we supply the documentation they need from the catering side. The chef assigned to brand activation catering has passed identity checks, a practical cooking assessment, reference verification and post-event reviews by earlier clients."
+   ],
+   "insert_after_block": "Why Experiential Catering Works",
+   "position": "after the block titled 'Why Experiential Catering Works'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How to brief and book",
+   "new_paragraphs": [
+    "Send the campaign concept, the dates and location, the expected footfall or guest numbers, and any brand assets that need to appear on the food. If the activation is public, tell us the daily hours. If it is a press preview, tell us the shot list, because what gets photographed changes what is plated.",
+    "Three to six weeks is a comfortable lead time when the food carries branding, since moulds and printed elements need production time. Simpler formats can move faster. You get an itemised proposal covering food, staffing, build and branding, with the 5% VAT shown separately. To hire brand activation catering for a launch or a party format, see corporate catering , product launches or live cooking stations ."
+   ],
+   "insert_after_block": "Why Experiential Catering Works",
+   "position": "after the block titled 'Why Experiential Catering Works'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which brand activation catering format suits your event?",
+   "new_paragraphs": [
+    "Format What it gives you Staffing Cost position",
+    "Drop-off Food delivered ready to serve None Entry point",
+    "Buffet Presentation plus a maintained spread 1–2 From AED 700 per person",
+    "Live stations Cooking in front of your guests 2–4 Mid-range",
+    "Plated Every course served together 3 and above Top of the range"
+   ],
+   "insert_after_block": "Brand Activation Catering Questions",
+   "position": "after the block titled 'Brand Activation Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Frequently asked questions",
+   "new_paragraphs": [
+    "How much does brand activation catering cost in Dubai?",
+    "Hosted formats start from AED 700 per person. Public sampling is usually quoted per portion instead, since the unit is a bite instead of a guest. Custom branding on the food, the number of days and the station build are the main cost drivers.",
+    "Can you put our branding on the food?",
+    "Yes, within food-safe limits. Colour-matched desserts, printed transfers and bespoke moulds all work, though fine detail blurs on soft surfaces and colour matching is limited by natural food colouring. Send brand guidelines early.",
+    "Do you cater mall activations and roadshows?",
+    "Yes. These need the most planning because power, water and build-up windows are restricted, so we confirm the site constraints before proposing a format. Multi-day roadshows are quoted as a package.",
+    "How do you handle allergens when sampling to the public?",
+    "Every sampled item carries visible allergen labelling, because you cannot question each person taking food. Vegetarian, vegan, gluten-free and nut-free options are planned in instead of improvised.",
+    "What lead time do you need?",
+    "Three to six weeks when the food carries custom branding, since moulds and printed elements need production time. Simpler live-station or canape formats can be arranged faster.",
+    "Can the same chef cover a multi-city or multi-day campaign?",
+    "Yes. We keep the same vetted chef across a series where possible, which keeps execution consistent as the activation travels between locations.",
+    "Is VAT included in the quote?",
+    "Catering in the UAE carries 5% VAT, introduced on 1 January 2018. Proposals show food, staffing, build and branding as separate lines with the VAT shown separately."
+   ],
+   "insert_after_block": "Activation Catering Locations in Dubai",
+   "position": "after the block titled 'Activation Catering Locations in Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Sources",
+   "new_paragraphs": [
+    "Regulatory facts on this page are drawn from official sources: the UAE Ministry of Finance (5% VAT, effective 1 January 2018), Dubai Municipality (Food Code, food transportation and delivery-vehicle requirements, and mandatory food-handler training), and Dubai Municipality Food Safety Department (food-establishment monitoring and food-borne illness investigation). Venue and landlord approvals vary by site; confirm current requirements before you book."
+   ],
+   "insert_after_block": "Activation Catering Locations in Dubai",
+   "position": "after the block titled 'Activation Catering Locations in Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How much does brand activation catering cost?",
+   "new_paragraphs": [
+    "Brand activation catering prices in Dubai start from AED 700 per person for hosted formats. Sampling is usually quoted per portion instead, because the unit is a bite instead of a guest, and the total depends on how many you want to hand out across the run. The three things that move the number are the level of custom work on the food, how many days the activation runs, and whether you need a station built from scratch.",
+    "Custom branding on the food itself is the most common cost surprise. Printed transfers, bespoke moulds and colour-matched finishes need lead time and a minimum quantity, so they are more economical across a longer run than for a single afternoon. Multi-day roadshows are quoted as a package. Event minimums of AED 2,400 or AED 3,600 apply once staffing and station build are included. Ask for the brand activation catering cost to be itemised into food, staffing, build and branding so you can see which lever to pull."
+   ],
+   "insert_after_block": "Why Experiential Catering Works",
+   "position": "after the block titled 'Why Experiential Catering Works'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  }
+ ],
+ "faq": [
+  {
+   "question": "How much does brand activation catering cost in Dubai?",
+   "answer": [
+    "Hosted formats start from AED 700 per person. Public sampling is usually quoted per portion instead, since the unit is a bite instead of a guest. Custom branding on the food, the number of days and the station build are the main cost drivers."
+   ]
+  },
+  {
+   "question": "Can you put our branding on the food?",
+   "answer": [
+    "Yes, within food-safe limits. Colour-matched desserts, printed transfers and bespoke moulds all work, though fine detail blurs on soft surfaces and colour matching is limited by natural food colouring. Send brand guidelines early."
+   ]
+  },
+  {
+   "question": "Do you cater mall activations and roadshows?",
+   "answer": [
+    "Yes. These need the most planning because power, water and build-up windows are restricted, so we confirm the site constraints before proposing a format. Multi-day roadshows are quoted as a package."
+   ]
+  },
+  {
+   "question": "How do you handle allergens when sampling to the public?",
+   "answer": [
+    "Every sampled item carries visible allergen labelling, because you cannot question each person taking food. Vegetarian, vegan, gluten-free and nut-free options are planned in instead of improvised."
+   ]
+  },
+  {
+   "question": "What lead time do you need?",
+   "answer": [
+    "Three to six weeks when the food carries custom branding, since moulds and printed elements need production time. Simpler live-station or canape formats can be arranged faster."
+   ]
+  },
+  {
+   "question": "Can the same chef cover a multi-city or multi-day campaign?",
+   "answer": [
+    "Yes. We keep the same vetted chef across a series where possible, which keeps execution consistent as the activation travels between locations."
+   ]
+  },
+  {
+   "question": "Is VAT included in the quote?",
+   "answer": [
+    "Catering in the UAE carries 5% VAT, introduced on 1 January 2018. Proposals show food, staffing, build and branding as separate lines with the VAT shown separately."
+   ]
+  }
+ ]
+}

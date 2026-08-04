@@ -1,0 +1,286 @@
+{
+ "url": "/faq",
+ "keyword_strategy": {
+  "main_keyword": "catering faq dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 9,
+  "subkeywords_carried": 9,
+  "coverage_percent": 100,
+  "subkeywords_carried_list": [
+   "what are the 7 functions of catering?",
+   "what questions to ask for a catering service?",
+   "what are common red flags with catering companies?",
+   "buffet catering dubai",
+   "faq catering dubai menu",
+   "corporate catering dubai",
+   "faq catering dubai reviews",
+   "small party catering dubai",
+   "faq catering dubai price list"
+  ],
+  "subkeywords_not_carried": [],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Catering FAQ Dubai — Prices, Minimums, Notice and Red Flags | myCHEF Dubai",
+  "meta_description": "The catering FAQ for Dubai: what a caterer costs per head, the minimums, how much notice is needed, the six questions to ask, and the red flags worth checking before you pay a deposit.",
+  "h1": "Catering FAQ Dubai — Prices, Minimums, Notice and the Questions to Ask"
+ },
+ "opening_paragraph": [
+  "Catering in Dubai starts from AED 90 per head for a working lunch, and myCHEF publishes every figure before you enquire. This Dubai catering FAQ starts there: a standard event buffet is AED 120 and premium formats AED 150. A chef who cooks and serves in your home is a different product at AED 700 to 950 per head. Minimums are 10 guests on volume formats, 20 on buffet, and AED 900 on order value."
+ ],
+ "replace_in_block": [],
+ "leave_untouched": [
+  "Still Have Questions?",
+  "Ready to Book?",
+  "Explore myCHEF Dubai"
+ ],
+ "add_block": [
+  {
+   "new_heading": "How much does catering cost in Dubai? The full price list",
+   "new_paragraphs": [
+    "Two bands exist in this market and one number cannot describe both. The first band is the food format itself: a buffet, a grazing table, canapes, drop-off trays, an office lunch. The second is a chef on site, cooking and plating in front of your guests. Confusing the two is how buyers end up comparing a delivery tray against a dinner party.",
+    "On the volume side, a working or office lunch buffet starts at AED 90 per head, a standard event buffet at AED 120 , and premium buffet, BBQ, live stations or canapes at AED 150 . On the staffed side, a private chef plating a multi-course dinner runs AED 700 to AED 950 per head, dropping toward AED 600 above 20 guests and rising toward AED 1,300 for an intimate two-cover dinner where one chef cooks for one table.",
+    "Fixed packages sit on top of that: the Date Night package from AED 1,200, Family Feast from AED 2,400, Birthday Celebration from AED 3,600, Corporate Dinner from AED 4,500 and the Full Experience from AED 5,500. A tasting menu with wine pairing starts at AED 1,400 per head. VAT of 5% has applied across the UAE since 1 January 2018 and is shown on its own line, so the figure you compare is the figure before tax.",
+    "The whole price list sits on the menus page, the arithmetic behind it is broken down in the catering prices guide , and the cost calculator will do the sum for your guest count before you speak to anyone."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Still Have Questions?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What is the minimum order, and is there a headcount floor?",
+   "new_paragraphs": [
+    "Volume formats need 10 guests . Buffet needs 20 , because a buffet that feeds eight people wastes most of what it produces. Order value has a floor of AED 900 , which is 10 covers at the entry tier. A plated private chef has no headcount floor at all, so a dinner for two is a real booking rather than a favour.",
+    "Those numbers exist because the market publishes wildly different ones and buyers get caught. Minimums across Dubai catering companies run from 6 covers to 30 persons, and several publish none anywhere on their site, which means you discover the floor after you have spent an hour on a call. Ask for the number in writing on the first email."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Still Have Questions?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What questions to ask for a catering service — the six that matter",
+   "new_paragraphs": [
+    "A caterer's answer to these six tells you more than a menu ever will. Each one came out of reading what Dubai catering companies actually publish.",
+    "What guest count does this per-head rate assume? A rate with no headcount behind it moves once your real number lands. A workable answer sounds like \"that holds from 40 guests, and here is the number below that\".",
+    "Is staffing inside the figure or beside it? Some companies price staff and chafing equipment inside the per-head band. Others book staff separately in four-hour blocks. Both are honest; a quote that hides which one it is becomes a second invoice.",
+    "What is your minimum, in writing, today? A number in an email beats a discussion on a call.",
+    "Which document sits behind that compliance claim? Ask for the issuing body, the activity it covers, and an offer to show it. A badge image with no date attached is decoration.",
+    "What notice do you need for my exact format? A drop-off tray and a live carving station are not the same lead time, and a figure that shifts when you push is a warning.",
+    "How does the kitchen handle allergens? The useful answer describes what the kitchen can and cannot control, not a blanket promise."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Still Have Questions?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What are common red flags with catering companies?",
+   "new_paragraphs": [
+    "A red flag is not proof of a bad caterer. It is a signal that one question needs an answer before money moves. These are the ones that recur across Dubai catering websites.",
+    "A price that changes between pages of the same website. If the buffet rate on the menu page and the rate on the corporate page disagree, one of them is stale, and you have no way to know which.",
+    "Different notice periods on different pages of one site. One company in this market publishes four separate lead times across its own pages, from three hours to four weeks. That is an operations answer nobody inside the company has settled.",
+    "A market-average range quoted at you by a company that prints no rate of its own. A cost blog quoting a wide market range, published by a caterer whose own service pages carry no figure at all, tells you what other people charge. It does not tell you what you will pay.",
+    "A compliance badge with no issuing body and no date. Certificates expire. A seal that names neither the issuer nor the year is not evidence of anything.",
+    "No published minimum anywhere. Not a scandal, but it means the floor gets set once the caterer knows your budget.",
+    "Reviews that all appear within one week. Genuine feedback arrives at the pace of genuine events.",
+    "A deposit request before a written, itemised quote. Food, staffing, equipment, delivery and 5% VAT belong on separate lines first."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Still Have Questions?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What are the 7 functions of catering?",
+   "new_paragraphs": [
+    "Hospitality training usually splits the job into 7 functions, and reading a quote gets easier once you can see which of them you are being charged for.",
+    "Planning the brief — date, headcount, venue, format, budget.",
+    "Menu design — courses, cuisine, dietary covers, and what the venue's kitchen can physically produce.",
+    "Sourcing and purchasing — ingredients, and the supplier records that make an ingredient traceable.",
+    "Preparation — the cooking, wherever it legally happens.",
+    "Transport and setup — temperature control in transit, equipment, tables, chafing gear, power.",
+    "Service — the staff on the night, and the ratio of them to your guests.",
+    "Clear-down — waste, equipment out, and a kitchen left as you found it.",
+    "When a caterer quotes one blended number, all 7 are inside it and you cannot see the trade-offs. When the quote is itemised, you can move budget between them: fewer courses, more staff."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Still Have Questions?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Buffet, corporate and small party catering in Dubai — what changes",
+   "new_paragraphs": [
+    "Buffet catering in Dubai starts at 20 guests and AED 120 per head, or AED 150 once live stations, BBQ or canape service enter the picture. Allergen information for a buffet should be given item by item under Dubai Municipality's Food Code, so send the dietary list with the headcount rather than on the day.",
+    "Corporate catering in Dubai is where the AED 90 working-lunch tier lives, at a 10-person floor. Office orders are the format where notice matters most, because the entire point is a room full of people who eat at 1pm whatever happens.",
+    "Small party catering in Dubai splits by what you want in the room. Ten guests and a drop-off buffet is the volume route. Eight guests and a chef plating courses in your kitchen is the AED 700 to 950 route, and no headcount minimum applies to it."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Still Have Questions?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Menus, dietary requirements and allergens",
+   "new_paragraphs": [
+    "Menus are built around your occasion rather than picked off a laminated card, and the full range of formats and cuisines sits on the menu page. Halal is standard across our menus. Vegetarian, vegan, gluten-free and dairy-free covers are designed in at the briefing stage, which is a different job from improvising on the night.",
+    "Gluten-free, nut-conscious and other dietary menu options may be available on request, subject to confirmation by the assigned culinary partner. Partner kitchens may handle allergens, and cross-contact cannot be completely excluded unless dedicated controls have been specifically confirmed for the booking. Guests with allergies must provide full details before confirming their event.",
+    "That wording is a legal position, not caution for its own sake. Food Code 2.0 treats any \"free from\" claim as a guarantee requiring verified controls, names 14 allergens that must be declared however small the quantity, and requires allergen information to reach you before an online or phone order completes. A caterer who promises total safety over a phone call has skipped all of it."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Still Have Questions?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How much notice does a caterer need?",
+   "new_paragraphs": [
+    "We recommend booking as early as possible. Lead times depend on guest numbers, menu complexity, staffing, equipment, location and partner availability. Even inside the normal lead time, a faq can occasionally be arranged - ask, and we will confirm what is realistic.",
+    "As guidance: 48 hours for a standard private-chef experience, 72 hours for BBQs and standard catering packages, 3 to 5 days for live cooking stations and multi-staff events, 5 to 7 days for bespoke menus and larger private events, and 7 to 14 days or more for weddings, corporate functions and complex productions. Same-day requests are assessed one at a time against partner availability.",
+    "Peak season compresses everything. Between November and March the calendar is at its most contested, so treat those windows as a floor rather than a target if your date falls on a weekend."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Still Have Questions?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Reviews, ratings and \"top 10 catering companies in Dubai\" lists",
+   "new_paragraphs": [
+    "A top 10 list is a shortlist, not a verdict. Most of them are ad-funded or built from whoever answered an email, and none of them knows your headcount, your venue or your budget. Use one to assemble three names, then send all three an identical brief: same date, same guest count, same venue, same dietary list. Different briefs produce quotes that cannot be compared, which is how buyers end up choosing on photographs.",
+    "On reviews, read the dates and the specifics before the star count. A review that names the format, the guest number and something that went wrong is worth ten that say \"amazing\". MyCHEF's client feedback sits on the reviews page, and the honest side-by-side against other Dubai catering companies is on the catering companies comparison , including the formats where we are not the cheapest booking."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Still Have Questions?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Who is responsible for the food, in plain terms",
+   "new_paragraphs": [
+    "MyCHEF designs and manages each experience; appropriately licensed culinary partners perform the regulated food services. Each partner must hold the trade licences, food-safety approvals and trained personnel applicable to the specific services it performs. MyCHEF verifies the relevant documentation during onboarding and as part of its continuing partner-review process.",
+    "Two facts from the Dubai Municipality Food Code make that split worth understanding as a buyer. Every food establishment has to designate a certified person in charge of food safety, who carries the legal responsibility personally and holds the records inspectors ask for. And cooking at a customer's home is its own licensed activity, ISIC 5629.92, needing Food Safety Department approval and FoodWatch registration before any cooking happens.",
+    "MyCHEF is implementing a structured 12-stage partner verification and quality-assurance framework across its culinary partner network, covering licence checks, food-safety documentation, allergen controls and continuing performance review. What you get on a booking is single-point accountability: one brief, one itemised quote, and one team answerable on the night. The full picture is on how we vet our chefs and how it works ."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Still Have Questions?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What this page does not answer",
+   "new_paragraphs": [
+    "Two questions land here that belong somewhere else. What a catering chef earns in Dubai is a jobs question rather than a booking one, and no salary data appears on this site. And \"which company is number one\" has no honest answer from a company that would benefit from the answer, which is why the comparison page publishes the formats where rivals win instead."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Still Have Questions?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Frequently asked questions",
+   "new_paragraphs": [
+    "How much does catering cost in Dubai?",
+    "Volume formats start at AED 90 per head for a working lunch, AED 120 for a standard event buffet and AED 150 for premium buffet, BBQ, live stations or canapes. A chef cooking and serving on site is AED 700 to 950 per head. Add 5% VAT to any total.",
+    "What is the minimum order for catering in Dubai?",
+    "Ten guests on volume formats, 20 guests on buffet, and a minimum order value of AED 900. A plated private chef carries no headcount minimum, so a two-guest dinner is a real booking.",
+    "What questions should I ask a catering service?",
+    "Six do most of the work: what guest count does this per-head rate assume, is staffing inside the figure or beside it, what is your minimum in writing today, which document sits behind that compliance claim, what notice do you need for my exact format, and how does the kitchen handle allergens.",
+    "What are common red flags with catering companies?",
+    "A price that changes between pages of the same website, different lead times quoted on different pages of one site, a market-average range published by a company that prints no rate of its own, and a compliance badge with no issuing body and no date on it.",
+    "What are the 7 functions of catering?",
+    "Planning the brief, designing the menu, buying and sourcing the ingredients, preparing the food, transport and setup at the venue, service on the night, and clear-down afterwards. Every quote you read is one of those seven priced in a different way.",
+    "How much notice does a caterer in Dubai need?",
+    "48 hours for a standard private-chef experience, 72 hours for BBQs and standard catering packages, 3 to 5 days for live cooking stations and multi-staff events, 5 to 7 days for bespoke menus and larger private events, and 7 to 14 days or more for weddings and corporate functions.",
+    "Who holds the food licence for my booking?",
+    "MyCHEF designs and manages each experience, and appropriately licensed culinary partners perform the regulated food services. Each partner must hold the trade licences, food-safety approvals and trained personnel applicable to the specific services it performs.",
+    "Can I get allergen information before I book?",
+    "Yes. Dubai Municipality's Food Code 2.0 requires allergen information for phone and online orders to be given before the purchase is completed, and for buffet items it should be given item by item. Send your dietary list with your enquiry.",
+    "What is the myCHEF VIP Club?",
+    "The myCHEF VIP Club is an annual membership of AED 199 for 12 months, with no automatic renewal. Members get a 10% discount on the myCHEF coordination or service fee on eligible bookings — the discount is capped at AED 500 per booking and can be used up to four times per membership year — plus one chef-selected canape upgrade a year. VIP members receive priority consideration for quotations and available booking slots during busy periods. Full terms are on the VIP Club page.",
+    "What is myCHEF Booking Protection?",
+    "Confirmed bookings include myCHEF Booking Protection. If the assigned delivery partner becomes unavailable, we will seek a suitable replacement or refund the amount paid for the affected service that cannot be delivered. Terms and exclusions apply. Booking Protection is not insurance. The full terms are on the Booking Protection page.",
+    "Are chefs background checked?",
+    "Chefs and service professionals are subject to identity, credential, reference and role-appropriate background checks before being approved for eligible myCHEF bookings. The checks applied depend on the person's role, engagement status and available lawful verification records. The full process is on the how we vet our chefs page."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Still Have Questions?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Sources",
+   "new_paragraphs": [
+    "Prices, minimums and lead times are myCHEF's own published terms. Supporting facts: Dubai Municipality Food Code 2.0 (the 14 declarable allergens, allergen information before an online or phone order completes, buffet items declared separately, and the treatment of \"free from\" claims), the Dubai Municipality certification scheme for food-safety persons in charge (one full-time on-site person in charge per establishment), Meydan Free Zone (activity 5629.92, cooking at a customer's home as a separately approved activity), and the UAE Ministry of Finance (5% VAT, in force since 1 January 2018).",
+    "Request a proposal or chat on WhatsApp ."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Still Have Questions?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  }
+ ],
+ "faq": [
+  {
+   "question": "How much does catering cost in Dubai?",
+   "answer": [
+    "Volume formats start at AED 90 per head for a working lunch, AED 120 for a standard event buffet and AED 150 for premium buffet, BBQ, live stations or canapes. A chef cooking and serving on site is AED 700 to 950 per head. Add 5% VAT to any total."
+   ]
+  },
+  {
+   "question": "What is the minimum order for catering in Dubai?",
+   "answer": [
+    "Ten guests on volume formats, 20 guests on buffet, and a minimum order value of AED 900. A plated private chef carries no headcount minimum, so a two-guest dinner is a real booking."
+   ]
+  },
+  {
+   "question": "What questions should I ask a catering service?",
+   "answer": [
+    "Six do most of the work: what guest count does this per-head rate assume, is staffing inside the figure or beside it, what is your minimum in writing today, which document sits behind that compliance claim, what notice do you need for my exact format, and how does the kitchen handle allergens."
+   ]
+  },
+  {
+   "question": "What are common red flags with catering companies?",
+   "answer": [
+    "A price that changes between pages of the same website, different lead times quoted on different pages of one site, a market-average range published by a company that prints no rate of its own, and a compliance badge with no issuing body and no date on it."
+   ]
+  },
+  {
+   "question": "What are the 7 functions of catering?",
+   "answer": [
+    "Planning the brief, designing the menu, buying and sourcing the ingredients, preparing the food, transport and setup at the venue, service on the night, and clear-down afterwards. Every quote you read is one of those seven priced in a different way."
+   ]
+  },
+  {
+   "question": "How much notice does a caterer in Dubai need?",
+   "answer": [
+    "48 hours for a standard private-chef experience, 72 hours for BBQs and standard catering packages, 3 to 5 days for live cooking stations and multi-staff events, 5 to 7 days for bespoke menus and larger private events, and 7 to 14 days or more for weddings and corporate functions."
+   ]
+  },
+  {
+   "question": "Who holds the food licence for my booking?",
+   "answer": [
+    "MyCHEF designs and manages each experience, and appropriately licensed culinary partners perform the regulated food services. Each partner must hold the trade licences, food-safety approvals and trained personnel applicable to the specific services it performs."
+   ]
+  },
+  {
+   "question": "Can I get allergen information before I book?",
+   "answer": [
+    "Yes. Dubai Municipality's Food Code 2.0 requires allergen information for phone and online orders to be given before the purchase is completed, and for buffet items it should be given item by item. Send your dietary list with your enquiry."
+   ]
+  },
+  {
+   "question": "What is the myCHEF VIP Club?",
+   "answer": [
+    "The myCHEF VIP Club is an annual membership of AED 199 for 12 months, with no automatic renewal. Members get a 10% discount on the myCHEF coordination or service fee on eligible bookings — the discount is capped at AED 500 per booking and can be used up to four times per membership year — plus one chef-selected canape upgrade a year. VIP members receive priority consideration for quotations and available booking slots during busy periods. Full terms are on the VIP Club page."
+   ]
+  },
+  {
+   "question": "What is myCHEF Booking Protection?",
+   "answer": [
+    "Confirmed bookings include myCHEF Booking Protection. If the assigned delivery partner becomes unavailable, we will seek a suitable replacement or refund the amount paid for the affected service that cannot be delivered. Terms and exclusions apply. Booking Protection is not insurance. The full terms are on the Booking Protection page."
+   ]
+  },
+  {
+   "question": "Are chefs background checked?",
+   "answer": [
+    "Chefs and service professionals are subject to identity, credential, reference and role-appropriate background checks before being approved for eligible myCHEF bookings. The checks applied depend on the person's role, engagement status and available lawful verification records. The full process is on the how we vet our chefs page."
+   ]
+  }
+ ]
+}

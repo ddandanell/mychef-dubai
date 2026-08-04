@@ -1,0 +1,181 @@
+{
+ "url": "/apartment-private-dining-dubai",
+ "keyword_strategy": {
+  "main_keyword": "apartment private dining catering dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 8,
+  "subkeywords_carried": 8,
+  "coverage_percent": 100,
+  "subkeywords_carried_list": [
+   "home catering dubai",
+   "arabic catering dubai",
+   "private dinner in dubai",
+   "small party catering dubai",
+   "romantic private dining dubai",
+   "small party catering dubai indian",
+   "apartment private dining catering dubai price",
+   "cheap apartment private dining catering dubai"
+  ],
+  "subkeywords_not_carried": [],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Apartment Private Dining Catering Dubai | from AED 700–950 per person | myCHEF",
+  "meta_description": "Apartment private dining catering in Dubai, AED 700-950 per person. A private chef dinner sized for apartment kitchens - romantic dinners, Arabic and Indian menus, full service and cleanup.",
+  "h1": "Apartment Private Dining Catering in Dubai — Menus, Prices and What's Included"
+ },
+ "opening_paragraph": [
+  "Apartment private dining catering in Dubai from myCHEF is a private chef dinner sized for a flat, not a ballroom, from AED 700 per person. A vetted chef designs the menu, cooks in your own kitchen, serves each course and clears down afterwards, so a compact Marina or Downtown apartment becomes the setting for a proper multi-course evening. You keep the intimacy of home with the polish of a restaurant, and none of the work lands on you. Tell us your date, guest count and venue, and during our published business hours you will have an itemised proposal back promptly."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "Apartment Dining Questions",
+   "match_confidence": 0.57,
+   "new_heading": "Common questions",
+   "new_paragraphs": [
+    "How much does apartment private dining catering cost in Dubai?",
+    "It is AED 700–950 per person — quoted by group size, menu and service level, with the chef, ingredients, service and cleanup all included. Send your details for an exact quote.",
+    "What is included in apartment private dining catering services?",
+    "Included is menu design, a vetted chef, cooking on site, plated service and setup, plus cleanup — full apartment private dining catering services instead of a drop-off.",
+    "Can a chef cook in a small apartment kitchen?",
+    "Yes. The menu is designed around your oven and hob, with heavy prep done off-site, so a compact kitchen stays calm and the food still arrives hot and on time.",
+    "How many guests can apartment private dining seat?",
+    "Most apartment dinners run for 2 to 12 guests. For larger numbers we switch to a grazing or sharing format that suits the space.",
+    "Do you offer corporate and party apartment private dining?",
+    "Yes. Small corporate dinners, client hosting and celebration parties are all common, and the menu and service scale to the occasion.",
+    "How do I book?",
+    "Booking starts with your date, guest count and venue; we send an itemised proposal promptly during our published business hours, then match a chef and confirm the menu.",
+    "For apartment private dining catering, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements ."
+   ]
+  },
+  {
+   "block_on_your_page": "Book Apartment Private Dining",
+   "match_confidence": 0.65,
+   "new_heading": "How to hire apartment private dining catering in Dubai",
+   "new_paragraphs": [
+    "To hire apartment private dining catering in Dubai, send three things — your date, guest count and venue — and we do the rest. From there we match a vetted chef to your occasion and cuisine, agree the menu and any dietary needs together, and confirm the kitchen and access details. You receive an itemised proposal promptly during our published business hours, so there are no hidden lines. On the evening the chef arrives ahead of your guests, sets up, cooks and serves each course, then clears down. Payment and confirmation are handled in advance. It is a private chef dinner run to a professional standard, delivered in your own home — start whenever you are ready."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "Formats for Every Occasion",
+  "Explore myCHEF Dubai",
+  "Your Apartment, Your Private Restaurant",
+  "Apartment Dining, Elevated"
+ ],
+ "add_block": [
+  {
+   "new_heading": "What does apartment private dining catering in Dubai include?",
+   "new_paragraphs": [
+    "It includes everything from menu to cleanup, so nothing about the meal is left to you. A myCHEF apartment private dining caterer in Dubai builds a menu around your tastes and your kitchen, brings the ingredients, cooks on site, plates and serves each course, then leaves the flat as they found it. These are full apartment private dining catering services, not a drop-off tray: one chef (and, for larger tables, a server) handling prep, timing, service and the washing-up. As an apartment private dining catering company, we also carry the details that make an evening feel considered — a tasting note for each course, dietary swaps, and a service pace matched to the mood you want. You host; your chef runs the kitchen. If you would compare formats first, our private chef vs catering guide sets the two side by side."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Your Apartment, Your Private Restaurant'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Apartment private dining for celebrations, corporate evenings and parties",
+   "new_paragraphs": [
+    "The format flexes to the occasion, from a two-person anniversary to a twelve-seat celebration. Birthdays, proposals and date nights are the most common apartment private dining catering for events in Dubai, where the small scale is the point — a private apartment private dining chef in Dubai cooking a few metres from the table turns dinner into the entertainment. It works just as well for corporate apartment private dining catering in Dubai: a director hosting clients or a small team dinner in a serviced apartment, run quietly and professionally. For lighter, standing occasions we shift to apartment private dining party catering in Dubai — grazing boards, canapés and sharing plates instead of a formal sit-down. Whatever the brief, we size the menu and the service to the room instead of forcing a banquet into a living room."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Your Apartment, Your Private Restaurant'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Romantic private dining in Dubai, at home",
+   "new_paragraphs": [
+    "Romantic private dining in Dubai usually means a restaurant table with other people three feet away, and the version people actually want is the one where nobody else is in the room. An apartment gives you that for a fraction of the effort: the chef arrives before you do, sets the table, works quietly in the kitchen, sends four or five courses out at your pace, and leaves once dessert is on the table if you would rather have the last hour to yourselves. That last detail matters more than any dish — a proposal, an anniversary or a first date night at home does not want a stranger tidying up in the background at the moment it counts, so we agree the chef’s exit time before the evening starts.",
+    "The things that make it work are small and worth asking for. Courses paced slowly, so a two-hour dinner takes two hours instead of ninety minutes. A menu built around what the two of you actually eat, not a set list. A dessert plated for the occasion if there is something to mark. Mocktail or wine pairing mapped course by course. Lighting and table styling handled, because that is the difference between dinner at home and an occasion at home. If you are planning a proposal, tell us at the enquiry stage and the timing works around it — when the ring appears, the kitchen goes quiet. Our date night package is the packaged version of exactly this evening."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Your Apartment, Your Private Restaurant'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What is on an apartment private dining menu in Dubai?",
+   "new_paragraphs": [
+    "Your apartment private dining menu in Dubai is built to order, not chosen from a fixed list. Most evenings run three to five courses — a canapé or amuse, a starter, a main and dessert — designed around what one oven and a compact hob can execute flawlessly, so the food arrives hot and on time. Cuisine is yours to set: modern European, Mediterranean, Arabic, Levantine, Asian or a tasting menu that travels across them. The apartment private dining food catering is prepped so the technical work happens ahead, leaving only finishing and plating in your kitchen. Vegetarian, vegan and halal menus are standard. Gluten-free, nut-conscious and other dietary options may be available on request, subject to confirmation by the assigned culinary partner — partner kitchens may handle allergens, and cross-contact cannot be completely excluded unless dedicated controls have been specifically confirmed for the booking. Tell us about allergies when you enquire, not on the day. Want a wine or mocktail pairing suggestion per course? The chef will map one to the menu so the sequence feels complete."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Your Apartment, Your Private Restaurant'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "An Indian menu for a small party in an apartment",
+   "new_paragraphs": [
+    "Indian is one of the most requested cuisines for small party catering in Dubai, and an apartment changes how it is cooked rather than whether it can be. A tandoor does not come into a flat — it is an open-topped oven holding charcoal or gas heat for hours, and a residential kitchen has neither the extraction nor the fire rating for one — so the naan, kulcha and tandoori marinades are fired in a partner’s licensed tandoor kitchen and finished in yours. In practice that means kebabs and tikka seared on a cast-iron plancha in front of you, breads brushed and cooked to order on a tawa at the table instead of stacked cold, and the slow dishes — dum biryani, a dal that has had eight hours, a Kerala fish curry, laal maas — brought most of the way in a partner kitchen and finished in yours, so your single oven is not doing four jobs at once. For six to twelve guests the format that works is a short tasting run instead of a full thali: two or three chaat-style bites with drinks, a kebab course, one biryani and two curries with breads for the table, then a kulfi or a shrikhand to finish. Say at enquiry how hot the group eats and whether the table is fully vegetarian; both change the menu, and neither costs more."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Your Apartment, Your Private Restaurant'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Styling and logistics in a compact apartment kitchen",
+   "new_paragraphs": [
+    "Good apartment dining is a logistics problem solved before the chef arrives, and that planning is what you are hiring. We confirm your kitchen — oven, hob rings, fridge space and prep surface — so the menu is designed to fit, not to fight the room. The chef brings their own tools and does most heavy prep off-site, keeping mess, noise and smell to a minimum in a home setting. We handle building access, service-lift timing and parking where a tower needs it, and we plan table styling that suits the space instead of crowding it. Cleanup is included: bins bagged, surfaces wiped, kitchen reset. If you are searching for apartment private dining home catering or an apartment private dining caterer near me, this is the practical difference — the evening feels effortless because the constraints were mapped first.",
+    "What can be cooked in a Dubai apartment",
+    "A tower decides the cooking method before the menu does, and knowing the rule saves a conversation on the night. The balcony is closed to all of it: Emaar's vertical-community rules prohibit \"barbecues, grills, or any cooking equipment of any kind\" on balconies and terraces regardless of fuel, and bringing an LPG cylinder up into the unit is barred separately. So a charcoal mangal, a robata counter or a gas shawarma spit belongs outdoors on a villa's own plot, or at an open-air site myCHEF clears with the operator before quoting — not in a flat. Indoors the limit is extraction: a live smoker, a wood-fired oven or an open fryer all need a grease-rated hood and suppression that no domestic kitchen carries, and a tower's detectors find the smoke long before the food is ready.",
+    "What does run in an apartment covers most of the theatre guests come for. Induction and plancha cooking at the counter, which needs no fuel approval at all. An electric saj dome for bread rolled and flipped in front of the table, where building management signs off the appliance and the socket has the headroom. And a live carvery — a whole smoked brisket or a leg of lamb sliced to order, which needs no heat source in the room, and is the honest replacement for a smoker, because the theatre of smoking is the carve, not the fire. Everything requiring flame is cooked in a licensed partner kitchen, carried hot-held and finished in your kitchen. If your tower has a designated barbecue station, usually a fitted gas unit, your chef can cook at it with written permission from the community manager."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Your Apartment, Your Private Restaurant'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How much does apartment private dining catering cost in Dubai?",
+   "new_paragraphs": [
+    "Apartment private dining catering prices in Dubai start from AED 700 per person and typically run to AED 950, set by menu, guest count and service level. Smaller tables sit at the upper end because the chef's time is shared across fewer covers; larger groups bring the per-head figure down. The apartment private dining catering cost covers the chef, ingredients, service and cleanup — an all-in figure, not a base rate with surprises. For structured apartment private dining catering packages, a tasting menu is priced at AED 1400, and multi-course event packages run from AED 1200 to AED 5500 depending on scope. Whether you want an affordable apartment private dining catering evening or the best, most luxury apartment private dining catering experience, the quote is itemised so you see exactly what you are paying for. See our prices and the catering price guide for full detail.",
+    "Is there a cheap version of apartment private dining in Dubai?",
+    "Honestly, not at this price band, and it is fairer to say so than to pretend. Apartment private dining catering is priced from AED 700 to 950 per person because you are paying for one chef’s whole evening spread across a small number of covers — four guests do not make that cheaper than eight, they make it dearer per head. If the budget is the fixed thing, there are three routes that are genuinely cheaper and still good. Fill the table: at ten or twelve guests the per-head figure sits at the bottom of the range instead of the top. Shorten the menu: three considered courses cost less than five and rarely feel like less of an evening. Or change format entirely — a drop-off or buffet spread from our catering service starts at AED 90 to 120 per person with a 10-guest minimum and an AED 900 minimum order, which is a different product, not a discounted one: no chef cooking live, no plated service, no course pacing. What we will not do is quote a cheap headline for the chef-on-site format and recover it in ingredients, staffing or travel afterwards."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Your Apartment, Your Private Restaurant'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Why myCHEF",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you own the evening, we carry the work. The partner verification framework myCHEF is rolling out applies to apartment private dining catering as it does everywhere else: identity and licence checks, a practical assessment, reference verification and post-event review. We are honest about it, too: no system removes every risk, so we match each event to the chef well suited to it.",
+    "For an occasion like this, that might be Ahmed Al-Rashid , who brings 18+ years across Dubai, London and Paris in classical French technique. He designs each menu as a collaboration with the host, every course timed, seasoned and served to exacting standards — ideal for the close quarters of an apartment dinner. We have run apartment private dining catering alongside villa weddings, yacht celebrations and corporate galas across Dubai. Client feedback is published only after an event is delivered — real feedback, not fabricated."
+   ],
+   "insert_after_block": "Book Apartment Private Dining",
+   "position": "after the block titled 'Book Apartment Private Dining'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning apartment private dining catering step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your apartment private dining catering proposal arrives promptly during our published business hours.",
+    "Book as early as you can — as a guide, 48 hours for a standard private-chef dinner and 5–7 days for a bespoke tasting menu. Short notice is assessed individually.",
+    "Confirm your apartment private dining catering menu about 7 days out, when the guest list is firm.",
+    "Ask early about allergies and dietary plates — not in the last 48 hours before apartment private dining catering.",
+    "Check the access route before apartment private dining catering day — setup starts roughly 2 hours ahead.",
+    "Plan on roughly 3 hours of apartment private dining catering service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": "Your Apartment, Your Private Restaurant",
+   "position": "after the block titled 'Your Apartment, Your Private Restaurant'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which apartment private dining catering format suits your event?",
+   "new_paragraphs": [
+    "Format Service staff Guests it suits Indicative cost",
+    "Drop-off to the apartment None 10 and above, informal From AED 90 per person",
+    "Grazing and sharing spread 1 10–20 standing From AED 150 per person",
+    "Plated dinner, chef on site 1–2 2–12 seated AED 700–950 per person",
+    "Tasting menu with pairing 2 2–10 seated From AED 1,400 per person"
+   ],
+   "insert_after_block": "Your Apartment, Your Private Restaurant",
+   "position": "after the block titled 'Your Apartment, Your Private Restaurant'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  }
+ ],
+ "faq": []
+}

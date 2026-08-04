@@ -1,0 +1,190 @@
+{
+ "url": "/locations/jvc",
+ "keyword_strategy": {
+  "main_keyword": "private chef jvc",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 7,
+  "subkeywords_carried": 5,
+  "coverage_percent": 71,
+  "subkeywords_carried_list": [
+   "how much does a private chef cost in dubai?",
+   "how much does it usually cost to have a private chef?",
+   "best private chef jvc",
+   "private chef jvc reviews",
+   "full time private chef dubai"
+  ],
+  "subkeywords_not_carried": [
+   "how much should you charge as a private chef?",
+   "private chef atelier"
+  ],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Private Chef JVC | Villa Dining & Catering | myCHEF",
+  "meta_description": "Private chef & catering in JVC from AED 700pp — villa dining, events and bespoke menus with vetted chefs. Serving Jumeirah Village Circle townhouses. Request a proposal.",
+  "h1": "Private Chef & Catering in JVC — What It Costs and How to Book"
+ },
+ "opening_paragraph": [
+  "A private chef in JVC starts from AED 700 per person — myCHEF sends a vetted chef to your Jumeirah Village Circle townhouse to plan the menu, cook in your own kitchen, serve and clear away. JVC runs on townhouses, gardens and young families, and a relaxed dinner at home beats the drive to the Marina. Send your date and address and, during our published business hours, you will have a chef match and an itemised proposal back promptly."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "Who Books Private Chef & Catering in JVC?",
+   "match_confidence": 0.72,
+   "new_heading": "How much does a private chef cost in JVC?",
+   "new_paragraphs": [
+    "A private chef in JVC starts from AED 700 per person , priced per head, and the JVC private chef cost drops as the table grows. Two guests sit nearer AED 950–1,300 each for a full multi-course experience; six land around AED 750–1,000; ten or more come from AED 700. The final number depends on your menu, courses, service level and whether you want extra staff. There are no hidden venue fees — you already have the space. For the full breakdown of what drives the price, see private chef prices in Dubai , or send your guest count and menu ideas and we will send an itemised quote with no obligation."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "At a Glance",
+  "Premium family catering tailored to JVC's fast-growing community of young families and home entertainers.",
+  "Properties We Serve in JVC",
+  "What Is Included in JVC Catering",
+  "Menu Styles for JVC Celebrations",
+  "Why myCHEF Dubai for JVC Catering",
+  "Delivery & Access in JVC",
+  "Also Serving Near JVC",
+  "Services in JVC",
+  "Explore Our Services",
+  "Popular Events in JVC",
+  "Questions About JVC Catering",
+  "Plan Your JVC Private Dining Event",
+  "Explore myCHEF Dubai",
+  "How JVC Private Chef Catering Works",
+  "Popular JVC Catering Occasions"
+ ],
+ "add_block": [
+  {
+   "new_heading": "What a private chef in JVC includes",
+   "new_paragraphs": [
+    "A private chef in JVC is a full in-villa dining service, not a food drop-off. One personal chef takes the whole evening off your plate: a menu built around your tastes, the shopping and prep, cooking live in your townhouse kitchen, plated service to the table and a kitchen left cleaner than they found it. For larger tables we add service staff so nobody is stuck refilling plates. You provide the space and the hob; the chef brings the plan, the technique and any specialist kit. Because JVC homes have working family kitchens instead of show kitchens, our chefs are used to cooking a polished multi-course menu from a standard townhouse setup — no rental equipment or venue hire required. From the first hello to the last cleared plate, the experience is designed so you sit with your guests, not in the kitchen."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'At a Glance'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Private chef in JVC for birthdays, parties and family dinners",
+   "new_paragraphs": [
+    "Most JVC bookings are family dinners at home, birthday and kids' catering, and casual garden gatherings — so the service flexes to match. For an intimate personal chef dinner, expect a calm, plated multi-course evening for two to eight. For a birthday or a JVC dinner party, the chef scales portions, adds sharing platters and keeps the pace lively. For a garden BBQ or pool-side afternoon, we run relaxed live grilling and generous spreads. Kids' parties get their own crowd-pleasing menu alongside the grown-up food. JVC event catering and JVC party catering both run on the same vetted-chef backbone, just sized to your headcount and setting. Tell us the occasion and the number of guests and the format follows — quiet date night, noisy family feast or full home celebration."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'At a Glance'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Villa dining and logistics in JVC",
+   "new_paragraphs": [
+    "Villa dining in JVC takes little effort to run because the neighbourhood is built for it — street-level access, private parking outside most townhouses and gardens that double as a natural setting for a BBQ or drinks. A villa chef in JVC arrives with the plan and any specialist equipment, sets up in your kitchen, and works to an agreed timeline so courses land when you want them. There is no venue to hire and no logistics puzzle: your home is the venue. For garden events we handle outdoor grilling and weather-aware setups; for indoor dinners we work quietly around your living space. The chef confirms parking, kitchen access and timing before the day, so setup on the night is calm. When the meal is done, the team clears, washes up and packs out, leaving you with the evening and none of the mess."
+   ],
+   "insert_after_block": "Popular JVC Catering Occasions",
+   "position": "after the block titled 'Popular JVC Catering Occasions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Why myCHEF",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you own the evening, we carry the work. Every chef working on private chef jvc has cleared identity checks, a practical cooking assessment, reference verification and ongoing performance reviews — a continuous standard, not a one-time tick. We are honest about it, too: no system removes every risk, so we match each event to the best available chef for it.",
+    "For an occasion like this, that might be Ahmed Al-Rashid — 18+ years across Dubai, London and Paris in classical French technique — he designs each menu as a collaboration with the host, every course timed, seasoned and served to exacting standards. We have delivered intimate villa dinners and large celebrations across Dubai's communities. Covers private chef jvc; client reviews go up as events are delivered."
+   ],
+   "insert_after_block": "How JVC Private Chef Catering Works",
+   "position": "after the block titled 'How JVC Private Chef Catering Works'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Private chef across JVC and nearby Dubai",
+   "new_paragraphs": [
+    "We cover the whole of JVC and the communities around it. If you are searching for a private chef near JVC, the same vetted network serves Jumeirah Village Circle townhouses, villas across the districts and the mid-rise apartment buildings, plus adjacent neighbourhoods for a home chef or luxury private chef booking.",
+    "Jumeirah Village Circle townhouses and gardens",
+    "villas across the districts",
+    "mid-rise apartment buildings",
+    "Just outside JVC we also serve Dubai Hills and JLT — or explore all Dubai locations ."
+   ],
+   "insert_after_block": "How JVC Private Chef Catering Works",
+   "position": "after the block titled 'How JVC Private Chef Catering Works'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning private chef jvc step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your private chef jvc proposal arrives.",
+    "Book private chef jvc about 2 weeks ahead off-peak, and 6 weeks ahead between November and March.",
+    "Confirm what goes on the private chef jvc menu 7 days out, once the count settles.",
+    "Ask for special diets up front; private chef jvc plates are planned, not improvised inside 48 hours .",
+    "Check loading and access details; allow 2 hours of private chef jvc setup on site.",
+    "Plan on roughly 3 hours of private chef jvc service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": "How JVC Private Chef Catering Works",
+   "position": "after the block titled 'How JVC Private Chef Catering Works'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which private chef jvc format suits your event?",
+   "new_paragraphs": [
+    "Format What it gives you Staffing Cost position",
+    "Drop-off Food delivered ready to serve None Entry point",
+    "Buffet Presentation plus a maintained spread 1–2 From AED 700 per person",
+    "Live stations Cooking in front of your guests 2–4 Mid-range",
+    "Plated Every course served together 3 and above Top of the range"
+   ],
+   "insert_after_block": "How JVC Private Chef Catering Works",
+   "position": "after the block titled 'How JVC Private Chef Catering Works'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Common questions",
+   "new_paragraphs": [
+    "How much does a private chef cost in JVC?",
+    "Private dining in JVC starts from about AED 700–950 per person, depending on guest count, menu and service level. Larger groups come down per head; send your numbers for an exact quote.",
+    "Which parts of JVC do you serve?",
+    "All of JVC — Jumeirah Village Circle townhouses, villas across the districts and the surrounding streets — plus nearby Dubai communities. Confirm your exact address when you enquire.",
+    "What's included?",
+    "A vetted chef, service staff where needed, plating, setup and the cleanup are all handled for you. You get menu design, cooking in your kitchen, table service and a spotless finish.",
+    "How do I book?",
+    "Share your date, guest count and address; we match a vetted chef and send an itemised proposal, usually within one business day.",
+    "Can a JVC villa chef cook in my townhouse kitchen?",
+    "Yes — a villa chef in JVC works comfortably in a standard townhouse kitchen. The chef brings the plan and any specialist kit, uses your hob and oven, and leaves the kitchen as they found it.",
+    "Do you cater larger JVC parties and events, not just dinners?",
+    "Yes — beyond private dining we handle JVC event catering and party catering: birthdays, kids' parties, garden BBQs and dinner parties, from finger food and grazing spreads to full plated menus.",
+    "How far ahead should I book a private chef in JVC?",
+    "Three to five days is comfortable for a weekend dinner; larger parties and festive dates want one to two weeks' notice. Short-notice requests are still worth sending.",
+    "For private chef jvc, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements ."
+   ],
+   "insert_after_block": "How JVC Private Chef Catering Works",
+   "position": "after the block titled 'How JVC Private Chef Catering Works'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "More on private chef jvc",
+   "new_paragraphs": [
+    "Private chef al barsha",
+    "Private chef jlt",
+    "Private chef emirates hills",
+    "Private chef business bay",
+    "Get an itemised quote"
+   ],
+   "insert_after_block": "How JVC Private Chef Catering Works",
+   "position": "after the block titled 'How JVC Private Chef Catering Works'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How to hire a private chef in JVC",
+   "new_paragraphs": [
+    "To hire a chef in JVC, send three things: your date, your guest count and your JVC address. From there we match a vetted chef to your occasion, agree the menu and send an itemised proposal — usually within one business day, and promptly during our published business hours for a quick match. You approve the menu and price, we confirm the booking, and the chef contacts you before the day to lock timing, kitchen access and any final tweaks. On the day the chef arrives ahead of service, cooks, serves and cleans up. If you are still weighing a full personal chef against drop-off trays, compare private chef vs catering first, then request your quote. It is a chef for hire without the agency runaround — one point of contact from enquiry to the last plate."
+   ],
+   "insert_after_block": "How JVC Private Chef Catering Works",
+   "position": "after the block titled 'How JVC Private Chef Catering Works'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  }
+ ],
+ "faq": []
+}

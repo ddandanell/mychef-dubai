@@ -1,0 +1,224 @@
+{
+ "url": "/locations/jlt",
+ "keyword_strategy": {
+  "main_keyword": "private chef jlt",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 9,
+  "subkeywords_carried": 8,
+  "coverage_percent": 89,
+  "subkeywords_carried_list": [
+   "how much does a private chef cost in dubai?",
+   "how much should you charge as a private chef?",
+   "how much does it usually cost to have a private chef?",
+   "personal chef",
+   "private chef jlt dubai",
+   "private chef jlt reviews",
+   "private chef at home dubai",
+   "full time private chef dubai"
+  ],
+  "subkeywords_not_carried": [
+   "who is the executive chef of taj jlt?"
+  ],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Private Chef JLT | Villa Dining & Catering | myCHEF",
+  "meta_description": "Private chef & catering in JLT from AED 700pp — villa dining, events and bespoke menus with vetted chefs. Serving Jumeirah Lake Towers clusters around the lakes. Request a proposal.",
+  "h1": "Private Chef & Catering in JLT — Menus, Prices and What's Included"
+ },
+ "opening_paragraph": [
+  "A private chef in JLT costs from AED 700 per person, and myCHEF sends a vetted chef who plans the menu, cooks and serves every course. That brings restaurant-quality dining to your apartment, with no need to book a table two towers over or fight for parking on a Friday night.",
+  "MyCHEF matches you with a chef, sets the menu around your occasion, and runs the whole evening — cooking, service and cleanup — inside the Jumeirah Lake Towers cluster you already call home. Most guests here are residents and professionals in the lakeside high-rises beside Dubai Marina, and during our published business hours you will usually hear back promptly with a chef match and an itemised proposal."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "What Is Included in JLT Catering",
+   "match_confidence": 0.55,
+   "new_heading": "What is on the menu for a JLT booking?",
+   "new_paragraphs": [
+    "Everything is bespoke — you are not choosing from a laminated card. Menus span Arabic , Mediterranean , Italian , Indian and Pan-Asian, and every one can be built fully halal , vegetarian or vegan, with allergen-aware menus on request, subject to confirmation by the assigned culinary partner. A JLT dinner party might run mezze and grills for a mixed group, a multi-course tasting for a milestone, or a relaxed sharing feast for family. The chef confirms dietary needs, dislikes and any theme before the menu is locked, so nothing arrives as a surprise. Browse sample menus for a starting point or describe the evening you have in mind and the chef designs around it. Because ingredients are bought fresh for your date, seasonal produce and market fish shape the final dishes instead of a rigid catalogue."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "At a Glance",
+  "Lakeside private chef and corporate catering built for JLT's mix of DMCC offices, high-rise residences and outdoor spaces.",
+  "Properties We Serve in JLT",
+  "Menu Styles for JLT Events",
+  "Why myCHEF Dubai for JLT Catering",
+  "Popular JLT Catering Occasions",
+  "Delivery & Access in JLT",
+  "Also Serving Near JLT",
+  "Services in JLT",
+  "Explore Our Services",
+  "Popular Events in JLT",
+  "Questions About JLT Catering",
+  "Book Catering for Your JLT Event",
+  "Explore myCHEF Dubai",
+  "Who Books Private Chef & Catering in JLT?",
+  "How JLT Private Chef Catering Works"
+ ],
+ "add_block": [
+  {
+   "new_heading": "What does a private chef in JLT include?",
+   "new_paragraphs": [
+    "A private chef JLT booking is fully hands-off for you: menu design, the chef on site, service staff where needed, plating and full cleanup are all part of one price. You confirm the date, guest count and cluster; the chef confirms the dishes, shops for fresh ingredients, arrives with the equipment your apartment kitchen lacks, and leaves the space as clean as it was found. This is the difference between catering JLT that drops off trays and a personal chef who cooks in front of you. For a quiet dinner for two or a table of twelve, the private dining JLT format is the same — a professional kitchen brought to your counter, minus the noise, the queue and the drive home afterwards. Nothing on the night is your job except deciding who sits where."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'At a Glance'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Private chef JLT for dinner parties, celebrations and corporate events",
+   "new_paragraphs": [
+    "JLT bookings lean toward three occasions, and each is handled by the same core service. Apartment and villa dining tops the list — an intimate dinner party where a home chef plates each course while you stay at the table. Next come small celebrations: birthdays, anniversaries and engagements where JLT party catering turns a living room into the venue. Third is work — corporate team dinners and after-hours JLT event catering for the offices packed into the cluster towers. Whether it is villa catering for a family gathering or a canapé-and-cocktail reception, the chef and menu are built around your guest list instead of a fixed package. Group size sets the format: seated and plated for a dozen, or grazing stations and finger food for a livelier crowd. Tell us the occasion and the chef adapts course count, pacing and presentation to match."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'At a Glance'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How does private dining work in a JLT tower?",
+   "new_paragraphs": [
+    "JLT's cluster layout and shared service lifts mean logistics matter, so we sort them before the day. When you book, we confirm the tower, cluster letter and loading or service-lift access up front, which is how an in-villa chef arrives, sets up and plates on time in a high-rise instead of getting stuck at a security desk. Most JLT kitchens are apartment-sized, so the chef plans equipment and prep to suit the space — compact stations, quiet cooking and tidy handling of a small galley kitchen. Parking and guest access are confirmed too, so your arrivals are not left circling the podium. It is the practical groundwork that keeps a lakeside apartment dinner feeling effortless: you and your guests notice the food, not the operation behind it."
+   ],
+   "insert_after_block": "What Is Included in JLT Catering",
+   "position": "after the block titled 'What Is Included in JLT Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How do I hire a chef in JLT?",
+   "new_paragraphs": [
+    "Booking is three steps and usually settles inside a business day. First, share your date, guest count and JLT address; second, we match a vetted chef suited to your cuisine and occasion and send an itemised proposal; third, you confirm and we lock the menu with the chef ahead of the day. To hire a chef in JLT you do not need to know the menu in advance — many guests start with just an occasion and a budget, and the chef shapes the rest. On the night, the chef and any service staff handle setup, cooking, service and cleanup, so a chef for hire in JLT leaves you free to host. Change of numbers or a late dietary note is fine; just tell us before the shop."
+   ],
+   "insert_after_block": "How JLT Private Chef Catering Works",
+   "position": "after the block titled 'How JLT Private Chef Catering Works'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Can you book a chef in JLT regularly, or full time?",
+   "new_paragraphs": [
+    "Yes, and the pricing changes when you do. A one-off dinner is priced per person; a standing arrangement is not. Weekly meal prep in JLT starts from AED 1,898 a week for the Lite plan and AED 2,698 for Standard, with the chef cooking and portioning a week of meals in your apartment kitchen. A full time private chef in Dubai — one chef running the household kitchen daily — is quoted per placement instead of per head, because the figure depends on meals per day, household size and days worked. Both are set out on the weekly meal prep and full-time private chef pages, and either can start with a single JLT dinner to see how the chef cooks."
+   ],
+   "insert_after_block": "Who Books Private Chef & Catering in JLT?",
+   "position": "after the block titled 'Who Books Private Chef & Catering in JLT?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Are there reviews of private chefs in JLT?",
+   "new_paragraphs": [
+    "Not yet, and saying so beats inventing them. MyCHEF publishes client reviews only as events are delivered, so there is no star rating on this page to weigh up. What you can check instead is more useful than a one-line review: the per-head prices above are published rather than hidden behind a quote request; the chefs are named, with their kitchens and years of experience. Ask on your enquiry and we will tell you what we can share about the chef matched to your date."
+   ],
+   "insert_after_block": "Who Books Private Chef & Catering in JLT?",
+   "position": "after the block titled 'Who Books Private Chef & Catering in JLT?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which parts of JLT do you serve?",
+   "new_paragraphs": [
+    "All of it — every cluster of Jumeirah Lake Towers around the lakes, plus the wider neighbourhood. A luxury private chef reaches lakeside penthouses, high-rise apartments and duplexes alike, and we regularly cover the streets and offices between the towers.",
+    "Jumeirah Lake Towers clusters around the lakes",
+    "high-rise apartments and duplexes",
+    "lakeside penthouses and offices",
+    "We also serve the communities next door, so a private chef near JLT takes little effort to arrange whether your guests are here or one district over. Explore Dubai Marina and DIFC , or see all Dubai locations . Still deciding on a format? Compare private chef vs catering to see which suits your event."
+   ],
+   "insert_after_block": "Who Books Private Chef & Catering in JLT?",
+   "position": "after the block titled 'Who Books Private Chef & Catering in JLT?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning private chef jlt step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your private chef jlt proposal arrives.",
+    "Book as early as you can — 48 hours of notice suits a standard JLT dinner, 3 to 5 days a live station, and 5 to 7 days a bespoke menu or a larger apartment party.",
+    "Confirm your private chef jlt menu about 7 days out, when the guest list is firm.",
+    "Ask early about allergies and dietary plates — not in the last 48 hours before private chef jlt.",
+    "Check the access route before private chef jlt day — setup starts roughly 2 hours ahead.",
+    "Plan on roughly 3 hours of private chef jlt service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": "Who Books Private Chef & Catering in JLT?",
+   "position": "after the block titled 'Who Books Private Chef & Catering in JLT?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which private chef jlt format suits your event?",
+   "new_paragraphs": [
+    "Format Service staff Guests it suits Indicative cost",
+    "Drop-off None 10 and above, informal From AED 90 per person",
+    "Buffet 1–2 20–60 From AED 120 per person",
+    "Live stations 2–4 40 and above From AED 150 per person",
+    "Plated service, chef cooking on site 3 and above 2–40 seated AED 700–950 per person"
+   ],
+   "insert_after_block": "Who Books Private Chef & Catering in JLT?",
+   "position": "after the block titled 'Who Books Private Chef & Catering in JLT?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Common questions",
+   "new_paragraphs": [
+    "How much does a private chef cost in JLT?",
+    "Private dining in JLT starts from about AED 700–950 per person, depending on guest count, menu and service level. Larger groups come down per head, so send your numbers for an exact quote.",
+    "Which JLT clusters and towers do you cover?",
+    "All of JLT — every Jumeirah Lake Towers cluster around the lakes, the high-rise apartments and duplexes and the surrounding streets — plus nearby Dubai communities. Confirm your exact address when you enquire.",
+    "What is included in a private chef JLT booking?",
+    "Everything from menu planning to the chef, the service staff, the plating and the cleanup — one team covers all of it, so hosting is the only thing left to you.",
+    "Can you cook halal, vegetarian or allergen-aware menus in JLT?",
+    "Yes. Every menu can be built fully halal, vegetarian or vegan. Gluten-free, nut-conscious and other dietary menu options may be available on request, subject to confirmation by the assigned culinary partner. Partner kitchens may handle allergens, and cross-contact cannot be completely excluded unless dedicated controls have been specifically confirmed for the booking. Guests with allergies must provide full details before confirming their event.",
+    "How far ahead should I book a chef for hire in JLT?",
+    "Book as early as you can: 48 hours of notice suits a standard apartment dinner and 5 to 7 days a bespoke menu or a larger party. Weekends and peak dates fill sooner. Short-notice requests are assessed individually.",
+    "Do you cater JLT parties and corporate dinners?",
+    "Yes — JLT party catering, small celebrations and corporate team dinners are among the most common bookings here, each scaled to your guest count and cluster.",
+    "Are there reviews for a private chef in JLT?",
+    "MyCHEF publishes client reviews only as events are delivered, so there is no rating here to lean on.",
+    "Can I book a private chef in JLT full time or every week?",
+    "Yes. Weekly meal prep starts from AED 1,898 a week for Lite and AED 2,698 for Standard. A full-time household placement is quoted per placement instead of per head, because it depends on meals per day, household size and days worked.",
+    "How do I book a home chef in JLT?",
+    "Share your date, guest count and address; we match a vetted chef and send an itemised proposal, usually within one business day.",
+    "For private chef jlt, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements ."
+   ],
+   "insert_after_block": "Who Books Private Chef & Catering in JLT?",
+   "position": "after the block titled 'Who Books Private Chef & Catering in JLT?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "More on private chef jlt",
+   "new_paragraphs": [
+    "Private chef jvc",
+    "Private chef al barsha",
+    "Private chef business bay",
+    "Private chef bluewaters island",
+    "Get an itemised quote"
+   ],
+   "insert_after_block": "Who Books Private Chef & Catering in JLT?",
+   "position": "after the block titled 'Who Books Private Chef & Catering in JLT?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Why book myCHEF for private dining in JLT?",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you own the evening, we carry the work. MyCHEF is implementing a structured partner verification standard across its chef network, covering identity, trade licensing and permitted activities, food-safety and food-handler records, and references ; some stages are in place and the rest are being rolled out as part of a continuing review. We are honest about it, too: no system removes every risk, so we match each event to the chef well suited to it. For a JLT dinner, that is often Ahmed Al-Rashid , whose 18+ years across Dubai, London and Paris in classical French technique show in the way he designs each menu as a collaboration with the host, every course timed, seasoned and served to exacting standards. We have delivered intimate villa dinners and large celebrations across Dubai's communities. Client reviews are added only as events are delivered — real feedback, not fabricated."
+   ],
+   "insert_after_block": "Who Books Private Chef & Catering in JLT?",
+   "position": "after the block titled 'Who Books Private Chef & Catering in JLT?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  },
+  {
+   "new_heading": "How much does a private chef in JLT cost?",
+   "new_paragraphs": [
+    "JLT private chef cost is priced per person and starts from AED 700. Intimate dinners for two sit nearer AED 950–1,300 per head because a full chef's evening is shared between fewer guests; six guests land around AED 750–1,000; and ten or more come from AED 700 per person as the fixed effort spreads further. The quote covers the chef, the cooking, the service and the cleanup — not just the food. Most JLT bookings usually land between AED 700 and 950 a head once the menu is settled, which is what it costs to have a private chef cook and serve a full evening. If what you want is the food instead of the chef, a drop-off or buffet format starts from AED 90 per person, with a minimum of 10 guests, 20 for a buffet, and a minimum order of AED 900. JLT catering services for larger parties and corporate events are quoted on the same per-head logic, scaled to numbers and menu. See the full breakdown on private chef prices in Dubai , or send your date and guest count for an exact figure. There is no charge to receive an itemised proposal."
+   ],
+   "insert_after_block": "How JLT Private Chef Catering Works",
+   "position": "after the block titled 'How JLT Private Chef Catering Works'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  }
+ ],
+ "faq": []
+}

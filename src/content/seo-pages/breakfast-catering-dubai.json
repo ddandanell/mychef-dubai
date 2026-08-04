@@ -1,0 +1,279 @@
+{
+ "url": "/breakfast-catering-dubai",
+ "keyword_strategy": {
+  "main_keyword": "breakfast catering dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 13,
+  "subkeywords_carried": 13,
+  "coverage_percent": 100,
+  "subkeywords_carried_list": [
+   "cheap breakfast catering dubai",
+   "breakfast platters dubai",
+   "small party catering dubai",
+   "finger food catering dubai",
+   "best breakfast catering dubai",
+   "breakfast catering dubai menu",
+   "breakfast catering dubai price",
+   "breakfast buffet catering dubai",
+   "breakfast catering dubai near me",
+   "lunch catering dubai",
+   "brunch catering dubai",
+   "how much is breakfast in dubai",
+   "office breakfast catering dubai"
+  ],
+  "subkeywords_not_carried": [],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Breakfast Catering Dubai | Menus & Prices | myCHEF",
+  "meta_description": "Breakfast catering in Dubai from AED 90pp drop-off, AED 120pp staffed buffet, AED 150pp live stations. Platters, finger food and office breakfasts, itemised quotes.",
+  "h1": "Breakfast Catering in Dubai — Real Prices, Menus and Timings"
+ },
+ "opening_paragraph": [
+  "Breakfast catering in Dubai from myCHEF starts at AED 90 per person for a drop-off and AED 120 per person for a staffed buffet. A fresh morning spread — pastries, fruit, hot stations and proper coffee — is served at your home or office. A vetted private chef plans the menu, cooks it fresh, serves and clears away, so the morning stays yours. Give us the date, guest count and venue; we typically reply within 15 minutes during business hours, with a full itemised quote to follow, and we build every spread around your taste, your guests and any dietary needs."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "Breakfast Catering Formats",
+   "match_confidence": 0.74,
+   "new_heading": "Breakfast catering across Dubai",
+   "new_paragraphs": [
+    "We deliver breakfast catering across Dubai, so \"breakfast catering near me\" reaches homes, villas and offices citywide — Downtown, Business Bay, DIFC, Dubai Marina, JBR, Palm Jumeirah, Jumeirah, Emirates Hills, Arabian Ranches, Dubai Hills and the wider communities. Office kitchens, rooftop terraces, garden villas and serviced apartments are all part of a normal week, and we plan access, timing and set-up to each address. Explore brunch catering , corporate catering , or the full range of catering in Dubai to match the right morning to your event."
+   ]
+  },
+  {
+   "block_on_your_page": "What's Included in Our Breakfast Catering",
+   "match_confidence": 0.65,
+   "new_heading": "What is on a breakfast catering menu in Dubai?",
+   "new_paragraphs": [
+    "Every breakfast menu in Dubai is bespoke, but these are the starting points our chefs build from and tailor to your taste:",
+    "Pastry & bakery: croissants, pain au chocolat, Danishes, fresh breads, muffins and preserves.",
+    "Fresh & light: seasonal fruit platters, yoghurt and granola, overnight oats, chia and smoothie bowls.",
+    "Hot stations: eggs cooked to order, shakshuka, grilled halloumi, breakfast meats, hash and pancake or waffle stations.",
+    "Regional favourites: Arabic mezze, foul and manakish, Indian breakfast dishes and Continental classics.",
+    "Drinks: barista coffee, loose-leaf teas, fresh juices and infused waters.",
+    "Vegan, gluten-free, dairy-free and fully halal breakfast menus are standard, not an add-on, and every dish is labelled so guests can serve themselves with confidence."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "Start the Day With a Well-Planned Breakfast",
+  "Morning Events Made Simple",
+  "Explore myCHEF Dubai",
+  "A Taste of Our Breakfast Catering",
+  "Breakfast Catering Questions",
+  "Book Breakfast Catering That Gets the Morning Right"
+ ],
+ "add_block": [
+  {
+   "new_heading": "What does breakfast catering in Dubai include?",
+   "new_paragraphs": [
+    "Breakfast catering in Dubai from myCHEF is a complete, done-for-you morning: menu design, a vetted chef cooking on site, service staff where the numbers need them, plating, setup and full cleanup. You are not buying trays of food dropped at a door and forgotten — you are hiring a breakfast catering company that owns the whole morning. As a full-service breakfast caterer in Dubai we bring the equipment, keep hot items hot and cold items cold, label every dish for allergens, and leave your kitchen exactly as we found it. For an intimate table you can hire a private breakfast chef who cooks live in front of guests; for fifty colleagues we scale to a staffed buffet. Whether you want quiet, affordable breakfast home catering or a luxury breakfast catering set-up with live egg and pastry stations, the same standard of breakfast catering services in Dubai applies to every booking."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Start the Day With a Well-Planned Breakfast'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Breakfast catering for corporate events, weddings and parties",
+   "new_paragraphs": [
+    "Breakfast catering for events in Dubai spans everything from a boardroom start to a garden celebration, and the format shifts with the occasion. Corporate breakfast catering is our most-booked morning format: working breakfasts, team kick-offs, training days and client meetings, delivered to offices across Dubai and timed to your agenda so plates are cleared before the first session begins. Breakfast party catering suits birthdays, baby showers and weekend gatherings, with grazing tables and pastries that carry into a long, relaxed morning. Post-wedding and guest-house breakfasts give out-of-town guests a warm, unhurried send-off, while villa and residence mornings turn an ordinary weekday into something worth getting up for. Tell us the guest count and the mood and we shape the spread — and the breakfast food catering behind it — to match."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Start the Day With a Well-Planned Breakfast'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "The breakfast catering Dubai menu — course by course, brunch and high tea included",
+   "new_paragraphs": [
+    "Below is the full working menu, in the order a Dubai morning is served: the pastry basket and cold table first, hot Arabic and continental dishes behind them, live stations to one side, and the three-tier stand if the booking runs into the afternoon. Nothing here is a category placeholder. Pick a spread from it, or send it back with your own edits and the chefs build from there. Volume formats start at 10 guests, and 20 for a buffet line.",
+    "Bakery and viennoiserie — the pastry basket",
+    "Every continental spread opens here, and it is the first thing your guests form an opinion about.",
+    "Viennoiserie: all-butter croissants · pain au chocolat · almond croissants · custard Danish · pineapple Danish · assorted fruit Danish pastries.",
+    "Miniatures: mini flavoured croissants in caramel and pistachio · mini muffins, feta and olive or raspberry almond · cinnamon snails.",
+    "Breads: a bread station of white, whole wheat and sourdough · artisanal sourdough with preserves · bagels and toast with spreads · artisanal baguettes · banana bread · orange blossom scones · sausage rolls.",
+    "The cold table — dairy, cheese and preserves",
+    "Levantine and continental mornings share this table, laid out on brass trays with warm pita coming from the kitchen in rounds.",
+    "Labneh and cheese: labneh · walnut labneh · zaatar labneh · garlic labneh · shanklish · grilled halloumi · akkawi cheese · Nabulsi cheese boats.",
+    "Cured and cold cuts: French cheeses and cold cuts · smoked salmon · chicken mortadella and cheese in ciabatta.",
+    "Preserves: makdous · olives and fresh vegetables with warm pita · house-made jams · rose jam · date syrup (dibs) and local honey.",
+    "Yoghurt, parfaits and wellness bowls",
+    "This section is what separates a 2026 breakfast menu from a 2015 one, and it is the part corporate bookers ask about first.",
+    "Grains and oats: bircher muesli · toasted muesli · overnight oats · berry porridge · whole grain cereals.",
+    "Jars and pots, portioned per guest: Greek yoghurt with honey · yoghurt granola pots · chia pudding · berry chia pudding · five berry breakfast jam jar · bircher muesli jam jar · banana and honey jam jar · apple crumble jam jar · polenta pears jam jar.",
+    "Bowls: black chia bowl on a coconut milk base · açaí bowl with granola, peanut butter and fruit · pitaya smoothie pots · green morning bowl of spinach, avocado and seeds.",
+    "Fruit and juice",
+    "Fruit: seasonal fruit platter · fresh fruit salad · seasonal fruit skewers · fruit canapé box · fruit in cup box · individual exotic fruit salad with honey cinnamon yoghurt.",
+    "Juice: freshly squeezed orange · watermelon · cold-pressed detox juices · classic lemonade · berry fruit drink · an infused water station.",
+    "Hot breakfast — continental",
+    "Halal by default, so the Western plate is rebuilt with turkey bacon, beef bacon, chicken sausage and turkey ham.",
+    "Eggs: scrambled eggs with toppings · poached eggs · cheese omelette · eggs Benedict on brioche · individual quiche Alsacienne · mini quiches, vegetarian and chicken · frittatas.",
+    "From the griddle: French toast · mini pancakes · Belgian waffles · corn fritters · sweet potato rosti with poached eggs · croque-monsieur with gruyere, smoked sausage and pickled red onion.",
+    "Sides: hash browns · sautéed mushrooms · grilled tomatoes · baked beans · grilled chicken sausages · grilled turkey bacon.",
+    "Hot breakfast — Arabic and Levantine",
+    "This is the section Dubai buyers judge a caterer on, so it is written out dish by dish instead of hidden behind the words \"Arabic selection\".",
+    "Beans and eggs: foul medammas · balila, warm fava beans and chickpeas · shakshouka · eggs and sujouk · eggs and makanek · eggs and potato · eggs your way.",
+    "Fatteh and fried: hummus fatteh · eggplant fatteh · falafel.",
+    "From the saj and the oven: manakish zaatar · manakish cheese · lahm bi ajine · spinach fatayer · mini fatayer · knefeh.",
+    "Emirati Fuala — the local-heritage table",
+    "Fuala is served morning and evening, and it is the table Emirati hosts look for at a family gathering or a Ramadan morning.",
+    "Savoury: balaleet, saffron vermicelli with omelette · chebab, Emirati pancakes with date syrup · khameer bread · khubz regag · regag with cheese · dango · bajella.",
+    "Sweet and gahwa: aseed · khabeesah, a pumpkin mash · al batheetha · luqaimat with date syrup · dates with date molasses · gahwa poured with cardamom.",
+    "Indian and South Asian breakfast",
+    "Aloo paratha with chana masala · channa masala with paratha · masala dosa with sambar · idli · ragi idli · medu vada · upma · poha · fruit chaat · masala chai and karak.",
+    "Rolls, bagels and wraps — the drop-off and grab-and-go backbone",
+    "Pre-wrapped, single-hand food for a counter by the entrance, or boxed and labelled per guest for a desk drop.",
+    "Rolls and bagels: smoked salmon, pickled cucumber, red onion and mayonnaise bagel · free-range egg, turkey bacon, mayo and roasted tomato roll · sausage, turkey bacon, egg and tomato relish · portobello mushroom, egg, spinach and caramelised onion.",
+    "Croissants: tomato and emmental · Swiss cheese croissant with egg, turkey ham and tomato · croissant with salmon.",
+    "Sourdough and rye: halloumi and avocado on sourdough · smashed avocado on rye with smoked bresaola, quail egg and a fennel dill salad.",
+    "Wraps: halloumi wrap · egg and cheese wrap · spinach, mushroom and grilled halloumi pesto wrap · vegetarian frittata wrap with roasted peppers and feta · breakfast burritos · breakfast tacos.",
+    "Sandwiches: cheese and tomato in brown bread · boiled egg, mayonnaise and mustard cress in multi-cereal bread.",
+    "Brunch canapés and bowl-and-fork",
+    "The upmarket tier, built for a standing brunch where nobody sits down.",
+    "Cold: asparagus, poached quail egg, Taleggio and baguette en croûte (V) · smoked salmon with a sour cream and chive blini, pickled gherkin and mustard cress · cured mackerel, pickled fennel and horseradish crème fraîche on a poppy-seed bagel · wagyu beef cannoli with beetroot, spiced ricotta, baby herbs and sumac thyme sea salt · crab, salmon and caviar on a crumpet.",
+    "Hot: rolled omelette with wilted spinach, sausage and roasted tomato · shawarma breakfast pies with roasted tomato, spinach and egg · pepper steak and mushroom pie · chicken, asparagus and Taleggio pie · pumpkin and sage calzone with semi-dried tomatoes, buffalo mozzarella and basil · smoked chicken apple sausage egg slider · mini scotch eggs.",
+    "Bowl-and-fork: Sri Lankan egg hoppers with green sambal, split peas, sauté kale and coconut gel (V) · big breakfast waffle with wilted spinach, sausage and roasted tomato · chicken waffle with pickled fennel, roquette and a lemon dill seeded mustard dressing · ocean trout crêpes in brioche · pumpkin, spinach, mascarpone and oven-roasted tomatoes on scones (V).",
+    "Brunch salads and the grazing table",
+    "Composed salads: grilled Mediterranean vegetables with Persian feta, pesto and a baby herb salad (V) · cauliflower, quinoa, roasted fig, pomegranate, labneh, mint and orange blossom dressing (V) · roasted beetroot with peaches, white asparagus, savoury granola, cinnamon basil and verjuice (V) · heirloom tomato with Asiago, olive soil and house vinaigrette (V).",
+    "Grains and classics: Middle Eastern scented pilaf with raisins, coconut, coriander, honey and cumin vinaigrette · pickled carrot, pearl barley, dates, raisins, pine nuts, candied hibiscus and a zaatar lemon vinaigrette (V) · Caesar with garlic en croûte, quail eggs, turkey bacon and white anchovies · tuna niçoise with heirloom tomatoes, olives, chat potatoes and white anchovies.",
+    "Grazing boards: a cheddar and blue cheese platter · antipasti and cheese box · fresh vegetable platter · bruschetta caprese · sun-dried tomato bruschetta · salmon bruschetta · mini Greek salads with feta · mini salads with salmon.",
+    "Live stations, cooked in front of your guests",
+    "Stations sit on top of a buffet, not instead of one, and the theatre is half of what you are booking. Two to four is a normal count for a morning event.",
+    "Eggs and griddle: an omelette station made to order — plain, cheese, mushroom, turkey ham, beef bacon · shakshuka in individual cast-iron pans · a Belgian waffle station · a pancake station with a toppings bar.",
+    "Crepes, sweet and savoury: Nutella, strawberry and banana on one side; olives, grilled vegetables and assorted cheeses on the other.",
+    "Regional counters: a live saj turning out manakish · a dosa and idli counter · a luqaimat and regag station · jalebi with rabri.",
+    "Drinks and wellness: a barista coffee and juice bar · a wellness grain and açaí bar · a live bread-making station.",
+    "High tea — the savoury tier",
+    "Bottom tier of the three-tier stand, cut into fingers and halved so the tray reads properly.",
+    "Finger sandwiches: egg mayonnaise · cucumber · coronation-style chicken · Norwegian salmon with horseradish · smoked salmon and cream cheese · roast smoked beef with caramelised onion.",
+    "Pastry savouries: mini quiches · mini rolls · salmon and cream cheese tartlets · mushroom and cucumber canapés.",
+    "High tea — the scone tier",
+    "Scones: plain · fruit and raisin · chocolate · orange blossom.",
+    "To go with them: clotted cream · house preserves · lemon curd.",
+    "High tea — the sweet tier and petit fours",
+    "Patisserie: assorted macarons · pistachio macaroons · éclairs · profiteroles · matcha choux buns with a craquelin topping and vanilla yuzu custard · orange blossom madeleines · marmalade financier.",
+    "Tarts and cakes: lemon and lime tarts · lemon meringue tart · mini cheesecakes · chocolate brownies · chocolate, macadamia and pear brownie · cupcakes · Battenberg cake · panforte.",
+    "Petit fours: assorted chocolate truffles · almond and pistachio biscotti · cherry, rose water and hazelnut nougat · oatmeal cookies with walnuts.",
+    "The Traditional Set — Arabic and Emirati high tea",
+    "Booked as often as the international stand, and the two run side by side at a ladies' gathering or a Fuala in the evening.",
+    "Luqaimat · regag with cheese · Um Ali · Omani halwa · dates · saffron pastries · karak tea · red tea · Arabic coffee.",
+    "Coffee, tea and cold drinks",
+    "Coffee: flat white, cortado, long black and cappuccino from a speciality roast · cold brew · Lebanese coffee · Arabic coffee with cardamom · matcha · beetroot latte.",
+    "Tea: Earl Grey · Darjeeling · Moroccan mint · oud · saffron-rose · herbal infusions · karak chai.",
+    "Cold: freshly squeezed juices · smoothies · still and sparkling water.",
+    "Sweet finish, for a brunch that runs past midday",
+    "Japanese fluffy air pancake · chocolate thyme pancakes with maple syrup ice cream and honey handkerchiefs · chocolate truffle waffle with vanilla Chantilly and stone fruit compote · apple, rosemary salted caramel, candied orange and brioche · strudel · dessert profiteroles · strawberry and marshmallow platter · crème brûlée jam jar · brownie jam jar.",
+    "How the menu is served, and what to tell us",
+    "The same dishes are laid out differently depending on the morning. A hot chafing line with a cold bakery table is the default above 30 guests. A continental credenza with no hot line suits a boardroom start. Individual boxes, labelled per guest, are the fastest-moving office format in Dubai right now, and a grab-and-go bar by the entrance works when people are walking through instead of sitting down. Drop-off platters are sized by the number of people they serve. High tea comes on three-tier stands, or packed as a takeaway stand.",
+    "Dietary flags are marked inline against each dish — (V) for vegetarian — instead of buried in a note at the bottom. Gluten-free, nut-conscious and other dietary menu options may be available on request, subject to confirmation by the assigned culinary partner. Partner kitchens may handle allergens, and cross-contact cannot be completely excluded unless dedicated controls have been specifically confirmed for the booking. Guests with allergies must provide full details before confirming their event.",
+    "On timing, treat these as guidance. A standard breakfast catering package sits at about 72 hours' notice, live stations and multi-staff mornings at 3 to 5 days, a bespoke menu at 5 to 7 days, and a wedding-morning or large corporate production at 7 to 14 days or more. We recommend booking as early as possible. Lead times depend on guest numbers, menu complexity, staffing, equipment, location and partner availability. A breakfast at short notice is sometimes workable - availability is confirmed individually, never assumed."
+   ],
+   "insert_after_block": "What's Included in Our Breakfast Catering",
+   "position": "after the block titled 'What's Included in Our Breakfast Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Formats, timing and dietary planning",
+   "new_paragraphs": [
+    "The right format follows your venue and your numbers. A buffet or grazing table works beautifully for relaxed mornings; live stations add theatre and keep food at its freshest for larger crowds; plated service suits a seated corporate breakfast or a formal occasion; and a drop-off breakfast is the lean, affordable choice when you want good food to arrive ready. Timing is where breakfast is won or lost — we plan backwards from the moment you want guests eating, so pastries are just-baked and eggs hit the plate hot. On dietary planning, share allergies and preferences up front and the chef designs around them instead of substituting at the last minute. Serving fifty colleagues or six family members, the logistics — power, water, access, clear-down time — are handled by one team so you are not managing anything on the day."
+   ],
+   "insert_after_block": "What's Included in Our Breakfast Catering",
+   "position": "after the block titled 'What's Included in Our Breakfast Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How much does breakfast catering cost in Dubai?",
+   "new_paragraphs": [
+    "Breakfast catering in Dubai starts at AED 90 per person for a drop-off or boxed office breakfast, AED 120 per person for a staffed buffet and AED 150 per person once live egg, pancake or pastry stations are on the floor. A private chef who cooks and plates breakfast in front of a small table is a different product at AED 700 to AED 950 per person. What separates the tiers is staff and cooking on site, not the quality of the pastry. The itemised quote shows food, staff, equipment and delivery on separate lines, so you can take one out and watch the total move. Volume formats need 10 guests, a buffet needs 20, the minimum order is AED 900, and 5% VAT is added to every total. For the same breakdown across other cuisines and formats, see our Dubai catering price guide . It is the honest answer to what the best breakfast catering in Dubai should cost.",
+    "How much is breakfast in Dubai, and what does cheap breakfast catering buy?",
+    "For one person eating out, a Dubai breakfast runs from a few dirhams at a neighbourhood bakery to well over a hundred at a hotel counter, so catering has to be judged per head on the same scale. Our entry tier is AED 90 per person, and for 10 guests that is the AED 900 minimum order. It buys a genuine spread delivered ready to serve: viennoiserie, a cold table with labneh and cheese, fruit, juice and coffee, with no staff on site. That is what cheap breakfast catering honestly looks like in Dubai, and it is the tier most office mornings should book. AED 120 adds people who set it out, keep the hot line hot and clear it away afterwards. AED 150 puts a chef behind an egg or pancake station. Anything advertised far below the entry tier is usually a pastry box count instead of a breakfast, so ask what the per-head figure includes before you compare it with ours.",
+    "Breakfast platters, finger food and the lunch that follows",
+    "Two formats sit either side of a served breakfast. Breakfast platters in Dubai are the drop-off version: viennoiserie, a fruit platter, a labneh and cheese board and a juice run, sized by the number of people they feed and delivered ready to put on a table. Finger food catering is the standing version of the same idea, built for a room where people are holding a coffee and talking rather than sitting down — mini croissants, filled brioche, zaatar and cheese manakish cut into fingers, skewered fruit, and bite-sized pastries that survive an hour on a table. Both start at the AED 90 drop-off tier. If the morning runs into a working session, the sensible move is to book breakfast and lunch catering on one order, so the same team handles both deliveries and the clear-down happens once; see business lunch catering for how the midday half is priced."
+   ],
+   "insert_after_block": "What's Included in Our Breakfast Catering",
+   "position": "after the block titled 'What's Included in Our Breakfast Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which breakfast catering format suits your event?",
+   "new_paragraphs": [
+    "Format Service staff Guests it suits Indicative cost",
+    "Drop-off or boxed office breakfast None 10 and above From AED 90 per person",
+    "Breakfast buffet 1–2 20–60 From AED 120 per person",
+    "Live stations 2–4 40 and above From AED 150 per person",
+    "Private chef, plated 3 and above 2–40 seated AED 700–950 per person"
+   ],
+   "insert_after_block": "Breakfast Catering Questions",
+   "position": "after the block titled 'Breakfast Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Common questions",
+   "new_paragraphs": [
+    "How much does breakfast catering cost in Dubai?",
+    "Drop-off and boxed office breakfasts start at AED 90 per person, a staffed buffet at AED 120, and live egg or pancake stations at AED 150. A private chef cooking and plating for a small table is AED 700 to AED 950 per person. Minimums are 10 guests for volume formats and 20 for a buffet, with a minimum order of AED 900, and 5% VAT is added.",
+    "What is included in breakfast catering?",
+    "A vetted chef, service staff where needed, menu design, plating, setup and cleanup are all handled for you, so nothing lands on your morning.",
+    "How far ahead should I book breakfast catering in Dubai?",
+    "A standard breakfast package sits at about 72 hours' notice, live stations and multi-staff mornings at 3 to 5 days, a bespoke menu at 5 to 7 days, and a wedding morning or large corporate production at 7 to 14 days. Lead times depend on guest numbers, menu complexity, staffing, equipment, location and partner availability, and short-notice requests are assessed individually.",
+    "Can you cater a corporate breakfast at our office?",
+    "Yes — corporate breakfast catering in Dubai is one of our most-booked formats, delivered to offices across the city and timed around your meeting or start-of-day schedule.",
+    "Do you offer vegan, gluten-free and halal breakfast options?",
+    "Yes. Every breakfast menu is built to your dietary needs, including vegan, gluten-free, dairy-free and fully halal spreads, labelled clearly for guests.",
+    "Is breakfast catering available near me in Dubai?",
+    "We serve homes, villas and offices across Dubai, so breakfast catering near me covers Downtown, the Marina, Palm Jumeirah, Business Bay, the villa communities and beyond.",
+    "Can I hire a private breakfast chef for a small group?",
+    "Yes. For an intimate morning you can hire a private breakfast chef who cooks live in your kitchen; for larger numbers we scale to a buffet or stations with a full team.",
+    "For breakfast catering, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements .",
+    "Request a breakfast catering proposal or chat on WhatsApp . Prefer to compare first? See our catering price guide or explore brunch catering ."
+   ],
+   "insert_after_block": "Breakfast Catering Questions",
+   "position": "after the block titled 'Breakfast Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How to hire breakfast catering in Dubai",
+   "new_paragraphs": [
+    "To hire breakfast catering in Dubai, send three things — date, guest count and venue — and the rest is ours. We typically reply within 15 minutes during business hours with menu directions and an itemised quote. From there you confirm the spread, we match a chef to your morning, and the team arrives early to set up, cook, serve and clear away. There is no showroom to visit and no long form to fill: whether you want a private breakfast chef for six or corporate breakfast catering for a full floor, the path from enquiry to a table full of food is short and clear. A standard package sits at about 72 hours' notice; give 3 to 5 days for live stations and 7 to 14 days for a large corporate production."
+   ],
+   "insert_after_block": "A Taste of Our Breakfast Catering",
+   "position": "after the block titled 'A Taste of Our Breakfast Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  },
+  {
+   "new_heading": "Planning breakfast catering step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — we typically reply within 15 minutes during business hours, with the itemised proposal to follow.",
+    "Book a standard breakfast catering package around 72 hours ahead as a guide, and 3 to 5 days where live stations and a larger team are involved.",
+    "Confirm the menu for breakfast catering some 7 days ahead, once numbers stop moving.",
+    "Ask for dietary covers at the breakfast catering briefing stage instead of within 48 hours .",
+    "Check parking and lift access; your breakfast catering team is on site some 2 hours early.",
+    "Plan on roughly 3 hours of breakfast catering service, and add 5% VAT to the total.",
+    "Brunch at home dubai"
+   ],
+   "insert_after_block": "Breakfast Catering Questions",
+   "position": "after the block titled 'Breakfast Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  },
+  {
+   "new_heading": "Why book breakfast catering with myCHEF",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you own the morning, we carry the work. MyCHEF is implementing a structured 12-stage partner verification and quality-assurance framework across its culinary partner network, covering company identity, trade licence and permitted activities, food-safety permits, Person-in-Charge and food-handler training documentation, allergen controls, and a chef and service-team assessment. We are honest about it, too: no system removes every risk, so each event is matched to the chef well suited to it.",
+    "For a breakfast, that is often Ahmed Al-Rashid , whose 18+ years across Dubai, London and Paris in classical French technique show in the way he times a morning — pastries warm, eggs to order, coffee flowing, every element served at its peak. When a spread leans Mediterranean or Italian we bring in Marco Rossi , and for Arabic and halal mornings during Ramadan and beyond, Layla Hassan . Alongside breakfast catering we have delivered villa weddings, yacht celebrations and corporate galas in Dubai. Real client reviews for Breakfast catering are published as events happen."
+   ],
+   "insert_after_block": "Book Breakfast Catering That Gets the Morning Right",
+   "position": "after the block titled 'Book Breakfast Catering That Gets the Morning Right'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  }
+ ],
+ "faq": []
+}

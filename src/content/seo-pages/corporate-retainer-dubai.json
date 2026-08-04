@@ -1,0 +1,177 @@
+{
+ "url": "/corporate-retainer-dubai",
+ "keyword_strategy": {
+  "main_keyword": "corporate retainer catering dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 8,
+  "subkeywords_carried": 7,
+  "coverage_percent": 88,
+  "subkeywords_carried_list": [
+   "private catering dubai",
+   "outdoor catering dubai",
+   "finger food catering dubai",
+   "hospitality catering dubai",
+   "catering services company in dubai",
+   "corporate retainer catering dubai reviews",
+   "corporate retainer catering dubai contact number"
+  ],
+  "subkeywords_not_carried": [
+   "ahs catering dubai"
+  ],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Corporate Retainer Catering Dubai | Menus & Prices | myCHEF",
+  "meta_description": "Corporate Retainer catering in Dubai from AED 700pp — a regular catering schedule, vetted chefs and full service. Bespoke and reliable. Get an itemised quote.",
+  "h1": "Corporate Retainer Catering in Dubai — Prices, Formats and What You Get"
+ },
+ "opening_paragraph": [
+  "Corporate retainer catering Dubai from myCHEF starts at AED 700 per person and replaces one-off ordering with a standing agreement: a vetted chef and team cook, serve and clear on the schedule your company sets, week after week. Instead of chasing a new quote for every board lunch, town-hall or client dinner, you hold a fixed rate, a consistent menu rotation and priority dates. Tell us how often you need us and you will have an itemised proposal promptly during our published business hours."
+ ],
+ "replace_in_block": [],
+ "leave_untouched": [
+  "Catering Without the Admin Overhead",
+  "Choose Your Monthly Tier",
+  "Explore myCHEF Dubai",
+  "Corporate Retainer Questions",
+  "Built for Procurement and Operations",
+  "Set Up Your Corporate Retainer"
+ ],
+ "add_block": [
+  {
+   "new_heading": "Corporate retainer catering for events and everyday programmes",
+   "new_paragraphs": [
+    "The same agreement flexes from a daily desk lunch to a full corporate gala. Most schedules mix routine and set-piece: weekly staff meals or office catering on the quiet weeks, then a scaled-up boardroom dinner, product launch or a bigger party evening when the calendar demands it. Because your chef is retained, the ramp-up carries no fresh onboarding — they already hold your allergen list and brand preferences. A DIFC firm might run Tuesday and Thursday buffets plus a quarterly client dinner; a Business Bay agency might book Friday team lunches and an annual awards night. One relationship, many formats, and the food stays coherent across every one of them."
+   ],
+   "insert_after_block": "Corporate Retainer Questions",
+   "position": "after the block titled 'Corporate Retainer Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Does a corporate retainer cover outdoor events and client hospitality?",
+   "new_paragraphs": [
+    "Yes to both, and the outdoor half is the one that needs planning. Outdoor catering in Dubai has a season — roughly October to April, when a rooftop terrace, a beach team day or a desert offsite is comfortable instead of an endurance test — and a retainer is where it gets planned properly, because your chef already holds the headcount and the dietary map before anyone picks a site. Outdoors changes three things. Power and water access decide whether the chef cooks on site or finish from a mobile kit. Holding temperature and shade decide the menu, so delicate dairy and mayonnaise-bound dishes give way to grilled proteins, robust salads and food that survives an hour on a pass. And travel time to the site is built into the schedule instead of discovered on the day. If a venue cannot support the format you have in mind, we say so before it is booked.",
+    "Corporate hospitality catering in Dubai is the client-facing half of most retainers, and it is judged on how the room feels, not on how the plate photographs — guests standing, a glass in one hand, a third of them leaving early for a flight. Finger food catering in Dubai is what carries that room: canapés passed on a tight rotation, one-bite portions nobody needs a knife for, and a station or two to give people somewhere to gather. On a retainer the same brigade runs the December client reception, the March results briefing and the July farewell drinks, so the standard is agreed once instead of re-explained every quarter."
+   ],
+   "insert_after_block": "Corporate Retainer Questions",
+   "position": "after the block titled 'Corporate Retainer Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How dietary and logistics work on a retainer",
+   "new_paragraphs": [
+    "A retainer removes the repeat admin that makes recurring catering painful. Once your dietary map is captured — vegan, halal-only, gluten-free, the specific nut and shellfish allergies in your office — it is held on file, so you re-brief it once and no more. Logistics follow the same logic: fixed delivery windows, a known contact, agreed access and lift arrangements at your building, and reusable or disposable service to suit your policy. On busy weeks we can run corporate retainer home catering Dubai deliveries to a founder's residence or a director's villa alongside the office run, all on the one schedule. Headcounts flex up or down with a day's notice, and the monthly invoice reconciles what was served on the day — no guesswork, no surprise line items."
+   ],
+   "insert_after_block": "Built for Procurement and Operations",
+   "position": "after the block titled 'Built for Procurement and Operations'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How much does corporate retainer catering cost in Dubai?",
+   "new_paragraphs": [
+    "Corporate retainer catering prices Dubai start from AED 700 per person and are quoted by headcount, menu and service level, with the retained structure typically making the per-head rate more predictable than one-off ordering. Buffet and boxed formats sit at the accessible end; plated service, live stations and premium ingredients move higher. Packaged tiers run at AED 1,200, 2,400, 3,600, 4,500 and 5,500 per booking depending on scale, a tasting session is AED 1,400, and weekly meal programmes are AED 1,898 or AED 2,698. Because you commit to a schedule, packages are priced per programme, not per event, which keeps the cost steady across the year — genuinely affordable for teams that cater for their people and events often. See our Dubai catering price guide for the full breakdown."
+   ],
+   "insert_after_block": "Built for Procurement and Operations",
+   "position": "after the block titled 'Built for Procurement and Operations'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How to hire corporate retainer catering and how it works",
+   "new_paragraphs": [
+    "To hire corporate retainer catering Dubai, start with one message setting out your headcount, how often you need us and the kinds of occasions involved. We typically reply within 15 minutes during business hours — covering menu direction, the recommended service format and a per-head rate. Next comes a tasting so your team signs off on the food before anything is locked, then we agree the schedule, dietary map and billing cadence. From there a named chef is assigned as your private corporate retainer chef Dubai, and each engagement runs to the same plan: confirm the week's headcount, your chef shops, cooks, serves and clears. Changing a date or scaling a guest count is a single message, not a fresh negotiation."
+   ],
+   "insert_after_block": "Built for Procurement and Operations",
+   "position": "after the block titled 'Built for Procurement and Operations'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Corporate retainer catering across Dubai",
+   "new_paragraphs": [
+    "We run retainers as a corporate retainer caterer Dubai across the whole city, so a team searching corporate retainer catering near me will find us wherever their offices sit. Regular programmes run into DIFC, Business Bay and Downtown for financial and professional-services teams; Dubai Marina, JLT and Media City for agencies and tech; and out to Dubai Hills, Emirates Hills and the Palm for founder residences and director villas that share a schedule with the office. Whether it is luxury corporate retainer catering Dubai for a boardroom floor or a regular weekly staff lunch, one retained relationship covers every site. Explore office catering , corporate meal prep , the wider corporate catering service or catering in Dubai ."
+   ],
+   "insert_after_block": "Set Up Your Corporate Retainer",
+   "position": "after the block titled 'Set Up Your Corporate Retainer'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning corporate retainer catering step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your corporate retainer catering proposal arrives.",
+    "Book as early as you can. Lead times depend on guest numbers, menu complexity, staffing, equipment, location and partner availability; a standing schedule holds your dates in advance. Short-notice requests may still be possible and are assessed individually.",
+    "Confirm the corporate retainer catering menu roughly 7 days before, once your numbers settle.",
+    "Ask about dietary covers for corporate retainer catering when you enquire, not inside the final 48 hours .",
+    "Check venue access and parking for corporate retainer catering; the team arrives about 2 hours before service.",
+    "Plan on roughly 3 hours of corporate retainer catering service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": "Set Up Your Corporate Retainer",
+   "position": "after the block titled 'Set Up Your Corporate Retainer'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which corporate retainer catering format suits your event?",
+   "new_paragraphs": [
+    "Format What it gives you Staffing Cost position",
+    "Drop-off Food delivered ready to serve None Entry point",
+    "Buffet Presentation plus a maintained spread 1–2 From AED 700 per person",
+    "Live stations Cooking in front of your guests 2–4 Mid-range",
+    "Plated Every course served together 3 and above Top of the range"
+   ],
+   "insert_after_block": "Set Up Your Corporate Retainer",
+   "position": "after the block titled 'Set Up Your Corporate Retainer'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Common questions",
+   "new_paragraphs": [
+    "How much does corporate retainer catering cost in Dubai?",
+    "It starts from around AED 700 per person and is quoted by headcount, menu and service level. Because a retainer commits to a schedule, the per-head rate is held steady and priced per programme, not per one-off event.",
+    "What is included in a corporate retainer?",
+    "Included is menu design, a named vetted chef, service or delivery, full setup and cleanup, a held dietary map and a single monthly invoice — plus priority on peak dates that ad-hoc clients cannot pre-book.",
+    "How do I hire or set up a corporate retainer catering agreement?",
+    "Send us your headcount, schedule and the occasions involved; we return an itemised proposal, promptly during our published business hours, then arrange a tasting before anything is locked.",
+    "Can the menu change from week to week?",
+    "Yes — the menu is built as a rotation, so dishes cycle to keep things fresh while staying within the cuisines and dietary rules your team agreed at the tasting.",
+    "Do you cater to dietary requirements on every engagement?",
+    "Yes. Halal is standard, and vegetarian, vegan, gluten-free and nut-free are covered as default. Your allergen map is held on file captured once, so you skip the repeat briefing.",
+    "Can a retainer cover both the office and a director's home?",
+    "Yes. Corporate retainer home catering to a founder's residence or director's villa can run on the same schedule as the office programme, on one invoice.",
+    "Is a retainer more affordable than booking one-off?",
+    "For teams that cater regularly, yes — a retained schedule fixes the rate and removes repeat setup and re-quoting, making it more affordable and predictable than ad-hoc ordering.",
+    "For corporate retainer catering, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements ."
+   ],
+   "insert_after_block": "Set Up Your Corporate Retainer",
+   "position": "after the block titled 'Set Up Your Corporate Retainer'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "More on corporate retainer catering dubai",
+   "new_paragraphs": [
+    "Halloween catering dubai",
+    "New year catering dubai",
+    "Iftar catering dubai",
+    "Kids birthday catering dubai",
+    "Get an itemised quote"
+   ],
+   "insert_after_block": "Set Up Your Corporate Retainer",
+   "position": "after the block titled 'Set Up Your Corporate Retainer'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What does a corporate retainer include?",
+   "new_paragraphs": [
+    "A retainer covers everything a one-off booking does, plus the continuity a one-off cannot. Book us on repeat and we fix your per-head rate, lock a set of recurring dates and hold a chef who already knows your office, your dietary map and how your people like to eat. Each engagement includes menu design, a named chef and service brigade, delivery or on-site cooking, full setup and cleanup, and a single monthly invoice in place of scattered receipts. You also get first call on peak dates — Ramadan, year-end, results week — before they open to ad-hoc clients. That is the real value of a standing catering company: the standard holds, so the tenth lunch tastes exactly as sharp as the first."
+   ],
+   "insert_after_block": "Corporate Retainer Questions",
+   "position": "after the block titled 'Corporate Retainer Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  }
+ ],
+ "faq": []
+}

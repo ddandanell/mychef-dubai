@@ -1,0 +1,255 @@
+{
+ "url": "/ramadan-catering-guide-dubai",
+ "keyword_strategy": {
+  "main_keyword": "ramadan guide dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 20,
+  "subkeywords_carried": 10,
+  "coverage_percent": 50,
+  "subkeywords_carried_list": [
+   "ramadan in dubai 2026",
+   "ramadan in dubai date",
+   "ramadan in dubai start date",
+   "ramadan restrictions in dubai",
+   "ramadan 2026 dubai restrictions",
+   "when is ramadan in dubai 2026 start and end date",
+   "ramadan in dubai",
+   "dubai ramadan days",
+   "ramadan in dubai holiday",
+   "ramadan in dubai calendar"
+  ],
+  "subkeywords_not_carried": [
+   "ramadan in dubai for tourists 2026",
+   "dubai ramadan 2027",
+   "ramadan in dubai for tourists",
+   "dubai ramadan rules for tourists",
+   "what is closed during ramadan in dubai",
+   "ramadan in dubai 2025",
+   "ramadan in dubai 2027",
+   "ramadan in dubai hotels",
+   "ramadan in dubai alcohol",
+   "ramadan in dubai campaign"
+  ],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Ramadan Guide Dubai: Iftar & Suhoor Catering Planning | myCHEF",
+  "meta_description": "A practical Ramadan guide for Dubai hosts: iftar and suhoor timing, menu ideas, halal, real costs and a planning checklist, with dates confirmed by UAE sources.",
+  "h1": "Ramadan Guide Dubai: Iftar and Suhoor Catering, Planned"
+ },
+ "opening_paragraph": [
+  "Iftar catering in Dubai must be ready the moment the maghrib call sounds. Plan around two meals and one sunset. Think of this as a Ramadan guide Dubai hosts can plan an iftar around: a myCHEF sunset spread starts from roughly AED 700 for a small home gathering. Fix the menu to the timing, keep everything halal, and book early, because prime dates go first."
+ ],
+ "replace_in_block": [],
+ "leave_untouched": [
+  "Cater With Respect and Generosity",
+  "Ramadan Hospitality Principles",
+  "Iftar, Suhoor & Eid Menus",
+  "Timing the Service",
+  "Religious and Dietary Requirements",
+  "Large Corporate & Community Iftars",
+  "Related Ramadan Services",
+  "Plan Your Ramadan Gathering",
+  "Explore myCHEF Dubai",
+  "Ramadan Catering FAQ"
+ ],
+ "add_block": [
+  {
+   "new_heading": "When is Ramadan 2026 in Dubai, and why does the date matter?",
+   "new_paragraphs": [
+    "Ramadan 2026 began on 18 February in the UAE, confirmed by the moon-sighting committee after the crescent was seen the evening before, as reported by The National . The date matters for catering because it moves roughly ten days earlier each year against the Gregorian calendar, so this year's plan is not a template you can reuse from memory. It also sets the length of the fasting day, which shapes how heavy or light guests want their food. Book against a confirmed date instead of a rough guess, and treat any planning done far in advance as provisional until the month is announced."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Cater With Respect and Generosity'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What time is iftar, and how does that shape the menu?",
+   "new_paragraphs": [
+    "Iftar begins at the Maghrib call to prayer at sunset, and that single moment drives the whole evening. The fast is traditionally broken with a date and a glass of water, then soup, before guests settle into the main meal, a rhythm The National describes as soup, salad and a main. In 2026 the fast runs just under 13 hours, climbing towards 13.5 hours by the end of the month according to Khaleej Times , so people arrive genuinely hungry. A good caterer plans service to the exact Maghrib minute, holds hot dishes to land on time, and paces the courses so nobody is overwhelmed at the first bite."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Cater With Respect and Generosity'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What is the surest way to plan an iftar menu in Dubai?",
+   "new_paragraphs": [
+    "Start with the openers, then build a generous spread. Strong iftar tables in Dubai lead with dates and laban, move to a warm lentil or harees-style soup, then lay out mezze such as hummus, moutabel, fattoush and vine leaves. From there, grills, biryani or machboos, and slow-cooked lamb carry the main, with Arabic sweets like kunafa and luqaimat to finish. For a private Ramadan menu, our Arabic and halal specialist Layla Hassan builds the spread around your guest mix, balancing Levantine, Emirati and international dishes so a mixed table all find something familiar. If you want fresh ideas instead of a fixed set, ask for a tasting-led plan and adjust from there."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Cater With Respect and Generosity'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What is suhoor, and how is it catered differently?",
+   "new_paragraphs": [
+    "Suhoor is the pre-dawn meal, and it is deliberately lighter than iftar. It runs any time from around midnight to just before dawn, as The National notes, and it is built to sustain the coming fast instead of to celebrate. That means slow-energy dishes, whole grains, eggs and labneh, fresh fruit, dates, laban and juices, with less of the rich, heavy food that defines an iftar table. For catering, the service window is unusual and often late, so we plan cold and make-ahead items that hold well, plus a small warm element. It is a calmer menu, but still a generous and considered one."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Cater With Respect and Generosity'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How do reduced working hours change a corporate iftar?",
+   "new_paragraphs": [
+    "Plan the office iftar for right after sunset, because the working day is shorter. During Ramadan, private-sector hours are cut by two hours a day across the UAE, a rule set out on the government platform u.ae . In practice that means teams finish earlier and want to break the fast together soon after Maghrib, so timing and speed of service matter more than at a normal event. We stage delivery to land before sunset, set the dates, water and soup ready to open on the call to prayer, and keep the main service brisk so colleagues can eat, pray and get home. It is a small logistical shift that makes the whole evening work."
+   ],
+   "insert_after_block": "Ramadan Catering FAQ",
+   "position": "after the block titled 'Ramadan Catering FAQ'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Is Ramadan catering halal, and how are the chefs vetted?",
+   "new_paragraphs": [
+    "Yes, every Ramadan menu is planned and cooked halal from sourcing through to service, which is the baseline expectation across Dubai. Food businesses here operate under the hygiene and food-safety standards enforced by Dubai Municipality , and we plan to those rules. On the people, every myCHEF chef goes through identity checks, a practical cooking assessment, reference verification and ongoing reviews after events, so the person at your event has been tested on the food, not just the CV. For fine-dining Ramadan menus, chef Ahmed Al-Rashid leads; for Arabic and iftar work, Layla Hassan does. Confirm halal and any allergies when you book and the chef plans around them."
+   ],
+   "insert_after_block": "Ramadan Catering FAQ",
+   "position": "after the block titled 'Ramadan Catering FAQ'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Your Ramadan catering checklist and planning tips",
+   "new_paragraphs": [
+    "Use this quick checklist so nothing slips. First, confirm the date and the Maghrib time for your day. Second, set your guest count and venue, whether that is a home, a villa or an office near you. Third, choose iftar, suhoor or both, and pick a menu that suits the mix of guests. Fourth, decide drop-off or full service, and lock catering services early because Ramadan is the busiest season. Fifth, flag halal and dietary needs in writing. A few planning tips: book weeks ahead, keep the openers simple and traditional, and brief your caterer on timing. If you are searching for Ramadan catering near me, start with your area and date and we take it from there. That is the whole Ramadan guide Dubai hosts need, explained simply."
+   ],
+   "insert_after_block": "Ramadan Catering FAQ",
+   "position": "after the block titled 'Ramadan Catering FAQ'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Plan it with myCHEF",
+   "new_paragraphs": [
+    "Ready to book or want an exact quote? Ramadan Catering · Iftar · Suhoor . Or start at private chef or catering in Dubai ."
+   ],
+   "insert_after_block": "Ramadan Catering FAQ",
+   "position": "after the block titled 'Ramadan Catering FAQ'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning ramadan guide step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your ramadan guide proposal arrives.",
+    "Book ramadan guide about 2 weeks ahead off-peak, and 6 weeks ahead between November and March.",
+    "Confirm the ramadan guide menu 7 days before the date, with final numbers.",
+    "Ask about allergies when booking ramadan guide, well outside the final 48 hours .",
+    "Check how the team reaches the venue; ramadan guide setup begins about 2 hours before guests.",
+    "Plan on roughly 3 hours of ramadan guide service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": "Ramadan Catering FAQ",
+   "position": "after the block titled 'Ramadan Catering FAQ'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Ramadan restrictions in Dubai, and what they change for catering",
+   "new_paragraphs": [
+    "Ramadan changes the shape of the catering day in Dubai more than it changes the rules that apply to a private booking. Office schedules shift during the month, which moves meetings and therefore corporate catering earlier — confirm your own organisation's hours rather than assuming the usual ones.",
+    "For a private booking the Ramadan 2026 Dubai restrictions that actually matter are timing rather than permission. Iftar starts at sunset and cannot start late, so a kitchen has to be ready before the call rather than working towards it. Suhoor runs in the small hours and needs a chef willing to work them. Neither is a licensing question; both are scheduling ones.",
+    "Demand around Eid behaves like any other holiday period: the good chefs are booked first and the last week of Ramadan fills fastest. Dates are announced each year, so book against the announcement rather than an estimate."
+   ],
+   "insert_after_block": "Ramadan Catering FAQ",
+   "position": "after the block titled 'Ramadan Catering FAQ'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Frequently asked questions",
+   "new_paragraphs": [
+    "When does Ramadan 2026 start in Dubai?",
+    "Ramadan 2026 began on 18 February in the UAE, after the moon-sighting committee confirmed the crescent the evening before. Dates shift by roughly ten days each year, so confirm the current year before you book.",
+    "What time is iftar in Dubai during Ramadan?",
+    "Iftar begins at the Maghrib call to prayer at sunset. The fast is traditionally broken with a date and water, then soup, before the main meal. Your caterer sets service to the exact Maghrib minute for that day.",
+    "How much does iftar catering cost in Dubai?",
+    "Iftar catering starts at around AED 700 for a modest home gathering and rises with guest count, stations and service level. A large family or corporate iftar sits higher, so share your numbers for an itemised quote.",
+    "Is myCHEF Ramadan catering halal?",
+    "Yes, every Ramadan menu is planned and cooked halal from sourcing to service. Confirm halal and any dietary needs when you book so the chef plans around them.",
+    "Can you cater a corporate iftar around reduced working hours?",
+    "Yes. Private-sector hours are cut by two hours a day during Ramadan, so most corporate iftars run right after sunset. We time delivery and service to Maghrib and your office schedule.",
+    "Do you cater suhoor as well as iftar?",
+    "Yes. Suhoor is the pre-dawn meal, lighter and built to sustain the fast. We plan calmer, slow-energy menus with fruit, laban and juices for late-night or pre-dawn service.",
+    "How far ahead should I book Ramadan catering?",
+    "As early as you can. Ramadan is the busiest catering season in Dubai and prime dates fill weeks ahead, so booking early gives you the best chef availability and menu choice.",
+    "Where can I find Ramadan catering near me in Dubai?",
+    "MyCHEF covers homes, villas and offices across Dubai. Send your area, date and guest count and we will match a vetted chef and confirm the menu and timing."
+   ],
+   "insert_after_block": "Ramadan Catering FAQ",
+   "position": "after the block titled 'Ramadan Catering FAQ'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Sources",
+   "new_paragraphs": [
+    "Ramadan 2026 dates and daily fasting facts: The National and Khaleej Times . Reduced Ramadan working hours: u.ae . Food-safety standards for catering: Dubai Municipality . Confirm current requirements with these official sources.",
+    "Request your proposal or chat on WhatsApp ."
+   ],
+   "insert_after_block": "Ramadan Catering FAQ",
+   "position": "after the block titled 'Ramadan Catering FAQ'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How much does Ramadan catering cost in Dubai?",
+   "new_paragraphs": [
+    "Costs scale with guest count, menu and service style, so treat any single figure as a starting point. As a rough guide to prices, a modest home iftar starts near AED 700, a fuller family spread with live cooking sits around AED 1200, and a large corporate iftar with staffing and stations moves higher again, into the AED 2400 range and beyond for premium builds. Suhoor tends to cost less per head because the menu is lighter. The honest answer on cost is that per-person pricing only firms up once you know numbers, venue and whether you want drop-off or full service. Share those three and you get an itemised quote instead of a guess."
+   ],
+   "insert_after_block": "Ramadan Catering FAQ",
+   "position": "after the block titled 'Ramadan Catering FAQ'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  }
+ ],
+ "faq": [
+  {
+   "question": "When does Ramadan 2026 start in Dubai?",
+   "answer": [
+    "Ramadan 2026 began on 18 February in the UAE, after the moon-sighting committee confirmed the crescent the evening before. Dates shift by roughly ten days each year, so confirm the current year before you book."
+   ]
+  },
+  {
+   "question": "What time is iftar in Dubai during Ramadan?",
+   "answer": [
+    "Iftar begins at the Maghrib call to prayer at sunset. The fast is traditionally broken with a date and water, then soup, before the main meal. Your caterer sets service to the exact Maghrib minute for that day."
+   ]
+  },
+  {
+   "question": "How much does iftar catering cost in Dubai?",
+   "answer": [
+    "Iftar catering starts at around AED 700 for a modest home gathering and rises with guest count, stations and service level. A large family or corporate iftar sits higher, so share your numbers for an itemised quote."
+   ]
+  },
+  {
+   "question": "Is myCHEF Ramadan catering halal?",
+   "answer": [
+    "Yes, every Ramadan menu is planned and cooked halal from sourcing to service. Confirm halal and any dietary needs when you book so the chef plans around them."
+   ]
+  },
+  {
+   "question": "Can you cater a corporate iftar around reduced working hours?",
+   "answer": [
+    "Yes. Private-sector hours are cut by two hours a day during Ramadan, so most corporate iftars run right after sunset. We time delivery and service to Maghrib and your office schedule."
+   ]
+  },
+  {
+   "question": "Do you cater suhoor as well as iftar?",
+   "answer": [
+    "Yes. Suhoor is the pre-dawn meal, lighter and built to sustain the fast. We plan calmer, slow-energy menus with fruit, laban and juices for late-night or pre-dawn service."
+   ]
+  },
+  {
+   "question": "How far ahead should I book Ramadan catering?",
+   "answer": [
+    "As early as you can. Ramadan is the busiest catering season in Dubai and prime dates fill weeks ahead, so booking early gives you the best chef availability and menu choice."
+   ]
+  },
+  {
+   "question": "Where can I find Ramadan catering near me in Dubai?",
+   "answer": [
+    "MyCHEF covers homes, villas and offices across Dubai. Send your area, date and guest count and we will match a vetted chef and confirm the menu and timing."
+   ]
+  }
+ ]
+}

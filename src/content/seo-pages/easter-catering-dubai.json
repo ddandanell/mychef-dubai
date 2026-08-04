@@ -1,0 +1,191 @@
+{
+ "url": "/easter-catering-dubai",
+ "keyword_strategy": {
+  "main_keyword": "easter catering dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 10,
+  "subkeywords_carried": 10,
+  "coverage_percent": 100,
+  "subkeywords_carried_list": [
+   "easter buffet dubai",
+   "easter in dubai 2026",
+   "easter brunch dubai 2026",
+   "easter catering dubai menu",
+   "best easter catering dubai",
+   "easter catering dubai price",
+   "cheap easter catering dubai",
+   "orthodox easter brunch dubai",
+   "easter dinner dubai",
+   "easter dubai restaurant"
+  ],
+  "subkeywords_not_carried": [],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Easter Catering Dubai | Menus & Prices | myCHEF",
+  "meta_description": "Easter catering in Dubai from AED 700pp — a roast lamb centrepiece, vetted chefs and full service. Bespoke menus for your event. Get an itemised quote.",
+  "h1": "Easter Catering in Dubai — What It Costs and How to Book"
+ },
+ "opening_paragraph": [
+  "Easter catering in Dubai from myCHEF starts at AED 700 per person — a bright spring brunch or a proper family roast, cooked on site by one vetted chef and quoted to your exact guest count. Send your date, numbers and venue. We typically reply within 15 minutes during business hours, with an itemised proposal to follow. There is no fixed package to squeeze your day into. The menu, the format and the service level are all built around what you want, from eight people at a villa table to eighty at a garden gathering."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "What's Included in Our Easter Catering",
+   "match_confidence": 0.62,
+   "new_heading": "What is on an Easter catering menu in Dubai?",
+   "new_paragraphs": [
+    "Every Easter menu in Dubai is bespoke, but a classic spring line-up gives you a place to start. Popular centrepieces include slow-roasted leg of lamb, a herb-crusted rack, or a whole roast chicken for lighter tables, plated with seasonal vegetables, hot cross buns and a proper gravy. A brunch-style Easter food spread might run to shakshuka, smoked salmon, fresh pastries, a carving station and a spread of salads. For the sweet finish, egg-themed desserts, a chocolate nest tart or a pastel dessert table read as Easter without tipping into cliché. We tailor every dish to your taste and to any dietary needs — vegetarian, gluten-free, nut-free or fully halal — so nobody at the table is handed a compromise. To taste before you commit, a chef's tasting is available at AED 1400, so you can lock the final menu with confidence."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "An Easter Feast Worth Celebrating",
+  "Spring Flavours, Relaxed Hosting & Impeccable Service",
+  "Explore myCHEF Dubai",
+  "Easter Celebration Formats",
+  "Easter Catering Questions",
+  "A Taste of Our Easter Catering",
+  "Plan Your Easter Celebration in Dubai"
+ ],
+ "add_block": [
+  {
+   "new_heading": "What does Easter catering in Dubai include?",
+   "new_paragraphs": [
+    "It includes everything from menu design to the last cleared plate, so your only job on the day is to enjoy it. As a full-service Easter caterer in Dubai we start with a short conversation about your guests, your venue and your budget. From that we design a bespoke menu. On the day a vetted chef arrives with the ingredients and cooks fresh in your kitchen. Where the numbers call for it, service staff come too, to plate, pour and reset. Setup, service and full cleanup are all part of the price, so the washing-up is ours. These Easter catering services in Dubai suit a home lunch, a rooftop brunch or a larger event. Every element scales up or down with your headcount. You get one point of contact from first enquiry to final plate, not a chain of subcontractors. That is what keeps the timing tight and the food consistent."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'An Easter Feast Worth Celebrating'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Easter catering for weddings, corporate events and parties",
+   "new_paragraphs": [
+    "The same kitchen team handles an intimate family lunch, a corporate Easter reception and a large private party. The menu and service flex to the occasion. A spring wedding built around the Easter weekend leans on plated courses and a lamb centrepiece. Corporate Easter catering in Dubai tends toward a shared brunch buffet or drop-off platters that let a whole office graze between meetings. An Easter party catering spread for family and friends often works well as live stations and a grazing table the kids can raid. Because myCHEF handles Easter catering for events in Dubai of almost any size, you can brief one company for a boardroom breakfast, a villa gathering and a garden party. The standard holds across all three. Tell us the guest count and the mood you are after, and we will point you to the format — plated, buffet or stations — that fits."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'An Easter Feast Worth Celebrating'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Easter dates in Dubai, and why there are two",
+   "new_paragraphs": [
+    "Two Easters land in Dubai every year, and catering for the wrong one is an easy mistake to make in a city this mixed. Easter Sunday 2026 fell on 5 April; Orthodox Easter, kept by the Greek, Russian, Serbian, Romanian and Coptic communities here, came a week later on 12 April. The gap widens next year — Easter Sunday 2027 is 28 March, while Orthodox Easter 2027 is 2 May, five weeks apart. Neither is a UAE public holiday, so both are usually hosted around the weekend instead of on the day itself, and Easter in Dubai 2026 ran that way too. If you are planning an Orthodox Easter brunch in Dubai, say which calendar you keep when you enquire: it changes the date, and it often changes the menu, because a Lenten fast ending that morning makes the lamb, the eggs and the dairy the entire point of the table."
+   ],
+   "insert_after_block": "What's Included in Our Easter Catering",
+   "position": "after the block titled 'What's Included in Our Easter Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Easter at a Dubai restaurant, or hosted at home?",
+   "new_paragraphs": [
+    "Both work, and they solve different problems. An Easter Dubai restaurant booking hands you the room, the view and somebody else's washing-up; the hotel brunches release their Easter sittings weeks ahead and fill quickly, so you take the slot you are given, and a table of twelve with three children and a vegan aunt is where that starts to strain. Hosting keeps the day yours: your start time, your guest list, a menu written around the people actually at the table, and nobody moved on for the second sitting. The trade is that someone has to cook, and that is the part we take. What makes the best Easter catering in Dubai is not the longest menu but the fit — the right format for your numbers, one chef accountable for the timing, and a price you saw itemised before you agreed to it."
+   ],
+   "insert_after_block": "What's Included in Our Easter Catering",
+   "position": "after the block titled 'What's Included in Our Easter Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Styling, timing and dietary planning",
+   "new_paragraphs": [
+    "Good Easter catering is as much about timing and presentation as the food itself, so we plan both alongside the menu. Dubai's spring weather makes an outdoor brunch genuinely comfortable, and we build the cooking schedule around it. Courses are paced so nothing sits under the sun, and hot dishes are finished on site, not reheated. Styling can be a dressed grazing table or a colour-matched dessert display. Either way the chef arrives with a clear run-sheet. Dietary planning is handled up front: flag allergies, a vegan guest or a halal-only requirement when you book, and it is designed into the menu, not bolted on. For families with young children we can split the menu, so the kids get food they enjoy while the adults get the roast. It is the kind of logistical detail that separates a smooth Easter home catering booking in Dubai from a stressful one."
+   ],
+   "insert_after_block": "What's Included in Our Easter Catering",
+   "position": "after the block titled 'What's Included in Our Easter Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How much does Easter catering cost in Dubai?",
+   "new_paragraphs": [
+    "Easter catering prices in Dubai start from AED 700 per person and rise with the format and service level you choose. Is there such a thing as cheap Easter catering in Dubai? There is a genuine entry point, and it is a change of format rather than a discount: drop-off trays and a self-served buffet start from AED 120 per person, and a premium buffet or live stations from AED 150, on a minimum of 20 guests for buffet service and a minimum order of AED 900. What you give up is the chef on site. Nobody cooks in front of your guests and nobody clears up afterwards, and that labour is what the AED 700 figure buys: a plated meal with service staff sits there, and a multi-course fine-dining menu higher again. Set catering packages run from AED 1200 up through 2400, 3600, 4500 and 5500 depending on courses and headcount. A chef's tasting menu is AED 1400 if you want to sample first. The honest answer on Easter catering cost in Dubai is that it depends on your numbers and your menu. That is why we quote every job itemised, not behind a single sticker price. For a full breakdown by format and guest count, see our Dubai catering price guide , or send your details for a firm quote. Luxury Easter catering with premium ingredients and larger teams is available too, priced transparently."
+   ],
+   "insert_after_block": "What's Included in Our Easter Catering",
+   "position": "after the block titled 'What's Included in Our Easter Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Why book Easter catering with myCHEF?",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you own the day, we carry the work. The vetting standard myCHEF is implementing for easter catering covers identity checks, a practical cooking assessment, reference verification and ongoing performance reviews — built as a continuous standard rather than a one-time tick, and being rolled out across the network. We are honest about it, too. No system removes every risk, so we match each event to the right chef for it, not to whoever is free.",
+    "For an Easter roast, that is often Ahmed Al-Rashid — 18+ years across Dubai, London and Paris in classical French technique. He designs the menu as a collaboration with the host, every course timed, seasoned and served to exacting standards. Where the finish leans on pastry and a dessert table, Sofia Moretti brings the sweet side. Our work spans easter catering, villa weddings, yacht celebrations and corporate galas across Dubai. Covers easter catering; client reviews go up as events are delivered."
+   ],
+   "insert_after_block": "Plan Your Easter Celebration in Dubai",
+   "position": "after the block titled 'Plan Your Easter Celebration in Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning easter catering step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your easter catering proposal arrives.",
+    "Book easter catering about 72 hours ahead for a standard package, and 5 to 7 days for a bespoke menu or a larger private event.",
+    "Confirm the easter catering menu 7 days before the date, with final numbers.",
+    "Ask about allergies when booking easter catering, well outside the final 48 hours .",
+    "Check how the team reaches the venue; easter catering setup begins about 2 hours before guests.",
+    "Plan on roughly 3 hours of easter catering service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": "Easter Celebration Formats",
+   "position": "after the block titled 'Easter Celebration Formats'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which easter catering format suits your event?",
+   "new_paragraphs": [
+    "Format What it gives you Staffing Cost position",
+    "Drop-off Food delivered ready to serve None From AED 120 per person",
+    "Buffet Presentation plus a maintained spread 1–2 From AED 120 per person, 20 guests minimum",
+    "Live stations Cooking in front of your guests 2–4 From AED 150 per person",
+    "Plated Every course served together, chef cooking on site 3 and above From AED 700 per person"
+   ],
+   "insert_after_block": "Easter Celebration Formats",
+   "position": "after the block titled 'Easter Celebration Formats'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Easter catering Dubai — FAQs",
+   "new_paragraphs": [
+    "How much does Easter catering cost in Dubai?",
+    "Drop-off and self-served buffet formats start from AED 120 per person, a premium buffet or live stations from AED 150, and a chef cooking and serving on site from AED 700 per person. Buffet service carries a 20-guest minimum and a minimum order of AED 900. Send your numbers for an itemised quote.",
+    "What is included in your Easter catering service?",
+    "Included is menu design, a vetted chef cooking on site, service staff where needed, plating, setup and full cleanup. You get one point of contact from first enquiry to the last cleared plate.",
+    "How far ahead should I book Easter catering in Dubai?",
+    "Book as early as you can. A standard Easter package needs about 72 hours, a bespoke menu or a larger private event 5 to 7 days. Easter weekend is a peak date, so booking early is what secures both your chef and your slot; short-notice requests are assessed individually.",
+    "Do you offer halal and dietary-specific Easter menus?",
+    "Yes. Every Easter menu is bespoke, so halal, vegetarian, vegan, gluten-free and nut-free options are all designed in from the start — flag your requirements when you enquire and they are built into the menu, not added on.",
+    "Can you do corporate Easter catering for an office?",
+    "Yes. Corporate Easter catering in Dubai typically runs as a shared brunch buffet or drop-off platters for the office, scaled to your headcount, with a single quote and one contact for the whole booking.",
+    "Do you provide affordable Easter catering as well as luxury options?",
+    "Both. The entry point is the format: drop-off and self-served buffet start from AED 120 per person, and a premium buffet or live stations from AED 150, on a 20-guest minimum for buffet and a minimum order of AED 900. Luxury Easter catering brings a chef cooking on site, premium ingredients, plated courses and larger teams, from AED 700 per person. Each is quoted itemised so you choose the level that fits.",
+    "When is Easter 2027, and when is Orthodox Easter?",
+    "Easter Sunday 2027 is 28 March and Orthodox Easter 2027 is 2 May, five weeks apart. In 2026 they were closer: 5 April and 12 April. Neither is a UAE public holiday, so most households host around the nearest weekend.",
+    "Can you cater an Orthodox Easter brunch in Dubai?",
+    "Yes. Tell us which calendar you keep when you enquire, because it sets the date and usually shapes the menu — a Lenten fast ending that morning puts the lamb, the eggs and the dairy at the centre of the table rather than at the edge.",
+    "Can I hire a private Easter chef for a small dinner?",
+    "Yes. You can hire a private Easter chef in Dubai for an intimate dinner just as easily as a full crew for a party — the same booking process applies, matched to your guest count and venue.",
+    "Is Easter home catering available across Dubai?",
+    "Yes. Easter home catering reaches homes, villas and apartments right across Dubai; the chef travels to your kitchen and cooks fresh on site, so the service is the same wherever you are hosting.",
+    "For easter catering, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements ."
+   ],
+   "insert_after_block": "Easter Celebration Formats",
+   "position": "after the block titled 'Easter Celebration Formats'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  },
+  {
+   "new_heading": "Easter catering across Dubai",
+   "new_paragraphs": [
+    "We bring Easter catering to homes, villas, offices and event spaces right across Dubai, from Palm Jumeirah and Emirates Hills to Downtown, the Marina and Business Bay. A private Easter chef travels to your kitchen wherever you are. For corporate bookings we cater offices and boardrooms across DIFC and beyond. Because the whole service is mobile, the same vetted team and menu standard reach a beachside brunch, a garden party or an apartment dinner. Explore related options for the season — brunch catering or festive catering — or browse all our catering in Dubai . Wherever you are hosting, the aim holds: a vetted Easter caterer for your table, priced honestly and delivered end to end."
+   ],
+   "insert_after_block": "Easter Catering Questions",
+   "position": "after the block titled 'Easter Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  }
+ ],
+ "faq": []
+}

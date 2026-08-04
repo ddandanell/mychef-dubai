@@ -1,0 +1,269 @@
+{
+ "url": "/eid-catering-dubai",
+ "keyword_strategy": {
+  "main_keyword": "eid catering dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 5,
+  "subkeywords_carried": 5,
+  "coverage_percent": 100,
+  "subkeywords_carried_list": [
+   "eid catering dubai menu",
+   "best eid catering dubai",
+   "eid catering dubai price",
+   "eid restaurant dubai",
+   "eid lunch offers in dubai"
+  ],
+  "subkeywords_not_carried": [],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Eid Catering Dubai | Menus & Prices | myCHEF",
+  "meta_description": "Eid catering in Dubai from AED 700pp — Arabic and Indian festive mains, vetted chefs and full service. Bespoke menus for your event. Get an itemised quote.",
+  "h1": "Eid Catering in Dubai — Real Prices, Menus and Timings"
+ },
+ "opening_paragraph": [
+  "Eid catering in Dubai from myCHEF starts at AED 700 per person , quoted to your guest count and menu, with a vetted chef who designs the spread, cooks on site, serves and cleans up. Eid is a day for family and generosity, not for spending the morning at the stove — so we carry the whole feast while you keep the table. Share the date, the numbers and where you are hosting, and we come back promptly during our published business hours with a clear, itemised proposal. Everything is halal throughout, and every menu is built around your family's tastes."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "What Our Eid Catering Includes",
+   "match_confidence": 0.8,
+   "new_heading": "What Eid catering in Dubai includes",
+   "new_paragraphs": [
+    "Full Eid catering covers everything from the first menu conversation to the last cleared plate. When you hire our eid catering services in Dubai, one team plans the menu, sources and prepares the food, brings a chef to cook on site, sets up, serves your guests and clears the kitchen afterwards. There is no juggling of separate caterers, waiters and cleaners. We cater both Eid al-Fitr, where lighter sweets and daytime spreads suit the mood after a month of fasting, and Eid al-Adha, where grilled and slow-roasted meats take centre stage. The chefs and kitchens preparing your Eid menu are licensed for the food they serve and work to Dubai Municipality food-safety standards. MyCHEF designs the menu, vets the team and stays accountable for the night, and we will walk you through the paperwork on request. Whether it is an intimate family lunch or a large majlis reception, the same standard of eid food catering in Dubai applies — real ingredients, careful cooking, and a table that looks as considered as it tastes."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "A Feast to Mark the Occasion",
+  "Feasts for Eid al-Fitr & al-Adha",
+  "Designed for the Occasion",
+  "Let's Plan Your Eid Feast",
+  "Explore myCHEF Dubai",
+  "Eid Catering Questions",
+  "Catering Across Dubai",
+  "A Taste of Our Eid Catering"
+ ],
+ "add_block": [
+  {
+   "new_heading": "Eid party catering for families, gatherings and corporate events",
+   "new_paragraphs": [
+    "Eid catering flexes to the occasion, from a home lunch to a full corporate reception. For families, eid home catering in Dubai turns your villa or apartment into the venue — the chef cooks in your kitchen and the celebration stays private. For larger eid party catering in Dubai, we scale to buffets and live stations that keep a crowd fed without a queue. Companies increasingly mark the holiday together, and our corporate eid catering in Dubai handles office gatherings, client majlis receptions and staff feasts with headcounts from a dozen to several hundred. Because we plan eid catering for events in Dubai of every size, the format shifts with the room: plated menus for a seated family dinner, generous buffets for open-house visiting, and station-style service for receptions where guests come and go across the day."
+   ],
+   "insert_after_block": "What Our Eid Catering Includes",
+   "position": "after the block titled 'What Our Eid Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Eid menu ideas and options",
+   "new_paragraphs": [
+    "Your eid menu in Dubai is bespoke — the dishes below are starting points we tailor to your guests. A classic Eid table draws on Arabic and Indian festive cooking: mezze and salads to open, charcoal grills and slow-cooked lamb, fragrant biryani and machboos, and a generous spread of Arabic sweets to close. Popular building blocks include:",
+    "Mezze spreads — hummus, moutabal, fattoush, warm flatbreads and stuffed vine leaves",
+    "Charcoal grills and mixed grill platters, plus whole slow-roasted lamb ouzi for Eid al-Adha",
+    "Biryani, machboos and aromatic rice, with vegetarian and Jain options on request",
+    "Indian festive mains — kebabs, curries and tandoor dishes for mixed-cuisine tables",
+    "Arabic sweets — kunafa, baklava, luqaimat and date-based desserts",
+    "Every dish is halal, and we adapt for nut-conscious, gluten-free, vegetarian and other dietary needs so no guest is left with a compromise."
+   ],
+   "insert_after_block": "What Our Eid Catering Includes",
+   "position": "after the block titled 'What Our Eid Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "The full Eid catering menu, course by course",
+   "new_paragraphs": [
+    "Here is the menu the way a Dubai Eid kitchen builds one — in serving order, with the dishes named properly, not filed under “grills” and “rice&rdquo. Read it as a pick-list, not a fixed package. A mid-size Eid buffet usually takes five cold mezze, three hot mezze, three grills, one whole-lamb centrepiece, two or three further mains, rice and breads, and three desserts; a premium tier widens every one of those allowances. Tell us which way your family leans — Levantine, Emirati, Kerala, Punjabi, or a table that carries all four — and we cut the list down with you.",
+    "Eid morning — gahwa, dates and sweets",
+    "Eid al-Fitr starts with the small table, not the big one: coffee and something sweet for the first visitors back from prayers, set out hours before lunch is served.",
+    "Gahwa poured from the dallah, with Medjool dates and a plate of three premium date varieties",
+    "Maamoul filled with date, walnut or pistachio; assorted baklava; an Arabic delight selection",
+    "Karak tea, Sulaimani with lemon and mint, laban, and a watermelon-mint cooler",
+    "Dried apricots and figs with almonds and pistachios, alongside an exotic fresh fruit platter",
+    "Soups and the cold mezze table",
+    "Lentil soup is close to universal on an Arabic festive table; harira turns up wherever the family has North African roots. The cold mezze then goes down all at once and stays down — it is what guests graze on while the grills work.",
+    "Soups: lentil soup, harira, mushroom soup, chicken soup, seafood soup, or thari kanji — the Kerala rice-and-vermicelli porridge",
+    "Dips and spreads: hummus, moutabal, baba ghanouj, mohamara, labneh with garlic, labneh with mint, cheese with thyme, shanklish, makdous, beetroot moutabal",
+    "Salads: tabouleh, quinoa tabouleh, lentil tabouleh, fattoush, avocado fattoush, freekeh salad, rocca salad, watermelon and feta, baby rocca with strawberry, raw mango salad, olive salad, hindbeh, beetroot salad, kale and quinoa",
+    "Cold plates: vine leaves, eggplant moussaka, assorted cheese, crab salad, shrimp cocktail",
+    "South Asian cold table: chana chaat, fruit chaat, dahi bhalla, raitha",
+    "Hot mezze and fried starters",
+    "These come out in waves, not in one drop, so the last thing out of the fryer is still the thing on the plate. Choose three to five; the premium tiers usually add a seafood item.",
+    "Sambousik meat, cheese sambousik and lamb sambousek",
+    "Fatayer spinach, cheese rolls, cheese sticks and chicken musakhan rolls",
+    "Fried kebbe, fried makanek, fried sujouk and fried chicken liver",
+    "Falafel with tahina, spiced potato, and calamari fried or provencal",
+    "Vegetable, chicken, Punjabi and mini samosas, mix pakora and onion pakkavada",
+    "Kerala plates: unnakkaya, irachi pathiri, chicken cutlet, chicken kilikkodu and fish packets",
+    "Charcoal grills",
+    "Everything here comes off charcoal, cooked in batches through service, not held in a chafing dish for an hour. Three items is the usual choice; five on a premium spread.",
+    "Shish tawouk, charcoal baby chicken and green chicken boti",
+    "Kafta, chicken kafta, beef kofta and arayess kafta — kafta pressed into bread and grilled until the crust crisps",
+    "Makanek and sujouk, lamb chops, chicken sajji and chicken seekh kabab",
+    "Grilled shrimp and grilled fish fillet; mixed grill platters for the middle of the table",
+    "The centrepiece — whole lamb for Eid al-Adha",
+    "Eid al-Adha is built around one animal, and the room knows it. That is why the lamb is carved in front of guests, not portioned out of sight.",
+    "Whole roasted lamb ouzi on a bed of spiced rice, carved at the table",
+    "Ouzi stuffed with warak enab — the version worth naming, because the stuffing is the difference",
+    "Lamb saddle, stuffed lamb, stuffed chicken, or a half-lamb roast with a rice platter for smaller numbers",
+    "Lamb kabseh, chicken kabsah, mandi, madfoon, haneeth and mathbi",
+    "Jordanian mansaf, served the traditional way over rice with jameed",
+    "Main courses — Levantine, Gulf and Emirati",
+    "Emirati home cooking is where an Eid menu either earns its keep or reveals itself as a generic Middle Eastern buffet with a new label. Harees, thareed and madrouba are the dishes elders check for.",
+    "Emirati: harees, veal harees, thareed, madrouba, saloona, balaleet, seafood machboos",
+    "Levantine: chicken moghrabieh, chicken mousakhan, chicken freekeh, fish sayadieh, dawood basha with rice, kebbe bil laban, shakrieh, mloukhieh with rice, fasoulia stew, green pea stew",
+    "Slow-cooked: lamb makloubeh with eggplant, slow-braised lamb shoulder with pilaf and roasted almonds, lamb tagine, butternut squash tagine, Moroccan-style braised beef brisket",
+    "Fatteh and sharing plates: shawarma fatteh with tahini sauce, chicken fatteh, koussa and warak inab with lamb chops, Algerian couscous casserole",
+    "Continental sides for mixed tables: seafood paella, beef lasagna, chicken provencial, roasted vegetables and fresh salads",
+    "Main courses — South Asian",
+    "In Dubai this is a parallel menu, not a sub-section. Plenty of Eid tables run South Asian end to end, and the regional naming matters: Thalassery biryani is a different dish from a Hyderabadi one, layered and dum-sealed with short-grain kaima rice.",
+    "Thalassery chicken biryani and Thalassery mutton biryani, sealed and opened at the table",
+    "Chicken biryani, meat biryani, vegetable biryani and chicken pulao",
+    "Malabar chicken khorma, butter chicken, kabab masala, beef roast and chicken shinwari",
+    "Haleem, beef nihari and der raat ki mutton nihari — the overnight version, for a late Eid breakfast",
+    "Beef karahi, okra yakhni, daal and vegetable stew",
+    "Rice, breads and sides",
+    "Oriental rice, ghee rice and Arabic rice with vermicelli and toasted nuts",
+    "Assorted Arabic bread, saj bread, rigag, khameer and naan",
+    "Paratha, coin paratha, nice pathiri, ney pathal and assorted rotis",
+    "Stuffed zucchini, vegetable stew, papad with pickle and chutney, mint chutney",
+    "Live stations",
+    "Stations are quoted as their own units because each one brings a chef and its own equipment, and that is what you are paying the difference for — food cooked in front of the room instead of carried into it. One to three suits most family Eid lunches; a large villa reception runs more.",
+    "Whole roasted lamb station and ouzi carving station",
+    "Barbecue station — shish tawouk, grilled meat, kafta, arayess kafta, lamb chops",
+    "Shawarma station — chicken, beef or wagyu, carved off the vertical spit",
+    "Saj station and manakish station — zaatar, cheese, meat, turkey and cheese, or Nutella, baked to order on the domed saj",
+    "Falafel, fajita, burger and pasta stations — bolognese, alfredo, arabiata, four cheese",
+    "Cheese kunafa station and live kunefe, luqaimat station, fresh juice station, gahwa and Turkish coffee station",
+    "Where those stations can stand is decided by the address, and Eid usually means a home. At a villa the barbecue, the shawarma spit and the saj all run outdoors on your own plot. Dubai Municipality draws its line at enclosure — \"do not light coal in an enclosed space or indoors\" — and the UAE Fire Code keeps the gas cylinder at ground level, off roofs and terraces (Table 11.1). Community security is told in advance, and the fired stations sit on your plot rather than on the shared lawn or by the community pool.",
+    "In an apartment the answer changes, and the rule is published: Emaar's vertical-community rules prohibit \"barbecues, grills, or any cooking equipment of any kind\" on balconies and terraces whatever the fuel, and no LPG cylinder may be brought into the tower. So the charcoal barbecue and the gas shawarma spit stay out of a flat, and the tawouk, kafta and lamb chops are grilled in a licensed partner kitchen and carried hot instead. An electric saj dome plugs in, so the manakish are still rolled and baked in front of the room. The ouzi carving station travels anywhere, tower included, because it carries no heat source at all, which is why it is the centrepiece we lead with for an apartment Eid. For a rooftop majlis or a desert setup, myCHEF confirms the equipment with the building or the site operator before quoting.",
+    "Desserts",
+    "Eid desserts are a spread, not a plated course, and at least one of them should be cooked live — luqaimat straight out of the pan with date syrup is the one guests remember.",
+    "Luqaimat with date syrup, cheese kunafa, kunafa, othmalieh and halawet el jebben",
+    "Katayef kashta and qatayef filled with cheese or nuts",
+    "Umm Ali, basbousa with cream, mohalabieh, riz bel halib, layali lubnan, creme caramel",
+    "Assorted baklava, maamoul, an Arabic delight selection and filo cheesecake parcels",
+    "South Asian sweets: gulab jamun, jalebi, kheer, sheer khurma and zarda",
+    "Grazing table and dessert bar, seasonal fruit platters, assorted mini cakes, tender coconut pudding",
+    "For children: mini sliders, wraps and finger foods, kept separate from the main buffet run",
+    "Beverages",
+    "Ramadan and Eid drinks are what separate this list from a standard event beverage sheet. Jallab and qamar al-din belong on the table; so, for a large part of Dubai, does Vimto.",
+    "Jallab, qamar al-din, Vimto, laban and rooh afza",
+    "Fresh juices — orange, mango, strawberry, pineapple, lemon mint — plus passion fruit sarbat and mint lemonade",
+    "Gahwa, karak tea, Sulaimani with lemon and mint, tea and coffee, mocktails",
+    "Eid restaurant bookings compared with catering at home",
+    "Most families start by looking for an Eid restaurant in Dubai, then find the good tables went weeks ago and the set Eid lunch offers in Dubai come with a fixed menu, a fixed sitting time and a fixed cover count. Catering at home inverts all three: the menu is yours, the sitting lasts as long as the visiting does, and cousins who arrive two hours late still eat. It also handles the thing a restaurant cannot — grandparents, toddlers and a vegetarian aunt at one table, with the ouzi carved in full view of the table.",
+    "Gluten-free, nut-conscious and other dietary menu options may be available on request, subject to confirmation by the assigned culinary partner. Partner kitchens may handle allergens, and cross-contact cannot be completely excluded unless dedicated controls have been specifically confirmed for the booking. Guests with allergies must provide full details before confirming their event.",
+    "For the nights before Eid, the same kitchens build a different menu — the Maghrib opener of dates, gahwa and Ramadan juices staged separately from the buffet, and a breakfast-shaped Suhoor table of foul medammas, balila, shakshuka and live manakeesh. That is set out on our Ramadan catering page."
+   ],
+   "insert_after_block": "What Our Eid Catering Includes",
+   "position": "after the block titled 'What Our Eid Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Halal sourcing and hosting logistics",
+   "new_paragraphs": [
+    "Halal integrity and smooth hosting are the two things that decide whether an Eid feast runs well. All meat is halal-sourced, and we can share the provenance if you would like to verify it, a detail that matters when you are hosting elders and extended family. On the logistics side, the chef arrives with the ingredients, equipment and serving pieces needed, works cleanly around your household, and times each course to the flow of the day instead of a rigid schedule. For open-house Eid visiting, where guests drift in over several hours, we keep dishes replenished and warm so the last arrival eats as well as the first. Service staff manage the table, refills and clearing, and leave the kitchen as they found it. If you would prefer to host outdoors, we adapt the same menu for a garden or terrace setting."
+   ],
+   "insert_after_block": "What Our Eid Catering Includes",
+   "position": "after the block titled 'What Our Eid Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How to hire Eid catering and how it works",
+   "new_paragraphs": [
+    "To hire Eid catering in Dubai, send your date, guest count and venue, and we return an itemised proposal — promptly during our published business hours. From there it is three steps. First, we agree the menu together, adjusting dishes, portions and dietary needs until it fits your family. Second, we confirm the format and staffing — a private eid chef in Dubai for an intimate dinner, or a full brigade with service staff for a reception. Third, on the day the team arrives ahead of your guests, sets up, cooks, serves and clears, leaving you free to host. Searching for eid catering near me usually surfaces a dozen options; the difference here is a single accountable team from first message to final cleanup, with a written quote and no surprises."
+   ],
+   "insert_after_block": "Catering Across Dubai",
+   "position": "after the block titled 'Catering Across Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Why myCHEF",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you own the evening, we carry the work. MyCHEF is implementing a 12-stage partner verification framework — identity and trade-licence checks, food-safety documentation, references and post-event review. It is being rolled out, not finished, and we would sooner say so than overclaim. No system removes every risk, so we match each event to the chef most suited to it, which is a large part of what makes us a caterer families come back to when they want the best eid catering in Dubai.",
+    "For an occasion like this, that might be Layla Hassan , with 14+ years in Lebanese and Emirati kitchens running catering for prestige events. Her mezze, charcoal grills and aromatic rice are built for sharing, and she is especially sought after for Ramadan and Eid. Alongside eid catering we have delivered villa weddings, yacht celebrations and corporate galas in Dubai. Real client reviews for Eid catering are published as events happen."
+   ],
+   "insert_after_block": "Catering Across Dubai",
+   "position": "after the block titled 'Catering Across Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning eid catering step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your eid catering proposal arrives.",
+    "Book as early as you can. As guidance, standard catering packages want about 72 hours , live cooking stations and multi-staff events 3–5 days , and bespoke menus or larger private events 5–7 days . Eid dates are fixed and fill first.",
+    "Confirm the eid catering menu roughly 7 days before, once your numbers settle.",
+    "Ask about dietary covers for eid catering when you enquire, not inside the final 48 hours .",
+    "Check venue access and parking for eid catering; the team arrives about 2 hours before service.",
+    "Plan on roughly 3 hours of eid catering service, and add 5% VAT to the total.",
+    "Ramadan guide dubai"
+   ],
+   "insert_after_block": "Eid Catering Questions",
+   "position": "after the block titled 'Eid Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which eid catering format suits your event?",
+   "new_paragraphs": [
+    "Format Service style Guests it suits Indicative cost",
+    "Drop-off Food only, no staff or setup Any size, informal Most economical",
+    "Buffet Staffed — setup, replenishment, clearing 20–60 From AED 700 per person",
+    "Live stations Chef-attended, each station quoted with its own chef 40 and above From AED 700 per person",
+    "Plated service, chef cooking on site Chef plus service team 8–40 seated AED 700–950 per person",
+    "We recommend booking as early as possible. Lead times depend on guest numbers, menu complexity, staffing, equipment, location and partner availability. Need a eid sooner than the usual lead time? The answer depends on the date, so ask before ruling it out. Volume formats start at 10 guests and buffets at 20; a private chef cooking and serving on site carries no headcount minimum."
+   ],
+   "insert_after_block": "Eid Catering Questions",
+   "position": "after the block titled 'Eid Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Common questions",
+   "new_paragraphs": [
+    "How much does eid catering cost in Dubai?",
+    "Pricing opens at roughly AED 700 per person and moves with your numbers, menu and service level. Send your numbers for an itemised quote.",
+    "What's included?",
+    "Everything: from menu planning to the chef, the service staff, the plating and the cleanup — one team covers all of it.",
+    "How far ahead should I book?",
+    "A week is usually enough for a small gathering; book earlier for large parties and peak Eid dates, which fill quickly.",
+    "Is the food fully halal?",
+    "Yes — every Eid menu is prepared halal throughout, and we can share sourcing details on request so you can verify it.",
+    "Can you cater Eid at home?",
+    "Yes. The chef and team come to your villa or apartment, cook on site and leave the kitchen clean, so the celebration stays at home.",
+    "Do you handle corporate Eid events?",
+    "Yes. We cater office Eid gatherings and majlis receptions, scaling to buffets or live stations for larger corporate headcounts.",
+    "Can you cater both Eid al-Fitr and Eid al-Adha?",
+    "Yes. We build menus for both — lighter spreads and sweets for Eid al-Fitr, grilled and slow-roasted meats for Eid al-Adha."
+   ],
+   "insert_after_block": "Eid Catering Questions",
+   "position": "after the block titled 'Eid Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Eid catering across Dubai",
+   "new_paragraphs": [
+    "We arrange Eid catering across the whole of Dubai, from villa districts to marina apartments. The chef and team travel to you — Palm Jumeirah, Emirates Hills, Jumeirah, Arabian Ranches and Dubai Hills for larger family homes, and Downtown, Business Bay, Dubai Marina and JLT for apartment gatherings and corporate offices. Wherever you are hosting, the same halal menu, vetted chef and full-service approach apply. If your celebration sits alongside the wider festive season, you can also explore Ramadan catering for the nights before Eid, or browse our full Arabic catering range for year-round majlis and family occasions."
+   ],
+   "insert_after_block": "Eid Catering Questions",
+   "position": "after the block titled 'Eid Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  },
+  {
+   "new_heading": "How much does Eid catering cost in Dubai?",
+   "new_paragraphs": [
+    "Eid catering prices in Dubai start from AED 700 per person and rise with menu and service level. The eid catering cost in Dubai is driven by three things: guest count, how elaborate the menu is, and whether you want drop-off, buffet or plated service with staff. Buffet and drop-off are our lowest per-head eid formats; plated service with waiters sits higher. For those who want a set structure, our eid catering packages in Dubai follow the same tiers as our wider event pricing — indicative package levels run at AED 1,200, 2,400, 3,600, 4,500 and 5,500 depending on courses, headcount and staffing. There is affordable eid catering for modest family lunches and luxury eid catering in Dubai for showpiece receptions; the per-head figure reflects what is on the table. For a full breakdown, see our Dubai catering price guide , then send your numbers for an itemised quote."
+   ],
+   "insert_after_block": "Catering Across Dubai",
+   "position": "after the block titled 'Catering Across Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  }
+ ],
+ "faq": []
+}

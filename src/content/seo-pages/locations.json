@@ -1,0 +1,246 @@
+{
+ "url": "/locations",
+ "keyword_strategy": {
+  "main_keyword": "catering locations dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 9,
+  "subkeywords_carried": 9,
+  "coverage_percent": 100,
+  "subkeywords_carried_list": [
+   "how much does catering cost in dubai?",
+   "what is the largest catering company?",
+   "what is the cheapest catering service?",
+   "small party catering dubai",
+   "food catering locations dubai",
+   "best catering locations dubai",
+   "small catering locations dubai",
+   "cheap catering locations dubai",
+   "birthday catering locations dubai"
+  ],
+  "subkeywords_not_carried": [],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Catering Locations Dubai | Private Chef by Area | myCHEF Dubai",
+  "meta_description": "Catering locations across Dubai, area by area, with published per-head prices from AED 90, the access and kitchen notes that change per community, and honest answers on cost and who else caters here.",
+  "h1": "Catering Locations in Dubai — Private Chef by Area, Prices and Coverage"
+ },
+ "opening_paragraph": [
+  "myCHEF covers every Dubai community, and prices are the same in every area, from AED 90 per head for a working lunch. Each of these catering locations in Dubai exists because the practical detail changes street by street: gate access, service lifts, kitchen size and outdoor space. Pricing does not change by area; logistics do.",
+  "We serve private chefs and catering across every Dubai community.",
+  "Private Chef & Catering Al Barsha Dubai",
+  "Family Catering & Private Chef Arabian Ranches Dubai",
+  "Private Chef & Catering Bluewaters Dubai",
+  "Private Chef & Catering Business Bay Dubai",
+  "Corporate Catering & Private Chef DIFC Dubai",
+  "Private Chef & Catering Downtown Dubai",
+  "Private Chef & Catering Dubai Hills Dubai",
+  "Private Chef & Catering Dubai Marina",
+  "Private Chef & Villa Catering Emirates Hills Dubai",
+  "Private Chef & Catering JBR Dubai",
+  "Private Chef & Catering JLT Dubai",
+  "Private Chef & Catering Jumeirah Dubai",
+  "Private Chef & Catering JVC Dubai",
+  "Private Chef & Catering Palm Jumeirah",
+  "Private Chef & Catering Umm Suqeim Dubai"
+ ],
+ "replace_in_block": [],
+ "leave_untouched": [
+  "Also Serving",
+  "Not Sure If We Cover Your Area?",
+  "Explore myCHEF Dubai"
+ ],
+ "add_block": [
+  {
+   "new_heading": "Why location changes the plan, not the price",
+   "new_paragraphs": [
+    "A villa in Emirates Hills, an apartment in JLT and a beachfront terrace on the Palm need three different plans for the same menu. Gated communities need names at the gate in advance. Towers need a service-lift booking and a loading window. Villas usually have a full kitchen, so a plated multi-course dinner is clear. Apartments have less oven capacity, which shapes how many hot mains can leave the kitchen together. Beachfront and terrace settings work from November to March, when nights sit around 19°C."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Also Serving'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Choosing your area page",
+   "new_paragraphs": [
+    "Open the page for your community and read the access note and the kitchen note first, because those two decide what is realistic. Each page also lists the formats that suit that setting and the neighbouring areas the same team covers. If your community is not listed, the coverage still applies — send your address and you will get the same itemised proposal."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Also Serving'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning a booking in your area, step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and address — an itemised proposal comes back.",
+    "Book about 2 weeks ahead off-peak, and 6 weeks ahead between November and March, when villa and terrace dates go first.",
+    "Confirm the menu about 7 days out, once the guest list is firm.",
+    "Flag allergies and dietary plates early, not in the final 48 hours .",
+    "Clear the access route — gate list, service-lift slot, parking — before the day. Setup starts roughly 2 hours ahead.",
+    "Allow about 3 hours of service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Also Serving'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which area suits a small party, a birthday or a full event",
+   "new_paragraphs": [
+    "Hosts search for the best catering locations in Dubai as though a few communities are best suited to catering and the rest are not. None of them work that way. What differs is what each setting makes practical. A small party of eight is simplest in an apartment: one table, a domestic kitchen, no gate list, and a menu built around a single oven. Small party catering in Dubai usually runs into oven capacity long before it runs into budget, which is why the chef asks what you have before proposing a menu.",
+    "A birthday works differently again. Birthday catering in most of these locations means two sittings — something earlier and simpler for the children, the real food later for the adults — so the room matters more than the kitchen. Villas in Arabian Ranches, Dubai Hills and Umm Suqeim give you a garden and a clean split between the two. Towers give you a shorter, tighter evening, which is often the better party anyway.",
+    "Large events invert it, because the venue becomes the constraint. A beachfront terrace on the Palm or at JBR is spectacular between November and March and unusable in August. A DIFC or Business Bay office has power and lifts but a fixed security window. Tell us the setting and the guest count and the format follows from that, not the other way round."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Also Serving'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Access is the difference between areas",
+   "new_paragraphs": [
+    "The practical work of catering in Dubai is access, and it changes by community. Gated developments such as Emirates Hills, Arabian Ranches and the Palm fronds need visitor names lodged at the gate ahead of time, and a delivery vehicle turned away at a barrier costs an hour of your evening. Towers in Marina, JLT, Business Bay and Downtown need a service-lift booking and often contractor details in advance.",
+    "Beachfront and terrace settings bring their own constraint: wind, a long carry from the kitchen, and a season. Outdoor service works comfortably from November to March, when days average about 27°C and nights fall to around 19°C. Between May and September the same terrace is a short arrival moment instead of the venue."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Also Serving'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Kitchens change what the menu can be",
+   "new_paragraphs": [
+    "A villa kitchen with a double oven and clear counter space supports a five-course plated dinner for twelve. An apartment kitchen with a single domestic oven caps how many hot mains can leave together, so the chef designs around one oven dish and one pan dish instead. Neither is a limitation on quality; it is a limitation on format, and it is why the chef asks about your kitchen before the menu is finalised.",
+    "Where a venue has no usable kitchen at all — a marquee, a rooftop, a beach setup — a temporary kitchen is built on site with the power, refrigeration and holding equipment the Food Code requires. That is planned at the quoting stage, not discovered on the day."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Also Serving'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How much does catering cost in Dubai?",
+   "new_paragraphs": [
+    "The honest answer is that cost depends on the format far more than on the address, and quoting one number for both ends of the range is how people end up surprised. A drop-off buffet and a chef cooking in your kitchen are different products with different economics. Ours are published, not quoted on request: a working or office lunch buffet from AED 90 per person, a standard event buffet from AED 120 , and a premium buffet, BBQ or canapé service with live stations from AED 150 . A private chef who cooks and serves on site is AED 700 to AED 950 per person, because that buys a named chef's evening, not a tray of food. Add 5% VAT to whichever applies.",
+    "We checked those figures against the market instead of asserting them. In July 2026 we collected 58 per-head prices that other Dubai caterers publish on their own sites and menu PDFs. The middle of that set falls between our AED 120 and AED 150 tiers, the least expensive published full-meal format sits a little under our AED 90 buffet, and the most expensive plated menus run several times higher than any of it. So our buffet pricing is market-normal, and our private chef pricing deliberately is not — it is a different service, priced as one.",
+    "Pricing is set by menu, format and guest count instead of by postcode, so the same rates apply in every community listed here. Remote venues — desert setups, far-out estates — may carry a logistics line for travel and equipment transport, and when they do it shows as its own line on the proposal instead of being folded invisibly into the per-head figure. If your community has no page here, coverage still applies: send your address with your date and guest count and the proposal comes back the same way."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Also Serving'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Largest, cheapest, and who leads — what can be verified",
+   "new_paragraphs": [
+    "Three questions come up constantly in Dubai catering searches, and most pages answer them with self-praise. Here is what stands up.",
+    "The largest catering company. Nobody publishes audited revenue or headcount for catering in this market, so any ranking by size is somebody's opinion. The nearest measurable proxy is search visibility: across 205 Dubai catering searches we recorded in 2026, Cedar Tree Catering appeared in the top ten more often than any other caterer — 68 times, 23 of them in the top three. That measures marketing reach, not kitchen capacity, and it says nothing about the food. MyCHEF is not the largest and does not claim to be. We run a vetted chef network, not one central production kitchen.",
+    "The cheapest catering service. The lowest published rates in Dubai are coffee breaks and cold platters, which are not meals. Among caterers who print prices at all, the lowest full-meal figure we found was an office buffet lunch sitting a little under our own AED 90 tier. We are near the bottom of that band but not at it, and we would sooner say so than claim a floor we do not hold. If price is the only variable that matters, our drop-off buffet from AED 90 a head is where we start, and we will tell you plainly when a cheaper caterer is the better fit for what you are planning.",
+    "The leading catering company in Dubai. No independent body ranks caterers here, so that title is one companies award themselves. Two tests are more useful than any badge. First: does the company publish its prices? Cedar Tree and Baguette, two of the most visible caterers in Dubai search results, publish none at all — every per-head figure on Cedar Tree's site is a general market-average claim inside a blog post, not its own rate. Second: will the quote separate food cost from service, staffing and logistics, so you can see what each part costs? Both tests take an afternoon and neither can be faked.",
+    "About \"top 10 catering companies in Dubai\" lists",
+    "Those top 10 catering companies in Dubai roundups state no method. No criteria, no data, and no disclosure of whether a placement was paid for. Instead of publishing another one, here is the part we can evidence. Of the caterers that rank consistently for Dubai catering terms, Taste Studio, Elements, Buffestra, Al Safadi, Monchef and Dish publish per-head prices you can check before you call. Cedar Tree and Baguette quote on request only. Whatever list you are reading, that split tells you more than the order does."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Also Serving'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Sources",
+   "new_paragraphs": [
+    "Figures and rules referenced across these pages come from official sources: the UAE Ministry of Finance (5% VAT on catering, in force since 1 January 2018), Dubai Municipality (Food Code, including requirements for food transportation and delivery vehicles and mandatory food-handler training), and Weather and Climate (Dubai December averages of 27°C by day and 19°C at night). Confirm current requirements before you book.",
+    "The market comparisons above come from our own price collection of July 2026: 58 per-head rates printed on the public websites and menu PDFs of Taste Studio, Elements, Buffestra, Al Safadi, Monchef and Dish, plus the finding that Cedar Tree and Baguette publish none. The visibility count — 205 Dubai catering searches recorded, Cedar Tree in the top ten 68 times — is our own tracking of those searches, not a third-party ranking. Competitor prices change, so re-check them before using ours as a comparison."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Also Serving'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What does not change between areas",
+   "new_paragraphs": [
+    "The chef standard is identical wherever you are. The same verification standard is being applied across every community, the same food-safety requirements apply to partner kitchens, and the same per-person rates apply from Al Barsha to Emirates Hills. What changes is logistics, and logistics are our problem instead of yours.",
+    "Booking runs the same way in every area too. Send your date, guest count and address, and an itemised proposal follows. Confirm your menu about 7 days out, flag dietary covers outside the final 48 hours, and expect the team roughly 2 hours before service for setup. Whether the address is a Frond villa, a Marina tower or a beachfront terrace, that timeline holds.",
+    "Which area page is best to read first is the one you are hosting in. Related: see the catering services that cover every area, the packages and the prices . For a caterer or catering company near me — corporate events, party catering at home, luxury or affordable menus — tell us the area and the guest count and you can hire a vetted chef with the food cost itemised."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Also Serving'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Frequently asked questions",
+   "new_paragraphs": [
+    "Do you charge more for certain communities?",
+    "No. Pricing is set by menu, format and guest count instead of by community. Remote or desert venues may carry a logistics line, which is shown on the proposal.",
+    "Which areas do you cover?",
+    "All of Dubai. Fifteen communities have their own page, including Palm Jumeirah, Emirates Hills, Arabian Ranches, Downtown, Business Bay, DIFC, Dubai Marina, JBR, JLT and Jumeirah.",
+    "Does my building need to approve anything?",
+    "Towers usually require a service-lift booking and may need contractor details in advance. Gated communities need visitor names at the gate. We handle the paperwork.",
+    "Can you cater outdoors in my community?",
+    "Yes, comfortably from November to March when nights average about 19°C. Between May and September we plan indoors and keep outdoor elements short.",
+    "How much does catering cost in Dubai?",
+    "It depends on format, not area. A working or office lunch buffet starts from AED 90 per person, a standard event buffet from AED 120, and a premium buffet, BBQ or canapé service from AED 150. A private chef cooking and serving on site is AED 700 to AED 950 per person. Add 5% VAT. The same rates apply in every Dubai community.",
+    "What is the largest catering company?",
+    "No caterer in Dubai publishes audited revenue or headcount, so nobody can answer that with evidence. The closest measurable proxy is search visibility: across 205 Dubai catering searches we recorded in 2026, Cedar Tree Catering appeared in the top ten more often than any other caterer, 68 times, 23 of them in the top three. That is marketing reach, not kitchen capacity. MyCHEF is not the largest and does not claim to be.",
+    "What is the cheapest catering service?",
+    "The lowest published prices in Dubai are coffee breaks and cold platters, not meals. Among caterers who publish rates, the lowest full-meal figure we found was an office buffet lunch a little under our own AED 90 tier, so we are near the bottom of that band but not at it. Our cheapest option is a drop-off buffet from AED 90 per head.",
+    "What is the leading catering company in Dubai?",
+    "No independent body ranks caterers in Dubai, so that title is self-awarded. Two checks are more useful: does the company publish its prices, and will the quote separate food cost from service, staffing and logistics? Cedar Tree and Baguette, two of the most visible caterers in Dubai search results, publish no prices at all.",
+    "Request an itemised proposal or start on WhatsApp ."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Also Serving'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  }
+ ],
+ "faq": [
+  {
+   "question": "Do you charge more for certain communities?",
+   "answer": [
+    "No. Pricing is set by menu, format and guest count instead of by community. Remote or desert venues may carry a logistics line, which is shown on the proposal."
+   ]
+  },
+  {
+   "question": "Which areas do you cover?",
+   "answer": [
+    "All of Dubai. Fifteen communities have their own page, including Palm Jumeirah, Emirates Hills, Arabian Ranches, Downtown, Business Bay, DIFC, Dubai Marina, JBR, JLT and Jumeirah."
+   ]
+  },
+  {
+   "question": "Does my building need to approve anything?",
+   "answer": [
+    "Towers usually require a service-lift booking and may need contractor details in advance. Gated communities need visitor names at the gate. We handle the paperwork."
+   ]
+  },
+  {
+   "question": "Can you cater outdoors in my community?",
+   "answer": [
+    "Yes, comfortably from November to March when nights average about 19°C. Between May and September we plan indoors and keep outdoor elements short."
+   ]
+  },
+  {
+   "question": "How much does catering cost in Dubai?",
+   "answer": [
+    "It depends on format, not area. A working or office lunch buffet starts from AED 90 per person, a standard event buffet from AED 120, and a premium buffet, BBQ or canapé service from AED 150. A private chef cooking and serving on site is AED 700 to AED 950 per person. Add 5% VAT. The same rates apply in every Dubai community."
+   ]
+  },
+  {
+   "question": "What is the largest catering company?",
+   "answer": [
+    "No caterer in Dubai publishes audited revenue or headcount, so nobody can answer that with evidence. The closest measurable proxy is search visibility: across 205 Dubai catering searches we recorded in 2026, Cedar Tree Catering appeared in the top ten more often than any other caterer, 68 times, 23 of them in the top three. That is marketing reach, not kitchen capacity. MyCHEF is not the largest and does not claim to be."
+   ]
+  },
+  {
+   "question": "What is the cheapest catering service?",
+   "answer": [
+    "The lowest published prices in Dubai are coffee breaks and cold platters, not meals. Among caterers who publish rates, the lowest full-meal figure we found was an office buffet lunch a little under our own AED 90 tier, so we are near the bottom of that band but not at it. Our cheapest option is a drop-off buffet from AED 90 per head."
+   ]
+  },
+  {
+   "question": "What is the leading catering company in Dubai?",
+   "answer": [
+    "No independent body ranks caterers in Dubai, so that title is self-awarded. Two checks are more useful: does the company publish its prices, and will the quote separate food cost from service, staffing and logistics? Cedar Tree and Baguette, two of the most visible caterers in Dubai search results, publish no prices at all.",
+    "Request an itemised proposal or start on WhatsApp ."
+   ]
+  }
+ ]
+}

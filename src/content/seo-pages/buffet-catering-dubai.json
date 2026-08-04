@@ -1,0 +1,209 @@
+{
+ "url": "/buffet-catering-dubai",
+ "keyword_strategy": {
+  "main_keyword": "buffet catering dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 19,
+  "subkeywords_carried": 18,
+  "coverage_percent": 95,
+  "subkeywords_carried_list": [
+   "italian catering dubai",
+   "lebanese catering dubai",
+   "small party catering dubai",
+   "best buffet catering dubai",
+   "finger food catering dubai",
+   "cheap buffet catering dubai",
+   "breakfast buffet catering dubai",
+   "food catering dubai",
+   "party catering dubai",
+   "what is buffet catering",
+   "best buffet dinner dubai",
+   "best party catering dubai",
+   "best food catering in dubai",
+   "best indian food catering dubai",
+   "best finger food catering dubai",
+   "best indian buffet dinner dubai",
+   "best small party catering dubai",
+   "buffet style catering menu ideas"
+  ],
+  "subkeywords_not_carried": [
+   "food catering company dubai"
+  ],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Buffet Catering Dubai | Menus & Prices | myCHEF",
+  "meta_description": "Buffet catering in Dubai from AED 120pp — hot and cold mains, vetted chefs, setup and cleanup. Minimum 20 guests on a buffet. Get an itemised quote.",
+  "h1": "Buffet Catering in Dubai — Real Prices, Menus and Timings"
+ },
+ "opening_paragraph": [
+  "Buffet catering in Dubai costs from AED 120 per person and feeds a long guest list from one generous self-serve spread. It is the format hosts reach for when the count runs from twenty to a few hundred and plated service would be slow or costly. A vetted chef and team cook, replenish and clear the whole spread, so you work the room instead of the kitchen. Tell us your numbers and we typically reply within 15 minutes during business hours, with an itemised proposal to follow."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "What Our Buffet Catering Includes",
+   "match_confidence": 0.8,
+   "new_heading": "What does buffet catering in Dubai include?",
+   "new_paragraphs": [
+    "It includes a full self-serve spread plus the chef and team who build, hold and refresh it through your event. A myCHEF buffet is designed around your guest count and appetite, not pulled off a fixed list. Buffet catering services in Dubai from us typically cover menu design, a vetted private buffet chef, hot and cold mains, salads, sides and fresh breads, a dessert selection, and the setup, serving equipment, chafing dishes and cleanup that keep food safe and looking sharp for hours. You choose the depth: a relaxed family spread, a mid-range corporate line, or a luxury buffet catering display with carving and live finishing. As the team coordinating your booking, we quote every element in writing, so you see exactly where the budget goes before anyone confirms."
+   ]
+  },
+  {
+   "block_on_your_page": "Buffet Catering Questions",
+   "match_confidence": 0.79,
+   "new_heading": "Buffet catering Dubai — common questions",
+   "new_paragraphs": [
+    "How much does buffet catering cost in Dubai?",
+    "From AED 120 per person for a standard event buffet, AED 90 if it is dropped off without staff, and AED 150 for a premium spread with live stations. A chef cooking and plating on site is a different product at AED 700 to 950 per person. Minimums are 10 guests on volume formats, 20 on a buffet and AED 900 on order value; set packages start around AED 1200.",
+    "What is included in a myCHEF buffet?",
+    "Included are menu design, a vetted chef and team, hot and cold mains, salads, sides and breads, a dessert selection, plus serving equipment, setup and cleanup. We quote every element in writing before you confirm.",
+    "How many guests does buffet catering suit?",
+    "Buffet catering suits groups from about twenty to a few hundred, which is why it is the go-to for weddings, corporate events and large parties. We size the spread, equipment and team to your exact headcount.",
+    "Can you cater halal and special diets on a buffet?",
+    "Yes. Halal preparation is standard, and vegan, vegetarian, gluten-free and nut-free dishes are cooked separately and labelled on the line, so every guest can serve themselves with confidence.",
+    "Do you provide buffet catering for corporate events?",
+    "Yes. Corporate buffet catering in Dubai covers conferences, launches, office lunches and staff events, delivered to your floor or venue with setup and clearance handled by our team.",
+    "How do I hire and book buffet catering in Dubai?",
+    "Tell us your date, headcount, venue and menu direction. We send an itemised proposal, usually within one business day; you confirm the details; the team sets up, serves and clears on the day.",
+    "What is buffet catering?",
+    "Buffet catering is a self-serve spread laid out on a line, plus the chef and team who cook it, keep it stocked at the right temperature and clear it afterwards. Guests serve themselves and go back for more, so one kitchen feeds a big room without seating everyone for a plated course.",
+    "Can you do a buffet for a small party?",
+    "Below 20 guests a buffet stops working: the line looks thin and dishes cool between visits. For a small party we suggest dropped-off catering from 10 guests at AED 90 per person, or a private chef, which has no minimum headcount, at AED 700 to 950 per person.",
+    "Do you do a breakfast buffet?",
+    "Yes. A breakfast buffet runs eggs cooked to order, labneh and za'atar, shakshuka, pastries, cut fruit, granola and coffee, from AED 120 per person staffed or AED 90 dropped off. It is a common booking for conference mornings and villa weekends.",
+    "For buffet catering, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements ."
+   ]
+  },
+  {
+   "block_on_your_page": "Buffet Catering Across Dubai",
+   "match_confidence": 1.0,
+   "new_heading": "Buffet catering across Dubai",
+   "new_paragraphs": [
+    "We arrange buffet catering across Dubai, from Palm Jumeirah villas and Downtown apartments to Business Bay offices, Marina residences and desert and beach venues. The chef and team travel to you with the full kit, so the standard of the spread does not change with the postcode. Whether it is a home celebration in Jumeirah, a corporate floor in DIFC or a wedding at a private estate, the same vetted people plan, cook and clear it. Explore the full range of catering in Dubai or browse our catering packages ."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "Generous Stations, Effortless Service",
+  "Build Your Buffet",
+  "Buffets for Every Occasion",
+  "Plan Your Buffet",
+  "Explore myCHEF Dubai",
+  "A Taste of Our Buffet Catering"
+ ],
+ "add_block": [
+  {
+   "new_heading": "Buffet catering for weddings, corporate events and parties",
+   "new_paragraphs": [
+    "The same buffet format flexes across almost every occasion, from a wedding of two hundred to a Monday team lunch. For weddings and large family gatherings, a buffet lets guests graze at their own pace and suits mixed dietary needs across a big table. Corporate buffet catering in Dubai keeps conferences, launches and office floors moving without seating a full room for a plated meal, and works well for buffet catering for events across several rooms. Buffet party catering in Dubai — birthdays, engagements, house celebrations — turns a crowd loose on a generous line while the host stays free. We deliver buffet home catering in Dubai for villa and apartment gatherings too, sizing the spread to the space you have. Whatever the event, one team scopes it, cooks it and clears it."
+   ],
+   "insert_after_block": "What Our Buffet Catering Includes",
+   "position": "after the block titled 'What Our Buffet Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What goes on a Dubai buffet menu?",
+   "new_paragraphs": [
+    "Your buffet menu in Dubai is built to your cuisine, crowd and season, not from a set template. A typical spread runs several hot mains, cold platters and grills, a bank of salads and vegetable sides, warm breads, and a dessert table to close. The chef cooks Arabic, Indian, Asian, Italian, Mediterranean and mixed international lines, and fix the balance of meat, seafood and vegetarian dishes with you up front. Buffet food catering in Dubai has to hold well on the line, so the chef plans dishes that stay hot, crisp or cold as intended for the full service window. Halal preparation is standard, and vegan, gluten-free and nut-free options are labelled on the buffet. For a lighter footprint, we can pair the spread with finger food stations."
+   ],
+   "insert_after_block": "What Our Buffet Catering Includes",
+   "position": "after the block titled 'What Our Buffet Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Buffet menu ideas, by style",
+   "new_paragraphs": [
+    "The style sets the shape of the line, so here are the spreads we build most and what goes on each. Every one is sized and adjusted to your guest list.",
+    "Lebanese and Levantine — hummus, moutabal, tabbouleh, fattoush, kibbeh, shish tawook and mixed grills, closing on kunafa. Lebanese catering in Dubai is the buffet style we are asked for most; the full menus sit on our Mediterranean and Arabic pages.",
+    "Indian — biryani, dal makhani, paneer and chicken curries, tandoori grills, breads cooked to order and a mithai table. It is the strongest pick for a large buffet dinner, because it holds heat well and feeds vegetarians without a separate line. See Indian catering .",
+    "Italian — antipasti boards, a fresh pasta station finished to order, roasted mains and tiramisu. Italian catering in Dubai works better as a live station than as a chafing dish, since pasta held for an hour is not the same dish.",
+    "Breakfast buffet — eggs cooked to order, labneh and za'atar, shakshuka, pastries, cut fruit, granola and proper coffee. Breakfast buffet catering in Dubai runs for conference mornings, villa weekends and Ramadan tables. See breakfast catering .",
+    "Finger food and canapés — a standing spread instead of a seated one, for receptions where nobody wants a plate in one hand. Finger food catering in Dubai pairs well with a short buffet line.",
+    "Mixed international — an Arabic section, an Asian section and a Western roast or grill on one line. The safest choice for a mixed guest list of a hundred or more."
+   ],
+   "insert_after_block": "What Our Buffet Catering Includes",
+   "position": "after the block titled 'What Our Buffet Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Buffet catering for a small party",
+   "new_paragraphs": [
+    "A buffet needs 20 guests to work, and that is a food answer before it is a pricing one. A self-serve line for eight looks thin, and half the dishes cool before anyone returns for seconds. For small party catering in Dubai the best format is not a buffet at all, and two others do the job properly. Dropped-off catering starts at 10 guests and AED 90 per person, which suits an informal gathering you lay out yourself. A private chef carries no minimum headcount at all: dinner for six, cooked and served in your kitchen at AED 700 to 950 per person, is a normal booking. Below 10 guests a buffet is the wrong tool, and we will say so instead of selling you one."
+   ],
+   "insert_after_block": "What Our Buffet Catering Includes",
+   "position": "after the block titled 'What Our Buffet Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Buffet styling, logistics and dietary planning",
+   "new_paragraphs": [
+    "Good buffet catering is as much about flow and food safety as it is about the menu. The chef plans the line so guests move without a bottleneck: starters and breads first, mains in the middle, desserts at the end, with labels and serving tools at every dish. We bring chafing dishes, cold display, linen and serving equipment, and hold hot food hot and cold food cold to Dubai Municipality standards throughout. Portioning is planned to your headcount, so the spread stays generous to the last guest without heavy waste. Allergen and dietary requests are mapped before the day and separated on the line to avoid cross-contact. For outdoor and summer events the team adjusts holding, shade and timing so the food is as good at hour three as at hour one."
+   ],
+   "insert_after_block": "What Our Buffet Catering Includes",
+   "position": "after the block titled 'What Our Buffet Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How much does buffet catering cost in Dubai?",
+   "new_paragraphs": [
+    "Buffet catering prices in Dubai start at AED 120 per person for a standard event buffet. A dropped-off spread with no service team is AED 90 per person. A premium buffet with live carving, grills or canapé stations is AED 150. Where you want a chef cooking and plating in front of guests instead of a self-serve line, that is a different product at AED 700 to 950 per person. Minimums: 10 guests on volume formats, 20 on a full buffet, and AED 900 on order value. If you are pricing cheap buffet catering in Dubai, AED 120 a head is the honest entry point for a staffed spread, and AED 90 for one you lay out yourself. For set occasions we also offer buffet catering packages in Dubai, bundled menus from around AED 1200, which make budgeting easier for a fixed group. Larger and repeat events are quoted per programme. Add 5% VAT. Many catering companies in Dubai quote only on request, so there is nothing to compare until you have asked; ours are printed here and on our Dubai catering price guide , and you can hold them against anyone else's."
+   ],
+   "insert_after_block": "What Our Buffet Catering Includes",
+   "position": "after the block titled 'What Our Buffet Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How to hire buffet catering in Dubai",
+   "new_paragraphs": [
+    "To hire buffet catering in Dubai, send us your date, headcount, venue and rough menu direction, and we do the rest. Searching \"buffet catering near me\" turns up a long list of names; we shorten it by matching one vetted chef and team to your event and putting the plan in writing. From there it is three steps: we send an itemised proposal, usually within one business day; you confirm the menu, timings and dietary needs; the team arrives ahead of service to set up, cook, serve and clear. There is no obligation to book from a first quote — you see the full spread and price before you decide."
+   ],
+   "insert_after_block": "What Our Buffet Catering Includes",
+   "position": "after the block titled 'What Our Buffet Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Why choose myCHEF as your buffet caterer in Dubai?",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you own the evening, we carry the work. Chefs reach buffet catering only after identity checks, a practical cooking assessment, reference verification and ongoing performance reviews — a continuous standard, not a one-time tick. We are honest about it, too: no system removes every risk, so we match each event to the right chef for it.",
+    "For a large buffet, that is often Ahmed Al-Rashid — 18+ years across Dubai, London and Paris in classical French technique — who designs each menu as a collaboration with the host and paces a big service so every dish reaches the line at its freshest. For an Arabic or Ramadan spread we might match Layla Hassan for halal-focused menus, and for the dessert table Sofia Moretti , a pastry and wedding specialist. On a recent villa engagement for 120 guests, our team built a mixed Arabic-Mediterranean buffet with a live carving station and held it generously across a four-hour evening. Alongside buffet catering we have delivered villa weddings, yacht celebrations and corporate galas in Dubai. Real client reviews for Buffet catering are published as events happen."
+   ],
+   "insert_after_block": "What Our Buffet Catering Includes",
+   "position": "after the block titled 'What Our Buffet Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning buffet catering step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your buffet catering proposal arrives.",
+    "Book with the lead time the format needs: 72 hours for a standard buffet package, 3–5 days once live stations or multi-staff service are involved, 5–7 days for a bespoke menu or larger private event, and 7–14 days for a wedding or corporate function.",
+    "Confirm the buffet catering menu roughly 7 days before, once your numbers settle.",
+    "Ask about dietary covers for buffet catering when you enquire, not inside the final 48 hours .",
+    "Check venue access and parking for buffet catering; the team arrives about 2 hours before service.",
+    "Plan on roughly 3 hours of buffet catering service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": "Buffet Catering Questions",
+   "position": "after the block titled 'Buffet Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which buffet catering format suits your event?",
+   "new_paragraphs": [
+    "Format Service staff Guests it suits Indicative cost",
+    "Drop-off None 10 and above, informal From AED 90 per person",
+    "Buffet 1–2 20–60 From AED 120 per person",
+    "Live stations 2–4 40 and above From AED 150 per person",
+    "Plated service 3 and above 8–40 seated AED 700–950 per person"
+   ],
+   "insert_after_block": "Buffet Catering Questions",
+   "position": "after the block titled 'Buffet Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  }
+ ],
+ "faq": []
+}

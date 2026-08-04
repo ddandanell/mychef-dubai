@@ -1,0 +1,157 @@
+{
+ "url": "/uae-national-day-catering-dubai",
+ "keyword_strategy": {
+  "main_keyword": "uae national day catering dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 3,
+  "subkeywords_carried": 3,
+  "coverage_percent": 100,
+  "subkeywords_carried_list": [
+   "uae national day catering dubai menu",
+   "uae national day catering dubai price",
+   "uae national day catering dubai packages"
+  ],
+  "subkeywords_not_carried": [],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "UAE National Day Catering Dubai | Menus & Prices | myCHEF",
+  "meta_description": "UAE National Day catering in Dubai from AED 700pp — Emirati and Arabic mains, vetted chefs and full service. Bespoke menus for your event. Get an itemised quote.",
+  "h1": "UAE National Day Catering in Dubai — Real Prices, Menus and Timings"
+ },
+ "opening_paragraph": [
+  "UAE National Day catering in Dubai starts from AED 700 per person , quoted to your guest count, menu and service level. MyCHEF sends a vetted private chef to your home, office or majlis to design an Emirati-themed menu, cook it fresh on site, serve your guests and leave the kitchen spotless. The 2 December celebration is meant to be spent with your people under the flag, not in the kitchen, so we take the whole food operation off your hands. Tell us your date, guest count and venue, we typically reply within 15 minutes during business hours, with an itemised proposal to follow you can plan around."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "National Day Celebration Formats",
+   "match_confidence": 0.6,
+   "new_heading": "Which uae national day catering format suits your event?",
+   "new_paragraphs": [
+    "Format Service staff Guests it suits Indicative cost",
+    "Drop-off None Any size, informal Most economical",
+    "Buffet 1–2 20–60 From AED 700 per person",
+    "Live stations 2–4 40 and above From AED 700 per person",
+    "Plated service 3 and above 8–40 seated Highest per head"
+   ]
+  },
+  {
+   "block_on_your_page": "UAE National Day Catering Questions",
+   "match_confidence": 0.77,
+   "new_heading": "UAE National Day catering across Dubai",
+   "new_paragraphs": [
+    "We provide UAE National Day catering across every corner of Dubai, matched to your occasion, guest count and venue. That spans villa celebrations in Jumeirah, Palm Jumeirah, Emirates Hills, Dubai Hills and Arabian Ranches; apartment and rooftop parties in Dubai Marina, JBR, JLT and Business Bay; and office or community events in Downtown, DIFC and Al Barsha. A UAE National Day home catering setup for a family majlis and a large outdoor gathering for a residents' community draw on the same vetted team; we scale the stations, staff and equipment to the space. Explore related options via Arabic catering or corporate catering , browse all festive catering , or see the full range of catering in Dubai . Wherever your celebration lands in the city, UAE National Day food catering is delivered to the same standard."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "Heritage, Hospitality & Hassle-Free Service",
+  "Explore myCHEF Dubai",
+  "A Taste of Our UAE National Day Catering",
+  "Book Your UAE National Day Catering",
+  "A National Day Feast Worthy of the Occasion",
+  "What's Included in Our UAE National Day Catering"
+ ],
+ "add_block": [
+  {
+   "new_heading": "What does UAE National Day catering in Dubai include?",
+   "new_paragraphs": [
+    "UAE National Day catering in Dubai includes everything from menu design to the final clean-up, so no host ever steps into the kitchen on the day. A vetted chef builds the Emirati and Arabic menu with you, sources the ingredients, and cooks live at your venue. Where the guest count calls for it, trained service staff handle plating, refilling the majlis spread and keeping the flow moving through the celebration. Setup and full cleanup are part of the service — we arrive early, position the buffet and stations, and leave your villa, office or terrace exactly as we found it. As a UAE National Day catering company Dubai hosts return to, our catering services also carry the details that keep an event calm: serviceware, chafing and station equipment, halal-prepared food, allergen labelling, and a clear timeline so dishes land when the gathering peaks."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'A National Day Feast Worthy of the Occasion'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "UAE National Day catering for corporate events, parties and homes",
+   "new_paragraphs": [
+    "UAE National Day catering in Dubai works across every setting the day takes — a family majlis at home, a rooftop gathering with friends, a villa full of relatives, or a company culture day in the flag's colours. For an intimate celebration, a private UAE National Day chef Dubai residents hire will cook a relaxed Emirati spread for a handful of guests. For a large villa party, we scale to a full buffet and live grills so nobody queues. Corporate UAE National Day catering in Dubai is one of our busiest formats: offices mark the occasion with shareable Emirati food that brings teams together, and we plan headcount, timing and dietary needs around a working schedule. Whether it is UAE National Day catering for events companies run for hundreds or a home party for twenty, the same vetted team and standards carry across — only the scale changes."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'A National Day Feast Worthy of the Occasion'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Emirati styling, majlis logistics and dietary care",
+   "new_paragraphs": [
+    "A memorable National Day table is as much about atmosphere as flavour. On the styling side we lean into the national palette — red, green, white and black serviceware, flag accents, and majlis-style low seating with cushions and lanterns that make the space feel like a proper Emirati gathering. Logistics matter just as much: we position live grills and carving stations with safe clearance, cook in waves so food arrives hot instead of sitting under lamps, and station staff to keep the buffet replenished through the evening. Dietary care runs through all of it, from clearly labelled allergens to fully halal preparation. For hosts who want a luxury UAE National Day experience, we add a dedicated Arabic coffee and dates station, a live luqaimat counter, and an oud-scented majlis setup that turns dinner into the centrepiece of the celebration."
+   ],
+   "insert_after_block": "A National Day Feast Worthy of the Occasion",
+   "position": "after the block titled 'A National Day Feast Worthy of the Occasion'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Why myCHEF",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you own the evening, we carry the work. Chefs reach uae national day catering only after identity checks, a practical cooking assessment, reference verification and ongoing performance reviews — a continuous standard, not a one-time tick. We are honest about it, too: no system removes every risk, so we match each event to the best available chef for it. For an occasion like UAE National Day, that might be Layla Hassan — 14+ years in Lebanese and Emirati kitchens leading catering for prestige events — whose mezze, charcoal grills and aromatic rice are built for sharing, and who is especially sought after for Ramadan and Eid. Alongside uae national day catering we have delivered villa weddings, yacht celebrations and corporate galas in Dubai. Real client reviews for Uae national day catering are published as events happen."
+   ],
+   "insert_after_block": "A Taste of Our UAE National Day Catering",
+   "position": "after the block titled 'A Taste of Our UAE National Day Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning uae national day catering step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your uae national day catering proposal arrives.",
+    "Book uae national day catering about 2 weeks ahead off-peak, and 6 weeks ahead between November and March.",
+    "Confirm your uae national day catering menu about 7 days out, when the guest list is firm.",
+    "Ask early about allergies and dietary plates — not in the last 48 hours before uae national day catering.",
+    "Check the access route before uae national day catering day — setup starts roughly 2 hours ahead.",
+    "Plan on roughly 3 hours of uae national day catering service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": "UAE National Day Catering Questions",
+   "position": "after the block titled 'UAE National Day Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Common questions",
+   "new_paragraphs": [
+    "How much does UAE National Day catering cost in Dubai?",
+    "It starts from around AED 700 per person and is quoted by guest count, menu and service level. A majlis buffet and drop-off are the most economical; plated service and live stations sit higher. Send your numbers for an itemised quote.",
+    "What is included in UAE National Day catering?",
+    "Everything from menu design to the final clean-up. We handle the menu, the chef, the service team, the plating, setup and full cleanup — you host the celebration and we run the food operation end to end.",
+    "What food is on a UAE National Day menu?",
+    "Emirati and Arabic mains anchor it — majlis-style mezze, charcoal grills, machboos and ouzi over aromatic rice, and sweets like luqaimat and kunafa. Every menu is bespoke and tailored to your taste, guests and dietary needs.",
+    "Can you cater corporate UAE National Day events?",
+    "Yes — corporate UAE National Day catering in Dubai is one of our busiest formats. We plan office majlis spreads, buffets and live stations around a working schedule for teams of any size.",
+    "Is the Emirati catering halal?",
+    "Yes. Our Emirati and Arabic menus are prepared halal as standard, with vegetarian, vegan, gluten-free and nut-free options labelled at each station so every guest can choose with confidence.",
+    "How far ahead should I book?",
+    "A week is usually enough for a small gathering. Book earlier for large parties and the 2 December peak, when popular dates and chefs fill quickly.",
+    "Which areas of Dubai do you cover?",
+    "All of Dubai — villas in Jumeirah, Palm Jumeirah and Emirates Hills, apartments in Dubai Marina and Business Bay, and offices in Downtown and DIFC. Wherever you are hosting, the same vetted team delivers.",
+    "For uae national day catering, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements ."
+   ],
+   "insert_after_block": "National Day Celebration Formats",
+   "position": "after the block titled 'National Day Celebration Formats'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How to hire UAE National Day catering in Dubai",
+   "new_paragraphs": [
+    "To hire UAE National Day catering in Dubai, send us your date, guest count and venue, and we typically reply within 15 minutes during business hours, with an itemised proposal to follow. From there it is three steps: we confirm the menu with you, adjusting stations and dietary options until it fits; we lock the chef, staff and equipment for your date; and on the day the team arrives early to set up, cooks live through the celebration, then clears everything away. A week's notice is usually enough for a small gathering, though large parties and the 2 December peak fill quickly, so earlier is safer. Many hosts searching UAE National Day catering near me want the whole thing handled end to end, and that is exactly the point. When you hire a UAE National Day caterer in Dubai through myCHEF, the coordination is ours; the celebration is entirely yours."
+   ],
+   "insert_after_block": "A Taste of Our UAE National Day Catering",
+   "position": "after the block titled 'A Taste of Our UAE National Day Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  },
+  {
+   "new_heading": "How much does UAE National Day catering cost in Dubai?",
+   "new_paragraphs": [
+    "UAE National Day catering in Dubai starts from AED 700 per person, and the format sets the range from there. Everything is priced per head, so the cost scales cleanly with your guest count. A majlis buffet and drop-off styles are the most economical; live grills and carving stations with chefs cooking to order, and plated service with staff, sit higher — reflecting the labour and equipment on site. Menu choices move the number too, and set UAE National Day catering packages make budgeting simple for larger groups. There are no hidden line items: the itemised quote shows food, staff, equipment and service, so UAE National Day catering prices in Dubai are clear before you commit. For a wider view of what caterers charge, see our Dubai catering price guide , or send your numbers for an exact cost. We fit real budgets — from affordable home spreads to luxury multi-station celebrations, and remain a genuinely competitive option when you compare the best UAE National Day catering near you."
+   ],
+   "insert_after_block": "Book Your UAE National Day Catering",
+   "position": "after the block titled 'Book Your UAE National Day Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  }
+ ],
+ "faq": []
+}

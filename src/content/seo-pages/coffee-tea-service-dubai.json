@@ -1,0 +1,183 @@
+{
+ "url": "/coffee-tea-service-dubai",
+ "keyword_strategy": {
+  "main_keyword": "coffee tea service catering dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 7,
+  "subkeywords_carried": 7,
+  "coverage_percent": 100,
+  "subkeywords_carried_list": [
+   "coffee cart dubai",
+   "coffee catering dubai",
+   "coffee catering for events",
+   "best coffee tea service catering dubai",
+   "coffee tea service catering dubai menu",
+   "coffee tea service catering dubai price",
+   "coffee tea service catering dubai near me"
+  ],
+  "subkeywords_not_carried": [],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Coffee Tea Service Catering Dubai | Barista Hire from AED 700pp | myCHEF",
+  "meta_description": "Coffee & Tea Service catering in Dubai — a barista and tea service for events. From aed 700 per person, with vetted chefs and full service. Request a proposal from myCHEF.",
+  "h1": "Coffee & Tea Service Catering in Dubai — Real Prices, Menus and Timings"
+ },
+ "opening_paragraph": [
+  "Coffee tea service catering in Dubai from myCHEF starts at AED 700 per person , pairing a skilled barista with a premium loose-leaf tea service brought to your home, office or event venue. A vetted chef or barista runs the station end to end — menu, setup, service and clear-down — so you host without ever touching a cup. Good coffee changes the mood of a room; ours arrives fresh and made to order. Share your date, guest count and venue and we typically reply within 15 minutes during business hours, with an itemised proposal to follow."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "What's Included in Our Coffee & Tea Service",
+   "match_confidence": 0.65,
+   "new_heading": "What is on a coffee tea service menu in Dubai?",
+   "new_paragraphs": [
+    "The core coffee tea service menu in Dubai covers espresso-based coffee, filter and cold brew, plus a full tea list — and every menu is built around your guests. On the coffee side: espresso, macchiato, cortado, flat white, cappuccino, latte, americano, pour-over and iced cold brew, with speciality single-origin beans on request. On the tea side: English breakfast, Earl Grey, green, chamomile, peppermint, and Arabic qahwa served with dates. We add signature touches — spiced karak, saffron or rose lattes, matcha, and syrups for a build-your-own bar. Coffee tea service food catering in Dubai rounds it out with pastries, mini-viennoiserie, scones or a small dessert table. Tell us the vibe and we design the menu; nothing is off-the-shelf."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "A Better Break Starts Here",
+  "Built for Every Kind of Gathering",
+  "Explore myCHEF Dubai",
+  "Coffee & Tea Service Formats",
+  "A Taste of Our Coffee & Tea Service",
+  "Book Coffee & Tea Service for Your Next Event",
+  "Coffee & Tea Service Questions"
+ ],
+ "add_block": [
+  {
+   "new_heading": "What does a coffee tea service catering setup in Dubai include?",
+   "new_paragraphs": [
+    "It includes a fully working barista station: a professional espresso machine, a trained barista, and a spread of speciality coffees and premium teas made to order at your venue. Coffee tea service catering services in Dubai from myCHEF cover the whole station — beans, milks (including oat, almond and lactose-free), a curated tea selection, and the crockery, linen and clear-down. A typical setup pours espresso, flat whites, cappuccinos, cortados and pour-over filter alongside black, green, herbal and Arabic-style teas. Pastries, dates and light bites are added on request. As the team coordinating your booking, we bring everything mobile — the station works indoors, poolside or in a marquee — and a private coffee tea service chef can plate accompanying sweets when you want more than drinks. You get one point of contact from enquiry to the last cup cleared."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'A Better Break Starts Here'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Coffee tea service catering Dubai: weddings, corporate events and parties",
+   "new_paragraphs": [
+    "Yes — the same barista station scales from an intimate gathering to a several-hundred-guest reception. For weddings, a coffee tea service caterer in Dubai sets up a post-dinner coffee and dessert-tea moment, or an Arabic coffee and dates welcome as guests arrive. Corporate coffee tea service catering in Dubai keeps conferences, boardroom sessions and all-day workshops fuelled with real espresso instead of flask coffee, and pairs neatly with a breakfast or working lunch. For birthdays, baby showers and villa gatherings, coffee tea service party catering in Dubai adds a relaxed, sociable focal point — guests order their own drink and linger. Because this is coffee tea service catering for events of every size, we size the machine, barista count and menu to your headcount so nobody queues."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'A Better Break Starts Here'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Styling, logistics and setup",
+   "new_paragraphs": [
+    "The station is styled to match your event and needs only a small footprint and a power point. Our team arrives ahead of service to build the bar, calibrate the machine and lay out cups, saucers and garnishes; for coffee tea service home catering in Dubai that usually means a corner of the kitchen or terrace, while larger events get a full styled counter with signage. Power, water and a level surface are all we ask — we bring the rest, including a generator option for beach and desert setups. A luxury coffee tea service catering finish adds bespoke branding, custom cups, floral dressing and a dedicated barista per fifty guests. We manage timings around your programme, so coffee lands exactly when speeches end or the dancing starts, and we clear everything discreetly afterward."
+   ],
+   "insert_after_block": "What's Included in Our Coffee & Tea Service",
+   "position": "after the block titled 'What's Included in Our Coffee & Tea Service'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How much does coffee tea service catering cost in Dubai?",
+   "new_paragraphs": [
+    "Coffee tea service catering prices in Dubai start from AED 700 per person, with the final figure set by guest count, menu and service level. The per-head rate covers the barista, machine, ingredients and setup; larger groups and simpler menus bring the effective coffee tea service catering cost in Dubai down, while single-origin beans, branded cups and extra baristas raise it. For fuller events, myCHEF also offers combined catering packages from AED 1200, so a coffee and tea station can sit inside a wider food package instead of being priced alone. We keep it transparent, and affordable coffee tea service catering is realistic for a simpler drop-in station. See our prices and catering price guide , or send your details for an itemised quote — no obligation."
+   ],
+   "insert_after_block": "What's Included in Our Coffee & Tea Service",
+   "position": "after the block titled 'What's Included in Our Coffee & Tea Service'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How do I hire coffee tea service catering in Dubai?",
+   "new_paragraphs": [
+    "To hire coffee tea service catering in Dubai, send us your date, guest count and venue, and we return an itemised proposal — usually within one business day, and promptly during our published business hours. From there we match a vetted barista or chef, confirm the menu and any add-ons, and lock the timeline. On the day, the team arrives early, sets up, runs the service and clears down, leaving your space as they found it. Searching for coffee tea service catering near me works the same way across every district — the station comes to you. There is no deposit to explore options: get the quote first, decide second."
+   ],
+   "insert_after_block": "What's Included in Our Coffee & Tea Service",
+   "position": "after the block titled 'What's Included in Our Coffee & Tea Service'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning coffee tea service catering step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your coffee tea service catering proposal arrives.",
+    "Book coffee tea service catering about 2 weeks ahead off-peak, and 6 weeks ahead between November and March.",
+    "Confirm the coffee tea service catering menu 7 days before the date, with final numbers.",
+    "Ask about allergies when booking coffee tea service catering, well outside the final 48 hours .",
+    "Check how the team reaches the venue; coffee tea service catering setup begins about 2 hours before guests.",
+    "Plan on roughly 3 hours of coffee tea service catering service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": "Coffee & Tea Service Formats",
+   "position": "after the block titled 'Coffee & Tea Service Formats'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Coffee cart or barista station?",
+   "new_paragraphs": [
+    "A coffee cart in Dubai is the mobile version of the same service: a compact trolley, a trained barista and a power point, set up in a lobby, a courtyard or beside a registration desk. It suits footfall events where guests arrive in waves — an activation, a conference break, a showroom opening — because a cart can be positioned where the queue forms rather than where the kitchen is.",
+    "The fixed barista station is the better choice when the coffee is part of a seated event and the same guests return through the morning. Both run from a standard socket; the practical constraint is water access and a clear route to wheel the equipment in."
+   ],
+   "insert_after_block": "Book Coffee & Tea Service for Your Next Event",
+   "position": "after the block titled 'Book Coffee & Tea Service for Your Next Event'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Common questions",
+   "new_paragraphs": [
+    "How much does coffee & tea service cost in Dubai?",
+    "It's AED 700 per person — quoted by group size, menu and service. Send your details for an exact quote.",
+    "What's included?",
+    "Menu design, a vetted chef or barista, service and setup, and cleanup where relevant — the machine, beans, milks and tea selection are all part of it.",
+    "How do I book?",
+    "Tell us your date, guest count and venue; we send an itemised proposal, usually within one business day.",
+    "Do you provide the barista and the espresso machine?",
+    "Yes — the per-person rate includes a trained barista and a professional espresso machine, plus beans, milks, a full tea selection and the crockery. We bring the whole mobile station and clear it down afterward.",
+    "Can you cater coffee and tea for corporate events and large parties?",
+    "Yes — the station scales from a boardroom of a dozen to a reception of several hundred. We size the machine, barista count and menu to your headcount so nobody queues.",
+    "Do you offer decaf, oat milk and Arabic coffee?",
+    "Yes — we carry decaf, oat, almond and lactose-free milks, and serve Arabic qahwa with dates alongside espresso drinks, karak, matcha and a full tea list.",
+    "Do you cover my area of Dubai?",
+    "Yes — the station is fully mobile, so we cover every district, from DIFC and Business Bay to Palm Jumeirah, the Marina and Jumeirah, plus villas, offices, beaches and yachts.",
+    "For coffee tea service catering, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements ."
+   ],
+   "insert_after_block": "Book Coffee & Tea Service for Your Next Event",
+   "position": "after the block titled 'Book Coffee & Tea Service for Your Next Event'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Coffee tea service catering across Dubai",
+   "new_paragraphs": [
+    "We bring coffee tea service catering to every part of Dubai — from Downtown and Business Bay offices to Palm Jumeirah villas, Marina apartments and Jumeirah beachfronts. The mobile station means the best coffee tea service catering in Dubai reaches wherever your event is, whether that's a DIFC boardroom, a home in Arabian Ranches or a yacht off the coast. Wherever you are, the standard holds: fresh, made-to-order coffee and tea, run by a vetted professional, and cleared away without a trace."
+   ],
+   "insert_after_block": "Coffee & Tea Service Formats",
+   "position": "after the block titled 'Coffee & Tea Service Formats'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  },
+  {
+   "new_heading": "Why choose myCHEF for coffee tea service catering?",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you own the occasion, we carry the work. Before any chef or barista joins the network they pass identity checks, a practical cooking assessment, reference verification and ongoing performance reviews — a continuous standard, not a one-time tick. We are honest about it, too: no system removes every risk, so we match each event to the right person for it. For a coffee and tea service, that might be Ahmed Al-Rashid — 18+ years across Dubai, London and Paris in classical French technique — who treats the menu as a collaboration with the host, every detail timed and served to exacting standards. As one example, we ran an all-day coffee and karak station for a Business Bay product launch, keeping 50 guests served through back-to-back sessions without a queue. Real client reviews for Coffee tea service catering are published as events happen."
+   ],
+   "insert_after_block": "A Taste of Our Coffee & Tea Service",
+   "position": "after the block titled 'A Taste of Our Coffee & Tea Service'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  },
+  {
+   "new_heading": "Which coffee tea service catering format suits your event?",
+   "new_paragraphs": [
+    "Format Service staff Guests it suits Indicative cost",
+    "Drop-off None Any size, informal Most economical",
+    "Buffet 1–2 20–60 From AED 700 per person",
+    "Live stations 2–4 40 and above From AED 700 per person",
+    "Plated service 3 and above 8–40 seated Highest per head"
+   ],
+   "insert_after_block": "Book Coffee & Tea Service for Your Next Event",
+   "position": "after the block titled 'Book Coffee & Tea Service for Your Next Event'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  }
+ ],
+ "faq": []
+}

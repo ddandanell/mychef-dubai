@@ -1,0 +1,184 @@
+{
+ "url": "/family-feast-package-dubai",
+ "keyword_strategy": {
+  "main_keyword": "family feast package dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 4,
+  "subkeywords_carried": 3,
+  "coverage_percent": 75,
+  "subkeywords_carried_list": [
+   "family feast price",
+   "dubai family package price",
+   "how much is a family meal in dubai"
+  ],
+  "subkeywords_not_carried": [
+   "family pack meal deals"
+  ],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Family Feast Package Dubai | from AED 2,400 | myCHEF",
+  "meta_description": "Family Feast Package in Dubai — a generous fixed-price family dinner. From aed 2,400, with vetted chefs and full service. Request a proposal from myCHEF.",
+  "h1": "Family Feast Package Catering in Dubai — What It Costs and How to Book"
+ },
+ "opening_paragraph": [
+  "Family feast package catering in Dubai from myCHEF is a share-the-table dinner for six to eight guests at one fixed price, from AED 2,400, chef and full service included. One vetted chef designs the menu, cooks in your kitchen, plates every course and clears away after, so you stay at the table with your family instead of running the evening. Tell us your date, guest count and venue, we typically reply within 15 minutes during business hours, with an itemised proposal to follow you can book from."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "What is included in the Family Feast package?",
+   "match_confidence": 0.8,
+   "new_heading": "What's on the family feast package menu?",
+   "new_paragraphs": [
+    "The family feast package menu is a multi-course, family-style spread — a few sharing starters, one or two mains, sides and a dessert — built around the cuisine you choose and any dietary needs at the table. You approve every dish before the date.",
+    "Popular directions include Italian and Mediterranean sharing boards, an Arabic mezze-to-mixed-grill feast, a slow-roast centrepiece, or a modern mix across cuisines. The food is designed to travel from kitchen to table in waves, so courses land hot and the table never empties. Halal, vegetarian and vegan versions are standard, not extras: tell us who is eating and the chef adjusts the menu instead of bolting on a side plate. Gluten-free options are available on request, subject to partner confirmation and an allergen review for the specific booking, and menus without intentionally added nuts may be available the same way. Family feast package food catering in Dubai is about abundance done well, not a buffet line."
+   ]
+  },
+  {
+   "block_on_your_page": "Book the Family Feast Package",
+   "match_confidence": 0.65,
+   "new_heading": "How to hire a family feast package caterer in Dubai",
+   "new_paragraphs": [
+    "To hire family feast package catering in Dubai, send your date, guest count and venue; we match a vetted chef and return an itemised proposal, usually within one business day. You approve the menu and price, then the chef takes the evening from there.",
+    "There is no long form to fill. Searching for family feast package catering near me usually turns up faceless listings; here you deal with one team and one named chef instead. As a family feast package catering company in Dubai, myCHEF handles the matching, the menu design and the on-the-day service under one roof, so you are not chasing a caterer, a cook and a cleaner separately. Compare it against other formats on our packages page or the private chef vs catering guide before you decide."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "Explore myCHEF Dubai",
+  "Common Questions About the Family Feast Package"
+ ],
+ "add_block": [
+  {
+   "new_heading": "Family feast package catering for weddings, corporate events and parties",
+   "new_paragraphs": [
+    "The same format scales from a quiet family dinner to weddings, corporate gatherings and private parties — the menu, the headcount and the service level flex to the occasion. A feast built for eight can grow into a longer table for a milestone.",
+    "For a wedding-eve dinner or a family celebration, the chef leans into sharing platters and a showpiece main. Corporate family feast package catering in Dubai suits team dinners and client hosting where you want the warmth of a home table instead of a hotel function room. For birthdays and reunions, family feast package party catering in Dubai keeps the mood relaxed and the food generous. Booking family feast package catering for events in Dubai means one chef and one price cover the whole evening, whatever the reason for it."
+   ],
+   "insert_after_block": "Common Questions About the Family Feast Package",
+   "position": "after the block titled 'Common Questions About the Family Feast Package'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How your feast is styled, served and cleared",
+   "new_paragraphs": [
+    "Your chef arrives ahead of service, cooks in your own kitchen, serves each course family-style to the table, then leaves the space as clean as they found it. The rhythm of the meal is theirs to manage, not yours.",
+    "Because this is home catering, the setup is calm instead of commercial: platters and boards laid down the middle of the table, courses paced to the conversation, and a quiet reset between them. Family feast package home catering in Dubai works in villas, apartments and townhouses alike — the chef scopes your kitchen and equipment in advance so nothing is a surprise on the day. If your space is tight, the menu is planned around what your hob and oven can carry, and any specialist kit is brought in."
+   ],
+   "insert_after_block": "What is included in the Family Feast package?",
+   "position": "after the block titled 'What is included in the Family Feast package?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How much does family feast package catering cost in Dubai?",
+   "new_paragraphs": [
+    "Family feast package catering in Dubai starts from AED 2,400 for six to eight guests, with the final figure set by your menu, headcount and service level. Larger family feast package catering packages in Dubai run to AED 3,600, 4,500 and 5,500 as courses and covers rise.",
+    "That one price folds in the chef, the cooking, the service and the cleanup, so there is no separate labour or call-out line to add later. It is a genuinely affordable family feast package catering option next to booking a venue and a per-head menu, because you host at home and pay for one chef, not a room. For a full breakdown, see our prices and the catering price guide . Whether you want a simple family dinner or a more luxury family feast package catering evening with premium produce, the family feast package catering cost in Dubai is confirmed in writing before you commit."
+   ],
+   "insert_after_block": "What is included in the Family Feast package?",
+   "position": "after the block titled 'What is included in the Family Feast package?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Why choose myCHEF",
+   "new_paragraphs": [
+    "MyCHEF vets every chef before they join and matches your feast to one suited to it, so a stranger never cooks in your home unchecked. Before a chef joins the network they pass identity checks, a practical cooking assessment, reference verification and ongoing performance reviews — a continuous standard, not a one-time tick. We are honest about it: no system removes every risk, so we match each event to the best available chef for it.",
+    "For a family feast, that private chef is often Ahmed Al-Rashid — 18+ years across Dubai, London and Paris in classical French technique — who builds each menu with the host, every course timed, seasoned and served to a high standard. Our work spans family feast package, villa weddings, yacht celebrations and corporate galas across Dubai. Covers family feast package; client reviews go up as events are delivered. You can also explore our wider private chef service if a feast becomes a regular thing."
+   ],
+   "insert_after_block": "Book the Family Feast Package",
+   "position": "after the block titled 'Book the Family Feast Package'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Family feast package catering across Dubai",
+   "new_paragraphs": [
+    "We deliver family feast package catering across Dubai — Palm Jumeirah, Downtown, Dubai Marina, Emirates Hills, Jumeirah, Business Bay and the surrounding communities. The chef travels to you, so the same table you eat at every day becomes the setting for the feast.",
+    "Villas and townhouses in the suburbs and apartments in the towers are all workable; the chef plans the menu around your kitchen. Wherever you are in the city, a family feast package caterer in Dubai can reach you, and one proposal covers the whole evening from first platter to final clear-down."
+   ],
+   "insert_after_block": "Book the Family Feast Package",
+   "position": "after the block titled 'Book the Family Feast Package'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning family feast package step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your family feast package proposal arrives.",
+    "Book family feast package about 2 weeks ahead off-peak, and 6 weeks ahead between November and March.",
+    "Confirm the family feast package menu roughly 7 days before, once your numbers settle.",
+    "Ask about dietary covers for family feast package when you enquire, not inside the final 48 hours .",
+    "Check venue access and parking for family feast package; the team arrives about 2 hours before service.",
+    "Plan on roughly 3 hours of family feast package service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": "Book the Family Feast Package",
+   "position": "after the block titled 'Book the Family Feast Package'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which family feast package format suits your event?",
+   "new_paragraphs": [
+    "Format What it gives you Staffing Cost position",
+    "Drop-off Food delivered ready to serve None Entry point",
+    "Buffet Presentation plus a maintained spread 1–2 From AED 700 per person",
+    "Live stations Cooking in front of your guests 2–4 Mid-range",
+    "Plated Every course served together 3 and above Top of the range"
+   ],
+   "insert_after_block": "Book the Family Feast Package",
+   "position": "after the block titled 'Book the Family Feast Package'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Common questions",
+   "new_paragraphs": [
+    "How much does a family feast package cost in Dubai?",
+    "From AED 2,400 for six to eight guests, with the price set by your menu, headcount and service level. Larger set packages run to AED 3,600, 4,500 and 5,500. You get an itemised quote before booking.",
+    "How many guests does the family feast package serve?",
+    "Six to eight guests as standard. For a bigger table, the chef scales the menu and can add a service assistant, and the price is confirmed for your exact numbers.",
+    "What's included in the price?",
+    "Everything for the dinner: menu design, a vetted chef, on-site cooking, full table service, and setup and cleanup. There is no separate labour or call-out charge on top.",
+    "Can the menu be halal, vegetarian or allergen-aware?",
+    "Yes. Halal, vegetarian and vegan menus are standard. Gluten-free, nut-conscious and other dietary menu options may be available on request, subject to confirmation by the assigned culinary partner. Partner kitchens may handle allergens, and cross-contact cannot be completely excluded unless dedicated controls have been specifically confirmed for the booking. Guests with allergies must provide full details before confirming their event.",
+    "Do you bring equipment and clean up?",
+    "Yes. The chef cooks in your kitchen, brings any specialist kit needed, serves each course, and leaves the kitchen clean. You are left with the table and the company, not the washing-up.",
+    "Which areas of Dubai do you cover?",
+    "All of Dubai — Palm Jumeirah, Downtown, Dubai Marina, Emirates Hills, Jumeirah, Business Bay and beyond. The chef travels to your villa or apartment.",
+    "How do I hire a family feast package caterer near me?",
+    "Send your date, guest count and venue and we match a vetted chef, then return an itemised proposal — usually within one business day. Approve it and the date is yours.",
+    "For family feast package, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements ."
+   ],
+   "insert_after_block": "Book the Family Feast Package",
+   "position": "after the block titled 'Book the Family Feast Package'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "More on family feast package catering dubai",
+   "new_paragraphs": [
+    "Where can I book family feast package catering dubai?",
+    "Family feast package catering dubai is arranged across every Dubai community, shaped by your occasion, guest count and venue.",
+    "What sits alongside family feast package catering dubai?",
+    "Send the brief and we will tell you which family feast package catering dubai format suits the room.",
+    "Request an itemised proposal or start on WhatsApp ."
+   ],
+   "insert_after_block": "Book the Family Feast Package",
+   "position": "after the block titled 'Book the Family Feast Package'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What does a family feast package include?",
+   "new_paragraphs": [
+    "A family feast package includes menu design, a vetted private chef, on-site cooking, full table service, and setup and cleanup — one sit-down dinner for six to eight, in one price. Nothing on the night is left for you to arrange.",
+    "Every family feast package catering service in Dubai covers the same core: a menu built around your taste, a chef who shops and cooks fresh in your home kitchen, plating and serving through the courses, and a kitchen left the way it was found. You supply the table and the guests; the chef brings the skill, the timing and the finish. If you want extra hands for a larger group, a service assistant can be added so drinks and clearing keep pace with the food."
+   ],
+   "insert_after_block": "Common Questions About the Family Feast Package",
+   "position": "after the block titled 'Common Questions About the Family Feast Package'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  }
+ ],
+ "faq": []
+}

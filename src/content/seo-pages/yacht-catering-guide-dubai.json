@@ -1,0 +1,176 @@
+{
+ "url": "/yacht-catering-guide-dubai",
+ "keyword_strategy": {
+  "main_keyword": "yacht catering guide dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 7,
+  "subkeywords_carried": 5,
+  "coverage_percent": 71,
+  "subkeywords_carried_list": [
+   "yacht catering menu",
+   "catering for yacht party",
+   "best yacht catering guide dubai",
+   "yacht catering guide dubai price",
+   "small yacht catering guide dubai"
+  ],
+  "subkeywords_not_carried": [
+   "yacht catering guide dubai pdf",
+   "luxury yacht catering guide dubai"
+  ],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Yacht Catering Guide Dubai: Menus, Costs and Logistics | myCHEF",
+  "meta_description": "A complete yacht catering guide for Dubai: which menus survive a boat, galley limits, loading and timing, seasonal planning and what yacht catering costs per person.",
+  "h1": "Yacht Catering Guide for Dubai — Real Prices and Timings"
+ },
+ "opening_paragraph": [
+  "Yacht catering in Dubai works when the menu is designed around the boat instead of the kitchen, and myCHEF arranges it from around AED 700 per person. A yacht has a small galley, a single loading window and movement underway, which rules out a lot of what works on land. This guide explains what to serve, how the logistics run, what it costs, and how to plan the day so the food arrives with the guests."
+ ],
+ "replace_in_block": [],
+ "leave_untouched": [
+  "Catering Designed for Yacht Life",
+  "Yacht Catering Formats",
+  "Planning Around Dubai's Climate",
+  "Related Yacht & Event Services",
+  "Yacht Catering FAQ",
+  "Plan Your Yacht Charter Catering",
+  "Explore myCHEF Dubai",
+  "What Makes Yacht Catering Different",
+  "Popular Yacht Catering Routes"
+ ],
+ "add_block": [
+  {
+   "new_heading": "Why a yacht is different from any other venue",
+   "new_paragraphs": [
+    "Three constraints shape everything. The galley is small, often with one modest oven, a domestic-scale hob and limited refrigeration shared with the crew's own supplies. Loading happens once, at the marina, in a window measured in minutes; there is no forgetting an ingredient and sending someone back. And the boat moves, which means anything stacked, delicate or served in a shallow dish is at risk the moment you leave the breakwater.",
+    "The practical consequence is that most Dubai yacht catering is prepared ashore in a licensed kitchen and either served cold or finished on board with minimal cooking. That is not a compromise on quality if the menu is designed for it. A chilled seafood platter, a mezze spread, marinated proteins and composed salads all travel well and read as generous. A soufflé does not."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Catering Designed for Yacht Life'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What to serve: menus that survive a boat",
+   "new_paragraphs": [
+    "The best yacht guide menu is built in layers that come out as the day unfolds. Start with something immediately on boarding, because guests arrive hungry and the first hour is usually spent at the marina or just outside it. Canapes, a mezze board or a chilled seafood selection all work. Mid-cruise, bring out the substantial course: skewers, grilled proteins, sliders, rice or grain salads, and breads.",
+    "Later, keep it light. Fruit, dessert bites and a sweet platter suit the end of the afternoon far better than a heavy plated dessert. Some yacht guide ideas worth borrowing: a build-your-own taco or slider station that needs no cutlery, a shawarma setup if the boat has deck space, and a mocktail and juice service that runs throughout. Avoid anything that needs a knife and fork balanced on a lap, anything with a runny sauce, and anything that suffers after twenty minutes out of refrigeration."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Catering Designed for Yacht Life'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Logistics: loading, timing and the marina",
+   "new_paragraphs": [
+    "Plan the day backwards from the departure slot. The catering team needs access to the boat before guests arrive, and marina access rules vary by berth, so confirm with the charter operator who is allowed on the pontoon and when. Give the caterer the marina name, the berth number and the boarding time, not just the charter time, because those are often an hour apart.",
+    "Everything is carried by hand down a pontoon and up a passerelle, which shapes the packing as much as the menu. Food travels in sealed insulated boxes, gets transferred to the galley fridge on boarding, and is plated in waves. Confirm what the boat provides: crockery, glassware, ice, bin space and whether the crew will serve or whether you need a chef or host aboard. Ice is worth asking about specifically, because boats run out of it faster than anyone expects."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Catering Designed for Yacht Life'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Season, sea state and comfort",
+   "new_paragraphs": [
+    "The charter calendar follows the weather. From November to March, days average around 27°C and nights fall to about 19°C ( Weather and Climate ), which is when a full day on the water is comfortable and when the marina is at its busiest. Book early for that window. Between May and September, morning and sunset charters work far better than midday, and shade and cold food become the priority instead of a nice extra.",
+    "Sea state matters for the menu as much as for comfort. On a choppy afternoon, plated courses and tall presentations are a poor idea; boards, bowls and anything with a rim are safer. If the group includes people who are uncertain on the water, keep the food light and frequent instead of one large sitting. It is worth asking the captain about conditions the day before and letting the caterer adjust."
+   ],
+   "insert_after_block": "What Makes Yacht Catering Different",
+   "position": "after the block titled 'What Makes Yacht Catering Different'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Food safety on the water, and choosing a caterer",
+   "new_paragraphs": [
+    "Transport is the whole game here. Licensed operators work to the Dubai Municipality Food Code, which sets requirements for food transportation and delivery vehicles alongside handling, and requires structured staff training. The Dubai Municipality Food Safety Department monitors food establishments and investigates food-borne illness, so compliance is checked in practice. On a yacht the risk window is the gap between the licensed kitchen and the galley fridge, so ask how food is packed, how long it travels and what temperature it holds.",
+    "Then ask who is cooking and whether they have worked on boats, because galley experience is a genuine skill and not every excellent land chef has it. Before a chef is offered for yacht catering guide, they clear identity checks, a practical cooking assessment, reference verification and reviews from previous clients. Dubai Marina , Palm Jumeirah and Bluewaters . Work through the yacht catering checklist before you book, and see the yacht party menu ideas for menu inspiration."
+   ],
+   "insert_after_block": "What Makes Yacht Catering Different",
+   "position": "after the block titled 'What Makes Yacht Catering Different'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Frequently asked questions",
+   "new_paragraphs": [
+    "How much does yacht catering cost in Dubai?",
+    "Yacht catering starts from around AED 700 per person. A delivered, ready-to-serve spread is the most economical; adding a chef aboard costs more but allows food to be cooked and plated to order.",
+    "Can a chef cook on board?",
+    "Yes, within the galley's limits. Assume one modest oven, a domestic hob and shared refrigeration. Most menus are prepared ashore in a licensed kitchen and finished on board.",
+    "What food works well on a yacht?",
+    "Food that needs no cutlery and holds well: canapes, chilled seafood, mezze, skewers, sliders, grain salads and fruit. Avoid runny sauces, tall presentations and anything that suffers out of refrigeration.",
+    "When is the right time of year for a Dubai yacht charter?",
+    "November to March, when days average around 27°C and nights about 19°C. Between May and September, morning and sunset charters are more comfortable than midday.",
+    "Do you provide crockery, ice and staff?",
+    "It depends what the boat already has. Confirm crockery, glassware, ice and bin space with the charter operator first; we supply what is missing and can send a chef or host aboard.",
+    "How does the food get onto the boat?",
+    "It is packed in sealed insulated boxes, carried down the pontoon during the loading window and transferred straight to the galley fridge. There is one load, so the menu is planned around it.",
+    "Is catering included in the charter price?",
+    "Usually not. Catering is normally separate from the charter fee, though some operators include soft drinks and ice. Check with the operator before briefing a caterer."
+   ],
+   "insert_after_block": "Popular Yacht Catering Routes",
+   "position": "after the block titled 'Popular Yacht Catering Routes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Sources",
+   "new_paragraphs": [
+    "Facts in this guide come from official and published sources: the UAE Ministry of Finance (5% VAT, effective 1 January 2018), Dubai Municipality (Food Code, food transportation and delivery-vehicle requirements, and mandatory food-handler training), Dubai Municipality Food Safety Department (food-establishment monitoring and food-borne illness investigation), and Weather and Climate (Dubai December averages of 27°C by day and 19°C at night). Marina access rules vary by berth; confirm with your charter operator.",
+    "Request a proposal or message us on WhatsApp ."
+   ],
+   "insert_after_block": "Popular Yacht Catering Routes",
+   "position": "after the block titled 'Popular Yacht Catering Routes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  }
+ ],
+ "faq": [
+  {
+   "question": "How much does yacht catering cost in Dubai?",
+   "answer": [
+    "Yacht catering starts from around AED 700 per person. A delivered, ready-to-serve spread is the most economical; adding a chef aboard costs more but allows food to be cooked and plated to order."
+   ]
+  },
+  {
+   "question": "Can a chef cook on board?",
+   "answer": [
+    "Yes, within the galley's limits. Assume one modest oven, a domestic hob and shared refrigeration. Most menus are prepared ashore in a licensed kitchen and finished on board."
+   ]
+  },
+  {
+   "question": "What food works well on a yacht?",
+   "answer": [
+    "Food that needs no cutlery and holds well: canapes, chilled seafood, mezze, skewers, sliders, grain salads and fruit. Avoid runny sauces, tall presentations and anything that suffers out of refrigeration."
+   ]
+  },
+  {
+   "question": "When is the right time of year for a Dubai yacht charter?",
+   "answer": [
+    "November to March, when days average around 27°C and nights about 19°C. Between May and September, morning and sunset charters are more comfortable than midday."
+   ]
+  },
+  {
+   "question": "Do you provide crockery, ice and staff?",
+   "answer": [
+    "It depends what the boat already has. Confirm crockery, glassware, ice and bin space with the charter operator first; we supply what is missing and can send a chef or host aboard."
+   ]
+  },
+  {
+   "question": "How does the food get onto the boat?",
+   "answer": [
+    "It is packed in sealed insulated boxes, carried down the pontoon during the loading window and transferred straight to the galley fridge. There is one load, so the menu is planned around it."
+   ]
+  },
+  {
+   "question": "Is catering included in the charter price?",
+   "answer": [
+    "Usually not. Catering is normally separate from the charter fee, though some operators include soft drinks and ice. Check with the operator before briefing a caterer."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,189 @@
+{
+ "url": "/corporate-dinner-package-dubai",
+ "keyword_strategy": {
+  "main_keyword": "corporate dinner package catering dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 6,
+  "subkeywords_carried": 5,
+  "coverage_percent": 83,
+  "subkeywords_carried_list": [
+   "buffet catering dubai",
+   "small party catering dubai",
+   "best corporate dinner package catering dubai",
+   "corporate dinner package catering dubai menu",
+   "corporate dinner package catering dubai reviews"
+  ],
+  "subkeywords_not_carried": [
+   "cheap corporate dinner package catering dubai"
+  ],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Corporate Dinner Package Catering Dubai | Menus & Prices | myCHEF",
+  "meta_description": "Corporate Dinner Package catering in Dubai from AED 700 per person — a set menu for your headcount, vetted chefs and full service. Bespoke and reliable. Get an itemised quote.",
+  "h1": "Corporate Dinner Package Catering in Dubai — What It Costs and How to Book"
+ },
+ "opening_paragraph": [
+  "Corporate dinner package catering in Dubai starts from AED 700 per person — a fixed menu at a fixed price, so the finance line is settled before the first course is plated. You get a set menu built to your headcount, a vetted chef and a service team who handle the food, the room and the clear-down, leaving you free to entertain your guests. Tell us your numbers and we typically reply within 15 minutes during business hours, with an itemised proposal to follow."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "What is included in the Corporate Dinner package?",
+   "match_confidence": 0.83,
+   "new_heading": "What is on the corporate dinner package menu?",
+   "new_paragraphs": [
+    "The corporate dinner package menu is built with you, not handed down — you pick a cuisine and a service style, and the chef shapes courses around your guests and the season. Popular formats include a three-course plated dinner, a chef-attended buffet, or grazing and canapé rounds for stand-up events. Cuisines span Italian and Mediterranean, Arabic and Levantine, Indian, pan-Asian and modern European, and every menu can be built fully halal on request. Dietary requirements — vegetarian, vegan, gluten-free, nut-free and allergy-aware plates — are handled in the menu design, not improvised at the table. If you would like to taste before you commit, a formal tasting menu is available from AED 1,400 so decision-makers can sign off the dishes in advance. The result is corporate dinner package food that suits your specific room, not a fixed sheet you have to work around."
+   ]
+  },
+  {
+   "block_on_your_page": "Book the Corporate Dinner Package",
+   "match_confidence": 0.74,
+   "new_heading": "How do I hire a corporate dinner package caterer?",
+   "new_paragraphs": [
+    "To hire corporate dinner package catering, send us your date, headcount, venue and the style of evening you want, and we return an itemised proposal — usually within one business day. From there the steps are set: we confirm the menu and any dietary needs, lock the chef and team, and finalise the timing against your run of show. On the day the chef arrives ahead of service, sets up, cooks or plates, runs the meal to your schedule and clears down afterwards. If dinners recur, we set up an ongoing arrangement with consistent menus and a single, tidy invoice, so you are not re-briefing a new corporate dinner package catering services team every quarter. Searching for corporate dinner package catering near me usually surfaces a dozen options; the difference here is one accountable point of contact from first message to final clear-down."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "Explore myCHEF Dubai",
+  "Common Questions About the Corporate Dinner Package"
+ ],
+ "add_block": [
+  {
+   "new_heading": "Corporate dinner packages for team celebrations, client entertaining and company events",
+   "new_paragraphs": [
+    "The same corporate dinner package flexes across most company occasions — year-end parties, client entertaining, board dinners, milestone celebrations and off-site events. A team celebration usually wants a relaxed buffet or grazing-style spread that keeps people mingling; a client dinner leans plated and precise, where timing and presentation do the talking. For a company party we scale the corporate dinner package party catering to the room, adding live stations or a bar so the evening has a centre of gravity. Larger corporate dinner package catering for events — awards nights, conferences, product launches — runs on a set menu so the finance team can sign off a per-head number weeks ahead. Whatever the format, the private corporate dinner package chef and team arrive briefed on your schedule, your guest count and any dietary needs in the group, so the food lands on cue, not whenever the kitchen happens to be ready."
+   ],
+   "insert_after_block": "Common Questions About the Corporate Dinner Package",
+   "position": "after the block titled 'Common Questions About the Corporate Dinner Package'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Venue, service styles and timing",
+   "new_paragraphs": [
+    "Logistics are part of the package, so the evening runs to a plan, not to luck. We cater offices, boardrooms, hired event spaces, villas, hotels and rooftops across the city, and the chef confirms what your venue's kitchen or service area can support before the date. You choose the service style — plated for a seated dinner, buffet or stations for a mingling crowd, or drop-off when you want the food without floor staff. Timing is agreed to your run of show: welcome drinks, speeches, courses paced around the agenda, then a clean, quiet clear-down. For recurring company dinners we hold your preferences on file so each booking starts from a known baseline, and everything is delivered within Dubai Municipality food-safety requirements. This is where a specialist corporate dinner package caterer earns its place — the details that make a dinner run smoothly are the ones planned days before anyone arrives."
+   ],
+   "insert_after_block": "What is included in the Corporate Dinner package?",
+   "position": "after the block titled 'What is included in the Corporate Dinner package?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How much does corporate dinner package catering cost in Dubai?",
+   "new_paragraphs": [
+    "Corporate dinner package catering costs from AED 700 per person in Dubai, with the final figure set by headcount, menu and service level. As a rough guide, curated set packages are commonly quoted around AED 1,200, 2,400, 3,600, 4,500 and 5,500 depending on the number of courses, the cuisine and the staffing on the night; a pre-event tasting menu is AED 1,400. Drop-off keeps the corporate dinner package catering cost lower by removing on-site service, while plated dinners with a full team sit higher. Larger headcounts bring the per-person rate down, and recurring or retained programmes are priced per schedule, not per event. That structure keeps it affordable to budget for and quick to approve, because you see an itemised, per-head number before you commit. For worked examples across formats, see our Dubai catering price guide , then request a quote for your exact brief."
+   ],
+   "insert_after_block": "What is included in the Corporate Dinner package?",
+   "position": "after the block titled 'What is included in the Corporate Dinner package?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Why book your corporate dinner with myCHEF?",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you own the evening, we carry the work. Every chef working on corporate dinner package catering has cleared identity checks, a practical cooking assessment, reference verification and ongoing performance reviews — a continuous standard, not a one-time tick. We are honest about it, too: no system removes every risk, so we match each event to the right available chef for it, which is what makes us a corporate dinner package catering company you can hand a board dinner to without hovering.",
+    "For an occasion like this, that might be Ahmed Al-Rashid — 18+ years across Dubai, London and Paris in classical French technique — he designs each menu as a collaboration with the host, every course timed, seasoned and served to exacting standards. We have delivered corporate galas and boardroom dinners across Dubai. Covers corporate dinner package catering; client reviews go up as events are delivered."
+   ],
+   "insert_after_block": "Book the Corporate Dinner Package",
+   "position": "after the block titled 'Book the Corporate Dinner Package'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Corporate dinner package catering across Dubai",
+   "new_paragraphs": [
+    "We arrange corporate dinner package catering across Dubai, from DIFC and Business Bay boardrooms to villas in Emirates Hills and event spaces along the Marina. Whether the venue is an office in Downtown, a home in Jumeirah or a hired hall for a company-wide event, the chef and team come to you fully equipped. Because we cover the whole city, a firm with offices in more than one district can run the same luxury corporate dinner package menu and standard at each, with one contact coordinating dates. Explore related options such as business lunch catering , curated catering packages , or the wider corporate catering and catering in Dubai ranges."
+   ],
+   "insert_after_block": "Book the Corporate Dinner Package",
+   "position": "after the block titled 'Book the Corporate Dinner Package'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning corporate dinner package catering step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your corporate dinner package catering proposal arrives.",
+    "Book corporate dinner package catering about 2 weeks ahead off-peak, and 6 weeks ahead between November and March.",
+    "Confirm the corporate dinner package catering menu roughly 7 days before, once your numbers settle.",
+    "Ask about dietary covers for corporate dinner package catering when you enquire, not inside the final 48 hours .",
+    "Check venue access and parking for corporate dinner package catering; the team arrives about 2 hours before service.",
+    "Plan on roughly 3 hours of corporate dinner package catering service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": "Book the Corporate Dinner Package",
+   "position": "after the block titled 'Book the Corporate Dinner Package'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which corporate dinner package catering format suits your event?",
+   "new_paragraphs": [
+    "Format What it gives you Staffing Cost position",
+    "Drop-off Food delivered ready to serve None Entry point",
+    "Buffet Presentation plus a maintained spread 1–2 From AED 700 per person",
+    "Live stations Cooking in front of your guests 2–4 Mid-range",
+    "Plated Every course served together 3 and above Top of the range"
+   ],
+   "insert_after_block": "Book the Corporate Dinner Package",
+   "position": "after the block titled 'Book the Corporate Dinner Package'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Choosing the best corporate dinner package catering in Dubai",
+   "new_paragraphs": [
+    "The best corporate dinner package catering in Dubai for your event is the one matched to the room and the timing, not the one with the longest menu. A boardroom of ten with a two-hour window needs a plated menu that can be paced to the agenda. A department of eighty in a hired venue needs a format that serves everyone inside twenty minutes, which usually means a buffet or live stations rather than plated service.",
+    "Small party catering in Dubai works on the same logic at the other end of the scale: below about fifteen guests the service style matters more than the menu, because one server covers the room and the kitchen is whatever the venue has."
+   ],
+   "insert_after_block": "Book the Corporate Dinner Package",
+   "position": "after the block titled 'Book the Corporate Dinner Package'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Common questions",
+   "new_paragraphs": [
+    "How much does corporate dinner package catering cost in Dubai?",
+    "It starts from around AED 700 per person and is quoted by headcount, menu and service level. Set packages are commonly quoted around AED 1,200 to 5,500, and regular or retained arrangements can be priced per programme.",
+    "What is included in a corporate dinner package?",
+    "Included is menu design, a vetted chef, service or delivery, table setup and clear-down, with optional bar and floor staff. It is a set package, so the price is agreed before the event, not tallied afterwards.",
+    "Can you build a fully halal or dietary-specific menu?",
+    "Yes — every corporate dinner package menu can be built fully halal on request, and vegetarian, vegan, gluten-free, nut-free and allergy-aware plates are handled in the menu design. Tell us the dietary needs in your group and the chef plans around them.",
+    "Do you offer drop-off as well as full-service dinners?",
+    "We do both. Full service brings a chef and team who cook, plate and clear down on site; drop-off delivers the same menu ready to serve and lowers the cost by removing floor staff. Choose whichever suits the occasion.",
+    "Can you cater a large corporate event or gala dinner?",
+    "Yes — corporate dinner package catering for events scales from a boardroom of ten to a gala of several hundred, run on a set menu so your finance team can approve a per-head number in advance. Larger headcounts also lower the per-person rate.",
+    "Where in Dubai do you cater corporate dinners?",
+    "Across the whole city — DIFC, Business Bay, Downtown, the Marina, Jumeirah, Palm Jumeirah, Emirates Hills and beyond. If your venue is in Dubai, the chef and team come to you, so corporate dinner package catering near me is covered wherever your office or event space sits.",
+    "How quickly can you send a quote and confirm a booking?",
+    "We typically reply within 15 minutes during business hours and send a full itemised proposal, usually within one business day. Once you confirm the menu and headcount, we lock the chef and team and finalise the timing against your run of show.",
+    "For corporate dinner package catering, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements ."
+   ],
+   "insert_after_block": "Book the Corporate Dinner Package",
+   "position": "after the block titled 'Book the Corporate Dinner Package'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "More on corporate dinner package catering dubai",
+   "new_paragraphs": [
+    "Villa catering ideas dubai",
+    "Conference catering dubai",
+    "Corporate event catering dubai",
+    "Business lunch catering dubai",
+    "Get an itemised quote"
+   ],
+   "insert_after_block": "Book the Corporate Dinner Package",
+   "position": "after the block titled 'Book the Corporate Dinner Package'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What does a corporate dinner package include?",
+   "new_paragraphs": [
+    "A corporate dinner package includes a designed menu, a vetted chef, a service team and everything around the plate — so one line item covers the whole evening. That means menu design tailored to your headcount, plated or buffet service, table setup and clear-down, and optional bar and floor staff. Because it is a set package, not an open-ended bill, the cost is agreed up front and does not drift on the night. Most companies book this as a full-service arrangement — the corporate dinner package catering company brings the kitchen to your venue, cooks on site or delivers hot, and leaves the space as they found it. If you would keep it lean, a drop-off format lowers the price while keeping the same menu. Either way you are hiring one accountable corporate dinner package caterer, not stitching together a kitchen, a rental firm and a waiting agency yourself."
+   ],
+   "insert_after_block": "Common Questions About the Corporate Dinner Package",
+   "position": "after the block titled 'Common Questions About the Corporate Dinner Package'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  }
+ ],
+ "faq": []
+}

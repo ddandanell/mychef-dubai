@@ -1,0 +1,197 @@
+{
+ "url": "/production-catering-dubai",
+ "keyword_strategy": {
+  "main_keyword": "production catering dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 1,
+  "subkeywords_carried": 1,
+  "coverage_percent": 100,
+  "subkeywords_carried_list": [
+   "best production catering dubai"
+  ],
+  "subkeywords_not_carried": [],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Production Catering Dubai | Menus & Prices | myCHEF",
+  "meta_description": "Production catering in Dubai from AED 700pp — on-location hot meals, vetted chefs and full service. Bespoke and reliable. Get an itemised quote.",
+  "h1": "Production Catering in Dubai — Prices, Formats and What You Get"
+ },
+ "opening_paragraph": [
+  "Production catering in Dubai from myCHEF feeds film crews, event teams and on-location shoots from AED 700 per person , quoted to your headcount, menu and schedule. Think of it as catering built around a call sheet: hot meals delivered on time between setups, craft service that keeps energy up through a long shoot day, and a vetted chef who works quietly around cameras, cabling and tight turnarounds. Send your dates and crew size, and promptly during our published business hours you get an itemised proposal."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "What Our Production Catering Includes",
+   "match_confidence": 0.82,
+   "new_heading": "What does production catering in Dubai include?",
+   "new_paragraphs": [
+    "Production catering includes everything needed to keep a working set fed without slowing the shoot: menu design, a vetted chef and crew, on-location cooking or delivery, full setup and cleanup, and disposables where a location has no kitchen. As a production catering company Dubai crews rely on, myCHEF plans around your schedule, not its own — main meals timed to breaks, and craft service topped up between them. A typical day covers a hot breakfast, a proper lunch, and continuous coffee, snacks and cold drinks, with hot dinners added for night shoots. The service covers commercial and film sets, photo shoots, live broadcasts, brand content days and multi-day event builds. Everything is dietary-labelled, because a mixed crew usually brings vegetarian, vegan, halal and allergy needs that cannot hold up a scene."
+   ]
+  },
+  {
+   "block_on_your_page": "A Taste of Our Production Catering",
+   "match_confidence": 0.75,
+   "new_heading": "Why choose myCHEF for production catering?",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you run the shoot, myCHEF carries the food. Vetting for production catering means identity checks, a practical cooking assessment, reference verification and ongoing performance reviews — a continuous standard, not a one-time tick. And it is an honest promise: no system removes every risk, so each production is matched to the best available chef for it.",
+    "For set and crew work, that is often Ahmed Al-Rashid — 18+ years across Dubai, London and Paris in classical French technique — calm under pressure, meticulous on timing, and used to feeding large teams to a strict schedule without dropping quality. As a private production chef Dubai productions can lean on, he plans each day's menu around the call sheet, every service timed to a break. MyCHEF has delivered villa weddings, yacht celebrations and corporate galas across Dubai. Every production catering booking includes, with client reviews added as events run."
+   ]
+  },
+  {
+   "block_on_your_page": "Production Catering Questions",
+   "match_confidence": 0.72,
+   "new_heading": "Production catering across Dubai",
+   "new_paragraphs": [
+    "MyCHEF provides production catering for events Dubai productions run city-wide: sets and studios in Dubai Studio City and Production City, warehouse shoots in Al Quoz, hotel and rooftop locations across Downtown and the Marina, and desert or beach shoots on the outskirts. When crews search production catering near me, they usually want a team that already knows Dubai's locations, access rules and heat, and that local knowledge is baked in. Where a shoot is based at a residence, the production home catering Dubai option brings the same kitchen to your villa or apartment. Explore related work through film crew catering and corporate event catering , or step up to corporate catering or wider catering in Dubai ."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "Reliable Food for Demanding Schedules",
+  "Catering for Every Production",
+  "Catering Across Dubai",
+  "Explore myCHEF Dubai",
+  "Built for the Production",
+  "Let's Plan Your Production Catering"
+ ],
+ "add_block": [
+  {
+   "new_heading": "Production catering for events, film sets and corporate shoots",
+   "new_paragraphs": [
+    "Different productions need different rhythms, and myCHEF's production catering services Dubai teams flex to each. On a film or commercial set, the kitchen works to the assistant director's schedule: fast, quiet turnarounds and food that reheats well when a scene overruns. For corporate production catering Dubai clients running conference films, product-launch content or training shoots, the plan leans toward lighter, presentable plates that keep talent camera-ready. Live-broadcast and studio days want reliable craft service and staggered meal windows so no department stops at once. MyCHEF also handles production party catering Dubai wrap events — your end-of-shoot dinner or celebration — plus multi-week builds where the same crew is fed daily. Whatever your format, one point of contact holds the plan so your line producer is not chasing food between takes."
+   ],
+   "insert_after_block": "What Our Production Catering Includes",
+   "position": "after the block titled 'What Our Production Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Craft service, timing and on-location logistics",
+   "new_paragraphs": [
+    "On a set, logistics matter as much as the food, and this is where an experienced production caterer Dubai earns its place. MyCHEF works self-sufficient: its own equipment, power planning, and clean setup and breakdown that leaves a location as it was found. Meals are timed to your schedule and held hot or cold safely, so a delayed lunch does not become a food-safety problem. Craft service sits somewhere accessible but out of shot, restocked through the day. For remote desert or warehouse locations with no facilities, the team brings everything, including water, waste management and disposables. Access, parking and load-in are confirmed with your location manager beforehand, so nothing about the catering surprises your crew on the day."
+   ],
+   "insert_after_block": "Built for the Production",
+   "position": "after the block titled 'Built for the Production'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How much does production catering cost in Dubai?",
+   "new_paragraphs": [
+    "Production catering in Dubai starts from AED 700 per person, and your final figure tracks crew size, how many services a day you need and the menu level. Craft-service-only days sit at the lower end; full breakfast, lunch, dinner and continuous craft service on a large set costs more per head. Multi-day and repeat shoots tend to be the better value: production catering packages Dubai teams book for a whole schedule are priced per programme instead of per day, which keeps affordable production catering Dubai realistic on long jobs. Every quote is itemised, with no hidden extras, so you see production catering prices Dubai line by line. For full context on production catering cost Dubai and how headcount moves the number, see the Dubai catering price guide , or ask for a tailored quote."
+   ],
+   "insert_after_block": "Built for the Production",
+   "position": "after the block titled 'Built for the Production'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How to hire production catering in Dubai",
+   "new_paragraphs": [
+    "To hire production catering Dubai crews trust, start by sending your shoot dates, daily crew count, location and any dietary needs. You get an itemised proposal — usually within one business day — covering menu, services per day, staffing and the all-in price. Once you approve, myCHEF locks the chef and crew, confirms access and timings with your location manager, and handles sourcing and prep. On shoot days the team arrives ahead of first call, sets up out of shot, and runs each service to your schedule. For a returning production or a multi-week build, you can set up an ongoing arrangement with consistent menus and simplified billing, so you are not re-briefing every week."
+   ],
+   "insert_after_block": "Built for the Production",
+   "position": "after the block titled 'Built for the Production'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning production catering step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your production catering proposal arrives.",
+    "Book production catering about 2 weeks ahead off-peak, and 6 weeks ahead between November and March.",
+    "Confirm your production catering menu about 7 days out, when the guest list is firm.",
+    "Ask early about allergies and dietary plates — not in the last 48 hours before production catering.",
+    "Check the access route before production catering day — setup starts roughly 2 hours ahead.",
+    "Plan on roughly 3 hours of production catering service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": "Production Catering Questions",
+   "position": "after the block titled 'Production Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which production catering format suits your event?",
+   "new_paragraphs": [
+    "Format What it gives you Staffing Cost position",
+    "Drop-off Food delivered ready to serve None Entry point",
+    "Buffet Presentation plus a maintained spread 1–2 From AED 700 per person",
+    "Live stations Cooking in front of your guests 2–4 Mid-range",
+    "Plated Every course served together 3 and above Top of the range"
+   ],
+   "insert_after_block": "Production Catering Questions",
+   "position": "after the block titled 'Production Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Frequently asked questions",
+   "new_paragraphs": [
+    "How much does production catering cost in Dubai?",
+    "Production catering starts from around AED 700 per person and is quoted by crew size, number of services a day and menu level. Multi-day shoots are priced per programme, which usually works out better value than day rates.",
+    "What is included in production catering?",
+    "Included is menu design, a vetted chef and crew, on-location cooking or delivery, setup and cleanup, and disposables where a location has no kitchen. Craft service and dietary options are part of the plan.",
+    "Can you handle dietary requirements for a mixed crew?",
+    "Yes — every service includes vegetarian and vegan mains, plus halal, gluten-free, dairy-free and nut-free options. All dishes are labelled so crew can grab food fast between setups.",
+    "Do you cater remote or desert shoot locations?",
+    "Yes. For locations with no facilities the team is fully self-sufficient, bringing its own equipment, power planning, water, disposables and waste management, confirmed with your location manager in advance.",
+    "How do I hire or set up a regular production catering arrangement?",
+    "Send your shoot dates, crew size and schedule, and you get an itemised proposal, usually within one business day. For repeat or multi-week productions, an ongoing arrangement with consistent menus and simplified billing can be set up.",
+    "How far in advance should I book?",
+    "Book as early as you can for larger crews and peak periods, though short-notice shoots are turned around regularly. Share your dates and availability is confirmed quickly.",
+    "Is myCHEF a strong choice for production catering in Dubai?",
+    "MyCHEF aims to be: vetted chefs, on-schedule service and itemised pricing are the standard. It would sooner earn best production catering Dubai on delivery than claim it, so each shoot and its results speak for themselves.",
+    "For production catering, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements ."
+   ],
+   "insert_after_block": "Production Catering Questions",
+   "position": "after the block titled 'Production Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  }
+ ],
+ "faq": [
+  {
+   "question": "How much does production catering cost in Dubai?",
+   "answer": [
+    "Production catering starts from around AED 700 per person and is quoted by crew size, number of services a day and menu level. Multi-day shoots are priced per programme, which usually works out better value than day rates."
+   ]
+  },
+  {
+   "question": "What is included in production catering?",
+   "answer": [
+    "Included is menu design, a vetted chef and crew, on-location cooking or delivery, setup and cleanup, and disposables where a location has no kitchen. Craft service and dietary options are part of the plan."
+   ]
+  },
+  {
+   "question": "Can you handle dietary requirements for a mixed crew?",
+   "answer": [
+    "Yes — every service includes vegetarian and vegan mains, plus halal, gluten-free, dairy-free and nut-free options. All dishes are labelled so crew can grab food fast between setups."
+   ]
+  },
+  {
+   "question": "Do you cater remote or desert shoot locations?",
+   "answer": [
+    "Yes. For locations with no facilities the team is fully self-sufficient, bringing its own equipment, power planning, water, disposables and waste management, confirmed with your location manager in advance."
+   ]
+  },
+  {
+   "question": "How do I hire or set up a regular production catering arrangement?",
+   "answer": [
+    "Send your shoot dates, crew size and schedule, and you get an itemised proposal, usually within one business day. For repeat or multi-week productions, an ongoing arrangement with consistent menus and simplified billing can be set up."
+   ]
+  },
+  {
+   "question": "How far in advance should I book?",
+   "answer": [
+    "Book as early as you can for larger crews and peak periods, though short-notice shoots are turned around regularly. Share your dates and availability is confirmed quickly."
+   ]
+  },
+  {
+   "question": "Is myCHEF a strong choice for production catering in Dubai?",
+   "answer": [
+    "MyCHEF aims to be: vetted chefs, on-schedule service and itemised pricing are the standard. It would sooner earn best production catering Dubai on delivery than claim it, so each shoot and its results speak for themselves.",
+    "For production catering, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements ."
+   ]
+  }
+ ]
+}

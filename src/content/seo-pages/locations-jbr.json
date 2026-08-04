@@ -1,0 +1,199 @@
+{
+ "url": "/locations/jbr",
+ "keyword_strategy": {
+  "main_keyword": "private chef jbr",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 6,
+  "subkeywords_carried": 4,
+  "coverage_percent": 67,
+  "subkeywords_carried_list": [
+   "best private chef jbr",
+   "private chef jbr near me",
+   "private chef at home dubai",
+   "full time private chef dubai"
+  ],
+  "subkeywords_not_carried": [
+   "famous private chef jbr",
+   "private chef jbr recipes"
+  ],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Private Chef JBR | Villa Dining & Catering | myCHEF",
+  "meta_description": "Private chef & catering in JBR from AED 700pp — villa dining, events and bespoke menus with vetted chefs. Serving Jumeirah Beach Residence towers. Request a proposal.",
+  "h1": "Private Chef & Catering in JBR — Prices, Formats and What You Get"
+ },
+ "opening_paragraph": [
+  "A private chef JBR booking brings restaurant-grade dining into your own beachfront apartment, with myCHEF menus from AED 700 per person. For residents and holidaymakers along Jumeirah Beach Residence, it turns another night out into a relaxed dinner at home — a vetted chef plans the menu, cooks in your kitchen, serves the table and clears everything away afterward. Send your date and address, and you will hear back promptly during our published business hours with a chef match and an itemised proposal."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "Who books private chef and catering in JBR",
+   "match_confidence": 0.71,
+   "new_heading": "Private chef and villa catering across JBR",
+   "new_paragraphs": [
+    "We cover the whole of JBR and the streets around it, so wherever your tower sits we can reach you. That includes the Jumeirah Beach Residence towers, beachfront apartments along The Walk and The Beach at JBR, plus jbr villa catering for the larger residences nearby. If your plans span neighbourhoods, we also serve Dubai Marina and Bluewaters Island next door, or you can explore all Dubai locations . A villa chef jbr booking for a multi-bedroom residence, a personal chef for a Walk-facing apartment, or full catering jbr for a rooftop party — the same vetted team and the same per-person pricing apply right across the district. Confirm your exact address when you enquire and we will match the closest available chef."
+   ]
+  },
+  {
+   "block_on_your_page": "Also Serving Near JBR",
+   "match_confidence": 0.9,
+   "new_heading": "Also serving nearby",
+   "new_paragraphs": [
+    "Dubai Marina · Bluewaters Island · or explore all Dubai locations . Deciding between formats? Compare private chef vs catering ."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "At a Glance",
+  "Beachfront luxury catering in JBR for sandy birthdays, apartment dinners and sunset gatherings by the Arabian Gulf.",
+  "Properties We Serve in JBR",
+  "What is included in our JBR catering service",
+  "Menu options for JBR events",
+  "How JBR catering works",
+  "Why myCHEF Dubai for JBR",
+  "Popular JBR events",
+  "Logistics for JBR events",
+  "Services in JBR",
+  "Explore Our Services",
+  "Popular Events in JBR",
+  "Questions About JBR Catering",
+  "Book Your JBR Beachfront Caterer",
+  "Explore myCHEF Dubai"
+ ],
+ "add_block": [
+  {
+   "new_heading": "What a private chef JBR booking includes",
+   "new_paragraphs": [
+    "A private chef JBR booking includes everything from menu design to the final cleanup, so you host without lifting a pan. Your booking covers a consultation to shape the menu around your occasion and dietary needs, grocery sourcing, all cooking done live in your apartment kitchen, professional plating, table service and a spotless handover at the end. For larger gatherings we bring service staff; for an intimate dinner the chef often runs the evening solo. This is full personal chef jbr service instead of a drop-off tray — the food is cooked to order, timed to your table and adjusted on the night. Whether you want a quiet dinner for two or in-villa chef jbr catering for a full apartment of guests, the scope flexes to match. You choose the courses, the pace and the formality; your partner handles sourcing, equipment, execution and the washing-up."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'At a Glance'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Private dining JBR for parties, events and celebrations",
+   "new_paragraphs": [
+    "Private dining in JBR works for everything from a birthday dinner to a corporate get-together, a bridal celebration or a sunset reception on the balcony. Because JBR is a beach-and-boardwalk address, a lot of jbr party catering leans social and relaxed: beachfront BBQs, grazing spreads and canapé receptions timed for the sunset over the Gulf. We regularly handle jbr dinner party catering for eight to twelve around one table, larger jbr event catering across an apartment, and pared-back date-night menus for two. The same team scales up or down — a birthday, an anniversary, a leaving party for a colleague, or a family feast when relatives visit. Tell us the occasion and the mood and the chef designs a menu to suit, whether that is a laid-back luxury private chef jbr evening or a smart plated dinner. Deciding between a chef and a spread? Compare private chef vs catering ."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'At a Glance'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "The JBR catering menu and cuisine options",
+   "new_paragraphs": [
+    "The JBR catering menu is fully bespoke — you pick the cuisine and the chef builds the courses around it. Popular choices span Arabic , Mediterranean , Italian , Indian and Pan-Asian, all cooked fresh in your kitchen. Every menu can be halal , and we cater vegetarian and vegan tables without making them an afterthought. Gluten-free options are available on request, subject to partner confirmation and an allergen review for the specific booking. For a beachfront setting, guests often ask for seafood grills, mezze grazing boards and lighter shared plates; for a celebration dinner, a plated three- or four-course tasting suits better. Browse sample menus for ideas or describe a theme — a Levantine feast, a pasta-forward Italian evening, a mixed grill — and we shape it to your guest count and budget. Nothing comes off a fixed list; the jbr catering services menu is written for your evening."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'At a Glance'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Beachfront logistics: access, kitchens and timing",
+   "new_paragraphs": [
+    "JBR's beachfront towers shape how we plan, so we sort access and timing before the chef arrives. Jumeirah Beach Residence apartments have compact kitchens and shared loading points, so we schedule equipment drop-off around building service lifts and confirm parking or valet access on The Walk in advance. For beach BBQs and grazing we plan around beach access and any building rules on open flame; for tower dining we work cleanly within an apartment galley kitchen, bringing our own portable equipment where needed. Sunset timing matters here — many hosts want canapés served as the light drops, so the chef paces the courses to the view. We also coordinate with concierge and security for guest entry. None of this lands on you: once your date and address are confirmed, the logistics are ours to manage, and the day runs to a schedule you have already approved."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'At a Glance'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How much does a private chef cost in JBR?",
+   "new_paragraphs": [
+    "A private chef in JBR costs from AED 700 per person, and the exact jbr private chef cost depends on guest count, menu and service level. Pricing is per head and comes down as numbers rise: intimate dinners for two sit nearer AED 950–1,300 per person, around six guests roughly AED 750–1,000, and ten or more from AED 700. Multi-course tasting menus and premium ingredients — think fresh seafood, prime cuts or a dessert course — sit at the upper end; relaxed grazing and BBQ formats at the lower. There are no hidden extras: your itemised proposal lists the menu, the chef, service staff and setup so you can see where every dirham goes. For a full breakdown by format and group size, see private chef prices in Dubai , or send your numbers for an exact quote."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'At a Glance'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How to hire a chef in JBR",
+   "new_paragraphs": [
+    "To hire a chef in JBR, share three things — your date, your guest count and your address — and we handle the rest. Once you enquire, we match a vetted chef whose style fits your occasion, then send an itemised proposal, usually within one business day and often promptly during our published business hours. You confirm the menu over a quick consultation, we lock the details, and on the day the chef arrives with everything needed to cook, serve and clean up. There is no membership and no long commitment: book a one-off dinner, or arrange a home chef jbr on a repeat basis if you want regular meals through a stay. Looking for a chef for hire jbr near your tower, or a private chef near jbr for a last-minute booking? Just say so when you enquire and we will prioritise availability. Start with a quick message ."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'At a Glance'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Why myCHEF is the best private chef in JBR",
+   "new_paragraphs": [
+    "MyCHEF is a strong pick for the best private chef jbr because every chef in the network is vetted before they ever cook for you. Before joining, each chef passes identity checks, a practical cooking assessment, reference verification and ongoing performance reviews — a continuous standard, not a one-time tick. We are honest about it, too: no system removes every risk, so we match each event to the best available chef for it. For a beachfront villa or apartment dinner, that might be Ahmed Al-Rashid — 18+ years across Dubai, London and Paris in classical French technique — who designs each menu as a collaboration with the host, every course timed, seasoned and served to exacting standards. We have delivered intimate villa dinners and large celebrations across Dubai's communities."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'At a Glance'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning private chef jbr step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your private chef jbr proposal arrives.",
+    "Book private chef jbr about 2 weeks ahead off-peak, and 6 weeks ahead between November and March.",
+    "Confirm what goes on the private chef jbr menu 7 days out, once the count settles.",
+    "Ask for special diets up front; private chef jbr plates are planned, not improvised inside 48 hours .",
+    "Check loading and access details; allow 2 hours of private chef jbr setup on site.",
+    "Plan on roughly 3 hours of private chef jbr service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": "Who books private chef and catering in JBR",
+   "position": "after the block titled 'Who books private chef and catering in JBR'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which private chef jbr format suits your event?",
+   "new_paragraphs": [
+    "Format What it gives you Staffing Cost position",
+    "Drop-off Food delivered ready to serve None Entry point",
+    "Buffet Presentation plus a maintained spread 1–2 From AED 700 per person",
+    "Live stations Cooking in front of your guests 2–4 Mid-range",
+    "Plated Every course served together 3 and above Top of the range"
+   ],
+   "insert_after_block": "Who books private chef and catering in JBR",
+   "position": "after the block titled 'Who books private chef and catering in JBR'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Common questions",
+   "new_paragraphs": [
+    "How much does a private chef cost in JBR?",
+    "Private dining in JBR starts from about AED 700–950 per person, depending on guest count, menu and service level. Larger groups come down per head; send your numbers for an exact quote.",
+    "Which parts of JBR do you serve?",
+    "All of JBR — Jumeirah Beach Residence towers, beachfront apartments along The Walk and the surrounding streets — plus nearby Dubai communities. Confirm your exact address when you enquire.",
+    "What's included?",
+    "Everything: from menu planning to the chef, the service staff, the plating and the cleanup — one team covers all of it, cooked live in your kitchen.",
+    "How do I book?",
+    "Share your date, guest count and address; we match a vetted chef and send an itemised proposal, usually within one business day.",
+    "Can you cater a dinner party or private event in JBR?",
+    "Yes — a private chef JBR booking covers jbr dinner party catering for a table of eight to twelve, larger jbr event catering across an apartment, and canapé receptions. Tell us the occasion and the chef designs the menu around it.",
+    "Do you offer in-villa and villa chef service in JBR?",
+    "Yes — in-villa chef jbr service and jbr villa catering are available for the larger beachfront residences, alongside apartment dining in the towers, all cooked fresh in your own kitchen.",
+    "Is halal and dietary-friendly catering available in JBR?",
+    "Yes. Every menu can be halal, and we cater vegetarian and vegan tables. Gluten-free, nut-conscious and other dietary menu options may be available on request, subject to confirmation by the assigned culinary partner. Partner kitchens may handle allergens, and cross-contact cannot be completely excluded unless dedicated controls have been specifically confirmed for the booking. Guests with allergies must provide full details before confirming their event.",
+    "For private chef jbr, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements ."
+   ],
+   "insert_after_block": "Who books private chef and catering in JBR",
+   "position": "after the block titled 'Who books private chef and catering in JBR'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "More on private chef jbr",
+   "new_paragraphs": [
+    "Private chef date night dubai",
+    "Part time private chef catering dubai",
+    "Private chef jlt",
+    "Private chef arabian ranches",
+    "Get an itemised quote"
+   ],
+   "insert_after_block": "Also Serving Near JBR",
+   "position": "after the block titled 'Also Serving Near JBR'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  }
+ ],
+ "faq": []
+}

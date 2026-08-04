@@ -1,0 +1,222 @@
+{
+ "url": "/engagement-catering-dubai",
+ "keyword_strategy": {
+  "main_keyword": "engagement catering dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 7,
+  "subkeywords_carried": 7,
+  "coverage_percent": 100,
+  "subkeywords_carried_list": [
+   "buffet catering dubai",
+   "small party catering dubai",
+   "finger food catering dubai",
+   "best engagement catering dubai",
+   "small engagement catering dubai",
+   "engagement catering dubai packages",
+   "affordable engagement catering dubai"
+  ],
+  "subkeywords_not_carried": [],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Engagement Catering Dubai | Menus & Prices | myCHEF",
+  "meta_description": "Engagement catering in Dubai from AED 90pp dropped off, AED 700pp with a chef on site. Canapé arrival hour, buffet or plated, packages from AED 1,200.",
+  "h1": "Engagement Catering in Dubai — Menus, Prices and What's Included"
+ },
+ "opening_paragraph": [
+  "Engagement catering in Dubai from myCHEF costs from AED 90 per person dropped off, AED 120 for a buffet, and AED 700 with a chef cooking on site. A vetted chef designs the menu, cooks on site and serves your guests. The same team clears everything away afterwards. Whether you are hosting an intimate proposal dinner or a hundred-guest celebration with both families in one room, you send the date, guest count and venue, and a full itemised quote comes back promptly during our published business hours."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "What Your Catering Includes",
+   "match_confidence": 0.72,
+   "new_heading": "What does engagement catering include?",
+   "new_paragraphs": [
+    "Engagement catering covers the whole evening, not just the food. Your booking brings a chef to your venue with a bespoke menu, the ingredients, the cooking, the plating and the service staff you need for the numbers on the night. Setup and a full clean-down are part of it, so your kitchen and your living room look the way they did before anyone arrived.",
+    "You get a single point of contact from the first message to the last plate cleared. That person confirms your menu, checks dietary needs, agrees timings for the toast and the speeches, and coordinates the chef and servers on the day. Because myCHEF arranges both a single private chef and a full catering brigade from the same partner network, you can scale the same team up from a quiet dinner to a large engagement party without switching suppliers or losing the standard you booked for."
+   ]
+  },
+  {
+   "block_on_your_page": "Engagement Party Catering Questions",
+   "match_confidence": 0.73,
+   "new_heading": "Engagement catering menu ideas and options",
+   "new_paragraphs": [
+    "Every engagement menu is bespoke, shaped around your taste, your guests and your budget. There is no fixed card to order from; instead a chef proposes a menu and refines it with you. Popular starting points include:",
+    "Canapés and a champagne-style toast on arrival",
+    "A plated three or four-course dinner for a seated celebration",
+    "A grazing table or buffet for a mingling engagement party",
+    "Live cooking stations — pasta, grill or Arabic mezze",
+    "A dessert and cake table to mark the moment",
+    "Cuisine is open: Italian, Mediterranean, Arabic, Indian, pan-Asian or a mixed menu that nods to both families. The engagement food is cooked fresh on site, so it reaches the table hot and looks the way a chef intends, not the way a delivery box survives a car boot."
+   ]
+  },
+  {
+   "block_on_your_page": "Catering Across Dubai",
+   "match_confidence": 0.79,
+   "new_heading": "Engagement catering across Dubai",
+   "new_paragraphs": [
+    "MyCHEF brings engagement catering to homes, villas, apartments and venues across the city, so your engagement caterer comes to you instead of the other way round. Popular settings include Palm Jumeirah and Emirates Hills villas, Downtown and Business Bay apartments, Dubai Marina, Jumeirah and Arabian Ranches, along with private venues and yachts.",
+    "Because the same vetted team travels to your address, home catering in a JVC apartment holds the same standard as a large celebration in an Emirates Hills villa. Explore more party catering or the full range of catering in Dubai , or line your engagement up with an anniversary or bachelorette celebration down the line."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "An Evening to Celebrate the News",
+  "Catering Crafted for the Occasion",
+  "Where we coordinate catering for Engagement Parties",
+  "A Taste of the Evening",
+  "Plan the Celebration",
+  "Explore myCHEF Dubai"
+ ],
+ "add_block": [
+  {
+   "new_heading": "Engagement parties, family dinners and corporate milestones",
+   "new_paragraphs": [
+    "MyCHEF caters engagements of every shape, from a two-person proposal to a full engagement party. A common request is the two-family dinner, where the point is warm, generous food that keeps every guest at the table and talking. For those, a relaxed plated dinner or a shared-style feast works well.",
+    "Larger engagement party catering leans toward canapés on arrival, live stations and a buffet so guests can move and mingle. We also handle corporate engagement announcements — a partner's news marked in the office, or a milestone celebrated with the team — with the same discretion we bring to private homes. Whatever the format, this is engagement catering for events where the hosts want to be guests at their own party, free of trays and washing-up."
+   ],
+   "insert_after_block": "What Your Catering Includes",
+   "position": "after the block titled 'What Your Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Canapés and finger food for the arrival hour",
+   "new_paragraphs": [
+    "The first hour of an engagement party is a standing hour. Guests are arriving in waves, both families are meeting for the first time, and nobody wants to be holding a plate and a fork while shaking a hand. That hour is served with finger food catering in Dubai : canapés built to be eaten in one bite, off a passed tray or a station, with no cutlery and no drips. A workable spread runs six to eight pieces per guest across the hour — a couple of warm bites such as mini lamb kofta or a truffled arancini, something cold like a scallop ceviche spoon or a labneh and beetroot tartlet, and one vegetarian option that is not an afterthought. Passed service keeps the room moving and mixing, which is the whole point of an arrival hour; a fixed station keeps it cheaper and needs fewer staff. From there the evening either sits down to a plated dinner or opens into a buffet, and the canapé hour is what buys you the time to make that transition without a queue forming."
+   ],
+   "insert_after_block": "Engagement Party Catering Questions",
+   "position": "after the block titled 'Engagement Party Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Engagement catering packages and what each tier buys",
+   "new_paragraphs": [
+    "Set packages exist for hosts who would rather choose a tier than build a menu from scratch, and the engagement catering Dubai packages that get booked most often are these. The Date Night package, from AED 1,200, is a plated dinner for two — the proposal itself, or the quiet dinner the night before the party. The Family Feast, from AED 2,400, is the two-families table: shared-style courses, generous quantity, one long table. The Celebration package, from AED 3,600, adds a canapé arrival hour, a plated or buffet main service and a dessert table. The Corporate Dinner, from AED 4,500, covers an announcement marked with colleagues, and the Full Experience, from AED 5,500, is the multi-course evening with live stations and full front-of-house. A tasting menu to preview your dishes before committing runs from AED 1,400 per person. Every tier is a starting point rather than a fixed box: swap a course, change the cuisine, add or drop the bar, and the quote moves with it, itemised line by line. VAT of 5% is added to totals."
+   ],
+   "insert_after_block": "Engagement Party Catering Questions",
+   "position": "after the block titled 'Engagement Party Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How to judge the best engagement catering in Dubai",
+   "new_paragraphs": [
+    "Picking the best engagement catering in Dubai comes down to four checks, and they are the same four whoever you are comparing. Ask who cooks and where: food finished on site tastes different from food that travelled, and it is the single biggest variable in the room. Ask for the price itemised — food, staffing, equipment, delivery and VAT split out — because a single per-head number is where the extras hide. Ask what happens if your guest count moves in the final week, since engagement numbers almost always do, and get the answer in writing before you pay. And ask who is accountable on the night: one named contact who owns the timeline, or a dispatcher you will not reach at 8pm. MyCHEF answers all four inside the proposal, and the itemised pricing is published rather than quoted on request."
+   ],
+   "insert_after_block": "Engagement Party Catering Questions",
+   "position": "after the block titled 'Engagement Party Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Styling, drinks and dietary needs",
+   "new_paragraphs": [
+    "Good engagement catering is as much about how the food lands as what sits on the plate. Chefs plate to the setting, whether that is a marble villa table, a garden or a rooftop, and can build a grazing board or dessert display that doubles as the room's centrepiece. If you want a full-service bar or a mocktail bar for a dry celebration, that is arranged alongside the food and staffed for the night.",
+    "Dietary requirements are handled as standard, not as an afterthought. Halal menus are the default across Dubai, and vegetarian and vegan guests are cooked for properly instead of handed a side dish. Gluten-free and other dietary options are available on request, subject to partner confirmation and an allergen review for the specific booking. Menus without intentionally added nuts may be available on request; however, partner kitchens may handle nuts and other allergens, so cross-contact cannot be excluded unless specifically confirmed. Tell your coordinator who is coming and what they can and cannot eat, and each guest is looked after by name."
+   ],
+   "insert_after_block": "Engagement Party Catering Questions",
+   "position": "after the block titled 'Engagement Party Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How much does engagement catering in Dubai cost?",
+   "new_paragraphs": [
+    "The format decides the number. A spread dropped off ready to serve starts at AED 90 per person, a standard buffet at AED 120, and a buffet with live stations at AED 150. A chef cooking, plating and serving at your venue is AED 700 to 950 per person, which is where a seated engagement dinner sits. Volume formats carry a 10-guest minimum, 20 for a full buffet, and a minimum order value of AED 900; a private chef has no headcount minimum. Set catering packages begin at AED 1,200, and a tasting menu to preview your dishes runs from AED 1,400 per person.",
+    "The final price follows three things: your guest count, the menu, and the level of service. That is why we quote per event instead of pinning one figure to every booking — it keeps the same service affordable at one end and genuinely luxury at the other. For worked examples and typical engagement catering prices, see our Dubai catering price guide , then send your numbers for an itemised quote with no obligation."
+   ],
+   "insert_after_block": "Engagement Party Catering Questions",
+   "position": "after the block titled 'Engagement Party Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How to hire engagement catering, step by step",
+   "new_paragraphs": [
+    "Hiring is short and human. Send your date, guest count and venue through the enquiry form or WhatsApp, and describe the celebration you have in mind. Promptly during our published business hours you get a menu proposal and an itemised quote, with no call-centre queue and no pushy sales follow-up.",
+    "From there you refine the menu with your chef, confirm dietary needs and timings, and pay to lock the date. On the day the team arrives ahead of your guests, sets up, cooks and serves, then clears everything away. If you have searched \"engagement catering near me\" and been met with generic caterers, this is the difference: a named chef and real catering services, matched to your event instead of assigned at random."
+   ],
+   "insert_after_block": "Engagement Party Catering Questions",
+   "position": "after the block titled 'Engagement Party Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Why choose myCHEF for your engagement",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you own the evening, we carry the work. No chef is offered for engagement catering before clearing identity checks, a practical cooking assessment, reference verification and ongoing performance reviews — a continuous standard, not a one-time tick. We are honest about it, too: no process removes every risk, so we match each event to the chef well suited to it.",
+    "For an engagement, that is often Ahmed Al-Rashid , whose 18-plus years across Dubai, London and Paris in classical French technique suit a milestone dinner, with pastry chef Sofia Moretti brought in when a showpiece dessert or cake table matters. We have delivered villa engagements, yacht celebrations and corporate galas across Dubai. MyCHEF designs and manages each experience; appropriately licensed culinary partners perform the regulated food services."
+   ],
+   "insert_after_block": "Engagement Party Catering Questions",
+   "position": "after the block titled 'Engagement Party Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Engagement catering FAQ",
+   "new_paragraphs": [
+    "How much does engagement catering cost in Dubai?",
+    "From AED 90 per person dropped off, AED 120 for a standard buffet and AED 150 with live stations. A chef cooking and serving on site is AED 700 to 950 per person. Minimums are 10 guests on volume formats, 20 on a full buffet and AED 900 on order value; send your numbers for an itemised quote.",
+    "What is included in engagement catering?",
+    "A vetted chef, the menu and ingredients, service staff where needed, plating, setup and the full cleanup are all handled for you. You host; the team does the work.",
+    "How far ahead should I book?",
+    "As guidance: 48 hours for a standard private-chef dinner, 72 hours for a standard catering package, 3–5 days where live stations or a multi-staff setup are involved, 5–7 days for bespoke menus and larger private events, and 7–14 days or more for a full engagement party. Lead times depend on guest numbers, menu complexity, staffing, equipment, location and partner availability. Late engagement enquiries are assessed one by one against real partner availability for the date.",
+    "Can you cater a small engagement dinner at home?",
+    "Yes — an intimate home dinner for two families is one of our most-requested engagement bookings, with a private chef cooking in your own kitchen.",
+    "Do you offer halal engagement menus?",
+    "Yes. Halal menus are the default across Dubai, and vegetarian, vegan, gluten-free and other dietary needs are catered without compromise.",
+    "Can you provide a dessert or cake table?",
+    "Yes. A dessert and cake table is a popular way to mark an engagement, styled by a pastry chef as a centrepiece for the room.",
+    "Do you handle drinks and a mocktail bar?",
+    "Yes. A full-service bar or an alcohol-free mocktail bar can be arranged alongside the food and staffed for the evening.",
+    "Which areas of Dubai do you cover?",
+    "Across Dubai — villas, apartments and venues from Palm Jumeirah and Emirates Hills to Dubai Marina, Downtown, Jumeirah and beyond.",
+    "For engagement catering, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements ."
+   ],
+   "insert_after_block": "Catering Across Dubai",
+   "position": "after the block titled 'Catering Across Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning engagement catering step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your engagement catering proposal arrives.",
+    "Book engagement catering about 2 weeks ahead off-peak, and 6 weeks ahead between November and March.",
+    "Confirm what goes on the engagement catering menu 7 days out, once the count settles.",
+    "Ask for special diets up front; engagement catering plates are planned, not improvised inside 48 hours .",
+    "Check loading and access details; allow 2 hours of engagement catering setup on site.",
+    "Plan on roughly 3 hours of engagement catering service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": "Catering Across Dubai",
+   "position": "after the block titled 'Catering Across Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which engagement catering format suits your event?",
+   "new_paragraphs": [
+    "Format Service staff Guests it suits Indicative cost",
+    "Drop-off None Any size, informal Most economical",
+    "Buffet 1–2 20–60 From AED 700 per person",
+    "Live stations 2–4 40 and above From AED 700 per person",
+    "Plated service 3 and above 8–40 seated Highest per head"
+   ],
+   "insert_after_block": "Catering Across Dubai",
+   "position": "after the block titled 'Catering Across Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "More on engagement catering dubai",
+   "new_paragraphs": [
+    "Corporate event catering ideas dubai",
+    "Corporate dinner package catering dubai",
+    "Exhibition catering dubai",
+    "Drop off catering dubai",
+    "Get an itemised quote"
+   ],
+   "insert_after_block": "Catering Across Dubai",
+   "position": "after the block titled 'Catering Across Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  }
+ ],
+ "faq": []
+}

@@ -1,0 +1,158 @@
+{
+ "url": "/locations/arabian-ranches",
+ "keyword_strategy": {
+  "main_keyword": "private chef arabian ranches",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 5,
+  "subkeywords_carried": 4,
+  "coverage_percent": 80,
+  "subkeywords_carried_list": [
+   "private chef at home dubai",
+   "full time private chef dubai",
+   "best private chef arabian ranches",
+   "female private chef arabian ranches"
+  ],
+  "subkeywords_not_carried": [
+   "famous private chef arabian ranches"
+  ],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Private Chef Arabian Ranches | Villa Dining & Catering | myCHEF",
+  "meta_description": "Private chef & catering in Arabian Ranches from AED 700pp — villa dining, events and bespoke menus with vetted chefs. Serving Arabian Ranches 1, 2 and 3. Request a proposal.",
+  "h1": "Private Chef Arabian Ranches — Villa Dining & Catering"
+ },
+ "opening_paragraph": [
+  "A private chef in Arabian Ranches brings restaurant cooking to your villa from AED 700 per person , with menu design, on-site cooking, service and cleanup all handled for you. MyCHEF matches you with a vetted chef who plans the menu around your occasion, cooks in your own kitchen and leaves it spotless. Arabian Ranches is a quiet, gated suburb of spacious garden villas on the edge of the desert, which makes it a natural fit for relaxed private dining at home. Tell us your date and address and we typically reply within 15 minutes during business hours, with a chef match to follow and an itemised proposal."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "Who books catering in Arabian Ranches?",
+   "match_confidence": 0.66,
+   "new_heading": "More on private chef arabian ranches",
+   "new_paragraphs": [
+    "Private chef birthday dinner",
+    "Private chef date night dubai",
+    "Private chef cost",
+    "Private chef al barsha",
+    "Get an itemised quote"
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "At a Glance",
+  "Trusted family catering for Arabian Ranches — from villa garden BBQs to community seasonal celebrations.",
+  "What is included in every Arabian Ranches catering service?",
+  "How Arabian Ranches catering works",
+  "Also Serving Near Arabian Ranches",
+  "Explore Our Services",
+  "Popular Events in Arabian Ranches",
+  "Questions About Arabian Ranches Catering",
+  "Request an Arabian Ranches catering proposal",
+  "Explore myCHEF Dubai",
+  "Menus for Arabian Ranches family events",
+  "Why Arabian Ranches families choose myCHEF Dubai",
+  "Properties We Serve in Arabian Ranches",
+  "Popular Arabian Ranches catering occasions",
+  "Delivery, access and setup in Arabian Ranches",
+  "Services in Arabian Ranches"
+ ],
+ "add_block": [
+  {
+   "new_heading": "What does a private chef in Arabian Ranches include?",
+   "new_paragraphs": [
+    "Everything from menu to washing-up. Book a personal chef in Arabian Ranches and one vetted professional handles the full evening: a tasting-led menu built for your guests, a fresh shop, cooking on site, plating, table service where you want it, and a kitchen left cleaner than they found it. This is not a drop-off tray. An in-villa chef works live in your own home, timing each course to the room. A home chef service in Arabian Ranches typically covers menu consultation, all ingredients, cooking, presentation and cleanup, with optional service staff for larger tables. You keep the space, the pace and the guest list. The villa chef carries the shopping, the heat and the tidy-up. It is the quickest way to host well without leaving your street."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'At a Glance'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Private chef Arabian Ranches for dinner parties, celebrations and events",
+   "new_paragraphs": [
+    "The same chef adapts to almost any occasion the Ranches throws. Arabian Ranches dinner party catering is the most-booked format here — an intimate plated dinner for six to twelve in the garden room or on the terrace. For milestones we handle Arabian Ranches party catering and Arabian Ranches event catering: birthdays, anniversaries, Eid gatherings, children's parties and school-holiday get-togethers. Larger celebrations move to garden BBQ stations, live grazing tables and buffet spreads that suit the big lawns most Ranches villas enjoy. Corporate hosts book quiet at-home client dinners and team lunches too. Whatever the setting, arabian ranches catering services from myCHEF are built around your guest count, dietary mix and the flow of your home — not a fixed package forced onto your evening. Tell us the occasion and we shape the menu and staffing to match."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'At a Glance'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Why myCHEF",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you own the evening, we carry the work. Vetting for private chef arabian ranches means identity checks, a practical cooking assessment, reference verification and ongoing performance reviews — a continuous standard, not a one-time tick. We are honest about it, too: no system removes every risk, so we match each event to the best available chef for it, which is how we earn the trust of hosts looking for the best private chef Arabian Ranches has to offer.",
+    "For a family villa dinner like most Ranches bookings, that might be Ahmed Al-Rashid — 18+ years across Dubai, London and Paris in classical French technique — who designs each menu as a collaboration with the host, every course timed, seasoned and served to exacting standards. We have delivered intimate villa dinners and large celebrations across Dubai's communities. Every private chef arabian ranches booking includes, with client reviews added as events run."
+   ],
+   "insert_after_block": "Properties We Serve in Arabian Ranches",
+   "position": "after the block titled 'Properties We Serve in Arabian Ranches'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning private chef arabian ranches step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your private chef arabian ranches proposal arrives.",
+    "Book private chef arabian ranches about 2 weeks ahead off-peak, and 6 weeks ahead between November and March.",
+    "Confirm the menu for private chef arabian ranches some 7 days ahead, once numbers stop moving.",
+    "Ask for dietary covers at the private chef arabian ranches briefing stage instead of within 48 hours .",
+    "Check parking and lift access; your private chef arabian ranches team is on site some 2 hours early.",
+    "Plan on roughly 3 hours of private chef arabian ranches service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": "Why Arabian Ranches families choose myCHEF Dubai",
+   "position": "after the block titled 'Why Arabian Ranches families choose myCHEF Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Common questions",
+   "new_paragraphs": [
+    "How much does a private chef cost in Arabian Ranches?",
+    "From about AED 700–950 per person, depending on guest count, menu and service level. Private dining Arabian Ranches evenings for smaller groups sit higher per head, while ten or more guests bring the rate down toward AED 700. Send your numbers for an exact quote.",
+    "Which parts of Arabian Ranches do you serve?",
+    "All of it — Arabian Ranches 1, 2 and 3, villas around the Arabian Ranches Golf Club and the surrounding streets — plus nearby Dubai communities. Confirm your exact address when you enquire and we verify gate access ahead of the day.",
+    "What's included with a private chef Arabian Ranches booking?",
+    "A vetted chef, all fresh ingredients, menu design, cooking, plating, service staff where needed, and full setup and cleanup. Everything is handled so you can host as a guest at your own table.",
+    "Can you cater a dinner party or larger event at my villa?",
+    "Yes. Arabian Ranches dinner party catering is our most-booked format, and we scale up to garden BBQs, grazing tables and buffets for parties and events with dedicated staffing to match.",
+    "Do you offer halal and dietary-specific menus?",
+    "Yes. Halal, vegetarian, vegan and allergen-aware menus are built in from the start, and every dish is agreed with you before the chef shops, so the menu fits every guest at your table. Gluten-free, nut-conscious and other dietary menu options may be available on request, subject to confirmation by the assigned culinary partner. Partner kitchens may handle allergens, and cross-contact cannot be completely excluded unless dedicated controls have been specifically confirmed for the booking. Guests with allergies must provide full details before confirming their event.",
+    "Can I request a female private chef in Arabian Ranches?",
+    "Yes. A female chef can be requested for your booking. Tell us when you enquire and myCHEF matches you with a female chef from the partner network for your date, cuisine and service style. It is a regular request across the Ranches — family villas where the chef is in the house all evening, and women-only gatherings where the host would rather it were a woman cooking. Availability depends on the date and the cuisine, so mention it in your first message and we confirm the match before you commit.",
+    "How do I book a chef for hire in Arabian Ranches?",
+    "Share your date, guest count and address; we match a vetted chef and send an itemised proposal, usually within one business day. Approve it and the chef handles the rest, from shopping to cleanup.",
+    "For private chef arabian ranches, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements ."
+   ],
+   "insert_after_block": "Menus for Arabian Ranches family events",
+   "position": "after the block titled 'Menus for Arabian Ranches family events'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which private chef arabian ranches format suits your event?",
+   "new_paragraphs": [
+    "Format What it gives you Staffing Cost position",
+    "Drop-off Food delivered ready to serve None Entry point",
+    "Buffet Presentation plus a maintained spread 1–2 From AED 700 per person",
+    "Live stations Cooking in front of your guests 2–4 Mid-range",
+    "Plated Every course served together 3 and above Top of the range"
+   ],
+   "insert_after_block": "Menus for Arabian Ranches family events",
+   "position": "after the block titled 'Menus for Arabian Ranches family events'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  },
+  {
+   "new_heading": "Private chef near Arabian Ranches and across Dubai",
+   "new_paragraphs": [
+    "A private chef near Arabian Ranches is a short drive from the wider communities we serve, so the same standard travels with you. If you host across the fence in Dubai Hills or Emirates Hills , the same vetted chefs and menus apply — or explore all Dubai locations to check your area. Many Ranches households keep us on hand for both quiet weeknight dinners and big weekend gatherings, from garden BBQs to plated celebrations. Still deciding on format? Compare private chef vs catering to see which suits your guest count and budget. Wherever you are in the neighbourhood, tell us the address and we confirm coverage, timing and price before you commit."
+   ],
+   "insert_after_block": "Why Arabian Ranches families choose myCHEF Dubai",
+   "position": "after the block titled 'Why Arabian Ranches families choose myCHEF Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  }
+ ],
+ "faq": []
+}

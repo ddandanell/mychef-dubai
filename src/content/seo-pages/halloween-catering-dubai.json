@@ -1,0 +1,146 @@
+{
+ "url": "/halloween-catering-dubai",
+ "keyword_strategy": {
+  "main_keyword": "halloween catering dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 7,
+  "subkeywords_carried": 6,
+  "coverage_percent": 86,
+  "subkeywords_carried_list": [
+   "small catering dubai",
+   "french catering dubai",
+   "dessert catering dubai",
+   "finger food catering dubai",
+   "halloween catering dubai cost",
+   "halloween restaurant dubai"
+  ],
+  "subkeywords_not_carried": [
+   "brunch catering dubai"
+  ],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Halloween Catering Dubai | Menus & Prices | myCHEF",
+  "meta_description": "Halloween catering in Dubai from AED 700pp — spooky canapés and sliders, vetted chefs and full service. Bespoke menus for your event. Get an itemised quote.",
+  "h1": "Halloween Catering in Dubai — What It Costs and How to Book"
+ },
+ "opening_paragraph": [
+  "Halloween catering in Dubai from myCHEF starts at AED 700 per person — private-chef menus of theatrical, playful food, cooked on site and served for you while you host in costume. A vetted chef designs the menu around your guest count, plates every course and clears away at the end. Send the date, numbers and venue, and during our published business hours a full itemised quote lands promptly."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "Halloween Celebration Formats",
+   "match_confidence": 0.6,
+   "new_heading": "Which halloween catering format suits your event?",
+   "new_paragraphs": [
+    "Format What it gives you Staffing Cost position",
+    "Drop-off Food delivered ready to serve None Entry point",
+    "Buffet Presentation plus a maintained spread 1–2 From AED 700 per person",
+    "Live stations Cooking in front of your guests 2–4 Mid-range",
+    "Plated Every course served together 3 and above Top of the range"
+   ]
+  },
+  {
+   "block_on_your_page": "What's Included in Our Halloween Catering",
+   "match_confidence": 0.65,
+   "new_heading": "What does Halloween catering include?",
+   "new_paragraphs": [
+    "Everything front to back — this is a full-service booking, not a food drop-off. A professional chef and service crew arrive at your venue and run the food from start to finish: a bespoke themed menu designed with you, all the sourcing and prep, cooking on site, plating, service staff where the format needs them, plus complete setup and cleanup. You do not touch a serving spoon or a bin bag. Dietary needs are handled in the same kitchen, so nut-free, gluten-free, vegetarian, vegan and halal dishes sit happily on the same table. Presentation is where the season earns its keep — dry-ice fog drifting off the dessert table, \"bloody\" beetroot dips, blackened sliders, platters dressed to unsettle and delight in equal measure. Whether it is a haunted-house dinner at home or a company party, one team owns the food so you can own the room."
+   ]
+  },
+  {
+   "block_on_your_page": "Halloween Catering Questions",
+   "match_confidence": 0.71,
+   "new_heading": "Halloween catering across Dubai",
+   "new_paragraphs": [
+    "We cater the night anywhere in the city — Palm Jumeirah and Emirates Hills villas, Dubai Marina and JBR apartments, Downtown penthouses, Business Bay and DIFC offices, Arabian Ranches and Dubai Hills family homes, plus beach clubs, rooftops and yachts. The chef and crew travel to you, so the venue is entirely your choice. Comparing options? Look at kids' party catering and private party catering , or browse all party catering and catering in Dubai . Wherever the party is, your partner brings the kitchen to it."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "Dramatic Presentation, Playful Flavours & Flawless Service",
+  "Explore myCHEF Dubai",
+  "Plan Your Halloween Celebration in Dubai",
+  "A Halloween Party Worth Hosting",
+  "A Taste of Our Halloween Catering"
+ ],
+ "add_block": [
+  {
+   "new_heading": "Halloween catering for parties, homes and corporate events",
+   "new_paragraphs": [
+    "The same kitchen scales from an intimate gathering to a 200-guest bash. For families, we split the spread neatly — a milder, colourful line-up for the children and a bolder, spookier one for the adults, from the same event on the same schedule. A corporate October evening becomes a proper occasion with canapé receptions, themed grazing stations and live cooking that gives the team something to gather around. And when you would prefer to host at home, the chef comes into your villa or apartment kitchen, so guests get restaurant-standard food without you renting a venue. We also look after members' clubs, rooftop terraces and school-adjacent community events — anywhere in Dubai you can host, your chef can cook. Tell us the setting and we shape the format, staffing and menu to fit it."
+   ],
+   "insert_after_block": "What's Included in Our Halloween Catering",
+   "position": "after the block titled 'What's Included in Our Halloween Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What is on the Halloween menu?",
+   "new_paragraphs": [
+    "Built bespoke, but leaning into food that photographs as well as it tastes. Popular starting points: a spooky canapé run of blackened chicken sliders, squid-ink arancini and \"witch-finger\" cheese straws, then themed mains and stations, and a showpiece dessert table of graveyard tarts, spiced pumpkin cheesecake and dry-ice \"potion\" pots. Children get toffee apples, monster cupcakes and mummy hot dogs; the adults get a sharper, richer take on the same theme. Nothing comes off a shelf — the menu is written around your taste, your guests and any allergies. Prefer to anchor the party around one cuisine? We build the theme into Italian, Arabic, Asian or Mediterranean cooking just as easily. Ask and we will send sample options matched to your headcount and budget."
+   ],
+   "insert_after_block": "What's Included in Our Halloween Catering",
+   "position": "after the block titled 'What's Included in Our Halloween Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Themes, styling and logistics",
+   "new_paragraphs": [
+    "The food is the centrepiece, and we style it to carry the night: fog-cloaked dessert tables, colour-graded platters, dramatic lighting on the plating and edible \"spooky\" garnishes done with real technique instead of gimmickry. Behind the scenes, the chef arrives with everything needed to cook cleanly in your space, works around your kitchen or a prep area, and leaves it exactly as found. We time the courses so hot food lands when guests are ready, pace the service across a long party evening, and can dovetail with your event stylist or florist for full decor. For outdoor and rooftop parties we plan around Dubai's late-October weather and the extra equipment that comes with it. It is the quiet backstage work that makes the whole thing run smoothly from the guest's side of the table."
+   ],
+   "insert_after_block": "What's Included in Our Halloween Catering",
+   "position": "after the block titled 'What's Included in Our Halloween Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How do I hire a Halloween chef, and how does it work?",
+   "new_paragraphs": [
+    "Booking runs in four steps. First, tell us the date, guest count, venue and any dietary needs — a quick message is enough. Second, we reply with an itemised quote and two or three tailored menu directions, promptly during our published business hours. Third, you pick a direction and we match a vetted chef and crew to your event, then lock the date. Fourth, on the night the team arrives ahead of your guests, cooks and serves, and clears everything away after. You do not need to plan months out — a week is comfortable for a small gathering — but the days around 31 October fill fast, so book earlier for a big party. Whether you searched for a private chef or just \"catering near me\", start with the date and we handle the rest."
+   ],
+   "insert_after_block": "Plan Your Halloween Celebration in Dubai",
+   "position": "after the block titled 'Plan Your Halloween Celebration in Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Why book with myCHEF?",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you own the evening, we carry the work. Before a chef joins the network they pass identity checks, a practical cooking assessment, reference verification and ongoing performance reviews — a continuous standard, not a one-time tick. We are honest about it, too: no system removes every risk, so we match each event to the chef well suited to it. That is the real difference between booking through a proper company and hiring a one-off freelancer.",
+    "For an occasion like this, that chef might be Ahmed Al-Rashid — 18+ years across Dubai, London and Paris in classical French technique — who designs each menu as a collaboration with the host, every course timed, seasoned and served to exacting standards. Where the night leans dessert-forward, our pastry lead Sofia Moretti builds the themed table. Our work spans halloween catering, villa weddings, yacht celebrations and corporate galas across Dubai — including a 90-guest villa Halloween party in Arabian Ranches with a live-station menu and a fog-lit dessert bar. Client reviews are added as events are delivered — real feedback only, not fabricated."
+   ],
+   "insert_after_block": "Plan Your Halloween Celebration in Dubai",
+   "position": "after the block titled 'Plan Your Halloween Celebration in Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning halloween catering step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your halloween catering proposal arrives.",
+    "Book halloween catering about 2 weeks ahead off-peak, and 6 weeks ahead between November and March.",
+    "Confirm the halloween catering menu roughly 7 days before, once your numbers settle.",
+    "Ask about dietary covers for halloween catering when you enquire, not inside the final 48 hours .",
+    "Check venue access and parking for halloween catering; the team arrives about 2 hours before service.",
+    "Plan on roughly 3 hours of halloween catering service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": "A Halloween Party Worth Hosting",
+   "position": "after the block titled 'A Halloween Party Worth Hosting'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How much does Halloween catering cost in Dubai?",
+   "new_paragraphs": [
+    "It starts from AED 700 per person, and what you pay per head comes down mainly to format. Buffet and drop-off styles are the lightest on budget; plated service with dedicated staff, live cooking stations and elaborate dessert tables sit higher. Guest count matters too — a larger party brings the per-head figure down, while a small, high-detail dinner costs more per person. Every quote is itemised, so you can see the food, staffing and any styling separately and adjust to suit. No vague \"from\" traps: you get a real number for your real event. Our Dubai catering price guide breaks the ranges down further, or send your numbers for a precise figure. Affordable and luxury builds come from the same kitchen — the difference is format, not a shortcut on quality."
+   ],
+   "insert_after_block": "Plan Your Halloween Celebration in Dubai",
+   "position": "after the block titled 'Plan Your Halloween Celebration in Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  }
+ ],
+ "faq": []
+}

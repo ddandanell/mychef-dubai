@@ -1,0 +1,176 @@
+{
+ "url": "/kids-nutrition-chef-dubai",
+ "keyword_strategy": {
+  "main_keyword": "kids nutrition chef catering dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 4,
+  "subkeywords_carried": 3,
+  "coverage_percent": 75,
+  "subkeywords_carried_list": [
+   "kids party catering dubai",
+   "kids nutrition chef catering dubai menu",
+   "kids nutrition chef catering dubai price"
+  ],
+  "subkeywords_not_carried": [
+   "leela's lunches catering"
+  ],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Kids Nutrition Chef Catering Dubai | from AED 700–950 per person | myCHEF",
+  "meta_description": "Kids' Nutrition Chef catering in Dubai — a chef focused on healthy, kid-friendly meals. From aed 700–950 per person, with vetted chefs and full service. Request a proposal from myCHEF.",
+  "h1": "Kids' Nutrition Chef Catering in Dubai — Prices, Formats and What You Get"
+ },
+ "opening_paragraph": [
+  "A kids nutrition chef catering dubai booking from myCHEF puts a vetted private chef in your kitchen cooking balanced, genuinely kid-friendly meals, from AED 700 per person. Your chef builds the menu around what your children will happily eat, then handles the shopping, the cooking, the service and the clear-up, and works around allergies and fussy eaters. Getting a child to eat well should not be a nightly battle. Tell us your dates and household and we typically reply within 15 minutes during business hours, with an itemised proposal to follow.",
+  "Note: We focus on balanced, wholesome, everyday meals; we do not provide medical or clinical dietetic advice."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "Kids Nutrition Questions",
+   "match_confidence": 0.75,
+   "new_heading": "Kids' nutrition chef menu & options",
+   "new_paragraphs": [
+    "The menu is built around your children, not a fixed list. Typical everyday options include wholegrain pasta with hidden-veg sauces, grilled fish fingers with sweet-potato wedges, chicken and vegetable stir-fries, homemade soups, and lunchboxes for school. Breakfasts run from overnight oats and fruit to eggs and wholegrain toast; snacks lean on yoghurt, hummus, fresh fruit and home-baked oat bars. For a gathering, the chef scales the same ideas into a shareable spread of finger food the whole group can graze on. Everything is seasoned gently, low on added sugar and salt, and portioned for small appetites. If your family follows a particular way of eating, the menu flexes: see our healthy catering options or a structured weekly meal-prep plan for consistent, batch-cooked meals through the week."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "Meals Kids Love, Parents Trust",
+  "Built Around Your Family",
+  "Choose Your Rhythm",
+  "Make Family Nutrition Effortless",
+  "Explore myCHEF Dubai"
+ ],
+ "add_block": [
+  {
+   "new_heading": "What does a kids' nutrition chef include?",
+   "new_paragraphs": [
+    "It includes everything from planning the meals to washing up — one private chef and caterer handles the whole cycle so you do not have to. Your chef starts with a short conversation about your children's ages, likes, dislikes and any allergies, then designs balanced meals with protein, vegetables and slow-release carbohydrates presented in a way kids genuinely want to eat. On the day, they bring the plan to life: market-fresh shopping, cooking in your own kitchen, portioning for each child, and leaving the space cleaner than they found it. Because it all happens in your home, this can be a one-off dinner, a weekend of family meals, or a recurring weekly rhythm. And because everything is cooked in front of you, you see exactly what goes into each plate — no hidden sugar, no mystery ingredients, just wholesome food your household can trust."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Meals Kids Love, Parents Trust'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Kids' nutrition catering for birthdays, parties & family events",
+   "new_paragraphs": [
+    "Yes — the same chef who cooks balanced weekday dinners also handles party catering for birthdays, playdates and family gatherings. For a children's birthday, that means colourful, healthier versions of the party favourites: baked chicken tenders, veggie-loaded mini pizzas, fruit skewers and naturally-sweetened treats that look fun without a sugar crash to follow. For mixed family events, the chef plates food the adults enjoy alongside a dedicated kids' spread, so nobody is stuck negotiating. We also cater at villas, garden parties and community spaces, and even at corporate family days and office open-houses where employees bring their children. Whether it is six kids or sixty, the food stays balanced, the presentation stays playful, and the parents get a break."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Meals Kids Love, Parents Trust'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Allergies, picky eaters & dietary needs",
+   "new_paragraphs": [
+    "Allergies and fussy eating are handled up front, not left to chance. Before cooking, your chef confirms every allergy and intolerance in the household and prepares nut-free, gluten-free, dairy-free or egg-free meals with careful separation to avoid cross-contact. For picky eaters, the approach is gradual and practical: familiar shapes and textures first, vegetables introduced in ways children accept, and small wins built over repeat visits. The chef can also align meals with a child's sport or activity schedule, keeping energy steady across the day. Parents who want portioned, ready-to-heat food during busy weeks can pair this with meal prep, so healthy choices are on hand whenever the week gets hectic. What we do not do is diagnose or prescribe — for any medical condition, we work alongside your paediatrician or dietitian instead of replacing them."
+   ],
+   "insert_after_block": "Kids Nutrition Questions",
+   "position": "after the block titled 'Kids Nutrition Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How much does kids nutrition chef catering in Dubai cost?",
+   "new_paragraphs": [
+    "Prices start from AED 700–950 per person, and the final figure moves with the menu, the number of children and how often you book. A single in-home dinner sits toward the per-person guide above; recurring weekly cooking and larger events are quoted as packages, which usually work out more affordable per meal than one-off visits. Grocery cost, premium ingredients and travel to some communities can adjust the total. There is no charge to get a number: tell us the ages, the guest count and the frequency and we send an itemised quote. To sanity-check the market, browse our private chef prices and the wider catering price guide before you decide."
+   ],
+   "insert_after_block": "Kids Nutrition Questions",
+   "position": "after the block titled 'Kids Nutrition Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How to hire a kids' nutrition chef & how it works",
+   "new_paragraphs": [
+    "To hire a chef, send us three things: your dates, how many children (and adults) you are feeding, and your venue or home address. From there, we take it from here. We match a vetted chef to your brief, confirm the menu and any allergies, and agree timings. On the day, the chef arrives with ingredients and equipment, cooks in your kitchen, serves, and cleans up — you just enjoy the meal. Searching for a reliable option near me usually returns a scatter of freelancers; myCHEF instead gives you one accountable point of contact and chefs who have cleared a full vetting process. Ready to start? Explore private chef options or compare formats with our private chef vs catering guide."
+   ],
+   "insert_after_block": "Kids Nutrition Questions",
+   "position": "after the block titled 'Kids Nutrition Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Why myCHEF",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you own the evening, we carry the work. Vetting for kids nutrition chef catering means identity checks, a practical cooking assessment, reference verification and ongoing performance reviews — a continuous standard, not a one-time tick. We are honest about it, too: no system removes every risk, so we match each booking to the right chef for it — which is what families tell us makes us a caterer families come back to.",
+    "For a household brief like this, that might be Ahmed Al-Rashid — 18+ years across Dubai, London and Paris in classical French technique — who designs each menu as a collaboration with the host, every dish timed, seasoned and portioned to a child's taste. Kids nutrition chef catering sits alongside villa weddings, yacht celebrations and corporate galas across Dubai. Every kids nutrition chef catering booking includes, with client reviews added as events run."
+   ],
+   "insert_after_block": "Kids Nutrition Questions",
+   "position": "after the block titled 'Kids Nutrition Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Kids' nutrition chef catering across Dubai",
+   "new_paragraphs": [
+    "We arrange kids nutrition chef catering dubai in every community, from Palm Jumeirah and Emirates Hills villas to Downtown, Marina and Business Bay apartments. Your chef travels to you, so the service works whether you are a resident family cooking every week or visitors staying in a holiday home. As a catering company that keeps one standard across the city, myCHEF gives you the same vetting, the same balanced menus and the same clean handover, wherever you are. If you are weighing an affordable plan for the school term or a one-off for a special occasion, we will shape our services around your family's routine."
+   ],
+   "insert_after_block": "Kids Nutrition Questions",
+   "position": "after the block titled 'Kids Nutrition Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning kids nutrition chef catering step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your kids nutrition chef catering proposal arrives.",
+    "Book kids nutrition chef catering about 2 weeks ahead off-peak, and 6 weeks ahead between November and March.",
+    "Confirm the kids nutrition chef catering menu 7 days before the date, with final numbers.",
+    "Ask about allergies when booking kids nutrition chef catering, well outside the final 48 hours .",
+    "Check how the team reaches the venue; kids nutrition chef catering setup begins about 2 hours before guests.",
+    "Plan on roughly 3 hours of kids nutrition chef catering service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": "Kids Nutrition Questions",
+   "position": "after the block titled 'Kids Nutrition Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which kids nutrition chef catering format suits your event?",
+   "new_paragraphs": [
+    "Format What it gives you Staffing Cost position",
+    "Drop-off Food delivered ready to serve None Entry point",
+    "Buffet Presentation plus a maintained spread 1–2 From AED 700 per person",
+    "Live stations Cooking in front of your guests 2–4 Mid-range",
+    "Plated Every course served together 3 and above Top of the range"
+   ],
+   "insert_after_block": "Kids Nutrition Questions",
+   "position": "after the block titled 'Kids Nutrition Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Common questions",
+   "new_paragraphs": [
+    "How much does kids' nutrition chef cost in Dubai?",
+    "It's AED 700–950 per person — quoted by group size, menu and how often you book. Recurring plans and packages usually reduce the cost per meal. Send your details for an exact quote.",
+    "What's included in the service?",
+    "Included is menu design, a vetted chef, market shopping, cooking in your kitchen, service and setup, and cleanup where relevant. You just choose the dates.",
+    "How do I book a kids' nutrition chef?",
+    "Booking takes a minute: tell us your date, the number of children and your venue, and we send an itemised proposal, usually within one business day.",
+    "Will the chef handle allergies and picky eaters?",
+    "Yes — allergies and fussy eating are planned up front. Your chef cooks nut-free, gluten-free or dairy-free as needed and builds familiar meals picky eaters will accept. We do not give clinical dietetic advice.",
+    "Can you cater a kids' birthday or event?",
+    "Yes. We run kids' nutrition chef party catering for birthdays, playdates and family days, with healthier versions of party favourites alongside a spread the adults enjoy.",
+    "Do you offer weekly or package options?",
+    "Yes. One-off dinners, recurring weekly cooking and meal-prep drop-offs are all available, and packages are usually the most affordable way to eat this way every week.",
+    "For kids nutrition chef catering, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements ."
+   ],
+   "insert_after_block": "Kids Nutrition Questions",
+   "position": "after the block titled 'Kids Nutrition Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "More on kids nutrition chef catering dubai",
+   "new_paragraphs": [
+    "Kids birthday catering dubai",
+    "Get an itemised quote"
+   ],
+   "insert_after_block": "Kids Nutrition Questions",
+   "position": "after the block titled 'Kids Nutrition Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  }
+ ],
+ "faq": []
+}

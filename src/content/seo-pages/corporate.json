@@ -1,0 +1,258 @@
+{
+ "url": "/corporate",
+ "keyword_strategy": {
+  "main_keyword": "corporate catering dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 11,
+  "subkeywords_carried": 11,
+  "coverage_percent": 100,
+  "subkeywords_carried_list": [
+   "buffet catering dubai",
+   "small party catering dubai",
+   "best corporate catering dubai",
+   "small corporate catering dubai",
+   "corporate catering dubai reviews",
+   "corporate catering dubai contact number",
+   "catering company dubai",
+   "catering business dubai",
+   "catering company dubai uae",
+   "corporate catering services dubai",
+   "corporate catering companies in dubai"
+  ],
+  "subkeywords_not_carried": [],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Corporate Catering Dubai | Menus & Prices | myCHEF",
+  "meta_description": "Corporate catering in Dubai from AED 90pp for a working lunch, AED 700pp with a chef on site. Daily office catering to plated client dinners. Itemised quotes.",
+  "h1": "Corporate Catering in Dubai — What It Costs and How to Book"
+ },
+ "opening_paragraph": [
+  "Corporate catering in Dubai costs from AED 90 per person for a working lunch and AED 700 to 950 with a chef on site . MyCHEF quotes to your exact headcount, menu and service level. A vetted chef and team handle the cooking, the service and the setup, from a ten-seat boardroom lunch to a 300-guest gala.",
+  "Send the brief and we typically reply within 15 minutes during business hours, with an itemised proposal to follow you can forward straight to finance, and the meeting stays the only thing on your desk."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "What types of corporate catering do you provide in Dubai?",
+   "match_confidence": 0.7,
+   "new_heading": "How to compare corporate catering companies in Dubai",
+   "new_paragraphs": [
+    "There is no official ranking of catering companies in Dubai, and any company claiming to top one is claiming it about itself. What you can compare, before you enquire, is what each firm will tell you in public. Does it publish a per-head price, a minimum headcount and a minimum order value? Will it name the chef who will be in your building? Does the quote itemise food, staff and equipment as separate lines, so finance can read it? Is one person accountable on the day, or does the booking pass between a sales desk and a kitchen? Ours are printed on this page, so you can hold them against anyone else. Our guide to choosing a catering company in Dubai sets out the full checklist."
+   ]
+  },
+  {
+   "block_on_your_page": "Why do Dubai companies choose myCHEF for corporate catering?",
+   "match_confidence": 0.7,
+   "new_heading": "Why choose myCHEF as your corporate catering company",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens on one idea: you own the meeting, we carry the work. That is why every chef clears the same gate before joining this corporate catering company in Dubai — identity checks, a practical cooking assessment, reference verification and ongoing performance reviews , a continuous standard, not a one-time tick. We are also straight with you: no system removes every risk, so we match each event to the right available chef instead of pretending the roster is interchangeable. For a corporate booking that is often Ahmed Al-Rashid — 18+ years across Dubai, London and Paris in classical French technique — who treats each menu as a collaboration with the host, every course timed, seasoned and plated so a full table is served at once. Booking a private corporate chef of that calibre is what separates the best corporate catering in Dubai from a tray delivery. We have delivered corporate galas and boardroom dinners across the city. Covers corporate catering; client reviews go up as events are delivered."
+   ]
+  },
+  {
+   "block_on_your_page": "Frequently Asked Questions About Corporate Catering in Dubai",
+   "match_confidence": 0.6,
+   "new_heading": "Frequently asked questions",
+   "new_paragraphs": [
+    "How much does corporate catering cost in Dubai?",
+    "From AED 90 per person for a dropped-off working lunch, AED 120 for a staffed event buffet and AED 150 for a premium spread with live stations. A chef cooking and serving on site is AED 700 to 950 per person. Minimums are 10 guests on volume formats, 20 on a buffet and AED 900 on order value; retained programmes are priced against the weekly or monthly schedule.",
+    "What is included in corporate catering services in Dubai?",
+    "Included as standard are menu design, a vetted chef and service team, delivery or on-site cooking, setup and cleanup, plus one contact and a single itemised invoice. You choose the format and we build the run sheet around it.",
+    "Can you handle daily office catering and one-off corporate events?",
+    "Yes — we run both daily and weekly office catering and one-off corporate events for parties, conferences and client dinners, held to the same standard whichever it is. Standing programmes get consistent menus and simplified billing.",
+    "Do you offer corporate catering packages and retainers?",
+    "Yes — corporate catering packages and retainer programmes are priced against your schedule, which usually works out better value than repeated one-off bookings. We scope the menu, headcount and service level once, then keep it consistent.",
+    "How do I hire a corporate caterer in Dubai?",
+    "To hire a corporate caterer in Dubai, send your date, headcount, venue and budget and we typically reply within 15 minutes during business hours, with an itemised proposal to follow, usually confirmed inside one business day.",
+    "Can you cater dietary requirements for our team?",
+    "Yes — every booking is planned for vegetarian, vegan, gluten-free, nut-free and other allergen needs, with labelled dishes. Menus are fully halal by default across our corporate food catering in Dubai.",
+    "How far in advance should we book?",
+    "Sooner is safer — 48 hours is workable for standard office catering, but a week or more is ideal for large corporate events, plated dinners and peak festive dates. Recurring programmes are set up once and then run to schedule.",
+    "Do you cover corporate catering near me across Dubai?",
+    "Almost certainly — our vetted chef network reaches every Dubai business district and free zone, from Downtown and DIFC to Business Bay, JLT, Dubai Marina and Media City, matched to your venue and headcount.",
+    "What is the corporate catering contact number?",
+    "Call or WhatsApp +971 55 174 4849, or email info@mychef.ae. You can also send the brief through the contact form. We typically reply within 15 minutes during business hours, and the itemised proposal follows.",
+    "Where can I read corporate catering reviews?",
+    "We do not publish client reviews on this page, and we will not write ones we cannot attribute.Judge us on those, and on the proposal you get back.",
+    "What is the smallest corporate booking you take?",
+    "Ten guests on a dropped-off or working-lunch format, with a minimum order value of AED 900. Twenty for a full buffet. A private chef has no minimum headcount, so a board dinner for six is a normal booking at AED 700 to 950 per person.",
+    "For corporate catering, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements ."
+   ]
+  },
+  {
+   "block_on_your_page": "How much does corporate catering cost in Dubai?",
+   "match_confidence": 0.73,
+   "new_heading": "Corporate catering across Dubai",
+   "new_paragraphs": [
+    "Searching for corporate catering near me in Dubai returns a crowded field; what we bring is a vetted network that reaches every business district and free zone, so the chef is genuinely local to your venue. We cover Downtown and DIFC boardrooms, Business Bay and JLT office floors, Dubai Marina and Media City teams, and the free-zone campuses in between, matched to your occasion, guest count and room. The most requested format is office catering tailored to how your team eats through the week, while standing clients often move onto a corporate retainer . Explore the wider catering range for one-off events, or send a brief and we will point you to the fit."
+   ]
+  },
+  {
+   "block_on_your_page": "Ready to book corporate catering in Dubai?",
+   "match_confidence": 0.57,
+   "new_heading": "Planning corporate catering step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your corporate catering proposal arrives.",
+    "Book with the lead time the format needs: 72 hours for a standard package, 3–5 days with live stations or multi-staff service, 5–7 days for a bespoke menu, and 7–14 days for a corporate function or gala.",
+    "Confirm the corporate catering menu 7 days before the date, with final numbers.",
+    "Ask about allergies when booking corporate catering, well outside the final 48 hours .",
+    "Check how the team reaches the venue; corporate catering setup begins about 2 hours before guests.",
+    "Plan on roughly 3 hours of corporate catering service, and add 5% VAT to the total."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "At a Glance",
+  "Join the Dubai businesses that trust myCHEF for boardroom lunches, client dinners, and team events.",
+  "Which other catering services does myCHEF Dubai offer?",
+  "Explore myCHEF Dubai",
+  "What corporate catering packages are available in Dubai?",
+  "What corporate dining solutions does myCHEF Dubai offer?",
+  "Ongoing corporate catering plans for Dubai businesses",
+  "How does corporate catering work with myCHEF Dubai?"
+ ],
+ "add_block": [
+  {
+   "new_heading": "Corporate catering for meetings, conferences and events",
+   "new_paragraphs": [
+    "The format is set by the occasion, not the other way round. For an internal all-hands we run buffets and live stations that feed a floor quickly between sessions; for a client-facing corporate event catering in Dubai brief we move to plated service with timed courses and front-of-house staff. Conferences get grazing tables, working-lunch boxes and continuous coffee so the agenda does not stall at a catering queue. Product launches, award nights and the office festive party lean toward corporate party catering in Dubai — canapés, a manned bar of mocktails, and a dessert table that photographs well for the socials team. Whatever the room, we scope power, access, service windows and guest flow before the day, so the food arrives cooked, hot and on cue, not a last-minute scramble. Tell us the audience and the time you have, and we build the run sheet around it."
+   ],
+   "insert_after_block": "What corporate dining solutions does myCHEF Dubai offer?",
+   "position": "after the block titled 'What corporate dining solutions does myCHEF Dubai offer?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Corporate catering menu and food options",
+   "new_paragraphs": [
+    "Your corporate menu in Dubai is built around your people, not a fixed printout. We design cuisine to the room — Arabic mezze and grills, Italian and Mediterranean, Indian, pan-Asian, or a clean modern-European set for a formal dinner — and every corporate food catering order in Dubai is fully halal by default, with pork and alcohol handled only on explicit request within the law. Popular builds include hot-and-cold working buffets, individually boxed lunches for hybrid teams, bowl-food for standing receptions, and a plated three- to five-course dinner for board level. Seasonal produce drives the specials, and portion planning is sized to real appetites so you neither run short nor bin trays of waste. Sample menus are shared before you commit, and we lock the final selection once headcount is confirmed."
+   ],
+   "insert_after_block": "What corporate dining solutions does myCHEF Dubai offer?",
+   "position": "after the block titled 'What corporate dining solutions does myCHEF Dubai offer?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Dietary requirements, delivery and logistics",
+   "new_paragraphs": [
+    "Dietary needs are planned in from the start, not bolted on at the door. Every corporate booking is mapped for vegetarian, vegan, gluten-free, nut-free and other allergen needs, with labelled dishes so your team eats with confidence and your HR side stays covered. On logistics, we deliver across the city's business districts and free zones, and we can also cater to an executive's home office or a director's residence when a corporate home catering setup suits the occasion better than a meeting room. On-site, the chef manages the kitchen or pantry space you have, brings equipment where the venue lacks it, and clears down completely afterward. Standing weekly programmes get consistent timing your reception desk can rely on, so the food becomes one less thing anyone chases."
+   ],
+   "insert_after_block": "What corporate dining solutions does myCHEF Dubai offer?",
+   "position": "after the block titled 'What corporate dining solutions does myCHEF Dubai offer?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Small corporate catering: boardroom lunches and team dinners",
+   "new_paragraphs": [
+    "Most corporate catering enquiries in Dubai are not galas. They are a lunch for twelve in a meeting room, a small party for a team that closed something, a leaving dinner for eight. Small corporate catering in Dubai works on the same terms as the large kind, with one number to know. Volume formats start at 10 guests and AED 900 on order value, which is ten people at the AED 90 working-lunch tier. Below ten, a dropped-off order does not clear that floor, and the format that fits is a chef in the room. A private chef carries no minimum headcount, so a board dinner for six at AED 700 to 950 per person is a normal booking. Small party catering in Dubai for a team celebration usually lands between the two: canapés or a short buffet at AED 120 to 150 a head once you are over twenty."
+   ],
+   "insert_after_block": "How much does corporate catering cost in Dubai?",
+   "position": "after the block titled 'How much does corporate catering cost in Dubai?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Corporate catering contact: how to reach us",
+   "new_paragraphs": [
+    "For a corporate catering contact number, call or message +971 55 174 4849 . The same number takes WhatsApp, which is how most corporate briefs arrive. Email info@mychef.ae to put the brief and the headcount in writing, or send it through the contact form . MyCHEF operates from Dubai, UAE, and covers every business district and free zone in the emirate. Whichever route you use, a first we typically reply within 15 minutes during business hours, and an itemised proposal follows."
+   ],
+   "insert_after_block": "What types of corporate catering do you provide in Dubai?",
+   "position": "after the block titled 'What types of corporate catering do you provide in Dubai?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which corporate catering format suits your event?",
+   "new_paragraphs": [
+    "Format What it gives you Staffing Cost position",
+    "Drop-off Food delivered ready to serve None From AED 90 per person",
+    "Buffet Presentation plus a maintained spread 1–2 From AED 120 per person",
+    "Live stations Cooking in front of your guests 2–4 From AED 150 per person",
+    "Plated Every course served together 3 and above AED 700–950 per person, top of the range"
+   ],
+   "insert_after_block": "Ready to book corporate catering in Dubai?",
+   "position": "after the block titled 'Ready to book corporate catering in Dubai?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How much does corporate catering cost in Dubai?",
+   "new_paragraphs": [
+    "Corporate catering cost in Dubai opens at AED 90 per person and moves with headcount, menu and the level of service you choose. A dropped-off working or office lunch is AED 90 a head. A staffed event buffet is AED 120, and a premium spread with live stations or canapés is AED 150. A plated dinner with a chef cooking on site and full front-of-house service is AED 700 to 950. Volume formats need 10 guests, a full buffet 20, and the minimum order value is AED 900, with 5% VAT on top. Recurring work is priced differently again: corporate catering packages in Dubai and retainer programmes are set against the weekly or monthly schedule, which usually works out better value than repeated one-off bookings. We publish honest corporate catering prices in Dubai, not a teaser rate — the proposal is itemised so finance sees exactly what each line buys. For worked examples and typical ranges, see our Dubai catering price guide , or send your brief for a firm number."
+   ],
+   "insert_after_block": "What corporate catering packages are available in Dubai?",
+   "position": "after the block titled 'What corporate catering packages are available in Dubai?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  }
+ ],
+ "faq": [
+  {
+   "question": "How much does corporate catering cost in Dubai?",
+   "answer": [
+    "From AED 90 per person for a dropped-off working lunch, AED 120 for a staffed event buffet and AED 150 for a premium spread with live stations. A chef cooking and serving on site is AED 700 to 950 per person. Minimums are 10 guests on volume formats, 20 on a buffet and AED 900 on order value; retained programmes are priced against the weekly or monthly schedule."
+   ]
+  },
+  {
+   "question": "What is included in corporate catering services in Dubai?",
+   "answer": [
+    "Included as standard are menu design, a vetted chef and service team, delivery or on-site cooking, setup and cleanup, plus one contact and a single itemised invoice. You choose the format and we build the run sheet around it."
+   ]
+  },
+  {
+   "question": "Can you handle daily office catering and one-off corporate events?",
+   "answer": [
+    "Yes — we run both daily and weekly office catering and one-off corporate events for parties, conferences and client dinners, held to the same standard whichever it is. Standing programmes get consistent menus and simplified billing."
+   ]
+  },
+  {
+   "question": "Do you offer corporate catering packages and retainers?",
+   "answer": [
+    "Yes — corporate catering packages and retainer programmes are priced against your schedule, which usually works out better value than repeated one-off bookings. We scope the menu, headcount and service level once, then keep it consistent."
+   ]
+  },
+  {
+   "question": "How do I hire a corporate caterer in Dubai?",
+   "answer": [
+    "To hire a corporate caterer in Dubai, send your date, headcount, venue and budget and we typically reply within 15 minutes during business hours, with an itemised proposal to follow, usually confirmed inside one business day."
+   ]
+  },
+  {
+   "question": "Can you cater dietary requirements for our team?",
+   "answer": [
+    "Yes — every booking is planned for vegetarian, vegan, gluten-free, nut-free and other allergen needs, with labelled dishes. Menus are fully halal by default across our corporate food catering in Dubai."
+   ]
+  },
+  {
+   "question": "How far in advance should we book?",
+   "answer": [
+    "Sooner is safer — 48 hours is workable for standard office catering, but a week or more is ideal for large corporate events, plated dinners and peak festive dates. Recurring programmes are set up once and then run to schedule."
+   ]
+  },
+  {
+   "question": "Do you cover corporate catering near me across Dubai?",
+   "answer": [
+    "Almost certainly — our vetted chef network reaches every Dubai business district and free zone, from Downtown and DIFC to Business Bay, JLT, Dubai Marina and Media City, matched to your venue and headcount."
+   ]
+  },
+  {
+   "question": "What is the corporate catering contact number?",
+   "answer": [
+    "Call or WhatsApp +971 55 174 4849, or email info@mychef.ae. You can also send the brief through the contact form. We typically reply within 15 minutes during business hours, and the itemised proposal follows."
+   ]
+  },
+  {
+   "question": "Where can I read corporate catering reviews?",
+   "answer": [
+    "We do not publish client reviews on this page, and we will not write ones we cannot attribute.Judge us on those, and on the proposal you get back."
+   ]
+  },
+  {
+   "question": "What is the smallest corporate booking you take?",
+   "answer": [
+    "Ten guests on a dropped-off or working-lunch format, with a minimum order value of AED 900. Twenty for a full buffet. A private chef has no minimum headcount, so a board dinner for six is a normal booking at AED 700 to 950 per person.",
+    "For corporate catering, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements ."
+   ]
+  }
+ ]
+}

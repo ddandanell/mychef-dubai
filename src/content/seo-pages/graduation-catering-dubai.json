@@ -1,0 +1,208 @@
+{
+ "url": "/graduation-catering-dubai",
+ "keyword_strategy": {
+  "main_keyword": "graduation catering dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 10,
+  "subkeywords_carried": 8,
+  "coverage_percent": 80,
+  "subkeywords_carried_list": [
+   "what is graduation catering?",
+   "how to cater a graduation party?",
+   "how much does catering cost in dubai?",
+   "home catering dubai",
+   "buffet catering dubai",
+   "small party catering dubai",
+   "finger food catering dubai",
+   "best graduation catering dubai"
+  ],
+  "subkeywords_not_carried": [
+   "ahs catering",
+   "master catering services dubai"
+  ],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Graduation Catering Dubai | Menus & Prices | myCHEF",
+  "meta_description": "Graduation catering in Dubai from AED 700pp — a crowd-friendly buffet, vetted chefs and full service. Bespoke menus for your event. Get an itemised quote.",
+  "h1": "Graduation Catering in Dubai — What It Costs and How to Book"
+ },
+ "opening_paragraph": [
+  "Graduation catering in Dubai from myCHEF starts at AED 700 per person , with a vetted chef who plans the menu, cooks on site and serves your guests. A graduation is one of the few days a family gets to stop and be proud out loud — parents, grandparents, cousins and the friends who studied through every all-nighter, all in one room. Our job is to feed that room beautifully so the host stays part of it instead of stuck behind a stove. Share the date, the guest count and where it is happening, and you get a clear proposal back the same day."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "Graduation Party Catering Formats",
+   "match_confidence": 0.81,
+   "new_heading": "Graduation catering FAQs",
+   "new_paragraphs": [
+    "What is graduation catering?",
+    "Food and service arranged for a graduation celebration: a menu sized to the party, a chef cooking on site or a kitchen delivering ready to serve, and staff who set up, serve and clear away. The mix is built for a mixed-age room and for guests who are moving rather than seated.",
+    "How do I cater a graduation party?",
+    "Fix the guest count and the hours first, choose the format that matches — finger food and stations for a standing party, buffet for an open house, plated for a seated dinner — then build the menu, agree the per-guest quantities in writing, confirm dietary needs, and plan the table, queue and power at the venue.",
+    "How much does graduation catering cost in Dubai?",
+    "Graduation catering in Dubai opens at roughly AED 700 per person and moves with your numbers, menu and service level. Send your guest count for an itemised quote.",
+    "What is included in graduation catering?",
+    "Menu planning, the chef, the service staff, the plating, setup and the cleanup are all covered by one team, so nothing is left on the host.",
+    "How far ahead should I book graduation catering in Dubai?",
+    "Allow about 72 hours for a standard package, 3 to 5 days for live stations, and 5 to 7 days for a bespoke menu or a large party. Book further ahead across the June and July graduation peak, when dates fill fast.",
+    "Can you cater a graduation party at home or a venue?",
+    "Yes — we cater graduation parties in villas, apartments, gardens, offices and hired venues across Dubai, adjusting the format to the space and the kitchen access available.",
+    "Do you offer halal and vegetarian graduation menus?",
+    "Yes — every graduation menu can be built fully halal, and vegetarian, vegan, gluten-free and nut-free dishes are prepared to order alongside the main spread.",
+    "How many guests can you cater a graduation for?",
+    "Anything from an intimate family dinner of six to a party of well over one hundred; the menu format and staffing scale to your numbers.",
+    "Is there an affordable graduation catering option?",
+    "Yes — buffet and drop-off formats are our lowest per-head formats, while plated service with dedicated staff sits at the higher end. We size the plan to your budget.",
+    "For graduation catering, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements ."
+   ]
+  },
+  {
+   "block_on_your_page": "A Taste of Our Graduation Party Catering",
+   "match_confidence": 0.68,
+   "new_heading": "What is on a graduation catering menu?",
+   "new_paragraphs": [
+    "A graduation menu in Dubai is built around crowd-pleasing food that suits mixed ages and long, chatty afternoons. Popular starting points include a graduation buffet of grilled meats, mezze and salads; passed canapés, sliders and finger food that guests can eat standing with a drink in the other hand; live pasta or shawarma stations; a grazing table; and a celebration cake with a full dessert spread. Every graduation food catering menu is bespoke — these are prompts we tailor to your taste, your guests and your cuisine, from Arabic and Mediterranean to Indian, Asian or Italian. Fully halal menus are standard, and vegetarian, vegan, gluten-free and nut-free dishes are prepared to order so no guest is left with a token side plate."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "A Celebration Worthy of the Achievement",
+  "Designed for Every Kind of Graduate Celebration",
+  "Celebrate the Graduate With Catering They Will Remember",
+  "Explore myCHEF Dubai",
+  "Graduation Party Catering Questions",
+  "What's Included in Our Graduation Party Catering"
+ ],
+ "add_block": [
+  {
+   "new_heading": "How to cater a graduation party, step by step",
+   "new_paragraphs": [
+    "Fix the numbers and the shape of the day. Guest count, the hours the party runs, and whether people will be seated or standing. That decides format before it decides menu.",
+    "Pick the format to match. Standing and mingling wants finger food, canapés and stations; a seated family dinner wants plated or family style; an open house that runs for hours wants a buffet that can be refreshed.",
+    "Build the menu around a mixed-age room. Something familiar for grandparents, something the graduate's friends will actually eat, and a vegetarian and halal spine so nobody is catered for as an afterthought.",
+    "Count the food properly. A standing reception needs more small items than a seated meal needs courses. Ask for the per-guest quantity in writing rather than a menu list alone.",
+    "Confirm allergies and dietary needs in writing at booking, not on the day, so the kitchen can plan preparation around them.",
+    "Plan the space. Where the food table sits, where guests queue, where the cake is cut, and what kitchen or power access the team has. Gardens in June need shade and chilled courses.",
+    "Book early for June and July. Graduation season peaks in those two months across Dubai schools and universities, and the good dates go first."
+   ],
+   "insert_after_block": "What's Included in Our Graduation Party Catering",
+   "position": "after the block titled 'What's Included in Our Graduation Party Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What does graduation catering include?",
+   "new_paragraphs": [
+    "Graduation catering includes everything from the first menu conversation to the last cleared plate, so hosting a party stays a pleasure, not a second job. A private graduation chef in Dubai designs the menu with you, shops for fresh produce, cooks on site, and brings the service staff, serving ware, plating and setup. When the last guest leaves, the team clears down and hands your kitchen back the way they found it. Because it is a full graduation catering service and not a drop-and-go tray, you can add live cooking stations, a dessert table or a dedicated bar without hunting for extra suppliers. One graduation catering company runs the whole evening on a single timeline, which is exactly what you want when relatives are travelling in and the schedule has to hold."
+   ],
+   "insert_after_block": "What's Included in Our Graduation Party Catering",
+   "position": "after the block titled 'What's Included in Our Graduation Party Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Graduation catering for families, campuses and corporate milestones",
+   "new_paragraphs": [
+    "Graduation catering works for far more than the classic backyard party at home. A private family dinner for the new graduate calls for a warm plated menu and a celebration cake; a big open-house with the whole extended circle suits a generous graduation buffet that keeps flowing for hours. Schools, universities and training academies use graduation catering for events on campus — canapés and drinks receptions for the ceremony, or a seated lunch for staff and honoured guests. Corporate graduation catering in Dubai covers programme completions, internship class send-offs and professional qualifications, delivered to an office or a hired venue. Whether it is a small graduation party catering brief or a hall of two hundred, the same team scales the menu, the staffing and the pace to match the occasion."
+   ],
+   "insert_after_block": "What's Included in Our Graduation Party Catering",
+   "position": "after the block titled 'What's Included in Our Graduation Party Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Dietary needs, timing and party logistics",
+   "new_paragraphs": [
+    "Good graduation catering is as much about logistics as it is about the food. Because graduation season peaks in June and July, kitchens and dates fill fast, so the earlier you share your numbers the more choice you keep. We confirm allergies and dietary requirements in writing, label every dish on the day, and separate allergen prep in the kitchen. For an outdoor or garden party we plan for the heat — chilled courses, shaded serving, safe holding temperatures — and for apartments we work neatly within the space and kitchen access you have. If you want to compare formats before deciding, our Dubai catering price guide lays out what buffet, drop-off and plated service each involve."
+   ],
+   "insert_after_block": "A Taste of Our Graduation Party Catering",
+   "position": "after the block titled 'A Taste of Our Graduation Party Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How much does graduation catering cost in Dubai?",
+   "new_paragraphs": [
+    "Graduation catering in Dubai starts from AED 700 per person and rises with the menu and the level of service you choose. You pay per head, and the format is the biggest lever: a graduation buffet or drop-off spread is the most affordable per guest, while plated service with dedicated staff and live stations sits higher, up to around AED 950 per person for a premium menu. Graduation catering packages keep budgeting easy: set price-per-head tiers bundle the menu, chef and service, and larger guest counts usually bring the per-person cost down. For firm graduation catering prices, send your date and numbers and you will get an itemised quote with no vague estimates, so the final cost holds no surprises."
+   ],
+   "insert_after_block": "A Taste of Our Graduation Party Catering",
+   "position": "after the block titled 'A Taste of Our Graduation Party Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How to hire graduation catering in Dubai",
+   "new_paragraphs": [
+    "To hire graduation catering in Dubai, start by telling us three things: the date, the number of guests, and the venue or area. From there a menu is proposed within your budget, refined until it is exactly what you want, and for larger celebrations a tasting can be arranged before you commit. On the day, the chef and team arrive ahead of your guests, set up, cook and serve, then clear everything away. Searching for graduation catering near me tends to surface a long list of unknowns; instead you get a matched chef, a written menu and a single team accountable for the whole evening. Booking a week ahead is usually enough for a small gathering, though peak graduation dates reward booking two to three weeks out."
+   ],
+   "insert_after_block": "A Taste of Our Graduation Party Catering",
+   "position": "after the block titled 'A Taste of Our Graduation Party Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Why choose myCHEF for your graduation",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you own the evening, we carry the work. MyCHEF is implementing a structured partner verification framework covering identity and licence checks, a practical cooking assessment, reference verification and ongoing performance review — a continuous standard, not a one-time tick. We are honest about it, too: no system removes every risk, so we match each event to the chef whose background fits it.",
+    "For a graduation, that is often Ahmed Al-Rashid — 18+ years across Dubai, London and Paris in classical French technique — who designs each menu as a collaboration with the host, every course timed, seasoned and served to exacting standards. Our work spans graduation catering, villa weddings, yacht celebrations and corporate galas across Dubai. This is not the cheapest option in the city, but for the best graduation catering — genuine chef-cooked food and calm, professional service — it is honest value. Covers graduation catering; client reviews go up as events are delivered."
+   ],
+   "insert_after_block": "A Taste of Our Graduation Party Catering",
+   "position": "after the block titled 'A Taste of Our Graduation Party Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning graduation catering step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your graduation catering proposal arrives.",
+    "Book a standard graduation catering package about 72 hours ahead; allow 3 to 5 days for live stations and multi-staff service, and 5 to 7 days for a bespoke menu or a larger party.",
+    "Allow 7 to 14 days or more for a campus ceremony or a corporate graduation, and book further out again across the June and July peak.",
+    "Confirm the graduation catering menu 7 days before the date, with final numbers.",
+    "Ask about allergies when booking graduation catering, well outside the final 48 hours .",
+    "Check how the team reaches the venue; graduation catering setup begins about 2 hours before guests.",
+    "Plan on roughly 3 hours of graduation catering service, and add 5% VAT to the total.",
+    "We recommend booking as early as possible. Lead times depend on guest numbers, menu complexity, staffing, equipment, location and partner availability. If your graduation date is close, tell us anyway - the team checks partner availability case by case."
+   ],
+   "insert_after_block": "Graduation Party Catering Formats",
+   "position": "after the block titled 'Graduation Party Catering Formats'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which graduation catering format suits your event?",
+   "new_paragraphs": [
+    "Format What it gives you Staffing Cost position",
+    "Drop-off Food delivered ready to serve None Entry point",
+    "Buffet Presentation plus a maintained spread 1–2 From AED 700 per person",
+    "Live stations Cooking in front of your guests 2–4 Mid-range",
+    "Plated Every course served together 3 and above Top of the range"
+   ],
+   "insert_after_block": "Graduation Party Catering Formats",
+   "position": "after the block titled 'Graduation Party Catering Formats'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "More on graduation catering dubai",
+   "new_paragraphs": [
+    "Farewell catering dubai",
+    "Tasting menu catering dubai",
+    "Anniversary catering dubai",
+    "Engagement catering dubai",
+    "Get an itemised quote"
+   ],
+   "insert_after_block": "Graduation Party Catering Formats",
+   "position": "after the block titled 'Graduation Party Catering Formats'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Graduation catering across Dubai",
+   "new_paragraphs": [
+    "We arrange graduation catering across every part of Dubai, matched to your venue and guest count. That includes villa parties in Palm Jumeirah , Emirates Hills and Arabian Ranches , apartment celebrations in Dubai Marina and Downtown Dubai , and corporate graduations in Business Bay and DIFC . Whether you want luxury graduation catering for a landmark evening or an affordable home graduation dinner for close family, the same standard of chef and service travels to your door. Explore related occasions like birthday catering and reunion catering , browse all party catering , or see the full range of catering in Dubai ."
+   ],
+   "insert_after_block": "Graduation Party Catering Questions",
+   "position": "after the block titled 'Graduation Party Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  }
+ ],
+ "faq": []
+}

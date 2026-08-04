@@ -1,0 +1,235 @@
+{
+ "url": "/catering-packages-dubai",
+ "keyword_strategy": {
+  "main_keyword": "catering packages dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 19,
+  "subkeywords_carried": 18,
+  "coverage_percent": 95,
+  "subkeywords_carried_list": [
+   "buffet catering dubai",
+   "how much do catering cost",
+   "small party catering dubai",
+   "finger food catering dubai",
+   "best catering packages dubai",
+   "wedding packages dubai hotels",
+   "small catering packages dubai",
+   "cheap catering packages dubai",
+   "catering in dubai",
+   "catering menu dubai",
+   "top catering in dubai",
+   "wedding packages dubai",
+   "best catering in dubai",
+   "catering services dubai",
+   "best food catering in dubai",
+   "best catering services dubai",
+   "catering services dubai price",
+   "best indian catering in dubai"
+  ],
+  "subkeywords_not_carried": [
+   "affordable catering services in dubai"
+  ],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Catering Packages Dubai | from AED 90 per person | myCHEF",
+  "meta_description": "Catering packages in Dubai with fixed per-head pricing: from AED 90 for a working lunch, AED 120 buffet, AED 150 live stations, AED 700–950 with a chef on site.",
+  "h1": "Catering Packages in Dubai — Real Prices, Menus and Timings"
+ },
+ "opening_paragraph": [
+  "myCHEF's catering packages in Dubai run from AED 90 a head for a working lunch to AED 700 and up with a chef cooking on site. Instead of a blank quote and days of back-and-forth, a package shows the cost upfront: you pick a menu and a service level, then confirm one price for your guest count. A vetted private chef and service team handle the cooking, setup and cleanup, so you stay a guest at your own event. Send your date, headcount and venue and we typically reply within 15 minutes during business hours."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "Which catering package fits your occasion?",
+   "match_confidence": 0.77,
+   "new_heading": "Which catering packages format suits your event?",
+   "new_paragraphs": [
+    "Format Service staff Guests it suits Indicative cost",
+    "Working or office lunch, dropped off None 10 and above From AED 90 per person",
+    "Standard event buffet 1–2 20–60 From AED 120 per person",
+    "Premium buffet, BBQ, canapés and finger food 1–3 20 and above From AED 150 per person",
+    "Live cooking stations 2–4 40 and above From AED 150 per person",
+    "Plated service, chef on site 3 and above 2–40 seated AED 700–950 per person"
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "Packages for Every Occasion",
+  "What You Get with Every Package",
+  "Related Planning Resources",
+  "Get a Tailored Catering Proposal",
+  "Explore myCHEF Dubai",
+  "Questions About Our Catering Packages"
+ ],
+ "add_block": [
+  {
+   "new_heading": "What a catering package includes",
+   "new_paragraphs": [
+    "A catering package includes everything from menu to cleanup in one fixed price, so nothing is quoted line by line on the night. Each package covers menu design with a named chef, all fresh ingredients and cooking on site, and — where the format needs it — service staff, servers and a captain to run the room. It also includes delivery, full setup of the food and stations, and complete cleanup afterwards. As a catering services provider, we bring the equipment the menu calls for: chafing dishes for a buffet, plating gear for a served dinner, or grazing boards for a reception. What changes between packages is scale and finish, not whether the essentials are there. Prefer a build-your-own approach instead of a set menu? Our wider catering service and a dedicated private chef both plug into the same vetted kitchen, so the food quality stays identical whichever route you book."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Which catering package fits your occasion?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Catering packages for corporate events, parties and weddings",
+   "new_paragraphs": [
+    "Catering packages work for corporate events, private parties and weddings alike, because each one is a fixed per-head format you scale to the room. For business, corporate packages catering in Dubai covers office lunches, conference days, product launches and client dinners, with one contact for invoicing and a menu the whole team can eat. For celebrations, our party catering packages handle birthdays, anniversaries and engagements — see the ready-made Birthday Package , Corporate Dinner and Family Feast for a sense of the tiers. For weddings, packages run from an intimate villa dinner to a full plated banquet with canapés, mains and a dessert course. Because these are catering packages built for events of every size, you can compare formats side by side and book the one that fits your guest count without redesigning the whole menu each time."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Which catering package fits your occasion?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Catering package menus and options",
+   "new_paragraphs": [
+    "Every catering package menu in Dubai is chef-designed and fully customisable, so you start from a proven lineup and adjust to taste. Choose a single cuisine (Italian, Arabic, Mediterranean, Indian, Asian or modern European) or mix a few across a longer menu. Formats include buffet packages that refill through the night, family-style sharing feasts, passed canapés and finger food, grazing tables, live cooking stations, and plated multi-course dinners for a seated event. On the food side you decide the number of courses, the balance of meat, seafood and vegetarian dishes, and whether dessert is a plated course or a full dessert table. Add coffee, tea and a mocktail bar to round out the spread. Because a package menu is a starting point, not a locked list, most clients tweak two or three dishes to match a theme, a birthday cake preference or a signature dish, and the price stays tied to your headcount and course count."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Which catering package fits your occasion?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Dietary options and event styling",
+   "new_paragraphs": [
+    "Any catering package can be built fully halal, vegan, vegetarian, gluten-free, dairy-free or nut-conscious, with every dish labelled so guests know what suits them. Those options are available on request, subject to confirmation by the assigned culinary partner. Partner kitchens may handle allergens, and cross-contact cannot be completely excluded unless controls have been confirmed for your booking. Dubai tables are mixed, so most menus we send carry clear vegetarian and halal options as standard, and we cross-check allergies against your guest list before the event. On styling, the same food can be dressed several ways: a relaxed home catering setup in your kitchen and garden, a polished buffet with linen and chafing stations, a grazing table as a centrepiece, or a plated dinner with a served flow. We match crockery, glassware and station design to your venue, whether a villa, rooftop, office boardroom or beach, so the look reads as one considered whole instead of trays dropped off. Tell us the vibe and headcount and we spec the styling into the package so there are no surprises on the day."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Which catering package fits your occasion?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How much do catering packages cost in Dubai?",
+   "new_paragraphs": [
+    "There are four per-head tiers, and the format decides which one you are in. A working or office lunch is from AED 90 per person. A standard event buffet is from AED 120. Premium buffet, BBQ, live cooking stations and canapé service are from AED 150. A chef cooking and plating at your venue is AED 700 to AED 950, because that tier buys a chef's night as well as the food. As fixed bundles, our set packages run at AED 1,200, 2,400, 3,600, 4,500 and 5,500 depending on scale and finish. A chef's tasting session is AED 1,400. For ongoing needs beyond a single event, weekly meal-prep plans start at AED 1,898 and AED 2,698. Minimums are 10 guests on volume formats, 20 on a buffet and a minimum order value of AED 900, and 5% VAT is added to the total. To weigh the options, compare private chef prices against our catering price guide , then send your numbers for an itemised cost against your real headcount."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Which catering package fits your occasion?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Small and cheap catering packages in Dubai",
+   "new_paragraphs": [
+    "Small catering packages start at 10 guests, which is our minimum on the volume formats, and a buffet needs 20. Below that a chef cooking a plated dinner has no minimum at all, so a table of six is a real booking, not an exception we squeeze in. The minimum order value is AED 900 either way, which at the AED 90 working-lunch tier is exactly ten covers.",
+    "Cheap catering packages in Dubai are a format choice, not a lower grade of food. Our least expensive route is a dropped-off working lunch from AED 90 per person, then a standard event buffet from AED 120 where you want it presented and topped up. What you give up moving down the tiers is service in the room: staff, timed courses, cooking in front of guests and the clear-down afterwards. What you do not give up is the kitchen. If the budget is fixed, tell us the number and the headcount and we will name the format that fits it. We will not quote you a thin version of a bigger package."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Which catering package fits your occasion?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How do you pick the best catering package in Dubai?",
+   "new_paragraphs": [
+    "No single catering company leads Dubai. The market is too segmented for that, and any caterer claiming the title is quoting their own marketing. Hotel banqueting owns large formal functions, volume caterers own corporate and buffet work at scale, and chef-led operators own homes, villas and small private events. The right package for you is the one whose format matches your room. That is a decision you can make in about a minute, once you know your headcount and how much service you want.",
+    "When you compare shortlists, four checks separate the serious from the rest. Is the price published, or does it only appear after a phone call? Is the quote itemised, or one per-head figure with the extras waiting? Is one named person accountable on the night? And can the kitchen's food licence be produced on request? Our own answers are on this page: every tier published, every quote itemised, one point of contact from first message to final clear-down, and licensed culinary partners whose documentation myCHEF verifies before a booking is confirmed. Cuisine specialism is the fifth check, and it matters more than people expect. The best Indian catering in Dubai is cooked by someone who cooks Indian food for a living, not by a general kitchen adapting a house menu. The same goes for Arabic, Italian and Pan-Asian menus, which is why we match the chef to the cuisine."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Which catering package fits your occasion?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Wedding packages at Dubai hotels versus catering at your own venue",
+   "new_paragraphs": [
+    "If your wedding is at one of the Dubai hotels, the hotel's own banqueting package usually applies and outside catering is often not permitted. Check the contract before you plan a menu, because that clause decides everything downstream. Hotel wedding packages bundle the room, the kitchen, the staff and often the drinks into one per-head figure, which is convenient and gives you little say over the food.",
+    "Catering at a villa, a garden, a beach or a private venue is the other route, and it is the one we serve. You choose the cuisine and the chef, the kitchen is built for your menu rather than the venue's, and the price follows the tiers on this page instead of a banqueting sheet. The trade-off is real: you take on the venue, the power, the equipment and the licensing questions a hotel would have absorbed. We handle the kitchen side of that and tell you plainly what a given venue will need. For the full detail, see wedding catering in Dubai ."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Which catering package fits your occasion?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How to hire a catering package in Dubai",
+   "new_paragraphs": [
+    "To hire a catering package in Dubai, send three details (your date, guest count and venue) and we return an itemised proposal, promptly during our published business hours. From there you pick a menu tier and service level, we confirm dietary needs and any custom dishes, and you approve one fixed price. Booking then runs in clear steps: a deposit secures the date, the chef finalises the menu and shopping list, and the team arrives with everything needed to cook, serve and clean up. There is no hidden per-item billing, so the quote you approve is the price you pay. If you are still comparing formats, read private chef vs catering to see which suits your event, then request a proposal when you are ready."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Which catering package fits your occasion?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Why book catering packages with myCHEF",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you own the evening, we carry the work. Chefs reach catering packages only after identity checks, a practical cooking assessment, reference verification and ongoing performance reviews . It is a continuous standard, not a one-time tick. We are honest about it: no system removes every risk, so we match each event to the right chef for it. For a general package the default is Ahmed Al-Rashid , with 18+ years across Dubai, London and Paris in classical French technique. An Italian or Mediterranean menu may go to Marco Rossi , an Arabic, halal or Ramadan spread to Layla Hassan , and a wedding or dessert-led package to pastry chef Sofia Moretti . Alongside catering packages we have delivered villa weddings, yacht celebrations and corporate galas in Dubai."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Which catering package fits your occasion?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Catering packages across Dubai",
+   "new_paragraphs": [
+    "We deliver catering packages across every neighbourhood in Dubai, so a search for catering packages near me points to a caterer already working your area. Our chefs cover Dubai Marina, Downtown, Palm Jumeirah, Business Bay, Jumeirah, JBR, JLT, Dubai Hills, Emirates Hills and Arabian Ranches, plus villas, apartments, offices, rooftops, beaches and yachts. As a catering company operating city-wide, we adjust logistics to the venue: parking, kitchen access, service timing and licensing, so a beachfront reception and a boardroom lunch each run smoothly. Wherever you are, the same vetted kitchen, fixed pricing and setup-to-cleanup service applies. Tell us your district and we confirm availability and travel details in the proposal, so booking the right package for your event does not depend on which part of Dubai you are hosting in."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Which catering package fits your occasion?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Catering package FAQs",
+   "new_paragraphs": [
+    "How much do catering packages cost in Dubai?",
+    "There are four per-head tiers: from AED 90 for a working or office lunch, AED 120 for a standard event buffet, AED 150 for premium buffet, BBQ, live stations or canapes, and AED 700 to AED 950 where a chef cooks and plates on site. Set packages run at AED 1,200, 2,400, 3,600, 4,500 and 5,500 by scale. Minimum order value is AED 900 and 5% VAT is added to the total.",
+    "Do you do small or cheap catering packages?",
+    "Yes. Volume formats start at 10 guests and a buffet at 20, while a chef cooking a plated dinner has no minimum headcount, so a table of six is a normal booking. Our least expensive route is a dropped-off working lunch from AED 90 per person, then a standard event buffet from AED 120. Moving down the tiers costs you service in the room, not the quality of the kitchen.",
+    "What is the best catering package in Dubai?",
+    "The one whose format matches your room. No single caterer leads the city, because the market splits between hotel banqueting, volume caterers and chef-led operators. Compare shortlists on four things: is the price published, is the quote itemised, is one named person accountable on the night, and can the kitchen's food licence be produced on request.",
+    "Do you cater weddings at Dubai hotels?",
+    "Usually not, because most Dubai hotels require you to use their own banqueting kitchen and do not permit outside catering. Check that clause in the venue contract before planning a menu. Where the wedding is at a villa, garden, beach or private venue, we cater it on the tiers published on this page.",
+    "What is included in a catering package?",
+    "A catering package includes menu design, a vetted chef, service staff where needed, delivery, full setup and complete cleanup, all in one fixed per-head price instead of billed item by item.",
+    "Can I get a private chef with a catering package in Dubai?",
+    "Yes — every package is delivered by a vetted private chef who cooks on site, so a package and a private chef are the same booking, not two separate services.",
+    "Do you offer corporate catering packages?",
+    "Yes — corporate packages cover office lunches, conferences, galas and client dinners, with a fixed per-head price and one point of contact for invoicing and logistics.",
+    "Are there halal, vegan and dietary catering packages?",
+    "Yes — every package can be built halal, vegan, vegetarian, gluten-free or nut-conscious, with each dish labelled and allergies cross-checked against your guest list. These options are available on request, subject to confirmation by the assigned culinary partner. Partner kitchens may handle allergens, and cross-contact cannot be completely excluded unless controls have been confirmed for your booking.",
+    "How do I hire a catering package in Dubai?",
+    "To hire a package, share your date, guest count and venue; we send an itemised proposal, promptly during our published business hours.",
+    "Do you serve catering packages near me across Dubai?",
+    "Yes — we serve catering packages near you across Dubai, including the Marina, Downtown, Palm Jumeirah, Business Bay, Jumeirah, JBR and Arabian Ranches.",
+    "Are buffet and plated catering packages available?",
+    "Yes — packages come as buffets, family-style feasts, passed canapés and finger food, grazing tables or plated multi-course dinners, so the format matches your occasion.",
+    "For catering packages, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements ."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Which catering package fits your occasion?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning catering packages step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — an itemised proposal arrives.",
+    "Book with 72 hours for a standard catering package, 3–5 days for live stations or a multi-staff event, and 5–7 days for a bespoke menu or a larger private event. Short-notice requests are assessed individually.",
+    "Confirm your menu once the guest list is firm — a few days out is enough for most events.",
+    "Ask early about allergies and dietary plates — not in the last 48 hours before the event.",
+    "Check the access route before the day — setup starts roughly 2 hours ahead.",
+    "Plan on roughly 3 hours of service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Which catering package fits your occasion?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "More on catering packages dubai",
+   "new_paragraphs": [
+    "Corporate event catering ideas dubai",
+    "Business lunch catering dubai",
+    "Buffet catering dubai",
+    "Villa catering ideas dubai",
+    "Get an itemised quote"
+   ],
+   "insert_after_block": "Questions About Our Catering Packages",
+   "position": "after the block titled 'Questions About Our Catering Packages'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  }
+ ],
+ "faq": []
+}

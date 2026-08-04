@@ -1,0 +1,165 @@
+{
+ "url": "/locations/business-bay",
+ "keyword_strategy": {
+  "main_keyword": "private chef business bay",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 9,
+  "subkeywords_carried": 9,
+  "coverage_percent": 100,
+  "subkeywords_carried_list": [
+   "how much does a private chef cost in dubai?",
+   "how much does a personal chef cost in the bay area?",
+   "how much does it usually cost to have a private chef?",
+   "private chef at home dubai",
+   "full time private chef dubai",
+   "private chef business bay cost",
+   "female private chef business bay",
+   "private chef business bay reviews",
+   "affordable private chef business bay"
+  ],
+  "subkeywords_not_carried": [],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Private Chef Business Bay | Apartment Dining & Catering | myCHEF",
+  "meta_description": "Private chef & catering in Business Bay from AED 700pp — villa dining, events and bespoke menus with vetted chefs. Serving Dubai Canal apartment towers. Request a proposal.",
+  "h1": "Private Chef & Catering in Business Bay — Menus, Prices and What's Included"
+ },
+ "opening_paragraph": [
+  "A private chef in Business Bay costs from AED 700 per person , and myCHEF sends a vetted chef who cooks in your tower and clears away. The chef plans the menu with you first. In a Business Bay high-rise, the most memorable table is often your own — no restaurant queue, no valet, just your kitchen turned over to a professional for the night. Most people who book private dining Business Bay on this stretch of the Dubai Canal are professionals and residents hosting anything from a quiet dinner for two to a full terrace evening. Send your date and address; during our published business hours you usually hear back promptly with a chef match and an itemised proposal."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "Who books private chef and catering in Business Bay?",
+   "match_confidence": 0.74,
+   "new_heading": "How much does a private chef cost in Business Bay?",
+   "new_paragraphs": [
+    "A private chef in Business Bay starts from AED 700 per person, and everything is priced per head so you can see exactly what you are paying for. An intimate dinner for two runs nearer AED 950–1,300 per person because one chef cooks for a small table; six guests sit around AED 750–1,000; and ten or more start from AED 700. Business Bay private chef cost moves with menu ambition, service style and whether you add front-of-house staff or a tasting — a relaxed buffet costs less per head than a plated tasting menu with dedicated service. We quote itemised, not as a vague lump sum. For the full breakdown see private chef prices in Dubai and our catering price guide , or send your numbers for an exact quote."
+   ]
+  },
+  {
+   "block_on_your_page": "What is included in every Business Bay catering service?",
+   "match_confidence": 0.56,
+   "new_heading": "What's on a Business Bay private chef menu?",
+   "new_paragraphs": [
+    "Menus are bespoke and built with you, not picked from a fixed card. MyCHEF chefs cook confidently across several cuisines, and business bay catering services span:",
+    "Arabic & Mediterranean : mezze, charcoal grills, shareable feasts",
+    "Italian : handmade pasta, wood-fired mains, classic desserts",
+    "Indian & Pan-Asian: regional curries, tandoor, sushi and dim sum",
+    "Fine dining: plated tasting menus for a special evening",
+    "Every menu can be prepared fully halal , and vegetarian and vegan versions are standard on request. Gluten-free, nut-conscious and other dietary menu options may be available on request, subject to confirmation by the assigned culinary partner. Partner kitchens may handle allergens, and cross-contact cannot be completely excluded unless dedicated controls have been specifically confirmed for the booking. Guests with allergies must provide full details before confirming their event. Browse sample menus or tell us your theme and guest profile, and the chef shapes the courses around it."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "At a Glance",
+  "Canal-front corporate dining — from tower boardrooms to waterfront venues in Dubai's busiest business district.",
+  "Menus designed for Business Bay corporate and private dining",
+  "How Business Bay private chef and catering works",
+  "Why Business Bay teams and residents choose myCHEF Dubai",
+  "Popular Business Bay catering occasions",
+  "Explore Our Services",
+  "Questions About Business Bay Catering",
+  "Request a Business Bay catering proposal",
+  "Explore myCHEF Dubai",
+  "Delivery, access and parking in Business Bay",
+  "Properties We Serve in Business Bay",
+  "Also Serving Near Business Bay",
+  "Services in Business Bay",
+  "Popular Events in Business Bay"
+ ],
+ "add_block": [
+  {
+   "new_heading": "What does a private chef in Business Bay include?",
+   "new_paragraphs": [
+    "Your booking covers the whole evening, not just the cooking. A private chef Business Bay engagement includes a menu designed around your occasion and dietary needs, grocery sourcing, a vetted chef cooking on site in your own kitchen, plating and course-by-course service, and a full cleanup that leaves the apartment exactly as you found it. For larger tables we add front-of-house service staff, and for a special evening a tasting beforehand. This is the difference between a personal chef Business Bay experience and a drop-off: one professional owns the food from the first menu note to the last cleared plate. Whether you want quiet in-villa chef Business Bay service for two or a home chef Business Bay running a family celebration, one point of contact handles everything, and you not chase three suppliers on the night."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'At a Glance'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Private chefs for dinner parties, corporate events and celebrations",
+   "new_paragraphs": [
+    "The same kitchen adapts to the occasion. For a Business Bay dinner party catering evening, your chef builds a relaxed multi-course menu you can host without leaving the table. For business bay event catering and corporate client entertaining — boardroom dinners, product toasts, team milestones — the team manages timing, dietary lists and discretion in equal measure, which matters in a district built on offices. For Business Bay party catering, from a birthday to a rooftop gathering, shareable stations and canapés keep guests grazing and talking instead of queuing. Villa and penthouse hosts along the Canal often book business bay villa catering for engagements and anniversaries. Whatever the format, a professional chef for hire Business Bay is matched to the brief, and larger programmes can draw on our wider event catering and corporate teams."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'At a Glance'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning private chef business bay step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your private chef business bay proposal arrives.",
+    "Book private chef business bay about 2 weeks ahead off-peak, and 6 weeks ahead between November and March.",
+    "Confirm what goes on the private chef business bay menu 7 days out, once the count settles.",
+    "Ask for special diets up front; private chef business bay plates are planned, not improvised inside 48 hours .",
+    "Check loading and access details; allow 2 hours of private chef business bay setup on site.",
+    "Plan on roughly 3 hours of private chef business bay service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": "Also Serving Near Business Bay",
+   "position": "after the block titled 'Also Serving Near Business Bay'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which private chef business bay format suits your event?",
+   "new_paragraphs": [
+    "Format Service staff Guests it suits Indicative cost",
+    "Drop-off None Any size, informal Most economical",
+    "Buffet 1–2 20–60 From AED 700 per person",
+    "Live stations 2–4 40 and above From AED 700 per person",
+    "Plated service 3 and above 8–40 seated Highest per head"
+   ],
+   "insert_after_block": "Also Serving Near Business Bay",
+   "position": "after the block titled 'Also Serving Near Business Bay'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Common questions",
+   "new_paragraphs": [
+    "How much does a private chef cost in Business Bay?",
+    "Private dining in Business Bay starts from about AED 700–950 per person, depending on guest count, menu and service level. Larger groups come down per head; send your numbers for an exact quote.",
+    "Which parts of Business Bay do you serve?",
+    "All of Business Bay — Dubai Canal apartment towers, Executive Towers and the surrounding streets — plus nearby Dubai communities. Confirm your exact address when you enquire.",
+    "What's included?",
+    "We handle the menu, the chef, the service team, the plating and the full cleanup afterwards.",
+    "Can you cater a dinner party in a Business Bay apartment?",
+    "Yes — apartment and penthouse dinners are the most common booking here. Your chef cooks in your own kitchen, serves each course and cleans up, working cleanly and quietly in a shared tower.",
+    "Do you offer halal and dietary menus?",
+    "Yes. Every menu can be prepared fully halal, and vegetarian and vegan versions are available on request. Gluten-free, nut-conscious and other dietary menu options may be available on request, subject to confirmation by the assigned culinary partner. Partner kitchens may handle allergens, and cross-contact cannot be completely excluded unless dedicated controls have been specifically confirmed for the booking. Guests with allergies must provide full details before confirming their event.",
+    "Is there a minimum number of guests?",
+    "No fixed minimum — we cater intimate dinners for two as readily as large celebrations. Smaller tables are priced a little higher per head because one chef still cooks the full menu.",
+    "Can I request a female private chef in Business Bay?",
+    "Yes. A female chef can be requested for your booking. Tell us when you enquire and myCHEF matches you with a female chef from the partner network for your date, cuisine and service style. In a Business Bay apartment the kitchen is usually part of the living space, so hosts who want privacy at home, and anyone planning a women-only celebration, often ask for it. Raise it with your first enquiry rather than later: availability depends on the date and the cuisine, and we confirm the match before you book.",
+    "How do I book?",
+    "Share your date, guest count and address; we match a vetted chef and send an itemised proposal, usually within one business day.",
+    "Is there an affordable way to book a private chef in Business Bay?",
+    "Yes, and headcount is the biggest lever. Everything is priced per head, so a table of two carries the whole cost of one chef's evening at AED 950–1,300 per person, six guests bring it to around AED 750–1,000, and ten or more start from AED 700. Service style is the second lever: a relaxed buffet or a shared-plate menu costs less per head than a plated tasting with dedicated service staff. The cheapest version of this is not a smaller evening, then — it is a slightly bigger table with a relaxed format.",
+    "Can I book a full time private chef in Dubai?",
+    "Not as an employment placement. MyCHEF arranges bookings rather than staffing contracts, so we do not put a full time private chef on a household payroll. What we do run is the regular version of the same thing: a recurring chef on a fixed night each week, or weekly meal prep cooked and portioned for your fridge, kept with the same chef where their diary allows. For most Business Bay households that covers what a full-time chef would, without the contract.",
+    "For private chef business bay, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements ."
+   ],
+   "insert_after_block": "Also Serving Near Business Bay",
+   "position": "after the block titled 'Also Serving Near Business Bay'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Why choose myCHEF in Business Bay?",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you own the evening, we carry the work. No chef is offered for private chef business bay before clearing identity checks, a practical cooking assessment, reference verification and ongoing performance reviews — a continuous standard, not a one-time tick. We are honest about it, too: no system removes every risk, so we match each event to the best available chef for it, which is what a genuinely luxury private chef Business Bay service should mean.",
+    "For a Business Bay occasion — often corporate entertaining or a refined apartment dinner — that might be Ahmed Al-Rashid , 18+ years across Dubai, London and Paris in classical French technique. He designs each menu as a collaboration with the host, every course timed, seasoned and served to exacting standards. We have delivered corporate galas and boardroom dinners across Dubai. Client reviews are added as events are delivered — real feedback only, not fabricated — so the best private chef Business Bay for your night is chosen on merit."
+   ],
+   "insert_after_block": "Delivery, access and parking in Business Bay",
+   "position": "after the block titled 'Delivery, access and parking in Business Bay'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  }
+ ],
+ "faq": []
+}

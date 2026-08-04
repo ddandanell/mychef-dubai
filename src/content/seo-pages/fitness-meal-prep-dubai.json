@@ -1,0 +1,198 @@
+{
+ "url": "/fitness-meal-prep-dubai",
+ "keyword_strategy": {
+  "main_keyword": "fitness meal prep dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 13,
+  "subkeywords_carried": 11,
+  "coverage_percent": 85,
+  "subkeywords_carried_list": [
+   "what is the best meal plan in the uae?",
+   "what's a good meal prep for working out?",
+   "the meal plan",
+   "meal plans dubai",
+   "best meal plans dubai",
+   "fitness meal prep dubai reviews",
+   "fit prep meals",
+   "meal prep in dubai",
+   "gym meal prep dubai",
+   "gym meal plan dubai",
+   "fitness meal plan dubai"
+  ],
+  "subkeywords_not_carried": [
+   "how to lose 5kg in a month meal plan?",
+   "meal plans dubai cheap"
+  ],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Fitness Meal Prep Dubai | from AED 1,898 / week | myCHEF",
+  "meta_description": "Fitness Meal Prep in Dubai — macro-aware meals cooked fresh in your kitchen. From aed 1,898 / week, with vetted chefs and full service. Request a proposal from myCHEF.",
+  "h1": "Fitness Meal Prep Catering in Dubai — Real Prices, Menus and Timings"
+ },
+ "opening_paragraph": [
+  "Fitness meal prep catering in Dubai from myCHEF starts at AED 1,898 per week. A vetted private chef shops, cooks and portions macro-aware meals fresh in your own kitchen — high-protein, weighed and labelled to your calorie and macro targets — so you skip the Sunday batch-cook and just train and eat. Tell us your goals, the week and your address, and during our published business hours you will usually have an itemised proposal back promptly."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "Fitness Meal Prep Questions",
+   "match_confidence": 0.84,
+   "new_heading": "Fitness meal prep menu & options",
+   "new_paragraphs": [
+    "Your fitness meal prep menu in Dubai is built around your macros first and your tastes second, so nothing on the plan works against your goal. Core proteins run from grilled chicken breast, lean beef and turkey to salmon, white fish, eggs and plant proteins for vegetarian plans. Carbohydrate bases — basmati and brown rice, quinoa, sweet potato, sourdough — are portioned to your training day, higher around sessions and leaner on rest days. Vegetables and healthy fats round every box out. The menu rotates so week three does not taste like week one, and it flexes for keto, high-protein, low-carb or calorie-deficit phases. Explore adjacent plans like keto catering or wellness meal prep if your goal shifts, and browse the wider meal prep range for family and household formats."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "Eat for the Body You Are Building",
+  "Precision Without Compromise",
+  "Match Meals to Your Goal",
+  "Start Training With Your Food",
+  "Explore myCHEF Dubai"
+ ],
+ "add_block": [
+  {
+   "new_heading": "What fitness meal prep catering includes",
+   "new_paragraphs": [
+    "Fitness meal prep catering is a chef-run service that plans, cooks and portions a week of goal-aligned meals for you. It is a rolling service, not a one-off dinner. Every plan starts with your numbers: target calories, protein floor, and any cut, maintain or lean-bulk phase you are in. From there the chef builds a rotating menu, sources fresh produce and lean proteins, then cooks and vacuum-labels each portion with its weight and macros. A single weekly cycle typically covers lunches and dinners across the week, with breakfasts and snacks added on request. Because a professional caterer handles sourcing, cooking, portioning and the kitchen clean-down, the fitness meal prep catering services you receive stay consistent week to week — the same protein targets, the same portion discipline, no drift. It suits busy professionals, athletes in a training block, and households that want restaurant-grade cooking kept honest to a plan."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Eat for the Body You Are Building'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Fitness meal prep catering for corporate teams, events and parties",
+   "new_paragraphs": [
+    "The same service scales cleanly from one person to a group, which is why we run corporate fitness meal prep catering as well as home plans. For offices, partners prep macro-labelled lunches for the week so a team training together eats to the same standard without a food run. For active households and small gatherings, fitness meal prep party catering means guests get grilled proteins, grain bowls and lean sides that fit a plan instead of blowing it. Fitness meal prep catering for events — a wellness retreat, a bootcamp weekend, a pre-competition camp — is quoted per head with the same portioning discipline. Whether it is a private plan for two or fitness meal prep food catering for a full team, a named chef owns the sourcing, cooking and setup, and the macros stay the point."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Eat for the Body You Are Building'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How macros, allergies and dietary needs are handled",
+   "new_paragraphs": [
+    "Every plan is macro-first, and the chef adjusts it around your real diet, not a generic template. Share your targets and any restrictions up front — nut-free, dairy-free, gluten-free, halal, pescatarian — and the menu is built to hit protein and calories while respecting them. Portions are weighed and labelled so you can log intake accurately, and the chef can hold to a set gram target per protein and carb source across the week. If you are cutting, we tighten calories without dropping protein; if you are in a lean-bulk, we add clean carbs around training. Prep, cooking and storage follow Dubai food-safety standards, Meals are cooked fresh and chilled, not frozen, so texture and nutrition hold. Adjustments between weeks take one message. A quick note before the next cycle re-tunes the plan."
+   ],
+   "insert_after_block": "Fitness Meal Prep Questions",
+   "position": "after the block titled 'Fitness Meal Prep Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How much does fitness meal prep catering in Dubai cost?",
+   "new_paragraphs": [
+    "Fitness meal prep catering in Dubai starts from AED 1,898 per week for a single-person weekly plan, with larger or multi-meal plans around AED 2,698 per week. The final fitness meal prep catering cost depends on meals per day, number of portions, protein choices and service level. The fairest number comes from an itemised quote, not a flat rate. Fitness meal prep catering prices cover menu design, the chef, sourcing, cooking, portioning, setup and clean-down — there is no separate delivery-box mark-up. Fitness meal prep catering packages are weekly cycles you can pause or scale. The plans stay affordable next to daily restaurant or ready-meal ordering, while the quality reads as a genuinely luxury service. For the full picture, see our private chef prices and the Dubai catering price guide , or request a quote."
+   ],
+   "insert_after_block": "Fitness Meal Prep Questions",
+   "position": "after the block titled 'Fitness Meal Prep Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How to hire fitness meal prep catering & how it works",
+   "new_paragraphs": [
+    "To hire fitness meal prep catering, send us three things — your goals and macros, the week you want covered, and your Dubai address — and we handle the rest. As the team coordinating your booking, we match a vetted chef to your plan, agree the menu and portioning, then run a weekly meal-prep cycle: the chef shops, cooks and labels everything fresh on prep day and leaves your kitchen clean. There is no searching for a fitness meal prep caterer near me and vetting them yourself; the vetting is already done. You confirm the plan, we send an itemised proposal, and the first cycle can usually start within a few days. You can pause a week, scale up for a training block, or adjust as your goal changes. Still weighing a chef plan against event catering? Compare private chef vs catering ."
+   ],
+   "insert_after_block": "Fitness Meal Prep Questions",
+   "position": "after the block titled 'Fitness Meal Prep Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Why myCHEF",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you own the evening, we carry the work. Chefs reach fitness meal prep only after identity checks, a practical cooking assessment, reference verification and ongoing performance reviews — a continuous standard, not a one-time tick. We are honest about it, too: no system removes every risk, so we match each plan to the chef most suited to it. That match is what makes for the best fitness meal prep catering, not a generic delivery box.",
+    "For a macro-driven plan like this, that might be Ahmed Al-Rashid , who brings 18+ years across Dubai, London and Paris in classical French technique — precise weighing, clean cooking and consistent seasoning are exactly the skills good meal prep needs. He designs each week as a collaboration with you, every portion measured and labelled. We have delivered villa weddings, yacht celebrations and corporate wellness programmes across Dubai. Client reviews are added as plans are delivered — real feedback only."
+   ],
+   "insert_after_block": "Fitness Meal Prep Questions",
+   "position": "after the block titled 'Fitness Meal Prep Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Fitness meal prep catering across Dubai",
+   "new_paragraphs": [
+    "We run fitness meal prep home catering across the whole city, so a fitness meal prep caterer near me is wherever your kitchen is. A private fitness meal prep chef will cook fresh in apartments in Dubai Marina, JBR and Business Bay, and in villas across Palm Jumeirah, Emirates Hills, Jumeirah, Arabian Ranches and Dubai Hills. Because the chef works from your kitchen, there is no cold-chain delivery gap — meals are cooked and labelled on site. Wherever you train, the same vetted-chef standard and macro discipline apply."
+   ],
+   "insert_after_block": "Fitness Meal Prep Questions",
+   "position": "after the block titled 'Fitness Meal Prep Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning fitness meal prep step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your fitness meal prep proposal arrives.",
+    "Book fitness meal prep about 2 weeks ahead off-peak, and 6 weeks ahead between November and March.",
+    "Confirm your fitness meal prep menu about 7 days out, when the guest list is firm.",
+    "Ask early about allergies and dietary plates — not in the last 48 hours before fitness meal prep.",
+    "Check the access route before fitness meal prep day — setup starts roughly 2 hours ahead.",
+    "Plan on roughly 3 hours of fitness meal prep service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": "Fitness Meal Prep Questions",
+   "position": "after the block titled 'Fitness Meal Prep Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which fitness meal prep format suits your event?",
+   "new_paragraphs": [
+    "Format Service staff Guests it suits Indicative cost",
+    "Drop-off None Any size, informal Most economical",
+    "Buffet 1–2 20–60 From AED 700 per person",
+    "Live stations 2–4 40 and above From AED 700 per person",
+    "Plated service 3 and above 8–40 seated Highest per head"
+   ],
+   "insert_after_block": "Fitness Meal Prep Questions",
+   "position": "after the block titled 'Fitness Meal Prep Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Gym meal prep: cooking to a plan you already follow",
+   "new_paragraphs": [
+    "A gym meal plan in Dubai is a set of numbers before it is a menu. If you train to a programme, your coach has already set protein, carbohydrate and fat per day, and the job of a gym meal prep service is to hit those numbers with food you will actually eat on day five. Your chef cooks to the macros you provide, portions each meal and labels it; myCHEF does not write the programme.",
+    "What's a good meal prep for working out? In practice: protein portioned by weight rather than by eye, carbohydrates kept separate so they can be moved between training and rest days, and sauces bagged apart so a portion can be adjusted without recooking it. Macro information is provided with the meals where the partner's procedures support it, which is the part most people miss when they batch-cook for themselves.",
+    "There is no single best meal plan in the UAE, and any service claiming one is selling a template. A plan that works around a 6am gym slot in JLT looks nothing like one built around shift work or a household eating together at eight. Bring the numbers and the schedule, and the week is built around both."
+   ],
+   "insert_after_block": "Fitness Meal Prep Questions",
+   "position": "after the block titled 'Fitness Meal Prep Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Common questions",
+   "new_paragraphs": [
+    "How much does fitness meal prep catering cost in Dubai?",
+    "It starts from AED 1,898 per week for a single-person plan, and around AED 2,698 per week for larger or multi-meal plans. The exact cost depends on meals per day, people and protein choices — send your details for an itemised quote.",
+    "What is included in a fitness meal prep plan?",
+    "Included is menu design to your macros, a vetted private chef, fresh sourcing, cooking, weighed and labelled portions, setup and kitchen clean-down. There is no separate delivery mark-up.",
+    "Can the menu match my specific macros and diet?",
+    "Yes — the menu is macro-first. Share your calorie and protein targets plus any restrictions (halal, nut-free, dairy-free, gluten-free, keto), and the chef builds and weighs the plan around them.",
+    "Do you offer corporate fitness meal prep catering?",
+    "Yes. Partners prep macro-labelled meals for teams and offices, and quote fitness meal prep catering for events like retreats and training camps per head, with the same portioning standard as home plans.",
+    "Are the meals fresh or frozen?",
+    "Fresh. A chef cooks in your own kitchen on prep day and chills the portions, so texture and nutrition hold better than with frozen delivery boxes.",
+    "How do I hire and how fast can it start?",
+    "Send your goals, the week and your address; we match a chef and send an itemised proposal, usually within one business day, and the first weekly cycle can typically begin within a few days.",
+    "For fitness meal prep, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements .",
+    "Can you cook to a gym meal plan?",
+    "Yes. Send the macro targets from your coach or dietitian and your chef cooks to them, portioned and labelled per meal. myCHEF does not write the plan or set the targets."
+   ],
+   "insert_after_block": "Fitness Meal Prep Questions",
+   "position": "after the block titled 'Fitness Meal Prep Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "More on fitness meal prep dubai",
+   "new_paragraphs": [
+    "Corporate meal prep catering dubai",
+    "Get an itemised quote",
+    "Weekly meal prep"
+   ],
+   "insert_after_block": "Fitness Meal Prep Questions",
+   "position": "after the block titled 'Fitness Meal Prep Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  }
+ ],
+ "faq": []
+}

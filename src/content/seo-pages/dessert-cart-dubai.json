@@ -1,0 +1,277 @@
+{
+ "url": "/dessert-cart-dubai",
+ "keyword_strategy": {
+  "main_keyword": "dessert cart catering dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 7,
+  "subkeywords_carried": 7,
+  "coverage_percent": 100,
+  "subkeywords_carried_list": [
+   "event coffee cart",
+   "coffee cart in dubai",
+   "specialty coffee catering",
+   "coffee cart catering for events",
+   "dessert cart catering dubai menu",
+   "dessert cart catering dubai price",
+   "dessert cart catering dubai offers"
+  ],
+  "subkeywords_not_carried": [],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Dessert Cart Catering Dubai | from AED 700 per person | myCHEF",
+  "meta_description": "Dessert Cart catering in Dubai — a styled mobile dessert cart for events. From aed 700 per person, with vetted chefs and full service. Request a proposal from myCHEF.",
+  "h1": "Dessert Cart Catering in Dubai — Prices, Formats and What You Get"
+ },
+ "opening_paragraph": [
+  "Dessert cart catering in Dubai from myCHEF starts at AED 700 per person — a styled, mobile sweet course wheeled through your event by a vetted chef who runs the whole thing. From the menu to service, setup and cleanup, the work is ours; the only thing you choose is which pastry to reach for first. Tell us your date, guest count and venue and we typically reply within 15 minutes during business hours, with an itemised proposal to follow."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "Dessert Cart Formats",
+   "match_confidence": 0.83,
+   "new_heading": "Dessert cart FAQ",
+   "new_paragraphs": [
+    "How much does dessert cart catering cost in Dubai?",
+    "It starts from AED 700 per person and is quoted by group size, menu and service level. Larger events can bring the per-person rate down; send your details for an exact, itemised quote.",
+    "What is included in a dessert cart service?",
+    "Included is the styled cart, a vetted chef, menu design, all serving equipment, on-site service where needed, and cleanup afterward. You choose the sweets; we handle everything around them.",
+    "Can the dessert cart menu be customised for dietary needs?",
+    "Yes — the dessert cart menu is built for your event, with eggless, Jain, lactose-free, gluten-free, nut-conscious, lower-sugar and fully halal options available. Tell us the restrictions before you confirm and the chef designs around them, subject to confirmation by the assigned culinary partner.",
+    "Does the dessert cart roam or stay in one place?",
+    "Both work — the cart can roam among guests for mingling crowds or hold a fixed station as a focal point. We agree the format and position with you before the event.",
+    "Is a dessert cart suitable for corporate events and weddings?",
+    "Yes. A stationed cart suits corporate launches and conferences, while a roaming cart adds a late-evening moment at weddings and parties. The same service scales to both.",
+    "How far in advance should I book a dessert cart?",
+    "Book as early as you can, especially for peak wedding and festive dates. That said, tell us your date and we will confirm availability quickly, often the same day.",
+    "How do I hire a dessert cart in Dubai?",
+    "Send your date, guest count and venue; we match a chef, send an itemised proposal within one business day, and handle everything once you approve it.",
+    "For dessert cart catering, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements ."
+   ]
+  },
+  {
+   "block_on_your_page": "What's Included in Our Dessert Cart Service",
+   "match_confidence": 0.57,
+   "new_heading": "What does a dessert cart caterer in Dubai include?",
+   "new_paragraphs": [
+    "A dessert cart caterer in Dubai brings a fully styled, self-contained sweets service to your venue — cart, chef, menu and cleanup in one package. The cart itself is the centrepiece: a wheeled trolley or fixed station dressed to match your event, stacked with cakes, tarts, petits fours, chocolate and seasonal fruit. A professional handles portioning and plating in front of guests, so the food arrives fresh instead of sitting out for hours. Standard dessert cart catering services in Dubai cover the menu design, the vetted chef, all serving equipment and linens, on-site service staff where the guest count needs them, and the tidy-up afterwards. You are not renting a prop and figuring out the rest — you are hiring a finished experience. Because everything travels with the cart, it suits homes, ballrooms, gardens and rooftops equally, and it leaves your kitchen free."
+   ]
+  },
+  {
+   "block_on_your_page": "A Taste of Our Dessert Cart Catering",
+   "match_confidence": 0.7,
+   "new_heading": "More on dessert cart catering dubai",
+   "new_paragraphs": [
+    "Where can I book dessert cart catering dubai?",
+    "We cover dessert cart catering dubai across Dubai, planned around the occasion, the guest count and the venue.",
+    "What other formats suit dessert cart catering dubai?",
+    "Give us the date and numbers and we will match the dessert cart catering dubai format to them.",
+    "Request your proposal or chat on WhatsApp ."
+   ]
+  },
+  {
+   "block_on_your_page": "Dessert Cart Questions",
+   "match_confidence": 0.81,
+   "new_heading": "Dessert cart menu & options",
+   "new_paragraphs": [
+    "The dessert cart menu in Dubai is built around your event, not pulled from a fixed list. A typical spread mixes plated and hand-held items: layered cakes and cheesecakes cut to order, French pastries and éclairs, macarons, chocolate truffles, fruit tartlets, Arabic sweets such as kunafa and baklava, and seasonal fresh fruit. Live finishing — torched meringues, warm chocolate poured to order, or a soft-serve nod — turns the cart into a small piece of theatre. Every menu is adjusted for dietary needs: eggless and Jain sets, gluten-free and nut-conscious options, lower-sugar choices for health-conscious guests, and fully halal sourcing as standard. If you are matching a theme or colour palette, we style the sweets and the cart to it. Tell us how many guests, the mood and any restrictions, and the chef designs a menu — and the right dessert cart catering packages in Dubai — around it."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "Sweet Moments, Served with Style",
+  "A Crowd-Pleasing Finale for Any Event",
+  "Sweeten Your Next Event",
+  "Explore myCHEF Dubai"
+ ],
+ "add_block": [
+  {
+   "new_heading": "Dessert carts for weddings, corporate events and parties",
+   "new_paragraphs": [
+    "A dessert cart works for almost any gathering because it scales from an intimate home dinner to a full corporate reception without changing its character. At weddings it becomes a late-evening moment — a roaming cart of macarons and mini-cakes that reaches guests on the dance floor when the plated dinner is long finished. For corporate dessert cart catering in Dubai, a stationed cart in the lobby of a conference or product launch gives delegates a branded, photogenic break without pulling anyone into a sit-down course. At birthdays, engagements and dessert cart party catering in Dubai, it is the centrepiece children and adults both gravitate toward. We also handle dessert cart catering for events with mixed needs — a villa wedding one weekend, an office celebration the next. Whatever the occasion, the format stays flexible: roaming for mingling crowds, stationed where you want a fixed focal point."
+   ],
+   "insert_after_block": "What's Included in Our Dessert Cart Service",
+   "position": "after the block titled 'What's Included in Our Dessert Cart Service'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "The dessert cart menu, section by section",
+   "new_paragraphs": [
+    "Here is the menu the cart is built from, in the order a Dubai event tends to eat it. The display table goes out first. Passed miniatures move through the room during the speeches. The live counters and carts carry the last hour. Nothing below is a placeholder. Pick the sections you want and how many items from each. A small home dinner usually takes two sections. A wedding takes five or six plus a cart.",
+    "Arabic and Levantine sweets: the display table",
+    "This is what most Dubai events build the cart around. Naming it properly matters, because “Arabic sweets” tells a guest nothing about what they are reaching for.",
+    "Kunafa and othmalieh: Cheese Kounafah · Cheese Othmalieh · Kashta Othmalieh · Kounaffa Nabulsia · Kunafa Borma.",
+    "Ashta and cream sweets: Halawet El Jibn · Znoud El Sit · Mafrouke · Mixed Kashta · Aish el Saraya · Warbat · Balah el Sham · Halawet El Riz.",
+    "Maamoul and baklawa: Maamoul bil Ashta · Mixed Maamoul · Mixed Baklawa · Karabeej with Natef.",
+    "The sweet-shop tray: Ward El Sham · Rolled Hallawa · Halabieh · Hallab Stars.",
+    "Spoon desserts: Mohalabiah · rice pudding · dates with Arabic coffee.",
+    "Hot from the chafing dish: Oum Ali, sent out warm. It is the one Arabic dessert that sitting still ruins.",
+    "Emirati sweets and fuala service",
+    "Served as a majlis-styled corner, not a buffet line. That is how it is eaten at home, and it photographs well at a national-day or Ramadan event.",
+    "Luqaimat with date syrup or honey · Regag · Chebab · Balaleet.",
+    "Khameer bread with date syrup, cheese or honey.",
+    "Fuala selection: dates, nuts, seasonal fruits and Emirati sweets.",
+    "Arabic coffee (gahwa), poured to order alongside the dates.",
+    "Indian mithai and fusion sweets",
+    "Traditional sweets, plus the modern crossovers that have become their own category in Dubai. Portioning runs at roughly one and a half to two pieces a guest, so the tray still looks full at the end.",
+    "Milk and syrup sweets: Gulab Jamun · Rasmalai · Jalebi · Malpua with rabri · Kheer · Phirni · Shrikhand · Kulfi.",
+    "Barfi and ladoo: Kaju Katli · Motichoor Ladoo · Besan Ladoo · Pista Badam Barfi · Soan Papdi · Peda.",
+    "Halwa and brittle: Gajrela · Chikki · Gajak.",
+    "Fusion: Jalebi Churros · Motichoor Ladoo Cheesecake · Rasmalai Tres Leches · Nutella-stuffed Jalebi · Paan Kulfi · Chocolate Barfi.",
+    "International patisserie: whole cakes and tarts",
+    "Cut to order on the cart, not pre-sliced. That is the difference between a dessert and a dessert moment.",
+    "Black Forest · White Forest · Caramel Cake · Dark Chocolate · Strawberry Tarte · Cheese Cake · Tiramisu.",
+    "Apple strudel · Red Velvet cupcakes · assorted brownies.",
+    "Croquembouche, priced per piece.",
+    "A made-to-order wedding cake, standing as the cart’s centrepiece.",
+    "Mini desserts, dessert canapés and petits fours",
+    "This is the passed section. It moves through the room while the cart holds its position. It is also where a boutique menu separates itself from a volume one: composed miniatures described component by component, not “assorted mini desserts&rdquo.",
+    "Classic miniatures: Assorted Mini Cakes · Mini Cups · Macarons · Mini Danish · Mini chocolate croissants · Fresh Fruit Salad Cups.",
+    "Spoon and glass: Mini verrine · Mini mignardise · dessert shooters in mousse or tiramisu · mini cheesecakes.",
+    "Pastry and chocolate: Mini tarts & granola · Mini donuts · chocolate truffles · bite-sized brownies · cake pops · eclairs.",
+    "Dubai signatures: Mini kunafa cups · Baklava tarts · modern maamoul bites · saffron-infused macarons · rosewater pistachio cupcakes.",
+    "Black cube: tonka bean cremeux, raspberry fluid gel, buckwheat milk chocolate crispy base, lemon sponge, hibiscus glaze.",
+    "Frankincense: orange blossom cremeux, rose Chantilly, chocolate feuilletine.",
+    "Sago crackers: yoghurt gel, blueberry Chantilly, lime fluid gel, freeze-dried blueberries.",
+    "Chocolate bar: chocolate sponge, chocolate mousse, guava cremeux, coconut feuilletine, caramelised popcorn, dulcey ganache.",
+    "“Apple pie”: green apple compote, custard apple cremeux, roasted pumpkin brittle, lemon sable, lemon fluid gel.",
+    "“Lego”: bubblegum cremeux, raspberry marshmallow, berry citrus fluid gel, peanut and chocolate cracker.",
+    "Fruit and the lighter end",
+    "On the cart at every level, including the entry menu. A proportion of any Dubai guest list is not eating sugar that evening.",
+    "Fresh Fruit Salad Platter · Sliced Fruit Platter · seasonal fruit display.",
+    "Sorbet selection: rosewater lychee, mango, lemon.",
+    "Live dessert stations: hot and fried",
+    "Each of these is a single hero item with a short toppings line, worked in front of guests. They are sold as discrete stations, not as a vague “live station available&rdquo.",
+    "Cheese Kunafa live station, with the pastry lifted hot off the plate.",
+    "Halawet Al Geben live station.",
+    "Emirati Luqaimat live station, fried in small batches and drenched to order.",
+    "Live Luqaimat & Regag station.",
+    "Live jalebi station, coiled and fried a few at a time.",
+    "Live churro bar and jalebi-churro bar, with their own toppings line.",
+    "Saj station for live sweet saj bread.",
+    "Pastry frying station, where sambousek and kebbe carry the savoury early hour.",
+    "Kulfi counter, served on sticks.",
+    "Two of those turn on the venue rather than on the dessert, so ask early. Live frying — luqaimat, jalebi, churros, the pastry counter — is an open vessel of hot oil, which wants a grease-rated hood and suppression above it. That rules it out in an apartment, where Emaar’s vertical-community rules bar barbecues, grills or cooking equipment of any kind from balconies and terraces, and on a yacht, where no additional gas cylinder may be brought aboard (D-Marin Art. 53.1(a)) and loose hot oil on a moving deck is refused on its own merits. At a villa, on a beach, on a rooftop or at a desert camp it is a per-booking answer myCHEF settles with the venue before quoting. Where the fryer stays behind, the luqaimat and jalebi are fried in the licensed partner kitchen and finished at the counter with the syrup poured to order, which is the part guests actually stand and watch. The saj travels further: a gas saj follows the same cylinder rules, but an electric saj dome carries no flame and runs indoors, on a terrace or in a tower apartment off a single dedicated socket, so the sweet saj bread is still rolled and flipped in front of the room. On a boat both stay ashore, and the breads are baked in the licensed kitchen and warmed in the galley alongside the rest of the cart.",
+    "Live dessert stations: crepe, waffle and pancake",
+    "One counter, a long toppings line, and a queue that forms itself. This station suits a mixed guest list of adults and children better than anything else on the menu.",
+    "Crepe live station · waffle bar · mini pancakes · churros with chocolate dip.",
+    "Combined crepe and waffle counter, finished with fresh fruit, chocolate and premium toppings.",
+    "Dubai chocolate pistachio crepe or waffle, the item most requested by name in the city right now.",
+    "Build-your-own toppings line: fresh strawberries, banana, Nutella, pistachio, lotus, chocolate sauce, whipped cream.",
+    "The frozen carts: gelato, sorbet and Turkish ice cream",
+    "The gelato cart is the format most people picture when they search for a dessert cart. It is a genuine cart: flavours held in their own pans, cones and cups, a toppings line, scooping through the event, setup to cleanup. You choose which flavours travel.",
+    "Gelato cart flavours: Fiordilatte · Vanilla · Hazelnut · Pistachio · Almond · Espresso Coffee.",
+    "And the sweeter half: Salted Caramel Butter · Nutella · Ferrero Rocher · Tiramisu · Mango · Strawberry · Lemon.",
+    "Turkish ice cream (dondurma) cart with a performing vendor: vanilla, chocolate, pistachio, saffron, fruit-infused. The cone-pulling routine is half the reason to book it.",
+    "Soft-serve station · build-your-own sundae bar · ice cream sandwiches · ice cream milkshakes · popsicles.",
+    "Homemade sorbets and ice creams: saffron pistachio, cardamom vanilla, rosewater lychee sorbet.",
+    "Chocolate, confectionery and the fun carts",
+    "Usually bundled for children’s parties, brand activations and the late stretch of a wedding.",
+    "Chocolate fountain and fondue station with an attendant.",
+    "Fountain dippers: strawberries, bananas, pineapple, cake, marshmallows, chocolate chip cookies, pretzel rods, vanilla wafers, strawberry wafers, hazelnut wafers, sweet candies.",
+    "Cotton candy cart · popcorn machine · nachos machine · slush dispenser · candy cart.",
+    "Donut wall · macaron tower · marshmallow display · milkshake station.",
+    "Cheesecake bar, with its own toppings line.",
+    "The coffee cart, and what the dessert cart is booked with",
+    "An event coffee cart is the natural partner to the sweets. Most clients booking a coffee cart in Dubai want both counters. Specialty coffee catering here means a barista pulling shots on site, not urns of filter left to stew. Coffee cart catering for events is priced and staffed as its own counter beside the dessert cart.",
+    "Arabic coffee (gahwa) with dates · mint tea · jallab · fresh juice selection.",
+    "Full tea and coffee service through the dessert hour.",
+    "Barista-run coffee cart, positioned next to the gelato cart so guests take a scoop and an espresso in one pass.",
+    "Dietary versions, named as dishes",
+    "Dietary requirements are answered with real menu lines, not a disclaimer. A guest who cannot eat dairy still wants to be handed something good.",
+    "Vegan and plant-based: coconut-based ladoo · almond milk kheer · avocado chocolate mousse · coconut milk panna cotta · sorbets in place of dairy ice cream.",
+    "Eggless: the standard expectation at a mithai counter, and stated separately from vegan because they are different questions.",
+    "Jain: Jain besan ladoo · kaju katli · dry fruit barfi · mango shrikhand, prepared with separate utensils.",
+    "Lactose-free: lactose-free rasmalai · coconut barfi · peanut chikki.",
+    "Made without wheat flour: almond barfi · coconut ladoo · rice kheer · almond flour cookies.",
+    "Lower sugar: stevia-sweetened kaju katli · jaggery sweets in small quantities · fresh and seasonal fruit.",
+    "Halal sourcing across the whole menu, as standard for Dubai.",
+    "Gluten-free, nut-conscious and other dietary menu options may be available on request, subject to confirmation by the assigned culinary partner. Partner kitchens may handle allergens, and cross-contact cannot be completely excluded unless dedicated controls have been specifically confirmed for the booking. Guests with allergies must provide full details before confirming their event."
+   ],
+   "insert_after_block": "Dessert Cart Questions",
+   "position": "after the block titled 'Dessert Cart Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Styling, setup and logistics on the day",
+   "new_paragraphs": [
+    "Presentation is half the point of a dessert cart, so styling and logistics are planned in advance, not improvised. We confirm whether the cart roams among guests or holds a fixed station, agree its position for the clearest photos and easy traffic flow, and dress it to suit the event — florals and warm lighting for a wedding, clean branding for a corporate launch, playful colour for a birthday. On the day the chef arrives early to finish desserts on site, so cream stays firm and chocolate stays glossy in Dubai's heat, whether the cart sits indoors, poolside or in a garden. Service staff keep the cart replenished and plate to order through the event, then break down and clean the area completely afterward. Access, timing and power needs are checked ahead so setup is quiet and quick once your guests arrive."
+   ],
+   "insert_after_block": "Dessert Cart Questions",
+   "position": "after the block titled 'Dessert Cart Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How much does dessert cart catering in Dubai cost?",
+   "new_paragraphs": [
+    "Dessert cart catering in Dubai starts from AED 700 per person, and the final figure moves with your guest count, the menu and the level of live service you want. A compact home celebration with a simpler pastry selection sits near the entry price; a larger wedding or corporate reception with live finishing, extended styling and more staff costs more per head. Group size matters both ways — bigger events can lower the per-person rate, while smaller ones carry a minimum. For dessert cart catering prices in Dubai across different formats, see our prices page and the fuller catering price guide . There are no hidden extras: your quote itemises the menu, the chef, service, styling and cleanup so the dessert cart catering cost in Dubai is clear before you commit. Affordable options exist for smaller budgets, and luxury builds for flagship events — just tell us where you sit. When you are comparing dessert cart catering Dubai offers side by side, ask every supplier to itemise the same three lines — the sweets, the cart and staffing, and the setup — because that is where quotes quietly differ."
+   ],
+   "insert_after_block": "Dessert Cart Questions",
+   "position": "after the block titled 'Dessert Cart Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How to hire a dessert cart in Dubai",
+   "new_paragraphs": [
+    "To hire dessert cart catering in Dubai, send us three things — your date, guest count and venue — and we take it from there. We match a vetted chef to your event, agree the menu, styling and timing, then send an itemised proposal, usually within one business day. Once you approve it, the chef handles the baking, transport, on-site finishing, service and cleanup; you just confirm the details and enjoy the event. There is no deposit-and-guess process: everything is priced and written down first. If you are weighing a private dessert cart chef against a wider spread, or a full-service format against drop-off, we will tell you honestly what fits your numbers and budget — including when a dessert cart is not the best use of your money."
+   ],
+   "insert_after_block": "Dessert Cart Questions",
+   "position": "after the block titled 'Dessert Cart Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Why myCHEF for your dessert cart",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you own the evening, we carry the work. Vetting for dessert cart catering means identity checks, a practical cooking assessment, reference verification and ongoing performance reviews — a continuous standard, not a one-time tick. We are honest about it, too: no system removes every risk, so we match each event to the best available chef for it.",
+    "For a dessert cart, that is usually Sofia Moretti — 12+ years and Le Cordon Bleu Paris training — whose chocolate work, sugar sculptures and plated desserts are a signature of weddings, launches and dinner parties. Dessert cart catering sits alongside villa weddings, yacht celebrations and corporate galas across Dubai. Every dessert cart catering booking includes, with client reviews added as events run. Compare the approach with a wider dessert table , add coffee & tea , or weigh private chef vs catering before you decide."
+   ],
+   "insert_after_block": "Dessert Cart Questions",
+   "position": "after the block titled 'Dessert Cart Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Dessert cart catering across Dubai",
+   "new_paragraphs": [
+    "We run dessert cart catering across every part of Dubai, so a search for a dessert cart catering company near me lands on one team, not a directory. From Palm Jumeirah and Emirates Hills villas to Downtown apartments, Marina yachts, Business Bay offices and desert or beach venues, the cart and chef come to you. Home celebrations, dessert cart home catering for a quiet family occasion, and large event catering are all handled by the same vetted network and the same standard of food and service. Explore the full range of event catering to see how a dessert cart fits alongside the rest of your day. Wherever you are in the city, the proposal, pricing and chef stay consistent — one point of contact from first message to final cleanup."
+   ],
+   "insert_after_block": "Dessert Cart Questions",
+   "position": "after the block titled 'Dessert Cart Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning dessert cart catering step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your dessert cart catering proposal arrives.",
+    "Book live cooking stations and multi-staff dessert cart catering about 3–5 days ahead as guidance; weddings, corporate functions and complex productions sit nearer 7–14 days or more.",
+    "Confirm what goes on the dessert cart catering menu 7 days out, once the count settles.",
+    "Ask for special diets up front; dessert cart catering plates are planned, not improvised inside 48 hours .",
+    "Check loading and access details; allow 2 hours of dessert cart catering setup on site.",
+    "Plan on roughly 3 hours of dessert cart catering service, and add 5% VAT to the total.",
+    "We recommend booking as early as possible. Lead times depend on guest numbers, menu complexity, staffing, equipment, location and partner availability. Late dessert cart enquiries are assessed one by one against real partner availability for the date."
+   ],
+   "insert_after_block": "Dessert Cart Formats",
+   "position": "after the block titled 'Dessert Cart Formats'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which dessert cart catering format suits your event?",
+   "new_paragraphs": [
+    "Format What it gives you Staffing Cost position",
+    "Drop-off Sweets delivered ready to serve Unattended Entry point",
+    "Buffet / display table Presentation plus a maintained spread Attended and replenished From AED 700 per person",
+    "Live stations and carts Kunafa, luqaimat, crepes or gelato finished in front of your guests Chef or attendant on the counter Mid-range",
+    "Plated dessert course Every guest served together Full table service Top of the range"
+   ],
+   "insert_after_block": "Dessert Cart Formats",
+   "position": "after the block titled 'Dessert Cart Formats'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  }
+ ],
+ "faq": []
+}

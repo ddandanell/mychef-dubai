@@ -1,0 +1,262 @@
+{
+ "url": "/allergen-aware-catering-dubai",
+ "keyword_strategy": {
+  "main_keyword": "allergen-aware catering dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 4,
+  "subkeywords_carried": 4,
+  "coverage_percent": 100,
+  "subkeywords_carried_list": [
+   "what 8 foods are 90% of allergies?",
+   "can you refuse to cater for allergies?",
+   "how to cater for people with allergies?",
+   "are caterers exempt from providing allergy information?"
+  ],
+  "subkeywords_not_carried": [],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Allergen-Aware Catering Dubai | What Partner Kitchens Can and Cannot Confirm | myCHEF",
+  "meta_description": "Allergen-aware catering in Dubai from AED 700 per person. What myCHEF does when you declare an allergy, what the partner kitchen can and cannot control, and what it costs.",
+  "h1": "Allergen-Aware Catering in Dubai — What Happens When You Declare an Allergy"
+ },
+ "opening_paragraph": [
+  "myCHEF's allergen-aware catering in Dubai costs from AED 700 per person. When you declare an allergy, the requirement goes to the assigned culinary partner before your booking is confirmed. That kitchen assesses the ingredients, the preparation environment and its cross-contact controls, then confirms whether the menu can be provided. You get the answer in writing, including what the kitchen cannot control."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "Why we will not call a menu &lsquo;allergen-free&rsquo;",
+   "match_confidence": 0.87,
+   "new_heading": "Why we will not call a menu ‘allergen-free’",
+   "new_paragraphs": [
+    "Because it would be a claim this page is in no position to make. Dubai Municipality's Food Code treats a free-from statement as a guarantee that has to be backed by verified controls in the kitchen that cooks the food. A web page does not know which kitchen will cook your event, so it cannot stand behind that guarantee, and neither can a caterer who has not yet looked at your menu.",
+    "So the wording changes and the work does not. MyCHEF will not describe a menu as allergen-free unless the responsible culinary partner confirms that the required controls can be achieved for your specific booking. What you get instead of an adjective is a process you can inspect, an answer in writing, and a plain account of the limits. For a household that has spent years being reassured by people who had not checked, that is worth considerably more than a badge."
+   ]
+  },
+  {
+   "block_on_your_page": "What happens when you declare an allergy",
+   "match_confidence": 1.0,
+   "new_heading": "What happens when you declare an allergy",
+   "new_paragraphs": [
+    "The sequence matters more than any single step, because most allergy incidents at events are handover failures, not cooking failures. This is the chain, in order:",
+    "You tell us the allergen, the severity and the affected guest — at the briefing stage, with your guest count.",
+    "The requirement goes to the assigned culinary partner before the booking is confirmed, in writing, not verbally on the day.",
+    "The partner assesses the ingredients, the preparation environment and the cross-contact controls available for your date, venue and menu.",
+    "The partner confirms whether the menu can be provided as asked, and on what conditions.",
+    "You see that answer before you pay , itemised by dish, so the plan is on paper rather than in someone's memory.",
+    "If the answer is no, we say no — and tell you what would have to change for it to become yes."
+   ]
+  },
+  {
+   "block_on_your_page": "What the kitchen controls, and what it does not",
+   "match_confidence": 1.0,
+   "new_heading": "What the kitchen controls, and what it does not",
+   "new_paragraphs": [
+    "Stated plainly, because the distinction is the whole point. A partner kitchen controls what it buys, how it reads a label, which board and which utensils touch which dish, the order in which covers are plated, and how the food is labelled when it reaches a table. Those are real controls with real effect, and they are the ones a good caterer executes without being asked.",
+    "A kitchen does not control the rest of the world. Other menus are prepared in a shared partner kitchen; a customer's own home kitchen holds the family's own food; a supplier can change a product formulation without notice; another guest can carry something to the table. Cross-contact cannot be completely excluded unless dedicated controls have been specifically confirmed for the booking. Anyone selling you certainty across all of that is selling something they cannot deliver, and for a guest at risk of anaphylaxis it is a dangerous thing to buy.",
+    "Severity is the single most useful thing you can tell us, not only the allergen. A mild intolerance and an anaphylactic risk need different plans, and only one of them can be handled with menu design alone. Where the risk is severe, the right arrangement pairs the kitchen's controls with the guest carrying their own medication and knowing exactly which dish is theirs."
+   ]
+  },
+  {
+   "block_on_your_page": "How the menu is built",
+   "match_confidence": 1.0,
+   "new_heading": "How the menu is built",
+   "new_paragraphs": [
+    "The approach that works is a menu naturally without the allergen, not a substituted version of something else. Dubai guest lists routinely span nut, gluten, dairy, shellfish and egg requirements alongside halal as standard, so the menu is usually assembled from dishes that were not going to contain the trigger: grilled proteins, rice and grain dishes, mezze, roasted vegetables, fruit-led desserts. Nobody is handed the apologetic plate in the corner.",
+    "Where a substitution genuinely is needed, it is made properly with a tested alternative, not an omission. Removing the nuts from a finished salad does not undo the oil, the dressing and the board; designing a dish without them does. Our dedicated pages cover the individual diets in more depth — nut-conscious menus , gluten-free options , dairy-free options and halal — and you can browse the menus for the wider range.",
+    "Gluten-free, nut-conscious and other dietary menu options may be available on request, subject to confirmation by the assigned culinary partner. Guests with allergies must provide full details before confirming their event."
+   ]
+  },
+  {
+   "block_on_your_page": "What it costs, and why there is no allergen surcharge",
+   "match_confidence": 1.0,
+   "new_heading": "What it costs, and why there is no allergen surcharge",
+   "new_paragraphs": [
+    "Allergen-aware catering in Dubai starts from AED 700 per person, the same entry point as our other formats. Private-chef dinners at home run about AED 700 to 950 per person; tasting menus begin from around AED 1,400 per person; larger events are quoted as a total with minimums of AED 2,400 or AED 3,600 once staffing and rentals are included. Every quote carries 5% VAT.",
+    "There is no allergen line on the bill. The extra work is planning and sequencing, which sits inside the chef's time instead of in the ingredient cost, and we would far sooner you disclosed everything than rationed the disclosure to keep a quote down. What does move the number is the same thing that moves any quote: the format, the guest count and the service level. See the packages and prices for the benchmarks."
+   ]
+  },
+  {
+   "block_on_your_page": "Food safety, and who is responsible for what",
+   "match_confidence": 1.0,
+   "new_heading": "Food safety, and who is responsible for what",
+   "new_paragraphs": [
+    "UAE food safety sits under Federal Law No. 10 of 2015, per the UAE Government portal , with Dubai Municipality enforcing locally. MyCHEF designs and manages each experience; appropriately licensed culinary partners perform the regulated food services. Those partners operate to the Dubai Municipality Food Code, which sets requirements for handling, transportation and delivery vehicles and obliges food establishments to run a structured staff training system. Dubai Municipality 's Food Safety Department monitors food establishments and investigates food-borne illness, so this is enforced rather than nominal.",
+    "Delivered by licensed culinary partners across Dubai. Each partner must hold the trade licences, food-safety approvals and trained personnel applicable to the specific services it performs. MyCHEF verifies the relevant documentation during onboarding and as part of its continuing partner-review process."
+   ]
+  },
+  {
+   "block_on_your_page": "How to brief us properly",
+   "match_confidence": 1.0,
+   "new_heading": "How to brief us properly",
+   "new_paragraphs": [
+    "Send the allergen, the severity and the affected guest's name or table. Severity decides whether the partner is designing a considerate menu or standing up separate preparation and dedicated service, and those are different conversations with different answers. Add anything the guest normally does for themselves, such as carrying medication or preferring to speak to the chef directly — some people much prefer to ask their own questions instead of being quietly catered around, and that is worth knowing in advance.",
+    "You get an itemised proposal setting out which dishes were built without which allergens, and what the partner has confirmed for your booking. To arrange allergen-aware catering for a dinner, a party or a corporate event, start with catering in Dubai , a private chef or request a proposal . For the difference between the two formats, read private chef vs catering ."
+   ]
+  },
+  {
+   "block_on_your_page": "Planning an allergen-aware event step by step",
+   "match_confidence": 1.0,
+   "new_heading": "Planning an allergen-aware event step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your proposal arrives.",
+    "Book about 2 weeks ahead off-peak, and 6 weeks ahead between November and March.",
+    "Confirm the menu roughly 7 days before, once your numbers settle.",
+    "Raise dietary and allergy requirements when you enquire, not inside the final 48 hours .",
+    "Check venue access and parking; the team arrives about 2 hours before service.",
+    "Plan on roughly 3 hours of service, and add 5% VAT to the total."
+   ]
+  },
+  {
+   "block_on_your_page": "How allergen-aware catering is coordinated",
+   "match_confidence": 1.0,
+   "new_heading": "How allergen-aware catering is coordinated",
+   "new_paragraphs": [
+    "myCHEF coordinates your allergen requirements with the licensed culinary partner assigned to your booking. That means the declared allergies travel with the brief: to the kitchen that will prepare the food, to the chef on the day, and onto the service notes.",
+    "What that coordination cannot do is turn into a guarantee. Allergen-free preparation and the complete absence of cross-contact cannot be guaranteed unless the particular partner handling your booking documents appropriate controls for it. Partner kitchens handle allergens as a matter of course, and a shared kitchen is a shared kitchen whatever the intention. Where a booking genuinely needs dedicated controls — separate preparation, dedicated equipment, a documented protocol — that has to be confirmed in writing by the assigned partner for that specific event, and it is not something a catering website can promise in advance on anyone's behalf.",
+    "If a guest has an anaphylaxis-level allergy, say so at enquiry rather than at booking. It changes which partners can take the work, and sometimes the honest answer is that none of them should."
+   ]
+  },
+  {
+   "block_on_your_page": "Frequently asked questions",
+   "match_confidence": 1.0,
+   "new_heading": "Frequently asked questions",
+   "new_paragraphs": [
+    "What is allergen-aware catering?",
+    "It is catering where the allergy requirement is handled as a process instead of a promise. You declare the allergen and the severity, myCHEF sends that to the assigned culinary partner before the booking is confirmed, and the partner assesses the ingredients, the preparation environment and its cross-contact controls before confirming whether the menu can be provided. You get the answer in writing, including the parts the kitchen cannot control.",
+    "What 8 foods are behind 90% of allergies?",
+    "Internationally, 8 foods account for roughly 90% of allergic reactions: milk, eggs, fish, crustacean shellfish, tree nuts, peanuts, wheat and soy. That grouping is the US Food and Drug Administration's major-allergen list, and sesame is now treated as a major allergen in several markets too. Tell us which apply to your guests and how severe the reaction is, because severity changes the plan more than the allergen does.",
+    "Can a caterer refuse to cater for allergies?",
+    "Yes, and sometimes a caterer should. If the assigned partner kitchen cannot achieve the controls a severe allergy needs, because of the venue, the equipment or the rest of the menu, the honest answer is no. MyCHEF prefers to give you that answer before you pay, not have you discover it on the night.",
+    "How do you cater for people with allergies?",
+    "By designing the allergen out of the dish instead of removing it at the end. Lifting nuts off a finished salad does not undo the oil, the dressing or the board. The partner kitchen checks ingredient labels instead of product names, prepares affected covers on separate boards and utensils, plates them first while surfaces are clean, and labels every dish that reaches a buffet.",
+    "Are caterers exempt from providing allergy information?",
+    "No, and you should not accept a caterer that treats it as optional. Dubai Municipality's Food Code sets allergen rules for food businesses and its Food Safety Department enforces them, so providing allergy information is part of running a food operation. What no caterer can do is guarantee an environment. Ask who checks the ingredient labels, how affected covers are kept apart, and who owns the allergen list on the night.",
+    "How much does allergen-aware catering cost in Dubai?",
+    "From AED 700 per person, the same entry point as our other menus. There is no allergen surcharge, because the extra work is planning and it sits inside the chef's time. Larger events are quoted as a total against minimums of AED 2,400 or AED 3,600.",
+    "When should I tell you about allergies?",
+    "With your guest count, at the briefing stage, not in the final 48 hours. Early disclosure is what lets the requirement reach the partner kitchen before the booking is confirmed instead of being improvised during service.",
+    "Which allergies can be catered for?",
+    "Nut, gluten, dairy, egg, shellfish, soy and sesame requirements are all routine to plan for, alongside halal as standard and vegetarian or vegan menus. Whether a specific menu can be provided is confirmed by the assigned culinary partner for your booking. Tell us the severity as well as the allergen.",
+    "Can the same chef return for future events?",
+    "Yes, and for an allergy household it is worth doing. A chef who already holds your allergen brief does not have to be briefed again, which removes the commonest point of failure."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "At a Glance",
+  "Key facts",
+  "Delivered, not theorised",
+  "Frequently asked questions",
+  "Related reading",
+  "Explore myCHEF Dubai",
+  "Ready to plan your event?"
+ ],
+ "add_block": [
+  {
+   "new_heading": "Sources",
+   "new_paragraphs": [
+    "Regulatory facts on this page come from official sources: the UAE Government portal (UAE food safety under Federal Law No. 10 of 2015), Dubai Municipality (Food Code, including its treatment of free-from statements, food transportation and delivery-vehicle requirements, and mandatory food-handler training), Dubai Municipality Food Safety Department (food-establishment monitoring and food-borne illness investigation), and the UAE Ministry of Finance (5% VAT on catering, effective 1 January 2018). Confirm current requirements before you book."
+   ],
+   "insert_after_block": "Frequently asked questions",
+   "position": "after the block titled 'Frequently asked questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "From a real myCHEF event",
+   "new_paragraphs": [
+    "Your event is planned by a team that has run villa dinners, yacht celebrations and corporate galas across Dubai."
+   ],
+   "insert_after_block": "Frequently asked questions",
+   "position": "after the block titled 'Frequently asked questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Where allergen-aware menus are arranged",
+   "new_paragraphs": [
+    "Allergen-aware menus are arranged across every Dubai community, shaped by your occasion, guest count and venue — villa dinners in Jumeirah and the Ranches, apartment dinners in Downtown and Marina, corporate events across Business Bay and DIFC. Send the brief and we will tell you which format suits the room and what the assigned partner can confirm.",
+    "Get a proposal or ask on WhatsApp ."
+   ],
+   "insert_after_block": "Ready to plan your event?",
+   "position": "after the block titled 'Ready to plan your event?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which format suits your event?",
+   "new_paragraphs": [
+    "Format Service staff Guests it suits Indicative cost",
+    "Drop-off None Any size, informal Most economical",
+    "Buffet 1–2 20–60 From AED 700 per person",
+    "Live stations 2–4 40 and above From AED 700 per person",
+    "Plated service 3 and above 8–40 seated Highest per head",
+    "Plated service gives a kitchen the most control over an individual guest's cover, because every plate is built and delivered to a named seat. A buffet gives the least, which is why labelling every dish stops being a nicety and becomes the job."
+   ],
+   "insert_after_block": "Ready to plan your event?",
+   "position": "after the block titled 'Ready to plan your event?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  }
+ ],
+ "faq": [
+  {
+   "question": "What is allergen-aware catering?",
+   "answer": [
+    "It is catering where the allergy requirement is handled as a process instead of a promise. You declare the allergen and the severity, myCHEF sends that to the assigned culinary partner before the booking is confirmed, and the partner assesses the ingredients, the preparation environment and its cross-contact controls before confirming whether the menu can be provided. You get the answer in writing, including the parts the kitchen cannot control."
+   ]
+  },
+  {
+   "question": "What 8 foods are behind 90% of allergies?",
+   "answer": [
+    "Internationally, 8 foods account for roughly 90% of allergic reactions: milk, eggs, fish, crustacean shellfish, tree nuts, peanuts, wheat and soy. That grouping is the US Food and Drug Administration's major-allergen list, and sesame is now treated as a major allergen in several markets too. Tell us which apply to your guests and how severe the reaction is, because severity changes the plan more than the allergen does."
+   ]
+  },
+  {
+   "question": "Can a caterer refuse to cater for allergies?",
+   "answer": [
+    "Yes, and sometimes a caterer should. If the assigned partner kitchen cannot achieve the controls a severe allergy needs, because of the venue, the equipment or the rest of the menu, the honest answer is no. MyCHEF prefers to give you that answer before you pay, not have you discover it on the night."
+   ]
+  },
+  {
+   "question": "How do you cater for people with allergies?",
+   "answer": [
+    "By designing the allergen out of the dish instead of removing it at the end. Lifting nuts off a finished salad does not undo the oil, the dressing or the board. The partner kitchen checks ingredient labels instead of product names, prepares affected covers on separate boards and utensils, plates them first while surfaces are clean, and labels every dish that reaches a buffet."
+   ]
+  },
+  {
+   "question": "Are caterers exempt from providing allergy information?",
+   "answer": [
+    "No, and you should not accept a caterer that treats it as optional. Dubai Municipality's Food Code sets allergen rules for food businesses and its Food Safety Department enforces them, so providing allergy information is part of running a food operation. What no caterer can do is guarantee an environment. Ask who checks the ingredient labels, how affected covers are kept apart, and who owns the allergen list on the night."
+   ]
+  },
+  {
+   "question": "How much does allergen-aware catering cost in Dubai?",
+   "answer": [
+    "From AED 700 per person, the same entry point as our other menus. There is no allergen surcharge, because the extra work is planning and it sits inside the chef's time. Larger events are quoted as a total against minimums of AED 2,400 or AED 3,600."
+   ]
+  },
+  {
+   "question": "When should I tell you about allergies?",
+   "answer": [
+    "With your guest count, at the briefing stage, not in the final 48 hours. Early disclosure is what lets the requirement reach the partner kitchen before the booking is confirmed instead of being improvised during service."
+   ]
+  },
+  {
+   "question": "Which allergies can be catered for?",
+   "answer": [
+    "Nut, gluten, dairy, egg, shellfish, soy and sesame requirements are all routine to plan for, alongside halal as standard and vegetarian or vegan menus. Whether a specific menu can be provided is confirmed by the assigned culinary partner for your booking. Tell us the severity as well as the allergen."
+   ]
+  },
+  {
+   "question": "Can the same chef return for future events?",
+   "answer": [
+    "Yes, and for an allergy household it is worth doing. A chef who already holds your allergen brief does not have to be briefed again, which removes the commonest point of failure."
+   ]
+  }
+ ]
+}

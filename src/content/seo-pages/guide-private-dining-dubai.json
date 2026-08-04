@@ -1,0 +1,223 @@
+{
+ "url": "/guide/private-dining-dubai",
+ "keyword_strategy": {
+  "main_keyword": "private dining in dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 20,
+  "subkeywords_carried": 13,
+  "coverage_percent": 65,
+  "subkeywords_carried_list": [
+   "best private dining in dubai",
+   "romantic private dining dubai",
+   "private room in dubai for rent",
+   "private dinner in dubai desert",
+   "private dining dubai for couples",
+   "best private dining rooms in dubai",
+   "private dining in dubai for couples",
+   "private dining in dubai with a view",
+   "private restaurant in dubai for couples",
+   "private room in dubai",
+   "private dinner in dubai",
+   "best group dining dubai",
+   "private dining area dubai"
+  ],
+  "subkeywords_not_carried": [
+   "restaurants with private cabins in dubai",
+   "cheap private dining in dubai",
+   "affordable private dining in dubai",
+   "cheap restaurants with private cabins in dubai",
+   "dubai dining offers",
+   "private events in dubai",
+   "private room in bur dubai"
+  ],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Private Dining in Dubai: The Complete Guide | myCHEF",
+  "meta_description": "A complete guide to private dining in Dubai: formats, costs from AED 700 per person, how to plan the evening, what your kitchen needs, and how to choose a chef.",
+  "h1": "Private Dining in Dubai: The Complete Guide"
+ },
+ "opening_paragraph": [
+  "Private dining in Dubai costs about AED 700 to 950 per person. Private dining in Dubai means a vetted chef cooking a designed menu in your own kitchen, and myCHEF arranges it at about AED 700 to 950 per person for most dinners. It sits between a restaurant and home cooking: the food and service of the former, in a room you control. This guide covers the formats, the costs, what your kitchen needs to provide, and the questions worth asking before you book."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "What Private Dining Means in Dubai",
+   "match_confidence": 0.77,
+   "new_heading": "Costs: what private dining in Dubai runs",
+   "new_paragraphs": [
+    "Private dining prices in Dubai sit at about AED 700 to 950 per person for most dinners, moving toward the upper end for a table of two and down toward AED 700 for ten or more, because the chef's time spreads across more covers. Tasting menus and multi-course fine dining begin from around AED 1,400 per person. Those figures cover the chef, the ingredients, the cooking and the service.",
+    "What moves the private dining cost is course count, ingredient tier and whether a server is needed alongside the chef. Premium proteins, fresh seafood and anything requiring long preparation raise the number. Larger gatherings shift into event pricing with minimums of AED 2,400 or AED 3,600. Every quote carries 5% VAT, in force since 1 January 2018 ( UAE Ministry of Finance ). For a broader breakdown see the catering prices guide and our chef prices ."
+   ]
+  },
+  {
+   "block_on_your_page": "What Is Private Dining in Dubai?",
+   "match_confidence": 0.75,
+   "new_heading": "What private dining involves",
+   "new_paragraphs": [
+    "A chef arrives with the ingredients and the equipment they need, cooks in your kitchen, serves each course, and leaves the space clean. For most bookings that is one chef for a table of up to about ten, with a server added for larger groups or for a multi-course menu where plating and clearing overlap. The evening is built around your timing, not a restaurant's sitting.",
+    "The difference from catering is worth stating plainly. Catering scales food to a crowd; private dining concentrates attention on a small table. That changes the menu — more courses, more finish, more work per plate — and it changes the price structure, since you are paying for a chef's evening instead of for volume. It also means the food arrives at the moment it should, which is the part guests notice."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "Types of Private Dining Experiences",
+  "How to Choose a Private Chef in Dubai",
+  "What to Expect From the Process",
+  "What Affects Private Dining Pricing",
+  "Best Occasions for Private Dining",
+  "Which Service Do You Need?",
+  "Related Services & Guides",
+  "Explore myCHEF Dubai",
+  "Private Dining FAQ",
+  "Plan Your Private Dining Experience"
+ ],
+ "add_block": [
+  {
+   "new_heading": "What your kitchen needs to provide",
+   "new_paragraphs": [
+    "Less than most hosts expect, but the specifics matter. A chef needs a working hob, an oven, a clear run of counter for plating, a sink, and fridge space cleared in advance. Oven capacity is the real constraint at a seated dinner, because it caps how many mains can leave together. A chef told about your kitchen in advance will design around it; a chef who discovers it on arrival has to improvise.",
+    "A short private dining checklist for the host: clear the fridge shelf and the counter, confirm whether the hob is gas or induction, check you have enough matching plates for the course count or arrange hire, decide where guests will sit before the chef arrives, and agree a realistic start time. Guests in Dubai arrive later than the invitation suggests, so tell the chef the true arrival time and the first course will land when the table is ready."
+   ],
+   "insert_after_block": "What Private Dining Means in Dubai",
+   "position": "after the block titled 'What Private Dining Means in Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How to plan the evening",
+   "new_paragraphs": [
+    "Work back from when you want people to sit. A three-course dinner runs about two hours at the table; a six-course tasting runs closer to three. Allow drinks and canapes before, and do not schedule the first course within half an hour of the invitation time. The planning tips that make the largest difference are unglamorous: fix the guest count early, send dietary requirements with the invitation, and choose one focal course instead of trying to make every plate a centrepiece.",
+    "Season shapes the setting more than the menu. From November to March, days average around 27°C and nights fall to about 19°C ( Weather and Climate ), so a terrace or garden table works comfortably and those dates fill early. Between May and September, plan indoors. For 2026 dates around the festive period, Ramadan and New Year, book further ahead than you think you need to."
+   ],
+   "insert_after_block": "What Private Dining Means in Dubai",
+   "position": "after the block titled 'What Private Dining Means in Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Choosing a chef, and food safety",
+   "new_paragraphs": [
+    "Two questions separate providers. First, food safety: licensed operators work to the Dubai Municipality Food Code, which covers food transportation and delivery vehicles alongside handling, and requires structured staff training. Dubai Municipality 's Food Safety Department monitors food establishments and investigates food-borne illness, so this is enforced in practice. Ask how ingredients travel to your home and how they are held before service.",
+    "Second, who is cooking. Before a chef is offered for private dining in, they clear identity checks, a practical cooking assessment, reference verification and reviews from previous clients. Palm Jumeirah , Downtown Dubai , Dubai Marina and Emirates Hills . To book, see a private chef , the chef's table or tasting menus ."
+   ],
+   "insert_after_block": "What Private Dining Means in Dubai",
+   "position": "after the block titled 'What Private Dining Means in Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Private dining rooms, or a chef where you already are?",
+   "new_paragraphs": [
+    "Searches for the best private dining rooms in Dubai and for the best private dining in Dubai usually end in the same decision: hire a room inside a restaurant, or have a chef cook in the space you already have. A restaurant private dining area gives you a kitchen you do not manage and a minimum spend you do. A chef at your own table gives you the room for nothing and puts the whole budget into food and service.",
+    "The honest split is guest count against control. Below about twelve, a private dining room is often the simpler booking. Above it, the room's minimum spend usually costs more than bringing a kitchen to you, and you stop negotiating around a venue's service times.",
+    "Private dining for couples, and romantic private dining",
+    "Private dining in Dubai for couples is the smallest format and the one most changed by the setting: two covers, a set menu agreed in advance, and a chef who plates and then leaves you alone. For couples the practical questions are whether the kitchen can hold a plated pass and whether anyone else will be in the flat. Romantic private dining works best as a fixed menu rather than choice on the night, because choice at a table of two mostly creates hesitation. The romantic dinner catering and date night package pages carry the menus and rates.",
+    "A private dinner in the Dubai desert, and larger group dining",
+    "A private dinner in the Dubai desert is a different build again: no fixed kitchen, no mains power in most spots, and a fire and waste rule that travels with the caterer rather than the site. Solid fuel is fine in the open and not inside a tent or enclosed majlis, and ash and coals leave with the caterer. Desert dining sets out what can be cooked on site and what arrives finished.",
+    "The best group dining in Dubai, for anything above roughly twenty covers, is decided by service style rather than venue. Plated service needs staff per table and a pass to run them from; a buffet or live station needs floor space and a power point. Both work in a villa; only one usually works in an apartment."
+   ],
+   "insert_after_block": "Plan Your Private Dining Experience",
+   "position": "after the block titled 'Plan Your Private Dining Experience'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Frequently asked questions",
+   "new_paragraphs": [
+    "How much does private dining cost in Dubai?",
+    "About AED 700 to 950 per person for most dinners, moving toward the upper end for small tables and down toward AED 700 for ten guests or more. Tasting menus and fine dining begin from around AED 1,400 per person.",
+    "What is included in the price?",
+    "The chef, the ingredients, the cooking, the service and cleaning the kitchen afterwards. A server is added for larger tables or multi-course menus where plating and clearing overlap.",
+    "How many guests suit private dining?",
+    "Eight to twelve is the sweet spot for a seated multi-course dinner with one chef. Smaller works well for a chef's table; larger moves into event catering with additional staff.",
+    "What does my kitchen need?",
+    "A working hob, an oven, clear counter space for plating, a sink and cleared fridge space. Oven capacity is the main constraint, so tell the chef about your kitchen before the menu is finalised.",
+    "How far in advance should I book?",
+    "Two to three weeks off-peak. Longer for the November-to-March season, festive dates, Ramadan and New Year, which commit early. Short-notice requests are still worth sending.",
+    "Can you cater dietary requirements?",
+    "Yes. Halal is standard, and vegetarian, vegan, gluten-free, dairy-free and nut-free menus are designed in from the start when you flag them with the guest count.",
+    "How is private dining different from catering?",
+    "Catering scales food to a crowd; private dining concentrates on a small table with more courses and more finish per plate. You are paying for a chef's evening instead of for volume.",
+    "Is private dining better than a restaurant's private room?",
+    "It depends on numbers. Below about twelve guests a restaurant private room is often simpler; above that, its minimum spend usually exceeds the cost of bringing a kitchen to you, and you keep control of timings."
+   ],
+   "insert_after_block": "Plan Your Private Dining Experience",
+   "position": "after the block titled 'Plan Your Private Dining Experience'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Sources",
+   "new_paragraphs": [
+    "Facts in this guide come from official and published sources: the UAE Ministry of Finance (5% VAT, effective 1 January 2018), Dubai Municipality (Food Code, food transportation and delivery-vehicle requirements, and mandatory food-handler training), Dubai Municipality Food Safety Department (food-establishment monitoring and food-borne illness investigation), and Weather and Climate (Dubai December averages of 27°C by day and 19°C at night). Per-person ranges are myCHEF's own published pricing; confirm current figures in a written proposal.",
+    "Request a proposal or message us on WhatsApp ."
+   ],
+   "insert_after_block": "Plan Your Private Dining Experience",
+   "position": "after the block titled 'Plan Your Private Dining Experience'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Private dining formats and ideas",
+   "new_paragraphs": [
+    "The seated multi-course dinner is the standard: three to six courses for eight to twelve guests, plated and served. A chef's table puts guests at the kitchen counter to watch each course built, which suits a smaller, curious group. Family-style sharing works when the table is long and the mood relaxed. A tasting menu is the most ambitious format, usually six to eight small courses.",
+    "Other private dining ideas that work in Dubai homes: a date-night dinner for two, a milestone birthday with a dessert course built to order, a business dinner where the conversation matters more than spectacle, and a weekend brunch service for houseguests. Cuisine range is wide — Arabic, Italian, Mediterranean, Indian, Japanese and modern European are all routine. Browse the menus or the cuisines for a sense of the private dining menu options."
+   ],
+   "insert_after_block": "Private Dining FAQ",
+   "position": "after the block titled 'Private Dining FAQ'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  }
+ ],
+ "faq": [
+  {
+   "question": "How much does private dining cost in Dubai?",
+   "answer": [
+    "About AED 700 to 950 per person for most dinners, moving toward the upper end for small tables and down toward AED 700 for ten guests or more. Tasting menus and fine dining begin from around AED 1,400 per person."
+   ]
+  },
+  {
+   "question": "What is included in the price?",
+   "answer": [
+    "The chef, the ingredients, the cooking, the service and cleaning the kitchen afterwards. A server is added for larger tables or multi-course menus where plating and clearing overlap."
+   ]
+  },
+  {
+   "question": "How many guests suit private dining?",
+   "answer": [
+    "Eight to twelve is the sweet spot for a seated multi-course dinner with one chef. Smaller works well for a chef's table; larger moves into event catering with additional staff."
+   ]
+  },
+  {
+   "question": "What does my kitchen need?",
+   "answer": [
+    "A working hob, an oven, clear counter space for plating, a sink and cleared fridge space. Oven capacity is the main constraint, so tell the chef about your kitchen before the menu is finalised."
+   ]
+  },
+  {
+   "question": "How far in advance should I book?",
+   "answer": [
+    "Two to three weeks off-peak. Longer for the November-to-March season, festive dates, Ramadan and New Year, which commit early. Short-notice requests are still worth sending."
+   ]
+  },
+  {
+   "question": "Can you cater dietary requirements?",
+   "answer": [
+    "Yes. Halal is standard, and vegetarian, vegan, gluten-free, dairy-free and nut-free menus are designed in from the start when you flag them with the guest count."
+   ]
+  },
+  {
+   "question": "How is private dining different from catering?",
+   "answer": [
+    "Catering scales food to a crowd; private dining concentrates on a small table with more courses and more finish per plate. You are paying for a chef's evening instead of for volume."
+   ]
+  },
+  {
+   "question": "Is private dining better than a restaurant's private room?",
+   "answer": [
+    "It depends on numbers. Below about twelve guests a restaurant private room is often simpler; above that, its minimum spend usually exceeds the cost of bringing a kitchen to you, and you keep control of timings."
+   ]
+  }
+ ]
+}

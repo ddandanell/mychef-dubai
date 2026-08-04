@@ -1,0 +1,280 @@
+{
+ "url": "/iftar-catering-dubai",
+ "keyword_strategy": {
+  "main_keyword": "iftar catering dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 20,
+  "subkeywords_carried": 15,
+  "coverage_percent": 75,
+  "subkeywords_carried_list": [
+   "iftar home catering",
+   "corporate iftar dubai",
+   "new year catering dubai",
+   "best iftar catering dubai",
+   "ramadan catering services",
+   "iftar catering dubai price",
+   "iftar catering dubai near me",
+   "iftar buffet dubai",
+   "iftar buffet at dubai",
+   "what to eat for iftar",
+   "iftar restaurant dubai",
+   "iftar buffet bur dubai",
+   "top iftar buffet dubai",
+   "iftar buffet dubai best",
+   "best iftar buffet dubai"
+  ],
+  "subkeywords_not_carried": [
+   "iftar buffet dubai deira",
+   "hospitality catering dubai",
+   "iftar buffet dubai festival city",
+   "iftar buffet dubai 2026",
+   "iftar buffet dubai cheap"
+  ],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Iftar Catering Dubai | Menus & Prices | myCHEF",
+  "meta_description": "Iftar catering in Dubai from AED 150 per person for a buffet and AED 700 for a plated private chef — dates, laban and soups to open, vetted chefs, full service.",
+  "h1": "Iftar Catering in Dubai — Real Prices, Menus and Timings"
+ },
+ "opening_paragraph": [
+  "Iftar catering in Dubai from myCHEF starts at AED 150 per person for a full buffet and AED 700 for a plated private chef. The figure is quoted to your guest count, menu and service level. A vetted private chef plans the meal, cooks on site, serves and clears up, so you break the fast with your guests instead of with the kitchen. Share the date, the numbers and the venue, we typically reply within 15 minutes during business hours, with an itemised proposal to follow you can read at a glance."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "What Our Iftar Catering Includes",
+   "match_confidence": 0.81,
+   "new_heading": "What iftar catering in Dubai includes",
+   "new_paragraphs": [
+    "Full iftar catering services in Dubai cover the whole sunset meal end to end — menu design, cooking on site, service staff, plating, setup and cleanup — for one per-person price. When you hire iftar catering in Dubai through myCHEF, a single team owns the evening: the chef builds a menu around your taste and guest count, arrives with the ingredients and equipment, times the food to Maghrib, and leaves the kitchen as they found it. Because we work as a private iftar chef service instead of a fixed-menu factory, every booking is bespoke. That matters during Ramadan, when guests arrive hungry after a long fast and the first plate — dates, laban, a warming soup — needs to land the moment the call to prayer sounds. Whether it is an intimate family majlis or a large iftar catering company brief for hundreds, the format flexes to the room while the standard stays the same."
+   ]
+  },
+  {
+   "block_on_your_page": "Why Choose myCHEF for Ramadan",
+   "match_confidence": 0.63,
+   "new_heading": "Why myCHEF for your iftar",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you own the evening, we carry the work. Chefs and partner kitchens reach iftar catering through myCHEF's 12-stage partner verification framework — licensing, food-safety documentation, capability, experience and reference checks — which we are currently implementing across the partner base. We are honest about it, too: no system removes every risk, so we match each event to the best available chef for it.",
+    "For an iftar, that is usually Layla Hassan — 14+ years in Lebanese and Emirati kitchens running catering for prestige events. Her mezze, charcoal grills and aromatic rice are built for sharing, and she is especially sought after for Ramadan and Eid, which makes her a natural fit as your private iftar chef. Alongside iftar catering we have delivered villa weddings, yacht celebrations and corporate galas in Dubai. Real client reviews for Iftar catering are published as events happen."
+   ]
+  },
+  {
+   "block_on_your_page": "Iftar Catering Across Dubai",
+   "match_confidence": 0.7,
+   "new_heading": "How much does iftar catering cost in Dubai?",
+   "new_paragraphs": [
+    "Iftar catering in Dubai starts from AED 150 per person for a full buffet, and the final iftar catering price depends on guest count, menu and service level. A drop-off spread is the most affordable iftar catering per head, from AED 90; the AED 150 tier covers a premium buffet with live stations and extended mezze; a plated dinner cooked and served course by course by a private chef runs AED 700 to AED 950. Buffet service starts at 20 guests, every other format at 10, and the minimum order is AED 900. Larger guest counts usually lower the per-person cost. Curated catering packages bundle menu, staff and setup at set price points, which many hosts find easier than pricing each line. For a full breakdown of iftar catering cost in Dubai and what drives it, see our Dubai catering price guide , or send your numbers for an itemised quote — no guessing, no hidden extras."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "Catering for Iftar, Suhoor & Eid",
+  "Flavours of the Holy Month",
+  "Explore More from myCHEF Dubai",
+  "Plan Your Iftar with myCHEF",
+  "Explore myCHEF Dubai",
+  "Ramadan Iftar Questions",
+  "Iftar Gatherings Made Meaningful",
+  "Iftar Catering Designed for Every Gathering",
+  "How Iftar Catering Works",
+  "Iftar Catering for Every Setting"
+ ],
+ "add_block": [
+  {
+   "new_heading": "The full iftar menu, course by course",
+   "new_paragraphs": [
+    "If you are working out what to eat for iftar and want more than a category list, this is the menu our chefs build from, set out in serving order. A set menu is normally written as a choice from each section — at the entry tier five cold mezze, three hot mezze, three grills, three mains and three desserts; at the premium tier eight, five, five, four and five. A full buffet runs wider than that and adds live stations. Buffet service starts at 20 guests, every other format at 10, and the minimum order value is AED 900.",
+    "At Maghrib — the fast-breaking course",
+    "This is its own course, staged away from the buffet and standing ready before the call to prayer. Getting it right is most of the evening.",
+    "Medjool dates, a three-premium-date selection, dried apricots, figs, almonds and pistachios.",
+    "Fresh fruit cuts and an exotic fresh fruit platter.",
+    "Gahwa poured from the dallah, karak tea, laban.",
+    "Jallab, Qamar al-Din, Vimto, Rooh Afza, passion fruit sarbat, watermelon mint cooler, fresh watermelon juice, mint lemonade.",
+    "Thari Kanji — the Kerala rice-and-vermicelli porridge many Malayali households break the fast on, in place of dates.",
+    "Soups",
+    "One or two on a set menu, three or four on a large buffet. Lentil is close to compulsory.",
+    "Lentil soup · Harira · Chicken soup · Mushroom soup · Seafood soup · Chicken tom yam goong.",
+    "Cold mezze and salads",
+    "Pick five, six or eight depending on the tier. The full list is published here so you can see exactly what a tier upgrade buys instead of guessing.",
+    "Hummus · Moutabal · Baba ghanouj · Labneh with garlic · Labneh with mint · Mohamara · Shanklish · Makdous · Cheese with thyme · Assorted cheese.",
+    "Tabouleh · Quinoa tabouleh · Lentil tabouleh · Freekeh salad · Fatoush · Avocado fattoush · Rocca salad · Baby rocca and strawberry salad · Vine leaves · Hindbeh.",
+    "Beetroot salad · Beetroot moutabal · Eggplant mousakaa · Olive salad · Kale and quinoa · Greek salad · Watermelon and feta · Caprese · Caesar salad · Raw mango salad.",
+    "Shrimp cocktail · Crab salad · Pasta salad · Raitha · Chana chaat · Fruit chaat · Dahi bhalla.",
+    "Hot mezze",
+    "Three to five on most menus; the premium tier is where calamari and a seafood item appear.",
+    "Sambousik meat · Cheese sambousik · Lamb sambousek · Fatayer spinach · Fried kebbe · Kibbeh · Falafel · Spiced potato.",
+    "Fried makanek · Fried sujouk · Fried chicken liver · Chicken musakhan roll · Cheese roll · Cheese sticks · Calamari, fried or provençal.",
+    "Vegetable samosa · Chicken samosa · Punjabi samosa · Mini samosa · Spring rolls · Mix pakora · Onion pakkavada · Chicken cutlet · Unnakkaya · Irachi pathiri · Fish packets.",
+    "From the charcoal",
+    "Three grills on an entry menu, five at the top, cooked over coals, not finished in an oven.",
+    "Shish tawouk · Kafta · Chicken kafta · Arayess kafta · Makanek · Sujouk · Mixed grill.",
+    "Lamb chops · Charcoal baby chicken · Beef kofta · Chicken seekh kabab · Green chicken boti · Chicken sajji.",
+    "Grilled shrimp · Grilled fish fillet.",
+    "Main courses — Levantine, Gulf and Emirati",
+    "Three or four on a set menu, five to eight across a full buffet. The Emirati dishes are the ones guests notice, and they are cooked by chefs who cook them for a living, not by a Levantine chef improvising.",
+    "Lamb ouzi — whole or half lamb on a rice platter, or ouzi stuffed with warak enab, carved in front of guests.",
+    "Lamb saddle · Stuffed lamb · Stuffed chicken · Chicken roast with rice platter · Slow-braised lamb shoulder with pilaf and roasted almonds.",
+    "Chicken kabsah · Lamb kabseh · Mandi · Madfoon · Haneeth · Mathbi · Seafood machboos · Fish sayadieh.",
+    "Harees · Veal harees · Thareed · Madrouba · Saloona · Balaleet — the Emirati heritage line.",
+    "Jordanian mansaf · Chicken moghrabieh · Chicken mousakhan · Chicken freekeh · Lamb makloubeh with eggplant · Shawarma fatteh with tahini sauce · Chicken fatteh.",
+    "Dawood basha · Kebbe bil laban · Shakrieh · Fasoulia stew · Green pea stew · Mloukhieh — each served with rice.",
+    "Lamb tagine · Butternut squash tagine · Algerian couscous casserole · Moroccan-style braised beef brisket · Lemon chicken with zaatar yogurt · Seafood paella.",
+    "Main courses — South Asian",
+    "Not a sub-section but a parallel track. Plenty of Dubai iftars run South Asian end to end, and the naming matters: Thalassery biryani is not the same dish as a generic one.",
+    "Thalassery chicken biryani · Thalassery mutton biryani · Chicken biryani · Meat biryani · Vegetable biryani · Chicken pulao.",
+    "Malabar chicken khorma · Butter chicken · Beef karahi · Chicken shinwari · Kabab masala · Beef roast.",
+    "Haleem · Beef nihari · Der raat ki mutton nihari · Vegetable stew · Daal · Okra yakhni.",
+    "Rice, sides and breads",
+    "Oriental rice · Ghee rice · Arabic rice · Stuffed zucchini · Vegetable stew.",
+    "Assorted Arabic bread · Saj bread · Rigag · Khameer · Naan · Paratha · Coin paratha · Nice pathiri · Ney pathal · Assorted rotis.",
+    "Papad, pickle and chutney · Mint chutney.",
+    "Live stations",
+    "Stations are quoted as discrete units, not folded into the per-head buffet price, and the chef and the setup are part of the station price. Each one is written into your proposal with the capacity it is being built for, so you know what it covers before the night. One to three stations suit a mid-sized buffet; villa, majlis and Ramadan-tent events usually run more.",
+    "Full roasted lamb station with a carver, and an ouzi carving station.",
+    "Barbecue station — shish tawouk, grilled meat, kafta, arayess kafta, lamb chops.",
+    "Shawarma station — chicken, beef or Mexican, off a vertical spit.",
+    "Saj station — zaatar, cheese, meat, turkey and cheese, Nutella, baked live on the dome.",
+    "Manakish station and a falafel station fried to order.",
+    "Cheese kunafa station and a live luqaimat station , the two desserts worth watching.",
+    "Pasta station — bolognese, alfredo, arabiata, four cheese · burger station · fajita station",
+    "Gahwa and Turkish coffee station · fresh juice station",
+    "Which of those stations can run is decided by the address. The saj travels widest: an electric dome needs no fuel approval and works in a villa kitchen, on a terrace, or inside an apartment on a socket with headroom, while a gas saj stays outdoors at ground level at a villa, because the UAE Fire Code keeps LPG cylinders out of indoor spaces (11-2.2.6) and off roofs and terraces (Table 11.1). On a yacht neither the saj nor the shawarma spit comes aboard: D-Marin Art. 53.1(a) allows only the vessel's own installed gas supply, and Dubai Harbour section 7.4 prohibits operating gas cylinders on marina premises. An iftar on the water therefore runs the carving stations, a cold mezze bar and induction, with the breads baked in the licensed kitchen and the shawarma cone cooked on its skewer ashore and carved live on deck — guests get the same shaved-to-order ritual, and the fire happened two hours earlier. Charter crews run the boat's own fitted grill themselves, so the chef preps, plates and serves alongside it. For a rooftop or a desert camp, myCHEF confirms the setup with the building management or the site before quoting.",
+    "Desserts",
+    "Three at entry, five at the top, and at least one normally run live.",
+    "Luqaimat with date syrup · Cheese kunafa · Kunafa · Halawet el jebben · Katayef kashta · Qatayef with cheese or nuts · Othmalieh.",
+    "Umm Ali · Basbousa with cream · Baklava selection · Maamoul · Layali Lubnan · Arabic delight selection · Filo cheesecake parcels.",
+    "Mohalabieh · Muhallabia mousse · Riz bel halib · Custard · Crème caramel · Pineapple pudding · Tender coconut pudding.",
+    "Gulab jamun · Jalebi · Kheer · Sheer khurma · Zarda · Chocolate brownie · Assorted mini cakes · Seasonal fruit platter.",
+    "Ramadan drinks",
+    "What separates an iftar drinks list from an ordinary one is the Ramadan-specific half of it.",
+    "Jallab · Qamar al-Din · Vimto · Laban · Rooh Afza · Sulaimani with lemon and mint · Arabic coffee · Karak tea.",
+    "Fresh juices — orange, mango, strawberry, pineapple, lemon mint · Mocktails · Soft drinks · Mineral water."
+   ],
+   "insert_after_block": "Ramadan Iftar Questions",
+   "position": "after the block titled 'Ramadan Iftar Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Suhoor — a different menu, not a reheated iftar",
+   "new_paragraphs": [
+    "Suhoor runs roughly 10pm to 2am and is shaped like breakfast, not like dinner. Serving the iftar buffet again at midnight is the most common mistake in this category, so the suhoor menu is written separately.",
+    "Cold table",
+    "Labneh salad · Labneh with mint · Assorted cheese · Olive salad · Makdous · Assorted jams · Hummus · Moutabal · Mohammara · Vine leaves · Tabbouleh · Fattoush.",
+    "Hot breakfast table",
+    "Foul medammas with tomatoes, onion and tahina sauce · Hummus balila · Eggs of your choice · Fatteh with yogurt · Shakshuka with red bell pepper and tomatoes · Chicken liver · Balaleet · Chebab with date syrup · Seasonal fruits with honeyed yoghurt.",
+    "Live saj and manakeesh",
+    "Manakeesh zaatar · Manakeesh cheese · Manakeesh kishek · Lahem beajine · Fatayer meat and cheese · Fatayer akkawi cheese · Fatayer zaatar and cheese · Nutella flatbread.",
+    "Sweets and drinks",
+    "Cheese kunafah · Umm Ali · Luqaimat · Arabic delight selection · Fresh juices · Karak · Tea and coffee."
+   ],
+   "insert_after_block": "Ramadan Iftar Questions",
+   "position": "after the block titled 'Ramadan Iftar Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Eid — the centrepiece menu",
+   "new_paragraphs": [
+    "Eid is built the other way round: one whole-lamb centrepiece with six to ten dishes supporting it, and the Ramadan opener replaced by a grazing table and a dessert bar for a daytime family lunch.",
+    "Whole roasted lamb ouzi, or ouzi stuffed with warak enab, carved at the table · Lamb saddle · Slow-cooked lamb.",
+    "Mezze platters · Mixed grills · Kebabs · Biryani · Arabic-Asian fusion platters · Continental sides — pasta, roasted vegetables, fresh salads.",
+    "Grazing table and dessert bar · Luqaimat · Baklava · Maamoul.",
+    "Mini sliders, wraps and finger foods for the children, which every Eid family lunch needs and most menus forget."
+   ],
+   "insert_after_block": "Ramadan Iftar Questions",
+   "position": "after the block titled 'Ramadan Iftar Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Iftar meal boxes for corporate, staff and charity",
+   "new_paragraphs": [
+    "Sealed individual boxes are a separate product from the buffet, built for staff distribution, CSR programmes and charity iftars, and delivered before Maghrib. Tiers are itemised line by line so a procurement team can compare them properly, and boxes are quoted against volume, not per head.",
+    "Basic — chicken or mutton biryani.",
+    "Standard — biryani, laban or juice, one fruit, three dates, water.",
+    "Premium — biryani, fruit, laban or juice, water, three dates.",
+    "Elite — the premium contents in branded packaging.",
+    "Royal — biryani, laban or juice, fruit, three dates, water, samosa and pakora.",
+    "Full meal box — snack or soup, veg or non-veg main, rice, fresh salad, raita, assorted rotis, papad, pickle and chutney, dessert.",
+    "Suhoor boxes , snack boxes and fruit platters for late-night distribution.",
+    "Gluten-free, nut-conscious and other dietary menu options may be available on request, subject to confirmation by the assigned culinary partner. Partner kitchens may handle allergens, and cross-contact cannot be completely excluded unless dedicated controls have been specifically confirmed for the booking. Guests with allergies must provide full details before confirming their event."
+   ],
+   "insert_after_block": "Ramadan Iftar Questions",
+   "position": "after the block titled 'Ramadan Iftar Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Iftar timing, staff and logistics",
+   "new_paragraphs": [
+    "The single thing that makes or breaks an iftar is timing to Maghrib, and that is where a professional team earns its place. Our chef and service staff arrive early, set the buffet or tables, and have the fast-breaking course — dates, water, laban, soup — ready to serve the instant the fast opens, then keep the mains flowing as guests return from prayer. We coordinate prayer timing, plan the buffet layout so the lines do not tangle, and manage the kitchen so nothing runs out at the worst moment. For larger events we bring enough staff to plate, replenish and clear without a fuss, and we build a prayer break into the running order. This is the difference between drop-off trays and true iftar catering services in Dubai: someone is watching the clock and the room so you do not have to.",
+    "Maghrib is the trigger, and it moves. Sunset in Dubai shifts by roughly a minute a day, so the serve time on the first night of Ramadan is not the serve time on the last, and we work to the published prayer timetable for your specific date instead of to a fixed hour. The running order we plan to is simple. The fast-breaking course — dates, water, laban, soup — stands ready 20 minutes before the adhan and is served the moment it sounds. The mains open 20 to 25 minutes after that, once guests are back from Maghrib prayer. Dessert, gahwa and karak run long, because that is the part of the evening nobody wants hurried. Tell us when you book whether the group prays together on site, because it changes when the buffet opens."
+   ],
+   "insert_after_block": "Ramadan Iftar Questions",
+   "position": "after the block titled 'Ramadan Iftar Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Hosting iftar at home compared with a hotel iftar buffet",
+   "new_paragraphs": [
+    "Most people searching for iftar in Dubai are choosing between two different purchases: a seat at a hotel or restaurant iftar buffet, and hosting at home. A buffet seat is priced per person, you travel to it, you eat inside a set sitting of about two hours, and the room is shared with everyone else who booked that night. Catering at home is also priced per person — from AED 150 for a full buffet — but the chef comes to you, the majlis stays yours for as long as the evening runs, and the menu is written for your family instead of for two hundred strangers.",
+    "Which one wins turns on headcount. For two or four people a hotel sitting is usually the simpler choice, and we will tell you so. From around ten or twelve guests upward a home iftar starts to make sense on both cost and comfort: no per-seat premium for the venue, elderly relatives and small children in a familiar room, prayer on your own timetable instead of between sittings, and the leftovers stay with you. Buffet service at home starts at 20 guests, every other format at 10, and the minimum order is AED 900. If you would rather the chef cooked and plated course by course than set out a buffet, that is a private-chef dinner at AED 700 to AED 950 per person."
+   ],
+   "insert_after_block": "Ramadan Iftar Questions",
+   "position": "after the block titled 'Ramadan Iftar Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How to hire iftar catering in Dubai",
+   "new_paragraphs": [
+    "Hiring iftar catering in Dubai takes three steps. First, tell us the date, the guest count and the venue — an office, a villa, a majlis — and roughly the style you want. We typically reply within 15 minutes during business hours with a menu direction and an itemised quote. Second, we refine the menu together, lock the dietary requirements and confirm the staffing and timing to Maghrib; this is also when we match your named chef. Third, on the day the team arrives early, sets up, serves and cleans up, and you enjoy the evening. Because Ramadan dates fill fast, a week is usually enough notice for a small gathering, but book earlier for large parties, corporate iftars and peak nights. Looking for iftar catering near me anywhere across the city? We cover all of Dubai."
+   ],
+   "insert_after_block": "Iftar Catering Across Dubai",
+   "position": "after the block titled 'Iftar Catering Across Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning iftar catering step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your iftar catering proposal arrives.",
+    "Book as early as you can — the whole city wants the same evening, and the date is set by the calendar, not by you.",
+    "Confirm what goes on the iftar catering menu 7 days out, once the count settles.",
+    "Ask for special diets up front; iftar catering plates are planned, not improvised inside 48 hours .",
+    "Check loading and access details; allow 2 hours of iftar catering setup on site.",
+    "Plan on roughly 3 hours of iftar catering service, and add 5% VAT to the total.",
+    "As guidance and not a promise, standard private-chef experiences suit about 48 hours' notice, standard catering packages 72 hours, live cooking stations and multi-staff events three to five days, bespoke menus and larger private events five to seven days, and weddings, corporate functions and complex productions seven to fourteen days or more.",
+    "We recommend booking as early as possible. Lead times depend on guest numbers, menu complexity, staffing, equipment, location and partner availability. Booking late for a iftar? Send the date first; whether it works depends on which partners are free."
+   ],
+   "insert_after_block": "Iftar Catering for Every Setting",
+   "position": "after the block titled 'Iftar Catering for Every Setting'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which iftar catering format suits your event?",
+   "new_paragraphs": [
+    "Format Service staff Guests it suits Indicative cost",
+    "Drop-off No staff on site 10 and above, informal From AED 90 per person",
+    "Buffet Service team on site 20 guests and above From AED 150 per person",
+    "Live stations Station chefs plus service team 40 and above From AED 150 per person",
+    "Plated service Full front-of-house team 2–40 seated AED 700–950 per person"
+   ],
+   "insert_after_block": "Iftar Catering for Every Setting",
+   "position": "after the block titled 'Iftar Catering for Every Setting'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Iftar menu & options",
+   "new_paragraphs": [
+    "An iftar menu in Dubai traditionally opens the fast gently and then builds to a full spread — and ours does the same, tailored to your guests. We start with dates, laban and soups (lentil or harees), move into a mezze table of hummus, moutabbel, fattoush, sambousek and kibbeh, then a main buffet of charcoal grills, machboos or ouzi, aromatic rice and slow-cooked stews, closing with Arabic sweets, kunafa and fresh fruit. An Arabic and international buffet is the most requested iftar food catering in Dubai format, but partners also plate, run live stations or build a lighter healthy spread. Every dish is halal, and dietary needs — vegetarian, gluten-free, nut-free — are handled without a separate, sad \"special\" tray. Treat these as starting points: your final iftar menu is written with you."
+   ],
+   "insert_after_block": "Ramadan Iftar Questions",
+   "position": "after the block titled 'Ramadan Iftar Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  }
+ ],
+ "faq": []
+}

@@ -1,0 +1,177 @@
+{
+ "url": "/chefs-table-dubai",
+ "keyword_strategy": {
+  "main_keyword": "chefs table catering dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 1,
+  "subkeywords_carried": 0,
+  "coverage_percent": 0,
+  "subkeywords_carried_list": [],
+  "subkeywords_not_carried": [
+   "chef's table restaurant dubai"
+  ],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Chefs Table Catering Dubai | from AED 700–950 per person | myCHEF",
+  "meta_description": "Chef's Table catering in Dubai — a front-row seat to a chef cooking and plating before you. From aed 700–950 per person, with vetted chefs and full service. Request a proposal from myCHEF.",
+  "h1": "Chefs Table Catering in Dubai — Prices, Formats and What You Get"
+ },
+ "opening_paragraph": [
+  "Chefs table catering in Dubai puts your guests at the pass while a chef cooks, plates and narrates every course, from AED 700 per person. Instead of food arriving from a hidden kitchen, the meal happens in front of you — a slow, theatrical dinner where the cooking is the entertainment. MyCHEF handles the whole evening, from menu design to a vetted chef, service, setup and cleanup, so your only job is to sit down and taste. Tell us your date, guest count and venue and the itemised proposal comes back, usually within one business day."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "Chef's Table Questions",
+   "match_confidence": 0.6,
+   "new_heading": "Chefs table catering FAQs",
+   "new_paragraphs": [
+    "How much does a chefs table cost in Dubai?",
+    "From AED 700–950 per person, set by guest count, the number of courses and ingredient level; set catering packages run AED 1,200 to 5,500. Send your details for an exact chefs table catering price.",
+    "What is included in chefs table catering?",
+    "Included is menu design, a vetted private chef, all cooking and service, table setup and cleanup — a complete chefs table catering service with nothing for you to arrange on the night.",
+    "How many guests does a chefs table suit?",
+    "Four to sixteen guests suits it well, where all your guests can see the chef work; larger groups are possible with the right space and an added server.",
+    "Can the chefs table menu be halal, vegetarian or allergen-aware?",
+    "Yes — halal, vegetarian and vegan courses are built into the menu from the start, and you approve every dish before the date. Gluten-free, nut-conscious and other dietary menu options may be available on request, subject to confirmation by the assigned culinary partner. Partner kitchens may handle allergens, and cross-contact cannot be completely excluded unless dedicated controls have been specifically confirmed for the booking. Guests with allergies must provide full details before confirming their event.",
+    "Do you offer affordable and luxury chefs table options?",
+    "Both — an affordable chefs table catering menu keeps to seasonal, simpler courses, while a luxury chefs table catering menu adds premium ingredients and course-by-course pairings. We quote each transparently.",
+    "Where in Dubai do you provide chefs table catering?",
+    "Across all of Dubai, including villas, apartments, offices and yachts, so you can book chefs table catering near your venue, from the Palm to Business Bay.",
+    "How do I hire a chefs table chef?",
+    "Send your date, guest count and venue to start, and we return an itemised proposal, usually within one business day, then match your private chefs table chef."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "Dinner as Performance",
+  "Choose Your Experience",
+  "Explore myCHEF Dubai",
+  "Sample Chef's Table Menus",
+  "Book Your Chef's Table Experience"
+ ],
+ "add_block": [
+  {
+   "new_heading": "What does chefs table catering in Dubai include?",
+   "new_paragraphs": [
+    "Chefs table catering in Dubai includes a bespoke tasting-style menu, a vetted private chef who cooks in front of your guests, full service, table setup and cleanup. Instead of plates appearing from a closed kitchen, the chef works at a counter or a dedicated station beside you, building each course and explaining the ingredients and technique as it happens. A myCHEF chefs table caterer brings the equipment, the mise en place and the serving team, so nothing lands on you on the night. The format suits four to sixteen guests, though larger counts work with the right space. Everything is agreed in advance — courses, pacing, dietary needs and how much theatre you want — and delivered as a single, calm, well-run evening. It is the closest thing to a restaurant chefs table you can host at home."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Dinner as Performance'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Chefs table catering for weddings, corporate events and parties",
+   "new_paragraphs": [
+    "The same format flexes from an intimate anniversary to a corporate chefs table catering dinner or a milestone party. For a wedding or an engagement, the table becomes the centrepiece: a storytelling meal for two families, not a buffet line. Corporate hosts use chefs table catering for events dubai teams remember: a board dinner, a client thank-you, or a leadership offsite where the cooking is the conversation-starter. For a birthday or a private celebration, a chefs table party catering setup turns a villa kitchen into the night's stage. Whatever the occasion, we scale the menu, the number of courses and the serving team to the guest list, and match a chef whose style fits the room — relaxed and social, or precise and formal. The result feels made for that one evening, not lifted from a catalogue."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Dinner as Performance'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What is on a chefs table menu in Dubai?",
+   "new_paragraphs": [
+    "A chefs table menu in Dubai is a multi-course tasting sequence, usually five to nine courses, built around what is in season and what your guests love. Most menus open with a run of canapés or a raw course, move through fish and a main, and finish with a plated dessert. Because this is chefs table food catering, not a fixed list, the menu is written for you. Mediterranean and modern European are popular, but Arabic, Asian and fusion tables all work beautifully. Wine or a non-alcoholic pairing can be woven in course by course. Dietary tailoring is planned in, not bolted on afterward: vegetarian, vegan and halal courses are built into the sequence, and allergen-aware menus are available on request, subject to confirmation by the assigned culinary partner. You approve every dish before the date, and the chef adjusts portion sizes and richness to the length of the evening you have planned."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Dinner as Performance'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Chefs table logistics: space, timing and setup",
+   "new_paragraphs": [
+    "A chefs table needs a little more room than an ordinary dinner — a counter, island or setup table the chef can cook and plate from within sight of your guests. Most Dubai villas, apartments and yacht galleys work, and we confirm power, water and prep space when we scope the booking. The team usually arrives two to three hours before service to set up, and clears everything afterward, so your kitchen is left as it was found. A single chef covers smaller tables; larger groups add a commis and a server. Service typically runs two to three hours across the courses, paced so the conversation stays relaxed. If your venue is tight, your chef can prep off-site and finish and plate in front of guests, so you still get the show without the crowding. We plan all of this before the day so nothing is improvised."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Dinner as Performance'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How much does chefs table catering cost in Dubai?",
+   "new_paragraphs": [
+    "Chefs table catering in Dubai costs from AED 700–950 per person, with the exact chefs table catering cost set by guest count, the number of courses, ingredient level and whether you add pairings or extra service staff. Fewer guests and rare ingredients — a caviar course, premium cuts, live seafood — sit at the top of that range; larger, simpler tables sit lower. MyCHEF also runs set-price catering packages (AED 1,200 / 2,400 / 3,600 / 4,500 / 5,500) and a dedicated tasting-menu experience at AED 1,400 if you prefer a fixed chefs table catering price to a per-head quote. We itemise everything — chef, ingredients, service, setup — so there are no surprises. Compare options on our private chef prices page and the full Dubai catering price guide , then ask for a quote built to your evening."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Dinner as Performance'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How to hire chefs table catering in Dubai",
+   "new_paragraphs": [
+    "To hire chefs table catering, send your date, guest count and venue, and we return an itemised proposal — usually within one business day. From there it runs in four steps. First, we learn the brief: the occasion, the mood, dietary needs and any dishes you want on or off the table. Second, we match a vetted chef and draft a menu for your approval, revising until it is right. Third, we lock the details: timing, staffing, equipment and venue access. On the day, the chef and team arrive early, set up, cook and serve course by course, then clear down. You can book chefs table catering near me anywhere across the city, from a Palm villa to a Marina apartment or a yacht offshore. Payment and a clear scope are confirmed before anyone cooks, so you know exactly what you are getting."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Dinner as Performance'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Chefs table catering across Dubai",
+   "new_paragraphs": [
+    "We arrange chefs table catering services anywhere in Dubai, from Palm Jumeirah and Emirates Hills villas to Downtown and Marina apartments, DIFC boardrooms and charter yachts off the coast. Wherever the venue, a myCHEF chefs table caterer brings the full kit and team, so the experience is the same whether you are hosting eight for a birthday or a private board dinner. If a chefs table is not the format you want, a tasting menu gives you the courses without the counter-side theatre, mystery dining keeps the menu a surprise until it lands, and the wider luxury dining experiences range covers everything in between. Still weighing it up? Our private chef vs catering guide explains which model fits which kind of evening, so you book the right one first time."
+   ],
+   "insert_after_block": "Book Your Chef's Table Experience",
+   "position": "after the block titled 'Book Your Chef's Table Experience'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning chefs table catering step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your chefs table catering proposal arrives.",
+    "Book chefs table catering about 2 weeks ahead off-peak, and 6 weeks ahead between November and March.",
+    "Confirm the chefs table catering menu roughly 7 days before, once your numbers settle.",
+    "Ask about dietary covers for chefs table catering when you enquire, not inside the final 48 hours .",
+    "Check venue access and parking for chefs table catering; the team arrives about 2 hours before service.",
+    "Plan on roughly 3 hours of chefs table catering service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": "Chef's Table Questions",
+   "position": "after the block titled 'Chef's Table Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which chefs table catering format suits your event?",
+   "new_paragraphs": [
+    "Format What it gives you Staffing Cost position",
+    "Drop-off Food delivered ready to serve None Entry point",
+    "Buffet Presentation plus a maintained spread 1–2 From AED 700 per person",
+    "Live stations Cooking in front of your guests 2–4 Mid-range",
+    "Plated Every course served together 3 and above Top of the range"
+   ],
+   "insert_after_block": "Chef's Table Questions",
+   "position": "after the block titled 'Chef's Table Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "More on chefs table dubai",
+   "new_paragraphs": [
+    "Where can I book chefs table dubai?",
+    "MyCHEF arranges chefs table dubai anywhere in Dubai, matched to your occasion, guest count and venue.",
+    "What else pairs with chefs table dubai?",
+    "Tell us the occasion and guest count and we will point you at the right chefs table dubai format.",
+    "Request your proposal or chat on WhatsApp .",
+    "All myCHEF chefs work within Dubai Municipality food-safety requirements ."
+   ],
+   "insert_after_block": "Sample Chef's Table Menus",
+   "position": "after the block titled 'Sample Chef's Table Menus'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  },
+  {
+   "new_heading": "Why book your chefs table with myCHEF?",
+   "new_paragraphs": [
+    "MyCHEF is a Dubai chefs table catering company built on vetted chefs and honest, itemised pricing — you own the evening, we carry the work. Vetting for chefs table catering means identity checks, a practical cooking assessment, reference verification and ongoing performance reviews — a continuous standard, not a one-time tick. We are straight about it: no system removes every risk, so we match each event to the right available chef for it. For a chefs table, that is often Ahmed Al-Rashid , with 18+ years across Dubai, London and Paris in classical French technique, who designs each menu as a collaboration with the host, every course timed, seasoned and plated to exacting standards. Chefs table catering sits alongside villa weddings, yacht celebrations and corporate galas across Dubai."
+   ],
+   "insert_after_block": "Book Your Chef's Table Experience",
+   "position": "after the block titled 'Book Your Chef's Table Experience'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  }
+ ],
+ "faq": []
+}

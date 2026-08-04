@@ -1,0 +1,258 @@
+{
+ "url": "/catering-cost-calculator-dubai",
+ "keyword_strategy": {
+  "main_keyword": "catering cost calculator dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 7,
+  "subkeywords_carried": 7,
+  "coverage_percent": 100,
+  "subkeywords_carried_list": [
+   "how much does catering cost in dubai?",
+   "how to calculate catering per person?",
+   "how much will it cost to feed 40 guests?",
+   "how much is the average cost of catering?",
+   "small catering cost calculator dubai",
+   "wedding catering cost calculator dubai",
+   "birthday catering cost calculator dubai"
+  ],
+  "subkeywords_not_carried": [],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Catering Cost Calculator Dubai | Estimate Your Event Cost | myCHEF",
+  "meta_description": "Catering cost calculator for Dubai. Estimate your event before you enquire: what each format costs per person and which levers move the number.",
+  "h1": "Catering Cost Calculator Dubai — Estimate Before You Enquire"
+ },
+ "opening_paragraph": [
+  "myCHEF's catering cost calculator for Dubai is a worked price table: buffet formats start from AED 90 per person, a chef cooking on site from AED 700. There is no form to fill in here. The rates below are the ones myCHEF quotes from, so you can do the arithmetic yourself in a minute — three levers set the number: the service format, the guest count and the menu tier. The worked examples further down show the multiplication carried through, and the section after that covers which lines a headline quote usually leaves out."
+ ],
+ "replace_in_block": [],
+ "leave_untouched": [
+  "Estimate Your Event",
+  "Common Pricing Questions",
+  "Ready for Your Exact Quote?",
+  "Explore myCHEF Dubai"
+ ],
+ "add_block": [
+  {
+   "new_heading": "How to calculate catering per person in three steps",
+   "new_paragraphs": [
+    "Step one, pick the format. This sets the floor before any dish is chosen. Drop-off is the entry point, buffet next, live stations in the middle, plated service the highest per head. Labour instead of food is the largest line on most quotes, and format is what decides the labour.",
+    "Step two, fix the guest count. The per-head figure falls as the count rises, because transport, setup and the chef's time spread across more covers. That is why a dinner for eight can cost more per person than a reception for eighty. Step three, choose the menu tier. Premium protein, fresh seafood and a live counter push the number up; a well-built mezze or grill menu delivers generosity for less. Multiply, then add 5% VAT."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Estimate Your Event'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What each format costs per person",
+   "new_paragraphs": [
+    "Dubai catering splits into two bands and one number cannot describe both. Volume formats — where what you are buying is the food itself, delivered or set out — start from AED 90 per person for a working or office lunch, AED 120 for a standard event buffet, and AED 150 for a premium buffet, BBQ or live-station menu. A chef cooking and serving in your kitchen is a different product: that starts at AED 700 per person, runs to AED 950 for a premium menu, and from AED 1,400 for a tasting menu with wine pairing.",
+    "Format From, per person Minimum Suits",
+    "Working / office lunch buffet AED 90 10 guests Team lunches, training days",
+    "Standard event buffet AED 120 20 guests Birthdays, house parties, receptions",
+    "Premium buffet, BBQ or live stations AED 150 20 guests Weddings, milestone events",
+    "Private chef, plated at home AED 700 no minimum headcount Dinner parties, date nights",
+    "Premium private-chef menu AED 950 no minimum headcount Fine-dining evenings",
+    "Tasting menu with wine pairing AED 1,400 no minimum headcount Milestone occasions",
+    "Set packages give fixed reference points instead of a per-head sum: a date-night dinner from AED 1,200, a family feast from AED 2,400, a birthday celebration from AED 3,600, a corporate dinner from AED 4,500 and the full experience from AED 5,500. Weekly meal prep runs from AED 1,898 or AED 2,698 per week. The minimum order across the volume formats is AED 900. Every figure here is published on our prices page and packages page , so the estimate you build and the proposal you receive use the same numbers."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Estimate Your Event'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Worked examples: what it costs to feed 40 guests",
+   "new_paragraphs": [
+    "Numbers beat adjectives, so here is the multiplication carried through. To feed 40 guests a standard event buffet: 40 × AED 120 = 4,800 dirhams, plus 5% VAT, so about 5,040 dirhams all in. The same 40 guests on a working-lunch buffet at AED 90 per person come to 3,600 dirhams before VAT; on a premium BBQ or live-station menu at AED 150 it is 6,000 dirhams. Put those 40 guests in front of a chef cooking and plating on site at AED 700 per person and you are at 28,000 dirhams before VAT. That gap is why the format, not the menu, is the first decision you make.",
+    "Smaller and larger counts use the same arithmetic. Ten guests on the working-lunch tier at AED 90 per person comes to 900 dirhams, which is also myCHEF's minimum order — the point below which a delivered service stops adding up. A birthday for 30 on the event buffet is 3,600 dirhams before VAT, or you can take the fixed Birthday Celebration package from AED 3,600 and skip the sums entirely. A wedding for 150 on the premium buffet, BBQ or live-station tier starts at 22,500 dirhams of food, before staffing, rentals and styling — on a wedding those are often the larger half of the bill, and they need 7 to 14 days of notice rather than 48 hours."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Estimate Your Event'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Does this work outside Dubai?",
+   "new_paragraphs": [
+    "Coverage is Dubai. For an address outside the emirate — Sharjah, Ajman, Abu Dhabi — send it with your enquiry and we tell you before you commit whether it can be served from the Dubai network and what the travel adds. Inside Dubai the per-head rates in the table do not move by neighbourhood: there is no Palm premium and no Marina surcharge. What changes outside the emirate is transport and the hours the team spends on the road, and that is quoted as its own line instead of being folded quietly into the menu price."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Estimate Your Event'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "The lines a headline quote leaves out",
+   "new_paragraphs": [
+    "This is where two quotes stop being comparable. Staffing is sometimes priced separately from food, which makes one headline look cheaper than an identical brief next to it. Rentals — crockery, glassware, linen, furniture — are frequently excluded for venues that have none. Delivery to an out-of-area venue can be its own line, and a temporary kitchen at a venue without one typically is.",
+    "Then the quiet ones: vendor meals for photographers and musicians, children's portions, bar coordination, waste removal where the venue requires everything to leave, and overtime if the event runs past the contracted hours. None are unreasonable; all should be visible. The practical tip is to ask two caterers to price the identical brief with identical inclusions, then compare totals instead of per-head figures."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Estimate Your Event'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Seasonality, and when to book for the best price",
+   "new_paragraphs": [
+    "Dubai's calendar splits the year. The outdoor season runs November to March, when days average around 27°C and nights fall to about 19°C ( Weather and Climate ), and those months carry weddings, galas and the conference circuit at once. Popular dates commit early, and late availability in peak season is the one thing that reliably costs you money.",
+    "Off-peak summer events held indoors are the most economical time to host, because both venues and caterers have availability. A weekday corporate event is easier to place than a Saturday. Ramadan and the festive period have their own patterns and their own menus. If your date is fixed and it falls in peak season, book early instead of negotiating later."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Estimate Your Event'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Turning an estimate into an exact quote",
+   "new_paragraphs": [
+    "An estimator gives you a range; only a brief gives you a number. Send the date, the guest count, the venue, the service format and any dietary requirements, and ask for the proposal itemised into food, staffing, rentals, delivery and VAT. Ask what happens if the guest count moves by ten either way, and when final numbers are due — usually 7 to 14 days before, and that figure is what you are charged for.",
+    "Then look past the number at who is cooking. MyCHEF's chef vetting standard is being implemented across the partner network, covering identity, licensing and reference checks before a chef is assigned to an event. Catering in Dubai is regulated under the Dubai Municipality Food Code, and compliance — cold-chain transport, trained staff, proper holding equipment — is part of what a legitimate quote pays for. For the full breakdown of how catering prices are built, read the catering prices guide and the 2026 event price guide ."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Estimate Your Event'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning catering cost calculator step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your catering cost calculator proposal arrives.",
+    "Book as early as you can — 72 hours for a standard catering package, 3 to 5 days for live stations and multi-staff events, 7 to 14 days for a wedding.",
+    "Confirm the catering cost calculator menu 7 days before the date, with final numbers.",
+    "Ask about allergies when booking catering cost calculator, well outside the final 48 hours .",
+    "Check how the team reaches the venue; catering cost calculator setup begins about 2 hours before guests.",
+    "Plan on roughly 3 hours of catering cost calculator service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Estimate Your Event'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "A short checklist before you send the brief",
+   "new_paragraphs": [
+    "Two tips that change the number more than any menu choice: settle the format first, and get your guest count as close to final as you can. Work down this checklist and the estimate above will land near the proposal. Confirm the date and whether it falls in peak season. Confirm the venue and whether it has a kitchen. Confirm the service format. Confirm the guest count and any dietary covers. Confirm whether you need rentals. Each of those is explained in the sections above, and each one moves the total.",
+    "If you are searching for catering near me and want ideas on what a given budget buys in Dubai, the catering prices guide works through it format by format, and the 2026 price guide covers event minimums."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Estimate Your Event'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Your six-step checklist",
+   "new_paragraphs": [
+    "Book ahead: 72 hours for standard packages, 7 to 14 days for weddings and complex productions; short-notice requests are assessed individually.",
+    "Pick the format first — plated, stations, buffet or drop-off — then the menu.",
+    "Ask for an itemised quote; yours lands.",
+    "Verify venue access, power and parking before you sign anything.",
+    "Confirm final numbers 7 days before, and dietary plates outside the last 48 hours .",
+    "Add 2 hours for setup, 3 hours for service and 5% VAT to your budget."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Estimate Your Event'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Frequently asked questions",
+   "new_paragraphs": [
+    "How much does catering cost per person in Dubai?",
+    "Catering in Dubai prices in two bands. Volume formats start at AED 90 per person for a working lunch, AED 120 for an event buffet and AED 150 for a premium buffet, BBQ or live stations. A chef cooking and serving on site is AED 700 to 950 per person, tasting menus from AED 1,400.",
+    "How much will it cost to feed 40 guests?",
+    "On the standard event buffet, 40 guests is 40 × AED 120 = 4,800 dirhams, or about 5,040 dirhams with 5% VAT. The same 40 on a working-lunch buffet at AED 90 is 3,600 dirhams; on a premium BBQ or live-station menu at AED 150 it is 6,000 dirhams.",
+    "How much is the average cost of catering in Dubai?",
+    "There is no single average, because the market splits by format. Published per-head prices from Dubai caterers sit roughly between 80 and 265 dirhams for corporate-lunch and event-buffet catering, and several times that for plated fine dining. MyCHEF starts at AED 90 per person.",
+    "Which format is the most economical?",
+    "Drop-off catering, then buffet. Both use far less on-site labour than live stations or plated service, and labour is the largest line on most quotes.",
+    "Why does the price per person fall as guests increase?",
+    "Fixed costs such as transport, setup and the chef's time spread across more covers. A dinner for eight can cost more per head than a reception for eighty.",
+    "Is VAT included in the estimate?",
+    "Add 5% to any figure here. UAE catering carries 5% VAT, introduced on 1 January 2018, and a clear proposal shows it as its own line.",
+    "What is usually missing from a headline quote?",
+    "Staffing when priced separately, rentals such as crockery and linen, delivery to out-of-area venues, temporary kitchens, vendor meals, waste removal and overtime beyond contracted hours.",
+    "When is the cheapest time to host in Dubai?",
+    "Off-peak summer, held indoors, when venues and caterers both have availability. Peak outdoor season runs November to March and commits early.",
+    "Do you cover Sharjah and the other emirates?",
+    "Coverage is Dubai. Send an address outside the emirate — Sharjah, Ajman, Abu Dhabi — with your enquiry and we tell you before you commit whether it can be served from the Dubai network and what the travel adds.",
+    "How accurate is an estimate before I send a brief?",
+    "Close enough to budget with, not close enough to sign. Format, guest count and menu tier get you within a sensible range; the venue and the service detail decide the rest."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Estimate Your Event'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Sources",
+   "new_paragraphs": [
+    "Figures in this calculator are myCHEF's own published rates (see the prices and packages pages). Market per-head ranges quoted in the FAQ come from myCHEF's July 2026 review of published Dubai caterer menus and price lists. Regulatory and seasonal facts come from the UAE Ministry of Finance (5% VAT, effective 1 January 2018), Dubai Municipality (Food Code and food-handler training requirements), Dubai Municipality Food Safety Department (food-establishment monitoring and food-borne illness investigation), and Weather and Climate (Dubai December averages of 27°C by day and 19°C at night).",
+    "Request your proposal or chat on WhatsApp ."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Estimate Your Event'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  }
+ ],
+ "faq": [
+  {
+   "question": "How much does catering cost per person in Dubai?",
+   "answer": [
+    "Catering in Dubai prices in two bands. Volume formats start at AED 90 per person for a working lunch, AED 120 for an event buffet and AED 150 for a premium buffet, BBQ or live stations. A chef cooking and serving on site is AED 700 to 950 per person, tasting menus from AED 1,400."
+   ]
+  },
+  {
+   "question": "How much will it cost to feed 40 guests?",
+   "answer": [
+    "On the standard event buffet, 40 guests is 40 × AED 120 = 4,800 dirhams, or about 5,040 dirhams with 5% VAT. The same 40 on a working-lunch buffet at AED 90 is 3,600 dirhams; on a premium BBQ or live-station menu at AED 150 it is 6,000 dirhams."
+   ]
+  },
+  {
+   "question": "How much is the average cost of catering in Dubai?",
+   "answer": [
+    "There is no single average, because the market splits by format. Published per-head prices from Dubai caterers sit roughly between 80 and 265 dirhams for corporate-lunch and event-buffet catering, and several times that for plated fine dining. MyCHEF starts at AED 90 per person."
+   ]
+  },
+  {
+   "question": "Which format is the most economical?",
+   "answer": [
+    "Drop-off catering, then buffet. Both use far less on-site labour than live stations or plated service, and labour is the largest line on most quotes."
+   ]
+  },
+  {
+   "question": "Why does the price per person fall as guests increase?",
+   "answer": [
+    "Fixed costs such as transport, setup and the chef's time spread across more covers. A dinner for eight can cost more per head than a reception for eighty."
+   ]
+  },
+  {
+   "question": "Is VAT included in the estimate?",
+   "answer": [
+    "Add 5% to any figure here. UAE catering carries 5% VAT, introduced on 1 January 2018, and a clear proposal shows it as its own line."
+   ]
+  },
+  {
+   "question": "What is usually missing from a headline quote?",
+   "answer": [
+    "Staffing when priced separately, rentals such as crockery and linen, delivery to out-of-area venues, temporary kitchens, vendor meals, waste removal and overtime beyond contracted hours."
+   ]
+  },
+  {
+   "question": "When is the cheapest time to host in Dubai?",
+   "answer": [
+    "Off-peak summer, held indoors, when venues and caterers both have availability. Peak outdoor season runs November to March and commits early."
+   ]
+  },
+  {
+   "question": "Do you cover Sharjah and the other emirates?",
+   "answer": [
+    "Coverage is Dubai. Send an address outside the emirate — Sharjah, Ajman, Abu Dhabi — with your enquiry and we tell you before you commit whether it can be served from the Dubai network and what the travel adds."
+   ]
+  },
+  {
+   "question": "How accurate is an estimate before I send a brief?",
+   "answer": [
+    "Close enough to budget with, not close enough to sign. Format, guest count and menu tier get you within a sensible range; the venue and the service detail decide the rest."
+   ]
+  }
+ ]
+}

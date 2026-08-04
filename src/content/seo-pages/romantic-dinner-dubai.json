@@ -1,0 +1,191 @@
+{
+ "url": "/romantic-dinner-dubai",
+ "keyword_strategy": {
+  "main_keyword": "romantic dinner catering dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 7,
+  "subkeywords_carried": 6,
+  "coverage_percent": 86,
+  "subkeywords_carried_list": [
+   "home catering dubai",
+   "buffet catering dubai",
+   "lebanese catering dubai",
+   "small party catering dubai",
+   "small party catering dubai indian",
+   "cheap romantic dinner catering dubai"
+  ],
+  "subkeywords_not_carried": [
+   "sandwich catering dubai"
+  ],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Romantic Dinner Catering Dubai | from AED 1,200 | myCHEF",
+  "meta_description": "Romantic Dinner catering in Dubai — an intimate chef-cooked dinner for two at home. From aed 1,200, with vetted chefs and full service. Request a proposal from myCHEF.",
+  "h1": "Romantic Dinner Catering in Dubai — Menus, Prices and What's Included"
+ },
+ "opening_paragraph": [
+  "Romantic dinner catering in Dubai from myCHEF costs from AED 1,200 , and a private chef cooks an intimate, multi-course dinner for two at home. A vetted chef takes the menu, the cooking, the service and the cleanup off your hands, so the whole evening stays about the person across the table — no reservation, no valet, no table next to a stranger. Tell us your date, guest count and venue, and during our published business hours your itemised proposal comes back promptly."
+ ],
+ "replace_in_block": [],
+ "leave_untouched": [
+  "The Experience",
+  "Perfect For",
+  "Create an Unforgettable Evening",
+  "Explore myCHEF Dubai",
+  "Planning Valentine's Day?"
+ ],
+ "add_block": [
+  {
+   "new_heading": "What does romantic dinner catering in Dubai include?",
+   "new_paragraphs": [
+    "Romantic dinner catering includes everything from menu design to the last plate cleared — you host, the chef works. A full romantic dinner food catering service from myCHEF covers a tasting-led menu built around the two of you, all shopping for fresh ingredients, cooking on site in your own kitchen, plated table service through the evening, and complete cleanup so you wake up to a spotless home. Candlelit styling, a set table, and optional wine or mocktail pairings are added on request. Because a private romantic dinner chef in Dubai cooks in front of you instead of delivering trays, the pacing is yours: courses arrive when you are ready, not on a caterer's clock. This is the difference between romantic dinner catering services and ordinary drop-off — the food is finished at your table, warm, and timed to the mood of the night."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'The Experience'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Romantic dinner catering for anniversaries, proposals and special occasions",
+   "new_paragraphs": [
+    "The most-booked reasons for romantic dinner catering in Dubai are anniversaries, proposals, birthdays and reconnection nights — each shaped differently by the chef. For a proposal, we quietly coordinate timing so the key course lands at the right moment; for an anniversary, the menu can revisit dishes from a first date or a honeymoon country. Romantic dinner catering for events also scales gently: a small engagement dinner, a romantic dinner party catering setup for two couples, or a milestone birthday for a partner. Companies use corporate romantic dinner catering too — an intimate reward dinner for a senior hire or a partner appreciation evening. Whatever the occasion, the format stays the same: a private chef, a bespoke menu, and full service in a setting that is entirely yours instead of a shared dining room."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'The Experience'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What is on a romantic dinner menu in Dubai?",
+   "new_paragraphs": [
+    "A romantic dinner menu in Dubai is designed course by course with you, not chosen from a fixed list. A typical evening runs three to five courses — a canapé or amuse to open, a plated starter, an optional palate course, a main, and a dessert built for two to share. Popular directions include modern French, coastal Mediterranean, contemporary seafood, and refined Arabic; a romantic dinner caterer in Dubai will also handle halal, vegetarian and pescatarian requests without treating them as an afterthought. Gluten-free options are available on request, subject to partner confirmation and an allergen review for the specific booking. You can go decadent — oysters, truffle, wagyu, a soufflé finished at the table — or keep it light and seasonal. The menu is the heart of romantic dinner home catering, so we spend real time on it: favourite ingredients, dishes to avoid, dietary needs, and the one course you want to remember."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'The Experience'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which cuisines suit a dinner for two?",
+   "new_paragraphs": [
+    "The cuisines that suit two people are the ones built on small, precise portions instead of shared platters. Modern French is the default for a reason: it is course-by-course by design, and every dish is meant to arrive hot on a single plate. Coastal Mediterranean and contemporary seafood behave the same way.",
+    "Lebanese catering in Dubai is usually sold as a mezze spread for a table of twenty, which is exactly the wrong shape for two — you end up with thirty cold dishes and no occasion. A Lebanese romantic dinner works when the chef treats mezze as a two-plate opening instead of a spread: labneh with confit garlic and warm manoushe, then fattoush or kibbeh nayyeh, before a plated main such as samke harra or lamb shank slow-cooked with freekeh. Because the chef cooks in your kitchen, the bread and the grilled courses reach the table at temperature, which is the part a delivered mezze rarely manages.",
+    "Indian is the other cuisine worth planning deliberately instead of ordering broadly. A short regional sequence — a Keralan prawn moilee, a Lucknowi galouti kebab, one dal cooked overnight — reads as a menu, where a mixed curry selection reads as a takeaway. If you are looking at small party catering in Dubai with Indian food for four to ten people, the same chef and the same menu scale up cleanly; the format moves from plated courses to a family-style centre of the table, and the price basis moves from a package to a per-person rate."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'The Experience'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Styling, setup and the room",
+   "new_paragraphs": [
+    "The room matters as much as the food, so styling is part of the service, not an add-on you chase separately. On request the chef and team arrange candlelit table styling, linen, glassware and a considered plating rhythm, and can work with a florist or your own décor. The kitchen is left cleaner than it was found. Because everything happens at home, a villa in Emirates Hills, an apartment in Downtown Dubai, a terrace on the Palm or a quiet garden all become the venue — no booking a restaurant private room, no closing time. If you want a live element, the main course can be finished tableside; if you want total privacy, the chef stays in the kitchen and the two of you have the table to yourselves. Logistics like parking, kitchen access and timings are confirmed in the proposal so nothing is improvised on the night."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'The Experience'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How much does romantic dinner catering cost in Dubai?",
+   "new_paragraphs": [
+    "Romantic dinner catering in Dubai starts from AED 1,200 for a plated dinner for two, and the final price moves with the number of courses, the ingredients and the level of service. A refined seasonal menu sits near the from-price; premium ingredients — wagyu, fresh seafood, truffle — and extras like wine pairing, extended styling or a longer tasting-style menu raise it. Romantic dinner catering prices are quoted per booking and itemised, so you see exactly what the food, the chef and the service cost before you commit, with no vague \"packages\" hiding the numbers. For the full picture of romantic dinner catering cost across formats, see our prices page and the detailed catering price guide . If you are weighing affordable romantic dinner catering against a restaurant for two, factor in the privacy, the bespoke menu and no service charge on top."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'The Experience'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How to hire romantic dinner catering in Dubai",
+   "new_paragraphs": [
+    "To hire romantic dinner catering, send three things — your date, your venue and any dietary notes — and the rest is guided. From there we match a vetted private chef to your occasion, design the menu with you, and return an itemised proposal, promptly during our published business hours. Once you approve it, we lock the chef, the shopping list and the timings; on the night the chef arrives ahead of service, cooks in your kitchen, serves each course, and clears everything before leaving. Five to seven days' notice is comfortable for menu design and chef matching, though proposal-night and anniversary dates fill fast, so earlier is safer. Short-notice requests are still worth asking about. Every booking is handled by a licensed Dubai company."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'The Experience'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Why myCHEF for romantic dinner catering",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you own the evening, we carry the work. MyCHEF is implementing a structured partner verification standard across its chef network, covering identity, trade licensing and permitted activities, food-safety and food-handler records, and references ; some stages are in place and the rest are being rolled out as part of a continuing review. We are honest about it, too: no system removes every risk, so we match each event to the most suitable available chef for it. For an intimate dinner like this, that is often Ahmed Al-Rashid — 18+ years across Dubai, London and Paris in classical French technique — who designs each menu as a collaboration with the host, every course timed, seasoned and served to exacting standards. We have run romantic dinner catering alongside villa weddings, yacht celebrations and corporate galas across Dubai. As one of the more considered romantic dinner catering companies in Dubai, we keep it honest: real chefs, real menus, and reviews added only as events are delivered, not fabricated."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'The Experience'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Romantic dinner catering across Dubai",
+   "new_paragraphs": [
+    "MyCHEF arranges romantic dinner catering near you in every part of Dubai, so location is rarely a constraint. Whether you are in Downtown Dubai, Business Bay, DIFC, Dubai Marina, JBR, Jumeirah, Palm Jumeirah, Emirates Hills, Arabian Ranches or Dubai Hills, a vetted chef and full setup come to your home. You can compare formats too: a date-night package for a relaxed evening in, a Valentine's Day dinner for the calendar occasion, or the wider world of luxury dining experiences for something more elaborate. Still deciding between a chef and a catered spread? Our guide to private chef vs catering lays out which suits an intimate dinner. Wherever you are, the evening should feel unhurried on your side and precise on ours."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'The Experience'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Romantic dinner catering FAQs",
+   "new_paragraphs": [
+    "How much does romantic dinner catering cost in Dubai?",
+    "Romantic dinner catering in Dubai starts from AED 1,200 for a plated dinner for two, then moves with the menu, the number of courses and the service level. Send your date and details for an itemised quote.",
+    "What is included in romantic dinner catering?",
+    "Included is menu design, a vetted private chef, all on-site cooking, table service through the evening, setup and full cleanup. Candlelit styling and wine or mocktail pairings are added on request.",
+    "Do you cater romantic dinners at home?",
+    "Yes — romantic dinner home catering is the most requested format. The chef cooks in your own kitchen and serves at your table, so the evening stays completely private.",
+    "Is there a romantic dinner caterer near me in Dubai?",
+    "Yes. MyCHEF arranges romantic dinner catering across every part of Dubai, from Downtown and Business Bay to Palm Jumeirah and Arabian Ranches, so there is a vetted chef near you.",
+    "Can you build a romantic dinner menu for dietary needs?",
+    "Yes. The romantic dinner menu is built around you — vegetarian, halal and pescatarian courses are all handled properly at the menu-design stage. Gluten-free, nut-conscious and other dietary menu options may be available on request, subject to confirmation by the assigned culinary partner. Partner kitchens may handle allergens, and cross-contact cannot be completely excluded unless dedicated controls have been specifically confirmed for the booking. Guests with allergies must provide full details before confirming their event.",
+    "How far in advance should I book?",
+    "Five to seven days is comfortable for menu design and chef matching. Proposal and anniversary dates fill quickly, so earlier is safer, and short-notice requests are still worth asking about.",
+    "How do I hire romantic dinner catering in Dubai?",
+    "To hire, tell us your date, guest count and venue. We match a vetted chef and send an itemised proposal, promptly during our published business hours.",
+    "For romantic dinner catering, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements ."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'The Experience'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Is there a cheap romantic dinner catering option in Dubai?",
+   "new_paragraphs": [
+    "Rarely, and it is fairer to say so than to advertise a number that changes the moment you enquire. A chef cooking and serving in your home for one evening carries a cost that barely moves with headcount: the chef's night, the shopping, the travel, the clear-down. AED 1,200 for a plated dinner for two is the floor, and it is where an unfussy three-course seasonal menu lands.",
+    "What you control is what sits on top of that. Three courses instead of five, a seasonal main instead of wagyu or lobster, your own candles and flowers instead of styling arranged for you, and a weeknight instead of a Friday all pull a quote back toward the from-price. Dropping the wine pairing usually saves more than any of the food choices do.",
+    "If the number still does not work, be careful with the obvious alternative. Volume formats do start lower — a drop-off or grazing spread from AED 90 per person, an event buffet from AED 120 — but they carry a 10-guest minimum, 20 for a buffet, and a AED 900 minimum order, so for two people they are not the saving they look like. The cheaper honest routes are a weeknight date, or the fixed-menu date-night package at AED 1,200 instead of a bespoke design. What we will not do is quote low and put the difference back as extras."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'The Experience'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which format suits your evening?",
+   "new_paragraphs": [
+    "Format Guests What the chef does From",
+    "Bespoke plated dinner 2 Designs the menu with you, cooks on site, serves each course, clears down AED 1,200 for the evening",
+    "Date-night package 2 The same evening on a fixed menu AED 1,200",
+    "Small party, plated 4–10 Chef plus service support, courses plated to the table AED 800–1,100 per person at four, easing to AED 700–950 by ten",
+    "Family-style or grazing 10–20 Set out and refreshed; minimal service From AED 90 per person, 10-guest minimum",
+    "The move from two guests to a small party changes the price basis, not the service. Below about four people the evening is priced as a package, because the chef's night costs the same whoever is at the table; from four upward it is quoted per person and the rate falls as numbers rise. Small party catering in Dubai at this end of the market is the same chef, the same on-site cooking and the same clear-down — what changes is that a second pair of hands joins for service once you are past six covers."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'The Experience'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "More on romantic dinner dubai",
+   "new_paragraphs": [
+    "Bachelor party catering dubai",
+    "Farewell catering dubai",
+    "Villa catering ideas dubai",
+    "Conference catering dubai",
+    "Get an itemised quote"
+   ],
+   "insert_after_block": "Planning Valentine's Day?",
+   "position": "after the block titled 'Planning Valentine's Day?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  }
+ ],
+ "faq": []
+}

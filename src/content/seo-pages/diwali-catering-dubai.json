@@ -1,0 +1,193 @@
+{
+ "url": "/diwali-catering-dubai",
+ "keyword_strategy": {
+  "main_keyword": "diwali catering dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 10,
+  "subkeywords_carried": 10,
+  "coverage_percent": 100,
+  "subkeywords_carried_list": [
+   "diwali catering dubai menu",
+   "best diwali catering dubai",
+   "small party catering dubai",
+   "diwali catering dubai price",
+   "cheap diwali catering dubai",
+   "diwali catering dubai near me",
+   "diwali catering dubai price list",
+   "small party catering dubai indian",
+   "diwali food items",
+   "diwali restaurant dubai"
+  ],
+  "subkeywords_not_carried": [],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Diwali Catering Dubai | Menus & Prices | myCHEF",
+  "meta_description": "Diwali catering in Dubai from AED 700pp — North and South Indian mains, vetted chefs and full service. Bespoke menus for your event. Get an itemised quote.",
+  "h1": "Diwali Catering in Dubai — Real Prices, Menus and Timings"
+ },
+ "opening_paragraph": [
+  "Diwali catering in Dubai costs from AED 90 per person dropped off and AED 700 to 950 with a chef cooking on site. myCHEF covers the whole festival of lights table, from the diyas to the mithai counter. A private diwali chef in Dubai designs the spread, cooks in your kitchen, serves and clears away, so you sit with your family instead of running the evening. Send the date, the numbers and the venue, and during our published business hours you'll have a proposal you can read back promptly. This is diwali catering built around your home, not a fixed banquet menu shipped in from a hotel."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "What Our Diwali Catering Includes",
+   "match_confidence": 0.8,
+   "new_heading": "What does Diwali catering in Dubai include?",
+   "new_paragraphs": [
+    "Full-service diwali catering in Dubai includes everything from the first menu conversation to the last cleared plate, so you host and we handle the rest. That means bespoke menu design around your family's regional tastes, a chef cooking fresh on site, service staff who plate and refill, all the serveware and chafing dishes, and a kitchen left cleaner than we found it. Most diwali catering services in Dubai are fully vegetarian by default, with sattvic, Jain and no-onion-no-garlic options built in for the pooja day. We can add live chaat and dosa counters, a mithai and dessert table, welcome drinks, and rangoli-friendly styling for the table. Because myCHEF is a network of vetted chefs instead of a single kitchen, a diwali catering company match is made for your specific menu. You get someone who genuinely cooks the food you want on the night, not a generalist filling a slot."
+   ]
+  },
+  {
+   "block_on_your_page": "Diwali Catering Questions",
+   "match_confidence": 0.88,
+   "new_heading": "Diwali catering — common questions",
+   "new_paragraphs": [
+    "How much does Diwali catering cost in Dubai?",
+    "From AED 90 per person for a dropped-off spread, AED 120 for a staffed buffet and AED 150 with live chaat or dosa counters. A chef cooking and plating on site is AED 700 to 950 per person. Minimums are 10 guests on volume formats, 20 on a buffet and AED 900 on order value, with 5% VAT added.",
+    "What's included in Diwali catering?",
+    "Everything from menu planning to the chef, the service staff, the plating and the cleanup. One team covers all of it, in your home, villa or office.",
+    "Can you cater a corporate Diwali event?",
+    "Yes. Corporate Diwali catering in Dubai runs from office desk lunches to full gala evenings, with live counters, timed service and invoicing your finance team can process.",
+    "Do you offer vegetarian and Jain Diwali menus?",
+    "Yes. Most Diwali menus are fully vegetarian by default, and we build Jain, vegan, gluten-free and no-onion-no-garlic versions without losing the festive spread.",
+    "Do you provide Diwali sweets and mithai?",
+    "Yes. A mithai and dessert counter of kaju katli, gulab jamun, jalebi and ladoo is part of nearly every Diwali order, made fresh instead of bought in.",
+    "How far ahead should I book Diwali catering?",
+    "As guidance: 72 hours for a standard package, 3 to 5 days once live counters or multi-staff service are involved, and 5 to 7 days for a bespoke menu or a larger private event. Diwali week itself fills first, so send that date as early as you can. Short-notice requests are assessed individually.",
+    "Which areas of Dubai do you serve?",
+    "All of Dubai, including Downtown, Business Bay, Dubai Marina, Palm Jumeirah, Jumeirah, Arabian Ranches and Dubai Hills, with the chef coming to your home or venue.",
+    "Can you do Diwali catering for a small party?",
+    "Yes. A dropped-off spread starts at 10 guests and AED 90 per person, with an AED 900 minimum order. A private chef has no minimum headcount at all, at AED 700 to 950 per person, which suits a family pooja for six or eight better than a buffet does.",
+    "Is there a Diwali catering price list?",
+    "Yes, by format: AED 90 per person dropped off, AED 120 for a staffed buffet, AED 150 with live chaat or dosa counters, and AED 700 to 950 for a chef cooking and plating on site. Minimums are 10 guests, 20 on a buffet, AED 900 on order value. Every quote is itemised on top of that.",
+    "For diwali catering, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements ."
+   ]
+  },
+  {
+   "block_on_your_page": "Catering Across Dubai",
+   "match_confidence": 0.86,
+   "new_heading": "Diwali catering across Dubai",
+   "new_paragraphs": [
+    "MyCHEF arranges diwali catering dubai-wide, matched to your occasion, guest count and venue, in homes, villas, offices and event spaces. We regularly cook Diwali across Downtown Dubai, Business Bay, Dubai Marina, JBR, Palm Jumeirah, Jumeirah, Umm Suqeim, Arabian Ranches, Dubai Hills, Emirates Hills and JVC, and the wider communities where families gather for the festival. A diwali caterer in Dubai from our network comes to you, so the celebration stays where your family already is. Explore Indian catering , related Holi and festive catering , or browse all catering in Dubai ."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "A Festive Table to Celebrate Diwali",
+  "Festive Indian for Every Gathering",
+  "Designed for the Occasion",
+  "Let's Plan Your Diwali Celebration",
+  "Explore myCHEF Dubai",
+  "A Taste of Our Diwali Catering"
+ ],
+ "add_block": [
+  {
+   "new_heading": "Diwali catering for homes, corporate events and parties",
+   "new_paragraphs": [
+    "Whatever the setting, the same team scales to it. Intimate home poojas, corporate Diwali evenings and large diwali party catering in Dubai all run on the same on-site model. At home, a private diwali chef in Dubai turns your villa or apartment into the venue with family-style thalis, a live counter the kids gather around, and no dishes for you at midnight. For corporate diwali catering in Dubai, we handle office desk lunches, festive team spreads and full gala nights with timed service and invoicing your finance team can process. For bigger diwali catering for events in Dubai, such as building celebrations, community halls and society gatherings, buffets and stations feed a crowd without a queue. Hosting a joint celebration? We also arrange Holi and wider festive catering across the calendar, so the same trusted chef can cover your whole year of gatherings."
+   ],
+   "insert_after_block": "What Our Diwali Catering Includes",
+   "position": "after the block titled 'What Our Diwali Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What's on a Dubai Diwali menu?",
+   "new_paragraphs": [
+    "A diwali menu in Dubai is yours to shape, and the best spreads balance North and South Indian classics with live theatre and a generous sweet finish. On the mains, think dal makhani, paneer three ways, chole bhature, biryani and a rotating South Indian section of dosa, idli and sambar. A live chaat counter of pani puri, dahi puri and samosa chaat gives guests something to gather around while the mains hold. The mithai counter is where Diwali earns its name, with kaju katli, gulab jamun, jalebi, motichoor ladoo and rasmalai, made fresh instead of bought in. Every diwali food catering menu is bespoke, so treat these as a starting point we tune to your region, your guests and any dietary needs. Regional requests are welcome, whether Gujarati, Punjabi, South Indian or Marwari. Tell the chef the home you're cooking for and the menu follows."
+   ],
+   "insert_after_block": "What Our Diwali Catering Includes",
+   "position": "after the block titled 'What Our Diwali Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Sweets, mithai and dietary requests",
+   "new_paragraphs": [
+    "The mithai table is the heart of Diwali, and it is also where dietary care matters most, so we build it to your guests instead of to a default. Sugar-free and jaggery-based sweets sit alongside the classics for guests watching sugar. Vegan mithai swaps ghee and khoya for plant bases without losing texture, and gluten-free, nut-free and Jain versions are prepared on clean stations to avoid cross-contact. Beyond dessert, the full menu flexes, so dairy-free, keto-friendly and lighter Indian catering options all fit inside the same spread. Tell us who is at the table and any allergies up front, and the chef plans around them from the first draft instead of as an afterthought on the night."
+   ],
+   "insert_after_block": "What Our Diwali Catering Includes",
+   "position": "after the block titled 'What Our Diwali Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How much does Diwali catering cost in Dubai?",
+   "new_paragraphs": [
+    "Diwali catering in Dubai costs from AED 90 per person, and the final figure moves with format, menu and service level. Here is the price list by format. A dropped-off vegetarian spread you lay out yourself is AED 90 per person. A staffed buffet is AED 120. A buffet with live chaat, dosa or mithai counters is AED 150. A chef cooking and plating through the evening is AED 700 to 950 per person. Volume formats need 10 guests, a full buffet 20, and the minimum order value is AED 900, with 5% VAT added. If you are pricing cheap diwali catering in Dubai, that AED 90 tier is our entry price, and the same kitchen cooks it. Guest count matters too, because larger numbers usually bring the per-head diwali catering price in Dubai down. For most home celebrations, families land between an affordable diwali catering spread and a mid-range live-counter package, while corporate galas and luxury diwali catering in Dubai run higher for premium ingredients and fuller service. There are no hidden line items, and your quote is itemised so you see exactly what each part of the diwali catering cost in Dubai covers. See our Dubai catering price guide for worked examples, or send your numbers for a firm figure."
+   ],
+   "insert_after_block": "What Our Diwali Catering Includes",
+   "position": "after the block titled 'What Our Diwali Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How to hire Diwali catering and how it works",
+   "new_paragraphs": [
+    "To hire diwali catering in Dubai, send us three things: your date, your guest count and your venue. From there the path is short and guided. First, we confirm availability and match a chef to your menu and region. Second, you receive an itemised proposal, promptly during our published business hours, covering menu, staffing and the diwali catering price. Third, you and the chef refine the menu together, locking dietary needs and any live counters. On the day, the chef and team arrive, set up, cook, serve and clean, and you host. Whether you want the best diwali catering in Dubai for a landmark evening or a quiet family dinner, the process is the same, with no showroom visits and no rigid packages. Searching for diwali catering near me usually surfaces hotel banquet halls; this brings the kitchen to you instead."
+   ],
+   "insert_after_block": "What Our Diwali Catering Includes",
+   "position": "after the block titled 'What Our Diwali Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Why book Diwali catering with myCHEF",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you own the evening, we carry the work. Chefs reach diwali catering only after identity checks, a practical cooking assessment, reference verification and ongoing performance reviews , which is a continuous standard instead of a one-time tick. We are honest about it, too. No system removes every risk, so we match each event to the chef well suited to it, and we tell you who is cooking.",
+    "For a festival dinner, that is often Ahmed Al-Rashid , who brings 18+ years across Dubai, London and Paris and designs each menu as a collaboration with the host. Every course is timed, seasoned and served to exacting standards, from a vegetarian Diwali thali to a live-counter feast. Alongside diwali catering we have delivered villa weddings, yacht celebrations and corporate galas in Dubai. Real client reviews for Diwali catering are published as events happen."
+   ],
+   "insert_after_block": "What Our Diwali Catering Includes",
+   "position": "after the block titled 'What Our Diwali Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Diwali catering for a small party",
+   "new_paragraphs": [
+    "Not every Diwali is a hundred people. A pooja at home, one family, six or eight at the table is the most common booking of the week, and a buffet is the wrong shape for it. Small party catering in Dubai for Diwali works two ways. A dropped-off vegetarian spread starts at 10 guests and AED 90 per person, with the minimum order at AED 900, and you serve it yourself between the pooja and the sweets. Or a chef comes to the kitchen with no minimum headcount at all, at AED 700 to 950 per person, which is what most small Indian home celebrations pick: fresh puris, a live dosa pan, and mithai finished in front of the children. Small party catering in Dubai for Indian menus is easier than most cuisines to do well at low numbers, because the food is built for sharing plates instead of individual covers."
+   ],
+   "insert_after_block": "Catering Across Dubai",
+   "position": "after the block titled 'Catering Across Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Diwali restaurant, or Diwali at home?",
+   "new_paragraphs": [
+    "Some of the searches that land here want a Diwali restaurant in Dubai: a table booked, a festive set menu, someone else's dining room for the night. That is a fair choice, and no caterer replaces it. What a restaurant cannot do is the pooja, the diyas on your own balcony, the rangoli at your door and the aunties in the kitchen. Diwali at home is a different evening, and catering exists so you can have that one without cooking for thirty people. The chef arrives with the menu you approved, cooks in your kitchen, and leaves it clean. You stay where your family already is."
+   ],
+   "insert_after_block": "Catering Across Dubai",
+   "position": "after the block titled 'Catering Across Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning diwali catering step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your diwali catering proposal arrives.",
+    "Book with the lead time the format needs: 72 hours for a standard package, 3–5 days with live counters or multi-staff service, and 5–7 days for a bespoke menu or larger private event. Diwali week itself fills first.",
+    "Confirm your diwali catering menu about 7 days out, when the guest list is firm.",
+    "Ask early about allergies and dietary plates — not in the last 48 hours before diwali catering.",
+    "Check the access route before diwali catering day — setup starts roughly 2 hours ahead.",
+    "Plan on roughly 3 hours of diwali catering service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": "Diwali Catering Questions",
+   "position": "after the block titled 'Diwali Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which diwali catering format suits your event?",
+   "new_paragraphs": [
+    "Format Service staff Guests it suits Indicative cost",
+    "Drop-off None 10 and above, informal From AED 90 per person",
+    "Buffet 1–2 20–60 From AED 120 per person",
+    "Live counters 2–4 40 and above From AED 150 per person",
+    "Plated service 3 and above 8–40 seated AED 700–950 per person"
+   ],
+   "insert_after_block": "Diwali Catering Questions",
+   "position": "after the block titled 'Diwali Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  }
+ ],
+ "faq": []
+}

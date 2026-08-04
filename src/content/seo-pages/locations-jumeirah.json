@@ -1,0 +1,186 @@
+{
+ "url": "/locations/jumeirah",
+ "keyword_strategy": {
+  "main_keyword": "private chef jumeirah",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 5,
+  "subkeywords_carried": 3,
+  "coverage_percent": 60,
+  "subkeywords_carried_list": [
+   "how much does a private chef cost in dubai?",
+   "how much does it usually cost to have a private chef?",
+   "female private chef jumeirah"
+  ],
+  "subkeywords_not_carried": [
+   "how much does a private chef make in the uae?",
+   "affordable private chef jumeirah"
+  ],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Private Chef Jumeirah | Villa Dining & Catering | myCHEF",
+  "meta_description": "Private chef & catering in Jumeirah from AED 700pp — villa dining, events and bespoke menus with vetted chefs. Serving beachside villas off Jumeirah Beach Road. Request a proposal.",
+  "h1": "Private Chef & Catering in Jumeirah — Real Prices, Menus and Timings"
+ },
+ "opening_paragraph": [
+  "A private chef in Jumeirah starts from AED 700 per person — myCHEF matches you with a vetted chef who plans the menu, shops, cooks in your own kitchen, serves each course and leaves the space spotless. Jumeirah is Dubai's established old-money beachside neighbourhood — low-rise villas with gardens, just off the water — and in-villa dining fits it perfectly. Tell us your date and address and we typically reply within 15 minutes during business hours, with a chef match to follow and an itemised proposal, so booking a personal chef feels like adding a wing to your evening instead of planning a project."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "Who books private chef and catering in Jumeirah",
+   "match_confidence": 0.72,
+   "new_heading": "How much does a private chef cost in Jumeirah?",
+   "new_paragraphs": [
+    "Private dining in Jumeirah starts from AED 700 per person and is worked out per head, dropping as numbers rise. A dinner for two sits nearer AED 950–1,300 each because one chef's time is spread across fewer covers; six guests land around AED 750–1,000; ten or more start from AED 700. The jumeirah private chef cost covers the chef, menu design, ingredients, service and cleanup — there are no hidden line items. Multi-course tasting menus and premium ingredients such as wagyu, lobster or a full oyster course sit above the base range. See the full breakdown on private chef prices in Dubai , or send your numbers for an exact quote."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "At a Glance",
+  "Beachfront private chef and villa dining for Jumeirah's coastal homes and family celebrations.",
+  "Properties We Serve in Jumeirah",
+  "What is included in our Jumeirah catering service",
+  "How Jumeirah catering works",
+  "Why myCHEF Dubai for Jumeirah",
+  "Popular Jumeirah events",
+  "Logistics for Jumeirah events",
+  "Also Serving Near Jumeirah",
+  "Explore Our Services",
+  "Popular Events in Jumeirah",
+  "Questions About Jumeirah Catering",
+  "Plan Your Jumeirah Villa Dinner",
+  "Explore myCHEF Dubai",
+  "Menu options for Jumeirah events",
+  "Services in Jumeirah"
+ ],
+ "add_block": [
+  {
+   "new_heading": "What a private chef in Jumeirah includes",
+   "new_paragraphs": [
+    "Everything from the first menu email to the last washed pan is handled for you. A myCHEF booking covers a consultation to shape the menu around your tastes and any dietary needs, all grocery sourcing, the chef cooking live in your kitchen, front-of-house service where you want it, and a full clean-down so your kitchen is left exactly as it was found. For larger evenings we add service staff, and for relaxed nights a single chef plates straight from the pass. Because this is private dining in Jumeirah instead of a restaurant booking, the pace, the seating and the timing are yours — dinner can run long over the garden table or move briskly before an early start. You choose the format; the chef adapts around your home, not the other way round."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'At a Glance'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Private chef Jumeirah for dinner parties, celebrations and corporate",
+   "new_paragraphs": [
+    "Most bookings here are villa dinner parties, but the same team covers every occasion Jumeirah hosts. Families use a home chef for milestone birthdays, anniversaries and multi-generation Friday lunches; couples book intimate dinners for two on the terrace; and residents who entertain often arrange jumeirah event catering for garden receptions and seasonal gatherings. Corporate hosts who live in the area use in-villa chefs for board dinners and client hospitality away from a hotel ballroom. Whether it is a quiet chef for hire in Jumeirah for six or luxury private chef service for a fifty-guest celebration, the brief drives the menu, the staffing and the setup — not a fixed package you have to squeeze your evening into."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'At a Glance'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Private chef Jumeirah menu and options",
+   "new_paragraphs": [
+    "Menus are built from scratch for your table. The chef cooks bespoke menus across Arabic , Mediterranean , Italian , Indian and Pan-Asian styles, with halal , vegetarian, vegan and allergen-aware options planned in as standard instead of as an afterthought. Gluten-free, nut-conscious and other dietary menu options may be available on request, subject to confirmation by the assigned culinary partner. Partner kitchens may handle allergens, and cross-contact cannot be completely excluded unless dedicated controls have been specifically confirmed for the booking. Guests with allergies must provide full details before confirming their event. A typical dinner runs canapés, a starter, a main and dessert, but you can swap to family-style sharing platters, a grazing spread for a garden party, or a multi-course tasting for a special night. Browse sample menus for a feel of the range, then tell us your theme — a regional feast, a health-led menu, or a childhood dish done properly — and the chef will draft courses to match before anything is confirmed."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'At a Glance'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Villa logistics and how it works locally",
+   "new_paragraphs": [
+    "Jumeirah's low-rise streets make a private chef far simpler to host than tower living. There are no service-lift bookings or loading-bay windows to schedule — the chef parks nearby, carries equipment straight in, and works from your kitchen and garden. Beachside villas off Jumeirah Beach Road, the Umm Al Sheif and Al Manara villas, and homes near Mercato and La Mer all suit relaxed indoor-outdoor dining, and the gardens are ideal for outdoor stations or a barbecue in the cooler months. The chef arrives with time to set up, plates on your schedule, and clears everything afterwards, so the only thing on your list is answering the door. Confirm date, guest count and address and the rest is arranged around your home."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'At a Glance'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Why myCHEF",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you own the evening, we carry the work. Chefs reach private chef jumeirah only after identity checks, a practical cooking assessment, reference verification and ongoing performance reviews — a continuous standard, not a one-time tick. We are honest about it, too: no system removes every risk, so we match each event to the best available chef for it.",
+    "For a Jumeirah villa dinner, that might be Ahmed Al-Rashid — 18+ years across Dubai, London and Paris in classical French technique — who designs each menu as a collaboration with the host, every course timed, seasoned and served to exacting standards. We have delivered intimate villa dinners and large celebrations across Dubai's communities. Private chef jumeirah comes with real client reviews, published as events happen."
+   ],
+   "insert_after_block": "Services in Jumeirah",
+   "position": "after the block titled 'Services in Jumeirah'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Private chef near Jumeirah and across Dubai",
+   "new_paragraphs": [
+    "Based in Jumeirah but hosting elsewhere? The same vetted chefs cover the surrounding communities and the wider city. Explore Umm Suqeim or Emirates Hills next door, or see every neighbourhood we reach on the full list of Dubai locations . Still weighing formats for a bigger guest list? Compare private chef vs catering to see which suits your numbers before you book."
+   ],
+   "insert_after_block": "Services in Jumeirah",
+   "position": "after the block titled 'Services in Jumeirah'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning private chef jumeirah step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your private chef jumeirah proposal arrives.",
+    "Book private chef jumeirah about 2 weeks ahead off-peak, and 6 weeks ahead between November and March.",
+    "Confirm the menu for private chef jumeirah some 7 days ahead, once numbers stop moving.",
+    "Ask for dietary covers at the private chef jumeirah briefing stage instead of within 48 hours .",
+    "Check parking and lift access; your private chef jumeirah team is on site some 2 hours early.",
+    "Plan on roughly 3 hours of private chef jumeirah service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": "Services in Jumeirah",
+   "position": "after the block titled 'Services in Jumeirah'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which private chef jumeirah format suits your event?",
+   "new_paragraphs": [
+    "Format Service staff Guests it suits Indicative cost",
+    "Drop-off None Any size, informal Most economical",
+    "Buffet 1–2 20–60 From AED 700 per person",
+    "Live stations 2–4 40 and above From AED 700 per person",
+    "Plated service 3 and above 8–40 seated Highest per head"
+   ],
+   "insert_after_block": "Services in Jumeirah",
+   "position": "after the block titled 'Services in Jumeirah'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Common questions",
+   "new_paragraphs": [
+    "How much does a private chef cost in Jumeirah?",
+    "Private dining in Jumeirah starts from about AED 700–950 per person, depending on guest count, menu and service level. Larger groups come down per head; send your numbers for an exact quote.",
+    "Which parts of Jumeirah do you serve?",
+    "All of Jumeirah — beachside villas off Jumeirah Beach Road, Umm Al Sheif and Al Manara villas and the surrounding streets — plus nearby Dubai communities. Confirm your exact address when you enquire.",
+    "What's included in a private chef booking?",
+    "Everything is included: the menu design, grocery sourcing, the chef cooking on site, the service team, plating and the full cleanup afterwards. You provide the kitchen and the guests.",
+    "Can you cater a villa dinner party for a large group?",
+    "Yes. Jumeirah villa catering scales from an intimate dinner for two to celebrations of fifty or more, with extra service staff and stations added as the guest count grows.",
+    "Do you offer halal and dietary-specific menus?",
+    "Yes. Halal is standard, and vegetarian, vegan and allergen-aware menus are planned with care instead of treated as a substitution. Gluten-free options are available on request, subject to partner confirmation and an allergen review for the specific booking. Menus without intentionally added nuts may be available on request. However, partner kitchens may handle nuts and other allergens, so cross-contact cannot be excluded unless specifically confirmed.",
+    "Is there outdoor and garden dining?",
+    "Absolutely. Jumeirah's garden villas suit outdoor stations, barbecues and terrace dining in the cooler months, and the chef sets up wherever you want to host.",
+    "How do I book?",
+    "Share your date, guest count and address; we match a vetted chef and send an itemised proposal, usually within one business day.",
+    "Can I request a female private chef in Jumeirah?",
+    "Yes — a female chef can be requested for your booking. Tell us when you enquire and myCHEF matches you with a female chef from the partner network for your date, cuisine and service style. Across Jumeirah's family villas this is a regular request, whether for a women-only gathering or simply because the household prefers it. Raise it with your date rather than once the menu is signed off, because availability moves with the date, the cuisine and who in the partner network is free.",
+    "For private chef jumeirah, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements ."
+   ],
+   "insert_after_block": "Services in Jumeirah",
+   "position": "after the block titled 'Services in Jumeirah'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "More on private chef jumeirah",
+   "new_paragraphs": [
+    "Private chef bluewaters island",
+    "Private chef jlt",
+    "Private chef jvc",
+    "Private chef vs restaurant dubai",
+    "Get an itemised quote"
+   ],
+   "insert_after_block": "Menu options for Jumeirah events",
+   "position": "after the block titled 'Menu options for Jumeirah events'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  }
+ ],
+ "faq": []
+}

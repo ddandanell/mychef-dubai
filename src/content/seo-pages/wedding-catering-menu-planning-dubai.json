@@ -1,0 +1,202 @@
+{
+ "url": "/wedding-catering-menu-planning-dubai",
+ "keyword_strategy": {
+  "main_keyword": "wedding menu planning dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 2,
+  "subkeywords_carried": 2,
+  "coverage_percent": 100,
+  "subkeywords_carried_list": [
+   "wedding menu planning dubai cost",
+   "wedding menu planning dubai checklist"
+  ],
+  "subkeywords_not_carried": [],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Wedding Menu Planning Dubai: How to Build the Menu | myCHEF",
+  "meta_description": "Wedding menu planning for Dubai: how to choose a service format, build a menu that survives 200 covers, handle dietary needs, run the tasting and control the cost per head.",
+  "h1": "Wedding Menu Planning in Dubai — Real Prices and Timings"
+ },
+ "opening_paragraph": [
+  "Wedding menu planning in Dubai starts with the service format, not the food: plated, family-style or stations decides your cost per head and what the kitchen can realistically deliver. Only then do individual dishes matter. MyCHEF plans weddings in that order, and this guide explains how to choose the format, build a menu that survives a large service, handle dietary requirements and run a tasting that tells you something useful."
+ ],
+ "replace_in_block": [],
+ "leave_untouched": [
+  "Create a Menu That Reflects Your Celebration",
+  "Why Wedding Catering in Dubai Is Unique",
+  "Choosing Your Service Style",
+  "Popular Wedding Cuisines in Dubai",
+  "Menu Structure by Wedding Segment",
+  "Dietary & Cultural Considerations",
+  "Beverage Pairing & Bar Service",
+  "Wedding Menu Trends in Dubai",
+  "Working With Your Wedding Caterer",
+  "Downloadable Menu Planning Worksheet",
+  "Related Wedding Catering Services & Guides",
+  "Wedding Menu Planning FAQ",
+  "Start Planning Your Wedding Menu",
+  "Explore myCHEF Dubai",
+  "Sample Wedding Menu Templates"
+ ],
+ "add_block": [
+  {
+   "new_heading": "Step one: choose the service format",
+   "new_paragraphs": [
+    "Plated service is the most formal and the most staff-intensive. Every guest receives the same course at the same moment, which looks superb and needs a large brigade to achieve. Family-style sharing puts platters on long tables; it warms a room, suits generous menus and needs fewer service staff. Stations spread guests around the venue, keep food hot and work well above about 150 guests. A buffet is the most economical and the most likely to create a queue.",
+    "Format drives everything downstream. It sets the staffing ratio, which is the largest line on the quote; it decides how ambitious individual dishes can be; and it shapes the room. A useful way to choose: decide whether you want the meal to be an event in itself, in which case plated, or a backdrop to the party, in which case stations or family-style. Our wedding catering page sets out how each format runs."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Create a Menu That Reflects Your Celebration'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Building a menu that survives 200 covers",
+   "new_paragraphs": [
+    "The constraint most couples underestimate is that a wedding kitchen is usually temporary and a long way from the tables. A dish that is faultless at a tasting for six can fail at 200. What travels well: composed cold starters that can be pre-plated, mains built on proteins that hold their temperature, sauces that do not split under a cloche, and desserts finished on the pass.",
+    "What struggles: anything fried served plated, delicate fish held for twenty minutes, soufflés and anything assembled tall. Ask your caterer directly which dishes on your shortlist can be pre-plated and which need finishing, then count how many need finishing. If the answer is more than one per course, the service will run late. This is the single most useful question in wedding menu planning and few couples ask it."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Create a Menu That Reflects Your Celebration'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Dietary requirements and the guest list",
+   "new_paragraphs": [
+    "In Dubai the dietary spread is wide as standard. Plan halal across the board, plus vegetarian, vegan, gluten-free, dairy-free and nut-free covers. Collect requirements with the RSVPs and send a consolidated list with table numbers where you can, so those plates are built into the service plan and go out in the same wave as the rest of the table.",
+    "Two categories are routinely forgotten until the final week. Children's portions need their own menu, served at the same time as the adults so nobody waits. Vendor meals for photographers, videographers and musicians are a real headcount and a real cost line; confirm the number and when they eat, since vendors usually eat during the main service. Both belong on the wedding menu planning checklist from the start."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Create a Menu That Reflects Your Celebration'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "The tasting: how to run it properly",
+   "new_paragraphs": [
+    "Hold the tasting three to four months out, once the format and direction are settled but while changes are still possible. Keep the group small. Six opinions produce a menu; twelve produce a compromise that pleases nobody. Bring the people whose view genuinely matters and leave the rest to be surprised on the day.",
+    "Taste the menu you will serve, not a showcase version. Ask how each dish behaves at scale, what happens if the speeches overrun by twenty minutes, and which elements are prepared the day before. Confirm the children's menu and vendor meals at the same sitting. Some practical tips: taste in the order you will serve, drink water between courses, and take notes at the table instead of relying on memory afterwards."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Create a Menu That Reflects Your Celebration'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Cost, season and how the number is built",
+   "new_paragraphs": [
+    "Wedding catering in Dubai generally starts from around AED 700 per person. Plated service is the highest per head because of staffing; family-style and stations sit lower; buffet is the most economical. Larger weddings are quoted as a total, with event minimums of AED 2,400 or AED 3,600 common once staffing, rentals and styling are counted, and AED 4,500 and above for large plated builds. Every quote carries 5% VAT.",
+    "Season affects both price and availability. Peak runs November to March, when days average around 27°C and nights fall to about 19°C ( Weather and Climate ) and outdoor receptions work well — and when every couple wants the same Saturday. To control wedding menu planning cost without cutting quality: shorten the menu and execute it properly, choose one impressive course instead of three, and use seasonal ingredients. For the full picture on prices see the catering prices guide ."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Create a Menu That Reflects Your Celebration'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Food safety, and who is cooking",
+   "new_paragraphs": [
+    "At wedding scale the food often travels to a venue with no kitchen, so transport is where the risk sits. Licensed caterers work to the Dubai Municipality Food Code, which covers food transportation and delivery vehicles as well as handling, and requires structured staff training. The Dubai Municipality Food Safety Department monitors food establishments and investigates food-borne illness, so compliance is checked in practice. Ask how the temporary kitchen is built, how food is held, and who owns temperature checks on the night.",
+    "Then ask who cooks. The chef assigned to wedding menu planning has passed identity checks, a practical cooking assessment, reference verification and post-event reviews by earlier clients. wedding catering checklist alongside this guide, and see wedding catering to start a brief for 2026."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Create a Menu That Reflects Your Celebration'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Frequently asked questions",
+   "new_paragraphs": [
+    "How do I start planning a wedding menu in Dubai?",
+    "Choose the service format first — plated, family-style, stations or buffet. It sets the cost per head, the staffing and what the kitchen can deliver. Individual dishes come after that decision.",
+    "Which service format costs the most?",
+    "Plated service, because it needs the largest brigade and the most front-of-house staff. Family-style and stations sit lower, and a buffet is the most economical though it is the most likely to create a queue.",
+    "What dishes fail at wedding scale?",
+    "Anything fried and served plated, delicate fish held for twenty minutes, soufflés and tall assemblies. Ask which shortlisted dishes can be pre-plated and which need finishing on the pass.",
+    "When should the tasting be?",
+    "Three to four months out, once format and direction are settled. Keep the group small — six opinions produce a menu, twelve produce a compromise.",
+    "Do I need to feed vendors and children separately?",
+    "Yes to both, and both are routinely forgotten. Children need their own menu served at the same time as adults, and vendor meals are a real headcount served during the main service.",
+    "How much does wedding catering cost per person in Dubai?",
+    "Generally from around AED 700 per person, with larger weddings quoted as a total against minimums of AED 2,400 or AED 3,600 once staffing, rentals and styling are included. All quotes carry 5% VAT.",
+    "How do I reduce the cost without hurting the food?",
+    "Shorten the menu and execute it properly, choose one impressive course instead of three, use seasonal ingredients, and consider family-style or stations instead of full plated service."
+   ],
+   "insert_after_block": "Sample Wedding Menu Templates",
+   "position": "after the block titled 'Sample Wedding Menu Templates'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Sources",
+   "new_paragraphs": [
+    "Facts in this guide are drawn from official and published sources: the UAE Ministry of Finance (5% VAT, effective 1 January 2018), Dubai Municipality (Food Code, food transportation and delivery-vehicle requirements, and mandatory food-handler training), Dubai Municipality Food Safety Department (food-establishment monitoring and food-borne illness investigation), and Weather and Climate (Dubai December averages of 27°C by day and 19°C at night). Per-person ranges are myCHEF's own published pricing; confirm current figures in a written proposal.",
+    "Request an itemised proposal or start on WhatsApp ."
+   ],
+   "insert_after_block": "Sample Wedding Menu Templates",
+   "position": "after the block titled 'Sample Wedding Menu Templates'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning wedding menu planning step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your wedding menu planning proposal arrives.",
+    "Book wedding menu planning about 2 weeks ahead off-peak, and 6 weeks ahead between November and March.",
+    "Confirm the wedding menu planning menu 7 days before the date, with final numbers.",
+    "Ask about allergies when booking wedding menu planning, well outside the final 48 hours .",
+    "Check how the team reaches the venue; wedding menu planning setup begins about 2 hours before guests.",
+    "Plan on roughly 3 hours of wedding menu planning service, and add 5% VAT to the total.",
+    "Two closing tips, explained plainly: the strongest menu ideas are the ones your kitchen can deliver at scale, and the options that photograph well are rarely the ones that hold for 200 covers. Ask which dishes can be pre-plated before you fall in love with a menu."
+   ],
+   "insert_after_block": "Sample Wedding Menu Templates",
+   "position": "after the block titled 'Sample Wedding Menu Templates'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  }
+ ],
+ "faq": [
+  {
+   "question": "How do I start planning a wedding menu in Dubai?",
+   "answer": [
+    "Choose the service format first — plated, family-style, stations or buffet. It sets the cost per head, the staffing and what the kitchen can deliver. Individual dishes come after that decision."
+   ]
+  },
+  {
+   "question": "Which service format costs the most?",
+   "answer": [
+    "Plated service, because it needs the largest brigade and the most front-of-house staff. Family-style and stations sit lower, and a buffet is the most economical though it is the most likely to create a queue."
+   ]
+  },
+  {
+   "question": "What dishes fail at wedding scale?",
+   "answer": [
+    "Anything fried and served plated, delicate fish held for twenty minutes, soufflés and tall assemblies. Ask which shortlisted dishes can be pre-plated and which need finishing on the pass."
+   ]
+  },
+  {
+   "question": "When should the tasting be?",
+   "answer": [
+    "Three to four months out, once format and direction are settled. Keep the group small — six opinions produce a menu, twelve produce a compromise."
+   ]
+  },
+  {
+   "question": "Do I need to feed vendors and children separately?",
+   "answer": [
+    "Yes to both, and both are routinely forgotten. Children need their own menu served at the same time as adults, and vendor meals are a real headcount served during the main service."
+   ]
+  },
+  {
+   "question": "How much does wedding catering cost per person in Dubai?",
+   "answer": [
+    "Generally from around AED 700 per person, with larger weddings quoted as a total against minimums of AED 2,400 or AED 3,600 once staffing, rentals and styling are included. All quotes carry 5% VAT."
+   ]
+  },
+  {
+   "question": "How do I reduce the cost without hurting the food?",
+   "answer": [
+    "Shorten the menu and execute it properly, choose one impressive course instead of three, use seasonal ingredients, and consider family-style or stations instead of full plated service."
+   ]
+  }
+ ]
+}

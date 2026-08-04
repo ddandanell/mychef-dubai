@@ -1,0 +1,217 @@
+{
+ "url": "/about",
+ "keyword_strategy": {
+  "main_keyword": "private chef company dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 7,
+  "subkeywords_carried": 6,
+  "coverage_percent": 86,
+  "subkeywords_carried_list": [
+   "how much does a private chef cost in dubai?",
+   "how much does a private chef cost for a meal?",
+   "private chef at home dubai",
+   "full time private chef dubai",
+   "best private chef company dubai",
+   "private chef company dubai reviews"
+  ],
+  "subkeywords_not_carried": [
+   "how much does a private chef make in dubai?"
+  ],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "About myCHEF | Private Chef Company Dubai | myCHEF Dubai",
+  "meta_description": "myCHEF is a private chef company in Dubai that designs the evening and matches you to an independent, licensed chef. Typical reply within 15 minutes during business hours, chef matched once your details are confirmed.",
+  "h1": "About myCHEF — Private Chef Company Dubai"
+ },
+ "opening_paragraph": [
+  "myCHEF is a private chef company in Dubai built on one principle: the guest should own the evening and none of the work. We design the experience and choose the talent to bring it to life. Send your date, guest count and venue and you get a reply typically within 15 minutes during business hours, with a chef matched once your details are confirmed."
+ ],
+ "replace_in_block": [],
+ "leave_untouched": [
+  "From Fine Kitchens to Dubai's Most Distinguished Homes",
+  "What Drives Us",
+  "The Chefs We Choose",
+  "We Serve All of Dubai",
+  "Experience the Difference",
+  "Explore myCHEF Dubai"
+ ],
+ "add_block": [
+  {
+   "new_heading": "What this private chef company does, and what it does not",
+   "new_paragraphs": [
+    "The distinction matters and we state it plainly. MyCHEF designs the evening, matches the chef and manages the event end to end. The cooking is done by independent, licensed chefs and licensed partner kitchens. MyCHEF is not a food establishment; you engage vetted professionals through us, and we run everything around them — the menu design, the staffing, the timings and the clear-down.",
+    "That structure is the reason the standard holds. We are not defending an in-house kitchen; we are selecting from a network of licensed culinary partners and removing anyone who slips. It also means the answer to \"who is licensed for the food?\" is precise: the chefs and partner kitchens, working to the Dubai Municipality Food Code."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'From Fine Kitchens to Dubai's Most Distinguished Homes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How chefs are chosen — the vetting checklist explained",
+   "new_paragraphs": [
+    "Before a chef takes a booking we run identity checks, a practical cooking assessment and reference verification, and we confirm credentials, licensing and food-safety standards. Candidates who do not meet the quality standard, or who compromise on ingredients, do not join the network. That is the whole filter, and it is deliberately narrow.",
+    "A lot of people arrive here after searching for the famous chefs in Dubai, so it is worth being direct about what myCHEF is not. We do not sell a name on a poster. The chef who designs your menu is the chef who cooks it, and the match is made on the food, the format and the room you are hosting in rather than on whose profile looks best in a proposal. If a specific chef in the network suits your evening, we say so and name them before you confirm.",
+    "Food-safety training is not optional in Dubai. ICCA Dubai sets out that every food handler, supervisor and Person in Charge working under Dubai Municipality or another emirate authority must hold approved training, that each food business needs at least one certified Person in Charge carrying legal responsibility, and that certificates lapse after roughly three to five years. You are welcome to ask what applies to your booking; the answer comes in writing."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'From Fine Kitchens to Dubai's Most Distinguished Homes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "The founder's background, and why it shapes the service",
+   "new_paragraphs": [
+    "MyCHEF was founded on experience drawn from some of Europe's most demanding kitchens, and the operating idea came directly from that: in a good restaurant the guest notices none of the machinery. The same principle applied at home means the host should not be running the evening either — not the timings, not the plating, not the washing up.",
+    "In practice that shows up in unglamorous places. The chef arrives early instead of on time. The kitchen is handed back as it was found. The person who designed your menu is the person cooking it. None of that is a feature list; it is what the founding principle looks like on a Tuesday."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'From Fine Kitchens to Dubai's Most Distinguished Homes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Where we work — services near me across Dubai",
+   "new_paragraphs": [
+    "Coverage spans Dubai's main communities — Palm Jumeirah , Dubai Marina , Downtown Dubai , DIFC , Emirates Hills , Arabian Ranches , Jumeirah , JBR and Business Bay — alongside emerging areas such as Al Barari and Dubai Silicon Oasis. The locations index covers what changes between them.",
+    "Season shapes the work more than geography does. From November to March, days average around 27°C and nights fall to about 19°C ( Weather and Climate ), which is when terraces, gardens and yachts come into their own and when the calendar is most contested. Between May and September the same events move indoors."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'From Fine Kitchens to Dubai's Most Distinguished Homes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How to judge a private chef company in Dubai",
+   "new_paragraphs": [
+    "Nobody can hand you an objective answer to which is the best private chef company in Dubai, and any company that claims the title is asking you to take its word for it. Judge it on four things you can actually check instead. Who holds the food licence, and will they say so plainly? Are prices published, or does every question end in \"request a quote\"? Is the chef named before you commit, or assigned on the day? And is the proof real — one case study carrying the brief, the menu, the staffing and the outcome tells you more than a page of anonymous praise. On our side the answers are: the chefs and partner kitchens hold the licences, not myCHEF; rates are published rather than gated; the chef is named before you confirm; and we do not use review or rating markup until there are real reviews to put in it. Put the same four questions to anyone else you are considering."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'From Fine Kitchens to Dubai's Most Distinguished Homes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "The group behind it, and our prices and packages",
+   "new_paragraphs": [
+    "MyCHEF Dubai is part of Global Catering, operating since 2015, with a sister operation in Bali. The Dubai business trades under Numini FZC. What that means for you is unremarkable but useful: the playbook has been run in another market before it was run here.",
+    "We publish real rates instead of gating them, we cite official sources for anything regulatory, and we do not use review or rating markup until there are real reviews to put in it. Every quote carries 5% VAT, in force since 1 January 2018 ( UAE Ministry of Finance ), shown as its own line."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'From Fine Kitchens to Dubai's Most Distinguished Homes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How to book: costs, options and next steps for 2026",
+   "new_paragraphs": [
+    "Send your date, guest count and venue through the contact page or on WhatsApp. You get a reply typically within 15 minutes during business hours, an itemised proposal, and a named chef matched to the brief instead of to availability.",
+    "If you would look first: the menus carry the packages and per-person formats, how it works sets out the four steps and the booking windows."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'From Fine Kitchens to Dubai's Most Distinguished Homes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning at a glance",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — we typically reply within 15 minutes during business hours.",
+    "Book about 2 weeks ahead off-peak, and 6 weeks ahead between November and March.",
+    "Confirm the menu roughly 7 days before, once your numbers settle.",
+    "Ask about dietary covers when you enquire, not inside the final 48 hours .",
+    "Check venue access; the team arrives about 2 hours before service.",
+    "Plan on roughly 3 hours at the table, and add 5% VAT to the total.",
+    "Review catering dubai",
+    "Referral programme catering dubai"
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'From Fine Kitchens to Dubai's Most Distinguished Homes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Frequently asked questions",
+   "new_paragraphs": [
+    "Is myCHEF a catering company or an agency?",
+    "Neither exactly. MyCHEF designs the experience and manages the event; the cooking is done by independent, licensed chefs and licensed partner kitchens. MyCHEF is not a food establishment.",
+    "How quickly do you reply?",
+    "Typically within 15 minutes during business hours (9am–9pm, every day), with a chef matched once your occasion details are confirmed and an itemised proposal to follow.",
+    "How are the chefs vetted?",
+    "Identity checks, a practical cooking assessment and reference verification, plus confirmation of credentials, licensing and food-safety standards before any booking. Chefs who do not meet the standard, or who compromise on ingredients, are not added to the network.",
+    "How much does a private chef cost in Dubai?",
+    "Most private-chef dinners run AED 700 to AED 950 per person, and packages start from AED 1,200. Smaller tables sit at the upper end of that band, because the same chef, shopping and service are spread across fewer covers. Per meal the figure covers menu design, sourcing, the cooking, table service and the clear-down, not the food alone. Full per-guest-count rates are on the prices page .",
+    "Who holds the food licence?",
+    "The independent chefs and the licensed partner kitchens. They operate to the Dubai Municipality Food Code, which also governs food transportation and mandatory handler training.",
+    "Which areas of Dubai do you cover?",
+    "All of it, including Palm Jumeirah, Dubai Marina, Downtown, DIFC, Emirates Hills, Arabian Ranches, Jumeirah, JBR and Business Bay, plus emerging areas such as Al Barari and Dubai Silicon Oasis.",
+    "Is myCHEF part of a larger group?",
+    "Yes. MyCHEF Dubai is part of Global Catering, operating since 2015, with a sister operation in Bali. The Dubai business trades under Numini FZC.",
+    "Do you publish real prices?",
+    "Yes. Packages and per-person formats are published on the menus page instead of gated behind an enquiry, and every quote shows the 5% VAT separately."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'From Fine Kitchens to Dubai's Most Distinguished Homes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Sources",
+   "new_paragraphs": [
+    "Regulatory facts on this page come from official sources: Dubai Municipality (Food Code, food-establishment requirements and mandatory handler training), ICCA Dubai (food-handler and Person-in-Charge training and certificate renewal), the UAE Ministry of Finance (5% VAT, in force since 1 January 2018), and Weather and Climate (Dubai December averages of 27°C by day and 19°C at night). Company details are as published by myCHEF.",
+    "Request a proposal or chat on WhatsApp ."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'From Fine Kitchens to Dubai's Most Distinguished Homes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  }
+ ],
+ "faq": [
+  {
+   "question": "Is myCHEF a catering company or an agency?",
+   "answer": [
+    "Neither exactly. MyCHEF designs the experience and manages the event; the cooking is done by independent, licensed chefs and licensed partner kitchens. MyCHEF is not a food establishment."
+   ]
+  },
+  {
+   "question": "How quickly do you reply?",
+   "answer": [
+    "Typically within 15 minutes during business hours (9am–9pm, every day), with a chef matched once your occasion details are confirmed and an itemised proposal to follow."
+   ]
+  },
+  {
+   "question": "How are the chefs vetted?",
+   "answer": [
+    "Identity checks, a practical cooking assessment and reference verification, plus confirmation of credentials, licensing and food-safety standards before any booking. Chefs who do not meet the standard, or who compromise on ingredients, are not added to the network."
+   ]
+  },
+  {
+   "question": "How much does a private chef cost in Dubai?",
+   "answer": [
+    "Most private-chef dinners run AED 700 to AED 950 per person, and packages start from AED 1,200. Smaller tables sit at the upper end of that band, because the same chef, shopping and service are spread across fewer covers. Per meal the figure covers menu design, sourcing, the cooking, table service and the clear-down, not the food alone. Full per-guest-count rates are on the prices page ."
+   ]
+  },
+  {
+   "question": "Who holds the food licence?",
+   "answer": [
+    "The independent chefs and the licensed partner kitchens. They operate to the Dubai Municipality Food Code, which also governs food transportation and mandatory handler training."
+   ]
+  },
+  {
+   "question": "Which areas of Dubai do you cover?",
+   "answer": [
+    "All of it, including Palm Jumeirah, Dubai Marina, Downtown, DIFC, Emirates Hills, Arabian Ranches, Jumeirah, JBR and Business Bay, plus emerging areas such as Al Barari and Dubai Silicon Oasis."
+   ]
+  },
+  {
+   "question": "Is myCHEF part of a larger group?",
+   "answer": [
+    "Yes. MyCHEF Dubai is part of Global Catering, operating since 2015, with a sister operation in Bali. The Dubai business trades under Numini FZC."
+   ]
+  },
+  {
+   "question": "Do you publish real prices?",
+   "answer": [
+    "Yes. Packages and per-person formats are published on the menus page instead of gated behind an enquiry, and every quote shows the 5% VAT separately."
+   ]
+  }
+ ]
+}

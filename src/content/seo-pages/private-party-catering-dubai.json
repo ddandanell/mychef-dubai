@@ -1,0 +1,195 @@
+{
+ "url": "/private-party-catering-dubai",
+ "keyword_strategy": {
+  "main_keyword": "private party catering dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 17,
+  "subkeywords_carried": 17,
+  "coverage_percent": 100,
+  "subkeywords_carried_list": [
+   "how much does catering cost in dubai?",
+   "what is the cheapest catering service?",
+   "how much will it cost to feed 40 guests?",
+   "how much does a personal chef cost in dubai?",
+   "small party catering dubai",
+   "finger food catering dubai",
+   "small party catering dubai indian",
+   "best private party catering dubai",
+   "private party catering dubai price",
+   "cheap private party catering dubai",
+   "private party catering dubai near me",
+   "private party catering dubai price list",
+   "private catering near me",
+   "dinner party catering dubai",
+   "birthday party catering dubai",
+   "private party catering near me",
+   "kids birthday party catering dubai"
+  ],
+  "subkeywords_not_carried": [],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Private Party Catering Dubai | Menus & Prices | myCHEF",
+  "meta_description": "Private party catering in Dubai from AED 120pp for a buffet, AED 700–950pp with a chef cooking on site. Canapés, grazing and live stations. Get an itemised quote.",
+  "h1": "Private Party Catering in Dubai — Real Prices, Menus and Timings"
+ },
+ "opening_paragraph": [
+  "Private party catering in Dubai from myCHEF runs from AED 120 per head for a buffet to AED 700 and up with a chef cooking on site . The gap between those two numbers is service, not quality. The lower tier is food set out for guests to help themselves. The upper tier is a vetted chef who plans the menu, cooks fresh at your venue and serves it. It is bespoke food for whatever you are marking — a milestone birthday, a homecoming, an anniversary, or just the right people in one room. Tell us your date, numbers and venue, and we typically reply within 15 minutes during business hours, with an itemised proposal to follow — no vague \"packages from\" teaser, a real quote you can plan around."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "Private Party Catering Formats",
+   "match_confidence": 0.77,
+   "new_heading": "Private party catering across Dubai",
+   "new_paragraphs": [
+    "We cater private parties across the whole city, from Palm Jumeirah and Emirates Hills villas to Downtown and Marina apartments, Dubai Hills family homes and JBR beachfront settings. The chef travels to you, so wherever the party is, the kitchen comes with it. Neighbouring occasions overlap too — see cocktail party catering and pool party catering , explore the wider party catering hub, or browse all catering in Dubai . Corporate hosts arranging a team celebration can start from the same enquiry, and we will point you to the right format."
+   ]
+  },
+  {
+   "block_on_your_page": "What Our Private Party Catering Includes",
+   "match_confidence": 0.93,
+   "new_heading": "What does private party catering include?",
+   "new_paragraphs": [
+    "It includes everything from the first menu conversation to the last cleared plate, so hosting stops being a chore. As a full-service catering company, myCHEF handles menu design around your occasion and any dietary needs, sourcing and prep, a vetted chef cooking fresh on site, service staff where the format needs them, plating and presentation, plus complete setup and cleanup afterwards. You are not left washing up at midnight. For a home or villa event we bring the equipment the space lacks — burners, chafing dishes, serving ware — and work cleanly around your kitchen. Everything is quoted transparently up front, itemised line by line, so there are no surprises on the night. That end-to-end scope is what separates real catering services from a drop-and-run tray delivery."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "Your Home, Transformed Into a Venue",
+  "Private Parties We've Brought to Life",
+  "Host Without Lifting a Finger",
+  "Explore myCHEF Dubai",
+  "Private Party Catering Questions",
+  "Private Party Catering Across Dubai",
+  "Private Parties we coordinate catering for"
+ ],
+ "add_block": [
+  {
+   "new_heading": "Private party catering for birthdays, corporate and celebrations",
+   "new_paragraphs": [
+    "Whatever the occasion, the menu and service flex to match its mood. A relaxed birthday at home leans on grazing tables and live stations that keep people moving and mingling; a formal anniversary or engagement suits a plated, seated dinner with wine pairings. We also handle corporate private party catering that teams book for staff celebrations, client evenings and end-of-year parties, where polish and timing matter as much as the food. Bachelor and bachelorette gatherings, reunions, farewells, housewarmings and pool-side afternoons all work — the format just changes. Children's parties work too, with a menu pitched at the age of the room and a proper one running alongside it for the adults. Because every myCHEF menu is bespoke, the same vetted chef can turn a quiet dinner for eight into a canapé reception for sixty without a drop in quality. Tell us who is coming and what you are celebrating, and we will recommend a private party menu your guests will remember."
+   ],
+   "insert_after_block": "What Our Private Party Catering Includes",
+   "position": "after the block titled 'What Our Private Party Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What is on the private party catering menu?",
+   "new_paragraphs": [
+    "The menu is entirely yours — the lists below are starting points we tailor, not fixed set choices.",
+    "Canapés & finger food — passed bites and grazing boards for a standing, mingling party.",
+    "Live cooking stations — pasta, grill, shawarma or dessert stations plated to order for theatre.",
+    "Buffet or family-style — generous shared platters for relaxed, help-yourself gatherings.",
+    "Plated multi-course — a seated, restaurant-standard dinner with timed service.",
+    "Dessert table & bar setup — a sweet spread plus a mocktail or coffee station to finish.",
+    "Cuisines span Arabic, Italian, Mediterranean, Indian and pan-Asian, and every dish is cooked fresh at your venue, not reheated. This is home catering built for taste, not tray-bake convenience."
+   ],
+   "insert_after_block": "What Our Private Party Catering Includes",
+   "position": "after the block titled 'What Our Private Party Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Dietary needs, styling and logistics",
+   "new_paragraphs": [
+    "Dietary requirements are designed in from the start, not bolted on as an afterthought. Halal is standard, and vegetarian, vegan, gluten-free, nut-conscious and dairy-free spreads are built as menus in their own right, not as substitutions. Those options are available on request, subject to confirmation by the assigned culinary partner. Partner kitchens may handle allergens, and cross-contact cannot be completely excluded unless dedicated controls have been specifically confirmed for the booking. Guests with allergies must give full details before the event is confirmed. On styling, we match plating and table dressing to your theme so the food photographs as well as it tastes. On logistics, one team owns the timeline: arrival and setup, a service schedule tied to your speeches or cake moment, discreet replenishment through the evening, and a clean handover at the end. For villa and apartment events we confirm access, parking and kitchen space in advance so nothing stalls on the day. It is the kind of private party food hosts want but rarely get from a standard caterer."
+   ],
+   "insert_after_block": "What Our Private Party Catering Includes",
+   "position": "after the block titled 'What Our Private Party Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How to hire private party catering and how it works",
+   "new_paragraphs": [
+    "To hire private party catering, send three details — date, guest count and venue — and the rest is guided. Step one, we typically reply within 15 minutes during business hours with menu directions and an itemised proposal. Step two, we refine the menu together and lock dietary needs, service style and timings. Step three, on the day your matched chef and any service staff arrive, set up, cook fresh, serve and clear up, leaving your kitchen as they found it. There is no long tasting commitment required for a standard party, though a paid tasting is available for larger events. Booking a week ahead suits a small gathering; reserve earlier for big numbers or peak dates. Whether you want private party catering near me for tonight or a planned celebration, the path from enquiry to plated food is short and clear."
+   ],
+   "insert_after_block": "Private Party Catering Across Dubai",
+   "position": "after the block titled 'Private Party Catering Across Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Why book myCHEF for your private party",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you own the evening, we carry the work. Chefs reach private party catering only after identity checks, a practical cooking assessment, reference verification and ongoing performance reviews — a continuous standard, not a one-time tick. We are honest about it, too: no system removes every risk, so we match each event to the best available chef for it, the one well suited to your particular party.",
+    "For a party like yours, that often means Ahmed Al-Rashid — 18+ years across Dubai, London and Paris in classical French technique — who designs each menu as a collaboration with the host, every course timed, seasoned and served to exacting standards. When the brief leans Arabic or Ramadan-focused we bring in Layla Hassan , and for a show-stopping dessert table Sofia Moretti leads pastry. Alongside private party catering we have delivered villa weddings, yacht celebrations and corporate galas in Dubai."
+   ],
+   "insert_after_block": "Private Party Catering Across Dubai",
+   "position": "after the block titled 'Private Party Catering Across Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which private party catering format suits your event?",
+   "new_paragraphs": [
+    "Format Service staff Guests it suits Indicative cost",
+    "Drop-off None 10 and above, informal From AED 120 per person",
+    "Buffet 1–2 20–60 From AED 120 per person",
+    "Premium buffet, BBQ or canapés 1–3 20 and above From AED 150 per person",
+    "Live stations 2–4 40 and above From AED 150 per person",
+    "Chef cooking and plating on site 3 and above 2–40 seated AED 700–950 per person"
+   ],
+   "insert_after_block": "Private Party Catering Questions",
+   "position": "after the block titled 'Private Party Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Common questions",
+   "new_paragraphs": [
+    "How much does private party catering cost in Dubai?",
+    "It starts at AED 120 per person for a standard event buffet, AED 150 for premium buffet, BBQ, live stations or canapés, and AED 700 to AED 950 per person where a chef cooks and plates on site. Send your date and numbers for an itemised quote.",
+    "What is the cheapest catering service for a private party?",
+    "Our least expensive format is self-service: a drop-off or buffet format from AED 120 per person, with no service staff on site. You give up the chef, the timed service and the cleanup, but for a relaxed house party it feeds people properly. Tell us the budget and we will quote the lightest format that still works for the room.",
+    "How much will it cost to feed 40 guests?",
+    "Multiply 40 covers by the per-head tier and add 5% VAT. A standard event buffet is 40 at AED 120, premium buffet, BBQ or live stations is 40 at AED 150, and a chef cooking and plating for the room is 40 at AED 700 and upward. Staffing is the line that does not scale evenly: a 40-guest buffet needs one or two servers, live stations two to four, and plated service three or more.",
+    "How much does a personal chef cost in Dubai?",
+    "A personal chef costs AED 700 to AED 950 per person for a party of ten, and the rate moves with the size of the table: roughly AED 950 to AED 1,300 a head for two guests, AED 750 to AED 1,000 for six, and from AED 600 a head above twenty. A tasting menu with wine pairing is from AED 1,400 per person.",
+    "What's included in private party catering?",
+    "Everything is included — menu design, a vetted chef cooking on site, service staff where needed, plating, full setup and complete cleanup afterwards. You host; we handle the rest.",
+    "How far ahead should I book?",
+    "Allow 72 hours for a standard catering package, three to five days for live stations or a multi-staff party, and five to seven days for a bespoke menu or a larger private event. We recommend booking as early as possible. Lead times depend on guest numbers, menu complexity, staffing, equipment, location and partner availability. Tight timeline for your private party? We check live partner availability before saying yes or no.",
+    "Can you cater a private party at my home or villa?",
+    "Yes — home and villa parties are the core of what we do. The chef brings the equipment your kitchen lacks and works cleanly around your space, so this is genuinely private catering in your own home.",
+    "Do you cater kids birthday parties?",
+    "Yes. Kids birthday party catering in Dubai is built around smaller portions, food children will eat, a dessert or ice-cream table as the centrepiece, and service timed around the games and the cake instead of around courses. The adults in the room get a proper menu at the same time.",
+    "Do you offer menus for dietary needs?",
+    "Yes. Halal is standard, and vegetarian, vegan, gluten-free, nut-conscious and dairy-free menus are built properly, not as an afterthought. These options are available on request, subject to confirmation by the assigned culinary partner. Partner kitchens may handle allergens, and cross-contact cannot be completely excluded unless controls have been confirmed for your booking. Give us full details when you book.",
+    "Can you cater corporate private parties too?",
+    "Yes — we regularly handle corporate private party catering for staff celebrations and client evenings, with the polish and timing a business event needs. Start from the same enquiry.",
+    "For private party catering, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements ."
+   ],
+   "insert_after_block": "Private Party Catering Questions",
+   "position": "after the block titled 'Private Party Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning private party catering step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your private party catering proposal arrives.",
+    "Book with 72 hours for a standard catering package, 3–5 days for live stations or a multi-staff party, and 5–7 days for a bespoke menu or a larger private event. Short-notice requests are assessed individually.",
+    "Confirm the menu for private party catering once numbers stop moving — a few days out is enough for most parties.",
+    "Ask for dietary covers at the private party catering briefing stage, not in the last 48 hours .",
+    "Check parking and lift access; your private party catering team is on site some 2 hours early.",
+    "Plan on roughly 3 hours of private party catering service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": "Private Party Catering Questions",
+   "position": "after the block titled 'Private Party Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  },
+  {
+   "new_heading": "How much does private party catering in Dubai cost?",
+   "new_paragraphs": [
+    "Private party catering in Dubai is priced per head, and the format moves the number more than anything else on the quote. A standard event buffet starts at AED 120 per person. Premium buffet, BBQ, live cooking stations and canapé service start at AED 150. A chef cooking and plating at your venue is AED 700 to AED 950 per head, because there you are paying for a chef's night as well as the food. If you prefer a fixed structure, curated packages run from AED 1,200 to AED 5,500 depending on courses and headcount. Everything is itemised — food, chef, staff, equipment — with no hidden service charge, and 5% VAT is added to the total. Minimums are 10 guests on volume formats, 20 on a buffet and a minimum order value of AED 900; a chef cooking a plated dinner for two carries no minimum headcount. Compare figures in our Dubai catering price guide , then request an itemised quote — the honest way to understand catering prices and the real cost you should budget for."
+   ],
+   "insert_after_block": "Private Party Catering Across Dubai",
+   "position": "after the block titled 'Private Party Catering Across Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  }
+ ],
+ "faq": []
+}

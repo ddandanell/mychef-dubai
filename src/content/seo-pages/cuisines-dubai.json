@@ -1,0 +1,184 @@
+{
+ "url": "/cuisines-dubai",
+ "keyword_strategy": {
+  "main_keyword": "cuisines catering dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 16,
+  "subkeywords_carried": 16,
+  "coverage_percent": 100,
+  "subkeywords_carried_list": [
+   "different cuisines in dubai",
+   "what cuisine is famous in dubai?",
+   "how much does catering cost in dubai?",
+   "how much will it cost to feed 40 guests?",
+   "small party catering dubai",
+   "finger food catering dubai",
+   "best cuisines catering dubai",
+   "cuisines catering dubai menu",
+   "cuisines catering dubai price",
+   "cuisines catering dubai reviews",
+   "cuisines catering dubai price list",
+   "food catering dubai",
+   "cuisines restaurant dubai",
+   "how much do catering cost",
+   "food catering company dubai",
+   "best food catering in dubai"
+  ],
+  "subkeywords_not_carried": [],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Cuisines Catering Dubai | Per-Head Prices from AED 90 | myCHEF",
+  "meta_description": "Cuisines catering in Dubai with the prices printed: buffets from AED 90, AED 120 and AED 150 per head, a chef cooking on site from AED 700. What Dubai eats, what 40 guests costs, and who else you should be asking.",
+  "h1": "Cuisines Catering in Dubai — What Each Format Costs Per Head, from AED 90"
+ },
+ "opening_paragraph": [
+  "Cuisines catering in Dubai from myCHEF costs from AED 90 per head for a working lunch, AED 120 for an event buffet and AED 150 for canapés. AED 150 also covers a premium buffet, BBQ or live stations, and the ladder holds whichever cuisine you pick. A chef cooking and serving in front of your guests is a separate product, priced at AED 700 to AED 950 a head.",
+  "Send the date, the headcount and the venue, and you get an itemised proposal with those numbers filled in for your event — not a \"prices on request\" reply that costs you a week of phone calls before you learn the budget."
+ ],
+ "replace_in_block": [],
+ "leave_untouched": [
+  "Inclusive Menus for Every Guest",
+  "Explore Our Catering Services",
+  "Questions About Cuisine-Specific Catering",
+  "Not Sure Which Cuisine Suits Your Event?",
+  "Explore myCHEF Dubai",
+  "Choose a Cuisine for Your Dubai Event"
+ ],
+ "add_block": [
+  {
+   "new_heading": "The different cuisines in Dubai the chef cooks — and who cooks them",
+   "new_paragraphs": [
+    "Here is where the network runs deep, without claiming every cuisine on earth. Arabic and Levantine means cold and hot mezze, charcoal grills, aromatic rice dishes and Arabic sweets, and it is Layla's specialism — her Iftar and feast menus are the ones most requested around Ramadan and Eid. Italian runs through Marco Rossi, who grew up in Tuscany, trained in Rome and Milan, and has spent fifteen years hand-rolling pasta in villa kitchens and yacht galleys. Indian is not one cuisine but several, and the split that matters when you plan a menu is regional: North Indian and Punjabi tandoor and rich gravies, South Indian dosa and coconut-led curries, Mughlai biryani and kebabs, Bengali fish and mustard, Goan seafood and vinegar. If you have ever tried to list the top 5 cuisines in India you already know that argument has no end. We plan around the region your guests come from instead.",
+    "Asian spans sushi and maki (see sushi catering ), dim sum and wok stations. BBQ and grill is the format guests remember, run over coals outdoors or off induction and a plancha where the room cannot take fire. Dessert runs through Sofia Moretti, a Le Cordon Bleu Paris-trained pastry chef, and the fine-dining end through Ahmed Al-Rashid, 18+ years across Dubai, London and Paris in classical French technique. Every one of them is an independent partner chef in the myCHEF network, not an agency name on a page — read them at our chefs .",
+    "One thing shapes a cuisine menu more than the cuisine does, and it is the room. The tandoor behind the North Indian list and the charcoal grill behind the Arabic one are outdoor kit at a villa — garden, driveway or pool deck — because Dubai Municipality's barbecue guidance says plainly not to light coal in an enclosed space or indoors. Neither goes up to an apartment: Emaar's vertical-community rules bar barbecues, grills and cooking equipment of any kind from balconies and terraces whatever the fuel, and no LPG cylinder may be brought into the tower at all. Neither goes aboard a yacht, where the marina rule is that no additional gas cylinder comes on the boat. For a rooftop or a desert camp, myCHEF confirms the setup with the building or the site before it reaches your proposal instead of assuming it. No cuisine drops off the list when the fire does: the naan, the kebabs and the tikka are baked in the licensed partner kitchen and finished hot on an induction plancha or carved live at a station in front of your guests, which is how most apartment and yacht events in this city are actually cooked.",
+    "Across all of it, halal is the default and vegan , vegetarian and allergy-aware courses are planned into the first draft of the menu, not bolted on at the end. A cook who knows the cuisine can keep a dish authentic and safe at the same time, instead of retreating to the one dish every guest has eaten a hundred times."
+   ],
+   "insert_after_block": "Choose a Cuisine for Your Dubai Event",
+   "position": "after the block titled 'Choose a Cuisine for Your Dubai Event'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How much does catering cost in Dubai?",
+   "new_paragraphs": [
+    "Two ladders, and the thing that decides which one you are on is not the cuisine but whether a chef is standing in your kitchen. Food formats — drop-off, working lunch, buffet, grazing, canapés — price per head at the tiers below. A chef cooking and serving on site prices from AED 700 per head because you are buying someone's evening, not a tray of food.",
+    "Format Per head Minimum Staffing",
+    "Drop-off / working or office lunch from AED 90 10 guests None — delivered ready to serve",
+    "Standard event buffet from AED 120 20 guests 1–2",
+    "Premium buffet, BBQ, live stations, finger food and canapés from AED 150 20 guests 2–4",
+    "Chef cooking and serving on site, plated AED 700–950 No minimum headcount Chef, plus service staff by size",
+    "The on-site chef rate moves with headcount because the chef's time spreads further: two guests sit at AED 950–1,300 per head, four at AED 800–1,100, six at AED 750–1,000, ten at AED 700–950, and 20 or more from AED 600. Set packages price whole, not per head: Date Night from AED 1,200, Family Feast from AED 2,400, Birthday Celebration from AED 3,600, Corporate Dinner from AED 4,500, and the Full Experience from AED 5,500. A tasting menu with pairings is from AED 1,400 per person. Everything carries 5% VAT. The full breakdown lives on private chef prices and the catering price guide ."
+   ],
+   "insert_after_block": "Choose a Cuisine for Your Dubai Event",
+   "position": "after the block titled 'Choose a Cuisine for Your Dubai Event'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How much will it cost to feed 40 guests?",
+   "new_paragraphs": [
+    "Take the per-head rate and multiply — there is no trick to it, and the proposal shows the same arithmetic. To feed 40 guests on the working-lunch tier is 40 × AED 90 = AED 3,600 before VAT. The same 40 guests on the standard event buffet at AED 120 a head, or on the premium tier at AED 150 a head, rises in proportion, and 5% VAT goes on top of whichever total you land on. Forty guests with a chef plated and serving at AED 700 a head is a different order of spend, and for most 40-guest parties it is not what the room needs — a premium buffet with a live station does more for the evening at a fraction of it.",
+    "What changes the number after that is honest and short: how many dishes, whether staff stay to serve and clear, whether you need equipment and furniture brought in, and how far the venue is. Those go on the proposal as separate lines, not buried in a per-head figure."
+   ],
+   "insert_after_block": "Choose a Cuisine for Your Dubai Event",
+   "position": "after the block titled 'Choose a Cuisine for Your Dubai Event'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Who are the top 10 catering companies in Dubai?",
+   "new_paragraphs": [
+    "There is no official ranking, no regulator that awards the title, and we are not going to award it to ourselves. What we can give you is data. Across the 205 Dubai catering searches we sampled in July 2026, the names that came back most often in the top ten were Cedar Tree, Elements, Taste Studio, Al Safadi, Baguette, Buffestra, Monchef and Dish — and Cedar Tree appeared more than any other single caterer. If you are searching for the top 10 catering companies in Dubai, those are the names you will meet, and several of them are excellent at what they do.",
+    "Here is the part worth knowing before you send eight enquiries. Two of the most visible companies in that list publish no prices at all — quote on request only — and one of the most-linked \"what does catering cost in Dubai\" explainers is a blog written by a caterer that states no rate of its own anywhere on its site. Of the companies that do publish, our AED 120 event-buffet entry sits just under the median of the 58 published per-head prices we collected, and the AED 90 working-lunch tier sits near the bottom of the published corporate-lunch band. That is the whole pitch. We are not claiming the top spot in Dubai food catering; we are letting you compare us before you talk to us.",
+    "That also settles the question of which caterer is “the best&rdquo. It is not a property a catering company owns; it is a property of a match. The outfit best suited to a 12-person board dinner is a chef plating courses. For a 200-person launch it is a buffet with live stations and enough staff to keep it moving. Tell us which one you are running, and if it is not a job for us, you will hear that."
+   ],
+   "insert_after_block": "Choose a Cuisine for Your Dubai Event",
+   "position": "after the block titled 'Choose a Cuisine for Your Dubai Event'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Small parties, finger food, and the smallest booking we take",
+   "new_paragraphs": [
+    "Small party catering is where the minimums matter most. Delivered and working-lunch formats need 10 guests, a buffet needs 20, and any order has to reach AED 900 in value — that is 10 guests at the AED 90 entry tier, so the two rules meet instead of fighting. Finger food and canapés sit on the AED 150 tier because pieces-per-person and staffed passing cost more to produce than a tray of the same food.",
+    "Below 10 guests, the format that works is the on-site chef, which carries no minimum headcount at all: four guests at AED 800–1,100 per head is a real, regular booking, and so is a two-person Date Night from AED 1,200. That is the honest routing — a six-person dinner served properly beats a buffet built for 20 and eaten by six. See private party catering and cocktail party catering for how each runs."
+   ],
+   "insert_after_block": "Choose a Cuisine for Your Dubai Event",
+   "position": "after the block titled 'Choose a Cuisine for Your Dubai Event'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Are all Emirates meals halal?",
+   "new_paragraphs": [
+    "No, and it is worth being precise because the assumption trips people up when they plan a mixed guest list. Across the Emirates, licensed hotels and venues serve pork and alcohol to non-Muslims in designated areas, so not every meal served in the country is halal. What we can speak for is our own: every cuisine on this page can be cooked fully halal with halal-sourced meat, and pork or alcohol appears only if you ask for it and the venue permits it. We are not publishing a halal certification on this page — if your event needs certified sourcing documented, raise it at enquiry and we will confirm in writing what can be evidenced, instead of waving it through. The chefs and partner kitchens handling your booking work to Dubai Municipality food-safety requirements ."
+   ],
+   "insert_after_block": "Choose a Cuisine for Your Dubai Event",
+   "position": "after the block titled 'Choose a Cuisine for Your Dubai Event'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "myCHEF is a catering booking and management service, not a restaurant",
+   "new_paragraphs": [
+    "If you searched for a cuisines restaurant in Dubai and landed here, the difference is worth thirty seconds. A restaurant cooks its menu in its kitchen and you travel to it. We bring the cooking to your address — villa, apartment, office, yacht or beach venue — which means the menu is written for your guests instead of for a print run, and the numbers above cover food, people, equipment and clear-down, not a cover charge. Palm Jumeirah villas, Downtown apartments, Marina yachts, Emirates Hills, Jumeirah, Business Bay: same chefs, same standard, quoted to your address."
+   ],
+   "insert_after_block": "Choose a Cuisine for Your Dubai Event",
+   "position": "after the block titled 'Choose a Cuisine for Your Dubai Event'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Reviews, and what we put in their place",
+   "new_paragraphs": [
+    "We do not publish a rating or a review count on this page. The straight answer is that the review base is still being built, and a launch-stage caterer posting a wall of praise is the oldest tell in the trade. What we offer instead is checkable: anonymisedthat set out the brief, the cuisine, the execution and the outcome; named partner chefs with real biographies you can read before you book; a written account of how the network is vetted at how we vet our chefs — identity checks, a practical cooking assessment, reference verification and ongoing performance review, which is a continuous standard, not a one-time tick; and on the booking itself. No process removes every risk, so we match each event to the chef best suited to it, and say that out loud."
+   ],
+   "insert_after_block": "Choose a Cuisine for Your Dubai Event",
+   "position": "after the block titled 'Choose a Cuisine for Your Dubai Event'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Getting a menu and a price list for your date",
+   "new_paragraphs": [
+    "What if your numbers change after you book? They usually do. Final headcount is confirmed 7 days before the date and the proposal is re-issued at the new count, which is the reason the price sits on a per-head line instead of inside a sealed package — you can see exactly what ten guests more or ten guests fewer does to the total, with no hidden adjustment appearing later.",
+    "Send the date, the guest count and the venue — a proposal comes back, itemised line by line.",
+    "Book about 2 weeks ahead off-peak, and 6 weeks ahead between November and March when the event season fills.",
+    "Confirm the menu 7 days out, with final numbers — that is when the price list is fixed.",
+    "Flag allergies and dietary needs at booking, well outside the final 48 hours, so the chef can route ingredients and prep properly.",
+    "Expect setup to begin roughly 2 hours before guests arrive, and about 3 hours of service on the night.",
+    "Catering trends 2026",
+    "Request a cuisines catering proposal or chat on WhatsApp ."
+   ],
+   "insert_after_block": "Choose a Cuisine for Your Dubai Event",
+   "position": "after the block titled 'Choose a Cuisine for Your Dubai Event'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Common questions",
+   "new_paragraphs": [
+    "What cuisine is famous in Dubai?",
+    "Emirati food is the cuisine Dubai is genuinely famous for: machboos, harees, thareed, balaleet, luqaimat, dates with Arabic coffee and karak tea. Day to day the city eats far wider than that — Lebanese and Levantine, Indian and Pakistani, Filipino, Iranian and Egyptian kitchens are what most residents order from. We do not publish a dedicated Emirati menu, so ask before you assume it; the closest thing in our network is Arabic and Levantine cooking.",
+    "How much does catering cost in Dubai?",
+    "Our food formats price per head: from AED 90 for a working or office lunch buffet, from AED 120 for a standard event buffet, and from AED 150 for a premium buffet, BBQ, live stations or finger food and canapés. A chef who cooks and serves on site is a separate product at AED 700 to AED 950 per head. Add 5% VAT to any total.",
+    "How much will it cost to feed 40 guests?",
+    "Multiply the per-head rate by the headcount. To feed 40 guests on the working-lunch tier is 40 times AED 90, which is AED 3,600 before VAT. The same 40 guests on the standard event buffet at AED 120 a head, or the premium tier at AED 150 a head, rises in proportion, and 5% VAT goes on top. Forty guests with a chef plated and serving at AED 700 a head is a different order of spend entirely.",
+    "What is the leading catering company in Dubai?",
+    "There is no official ranking, and we are not going to claim the title. Across the 205 Dubai catering searches we sampled in July 2026, the names that came back most often were Cedar Tree, Elements, Taste Studio, Al Safadi, Baguette, Buffestra, Monchef and Dish, with Cedar Tree appearing more than any other single caterer. What we can point at is a real difference: two of the most visible names publish no prices at all, and every figure on this page is one you can hold us to.",
+    "What is the minimum number of guests for cuisines catering?",
+    "Ten guests for delivered and working-lunch formats, 20 for a full buffet, and a minimum order value of AED 900. A private chef cooking on site has no minimum headcount, because it is priced per head from AED 700 — a dinner for two is a real booking.",
+    "Are all Emirates meals halal?",
+    "No — not everything served across the Emirates is halal, because licensed hotels and venues serve pork and alcohol to non-Muslims in designated areas. What we can speak for is our own meals: every cuisine the chef cooks can be prepared fully halal with halal-sourced meat, and pork or alcohol only appears if you ask for it and the venue permits it. We are not publishing a halal certification here; if you need certified sourcing documented for your event, say so at enquiry and we will confirm what can be evidenced.",
+    "Do you have reviews for cuisines catering?",
+    "We do not publish a rating or a review count on this page, because the honest answer is that the review base is still being built.",
+    "Can you cater more than one cuisine at the same event?",
+    "Yes, and it is one of the most common briefs we get. A single event might run Arabic mezze alongside an Italian pasta station or an Indian grill; the chef balances quantities and timing so it reads as one meal, not three buffets pushed together.",
+    "How far in advance should I book cuisines catering in Dubai?",
+    "Plan on about two weeks off-peak and six weeks between November and March, when Dubai's event season books out. Shorter notice is sometimes possible if a chef is free — send the date and we confirm availability instead of guessing."
+   ],
+   "insert_after_block": "Choose a Cuisine for Your Dubai Event",
+   "position": "after the block titled 'Choose a Cuisine for Your Dubai Event'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  }
+ ],
+ "faq": []
+}

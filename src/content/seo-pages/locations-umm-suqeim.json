@@ -1,0 +1,178 @@
+{
+ "url": "/locations/umm-suqeim",
+ "keyword_strategy": {
+  "main_keyword": "private chef umm suqeim",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 5,
+  "subkeywords_carried": 3,
+  "coverage_percent": 60,
+  "subkeywords_carried_list": [
+   "private chef dubai",
+   "full time private chef dubai",
+   "private chef umm suqeim reviews"
+  ],
+  "subkeywords_not_carried": [
+   "mexican private chef dubai",
+   "private chef umm suqeim husband"
+  ],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Private Chef Umm Suqeim | Villa Dining & Catering | myCHEF",
+  "meta_description": "Private chef & catering in Umm Suqeim from AED 700pp — villa dining, events and bespoke menus with vetted chefs. Serving beachside villas near the Burj Al Arab. Request a proposal.",
+  "h1": "Private Chef Umm Suqeim — Villa Dining & Catering"
+ },
+ "opening_paragraph": [
+  "A private chef in Umm Suqeim turns a beachside villa into your own restaurant for the evening, with private dining from AED 700 per person. myCHEF pairs you with a vetted chef who plans the menu around your occasion, shops for it, cooks in your kitchen, serves each course and clears everything away before leaving. These are family villas with gardens a short walk from the sand beside the Burj Al Arab, so most people the chef cooks for here are households settled in this upscale beachside stretch. Send your date and address, and during our published business hours you'll hear back promptly with a chef match and an itemised proposal."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "Who Books Private Chef & Catering in Umm Suqeim?",
+   "match_confidence": 0.76,
+   "new_heading": "How much does a private chef cost in Umm Suqeim?",
+   "new_paragraphs": [
+    "Private dining in Umm Suqeim starts from AED 700 per person and rises with the level of service. The Umm Suqeim private chef cost scales with your table: intimate dinners for two sit nearer AED 950–1,300 per head, six guests land around AED 750–1,000, and ten or more come from AED 700, because the kitchen work spreads across more covers. Multi-course tasting menus, premium ingredients like seafood or wagyu, and extra service staff move the figure up. There are no hidden add-ons — the proposal is itemised, so you see menu, staffing and any equipment clearly. See the full breakdown on private chef prices in Dubai , or send your guest count and menu style for an exact quote."
+   ]
+  },
+  {
+   "block_on_your_page": "What Is Included in Umm Suqeim Catering",
+   "match_confidence": 0.64,
+   "new_heading": "What does a private chef in Umm Suqeim include?",
+   "new_paragraphs": [
+    "It includes everything from the first menu conversation to the last clean plate. When you book a personal chef through myCHEF, the price covers a bespoke menu designed for your guests, ingredient sourcing, on-site cooking in your own kitchen, plating and course service, plus a full cleanup that leaves the space exactly as it was found. For a larger table, service staff are added so the host never has to leave the room. The chef arrives with their own equipment where needed and works to a timed running order, so each course lands when it should. This is the difference between drop-off trays and a true in-villa chef: nothing is reheated, everything is cooked in front of you, and the evening runs to your pace instead of a delivery window. Catering in Umm Suqeim through myCHEF is built around one idea — you own the evening, the chef carries the work."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "At a Glance",
+  "Beachfront villa private dining for Umm Suqeim's established coastal community, with menus and service designed for garden, pool and shoreline settings.",
+  "Properties We Serve in Umm Suqeim",
+  "Menu Styles for Umm Suqeim Villas",
+  "Popular Umm Suqeim Catering Occasions",
+  "Also Serving Near Umm Suqeim",
+  "Services in Umm Suqeim",
+  "Explore Our Services",
+  "Popular Events in Umm Suqeim",
+  "Questions About Umm Suqeim Catering",
+  "Explore myCHEF Dubai",
+  "How Umm Suqeim Private Chef Catering Works",
+  "Why myCHEF Dubai for Umm Suqeim Catering",
+  "Delivery & Access in Umm Suqeim",
+  "Plan Your Umm Suqeim Private Dinner"
+ ],
+ "add_block": [
+  {
+   "new_heading": "Private dining in Umm Suqeim for families, celebrations and events",
+   "new_paragraphs": [
+    "Most bookings here are family dinners, birthdays and garden celebrations instead of formal corporate functions. Umm Suqeim is a residential, family-led neighbourhood, so villa dining leans toward relaxed hosting: a Friday gathering on the terrace, a milestone birthday, an anniversary for two, or a larger Umm Suqeim party catering set-up spilling into the garden. The same vetted chefs also handle Umm Suqeim event catering at scale — engagement dinners, welcome meals for visiting family, and seasonal celebrations across the calendar. Whether it is an intimate table or a fifty-guest garden buffet, the chef and menu are shaped around the occasion, the space and the people at the table, not squeezed into a fixed package."
+   ],
+   "insert_after_block": "What Is Included in Umm Suqeim Catering",
+   "position": "after the block titled 'What Is Included in Umm Suqeim Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What's on the menu?",
+   "new_paragraphs": [
+    "Anything you want to eat, built to your table. MyCHEF chefs cook bespoke menus across Arabic , Mediterranean , Italian , Indian and Pan-Asian cuisines, served plated, family-style or as a grazing spread. Every menu can be built fully halal , and vegetarian and vegan requirements are handled as standard — flag them when you enquire and the chef designs around them. Gluten-free options are available on request, subject to partner confirmation and an allergen review for the specific booking. A dinner party might run canapés on the terrace, a shared main course and a plated dessert; a family feast might be a generous mezze and grill. Browse sample menus for a starting point, or describe a theme, a favourite dish or a cuisine and the chef proposes a tasting-led menu back to you."
+   ],
+   "insert_after_block": "What Is Included in Umm Suqeim Catering",
+   "position": "after the block titled 'What Is Included in Umm Suqeim Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How does villa dining work in Umm Suqeim?",
+   "new_paragraphs": [
+    "Umm Suqeim's low-rise streets make the logistics easy. The neighbourhood sits between the Burj Al Arab and Kite Beach, and the villas here have proper kitchens and gardens, so chef and equipment access is clear — no service lifts, no tower loading bays, no security escort to arrange. That means a villa chef in Umm Suqeim can set up quickly and cook at full capacity on site. Dinners often move outdoors, onto a terrace or by the pool, and the chef plans service around that flow. Once your date, guest count and address are confirmed, the chef settles the menu with you in advance, arrives ahead of your guests to prep, cooks and serves through the evening, then clears down. All you do is open the door and sit down."
+   ],
+   "insert_after_block": "What Is Included in Umm Suqeim Catering",
+   "position": "after the block titled 'What Is Included in Umm Suqeim Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Why book myCHEF",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you own the evening, we carry the work. Vetting for private chef umm suqeim means identity checks, a practical cooking assessment, reference verification and ongoing performance reviews — a continuous standard, not a one-time tick. We are honest about it, too: no system removes every risk, so we match each event to the chef well suited to it. For a refined villa dinner like the ones Umm Suqeim hosts, that might be Ahmed Al-Rashid , who brings 18+ years across Dubai, London and Paris in classical French technique. He designs each menu as a collaboration with the host, every course timed, seasoned and served to exacting standards. We have delivered intimate villa dinners and large celebrations across Dubai's communities. Every private chef umm suqeim booking includes, with client reviews added as events run."
+   ],
+   "insert_after_block": "How Umm Suqeim Private Chef Catering Works",
+   "position": "after the block titled 'How Umm Suqeim Private Chef Catering Works'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which private chef umm suqeim format suits your event?",
+   "new_paragraphs": [
+    "Format What it gives you Staffing Cost position",
+    "Drop-off Food delivered ready to serve None Entry point",
+    "Buffet Presentation plus a maintained spread 1–2 From AED 700 per person",
+    "Live stations Cooking in front of your guests 2–4 Mid-range",
+    "Plated Every course served together 3 and above Top of the range"
+   ],
+   "insert_after_block": "Plan Your Umm Suqeim Private Dinner",
+   "position": "after the block titled 'Plan Your Umm Suqeim Private Dinner'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Common questions",
+   "new_paragraphs": [
+    "How much does a private chef cost in Umm Suqeim?",
+    "Private dining in Umm Suqeim starts from about AED 700–950 per person, depending on guest count, menu and service level. Larger groups come down per head; send your numbers for an exact quote.",
+    "Which parts of Umm Suqeim do you serve?",
+    "All of Umm Suqeim — beachside villas near the Burj Al Arab, homes by Kite Beach and Sunset Beach, and Umm Suqeim 1, 2 and 3 — plus nearby Dubai communities. Confirm your exact address when you enquire.",
+    "What's included in the price?",
+    "Included is menu design, a vetted chef cooking on site, service staff where needed, plating, setup and full cleanup. The itemised proposal shows exactly what the figure covers.",
+    "How do I book a home chef in Umm Suqeim?",
+    "Booking is three steps: share your date, guest count and address; we match a vetted home chef and send an itemised proposal, usually within one business day; you confirm and the chef finalises timings with you.",
+    "Can you cater a dinner party or larger event at my villa?",
+    "Yes — Umm Suqeim dinner party catering and larger villa catering both work in-villa, from a table for two to a garden gathering of fifty or more, with extra service staff added as the headcount grows.",
+    "Do you offer halal and dietary-specific menus?",
+    "Yes. Every menu can be built fully halal, and we handle vegetarian and vegan requirements. Gluten-free, nut-conscious and other dietary menu options may be available on request, subject to confirmation by the assigned culinary partner. Partner kitchens may handle allergens, and cross-contact cannot be completely excluded unless dedicated controls have been specifically confirmed for the booking. Guests with allergies must provide full details before confirming their event.",
+    "How far in advance should I book?",
+    "Three to seven days is comfortable for most villa dinners; weekends and peak dates fill faster. Short-notice bookings are often possible depending on chef availability — ask and we will check.",
+    "For private chef umm suqeim, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements ."
+   ],
+   "insert_after_block": "Plan Your Umm Suqeim Private Dinner",
+   "position": "after the block titled 'Plan Your Umm Suqeim Private Dinner'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How do I hire a private chef in Umm Suqeim?",
+   "new_paragraphs": [
+    "You share three things and we do the rest. To hire a chef for Umm Suqeim, send your date, guest count and villa address, along with any cuisine preference or dietary needs. MyCHEF matches a vetted chef for hire whose strengths fit your occasion, then sends an itemised proposal — menu, staffing and price — usually within one business day, and promptly during our published business hours for the initial match. You review the menu, adjust anything, and confirm. The chef contacts you before the event to finalise timings and any last details. On the day, they arrive early to prep, cook and serve through your evening, and leave the kitchen spotless. Looking for a private chef near Umm Suqeim at short notice is often possible too — just ask and we will check current availability."
+   ],
+   "insert_after_block": "How Umm Suqeim Private Chef Catering Works",
+   "position": "after the block titled 'How Umm Suqeim Private Chef Catering Works'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  },
+  {
+   "new_heading": "Private chef across Umm Suqeim and nearby",
+   "new_paragraphs": [
+    "We cover the whole neighbourhood and the communities around it. Within Umm Suqeim that means beachside villas near the Burj Al Arab, homes by Kite Beach and Sunset Beach, and the streets of Umm Suqeim 1, 2 and 3. Beyond it, the same vetted chefs serve Jumeirah , Palm Jumeirah and the wider coast — explore all Dubai locations . If you are still deciding on format, compare private chef vs catering to see which suits your guest count and budget. Wherever your villa sits, the promise is the same: a genuinely luxury private chef experience, cooked on site, tailored to you."
+   ],
+   "insert_after_block": "Why myCHEF Dubai for Umm Suqeim Catering",
+   "position": "after the block titled 'Why myCHEF Dubai for Umm Suqeim Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  },
+  {
+   "new_heading": "More on private chef umm suqeim",
+   "new_paragraphs": [
+    "Part time private chef catering dubai",
+    "Private chef difc",
+    "How to hire a private chef dubai",
+    "Tourist villa chef catering dubai",
+    "Get an itemised quote"
+   ],
+   "insert_after_block": "Delivery & Access in Umm Suqeim",
+   "position": "after the block titled 'Delivery & Access in Umm Suqeim'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  }
+ ],
+ "faq": []
+}

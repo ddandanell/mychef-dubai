@@ -1,0 +1,244 @@
+{
+ "url": "/our-chefs",
+ "keyword_strategy": {
+  "main_keyword": "private chefs dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 19,
+  "subkeywords_carried": 17,
+  "coverage_percent": 89,
+  "subkeywords_carried_list": [
+   "how much does a private chef cost in dubai?",
+   "how much does a private chef make in dubai?",
+   "how much does it usually cost to have a private chef?",
+   "private chef dubai hire",
+   "book private chef dubai",
+   "best private chef dubai",
+   "private chef dubai daily",
+   "best private chefs dubai",
+   "private chefs dubai price",
+   "private chef at home dubai",
+   "female private chefs dubai",
+   "private chef dubai full time",
+   "full time private chef dubai",
+   "private bbq chef dubai",
+   "private chef dubai cost",
+   "find private chef dubai",
+   "hire private chef dubai"
+  ],
+  "subkeywords_not_carried": [
+   "famous private chefs dubai",
+   "famous private chefs"
+  ],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Private Chefs Dubai | How Our Chefs Are Vetted | myCHEF Dubai",
+  "meta_description": "Private chefs in Dubai: independent, licensed professionals. MyCHEF is rolling out a structured partner verification and quality-assurance framework across its chef network.",
+  "h1": "Private Chefs Dubai — How They Are Vetted Before They Cook for You"
+ },
+ "opening_paragraph": [
+  "The private chefs in Dubai who cook through myCHEF are independent, licensed professionals, matched to your event by cuisine, format and setting. myCHEF is implementing a structured partner verification and quality-assurance framework, covering identity and licence checks, practical assessment, references and post-event review. That process is the part you feel on the night.",
+  "Every chef in the myCHEF network is vetted and interviewed. Meet some of them.",
+  "Ahmed Al-Rashid",
+  "Layla Hassan",
+  "Marco Rossi",
+  "Sofia Moretti"
+ ],
+ "replace_in_block": [],
+ "leave_untouched": [
+  "The Chefs We Choose",
+  "Chefs In Our Network",
+  "How We Vet Every Chef",
+  "Taste the Difference Experience Makes",
+  "Explore myCHEF Dubai"
+ ],
+ "add_block": [
+  {
+   "new_heading": "What the vetting involves",
+   "new_paragraphs": [
+    "The first stage is identity and documentation, so we know who is entering your home. The second is a practical cooking assessment, because a strong CV and a strong service are different things. The third is reference verification with previous clients or kitchens. The fourth is continuous: chefs are reviewed after events, and the ones who hold their standard get the repeat work. A chef who slips does not stay on the network."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'The Chefs We Choose'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How a chef is matched to your event",
+   "new_paragraphs": [
+    "Matching is done on cuisine, format and setting instead of availability alone. A five-course plated dinner for twelve in a villa needs a different chef from a live station at a hundred-guest garden party. Tell us the occasion, the guest count, the venue and any dietary requirements, and you get a named chef with the background that fits — not whoever happens to be free. For repeat bookings you keep the same chef, which is why regular hosts see the service get sharper over time."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'The Chefs We Choose'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning private chefs step by step",
+   "new_paragraphs": [
+    "Check the rate before you book — a chef for most dinners runs AED 700 to AED 950 per person.",
+    "Send your date, guest count and venue — your private chefs proposal arrives.",
+    "Book private chefs about 2 weeks ahead off-peak, and 6 weeks ahead between November and March.",
+    "Confirm your private chefs menu about 7 days out, when the guest list is firm.",
+    "Ask early about allergies and dietary plates — not in the last 48 hours before private chefs.",
+    "Check the access route before private chefs day — setup starts roughly 2 hours ahead.",
+    "Plan on roughly 3 hours of private chefs service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'The Chefs We Choose'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What it costs, and what moves the number",
+   "new_paragraphs": [
+    "A private chef in Dubai usually costs AED 700 to AED 950 per person for a menu cooked and served in your own kitchen, and that is the band most bookings land in. The figure moves with the table, not with the postcode: a dinner for two runs AED 950 to AED 1,300 per head because one chef’s evening is being paid for either way, four guests sit around AED 800 to AED 1,100, six around AED 750 to AED 1,000, and twenty or more comes down from AED 600. VAT of 5% is added to the total.",
+    "Inside the band, three things change the quote: course count, how much of the cooking happens in front of guests, and whether anything on the menu has to be sourced specially. A four-course dinner with two plated courses finished at the table costs more to staff than the same food served family style. Ask for the price per head and the total in one document, so you compare a single evening instead of two."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'The Chefs We Choose'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How to find the right chef for your evening",
+   "new_paragraphs": [
+    "The best private chef for a plated dinner for eight is seldom the one to put on a live BBQ station feeding eighty. So start from the evening, not the CV. Decide the format first — plated, family style, grill, stations — then the guest count, then the cuisine. A chef who has run your format at your scale beats a longer résumé.",
+    "When you find a candidate, ask three things. What did they cook at that headcount most recently? How does the food travel and how is it held before service? What happens if your numbers move by ten? Precise answers mean the format is familiar. MyCHEF works in that same order when it puts a name against your date, so you get a chef with the fitting background instead of whoever is free."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'The Chefs We Choose'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Why vetting is the whole product",
+   "new_paragraphs": [
+    "Anyone can send a chef to a house. The difference on the night is whether that person has cooked this format before, at this scale, under time pressure, in a kitchen they did not choose. That is what the practical cooking assessment tests, and it is the stage most agencies skip because it is expensive to run.",
+    "Reference verification is the second thing that gets skipped. We contact previous clients or kitchens instead of reading a CV, because a strong CV and a calm service are different things. The fourth stage — review after events — is what keeps standards from drifting once a chef is on the network. A chef whose standard slips does not keep getting work."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'The Chefs We Choose'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Matching a chef to your evening",
+   "new_paragraphs": [
+    "Cuisine is the obvious axis, but format matters more than most hosts expect. A chef who is superb at a five-course plated tasting for ten is not automatically the right choice for a live station feeding a hundred in a garden. Plated service is about timing and consistency; station work is about pace and presence in front of guests. We match on both, plus the setting, because a yacht galley and a villa kitchen ask different things of the same person.",
+    "Dietary work is part of the match. Halal is standard across our menus, and vegetarian, vegan, gluten-free, dairy-free and nut-free covers are designed into the menu instead of improvised on the night — which means flagging them when you enquire, not in the final 48 hours."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'The Chefs We Choose'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Food safety, and who holds what",
+   "new_paragraphs": [
+    "The chefs and partner kitchens hold the food licences and work to the Dubai Municipality Food Code, which covers food transportation and delivery vehicles as well as handling, and requires a structured staff training system. MyCHEF organises the event and provides the team; the licensed partners and independent chefs perform the food preparation and service.",
+    "That split is worth understanding when you compare providers. Ask any caterer how food travels to your venue, how it is held before service, and who on the night is responsible for temperature checks. A quote materially below the others is often cheaper because one of those has been thinned."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'The Chefs We Choose'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Sources",
+   "new_paragraphs": [
+    "Figures and rules referenced across these pages come from official sources: the UAE Ministry of Finance (5% VAT on catering, in force since 1 January 2018), Dubai Municipality (Food Code, including requirements for food transportation and delivery vehicles and mandatory food-handler training), and Weather and Climate (Dubai December averages of 27°C by day and 19°C at night). Confirm current requirements before you book."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'The Chefs We Choose'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What to ask before a chef cooks in your home",
+   "new_paragraphs": [
+    "Four questions separate a good booking from a hopeful one. Ask who the named chef is, and whether that person is the one who will be on site — the answer is not reliably yes elsewhere. Ask what they have cooked at your guest count, because a table of eight and a party of eighty are different disciplines. Ask how the food travels and how it is held before service, since that is where most risk sits at any off-site event. Ask what happens if your numbers move by ten either way.",
+    "Those four answers tell you more than any menu will. A chef who answers them precisely has run the format before; one who answers them vaguely is learning on your evening. You are welcome to ask us the same four questions, and the answers come back in writing on the proposal instead of as reassurance on a call."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'The Chefs We Choose'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Repeat bookings and how the match improves",
+   "new_paragraphs": [
+    "Most regular hosts keep the same chef, and the service sharpens each time. A chef returning to a kitchen they already know needs no orientation: they know the oven capacity, where the plates live and how your family moves through the room during service. That familiarity is why a third dinner tends to run more smoothly than a first, and why we hold the same chef for you where the diary allows it.",
+    "If your regular chef is unavailable for a date, you are told before you book instead of on the day, and the replacement is matched on the same cuisine and format. You keep the right to decline the substitution.",
+    "Which chef is suited to your evening is decided by cuisine, format and setting instead of availability. Related: the catering services our chefs deliver, the packages and the prices . To hire a chef or a catering company near me for a corporate event, a party at home, a luxury tasting menu or an affordable family spread, send the date and guest count and the food cost comes back itemised."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'The Chefs We Choose'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Frequently asked questions",
+   "new_paragraphs": [
+    "Are your chefs licensed?",
+    "Chefs on the network are independent, licensed professionals. Partner kitchens operate under Dubai Municipality food-safety requirements and the Food Code.",
+    "What does the vetting cover?",
+    "Identity checks, a practical cooking assessment, reference verification, and ongoing reviews after events. All four before a first booking.",
+    "How much does a private chef cost in Dubai?",
+    "Most dinners cost AED 700 to AED 950 per person, cooked and served at your home. Smaller tables pay more per head — two guests usually sit at AED 950 to AED 1,300 — and twenty or more comes down from AED 600. Add 5% VAT.",
+    "Can I book a chef full time, or for daily cooking?",
+    "MyCHEF does not place chefs into full-time household employment, so a full time private chef in Dubai is not something we arrange. If you want someone cooking daily or several times a week, the practical route is a standing arrangement: weekly meal prep starts at AED 1,898 a week, and regular hosts keep the same chef on a repeating schedule.",
+    "Can I request the same chef again?",
+    "Yes, and most regular hosts do. The same chef returning to a kitchen they already know makes the service noticeably smoother.",
+    "Can I request a female private chef?",
+    "Yes. A female chef can be requested for your booking. Tell us when you enquire and myCHEF matches you with a female chef from the partner network for your date, cuisine and service style. Hosts across Dubai ask for it for family homes, women-only events and plain privacy, and it is handled like any other part of the match — cuisine, format, setting and this preference weighed together rather than treated as a special case. Because the chefs are an independent partner network and not a fixed roster, availability moves with the date and the menu, so say it in your first enquiry and the match is confirmed before you book.",
+    "Can a chef cook for allergies and specific diets?",
+    "Yes. Halal is standard, and vegetarian, vegan, gluten-free, dairy-free and nut-free menus are designed in from the start when you flag them.",
+    "Get a proposal or ask on WhatsApp ."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'The Chefs We Choose'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  }
+ ],
+ "faq": [
+  {
+   "question": "Are your chefs licensed?",
+   "answer": [
+    "Chefs on the network are independent, licensed professionals. Partner kitchens operate under Dubai Municipality food-safety requirements and the Food Code."
+   ]
+  },
+  {
+   "question": "What does the vetting cover?",
+   "answer": [
+    "Identity checks, a practical cooking assessment, reference verification, and ongoing reviews after events. All four before a first booking."
+   ]
+  },
+  {
+   "question": "How much does a private chef cost in Dubai?",
+   "answer": [
+    "Most dinners cost AED 700 to AED 950 per person, cooked and served at your home. Smaller tables pay more per head — two guests usually sit at AED 950 to AED 1,300 — and twenty or more comes down from AED 600. Add 5% VAT."
+   ]
+  },
+  {
+   "question": "Can I book a chef full time, or for daily cooking?",
+   "answer": [
+    "MyCHEF does not place chefs into full-time household employment, so a full time private chef in Dubai is not something we arrange. If you want someone cooking daily or several times a week, the practical route is a standing arrangement: weekly meal prep starts at AED 1,898 a week, and regular hosts keep the same chef on a repeating schedule."
+   ]
+  },
+  {
+   "question": "Can I request the same chef again?",
+   "answer": [
+    "Yes, and most regular hosts do. The same chef returning to a kitchen they already know makes the service noticeably smoother."
+   ]
+  },
+  {
+   "question": "Can I request a female private chef?",
+   "answer": [
+    "Yes. A female chef can be requested for your booking. Tell us when you enquire and myCHEF matches you with a female chef from the partner network for your date, cuisine and service style. Hosts across Dubai ask for it for family homes, women-only events and plain privacy, and it is handled like any other part of the match — cuisine, format, setting and this preference weighed together rather than treated as a special case. Because the chefs are an independent partner network and not a fixed roster, availability moves with the date and the menu, so say it in your first enquiry and the match is confirmed before you book."
+   ]
+  },
+  {
+   "question": "Can a chef cook for allergies and specific diets?",
+   "answer": [
+    "Yes. Halal is standard, and vegetarian, vegan, gluten-free, dairy-free and nut-free menus are designed in from the start when you flag them.",
+    "Get a proposal or ask on WhatsApp ."
+   ]
+  }
+ ]
+}

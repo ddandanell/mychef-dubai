@@ -1,0 +1,315 @@
+{
+ "url": "/arabic-catering-dubai",
+ "keyword_strategy": {
+  "main_keyword": "arabic catering dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 19,
+  "subkeywords_carried": 16,
+  "coverage_percent": 84,
+  "subkeywords_carried_list": [
+   "arabic food names in dubai",
+   "arabic restaurant dubai creek harbour",
+   "italian catering dubai",
+   "pakistani catering dubai",
+   "small party catering dubai",
+   "arabic catering dubai price",
+   "dubai catering company list",
+   "arabic restaurant dubai hills",
+   "arabic restaurant names in dubai",
+   "arabic catering dubai price list",
+   "arabic restaurant dubai hills mall",
+   "arabic restaurant dubai",
+   "lebanese catering dubai",
+   "catering arabic food dubai",
+   "arabic restaurant bur dubai",
+   "top arabic restaurant dubai"
+  ],
+  "subkeywords_not_carried": [
+   "best arabic catering dubai",
+   "arabic restaurant dubai festival city",
+   "arabic restaurant dubai mall fountain view"
+  ],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Arabic Catering Dubai | Menus & Prices | myCHEF",
+  "meta_description": "Arabic catering in Dubai from AED 90pp dropped off, AED 700–950pp with a chef cooking on site — mezze, mashawi, ouzi and Arabic sweets. Get an itemised quote.",
+  "h1": "Arabic Catering in Dubai — Prices, Formats and What You Get"
+ },
+ "opening_paragraph": [
+  "Arabic catering in Dubai starts at AED 90 per person and puts generous, shareable mezze at the centre of the table: hummus, moutabal, fattoush, charcoal grills and Arabic sweets. MyCHEF matches you with a vetted private Arabic chef in Dubai who designs your arabic menu, cooks on site, serves and clears away, so you host the majlis while the kitchen carries the work. That staffed service is AED 700 to 950 per person; a dropped-off or buffet spread is where the AED 90 to 150 tiers sit. Share your date, guest count and venue, and during our published business hours you get a proposal promptly that you can read at a glance."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "What Our Arabic Catering Includes",
+   "match_confidence": 0.8,
+   "new_heading": "What does Arabic catering in Dubai include?",
+   "new_paragraphs": [
+    "Arabic catering covers everything from the first menu conversation to the last cleared plate. Your myCHEF booking includes menu design and an optional tasting, a vetted chef cooking on site, front-of-house service staff where you need them, all plating and presentation, and full setup and cleanup afterwards. One team runs the event end to end, so you are not chasing three suppliers on the night. It is the kind of arabic catering services dubai hosts lean on, because the format flexes to fit you: a quiet family dinner, a corporate reception, or a several-hundred-guest iftar all draw on the same kitchen. Because we work as a single arabic catering company dubai, the chef who plans your menu owns how the arabic food lands on the table. No handoffs, no diluted responsibility."
+   ]
+  },
+  {
+   "block_on_your_page": "A Taste of Our Arabic Catering",
+   "match_confidence": 0.72,
+   "new_heading": "Why choose myCHEF for Arabic catering?",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you own the evening, we carry the work. MyCHEF is implementing a structured 12-stage partner verification and quality-assurance framework across its culinary partner network, covering company identity, trade licence and permitted activities, food-safety permits, Person-in-Charge and food-handler training, insurance documentation, menu capability and equipment. We are honest about it, too: the framework is being rolled out rather than finished, no system removes every risk, and we match each event to the partner whose record fits it.",
+    "For Arabic menus, that is often Layla Hassan , who has 14+ years in Lebanese and Emirati kitchens and has run catering for prestige events. Her mezze, charcoal grills and aromatic rice are built for sharing, and she is especially sought after for Ramadan and Eid. Arabic catering sits alongside villa weddings, yacht celebrations and corporate galas across Dubai. Every arabic catering booking includes, with client reviews added as events run."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "The Generous Heart of Arabic Hospitality",
+  "From Mezze to Ouzi",
+  "Plan Your Arabic Feast",
+  "Explore myCHEF Dubai",
+  "Catering Across Dubai",
+  "Arabic Catering for Every Occasion",
+  "Arabic Catering Questions"
+ ],
+ "add_block": [
+  {
+   "new_heading": "Arabic catering for weddings, corporate events and parties",
+   "new_paragraphs": [
+    "The same kitchen adapts to your occasion. For weddings and engagements, your chef builds lavish mezze spreads and charcoal grill stations that photograph beautifully and feed a crowd. For corporate arabic catering dubai, from product launches to majlis receptions and Ramadan staff iftars, the team handles volume, dietary lists and tight timing without losing the warmth. For arabic party catering dubai, from a rooftop gathering to a villa celebration, the shareable style keeps your guests grazing and talking instead of queuing at a counter. Whether you are hosting an intimate dinner or arabic catering for events dubai at real scale, the menu, the pace and the staffing are matched to what the day needs. Many hosts pair Arabic menus with our wider event catering and corporate teams when a programme runs across several days or venues."
+   ],
+   "insert_after_block": "What Our Arabic Catering Includes",
+   "position": "after the block titled 'What Our Arabic Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What's on an Arabic catering menu?",
+   "new_paragraphs": [
+    "The heart of any arabic menu dubai is mezze: the small, generous plates meant for sharing. We build most menus around these signatures, then tailor them to your guests and dietary needs:",
+    "Cold mezze: hummus, moutabal, fattoush, tabbouleh, vine leaves, labneh",
+    "Hot mezze: kibbeh, sambousek, cheese rolls, grilled halloumi",
+    "Charcoal grills: shish taouk, lamb kofta and mixed grills",
+    "Mains: slow-cooked mandi, machboos and aromatic rice",
+    "Arabic sweets: kunafa, baklava and umm ali",
+    "Vegetarian, vegan and gluten-free versions of most dishes are available on request, and everything can be prepared fully halal. Browse more sample menus , or explore related cuisines such as Mediterranean ."
+   ],
+   "insert_after_block": "What Our Arabic Catering Includes",
+   "position": "after the block titled 'What Our Arabic Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What the Arabic dish names mean",
+   "new_paragraphs": [
+    "Dish names are the part hosts get stuck on when they compare two quotes, because a menu can list twenty words and explain none of them. Here is the plain-English version of the ones that come up most on a Dubai spread.",
+    "Hummus — chickpeas blended smooth with tahini, lemon and garlic.",
+    "Moutabal — aubergine roasted over flame until it tastes of smoke, then whipped with tahini and yoghurt. Baba ghanouj is its chunkier, salad-like cousin.",
+    "Tabbouleh — a parsley salad, not a bulgur one: chopped parsley and mint with a little cracked wheat, tomato, lemon and olive oil.",
+    "Fattoush — chopped garden salad with toasted or fried flatbread through it and sumac over the top.",
+    "Labneh — yoghurt strained until it is thick enough to scoop, served with olive oil and often mint or garlic.",
+    "Kibbeh — a shell of bulgur and minced meat stuffed with spiced meat and pine nuts, then fried; also baked in a tray as kibbeh bel saynieh.",
+    "Sambousek — small filled pastries, meat, cheese or spinach, baked or fried.",
+    "Manakish — flatbread baked to order with zaatar, cheese or minced meat. Breakfast food that works all day.",
+    "Mashawi — the charcoal grill section as a whole: skewers, chops and kofta cooked over coals.",
+    "Shish taouk — chicken marinated in garlic, lemon and yoghurt, grilled on skewers.",
+    "Kafta — minced lamb or beef worked with onion and parsley, moulded onto a skewer and grilled.",
+    "Kabsa — the Gulf rice dish: long-grain rice cooked with chicken or lamb, tomato and a warm spice mix.",
+    "Machboos — the Emirati and Khaleeji take on that rice, sharpened with loomi, the dried black lime.",
+    "Mandi — Yemeni in origin, meat and rice cooked low and slow so the smoke gets into the grain.",
+    "Makloubeh — “upside down”: rice layered with aubergine and meat in one pot, then flipped onto the platter to serve.",
+    "Mansaf — Jordanian lamb cooked in jameed, a tart dried yoghurt, poured over rice and thin bread.",
+    "Ouzi — the centrepiece: a whole slow-roasted lamb over spiced rice, carried in and carved at the table.",
+    "Kunafa — shredded pastry or fine semolina baked over melting cheese and soaked in sugar syrup, eaten hot.",
+    "Baklava — layered filo with nuts and syrup, cut into small pieces.",
+    "Umm Ali — Egyptian pudding of pastry baked in sweetened milk with nuts and raisins.",
+    "If you searched for arabic food names in dubai and landed here, that list is the vocabulary; the menu below is the whole range we design from."
+   ],
+   "insert_after_block": "What Our Arabic Catering Includes",
+   "position": "after the block titled 'What Our Arabic Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "The full Arabic catering menu, course by course",
+   "new_paragraphs": [
+    "The list above is the headline. Below is the whole menu we design from, set out in the order an Arabic spread is served: cold mezze first, then hot mezze and bakery, then the charcoal grill, then the rice and stew mains, then the centrepiece, then sweets. Nobody orders all of it. A menu is assembled section by section, and most hosts settle on five to eight cold mezze, three to five hot mezze, three to five items off the grill, three mains and three desserts. Most Dubai catering companies publish a dish list and stop there, but it is the section counts that let you compare two quotes honestly. And if you arrived searching for arabic food names in dubai, these are the real names, spelled the way a Levantine kitchen writes them.",
+    "Cold mezze — the opening spread",
+    "The largest section on any Arabic menu, and the one the table gets judged on. It goes down before guests sit and stays there all night.",
+    "Dips and purées: Hummus (vegan) · Moutabal (vegan) · Baba Ghanouj (vegan) · Mohamara · Beetroot Boutabal · Pesto Hummus · Sundried Tomato Hummus · Labneh with Garlic",
+    "Salads: Tabouleh · Fatoush (vegan) · Rocca Salad · Oriental Salad (vegan) · Lentil Tabouleh · Quinoa Tabouleh · Freekeh Salad · Beetroot Salad · Kale & Quinoa · Olive Salad",
+    "Cooked and preserved: Stuffed Vine Leaves (vegan) · Hindbeh · Eggplant Mousakaa · Makdous",
+    "Cheese board: Shanklish · Cheese with Thyme · Assorted Cheese",
+    "Crossovers Dubai hosts ask for: Caprese · Caesar Salad · Pasta Salad · Crab Salad — not Levantine, but they turn up on most Dubai Arabic buffets, so we list them instead of pretending otherwise",
+    "The strongest Arabic menus in Dubai publish around twenty-one cold appetisers and let you pick five, six or eight by package tier. That is the norm we hold to: eighteen to twenty-two listed, five to eight on your table.",
+    "Hot mezze — the pastries and the fryer",
+    "The second wave, sent out warm while the grill gets going.",
+    "Baked pastry: Sambousik Meat · Cheese Sambousik · Fatayer Spinach · Meat Sfiha · Cheese, Meat or Spinach Fatayer · Mini Chicken Moussakhan Roll",
+    "From the fryer: Fried Kebbe · Spiced Potato · Fried Chicken Liver · Fried Makanek · Fried Sujouk · Calamari, fried or provençal",
+    "Warm bowls: Foul · Hummus Balila · Fatteh with Yogurt",
+    "Skewers and rolls: Mini Lamb Kebab Skewers · Mini Shish Taouk Brochette · Mini Falafel Wrap (vegan) · Mini Labneh Roll with Mint",
+    "Manakish, saj and the Arabic bakery",
+    "Bread is a course here, not a basket on the side.",
+    "Manakish: Zaatar Manakish · Cheese Manakish · Kishek Manakish · Halloumi · Spinach pastry · Muhamara pastry · Labneh tartines",
+    "Lahem bajine, by home town: Lahem Beajine · Lahem Bajine Baalbaki · Lahem Bajine Traboulsi — three genuinely different breads, not three spellings of one",
+    "Saj toppings if the dome comes: zaatar, labneh, cheese, meat, turkey and cheese, with mint, tomato, cucumber, olives and spring onions alongside",
+    "Mashawi — the charcoal grill",
+    "Its own section on a proper Arabic menu, not folded into the mains.",
+    "Chicken and meat: Shish Tawouk · Grilled Meat · Kafta · Chicken Kafta · Arayess Kafta · Lamb Chops · Lamb Cubes · Makanek · Sujouk · Traditional Mix Grill",
+    "From the sea and the garden: Grilled Shrimp · Grilled Prawns · Grilled Fish Fillet · Grilled Vegetables",
+    "A charcoal mangal is an open-flame setup. Plenty of Dubai venues — rooftops, hotel terraces, yachts and most tower podiums — do not permit open charcoal, so we check it with your venue before it goes into the quote, not after. Where charcoal is not allowed, the same skewers come off gas or a flat-top and the menu does not change.",
+    "Mains — the rice and stew families",
+    "This is where a real Arabic caterer separates itself. The rice dishes are nine distinct things, not one dish called “Arabic rice with meat&rdquo.",
+    "Rice: Chicken Kabsah · Lamb Kabseh · Fish Kabseh · Chicken Mandi · Lamb Mansaf · Chicken Makloubeh · Lamb Makloubeh Eggplant · Chicken Freekeh · Chicken Moghrabieh · Oriental Chicken with Oriental Rice · Chicken Biryani · Meat Biryani",
+    "Kebbeh and kafta trays: Kebbeh Bel Laban · Kebbeh Bel Saynieh · Kafta Bel Saynieh",
+    "Stews: Dawood Basha with Rice · Shakrieh with Rice · Fasoulia Bel Lahmeh · Loubieh Bel Lahmeh · Bamieh Bel Lahmeh · Bazella Bel Lahmeh · Artichoke Lamb Potato Stew · Chicken Mouloukhieh with Rice · Chicken Tagine",
+    "Mahshi — the stuffed dishes: Koussa Waraq Inab and Fawaergh · Koussa & Warak Enab Bel Lahmeh · Stuffed Koussa with Tomato Sauce · Mahshi Malfouf · Sheikh El Mehshi · Stuffed Vine Leaves with Meat",
+    "Chicken and fish: Chicken Mousakhan · Dajaj Al Faham · Dajaj Bel Saynieh with Lemon & Coriander Sauce · Fish Sayadieh · Samkeh Harra with Tahina or Tomato Sauce",
+    "Roasts and the one Spanish guest: Roast Lamb with Oriental Rice · Seafood Paella — the paella earns its place because it feeds a crowd from one pan and sits happily beside mezze",
+    "The centrepiece — ouzi and whole roasts",
+    "Quoted separately from the buffet, because it is a separate piece of work: an oven that takes a whole lamb, insulated hot transport, and a chef carving in front of your guests.",
+    "Lamb: Full Roasted Lamb Station · Lamb with Rice · Lamb with Freekeh · Lamb with Mansaf · Lamb with Warak Inab, Kousa & Fawaregh · Warak Inab, Kousa & Lamb Chops · Lamb Leg · Boneless Lamb",
+    "Other roasts: Roasted Chicken with Rice or Freekeh · Turkey · Beef Filet · Roasted Beef · Grilled Hammour",
+    "Sides: Stuffed Lamb · Stuffed Chicken · Mashed Potatoes & Veg",
+    "Most centrepieces come as a half or a full portion, and the grain bed is yours to choose: rice, freekeh, mansaf, or warak inab with kousa and fawaregh. As a rough sizing guide, a whole roast lamb carries a table of around thirty as the centre of a wider spread.",
+    "Live stations",
+    "An Arabic offering with fewer than four or five stations is a thin one. Stations are quoted as their own units with quantities attached, so you can see what you are buying.",
+    "Live Arabic BBQ: shish taouk, kafta kebab, lamb cubes, grilled prawns and grilled vegetables, with garlic paste",
+    "Live shawarma: a vertical spit, chicken or beef, with Arabic bread, fries, garlic paste, tomato, pickles and sliced lettuce. Chicken and beef run on separate spits",
+    "Live saj: a baker at the dome turning out zaatar, labneh and cheese manakish to order",
+    "Live falafel: fried on site and handed over with Arabic bread, tomato, parsley, pickles and tahina. Sized at 5 kg, which covers about thirty guests",
+    "Barbecue station: 10 kg across shish tawouk, grilled meat, kafta, arayess kafta and lamb chops, cooked over charcoal as guests come up",
+    "Full roasted lamb station: carved to order, and one whole lamb carries a table of around thirty",
+    "Mixed grill station: tawook, kabab and tikka skewers grilled in front of guests",
+    "Wagyu shawarma station: 10 kg on the spit, for when the shawarma is the headline rather than the filler",
+    "Cheese kunafa station: warm kunafa in copper trays, served in buns — a station is quoted with 100 buns",
+    "Knefeh & sweets station and the merry cream station for the end of the night",
+    "Anything with a live flame or hot oil depends on the venue giving power, extraction and permission. We confirm each of those with the venue before the station appears on your quote.",
+    "Arabic canapés and mini bites",
+    "How Levantine flavour is served standing up, at a corporate reception or a cocktail hour.",
+    "Kebbeh balls, stuffed with hommos, moutabal, beetroot hommos or tabbouleh and topped with pomegranate",
+    "Wraps and parcels: Labneh Wrap Sushi Style · Chicken Shawarma Moneybags · Mini Beef or Chicken Shawarma Wrap · Pita Pocket with vegetable, makanek or sujuk",
+    "Tartlets and shooters: Hummus Beetroot in Tartlet (vegan) · Mini Hummus & Roasted Pepper Phyllo Bites (vegan) · Vine Leaves Tzatziki in Shooters (vegan)",
+    "Halloumi and othmaliyeh: Halloumi Dippers with Pesto · Othmaliyeh halloumi with black olive tapenade and tomato jam · Shrimp Othmaliye · Chicken Mousakhan bite",
+    "Mini brioche sandwiches: Falafel · Makanek · Shawarma · Kofta · Feta & Zaatar · Halloumi with Zaatar · Labneh with Mint & Cucumber · Mini Falafel Sandwich (vegan)",
+    "Open face: Labneh and olives with fresh zaatar · Beetroot hommos with roasted zucchini (vegan)",
+    "Arabic breakfast, Iftar and Suhoor",
+    "Its own package, not a shortened dinner buffet. An iftar opens with dates and lentil soup before the mezze goes down.",
+    "Cold: Labneh Salad · Assorted Cheese · Olive Salad · Makdous · Assorted Jams",
+    "Hot: Foul · Hummus Balila · Fatteh with Yogurt · Eggs of your choice",
+    "Manakeesh: Zaatar · Cheese · Kishek · Lahem Beajine",
+    "To open the fast: Dates · Lentil soup (shorbat adas) · freshly baked Arabic breads",
+    "See Ramadan iftar and suhoor catering for the full seasonal build.",
+    "Arabic desserts",
+    "Warm, from the pan: Cheese Kunafa · Halawet El Jebben · Katayef Kashta · Othmalieh · Umm Ali · Awamat with Date Syrup · Luqaimat",
+    "Cold and spooned: Riz Bel Halib · Mohalabieh with Orange · Mouhalabieh with pistachio in a shooter glass · Custard · Crème Caramel",
+    "Trays and sweets: Baklava · Basboussa · Nammorra · Ghraybeh · Mafroukeh · Coated Chocolate Dates · Assorted Mini Cakes · Sliced fruit",
+    "Drinks",
+    "Fresh juices in orange, mango, strawberry, pineapple and lemon mint, alongside mineral water and soft drinks. Arabic tea and coffee come with the breakfast and iftar packages.",
+    "Vegan, vegetarian, gluten-free, dairy-free — and a straight word about nuts",
+    "Arabic is the easiest cuisine on this site to serve meat-free without building a second menu, and we tag it at dish level instead of burying it in a footnote. Hummus, moutabal, baba ghanouj, fattoush, tabbouleh, stuffed vine leaves, oriental salad, lentil salad, mini falafel wrap and fatayer are all vegan as written. For a wedding or a large reception we set up a standalone vegan and vegetarian counter instead of hiding the options inside the main buffet.",
+    "Two honest cautions. The mezze spread is bread-led, so a gluten-free path needs deliberate substitution and is not a matter of lifting the pita off the table — and labneh, shanklish, halloumi, kunafa and halawet el jebben are dairy-central, so a dairy-free guest needs their own line. Gluten-free options are available on request, subject to partner confirmation and an allergen review for the specific booking.",
+    "On nuts: no Arabic menu we read across the Dubai market discloses this, so we will. Baklava, ghraybeh, mafroukeh and mohamara are nut-heavy, and pine nuts garnish several of the rice and kebbeh dishes. Menus without intentionally added nuts may be available on request. However, partner kitchens may handle nuts and other allergens, so cross-contact cannot be excluded unless specifically confirmed.",
+    "Gluten-free, nut-conscious and other dietary menu options may be available on request, subject to confirmation by the assigned culinary partner. Partner kitchens may handle allergens, and cross-contact cannot be completely excluded unless dedicated controls have been specifically confirmed for the booking. Guests with allergies must provide full details before confirming their event. We will not describe a menu as free of an allergen unless the culinary partner responsible for cooking it confirms the required controls can be achieved."
+   ],
+   "insert_after_block": "What Our Arabic Catering Includes",
+   "position": "after the block titled 'What Our Arabic Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Arabic restaurant food, at your table instead",
+   "new_paragraphs": [
+    "Plenty of enquiries start as a search for an arabic restaurant dubai hosts can book out — a long table in Bur Dubai, a terrace at Dubai Creek Harbour, somewhere in Dubai Hills for twenty-five people on a Friday. The food is the reason, but the room rarely fits: restaurant private rooms cap out, the menu is fixed, and a majlis layout is not something a dining room can give you. Catering solves the same craving in the opposite direction — the mezze, the mashawi and the ouzi arrive where you already are, at whatever headcount you have. Nobody is asking you to name the top arabic restaurant dubai has and settle for its set menu.",
+    "The other thing a restaurant cannot do is mix cuisines across one event. MyCHEF arranges Italian catering in Dubai , Pakistani and North Indian menus, seafood and BBQ alongside the Levantine spread, so a three-day corporate programme or a wedding weekend can change character each night under one booking. See all cuisines .",
+    "Formats, minimums and what each one costs",
+    "The published tiers, so you can place yourself before you enquire:",
+    "Working or office lunch, dropped off: from AED 90 per person",
+    "Standard Arabic buffet: from AED 120 per person",
+    "Premium buffet with live stations, grills and canapés: from AED 150 per person",
+    "Staffed private chef, plated and served: AED 700 to 950 per person — a chef cooking on site and a service team on the floor, which is a different product from a tray of food",
+    "Minimums: 10 guests on volume formats, 20 on a full buffet, and a minimum order value of AED 900. Plated private-chef service has no headcount minimum, so a table of four is a real booking",
+    "Add 5% VAT. Everything is itemised, which is the point — you should be able to see what the ouzi costs, what the station costs and what the staff cost, separately."
+   ],
+   "insert_after_block": "What Our Arabic Catering Includes",
+   "position": "after the block titled 'What Our Arabic Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How is Arabic food served at your event?",
+   "new_paragraphs": [
+    "Arabic spreads are built for sharing, so they scale gracefully from an intimate majlis to a large iftar. Choose plated service, a family-style buffet or live grill stations. Mezze and charcoal stations plate quickly even for big numbers, which is why arabic food catering dubai suits high-guest-count events so well. Your chef cooks on site wherever the venue allows, bringing the aroma and theatre of the grill into the room; where a full kitchen is not available, the team preps to finish and serves. We set up everything from majlis-style low seating to formal banquet layouts, and coordinate with your venue on timing, power and access so the food arrives hot and on cue. Arabic home catering dubai in your private villa follows the same standard as a hotel ballroom."
+   ],
+   "insert_after_block": "What Our Arabic Catering Includes",
+   "position": "after the block titled 'What Our Arabic Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How do you hire Arabic catering in Dubai?",
+   "new_paragraphs": [
+    "Booking takes a few minutes. Share your date, guest count and venue, and during our published business hours you get a matched chef and an itemised proposal promptly, often confirmed the same day. To hire arabic catering dubai you do not need your final numbers or menu upfront; we shape both with you, including a tasting for larger events. Once you approve, your private chef and service team handle sourcing, prep, cooking, service and cleanup. Looking for arabic catering near me in a specific community? We cover the whole city, so \"near me\" just means we match a chef who knows your area and can reach you. Your arabic catering booking includes and one named contact throughout."
+   ],
+   "insert_after_block": "Catering Across Dubai",
+   "position": "after the block titled 'Catering Across Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning arabic catering step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your arabic catering proposal arrives.",
+    "Book to the lead-time guidance: 72 hours for a standard arabic catering package, 3–5 days for live stations and multi-staff setups, 5–7 days for bespoke menus and larger private events, 7–14 days or more for weddings and corporate functions. Short-notice requests are assessed individually.",
+    "Confirm the arabic catering menu 7 days before the date, with final numbers.",
+    "Ask about allergies when booking arabic catering, well outside the final 48 hours .",
+    "Check how the team reaches the venue; arabic catering setup begins about 2 hours before guests.",
+    "Plan on roughly 3 hours of arabic catering service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": "Arabic Catering for Every Occasion",
+   "position": "after the block titled 'Arabic Catering for Every Occasion'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which arabic catering format suits your event?",
+   "new_paragraphs": [
+    "Format What it gives you Service on site Cost position",
+    "Drop-off Mezze, grills and rice delivered ready to serve None — you put it out From AED 90 per person",
+    "Buffet Presentation plus a spread kept stocked and hot Service team on the line From AED 120 per person",
+    "Live stations Shawarma, saj and mashawi cooked in front of your guests Station chefs cooking to order From AED 150 per person",
+    "Plated Every course served together Chef cooking on site plus front-of-house AED 700–950 per person"
+   ],
+   "insert_after_block": "Arabic Catering for Every Occasion",
+   "position": "after the block titled 'Arabic Catering for Every Occasion'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Common questions",
+   "new_paragraphs": [
+    "How much does Arabic catering cost in Dubai?",
+    "It starts from AED 90 per person for a dropped-off spread, AED 120 for a standard buffet and AED 150 for a premium buffet with live stations. A staffed private chef, cooking and serving on site, is AED 700 to 950 per person. Minimums are 10 guests on volume formats, 20 on a full buffet, and AED 900 on order value, and we quote every element itemised.",
+    "What's included in Arabic catering?",
+    "Everything from menu planning and the chef to service staff, plating and cleanup. One team covers all of it, so you host and we run the event.",
+    "Is halal Arabic catering available?",
+    "Yes. Arabic menus can be prepared fully halal as standard; just confirm when you enquire, and see our dedicated halal catering page.",
+    "Do you cater Ramadan iftars and suhoors?",
+    "Yes, and it is one of our busiest seasons. We build generous iftar and suhoor spreads for family majlis, corporate gatherings and large events across the city.",
+    "Can you handle dietary requirements?",
+    "Yes. Vegetarian, vegan, gluten-free and nut-aware versions of most Arabic dishes are on the menu on request; share your guest list and we adjust accordingly.",
+    "How do I book Arabic catering?",
+    "Share your date, guest count and venue; we match a vetted chef and send an itemised proposal, usually within one business day.",
+    "How far in advance should I book?",
+    "As guidance: 72 hours for a standard Arabic catering package, 3–5 days where live stations or a multi-staff setup are involved, 5–7 days for bespoke menus and larger private events, and 7–14 days or more for weddings and corporate functions. We recommend booking as early as possible. Lead times depend on guest numbers, menu complexity, staffing, equipment, location and partner availability. Booking late for a arabic? Send the date first; whether it works depends on which partners are free.",
+    "For arabic catering, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements ."
+   ],
+   "insert_after_block": "Arabic Catering for Every Occasion",
+   "position": "after the block titled 'Arabic Catering for Every Occasion'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How much does Arabic catering cost in Dubai?",
+   "new_paragraphs": [
+    "Arabic catering in Dubai starts from AED 90 per person dropped off, AED 120 for a standard buffet and AED 150 for a premium spread with live stations; a staffed private chef who cooks and serves on site is AED 700 to 950 per person. What you pay turns on which of those you book, then on guest count and service level. As a rough guide, arabic catering prices dubai rise with live stations, premium cuts and a larger service team, and drop with self-serve formats. We quote arabic catering cost dubai transparently and itemised, not as a vague lump sum, so you can see what each element adds. For a fuller breakdown see our Dubai catering price guide , or ask about arabic catering packages dubai for fixed per-head bundles. For most hosts the format that fits the budget is the one we put in front of you first: honest, luxury arabic catering dubai without hidden extras."
+   ],
+   "insert_after_block": "Catering Across Dubai",
+   "position": "after the block titled 'Catering Across Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  }
+ ],
+ "faq": []
+}

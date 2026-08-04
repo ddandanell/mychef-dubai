@@ -1,0 +1,181 @@
+{
+ "url": "/tourist-villa-chef-dubai",
+ "keyword_strategy": {
+  "main_keyword": "tourist villa chef catering dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 5,
+  "subkeywords_carried": 5,
+  "coverage_percent": 100,
+  "subkeywords_carried_list": [
+   "live in chef dubai",
+   "chef restaurant dubai",
+   "full time private chef dubai",
+   "tourist villa chef catering dubai menu",
+   "tourist villa chef catering dubai price"
+  ],
+  "subkeywords_not_carried": [],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Tourist Villa Chef Catering Dubai | from AED 700–950 per person | myCHEF",
+  "meta_description": "Tourist Villa Chef catering in Dubai — a private chef for your holiday villa stay. From aed 700–950 per person, with vetted chefs and full service. Request a proposal from myCHEF.",
+  "h1": "Tourist Villa Chef Catering in Dubai — Prices, Formats and What You Get"
+ },
+ "opening_paragraph": [
+  "A tourist villa chef catering Dubai booking puts a vetted private chef inside your holiday rental for breakfasts, lunches and dinners, from AED 700 per person. myCHEF matches a chef to your group, plans the menu around what you feel like eating, and takes care of the shopping, the cooking, the service and the clean-up, so not one evening of your trip disappears into a kitchen. Tell us your dates, guest count and villa, and during our published business hours you will hear back promptly with an itemised proposal."
+ ],
+ "replace_in_block": [],
+ "leave_untouched": [
+  "Dubai Dining, Delivered to Your Villa",
+  "Choose Your Stay Experience",
+  "The Smarter Way to Dine on Holiday",
+  "Explore myCHEF Dubai",
+  "Tourist Villa Chef Questions",
+  "Book Your Villa Chef Experience"
+ ],
+ "add_block": [
+  {
+   "new_heading": "What does a tourist villa chef in Dubai include?",
+   "new_paragraphs": [
+    "A tourist villa chef handles the whole meal, from the shopping list to the last washed pan, so you get restaurant-standard food in your rental without anyone leaving the pool. It starts with a short conversation about tastes, dietary needs and the kind of trip you are having. The chef then designs a menu around that. On the day, they arrive with the groceries, cook in the villa kitchen, plate and serve each course, then clean down so the space is left as it was found. As a full catering services offer, one booking can cover a single celebration dinner or every meal across a week-long stay. Because myCHEF works as a vetted caterer, not an open marketplace, the same standards of hygiene, timing and presentation apply whether the chef is cooking for two guests or twenty."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Dubai Dining, Delivered to Your Villa'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Tourist villa chef catering for groups, events and celebrations",
+   "new_paragraphs": [
+    "Group holidays are exactly where a villa chef earns its keep. It turns a rented villa into a private restaurant nobody has to book, drive to or leave early. For families travelling together, the chef cooks around children's nap times and the grown-ups' later dinners on the same day. For friends marking a birthday, an anniversary or a reunion abroad, party catering means the host sits at the table instead of getting stuck at the stove. Corporate visitors running an offsite from a villa use the same service as a discreet form of corporate tourist villa chef catering, with working lunches and client dinners delivered on site. Whether it is a quiet dinner for a couple or catering for events with two dozen guests, the format bends to the occasion and the company you are keeping."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Dubai Dining, Delivered to Your Villa'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What's on a tourist villa chef menu in Dubai?",
+   "new_paragraphs": [
+    "The tourist villa chef menu is built to order, not picked from a fixed list, which is the whole point of hiring a chef instead of ordering delivery. Most groups mix local and international cooking across a stay. That might be an Emirati or wider Arabic spread one night, a Mediterranean seafood dinner the next, Italian pasta made from scratch, an Asian sharing menu, or a relaxed poolside grill. Breakfasts run from fresh pastries and fruit to full cooked plates, and lunches stay light for beach and pool days. Vegetarian, vegan, halal, gluten-free, nut-free and allergy-aware food is all handled as standard, so nobody at the table is an afterthought. Prefer set formats? The catering packages give tidy per-head options. Want it fully bespoke? The à la carte route lets the chef tailor every course to your group."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Dubai Dining, Delivered to Your Villa'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "In-villa logistics: kitchens, timing and dietary needs",
+   "new_paragraphs": [
+    "Most Dubai holiday villas already have what a chef needs, and where they do not, myCHEF plans around it. Before the booking is confirmed the chef checks the essentials, such as the oven, hob, fridge space and serving ware, so nothing catches anyone out on the night. This home catering setup means freshly cooked food at the table instead of reheated trays, with the chef pacing courses to land when you are ready and not on a fixed clock. Serving styles stretch from plated fine dining to relaxed family-style platters and buffet spreads for bigger groups. Allergies and medical diets are logged ahead of time and cooked with separate handling. If you searched for a tourist villa chef near me from a rental you have only just walked into, this is the detail that matters most: the chef adapts to your kitchen, not the other way round."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Dubai Dining, Delivered to Your Villa'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How much does tourist villa chef catering cost in Dubai?",
+   "new_paragraphs": [
+    "Tourist villa chef catering in Dubai starts from AED 700–950 per person, with the final figure set by group size, menu and how hands-on the service is. Smaller, more elaborate tasting-style dinners sit at the upper end. Larger, simpler group meals bring the per-head cost down. For guidance, myCHEF's fixed dinner packages run at AED 1,200, 2,400, 3,600, 4,500 and 5,500 depending on courses and headcount. A multi-course tasting menu is around AED 1,400, and if you want the chef cooking through a longer stay, weekly meal-prep plans are AED 1,898 and 2,698. These are honest starting points, not one flat rate, which is why the affordable choice for a big group and the luxury choice for an intimate dinner sit on the same page. See full prices and our catering price guide , or request an itemised quote for your exact tourist villa chef catering cost."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Dubai Dining, Delivered to Your Villa'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How to hire a tourist villa chef in Dubai",
+   "new_paragraphs": [
+    "To hire a tourist villa chef, send three things: your dates, your guest count and the villa address or community. From there the process is short. MyCHEF confirms availability, a chef proposes a menu shaped around your tastes and any dietary needs, and you receive an itemised proposal — usually within one business day, or promptly during our published business hours for the first reply. Once you approve the menu and the quote, the booking is confirmed and the chef takes over the details: sourcing, prep timing and service plan. On the day, the chef arrives ahead of the meal, cooks, serves and clears. There is no membership and no obligation to book the whole trip — you can start with one dinner and extend if the group wants the chef back. Every booking is covered by."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Dubai Dining, Delivered to Your Villa'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning tourist villa chef catering step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your tourist villa chef catering proposal arrives.",
+    "Book tourist villa chef catering about 2 weeks ahead off-peak, and 6 weeks ahead between November and March.",
+    "Confirm what goes on the tourist villa chef catering menu 7 days out, once the count settles.",
+    "Ask for special diets up front; tourist villa chef catering plates are planned, not improvised inside 48 hours .",
+    "Check loading and access details; allow 2 hours of tourist villa chef catering setup on site.",
+    "Plan on roughly 3 hours of tourist villa chef catering service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": "Tourist Villa Chef Questions",
+   "position": "after the block titled 'Tourist Villa Chef Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which tourist villa chef catering format suits your event?",
+   "new_paragraphs": [
+    "Format What it gives you Staffing Cost position",
+    "Drop-off Food delivered ready to serve None Entry point",
+    "Buffet Presentation plus a maintained spread 1–2 From AED 700 per person",
+    "Live stations Cooking in front of your guests 2–4 Mid-range",
+    "Plated Every course served together 3 and above Top of the range"
+   ],
+   "insert_after_block": "Tourist Villa Chef Questions",
+   "position": "after the block titled 'Tourist Villa Chef Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Common questions",
+   "new_paragraphs": [
+    "How much does tourist villa chef catering cost in Dubai?",
+    "It starts from AED 700–950 per person, quoted by group size, menu and service level. Fixed dinner packages run AED 1,200–5,500 and weekly meal-prep plans are AED 1,898 or 2,698. Send your details for an exact quote.",
+    "What does a tourist villa chef include?",
+    "It includes menu design, grocery sourcing, a vetted chef cooking in your villa kitchen, plating and table service, and clean-up. In short, everything from the shopping list to the last washed pan.",
+    "Can the chef cook for my whole stay, not just one dinner?",
+    "Yes. You can book a single dinner or arrange breakfasts, lunches and dinners across the entire holiday, with the chef shopping, cooking and clearing each day you want them.",
+    "Do you handle dietary needs and allergies?",
+    "Yes. Vegetarian, vegan, halal, gluten-free, nut-free and allergy-aware menus are standard. Share requirements when you enquire and the menu is built around them, with separate handling for allergens.",
+    "Which areas of Dubai do you serve?",
+    "We serve all of Dubai, including Palm Jumeirah, Jumeirah, Dubai Marina, JBR, Emirates Hills, Dubai Hills and the Arabian Ranches villa communities. The chef travels to your rental.",
+    "How do I hire a tourist villa chef in Dubai?",
+    "Tell us your dates, guest count and villa; we send an itemised proposal, usually within one business day. Approve it and we confirm your chef — no membership and no obligation to book the whole trip.",
+    "For tourist villa chef catering, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements ."
+   ],
+   "insert_after_block": "Tourist Villa Chef Questions",
+   "position": "after the block titled 'Tourist Villa Chef Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "More on tourist villa chef catering dubai",
+   "new_paragraphs": [
+    "Private chef date night dubai",
+    "How to hire a private chef dubai",
+    "Private chef vs restaurant dubai",
+    "Full time private chef catering dubai",
+    "Get an itemised quote"
+   ],
+   "insert_after_block": "Tourist Villa Chef Questions",
+   "position": "after the block titled 'Tourist Villa Chef Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Tourist villa chef catering across Dubai",
+   "new_paragraphs": [
+    "MyCHEF arranges tourist villa chef catering across every villa community in Dubai, matched to your occasion, guest count and kitchen. That includes the waterfront villas of Palm Jumeirah , the beach houses of Jumeirah and Umm Suqeim, the family compounds of Arabian Ranches, Dubai Hills and Emirates Hills, and marina-side rentals near JBR. Wherever your holiday villa is, the chef comes to you with the food, the tools and the plan. If you are still weighing formats, our guide to private chef vs catering explains which suits your group, and villa dining covers the wider in-residence service. You can also explore the full private chef offer to see everything a chef can do inside your rental."
+   ],
+   "insert_after_block": "Tourist Villa Chef Questions",
+   "position": "after the block titled 'Tourist Villa Chef Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  },
+  {
+   "new_heading": "Why book your villa chef through myCHEF?",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you own the evening, we carry the work. Vetting for tourist villa chef catering means identity checks, a practical cooking assessment, reference verification and ongoing performance reviews . That is a continuous standard, not a one-time tick. We are honest about the limits, too. No system removes every risk, so we match each booking to the chef well suited to it instead of sending whoever happens to be free.",
+    "For a holiday-villa booking that default is often Ahmed Al-Rashid , whose 18+ years across Dubai, London and Paris in classical French technique show in the way he treats each menu as a collaboration with the host, every course timed, seasoned and served to exacting standards. That range makes him a strong fit whether the group wants a relaxed poolside dinner or the most luxury tasting experience the villa can hold. We have delivered intimate villa dinners and larger celebrations across Dubai's communities."
+   ],
+   "insert_after_block": "Book Your Villa Chef Experience",
+   "position": "after the block titled 'Book Your Villa Chef Experience'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  }
+ ],
+ "faq": []
+}

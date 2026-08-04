@@ -1,0 +1,205 @@
+{
+ "url": "/picnic-catering-dubai",
+ "keyword_strategy": {
+  "main_keyword": "picnic catering dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 20,
+  "subkeywords_carried": 13,
+  "coverage_percent": 65,
+  "subkeywords_carried_list": [
+   "live bbq catering",
+   "luxury picnic dubai",
+   "bbq at home catering",
+   "picnic spots in dubai",
+   "outdoor catering dubai",
+   "best picnic catering dubai",
+   "small party catering dubai",
+   "outdoor bbq catering services",
+   "picnic catering dubai packages",
+   "picnic guidelines",
+   "bbq catering dubai",
+   "picnic spots in uae",
+   "best bbq catering dubai"
+  ],
+  "subkeywords_not_carried": [
+   "picnic catering ideas",
+   "picnic restaurant dubai dip 2",
+   "picnic restaurant dubai",
+   "picnic restaurant bur dubai",
+   "picnic restaurant dubai menu",
+   "picnic restaurant dubai photos",
+   "picnic restaurant dubai reviews"
+  ],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Picnic Catering Dubai | Menus & Prices | myCHEF",
+  "meta_description": "Picnic catering in Dubai from AED 700pp — gourmet hampers and grazing boxes, vetted chefs and full service. Bespoke menus for your event. Get an itemised quote.",
+  "h1": "Picnic Catering in Dubai — What It Costs and How to Book"
+ },
+ "opening_paragraph": [
+  "Picnic catering Dubai from myCHEF starts at AED 700 per person, with gourmet hampers, grazing boxes and a chef who sets up, serves and clears the whole spread. Give us your date, guest count and location — park, beach or dune camp — we typically reply within 15 minutes during business hours, with a full itemised quote to follow: finger food, fresh salads, chilled treats and juices, all designed around your gathering and any dietary needs."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "Picnic Catering Formats",
+   "match_confidence": 0.86,
+   "new_heading": "Picnic catering FAQ",
+   "new_paragraphs": [
+    "How much does picnic catering cost in Dubai?",
+    "From AED 700 per person, quoted to your guest count, menu and service. Hampers and drop-off sit at the lower end; plated, staffed service sits higher. Set packages from AED 1,200 suit fixed numbers. Send your details for an itemised quote.",
+    "What is included in picnic catering?",
+    "Included is a vetted chef, service staff where needed, hampers or grazing boxes, plating, setup and cleanup, plus bespoke menu design from the first conversation. You host; we handle the rest, and carry everything away.",
+    "How far ahead should I book picnic catering in Dubai?",
+    "Book as early as you can. A standard package or a BBQ needs about 72 hours, a bespoke menu or a larger private event 5 to 7 days. Lead times depend on guest numbers, menu, staffing, location and partner availability, and short-notice requests are assessed individually.",
+    "Can you cater a picnic for corporate events and parties?",
+    "Yes. Corporate picnic catering in Dubai covers team off-sites and client hospitality, plus birthdays, showers and private parties, scaled from an intimate rug to a large garden gathering.",
+    "Do you offer vegan, gluten-free and halal picnic options?",
+    "Yes. The full menu can be built vegan, gluten-free, nut-free, sugar-free or halal, with meat prepared to halal standards on request. Share dietary needs when you enquire and the chef designs around them.",
+    "Can I get picnic catering near me across Dubai?",
+    "Yes. We cover the whole city and its outdoor spots, from Palm Jumeirah and Jumeirah beaches to Downtown, Dubai Marina, Business Bay, DIFC and the desert, serving parks, gardens and private lawns.",
+    "Can you run a live BBQ instead of a cold picnic spread?",
+    "Yes. A chef and a grill come to the spot and cook kebabs, chicken, lamb chops, prawns, corn and halloumi in front of your guests. Grill formats price as a premium buffet, from AED 150 per person, and we need 72 hours and a look at the site first, since open flames are restricted in most public parks.",
+    "Where are the good picnic spots in Dubai?",
+    "The lakes past Al Qudra for sunset, the city parks — Zabeel, Safa, Creek, Mushrif, Al Barsha Pond — for a group with children, and Kite Beach or the Jumeirah stretch for a morning spread. Further afield, Hatta and Green Mubazzarah near Al Ain are worth the drive. Check the park's own rules on gatherings, music and barbecues before you commit.",
+    "Does the food hold up outdoors in the heat?",
+    "Yes. Dishes are chosen and packed for the climate — chilled transport, covered platters and on-site finishing keep salads crisp, cheese firm and bread fresh from the first hamper to the last plate.",
+    "For picnic catering, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements ."
+   ]
+  },
+  {
+   "block_on_your_page": "What's Included in Our Picnic Catering",
+   "match_confidence": 0.6,
+   "new_heading": "What picnic catering includes",
+   "new_paragraphs": [
+    "Picnic catering includes the food, the format and the full service: portable hampers and grazing boxes, a private picnic chef who finishes and plates on site, service staff where you want them, plus rugs-to-cleanup logistics so you leave nothing behind. As a full picnic catering services provider, myCHEF designs the menu with you, packs everything to travel well in the heat, and clears the spot when the last plate is done. Unlike a supermarket platter, a proper picnic caterer in Dubai builds dishes that hold their shape off a cool box — no wilted leaves, no melted cheese, no soggy bread. Whether it is a quiet spread for six or a large gathering, one team owns the timing from the first hamper opened to the final bag carried out. Every picnic catering company in Dubai promises easy outdoor food; our difference is a vetted chef standing behind the basket, not just a delivery van at the kerb."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "Outdoor Dining, Delivered Beautifully",
+  "Made for Dubai’s Outdoor Lifestyle",
+  "Plan Your Perfect Dubai Picnic",
+  "Explore myCHEF Dubai",
+  "Picnic Catering Questions",
+  "A Taste of Our Picnic Catering"
+ ],
+ "add_block": [
+  {
+   "new_heading": "Picnic catering for weddings, corporate events and parties",
+   "new_paragraphs": [
+    "Picnic catering flexes to nearly any occasion — corporate away-days, birthdays, showers and even relaxed wedding celebrations all suit the format. Corporate picnic catering in Dubai works beautifully for team off-sites, client hospitality in a park and outdoor incentive days, where a shared grazing table breaks the ice better than a boardroom lunch. For social hosts, picnic party catering turns a birthday, a beach hang or a sundowner into something unhurried and photogenic. At weddings, a styled picnic makes a charming morning-after brunch or a laid-back pre-ceremony welcome by the water. Because it is picnic catering built for events of every size, we scale the same menu from an intimate six-seat rug to a hundred-plus guest garden party, adjusting staff, hampers and station count to match. Tell us the headcount and the mood — polished corporate, playful party or romantic celebration — and the menu and styling follow."
+   ],
+   "insert_after_block": "What's Included in Our Picnic Catering",
+   "position": "after the block titled 'What's Included in Our Picnic Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Dietary options and outdoor styling",
+   "new_paragraphs": [
+    "Dietary needs are designed in from the start, not bolted on afterward. The full picnic can be built vegan, gluten-free, nut-free, sugar-free or halal, with all meat prepared to halal standards on request — so every guest eats the same spread instead of a lesser \"special\" plate. On styling, the team dresses the setting to suit the spot: low tables and cushions for a desert dune camp, blankets and florals for a park, driftwood boards for a beach. We work to your palette and venue, adding parasols and shade, cool boxes, fresh flowers, cake stands and a signature welcome drink. Heat and sand are planned for, not ignored: chilled transport, covered platters and quick on-site finishing keep everything crisp. The result reads as a considered luxury picnic catering occasion, not a cool box tipped onto a rug."
+   ],
+   "insert_after_block": "Picnic Catering Questions",
+   "position": "after the block titled 'Picnic Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Can you run a live BBQ at an outdoor picnic?",
+   "new_paragraphs": [
+    "Yes, and it is the upgrade hosts ask about most. A live BBQ catering setup puts a chef and a grill at the spot: kebabs, chicken, lamb chops, prawns, corn and halloumi cooked in front of your guests instead of arriving cold in a box. Outdoor BBQ catering services ask more of the location than a hamper does — level ground, a safe distance from tents and dry grass, and somewhere for the coals to go afterwards — so we confirm the site before we confirm the menu. BBQ catering Dubai hosts book mostly between October and April, when standing near a grill is a pleasure instead of an endurance test. BBQ at home catering is the same service on a garden lawn or a terrace, and it is the simpler version, because power, water and shade are already there. Grill formats price as a premium buffet, from AED 150 per person, and we ask for 72 hours so the kitchen can prep and the meat can marinate properly."
+   ],
+   "insert_after_block": "Picnic Catering Questions",
+   "position": "after the block titled 'Picnic Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Picnic spots in Dubai, and the guidelines that come with them",
+   "new_paragraphs": [
+    "Where you sit shapes what we pack. The lake spots out past Al Qudra, Love Lake among them, suit sunset spreads and need everything carried in, shade included. City parks — Zabeel, Safa, Creek, Mushrif, Al Barsha Pond — have gates, parking and grass, and are the easiest option for a large group with children. Kite Beach and the Jumeirah stretch work for a morning picnic before the heat arrives. Further out, the picnic spots in the UAE worth the drive include Hatta's dam and mountain pools, and Green Mubazzarah near Al Ain. Two picnic guidelines are worth checking before you commit to a place: public parks charge entry and set their own rules on gatherings, amplified music and open flames, with barbecues usually confined to designated areas; and desert sites need a vehicle that can actually reach them, plus a plan for carrying every bag out again. Tell us the location when you enquire and we will tell you what it does and does not allow, then pack for it."
+   ],
+   "insert_after_block": "Picnic Catering Questions",
+   "position": "after the block titled 'Picnic Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How much does picnic catering cost in Dubai?",
+   "new_paragraphs": [
+    "Picnic catering in Dubai costs from AED 700 per person, with the format setting the range. The format sets the band. Hampers, grazing boxes and drop-off are volume formats and start from AED 120 per person, with a live BBQ or a grazing station at AED 150; buffet service carries a 20-guest minimum and a minimum order of AED 900. A chef finishing, plating and serving on site is the AED 700 per person figure, and a luxury picnic with premium grazing and full styling sits higher again. Most hosts pay per head, but set catering packages — from around AED 1,200 for a small group, scaling to AED 2,400 and AED 3,600 for larger counts — can give better value when your numbers are fixed. Picnic home catering staged in a private garden is priced the same way, by guests, menu and service level. There are no hidden add-ons: your itemised quote lists food, staff, equipment and delivery separately, so picnic catering prices are transparent and the picnic catering cost is clear before you commit. Compare formats in our Dubai catering price guide , then send your details for an exact figure."
+   ],
+   "insert_after_block": "Picnic Catering Questions",
+   "position": "after the block titled 'Picnic Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How to hire picnic catering and how it works",
+   "new_paragraphs": [
+    "To hire picnic catering, send your date, guest count, location and any dietary needs, and we typically reply within 15 minutes during business hours with a menu and itemised quote. From there the path is set: we confirm the menu, match a chef and lock the timeline. On the day, the team arrives ahead of your guests, sets the rugs and tables, finishes the food on site, runs the service and clears everything away. Searching for picnic catering near me comes down to coverage and reliability, and myCHEF serves every Dubai neighbourhood and outdoor spot, so \"near me\" is wherever you are hosting. Seventy-two hours suits a standard package or a BBQ; allow 5 to 7 days for a bespoke menu or a larger party, and book earlier for peak dates. One point of contact manages the whole thing, so you are not chasing a delivery driver on the day. This is picnic catering for events of every kind, run to a single standard."
+   ],
+   "insert_after_block": "Picnic Catering Questions",
+   "position": "after the block titled 'Picnic Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Why myCHEF",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you own the day, we carry the work. The vetting standard myCHEF is implementing for picnic catering covers identity checks, a practical cooking assessment, reference verification and ongoing performance reviews — built as a continuous standard rather than a one-time tick, and being rolled out across the network. We are honest about it, too: no system removes every risk, so we match each event to the best available chef for it. For an outdoor grazing spread, that is often Marco Rossi , who brings 15+ years, was raised in Tuscany and trained in Rome and Milan; his antipasti boards, salads and rustic finger food travel and hold beautifully in the open air. Our work spans picnic catering, villa weddings, yacht celebrations and corporate galas across Dubai. Covers picnic catering; client reviews go up as events are delivered."
+   ],
+   "insert_after_block": "Picnic Catering Questions",
+   "position": "after the block titled 'Picnic Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Picnic catering across Dubai",
+   "new_paragraphs": [
+    "We provide picnic catering across Dubai, from Palm Jumeirah and Jumeirah beaches to Downtown gardens, Dubai Marina, Emirates Hills lawns, Business Bay and DIFC corporate terraces, plus desert camps out past Al Qudra. The service travels to you, which is why the \"near me\" question is about reach — and ours covers the whole city, indoors or out. A shaded park spread in Arabian Ranches, a corporate grazing picnic for a DIFC team and a birthday hang on a Marina beach all run on the same standard: a vetted chef, fresh-finished food and full service. Planning a related celebration? See our beach catering and grazing table , explore all event catering , or browse the full range of catering in Dubai . Wherever you are hosting, affordable picnic catering meets you there, ready before your first guest arrives."
+   ],
+   "insert_after_block": "Picnic Catering Questions",
+   "position": "after the block titled 'Picnic Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning picnic catering step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your picnic catering proposal arrives.",
+    "Book picnic catering about 72 hours ahead for a standard package or a BBQ, and 5 to 7 days for a bespoke menu or a larger private event.",
+    "Confirm your picnic catering menu about 7 days out, when the guest list is firm.",
+    "Ask early about allergies and dietary plates — not in the last 48 hours before picnic catering.",
+    "Check the access route before picnic catering day — setup starts roughly 2 hours ahead.",
+    "Plan on roughly 3 hours of picnic catering service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": "Picnic Catering Formats",
+   "position": "after the block titled 'Picnic Catering Formats'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which picnic catering format suits your event?",
+   "new_paragraphs": [
+    "Format What it gives you Staffing Cost position",
+    "Drop-off hampers Food delivered ready to serve None From AED 120 per person",
+    "Grazing buffet Presentation plus a maintained spread 1–2 From AED 120 per person, 20 guests minimum",
+    "Live BBQ or station Cooking in front of your guests 2–4 From AED 150 per person",
+    "Plated, chef on site Every course served together 3 and above From AED 700 per person"
+   ],
+   "insert_after_block": "Picnic Catering Formats",
+   "position": "after the block titled 'Picnic Catering Formats'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Picnic menu & options",
+   "new_paragraphs": [
+    "The picnic menu is bespoke, built around portable dishes you can push in any direction. A typical picnic menu in Dubai runs grazing boxes of cured meats, cheeses and dips; finger food and salads (quiche, frittata, orzo and grain bowls, mezze); fresh fruit, patisserie and chilled treats; and pressed juices, iced tea or a sparkling toast. As picnic food catering, every item is prepared fresh for your date and packed to survive the drive and the heat, instead of pulled from a shelf. Want a Mediterranean grazing spread heavy on antipasti, a kids-friendly box of wraps and fruit, or an Arabic-influenced mezze picnic with dates and labneh? The chef adapts the picnic food and catering around your taste, your guests and the season. Vegetarian, vegan and lighter options sit alongside the richer plates so a mixed group shares one beautiful table."
+   ],
+   "insert_after_block": "Picnic Catering Questions",
+   "position": "after the block titled 'Picnic Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  }
+ ],
+ "faq": []
+}

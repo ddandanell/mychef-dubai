@@ -17,16 +17,6 @@ import {
 } from 'lucide-react'
 import SEO from '../components/SEO'
 import TrustSignalStrip from '../components/TrustSignalStrip'
-import {
-  seoOpeningParagraph,
-  seoFaqHeading,
-  seoFaqs,
-  seoFaqFootnote,
-  seoLocationsHeading,
-  seoLocationsParagraphs,
-  seoBlocksAfterFaq,
-  seoBlocksAfterCta,
-} from './anniversary-seo-content'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -131,7 +121,32 @@ const locations = [
   { name: 'Meydan', slug: 'meydan' },
 ]
 
-const faqs = seoFaqs
+const faqs = [
+  {
+    q: 'How does a private anniversary dinner at home work?',
+    a: 'A dedicated chef arrives at your home or villa with everything needed, prepares your menu course by course in your kitchen, and serves each one with discreet attention. After the meal, the team clears and cleans up, leaving you to enjoy the evening without lifting a finger.',
+  },
+  {
+    q: 'Can you create a romantic dinner for just two people?',
+    a: 'Yes. An intimate dinner for two is one of our most requested anniversary experiences. We design a multi-course menu around your tastes, set a romantic table, and serve the evening privately in your own space.',
+  },
+  {
+    q: 'Do you offer multi-course tasting menus?',
+    a: 'We do. Our anniversary menus often take the form of a multi-course tasting menu, paced from canape to dessert with thoughtful drink pairings, so the evening flows gracefully and feels truly special.',
+  },
+  {
+    q: 'Can you accommodate dietary requirements and favourite dishes?',
+    a: 'Absolutely. We build every anniversary menu around you, including dietary needs, preferences, and even a meaningful dish you would like recreated. Just let us know when we design the menu together.',
+  },
+  {
+    q: 'Can you cater a larger milestone anniversary celebration?',
+    a: 'Yes. Alongside intimate dinners for two, we coordinate catering for larger milestone anniversaries for family and close friends, with a seated menu, attentive service, and a celebration dessert scaled to your guest count.',
+  },
+  {
+    q: 'How far in advance should we book?',
+    a: 'For an intimate private-chef dinner we recommend booking one to two weeks ahead, and earlier for larger celebrations or peak season dates between November and March. Reach out as soon as you have a date to secure your preferred service.',
+  },
+]
 
 const relatedServices = [
   {
@@ -247,8 +262,8 @@ export default function AnniversaryCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Anniversary Catering Dubai | Menus & Prices"
-        description="Anniversary catering in Dubai: buffet from AED 120pp, private chef plated dinner from AED 700pp. Costs worked out for 40 guests, at home vs restaurant, itemised quotes."
+        title="Anniversary Dinner Catering Dubai"
+        description="Anniversary dinner catering in Dubai with romantic private-chef dinners at home, multi-course tasting menus, and celebration desserts. Request a custom proposal today."
         canonicalPath="/anniversary-catering-dubai"
         ogImage="/service-luxury-dining.webp"
         schema={schema}
@@ -272,7 +287,7 @@ export default function AnniversaryCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 an-hero-h1">
-            Anniversary Catering in Dubai — Menus, Prices and What&apos;s Included
+            Anniversary Dinner Catering in Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[600px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 an-hero-sub">
             Romantic private-chef dinners at home, multi-course tasting menus, and celebration desserts. Intimate anniversary dining brought to your villa or home across Dubai.
@@ -293,15 +308,6 @@ export default function AnniversaryCatering() {
       </section>
 
       <TrustSignalStrip />
-
-      {/* ═══════════════ Opening Paragraph (SEO) ═══════════════ */}
-      <section className="bg-cream section-padding">
-        <div className="container-custom max-w-[820px] text-center">
-          <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            {seoOpeningParagraph}
-          </p>
-        </div>
-      </section>
 
       {/* ═══════════════ Section 2: Intro ═══════════════ */}
       <section className="bg-white section-padding">
@@ -430,7 +436,7 @@ export default function AnniversaryCatering() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            {seoFaqHeading}
+            Anniversary Dinner Catering Questions
           </h2>
 
           <div className="an-faq space-y-3">
@@ -456,41 +462,15 @@ export default function AnniversaryCatering() {
               </div>
             ))}
           </div>
-
-          <p className="font-inter text-body-sm text-gray-500 leading-relaxed text-center mt-8">
-            {seoFaqFootnote}
-          </p>
         </div>
       </section>
-
-      {/* ═══════════════ Anniversary catering — planning & formats (SEO) ═══════════════ */}
-      {seoBlocksAfterFaq.map((block, bi) => (
-        <section key={block.heading} className={bi % 2 === 0 ? 'bg-cream section-padding' : 'bg-white section-padding'}>
-          <div className="container-custom max-w-[820px]">
-            <h2 className="font-playfair text-h2 text-black mb-6">{block.heading}</h2>
-            {block.paragraphs.map((p, i) => (
-              <p key={i} className="font-inter text-body-lg text-gray-500 leading-relaxed mb-4">
-                {p}
-              </p>
-            ))}
-          </div>
-        </section>
-      ))}
 
       {/* ═══════════════ Section 8: Locations ═══════════════ */}
       <section className="bg-charcoal py-20">
         <div className="container-custom">
           <h2 className="font-playfair text-fluid-h2 text-white text-center mb-10">
-            {seoLocationsHeading}
+            Catering Across Dubai
           </h2>
-
-          <div className="max-w-[820px] mx-auto mb-10 space-y-4">
-            {seoLocationsParagraphs.map((p, i) => (
-              <p key={i} className="font-inter text-body-lg text-gray-400 leading-relaxed">
-                {p}
-              </p>
-            ))}
-          </div>
 
           <div className="an-loc-grid grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
             {locations.map((loc) => (
@@ -568,20 +548,6 @@ export default function AnniversaryCatering() {
           </div>
         </div>
       </section>
-
-      {/* ═══════════════ Anniversary catering — detailed guides (SEO) ═══════════════ */}
-      {seoBlocksAfterCta.map((block, bi) => (
-        <section key={block.heading} className={bi % 2 === 0 ? 'bg-white section-padding' : 'bg-cream section-padding'}>
-          <div className="container-custom max-w-[820px]">
-            <h2 className="font-playfair text-h2 text-black mb-6">{block.heading}</h2>
-            {block.paragraphs.map((p, i) => (
-              <p key={i} className="font-inter text-body-lg text-gray-500 leading-relaxed mb-4">
-                {p}
-              </p>
-            ))}
-          </div>
-        </section>
-      ))}
     </div>
   )
 }

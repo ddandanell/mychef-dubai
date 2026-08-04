@@ -1,0 +1,203 @@
+{
+ "url": "/birthday-catering-dubai",
+ "keyword_strategy": {
+  "main_keyword": "birthday catering dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 13,
+  "subkeywords_carried": 13,
+  "coverage_percent": 100,
+  "subkeywords_carried_list": [
+   "buffet catering dubai",
+   "home party catering dubai",
+   "small party catering dubai",
+   "best birthday catering dubai",
+   "cheap birthday catering dubai",
+   "birthday catering dubai price",
+   "small party catering dubai indian",
+   "birthday catering dubai for adults",
+   "party catering dubai",
+   "best party catering dubai",
+   "kids birthday catering dubai",
+   "birthday party catering dubai",
+   "best small party catering dubai"
+  ],
+  "subkeywords_not_carried": [],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Birthday Catering Dubai | Menus & Prices | myCHEF",
+  "meta_description": "Birthday catering in Dubai from AED 700pp — grazing tables and canapés, vetted chefs and full service. Bespoke menus for your event. Get an itemised quote.",
+  "h1": "Birthday Catering in Dubai — Prices, Formats and What You Get"
+ },
+ "opening_paragraph": [
+  "Birthday catering in Dubai starts from AED 700 per person , priced to your guest count, chosen menu and level of service. A vetted chef plans the food around the person you are celebrating, cooks fresh on site, serves your guests and clears everything away, so the day stays yours. Send your date, numbers and venue, and during our published business hours you get a full itemised quote back promptly."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "What Our Birthday Catering Includes",
+   "match_confidence": 0.81,
+   "new_heading": "What does birthday catering in Dubai include?",
+   "new_paragraphs": [
+    "Birthday catering in Dubai includes everything from menu design to the final clean-up, handled by one team so you host nothing but the party. Your booking covers a chef who cooks on site, service staff scaled to your headcount, plating, table setup and the cleanup afterwards. You choose the food; the chef sources it, preps it and runs the timing so courses land when your guests are ready. For a home celebration, that means no borrowed pans, no last-minute supermarket run and no washing up at midnight. This is full-service birthday catering, not a tray of food left at the door, though a drop-off option exists if you want the food without the staff. Tell the chef about allergies, kids at the table or a surprise cake reveal, and it goes into the plan."
+   ]
+  },
+  {
+   "block_on_your_page": "A Taste of Our Birthday Catering",
+   "match_confidence": 0.73,
+   "new_heading": "What's on a birthday catering menu?",
+   "new_paragraphs": [
+    "Every birthday menu is yours to shape, but most start from grazing tables, canapés, live cooking stations, a BBQ, or a dessert table around the cake. You might open with a grazing spread and canapés for arrivals, move to a live station or BBQ as the main event, then finish on a dessert table staged for the cake moment. Cuisines are yours to pick: Arabic mezze, Italian, Mediterranean, Indian, or a mix across the evening. The chef adjusts every dish for dietary needs, so vegetarian, vegan, halal, gluten-free and nut-free guests eat as well as every guest at the table. Nothing here is a fixed package you squeeze into. These are starting points the chef tailors to your taste, your guests and the birthday you are throwing."
+   ]
+  },
+  {
+   "block_on_your_page": "Birthday Catering Questions",
+   "match_confidence": 0.86,
+   "new_heading": "Birthday catering questions, answered",
+   "new_paragraphs": [
+    "How much does birthday catering cost in Dubai?",
+    "Birthday catering costs from AED 700 per person in Dubai, quoted to your guest count, menu and service level. Send your numbers for an itemised quote.",
+    "What is included in birthday catering?",
+    "Included is a vetted chef, service staff where you need them, plating, setup and the full cleanup. You host; the team handles the food and the room.",
+    "How far ahead should I book birthday catering?",
+    "Book as early as you can. A standard package needs about 72 hours and a bespoke menu or a larger party 5 to 7 days. Lead times depend on guest numbers, menu, staffing, location and partner availability, and short-notice requests are assessed individually.",
+    "Can you cater a kids' birthday?",
+    "Yes. Kids' birthdays get familiar, fun food on an earlier, calmer schedule, with allergies planned in. See our kids' birthday service for a party built around younger guests.",
+    "Do you offer a birthday cake or dessert table?",
+    "Yes. A dessert table and cake moment can anchor the finish, styled for the photos and adjusted for dietary needs. A pastry chef can take the sweet course if you want it as a centrepiece.",
+    "Is there a cheaper option than AED 700 per person?",
+    "Yes, by changing format rather than by discount. A self-served buffet or drop-off trays start from AED 120 per person and a premium buffet, BBQ or live station from AED 150, with a 20-guest minimum on buffet, 10 on drop-off and a minimum order of AED 900. The AED 700 figure buys staffing and a chef cooking on site.",
+    "Can you cater a small birthday for under ten people?",
+    "Yes, with a private chef. Volume formats need 10 guests for drop-off and 20 for buffet, but a private chef is priced per head from AED 700 with no minimum headcount, so a birthday dinner for four at home is a normal booking.",
+    "Is birthday catering in Dubai for adults different from a kids’ party?",
+    "Yes. Adult birthdays start later and stand longer, so canapés and a grazing table carry the first hour and the main lands once everyone has arrived. Kids’ parties run earlier and shorter with familiar food. Where both are in the room, we split the menu.",
+    "Which areas of Dubai do you cover for birthdays?",
+    "We cater birthdays across Dubai, from villas on Palm Jumeirah to apartments in Business Bay and gardens in Arabian Ranches. The chef travels to your venue anywhere in the city.",
+    "Ready to plan the day? Request a birthday catering proposal or chat on WhatsApp , and we typically reply within 15 minutes during business hours. Every booking runs within Dubai Municipality food-safety requirements ."
+   ]
+  },
+  {
+   "block_on_your_page": "Birthday Catering Across Dubai",
+   "match_confidence": 0.72,
+   "new_heading": "How much does birthday catering cost in Dubai?",
+   "new_paragraphs": [
+    "Birthday catering in Dubai starts from AED 700 per person, and the format you choose decides where you land above that. The entry point is a self-served buffet or drop-off trays, from AED 120 per person, with a premium buffet, BBQ or live station from AED 150 and a 20-guest minimum on buffet service; plated service with full staff, premium ingredients and a chef cooking on site is the AED 700 figure. If you would work to a set figure, fixed birthday catering packages run at AED 1200, 2400, 3600, 4500 and 5500, each covering a defined menu and guest band. Prices scale with your headcount, the number of courses and how much live cooking you want on the night. There are no hidden extras: you get an itemised quote listing food, staff, setup and service before you commit a dirham. For a fuller breakdown, read our Dubai catering price guide , then send your numbers for a firm cost."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "A Birthday They'll Always Remember",
+  "Catering for Every Birthday",
+  "Birthdays for Every Celebration",
+  "Let's Plan the Birthday",
+  "Explore myCHEF Dubai"
+ ],
+ "add_block": [
+  {
+   "new_heading": "Can you cater kids' parties, milestones and corporate birthdays?",
+   "new_paragraphs": [
+    "Yes. The same team caters a toddler's first birthday, a landmark 40th and a corporate birthday for a colleague, each styled to suit the room. For a children's party, the chef keeps the food familiar and fun and works to a calmer, earlier schedule; our dedicated kids' birthday service is built for that. A milestone birthday leans into a grazing table or a chef's live station your guests gather around. For a corporate birthday at the office, you get tidy finger food and canapés people eat standing, without slowing the afternoon. Whatever the age, you keep one point of contact and one quote. Planning something bigger? Browse our full party catering range, or all catering in Dubai ."
+   ],
+   "insert_after_block": "What Our Birthday Catering Includes",
+   "position": "after the block titled 'What Our Birthday Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How is a birthday spread styled and set up?",
+   "new_paragraphs": [
+    "The chef and service team arrive early, set up in your kitchen or a service area, and style the food so it reads as an occasion before anyone lifts a fork. The chef arranges grazing tables as a centrepiece, positions live stations where guests gather, and stages the dessert table for the cake and the photos your family will keep. You tell the team your venue, whether that is a villa, an apartment, a rooftop or a garden, and they plan power, space and flow around it. Service runs quietly through the evening: topping up platters, clearing plates and holding the food at a safe temperature. When your guests leave, the team packs down, cleans the space and takes the mess with them, so you wake up to a tidy home instead of a kitchen to face."
+   ],
+   "insert_after_block": "A Taste of Our Birthday Catering",
+   "position": "after the block titled 'A Taste of Our Birthday Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How do you hire birthday catering, and how does it work?",
+   "new_paragraphs": [
+    "To hire birthday catering, send your date, guest count and venue, and you get an itemised quote back promptly during our published business hours. From there it runs in four steps. First, you share the brief: the occasion, numbers, any dietaries and the mood you want. Second, the chef proposes a menu and a quote, and you refine both until they fit. Third, you confirm the date, and the team locks the plan, the timings and the shopping. Fourth, on the day the chef and staff arrive, cook, serve and clean up while you enjoy the party. You keep one contact throughout. Many hosts find it the surest way to celebrate without hosting the work themselves."
+   ],
+   "insert_after_block": "Birthday Catering Across Dubai",
+   "position": "after the block titled 'Birthday Catering Across Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Why choose myCHEF for your birthday?",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you own the evening, and the work is ours. The vetting standard myCHEF is implementing covers identity checks, a practical cooking assessment, reference verification and ongoing performance reviews — built as a continuous standard rather than a one-time tick, and being rolled out across the network. No system removes every risk, so we match your event to the chef who fits it. For a birthday, that is often Ahmed Al-Rashid , with 18+ years across Dubai, London and Paris in classical French technique, designing each menu with the host and timing every course to the room. For the cake and dessert table, pastry chef Sofia Moretti can take the sweet finish. Birthday catering sits alongside villa weddings, yacht celebrations and corporate galas across Dubai. We add client reviews only as events are delivered: real feedback, added as it comes in."
+   ],
+   "insert_after_block": "Birthday Catering Across Dubai",
+   "position": "after the block titled 'Birthday Catering Across Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Where do you cater birthdays across Dubai?",
+   "new_paragraphs": [
+    "Wherever you are in Dubai, birthday catering comes to you; searching for a birthday caterer near me here means a chef travels to your address, not a fixed restaurant you book around. We cover Downtown, Business Bay, Dubai Marina, JBR, Palm Jumeirah, Jumeirah, Emirates Hills, Arabian Ranches, Dubai Hills and the wider city, for villas, apartments and outdoor venues alike. As a Dubai catering company running full birthday catering services for private homes, offices and events across the city, we hold to strict food-safety standards on every booking. Whether you want an affordable home spread, a luxury sit-down, or corporate birthday food for the team, and whatever cuisine you have in mind, you get the same vetted chefs and the same honest quote. Prefer a set price? Compare our birthday packages and pick the tier that fits."
+   ],
+   "insert_after_block": "Birthday Catering Across Dubai",
+   "position": "after the block titled 'Birthday Catering Across Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning birthday catering step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your birthday catering proposal arrives.",
+    "Book birthday catering about 72 hours ahead for a standard package, and 5 to 7 days for a bespoke menu or a larger party.",
+    "Confirm the birthday catering menu 7 days before the date, with final numbers.",
+    "Ask about allergies when booking birthday catering, well outside the final 48 hours .",
+    "Check how the team reaches the venue; birthday catering setup begins about 2 hours before guests.",
+    "Plan on roughly 3 hours of birthday catering service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": "Birthday Catering Questions",
+   "position": "after the block titled 'Birthday Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which birthday catering format suits your event?",
+   "new_paragraphs": [
+    "Format What it gives you Staffing Cost position",
+    "Drop-off Food delivered ready to serve None From AED 120 per person, 10 guests minimum",
+    "Buffet Presentation plus a maintained spread 1–2 From AED 120 per person, 20 guests minimum",
+    "Live stations or BBQ Cooking in front of your guests 2–4 From AED 150 per person",
+    "Plated, chef on site Every course served together 3 and above From AED 700 per person"
+   ],
+   "insert_after_block": "Birthday Catering Questions",
+   "position": "after the block titled 'Birthday Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Adults’ birthdays, kids’ parties and small gatherings",
+   "new_paragraphs": [
+    "Birthday catering in Dubai for adults runs on a different clock to a children’s party. Guests arrive later, eat standing for the first hour and sit down late if at all, so canapés and a grazing table carry the start while a live station or a plated main lands once everybody is in. The music, the lighting and the cake moment are timed against that instead of against nap time. A kids’ party inverts all of it: earlier, shorter, food they recognise, and a schedule built around the entertainer. Where both are in the room, which is most fortieths, we split the menu instead of compromising it.",
+    "Small party catering in Dubai has its own arithmetic. Volume formats need numbers to make sense: buffet service starts at 20 guests, drop-off at 10, on a minimum order of AED 900. Below that a private chef is the better answer, because it is priced per head from AED 700 with no minimum headcount at all — a birthday dinner for four in your own kitchen is a real booking, not an awkward one. Indian, Arabic, Italian or Mediterranean, the menu gets picked the same way at either size."
+   ],
+   "insert_after_block": "Birthday Catering Questions",
+   "position": "after the block titled 'Birthday Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Is there such a thing as cheap birthday catering in Dubai?",
+   "new_paragraphs": [
+    "There is a real entry point, and it is a change of format rather than a discount. A self-served buffet or drop-off trays start from AED 120 per person, and a premium buffet, BBQ or live station from AED 150, on that 20-guest buffet minimum and the AED 900 minimum order. What you give up is the staffing: nobody plates, nobody tops up the table and nobody clears afterwards. The AED 700 per person figure buys that labour and a chef cooking on site. Both are honest ways to throw a birthday. What would not be honest is quoting the low number and charging the high one, which is why every quote itemises food, staff, equipment and delivery separately."
+   ],
+   "insert_after_block": "Birthday Catering Questions",
+   "position": "after the block titled 'Birthday Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What makes the best birthday catering in Dubai?",
+   "new_paragraphs": [
+    "Fit, mostly, and three things you can check before you book. Whether the caterer publishes prices or hides them behind “request a quote&rdquo. Whether one person owns the timing on the night, or the food arrives from a van and the rest is your problem. And whether the menu is written for your actual guest list — the vegetarian, the nut allergy, the two-year-old — or handed over off a fixed sheet. Ask those three of anyone you shortlist, us included."
+   ],
+   "insert_after_block": "Birthday Catering Questions",
+   "position": "after the block titled 'Birthday Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  }
+ ],
+ "faq": []
+}

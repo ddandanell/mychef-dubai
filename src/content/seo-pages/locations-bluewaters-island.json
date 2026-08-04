@@ -1,0 +1,196 @@
+{
+ "url": "/locations/bluewaters-island",
+ "keyword_strategy": {
+  "main_keyword": "private chef bluewaters island",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 8,
+  "subkeywords_carried": 5,
+  "coverage_percent": 62,
+  "subkeywords_carried_list": [
+   "how much does a private chef cost in dubai?",
+   "how much does it usually cost to have a private chef?",
+   "private chef bluewaters island dubai",
+   "female private chef bluewaters island",
+   "private chef bluewaters island reviews"
+  ],
+  "subkeywords_not_carried": [
+   "how much should you charge as a private chef?",
+   "how much does a private chef make in the uae?",
+   "affordable private chef bluewaters island"
+  ],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Private Chef Bluewaters Island | Villa Dining & Catering | myCHEF",
+  "meta_description": "Private chef & catering in Bluewaters Island from AED 700pp — villa dining, events and bespoke menus with vetted chefs. Serving Bluewaters Residences apartments and penthouses. Request a proposal.",
+  "h1": "Private Chef & Catering in Bluewaters Island — Real Prices, Menus and Timings"
+ },
+ "opening_paragraph": [
+  "A private chef in Bluewaters Island brings restaurant-grade cooking to your own apartment or penthouse, with private dining from AED 700 per person. On an island built around Ain Dubai, the finest table in the house is your own terrace, and myCHEF pairs you with a vetted chef who shapes the menu, cooks in your own kitchen, plates each course and leaves the place spotless. Bluewaters is all apartments, penthouses and beachfront townhouses, and we look after residents and visitors alike. Send your date and address, and during our published business hours you'll hear back promptly with a chef match and an itemised proposal."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "Who Books Private Chef & Catering on Bluewaters?",
+   "match_confidence": 0.71,
+   "new_heading": "Who hires a private chef in Bluewaters Island?",
+   "new_paragraphs": [
+    "Mostly residents and short-stay visitors on Dubai's upscale beachfront island. In practice, bookings for a private chef in Bluewaters Island lean toward penthouse and terrace dinners, milestone celebrations with a view of Ain Dubai, and relaxed canapé receptions before a night out. Holidaymakers renting a Bluewaters Residences apartment often want a personal chef so a family or friends' trip includes one standout evening without leaving the island. Corporate hosts book quiet, high-end client dinners where a hotel restaurant feels too public. Whoever the host, the chef and menu are built around the occasion. An intimate dinner for two and a fifty-guest terrace party are planned differently from the first call, and both are entirely at home here."
+   ]
+  },
+  {
+   "block_on_your_page": "What Is Included in Bluewaters Catering",
+   "match_confidence": 0.6,
+   "new_heading": "What's on the menu for Bluewaters Island dining?",
+   "new_paragraphs": [
+    "Whatever suits your table, because the menu is built for you, not pulled from a fixed list. Bespoke menus run across Arabic , Mediterranean , Italian , Indian and Pan-Asian, from a plated multi-course dinner to grazing spreads and canapés. Every menu can be built fully halal , and vegetarian and vegan options are handled as standard. Gluten-free options are available on request, subject to partner confirmation and an allergen review for the specific booking, and the rest of the dietary brief is planned the same allergen-aware way: you are told what the assigned kitchen can and cannot control before you commit. Seafood and lighter, produce-led plates are especially popular for beachfront dining, and pastry-led finishes work well for celebrations. Browse sample menus for a starting point, or tell the chef your theme, your must-haves and anything to avoid, and they'll design around it."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "At a Glance",
+  "Exclusive private chef dining for Bluewaters residents and visitors, designed around the island's luxury apartments, Ain Dubai views and short-stay lifestyle.",
+  "Properties We Serve in Bluewaters",
+  "Why myCHEF Dubai for Bluewaters Catering",
+  "Popular Bluewaters Catering Occasions",
+  "Also Serving Near Bluewaters",
+  "Services in Bluewaters",
+  "Explore Our Services",
+  "Popular Events in Bluewaters",
+  "Questions About Bluewaters Catering",
+  "Explore myCHEF Dubai",
+  "Menu Styles for Bluewaters Island",
+  "How Bluewaters Private Chef Catering Works",
+  "Delivery & Access on Bluewaters Island",
+  "Host a Private Dinner on Bluewaters"
+ ],
+ "add_block": [
+  {
+   "new_heading": "Can you cater a dinner party or event on Bluewaters Island?",
+   "new_paragraphs": [
+    "Yes, the same team handles everything from a two-person anniversary to full Bluewaters Island event catering. An in-villa chef dinner party for six to twelve is the most common request, but we regularly scale up to Bluewaters Island party catering for a penthouse birthday, an engagement on the terrace or a client reception. For weddings and larger private events we bring additional chefs and service staff and coordinate flow across the space. Bluewaters Island villa catering and villa dining formats cover both plated dinners and live stations; corporate hosts often choose a canapé-and-cocktail reception followed by a seated course. Tell us the guest count and the mood, and the format — from a quiet dinner party to a lively party spread — is built to match."
+   ],
+   "insert_after_block": "What Is Included in Bluewaters Catering",
+   "position": "after the block titled 'What Is Included in Bluewaters Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How does dining work on a pedestrian island?",
+   "new_paragraphs": [
+    "Smoothly, because we plan around it. Bluewaters is a pedestrian island beside Ain Dubai, so deliveries route via the connecting bridge and resident lifts, logistics we coordinate directly with the chef so terrace and penthouse dinners start on time. Once you confirm your date, guest count and address, we match a vetted chef, agree the menu, and handle the cooking, service and cleanup on the day. The chef arrives with equipment and ingredients, works cleanly in your kitchen, and paces courses to your evening, not to a kitchen ticket. If your building has loading or access rules, share them when you book and we'll fold them into the plan. Popular formats here are penthouse and terrace dining, beachfront celebrations and canapé receptions."
+   ],
+   "insert_after_block": "What Is Included in Bluewaters Catering",
+   "position": "after the block titled 'What Is Included in Bluewaters Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Why book the best private chef for Bluewaters Island through myCHEF?",
+   "new_paragraphs": [
+    "Because vetting is the whole point. MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you own the evening, we carry the work. Chefs reach private chef bluewaters island only after identity checks, a practical cooking assessment, reference verification and ongoing performance reviews : a continuous standard, not a one-time tick. We're honest about it, too: no system removes every risk, so we match each event to the right available chef for it, not a promise of perfection.",
+    "For a refined villa dinner like this, that might be Ahmed Al-Rashid , who brings 18+ years across Dubai, London and Paris in classical French technique. He designs each menu as a collaboration with the host, every course timed, seasoned and served to exacting standards, whether it's an intimate luxury private chef dinner or a larger celebration. We've delivered quiet in-villa dinners and full terrace parties across Dubai's communities. Private chef bluewaters island comes with real client reviews, published as events happen."
+   ],
+   "insert_after_block": "How Bluewaters Private Chef Catering Works",
+   "position": "after the block titled 'How Bluewaters Private Chef Catering Works'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Where else near Bluewaters Island do you serve?",
+   "new_paragraphs": [
+    "All of Bluewaters and the communities right beside it. Beyond the island itself, taking in Bluewaters Residences apartments and penthouses, the beachfront townhouses and the Ain Dubai and Caesars area, a private chef near Bluewaters Island reaches the whole western beachfront. Explore JBR and Dubai Marina just across the bridge, or browse all Dubai locations . Still deciding between an in-home chef and a catered spread? Compare private chef vs catering to see which format fits your evening, then send us the details."
+   ],
+   "insert_after_block": "How Bluewaters Private Chef Catering Works",
+   "position": "after the block titled 'How Bluewaters Private Chef Catering Works'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning private chef bluewaters island step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your private chef bluewaters island proposal arrives.",
+    "Book private chef bluewaters island about 2 weeks ahead off-peak, and 6 weeks ahead between November and March.",
+    "Confirm what goes on the private chef bluewaters island menu 7 days out, once the count settles.",
+    "Ask for special diets up front; private chef bluewaters island plates are planned, not improvised inside 48 hours .",
+    "Check loading and access details; allow 2 hours of private chef bluewaters island setup on site.",
+    "Plan on roughly 3 hours of private chef bluewaters island service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": "How Bluewaters Private Chef Catering Works",
+   "position": "after the block titled 'How Bluewaters Private Chef Catering Works'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which private chef bluewaters island format suits your event?",
+   "new_paragraphs": [
+    "Format Service staff Guests it suits Indicative cost",
+    "Drop-off None Any size, informal Most economical",
+    "Buffet 1–2 20–60 From AED 700 per person",
+    "Live stations 2–4 40 and above From AED 700 per person",
+    "Plated service 3 and above 8–40 seated Highest per head"
+   ],
+   "insert_after_block": "How Bluewaters Private Chef Catering Works",
+   "position": "after the block titled 'How Bluewaters Private Chef Catering Works'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Common questions",
+   "new_paragraphs": [
+    "How much does a private chef cost in Bluewaters Island?",
+    "Private dining in Bluewaters Island starts from about AED 700–950 per person, depending on guest count, menu and service level. Larger groups come down per head; send your numbers for an exact quote.",
+    "Which parts of Bluewaters Island do you serve?",
+    "All of Bluewaters Island — Bluewaters Residences apartments and penthouses, beachfront townhouses and the surrounding streets — plus nearby Dubai communities. Confirm your exact address when you enquire.",
+    "What's included?",
+    "From menu planning to the chef, the service staff, the plating and the cleanup — one team covers all of it.",
+    "How do I book?",
+    "Share your date, guest count and address; we match a vetted chef and send an itemised proposal, usually within one business day.",
+    "Can you cater a dinner party or larger event on Bluewaters Island?",
+    "Yes. From an intimate in-villa chef dinner for two to Bluewaters Island party catering for fifty on a penthouse terrace, the same team scales the kitchen, service staff and menu to the room.",
+    "Do you offer halal and allergen-aware dietary menus?",
+    "Yes. Every menu can be built fully halal, and vegetarian and vegan requests are handled as standard. Gluten-free, nut-conscious and other dietary menu options may be available on request, subject to confirmation by the assigned culinary partner. Partner kitchens may handle allergens, and cross-contact cannot be completely excluded unless dedicated controls have been specifically confirmed for the booking. Guests with allergies must provide full details before confirming their event.",
+    "How far ahead should I book a private chef on Bluewaters Island?",
+    "Three to five days is comfortable for most dinners; weekends, large events and peak dates fill sooner. Same-week and next-day bookings are often possible — ask and we will check chef availability.",
+    "Is it a personal chef in my own kitchen or drop-off catering?",
+    "It is a personal chef who cooks in your own kitchen and plates each course to order. If you prefer, we also arrange drop-off and canapé-style Bluewaters Island catering services for lighter formats.",
+    "Can I request a female private chef on Bluewaters Island?",
+    "Yes — a female chef can be requested for your booking. Tell us when you enquire and myCHEF matches you with a female chef from the partner network for your date, cuisine and service style. On Bluewaters Island it is a regular request from family apartments and from hosts planning women-only gatherings, and raising it alongside your date gives the widest choice, because availability moves with the date, the cuisine and who in the partner network is free.",
+    "For private chef bluewaters island, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements ."
+   ],
+   "insert_after_block": "How Bluewaters Private Chef Catering Works",
+   "position": "after the block titled 'How Bluewaters Private Chef Catering Works'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How much does a private chef cost in Bluewaters Island?",
+   "new_paragraphs": [
+    "Bluewaters Island private chef cost starts from AED 700 per person and scales with the size of the table. A dinner for two lands nearer AED 950–1,300 per head, six guests settle around AED 750–1,000, and parties of ten or more start from AED 700, so the more guests, the lower the per-head figure, because fixed costs spread further. Your quote reflects the menu, the number of courses and how much service staff the event needs; a plated tasting-style dinner sits above a relaxed grazing reception. There are no surprise add-ons: the proposal itemises food, chef, service and setup up front. The full breakdown is on private chef prices in Dubai , or send your numbers for an exact quote."
+   ],
+   "insert_after_block": "Menu Styles for Bluewaters Island",
+   "position": "after the block titled 'Menu Styles for Bluewaters Island'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  },
+  {
+   "new_heading": "How do I hire a private chef on Bluewaters Island?",
+   "new_paragraphs": [
+    "Share three things and we do the rest. To hire a chef for Bluewaters Island, send your date, your guest count and your address, and we match a vetted chef to your occasion and cuisine — usually with an itemised proposal back within one business day, or promptly during our published business hours for a first response. From there you confirm the menu, we lock the chef, and on the day the kitchen comes to you. There's no membership and no long form: a personal chef for a single dinner and a chef for hire across a run of events are booked the same way. Prefer to talk it through first? Message us and we'll shape options around your budget before anything is confirmed."
+   ],
+   "insert_after_block": "How Bluewaters Private Chef Catering Works",
+   "position": "after the block titled 'How Bluewaters Private Chef Catering Works'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  },
+  {
+   "new_heading": "What does a private chef on Bluewaters Island include?",
+   "new_paragraphs": [
+    "Everything from the first menu conversation to the last clean plate. Booking a personal chef here means one in-villa chef arrives with the ingredients, cooks course by course in your own kitchen, serves at your table and leaves the space exactly as they found it: no shopping, no washing up, no restaurant reservation on a busy island. A standard booking covers menu design around your tastes and dietary needs, all ingredients, the home chef on site, plating and table service, and a full setup and cleanup. For larger tables we add service staff so drinks, courses and pacing stay smooth. Because Bluewaters is compact and residential, an in-villa chef suits it far better than moving a party off the island. The kitchen comes to you, and the evening stays private from start to finish."
+   ],
+   "insert_after_block": "Delivery & Access on Bluewaters Island",
+   "position": "after the block titled 'Delivery & Access on Bluewaters Island'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  }
+ ],
+ "faq": []
+}

@@ -1,0 +1,153 @@
+{
+ "url": "/fodmap-catering-dubai",
+ "keyword_strategy": {
+  "main_keyword": "fodmap catering dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 1,
+  "subkeywords_carried": 0,
+  "coverage_percent": 0,
+  "subkeywords_carried_list": [],
+  "subkeywords_not_carried": [
+   "low fodmap meal plan dubai"
+  ],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Low-FODMAP Catering Dubai | Menus & Prices | myCHEF",
+  "meta_description": "Low-FODMAP catering in Dubai from AED 700pp — low-FODMAP mains and sides and more, with vetted chefs and full service. Bespoke menus for any event. Get a quote.",
+  "h1": "Low-FODMAP Catering in Dubai — What It Costs and How to Book"
+ },
+ "opening_paragraph": [
+  "FODMAP catering in Dubai from myCHEF puts gut-friendly, IBS-aware food on the table from AED 700 per person — a vetted chef plans a low-FODMAP menu, cooks it in your kitchen, serves and clears up. The dishes skip the usual high-FODMAP trigger ingredients without anyone feeling singled out, and the price is quoted to your guest count, menu and service style. Send the date, guest count and venue; we typically reply within 15 minutes during business hours, with a full itemised quote to follow you can plan around."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "FODMAP-Friendly Catering Formats",
+   "match_confidence": 0.6,
+   "new_heading": "Which fodmap catering format suits your event?",
+   "new_paragraphs": [
+    "Format What it gives you Staffing Cost position",
+    "Drop-off Food delivered ready to serve None Entry point",
+    "Buffet Presentation plus a maintained spread 1–2 From AED 700 per person",
+    "Live stations Cooking in front of your guests 2–4 Mid-range",
+    "Plated Every course served together 3 and above Top of the range"
+   ]
+  },
+  {
+   "block_on_your_page": "What's Included in Our FODMAP-Friendly Catering",
+   "match_confidence": 0.57,
+   "new_heading": "What low-FODMAP catering includes",
+   "new_paragraphs": [
+    "Low-FODMAP catering is a full-service arrangement: menu, chef, service and cleanup handled by one team, not a tray of food left at the door. MyCHEF matches you with a private FODMAP chef in Dubai who designs the dishes around the low-FODMAP framework — limiting onion, garlic, wheat, certain dairy and high-fructose ingredients — and cooks them fresh on site. You get menu design and an optional tasting, a chef cooking in your kitchen, front-of-house staff where the format needs them, plating, and setup and cleanup. Because it runs as proper FODMAP catering services in Dubai and not a drop-off tray, seasoning, cross-contact and timing stay under a chef's control from prep to the last plate cleared. Drop-off is available too when a chef on site is not required."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "Event Catering for Sensitive Digestive Systems",
+  "Built for Comfortable, Confident Dining",
+  "FODMAP-Friendly Catering Questions",
+  "Explore myCHEF Dubai",
+  "A Taste of Our FODMAP-Friendly Catering",
+  "Plan Low-FODMAP Catering That Works for Everyone"
+ ],
+ "add_block": [
+  {
+   "new_heading": "Low-FODMAP catering for weddings, corporate events and parties",
+   "new_paragraphs": [
+    "The same low-FODMAP kitchen scales from an intimate dinner to a full event, so no guest is left with a side salad. For a private party, the chef builds one shared menu — the gut-sensitive guests and the rest of the table eat the same food. For corporate FODMAP catering in Dubai, we run boardroom lunches, office spreads and team dinners where a colleague managing IBS needs to eat confidently in front of clients. FODMAP party catering in Dubai suits birthdays, showers and anniversaries; for weddings we plan multi-course menus and coordinate with your other suppliers. Whether it is FODMAP catering for events in Dubai at a villa, a hotel suite or an office, the format flexes — plated, buffet or live stations — while the low-FODMAP standard stays constant across every dish."
+   ],
+   "insert_after_block": "What's Included in Our FODMAP-Friendly Catering",
+   "position": "after the block titled 'What's Included in Our FODMAP-Friendly Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Low-FODMAP menu and options",
+   "new_paragraphs": [
+    "The FODMAP menu in Dubai is built dish by dish around what you want to serve, then engineered to stay low-FODMAP. In place of onion and garlic we lean on garlic-infused oil, spring-onion greens, chives and herbs to keep flavour high. Typical builds include grilled proteins with herb oils, rice and quinoa sides, roasted low-FODMAP vegetables such as carrots, courgette, peppers and green beans, lactose-free or hard-cheese options, and fruit-based or dark-chocolate desserts. Global cuisines adapt well — Mediterranean, Levantine, Italian and Asian menus all translate with the right swaps. Portion-controlled is the guiding idea, since FODMAPs stack by quantity, so the chef balances the plate instead of just stripping ingredients out. Share your favourites and any firm no-go items and the chef returns a menu; see sample menus for a starting point."
+   ],
+   "insert_after_block": "What's Included in Our FODMAP-Friendly Catering",
+   "position": "after the block titled 'What's Included in Our FODMAP-Friendly Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Managing dietary needs and cross-contamination",
+   "new_paragraphs": [
+    "Individual FODMAP tolerances vary, which is why every menu is agreed with you before the event and we do not publish medical guarantees. Tell us the specifics when you enquire — whether a guest is in the strict elimination phase or reintroducing groups, and any items to avoid entirely. The chef then plans prep to reduce cross-contact: separate boards and utensils, checked ingredient labels, and dishes kept identified and labelled during service. FODMAP work often overlaps with other needs, so low-FODMAP menus can be built gluten-free, dairy-free or vegetarian at the same time. If a strict coeliac or severe allergy is in the room, flag it up front so the kitchen can plan around it. This is allergy-aware food catering, handled by a professional who cooks for dietary requirements as routine — not an afterthought bolted onto a standard menu."
+   ],
+   "insert_after_block": "What's Included in Our FODMAP-Friendly Catering",
+   "position": "after the block titled 'What's Included in Our FODMAP-Friendly Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How much does low-FODMAP catering cost in Dubai?",
+   "new_paragraphs": [
+    "Low-FODMAP catering in Dubai starts from AED 700 per person, and the format drives the final number. Buffet and drop-off styles come in lowest per head; plated service with front-of-house staff sits higher because it is more hands-on. FODMAP catering prices in Dubai are quoted to your guest count, the menu you choose and the service level, so a relaxed home buffet and a plated wedding course sit at different points. FODMAP catering packages in Dubai can bundle menu, chef and service for easier budgeting, and larger guest counts improve the per-head cost. There is no membership or hidden fee — you see an itemised proposal before committing. For a fuller breakdown of FODMAP catering cost in Dubai and how affordable and luxury tiers compare, see our Dubai catering price guide or ask for a quote."
+   ],
+   "insert_after_block": "What's Included in Our FODMAP-Friendly Catering",
+   "position": "after the block titled 'What's Included in Our FODMAP-Friendly Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Why myCHEF",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you own the evening, we carry the work. Every chef working on fodmap catering has cleared identity checks, a practical cooking assessment, reference verification and ongoing performance reviews — a continuous standard, not a one-time tick. We are honest about it, too: no system removes every risk, so we match each event to the right chef for it. For dietary-led menus like this, that is often Ahmed Al-Rashid — 18+ years across Dubai, London and Paris in classical French technique — who designs each menu as a collaboration with the host, every course timed, seasoned and served to exacting standards, and who is comfortable engineering flavour within tight ingredient limits. Our work spans fodmap catering, villa weddings, yacht celebrations and corporate galas across Dubai. Covers fodmap catering; client reviews go up as events are delivered."
+   ],
+   "insert_after_block": "Plan Low-FODMAP Catering That Works for Everyone",
+   "position": "after the block titled 'Plan Low-FODMAP Catering That Works for Everyone'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Low-FODMAP catering across Dubai",
+   "new_paragraphs": [
+    "MyCHEF arranges low-FODMAP home catering and event catering across the whole of Dubai, matched to your occasion and venue. Chefs travel to villas in Emirates Hills and Arabian Ranches, apartments on Palm Jumeirah, Dubai Marina and Downtown, and offices in Business Bay and DIFC, bringing equipment where a kitchen needs topping up. Wherever you are, the low-FODMAP standard travels with the chef. If you are weighing this against related menus, the gluten-free and healthy options overlap closely with low-FODMAP cooking; browse all cuisines to compare, or start planning a full event at catering in Dubai ."
+   ],
+   "insert_after_block": "Plan Low-FODMAP Catering That Works for Everyone",
+   "position": "after the block titled 'Plan Low-FODMAP Catering That Works for Everyone'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning fodmap catering step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your fodmap catering proposal arrives.",
+    "Book fodmap catering about 2 weeks ahead off-peak, and 6 weeks ahead between November and March.",
+    "Confirm what goes on the fodmap catering menu 7 days out, once the count settles.",
+    "Ask for special diets up front; fodmap catering plates are planned, not improvised inside 48 hours .",
+    "Check loading and access details; allow 2 hours of fodmap catering setup on site.",
+    "Plan on roughly 3 hours of fodmap catering service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": "Plan Low-FODMAP Catering That Works for Everyone",
+   "position": "after the block titled 'Plan Low-FODMAP Catering That Works for Everyone'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Common questions",
+   "new_paragraphs": [
+    "How much does low-FODMAP catering cost in Dubai?",
+    "From around AED 700 per person, quoted to your guest count, menu and service. Buffet and drop-off formats cost less per head than plated service with staff, and larger groups lower the per-head price.",
+    "Can you cater to strict dietary or allergy needs?",
+    "Yes — tell us the specifics when you enquire. Individual FODMAP tolerances vary, so specific needs are agreed with you before the event and we do not publish medical guarantees. Low-FODMAP menus can also be built gluten-free or dairy-free.",
+    "What's included?",
+    "A vetted chef, service staff where needed, plating, setup and cleanup are all handled for you, along with menu design and an optional tasting.",
+    "How do I book?",
+    "Share your date, guest count and venue; we match a vetted chef and send an itemised proposal, usually within one business day.",
+    "Do you cook low-FODMAP food on site?",
+    "Yes. A vetted chef prepares and finishes the menu in your kitchen so dishes reach the table fresh instead of pre-packed. Drop-off is available where a chef on site is not needed.",
+    "Can you cater a low-FODMAP corporate lunch or party?",
+    "Yes. We run low-FODMAP catering for corporate lunches, office events and private parties, scaled from an intimate dinner to a larger gathering across buffet, plated or drop-off formats.",
+    "Is low-FODMAP catering available across Dubai?",
+    "Yes. Chefs travel to villas, apartments and offices across Dubai, including Palm Jumeirah, Dubai Marina, Downtown and Emirates Hills, bringing equipment as needed.",
+    "For fodmap catering, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements ."
+   ],
+   "insert_after_block": "FODMAP-Friendly Catering Formats",
+   "position": "after the block titled 'FODMAP-Friendly Catering Formats'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  }
+ ],
+ "faq": []
+}

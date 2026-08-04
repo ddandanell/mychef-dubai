@@ -1,0 +1,196 @@
+{
+ "url": "/buffet-vs-plated-dubai",
+ "keyword_strategy": {
+  "main_keyword": "buffet vs plated dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 6,
+  "subkeywords_carried": 6,
+  "coverage_percent": 100,
+  "subkeywords_carried_list": [
+   "is buffet or plated dinner better?",
+   "which is cheaper, buffet or plated?",
+   "which is better, ala carte or buffet?",
+   "what is the difference between a buffet plate and a dinner plate?",
+   "buffet vs plated dubai cost",
+   "wedding buffet vs plated dubai"
+  ],
+  "subkeywords_not_carried": [],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Buffet vs Plated Dubai: Which Catering Style Wins? | myCHEF Dubai",
+  "meta_description": "Buffet vs plated Dubai, explained: pick plated for a formal seated dinner, a buffet for relaxed variety. Real costs, food-safety rules and how to choose.",
+  "h1": "Buffet vs Plated Dubai: Which Catering Style Fits Your Event? — Real Prices and Timings"
+ },
+ "opening_paragraph": [
+  "A buffet is the more economical choice; plated service costs more per head because it needs more staff. This buffet vs plated Dubai comparison gives the short answer first: pick plated for a formal seated dinner, pick a buffet for relaxed variety, both of which myCHEF arranges from near AED 700 per person. The right call depends on your venue, your headcount and the mood you want. Below we break down cost, food safety and the real trade-offs, so you can decide in one read."
+ ],
+ "replace_in_block": [],
+ "leave_untouched": [
+  "Strengths and Trade-Offs",
+  "Combining Buffet and Plated Service",
+  "Related Services & Guides",
+  "Choose the Right Format for Your Event",
+  "Explore myCHEF Dubai",
+  "Buffet vs Plated FAQ",
+  "Match the Service Style to Your Event",
+  "Buffet vs Plated at a Glance"
+ ],
+ "add_block": [
+  {
+   "new_heading": "Buffet vs plated, explained without the jargon",
+   "new_paragraphs": [
+    "Here is the difference in one line. Plated, or sit-down, service means each guest gets a pre-portioned, coursed meal carried to the table; a buffet means dishes are set out and guests serve themselves. Plated feels formal and controlled, with a fixed menu and a firm headcount. Buffet feels social and generous, with more variety and room for last-minute numbers. There is a third option worth naming: a la carte, where guests order from a short list at the table, which reads as restaurant service and needs a kitchen close by. Neither buffet nor plated is automatically better; they solve different problems. A gala dinner wants plated polish, while a 150-guest celebration usually wants buffet flow. Most of the confusion in a buffet vs plated Dubai decision disappears once you name the mood you want and look at how your venue is laid out."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'Match the Service Style to Your Event'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "When does a buffet make more sense?",
+   "new_paragraphs": [
+    "Choose a buffet for relaxed, higher-volume events. Big birthdays, community iftars, launch parties and family celebrations all work well, because guests graze at their own pace and you can offer far more variety across cuisines. A buffet also handles uncertain numbers gracefully, which matters when Dubai RSVPs stay fluid until the final week. It is the more economical format per person, and it lets one spread carry Arabic, Indian and Mediterranean dishes at once. An Italian or Mediterranean station from Marco Rossi, or an Arabic halal buffet from Layla Hassan, gives real range. If you want abundance and relaxed mingling over strict formality, a buffet is usually the right call."
+   ],
+   "insert_after_block": "Match the Service Style to Your Event",
+   "position": "after the block titled 'Match the Service Style to Your Event'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Is buffet food safe in Dubai's heat?",
+   "new_paragraphs": [
+    "Yes, when it is run to the rules. Buffet food sits out longer than a plated course, so temperature control is the whole game. Under the Dubai Municipality Food Code, potentially hazardous food must stay out of the 5 to 60°C danger zone: hot dishes held at 60°C or above, cold dishes at 5°C or below, as Dubai Municipality guidance reported by Khaleej Times sets out. The same guidance is blunt about time: fresh and cooked food should not sit outside the fridge for more than two hours. That is why a professional buffet runs on chafing dishes and iced displays, not platters left standing. HACCP food-safety management is mandatory for licensed caterers under the Dubai Food Code , and every food handler needs a valid health card."
+   ],
+   "insert_after_block": "Buffet vs Plated FAQ",
+   "position": "after the block titled 'Buffet vs Plated FAQ'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What about hybrid buffet and live-station ideas?",
+   "new_paragraphs": [
+    "Hybrid is the fastest-growing answer, and often the smartest. You plate the starter and dessert for a polished feel, then open live stations for the main event so guests still get theatre and choice. Think a carving station, a fresh pasta counter, or a mezze display with a chef finishing dishes to order. These ideas give you buffet variety with plated moments, and they read beautifully in photos. For 2026 Dubai events this middle path is where a lot of our villa and yacht bookings have landed, because it balances cost against a sense of occasion without committing fully to either style."
+   ],
+   "insert_after_block": "Buffet vs Plated FAQ",
+   "position": "after the block titled 'Buffet vs Plated FAQ'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How to choose: a quick buffet vs plated checklist",
+   "new_paragraphs": [
+    "Start with the room and the mood, then work out which format is well suited to the space. Here is a short planning checklist with a few practical tips. Formal, seated, fixed guest list and a speech schedule? Go plated. Relaxed, mingling, mixed dietary needs and a headcount that keeps moving? Go buffet. Tight budget or a big crowd? A buffet stretches further. Want a wow moment without full plated cost? Add live stations. If you are searching “buffet vs plated near me” or comparing buffet vs plated services in Dubai, send us your date, venue and rough numbers and we will quote both side by side. These pointers settle most decisions in one conversation."
+   ],
+   "insert_after_block": "Buffet vs Plated FAQ",
+   "position": "after the block titled 'Buffet vs Plated FAQ'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Who cooks it? How myCHEF vets both buffet and plated chefs",
+   "new_paragraphs": [
+    "Every myCHEF chef is vetted before they cook for you, whichever format you pick. Vetting means verified identity checks, a practical cooking assessment where the chef cooks a full test menu, reference verification with past clients, and ongoing reviews after events. For a formal plated dinner we usually put forward a fine-dining chef such as Ahmed Al-Rashid; for an Italian or Mediterranean buffet, Marco Rossi; and for an Arabic halal spread or an iftar buffet, Layla Hassan. The same standard applies whether you book a two-station canapé setup or a full plated wedding menu. You can read exactly how we vet our chefs before you commit."
+   ],
+   "insert_after_block": "Buffet vs Plated FAQ",
+   "position": "after the block titled 'Buffet vs Plated FAQ'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Plan it with myCHEF",
+   "new_paragraphs": [
+    "Ready to book or want an exact quote? Wedding Catering · Buffet Catering · Event Catering . Or start at private chef or catering in Dubai ."
+   ],
+   "insert_after_block": "Buffet vs Plated FAQ",
+   "position": "after the block titled 'Buffet vs Plated FAQ'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Frequently asked questions",
+   "new_paragraphs": [
+    "Is buffet or plated cheaper in Dubai?",
+    "Buffet is usually cheaper per person, because it needs fewer service staff and simpler timing than a coursed plated dinner. With myCHEF, buffets start from around AED 700 per person against roughly AED 950 to AED 1,200 for a multi-course plated menu.",
+    "How many guests before a buffet makes more sense?",
+    "As a rough rule, a buffet pulls ahead on cost and flow once you are past about 40 to 50 guests. Below that, a plated dinner is still quick to staff and often feels more special.",
+    "Is buffet food safe in Dubai's climate?",
+    "Yes, when it is handled to the Dubai Municipality Food Code. Hot dishes are held at 60°C or above and cold dishes at 5°C or below, keeping food out of the 5 to 60°C danger zone, with nothing left standing beyond safe time limits.",
+    "Can you cater halal buffet and plated menus?",
+    "Yes. Every myCHEF menu can be built fully halal for either format, including Arabic buffets, iftar spreads and plated fine-dining dinners prepared by a chef like Layla Hassan.",
+    "Can you do a plated menu on a yacht or in a villa?",
+    "Yes. Plated service works on yachts and in villas as long as there is seating and enough kitchen or prep space for the chef and service team. For tighter spaces, a buffet or live stations can be the easier setup.",
+    "How far ahead should I book?",
+    "Book as early as you can, especially in peak wedding and festive months. Share your date, venue and guest count and myCHEF returns an itemised proposal, usually within one business day.",
+    "Which style suits a corporate event?",
+    "For a seated conference dinner, plated keeps the schedule tight; for a networking reception, a buffet or canapés let people mingle. Tell us the format and we will recommend the right fit and quote it."
+   ],
+   "insert_after_block": "Buffet vs Plated at a Glance",
+   "position": "after the block titled 'Buffet vs Plated at a Glance'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Sources",
+   "new_paragraphs": [
+    "Food safety facts above come from Dubai Municipality guidance. See “Food safety starts from your fridge: Dubai Municipality” (Khaleej Times) and the Dubai Municipality Food Code (PDF) . Confirm current requirements with these official sources before your event.",
+    "Request an itemised proposal or start on WhatsApp ."
+   ],
+   "insert_after_block": "Buffet vs Plated at a Glance",
+   "position": "after the block titled 'Buffet vs Plated at a Glance'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Buffet vs plated Dubai: which one costs more?",
+   "new_paragraphs": [
+    "Plated tends to cost more per head. The gap is labour and timing, not the food itself. A plated dinner needs more front-of-house staff to carry and clear each course, plus tighter kitchen choreography, so per-person prices sit higher. With myCHEF, a buffet starts from around AED 700 per person and a multi-course plated menu from around AED 950 per person, depending on the courses and level of service. A full plated event with staff, rentals and several courses more often lands in the AED 2,400 to AED 4,500 range overall. Buffet prices scale more gently as guest numbers grow, which is exactly why large Dubai gatherings tend to lean buffet."
+   ],
+   "insert_after_block": "Buffet vs Plated FAQ",
+   "position": "after the block titled 'Buffet vs Plated FAQ'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  }
+ ],
+ "faq": [
+  {
+   "question": "Is buffet or plated cheaper in Dubai?",
+   "answer": [
+    "Buffet is usually cheaper per person, because it needs fewer service staff and simpler timing than a coursed plated dinner. With myCHEF, buffets start from around AED 700 per person against roughly AED 950 to AED 1,200 for a multi-course plated menu."
+   ]
+  },
+  {
+   "question": "How many guests before a buffet makes more sense?",
+   "answer": [
+    "As a rough rule, a buffet pulls ahead on cost and flow once you are past about 40 to 50 guests. Below that, a plated dinner is still quick to staff and often feels more special."
+   ]
+  },
+  {
+   "question": "Is buffet food safe in Dubai's climate?",
+   "answer": [
+    "Yes, when it is handled to the Dubai Municipality Food Code. Hot dishes are held at 60°C or above and cold dishes at 5°C or below, keeping food out of the 5 to 60°C danger zone, with nothing left standing beyond safe time limits."
+   ]
+  },
+  {
+   "question": "Can you cater halal buffet and plated menus?",
+   "answer": [
+    "Yes. Every myCHEF menu can be built fully halal for either format, including Arabic buffets, iftar spreads and plated fine-dining dinners prepared by a chef like Layla Hassan."
+   ]
+  },
+  {
+   "question": "Can you do a plated menu on a yacht or in a villa?",
+   "answer": [
+    "Yes. Plated service works on yachts and in villas as long as there is seating and enough kitchen or prep space for the chef and service team. For tighter spaces, a buffet or live stations can be the easier setup."
+   ]
+  },
+  {
+   "question": "How far ahead should I book?",
+   "answer": [
+    "Book as early as you can, especially in peak wedding and festive months. Share your date, venue and guest count and myCHEF returns an itemised proposal, usually within one business day."
+   ]
+  },
+  {
+   "question": "Which style suits a corporate event?",
+   "answer": [
+    "For a seated conference dinner, plated keeps the schedule tight; for a networking reception, a buffet or canapés let people mingle. Tell us the format and we will recommend the right fit and quote it."
+   ]
+  }
+ ]
+}

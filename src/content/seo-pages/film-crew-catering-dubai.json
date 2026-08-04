@@ -1,0 +1,178 @@
+{
+ "url": "/film-crew-catering-dubai",
+ "keyword_strategy": {
+  "main_keyword": "film crew catering dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 4,
+  "subkeywords_carried": 3,
+  "coverage_percent": 75,
+  "subkeywords_carried_list": [
+   "small party catering dubai",
+   "best film crew catering dubai",
+   "film crew catering dubai contact number"
+  ],
+  "subkeywords_not_carried": [
+   "nomad crew catering"
+  ],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Film Crew Catering Dubai | Menus & Prices | myCHEF",
+  "meta_description": "Film Crew catering in Dubai from AED 700pp — hot breakfasts and lunches, vetted chefs and full service. Bespoke and reliable. Get an itemised quote.",
+  "h1": "Film Crew Catering in Dubai — What It Costs and How to Book"
+ },
+ "opening_paragraph": [
+  "Film crew catering Dubai from myCHEF starts at AED 700 per person, keeping cast and crew fed through long shoot days with hot meals, all-day craft service and a chef who times every break to your call sheet. Send us your dates, unit size and venue, we typically reply within 15 minutes during business hours, with a full itemised quote to follow: breakfasts, hot lunches, snacks and dietary-aware crew meals, all built around your schedule and every department on set."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "What Our Film Crew Catering Includes",
+   "match_confidence": 0.94,
+   "new_heading": "What film crew catering includes",
+   "new_paragraphs": [
+    "Film crew catering includes the meals, the craft service and the on-set logistics as one managed service: hot breakfasts and lunches, all-day snacks and drinks, plus a vetted chef, service or delivery, setup and cleanup. As a full film crew catering services provider, myCHEF designs the menu with your production, brings everything the base camp needs and works to the call sheet so meal breaks land on time and the AD never has to chase a hot lunch. Unlike a supermarket run or a cold sandwich drop, a private film crew chef cooks on site, holds food at temperature and paces service around setups so nothing goes to waste between takes. Whether it is a small unit of eight or a hundred-strong cast and crew, one team owns the timing from the 6am breakfast to the wrap snack. Every film crew catering company promises to feed a set; our difference is a real chef standing behind the line, not just a van at the gate."
+   ]
+  },
+  {
+   "block_on_your_page": "Film Crew Catering Questions",
+   "match_confidence": 0.8,
+   "new_heading": "Film crew catering FAQ",
+   "new_paragraphs": [
+    "How much does film crew catering cost in Dubai?",
+    "From AED 700 per person, quoted by headcount, menu and shoot length. Craft service and drop-off sit at the lower end; hot staffed on-set service sits higher. Packages from AED 1,200 suit fixed unit sizes. Send your call sheet for an itemised quote.",
+    "What is included in film crew catering?",
+    "Included is a vetted chef, on-set service or delivery, all-day craft service, setup and cleanup, plus bespoke menu design from the first conversation. Everything is timed to your call sheet so meal breaks land on schedule.",
+    "Can you handle dietary needs on set?",
+    "Yes. Crew meals can be built vegan, gluten-free, nut-free, keto or halal, with meat prepared to halal standards on request, so every department eats well from the same service. Share needs when you enquire.",
+    "Do you cater corporate productions and branded shoots?",
+    "Yes. Corporate film crew catering in Dubai covers commercials, brand films, product launches and multi-day campaigns, scaled from a small unit to a full cast-and-crew production with a separate client table.",
+    "Is there film crew catering near me across Dubai?",
+    "Yes. We cover the whole emirate, from desert and beach units to Studio City stages, warehouse sets and city rooftops, reaching your base camp wherever the shoot is.",
+    "Do you offer film crew catering packages?",
+    "Yes. Per-head pricing suits single days, while set packages from AED 1,200 and retained multi-day programmes work well for fixed unit sizes and longer schedules. We point you to whichever gives better value.",
+    "How do I book or set up a regular arrangement?",
+    "Tell us your dates, unit size and call times; we send an itemised proposal, usually within one business day, and can set up consistent menus and simplified billing for a run of shoot days.",
+    "For film crew catering, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements ."
+   ]
+  },
+  {
+   "block_on_your_page": "Catering Across Dubai",
+   "match_confidence": 0.81,
+   "new_heading": "Film crew catering across Dubai",
+   "new_paragraphs": [
+    "We provide film crew catering across Dubai, from desert and beach units to Studio City stages, warehouse sets, city rooftops and hotel locations. The service travels to your base camp, which is why the \"near me\" question is about reach — and ours covers the whole emirate, indoors or out. A sunrise desert shoot, a corporate commercial in a Business Bay office and a music video on a Marina yacht all run on the same standard: a vetted chef, hot on-time meals and full craft service. Planning around the production? See our production catering and corporate event catering , or browse the full range of catering in Dubai . Wherever the location scout lands, the best film crew catering meets you there, ready before the first crew member signs in."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "Food That Holds the Schedule Together",
+  "Catering for Every Stage of the Day",
+  "Built for the Production",
+  "A Taste of Our On-Set Catering",
+  "Let's Plan Your Shoot Catering",
+  "Explore myCHEF Dubai"
+ ],
+ "add_block": [
+  {
+   "new_heading": "Film crew catering for shoots, corporate productions and events",
+   "new_paragraphs": [
+    "Film crew catering flexes across every kind of production — feature units, TV, commercials, photo shoots and branded content all run better on reliable food. Corporate film crew catering in Dubai suits agency shoots, product launches and brand films, where clients and talent are on set and the catering reflects the company hosting them. For multi-day campaigns and larger call sheets, film crew catering for events scales the same standard from a lean documentary crew to a full production with separate cast, crew and client tables. Music videos, live streams and film crew party catering for a wrap celebration all sit within what we handle, so the caterer who fed the shoot can also feed the wrap. Tell us the format and the headcount, whether a tight corporate unit or a sprawling location production, and the menu, staffing and station count follow."
+   ],
+   "insert_after_block": "What Our Film Crew Catering Includes",
+   "position": "after the block titled 'What Our Film Crew Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Film crew menu & options",
+   "new_paragraphs": [
+    "The film crew menu is bespoke and built for stamina, not just show. A typical shoot day runs a hot breakfast (eggs to order, grilled items, pastries, fruit and strong coffee), a substantial hot lunch with a protein, a vegetarian main, grains, salads and a dessert, and an all-day craft-service table of snacks, fruit, energy bites and cold drinks to keep energy up between setups. As film crew food catering built for the UAE, the spread rotates across the week so a five-day shoot never repeats the same plate. The menu spans cuisines — Middle Eastern, Italian, Asian and international comfort food — and adapts to the mood of the room, whether a fast grab-and-go for a run-and-gun schedule or a proper sit-down for a client-facing day. Want regional dishes for an international cast or lighter, performance-friendly food for on-camera talent? The chef designs the film crew menu around your people and your timetable."
+   ],
+   "insert_after_block": "What Our Film Crew Catering Includes",
+   "position": "after the block titled 'What Our Film Crew Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Craft service, dietary needs and on-set logistics",
+   "new_paragraphs": [
+    "The details that keep a set moving are designed in from the start. Craft service stays stocked all day, coffee never runs dry, and hot meals are held and served in a clean, safe window so no one loses their break to a cold plate. Dietary needs are handled the same way: crew meals can be built vegan, gluten-free, nut-free, keto or halal, with all meat prepared to halal standards on request, so a mixed international crew eats the same good food instead of a lesser \"special\" tray. On logistics, we work to your base camp, whether that is a desert unit, a beach location, a warehouse stage or a rooftop, and bring our own setup where the site has no kitchen. The team coordinates with the location manager on power, water and access, keeps the eating area tidy and clears everything at wrap, leaving the site as we found it."
+   ],
+   "insert_after_block": "What Our Film Crew Catering Includes",
+   "position": "after the block titled 'What Our Film Crew Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How much does film crew catering cost in Dubai?",
+   "new_paragraphs": [
+    "Film crew catering in Dubai costs from AED 700 per person, with the service level setting the range. Affordable craft service and drop-off crew meals sit at the lower end; hot, staffed on-set service sits higher; and luxury film crew catering with a dedicated chef, premium proteins and a client table sits higher again. Most productions pay per head per day, but film crew catering packages — set catering packages from around AED 1,200 for a small unit, scaling to AED 2,400 and AED 3,600 for larger counts, give better value when your numbers are fixed, and retained multi-day programmes are priced per schedule. Film crew home catering or base-camp service is quoted the same way, by headcount, menu and service. There are no hidden add-ons: your itemised quote lists food, staff, equipment and delivery separately, so film crew catering prices stay transparent from the first proposal. Compare formats in our Dubai catering price guide , then send your call sheet for an exact film crew catering cost."
+   ],
+   "insert_after_block": "What Our Film Crew Catering Includes",
+   "position": "after the block titled 'What Our Film Crew Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How to hire film crew catering and how it works",
+   "new_paragraphs": [
+    "To hire film crew catering, send your shoot dates, unit size, location and any dietary needs, and we typically reply within 15 minutes during business hours with a menu and itemised quote. From there the path is set: we confirm the menu, match a chef, and lock the daily timeline against your call sheet. On each shoot day the team arrives ahead of crew call, sets base camp, cooks breakfast, holds and serves hot lunch on the break, keeps craft service topped up, and clears at wrap. Searching for the best film crew catering near me comes down to reliability and reach, and myCHEF serves every Dubai location and studio, so \"near me\" is wherever you are shooting. Book a few days ahead for a single day; give us a week or more for multi-day and peak-season productions. One point of contact manages the whole run, so your line producer is not chasing a delivery driver mid-take."
+   ],
+   "insert_after_block": "What Our Film Crew Catering Includes",
+   "position": "after the block titled 'What Our Film Crew Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Why myCHEF",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you run the shoot, we carry the food. Every chef working on film crew catering has cleared identity checks, a practical cooking assessment, reference verification and ongoing performance reviews : a continuous standard, not a one-time tick. We are honest about it, too: no system removes every risk, so we match each production to the best available chef for it. For a demanding on-set schedule, that is often Ahmed Al-Rashid , who brings 18+ years across Dubai, London and Paris in classical French technique and the calm to deliver hot, timed meals under pressure. Our work spans film crew catering, villa weddings, yacht celebrations and corporate galas across Dubai. Covers film crew catering; client reviews go up as events are delivered."
+   ],
+   "insert_after_block": "What Our Film Crew Catering Includes",
+   "position": "after the block titled 'What Our Film Crew Catering Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning film crew catering step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your film crew catering proposal arrives.",
+    "Book film crew catering about 2 weeks ahead off-peak, and 6 weeks ahead between November and March.",
+    "Confirm the film crew catering menu roughly 7 days before, once your numbers settle.",
+    "Ask about dietary covers for film crew catering when you enquire, not inside the final 48 hours .",
+    "Check venue access and parking for film crew catering; the team arrives about 2 hours before service.",
+    "Plan on roughly 3 hours of film crew catering service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": "Film Crew Catering Questions",
+   "position": "after the block titled 'Film Crew Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which film crew catering format suits your event?",
+   "new_paragraphs": [
+    "Format What it gives you Staffing Cost position",
+    "Drop-off Food delivered ready to serve None Entry point",
+    "Buffet Presentation plus a maintained spread 1–2 From AED 700 per person",
+    "Live stations Cooking in front of your guests 2–4 Mid-range",
+    "Plated Every course served together 3 and above Top of the range"
+   ],
+   "insert_after_block": "Film Crew Catering Questions",
+   "position": "after the block titled 'Film Crew Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "More on film crew catering dubai",
+   "new_paragraphs": [
+    "Bachelor party catering dubai",
+    "Bachelorette party catering dubai",
+    "Farewell catering dubai",
+    "Corporate dinner package catering dubai",
+    "Get an itemised quote"
+   ],
+   "insert_after_block": "Film Crew Catering Questions",
+   "position": "after the block titled 'Film Crew Catering Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  }
+ ],
+ "faq": []
+}

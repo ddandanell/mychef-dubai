@@ -1,0 +1,175 @@
+{
+ "url": "/desert-dining-dubai",
+ "keyword_strategy": {
+  "main_keyword": "desert dining catering dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 8,
+  "subkeywords_carried": 8,
+  "coverage_percent": 100,
+  "subkeywords_carried_list": [
+   "desert dining dubai",
+   "luxury desert dinner dubai",
+   "desert dining catering dubai menu",
+   "best desert dining catering dubai",
+   "desert dining catering dubai price",
+   "cheap desert dining catering dubai",
+   "private dinner in the desert dubai",
+   "desert dining catering dubai buffet price"
+  ],
+  "subkeywords_not_carried": [],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Desert Dining Catering Dubai | from AED 700–950 per person | myCHEF",
+  "meta_description": "Desert Dining catering in Dubai — a private chef-cooked dinner in a desert setting. From aed 700–950 per person, with vetted chefs and full service. Request a proposal from myCHEF.",
+  "h1": "Desert Dining Catering in Dubai — Prices, Formats and What You Get"
+ },
+ "opening_paragraph": [
+  "Desert dining catering in Dubai is a private, chef-cooked dinner served out on the dunes, from AED 700 per person. A vetted chef designs the menu, cooks on site and runs the service, while a small team handles setup, styling and cleanup, so you and your guests just arrive, sit down under the stars, and eat. Tell us your date, guest count and preferred area, and during our published business hours you will hear back promptly with an itemised proposal."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "What's Included in Our Desert Dining Catering",
+   "match_confidence": 0.64,
+   "new_heading": "What is on a desert dining menu in Dubai?",
+   "new_paragraphs": [
+    "The menu is built around your guests and cooked fresh on site, spanning Arabic, Mediterranean, fine-dining European and modern fusion. A typical evening opens with mezze or canapés as the light drops, moves to a plated main cooked over live fire or the mobile range, and closes with dessert and Arabic coffee. The food can lean traditional — grilled meats, slow-cooked lamb, warm flatbreads and sharp salads — or run as a contemporary tasting progression. Everything can be fully halal, and vegetarian, vegan, gluten-free and nut-free options are built in when you flag them. If you want more structure, our tasting menu and chef's table formats translate beautifully to the dunes, bringing luxury desert dining the same discipline as a restaurant kitchen. Nothing is off-the-shelf; the desert dining food is designed for your table."
+   ]
+  },
+  {
+   "block_on_your_page": "A Taste of Our Desert Dining",
+   "match_confidence": 0.7,
+   "new_heading": "Why choose myCHEF for desert dining?",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you own the evening, we carry the work. Vetting for desert dining catering means identity checks, a practical cooking assessment, reference verification and ongoing performance reviews — a continuous standard, not a one-time tick. We are honest about it, too: no system removes every risk, so we match each event to the chef well suited to it. That care is why clients come back to us as their desert dining catering company for the nights that matter.",
+    "For an evening like this, that might be Ahmed Al-Rashid , whose 18+ years across Dubai, London and Paris in classical French technique show in how he builds each menu with the host — every course timed, seasoned and served to exacting standards. Desert dining catering sits alongside villa weddings, yacht celebrations and corporate galas across Dubai. Every desert dining catering booking includes, with client reviews added as events run. Comparing formats? See private chef vs catering or browse the wider range of luxury dining experiences ."
+   ]
+  },
+  {
+   "block_on_your_page": "Desert Dining Questions",
+   "match_confidence": 0.56,
+   "new_heading": "Common questions",
+   "new_paragraphs": [
+    "How much does desert dining catering cost in Dubai?",
+    "From AED 700–950 per person, quoted by group size, menu and service level. Larger package builds run AED 1,200 to AED 5,500. Send your details for an exact quote.",
+    "What is included in desert dining catering?",
+    "Everything: menu design, a vetted chef cooking on site, table styling, full service and cleanup, plus transport of the mobile kitchen and equipment to the dune site.",
+    "Can you cater desert dining for corporate events and parties?",
+    "Yes. Corporate desert dining catering, private party set-ups, weddings and family celebrations are all handled, scaled from an intimate table to a large group.",
+    "Do you offer halal and dietary-friendly desert dining menus?",
+    "Yes. Menus can be fully halal, and we cater vegetarian, vegan, gluten-free, nut-free and other dietary requirements when you share them at booking.",
+    "How far in advance should I book desert dining catering?",
+    "Two to three weeks is ideal for permits, equipment and menu planning, though shorter timelines are often possible. Peak winter dates book fastest, so earlier is safer.",
+    "Where in the desert do you set up?",
+    "At licensed desert camps and permitted dune locations within reach of Dubai. We coordinate access, transport and setup so the site is fully ready before guests arrive.",
+    "How do I hire desert dining catering in Dubai?",
+    "Tell us your date, guest count and preferred area; we send an itemised proposal, usually within one business day, then confirm the chef and every detail with you.",
+    "For desert dining catering, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements ."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "A Feast Under the Desert Sky",
+  "Memorable Outdoor Experiences",
+  "Explore myCHEF Dubai",
+  "Desert Dining Formats",
+  "Plan a Desert Dining Experience"
+ ],
+ "add_block": [
+  {
+   "new_heading": "What does desert dining catering in Dubai include?",
+   "new_paragraphs": [
+    "It includes everything needed to put a full, restaurant-standard dinner in the middle of the sand — menu, chef, styling, service and a clean site at the end. There is no power, water or shelter out on the dunes until we bring it, so a good desert dining caterer in Dubai is effectively a mobile restaurant. Partners transport the kitchen, tables, seating, lighting and linen to a licensed dune location, set the scene before anyone arrives, and cook each course fresh. What you get is a proper service, not a drop-off tray: a chef plating live, staff pouring and clearing, and a styled table built for the setting sun. Load-out and cleanup are part of the deal, so the site is left exactly as it was found. Every detail, from arrival timing to the last dessert, is planned with you first."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'A Feast Under the Desert Sky'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Is desert dining good for weddings, corporate events and parties?",
+   "new_paragraphs": [
+    "Yes — the format scales from a table for two to a large seated group, so it works for weddings, corporate hospitality and private parties alike. For couples, a desert setting gives a backdrop no ballroom can match; engagements and anniversaries suit it especially well. Corporate desert dining catering in Dubai turns an executive dinner or client evening into the entertainment itself, which lands better than another hotel function room. For milestone birthdays and family gatherings, a desert dining party is the kind of thing guests still talk about a year later. We adjust the menu, pace and staffing to the group — a relaxed, grazing-style evening among friends, or a formal run of courses for a corporate audience. Tell us who is coming and why, and the shape of the night follows from there."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'A Feast Under the Desert Sky'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How do styling and logistics work in the desert?",
+   "new_paragraphs": [
+    "They are handled end to end, because the site starts as bare sand. We arrange access to a permitted dune location or licensed desert camp, bring the mobile kitchen and a generator, and lay out tables, seating, rugs, lanterns and lighting before guests arrive. The look is styled for the hour: warm lanterns and candles as the sun sets, layered textiles underfoot, and heaters or shade depending on the season. Timing is planned tightly so the drive out, welcome drinks, cooking and service flow without dead gaps. We will steer you toward the ideal months — roughly October to April — and the right start time to catch the sunset. Whether it is private desert dining for a couple or a large styled build, one team plans the site, runs it and clears it, so the logistics don't land on you."
+   ],
+   "insert_after_block": "What's Included in Our Desert Dining Catering",
+   "position": "after the block titled 'What's Included in Our Desert Dining Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How much does desert dining catering cost in Dubai?",
+   "new_paragraphs": [
+    "It starts from AED 700–950 per person, with the exact figure set by guest count, menu and service level. Smaller, more remote or heavily styled evenings sit toward the top of that range, because transport, equipment and staffing all scale with the setting. For bigger groups, package builds run from AED 1,200 through AED 2,400, 3,600, 4,500 and 5,500 as courses, live stations and styling are added. Every price covers the chef, cooking, service, setup and cleanup — no hidden line items once the proposal is agreed. If you are weighing the desert dining catering cost against a restaurant booking, remember you are paying for a full kitchen and crew brought to the sand, not just the food. See our prices and catering price guide , or ask for an itemised quote and clear desert dining catering packages."
+   ],
+   "insert_after_block": "What's Included in Our Desert Dining Catering",
+   "position": "after the block titled 'What's Included in Our Desert Dining Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Is there a cheap version of desert dining in Dubai?",
+   "new_paragraphs": [
+    "Not of this, and it is fairer to say so than to pretend otherwise. Search for cheap desert dining catering in Dubai and you will find plenty of low per-head desert evenings advertised. Almost all of them are shared camp experiences: a coach picks you up, you join a few hundred other guests at a fixed camp, and the buffet is cooked at volume for the whole site. Those are genuinely enjoyable, and if price is the deciding factor they are the honest recommendation — book one through a desert tour operator rather than a caterer, because that is what they are.",
+    "A private desert dinner is a different product with a different cost floor. Every one of them starts with an empty patch of sand. A generator, water, refrigeration that actually holds temperature in the heat, tables, seating, lighting, a mobile kitchen, a crew, two vehicle runs out and back, and a full load-out afterwards all have to happen whether there are six guests or sixty. Those costs barely move with headcount, which is why the per-person figure starts at AED 700 and why a small table sits at the top of the AED 700–950 band rather than the bottom. It is not the menu that makes a desert evening expensive. It is the fact that the restaurant has to be built and then removed.",
+    "If budget is the real constraint but you still want the private version, the useful advice is to change the setting rather than cut the standard. The same chef, the same menu and the same service at a villa terrace or a rooftop costs a fraction of the desert build, because the power, water, kitchen and furniture are already there. Alternatively, keep the desert and shorten the evening — a styled sunset grazing table and dessert asks far less of the crew and the kit than a full plated progression, and it still puts your guests on a dune at golden hour."
+   ],
+   "insert_after_block": "What's Included in Our Desert Dining Catering",
+   "position": "after the block titled 'What's Included in Our Desert Dining Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "What separates a good desert dining caterer from a bad one?",
+   "new_paragraphs": [
+    "The best desert dining catering in Dubai is not the prettiest table on a feed; it is the one where the things nobody photographs have been thought through. Five questions will tell you which you are dealing with. Where does the power come from — a generator sized for the kit, or an extension lead from someone else's camp? How are the proteins held between the van and the plate, given the ground temperature out there? Who arranged the site permission, and can they name the permitted dune location or licensed camp? What is the plan if the wind gets up, and by what time is that call made? And who does the load-out, because leaving the site exactly as it was found is not optional and it is the first thing a cheap operator quietly drops.",
+    "A caterer who answers those five plainly, in writing, before you pay anything is a caterer who has done it before. One who answers only about the menu has probably not. Ask us the same five and you will get the same straight answers — that, rather than an adjective, is the thing to compare."
+   ],
+   "insert_after_block": "What's Included in Our Desert Dining Catering",
+   "position": "after the block titled 'What's Included in Our Desert Dining Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How do I hire desert dining catering in Dubai?",
+   "new_paragraphs": [
+    "Send your date, guest count and preferred area, and we return an itemised proposal — usually within one business day. From there, the path is clear: we agree the menu, match a vetted chef, secure the site and permits, and lock the timeline. On the day, the team arrives early to build and style the setting, cooks and serves through the evening, then clears everything away. You can book from anywhere in Dubai — searching \"desert dining catering near me\" still lands here, because we bring the whole set-up to you. Whether you want an affordable evening for a small group or a large luxury build, one point of contact runs the event start to finish. To find the right desert dining caterer for the occasion, just tell us what you have in mind and we shape the proposal around it."
+   ],
+   "insert_after_block": "What's Included in Our Desert Dining Catering",
+   "position": "after the block titled 'What's Included in Our Desert Dining Catering'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Desert dining catering across Dubai",
+   "new_paragraphs": [
+    "We arrange desert dining across Dubai and the surrounding dunes, matched to your occasion and chosen site. Because the whole setting is mobile, we can build it at permitted locations within reach of Downtown, Dubai Marina, Palm Jumeirah, Jumeirah and Business Bay — wherever your guests set off from, be it home, a villa or a hotel. The appeal is an escape from the city that is still a short drive out and back. As a private desert dining chef service, your partner brings the kitchen, the crew and the styling to the sand, so the catering services feel completely handled from the guest's side. Tell us the area your party is travelling from and we will recommend the right site, the right timing, and a menu to match the evening you have in mind."
+   ],
+   "insert_after_block": "A Taste of Our Desert Dining",
+   "position": "after the block titled 'A Taste of Our Desert Dining'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which desert dining catering format suits your event?",
+   "new_paragraphs": [
+    "Format What it gives you Staffing Cost position",
+    "Grazing and mezze A styled table laid cold before guests arrive, no live cooking 2–3 Entry point",
+    "Buffet Presentation plus a maintained spread 2–4 From AED 700 per person",
+    "Live stations Cooking in front of your guests 2–4 Mid-range",
+    "Plated Every course served together 3 and above Top of the range"
+   ],
+   "insert_after_block": "Plan a Desert Dining Experience",
+   "position": "after the block titled 'Plan a Desert Dining Experience'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  }
+ ],
+ "faq": []
+}

@@ -1,0 +1,185 @@
+{
+ "url": "/date-night-package-dubai",
+ "keyword_strategy": {
+  "main_keyword": "date night package catering dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 8,
+  "subkeywords_carried": 8,
+  "coverage_percent": 100,
+  "subkeywords_carried_list": [
+   "buffet catering dubai",
+   "small party catering dubai",
+   "date night package catering dubai menu",
+   "best date night package catering dubai",
+   "date night package catering dubai price",
+   "cheap date night package catering dubai",
+   "date night package catering dubai price list",
+   "best date night restaurant dubai"
+  ],
+  "subkeywords_not_carried": [],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Date Night Package Catering Dubai | from AED 1,200 | myCHEF",
+  "meta_description": "Date night package catering in Dubai from AED 1,200. A private, chef-cooked dinner for two, with vetted chefs, full service and setup.",
+  "h1": "Date Night Package Catering in Dubai — What It Costs and How to Book"
+ },
+ "opening_paragraph": [
+  "A date night package catering booking in Dubai is a private, chef-cooked dinner for two at home, from AED 1,200, with the menu, cooking, service and cleanup all handled. A vetted private chef arrives at your villa or apartment, plates a multi-course menu across your kitchen or dining table, and leaves the space spotless, so the only thing on your plate for the evening is each other. There is no restaurant booking to chase, no dress code, no valet queue and no drive home. Tell us your date and venue, and you will get an itemised proposal back promptly during our published business hours."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "What is included in the Date Night package?",
+   "match_confidence": 0.57,
+   "new_heading": "More on date night package dubai",
+   "new_paragraphs": [
+    "Housewarming catering dubai",
+    "Conference catering dubai",
+    "Corporate dinner package catering dubai",
+    "Exhibition catering dubai",
+    "Get an itemised quote",
+    "Gift cards catering dubai"
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "Common Questions About the Date Night Package",
+  "Explore myCHEF Dubai",
+  "Book the Date Night Package"
+ ],
+ "add_block": [
+  {
+   "new_heading": "What a date night package in Dubai includes",
+   "new_paragraphs": [
+    "A date night package includes everything needed to turn your home into a private restaurant for one evening: a menu, a chef, and full service from setup to cleanup. Working with a single date night caterer, instead of booking a restaurant, means the whole night is built around the two of you. Your booking covers a collaborative menu designed to your tastes and dietary needs, all grocery sourcing and prep, a private chef who cooks course by course in your kitchen, plating and table service through the meal, and a full clean-down so you wake to a tidy space. Optional extras like romantic styling, a wine-pairing brief and a dessert finale layer on top. It is a genuine home catering service, not a drop-off: the food is cooked fresh in front of you, timed so each course lands warm and unhurried."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'What is included in the Date Night package?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Date night packages for anniversaries, proposals and celebrations",
+   "new_paragraphs": [
+    "A date night package suits any occasion where you want two people, one table and zero logistics: anniversaries, first dates worth the effort, reunions and quiet celebrations at home. It scales gently to a small engagement party for a handful of guests, a milestone anniversary, or a corporate \"thank you\" evening where a company treats a couple to a chef-cooked night in. Many bookings are proposals, with the chef holding the pacing while you handle the moment, so we plan those in tight coordination and the timing lands right. Because these are private events in your own space, there is room for personal touches a restaurant cannot offer: the song playing as the starter arrives, the dish from your first trip together, the surprise dessert carrying a message. Whatever the reason, the format stays the same: one caterer, one chef, a night that is entirely yours."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'What is included in the Date Night package?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Date night package menu and options",
+   "new_paragraphs": [
+    "Your date night menu is designed around your tastes, not a fixed restaurant list, so you choose the cuisine, the courses and the mood. Popular routes are a Mediterranean or modern-European tasting sequence, a French classic done properly, a Levantine mezze-to-grill journey, or a seafood-led evening. A typical package runs three to five plated courses: a canapé or amuse to open, a starter, a main, and a dessert built for two. The best date night menus balance a little theatre with genuinely good food, so the chef will often finish a course at the table. Dietary needs are standard here, not special requests: vegetarian, vegan, halal, pescatarian and allergen-aware menus are all catered without fuss. Gluten-free, nut-conscious and other dietary menu options may be available on request, subject to confirmation by the assigned culinary partner. Partner kitchens may handle allergens, and cross-contact cannot be completely excluded unless dedicated controls have been specifically confirmed for the booking. Guests with allergies must provide full details before confirming their event. Tell us the flavours you both love, the ones to avoid, and any ingredient that carries a memory, and the chef writes the menu around it."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'What is included in the Date Night package?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Romantic styling, setup and logistics",
+   "new_paragraphs": [
+    "The logistics are the chef's job, not yours, and that is the point of a package. On the night, the chef arrives with equipment, ingredients and enough time to set up quietly before you sit down. If you want the evening styled, we can arrange candlelit table settings, a flower touch and considered lighting so the room feels like an occasion instead of a weeknight. Kitchen requirements are small: a working hob or oven and a little counter space is enough, whether you are in a Marina apartment, a Palm villa or a hotel residence. Service runs at your pace, so there is no rush between courses, and afterwards the chef clears, washes and resets the kitchen. You are left with a clean home and no sign of the work behind the meal, only a table for two that felt easy."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'What is included in the Date Night package?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How much does a date night package cost in Dubai?",
+   "new_paragraphs": [
+    "A date night package starts from AED 1,200 for a plated dinner for two, and the final price moves with your menu, course count and service level. That opening figure covers a multi-course dinner, the chef, service and cleanup for two people; more elaborate luxury menus, premium ingredients like lobster or wagyu, or added styling raise it from there. It sits alongside our wider package tiers of AED 1,200, 2,400, 3,600, 4,500 and 5,500, plus a dedicated tasting menu experience from AED 1,400 if you want a longer, chef-led sequence. Set against a fine-dining restaurant for two in Dubai, a private chef at home is genuinely affordable for what you get: the whole venue, the chef's full attention, and total privacy. For a full breakdown see our prices and catering price guide , or send your details for an itemised cost.",
+    "People searching for a cheap date night package in Dubai deserve a straight answer, so here it is. AED 1,200 is the price of the table, not the price per head — two people share it, which is the single most misread thing about this product. There is no tier below it, because a chef's evening costs what a chef's evening costs: the shopping, the prep, the hours at your hob and the clean kitchen afterwards. Two levers do move the number. Fewer courses is one — three plates land inside the base package where five push past it. Menu writing is the other: a chef building around seasonal produce, a whole fish or a slow cut will feed you better for less than one building around lobster and wagyu. If the budget will not stretch this month, a romantic dinner at a shorter format is the honest alternative, and we would say so instead of selling you a thinner version of this one."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'What is included in the Date Night package?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How to hire a date night package caterer in Dubai",
+   "new_paragraphs": [
+    "To hire a date night package caterer, tell us three things: your date, your venue, and roughly what you both like to eat. From there our team acts as your date night catering company. We match a vetted private chef to your occasion, the chef proposes a menu you refine together, and we send an itemised proposal, usually within one business day. If you have searched for \"date night catering near me\" and found a wall of restaurants, this is the alternative, because the kitchen comes to you. On the evening, the chef arrives early, cooks, serves and cleans up, and you enjoy dinner. There is no deposit maze or long contract; confirm the proposal, and the date is locked. Last-minute requests are welcome too, subject to a chef being free, though popular dates like anniversaries and Valentine's Day fill quickly."
+   ],
+   "insert_after_block": null,
+   "position": "at the very start of the page body, before 'What is included in the Date Night package?'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Date night packages across Dubai",
+   "new_paragraphs": [
+    "We bring date night package catering to homes across every part of Dubai, from the Marina and JBR towers to Palm Jumeirah villas, Downtown apartments, Emirates Hills, Jumeirah and Arabian Ranches. Because the chef travels to you, the \"venue\" is wherever you already feel most at home, with no traffic across town, no table time limit and no closing bell. Couples in high-rise apartments book as often as those in large villas, since the kitchen footprint needed is small. If you are still weighing formats, compare a private chef vs catering , or explore the wider luxury dining range, including a dedicated romantic dinner or a proposal dinner when the night calls for something bigger."
+   ],
+   "insert_after_block": "Book the Date Night Package",
+   "position": "after the block titled 'Book the Date Night Package'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning date night package catering step by step",
+   "new_paragraphs": [
+    "Send your date, your venue and how many are at the table — your date night package proposal arrives.",
+    "Book as early as you can. Lead times depend on menu complexity, staffing, equipment, location and partner availability; Valentine's Day and weekend evenings go first. Short-notice requests may still be possible and are assessed individually.",
+    "Confirm the date night menu roughly 7 days before, once you have both chosen.",
+    "Ask about dietary covers for date night package catering when you enquire, not inside the final 48 hours .",
+    "Check venue access and parking for date night package catering; the team arrives about 2 hours before service.",
+    "Plan on roughly 3 hours of date night package catering service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": "Book the Date Night Package",
+   "position": "after the block titled 'Book the Date Night Package'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which date night package format suits your evening?",
+   "new_paragraphs": [
+    "Format What it gives you On site Cost position",
+    "Plated dinner for two Three to five courses cooked and served course by course 1 chef From AED 1,200 for the table",
+    "Chef's tasting menu A longer chef-led sequence, with a wine-pairing brief if you want one 1 chef From AED 1,400 per person",
+    "Plated dinner with a server The chef stays on the pass while someone else pours, clears and resets 1 chef + 1 server Quoted on the proposal",
+    "A small celebration, 4–10 at the table The same plated format scaled to friends or family Chef plus support Quoted by group size",
+    "Buffet or drop-off Food set out to help yourselves — built for a crowd, not for two 0–2 See buffet catering in Dubai"
+   ],
+   "insert_after_block": "Book the Date Night Package",
+   "position": "after the block titled 'Book the Date Night Package'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Common questions",
+   "new_paragraphs": [
+    "How much does date night cost in Dubai?",
+    "It's AED 1,200 — confirmed to your event. Send your details for an exact quote.",
+    "What's included?",
+    "Menu design, a vetted chef, service and setup, and cleanup where relevant are all included in the package price.",
+    "How do I book?",
+    "Tell us your date, guest count and venue; we send an itemised proposal, usually within one business day.",
+    "Is a date night package cheaper than a restaurant in Dubai?",
+    "For two people it is comparable — a private chef-cooked dinner at home from AED 1,200 sits close to fine dining for two, but you keep the whole evening private, with no booking, dress code or drive home.",
+    "Can you cook a date night dinner in my apartment?",
+    "Yes — the chefs we work with cook in apartments, villas and hotel residences across Dubai. We only need a working hob or oven and a little counter space; the chef brings everything else and leaves the kitchen clean.",
+    "Can the menu handle dietary needs or allergies?",
+    "Yes — vegetarian, vegan, halal, pescatarian and allergen-aware date night menus are all standard. Tell us at booking and the chef designs the menu around it. Gluten-free, nut-conscious and other dietary menu options may be available on request, subject to confirmation by the assigned culinary partner. Partner kitchens may handle allergens, and cross-contact cannot be completely excluded unless dedicated controls have been specifically confirmed for the booking. Guests with allergies must provide full details before confirming their event.",
+    "How far in advance should I book date night in Dubai?",
+    "Three to five days is comfortable for most dates. Anniversaries, Valentine's Day and weekend evenings book out faster, so earlier is safer; we take last-minute requests when a chef is free.",
+    "For date night package catering, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements ."
+   ],
+   "insert_after_block": "Book the Date Night Package",
+   "position": "after the block titled 'Book the Date Night Package'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Why book your date night package with myCHEF",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you own the evening, we carry the work. Every chef working on date night package catering has cleared identity checks, a practical cooking assessment, reference verification and ongoing performance reviews , a continuous standard instead of a one-time tick. We are honest about it, too: no system removes every risk, so we match each event to the best available chef for it.",
+    "For an intimate dinner like this, that might be Ahmed Al-Rashid , with 18+ years across Dubai, London and Paris in classical French technique. He designs each menu as a collaboration with the host, every course timed, seasoned and served to exacting standards. Our work spans date night package catering, villa weddings, yacht celebrations and corporate galas across Dubai. Covers date night package catering; client reviews go up as events are delivered."
+   ],
+   "insert_after_block": "Book the Date Night Package",
+   "position": "after the block titled 'Book the Date Night Package'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+  }
+ ],
+ "faq": []
+}
