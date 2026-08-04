@@ -24,6 +24,24 @@ export interface SeoPage {
 
 const ROUTES = routes as Record<string, string>
 
+// Handoff routes that have NO existing page component — rendered as a full page by
+// HandoffPage. The shared SeoContent/SeoHead injectors skip these so nothing double-renders.
+export const FULLPAGE_ROUTES: ReadonlySet<string> = new Set([
+  '/best-catering-companies-dubai',
+  '/blog/brunch-at-home-dubai',
+  '/blog/corporate-event-catering-ideas-dubai',
+  '/blog/dinner-party-menu-ideas-dubai',
+  '/blog/grazing-table-vs-buffet-dubai',
+  '/blog/how-far-ahead-book-caterer-dubai',
+  '/blog/how-to-hire-a-private-chef-dubai',
+  '/blog/iftar-at-home-dubai',
+  '/blog/nye-party-catering-dubai',
+  '/blog/private-chef-date-night-dubai',
+  '/blog/private-chef-vs-restaurant-dubai',
+  '/blog/vegan-catering-dubai-guide',
+  '/blog/wedding-catering-cost-dubai',
+])
+
 const loaders = import.meta.glob('../seo-pages/*.json', {
   import: 'default',
 }) as Record<string, () => Promise<SeoPage>>

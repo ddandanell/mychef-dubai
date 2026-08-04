@@ -1,6 +1,7 @@
 import { Suspense, lazy } from 'react'
 import { Routes, Route } from 'react-router'
 import Layout from './components/Layout'
+import HandoffPage from './components/HandoffPage'
 import Analytics from './components/Analytics'
 import PageLoader from './components/PageLoader'
 
@@ -384,6 +385,22 @@ export default function App() {
           <Route path="/partners/concierge-services-dubai" element={<ConciergeServicesPartner />} />
           <Route path="/press" element={<Press />} />
           <Route path="/site-map" element={<SiteMap />} />
+
+          {/* SEO handoff pages with no bespoke component (rendered from block-map data) */}
+          <Route path="/best-catering-companies-dubai" element={<HandoffPage />} />
+          <Route path="/blog/brunch-at-home-dubai" element={<HandoffPage />} />
+          <Route path="/blog/corporate-event-catering-ideas-dubai" element={<HandoffPage />} />
+          <Route path="/blog/dinner-party-menu-ideas-dubai" element={<HandoffPage />} />
+          <Route path="/blog/grazing-table-vs-buffet-dubai" element={<HandoffPage />} />
+          <Route path="/blog/how-far-ahead-book-caterer-dubai" element={<HandoffPage />} />
+          <Route path="/blog/how-to-hire-a-private-chef-dubai" element={<HandoffPage />} />
+          <Route path="/blog/iftar-at-home-dubai" element={<HandoffPage />} />
+          <Route path="/blog/nye-party-catering-dubai" element={<HandoffPage />} />
+          <Route path="/blog/private-chef-date-night-dubai" element={<HandoffPage />} />
+          <Route path="/blog/private-chef-vs-restaurant-dubai" element={<HandoffPage />} />
+          <Route path="/blog/vegan-catering-dubai-guide" element={<HandoffPage />} />
+          <Route path="/blog/wedding-catering-cost-dubai" element={<HandoffPage />} />
+
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Suspense>

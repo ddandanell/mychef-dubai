@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useLocation } from 'react-router'
-import { getSeoContent, hasSeoContent, type SeoPage } from '../content/seo'
+import { getSeoContent, hasSeoContent, FULLPAGE_ROUTES, type SeoPage } from '../content/seo'
 
 interface RenderedBlock {
   heading: string
@@ -21,7 +21,7 @@ export default function SeoContent() {
   useEffect(() => {
     let active = true
     setData(null)
-    if (!hasSeoContent(pathname)) return
+    if (!hasSeoContent(pathname) || FULLPAGE_ROUTES.has(pathname)) return
     getSeoContent(pathname).then((loaded) => {
       if (active) setData(loaded)
     })

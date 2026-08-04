@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Helmet } from 'react-helmet-async'
 import { useLocation } from 'react-router'
-import { getSeoContent, hasSeoContent, type SeoPage } from '../content/seo'
+import { getSeoContent, hasSeoContent, FULLPAGE_ROUTES, type SeoPage } from '../content/seo'
 
 /**
  * Overrides the title and meta description for handoff pages with the researched,
@@ -15,7 +15,7 @@ export default function SeoHead() {
   useEffect(() => {
     let active = true
     setData(null)
-    if (!hasSeoContent(pathname)) return
+    if (!hasSeoContent(pathname) || FULLPAGE_ROUTES.has(pathname)) return
     getSeoContent(pathname).then((loaded) => {
       if (active) setData(loaded)
     })
