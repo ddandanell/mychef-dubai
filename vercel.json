@@ -3,6 +3,12 @@
   "framework": "vite",
   "buildCommand": "tsc -b && vite build && tsx scripts/prerender.ts",
   "outputDirectory": "dist",
+  "git": {
+    "deploymentEnabled": {
+      "*": false,
+      "main": true
+    }
+  },
   "redirects": [
     {
       "source": "/healthcare-catering-dubai",
