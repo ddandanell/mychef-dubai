@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react'
+import { useRef } from 'react'
 import { useParams, Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
@@ -7,7 +7,6 @@ import {
   MapPin,
   Phone,
   Check,
-  ChevronRight,
   ArrowRight,
   UtensilsCrossed,
   Users,
@@ -23,6 +22,7 @@ import {
 import SEO from '../components/SEO'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import allLocations from '../data/locations.ts'
+import FaqAccordion from '../components/FaqAccordion'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -55,7 +55,6 @@ const iconMap: Record<string, React.ElementType> = {
 export default function LocationDetail() {
   const { slug } = useParams<{ slug: string }>()
   const containerRef = useRef<HTMLDivElement>(null)
-  const [openFaq, setOpenFaq] = useState<number | null>(null)
 
   const canonicalSlug = slug ? slugAliases[slug] || slug : ''
   const loc = allLocations.find((l) => l.slug === canonicalSlug)
@@ -586,29 +585,7 @@ export default function LocationDetail() {
           <div className="loc-section opacity-0 translate-y-8 text-center mb-10">
             <h2 className="font-playfair text-fluid-h2 text-black">Questions About {loc.name} Catering</h2>
           </div>
-          <div className="loc-faq space-y-3">
-            {loc.faqs.map((faq, i) => (
-              <div key={i} className="loc-faq-item border border-gray-200 opacity-0 translate-y-5">
-                <button
-                  onClick={() => setOpenFaq(openFaq === i ? null : i)}
-                  className="w-full flex items-center justify-between p-5 text-left"
-                >
-                  <span className="font-inter text-base font-medium text-black pr-4">{faq.q}</span>
-                  <ChevronRight
-                    size={18}
-                    className={`text-gold flex-shrink-0 transition-transform duration-300 ${openFaq === i ? 'rotate-90' : ''}`}
-                  />
-                </button>
-                <div
-                  className={`overflow-hidden transition-all duration-300 ${openFaq === i ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'}`}
-                >
-                  <div className="px-5 pb-5">
-                    <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{faq.a}</p>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
+          <FaqAccordion items={loc.faqs} />
         </div>
       </section>
 

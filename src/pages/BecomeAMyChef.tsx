@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import 'react'
 import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
@@ -11,7 +11,6 @@ import {
   Award,
   Moon,
   Check,
-  ChevronRight,
   Phone,
   ArrowRight,
   MessageCircle,
@@ -19,6 +18,7 @@ import {
 import SEO from '../components/SEO'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import { breadcrumbSchema, faqPageSchema, serviceSchema } from '../utils/schema'
+import FaqAccordion from '../components/FaqAccordion'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -164,7 +164,6 @@ const schema = {
 }
 
 export default function BecomeAMyChef() {
-  const [openFaq, setOpenFaq] = useState<number | null>(null)
 
   useGSAP(() => {
     gsap.to('.bmc-hero-h1', { opacity: 1, y: 0, duration: 0.8, ease: 'power3.out' })
@@ -461,30 +460,7 @@ export default function BecomeAMyChef() {
             Chef Application Questions
           </h2>
 
-          <div className="bmc-faq space-y-3">
-            {faqs.map((faq, i) => (
-              <div key={i} className="bmc-faq-item border border-gray-200 opacity-0 translate-y-5">
-                <button
-                  type="button"
-                  onClick={() => setOpenFaq(openFaq === i ? null : i)}
-                  className="w-full flex items-center justify-between p-5 text-left hover:bg-gray-50 transition-colors"
-                >
-                  <span className="font-playfair text-h4 text-black pr-4">{faq.q}</span>
-                  <ChevronRight
-                    size={20}
-                    className={`text-gold flex-shrink-0 transition-transform duration-300 ${openFaq === i ? 'rotate-90' : ''}`}
-                  />
-                </button>
-                <div
-                  className={`overflow-hidden transition-all duration-300 ${openFaq === i ? 'max-h-96' : 'max-h-0'}`}
-                >
-                  <p className="font-inter text-body text-gray-500 px-5 pb-5 leading-relaxed">
-                    {faq.a}
-                  </p>
-                </div>
-              </div>
-            ))}
-          </div>
+          <FaqAccordion items={faqs} />
         </div>
       </section>
 

@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react'
+import { useRef } from 'react'
 import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
@@ -13,13 +13,13 @@ import {
   Wine,
   Phone,
   ArrowRight,
-  ChevronRight,
   Check,
   Banknote,
 } from 'lucide-react'
 import SEO from '../components/SEO'
 import PageHero from '../components/PageHero'
 import TrustSignalStrip from '../components/TrustSignalStrip'
+import FaqAccordion from '../components/FaqAccordion'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -183,8 +183,6 @@ export default function PrivateChefPrices() {
       opacity: 1, y: 0, duration: 0.7, ease: 'power3.out',
     })
   }, { scope: containerRef })
-
-  const [openFaq, setOpenFaq] = useState<number | null>(null)
 
   return (
     <div ref={containerRef}>
@@ -397,30 +395,7 @@ export default function PrivateChefPrices() {
             </h2>
           </div>
 
-          <div className="prices-faq space-y-3">
-            {faqs.map((faq, i) => (
-              <div key={i} className="prices-faq-item border border-gray-200 bg-white opacity-0 translate-y-5">
-                <button
-                  onClick={() => setOpenFaq(openFaq === i ? null : i)}
-                  className="w-full flex items-center justify-between p-5 text-left"
-                  aria-expanded={openFaq === i}
-                >
-                  <span className="font-inter text-base font-medium text-black pr-4">{faq.q}</span>
-                  <ChevronRight
-                    size={18}
-                    className={`text-gold flex-shrink-0 transition-transform duration-300 ${openFaq === i ? 'rotate-90' : ''}`}
-                  />
-                </button>
-                <div
-                  className={`overflow-hidden transition-all duration-300 ${openFaq === i ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'}`}
-                >
-                  <div className="px-5 pb-5">
-                    <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{faq.a}</p>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
+          <FaqAccordion items={faqs} />
         </div>
       </section>
 
