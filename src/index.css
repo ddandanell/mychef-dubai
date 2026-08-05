@@ -39,6 +39,10 @@
 
   html {
     scroll-behavior: auto;
+    /* Never allow sideways scroll on any device. `clip` (not `hidden`) clips
+       stray horizontal overflow WITHOUT creating a scroll container, so the
+       sticky navbar and other position:sticky elements keep working. */
+    overflow-x: clip;
   }
 
   /* Remove 300ms tap delay on interactive elements */
@@ -50,7 +54,7 @@
     font-family: 'Inter', system-ui, sans-serif;
     background-color: #000000;
     color: #FFFFFF;
-    overflow-x: hidden;
+    overflow-x: clip;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }

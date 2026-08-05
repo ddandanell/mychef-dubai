@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { Link, useLocation } from 'react-router'
 import { Phone } from 'lucide-react'
 import SEO from './SEO'
@@ -13,6 +13,17 @@ interface RenderedBlock {
 }
 
 /**
+ * The prerender inlines this route's payload as `window.__SEO__` (see
+ * scripts/prerender.ts). Reading it synchronously lets the first client render
+ * match the prerendered HTML so hydrateRoot adopts it without clearing/rebuilding.
+ */
+function readInlineSeo(pathname: string): SeoPage | null {
+  if (typeof window === 'undefined') return null
+  const inline = window.__SEO__
+  return inline && inline.path === pathname ? inline.data : null
+}
+
+/**
  * Renders a full, on-brand page from the MYCHEF-BLOCK-MAP handoff for routes that have
  * no bespoke component (missing blog posts and the best-catering-companies page). Uses
  * only existing design tokens — no new styling or images. Because these routes are in
@@ -21,10 +32,16 @@ interface RenderedBlock {
  */
 export default function HandoffPage() {
   const { pathname } = useLocation()
-  const [data, setData] = useState<SeoPage | null>(null)
+  const [data, setData] = useState<SeoPage | null>(() => readInlineSeo(pathname))
+  const firstRun = useRef(true)
 
   useEffect(() => {
     let active = true
+    // Keep the inlined copy on the initial route instead of blanking + refetching.
+    if (firstRun.current) {
+      firstRun.current = false
+      if (readInlineSeo(pathname)) return
+    }
     setData(null)
     getSeoContent(pathname).then((loaded) => {
       if (active) setData(loaded)

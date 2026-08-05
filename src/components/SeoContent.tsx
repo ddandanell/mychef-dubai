@@ -1,10 +1,28 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { useLocation } from 'react-router'
 import { getSeoContent, hasSeoContent, FULLPAGE_ROUTES, type SeoPage } from '../content/seo'
 
 interface RenderedBlock {
   heading: string
   paragraphs: string[]
+}
+
+declare global {
+  interface Window {
+    __SEO__?: { path: string; data: SeoPage }
+  }
+}
+
+/**
+ * The prerender inlines this route's SEO payload as `window.__SEO__` (see
+ * scripts/prerender.ts). Reading it synchronously lets the first client render
+ * match the prerendered HTML, so hydrateRoot adopts the copy instead of
+ * clearing it and refetching (which would flash/rebuild the bottom of the page).
+ */
+function readInlineSeo(pathname: string): SeoPage | null {
+  if (typeof window === 'undefined') return null
+  const inline = window.__SEO__
+  return inline && inline.path === pathname ? inline.data : null
 }
 
 /**
@@ -16,10 +34,22 @@ interface RenderedBlock {
  */
 export default function SeoContent() {
   const { pathname } = useLocation()
-  const [data, setData] = useState<SeoPage | null>(null)
+  // Seed from the inlined payload so the hydration render matches the prerendered
+  // DOM. Guarded by the same eligibility check used below (FULLPAGE routes are
+  // owned by HandoffPage, so SeoContent must render nothing for them).
+  const [data, setData] = useState<SeoPage | null>(() =>
+    hasSeoContent(pathname) && !FULLPAGE_ROUTES.has(pathname) ? readInlineSeo(pathname) : null,
+  )
+  const firstRun = useRef(true)
 
   useEffect(() => {
     let active = true
+    // On the initial route we already hold the inlined copy — keep it, don't
+    // blank and refetch (that would rebuild the section right after hydration).
+    if (firstRun.current) {
+      firstRun.current = false
+      if (readInlineSeo(pathname)) return
+    }
     setData(null)
     if (!hasSeoContent(pathname) || FULLPAGE_ROUTES.has(pathname)) return
     getSeoContent(pathname).then((loaded) => {

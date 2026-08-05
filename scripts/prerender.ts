@@ -21,6 +21,41 @@ const CONCURRENCY = 10
 const RENDER_TIMEOUT_MS = 30000
 const NAVIGATION_TIMEOUT_MS = 60000
 
+// --- Inline SEO payload (window.__SEO__) ------------------------------------
+// SeoContent fetches its copy in a useEffect, so on the client's first paint it
+// renders nothing. Under hydrateRoot that mismatches the prerendered HTML and
+// React would clear + rebuild the section. Inlining each route's payload lets
+// SeoContent seed synchronously and hydrate cleanly. Injected as a plain (non
+// -module) <script>, so it runs before the deferred module entry sets up React.
+const SEO_ROUTES: Record<string, string> = JSON.parse(
+  fs.readFileSync(path.resolve(__dirname, "../src/content/seo/routes.json"), "utf-8"),
+)
+const SEO_PAGES_DIR = path.resolve(__dirname, "../src/content/seo-pages")
+
+// Injected for EVERY slugged route (incl. the FULLPAGE HandoffPage routes) —
+// both SeoContent and HandoffPage seed from it. SeoContent itself still skips
+// FULLPAGE routes at render time, so nothing double-renders.
+function inlineSeoScript(route: string): string {
+  const slug = SEO_ROUTES[route]
+  if (!slug) return ""
+  const file = path.join(SEO_PAGES_DIR, `${slug}.json`)
+  if (!fs.existsSync(file)) return ""
+  const full = JSON.parse(fs.readFileSync(file, "utf-8"))
+  // Only the fields SeoContent/SeoHead read — keeps the inlined payload small.
+  const data = {
+    url: full.url,
+    head: full.head,
+    opening_paragraph: full.opening_paragraph,
+    replace_in_block: full.replace_in_block,
+    add_block: full.add_block,
+  }
+  const json = JSON.stringify({ path: route, data })
+    .replace(/</g, "\\u003c")
+    .replace(/[\u2028]/g, "\\u2028")
+    .replace(/[\u2029]/g, "\\u2029")
+  return `<script>window.__SEO__=${json}</script>`
+}
+
 /**
  * Read sitemap.xml and return a normalized list of routes.
  * Root route ("/") is always placed last so it does not overwrite
@@ -152,7 +187,15 @@ async function renderRoute(
   // (fade/slide) may still be at initial visibility states.
   await new Promise((resolve) => setTimeout(resolve, 500))
 
-  const html = await page.content()
+  let html = await page.content()
+
+  // Inline this route's SEO payload so the client hydrates SeoContent without a
+  // fetch round-trip / rebuild. Placed just before </body>, outside #root, so
+  // hydrateRoot never sees it.
+  const seoScript = inlineSeoScript(route)
+  if (seoScript && html.includes("</body>")) {
+    html = html.replace("</body>", `${seoScript}</body>`)
+  }
 
   const outDir = route === "/" ? DIST_DIR : path.join(DIST_DIR, route)
   fs.mkdirSync(outDir, { recursive: true })
