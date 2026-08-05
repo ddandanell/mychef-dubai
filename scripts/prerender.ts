@@ -73,7 +73,11 @@ async function startServer(): Promise<{ server: import("http").Server; url: stri
   // dist/index.html — that file gets replaced by the prerendered "/" and would
   // otherwise leak the home page's markup into every route rendered after it.
   app.get("*", (_req, res) => {
+    // dotfiles: "allow" is REQUIRED — the snapshot is called ".spa-shell.html"
+    // and send/express default to dotfiles:"ignore", which 404s every route and
+    // makes the whole prerender time out. This is what broke the build on bb0cb3a.
     res.sendFile(SHELL_PATH, {
+      dotfiles: "allow",
       headers: { "Cache-Control": "no-store" },
     })
   })

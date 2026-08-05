@@ -1,4 +1,3 @@
-import { useEffect } from 'react'
 import { Helmet } from 'react-helmet-async'
 
 interface SEOProps {
@@ -28,17 +27,30 @@ export default function SEO({
 
   const canonicalUrl = `${SITE_URL}${canonicalPath}`
 
-  // React 19 natively hoists <title> to document.head; react-helmet-async can
-  // leave a duplicate after hydration on a prerendered page. Keep only the
-  // most-recently-rendered title so the audit sees exactly one <title>.
-  useEffect(() => {
-    const titles = document.head.querySelectorAll('title')
-    if (titles.length > 1) {
-      for (let i = 0; i < titles.length - 1; i += 1) {
-        titles[i].remove()
-      }
-    }
-  }, [fullTitle])
+  // NOTE: there used to be a useEffect here that deleted duplicate <title>
+  // elements from document.head. It was the cause of the "navigation needs two
+  // clicks" bug, and it must not come back.
+  //
+  // React 19 hoists <title>/<meta>/<link> into <head> ITSELF and keeps a fiber
+  // pointing at each hoisted node. Deleting one of those nodes by hand detaches
+  // it behind React's back. On the next route change React unmounts this <SEO>
+  // and runs its hoistable cleanup, which is effectively
+  //
+  //     instance.parentNode.removeChild(instance)
+  //
+  // and parentNode is now null:
+  //
+  //     TypeError: Cannot read properties of null (reading 'removeChild')
+  //
+  // That throws inside commitMutationEffects, the whole commit is abandoned, and
+  // the incoming route never mounts — the URL changes but the page does not. A
+  // second click then works because the damaged node is already gone.
+  //
+  // The duplicate <title> it was papering over is a separate, cosmetic issue:
+  // the prerendered HTML ships a static <title> and createRoot adds React's own
+  // on top. The correct cure is hydrateRoot (PROBLEMS.md P2/P3), which makes
+  // React adopt the prerendered tag instead of appending a second one — not
+  // hand-deleting nodes React owns.
 
   return (
     <Helmet>
