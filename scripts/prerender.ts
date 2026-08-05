@@ -12,9 +12,12 @@ const IS_VERCEL = Boolean(process.env.VERCEL)
 
 const DIST_DIR = path.resolve(__dirname, "../dist")
 const SITEMAP_PATH = path.resolve(__dirname, "../dist/sitemap.xml")
+// Pristine copy of the Vite SPA shell. Routes are rendered against THIS, not against
+// dist/index.html, which the "/" route overwrites part-way through the run.
+const SHELL_PATH = path.resolve(__dirname, "../dist/.spa-shell.html")
 const FALLBACK_SITEMAP_PATH = path.resolve(__dirname, "../public/sitemap.xml")
 
-const CONCURRENCY = 5
+const CONCURRENCY = 10
 const RENDER_TIMEOUT_MS = 30000
 const NAVIGATION_TIMEOUT_MS = 60000
 
@@ -49,6 +52,11 @@ function readRoutes(): string[] {
  * Start a tiny static server over the dist directory with SPA fallback.
  */
 async function startServer(): Promise<{ server: import("http").Server; url: string }> {
+  // Snapshot the shell before anything can overwrite dist/index.html.
+  // Always re-copy: a stale snapshot left by a cached build would silently
+  // prerender every route against the previous deployment's shell.
+  fs.copyFileSync(path.join(DIST_DIR, "index.html"), SHELL_PATH)
+
   const app = express()
 
   // Disable caching so Puppeteer always sees the latest files
@@ -61,9 +69,11 @@ async function startServer(): Promise<{ server: import("http").Server; url: stri
 
   app.use(express.static(DIST_DIR, { index: false, maxAge: 0 }))
 
-  // SPA fallback: every unknown route serves dist/index.html
+  // SPA fallback: serve the pristine shell snapshot, never the live
+  // dist/index.html — that file gets replaced by the prerendered "/" and would
+  // otherwise leak the home page's markup into every route rendered after it.
   app.get("*", (_req, res) => {
-    res.sendFile(path.join(DIST_DIR, "index.html"), {
+    res.sendFile(SHELL_PATH, {
       headers: { "Cache-Control": "no-store" },
     })
   })
