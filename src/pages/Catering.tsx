@@ -9,6 +9,7 @@ import PageHero from '../components/PageHero'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import StarterPackagesSection from '@/sections/StarterPackagesSection'
 import FaqAccordion from '../components/FaqAccordion'
+import { plainFaqAnswer } from '../utils/schema'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -163,6 +164,21 @@ const faqs = [
     q: 'How far in advance should I book catering?',
     a: 'For events under 50 guests, 1 week is recommended. For larger events, 2\u20134 weeks. Peak season (November\u2013March) requires earlier booking.',
   },
+  { q: "How much does event catering cost per person in Dubai?", a: "Event catering in Dubai typically ranges from around AED 100 to AED 500 per person, depending on menu, service style, and guest count, and myCHEF works to a custom quote rather than a fixed price list. Live cooking stations and plated fine dining sit at the higher end, while buffets are more economical, and every quote includes menu design, sourcing, cooking, service, and cleanup. Share your date, headcount, and vibe and we usually reply within 15 minutes during business hours with a tailored figure — see indicative starting points on our [private chef prices](/private-chef-prices-dubai) page." },
+  { q: "Why don't you list fixed catering prices online?", a: "We quote every event individually because catering cost in Dubai depends on guest count, menu complexity, service style, staffing, and venue rather than a one-size-fits-all rate. A 20-guest canapé reception and a 200-guest plated gala have completely different logistics, so a custom quote is more accurate and usually better value than a generic package price. Tell us the details and you'll get a transparent, itemised quote — no obligation." },
+  { q: "Is there a deposit to confirm a catering booking, and what is your payment structure?", a: "Yes, a deposit secures your date and chef, with the balance settled before or on the event day, and 5% VAT applies to the total. Exact terms are confirmed in writing with your quote so there are no surprises, and you'll receive a proper invoice and confirmation for every payment. This keeps the booking transparent and protects both sides." },
+  { q: "Are the chefs and kitchens licensed and food-safety compliant?", a: "Yes, myCHEF is a vetted network of independent chefs and catering professionals who operate to Dubai Municipality food-safety standards. We only match you with chefs who meet hygiene and licensing requirements, so your event is handled by qualified, accountable professionals rather than unverified freelancers. You can rely on proper food handling from sourcing through to on-site service." },
+  { q: "Is all the food halal?", a: "Yes, halal ingredients are sourced by default for every myCHEF catering menu in Dubai. Meat and poultry come from halal suppliers as standard, and we can accommodate mixed guest lists and specific requirements on request. If you have questions about a particular dish, just ask when we build your menu — or see our dedicated [halal catering](/halal-catering-dubai) options." },
+  { q: "Do you provide waiters, bartenders, and serving staff?", a: "Yes, professional serving staff, hosts, and bartenders are optional add-ons we arrange based on your guest count and service style. Full-service formats like plated dinners and cocktail receptions usually need trained waiters, while a relaxed buffet may need fewer, and we'll recommend the right team size for your event. Staff handle service and clearing so you can enjoy your own party." },
+  { q: "Can you handle guests with allergies, vegan, vegetarian, and gluten-free needs?", a: "Yes, your chef designs the menu around dietary requirements including vegan, vegetarian, gluten-free, dairy-free, and nut allergies. Just share the details when we plan your menu and we'll label dishes and adapt recipes so every guest is looked after safely. Mixed dietary crowds are routine for us — explore our [vegan catering](/vegan-catering-dubai) options for plant-based events." },
+  { q: "Do you cater in villas, apartments, hotels, and outdoor venues across Dubai?", a: "Yes, we coordinate catering in private villas, apartments, rooftops, gardens, beaches, and yachts throughout Dubai, and we can work within many hotel and managed-venue policies. Some hotels and serviced buildings require external caterers to be pre-approved or hold specific documentation, so let us know your venue early and we'll handle the practicalities. We cover every major district — see our full [locations](/locations) list." },
+  { q: "Can you do live cooking stations at my event?", a: "Yes, interactive live cooking stations are one of our most popular formats, with chefs preparing dishes fresh in front of your guests. They add theatre and a premium feel to weddings, corporate functions, and villa parties, and can be combined with buffets or canapés for variety. See how they work on our [live cooking stations](/live-cooking-stations-dubai) page." },
+  { q: "Should I choose buffet, plated, or live-station service for my event?", a: "It depends on your guest count, formality, and space: buffets suit larger relaxed gatherings, plated service fits formal seated dinners and weddings, and live stations add interactive flair. We'll recommend the best format for your headcount and venue, and many clients combine styles for a dynamic experience. Our team maps the right service plan to your event during the menu consultation." },
+  { q: "What happens if my guest count changes after I book?", a: "We build in flexibility and ask for a final confirmed headcount a few days before your event so the chef can source and portion accurately. Small changes are usually easy to absorb, while larger swings may adjust the quote, and we'll walk you through any impact clearly. Just keep us posted as your RSVPs firm up." },
+  { q: "Can you cater a last-minute or short-notice event in Dubai?", a: "Often yes — depending on your date, guest count, and menu, we can arrange short-notice catering, though more lead time gives more menu and chef options. Peak season from November to March and holidays book up fast, so reach out as early as you can. Message us with your date and we'll tell you within about 15 minutes during business hours what's possible via [contact](/contact)." },
+  { q: "How is myCHEF different from a traditional catering company?", a: "myCHEF is a curated network that matches you with independent, vetted chefs rather than a single company reheating trays from a central kitchen. That means restaurant-quality food cooked or finished on-site, menus tailored to your event, and a single point of coordination for sourcing, service, and cleanup. You get chef-led quality with the convenience of full-service catering." },
+  { q: "Can you also arrange a private chef instead of full event catering?", a: "Yes, for smaller or more intimate gatherings a private chef experience is often a better fit than large-format catering. A private chef cooks a bespoke multi-course meal in your kitchen with a personal touch, ideal for dinner parties and celebrations under around 20 guests. Learn more on our [private chef](/private-chef-dubai) page and we'll advise which option suits your event." },
+  { q: "Do you offer menu tastings before a large event or wedding?", a: "Tastings can be arranged for larger events such as weddings so you can confirm dishes and presentation before the day. This is especially worthwhile for milestone celebrations where you want the menu exactly right, and we'll discuss availability and any cost when planning your event. It's one more way we make sure the food matches your expectations." },
 ]
 
 const relatedServices = [
@@ -227,7 +243,7 @@ const faqPageSchema = {
     name: faq.q,
     acceptedAnswer: {
       '@type': 'Answer',
-      text: faq.a,
+      text: plainFaqAnswer(faq.a),
     },
   })),
 }
@@ -504,7 +520,7 @@ export default function Catering() {
             What should I know before booking catering in Dubai?
           </h2>
 
-          <FaqAccordion items={faqs} />
+          <FaqAccordion items={faqs} showJumpNav />
         </div>
       </section>
 
