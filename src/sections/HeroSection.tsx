@@ -23,10 +23,13 @@ export default function HeroSection() {
     const reduced = prefersReducedMotion()
     const ctx = gsap.context(() => {
       if (reduced) {
-        // Make everything visible immediately for reduced-motion users
-        gsap.set([lineRef.current, headlineRef.current, subtextRef.current, ctaRef.current, statsRef.current], {
-          opacity: 1, y: 0, width: 60,
+        // Make everything visible immediately for reduced-motion users.
+        // NOTE: width:60 is ONLY for the gold accent line — applying it to the
+        // headline/subtext/CTA/stats collapses them into a 60px column.
+        gsap.set([headlineRef.current, subtextRef.current, ctaRef.current, statsRef.current], {
+          opacity: 1, y: 0,
         })
+        gsap.set(lineRef.current, { opacity: 1, width: 60 })
         return
       }
 
