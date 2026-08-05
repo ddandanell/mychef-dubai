@@ -48,7 +48,7 @@
  "replace_in_block": [
   {
    "block_on_your_page": "What is a Dubai style brunch?",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "What is a Dubai style brunch?",
    "new_paragraphs": [
     "A Dubai style brunch is a long weekend feast, not a late breakfast. The city took the word and gave it a specific meaning: one price per person, a table you keep going back to, sweet and savoury running side by side, and an afternoon that stretches out instead of a single seating. Restaurant brunches here typically run about three hours, from around 1pm to 4pm, per What’s On Dubai , which is why it feels closer to a party than to a breakfast brunch in Dubai ordered from a menu. A breakfast at home in Dubai — eggs, pastries and coffee, finished by ten — is a smaller, simpler booking. Brunch is the one that turns into an occasion. Hosting it at home keeps the format and drops the queue: the same abundance, your own music, and a start time that suits you instead of the venue’s second sitting."
@@ -56,7 +56,7 @@
   },
   {
    "block_on_your_page": "How much does a brunch at home Dubai cost?",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "How much does a brunch at home Dubai cost?",
    "new_paragraphs": [
     "Expect a private chef brunch to start from around AED 700 per person for a relaxed spread, and about AED 950 per person once you add several live stations and a wider dessert selection. Brunch catering prices Dubai depend mostly on guest count, menu length and service style: drop-off platters cost less than a chef cooking live in front of guests. Smaller intimate bookings usually carry a minimum spend instead of a strict per-head rate, often in the region of AED 2400 to AED 3600 for a full private-chef morning. Ask any caterer for an itemised quote that separates food, staff and equipment, so you can see exactly where the budget goes and adjust the menu up or down."
@@ -64,7 +64,7 @@
   },
   {
    "block_on_your_page": "What goes on a great brunch menu?",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "What goes on a great brunch menu?",
    "new_paragraphs": [
     "A great brunch spread balances sweet and savoury, hot and cold, so there is something for every appetite. Start with a bread and pastry basket, a fruit and cheese brunch platter, and a leafy salad, then anchor the table with two or three savoury mains: shakshuka, grilled halloumi, smoked salmon, or a slow-cooked short rib. Add one live station, eggs, pancakes or a carving board, because watching food finished to order is what turns a meal into an occasion. For brunch menu ideas Dubai hosts love, keep portions generous but plates small, so guests graze across several dishes. Chef Marco Rossi leans Mediterranean with burrata, frittata and focaccia, while Chef Sofia Moretti handles the pastry and dessert side, from fresh viennoiserie to a small sweet table. Dessert has changed here in the last two years: alongside the pastries, guests now ask for the pistachio-and-kunafa filling that made the Dubai chocolate bar famous, usually as chocolate strawberries or a small tray of squares to finish on. It is a trend, not a tradition, and the tray empties first."
@@ -72,7 +72,7 @@
   },
   {
    "block_on_your_page": "Where to go for brunch in Dubai, and when to host instead",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "Where to go for brunch in Dubai, and when to host instead",
    "new_paragraphs": [
     "Most hosts start by looking for where to go for brunch in Dubai, and the shortlist sorts itself into three kinds. There are the view brunches along Palm Jumeirah, Dubai Marina and Downtown, where the best brunch in Dubai with a view comes down to a good table with a skyline behind it. There are the family ones, and the pick there is usually whichever venue gives children something to do while the adults eat slowly. Then there are the late, loud ones built around the drinks package. Restaurant brunches are sold per person, and the figure moves with the drinks tier far more than with the food.",
@@ -81,7 +81,7 @@
   },
   {
    "block_on_your_page": "Weekend brunch or a special-occasion brunch party?",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "Weekend brunch or a special-occasion brunch party?",
    "new_paragraphs": [
     "Match the format to the occasion. A casual weekend brunch at home Dubai is about ease: a buffet-style spread, self-serve drinks, and a loose timeline where people drift in and out over two or three hours. Brunch is, after all, a time-honoured Dubai institution, and the city's restaurant brunches typically run about three hours, from around 1pm to 4pm, per What's On Dubai — a natural rhythm to echo at home. A brunch party Dubai for a birthday, baby shower or engagement deserves more structure, styled tables, a welcome drink on arrival, and a couple of showpiece dishes plated at the table. A family brunch sits between the two, with a kids' corner of pancakes, fruit skewers and mild dishes alongside the adult menu. Decide early whether you want relaxed grazing or a timed sit-down, because that single choice shapes the menu length, the number of staff and the overall budget more than anything else."
@@ -89,7 +89,7 @@
   },
   {
    "block_on_your_page": "Should you add a bottomless or mocktail bar?",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "Should you add a bottomless or mocktail bar?",
    "new_paragraphs": [
     "A drinks station lifts any brunch, and in Dubai you can do it beautifully without alcohol. A bottomless brunch at home Dubai can mean unlimited refills of fresh juices, iced teas and signature mocktails, poured from jugs or a small styled bar so glasses stay full. Think pomegranate and mint coolers, a citrus spritz, watermelon cooler, and good coffee alongside. If your guests do drink, arrange your own beverages within the law, since UAE government rules restrict dealing in alcohol without the proper permission, and let the chef handle food and pairing suggestions. A mocktail bar also gives non-drinkers, drivers and younger guests something special instead of an afterthought, which is what makes a family or mixed-group brunch feel inclusive."
@@ -97,7 +97,7 @@
   },
   {
    "block_on_your_page": "Can you do an Arabic or luxury brunch at home?",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "Can you do an Arabic or luxury brunch at home?",
    "new_paragraphs": [
     "Yes, and both are popular at home in Dubai. An Arabic brunch centres on manakish, foul, shakshuka, halloumi, fresh labneh, mixed grills and Arabic sweets, all prepared halal; Chef Layla Hassan builds mezze-led Arabic brunch menus that suit mixed groups and larger families. A luxury brunch at home Dubai layers in premium touches: a seafood platter, a caviar bump, a carving station, and a plated dessert finish, with Chef Ahmed Al-Rashid bringing fine-dining precision to the service. Private brunch formats scale in either direction, from an intimate table for six to a garden gathering, and the same kitchen can run both an Arabic and a continental section side by side so nobody has to compromise on what they most want to eat."
@@ -105,7 +105,7 @@
   },
   {
    "block_on_your_page": "How do you plan for dietary needs and kids?",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "How do you plan for dietary needs and kids?",
    "new_paragraphs": [
     "Plan for the whole group from the first email, not as a last-minute fix. Good brunch catering Dubai assumes a mixed table: vegetarian, halal, gluten-free, dairy-free and nut-free needs should all sit on the same spread, each dish labelled so guests can serve themselves with confidence. Flag allergies precisely, since cross-contamination matters more than a quick swap. For a family brunch, add a short kids' menu of pancakes, mini pastries, fruit and mild savoury bites, and keep a shaded, seated area if you are outdoors in warmer months. Sharing headcounts, ages and any strong dislikes when you enquire lets the chef right-size quantities, so you avoid both shortfalls and the waste of a table groaning with food nobody finishes."
@@ -113,7 +113,7 @@
   },
   {
    "block_on_your_page": "Do you need a private chef or drop-off catering?",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "Do you need a private chef or drop-off catering?",
    "new_paragraphs": [
     "Choose based on how hands-on you want to be. Drop-off home brunch catering delivers a finished spread you plate and clear yourself, which keeps costs down and suits an informal weekend. A private chef brunch Dubai is the fuller experience: a brunch chef arrives early, sets up, cooks live, serves in a relaxed sequence, and cleans the kitchen before leaving, so you are at the table the whole time. For anything you want to feel like an event, a milestone, hosting your partner's family, or just a treat, the private chef route is usually worth it. MyCHEF matches you with a chef whose style fits your menu, whether that is Mediterranean, Arabic, pastry-led or fine dining."
@@ -121,7 +121,7 @@
   },
   {
    "block_on_your_page": "How are myCHEF brunch chefs vetted?",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "How are myCHEF brunch chefs vetted?",
    "new_paragraphs": [
     "MyCHEF is implementing a structured vetting standard for every chef who cooks in a client’s home. It covers identity verification, a practical cooking assessment where the chef prepares food to a standard, reference checks with previous kitchens or clients, and reviews after real bookings so quality is watched over time, not just at sign-up; it is being rolled out across the network, and we describe it as work in progress because that is what it is. That matters for brunch because a home kitchen is not a restaurant line: the chef has to work cleanly in your space, respect your home, time several dishes at once, and adapt calmly if a guest count shifts. Hosts also value that food is prepared to Dubai's food-safety expectations: the Dubai Municipality Food Safety Department designs integrated systems to ensure food safety and monitors food-borne illness across the emirate, which is why we work only with chefs who take hygiene and sourcing seriously."
@@ -129,7 +129,7 @@
   },
   {
    "block_on_your_page": "Frequently asked questions",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "Frequently asked questions",
    "new_paragraphs": [
     "How much does a brunch at home in Dubai cost?",
@@ -188,12 +188,12 @@
   {
    "new_heading": "Planning brunch at home step by step",
    "new_paragraphs": [
-    "Send your date, guest count and venue — your brunch at home proposal arrives.",
+    "Send your date, guest count and venue — your proposal arrives.",
     "Book brunch at home about 48 hours ahead for a standard chef booking, and 3 to 5 days once live stations or extra staff are involved.",
     "Confirm the menu for brunch at home some 7 days ahead, once numbers stop moving.",
     "Ask for dietary covers at the brunch at home briefing stage instead of within 48 hours .",
     "Check parking and lift access; your team is on site some 2 hours early.",
-    "Plan on roughly 3 hours of brunch at home service, and add 5% VAT to the total."
+    "Plan on roughly 3 hours of service, and add 5% VAT to the total."
    ],
    "insert_after_block": "How are myCHEF brunch chefs vetted?",
    "position": "after the block titled 'How are myCHEF brunch chefs vetted?'",

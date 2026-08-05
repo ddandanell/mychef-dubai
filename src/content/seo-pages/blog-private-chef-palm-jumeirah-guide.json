@@ -37,7 +37,7 @@
  "replace_in_block": [
   {
    "block_on_your_page": "Frequently Asked Questions",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "Frequently asked questions",
    "new_paragraphs": [
     "What is a private chef on Palm Jumeirah?",
@@ -141,12 +141,12 @@
   {
    "new_heading": "Planning private chef palm jumeirah step by step",
    "new_paragraphs": [
-    "Send your date, guest count and venue — your private chef palm jumeirah proposal arrives.",
+    "Send your date, guest count and venue — your proposal arrives.",
     "Book private chef palm jumeirah about 2 weeks ahead off-peak, and 6 weeks ahead between November and March.",
     "Confirm the menu for private chef palm jumeirah some 7 days ahead, once numbers stop moving.",
     "Ask for dietary covers at the private chef palm jumeirah briefing stage instead of within 48 hours .",
     "Check parking and lift access; your private chef palm jumeirah team is on site some 2 hours early.",
-    "Plan on roughly 3 hours of private chef palm jumeirah service, and add 5% VAT to the total."
+    "Plan on roughly 3 hours of service, and add 5% VAT to the total."
    ],
    "insert_after_block": "Why Palm Jumeirah Hosts Hire Private Chefs",
    "position": "after the block titled 'Why Palm Jumeirah Hosts Hire Private Chefs'",

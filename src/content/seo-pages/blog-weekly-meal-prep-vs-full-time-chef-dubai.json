@@ -58,7 +58,7 @@
   },
   {
    "block_on_your_page": "Frequently Asked Questions",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "Frequently asked questions",
    "new_paragraphs": [
     "Is weekly meal prep cheaper than a full-time chef in Dubai?",
@@ -167,12 +167,12 @@
   {
    "new_heading": "Planning weekly meal prep step by step",
    "new_paragraphs": [
-    "Send your date, guest count and venue — your weekly meal prep proposal arrives.",
+    "Send your date, guest count and venue — your proposal arrives.",
     "Book weekly meal prep about 2 weeks ahead off-peak, and 6 weeks ahead between November and March.",
-    "Confirm your weekly meal prep menu about 7 days out, when the guest list is firm.",
+    "Confirm your menu about 7 days out, when the guest list is firm.",
     "Ask early about allergies and dietary plates — not in the last 48 hours before weekly meal prep.",
     "Check the access route before weekly meal prep day — setup starts roughly 2 hours ahead.",
-    "Plan on roughly 3 hours of weekly meal prep service, and add 5% VAT to the total."
+    "Plan on roughly 3 hours of service, and add 5% VAT to the total."
    ],
    "insert_after_block": "How Weekly Meal Prep Works",
    "position": "after the block titled 'How Weekly Meal Prep Works'",

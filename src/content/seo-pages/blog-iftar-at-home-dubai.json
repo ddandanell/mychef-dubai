@@ -36,7 +36,7 @@
  "replace_in_block": [
   {
    "block_on_your_page": "What a Dubai iftar at home looks like",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "What a Dubai iftar at home looks like",
    "new_paragraphs": [
     "A home iftar follows a familiar rhythm, not a rigid set menu. You break the fast the moment Maghrib is called, traditionally with dates and a glass of laban or water. Then you pause for the prayer before the meal proper begins. Soup, usually a lentil shorba or harira, eases people back into eating. After that comes the part guests remember. A generous shared spread lands: hot and cold mezze, grilled meats, saffron rice and warm bread, with Arabic sweets and coffee to close. Portions run big, because iftar is about abundance and hospitality. MyCHEF's Arabic specialist, Layla Hassan, builds a family iftar around that arc, so nothing reaches the table too early or too late."
@@ -44,7 +44,7 @@
   },
   {
    "block_on_your_page": "When should you serve iftar at home in Dubai?",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "When should you serve iftar at home in Dubai?",
    "new_paragraphs": [
     "Serve the opening bite the instant Maghrib is called, not a minute before. Iftar timing shifts daily through Ramadan as sunset moves later. Gulf News puts Maghrib in Dubai at roughly 6:18pm in the first days of Ramadan 2026, drifting toward 6:32pm by the third week, and notes fasting runs 12 to 14 hours a day. That daily drift matters when you cook for a crowd. Dishes that need to land hot have to be timed to the call to prayer, not a fixed clock. A good caterer works backwards from Maghrib, sending the dates and soup out first while the mains rest and hold. Hosting iftar at home in Dubai is far calmer when someone else owns that countdown."
@@ -52,7 +52,7 @@
   },
   {
    "block_on_your_page": "Is home iftar catering in Dubai halal and safe?",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "Is home iftar catering in Dubai halal and safe?",
    "new_paragraphs": [
     "Yes. Reputable home iftar catering in Dubai is fully halal, and licensed caterers work to the emirate's food-safety code. During Ramadan, Dubai Municipality runs dedicated inspection campaigns covering how food is transported, stored, prepared and displayed, and it requires hot food held above 65°C and cold below 5°C, per Gulf News . Food handlers wear gloves and head covers and carry health cards. At federal level, food safety sits under Federal Law No. 10 of 2015, as the UAE Government notes, and licensed businesses register on Dubai Municipality 's FoodWatch platform. MyCHEF is implementing a structured 12-stage partner verification and quality-assurance framework across its culinary partner network, covering trade licence and permitted activities, food-safety permits, Person-in-Charge and food-handler training documentation, allergen controls, and a chef and service-team assessment."
@@ -60,7 +60,7 @@
   },
   {
    "block_on_your_page": "What goes on an iftar menu at home?",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "What goes on an iftar menu at home?",
    "new_paragraphs": [
     "Build the iftar menu in three acts: openers, a warm main spread, and dessert. For the openers, think dates, laban, soup and a cold mezze table of hummus, moutabel, fattoush and vine leaves. The centre of an Arabic iftar menu in Dubai usually leans on mixed grills, ouzi or machboos, grilled fish and saffron rice, rounded out with warm breads. Close with kunafa, umm ali, katayef and Arabic coffee. Not every host wants a fixed plated meal. An iftar buffet at home lets guests serve themselves at their own pace once the fast is broken. Plenty of hosts also want a lighter, modern angle, so a good chef will fold in salads, grilled vegetables and a few non-Arabic dishes. For more iftar ideas, our Iftar Catering page sets out sample menus."
@@ -68,7 +68,7 @@
   },
   {
    "block_on_your_page": "How much does iftar at home in Dubai cost?",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "How much does iftar at home in Dubai cost?",
    "new_paragraphs": [
     "Costs scale with guest count, menu and whether a chef cooks on site. As a rough guide, a private-chef iftar for a small family starts from around AED 1,200, a mid-sized family iftar of a dozen or so guests sits nearer AED 2,400, and a larger catered spread with staffed service runs from about AED 4,500 upward. A more elaborate, multi-station luxury iftar at home can reach AED 5,500 and beyond once you add live grills, extended dessert tables and full serving staff. Drop-off is the other half of the market and it is priced per head, not per event: a delivered iftar spread starts at AED 90 per person and a staffed buffet at AED 120, with a minimum of 10 guests, 20 for a buffet, and a minimum order of AED 900. You handle the plating and the timing yourself, which is the trade. For an exact figure, iftar catering prices in Dubai are quoted per event. Share your date, headcount and venue, and myCHEF returns an itemised proposal, usually within one business day."
@@ -76,7 +76,7 @@
   },
   {
    "block_on_your_page": "Iftar meal boxes, platters and drop-off",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "Iftar meal boxes, platters and drop-off",
    "new_paragraphs": [
     "A large share of Ramadan searching is for an iftar box rather than a chef, and it is worth separating two things that share the word. An individual iftar meal box is one person's meal packed and labelled to be handed out or eaten at a desk: dates, a soup, a main with rice, bread, a sweet and water. A drop-off platter feeds a table from shared trays. MyCHEF arranges both as delivered catering from AED 90 per person, with a minimum of 10 people and a minimum order of AED 900, and boxes are the easier format when guests arrive at different times or eat in different rooms. Ordering an iftar box near me on a Ramadan evening is mostly a question of lead time, so send the date early: a standard drop-off wants about 72 hours, and Ramadan weekends go first.",
@@ -86,7 +86,7 @@
   },
   {
    "block_on_your_page": "What makes a good iftar at home, and how to judge one",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "What makes a good iftar at home, and how to judge one",
    "new_paragraphs": [
     "The best iftar at home in Dubai is not the most elaborate one; it is the one that lands on time. Judge a caterer or chef on four things. Do they plan backwards from Maghrib rather than from a fixed arrival time, so the dates and water are on the table before anyone sits? Will they tell you the dish count in writing, so you can compare two quotes instead of two adjectives? Is the price per head published with its minimum guest count attached, or does it appear only after you enquire? And who holds the food-safety responsibility for the kitchen the food comes from — a question that matters more in Ramadan, when food sits waiting for a sunset that moves a minute each evening. Ask those four and the choice usually makes itself."
@@ -94,7 +94,7 @@
   },
   {
    "block_on_your_page": "Private chef or caterer for your iftar?",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "Private chef or caterer for your iftar?",
    "new_paragraphs": [
     "Choose a private chef when you want the food cooked fresh in your kitchen and served in courses. Choose a caterer when volume and self-service matter more. A private iftar in Dubai with a dedicated iftar chef suits intimate family nights, and anyone who wants each dish served at its freshest. Larger gatherings often work well as a buffet a caterer sets up, replenishes and clears. MyCHEF matches you to the right chef for the brief: Layla Hassan for a traditional Arabic family iftar, or another specialist if you want a fusion or lighter menu. Either way, you are not the one plating at sunset. Start from our private chef or catering in Dubai pages to compare the two formats."
@@ -102,7 +102,7 @@
   },
   {
    "block_on_your_page": "Planning an iftar party, or suhoor too",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "Planning an iftar party, or suhoor too",
    "new_paragraphs": [
     "For a bigger iftar party at home, plan the space as carefully as the food. Majlis-style low seating, shared platters and a clear flow from the dates-and-soup opening to the main spread work better than a formal sit-down when numbers climb. Book early, because chefs fill up fast across Ramadan. Many hosts who cater iftar also add suhoor, the pre-dawn meal before the fast resumes. Suhoor at home in Dubai tends to be lighter and slower, built around foul, eggs, cheeses, fruit and plenty of water and laban to carry you through the fasting hours. MyCHEF can cover both ends of the day. See our Ramadan and Suhoor pages to plan the full month."
@@ -110,7 +110,7 @@
   },
   {
    "block_on_your_page": "Iftar at home: format comparison",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "Iftar at home: format comparison",
    "new_paragraphs": [
     "Format Suits Service staff Indicative cost",
@@ -122,7 +122,7 @@
   },
   {
    "block_on_your_page": "Frequently asked questions",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "Frequently asked questions",
    "new_paragraphs": [
     "What time is iftar in Dubai during Ramadan 2026?",
@@ -157,11 +157,11 @@
    "new_heading": "Planning iftar at home step by step",
    "new_paragraphs": [
     "Send your date, guest count and venue — we typically reply within 15 minutes during business hours, with the itemised proposal to follow.",
-    "Book as early as you can, and earlier again for Ramadan. A drop-off or boxed iftar wants about 72 hours , live stations and multi-staff evenings 3 to 5 days , and a bespoke menu 5 to 7 days . Ramadan weekends fill first, so a date inside the month is worth holding before the month begins.",
-    "Confirm the iftar at home menu roughly 7 days before, once your numbers settle.",
+    "Book as early as you can, and earlier again for Ramadan. A drop-off or boxed iftar wants about 72 hours, live stations and multi-staff evenings 3 to 5 days, and a bespoke menu 5 to 7 days . Ramadan weekends fill first, so a date inside the month is worth holding before the month begins.",
+    "Confirm the menu roughly 7 days before, once your numbers settle.",
     "Ask about dietary covers for iftar at home when you enquire, not inside the final 48 hours .",
     "Check venue access and parking for iftar at home; the team arrives about 2 hours before service.",
-    "Plan on roughly 3 hours of iftar at home service, and add 5% VAT to the total."
+    "Plan on roughly 3 hours of service, and add 5% VAT to the total."
    ],
    "insert_after_block": "Iftar at home: format comparison",
    "position": "after the block titled 'Iftar at home: format comparison'",

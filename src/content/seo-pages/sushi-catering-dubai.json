@@ -47,7 +47,7 @@
  "replace_in_block": [
   {
    "block_on_your_page": "What Our Sushi Catering Includes",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "What our sushi catering includes",
    "new_paragraphs": [
     "As a specialist sushi caterer in Dubai, every booking is built around your event instead of pulled off a fixed list. A vetted chef arrives with fish sourced that day, prepares each piece to order in front of your guests, plates it beautifully and clears everything away afterwards, so you get to host instead of work. Our sushi catering services cover the full spread — nigiri, maki, uramaki, sashimi and temaki hand rolls — alongside sides like edamame, gyoza, seaweed salad and miso soup. You choose a set menu or an open, grazing-style display, and the chef handles the rice, wasabi, ginger, soy and the presentation so the table looks as good as it tastes."
@@ -213,12 +213,12 @@
   {
    "new_heading": "Planning sushi catering step by step",
    "new_paragraphs": [
-    "Send your date, guest count and venue — your sushi catering proposal arrives.",
+    "Send your date, guest count and venue — your proposal arrives.",
     "Book a standard private-chef sushi experience about 48 hours ahead; allow 3 to 5 days for a live sushi counter, and 5 to 7 days for a bespoke menu or a larger private event.",
     "Allow 7 to 14 days or more for a wedding, a corporate function or a complex production.",
     "Confirm the menu for sushi catering once numbers stop moving, and ask for dietary covers at the briefing stage, not at the last minute.",
     "Check parking and lift access, and tell us the kitchen or counter space available at the venue.",
-    "Plan on roughly 3 hours of sushi catering service, and add 5% VAT to the total.",
+    "Plan on roughly 3 hours of service, and add 5% VAT to the total.",
     "We recommend booking as early as possible. Lead times depend on guest numbers, menu complexity, staffing, equipment, location and partner availability. Even inside the normal lead time, a sushi can occasionally be arranged - ask, and we will confirm what is realistic."
    ],
    "insert_after_block": "Sushi, Crafted for the Occasion",

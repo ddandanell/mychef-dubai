@@ -47,7 +47,7 @@
  "replace_in_block": [
   {
    "block_on_your_page": "Frequently Asked Questions",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "Frequently asked questions",
    "new_paragraphs": [
     "What is corporate catering, in one line?",
@@ -174,11 +174,11 @@
    "new_heading": "Planning corporate catering step by step",
    "new_paragraphs": [
     "Send your date, guest count and venue — we typically reply within 15 minutes during business hours, with the itemised proposal to follow.",
-    "Book as early as you can. A drop-off lunch is often possible at 48 to 72 hours , live stations and multi-staff events want 3 to 5 days , and a conference or awards dinner wants 7 to 14 days . Short-notice requests are assessed individually.",
+    "Book as early as you can. A drop-off lunch is often possible at 48 to 72 hours, live stations and multi-staff events want 3 to 5 days, and a conference or awards dinner wants 7 to 14 days . Short-notice requests are assessed individually.",
     "Confirm the menu for corporate catering some 7 days ahead, once numbers stop moving.",
     "Ask for dietary covers at the corporate catering briefing stage instead of within 48 hours .",
     "Check parking and lift access; your corporate catering team is on site some 2 hours early.",
-    "Plan on roughly 3 hours of corporate catering service, and add 5% VAT to the total."
+    "Plan on roughly 3 hours of service, and add 5% VAT to the total."
    ],
    "insert_after_block": "Corporate Catering with myCHEF Dubai",
    "position": "after the block titled 'Corporate Catering with myCHEF Dubai'",

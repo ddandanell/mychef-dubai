@@ -48,7 +48,7 @@
   },
   {
    "block_on_your_page": "Wedding Catering Questions",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "Wedding catering questions",
    "new_paragraphs": [
     "How much is wedding catering in Dubai?",
@@ -76,7 +76,7 @@
   },
   {
    "block_on_your_page": "Wedding Catering Across Dubai",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "Wedding catering across Dubai",
    "new_paragraphs": [
     "MyCHEF delivers wedding catering across every part of Dubai, from villa receptions on Palm Jumeirah and Emirates Hills to garden weddings, hotel and event-venue functions, and beach celebrations. We serve all 15 Dubai areas and coordinate access, power and kitchen logistics for each setting, working to the venue's own kitchen rules where one applies. Whether your day is a private home dinner, a full-scale garden reception or a formal venue evening, the same vetted chefs and service team travel to you — which is what makes myCHEF a genuine wedding catering service, not a fixed banquet hall. Tell us where your wedding is and we will confirm coverage and the on-site plan for that address."
@@ -176,12 +176,12 @@
   {
    "new_heading": "Planning wedding catering step by step",
    "new_paragraphs": [
-    "Send your date, guest count and venue — your wedding catering proposal arrives.",
+    "Send your date, guest count and venue — your proposal arrives.",
     "Book 7–14 days ahead or more for a wedding, and earlier again for the October–April peak. Short-notice requests are assessed individually.",
-    "Confirm what goes on the wedding catering menu once the count settles — about a week out for most receptions.",
-    "Ask for special diets up front; wedding catering plates are planned, not improvised inside 48 hours .",
-    "Check loading and access details; allow 2 hours of wedding catering setup on site.",
-    "Plan on roughly 3 hours of wedding catering service, and add 5% VAT to the total."
+    "Confirm what goes on the menu once the count settles — about a week out for most receptions.",
+    "Ask for special diets up front; plates are planned, not improvised inside 48 hours .",
+    "Check loading and access details; allow 2 hours of setup on site.",
+    "Plan on roughly 3 hours of service, and add 5% VAT to the total."
    ],
    "insert_after_block": "Wedding Catering Questions",
    "position": "after the block titled 'Wedding Catering Questions'",
