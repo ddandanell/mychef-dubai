@@ -1,4 +1,5 @@
 import { Suspense } from 'react'
+import { Analytics as VercelAnalytics } from '@vercel/analytics/react'
 import { Routes, Route } from 'react-router'
 import Layout from './components/Layout'
 import Analytics from './components/Analytics'
@@ -14,6 +15,7 @@ export default function App() {
   return (
     <Layout>
       <Analytics />
+      <VercelAnalytics />
       <Suspense fallback={<PageLoader />}>
         <Routes>
           {routes.map((route) => (
