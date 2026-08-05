@@ -96,6 +96,12 @@ export function breadcrumbSchema(items: { name: string; path: string }[]) {
   }
 }
 
+/** Strip markdown-style links [text](url) → text so FAQ schema text stays clean
+ * even when the visible answer renders in-answer internal links. */
+export function plainFaqAnswer(answer: string): string {
+  return answer.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+}
+
 export function faqPageSchema(faqs: { question: string; answer: string }[]) {
   return {
     '@context': 'https://schema.org',
@@ -105,7 +111,7 @@ export function faqPageSchema(faqs: { question: string; answer: string }[]) {
       name: faq.question,
       acceptedAnswer: {
         '@type': 'Answer',
-        text: faq.answer,
+        text: plainFaqAnswer(faq.answer),
       },
     })),
   }

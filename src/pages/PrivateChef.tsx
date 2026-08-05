@@ -10,6 +10,7 @@ import LocationStrip from '../components/LocationStrip'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import StarterPackagesSection from '@/sections/StarterPackagesSection'
 import FaqAccordion from '../components/FaqAccordion'
+import { plainFaqAnswer } from '../utils/schema'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -169,7 +170,7 @@ const faqs = [
   },
   {
     q: 'Which areas of Dubai do you cover?',
-    a: 'We serve all of Dubai, including Palm Jumeirah, Dubai Marina, Downtown, Emirates Hills, Dubai Hills, JBR, Business Bay, DIFC and Jumeirah. Full coverage is listed on our locations page.',
+    a: 'We serve all of Dubai, including Palm Jumeirah, Dubai Marina, Downtown, Emirates Hills, Dubai Hills, JBR, Business Bay, DIFC and Jumeirah. Full coverage is listed on our [locations page](/locations).',
   },
   {
     q: 'Do you bring the groceries, or do I need to buy the ingredients?',
@@ -181,19 +182,19 @@ const faqs = [
   },
   {
     q: 'How do I get a quote and pay, and is a deposit required?',
-    a: 'Send your date, guest count and venue and we reply with a tailored quote — typically within 15 minutes during business hours. Bookings are confirmed with a deposit and the balance settled before or on the day; a 5% VAT line applies.',
+    a: 'Send your date, guest count and venue and we reply with a tailored quote — typically within 15 minutes during business hours. Bookings are confirmed with a deposit and the balance settled before or on the day; a 5% VAT line applies. See typical [private chef prices](/private-chef-prices-dubai) before you enquire.',
   },
   {
     q: 'Is hiring a private chef cheaper than a restaurant for a group?',
-    a: 'For a group it is often comparable or better value — you get a restaurant-quality, multi-course meal cooked to order in your own space, with no minimum spend per head, no travel, and privacy included. Our private chef vs catering guide breaks down when each option makes sense.',
+    a: 'For a group it is often comparable or better value — you get a restaurant-quality, multi-course meal cooked to order in your own space, with no minimum spend per head, no travel, and privacy included. Our [private chef vs catering guide](/private-chef-vs-catering-dubai) breaks down when each option makes sense.',
   },
   {
     q: 'Can you provide a private chef for a birthday, anniversary or proposal?',
-    a: 'Yes. Milestone dinners, romantic dinners and proposals are among the most popular bookings; the chef and optional servers handle timing, courses and the reveal so you can be fully present.',
+    a: 'Yes. Milestone dinners, romantic dinners and proposals are among the most popular bookings; the chef and optional servers handle timing, courses and the reveal so you can be fully present. Explore our [luxury dining experiences](/luxury-dining-experiences) for occasion formats.',
   },
   {
     q: 'Can I book a private chef regularly or for weekly meal prep?',
-    a: 'Yes. Beyond one-off dinners, the chefs in our network offer weekly meal prep and part-time or full-time private chef arrangements for households that want consistent, tailored cooking. Tell us your routine and we will match a chef and cadence.',
+    a: 'Yes. Beyond one-off dinners, the chefs in our network offer [weekly meal prep](/weekly-meal-prep-dubai) and part-time or full-time private chef arrangements for households that want consistent, tailored cooking. Tell us your routine and we will match a chef and cadence.',
   },
   {
     q: 'How much should I tip a private chef in Dubai?',
@@ -262,7 +263,7 @@ const faqPageSchema = {
     name: faq.q,
     acceptedAnswer: {
       '@type': 'Answer',
-      text: faq.a,
+      text: plainFaqAnswer(faq.a),
     },
   })),
 }
@@ -526,7 +527,7 @@ export default function PrivateChef() {
             What should I know before hiring a private chef in Dubai?
           </h2>
 
-          <FaqAccordion items={faqs} />
+          <FaqAccordion items={faqs} showJumpNav />
         </div>
       </section>
 
