@@ -6,6 +6,7 @@ import StickyMobileCTA from './StickyMobileCTA'
 import FloatingChefChat from './FloatingChefChat'
 import SeoContent from './SeoContent'
 import SeoHead from './SeoHead'
+import ScrollManager from './ScrollManager'
 
 interface LayoutProps {
   children: ReactNode
@@ -14,6 +15,7 @@ interface LayoutProps {
 export default function Layout({ children }: LayoutProps) {
   return (
     <div className="min-h-[100dvh] flex flex-col bg-black text-white">
+      <ScrollManager />
       <Navbar />
       <main className="flex-1 pb-[calc(5rem+env(safe-area-inset-bottom))] lg:pb-0">
         {children}

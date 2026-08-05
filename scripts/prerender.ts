@@ -14,7 +14,7 @@ const DIST_DIR = path.resolve(__dirname, "../dist")
 const SITEMAP_PATH = path.resolve(__dirname, "../dist/sitemap.xml")
 const FALLBACK_SITEMAP_PATH = path.resolve(__dirname, "../public/sitemap.xml")
 
-const CONCURRENCY = 5
+const CONCURRENCY = 10
 const RENDER_TIMEOUT_MS = 30000
 const NAVIGATION_TIMEOUT_MS = 60000
 

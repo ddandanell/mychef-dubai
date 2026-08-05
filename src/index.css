@@ -256,3 +256,19 @@
     animation: loader-bar 1.5s ease-in-out infinite;
   }
 }
+
+/* ─────────────────────────────────────────────────────────────────────────
+   Reveal fail-safe — see index.html boot script + src/lib/revealFailsafe.ts
+
+   ~123 page components ship content with `opacity-0` and depend on GSAP to
+   reveal it, so without JavaScript the entire page (headings included)
+   renders invisible. The boot script sets <html class="js"> the moment the
+   document parses; if that never happens — JS disabled, bundle blocked, or a
+   crawler that does not execute scripts — this rule keeps everything legible.
+
+   Scoped to :not(.js) so it never fights GSAP in a normal browser session.
+   ───────────────────────────────────────────────────────────────────────── */
+html:not(.js) .opacity-0 {
+  opacity: 1 !important;
+  transform: none !important;
+}

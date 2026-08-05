@@ -7,6 +7,16 @@
     <meta name="robots" content="index, follow" />
     <meta name="theme-color" content="#000000" />
 
+    <!--
+      Reveal fail-safe (part 1 of 2 — see src/lib/revealFailsafe.ts).
+      Runs before any bundle is fetched. Marking <html class="js"> lets the
+      stylesheet keep .opacity-0 content VISIBLE whenever JavaScript never
+      arrives (crawlers, JS disabled, bundle 404, blocked script). Without
+      this, ~123 pages render every heading and paragraph at opacity:0 and
+      the page looks completely blank.
+    -->
+    <script>document.documentElement.classList.add('js')</script>
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
