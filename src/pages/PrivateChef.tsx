@@ -139,6 +139,66 @@ const faqs = [
     q: 'Is the service discreet?',
     a: 'Absolutely. Discretion is a core value at myCHEF Dubai. The chefs in our network operate with complete professionalism and confidentiality.',
   },
+  {
+    q: 'What is included in the price of a private chef?',
+    a: 'A private chef booking is all-inclusive: menu design, grocery shopping and premium ingredients, on-site cooking, plating and table service, and a full kitchen clean-up afterwards. You provide the kitchen and the guests — the chef handles everything else. Extras like extra courses, additional servers, or equipment rentals are quoted transparently up front.',
+  },
+  {
+    q: 'Are your private chefs licensed and food-safety certified in Dubai?',
+    a: 'Yes. The chefs and kitchens in our network operate to Dubai Municipality food-safety requirements, and our vetting covers identity checks, a practical cooking assessment, reference verification and food-handler training. We match each booking to a chef suited to it, so you get verified, professional service rather than an anonymous freelancer.',
+  },
+  {
+    q: 'Do you cook halal, and can you work in a halal kitchen?',
+    a: 'Yes. We source halal ingredients by default and the chefs in our network are experienced working in halal households and kitchens, keeping utensils and preparation separated to your standards. Just let us know your requirements when you enquire.',
+  },
+  {
+    q: 'Can you accommodate allergies and diets like vegan, vegetarian or gluten-free?',
+    a: 'Yes. Share allergies and dietary needs — vegan, vegetarian, gluten-free, dairy-free, nut-free — when you book, well before the event, and the menu is planned around them rather than adjusted at the last minute. For severe allergies we discuss cross-contact handling openly so you can host with confidence.',
+  },
+  {
+    q: 'How many guests can a private chef cook for?',
+    a: 'From an intimate dinner for two up to large celebrations of a hundred or more. Smaller dinners are typically one chef; larger events add support chefs and serving staff scaled to the guest count so the pace and quality stay consistent.',
+  },
+  {
+    q: 'Do you provide waiters and serving staff?',
+    a: 'Yes. Professional servers and hosts can be added to any booking and are recommended for plated dinners and larger events, so you stay a guest at your own table while the team manages service and clearing.',
+  },
+  {
+    q: 'Can a private chef cook in my villa, apartment or yacht kitchen?',
+    a: 'Yes — villas, apartments, penthouses and yachts across Dubai are all standard. The chef adapts to the space, whether it is a full villa kitchen or a compact galley, and confirms access and equipment details before the date.',
+  },
+  {
+    q: 'Which areas of Dubai do you cover?',
+    a: 'We serve all of Dubai, including Palm Jumeirah, Dubai Marina, Downtown, Emirates Hills, Dubai Hills, JBR, Business Bay, DIFC and Jumeirah. Full coverage is listed on our locations page.',
+  },
+  {
+    q: 'Do you bring the groceries, or do I need to buy the ingredients?',
+    a: 'The chef handles all grocery shopping and brings the ingredients, sourced fresh — often the same day — so the menu flexes with what the market has. You do not need to prepare or buy anything.',
+  },
+  {
+    q: 'Can I see and customise the menu before I book?',
+    a: 'Yes. Nothing is fixed until you sign it off. You tell us the occasion, guest count and any preferences, and we design a bespoke menu with you; for larger events you can taste a shortlist before committing.',
+  },
+  {
+    q: 'How do I get a quote and pay, and is a deposit required?',
+    a: 'Send your date, guest count and venue and we reply with a tailored quote — typically within 15 minutes during business hours. Bookings are confirmed with a deposit and the balance settled before or on the day; a 5% VAT line applies.',
+  },
+  {
+    q: 'Is hiring a private chef cheaper than a restaurant for a group?',
+    a: 'For a group it is often comparable or better value — you get a restaurant-quality, multi-course meal cooked to order in your own space, with no minimum spend per head, no travel, and privacy included. Our private chef vs catering guide breaks down when each option makes sense.',
+  },
+  {
+    q: 'Can you provide a private chef for a birthday, anniversary or proposal?',
+    a: 'Yes. Milestone dinners, romantic dinners and proposals are among the most popular bookings; the chef and optional servers handle timing, courses and the reveal so you can be fully present.',
+  },
+  {
+    q: 'Can I book a private chef regularly or for weekly meal prep?',
+    a: 'Yes. Beyond one-off dinners, the chefs in our network offer weekly meal prep and part-time or full-time private chef arrangements for households that want consistent, tailored cooking. Tell us your routine and we will match a chef and cadence.',
+  },
+  {
+    q: 'How much should I tip a private chef in Dubai?',
+    a: 'Tipping is appreciated but never expected — service is included in your quote. If a chef and team exceed expectations, many hosts add 10–15%, but it is entirely at your discretion.',
+  },
 ]
 
 const relatedServices = [
