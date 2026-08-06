@@ -253,7 +253,7 @@ export default function FoundingCustomerOffer() {
           </h2>
           <div className="fc-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Lock in priority access, a dedicated concierge, and a fixed founding rate for 12 months. Tell us how you dine and we will recommend the right founding tier, confirm availability, and match you with a vetted private chef in Dubai within 24 hours.
+              Lock in priority access, a dedicated concierge, and a fixed founding rate for 12 months. Tell us how you dine and we will recommend the right founding tier, confirm availability, and bring you a vetted private chef in Dubai within 24 hours.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               In return for joining early, we reserve priority access to our most experienced, vetted chefs and assign a dedicated concierge who learns your preferences over time. Whether it is a weekly family dinner or a milestone celebration, your experience gets better with every booking.

@@ -217,7 +217,7 @@ export default function PrivateChefCostDubai() {
           <section className="article-section opacity-0 translate-y-8 mb-12">
             <h2 className="font-playfair text-h2 text-black mb-5">Book a Private Chef with myCHEF Dubai</h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
-              Our <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-4">private chef service in Dubai</Link> matches you with experienced chefs who design bespoke menus for intimate dinners, family gatherings, and special celebrations. we design and manage the experience from ingredients to service so you can enjoy the evening as a guest.
+              Our <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-4">private chef service in Dubai</Link> brings you experienced chefs who design bespoke menus for intimate dinners, family gatherings, and special celebrations. we design and manage the experience from ingredients to service so you can enjoy the evening as a guest.
             </p>
             <p className="font-inter text-body text-gray-500 leading-relaxed">
               Share your vision with us and we will provide a transparent, itemised quote based on your group, menu, and venue.

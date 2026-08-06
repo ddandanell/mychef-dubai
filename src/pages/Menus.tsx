@@ -117,7 +117,7 @@ const pricingFaqs = [
   },
   {
     q: 'Can we customize the menu?',
-    a: 'Absolutely. Every menu is designed from scratch based on your preferences, dietary requirements, and event style. The chefs in our network collaborate with you to create a menu that fits your vision.',
+    a: 'Absolutely. Every menu is designed from scratch based on your preferences, dietary requirements, and event style. Our chefs collaborate with you to create a menu that fits your vision.',
   },
 ]
 
@@ -251,7 +251,7 @@ export default function Menus() {
       <PageHero
         eyebrow="CULINARY OFFERINGS"
         title="Bespoke Menus, Crafted for Every Palate"
-        subtitle="Tell us your occasion and we will match you with a vetted chef within 24 hours. Every menu is designed from scratch — here is a glimpse of what we create."
+        subtitle="Tell us your occasion and we will bring you a vetted chef within 24 hours. Every menu is designed from scratch — here is a glimpse of what we create."
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Menus' }]}
         minHeight="medium"
         overlay="dark"

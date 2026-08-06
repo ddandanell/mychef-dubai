@@ -73,7 +73,7 @@ const config: DietaryPageConfig = {
     {
       Icon: Building,
       title: 'Corporate Jain Lunches',
-      description: 'Inclusive vegetarian lunch options for offices with Jain the chefs in our network or guests.',
+      description: 'Inclusive vegetarian lunch options for offices with Jain our chefs or guests.',
       link: '/corporate-catering-dubai',
     },
   ],

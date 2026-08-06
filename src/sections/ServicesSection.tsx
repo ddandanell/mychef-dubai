@@ -10,7 +10,7 @@ const services = [
   {
     image: '/images/private-chef-dubai-hero.webp',
     title: 'Private Chef Dubai',
-    description: 'A handpicked professional chef for an evening, a week, or longer. We match the right chef to your taste and design the menu with you — bespoke dining, prepared by your chef in your own home.',
+    description: 'A carefully selected professional chef for an evening, a week, or longer. We match the right chef to your taste and design the menu with you — bespoke dining, prepared by your chef in your own home.',
     link: '/private-chef-dubai',
   },
   {
@@ -22,7 +22,7 @@ const services = [
   {
     image: '/images/luxury-dining-dubai-hero.webp',
     title: 'Luxury Dining Experiences',
-    description: 'Intimate fine dining at home, romantic evenings, milestone celebrations — every course designed with you and prepared by your handpicked chef.',
+    description: 'Intimate fine dining at home, romantic evenings, milestone celebrations — every course designed with you and prepared by your carefully selected chef.',
     link: '/luxury-dining-experiences',
   },
   {
@@ -40,7 +40,7 @@ const services = [
   {
     image: '/images/villa-catering-dubai-hero.webp',
     title: 'Villas & Residences',
-    description: 'Dedicated villa chef arrangements for holiday homes, long-stay guests, and luxury residences across Dubai — we match you with a vetted chef you engage, and design the dining around your home.',
+    description: 'Dedicated villa chef arrangements for holiday homes, long-stay guests, and luxury residences across Dubai — we bring you a vetted chef you engage, and design the dining around your home.',
     link: '/villas-private-residences',
   },
 ]

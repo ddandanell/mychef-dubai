@@ -101,7 +101,7 @@ const howItWorks = [
   { step: '02', title: 'Menu & Format Planning', description: 'We design a menu and service format that matches the energy of your celebration, from gala to garden party.' },
   { step: '03', title: 'Receive a Proposal', description: 'You get a detailed proposal covering food, drinks, staff, timing, and logistics for the evening.' },
   { step: '04', title: 'Confirm & Reserve', description: 'Approve the details and secure your date. We coordinate with your venue or yacht crew as needed.' },
-  { step: '05', title: 'Team Prep & Arrival', description: 'the chefs in our network and event team arrive early with ingredients, equipment, and a clear service timeline.' },
+  { step: '05', title: 'Team Prep & Arrival', description: 'our chefs and event team arrive early with ingredients, equipment, and a clear service timeline.' },
   { step: '06', title: 'Countdown & Clear-Down', description: 'We serve through midnight, manage the toast, and clear down afterwards so your evening ends effortlessly.' },
 ]
 
@@ -302,7 +302,7 @@ export default function NewYearCatering() {
             New Year's Eve in Dubai is one of the most anticipated nights of the year. From private villa parties with views of the fireworks to elegant yacht countdowns and corporate galas, the right catering sets the tone for the entire evening. At myCHEF Dubai, we create New Year's Eve catering experiences that match the energy and style of your celebration.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            the chefs in our network and event team design menus ranging from refined multi-course gala dinners to lively canapé and live-station parties, with full staffing, bar service, and a structured midnight toast. You share the vision; we deliver the details. Explore our New Year's Eve catering options below, or see how they connect to our wider <Link to="/events" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">event catering in Dubai</Link>.
+            our chefs and event team design menus ranging from refined multi-course gala dinners to lively canapé and live-station parties, with full staffing, bar service, and a structured midnight toast. You share the vision; we deliver the details. Explore our New Year's Eve catering options below, or see how they connect to our wider <Link to="/events" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">event catering in Dubai</Link>.
           </p>
         </div>
       </section>
@@ -317,7 +317,7 @@ export default function NewYearCatering() {
             Hosts Who Want a Seamless Countdown
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Our New Year's Eve catering is designed for Dubai hosts who want a memorable celebration without managing the kitchen. Villa owners throwing private countdown parties, families welcoming the new year together, companies hosting year-end galas, and yacht guests watching the fireworks all rely on the chefs in our network. We also cater hotel suites, rooftop terraces, and corporate boardrooms. Whether your event is intimate or large, formal or festive, we adapt the menu, format, and service to match the occasion and the venue.
+            Our New Year's Eve catering is designed for Dubai hosts who want a memorable celebration without managing the kitchen. Villa owners throwing private countdown parties, families welcoming the new year together, companies hosting year-end galas, and yacht guests watching the fireworks all rely on our chefs. We also cater hotel suites, rooftop terraces, and corporate boardrooms. Whether your event is intimate or large, formal or festive, we adapt the menu, format, and service to match the occasion and the venue.
           </p>
         </div>
       </section>

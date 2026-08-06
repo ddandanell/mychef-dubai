@@ -79,7 +79,7 @@ const faqs = [
   },
   {
     q: 'Are chefs in your network certified in allergen training?',
-    a: 'All chefs in our network are required to demonstrate food safety awareness, including allergen handling. For high-risk bookings, we prioritise chefs with additional allergen or clinical-dietary experience.',
+    a: 'All our chefs are required to demonstrate food safety awareness, including allergen handling. For high-risk bookings, we prioritise chefs with additional allergen or clinical-dietary experience.',
   },
   {
     q: 'What allergens can you accommodate?',
@@ -231,7 +231,7 @@ export default function AllergySafeCatering() {
           </h2>
           <div className="asc-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Tell us about your guests' allergies, intolerances, and dietary needs, and we will match you with a vetted chef experienced in allergy-safe preparation — usually within 24 hours. From ingredient verification to cross-contact controls, we build a clear protocol so everyone at your table can eat with confidence.
+              Tell us about your guests' allergies, intolerances, and dietary needs, and we will bring you a vetted chef experienced in allergy-safe preparation — usually within 24 hours. From ingredient verification to cross-contact controls, we build a clear protocol so everyone at your table can eat with confidence.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
               Explore dedicated <Link to="/gluten-free-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">gluten-free</Link>, <Link to="/dairy-free-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">dairy-free</Link>, and <Link to="/nut-free-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">nut-free</Link> catering, or view our broader <Link to="/healthy-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">healthy catering</Link> options.
@@ -350,7 +350,7 @@ export default function AllergySafeCatering() {
             Protect Every Guest at Your Table
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Tell us about your guests' allergies and dietary needs. We will design a safe, delicious menu and match you with a chef who knows how to execute it.
+            Tell us about your guests' allergies and dietary needs. We will design a safe, delicious menu and bring you a chef who knows how to execute it.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Request an Allergy-Safe Quote</Link>

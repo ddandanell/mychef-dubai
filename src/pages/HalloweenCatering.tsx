@@ -25,7 +25,7 @@ const config: OccasionPageConfig = {
         Halloween in Dubai has grown into one of the most anticipated nights of the year, with families, friends and brands hosting everything at home. Whether you are planning an intimate adults dinner, a fun kids party or a large costume event, our Halloween catering service delivers dramatic presentation, themed flavours and seamless service that matches the mood of the night.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        the chefs in our network design menus around the occasion: black and gold grazing tables, spiderweb desserts, pumpkin-inspired dishes, themed mocktails and creative canapes that surprise guests before the first bite. We take care of the food, styling, service and cleanup, so you can focus on costumes, music and making memories.
+        our chefs design menus around the occasion: black and gold grazing tables, spiderweb desserts, pumpkin-inspired dishes, themed mocktails and creative canapes that surprise guests before the first bite. We take care of the food, styling, service and cleanup, so you can focus on costumes, music and making memories.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
         we coordinate catering for Halloween events across Dubai, from villas and apartments to rooftops, event spaces and offices. Pair this with our{' '}

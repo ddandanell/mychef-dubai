@@ -169,7 +169,7 @@ const serviceTiers = [
 const processSteps = [
   { num: '01', title: 'Contact Us', description: 'Reach out with your event details and requirements.' },
   { num: '02', title: 'Menu Planning', description: 'We design a bespoke menu tailored to your occasion.' },
-  { num: '03', title: 'Event Execution', description: 'the chefs in our network delivers flawless service on the day.' },
+  { num: '03', title: 'Event Execution', description: 'our chefs delivers flawless service on the day.' },
   { num: '04', title: 'Follow-Up', description: 'We follow up to ensure everything met your expectations.' },
 ]
 
@@ -395,7 +395,7 @@ export default function Corporate() {
               What corporate dining solutions does myCHEF Dubai offer?
             </h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed mt-4 max-w-[700px] mx-auto">
-              Tell us about your event and we will match you with a vetted chef within 24 hours.
+              Tell us about your event and we will bring you a vetted chef within 24 hours.
               We deliver corporate catering across Dubai's key business districts, including{' '}
               <Link to="/locations/business-bay" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Business Bay</Link>{' '}
               and{' '}

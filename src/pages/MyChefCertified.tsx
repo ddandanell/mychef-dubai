@@ -116,7 +116,7 @@ const faqs = [
 const relatedServices = [
   {
     title: 'How We Vet Partner Chefs',
-    description: 'The full myCHEF Dubai vetting process: auditions, checks, and ongoing quality control for every chef in our network.',
+    description: 'The full myCHEF Dubai vetting process: auditions, checks, and ongoing quality control for every our chef.',
     image: '/images/how-we-vet-our-chefs-dubai-hero.webp',
     link: '/how-we-vet-our-chefs',
   },
@@ -253,7 +253,7 @@ export default function MyChefCertified() {
           </h2>
           <div className="mc-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              MyChef Certified means every chef we send to your home, villa, or yacht in Dubai has passed in-person auditions, background checks, food-safety verification, and halal-competency screening. Tell us about your event and we will match you with a vetted chef within 24 hours.
+              MyChef Certified means every chef we send to your home, villa, or yacht in Dubai has passed in-person auditions, background checks, food-safety verification, and halal-competency screening. Tell us about your event and we will bring you a vetted chef within 24 hours.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               From the first tasting to the final reference check, we look for chefs who combine technical skill with professionalism, discretion, and respect for the dietary and cultural expectations that matter in this city.
@@ -398,7 +398,7 @@ export default function MyChefCertified() {
             Book with Confidence
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Every myCHEF Dubai chef is MyChef Certified. Tell us about your event and we will match you with a chef who has already earned our trust.
+            Every myCHEF Dubai chef is MyChef Certified. Tell us about your event and we will bring you a chef who has already earned our trust.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Book a Certified Chef</Link>

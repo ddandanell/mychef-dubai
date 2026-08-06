@@ -67,7 +67,7 @@ const dessertFormats = [
 
 const includedItems = [
   { title: 'Bespoke Cake Design', description: 'A signature cake designed around your theme, palette, and flavour.' },
-  { title: 'Patisserie Selection', description: 'Macarons, tarts, éclairs, and petits fours from the pastry chefs in our network.' },
+  { title: 'Patisserie Selection', description: 'Macarons, tarts, éclairs, and petits fours from the pastry our chefs.' },
   { title: 'Mini Sweets & Treats', description: 'Cupcakes, cake pops, cookies, and bite-sized confections.' },
   { title: 'Styled Display', description: 'Tiered stands, cake plinths, glassware, and themed styling.' },
   { title: 'Themed Presentation', description: 'Colour palettes, florals, and signage matched to your celebration.' },
@@ -142,7 +142,7 @@ const faqs = [
   },
   {
     q: 'Do you set up and clear the dessert table?',
-    a: 'Yes. The chefs in our network delivers, builds, and styles the dessert table on-site at your villa or venue, and we return to pack down and clear afterwards so you can simply enjoy the celebration.',
+    a: 'Yes. Our chefs delivers, builds, and styles the dessert table on-site at your villa or venue, and we return to pack down and clear afterwards so you can simply enjoy the celebration.',
   },
   {
     q: 'How far in advance should I book a dessert table?',
@@ -326,10 +326,10 @@ export default function DessertTableCatering() {
             The Sweetest Moment of the Day
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            The dessert table is where a celebration lingers. It is the centrepiece cake everyone photographs, the tower of macarons that disappears first, the styled display that frames the room. At myCHEF Dubai, pastry chefs in our network — including <Link to="/chefs/sofia-pastry-chef" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Pastry Chef Sofia</Link> — build dessert tables as composed, considered installations — bespoke cakes, refined French patisserie, and bite-sized sweets arranged across tiered stands and plinths to match your palette and theme.
+            The dessert table is where a celebration lingers. It is the centrepiece cake everyone photographs, the tower of macarons that disappears first, the styled display that frames the room. At myCHEF Dubai, pastry our chefs — including <Link to="/chefs/sofia-pastry-chef" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Pastry Chef Sofia</Link> — build dessert tables as composed, considered installations — bespoke cakes, refined French patisserie, and bite-sized sweets arranged across tiered stands and plinths to match your palette and theme.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Whether you are planning an elegant <Link to="/wedding-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">wedding sweet table</Link>, a colourful <Link to="/birthday-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">birthday dessert display</Link>, a pastel baby shower, or a refined dessert and coffee station to close a dinner, the chefs in our network design, delivers, and styles it on-site at your villa or venue. Discover our dessert formats below, or see how they fit within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
+            Whether you are planning an elegant <Link to="/wedding-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">wedding sweet table</Link>, a colourful <Link to="/birthday-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">birthday dessert display</Link>, a pastel baby shower, or a refined dessert and coffee station to close a dinner, our chefs design, delivers, and styles it on-site at your villa or venue. Discover our dessert formats below, or see how they fit within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
           </p>
         </div>
       </section>

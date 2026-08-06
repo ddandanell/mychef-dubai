@@ -109,7 +109,7 @@ const faqs = [
   },
   {
     q: 'What cuisines can they cook?',
-    a: 'Chefs in our network cover Arabic, Mediterranean, Italian, Indian, Asian, sushi, healthy, halal, vegan, and child-friendly cuisines. We match chefs to your specific taste profile during selection.',
+    a: 'Chefs on our team cover Arabic, Mediterranean, Italian, Indian, Asian, sushi, healthy, halal, vegan, and child-friendly cuisines. We match chefs to your specific taste profile during selection.',
   },
 ]
 
@@ -253,7 +253,7 @@ export default function FullTimePrivateChef() {
           </h2>
           <div className="fp-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Hire a full-time private chef in Dubai and bring consistent, restaurant-quality dining into your home. Tell us about your household size, cuisine preferences, and schedule, and we will match you with a vetted residential chef within 24 hours.
+              Hire a full-time private chef in Dubai and bring consistent, restaurant-quality dining into your home. Tell us about your household size, cuisine preferences, and schedule, and we will bring you a vetted residential chef within 24 hours.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               Every candidate is vetted for culinary skill, professionalism, food-safety awareness, and experience in private households. We handle the shortlisting, interviews, and placement terms so you can focus on finding the right match for your family.
@@ -398,7 +398,7 @@ export default function FullTimePrivateChef() {
             Find Your Household Chef
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Tell us about your household, schedule, and cuisine preferences. We will match you with a vetted full-time private chef who fits your home.
+            Tell us about your household, schedule, and cuisine preferences. We will bring you a vetted full-time private chef who fits your home.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Hire a Full-Time Chef</Link>

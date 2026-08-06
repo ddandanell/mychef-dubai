@@ -72,7 +72,7 @@ const faqData: Record<Exclude<Category, 'All'>, { q: string; a: string }[]> = {
   'Cancellations & insurance': [
     { q: 'What is your cancellation policy?', a: 'Cancellations more than 48 hours before generally receive a full refund. Cancellations within 48 hours may incur a fee. Last-minute cancellations may forfeit the deposit. See /booking-protection-insurance for details.' },
     { q: 'What happens if a chef is unavailable?', a: 'We choose a qualified backup chef from our network for you, and let you know as early as possible. Read our backup chef policy at /booking-protection-insurance.' },
-    { q: 'Are you insured?', a: 'Yes. myCHEF Dubai is fully licensed and insured. We maintain public liability coverage and require chefs to carry appropriate food-handling and personal liability protection.' },
+    { q: 'Are you insured?', a: 'The licensed culinary partners who prepare your food carry appropriate food-handling and personal liability coverage, which we verify as part of vetting before they work an event.' },
     { q: 'How do deposits work?', a: 'Most bookings require a 50% deposit to confirm. The balance is due before or on the day of the event. Exact terms are included in your proposal.' },
     { q: 'How are complaints handled?', a: 'Complaints are escalated to an event manager, investigated promptly, and resolved fairly through refund, credit, or explanation depending on the situation.' },
     { q: 'Will I receive written booking terms?', a: 'Yes. Every booking is confirmed in writing with menu, pricing, deposit, balance due date, and cancellation terms.' },

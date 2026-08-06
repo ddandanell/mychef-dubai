@@ -47,7 +47,7 @@ const giftOptions = [
   {
     icon: ChefHat,
     title: 'Couples Cooking Class',
-    description: 'A hands-on cooking class gift voucher where a chef in our network guides you through a bespoke menu in your own kitchen.',
+    description: 'A hands-on cooking class gift voucher where a our chef guides you through a bespoke menu in your own kitchen.',
     link: '/private-cooking-classes-dubai',
   },
   {
@@ -117,7 +117,7 @@ const howItWorks = [
   {
     num: '05',
     title: 'Chef Designs & Delivers',
-    description: 'A chef in our network plans, prepares, and serves the experience — leaving only memories behind.',
+    description: 'A our chef plans, prepares, and serves the experience — leaving only memories behind.',
   },
 ]
 
@@ -175,7 +175,7 @@ const faqs = [
   },
   {
     q: 'Can the recipient choose their own menu or date?',
-    a: 'Yes. The recipient contacts us to book their preferred date and works with the chefs in our network to design their bespoke menu.',
+    a: 'Yes. The recipient contacts us to book their preferred date and works with our chefs to design their bespoke menu.',
   },
   {
     q: 'Can I customize the gift card amount?',

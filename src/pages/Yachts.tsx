@@ -59,7 +59,7 @@ const faqItems = [
   },
   {
     q: 'What yacht sizes do you cater?',
-    a: 'From intimate 40-foot yachts to 200+ foot superyachts. We scale the chefs in our network and service to match your vessel. Whether it is a romantic dinner for two or a celebration for fifty, we deliver the same exceptional standard.',
+    a: 'From intimate 40-foot yachts to 200+ foot superyachts. We scale our chefs and service to match your vessel. Whether it is a romantic dinner for two or a celebration for fifty, we deliver the same exceptional standard.',
   },
   {
     q: 'Do you provide service staff for yachts?',
@@ -199,7 +199,7 @@ export default function Yachts() {
       <PageHero
         eyebrow="YACHT CATERING"
         title="Yacht Catering Dubai"
-        subtitle="Tell us about your yacht event and we will match you with a vetted chef. Exceptional dining on the water with Dubai's iconic skyline as your setting — we reply within 15 minutes during business hours."
+        subtitle="Tell us about your yacht event and we will bring you a vetted chef. Exceptional dining on the water with Dubai's iconic skyline as your setting — we reply within 15 minutes during business hours."
         image="/images/yacht-catering-dubai-hero.webp"
         imageAlt="Yacht catering in Dubai"
         cta={{ label: 'Plan My Yacht Dinner', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=yachts' }}

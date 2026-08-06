@@ -135,7 +135,7 @@ const faqs = [
   },
   {
     q: 'Can you create a custom cocktail menu for our event?',
-    a: 'Absolutely. The chefs in our network design signature cocktails and mocktails to match your event theme, season, and guest preferences.',
+    a: 'Absolutely. Our chefs design signature cocktails and mocktails to match your event theme, season, and guest preferences.',
   },
   {
     q: 'Do you offer non-alcoholic / mocktail bars?',

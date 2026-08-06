@@ -253,7 +253,7 @@ export default function ProposalDinner() {
           </h2>
           <div className="pd-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              A proposal dinner is not just a meal — it is a story told through food, setting, and timing. Tell us about your partner, your vision, and your venue, and we will reply within 15 minutes during business hours to start shaping your perfect "yes". We then match you with a vetted private chef and event manager for your date.
+              A proposal dinner is not just a meal — it is a story told through food, setting, and timing. Tell us about your partner, your vision, and your venue, and we will reply within 15 minutes during business hours to start shaping your perfect "yes". We then bring you a vetted private chef and event manager for your date.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               From the first course to the moment you get down on one knee, we manage the pacing, the styling, and the coordination with photographers and florists. You arrive as a guest; we make sure the evening unfolds exactly as you imagined.

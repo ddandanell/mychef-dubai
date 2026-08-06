@@ -323,7 +323,7 @@ export default function CocktailPartyCatering() {
             A great cocktail party has a rhythm of its own — the clink of a styled bar, a signature drink that becomes the talk of the evening, a tray of canapés arriving at exactly the right moment. At myCHEF Dubai, we design cocktail receptions as a complete experience, pairing professional mixologists and a bespoke drinks list with elegant, perfectly-timed canapés that keep your guests circulating.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Whether you are hosting a rooftop reception against the skyline, a yacht party around Dubai Marina, an intimate villa soirée, or a corporate networking evening, the chefs in our network bring the bar, the staff, and the styling to you. Explore our cocktail formats below, or see how they fit within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
+            Whether you are hosting a rooftop reception against the skyline, a yacht party around Dubai Marina, an intimate villa soirée, or a corporate networking evening, our chefs bring the bar, the staff, and the styling to you. Explore our cocktail formats below, or see how they fit within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
           </p>
         </div>
       </section>

@@ -26,7 +26,7 @@ const config: DietaryPageConfig = {
         A pescatarian diet brings together the best of the ocean and the garden: fresh fish, shellfish, eggs and dairy alongside vibrant vegetables, grains and legumes. Our pescatarian catering in Dubai is designed for guests who want a seafood-forward menu without red meat or poultry, served with the same luxury presentation and attentive service that defines every myCHEF Dubai event.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        We work with trusted suppliers to source the freshest local and imported seafood, then build menus around it. Think grilled sea bass with herb oil, prawn skewers with citrus glaze, seafood paella, tuna tartare, and colourful salads that balance every plate. Whether your event is fully pescatarian or you need a dedicated seafood station within a larger menu, the chefs in our network make it feel generous and intentional.
+        We work with trusted suppliers to source the freshest local and imported seafood, then build menus around it. Think grilled sea bass with herb oil, prawn skewers with citrus glaze, seafood paella, tuna tartare, and colourful salads that balance every plate. Whether your event is fully pescatarian or you need a dedicated seafood station within a larger menu, our chefs make it feel generous and intentional.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
         Explore how this sits alongside our{' '}

@@ -194,7 +194,7 @@ export default function WellnessMealPrep() {
       <PageHero
         eyebrow="HEALTH-FOCUSED MEAL PREP"
         title="Wellness Meal Prep Dubai"
-        subtitle="Nutritionist-aligned, macro-calculated meals prepared by a private chef in your own kitchen. Tell us about your household and goals — we will match you with a vetted wellness chef and send a tailored quote within 24 hours."
+        subtitle="Nutritionist-aligned, macro-calculated meals prepared by a private chef in your own kitchen. Tell us about your household and goals — we will bring you a vetted wellness chef and send a tailored quote within 24 hours."
         image="/images/healthy-catering-dubai-hero.webp"
         imageAlt="Wellness meal prep in Dubai"
         cta={{ label: 'Plan My Wellness Menu', href: `/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}` }}
@@ -316,7 +316,7 @@ export default function WellnessMealPrep() {
         <div className="container-custom text-center wm-fade opacity-0 translate-y-8">
           <h2 className="font-playfair text-h2 text-white mb-4">Start Your Wellness Meal Plan</h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Tell us your goals, dietary needs, and household size. We will match you with a vetted wellness chef and send a tailored quote within 24 hours.
+            Tell us your goals, dietary needs, and household size. We will bring you a vetted wellness chef and send a tailored quote within 24 hours.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">

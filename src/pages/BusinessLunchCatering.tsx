@@ -130,7 +130,7 @@ const faqs = [
   },
   {
     q: 'Can you time the lunch precisely around our meeting?',
-    a: 'Yes. We plan delivery and set-up around your agenda so food is ready exactly when you break, not before. The chefs in our network work discreetly, and for working lunches we can have everything in place so the session never has to stop.',
+    a: 'Yes. We plan delivery and set-up around your agenda so food is ready exactly when you break, not before. Our chefs work discreetly, and for working lunches we can have everything in place so the session never has to stop.',
   },
   {
     q: 'Do you cater recurring client or leadership lunches?',

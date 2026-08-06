@@ -132,7 +132,7 @@ const config: ServicePageConfig = {
   faqs: [
     {
       q: 'What is drop-off catering?',
-      a: 'Drop-off catering means the chef in our network prepares, packs and delivers your food ready to serve. There is no chef or service team on site, making it a cost-effective option for meetings, offices and small gatherings.',
+      a: 'Drop-off catering means our chef prepares, packs and delivers your food ready to serve. There is no chef or service team on site, making it a cost-effective option for meetings, offices and small gatherings.',
     },
     {
       q: 'Is drop-off catering suitable for offices?',

@@ -75,7 +75,7 @@ const policySections = [
     ],
     bullets: [
       'We do not sell, trade, or rent your personal data to third parties',
-      'Your information may be shared with members of the chefs in our network solely for the purpose of delivering your service',
+      'Your information may be shared with members of our chefs solely for the purpose of delivering your service',
       'We may disclose information if required by law or to protect our rights',
       'Any third-party service providers we engage are bound by confidentiality agreements',
     ],
@@ -85,7 +85,7 @@ const policySections = [
     title: 'Data Security',
     content: [
       'We implement appropriate technical and organizational measures to protect your personal data against unauthorized access, alteration, disclosure, or destruction.',
-      'All the chefs in our network are bound by strict confidentiality agreements. We regularly review our security practices to ensure your information remains protected.',
+      'All our chefs are bound by strict confidentiality agreements. We regularly review our security practices to ensure your information remains protected.',
     ],
     bullets: [],
   },

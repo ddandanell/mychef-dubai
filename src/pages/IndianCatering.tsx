@@ -72,7 +72,7 @@ const useCases = [
   },
   {
     title: 'Villa & Home Celebrations',
-    description: 'For Diwali dinners, milestone birthdays, and family gatherings across Dubai, the chefs in our network come to your villa fully equipped — cooking, serving, and clearing so you can host without lifting a finger.',
+    description: 'For Diwali dinners, milestone birthdays, and family gatherings across Dubai, our chefs come to your villa fully equipped — cooking, serving, and clearing so you can host without lifting a finger.',
   },
   {
     title: 'Corporate & Cultural Events',
@@ -328,7 +328,7 @@ export default function IndianCatering() {
             Indian food is built on layers — of spice, of region, of ritual. A great Indian menu is not a single cuisine but dozens, from the smoky tandoors and saffron biryanis of the north to the coconut curries, dosa, and tangy chutneys of the south. At myCHEF Dubai, we treat each menu as a journey across that map, cooking the way each dish is meant to be cooked and seasoning it with respect for tradition rather than shortcuts.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Whether you are hosting a grand wedding banquet, a Diwali dinner at your villa, or a corporate function that needs to feel both generous and refined, the chefs in our network, led by <Link to="/chefs/ahmed-executive-chef" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Executive Chef Ahmed</Link>, brings live tandoor and chaat stations, slow-cooked curries, and considered vegetarian, vegan, and Jain options to the table. Halal sourcing is the baseline, spice levels are tailored to your guests, and every detail is handled — explore how it fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>, or plan a dedicated <Link to="/diwali-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Diwali catering in Dubai</Link> menu.
+            Whether you are hosting a grand wedding banquet, a Diwali dinner at your villa, or a corporate function that needs to feel both generous and refined, our chefs, led by <Link to="/chefs/ahmed-executive-chef" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Executive Chef Ahmed</Link>, brings live tandoor and chaat stations, slow-cooked curries, and considered vegetarian, vegan, and Jain options to the table. Halal sourcing is the baseline, spice levels are tailored to your guests, and every detail is handled — explore how it fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>, or plan a dedicated <Link to="/diwali-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Diwali catering in Dubai</Link> menu.
           </p>
         </div>
       </section>

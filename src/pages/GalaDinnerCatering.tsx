@@ -307,7 +307,7 @@ export default function GalaDinnerCatering() {
             The Importance of Gala Catering
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            A gala is a statement. From the moment guests arrive to the final course, every detail should reflect the prestige of the occasion. At myCHEF Dubai, we deliver gala dinner catering that matches the elegance of the venue, the formality of the dress code, and the ambition of the event itself. The chefs in our network design multi-course menus, curates sommelier-style beverage service, and fields polished front-of-house teams trained for black-tie occasions.
+            A gala is a statement. From the moment guests arrive to the final course, every detail should reflect the prestige of the occasion. At myCHEF Dubai, we deliver gala dinner catering that matches the elegance of the venue, the formality of the dress code, and the ambition of the event itself. Our chefs design multi-course menus, curates sommelier-style beverage service, and fields polished front-of-house teams trained for black-tie occasions.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             Whether you are planning an awards ceremony, charity ball, or corporate anniversary gala, we work behind the scenes so the evening flows flawlessly. Explore our gala formats below, or see how we complement formal occasions through our{' '}

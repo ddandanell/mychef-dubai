@@ -23,7 +23,7 @@ const config: ServicePageConfig = {
   introNodes: (
     <>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        A tasting menu is the most intimate way to experience a chef’s creativity. Private chef’s table and tasting menu experiences in our network bring a curated, multi-course journey to your dining table — whether that is in a Palm Jumeirah villa, a Downtown penthouse, a corporate boardroom or a carefully chosen venue. Each course is introduced, every flavour is considered, and the pacing is designed around the conversation at the table.
+        A tasting menu is the most intimate way to experience a chef’s creativity. Private chef’s table and tasting menu experiences on our team bring a curated, multi-course journey to your dining table — whether that is in a Palm Jumeirah villa, a Downtown penthouse, a corporate boardroom or a carefully chosen venue. Each course is introduced, every flavour is considered, and the pacing is designed around the conversation at the table.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
         We begin with a consultation to understand your tastes, any dietary requirements and the tone of the evening. The chef then designs a bespoke menu that can span modern European, Japanese, Mediterranean, Middle Eastern or fusion influences. Wine-pairing-style mocktails, amuse-bouches, palate cleansers and petits fours complete the experience, with service that is attentive but never intrusive.
@@ -148,7 +148,7 @@ const config: ServicePageConfig = {
     },
     {
       q: 'Do you provide drinks pairing?',
-      a: 'We create mocktail, juice and tonic pairings to complement each course. If you would like alcoholic pairings, the chefs in our network can coordinate with your selected sommelier or supplier.',
+      a: 'We create mocktail, juice and tonic pairings to complement each course. If you would like alcoholic pairings, our chefs can coordinate with your selected sommelier or supplier.',
     },
     {
       q: 'How far in advance should I book a tasting menu?',

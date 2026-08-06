@@ -165,7 +165,7 @@ export default function HeroSection() {
           ref={subtextRef}
           className="mt-4 md:mt-6 font-inter text-base md:text-lg font-light text-white/90 max-w-xl mx-auto md:mx-0 leading-relaxed opacity-0 text-center md:text-left"
         >
-          Tell us about your event and we will match you with a vetted, licensed chef. We reply within 15 minutes during business hours. We design the menu, coordinate every detail, and keep you a guest at your own table.
+          Tell us about your event and we handle everything from menu to service. We reply within 15 minutes during business hours. We design the menu, coordinate every detail, and keep you a guest at your own table.
         </p>
 
         {/* CTA Row */}

@@ -31,7 +31,7 @@ const guarantees = [
   {
     icon: ShieldCheck,
     title: 'Vetted Chef Network',
-    description: 'Every chef in our network passes identity, reference, and in-person skill checks before they can accept bookings. We verify food safety awareness and professional communication, so the person arriving at your door is qualified.',
+    description: 'Every our chef passes identity, reference, and in-person skill checks before they can accept bookings. We verify food safety awareness and professional communication, so the person arriving at your door is qualified.',
   },
   {
     icon: RefreshCcw,
@@ -76,7 +76,7 @@ const faqs = [
   },
   {
     q: 'What happens if the chef does not show up?',
-    a: 'We maintain backup chef cover. If your confirmed chef cannot attend, we source a replacement from our vetted network, brief them on your event, and notify you as early as possible. In the rare case no suitable replacement is available, we refund your payment.',
+    a: 'We maintain backup chef cover. If your confirmed chef cannot attend, we source a replacement from our professional team, brief them on your event, and notify you as early as possible. In the rare case no suitable replacement is available, we refund your payment.',
   },
   {
     q: 'How do I report a quality issue?',
@@ -94,7 +94,7 @@ const faqs = [
 
 const relatedServices = [
   {
-    title: 'Booking Protection & Insurance',
+    title: 'Booking Protection',
     description: 'Backup chefs, liability cover, deposits, cancellation terms, and complaint handling.',
     image: '/images/booking-protection-insurance-dubai-hero.webp',
     link: '/booking-protection-insurance',
@@ -232,13 +232,13 @@ export default function QualityGuarantee() {
           </h2>
           <div className="qg-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Tell us about your event, dietary needs, and preferred style, and we will match you with a vetted private chef in Dubai within 24 hours. Every myCHEF Dubai booking is backed by identity-checked chefs, backup cover, written terms, and a fair resolution promise — because trust is the real product.
+              Tell us about your event, dietary needs, and preferred style, and we will bring you a vetted private chef in Dubai within 24 hours. Every myCHEF Dubai booking is backed by identity-checked chefs, backup cover, written terms, and a fair resolution promise — because trust is the real product.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               Our quality guarantee is not a marketing slogan. It is a set of operational promises: every chef is vetted, every booking is confirmed in writing, backup cover is available, and if something genuinely falls short, we investigate and make it right. We do not claim perfection. We claim accountability.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              Read more about <Link to="/how-we-vet-our-chefs" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">how we vet the chefs in our network</Link>, our <Link to="/booking-protection-insurance" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">booking protection and insurance</Link>, or explore <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef services</Link> in Dubai.
+              Read more about <Link to="/how-we-vet-our-chefs" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">how we vet our chefs</Link>, our <Link to="/booking-protection-insurance" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">booking protection and insurance</Link>, or explore <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef services</Link> in Dubai.
             </p>
           </div>
         </div>
@@ -300,7 +300,7 @@ export default function QualityGuarantee() {
 
           <div className="mt-10 bg-charcoal p-8 border-l-4 border-gold">
             <p className="font-inter text-body text-gray-400 leading-relaxed">
-              <strong className="text-white">Important:</strong> Our guarantee covers service failures attributable to MyCHEF Dubai or the chef in our network. It does not cover changes requested by the client after confirmation, external venue issues, or personal taste preferences. Exact terms are confirmed in your written proposal.
+              <strong className="text-white">Important:</strong> Our guarantee covers service failures attributable to MyCHEF Dubai or our chef. It does not cover changes requested by the client after confirmation, external venue issues, or personal taste preferences. Exact terms are confirmed in your written proposal.
             </p>
           </div>
         </div>

@@ -35,7 +35,7 @@ function getTopic(pathname: string): string {
   if (topicMap[pathname]) return topicMap[pathname]
   if (pathname.startsWith('/locations/')) return 'catering in this area'
   if (pathname.startsWith('/blog/')) return 'this topic'
-  if (pathname.startsWith('/chefs/')) return 'The Chefs in Our Network'
+  if (pathname.startsWith('/chefs/')) return 'Our Chefs'
   return 'our private chef and catering services'
 }
 

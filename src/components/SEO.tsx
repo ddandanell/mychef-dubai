@@ -11,7 +11,7 @@ interface SEOProps {
 
 const SITE_NAME = 'myCHEF Dubai'
 const DEFAULT_TITLE = 'myCHEF Dubai — Premium Private Chef & Luxury Dining Experiences'
-const DEFAULT_DESCRIPTION = 'myCHEF Dubai designs private dining experiences and connects you with handpicked, licensed chefs across Dubai. From villas to yachts — request your custom quote today.'
+const DEFAULT_DESCRIPTION = 'myCHEF Dubai designs private dining experiences and brings you professional, licensed chefs across Dubai. From villas to yachts — request your custom quote today.'
 const DEFAULT_OG_IMAGE = '/images/home-hero.webp'
 const SITE_URL = 'https://www.mychef.ae'
 

@@ -192,7 +192,7 @@ export default function Inquiry() {
                 {/* Steps */}
                 <div className="flex flex-col gap-6 mb-8">
                   {[
-                    { title: 'We Review Your Request', desc: 'Within 15 minutes during business hours, a coordinator reviews your details and matches you with a vetted chef.' },
+                    { title: 'We Review Your Request', desc: 'Within 15 minutes during business hours, a coordinator reviews your details and brings you a vetted chef.' },
                     { title: 'We Create Your Proposal', desc: 'A bespoke menu and indicative quote tailored to your event.' },
                     { title: 'You Confirm & Relax', desc: 'Once confirmed, we coordinate every detail so you can be a guest at your own event.' },
                   ].map((item, i) => (

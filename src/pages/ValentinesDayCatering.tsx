@@ -87,7 +87,7 @@ const config: OccasionPageConfig = {
     {
       title: 'Anniversary Celebrations',
       description:
-        'Mark a milestone with a menu that recalls favourite dishes, destinations or memories. The chefs in our network can recreate a honeymoon meal or design a tasting menu around your years together.',
+        'Mark a milestone with a menu that recalls favourite dishes, destinations or memories. Our chefs can recreate a honeymoon meal or design a tasting menu around your years together.',
     },
     {
       title: 'At-Home Date Nights',

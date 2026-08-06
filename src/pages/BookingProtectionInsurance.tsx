@@ -37,7 +37,7 @@ const protections = [
   {
     icon: ShieldCheck,
     title: 'Insurance Requirements',
-    description: 'myCHEF Dubai operates with public liability coverage and requires chefs to maintain appropriate food-handling and personal liability arrangements. This protects against food-related incidents and accidents that may occur during service at your venue or residence.',
+    description: 'We require every culinary partner to maintain appropriate food-handling and personal liability arrangements, and we verify this before they work an event. This means the licensed professionals preparing your food carry their own cover for food-related incidents during service.',
   },
   {
     icon: Banknote,
@@ -64,11 +64,11 @@ const protections = [
 const policyNotes = [
   {
     title: 'Backup chefs are pre-qualified',
-    description: 'Replacement chefs are drawn from the same vetted network and briefed on your menu before arrival.',
+    description: 'Replacement chefs are drawn from the same professional team and briefed on your menu before arrival.',
   },
   {
     title: 'Insurance is active, not aspirational',
-    description: 'We maintain current public liability cover and confirm that chefs carry appropriate food-handling and personal liability protection.',
+    description: 'We confirm that the licensed chefs preparing your food carry appropriate food-handling and personal liability protection.',
   },
   {
     title: 'Deposits secure resources',
@@ -83,11 +83,11 @@ const policyNotes = [
 const faqs = [
   {
     q: 'What happens if my chef cancels?',
-    a: 'If your confirmed chef becomes unavailable, we activate a qualified backup chef from our vetted network. The replacement is briefed on your menu, guest count, and dietary requirements, and we notify you as early as possible.',
+    a: 'If your confirmed chef becomes unavailable, we activate a qualified backup chef from our professional team. The replacement is briefed on your menu, guest count, and dietary requirements, and we notify you as early as possible.',
   },
   {
     q: 'Are you insured?',
-    a: 'Yes. myCHEF Dubai holds public liability insurance and requires chefs to maintain appropriate food-handling and personal liability coverage. This protects against incidents during preparation and service.',
+    a: 'The licensed culinary partners who prepare your food carry appropriate food-handling and personal liability coverage, which we verify before they work with you. This protects against incidents during preparation and service.',
   },
   {
     q: 'What is your cancellation policy?',
@@ -109,7 +109,7 @@ const faqs = [
 
 const relatedServices = [
   {
-    title: 'How We Vet the chefs in our network',
+    title: 'How We Vet our chefs',
     description: 'See the identity, skill, and reference checks every chef passes before joining our network.',
     image: '/images/how-we-vet-our-chefs-dubai-hero.webp',
     link: '/how-we-vet-our-chefs',
@@ -250,10 +250,10 @@ export default function BookingProtectionInsurance() {
               Booking a private chef or luxury catering service should feel exciting, not uncertain. At myCHEF Dubai, we have built clear protection policies around the questions clients ask most: What happens if the chef cannot make it? Are you insured? What if I need to cancel? How do deposits work? And if something goes wrong, how do you fix it?
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              The answers below are honest and practical. We do not promise that problems never happen — no service can. What we promise is that we have thought about them in advance, documented our terms clearly, and trained the chefs in our network to respond quickly and fairly when they do. That is what booking protection means to us.
+              The answers below are honest and practical. We do not promise that problems never happen — no service can. What we promise is that we have thought about them in advance, documented our terms clearly, and trained our chefs to respond quickly and fairly when they do. That is what booking protection means to us.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              For additional reassurance, read about <Link to="/how-we-vet-our-chefs" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">how we vet the chefs in our network</Link>, explore our <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef services</Link>, or view our <Link to="/venue-partners" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">venue partners</Link> for trusted locations across Dubai.
+              For additional reassurance, read about <Link to="/how-we-vet-our-chefs" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">how we vet our chefs</Link>, explore our <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef services</Link>, or view our <Link to="/venue-partners" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">venue partners</Link> for trusted locations across Dubai.
             </p>
           </div>
         </div>

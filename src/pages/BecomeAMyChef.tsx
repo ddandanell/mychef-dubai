@@ -133,7 +133,7 @@ const relatedServices = [
     link: '/how-we-vet-our-chefs',
   },
   {
-    title: 'The Chefs in Our Network',
+    title: 'Our Chefs',
     description: 'Meet the chefs who represent myCHEF Dubai at private events.',
     image: '/service-private-chef.webp',
     link: '/our-chefs',
@@ -288,7 +288,7 @@ export default function BecomeAMyChef() {
               We are not a gig platform. We are a curated network. Every chef is vetted, every menu is bespoke, and every event is supported by a team that understands the standards expected in Dubai's luxury market. In return, you get access to interesting clients, flexible scheduling, clear payment terms, and a brand that promotes your skills professionally.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              Read on to see our requirements, the application process, and what makes a strong candidate. You can also review <Link to="/how-we-vet-our-chefs" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">how we vet the chefs in our network</Link> or explore the <Link to="/our-chefs" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">chefs already in our network</Link>.
+              Read on to see our requirements, the application process, and what makes a strong candidate. You can also review <Link to="/how-we-vet-our-chefs" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">how we vet our chefs</Link> or explore the <Link to="/our-chefs" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">chefs already on our team</Link>.
             </p>
           </div>
         </div>
@@ -504,7 +504,7 @@ export default function BecomeAMyChef() {
             Ready to Join?
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Take the first step toward cooking with myCHEF Dubai. Send your application on WhatsApp and the chefs in our network will be in touch within 2–3 business days.
+            Take the first step toward cooking with myCHEF Dubai. Send your application on WhatsApp and our chefs will be in touch within 2–3 business days.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a

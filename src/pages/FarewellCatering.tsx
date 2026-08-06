@@ -25,7 +25,7 @@ const config: ServicePageConfig = {
         Saying goodbye is never easy, but the right food and atmosphere can turn a farewell into a celebration of everything that has been achieved. Our farewell and retirement catering in Dubai is designed for office send-offs, retirement dinners, leaving parties and recognition events where colleagues, friends and family come together to honour a milestone.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        we coordinate catering across Dubai for corporate farewells in DIFC and Business Bay, relaxed rooftop receptions in Dubai Marina, and intimate villa gatherings in Emirates Hills and Palm Jumeirah. Menus range from refined canapés and grazing tables to plated dinners, BBQ live stations and themed dessert displays. The chefs in our network handle setup, service and cleanup so hosts can focus on speeches, memories and the guest of honour.
+        we coordinate catering across Dubai for corporate farewells in DIFC and Business Bay, relaxed rooftop receptions in Dubai Marina, and intimate villa gatherings in Emirates Hills and Palm Jumeirah. Menus range from refined canapés and grazing tables to plated dinners, BBQ live stations and themed dessert displays. Our chefs handle setup, service and cleanup so hosts can focus on speeches, memories and the guest of honour.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
         This service sits between our{' '}

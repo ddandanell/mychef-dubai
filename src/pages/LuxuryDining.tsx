@@ -28,7 +28,7 @@ const experiences = [
   {
     image: '/service-private-chef.webp',
     title: 'Fine Dining at Home',
-    description: 'Restaurant-quality cuisine in the comfort of your home. A multi-course tasting menu with wine pairing, served by the chefs in our network.',
+    description: 'Restaurant-quality cuisine in the comfort of your home. A multi-course tasting menu with wine pairing, served by our chefs.',
     link: '/private-chef-dubai',
   },
   {
@@ -54,7 +54,7 @@ const relatedExperiences = [
   },
   {
     title: 'Private Cooking Classes',
-    description: 'Learn professional techniques from the chefs in our network in a hands-on, private setting.',
+    description: 'Learn professional techniques from our chefs in a hands-on, private setting.',
     image: '/service-private-chef.webp',
     link: '/private-cooking-classes-dubai',
   },
@@ -81,7 +81,7 @@ const processSteps = [
   {
     icon: Palette,
     title: 'How is your bespoke menu created?',
-    description: 'the chefs in our network crafts a bespoke menu that tells a story through each course.',
+    description: 'our chefs crafts a bespoke menu that tells a story through each course.',
   },
   {
     icon: Sparkles,
@@ -138,10 +138,10 @@ const faqs = [
   },
   {
     q: 'Can I request a specific cuisine?',
-    a: 'Of course. Every menu is fully bespoke. Share your preferences and the chefs in our network will design the perfect menu.',
+    a: 'Of course. Every menu is fully bespoke. Share your preferences and our chefs will design the perfect menu.',
   },
   { q: "How much does a luxury private dining experience in Dubai cost?", a: "Luxury private dining in Dubai is quoted per experience rather than sold at a fixed price, because the cost depends on your guest count, chosen courses, ingredient tier, and venue. As a guide, refined multi-course dinners typically start around AED 600 to 1,200 per guest before beverages, with signature tasting menus and premium produce sitting higher. Share your occasion and we return a transparent custom quote — inclusive of 5% VAT — usually within 15 minutes during business hours; see our [private chef prices Dubai](/private-chef-prices-dubai) guide for indicative ranges." },
-  { q: "What is included in a luxury dining experience, and are there hidden costs?", a: "Everything is included in one transparent quote: bespoke menu design, premium ingredients, all cooking, professional plating and service, and full cleanup so your space is left immaculate. There are no hidden charges — VAT at 5% is stated up front, and any optional extras such as additional courses, extra service staff, or specialist beverages are agreed before you confirm. You host effortlessly while our vetted chef network handles every detail from arrival to the final course." },
+  { q: "What is included in a luxury dining experience, and are there hidden costs?", a: "Everything is included in one transparent quote: bespoke menu design, premium ingredients, all cooking, professional plating and service, and full cleanup so your space is left immaculate. There are no hidden charges — VAT at 5% is stated up front, and any optional extras such as additional courses, extra service staff, or specialist beverages are agreed before you confirm. You host effortlessly while our professional chefs handles every detail from arrival to the final course." },
   { q: "How far in advance should I book, and how quickly will you respond?", a: "We recommend booking a luxury dinner five to seven days ahead so your chef can source the finest ingredients and refine the menu, though shorter lead times can often be accommodated for smaller parties. Peak dates — New Year's Eve, Valentine's Day, and the November to April season — fill quickly, so earlier is better. Send your details and we reply within 15 minutes during business hours to confirm availability; you can review the full process in [how it works](/how-it-works)." },
   { q: "What actually makes a private dining experience luxury rather than standard catering?", a: "Luxury private dining is defined by bespoke menu creation, restaurant-grade technique, premium and rare ingredients, and choreographed service delivered by an experienced chef and dedicated team — not by simply plating pre-made food. Each course is designed around your palate, the occasion, and the mood you want to create, then executed with fine-dining presentation in your own home, villa, or venue. The result feels closer to a private Michelin-style tasting than conventional event catering." },
   { q: "Can you guarantee complete discretion for VIP and high-profile guests?", a: "Yes — discretion is standard for our VIP and high-profile clients, and confidentiality can be formalised on request. Our chefs and service staff are vetted professionals experienced with private residences, public figures, and sensitive events, arriving unbranded and working seamlessly in the background. Whether you are hosting dignitaries, executives, or a private celebration, your event, guest list, and menu remain entirely confidential." },
@@ -316,7 +316,7 @@ export default function LuxuryDining() {
               What luxury dining experiences can you book in Dubai?
             </h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed max-w-[700px] mx-auto mt-4">
-              Tell us about your occasion and we will match you with a vetted{' '}
+              Tell us about your occasion and we will bring you a vetted{' '}
               <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef</Link>
               {' '}within 24 hours. From penthouses in Downtown to villas in{' '}
               <Link to="/locations/emirates-hills" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Emirates Hills</Link>

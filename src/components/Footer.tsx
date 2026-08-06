@@ -20,7 +20,7 @@ const guideLinks = [
   { label: 'FAQ', href: '/faq' },
   { label: 'How It Works', href: '/how-it-works' },
   { label: 'Menus', href: '/menus' },
-  { label: 'The Chefs in Our Network', href: '/our-chefs' },
+  { label: 'Our Chefs', href: '/our-chefs' },
   { label: 'Gallery', href: '/gallery' },
   { label: 'Venue Partners', href: '/venue-partners' },
   { label: 'Catering Prices Guide', href: '/dubai-catering-prices-guide' },
@@ -43,7 +43,7 @@ const companyLinks = [
   { label: 'About', href: '/about' },
   { label: 'Contact', href: '/contact' },
   { label: 'How It Works', href: '/how-it-works' },
-  { label: 'The Chefs in Our Network', href: '/our-chefs' },
+  { label: 'Our Chefs', href: '/our-chefs' },
   { label: 'Blog', href: '/blog' },
   { label: 'Case Studies', href: '/case-studies' },
   { label: 'Gallery', href: '/gallery' },
@@ -198,12 +198,12 @@ export default function Footer() {
             <ul className="space-y-3 mb-6">
               <li>
                 <Link to="/how-we-vet-our-chefs" className="font-inter text-body-sm text-gray-400 hover:text-gold transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-black rounded-sm">
-                  How We Vet the chefs in our network
+                  How We Vet our chefs
                 </Link>
               </li>
               <li>
                 <Link to="/booking-protection-insurance" className="font-inter text-body-sm text-gray-400 hover:text-gold transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-black rounded-sm">
-                  Booking Protection & Insurance
+                  Booking Protection
                 </Link>
               </li>
               <li>
@@ -293,10 +293,10 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Role statement */}
+        {/* Ownership & operating statement */}
         <div className="border-t border-charcoal-light mt-8 pt-8">
           <p className="font-inter text-xs text-gray-500 text-center leading-relaxed max-w-4xl mx-auto">
-            myCHEF Dubai designs and manages private dining and event experiences and connects clients with independent, licensed chefs and catering professionals. Culinary preparation is performed by those licensed third parties, whom the client engages; myCHEF is not a food establishment.
+            myCHEF Dubai is the customer-facing brand of <span className="text-gray-400">Numini FZC</span>, registered at Business Centre, Sharjah Publishing City Free Zone, Sharjah, United Arab Emirates. All catering and private chef services are delivered by professional, licensed culinary partners working to Dubai Municipality food-safety standards.
           </p>
         </div>
 

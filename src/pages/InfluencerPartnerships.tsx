@@ -253,7 +253,7 @@ export default function InfluencerPartnerships() {
           </h2>
           <div className="ip-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              MyCHEF Dubai partners with food, lifestyle, and luxury creators who want exceptional food and shareable moments for their audience. Tell us about your content goals and follower profile, and we will match you with a vetted private chef and a collaboration plan that fits your brand.
+              MyCHEF Dubai partners with food, lifestyle, and luxury creators who want exceptional food and shareable moments for their audience. Tell us about your content goals and follower profile, and we will bring you a vetted private chef and a collaboration plan that fits your brand.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               Our partnerships team handles menu curation, chef matching, styling, shoot timing, and usage rights. You bring your voice and audience; we bring the culinary production value that makes every post stand out.

@@ -116,7 +116,7 @@ const faqs = [
 const relatedServices = [
   {
     title: 'Become a myCHEF',
-    description: 'Join our vetted chef network and access private dining opportunities across Dubai.',
+    description: 'Join our professional chefs and access private dining opportunities across Dubai.',
     image: '/images/become-a-mychef-dubai-hero.webp',
     link: '/become-a-mychef',
   },
@@ -128,7 +128,7 @@ const relatedServices = [
   },
   {
     title: 'How We Vet Partner Chefs',
-    description: 'Discover the interview, tasting, and background-check process behind every chef in our network.',
+    description: 'Discover the interview, tasting, and background-check process behind every our chef.',
     image: '/images/how-we-vet-our-chefs-dubai-hero.webp',
     link: '/how-we-vet-our-chefs',
   },

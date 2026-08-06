@@ -230,7 +230,7 @@ export default function VenuePartners() {
             <p className="reveal font-inter text-body text-gray-400">
               Our venue partner program brings together the best locations in Dubai with bespoke culinary
               experiences. Whether you are a yacht charter, a luxury villa manager, a hotel events team, or a
-              corporate venue, we match you with a vetted chef you engage and catering services that elevate every guest
+              corporate venue, we bring you a vetted chef you engage and catering services that elevate every guest
               experience.
             </p>
             <p className="reveal font-inter text-body-sm text-gray-500 mt-4">
@@ -321,7 +321,7 @@ export default function VenuePartners() {
               <span className="text-gold">myCHEF Venue Partner?</span>
             </h2>
             <p className="font-inter text-lg text-gray-400 max-w-[600px] mx-auto mb-10">
-              Join our network of leading Dubai venues and offer your guests an unforgettable private chef experience.
+              Joon our team of leading Dubai venues and offer your guests an unforgettable private chef experience.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link

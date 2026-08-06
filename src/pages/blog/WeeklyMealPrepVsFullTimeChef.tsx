@@ -226,7 +226,7 @@ export default function WeeklyMealPrepVsFullTimeChef() {
           <section className="article-section opacity-0 translate-y-8 mb-12">
             <h2 className="font-playfair text-h2 text-black mb-5">Vetting, Insurance, and Peace of Mind</h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
-              Hiring a private chef directly means you are responsible for background checks, food-safety credentials, and liability coverage. Through a platform like myCHEF Dubai, chefs are auditioned in person, reference-checked, and verified for food-safety competency before they ever enter a client home. Every booking also includes booking protection and insurance coverage.
+              Hiring a private chef directly means you are responsible for background checks, food-safety credentials, and liability coverage. Through a full-service company like myCHEF Dubai, chefs are auditioned in person, reference-checked, and verified for food-safety competency before they ever enter a client home. Every booking also includes our booking protection.
             </p>
             <p className="font-inter text-body text-gray-500 leading-relaxed">
               That layer of verification is especially important if you travel often, have children at home, or host guests regularly.

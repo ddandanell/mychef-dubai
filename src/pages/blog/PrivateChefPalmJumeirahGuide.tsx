@@ -305,7 +305,7 @@ export default function PrivateChefPalmJumeirahGuide() {
           <section className="article-cta opacity-0 translate-y-8 bg-cream p-8 md:p-12 text-center">
             <h2 className="font-playfair text-h3 text-black mb-4">Ready to Book a Private Chef in Palm Jumeirah?</h2>
             <p className="font-inter text-body text-gray-500 max-w-[600px] mx-auto mb-8">
-              Tell us about your occasion, guest count, and menu preferences. We will match you with a vetted chef and send a custom quote within one business day.
+              Tell us about your occasion, guest count, and menu preferences. We will bring you a vetted chef and send a custom quote within one business day.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Link to={CTA_HREF} className="btn-primary">Request a Custom Quote</Link>

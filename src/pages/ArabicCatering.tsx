@@ -72,7 +72,7 @@ const useCases = [
   },
   {
     title: 'Majlis & Villa Gatherings',
-    description: 'For family majlis evenings and villa celebrations, the chefs in our network recreates the warmth of a home feast — charcoal grills, sharing platters, and abundant mezze served the way hospitality demands.',
+    description: 'For family majlis evenings and villa celebrations, our chefs recreates the warmth of a home feast — charcoal grills, sharing platters, and abundant mezze served the way hospitality demands.',
   },
   {
     title: 'Iftar & Ramadan Events',
@@ -328,7 +328,7 @@ export default function ArabicCatering() {
             Arabic cuisine is built on generosity — a table that overflows, dishes meant to be shared, and the unhurried ritual of breaking bread together. It begins with mezze: hummus, moutabal, tabbouleh, vine leaves, and warm flatbread arriving in abundance. It builds through smoky charcoal grills and slow-cooked classics, and it closes with kunafa, baklava, and cardamom-scented Arabic coffee. At myCHEF Dubai, your chef prepares this cuisine the way it is meant to be served — warm, plentiful, and rooted in tradition.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Spanning Emirati specialities like machboos and harees, Levantine grills and fatteh, and showpiece dishes such as a carved whole-lamb ouzi, our menus are shaped by <Link to="/chefs/layla-middle-eastern-chef" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Chef Layla, Middle Eastern chef</Link>, and suit weddings, majlis evenings, iftar gatherings, and corporate functions alike. Halal sourcing is the baseline, vegetarian and vegan mezze are plentiful, and the chefs in our network handle the styling, service, and pack-down — see how it fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>. For related flavours, explore our <Link to="/mediterranean-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Mediterranean catering</Link> and <Link to="/halal-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">halal catering</Link> menus.
+            Spanning Emirati specialities like machboos and harees, Levantine grills and fatteh, and showpiece dishes such as a carved whole-lamb ouzi, our menus are shaped by <Link to="/chefs/layla-middle-eastern-chef" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Chef Layla, Middle Eastern chef</Link>, and suit weddings, majlis evenings, iftar gatherings, and corporate functions alike. Halal sourcing is the baseline, vegetarian and vegan mezze are plentiful, and our chefs handle the styling, service, and pack-down — see how it fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>. For related flavours, explore our <Link to="/mediterranean-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Mediterranean catering</Link> and <Link to="/halal-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">halal catering</Link> menus.
           </p>
         </div>
       </section>

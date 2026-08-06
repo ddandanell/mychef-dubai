@@ -94,7 +94,7 @@ const faqs = [
   },
   {
     q: 'Do I need to provide kitchen equipment?',
-    a: 'No. Chefs in our network work with what is available in your villa. If a specific menu requires special equipment, we will discuss it during the pre-arrival briefing.',
+    a: 'No. Chefs on our team work with what is available in your villa. If a specific menu requires special equipment, we will discuss it during the pre-arrival briefing.',
   },
   {
     q: 'Can the chef cater to children or picky eaters?',
@@ -250,7 +250,7 @@ export default function TouristVillaChef() {
           </h2>
           <div className="tvc-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Tell us your villa location, travel dates, and group size, and we will match you with a vetted private chef within 24 hours. Our tourist villa chef service gives visitors a curated multi-day dining programme — a private chef shops, cooks, serves, and cleans so you can spend your holiday actually on holiday.
+              Tell us your villa location, travel dates, and group size, and we will bring you a vetted private chef within 24 hours. Our tourist villa chef service gives visitors a curated multi-day dining programme — a private chef shops, cooks, serves, and cleans so you can spend your holiday actually on holiday.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               Menus move through Dubai's best culinary influences and culminate in an Arabic feast that feels like the perfect farewell. We coordinate with villa rental agencies, concierges, and property managers so access and timing are seamless.

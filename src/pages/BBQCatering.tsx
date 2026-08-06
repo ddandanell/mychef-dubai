@@ -48,7 +48,7 @@ const bbqFormats = [
   {
     icon: Home,
     title: 'Villa & Garden BBQ',
-    description: 'Full-service grilling for villa terraces, gardens, and rooftops across Dubai, with setup, live cooking, and cleanup all handled by the chefs in our network.',
+    description: 'Full-service grilling for villa terraces, gardens, and rooftops across Dubai, with setup, live cooking, and cleanup all handled by our chefs.',
     link: '/catering-dubai',
   },
   {
@@ -68,7 +68,7 @@ const bbqFormats = [
 const includedItems = [
   { title: 'Live Grilling Stations', description: 'Professional grill setup and partner-chef-led cooking throughout your event.' },
   { title: 'Premium Meats & Seafood', description: 'Quality cuts, marinated proteins, and fresh seafood prepared to order.' },
-  { title: 'Marinades & Rubs', description: 'House marinades, spice rubs, and sauces developed by the chefs in our network.' },
+  { title: 'Marinades & Rubs', description: 'House marinades, spice rubs, and sauces developed by our chefs.' },
   { title: 'Sides, Salads & Mezze', description: 'A generous spread of hot sides, fresh salads, breads, and dips.' },
   { title: 'Professional Service Staff', description: 'Grill chefs, servers, and hosts scaled to your guest count.' },
   { title: 'Equipment & Setup', description: 'We bring the grills, stations, tableware, and everything needed on site.' },
@@ -142,7 +142,7 @@ const faqs = [
   },
   {
     q: 'How many guests can you cater a BBQ for?',
-    a: 'We grill for intimate gatherings of around 10 guests up to large celebrations of several hundred. The chefs in our network scale the number of grill chefs and stations to match your event size.',
+    a: 'We grill for intimate gatherings of around 10 guests up to large celebrations of several hundred. Our chefs scale the number of grill chefs and stations to match your event size.',
   },
   {
     q: 'How far in advance should I book BBQ catering?',
@@ -329,7 +329,7 @@ export default function BBQCatering() {
             There is something timeless about food cooked over fire — the sound of the grill, the aroma drifting across the terrace, the moment guests gather while a chef plates a perfectly charred cut. At myCHEF Dubai, our BBQ catering turns that simple pleasure into a polished, full-service experience, designed around your venue and your guests.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Grill chefs in our network work live at your event, cooking premium steaks, lamb, marinated chicken, gourmet burgers, and fresh seafood to order. Around the grill we build a generous spread of mezze, salads, hot sides, and house sauces, so every guest finds something they love. Whether it is a relaxed villa gathering, a yacht charter, or a corporate celebration, we bring the stations, the staff, and the styling to you. Explore our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>, or speak to us directly to start planning your menu.
+            Grill our chefs work live at your event, cooking premium steaks, lamb, marinated chicken, gourmet burgers, and fresh seafood to order. Around the grill we build a generous spread of mezze, salads, hot sides, and house sauces, so every guest finds something they love. Whether it is a relaxed villa gathering, a yacht charter, or a corporate celebration, we bring the stations, the staff, and the styling to you. Explore our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>, or speak to us directly to start planning your menu.
           </p>
         </div>
       </section>

@@ -154,7 +154,7 @@ const locations = [
 const faqs = [
   {
     q: 'Do you offer private cooking classes at home in Dubai?',
-    a: 'Yes. The chefs in our network come to your villa, apartment, or venue with ingredients and equipment for a fully private cooking class.',
+    a: 'Yes. Our chefs come to your villa, apartment, or venue with ingredients and equipment for a fully private cooking class.',
   },
   {
     q: 'Are cooking classes suitable for beginners?',

@@ -223,7 +223,7 @@ export default function MysteryDining() {
             Mystery Dining Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 md-hero-sub">
-            Tell us what excites your palate and any dietary boundaries. We will match you with a vetted private chef who designs a surprise menu around your tastes, delivered in your home, apartment, or villa within 24 hours.
+            Tell us what excites your palate and any dietary boundaries. We will bring you a vetted private chef who designs a surprise menu around your tastes, delivered in your home, apartment, or villa within 24 hours.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 md-hero-cta">Plan My Mystery Dinner</Link>
@@ -253,7 +253,7 @@ export default function MysteryDining() {
           </h2>
           <div className="md-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Tell us about your event and we will match you with a vetted private chef within 24 hours. You share what excites your palate and what must stay off the plate; the chef designs a surprise menu around those boundaries so every course lands as a discovery.
+              Tell us about your event and we will bring you a vetted private chef within 24 hours. You share what excites your palate and what must stay off the plate; the chef designs a surprise menu around those boundaries so every course lands as a discovery.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               The result is a relaxed, conversational dinner where guests arrive curious and leave impressed. It works equally well for romantic date nights, small group celebrations, and diners who want a tasting-menu experience without leaving their home or villa.

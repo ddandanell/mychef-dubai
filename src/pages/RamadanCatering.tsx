@@ -90,7 +90,7 @@ const useCases = [
   },
   {
     title: 'Large & Community Evenings',
-    description: 'For sizeable gatherings, charity iftars, and community evenings, the chefs in our network scale menus and service while keeping quality consistent from the first guest to the last, however large the room.',
+    description: 'For sizeable gatherings, charity iftars, and community evenings, our chefs scale menus and service while keeping quality consistent from the first guest to the last, however large the room.',
   },
 ]
 
@@ -322,7 +322,7 @@ export default function RamadanCatering() {
             Ramadan is a season of gathering — of breaking the fast together at Maghrib and sharing quiet suhoor before the day begins. At myCHEF Dubai, we treat the holy month with the care it deserves, bringing generous, halal spreads to homes, majlis, offices, and villas across the city. From the first date and bowl of soup to slow-cooked mains and traditional sweets, every menu is built to honour the occasion and welcome your guests.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Whether you are hosting an intimate family iftar, a corporate function for your team, a community evening, or a late-night suhoor, the chefs in our network and service staff handle the cooking, timing, and pack-down on-site. Explore our Ramadan formats below — from <Link to="/iftar-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">iftar catering</Link> and <Link to="/suhoor-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">suhoor catering</Link> to <Link to="/eid-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Eid feasts</Link> — or see how it fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>. Because the season is in such demand, we recommend booking six to eight weeks ahead.
+            Whether you are hosting an intimate family iftar, a corporate function for your team, a community evening, or a late-night suhoor, our chefs and service staff handle the cooking, timing, and pack-down on-site. Explore our Ramadan formats below — from <Link to="/iftar-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">iftar catering</Link> and <Link to="/suhoor-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">suhoor catering</Link> to <Link to="/eid-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Eid feasts</Link> — or see how it fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>. Because the season is in such demand, we recommend booking six to eight weeks ahead.
           </p>
         </div>
       </section>

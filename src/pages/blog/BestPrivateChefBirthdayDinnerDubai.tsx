@@ -276,7 +276,7 @@ export default function BestPrivateChefBirthdayDinnerDubai() {
           <section className="article-cta opacity-0 translate-y-8 bg-cream p-8 md:p-12 text-center">
             <h2 className="font-playfair text-h3 text-black mb-4">Ready to Plan Your Birthday Dinner?</h2>
             <p className="font-inter text-body text-gray-500 max-w-[600px] mx-auto mb-8">
-              Tell us about your celebration and we will match you with a private chef who can design a menu, handle the service, and leave your kitchen spotless.
+              Tell us about your celebration and we will bring you a private chef who can design a menu, handle the service, and leave your kitchen spotless.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Link to={CTA_HREF} className="btn-primary">Request a Custom Quote</Link>

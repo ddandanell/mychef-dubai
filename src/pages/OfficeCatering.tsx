@@ -21,7 +21,7 @@ import FaqAccordion from '../components/FaqAccordion'
 gsap.registerPlugin(ScrollTrigger)
 
 const WHATSAPP_NUMBER = '971551744849'
-const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to set up office catering for the chefs in our network (via mychef.ae/office-catering-dubai)')
+const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to set up office catering for our chefs (via mychef.ae/office-catering-dubai)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 /* ────────────────────── Data ────────────────────── */
@@ -72,7 +72,7 @@ const includedItems = [
   { title: 'Single Point of Contact', description: 'One account contact who knows your office, preferences, and schedule.' },
   { title: 'Flexible Headcount', description: 'Scale daily covers up or down as your team size and needs change.' },
   { title: 'Predictable Invoicing', description: 'Clear, consolidated billing on a weekly or monthly retainer cycle.' },
-  { title: 'On-Site Set-Up', description: 'Buffet styling, labelling, and tidy pack-down handled by the chefs in our network.' },
+  { title: 'On-Site Set-Up', description: 'Buffet styling, labelling, and tidy pack-down handled by our chefs.' },
   { title: 'Quality Ingredients', description: 'Fresh produce and proteins prepared to a high standard every service.' },
 ]
 

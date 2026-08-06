@@ -25,7 +25,7 @@ const config: OccasionPageConfig = {
         Dubai’s desert is one of the most dramatic places to host a meal. Whether you are planning a private dune dinner, a corporate retreat, a romantic proposal or a Bedouin-style celebration, our desert dining catering travels to the sand. We design menus that feel authentic to the setting — Arabic sharing plates, live grills, fragrant rice dishes and slow-cooked meats — while keeping logistics, safety and guest comfort front of mind.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-        the chefs in our network handle transport, on-site cooking, service styling and pack-down, working with desert camps, event planners and private estates. Explore our{' '}
+        our chefs handle transport, on-site cooking, service styling and pack-down, working with desert camps, event planners and private estates. Explore our{' '}
         <Link to="/arabic-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           Arabic catering Dubai
         </Link>{' '}

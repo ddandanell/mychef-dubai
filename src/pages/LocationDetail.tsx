@@ -239,7 +239,7 @@ export default function LocationDetail() {
             {loc.heroSubtitle}
           </p>
           <p className="font-inter text-base text-gold max-w-[700px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 loc-hero-sub">
-            Tell us your occasion and we will match you with a vetted chef in this area within 24 hours.
+            Tell us your occasion and we will bring you a vetted chef in this area within 24 hours.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=locations-${loc.slug}`} className="btn-primary opacity-0 translate-y-4 loc-hero-cta">

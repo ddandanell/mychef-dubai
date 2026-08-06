@@ -25,7 +25,7 @@ const config: ServicePageConfig = {
         Graduation marks the end of years of hard work and the start of something new. Whether you are planning a school prom after-party, a university graduation lunch, or an intimate family dinner at home, our graduation party catering brings the food, styling and service needed to match the occasion.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        we coordinate catering across Dubai for graduating classes, parent-hosted villa parties, faculty events and mixed-age celebrations. Menus range from relaxed grazing tables and BBQ live stations to elegant plated dinners and themed dessert displays. The chefs in our network handle setup, service and cleanup so graduates and their families can focus on photographs, speeches and making memories.
+        we coordinate catering across Dubai for graduating classes, parent-hosted villa parties, faculty events and mixed-age celebrations. Menus range from relaxed grazing tables and BBQ live stations to elegant plated dinners and themed dessert displays. Our chefs handle setup, service and cleanup so graduates and their families can focus on photographs, speeches and making memories.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
         This service fits naturally within our wider{' '}

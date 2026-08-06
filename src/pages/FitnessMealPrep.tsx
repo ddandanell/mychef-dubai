@@ -83,7 +83,7 @@ const faqs = [
   },
   {
     q: 'What cuisines can be made macro-friendly?',
-    a: 'Almost any. Chefs in our network regularly prepare macro-balanced Middle Eastern, Mediterranean, Asian, Indian, and Western meals. We adapt recipes rather than strip them of flavour.',
+    a: 'Almost any. Chefs on our team regularly prepare macro-balanced Middle Eastern, Mediterranean, Asian, Indian, and Western meals. We adapt recipes rather than strip them of flavour.',
   },
   {
     q: 'How much does fitness meal prep cost?',
@@ -231,7 +231,7 @@ export default function FitnessMealPrep() {
           </h2>
           <div className="fm-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Dubai's fitness culture is serious. Whether you are training for a competition, working through a transformation, or simply want your nutrition to match your discipline, the right meal prep is the lever that makes everything else easier. Tell us about your goals, training schedule, and household and we will match you with a vetted private chef within 24 hours.
+              Dubai's fitness culture is serious. Whether you are training for a competition, working through a transformation, or simply want your nutrition to match your discipline, the right meal prep is the lever that makes everything else easier. Tell us about your goals, training schedule, and household and we will bring you a vetted private chef within 24 hours.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               Our fitness meal prep service pairs you with a private chef who prepares macro-calculated meals in your own kitchen. No more weighing food, no more bland containers, no more falling off plan because the healthy option was too hard to find. If you need broader nutritionist-aligned support, explore our <Link to="/wellness-meal-prep-dubai" className="text-gold hover:underline">Wellness Meal Prep</Link> programme.

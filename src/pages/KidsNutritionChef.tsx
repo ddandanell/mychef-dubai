@@ -93,7 +93,7 @@ const packages = [
 const faqs = [
   {
     q: 'Can menus accommodate allergies and intolerances?',
-    a: 'Yes. We design around allergies, intolerances, and religious dietary requirements. Chefs in our network follow strict cross-contamination protocols and label every container clearly.',
+    a: 'Yes. We design around allergies, intolerances, and religious dietary requirements. Chefs on our team follow strict cross-contamination protocols and label every container clearly.',
   },
   {
     q: 'Do you handle picky eaters?',
@@ -253,7 +253,7 @@ export default function KidsNutritionChef() {
           </h2>
           <div className="kn-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Give your children balanced, home-style meals they actually want to eat — and get your evenings back. Tell us about your household, your children's preferences, and any allergies or dietary goals, and we will match you with a vetted kids nutrition chef within 24 hours to build a plan that fits your family.
+              Give your children balanced, home-style meals they actually want to eat — and get your evenings back. Tell us about your household, your children's preferences, and any allergies or dietary goals, and we will bring you a vetted kids nutrition chef within 24 hours to build a plan that fits your family.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               Whether you need packed lunches for the week, balanced family dinners, or a full meal-prep service, we work around your schedule and your children's needs. Every menu is reviewed with parents, prepared with care, and delivered ready to serve.

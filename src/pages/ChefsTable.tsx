@@ -228,7 +228,7 @@ export default function ChefsTable() {
           </h2>
           <div className="ct-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              A chef's table turns dining into an experience. Guests do not just eat — they watch, learn, and engage as each course is prepared and presented. Tell us about your evening and we will match you with a vetted chef within 24 hours.
+              A chef's table turns dining into an experience. Guests do not just eat — they watch, learn, and engage as each course is prepared and presented. Tell us about your evening and we will bring you a vetted chef within 24 hours.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               We offer two main formats: the classic chef's table, where the chef narrates a multi-course tasting menu, and omakase, where the chef chooses the progression based on the freshest ingredients and your preferences. Both are intimate, memorable, and highly shareable.

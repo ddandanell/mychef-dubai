@@ -252,7 +252,7 @@ export default function LoyaltyProgramme() {
           </h2>
           <div className="lp-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Join the myCHEF Dubai loyalty programme and turn every private chef dinner, catering event, and weekly meal-prep plan into credits, complimentary upgrades, and member-only experiences. Tell us how you like to dine and our concierge team will enrol you and match you with a vetted chef within 24 hours.
+              Join the myCHEF Dubai loyalty programme and turn every private chef dinner, catering event, and weekly meal-prep plan into credits, complimentary upgrades, and member-only experiences. Tell us how you like to dine and our concierge team will enrol you and bring you a vetted chef within 24 hours.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               As you move through Silver, Gold and Platinum tiers, you unlock higher points multipliers, priority booking windows, and invitations to exclusive tastings and previews. There are no hidden fees or complicated rules: just dine well, earn more, and enjoy the perks.

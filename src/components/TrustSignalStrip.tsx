@@ -8,7 +8,7 @@ interface TrustSignalStripProps {
 const signals = [
   {
     icon: Shield,
-    label: 'Booking Protection & Insurance',
+    label: 'Booking Protection',
   },
   {
     icon: CheckCircle,

@@ -80,7 +80,7 @@ const includedItems = [
 const useCases = [
   {
     title: 'Villa Christmas Dinner',
-    description: 'Host a warm family Christmas dinner in Emirates Hills, Palm Jumeirah, or Dubai Hills. The chefs in our network arrive with the ingredients, the roast, and the service to your dining room so everyone can gather around the table.',
+    description: 'Host a warm family Christmas dinner in Emirates Hills, Palm Jumeirah, or Dubai Hills. Our chefs arrive with the ingredients, the roast, and the service to your dining room so everyone can gather around the table.',
   },
   {
     title: 'Corporate Christmas Party',
@@ -101,7 +101,7 @@ const howItWorks = [
   { step: '02', title: 'Menu Consultation', description: 'We propose a festive menu with roast options, sides, desserts, and drinks tailored to your group.' },
   { step: '03', title: 'Receive a Proposal', description: 'You receive a clear, itemised proposal covering food, staffing, styling, and service for the event.' },
   { step: '04', title: 'Confirm Your Booking', description: 'Once the menu and details are approved, we lock in your date and finalise logistics.' },
-  { step: '05', title: 'Chef & Team Arrive', description: 'the chefs in our network and service team arrive with ingredients, equipment, and everything needed to prepare the meal.' },
+  { step: '05', title: 'Chef & Team Arrive', description: 'our chefs and service team arrive with ingredients, equipment, and everything needed to prepare the meal.' },
   { step: '06', title: 'Serve, Celebrate & Clear', description: 'We serve your guests, manage the kitchen, and clear down afterwards so you can simply enjoy the day.' },
 ]
 
@@ -302,7 +302,7 @@ export default function ChristmasCatering() {
             Christmas in Dubai is a special time of year. With cooler evenings, twinkling city lights, and a community that loves to gather, many families and companies choose to host festive celebrations at home, in the office, or on a private terrace. At myCHEF Dubai, our Christmas catering service brings the seasonal spirit to your table with traditional flavours, modern presentation, and full-service hospitality.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            From roasted turkey and honey-glazed ham to vegetarian festive mains and styled dessert tables, we design menus that suit your guest list, venue, and celebration style. Every detail is handled by the chefs in our network, so you can focus on the people around you. Explore our Christmas catering options below, or see how they fit within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
+            From roasted turkey and honey-glazed ham to vegetarian festive mains and styled dessert tables, we design menus that suit your guest list, venue, and celebration style. Every detail is handled by our chefs, so you can focus on the people around you. Explore our Christmas catering options below, or see how they fit within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
           </p>
         </div>
       </section>
@@ -317,7 +317,7 @@ export default function ChristmasCatering() {
             Celebrations for Every Kind of Host
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Our Christmas catering is designed for Dubai hosts who want a festive meal without the stress of cooking and cleanup. Families gathering for Christmas Eve or Christmas Day, companies hosting end-of-year parties, villa owners entertaining friends, and expat groups celebrating away from home all use our service. We also cater Christmas brunches, corporate gift-lunch events, and private yacht celebrations during the holiday season. Whether your group is small and intimate or spans fifty guests, the chefs in our network adapt the menu, staffing, and format to match the occasion.
+            Our Christmas catering is designed for Dubai hosts who want a festive meal without the stress of cooking and cleanup. Families gathering for Christmas Eve or Christmas Day, companies hosting end-of-year parties, villa owners entertaining friends, and expat groups celebrating away from home all use our service. We also cater Christmas brunches, corporate gift-lunch events, and private yacht celebrations during the holiday season. Whether your group is small and intimate or spans fifty guests, our chefs adapt the menu, staffing, and format to match the occasion.
           </p>
         </div>
       </section>
@@ -413,7 +413,7 @@ export default function ChristmasCatering() {
             Festive Hospitality, Delivered to Your Door
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            At myCHEF Dubai, we bring the full restaurant experience to your Christmas celebration. The chefs in our network and event team are available for Dubai events in private villas, homes, offices, and event spaces, designing menus that reflect both tradition and your personal taste.
+            At myCHEF Dubai, we bring the full restaurant experience to your Christmas celebration. Our chefs and event team are available for Dubai events in private villas, homes, offices, and event spaces, designing menus that reflect both tradition and your personal taste.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             We never use fixed, one-size-fits-all menus. Instead, we listen to your plans and build a custom proposal that covers food, drinks, service, and styling. Menus can be adapted to guest count, dietary needs, and event style, so your Christmas celebration feels considered, personal, and effortless from start to finish.

@@ -79,7 +79,7 @@ const faqs = [
   },
   {
     q: 'Is the chef employed by myCHEF or by me?',
-    a: 'Chefs are independent culinary professionals in our vetted network. MyCHEF matches, coordinates, and manages quality assurance. Employment or freelance contracting terms are agreed transparently between you and the chef, with our support.',
+    a: 'Chefs are independent culinary professionals in our professional team. MyCHEF matches, coordinates, and manages quality assurance. Employment or freelance contracting terms are agreed transparently between you and the chef, with our support.',
   },
   {
     q: 'Can I try a part-time chef before committing?',
@@ -229,7 +229,7 @@ export default function PartTimePrivateChef() {
           </h2>
           <div className="pt-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Get reliable, restaurant-quality cooking at home without the cost of a full-time chef. Tell us about your household size, schedule, and dietary preferences, and we will match you with a vetted chef who fits your rhythm — usually within 24 hours.
+              Get reliable, restaurant-quality cooking at home without the cost of a full-time chef. Tell us about your household size, schedule, and dietary preferences, and we will bring you a vetted chef who fits your rhythm — usually within 24 hours.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               This is the highest-LTV segment in the private chef market. Families who book a chef 2–3 times per week generate predictable, recurring revenue and build long-term relationships with one trusted cook.
@@ -340,7 +340,7 @@ export default function PartTimePrivateChef() {
             Find Your Part-Time Chef
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Tell us your schedule, household size, and dietary needs. We will match you with a vetted chef who fits your rhythm and your budget.
+            Tell us your schedule, household size, and dietary needs. We will bring you a vetted chef who fits your rhythm and your budget.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Find a Part-Time Chef</Link>

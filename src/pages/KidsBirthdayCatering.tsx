@@ -97,7 +97,7 @@ const config: OccasionPageConfig = {
     {
       title: 'Themed Celebrations',
       description:
-        'From unicorn tea parties to football-themed lunches, the chefs in our network and styling team can match colours, shapes and flavours to the birthday theme without sacrificing food quality.',
+        'From unicorn tea parties to football-themed lunches, our chefs and styling team can match colours, shapes and flavours to the birthday theme without sacrificing food quality.',
     },
   ],
   includedH2: "What's Included in Our Kids Birthday Catering",
@@ -140,7 +140,7 @@ const config: OccasionPageConfig = {
     },
     {
       q: 'Do you handle setup and cleanup at the venue?',
-      a: 'Yes. The chefs in our network arrive early to set up, serves during the party, and packs everything away afterwards. You just need to enjoy the celebration.',
+      a: 'Yes. Our chefs arrive early to set up, serves during the party, and packs everything away afterwards. You just need to enjoy the celebration.',
     },
     {
       q: 'How far in advance should I book kids birthday catering?',

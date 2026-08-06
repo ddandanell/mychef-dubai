@@ -321,7 +321,7 @@ export default function EngagementCatering() {
             An engagement party is a chance to gather the people who matter most and celebrate the start of something new. Whether you are hosting an intimate dinner for close family or a larger reception for friends, the catering sets the tone for the evening. Our engagement party catering brings refined plated dinners, sophisticated canape receptions, and beautifully styled dessert tables to your chosen venue across Dubai.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Each menu is designed around your taste, your theme, and your guest list, with elegant table styling, attentive service, and a polished bar to mark every toast. The chefs in our network handle the setup, serves throughout, and clears it all away, available for Dubai celebrations of every size. Explore our wider{' '}
+            Each menu is designed around your taste, your theme, and your guest list, with elegant table styling, attentive service, and a polished bar to mark every toast. Our chefs handle the setup, serves throughout, and clears it all away, available for Dubai celebrations of every size. Explore our wider{' '}
             <Link to="/catering-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">catering in Dubai</Link>{' '}
             or request a{' '}
             <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=engagement-catering-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">Request a Proposal</Link>.

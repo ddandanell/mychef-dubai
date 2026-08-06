@@ -323,7 +323,7 @@ export default function BirthdayCatering() {
             Every birthday deserves to feel like an occasion. At myCHEF Dubai, we design birthday catering around the guest of honour — their age, their theme, and the people gathered to celebrate them. From a child’s playful first party to a glamorous milestone evening, we bring the menu, the cake, the styling, and the service, so the host gets to enjoy the day as much as everyone else.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Whether you are planning an intimate family lunch, a lively kids’ party, or a polished milestone celebration in your villa, the chefs in our network handle every detail from concept to clear-down. Explore our birthday services below, or see how they fit within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
+            Whether you are planning an intimate family lunch, a lively kids’ party, or a polished milestone celebration in your villa, our chefs handle every detail from concept to clear-down. Explore our birthday services below, or see how they fit within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mt-5">
             Looking for inspiration? Read our guide to the <Link to="/blog/best-private-chef-birthday-dinner-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">best private chef birthday dinner in Dubai</Link>.

@@ -25,7 +25,7 @@ const config: OccasionPageConfig = {
         UAE National Day is one of the most joyful occasions in Dubai — a time to come together, honour heritage and celebrate progress. Whether you are hosting an intimate family gathering, a villa party for friends or a corporate reception for colleagues, our National Day catering service brings the flavours of the Emirates to your chosen setting. We combine traditional Emirati dishes with contemporary presentation, so every buffet feels both rooted and refined.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        the chefs in our network design menus around your guest list, venue and schedule. Expect slow-cooked lamb ouzi, fragrant machboos, freshly baked khameer, date-based desserts and live shawarma or kebab stations that draw guests in. we design and manage the experience from setup and service to cleanup, leaving you free to enjoy the fireworks, music and company.
+        our chefs design menus around your guest list, venue and schedule. Expect slow-cooked lamb ouzi, fragrant machboos, freshly baked khameer, date-based desserts and live shawarma or kebab stations that draw guests in. we design and manage the experience from setup and service to cleanup, leaving you free to enjoy the fireworks, music and company.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
         we coordinate catering for UAE National Day events across Dubai, from Palm Jumeirah villas and Emirates Hills homes to Downtown offices and desert camps. Pair this with our{' '}

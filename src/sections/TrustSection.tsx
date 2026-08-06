@@ -73,7 +73,7 @@ export default function TrustSection() {
             Why book a private chef or caterer in Dubai with myCHEF?
           </h2>
           <p className="font-inter text-base text-gray-400 leading-[1.7] mb-10 max-w-lg">
-            Founded by a team with deep roots in luxury hospitality, myCHEF Dubai connects you with Dubai&apos;s most talented culinary artists — every chef handpicked, every experience designed and delivered with discretion. One point of contact. One standard of selection.
+            Founded by a team with deep roots in luxury hospitality, myCHEF Dubai brings you Dubai&apos;s most talented culinary artists — every chef carefully selected, every experience designed and delivered with discretion. One point of contact. One standard of selection.
           </p>
 
           {/* Trust Badges */}

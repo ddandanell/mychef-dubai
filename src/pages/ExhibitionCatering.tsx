@@ -139,7 +139,7 @@ const config: ServicePageConfig = {
     },
     {
       q: 'Do you provide staff for exhibition stands?',
-      a: 'Yes. we match you with a vetted chef you engage, baristas and service staff who understand the pace of exhibition service and can engage professionally with your visitors.',
+      a: 'Yes. we bring you a vetted chef you engage, baristas and service staff who understand the pace of exhibition service and can engage professionally with your visitors.',
     },
     {
       q: 'Can you handle dietary requirements for a large crowd?',

@@ -126,11 +126,11 @@ const faqs = [
   },
   {
     q: 'What cuisines can your chefs prepare?',
-    a: 'the chefs in our network specialize in European fine dining, Mediterranean, Middle Eastern, Asian fusion, seafood-focused menus, and modern international cuisine. Every menu is customized to your preferences.',
+    a: 'our chefs specialize in European fine dining, Mediterranean, Middle Eastern, Asian fusion, seafood-focused menus, and modern international cuisine. Every menu is customized to your preferences.',
   },
   {
     q: 'Do I need special kitchen equipment?',
-    a: 'No. The chefs in our network bring all necessary equipment. We only need access to your kitchen and basic utilities.',
+    a: 'No. Our chefs bring all necessary equipment. We only need access to your kitchen and basic utilities.',
   },
   {
     q: 'How long does a private chef dinner take?',
@@ -138,7 +138,7 @@ const faqs = [
   },
   {
     q: 'Is the service discreet?',
-    a: 'Absolutely. Discretion is a core value at myCHEF Dubai. The chefs in our network operate with complete professionalism and confidentiality.',
+    a: 'Absolutely. Discretion is a core value at myCHEF Dubai. Our chefs operate with complete professionalism and confidentiality.',
   },
   {
     q: 'What is included in the price of a private chef?',
@@ -146,11 +146,11 @@ const faqs = [
   },
   {
     q: 'Are your private chefs licensed and food-safety certified in Dubai?',
-    a: 'Yes. The chefs and kitchens in our network operate to Dubai Municipality food-safety requirements, and our vetting covers identity checks, a practical cooking assessment, reference verification and food-handler training. We match each booking to a chef suited to it, so you get verified, professional service rather than an anonymous freelancer.',
+    a: 'Yes. The chefs and kitchens on our team operate to Dubai Municipality food-safety requirements, and our vetting covers identity checks, a practical cooking assessment, reference verification and food-handler training. We match each booking to a chef suited to it, so you get verified, professional service rather than an anonymous freelancer.',
   },
   {
     q: 'Do you cook halal, and can you work in a halal kitchen?',
-    a: 'Yes. We source halal ingredients by default and the chefs in our network are experienced working in halal households and kitchens, keeping utensils and preparation separated to your standards. Just let us know your requirements when you enquire.',
+    a: 'Yes. We source halal ingredients by default and our chefs are experienced working in halal households and kitchens, keeping utensils and preparation separated to your standards. Just let us know your requirements when you enquire.',
   },
   {
     q: 'Can you accommodate allergies and diets like vegan, vegetarian or gluten-free?',
@@ -194,7 +194,7 @@ const faqs = [
   },
   {
     q: 'Can I book a private chef regularly or for weekly meal prep?',
-    a: 'Yes. Beyond one-off dinners, the chefs in our network offer [weekly meal prep](/weekly-meal-prep-dubai) and part-time or full-time private chef arrangements for households that want consistent, tailored cooking. Tell us your routine and we will match a chef and cadence.',
+    a: 'Yes. Beyond one-off dinners, our chefs offer [weekly meal prep](/weekly-meal-prep-dubai) and part-time or full-time private chef arrangements for households that want consistent, tailored cooking. Tell us your routine and we will match a chef and cadence.',
   },
   {
     q: 'How much should I tip a private chef in Dubai?',
@@ -345,7 +345,7 @@ export default function PrivateChef() {
       {/* ═══════════════ Section 1: Hero ═══════════════ */}
       <PageHero
         title="Hire a Private Chef in Dubai"
-        subtitle="Tell us about your event and we will match you with a vetted private chef. We reply within 15 minutes during business hours. Fully bespoke menus, prepared in your home or villa, with service and cleanup included."
+        subtitle="Tell us about your event and we will bring you a vetted private chef. We reply within 15 minutes during business hours. Fully bespoke menus, prepared in your home or villa, with service and cleanup included."
         image="/images/private-chef-dubai-hero.webp"
         imageAlt="Private chef preparing a meal in Dubai"
         cta={{ label: 'Request a Private Chef Quote', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=private-chef-dubai' }}

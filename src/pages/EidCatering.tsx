@@ -90,7 +90,7 @@ const useCases = [
   },
   {
     title: 'Large Eid Celebrations',
-    description: 'For sizeable Eid celebrations and extended-family feasts, the chefs in our network scale menus and service while keeping quality and presentation consistent, however many guests gather around the table.',
+    description: 'For sizeable Eid celebrations and extended-family feasts, our chefs scale menus and service while keeping quality and presentation consistent, however many guests gather around the table.',
   },
 ]
 
@@ -322,7 +322,7 @@ export default function EidCatering() {
             Eid is a time of abundance, gratitude, and gathering — and the table sits at the heart of it. At myCHEF Dubai, we bring generous, halal feasts to homes, villas, and majlis across the city for both Eid al-Fitr and Eid al-Adha. From mezze and mixed grills to showstopping ouzi and whole-lamb roasts carved at the table, every menu is built to celebrate the occasion and welcome the people you love.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Whether you are hosting an intimate family gathering or a large extended-family feast, the chefs in our network cook on-site and our service team handle the service and pack-down, so the hosts can enjoy the day too. Eid follows our wider <Link to="/ramadan-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Ramadan catering in Dubai</Link>, draws on our <Link to="/arabic-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Arabic catering</Link> menus, finishes with a <Link to="/dessert-table-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">dessert table</Link> of traditional sweets, and fits within our <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>. Because demand around Eid is high, we recommend booking six to eight weeks ahead.
+            Whether you are hosting an intimate family gathering or a large extended-family feast, our chefs cook on-site and our service team handle the service and pack-down, so the hosts can enjoy the day too. Eid follows our wider <Link to="/ramadan-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Ramadan catering in Dubai</Link>, draws on our <Link to="/arabic-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Arabic catering</Link> menus, finishes with a <Link to="/dessert-table-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">dessert table</Link> of traditional sweets, and fits within our <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>. Because demand around Eid is high, we recommend booking six to eight weeks ahead.
           </p>
         </div>
       </section>

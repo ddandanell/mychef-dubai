@@ -43,7 +43,7 @@ const contactCards = [
 const trustItems = [
   'Bespoke menus designed for every client',
   'Premium ingredients sourced daily',
-  'Vetted, experienced chefs in our network',
+  'Vetted, experienced our chefs',
   'Full service including setup and cleanup',
   'Available across all Dubai locations',
   'Discreet, confidential service',
@@ -297,7 +297,7 @@ export default function Contact() {
         <div className="contact-final-cta container-custom text-center">
           <h3 className="font-playfair text-fluid-h3 text-white mb-4">Ready to Start Planning?</h3>
           <p className="font-inter text-body text-gray-400 max-w-lg mx-auto mb-8">
-            Tell us your occasion and we will match you with a vetted chef within 24 hours.
+            Tell us your occasion and we will bring you a vetted chef within 24 hours.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link

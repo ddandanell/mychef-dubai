@@ -51,7 +51,7 @@ export default function ChefProfile({ chef }: ChefProfileProps) {
 
   const breadcrumbs = [
     { name: 'Home', path: '/' },
-    { name: 'The Chefs in Our Network', path: '/our-chefs' },
+    { name: 'Our Chefs', path: '/our-chefs' },
     { name: chef.name, path: chef.slug },
   ]
 
@@ -184,7 +184,7 @@ export default function ChefProfile({ chef }: ChefProfileProps) {
         imageAlt={chef.imageAlt}
         breadcrumb={[
           { label: 'Home', href: '/' },
-          { label: 'The Chefs in Our Network', href: '/our-chefs' },
+          { label: 'Our Chefs', href: '/our-chefs' },
           { label: chef.name },
         ]}
         cta={{ label: `Request ${firstName}`, href: inquiryLink }}

@@ -69,10 +69,10 @@ export default function TeamSection() {
               Who cooks at a myCHEF Dubai experience?
             </h2>
             <p className="font-inter text-base text-gray-400 leading-[1.7] mb-4 max-w-lg">
-              The chefs in our network bring decades of experience from respected European and international kitchens to Dubai&apos;s most distinguished homes — every menu designed with precision, every plate telling a story.
+              Our chefs bring decades of experience from respected European and international kitchens to Dubai&apos;s most distinguished homes — every menu designed with precision, every plate telling a story.
             </p>
             <p className="font-inter text-base text-gray-400 leading-[1.7] mb-8 max-w-lg">
-              Every chef, sous chef, pastry specialist, and service professional in our network is independent, handpicked and vetted before they ever cook for a myCHEF client.
+              Every chef, sous chef, pastry specialist, and service professional on our team is independent, carefully selected and vetted before they ever cook for a myCHEF client.
             </p>
             <Link to="/our-chefs" className="btn-secondary inline-flex self-start focus-visible:ring-offset-black">
               Our Culinary Network

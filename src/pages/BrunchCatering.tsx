@@ -81,7 +81,7 @@ const howItWorks = [
   { title: 'Share Your Brunch Vision', description: 'Tell us the date, guest count, location in Dubai, and whether you want a relaxed villa brunch or a structured morning event.' },
   { title: 'Receive a Custom Menu', description: 'We propose a bespoke brunch menu with dishes, drinks, and service style tailored to your preferences.' },
   { title: 'Confirm the Details', description: 'Once the menu and staffing plan are approved, we confirm your booking and schedule the team.' },
-  { title: 'We Source Fresh Ingredients', description: 'the chefs in our network shop for seasonal produce, bakery items, eggs, dairy, coffee, and any speciality ingredients.' },
+  { title: 'We Source Fresh Ingredients', description: 'our chefs shop for seasonal produce, bakery items, eggs, dairy, coffee, and any speciality ingredients.' },
   { title: 'Arrive & Prepare On-Site', description: 'Chefs and hosts arrive early to set up the table, prepare dishes, and brew coffee before guests arrive.' },
   { title: 'Serve, Enjoy & Clean Up', description: 'We serve your brunch, refill stations, and clear everything away so your morning ends as easily as it began.' },
 ]
@@ -335,7 +335,7 @@ export default function BrunchCatering() {
             A great brunch sets the tone for the entire day. At myCHEF Dubai, we design brunch and breakfast catering that feels relaxed, abundant, and completely effortless. From a slow weekend gathering at your villa to a polished corporate breakfast before a big meeting, we bring the menu, a partner chef, and the service to you.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Our brunch menus are built around fresh, seasonal ingredients and your personal tastes. Whether you want healthy bowls and fresh juice or eggs Benedict and pastries, we create a spread that suits the occasion. Every detail — from the coffee to the clear-down — is handled by the chefs in our network.
+            Our brunch menus are built around fresh, seasonal ingredients and your personal tastes. Whether you want healthy bowls and fresh juice or eggs Benedict and pastries, we create a spread that suits the occasion. Every detail — from the coffee to the clear-down — is handled by our chefs.
           </p>
         </div>
       </section>
@@ -490,10 +490,10 @@ export default function BrunchCatering() {
             </h2>
             <div className="space-y-5">
               <p className="font-inter text-body-lg text-gray-400 leading-relaxed">
-                Brunch should feel effortless. We arrive early, set the table, prepare every dish fresh, and serve with warmth so you can focus on your guests. The chefs in our network are experienced in both relaxed villa mornings and structured corporate events, which means the same attention to detail whether you are hosting six people or sixty.
+                Brunch should feel effortless. We arrive early, set the table, prepare every dish fresh, and serve with warmth so you can focus on your guests. Our chefs are experienced in both relaxed villa mornings and structured corporate events, which means the same attention to detail whether you are hosting six people or sixty.
               </p>
               <p className="font-inter text-body-lg text-gray-400 leading-relaxed">
-                We source seasonal produce, freshly baked pastries, and quality coffee so the food tastes as good as it looks. Menus are adapted to dietary needs, event style, and guest count, and the chefs in our network handle the entire setup and clear-down so your space is left spotless.
+                We source seasonal produce, freshly baked pastries, and quality coffee so the food tastes as good as it looks. Menus are adapted to dietary needs, event style, and guest count, and our chefs handle the entire setup and clear-down so your space is left spotless.
               </p>
             </div>
           </div>

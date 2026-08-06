@@ -16,7 +16,7 @@ const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}
 
 const values = [
   { icon: Star, title: 'Uncompromising Quality', desc: 'Only chefs who meet our standard, only premium ingredients — we never cut corners.' },
-  { icon: Shield, title: 'Complete Discretion', desc: 'Your privacy is paramount. The chefs and service professionals in our network operate with the utmost professionalism and confidentiality.' },
+  { icon: Shield, title: 'Complete Discretion', desc: 'Your privacy is paramount. The chefs and service professionals on our team operate with the utmost professionalism and confidentiality.' },
   { icon: Heart, title: 'Genuine Hospitality', desc: 'A great dinner is remembered long after the plates are cleared — that feeling is what we design for. Warm, attentive service that makes every guest feel special.' },
   { icon: Clock, title: 'Reliability & Precision', desc: 'On time, every time. Meticulous planning ensures your event runs flawlessly from start to finish.' },
 ]
@@ -125,7 +125,7 @@ export default function About() {
     <div ref={containerRef}>
       <SEO
         title="About myCHEF Dubai"
-        description="Discover myCHEF Dubai — a private-dining house that designs bespoke dining experiences and connects you with handpicked, licensed chefs across Dubai."
+        description="Discover myCHEF Dubai — a private-dining house that designs bespoke dining experiences and brings you professional, licensed chefs across Dubai."
         canonicalPath="/about"
         ogImage="/team-head-chef.webp"
         schema={breadcrumbSchema}
@@ -135,7 +135,7 @@ export default function About() {
       <PageHero
         eyebrow="ABOUT US"
         title="The Story Behind Every Exceptional Meal"
-        subtitle="Tell us your occasion and we will match you with a vetted chef within 24 hours."
+        subtitle="Tell us your occasion and we will bring you a vetted chef within 24 hours."
         image="/images/about-mychef-dubai-hero.webp"
         imageAlt="myCHEF Dubai private dining experience"
         minHeight="medium"
@@ -199,7 +199,7 @@ export default function About() {
           <div className="text-center mb-12 md:mb-16">
             <p className="font-inter text-caption font-medium uppercase tracking-wider text-gold mb-3">THE CHEFS WE CHOOSE</p>
             <h2 className="font-playfair text-fluid-h2 text-white mb-4" style={{ lineHeight: '1.15' }}>The Chefs We Choose</h2>
-            <p className="font-inter text-body text-gray-400 max-w-xl mx-auto">Behind every myCHEF evening is a chef we handpicked — vetted for credentials, licensing and food-safety before they ever cook for a client. We choose the talent. We hold the standard. The artistry is theirs.</p>
+            <p className="font-inter text-body text-gray-400 max-w-xl mx-auto">Behind every myCHEF evening is a chef we carefully selected — vetted for credentials, licensing and food-safety before they ever cook for a client. We choose the talent. We hold the standard. The artistry is theirs.</p>
           </div>
           <div className="team-grid grid md:grid-cols-3 gap-8">
             {team.map((chef) => (

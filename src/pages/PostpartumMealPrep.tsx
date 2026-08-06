@@ -35,7 +35,7 @@ const features = [
   {
     icon: Leaf,
     title: 'Culturally Appropriate Options',
-    description: 'We understand that postpartum nutrition is deeply cultural. Chefs in our network can prepare Arabic, South Asian, East Asian, Mediterranean, and Western recovery-style meals adapted to your family\'s traditions.',
+    description: 'We understand that postpartum nutrition is deeply cultural. Chefs on our team can prepare Arabic, South Asian, East Asian, Mediterranean, and Western recovery-style meals adapted to your family\'s traditions.',
   },
   {
     icon: Moon,
@@ -75,7 +75,7 @@ const faqs = [
   },
   {
     q: 'Do you provide medical or clinical nutrition advice?',
-    a: 'No. Chefs in our network prepare wholesome, recovery-focused meals based on your preferences and any guidance you provide from your healthcare provider. For clinical conditions, we recommend consulting a licensed nutritionist or doctor.',
+    a: 'No. Chefs on our team prepare wholesome, recovery-focused meals based on your preferences and any guidance you provide from your healthcare provider. For clinical conditions, we recommend consulting a licensed nutritionist or doctor.',
   },
   {
     q: 'Can meals be adapted for the whole family?',
@@ -231,7 +231,7 @@ export default function PostpartumMealPrep() {
           </h2>
           <div className="ppm-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              The weeks after birth are demanding. Sleep is scarce, routines are new, and nutrition often becomes an afterthought — yet it is precisely when the body needs steady, wholesome support. Tell us about your household and we will match you with a vetted chef who prepares postpartum recovery meals in your own kitchen, usually within 24 hours.
+              The weeks after birth are demanding. Sleep is scarce, routines are new, and nutrition often becomes an afterthought — yet it is precisely when the body needs steady, wholesome support. Tell us about your household and we will bring you a vetted chef who prepares postpartum recovery meals in your own kitchen, usually within 24 hours.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               A private chef visits your home, prepares multiple days of recovery-focused meals, portions them for easy reheating, and leaves your kitchen clean. If your needs continue beyond the fourth trimester, our <Link to="/weekly-meal-prep-dubai" className="text-gold hover:underline">weekly meal prep</Link> service can keep your household fed without the daily effort.

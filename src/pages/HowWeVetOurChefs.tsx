@@ -91,7 +91,7 @@ const faqs = [
   },
   {
     q: 'Are chefs in your network food-safety-certified?',
-    a: 'We do not claim that every chef in our network holds a specific food-safety certification. We require basic food-hygiene awareness and safe handling practices. PIC (Person in Charge) certification is preferred where available.',
+    a: 'We do not claim that every our chef holds a specific food-safety certification. We require basic food-hygiene awareness and safe handling practices. PIC (Person in Charge) certification is preferred where available.',
   },
   {
     q: 'Do you check references for every chef?',
@@ -113,7 +113,7 @@ const faqs = [
 
 const relatedServices = [
   {
-    title: 'The Chefs in Our Network',
+    title: 'Our Chefs',
     description: 'Meet the experienced chefs behind myCHEF Dubai.',
     image: '/service-private-chef.webp',
     link: '/our-chefs',
@@ -255,7 +255,7 @@ export default function HowWeVetOurChefs() {
               We are also honest about what vetting means. No system can eliminate every risk, and no chef is automatically guaranteed work. We match each event to the best available chef based on cuisine expertise, availability, and client requirements. Our commitment is that every chef who represents myCHEF Dubai has met the standards below — and continues to meet them through regular feedback and review.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              If you are considering a private chef for your next event, you may also want to read about <Link to="/booking-protection-insurance" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">booking protection and insurance</Link>, meet our <Link to="/our-chefs" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">featured chefs</Link>, or see how to <Link to="/become-a-mychef" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">join the chefs in our network</Link>.
+              If you are considering a private chef for your next event, you may also want to read about <Link to="/booking-protection-insurance" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">booking protection and insurance</Link>, meet our <Link to="/our-chefs" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">featured chefs</Link>, or see how to <Link to="/become-a-mychef" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">join our chefs</Link>.
             </p>
           </div>
         </div>
@@ -378,7 +378,7 @@ export default function HowWeVetOurChefs() {
             Book with Confidence
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Every myCHEF Dubai chef is verified, assessed, and reviewed. Tell us about your event and we will match you with the right chef.
+            Every myCHEF Dubai chef is verified, assessed, and reviewed. Tell us about your event and we will bring you the right chef.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Request a Proposal</Link>

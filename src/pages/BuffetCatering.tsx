@@ -42,7 +42,7 @@ const buffetFormats = [
   {
     icon: Soup,
     title: 'Live Action Stations',
-    description: 'Pasta, risotto, carving, and grill stations manned by the chefs in our network, adding theatre and freshness to the buffet experience.',
+    description: 'Pasta, risotto, carving, and grill stations manned by our chefs, adding theatre and freshness to the buffet experience.',
     link: '/party-catering-dubai',
   },
   {

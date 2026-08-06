@@ -172,7 +172,7 @@ const processSteps = [
     num: '02',
     title: 'We design your bespoke menu',
     description:
-      'the chefs in our network creates a bespoke menu and we design the service flow for your event.',
+      'our chefs creates a bespoke menu and we design the service flow for your event.',
   },
   {
     num: '03',
@@ -222,7 +222,7 @@ const faqs = [
   {
     question: 'Do you provide staff for large events?',
     answer:
-      'Absolutely. we match you with a vetted chef you engage, waiters, bartenders, and event coordinators based on your guest count and service style.',
+      'Absolutely. we bring you a vetted chef you engage, waiters, bartenders, and event coordinators based on your guest count and service style.',
   },
   {
     question: 'Can you create themed menus?',
@@ -464,7 +464,7 @@ export default function Events() {
       {/* ─── Section 1: Hero ─── */}
       <PageHero
         title="Event Catering Dubai"
-        subtitle="Tell us about your event and we will match you with a vetted chef. From intimate celebrations to grand occasions — exceptional food, flawless service, unforgettable events. We reply within 15 minutes during business hours."
+        subtitle="Tell us about your event and we will bring you a vetted chef. From intimate celebrations to grand occasions — exceptional food, flawless service, unforgettable events. We reply within 15 minutes during business hours."
         image="/images/events-catering-dubai-hero.webp"
         imageAlt="Event catering in Dubai"
         cta={{ label: 'Plan My Event', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=events' }}

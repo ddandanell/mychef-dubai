@@ -30,7 +30,7 @@ const features = [
   {
     icon: Home,
     title: 'Designed for Apartments',
-    description: 'Compact kitchen? No problem. Chefs in our network are experienced in apartment cooking and bring only what is needed, working cleanly and efficiently in smaller spaces.',
+    description: 'Compact kitchen? No problem. Chefs on our team are experienced in apartment cooking and bring only what is needed, working cleanly and efficiently in smaller spaces.',
   },
   {
     icon: Users,
@@ -71,7 +71,7 @@ const menus = [
 const faqs = [
   {
     q: 'Will the chef fit in my apartment kitchen?',
-    a: 'Yes. Chefs in our network are selected for adaptability and are comfortable working in Dubai apartment kitchens, including those in Dubai Marina, Downtown, JBR, Business Bay, and DIFC.',
+    a: 'Yes. Chefs on our team are selected for adaptability and are comfortable working in Dubai apartment kitchens, including those in Dubai Marina, Downtown, JBR, Business Bay, and DIFC.',
   },
   {
     q: 'How many guests can an apartment dinner accommodate?',
@@ -229,10 +229,10 @@ export default function ApartmentPrivateDining() {
           </h2>
           <div className="apd-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Tell us about your apartment location, guest count, and occasion. We will match you with a vetted private chef within 24 hours and send a tailored, no-obligation quote — then you simply arrive at your dining table while the chef handles shopping, cooking, serving, and cleanup. Dubai Marina, Downtown, JBR, Business Bay, and DIFC apartments are ideal for this intimate format.
+              Tell us about your apartment location, guest count, and occasion. We will bring you a vetted private chef within 24 hours and send a tailored, no-obligation quote — then you simply arrive at your dining table while the chef handles shopping, cooking, serving, and cleanup. Dubai Marina, Downtown, JBR, Business Bay, and DIFC apartments are ideal for this intimate format.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Chefs in our network are selected for their ability to work beautifully in compact spaces. They arrive with ingredients, prepare a multi-course menu, serve with care, and leave your kitchen spotless. All you need is a table, chairs, and good company.
+              Chefs on our team are selected for their ability to work beautifully in compact spaces. They arrive with ingredients, prepare a multi-course menu, serve with care, and leave your kitchen spotless. All you need is a table, chairs, and good company.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
               Explore <Link to="/romantic-dinner-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">romantic dinners</Link>, <Link to="/date-night-package-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">date night packages</Link>, or <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef services</Link>.
@@ -340,7 +340,7 @@ export default function ApartmentPrivateDining() {
             Book Apartment Private Dining
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Tell us your apartment location, guest count, and occasion. We will match you with a chef who turns your home into the best dining room in Dubai.
+            Tell us your apartment location, guest count, and occasion. We will bring you a chef who turns your home into the best dining room in Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Request Apartment Dining</Link>

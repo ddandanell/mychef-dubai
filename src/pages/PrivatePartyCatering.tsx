@@ -50,7 +50,7 @@ const partyFormats = [
   {
     icon: Utensils,
     title: 'Plated & Buffet Dining',
-    description: 'When you want a seated moment — refined plated courses or generous buffet stations served by the chefs in our network.',
+    description: 'When you want a seated moment — refined plated courses or generous buffet stations served by our chefs.',
   },
   {
     icon: Users,
@@ -61,7 +61,7 @@ const partyFormats = [
 
 const includedItems = [
   { title: 'Bespoke Party Menu', description: 'A menu designed around your guests, theme, and the feel of the evening.' },
-  { title: 'On-Site Chefs', description: 'the chefs in our network cook and finishes dishes live at your venue.' },
+  { title: 'On-Site Chefs', description: 'our chefs cook and finishes dishes live at your venue.' },
   { title: 'Live Cooking Stations', description: 'Interactive grills, carving, and made-to-order stations as you like.' },
   { title: 'Bar & Mixology', description: 'Cocktails, mocktails, and bartender service styled to your party.' },
   { title: 'Service & Hosting Staff', description: 'Discreet, polished waiters and hosts to look after every guest.' },

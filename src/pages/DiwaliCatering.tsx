@@ -90,7 +90,7 @@ const useCases = [
   },
   {
     title: 'Villa & Large Celebrations',
-    description: 'For villa parties and large Diwali celebrations, the chefs in our network scale menus and adds live cooking stations for theatre, keeping quality and presentation consistent however many guests gather.',
+    description: 'For villa parties and large Diwali celebrations, our chefs scale menus and adds live cooking stations for theatre, keeping quality and presentation consistent however many guests gather.',
   },
 ]
 
@@ -322,7 +322,7 @@ export default function DiwaliCatering() {
             Diwali is a festival of light, abundance, and togetherness — and the food carries its joy. At myCHEF Dubai, we bring vibrant Indian festive menus to homes, offices, and villas across the city, from rich North and South Indian classics to fully vegetarian and Jain spreads. Live chaat and dosa stations add theatre, while generous tables of mithai bring the celebration to a sweet close.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Whether you are hosting an intimate family Diwali, a corporate celebration, or a large villa party, the chefs in our network cook on-site and our service team handle the service and pack-down, so the hosts can light the diyas and enjoy the evening. Our Diwali catering draws on our <Link to="/indian-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Indian catering</Link> and <Link to="/vegetarian-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">vegetarian catering</Link> menus, adds <Link to="/live-cooking-stations-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">live cooking stations</Link> for energy, and fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>. Because the festive period is busy, we recommend booking four to six weeks ahead.
+            Whether you are hosting an intimate family Diwali, a corporate celebration, or a large villa party, our chefs cook on-site and our service team handle the service and pack-down, so the hosts can light the diyas and enjoy the evening. Our Diwali catering draws on our <Link to="/indian-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Indian catering</Link> and <Link to="/vegetarian-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">vegetarian catering</Link> menus, adds <Link to="/live-cooking-stations-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">live cooking stations</Link> for energy, and fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>. Because the festive period is busy, we recommend booking four to six weeks ahead.
           </p>
         </div>
       </section>

@@ -25,7 +25,7 @@ const config: OccasionPageConfig = {
         Easter in Dubai is the perfect occasion to gather family and friends over a generous, beautifully presented meal. Whether you are hosting a relaxed garden brunch, a formal sit-down lunch or a lively egg hunt party for children, our Easter catering service brings seasonal flavours and effortless hospitality to your chosen setting. Every menu is designed around your guest list, dietary preferences and the mood of the day.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        the chefs in our network combine classic Easter favourites with fresh, spring-inspired dishes. Expect herb-crusted lamb, honey-glazed ham, seasonal vegetables, artisan breads, fresh salads and indulgent desserts. We handle the shopping, preparation, service and cleanup, so you can focus on enjoying the celebration with your guests.
+        our chefs combine classic Easter favourites with fresh, spring-inspired dishes. Expect herb-crusted lamb, honey-glazed ham, seasonal vegetables, artisan breads, fresh salads and indulgent desserts. We handle the shopping, preparation, service and cleanup, so you can focus on enjoying the celebration with your guests.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
         we coordinate catering for Easter events across Dubai, from villas and apartments to rooftop terraces and event venues. Pair this with our{' '}
