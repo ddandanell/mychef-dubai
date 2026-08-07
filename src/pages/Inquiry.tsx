@@ -176,8 +176,8 @@ export default function Inquiry() {
 
               <p className="font-inter text-body-sm text-gray-500 mt-6">
                 Prefer email?{' '}
-                <a href="mailto:hello@mychef.ae" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
-                  hello@mychef.ae
+                <a href="mailto:info@mychef.id" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
+                  info@mychef.id
                 </a>
               </p>
             </div>
@@ -263,11 +263,11 @@ export default function Inquiry() {
               +971 55 174 4849
             </a>
             <a
-              href="mailto:hello@mychef.ae"
+              href="mailto:info@mychef.id"
               className="flex items-center gap-2 font-inter text-body-sm text-gray-500 hover:text-gold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-cream rounded-sm"
             >
               <Mail size={16} className="text-gold" aria-hidden="true" />
-              hello@mychef.ae
+              info@mychef.id
             </a>
             <span className="flex items-center gap-2 font-inter text-body-sm text-gray-500">
               <MapPin size={16} className="text-gold" aria-hidden="true" />

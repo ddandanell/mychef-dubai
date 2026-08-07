@@ -449,7 +449,7 @@ Apply reworded FAQ answers from `mychef_elevated_reword.md` §6. Add the new FAQ
 
 - [ ] **Step 5: OurChefs.tsx**
 
-Apply `mychef_elevated_reword.md` §3: rename to "THE CHEFS WE CHOOSE", reframe as independent network, update CTA to `partners@mychef.ae`.
+Apply `mychef_elevated_reword.md` §3: rename to "THE CHEFS WE CHOOSE", reframe as independent network, update CTA to `info@mychef.id`.
 
 - [ ] **Step 6: Catering.tsx**
 

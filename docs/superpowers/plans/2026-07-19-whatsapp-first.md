@@ -47,7 +47,7 @@
   - Subhead: "Tell us what you're planning and we'll reply with menu ideas and indicative pricing within 2 hours."
   - 3 bullets: "Custom menu designed around your event", "Transparent AED pricing guidance", "Same-day WhatsApp response"
   - Primary CTA `<a href={WHATSAPP_LINK} ...>Request My Quote on WhatsApp</a>`
-  - Small fallback: "Prefer email? <a href='mailto:hello@mychef.ae'>hello@mychef.ae</a>"
+  - Small fallback: "Prefer email? <a href='mailto:info@mychef.id'>info@mychef.id</a>"
 
 - [ ] **Step 3: Update WhatsApp message**
   Set `WHATSAPP_MESSAGE` to:

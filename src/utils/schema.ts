@@ -16,7 +16,7 @@ export function organizationSchema() {
     contactPoint: {
       '@type': 'ContactPoint',
       telephone: '+971-55-174-4849',
-      email: 'hello@mychef.ae',
+      email: 'info@mychef.id',
       contactType: 'customer service',
       areaServed: 'AE',
       availableLanguage: ['English'],
@@ -36,7 +36,7 @@ export function professionalServiceSchema() {
     logo: LOGO_URL,
     image: `${SITE_URL}/images/home-hero.webp`,
     telephone: '+971-55-174-4849',
-    email: 'hello@mychef.ae',
+    email: 'info@mychef.id',
     priceRange: '$$$$',
     currenciesAccepted: 'AED',
     areaServed: { '@type': 'City', name: 'Dubai' },
@@ -51,7 +51,7 @@ export function professionalServiceSchema() {
       '@type': 'ContactPoint',
       contactType: 'customer service',
       telephone: '+971-55-174-4849',
-      email: 'hello@mychef.ae',
+      email: 'info@mychef.id',
       availableLanguage: ['English', 'Arabic'],
     },
   }

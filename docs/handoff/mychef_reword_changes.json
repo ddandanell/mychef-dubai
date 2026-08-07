@@ -93,7 +93,7 @@
       { "banned_regex": "(?i)\\bwe handle (the food|everything)\\b", "replace": "we design and manage the experience", "guidance": "Design/arrange, not perform." },
       { "banned_regex": "(?i)full[- ]service\\b([^.]{0,25})catering", "replace": "fully-coordinated catering", "guidance": "'full-service wedding catering' -> 'fully-coordinated wedding catering'." },
       { "banned_regex": "(?i)\\bwe (provide|place|supply|staff) ([^.]{0,20})chefs?\\b|(?i)hire our chefs|(?i)choose a chef from our team", "replace": "we match you with a vetted chef you engage", "guidance": "INTRODUCE, do not supply/place (TEST 2)." },
-      { "banned_regex": "(?i)join our team|(?i)careers@mychef\\.ae|(?i)\\bour staff\\b", "replace": "become a partner chef · partners@mychef.ae", "guidance": "Recruitment language -> partner-network language." },
+      { "banned_regex": "(?i)join our team|(?i)careers@mychef\\.ae|(?i)\\bour staff\\b", "replace": "become a partner chef · info@mychef.id", "guidance": "Recruitment language -> partner-network language." },
       { "banned_regex": "(?i)chef[- ]manned|(?i)manned by our chefs", "replace": "chef-led (by a partner chef)", "guidance": null },
       { "banned_regex": "(?i)\\bHACCP\\b", "replace": "food-safety-certified (partner-held)", "guidance": "Only about partners, and only if evidenced (see warranty flag)." }
     ],
@@ -158,7 +158,7 @@
         { "find": "Background-checked team members", "replace": "Background-checked, licensed independent chefs" },
         { "find": "Join Our Team?", "replace": "Join Our Culinary Network?" },
         { "find": "If you are an experienced chef with a passion for private dining, we would love to hear from you.", "replace": "If you are an experienced, licensed independent chef with a passion for private dining, we'd love to welcome you to our partner network." },
-        { "find": "Send your CV to careers@mychef.ae", "replace": "Apply to join our culinary network at partners@mychef.ae" },
+        { "find": "Send your CV to careers@mychef.ae", "replace": "Apply to join our culinary network at info@mychef.id" },
         { "find": "Every dish prepared by hands that have trained in respected professional kitchens around the world.", "replace": "Every dish prepared by handpicked independent chefs who have trained in respected professional kitchens around the world." }
       ],
       "bio_rule": "Each named chef (Ahmed, Marco, Sofia, Layla) — apply phrase_map AND: (a) add 'Independent partner chef' under the name; (b) rewrite any 'leads ... for myCHEF Dubai' -> 'is matched to ... myCHEF experiences'; (c) keep tenure badges as the chef's OWN experience. STEP-1 grep will surface each bio's exact live sentences (only Ahmed's was hand-scanned) — fix each with the phrase_map, do not rely on one exact string. Job-title labels (EXECUTIVE CHEF) are fine as the chef's discipline, not a myCHEF post."
