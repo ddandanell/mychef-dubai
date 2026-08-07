@@ -24,20 +24,12 @@
   "h1": "Chef Training Academy"
  },
  "opening_paragraph": [
-  "{\"@context\": \"https://schema.org\", \"@type\": \"Service\", \"name\": \"Chef Training Academy\", \"description\": \"Non-accredited professional development and service-standard training for culinary, hospitality and event-service professionals working with or seeking to join the myCHEF partner network.\", \"provider\": {\"@type\": \"Organization\", \"name\": \"myCHEF Dubai\", \"url\": \"https://www.mychef.ae\"}, \"serviceType\": \"Professional Development\", \"areaServed\": {\"@type\": \"City\", \"name\": \"Dubai\"}} {\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"Who is the Chef Training Academy for?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Culinary, hospitality and event-service professionals who work with, or want to join, the myCHEF Dubai partner network. Tell us about your role and experience, and we will confirm whether the next intake fits.\"}}, {\"@type\": \"Question\", \"name\": \"Is the academy accredited?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"No. The academy is non-accredited professional development and service-standard training. It is not a government-accredited qualification and it is not a substitute for any licence or certification legally required for a participant's role.\"}}, {\"@type\": \"Question\", \"name\": \"What do participants receive?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"A Certificate of Completion \\u2014 confirming participation in a myCHEF professional-development programme. This is not a government-accredited qualification or a substitute for any licence or certification legally required for the participant's role.\"}}, {\"@type\": \"Question\", \"name\": \"What does the training cover?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"myCHEF service standards, guest communication, villa and private-residence etiquette, event-service procedures, menu and dietary-requirement communication, allergen-awareness procedures, client privacy and discretion, table presentation, complaint handling, incident escalation, partner documentation requirements and food-safety awareness.\"}}, {\"@type\": \"Question\", \"name\": \"When is the next intake, and what does it cost?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Programme availability, entry requirements, dates and fees are confirmed for each training intake. Contact us and we will share the details for the next one.\"}}]} {\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"Home\", \"item\": \"https://www.mychef.ae/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"Chef Training Academy\", \"item\": \"https://www.mychef.ae/chef-training-academy\"}]}",
-  "Home",
-  "/",
-  "Chef Training Academy",
-  "Non-accredited professional development and service-standard training for culinary, hospitality and event-service professionals working with, or seeking to join, the myCHEF Dubai partner network.",
-  "Enquire About the Next Intake Chat on WhatsApp",
-  "Vetted Chefs",
-  "Halal-first menu planning",
-  "PROFESSIONAL DEVELOPMENT"
+  "Non-accredited professional development and service-standard training for culinary, hospitality and event-service professionals working with, or seeking to join, the myCHEF Dubai partner network."
  ],
  "replace_in_block": [
   {
    "block_on_your_page": "Chef Training Questions",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "Chef Training Questions",
    "new_paragraphs": [
     "Who is the Chef Training Academy for?",
