@@ -81,6 +81,21 @@
     font-family: 'Playfair Display', Georgia, serif;
   }
 
+  /* Media never overflows its container on mobile (fixes images spilling past
+     the screen edge). Utility height classes (h-full, h-6, object-cover heroes)
+     still win because Tailwind utilities override the base layer. */
+  img, svg, video, canvas, iframe {
+    max-width: 100%;
+  }
+  img {
+    height: auto;
+  }
+
+  /* Long unbroken strings (URLs, emails) must not force horizontal scroll. */
+  p, li, h1, h2, h3, h4, h5, h6, span, a {
+    overflow-wrap: break-word;
+  }
+
   ::selection {
     background-color: rgba(200, 164, 92, 0.3);
     color: #FFFFFF;
