@@ -213,6 +213,7 @@ export default function LocationDetail() {
         description={loc.metaDescription}
         canonicalPath={`/locations/${loc.slug}`}
         ogImage={loc.heroImage}
+        hideSiteName
         schema={schema}
       />
 
