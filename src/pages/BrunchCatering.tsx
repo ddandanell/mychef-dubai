@@ -17,6 +17,7 @@ import {
 import SEO from '../components/SEO'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import FaqAccordion from '../components/FaqAccordion'
+import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -222,7 +223,9 @@ const schema = {
 
 /* ────────────────────── Component ────────────────────── */
 
+const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'd like a Brunch quote in Dubai. Date: __ Guests: __ Area: __"
 export default function BrunchCatering() {
+  useWhatsAppMessage(PAGE_WHATSAPP_MESSAGE)
   const containerRef = useRef<HTMLDivElement>(null)
 
   useGSAP(() => {
@@ -286,10 +289,11 @@ export default function BrunchCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Brunch Catering Dubai | Breakfast Chef"
-        description="Brunch catering and private breakfast chef service in Dubai. Weekend villa brunches, corporate mornings, fresh pastries, eggs, and artisanal coffee."
+        title="Brunch Catering Dubai | Private Breakfast Chef & Villa Brunch | myCHEF"
+        description="Brunch catering & private breakfast chef in Dubai. Weekend villa brunches, corporate mornings, fresh pastries & artisanal coffee. Request a tailored quote."
         canonicalPath="/brunch-catering-dubai"
         ogImage="/service-villa.webp"
+        hideSiteName
         schema={schema}
       />
 

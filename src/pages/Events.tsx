@@ -18,6 +18,7 @@ import {
   serviceSchema,
 } from '@/utils/schema'
 import { Check, Quote, ArrowRight, } from 'lucide-react'
+import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -275,7 +276,9 @@ const schema = [
 
 /* ───── Page Component ───── */
 
+const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'm planning an event in Dubai. Date: __ Guests: __ Area: __"
 export default function Events() {
+  useWhatsAppMessage(PAGE_WHATSAPP_MESSAGE)
   const eventCardsRef = useRef<HTMLDivElement>(null)
   const processRef = useRef<HTMLDivElement>(null)
   const includedRef = useRef<HTMLDivElement>(null)
@@ -454,8 +457,8 @@ export default function Events() {
   return (
     <>
       <SEO
-        title="Event Catering Dubai"
-        description="Premium event catering in Dubai for birthdays, weddings, and private celebrations. fully-coordinated catering with bespoke menus and professional staff. Get your quote."
+        title="Event Catering Dubai | Birthdays, Weddings & Private Parties"
+        description="Premium event catering in Dubai for birthdays, weddings, engagements & private parties. Bespoke menus, vetted chefs, full service. Request a tailored quote."
         canonicalPath="/events"
         ogImage="/service-events.webp"
         schema={schema as unknown as Record<string, unknown>}
@@ -463,14 +466,14 @@ export default function Events() {
 
       {/* ─── Section 1: Hero ─── */}
       <PageHero
-        title="Event Catering Dubai"
+        title="Event Catering Dubai for Weddings, Parties & Corporate Events"
         subtitle="Tell us about your event and we will bring you a vetted chef. From intimate celebrations to grand occasions — exceptional food, flawless service, unforgettable events. We reply within 15 minutes during business hours."
         image="/images/events-catering-dubai-hero.webp"
         imageAlt="Event catering in Dubai"
         cta={{ label: 'Plan My Event', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=events' }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Events' }]}
-        minHeight="tall"
+        minHeight="medium"
         overlay="dark"
       />
 

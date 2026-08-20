@@ -4,7 +4,9 @@ import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import SEO from '../components/SEO'
 import PageHero from '../components/PageHero'
+import TrustSignalStrip from '../components/TrustSignalStrip'
 import { MapPin, ArrowRight, Phone } from 'lucide-react'
+import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -37,7 +39,9 @@ const additionalAreas = [
   'Deira', 'Bur Dubai', 'Al Quoz', 'Dubai South', 'Expo City Dubai'
 ]
 
+const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'm looking for private chef or catering services in Dubai. Date: __ Guests: __ Area: __"
 export default function Locations() {
+  useWhatsAppMessage(PAGE_WHATSAPP_MESSAGE)
   const pageRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
@@ -86,6 +90,7 @@ export default function Locations() {
         minHeight="medium"
         overlay="dark"
       />
+      <TrustSignalStrip />
 
       {/* Location Cards Grid */}
       <section className="py-24 bg-black">

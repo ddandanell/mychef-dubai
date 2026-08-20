@@ -17,6 +17,7 @@ import {
 import SEO from '../components/SEO'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import FaqAccordion from '../components/FaqAccordion'
+import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -226,7 +227,9 @@ const schema = {
 
 /* ────────────────────── Component ────────────────────── */
 
+const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'd like a Vegan quote in Dubai. Date: __ Guests: __ Area: __"
 export default function VeganCatering() {
+  useWhatsAppMessage(PAGE_WHATSAPP_MESSAGE)
   const containerRef = useRef<HTMLDivElement>(null)
 
   useGSAP(() => {
@@ -280,8 +283,8 @@ export default function VeganCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Vegan Catering Dubai | Plant-Based Dining"
-        description="Vegan catering in Dubai with creative plant-based fine dining, canapés, grazing tables, and dairy-free desserts for inclusive events. Request your custom quote today."
+        title="Vegan Catering Dubai | Plant-Based Events & Private Dining"
+        description="Vegan catering Dubai for plant-based events & private dining. Creative fine dining, canapés, grazing tables & dairy-free desserts. Quote in ~15 mins."
         canonicalPath="/vegan-catering-dubai"
         ogImage="/menu-appetizer.webp"
         schema={schema}

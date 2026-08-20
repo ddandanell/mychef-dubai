@@ -39,9 +39,9 @@
  },
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
-  "title": "Party Catering Dubai | from AED 120 per person | myCHEF",
-  "meta_description": "Party Catering in Dubai — catering for every kind of private party. Buffet from AED 120 per person, plated private chef from AED 700, vetted chefs and full service.",
-  "h1": "Party Catering in Dubai — Menus, Prices and What's Included"
+  "title": "Party Catering Dubai | Canapés, Grazing & Live Stations | myCHEF",
+  "meta_description": "Party catering in Dubai for birthdays, bachelor/bachelorette parties, baby showers & private celebrations. Bespoke menus, canapés, full service. Get a quote.",
+  "h1": "Party Catering Dubai — Birthdays, Yacht & Villa Celebrations"
  },
  "opening_paragraph": [
   "myCHEF party catering in Dubai starts at AED 120 per person for a buffet and AED 700 for a plated private-chef dinner. A vetted chef and full service team come to your venue. You host the evening while we handle every plate. The parties people remember are the ones where the host is genuinely at the party, glass in hand, mid-conversation, not stuck plating in the kitchen or hunting for one more clean tray. That is the whole idea: our team arrives early, takes over the food, the service and the setup, and hands you back your own night. A rooftop birthday as the light drops behind Marina, a slow afternoon of grazing by the pool, a cocktail night that quietly runs past midnight; tell us what you're planning and an itemised proposal lands back with you promptly during our published business hours."

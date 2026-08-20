@@ -17,6 +17,7 @@ import {
 import SEO from '../components/SEO'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import FaqAccordion from '../components/FaqAccordion'
+import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -223,7 +224,9 @@ const schema = {
 
 /* ────────────────────── Component ────────────────────── */
 
+const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'd like a Italian quote in Dubai. Date: __ Guests: __ Area: __"
 export default function ItalianCatering() {
+  useWhatsAppMessage(PAGE_WHATSAPP_MESSAGE)
   const containerRef = useRef<HTMLDivElement>(null)
 
   useGSAP(() => {
@@ -277,8 +280,8 @@ export default function ItalianCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Italian Catering Dubai | Pasta & Risotto"
-        description="Italian catering in Dubai — handmade pasta, risotto, antipasti, and live pasta and pizza stations for weddings, villa dinners, and corporate events. Halal sourcing."
+        title="Italian Catering Dubai | Live Pasta, Pizza & Risotto"
+        description="Italian catering Dubai for weddings, villa dinners & corporate events. Handmade pasta, risotto, antipasti, live pasta & pizza stations. Quote in ~15 mins."
         canonicalPath="/italian-catering-dubai"
         ogImage="/menu-appetizer.webp"
         schema={schema}

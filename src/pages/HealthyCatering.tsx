@@ -16,6 +16,7 @@ import {
 import SEO from '../components/SEO'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import FaqAccordion from '../components/FaqAccordion'
+import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -220,7 +221,9 @@ const schema = {
 
 /* ────────────────────── Component ────────────────────── */
 
+const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'd like a Healthy quote in Dubai. Date: __ Guests: __ Area: __"
 export default function HealthyCatering() {
+  useWhatsAppMessage(PAGE_WHATSAPP_MESSAGE)
   const containerRef = useRef<HTMLDivElement>(null)
 
   useGSAP(() => {
@@ -274,8 +277,8 @@ export default function HealthyCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Healthy Catering Dubai | Wellness Menus"
-        description="Healthy catering in Dubai with nutrition-focused, balanced menus, low-carb and keto options, salad bars, and corporate wellness lunches. Request your custom quote today."
+        title="Healthy Catering Dubai | Corporate Wellness & Nutritionist-Led"
+        description="Healthy catering Dubai for corporate wellness & nutritionist-led menus. Balanced dishes, low-carb & keto options, salad bars. Quote in ~15 mins."
         canonicalPath="/healthy-catering-dubai"
         ogImage="/menu-seafood.webp"
         schema={schema}

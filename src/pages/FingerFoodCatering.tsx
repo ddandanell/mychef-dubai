@@ -17,6 +17,7 @@ import {
 import SEO from '../components/SEO'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import FaqAccordion from '../components/FaqAccordion'
+import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -224,7 +225,9 @@ const schema = {
 
 /* ────────────────────── Component ────────────────────── */
 
+const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'd like a Finger Food quote in Dubai. Date: __ Guests: __ Area: __"
 export default function FingerFoodCatering() {
+  useWhatsAppMessage(PAGE_WHATSAPP_MESSAGE)
   const containerRef = useRef<HTMLDivElement>(null)
 
   useGSAP(() => {
@@ -278,10 +281,11 @@ export default function FingerFoodCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Finger Food Catering Dubai | Bite-Size Menus"
-        description="Premium finger food catering in Dubai for offices, corporate events, and casual celebrations. Bite-size menus, sharing platters, hot and cold options, easy service."
+        title="Finger Food Catering Dubai | Office & Party Bite-Size Menus | myCHEF"
+        description="Bite-size finger food catering in Dubai for offices, parties & corporate events. Hot & cold sharing platters, easy service, halal options. Request a tailored quote in 15 min."
         canonicalPath="/finger-food-catering-dubai"
         ogImage="/menu-canapes.webp"
+        hideSiteName
         schema={schema}
       />
 
@@ -303,7 +307,7 @@ export default function FingerFoodCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 fin-hero-h1">
-            Finger Food Catering in Dubai
+            Finger Food Catering in Dubai — Office, Party & Event Bites
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 fin-hero-sub">
             Generous bite-size menus, sharing platters, and easy service for offices, corporate events, and casual celebrations — relaxed, mess-free, and beautifully presented across Dubai.

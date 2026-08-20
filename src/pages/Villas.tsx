@@ -7,6 +7,8 @@ import { useGSAP } from '@gsap/react'
 import SEO from '@/components/SEO'
 import PageHero from '@/components/PageHero'
 import TrustSignalStrip from '@/components/TrustSignalStrip'
+import LocationStrip from '@/components/LocationStrip'
+import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -158,7 +160,9 @@ const faqPageSchema = {
   })),
 }
 
+const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'm interested in villa catering in Dubai. Date: __ Guests: __ Area: __"
 export default function Villas() {
+  useWhatsAppMessage(PAGE_WHATSAPP_MESSAGE)
   const containerRef = useRef<HTMLDivElement>(null)
   const [openFaq, setOpenFaq] = useState<number | null>(null)
 
@@ -221,8 +225,8 @@ export default function Villas() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Villa Private Chef Dubai"
-        description="Private chef services for Dubai villas and luxury residences. Palm Jumeirah, Emirates Hills, Arabian Ranches, and more. Bespoke dining at your villa. Request a quote."
+        title="Villa Catering Dubai | Private Chef for Palm Jumeirah & Emirates Hills"
+        description="Private chef and villa catering in Dubai for Palm Jumeirah, Emirates Hills & Arabian Ranches. Bespoke menus, vetted chefs, full setup. Get a quote."
         canonicalPath="/villas-private-residences"
         ogImage="/service-villa.webp"
         schema={{ ...schema, ...breadcrumbSchema, ...faqPageSchema }}
@@ -231,7 +235,7 @@ export default function Villas() {
       {/* Section 1: Hero */}
       <PageHero
         eyebrow="VILLA CHEF SERVICES"
-        title="Villa Private Chef Dubai"
+        title="Villa Catering & Private Chef Dubai"
         subtitle="Tell us about your villa stay or special occasion and we will bring you a vetted private chef in Dubai. From one-night dinners to full-time residential chef services — exceptional dining without leaving home. We reply within 15 minutes during business hours."
         image="/images/villa-catering-dubai-hero.webp"
         imageAlt="Villa private chef in Dubai"
@@ -358,7 +362,7 @@ export default function Villas() {
                 The myCHEF Villa Advantage
               </h2>
               <p className="font-inter text-body text-gray-500 mb-8" style={{ lineHeight: '1.7' }}>
-                Having a private chef in your villa transforms everyday dining into an extraordinary experience. No reservations, no travel, no crowds — just exceptional food, prepared exclusively for you in the comfort of your own home. Browse our <Link to="/villa-catering-ideas-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">villa catering ideas</Link> for inspiration, or learn more about our <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef services in Dubai</Link>.
+                Having a private chef in your villa transforms everyday dining into an extraordinary experience. No reservations, no travel, no crowds — just exceptional food, prepared exclusively for you in the comfort of your own home. We serve villa communities across Dubai including <Link to="/locations/palm-jumeirah" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Palm Jumeirah</Link>, <Link to="/locations/emirates-hills" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Emirates Hills</Link>, <Link to="/locations/arabian-ranches" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Arabian Ranches</Link>, <Link to="/locations/dubai-hills" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Dubai Hills</Link>, and <Link to="/locations/jumeirah-islands" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Jumeirah Islands</Link>. Browse our <Link to="/villa-catering-ideas-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">villa catering ideas</Link> for inspiration, or learn more about our <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef services in Dubai</Link>.
               </p>
               <div className="villa-features-grid space-y-6">
                 {villaFeatures.map((feat) => (
@@ -405,16 +409,20 @@ export default function Villas() {
         </div>
       </section>
 
-      {/* Section 8: Testimonial */}
+      {/* Section 8: Review Invitation */}
       <section className="bg-charcoal py-20">
         <div className="villa-testimonial max-w-[800px] mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="text-gold text-4xl font-playfair mb-6">&ldquo;</div>
-          <blockquote className="font-playfair text-h3 text-white mb-6" style={{ lineHeight: '1.3' }}>
-            We stayed in a Palm Jumeirah villa for two weeks and had myCHEF prepare every meal. It was the highlight of our holiday. The chef learned our preferences, adapted menus daily, and made every dinner feel like a special occasion.
-          </blockquote>
-          <cite className="font-inter text-body-sm text-gray-400 not-italic">
-            — Sarah & James M., Palm Jumeirah
-          </cite>
+          <h2 className="font-playfair text-h3 text-white mb-6" style={{ lineHeight: '1.3' }}>
+            Love your myCHEF villa experience?
+          </h2>
+          <p className="font-inter text-body text-gray-400 mb-6">
+            We are collecting verified reviews from villa guests. Leave a review and receive AED 50 credit towards your next booking.
+          </p>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <Link to="/review" className="btn-primary">Leave a Review</Link>
+            <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-secondary">Chat on WhatsApp</a>
+          </div>
         </div>
       </section>
 
@@ -480,6 +488,8 @@ export default function Villas() {
           </p>
         </div>
       </section>
+
+      <LocationStrip title="Villa chef services across Dubai" />
 
       {/* Section 11: CTA Banner */}
       <section className="villas-cta-section bg-black py-24">

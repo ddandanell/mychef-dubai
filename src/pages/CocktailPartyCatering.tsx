@@ -17,6 +17,7 @@ import {
 import SEO from '../components/SEO'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import FaqAccordion from '../components/FaqAccordion'
+import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -224,7 +225,9 @@ const schema = {
 
 /* ────────────────────── Component ────────────────────── */
 
+const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'd like a Cocktail Party quote in Dubai. Date: __ Guests: __ Area: __"
 export default function CocktailPartyCatering() {
+  useWhatsAppMessage(PAGE_WHATSAPP_MESSAGE)
   const containerRef = useRef<HTMLDivElement>(null)
 
   useGSAP(() => {
@@ -278,10 +281,11 @@ export default function CocktailPartyCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Cocktail Party Catering Dubai | Canapés"
-        description="Cocktail party catering in Dubai with professional mixologists, signature cocktails, and passed canapés for rooftop, yacht, villa, and corporate receptions. Full bar service."
+        title="Cocktail Party Catering Dubai | Mixologists, Canapés & Bar | myCHEF"
+        description="Cocktail party catering in Dubai with mixologists, canapés & full bar service. Rooftop, yacht, villa & corporate receptions. Request a tailored quote in 15 min."
         canonicalPath="/cocktail-party-catering-dubai"
         ogImage="/menu-cocktails.webp"
+        hideSiteName
         schema={schema}
       />
 
@@ -303,7 +307,7 @@ export default function CocktailPartyCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 cock-hero-h1">
-            Cocktail Party Catering in Dubai
+            Cocktail Party Catering in Dubai — Mixologists, Canapés & Bar Service
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 cock-hero-sub">
             Professional mixologists, signature cocktails, and elegant passed canapés — styled for rooftop receptions, yacht parties, and villa soirées across Dubai.

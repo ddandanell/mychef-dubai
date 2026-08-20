@@ -7,6 +7,7 @@ import { useGSAP } from '@gsap/react'
 import SEO from '@/components/SEO'
 import PageHero from '@/components/PageHero'
 import TrustSignalStrip from '@/components/TrustSignalStrip'
+import { howToSchema } from '@/utils/schema'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -68,6 +69,12 @@ const faqSchema = {
   })),
 }
 
+const howItWorksSchema = howToSchema(
+  'How to Book a Private Chef in Dubai with myCHEF',
+  'A simple 4-step process to book a bespoke private chef experience in Dubai, from first message to final course.',
+  steps.map((s) => ({ name: s.title, text: s.desc, image: s.image })),
+)
+
 export default function HowItWorks() {
   const containerRef = useRef<HTMLDivElement>(null)
   const [openFaq, setOpenFaq] = useState<number | null>(null)
@@ -112,7 +119,10 @@ export default function HowItWorks() {
         description="See how easy it is to book a private chef in Dubai. From your first message to the final course — a seamless, bespoke experience every time."
         canonicalPath="/how-it-works"
         ogImage="/images/how-it-works-dubai-hero.webp"
-        schema={{ ...breadcrumbSchema, ...faqSchema }}
+        schema={{
+          '@context': 'https://schema.org',
+          '@graph': [breadcrumbSchema, faqSchema, howItWorksSchema],
+        }}
       />
 
       {/* Section 1: Hero */}

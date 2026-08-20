@@ -1,6 +1,6 @@
-import { useRef, useState } from 'react'
+import { useRef } from 'react'
 import { Link } from 'react-router'
-import { ChevronRight, Utensils, GlassWater, Flame, UtensilsCrossed, Ship, Sunrise, Check, ChevronDown, Phone, MapPin, Anchor, } from 'lucide-react'
+import { ChevronRight, Utensils, GlassWater, Flame, UtensilsCrossed, Ship, Sunrise, Check, Phone, MapPin, Anchor, } from 'lucide-react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { useGSAP } from '@gsap/react'
@@ -8,6 +8,9 @@ import SEO from '@/components/SEO'
 import PageHero from '@/components/PageHero'
 import TrustSignalStrip from '@/components/TrustSignalStrip'
 import LocationStrip from '@/components/LocationStrip'
+import FaqAccordion from '@/components/FaqAccordion'
+import { plainFaqAnswer } from '@/utils/schema'
+import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -73,6 +76,30 @@ const faqItems = [
     q: 'What cuisines work best on a yacht?',
     a: 'We recommend seafood-focused menus, Mediterranean cuisine, and light, fresh dishes that suit the maritime setting. Of course, every menu is fully customized to your preferences — from Japanese omakase to classic French tasting menus.',
   },
+  {
+    q: 'How much is yacht catering in Dubai?',
+    a: 'Yacht catering is custom-quoted based on guest count, menu, and route. Prices typically start from around AED 150 per person for canapé and BBQ packages, with plated and premium seafood menus priced higher. Share your date and yacht details for a tailored figure.',
+  },
+  {
+    q: 'Can you cater a yacht for 2 people in Dubai?',
+    a: 'Yes. We arrange intimate yacht dinners for two, with a private chef preparing a multi-course meal in the galley as you cruise past [Dubai Marina](/locations/dubai-marina) or [Palm Jumeirah](/locations/palm-jumeirah).',
+  },
+  {
+    q: 'What menus work best on a yacht in Dubai?',
+    a: 'Light, fresh menus work best: seafood, Mediterranean mezze, canapés, and [BBQ](/bbq-catering-dubai). We avoid overly complex preparations and design dishes that travel and plate well in a galley, so the food matches the setting.',
+  },
+  {
+    q: 'Is yacht catering food-only or do you provide the yacht?',
+    a: 'We provide the food, chef, and service crew. You arrange the yacht charter directly, and we coordinate boarding time, galley access, and route with your captain. This keeps you free to choose the vessel and itinerary you prefer.',
+  },
+  {
+    q: 'Can you cater at Dubai Marina and Palm Jumeirah?',
+    a: 'Yes. [Dubai Marina](/locations/dubai-marina) and [Palm Jumeirah](/locations/palm-jumeirah) are our most requested yacht boarding points. We also serve [Dubai Harbour](/locations/dubai-harbour), [JBR](/locations/jbr), [Bluewaters Island](/locations/bluewaters-island), and Dubai Creek.',
+  },
+  {
+    q: 'Do you offer BBQ catering on a yacht?',
+    a: 'Yes. A [BBQ on deck](/bbq-catering-dubai) is one of our most popular yacht formats, with a chef-led grilling station serving premium cuts and fresh seafood while you cruise the Dubai coastline.',
+  },
 ]
 
 const relatedServices = [
@@ -119,14 +146,15 @@ const faqPageSchema = {
     name: item.q,
     acceptedAnswer: {
       '@type': 'Answer',
-      text: item.a,
+      text: plainFaqAnswer(item.a),
     },
   })),
 }
 
+const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'm interested in yacht catering in Dubai. Date: __ Guests: __ Yacht location: __"
 export default function Yachts() {
+  useWhatsAppMessage(PAGE_WHATSAPP_MESSAGE)
   const containerRef = useRef<HTMLDivElement>(null)
-  const [openFaq, setOpenFaq] = useState<number | null>(null)
 
   useGSAP(() => {
     const ctx = gsap.context(() => {
@@ -185,10 +213,11 @@ export default function Yachts() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Yacht Catering Dubai"
-        description="Premium yacht catering and private chef services in Dubai. Dining on your yacht with Dubai Marina and Palm Jumeirah as your backdrop. Request a bespoke quote."
+        title="Yacht Catering Dubai | Menus for 2–50 Guests | From AED 150pp"
+        description="Yacht catering and private chef service in Dubai Marina, Palm Jumeirah & JBR. Bespoke menus, seafood & canapés, full crew. Request a tailored quote."
         canonicalPath="/yachts"
         ogImage="/service-yacht.webp"
+        hideSiteName
         schema={{
           '@context': 'https://schema.org',
           '@graph': [serviceSchema, breadcrumbSchema, faqPageSchema],
@@ -198,7 +227,7 @@ export default function Yachts() {
       {/* Section 1: Hero */}
       <PageHero
         eyebrow="YACHT CATERING"
-        title="Yacht Catering Dubai"
+        title="Yacht Catering Dubai — Private Chef On Board"
         subtitle="Tell us about your yacht event and we will bring you a vetted chef. Exceptional dining on the water with Dubai's iconic skyline as your setting — we reply within 15 minutes during business hours."
         image="/images/yacht-catering-dubai-hero.webp"
         imageAlt="Yacht catering in Dubai"
@@ -253,8 +282,8 @@ export default function Yachts() {
                 Why Yacht Dining Is Special
               </h3>
               <div className="space-y-4 font-inter text-body text-gray-400" style={{ lineHeight: '1.7' }}>
-                <p>There is nothing quite like dining on the water with Dubai&apos;s iconic skyline as your backdrop. Whether you are anchored off Palm Jumeirah, cruising past Burj Al Arab, or watching the sunset over Dubai Marina — a <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef</Link> elevates the experience to something truly extraordinary.</p>
-                <p>Our yacht chef services are designed around the unique challenges and opportunities of cooking at sea. We plan menus that work beautifully in a yacht galley, source ingredients that travel well, and present each course with the same precision you would expect in a fine dining restaurant. For inspiration, explore our <Link to="/blog/yacht-party-menu-ideas-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">yacht party menu ideas</Link> or browse <Link to="/luxury-dining-experiences" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury dining experiences</Link> for your next celebration.</p>
+                <p>There is nothing quite like dining on the water with Dubai&apos;s iconic skyline as your backdrop. Whether you are anchored off <Link to="/locations/palm-jumeirah" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Palm Jumeirah</Link>, cruising past Burj Al Arab, or watching the sunset over <Link to="/locations/dubai-marina" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Dubai Marina</Link> — a <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef</Link> elevates the experience to something truly extraordinary.</p>
+                <p>Our yacht chef services are designed around the unique challenges and opportunities of cooking at sea. We plan menus that work beautifully in a yacht galley, source ingredients that travel well, and present each course with the same precision you would expect in a fine dining restaurant. We board at <Link to="/locations/dubai-marina" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Dubai Marina</Link>, <Link to="/locations/palm-jumeirah" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Palm Jumeirah</Link>, <Link to="/locations/bluewaters-island" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Bluewaters Island</Link>, and <Link to="/locations/dubai-harbour" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Dubai Harbour</Link>. For inspiration, explore our <Link to="/blog/yacht-party-menu-ideas-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">yacht party menu ideas</Link> or browse <Link to="/luxury-dining-experiences" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury dining experiences</Link> for your next celebration.</p>
               </div>
             </div>
             <div className="yacht-exp-right">
@@ -412,27 +441,7 @@ export default function Yachts() {
               Common Questions About Yacht Catering
             </h2>
           </div>
-          <div className="space-y-0">
-            {faqItems.map((item, i) => (
-              <div key={i} className="border-b border-gray-200">
-                <button
-                  onClick={() => setOpenFaq(openFaq === i ? null : i)}
-                  className="w-full flex items-center justify-between py-5 text-left group"
-                >
-                  <span className="font-playfair text-h4 text-black group-hover:text-gold transition-colors pr-4">{item.q}</span>
-                  <ChevronDown
-                    size={20}
-                    className={`text-gold flex-shrink-0 transition-transform duration-300 ${openFaq === i ? 'rotate-180' : ''}`}
-                  />
-                </button>
-                <div
-                  className={`overflow-hidden transition-all duration-300 ${openFaq === i ? 'max-h-96 pb-5' : 'max-h-0'}`}
-                >
-                  <p className="font-inter text-body text-gray-500" style={{ lineHeight: '1.7' }}>{item.a}</p>
-                </div>
-              </div>
-            ))}
-          </div>
+          <FaqAccordion items={faqItems} showJumpNav />
         </div>
       </section>
 

@@ -16,7 +16,9 @@ import {
 } from 'lucide-react'
 import SEO from '../components/SEO'
 import TrustSignalStrip from '../components/TrustSignalStrip'
+import CorporateTrustStrip from '../components/CorporateTrustStrip'
 import FaqAccordion from '../components/FaqAccordion'
+import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -209,7 +211,9 @@ const schema = {
 
 /* ────────────────────── Component ────────────────────── */
 
+const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'd like a Business Lunch quote in Dubai. Date: __ Guests: __ Area: __"
 export default function BusinessLunchCatering() {
+  useWhatsAppMessage(PAGE_WHATSAPP_MESSAGE)
   const containerRef = useRef<HTMLDivElement>(null)
 
   useGSAP(() => {
@@ -309,6 +313,7 @@ export default function BusinessLunchCatering() {
       </section>
 
       <TrustSignalStrip variant="dark" />
+      <CorporateTrustStrip variant="dark" />
 
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">

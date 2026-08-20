@@ -1,12 +1,29 @@
 import { memo } from 'react'
-import { Link } from 'react-router'
+import { Link, useLocation } from 'react-router'
 import { Phone, FileText } from 'lucide-react'
+import { useStickyWhatsAppMessage } from '@/context/WhatsAppMessageContext'
+import { buildWhatsAppLink, DEFAULT_WHATSAPP_MESSAGE } from '@/lib/whatsapp'
 
-const WHATSAPP_NUMBER = '971551744849'
-const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to request a proposal')
-const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}&utm_source=mychef.ae&utm_medium=sticky_bar&utm_campaign=mobile`
+interface StickyMobileCTAProps {
+  whatsappMessage?: string
+}
 
-const StickyMobileCTA = memo(function StickyMobileCTA() {
+function sanitizeCampaign(pathname: string): string {
+  if (pathname === '/' || pathname === '') return 'home'
+  return pathname.replace(/^\//, '').replace(/\//g, '-')
+}
+
+const StickyMobileCTA = memo(function StickyMobileCTA({ whatsappMessage }: StickyMobileCTAProps) {
+  const ctxMessage = useStickyWhatsAppMessage()
+  const { pathname } = useLocation()
+
+  const message = whatsappMessage || ctxMessage || DEFAULT_WHATSAPP_MESSAGE
+  const whatsappLink = buildWhatsAppLink(message, {
+    source: 'mychef.ae',
+    medium: 'sticky_bar',
+    campaign: sanitizeCampaign(pathname),
+  })
+
   return (
     <div
       className="fixed bottom-0 left-0 right-0 z-40 lg:hidden bg-black/95 backdrop-blur-sm border-t border-white/10 shadow-[0_-4px_24px_rgba(0,0,0,0.5)]"
@@ -23,7 +40,7 @@ const StickyMobileCTA = memo(function StickyMobileCTA() {
             Get a Quote
           </Link>
           <a
-            href={WHATSAPP_LINK}
+            href={whatsappLink}
             target="_blank"
             rel="noopener noreferrer"
             className="btn-secondary flex-1 min-h-12 px-4 text-xs uppercase tracking-wider"

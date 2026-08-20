@@ -38,9 +38,9 @@
  },
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
-  "title": "Catering Packages Dubai | from AED 90 per person | myCHEF",
-  "meta_description": "Catering packages in Dubai with fixed per-head pricing: from AED 90 for a working lunch, AED 120 buffet, AED 150 live stations, AED 700–950 with a chef on site.",
-  "h1": "Catering Packages in Dubai — Real Prices, Menus and Timings"
+  "title": "Catering Packages Dubai | From AED 1,200 | Private Chef & Events | myCHEF",
+  "meta_description": "Ready-to-book catering packages in Dubai for date nights, birthdays, family feasts & corporate dinners. From AED 1,200. Vetted chefs included. Request your quote.",
+  "h1": "Catering Packages Dubai"
  },
  "opening_paragraph": [
   "myCHEF's catering packages in Dubai run from AED 90 a head for a working lunch to AED 700 and up with a chef cooking on site. Instead of a blank quote and days of back-and-forth, a package shows the cost upfront: you pick a menu and a service level, then confirm one price for your guest count. A vetted private chef and service team handle the cooking, setup and cleanup, so you stay a guest at your own event. Send your date, headcount and venue and we typically reply within 15 minutes during business hours."

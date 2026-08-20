@@ -17,6 +17,7 @@ import {
 import SEO from '../components/SEO'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import FaqAccordion from '../components/FaqAccordion'
+import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -223,7 +224,9 @@ const schema = {
 
 /* ────────────────────── Component ────────────────────── */
 
+const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'd like a Grazing Table quote in Dubai. Date: __ Guests: __ Area: __"
 export default function GrazingTable() {
+  useWhatsAppMessage(PAGE_WHATSAPP_MESSAGE)
   const containerRef = useRef<HTMLDivElement>(null)
 
   useGSAP(() => {
@@ -277,10 +280,11 @@ export default function GrazingTable() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Grazing Table Dubai | Artisan Grazing Spreads"
-        description="Artisan grazing tables in Dubai for bridal showers, baby showers, villa parties, and corporate events. Styled charcuterie spreads, full set-up and dietary options."
+        title="Grazing Table Dubai | Artisan Cheese & Charcuterie Spreads | myCHEF"
+        description="Artisan grazing tables in Dubai. Cheese & charcuterie spreads styled for showers, villas, weddings & corporate events. From AED __ for __ guests. Get a quote."
         canonicalPath="/grazing-table-dubai"
         ogImage="/menu-appetizer.webp"
+        hideSiteName
         schema={schema}
       />
 
@@ -302,7 +306,7 @@ export default function GrazingTable() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 graz-hero-h1">
-            Grazing Tables in Dubai
+            Grazing Tables & Charcuterie Spreads in Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 graz-hero-sub">
             Abundant artisan grazing spreads, styled corner to corner — from bridal showers and villa gatherings to corporate receptions across Dubai.

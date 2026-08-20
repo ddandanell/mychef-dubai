@@ -7,6 +7,7 @@ import FloatingChefChat from './FloatingChefChat'
 import SeoContent from './SeoContent'
 import SeoHead from './SeoHead'
 import ScrollManager from './ScrollManager'
+import { WhatsAppMessageProvider } from '@/context/WhatsAppMessageContext'
 
 interface LayoutProps {
   children: ReactNode
@@ -17,13 +18,15 @@ export default function Layout({ children }: LayoutProps) {
     <div className="min-h-[100dvh] flex flex-col bg-black text-white overflow-x-clip">
       <ScrollManager />
       <Navbar />
-      <main className="flex-1 pb-[calc(5rem+env(safe-area-inset-bottom))] lg:pb-0">
-        {children}
-        <SeoContent />
-      </main>
-      <ExploreSection />
-      <Footer />
-      <StickyMobileCTA />
+      <WhatsAppMessageProvider>
+        <main className="flex-1 pb-[calc(5rem+env(safe-area-inset-bottom))] lg:pb-0">
+          {children}
+          <SeoContent />
+        </main>
+        <ExploreSection />
+        <Footer />
+        <StickyMobileCTA />
+      </WhatsAppMessageProvider>
       <FloatingChefChat />
       <SeoHead />
     </div>

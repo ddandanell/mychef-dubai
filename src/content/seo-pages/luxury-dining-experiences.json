@@ -26,9 +26,9 @@
  },
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
-  "title": "Luxury Private Dining Dubai | from AED 950 per person | myCHEF",
-  "meta_description": "Luxury Private Dining in Dubai — chef-led fine-dining experiences at home. From AED 950 per person, vetted chefs, full service. Request a proposal from myCHEF.",
-  "h1": "Luxury Private Dining in Dubai — Prices, Formats and What You Get"
+  "title": "Private Dining Dubai | Luxury Chef Experiences in Villas & Penthouses | myCHEF",
+  "meta_description": "Luxury private dining in Dubai with a private chef at your villa, penthouse or yacht. Bespoke tasting menus, full service, halal options. Request a custom menu.",
+  "h1": "Luxury Private Dining Dubai — Fine Dining at Home"
  },
  "opening_paragraph": [
   "Luxury private dining dubai brings a fine-dining restaurant into your own home from AED 950 per person, cooked and served by a vetted private chef myCHEF matches to your table. It is the meal you would book for a milestone — an anniversary, a proposal, a table of people you rarely gather — arriving in your dining room instead of a booked-out restaurant. A chef and their team handle the market shopping, the knife work, the cooking, the plating and every dish carried away afterward, so the evening stays yours. Send the date, the headcount and the venue and an itemised proposal comes back promptly during our published business hours."

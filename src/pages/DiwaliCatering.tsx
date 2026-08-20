@@ -16,6 +16,7 @@ import {
 import SEO from '../components/SEO'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import FaqAccordion from '../components/FaqAccordion'
+import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -90,7 +91,7 @@ const useCases = [
   },
   {
     title: 'Villa & Large Celebrations',
-    description: 'For villa parties and large Diwali celebrations, our chefs scale menus and adds live cooking stations for theatre, keeping quality and presentation consistent however many guests gather.',
+    description: 'For villa parties and large Diwali celebrations, chefs in our network scale menus and add live cooking stations for theatre, keeping quality and presentation consistent however many guests gather.',
   },
 ]
 
@@ -208,7 +209,9 @@ const schema = {
 
 /* ────────────────────── Component ────────────────────── */
 
+const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'd like a Diwali quote in Dubai. Date: __ Guests: __ Area: __"
 export default function DiwaliCatering() {
+  useWhatsAppMessage(PAGE_WHATSAPP_MESSAGE)
   const containerRef = useRef<HTMLDivElement>(null)
 
   useGSAP(() => {
@@ -262,10 +265,11 @@ export default function DiwaliCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Diwali Catering Dubai | Indian Festive"
-        description="Diwali catering in Dubai with festive Indian menus, vegetarian and Jain spreads, live chaat stations, and traditional mithai. Book four to six weeks ahead — request your quote today."
+        title="Diwali Catering Dubai | Indian Festive Menus & Mithai | myCHEF"
+        description="Book Diwali catering in Dubai. Festive Indian menus, vegetarian and Jain spreads, live chaat stations and traditional mithai. Get a tailored quote in 15 minutes."
         canonicalPath="/diwali-catering-dubai"
         ogImage="/menu-meat.webp"
+        hideSiteName
         schema={schema}
       />
 
@@ -287,13 +291,13 @@ export default function DiwaliCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 diw-hero-h1">
-            Diwali Catering in Dubai
+            Diwali Catering Dubai: Indian Festive Menus & Mithai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 diw-hero-sub">
             Festive Indian menus for Diwali celebrations across Dubai — vegetarian and Jain spreads, live chaat stations, and traditional mithai for home, corporate, and villa gatherings.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=diwali-catering-dubai" className="btn-primary opacity-0 translate-y-4 diw-hero-cta">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=diwali-catering-dubai" className="btn-primary opacity-0 translate-y-4 diw-hero-cta">Get a Diwali Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -322,7 +326,7 @@ export default function DiwaliCatering() {
             Diwali is a festival of light, abundance, and togetherness — and the food carries its joy. At myCHEF Dubai, we bring vibrant Indian festive menus to homes, offices, and villas across the city, from rich North and South Indian classics to fully vegetarian and Jain spreads. Live chaat and dosa stations add theatre, while generous tables of mithai bring the celebration to a sweet close.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Whether you are hosting an intimate family Diwali, a corporate celebration, or a large villa party, our chefs cook on-site and our service team handle the service and pack-down, so the hosts can light the diyas and enjoy the evening. Our Diwali catering draws on our <Link to="/indian-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Indian catering</Link> and <Link to="/vegetarian-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">vegetarian catering</Link> menus, adds <Link to="/live-cooking-stations-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">live cooking stations</Link> for energy, and fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>. Because the festive period is busy, we recommend booking four to six weeks ahead.
+            Whether you are hosting an intimate family Diwali, a corporate celebration, or a large villa party, chefs in our network cook on-site and our service team handle the service and pack-down, so the hosts can light the diyas and enjoy the evening. Our Diwali catering draws on our <Link to="/indian-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Indian catering</Link> and <Link to="/vegetarian-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">vegetarian catering</Link> menus, adds <Link to="/live-cooking-stations-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">live cooking stations</Link> for energy, and fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>. Because the festive period is busy, we recommend booking four to six weeks ahead.
           </p>
         </div>
       </section>
@@ -505,7 +509,7 @@ export default function DiwaliCatering() {
             Tell us about your Diwali gathering and we'll design a festive Indian menu — vegetarian or mixed, with live stations and mithai — and handle every detail. Book four to six weeks ahead to secure your date.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=diwali-catering-dubai" className="btn-primary">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=diwali-catering-dubai" className="btn-primary">Get a Diwali Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

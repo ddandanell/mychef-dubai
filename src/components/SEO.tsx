@@ -6,10 +6,11 @@ interface SEOProps {
   canonicalPath?: string
   ogImage?: string
   noindex?: boolean
+  hideSiteName?: boolean
   schema?: Record<string, unknown>
 }
 
-const SITE_NAME = 'myCHEF Dubai'
+const SITE_NAME = 'myCHEF'
 const DEFAULT_TITLE = 'myCHEF Dubai — Premium Private Chef & Luxury Dining Experiences'
 const DEFAULT_DESCRIPTION = 'myCHEF Dubai designs private dining experiences and brings you professional, licensed chefs across Dubai. From villas to yachts — request your custom quote today.'
 const DEFAULT_OG_IMAGE = '/images/home-hero.webp'
@@ -21,9 +22,14 @@ export default function SEO({
   canonicalPath = '',
   ogImage = DEFAULT_OG_IMAGE,
   noindex = false,
+  hideSiteName = false,
   schema,
 }: SEOProps) {
-  const fullTitle = title ? `${title} | ${SITE_NAME}` : DEFAULT_TITLE
+  const fullTitle = title
+    ? hideSiteName
+      ? title
+      : `${title} | ${SITE_NAME}`
+    : DEFAULT_TITLE
 
   const canonicalUrl = `${SITE_URL}${canonicalPath}`
 

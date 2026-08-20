@@ -15,6 +15,7 @@ interface Meta {
   title: string
   description: string
   source: 'direct' | 'config' | 'prop' | 'location' | 'chef'
+  hideSiteName?: boolean
 }
 
 function findTsx(dir: string): string[] {
@@ -42,7 +43,12 @@ function extractSEO(content: string): Meta | null {
     const titleMatch = props.match(/title=\{?"([^"]+)"\}?/)
     const descMatch = props.match(/description=\{?"([^"]+)"\}?/)
     if (titleMatch && descMatch) {
-      return { title: titleMatch[1], description: descMatch[1], source: 'direct' }
+      return {
+        title: titleMatch[1],
+        description: descMatch[1],
+        source: 'direct',
+        hideSiteName: /\bhideSiteName\b/.test(props),
+      }
     }
   }
   return null
@@ -56,6 +62,7 @@ function extractConfig(content: string): Meta | null {
       title: normaliseWhitespace(titleMatch[1]),
       description: normaliseWhitespace(descMatch[1]),
       source: 'config',
+      hideSiteName: /\bhideSiteName:\s*true\b/.test(content),
     }
   }
   return null
@@ -102,7 +109,9 @@ function logIssue(type: string, label: string, detail: string) {
 }
 
 function checkMeta(meta: Meta, label: string) {
-  const finalTitleLen = meta.title.length + TITLE_SUFFIX.length
+  const finalTitleLen = meta.hideSiteName
+    ? meta.title.length
+    : meta.title.length + TITLE_SUFFIX.length
 
   if (finalTitleLen > MAX_FINAL_TITLE_LEN) {
     logIssue(
@@ -112,7 +121,7 @@ function checkMeta(meta: Meta, label: string) {
     )
   }
 
-  if (/[,|]\s*myCHEF(?:\s+Dubai)?\s*$/.test(meta.title)) {
+  if (/[,|]\s*myCHEF(?:\s+Dubai)?\s*$/.test(meta.title) && !meta.hideSiteName) {
     logIssue('DUP_SUFFIX', label, meta.title)
   }
 
@@ -149,12 +158,19 @@ for (const f of files) {
 }
 
 // 2. Lint location data
+const locationDetailContent = fs.readFileSync(
+  path.join(pagesDir, 'LocationDetail.tsx'),
+  'utf8'
+)
+const locationDetailHidesSiteName = /\bhideSiteName\b/.test(locationDetailContent)
+
 for (const loc of allLocations) {
   checkMeta(
     {
       title: loc.title,
       description: loc.metaDescription,
       source: 'location',
+      hideSiteName: locationDetailHidesSiteName,
     },
     `locations:${loc.slug}`
   )

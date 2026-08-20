@@ -12,6 +12,7 @@ import {
 import SEO from '../../components/SEO'
 import TrustSignalStrip from '../../components/TrustSignalStrip'
 import FaqAccordion from '../../components/FaqAccordion'
+import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -66,6 +67,7 @@ export interface ServicePageConfig {
   introH2: string
   introNodes: ReactNode
   noindex?: boolean
+  hideSiteName?: boolean
   showTrustSignalStrip?: boolean
   formats: FormatItem[]
   formatsH2: string
@@ -81,6 +83,7 @@ export interface ServicePageConfig {
   relatedServices: RelatedService[]
   ctaH2: string
   ctaP: string
+  primaryCta?: string
 }
 
 interface Props {
@@ -89,6 +92,8 @@ interface Props {
 
 export default function ServiceLandingPage({ config }: Props) {
   const containerRef = useRef<HTMLDivElement>(null)
+
+  useWhatsAppMessage(config.whatsappMessage)
 
   const WHATSAPP_MESSAGE = encodeURIComponent(config.whatsappMessage)
   const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
@@ -190,6 +195,7 @@ export default function ServiceLandingPage({ config }: Props) {
         canonicalPath={config.canonicalPath}
         ogImage={config.ogImage}
         noindex={config.noindex}
+        hideSiteName={config.hideSiteName}
         schema={schema}
       />
 
@@ -224,7 +230,7 @@ export default function ServiceLandingPage({ config }: Props) {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={inquiryLink} className="btn-primary opacity-0 translate-y-4 svc-hero-cta">
-              Request a Proposal
+              {config.primaryCta || 'Request a Proposal'}
             </Link>
             <a
               href={WHATSAPP_LINK}
@@ -394,7 +400,7 @@ export default function ServiceLandingPage({ config }: Props) {
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">{config.ctaP}</p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={inquiryLink} className="btn-primary">
-              Request a Proposal
+              {config.primaryCta || 'Request a Proposal'}
             </Link>
             <a
               href={WHATSAPP_LINK}

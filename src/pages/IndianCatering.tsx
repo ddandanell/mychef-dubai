@@ -17,6 +17,7 @@ import {
 import SEO from '../components/SEO'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import FaqAccordion from '../components/FaqAccordion'
+import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -230,7 +231,9 @@ const schema = {
 
 /* ────────────────────── Component ────────────────────── */
 
+const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'm interested in Indian catering in Dubai. Date: __ Guests: __ Area: __"
 export default function IndianCatering() {
+  useWhatsAppMessage(PAGE_WHATSAPP_MESSAGE)
   const containerRef = useRef<HTMLDivElement>(null)
 
   useGSAP(() => {
@@ -284,8 +287,8 @@ export default function IndianCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Indian Catering Dubai | Biryani & Tandoor"
-        description="Indian catering in Dubai for weddings, villas, and corporate events. North & South Indian menus, live tandoor and chaat stations, biryani, halal and Jain options."
+        title="Indian Catering Dubai | Wedding, Party & Corporate"
+        description="Indian catering Dubai for weddings, parties, villas & corporate events. North & South Indian menus, live tandoor, biryani, halal & Jain options. Quote in ~15 mins."
         canonicalPath="/indian-catering-dubai"
         ogImage="/menu-meat.webp"
         schema={schema}

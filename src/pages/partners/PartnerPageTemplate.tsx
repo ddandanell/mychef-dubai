@@ -8,6 +8,7 @@ import SEO from '../../components/SEO'
 import PageHero from '../../components/PageHero'
 import TrustSignalStrip from '../../components/TrustSignalStrip'
 import { breadcrumbSchema, serviceSchema } from '../../utils/schema'
+import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -58,8 +59,9 @@ export default function PartnerPageTemplate({
 }: PartnerPageTemplateProps) {
   const containerRef = useRef<HTMLDivElement>(null)
 
-  const WHATSAPP_MESSAGE = encodeURIComponent(`Hi myCHEF Dubai, I'd like to discuss a partnership for ${name} (via mychef.ae${canonicalPath})`)
-  const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
+  const PAGE_WHATSAPP_MESSAGE = `Hi myCHEF Dubai, I'd like to discuss a partnership for ${name} (via mychef.ae${canonicalPath})`
+  useWhatsAppMessage(PAGE_WHATSAPP_MESSAGE)
+  const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(PAGE_WHATSAPP_MESSAGE)}`
 
   const schema = {
     '@context': 'https://schema.org',

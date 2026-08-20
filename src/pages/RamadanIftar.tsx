@@ -17,6 +17,7 @@ import {
 import SEO from '../components/SEO'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import FaqAccordion from '../components/FaqAccordion'
+import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -81,7 +82,7 @@ const howItWorks = [
   { title: 'Share Your Iftar Plans', description: 'Tell us your dates, guest count, location in Dubai, and any dietary or halal requirements for the gathering.' },
   { title: 'Receive a Custom Proposal', description: 'We design a bespoke Iftar menu with traditional and contemporary dishes, service style, and staffing plan.' },
   { title: 'Confirm Your Booking', description: 'Once the menu and logistics are approved, we lock in your preferred Ramadan dates and confirm every detail.' },
-  { title: 'We Source Ingredients', description: 'our chefs shop for fresh produce, premium proteins, dates, and specialty ingredients ahead of the event.' },
+  { title: 'We Source Ingredients', description: 'Chefs in our network shop for fresh produce, premium proteins, dates, and specialty ingredients ahead of the event.' },
   { title: 'Arrive & Prepare On-Site', description: 'Chefs and service staff arrive early to set up, prepare dishes, and be ready the moment the fast is broken.' },
   { title: 'Serve, Support & Clean', description: 'We host your Iftar service, attend to guests, and clear away everything afterwards, leaving your space tidy.' },
 ]
@@ -215,7 +216,9 @@ const schema = {
 
 /* ────────────────────── Component ────────────────────── */
 
+const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'd like a Iftar quote in Dubai. Date: __ Guests: __ Area: __"
 export default function RamadanIftar() {
+  useWhatsAppMessage(PAGE_WHATSAPP_MESSAGE)
   const containerRef = useRef<HTMLDivElement>(null)
 
   useGSAP(() => {
@@ -279,10 +282,11 @@ export default function RamadanIftar() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Iftar Catering Dubai | Ramadan Private Chef"
-        description="Iftar catering and Ramadan private chef service in Dubai. Traditional menus, dates, mezze, grills, desserts, and full service for family and corporate Iftars."
+        title="Iftar Catering Dubai | Ramadan Private Chef & Buffet | myCHEF"
+        description="Book Iftar catering in Dubai. Ramadan private chef and buffet service with dates, mezze, grills, desserts and full service for family and corporate Iftars. Get a tailored quote in 15 minutes."
         canonicalPath="/iftar-catering-dubai"
         ogImage="/service-catering.webp"
+        hideSiteName
         schema={schema}
       />
 
@@ -309,13 +313,13 @@ export default function RamadanIftar() {
             Ramadan Kareem
           </p>
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 iftar-hero-h1">
-            Iftar Catering & Ramadan Private Chef in Dubai
+            Iftar Catering Dubai: Ramadan Private Chef & Buffet Service
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 iftar-hero-sub">
             Traditional and contemporary Iftar menus prepared in your home, villa, office, or event space. From sunset dates to late-night Suhoor, we honour the spirit of Ramadan with exceptional food and attentive service.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=iftar-catering-dubai" className="btn-primary opacity-0 translate-y-4 iftar-hero-cta">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=iftar-catering-dubai" className="btn-primary opacity-0 translate-y-4 iftar-hero-cta">Get an Iftar Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -344,7 +348,7 @@ export default function RamadanIftar() {
             Iftar is more than a meal — it is a moment of gratitude, togetherness, and tradition. At myCHEF Dubai, we create Iftar catering experiences that respect the rhythm of Ramadan while delivering food your guests will remember. From the first date to the final cup of Arabic coffee, every detail is planned around your family, your colleagues, or your community.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Whether you are hosting an intimate family Iftar, a corporate gathering for staff, or a community event at a hotel or event space, our chefs bring the menu, staff, and setup to you. Menus can be adapted to guest count, dietary needs, and event style, ensuring each evening feels personal and effortless.
+            Whether you are hosting an intimate family Iftar, a corporate gathering for staff, or a community event at a hotel or event space, chefs in our network bring the menu, staff, and setup to you. Menus can be adapted to guest count, dietary needs, and event style, ensuring each evening feels personal and effortless.
           </p>
         </div>
       </section>
@@ -499,10 +503,10 @@ export default function RamadanIftar() {
             </h2>
             <div className="space-y-5">
               <p className="font-inter text-body-lg text-gray-400 leading-relaxed">
-                We understand that Ramadan catering in Dubai is about more than great food. It is about timing, hospitality, and respect for tradition. Our chefs and service teams arrive prepared, serve with discretion, and ensure that the fast is broken smoothly and beautifully.
+                We understand that Ramadan catering in Dubai is about more than great food. It is about timing, hospitality, and respect for tradition. Chefs in our network and service teams arrive prepared, serve with discretion, and ensure that the fast is broken smoothly and beautifully.
               </p>
               <p className="font-inter text-body-lg text-gray-400 leading-relaxed">
-                We plan every Iftar around your schedule, your space, and your guests. Menus are fully customised, dietary requirements are carefully managed, and our chefs handle setup, service, and clear-down so you can focus on what matters most during the holy month.
+                We plan every Iftar around your schedule, your space, and your guests. Menus are fully customised, dietary requirements are carefully managed, and chefs in our network handle setup, service, and clear-down so you can focus on what matters most during the holy month.
               </p>
             </div>
           </div>
@@ -650,7 +654,7 @@ export default function RamadanIftar() {
             Ramadan dates fill quickly. Share your plans and we will design a custom Iftar menu and service plan for your home, office, or event space in Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=iftar-catering-dubai" className="btn-primary">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=iftar-catering-dubai" className="btn-primary">Get an Iftar Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

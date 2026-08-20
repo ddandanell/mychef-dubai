@@ -12,6 +12,7 @@ import SEO from '@/components/SEO'
 import PageHero from '@/components/PageHero'
 import LocationStrip from '@/components/LocationStrip'
 import TrustSignalStrip from '@/components/TrustSignalStrip'
+import CorporateTrustStrip from '@/components/CorporateTrustStrip'
 import StarterPackagesSection from '@/sections/StarterPackagesSection'
 import {
   breadcrumbSchema,
@@ -19,6 +20,7 @@ import {
   serviceSchema,
 } from '@/utils/schema'
 import { Check, Quote, Star, ArrowRight, Clock, Shield, Award, Users, Leaf, FileText, Building, PartyPopper, } from 'lucide-react'
+import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -240,7 +242,9 @@ const schema = [
 
 /* ───── Page Component ───── */
 
+const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'm interested in corporate catering in Dubai. Date: __ Guests: __ Area: __"
 export default function Corporate() {
+  useWhatsAppMessage(PAGE_WHATSAPP_MESSAGE)
   const cardsRef = useRef<HTMLDivElement>(null)
   const solutionsRef = useRef<HTMLDivElement>(null)
   const trustRef = useRef<HTMLDivElement>(null)
@@ -363,26 +367,28 @@ export default function Corporate() {
   return (
     <>
       <SEO
-        title="Corporate Dining & Private Chef Dubai"
-        description="Private dining experiences and chef-coordinated corporate events in Dubai. myCHEF designs menus and manages every detail — request a tailored quote."
+        title="Corporate Catering Dubai | Office Lunches & Events | From AED 90pp"
+        description="Corporate catering and private dining in Dubai for offices, conferences, product launches & galas. Vetted chefs, halal menus, consolidated invoicing. Get a quote."
         canonicalPath="/corporate"
         ogImage="/service-corporate.webp"
+        hideSiteName
         schema={schema as unknown as Record<string, unknown>}
       />
 
       {/* ─── Hero ─── */}
       <PageHero
-        title="Corporate Dining & Event Catering Dubai"
+        title="Corporate Catering Dubai — Office, Boardroom & Events"
         subtitle="Impress clients. Reward teams. Elevate every business occasion with premium corporate dining and catering. We reply within 15 minutes during business hours."
         image="/images/corporate-catering-dubai-hero.webp"
         imageAlt="Corporate catering in Dubai"
         cta={{ label: 'Get a Corporate Quote', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=corporate' }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Corporate' }]}
-        minHeight="tall"
+        minHeight="medium"
         overlay="dark"
       />
       <TrustSignalStrip />
+      <CorporateTrustStrip />
 
       {/* ─── Corporate Services ─── */}
       <section className="bg-white section-padding">
@@ -397,9 +403,11 @@ export default function Corporate() {
             <p className="font-inter text-body text-gray-500 leading-relaxed mt-4 max-w-[700px] mx-auto">
               Tell us about your event and we will bring you a vetted chef within 24 hours.
               We deliver corporate catering across Dubai's key business districts, including{' '}
-              <Link to="/locations/business-bay" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Business Bay</Link>{' '}
-              and{' '}
-              <Link to="/locations/difc" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">DIFC</Link>,
+              <Link to="/locations/business-bay" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Business Bay</Link>,{' '}
+              <Link to="/locations/difc" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">DIFC</Link>,{' '}
+              <Link to="/locations/downtown-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Downtown Dubai</Link>,{' '}
+              <Link to="/locations/dubai-media-city" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Dubai Media City</Link>, and{' '}
+              <Link to="/locations/dubai-internet-city" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Dubai Internet City</Link>,
               from boardroom lunches to{' '}
               <Link to="/corporate-event-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">company-wide events</Link>.
             </p>

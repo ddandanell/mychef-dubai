@@ -11,6 +11,7 @@ import TrustSignalStrip from '../components/TrustSignalStrip'
 import StarterPackagesSection from '@/sections/StarterPackagesSection'
 import FaqAccordion from '../components/FaqAccordion'
 import { plainFaqAnswer } from '../utils/schema'
+import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -200,6 +201,30 @@ const faqs = [
     q: 'How much should I tip a private chef in Dubai?',
     a: 'Tipping is appreciated but never expected — service is included in your quote. If a chef and team exceed expectations, many hosts add 10–15%, but it is entirely at your discretion.',
   },
+  {
+    q: 'Can I hire a private chef for two people in Dubai?',
+    a: 'Yes. Intimate dinners for two are one of our most popular private chef bookings. A chef designs a bespoke multi-course menu in your home, villa, or apartment — perfect for date nights, anniversaries, or small celebrations. Pricing starts from around [AED 700 per person](/private-chef-prices-dubai), with the final quote depending on menu, location, and any added service staff.',
+  },
+  {
+    q: 'Do private chefs bring ingredients and groceries?',
+    a: 'Yes. Your chef handles all grocery shopping and brings every ingredient needed for the menu, sourced fresh the same day from trusted suppliers. You do not need to stock the kitchen, prep anything, or clean up afterwards.',
+  },
+  {
+    q: 'How far in advance should I book a private chef in Dubai?',
+    a: 'For most dinners, 48 hours is enough. For peak weekends, holidays, or larger events, 1–2 weeks is better. Last-minute requests are accommodated when chef availability allows, so it is always worth messaging us to check.',
+  },
+  {
+    q: 'Do you provide halal menus for private dining?',
+    a: 'Yes. Halal sourcing is our default, and the chefs in our network can work in halal kitchens with segregated preparation on request. See our full approach to [halal catering in Dubai](/halal-catering-dubai).',
+  },
+  {
+    q: 'Does the private chef clean up afterwards?',
+    a: 'Yes. Full kitchen cleanup is included in every private chef booking. The chef leaves your kitchen spotless and stores any leftovers neatly before departing, so your evening feels effortless from start to finish.',
+  },
+  {
+    q: 'Can I book a private chef for a villa in Palm Jumeirah?',
+    a: 'Yes. We place chefs in villas, apartments, and penthouses across Dubai, including [Palm Jumeirah](/locations/palm-jumeirah), [Dubai Marina](/locations/dubai-marina), [Downtown Dubai](/locations/downtown-dubai), and [Emirates Hills](/locations/emirates-hills). The chef adapts to your kitchen and confirms access and equipment details before the date.',
+  },
 ]
 
 const relatedServices = [
@@ -270,7 +295,9 @@ const faqPageSchema = {
 
 /* ────────────────────── Component ────────────────────── */
 
+const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'm interested in a private chef in Dubai. Date: __ Guests: __ Area: __"
 export default function PrivateChef() {
+  useWhatsAppMessage(PAGE_WHATSAPP_MESSAGE)
   const containerRef = useRef<HTMLDivElement>(null)
   const [activeServiceTab, setActiveServiceTab] = useState(0)
 
@@ -335,23 +362,24 @@ export default function PrivateChef() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Private Chef Dubai | Hire a Personal Chef"
-        description="Hire a professional private chef in Dubai. Bespoke dining experiences in your villa, home, or yacht. Fully customized menus. Request your quote today."
+        title="Private Chef Dubai | Hire a Personal Chef at Home | From AED 700pp"
+        description="Hire a vetted private chef in Dubai for villas, yachts & homes. Bespoke menus, halal-first, full service. Quote in 15 minutes during business hours."
         canonicalPath="/private-chef-dubai"
         ogImage="/service-private-chef.webp"
+        hideSiteName
         schema={{ ...schema, ...breadcrumbSchema, ...faqPageSchema }}
       />
 
       {/* ═══════════════ Section 1: Hero ═══════════════ */}
       <PageHero
-        title="Hire a Private Chef in Dubai"
+        title="Book a Private Chef in Dubai"
         subtitle="Tell us about your event and we will bring you a vetted private chef. We reply within 15 minutes during business hours. Fully bespoke menus, prepared in your home or villa, with service and cleanup included."
         image="/images/private-chef-dubai-hero.webp"
         imageAlt="Private chef preparing a meal in Dubai"
         cta={{ label: 'Request a Private Chef Quote', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=private-chef-dubai' }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Private Chef Dubai' }]}
-        minHeight="tall"
+        minHeight="medium"
         overlay="dark"
       />
       <TrustSignalStrip />
@@ -377,8 +405,11 @@ export default function PrivateChef() {
               </p>
               <p className="font-inter text-body text-gray-500 leading-relaxed">
                 At myCHEF Dubai, our private chef service includes menu consultation, ingredient sourcing, meal preparation, professional plating, table service, and complete kitchen cleanup. You simply enjoy the evening. Tell us about your occasion and we will send a tailored proposal within 24 hours. We regularly serve clients in{' '}
-                <Link to="/locations/downtown-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Downtown Dubai</Link>{' '}
-                and across every major Dubai community, from relaxed family dinners to{' '}
+                <Link to="/locations/downtown-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Downtown Dubai</Link>,{' '}
+                <Link to="/locations/palm-jumeirah" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Palm Jumeirah</Link>,{' '}
+                <Link to="/locations/dubai-marina" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Dubai Marina</Link>, and{' '}
+                <Link to="/locations/emirates-hills" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Emirates Hills</Link>,
+                {' '}and across every major Dubai community, from relaxed family dinners to{' '}
                 <Link to="/luxury-dining-experiences" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury private dining</Link>{' '}
                 experiences.
               </p>

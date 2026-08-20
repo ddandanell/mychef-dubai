@@ -17,6 +17,7 @@ import {
 import SEO from '../components/SEO'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import FaqAccordion from '../components/FaqAccordion'
+import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -229,7 +230,9 @@ const schema = {
 
 /* ────────────────────── Component ────────────────────── */
 
+const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'd like a Sushi quote in Dubai. Date: __ Guests: __ Area: __"
 export default function SushiCatering() {
+  useWhatsAppMessage(PAGE_WHATSAPP_MESSAGE)
   const containerRef = useRef<HTMLDivElement>(null)
 
   useGSAP(() => {
@@ -283,8 +286,8 @@ export default function SushiCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Sushi Catering Dubai | Live Sushi Chef"
-        description="Sushi catering in Dubai with sashimi and nigiri platters, signature maki, and a live sushi chef for villas, yachts, and corporate events. Request your custom quote."
+        title="Sushi Catering Dubai | Live Sushi Chef & Platters"
+        description="Sushi catering Dubai for villas, yachts & corporate events. Sashimi & nigiri platters, signature maki, live sushi chef. Quote in ~15 mins."
         canonicalPath="/sushi-catering-dubai"
         ogImage="/menu-seafood.webp"
         schema={schema}

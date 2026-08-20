@@ -16,6 +16,7 @@ import {
 import SEO from '../components/SEO'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import FaqAccordion from '../components/FaqAccordion'
+import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -90,7 +91,7 @@ const useCases = [
   },
   {
     title: 'Large & Community Evenings',
-    description: 'For sizeable gatherings, charity iftars, and community evenings, our chefs scale menus and service while keeping quality consistent from the first guest to the last, however large the room.',
+    description: 'For sizeable gatherings, charity iftars, and community evenings, chefs in our network scale menus and service while keeping quality consistent from the first guest to the last, however large the room.',
   },
 ]
 
@@ -208,7 +209,9 @@ const schema = {
 
 /* ────────────────────── Component ────────────────────── */
 
+const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'd like a Ramadan quote in Dubai. Date: __ Guests: __ Area: __"
 export default function RamadanCatering() {
+  useWhatsAppMessage(PAGE_WHATSAPP_MESSAGE)
   const containerRef = useRef<HTMLDivElement>(null)
 
   useGSAP(() => {
@@ -262,10 +265,11 @@ export default function RamadanCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Ramadan Catering Dubai | Iftar & Suhoor Menus"
-        description="Ramadan catering in Dubai with halal iftar and suhoor menus, corporate iftar, home and majlis gatherings, and villa service. Book six to eight weeks ahead — request your quote."
+        title="Ramadan Catering Dubai | Iftar, Suhoor & Private Chef Service"
+        description="Book Ramadan catering in Dubai. Halal iftar and suhoor menus for homes, majlis, villas and corporate gatherings. Get a tailored quote in 15 minutes."
         canonicalPath="/ramadan-catering-dubai"
         ogImage="/service-events.webp"
+        hideSiteName
         schema={schema}
       />
 
@@ -287,13 +291,13 @@ export default function RamadanCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 ram-hero-h1">
-            Ramadan Catering in Dubai
+            Ramadan Catering Dubai: Iftar, Suhoor & Private Chef Service
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 ram-hero-sub">
             Halal iftar and suhoor menus for home, majlis, corporate, and villa gatherings across Dubai — traditional spreads, attentive service, and timing planned around prayer.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=ramadan-catering-dubai" className="btn-primary opacity-0 translate-y-4 ram-hero-cta">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=ramadan-catering-dubai" className="btn-primary opacity-0 translate-y-4 ram-hero-cta">Secure My Ramadan Date</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -309,6 +313,15 @@ export default function RamadanCatering() {
 
       <TrustSignalStrip variant="dark" />
 
+      {/* ═══════════════ Urgency Banner ═══════════════ */}
+      <section className="bg-gold py-4">
+        <div className="container-custom text-center">
+          <p className="font-inter text-sm font-medium text-black">
+            Book early — Ramadan dates fill up quickly. Limited availability for Iftar and Suhoor during the Holy Month.
+          </p>
+        </div>
+      </section>
+
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
@@ -322,7 +335,7 @@ export default function RamadanCatering() {
             Ramadan is a season of gathering — of breaking the fast together at Maghrib and sharing quiet suhoor before the day begins. At myCHEF Dubai, we treat the holy month with the care it deserves, bringing generous, halal spreads to homes, majlis, offices, and villas across the city. From the first date and bowl of soup to slow-cooked mains and traditional sweets, every menu is built to honour the occasion and welcome your guests.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Whether you are hosting an intimate family iftar, a corporate function for your team, a community evening, or a late-night suhoor, our chefs and service staff handle the cooking, timing, and pack-down on-site. Explore our Ramadan formats below — from <Link to="/iftar-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">iftar catering</Link> and <Link to="/suhoor-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">suhoor catering</Link> to <Link to="/eid-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Eid feasts</Link> — or see how it fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>. Because the season is in such demand, we recommend booking six to eight weeks ahead.
+            Whether you are hosting an intimate family iftar, a corporate function for your team, a community evening, or a late-night suhoor, chefs in our network and service staff handle the cooking, timing, and pack-down on-site. Explore our Ramadan formats below — from <Link to="/iftar-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">iftar catering</Link> and <Link to="/suhoor-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">suhoor catering</Link> to <Link to="/eid-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Eid feasts</Link> — or see how it fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>. Because the season is in such demand, we recommend booking six to eight weeks ahead.
           </p>
         </div>
       </section>
@@ -522,7 +535,7 @@ export default function RamadanCatering() {
             Tell us about your iftar or suhoor and we'll design a halal menu, time the service around prayer, and handle every detail. Booking six to eight weeks ahead secures your dates.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=ramadan-catering-dubai" className="btn-primary">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=ramadan-catering-dubai" className="btn-primary">Secure My Ramadan Date</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

@@ -18,6 +18,7 @@ import SEO from '../components/SEO'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import LocationStrip from '../components/LocationStrip'
 import FaqAccordion from '../components/FaqAccordion'
+import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -262,7 +263,9 @@ const schema = {
 
 /* ────────────────────── Component ────────────────────── */
 
+const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'd like a Party quote in Dubai. Date: __ Guests: __ Area: __"
 export default function PartyCatering() {
+  useWhatsAppMessage(PAGE_WHATSAPP_MESSAGE)
   const containerRef = useRef<HTMLDivElement>(null)
 
   useGSAP(() => {
@@ -325,15 +328,15 @@ export default function PartyCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Party Dining Dubai | Private Celebrations"
-        description="Chef-coordinated party dining in Dubai for birthdays, bachelor and bachelorette parties, baby showers, and private celebrations. Bespoke menus, canapés, and drinks."
+        title="Party Catering Dubai | Canapés, Grazing & Live Stations"
+        description="Party catering in Dubai for birthdays, bachelor/bachelorette parties, baby showers & private celebrations. Bespoke menus, canapés, full service. Get a quote."
         canonicalPath="/party-catering-dubai"
         ogImage="/service-events.webp"
         schema={schema}
       />
 
       {/* ═══════════════ Section 1: Hero ═══════════════ */}
-      <section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
+      <section className="relative min-h-[55dvh] md:min-h-[65dvh] flex items-center justify-center bg-black overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
           style={{ backgroundImage: 'url(/images/party-catering-dubai-hero.webp)' }}
@@ -350,7 +353,7 @@ export default function PartyCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 pty-hero-h1">
-            Party Catering in Dubai
+            Party Catering Dubai — Birthdays, Yacht & Villa Celebrations
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 pty-hero-sub">
             From milestone birthdays to bachelor and bachelorette nights, baby showers, and intimate private parties — bespoke menus, beautiful styling, and flawless service across Dubai.

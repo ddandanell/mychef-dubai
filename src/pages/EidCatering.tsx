@@ -16,6 +16,7 @@ import {
 import SEO from '../components/SEO'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import FaqAccordion from '../components/FaqAccordion'
+import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -90,7 +91,7 @@ const useCases = [
   },
   {
     title: 'Large Eid Celebrations',
-    description: 'For sizeable Eid celebrations and extended-family feasts, our chefs scale menus and service while keeping quality and presentation consistent, however many guests gather around the table.',
+    description: 'For sizeable Eid celebrations and extended-family feasts, chefs in our network scale menus and service while keeping quality and presentation consistent, however many guests gather around the table.',
   },
 ]
 
@@ -208,7 +209,9 @@ const schema = {
 
 /* ────────────────────── Component ────────────────────── */
 
+const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'd like a Eid quote in Dubai. Date: __ Guests: __ Area: __"
 export default function EidCatering() {
+  useWhatsAppMessage(PAGE_WHATSAPP_MESSAGE)
   const containerRef = useRef<HTMLDivElement>(null)
 
   useGSAP(() => {
@@ -262,10 +265,11 @@ export default function EidCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Eid Catering Dubai | al-Fitr & al-Adha"
-        description="Eid catering in Dubai with halal feasts for Eid al-Fitr and al-Adha, ouzi and whole-lamb roasts, family gatherings, and Eid sweets. Book early — request your custom quote today."
+        title="Eid Catering Dubai | al-Fitr & al-Adha Feasts | myCHEF"
+        description="Book Eid catering in Dubai. Halal feasts for Eid al-Fitr and al-Adha, ouzi and whole-lamb roasts, family gatherings and Eid sweets. Get a tailored quote in 15 minutes."
         canonicalPath="/eid-catering-dubai"
         ogImage="/service-events.webp"
+        hideSiteName
         schema={schema}
       />
 
@@ -287,13 +291,13 @@ export default function EidCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 eid-hero-h1">
-            Eid Catering in Dubai
+            Eid Catering Dubai: al-Fitr & al-Adha Family Feasts
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 eid-hero-sub">
             Halal Eid al-Fitr and Eid al-Adha feasts for family gatherings across Dubai — ouzi and whole-lamb roasts, generous mezze and grills, and traditional Eid sweets.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=eid-catering-dubai" className="btn-primary opacity-0 translate-y-4 eid-hero-cta">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=eid-catering-dubai" className="btn-primary opacity-0 translate-y-4 eid-hero-cta">Get an Eid Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -322,7 +326,7 @@ export default function EidCatering() {
             Eid is a time of abundance, gratitude, and gathering — and the table sits at the heart of it. At myCHEF Dubai, we bring generous, halal feasts to homes, villas, and majlis across the city for both Eid al-Fitr and Eid al-Adha. From mezze and mixed grills to showstopping ouzi and whole-lamb roasts carved at the table, every menu is built to celebrate the occasion and welcome the people you love.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Whether you are hosting an intimate family gathering or a large extended-family feast, our chefs cook on-site and our service team handle the service and pack-down, so the hosts can enjoy the day too. Eid follows our wider <Link to="/ramadan-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Ramadan catering in Dubai</Link>, draws on our <Link to="/arabic-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Arabic catering</Link> menus, finishes with a <Link to="/dessert-table-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">dessert table</Link> of traditional sweets, and fits within our <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>. Because demand around Eid is high, we recommend booking six to eight weeks ahead.
+            Whether you are hosting an intimate family gathering or a large extended-family feast, chefs in our network cook on-site and our service team handle the service and pack-down, so the hosts can enjoy the day too. Eid follows our wider <Link to="/ramadan-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Ramadan catering in Dubai</Link>, draws on our <Link to="/arabic-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Arabic catering</Link> menus, finishes with a <Link to="/dessert-table-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">dessert table</Link> of traditional sweets, and fits within our <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>. Because demand around Eid is high, we recommend booking six to eight weeks ahead.
           </p>
         </div>
       </section>
@@ -505,7 +509,7 @@ export default function EidCatering() {
             Tell us about your Eid gathering and we'll design a halal feast — ouzi, grills, and sweets — handle the cooking and service, and let you enjoy the day. Book six to eight weeks ahead to secure your dates.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=eid-catering-dubai" className="btn-primary">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=eid-catering-dubai" className="btn-primary">Get an Eid Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

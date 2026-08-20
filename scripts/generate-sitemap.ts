@@ -12,7 +12,7 @@ import path from 'path'
 import { fileURLToPath } from 'url'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
-const APP_TSX = path.resolve(__dirname, '../src/App.tsx')
+const ROUTES_TSX = path.resolve(__dirname, '../src/routes.tsx')
 const SITEMAP_OUT = path.resolve(__dirname, '../public/sitemap.xml')
 const DOMAIN = 'https://www.mychef.ae'
 
@@ -92,7 +92,8 @@ const PRIORITY_RULES: { pattern: RegExp; priority: number; changefreq: string; s
 
 function parseRoutes(source: string): string[] {
   const routes: string[] = []
-  const routeRegex = /<Route\s+path=["']([^"']+)["']/g
+  // Match route declarations in src/routes.tsx: { path: "/...", ... }
+  const routeRegex = /\{\s*path:\s*["']([^"']+)["']/g
   let match: RegExpExecArray | null
   while ((match = routeRegex.exec(source)) !== null) {
     const pathStr = match[1]
@@ -173,7 +174,7 @@ function buildSitemap(paths: string[]): string {
 }
 
 function main() {
-  const source = fs.readFileSync(APP_TSX, 'utf8')
+  const source = fs.readFileSync(ROUTES_TSX, 'utf8')
   const routes = parseRoutes(source)
   const xml = buildSitemap(routes)
   fs.writeFileSync(SITEMAP_OUT, xml)

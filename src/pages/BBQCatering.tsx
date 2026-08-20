@@ -17,6 +17,7 @@ import {
 import SEO from '../components/SEO'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import FaqAccordion from '../components/FaqAccordion'
+import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -230,7 +231,9 @@ const schema = {
 
 /* ────────────────────── Component ────────────────────── */
 
+const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'd like a Bbq quote in Dubai. Date: __ Guests: __ Area: __"
 export default function BBQCatering() {
+  useWhatsAppMessage(PAGE_WHATSAPP_MESSAGE)
   const containerRef = useRef<HTMLDivElement>(null)
 
   useGSAP(() => {
@@ -284,10 +287,11 @@ export default function BBQCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="BBQ Catering Dubai | Partner Chef-Led Grills"
-        description="Premium BBQ catering in Dubai with partner-chef-led grills, aged steaks, gourmet burgers, and grilled seafood. Villa, garden, beach, and yacht BBQ with full service."
+        title="BBQ Catering Dubai | Live BBQ Stations & Outdoor Grills | myCHEF"
+        description="Book live BBQ catering in Dubai. Partner-chef-led grills, aged steaks, seafood & halal options for villas, gardens, beaches & yachts. Get a tailored quote in 15 minutes."
         canonicalPath="/bbq-catering-dubai"
         ogImage="/service-events.webp"
+        hideSiteName
         schema={schema}
       />
 
@@ -309,7 +313,7 @@ export default function BBQCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 bbq-hero-h1">
-            BBQ Catering in Dubai
+            BBQ Catering & Live Barbecue Stations in Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 bbq-hero-sub">
             partner-chef-led grills, premium meats, and fresh seafood cooked live at your villa, garden, beach, or yacht — the theatre and aroma of open-flame cooking with flawless full service across Dubai.
