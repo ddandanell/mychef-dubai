@@ -287,10 +287,11 @@ export default function DessertTableCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Dessert Table Dubai | Patisserie"
-        description="Bespoke dessert tables in Dubai for weddings, birthdays, and baby showers. Custom cakes, French patisserie, styled sweet displays with full set-up and dietary options."
+        title="Dessert Table Dubai | Wedding, Birthday & Event Patisserie | myCHEF"
+        description="Bespoke dessert table catering in Dubai for weddings, birthdays & events. Custom cakes, French patisserie, styled sweet displays. Request a menu quote in 15 min."
         canonicalPath="/dessert-table-catering-dubai"
         ogImage="/menu-dessert.webp"
+        hideSiteName
         schema={schema}
       />
 
@@ -312,7 +313,7 @@ export default function DessertTableCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 des-hero-h1">
-            Dessert Tables in Dubai
+            Dessert Table Catering in Dubai — Weddings, Birthdays & Events
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 des-hero-sub">
             Custom cakes, French patisserie, and styled sweet tables for weddings, birthdays, and baby showers — designed to look as good as they taste.

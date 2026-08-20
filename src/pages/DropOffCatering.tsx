@@ -5,14 +5,15 @@ import type { ServicePageConfig } from './shared/ServiceLandingPage'
 
 const config: ServicePageConfig = {
   slug: 'drop-off-catering-dubai',
-  seoTitle: "Drop-Off Meals Dubai | Office & Events",
+  seoTitle: "Drop-Off Catering Dubai | Office Lunch & Event Meals Delivered | myCHEF",
   metaDescription:
-    'Drop-off catering in Dubai: individually packed meals, labelled platters and buffet boxes delivered to your office, villa or venue. No on-site staff needed. Request a quote today.',
+    'Drop-off catering in Dubai: individually packed meals, labelled platters & buffet boxes delivered to your office, villa or venue. No on-site staff needed. Request a quote in 15 min.',
   canonicalPath: '/drop-off-catering-dubai',
   ogImage: '/images/drop-off-catering-dubai-hero.webp',
   showTrustSignalStrip: true,
+  hideSiteName: true,
   breadcrumbLabel: 'Drop-Off Catering Dubai',
-  h1: 'Drop-Off Catering in Dubai',
+  h1: 'Drop-Off Catering in Dubai — Delivered Meals for Offices & Events',
   heroSub:
     'Hassle-free catering delivered ready to serve: individually packed meals, shareable platters and labelled buffet boxes for offices, villas and small events across Dubai.',
   heroImage: '/images/drop-off-catering-dubai-hero.webp',

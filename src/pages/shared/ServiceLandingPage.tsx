@@ -67,6 +67,7 @@ export interface ServicePageConfig {
   introH2: string
   introNodes: ReactNode
   noindex?: boolean
+  hideSiteName?: boolean
   showTrustSignalStrip?: boolean
   formats: FormatItem[]
   formatsH2: string
@@ -193,6 +194,7 @@ export default function ServiceLandingPage({ config }: Props) {
         canonicalPath={config.canonicalPath}
         ogImage={config.ogImage}
         noindex={config.noindex}
+        hideSiteName={config.hideSiteName}
         schema={schema}
       />
 

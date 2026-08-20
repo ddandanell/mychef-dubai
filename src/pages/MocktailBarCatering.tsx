@@ -281,10 +281,11 @@ export default function MocktailBarCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Mocktail Bar Dubai | Alcohol-Free Craft Bar"
-        description="Mocktail bar catering in Dubai with crafted alcohol-free drinks for family, corporate, and Ramadan events. Skilled bartenders, fresh menus, styled bar and full service."
+        title="Mocktail Bar Catering Dubai | Alcohol-Free Craft Bar | myCHEF"
+        description="Mocktail bar catering in Dubai with alcohol-free craft drinks. Family, corporate & Ramadan events with skilled bartenders & styled bar. Get a quote in 15 min."
         canonicalPath="/mocktail-bar-catering-dubai"
         ogImage="/menu-cocktails.webp"
+        hideSiteName
         schema={schema}
       />
 
@@ -306,7 +307,7 @@ export default function MocktailBarCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 moc-hero-h1">
-            Mocktail Bar Catering in Dubai
+            Mocktail Bar Catering in Dubai — Alcohol-Free Craft Drinks
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 moc-hero-sub">
             A crafted, alcohol-free bar with all the theatre of mixology — perfect for family and corporate celebrations, and Ramadan-friendly across Dubai.

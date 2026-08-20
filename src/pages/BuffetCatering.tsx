@@ -280,10 +280,11 @@ export default function BuffetCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Buffet Catering Dubai | Hot & Cold Stations"
-        description="Premium buffet catering in Dubai with hot and cold stations, live action counters, and international menus. Ideal for corporate events, weddings, and large gatherings."
+        title="Buffet Catering Dubai | Hot & Cold Stations + Live Counters | myCHEF"
+        description="Premium buffet catering in Dubai with hot & cold stations, live action counters & international menus. Weddings, corporate events & large gatherings. Request a menu quote today."
         canonicalPath="/buffet-catering-dubai"
         ogImage="/service-catering.webp"
+        hideSiteName
         schema={schema}
       />
 
@@ -305,7 +306,7 @@ export default function BuffetCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 buf-hero-h1">
-            Buffet Catering in Dubai
+            Buffet Catering in Dubai — Hot, Cold & Live-Action Stations
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 buf-hero-sub">
             Abundant hot and cold stations, live action counters, and international menus — beautifully styled and seamlessly served for corporate events, weddings, and large gatherings across Dubai.

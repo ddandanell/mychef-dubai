@@ -288,10 +288,11 @@ export default function LiveCookingStations() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Live Cooking Stations Dubai | Interactive"
-        description="Premium live cooking stations in Dubai with partner-chef-led carving, pasta, grill, and dessert counters. Interactive, made-to-order catering for weddings and corporate events."
+        title="Live Cooking Stations Dubai | Interactive Food Stations | myCHEF"
+        description="Book interactive live cooking stations in Dubai. Pasta, grill, sushi, carving & dessert counters for weddings & corporate events. Get a tailored station package quote."
         canonicalPath="/live-cooking-stations-dubai"
         ogImage="/process-2.webp"
+        hideSiteName
         schema={schema}
       />
 
@@ -313,7 +314,7 @@ export default function LiveCookingStations() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 lcs-hero-h1">
-            Live Cooking Stations in Dubai
+            Live Cooking Stations in Dubai — Interactive Food Counters
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 lcs-hero-sub">
             Interactive partner-chef-led stations — carving, pasta, grill, street food, and dessert counters cooked to order. The theatre of food, plated fresh in front of your guests at weddings and corporate events across Dubai.

@@ -280,10 +280,11 @@ export default function CanapeCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Canapé Catering Dubai | Passed Canapés"
-        description="Premium canapé catering in Dubai with passed canapés, styled displays, and cocktail pairings. Ideal for receptions, openings, launches, and elegant celebrations."
+        title="Canapé Catering Dubai | Passed, Hot & Cold Canapés | myCHEF"
+        description="Elegant canapé catering in Dubai. Passed, hot & cold bites for receptions, launches, weddings & corporate events. From AED __ per person — request a menu quote."
         canonicalPath="/canape-catering-dubai"
         ogImage="/menu-canapes.webp"
+        hideSiteName
         schema={schema}
       />
 
@@ -305,7 +306,7 @@ export default function CanapeCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 can-hero-h1">
-            Canapé Catering in Dubai
+            Canapé Catering in Dubai — Passed, Hot & Cold Bites
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 can-hero-sub">
             Passed canapés, styled displays, and cocktail pairings — refined, photogenic bites and seamless service for receptions, openings, launches, and elegant celebrations across Dubai.
