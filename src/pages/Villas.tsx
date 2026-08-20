@@ -221,8 +221,8 @@ export default function Villas() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Villa Catering Dubai | Private Chef Dining, from AED 700–950 per person"
-        description="Villa & Residence Dining in Dubai — private chef and catering for villas and residences. From aed 700–950 per person, vetted chefs, full service. Request a proposal from myCHEF."
+        title="Villa Catering Dubai | Private Chef for Palm Jumeirah & Emirates Hills"
+        description="Private chef and villa catering in Dubai for Palm Jumeirah, Emirates Hills & Arabian Ranches. Bespoke menus, vetted chefs, full setup. Get a quote."
         canonicalPath="/villas-private-residences"
         ogImage="/service-villa.webp"
         schema={{ ...schema, ...breadcrumbSchema, ...faqPageSchema }}
@@ -231,7 +231,7 @@ export default function Villas() {
       {/* Section 1: Hero */}
       <PageHero
         eyebrow="VILLA CHEF SERVICES"
-        title="Villa Private Chef Dubai"
+        title="Villa Catering & Private Chef Dubai"
         subtitle="Tell us about your villa stay or special occasion and we will bring you a vetted private chef in Dubai. From one-night dinners to full-time residential chef services — exceptional dining without leaving home. We reply within 15 minutes during business hours."
         image="/images/villa-catering-dubai-hero.webp"
         imageAlt="Villa private chef in Dubai"

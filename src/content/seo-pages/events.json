@@ -35,9 +35,9 @@
  },
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
-  "title": "Event Catering Dubai | from AED 120 per person | myCHEF",
-  "meta_description": "Event catering in Dubai from AED 120 per person for a buffet, or AED 700 with a chef cooking on site. Vetted chefs, full service. Request an itemised proposal from myCHEF.",
-  "h1": "Event Catering in Dubai — What It Costs and How to Book"
+  "title": "Event Catering Dubai | Birthdays, Weddings & Private Parties | myCHEF",
+  "meta_description": "Premium event catering in Dubai for birthdays, weddings, engagements & private parties. Bespoke menus, vetted chefs, full service. Request a tailored quote.",
+  "h1": "Event Catering Dubai for Weddings, Parties & Corporate Events"
  },
  "opening_paragraph": [
   "myCHEF arranges full-service event catering in Dubai from AED 120 per person for a buffet, or from AED 700 with a chef cooking and serving on site. It covers weddings, product launches, galas and milestone dinners. A vetted chef and a small brigade own the menu, the pass, the setup and the cleanup, so the host stays a guest instead of kitchen staff. Tell us the date, the guest count and the venue, and we typically reply within 15 minutes during business hours, with an itemised proposal to follow built around your evening — not a copy-paste menu. The result is food people remember, and an evening you never had to leave the room to manage."

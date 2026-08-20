@@ -310,8 +310,8 @@ export default function Catering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Catering Dubai | Buffet, BBQ & Plated | from AED 90pp"
-        description="Catering in Dubai from AED 90pp for buffet and drop-off, AED 700pp for a chef on site — weddings, corporate, parties, BBQ, finger food and Lebanese menus. Itemised quote."
+        title="Luxury Catering Dubai | Buffet, BBQ & Plated | From AED 90pp"
+        description="Luxury event catering in Dubai for weddings, corporate events & private parties. Bespoke menus, vetted chefs, halal-first. Request a tailored quote in 15 min."
         canonicalPath="/catering-dubai"
         ogImage="/service-catering.webp"
         schema={{ '@context': 'https://schema.org', '@graph': [schema, breadcrumbSchema, faqPageSchema] }}
@@ -319,7 +319,7 @@ export default function Catering() {
 
       {/* ═══════════════ Section 1: Hero ═══════════════ */}
       <PageHero
-        title="Luxury Catering for Events in Dubai"
+        title="Luxury Catering Dubai for Events & Private Celebrations"
         subtitle="Premium event catering across Dubai. From intimate gatherings to grand celebrations — we reply within 15 minutes and coordinate every detail, from menu design to service staff and cleanup."
         image="/images/catering-dubai-hero.webp"
         imageAlt="Elegant catering setup in Dubai"

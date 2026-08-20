@@ -283,8 +283,8 @@ export default function LuxuryDining() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Luxury Private Dining Dubai | Fine Dining"
-        description="Experience luxury private dining in Dubai. Romantic dinners, special occasions, and bespoke culinary experiences in your villa or penthouse. Request your custom menu."
+        title="Private Dining Dubai | Luxury Chef Experiences in Villas & Penthouses"
+        description="Luxury private dining in Dubai with a private chef at your villa, penthouse or yacht. Bespoke tasting menus, full service, halal options. Request a custom menu."
         canonicalPath="/luxury-dining-experiences"
         ogImage="/service-luxury-dining.webp"
         schema={{ ...schema, ...breadcrumbSchema, ...faqPageSchema }}
@@ -292,7 +292,7 @@ export default function LuxuryDining() {
 
       {/* ═══════════════ Section 1: Hero ═══════════════ */}
       <PageHero
-        title="Luxury Private Dining in Dubai"
+        title="Luxury Private Dining Dubai — Fine Dining at Home"
         subtitle="Bespoke private dining crafted for life's most memorable moments. In your villa, on your yacht, or at your penthouse — we reply within 15 minutes during business hours."
         image="/images/luxury-dining-dubai-hero.webp"
         imageAlt="Luxury private dining in Dubai"

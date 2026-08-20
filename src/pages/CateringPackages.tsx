@@ -116,8 +116,8 @@ export default function CateringPackages() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Catering Packages Dubai | Chef & Event"
-        description="Indicative catering packages in Dubai for date nights, family dinners, birthdays, corporate events and weekly meal prep. See what's included and request a quote."
+        title="Catering Packages Dubai | From AED 1,200 | Private Chef & Events"
+        description="Ready-to-book catering packages in Dubai for date nights, birthdays, family feasts & corporate dinners. From AED 1,200. Vetted chefs included. Request your quote."
         canonicalPath="/catering-packages-dubai"
         ogImage="/images/catering-packages-dubai-hero.webp"
         schema={schema}
@@ -126,7 +126,7 @@ export default function CateringPackages() {
       {/* ═══════════════ Hero ═══════════════ */}
       <PageHero
         eyebrow="Transparent Packages"
-        title="Catering Packages in Dubai"
+        title="Catering Packages Dubai"
         subtitle="Starter packages for the most popular private chef and catering experiences. Every menu is tailored to your occasion, dietary needs and budget."
         image="/images/catering-packages-dubai-hero.webp"
         imageAlt="Catering packages and event menus in Dubai"

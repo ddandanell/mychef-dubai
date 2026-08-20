@@ -34,6 +34,14 @@ export const SKIP_SEO_HEAD_ROUTES: ReadonlySet<string> = new Set([
   '/yachts',
   '/villas-private-residences',
   '/corporate',
+  '/events',
+  '/luxury-dining-experiences',
+  '/party-catering-dubai',
+  '/wedding-catering-dubai',
+  '/birthday-catering-dubai',
+  '/catering-packages-dubai',
+  '/cuisines-dubai',
+  '/dubai-catering-prices-guide',
 ])
 
 // Handoff routes that have NO existing page component — rendered as a full page by

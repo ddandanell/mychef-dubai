@@ -283,8 +283,8 @@ export default function WeddingCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Wedding Catering Dubai | Reception Dining"
-        description="Luxury wedding catering in Dubai for villa, garden, and venue receptions. Plated dinners, buffets, canapés, multi-cuisine menus, service staff, and bespoke dessert tables."
+        title="Wedding Catering Dubai | Villa, Garden & Venue Receptions"
+        description="Luxury wedding catering in Dubai for villas, gardens & venues. Plated or buffet, multi-cuisine menus, halal, full service. Request a custom proposal."
         canonicalPath="/wedding-catering-dubai"
         ogImage="/service-events.webp"
         schema={schema}
@@ -308,7 +308,7 @@ export default function WeddingCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 wed-hero-h1">
-            Wedding Catering in Dubai
+            Wedding Catering Dubai: Villa, Garden & Venue Receptions
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 wed-hero-sub">
             From intimate villa ceremonies to grand venue receptions — plated dinners, multi-cuisine menus, beautiful styling, and flawless service for your wedding day in Dubai.

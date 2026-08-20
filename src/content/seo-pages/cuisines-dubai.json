@@ -34,9 +34,9 @@
  },
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
-  "title": "Cuisines Catering Dubai | Per-Head Prices from AED 90 | myCHEF",
-  "meta_description": "Cuisines catering in Dubai with the prices printed: buffets from AED 90, AED 120 and AED 150 per head, a chef cooking on site from AED 700. What Dubai eats, what 40 guests costs, and who else you should be asking.",
-  "h1": "Cuisines Catering in Dubai — What Each Format Costs Per Head, from AED 90"
+  "title": "Catering Dubai by Cuisine | Italian, Arabic, Indian & More | myCHEF",
+  "meta_description": "Explore catering by cuisine in Dubai: Italian, Arabic, Indian, Mediterranean, Asian, sushi, BBQ, vegan, vegetarian, halal and healthy. Bespoke menus, vetted chefs, tailored quotes.",
+  "h1": "Catering Dubai by Cuisine"
  },
  "opening_paragraph": [
   "Cuisines catering in Dubai from myCHEF costs from AED 90 per head for a working lunch, AED 120 for an event buffet and AED 150 for canapés. AED 150 also covers a premium buffet, BBQ or live stations, and the ladder holds whichever cuisine you pick. A chef cooking and serving in front of your guests is a separate product, priced at AED 700 to AED 950 a head.",

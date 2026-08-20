@@ -335,8 +335,8 @@ export default function PrivateChef() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Private Chef Dubai | Hire from AED 700pp"
-        description="Hire a vetted private chef in Dubai from AED 700 per person. Bespoke menus cooked in your villa, home or yacht — date nights to dinner parties. We typically reply within 15 minutes during business hours."
+        title="Private Chef Dubai | Hire a Personal Chef at Home | From AED 700pp"
+        description="Hire a vetted private chef in Dubai for villas, yachts & homes. Bespoke menus, halal-first, full service. Quote in 15 minutes during business hours."
         canonicalPath="/private-chef-dubai"
         ogImage="/service-private-chef.webp"
         schema={{ ...schema, ...breadcrumbSchema, ...faqPageSchema }}
@@ -344,7 +344,7 @@ export default function PrivateChef() {
 
       {/* ═══════════════ Section 1: Hero ═══════════════ */}
       <PageHero
-        title="Hire a Private Chef in Dubai"
+        title="Book a Private Chef in Dubai"
         subtitle="Tell us about your event and we will bring you a vetted private chef. We reply within 15 minutes during business hours. Fully bespoke menus, prepared in your home or villa, with service and cleanup included."
         image="/images/private-chef-dubai-hero.webp"
         imageAlt="Private chef preparing a meal in Dubai"

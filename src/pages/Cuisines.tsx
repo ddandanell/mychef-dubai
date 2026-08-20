@@ -231,8 +231,8 @@ export default function Cuisines() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Catering by Cuisine Dubai | Chefs & Menus"
-        description="Explore private chef and catering menus by cuisine in Dubai: Italian, Arabic, Mediterranean, Indian, Asian, sushi, BBQ, vegan, vegetarian, halal and healthy."
+        title="Catering Dubai by Cuisine | Italian, Arabic, Indian & More"
+        description="Explore catering by cuisine in Dubai: Italian, Arabic, Indian, Mediterranean, Asian, sushi, BBQ, vegan, vegetarian, halal and healthy. Bespoke menus, vetted chefs, tailored quotes."
         canonicalPath="/cuisines-dubai"
         ogImage="/images/cuisines-hub-dubai-hero.webp"
         schema={schema}
@@ -241,7 +241,7 @@ export default function Cuisines() {
       {/* ═══════════════ Hero ═══════════════ */}
       <PageHero
         eyebrow="World Flavours, Dubai Style"
-        title="Catering by Cuisine in Dubai"
+        title="Catering Dubai by Cuisine"
         subtitle="From Italian trattoria classics and Arabic mezze to Asian tasting menus and plant-forward dishes — choose a cuisine and we’ll bring you a private chef or catering team. We reply within 15 minutes during business hours."
         image="/images/cuisines-hub-dubai-hero.webp"
         imageAlt="International catering cuisines prepared by private chefs in Dubai"

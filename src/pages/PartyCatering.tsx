@@ -325,8 +325,8 @@ export default function PartyCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Party Dining Dubai | Private Celebrations"
-        description="Chef-coordinated party dining in Dubai for birthdays, bachelor and bachelorette parties, baby showers, and private celebrations. Bespoke menus, canapés, and drinks."
+        title="Party Catering Dubai | Canapés, Grazing & Live Stations"
+        description="Party catering in Dubai for birthdays, bachelor/bachelorette parties, baby showers & private celebrations. Bespoke menus, canapés, full service. Get a quote."
         canonicalPath="/party-catering-dubai"
         ogImage="/service-events.webp"
         schema={schema}
@@ -350,7 +350,7 @@ export default function PartyCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 pty-hero-h1">
-            Party Catering in Dubai
+            Party Catering Dubai — Birthdays, Yacht & Villa Celebrations
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 pty-hero-sub">
             From milestone birthdays to bachelor and bachelorette nights, baby showers, and intimate private parties — bespoke menus, beautiful styling, and flawless service across Dubai.

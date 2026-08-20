@@ -31,9 +31,9 @@
  },
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
-  "title": "Birthday Catering Dubai | Menus & Prices | myCHEF",
-  "meta_description": "Birthday catering in Dubai from AED 700pp — grazing tables and canapés, vetted chefs and full service. Bespoke menus for your event. Get an itemised quote.",
-  "h1": "Birthday Catering in Dubai — Prices, Formats and What You Get"
+  "title": "Birthday Catering Dubai | Kids & Adults | Menus & Prices | myCHEF",
+  "meta_description": "Birthday party catering in Dubai for kids & adults. Themed menus, custom cakes, grazing tables, mocktail bars & villa service. Get a tailored quote.",
+  "h1": "Birthday Catering Dubai: Kids, Adults & Villa Celebrations"
  },
  "opening_paragraph": [
   "Birthday catering in Dubai starts from AED 700 per person , priced to your guest count, chosen menu and level of service. A vetted chef plans the food around the person you are celebrating, cooks fresh on site, serves your guests and clears everything away, so the day stays yours. Send your date, numbers and venue, and during our published business hours you get a full itemised quote back promptly."

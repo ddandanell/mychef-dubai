@@ -185,8 +185,8 @@ export default function Yachts() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Yacht Catering Dubai | from AED 150 per person"
-        description="Yacht catering in Dubai: canapés and grazing dropped to the boat from AED 150pp, or a private chef aboard from AED 700pp. The charter is booked separately."
+        title="Yacht Catering Dubai | Menus for 2–50 Guests | From AED 150pp"
+        description="Yacht catering and private chef service in Dubai Marina, Palm Jumeirah & JBR. Bespoke menus, seafood & canapés, full crew. Request a tailored quote."
         canonicalPath="/yachts"
         ogImage="/service-yacht.webp"
         schema={{
@@ -198,7 +198,7 @@ export default function Yachts() {
       {/* Section 1: Hero */}
       <PageHero
         eyebrow="YACHT CATERING"
-        title="Yacht Catering Dubai"
+        title="Yacht Catering Dubai — Private Chef On Board"
         subtitle="Tell us about your yacht event and we will bring you a vetted chef. Exceptional dining on the water with Dubai's iconic skyline as your setting — we reply within 15 minutes during business hours."
         image="/images/yacht-catering-dubai-hero.webp"
         imageAlt="Yacht catering in Dubai"

@@ -34,9 +34,9 @@
  },
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
-  "title": "Catering Prices in Dubai: The Published Price List | myCHEF Dubai",
-  "meta_description": "Catering prices in Dubai, published in full: buffet formats from AED 90, AED 120 and AED 150 per head, private chef service AED 700-950 per head, packages from AED 1,200. Per guest count, per occasion, plus 5% VAT.",
-  "h1": "Catering Prices in Dubai: The Published Price List"
+  "title": "How Much Does Catering Cost in Dubai? | 2026 Price Guide | myCHEF",
+  "meta_description": "2026 Dubai catering prices per person for private chefs, canapés, buffet, BBQ & yacht events. See what drives cost and request an itemised quote.",
+  "h1": "Dubai Catering Prices Guide: What to Budget for Your Event"
  },
  "opening_paragraph": [
   "Catering prices in Dubai are set in two bands. MyCHEF prices the food format on its own from AED 90 per head; a chef cooking and serving on site is AED 700 to AED 950 per head. Add 5% VAT to any total.",

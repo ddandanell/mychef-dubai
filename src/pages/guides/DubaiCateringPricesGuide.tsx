@@ -218,8 +218,8 @@ export default function DubaiCateringPricesGuide() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Dubai Catering Prices 2026 | Budget"
-        description="Dubai catering prices per person in 2026: private chef, canapés, buffet, plated dinner, BBQ, and yacht catering. Learn what affects cost and how to get an accurate quote."
+        title="How Much Does Catering Cost in Dubai? | 2026 Price Guide"
+        description="2026 Dubai catering prices per person for private chefs, canapés, buffet, BBQ & yacht events. See what drives cost and request an itemised quote."
         canonicalPath="/dubai-catering-prices-guide"
         ogImage="/service-catering.webp"
         schema={schema}

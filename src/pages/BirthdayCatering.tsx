@@ -277,8 +277,8 @@ export default function BirthdayCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Birthday Catering Dubai | Kids & Adults"
-        description="Birthday party catering in Dubai for kids and adults. Themed menus, custom cakes, grazing and dessert tables, mocktail bars, and full villa-party service across Dubai."
+        title="Birthday Catering Dubai | Kids & Adults | Menus & Prices"
+        description="Birthday party catering in Dubai for kids & adults. Themed menus, custom cakes, grazing tables, mocktail bars & villa service. Get a tailored quote."
         canonicalPath="/birthday-catering-dubai"
         ogImage="/service-events.webp"
         schema={schema}
@@ -302,7 +302,7 @@ export default function BirthdayCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 bday-hero-h1">
-            Birthday Party Catering in Dubai
+            Birthday Catering Dubai: Kids, Adults & Villa Celebrations
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 bday-hero-sub">
             From first birthdays to milestone celebrations — themed menus, custom cakes, dessert tables, and full villa-party service across Dubai for kids and adults alike.

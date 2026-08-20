@@ -9,7 +9,7 @@ interface SEOProps {
   schema?: Record<string, unknown>
 }
 
-const SITE_NAME = 'myCHEF Dubai'
+const SITE_NAME = 'myCHEF'
 const DEFAULT_TITLE = 'myCHEF Dubai — Premium Private Chef & Luxury Dining Experiences'
 const DEFAULT_DESCRIPTION = 'myCHEF Dubai designs private dining experiences and brings you professional, licensed chefs across Dubai. From villas to yachts — request your custom quote today.'
 const DEFAULT_OG_IMAGE = '/images/home-hero.webp'

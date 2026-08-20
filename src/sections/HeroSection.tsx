@@ -157,7 +157,7 @@ export default function HeroSection() {
           className="font-playfair font-semibold text-white opacity-0 max-w-3xl mx-auto md:mx-0 text-center md:text-left"
           style={{ fontSize: 'clamp(1.75rem, 5.5vw, 4.5rem)', lineHeight: 1.02 }}
         >
-          Private Chef & Luxury Catering in Dubai
+          Private Chef & Luxury Catering in Dubai — From AED 90pp
         </h1>
 
         {/* Subtext */}

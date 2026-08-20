@@ -363,8 +363,8 @@ export default function Corporate() {
   return (
     <>
       <SEO
-        title="Corporate Catering Dubai | Menus & Prices"
-        description="Corporate catering in Dubai from AED 90pp for a working lunch, AED 700pp with a chef on site. Daily office catering to plated client dinners. Itemised quotes."
+        title="Corporate Catering Dubai | Office Lunches & Events | From AED 90pp"
+        description="Corporate catering and private dining in Dubai for offices, conferences, product launches & galas. Vetted chefs, halal menus, consolidated invoicing. Get a quote."
         canonicalPath="/corporate"
         ogImage="/service-corporate.webp"
         schema={schema as unknown as Record<string, unknown>}
@@ -372,7 +372,7 @@ export default function Corporate() {
 
       {/* ─── Hero ─── */}
       <PageHero
-        title="Corporate Dining & Event Catering Dubai"
+        title="Corporate Catering Dubai — Office, Boardroom & Events"
         subtitle="Impress clients. Reward teams. Elevate every business occasion with premium corporate dining and catering. We reply within 15 minutes during business hours."
         image="/images/corporate-catering-dubai-hero.webp"
         imageAlt="Corporate catering in Dubai"
