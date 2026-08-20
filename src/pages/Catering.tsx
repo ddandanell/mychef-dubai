@@ -310,8 +310,8 @@ export default function Catering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Luxury Catering Dubai | Private Events"
-        description="Premium catering experiences in Dubai for events, corporate functions, weddings, and private celebrations. Bespoke menus, end-to-end coordination, flawless execution. Request a quote."
+        title="Catering Dubai | Buffet, BBQ & Plated | from AED 90pp"
+        description="Catering in Dubai from AED 90pp for buffet and drop-off, AED 700pp for a chef on site — weddings, corporate, parties, BBQ, finger food and Lebanese menus. Itemised quote."
         canonicalPath="/catering-dubai"
         ogImage="/service-catering.webp"
         schema={{ '@context': 'https://schema.org', '@graph': [schema, breadcrumbSchema, faqPageSchema] }}

@@ -24,6 +24,18 @@ export interface SeoPage {
 
 const ROUTES = routes as Record<string, string>
 
+// Routes whose titles are owned by their page-level <SEO> component. SeoHead must
+// not emit a second <title>/<meta> for these paths, or React 19 ends up with two
+// hoisted title nodes.
+export const SKIP_SEO_HEAD_ROUTES: ReadonlySet<string> = new Set([
+  '/private-chef-dubai',
+  '/catering-dubai',
+  '/private-chef-prices-dubai',
+  '/yachts',
+  '/villas-private-residences',
+  '/corporate',
+])
+
 // Handoff routes that have NO existing page component — rendered as a full page by
 // HandoffPage. The shared SeoContent/SeoHead injectors skip these so nothing double-renders.
 export const FULLPAGE_ROUTES: ReadonlySet<string> = new Set([

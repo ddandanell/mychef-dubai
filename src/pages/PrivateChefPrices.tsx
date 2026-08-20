@@ -202,8 +202,8 @@ export default function PrivateChefPrices() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Private Chef Prices Dubai | Per Person"
-        description="Indicative private chef prices in Dubai by group size, menu style and service level. See what's included, cost factors and FAQs. Request a custom quote."
+        title="Private Chef Cost Dubai | Prices AED 700–950 per person"
+        description="Private chef cost in Dubai: real published rates from AED 700 to 950 per person, package prices, and what moves the figure. No hidden extras."
         canonicalPath="/private-chef-prices-dubai"
         ogImage="/images/private-chef-prices-dubai-hero.webp"
         schema={schema}

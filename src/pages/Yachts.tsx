@@ -185,8 +185,8 @@ export default function Yachts() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Yacht Catering Dubai"
-        description="Premium yacht catering and private chef services in Dubai. Dining on your yacht with Dubai Marina and Palm Jumeirah as your backdrop. Request a bespoke quote."
+        title="Yacht Catering Dubai | from AED 150 per person"
+        description="Yacht catering in Dubai: canapés and grazing dropped to the boat from AED 150pp, or a private chef aboard from AED 700pp. The charter is booked separately."
         canonicalPath="/yachts"
         ogImage="/service-yacht.webp"
         schema={{

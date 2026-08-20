@@ -221,8 +221,8 @@ export default function Villas() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Villa Private Chef Dubai"
-        description="Private chef services for Dubai villas and luxury residences. Palm Jumeirah, Emirates Hills, Arabian Ranches, and more. Bespoke dining at your villa. Request a quote."
+        title="Villa Catering Dubai | Private Chef Dining, from AED 700–950 per person"
+        description="Villa & Residence Dining in Dubai — private chef and catering for villas and residences. From aed 700–950 per person, vetted chefs, full service. Request a proposal from myCHEF."
         canonicalPath="/villas-private-residences"
         ogImage="/service-villa.webp"
         schema={{ ...schema, ...breadcrumbSchema, ...faqPageSchema }}
