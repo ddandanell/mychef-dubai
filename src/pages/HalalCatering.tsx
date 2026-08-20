@@ -266,8 +266,8 @@ export default function HalalCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Halal Catering Dubai | Fully Halal Menus"
-        description="Halal catering in Dubai from a fully halal kitchen — multi-cuisine menus for weddings, iftar, villa dinners, and corporate events. Request your custom quote today."
+        title="Halal Catering Dubai | Fully Halal Weddings, Events & Corporate"
+        description="Fully halal catering Dubai for weddings, iftar, villa dinners & corporate events. Multi-cuisine menus, certified sourcing, no pork/alcohol. Quote in ~15 mins."
         canonicalPath="/halal-catering-dubai"
         ogImage="/menu-meat.webp"
         schema={schema}

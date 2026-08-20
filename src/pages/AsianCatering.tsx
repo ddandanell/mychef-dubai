@@ -288,8 +288,8 @@ export default function AsianCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Asian Catering Dubai | Thai, Chinese & Wok"
-        description="Asian catering in Dubai — Thai, Chinese, and pan-Asian fusion with live wok, dim sum, and sushi stations for weddings, villas, and corporate events. Halal sourcing."
+        title="Asian Catering Dubai | Thai, Chinese, Sushi & Wok"
+        description="Asian catering Dubai for weddings, villas & corporate events. Thai, Chinese & pan-Asian fusion with live wok, dim sum & sushi stations. Quote in ~15 mins."
         canonicalPath="/asian-catering-dubai"
         ogImage="/menu-seafood.webp"
         schema={schema}

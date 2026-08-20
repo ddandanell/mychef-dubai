@@ -283,8 +283,8 @@ export default function VeganCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Vegan Catering Dubai | Plant-Based Dining"
-        description="Vegan catering in Dubai with creative plant-based fine dining, canapés, grazing tables, and dairy-free desserts for inclusive events. Request your custom quote today."
+        title="Vegan Catering Dubai | Plant-Based Events & Private Dining"
+        description="Vegan catering Dubai for plant-based events & private dining. Creative fine dining, canapés, grazing tables & dairy-free desserts. Quote in ~15 mins."
         canonicalPath="/vegan-catering-dubai"
         ogImage="/menu-appetizer.webp"
         schema={schema}

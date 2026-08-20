@@ -289,7 +289,7 @@ export default function ArabicCatering() {
     <div ref={containerRef}>
       <SEO
         title="Arabic Catering Dubai | Mezze, Grills & Ouzi"
-        description="Arabic catering in Dubai for weddings, majlis, and corporate events. Mezze spreads, charcoal grills, Emirati and Levantine dishes, ouzi, and halal menus throughout."
+        description="Arabic catering Dubai for weddings, majlis, villas & corporate events. Mezze, charcoal grills, ouzi, Emirati & Levantine dishes. Quote in ~15 mins."
         canonicalPath="/arabic-catering-dubai"
         ogImage="/menu-appetizer.webp"
         schema={schema}
