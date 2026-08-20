@@ -85,9 +85,61 @@ const breadcrumbSchema = {
   ],
 }
 
+const packageOffers = [
+  {
+    name: 'Date Night Package',
+    description: 'An intimate 3-course private chef dinner for two.',
+    url: 'https://www.mychef.ae/date-night-package-dubai',
+    price: '1200',
+  },
+  {
+    name: 'Family Feast Package',
+    description: 'A relaxed sharing-style dinner for family and friends.',
+    url: 'https://www.mychef.ae/family-feast-package-dubai',
+    price: '2400',
+  },
+  {
+    name: 'Birthday Celebration Package',
+    description: 'Celebration menu, cake, and service for birthday parties.',
+    url: 'https://www.mychef.ae/birthday-catering-package-dubai',
+    price: '3600',
+  },
+  {
+    name: 'Corporate Dinner Package',
+    description: 'Professional dinner catering for boardrooms and teams.',
+    url: 'https://www.mychef.ae/corporate-dinner-package-dubai',
+    price: '4500',
+  },
+  {
+    name: 'Weekly Meal Prep',
+    description: 'Recurring fresh meal prep by a private chef.',
+    url: 'https://www.mychef.ae/weekly-meal-prep-dubai',
+    price: '1898',
+  },
+]
+
+const aggregateOfferSchema = {
+  '@type': 'AggregateOffer',
+  name: 'Catering Packages Dubai',
+  description: 'Indicative catering packages in Dubai for date nights, family dinners, birthdays, corporate events and weekly meal prep. Prices are starting points; final quotes are tailored to your event.',
+  url: 'https://www.mychef.ae/catering-packages-dubai',
+  priceCurrency: 'AED',
+  lowPrice: '1200',
+  highPrice: '4500',
+  offers: packageOffers.map((pkg) => ({
+    '@type': 'Offer',
+    name: pkg.name,
+    description: pkg.description,
+    url: pkg.url,
+    price: pkg.price,
+    priceCurrency: 'AED',
+    availability: 'https://schema.org/InStock',
+  })),
+}
+
 const schema = {
   '@context': 'https://schema.org',
-  '@graph': [serviceSchema, faqSchema, breadcrumbSchema],
+  '@graph': [serviceSchema, aggregateOfferSchema, faqSchema, breadcrumbSchema],
 }
 
 const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'd like a catering package for my event in Dubai. Date: __ Guests: __ Area: __"

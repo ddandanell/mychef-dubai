@@ -21,6 +21,7 @@ import {
 import SEO from '../../components/SEO'
 import TrustSignalStrip from '../../components/TrustSignalStrip'
 import FaqAccordion from '../../components/FaqAccordion'
+import { howToSchema } from '../../utils/schema'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -289,9 +290,15 @@ const breadcrumbSchema = {
   ],
 }
 
+const howToPlanSchema = howToSchema(
+  'How to Plan a Wedding Catering Menu in Dubai',
+  'A 5-step guide to planning a wedding catering menu in Dubai, from initial consultation to tasting and final confirmation.',
+  catererSteps.map((s) => ({ name: s.title, text: s.description })),
+)
+
 const schema = {
   '@context': 'https://schema.org',
-  '@graph': [serviceSchema, articleSchema, faqSchema, breadcrumbSchema],
+  '@graph': [serviceSchema, articleSchema, howToPlanSchema, faqSchema, breadcrumbSchema],
 }
 
 /* ────────────────────── Component ────────────────────── */

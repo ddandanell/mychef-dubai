@@ -408,16 +408,20 @@ export default function Villas() {
         </div>
       </section>
 
-      {/* Section 8: Testimonial */}
+      {/* Section 8: Review Invitation */}
       <section className="bg-charcoal py-20">
         <div className="villa-testimonial max-w-[800px] mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="text-gold text-4xl font-playfair mb-6">&ldquo;</div>
-          <blockquote className="font-playfair text-h3 text-white mb-6" style={{ lineHeight: '1.3' }}>
-            We stayed in a Palm Jumeirah villa for two weeks and had myCHEF prepare every meal. It was the highlight of our holiday. The chef learned our preferences, adapted menus daily, and made every dinner feel like a special occasion.
-          </blockquote>
-          <cite className="font-inter text-body-sm text-gray-400 not-italic">
-            — Sarah & James M., Palm Jumeirah
-          </cite>
+          <h2 className="font-playfair text-h3 text-white mb-6" style={{ lineHeight: '1.3' }}>
+            Love your myCHEF villa experience?
+          </h2>
+          <p className="font-inter text-body text-gray-400 mb-6">
+            We are collecting verified reviews from villa guests. Leave a review and receive AED 50 credit towards your next booking.
+          </p>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <Link to="/review" className="btn-primary">Leave a Review</Link>
+            <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-secondary">Chat on WhatsApp</a>
+          </div>
         </div>
       </section>
 

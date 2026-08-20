@@ -19,6 +19,7 @@ import {
 import SEO from '../../components/SEO'
 import TrustSignalStrip from '../../components/TrustSignalStrip'
 import FaqAccordion from '../../components/FaqAccordion'
+import { howToSchema } from '../../utils/schema'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -218,9 +219,18 @@ const breadcrumbSchema = {
   ],
 }
 
+const howToChecklistSchema = howToSchema(
+  'How to Plan Yacht Catering in Dubai',
+  'A step-by-step checklist for planning flawless yacht catering in Dubai, from 6–8 weeks before the cruise to the day of the event.',
+  timeline.map((stage) => ({
+    name: stage.phase,
+    text: stage.items.join(' '),
+  })),
+)
+
 const schema = {
   '@context': 'https://schema.org',
-  '@graph': [serviceSchema, articleSchema, faqSchema, breadcrumbSchema],
+  '@graph': [serviceSchema, articleSchema, howToChecklistSchema, faqSchema, breadcrumbSchema],
 }
 
 /* ────────────────────── Component ────────────────────── */

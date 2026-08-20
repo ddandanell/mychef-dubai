@@ -12,6 +12,7 @@ import SEO from '@/components/SEO'
 import PageHero from '@/components/PageHero'
 import LocationStrip from '@/components/LocationStrip'
 import TrustSignalStrip from '@/components/TrustSignalStrip'
+import CorporateTrustStrip from '@/components/CorporateTrustStrip'
 import StarterPackagesSection from '@/sections/StarterPackagesSection'
 import {
   breadcrumbSchema,
@@ -387,6 +388,7 @@ export default function Corporate() {
         overlay="dark"
       />
       <TrustSignalStrip />
+      <CorporateTrustStrip />
 
       {/* ─── Corporate Services ─── */}
       <section className="bg-white section-padding">

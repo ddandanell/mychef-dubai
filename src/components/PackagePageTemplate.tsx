@@ -13,6 +13,7 @@ import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 gsap.registerPlugin(ScrollTrigger)
 
 const WHATSAPP_NUMBER = '971551744849'
+const SITE_URL = 'https://www.mychef.ae'
 
 interface FAQ {
   q: string
@@ -75,10 +76,21 @@ export default function PackagePageTemplate({
   useWhatsAppMessage(PAGE_WHATSAPP_MESSAGE)
   const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(PAGE_WHATSAPP_MESSAGE)}`
 
+  const offerSchema = {
+    '@type': 'Offer',
+    name: `${name} Package — From AED ${price}`,
+    description: `${description} Starting from AED ${price} for ${guests}. Final pricing depends on menu choices, ingredients, dietary requirements, and service level.`,
+    url: `${SITE_URL}${canonicalPath}`,
+    price: price.replace(/,/g, ''),
+    priceCurrency: 'AED',
+    availability: 'https://schema.org/InStock',
+  }
+
   const schema = {
     '@context': 'https://schema.org',
     '@graph': [
       serviceSchema(seoTitle, description, 'CateringService', 'Dubai'),
+      offerSchema,
       faqPageSchema(faqs.map((f) => ({ question: f.q, answer: f.a }))),
       breadcrumbSchema([
         { name: 'Home', path: '/' },

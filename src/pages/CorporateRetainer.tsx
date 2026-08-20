@@ -14,6 +14,7 @@ import {
 } from 'lucide-react'
 import SEO from '../components/SEO'
 import TrustSignalStrip from '../components/TrustSignalStrip'
+import CorporateTrustStrip from '../components/CorporateTrustStrip'
 import { breadcrumbSchema, faqPageSchema, serviceSchema } from '../utils/schema'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
@@ -238,6 +239,7 @@ export default function CorporateRetainer() {
       </section>
 
       <TrustSignalStrip />
+      <CorporateTrustStrip />
 
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">

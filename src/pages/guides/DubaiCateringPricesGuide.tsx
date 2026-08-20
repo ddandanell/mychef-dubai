@@ -162,9 +162,30 @@ const breadcrumbSchema = {
   ],
 }
 
+const formatOffers = priceTable.map((row) => ({
+  '@type': 'Offer',
+  name: `${row.format} — Dubai`,
+  description: `Indicative per-person price range for ${row.format.toLowerCase()} in Dubai: AED ${row.min} – ${row.max}. Final quote depends on guest count, menu, venue, and service level.`,
+  url: 'https://www.mychef.ae/dubai-catering-prices-guide',
+  price: String(row.min),
+  priceCurrency: 'AED',
+  availability: 'https://schema.org/InStock',
+}))
+
+const aggregateOfferSchema = {
+  '@type': 'AggregateOffer',
+  name: 'Dubai Catering Prices Guide',
+  description: 'Indicative per-person catering prices in Dubai for private chef, canapés, buffet, plated dinner, BBQ, and yacht catering. Prices are starting points; final quotes are tailored to each event.',
+  url: 'https://www.mychef.ae/dubai-catering-prices-guide',
+  priceCurrency: 'AED',
+  lowPrice: '180',
+  highPrice: '650',
+  offers: formatOffers,
+}
+
 const schema = {
   '@context': 'https://schema.org',
-  '@graph': [serviceSchema, articleSchema, faqSchema, breadcrumbSchema],
+  '@graph': [serviceSchema, articleSchema, aggregateOfferSchema, faqSchema, breadcrumbSchema],
 }
 
 /* ────────────────────── Component ────────────────────── */

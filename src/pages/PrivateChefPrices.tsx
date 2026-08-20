@@ -173,9 +173,56 @@ const breadcrumbSchema = {
   ],
 }
 
+const privateChefOffers = [
+  {
+    name: 'Private Chef Dinner for 2 Guests',
+    description: 'Intimate dinner for two; total estimate AED 1,900 – 2,600.',
+    price: '1900',
+  },
+  {
+    name: 'Private Chef Dinner for 4 Guests',
+    description: 'Small celebration; total estimate AED 3,200 – 4,400.',
+    price: '3200',
+  },
+  {
+    name: 'Private Chef Dinner for 6 Guests',
+    description: 'Family-style or plated dinner; total estimate AED 4,500 – 6,000.',
+    price: '4500',
+  },
+  {
+    name: 'Private Chef Dinner for 10 Guests',
+    description: 'Dinner party with scaled service team; total estimate AED 7,000 – 9,500.',
+    price: '7000',
+  },
+  {
+    name: 'Private Chef Dinner for 20+ Guests',
+    description: 'Larger villa or event format; total estimate from AED 12,000.',
+    price: '12000',
+  },
+]
+
+const aggregateOfferSchema = {
+  '@type': 'AggregateOffer',
+  name: 'Private Chef Prices Dubai',
+  description: 'Indicative private chef prices in Dubai by group size. Prices are starting points; final quotes depend on menu, ingredients, venue, and service level.',
+  url: 'https://www.mychef.ae/private-chef-prices-dubai',
+  priceCurrency: 'AED',
+  lowPrice: '1900',
+  highPrice: '12000',
+  offers: privateChefOffers.map((offer) => ({
+    '@type': 'Offer',
+    name: offer.name,
+    description: offer.description,
+    url: 'https://www.mychef.ae/private-chef-prices-dubai',
+    price: offer.price,
+    priceCurrency: 'AED',
+    availability: 'https://schema.org/InStock',
+  })),
+}
+
 const schema = {
   '@context': 'https://schema.org',
-  '@graph': [serviceSchema, faqSchema, breadcrumbSchema],
+  '@graph': [serviceSchema, aggregateOfferSchema, faqSchema, breadcrumbSchema],
 }
 
 const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'd like private chef prices for my event in Dubai. Date: __ Guests: __ Area: __"

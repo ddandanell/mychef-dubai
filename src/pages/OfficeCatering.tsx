@@ -16,6 +16,7 @@ import {
 } from 'lucide-react'
 import SEO from '../components/SEO'
 import TrustSignalStrip from '../components/TrustSignalStrip'
+import CorporateTrustStrip from '../components/CorporateTrustStrip'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 
@@ -318,6 +319,7 @@ export default function OfficeCatering() {
       </section>
 
       <TrustSignalStrip variant="dark" />
+      <CorporateTrustStrip variant="dark" />
 
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
