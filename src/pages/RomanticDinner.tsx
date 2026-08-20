@@ -5,6 +5,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import SEO from '../components/SEO'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import { Heart, Sparkles, Wine } from 'lucide-react'
+import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -39,7 +40,9 @@ const schema = {
   '@graph': [serviceSchema, breadcrumbSchema],
 }
 
+const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'm interested in a romantic dinner in Dubai. Date: __ Guests: __ Area: __"
 export default function RomanticDinner() {
+  useWhatsAppMessage(PAGE_WHATSAPP_MESSAGE)
   const pageRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {

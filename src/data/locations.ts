@@ -244,7 +244,7 @@ const allLocations: LocationData[] = [
       subtitle:
         'Request a custom menu for your yacht, penthouse or apartment event.',
       whatsappMessage:
-        'Hi%20myCHEF%20Dubai%2C%20I%27d%20like%20to%20request%20a%20quote%20for%20catering%20in%20Dubai%20Marina'
+        'Hi myCHEF Dubai, I\'d like to request a quote for catering in Dubai Marina'
     }
   },
   {
@@ -441,7 +441,7 @@ const allLocations: LocationData[] = [
       subtitle:
         'Request a bespoke menu for your penthouse, office or celebration.',
       whatsappMessage:
-        'Hi%20myCHEF%20Dubai%2C%20I%27d%20like%20to%20request%20a%20quote%20for%20catering%20in%20Downtown%20Dubai'
+        'Hi myCHEF Dubai, I\'d like to request a quote for catering in Downtown Dubai'
     }
   },
   {
@@ -637,7 +637,7 @@ const allLocations: LocationData[] = [
       title: 'Book Your Palm Jumeirah Private Chef',
       subtitle: 'Request a bespoke villa menu or beach BBQ plan.',
       whatsappMessage:
-        'Hi%20myCHEF%20Dubai%2C%20I%27d%20like%20to%20request%20a%20quote%20for%20catering%20in%20Palm%20Jumeirah'
+        'Hi myCHEF Dubai, I\'d like to request a quote for catering in Palm Jumeirah'
     }
   },
   {
@@ -834,7 +834,7 @@ const allLocations: LocationData[] = [
       subtitle:
         'Request a custom menu for your beachfront home or garden event.',
       whatsappMessage:
-        'Hi%20myCHEF%20Dubai%2C%20I%27d%20like%20to%20request%20a%20quote%20for%20catering%20in%20Jumeirah%20Dubai'
+        'Hi myCHEF Dubai, I\'d like to request a quote for catering in Jumeirah Dubai'
     }
   },
   {
@@ -1031,7 +1031,7 @@ const allLocations: LocationData[] = [
       subtitle:
         'Request a custom menu for your apartment, beachfront party or birthday event.',
       whatsappMessage:
-        'Hi%20myCHEF%20Dubai%2C%20I%27d%20like%20to%20request%20a%20quote%20for%20catering%20in%20JBR%20Dubai'
+        'Hi myCHEF Dubai, I\'d like to request a quote for catering in JBR Dubai'
     }
   },
 
@@ -1223,7 +1223,7 @@ const allLocations: LocationData[] = [
       subtitle:
         'Tell us about your office lunch, corporate event or private dinner and we will build a tailored menu.',
       whatsappMessage:
-        'Hi%20myCHEF%20Dubai%2C%20I\'d%20like%20to%20request%20a%20quote%20for%20catering%20in%20Business%20Bay',
+        'Hi myCHEF Dubai, I\'d like to request a quote for catering in Business Bay',
     },
   },
   {
@@ -1408,7 +1408,7 @@ const allLocations: LocationData[] = [
       subtitle:
         'Tell us about your power lunch, boardroom dinner or corporate gala and we will prepare a tailored menu.',
       whatsappMessage:
-        'Hi%20myCHEF%20Dubai%2C%20I\'d%20like%20to%20request%20a%20quote%20for%20catering%20in%20DIFC',
+        'Hi myCHEF Dubai, I\'d like to request a quote for catering in DIFC',
     },
   },
   {
@@ -1599,7 +1599,7 @@ const allLocations: LocationData[] = [
       subtitle:
         'Tell us about your villa event, guest profile and menu preferences and we will prepare a confidential proposal.',
       whatsappMessage:
-        'Hi%20myCHEF%20Dubai%2C%20I\'d%20like%20to%20request%20a%20quote%20for%20catering%20in%20Emirates%20Hills',
+        'Hi myCHEF Dubai, I\'d like to request a quote for catering in Emirates Hills',
     },
   },
   {
@@ -1790,7 +1790,7 @@ const allLocations: LocationData[] = [
       subtitle:
         'Tell us about your villa BBQ, children\'s party or family celebration and we will build a relaxed, tailored menu.',
       whatsappMessage:
-        'Hi%20myCHEF%20Dubai%2C%20I\'d%20like%20to%20request%20a%20quote%20for%20catering%20in%20Arabian%20Ranches',
+        'Hi myCHEF Dubai, I\'d like to request a quote for catering in Arabian Ranches',
     },
   },
   {
@@ -1981,7 +1981,7 @@ const allLocations: LocationData[] = [
       subtitle:
         'Tell us about your villa garden party, golf event or family celebration and we will design a tailored menu.',
       whatsappMessage:
-        'Hi%20myCHEF%20Dubai%2C%20I\'d%20like%20to%20request%20a%20quote%20for%20catering%20in%20Dubai%20Hills',
+        'Hi myCHEF Dubai, I\'d like to request a quote for catering in Dubai Hills',
     },
   },
 

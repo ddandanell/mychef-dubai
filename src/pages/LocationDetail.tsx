@@ -23,6 +23,7 @@ import SEO from '../components/SEO'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import allLocations from '../data/locations.ts'
 import FaqAccordion from '../components/FaqAccordion'
+import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -58,6 +59,8 @@ export default function LocationDetail() {
 
   const canonicalSlug = slug ? slugAliases[slug] || slug : ''
   const loc = allLocations.find((l) => l.slug === canonicalSlug)
+
+  useWhatsAppMessage(loc?.callToAction.whatsappMessage)
 
   const whatsappLink = loc
     ? `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(

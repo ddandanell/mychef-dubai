@@ -19,6 +19,7 @@ import {
   serviceSchema,
 } from '@/utils/schema'
 import { Check, Quote, Star, ArrowRight, Clock, Shield, Award, Users, Leaf, FileText, Building, PartyPopper, } from 'lucide-react'
+import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -240,7 +241,9 @@ const schema = [
 
 /* ───── Page Component ───── */
 
+const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'm interested in corporate catering in Dubai. Date: __ Guests: __ Area: __"
 export default function Corporate() {
+  useWhatsAppMessage(PAGE_WHATSAPP_MESSAGE)
   const cardsRef = useRef<HTMLDivElement>(null)
   const solutionsRef = useRef<HTMLDivElement>(null)
   const trustRef = useRef<HTMLDivElement>(null)

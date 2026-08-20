@@ -10,6 +10,7 @@ import TrustSignalStrip from '../components/TrustSignalStrip'
 import StarterPackagesSection from '@/sections/StarterPackagesSection'
 import FaqAccordion from '../components/FaqAccordion'
 import { plainFaqAnswer } from '../utils/schema'
+import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -250,7 +251,9 @@ const faqPageSchema = {
 
 /* ────────────────────── Component ────────────────────── */
 
+const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'd like a catering quote for my event in Dubai. Date: __ Guests: __ Area: __"
 export default function Catering() {
+  useWhatsAppMessage(PAGE_WHATSAPP_MESSAGE)
   const containerRef = useRef<HTMLDivElement>(null)
 
   useGSAP(() => {

@@ -9,6 +9,7 @@ import PageHero from '../components/PageHero'
 import StarterPackagesSection from '../sections/StarterPackagesSection'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import VIPPromoSection from '../components/VIPPromoSection'
+import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -89,7 +90,9 @@ const schema = {
   '@graph': [serviceSchema, faqSchema, breadcrumbSchema],
 }
 
+const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'd like a catering package for my event in Dubai. Date: __ Guests: __ Area: __"
 export default function CateringPackages() {
+  useWhatsAppMessage(PAGE_WHATSAPP_MESSAGE)
   const containerRef = useRef<HTMLDivElement>(null)
 
   useGSAP(() => {

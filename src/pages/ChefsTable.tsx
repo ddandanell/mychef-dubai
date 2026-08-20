@@ -16,12 +16,15 @@ import SEO from '../components/SEO'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import { breadcrumbSchema, faqPageSchema, serviceSchema } from '../utils/schema'
 import FaqAccordion from '../components/FaqAccordion'
+import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 
 gsap.registerPlugin(ScrollTrigger)
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to book a chef\'s table experience (via mychef.ae/chefs-table-dubai)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
+
+const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'm interested in a chef's table experience in Dubai. Date: __ Guests: __ Area: __"
 
 const CANONICAL_PATH = '/chefs-table-dubai'
 const CAMPAIGN = 'chefs-table'
@@ -129,6 +132,7 @@ const schema = {
 }
 
 export default function ChefsTable() {
+  useWhatsAppMessage(PAGE_WHATSAPP_MESSAGE)
   const containerRef = useRef<HTMLDivElement>(null)
 
   useGSAP(() => {

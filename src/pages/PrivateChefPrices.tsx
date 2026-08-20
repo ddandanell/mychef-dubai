@@ -20,6 +20,7 @@ import SEO from '../components/SEO'
 import PageHero from '../components/PageHero'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import FaqAccordion from '../components/FaqAccordion'
+import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -177,7 +178,9 @@ const schema = {
   '@graph': [serviceSchema, faqSchema, breadcrumbSchema],
 }
 
+const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'd like private chef prices for my event in Dubai. Date: __ Guests: __ Area: __"
 export default function PrivateChefPrices() {
+  useWhatsAppMessage(PAGE_WHATSAPP_MESSAGE)
   const containerRef = useRef<HTMLDivElement>(null)
 
   useGSAP(() => {

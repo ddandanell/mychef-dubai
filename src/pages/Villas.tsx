@@ -7,6 +7,7 @@ import { useGSAP } from '@gsap/react'
 import SEO from '@/components/SEO'
 import PageHero from '@/components/PageHero'
 import TrustSignalStrip from '@/components/TrustSignalStrip'
+import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -158,7 +159,9 @@ const faqPageSchema = {
   })),
 }
 
+const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'm interested in villa catering in Dubai. Date: __ Guests: __ Area: __"
 export default function Villas() {
+  useWhatsAppMessage(PAGE_WHATSAPP_MESSAGE)
   const containerRef = useRef<HTMLDivElement>(null)
   const [openFaq, setOpenFaq] = useState<number | null>(null)
 

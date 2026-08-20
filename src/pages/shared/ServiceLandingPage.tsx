@@ -12,6 +12,7 @@ import {
 import SEO from '../../components/SEO'
 import TrustSignalStrip from '../../components/TrustSignalStrip'
 import FaqAccordion from '../../components/FaqAccordion'
+import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -89,6 +90,8 @@ interface Props {
 
 export default function ServiceLandingPage({ config }: Props) {
   const containerRef = useRef<HTMLDivElement>(null)
+
+  useWhatsAppMessage(config.whatsappMessage)
 
   const WHATSAPP_MESSAGE = encodeURIComponent(config.whatsappMessage)
   const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
