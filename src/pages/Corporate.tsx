@@ -403,9 +403,11 @@ export default function Corporate() {
             <p className="font-inter text-body text-gray-500 leading-relaxed mt-4 max-w-[700px] mx-auto">
               Tell us about your event and we will bring you a vetted chef within 24 hours.
               We deliver corporate catering across Dubai's key business districts, including{' '}
-              <Link to="/locations/business-bay" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Business Bay</Link>{' '}
-              and{' '}
-              <Link to="/locations/difc" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">DIFC</Link>,
+              <Link to="/locations/business-bay" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Business Bay</Link>,{' '}
+              <Link to="/locations/difc" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">DIFC</Link>,{' '}
+              <Link to="/locations/downtown-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Downtown Dubai</Link>,{' '}
+              <Link to="/locations/dubai-media-city" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Dubai Media City</Link>, and{' '}
+              <Link to="/locations/dubai-internet-city" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Dubai Internet City</Link>,
               from boardroom lunches to{' '}
               <Link to="/corporate-event-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">company-wide events</Link>.
             </p>

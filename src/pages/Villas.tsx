@@ -7,6 +7,7 @@ import { useGSAP } from '@gsap/react'
 import SEO from '@/components/SEO'
 import PageHero from '@/components/PageHero'
 import TrustSignalStrip from '@/components/TrustSignalStrip'
+import LocationStrip from '@/components/LocationStrip'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 
 gsap.registerPlugin(ScrollTrigger)
@@ -361,7 +362,7 @@ export default function Villas() {
                 The myCHEF Villa Advantage
               </h2>
               <p className="font-inter text-body text-gray-500 mb-8" style={{ lineHeight: '1.7' }}>
-                Having a private chef in your villa transforms everyday dining into an extraordinary experience. No reservations, no travel, no crowds — just exceptional food, prepared exclusively for you in the comfort of your own home. Browse our <Link to="/villa-catering-ideas-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">villa catering ideas</Link> for inspiration, or learn more about our <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef services in Dubai</Link>.
+                Having a private chef in your villa transforms everyday dining into an extraordinary experience. No reservations, no travel, no crowds — just exceptional food, prepared exclusively for you in the comfort of your own home. We serve villa communities across Dubai including <Link to="/locations/palm-jumeirah" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Palm Jumeirah</Link>, <Link to="/locations/emirates-hills" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Emirates Hills</Link>, <Link to="/locations/arabian-ranches" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Arabian Ranches</Link>, <Link to="/locations/dubai-hills" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Dubai Hills</Link>, and <Link to="/locations/jumeirah-islands" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Jumeirah Islands</Link>. Browse our <Link to="/villa-catering-ideas-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">villa catering ideas</Link> for inspiration, or learn more about our <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef services in Dubai</Link>.
               </p>
               <div className="villa-features-grid space-y-6">
                 {villaFeatures.map((feat) => (
@@ -487,6 +488,8 @@ export default function Villas() {
           </p>
         </div>
       </section>
+
+      <LocationStrip title="Villa chef services across Dubai" />
 
       {/* Section 11: CTA Banner */}
       <section className="villas-cta-section bg-black py-24">

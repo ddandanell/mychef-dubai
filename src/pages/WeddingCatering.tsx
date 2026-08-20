@@ -17,6 +17,7 @@ import {
 import SEO from '../components/SEO'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import FaqAccordion from '../components/FaqAccordion'
+import { plainFaqAnswer } from '../utils/schema'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 
 gsap.registerPlugin(ScrollTrigger)
@@ -163,6 +164,12 @@ const faqs = [
   { q: "How does the wedding reception service timeline work?", a: "We map the full service timeline around your reception schedule so canapés, courses, and dessert land precisely around speeches, dances, and key moments. Plated dinners run in clear stages of roughly 20 to 30 minutes each, while buffets and live stations are staffed to prevent queues at larger weddings. Your assigned captain coordinates with your planner and MC on the day so the food flow feels effortless and perfectly paced." },
   { q: "How do payment and deposits work for wedding catering?", a: "We confirm your wedding date with a deposit and agree a clear payment schedule in writing, with the balance settled before the event and all pricing inclusive of 5% VAT. Because every wedding is custom-quoted, your proposal spells out exactly what each stage covers so there are no surprises. We'll walk you through the terms when we send your quote, and you can reach us any time through our [contact page](/contact)." },
   { q: "Can you add live cooking stations, grazing tables, or canapés to our wedding?", a: "Yes, live cooking stations, grazing tables, passed canapés, dessert displays, and interactive counters are popular ways to add theatre and choice to a Dubai wedding. These work beautifully for cocktail hours, larger receptions, and multi-event celebrations, and can be layered onto a plated or buffet main service. Tell us the experience you want and we'll design it into your menu, from a styled [grazing table](/grazing-table-dubai) to chef-led live stations." },
+  { q: "How much does wedding catering cost in Dubai?", a: "Wedding catering in Dubai is custom-quoted based on guest count, cuisine, and service style. Indicative prices range from AED 180 per person for refined buffets to AED 500+ per person for plated multi-course dinners with live stations. All quotes include 5% VAT and are itemised so your budget stays predictable." },
+  { q: "Can you cater a villa wedding in Dubai?", a: "Yes. Villa, garden, and beach weddings are a speciality. We bring the chefs, service staff, and styling to venues across [Palm Jumeirah](/locations/palm-jumeirah), [Emirates Hills](/locations/emirates-hills), and [Dubai Hills](/locations/dubai-hills), handling setup, service, and clear-down so you can focus on the day." },
+  { q: "Do you provide menu tastings before the wedding?", a: "Yes. We arrange private tastings once your date is confirmed and the menu direction is agreed, typically four to six weeks before the wedding. This lets you refine dishes, portions, and presentation before the day, and you can begin planning courses through our [wedding catering menu planning guide](/wedding-catering-menu-planning-dubai)." },
+  { q: "Can you cater Indian wedding menus in Dubai?", a: "Yes. We design Indian and fusion wedding menus, from regional thalis to modern plated courses, all prepared to halal standards on request. Explore our [Indian catering Dubai](/indian-catering-dubai) options for menu inspiration." },
+  { q: "Do you offer wedding catering packages in Dubai?", a: "Every wedding is bespoke, but we create package-style proposals around service tiers such as canapé reception, plated dinner, buffet, and live stations. See our [wedding catering menu planning guide](/wedding-catering-menu-planning-dubai) for how we structure packages and tastings." },
+  { q: "Is your wedding catering fully halal?", a: "Yes. All myCHEF wedding menus are halal by default, using halal-certified meat and poultry. We can confirm specific requirements when we build your proposal, and you can read more about our [halal catering in Dubai](/halal-catering-dubai)." },
 ]
 
 const relatedServices = [
@@ -197,7 +204,7 @@ const faqSchema = {
   mainEntity: faqs.map((f) => ({
     '@type': 'Question',
     name: f.q,
-    acceptedAnswer: { '@type': 'Answer', text: f.a },
+    acceptedAnswer: { '@type': 'Answer', text: plainFaqAnswer(f.a) },
   })),
 }
 

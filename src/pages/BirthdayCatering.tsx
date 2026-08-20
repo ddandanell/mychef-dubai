@@ -17,6 +17,7 @@ import {
 import SEO from '../components/SEO'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import FaqAccordion from '../components/FaqAccordion'
+import { plainFaqAnswer } from '../utils/schema'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 
 gsap.registerPlugin(ScrollTrigger)
@@ -163,6 +164,12 @@ const faqs = [
   { q: "Do you offer separate menus for children and adults at the same party?", a: "Yes. Mixed-age birthdays are common, so we build playful, kid-friendly favourites alongside refined dishes for the adults, all from one coordinated menu. That way children get food they'll actually eat and grown-ups get something special, without you having to organise two caterers." },
   { q: "Should I hire a private chef or full catering for my birthday?", a: "It depends on the size and style of your party: a private chef suits intimate seated birthday dinners where the cooking is part of the experience, while full catering suits larger parties with buffets, stations, and party staff. We offer both under one roof, so we can recommend the right fit once we know your numbers and vibe. Our [private chef vs catering guide](/private-chef-vs-catering-dubai) breaks down the difference in more detail." },
   { q: "Can you match the food and cake to a specific party theme or colour palette?", a: "Yes. We design the menu, cake, dessert table, and presentation outward from your theme and colour palette, so everything on the table feels part of one concept. Whether it's a glamorous milestone look or a bright, playful children's theme, we style the food to match. Share your theme when you enquire and we'll build the proposal around it." },
+  { q: "What is included in birthday catering in Dubai?", a: "Birthday catering includes menu design, ingredient sourcing, on-site cooking, serving, and cleanup. Optional add-ons include a custom cake, styled dessert table, [mocktail bar](/mocktail-bar-catering-dubai), and party staff, all itemised in your quote." },
+  { q: "Do you cater kids' birthdays in Dubai?", a: "Yes. We create bright, allergy-aware menus with kid-friendly favourites, interactive stations, and mini treats, alongside refined options for adults. Mixed-age parties are common, so we make sure every guest is looked after." },
+  { q: "Can I hire a private chef for a birthday dinner in Dubai?", a: "Yes. For intimate birthday dinners, a [private chef](/private-chef-dubai) cooks a bespoke multi-course meal in your home or villa. Read our guide to the [best private chef birthday dinner in Dubai](/blog/best-private-chef-birthday-dinner-dubai) for ideas." },
+  { q: "Can you match the food and cake to a party theme?", a: "Yes. We design menus, cakes, dessert tables, and presentation around your theme and colour palette, so everything on the table feels cohesive. Share your theme when you enquire and we'll build the proposal around it." },
+  { q: "Do you cater birthday parties at villas in Dubai?", a: "Yes. We regularly cater villa, garden, rooftop, and poolside birthday parties across Dubai, including [Palm Jumeirah](/locations/palm-jumeirah), [Emirates Hills](/locations/emirates-hills), and [Arabian Ranches](/locations/arabian-ranches)." },
+  { q: "What is the minimum number of guests for birthday catering?", a: "There is no strict minimum — we tailor the format to your headcount. For very small gatherings a private chef is usually the better fit; larger parties suit a full catering setup. Tell us your numbers and we'll recommend the right format and price." },
 ]
 
 const relatedServices = [
@@ -191,7 +198,7 @@ const faqSchema = {
   mainEntity: faqs.map((f) => ({
     '@type': 'Question',
     name: f.q,
-    acceptedAnswer: { '@type': 'Answer', text: f.a },
+    acceptedAnswer: { '@type': 'Answer', text: plainFaqAnswer(f.a) },
   })),
 }
 
