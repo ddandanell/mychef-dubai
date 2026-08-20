@@ -314,6 +314,7 @@ export default function Catering() {
         description="Luxury event catering in Dubai for weddings, corporate events & private parties. Bespoke menus, vetted chefs, halal-first. Request a tailored quote in 15 min."
         canonicalPath="/catering-dubai"
         ogImage="/service-catering.webp"
+        hideSiteName
         schema={{ '@context': 'https://schema.org', '@graph': [schema, breadcrumbSchema, faqPageSchema] }}
       />
 

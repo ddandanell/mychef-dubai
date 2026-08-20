@@ -189,6 +189,7 @@ export default function Yachts() {
         description="Yacht catering and private chef service in Dubai Marina, Palm Jumeirah & JBR. Bespoke menus, seafood & canapés, full crew. Request a tailored quote."
         canonicalPath="/yachts"
         ogImage="/service-yacht.webp"
+        hideSiteName
         schema={{
           '@context': 'https://schema.org',
           '@graph': [serviceSchema, breadcrumbSchema, faqPageSchema],

@@ -339,6 +339,7 @@ export default function PrivateChef() {
         description="Hire a vetted private chef in Dubai for villas, yachts & homes. Bespoke menus, halal-first, full service. Quote in 15 minutes during business hours."
         canonicalPath="/private-chef-dubai"
         ogImage="/service-private-chef.webp"
+        hideSiteName
         schema={{ ...schema, ...breadcrumbSchema, ...faqPageSchema }}
       />
 

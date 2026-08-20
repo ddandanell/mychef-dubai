@@ -6,6 +6,7 @@ interface SEOProps {
   canonicalPath?: string
   ogImage?: string
   noindex?: boolean
+  hideSiteName?: boolean
   schema?: Record<string, unknown>
 }
 
@@ -21,9 +22,14 @@ export default function SEO({
   canonicalPath = '',
   ogImage = DEFAULT_OG_IMAGE,
   noindex = false,
+  hideSiteName = false,
   schema,
 }: SEOProps) {
-  const fullTitle = title ? `${title} | ${SITE_NAME}` : DEFAULT_TITLE
+  const fullTitle = title
+    ? hideSiteName
+      ? title
+      : `${title} | ${SITE_NAME}`
+    : DEFAULT_TITLE
 
   const canonicalUrl = `${SITE_URL}${canonicalPath}`
 

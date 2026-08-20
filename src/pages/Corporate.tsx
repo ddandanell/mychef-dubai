@@ -367,6 +367,7 @@ export default function Corporate() {
         description="Corporate catering and private dining in Dubai for offices, conferences, product launches & galas. Vetted chefs, halal menus, consolidated invoicing. Get a quote."
         canonicalPath="/corporate"
         ogImage="/service-corporate.webp"
+        hideSiteName
         schema={schema as unknown as Record<string, unknown>}
       />
 
