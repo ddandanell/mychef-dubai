@@ -102,7 +102,7 @@ const howItWorks = [
   { step: '02', title: 'Menu & Format Planning', description: 'We design a menu and service format that matches the energy of your celebration, from gala to garden party.' },
   { step: '03', title: 'Receive a Proposal', description: 'You get a detailed proposal covering food, drinks, staff, timing, and logistics for the evening.' },
   { step: '04', title: 'Confirm & Reserve', description: 'Approve the details and secure your date. We coordinate with your venue or yacht crew as needed.' },
-  { step: '05', title: 'Team Prep & Arrival', description: 'our chefs and event team arrive early with ingredients, equipment, and a clear service timeline.' },
+  { step: '05', title: 'Team Prep & Arrival', description: 'Chefs in our network and the event team arrive early with ingredients, equipment, and a clear service timeline.' },
   { step: '06', title: 'Countdown & Clear-Down', description: 'We serve through midnight, manage the toast, and clear down afterwards so your evening ends effortlessly.' },
 ]
 
@@ -257,10 +257,11 @@ export default function NewYearCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="New Year's Eve Catering Dubai | Gala & Yacht"
-        description="New Year's Eve catering in Dubai for gala dinners, yacht countdowns, and villa parties. Custom menus, full service, and midnight hospitality across Dubai."
+        title="New Year's Eve Catering Dubai | Gala, Yacht & Villa Countdown | myCHEF"
+        description="Book New Year's Eve catering in Dubai. Gala dinners, yacht countdowns and villa parties with custom menus, full service and midnight hospitality. Get a tailored quote in 15 minutes."
         canonicalPath="/new-year-catering-dubai"
         ogImage="/service-luxury-dining.webp"
+        hideSiteName
         schema={schema}
       />
 
@@ -284,13 +285,13 @@ export default function NewYearCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 nye-hero-h1">
-            New Year's Eve Catering Dubai
+            New Year's Eve Catering Dubai: Gala, Yacht & Villa Countdowns
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 nye-hero-sub">
             Gala dinners, yacht countdowns, villa parties, and midnight toast service across Dubai. Custom menus and full-service hospitality for the biggest night of the year.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=new-year-catering-dubai" className="btn-primary opacity-0 translate-y-4 nye-hero-cta">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=new-year-catering-dubai" className="btn-primary opacity-0 translate-y-4 nye-hero-cta">Get a New Year Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -306,6 +307,15 @@ export default function NewYearCatering() {
 
       <TrustSignalStrip variant="dark" />
 
+      {/* ═══════════════ Urgency Banner ═══════════════ */}
+      <section className="bg-gold py-4">
+        <div className="container-custom text-center">
+          <p className="font-inter text-sm font-medium text-black">
+            Book early — New Year's Eve dates fill up quickly. Limited availability for 31 December countdown events.
+          </p>
+        </div>
+      </section>
+
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
@@ -319,7 +329,7 @@ export default function NewYearCatering() {
             New Year's Eve in Dubai is one of the most anticipated nights of the year. From private villa parties with views of the fireworks to elegant yacht countdowns and corporate galas, the right catering sets the tone for the entire evening. At myCHEF Dubai, we create New Year's Eve catering experiences that match the energy and style of your celebration.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            our chefs and event team design menus ranging from refined multi-course gala dinners to lively canapé and live-station parties, with full staffing, bar service, and a structured midnight toast. You share the vision; we deliver the details. Explore our New Year's Eve catering options below, or see how they connect to our wider <Link to="/events" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">event catering in Dubai</Link>.
+            Chefs in our network and our event team design menus ranging from refined multi-course gala dinners to lively canapé and live-station parties, with full staffing, bar service, and a structured midnight toast. You share the vision; we deliver the details. Explore our New Year's Eve catering options below, or see how they connect to our wider <Link to="/events" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">event catering in Dubai</Link>.
           </p>
         </div>
       </section>
@@ -334,7 +344,7 @@ export default function NewYearCatering() {
             Hosts Who Want a Seamless Countdown
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Our New Year's Eve catering is designed for Dubai hosts who want a memorable celebration without managing the kitchen. Villa owners throwing private countdown parties, families welcoming the new year together, companies hosting year-end galas, and yacht guests watching the fireworks all rely on our chefs. We also cater hotel suites, rooftop terraces, and corporate boardrooms. Whether your event is intimate or large, formal or festive, we adapt the menu, format, and service to match the occasion and the venue.
+            Our New Year's Eve catering is designed for Dubai hosts who want a memorable celebration without managing the kitchen. Villa owners throwing private countdown parties, families welcoming the new year together, companies hosting year-end galas, and yacht guests watching the fireworks all rely on chefs in our network. We also cater hotel suites, rooftop terraces, and corporate boardrooms. Whether your event is intimate or large, formal or festive, we adapt the menu, format, and service to match the occasion and the venue.
           </p>
         </div>
       </section>
@@ -556,7 +566,7 @@ export default function NewYearCatering() {
             Tell us about your venue, guest count, and vision. We will design a menu, service plan, and midnight countdown experience that lets you ring in the new year without a worry.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=new-year-catering-dubai" className="btn-primary">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=new-year-catering-dubai" className="btn-primary">Get a New Year Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

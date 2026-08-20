@@ -53,17 +53,17 @@ const allLocations: LocationData[] = [
 {
     slug: 'dubai-marina',
     name: 'Dubai Marina',
-    title: 'Private Chef & Catering Dubai Marina',
+    title: 'Private Chef Dubai Marina | Yacht & Penthouse Catering | myCHEF',
     metaDescription:
-      'Luxury catering and private chef in Dubai Marina. Yacht parties, penthouse dinners and sunset events with tailored menus, setup and cleanup. Request a quote.',
+      'Book a private chef in Dubai Marina. Yacht & penthouse catering with tailored menus, full setup and cleanup. Get a tailored quote in 15 minutes.',
     h1: 'Private Chef & Catering Dubai Marina',
     heroImage: '/loc-dubai-marina.webp',
     heroSubtitle:
-      'Yacht-ready private dining and event catering designed for Dubai Marina\'s skyline lifestyle.',
+      'Dubai Marina private chef and catering for yacht decks, penthouses and skyline dinners — tailored menus with full setup and cleanup.',
     intro: [
       'Private chef and catering in Dubai Marina is built around a lifestyle of sleek towers, yacht decks and rooftop entertaining. Whether you are hosting a sunset gathering on the water or an intimate dinner in a penthouse, myCHEF Dubai designs menus that suit the pace and panorama of the Marina.',
       'Every event is handled from menu planning through cleanup, with ingredients sourced fresh and staff who understand the access, parking and marine delivery protocols that make Dubai Marina events run smoothly.',
-      'Available for Dubai events, our service is tailored to young professionals, residents and visitors who want restaurant-quality dining without leaving their address.'
+      'Available for Dubai events, our Dubai Marina private chef and yacht catering service is tailored to young professionals, residents and visitors who want restaurant-quality dining without leaving their address.'
     ],
     targetAudience: {
       title: 'Who books private chef and catering in Dubai Marina',
@@ -138,7 +138,7 @@ const allLocations: LocationData[] = [
     whyChoose: {
       title: 'Why myCHEF Dubai for Dubai Marina',
       paragraphs: [
-        'myCHEF Dubai focuses on fine-dining execution and logistics that match each address. In Dubai Marina that means understanding tower access, concierge procedures, yacht club handoffs and terrace setups. Our chefs and service staff arrive prepared, present each course with care, and leave the space restored. We do not make unsupported superlatives; we deliver consistent, detail-led service for guests who expect precision.'
+        'myCHEF Dubai focuses on fine-dining execution and logistics that match each address. In Dubai Marina that means understanding tower access, concierge procedures, yacht club handoffs and terrace setups. Chefs in our network are vetted, ingredients are sourced from trusted halal-first suppliers where requested, and our service staff arrive prepared, present each course with care, and leave the space restored. We do not make unsupported superlatives; we deliver consistent, detail-led service for guests who expect precision.'
       ]
     },
     useCases: {
@@ -240,9 +240,9 @@ const allLocations: LocationData[] = [
     propertyType:
       'High-rise apartments, luxury penthouses and serviced residences; no villas.',
     callToAction: {
-      title: 'Book Your Dubai Marina Private Chef',
+      title: 'Check Marina Availability',
       subtitle:
-        'Request a custom menu for your yacht, penthouse or apartment event.',
+        'Request a tailored menu and quote for your Dubai Marina event.',
       whatsappMessage:
         'Hi myCHEF Dubai, I\'d like to request a quote for catering in Dubai Marina'
     }
@@ -250,17 +250,17 @@ const allLocations: LocationData[] = [
   {
     slug: 'downtown-dubai',
     name: 'Downtown Dubai',
-    title: 'Private Chef & Catering Downtown Dubai',
+    title: 'Private Chef Downtown Dubai | Penthouse & Corporate | myCHEF',
     metaDescription:
-      'Private chef and luxury catering in Downtown Dubai. Burj Khalifa views, corporate events and penthouse dinners with tailored menus. Request a quote today.',
+      'Book a private chef in Downtown Dubai. Penthouse & corporate dining with tailored menus, full setup and cleanup. Get a tailored quote in 15 minutes.',
     h1: 'Private Chef & Catering Downtown Dubai',
     heroImage: '/loc-downtown.webp',
     heroSubtitle:
-      'Fine dining catering with Burj Khalifa views for Downtown Dubai\'s most prestigious addresses.',
+      'Downtown Dubai private chef and catering for penthouses, corporate events and skyline dining — tailored menus with full service.',
     intro: [
       'Private chef and catering in Downtown Dubai is shaped by one of the city\'s most iconic skylines. Residents and corporate hosts entertain in penthouses, hotel residences and private lounges with the Burj Khalifa and Dubai Fountain as the backdrop. myCHEF Dubai creates tailored dining experiences that match the setting.',
       'From boardroom lunches to anniversary dinners after a show at Dubai Opera, every menu is planned around the venue, timing and guest profile. Our chefs handle sourcing, setup, service and cleanup so hosts can focus on their guests.',
-      'Designed for private villas, homes, offices and event spaces, our Downtown service is available for Dubai events of any scale where quality and timing matter.'
+      'Designed for private villas, homes, offices and event spaces, our Downtown Dubai private chef and corporate catering service is available for events of any scale where quality and timing matter.'
     ],
     targetAudience: {
       title: 'Who books private chef and catering in Downtown Dubai',
@@ -335,7 +335,7 @@ const allLocations: LocationData[] = [
     whyChoose: {
       title: 'Why myCHEF Dubai for Downtown Dubai',
       paragraphs: [
-        'myCHEF Dubai plans each Downtown event around the realities of the district: tower security, valet access, loading-bay timing and the tight schedules that come with corporate entertaining. Our chefs prepare dishes on-site or finish them in your kitchen, and service is paced to the event. We deliver a consistent experience without making unsupported superlatives.'
+        'myCHEF Dubai plans each Downtown event around the realities of the district: tower security, valet access, loading-bay timing and the tight schedules that come with corporate entertaining. Chefs in our network are vetted and briefed for corporate settings, ingredients are sourced from trusted suppliers, and dishes are prepared on-site or finished in your kitchen with service paced to the event. We deliver a consistent experience without making unsupported superlatives.'
       ]
     },
     useCases: {
@@ -437,9 +437,9 @@ const allLocations: LocationData[] = [
     propertyType:
       'Luxury high-rise apartments, serviced residences and corporate offices; no villas.',
     callToAction: {
-      title: 'Plan Your Downtown Dubai Private Dinner',
+      title: 'Plan My Downtown Event',
       subtitle:
-        'Request a bespoke menu for your penthouse, office or celebration.',
+        'Request a tailored menu and quote for your Downtown Dubai event.',
       whatsappMessage:
         'Hi myCHEF Dubai, I\'d like to request a quote for catering in Downtown Dubai'
     }
@@ -447,17 +447,17 @@ const allLocations: LocationData[] = [
   {
     slug: 'palm-jumeirah',
     name: 'Palm Jumeirah',
-    title: 'Private Chef & Catering Palm Jumeirah',
+    title: 'Private Chef Palm Jumeirah | Villa & Yacht | myCHEF',
     metaDescription:
-      'Hire a private chef for luxury catering in Palm Jumeirah. Seven-course villa dining, beach BBQs and discreet service. Request your bespoke proposal today.',
+      'Book a private chef in Palm Jumeirah. Villa & yacht catering with tailored menus, full setup and cleanup. Get a tailored quote in 15 minutes.',
     h1: 'Private Chef & Catering Palm Jumeirah',
     heroImage: '/loc-palm-jumeirah.webp',
     heroSubtitle:
-      'Seven-course villa dining and discreet private chef service on The Fronds of Palm Jumeirah.',
+      'Palm Jumeirah private chef and catering for Frond villas and yacht events — discreet service with tailored menus and full cleanup.',
     intro: [
       'Private chef and catering in Palm Jumeirah revolves around privacy, space and exceptional homes. The Fronds are lined with large villas and private beaches where residents entertain family, friends and clients without leaving the property. myCHEF Dubai designs menus that suit the scale and discretion these events require.',
       'Service covers everything from menu development and ingredient sourcing to on-site preparation, table styling and post-event cleanup. Our chefs understand Nakheel access procedures, beach setups and the logistics of serving multi-course meals in private residences.',
-      'Available for Dubai events, our Palm Jumeirah catering is designed for hosts who value fine dining, flexibility and a quiet, professional presence.'
+      'Available for Dubai events, our Palm Jumeirah private chef and villa catering service is designed for hosts who value fine dining, flexibility and a quiet, professional presence.'
     ],
     targetAudience: {
       title: 'Who books private chef and catering in Palm Jumeirah',
@@ -532,7 +532,7 @@ const allLocations: LocationData[] = [
     whyChoose: {
       title: 'Why myCHEF Dubai for Palm Jumeirah',
       paragraphs: [
-        'myCHEF Dubai is structured for high-end private events. On Palm Jumeirah, that means arriving with full equipment, respecting security and privacy protocols, and serving each course with attentive, low-profile staff. We plan around Frond gate access, beach conditions and kitchen facilities. Our focus is execution, not rankings or guarantees.'
+        'myCHEF Dubai is structured for high-end private events. On Palm Jumeirah, that means arriving with full equipment, respecting security and privacy protocols, and serving each course with attentive, low-profile staff. We plan around Frond gate access, beach conditions and kitchen facilities. Chefs in our network are vetted and discreet, ingredients are sourced from trusted suppliers, and our focus is execution, not rankings or guarantees.'
       ]
     },
     useCases: {
@@ -634,8 +634,9 @@ const allLocations: LocationData[] = [
     propertyType:
       'Ultra-luxury villas on The Fronds, apartments on The Trunk and hotel residences.',
     callToAction: {
-      title: 'Book Your Palm Jumeirah Private Chef',
-      subtitle: 'Request a bespoke villa menu or beach BBQ plan.',
+      title: 'Book Palm Jumeirah Chef',
+      subtitle:
+        'Request a tailored menu and quote for your Palm Jumeirah event.',
       whatsappMessage:
         'Hi myCHEF Dubai, I\'d like to request a quote for catering in Palm Jumeirah'
     }
@@ -643,17 +644,17 @@ const allLocations: LocationData[] = [
   {
     slug: 'jumeirah',
     name: 'Jumeirah',
-    title: 'Private Chef & Catering Jumeirah Dubai',
+    title: 'Private Chef Jumeirah Dubai | Beachfront & Villa | myCHEF',
     metaDescription:
-      'Beachfront private chef and catering in Jumeirah Dubai. Villa dinners, family celebrations and garden parties with tailored menus. Get a custom quote today.',
+      'Book a private chef in Jumeirah Dubai. Beachfront & villa catering with tailored menus, full setup and cleanup. Get a tailored quote in 15 minutes.',
     h1: 'Private Chef & Catering Jumeirah Dubai',
     heroImage: '/loc-jumeirah.webp',
     heroSubtitle:
-      'Intimate beachfront villa dining with a private chef in Jumeirah.',
+      'Jumeirah private chef and catering for beachfront villas and garden celebrations — family-friendly menus with full service.',
     intro: [
       'Private chef and catering in Jumeirah is shaped by coastal living, spacious villas and a family-oriented atmosphere. Many homes sit steps from the beach with private gardens and pools, making them natural venues for relaxed yet refined entertaining. myCHEF Dubai designs menus that fit this coastal, residential mood.',
       'Whether it is a weekend family brunch, a children\'s birthday or an elegant garden dinner, our chefs bring ingredients, equipment and service staff to your home. We handle setup, cooking, plating and cleanup so the host can enjoy the occasion.',
-      'Available for Dubai events, our Jumeirah service is designed for residents who want restaurant-quality dining in the comfort and privacy of their villa.'
+      'Available for Dubai events, our Jumeirah private chef and beachfront villa catering service is designed for residents who want restaurant-quality dining in the comfort and privacy of their villa.'
     ],
     targetAudience: {
       title: 'Who books private chef and catering in Jumeirah',
@@ -728,7 +729,7 @@ const allLocations: LocationData[] = [
     whyChoose: {
       title: 'Why myCHEF Dubai for Jumeirah',
       paragraphs: [
-        'myCHEF Dubai understands the practical side of catering to Jumeirah villas: garden access, outdoor weather, kitchen size and family-friendly pacing. Our chefs prepare food on site, our service team manage service discreetly, and we restore the space before leaving. We avoid unsupported superlatives and instead focus on reliable, well-planned execution.'
+        'myCHEF Dubai understands the practical side of catering to Jumeirah villas: garden access, outdoor weather, kitchen size and family-friendly pacing. Chefs in our network are vetted, ingredients are sourced from trusted halal-first suppliers where requested, and our service team manages service discreetly before we restore the space and leave. We avoid unsupported superlatives and instead focus on reliable, well-planned execution.'
       ]
     },
     useCases: {
@@ -830,9 +831,9 @@ const allLocations: LocationData[] = [
     propertyType:
       'Beachfront villas, luxury compounds and low-rise apartments; no high-rise towers.',
     callToAction: {
-      title: 'Plan Your Jumeirah Villa Dinner',
+      title: 'Book Jumeirah Private Chef',
       subtitle:
-        'Request a custom menu for your beachfront home or garden event.',
+        'Request a tailored menu and quote for your Jumeirah event.',
       whatsappMessage:
         'Hi myCHEF Dubai, I\'d like to request a quote for catering in Jumeirah Dubai'
     }
@@ -840,17 +841,17 @@ const allLocations: LocationData[] = [
   {
     slug: 'jbr',
     name: 'JBR',
-    title: 'Beachfront Catering & Private Chef JBR',
+    title: 'Private Chef JBR Dubai | Beachfront & Apartment | myCHEF',
     metaDescription:
-      'Beachfront catering and private chef in JBR Dubai. Birthday parties, apartment gatherings and sunset dinners with tailored menus. Request a custom quote today.',
+      'Book a private chef in JBR Dubai. Beachfront & apartment catering with tailored menus, full setup and cleanup. Get a tailored quote in 15 minutes.',
     h1: 'Private Chef & Catering JBR Dubai',
     heroImage: '/loc-jbr.webp',
     heroSubtitle:
-      'Beachfront luxury catering for JBR apartments, birthdays and sunset celebrations.',
+      'JBR private chef and catering for beachfront apartments, birthdays and sunset gatherings — tailored menus with full service.',
     intro: [
       'Private chef and catering in JBR combines beachfront energy with apartment living. The area draws residents, tourists and young professionals who gather in apartments, serviced residences and beachside venues. myCHEF Dubai creates menus that move easily from casual canapés to plated dinners with a coastal feel.',
       'Birthday parties, family get-togethers and post-beach dinners are common here. Our chefs plan around building access, beach sand and the relaxed pace of JBR so hosts can enjoy the event without managing logistics.',
-      'Available for Dubai events, our JBR service is designed for people who want quality dining in a beachfront setting, whether at home or by the shore.'
+      'Available for Dubai events, our JBR private chef and beachfront apartment catering service is designed for people who want quality dining in a beachfront setting, whether at home or by the shore.'
     ],
     targetAudience: {
       title: 'Who books private chef and catering in JBR',
@@ -925,7 +926,7 @@ const allLocations: LocationData[] = [
     whyChoose: {
       title: 'Why myCHEF Dubai for JBR',
       paragraphs: [
-        'myCHEF Dubai knows that JBR events come with specific practical considerations: beach sand, building access rules, parking limits and a mix of residents and visitors. Our chefs prepare for these details in advance, brings the right equipment and keeps service unobtrusive. We focus on making the host\'s job easier, not on making unsupported claims.'
+        'myCHEF Dubai knows that JBR events come with specific practical considerations: beach sand, building access rules, parking limits and a mix of residents and visitors. Chefs in our network are vetted for apartment and beach service, ingredients are sourced from trusted suppliers, and our team prepares for these details in advance, brings the right equipment and keeps service unobtrusive. We focus on making the host\'s job easier, not on making unsupported claims.'
       ]
     },
     useCases: {
@@ -1027,9 +1028,9 @@ const allLocations: LocationData[] = [
     propertyType:
       'Apartments, penthouses and serviced residences; no villas.',
     callToAction: {
-      title: 'Book Your JBR Beachfront Caterer',
+      title: 'Book JBR Private Chef',
       subtitle:
-        'Request a custom menu for your apartment, beachfront party or birthday event.',
+        'Request a tailored menu and quote for your JBR event.',
       whatsappMessage:
         'Hi myCHEF Dubai, I\'d like to request a quote for catering in JBR Dubai'
     }
@@ -1038,17 +1039,17 @@ const allLocations: LocationData[] = [
 {
     slug: 'business-bay',
     name: 'Business Bay',
-    title: 'Private Chef & Catering Business Bay Dubai',
+    title: 'Private Chef Business Bay Dubai | Corporate & Private | myCHEF',
     metaDescription:
-      'Book myCHEF Dubai for private chef and catering in Business Bay. Elevated office lunches, corporate events and canal-front dining. Request a proposal today.',
+      'Book a private chef in Business Bay Dubai. Corporate & private dining with tailored menus, full setup and cleanup. Get a tailored quote in 15 minutes.',
     h1: 'Private Chef & Catering Business Bay Dubai',
     heroImage: '/loc-difc.webp',
     heroSubtitle:
-      'Canal-front private chef and catering for Business Bay offices, residential towers and corporate events.',
+      'Business Bay private chef and catering for offices, canal-front venues and residential towers — tailored menus with full service.',
     intro: [
       `Catering in Business Bay is shaped by the district's rhythm: more than 191,000 people move between Grade A office towers, canal-front apartments and hotels every day. myCHEF Dubai delivers private chef service and refined catering that matches the pace and polish of this central business corridor.`,
       `Whether you are planning a working lunch in a tower boardroom, a product launch at a canal venue or an intimate dinner in a residential penthouse, we build menus that travel well and present beautifully. Our chefs manage setup, service and cleanup so hosts can focus on their guests.`,
-      `From daily office lunch programs to large corporate galas, our Business Bay service is designed for Dubai's most dynamic work address, with chef-prepared courses and attentive service throughout the event.`,
+      `From daily office lunch programs to large corporate galas, our Business Bay private chef and corporate catering service is designed for Dubai's most dynamic work address, with chef-prepared courses and attentive service throughout the event.`,
     ],
     targetAudience: {
       title: 'Who books private chef and catering in Business Bay?',
@@ -1219,9 +1220,9 @@ const allLocations: LocationData[] = [
     propertyType:
       'Office towers, Grade A commercial buildings, residential high-rises and canal-front mixed-use developments.',
     callToAction: {
-      title: 'Request a Business Bay catering proposal',
+      title: 'Book Business Bay Private Chef',
       subtitle:
-        'Tell us about your office lunch, corporate event or private dinner and we will build a tailored menu.',
+        'Request a tailored menu and quote for your Business Bay event.',
       whatsappMessage:
         'Hi myCHEF Dubai, I\'d like to request a quote for catering in Business Bay',
     },
@@ -1229,17 +1230,17 @@ const allLocations: LocationData[] = [
   {
     slug: 'difc',
     name: 'DIFC',
-    title: 'Corporate Catering & Private Chef DIFC Dubai',
+    title: 'Private Chef DIFC Dubai | Corporate & Boardroom | myCHEF',
     metaDescription:
-      'Book myCHEF Dubai for private chef and corporate catering in DIFC. Power lunches, boardroom dining and galas for finance teams. Request bespoke menu today.',
-    h1: 'Corporate Catering & Private Chef DIFC Dubai',
+      'Book a private chef in DIFC Dubai. Corporate & boardroom dining with tailored menus, full setup and cleanup. Get a tailored quote in 15 minutes.',
+    h1: 'Private Chef & Catering DIFC Dubai',
     heroImage: '/loc-difc.webp',
     heroSubtitle:
-      'Precision private dining and corporate catering for DIFC boardrooms, family offices and financial events.',
+      'DIFC private chef and corporate catering for boardrooms, power lunches and finance events — precise service with tailored menus.',
     intro: [
       `DIFC is the financial heart of Dubai, home to more than 50,000 banking, wealth management, fintech and insurance professionals. Catering here demands speed, discretion and precision: a 60-minute power lunch can close a deal, and a boardroom dinner can shape a partnership. myCHEF Dubai provides private chef service and corporate catering designed for the rhythm of Gate Village and the Gate District.`,
-      `From plated power lunches and canapé networking receptions to large corporate galas and family office dinners, we adapt our seven-course style to the formality of the occasion. Service staff understand the expectations of DIFC audiences, and every detail is planned around your schedule.`,
-      `Whether the event is in an office tower, a private dining room or a residence in Index Tower, our DIFC service delivers chef-prepared food, polished presentation and complete cleanup across Dubai's leading financial district.`,
+      `From plated power lunches and canapé networking receptions to large corporate galas and family office dinners, we adapt our seven-course style to the formality of the occasion. Service staff understand the expectations of DIFC audiences, every chef in our network is vetted for corporate discretion, and every detail is planned around your schedule.`,
+      `Whether the event is in an office tower, a private dining room or a residence in Index Tower, our DIFC private chef and corporate catering service delivers chef-prepared food, polished presentation and complete cleanup across Dubai's leading financial district.`,
     ],
     targetAudience: {
       title: 'Who books private chef and corporate catering in DIFC?',
@@ -1404,9 +1405,9 @@ const allLocations: LocationData[] = [
     propertyType:
       'Office towers in Gate Village and Gate District, with limited residential units in Index Tower and DIFC Living.',
     callToAction: {
-      title: 'Request a DIFC catering proposal',
+      title: 'Book DIFC Private Chef',
       subtitle:
-        'Tell us about your power lunch, boardroom dinner or corporate gala and we will prepare a tailored menu.',
+        'Request a tailored menu and quote for your DIFC event.',
       whatsappMessage:
         'Hi myCHEF Dubai, I\'d like to request a quote for catering in DIFC',
     },
@@ -1414,17 +1415,17 @@ const allLocations: LocationData[] = [
   {
     slug: 'emirates-hills',
     name: 'Emirates Hills',
-    title: 'Private Chef & Catering Emirates Hills Dubai',
+    title: 'Private Chef Emirates Hills Dubai | Villa & Estate | myCHEF',
     metaDescription:
-      'Hire a discreet private chef in Emirates Hills with myCHEF Dubai. Villa dining, tasting menus and private service for ultra-luxury homes. Request a proposal.',
-    h1: 'Private Chef & Villa Catering Emirates Hills Dubai',
+      'Book a private chef in Emirates Hills. Villa & estate dining with tailored menus, full setup and cleanup. Get a tailored quote in 15 minutes.',
+    h1: 'Private Chef & Catering Emirates Hills Dubai',
     heroImage: '/loc-emirates-hills.webp',
     heroSubtitle:
-      'Discreet private chef experiences crafted for Emirates Hills\' ultra-luxury villas and distinguished guests.',
+      'Emirates Hills private chef and villa dining for ultra-luxury estates — discreet, tailored menus with full service and cleanup.',
     intro: [
       `Emirates Hills is known as the Beverly Hills of Dubai: a gated enclave of more than 600 ultra-luxury villas and mansions set around the Montgomerie Golf Course. Residents include global business leaders, diplomats and high-profile families who value privacy, space and exceptional service. myCHEF Dubai provides private chef and villa catering designed to meet the standards of this exclusive community.`,
       `Dining here is usually in-home: large villa kitchens, formal dining rooms, garden marquees and poolside terraces. We create multi-course tasting menus, family celebrations and private dinners for 16 to 50 or more guests, with service staff who understand the etiquette of ultra-luxury homes.`,
-      `From halal and international menus to multi-day chef placement and dietary protocols for global guests, our Emirates Hills service is built around discretion, precision and the comfort of your own villa.`,
+      `From halal and international menus to multi-day chef placement and dietary protocols for global guests, our Emirates Hills private chef service is built around discretion, precision and the comfort of your own villa.`,
     ],
     targetAudience: {
       title: 'Who books private chef service in Emirates Hills?',
@@ -1595,9 +1596,9 @@ const allLocations: LocationData[] = [
     propertyType:
       'Ultra-luxury villas and mansions only, with no apartments or townhouses.',
     callToAction: {
-      title: 'Request an Emirates Hills private chef proposal',
+      title: 'Book Emirates Hills Private Chef',
       subtitle:
-        'Tell us about your villa event, guest profile and menu preferences and we will prepare a confidential proposal.',
+        'Request a tailored menu and quote for your Emirates Hills event.',
       whatsappMessage:
         'Hi myCHEF Dubai, I\'d like to request a quote for catering in Emirates Hills',
     },
@@ -1605,17 +1606,17 @@ const allLocations: LocationData[] = [
   {
     slug: 'arabian-ranches',
     name: 'Arabian Ranches',
-    title: 'Private Chef & Catering Arabian Ranches',
+    title: 'Private Chef Arabian Ranches Dubai | Family Villa | myCHEF',
     metaDescription:
-      'Book myCHEF Dubai for family catering and private chef service in Arabian Ranches. Villa BBQs, community events and children\'s parties. Request a menu now.',
-    h1: 'Family Catering & Private Chef Arabian Ranches Dubai',
+      'Book a private chef in Arabian Ranches. Family villa catering with tailored menus, full setup and cleanup. Get a tailored quote in 15 minutes.',
+    h1: 'Private Chef & Catering Arabian Ranches Dubai',
     heroImage: '/loc-emirates-hills.webp',
     heroSubtitle:
-      'Relaxed, family-focused catering and private chef service for Arabian Ranches villa gatherings and community events.',
+      'Arabian Ranches private chef and catering for villa gardens, BBQs and family celebrations — relaxed, tailored menus with full service.',
     intro: [
       `Arabian Ranches is one of Dubai's most established villa communities, designed around family routines, greenery and a strong neighbourhood feel. With villas across Arabian Ranches 1, 2 and 3, residents value space for children, private gardens and community events. myCHEF Dubai brings family catering and private chef service to villa gardens, community parks and club venues throughout the area.`,
       `The most popular requests here are relaxed: villa BBQs, children's birthday parties, community gatherings and family brunches. We adapt our service to suit the occasion, from a laid-back garden grill with a chef and server to a more formal seated dinner in a private dining room.`,
-      `Every event is designed around family schedules, dietary needs and the outdoor lifestyle that makes Arabian Ranches distinctive. we design and manage the experience, setup and cleanup so hosts can enjoy the celebration with their guests.`,
+      `Every event is designed around family schedules, dietary needs and the outdoor lifestyle that makes Arabian Ranches distinctive. Chefs in our network are vetted, ingredients are sourced from trusted halal-first suppliers where requested, and we manage the experience, setup and cleanup so hosts can enjoy the celebration with their guests.`,
     ],
     targetAudience: {
       title: 'Who books catering in Arabian Ranches?',
@@ -1786,9 +1787,9 @@ const allLocations: LocationData[] = [
     propertyType:
       'Villa-only community across Arabian Ranches 1, 2 and 3 with mature landscaping and community parks.',
     callToAction: {
-      title: 'Request an Arabian Ranches catering proposal',
+      title: 'Book Arabian Ranches Private Chef',
       subtitle:
-        'Tell us about your villa BBQ, children\'s party or family celebration and we will build a relaxed, tailored menu.',
+        'Request a tailored menu and quote for your Arabian Ranches event.',
       whatsappMessage:
         'Hi myCHEF Dubai, I\'d like to request a quote for catering in Arabian Ranches',
     },
@@ -1796,17 +1797,17 @@ const allLocations: LocationData[] = [
   {
     slug: 'dubai-hills',
     name: 'Dubai Hills',
-    title: 'Private Chef & Catering Dubai Hills Estate',
+    title: 'Private Chef Dubai Hills | Golf & Family Villa | myCHEF',
     metaDescription:
-      'Book myCHEF Dubai for private chef and family catering in Dubai Hills. Villa garden dining, golf events and birthday celebrations. Request a proposal today.',
+      'Book a private chef in Dubai Hills. Golf & family villa catering with tailored menus, full setup and cleanup. Get a tailored quote in 15 minutes.',
     h1: 'Private Chef & Catering Dubai Hills Dubai',
     heroImage: '/loc-emirates-hills.webp',
     heroSubtitle:
-      'Family-friendly private chef and catering for Dubai Hills villas, townhouses and golf events.',
+      'Dubai Hills private chef and catering for villas, golf events and family gatherings — tailored menus with full service.',
     intro: [
       `Dubai Hills Estate is one of Dubai's fastest-growing family communities, with more than 25,000 residents and plans for 135,000. The area blends villas, townhouses and apartments around Dubai Hills Golf Club, Dubai Hills Park and Dubai Hills Mall. myCHEF Dubai provides private chef and family catering designed for this modern, outdoor lifestyle.`,
       `The dominant request here is villa garden dining: birthday parties, family brunches, housewarmings and golf-event luncheons. Residents moved from central apartments for space and greenery, and they want catering that feels at home in a garden, on a terrace or beside the golf course.`,
-      `We bring chef-prepared food, flexible service styles and family-friendly menus to Sidra, Maple, Golf Place, Park Ridge and the wider Dubai Hills community. Every event includes setup, service and cleanup.`,
+      `We bring chef-prepared food, flexible service styles and family-friendly menus to Sidra, Maple, Golf Place, Park Ridge and the wider Dubai Hills community. Chefs in our network are vetted and every event includes setup, service and cleanup.`,
     ],
     targetAudience: {
       title: 'Who books private chef and catering in Dubai Hills?',
@@ -1977,9 +1978,9 @@ const allLocations: LocationData[] = [
     propertyType:
       'Villas, townhouses and apartments across Sidra, Maple, Golf Place, Park Ridge, Acacia and Mulberry.',
     callToAction: {
-      title: 'Request a Dubai Hills catering proposal',
+      title: 'Book Dubai Hills Private Chef',
       subtitle:
-        'Tell us about your villa garden party, golf event or family celebration and we will design a tailored menu.',
+        'Request a tailored menu and quote for your Dubai Hills event.',
       whatsappMessage:
         'Hi myCHEF Dubai, I\'d like to request a quote for catering in Dubai Hills',
     },
@@ -1988,15 +1989,15 @@ const allLocations: LocationData[] = [
 {
     slug: "jvc",
     name: "JVC",
-    title: "Catering JVC Dubai | Private Chef & Events",
-    metaDescription: "Private chef and catering in JVC Dubai for family celebrations, birthday parties and home gatherings. Custom menus, full setup and cleanup. Request a quote today.",
+    title: "Private Chef JVC Dubai | Family & Home Celebrations | myCHEF",
+    metaDescription: "Book a private chef in JVC Dubai. Family & home celebrations with tailored menus, full setup and cleanup. Get a tailored quote in 15 minutes.",
     h1: "Private Chef & Catering JVC Dubai",
     heroImage: "/loc-dubai-marina.webp",
-    heroSubtitle: "Premium family catering that turns your JVC home celebration into a refined private dining experience.",
+    heroSubtitle: "JVC private chef and catering for family celebrations, birthdays and home gatherings — tailored menus with full service.",
     intro: [
       "Catering in JVC is all about family, community and celebrating life's moments without leaving home. With more than 100,000 residents across apartments, townhouses and villas, Jumeirah Village Circle has become one of Dubai's fastest-growing family communities, and its residents expect quality that matches the occasion.",
       "At myCHEF Dubai, we design private chef experiences and event catering for JVC homes, parks and community spaces. From children's birthday parties and baby showers to relaxed weekend gatherings, our menus are built around your guest count, dietary preferences and budget.",
-      "Every booking includes ingredient sourcing, professional chef arrival, on-site preparation, service staff if needed and full cleanup afterwards. Whether you live in a tower overlooking the park or a villa garden in JVC, we bring restaurant-quality dining to your dining table in Dubai."
+      "Every booking includes ingredient sourcing, professional chef arrival, on-site preparation, service staff if needed and full cleanup afterwards. Chefs in our network are vetted and ingredients are sourced from trusted suppliers. Whether you live in a tower overlooking the park or a villa garden in JVC, we bring restaurant-quality dining to your dining table in Dubai."
     ],
     targetAudience: {
       title: "Who Books Private Chef & Catering in JVC?",
@@ -2094,23 +2095,23 @@ const allLocations: LocationData[] = [
     uniqueAngle: "Premium family catering tailored to JVC's fast-growing community of young families and home entertainers.",
     propertyType: "Apartments, townhouses and villas across landscaped community clusters.",
     callToAction: {
-      title: "Plan Your JVC Private Dining Event",
-      subtitle: "Request a custom catering proposal for your JVC home celebration in Dubai.",
+      title: "Book JVC Private Chef",
+      subtitle: "Request a tailored menu and quote for your JVC event.",
       whatsappMessage: "Hi myCHEF Dubai, I'd like to request a quote for catering in JVC"
     }
   },
   {
     slug: "jlt",
     name: "JLT",
-    title: "Catering JLT Dubai | Office & Private Events",
-    metaDescription: "Private chef and catering in JLT Dubai for office lunches, corporate events and apartment gatherings around the lakes. Custom menus. Get a quote today.",
+    title: "Private Chef JLT Dubai | Office & Lakeside Apartment | myCHEF",
+    metaDescription: "Book a private chef in JLT Dubai. Office & apartment catering with tailored menus, full setup and cleanup. Get a tailored quote in 15 minutes.",
     h1: "Private Chef & Catering JLT Dubai",
     heroImage: "/loc-dubai-marina.webp",
-    heroSubtitle: "Lakeside private chef experiences for JLT offices, residences and event spaces across the towers.",
+    heroSubtitle: "JLT private chef and catering for offices, lakeside apartments and corporate events — tailored menus with full service.",
     intro: [
       "Catering in JLT sits at the crossroads of business and residential life. With more than 22,000 businesses in the DMCC free zone and around 100,000 people passing through daily, Jumeirah Lakes Towers is one of Dubai's busiest mixed-use districts. Private chef and catering services here need to be precise, flexible and fast.",
       "myCHEF Dubai serves JLT with tailored office lunch catering, apartment private dining and lakeside event service. We understand the rhythm of the area: executives who need a polished power lunch, teams celebrating milestones, and residents hosting friends in their high-rise apartments after work.",
-      "Every JLT booking is planned around tower access, parking limits and tight schedules. We bring the service to you, whether that means a boardroom lunch, a penthouse dinner or a gathering at JLT Park with Dubai's skyline in the background."
+      "Every JLT booking is planned around tower access, parking limits and tight schedules. Chefs in our network are vetted for corporate and residential service, and we bring the service to you, whether that means a boardroom lunch, a penthouse dinner or a gathering at JLT Park with Dubai's skyline in the background."
     ],
     targetAudience: {
       title: "Who Books Private Chef & Catering in JLT?",
@@ -2209,23 +2210,23 @@ const allLocations: LocationData[] = [
     uniqueAngle: "Lakeside private chef and corporate catering built for JLT's mix of DMCC offices, high-rise residences and outdoor spaces.",
     propertyType: "Mixed-use towers with apartments, offices and hotel residences around three lakes.",
     callToAction: {
-      title: "Book Catering for Your JLT Event",
-      subtitle: "Request a tailored proposal for your JLT office, residence or lakeside gathering in Dubai.",
+      title: "Book JLT Private Chef",
+      subtitle: "Request a tailored menu and quote for your JLT event.",
       whatsappMessage: "Hi myCHEF Dubai, I'd like to request a quote for catering in JLT"
     }
   },
   {
     slug: "bluewaters-island",
     name: "Bluewaters",
-    title: "Catering Bluewaters Dubai | Private Chef",
-    metaDescription: "Private chef and catering on Bluewaters Island Dubai for residents, visitors and short-stay celebrations. Ain Dubai views, custom menus. Request your quote.",
-    h1: "Private Chef & Catering Bluewaters Dubai",
+    title: "Private Chef Bluewaters Dubai | Island & Ain Dubai | myCHEF",
+    metaDescription: "Book a private chef in Bluewaters Dubai. Island dining with Ain Dubai views, tailored menus and full service. Get a tailored quote in 15 minutes.",
+    h1: "Private Chef & Catering Bluewaters Island Dubai",
     heroImage: "/loc-jbr.webp",
-    heroSubtitle: "Exclusive private dining for residents and visitors of Dubai's iconic Bluewaters Island.",
+    heroSubtitle: "Bluewaters Island private chef and catering for luxury apartments and short-stay celebrations — island dining with Ain Dubai views.",
     intro: [
       "Catering on Bluewaters Island is a different kind of experience. Built around Ain Dubai and Caesars Palace Bluewaters, this waterfront destination attracts luxury residents, holiday-home visitors and tourists who want memorable moments with a view. Private chef service here should feel as iconic as the location itself.",
       "myCHEF Dubai offers bespoke catering for Bluewaters apartments and serviced residences. Whether you are celebrating a birthday during a Dubai holiday, hosting a romantic dinner with Ain Dubai illuminated outside, or planning a small resident gathering, we create menus and service styles that match the island's elevated atmosphere.",
-      "Every Bluewaters booking is handled with attention to building access, parking logistics and the needs of short-stay guests who may not have a full kitchen. We arrive prepared so you can focus on the occasion."
+      "Every Bluewaters booking is handled with attention to building access, parking logistics and the needs of short-stay guests who may not have a full kitchen. Chefs in our network are vetted and ingredients are sourced from trusted suppliers, so you can focus on the occasion."
     ],
     targetAudience: {
       title: "Who Books Private Chef & Catering on Bluewaters?",
@@ -2322,23 +2323,23 @@ const allLocations: LocationData[] = [
     uniqueAngle: "Exclusive private chef dining for Bluewaters residents and visitors, designed around the island's luxury apartments, Ain Dubai views and short-stay lifestyle.",
     propertyType: "Luxury apartments and serviced residences on an iconic waterfront island.",
     callToAction: {
-      title: "Host a Private Dinner on Bluewaters",
-      subtitle: "Request a custom catering proposal for your Bluewaters Island residence or stay in Dubai.",
-      whatsappMessage: "Hi myCHEF Dubai, I'd like to request a quote for catering in Bluewaters"
+      title: "Book Bluewaters Private Chef",
+      subtitle: "Request a tailored menu and quote for your Bluewaters Island event.",
+      whatsappMessage: "Hi myCHEF Dubai, I'd like to request a quote for catering in Bluewaters Island"
     }
   },
   {
     slug: "umm-suqeim",
     name: "Umm Suqeim",
-    title: "Catering Umm Suqeim Dubai | Private Chef",
-    metaDescription: "Private chef and catering in Umm Suqeim Dubai for beachfront villas, family gatherings and coastal celebrations. Custom menus. Request a quote today.",
+    title: "Private Chef Umm Suqeim Dubai | Beachfront Villa | myCHEF",
+    metaDescription: "Book a private chef in Umm Suqeim Dubai. Beachfront villa catering with tailored menus, full setup and cleanup. Get a tailored quote in 15 minutes.",
     h1: "Private Chef & Catering Umm Suqeim Dubai",
     heroImage: "/loc-jumeirah.webp",
-    heroSubtitle: "Beachfront private dining for Umm Suqeim villas and coastal homes along Dubai's most prestigious shoreline.",
+    heroSubtitle: "Umm Suqeim private chef and catering for beachfront villas and coastal celebrations — tailored menus with full service.",
     intro: [
       "Catering in Umm Suqeim carries the relaxed elegance of Dubai's coastal lifestyle. This established beachfront community is known for its spacious villas, private pools and proximity to landmarks like Burj Al Arab and Madinat Jumeirah. Events here are typically family-focused, celebratory and intimate.",
       "myCHEF Dubai provides private chef and catering services for Umm Suqeim homes, from large garden dinners to beachfront gatherings. We design menus that suit the setting: light Mediterranean plates for poolside afternoons, refined multi-course dinners for special occasions, and family-friendly sharing menus for mixed-age groups.",
-      "our chefs understand the practical side of coastal catering, including sandy outdoor setups, sea breeze timing and villa access. We handle preparation, service and cleanup so you can enjoy the event with your guests."
+      "our chefs understand the practical side of coastal catering, including sandy outdoor setups, sea breeze timing and villa access. Chefs in our network are vetted and ingredients are sourced from trusted halal-first suppliers where requested, and we handle preparation, service and cleanup so you can enjoy the event with your guests."
     ],
     targetAudience: {
       title: "Who Books Private Chef & Catering in Umm Suqeim?",
@@ -2435,23 +2436,23 @@ const allLocations: LocationData[] = [
     uniqueAngle: "Beachfront villa private dining for Umm Suqeim's established coastal community, with menus and service designed for garden, pool and shoreline settings.",
     propertyType: "Beachfront villas and luxury compounds with private gardens and pools.",
     callToAction: {
-      title: "Plan Your Umm Suqeim Private Dinner",
-      subtitle: "Request a custom catering proposal for your Umm Suqeim villa or beachfront home in Dubai.",
+      title: "Book Umm Suqeim Private Chef",
+      subtitle: "Request a tailored menu and quote for your Umm Suqeim event.",
       whatsappMessage: "Hi myCHEF Dubai, I'd like to request a quote for catering in Umm Suqeim"
     }
   },
   {
     slug: "al-barsha",
     name: "Al Barsha",
-    title: "Catering Al Barsha Dubai | Private Chef",
-    metaDescription: "Private chef and catering in Al Barsha Dubai for families, apartments, villas and Mall of the Emirates events. Flexible menus. Request your quote today.",
+    title: "Private Chef Al Barsha Dubai | Flexible Catering | myCHEF",
+    metaDescription: "Book a private chef in Al Barsha Dubai. Flexible villa & apartment catering with tailored menus and full service. Get a tailored quote in 15 minutes.",
     h1: "Private Chef & Catering Al Barsha Dubai",
     heroImage: "/loc-downtown.webp",
-    heroSubtitle: "Flexible luxury catering for Al Barsha's diverse mix of apartments, villas and hotel residences.",
+    heroSubtitle: "Al Barsha private chef and catering for apartments, villas and hotel residences — flexible, tailored menus with full service.",
     intro: [
       "Catering in Al Barsha needs to be as varied as the community itself. With a mix of apartments, villas and hotel apartments spread across a well-connected Dubai neighborhood, Al Barsha hosts everything from family birthday parties and residential gatherings to small corporate events near Mall of the Emirates.",
       "myCHEF Dubai provides adaptable private chef and catering services for Al Barsha homes and venues. We do not apply a one-size-fits-all menu. Instead, we design each event around your property type, guest profile and occasion, whether that is an intimate apartment dinner, a villa celebration or a business lunch in a local office.",
-      "Every booking includes ingredient sourcing, chef arrival, preparation, service and cleanup. Our goal is to make private dining accessible and stress-free for Al Barsha residents and businesses."
+      "Every booking includes ingredient sourcing, chef arrival, preparation, service and cleanup. Chefs in our network are vetted, ingredients are sourced from trusted suppliers, and our goal is to make private dining accessible and stress-free for Al Barsha residents and businesses."
     ],
     targetAudience: {
       title: "Who Books Private Chef & Catering in Al Barsha?",
@@ -2549,8 +2550,8 @@ const allLocations: LocationData[] = [
     uniqueAngle: "Flexible private chef and event catering tailored to Al Barsha's diverse mix of apartments, villas, hotel residences and local businesses.",
     propertyType: "Mixed residential area with apartments, villas and hotel apartments near Mall of the Emirates.",
     callToAction: {
-      title: "Book Catering in Al Barsha",
-      subtitle: "Request a custom proposal for your Al Barsha home, office or hotel residence event in Dubai.",
+      title: "Book Al Barsha Private Chef",
+      subtitle: "Request a tailored menu and quote for your Al Barsha event.",
       whatsappMessage: "Hi myCHEF Dubai, I'd like to request a quote for catering in Al Barsha"
     }
   }

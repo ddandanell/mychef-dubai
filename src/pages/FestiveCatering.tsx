@@ -207,21 +207,22 @@ export default function FestiveCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Festive Catering Dubai | Ramadan, Eid, NYE"
-        description="Seasonal catering in Dubai for Christmas, New Year, Ramadan, Iftar, Suhoor, Eid, Diwali and brunch. Private chefs, bespoke menus and full service."
+        title="Festive Catering Dubai | Ramadan, Eid, Diwali, Christmas & NYE"
+        description="Book festive catering in Dubai for Ramadan, Eid, Diwali, Christmas and NYE. Bespoke menus, private chefs and full service. Get a tailored quote in 15 minutes."
         canonicalPath="/festive-catering-dubai"
         ogImage="/images/festive-catering-dubai-hero.webp"
+        hideSiteName
         schema={schema}
       />
 
       {/* ═══════════════ Hero ═══════════════ */}
       <PageHero
         eyebrow="Seasonal Celebrations"
-        title="Festive Catering in Dubai"
+        title="Festive Catering Dubai for Every Season"
         subtitle="From Christmas roasts and New Year tasting menus to Ramadan iftars, Eid feasts and Diwali celebrations — we design seasonal catering that matches the occasion."
         image="/images/festive-catering-dubai-hero.webp"
         imageAlt="Festive catering celebrations in Dubai"
-        cta={{ label: 'Plan My Festive Event', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=festive-catering' }}
+        cta={{ label: 'Get a Festive Quote', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=festive-catering' }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Festive Catering Dubai' }]}
         minHeight="tall"
@@ -229,6 +230,15 @@ export default function FestiveCatering() {
       />
 
       <TrustSignalStrip variant="dark" />
+
+      {/* ═══════════════ Urgency Banner ═══════════════ */}
+      <section className="bg-gold py-4">
+        <div className="container-custom text-center">
+          <p className="font-inter text-sm font-medium text-black">
+            Book early — peak festive dates fill up quickly. Limited availability for Christmas, New Year, Ramadan and Eid.
+          </p>
+        </div>
+      </section>
 
       {/* ═══════════════ Festive Grid ═══════════════ */}
       <section className="bg-white section-padding">
@@ -322,7 +332,7 @@ export default function FestiveCatering() {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=festive-catering" className="btn-primary">
-              Request a Festive Menu
+              Get a Festive Quote
             </Link>
             <a
               href={WHATSAPP_LINK}

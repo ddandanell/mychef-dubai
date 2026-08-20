@@ -5,14 +5,16 @@ import type { DietaryPageConfig } from './dietary/DietaryCateringPage'
 
 const config: DietaryPageConfig = {
   slug: 'nut-free-catering-dubai',
-  seoTitle: "Nut-Free Private Dining & Menus Dubai",
+  seoTitle: 'Nut-Free Catering Dubai | Allergy-Safe Events | myCHEF',
   metaDescription:
-    'Nut-free menus designed for private events and intimate dining in Dubai. myCHEF coordinates allergy-safe chef experiences — tell us your requirements.',
+    'Book nut-free catering in Dubai. Allergy-safe menus for schools, birthdays, corporate events and family gatherings with clear labelling. Get a tailored quote in 15 minutes.',
   canonicalPath: '/nut-free-catering-dubai',
+  hideSiteName: true,
   showTrustSignalStrip: true,
   ogImage: '/images/nut-free-catering-dubai-hero.webp',
   breadcrumbLabel: 'Nut-Free Catering Dubai',
-  h1: 'Nut-Free Catering in Dubai',
+  h1: 'Nut-Free Catering Dubai',
+  primaryCta: 'Get My Nut-Free Catering Quote',
   heroSub:
     'Allergy-aware nut-free catering for schools, birthday parties, corporate lunches and family celebrations across Dubai — safe, labelled and delicious.',
   heroImage: '/images/nut-free-catering-dubai-hero.webp',
@@ -26,11 +28,19 @@ const config: DietaryPageConfig = {
         Nut allergies demand more than a simple ingredient swap — they require clear communication, controlled prep and service processes that reduce risk. Our nut-free catering is designed for hosts who need peace of mind, whether they are planning a school event, a children’s party, a corporate lunch or a family celebration. Every menu is built without tree nuts and peanuts, with staff trained to serve and answer guest questions confidently.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-        We know that nut-free food still needs to feel exciting. Our chefs use seeds, herbs, spices, crunchy vegetables and other ingredients to create texture and flavour without ever opening a nut packet. Explore our wider{' '}
+        We know that nut-free food still needs to feel exciting. Chefs in our network use seeds, herbs, spices, crunchy vegetables and other ingredients to create texture and flavour without ever opening a nut packet. Explore our wider{' '}
         <Link to="/event-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           event catering Dubai
         </Link>{' '}
-        options for private celebrations.
+        options, browse our{' '}
+        <Link to="/cuisines-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
+          cuisine collection
+        </Link>{' '}
+        for menu inspiration, or see our{' '}
+        <Link to="/allergy-safe-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
+          allergy-safe catering
+        </Link>{' '}
+        approach for gatherings with multiple allergies.
       </p>
     </>
   ),

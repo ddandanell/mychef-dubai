@@ -83,6 +83,7 @@ export interface ServicePageConfig {
   relatedServices: RelatedService[]
   ctaH2: string
   ctaP: string
+  primaryCta?: string
 }
 
 interface Props {
@@ -229,7 +230,7 @@ export default function ServiceLandingPage({ config }: Props) {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={inquiryLink} className="btn-primary opacity-0 translate-y-4 svc-hero-cta">
-              Request a Proposal
+              {config.primaryCta || 'Request a Proposal'}
             </Link>
             <a
               href={WHATSAPP_LINK}
@@ -399,7 +400,7 @@ export default function ServiceLandingPage({ config }: Props) {
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">{config.ctaP}</p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={inquiryLink} className="btn-primary">
-              Request a Proposal
+              {config.primaryCta || 'Request a Proposal'}
             </Link>
             <a
               href={WHATSAPP_LINK}

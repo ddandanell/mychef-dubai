@@ -5,14 +5,16 @@ import type { DietaryPageConfig } from './dietary/DietaryCateringPage'
 
 const config: DietaryPageConfig = {
   slug: 'jain-catering-dubai',
-  seoTitle: "Jain Catering Dubai | No-Onion/Garlic",
+  seoTitle: 'Jain Catering Dubai | No-Onion/Garlic Weddings & Events | myCHEF',
   metaDescription:
-    'Jain catering in Dubai for weddings, festivals and family events. Lacto-vegetarian menus prepared without onion, garlic, root vegetables or eggs.',
+    'Book Jain catering in Dubai. No-onion, no-garlic, root-vegetable-free menus for weddings, Paryushan and family celebrations. Get a tailored quote in 15 minutes.',
   canonicalPath: '/jain-catering-dubai',
+  hideSiteName: true,
   showTrustSignalStrip: true,
   ogImage: '/images/jain-catering-dubai-hero.webp',
   breadcrumbLabel: 'Jain Catering Dubai',
-  h1: 'Jain Catering in Dubai',
+  h1: 'Jain Catering Dubai',
+  primaryCta: 'Get My Jain Catering Quote',
   heroSub:
     'Respectful Jain catering for Dubai weddings, festivals and family gatherings — lacto-vegetarian menus prepared without onion, garlic, root vegetables or eggs.',
   heroImage: '/images/jain-catering-dubai-hero.webp',
@@ -30,11 +32,19 @@ const config: DietaryPageConfig = {
         <Link to="/indian-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           Indian catering Dubai
         </Link>{' '}
-        range or explore our wider{' '}
+        range, explore our wider{' '}
         <Link to="/vegetarian-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           vegetarian catering Dubai
         </Link>{' '}
-        options.
+        options, browse our{' '}
+        <Link to="/cuisines-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
+          cuisine collection
+        </Link>{' '}
+        for mixed-diet events, or read about our{' '}
+        <Link to="/allergy-safe-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
+          allergy-safe catering
+        </Link>{' '}
+        approach for complex dietary requirements.
       </p>
     </>
   ),
@@ -73,7 +83,7 @@ const config: DietaryPageConfig = {
     {
       Icon: Building,
       title: 'Corporate Jain Lunches',
-      description: 'Inclusive vegetarian lunch options for offices with Jain our chefs or guests.',
+      description: 'Inclusive vegetarian lunch options for offices with Jain guests or team members.',
       link: '/corporate-catering-dubai',
     },
   ],

@@ -265,10 +265,11 @@ export default function SuhoorCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Suhoor Catering Dubai | Ramadan Pre-Dawn"
-        description="Suhoor catering in Dubai with halal pre-dawn menus, light and hearty options, home, majlis, and corporate service. Book six to eight weeks ahead — request your custom quote today."
+        title="Suhoor Catering Dubai | Pre-Dawn Ramadan Menus | myCHEF"
+        description="Book Suhoor catering in Dubai. Halal pre-dawn menus, light and hearty options, home, majlis and corporate service. Get a tailored quote in 15 minutes."
         canonicalPath="/suhoor-catering-dubai"
         ogImage="/menu-appetizer.webp"
+        hideSiteName
         schema={schema}
       />
 
@@ -290,13 +291,13 @@ export default function SuhoorCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 suh-hero-h1">
-            Suhoor Catering in Dubai
+            Suhoor Catering Dubai: Pre-Dawn Ramadan Menus
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 suh-hero-sub">
             Halal pre-dawn suhoor menus for home, majlis, and corporate gatherings across Dubai — light or hearty, sustaining, and served quietly into the early hours before Fajr.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=suhoor-catering-dubai" className="btn-primary opacity-0 translate-y-4 suh-hero-cta">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=suhoor-catering-dubai" className="btn-primary opacity-0 translate-y-4 suh-hero-cta">Get a Suhoor Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -325,7 +326,7 @@ export default function SuhoorCatering() {
             Suhoor is the quiet meal of Ramadan — eaten before Fajr to carry you through the fasting day. At myCHEF Dubai, we bring that pre-dawn moment the same care we give any gathering, designing halal menus that are balanced, sustaining, and easy on the early-morning appetite. From light savoury pastries and labneh to warming dishes of foul, shakshuka, and grilled proteins, we build the suhoor your guests will actually want at that hour.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Whether you are hosting an intimate family suhoor at home, a majlis gathering, or a late-night function for your team, our chefs cook on-site and our service team serve quietly into the early hours. Suhoor sits within our wider <Link to="/ramadan-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Ramadan catering in Dubai</Link>, alongside <Link to="/iftar-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">iftar catering</Link> and our <Link to="/arabic-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Arabic catering</Link> menus — and slots naturally into our <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>. Because the season is in such demand, we recommend booking six to eight weeks ahead.
+            Whether you are hosting an intimate family suhoor at home, a majlis gathering, or a late-night function for your team, chefs in our network cook on-site and our service team serve quietly into the early hours. Suhoor sits within our wider <Link to="/ramadan-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Ramadan catering in Dubai</Link>, alongside <Link to="/iftar-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">iftar catering</Link> and our <Link to="/arabic-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Arabic catering</Link> menus — and slots naturally into our <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>. Because the season is in such demand, we recommend booking six to eight weeks ahead.
           </p>
         </div>
       </section>
@@ -508,7 +509,7 @@ export default function SuhoorCatering() {
             Tell us about your pre-dawn gathering and we'll design a halal menu — light or hearty — time the service before Fajr, and handle every detail. Book six to eight weeks ahead to secure your dates.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=suhoor-catering-dubai" className="btn-primary">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=suhoor-catering-dubai" className="btn-primary">Get a Suhoor Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
