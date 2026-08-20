@@ -383,7 +383,7 @@ export default function Corporate() {
         cta={{ label: 'Get a Corporate Quote', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=corporate' }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Corporate' }]}
-        minHeight="tall"
+        minHeight="medium"
         overlay="dark"
       />
       <TrustSignalStrip />

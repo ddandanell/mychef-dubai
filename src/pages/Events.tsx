@@ -473,7 +473,7 @@ export default function Events() {
         cta={{ label: 'Plan My Event', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=events' }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Events' }]}
-        minHeight="tall"
+        minHeight="medium"
         overlay="dark"
       />
 

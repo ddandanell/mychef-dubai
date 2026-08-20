@@ -330,7 +330,7 @@ export default function Catering() {
         cta={{ label: 'Get a Catering Quote', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=catering-dubai' }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Catering Dubai' }]}
-        minHeight="tall"
+        minHeight="medium"
         overlay="dark"
       />
       <TrustSignalStrip />
