@@ -19,6 +19,7 @@ import {
 } from '@/utils/schema'
 import { Check, Quote, ArrowRight, } from 'lucide-react'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
+import { deferNonCritical } from '../lib/deferNonCritical'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -289,9 +290,13 @@ export default function Events() {
   const relatedEventsRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
-    const ctx = gsap.context(() => {
+    let ctx: gsap.Context | null = null
+    // Defer below-the-fold ScrollTrigger animations so they do not contend
+    // with LCP/INP during the initial load.
+    deferNonCritical(() => {
+      ctx = gsap.context(() => {
 
-      /* Event cards */
+        /* Event cards */
       if (eventCardsRef.current) {
         const cards = eventCardsRef.current.children
         gsap.fromTo(
@@ -448,10 +453,10 @@ export default function Events() {
         )
       }
 
-      return () => ctx.revert()
+      })
     })
 
-    return () => ctx.revert()
+    return () => ctx?.revert()
   }, [])
 
   return (
@@ -461,6 +466,7 @@ export default function Events() {
         description="Premium event catering in Dubai for birthdays, weddings, engagements & private parties. Bespoke menus, vetted chefs, full service. Request a tailored quote."
         canonicalPath="/events"
         ogImage="/service-events.webp"
+        preloadHero="/images/events-catering-dubai-hero.webp"
         schema={schema as unknown as Record<string, unknown>}
       />
 
@@ -470,6 +476,8 @@ export default function Events() {
         subtitle="Tell us about your event and we will bring you a vetted chef. From intimate celebrations to grand occasions — exceptional food, flawless service, unforgettable events. We reply within 15 minutes during business hours."
         image="/images/events-catering-dubai-hero.webp"
         imageAlt="Event catering in Dubai"
+        imageWidth={1344}
+        imageHeight={752}
         cta={{ label: 'Plan My Event', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=events' }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Events' }]}

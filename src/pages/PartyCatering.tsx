@@ -15,10 +15,12 @@ import {
   ArrowRight,
 } from 'lucide-react'
 import SEO from '../components/SEO'
+import PageHero from '../components/PageHero'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import LocationStrip from '../components/LocationStrip'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
+import { deferNonCritical } from '../lib/deferNonCritical'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -271,57 +273,56 @@ export default function PartyCatering() {
   useGSAP(() => {
     if (!containerRef.current) return
 
-    // Hero
-    gsap.to('.pty-hero-h1', { opacity: 1, y: 0, duration: 0.8, ease: 'power3.out' })
-    gsap.to('.pty-hero-sub', { opacity: 1, y: 0, duration: 0.6, delay: 0.3, ease: 'power3.out' })
-    gsap.to('.pty-hero-cta', { opacity: 1, y: 0, duration: 0.5, stagger: 0.15, delay: 0.6, ease: 'power3.out' })
+    // Defer below-the-fold ScrollTrigger animations so they do not contend
+    // with LCP/INP during the initial load.
+    deferNonCritical(() => {
+      // Format cards
+      gsap.to('.pty-fmt-card', {
+        scrollTrigger: { trigger: '.pty-fmt-grid', start: 'top 85%', toggleActions: 'play none none none' },
+        opacity: 1, y: 0, duration: 0.8, stagger: 0.1, ease: 'power3.out',
+      })
 
-    // Format cards
-    gsap.to('.pty-fmt-card', {
-      scrollTrigger: { trigger: '.pty-fmt-grid', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, y: 0, duration: 0.8, stagger: 0.1, ease: 'power3.out',
-    })
+      // Use cases
+      gsap.to('.pty-uc-item', {
+        scrollTrigger: { trigger: '.pty-uc-grid', start: 'top 85%', toggleActions: 'play none none none' },
+        opacity: 1, y: 0, duration: 0.7, stagger: 0.08, ease: 'power3.out',
+      })
 
-    // Use cases
-    gsap.to('.pty-uc-item', {
-      scrollTrigger: { trigger: '.pty-uc-grid', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, y: 0, duration: 0.7, stagger: 0.08, ease: 'power3.out',
-    })
+      // Included items
+      gsap.to('.pty-inc-item', {
+        scrollTrigger: { trigger: '.pty-inc-grid', start: 'top 85%', toggleActions: 'play none none none' },
+        opacity: 1, x: 0, duration: 0.6, stagger: 0.08, ease: 'power3.out',
+      })
 
-    // Included items
-    gsap.to('.pty-inc-item', {
-      scrollTrigger: { trigger: '.pty-inc-grid', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, x: 0, duration: 0.6, stagger: 0.08, ease: 'power3.out',
-    })
+      // Gallery
+      gsap.to('.pty-gallery-img', {
+        scrollTrigger: { trigger: '.pty-gallery', start: 'top 85%', toggleActions: 'play none none none' },
+        opacity: 1, scale: 1, duration: 0.6, stagger: 0.06, ease: 'power3.out',
+      })
 
-    // Gallery
-    gsap.to('.pty-gallery-img', {
-      scrollTrigger: { trigger: '.pty-gallery', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, scale: 1, duration: 0.6, stagger: 0.06, ease: 'power3.out',
-    })
+      // FAQ
+      gsap.to('.pty-faq-item', {
+        scrollTrigger: { trigger: '.pty-faq', start: 'top 85%', toggleActions: 'play none none none' },
+        opacity: 1, y: 0, duration: 0.5, stagger: 0.08, ease: 'power3.out',
+      })
 
-    // FAQ
-    gsap.to('.pty-faq-item', {
-      scrollTrigger: { trigger: '.pty-faq', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, y: 0, duration: 0.5, stagger: 0.08, ease: 'power3.out',
-    })
+      // Locations
+      gsap.to('.pty-loc-item', {
+        scrollTrigger: { trigger: '.pty-loc-grid', start: 'top 85%', toggleActions: 'play none none none' },
+        opacity: 1, duration: 0.5, stagger: 0.04, ease: 'power3.out',
+      })
 
-    // Locations
-    gsap.to('.pty-loc-item', {
-      scrollTrigger: { trigger: '.pty-loc-grid', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, duration: 0.5, stagger: 0.04, ease: 'power3.out',
-    })
+      // Related
+      gsap.to('.pty-rel-card', {
+        scrollTrigger: { trigger: '.pty-rel-grid', start: 'top 85%', toggleActions: 'play none none none' },
+        opacity: 1, y: 0, duration: 0.8, stagger: 0.1, ease: 'power3.out',
+      })
 
-    // Related
-    gsap.to('.pty-rel-card', {
-      scrollTrigger: { trigger: '.pty-rel-grid', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, y: 0, duration: 0.8, stagger: 0.1, ease: 'power3.out',
-    })
-
-    // CTA
-    gsap.to('.pty-cta', {
-      scrollTrigger: { trigger: '.pty-cta', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, y: 0, duration: 0.7, ease: 'power3.out',
+      // CTA
+      gsap.to('.pty-cta', {
+        scrollTrigger: { trigger: '.pty-cta', start: 'top 85%', toggleActions: 'play none none none' },
+        opacity: 1, y: 0, duration: 0.7, ease: 'power3.out',
+      })
     })
   }, { scope: containerRef })
 
@@ -332,46 +333,24 @@ export default function PartyCatering() {
         description="Party catering in Dubai for birthdays, bachelor/bachelorette parties, baby showers & private celebrations. Bespoke menus, canapés, full service. Get a quote."
         canonicalPath="/party-catering-dubai"
         ogImage="/service-events.webp"
+        preloadHero="/images/party-catering-dubai-hero.webp"
         schema={schema}
       />
 
       {/* ═══════════════ Section 1: Hero ═══════════════ */}
-      <section className="relative min-h-[55dvh] md:min-h-[65dvh] flex items-center justify-center bg-black overflow-hidden">
-        <div
-          className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
-          style={{ backgroundImage: 'url(/images/party-catering-dubai-hero.webp)' }}
-        />
-        <div className="absolute inset-0 bg-black/50" />
-
-        <div className="relative z-10 container-custom text-center max-w-[800px] py-20">
-          <nav className="mb-6 opacity-0 translate-y-4 pty-hero-h1">
-            <ol className="flex items-center justify-center gap-2 font-inter text-body-sm">
-              <li><Link to="/" className="text-gray-400 hover:text-gold transition-colors">Home</Link></li>
-              <li className="text-gray-400">/</li>
-              <li><span className="text-gold">Party Catering Dubai</span></li>
-            </ol>
-          </nav>
-
-          <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 pty-hero-h1">
-            Party Catering Dubai — Birthdays, Yacht & Villa Celebrations
-          </h1>
-          <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 pty-hero-sub">
-            From milestone birthdays to bachelor and bachelorette nights, baby showers, and intimate private parties — bespoke menus, beautiful styling, and flawless service across Dubai.
-          </p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=party-catering-dubai" className="btn-primary opacity-0 translate-y-4 pty-hero-cta">Request a Proposal</Link>
-            <a
-              href={WHATSAPP_LINK}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-secondary opacity-0 translate-y-4 pty-hero-cta"
-            >
-              <Phone size={16} className="mr-2" />
-              Chat on WhatsApp
-            </a>
-          </div>
-        </div>
-      </section>
+      <PageHero
+        title="Party Catering Dubai — Birthdays, Yacht & Villa Celebrations"
+        subtitle="From milestone birthdays to bachelor and bachelorette nights, baby showers, and intimate private parties — bespoke menus, beautiful styling, and flawless service across Dubai."
+        image="/images/party-catering-dubai-hero.webp"
+        imageAlt="Party catering in Dubai"
+        imageWidth={1344}
+        imageHeight={752}
+        cta={{ label: 'Request a Proposal', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=party-catering-dubai' }}
+        secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
+        breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Party Catering Dubai' }]}
+        minHeight="medium"
+        overlay="dark"
+      />
 
       <TrustSignalStrip variant="dark" />
 

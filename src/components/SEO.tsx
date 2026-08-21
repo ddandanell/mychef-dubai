@@ -8,6 +8,7 @@ interface SEOProps {
   noindex?: boolean
   hideSiteName?: boolean
   schema?: Record<string, unknown>
+  preloadHero?: string
 }
 
 const SITE_NAME = 'myCHEF'
@@ -24,6 +25,7 @@ export default function SEO({
   noindex = false,
   hideSiteName = false,
   schema,
+  preloadHero,
 }: SEOProps) {
   const fullTitle = title
     ? hideSiteName
@@ -63,6 +65,9 @@ export default function SEO({
       <title>{fullTitle}</title>
       <meta name="description" content={description} />
       <link rel="canonical" href={canonicalUrl} />
+      {preloadHero && (
+        <link rel="preload" as="image" type="image/webp" href={`${SITE_URL}${preloadHero}`} imageSizes="100vw" />
+      )}
       <html lang="en" />
 
       {/* Open Graph */}

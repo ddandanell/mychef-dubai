@@ -13,6 +13,7 @@ import SEO from '../../components/SEO'
 import TrustSignalStrip from '../../components/TrustSignalStrip'
 import FaqAccordion from '../../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
+import { deferNonCritical } from '../../lib/deferNonCritical'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -143,43 +144,49 @@ export default function ServiceLandingPage({ config }: Props) {
     () => {
       if (!containerRef.current) return
 
+      // Hero animations run immediately so the headline/CTA become visible right away.
       gsap.to('.svc-hero-h1', { opacity: 1, y: 0, duration: 0.8, ease: 'power3.out' })
       gsap.to('.svc-hero-sub', { opacity: 1, y: 0, duration: 0.6, delay: 0.3, ease: 'power3.out' })
       gsap.to('.svc-hero-cta', { opacity: 1, y: 0, duration: 0.5, stagger: 0.15, delay: 0.6, ease: 'power3.out' })
 
-      gsap.to('.svc-fmt-card', {
-        scrollTrigger: { trigger: '.svc-fmt-grid', start: 'top 85%', toggleActions: 'play none none none' },
-        opacity: 1, y: 0, duration: 0.8, stagger: 0.1, ease: 'power3.out',
-      })
+      // Below-the-fold ScrollTrigger animations are deferred so they do not contend with LCP/INP during the critical load window.
+      deferNonCritical(() => {
+        if (!containerRef.current) return
 
-      gsap.to('.svc-uc-item', {
-        scrollTrigger: { trigger: '.svc-uc-grid', start: 'top 85%', toggleActions: 'play none none none' },
-        opacity: 1, y: 0, duration: 0.7, stagger: 0.08, ease: 'power3.out',
-      })
+        gsap.to('.svc-fmt-card', {
+          scrollTrigger: { trigger: '.svc-fmt-grid', start: 'top 85%', toggleActions: 'play none none none' },
+          opacity: 1, y: 0, duration: 0.8, stagger: 0.1, ease: 'power3.out',
+        })
 
-      gsap.to('.svc-inc-item', {
-        scrollTrigger: { trigger: '.svc-inc-grid', start: 'top 85%', toggleActions: 'play none none none' },
-        opacity: 1, x: 0, duration: 0.6, stagger: 0.08, ease: 'power3.out',
-      })
+        gsap.to('.svc-uc-item', {
+          scrollTrigger: { trigger: '.svc-uc-grid', start: 'top 85%', toggleActions: 'play none none none' },
+          opacity: 1, y: 0, duration: 0.7, stagger: 0.08, ease: 'power3.out',
+        })
 
-      gsap.to('.svc-gallery-img', {
-        scrollTrigger: { trigger: '.svc-gallery', start: 'top 85%', toggleActions: 'play none none none' },
-        opacity: 1, scale: 1, duration: 0.6, stagger: 0.06, ease: 'power3.out',
-      })
+        gsap.to('.svc-inc-item', {
+          scrollTrigger: { trigger: '.svc-inc-grid', start: 'top 85%', toggleActions: 'play none none none' },
+          opacity: 1, x: 0, duration: 0.6, stagger: 0.08, ease: 'power3.out',
+        })
 
-      gsap.to('.svc-faq-item', {
-        scrollTrigger: { trigger: '.svc-faq', start: 'top 85%', toggleActions: 'play none none none' },
-        opacity: 1, y: 0, duration: 0.5, stagger: 0.08, ease: 'power3.out',
-      })
+        gsap.to('.svc-gallery-img', {
+          scrollTrigger: { trigger: '.svc-gallery', start: 'top 85%', toggleActions: 'play none none none' },
+          opacity: 1, scale: 1, duration: 0.6, stagger: 0.06, ease: 'power3.out',
+        })
 
-      gsap.to('.svc-rel-card', {
-        scrollTrigger: { trigger: '.svc-rel-grid', start: 'top 85%', toggleActions: 'play none none none' },
-        opacity: 1, y: 0, duration: 0.8, stagger: 0.1, ease: 'power3.out',
-      })
+        gsap.to('.svc-faq-item', {
+          scrollTrigger: { trigger: '.svc-faq', start: 'top 85%', toggleActions: 'play none none none' },
+          opacity: 1, y: 0, duration: 0.5, stagger: 0.08, ease: 'power3.out',
+        })
 
-      gsap.to('.svc-cta', {
-        scrollTrigger: { trigger: '.svc-cta', start: 'top 85%', toggleActions: 'play none none none' },
-        opacity: 1, y: 0, duration: 0.7, ease: 'power3.out',
+        gsap.to('.svc-rel-card', {
+          scrollTrigger: { trigger: '.svc-rel-grid', start: 'top 85%', toggleActions: 'play none none none' },
+          opacity: 1, y: 0, duration: 0.8, stagger: 0.1, ease: 'power3.out',
+        })
+
+        gsap.to('.svc-cta', {
+          scrollTrigger: { trigger: '.svc-cta', start: 'top 85%', toggleActions: 'play none none none' },
+          opacity: 1, y: 0, duration: 0.7, ease: 'power3.out',
+        })
       })
     },
     { scope: containerRef }

@@ -10,6 +10,7 @@ import StarterPackagesSection from '../sections/StarterPackagesSection'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import VIPPromoSection from '../components/VIPPromoSection'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
+import { deferNonCritical } from '../lib/deferNonCritical'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -150,19 +151,23 @@ export default function CateringPackages() {
   useGSAP(() => {
     if (!containerRef.current) return
 
-    gsap.to('.packages-section', {
-      scrollTrigger: { trigger: '.packages-included', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, y: 0, duration: 0.7, stagger: 0.12, ease: 'power3.out',
-    })
+    // Defer below-the-fold ScrollTrigger animations so they do not contend
+    // with LCP/INP during the initial load.
+    deferNonCritical(() => {
+      gsap.to('.packages-section', {
+        scrollTrigger: { trigger: '.packages-included', start: 'top 85%', toggleActions: 'play none none none' },
+        opacity: 1, y: 0, duration: 0.7, stagger: 0.12, ease: 'power3.out',
+      })
 
-    gsap.to('.packages-faq-item', {
-      scrollTrigger: { trigger: '.packages-faq', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, y: 0, duration: 0.5, stagger: 0.08, ease: 'power3.out',
-    })
+      gsap.to('.packages-faq-item', {
+        scrollTrigger: { trigger: '.packages-faq', start: 'top 85%', toggleActions: 'play none none none' },
+        opacity: 1, y: 0, duration: 0.5, stagger: 0.08, ease: 'power3.out',
+      })
 
-    gsap.to('.packages-cta', {
-      scrollTrigger: { trigger: '.packages-cta', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, y: 0, duration: 0.7, ease: 'power3.out',
+      gsap.to('.packages-cta', {
+        scrollTrigger: { trigger: '.packages-cta', start: 'top 85%', toggleActions: 'play none none none' },
+        opacity: 1, y: 0, duration: 0.7, ease: 'power3.out',
+      })
     })
   }, { scope: containerRef })
 
@@ -176,6 +181,7 @@ export default function CateringPackages() {
         canonicalPath="/catering-packages-dubai"
         ogImage="/images/catering-packages-dubai-hero.webp"
         hideSiteName
+        preloadHero="/images/catering-packages-dubai-hero.webp"
         schema={schema}
       />
 
@@ -186,6 +192,8 @@ export default function CateringPackages() {
         subtitle="Starter packages for the most popular private chef and catering experiences. Every menu is tailored to your occasion, dietary needs and budget."
         image="/images/catering-packages-dubai-hero.webp"
         imageAlt="Catering packages and event menus in Dubai"
+        imageWidth={1344}
+        imageHeight={752}
         cta={{ label: 'Get My Catering Package Quote', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=catering-packages' }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Catering Packages Dubai' }]}

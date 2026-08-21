@@ -11,6 +11,7 @@ import LocationStrip from '@/components/LocationStrip'
 import FaqAccordion from '@/components/FaqAccordion'
 import { plainFaqAnswer } from '@/utils/schema'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
+import { deferNonCritical } from '../lib/deferNonCritical'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -158,52 +159,54 @@ export default function Yachts() {
 
   useGSAP(() => {
     const ctx = gsap.context(() => {
-      // Hero
+      // Defer below-the-fold ScrollTrigger animations so they do not contend
+      // with LCP/INP during the initial load.
+      deferNonCritical(() => {
+        // Service cards
+        gsap.from('.yacht-service-card', {
+          opacity: 0, y: 50, duration: 0.8, stagger: 0.1, ease: 'power3.out',
+          scrollTrigger: { trigger: '.yacht-services-grid', start: 'top 85%', toggleActions: 'play none none none' },
+        })
 
-      // Service cards
-      gsap.from('.yacht-service-card', {
-        opacity: 0, y: 50, duration: 0.8, stagger: 0.1, ease: 'power3.out',
-        scrollTrigger: { trigger: '.yacht-services-grid', start: 'top 85%', toggleActions: 'play none none none' },
-      })
+        // Yacht experience content
+        gsap.from('.yacht-exp-left', {
+          opacity: 0, x: -30, duration: 0.8, ease: 'power3.out',
+          scrollTrigger: { trigger: '.yacht-experience-section', start: 'top 85%', toggleActions: 'play none none none' },
+        })
+        gsap.from('.yacht-exp-right', {
+          opacity: 0, x: 30, duration: 0.8, ease: 'power3.out', delay: 0.15,
+          scrollTrigger: { trigger: '.yacht-experience-section', start: 'top 85%', toggleActions: 'play none none none' },
+        })
 
-      // Yacht experience content
-      gsap.from('.yacht-exp-left', {
-        opacity: 0, x: -30, duration: 0.8, ease: 'power3.out',
-        scrollTrigger: { trigger: '.yacht-experience-section', start: 'top 85%', toggleActions: 'play none none none' },
-      })
-      gsap.from('.yacht-exp-right', {
-        opacity: 0, x: 30, duration: 0.8, ease: 'power3.out', delay: 0.15,
-        scrollTrigger: { trigger: '.yacht-experience-section', start: 'top 85%', toggleActions: 'play none none none' },
-      })
+        // Route tags
+        gsap.from('.route-tag', {
+          opacity: 0, scale: 0.9, duration: 0.5, stagger: 0.05, ease: 'power3.out',
+          scrollTrigger: { trigger: '.routes-section', start: 'top 85%', toggleActions: 'play none none none' },
+        })
 
-      // Route tags
-      gsap.from('.route-tag', {
-        opacity: 0, scale: 0.9, duration: 0.5, stagger: 0.05, ease: 'power3.out',
-        scrollTrigger: { trigger: '.routes-section', start: 'top 85%', toggleActions: 'play none none none' },
-      })
+        // Features
+        gsap.from('.yacht-feature', {
+          opacity: 0, y: 30, duration: 0.6, stagger: 0.12, ease: 'power3.out',
+          scrollTrigger: { trigger: '.yacht-features-grid', start: 'top 85%', toggleActions: 'play none none none' },
+        })
 
-      // Features
-      gsap.from('.yacht-feature', {
-        opacity: 0, y: 30, duration: 0.6, stagger: 0.12, ease: 'power3.out',
-        scrollTrigger: { trigger: '.yacht-features-grid', start: 'top 85%', toggleActions: 'play none none none' },
-      })
+        // Gallery
+        gsap.from('.gallery-item', {
+          opacity: 0, y: 30, duration: 0.6, stagger: 0.08, ease: 'power3.out',
+          scrollTrigger: { trigger: '.gallery-grid', start: 'top 85%', toggleActions: 'play none none none' },
+        })
 
-      // Gallery
-      gsap.from('.gallery-item', {
-        opacity: 0, y: 30, duration: 0.6, stagger: 0.08, ease: 'power3.out',
-        scrollTrigger: { trigger: '.gallery-grid', start: 'top 85%', toggleActions: 'play none none none' },
-      })
+        // Testimonial
+        gsap.from('.yacht-testimonial', {
+          opacity: 0, y: 30, duration: 0.8, ease: 'power3.out',
+          scrollTrigger: { trigger: '.yacht-testimonial', start: 'top 85%', toggleActions: 'play none none none' },
+        })
 
-      // Testimonial
-      gsap.from('.yacht-testimonial', {
-        opacity: 0, y: 30, duration: 0.8, ease: 'power3.out',
-        scrollTrigger: { trigger: '.yacht-testimonial', start: 'top 85%', toggleActions: 'play none none none' },
-      })
-
-      // CTA
-      gsap.from('.yachts-cta-content', {
-        opacity: 0, y: 30, duration: 0.8, ease: 'power3.out',
-        scrollTrigger: { trigger: '.yachts-cta-section', start: 'top 85%', toggleActions: 'play none none none' },
+        // CTA
+        gsap.from('.yachts-cta-content', {
+          opacity: 0, y: 30, duration: 0.8, ease: 'power3.out',
+          scrollTrigger: { trigger: '.yachts-cta-section', start: 'top 85%', toggleActions: 'play none none none' },
+        })
       })
     }, containerRef)
 
@@ -218,6 +221,7 @@ export default function Yachts() {
         canonicalPath="/yachts"
         ogImage="/service-yacht.webp"
         hideSiteName
+        preloadHero="/images/yacht-catering-dubai-hero.webp"
         schema={{
           '@context': 'https://schema.org',
           '@graph': [serviceSchema, breadcrumbSchema, faqPageSchema],
@@ -231,6 +235,8 @@ export default function Yachts() {
         subtitle="Tell us about your yacht event and we will bring you a vetted chef. Exceptional dining on the water with Dubai's iconic skyline as your setting — we reply within 15 minutes during business hours."
         image="/images/yacht-catering-dubai-hero.webp"
         imageAlt="Yacht catering in Dubai"
+        imageWidth={1344}
+        imageHeight={752}
         cta={{ label: 'Plan My Yacht Dinner', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=yachts' }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Yachts' }]}

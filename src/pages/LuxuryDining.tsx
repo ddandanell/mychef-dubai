@@ -10,6 +10,7 @@ import TrustSignalStrip from '../components/TrustSignalStrip'
 import StarterPackagesSection from '@/sections/StarterPackagesSection'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
+import { deferNonCritical } from '../lib/deferNonCritical'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -232,54 +233,56 @@ export default function LuxuryDining() {
   useGSAP(() => {
     if (!containerRef.current) return
 
-    // Hero
+    // Defer below-the-fold ScrollTrigger animations so they do not contend
+    // with LCP/INP during the initial load.
+    deferNonCritical(() => {
+      // Experience cards
+      gsap.to('.ld-exp-card', {
+        scrollTrigger: { trigger: '.ld-exp-grid', start: 'top 85%', toggleActions: 'play none none none' },
+        opacity: 1, y: 0, duration: 0.8, stagger: 0.15, ease: 'power3.out',
+      })
 
-    // Experience cards
-    gsap.to('.ld-exp-card', {
-      scrollTrigger: { trigger: '.ld-exp-grid', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, y: 0, duration: 0.8, stagger: 0.15, ease: 'power3.out',
-    })
+      // Process steps
+      gsap.to('.ld-step', {
+        scrollTrigger: { trigger: '.ld-steps', start: 'top 85%', toggleActions: 'play none none none' },
+        opacity: 1, y: 0, duration: 0.7, stagger: 0.15, ease: 'power3.out',
+      })
 
-    // Process steps
-    gsap.to('.ld-step', {
-      scrollTrigger: { trigger: '.ld-steps', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, y: 0, duration: 0.7, stagger: 0.15, ease: 'power3.out',
-    })
+      // Gallery
+      gsap.to('.ld-gallery-img', {
+        scrollTrigger: { trigger: '.ld-gallery', start: 'top 85%', toggleActions: 'play none none none' },
+        opacity: 1, scale: 1, duration: 0.6, stagger: 0.06, ease: 'power3.out',
+      })
 
-    // Gallery
-    gsap.to('.ld-gallery-img', {
-      scrollTrigger: { trigger: '.ld-gallery', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, scale: 1, duration: 0.6, stagger: 0.06, ease: 'power3.out',
-    })
+      // Occasion tags
+      gsap.to('.ld-tag', {
+        scrollTrigger: { trigger: '.ld-tags', start: 'top 85%', toggleActions: 'play none none none' },
+        opacity: 1, scale: 1, duration: 0.4, stagger: 0.04, ease: 'power3.out',
+      })
 
-    // Occasion tags
-    gsap.to('.ld-tag', {
-      scrollTrigger: { trigger: '.ld-tags', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, scale: 1, duration: 0.4, stagger: 0.04, ease: 'power3.out',
-    })
+      // FAQ
+      gsap.to('.ld-faq-item', {
+        scrollTrigger: { trigger: '.ld-faq', start: 'top 85%', toggleActions: 'play none none none' },
+        opacity: 1, y: 0, duration: 0.5, stagger: 0.08, ease: 'power3.out',
+      })
 
-    // FAQ
-    gsap.to('.ld-faq-item', {
-      scrollTrigger: { trigger: '.ld-faq', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, y: 0, duration: 0.5, stagger: 0.08, ease: 'power3.out',
-    })
+      // Related
+      gsap.to('.ld-rel-card', {
+        scrollTrigger: { trigger: '.ld-rel-grid', start: 'top 85%', toggleActions: 'play none none none' },
+        opacity: 1, y: 0, duration: 0.8, stagger: 0.1, ease: 'power3.out',
+      })
 
-    // Related
-    gsap.to('.ld-rel-card', {
-      scrollTrigger: { trigger: '.ld-rel-grid', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, y: 0, duration: 0.8, stagger: 0.1, ease: 'power3.out',
-    })
+      // Related Experiences
+      gsap.to('.ld-rel-exp-card', {
+        scrollTrigger: { trigger: '.ld-rel-exp-grid', start: 'top 85%', toggleActions: 'play none none none' },
+        opacity: 1, y: 0, duration: 0.8, stagger: 0.1, ease: 'power3.out',
+      })
 
-    // Related Experiences
-    gsap.to('.ld-rel-exp-card', {
-      scrollTrigger: { trigger: '.ld-rel-exp-grid', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, y: 0, duration: 0.8, stagger: 0.1, ease: 'power3.out',
-    })
-
-    // CTA
-    gsap.to('.ld-cta', {
-      scrollTrigger: { trigger: '.ld-cta', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, y: 0, duration: 0.7, ease: 'power3.out',
+      // CTA
+      gsap.to('.ld-cta', {
+        scrollTrigger: { trigger: '.ld-cta', start: 'top 85%', toggleActions: 'play none none none' },
+        opacity: 1, y: 0, duration: 0.7, ease: 'power3.out',
+      })
     })
   }, { scope: containerRef })
 
@@ -290,6 +293,7 @@ export default function LuxuryDining() {
         description="Luxury private dining in Dubai with a private chef at your villa, penthouse or yacht. Bespoke tasting menus, full service, halal options. Request a custom menu."
         canonicalPath="/luxury-dining-experiences"
         ogImage="/service-luxury-dining.webp"
+        preloadHero="/images/luxury-dining-dubai-hero.webp"
         schema={{ ...schema, ...breadcrumbSchema, ...faqPageSchema }}
       />
 
@@ -299,6 +303,8 @@ export default function LuxuryDining() {
         subtitle="Bespoke private dining crafted for life's most memorable moments. In your villa, on your yacht, or at your penthouse — we reply within 15 minutes during business hours."
         image="/images/luxury-dining-dubai-hero.webp"
         imageAlt="Luxury private dining in Dubai"
+        imageWidth={1344}
+        imageHeight={752}
         cta={{ label: 'Request a Proposal', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=luxury-dining-experiences' }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Luxury Dining Experiences' }]}
