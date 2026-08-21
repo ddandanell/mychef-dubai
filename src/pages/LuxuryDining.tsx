@@ -7,6 +7,7 @@ import { MessageCircle, Palette, Sparkles, Utensils, Phone, ArrowRight } from 'l
 import SEO from '../components/SEO'
 import PageHero from '../components/PageHero'
 import TrustSignalStrip from '../components/TrustSignalStrip'
+import LocationStrip from '../components/LocationStrip'
 import StarterPackagesSection from '@/sections/StarterPackagesSection'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
@@ -343,6 +344,8 @@ export default function LuxuryDining() {
                   <img
                     src={exp.image}
                     alt={exp.title}
+                    width={640}
+                    height={360}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                     loading="lazy" decoding="async"/>
                 </div>
@@ -425,6 +428,8 @@ export default function LuxuryDining() {
                 <img
                   src={img.src}
                   alt={img.alt}
+                  width={400}
+                  height={300}
                   className="w-full h-full object-cover transition-transform duration-300 hover:scale-[1.03]"
                   loading="lazy" decoding="async"/>
               </div>
@@ -485,6 +490,8 @@ export default function LuxuryDining() {
                   <img
                     src={svc.image}
                     alt={svc.title}
+                    width={640}
+                    height={360}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                     loading="lazy" decoding="async"/>
                 </div>
@@ -521,6 +528,8 @@ export default function LuxuryDining() {
                   <img
                     src={exp.image}
                     alt={exp.title}
+                    width={640}
+                    height={360}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                     loading="lazy" decoding="async"/>
                 </div>
@@ -556,6 +565,8 @@ export default function LuxuryDining() {
           </p>
         </div>
       </section>
+
+      <LocationStrip title="Luxury private dining across Dubai" subtitle="From Downtown penthouses to Palm Jumeirah villas and Dubai Marina yachts, we bring fine dining to your chosen venue." />
 
       {/* ═══════════════ Section 8: CTA Banner ═══════════════ */}
       <section className="bg-gradient-to-b from-charcoal to-black py-20">

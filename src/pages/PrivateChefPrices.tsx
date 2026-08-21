@@ -19,6 +19,7 @@ import {
 import SEO from '../components/SEO'
 import PageHero from '../components/PageHero'
 import TrustSignalStrip from '../components/TrustSignalStrip'
+import LocationStrip from '../components/LocationStrip'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { deferNonCritical } from '../lib/deferNonCritical'
@@ -471,6 +472,8 @@ export default function PrivateChefPrices() {
           <FaqAccordion items={faqs} showJumpNav />
         </div>
       </section>
+
+      <LocationStrip title="Private chef prices by Dubai location" subtitle="Pricing varies slightly by venue access and travel. Request a tailored quote for your area." />
 
       {/* ═══════════════ Final CTA ═══════════════ */}
       <section className="prices-cta bg-gradient-to-b from-black to-charcoal py-20">

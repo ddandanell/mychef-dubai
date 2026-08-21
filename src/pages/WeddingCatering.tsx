@@ -16,6 +16,7 @@ import {
 } from 'lucide-react'
 import SEO from '../components/SEO'
 import TrustSignalStrip from '../components/TrustSignalStrip'
+import LocationStrip from '../components/LocationStrip'
 import FaqAccordion from '../components/FaqAccordion'
 import { plainFaqAnswer } from '../utils/schema'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
@@ -510,6 +511,8 @@ export default function WeddingCatering() {
                   <img
                     src={svc.image}
                     alt={svc.title}
+                    width={640}
+                    height={360}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                     loading="lazy" decoding="async"/>
                 </div>
@@ -541,6 +544,8 @@ export default function WeddingCatering() {
           </p>
         </div>
       </section>
+
+      <LocationStrip title="Wedding catering across Dubai" subtitle="From Palm Jumeirah villas to Downtown venues and Jumeirah gardens, we bring wedding catering to every corner of the city." />
 
       {/* ═══════════════ Section 10: CTA Banner ═══════════════ */}
       <section className="bg-gradient-to-b from-charcoal to-black py-20">
