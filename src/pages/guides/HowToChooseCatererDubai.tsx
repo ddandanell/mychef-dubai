@@ -1,4 +1,5 @@
 import { useRef } from 'react'
+import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
@@ -175,6 +176,7 @@ const schema = {
 /* ────────────────────── Component ────────────────────── */
 
 export default function HowToChooseCatererDubai() {
+  useWhatsAppMessage(WHATSAPP_MESSAGE)
   useScrollTrigger()
   const containerRef = useRef<HTMLDivElement>(null)
 

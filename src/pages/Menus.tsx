@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
+import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { Link } from 'react-router'
 import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
@@ -120,6 +121,7 @@ const pricingFaqs = [
 ]
 
 export default function Menus() {
+  useWhatsAppMessage(WHATSAPP_MESSAGE)
   useScrollTrigger()
   const [activeFilter, setActiveFilter] = useState('All')
   const [openFaq, setOpenFaq] = useState<number | null>(null)

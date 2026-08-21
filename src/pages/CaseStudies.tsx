@@ -1,4 +1,5 @@
 import { useRef, useState } from 'react'
+import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
@@ -248,6 +249,7 @@ const categoryIcons: Record<string, React.ElementType> = {
 /* ────────────────────── Component ────────────────────── */
 
 export default function CaseStudies() {
+  useWhatsAppMessage(WHATSAPP_MESSAGE)
   useScrollTrigger()
   const containerRef = useRef<HTMLDivElement>(null)
   const [activeCategory, setActiveCategory] = useState('All')

@@ -1,4 +1,5 @@
 import { useRef, useState, useMemo } from 'react'
+import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { Link } from 'react-router'
 import { Plus, Minus, Phone, Mail } from 'lucide-react'
 import gsap from 'gsap'
@@ -144,6 +145,7 @@ const schema = {
 }
 
 export default function FAQ() {
+  useWhatsAppMessage(WHATSAPP_MESSAGE)
   useScrollTrigger()
   const containerRef = useRef<HTMLDivElement>(null)
   const [activeTab, setActiveTab] = useState<Category>('All')

@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
+import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { Link } from 'react-router'
 import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
@@ -165,6 +166,7 @@ function altFor(item: typeof galleryItems[number]) {
 }
 
 export default function Gallery() {
+  useWhatsAppMessage(WHATSAPP_MESSAGE)
   useScrollTrigger()
   const [activeFilter, setActiveFilter] = useState('All')
   const galleryRef = useRef<HTMLDivElement>(null)

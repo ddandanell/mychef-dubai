@@ -1,4 +1,5 @@
 import { useRef, useState } from 'react'
+import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
@@ -219,6 +220,7 @@ const schema = {
 /* ────────────────────── Component ────────────────────── */
 
 export default function PrivateDiningGuide() {
+  useWhatsAppMessage(WHATSAPP_MESSAGE)
   useScrollTrigger()
   const containerRef = useRef<HTMLDivElement>(null)
   const [openFaq, setOpenFaq] = useState<number | null>(null)

@@ -1,4 +1,5 @@
 import { useRef, useState } from 'react'
+import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { Link } from 'react-router'
 import { Clock, Shield, Utensils, Users, Sparkles, Award, Plus, Minus } from 'lucide-react'
 import gsap from 'gsap'
@@ -74,6 +75,7 @@ const howItWorksSchema = howToSchema(
 )
 
 export default function HowItWorks() {
+  useWhatsAppMessage(WHATSAPP_MESSAGE)
   useScrollTrigger()
   const containerRef = useRef<HTMLDivElement>(null)
   const [openFaq, setOpenFaq] = useState<number | null>(null)
