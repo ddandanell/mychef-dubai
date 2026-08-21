@@ -348,7 +348,7 @@ export default function PartyCatering() {
         cta={{ label: 'Request a Proposal', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=party-catering-dubai' }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Party Catering Dubai' }]}
-        minHeight="medium"
+        minHeight="large"
         overlay="dark"
       />
 

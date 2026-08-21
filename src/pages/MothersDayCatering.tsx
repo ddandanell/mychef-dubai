@@ -7,7 +7,7 @@ const config: OccasionPageConfig = {
   slug: 'mothers-day-catering-dubai',
   seoTitle: "Mother's Day Catering Dubai | Brunch & Lunch",
   metaDescription:
-    "Mother's Day catering in Dubai: elegant brunch, private lunch and high tea at home or venue. Spoil her with a bespoke menu, flowers and seamless service.",
+    "Mother's Day catering in Dubai from AED 700pp — a brunch spread or afternoon tea, vetted chefs and full service. Bespoke menus for your event. Get an itemised quote.",
   canonicalPath: '/mothers-day-catering-dubai',
   ogImage: '/images/mothers-day-catering-dubai-hero.webp',
   breadcrumbLabel: "Mother's Day Catering Dubai",

@@ -268,7 +268,7 @@ export default function NewYearCatering() {
     <div ref={containerRef}>
       <SEO
         title="New Year's Eve Catering Dubai | Gala, Yacht & Villa Countdown | myCHEF"
-        description="Book New Year's Eve catering in Dubai. Gala dinners, yacht countdowns and villa parties with custom menus, full service and midnight hospitality. Get a quote."
+        description="New Year's Eve catering in Dubai from AED 700pp — canapés and grazing, vetted chefs and full service. Bespoke menus for your event. Get an itemised quote."
         canonicalPath="/new-year-catering-dubai"
         ogImage="/service-luxury-dining.webp"
         hideSiteName

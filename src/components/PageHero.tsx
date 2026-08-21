@@ -15,7 +15,7 @@ interface PageHeroProps {
   cta?: { label: string; href: string; external?: boolean }
   secondaryCta?: { label: string; href: string; external?: boolean }
   breadcrumb?: { label: string; href?: string }[]
-  minHeight?: 'full' | 'tall' | 'medium' | 'short'
+  minHeight?: 'full' | 'tall' | 'large' | 'medium' | 'short'
   align?: 'left' | 'center'
   children?: React.ReactNode
   overlay?: 'dark' | 'medium' | 'light'
@@ -25,6 +25,7 @@ interface PageHeroProps {
 const heightClasses = {
   full: 'min-h-[90dvh] md:min-h-[100dvh]',
   tall: 'min-h-[75dvh] md:min-h-[85dvh]',
+  large: 'min-h-[60dvh] md:min-h-[70dvh]',
   medium: 'min-h-[55dvh] md:min-h-[65dvh]',
   short: 'min-h-[40dvh] md:min-h-[50dvh]',
 }

@@ -177,7 +177,7 @@ export default function ChefsTable() {
     <div ref={containerRef}>
       <SEO
         title="Chef's Table Dubai | Omakase at Home | myCHEF"
-        description="Chef's table and omakase experiences at home in Dubai. Interactive multi-course tasting menus with chef narration for intimate groups of 2–12 guests. Get."
+        description="Chef's Table catering in Dubai — a front-row seat to a chef cooking and plating before you. From AED 700–950 per person, with vetted chefs and full service. Request a proposal from myCHEF."
         canonicalPath={CANONICAL_PATH}
         ogImage="/service-luxury-dining.webp"
         hideSiteName

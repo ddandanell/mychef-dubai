@@ -382,7 +382,7 @@ export default function PrivateChef() {
         cta={{ label: 'Request a Private Chef Quote', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=private-chef-dubai' }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Private Chef Dubai' }]}
-        minHeight="medium"
+        minHeight="large"
         overlay="dark"
       />
       <TrustSignalStrip />

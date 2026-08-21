@@ -7,7 +7,7 @@ const config: ServicePageConfig = {
   slug: 'fathers-day-catering-dubai',
   seoTitle: "Father's Day Catering Dubai | Brunch & BBQ",
   metaDescription:
-    "Father's Day catering in Dubai: brunch, BBQ, family lunches and private dining to celebrate Dad. Full setup, custom menus and service. Request a quote.",
+    "Father's Day catering in Dubai from AED 700pp — a BBQ and grill spread, vetted chefs and full service. Bespoke menus for your event. Get an itemised quote.",
   canonicalPath: '/fathers-day-catering-dubai',
   ogImage: '/service-events.webp',
   breadcrumbLabel: "Father's Day Catering Dubai",
