@@ -461,7 +461,7 @@ export default function Events() {
   return (
     <>
       <SEO
-        title="Event Catering Dubai | Birthdays, Weddings & Corporate | From AED 120pp"
+        title="Event Catering Dubai | Birthdays, Weddings & Private Parties"
         description="Premium event catering in Dubai for birthdays, weddings, engagements & private parties. Bespoke menus, vetted chefs, full service. Request a tailored quote."
         canonicalPath="/events"
         ogImage="/service-events.webp"
@@ -471,7 +471,7 @@ export default function Events() {
 
       {/* ─── Section 1: Hero ─── */}
       <PageHero
-        title="Event Catering Dubai — Bespoke Menus for Every Celebration"
+        title="Event Catering Dubai for Weddings, Parties & Corporate Events"
         subtitle="Event catering for 10–500+ guests across Dubai. Birthdays, weddings, corporate functions & private parties — we design, source, cook and serve."
         image="/images/events-catering-dubai-hero.webp"
         imageAlt="Event catering in Dubai"

@@ -30,15 +30,15 @@ const pages = [
   },
   {
     route: '/events',
-    title: 'Event Catering Dubai | Birthdays, Weddings & Corporate | From AED 120pp | myCHEF',
+    title: 'Event Catering Dubai | Birthdays, Weddings & Private Parties | myCHEF',
     meta: 'Premium event catering in Dubai for birthdays, weddings, engagements & private parties. Bespoke menus, vetted chefs, full service. Request a tailored quote.',
-    h1: 'Event Catering Dubai — Bespoke Menus for Every Celebration',
+    h1: 'Event Catering Dubai for Weddings, Parties & Corporate Events',
   },
   {
     route: '/villas-private-residences',
     title: 'Villa Catering Dubai | Private Chef for Palm Jumeirah & Emirates Hills | myCHEF',
     meta: 'Private chef and villa catering in Dubai for Palm Jumeirah, Emirates Hills & Arabian Ranches. Bespoke menus, vetted chefs, full setup. Get a quote.',
-    h1: 'Villa Catering & Private Chef Dubai — Brought to Your Home',
+    h1: 'Villa Catering & Private Chef Dubai',
   },
   {
     route: '/yachts',

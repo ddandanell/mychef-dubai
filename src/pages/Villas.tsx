@@ -238,7 +238,7 @@ export default function Villas() {
       {/* Section 1: Hero */}
       <PageHero
         eyebrow="VILLA CHEF SERVICES"
-        title="Villa Catering & Private Chef Dubai — Brought to Your Home"
+        title="Villa Catering & Private Chef Dubai"
         subtitle="Private chef and villa catering across Dubai. From one-night dinners to full-time residential chefs — bespoke menus, full service and cleanup included."
         image="/images/villa-catering-dubai-hero.webp"
         imageAlt="Villa private chef in Dubai"
