@@ -19,6 +19,7 @@ import SEO from '../components/SEO'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
+import { eventSchema } from '../utils/schema'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -199,9 +200,18 @@ const breadcrumbSchema = {
   ],
 }
 
+const christmasEventSchema = eventSchema(
+  'Christmas Catering Dubai',
+  'Festive roasts, canapés, and private chef Christmas catering in Dubai for villa, office, and family celebrations.',
+  undefined,
+  undefined,
+  'Dubai',
+  '/christmas-catering-dubai',
+)
+
 const schema = {
   '@context': 'https://schema.org',
-  '@graph': [serviceSchema, faqSchema, breadcrumbSchema],
+  '@graph': [serviceSchema, christmasEventSchema, faqSchema, breadcrumbSchema],
 }
 
 /* ────────────────────── Component ────────────────────── */

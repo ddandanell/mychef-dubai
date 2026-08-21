@@ -163,6 +163,93 @@ export function howToSchema(
   }
 }
 
+export function offerSchema(
+  name: string,
+  description: string,
+  price: string,
+  priceCurrency: string = 'AED',
+  url?: string,
+  availability: string = 'https://schema.org/InStock',
+) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Offer',
+    name,
+    description,
+    price,
+    priceCurrency,
+    availability,
+    url: url ? `${SITE_URL}${url}` : undefined,
+    seller: {
+      '@type': 'Organization',
+      name: SITE_NAME,
+      url: SITE_URL,
+    },
+  }
+}
+
+export function aggregateOfferSchema(
+  name: string,
+  description: string,
+  lowPrice: string,
+  highPrice: string,
+  priceCurrency: string = 'AED',
+  url?: string,
+) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'AggregateOffer',
+    name,
+    description,
+    lowPrice,
+    highPrice,
+    priceCurrency,
+    url: url ? `${SITE_URL}${url}` : undefined,
+    seller: {
+      '@type': 'Organization',
+      name: SITE_NAME,
+      url: SITE_URL,
+    },
+  }
+}
+
+export function eventSchema(
+  name: string,
+  description: string,
+  startDate?: string,
+  endDate?: string,
+  location?: string,
+  url?: string,
+) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Event',
+    name,
+    description,
+    startDate,
+    endDate,
+    eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
+    eventStatus: 'https://schema.org/EventScheduled',
+    location: location
+      ? {
+          '@type': 'Place',
+          name: location,
+          address: {
+            '@type': 'PostalAddress',
+            addressLocality: 'Dubai',
+            addressCountry: 'AE',
+          },
+        }
+      : undefined,
+    url: url ? `${SITE_URL}${url}` : undefined,
+    organizer: {
+      '@type': 'Organization',
+      name: SITE_NAME,
+      url: SITE_URL,
+    },
+  }
+}
+
 export function websiteSchema() {
   return {
     '@context': 'https://schema.org',

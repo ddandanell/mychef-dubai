@@ -12,6 +12,7 @@ import {
 import SEO from '../../components/SEO'
 import TrustSignalStrip from '../../components/TrustSignalStrip'
 import FaqAccordion from '../../components/FaqAccordion'
+import { howToSchema } from '../../utils/schema'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -143,9 +144,15 @@ const breadcrumbSchema = {
   ],
 }
 
+const howToWeddingSchema = howToSchema(
+  'How to Plan Wedding Catering in Dubai',
+  'A step-by-step timeline for planning wedding catering in Dubai, from setting the budget to day-of service.',
+  timeline.map((phase) => ({ name: phase.phase, text: phase.tasks.join(' ') })),
+)
+
 const schema = {
   '@context': 'https://schema.org',
-  '@graph': [serviceSchema, articleSchema, faqSchema, breadcrumbSchema],
+  '@graph': [serviceSchema, articleSchema, howToWeddingSchema, faqSchema, breadcrumbSchema],
 }
 
 /* ────────────────────── Component ────────────────────── */

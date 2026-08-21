@@ -11,6 +11,7 @@ import {
 import SEO from '../../components/SEO'
 import TrustSignalStrip from '../../components/TrustSignalStrip'
 import FaqAccordion from '../../components/FaqAccordion'
+import { howToSchema } from '../../utils/schema'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -166,9 +167,20 @@ const breadcrumbSchema = {
   ],
 }
 
+const howToCorporateSchema = howToSchema(
+  'How to Plan Corporate Catering in Dubai',
+  'A checklist for planning corporate catering in Dubai, covering pre-event planning, menu formats, service flow, and post-event follow-up.',
+  [
+    { name: 'Pre-event planning', text: preEvent.map((item) => `${item.title}: ${item.description}`).join(' ') },
+    { name: 'Menu formats', text: menuFormats.map((item) => `${item.title} — ${item.description}`).join(' ') },
+    { name: 'Service flow', text: serviceFlow.join(' ') },
+    { name: 'Post-event follow-up', text: postEvent.join(' ') },
+  ],
+)
+
 const schema = {
   '@context': 'https://schema.org',
-  '@graph': [serviceSchema, articleSchema, faqSchema, breadcrumbSchema],
+  '@graph': [serviceSchema, articleSchema, howToCorporateSchema, faqSchema, breadcrumbSchema],
 }
 
 /* ────────────────────── Component ────────────────────── */

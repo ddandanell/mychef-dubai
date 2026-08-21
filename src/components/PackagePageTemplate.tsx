@@ -7,7 +7,7 @@ import { Check, ChevronRight, Phone, ArrowRight } from 'lucide-react'
 import SEO from './SEO'
 import PageHero from './PageHero'
 import TrustSignalStrip from './TrustSignalStrip'
-import { breadcrumbSchema, faqPageSchema, serviceSchema } from '@/utils/schema'
+import { breadcrumbSchema, faqPageSchema, offerSchema, serviceSchema } from '@/utils/schema'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 
 gsap.registerPlugin(ScrollTrigger)
@@ -80,21 +80,20 @@ export default function PackagePageTemplate({
   useWhatsAppMessage(PAGE_WHATSAPP_MESSAGE)
   const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(PAGE_WHATSAPP_MESSAGE)}`
 
-  const offerSchema = {
-    '@type': 'Offer',
-    name: `${name} Package — From AED ${price}`,
-    description: `${description} Starting from AED ${price} for ${guests}. Final pricing depends on menu choices, ingredients, dietary requirements, and service level.`,
-    url: `${SITE_URL}${canonicalPath}`,
-    price: price.replace(/,/g, ''),
-    priceCurrency: 'AED',
-    availability: 'https://schema.org/InStock',
-  }
+  const packageOfferSchema = offerSchema(
+    `${name} Package — From AED ${price}`,
+    `${description} Starting from AED ${price} for ${guests}. Final pricing depends on menu choices, ingredients, dietary requirements, and service level.`,
+    price.replace(/,/g, ''),
+    'AED',
+    `${SITE_URL}${canonicalPath}`,
+    'https://schema.org/InStock',
+  )
 
   const schema = {
     '@context': 'https://schema.org',
     '@graph': [
       serviceSchema(seoTitle, description, 'CateringService', 'Dubai'),
-      offerSchema,
+      packageOfferSchema,
       faqPageSchema(faqs.map((f) => ({ question: f.q, answer: f.a }))),
       breadcrumbSchema([
         { name: 'Home', path: '/' },

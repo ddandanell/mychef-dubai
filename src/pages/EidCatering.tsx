@@ -17,6 +17,7 @@ import SEO from '../components/SEO'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
+import { eventSchema } from '../utils/schema'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -202,9 +203,18 @@ const breadcrumbSchema = {
   ],
 }
 
+const eidEventSchema = eventSchema(
+  'Eid Catering Dubai',
+  'Halal Eid al-Fitr and Eid al-Adha feasts, ouzi and whole-lamb roasts, and family catering in Dubai.',
+  undefined,
+  undefined,
+  'Dubai',
+  '/eid-catering-dubai',
+)
+
 const schema = {
   '@context': 'https://schema.org',
-  '@graph': [serviceSchema, faqSchema, breadcrumbSchema],
+  '@graph': [serviceSchema, eidEventSchema, faqSchema, breadcrumbSchema],
 }
 
 /* ────────────────────── Component ────────────────────── */

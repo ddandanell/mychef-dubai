@@ -13,6 +13,7 @@ import {
 import SEO from '../../components/SEO'
 import TrustSignalStrip from '../../components/TrustSignalStrip'
 import FaqAccordion from '../../components/FaqAccordion'
+import { howToSchema } from '../../utils/schema'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -162,9 +163,15 @@ const breadcrumbSchema = {
   ],
 }
 
+const howToChooseSchema = howToSchema(
+  'How to Choose the Right Caterer in Dubai',
+  'A 10-point checklist for comparing and selecting a caterer in Dubai for weddings, corporate events, and private celebrations.',
+  checklist.map((item) => ({ name: item.title, text: item.description })),
+)
+
 const schema = {
   '@context': 'https://schema.org',
-  '@graph': [serviceSchema, articleSchema, faqSchema, breadcrumbSchema],
+  '@graph': [serviceSchema, articleSchema, howToChooseSchema, faqSchema, breadcrumbSchema],
 }
 
 /* ────────────────────── Component ────────────────────── */

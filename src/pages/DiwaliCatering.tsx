@@ -17,6 +17,7 @@ import SEO from '../components/SEO'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
+import { eventSchema } from '../utils/schema'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -202,9 +203,18 @@ const breadcrumbSchema = {
   ],
 }
 
+const diwaliEventSchema = eventSchema(
+  'Diwali Catering Dubai',
+  'Festive Indian Diwali catering in Dubai with vegetarian and Jain spreads, live chaat stations, and traditional mithai.',
+  undefined,
+  undefined,
+  'Dubai',
+  '/diwali-catering-dubai',
+)
+
 const schema = {
   '@context': 'https://schema.org',
-  '@graph': [serviceSchema, faqSchema, breadcrumbSchema],
+  '@graph': [serviceSchema, diwaliEventSchema, faqSchema, breadcrumbSchema],
 }
 
 /* ────────────────────── Component ────────────────────── */
