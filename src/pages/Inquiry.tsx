@@ -1,13 +1,11 @@
 import { useEffect, useRef } from 'react'
 import { Link } from 'react-router'
 import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import { Check, Phone, Mail, MapPin } from 'lucide-react'
 import SEO from '@/components/SEO'
 import TrustBar from '@/components/TrustBar'
 import { breadcrumbSchema } from '@/utils/schema'
-
-gsap.registerPlugin(ScrollTrigger)
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent("Hi myCHEF Dubai, I'd like to request a bespoke quote for an upcoming event (via mychef.ae/inquiry)")
@@ -32,6 +30,7 @@ const trustBadges = [
 ]
 
 export default function Inquiry() {
+  useScrollTrigger()
   const heroRef = useRef<HTMLDivElement>(null)
   const heroTitleRef = useRef<HTMLHeadingElement>(null)
   const heroSubRef = useRef<HTMLParagraphElement>(null)

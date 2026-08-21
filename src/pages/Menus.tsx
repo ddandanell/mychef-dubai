@@ -1,15 +1,13 @@
 import { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router'
 import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import { Check, ChevronRight, Wine, GlassWater, Users } from 'lucide-react'
 import SEO from '@/components/SEO'
 import PageHero from '@/components/PageHero'
 import TrustSignalStrip from '@/components/TrustSignalStrip'
 import StarterPackagesSection from '@/sections/StarterPackagesSection'
 import { breadcrumbSchema } from '@/utils/schema'
-
-gsap.registerPlugin(ScrollTrigger)
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to request a quote (via mychef.ae/menus)')
@@ -122,6 +120,7 @@ const pricingFaqs = [
 ]
 
 export default function Menus() {
+  useScrollTrigger()
   const [activeFilter, setActiveFilter] = useState('All')
   const [openFaq, setOpenFaq] = useState<number | null>(null)
   const pricingRef = useRef<HTMLDivElement>(null)

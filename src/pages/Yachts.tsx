@@ -2,7 +2,7 @@ import { useRef } from 'react'
 import { Link } from 'react-router'
 import { ChevronRight, Utensils, GlassWater, Flame, UtensilsCrossed, Ship, Sunrise, Check, Phone, MapPin, Anchor, } from 'lucide-react'
 import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import { useGSAP } from '@gsap/react'
 import SEO from '@/components/SEO'
 import PageHero from '@/components/PageHero'
@@ -12,8 +12,6 @@ import FaqAccordion from '@/components/FaqAccordion'
 import { plainFaqAnswer } from '@/utils/schema'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { deferNonCritical } from '../lib/deferNonCritical'
-
-gsap.registerPlugin(ScrollTrigger)
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent("Hi myCHEF Dubai, I'd like yacht catering. Charter date: __, Marina: __, Guests: __, Format: __ (via mychef.ae/yachts)")
@@ -154,6 +152,7 @@ const faqPageSchema = {
 
 const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'd like yacht catering. Charter date: __, Marina: __, Guests: __, Format: __ (via mychef.ae/yachts)"
 export default function Yachts() {
+  useScrollTrigger()
   useWhatsAppMessage(PAGE_WHATSAPP_MESSAGE)
   const containerRef = useRef<HTMLDivElement>(null)
 
@@ -413,7 +412,7 @@ export default function Yachts() {
           <div className="gallery-grid grid grid-cols-2 md:grid-cols-3 gap-4">
             {galleryImages.map((img, i) => (
               <div key={i} className="gallery-item relative overflow-hidden group aspect-[4/3]">
-                <img src={img} alt={`Yacht dining gallery ${i + 1}`} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" decoding="async" loading="lazy"/>
+                <img src={img} alt={`Yacht dining gallery ${i + 1}`} width={400} height={300} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" decoding="async" loading="lazy"/>
                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300" />
               </div>
             ))}

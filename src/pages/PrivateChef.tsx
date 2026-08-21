@@ -2,7 +2,7 @@ import { useRef, useState } from 'react'
 import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import { Utensils, Home, Calendar, Baby, Leaf, Star, Check, Phone, ArrowRight } from 'lucide-react'
 import SEO from '../components/SEO'
 import PageHero from '../components/PageHero'
@@ -12,8 +12,6 @@ import StarterPackagesSection from '@/sections/StarterPackagesSection'
 import FaqAccordion from '../components/FaqAccordion'
 import { plainFaqAnswer } from '../utils/schema'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
-
-gsap.registerPlugin(ScrollTrigger)
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent("Hi myCHEF Dubai, I'd like a quote for a private chef. Date: __, Guests: __, Location: __, Occasion: __ (via mychef.ae/private-chef-dubai)")
@@ -297,6 +295,7 @@ const faqPageSchema = {
 
 const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'd like a quote for a private chef. Date: __, Guests: __, Location: __, Occasion: __ (via mychef.ae/private-chef-dubai)"
 export default function PrivateChef() {
+  useScrollTrigger()
   useWhatsAppMessage(PAGE_WHATSAPP_MESSAGE)
   const containerRef = useRef<HTMLDivElement>(null)
   const [activeServiceTab, setActiveServiceTab] = useState(0)

@@ -2,7 +2,7 @@ import { useRef } from 'react'
 import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import {
   MessageSquare,
   Phone,
@@ -14,8 +14,6 @@ import SEO from '../../components/SEO'
 import TrustSignalStrip from '../../components/TrustSignalStrip'
 import FaqAccordion from '../../components/FaqAccordion'
 import { howToSchema } from '../../utils/schema'
-
-gsap.registerPlugin(ScrollTrigger)
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'m comparing caterers and would like to learn more (via mychef.ae/how-to-choose-caterer-dubai)')
@@ -177,6 +175,7 @@ const schema = {
 /* ────────────────────── Component ────────────────────── */
 
 export default function HowToChooseCatererDubai() {
+  useScrollTrigger()
   const containerRef = useRef<HTMLDivElement>(null)
 
   useGSAP(() => {

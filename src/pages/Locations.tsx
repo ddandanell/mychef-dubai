@@ -1,14 +1,12 @@
 import { useEffect, useRef } from 'react'
 import { Link } from 'react-router'
 import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import SEO from '../components/SEO'
 import PageHero from '../components/PageHero'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import { MapPin, ArrowRight, Phone } from 'lucide-react'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
-
-gsap.registerPlugin(ScrollTrigger)
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to request a quote (via mychef.ae/locations)')
@@ -41,6 +39,7 @@ const additionalAreas = [
 
 const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'm looking for private chef or catering services in Dubai. Date: __ Guests: __ Area: __"
 export default function Locations() {
+  useScrollTrigger()
   useWhatsAppMessage(PAGE_WHATSAPP_MESSAGE)
   const pageRef = useRef<HTMLDivElement>(null)
 

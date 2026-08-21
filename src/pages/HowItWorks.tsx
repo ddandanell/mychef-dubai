@@ -2,14 +2,12 @@ import { useRef, useState } from 'react'
 import { Link } from 'react-router'
 import { Clock, Shield, Utensils, Users, Sparkles, Award, Plus, Minus } from 'lucide-react'
 import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import { useGSAP } from '@gsap/react'
 import SEO from '@/components/SEO'
 import PageHero from '@/components/PageHero'
 import TrustSignalStrip from '@/components/TrustSignalStrip'
 import { howToSchema } from '@/utils/schema'
-
-gsap.registerPlugin(ScrollTrigger)
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to request a quote (via mychef.ae/how-it-works)')
@@ -76,6 +74,7 @@ const howItWorksSchema = howToSchema(
 )
 
 export default function HowItWorks() {
+  useScrollTrigger()
   const containerRef = useRef<HTMLDivElement>(null)
   const [openFaq, setOpenFaq] = useState<number | null>(null)
 
@@ -160,7 +159,7 @@ export default function HowItWorks() {
                   {/* Content */}
                   <div className={`ml-12 lg:ml-0 lg:w-[calc(50%-32px)] ${i % 2 === 0 ? 'lg:pr-8 lg:text-right' : 'lg:pl-8'}`}>
                     <span className="font-playfair text-[72px] text-gold leading-none opacity-15 block mb-2">{step.num}</span>
-                    <img src={step.image} alt={step.title} className="w-full aspect-[16/10] object-cover mb-4" loading="lazy" decoding="async"/>
+                    <img src={step.image} alt={step.title} width={640} height={400} className="w-full aspect-[16/10] object-cover mb-4" loading="lazy" decoding="async"/>
                     <h3 className="font-playfair text-h3 text-black mb-3">{step.title}</h3>
                     <p className="font-inter text-body text-gray-500" style={{ lineHeight: '1.7' }}>{step.desc}</p>
                   </div>

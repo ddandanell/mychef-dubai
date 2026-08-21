@@ -2,12 +2,10 @@ import { useRef } from 'react'
 import { Link } from 'react-router'
 import { Phone, Mail, Clock, ChevronRight, Check, MapPin } from 'lucide-react'
 import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import { useGSAP } from '@gsap/react'
 import SEO from '@/components/SEO'
 import TrustSignalStrip from '@/components/TrustSignalStrip'
-
-gsap.registerPlugin(ScrollTrigger)
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent("Hi myCHEF Dubai, I'd like to get in touch (via mychef.ae/contact)")
@@ -79,6 +77,7 @@ const breadcrumbSchema = {
 }
 
 export default function Contact() {
+  useScrollTrigger()
   const containerRef = useRef<HTMLDivElement>(null)
 
   useGSAP(() => {

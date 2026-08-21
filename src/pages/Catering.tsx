@@ -2,7 +2,7 @@ import { useRef } from 'react'
 import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import { UtensilsCrossed, PartyPopper, Heart, Building, Ship, Home, Cake, Check, Phone, ArrowRight } from 'lucide-react'
 import SEO from '../components/SEO'
 import PageHero from '../components/PageHero'
@@ -14,8 +14,6 @@ import LocationStrip from '../components/LocationStrip'
 import { plainFaqAnswer } from '../utils/schema'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { deferNonCritical } from '../lib/deferNonCritical'
-
-gsap.registerPlugin(ScrollTrigger)
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent("Hi myCHEF Dubai, I'd like a catering quote for an event. Date: __, Guests: __, Venue: __, Preferred format: __ (via mychef.ae/catering-dubai)")
@@ -262,6 +260,7 @@ const faqPageSchema = {
 
 const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'd like a catering quote for an event. Date: __, Guests: __, Venue: __, Preferred format: __ (via mychef.ae/catering-dubai)"
 export default function Catering() {
+  useScrollTrigger()
   useWhatsAppMessage(PAGE_WHATSAPP_MESSAGE)
   const containerRef = useRef<HTMLDivElement>(null)
 

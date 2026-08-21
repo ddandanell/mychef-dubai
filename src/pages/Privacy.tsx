@@ -1,12 +1,10 @@
 import { useRef } from 'react'
 import { Mail } from 'lucide-react'
 import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import { useGSAP } from '@gsap/react'
 import SEO from '@/components/SEO'
 import PageHero from '@/components/PageHero'
-
-gsap.registerPlugin(ScrollTrigger)
 
 const breadcrumbSchema = {
   '@context': 'https://schema.org',
@@ -154,6 +152,7 @@ const policySections = [
 ]
 
 export default function Privacy() {
+  useScrollTrigger()
   const containerRef = useRef<HTMLDivElement>(null)
 
   useGSAP(() => {

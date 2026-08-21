@@ -2,7 +2,7 @@ import 'react'
 import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import {
   ChefHat,
   UtensilsCrossed,
@@ -19,8 +19,6 @@ import SEO from '../components/SEO'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import { breadcrumbSchema, faqPageSchema, serviceSchema } from '../utils/schema'
 import FaqAccordion from '../components/FaqAccordion'
-
-gsap.registerPlugin(ScrollTrigger)
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to apply to become a myCHEF chef (via mychef.ae/become-a-mychef)')
@@ -164,6 +162,7 @@ const schema = {
 }
 
 export default function BecomeAMyChef() {
+  useScrollTrigger()
 
   useGSAP(() => {
     gsap.to('.bmc-hero-h1', { opacity: 1, y: 0, duration: 0.8, ease: 'power3.out' })

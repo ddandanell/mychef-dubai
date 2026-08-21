@@ -3,7 +3,7 @@ import { useRef } from 'react'
 import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import {
   Check,
   Phone,
@@ -14,8 +14,6 @@ import TrustSignalStrip from '../../components/TrustSignalStrip'
 import FaqAccordion from '../../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { deferNonCritical } from '../../lib/deferNonCritical'
-
-gsap.registerPlugin(ScrollTrigger)
 
 const WHATSAPP_NUMBER = '971551744849'
 
@@ -92,6 +90,7 @@ interface Props {
 }
 
 export default function ServiceLandingPage({ config }: Props) {
+  useScrollTrigger()
   const containerRef = useRef<HTMLDivElement>(null)
 
   useWhatsAppMessage(config.whatsappMessage)

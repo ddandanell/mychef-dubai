@@ -2,15 +2,13 @@ import { useRef } from 'react'
 import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import { Check, Phone, ArrowRight } from 'lucide-react'
 import SEO from '../../components/SEO'
 import PageHero from '../../components/PageHero'
 import TrustSignalStrip from '../../components/TrustSignalStrip'
 import { breadcrumbSchema, serviceSchema } from '../../utils/schema'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
-
-gsap.registerPlugin(ScrollTrigger)
 
 const WHATSAPP_NUMBER = '971551744849'
 
@@ -57,6 +55,7 @@ export default function PartnerPageTemplate({
   breadcrumbLabel,
   campaign,
 }: PartnerPageTemplateProps) {
+  useScrollTrigger()
   const containerRef = useRef<HTMLDivElement>(null)
 
   const PAGE_WHATSAPP_MESSAGE = `Hi myCHEF Dubai, I'd like to discuss a partnership for ${name} (via mychef.ae${canonicalPath})`

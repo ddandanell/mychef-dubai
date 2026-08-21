@@ -1,14 +1,12 @@
 import { useEffect, useRef } from 'react'
 import { Link } from 'react-router'
 import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import { Award, Calendar, ChefHat, Check } from 'lucide-react'
 import SEO from '@/components/SEO'
 import PageHero from '@/components/PageHero'
 import TrustSignalStrip from '@/components/TrustSignalStrip'
 import { breadcrumbSchema } from '@/utils/schema'
-
-gsap.registerPlugin(ScrollTrigger)
 
 const WHATSAPP_NUMBER = '971551744849'
 const SITE_URL = 'https://www.mychef.ae'
@@ -38,6 +36,7 @@ interface ChefProfileProps {
 }
 
 export default function ChefProfile({ chef }: ChefProfileProps) {
+  useScrollTrigger()
   const overviewRef = useRef<HTMLDivElement>(null)
   const menusRef = useRef<HTMLDivElement>(null)
   const detailsRef = useRef<HTMLDivElement>(null)

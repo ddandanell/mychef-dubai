@@ -1,13 +1,11 @@
 import { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router'
 import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import { Calculator, Users, UtensilsCrossed, ArrowRight, Info } from 'lucide-react'
 import SEO from '@/components/SEO'
 import PageHero from '@/components/PageHero'
 import { breadcrumbSchema } from '@/utils/schema'
-
-gsap.registerPlugin(ScrollTrigger)
 
 const breadcrumbs = [
   { name: 'Home', path: '/' },
@@ -30,6 +28,7 @@ const staffOptions = [
 ]
 
 export default function CateringCostCalculator() {
+  useScrollTrigger()
   const [guests, setGuests] = useState(10)
   const [service, setService] = useState(serviceOptions[0].value)
   const [staffLevel, setStaffLevel] = useState(staffOptions[0].value)

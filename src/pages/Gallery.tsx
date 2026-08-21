@@ -1,13 +1,11 @@
 import { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router'
 import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import SEO from '@/components/SEO'
 import PageHero from '@/components/PageHero'
 import TrustSignalStrip from '@/components/TrustSignalStrip'
 import { breadcrumbSchema } from '@/utils/schema'
-
-gsap.registerPlugin(ScrollTrigger)
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to request a quote (via mychef.ae/gallery)')
@@ -167,6 +165,7 @@ function altFor(item: typeof galleryItems[number]) {
 }
 
 export default function Gallery() {
+  useScrollTrigger()
   const [activeFilter, setActiveFilter] = useState('All')
   const galleryRef = useRef<HTMLDivElement>(null)
   const introRef = useRef<HTMLDivElement>(null)

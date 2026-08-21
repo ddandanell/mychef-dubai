@@ -2,14 +2,12 @@ import { useRef, useState, useMemo } from 'react'
 import { Link } from 'react-router'
 import { Plus, Minus, Phone, Mail } from 'lucide-react'
 import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import { useGSAP } from '@gsap/react'
 import SEO from '@/components/SEO'
 import PageHero from '@/components/PageHero'
 import TrustSignalStrip from '@/components/TrustSignalStrip'
 import { faqPageSchema, breadcrumbSchema } from '@/utils/schema'
-
-gsap.registerPlugin(ScrollTrigger)
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to request a quote (via mychef.ae/faq)')
@@ -146,6 +144,7 @@ const schema = {
 }
 
 export default function FAQ() {
+  useScrollTrigger()
   const containerRef = useRef<HTMLDivElement>(null)
   const [activeTab, setActiveTab] = useState<Category>('All')
   const [openItems, setOpenItems] = useState<Record<string, boolean>>({})

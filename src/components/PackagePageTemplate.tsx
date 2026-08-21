@@ -253,7 +253,7 @@ export default function PackagePageTemplate({
                 className="pkg-card opacity-0 translate-y-8 group bg-white overflow-hidden hover:-translate-y-1 hover:shadow-lg transition-all duration-300"
               >
                 <div className="aspect-video overflow-hidden">
-                  <img src={svc.image} alt={svc.title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" decoding="async" />
+                  <img src={svc.image} alt={svc.title} width={640} height={360} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" decoding="async" />
                 </div>
                 <div className="p-6">
                   <h4 className="font-playfair text-h4 text-black mb-2 group-hover:text-gold transition-colors">{svc.title}</h4>

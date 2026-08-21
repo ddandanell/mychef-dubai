@@ -2,13 +2,11 @@ import { useRef } from 'react'
 import { Link } from 'react-router'
 import { Star, Shield, Heart, Clock } from 'lucide-react'
 import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import { useGSAP } from '@gsap/react'
 import SEO from '@/components/SEO'
 import PageHero from '@/components/PageHero'
 import TrustSignalStrip from '@/components/TrustSignalStrip'
-
-gsap.registerPlugin(ScrollTrigger)
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to request a quote (via mychef.ae/about)')
@@ -53,6 +51,7 @@ const breadcrumbSchema = {
 }
 
 export default function About() {
+  useScrollTrigger()
   const containerRef = useRef<HTMLDivElement>(null)
 
   useGSAP(() => {
@@ -205,7 +204,7 @@ export default function About() {
             {team.map((chef) => (
               <div key={chef.name} className="team-card">
                 <div className="aspect-[3/4] overflow-hidden mb-4">
-                  <img src={chef.image} alt={`${chef.name}, independent partner chef`} className="w-full h-full object-cover" loading="lazy" decoding="async" />
+                  <img src={chef.image} alt={`${chef.name}, independent partner chef`} width={300} height={400} className="w-full h-full object-cover" loading="lazy" decoding="async" />
                 </div>
                 <h3 className="font-playfair text-h3 text-white">{chef.name}</h3>
                 <p className="font-inter text-body-sm text-gold uppercase tracking-[0.05em] mt-1">Independent partner chef</p>

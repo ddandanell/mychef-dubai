@@ -1,10 +1,8 @@
 import { useEffect } from 'react'
 import { useLocation } from 'react-router'
-import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import { armRevealFailsafe } from '../lib/revealFailsafe'
-
-gsap.registerPlugin(ScrollTrigger)
 
 /**
  * Handles everything that has to happen when the route changes in this SPA.
@@ -28,6 +26,7 @@ gsap.registerPlugin(ScrollTrigger)
  * Order matters: scroll first, then refresh against the new scroll position.
  */
 export default function ScrollManager() {
+  useScrollTrigger()
   const { pathname } = useLocation()
 
   useEffect(() => {

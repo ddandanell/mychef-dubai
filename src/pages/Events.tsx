@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react'
 import { Link } from 'react-router'
 import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import {
   Accordion,
   AccordionItem,
@@ -20,8 +20,6 @@ import {
 import { Check, Quote, ArrowRight, } from 'lucide-react'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { deferNonCritical } from '../lib/deferNonCritical'
-
-gsap.registerPlugin(ScrollTrigger)
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent(
@@ -279,6 +277,7 @@ const schema = [
 
 const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'm planning an event and need catering. Date: __, Guests: __, Venue: __, Event type: __ (via mychef.ae/events)"
 export default function Events() {
+  useScrollTrigger()
   useWhatsAppMessage(PAGE_WHATSAPP_MESSAGE)
   const eventCardsRef = useRef<HTMLDivElement>(null)
   const processRef = useRef<HTMLDivElement>(null)

@@ -1,13 +1,11 @@
 import { useEffect, useRef } from 'react'
 import { Link } from 'react-router'
 import { gsap } from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import SEO from '../components/SEO'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import { Heart, Sparkles, Wine } from 'lucide-react'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
-
-gsap.registerPlugin(ScrollTrigger)
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to plan a romantic dinner (via mychef.ae/romantic-dinner-dubai)')
@@ -42,6 +40,7 @@ const schema = {
 
 const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'm interested in a romantic dinner in Dubai. Date: __ Guests: __ Area: __"
 export default function RomanticDinner() {
+  useScrollTrigger()
   useWhatsAppMessage(PAGE_WHATSAPP_MESSAGE)
   const pageRef = useRef<HTMLDivElement>(null)
 
@@ -65,7 +64,7 @@ export default function RomanticDinner() {
       />
 
       <section className="relative min-h-[70vh] flex items-center justify-center bg-black overflow-hidden">
-        <div className="absolute inset-0"><img src="/images/romantic-dinner-dubai-hero.webp" alt="Romantic dinner" className="w-full h-full object-cover opacity-40" decoding="async" loading="eager" fetchPriority="high"/><div className="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-black/30" /></div>
+        <div className="absolute inset-0"><img src="/images/romantic-dinner-dubai-hero.webp" alt="Romantic dinner" width={1344} height={752} className="w-full h-full object-cover opacity-40" decoding="async" loading="eager" fetchPriority="high"/><div className="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-black/30" /></div>
         <div className="relative z-10 text-center px-4 max-w-4xl">
           <nav className="text-sm mb-6"><Link to="/" className="text-gray-400 hover:text-gold">Home</Link><span className="text-gray-600 mx-2">/</span><span className="text-gold">Romantic Dinner Dubai</span></nav>
           <p className="text-gold text-sm tracking-[0.2em] uppercase mb-4">For Two</p>

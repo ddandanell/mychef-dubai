@@ -2,7 +2,7 @@ import { useRef } from 'react'
 import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import { Phone } from 'lucide-react'
 import SEO from '../../components/SEO'
 import PageHero from '../../components/PageHero'
@@ -10,8 +10,6 @@ import BlogRelated from '../../components/BlogRelated'
 import TrustSignalStrip from '../../components/TrustSignalStrip'
 import KeyFactsBox from '../../components/KeyFactsBox'
 import SourcesBlock from '../../components/SourcesBlock'
-
-gsap.registerPlugin(ScrollTrigger)
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I read your Halal Private Dining in Dubai blog and would like a custom quote (via mychef.ae/blog/halal-private-dining-dubai-what-to-ask)')
@@ -78,6 +76,7 @@ const schema = {
 }
 
 export default function HalalPrivateDiningDubaiWhatToAsk() {
+  useScrollTrigger()
   const containerRef = useRef<HTMLDivElement>(null)
 
   useGSAP(() => {

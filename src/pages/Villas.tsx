@@ -2,7 +2,7 @@ import { useRef, useState } from 'react'
 import { Link } from 'react-router'
 import { ChevronRight, Utensils, Calendar, Home, PartyPopper, Baby, Leaf, ShoppingBag, Users, Sparkles, Clock, Shield, ChevronDown, Phone, MapPin, } from 'lucide-react'
 import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import { useGSAP } from '@gsap/react'
 import SEO from '@/components/SEO'
 import PageHero from '@/components/PageHero'
@@ -10,8 +10,6 @@ import TrustSignalStrip from '@/components/TrustSignalStrip'
 import LocationStrip from '@/components/LocationStrip'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { deferNonCritical } from '../lib/deferNonCritical'
-
-gsap.registerPlugin(ScrollTrigger)
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent("Hi myCHEF Dubai, I'd like a villa private chef / catering quote. Date(s): __, Guests: __, Villa community: __, Occasion: __ (via mychef.ae/villas-private-residences)")
@@ -163,6 +161,7 @@ const faqPageSchema = {
 
 const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'd like a villa private chef / catering quote. Date(s): __, Guests: __, Villa community: __, Occasion: __ (via mychef.ae/villas-private-residences)"
 export default function Villas() {
+  useScrollTrigger()
   useWhatsAppMessage(PAGE_WHATSAPP_MESSAGE)
   const containerRef = useRef<HTMLDivElement>(null)
   const [openFaq, setOpenFaq] = useState<number | null>(null)
@@ -293,7 +292,7 @@ export default function Villas() {
           <div className="communities-grid grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {villaCommunities.map((comm) => (
               <Link key={comm.name} to={comm.link} className="community-card group relative overflow-hidden block">
-                <img src={comm.image} alt={comm.name} className="w-full h-64 object-cover transition-transform duration-700 group-hover:scale-105" decoding="async" loading="lazy"/>
+                <img src={comm.image} alt={comm.name} width={400} height={256} className="w-full h-64 object-cover transition-transform duration-700 group-hover:scale-105" decoding="async" loading="lazy"/>
                 <div className="absolute inset-0" style={{ background: 'linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.2) 50%, rgba(0,0,0,0) 100%)' }} />
                 <div className="absolute bottom-0 left-0 right-0 p-6">
                   <h3 className="font-playfair text-h4 text-white group-hover:text-gold transition-colors">{comm.name}</h3>
@@ -325,7 +324,7 @@ export default function Villas() {
           <div className="villa-locations-grid grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {villaLocationsWeServe.map((loc) => (
               <Link key={loc.name} to={loc.link} className="villa-location-card group relative overflow-hidden block">
-                <img src={loc.image} alt={loc.name} className="w-full h-64 object-cover transition-transform duration-700 group-hover:scale-105" decoding="async" loading="lazy"/>
+                <img src={loc.image} alt={loc.name} width={400} height={256} className="w-full h-64 object-cover transition-transform duration-700 group-hover:scale-105" decoding="async" loading="lazy"/>
                 <div className="absolute inset-0" style={{ background: 'linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.2) 50%, rgba(0,0,0,0) 100%)' }} />
                 <div className="absolute bottom-0 left-0 right-0 p-6">
                   <h3 className="font-playfair text-h4 text-white group-hover:text-gold transition-colors">{loc.name}</h3>
@@ -388,6 +387,8 @@ export default function Villas() {
               <img
                 src="/testimonial-villa.webp"
                 alt="Private villa dining experience in Dubai"
+                width={600}
+                height={500}
                 className="w-full h-[500px] object-cover"
                 style={{ border: '1px solid rgba(200,164,92,0.2)' }} decoding="async" loading="lazy"/>
             </div>
@@ -407,7 +408,7 @@ export default function Villas() {
           <div className="gallery-grid grid grid-cols-2 md:grid-cols-3 gap-4">
             {galleryImages.map((img, i) => (
               <div key={i} className="gallery-item relative overflow-hidden group aspect-[4/3]">
-                <img src={img} alt={`Villa dining gallery ${i + 1}`} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" decoding="async" loading="lazy"/>
+                <img src={img} alt={`Villa dining gallery ${i + 1}`} width={400} height={300} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" decoding="async" loading="lazy"/>
                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300" />
               </div>
             ))}
