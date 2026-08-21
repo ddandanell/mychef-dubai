@@ -324,7 +324,7 @@ export default function Catering() {
     <div ref={containerRef}>
       <SEO
         title="Luxury Catering Dubai | Buffet, BBQ & Plated | Bespoke Menus"
-        description="Luxury event catering in Dubai for weddings, corporate events & private parties. Bespoke menus, vetted chefs, halal-first. Request a tailored quote in 15."
+        description="Luxury event catering in Dubai for weddings, corporate events & private parties. Bespoke menus, vetted chefs, halal-first. Request a tailored quote."
         canonicalPath="/catering-dubai"
         ogImage="/service-catering.webp"
         hideSiteName

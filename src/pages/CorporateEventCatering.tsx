@@ -302,8 +302,8 @@ export default function CorporateEventCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Corporate Event Catering Dubai | Galas, Launches & Conferences | myCHEF"
-        description="Corporate event catering in Dubai for product launches, galas, networking & conferences. VAT/TRN invoicing, halal sourcing, account management. Quote in."
+        title="Corporate Event Catering Dubai | Galas & Conferences | myCHEF"
+        description="Corporate event catering in Dubai for product launches, galas, networking & conferences. VAT/TRN invoicing, halal menus. Get a quote in 15 min."
         canonicalPath="/corporate-event-catering-dubai"
         ogImage="/service-corporate.webp"
         hideSiteName

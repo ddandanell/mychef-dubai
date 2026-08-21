@@ -228,7 +228,7 @@ export default function Villas() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Villa Catering Dubai | Private Chef for Palm Jumeirah & Emirates Hills"
+        title="Villa Catering Dubai | Palm Jumeirah & Emirates Hills"
         description="Private chef and villa catering in Dubai for Palm Jumeirah, Emirates Hills & Arabian Ranches. Bespoke menus, vetted chefs, full setup. Get a quote."
         canonicalPath="/villas-private-residences"
         ogImage="/service-villa.webp"

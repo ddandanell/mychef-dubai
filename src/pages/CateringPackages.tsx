@@ -177,7 +177,7 @@ export default function CateringPackages() {
     <div ref={containerRef}>
       <SEO
         title="Catering Packages Dubai | From AED 1,200 | Private Chef & Events"
-        description="Ready-to-book catering packages in Dubai for date nights, birthdays, family feasts & corporate dinners. From AED 1,200. Vetted chefs included. Request."
+        description="Ready-to-book catering packages in Dubai for date nights, birthdays, family feasts & corporate dinners. From AED 1,200. Vetted chefs included. Get a quote."
         canonicalPath="/catering-packages-dubai"
         ogImage="/images/catering-packages-dubai-hero.webp"
         hideSiteName

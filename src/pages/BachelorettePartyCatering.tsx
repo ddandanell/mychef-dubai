@@ -279,7 +279,7 @@ export default function BachelorettePartyCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Bachelorette Party Catering Dubai | Canapés, Grazing & Cocktails | myCHEF"
+        title="Bachelorette Party Catering Dubai | Canapés & Grazing | myCHEF"
         description="Book bachelorette party catering in Dubai. Elegant canapés, grazing tables, cocktails and mocktails for villas and rooftops. Get a quote in 15 minutes."
         canonicalPath="/bachelorette-party-catering-dubai"
         ogImage="/service-events.webp"

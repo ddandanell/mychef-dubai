@@ -289,7 +289,7 @@ export default function LuxuryDining() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Private Dining Dubai | Luxury Chef Experiences in Villas & Penthouses"
+        title="Private Dining Dubai | Chef Experiences in Villas"
         description="Luxury private dining in Dubai with a private chef at your villa, penthouse or yacht. Bespoke tasting menus, full service, halal options. Request a custom menu."
         canonicalPath="/luxury-dining-experiences"
         ogImage="/service-luxury-dining.webp"
