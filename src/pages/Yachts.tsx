@@ -231,13 +231,13 @@ export default function Yachts() {
       {/* Section 1: Hero */}
       <PageHero
         eyebrow="YACHT CATERING"
-        title="Yacht Catering Dubai — Private Chef On Board"
-        subtitle="Tell us about your yacht event and we will bring you a vetted chef. Exceptional dining on the water with Dubai's iconic skyline as your setting — we reply within 15 minutes during business hours."
+        title="Yacht Catering Dubai — From AED 150 Per Person"
+        subtitle="Private chef and catering on board in Dubai Marina, Palm Jumeirah & JBR. Food & service only — yacht charter is booked separately."
         image="/images/yacht-catering-dubai-hero.webp"
         imageAlt="Yacht catering in Dubai"
         imageWidth={1344}
         imageHeight={752}
-        cta={{ label: 'Plan My Yacht Dinner', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=yachts' }}
+        cta={{ label: 'Get a Yacht Catering Quote', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=yachts' }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Yachts' }]}
         minHeight="tall"
@@ -501,7 +501,7 @@ export default function Yachts() {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=yachts" className="btn-primary inline-flex items-center gap-2">
               <Phone size={18} />
-              Plan My Yacht Dinner
+              Get a Yacht Catering Quote
             </Link>
             <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-secondary">
               Chat on WhatsApp

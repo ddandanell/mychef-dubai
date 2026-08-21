@@ -170,7 +170,7 @@ export default function HeroSection() {
           className="font-playfair font-semibold text-white opacity-0 max-w-3xl mx-auto md:mx-0 text-center md:text-left"
           style={{ fontSize: 'clamp(1.75rem, 5.5vw, 4.5rem)', lineHeight: 1.02 }}
         >
-          Private Chef & Luxury Catering in Dubai — Bespoke Menus for Every Occasion
+          Private Chef & Luxury Catering in Dubai — Brought to Your Villa, Yacht or Home
         </h1>
 
         {/* Subtext */}
@@ -178,7 +178,7 @@ export default function HeroSection() {
           ref={subtextRef}
           className="mt-4 md:mt-6 font-inter text-base md:text-lg font-light text-white/90 max-w-xl mx-auto md:mx-0 leading-relaxed opacity-0 text-center md:text-left"
         >
-          Tell us about your event and we handle everything from menu to service. We reply within 15 minutes during business hours. We design the menu, coordinate every detail, and keep you a guest at your own table.
+          Bespoke dining for 2 to 500+ guests. We design, cook and serve — so you stay a guest at your own table.
         </p>
 
         {/* CTA Row */}

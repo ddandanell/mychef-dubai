@@ -228,7 +228,7 @@ export default function Villas() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Villa Catering Dubai | Palm Jumeirah & Emirates Hills"
+        title="Villa Catering Dubai | Private Chef for Palm Jumeirah & Emirates Hills | myCHEF"
         description="Private chef and villa catering in Dubai for Palm Jumeirah, Emirates Hills & Arabian Ranches. Bespoke menus, vetted chefs, full setup. Get a quote."
         canonicalPath="/villas-private-residences"
         ogImage="/service-villa.webp"
@@ -239,8 +239,8 @@ export default function Villas() {
       {/* Section 1: Hero */}
       <PageHero
         eyebrow="VILLA CHEF SERVICES"
-        title="Villa Catering & Private Chef Dubai"
-        subtitle="Tell us about your villa stay or special occasion and we will bring you a vetted private chef in Dubai. From one-night dinners to full-time residential chef services — exceptional dining without leaving home. We reply within 15 minutes during business hours."
+        title="Villa Catering & Private Chef Dubai — From AED 700pp"
+        subtitle="Private chef and villa catering across Dubai. From one-night dinners to full-time residential chefs — bespoke menus, full service and cleanup included."
         image="/images/villa-catering-dubai-hero.webp"
         imageAlt="Villa private chef in Dubai"
         imageWidth={1344}

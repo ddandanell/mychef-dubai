@@ -374,12 +374,12 @@ export default function PrivateChef() {
       {/* ═══════════════ Section 1: Hero ═══════════════ */}
       <PageHero
         title="Book a Private Chef in Dubai"
-        subtitle="Tell us about your event and we will bring you a vetted private chef. We reply within 15 minutes during business hours. Fully bespoke menus, prepared in your home or villa, with service and cleanup included."
+        subtitle="Private chef dining for 2–20+ guests. Bespoke menus, premium ingredients, full service — in your villa, home or yacht."
         image="/images/private-chef-dubai-hero.webp"
         imageAlt="Private chef preparing a meal in Dubai"
         imageWidth={1344}
         imageHeight={752}
-        cta={{ label: 'Request a Private Chef Quote', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=private-chef-dubai' }}
+        cta={{ label: 'Get My Private Chef Quote', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=private-chef-dubai' }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Private Chef Dubai' }]}
         minHeight="large"
@@ -654,7 +654,7 @@ export default function PrivateChef() {
             Tell us about your occasion and we will craft a bespoke proposal within 15 minutes during business hours.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=private-chef-dubai" className="btn-primary">Request a Private Chef Quote</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=private-chef-dubai" className="btn-primary">Get My Private Chef Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

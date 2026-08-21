@@ -323,7 +323,7 @@ export default function Catering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Luxury Catering Dubai | Buffet, BBQ & Plated | Bespoke Menus"
+        title="Luxury Catering Dubai | Buffet, BBQ & Plated | From AED 90pp"
         description="Luxury event catering in Dubai for weddings, corporate events & private parties. Bespoke menus, vetted chefs, halal-first. Request a tailored quote."
         canonicalPath="/catering-dubai"
         ogImage="/service-catering.webp"
@@ -335,12 +335,12 @@ export default function Catering() {
       {/* ═══════════════ Section 1: Hero ═══════════════ */}
       <PageHero
         title="Luxury Catering Dubai for Events & Private Celebrations"
-        subtitle="Premium event catering across Dubai. From intimate gatherings to grand celebrations — we reply within 15 minutes and coordinate every detail, from menu design to service staff and cleanup."
+        subtitle="Event catering for 10–500+ guests. BBQ, buffet, canapés & plated service. We design, source, cook and serve — you stay a guest."
         image="/images/catering-dubai-hero.webp"
         imageAlt="Elegant catering setup in Dubai"
         imageWidth={1344}
         imageHeight={752}
-        cta={{ label: 'Get a Catering Quote', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=catering-dubai' }}
+        cta={{ label: 'Get My Catering Quote', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=catering-dubai' }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Catering Dubai' }]}
         minHeight="large"
@@ -636,7 +636,7 @@ export default function Catering() {
             From concept to execution — we design and manage every detail of your catering experience.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=catering-dubai" className="btn-primary">Get a Catering Quote</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=catering-dubai" className="btn-primary">Get My Catering Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

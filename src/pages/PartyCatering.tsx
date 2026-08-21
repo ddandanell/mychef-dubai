@@ -345,7 +345,7 @@ export default function PartyCatering() {
         imageAlt="Party catering in Dubai"
         imageWidth={1344}
         imageHeight={752}
-        cta={{ label: 'Request a Proposal', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=party-catering-dubai' }}
+        cta={{ label: 'Get a Party Catering Quote', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=party-catering-dubai' }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Party Catering Dubai' }]}
         minHeight="large"
@@ -555,7 +555,7 @@ export default function PartyCatering() {
             Tell us about your celebration and we'll design a menu, drinks, and service plan that fits it perfectly.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=party-catering-dubai" className="btn-primary">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=party-catering-dubai" className="btn-primary">Get a Party Catering Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

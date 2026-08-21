@@ -20,8 +20,8 @@ export default function Home() {
   return (
     <>
       <SEO
-        title="Private Chef & Luxury Catering Dubai | Villas & Yachts"
-        description="Hire a private chef or book luxury catering in Dubai. Bespoke menus for villas, yachts, weddings & corporate events. Vetted chefs, halal-first."
+        title="Private Chef Dubai & Luxury Catering | Villas, Yachts & Events | myCHEF"
+        description="Hire a vetted private chef in Dubai for villas, yachts & homes. Bespoke menus, halal-first, full service. Quote in 15 minutes during business hours."
         canonicalPath="/"
         ogImage="/images/home-hero.webp"
         preloadHero="/images/home-hero.webp"

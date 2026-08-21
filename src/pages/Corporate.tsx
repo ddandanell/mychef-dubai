@@ -247,7 +247,7 @@ interface CorporateProps {
 }
 
 export default function Corporate({
-  seoTitle = 'Corporate Catering Dubai | Office Lunches, Events & Galas',
+  seoTitle = 'Corporate Catering Dubai | Office Lunches & Events | From AED 90pp',
   seoDescription = 'Corporate catering in Dubai for offices, conferences, product launches & galas. VAT/TRN invoicing, halal sourcing, dedicated account manager. Get a quote.',
   canonicalPath = '/corporate',
   pageHeroTitle = 'Corporate Catering Dubai — Office, Boardroom & Events',

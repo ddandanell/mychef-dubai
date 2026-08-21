@@ -462,7 +462,7 @@ export default function Events() {
   return (
     <>
       <SEO
-        title="Event Catering Dubai | Birthdays, Weddings & Private Parties"
+        title="Event Catering Dubai | Birthdays, Weddings & Corporate | From AED 120pp"
         description="Premium event catering in Dubai for birthdays, weddings, engagements & private parties. Bespoke menus, vetted chefs, full service. Request a tailored quote."
         canonicalPath="/events"
         ogImage="/service-events.webp"
@@ -472,13 +472,13 @@ export default function Events() {
 
       {/* ─── Section 1: Hero ─── */}
       <PageHero
-        title="Event Catering Dubai for Weddings, Parties & Corporate Events"
-        subtitle="Tell us about your event and we will bring you a vetted chef. From intimate celebrations to grand occasions — exceptional food, flawless service, unforgettable events. We reply within 15 minutes during business hours."
+        title="Event Catering Dubai — From AED 120 Per Person"
+        subtitle="Event catering for 10–500+ guests across Dubai. Birthdays, weddings, corporate functions & private parties — we design, source, cook and serve."
         image="/images/events-catering-dubai-hero.webp"
         imageAlt="Event catering in Dubai"
         imageWidth={1344}
         imageHeight={752}
-        cta={{ label: 'Plan My Event', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=events' }}
+        cta={{ label: 'Get an Event Catering Quote', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=events' }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Events' }]}
         minHeight="large"
