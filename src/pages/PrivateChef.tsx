@@ -367,6 +367,7 @@ export default function PrivateChef() {
         canonicalPath="/private-chef-dubai"
         ogImage="/service-private-chef.webp"
         hideSiteName
+        preloadHero="/images/private-chef-dubai-hero.webp"
         schema={{ ...schema, ...breadcrumbSchema, ...faqPageSchema }}
       />
 
@@ -376,6 +377,8 @@ export default function PrivateChef() {
         subtitle="Tell us about your event and we will bring you a vetted private chef. We reply within 15 minutes during business hours. Fully bespoke menus, prepared in your home or villa, with service and cleanup included."
         image="/images/private-chef-dubai-hero.webp"
         imageAlt="Private chef preparing a meal in Dubai"
+        imageWidth={1344}
+        imageHeight={752}
         cta={{ label: 'Request a Private Chef Quote', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=private-chef-dubai' }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Private Chef Dubai' }]}

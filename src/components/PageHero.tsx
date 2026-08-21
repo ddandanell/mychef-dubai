@@ -2,6 +2,7 @@ import { useRef, useEffect } from 'react'
 import { Link } from 'react-router'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { deferNonCritical } from '../lib/deferNonCritical'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -11,6 +12,8 @@ interface PageHeroProps {
   subtitle?: string
   image?: string
   imageAlt?: string
+  imageWidth?: number
+  imageHeight?: number
   cta?: { label: string; href: string; external?: boolean }
   secondaryCta?: { label: string; href: string; external?: boolean }
   breadcrumb?: { label: string; href?: string }[]
@@ -40,6 +43,8 @@ export default function PageHero({
   subtitle,
   image,
   imageAlt = '',
+  imageWidth,
+  imageHeight,
   cta,
   secondaryCta,
   breadcrumb,
@@ -56,26 +61,36 @@ export default function PageHero({
 
   useEffect(() => {
     const reduced = reducedMotion || window.matchMedia('(prefers-reduced-motion: reduce)').matches
-    const ctx = gsap.context(() => {
+    if (reduced) {
       const els = contentRef.current?.children
-      if (!els) return
-      if (reduced) {
-        gsap.set(els, { opacity: 1, y: 0 })
-        return
-      }
-      gsap.fromTo(els,
-        { opacity: 0, y: 30 },
-        { opacity: 1, y: 0, duration: 0.7, stagger: 0.12, ease: 'power3.out', delay: 0.1 }
-      )
-    }, sectionRef)
-    return () => ctx.revert()
+      if (els) gsap.set(els, { opacity: 1, y: 0 })
+      return
+    }
+
+    let ctx: gsap.Context | null = null
+    deferNonCritical(() => {
+      ctx = gsap.context(() => {
+        const els = contentRef.current?.children
+        if (!els) return
+        gsap.fromTo(els,
+          { opacity: 0, y: 30 },
+          { opacity: 1, y: 0, duration: 0.7, stagger: 0.12, ease: 'power3.out', delay: 0.1 }
+        )
+      }, sectionRef)
+    })
+
+    return () => {
+      if (ctx) ctx.revert()
+    }
   }, [reducedMotion])
 
   useEffect(() => {
     if (!imageRef.current || reducedMotion || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return
     let scrollY = 0
     let ticking = false
+    let active = true
     const update = () => {
+      if (!active) return
       if (imageRef.current) {
         imageRef.current.style.transform = `scale(1.05) translateY(${scrollY * 0.12}px)`
       }
@@ -88,8 +103,12 @@ export default function PageHero({
         ticking = true
       }
     }
-    window.addEventListener('scroll', onScroll, { passive: true })
+    deferNonCritical(() => {
+      if (!active) return
+      window.addEventListener('scroll', onScroll, { passive: true })
+    })
     return () => {
+      active = false
       window.removeEventListener('scroll', onScroll)
       if (rafRef.current) cancelAnimationFrame(rafRef.current)
     }
@@ -109,6 +128,9 @@ export default function PageHero({
             ref={imageRef}
             src={image}
             alt={imageAlt}
+            width={imageWidth}
+            height={imageHeight}
+            loading="eager"
             fetchPriority="high"
             decoding="async"
             className="absolute inset-0 w-full h-full object-cover scale-105 will-change-transform"

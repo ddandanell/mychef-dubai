@@ -21,6 +21,7 @@ import PageHero from '../components/PageHero'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
+import { deferNonCritical } from '../lib/deferNonCritical'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -233,19 +234,23 @@ export default function PrivateChefPrices() {
   useGSAP(() => {
     if (!containerRef.current) return
 
-    gsap.to('.prices-section', {
-      scrollTrigger: { trigger: '.prices-content', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, y: 0, duration: 0.7, stagger: 0.12, ease: 'power3.out',
-    })
+    // Defer below-the-fold ScrollTrigger animations so they do not contend
+    // with LCP/INP during the initial load.
+    deferNonCritical(() => {
+      gsap.to('.prices-section', {
+        scrollTrigger: { trigger: '.prices-content', start: 'top 85%', toggleActions: 'play none none none' },
+        opacity: 1, y: 0, duration: 0.7, stagger: 0.12, ease: 'power3.out',
+      })
 
-    gsap.to('.prices-faq-item', {
-      scrollTrigger: { trigger: '.prices-faq', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, y: 0, duration: 0.5, stagger: 0.08, ease: 'power3.out',
-    })
+      gsap.to('.prices-faq-item', {
+        scrollTrigger: { trigger: '.prices-faq', start: 'top 85%', toggleActions: 'play none none none' },
+        opacity: 1, y: 0, duration: 0.5, stagger: 0.08, ease: 'power3.out',
+      })
 
-    gsap.to('.prices-cta', {
-      scrollTrigger: { trigger: '.prices-cta', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, y: 0, duration: 0.7, ease: 'power3.out',
+      gsap.to('.prices-cta', {
+        scrollTrigger: { trigger: '.prices-cta', start: 'top 85%', toggleActions: 'play none none none' },
+        opacity: 1, y: 0, duration: 0.7, ease: 'power3.out',
+      })
     })
   }, { scope: containerRef })
 
@@ -257,6 +262,7 @@ export default function PrivateChefPrices() {
         canonicalPath="/private-chef-prices-dubai"
         ogImage="/images/private-chef-prices-dubai-hero.webp"
         hideSiteName
+        preloadHero="/images/private-chef-prices-dubai-hero.webp"
         schema={schema}
       />
 
@@ -267,6 +273,8 @@ export default function PrivateChefPrices() {
         subtitle="See indicative private chef costs by group size, what affects the price, and what is included — so you can budget with confidence."
         image="/images/private-chef-prices-dubai-hero.webp"
         imageAlt="Private chef prices and menus in Dubai"
+        imageWidth={1344}
+        imageHeight={752}
         cta={{ label: 'Get My Private Chef Quote', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=private-chef-prices' }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Private Chef Prices Dubai' }]}

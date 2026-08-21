@@ -1,6 +1,7 @@
 import { useEffect, useRef } from 'react'
 import { Link } from 'react-router'
 import gsap from 'gsap'
+import { deferNonCritical } from '../lib/deferNonCritical'
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to plan an event (via mychef.ae/)')
@@ -21,79 +22,83 @@ export default function HeroSection() {
 
   useEffect(() => {
     const reduced = prefersReducedMotion()
-    const ctx = gsap.context(() => {
-      if (reduced) {
-        // Make everything visible immediately for reduced-motion users.
-        // NOTE: width:60 is ONLY for the gold accent line — applying it to the
-        // headline/subtext/CTA/stats collapses them into a 60px column.
-        gsap.set([headlineRef.current, subtextRef.current, ctaRef.current, statsRef.current], {
-          opacity: 1, y: 0,
-        })
-        gsap.set(lineRef.current, { opacity: 1, width: 60 })
-        return
-      }
+    if (reduced) {
+      gsap.set([headlineRef.current, subtextRef.current, ctaRef.current, statsRef.current], {
+        opacity: 1, y: 0,
+      })
+      gsap.set(lineRef.current, { opacity: 1, width: 60 })
+      return
+    }
 
-      const tl = gsap.timeline({ defaults: { ease: 'power3.out' } })
+    let ctx: gsap.Context | null = null
+    deferNonCritical(() => {
+      ctx = gsap.context(() => {
+        const tl = gsap.timeline({ defaults: { ease: 'power3.out' } })
 
-      tl.fromTo(lineRef.current,
-        { width: 0, opacity: 0 },
-        { width: 60, opacity: 1, duration: 0.5 }
-      )
-      .fromTo(headlineRef.current,
-        { opacity: 0, y: 30 },
-        { opacity: 1, y: 0, duration: 0.7 },
-        '-=0.2'
-      )
-      .fromTo(subtextRef.current,
-        { opacity: 0, y: 16 },
-        { opacity: 1, y: 0, duration: 0.5 },
-        '-=0.3'
-      )
-      .fromTo(ctaRef.current?.children || [],
-        { opacity: 0, y: 12 },
-        { opacity: 1, y: 0, duration: 0.4, stagger: 0.1 },
-        '-=0.2'
-      )
-      .fromTo(statsRef.current,
-        { opacity: 0, y: 16 },
-        { opacity: 1, y: 0, duration: 0.5 },
-        '-=0.2'
-      )
+        tl.fromTo(lineRef.current,
+          { width: 0, opacity: 0 },
+          { width: 60, opacity: 1, duration: 0.5 }
+        )
+        .fromTo(headlineRef.current,
+          { opacity: 0, y: 30 },
+          { opacity: 1, y: 0, duration: 0.7 },
+          '-=0.2'
+        )
+        .fromTo(subtextRef.current,
+          { opacity: 0, y: 16 },
+          { opacity: 1, y: 0, duration: 0.5 },
+          '-=0.3'
+        )
+        .fromTo(ctaRef.current?.children || [],
+          { opacity: 0, y: 12 },
+          { opacity: 1, y: 0, duration: 0.4, stagger: 0.1 },
+          '-=0.2'
+        )
+        .fromTo(statsRef.current,
+          { opacity: 0, y: 16 },
+          { opacity: 1, y: 0, duration: 0.5 },
+          '-=0.2'
+        )
 
-      // Counter animation
-      const statNumbers = statsRef.current?.querySelectorAll('.stat-number')
-      if (statNumbers) {
-        statNumbers.forEach((el) => {
-          const valueEl = el.querySelector('.stat-value')
-          const targetAttr = el.getAttribute('data-target')
-          if (!valueEl || !targetAttr) return
-          const target = parseInt(targetAttr, 10)
-          const suffix = el.getAttribute('data-suffix') || ''
-          const obj = { val: 0 }
-          gsap.to(obj, {
-            val: target,
-            duration: 1.6,
-            delay: 0.8,
-            ease: 'power2.out',
-            onUpdate: () => {
-              valueEl.textContent = Math.round(obj.val) + suffix
-            },
+        // Counter animation
+        const statNumbers = statsRef.current?.querySelectorAll('.stat-number')
+        if (statNumbers) {
+          statNumbers.forEach((el) => {
+            const valueEl = el.querySelector('.stat-value')
+            const targetAttr = el.getAttribute('data-target')
+            if (!valueEl || !targetAttr) return
+            const target = parseInt(targetAttr, 10)
+            const suffix = el.getAttribute('data-suffix') || ''
+            const obj = { val: 0 }
+            gsap.to(obj, {
+              val: target,
+              duration: 1.6,
+              delay: 0.8,
+              ease: 'power2.out',
+              onUpdate: () => {
+                valueEl.textContent = Math.round(obj.val) + suffix
+              },
+            })
           })
-        })
-      }
-    }, sectionRef)
+        }
+      }, sectionRef)
+    })
 
-    return () => ctx.revert()
+    return () => {
+      if (ctx) ctx.revert()
+    }
   }, [])
 
-  // RAF-throttled parallax
+  // RAF-throttled parallax — registered after the first paint to keep the main thread free during LCP.
   useEffect(() => {
     if (prefersReducedMotion() || !imageRef.current) return
 
     let scrollY = 0
     let ticking = false
+    let active = true
 
     const updateTransform = () => {
+      if (!active) return
       if (imageRef.current) {
         const rate = scrollY * 0.15
         imageRef.current.style.transform = `scale(1.05) translateY(${rate}px)`
@@ -109,8 +114,13 @@ export default function HeroSection() {
       }
     }
 
-    window.addEventListener('scroll', handleScroll, { passive: true })
+    deferNonCritical(() => {
+      if (!active) return
+      window.addEventListener('scroll', handleScroll, { passive: true })
+    })
+
     return () => {
+      active = false
       window.removeEventListener('scroll', handleScroll)
       if (rafRef.current) cancelAnimationFrame(rafRef.current)
     }
@@ -137,6 +147,9 @@ export default function HeroSection() {
             ref={imageRef}
             src="/images/home-hero.webp"
             alt="Premium private chef dining experience in Dubai"
+            width={1344}
+            height={752}
+            loading="eager"
             fetchPriority="high"
             decoding="async"
             className="absolute inset-0 w-full h-full object-cover scale-105 will-change-transform"

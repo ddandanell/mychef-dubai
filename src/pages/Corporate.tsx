@@ -21,6 +21,7 @@ import {
 } from '@/utils/schema'
 import { Check, Quote, Star, ArrowRight, Clock, Shield, Award, Users, Leaf, FileText, Building, PartyPopper, } from 'lucide-react'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
+import { deferNonCritical } from '../lib/deferNonCritical'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -255,113 +256,115 @@ export default function Corporate() {
   const relatedRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
-    const ctx = gsap.context(() => {
+    let ctx: gsap.Context | null = null
+    // Defer below-the-fold ScrollTrigger animations so they do not contend
+    // with LCP/INP during the initial load.
+    deferNonCritical(() => {
+      ctx = gsap.context(() => {
+        /* Service cards */
+        if (cardsRef.current) {
+          const cards = cardsRef.current.children
+          gsap.fromTo(
+            cards,
+            { opacity: 0, y: 50 },
+            {
+              opacity: 1, y: 0, duration: 0.8, stagger: 0.1, ease: 'power3.out',
+              scrollTrigger: { trigger: cardsRef.current, start: 'top 85%' },
+            }
+          )
+        }
 
-      /* Service cards */
-      if (cardsRef.current) {
-        const cards = cardsRef.current.children
-        gsap.fromTo(
-          cards,
-          { opacity: 0, y: 50 },
-          {
-            opacity: 1, y: 0, duration: 0.8, stagger: 0.1, ease: 'power3.out',
-            scrollTrigger: { trigger: cardsRef.current, start: 'top 85%' },
-          }
-        )
-      }
+        /* Corporate solutions */
+        if (solutionsRef.current) {
+          const items = solutionsRef.current.children
+          gsap.fromTo(
+            items,
+            { opacity: 0, y: 40 },
+            {
+              opacity: 1, y: 0, duration: 0.7, stagger: 0.08, ease: 'power3.out',
+              scrollTrigger: { trigger: solutionsRef.current, start: 'top 85%' },
+            }
+          )
+        }
 
-      /* Corporate solutions */
-      if (solutionsRef.current) {
-        const items = solutionsRef.current.children
-        gsap.fromTo(
-          items,
-          { opacity: 0, y: 40 },
-          {
-            opacity: 1, y: 0, duration: 0.7, stagger: 0.08, ease: 'power3.out',
-            scrollTrigger: { trigger: solutionsRef.current, start: 'top 85%' },
-          }
-        )
-      }
+        /* Trust features */
+        if (trustRef.current) {
+          const items = trustRef.current.children
+          gsap.fromTo(
+            items,
+            { opacity: 0, y: 40 },
+            {
+              opacity: 1, y: 0, duration: 0.7, stagger: 0.1, ease: 'power3.out',
+              scrollTrigger: { trigger: trustRef.current, start: 'top 85%' },
+            }
+          )
+        }
 
-      /* Trust features */
-      if (trustRef.current) {
-        const items = trustRef.current.children
-        gsap.fromTo(
-          items,
-          { opacity: 0, y: 40 },
-          {
-            opacity: 1, y: 0, duration: 0.7, stagger: 0.1, ease: 'power3.out',
-            scrollTrigger: { trigger: trustRef.current, start: 'top 85%' },
-          }
-        )
-      }
+        /* Service tiers */
+        if (tiersRef.current) {
+          const cards = tiersRef.current.children
+          gsap.fromTo(
+            cards,
+            { opacity: 0, y: 30 },
+            {
+              opacity: 1, y: 0, duration: 0.8, stagger: 0.12, ease: 'power3.out',
+              scrollTrigger: { trigger: tiersRef.current, start: 'top 85%' },
+            }
+          )
+        }
 
-      /* Service tiers */
-      if (tiersRef.current) {
-        const cards = tiersRef.current.children
-        gsap.fromTo(
-          cards,
-          { opacity: 0, y: 30 },
-          {
-            opacity: 1, y: 0, duration: 0.8, stagger: 0.12, ease: 'power3.out',
-            scrollTrigger: { trigger: tiersRef.current, start: 'top 85%' },
-          }
-        )
-      }
+        /* Process steps */
+        if (processRef.current) {
+          const steps = processRef.current.querySelectorAll('.process-step')
+          gsap.fromTo(
+            steps,
+            { opacity: 0, y: 40 },
+            {
+              opacity: 1, y: 0, duration: 0.7, stagger: 0.15, ease: 'power3.out',
+              scrollTrigger: { trigger: processRef.current, start: 'top 85%' },
+            }
+          )
+        }
 
-      /* Process steps */
-      if (processRef.current) {
-        const steps = processRef.current.querySelectorAll('.process-step')
-        gsap.fromTo(
-          steps,
-          { opacity: 0, y: 40 },
-          {
-            opacity: 1, y: 0, duration: 0.7, stagger: 0.15, ease: 'power3.out',
-            scrollTrigger: { trigger: processRef.current, start: 'top 85%' },
-          }
-        )
-      }
+        /* Testimonial */
+        if (testimonialRef.current) {
+          gsap.fromTo(
+            testimonialRef.current.children,
+            { opacity: 0, y: 30 },
+            {
+              opacity: 1, y: 0, duration: 0.8, ease: 'power3.out',
+              scrollTrigger: { trigger: testimonialRef.current, start: 'top 85%' },
+            }
+          )
+        }
 
-      /* Testimonial */
-      if (testimonialRef.current) {
-        gsap.fromTo(
-          testimonialRef.current.children,
-          { opacity: 0, y: 30 },
-          {
-            opacity: 1, y: 0, duration: 0.8, ease: 'power3.out',
-            scrollTrigger: { trigger: testimonialRef.current, start: 'top 85%' },
-          }
-        )
-      }
+        /* CTA */
+        if (ctaRef.current) {
+          gsap.fromTo(
+            ctaRef.current.children,
+            { opacity: 0, y: 40 },
+            {
+              opacity: 1, y: 0, duration: 0.8, stagger: 0.15, ease: 'power3.out',
+              scrollTrigger: { trigger: ctaRef.current, start: 'top 80%' },
+            }
+          )
+        }
 
-      /* CTA */
-      if (ctaRef.current) {
-        gsap.fromTo(
-          ctaRef.current.children,
-          { opacity: 0, y: 40 },
-          {
-            opacity: 1, y: 0, duration: 0.8, stagger: 0.15, ease: 'power3.out',
-            scrollTrigger: { trigger: ctaRef.current, start: 'top 80%' },
-          }
-        )
-      }
-
-      /* Related services */
-      if (relatedRef.current) {
-        gsap.fromTo(
-          relatedRef.current.children,
-          { opacity: 0, y: 40 },
-          {
-            opacity: 1, y: 0, duration: 0.7, stagger: 0.12, ease: 'power3.out',
-            scrollTrigger: { trigger: relatedRef.current, start: 'top 85%' },
-          }
-        )
-      }
-
-      return () => ctx.revert()
+        /* Related services */
+        if (relatedRef.current) {
+          gsap.fromTo(
+            relatedRef.current.children,
+            { opacity: 0, y: 40 },
+            {
+              opacity: 1, y: 0, duration: 0.7, stagger: 0.12, ease: 'power3.out',
+              scrollTrigger: { trigger: relatedRef.current, start: 'top 85%' },
+            }
+          )
+        }
+      })
     })
 
-    return () => ctx.revert()
+    return () => ctx?.revert()
   }, [])
 
   return (
@@ -372,6 +375,7 @@ export default function Corporate() {
         canonicalPath="/corporate"
         ogImage="/service-corporate.webp"
         hideSiteName
+        preloadHero="/images/corporate-catering-dubai-hero.webp"
         schema={schema as unknown as Record<string, unknown>}
       />
 
@@ -381,6 +385,8 @@ export default function Corporate() {
         subtitle="Impress clients. Reward teams. Elevate every business occasion with premium corporate dining and catering. We reply within 15 minutes during business hours."
         image="/images/corporate-catering-dubai-hero.webp"
         imageAlt="Corporate catering in Dubai"
+        imageWidth={1344}
+        imageHeight={752}
         cta={{ label: 'Get a Corporate Catering Quote', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=corporate' }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Corporate' }]}

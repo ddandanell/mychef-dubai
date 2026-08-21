@@ -7,10 +7,12 @@ import { UtensilsCrossed, PartyPopper, Heart, Building, Ship, Home, Cake, Check,
 import SEO from '../components/SEO'
 import PageHero from '../components/PageHero'
 import TrustSignalStrip from '../components/TrustSignalStrip'
+import GuestCountSelector from '../components/GuestCountSelector'
 import StarterPackagesSection from '@/sections/StarterPackagesSection'
 import FaqAccordion from '../components/FaqAccordion'
 import { plainFaqAnswer } from '../utils/schema'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
+import { deferNonCritical } from '../lib/deferNonCritical'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -265,54 +267,56 @@ export default function Catering() {
   useGSAP(() => {
     if (!containerRef.current) return
 
-    // Hero
+    // Defer below-the-fold ScrollTrigger animations so they do not contend
+    // with LCP/INP during the initial load.
+    deferNonCritical(() => {
+      // Catering format cards
+      gsap.to('.cat-fmt-card', {
+        scrollTrigger: { trigger: '.cat-fmt-grid', start: 'top 85%', toggleActions: 'play none none none' },
+        opacity: 1, y: 0, duration: 0.8, stagger: 0.1, ease: 'power3.out',
+      })
 
-    // Catering format cards
-    gsap.to('.cat-fmt-card', {
-      scrollTrigger: { trigger: '.cat-fmt-grid', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, y: 0, duration: 0.8, stagger: 0.1, ease: 'power3.out',
-    })
+      // Event types
+      gsap.to('.cat-ev-item', {
+        scrollTrigger: { trigger: '.cat-ev-grid', start: 'top 85%', toggleActions: 'play none none none' },
+        opacity: 1, y: 0, duration: 0.7, stagger: 0.08, ease: 'power3.out',
+      })
 
-    // Event types
-    gsap.to('.cat-ev-item', {
-      scrollTrigger: { trigger: '.cat-ev-grid', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, y: 0, duration: 0.7, stagger: 0.08, ease: 'power3.out',
-    })
+      // Included items
+      gsap.to('.cat-inc-item', {
+        scrollTrigger: { trigger: '.cat-inc-grid', start: 'top 85%', toggleActions: 'play none none none' },
+        opacity: 1, x: 0, duration: 0.6, stagger: 0.08, ease: 'power3.out',
+      })
 
-    // Included items
-    gsap.to('.cat-inc-item', {
-      scrollTrigger: { trigger: '.cat-inc-grid', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, x: 0, duration: 0.6, stagger: 0.08, ease: 'power3.out',
-    })
+      // Gallery
+      gsap.to('.cat-gallery-img', {
+        scrollTrigger: { trigger: '.cat-gallery', start: 'top 85%', toggleActions: 'play none none none' },
+        opacity: 1, scale: 1, duration: 0.6, stagger: 0.06, ease: 'power3.out',
+      })
 
-    // Gallery
-    gsap.to('.cat-gallery-img', {
-      scrollTrigger: { trigger: '.cat-gallery', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, scale: 1, duration: 0.6, stagger: 0.06, ease: 'power3.out',
-    })
+      // FAQ
+      gsap.to('.cat-faq-item', {
+        scrollTrigger: { trigger: '.cat-faq', start: 'top 85%', toggleActions: 'play none none none' },
+        opacity: 1, y: 0, duration: 0.5, stagger: 0.08, ease: 'power3.out',
+      })
 
-    // FAQ
-    gsap.to('.cat-faq-item', {
-      scrollTrigger: { trigger: '.cat-faq', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, y: 0, duration: 0.5, stagger: 0.08, ease: 'power3.out',
-    })
+      // Locations
+      gsap.to('.cat-loc-item', {
+        scrollTrigger: { trigger: '.cat-loc-grid', start: 'top 85%', toggleActions: 'play none none none' },
+        opacity: 1, duration: 0.5, stagger: 0.04, ease: 'power3.out',
+      })
 
-    // Locations
-    gsap.to('.cat-loc-item', {
-      scrollTrigger: { trigger: '.cat-loc-grid', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, duration: 0.5, stagger: 0.04, ease: 'power3.out',
-    })
+      // Related
+      gsap.to('.cat-rel-card', {
+        scrollTrigger: { trigger: '.cat-rel-grid', start: 'top 85%', toggleActions: 'play none none none' },
+        opacity: 1, y: 0, duration: 0.8, stagger: 0.1, ease: 'power3.out',
+      })
 
-    // Related
-    gsap.to('.cat-rel-card', {
-      scrollTrigger: { trigger: '.cat-rel-grid', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, y: 0, duration: 0.8, stagger: 0.1, ease: 'power3.out',
-    })
-
-    // CTA
-    gsap.to('.cat-cta', {
-      scrollTrigger: { trigger: '.cat-cta', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, y: 0, duration: 0.7, ease: 'power3.out',
+      // CTA
+      gsap.to('.cat-cta', {
+        scrollTrigger: { trigger: '.cat-cta', start: 'top 85%', toggleActions: 'play none none none' },
+        opacity: 1, y: 0, duration: 0.7, ease: 'power3.out',
+      })
     })
   }, { scope: containerRef })
 
@@ -324,6 +328,7 @@ export default function Catering() {
         canonicalPath="/catering-dubai"
         ogImage="/service-catering.webp"
         hideSiteName
+        preloadHero="/images/catering-dubai-hero.webp"
         schema={{ '@context': 'https://schema.org', '@graph': [schema, breadcrumbSchema, faqPageSchema] }}
       />
 
@@ -333,6 +338,8 @@ export default function Catering() {
         subtitle="Premium event catering across Dubai. From intimate gatherings to grand celebrations — we reply within 15 minutes and coordinate every detail, from menu design to service staff and cleanup."
         image="/images/catering-dubai-hero.webp"
         imageAlt="Elegant catering setup in Dubai"
+        imageWidth={1344}
+        imageHeight={752}
         cta={{ label: 'Get a Catering Quote', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=catering-dubai' }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Catering Dubai' }]}
@@ -362,6 +369,9 @@ export default function Catering() {
           </p>
         </div>
       </section>
+
+      {/* ═══════════════ Guest Count Selector ═══════════════ */}
+      <GuestCountSelector />
 
       {/* ═══════════════ Section 2: Catering Formats ═══════════════ */}
       <section className="bg-white section-padding">

@@ -9,6 +9,7 @@ import PageHero from '@/components/PageHero'
 import TrustSignalStrip from '@/components/TrustSignalStrip'
 import LocationStrip from '@/components/LocationStrip'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
+import { deferNonCritical } from '../lib/deferNonCritical'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -168,54 +169,56 @@ export default function Villas() {
 
   useGSAP(() => {
     const ctx = gsap.context(() => {
-      // Hero
+      // Defer below-the-fold ScrollTrigger animations so they do not contend
+      // with LCP/INP during the initial load.
+      deferNonCritical(() => {
+        // Service cards
+        gsap.from('.villa-service-card', {
+          opacity: 0, y: 50, duration: 0.8, stagger: 0.1, ease: 'power3.out',
+          scrollTrigger: { trigger: '.villa-services-grid', start: 'top 85%', toggleActions: 'play none none none' },
+        })
 
-      // Service cards
-      gsap.from('.villa-service-card', {
-        opacity: 0, y: 50, duration: 0.8, stagger: 0.1, ease: 'power3.out',
-        scrollTrigger: { trigger: '.villa-services-grid', start: 'top 85%', toggleActions: 'play none none none' },
-      })
+        // Community cards
+        gsap.from('.community-card', {
+          opacity: 0, y: 50, duration: 0.8, stagger: 0.1, ease: 'power3.out',
+          scrollTrigger: { trigger: '.communities-grid', start: 'top 85%', toggleActions: 'play none none none' },
+        })
 
-      // Community cards
-      gsap.from('.community-card', {
-        opacity: 0, y: 50, duration: 0.8, stagger: 0.1, ease: 'power3.out',
-        scrollTrigger: { trigger: '.communities-grid', start: 'top 85%', toggleActions: 'play none none none' },
-      })
+        // Villa location cards
+        gsap.from('.villa-location-card', {
+          opacity: 0, y: 50, duration: 0.8, stagger: 0.1, ease: 'power3.out',
+          scrollTrigger: { trigger: '.villa-locations-grid', start: 'top 85%', toggleActions: 'play none none none' },
+        })
 
-      // Villa location cards
-      gsap.from('.villa-location-card', {
-        opacity: 0, y: 50, duration: 0.8, stagger: 0.1, ease: 'power3.out',
-        scrollTrigger: { trigger: '.villa-locations-grid', start: 'top 85%', toggleActions: 'play none none none' },
-      })
+        // Experience features
+        gsap.from('.exp-feature', {
+          opacity: 0, y: 40, duration: 0.7, stagger: 0.1, ease: 'power3.out',
+          scrollTrigger: { trigger: '.exp-features-grid', start: 'top 85%', toggleActions: 'play none none none' },
+        })
 
-      // Experience features
-      gsap.from('.exp-feature', {
-        opacity: 0, y: 40, duration: 0.7, stagger: 0.1, ease: 'power3.out',
-        scrollTrigger: { trigger: '.exp-features-grid', start: 'top 85%', toggleActions: 'play none none none' },
-      })
+        // Villa features
+        gsap.from('.villa-feature', {
+          opacity: 0, y: 30, duration: 0.6, stagger: 0.12, ease: 'power3.out',
+          scrollTrigger: { trigger: '.villa-features-grid', start: 'top 85%', toggleActions: 'play none none none' },
+        })
 
-      // Villa features
-      gsap.from('.villa-feature', {
-        opacity: 0, y: 30, duration: 0.6, stagger: 0.12, ease: 'power3.out',
-        scrollTrigger: { trigger: '.villa-features-grid', start: 'top 85%', toggleActions: 'play none none none' },
-      })
+        // Gallery
+        gsap.from('.gallery-item', {
+          opacity: 0, y: 30, duration: 0.6, stagger: 0.08, ease: 'power3.out',
+          scrollTrigger: { trigger: '.gallery-grid', start: 'top 85%', toggleActions: 'play none none none' },
+        })
 
-      // Gallery
-      gsap.from('.gallery-item', {
-        opacity: 0, y: 30, duration: 0.6, stagger: 0.08, ease: 'power3.out',
-        scrollTrigger: { trigger: '.gallery-grid', start: 'top 85%', toggleActions: 'play none none none' },
-      })
+        // Testimonial
+        gsap.from('.villa-testimonial', {
+          opacity: 0, y: 30, duration: 0.8, ease: 'power3.out',
+          scrollTrigger: { trigger: '.villa-testimonial', start: 'top 85%', toggleActions: 'play none none none' },
+        })
 
-      // Testimonial
-      gsap.from('.villa-testimonial', {
-        opacity: 0, y: 30, duration: 0.8, ease: 'power3.out',
-        scrollTrigger: { trigger: '.villa-testimonial', start: 'top 85%', toggleActions: 'play none none none' },
-      })
-
-      // CTA
-      gsap.from('.villas-cta-content', {
-        opacity: 0, y: 30, duration: 0.8, ease: 'power3.out',
-        scrollTrigger: { trigger: '.villas-cta-section', start: 'top 85%', toggleActions: 'play none none none' },
+        // CTA
+        gsap.from('.villas-cta-content', {
+          opacity: 0, y: 30, duration: 0.8, ease: 'power3.out',
+          scrollTrigger: { trigger: '.villas-cta-section', start: 'top 85%', toggleActions: 'play none none none' },
+        })
       })
     }, containerRef)
 
@@ -229,6 +232,7 @@ export default function Villas() {
         description="Private chef and villa catering in Dubai for Palm Jumeirah, Emirates Hills & Arabian Ranches. Bespoke menus, vetted chefs, full setup. Get a quote."
         canonicalPath="/villas-private-residences"
         ogImage="/service-villa.webp"
+        preloadHero="/images/villa-catering-dubai-hero.webp"
         schema={{ ...schema, ...breadcrumbSchema, ...faqPageSchema }}
       />
 
@@ -239,6 +243,8 @@ export default function Villas() {
         subtitle="Tell us about your villa stay or special occasion and we will bring you a vetted private chef in Dubai. From one-night dinners to full-time residential chef services — exceptional dining without leaving home. We reply within 15 minutes during business hours."
         image="/images/villa-catering-dubai-hero.webp"
         imageAlt="Villa private chef in Dubai"
+        imageWidth={1344}
+        imageHeight={752}
         cta={{ label: 'Plan My Villa Dining', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=villas-private-residences' }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Villas & Private Residences' }]}
