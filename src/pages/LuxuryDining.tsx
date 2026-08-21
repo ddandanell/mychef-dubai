@@ -107,18 +107,18 @@ const galleryImages = [
 ]
 
 const occasionTags = [
-  'Anniversaries',
-  'Marriage Proposals',
-  'Birthday Celebrations',
-  'Engagement Dinners',
-  "Valentine's Day",
-  'Eid Celebrations',
-  'Christmas Dinner',
-  "New Year's Eve",
-  'Corporate Entertainment',
-  'Client Hosting',
-  'Family Reunions',
-  'Graduation Celebrations',
+  { label: 'Anniversaries', link: '/anniversary-catering-dubai' },
+  { label: 'Marriage Proposals', link: '/proposal-dinner-dubai' },
+  { label: 'Birthday Celebrations', link: '/birthday-catering-dubai' },
+  { label: 'Engagement Dinners', link: '/engagement-catering-dubai' },
+  { label: "Valentine's Day", link: '/valentines-day-catering-dubai' },
+  { label: 'Eid Celebrations', link: '/eid-catering-dubai' },
+  { label: 'Christmas Dinner', link: '/christmas-catering-dubai' },
+  { label: "New Year's Eve", link: '/new-year-catering-dubai' },
+  { label: 'Corporate Entertainment', link: '/corporate' },
+  { label: 'Client Hosting', link: '/corporate' },
+  { label: 'Family Reunions', link: '/reunion-catering-dubai' },
+  { label: 'Graduation Celebrations', link: '/graduation-catering-dubai' },
 ]
 
 const faqs = [
@@ -443,12 +443,13 @@ export default function LuxuryDining() {
 
           <div className="ld-tags flex flex-wrap justify-center gap-3">
             {occasionTags.map((tag, i) => (
-              <span
+              <Link
                 key={i}
-                className="ld-tag bg-white border border-gray-200 px-5 py-2.5 font-inter text-sm text-black opacity-0 scale-90"
+                to={tag.link}
+                className="ld-tag bg-white border border-gray-200 px-5 py-2.5 font-inter text-sm text-black hover:bg-gold hover:border-gold transition-all duration-300 opacity-0 scale-90"
               >
-                {tag}
-              </span>
+                {tag.label}
+              </Link>
             ))}
           </div>
         </div>

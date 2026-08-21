@@ -220,7 +220,7 @@ export default function BookingProtectionInsurance() {
             Clear policies, backup chef cover, liability insurance, and fair cancellation terms — so you can book your private chef or catering event with confidence.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 bpi-hero-cta">Request a Proposal</Link>
+            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 bpi-hero-cta">Get a Tailored Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -371,7 +371,7 @@ export default function BookingProtectionInsurance() {
             Get a clear written proposal with deposit, cancellation, and insurance details for your private chef or catering event in Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Request a Proposal</Link>
+            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Get a Tailored Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

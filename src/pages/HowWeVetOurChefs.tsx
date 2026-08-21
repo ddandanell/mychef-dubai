@@ -224,7 +224,7 @@ export default function HowWeVetOurChefs() {
             Trust begins with rigorous standards. Every chef in the myCHEF Dubai network passes identity checks, practical assessments, reference verification, and ongoing performance reviews.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 vet-hero-cta">Request a Proposal</Link>
+            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 vet-hero-cta">Get a Tailored Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -381,7 +381,7 @@ export default function HowWeVetOurChefs() {
             Every myCHEF Dubai chef is verified, assessed, and reviewed. Tell us about your event and we will bring you the right chef.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Request a Proposal</Link>
+            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Get a Tailored Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

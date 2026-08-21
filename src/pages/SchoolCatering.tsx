@@ -310,7 +310,7 @@ export default function SchoolCatering() {
             Nutritious, balanced student meals across Dubai — halal as standard, allergen-aware, and delivered through reliable daily programmes that support healthy, focused learning.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=school-catering-dubai" className="btn-primary opacity-0 translate-y-4 sch-hero-cta">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=school-catering-dubai" className="btn-primary opacity-0 translate-y-4 sch-hero-cta">Get a Tailored Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -522,7 +522,7 @@ export default function SchoolCatering() {
             Tell us about your school, your numbers, and any dietary requirements, and we'll design a nutritious, halal, allergen-aware catering programme that supports every student through the school day.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=school-catering-dubai" className="btn-primary">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=school-catering-dubai" className="btn-primary">Get a Tailored Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

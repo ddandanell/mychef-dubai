@@ -360,7 +360,7 @@ export default function Gallery() {
                 to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=gallery"
                 className="btn-primary"
               >
-                Request a Proposal
+                Get a Tailored Quote
               </Link>
               <a
                 href={WHATSAPP_LINK}

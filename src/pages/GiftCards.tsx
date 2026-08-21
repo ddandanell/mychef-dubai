@@ -340,7 +340,7 @@ export default function GiftCards() {
             Give the gift of an unforgettable meal. myCHEF Dubai gift cards for private chef dinners, cooking classes, and luxury dining experiences.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=gift-cards" className="btn-primary opacity-0 translate-y-4 gc-hero-cta">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=gift-cards" className="btn-primary opacity-0 translate-y-4 gc-hero-cta">Get a Tailored Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -575,7 +575,7 @@ export default function GiftCards() {
             Give more than a meal — give a memory. Request a personalized gift card or voucher proposal today.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=gift-cards" className="btn-primary">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=gift-cards" className="btn-primary">Get a Tailored Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

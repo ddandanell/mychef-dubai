@@ -278,7 +278,7 @@ export default function VIPClub() {
             Priority access, exclusive menus, and member-only perks for Dubai’s most discerning hosts.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=vip-club" className="btn-primary opacity-0 translate-y-4 vip-hero-cta">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=vip-club" className="btn-primary opacity-0 translate-y-4 vip-hero-cta">Get a Tailored Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

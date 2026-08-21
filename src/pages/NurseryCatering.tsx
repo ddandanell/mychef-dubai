@@ -298,7 +298,7 @@ export default function NurseryCatering() {
             Soft, balanced meals for young children across Dubai — allergen-safe, halal as standard, and prepared to hygiene-first standards that give staff and parents complete peace of mind.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=nursery-catering-dubai" className="btn-primary opacity-0 translate-y-4 nur-hero-cta">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=nursery-catering-dubai" className="btn-primary opacity-0 translate-y-4 nur-hero-cta">Get a Tailored Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -510,7 +510,7 @@ export default function NurseryCatering() {
             Tell us about your nursery, your numbers, and any allergen or dietary requirements, and we'll design a soft, balanced, halal catering programme prepared with the care and hygiene young children deserve.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=nursery-catering-dubai" className="btn-primary">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=nursery-catering-dubai" className="btn-primary">Get a Tailored Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

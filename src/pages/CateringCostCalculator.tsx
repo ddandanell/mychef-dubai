@@ -255,7 +255,7 @@ export default function CateringCostCalculator() {
             to="/inquiry?utm_source=mychef.ae&utm_medium=calculator_cta&utm_campaign=cost-calculator"
             className="btn-primary inline-flex items-center gap-2"
           >
-            Request a Proposal <ArrowRight size={16} />
+            Get a Tailored Quote <ArrowRight size={16} />
           </Link>
         </div>
       </section>

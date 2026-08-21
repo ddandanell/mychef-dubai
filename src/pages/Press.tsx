@@ -246,7 +246,7 @@ export default function Press() {
               to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=press"
               className="btn-primary inline-flex items-center gap-2"
             >
-              Request a Proposal
+              Get a Tailored Quote
             </Link>
             <a
               href={WHATSAPP_LINK}
