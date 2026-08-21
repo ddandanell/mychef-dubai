@@ -18,6 +18,7 @@ import {
 import SEO from '../components/SEO'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import FaqAccordion from '../components/FaqAccordion'
+import LocationStrip from '../components/LocationStrip'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { eventSchema } from '../utils/schema'
 
@@ -564,6 +565,8 @@ export default function NewYearCatering() {
           </div>
         </div>
       </section>
+
+      <LocationStrip title="New Year's Eve catering across Dubai" />
 
       {/* ═══════════════ Section 12: Final CTA ═══════════════ */}
       <section className="bg-gradient-to-b from-charcoal to-black py-20">

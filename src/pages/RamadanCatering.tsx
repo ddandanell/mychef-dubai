@@ -16,6 +16,7 @@ import {
 import SEO from '../components/SEO'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import FaqAccordion from '../components/FaqAccordion'
+import LocationStrip from '../components/LocationStrip'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { eventSchema } from '../utils/schema'
 
@@ -533,6 +534,8 @@ export default function RamadanCatering() {
           </p>
         </div>
       </section>
+
+      <LocationStrip title="Ramadan catering across Dubai" />
 
       {/* ═══════════════ Section 10: CTA Banner ═══════════════ */}
       <section className="bg-gradient-to-b from-charcoal to-black py-20">
