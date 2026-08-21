@@ -23,6 +23,7 @@ import {
   Sprout,
 } from 'lucide-react'
 import SEO from '../components/SEO'
+import LocationStrip from '../components/LocationStrip'
 import PageHero from '../components/PageHero'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
@@ -375,6 +376,8 @@ export default function Cuisines() {
           <FaqAccordion items={faqs} />
         </div>
       </section>
+
+      <LocationStrip title="Cuisine-led catering across Dubai" />
 
       {/* ═══════════════ Final CTA ═══════════════ */}
       <section className="cuisines-cta bg-gradient-to-b from-black to-charcoal py-20">

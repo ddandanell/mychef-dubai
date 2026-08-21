@@ -5,6 +5,7 @@ import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import { Phone, ArrowRight, ChevronRight, Check, Gift } from 'lucide-react'
 import SEO from '../components/SEO'
+import LocationStrip from '../components/LocationStrip'
 import PageHero from '../components/PageHero'
 import StarterPackagesSection from '../sections/StarterPackagesSection'
 import TrustSignalStrip from '../components/TrustSignalStrip'
@@ -331,6 +332,8 @@ export default function CateringPackages() {
           </div>
         </div>
       </section>
+
+      <LocationStrip title="Catering packages delivered across Dubai" />
 
       {/* ═══════════════ Final CTA ═══════════════ */}
       <section className="packages-cta bg-gradient-to-b from-black to-charcoal py-20">

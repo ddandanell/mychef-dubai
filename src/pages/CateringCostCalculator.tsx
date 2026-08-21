@@ -4,6 +4,7 @@ import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import { Calculator, Users, UtensilsCrossed, ArrowRight, Info } from 'lucide-react'
 import SEO from '@/components/SEO'
+import LocationStrip from '@/components/LocationStrip'
 import PageHero from '@/components/PageHero'
 import { breadcrumbSchema } from '@/utils/schema'
 
@@ -240,6 +241,8 @@ export default function CateringCostCalculator() {
           </div>
         </div>
       </section>
+
+      <LocationStrip title="Catering cost estimates for every Dubai area" />
 
       {/* CTA */}
       <section className="bg-black py-20 md:py-28">
