@@ -198,10 +198,11 @@ export default function ProposalDinner() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Proposal Dinner Dubai | Private Chef"
-        description="Plan an unforgettable proposal dinner in Dubai with a private chef, personalised menu, floral styling, photography coordination, and perfect timing."
+        title="Proposal Dinner Dubai | Private Chef from AED 1,200 | myCHEF"
+        description="Plan an unforgettable proposal dinner in Dubai with a private chef, personalised menu, floral styling, photography coordination, and perfect timing. Get a quote in 15 minutes."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/romantic-dinner-dubai-hero.webp"
+        hideSiteName
         schema={schema}
       />
 
@@ -229,7 +230,7 @@ export default function ProposalDinner() {
             Private chef, personalised menu, flowers, candles, and perfect timing — so you can focus on the question while your chef handles everything else.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 pd-hero-cta">Plan My Proposal Dinner</Link>
+            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 pd-hero-cta">Plan Proposal Dinner</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -262,7 +263,7 @@ export default function ProposalDinner() {
               From the first course to the moment you get down on one knee, we manage the pacing, the styling, and the coordination with photographers and florists. You arrive as a guest; we make sure the evening unfolds exactly as you imagined.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              Browse <Link to="/romantic-dinner-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">romantic dinners</Link>, <Link to="/villas-private-residences" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">villa dining</Link>, or <Link to="/yachts" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">yacht catering</Link> for more private celebration ideas.
+              Browse <Link to="/romantic-dinner-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">romantic dinners</Link>, <Link to="/luxury-dining-experiences" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury dining experiences</Link>, <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef service</Link>, or <Link to="/villas-private-residences" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">villa dining</Link> for more private celebration ideas.
             </p>
           </div>
         </div>
@@ -400,7 +401,7 @@ export default function ProposalDinner() {
             Tell us your story, your partner's tastes, and your dream setting. We will design a proposal dinner worthy of the moment.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Plan My Proposal Dinner</Link>
+            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Plan Proposal Dinner</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

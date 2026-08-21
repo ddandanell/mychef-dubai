@@ -266,10 +266,11 @@ export default function ProductionCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Production Catering Dubai | TV & Photo Crews"
-        description="Production catering in Dubai for TV, photo, and event shoots — daily crew meals, craft services, early calls, and full dietary coverage. Request your custom quote today."
+        title="Production Catering Dubai | TV, Photo & Event Crews | myCHEF"
+        description="Production catering in Dubai for TV, photo & event crews — daily meals, craft services, early calls & full dietary coverage. Timed to your schedule. Get a quote."
         canonicalPath="/production-catering-dubai"
         ogImage="/service-catering.webp"
+        hideSiteName
         schema={schema}
       />
 
@@ -291,13 +292,13 @@ export default function ProductionCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 prod-hero-h1">
-            Production Catering in Dubai
+            Production Catering Dubai — TV, Photo & Event Crew Meals
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 prod-hero-sub">
             On-location catering for TV, photo, and event productions across Dubai — daily crew meals, craft services, and full dietary coverage that keeps every shoot running on time.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=production-catering-dubai" className="btn-primary opacity-0 translate-y-4 prod-hero-cta">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=production-catering-dubai" className="btn-primary opacity-0 translate-y-4 prod-hero-cta">Get My Production Catering Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -509,7 +510,7 @@ export default function ProductionCatering() {
             Tell us about your shoot — the dates, locations, headcount, and dietary needs — and we'll build a catering plan that keeps your production fed, focused, and on schedule.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=production-catering-dubai" className="btn-primary">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=production-catering-dubai" className="btn-primary">Get My Production Catering Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

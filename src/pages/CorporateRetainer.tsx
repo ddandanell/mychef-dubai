@@ -193,10 +193,11 @@ export default function CorporateRetainer() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Corporate Retainer Catering Dubai"
-        description="myCHEF Dubai corporate retainer programmes for Dubai businesses. Monthly catering credit, priority booking, consolidated invoicing, and dedicated account management."
+        title="Corporate Retainer Dubai | Monthly Catering Credit | myCHEF"
+        description="myCHEF Dubai corporate retainer programmes for Dubai businesses. Monthly catering credit, priority booking, consolidated invoicing, and dedicated account management. Get a quote."
         canonicalPath={CANONICAL_PATH}
         ogImage="/service-corporate.webp"
+        hideSiteName
         schema={schema}
       />
 
@@ -218,13 +219,13 @@ export default function CorporateRetainer() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 cr-hero-h1">
-            Corporate Retainer Catering
+            Corporate Retainer Dubai: Monthly Catering Credit & Priority Booking
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 cr-hero-sub">
             Monthly catering credit, priority scheduling, and a dedicated account manager — designed for Dubai companies that entertain clients and feed teams regularly. Tell us about your monthly rhythm and we will design a retainer plan within 24 hours.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 cr-hero-cta">Request Retainer Info</Link>
+            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 cr-hero-cta">Get My Corporate Retainer Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -258,7 +259,7 @@ export default function CorporateRetainer() {
               For a fixed monthly fee, your team gets a pre-allocated catering credit, priority booking, a dedicated contact, and one consolidated VAT invoice. The process is simple: brief us, confirm the date, and we handle chef selection, ingredients, service, and cleanup.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              Learn more about <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering</Link>, <Link to="/business-lunch-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">business lunches</Link>, or <Link to="/corporate-event-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate events</Link>.
+              Learn more about <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering</Link>, <Link to="/office-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">office catering</Link>, <Link to="/business-lunch-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">business lunches</Link>, or <Link to="/corporate-event-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate events</Link>.
             </p>
           </div>
         </div>
@@ -413,7 +414,7 @@ export default function CorporateRetainer() {
             Tell us about your monthly catering rhythm and we will design a retainer plan that saves time, controls spend, and delivers consistent quality.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Request Retainer Info</Link>
+            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Get My Corporate Retainer Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

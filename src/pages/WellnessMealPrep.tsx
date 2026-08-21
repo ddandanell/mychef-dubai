@@ -187,16 +187,17 @@ export default function WellnessMealPrep() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Wellness Meal Prep Dubai | Nutritionist"
-        description="Wellness meal prep in Dubai by a private chef. Macro-calculated, fitness-focused, and medical-condition-friendly meals. Optional nutritionist consultation."
+        title="Wellness Meal Prep Dubai | Nutritionist-Aligned | myCHEF"
+        description="Wellness meal prep in Dubai by a private chef. Macro-calculated, fitness-focused, and medical-condition-friendly meals. Optional nutritionist consultation. Get a quote."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/healthy-catering-dubai-hero.webp"
+        hideSiteName
         schema={schema}
       />
 
       <PageHero
         eyebrow="HEALTH-FOCUSED MEAL PREP"
-        title="Wellness Meal Prep Dubai"
+        title="Wellness Meal Prep Dubai: Nutritionist-Aligned Private Chef"
         subtitle="Nutritionist-aligned, macro-calculated meals prepared by a private chef in your own kitchen. Tell us about your household and goals — we will bring you a vetted wellness chef and send a tailored quote within 24 hours."
         image="/images/healthy-catering-dubai-hero.webp"
         imageAlt="Wellness meal prep in Dubai"
@@ -319,7 +320,7 @@ export default function WellnessMealPrep() {
         <div className="container-custom text-center wm-fade opacity-0 translate-y-8">
           <h2 className="font-playfair text-h2 text-white mb-4">Start Your Wellness Meal Plan</h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Tell us your goals, dietary needs, and household size. We will bring you a vetted wellness chef and send a tailored quote within 24 hours.
+            Tell us your goals, dietary needs, and household size. We will bring you a vetted wellness chef and send a tailored quote within 24 hours. Also explore <Link to="/healthy-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">healthy catering</Link> and <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef service</Link>.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">

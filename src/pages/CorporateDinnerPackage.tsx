@@ -4,11 +4,11 @@ export default function CorporateDinnerPackage() {
   return (
     <PackagePageTemplate
       name="Corporate Dinner"
-      seoTitle="Corporate Dinner Package Dubai | Boardroom"
-      description="A professional corporate dinner package for 10–15 guests in Dubai. Ideal for boardroom dinners, team celebrations, and client entertainment with multi-course or buffet menus and full service."
+      seoTitle="Corporate Dinner Package Dubai | Boardroom & Team Dining | myCHEF"
+      description="Corporate Dinner Package Dubai: professional private dining for 10–15 guests from AED 4,500. Boardroom dinners, client entertainment, and VAT invoicing. Request a quote."
       canonicalPath="/corporate-dinner-package-dubai"
       ogImage="/images/corporate-catering-dubai-hero.webp"
-      headline="Corporate Dinner Catering Dubai"
+      headline="Corporate Dinner Package Dubai: Boardroom & Team Dining"
       eyebrow="CORPORATE DINING PACKAGE"
       subheadline="Impress clients and reward teams with a polished private dinner delivered to your office or venue in Dubai."
       price="4,500"
@@ -75,6 +75,8 @@ export default function CorporateDinnerPackage() {
       heroImage="/images/corporate-catering-dubai-hero.webp"
       breadcrumbLabel="Corporate Dinner Package Dubai"
       campaign="corporate-dinner-package-dubai"
+      hideSiteName
+      ctaLabel="Plan My Corporate Dinner"
     />
   )
 }

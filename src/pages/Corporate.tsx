@@ -171,7 +171,7 @@ const serviceTiers = [
 const processSteps = [
   { num: '01', title: 'Contact Us', description: 'Reach out with your event details and requirements.' },
   { num: '02', title: 'Menu Planning', description: 'We design a bespoke menu tailored to your occasion.' },
-  { num: '03', title: 'Event Execution', description: 'our chefs delivers flawless service on the day.' },
+  { num: '03', title: 'Event Execution', description: 'Chefs in our network deliver flawless service on the day.' },
   { num: '04', title: 'Follow-Up', description: 'We follow up to ensure everything met your expectations.' },
 ]
 
@@ -368,7 +368,7 @@ export default function Corporate() {
     <>
       <SEO
         title="Corporate Catering Dubai | Office Lunches & Events | From AED 90pp"
-        description="Corporate catering and private dining in Dubai for offices, conferences, product launches & galas. Vetted chefs, halal menus, consolidated invoicing. Get a quote."
+        description="Corporate catering in Dubai for offices, conferences, product launches & galas. VAT/TRN invoicing, halal sourcing, dedicated account manager. Get a quote."
         canonicalPath="/corporate"
         ogImage="/service-corporate.webp"
         hideSiteName
@@ -381,7 +381,7 @@ export default function Corporate() {
         subtitle="Impress clients. Reward teams. Elevate every business occasion with premium corporate dining and catering. We reply within 15 minutes during business hours."
         image="/images/corporate-catering-dubai-hero.webp"
         imageAlt="Corporate catering in Dubai"
-        cta={{ label: 'Get a Corporate Quote', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=corporate' }}
+        cta={{ label: 'Get a Corporate Catering Quote', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=corporate' }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Corporate' }]}
         minHeight="medium"
@@ -504,7 +504,7 @@ export default function Corporate() {
                     </li>
                   ))}
                 </ul>
-                <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=corporate" className="btn-secondary w-full text-center text-sm py-3">Get a Corporate Quote</Link>
+                <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=corporate" className="btn-secondary w-full text-center text-sm py-3">Get a Corporate Catering Quote</Link>
               </div>
             ))}
           </div>
@@ -703,7 +703,7 @@ export default function Corporate() {
               Premium corporate catering that reflects the quality of your brand.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=corporate" className="btn-primary">Get a Corporate Quote</Link>
+              <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=corporate" className="btn-primary">Get a Corporate Catering Quote</Link>
               <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-secondary">
                 Chat on WhatsApp
               </a>

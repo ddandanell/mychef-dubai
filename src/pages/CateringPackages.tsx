@@ -186,7 +186,7 @@ export default function CateringPackages() {
         subtitle="Starter packages for the most popular private chef and catering experiences. Every menu is tailored to your occasion, dietary needs and budget."
         image="/images/catering-packages-dubai-hero.webp"
         imageAlt="Catering packages and event menus in Dubai"
-        cta={{ label: 'Request My Custom Quote', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=catering-packages' }}
+        cta={{ label: 'Get My Catering Package Quote', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=catering-packages' }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Catering Packages Dubai' }]}
         minHeight="tall"
@@ -337,7 +337,7 @@ export default function CateringPackages() {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=catering-packages" className="btn-primary">
-              Request My Custom Quote
+              Get My Catering Package Quote
             </Link>
             <a
               href={WHATSAPP_LINK}

@@ -262,10 +262,11 @@ export default function BrandActivationCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Brand Activation Catering Dubai"
-        description="Create memorable brand activations with experiential catering in Dubai. Sampling stations, themed menus, live chefs & branded food experiences."
+        title="Brand Activation Catering Dubai | Pop-Ups & Sampling | myCHEF"
+        description="Brand activation catering in Dubai for pop-ups, sampling & experiential campaigns. Branded stations, live chefs & halal sourcing. VAT invoicing. Get a quote."
         canonicalPath="/brand-activation-catering-dubai"
         ogImage="/images/brand-activation-catering-dubai-hero.webp"
+        hideSiteName
         schema={schema}
       />
 
@@ -287,13 +288,13 @@ export default function BrandActivationCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 bda-hero-h1">
-            Brand Activation Catering in Dubai
+            Brand Activation Catering Dubai — Pop-Ups, Sampling & Experiential
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 bda-hero-sub">
             Food that stops the scroll. Experiential catering for brand activations, pop-ups, sampling campaigns, and influencer events across Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=brand-activation-catering-dubai" className="btn-primary opacity-0 translate-y-4 bda-hero-cta">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=brand-activation-catering-dubai" className="btn-primary opacity-0 translate-y-4 bda-hero-cta">Get My Brand Activation Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -322,7 +323,7 @@ export default function BrandActivationCatering() {
             Taste, theatre, and shareability are the three ingredients that make a brand activation memorable. When guests can see their food being prepared, interact with your team, and post a moment that looks as good as it tastes, your brand stays with them long after the event ends. At myCHEF Dubai, we create food experiences that align with campaign goals, audience demographics, and the premium expectations of the Dubai market.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            From <Link to="/product-launch-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">product launch catering Dubai</Link> to mall pop-ups and influencer events, our brand activation catering turns tastings into talk-of-the-town moments. Explore our formats below, or see how live chef theatre complements our <Link to="/live-cooking-stations-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">live cooking station hire</Link> and <Link to="/corporate-event-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate event catering</Link>.
+            From <Link to="/product-launch-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">product launch catering Dubai</Link> to mall pop-ups and influencer events, our brand activation catering turns tastings into talk-of-the-town moments. Explore our formats below, or see how it fits within our <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering</Link> and wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>, and how live chef theatre complements our <Link to="/live-cooking-stations-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">live cooking station hire</Link>.
           </p>
         </div>
       </section>
@@ -506,7 +507,7 @@ export default function BrandActivationCatering() {
             Tell us about your campaign, audience, and venue. We'll design an experiential catering concept that turns guests into advocates.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=brand-activation-catering-dubai" className="btn-primary">Request an Activation Quote</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=brand-activation-catering-dubai" className="btn-primary">Get My Brand Activation Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

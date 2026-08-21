@@ -266,10 +266,11 @@ export default function ConferenceCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Conference Dining Dubai | Working Lunches"
-        description="Chef-coordinated conference dining in Dubai with coffee breaks, working lunches, and multi-day refreshments. Timed service and rotating menus — request a quote."
+        title="Conference Catering Dubai | Coffee Breaks & Working Lunches | myCHEF"
+        description="Conference catering in Dubai with coffee breaks, working lunches & multi-day programmes. VAT/TRN invoicing, halal menus, dedicated account manager. Quote in 15 min."
         canonicalPath="/conference-catering-dubai"
         ogImage="/service-corporate.webp"
+        hideSiteName
         schema={schema}
       />
 
@@ -291,13 +292,13 @@ export default function ConferenceCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 conf-hero-h1">
-            Conference Catering in Dubai
+            Conference Catering Dubai — Coffee Breaks, Working Lunches & Multi-Day
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 conf-hero-sub">
             Coffee breaks, working lunches, and multi-day refreshments — timed precisely around your agenda to keep delegates energised across conferences and seminars in Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=conference-catering-dubai" className="btn-primary opacity-0 translate-y-4 conf-hero-cta">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=conference-catering-dubai" className="btn-primary opacity-0 translate-y-4 conf-hero-cta">Get My Conference Catering Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -509,7 +510,7 @@ export default function ConferenceCatering() {
             Share your agenda, delegate numbers, and venue, and we'll build a timed catering plan — coffee breaks, working lunches, and multi-day menus — that keeps your conference running smoothly.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=conference-catering-dubai" className="btn-primary">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=conference-catering-dubai" className="btn-primary">Get My Conference Catering Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

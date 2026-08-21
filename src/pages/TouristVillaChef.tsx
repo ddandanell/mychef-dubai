@@ -95,7 +95,7 @@ const faqs = [
   },
   {
     q: 'Do I need to provide kitchen equipment?',
-    a: 'No. Chefs on our team work with what is available in your villa. If a specific menu requires special equipment, we will discuss it during the pre-arrival briefing.',
+    a: 'No. Chefs in our network work with what is available in your villa. If a specific menu requires special equipment, we will discuss it during the pre-arrival briefing.',
   },
   {
     q: 'Can the chef cater to children or picky eaters?',
@@ -195,10 +195,11 @@ export default function TouristVillaChef() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Tourist Villa Chef Dubai | Multi-Day"
-        description="Tourist villa chef packages in Dubai. Multi-day private chef service for luxury villa rentals, with themed dinners and an Arabic feast finale."
+        title="Tourist Villa Chef Dubai | Multi-Day Private Dining | myCHEF"
+        description="Tourist villa chef packages in Dubai. Multi-day private chef service for luxury villa rentals, with themed dinners and an Arabic feast finale. Get a quote."
         canonicalPath={CANONICAL_PATH}
         ogImage="/service-villa.webp"
+        hideSiteName
         schema={schema}
       />
 
@@ -220,7 +221,7 @@ export default function TouristVillaChef() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 tvc-hero-h1">
-            Your Private Chef for Your Dubai Villa Stay
+            Tourist Villa Chef Dubai: Multi-Day Private Dining
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 tvc-hero-sub">
             Multi-day villa chef packages for visitors who want restaurant-quality dining without leaving their luxury rental. Themed dinners, Arabic feast finale, and zero logistics.
@@ -259,7 +260,7 @@ export default function TouristVillaChef() {
               Menus move through Dubai's best culinary influences and culminate in an Arabic feast that feels like the perfect farewell. We coordinate with villa rental agencies, concierges, and property managers so access and timing are seamless.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              Looking for more ways to dine? Explore <Link to="/villas-private-residences" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">villa dining</Link> or <Link to="/yachts" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">yacht catering</Link> while you are in Dubai.
+              Looking for more ways to dine? Explore <Link to="/villas-private-residences" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">villa dining</Link>, <Link to="/yachts" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">yacht catering</Link>, or our full <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef service</Link> while you are in Dubai.
             </p>
           </div>
         </div>

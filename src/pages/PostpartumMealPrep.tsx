@@ -36,7 +36,7 @@ const features = [
   {
     icon: Leaf,
     title: 'Culturally Appropriate Options',
-    description: 'We understand that postpartum nutrition is deeply cultural. Chefs on our team can prepare Arabic, South Asian, East Asian, Mediterranean, and Western recovery-style meals adapted to your family\'s traditions.',
+    description: 'We understand that postpartum nutrition is deeply cultural. Chefs in our network can prepare Arabic, South Asian, East Asian, Mediterranean, and Western recovery-style meals adapted to your family\'s traditions.',
   },
   {
     icon: Moon,
@@ -76,7 +76,7 @@ const faqs = [
   },
   {
     q: 'Do you provide medical or clinical nutrition advice?',
-    a: 'No. Chefs on our team prepare wholesome, recovery-focused meals based on your preferences and any guidance you provide from your healthcare provider. For clinical conditions, we recommend consulting a licensed nutritionist or doctor.',
+    a: 'No. Chefs in our network prepare wholesome, recovery-focused meals based on your preferences and any guidance you provide from your healthcare provider. For clinical conditions, we recommend consulting a licensed nutritionist or doctor.',
   },
   {
     q: 'Can meals be adapted for the whole family?',
@@ -176,10 +176,11 @@ export default function PostpartumMealPrep() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Postpartum Meal Prep Dubai | Recovery"
-        description="Postpartum meal prep in Dubai by a private chef. Nutrient-dense, culturally appropriate recovery meals for new mothers during the fourth trimester."
+        title="Postpartum Meal Prep Dubai | Recovery Meals | myCHEF"
+        description="Postpartum meal prep in Dubai by a private chef. Nutrient-dense, culturally appropriate recovery meals for new mothers during the fourth trimester. Get a quote."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/weekly-meal-prep-dubai-hero.webp"
+        hideSiteName
         schema={schema}
       />
 
@@ -201,7 +202,7 @@ export default function PostpartumMealPrep() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 ppm-hero-h1">
-            Postpartum Meal Prep for New Mothers
+            Postpartum Meal Prep Dubai: Recovery Meals for New Mothers
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 ppm-hero-sub">
             Nourishing, culturally sensitive recovery meals prepared in your own kitchen — so you can focus on your baby while eating well through the fourth trimester.
@@ -240,7 +241,7 @@ export default function PostpartumMealPrep() {
               A private chef visits your home, prepares multiple days of recovery-focused meals, portions them for easy reheating, and leaves your kitchen clean. If your needs continue beyond the fourth trimester, our <Link to="/weekly-meal-prep-dubai" className="text-gold hover:underline">weekly meal prep</Link> service can keep your household fed without the daily effort.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              We do not provide medical advice, but we do listen carefully to your preferences, your doctor or nutritionist&apos;s guidance, and the traditions that matter to your family. For ongoing health and fitness goals, our <Link to="/wellness-meal-prep-dubai" className="text-gold hover:underline">wellness meal prep</Link> programmes offer nutritionist-aligned support.
+              We do not provide medical advice, but we do listen carefully to your preferences, your doctor or nutritionist&apos;s guidance, and the traditions that matter to your family. For ongoing health and fitness goals, our <Link to="/wellness-meal-prep-dubai" className="text-gold hover:underline">wellness meal prep</Link> programmes offer nutritionist-aligned support. Also see <Link to="/healthy-catering-dubai" className="text-gold hover:underline">healthy catering</Link> and <Link to="/private-chef-dubai" className="text-gold hover:underline">private chef service</Link>.
             </p>
           </div>
         </div>

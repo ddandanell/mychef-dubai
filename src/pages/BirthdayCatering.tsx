@@ -287,10 +287,11 @@ export default function BirthdayCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Birthday Catering Dubai | Kids & Adults | Menus & Prices"
-        description="Birthday party catering in Dubai for kids & adults. Themed menus, custom cakes, grazing tables, mocktail bars & villa service. Get a tailored quote."
+        title="Birthday Catering Dubai | Kids & Adults | Menus & Prices | myCHEF"
+        description="Book birthday catering in Dubai. Themed menus, custom cakes, grazing tables and villa service for kids and adults. Get a tailored quote in 15 minutes."
         canonicalPath="/birthday-catering-dubai"
         ogImage="/service-events.webp"
+        hideSiteName
         schema={schema}
       />
 
@@ -318,7 +319,7 @@ export default function BirthdayCatering() {
             From first birthdays to milestone celebrations — themed menus, custom cakes, dessert tables, and full villa-party service across Dubai for kids and adults alike.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=birthday-catering-dubai" className="btn-primary opacity-0 translate-y-4 bday-hero-cta">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=birthday-catering-dubai" className="btn-primary opacity-0 translate-y-4 bday-hero-cta">Get a Birthday Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -347,10 +348,13 @@ export default function BirthdayCatering() {
             Every birthday deserves to feel like an occasion. At myCHEF Dubai, we design birthday catering around the guest of honour — their age, their theme, and the people gathered to celebrate them. From a child’s playful first party to a glamorous milestone evening, we bring the menu, the cake, the styling, and the service, so the host gets to enjoy the day as much as everyone else.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Whether you are planning an intimate family lunch, a lively kids’ party, or a polished milestone celebration in your villa, our chefs handle every detail from concept to clear-down. Explore our birthday services below, or see how they fit within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
+            Whether you are planning an intimate family lunch, a lively kids’ party, or a polished milestone celebration in your villa, chefs in our network handle every detail from concept to clear-down. Explore our birthday services below, or see how they fit within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mt-5">
             Looking for inspiration? Read our guide to the <Link to="/blog/best-private-chef-birthday-dinner-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">best private chef birthday dinner in Dubai</Link>.
+          </p>
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mt-5">
+            Explore our <Link to="/catering-packages-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">birthday catering packages</Link>, dedicated <Link to="/kids-birthday-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">kids birthday catering</Link>, and the <Link to="/birthday-catering-package-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Birthday Celebration package</Link>.
           </p>
         </div>
       </section>
@@ -533,7 +537,7 @@ export default function BirthdayCatering() {
             Tell us about the celebration and we'll design a menu, cake, and service plan that makes their birthday unforgettable.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=birthday-catering-dubai" className="btn-primary">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=birthday-catering-dubai" className="btn-primary">Get a Birthday Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

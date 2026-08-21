@@ -176,10 +176,11 @@ export default function ChefsTable() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Chef's Table Dubai | Omakase at Home"
-        description="Chef's table and omakase experiences at home in Dubai. Interactive multi-course tasting menus with chef narration for intimate groups of 2–12 guests."
+        title="Chef's Table Dubai | Omakase at Home | myCHEF"
+        description="Chef's table and omakase experiences at home in Dubai. Interactive multi-course tasting menus with chef narration for intimate groups of 2–12 guests. Get a quote."
         canonicalPath={CANONICAL_PATH}
         ogImage="/service-luxury-dining.webp"
+        hideSiteName
         schema={schema}
       />
 
@@ -200,7 +201,7 @@ export default function ChefsTable() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 ct-hero-h1">
-            Chef's Table & Omakase at Home
+            Chef's Table Dubai: Omakase & Tasting Menus at Home
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 ct-hero-sub">
             Interactive multi-course tasting experiences where the chef becomes part of the evening. For Dubai hosts who want dinner and entertainment in one.
@@ -238,7 +239,7 @@ export default function ChefsTable() {
               We offer two main formats: the classic chef's table, where the chef narrates a multi-course tasting menu, and omakase, where the chef chooses the progression based on the freshest ingredients and your preferences. Both are intimate, memorable, and highly shareable.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              Explore <Link to="/sushi-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">sushi catering</Link>, <Link to="/tasting-menu-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">tasting menus</Link>, or <Link to="/luxury-dining-experiences" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury dining experiences</Link>.
+              Explore <Link to="/sushi-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">sushi catering</Link>, <Link to="/tasting-menu-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">tasting menus</Link>, <Link to="/luxury-dining-experiences" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury dining experiences</Link>, or <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef service</Link>.
             </p>
           </div>
         </div>

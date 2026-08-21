@@ -5,18 +5,20 @@ import type { OccasionPageConfig } from './occasion/OccasionCateringPage'
 
 const config: OccasionPageConfig = {
   slug: 'kids-birthday-catering-dubai',
-  seoTitle: "Kids Birthday Catering Dubai | Party Food",
+  seoTitle: "Kids Birthday Catering Dubai | Safe, Fun Party Food | myCHEF",
   metaDescription:
-    'Kids birthday party catering in Dubai: nut-free, allergy-aware menus, fun food stations, themed treats and full setup. Request a custom party quote today.',
+    'Book kids birthday catering in Dubai. Nut-free, allergy-aware menus, fun food stations, themed treats and full setup. Get a quote in 15 minutes.',
   canonicalPath: '/kids-birthday-catering-dubai',
   ogImage: '/images/kids-birthday-catering-dubai-hero.webp',
   breadcrumbLabel: 'Kids Birthday Catering Dubai',
-  h1: 'Kids Birthday Catering in Dubai',
+  h1: 'Kids Birthday Catering Dubai: Safe, Fun Party Food',
   heroSub:
     'Stress-free kids birthday party catering across Dubai: safe, fun menus, allergy-aware options, interactive food stations and full service so parents can enjoy the party too.',
   heroImage: '/images/kids-birthday-catering-dubai-hero.webp',
   whatsappMessage:
     "Hi myCHEF Dubai, I'd like to plan kids birthday catering in Dubai (via mychef.ae/kids-birthday-catering-dubai)",
+  hideSiteName: true,
+  primaryCta: 'Plan My Kids Birthday',
   eyebrow: 'KIDS PARTY CATERING IN DUBAI',
   introH2: 'Birthday Parties That Parents & Kids Both Enjoy',
   introNodes: (
@@ -29,11 +31,18 @@ const config: OccasionPageConfig = {
         <Link to="/birthday-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           birthday catering Dubai
         </Link>{' '}
-        service, or explore safe{' '}
+        service, explore safe{' '}
         <Link to="/nut-free-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           nut-free catering Dubai
         </Link>{' '}
-        options for school-age guests.
+        options for school-age guests, or view our{' '}
+        <Link to="/birthday-catering-package-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
+          Birthday Celebration package
+        </Link>{' '}
+        and{' '}
+        <Link to="/catering-packages-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
+          catering packages
+        </Link>.
       </p>
     </>
   ),
@@ -97,7 +106,7 @@ const config: OccasionPageConfig = {
     {
       title: 'Themed Celebrations',
       description:
-        'From unicorn tea parties to football-themed lunches, our chefs and styling team can match colours, shapes and flavours to the birthday theme without sacrificing food quality.',
+        'From unicorn tea parties to football-themed lunches, chefs in our network and styling team can match colours, shapes and flavours to the birthday theme without sacrificing food quality.',
     },
   ],
   includedH2: "What's Included in Our Kids Birthday Catering",

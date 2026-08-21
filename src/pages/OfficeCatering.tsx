@@ -74,7 +74,7 @@ const includedItems = [
   { title: 'Single Point of Contact', description: 'One account contact who knows your office, preferences, and schedule.' },
   { title: 'Flexible Headcount', description: 'Scale daily covers up or down as your team size and needs change.' },
   { title: 'Predictable Invoicing', description: 'Clear, consolidated billing on a weekly or monthly retainer cycle.' },
-  { title: 'On-Site Set-Up', description: 'Buffet styling, labelling, and tidy pack-down handled by our chefs.' },
+  { title: 'On-Site Set-Up', description: 'Buffet styling, labelling, and tidy pack-down handled by chefs in our network.' },
   { title: 'Quality Ingredients', description: 'Fresh produce and proteins prepared to a high standard every service.' },
 ]
 
@@ -273,10 +273,11 @@ export default function OfficeCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Office Catering Dubai | Daily Lunches"
-        description="Office catering in Dubai with daily lunches, breakfast spreads, and recurring retainers for DIFC and Business Bay teams. Reliable delivery and clear billing. Request a quote."
+        title="Office Catering Dubai | Daily Lunches & Retainers | myCHEF"
+        description="Office catering in Dubai for daily lunches, breakfasts & retainers. VAT/TRN invoicing, halal sourcing, dedicated account management. Quote in 15 min."
         canonicalPath="/office-catering-dubai"
         ogImage="/service-corporate.webp"
+        hideSiteName
         schema={schema}
       />
 
@@ -298,13 +299,13 @@ export default function OfficeCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 off-hero-h1">
-            Office Catering in Dubai
+            Office Catering Dubai — Daily Lunches, Breakfasts & Retainers
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 off-hero-sub">
             Daily office lunches, breakfast spreads, and recurring catering retainers for teams across DIFC, Business Bay, and the wider Dubai business districts.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=office-catering-dubai" className="btn-primary opacity-0 translate-y-4 off-hero-cta">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=office-catering-dubai" className="btn-primary opacity-0 translate-y-4 off-hero-cta">Get My Office Catering Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -331,7 +332,7 @@ export default function OfficeCatering() {
             Well-Fed Teams, Every Working Day
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            A good office lunch does more than feed people — it keeps teams on-site, sharpens the afternoon, and quietly signals that a company looks after its own. The challenge is consistency. Ad-hoc deliveries are unpredictable, repetitive, and surprisingly hard to manage at scale. At myCHEF Dubai, we solve that with a planned, reliable office catering service designed around the rhythm of a working week, from daily lunches and breakfast spreads to full recurring retainers.
+            A good office lunch does more than feed people — it keeps teams on-site, sharpens the afternoon, and quietly signals that a company looks after its own. The challenge is consistency. Ad-hoc deliveries are unpredictable, repetitive, and surprisingly hard to manage at scale. At myCHEF Dubai, we solve that with a planned, reliable office catering service designed around the rhythm of a working week, from daily lunches and breakfast spreads to full <Link to="/corporate-retainer-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">recurring retainers</Link>.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             For offices in DIFC, Business Bay, and across the city, a standing arrangement is the most cost-effective and dependable way to cater. You get a rotating menu your team genuinely looks forward to, a single point of contact who knows your preferences, and consolidated invoicing instead of a stream of individual orders. Explore the formats below, or see how office catering fits within our wider <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering in Dubai</Link>.
@@ -517,7 +518,7 @@ export default function OfficeCatering() {
             Tell us your headcount, schedule, and dietary needs and we'll build a reliable office catering plan — daily, weekly, or on a recurring retainer — with clear, predictable pricing.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=office-catering-dubai" className="btn-primary">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=office-catering-dubai" className="btn-primary">Get My Office Catering Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

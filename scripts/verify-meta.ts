@@ -72,7 +72,12 @@ function extractProps(content: string): Meta | null {
   const titleMatch = content.match(/seoTitle=\{?"([^"]+)"\}?/)
   const descMatch = content.match(/\bdescription=\{?"([^"]+)"\}?/)
   if (titleMatch && descMatch) {
-    return { title: titleMatch[1], description: descMatch[1], source: 'prop' }
+    return {
+      title: titleMatch[1],
+      description: descMatch[1],
+      source: 'prop',
+      hideSiteName: /\bhideSiteName\b/.test(content),
+    }
   }
   return null
 }

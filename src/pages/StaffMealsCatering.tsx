@@ -266,10 +266,11 @@ export default function StaffMealsCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Staff Meals & Team Dining Dubai"
-        description="Chef-coordinated staff meals and team dining in Dubai with daily service, canteen-style menus, and recurring retainers. Halal options and clear billing — request a quote."
+        title="Staff Meals Catering Dubai | Daily Team Meals & Canteens | myCHEF"
+        description="Staff meals catering in Dubai with daily team meals, canteens & retainers. Halal menus, VAT/TRN invoicing, account management. Get a quote."
         canonicalPath="/staff-meals-catering-dubai"
         ogImage="/service-corporate.webp"
+        hideSiteName
         schema={schema}
       />
 
@@ -291,13 +292,13 @@ export default function StaffMealsCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 staff-hero-h1">
-            Staff Meals Catering in Dubai
+            Staff Meals Catering Dubai — Daily Meals, Canteens & Retainers
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 staff-hero-sub">
             Daily team meals, canteen service, and recurring retainers — with fully halal menus, reliable delivery, and predictable billing for workforces across Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=staff-meals-catering-dubai" className="btn-primary opacity-0 translate-y-4 staff-hero-cta">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=staff-meals-catering-dubai" className="btn-primary opacity-0 translate-y-4 staff-hero-cta">Get My Staff Meals Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -326,7 +327,7 @@ export default function StaffMealsCatering() {
             Feeding a workforce well is one of the quieter ways an organisation shows it values its people. A dependable daily meal keeps teams energised, saves staff the hassle of sorting lunch themselves, and builds a small but real sense of being looked after. The challenge at scale is consistency and cost — which is exactly what a planned staff meals service is built to solve. At myCHEF Dubai, we provide reliable team catering designed around the realities of a working operation.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            From daily team meals and managed staff canteens to recurring retainers and shift-based catering, we keep your people well fed without the daily admin. Menus are fully halal and built to a high standard, with balanced and dietary options throughout, and a standing retainer gives you predictable invoicing and one reliable point of contact. Explore the formats below, or see how staff catering fits within our wider <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering in Dubai</Link>.
+            From daily team meals and managed staff canteens to recurring retainers and shift-based catering, we keep your people well fed without the daily admin. Menus are fully halal and built to a high standard, with balanced and dietary options throughout, and a standing retainer gives you predictable invoicing and one reliable point of contact. Explore the formats below, see how staff catering fits within our wider <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering in Dubai</Link>, or browse our <Link to="/corporate-meal-prep-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate meal prep</Link> for portioned workplace programmes.
           </p>
         </div>
       </section>
@@ -509,7 +510,7 @@ export default function StaffMealsCatering() {
             Tell us your headcount, schedule, and dietary needs and we'll build a reliable staff meals plan — daily, canteen, or recurring retainer — with halal menus and clear, predictable pricing.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=staff-meals-catering-dubai" className="btn-primary">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=staff-meals-catering-dubai" className="btn-primary">Get My Staff Meals Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

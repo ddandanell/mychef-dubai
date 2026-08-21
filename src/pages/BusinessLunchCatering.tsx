@@ -267,10 +267,11 @@ export default function BusinessLunchCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Business Lunch Catering Dubai | Boardroom"
-        description="Business lunch catering in Dubai for boardroom meetings, client hosting, and working lunches. Refined plated or buffet service, timed around your agenda. Request a quote today."
+        title="Business Lunch Catering Dubai | Boardroom & Client Meetings | myCHEF"
+        description="Business lunch catering in Dubai for boardroom meetings, client hosting & working lunches. VAT/TRN invoicing, halal sourcing, account management. Quote in 15 min."
         canonicalPath="/business-lunch-catering-dubai"
         ogImage="/service-corporate.webp"
+        hideSiteName
         schema={schema}
       />
 
@@ -292,13 +293,13 @@ export default function BusinessLunchCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 blun-hero-h1">
-            Business Lunch Catering in Dubai
+            Business Lunch Catering Dubai — Boardroom, Client & Working Lunches
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 blun-hero-sub">
             Boardroom lunches, client meeting catering, and efficient working lunches — refined, punctual, and delivered to your office across Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=business-lunch-catering-dubai" className="btn-primary opacity-0 translate-y-4 blun-hero-cta">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=business-lunch-catering-dubai" className="btn-primary opacity-0 translate-y-4 blun-hero-cta">Get My Business Lunch Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -328,7 +329,7 @@ export default function BusinessLunchCatering() {
             A business lunch is rarely just about food. It is a chance to keep a meeting moving, to host a client well, or to give a hard-working team the break they need without losing the thread of the day. Done badly, catering interrupts the room. Done well, it disappears into the background — arriving on time, presented properly, and cleared away just as quietly. That is the standard we hold every business lunch to at myCHEF Dubai.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            From discreet boardroom lunches and polished client hosting to fast, hand-friendly working lunches, we tailor each menu to the setting and the agenda. Firms that host regularly find a standing arrangement saves time and keeps quality consistent, booking after booking. Explore the formats below, or see how business lunches sit within our wider <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering in Dubai</Link>.
+            From discreet boardroom lunches and polished client hosting to fast, hand-friendly working lunches, we tailor each menu to the setting and the agenda. Firms that host regularly find a standing arrangement saves time and keeps quality consistent, booking after booking. Explore the formats below, or see how business lunches sit within our wider <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering in Dubai</Link>, or scale up to <Link to="/corporate-event-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate event catering</Link>.
           </p>
         </div>
       </section>
@@ -511,7 +512,7 @@ export default function BusinessLunchCatering() {
             Tell us about your meeting, your guests, and your timings, and we'll arrange a refined business lunch — one-off or recurring — that keeps the room on track and impresses every guest.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=business-lunch-catering-dubai" className="btn-primary">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=business-lunch-catering-dubai" className="btn-primary">Get My Business Lunch Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

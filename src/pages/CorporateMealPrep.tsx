@@ -38,13 +38,13 @@ const mealPrepFormats = [
     icon: Repeat,
     title: 'Recurring Programmes',
     description: 'Weekly and monthly meal schedules on a reliable rotation, so your people always know good food is arriving without any organising on their part.',
-    link: '/office-catering-dubai',
+    link: '/weekly-meal-prep-dubai',
   },
   {
     icon: HeartPulse,
     title: 'Wellness Retainers',
     description: 'Ongoing wellness-focused menus on a retainer basis, pairing balanced nutrition with the convenience of a managed, repeatable service.',
-    link: '/healthy-catering-dubai',
+    link: '/wellness-meal-prep-dubai',
   },
   {
     icon: Salad,
@@ -266,10 +266,11 @@ export default function CorporateMealPrep() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Corporate Meal Prep Dubai | Team Plans"
-        description="Corporate meal prep in Dubai — recurring portioned meal programmes, wellness retainers, and balanced menus delivered to your workplace. Request your custom quote today."
+        title="Corporate Meal Prep Dubai | Portioned Team Meals & Wellness | myCHEF"
+        description="Corporate meal prep in Dubai — recurring portioned meals, wellness retainers & balanced menus delivered to your workplace. VAT/TRN invoicing. Get a quote."
         canonicalPath="/corporate-meal-prep-dubai"
         ogImage="/service-corporate.webp"
+        hideSiteName
         schema={schema}
       />
 
@@ -291,13 +292,13 @@ export default function CorporateMealPrep() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 cmp-hero-h1">
-            Corporate Meal Prep in Dubai
+            Corporate Meal Prep Dubai — Portioned Meals, Wellness & Retainers
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 cmp-hero-sub">
             Recurring, portioned meal programmes and wellness retainers for teams across Dubai — balanced menus delivered on a reliable schedule, so your people stay energised and good food becomes part of the working week.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=corporate-meal-prep-dubai" className="btn-primary opacity-0 translate-y-4 cmp-hero-cta">Request a Corporate Retainer</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=corporate-meal-prep-dubai" className="btn-primary opacity-0 translate-y-4 cmp-hero-cta">Get My Corporate Meal Prep Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -326,7 +327,7 @@ export default function CorporateMealPrep() {
             Feeding a team well, consistently, is a logistics challenge as much as a culinary one. The value of corporate meal prep is that it removes the organising entirely — balanced, individually portioned meals arrive on a reliable schedule, so your people stay energised and good nutrition becomes a quiet, dependable part of the working week. Tell us about your team size, office days, and dietary priorities, and we will design a tailored programme and confirm availability within 24 hours.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Whether you want a recurring weekly meal plan, a wellness retainer focused on employee wellbeing, or a multi-site programme across departments, we build a managed service around your team — with low-carb, high-protein, vegetarian, and other options covered. Explore our meal prep formats below, or see how it connects with our wider <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering in Dubai</Link> and <Link to="/healthy-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">healthy catering</Link>.
+            Whether you want a <Link to="/weekly-meal-prep-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">recurring weekly meal plan</Link>, a <Link to="/wellness-meal-prep-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">wellness retainer</Link> focused on employee wellbeing, or a multi-site programme across departments, we build a managed service around your team — with low-carb, high-protein, vegetarian, and other options covered. Explore our meal prep formats below, or see how it connects with our wider <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering in Dubai</Link> and <Link to="/healthy-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">healthy catering</Link>.
           </p>
         </div>
       </section>
@@ -509,7 +510,7 @@ export default function CorporateMealPrep() {
             Tell us about your team, your office days, and any dietary needs, and we'll design a recurring, portioned meal programme — wellness-focused and fully managed — that keeps your people well fed week after week.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=corporate-meal-prep-dubai" className="btn-primary">Request a Corporate Retainer</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=corporate-meal-prep-dubai" className="btn-primary">Get My Corporate Meal Prep Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

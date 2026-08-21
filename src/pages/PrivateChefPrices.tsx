@@ -252,10 +252,11 @@ export default function PrivateChefPrices() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Private Chef Prices Dubai | AED 700–950 Per Person"
+        title="Private Chef Prices Dubai | AED 700–950 Per Person | myCHEF"
         description="See 2026 private chef prices in Dubai: per-person costs for 2–20 guests, what's included, and what affects the price. Get a tailored quote in 15 minutes."
         canonicalPath="/private-chef-prices-dubai"
         ogImage="/images/private-chef-prices-dubai-hero.webp"
+        hideSiteName
         schema={schema}
       />
 
@@ -266,7 +267,7 @@ export default function PrivateChefPrices() {
         subtitle="See indicative private chef costs by group size, what affects the price, and what is included — so you can budget with confidence."
         image="/images/private-chef-prices-dubai-hero.webp"
         imageAlt="Private chef prices and menus in Dubai"
-        cta={{ label: 'Request My Custom Quote', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=private-chef-prices' }}
+        cta={{ label: 'Get My Private Chef Quote', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=private-chef-prices' }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Private Chef Prices Dubai' }]}
         minHeight="tall"
@@ -351,7 +352,7 @@ export default function PrivateChefPrices() {
                 to="/inquiry?utm_source=mychef.ae&utm_medium=inline_link&utm_campaign=private-chef-prices"
                 className="inline-flex items-center gap-2 font-inter text-body-sm uppercase tracking-wider text-gold hover:text-gold-light transition-colors"
               >
-                Get My Quote <ArrowRight size={14} />
+                Get My Private Chef Quote <ArrowRight size={14} />
               </Link>
             </div>
           </div>
@@ -476,7 +477,7 @@ export default function PrivateChefPrices() {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=private-chef-prices" className="btn-primary">
-              Request My Custom Quote
+              Get My Private Chef Quote
             </Link>
             <a
               href={WHATSAPP_LINK}

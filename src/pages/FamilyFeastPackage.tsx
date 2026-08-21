@@ -4,11 +4,11 @@ export default function FamilyFeastPackage() {
   return (
     <PackagePageTemplate
       name="Family Feast"
-      seoTitle="Family Feast Private Chef Package Dubai"
-      description="A relaxed, generous private chef dinner for 6–8 guests in Dubai. The Family Feast package features sharing-style menus, premium ingredients, and full service so you can enjoy the evening with family and friends."
+      seoTitle="Family Feast Package Dubai | Private Chef Dinner | myCHEF"
+      description="Family Feast Package Dubai: private chef dinner for 6–8 guests from AED 2,400. Sharing-style menus, premium ingredients, and full service. Request a quote."
       canonicalPath="/family-feast-package-dubai"
       ogImage="/images/celebration-catering-dubai-hero.webp"
-      headline="Family Feast Private Chef Dubai"
+      headline="Family Feast Package Dubai: Private Chef Dinner for 6–8"
       eyebrow="FAMILY DINING PACKAGE"
       subheadline="A generous sharing-style dinner for family and friends — prepared in your home and served without the stress."
       price="2,400"
@@ -45,7 +45,7 @@ export default function FamilyFeastPackage() {
         },
         {
           q: 'How much space do you need in my kitchen?',
-          a: 'Chefs on our team are experienced in working in Dubai apartment and villa kitchens of all sizes. We bring any specialised equipment needed.',
+          a: 'Chefs in our network are experienced in working in Dubai apartment and villa kitchens of all sizes. We bring any specialised equipment needed.',
         },
         {
           q: 'Can I increase the guest count?',
@@ -54,16 +54,16 @@ export default function FamilyFeastPackage() {
       ]}
       relatedServices={[
         {
+          title: 'Catering Dubai',
+          description: 'Fully-coordinated catering for family celebrations of any size.',
+          image: '/service-events.webp',
+          link: '/catering-dubai',
+        },
+        {
           title: 'Private Chef Dubai',
           description: 'Bespoke in-home dining for families and celebrations.',
           image: '/service-private-chef.webp',
           link: '/private-chef-dubai',
-        },
-        {
-          title: 'Villa Private Chef',
-          description: 'Private dining at your villa or residence across Dubai.',
-          image: '/service-villa.webp',
-          link: '/villas-private-residences',
         },
         {
           title: 'Catering Packages Dubai',
@@ -75,6 +75,8 @@ export default function FamilyFeastPackage() {
       heroImage="/images/celebration-catering-dubai-hero.webp"
       breadcrumbLabel="Family Feast Package Dubai"
       campaign="family-feast-package-dubai"
+      hideSiteName
+      ctaLabel="Plan My Family Feast"
     />
   )
 }

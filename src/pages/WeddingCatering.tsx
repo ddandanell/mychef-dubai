@@ -293,10 +293,11 @@ export default function WeddingCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Wedding Catering Dubai | Villa, Garden & Venue Receptions"
-        description="Luxury wedding catering in Dubai for villas, gardens & venues. Plated or buffet, multi-cuisine menus, halal, full service. Request a custom proposal."
+        title="Wedding Catering Dubai | Villa, Garden & Venue Receptions | myCHEF"
+        description="Book wedding catering in Dubai. Plated or buffet, multi-cuisine menus, halal, full service. Menus tailored to your event. Get a quote in 15 minutes."
         canonicalPath="/wedding-catering-dubai"
         ogImage="/service-events.webp"
+        hideSiteName
         schema={schema}
       />
 
@@ -324,7 +325,7 @@ export default function WeddingCatering() {
             From intimate villa ceremonies to grand venue receptions — plated dinners, multi-cuisine menus, beautiful styling, and flawless service for your wedding day in Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=wedding-catering-dubai" className="btn-primary opacity-0 translate-y-4 wed-hero-cta">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=wedding-catering-dubai" className="btn-primary opacity-0 translate-y-4 wed-hero-cta">Get a Wedding Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -353,7 +354,7 @@ export default function WeddingCatering() {
             Your wedding deserves a culinary experience as memorable as the day itself. At myCHEF Dubai, we design wedding catering around your love story — the cuisines that mean something to you, the moments you want to savour, and the guests you want to delight. From the welcome canapés to the final slice of cake — finished by our partner <Link to="/chefs/sofia-pastry-chef" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">pastry chef for wedding desserts</Link> — every detail is considered, styled, and executed with quiet precision.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Whether you are planning an intimate villa ceremony, a grand hotel reception, or a multi-day celebration spanning engagement to brunch, we bring in the chef, the service, and the styling — through vetted licensed partners you engage. We work seamlessly with planners and stylists, and pair naturally with our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>. Explore our wedding services below.
+            Whether you are planning an intimate villa ceremony, a grand hotel reception, or a multi-day celebration spanning engagement to brunch, we bring in the chef, the service, and the styling — through vetted licensed partners you engage. We work seamlessly with planners and stylists, and pair naturally with our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>. Explore our <Link to="/wedding-catering-menu-planning-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">wedding menu planning guide</Link>, <Link to="/dubai-catering-prices-guide" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Dubai catering prices guide</Link>, and <Link to="/venue-partners" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">venue partners</Link>.
           </p>
         </div>
       </section>
@@ -552,7 +553,7 @@ export default function WeddingCatering() {
             Share your vision and we'll craft a bespoke menu, service plan, and styling to make your wedding day unforgettable.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=wedding-catering-dubai" className="btn-primary">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=wedding-catering-dubai" className="btn-primary">Get a Wedding Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

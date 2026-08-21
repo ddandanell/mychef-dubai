@@ -47,6 +47,8 @@ interface PackagePageTemplateProps {
   heroImage: string
   breadcrumbLabel: string
   campaign: string
+  hideSiteName?: boolean
+  ctaLabel?: string
 }
 
 export default function PackagePageTemplate({
@@ -69,6 +71,8 @@ export default function PackagePageTemplate({
   heroImage,
   breadcrumbLabel,
   campaign,
+  hideSiteName = false,
+  ctaLabel = 'Request This Package',
 }: PackagePageTemplateProps) {
   const containerRef = useRef<HTMLDivElement>(null)
 
@@ -118,6 +122,7 @@ export default function PackagePageTemplate({
         description={description}
         canonicalPath={canonicalPath}
         ogImage={ogImage}
+        hideSiteName={hideSiteName}
         schema={schema}
       />
 
@@ -127,7 +132,7 @@ export default function PackagePageTemplate({
         subtitle={subheadline}
         image={heroImage}
         imageAlt={`${name} package in Dubai`}
-        cta={{ label: 'Request This Package', href: WHATSAPP_LINK, external: true }}
+        cta={{ label: ctaLabel, href: WHATSAPP_LINK, external: true }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: breadcrumbLabel }]}
         minHeight="tall"
@@ -162,7 +167,7 @@ export default function PackagePageTemplate({
                 className="btn-primary inline-flex items-center gap-2"
               >
                 <Phone size={16} />
-                Request This Package
+                {ctaLabel}
               </a>
             </div>
             <div className="bg-black p-8 md:p-10">
@@ -275,7 +280,7 @@ export default function PackagePageTemplate({
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-primary inline-flex items-center gap-2">
               <Phone size={16} />
-              Request This Package
+              {ctaLabel}
             </a>
             <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${campaign}`} className="btn-secondary">
               Send an Inquiry

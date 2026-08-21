@@ -278,10 +278,11 @@ export default function BachelorPartyCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Bachelor Party Catering Dubai | Grills"
-        description="Bachelor party catering in Dubai with live BBQ grills, premium meats, and cocktail bar service for yacht and villa parties. Request a custom proposal today."
+        title="Bachelor Party Catering Dubai | Yacht, Villa & BBQ | myCHEF"
+        description="Book bachelor party catering in Dubai. Live BBQ grills, premium meats, cocktails and full service for yacht and villa send-offs. Get a quote in 15 minutes."
         canonicalPath="/bachelor-party-catering-dubai"
         ogImage="/service-events.webp"
+        hideSiteName
         schema={schema}
       />
 
@@ -303,13 +304,13 @@ export default function BachelorPartyCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 bp-hero-h1">
-            Bachelor Party Catering in Dubai
+            Bachelor Party Catering Dubai: Yacht, Villa & BBQ
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[600px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 bp-hero-sub">
             Live grills, premium cuts, and full cocktail service for the send-off. Catering built for yacht charters, villa takeovers, and unforgettable nights across Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=bachelor-party-catering-dubai" className="btn-primary opacity-0 translate-y-4 bp-hero-cta">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=bachelor-party-catering-dubai" className="btn-primary opacity-0 translate-y-4 bp-hero-cta">Plan My Bachelor Party</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -338,10 +339,13 @@ export default function BachelorPartyCatering() {
             A bachelor party deserves more than a table booking. Whether the crew is taking over a villa, chartering a yacht through Dubai Marina, or holding court on a rooftop, the food should match the occasion. Our bachelor party catering brings the grill, the bar, and the chefs straight to you, so the celebration never has to pause for a reservation.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            We lean into bold, carnivore-forward menus: dry-aged steaks, wagyu sliders, slow-smoked brisket, and lamb chops seared over live flame. Pair them with signature cocktails poured by professional bartenders and you have a setup designed for a long night with a great group. Every detail is planned with you in advance and available for Dubai events of all sizes. Browse our wider{' '}
-            <Link to="/catering-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">catering in Dubai</Link>{' '}
-            or jump straight to a{' '}
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=bachelor-party-catering-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">Request a Proposal</Link>.
+            We lean into bold, carnivore-forward menus: dry-aged steaks, wagyu sliders, slow-smoked brisket, and lamb chops seared over live flame. Pair them with signature cocktails poured by professional bartenders and you have a setup designed for a long night with a great group. Every detail is planned with you in advance and available for Dubai events of all sizes. Browse our{' '}
+            <Link to="/yachts" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">yacht catering</Link>,{' '}
+            <Link to="/cocktail-party-catering-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">cocktail party catering</Link>,{' '}
+            or full{' '}
+            <Link to="/party-catering-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">party catering Dubai</Link>{' '}
+            range, or jump straight to a{' '}
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=bachelor-party-catering-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">Plan My Bachelor Party</Link>.
           </p>
         </div>
       </section>
@@ -531,7 +535,7 @@ export default function BachelorPartyCatering() {
             Tell us the date, the venue, and the group — we will build the grill, the bar, and the menu around it.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=bachelor-party-catering-dubai" className="btn-primary">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=bachelor-party-catering-dubai" className="btn-primary">Plan My Bachelor Party</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

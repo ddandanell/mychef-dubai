@@ -80,7 +80,7 @@ const faqs = [
   },
   {
     q: 'Is the chef employed by myCHEF or by me?',
-    a: 'Chefs are independent culinary professionals in our professional team. MyCHEF matches, coordinates, and manages quality assurance. Employment or freelance contracting terms are agreed transparently between you and the chef, with our support.',
+    a: 'Chefs in our network are independent culinary professionals. MyCHEF matches, coordinates, and manages quality assurance. Employment or freelance contracting terms are agreed transparently between you and the chef, with our support.',
   },
   {
     q: 'Can I try a part-time chef before committing?',
@@ -176,10 +176,11 @@ export default function PartTimePrivateChef() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Part-Time Private Chef Dubai | 2–3 Days"
-        description="Hire a part-time private chef in Dubai for 2–3 days per week. Meal planning, shopping, cooking, and cleanup — regular support without full-time placement."
+        title="Part-Time Private Chef Dubai | 2–3 Days Per Week | myCHEF"
+        description="Hire a part-time private chef in Dubai for 2–3 days per week. Meal planning, shopping, cooking, and cleanup — regular support without full-time placement. Get a quote."
         canonicalPath={CANONICAL_PATH}
         ogImage="/service-private-chef.webp"
+        hideSiteName
         schema={schema}
       />
 
@@ -200,13 +201,13 @@ export default function PartTimePrivateChef() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 pt-hero-h1">
-            Part-Time Private Chef for Your Home
+            Part-Time Private Chef Dubai: 2–3 Days Per Week
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 pt-hero-sub">
             Regular chef support 2–3 days per week — meal planning, shopping, cooking, and cleanup — without the cost or commitment of a full-time placement.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 pt-hero-cta">Find a Part-Time Chef</Link>
+            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 pt-hero-cta">Get My Part-Time Chef Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -238,7 +239,7 @@ export default function PartTimePrivateChef() {
               This is the highest-LTV segment in the private chef market. Families who book a chef 2–3 times per week generate predictable, recurring revenue and build long-term relationships with one trusted cook.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              Compare with <Link to="/weekly-meal-prep-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">weekly meal prep</Link> or <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">occasional private chef</Link> services to find the right rhythm for your household.
+              Compare with <Link to="/weekly-meal-prep-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">weekly meal prep</Link>, <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">occasional private chef</Link> services, or see <Link to="/private-chef-prices-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef prices in Dubai</Link> to find the right rhythm for your household.
             </p>
           </div>
         </div>
@@ -346,7 +347,7 @@ export default function PartTimePrivateChef() {
             Tell us your schedule, household size, and dietary needs. We will bring you a vetted chef who fits your rhythm and your budget.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Find a Part-Time Chef</Link>
+            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Get My Part-Time Chef Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

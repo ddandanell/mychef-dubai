@@ -136,7 +136,7 @@ const faqs = [
   },
   {
     q: 'Can you create a custom cocktail menu for our event?',
-    a: 'Absolutely. Our chefs design signature cocktails and mocktails to match your event theme, season, and guest preferences.',
+    a: 'Absolutely. Our bartenders design signature cocktails and mocktails to match your event theme, season, and guest preferences.',
   },
   {
     q: 'Do you offer non-alcoholic / mocktail bars?',
@@ -272,10 +272,11 @@ export default function BarServices() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Premium Bar Services Dubai | Hire Bartenders"
-        description="Hire bartenders and mobile bar services in Dubai for weddings, yachts, villas, and corporate events. Cocktails, mocktails & premium service."
+        title="Bar Services Dubai | Bartender Hire & Mobile Bars | myCHEF"
+        description="Bar services in Dubai — hire bartenders, mobile bars & custom cocktails for villas, yachts, weddings & corporate events. Zero-proof menus available. Get a quote."
         canonicalPath="/bar-services-dubai"
         ogImage="/images/bar-services-dubai-hero.webp"
+        hideSiteName
         schema={schema}
       />
 
@@ -297,13 +298,13 @@ export default function BarServices() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 bar-hero-h1">
-            Premium Bar Services & Bartender Hire in Dubai
+            Bar Services Dubai — Bartender Hire, Mobile Bars & Cocktails
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 bar-hero-sub">
             Mobile bartenders, custom cocktails, and full bar setups for villas, yachts, weddings, and corporate events.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=bar-services-dubai" className="btn-primary opacity-0 translate-y-4 bar-hero-cta">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=bar-services-dubai" className="btn-primary opacity-0 translate-y-4 bar-hero-cta">Get My Bar Services Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -332,7 +333,7 @@ export default function BarServices() {
             Premium bar service is about more than drinks — it shapes the atmosphere of your entire event. At myCHEF Dubai, we bring trained bartenders, curated menus, and elegant mobile bars to villas, yachts, venues, and private residences across the city. Whether your guests prefer classic cocktails, creative mocktails, or a fully alcohol-free bar, we design the experience around them.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            From intimate villa dinners to large-scale corporate galas, our bar team delivers polished service, fresh ingredients, and a setup that looks as good as the drinks taste. Explore our formats below, or browse our dedicated <Link to="/mocktail-bar-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">non-alcoholic mocktail bar catering</Link> for an inclusive, zero-proof option.
+            From intimate villa dinners to large-scale corporate galas, our bar team delivers polished service, fresh ingredients, and a setup that looks as good as the drinks taste. Explore our formats below, browse our <Link to="/cocktail-party-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">cocktail party catering</Link>, or see our dedicated <Link to="/mocktail-bar-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">non-alcoholic mocktail bar catering</Link> for an inclusive, zero-proof option.
           </p>
         </div>
       </section>
@@ -550,7 +551,7 @@ export default function BarServices() {
             Add a premium bar to your event. Tell us about your celebration and we'll design a custom bar setup and drinks menu that fits your guests and venue perfectly.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=bar-services-dubai" className="btn-primary">Request a Custom Bar Quote</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=bar-services-dubai" className="btn-primary">Get My Bar Services Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
