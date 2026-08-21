@@ -16,6 +16,7 @@ import {
 } from 'lucide-react'
 import SEO from '../components/SEO'
 import TrustSignalStrip from '../components/TrustSignalStrip'
+import CorporateTrustStrip from '../components/CorporateTrustStrip'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 
@@ -301,10 +302,11 @@ export default function CorporateEventCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Corporate Event Dining Dubai | Galas"
-        description="Chef-coordinated corporate events in Dubai for product launches, galas, networking receptions, and conferences. myCHEF designs menus and manages service — request a quote."
+        title="Corporate Event Catering Dubai | Galas, Launches & Conferences | myCHEF"
+        description="Corporate event catering in Dubai for product launches, galas, networking & conferences. VAT/TRN invoicing, halal sourcing, account management. Quote in 15 min."
         canonicalPath="/corporate-event-catering-dubai"
         ogImage="/service-corporate.webp"
+        hideSiteName
         schema={schema}
       />
 
@@ -326,13 +328,13 @@ export default function CorporateEventCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 cev-hero-h1">
-            Corporate Event Catering in Dubai
+            Corporate Event Catering Dubai — Launches, Galas & Conferences
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 cev-hero-sub">
             Product launches, galas, networking receptions, and conferences — styled menus, professional service, and full coordination for corporate events across Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=corporate-event-catering-dubai" className="btn-primary opacity-0 translate-y-4 cev-hero-cta">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=corporate-event-catering-dubai" className="btn-primary opacity-0 translate-y-4 cev-hero-cta">Get My Corporate Event Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -347,6 +349,7 @@ export default function CorporateEventCatering() {
       </section>
 
       <TrustSignalStrip variant="dark" />
+      <CorporateTrustStrip variant="dark" />
 
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
@@ -361,7 +364,7 @@ export default function CorporateEventCatering() {
             A corporate event is a reflection of the organisation behind it. Whether you are launching a product, hosting a gala, or running a networking evening, guests read everything — including the food, the service, and how smoothly it all comes together. Catering that looks considered and runs flawlessly reinforces your brand; catering that feels like an afterthought undermines it. At myCHEF Dubai, we treat every corporate event as a chance to make the right impression.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            From styled canapé receptions for launches to elegant plated galas and full conference programmes, we design the menu, provide the service team, and coordinate the timing end to end. Organisations with a busy events calendar find a standing relationship invaluable — we already know your brand and standards, so each event is faster to plan and reliably consistent. Explore the formats below, or see the wider <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering in Dubai</Link> we provide. We also offer specialised <Link to="/production-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">production catering in Dubai</Link> for TV, photo and event crews.
+            From styled canapé receptions for launches to elegant plated galas and full conference programmes, we design the menu, provide the service team, and coordinate the timing end to end. Organisations with a busy events calendar find a standing relationship invaluable — we already know your brand and standards, so each event is faster to plan and reliably consistent. Explore the formats below, or see the wider <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering in Dubai</Link> we provide. For delegate-facing programmes, see our <Link to="/conference-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">conference catering</Link>, or browse set options on our <Link to="/catering-packages-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">catering packages</Link> page. We also offer specialised <Link to="/production-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">production catering in Dubai</Link> for TV, photo and event crews.
           </p>
         </div>
       </section>
@@ -544,7 +547,7 @@ export default function CorporateEventCatering() {
             Tell us about your event, your brand, and your guests, and we'll design a styled menu and service plan — launch, gala, or conference — coordinated end to end across Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=corporate-event-catering-dubai" className="btn-primary">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=corporate-event-catering-dubai" className="btn-primary">Get My Corporate Event Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

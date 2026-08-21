@@ -278,10 +278,11 @@ export default function AnniversaryCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Anniversary Dinner Catering Dubai"
-        description="Anniversary dinner catering in Dubai with romantic private-chef dinners at home, multi-course tasting menus, and celebration desserts. Request a custom proposal today."
+        title="Anniversary Dinner Catering Dubai | Private Chef & Tasting Menus | myCHEF"
+        description="Book anniversary dinner catering in Dubai. Romantic private-chef menus, multi-course tasting dinners and celebration desserts at home. Get a quote in 15 minutes."
         canonicalPath="/anniversary-catering-dubai"
         ogImage="/service-luxury-dining.webp"
+        hideSiteName
         schema={schema}
       />
 
@@ -303,13 +304,13 @@ export default function AnniversaryCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 an-hero-h1">
-            Anniversary Dinner Catering in Dubai
+            Anniversary Dinner Catering Dubai: Private Chef & Tasting Menus
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[600px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 an-hero-sub">
             Romantic private-chef dinners at home, multi-course tasting menus, and celebration desserts. Intimate anniversary dining brought to your villa or home across Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=anniversary-catering-dubai" className="btn-primary opacity-0 translate-y-4 an-hero-cta">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=anniversary-catering-dubai" className="btn-primary opacity-0 translate-y-4 an-hero-cta">Plan My Anniversary</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -338,10 +339,13 @@ export default function AnniversaryCatering() {
             An anniversary deserves more than another night out. There is something quietly special about celebrating in your own space, with a chef cooking just for you and no table to vacate by a certain hour. Our anniversary dinner catering brings a dedicated private chef to your home or villa, preparing a romantic multi-course menu and serving it course by course while you simply enjoy the evening together.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Whether it is an intimate dinner for two or a larger milestone gathering with family, every menu is designed around your tastes, paced for conversation, and finished with a celebration dessert to mark the occasion. Our chefs handle the setup, the service, and the cleanup, available for Dubai homes and villas of every size. Explore our{' '}
-            <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">private chef service</Link>{' '}
-            or request a{' '}
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=anniversary-catering-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">Request a Proposal</Link>.
+            Whether it is an intimate dinner for two or a larger milestone gathering with family, every menu is designed around your tastes, paced for conversation, and finished with a celebration dessert to mark the occasion. Chefs in our network handle the setup, the service, and the cleanup, available for Dubai homes and villas of every size. Explore our{' '}
+            <Link to="/luxury-dining-experiences" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">luxury dining experiences</Link>,{' '}
+            <Link to="/romantic-dinner-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">romantic dinner Dubai</Link>{' '}
+            or{' '}
+            <Link to="/proposal-dinner-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">proposal dinner Dubai</Link>{' '}
+            options, or request a{' '}
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=anniversary-catering-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">Plan My Anniversary</Link>.
           </p>
         </div>
       </section>
@@ -529,7 +533,7 @@ export default function AnniversaryCatering() {
             Share the date and your tastes — we will bring the chef, the menu, and the celebration to your table.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=anniversary-catering-dubai" className="btn-primary">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=anniversary-catering-dubai" className="btn-primary">Plan My Anniversary</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

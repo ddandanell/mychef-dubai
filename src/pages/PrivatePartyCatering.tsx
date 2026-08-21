@@ -51,7 +51,7 @@ const partyFormats = [
   {
     icon: Utensils,
     title: 'Plated & Buffet Dining',
-    description: 'When you want a seated moment — refined plated courses or generous buffet stations served by our chefs.',
+    description: 'When you want a seated moment — refined plated courses or generous buffet stations served by chefs in our network.',
   },
   {
     icon: Users,
@@ -62,7 +62,7 @@ const partyFormats = [
 
 const includedItems = [
   { title: 'Bespoke Party Menu', description: 'A menu designed around your guests, theme, and the feel of the evening.' },
-  { title: 'On-Site Chefs', description: 'our chefs cook and finishes dishes live at your venue.' },
+  { title: 'On-Site Chefs', description: 'Chefs in our network cook and finish dishes live at your venue.' },
   { title: 'Live Cooking Stations', description: 'Interactive grills, carving, and made-to-order stations as you like.' },
   { title: 'Bar & Mixology', description: 'Cocktails, mocktails, and bartender service styled to your party.' },
   { title: 'Service & Hosting Staff', description: 'Discreet, polished waiters and hosts to look after every guest.' },
@@ -331,10 +331,11 @@ export default function PrivatePartyCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Private Party Catering Dubai | Home & Villa"
-        description="Private party catering in Dubai for villas and homes — live cooking stations, canapés, cocktails, and full-service staff. Bespoke menus, flawless setup and service."
+        title="Private Party Catering Dubai | Home & Villa Events | myCHEF"
+        description="Book private party catering in Dubai. Live cooking stations, canapés, cocktails and full service for home and villa events. Get a tailored quote in 15 minutes."
         canonicalPath="/private-party-catering-dubai"
         ogImage="/service-villa.webp"
+        hideSiteName
         schema={schema}
       />
 
@@ -358,13 +359,13 @@ export default function PrivatePartyCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 ppc-hero-h1">
-            Private Party Catering in Dubai
+            Private Party Catering Dubai: Home & Villa Events
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 ppc-hero-sub">
             Villa and home parties brought to life — live cooking stations, passed canapés, signature cocktails, and a full team of chefs and service staff, all handled for you.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=private-party-catering-dubai" className="btn-primary opacity-0 translate-y-4 ppc-hero-cta">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=private-party-catering-dubai" className="btn-primary opacity-0 translate-y-4 ppc-hero-cta">Plan My Private Party</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -393,7 +394,7 @@ export default function PrivatePartyCatering() {
             The best private parties feel effortless — for the guests and, just as importantly, for the host. At myCHEF Dubai, we bring everything a great party needs directly to your villa or home: a private chef, partner chefs, live cooking stations, a styled bar, and attentive service staff who look after every detail from the first welcome drink to the final clear-down.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Whether you are planning an intimate dinner, a lively cocktail reception, or a large celebration spilling across the garden and terrace, we design the menu and service around your space and your guests. Private party catering sits within our broader <Link to="/party-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">party catering in Dubai</Link> and our full <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering service</Link>.
+            Whether you are planning an intimate dinner, a lively cocktail reception, or a large celebration spilling across the garden and terrace, we design the menu and service around your space and your guests. Private party catering sits within our broader <Link to="/party-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">party catering in Dubai</Link> and our full <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering service</Link>. Explore <Link to="/canape-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">canapé catering</Link> and <Link to="/live-cooking-stations-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">live cooking stations</Link> for more formats.
           </p>
         </div>
       </section>
@@ -572,7 +573,7 @@ export default function PrivatePartyCatering() {
             Tell us about your party and your space, and we'll design the menu, bar, and service to bring it all together.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=private-party-catering-dubai" className="btn-primary">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=private-party-catering-dubai" className="btn-primary">Plan My Private Party</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

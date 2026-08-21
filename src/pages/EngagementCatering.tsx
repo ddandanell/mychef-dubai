@@ -280,10 +280,11 @@ export default function EngagementCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Engagement Party Catering Dubai"
-        description="Engagement party catering in Dubai with refined plated dinners, canape receptions, and dessert tables for intimate villa celebrations. Request a custom proposal today."
+        title="Engagement Party Catering Dubai | Villa & Canapé Receptions | myCHEF"
+        description="Book engagement party catering in Dubai. Plated dinners, canapé receptions, dessert tables and bar service for villas and venues. Get a quote in 15 minutes."
         canonicalPath="/engagement-catering-dubai"
         ogImage="/service-luxury-dining.webp"
+        hideSiteName
         schema={schema}
       />
 
@@ -305,13 +306,13 @@ export default function EngagementCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 en-hero-h1">
-            Engagement Party Catering in Dubai
+            Engagement Party Catering Dubai: Villa & Canapé Receptions
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[600px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 en-hero-sub">
             Refined plated dinners, sophisticated canape receptions, and styled dessert tables. Elegant catering for intimate villa engagement celebrations across Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=engagement-catering-dubai" className="btn-primary opacity-0 translate-y-4 en-hero-cta">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=engagement-catering-dubai" className="btn-primary opacity-0 translate-y-4 en-hero-cta">Plan My Engagement</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -340,10 +341,13 @@ export default function EngagementCatering() {
             An engagement party is a chance to gather the people who matter most and celebrate the start of something new. Whether you are hosting an intimate dinner for close family or a larger reception for friends, the catering sets the tone for the evening. Our engagement party catering brings refined plated dinners, sophisticated canape receptions, and beautifully styled dessert tables to your chosen venue across Dubai.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Each menu is designed around your taste, your theme, and your guest list, with elegant table styling, attentive service, and a polished bar to mark every toast. Our chefs handle the setup, serves throughout, and clears it all away, available for Dubai celebrations of every size. Explore our wider{' '}
-            <Link to="/catering-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">catering in Dubai</Link>{' '}
+            Each menu is designed around your taste, your theme, and your guest list, with elegant table styling, attentive service, and a polished bar to mark every toast. Chefs in our network handle the setup, serve throughout, and clear it all away, available for Dubai celebrations of every size. Explore our wider{' '}
+            <Link to="/catering-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">catering in Dubai</Link>,{' '}
+            <Link to="/wedding-catering-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">wedding catering</Link>{' '}
+            or{' '}
+            <Link to="/luxury-dining-experiences" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">luxury dining experiences</Link>,{' '}
             or request a{' '}
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=engagement-catering-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">Request a Proposal</Link>.
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=engagement-catering-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">Plan My Engagement</Link>.
           </p>
         </div>
       </section>
@@ -531,7 +535,7 @@ export default function EngagementCatering() {
             Share the date, the venue, and your vision — we will craft the menu, the styling, and the service around it.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=engagement-catering-dubai" className="btn-primary">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=engagement-catering-dubai" className="btn-primary">Plan My Engagement</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

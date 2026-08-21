@@ -5,13 +5,14 @@ import type { ServicePageConfig } from './shared/ServiceLandingPage'
 
 const config: ServicePageConfig = {
   slug: 'exhibition-catering-dubai',
-  seoTitle: 'Exhibition Dining Dubai | DWTC & Expo City',
+  seoTitle: 'Exhibition Catering Dubai | DWTC, Expo City & Trade Shows | myCHEF',
   metaDescription:
-    'Chef-coordinated exhibition dining in Dubai for DWTC, Expo City and venues across the city. Branded counters, canapés, coffee stations and staffed stands for exhibitors and organisers.',
+    'Exhibition catering in Dubai for DWTC, Expo City & trade show stands. Branded counters, canapés, coffee stations & halal menus. VAT/TRN invoicing. Get a quote.',
   canonicalPath: '/exhibition-catering-dubai',
   ogImage: '/service-events.webp',
   breadcrumbLabel: 'Exhibition Catering Dubai',
-  h1: 'Exhibition & Trade Show Catering in Dubai',
+  hideSiteName: true,
+  h1: 'Exhibition Catering Dubai — DWTC, Expo City & Trade Show Stands',
   heroSub:
     'Reliable, high-volume catering for exhibitors, organisers and trade show visitors at Dubai World Trade Centre, Expo City and major exhibition venues across the emirate.',
   heroImage: '/service-events.webp',
@@ -29,8 +30,12 @@ const config: ServicePageConfig = {
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
         Exhibition catering sits within our wider{' '}
-        <Link to="/corporate-event-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
-          corporate event catering Dubai
+        <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
+          corporate catering
+        </Link>{' '}
+        and{' '}
+        <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
+          luxury catering in Dubai
         </Link>{' '}
         offering. For product launches and brand activations, see our{' '}
         <Link to="/brand-activation-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
@@ -177,6 +182,7 @@ const config: ServicePageConfig = {
   ctaH2: 'Plan Exhibition Catering That Works as Hard as Your Stand',
   ctaP:
     'Tell us your venue, stand size and visitor numbers. We will design an exhibition catering package that keeps your team energised and your guests impressed.',
+  primaryCta: 'Get My Exhibition Catering Quote',
   showTrustSignalStrip: true,
 }
 

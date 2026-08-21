@@ -288,10 +288,11 @@ export default function WeeklyMealPrep() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Weekly Meal Prep Dubai | Private Chef"
-        description="Weekly meal prep in Dubai by a private chef. Fresh, portioned meals prepared in your home. Starting from AED 1,898/week. Halal, healthy, and fully customised."
+        title="Weekly Meal Prep Dubai | Private Chef from AED 1,898 | myCHEF"
+        description="Weekly meal prep in Dubai by a private chef. Fresh, portioned meals prepared in your home. Starting from AED 1,898/week. Halal, healthy, and fully customised. Get a quote."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/weekly-meal-prep-dubai-hero.webp"
+        hideSiteName
         schema={schema}
       />
 
@@ -313,13 +314,13 @@ export default function WeeklyMealPrep() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 wmp-hero-h1">
-            Weekly Meal Prep by a Private Chef in Dubai
+            Weekly Meal Prep Dubai: Fresh Meals by a Private Chef
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 wmp-hero-sub">
             Fresh, portioned meals prepared in your own kitchen each week — so you can eat well, save time, and skip the takeout cycle. We reply within 15 minutes during business hours.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 wmp-hero-cta">Get a Meal Prep Quote</Link>
+            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 wmp-hero-cta">Get My Meal Prep Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -352,7 +353,7 @@ export default function WeeklyMealPrep() {
               Unlike mass-market meal plans, this is fully bespoke. Your chef designs a rotating menu, sources premium ingredients, cooks in your home, packages everything cleanly, and leaves your kitchen spotless. The result is a fridge full of restaurant-quality meals that simply need reheating — whether you are feeding a family, an athlete, or a household with specific dietary needs. For strict allergen protocols, explore our <Link to="/allergy-safe-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">allergy-safe catering in Dubai</Link>.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              If you are comparing options, you may also be interested in our <Link to="/corporate-meal-prep-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate meal prep programmes</Link> or the full <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef experience in Dubai</Link>. For menu inspiration, explore our <Link to="/menus" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">bespoke menus</Link>.
+              If you are comparing options, you may also be interested in our <Link to="/wellness-meal-prep-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">wellness meal prep</Link>, <Link to="/corporate-meal-prep-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate meal prep programmes</Link>, or the full <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef experience in Dubai</Link>. For menu inspiration, explore our <Link to="/menus" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">bespoke menus</Link>.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mt-5">
               Deciding between weekly prep and a full-time chef? Read our comparison of <Link to="/blog/weekly-meal-prep-vs-full-time-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">weekly meal prep vs full-time chef in Dubai</Link>.
@@ -432,7 +433,7 @@ export default function WeeklyMealPrep() {
                   ))}
                 </ul>
                 <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=pricing_card&utm_campaign=${CAMPAIGN}`} className="btn-primary text-center w-full">
-                  Request Custom Quote
+                  Get My Meal Prep Quote
                 </Link>
               </div>
             ))}
@@ -572,7 +573,7 @@ export default function WeeklyMealPrep() {
             Tell us about your household, dietary needs, and preferred cuisines, and we will design a private chef meal prep plan that fits your week.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Get a Meal Prep Quote</Link>
+            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Get My Meal Prep Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

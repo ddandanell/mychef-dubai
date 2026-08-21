@@ -84,7 +84,7 @@ const faqs = [
   },
   {
     q: 'What cuisines can be made macro-friendly?',
-    a: 'Almost any. Chefs on our team regularly prepare macro-balanced Middle Eastern, Mediterranean, Asian, Indian, and Western meals. We adapt recipes rather than strip them of flavour.',
+    a: 'Almost any. Chefs in our network regularly prepare macro-balanced Middle Eastern, Mediterranean, Asian, Indian, and Western meals. We adapt recipes rather than strip them of flavour.',
   },
   {
     q: 'How much does fitness meal prep cost?',
@@ -176,10 +176,11 @@ export default function FitnessMealPrep() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Fitness Meal Prep Dubai | Macro Meals"
-        description="Fitness meal prep in Dubai by a private chef. Macro-calculated, calorie-precision meals for fat loss, muscle gain, and athletic performance."
+        title="Fitness Meal Prep Dubai | Macro Meals | myCHEF"
+        description="Fitness meal prep in Dubai by a private chef. Macro-calculated, calorie-precision meals for fat loss, muscle gain, and athletic performance. Get a quote."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/healthy-catering-dubai-hero.webp"
+        hideSiteName
         schema={schema}
       />
 
@@ -201,7 +202,7 @@ export default function FitnessMealPrep() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 fm-hero-h1">
-            Fitness Meal Prep by a Private Chef
+            Fitness Meal Prep Dubai: Macro-Calculated Meals
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 fm-hero-sub">
             Macro-calculated, calorie-precision meals prepared in your own kitchen — designed around your training programme and body composition goals.
@@ -240,7 +241,7 @@ export default function FitnessMealPrep() {
               Our fitness meal prep service pairs you with a private chef who prepares macro-calculated meals in your own kitchen. No more weighing food, no more bland containers, no more falling off plan because the healthy option was too hard to find. If you need broader nutritionist-aligned support, explore our <Link to="/wellness-meal-prep-dubai" className="text-gold hover:underline">Wellness Meal Prep</Link> programme.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              We do not write your nutrition plan — we execute it. Share your targets or your coach's guidance and we will build a weekly menu that hits your numbers and tastes like real food. For recurring household coverage, see <Link to="/weekly-meal-prep-dubai" className="text-gold hover:underline">Weekly Meal Prep Dubai</Link>.
+              We do not write your nutrition plan — we execute it. Share your targets or your coach's guidance and we will build a weekly menu that hits your numbers and tastes like real food. For recurring household coverage, see <Link to="/weekly-meal-prep-dubai" className="text-gold hover:underline">Weekly Meal Prep Dubai</Link> or our full <Link to="/private-chef-dubai" className="text-gold hover:underline">private chef service</Link>.
             </p>
           </div>
         </div>

@@ -94,7 +94,7 @@ const packages = [
 const faqs = [
   {
     q: 'Can menus accommodate allergies and intolerances?',
-    a: 'Yes. We design around allergies, intolerances, and religious dietary requirements. Chefs on our team follow strict cross-contamination protocols and label every container clearly.',
+    a: 'Yes. We design around allergies, intolerances, and religious dietary requirements. Chefs in our network follow strict cross-contamination protocols and label every container clearly.',
   },
   {
     q: 'Do you handle picky eaters?',
@@ -198,10 +198,11 @@ export default function KidsNutritionChef() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Kids Nutrition Chef Dubai | Family Meals"
-        description="Hire a kids nutrition chef in Dubai. myCHEF Dubai creates balanced, child-friendly meals designed around allergies, growth, and family routines."
+        title="Kids Nutrition Chef Dubai | Healthy Family Meals | myCHEF"
+        description="Hire a kids nutrition chef in Dubai. myCHEF Dubai creates balanced, child-friendly meals designed around allergies, growth, and family routines. Get a quote."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/private-chef-dubai-hero.webp"
+        hideSiteName
         schema={schema}
       />
 
@@ -223,7 +224,7 @@ export default function KidsNutritionChef() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 kn-hero-h1">
-            Kids Nutrition Chef Dubai
+            Kids Nutrition Chef Dubai: Healthy Meals Children Love
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 kn-hero-sub">
             Healthy, delicious meals designed for children — and approved by parents. From school lunches to family dinners, we make nutrition easy.
@@ -262,7 +263,7 @@ export default function KidsNutritionChef() {
               Whether you need packed lunches for the week, balanced family dinners, or a full meal-prep service, we work around your schedule and your children's needs. Every menu is reviewed with parents, prepared with care, and delivered ready to serve.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              Explore more family-friendly options: <Link to="/weekly-meal-prep-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">weekly meal prep</Link>, <Link to="/allergy-safe-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">allergy-safe catering</Link>, or <Link to="/family-feast-package-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">family feast packages</Link>.
+              Explore more family-friendly options: <Link to="/weekly-meal-prep-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">weekly meal prep</Link>, <Link to="/allergy-safe-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">allergy-safe catering</Link>, <Link to="/family-feast-package-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">family feast packages</Link>, or <Link to="/birthday-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">birthday catering</Link>.
             </p>
           </div>
         </div>

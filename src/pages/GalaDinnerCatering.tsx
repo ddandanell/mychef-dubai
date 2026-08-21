@@ -253,10 +253,11 @@ export default function GalaDinnerCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Gala Dinner Dining Dubai | Formal Events"
-        description="Chef-coordinated gala dinner experiences in Dubai for awards nights, charity balls, and corporate galas. Multi-course menus and white-glove service."
+        title="Gala Dinner Catering Dubai | Awards & Charity Balls | myCHEF"
+        description="Gala dinner catering in Dubai for awards nights, charity balls & formal celebrations. Multi-course menus, white-glove service & VAT invoicing. Get a quote."
         canonicalPath="/gala-dinner-catering-dubai"
         ogImage="/images/gala-dinner-catering-dubai-hero.webp"
+        hideSiteName
         schema={schema}
       />
 
@@ -278,13 +279,13 @@ export default function GalaDinnerCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 gala-hero-h1">
-            Gala Dinners Worthy of the Occasion
+            Gala Dinner Catering Dubai — Awards, Charity Balls & Formal Celebrations
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 gala-hero-sub">
             Refined catering for awards nights, charity galas, and formal celebrations across distinguished Dubai venues.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=gala-dinner-catering-dubai" className="btn-primary opacity-0 translate-y-4 gala-hero-cta">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=gala-dinner-catering-dubai" className="btn-primary opacity-0 translate-y-4 gala-hero-cta">Get My Gala Dinner Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -310,11 +311,14 @@ export default function GalaDinnerCatering() {
             The Importance of Gala Catering
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            A gala is a statement. From the moment guests arrive to the final course, every detail should reflect the prestige of the occasion. At myCHEF Dubai, we deliver gala dinner catering that matches the elegance of the venue, the formality of the dress code, and the ambition of the event itself. Our chefs design multi-course menus, curates sommelier-style beverage service, and fields polished front-of-house teams trained for black-tie occasions.
+            A gala is a statement. From the moment guests arrive to the final course, every detail should reflect the prestige of the occasion. At myCHEF Dubai, we deliver gala dinner catering that matches the elegance of the venue, the formality of the dress code, and the ambition of the event itself. Chefs in our network design multi-course menus and curate sommelier-style beverage service, while polished front-of-house teams trained for black-tie occasions handle service.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             Whether you are planning an awards ceremony, charity ball, or corporate anniversary gala, we work behind the scenes so the evening flows flawlessly. Explore our gala formats below, or see how we complement formal occasions through our{' '}
-            <Link to="/corporate-event-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate event catering Dubai</Link>{' '}
+            <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering</Link>,{' '}
+            <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>,{' '}
+            <Link to="/canape-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">canapé catering</Link>,{' '}
+            <Link to="/corporate-event-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate event catering Dubai</Link>,{' '}
             and{' '}
             <Link to="/bar-services-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">bar service for galas</Link>.
           </p>
@@ -508,7 +512,7 @@ export default function GalaDinnerCatering() {
             Tell us about your awards night, charity ball, or formal celebration and we will design a gala menu and service plan worthy of the occasion.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=gala-dinner-catering-dubai" className="btn-primary">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=gala-dinner-catering-dubai" className="btn-primary">Get My Gala Dinner Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

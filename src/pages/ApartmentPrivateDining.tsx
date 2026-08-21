@@ -31,7 +31,7 @@ const features = [
   {
     icon: Home,
     title: 'Designed for Apartments',
-    description: 'Compact kitchen? No problem. Chefs on our team are experienced in apartment cooking and bring only what is needed, working cleanly and efficiently in smaller spaces.',
+    description: 'Compact kitchen? No problem. Chefs in our network are experienced in apartment cooking and bring only what is needed, working cleanly and efficiently in smaller spaces.',
   },
   {
     icon: Users,
@@ -72,7 +72,7 @@ const menus = [
 const faqs = [
   {
     q: 'Will the chef fit in my apartment kitchen?',
-    a: 'Yes. Chefs on our team are selected for adaptability and are comfortable working in Dubai apartment kitchens, including those in Dubai Marina, Downtown, JBR, Business Bay, and DIFC.',
+    a: 'Yes. Chefs in our network are selected for adaptability and are comfortable working in Dubai apartment kitchens, including those in Dubai Marina, Downtown, JBR, Business Bay, and DIFC.',
   },
   {
     q: 'How many guests can an apartment dinner accommodate?',
@@ -176,10 +176,11 @@ export default function ApartmentPrivateDining() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Apartment Dining Dubai | 2–8 Guests"
-        description="Restaurant-quality private dining in your Dubai apartment. A private chef shops, cooks, serves, and cleans for intimate groups of 2–8 guests."
+        title="Apartment Private Dining Dubai | 2–8 Guests | myCHEF"
+        description="Restaurant-quality private dining in your Dubai apartment. A private chef shops, cooks, serves, and cleans for intimate groups of 2–8 guests. Get a quote in 15 minutes."
         canonicalPath={CANONICAL_PATH}
         ogImage="/service-private-chef.webp"
+        hideSiteName
         schema={schema}
       />
 
@@ -200,13 +201,13 @@ export default function ApartmentPrivateDining() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 apd-hero-h1">
-            Private Dining in Your Dubai Apartment
+            Apartment Private Dining Dubai: Restaurant-Quality at Home
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 apd-hero-sub">
             Restaurant-quality multi-course dining for 2–8 guests, prepared in your own kitchen. No reservations, no travel, no compromise.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 apd-hero-cta">Get a Quote</Link>
+            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 apd-hero-cta">Get My Apartment Dining Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -235,10 +236,10 @@ export default function ApartmentPrivateDining() {
               Tell us about your apartment location, guest count, and occasion. We will bring you a vetted private chef within 24 hours and send a tailored, no-obligation quote — then you simply arrive at your dining table while the chef handles shopping, cooking, serving, and cleanup. Dubai Marina, Downtown, JBR, Business Bay, and DIFC apartments are ideal for this intimate format.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Chefs on our team are selected for their ability to work beautifully in compact spaces. They arrive with ingredients, prepare a multi-course menu, serve with care, and leave your kitchen spotless. All you need is a table, chairs, and good company.
+              Chefs in our network are selected for their ability to work beautifully in compact spaces. They arrive with ingredients, prepare a multi-course menu, serve with care, and leave your kitchen spotless. All you need is a table, chairs, and good company.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              Explore <Link to="/romantic-dinner-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">romantic dinners</Link>, <Link to="/date-night-package-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">date night packages</Link>, or <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef services</Link>.
+              Explore <Link to="/romantic-dinner-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">romantic dinners</Link>, <Link to="/date-night-package-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">date night packages</Link>, <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef services</Link>, or <Link to="/part-time-private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">part-time private chef</Link> arrangements.
             </p>
           </div>
         </div>
@@ -346,7 +347,7 @@ export default function ApartmentPrivateDining() {
             Tell us your apartment location, guest count, and occasion. We will bring you a chef who turns your home into the best dining room in Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Request Apartment Dining</Link>
+            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Get My Apartment Dining Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

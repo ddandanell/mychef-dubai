@@ -155,7 +155,7 @@ const locations = [
 const faqs = [
   {
     q: 'Do you offer private cooking classes at home in Dubai?',
-    a: 'Yes. Our chefs come to your villa, apartment, or venue with ingredients and equipment for a fully private cooking class.',
+    a: 'Yes. Chefs in our network come to your villa, apartment, or venue with ingredients and equipment for a fully private cooking class.',
   },
   {
     q: 'Are cooking classes suitable for beginners?',
@@ -308,10 +308,11 @@ export default function PrivateCookingClassesDubai() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Private Cooking Classes Dubai | Chef"
-        description="Learn from a private chef with hands-on cooking classes in Dubai. Perfect for couples, families, and team building. Bespoke menus & premium ingredients."
+        title="Private Cooking Classes Dubai | Chef-Led at Home | myCHEF"
+        description="Learn from a private chef with hands-on cooking classes in Dubai. Perfect for couples, families, and team building. Bespoke menus & premium ingredients. Get a quote."
         canonicalPath="/private-cooking-classes-dubai"
         ogImage="/images/private-cooking-classes-dubai-hero.webp"
+        hideSiteName
         schema={schema}
       />
 
@@ -333,13 +334,13 @@ export default function PrivateCookingClassesDubai() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 pcc-hero-h1">
-            Private Cooking Classes & Chef Experiences in Dubai
+            Private Cooking Classes Dubai: Chef-Led Lessons at Home
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 pcc-hero-sub">
             Hands-on cooking classes and chef-led dining experiences for couples, families, teams, and special occasions across Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=private-cooking-classes-dubai" className="btn-primary opacity-0 translate-y-4 pcc-hero-cta">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=private-cooking-classes-dubai" className="btn-primary opacity-0 translate-y-4 pcc-hero-cta">Get My Cooking Class Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -581,7 +582,7 @@ export default function PrivateCookingClassesDubai() {
             Tell us about your group, preferred cuisine, and occasion. We will design a bespoke chef experience in Dubai around you.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=private-cooking-classes-dubai" className="btn-primary">Request a Class Quote</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=private-cooking-classes-dubai" className="btn-primary">Get My Cooking Class Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

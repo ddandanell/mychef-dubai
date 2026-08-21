@@ -110,7 +110,7 @@ const faqs = [
   },
   {
     q: 'What cuisines can they cook?',
-    a: 'Chefs on our team cover Arabic, Mediterranean, Italian, Indian, Asian, sushi, healthy, halal, vegan, and child-friendly cuisines. We match chefs to your specific taste profile during selection.',
+    a: 'Chefs in our network cover Arabic, Mediterranean, Italian, Indian, Asian, sushi, healthy, halal, vegan, and child-friendly cuisines. We match chefs to your specific taste profile during selection.',
   },
 ]
 
@@ -198,10 +198,11 @@ export default function FullTimePrivateChef() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Full-Time Private Chef Dubai | Live-In"
-        description="Hire a full-time private chef in Dubai. myCHEF Dubai sources vetted residential chefs for villas, families, and HNWI households."
+        title="Full-Time Private Chef Dubai | Live-In & Live-Out | myCHEF"
+        description="Hire a full-time private chef in Dubai. myCHEF Dubai sources vetted residential chefs for villas, families, and HNWI households. Get a quote in 15 minutes."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/private-chef-dubai-hero.webp"
+        hideSiteName
         schema={schema}
       />
 
@@ -223,13 +224,13 @@ export default function FullTimePrivateChef() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 fp-hero-h1">
-            Full-Time Private Chef Dubai
+            Full-Time Private Chef Dubai: Live-In & Live-Out Chefs
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 fp-hero-sub">
             A dedicated chef for your household, matched to your family's tastes, schedule, and dietary needs. Vetted, experienced, and ready to move in.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 fp-hero-cta">Hire a Full-Time Chef</Link>
+            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 fp-hero-cta">Get My Full-Time Chef Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -262,7 +263,7 @@ export default function FullTimePrivateChef() {
               Every candidate is vetted for culinary skill, professionalism, food-safety awareness, and experience in private households. We handle the shortlisting, interviews, and placement terms so you can focus on finding the right match for your family.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              Explore <Link to="/part-time-private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">part-time private chef</Link>, <Link to="/weekly-meal-prep-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">weekly meal prep</Link>, or <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">on-demand private chef</Link> options for more flexibility.
+              Explore <Link to="/part-time-private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">part-time private chef</Link>, <Link to="/weekly-meal-prep-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">weekly meal prep</Link>, <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">on-demand private chef</Link> options, or see <Link to="/private-chef-prices-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef prices in Dubai</Link> for more flexibility.
             </p>
           </div>
         </div>
@@ -404,7 +405,7 @@ export default function FullTimePrivateChef() {
             Tell us about your household, schedule, and cuisine preferences. We will bring you a vetted full-time private chef who fits your home.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Hire a Full-Time Chef</Link>
+            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Get My Full-Time Chef Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

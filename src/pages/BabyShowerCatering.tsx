@@ -284,10 +284,11 @@ export default function BabyShowerCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Baby Shower Catering Dubai | Grazing & Tea"
-        description="Elegant baby shower catering in Dubai — grazing tables, canapés, afternoon-tea menus, dessert displays, and mocktails styled to your theme. Bespoke menus and full service."
+        title="Baby Shower Catering Dubai | Grazing Tables, Tea & Mocktails | myCHEF"
+        description="Book baby shower catering in Dubai. Grazing tables, afternoon tea, canapés, dessert displays and mocktails styled to your theme. Get a quote in 15 minutes."
         canonicalPath="/baby-shower-catering-dubai"
         ogImage="/menu-dessert.webp"
+        hideSiteName
         schema={schema}
       />
 
@@ -311,13 +312,13 @@ export default function BabyShowerCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 bsc-hero-h1">
-            Baby Shower Catering in Dubai
+            Baby Shower Catering Dubai: Grazing Tables, Tea & Mocktails
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 bsc-hero-sub">
             Elegant grazing tables, delicate canapés, afternoon-tea menus, dessert displays, and fresh mocktails — beautifully styled to your theme for a baby shower to remember.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=baby-shower-catering-dubai" className="btn-primary opacity-0 translate-y-4 bsc-hero-cta">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=baby-shower-catering-dubai" className="btn-primary opacity-0 translate-y-4 bsc-hero-cta">Plan My Baby Shower</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -346,7 +347,7 @@ export default function BabyShowerCatering() {
             A baby shower is a soft, joyful kind of celebration — and the food should feel the same way. At myCHEF Dubai, we specialise in light, elegant catering that looks as lovely as it tastes: abundant grazing tables, delicate canapés, afternoon-tea bites, and dessert displays styled around your colours and theme.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Everything is alcohol-free by default, with a fresh mocktail bar designed to feel celebratory and special. Our chefs handle the styling, the service, and the cleanup, so the mum-to-be and her guests can simply relax and enjoy the moment. Baby shower catering is part of our wider <Link to="/party-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">party catering in Dubai</Link>, and pairs beautifully with our <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering service</Link>.
+            Everything is alcohol-free by default, with a fresh mocktail bar designed to feel celebratory and special. Chefs in our network handle the styling, the service, and the cleanup, so the mum-to-be and her guests can simply relax and enjoy the moment. Baby shower catering is part of our wider <Link to="/party-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">party catering in Dubai</Link>, pairs beautifully with our <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering service</Link>, and matches perfectly with a styled <Link to="/grazing-table-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">grazing table</Link>.
           </p>
         </div>
       </section>
@@ -525,7 +526,7 @@ export default function BabyShowerCatering() {
             Share your theme, palette, and guest count, and we'll craft a grazing, dessert, and mocktail experience to match.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=baby-shower-catering-dubai" className="btn-primary">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=baby-shower-catering-dubai" className="btn-primary">Plan My Baby Shower</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

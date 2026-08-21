@@ -4,11 +4,11 @@ export default function DateNightPackage() {
   return (
     <PackagePageTemplate
       name="Date Night"
-      seoTitle="Date Night Private Chef Package Dubai"
-      description="A romantic private chef dinner for two in your Dubai home, villa, or apartment. The Date Night package includes a bespoke 3-course menu, personal chef service, elegant plating, and full cleanup."
+      seoTitle="Date Night Package Dubai | Private Chef for Two | myCHEF"
+      description="Date Night Package Dubai: private chef dinner for two from AED 1,200. Bespoke 3-course menu, elegant plating, and full cleanup. Get a quote in 15 minutes."
       canonicalPath="/date-night-package-dubai"
       ogImage="/images/romantic-dinner-dubai-hero.webp"
-      headline="Date Night Private Chef Dubai"
+      headline="Date Night Package Dubai: Private Chef Dinner for Two"
       eyebrow="ROMANTIC DINING PACKAGE"
       subheadline="An intimate private chef dinner for two — designed around your tastes and served in the comfort of your own space."
       price="1,200"
@@ -75,6 +75,8 @@ export default function DateNightPackage() {
       heroImage="/images/romantic-dinner-dubai-hero.webp"
       breadcrumbLabel="Date Night Package Dubai"
       campaign="date-night-package-dubai"
+      hideSiteName
+      ctaLabel="Plan My Date Night"
     />
   )
 }

@@ -195,10 +195,11 @@ export default function MysteryDining() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Mystery Dining Dubai | Surprise Menu"
-        description="Book a mystery dining experience in Dubai. A private chef creates a surprise multi-course menu tailored to your preferences and dietary needs."
+        title="Mystery Dining Dubai | Surprise Menu by Private Chef | myCHEF"
+        description="Book a mystery dining experience in Dubai. A private chef creates a surprise multi-course menu tailored to your preferences and dietary needs. Get a quote in 15 minutes."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/tasting-menu-dubai-hero.webp"
+        hideSiteName
         schema={schema}
       />
 
@@ -220,7 +221,7 @@ export default function MysteryDining() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 md-hero-h1">
-            Mystery Dining Dubai
+            Mystery Dining Dubai: Surprise Menus by a Private Chef
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 md-hero-sub">
             Tell us what excites your palate and any dietary boundaries. We will bring you a vetted private chef who designs a surprise menu around your tastes, delivered in your home, apartment, or villa within 24 hours.
@@ -259,7 +260,7 @@ export default function MysteryDining() {
               The result is a relaxed, conversational dinner where guests arrive curious and leave impressed. It works equally well for romantic date nights, small group celebrations, and diners who want a tasting-menu experience without leaving their home or villa.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              Browse <Link to="/romantic-dinner-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">romantic dinners</Link> or <Link to="/tasting-menu-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">tasting menus</Link> for more bespoke dining options.
+              Browse <Link to="/romantic-dinner-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">romantic dinners</Link>, <Link to="/tasting-menu-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">tasting menus</Link>, <Link to="/luxury-dining-experiences" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury dining experiences</Link>, or <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef service</Link> for more bespoke dining options.
             </p>
           </div>
         </div>

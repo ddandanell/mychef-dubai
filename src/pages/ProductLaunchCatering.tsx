@@ -259,10 +259,11 @@ export default function ProductLaunchCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Product Launch Catering Dubai | B2B Events"
-        description="Impress investors, media, and guests with product launch catering in Dubai. Branded menus, canapés, live stations & full service."
+        title="Product Launch Catering Dubai | Media, Press & Unveilings | myCHEF"
+        description="Product launch catering in Dubai for media events, press briefings & unveilings. Branded canapés, live stations, account management & VAT invoicing. Get a quote."
         canonicalPath="/product-launch-catering-dubai"
         ogImage="/images/product-launch-catering-dubai-hero.webp"
+        hideSiteName
         schema={schema}
       />
 
@@ -284,13 +285,13 @@ export default function ProductLaunchCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 plc-hero-h1">
-            Product Launch Catering in Dubai
+            Product Launch Catering Dubai — Media Launches, Press Events & Unveilings
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 plc-hero-sub">
             Catering that matches the moment. Bespoke menus and flawless service for product launches, press events, and brand unveilings across Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=product-launch-catering-dubai" className="btn-primary opacity-0 translate-y-4 plc-hero-cta">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=product-launch-catering-dubai" className="btn-primary opacity-0 translate-y-4 plc-hero-cta">Get My Product Launch Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -322,7 +323,7 @@ export default function ProductLaunchCatering() {
             From intimate investor dinners in DIFC to large-scale unveilings in Downtown Dubai, our chefs plan menus that match the tone of the event. We time service around speeches and reveals, cater to dietary and cultural requirements, and create presentation that photographs beautifully for press and social coverage. Whether you need a canapé reception, a media lunch, or a branded dessert bar, we deliver the polish your launch deserves.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Explore our launch formats below, or see how we support wider <Link to="/corporate-event-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate event catering in Dubai</Link>, <Link to="/brand-activation-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">brand activation catering</Link>, and <Link to="/business-lunch-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">business lunch catering</Link>.
+            Explore our launch formats below, or see how we support wider <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering in Dubai</Link>, <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering</Link>, <Link to="/corporate-event-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate event catering</Link>, and <Link to="/canape-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">canapé catering</Link>.
           </p>
         </div>
       </section>
@@ -533,7 +534,7 @@ export default function ProductLaunchCatering() {
             Plan launch catering that leaves an impression. Tell us about your product, guests, and venue and we will build a proposal tailored to your moment.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=product-launch-catering-dubai" className="btn-primary">Request a Launch Catering Quote</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=product-launch-catering-dubai" className="btn-primary">Get My Product Launch Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

@@ -80,7 +80,7 @@ const faqs = [
   },
   {
     q: 'Are chefs in your network certified in allergen training?',
-    a: 'All our chefs are required to demonstrate food safety awareness, including allergen handling. For high-risk bookings, we prioritise chefs with additional allergen or clinical-dietary experience.',
+    a: 'Chefs in our network are required to demonstrate food safety awareness, including allergen handling. For high-risk bookings, we prioritise chefs with additional allergen or clinical-dietary experience.',
   },
   {
     q: 'What allergens can you accommodate?',
@@ -176,10 +176,11 @@ export default function AllergySafeCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Allergy-Safe Private Dining Dubai"
-        description="Allergy-safe private chef and catering in Dubai. Detailed allergen briefings, ingredient verification, cross-contact controls, and dietary accommodation."
+        title="Allergy-Safe Catering Dubai | Gluten, Dairy & Nut-Free | myCHEF"
+        description="Allergy-safe private chef and catering in Dubai. Detailed allergen briefings, ingredient verification, cross-contact controls, and dietary accommodation. Get a quote."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/healthy-catering-dubai-hero.webp"
+        hideSiteName
         schema={schema}
       />
 
@@ -201,13 +202,13 @@ export default function AllergySafeCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 asc-hero-h1">
-            Allergy-Safe Catering You Can Trust
+            Allergy-Safe Catering Dubai: Gluten, Dairy & Nut-Free Menus
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 asc-hero-sub">
             Private chef and event catering in Dubai with rigorous allergen protocols, ingredient verification, and cross-contact controls — so every guest can eat with confidence.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 asc-hero-cta">Request an Allergy-Safe Quote</Link>
+            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 asc-hero-cta">Get My Allergy-Safe Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -356,7 +357,7 @@ export default function AllergySafeCatering() {
             Tell us about your guests' allergies and dietary needs. We will design a safe, delicious menu and bring you a chef who knows how to execute it.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Request an Allergy-Safe Quote</Link>
+            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Get My Allergy-Safe Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

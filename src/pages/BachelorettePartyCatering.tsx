@@ -85,7 +85,7 @@ const useCases = [
   {
     title: 'Garden & Poolside Gatherings',
     description:
-      'Daytime garden or poolside celebrations with grazing boards, chilled drinks, and a styled dessert spread, all set up and cleared by our chefs.',
+      'Daytime garden or poolside celebrations with grazing boards, chilled drinks, and a styled dessert spread, all set up and cleared by chefs in our network.',
   },
 ]
 
@@ -279,10 +279,11 @@ export default function BachelorettePartyCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Bachelorette Party Catering Dubai"
-        description="Bachelorette party catering in Dubai with elegant canapes, grazing tables, cocktails, mocktails, and dessert spreads for villa and rooftop celebrations. Request a proposal."
+        title="Bachelorette Party Catering Dubai | Canapés, Grazing & Cocktails | myCHEF"
+        description="Book bachelorette party catering in Dubai. Elegant canapés, grazing tables, cocktails and mocktails for villas and rooftops. Get a quote in 15 minutes."
         canonicalPath="/bachelorette-party-catering-dubai"
         ogImage="/service-events.webp"
+        hideSiteName
         schema={schema}
       />
 
@@ -304,13 +305,13 @@ export default function BachelorettePartyCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 bt-hero-h1">
-            Bachelorette Party Catering in Dubai
+            Bachelorette Party Catering Dubai: Canapés, Grazing & Cocktails
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[600px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 bt-hero-sub">
             Elegant canapes, lavish grazing tables, signature cocktails and mocktails, and styled dessert spreads. Refined catering for villa and rooftop celebrations across Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=bachelorette-party-catering-dubai" className="btn-primary opacity-0 translate-y-4 bt-hero-cta">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=bachelorette-party-catering-dubai" className="btn-primary opacity-0 translate-y-4 bt-hero-cta">Plan My Bachelorette Party</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -339,10 +340,13 @@ export default function BachelorettePartyCatering() {
             A bachelorette party is a moment to gather the closest friends and celebrate properly. Whether the day unfolds across a private villa, a rooftop terrace, or a sunlit garden, the catering should feel as considered as the rest of the plan. Our bachelorette party catering brings styled grazing tables, refined canapes, a polished bar, and a statement dessert spread straight to your chosen venue.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Every menu is designed around the theme, the colours, and the group, with elegant alcohol-free mocktails poured alongside signature cocktails so no guest is left out. Our chefs styles the space, serves throughout, and clears it all away, available for Dubai events of every size. Explore our wider{' '}
-            <Link to="/catering-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">catering in Dubai</Link>{' '}
-            or request a{' '}
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=bachelorette-party-catering-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">Request a Proposal</Link>.
+            Every menu is designed around the theme, the colours, and the group, with elegant alcohol-free mocktails poured alongside signature cocktails so no guest is left out. Chefs in our network style the space, serve throughout, and clear it all away, available for Dubai events of every size. Explore our{' '}
+            <Link to="/cocktail-party-catering-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">cocktail party catering</Link>,{' '}
+            <Link to="/yachts" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">yacht catering</Link>,{' '}
+            or full{' '}
+            <Link to="/party-catering-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">party catering Dubai</Link>{' '}
+            range, or request a{' '}
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=bachelorette-party-catering-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">Plan My Bachelorette Party</Link>.
           </p>
         </div>
       </section>
@@ -531,7 +535,7 @@ export default function BachelorettePartyCatering() {
             Share the date, the venue, and the theme — we will style the grazing tables, the bar, and the dessert spread around it.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=bachelorette-party-catering-dubai" className="btn-primary">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=bachelorette-party-catering-dubai" className="btn-primary">Plan My Bachelorette Party</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
