@@ -13,3 +13,6 @@ dist
 # Autopush worker state
 .bluebook-pulse.lock
 .worktrees/
+
+# Local verification reports
+.superpowers/

@@ -207,7 +207,7 @@ export default function FestiveCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Festive Catering Dubai | Ramadan, Eid, Diwali, Christmas & NYE"
+        title="Festive Catering Dubai | Ramadan, Eid, Diwali, Christmas & NYE | myCHEF"
         description="Book festive catering in Dubai for Ramadan, Eid, Diwali, Christmas and NYE. Bespoke menus, private chefs and full service. Get a tailored quote in 15 minutes."
         canonicalPath="/festive-catering-dubai"
         ogImage="/images/festive-catering-dubai-hero.webp"

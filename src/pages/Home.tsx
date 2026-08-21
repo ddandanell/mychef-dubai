@@ -25,6 +25,7 @@ export default function Home() {
         canonicalPath="/"
         ogImage="/images/home-hero.webp"
         preloadHero="/images/home-hero.webp"
+        hideSiteName
         schema={ORGANIZATION_SCHEMA}
       />
       <HeroSection />

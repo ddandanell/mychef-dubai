@@ -275,7 +275,7 @@ export default function RamadanCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Ramadan Catering Dubai | Iftar, Suhoor & Private Chef Service"
+        title="Ramadan Catering Dubai | Iftar, Suhoor & Private Chef Service | myCHEF"
         description="Book Ramadan catering in Dubai. Halal iftar and suhoor menus for homes, majlis, villas and corporate gatherings. Get a tailored quote in 15 minutes."
         canonicalPath="/ramadan-catering-dubai"
         ogImage="/service-events.webp"

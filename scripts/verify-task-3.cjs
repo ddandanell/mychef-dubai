@@ -7,8 +7,8 @@ const pages = [
   {
     route: '/',
     title: 'Private Chef Dubai & Luxury Catering | Villas, Yachts & Events | myCHEF',
-    meta: 'Hire a private chef or book luxury catering in Dubai. Bespoke menus for villas, yachts, weddings & corporate events. Vetted chefs, halal-first, reply in 15 min. Get a quote.',
-    h1: 'Private Chef & Luxury Catering in Dubai — From AED 90pp',
+    meta: 'Hire a vetted private chef in Dubai for villas, yachts & homes. Bespoke menus, halal-first, full service. Quote in 15 minutes during business hours.',
+    h1: 'Private Chef & Luxury Catering in Dubai — Brought to Your Villa, Yacht or Home',
   },
   {
     route: '/private-chef-dubai',
@@ -19,26 +19,26 @@ const pages = [
   {
     route: '/catering-dubai',
     title: 'Luxury Catering Dubai | Buffet, BBQ & Plated | From AED 90pp | myCHEF',
-    meta: 'Luxury event catering in Dubai for weddings, corporate events & private parties. Bespoke menus, vetted chefs, halal-first. Request a tailored quote in 15 min.',
+    meta: 'Luxury event catering in Dubai for weddings, corporate events & private parties. Bespoke menus, vetted chefs, halal-first. Request a tailored quote.',
     h1: 'Luxury Catering Dubai for Events & Private Celebrations',
   },
   {
     route: '/corporate',
     title: 'Corporate Catering Dubai | Office Lunches & Events | From AED 90pp | myCHEF',
-    meta: 'Corporate catering and private dining in Dubai for offices, conferences, product launches & galas. Vetted chefs, halal menus, consolidated invoicing. Get a quote.',
+    meta: 'Corporate catering in Dubai for offices, conferences, product launches & galas. VAT/TRN invoicing, halal sourcing, dedicated account manager. Get a quote.',
     h1: 'Corporate Catering Dubai — Office, Boardroom & Events',
   },
   {
     route: '/events',
-    title: 'Event Catering Dubai | Birthdays, Weddings & Private Parties | myCHEF',
+    title: 'Event Catering Dubai | Birthdays, Weddings & Corporate | From AED 120pp | myCHEF',
     meta: 'Premium event catering in Dubai for birthdays, weddings, engagements & private parties. Bespoke menus, vetted chefs, full service. Request a tailored quote.',
-    h1: 'Event Catering Dubai for Weddings, Parties & Corporate Events',
+    h1: 'Event Catering Dubai — Bespoke Menus for Every Celebration',
   },
   {
     route: '/villas-private-residences',
     title: 'Villa Catering Dubai | Private Chef for Palm Jumeirah & Emirates Hills | myCHEF',
     meta: 'Private chef and villa catering in Dubai for Palm Jumeirah, Emirates Hills & Arabian Ranches. Bespoke menus, vetted chefs, full setup. Get a quote.',
-    h1: 'Villa Catering & Private Chef Dubai',
+    h1: 'Villa Catering & Private Chef Dubai — Brought to Your Home',
   },
   {
     route: '/yachts',
@@ -184,6 +184,7 @@ for (const page of pages) {
 }
 
 const reportPath = path.join(__dirname, '..', '.superpowers', 'sdd', 'task-3-verification.json');
+fs.mkdirSync(path.dirname(reportPath), { recursive: true });
 fs.writeFileSync(reportPath, JSON.stringify({ allPassed, results }, null, 2));
 console.log(`\n${allPassed ? 'All pages passed verification.' : 'Some pages failed verification.'}`);
 console.log(`Report written to ${reportPath}`);

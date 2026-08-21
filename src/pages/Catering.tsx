@@ -323,7 +323,7 @@ export default function Catering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Luxury Catering Dubai | Buffet, BBQ & Plated | From AED 90pp"
+        title="Luxury Catering Dubai | Buffet, BBQ & Plated | From AED 90pp | myCHEF"
         description="Luxury event catering in Dubai for weddings, corporate events & private parties. Bespoke menus, vetted chefs, halal-first. Request a tailored quote."
         canonicalPath="/catering-dubai"
         ogImage="/service-catering.webp"

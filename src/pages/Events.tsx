@@ -472,7 +472,7 @@ export default function Events() {
 
       {/* ─── Section 1: Hero ─── */}
       <PageHero
-        title="Event Catering Dubai — From AED 120 Per Person"
+        title="Event Catering Dubai — Bespoke Menus for Every Celebration"
         subtitle="Event catering for 10–500+ guests across Dubai. Birthdays, weddings, corporate functions & private parties — we design, source, cook and serve."
         image="/images/events-catering-dubai-hero.webp"
         imageAlt="Event catering in Dubai"
