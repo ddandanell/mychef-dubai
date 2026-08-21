@@ -2,10 +2,12 @@ import { useEffect, useRef } from 'react'
 import { Link } from 'react-router'
 import gsap from 'gsap'
 import { deferNonCritical } from '../lib/deferNonCritical'
+import { buildWhatsAppLink } from '../lib/whatsapp'
 
-const WHATSAPP_NUMBER = '971551744849'
-const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to plan an event (via mychef.ae/)')
-const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
+const WHATSAPP_LINK = buildWhatsAppLink(
+  "Hi myCHEF Dubai, I'd like a quote for a private chef or luxury catering in Dubai. Date: __, Guests: __, Area: __ (via mychef.ae/)",
+  { source: 'mychef.ae', medium: 'cta_button', campaign: 'home_whatsapp' }
+)
 
 const prefersReducedMotion = () =>
   typeof window !== 'undefined' && window.matchMedia('(prefers-reduced-motion: reduce)').matches
