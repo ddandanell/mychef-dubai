@@ -2,6 +2,7 @@ import { Link } from 'react-router'
 
 interface LocationStripProps {
   title?: string
+  subtitle?: React.ReactNode
   className?: string
 }
 
@@ -23,7 +24,7 @@ const locations = [
   { name: 'Al Barsha', slug: 'al-barsha' },
 ]
 
-export default function LocationStrip({ title = 'Private chef & luxury dining across Dubai', className = '' }: LocationStripProps) {
+export default function LocationStrip({ title = 'Private chef & luxury dining across Dubai', subtitle, className = '' }: LocationStripProps) {
   return (
     <section className={`bg-cream py-16 ${className}`}>
       <div className="container-custom max-w-[1100px]">
@@ -34,6 +35,11 @@ export default function LocationStrip({ title = 'Private chef & luxury dining ac
           <h3 className="font-playfair text-h3 text-black">
             {title}
           </h3>
+          {subtitle && (
+            <p className="mt-3 font-inter text-body text-gray-500 max-w-2xl mx-auto">
+              {subtitle}
+            </p>
+          )}
         </div>
 
         <div className="flex flex-wrap justify-center gap-3">

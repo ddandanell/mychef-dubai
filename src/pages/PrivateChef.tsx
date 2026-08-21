@@ -642,7 +642,18 @@ export default function PrivateChef() {
         </div>
       </section>
 
-      <LocationStrip title="Private chef services across Dubai" />
+      <LocationStrip
+        title="Private chef services across Dubai"
+        subtitle={
+          <>
+            Hire a{' '}
+            <Link to="/locations/palm-jumeirah" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef in Palm Jumeirah</Link>,{' '}
+            <Link to="/locations/dubai-marina" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Dubai Marina</Link>{' '}
+            or{' '}
+            <Link to="/locations/downtown-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Downtown Dubai</Link>.
+          </>
+        }
+      />
 
       {/* ═══════════════ Section 9: CTA Banner ═══════════════ */}
       <section className="bg-gradient-to-b from-charcoal to-black py-20">

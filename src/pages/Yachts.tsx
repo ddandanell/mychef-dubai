@@ -487,7 +487,17 @@ export default function Yachts() {
         </div>
       </section>
 
-      <LocationStrip title="Yacht catering across Dubai" />
+      <LocationStrip
+        title="Yacht catering across Dubai"
+        subtitle={
+          <>
+            Yacht catering from{' '}
+            <Link to="/locations/dubai-marina" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Dubai Marina</Link>{' '}
+            and{' '}
+            <Link to="/locations/palm-jumeirah" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Palm Jumeirah</Link>.
+          </>
+        }
+      />
 
       {/* Section 10: CTA Banner */}
       <section className="yachts-cta-section bg-black py-24">

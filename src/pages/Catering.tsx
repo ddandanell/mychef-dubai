@@ -10,6 +10,7 @@ import TrustSignalStrip from '../components/TrustSignalStrip'
 import GuestCountSelector from '../components/GuestCountSelector'
 import StarterPackagesSection from '@/sections/StarterPackagesSection'
 import FaqAccordion from '../components/FaqAccordion'
+import LocationStrip from '../components/LocationStrip'
 import { plainFaqAnswer } from '../utils/schema'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { deferNonCritical } from '../lib/deferNonCritical'
@@ -625,6 +626,19 @@ export default function Catering() {
           </p>
         </div>
       </section>
+
+      <LocationStrip
+        title="Luxury catering across Dubai"
+        subtitle={
+          <>
+            Available across Dubai including{' '}
+            <Link to="/locations/palm-jumeirah" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Palm Jumeirah</Link>,{' '}
+            <Link to="/locations/dubai-marina" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Dubai Marina</Link>{' '}
+            and{' '}
+            <Link to="/locations/downtown-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Downtown Dubai</Link>.
+          </>
+        }
+      />
 
       {/* ═══════════════ Section 9: CTA Banner ═══════════════ */}
       <section className="bg-gradient-to-b from-charcoal to-black py-20">

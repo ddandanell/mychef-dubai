@@ -495,7 +495,18 @@ export default function Villas() {
         </div>
       </section>
 
-      <LocationStrip title="Villa chef services across Dubai" />
+      <LocationStrip
+        title="Villa chef services across Dubai"
+        subtitle={
+          <>
+            Villa private chef service in{' '}
+            <Link to="/locations/palm-jumeirah" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Palm Jumeirah</Link>,{' '}
+            <Link to="/locations/emirates-hills" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Emirates Hills</Link>{' '}
+            and{' '}
+            <Link to="/locations/arabian-ranches" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Arabian Ranches</Link>.
+          </>
+        }
+      />
 
       {/* Section 11: CTA Banner */}
       <section className="villas-cta-section bg-black py-24">

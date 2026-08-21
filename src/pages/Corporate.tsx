@@ -709,7 +709,17 @@ export default function Corporate({
         </div>
       </section>
 
-      <LocationStrip title="Corporate catering across Dubai" />
+      <LocationStrip
+        title="Corporate catering across Dubai"
+        subtitle={
+          <>
+            Trusted for corporate catering in{' '}
+            <Link to="/locations/business-bay" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Business Bay</Link>{' '}
+            and{' '}
+            <Link to="/locations/difc" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">DIFC</Link>.
+          </>
+        }
+      />
 
       {/* ─── CTA Banner ─── */}
       <section
