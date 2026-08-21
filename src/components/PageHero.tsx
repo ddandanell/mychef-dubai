@@ -1,10 +1,7 @@
 import { useRef, useEffect } from 'react'
 import { Link } from 'react-router'
 import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { deferNonCritical } from '../lib/deferNonCritical'
-
-gsap.registerPlugin(ScrollTrigger)
 
 interface PageHeroProps {
   eyebrow?: string
@@ -14,6 +11,7 @@ interface PageHeroProps {
   imageAlt?: string
   imageWidth?: number
   imageHeight?: number
+  imageSrcSet?: string
   cta?: { label: string; href: string; external?: boolean }
   secondaryCta?: { label: string; href: string; external?: boolean }
   breadcrumb?: { label: string; href?: string }[]
@@ -43,8 +41,9 @@ export default function PageHero({
   subtitle,
   image,
   imageAlt = '',
-  imageWidth,
-  imageHeight,
+  imageWidth = 1344,
+  imageHeight = 752,
+  imageSrcSet,
   cta,
   secondaryCta,
   breadcrumb,
@@ -124,17 +123,26 @@ export default function PageHero({
       {/* Background */}
       {image ? (
         <div className="absolute inset-0 overflow-hidden">
-          <img
-            ref={imageRef}
-            src={image}
-            alt={imageAlt}
-            width={imageWidth}
-            height={imageHeight}
-            loading="eager"
-            fetchPriority="high"
-            decoding="async"
-            className="absolute inset-0 w-full h-full object-cover scale-105 will-change-transform"
-          />
+          <picture>
+            {image?.endsWith('.webp') && (
+              <source
+                type="image/webp"
+                srcSet={imageSrcSet || `${image} 1344w, ${image} 960w, ${image} 640w`}
+                sizes="100vw"
+              />
+            )}
+            <img
+              ref={imageRef}
+              src={image}
+              alt={imageAlt}
+              width={imageWidth}
+              height={imageHeight}
+              loading="eager"
+              fetchPriority="high"
+              decoding="async"
+              className="absolute inset-0 w-full h-full object-cover scale-105 will-change-transform"
+            />
+          </picture>
           <div className={`absolute inset-0 bg-gradient-to-b ${overlayClasses[overlay]}`} />
         </div>
       ) : (

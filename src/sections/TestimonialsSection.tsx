@@ -1,9 +1,7 @@
 import { useState, useEffect, useRef, useCallback } from 'react'
 import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import { ChevronLeft, ChevronRight, Star, Quote } from 'lucide-react'
-
-gsap.registerPlugin(ScrollTrigger)
 
 const testimonials = [
   {
@@ -29,6 +27,7 @@ const testimonials = [
 ]
 
 export default function TestimonialsSection() {
+  useScrollTrigger()
   const [current, setCurrent] = useState(0)
   const [isPaused, setIsPaused] = useState(false)
   const sectionRef = useRef<HTMLDivElement>(null)

@@ -1,10 +1,8 @@
 import { useEffect, useRef } from 'react'
 import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import { Star, MessageSquare, Gift, Shield, Award, Clock } from 'lucide-react'
 import { Link } from 'react-router'
-
-gsap.registerPlugin(ScrollTrigger)
 
 const trustPoints = [
   { icon: Shield, label: 'AED 5M Liability Insurance' },
@@ -17,6 +15,7 @@ const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I would like to le
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 export default function ReviewInviteSection() {
+  useScrollTrigger()
   const sectionRef = useRef<HTMLDivElement>(null)
   const contentRef = useRef<HTMLDivElement>(null)
 

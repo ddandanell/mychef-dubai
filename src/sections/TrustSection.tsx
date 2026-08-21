@@ -1,10 +1,8 @@
 import { useEffect, useRef } from 'react'
 import { Link } from 'react-router'
 import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import { Shield, Leaf, Clock, Award } from 'lucide-react'
-
-gsap.registerPlugin(ScrollTrigger)
 
 const trustBadges = [
   { icon: Shield, label: 'Handpicked Chefs' },
@@ -14,6 +12,7 @@ const trustBadges = [
 ]
 
 export default function TrustSection() {
+  useScrollTrigger()
   const sectionRef = useRef<HTMLDivElement>(null)
   const leftRef = useRef<HTMLDivElement>(null)
   const rightRef = useRef<HTMLDivElement>(null)

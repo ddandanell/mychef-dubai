@@ -2,15 +2,13 @@ import { useRef } from 'react'
 import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import { Check, ChevronRight, Phone, ArrowRight } from 'lucide-react'
 import SEO from './SEO'
 import PageHero from './PageHero'
 import TrustSignalStrip from './TrustSignalStrip'
 import { breadcrumbSchema, faqPageSchema, offerSchema, serviceSchema } from '@/utils/schema'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
-
-gsap.registerPlugin(ScrollTrigger)
 
 const WHATSAPP_NUMBER = '971551744849'
 const SITE_URL = 'https://www.mychef.ae'
@@ -74,6 +72,7 @@ export default function PackagePageTemplate({
   hideSiteName = false,
   ctaLabel = 'Request This Package',
 }: PackagePageTemplateProps) {
+  useScrollTrigger()
   const containerRef = useRef<HTMLDivElement>(null)
 
   const PAGE_WHATSAPP_MESSAGE = `Hi myCHEF Dubai, I'd like to request a proposal for the ${name} package (via mychef.ae${canonicalPath})`

@@ -1,10 +1,8 @@
 import { useEffect, useRef } from 'react'
 import { Link } from 'react-router'
 import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import { ArrowRight } from 'lucide-react'
-
-gsap.registerPlugin(ScrollTrigger)
 
 const services = [
   {
@@ -46,6 +44,7 @@ const services = [
 ]
 
 export default function ServicesSection() {
+  useScrollTrigger()
   const sectionRef = useRef<HTMLDivElement>(null)
   const headerRef = useRef<HTMLDivElement>(null)
   const cardsRef = useRef<HTMLDivElement>(null)

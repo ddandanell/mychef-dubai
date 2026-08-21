@@ -1,10 +1,8 @@
 import { useEffect, useRef } from 'react'
 import { Link } from 'react-router'
 import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import { ArrowRight } from 'lucide-react'
-
-gsap.registerPlugin(ScrollTrigger)
 
 const locations = [
   { image: '/loc-palm-jumeirah.webp', name: 'Palm Jumeirah', slug: 'palm-jumeirah' },
@@ -16,6 +14,7 @@ const locations = [
 ]
 
 export default function LocationsSection() {
+  useScrollTrigger()
   const sectionRef = useRef<HTMLDivElement>(null)
   const headerRef = useRef<HTMLDivElement>(null)
   const cardsRef = useRef<HTMLDivElement>(null)

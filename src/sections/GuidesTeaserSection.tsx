@@ -2,10 +2,8 @@ import { useRef } from 'react'
 import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import { DollarSign, ClipboardList, Anchor, TrendingUp, ArrowRight, BookOpen } from 'lucide-react'
-
-gsap.registerPlugin(ScrollTrigger)
 
 const guides = [
   {
@@ -35,6 +33,7 @@ const guides = [
 ]
 
 export default function GuidesTeaserSection() {
+  useScrollTrigger()
   const sectionRef = useRef<HTMLDivElement>(null)
 
   useGSAP(() => {

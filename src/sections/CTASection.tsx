@@ -1,15 +1,14 @@
 import { useEffect, useRef } from 'react'
 import { Link } from 'react-router'
 import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
-
-gsap.registerPlugin(ScrollTrigger)
+import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to request a proposal (via mychef.ae/)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 export default function CTASection() {
+  useScrollTrigger()
   const sectionRef = useRef<HTMLDivElement>(null)
   const contentRef = useRef<HTMLDivElement>(null)
 

@@ -1,11 +1,10 @@
 import { useEffect, useRef } from 'react'
 import { Link } from 'react-router'
 import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
-
-gsap.registerPlugin(ScrollTrigger)
+import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 
 export default function TeamSection() {
+  useScrollTrigger()
   const sectionRef = useRef<HTMLDivElement>(null)
   const leftRef = useRef<HTMLDivElement>(null)
   const rightRef = useRef<HTMLDivElement>(null)

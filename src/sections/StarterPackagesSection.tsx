@@ -1,10 +1,8 @@
 import { useEffect, useRef } from 'react'
 import { Link } from 'react-router'
 import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import { starterPackages, WHATSAPP_NUMBER } from '@/data/starterPackages'
-
-gsap.registerPlugin(ScrollTrigger)
 
 interface StarterPackagesSectionProps {
   campaign?: string
@@ -19,6 +17,7 @@ export default function StarterPackagesSection({
   title = 'Starter Packages',
   subtitle = 'Transparent starting prices for our most popular private chef and catering experiences. Every quote is tailored to your event.',
 }: StarterPackagesSectionProps) {
+  useScrollTrigger()
   const sectionRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {

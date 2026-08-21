@@ -1,10 +1,8 @@
 import { useEffect, useRef } from 'react'
 import { Link } from 'react-router'
 import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import { MessageCircle, FileText, ShoppingBag, Utensils } from 'lucide-react'
-
-gsap.registerPlugin(ScrollTrigger)
 
 const steps = [
   {
@@ -34,6 +32,7 @@ const steps = [
 ]
 
 export default function HowItWorksSection() {
+  useScrollTrigger()
   const sectionRef = useRef<HTMLDivElement>(null)
   const headerRef = useRef<HTMLDivElement>(null)
   const cardsRef = useRef<HTMLDivElement>(null)
