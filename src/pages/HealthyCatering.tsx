@@ -15,6 +15,7 @@ import {
 } from 'lucide-react'
 import SEO from '../components/SEO'
 import TrustSignalStrip from '../components/TrustSignalStrip'
+import LocationStrip from '../components/LocationStrip'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 
@@ -507,6 +508,8 @@ export default function HealthyCatering() {
           </div>
         </div>
       </section>
+
+      <LocationStrip title="Healthy catering across Dubai" />
 
       {/* ═══════════════ Section 10: CTA Banner ═══════════════ */}
       <section className="bg-gradient-to-b from-charcoal to-black py-20">
