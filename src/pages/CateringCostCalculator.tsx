@@ -79,7 +79,7 @@ export default function CateringCostCalculator() {
   return (
     <>
       <SEO
-        title="Catering Cost Calculator Dubai"
+        title="Catering Cost Calculator Dubai | Instant Price Estimate"
         description="Estimate the cost of private chef and luxury catering services in Dubai. Instant per-person pricing for villas, yachts, weddings, and corporate events."
         canonicalPath="/catering-cost-calculator-dubai"
         ogImage="/images/catering-dubai-hero.webp"
