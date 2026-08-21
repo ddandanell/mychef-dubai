@@ -25,7 +25,7 @@ import { deferNonCritical } from '../lib/deferNonCritical'
 gsap.registerPlugin(ScrollTrigger)
 
 const WHATSAPP_NUMBER = '971551744849'
-const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to plan party catering in Dubai (via mychef.ae/party-catering-dubai)')
+const WHATSAPP_MESSAGE = encodeURIComponent("Hi myCHEF Dubai, I'm planning a party and need catering. Date: __, Guests: __, Venue: __, Party type: __ (via mychef.ae/party-catering-dubai)")
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 /* ────────────────────── Data ────────────────────── */
@@ -265,7 +265,7 @@ const schema = {
 
 /* ────────────────────── Component ────────────────────── */
 
-const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'd like a Party quote in Dubai. Date: __ Guests: __ Area: __"
+const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'm planning a party and need catering. Date: __, Guests: __, Venue: __, Party type: __ (via mychef.ae/party-catering-dubai)"
 export default function PartyCatering() {
   useWhatsAppMessage(PAGE_WHATSAPP_MESSAGE)
   const containerRef = useRef<HTMLDivElement>(null)

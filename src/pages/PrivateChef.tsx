@@ -16,7 +16,7 @@ import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 gsap.registerPlugin(ScrollTrigger)
 
 const WHATSAPP_NUMBER = '971551744849'
-const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to request a quote for a private chef (via mychef.ae/private-chef-dubai)')
+const WHATSAPP_MESSAGE = encodeURIComponent("Hi myCHEF Dubai, I'd like a quote for a private chef. Date: __, Guests: __, Location: __, Occasion: __ (via mychef.ae/private-chef-dubai)")
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 /* ────────────────────── Data ────────────────────── */
@@ -295,7 +295,7 @@ const faqPageSchema = {
 
 /* ────────────────────── Component ────────────────────── */
 
-const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'm interested in a private chef in Dubai. Date: __ Guests: __ Area: __"
+const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'd like a quote for a private chef. Date: __, Guests: __, Location: __, Occasion: __ (via mychef.ae/private-chef-dubai)"
 export default function PrivateChef() {
   useWhatsAppMessage(PAGE_WHATSAPP_MESSAGE)
   const containerRef = useRef<HTMLDivElement>(null)

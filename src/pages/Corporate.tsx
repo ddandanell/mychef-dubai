@@ -235,7 +235,7 @@ const schema = [
 
 /* ───── Page Component ───── */
 
-const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'm interested in corporate catering in Dubai. Date: __ Guests: __ Area: __"
+const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I need corporate catering. Date: __, Guests: __, Venue/area: __, Format: __ (via mychef.ae/corporate)"
 
 interface CorporateProps {
   seoTitle?: string
@@ -257,7 +257,7 @@ export default function Corporate({
   useWhatsAppMessage(PAGE_WHATSAPP_MESSAGE)
 
   const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(
-    `Hi myCHEF Dubai, I'd like to request a corporate catering quote (via mychef.ae/${whatsappAttribution})`
+    `Hi myCHEF Dubai, I need corporate catering. Date: __, Guests: __, Venue/area: __, Format: __ (via mychef.ae/${whatsappAttribution})`
   )}`
   const RETAINER_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(
     `Hi myCHEF Dubai, I'd like a corporate retainer proposal (via mychef.ae/${whatsappAttribution})`

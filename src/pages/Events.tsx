@@ -25,7 +25,7 @@ gsap.registerPlugin(ScrollTrigger)
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent(
-  "Hi myCHEF Dubai, I'd like to request a quote for event catering (via mychef.ae/events)"
+  "Hi myCHEF Dubai, I'm planning an event and need catering. Date: __, Guests: __, Venue: __, Event type: __ (via mychef.ae/events)"
 )
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
@@ -277,7 +277,7 @@ const schema = [
 
 /* ───── Page Component ───── */
 
-const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'm planning an event in Dubai. Date: __ Guests: __ Area: __"
+const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'm planning an event and need catering. Date: __, Guests: __, Venue: __, Event type: __ (via mychef.ae/events)"
 export default function Events() {
   useWhatsAppMessage(PAGE_WHATSAPP_MESSAGE)
   const eventCardsRef = useRef<HTMLDivElement>(null)
