@@ -283,7 +283,7 @@ export default function RamadanIftar() {
     <div ref={containerRef}>
       <SEO
         title="Iftar Catering Dubai | Ramadan Private Chef & Buffet | myCHEF"
-        description="Book Iftar catering in Dubai. Ramadan private chef and buffet service with dates, mezze, grills, desserts and full service for family and corporate Iftars. Get a tailored quote in 15 minutes."
+        description="Book Iftar catering in Dubai. Ramadan private chef and buffet service with dates, mezze, grills, desserts and full service for family and corporate."
         canonicalPath="/iftar-catering-dubai"
         ogImage="/service-catering.webp"
         hideSiteName

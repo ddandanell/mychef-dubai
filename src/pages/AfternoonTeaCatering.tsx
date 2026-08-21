@@ -6,8 +6,7 @@ import type { OccasionPageConfig } from './occasion/OccasionCateringPage'
 const config: OccasionPageConfig = {
   slug: 'afternoon-tea-catering-dubai',
   seoTitle: "Afternoon Tea Catering Dubai | High Tea",
-  metaDescription:
-    'Afternoon tea and high tea catering in Dubai for birthdays, bridal showers, corporate events and home gatherings. Elegant savoury, scones, cakes and full service.',
+  metaDescription: 'Afternoon tea and high tea catering in Dubai for birthdays, bridal showers, corporate events and home gatherings. Elegant savoury, scones, cakes and full.',
   canonicalPath: '/afternoon-tea-catering-dubai',
   ogImage: '/images/afternoon-tea-catering-dubai-hero.webp',
   breadcrumbLabel: 'Afternoon Tea Catering Dubai',

@@ -267,7 +267,7 @@ export default function ConferenceCatering() {
     <div ref={containerRef}>
       <SEO
         title="Conference Catering Dubai | Coffee Breaks & Working Lunches | myCHEF"
-        description="Conference catering in Dubai with coffee breaks, working lunches & multi-day programmes. VAT/TRN invoicing, halal menus, dedicated account manager. Quote in 15 min."
+        description="Conference catering in Dubai with coffee breaks, working lunches & multi-day programmes. VAT/TRN invoicing, halal menus, dedicated account manager. Quote."
         canonicalPath="/conference-catering-dubai"
         ogImage="/service-corporate.webp"
         hideSiteName

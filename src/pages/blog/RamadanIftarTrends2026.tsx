@@ -98,7 +98,7 @@ export default function RamadanIftarTrends2026() {
     <div ref={containerRef}>
       <SEO
         title="Ramadan Iftar Catering Trends 2026"
-        description="Discover the Ramadan Iftar catering trends shaping Dubai in 2026, from grazing-style tables and modern Emirati dishes to sustainable sourcing and mocktail menus."
+        description="Discover the Ramadan Iftar catering trends shaping Dubai in 2026, from grazing-style tables and modern Emirati dishes to sustainable sourcing and more."
         canonicalPath={`/blog/${SLUG}`}
         ogImage="/images/ramadan-iftar-catering-dubai-hero.webp"
         schema={schema}

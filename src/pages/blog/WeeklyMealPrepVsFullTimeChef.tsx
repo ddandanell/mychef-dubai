@@ -98,7 +98,7 @@ export default function WeeklyMealPrepVsFullTimeChef() {
     <div ref={containerRef}>
       <SEO
         title="Weekly Meal Prep vs Full-Time Chef Dubai"
-        description="Compare weekly meal prep services and full-time private chefs in Dubai by cost, flexibility, vetting, and lifestyle fit so you can choose the right option."
+        description="Compare weekly meal prep services and full-time private chefs in Dubai by cost, flexibility, vetting, and lifestyle fit so you can choose the right."
         canonicalPath={`/blog/${SLUG}`}
         ogImage="/images/weekly-meal-prep-dubai-hero.webp"
         schema={schema}

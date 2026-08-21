@@ -6,8 +6,7 @@ import type { OccasionPageConfig } from './occasion/OccasionCateringPage'
 const config: OccasionPageConfig = {
   slug: 'easter-catering-dubai',
   seoTitle: "Easter Catering Dubai | Brunch & Lunch",
-  metaDescription:
-    'Easter catering in Dubai. Celebrate with a bespoke spring brunch, roast lunch or garden party menu crafted by a private chef for family and friends at home or venue.',
+  metaDescription: 'Easter catering in Dubai. Celebrate with a bespoke spring brunch, roast lunch or garden party menu crafted by a private chef for family and friends at.',
   canonicalPath: '/easter-catering-dubai',
   ogImage: '/images/easter-catering-dubai-hero.webp',
   breadcrumbLabel: 'Easter Catering Dubai',

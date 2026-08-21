@@ -196,7 +196,7 @@ export default function MysteryDining() {
     <div ref={containerRef}>
       <SEO
         title="Mystery Dining Dubai | Surprise Menu by Private Chef | myCHEF"
-        description="Book a mystery dining experience in Dubai. A private chef creates a surprise multi-course menu tailored to your preferences and dietary needs. Get a quote in 15 minutes."
+        description="Book a mystery dining experience in Dubai. A private chef creates a surprise multi-course menu tailored to your preferences and dietary needs. Get a quote."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/tasting-menu-dubai-hero.webp"
         hideSiteName

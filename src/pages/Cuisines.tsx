@@ -235,7 +235,7 @@ export default function Cuisines() {
     <div ref={containerRef}>
       <SEO
         title="Catering Dubai by Cuisine | Italian, Arabic, Indian & More"
-        description="Explore catering by cuisine in Dubai: Italian, Arabic, Indian, Mediterranean, Asian, sushi, BBQ, vegan, vegetarian, halal and healthy. Bespoke menus, vetted chefs, tailored quotes."
+        description="Explore catering by cuisine in Dubai: Italian, Arabic, Indian, Mediterranean, Asian, sushi, BBQ, vegan, vegetarian, halal and healthy. Bespoke menus."
         canonicalPath="/cuisines-dubai"
         ogImage="/images/cuisines-hub-dubai-hero.webp"
         schema={schema}

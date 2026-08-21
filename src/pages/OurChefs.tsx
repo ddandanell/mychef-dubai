@@ -146,7 +146,7 @@ export default function OurChefs() {
     <>
       <SEO
         title="Private Chef Network Dubai | Vetted Chefs"
-        description="Meet the experienced private chefs in the myCHEF Dubai network. Professional independent chefs specializing in fine dining, international cuisine, and luxury hospitality."
+        description="Meet the experienced private chefs in the myCHEF Dubai network. Professional independent chefs specializing in fine dining, international cuisine, and more."
         canonicalPath="/our-chefs"
         ogImage="/images/about-mychef-dubai-hero.webp"
         schema={breadcrumbSchema(breadcrumbs) as unknown as Record<string, unknown>}

@@ -7,8 +7,7 @@ const config: ServicePageConfig = {
   slug: 'healthcare-catering-dubai',
   noindex: true,
   seoTitle: "Healthcare Dining Dubai | Facility Meals",
-  metaDescription:
-    'Hospital and healthcare catering in Dubai: safe, nutritious and compliant meal solutions for hospitals, clinics, care homes, medical conferences and healthcare facilities.',
+  metaDescription: 'Hospital and healthcare catering in Dubai: safe, nutritious and compliant meal solutions for hospitals, clinics, care homes, medical conferences and more.',
   canonicalPath: '/healthcare-catering-dubai',
   ogImage: '/images/corporate-catering-dubai-hero.webp',
   breadcrumbLabel: 'Hospital & Healthcare Catering Dubai',

@@ -172,7 +172,7 @@ export default function Privacy() {
     <div ref={containerRef}>
       <SEO
         title="Privacy Policy"
-        description="myCHEF Dubai privacy policy. How we collect, use, and protect your personal information."
+        description="myCHEF Dubai privacy policy. How we collect, use, and protect your personal information request."
         canonicalPath="/privacy-policy"
         noindex={false}
         ogImage="/images/catering-dubai-hero.webp"

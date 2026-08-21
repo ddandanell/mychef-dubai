@@ -282,7 +282,7 @@ export default function FingerFoodCatering() {
     <div ref={containerRef}>
       <SEO
         title="Finger Food Catering Dubai | Office & Party Bite-Size Menus | myCHEF"
-        description="Bite-size finger food catering in Dubai for offices, parties & corporate events. Hot & cold sharing platters, easy service, halal options. Request a tailored quote in 15 min."
+        description="Bite-size finger food catering in Dubai for offices, parties & corporate events. Hot & cold sharing platters, easy service, halal options. Request a quote."
         canonicalPath="/finger-food-catering-dubai"
         ogImage="/menu-canapes.webp"
         hideSiteName

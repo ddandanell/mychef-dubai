@@ -7,8 +7,7 @@ const config: ServicePageConfig = {
   slug: 'government-event-catering-dubai',
   noindex: true,
   seoTitle: "Government Event Dining Dubai | Protocol",
-  metaDescription:
-    'Government event catering in Dubai: protocol-aware service, scalable menus, full documentation and reliable execution for official functions, ceremonies and receptions.',
+  metaDescription: 'Government event catering in Dubai: protocol-aware service, scalable menus, full documentation and reliable execution for official functions, ceremonies.',
   canonicalPath: '/government-event-catering-dubai',
   ogImage: '/images/corporate-catering-dubai-hero.webp',
   breadcrumbLabel: 'Government Event Catering Dubai',

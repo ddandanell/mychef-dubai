@@ -274,7 +274,7 @@ export default function OfficeCatering() {
     <div ref={containerRef}>
       <SEO
         title="Office Catering Dubai | Daily Lunches & Retainers | myCHEF"
-        description="Office catering in Dubai for daily lunches, breakfasts & retainers. VAT/TRN invoicing, halal sourcing, dedicated account management. Quote in 15 min."
+        description="Office catering in Dubai for daily lunches, breakfasts & retainers. VAT/TRN invoicing, halal sourcing, dedicated account management. Quote in 15 min Dubai."
         canonicalPath="/office-catering-dubai"
         ogImage="/service-corporate.webp"
         hideSiteName

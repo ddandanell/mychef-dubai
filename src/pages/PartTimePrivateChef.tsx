@@ -177,7 +177,7 @@ export default function PartTimePrivateChef() {
     <div ref={containerRef}>
       <SEO
         title="Part-Time Private Chef Dubai | 2–3 Days Per Week | myCHEF"
-        description="Hire a part-time private chef in Dubai for 2–3 days per week. Meal planning, shopping, cooking, and cleanup — regular support without full-time placement. Get a quote."
+        description="Hire a part-time private chef in Dubai for 2–3 days per week. Meal planning, shopping, cooking, and cleanup — regular support without full-time."
         canonicalPath={CANONICAL_PATH}
         ogImage="/service-private-chef.webp"
         hideSiteName

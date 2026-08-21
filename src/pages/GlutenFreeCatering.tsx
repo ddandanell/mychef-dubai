@@ -6,8 +6,7 @@ import type { DietaryPageConfig } from './dietary/DietaryCateringPage'
 const config: DietaryPageConfig = {
   slug: 'gluten-free-catering-dubai',
   seoTitle: 'Gluten-Free Catering Dubai | Coeliac-Safe Events | myCHEF',
-  metaDescription:
-    'Book gluten-free catering in Dubai. Coeliac-safe menus for weddings, villas and offices, with clear labelling and full service. Get a tailored quote in 15 minutes.',
+  metaDescription: 'Book gluten-free catering in Dubai. Coeliac-safe menus for weddings, villas and offices, with clear labelling and full service. Get a tailored quote.',
   canonicalPath: '/gluten-free-catering-dubai',
   hideSiteName: true,
   showTrustSignalStrip: true,

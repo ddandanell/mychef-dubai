@@ -290,7 +290,7 @@ export default function EventCateringPriceGuide2026() {
     <div ref={containerRef}>
       <SEO
         title="Dubai Event Catering Prices 2026"
-        description="Honest Dubai event catering prices for 2026: per-person ranges for weddings, corporate events, yacht catering, BBQ, buffet, and plated dinners. Plus factors that affect cost."
+        description="Honest Dubai event catering prices for 2026: per-person ranges for weddings, corporate events, yacht catering, BBQ, buffet, and plated dinners. Plus."
         canonicalPath="/dubai-event-catering-price-guide-2026"
         ogImage="/images/event-catering-price-guide-hero.webp"
         schema={schema}

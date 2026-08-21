@@ -6,8 +6,7 @@ import type { ServicePageConfig } from './shared/ServiceLandingPage'
 const config: ServicePageConfig = {
   slug: 'fodmap-catering-dubai',
   seoTitle: "FODMAP-Friendly Catering Dubai | Low-FODMAP",
-  metaDescription:
-    'Low-FODMAP catering in Dubai for IBS-friendly events, wellness retreats and private dinners. Gentle menus without onion, garlic and high-FODMAP ingredients. Request a quote.',
+  metaDescription: 'Low-FODMAP catering in Dubai for IBS-friendly events, wellness retreats and private dinners. Gentle menus without onion, garlic and high-FODMAP.',
   canonicalPath: '/fodmap-catering-dubai',
   showTrustSignalStrip: true,
   ogImage: '/images/healthy-catering-dubai-hero.webp',

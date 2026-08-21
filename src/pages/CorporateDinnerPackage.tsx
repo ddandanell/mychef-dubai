@@ -5,7 +5,7 @@ export default function CorporateDinnerPackage() {
     <PackagePageTemplate
       name="Corporate Dinner"
       seoTitle="Corporate Dinner Package Dubai | Boardroom & Team Dining | myCHEF"
-      description="Corporate Dinner Package Dubai: professional private dining for 10–15 guests from AED 4,500. Boardroom dinners, client entertainment, and VAT invoicing. Request a quote."
+      description="Corporate Dinner Package Dubai: professional private dining for 10–15 guests from AED 4,500. Boardroom dinners, client entertainment, and VAT invoicing."
       canonicalPath="/corporate-dinner-package-dubai"
       ogImage="/images/corporate-catering-dubai-hero.webp"
       headline="Corporate Dinner Package Dubai: Boardroom & Team Dining"

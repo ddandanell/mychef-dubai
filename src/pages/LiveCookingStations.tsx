@@ -289,7 +289,7 @@ export default function LiveCookingStations() {
     <div ref={containerRef}>
       <SEO
         title="Live Cooking Stations Dubai | Interactive Food Stations | myCHEF"
-        description="Book interactive live cooking stations in Dubai. Pasta, grill, sushi, carving & dessert counters for weddings & corporate events. Get a tailored station package quote."
+        description="Book interactive live cooking stations in Dubai. Pasta, grill, sushi, carving & dessert counters for weddings & corporate events. Get a tailored station."
         canonicalPath="/live-cooking-stations-dubai"
         ogImage="/process-2.webp"
         hideSiteName

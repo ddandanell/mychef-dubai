@@ -6,8 +6,7 @@ import type { DietaryPageConfig } from './dietary/DietaryCateringPage'
 const config: DietaryPageConfig = {
   slug: 'dairy-free-catering-dubai',
   seoTitle: 'Dairy-Free Catering Dubai | Lactose-Free Menus | myCHEF',
-  metaDescription:
-    'Book dairy-free catering in Dubai. Lactose-free menus with creamy plant-based alternatives for weddings, villas, offices and parties. Get a tailored quote in 15 minutes.',
+  metaDescription: 'Book dairy-free catering in Dubai. Lactose-free menus with creamy plant-based alternatives for weddings, villas, offices and parties. Get a tailored.',
   canonicalPath: '/dairy-free-catering-dubai',
   hideSiteName: true,
   showTrustSignalStrip: true,

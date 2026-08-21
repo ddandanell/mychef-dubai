@@ -281,7 +281,7 @@ export default function BuffetCatering() {
     <div ref={containerRef}>
       <SEO
         title="Buffet Catering Dubai | Hot & Cold Stations + Live Counters | myCHEF"
-        description="Premium buffet catering in Dubai with hot & cold stations, live action counters & international menus. Weddings, corporate events & large gatherings. Request a menu quote today."
+        description="Premium buffet catering in Dubai with hot & cold stations, live action counters & international menus. Weddings, corporate events & large gatherings."
         canonicalPath="/buffet-catering-dubai"
         ogImage="/service-catering.webp"
         hideSiteName

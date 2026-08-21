@@ -268,7 +268,7 @@ export default function BusinessLunchCatering() {
     <div ref={containerRef}>
       <SEO
         title="Business Lunch Catering Dubai | Boardroom & Client Meetings | myCHEF"
-        description="Business lunch catering in Dubai for boardroom meetings, client hosting & working lunches. VAT/TRN invoicing, halal sourcing, account management. Quote in 15 min."
+        description="Business lunch catering in Dubai for boardroom meetings, client hosting & working lunches. VAT/TRN invoicing, halal sourcing, account management. Quote."
         canonicalPath="/business-lunch-catering-dubai"
         ogImage="/service-corporate.webp"
         hideSiteName

@@ -198,7 +198,7 @@ export default function VenuePartners() {
     <>
       <SEO
         title="Venue Partners | Preferred Catering"
-        description="Discover Dubai venues where myCHEF provides private chef and catering services. From yacht charters to luxury villas and event spaces, we coordinate catering at distinguished locations."
+        description="Discover Dubai venues where myCHEF provides private chef and catering services. From yacht charters to luxury villas and event spaces, we coordinate."
         canonicalPath="/venue-partners"
         ogImage="/images/locations-dubai-hero.webp"
         schema={schema as Record<string, unknown>}

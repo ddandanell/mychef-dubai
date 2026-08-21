@@ -285,7 +285,7 @@ export default function YachtCateringChecklist() {
     <div ref={containerRef}>
       <SEO
         title="Yacht Catering Checklist Dubai"
-        description="Downloadable yacht catering checklist for Dubai. Plan menus, galley logistics, loading, service, and cleanup for yacht events in Dubai Marina and the Arabian Gulf."
+        description="Downloadable yacht catering checklist for Dubai. Plan menus, galley logistics, loading, service, and cleanup for yacht events in Dubai Marina and the Palm."
         canonicalPath="/yacht-catering-checklist-dubai"
         ogImage="/images/yacht-catering-checklist-hero.webp"
         schema={schema}

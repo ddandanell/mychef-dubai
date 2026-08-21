@@ -282,7 +282,7 @@ export default function MocktailBarCatering() {
     <div ref={containerRef}>
       <SEO
         title="Mocktail Bar Catering Dubai | Alcohol-Free Craft Bar | myCHEF"
-        description="Mocktail bar catering in Dubai with alcohol-free craft drinks. Family, corporate & Ramadan events with skilled bartenders & styled bar. Get a quote in 15 min."
+        description="Mocktail bar catering in Dubai with alcohol-free craft drinks. Family, corporate & Ramadan events with skilled bartenders & styled bar. Get a quote in 15."
         canonicalPath="/mocktail-bar-catering-dubai"
         ogImage="/menu-cocktails.webp"
         hideSiteName

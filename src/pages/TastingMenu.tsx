@@ -6,8 +6,7 @@ import type { ServicePageConfig } from './shared/ServiceLandingPage'
 const config: ServicePageConfig = {
   slug: 'tasting-menu-dubai',
   seoTitle: "Tasting Menu Dubai | Chef’s Table",
-  metaDescription:
-    'Bespoke tasting menus and chef’s table experiences in Dubai for intimate dinners, celebrations and corporate hospitality. Multi-course menus served by a private chef team.',
+  metaDescription: 'Bespoke tasting menus and chef’s table experiences in Dubai for intimate dinners, celebrations and corporate hospitality. Multi-course menus served by a.',
   canonicalPath: '/tasting-menu-dubai',
   ogImage: '/images/tasting-menu-dubai-hero.webp',
   showTrustSignalStrip: true,

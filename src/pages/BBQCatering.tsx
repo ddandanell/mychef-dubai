@@ -288,7 +288,7 @@ export default function BBQCatering() {
     <div ref={containerRef}>
       <SEO
         title="BBQ Catering Dubai | Live BBQ Stations & Outdoor Grills | myCHEF"
-        description="Book live BBQ catering in Dubai. Partner-chef-led grills, aged steaks, seafood & halal options for villas, gardens, beaches & yachts. Get a tailored quote in 15 minutes."
+        description="Book live BBQ catering in Dubai. Partner-chef-led grills, aged steaks, seafood & halal options for villas, gardens, beaches & yachts. Get a tailored."
         canonicalPath="/bbq-catering-dubai"
         ogImage="/service-events.webp"
         hideSiteName

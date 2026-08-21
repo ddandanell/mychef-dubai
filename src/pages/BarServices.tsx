@@ -273,7 +273,7 @@ export default function BarServices() {
     <div ref={containerRef}>
       <SEO
         title="Bar Services Dubai | Bartender Hire & Mobile Bars | myCHEF"
-        description="Bar services in Dubai — hire bartenders, mobile bars & custom cocktails for villas, yachts, weddings & corporate events. Zero-proof menus available. Get a quote."
+        description="Bar services in Dubai — hire bartenders, mobile bars & custom cocktails for villas, yachts, weddings & corporate events. Zero-proof menus available. Get."
         canonicalPath="/bar-services-dubai"
         ogImage="/images/bar-services-dubai-hero.webp"
         hideSiteName

@@ -288,7 +288,7 @@ export default function DessertTableCatering() {
     <div ref={containerRef}>
       <SEO
         title="Dessert Table Dubai | Wedding, Birthday & Event Patisserie | myCHEF"
-        description="Bespoke dessert table catering in Dubai for weddings, birthdays & events. Custom cakes, French patisserie, styled sweet displays. Request a menu quote in 15 min."
+        description="Bespoke dessert table catering in Dubai for weddings, birthdays & events. Custom cakes, French patisserie, styled sweet displays. Request a menu quote."
         canonicalPath="/dessert-table-catering-dubai"
         ogImage="/menu-dessert.webp"
         hideSiteName

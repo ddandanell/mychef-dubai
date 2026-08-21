@@ -289,7 +289,7 @@ export default function WeeklyMealPrep() {
     <div ref={containerRef}>
       <SEO
         title="Weekly Meal Prep Dubai | Private Chef from AED 1,898 | myCHEF"
-        description="Weekly meal prep in Dubai by a private chef. Fresh, portioned meals prepared in your home. Starting from AED 1,898/week. Halal, healthy, and fully customised. Get a quote."
+        description="Weekly meal prep in Dubai by a private chef. Fresh, portioned meals prepared in your home. Starting from AED 1,898/week. Halal, healthy, and fully."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/weekly-meal-prep-dubai-hero.webp"
         hideSiteName

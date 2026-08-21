@@ -214,7 +214,7 @@ export default function HowToChooseCatererDubai() {
     <div ref={containerRef}>
       <SEO
         title="How to Choose a Caterer in Dubai"
-        description="Use our 10-point checklist to choose a caterer in Dubai. Covers tastings, licenses, staffing, dietary handling, transparent quotes, venue familiarity, and red flags."
+        description="Use our 10-point checklist to choose a caterer in Dubai. Covers tastings, licenses, staffing, dietary handling, transparent quotes, venue familiarity."
         canonicalPath="/how-to-choose-caterer-dubai"
         ogImage="/service-catering.webp"
         schema={schema}

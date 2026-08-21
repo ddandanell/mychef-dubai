@@ -6,7 +6,7 @@ export default function VillaRentalsPartner() {
     <PartnerPageTemplate
       name="Villa Rentals"
       seoTitle="Villa Rental Partnership Dubai | Chef"
-      description="Partner with myCHEF Dubai to offer premium in-villa private chef and catering services to your guests. Enhance your villa rental with bespoke dining experiences."
+      description="Partner with myCHEF Dubai to offer premium in-villa private chef and catering services to your guests. Enhance your villa rental with bespoke dining."
       canonicalPath="/partners/villa-rentals-dubai"
       ogImage="/images/villa-catering-dubai-hero.webp"
       headline="Villa Rental Partnership Dubai"

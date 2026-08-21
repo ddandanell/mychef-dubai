@@ -199,7 +199,7 @@ export default function ProposalDinner() {
     <div ref={containerRef}>
       <SEO
         title="Proposal Dinner Dubai | Private Chef from AED 1,200 | myCHEF"
-        description="Plan an unforgettable proposal dinner in Dubai with a private chef, personalised menu, floral styling, photography coordination, and perfect timing. Get a quote in 15 minutes."
+        description="Plan an unforgettable proposal dinner in Dubai with a private chef, personalised menu, floral styling, photography coordination, and perfect timing. Get."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/romantic-dinner-dubai-hero.webp"
         hideSiteName

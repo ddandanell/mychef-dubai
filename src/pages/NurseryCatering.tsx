@@ -267,7 +267,7 @@ export default function NurseryCatering() {
     <div ref={containerRef}>
       <SEO
         title="Nursery Catering Dubai | Children Meals"
-        description="Nursery catering in Dubai with soft, balanced meals, allergen-safe preparation, halal menus, and hygiene-first standards for young children. Request your custom quote today."
+        description="Nursery catering in Dubai with soft, balanced meals, allergen-safe preparation, halal menus, and hygiene-first standards for young children. Request your."
         canonicalPath="/nursery-catering-dubai"
         ogImage="/service-catering.webp"
         noindex

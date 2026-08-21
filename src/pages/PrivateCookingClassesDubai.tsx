@@ -309,7 +309,7 @@ export default function PrivateCookingClassesDubai() {
     <div ref={containerRef}>
       <SEO
         title="Private Cooking Classes Dubai | Chef-Led at Home | myCHEF"
-        description="Learn from a private chef with hands-on cooking classes in Dubai. Perfect for couples, families, and team building. Bespoke menus & premium ingredients. Get a quote."
+        description="Learn from a private chef with hands-on cooking classes in Dubai. Perfect for couples, families, and team building. Bespoke menus & premium ingredients."
         canonicalPath="/private-cooking-classes-dubai"
         ogImage="/images/private-cooking-classes-dubai-hero.webp"
         hideSiteName

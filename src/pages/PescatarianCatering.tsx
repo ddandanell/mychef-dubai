@@ -6,8 +6,7 @@ import type { DietaryPageConfig } from './dietary/DietaryCateringPage'
 const config: DietaryPageConfig = {
   slug: 'pescatarian-catering-dubai',
   seoTitle: "Pescatarian Catering Dubai | Seafood Menus",
-  metaDescription:
-    'Pescatarian catering in Dubai for events, villas and offices. Seafood-forward menus with seasonal vegetables, dairy-free options and full-service execution. Request a quote today.',
+  metaDescription: 'Pescatarian catering in Dubai for events, villas and offices. Seafood-forward menus with seasonal vegetables, dairy-free options and full-service.',
   canonicalPath: '/pescatarian-catering-dubai',
   showTrustSignalStrip: true,
   ogImage: '/images/pescatarian-catering-dubai-hero.webp',

@@ -6,8 +6,7 @@ import type { ServicePageConfig } from './shared/ServiceLandingPage'
 const config: ServicePageConfig = {
   slug: 'halal-private-dining-dubai',
   seoTitle: "Halal Private Dining Dubai | Certified",
-  metaDescription:
-    'Halal private dining in Dubai: bespoke halal menus served in your villa, home or venue by a dedicated chef and service team. Perfect for intimate dinners, family celebrations and corporate hospitality.',
+  metaDescription: 'Halal private dining in Dubai: bespoke halal menus served in your villa, home or venue by a dedicated chef and service team. Perfect for intimate dinners.',
   canonicalPath: '/halal-private-dining-dubai',
   showTrustSignalStrip: true,
   ogImage: '/images/halal-private-dining-dubai-hero.webp',

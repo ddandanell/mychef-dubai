@@ -177,7 +177,7 @@ export default function AllergySafeCatering() {
     <div ref={containerRef}>
       <SEO
         title="Allergy-Safe Catering Dubai | Gluten, Dairy & Nut-Free | myCHEF"
-        description="Allergy-safe private chef and catering in Dubai. Detailed allergen briefings, ingredient verification, cross-contact controls, and dietary accommodation. Get a quote."
+        description="Allergy-safe private chef and catering in Dubai. Detailed allergen briefings, ingredient verification, cross-contact controls, and dietary accommodation."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/healthy-catering-dubai-hero.webp"
         hideSiteName

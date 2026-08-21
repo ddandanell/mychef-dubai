@@ -222,7 +222,7 @@ export default function VillaCateringIdeas() {
     <div ref={containerRef}>
       <SEO
         title="Villa Catering Ideas Dubai | Party Menus"
-        description="Villa catering ideas for Dubai homes: BBQ, mezze, brunch, canapés, seated dinners, live stations, and dessert tables. Setup tips, staffing, and seasonality advice."
+        description="Villa catering ideas for Dubai homes: BBQ, mezze, brunch, canapés, seated dinners, live stations, and dessert tables. Setup tips, staffing, and more."
         canonicalPath="/villa-catering-ideas-dubai"
         ogImage="/service-villa.webp"
         schema={schema}

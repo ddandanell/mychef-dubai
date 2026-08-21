@@ -234,7 +234,7 @@ export default function Terms() {
     <div ref={containerRef}>
       <SEO
         title="Terms of Service"
-        description="myCHEF Dubai terms of service for private dining experience design, chef matching, and event coordination."
+        description="myCHEF Dubai terms of service for private dining experience design, chef matching, and event coordination request."
         canonicalPath="/terms"
         ogImage="/images/catering-dubai-hero.webp"
         schema={breadcrumbSchema}

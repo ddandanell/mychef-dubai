@@ -95,7 +95,7 @@ export default function Inquiry() {
     <>
       <SEO
         title="Get a Quote | Private Chef & Catering Dubai | myCHEF"
-        description="Get a tailored quote for a private chef or luxury catering in Dubai. Send your event details on WhatsApp and we will reply within 15 minutes with a bespoke proposal."
+        description="Get a tailored quote for a private chef or luxury catering in Dubai. Send your event details on WhatsApp and we will reply within 15 minutes."
         canonicalPath="/inquiry"
         ogImage="/service-catering.webp"
         noindex

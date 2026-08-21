@@ -288,7 +288,7 @@ export default function IndianCatering() {
     <div ref={containerRef}>
       <SEO
         title="Indian Catering Dubai | Wedding, Party & Corporate"
-        description="Indian catering Dubai for weddings, parties, villas & corporate events. North & South Indian menus, live tandoor, biryani, halal & Jain options. Quote in ~15 mins."
+        description="Indian catering Dubai for weddings, parties, villas & corporate events. North & South Indian menus, live tandoor, biryani, halal & Jain options. Get a quote."
         canonicalPath="/indian-catering-dubai"
         ogImage="/menu-meat.webp"
         schema={schema}

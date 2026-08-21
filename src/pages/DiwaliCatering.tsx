@@ -266,7 +266,7 @@ export default function DiwaliCatering() {
     <div ref={containerRef}>
       <SEO
         title="Diwali Catering Dubai | Indian Festive Menus & Mithai | myCHEF"
-        description="Book Diwali catering in Dubai. Festive Indian menus, vegetarian and Jain spreads, live chaat stations and traditional mithai. Get a tailored quote in 15 minutes."
+        description="Book Diwali catering in Dubai. Festive Indian menus, vegetarian and Jain spreads, live chaat stations and traditional mithai. Get a tailored quote in 15."
         canonicalPath="/diwali-catering-dubai"
         ogImage="/menu-meat.webp"
         hideSiteName

@@ -7,8 +7,7 @@ const config: ServicePageConfig = {
   slug: 'university-catering-dubai',
   noindex: true,
   seoTitle: "University & Student Catering Dubai",
-  metaDescription:
-    'University and student catering in Dubai: campus events, student meals, fresh food stations and dietary-friendly menus for universities, colleges and student groups.',
+  metaDescription: 'University and student catering in Dubai: campus events, student meals, fresh food stations and dietary-friendly menus for universities, colleges and more.',
   canonicalPath: '/university-catering-dubai',
   ogImage: '/service-corporate.webp',
   breadcrumbLabel: 'University & Student Catering Dubai',

@@ -258,7 +258,7 @@ export default function ChristmasCatering() {
     <div ref={containerRef}>
       <SEO
         title="Christmas Catering Dubai | Festive Roasts & Private Chef | myCHEF"
-        description="Book Christmas catering in Dubai. Roasted turkey, festive canapés and seasonal menus for villa, office and family celebrations. Get a tailored quote in 15 minutes."
+        description="Book Christmas catering in Dubai. Roasted turkey, festive canapés and seasonal menus for villa, office and family celebrations. Get a tailored quote."
         canonicalPath="/christmas-catering-dubai"
         ogImage="/service-catering.webp"
         hideSiteName

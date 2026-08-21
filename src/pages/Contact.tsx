@@ -127,7 +127,7 @@ export default function Contact() {
     <div ref={containerRef}>
       <SEO
         title="Contact Us"
-        description="Get in touch with myCHEF Dubai. Request a custom quote for private chef services, luxury catering, or bespoke dining experiences across Dubai. We reply within 15 minutes during business hours."
+        description="Get in touch with myCHEF Dubai. Request a custom quote for private chef services, luxury catering, or bespoke dining. We reply within 15 minutes."
         canonicalPath="/contact"
         ogImage="/images/contact-hero.webp"
         schema={breadcrumbSchema}
