@@ -313,7 +313,7 @@ export default function ArabicCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 arab-hero-h1">
-            Arabic Catering in Dubai
+            Arabic Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 arab-hero-sub">
             Abundant mezze, open charcoal grills, carved ouzi, and Emirati and Levantine classics — the warmth of an authentic Arabic feast brought to weddings, majlis, and events across Dubai.

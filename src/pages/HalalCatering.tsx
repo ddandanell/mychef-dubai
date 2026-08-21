@@ -291,7 +291,7 @@ export default function HalalCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 hal-hero-h1">
-            Halal Catering in Dubai
+            Halal Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 hal-hero-sub">
             Fully halal, multi-cuisine menus prepared with care — for weddings, iftar gatherings, villa dinners, and corporate events across Dubai.

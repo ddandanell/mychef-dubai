@@ -308,7 +308,7 @@ export default function VeganCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 vgn-hero-h1">
-            Vegan Catering in Dubai
+            Vegan Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 vgn-hero-sub">
             Creative plant-based fine dining, vegan canapés, grazing tables, and dairy-free desserts — designed for inclusive, beautiful celebrations across Dubai.

@@ -312,7 +312,7 @@ export default function IndianCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 ind-hero-h1">
-            Indian Catering in Dubai
+            Indian Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 ind-hero-sub">
             North and South Indian feasts, live tandoor and chaat stations, and considered Jain and vegetarian menus — authentic flavour brought to villas, weddings, and events across Dubai.

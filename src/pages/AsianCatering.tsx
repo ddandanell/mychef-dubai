@@ -313,7 +313,7 @@ export default function AsianCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 asia-hero-h1">
-            Asian Catering in Dubai
+            Asian Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 asia-hero-sub">
             Thai, Chinese, and pan-Asian fusion with live wok, dim sum, and sushi stations — vibrant, interactive menus brought to weddings, villas, and events across Dubai.

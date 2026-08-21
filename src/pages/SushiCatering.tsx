@@ -311,7 +311,7 @@ export default function SushiCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 sush-hero-h1">
-            Sushi Catering in Dubai
+            Sushi Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 sush-hero-sub">
             Premium sashimi and nigiri platters, signature maki, and a live sushi chef — from villa gatherings and yacht parties to corporate receptions across Dubai.

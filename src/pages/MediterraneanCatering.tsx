@@ -307,7 +307,7 @@ export default function MediterraneanCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 med-hero-h1">
-            Mediterranean Catering in Dubai
+            Mediterranean Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 med-hero-sub">
             Fresh seafood, Greek mezze, chargrilled mains, and bright, olive-oil-led dishes — light, healthy, sun-soaked menus brought to villas, summer events, and refined dining across Dubai.

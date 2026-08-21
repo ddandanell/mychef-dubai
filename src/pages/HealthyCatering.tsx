@@ -302,7 +302,7 @@ export default function HealthyCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 hlth-hero-h1">
-            Healthy Catering in Dubai
+            Healthy Catering Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 hlth-hero-sub">
             Nutrition-focused, balanced menus — with low-carb and keto options — for corporate wellness days, fitness events, and gatherings across Dubai.
