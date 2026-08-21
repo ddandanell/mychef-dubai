@@ -49,6 +49,8 @@ export default function TeamSection() {
             <img
               src="/team-head-chef.webp"
               alt="Chef in the myCHEF network"
+              width={800}
+              height={1000}
               className="absolute inset-0 w-full h-full object-cover object-top"
               loading="eager"
               fetchPriority="high"

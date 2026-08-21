@@ -100,6 +100,8 @@ export default function TrustSection() {
           <img
             src="/images/yacht-catering-dubai-hero.webp"
             alt="Luxury yacht dining experience"
+            width={1344}
+            height={752}
             className="absolute inset-0 w-full h-full object-cover"
             loading="eager"
             fetchPriority="high"
