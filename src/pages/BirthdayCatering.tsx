@@ -288,7 +288,7 @@ export default function BirthdayCatering() {
     <div ref={containerRef}>
       <SEO
         title="Birthday Catering Dubai | Kids & Adults | Menus & Prices | myCHEF"
-        description="Book birthday catering in Dubai. Themed menus, custom cakes, grazing tables and villa service for kids and adults. Get a tailored quote in 15 minutes."
+        description="Birthday party catering in Dubai for kids & adults. Themed menus, custom cakes, grazing tables, mocktail bars & villa service. Get a tailored quote."
         canonicalPath="/birthday-catering-dubai"
         ogImage="/service-events.webp"
         hideSiteName

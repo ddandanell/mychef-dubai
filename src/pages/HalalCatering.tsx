@@ -297,7 +297,7 @@ export default function HalalCatering() {
             Fully halal, multi-cuisine menus prepared with care — for weddings, iftar gatherings, villa dinners, and corporate events across Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=halal-catering-dubai" className="btn-primary opacity-0 translate-y-4 hal-hero-cta">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=halal-catering-dubai" className="btn-primary opacity-0 translate-y-4 hal-hero-cta">Get My Halal Catering Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -511,7 +511,7 @@ export default function HalalCatering() {
             Tell us about your celebration and we'll design a fully halal menu — single-cuisine or multi-cuisine — that brings every guest to the same table.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=halal-catering-dubai" className="btn-primary">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=halal-catering-dubai" className="btn-primary">Get My Halal Catering Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

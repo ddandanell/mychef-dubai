@@ -308,7 +308,7 @@ export default function HealthyCatering() {
             Nutrition-focused, balanced menus — with low-carb and keto options — for corporate wellness days, fitness events, and gatherings across Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=healthy-catering-dubai" className="btn-primary opacity-0 translate-y-4 hlth-hero-cta">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=healthy-catering-dubai" className="btn-primary opacity-0 translate-y-4 hlth-hero-cta">Get My Healthy Catering Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -519,7 +519,7 @@ export default function HealthyCatering() {
             Tell us about your event and goals and we'll create a balanced, nutrition-focused menu — low-carb, keto, or wholesome — that leaves every guest feeling their best.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=healthy-catering-dubai" className="btn-primary">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=healthy-catering-dubai" className="btn-primary">Get My Healthy Catering Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

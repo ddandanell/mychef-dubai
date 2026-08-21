@@ -311,7 +311,7 @@ export default function ItalianCatering() {
             Handmade pasta, creamy risotto, abundant antipasti, and live pasta and pizza stations — the warmth and romance of an Italian kitchen brought to weddings, villas, and events across Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=italian-catering-dubai" className="btn-primary opacity-0 translate-y-4 ital-hero-cta">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=italian-catering-dubai" className="btn-primary opacity-0 translate-y-4 ital-hero-cta">Get My Italian Catering Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -522,7 +522,7 @@ export default function ItalianCatering() {
             Tell us about your celebration and we'll design an Italian menu — with live stations if you like — that suits your guests, dietary needs, and the scale of your occasion.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=italian-catering-dubai" className="btn-primary">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=italian-catering-dubai" className="btn-primary">Get My Italian Catering Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

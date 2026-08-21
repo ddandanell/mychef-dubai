@@ -319,7 +319,7 @@ export default function DessertTableCatering() {
             Custom cakes, French patisserie, and styled sweet tables for weddings, birthdays, and baby showers — designed to look as good as they taste.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=dessert-table-catering-dubai" className="btn-primary opacity-0 translate-y-4 des-hero-cta">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=dessert-table-catering-dubai" className="btn-primary opacity-0 translate-y-4 des-hero-cta">Get a Dessert Table Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -531,7 +531,7 @@ export default function DessertTableCatering() {
             Tell us about your celebration and we'll create a cake and dessert table styled to your theme, palette, and guest count.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=dessert-table-catering-dubai" className="btn-primary">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=dessert-table-catering-dubai" className="btn-primary">Get a Dessert Table Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

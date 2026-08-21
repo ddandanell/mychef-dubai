@@ -313,7 +313,7 @@ export default function MocktailBarCatering() {
             A crafted, alcohol-free bar with all the theatre of mixology — perfect for family and corporate celebrations, and Ramadan-friendly across Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=mocktail-bar-catering-dubai" className="btn-primary opacity-0 translate-y-4 moc-hero-cta">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=mocktail-bar-catering-dubai" className="btn-primary opacity-0 translate-y-4 moc-hero-cta">Get a Mocktail Bar Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -525,7 +525,7 @@ export default function MocktailBarCatering() {
             Tell us about your celebration and we'll design an alcohol-free bar and menu that fits your theme, guests, and occasion perfectly.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=mocktail-bar-catering-dubai" className="btn-primary">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=mocktail-bar-catering-dubai" className="btn-primary">Get a Mocktail Bar Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

@@ -313,7 +313,7 @@ export default function CocktailPartyCatering() {
             Professional mixologists, signature cocktails, and elegant passed canapés — styled for rooftop receptions, yacht parties, and villa soirées across Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=cocktail-party-catering-dubai" className="btn-primary opacity-0 translate-y-4 cock-hero-cta">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=cocktail-party-catering-dubai" className="btn-primary opacity-0 translate-y-4 cock-hero-cta">Plan My Cocktail Reception</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -525,7 +525,7 @@ export default function CocktailPartyCatering() {
             Tell us about your reception and we'll design a cocktail menu, bar, and canapé service that fits your venue and guest count perfectly.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=cocktail-party-catering-dubai" className="btn-primary">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=cocktail-party-catering-dubai" className="btn-primary">Plan My Cocktail Reception</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

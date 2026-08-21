@@ -313,7 +313,7 @@ export default function FingerFoodCatering() {
             Generous bite-size menus, sharing platters, and easy service for offices, corporate events, and casual celebrations — relaxed, mess-free, and beautifully presented across Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=finger-food-catering-dubai" className="btn-primary opacity-0 translate-y-4 fin-hero-cta">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=finger-food-catering-dubai" className="btn-primary opacity-0 translate-y-4 fin-hero-cta">Get a Finger Food Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -525,7 +525,7 @@ export default function FingerFoodCatering() {
             Tell us about your event and we'll design a bite-size menu and service plan that fits it perfectly.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=finger-food-catering-dubai" className="btn-primary">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=finger-food-catering-dubai" className="btn-primary">Get a Finger Food Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

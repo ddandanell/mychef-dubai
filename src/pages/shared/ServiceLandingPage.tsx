@@ -237,7 +237,7 @@ export default function ServiceLandingPage({ config }: Props) {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={inquiryLink} className="btn-primary opacity-0 translate-y-4 svc-hero-cta">
-              {config.primaryCta || 'Request a Proposal'}
+              {config.primaryCta || 'Get a Tailored Quote'}
             </Link>
             <a
               href={WHATSAPP_LINK}
@@ -407,7 +407,7 @@ export default function ServiceLandingPage({ config }: Props) {
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">{config.ctaP}</p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={inquiryLink} className="btn-primary">
-              {config.primaryCta || 'Request a Proposal'}
+              {config.primaryCta || 'Get a Tailored Quote'}
             </Link>
             <a
               href={WHATSAPP_LINK}

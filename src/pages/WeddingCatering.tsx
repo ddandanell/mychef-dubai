@@ -294,7 +294,7 @@ export default function WeddingCatering() {
     <div ref={containerRef}>
       <SEO
         title="Wedding Catering Dubai | Villa, Garden & Venue Receptions | myCHEF"
-        description="Book wedding catering in Dubai. Plated or buffet, multi-cuisine menus, halal, full service. Menus tailored to your event. Get a quote in 15 minutes."
+        description="Luxury wedding catering in Dubai for villas, gardens & venues. Plated or buffet, multi-cuisine menus, halal, full service. Request a custom proposal."
         canonicalPath="/wedding-catering-dubai"
         ogImage="/service-events.webp"
         hideSiteName

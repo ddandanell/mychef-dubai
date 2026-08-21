@@ -326,7 +326,7 @@ export default function BrunchCatering() {
             Weekend villa brunches, corporate breakfast events, and daily private chef mornings. Fresh pastries, eggs any style, seasonal fruit, and artisanal coffee — served wherever you are in Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=brunch-catering-dubai" className="btn-primary opacity-0 translate-y-4 brunch-hero-cta">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=brunch-catering-dubai" className="btn-primary opacity-0 translate-y-4 brunch-hero-cta">Get a Brunch Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -661,7 +661,7 @@ export default function BrunchCatering() {
             Tell us about your morning event and we will design a bespoke brunch menu, service style, and staffing plan for your villa, office, or event space in Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=brunch-catering-dubai" className="btn-primary">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=brunch-catering-dubai" className="btn-primary">Get a Brunch Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

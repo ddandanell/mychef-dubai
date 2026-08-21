@@ -11,6 +11,11 @@
   },
   "redirects": [
     {
+      "source": "/corporate-catering-dubai",
+      "destination": "/corporate",
+      "statusCode": 301
+    },
+    {
       "source": "/healthcare-catering-dubai",
       "destination": "/luxury-dining-experiences",
       "statusCode": 301

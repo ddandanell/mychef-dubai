@@ -319,7 +319,7 @@ export default function AsianCatering() {
             Thai, Chinese, and pan-Asian fusion with live wok, dim sum, and sushi stations — vibrant, interactive menus brought to weddings, villas, and events across Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=asian-catering-dubai" className="btn-primary opacity-0 translate-y-4 asia-hero-cta">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=asian-catering-dubai" className="btn-primary opacity-0 translate-y-4 asia-hero-cta">Get My Asian Catering Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -530,7 +530,7 @@ export default function AsianCatering() {
             Tell us about your celebration and we'll design a pan-Asian menu — with live wok, dim sum, or sushi stations — that suits your guests, dietary needs, and the scale of your occasion.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=asian-catering-dubai" className="btn-primary">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=asian-catering-dubai" className="btn-primary">Get My Asian Catering Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

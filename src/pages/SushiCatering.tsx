@@ -317,7 +317,7 @@ export default function SushiCatering() {
             Premium sashimi and nigiri platters, signature maki, and a live sushi chef — from villa gatherings and yacht parties to corporate receptions across Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=sushi-catering-dubai" className="btn-primary opacity-0 translate-y-4 sush-hero-cta">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=sushi-catering-dubai" className="btn-primary opacity-0 translate-y-4 sush-hero-cta">Get My Sushi Catering Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -528,7 +528,7 @@ export default function SushiCatering() {
             Tell us about your event and we'll design a sushi menu — and, if you wish, a live sushi chef — built around your guests, venue, and occasion.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=sushi-catering-dubai" className="btn-primary">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=sushi-catering-dubai" className="btn-primary">Get My Sushi Catering Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

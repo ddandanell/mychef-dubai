@@ -319,7 +319,7 @@ export default function BBQCatering() {
             partner-chef-led grills, premium meats, and fresh seafood cooked live at your villa, garden, beach, or yacht — the theatre and aroma of open-flame cooking with flawless full service across Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=bbq-catering-dubai" className="btn-primary opacity-0 translate-y-4 bbq-hero-cta">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=bbq-catering-dubai" className="btn-primary opacity-0 translate-y-4 bbq-hero-cta">Get a Tailored BBQ Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -531,7 +531,7 @@ export default function BBQCatering() {
             Tell us about your gathering and we'll design a grill menu, sides, and service plan that fits it perfectly.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=bbq-catering-dubai" className="btn-primary">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=bbq-catering-dubai" className="btn-primary">Get a Tailored BBQ Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

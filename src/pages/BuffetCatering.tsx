@@ -312,7 +312,7 @@ export default function BuffetCatering() {
             Abundant hot and cold stations, live action counters, and international menus — beautifully styled and seamlessly served for corporate events, weddings, and large gatherings across Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=buffet-catering-dubai" className="btn-primary opacity-0 translate-y-4 buf-hero-cta">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=buffet-catering-dubai" className="btn-primary opacity-0 translate-y-4 buf-hero-cta">Get a Buffet Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -524,7 +524,7 @@ export default function BuffetCatering() {
             Tell us about your event and we'll design a buffet menu, stations, and service plan that fits it perfectly.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=buffet-catering-dubai" className="btn-primary">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=buffet-catering-dubai" className="btn-primary">Get a Buffet Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

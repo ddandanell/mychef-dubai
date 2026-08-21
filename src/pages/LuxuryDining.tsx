@@ -289,7 +289,7 @@ export default function LuxuryDining() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Private Dining Dubai | Chef Experiences in Villas"
+        title="Private Dining Dubai | Luxury Chef Experiences in Villas & Penthouses"
         description="Luxury private dining in Dubai with a private chef at your villa, penthouse or yacht. Bespoke tasting menus, full service, halal options. Request a custom menu."
         canonicalPath="/luxury-dining-experiences"
         ogImage="/service-luxury-dining.webp"
@@ -305,7 +305,7 @@ export default function LuxuryDining() {
         imageAlt="Luxury private dining in Dubai"
         imageWidth={1344}
         imageHeight={752}
-        cta={{ label: 'Request a Proposal', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=luxury-dining-experiences' }}
+        cta={{ label: 'Request My Private Dining Proposal', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=luxury-dining-experiences' }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Luxury Dining Experiences' }]}
         minHeight="tall"
@@ -567,7 +567,7 @@ export default function LuxuryDining() {
             Your bespoke dining experience begins with a single conversation.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=luxury-dining-experiences" className="btn-primary">Request a Proposal</Link>
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=luxury-dining-experiences" className="btn-primary">Request My Private Dining Proposal</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
