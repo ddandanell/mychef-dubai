@@ -24,6 +24,7 @@ export default function Home() {
         description="Hire a private chef or book luxury catering in Dubai. Bespoke menus for villas, yachts, weddings & corporate events. Vetted chefs, halal-first, reply in 15 min. Get a quote."
         canonicalPath="/"
         ogImage="/images/home-hero.webp"
+        preloadHero="/images/home-hero.webp"
         schema={ORGANIZATION_SCHEMA}
       />
       <HeroSection />
