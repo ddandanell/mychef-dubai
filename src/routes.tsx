@@ -26,6 +26,7 @@ const CorporateDinnerPackage: PreloadableComponent = lazyPreloadable(() => impor
 const LuxuryDining: PreloadableComponent = lazyPreloadable(() => import('./pages/LuxuryDining'))
 const Events: PreloadableComponent = lazyPreloadable(() => import('./pages/Events'))
 const Corporate: PreloadableComponent = lazyPreloadable(() => import('./pages/Corporate'))
+const CorporateCateringDubai: PreloadableComponent = lazyPreloadable(() => import('./pages/CorporateCateringDubai'))
 const Villas: PreloadableComponent = lazyPreloadable(() => import('./pages/Villas'))
 const Yachts: PreloadableComponent = lazyPreloadable(() => import('./pages/Yachts'))
 const RomanticDinner: PreloadableComponent = lazyPreloadable(() => import('./pages/RomanticDinner'))
@@ -217,6 +218,7 @@ export const routes: AppRoute[] = [
   { path: "/luxury-dining-experiences", element: <LuxuryDining />, preload: LuxuryDining.preload },
   { path: "/events", element: <Events />, preload: Events.preload },
   { path: "/corporate", element: <Corporate />, preload: Corporate.preload },
+  { path: "/corporate-catering-dubai", element: <CorporateCateringDubai />, preload: CorporateCateringDubai.preload },
   { path: "/villas-private-residences", element: <Villas />, preload: Villas.preload },
   { path: "/yachts", element: <Yachts />, preload: Yachts.preload },
   { path: "/romantic-dinner-dubai", element: <RomanticDinner />, preload: RomanticDinner.preload },

@@ -26,14 +26,6 @@ import { deferNonCritical } from '../lib/deferNonCritical'
 gsap.registerPlugin(ScrollTrigger)
 
 const WHATSAPP_NUMBER = '971551744849'
-const WHATSAPP_MESSAGE = encodeURIComponent(
-  "Hi myCHEF Dubai, I'd like to request a corporate catering quote (via mychef.ae/corporate)"
-)
-const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
-const RETAINER_MESSAGE = encodeURIComponent(
-  "Hi myCHEF Dubai, I'd like a corporate retainer proposal (via mychef.ae/corporate)"
-)
-const RETAINER_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${RETAINER_MESSAGE}`
 
 /* ───── Data ───── */
 
@@ -244,8 +236,33 @@ const schema = [
 /* ───── Page Component ───── */
 
 const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'm interested in corporate catering in Dubai. Date: __ Guests: __ Area: __"
-export default function Corporate() {
+
+interface CorporateProps {
+  seoTitle?: string
+  seoDescription?: string
+  canonicalPath?: string
+  pageHeroTitle?: string
+  pageHeroSubtitle?: string
+  whatsappAttribution?: string
+}
+
+export default function Corporate({
+  seoTitle = 'Corporate Catering Dubai | Office Lunches & Events | From AED 90pp',
+  seoDescription = 'Corporate catering in Dubai for offices, conferences, product launches & galas. VAT/TRN invoicing, halal sourcing, dedicated account manager. Get a quote.',
+  canonicalPath = '/corporate',
+  pageHeroTitle = 'Corporate Catering Dubai — Office, Boardroom & Events',
+  pageHeroSubtitle = 'Impress clients. Reward teams. Elevate every business occasion with premium corporate dining and catering. We reply within 15 minutes during business hours.',
+  whatsappAttribution = 'corporate',
+}: CorporateProps) {
   useWhatsAppMessage(PAGE_WHATSAPP_MESSAGE)
+
+  const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(
+    `Hi myCHEF Dubai, I'd like to request a corporate catering quote (via mychef.ae/${whatsappAttribution})`
+  )}`
+  const RETAINER_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(
+    `Hi myCHEF Dubai, I'd like a corporate retainer proposal (via mychef.ae/${whatsappAttribution})`
+  )}`
+
   const cardsRef = useRef<HTMLDivElement>(null)
   const solutionsRef = useRef<HTMLDivElement>(null)
   const trustRef = useRef<HTMLDivElement>(null)
@@ -370,9 +387,9 @@ export default function Corporate() {
   return (
     <>
       <SEO
-        title="Corporate Catering Dubai | Office Lunches & Events | From AED 90pp"
-        description="Corporate catering in Dubai for offices, conferences, product launches & galas. VAT/TRN invoicing, halal sourcing, dedicated account manager. Get a quote."
-        canonicalPath="/corporate"
+        title={seoTitle}
+        description={seoDescription}
+        canonicalPath={canonicalPath}
         ogImage="/service-corporate.webp"
         hideSiteName
         preloadHero="/images/corporate-catering-dubai-hero.webp"
@@ -381,8 +398,8 @@ export default function Corporate() {
 
       {/* ─── Hero ─── */}
       <PageHero
-        title="Corporate Catering Dubai — Office, Boardroom & Events"
-        subtitle="Impress clients. Reward teams. Elevate every business occasion with premium corporate dining and catering. We reply within 15 minutes during business hours."
+        title={pageHeroTitle}
+        subtitle={pageHeroSubtitle}
         image="/images/corporate-catering-dubai-hero.webp"
         imageAlt="Corporate catering in Dubai"
         imageWidth={1344}
