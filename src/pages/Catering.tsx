@@ -528,6 +528,8 @@ export default function Catering() {
                 <img
                   src={img.src}
                   alt={img.alt}
+                  width={800}
+                  height={600}
                   className="w-full h-full object-cover transition-transform duration-300 hover:scale-[1.03]"
                   loading="lazy" decoding="async"/>
               </div>
@@ -587,6 +589,8 @@ export default function Catering() {
                   <img
                     src={svc.image}
                     alt={svc.title}
+                    width={640}
+                    height={360}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                     loading="lazy" decoding="async"/>
                 </div>

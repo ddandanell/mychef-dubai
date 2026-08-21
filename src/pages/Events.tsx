@@ -533,6 +533,8 @@ export default function Events() {
                   <img
                     src={event.image}
                     alt={event.title}
+                    width={640}
+                    height={360}
                     loading="lazy"
                     className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" decoding="async"/>
                   <div className="absolute inset-0 gradient-overlay-bottom" />
@@ -652,6 +654,8 @@ export default function Events() {
                 <img
                   src={img}
                   alt={`Event catering Dubai ${i + 1}`}
+                  width={800}
+                  height={600}
                   loading="lazy"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" decoding="async"/>
                 <div className="absolute inset-0 bg-black/20 transition-opacity duration-300 group-hover:opacity-0" />
@@ -789,6 +793,8 @@ export default function Events() {
                   <img
                     src={event.image}
                     alt={event.title}
+                    width={640}
+                    height={360}
                     loading="lazy"
                     className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                     decoding="async"
