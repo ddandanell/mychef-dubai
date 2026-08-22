@@ -13,7 +13,7 @@ const pages = [
   {
     route: '/private-chef-dubai',
     title: 'Private Chef Dubai | Hire a Personal Chef at Home | myCHEF',
-    meta: 'Book a private chef in Dubai from AED 1,200 for dinner, or a household chef from AED 900 a day. Vetted chefs, one contact, prices on this page.',
+    meta: 'Book a private chef in Dubai from AED 1,200 for dinner, or an ongoing household plan from AED 900 a day. Vetted chefs, one contact, prices on this page.',
     h1: 'Book a private chef in Dubai',
   },
   {

@@ -28,18 +28,29 @@ import {
   chefLevels,
   comparison,
   dailyRates,
+  doPromise,
+  dontPromise,
   eveningPackages,
   extraTeam,
   faqs,
+  featuredChefs,
   formatAed,
   householdIncludes,
+  inspectUs,
+  lifeStages,
   locations,
+  pageSequence,
   paths,
   perPersonBands,
   processSteps,
   profileQuestions,
+  proofItems,
   relatedServices,
   upgrades,
+  vettingSteps,
+  weekInTheHouse,
+  whatThisIs,
+  whenThingsChange,
   whoDoesWhat,
   whoFor,
   type ChefLevelName,
@@ -88,7 +99,7 @@ const schema = {
       '@type': 'AggregateOffer',
       name: 'Private chef household arrangements in Dubai',
       description:
-        'Starting daily and monthly prices for a standing private chef arrangement. Groceries separate. Standard schedule is 5 service days per week.',
+        'Starting daily and monthly prices for a standing private chef arrangement. Groceries separate. Standard schedule is 5 service days per week. Daily figures are effective rates on an ongoing plan of about 20 service days, not isolated one-day tickets.',
       url: 'https://www.mychef.ae/private-chef-dubai#household',
       priceCurrency: 'AED',
       lowPrice: '900',
@@ -143,6 +154,24 @@ function FillFrame({
         {...(eager ? { fetchPriority: 'high' as const } : {})}
         decoding="async"
       />
+    </div>
+  )
+}
+
+function PathSwitcher({ className = '' }: { className?: string }) {
+  return (
+    <div className={`bg-black border-y border-gold/25 ${className}`}>
+      <div className="container-custom py-3 flex flex-col sm:flex-row sm:items-center sm:justify-center gap-3 sm:gap-6">
+        <p className="font-inter text-caption uppercase tracking-wider text-gold text-center">What do you need?</p>
+        <div className="flex justify-center gap-2">
+          <a href="#evening" className="px-4 py-2 font-inter text-body-sm uppercase tracking-wider border border-gold text-gold hover:bg-gold hover:text-black transition-colors">
+            One evening
+          </a>
+          <a href="#household" className="px-4 py-2 font-inter text-body-sm uppercase tracking-wider border border-gold text-gold hover:bg-gold hover:text-black transition-colors">
+            Ongoing household
+          </a>
+        </div>
+      </div>
     </div>
   )
 }
@@ -227,28 +256,35 @@ export default function PrivateChef() {
         </div>
       </PageHero>
       <TrustSignalStrip />
+      <PathSwitcher className="sticky top-16 z-30" />
 
-      {/* What myCHEF is */}
-      <section className="bg-white">
+      <nav aria-label="Page sections" className="bg-charcoal border-b border-white/10">
+        <div className="container-custom py-4 overflow-x-auto">
+          <ol className="flex gap-4 min-w-max md:min-w-0 md:flex-wrap md:justify-center">
+            {pageSequence.map((item) => (
+              <li key={item.href}>
+                <a href={item.href} className="flex items-baseline gap-2 font-inter text-caption uppercase tracking-wider text-gray-400 hover:text-gold transition-colors">
+                  <span className="text-gold">{item.n}</span>
+                  {item.label}
+                </a>
+              </li>
+            ))}
+          </ol>
+        </div>
+      </nav>
+
+      {/* 01 What myCHEF is */}
+      <section id="what-this-is" className="bg-white scroll-mt-24">
         <div className="grid lg:grid-cols-2 min-h-[70vh] lg:min-h-[85vh]">
           <div className="flex items-center section-padding order-2 lg:order-1">
             <div className="max-w-[560px] mx-auto lg:ml-auto lg:mr-16">
               <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">What myCHEF is</span>
               <h2 className="font-playfair text-h2 text-black mb-6">The system, not just a chef</h2>
-              <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-                myCHEF is not a list of chefs you have to manage, and not a staffing agency that puts someone on your payroll.
-                Independent, licensed culinary partners cook. We organise the chef: the match, the standard and the backup.
-              </p>
-              <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-                Before anyone enters your kitchen we check identity and right-to-work, run a practical cooking assessment,
-                take references, and review after service. For a standing arrangement we also hold your Food Profile, give you
-                one contact, handle scheduling and backup, and bring in a specialist when you want one.
-              </p>
-              <p className="font-inter text-body text-gray-500 leading-relaxed">
-                The chef cooks. We keep the chef, the house and the standard aligned. That is how to hire a private chef in Dubai
-                without turning a personal chef at home into another job. The longer you stay, the better the service should
-                become — a long-term private chef arrangement that learns the house.
-              </p>
+              {whatThisIs.map((para) => (
+                <p key={para.slice(0, 40)} className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5 last:mb-0">
+                  {para}
+                </p>
+              ))}
             </div>
           </div>
           <FillFrame
@@ -261,32 +297,51 @@ export default function PrivateChef() {
         </div>
       </section>
 
-      {/* Who it is for */}
-      <section className="bg-cream section-padding">
+      {/* 02 Which service */}
+      <section id="which-service" className="bg-cream section-padding scroll-mt-24">
         <div className="container-custom">
-          <div className="text-center max-w-[720px] mx-auto mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">Who it is for</span>
+          <div className="text-center max-w-[760px] mx-auto mb-12">
+            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">Which service</span>
             <h2 className="font-playfair text-h2 text-black">You want a chef. The question is whether you want to manage one.</h2>
+            <p className="font-inter text-body text-gray-500 mt-4 leading-relaxed">
+              Two products. Keep them apart in your head: one evening, or an ongoing household. They are psychologically different purchases — a night you host, versus a house that no longer thinks about food. Everything below follows one of those two paths.
+            </p>
           </div>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {whoFor.map((item) => (
-              <div key={item.title} className="pc-fade opacity-0 translate-y-8 bg-white p-8 border border-gray-200">
-                <h3 className="font-playfair text-h4 text-black mb-3">{item.title}</h3>
-                <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{item.body}</p>
+          <div className="grid lg:grid-cols-2 gap-8">
+            <div>
+              <a href="#evening" className="font-inter text-caption uppercase tracking-wider text-gold mb-4 inline-block">One evening →</a>
+              <div className="space-y-4">
+                {whoFor.filter((item) => item.path === 'evening').map((item) => (
+                  <div key={item.title} className="bg-white p-6 border border-gray-200">
+                    <h3 className="font-playfair text-h4 text-black mb-2">{item.title}</h3>
+                    <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{item.body}</p>
+                  </div>
+                ))}
               </div>
-            ))}
+            </div>
+            <div>
+              <a href="#household" className="font-inter text-caption uppercase tracking-wider text-gold mb-4 inline-block">Ongoing household →</a>
+              <div className="space-y-4">
+                {whoFor.filter((item) => item.path === 'household').map((item) => (
+                  <div key={item.title} className="bg-white p-6 border border-gray-200">
+                    <h3 className="font-playfair text-h4 text-black mb-2">{item.title}</h3>
+                    <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{item.body}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Why not hire independently */}
-      <section className="bg-black section-padding">
+      {/* 03 Why not hire independently */}
+      <section id="why-not-hire" className="bg-black section-padding scroll-mt-24">
         <div className="container-custom">
           <div className="text-center max-w-[720px] mx-auto mb-12">
             <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">Why not hire independently</span>
             <h2 className="font-playfair text-h2 text-white">A freelancer can look cheaper on day one</h2>
-            <p className="font-inter text-body text-gray-400 mt-4">
-              You are paying for the person only. myCHEF is the person plus backup, matching, review and a kitchen that already knows the house.
+            <p className="font-inter text-body text-gray-400 mt-4 leading-relaxed">
+              You are paying for the person only. Finding, backup, quality, specialists, paperwork and the real cost of covering a Sunday are unpaid work — yours. myCHEF is the person plus the system that makes the person usable.
             </p>
           </div>
           <div className="overflow-x-auto">
@@ -312,10 +367,13 @@ export default function PrivateChef() {
         </div>
       </section>
 
-      {/* How it works */}
+      {/* 04 How it works */}
       <section id="how-it-works" className="bg-cream section-padding scroll-mt-24">
         <div className="container-custom max-w-[1000px]">
-          <h2 className="font-playfair text-h2 text-black text-center mb-12">How a private chef through myCHEF works</h2>
+          <h2 className="font-playfair text-h2 text-black text-center mb-4">How a private chef through myCHEF works</h2>
+          <p className="font-inter text-body text-gray-500 text-center max-w-[640px] mx-auto mb-12 leading-relaxed">
+            Five steps. The same sequence whether you are booking one dinner or a house that eats here every weekday.
+          </p>
           <div className="space-y-10">
             {processSteps.map((step) => (
               <div key={step.num} className="pc-fade opacity-0 translate-y-8 flex gap-6 md:gap-8">
@@ -328,15 +386,55 @@ export default function PrivateChef() {
             ))}
           </div>
           <p className="mt-12 font-inter text-body-sm text-gray-500 text-center max-w-[640px] mx-auto">
-            Evenings: often 48 hours; last-minute when we can. A new household: about five days. Once we know you, two days is often enough. During business hours we typically reply within 15 minutes.
+            One evening: often 48 hours. A new household: about five days. Once we know you, two days is often enough. During business hours we typically reply within 15 minutes.
           </p>
+        </div>
+      </section>
+
+      {/* 05 The life you are buying */}
+      <section id="the-life" className="bg-charcoal section-padding scroll-mt-24">
+        <div className="container-custom">
+          <div className="max-w-[760px] mx-auto text-center mb-12">
+            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">What this looks like</span>
+            <h2 className="font-playfair text-h2 text-white mb-6">You are not buying a Food Profile</h2>
+            <p className="font-inter text-body-lg text-gray-300 leading-relaxed">
+              Monday morning, breakfast appears exactly how they like it. The children get food they will actually eat. Friday they suddenly want Japanese. Friends come Saturday. The usual chef takes Sunday off. Nobody in the family needs to coordinate any of it. That is the life. The Food Profile is only how we remember it.
+            </p>
+          </div>
+          <div className="grid md:grid-cols-3 gap-6 mb-16">
+            {lifeStages.map((stage) => (
+              <div key={stage.when} className="border border-gold/25 p-8 bg-black/40">
+                <p className="font-inter text-caption uppercase tracking-wider text-gold mb-3">{stage.when}</p>
+                <h3 className="font-playfair text-h3 text-white mb-4">{stage.title}</h3>
+                <p className="font-inter text-body-sm text-gray-400 leading-relaxed">{stage.body}</p>
+              </div>
+            ))}
+          </div>
+          <div className="max-w-[800px] mx-auto">
+            <h3 className="font-playfair text-h3 text-white text-center mb-8">A week in the house</h3>
+            <ol className="space-y-0">
+              {weekInTheHouse.map((item, i) => (
+                <li key={item.day} className="grid md:grid-cols-[160px_1fr] gap-3 md:gap-8 py-5 border-t border-white/10 last:border-b">
+                  <p className="font-inter text-caption uppercase tracking-wider text-gold pt-1">{item.day}</p>
+                  <p className="font-inter text-body text-gray-300 leading-relaxed">{item.body}</p>
+                  <span className="sr-only">Day {i + 1}</span>
+                </li>
+              ))}
+            </ol>
+            <p className="mt-10 font-playfair text-h4 text-white text-center leading-relaxed">
+              After a year you should not be re-explaining breakfast.
+            </p>
+          </div>
         </div>
       </section>
 
       {/* Who does what */}
       <section className="bg-white section-padding">
         <div className="container-custom">
-          <h2 className="font-playfair text-h2 text-black text-center mb-12">Who does what</h2>
+          <h2 className="font-playfair text-h2 text-black text-center mb-4">Who does what</h2>
+          <p className="font-inter text-body text-gray-500 text-center max-w-[640px] mx-auto mb-12 leading-relaxed">
+            The split is the product. If you end up doing the chef’s job or our job, the service has failed.
+          </p>
           <div className="grid md:grid-cols-3 gap-6">
             {whoDoesWhat.map((col) => (
               <div key={col.who} className="border border-gray-200 p-8">
@@ -358,7 +456,101 @@ export default function PrivateChef() {
         </div>
       </section>
 
-      {/* An evening */}
+      {/* 06 The chefs */}
+      <section id="the-chefs" className="bg-black scroll-mt-24">
+        <div className="grid lg:grid-cols-2 min-h-[70vh] lg:min-h-[90vh]">
+          <FillFrame
+            src={photos[4].src}
+            alt={photos[4].alt}
+            width={photos[4].width}
+            height={photos[4].height}
+            className="min-h-[50vh] lg:min-h-full"
+            objectPosition="center 30%"
+          />
+          <div className="flex items-center section-padding">
+            <div className="max-w-[560px] mx-auto lg:ml-16 lg:mr-auto">
+              <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">The chefs</span>
+              <h2 className="font-playfair text-h2 text-white mb-6">We do not fill a slot with whoever is free</h2>
+              <p className="font-inter text-body text-gray-400 leading-relaxed mb-4">
+                This is a show of the people — not a locked roster. We work with 50+ professionals and change who we put forward depending on what you need. If the right match is not here, we find it.
+              </p>
+              <p className="font-inter text-body text-gray-400 leading-relaxed mb-4">
+                Every person we place as a head chef has typically led a restaurant kitchen for five to ten years, and arrives with their own assistants. Matching is the work of myCHEF: the right professional to the right house, and a specialist when you want one — including a yacht chef in Dubai Marina.
+              </p>
+              <p className="font-inter text-body text-gray-400 leading-relaxed mb-6">
+                A CV is not enough. Private service requires knowing when to speak and when not to, respecting someone’s home, being reliable, listening, and making excellent food. See{' '}
+                <Link to="/how-we-vet-our-chefs" className="text-gold hover:text-gold-light underline underline-offset-4">how we vet our chefs</Link>
+                {' '}and{' '}
+                <Link to="/our-chefs" className="text-gold hover:text-gold-light underline underline-offset-4">our chefs</Link>.
+              </p>
+              <p className="font-inter text-body-sm text-gray-500 leading-relaxed">
+                Level is background plus how they actually perform with myCHEF. Specialty is separate. Private is not “worse.” Signature is not automatically “better.”
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="container-custom section-padding pt-4 pb-20">
+          <p className="font-inter text-caption uppercase tracking-wider text-gold mb-3 text-center">Chefs currently listed in the network</p>
+          <h3 className="font-playfair text-h3 text-white text-center mb-4">Independent partners — not a staff roster</h3>
+          <p className="font-inter text-body-sm text-gray-400 text-center max-w-[640px] mx-auto mb-10 leading-relaxed">
+            Four chefs we currently present on the site. Matching is not limited to them. Profiles describe independent licensed partners, not employees.
+          </p>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {featuredChefs.map((chef) => (
+              <Link
+                key={chef.href}
+                to={chef.href}
+                className="group bg-charcoal overflow-hidden hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] transition-all duration-300"
+              >
+                <div className="aspect-[4/5] overflow-hidden relative">
+                  <img
+                    src={chef.image}
+                    alt={`${chef.name}, ${chef.role} in the myCHEF Dubai network`}
+                    width={640}
+                    height={800}
+                    className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+                <div className="p-5">
+                  <p className="font-playfair text-h4 text-white mb-1">{chef.name}</p>
+                  <p className="font-inter text-caption uppercase tracking-wider text-gold mb-2">{chef.role}</p>
+                  <p className="font-inter text-body-sm text-gray-400">{chef.cuisine}</p>
+                  <p className="font-inter text-body-sm text-gray-500 mt-1">{chef.experience}</p>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+        <div className="grid lg:grid-cols-2 min-h-[70vh] lg:min-h-[90vh]">
+          <div className="flex items-center section-padding order-2 lg:order-1">
+            <div className="max-w-[560px] mx-auto lg:mr-16 lg:ml-auto">
+              <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">Daily life</span>
+              <h2 className="font-playfair text-h2 text-white mb-6">A food service that learns</h2>
+              <p className="font-inter text-body text-gray-400 leading-relaxed mb-4">
+                You may have one chef you love. Keep them. Sometimes you want Chinese tonight, a higher-level chef for one Saturday, or healthy family food on a weekday without paying for a tasting-menu specialist.
+              </p>
+              <p className="font-inter text-body text-gray-400 leading-relaxed mb-4">
+                After approximately two days we contact you separately from the chef. A sudden terrible score makes us ask: poor food, an unlearned preference, a misunderstanding, a mistake, or an unreasonable request? You are allowed to make a mistake. You are expected to learn from it.
+              </p>
+              <p className="font-inter text-body text-gray-400 leading-relaxed">
+                Safety starts before the first meal. After a year you should not be re-explaining breakfast. Our goal is to be there without feeling like we are there.
+              </p>
+            </div>
+          </div>
+          <FillFrame
+            src={photos[5].src}
+            alt={photos[5].alt}
+            width={photos[5].width}
+            height={photos[5].height}
+            className="min-h-[50vh] lg:min-h-full order-1 lg:order-2"
+            objectPosition="center"
+          />
+        </div>
+      </section>
+
+      {/* 07 An evening */}
       <section id="evening" className="bg-black scroll-mt-24">
         <div className="relative min-h-[55vh] md:min-h-[70vh]">
           <FillFrame
@@ -371,7 +563,7 @@ export default function PrivateChef() {
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black via-black/55 to-black/15" />
           <div className="relative z-10 container-custom min-h-[55vh] md:min-h-[70vh] flex flex-col justify-end pb-12 md:pb-16">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">An evening</span>
+            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">Product A · One evening</span>
             <h2 className="font-playfair text-h2 text-white mb-4 max-w-[720px]">A private chef dinner in Dubai</h2>
             <p className="font-inter text-body text-white/85 leading-relaxed max-w-[720px]">
               A chef in your kitchen for one service. Menu designed with you. Ingredients sourced. Cooked, plated, served, kitchen left handled. You provide the room and the guests. Groceries are in the quote. 5% VAT is shown separately. A deposit confirms the date.
@@ -379,6 +571,9 @@ export default function PrivateChef() {
           </div>
         </div>
         <div className="container-custom section-padding pt-12">
+          <p className="font-inter text-body text-gray-400 leading-relaxed max-w-[720px] mb-10">
+            This is the night: a date, a birthday, clients, a yacht. It is not a household plan. You are not taking on a person. You are booking a service that ends when the kitchen is left handled. Starting packages below. Final quotes move with guests, menu and service.
+          </p>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
             {eveningPackages.map((pkg) => (
               <Link
@@ -422,7 +617,7 @@ export default function PrivateChef() {
         </div>
       </section>
 
-      {/* A household */}
+      {/* 07b A household */}
       <section id="household" className="bg-cream scroll-mt-24">
         <div className="relative min-h-[50vh] md:min-h-[65vh]">
           <FillFrame
@@ -435,25 +630,30 @@ export default function PrivateChef() {
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/35 to-black/10" />
           <div className="relative z-10 container-custom min-h-[50vh] md:min-h-[65vh] flex flex-col justify-end pb-12 md:pb-16">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">A household</span>
+            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">Product B · Ongoing household</span>
             <h2 className="font-playfair text-h2 text-white mb-4 max-w-[760px]">A standing private chef arrangement</h2>
             <p className="font-inter text-body text-white/85 leading-relaxed max-w-[760px]">
-              Choose the level of chef. Then choose how often you want them. Groceries are separate. Standard schedule is 5 service days per week.
+              Ongoing household. Choose the level of chef, then how often you want them. Groceries are separate. Standard schedule is 5 service days per week.
             </p>
           </div>
         </div>
         <div className="container-custom section-padding">
           <div className="max-w-[760px] mb-12">
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-4">
-              Choose the level of chef. Then choose how often you want them. You can use myCHEF for a day, a week, a month, or build a combination around your life. You do not need to pay for a full day if you only want breakfast. You do not need our highest-level chef every day because you want an extraordinary dinner once a month.
+              The numbers below are starting rates for an <strong className="font-medium text-black">ongoing household plan</strong> — about 20 service days a month. The “day” figure is the <strong className="font-medium text-black">effective daily rate</strong> of that plan, not a walk-in price for tomorrow.
+            </p>
+            <p className="font-inter text-body text-gray-500 leading-relaxed mb-4">
+              <strong className="font-medium text-black">Single-day booking:</strong> possible. Tell us the date. We quote it.{' '}
+              <strong className="font-medium text-black">Effective daily rate on an ongoing plan:</strong> from AED 900 at Private, one meal a day. Do not assume Private level, one meal, AED 900 books an isolated tomorrow without that conversation.
             </p>
             <p className="font-inter text-body text-gray-500 leading-relaxed">
-              Independent licensed partners cook. myCHEF organises the service. This is not putting a chef on your payroll. Groceries are separate. Standard schedule is 5 service days per week.
+              Independent licensed partners cook. myCHEF organises the service. You do not need a full day if you only want breakfast. You do not need Signature every day because you want one extraordinary dinner a month. Groceries are separate.
             </p>
           </div>
 
           <div className="bg-white border border-gray-200 p-6 md:p-10 mb-12">
-            <h3 className="font-playfair text-h3 text-black mb-6">See a starting price</h3>
+            <h3 className="font-playfair text-h3 text-black mb-2">Ongoing household — starting rates</h3>
+            <p className="font-inter text-body-sm text-gray-500 mb-6">Effective daily rate on a standing plan. A one-off day is quoted separately.</p>
             <div className="grid md:grid-cols-2 gap-8 mb-8">
               <fieldset>
                 <legend className="font-inter text-caption uppercase tracking-wider text-gold mb-3">Chef level</legend>
@@ -499,7 +699,7 @@ export default function PrivateChef() {
             </p>
             <div className="grid sm:grid-cols-3 gap-4">
               <div className="border border-gray-200 p-5">
-                <p className="font-inter text-caption uppercase tracking-wider text-gold mb-2">Day</p>
+                <p className="font-inter text-caption uppercase tracking-wider text-gold mb-2">Effective / day</p>
                 <p className="font-playfair text-h3 text-black">{formatAed(quote.daily)}</p>
               </div>
               <div className="border border-gray-200 p-5">
@@ -513,12 +713,17 @@ export default function PrivateChef() {
             </div>
           </div>
 
-          <h3 className="font-playfair text-h3 text-black mb-4">Chef levels — full-day starting price</h3>
+          <h3 className="font-playfair text-h3 text-black mb-2">Chef levels — what kind of house, not a status ladder</h3>
+          <p className="font-inter text-body text-gray-500 mb-6 max-w-[720px] leading-relaxed">
+            Private is not “worse.” Signature is not automatically “better.” The difference is the brief: everyday family cooking versus a highly specialised requirement. A customer paying AED 30,000 and a customer paying AED 100,000 should both be in the right house, not climbing a prestige ladder.{' '}
+            <strong className="font-medium text-black">Not sure? Don’t choose a level. Tell us how you live and we’ll recommend one.</strong>
+          </p>
           <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-4 mb-12">
             {chefLevels.map((item) => (
               <div key={item.name} className="bg-white border border-gray-200 p-5">
                 <p className="font-playfair text-h4 text-black mb-1">{item.name}</p>
-                <p className="font-inter text-body-sm text-gold mb-3">From AED {item.monthlyFull}+ / month</p>
+                <p className="font-inter text-caption uppercase tracking-wider text-gold mb-2">{item.useCase}</p>
+                <p className="font-inter text-body-sm text-gold mb-3">From AED {item.monthlyFull}+ / month full day</p>
                 <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{item.body}</p>
               </div>
             ))}
@@ -530,7 +735,7 @@ export default function PrivateChef() {
               <thead>
                 <tr className="border-b border-gold/30">
                   <th className="py-3 px-4 font-inter text-caption uppercase tracking-wider text-gold">Service</th>
-                  <th className="py-3 px-4 font-inter text-caption uppercase tracking-wider text-gold">Daily</th>
+                  <th className="py-3 px-4 font-inter text-caption uppercase tracking-wider text-gold">Effective / day</th>
                   <th className="py-3 px-4 font-inter text-caption uppercase tracking-wider text-gold">Weekly · 5 days</th>
                   <th className="py-3 px-4 font-inter text-caption uppercase tracking-wider text-gold">Monthly</th>
                 </tr>
@@ -555,7 +760,7 @@ export default function PrivateChef() {
             Starting example: Private · 2 meals / day · AED 24,000+ / month. Every standard service includes 1 private chef + 1 assistant + the myCHEF system.
           </p>
 
-          <h3 className="font-playfair text-h3 text-black mb-4">All chef levels · daily starting prices</h3>
+          <h3 className="font-playfair text-h3 text-black mb-4">All chef levels · effective daily rates on an ongoing plan</h3>
           <div className="overflow-x-auto mb-8">
             <table className="w-full min-w-[720px] text-left bg-white">
               <thead>
@@ -579,7 +784,7 @@ export default function PrivateChef() {
             </table>
           </div>
           <p className="font-inter text-body-sm text-gray-500 mb-12">
-            Daily equivalents are based on a standard monthly arrangement of approximately 20 service days. Why one meal is not one-third of the price: travel, prep, the kitchen, ingredients, the profile and the management system remain. One meal is about 60% of full-day service, not 33%.
+            Table figures are effective rates on an ongoing plan of about 20 service days. They are not a menu of isolated one-day tickets. Why one meal is not one-third of the price: travel, prep, the kitchen, the profile and the management system remain. One meal is about 60% of full-day service, not 33%.
           </p>
 
           <div className="grid lg:grid-cols-2 gap-8 mb-12">
@@ -646,75 +851,110 @@ export default function PrivateChef() {
           </div>
 
           <p className="font-inter text-body text-gray-500 leading-relaxed mb-6">
-            Events sit on top of your household arrangement. A birthday dinner, a wedding, or a{' '}
-            <Link to="/yachts" className="text-gold hover:text-gold-light underline underline-offset-4">yacht party</Link>{' '}
-            is quoted as one complete event price — not 25 small charges, and not buried in the monthly fee. If you want food handled without a chef in the house every day,{' '}
-            <Link to="/weekly-meal-prep-dubai" className="text-gold hover:text-gold-light underline underline-offset-4">weekly meal prep</Link>{' '}
-            is the lighter version — from AED 1,898 a week.
-          </p>
-          <p className="font-inter text-body text-gray-500 leading-relaxed">
-            Six days, seven-day coverage, long days or late-night service are calculated. Seven-day service may use rotation. Quality comes before squeezing impossible hours out of one person. All prices shown are starting prices. One-off services, additional days, events and specialist requirements are confirmed before booking.
+            Events sit on top of the household arrangement — a birthday, a wedding, or a{' '}
+            <Link to="/yachts" className="text-gold hover:text-gold-light underline underline-offset-4">yacht party</Link>
+            {' '}is one complete event price, not 25 small charges. If you want food handled without a chef in the house every day,{' '}
+            <Link to="/weekly-meal-prep-dubai" className="text-gold hover:text-gold-light underline underline-offset-4">weekly meal prep</Link>
+            {' '}is the lighter version — from AED 1,898 a week.
           </p>
         </div>
       </section>
 
-      {/* Daily life / people */}
-      <section className="bg-black">
-        <div className="grid lg:grid-cols-2 min-h-[70vh] lg:min-h-[90vh]">
-          <FillFrame
-            src={photos[4].src}
-            alt={photos[4].alt}
-            width={photos[4].width}
-            height={photos[4].height}
-            className="min-h-[50vh] lg:min-h-full"
-            objectPosition="center 30%"
-          />
-          <div className="flex items-center section-padding">
-            <div className="max-w-[560px] mx-auto lg:ml-16 lg:mr-auto">
-              <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">The chefs</span>
-              <h2 className="font-playfair text-h2 text-white mb-6">We do not fill a slot with whoever is free</h2>
-              <p className="font-inter text-body text-gray-400 leading-relaxed mb-4">
-                This is a show of the people — not a locked roster. We work with 50+ professionals and change who we put forward depending on what you need. If the right match is not here, we find it.
-              </p>
-              <p className="font-inter text-body text-gray-400 leading-relaxed mb-4">
-                Every person we place as a head chef has typically led a restaurant kitchen for five to ten years, and arrives with their own assistants. Matching is the work of myCHEF: the right professional to the right house, and a specialist when you want one — including a yacht chef in Dubai Marina.
-              </p>
-              <p className="font-inter text-body text-gray-400 leading-relaxed mb-6">
-                A CV is not enough. Private service requires knowing when to speak and when not to, respecting someone’s home, being reliable, listening, and making excellent food. See{' '}
-                <Link to="/how-we-vet-our-chefs" className="text-gold hover:text-gold-light underline underline-offset-4">how we vet our chefs</Link>
-                {' '}and{' '}
-                <Link to="/our-chefs" className="text-gold hover:text-gold-light underline underline-offset-4">our chefs</Link>.
-              </p>
-              <p className="font-inter text-body-sm text-gray-500 leading-relaxed">
-                Level is background plus how they actually perform with myCHEF. Specialty is separate.
-              </p>
-            </div>
+      {/* 08 When something changes */}
+      <section id="when-it-changes" className="bg-white section-padding scroll-mt-24">
+        <div className="container-custom">
+          <div className="max-w-[720px] mx-auto text-center mb-12">
+            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">When something changes</span>
+            <h2 className="font-playfair text-h2 text-black">The system is for the weeks that are not normal</h2>
+            <p className="font-inter text-body text-gray-500 mt-4 leading-relaxed">
+              Rotation, a specialist, backup, guests, seven days. This is the part a freelancer cannot fake, and the part a household actually uses.
+            </p>
+          </div>
+          <div className="grid md:grid-cols-2 gap-6">
+            {whenThingsChange.map((item) => (
+              <div key={item.title} className="border border-gray-200 p-8">
+                <h3 className="font-playfair text-h4 text-black mb-3">{item.title}</h3>
+                <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{item.body}</p>
+              </div>
+            ))}
           </div>
         </div>
-        <div className="grid lg:grid-cols-2 min-h-[70vh] lg:min-h-[90vh]">
-          <div className="flex items-center section-padding order-2 lg:order-1">
-            <div className="max-w-[560px] mx-auto lg:mr-16 lg:ml-auto">
-              <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">Daily life</span>
-              <h2 className="font-playfair text-h2 text-white mb-6">A food service that learns</h2>
-              <p className="font-inter text-body text-gray-400 leading-relaxed mb-4">
-                You may have one chef you love. Keep them. Sometimes you want Chinese tonight, a higher-level chef for one Saturday, or healthy family food on a weekday without paying for a tasting-menu specialist.
-              </p>
-              <p className="font-inter text-body text-gray-400 leading-relaxed mb-4">
-                After approximately two days we contact you separately from the chef. A sudden terrible score makes us ask: poor food, an unlearned preference, a misunderstanding, a mistake, or an unreasonable request? You are allowed to make a mistake. You are expected to learn from it.
-              </p>
-              <p className="font-inter text-body text-gray-400 leading-relaxed">
-                Safety starts before the first meal. After a year you should not be re-explaining breakfast. Our goal is to be there without feeling like we are there.
-              </p>
+      </section>
+
+      {/* 09 Proof */}
+      <section id="proof" className="bg-cream section-padding scroll-mt-24">
+        <div className="container-custom">
+          <div className="max-w-[720px] mx-auto text-center mb-12">
+            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">The system in practice</span>
+            <h2 className="font-playfair text-h2 text-black mb-4">We will not invent a number to look larger</h2>
+            <p className="font-inter text-body text-gray-500 leading-relaxed">
+              No household count, no average rating, no replacement percentage on this page until we can put a real figure next to it. What we can show is the operating system — and where to inspect it.
+            </p>
+          </div>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
+            {proofItems.map((item) => (
+              <div key={item.label} className="bg-white border border-gray-200 p-8">
+                <h3 className="font-playfair text-h4 text-black mb-3">{item.label}</h3>
+                <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{item.body}</p>
+              </div>
+            ))}
+          </div>
+
+          <h3 className="font-playfair text-h3 text-black text-center mb-4">What happens before a chef enters your kitchen</h3>
+          <p className="font-inter text-body-sm text-gray-500 text-center max-w-[640px] mx-auto mb-10 leading-relaxed">
+            This is the same sequence published on{' '}
+            <Link to="/how-we-vet-our-chefs" className="text-gold hover:text-gold-light underline underline-offset-4">how we vet our chefs</Link>.
+            {' '}Explaining it is not the same as proving a booking count. It is the process we actually run.
+          </p>
+          <ol className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+            {vettingSteps.map((step, i) => (
+              <li key={step.title} className="bg-white border border-gray-200 p-8">
+                <p className="font-playfair text-h4 text-gold mb-2">{String(i + 1).padStart(2, '0')}</p>
+                <h4 className="font-playfair text-h4 text-black mb-3">{step.title}</h4>
+                <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{step.body}</p>
+              </li>
+            ))}
+          </ol>
+          <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-4">
+            {inspectUs.map((item) => (
+              <Link key={item.href} to={item.href} className="btn-secondary text-center">
+                {item.label}
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* What we don't / do promise */}
+      <section className="bg-black section-padding">
+        <div className="container-custom max-w-[900px]">
+          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">What we don’t promise</span>
+          <h2 className="font-playfair text-h2 text-white mb-8">Honesty is part of the service</h2>
+          <div className="grid md:grid-cols-2 gap-12">
+            <div>
+              <p className="font-inter text-caption uppercase tracking-wider text-gray-500 mb-4">We don’t</p>
+              <ul className="space-y-4">
+                {dontPromise.map((line) => (
+                  <li key={line} className="font-inter text-body-lg text-gray-300 leading-relaxed">
+                    {line}
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div>
+              <p className="font-inter text-caption uppercase tracking-wider text-gold mb-4">We do</p>
+              <ul className="space-y-4">
+                {doPromise.map((line) => (
+                  <li key={line} className="font-inter text-body-lg text-white leading-relaxed">
+                    {line}
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
-          <FillFrame
-            src={photos[5].src}
-            alt={photos[5].alt}
-            width={photos[5].width}
-            height={photos[5].height}
-            className="min-h-[50vh] lg:min-h-full order-1 lg:order-2"
-            objectPosition="center"
-          />
+          <p className="font-inter text-body-lg text-white leading-relaxed mt-10">
+            We promise to manage those realities professionally. If an equivalent chef is not available, we tell you, then we give you the options. We do not claim an allergic reaction can never happen. Chefs are professionals, not machines. We do not publish invented reviews.
+          </p>
         </div>
       </section>
 
@@ -756,13 +996,16 @@ export default function PrivateChef() {
         </div>
       </section>
 
-      {/* FAQ */}
+      {/* FAQ — collapsed */}
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
-          <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
+          <h2 className="font-playfair text-fluid-h2 text-black text-center mb-4">
             What should I know before hiring a private chef in Dubai?
           </h2>
-          <FaqAccordion items={faqs} showJumpNav />
+          <p className="font-inter text-body-sm text-gray-500 text-center mb-8 leading-relaxed">
+            Short answers only. Pricing, the Food Profile, chef absence, upgrades, groceries and seven-day service are already on this page — open a question if you still need it.
+          </p>
+          <FaqAccordion items={faqs} defaultOpen={-1} />
         </div>
       </section>
 
@@ -846,12 +1089,16 @@ export default function PrivateChef() {
         }
       />
 
-      <section className="bg-gradient-to-b from-charcoal to-black py-20">
+      <section id="start" className="bg-gradient-to-b from-charcoal to-black py-20 scroll-mt-24">
         <div className="container-custom text-center">
-          <h2 className="font-playfair text-h2 text-white mb-4">If this is the service you want, you already know the starting price</h2>
-          <p className="font-inter text-body-lg text-gray-400 max-w-[640px] mx-auto mb-8">
-            Starting example: from AED 24,000 / month. Private · 2 meals / day · 5 service days · chef + assistant + the system. Groceries separate. An evening starts from AED 1,200 for two. Then we ask the questions that become your Food Profile.
+          <h2 className="font-playfair text-h2 text-white mb-4">Start on one path</h2>
+          <p className="font-inter text-body-lg text-gray-400 max-w-[640px] mx-auto mb-8 leading-relaxed">
+            One evening from AED 1,200 for two, groceries in the quote. An ongoing household from AED 900 a day on a plan, groceries separate. If you are not sure, tell us how you live — don’t pick a chef level first.
           </p>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-3 mb-8">
+            <a href="#evening" className="btn-secondary">One evening</a>
+            <a href="#household" className="btn-secondary">Ongoing household</a>
+          </div>
           <QuotePair />
         </div>
       </section>
