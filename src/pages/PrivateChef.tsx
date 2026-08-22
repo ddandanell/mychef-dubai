@@ -25,6 +25,7 @@ import {
   SEO_TITLE,
   WHATSAPP_MESSAGE,
   WHATSAPP_NUMBER,
+  chefLevelIntro,
   chefLevels,
   comparison,
   dailyRates,
@@ -35,8 +36,10 @@ import {
   faqs,
   featuredChefs,
   formatAed,
+  higherNotBetter,
   householdIncludes,
   inspectUs,
+  levelVsSpecialty,
   lifeStages,
   locations,
   pageSequence,
@@ -98,7 +101,7 @@ const schema = {
       '@type': 'AggregateOffer',
       name: 'Private chef household arrangements in Dubai — monthly starting prices',
       description:
-        'Starting monthly prices for a standing private chef arrangement on about 20 service days. Groceries separate. Standard schedule is 5 service days per week. The effective daily rate on this plan starts from AED 900 at Private, one meal a day; that is not a one-day walk-in ticket.',
+        'Starting monthly prices for a standing private chef arrangement on about 20 service days. Groceries separate. Standard schedule is 5 service days per week. The effective daily rate on this plan starts from AED 900 at Senior Chef, one meal a day; that is not a one-day walk-in ticket.',
       url: 'https://www.mychef.ae/private-chef-dubai#household',
       priceCurrency: 'AED',
       lowPrice: '18000',
@@ -192,7 +195,7 @@ export default function PrivateChef() {
   useScrollTrigger()
   useWhatsAppMessage(WHATSAPP_MESSAGE)
   const containerRef = useRef<HTMLDivElement>(null)
-  const [level, setLevel] = useState<ChefLevelName>('Private')
+  const [level, setLevel] = useState<ChefLevelName>('Senior Chef')
   const [meals, setMeals] = useState<MealPlan>('2')
 
   const quote = useMemo(() => {
@@ -473,7 +476,7 @@ export default function PrivateChef() {
                 This is a show of the people — not a locked roster. We work with 50+ professionals and change who we put forward depending on what you need. If the right match is not here, we find it.
               </p>
               <p className="font-inter text-body text-gray-400 leading-relaxed mb-4">
-                Head chefs we put forward typically come from restaurant kitchens. A CV is not enough. Matching is the work of myCHEF: the right professional to the right house, and a specialist when you want one — including a yacht chef in Dubai Marina. A standard household service includes one chef and one assistant as part of the myCHEF arrangement, not a person you put on payroll.
+                Chefs we put forward typically come from restaurant kitchens. A CV is not enough. Matching is the work of myCHEF: the right professional to the right house, and a specialist when you want one — including a yacht chef in Dubai Marina. A standard household service includes one chef and one assistant as part of the myCHEF arrangement, not a person you put on payroll.
               </p>
               <p className="font-inter text-body text-gray-400 leading-relaxed mb-6">
                 A CV is not enough. Private service requires knowing when to speak and when not to, respecting someone’s home, being reliable, listening, and making excellent food. See{' '}
@@ -482,7 +485,7 @@ export default function PrivateChef() {
                 <Link to="/our-chefs" className="text-gold hover:text-gold-light underline underline-offset-4">our chefs</Link>.
               </p>
               <p className="font-inter text-body-sm text-gray-500 leading-relaxed">
-                Level is background plus how they actually perform with myCHEF. Specialty is separate. Private is not “worse.” Signature is not automatically “better.”
+                Level is a myCHEF classification — experience, capability and demonstrated performance. Specialty is separate. A Senior Chef is not “worse.” A Signature Chef is not automatically “better.”
               </p>
             </div>
           </div>
@@ -642,19 +645,19 @@ export default function PrivateChef() {
             </p>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-4">
               <strong className="font-medium text-black">Single-day booking:</strong> possible. Tell us the date. We quote it.{' '}
-              <strong className="font-medium text-black">Effective daily rate on an ongoing plan:</strong> from AED 900 at Private, one meal a day. Do not assume Private level, one meal, AED 900 books an isolated tomorrow without that conversation.
+              <strong className="font-medium text-black">Effective daily rate on an ongoing plan:</strong> from AED 900 at Senior Chef, one meal a day. Do not assume a Senior Chef, one meal, AED 900 books an isolated tomorrow without that conversation.
             </p>
             <p className="font-inter text-body text-gray-500 leading-relaxed">
-              Independent licensed partners cook. myCHEF organises the service. You do not need a full day if you only want breakfast. You do not need Signature every day because you want one extraordinary dinner a month. Groceries are separate.
+              Independent licensed partners cook. myCHEF organises the service. You do not need a full day if you only want breakfast. You do not need a Signature Chef every day because you want one extraordinary dinner a month. Groceries are separate.
             </p>
           </div>
 
           <div className="bg-white border border-gray-200 p-6 md:p-10 mb-12">
             <h3 className="font-playfair text-h3 text-black mb-2">Ongoing household — starting rates</h3>
-            <p className="font-inter text-body-sm text-gray-500 mb-6">Effective daily rate on a standing plan. A one-off day is quoted separately.</p>
+            <p className="font-inter text-body-sm text-gray-500 mb-6">Effective daily rate on a standing plan. A one-off day is quoted separately. Names below are myCHEF chef levels — not restaurant job titles, and not an external qualification.</p>
             <div className="grid md:grid-cols-2 gap-8 mb-8">
               <fieldset>
-                <legend className="font-inter text-caption uppercase tracking-wider text-gold mb-3">Chef level</legend>
+                <legend className="font-inter text-caption uppercase tracking-wider text-gold mb-3">myCHEF chef level</legend>
                 <div className="flex flex-wrap gap-2">
                   {chefLevels.map((item) => (
                     <button
@@ -711,23 +714,43 @@ export default function PrivateChef() {
             </div>
           </div>
 
-          <h3 className="font-playfair text-h3 text-black mb-2">Chef levels — what kind of house, not a status ladder</h3>
-          <p className="font-inter text-body text-gray-500 mb-6 max-w-[720px] leading-relaxed">
-            Private is not “worse.” Signature is not automatically “better.” The difference is the brief: everyday family cooking versus a highly specialised requirement. A customer paying AED 30,000 and a customer paying AED 100,000 should both be in the right house, not climbing a prestige ladder.{' '}
-            <strong className="font-medium text-black">Not sure? Don’t choose a level. Tell us how you live and we’ll recommend one.</strong>
-          </p>
-          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-4 mb-12">
-            {chefLevels.map((item) => (
-              <div key={item.name} className="bg-white border border-gray-200 p-5">
-                <p className="font-playfair text-h4 text-black mb-1">{item.name}</p>
-                <p className="font-inter text-caption uppercase tracking-wider text-gold mb-2">{item.useCase}</p>
-                <p className="font-inter text-body-sm text-gold mb-3">From AED {item.monthlyFull}+ / month full day</p>
-                <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{item.body}</p>
-              </div>
+          <div id="chef-levels" className="mb-12 scroll-mt-24">
+            <p className="font-inter text-caption uppercase tracking-wider text-gold mb-3">myCHEF chef levels</p>
+            <h3 className="font-playfair text-h3 text-black mb-4">How our chef levels work</h3>
+            {chefLevelIntro.map((para) => (
+              <p key={para.slice(0, 48)} className="font-inter text-body text-gray-500 leading-relaxed mb-4 max-w-[760px]">
+                {para}
+              </p>
             ))}
+            <p className="font-inter text-body text-gray-500 leading-relaxed mb-8 max-w-[760px]">
+              <strong className="font-medium text-black">Not sure? Don’t choose a level. Tell us how you live and we’ll recommend one.</strong>
+            </p>
+            <div className="space-y-4 mb-10">
+              {chefLevels.map((item) => (
+                <div key={item.name} className="bg-white border border-gray-200 p-6 md:p-8">
+                  <div className="flex flex-col md:flex-row md:items-baseline md:justify-between gap-2 mb-3">
+                    <h4 className="font-playfair text-h4 text-black">{item.name}</h4>
+                    <p className="font-inter text-body-sm text-gold">From AED {item.monthlyFull}+ / month full day</p>
+                  </div>
+                  <p className="font-inter text-caption uppercase tracking-wider text-gold mb-3">{item.useCase}</p>
+                  <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{item.body}</p>
+                </div>
+              ))}
+            </div>
+            <div className="bg-white border border-gold/30 p-6 md:p-8 mb-6">
+              <h4 className="font-playfair text-h4 text-black mb-3">{higherNotBetter.title}</h4>
+              <p className="font-inter text-body text-gray-500 leading-relaxed">{higherNotBetter.body}</p>
+            </div>
+            <div className="bg-white border border-gray-200 p-6 md:p-8">
+              <h4 className="font-playfair text-h4 text-black mb-3">{levelVsSpecialty.title}</h4>
+              <p className="font-inter text-body text-gray-500 leading-relaxed mb-3">{levelVsSpecialty.level}</p>
+              <p className="font-inter text-body text-gray-500 leading-relaxed mb-3">{levelVsSpecialty.specialty}</p>
+              <p className="font-inter text-body text-gray-500 leading-relaxed mb-4">{levelVsSpecialty.body}</p>
+              <p className="font-inter text-body text-gray-500 leading-relaxed">{levelVsSpecialty.close}</p>
+            </div>
           </div>
 
-          <h3 className="font-playfair text-h3 text-black mb-4">Private level · starting prices</h3>
+          <h3 className="font-playfair text-h3 text-black mb-4">Senior Chef · starting prices</h3>
           <div className="overflow-x-auto mb-4">
             <table className="w-full min-w-[640px] text-left bg-white">
               <thead>
@@ -744,7 +767,7 @@ export default function PrivateChef() {
                   ['2 meals / day', '2'] as const,
                   ['Full day · 3 meals', 'full'] as const,
                 ]).map(([label, key]) => {
-                  const daily = dailyRates.Private[key]
+                  const daily = dailyRates['Senior Chef'][key]
                   return (
                     <tr key={key} className="border-b border-gray-200">
                       <td className="py-3 px-4 font-inter text-body text-black">{label}</td>
@@ -758,27 +781,29 @@ export default function PrivateChef() {
             </table>
           </div>
           <p className="font-inter text-body-sm text-gray-500 mb-12">
-            Starting example: Private · 2 meals / day · AED 24,000+ / month. Every standard service includes 1 private chef + 1 assistant + the myCHEF system.
+            Starting example: Senior Chef · 2 meals / day · AED 24,000+ / month. Every standard service includes 1 private chef + 1 assistant + the myCHEF system.
           </p>
 
-          <h3 className="font-playfair text-h3 text-black mb-4">All chef levels · effective daily rates on an ongoing plan</h3>
+          <h3 className="font-playfair text-h3 text-black mb-4">All myCHEF chef levels · effective daily rates on an ongoing plan</h3>
           <div className="overflow-x-auto mb-8">
-            <table className="w-full min-w-[720px] text-left bg-white">
+            <table className="w-full min-w-[880px] text-left bg-white">
               <thead>
                 <tr className="border-b border-gold/30">
-                  <th className="py-3 px-4 font-inter text-caption uppercase tracking-wider text-gold">Chef level</th>
-                  <th className="py-3 px-4 font-inter text-caption uppercase tracking-wider text-gold">1 meal / day</th>
-                  <th className="py-3 px-4 font-inter text-caption uppercase tracking-wider text-gold">2 meals / day</th>
+                  <th className="py-3 px-4 font-inter text-caption uppercase tracking-wider text-gold">Level</th>
+                  <th className="py-3 px-4 font-inter text-caption uppercase tracking-wider text-gold">What it means</th>
+                  <th className="py-3 px-4 font-inter text-caption uppercase tracking-wider text-gold">1 meal</th>
+                  <th className="py-3 px-4 font-inter text-caption uppercase tracking-wider text-gold">2 meals</th>
                   <th className="py-3 px-4 font-inter text-caption uppercase tracking-wider text-gold">Full day</th>
                 </tr>
               </thead>
               <tbody>
                 {chefLevels.map((item) => (
-                  <tr key={item.name} className="border-b border-gray-200">
-                    <td className="py-3 px-4 font-inter text-body text-black">{item.name}</td>
-                    <td className="py-3 px-4 font-inter text-body text-gray-600">{formatAed(dailyRates[item.name]['1'])}</td>
-                    <td className="py-3 px-4 font-inter text-body text-gray-600">{formatAed(dailyRates[item.name]['2'])}</td>
-                    <td className="py-3 px-4 font-inter text-body text-gray-600">{formatAed(dailyRates[item.name].full)}</td>
+                  <tr key={item.name} className="border-b border-gray-200 align-top">
+                    <td className="py-3 px-4 font-inter text-body text-black whitespace-nowrap">{item.name}</td>
+                    <td className="py-3 px-4 font-inter text-body-sm text-gray-600 leading-relaxed">{item.meaning}</td>
+                    <td className="py-3 px-4 font-inter text-body text-gray-600 whitespace-nowrap">{formatAed(dailyRates[item.name]['1'])}</td>
+                    <td className="py-3 px-4 font-inter text-body text-gray-600 whitespace-nowrap">{formatAed(dailyRates[item.name]['2'])}</td>
+                    <td className="py-3 px-4 font-inter text-body text-gray-600 whitespace-nowrap">{formatAed(dailyRates[item.name].full)}</td>
                   </tr>
                 ))}
               </tbody>
@@ -817,19 +842,19 @@ export default function PrivateChef() {
           <div className="bg-white border border-gray-200 p-8 mb-12">
             <h3 className="font-playfair text-h3 text-black mb-4">You can mix it</h3>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-6">
-              Everyday: keep the chef level that makes sense financially. Special occasion: upgrade one meal. Different cuisine: rotate in a specialist. More guests: add another chef. You do not need Signature prices every day because you want a Signature chef twice a month.
+              Everyday: keep the chef level that makes sense for the house. Special occasion: add the right specialist for one meal. Different cuisine: rotate in a specialist. You do not need a Signature Chef every day because you want an extraordinary dinner twice a month. Next week you could keep your Senior Chef and bring in a Japanese specialist, an Italian specialist, or another chef depending on what you want.
             </p>
             <div className="grid md:grid-cols-2 gap-6 mb-8">
               <div className="border border-gray-200 p-6">
                 <p className="font-inter text-caption uppercase tracking-wider text-gold mb-2">Example week</p>
                 <p className="font-inter text-body-sm text-gray-500 leading-relaxed mb-3">
-                  Monday–Friday Private · 2 meals: from AED 6,000. Add an Elite chef for Friday dinner (the weekday arrangement still covers the rest of the week): from AED 3,500. That week: from AED 9,500 before groceries.
+                  Monday–Friday Senior Chef · 2 meals: from AED 6,000. Friday evening — add a Master Chef (the weekday arrangement still covers the rest of the week): from AED 3,500. That week: from AED 9,500 before groceries.
                 </p>
               </div>
               <div className="border border-gray-200 p-6">
                 <p className="font-inter text-caption uppercase tracking-wider text-gold mb-2">Example month</p>
                 <p className="font-inter text-body-sm text-gray-500 leading-relaxed">
-                  Private · 2 meals/day: from AED 24,000. Two Elite dinner upgrades: 2 × AED 3,500+ = AED 7,000+. Example month: from AED 31,000.
+                  Senior Chef · 2 meals/day: from AED 24,000. Two Master Chef dinners: 2 × AED 3,500+ = AED 7,000+. Example month: from AED 31,000.
                 </p>
               </div>
             </div>

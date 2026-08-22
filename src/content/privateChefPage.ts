@@ -264,36 +264,59 @@ export const perPersonBands = [
 
 export const chefLevels = [
   {
-    name: 'Private',
+    name: 'Senior Chef',
     monthlyFull: '30,000',
-    useCase: 'Everyday family cooking',
-    body: 'The weekday house. Breakfast the children will eat, a dinner that does not require a briefing. You are not buying a tasting menu. You are buying a kitchen that already knows this family. For most households, this is the right level — not a lesser one.',
+    useCase: 'Excellent everyday household cooking',
+    meaning: 'Strong experienced professional for excellent everyday household cooking',
+    body: 'An experienced professional chef for excellent everyday household cooking. Think breakfast, healthy lunches, family dinners, meal preparation and the food you actually want to eat every day. This is our starting level. It does not mean junior.',
   },
   {
-    name: 'Select',
+    name: 'Head Chef',
     monthlyFull: '40,000',
-    useCase: 'More demanding cuisines and entertaining',
-    body: 'When guests are not rare, and the food needs more range than a family week — a second cuisine, a more careful plate, a chef who is comfortable when the table is not just family.',
+    useCase: 'Kitchen leadership, menus and entertaining',
+    meaning: 'Has led professional kitchens. Stronger technique, menu planning and entertaining',
+    body: 'A chef with substantial professional experience who has progressed into kitchen leadership. Better suited when the household expects broader menu development, more advanced technique, multiple cuisines and regular entertaining.',
   },
   {
-    name: 'Executive',
+    name: 'Executive Chef',
     monthlyFull: '55,000',
-    useCase: 'Complex household, nutrition, regular guests',
-    body: 'Several diets in one house. A social calendar. Someone who can hold a standard without being managed. This is the level for houses that are already a small operation.',
+    useCase: 'Demanding households, nutrition, frequent guests',
+    meaning: 'Senior kitchen leader for demanding households, nutrition, multiple cuisines and regular entertaining',
+    body: 'A senior culinary leader. Suited to demanding households where food requires more planning: nutrition requirements, sophisticated menus, frequent guests, multiple preferences or higher culinary expectations. This is a myCHEF classification, not a claim that the chef holds that title in a restaurant brigade.',
   },
   {
-    name: 'Elite',
+    name: 'Master Chef',
     monthlyFull: '75,000',
-    useCase: 'High-level culinary background and demanding private service',
-    body: 'Serious kitchens, discretion, and a chef who has led at a high level before entering a home. The plate is the product. So is how they move through the house.',
+    useCase: 'Exceptional technique and sophisticated requirements',
+    meaning: 'Exceptional culinary background and demonstrated performance for sophisticated requirements',
+    body: 'One of the strongest culinary profiles in the myCHEF network — for exceptional technique, significant experience, advanced specialisation or restaurant-level private dining alongside household service. Master Chef is a myCHEF classification. It is not an externally awarded qualification, a competition title, or membership of a professional organisation.',
   },
   {
-    name: 'Signature',
+    name: 'Signature Chef',
     monthlyFull: '100,000',
-    useCase: 'Highly specialised requirement',
-    body: 'Not “better than Private.” A rare brief — a specific cuisine at a very high level, or a household that needs a chef whose background is unusually particular. If you are not sure you need it, you probably do not.',
+    useCase: 'The highest myCHEF classification',
+    meaning: 'Exceptional background, specialisation, discretion and performance',
+    body: 'Our highest classification. Reserved for exceptional chefs whose background, performance, specialisation and private-service ability place them at the top of the myCHEF network. If you are not sure you need it, you probably do not.',
   },
 ] as const
+
+export const chefLevelIntro = [
+  'Not every household needs the most senior chef in the network.',
+  'myCHEF classifies chefs by professional background, leadership experience, technical ability, specialisation and demonstrated performance inside our system. These are myCHEF chef levels — not restaurant job titles, and not five increasingly expensive packages. “Head Chef” and “Executive Chef” have established meanings in a professional kitchen. On this page they describe a myCHEF match, not a brigade rank we are claiming for the chef’s last restaurant.',
+]
+
+export const higherNotBetter = {
+  title: 'Higher does not always mean better for you',
+  body: 'If you want healthy family meals five days a week, a Senior Chef who understands your family perfectly may be a much better match than a Signature Chef. If you want an extraordinary Japanese dinner on Saturday, we do not need to replace your everyday chef. We add the right specialist.',
+}
+
+export const levelVsSpecialty = {
+  title: 'Level and specialty are different',
+  level: 'Level = experience, capability and demonstrated performance inside the myCHEF system.',
+  specialty: 'Specialty = what that chef is particularly good at.',
+  body: 'Japanese is not a level. Italian is not a level. Nutrition is not a level. A Senior Chef can be an exceptional Indian specialist. A Master Chef can specialise in Japanese cuisine. An Executive Chef can be particularly strong in nutrition and family food. We match both dimensions: the right level + the right specialty + the right personality + the right household.',
+  close: 'You do not need to understand the entire hierarchy before booking. Tell us how you live, what you eat and what you expect. We recommend where to start. If your needs change, the chef can change with them.',
+}
 
 export const lifeStages = [
   {
@@ -370,7 +393,7 @@ export const proofItems = [
     body: 'Identity and right-to-work. A practical cooking assessment. References. Food-hygiene awareness. A trial period. Then ongoing review. The process is public — read how we vet our chefs.',
   },
   {
-    label: 'Head chefs from restaurant kitchens',
+    label: 'Chefs from professional kitchens',
     body: 'Typically restaurant-trained, then assessed for private service. A CV is not enough. Knowing when to speak and when not to is part of the match. A standard household service includes one chef and one assistant.',
   },
   {
@@ -464,7 +487,7 @@ export const whenThingsChange = [
   },
   {
     title: 'Friday wants Japanese',
-    body: 'Keep the weekday chef. Ask your contact for a specialist. You do not make a second hire, and you do not need Signature prices every day because you want one extraordinary dinner.',
+    body: 'Keep the weekday chef. Ask your contact for a specialist. You do not make a second hire, and you do not need a Signature Chef every day because you want one extraordinary dinner.',
   },
   {
     title: 'Friends on Saturday',
@@ -489,11 +512,11 @@ export type MealPlan = '1' | '2' | 'full'
 
 /** Effective daily starting prices (AED) on an ongoing ~20-day monthly plan. Weekly = ×5. Monthly ≈ ×20. Not isolated one-day tickets. */
 export const dailyRates: Record<ChefLevelName, Record<MealPlan, number>> = {
-  Private: { '1': 900, '2': 1200, full: 1500 },
-  Select: { '1': 1200, '2': 1600, full: 2000 },
-  Executive: { '1': 1650, '2': 2200, full: 2750 },
-  Elite: { '1': 2250, '2': 3000, full: 3750 },
-  Signature: { '1': 3000, '2': 4000, full: 5000 },
+  'Senior Chef': { '1': 900, '2': 1200, full: 1500 },
+  'Head Chef': { '1': 1200, '2': 1600, full: 2000 },
+  'Executive Chef': { '1': 1650, '2': 2200, full: 2750 },
+  'Master Chef': { '1': 2250, '2': 3000, full: 3750 },
+  'Signature Chef': { '1': 3000, '2': 4000, full: 5000 },
 }
 
 export const householdIncludes = [
@@ -506,16 +529,16 @@ export const householdIncludes = [
 ]
 
 export const upgrades = [
-  { to: 'Select', price: '1,000' },
-  { to: 'Executive', price: '2,000' },
-  { to: 'Elite', price: '3,500' },
-  { to: 'Signature', price: '5,000' },
+  { to: 'Head Chef', price: '1,000' },
+  { to: 'Executive Chef', price: '2,000' },
+  { to: 'Master Chef', price: '3,500' },
+  { to: 'Signature Chef', price: '5,000' },
 ]
 
 export const extraTeam = [
   { role: 'Additional chef', price: '1,500' },
-  { role: 'Senior / specialist chef', price: '2,500' },
-  { role: 'Signature chef', price: '5,000' },
+  { role: 'Cuisine specialist', price: '2,500' },
+  { role: 'Signature Chef', price: '5,000' },
   { role: 'Additional assistant', price: '750' },
   { role: 'Waiter', price: '600' },
   { role: 'Bartender', price: '900' },
@@ -554,7 +577,11 @@ export const locations = [
 export const faqs = [
   {
     q: 'Is AED 900 a day a one-off booking?',
-    a: 'No. AED 900+ is the effective daily starting rate on an ongoing Private household plan (about 20 service days a month). A one-off day is possible — tell us the date and we quote it. Do not assume you can book Private tomorrow for one meal at AED 900 without that conversation.',
+    a: 'No. AED 900+ is the effective daily starting rate on an ongoing Senior Chef household plan (about 20 service days a month). A one-off day is possible — tell us the date and we quote it. Do not assume you can book a Senior Chef tomorrow for one meal at AED 900 without that conversation.',
+  },
+  {
+    q: 'What do Senior Chef, Head Chef and Executive Chef mean?',
+    a: 'They are myCHEF chef levels — our classification of background, leadership, technique, specialisation and demonstrated performance — not restaurant job titles and not an external qualification. Master Chef is a myCHEF label, not a competition title or membership. Senior Chef is the starting level for excellent everyday cooking; it does not mean junior. Higher does not always mean better for your house. Tell us how you live and we recommend where to start.',
   },
   {
     q: 'Evening or household — which do I need?',
