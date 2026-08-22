@@ -18,7 +18,8 @@ interface PageHeroProps {
   minHeight?: 'full' | 'tall' | 'large' | 'medium' | 'short'
   align?: 'left' | 'center'
   children?: React.ReactNode
-  overlay?: 'dark' | 'medium' | 'light'
+  overlay?: 'dark' | 'medium' | 'light' | 'left'
+  imagePosition?: string
   reducedMotion?: boolean
 }
 
@@ -31,9 +32,10 @@ const heightClasses = {
 }
 
 const overlayClasses = {
-  dark: 'from-black/40 via-black/50 to-black/85',
-  medium: 'from-black/30 via-black/40 to-black/75',
-  light: 'from-black/20 via-black/30 to-black/60',
+  dark: 'bg-gradient-to-b from-black/40 via-black/50 to-black/85',
+  medium: 'bg-gradient-to-b from-black/30 via-black/40 to-black/75',
+  light: 'bg-gradient-to-b from-black/20 via-black/30 to-black/60',
+  left: 'bg-gradient-to-r from-black/88 via-black/70 to-black/35',
 }
 
 export default function PageHero({
@@ -52,6 +54,7 @@ export default function PageHero({
   align = 'center',
   children,
   overlay = 'dark',
+  imagePosition = 'center',
   reducedMotion = false,
 }: PageHeroProps) {
   const sectionRef = useRef<HTMLDivElement>(null)
@@ -142,9 +145,10 @@ export default function PageHero({
               fetchPriority="high"
               decoding="async"
               className="absolute inset-0 w-full h-full object-cover scale-105 will-change-transform"
+              style={{ objectPosition: imagePosition }}
             />
           </picture>
-          <div className={`absolute inset-0 bg-gradient-to-b ${overlayClasses[overlay]}`} />
+          <div className={`absolute inset-0 ${overlayClasses[overlay]}`} />
         </div>
       ) : (
         <div className="absolute inset-0 bg-gradient-to-b from-black via-charcoal to-black" />
@@ -180,7 +184,7 @@ export default function PageHero({
           </span>
         )}
 
-        <h1 className="font-playfair text-fluid-h1 text-white" style={{ lineHeight: '1.1' }}>
+        <h1 className={`font-playfair text-fluid-h1 text-white ${align === 'left' ? 'max-w-2xl' : ''}`} style={{ lineHeight: '1.1' }}>
           {title}
         </h1>
 

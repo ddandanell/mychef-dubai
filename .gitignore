@@ -16,3 +16,4 @@ dist
 
 # Local verification reports
 .superpowers/
+tmp/

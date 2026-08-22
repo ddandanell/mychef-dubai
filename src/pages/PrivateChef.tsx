@@ -29,8 +29,10 @@ import {
   backupMychef,
   calibration,
   chefLevelIntro,
+  chefLevelPhoto,
   chefLevels,
   comparison,
+  ctaPhoto,
   dailyLifePhotos,
   dailyRates,
   doPromise,
@@ -42,6 +44,7 @@ import {
   foodProfileDemo,
   formatAed,
   higherNotBetter,
+  howItWorksPhoto,
   householdIncludes,
   inspectUs,
   journeyPhotos,
@@ -52,6 +55,7 @@ import {
   managerAsks,
   managerFlow,
   managerPhoto,
+  mixPhoto,
   networkSpecialties,
   pageSequence,
   paths,
@@ -67,6 +71,10 @@ import {
   vettingSteps,
   whatThisIs,
   whenThingsChange,
+  wherePhoto,
+  whoDoesWhatPhoto,
+  whoForPhoto,
+  whyIndependentPhoto,
   yearLaterPhoto,
   whoDoesWhat,
   whoFor,
@@ -229,9 +237,9 @@ function ScoreStars({ value }: { value: number }) {
   )
 }
 
-function QuotePair() {
+function QuotePair({ className = 'items-center justify-center' }: { className?: string }) {
   return (
-    <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+    <div className={`flex flex-col sm:flex-row gap-4 ${className}`}>
       <Link to={INQUIRY_LINK} className="btn-primary">
         Get My Private Chef Quote
       </Link>
@@ -292,9 +300,11 @@ export default function PrivateChef() {
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Private Chef Dubai' }]}
         minHeight="large"
-        overlay="dark"
+        overlay="left"
+        align="left"
+        imagePosition="78% 50%"
       >
-        <div className="mt-10 grid sm:grid-cols-2 gap-4 w-full max-w-3xl mx-auto text-left">
+        <div className="mt-10 grid sm:grid-cols-2 gap-4 w-full max-w-3xl text-left">
           {paths.map((path) => (
             <a
               key={path.id}
@@ -388,22 +398,23 @@ export default function PrivateChef() {
       {/* 02 Which service */}
       <section id="which-service" className="bg-cream section-padding scroll-mt-24">
         <div className="container-custom">
-          <div className="text-center max-w-[760px] mx-auto mb-12">
+          <div className="text-center max-w-[760px] mx-auto mb-10">
             <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">Which service</span>
             <h2 className="font-playfair text-h2 text-black">You want a chef. The question is whether you want to manage one.</h2>
             <p className="font-inter text-body text-gray-500 mt-4 leading-relaxed">
               Two products. Keep them apart in your head: one evening, or an ongoing household. They are psychologically different purchases — a night you host, versus a house that no longer thinks about food. Everything below follows one of those two paths.
             </p>
           </div>
+          <FillFrame
+            src={whoForPhoto.src}
+            alt={whoForPhoto.alt}
+            width={whoForPhoto.width}
+            height={whoForPhoto.height}
+            className="aspect-[16/9] w-full mb-12"
+            objectPosition="center 55%"
+          />
           <div className="grid lg:grid-cols-2 gap-8">
             <div>
-              <FillFrame
-                src={photos[2].src}
-                alt={photos[2].alt}
-                width={photos[2].width}
-                height={photos[2].height}
-                className="aspect-[3/2] w-full mb-6"
-              />
               <a href="#evening" className="font-inter text-caption uppercase tracking-wider text-gold mb-4 inline-block">One evening →</a>
               <div className="space-y-4">
                 {whoFor.filter((item) => item.path === 'evening').map((item) => (
@@ -415,13 +426,6 @@ export default function PrivateChef() {
               </div>
             </div>
             <div>
-              <FillFrame
-                src={photos[3].src}
-                alt={photos[3].alt}
-                width={photos[3].width}
-                height={photos[3].height}
-                className="aspect-[3/2] w-full mb-6"
-              />
               <a href="#household" className="font-inter text-caption uppercase tracking-wider text-gold mb-4 inline-block">Ongoing household →</a>
               <div className="space-y-4">
                 {whoFor.filter((item) => item.path === 'household').map((item) => (
@@ -439,12 +443,22 @@ export default function PrivateChef() {
       {/* 03 Why not hire independently */}
       <section id="why-not-hire" className="bg-black section-padding scroll-mt-24">
         <div className="container-custom">
-          <div className="text-center max-w-[720px] mx-auto mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">Why not hire independently</span>
-            <h2 className="font-playfair text-h2 text-white">A freelancer can look cheaper on day one</h2>
-            <p className="font-inter text-body text-gray-400 mt-4 leading-relaxed">
-              You are paying for the person only. Finding, backup, quality, specialists, paperwork and the real cost of covering a Sunday are unpaid work — yours. myCHEF is the person plus the system that makes the person usable.
-            </p>
+          <div className="grid lg:grid-cols-[42fr_58fr] gap-10 items-center mb-12">
+            <FillFrame
+              src={whyIndependentPhoto.src}
+              alt={whyIndependentPhoto.alt}
+              width={whyIndependentPhoto.width}
+              height={whyIndependentPhoto.height}
+              className="aspect-[16/9] w-full"
+              objectPosition="center 45%"
+            />
+            <div>
+              <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">Why not hire independently</span>
+              <h2 className="font-playfair text-h2 text-white">A freelancer can look cheaper on day one</h2>
+              <p className="font-inter text-body text-gray-400 mt-4 leading-relaxed">
+                You are paying for the person only. Finding, backup, quality, specialists, paperwork and the real cost of covering a Sunday are unpaid work — yours. myCHEF is the person plus the system that makes the person usable.
+              </p>
+            </div>
           </div>
           <div className="overflow-x-auto">
             <table className="w-full min-w-[640px] text-left">
@@ -473,9 +487,17 @@ export default function PrivateChef() {
       <section id="how-it-works" className="bg-cream section-padding scroll-mt-24">
         <div className="container-custom">
           <h2 className="font-playfair text-h2 text-black text-center mb-4">How a private chef through myCHEF works</h2>
-          <p className="font-inter text-body text-gray-500 text-center max-w-[640px] mx-auto mb-10 leading-relaxed">
+          <p className="font-inter text-body text-gray-500 text-center max-w-[640px] mx-auto mb-8 leading-relaxed">
             Five stages. The same sequence whether you are booking one dinner or a house that eats here every weekday.
           </p>
+          <FillFrame
+            src={howItWorksPhoto.src}
+            alt={howItWorksPhoto.alt}
+            width={howItWorksPhoto.width}
+            height={howItWorksPhoto.height}
+            className="aspect-[16/9] w-full mb-10"
+            objectPosition="center 70%"
+          />
           <ol className="grid grid-cols-2 md:grid-cols-5 gap-3 mb-14">
             {journeyPhotos.map((photo) => (
               <li key={photo.caption}>
@@ -638,9 +660,17 @@ export default function PrivateChef() {
       <section className="bg-white section-padding">
         <div className="container-custom">
           <h2 className="font-playfair text-h2 text-black text-center mb-4">Who does what</h2>
-          <p className="font-inter text-body text-gray-500 text-center max-w-[640px] mx-auto mb-12 leading-relaxed">
+          <p className="font-inter text-body text-gray-500 text-center max-w-[640px] mx-auto mb-8 leading-relaxed">
             The split is the product. If you end up doing the chef’s job or our job, the service has failed.
           </p>
+          <FillFrame
+            src={whoDoesWhatPhoto.src}
+            alt={whoDoesWhatPhoto.alt}
+            width={whoDoesWhatPhoto.width}
+            height={whoDoesWhatPhoto.height}
+            className="aspect-[16/9] w-full mb-12"
+            objectPosition="center 40%"
+          />
           <div className="grid md:grid-cols-3 gap-6">
             {whoDoesWhat.map((col) => (
               <div key={col.who} className="border border-gray-200 p-8">
@@ -671,7 +701,7 @@ export default function PrivateChef() {
             width={photos[4].width}
             height={photos[4].height}
             className="min-h-[50vh] lg:min-h-full"
-            objectPosition="center 30%"
+            objectPosition="center 40%"
           />
           <div className="flex items-center section-padding">
             <div className="max-w-[560px] mx-auto lg:ml-16 lg:mr-auto">
@@ -799,7 +829,7 @@ export default function PrivateChef() {
             width={photos[2].width}
             height={photos[2].height}
             className="absolute inset-0"
-            objectPosition="center 70%"
+            objectPosition="center 45%"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black via-black/55 to-black/15" />
           <div className="relative z-10 container-custom min-h-[55vh] md:min-h-[70vh] flex flex-col justify-end pb-12 md:pb-16">
@@ -819,15 +849,25 @@ export default function PrivateChef() {
               <Link
                 key={pkg.name}
                 to={pkg.link}
-                className="group bg-charcoal p-8 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] transition-all duration-300"
+                className="group bg-charcoal overflow-hidden hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] transition-all duration-300"
               >
-                <p className="font-inter text-caption uppercase tracking-wider text-gold mb-2">{pkg.guests}</p>
-                <h3 className="font-playfair text-h3 text-white mb-2">{pkg.name}</h3>
-                <p className="font-playfair text-h4 text-gold mb-3">From AED {pkg.price}</p>
-                <p className="font-inter text-body-sm text-gray-400 leading-relaxed mb-4">{pkg.detail}</p>
-                <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light">
-                  View package <ArrowRight size={14} />
-                </span>
+                <FillFrame
+                  src={pkg.image}
+                  alt={pkg.imageAlt}
+                  width={1248}
+                  height={832}
+                  className="aspect-[3/2] w-full"
+                  objectPosition="center 45%"
+                />
+                <div className="p-8">
+                  <p className="font-inter text-caption uppercase tracking-wider text-gold mb-2">{pkg.guests}</p>
+                  <h3 className="font-playfair text-h3 text-white mb-2">{pkg.name}</h3>
+                  <p className="font-playfair text-h4 text-gold mb-3">From AED {pkg.price}</p>
+                  <p className="font-inter text-body-sm text-gray-400 leading-relaxed mb-4">{pkg.detail}</p>
+                  <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light">
+                    View package <ArrowRight size={14} />
+                  </span>
+                </div>
               </Link>
             ))}
           </div>
@@ -866,7 +906,7 @@ export default function PrivateChef() {
             width={photos[3].width}
             height={photos[3].height}
             className="absolute inset-0"
-            objectPosition="center 40%"
+            objectPosition="center 45%"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/35 to-black/10" />
           <div className="relative z-10 container-custom min-h-[50vh] md:min-h-[65vh] flex flex-col justify-end pb-12 md:pb-16">
@@ -954,13 +994,25 @@ export default function PrivateChef() {
           </div>
 
           <div id="chef-levels" className="mb-12 scroll-mt-24">
-            <p className="font-inter text-caption uppercase tracking-wider text-gold mb-3">myCHEF chef levels</p>
-            <h3 className="font-playfair text-h3 text-black mb-4">How our chef levels work</h3>
-            {chefLevelIntro.map((para) => (
-              <p key={para.slice(0, 48)} className="font-inter text-body text-gray-500 leading-relaxed mb-4 max-w-[760px]">
-                {para}
-              </p>
-            ))}
+            <div className="grid lg:grid-cols-[42fr_58fr] gap-8 items-center mb-8">
+              <FillFrame
+                src={chefLevelPhoto.src}
+                alt={chefLevelPhoto.alt}
+                width={chefLevelPhoto.width}
+                height={chefLevelPhoto.height}
+                className="aspect-[3/2] w-full"
+                objectPosition="center 30%"
+              />
+              <div>
+                <p className="font-inter text-caption uppercase tracking-wider text-gold mb-3">myCHEF chef levels</p>
+                <h3 className="font-playfair text-h3 text-black mb-4">How our chef levels work</h3>
+                {chefLevelIntro.map((para) => (
+                  <p key={para.slice(0, 48)} className="font-inter text-body text-gray-500 leading-relaxed mb-4">
+                    {para}
+                  </p>
+                ))}
+              </div>
+            </div>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-8 max-w-[760px]">
               <strong className="font-medium text-black">Not sure? Don’t choose a level. Tell us how you live and we’ll recommend one.</strong>
             </p>
@@ -1096,7 +1148,17 @@ export default function PrivateChef() {
             </div>
           </div>
 
-          <div className="bg-white border border-gray-200 p-8 mb-12">
+          <div className="bg-white border border-gray-200 mb-12 overflow-hidden">
+            <div className="grid lg:grid-cols-2">
+              <FillFrame
+                src={mixPhoto.src}
+                alt={mixPhoto.alt}
+                width={mixPhoto.width}
+                height={mixPhoto.height}
+                className="aspect-[16/9] lg:aspect-auto lg:min-h-full w-full"
+                objectPosition="center 35%"
+              />
+              <div className="p-8">
             <h3 className="font-playfair text-h3 text-black mb-4">You can mix it</h3>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-6">
               Everyday: keep the chef level that makes sense for the house. Special occasion: add the right specialist for one meal. Different cuisine: rotate in a specialist. You do not need a Signature Chef every day because you want an extraordinary dinner twice a month. Next week you could keep your Senior Chef and bring in a Japanese specialist, an Italian specialist, or another chef depending on what you want.
@@ -1130,6 +1192,8 @@ export default function PrivateChef() {
                   {u.role} AED {u.price}+
                 </span>
               ))}
+            </div>
+              </div>
             </div>
           </div>
 
@@ -1264,25 +1328,17 @@ export default function PrivateChef() {
         </div>
       </section>
 
-      {/* Gallery */}
-      <section className="bg-black">
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-0">
-          {[photos[1], rotationPhoto, yearLaterPhoto, dailyLifePhotos[0], dailyLifePhotos[2], managerPhoto].map((photo) => (
-            <FillFrame
-              key={photo.src}
-              src={photo.src}
-              alt={photo.alt}
-              width={photo.width}
-              height={photo.height}
-              className="aspect-[4/5]"
-            />
-          ))}
-        </div>
-      </section>
-
       {/* Locations */}
-      <section className="bg-charcoal py-20">
-        <div className="container-custom">
+      <section className="bg-charcoal">
+        <FillFrame
+          src={wherePhoto.src}
+          alt={wherePhoto.alt}
+          width={wherePhoto.width}
+          height={wherePhoto.height}
+          className="aspect-[21/9] w-full min-h-[220px]"
+          objectPosition="center 60%"
+        />
+        <div className="container-custom py-20">
           <div className="text-center mb-12">
             <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">Where we cover</span>
             <h2 className="font-playfair text-fluid-h2 text-white">Where in Dubai can I hire a private chef?</h2>
@@ -1395,17 +1451,27 @@ export default function PrivateChef() {
         }
       />
 
-      <section id="start" className="bg-gradient-to-b from-charcoal to-black py-20 scroll-mt-24">
-        <div className="container-custom text-center">
-          <h2 className="font-playfair text-h2 text-white mb-4">Start on one path</h2>
-          <p className="font-inter text-body-lg text-gray-400 max-w-[640px] mx-auto mb-8 leading-relaxed">
+      <section id="start" className="relative scroll-mt-24 min-h-[70vh] md:min-h-[78vh] flex items-end">
+        <FillFrame
+          src={ctaPhoto.src}
+          alt={ctaPhoto.alt}
+          width={ctaPhoto.width}
+          height={ctaPhoto.height}
+          className="absolute inset-0"
+          objectPosition="left center"
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-black/85 via-black/55 to-black/20" />
+        <div className="relative z-10 container-custom py-16 md:py-20">
+          <p className="font-inter text-caption uppercase tracking-wider text-gold mb-3">If this is the service you want</p>
+          <h2 className="font-playfair text-h2 text-white mb-4 max-w-[640px]">You already know the starting price</h2>
+          <p className="font-inter text-body-lg text-white/85 max-w-[560px] mb-8 leading-relaxed">
             One evening from AED 1,200 for two, groceries in the quote. An ongoing household from AED 900 a day on a plan, groceries separate. If you are not sure, tell us how you live — don’t pick a chef level first.
           </p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-3 mb-8">
+          <div className="flex flex-col sm:flex-row items-start gap-3 mb-8">
             <a href="#evening" className="btn-secondary">One evening</a>
             <a href="#household" className="btn-secondary">Ongoing household</a>
           </div>
-          <QuotePair />
+          <QuotePair className="items-start" />
         </div>
       </section>
     </div>

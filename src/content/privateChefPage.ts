@@ -12,7 +12,7 @@ export const HERO_IMAGE_HEIGHT = 720
 export const photos = [
   {
     src: '/images/private-chef-dubai-hero.webp',
-    alt: 'Private chef plating a course in a dark Dubai villa kitchen overlooking the skyline at dusk',
+    alt: 'Private chef cooking at the island of a contemporary Dubai villa kitchen at golden hour, dining table set beyond the limestone wall',
     width: 1280,
     height: 720,
   },
@@ -24,29 +24,85 @@ export const photos = [
   },
   {
     src: '/images/private-chef-dubai-evening.webp',
-    alt: 'Candlelit private chef dinner for two in a Dubai villa with the city skyline',
-    width: 1248,
-    height: 832,
+    alt: 'Private chef plating dinner for guests at a candlelit table in a Dubai villa, kitchen open behind them',
+    width: 1280,
+    height: 720,
   },
   {
     src: '/images/private-chef-dubai-household.webp',
-    alt: 'Household private chef preparing a family lunch in a Dubai villa kitchen',
-    width: 1248,
-    height: 832,
+    alt: 'Private chef cooking breakfast while an assistant packs meal containers in a Dubai villa kitchen, family life in the background',
+    width: 1280,
+    height: 720,
   },
   {
-    src: '/images/private-chef-dubai-yacht.webp',
-    alt: 'Private chef plating canapés on a yacht deck with the Dubai Marina skyline',
-    width: 1248,
-    height: 832,
+    src: '/images/private-chef-dubai-chefs.webp',
+    alt: 'International chefs in a Dubai villa kitchen working together — household chef, Japanese specialist, assistant and colleagues',
+    width: 1280,
+    height: 720,
   },
   {
-    src: '/images/private-chef-dubai-plating.webp',
-    alt: 'Chef finishing a sea bass tasting plate with herbs and oil',
-    width: 1248,
-    height: 832,
+    src: '/images/private-chef-dubai-daily-life.webp',
+    alt: 'Household member drinking coffee at the island while the private chef cooks breakfast unhurried in the same Dubai villa kitchen',
+    width: 1280,
+    height: 720,
   },
 ] as const
+
+export const whoForPhoto = {
+  src: '/images/private-chef-dubai-who-for.webp',
+  alt: 'Weekday morning in a Dubai villa: a parent drinks coffee, a child eats breakfast, the private chef cooks at the stove',
+  width: 1280,
+  height: 720,
+}
+
+export const whyIndependentPhoto = {
+  src: '/images/private-chef-dubai-why-independent.webp',
+  alt: 'Head chef, Japanese specialist and household manager working a fully organised mise en place in a Dubai villa kitchen',
+  width: 1280,
+  height: 720,
+}
+
+export const howItWorksPhoto = {
+  src: '/images/private-chef-dubai-how-it-works.webp',
+  alt: 'Chef’s hands preparing fish, vegetables and herbs on a limestone island beside a closed notebook and a blank tablet',
+  width: 1280,
+  height: 720,
+}
+
+export const whoDoesWhatPhoto = {
+  src: '/images/private-chef-dubai-who-does-what.webp',
+  alt: 'Couple dining by candlelight while the private chef plates and an assistant works quietly in the kitchen behind them',
+  width: 1280,
+  height: 720,
+}
+
+export const mixPhoto = {
+  src: '/images/private-chef-dubai-mix.webp',
+  alt: 'Household chef cooking a healthy pan dish beside a Japanese specialist plating sashimi in the same Dubai villa kitchen',
+  width: 1280,
+  height: 720,
+}
+
+export const chefLevelPhoto = {
+  src: '/images/private-chef-dubai-chef-level.webp',
+  alt: 'Experienced private chef calmly plating a precise dish in a contemporary Dubai villa kitchen',
+  width: 1248,
+  height: 832,
+}
+
+export const wherePhoto = {
+  src: '/images/private-chef-dubai-where.webp',
+  alt: 'Dining table inside a Dubai villa, palms and coastal city view through floor-to-ceiling windows',
+  width: 1568,
+  height: 672,
+}
+
+export const ctaPhoto = {
+  src: '/images/private-chef-dubai-cta.webp',
+  alt: 'Guests still talking at a candlelit table while the private chef and manager walk through the immaculate kitchen after service',
+  width: 1568,
+  height: 672,
+}
 
 export const journeyPhotos = [
   {
@@ -410,6 +466,8 @@ export const eveningPackages = [
     price: '1,200',
     detail: 'Bespoke 3-course menu, chef, table service, cleanup.',
     link: '/date-night-package-dubai',
+    image: '/images/private-chef-dubai-pkg-date-night.webp',
+    imageAlt: 'Intimate candlelit dinner for two with a private chef working in the open kitchen behind them',
   },
   {
     name: 'Family Feast',
@@ -417,6 +475,8 @@ export const eveningPackages = [
     price: '2,400',
     detail: 'Sharing-style menu, chef and service support.',
     link: '/family-feast-package-dubai',
+    image: '/images/private-chef-dubai-pkg-family.webp',
+    imageAlt: 'Private chef placing a large sharing dish at a family table in a Dubai villa',
   },
   {
     name: 'Birthday Celebration',
@@ -424,6 +484,8 @@ export const eveningPackages = [
     price: '3,600',
     detail: 'Celebration menu and service staff.',
     link: '/birthday-catering-package-dubai',
+    image: '/images/private-chef-dubai-pkg-birthday.webp',
+    imageAlt: 'Adult birthday dinner in a Dubai villa with a small elegant cake and a private chef at the table',
   },
   {
     name: 'Corporate Dinner',
@@ -431,6 +493,8 @@ export const eveningPackages = [
     price: '4,500',
     detail: 'Multi-course or buffet, service staff.',
     link: '/corporate-dinner-package-dubai',
+    image: '/images/private-chef-dubai-pkg-corporate.webp',
+    imageAlt: 'Small executive dinner around a residential table with a private chef serving',
   },
   {
     name: 'The Full Experience',
@@ -438,6 +502,8 @@ export const eveningPackages = [
     price: '5,500',
     detail: 'Tasting menu, wine-pairing consultation, full service team.',
     link: '/luxury-dining-experiences',
+    image: '/images/private-chef-dubai-pkg-full.webp',
+    imageAlt: 'Private chef presenting a tasting-menu course to guests in a Dubai villa',
   },
 ]
 
