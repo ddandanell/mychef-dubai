@@ -7,15 +7,15 @@ export const SEO_DESCRIPTION =
 export const H1_LINE_1 = 'A private chef in Dubai is easy to find.'
 export const H1_LINE_2 = 'A service that stays consistent is not.'
 export const HERO_IMAGE = '/images/private-chef-dubai-hero.webp'
-export const HERO_IMAGE_WIDTH = 1280
-export const HERO_IMAGE_HEIGHT = 720
+export const HERO_IMAGE_WIDTH = 1200
+export const HERO_IMAGE_HEIGHT = 800
 
 export const photos = [
   {
     src: '/images/private-chef-dubai-hero.webp',
-    alt: 'Private chef cooking at the island of a contemporary Dubai villa kitchen at golden hour, dining table set beyond the limestone wall',
-    width: 1280,
-    height: 720,
+    alt: 'Head chef in a tall white toque and black jacket cooking in a copper pan while an assistant plates dinner in a luxury Dubai villa kitchen at night, Burj Khalifa visible through the windows',
+    width: 1200,
+    height: 800,
   },
   {
     src: '/images/private-chef-dubai-system.webp',

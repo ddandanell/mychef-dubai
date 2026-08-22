@@ -276,7 +276,7 @@ export default function PrivateChef() {
         titleEmphasis
         accentLine
         align="left"
-        imagePosition="78% 50%"
+        imagePosition="40% 50%"
       >
         <p className="mt-5 max-w-2xl font-inter text-body-sm md:text-body text-white/80 leading-relaxed">
           {HERO_SUPPORT}
