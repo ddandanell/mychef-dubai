@@ -285,8 +285,10 @@ export default function PrivateChef() {
         cta={{ label: 'Get My Private Chef Quote', href: INQUIRY_LINK }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Private Chef Dubai' }]}
-        minHeight="large"
-        overlay="left"
+        minHeight="tall"
+        overlay="cinematic"
+        titleEmphasis
+        accentLine
         align="left"
         imagePosition="78% 50%"
       >
@@ -295,11 +297,11 @@ export default function PrivateChef() {
             <a
               key={fact.title}
               href="#household"
-              className="block bg-black/55 border border-gold/40 hover:border-gold p-5 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold"
+              className="block bg-black/75 backdrop-blur-[2px] border border-gold/45 border-l-[3px] border-l-gold hover:border-gold p-5 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold"
             >
               <span className="font-inter text-caption uppercase tracking-wider text-gold">{fact.eyebrow}</span>
               <p className="font-playfair text-h4 text-white mt-2">{fact.title}</p>
-              <p className="font-inter text-body-sm text-white/80 mt-2 leading-relaxed">{fact.body}</p>
+              <p className="font-inter text-body-sm text-white/85 mt-2 leading-relaxed">{fact.body}</p>
             </a>
           ))}
         </div>
