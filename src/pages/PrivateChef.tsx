@@ -88,23 +88,21 @@ const schema = {
       '@type': 'AggregateOffer',
       name: 'Private chef evenings in Dubai',
       description:
-        'Starting prices for a private chef dinner in Dubai. Groceries included in the evening quote. Final quotes depend on guests, menu and service.',
+        'Starting prices for named private chef evening packages in Dubai. Groceries included in the evening quote. Final quotes depend on guests, menu and service.',
       url: 'https://www.mychef.ae/private-chef-dubai',
       priceCurrency: 'AED',
       lowPrice: '1200',
       highPrice: '5500',
-      availability: 'https://schema.org/InStock',
     },
     {
       '@type': 'AggregateOffer',
-      name: 'Private chef household arrangements in Dubai',
+      name: 'Private chef household arrangements in Dubai — monthly starting prices',
       description:
-        'Starting daily and monthly prices for a standing private chef arrangement. Groceries separate. Standard schedule is 5 service days per week. Daily figures are effective rates on an ongoing plan of about 20 service days, not isolated one-day tickets.',
+        'Starting monthly prices for a standing private chef arrangement on about 20 service days. Groceries separate. Standard schedule is 5 service days per week. The effective daily rate on this plan starts from AED 900 at Private, one meal a day; that is not a one-day walk-in ticket.',
       url: 'https://www.mychef.ae/private-chef-dubai#household',
       priceCurrency: 'AED',
-      lowPrice: '900',
+      lowPrice: '18000',
       highPrice: '100000',
-      availability: 'https://schema.org/InStock',
     },
     {
       '@type': 'FAQPage',
@@ -475,7 +473,7 @@ export default function PrivateChef() {
                 This is a show of the people — not a locked roster. We work with 50+ professionals and change who we put forward depending on what you need. If the right match is not here, we find it.
               </p>
               <p className="font-inter text-body text-gray-400 leading-relaxed mb-4">
-                Every person we place as a head chef has typically led a restaurant kitchen for five to ten years, and arrives with their own assistants. Matching is the work of myCHEF: the right professional to the right house, and a specialist when you want one — including a yacht chef in Dubai Marina.
+                Head chefs we put forward typically come from restaurant kitchens. A CV is not enough. Matching is the work of myCHEF: the right professional to the right house, and a specialist when you want one — including a yacht chef in Dubai Marina. A standard household service includes one chef and one assistant as part of the myCHEF arrangement, not a person you put on payroll.
               </p>
               <p className="font-inter text-body text-gray-400 leading-relaxed mb-6">
                 A CV is not enough. Private service requires knowing when to speak and when not to, respecting someone’s home, being reliable, listening, and making excellent food. See{' '}
@@ -592,7 +590,7 @@ export default function PrivateChef() {
             ))}
           </div>
           <div className="overflow-x-auto">
-            <p className="font-inter text-caption uppercase tracking-wider text-gold mb-4">Typical per-person band for a multi-course dinner</p>
+            <p className="font-inter text-caption uppercase tracking-wider text-gold mb-4">Typical custom multi-course dinner — not the named packages above</p>
             <table className="w-full min-w-[520px] text-left">
               <thead>
                 <tr className="border-b border-gold/30">
@@ -610,7 +608,7 @@ export default function PrivateChef() {
               </tbody>
             </table>
             <p className="mt-4 font-inter text-body-sm text-gray-500">
-              Starting points. Final quotes move with guest count, menu, ingredients and service.{' '}
+              Named packages above are set starting products — Date Night from AED 1,200 is a total for two, not AED 1,200 per person. The band is a typical custom multi-course quote when you are not booking a named package. Final quotes move with guest count, menu, ingredients and service.{' '}
               <Link to="/private-chef-prices-dubai" className="text-gold hover:text-gold-light underline underline-offset-4">Full breakdown on private chef prices</Link>.
             </p>
           </div>
@@ -742,17 +740,20 @@ export default function PrivateChef() {
               </thead>
               <tbody>
                 {([
-                  ['1 meal / day', 900, 4500, 18000],
-                  ['2 meals / day', 1200, 6000, 24000],
-                  ['Full day · 3 meals', 1500, 7500, 30000],
-                ] as const).map((row) => (
-                  <tr key={row[0]} className="border-b border-gray-200">
-                    <td className="py-3 px-4 font-inter text-body text-black">{row[0]}</td>
-                    <td className="py-3 px-4 font-inter text-body text-gray-600">{formatAed(row[1])}</td>
-                    <td className="py-3 px-4 font-inter text-body text-gray-600">{formatAed(row[2])}</td>
-                    <td className="py-3 px-4 font-inter text-body text-gray-600">{formatAed(row[3])}</td>
-                  </tr>
-                ))}
+                  ['1 meal / day', '1'] as const,
+                  ['2 meals / day', '2'] as const,
+                  ['Full day · 3 meals', 'full'] as const,
+                ]).map(([label, key]) => {
+                  const daily = dailyRates.Private[key]
+                  return (
+                    <tr key={key} className="border-b border-gray-200">
+                      <td className="py-3 px-4 font-inter text-body text-black">{label}</td>
+                      <td className="py-3 px-4 font-inter text-body text-gray-600">{formatAed(daily)}</td>
+                      <td className="py-3 px-4 font-inter text-body text-gray-600">{formatAed(daily * 5)}</td>
+                      <td className="py-3 px-4 font-inter text-body text-gray-600">{formatAed(daily * 20)}</td>
+                    </tr>
+                  )
+                })}
               </tbody>
             </table>
           </div>
@@ -822,7 +823,7 @@ export default function PrivateChef() {
               <div className="border border-gray-200 p-6">
                 <p className="font-inter text-caption uppercase tracking-wider text-gold mb-2">Example week</p>
                 <p className="font-inter text-body-sm text-gray-500 leading-relaxed mb-3">
-                  Monday–Friday Private · 2 meals: from AED 6,000. Friday dinner upgraded to Elite: from AED 3,500. That week: from AED 9,500 before groceries.
+                  Monday–Friday Private · 2 meals: from AED 6,000. Add an Elite chef for Friday dinner (the weekday arrangement still covers the rest of the week): from AED 3,500. That week: from AED 9,500 before groceries.
                 </p>
               </div>
               <div className="border border-gray-200 p-6">

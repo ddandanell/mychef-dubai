@@ -370,8 +370,8 @@ export const proofItems = [
     body: 'Identity and right-to-work. A practical cooking assessment. References. Food-hygiene awareness. A trial period. Then ongoing review. The process is public — read how we vet our chefs.',
   },
   {
-    label: 'Head chefs who have led kitchens',
-    body: 'Typically five to ten years leading a restaurant kitchen, with their own assistants. A CV is not enough. Private service also requires knowing when to speak and when not to.',
+    label: 'Head chefs from restaurant kitchens',
+    body: 'Typically restaurant-trained, then assessed for private service. A CV is not enough. Knowing when to speak and when not to is part of the match. A standard household service includes one chef and one assistant.',
   },
   {
     label: 'A Food Profile that travels',
