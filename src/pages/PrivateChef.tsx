@@ -31,6 +31,7 @@ import {
   chefLevelIntro,
   chefLevels,
   comparison,
+  dailyLifePhotos,
   dailyRates,
   doPromise,
   dontPromise,
@@ -43,12 +44,14 @@ import {
   higherNotBetter,
   householdIncludes,
   inspectUs,
+  journeyPhotos,
   levelSpecialtyExamples,
   levelVsSpecialty,
   lifeStages,
   locations,
   managerAsks,
   managerFlow,
+  managerPhoto,
   networkSpecialties,
   pageSequence,
   paths,
@@ -57,12 +60,14 @@ import {
   profileQuestions,
   proofItems,
   relatedServices,
+  rotationPhoto,
   scoreDemo,
   systemMap,
   upgrades,
   vettingSteps,
   whatThisIs,
   whenThingsChange,
+  yearLaterPhoto,
   whoDoesWhat,
   whoFor,
   type ChefLevelName,
@@ -323,11 +328,20 @@ export default function PrivateChef() {
 
       {/* 01 What myCHEF is */}
       <section id="what-this-is" className="bg-white scroll-mt-24">
-        <div className="grid lg:grid-cols-2 min-h-[70vh] lg:min-h-[85vh]">
-          <div className="flex items-center section-padding order-2 lg:order-1">
-            <div className="max-w-[560px] mx-auto lg:ml-auto lg:mr-16">
+        <div className="grid lg:grid-cols-[52fr_48fr] lg:min-h-[92vh] items-stretch">
+          <div className="flex items-center section-padding">
+            <div className="max-w-[580px] mx-auto lg:ml-auto lg:mr-16 w-full">
               <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">What myCHEF is</span>
               <h2 className="font-playfair text-h2 text-black mb-6">The system, not just a chef</h2>
+              <div className="lg:hidden mb-8 -mx-4 sm:mx-0">
+                <FillFrame
+                  src={photos[1].src}
+                  alt={photos[1].alt}
+                  width={photos[1].width}
+                  height={photos[1].height}
+                  className="aspect-[4/5] w-full"
+                />
+              </div>
               {whatThisIs.map((para) => (
                 <p key={para.slice(0, 40)} className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5 last:mb-0">
                   {para}
@@ -335,13 +349,16 @@ export default function PrivateChef() {
               ))}
             </div>
           </div>
-          <FillFrame
-            src={photos[1].src}
-            alt={photos[1].alt}
-            width={photos[1].width}
-            height={photos[1].height}
-            className="min-h-[50vh] lg:min-h-full order-1 lg:order-2"
-          />
+          <div className="hidden lg:block relative min-h-[92vh]">
+            <FillFrame
+              src={photos[1].src}
+              alt={photos[1].alt}
+              width={photos[1].width}
+              height={photos[1].height}
+              className="absolute inset-0 h-full"
+              objectPosition="center 20%"
+            />
+          </div>
         </div>
         <div className="container-custom section-padding pt-0 pb-20">
           <p className="font-inter text-caption uppercase tracking-wider text-gold mb-3 text-center">The machine</p>
@@ -380,6 +397,13 @@ export default function PrivateChef() {
           </div>
           <div className="grid lg:grid-cols-2 gap-8">
             <div>
+              <FillFrame
+                src={photos[2].src}
+                alt={photos[2].alt}
+                width={photos[2].width}
+                height={photos[2].height}
+                className="aspect-[3/2] w-full mb-6"
+              />
               <a href="#evening" className="font-inter text-caption uppercase tracking-wider text-gold mb-4 inline-block">One evening →</a>
               <div className="space-y-4">
                 {whoFor.filter((item) => item.path === 'evening').map((item) => (
@@ -391,6 +415,13 @@ export default function PrivateChef() {
               </div>
             </div>
             <div>
+              <FillFrame
+                src={photos[3].src}
+                alt={photos[3].alt}
+                width={photos[3].width}
+                height={photos[3].height}
+                className="aspect-[3/2] w-full mb-6"
+              />
               <a href="#household" className="font-inter text-caption uppercase tracking-wider text-gold mb-4 inline-block">Ongoing household →</a>
               <div className="space-y-4">
                 {whoFor.filter((item) => item.path === 'household').map((item) => (
@@ -440,12 +471,26 @@ export default function PrivateChef() {
 
       {/* 04 How it works */}
       <section id="how-it-works" className="bg-cream section-padding scroll-mt-24">
-        <div className="container-custom max-w-[1000px]">
+        <div className="container-custom">
           <h2 className="font-playfair text-h2 text-black text-center mb-4">How a private chef through myCHEF works</h2>
-          <p className="font-inter text-body text-gray-500 text-center max-w-[640px] mx-auto mb-12 leading-relaxed">
-            Five steps. The same sequence whether you are booking one dinner or a house that eats here every weekday.
+          <p className="font-inter text-body text-gray-500 text-center max-w-[640px] mx-auto mb-10 leading-relaxed">
+            Five stages. The same sequence whether you are booking one dinner or a house that eats here every weekday.
           </p>
-          <div className="space-y-10">
+          <ol className="grid grid-cols-2 md:grid-cols-5 gap-3 mb-14">
+            {journeyPhotos.map((photo) => (
+              <li key={photo.caption}>
+                <FillFrame
+                  src={photo.src}
+                  alt={photo.alt}
+                  width={photo.width}
+                  height={photo.height}
+                  className="aspect-[4/5] w-full mb-3"
+                />
+                <p className="font-inter text-caption uppercase tracking-wider text-gold">{photo.caption}</p>
+              </li>
+            ))}
+          </ol>
+          <div className="max-w-[1000px] mx-auto space-y-10">
             {processSteps.map((step) => (
               <div key={step.num} className="pc-fade opacity-0 translate-y-8 flex gap-6 md:gap-8">
                 <span className="font-playfair text-[48px] text-gold leading-none flex-shrink-0 w-[60px] text-right">{step.num}</span>
@@ -465,7 +510,19 @@ export default function PrivateChef() {
       {/* Household manager + Food Profile */}
       <section id="your-manager" className="bg-white section-padding scroll-mt-24">
         <div className="container-custom">
-          <div className="grid lg:grid-cols-2 gap-10 mb-16">
+          <div className="grid lg:grid-cols-[42fr_58fr] gap-10 mb-16 items-start">
+            <figure>
+              <FillFrame
+                src={managerPhoto.src}
+                alt={managerPhoto.alt}
+                width={managerPhoto.width}
+                height={managerPhoto.height}
+                className="aspect-[4/5] w-full"
+              />
+              <figcaption className="mt-3 font-inter text-caption text-gray-500 leading-relaxed">
+                {managerPhoto.caption}
+              </figcaption>
+            </figure>
             <div>
               <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">Ongoing household</span>
               <h2 className="font-playfair text-h2 text-black mb-4">Your myCHEF Household Manager</h2>
@@ -493,20 +550,20 @@ export default function PrivateChef() {
                 ))}
               </ul>
             </div>
-            <div className="border border-gray-200 bg-cream p-6 md:p-8">
-              <p className="font-inter text-caption uppercase tracking-wider text-gold mb-2">{foodProfileDemo.eyebrow}</p>
-              <h3 className="font-playfair text-h3 text-black mb-2">{foodProfileDemo.house}</h3>
-              <p className="font-inter text-caption text-gray-500 mb-6">{foodProfileDemo.note}</p>
-              <dl className="space-y-3">
-                {foodProfileDemo.fields.map((row) => (
-                  <div key={row.k} className="grid grid-cols-[140px_1fr] gap-3 border-b border-gray-200 pb-3 last:border-0">
-                    <dt className="font-inter text-caption uppercase tracking-wider text-gold">{row.k}</dt>
-                    <dd className="font-inter text-body-sm text-black">{row.v}</dd>
-                  </div>
-                ))}
-              </dl>
-              <p className="font-playfair text-h4 text-black mt-8">{foodProfileDemo.closer}</p>
-            </div>
+          </div>
+          <div className="border border-gray-200 bg-cream p-6 md:p-10 max-w-[720px] ml-auto">
+            <p className="font-inter text-caption uppercase tracking-wider text-gold mb-2">{foodProfileDemo.eyebrow}</p>
+            <h3 className="font-playfair text-h3 text-black mb-2">{foodProfileDemo.house}</h3>
+            <p className="font-inter text-caption text-gray-500 mb-6">{foodProfileDemo.note}</p>
+            <dl className="space-y-3">
+              {foodProfileDemo.fields.map((row) => (
+                <div key={row.k} className="grid grid-cols-[140px_1fr] gap-3 border-b border-gray-200 pb-3 last:border-0">
+                  <dt className="font-inter text-caption uppercase tracking-wider text-gold">{row.k}</dt>
+                  <dd className="font-inter text-body-sm text-black">{row.v}</dd>
+                </div>
+              ))}
+            </dl>
+            <p className="font-playfair text-h4 text-black mt-8">{foodProfileDemo.closer}</p>
           </div>
         </div>
       </section>
@@ -543,9 +600,36 @@ export default function PrivateChef() {
                 </li>
               ))}
             </ol>
-            <p className="mt-10 font-playfair text-h4 text-white text-center leading-relaxed">
+            <p className="mt-10 font-playfair text-h4 text-white text-center leading-relaxed mb-12">
               After a year you should not be re-explaining breakfast.
             </p>
+            <div className="grid md:grid-cols-3 gap-4 mb-10">
+              {dailyLifePhotos.map((photo) => (
+                <figure key={photo.src}>
+                  <FillFrame
+                    src={photo.src}
+                    alt={photo.alt}
+                    width={photo.width}
+                    height={photo.height}
+                    className="aspect-[4/5] w-full mb-3"
+                  />
+                  <figcaption className="font-inter text-caption uppercase tracking-wider text-gold">{photo.caption}</figcaption>
+                </figure>
+              ))}
+            </div>
+            <figure>
+              <FillFrame
+                src={yearLaterPhoto.src}
+                alt={yearLaterPhoto.alt}
+                width={yearLaterPhoto.width}
+                height={yearLaterPhoto.height}
+                className="aspect-[4/5] w-full"
+                objectPosition="center 35%"
+              />
+              <figcaption className="mt-4 font-inter text-body-sm text-gray-400 text-center">
+                Month 12. The chef already knows breakfast. Nobody is re-briefing the kitchen.
+              </figcaption>
+            </figure>
           </div>
         </div>
       </section>
@@ -1069,6 +1153,22 @@ export default function PrivateChef() {
               Rotation, a specialist, backup, guests, seven days. This is the part a freelancer cannot fake, and the part a household actually uses.
             </p>
           </div>
+          <div className="grid lg:grid-cols-[48fr_52fr] gap-8 mb-14 items-center">
+            <FillFrame
+              src={rotationPhoto.src}
+              alt={rotationPhoto.alt}
+              width={rotationPhoto.width}
+              height={rotationPhoto.height}
+              className="aspect-[4/5] w-full"
+            />
+            <div>
+              <p className="font-inter text-caption uppercase tracking-wider text-gold mb-3">Friday wants Japanese</p>
+              <h3 className="font-playfair text-h3 text-black mb-4">Keep the weekday chef. Add the specialist.</h3>
+              <p className="font-inter text-body text-gray-500 leading-relaxed">
+                The regular chef stays on the stove. A specialist plates the dinner that needs another kitchen. Your household manager coordinates both. You do not make a second hire, and you do not replace the person who already knows breakfast.
+              </p>
+            </div>
+          </div>
           <div className="grid md:grid-cols-2 gap-6 mb-12">
             <FlowColumn title="Hiring independently" steps={backupAlone} />
             <FlowColumn title="With myCHEF" steps={backupMychef} accent />
@@ -1164,17 +1264,17 @@ export default function PrivateChef() {
         </div>
       </section>
 
-      {/* Gallery — all six, edge-to-edge */}
+      {/* Gallery */}
       <section className="bg-black">
         <div className="grid grid-cols-2 md:grid-cols-3 gap-0">
-          {photos.map((photo) => (
+          {[photos[1], rotationPhoto, yearLaterPhoto, dailyLifePhotos[0], dailyLifePhotos[2], managerPhoto].map((photo) => (
             <FillFrame
               key={photo.src}
               src={photo.src}
               alt={photo.alt}
               width={photo.width}
               height={photo.height}
-              className="aspect-[3/2]"
+              className="aspect-[4/5]"
             />
           ))}
         </div>

@@ -18,9 +18,9 @@ export const photos = [
   },
   {
     src: '/images/private-chef-dubai-system.webp',
-    alt: 'Private chef and assistant working together in a Dubai villa kitchen',
-    width: 1248,
-    height: 832,
+    alt: 'Household manager with a tablet standing between a private chef at the stove and an assistant preparing vegetables in a Dubai villa kitchen',
+    width: 928,
+    height: 1152,
   },
   {
     src: '/images/private-chef-dubai-evening.webp',
@@ -45,6 +45,90 @@ export const photos = [
     alt: 'Chef finishing a sea bass tasting plate with herbs and oil',
     width: 1248,
     height: 832,
+  },
+] as const
+
+export const journeyPhotos = [
+  {
+    src: '/images/private-chef-dubai-journey-brief.webp',
+    alt: 'Household manager briefing a private chef in a Dubai villa kitchen while an assistant prepares vegetables',
+    caption: '01 · The brief',
+    width: 912,
+    height: 1136,
+  },
+  {
+    src: '/images/private-chef-dubai-journey-match.webp',
+    alt: 'Household manager and private chef reviewing the household match on a tablet in a Dubai villa kitchen',
+    caption: '02 · The match',
+    width: 912,
+    height: 1136,
+  },
+  {
+    src: '/images/private-chef-dubai-journey-profile.webp',
+    alt: 'Household manager updating the Food Profile on a tablet while the chef cooks in the background',
+    caption: '03 · The Food Profile',
+    width: 912,
+    height: 1136,
+  },
+  {
+    src: '/images/private-chef-dubai-system.webp',
+    alt: 'Private chef cooking at the stove while the household manager and assistant work in the same kitchen',
+    caption: '04 · Service',
+    width: 928,
+    height: 1152,
+  },
+  {
+    src: '/images/private-chef-dubai-journey-review.webp',
+    alt: 'After service: chef cleaning the stove, assistant stacking bowls, household manager reviewing the tablet',
+    caption: '05 · Review',
+    width: 912,
+    height: 1136,
+  },
+] as const
+
+export const managerPhoto = {
+  src: '/images/private-chef-dubai-manager.webp',
+  alt: 'Editorial illustration of a myCHEF household manager in a Dubai villa kitchen, working from a tablet',
+  caption: 'Editorial illustration of the household-manager role — not a named staff portrait.',
+  width: 912,
+  height: 1136,
+}
+
+export const rotationPhoto = {
+  src: '/images/private-chef-dubai-rotation.webp',
+  alt: 'Regular household chef cooking at the stove while a Japanese specialist plates sashimi and the household manager coordinates',
+  width: 912,
+  height: 1136,
+}
+
+export const yearLaterPhoto = {
+  src: '/images/private-chef-dubai-year-later.webp',
+  alt: 'Private chef cooking breakfast unhurried in a Dubai villa kitchen, coffee and fruit already on the island',
+  width: 912,
+  height: 1136,
+}
+
+export const dailyLifePhotos = [
+  {
+    src: '/images/private-chef-dubai-life-breakfast.webp',
+    alt: 'Weekday breakfast on a limestone island: coffee, eggs, toast and berries, chef working in the background',
+    caption: 'Monday breakfast',
+    width: 912,
+    height: 1136,
+  },
+  {
+    src: '/images/private-chef-dubai-life-children.webp',
+    alt: 'Two simple children’s plates of pasta, chicken and vegetables on a villa kitchen island, chef cooking behind',
+    caption: 'Food the children will eat',
+    width: 912,
+    height: 1136,
+  },
+  {
+    src: '/images/private-chef-dubai-life-guests.webp',
+    alt: 'Saturday dining table set for six with candles and plated courses, private chef finishing a plate',
+    caption: 'Guests on Saturday',
+    width: 912,
+    height: 1136,
   },
 ] as const
 
