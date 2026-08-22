@@ -12,8 +12,8 @@ const pages = [
   },
   {
     route: '/private-chef-dubai',
-    title: 'Private Chef Dubai | Hire a Personal Chef at Home | myCHEF',
-    meta: 'Book a private chef in Dubai from AED 1,200 for dinner, or an ongoing household plan from AED 900 a day. Vetted chefs, one contact, prices on this page.',
+    title: 'Private Chef Dubai | Household Chef by the Week or Month | myCHEF',
+    meta: 'Hire a standing private chef in Dubai from AED 900 a day. New households from 5 days; returning from 2. One night is catering, not this page.',
     h1: 'Book a private chef in Dubai',
   },
   {

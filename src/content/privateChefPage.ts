@@ -1,9 +1,9 @@
 export const PAGE_PATH = '/private-chef-dubai'
 export const CAMPAIGN = 'private-chef-dubai'
 
-export const SEO_TITLE = 'Private Chef Dubai | Hire a Personal Chef at Home | myCHEF'
+export const SEO_TITLE = 'Private Chef Dubai | Household Chef by the Week or Month | myCHEF'
 export const SEO_DESCRIPTION =
-  'Book a private chef in Dubai from AED 1,200 for dinner, or an ongoing household plan from AED 900 a day. Vetted chefs, one contact, prices on this page.'
+  'Hire a standing private chef in Dubai from AED 900 a day. New households from 5 days; returning from 2. One night is catering, not this page.'
 export const H1 = 'Book a private chef in Dubai'
 export const HERO_IMAGE = '/images/private-chef-dubai-hero.webp'
 export const HERO_IMAGE_WIDTH = 1280
@@ -189,24 +189,71 @@ export const dailyLifePhotos = [
 ] as const
 
 export const HERO_SUBTITLE =
-  'A private chef is easy to find. A service that stays consistent is not. We run the match, the standard and the backup — for one dinner, or as a standing household arrangement. You stay a guest at your own table.'
+  'This is a household chef — a standing arrangement that learns the house. New clients start at five service days. Once we know you, from two. A single dinner is catering. You stay a guest at your own table.'
 
 export const WHATSAPP_NUMBER = '971551744849'
 export const WHATSAPP_MESSAGE =
-  "Hi myCHEF Dubai, I'd like a private chef. Evening dinner or household arrangement? Date: __, Guests: __, Location: __, Meals: __ (via mychef.ae/private-chef-dubai)"
+  "Hi myCHEF Dubai, I'd like a standing private chef for the household. Location: __, Meals/day: __, Start date: __, Days per week: __ (via mychef.ae/private-chef-dubai)"
 
 export const pageSequence = [
   { n: '01', label: 'What this is', href: '#what-this-is' },
-  { n: '02', label: 'Evening or household', href: '#which-service' },
+  { n: '02', label: 'Who it is for', href: '#which-service' },
   { n: '03', label: 'Why not hire yourself', href: '#why-not-hire' },
   { n: '04', label: 'How it works', href: '#how-it-works' },
   { n: '05', label: 'The life', href: '#the-life' },
   { n: '06', label: 'The chefs', href: '#the-chefs' },
-  { n: '07', label: 'What it costs', href: '#evening' },
+  { n: '07', label: 'What it costs', href: '#household' },
   { n: '08', label: 'When plans change', href: '#when-it-changes' },
-  { n: '09', label: 'Why believe us', href: '#proof' },
-  { n: '10', label: 'Start', href: '#start' },
+  { n: '09', label: 'Start', href: '#start' },
 ] as const
+
+export const heroFacts = [
+  {
+    eyebrow: 'New household',
+    title: 'From 5 service days',
+    body: 'The first week is how we learn the kitchen. We do not start a new house on a one-day booking.',
+  },
+  {
+    eyebrow: 'Once we know you',
+    title: 'From 2 service days',
+    body: 'Returning clients can run two days. Still a household — not a one-off dinner.',
+  },
+  {
+    eyebrow: 'Typical month',
+    title: 'From AED 18,000',
+    body: 'Senior Chef, one meal a day, about 20 service days. From AED 900 a day on that plan. Groceries separate.',
+  },
+] as const
+
+export const bookingMinimums = [
+  {
+    who: 'New household',
+    min: '5 service days',
+    why: 'The first week is calibration. We learn the kitchen, the coffee, the children, the timing. Five days is the start of a relationship, not a trial dinner.',
+  },
+  {
+    who: 'Returning household',
+    min: '2 service days',
+    why: 'The Food Profile already exists. Two days is enough to run the house without restarting it.',
+  },
+  {
+    who: 'Typical week',
+    min: '5 service days',
+    why: 'Monday to Friday is the standard rhythm. Weekends by arrangement on top of the plan.',
+  },
+  {
+    who: 'Typical month',
+    min: '~20 service days',
+    why: 'That is the plan the daily rate is based on. Pause while you travel. Restart without rebuilding the profile.',
+  },
+] as const
+
+export const cateringRedirect = {
+  title: 'One night is catering',
+  body: 'A birthday, a date, a yacht, clients for an evening — that is catering, not a private-chef household. We do that work. It lives on the catering pages. This page is only for people who want a chef in the house as a standing arrangement.',
+  href: '/catering-dubai',
+  label: 'Go to catering',
+} as const
 
 export const systemMap = [
   { n: '01', label: 'You' },
@@ -311,56 +358,27 @@ export const levelSpecialtyExamples = [
   { level: 'Executive Chef', specialty: 'can specialise in nutrition' },
 ] as const
 
-export const paths = [
-  {
-    id: 'evening',
-    eyebrow: 'One evening',
-    title: 'From AED 1,200 for two',
-    body: 'Date night, birthday, clients, a yacht. One service. Groceries are in the quote. You stay at the table.',
-  },
-  {
-    id: 'household',
-    eyebrow: 'Ongoing household',
-    title: 'From AED 900 a day on a plan',
-    body: 'Breakfast, dinner, or the full day. Groceries separate. AED 900 is the effective daily rate of an ongoing plan — not a walk-in ticket for tomorrow.',
-  },
-] as const
-
 export const whatThisIs = [
   'myCHEF is not a list of chefs you have to manage, and not a staffing agency that puts someone on your payroll. Independent, licensed culinary partners cook. We organise the chef: the match, the standard and the backup.',
-  'That is a different product from “luxury private chef Dubai.” You are not buying a person for an evening and hoping they come back the same. You are buying managed culinary infrastructure for a household — or a single evening run to the same standard.',
-  'Before anyone enters your kitchen we check identity and right-to-work, run a practical cooking assessment, take references, and review after service. For a standing arrangement we also hold your Food Profile, give you one contact, handle scheduling and backup, and bring in a specialist when you want one.',
-  'The chef cooks. We keep the chef, the house and the standard aligned. That is how to hire a private chef in Dubai without turning a personal chef at home into another job. The longer you stay, the better the service should become — a long-term private chef arrangement that learns the house.',
+  'You are buying a standing food service for a household — a chef who comes back, a record of how this house eats, and one contact when something changes. That is a different product from a one-night dinner. A one-night dinner is catering.',
+  'Before anyone enters your kitchen we check identity and right-to-work, run a practical cooking assessment, take references, and review after service. On a standing arrangement we also hold your Food Profile, give you one contact, handle scheduling and backup, and bring in a specialist when you want one.',
+  'The chef cooks. We keep the chef, the house and the standard aligned. The longer you stay, the less you should have to explain. That is the point of a long-term private chef — not a series of one-day hires.',
 ]
 
 export const whoFor = [
   {
-    path: 'evening' as const,
-    title: 'A dinner you do not want to cook',
-    body: 'Two people or twenty. A private chef dinner in Dubai: the menu designed with you, cooked in your kitchen, the kitchen left handled. You provide the room and the guests. That is the whole job on your side.',
-  },
-  {
-    path: 'evening' as const,
-    title: 'A yacht, a birthday, clients',
-    body: 'One service. One price before you confirm. The chef is not a surprise on the night, and neither is the bill. You stay at the table — that is the point of hiring the evening rather than hosting it yourself.',
-  },
-  {
-    path: 'household' as const,
     title: 'A family that does not want another person to manage',
     body: 'A private chef for the household without you becoming the scheduler, the backup plan, or HR. When the usual chef is off, the next chef is not walking in knowing nothing. The Food Profile travels. You talk to one contact.',
   },
   {
-    path: 'household' as const,
     title: 'A villa stay of weeks or months',
     body: 'A villa chef who already understands the house — not a restart every Monday. Palm, Emirates Hills, a winter let: the kitchen should feel like it belongs to this house by week two, not week twelve.',
   },
   {
-    path: 'household' as const,
     title: 'Nutrition, controlled',
-    body: 'Every meal follows what you actually mean by healthy in this house — not a generic programme, and not a restaurant menu wearing gym clothes. That is personal chef meal prep done properly.',
+    body: 'Every meal follows what you actually mean by healthy in this house — not a generic programme, and not a restaurant menu wearing gym clothes.',
   },
   {
-    path: 'household' as const,
     title: 'You do not want to think about food every day',
     body: 'That is a legitimate reason to want a chef. It is also a reason to want a system. If the service only works when you brief it, you have hired a task. If it works when you do not brief it, you have hired a household.',
   },
@@ -402,28 +420,28 @@ export const comparison = [
 export const processSteps = [
   {
     num: '01',
-    title: 'Tell us the date — or the rhythm',
-    body: 'An evening needs a date and a guest count. A household needs how many meals, which days, and what “healthy” means in this house. If you are not sure which path it is, say how you live. We will tell you which product it is — one evening, or an ongoing household. You do not have to choose a chef level to start a conversation.',
+    title: 'Tell us the rhythm',
+    body: 'How many meals, which days, and what “healthy” means in this house. New households start at five service days. Once we know you, from two. You do not have to choose a chef level to start a conversation. If you want one dinner, that is catering — we will send you there.',
   },
   {
     num: '02',
     title: 'We match a chef — not whoever is free',
-    body: 'The match is the kitchen, the cuisine and the format. Before anyone enters, we check identity and right-to-work, run a practical cooking assessment, and take references. A CV is not enough. Private service also requires knowing when to speak and when not to.',
+    body: 'The match is the kitchen, the cuisine and how this house actually lives. Before anyone enters, we check identity and right-to-work, run a practical cooking assessment, and take references. A CV is not enough. Private service also requires knowing when to speak and when not to.',
   },
   {
     num: '03',
-    title: 'For a household, we build your Food Profile',
+    title: 'We build your Food Profile',
     body: 'What you eat, what you do not, allergies, timing, how the children eat, whether you want conversation or quiet service. If it does not help us cook for you, we do not need it. The profile is yours: see it, correct it, or ask for it to be deleted. When the chef changes, the profile is what travels.',
   },
   {
     num: '04',
     title: 'They shop as agreed, cook in your kitchen, leave it handled',
-    body: 'You provide the room and the guests. The chef manages the food, the kitchen, the service style and the plate. For an evening, groceries are in the quote. For a household, groceries are separate and agreed in advance — so a simple healthy house does not subsidise someone eating wagyu.',
+    body: 'The chef manages the food, the kitchen, the service style and the plate. Groceries are separate and agreed in advance — so a simple healthy house does not subsidise someone eating wagyu.',
   },
   {
     num: '05',
     title: 'We ask how it was. Then we improve',
-    body: 'After about two days on a standing arrangement, we contact you separately from the chef. A rating starts a conversation — not a punishment machine. A sudden terrible score makes us ask: poor food, an unlearned preference, a misunderstanding, a mistake, or an unreasonable request? You are allowed to make a mistake. You are expected to learn from it.',
+    body: 'After about two days we contact you separately from the chef. A rating starts a conversation — not a punishment machine. The longer you stay, the less you should have to explain.',
   },
 ]
 
@@ -666,7 +684,7 @@ export const inspectUs = [
   { label: 'Chefs in the network', href: '/our-chefs' },
   { label: 'Booking protection', href: '/booking-protection-insurance' },
   { label: 'Leave a real review', href: '/review' },
-  { label: 'Private chef prices', href: '/private-chef-prices-dubai' },
+  { label: 'Catering — one night', href: '/catering-dubai' },
 ]
 
 export const featuredChefs = [
@@ -766,11 +784,7 @@ export const upgrades = [
 export const extraTeam = [
   { role: 'Additional chef', price: '1,500' },
   { role: 'Cuisine specialist', price: '2,500' },
-  { role: 'Signature Chef', price: '5,000' },
   { role: 'Additional assistant', price: '750' },
-  { role: 'Waiter', price: '600' },
-  { role: 'Bartender', price: '900' },
-  { role: 'Event captain', price: '1,500' },
 ]
 
 export const profileQuestions = [
@@ -804,16 +818,20 @@ export const locations = [
 
 export const faqs = [
   {
+    q: 'Can I book a private chef for one day?',
+    a: 'Not as a new household. New clients start at five service days. Returning clients, once the Food Profile exists, can book from two service days. A single dinner is catering — use the catering pages.',
+  },
+  {
     q: 'Is AED 900 a day a one-off booking?',
-    a: 'No. AED 900+ is the effective daily starting rate on an ongoing Senior Chef household plan (about 20 service days a month). A one-off day is possible — tell us the date and we quote it. Do not assume you can book a Senior Chef tomorrow for one meal at AED 900 without that conversation.',
+    a: 'No. AED 900+ is the effective daily starting rate on an ongoing Senior Chef household plan (about 20 service days a month). New households start at five service days. Returning clients from two. A single dinner is catering.',
   },
   {
     q: 'What do Senior Chef, Head Chef and Executive Chef mean?',
     a: 'They are myCHEF chef levels — our classification of background, leadership, technique, specialisation and demonstrated performance — not restaurant job titles and not an external qualification. Master Chef is a myCHEF label, not a competition title or membership. Senior Chef is the starting level for excellent everyday cooking; it does not mean junior. Higher does not always mean better for your house. Tell us how you live and we recommend where to start.',
   },
   {
-    q: 'Evening or household — which do I need?',
-    a: 'An evening is one service, groceries in the quote, from AED 1,200 for two. A household is a standing rhythm, groceries separate, from AED 900 a day on an ongoing plan. If you are not sure, tell us how you live. We will say which path it is.',
+    q: 'What is the minimum?',
+    a: 'Five service days for a new household. Two service days once we already know the house. The typical week is five days. The typical month is about 20 service days — that is the plan the daily rate is based on.',
   },
   {
     q: 'Do you employ the chef, or do I?',
@@ -825,7 +843,7 @@ export const faqs = [
   },
   {
     q: 'Are groceries included?',
-    a: 'Evening: yes, in the quote. Household: no — agreed in advance, so a simple healthy house does not subsidise someone eating wagyu. 5% VAT is shown separately.',
+    a: 'No. On a household plan groceries are agreed in advance, so a simple healthy house does not subsidise someone eating wagyu. 5% VAT is shown separately.',
   },
   {
     q: 'Do you cook halal, and can you handle allergies?',
@@ -833,20 +851,20 @@ export const faqs = [
   },
   {
     q: 'How far in advance should I book?',
-    a: 'Evenings: often 48 hours. A new household: about five days. Once we know you, two days is often enough. During business hours we typically reply within 15 minutes.',
+    a: 'A new household starts at five service days. Once we know you, two days is enough to run the house. During business hours we typically reply within 15 minutes.',
   },
   {
     q: 'How do I start?',
-    a: 'Choose one evening or an ongoing household, or tell us how you live. WhatsApp or the inquiry form. You should understand the starting price before you pay.',
+    a: 'Tell us how the house eats, which days, and when you want to begin. New households start at five days. WhatsApp or the inquiry form. You should understand the starting price before you pay.',
   },
 ]
 
 export const relatedServices = [
   {
-    title: 'Private Chef Prices',
-    description: 'Per-person dinner bands and what moves a quote.',
-    image: '/images/private-chef-prices-dubai-hero.webp',
-    link: '/private-chef-prices-dubai',
+    title: 'Catering in Dubai',
+    description: 'One night, a birthday, a yacht, clients — that booking lives here.',
+    image: '/images/catering-dubai-hero.webp',
+    link: '/catering-dubai',
   },
   {
     title: 'Weekly Meal Prep',
@@ -855,10 +873,10 @@ export const relatedServices = [
     link: '/weekly-meal-prep-dubai',
   },
   {
-    title: 'Villa Chef',
-    description: 'Standing arrangements for Palm, Emirates Hills and villa stays.',
-    image: '/service-villa.webp',
-    link: '/villas-private-residences',
+    title: 'How we vet chefs',
+    description: 'Identity, cooking assessment, references and ongoing review.',
+    image: '/images/how-we-vet-our-chefs-dubai-hero.webp',
+    link: '/how-we-vet-our-chefs',
   },
 ]
 

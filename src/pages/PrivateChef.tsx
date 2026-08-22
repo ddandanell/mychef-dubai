@@ -27,7 +27,9 @@ import {
   WHATSAPP_NUMBER,
   backupAlone,
   backupMychef,
+  bookingMinimums,
   calibration,
+  cateringRedirect,
   chefLevelIntro,
   chefLevelPhoto,
   chefLevels,
@@ -37,12 +39,12 @@ import {
   dailyRates,
   doPromise,
   dontPromise,
-  eveningPackages,
   extraTeam,
   faqs,
   featuredChefs,
   foodProfileDemo,
   formatAed,
+  heroFacts,
   higherNotBetter,
   howItWorksPhoto,
   householdIncludes,
@@ -58,8 +60,6 @@ import {
   mixPhoto,
   networkSpecialties,
   pageSequence,
-  paths,
-  perPersonBands,
   processSteps,
   profileQuestions,
   proofItems,
@@ -107,23 +107,13 @@ const schema = {
       },
       areaServed: 'Dubai, UAE',
       description:
-        'myCHEF organises vetted independent chefs for private chef dinners and standing household arrangements in Dubai homes, villas and yachts.',
-    },
-    {
-      '@type': 'AggregateOffer',
-      name: 'Private chef evenings in Dubai',
-      description:
-        'Starting prices for named private chef evening packages in Dubai. Groceries included in the evening quote. Final quotes depend on guests, menu and service.',
-      url: 'https://www.mychef.ae/private-chef-dubai',
-      priceCurrency: 'AED',
-      lowPrice: '1200',
-      highPrice: '5500',
+        'myCHEF organises vetted independent chefs for standing household private chef arrangements in Dubai homes and villas. New households from five service days. Returning households from two.',
     },
     {
       '@type': 'AggregateOffer',
       name: 'Private chef household arrangements in Dubai — monthly starting prices',
       description:
-        'Starting monthly prices for a standing private chef arrangement on about 20 service days. Groceries separate. Standard schedule is 5 service days per week. The effective daily rate on this plan starts from AED 900 at Senior Chef, one meal a day; that is not a one-day walk-in ticket.',
+        'Starting monthly prices for a standing private chef arrangement on about 20 service days. Groceries separate. New households start at five service days. Returning clients from two. The effective daily rate starts from AED 900 at Senior Chef, one meal a day. One-night dinners are catering, not this product.',
       url: 'https://www.mychef.ae/private-chef-dubai#household',
       priceCurrency: 'AED',
       lowPrice: '18000',
@@ -181,19 +171,14 @@ function FillFrame({
   )
 }
 
-function PathSwitcher({ className = '' }: { className?: string }) {
+function RatesBar({ className = '' }: { className?: string }) {
   return (
     <div className={`bg-black border-y border-gold/25 ${className}`}>
       <div className="container-custom py-3 flex flex-col sm:flex-row sm:items-center sm:justify-center gap-3 sm:gap-6">
-        <p className="font-inter text-caption uppercase tracking-wider text-gold text-center">What do you need?</p>
-        <div className="flex justify-center gap-2">
-          <a href="#evening" className="px-4 py-2 font-inter text-body-sm uppercase tracking-wider border border-gold text-gold hover:bg-gold hover:text-black transition-colors">
-            One evening
-          </a>
-          <a href="#household" className="px-4 py-2 font-inter text-body-sm uppercase tracking-wider border border-gold text-gold hover:bg-gold hover:text-black transition-colors">
-            Ongoing household
-          </a>
-        </div>
+        <p className="font-inter text-caption uppercase tracking-wider text-gold text-center">Standing household</p>
+        <a href="#household" className="px-4 py-2 font-inter text-body-sm uppercase tracking-wider border border-gold text-gold hover:bg-gold hover:text-black transition-colors text-center">
+          From 5 days · see rates
+        </a>
       </div>
     </div>
   )
@@ -262,6 +247,7 @@ export default function PrivateChef() {
     const daily = dailyRates[level][meals]
     return {
       daily,
+      twoDay: daily * 2,
       weekly: daily * 5,
       monthly: daily * 20,
     }
@@ -304,22 +290,22 @@ export default function PrivateChef() {
         align="left"
         imagePosition="78% 50%"
       >
-        <div className="mt-10 grid sm:grid-cols-2 gap-4 w-full max-w-3xl text-left">
-          {paths.map((path) => (
+        <div className="mt-10 grid sm:grid-cols-3 gap-4 w-full max-w-4xl text-left">
+          {heroFacts.map((fact) => (
             <a
-              key={path.id}
-              href={`#${path.id}`}
+              key={fact.title}
+              href="#household"
               className="block bg-black/55 border border-gold/40 hover:border-gold p-5 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold"
             >
-              <span className="font-inter text-caption uppercase tracking-wider text-gold">{path.eyebrow}</span>
-              <p className="font-playfair text-h4 text-white mt-2">{path.title}</p>
-              <p className="font-inter text-body-sm text-white/80 mt-2 leading-relaxed">{path.body}</p>
+              <span className="font-inter text-caption uppercase tracking-wider text-gold">{fact.eyebrow}</span>
+              <p className="font-playfair text-h4 text-white mt-2">{fact.title}</p>
+              <p className="font-inter text-body-sm text-white/80 mt-2 leading-relaxed">{fact.body}</p>
             </a>
           ))}
         </div>
       </PageHero>
       <TrustSignalStrip />
-      <PathSwitcher className="sticky top-16 z-30" />
+      <RatesBar className="sticky top-16 z-30" />
 
       <nav aria-label="Page sections" className="bg-charcoal border-b border-white/10">
         <div className="container-custom py-4 overflow-x-auto">
@@ -399,10 +385,10 @@ export default function PrivateChef() {
       <section id="which-service" className="bg-cream section-padding scroll-mt-24">
         <div className="container-custom">
           <div className="text-center max-w-[760px] mx-auto mb-10">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">Which service</span>
-            <h2 className="font-playfair text-h2 text-black">You want a chef. The question is whether you want to manage one.</h2>
+            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">Who this is for</span>
+            <h2 className="font-playfair text-h2 text-black">A chef for the house — not for one night</h2>
             <p className="font-inter text-body text-gray-500 mt-4 leading-relaxed">
-              Two products. Keep them apart in your head: one evening, or an ongoing household. They are psychologically different purchases — a night you host, versus a house that no longer thinks about food. Everything below follows one of those two paths.
+              If you want breakfast to appear without briefing it, a villa that eats for weeks, or a family that does not want another person to manage — this is the page. If you want one dinner, that is catering.
             </p>
           </div>
           <FillFrame
@@ -413,29 +399,20 @@ export default function PrivateChef() {
             className="aspect-[16/9] w-full mb-12"
             objectPosition="center 55%"
           />
-          <div className="grid lg:grid-cols-2 gap-8">
-            <div>
-              <a href="#evening" className="font-inter text-caption uppercase tracking-wider text-gold mb-4 inline-block">One evening →</a>
-              <div className="space-y-4">
-                {whoFor.filter((item) => item.path === 'evening').map((item) => (
-                  <div key={item.title} className="bg-white p-6 border border-gray-200">
-                    <h3 className="font-playfair text-h4 text-black mb-2">{item.title}</h3>
-                    <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{item.body}</p>
-                  </div>
-                ))}
+          <div className="grid md:grid-cols-2 gap-6 mb-10">
+            {whoFor.map((item) => (
+              <div key={item.title} className="bg-white p-6 border border-gray-200">
+                <h3 className="font-playfair text-h4 text-black mb-2">{item.title}</h3>
+                <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{item.body}</p>
               </div>
-            </div>
-            <div>
-              <a href="#household" className="font-inter text-caption uppercase tracking-wider text-gold mb-4 inline-block">Ongoing household →</a>
-              <div className="space-y-4">
-                {whoFor.filter((item) => item.path === 'household').map((item) => (
-                  <div key={item.title} className="bg-white p-6 border border-gray-200">
-                    <h3 className="font-playfair text-h4 text-black mb-2">{item.title}</h3>
-                    <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{item.body}</p>
-                  </div>
-                ))}
-              </div>
-            </div>
+            ))}
+          </div>
+          <div className="bg-white border border-gold/30 p-8 max-w-[720px] mx-auto text-center">
+            <p className="font-inter text-caption uppercase tracking-wider text-gold mb-3">{cateringRedirect.title}</p>
+            <p className="font-inter text-body text-gray-500 leading-relaxed mb-6">{cateringRedirect.body}</p>
+            <Link to={cateringRedirect.href} className="btn-secondary">
+              {cateringRedirect.label}
+            </Link>
           </div>
         </div>
       </section>
@@ -524,7 +501,7 @@ export default function PrivateChef() {
             ))}
           </div>
           <p className="mt-12 font-inter text-body-sm text-gray-500 text-center max-w-[640px] mx-auto">
-            One evening: often 48 hours. A new household: about five days. Once we know you, two days is often enough. During business hours we typically reply within 15 minutes.
+            A new household starts at five service days. Once we know you, from two. During business hours we typically reply within 15 minutes.
           </p>
         </div>
       </section>
@@ -820,84 +797,7 @@ export default function PrivateChef() {
         </div>
       </section>
 
-      {/* 07 An evening */}
-      <section id="evening" className="bg-black scroll-mt-24">
-        <div className="relative min-h-[55vh] md:min-h-[70vh]">
-          <FillFrame
-            src={photos[2].src}
-            alt={photos[2].alt}
-            width={photos[2].width}
-            height={photos[2].height}
-            className="absolute inset-0"
-            objectPosition="center 45%"
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-black via-black/55 to-black/15" />
-          <div className="relative z-10 container-custom min-h-[55vh] md:min-h-[70vh] flex flex-col justify-end pb-12 md:pb-16">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">Product A · One evening</span>
-            <h2 className="font-playfair text-h2 text-white mb-4 max-w-[720px]">A private chef dinner in Dubai</h2>
-            <p className="font-inter text-body text-white/85 leading-relaxed max-w-[720px]">
-              A chef in your kitchen for one service. Menu designed with you. Ingredients sourced. Cooked, plated, served, kitchen left handled. You provide the room and the guests. Groceries are in the quote. 5% VAT is shown separately. A deposit confirms the date.
-            </p>
-          </div>
-        </div>
-        <div className="container-custom section-padding pt-12">
-          <p className="font-inter text-body text-gray-400 leading-relaxed max-w-[720px] mb-10">
-            This is the night: a date, a birthday, clients, a yacht. It is not a household plan. You are not taking on a person. You are booking a service that ends when the kitchen is left handled. Starting packages below. Final quotes move with guests, menu and service.
-          </p>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-            {eveningPackages.map((pkg) => (
-              <Link
-                key={pkg.name}
-                to={pkg.link}
-                className="group bg-charcoal overflow-hidden hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] transition-all duration-300"
-              >
-                <FillFrame
-                  src={pkg.image}
-                  alt={pkg.imageAlt}
-                  width={1248}
-                  height={832}
-                  className="aspect-[3/2] w-full"
-                  objectPosition="center 45%"
-                />
-                <div className="p-8">
-                  <p className="font-inter text-caption uppercase tracking-wider text-gold mb-2">{pkg.guests}</p>
-                  <h3 className="font-playfair text-h3 text-white mb-2">{pkg.name}</h3>
-                  <p className="font-playfair text-h4 text-gold mb-3">From AED {pkg.price}</p>
-                  <p className="font-inter text-body-sm text-gray-400 leading-relaxed mb-4">{pkg.detail}</p>
-                  <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light">
-                    View package <ArrowRight size={14} />
-                  </span>
-                </div>
-              </Link>
-            ))}
-          </div>
-          <div className="overflow-x-auto">
-            <p className="font-inter text-caption uppercase tracking-wider text-gold mb-4">Typical custom multi-course dinner — not the named packages above</p>
-            <table className="w-full min-w-[520px] text-left">
-              <thead>
-                <tr className="border-b border-gold/30">
-                  <th className="py-3 pr-6 font-inter text-caption uppercase tracking-wider text-gray-400">Guests</th>
-                  <th className="py-3 font-inter text-caption uppercase tracking-wider text-gray-400">Per person</th>
-                </tr>
-              </thead>
-              <tbody>
-                {perPersonBands.map((row) => (
-                  <tr key={row.guests} className="border-b border-white/10">
-                    <td className="py-3 pr-6 font-inter text-body text-white">{row.guests}</td>
-                    <td className="py-3 font-inter text-body text-gray-300">{row.band}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-            <p className="mt-4 font-inter text-body-sm text-gray-500">
-              Named packages above are set starting products — Date Night from AED 1,200 is a total for two, not AED 1,200 per person. The band is a typical custom multi-course quote when you are not booking a named package. Final quotes move with guest count, menu, ingredients and service.{' '}
-              <Link to="/private-chef-prices-dubai" className="text-gold hover:text-gold-light underline underline-offset-4">Full breakdown on private chef prices</Link>.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* 07b A household */}
+      {/* 07 Household rates */}
       <section id="household" className="bg-cream scroll-mt-24">
         <div className="relative min-h-[50vh] md:min-h-[65vh]">
           <FillFrame
@@ -910,30 +810,36 @@ export default function PrivateChef() {
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/35 to-black/10" />
           <div className="relative z-10 container-custom min-h-[50vh] md:min-h-[65vh] flex flex-col justify-end pb-12 md:pb-16">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">Product B · Ongoing household</span>
+            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">The household plan</span>
             <h2 className="font-playfair text-h2 text-white mb-4 max-w-[760px]">A standing private chef arrangement</h2>
             <p className="font-inter text-body text-white/85 leading-relaxed max-w-[760px]">
-              Ongoing household. Choose the level of chef, then how often you want them. Groceries are separate. Standard schedule is 5 service days per week.
+              Choose the level of chef, then how often you want them. New households start at five service days. Returning clients from two. Groceries are separate. Standard week is five service days.
             </p>
           </div>
         </div>
         <div className="container-custom section-padding">
-          <div className="max-w-[760px] mb-12">
+          <div className="max-w-[760px] mb-10">
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-4">
-              The numbers below are starting rates for an <strong className="font-medium text-black">ongoing household plan</strong> — about 20 service days a month. The “day” figure is the <strong className="font-medium text-black">effective daily rate</strong> of that plan, not a walk-in price for tomorrow.
-            </p>
-            <p className="font-inter text-body text-gray-500 leading-relaxed mb-4">
-              <strong className="font-medium text-black">Single-day booking:</strong> possible. Tell us the date. We quote it.{' '}
-              <strong className="font-medium text-black">Effective daily rate on an ongoing plan:</strong> from AED 900 at Senior Chef, one meal a day. Do not assume a Senior Chef, one meal, AED 900 books an isolated tomorrow without that conversation.
+              The numbers below are starting rates for a <strong className="font-medium text-black">standing household plan</strong>. The “day” figure is the <strong className="font-medium text-black">effective daily rate</strong> of that plan — not a walk-in ticket for tomorrow, and not a one-night dinner.
             </p>
             <p className="font-inter text-body text-gray-500 leading-relaxed">
-              Independent licensed partners cook. myCHEF organises the service. You do not need a full day if you only want breakfast. You do not need a Signature Chef every day because you want one extraordinary dinner a month. Groceries are separate.
+              Independent licensed partners cook. myCHEF organises the service. You do not need a full day if you only want breakfast. You do not need a Signature Chef every day because you want one extraordinary dinner a month. Groceries are separate. A single night is{' '}
+              <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4">catering</Link>.
             </p>
+          </div>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-12">
+            {bookingMinimums.map((item) => (
+              <div key={item.who} className="bg-white border border-gray-200 p-6">
+                <p className="font-inter text-caption uppercase tracking-wider text-gold mb-2">{item.who}</p>
+                <p className="font-playfair text-h4 text-black mb-3">{item.min}</p>
+                <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{item.why}</p>
+              </div>
+            ))}
           </div>
 
           <div className="bg-white border border-gray-200 p-6 md:p-10 mb-12">
-            <h3 className="font-playfair text-h3 text-black mb-2">Ongoing household — starting rates</h3>
-            <p className="font-inter text-body-sm text-gray-500 mb-6">Effective daily rate on a standing plan. A one-off day is quoted separately. Names below are myCHEF chef levels — not restaurant job titles, and not an external qualification.</p>
+            <h3 className="font-playfair text-h3 text-black mb-2">Starting rates — day, week and month</h3>
+            <p className="font-inter text-body-sm text-gray-500 mb-6">Effective daily rate on a standing plan. New households are quoted from five days. Returning households from two. Names below are myCHEF chef levels — not restaurant job titles, and not an external qualification.</p>
             <div className="grid md:grid-cols-2 gap-8 mb-8">
               <fieldset>
                 <legend className="font-inter text-caption uppercase tracking-wider text-gold mb-3">myCHEF chef level</legend>
@@ -977,13 +883,17 @@ export default function PrivateChef() {
             <p className="font-inter text-body-sm text-gray-500 mb-6">
               {level} · {mealLabels[meals]} · 5 service days · chef + assistant + the myCHEF system. Groceries separate.
             </p>
-            <div className="grid sm:grid-cols-3 gap-4">
+            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
               <div className="border border-gray-200 p-5">
                 <p className="font-inter text-caption uppercase tracking-wider text-gold mb-2">Effective / day</p>
                 <p className="font-playfair text-h3 text-black">{formatAed(quote.daily)}</p>
               </div>
               <div className="border border-gray-200 p-5">
-                <p className="font-inter text-caption uppercase tracking-wider text-gold mb-2">5-day week</p>
+                <p className="font-inter text-caption uppercase tracking-wider text-gold mb-2">Returning · 2 days</p>
+                <p className="font-playfair text-h3 text-black">{formatAed(quote.twoDay)}</p>
+              </div>
+              <div className="border border-gray-200 p-5">
+                <p className="font-inter text-caption uppercase tracking-wider text-gold mb-2">New · 5-day week</p>
                 <p className="font-playfair text-h3 text-black">{formatAed(quote.weekly)}</p>
               </div>
               <div className="border border-gold/40 bg-gold/5 p-5">
@@ -1388,7 +1298,7 @@ export default function PrivateChef() {
       <section className="bg-black py-20">
         <div className="container-custom">
           <h3 className="font-playfair text-h3 text-white text-center mb-10">
-            Which other services pair with a private chef in Dubai?
+            Need a one-night dinner, or food without a chef in the house?
           </h3>
           <div className="grid md:grid-cols-3 gap-6">
             {relatedServices.map((svc) => (
@@ -1462,14 +1372,14 @@ export default function PrivateChef() {
         />
         <div className="absolute inset-0 bg-gradient-to-r from-black/85 via-black/55 to-black/20" />
         <div className="relative z-10 container-custom py-16 md:py-20">
-          <p className="font-inter text-caption uppercase tracking-wider text-gold mb-3">If this is the service you want</p>
-          <h2 className="font-playfair text-h2 text-white mb-4 max-w-[640px]">You already know the starting price</h2>
+          <p className="font-inter text-caption uppercase tracking-wider text-gold mb-3">If this is the house you want</p>
+          <h2 className="font-playfair text-h2 text-white mb-4 max-w-[640px]">Start the household plan</h2>
           <p className="font-inter text-body-lg text-white/85 max-w-[560px] mb-8 leading-relaxed">
-            One evening from AED 1,200 for two, groceries in the quote. An ongoing household from AED 900 a day on a plan, groceries separate. If you are not sure, tell us how you live — don’t pick a chef level first.
+            From AED 900 a day on a standing plan. New households from five service days. Returning from two. Groceries separate. If you want one night, that is catering — don’t start here.
           </p>
           <div className="flex flex-col sm:flex-row items-start gap-3 mb-8">
-            <a href="#evening" className="btn-secondary">One evening</a>
-            <a href="#household" className="btn-secondary">Ongoing household</a>
+            <a href="#household" className="btn-secondary">See day, week and month</a>
+            <Link to="/catering-dubai" className="btn-secondary">One night is catering</Link>
           </div>
           <QuotePair className="items-start" />
         </div>
