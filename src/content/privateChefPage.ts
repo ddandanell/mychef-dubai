@@ -5,6 +5,49 @@ export const SEO_TITLE = 'Private Chef Dubai | Hire a Personal Chef at Home | my
 export const SEO_DESCRIPTION =
   'Book a private chef in Dubai from AED 1,200 for dinner, or a household chef from AED 900 a day. Vetted chefs, one contact, prices on this page.'
 export const H1 = 'Book a private chef in Dubai'
+export const HERO_IMAGE = '/images/private-chef-dubai-hero.webp'
+export const HERO_IMAGE_WIDTH = 1280
+export const HERO_IMAGE_HEIGHT = 720
+
+export const photos = [
+  {
+    src: '/images/private-chef-dubai-hero.webp',
+    alt: 'Private chef plating a course in a dark Dubai villa kitchen overlooking the skyline at dusk',
+    width: 1280,
+    height: 720,
+  },
+  {
+    src: '/images/private-chef-dubai-system.webp',
+    alt: 'Private chef and assistant working together in a Dubai villa kitchen',
+    width: 1248,
+    height: 832,
+  },
+  {
+    src: '/images/private-chef-dubai-evening.webp',
+    alt: 'Candlelit private chef dinner for two in a Dubai villa with the city skyline',
+    width: 1248,
+    height: 832,
+  },
+  {
+    src: '/images/private-chef-dubai-household.webp',
+    alt: 'Household private chef preparing a family lunch in a Dubai villa kitchen',
+    width: 1248,
+    height: 832,
+  },
+  {
+    src: '/images/private-chef-dubai-yacht.webp',
+    alt: 'Private chef plating canapés on a yacht deck with the Dubai Marina skyline',
+    width: 1248,
+    height: 832,
+  },
+  {
+    src: '/images/private-chef-dubai-plating.webp',
+    alt: 'Chef finishing a sea bass tasting plate with herbs and oil',
+    width: 1248,
+    height: 832,
+  },
+] as const
+
 export const HERO_SUBTITLE =
   'A private chef is easy to find. A service that stays consistent is not. myCHEF sends a vetted chef to your home, villa or yacht — for one dinner, or as a standing household arrangement. We run the match, the standard and the backup. You stay a guest at your own table.'
 
