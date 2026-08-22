@@ -35,43 +35,16 @@
    "private chef uk cost",
    "private chef dubai vacancy"
   ],
-  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+  "note": "Page rebuilt 2026-08-22 around evening + household products. Copy lives in PrivateChef.tsx. SeoContent injectors left empty so old AED 700pp / named-chef blocks cannot append."
  },
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
-  "title": "Private Chef Dubai | Hire from AED 700pp | myCHEF",
-  "meta_description": "Hire a vetted private chef in Dubai from AED 700 per person. Bespoke menus cooked in your villa, home or yacht — date nights to dinner parties. We typically reply within 15 minutes during business hours.",
-  "h1": "Hire a Private Chef in Dubai — Menus, Prices and What's Included"
+  "title": "Private Chef Dubai | Hire a Personal Chef at Home | myCHEF",
+  "meta_description": "Book a private chef in Dubai from AED 1,200 for dinner, or a household chef from AED 900 a day. Vetted chefs, one contact, prices on this page.",
+  "h1": "Book a private chef in Dubai"
  },
- "opening_paragraph": [
-  "Hiring a private chef in Dubai through myCHEF costs from AED 700 per person, and that buys a restaurant-grade dinner cooked and served for you. Your villa or apartment gets the whole thing, plated course by course. Instead of booking a table, you keep your own table — the chef designs a menu around your guests, brings that morning's ingredients, cooks on your own stove and leaves the kitchen spotless. Two guests sit nearer AED 950–1,300 a head; ten or more brings it down toward AED 700. Send us the date, the headcount and the kind of evening you have in mind, we typically reply within 15 minutes during business hours, with a named chef and an itemised proposal to follow — no call-back queue."
- ],
- "replace_in_block": [
-  {
-   "block_on_your_page": "What does a private chef do in Dubai?",
-   "match_confidence": 0.76,
-   "new_heading": "How to hire a private chef in Dubai",
-   "new_paragraphs": [
-    "To hire a private chef, start with three things: the date, the headcount and any dietary rules. Send them over and we match a vetted chef, then come back with a proposed menu and an itemised price — promptly during our published business hours. You review the menu, tweak anything that isn't right, and for a larger event add a tasting before you commit. Give it the nod and the booking is set; on the night the chef arrives ahead of service, cooks, serves each course and clears the kitchen behind them. Most dinners need only 48–72 hours' notice, though a week or more helps for large parties and peak dates such as New Year, Christmas or Ramadan. There is no membership and no minimum commitment — hire a private chef for a single evening or set up a standing weekly slot, whichever suits your household."
-   ]
-  },
-  {
-   "block_on_your_page": "How does a private chef dinner work in Dubai?",
-   "match_confidence": 0.67,
-   "new_heading": "How to find the best private chef in Dubai",
-   "new_paragraphs": [
-    "Nobody can hand you a ranking, and a company that awards itself the title is quoting itself, so the practical question is how to find a private chef in Dubai you can judge before you pay. Five checks do most of the work. Is the per-head price published, with what it includes, or does a figure appear only after you enquire? Is the menu written around your table, or is it a fixed list with your date typed at the top? Which licensed kitchen or partner stands behind the booking, and what training does the person cooking hold? Will the chef cook in front of you, or is the food finished elsewhere and reheated at your address? And is one named person accountable from the first message to the last cleared plate? A chef who is right for a French tasting menu for six is not automatically right for a BBQ for forty, so match the brief before you compare prices."
-   ]
-  },
-  {
-   "block_on_your_page": "Book Your Private Chef Today",
-   "match_confidence": 0.75,
-   "new_heading": "Why book your private chef through myCHEF",
-   "new_paragraphs": [
-    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you own the evening, we carry the work. MyCHEF is implementing a structured 12-stage partner verification and quality-assurance framework across its culinary partner network, covering company identity, trade licence and permitted activities, food-safety permits, Person-in-Charge and food-handler training documentation, allergen controls, and a chef and service-team assessment. We stay honest about it: no process removes every risk, so each event is matched to a chef whose cuisine and format experience fit the brief. For classical fine dining and corporate dinners, that is often Ahmed Al-Rashid , who brings 18-plus years across Dubai, London and Paris and designs each menu as a collaboration with the host — every course timed, seasoned and served to exacting standards. We have run private chef alongside villa weddings, yacht celebrations and corporate galas across Dubai; everysets out the brief, the cuisine, the execution and the outcome. It is a genuinely luxury private chef service brought into your own home — client reviews are added only as real events are delivered."
-   ]
-  }
- ],
+ "opening_paragraph": [],
+ "replace_in_block": [],
  "leave_untouched": [
   "At a Glance",
   "Where in Dubai can I hire a private chef?",
@@ -81,129 +54,6 @@
   "Private Chef Packages in Dubai",
   "What private chef services are available in Dubai?"
  ],
- "add_block": [
-  {
-   "new_heading": "Private chef catering for corporate events, parties and weddings",
-   "new_paragraphs": [
-    "A private chef scales from a table for two to a celebration for eighty. For corporate private chef catering — client dinners, board lunches or a director entertaining at home — we send someone comfortable cooking to a brief and to a clock. For private chef party catering, whether a birthday, an anniversary or a housewarming, the chef runs canapés through dessert while you stay with your guests instead of the oven. Weddings and engagements get a chef who can plate a formal multi-course dinner or serve a relaxed sharing feast, with a second pair of hands front of house when the numbers climb. Because a private chef is priced per head, the same team can cover an intimate proposal dinner or private chef catering for events seating fifty — you set the register and the menu, and the price follows the headcount and the courses you choose."
-   ],
-   "insert_after_block": "What private chef services are available in Dubai?",
-   "position": "after the block titled 'What private chef services are available in Dubai?'",
-   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
-  },
-  {
-   "new_heading": "Your private chef menu and options",
-   "new_paragraphs": [
-    "The private chef menu is built for your table, not pulled off a laminated card. Tell us the cuisines you love — Italian, French, Levantine, Japanese, modern European or Indian — and the chef shapes a Signature, Premium or tasting menu around them. A French private chef in Dubai is one of the more requested briefs, and classical French technique is what Ahmed Al-Rashid trained in, so a menu of that kind goes to him. A private BBQ chef is the outdoor version of the same service: the chef fires the grill on your terrace or by the pool, cooks in front of guests and plates from the coals, which is priced at the same per-head rate as an indoor dinner because it is the same chef doing the same work — see BBQ catering for the menus. A typical dinner runs canapés, a starter, a main and a dessert; a tasting menu stretches to six or more paired courses. The private chef food is sourced fresh the same day, so the menu flexes with what the market has that morning. Want a little theatre with the meal? Our luxury dining experiences add a chef's table or a date-night tasting cooked in front of you. Nothing on the menu is fixed until you have signed it off, and for a larger event you can taste the shortlist before you commit."
-   ],
-   "insert_after_block": "What private chef services are available in Dubai?",
-   "position": "after the block titled 'What private chef services are available in Dubai?'",
-   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
-  },
-  {
-   "new_heading": "Dietary needs, halal options and kitchen logistics",
-   "new_paragraphs": [
-    "Any dietary rule can be built into the menu from the start — halal, vegetarian and vegan cooking are standard, not surcharged extras. Gluten-free, dairy-free and nut-conscious menus may be available on request, subject to confirmation by the assigned culinary partner; partner kitchens may handle allergens, and cross-contact cannot be completely excluded unless dedicated controls have been specifically confirmed for the booking, so give us full details before you confirm. Flag your requirements when you enquire and the chef sources and cooks accordingly, keeping allergen ingredients separate. On logistics, your kitchen does not need to be anything special: a normal home hob, an oven and a little counter space are plenty, and the chef carries the specialist kit. For a villa, an apartment or a yacht, we confirm access, parking and timing inside the proposal so nothing is a surprise on the night. Every chef works to Dubai Municipality food-safety requirements . A clear brief on numbers, venue and diet is exactly what lets us quote accurately the first time."
-   ],
-   "insert_after_block": "What private chef services are available in Dubai?",
-   "position": "after the block titled 'What private chef services are available in Dubai?'",
-   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
-  },
-  {
-   "new_heading": "Daily, full-time and standing private chef arrangements",
-   "new_paragraphs": [
-    "Not every enquiry is for one evening. A private chef in Dubai daily, or on a fixed weekly pattern, is a normal arrangement and it is priced differently from a dinner party. There is no flat day rate, because the cost of a day tracks the meals and the number of people eating at each one rather than the hours the chef is in the house. A day covering breakfast, a lunch and dinner is quoted as three services on one booking, and the shopping and setup happen once, so the middle service usually comes back below the headline per-head figure. Ask for the private chef cost per day that way, service by service, and you can see which meal to drop if the total is not where you want it.",
-    "For an ongoing household, the two shapes are a standing booking and weekly meal prep. A standing booking is the same chef on an agreed schedule, invoiced per service, with no visa, payroll or accommodation on your side; weekly meal prep sends a chef to shop, cook and portion the whole week in your kitchen from AED 1,898 per week, or AED 2,698 for a larger household or a wider menu. A live-in chef is something else again — a household employee you sponsor and pay monthly, arranged through a licensed domestic-staff agency, not a catering company. See full-time and part-time household cooking for how each is structured."
-   ],
-   "insert_after_block": "Private Chef Packages in Dubai",
-   "position": "after the block titled 'Private Chef Packages in Dubai'",
-   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
-  },
-  {
-   "new_heading": "Private chef Dubai — areas we cover",
-   "new_paragraphs": [
-    "We place a private chef across every Dubai neighbourhood — villas on Palm Jumeirah and Emirates Hills , apartments in Dubai Marina and Downtown , family homes in Jumeirah and Arabian Ranches , and yachts leaving from the marina. As a Dubai-based private chef company instead of a faceless agency, we match the chef to the space as much as to the menu — a compact apartment kitchen and a full villa setup call for different planning. Wherever you are, the search for a private chef near me ends in the same place: send your area with your enquiry and we confirm a chef who covers it. Browse all Dubai locations to see where we regularly cook."
-   ],
-   "insert_after_block": "Book Your Private Chef Today",
-   "position": "after the block titled 'Book Your Private Chef Today'",
-   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
-  },
-  {
-   "new_heading": "Private chef Dubai — frequently asked questions",
-   "new_paragraphs": [
-    "How much does a private chef cost in Dubai?",
-    "From AED 700–950 per person. Two guests sit at AED 950–1,300pp, six around AED 750–1,000pp, and ten or more start from AED 700pp; fixed packages run AED 1,200 to AED 5,500.",
-    "How far ahead should I book a private chef?",
-    "48–72 hours is enough for most dinners. Allow a week or more for larger parties and peak dates such as New Year, Christmas or Ramadan.",
-    "Is there a private chef near me in Dubai?",
-    "Yes — we cover every area of Dubai, from Palm Jumeirah villas to Marina apartments and yachts. Send your neighbourhood with your enquiry and we confirm a chef who serves it.",
-    "Do you cater to dietary needs and halal menus?",
-    "Yes. Halal, vegetarian and vegan menus are standard at no premium. Gluten-free, nut-conscious and other dietary menu options may be available on request, subject to confirmation by the assigned culinary partner. Partner kitchens may handle allergens, and cross-contact cannot be completely excluded unless dedicated controls have been specifically confirmed for the booking. Guests with allergies must provide full details before confirming their event.",
-    "Can I request a female private chef in Dubai?",
-    "Yes — a female chef can be requested for your booking. Tell us when you enquire and myCHEF brings you a female chef from the partner network for your date, cuisine and service style. Families, women-only events and households who simply prefer it ask for this regularly across Dubai. Raise it with your date rather than after the menu is signed off, because availability moves with the date, the cuisine and who in the partner network is free.",
-    "How much does a private chef cost per day in Dubai?",
-    "There is no flat day rate. A day is quoted service by service, so breakfast, lunch and dinner are each priced on the menu and on how many sit down to that meal, from AED 700 per person for a dinner. Because the shopping and the setup happen once, the middle service usually comes back below the headline per-head figure. For a daily or weekly pattern, weekly meal prep is published at AED 1,898 per week.",
-    "Can I book the same private chef daily or full-time?",
-    "Yes, as a standing booking rather than an employment placement. The same chef cooks on an agreed schedule where availability allows, invoiced per service or per week, with no visa, payroll or accommodation on your side. A live-in chef is a household employee arranged through a licensed domestic-staff agency, which is a different arrangement and not something myCHEF places.",
-    "What does the private chef price include?",
-    "Everything: menu design, fresh ingredients, cooking, table service and full cleanup. The per-person price is all-in, with no separate charges for shopping or staffing.",
-    "Can I hire a private chef for a corporate event or party?",
-    "Yes — we handle corporate dinners, client entertaining, birthdays, anniversaries and weddings, scaling from a table for two to a celebration for eighty guests.",
-    "Do I need a special kitchen?",
-    "No. An ordinary home kitchen with a hob, oven and counter space is plenty; the chef brings the specialist equipment and works within Dubai Municipality food-safety rules."
-   ],
-   "insert_after_block": "Book Your Private Chef Today",
-   "position": "after the block titled 'Book Your Private Chef Today'",
-   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
-  },
-  {
-   "new_heading": "Planning private chef step by step",
-   "new_paragraphs": [
-    "Send your date, guest count and venue — we typically reply within 15 minutes during business hours, with the itemised proposal to follow.",
-    "Book as early as you can. Most dinners need 48 to 72 hours ; a bespoke menu or a larger private event sits nearer 5 to 7 days, and peak dates go earlier still. Short-notice requests are assessed individually.",
-    "Confirm the menu about 7 days out, when the guest list is firm.",
-    "Ask about allergies and dietary plates when you enquire, not in the final 48 hours .",
-    "Check the access route and parking — setup starts roughly 2 hours ahead of service.",
-    "Plan on roughly 3 hours of service for a multi-course dinner, and add 5% VAT to the total."
-   ],
-   "insert_after_block": "Book Your Private Chef Today",
-   "position": "after the block titled 'Book Your Private Chef Today'",
-   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
-  },
-  {
-   "new_heading": "Which private chef format suits your event?",
-   "new_paragraphs": [
-    "Format Service staff Guests it suits Indicative cost",
-    "Plated dinner, chef on site Chef, plus service from 8 guests 2–40 seated AED 700–950 per person",
-    "Private BBQ chef, grilling live Chef, plus 1–2 from 20 guests 6–60 outdoors AED 700–950 per person",
-    "Tasting menu, wine pairing optional Chef and 1–2 front of house 2–20 seated From AED 1400 per person",
-    "Weekly meal prep, cooked in your kitchen One chef, one session a week A household AED 1,898 per week",
-    "Request your private chef proposal or chat on WhatsApp . Every chef cooks to Dubai Municipality food-safety requirements ."
-   ],
-   "insert_after_block": "Book Your Private Chef Today",
-   "position": "after the block titled 'Book Your Private Chef Today'",
-   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
-  },
-  {
-   "new_heading": "How much does a private chef cost in Dubai?",
-   "new_paragraphs": [
-    "A private chef in Dubai costs from AED 700 per person, and the per-head rate eases as the table grows: two guests run AED 950–1,300 each, six sit around AED 750–1,000, and ten or more start from AED 700. The menu tier moves it too — Signature from AED 750pp, Premium from AED 950pp, a wine-paired tasting menu from AED 1,400pp. If you prefer a fixed figure to work to, packages run from AED 1,200 for a Date Night and AED 2,400 for a Family Feast, through AED 3,600 and AED 4,500 mid-tier, up to AED 5,500 for the Full Experience; recurring meal-prep plans start at AED 1,898 and AED 2,698 a week. That structure keeps a private chef more affordable than most people assume and, split across a group, often close to a good restaurant bill. The full private chef prices breakdown lives on private chef prices in Dubai ."
-   ],
-   "insert_after_block": "Private Chef Packages in Dubai",
-   "position": "after the block titled 'Private Chef Packages in Dubai'",
-   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
-   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
-  },
-  {
-   "new_heading": "What hiring a private chef in Dubai includes",
-   "new_paragraphs": [
-    "It covers everything from the first menu note to the last washed pan. A myCHEF private chef caterer plans a bespoke menu around your tastes and any allergies, shops for that day's produce, arrives with knives and pans, cooks course by course in your kitchen, serves at your table and clears it all away afterwards. You are hosting, not cooking. Unlike a drop-off caterer who leaves a tray on the counter, a private chef works live in front of you, so every course lands hot and timed. The number you are quoted already folds in menu design, ingredients, the cooking itself, table service and full cleanup — there is no separate line for any of them. The same private chef catering services also extend beyond one-off dinners to recurring weekly meal prep , plus full-time and part-time household cooking."
-   ],
-   "insert_after_block": "What private chef services are available in Dubai?",
-   "position": "after the block titled 'What private chef services are available in Dubai?'",
-   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
-   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
-  }
- ],
+ "add_block": [],
  "faq": []
 }

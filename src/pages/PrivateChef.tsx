@@ -1,549 +1,641 @@
-import { useRef, useState } from 'react'
+import { useMemo, useRef, useState } from 'react'
 import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
-import { Utensils, Home, Calendar, Baby, Leaf, Star, Check, Phone, ArrowRight } from 'lucide-react'
+import { Check, Phone, ArrowRight } from 'lucide-react'
 import SEO from '../components/SEO'
 import PageHero from '../components/PageHero'
 import LocationStrip from '../components/LocationStrip'
 import TrustSignalStrip from '../components/TrustSignalStrip'
-import StarterPackagesSection from '@/sections/StarterPackagesSection'
 import FaqAccordion from '../components/FaqAccordion'
 import { plainFaqAnswer } from '../utils/schema'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
+import { deferNonCritical } from '../lib/deferNonCritical'
+import {
+  CAMPAIGN,
+  H1,
+  HERO_SUBTITLE,
+  PAGE_PATH,
+  SEO_DESCRIPTION,
+  SEO_TITLE,
+  WHATSAPP_MESSAGE,
+  WHATSAPP_NUMBER,
+  chefLevels,
+  comparison,
+  dailyRates,
+  eveningPackages,
+  extraTeam,
+  faqs,
+  formatAed,
+  householdIncludes,
+  locations,
+  paths,
+  perPersonBands,
+  processSteps,
+  profileQuestions,
+  relatedServices,
+  upgrades,
+  whoDoesWhat,
+  whoFor,
+  type ChefLevelName,
+  type MealPlan,
+} from '../content/privateChefPage'
 
-const WHATSAPP_NUMBER = '971551744849'
-const WHATSAPP_MESSAGE = encodeURIComponent("Hi myCHEF Dubai, I'd like a quote for a private chef. Date: __, Guests: __, Location: __, Occasion: __ (via mychef.ae/private-chef-dubai)")
-const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
+const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`
+const INQUIRY_LINK = `/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`
 
-/* ────────────────────── Data ────────────────────── */
-
-const featureChecks = [
-  'Fully bespoke menu design',
-  'Premium ingredient sourcing',
-  'Complete in-home preparation',
-  'Service staff included',
-  'Full cleanup after service',
-  'Available across all Dubai locations',
-]
-
-const serviceTypes = [
-  {
-    icon: Utensils,
-    title: 'Dinner Party Chef',
-    description: 'Multi-course fine dining for dinner parties of 2\u201320 guests. Perfect for celebrations and special occasions.',
-    link: '/luxury-dining-experiences',
-  },
-  {
-    icon: Home,
-    title: 'Weekly Private Chef',
-    description: 'A dedicated chef for your household \u2014 daily meal preparation, menu planning, and kitchen management.',
-    link: '/private-chef-dubai',
-  },
-  {
-    icon: Calendar,
-    title: 'Holiday Chef',
-    description: 'Short-term private chef for your Dubai holiday. We handle every meal so you can relax.',
-    link: '/christmas-catering-dubai',
-  },
-  {
-    icon: Baby,
-    title: 'Family Chef',
-    description: 'Family-friendly menus that delight every age. Nutritious, delicious, and beautifully presented.',
-    link: '/catering-dubai',
-  },
-  {
-    icon: Leaf,
-    title: 'Healthy Meal Prep',
-    description: 'Nutrition-focused menus designed around your health goals. Fresh, balanced, and flavourful.',
-    link: '/healthy-catering-dubai',
-  },
-  {
-    icon: Star,
-    title: 'VIP & Celebrity Chef',
-    description: 'Ultra-discreet service for high-profile clients. Confidentiality is standard.',
-    link: '/vip-club',
-  },
-]
-
-const experienceSteps = [
-  {
-    num: '01',
-    title: 'Menu Consultation',
-    description: 'A personal consultation to understand your tastes, dietary needs, and vision for the evening.',
-  },
-  {
-    num: '02',
-    title: 'Ingredient Sourcing',
-    description: 'We hand-select the best available ingredients \u2014 seafood from the market, produce from premium suppliers, specialty items imported as needed.',
-  },
-  {
-    num: '03',
-    title: 'In-Home Preparation',
-    description: 'Your chef arrives with everything needed and prepares each course fresh in your kitchen.',
-  },
-  {
-    num: '04',
-    title: 'Professional Service',
-    description: 'Each course is plated and served with the precision and presentation of a fine dining restaurant.',
-  },
-  {
-    num: '05',
-    title: 'Immaculate Cleanup',
-    description: 'We leave your kitchen spotless \u2014 as if we were never there.',
-  },
-]
-
-const locations = [
-  { name: 'Palm Jumeirah', slug: 'palm-jumeirah' },
-  { name: 'Downtown Dubai', slug: 'downtown-dubai' },
-  { name: 'Dubai Marina', slug: 'dubai-marina' },
-  { name: 'Emirates Hills', slug: 'emirates-hills' },
-  { name: 'JBR', slug: 'jbr' },
-  { name: 'DIFC', slug: 'difc' },
-  { name: 'Business Bay', slug: 'business-bay' },
-  { name: 'Jumeirah', slug: 'jumeirah' },
-  { name: 'Arabian Ranches', slug: 'arabian-ranches' },
-  { name: 'Dubai Hills', slug: 'dubai-hills' },
-  { name: 'Bluewaters Island', slug: 'bluewaters-island' },
-  { name: 'Jumeirah Islands', slug: 'jumeirah-islands' },
-  { name: 'Al Barari', slug: 'al-barari' },
-  { name: 'Umm Suqeim', slug: 'umm-suqeim' },
-  { name: 'Meydan', slug: 'meydan' },
-  { name: 'Dubai Creek Harbour', slug: 'dubai-creek-harbour' },
-]
-
-const faqs = [
-  {
-    q: 'How much does a private chef cost in Dubai?',
-    a: 'Every event is unique, so we provide custom quotes based on your requirements. Factors include the number of guests, number of courses, ingredient preferences, and location. Contact us for a bespoke proposal.',
-  },
-  {
-    q: 'How far in advance should I book a private chef?',
-    a: 'We recommend 48 hours for most bookings. For larger events or peak seasons, 1\u20132 weeks is advised. Last-minute requests are accommodated when possible.',
-  },
-  {
-    q: 'What cuisines can your chefs prepare?',
-    a: 'our chefs specialize in European fine dining, Mediterranean, Middle Eastern, Asian fusion, seafood-focused menus, and modern international cuisine. Every menu is customized to your preferences.',
-  },
-  {
-    q: 'Do I need special kitchen equipment?',
-    a: 'No. Our chefs bring all necessary equipment. We only need access to your kitchen and basic utilities.',
-  },
-  {
-    q: 'How long does a private chef dinner take?',
-    a: 'A typical multi-course dinner service lasts 3\u20134 hours from arrival to departure. This includes preparation, service, and cleanup.',
-  },
-  {
-    q: 'Is the service discreet?',
-    a: 'Absolutely. Discretion is a core value at myCHEF Dubai. Our chefs operate with complete professionalism and confidentiality.',
-  },
-  {
-    q: 'What is included in the price of a private chef?',
-    a: 'A private chef booking is all-inclusive: menu design, grocery shopping and premium ingredients, on-site cooking, plating and table service, and a full kitchen clean-up afterwards. You provide the kitchen and the guests — the chef handles everything else. Extras like extra courses, additional servers, or equipment rentals are quoted transparently up front.',
-  },
-  {
-    q: 'Are your private chefs licensed and food-safety certified in Dubai?',
-    a: 'Yes. The chefs and kitchens on our team operate to Dubai Municipality food-safety requirements, and our vetting covers identity checks, a practical cooking assessment, reference verification and food-handler training. We match each booking to a chef suited to it, so you get verified, professional service rather than an anonymous freelancer.',
-  },
-  {
-    q: 'Do you cook halal, and can you work in a halal kitchen?',
-    a: 'Yes. We source halal ingredients by default and our chefs are experienced working in halal households and kitchens, keeping utensils and preparation separated to your standards. Just let us know your requirements when you enquire.',
-  },
-  {
-    q: 'Can you accommodate allergies and diets like vegan, vegetarian or gluten-free?',
-    a: 'Yes. Share allergies and dietary needs — vegan, vegetarian, gluten-free, dairy-free, nut-free — when you book, well before the event, and the menu is planned around them rather than adjusted at the last minute. For severe allergies we discuss cross-contact handling openly so you can host with confidence.',
-  },
-  {
-    q: 'How many guests can a private chef cook for?',
-    a: 'From an intimate dinner for two up to large celebrations of a hundred or more. Smaller dinners are typically one chef; larger events add support chefs and serving staff scaled to the guest count so the pace and quality stay consistent.',
-  },
-  {
-    q: 'Do you provide waiters and serving staff?',
-    a: 'Yes. Professional servers and hosts can be added to any booking and are recommended for plated dinners and larger events, so you stay a guest at your own table while the team manages service and clearing.',
-  },
-  {
-    q: 'Can a private chef cook in my villa, apartment or yacht kitchen?',
-    a: 'Yes — villas, apartments, penthouses and yachts across Dubai are all standard. The chef adapts to the space, whether it is a full villa kitchen or a compact galley, and confirms access and equipment details before the date.',
-  },
-  {
-    q: 'Which areas of Dubai do you cover?',
-    a: 'We serve all of Dubai, including Palm Jumeirah, Dubai Marina, Downtown, Emirates Hills, Dubai Hills, JBR, Business Bay, DIFC and Jumeirah. Full coverage is listed on our [locations page](/locations).',
-  },
-  {
-    q: 'Do you bring the groceries, or do I need to buy the ingredients?',
-    a: 'The chef handles all grocery shopping and brings the ingredients, sourced fresh — often the same day — so the menu flexes with what the market has. You do not need to prepare or buy anything.',
-  },
-  {
-    q: 'Can I see and customise the menu before I book?',
-    a: 'Yes. Nothing is fixed until you sign it off. You tell us the occasion, guest count and any preferences, and we design a bespoke menu with you; for larger events you can taste a shortlist before committing.',
-  },
-  {
-    q: 'How do I get a quote and pay, and is a deposit required?',
-    a: 'Send your date, guest count and venue and we reply with a tailored quote — typically within 15 minutes during business hours. Bookings are confirmed with a deposit and the balance settled before or on the day; a 5% VAT line applies. See typical [private chef prices](/private-chef-prices-dubai) before you enquire.',
-  },
-  {
-    q: 'Is hiring a private chef cheaper than a restaurant for a group?',
-    a: 'For a group it is often comparable or better value — you get a restaurant-quality, multi-course meal cooked to order in your own space, with no minimum spend per head, no travel, and privacy included. Our [private chef vs catering guide](/private-chef-vs-catering-dubai) breaks down when each option makes sense.',
-  },
-  {
-    q: 'Can you provide a private chef for a birthday, anniversary or proposal?',
-    a: 'Yes. Milestone dinners, romantic dinners and proposals are among the most popular bookings; the chef and optional servers handle timing, courses and the reveal so you can be fully present. Explore our [luxury dining experiences](/luxury-dining-experiences) for occasion formats.',
-  },
-  {
-    q: 'Can I book a private chef regularly or for weekly meal prep?',
-    a: 'Yes. Beyond one-off dinners, our chefs offer [weekly meal prep](/weekly-meal-prep-dubai) and part-time or full-time private chef arrangements for households that want consistent, tailored cooking. Tell us your routine and we will match a chef and cadence.',
-  },
-  {
-    q: 'How much should I tip a private chef in Dubai?',
-    a: 'Tipping is appreciated but never expected — service is included in your quote. If a chef and team exceed expectations, many hosts add 10–15%, but it is entirely at your discretion.',
-  },
-  {
-    q: 'Can I hire a private chef for two people in Dubai?',
-    a: 'Yes. Intimate dinners for two are one of our most popular private chef bookings. A chef designs a bespoke multi-course menu in your home, villa, or apartment — perfect for date nights, anniversaries, or small celebrations. Pricing starts from around [AED 700 per person](/private-chef-prices-dubai), with the final quote depending on menu, location, and any added service staff.',
-  },
-  {
-    q: 'Do private chefs bring ingredients and groceries?',
-    a: 'Yes. Your chef handles all grocery shopping and brings every ingredient needed for the menu, sourced fresh the same day from trusted suppliers. You do not need to stock the kitchen, prep anything, or clean up afterwards.',
-  },
-  {
-    q: 'How far in advance should I book a private chef in Dubai?',
-    a: 'For most dinners, 48 hours is enough. For peak weekends, holidays, or larger events, 1–2 weeks is better. Last-minute requests are accommodated when chef availability allows, so it is always worth messaging us to check.',
-  },
-  {
-    q: 'Do you provide halal menus for private dining?',
-    a: 'Yes. Halal sourcing is our default, and the chefs in our network can work in halal kitchens with segregated preparation on request. See our full approach to [halal catering in Dubai](/halal-catering-dubai).',
-  },
-  {
-    q: 'Does the private chef clean up afterwards?',
-    a: 'Yes. Full kitchen cleanup is included in every private chef booking. The chef leaves your kitchen spotless and stores any leftovers neatly before departing, so your evening feels effortless from start to finish.',
-  },
-  {
-    q: 'Can I book a private chef for a villa in Palm Jumeirah?',
-    a: 'Yes. We place chefs in villas, apartments, and penthouses across Dubai, including [Palm Jumeirah](/locations/palm-jumeirah), [Dubai Marina](/locations/dubai-marina), [Downtown Dubai](/locations/downtown-dubai), and [Emirates Hills](/locations/emirates-hills). The chef adapts to your kitchen and confirms access and equipment details before the date.',
-  },
-]
-
-const relatedServices = [
-  {
-    title: 'Luxury Dining',
-    description: 'Bespoke private dining experiences for romantic dinners and special occasions.',
-    image: '/service-luxury-dining.webp',
-    link: '/luxury-dining-experiences',
-  },
-  {
-    title: 'Villa Chef',
-    description: 'Dedicated private chef services for your villa stay or residence.',
-    image: '/service-villa.webp',
-    link: '/villas-private-residences',
-  },
-  {
-    title: 'Tasting Menu Dubai',
-    description: 'Multi-course chef’s table dining for intimate groups who want a curated culinary journey.',
-    image: '/images/tasting-menu-dubai-hero.webp',
-    link: '/tasting-menu-dubai',
-  },
-]
+const mealLabels: Record<MealPlan, string> = {
+  '1': '1 meal / day',
+  '2': '2 meals / day',
+  full: 'Full day · 3 meals',
+}
 
 const schema = {
   '@context': 'https://schema.org',
-  '@type': 'Service',
-  name: 'Private Chef Dubai',
-  provider: {
-    '@type': 'Organization',
-    name: 'myCHEF Dubai',
-    url: 'https://www.mychef.ae',
-    telephone: '+971-55-174-4849',
-    areaServed: 'Dubai, UAE',
-  },
-  serviceType: 'Private Chef Service',
-  areaServed: 'Dubai, UAE',
-  hasOfferCatalog: {
-    '@type': 'OfferCatalog',
-    name: 'Private Chef Services',
-    itemListElement: serviceTypes.map((s) => ({
-      '@type': 'Offer',
-      itemOffered: { '@type': 'Service', name: s.title },
-    })),
-  },
-}
-
-const breadcrumbSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'BreadcrumbList',
-  itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.mychef.ae' },
-    { '@type': 'ListItem', position: 2, name: 'Private Chef Dubai', item: 'https://www.mychef.ae/private-chef-dubai' },
+  '@graph': [
+    {
+      '@type': 'Service',
+      name: 'Private Chef Dubai',
+      serviceType: 'Private Chef Service',
+      provider: {
+        '@type': 'Organization',
+        name: 'myCHEF Dubai',
+        url: 'https://www.mychef.ae',
+        telephone: '+971-55-174-4849',
+        areaServed: 'Dubai, UAE',
+      },
+      areaServed: 'Dubai, UAE',
+      description:
+        'myCHEF organises vetted independent chefs for private chef dinners and standing household arrangements in Dubai homes, villas and yachts.',
+    },
+    {
+      '@type': 'AggregateOffer',
+      name: 'Private chef evenings in Dubai',
+      description:
+        'Starting prices for a private chef dinner in Dubai. Groceries included in the evening quote. Final quotes depend on guests, menu and service.',
+      url: 'https://www.mychef.ae/private-chef-dubai',
+      priceCurrency: 'AED',
+      lowPrice: '1200',
+      highPrice: '5500',
+      availability: 'https://schema.org/InStock',
+    },
+    {
+      '@type': 'AggregateOffer',
+      name: 'Private chef household arrangements in Dubai',
+      description:
+        'Starting daily and monthly prices for a standing private chef arrangement. Groceries separate. Standard schedule is 5 service days per week.',
+      url: 'https://www.mychef.ae/private-chef-dubai#household',
+      priceCurrency: 'AED',
+      lowPrice: '900',
+      highPrice: '100000',
+      availability: 'https://schema.org/InStock',
+    },
+    {
+      '@type': 'FAQPage',
+      mainEntity: faqs.map((faq) => ({
+        '@type': 'Question',
+        name: faq.q,
+        acceptedAnswer: { '@type': 'Answer', text: plainFaqAnswer(faq.a) },
+      })),
+    },
+    {
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.mychef.ae/' },
+        { '@type': 'ListItem', position: 2, name: 'Private Chef Dubai', item: 'https://www.mychef.ae/private-chef-dubai' },
+      ],
+    },
   ],
 }
 
-const faqPageSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'FAQPage',
-  mainEntity: faqs.map((faq) => ({
-    '@type': 'Question',
-    name: faq.q,
-    acceptedAnswer: {
-      '@type': 'Answer',
-      text: plainFaqAnswer(faq.a),
-    },
-  })),
+function QuotePair() {
+  return (
+    <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+      <Link to={INQUIRY_LINK} className="btn-primary">
+        Get My Private Chef Quote
+      </Link>
+      <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-secondary">
+        <Phone size={16} className="mr-2" />
+        Chat on WhatsApp
+      </a>
+    </div>
+  )
 }
 
-/* ────────────────────── Component ────────────────────── */
-
-const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'd like a quote for a private chef. Date: __, Guests: __, Location: __, Occasion: __ (via mychef.ae/private-chef-dubai)"
 export default function PrivateChef() {
   useScrollTrigger()
-  useWhatsAppMessage(PAGE_WHATSAPP_MESSAGE)
+  useWhatsAppMessage(WHATSAPP_MESSAGE)
   const containerRef = useRef<HTMLDivElement>(null)
-  const [activeServiceTab, setActiveServiceTab] = useState(0)
+  const [level, setLevel] = useState<ChefLevelName>('Private')
+  const [meals, setMeals] = useState<MealPlan>('2')
+
+  const quote = useMemo(() => {
+    const daily = dailyRates[level][meals]
+    return {
+      daily,
+      weekly: daily * 5,
+      monthly: daily * 20,
+    }
+  }, [level, meals])
 
   useGSAP(() => {
     if (!containerRef.current) return
-
-    // Hero animations
-
-    // Explanation section
-    gsap.to('.pc-exp-left', {
-      scrollTrigger: { trigger: '.pc-exp-left', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, x: 0, duration: 0.8, ease: 'power3.out',
-    })
-    gsap.to('.pc-exp-check', {
-      scrollTrigger: { trigger: '.pc-exp-checks', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, x: 0, duration: 0.6, stagger: 0.1, ease: 'power3.out',
-    })
-
-    // Service type cards
-    gsap.to('.pc-svc-card', {
-      scrollTrigger: { trigger: '.pc-svc-grid', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, y: 0, duration: 0.8, stagger: 0.1, ease: 'power3.out',
-    })
-
-    // Experience steps
-    gsap.to('.pc-step-item', {
-      scrollTrigger: { trigger: '.pc-steps', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, y: 0, duration: 0.7, stagger: 0.15, ease: 'power3.out',
-    })
-
-    // Locations
-    gsap.to('.pc-loc-item', {
-      scrollTrigger: { trigger: '.pc-loc-grid', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, duration: 0.5, stagger: 0.04, ease: 'power3.out',
-    })
-
-    // FAQ
-    gsap.to('.pc-faq-item', {
-      scrollTrigger: { trigger: '.pc-faq', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, y: 0, duration: 0.5, stagger: 0.08, ease: 'power3.out',
-    })
-
-    // Testimonial
-    gsap.to('.pc-testi', {
-      scrollTrigger: { trigger: '.pc-testi', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, y: 0, duration: 0.6, ease: 'power3.out',
-    })
-
-    // Related services
-    gsap.to('.pc-rel-card', {
-      scrollTrigger: { trigger: '.pc-rel-grid', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, y: 0, duration: 0.8, stagger: 0.1, ease: 'power3.out',
-    })
-
-    // CTA
-    gsap.to('.pc-cta', {
-      scrollTrigger: { trigger: '.pc-cta', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, y: 0, duration: 0.7, ease: 'power3.out',
+    deferNonCritical(() => {
+      gsap.to('.pc-fade', {
+        scrollTrigger: { trigger: '.pc-fade', start: 'top 88%', toggleActions: 'play none none none' },
+        opacity: 1, y: 0, duration: 0.7, stagger: 0.08, ease: 'power3.out',
+      })
     })
   }, { scope: containerRef })
 
   return (
     <div ref={containerRef}>
       <SEO
-        title="Private Chef Dubai | Hire a Personal Chef at Home | From AED 700pp | myCHEF"
-        description="Hire a vetted private chef in Dubai for villas, yachts & homes. Bespoke menus, halal-first, full service. Quote in 15 minutes during business hours."
-        canonicalPath="/private-chef-dubai"
+        title={SEO_TITLE}
+        description={SEO_DESCRIPTION}
+        canonicalPath={PAGE_PATH}
         ogImage="/service-private-chef.webp"
         hideSiteName
         preloadHero="/images/private-chef-dubai-hero.webp"
-        schema={{ ...schema, ...breadcrumbSchema, ...faqPageSchema }}
+        schema={schema}
       />
 
-      {/* ═══════════════ Section 1: Hero ═══════════════ */}
       <PageHero
-        title="Book a Private Chef in Dubai"
-        subtitle="Private chef dining for 2–20+ guests. Bespoke menus, premium ingredients, full service — in your villa, home or yacht."
+        title={H1}
+        subtitle={HERO_SUBTITLE}
         image="/images/private-chef-dubai-hero.webp"
-        imageAlt="Private chef preparing a meal in Dubai"
+        imageAlt="Private chef preparing a meal in a Dubai home kitchen"
         imageWidth={1344}
         imageHeight={752}
-        cta={{ label: 'Get My Private Chef Quote', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=private-chef-dubai' }}
+        cta={{ label: 'Get My Private Chef Quote', href: INQUIRY_LINK }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Private Chef Dubai' }]}
         minHeight="large"
         overlay="dark"
-      />
+      >
+        <div className="mt-10 grid sm:grid-cols-2 gap-4 w-full max-w-3xl mx-auto text-left">
+          {paths.map((path) => (
+            <a
+              key={path.id}
+              href={`#${path.id}`}
+              className="block bg-black/55 border border-gold/40 hover:border-gold p-5 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold"
+            >
+              <span className="font-inter text-caption uppercase tracking-wider text-gold">{path.eyebrow}</span>
+              <p className="font-playfair text-h4 text-white mt-2">{path.title}</p>
+              <p className="font-inter text-body-sm text-white/80 mt-2 leading-relaxed">{path.body}</p>
+            </a>
+          ))}
+        </div>
+      </PageHero>
       <TrustSignalStrip />
 
-      <StarterPackagesSection
-        campaign="private-chef-dubai"
-        eyebrow="START WITH A PACKAGE"
-        title="Private Chef Packages in Dubai"
-        subtitle="Ready-to-book starting points for our most requested private chef experiences. Final quote tailored to your event, menu, and dietary preferences."
-      />
-
-      {/* ═══════════════ Section 2: What Is a Private Chef ═══════════════ */}
+      {/* What myCHEF is */}
       <section className="bg-white section-padding">
-        <div className="container-custom">
-          <div className="grid lg:grid-cols-2 gap-12 lg:gap-16">
-            {/* Left Column */}
-            <div className="pc-exp-left opacity-0 -translate-x-8">
-              <h2 className="font-playfair text-h2 text-black mb-6">
-                What does a private chef do in Dubai?
-              </h2>
-              <p className="font-inter text-body text-gray-500 leading-relaxed mb-4">
-                A private chef is a professional culinary expert who comes to your home, villa, or yacht to prepare bespoke meals exclusively for you and your guests. Unlike a restaurant experience, everything is designed around your preferences — the menu, the pacing, the atmosphere, the dietary requirements.
-              </p>
-              <p className="font-inter text-body text-gray-500 leading-relaxed">
-                At myCHEF Dubai, our private chef service includes menu consultation, ingredient sourcing, meal preparation, professional plating, table service, and complete kitchen cleanup. You simply enjoy the evening. Tell us about your occasion and we will send a tailored proposal within 24 hours. We regularly serve clients in{' '}
-                <Link to="/locations/downtown-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Downtown Dubai</Link>,{' '}
-                <Link to="/locations/palm-jumeirah" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Palm Jumeirah</Link>,{' '}
-                <Link to="/locations/dubai-marina" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Dubai Marina</Link>, and{' '}
-                <Link to="/locations/emirates-hills" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Emirates Hills</Link>,
-                {' '}and across every major Dubai community, from relaxed family dinners to{' '}
-                <Link to="/luxury-dining-experiences" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury private dining</Link>{' '}
-                experiences.
-              </p>
-            </div>
-
-            {/* Right Column - Feature checks */}
-            <div className="pc-exp-checks flex flex-col justify-center gap-4">
-              {featureChecks.map((item, i) => (
-                <div key={i} className="pc-exp-check flex items-center gap-3 opacity-0 translate-x-8">
-                  <div className="w-6 h-6 rounded-full bg-gold/20 flex items-center justify-center flex-shrink-0">
-                    <Check size={14} className="text-gold" />
-                  </div>
-                  <span className="font-inter text-body text-gray-500">{item}</span>
-                </div>
-              ))}
-            </div>
-          </div>
+        <div className="container-custom max-w-[820px]">
+          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">What myCHEF is</span>
+          <h2 className="font-playfair text-h2 text-black mb-6">The system, not just a chef</h2>
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+            myCHEF is not a list of chefs you have to manage, and not a staffing agency that puts someone on your payroll.
+            Independent, licensed culinary partners cook. We organise the chef: the match, the standard and the backup.
+          </p>
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+            Before anyone enters your kitchen we check identity and right-to-work, run a practical cooking assessment,
+            take references, and review after service. For a standing arrangement we also hold your Food Profile, give you
+            one contact, handle scheduling and backup, and bring in a specialist when you want one.
+          </p>
+          <p className="font-inter text-body text-gray-500 leading-relaxed">
+            The chef cooks. We keep the chef, the house and the standard aligned. That is how to hire a private chef in Dubai
+            without turning a personal chef at home into another job. The longer you stay, the better the service should
+            become — a long-term private chef arrangement that learns the house.
+          </p>
         </div>
       </section>
 
-      {/* ═══════════════ Section 3: Service Types with Tab Nav ═══════════════ */}
-      <section className="bg-black section-padding">
-        <div className="container-custom">
-          {/* Header */}
-          <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WHAT KIND OF PRIVATE CHEF DO YOU NEED?
-            </span>
-            <h2 className="font-playfair text-h2 text-white">
-              What private chef services are available in Dubai?
-            </h2>
-          </div>
-
-          {/* Left-side tab navigation + content */}
-          <div className="flex flex-col lg:flex-row gap-8">
-            {/* Tab nav - left side */}
-            <div className="lg:w-1/4 flex lg:flex-col gap-2 overflow-x-auto lg:overflow-visible pb-2 lg:pb-0">
-              {serviceTypes.map((svc, i) => {
-                const Icon = svc.icon
-                return (
-                  <button
-                    key={i}
-                    onClick={() => setActiveServiceTab(i)}
-                    className={`flex items-center gap-3 px-4 py-3 text-left font-inter text-sm whitespace-nowrap transition-all duration-300 border-l-2 ${
-                      activeServiceTab === i
-                        ? 'border-gold text-gold bg-charcoal'
-                        : 'border-charcoal-light text-gray-400 hover:text-white hover:border-gray-400'
-                    }`}
-                  >
-                    <Icon size={18} />
-                    <span className="hidden lg:inline">{svc.title}</span>
-                  </button>
-                )
-              })}
-            </div>
-
-            {/* Active service content */}
-            <div className="lg:w-3/4 pc-svc-grid">
-              <div className="grid md:grid-cols-2 gap-6">
-                {serviceTypes.map((svc, i) => {
-                  const Icon = svc.icon
-                  // Show all cards, but highlight the active one
-                  const isActive = activeServiceTab === i
-                  return (
-                    <div
-                      key={i}
-                      onClick={() => setActiveServiceTab(i)}
-                      className={`pc-svc-card bg-charcoal p-8 cursor-pointer transition-all duration-300 opacity-0 translate-y-12 ${
-                        isActive ? 'ring-1 ring-gold' : 'hover:bg-charcoal-light'
-                      }`}
-                    >
-                      <Icon size={40} className="text-gold mb-4" />
-                      <h3 className="font-playfair text-h3 text-white mb-3">{svc.title}</h3>
-                      <p className="font-inter text-body-sm text-gray-400 leading-relaxed mb-4">
-                        {svc.description}
-                      </p>
-                      <Link
-                        to={svc.link}
-                        className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold hover:text-gold-light transition-colors"
-                      >
-                        Learn More <ArrowRight size={14} />
-                      </Link>
-                    </div>
-                  )
-                })}
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ═══════════════ Section 4: The Experience ═══════════════ */}
+      {/* Who it is for */}
       <section className="bg-cream section-padding">
-        <div className="container-custom max-w-[1000px]">
-          <h2 className="font-playfair text-h2 text-black text-center mb-12">
-            How does a private chef dinner work in Dubai?
-          </h2>
-
-          <div className="pc-steps space-y-10">
-            {experienceSteps.map((step, i) => (
-              <div key={i} className="pc-step-item flex gap-6 md:gap-8 opacity-0 translate-y-8">
-                <span className="font-playfair text-[48px] text-gold leading-none flex-shrink-0 w-[60px] text-right">
-                  {step.num}
-                </span>
-                <div>
-                  <h3 className="font-playfair text-h3 text-black mb-2">{step.title}</h3>
-                  <p className="font-inter text-body text-gray-500 leading-relaxed">{step.description}</p>
-                </div>
+        <div className="container-custom">
+          <div className="text-center max-w-[720px] mx-auto mb-12">
+            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">Who it is for</span>
+            <h2 className="font-playfair text-h2 text-black">You want a chef. The question is whether you want to manage one.</h2>
+          </div>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {whoFor.map((item) => (
+              <div key={item.title} className="pc-fade opacity-0 translate-y-8 bg-white p-8 border border-gray-200">
+                <h3 className="font-playfair text-h4 text-black mb-3">{item.title}</h3>
+                <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{item.body}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* ═══════════════ Section 5: Locations ═══════════════ */}
-      <section className="bg-black py-20">
+      {/* Why not hire independently */}
+      <section className="bg-black section-padding">
         <div className="container-custom">
-          <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WHERE IN DUBAI DO YOU COVER?
-            </span>
-            <h2 className="font-playfair text-fluid-h2 text-white">
-              Where in Dubai can I hire a private chef?
-            </h2>
+          <div className="text-center max-w-[720px] mx-auto mb-12">
+            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">Why not hire independently</span>
+            <h2 className="font-playfair text-h2 text-white">A freelancer can look cheaper on day one</h2>
+            <p className="font-inter text-body text-gray-400 mt-4">
+              You are paying for the person only. myCHEF is the person plus backup, matching, review and a kitchen that already knows the house.
+            </p>
+          </div>
+          <div className="overflow-x-auto">
+            <table className="w-full min-w-[640px] text-left">
+              <thead>
+                <tr className="border-b border-gold/30">
+                  <th className="py-4 pr-6 font-inter text-caption uppercase tracking-wider text-gold">Compared</th>
+                  <th className="py-4 pr-6 font-inter text-caption uppercase tracking-wider text-gray-400">On your own</th>
+                  <th className="py-4 font-inter text-caption uppercase tracking-wider text-gold">With myCHEF</th>
+                </tr>
+              </thead>
+              <tbody>
+                {comparison.map((row) => (
+                  <tr key={row.topic} className="border-b border-white/10 align-top">
+                    <th className="py-5 pr-6 font-playfair text-h4 text-white font-normal">{row.topic}</th>
+                    <td className="py-5 pr-6 font-inter text-body-sm text-gray-400 leading-relaxed">{row.alone}</td>
+                    <td className="py-5 font-inter text-body-sm text-gray-200 leading-relaxed">{row.mychef}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      {/* How it works */}
+      <section id="how-it-works" className="bg-cream section-padding scroll-mt-24">
+        <div className="container-custom max-w-[1000px]">
+          <h2 className="font-playfair text-h2 text-black text-center mb-12">How a private chef through myCHEF works</h2>
+          <div className="space-y-10">
+            {processSteps.map((step) => (
+              <div key={step.num} className="pc-fade opacity-0 translate-y-8 flex gap-6 md:gap-8">
+                <span className="font-playfair text-[48px] text-gold leading-none flex-shrink-0 w-[60px] text-right">{step.num}</span>
+                <div>
+                  <h3 className="font-playfair text-h3 text-black mb-2">{step.title}</h3>
+                  <p className="font-inter text-body text-gray-500 leading-relaxed">{step.body}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+          <p className="mt-12 font-inter text-body-sm text-gray-500 text-center max-w-[640px] mx-auto">
+            Evenings: often 48 hours; last-minute when we can. A new household: about five days. Once we know you, two days is often enough. During business hours we typically reply within 15 minutes.
+          </p>
+        </div>
+      </section>
+
+      {/* Who does what */}
+      <section className="bg-white section-padding">
+        <div className="container-custom">
+          <h2 className="font-playfair text-h2 text-black text-center mb-12">Who does what</h2>
+          <div className="grid md:grid-cols-3 gap-6">
+            {whoDoesWhat.map((col) => (
+              <div key={col.who} className="border border-gray-200 p-8">
+                <h3 className="font-playfair text-h3 text-black mb-6">{col.who}</h3>
+                <ul className="space-y-3">
+                  {col.items.map((item) => (
+                    <li key={item} className="flex items-start gap-3">
+                      <Check size={16} className="text-gold mt-1 flex-shrink-0" />
+                      <span className="font-inter text-body-sm text-gray-500">{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+          <p className="mt-8 font-inter text-body-sm text-gray-500 text-center">
+            You manage what you want to eat, when, and whether the match is right. That is the list.
+          </p>
+        </div>
+      </section>
+
+      {/* An evening */}
+      <section id="evening" className="bg-black section-padding scroll-mt-24">
+        <div className="container-custom">
+          <div className="max-w-[720px] mb-12">
+            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">An evening</span>
+            <h2 className="font-playfair text-h2 text-white mb-4">A private chef dinner in Dubai</h2>
+            <p className="font-inter text-body text-gray-400 leading-relaxed">
+              A chef in your kitchen for one service. Menu designed with you. Ingredients sourced. Cooked, plated, served, kitchen left handled. You provide the room and the guests. Groceries are in the quote. 5% VAT is shown separately. A deposit confirms the date.
+            </p>
+          </div>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+            {eveningPackages.map((pkg) => (
+              <Link
+                key={pkg.name}
+                to={pkg.link}
+                className="group bg-charcoal p-8 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] transition-all duration-300"
+              >
+                <p className="font-inter text-caption uppercase tracking-wider text-gold mb-2">{pkg.guests}</p>
+                <h3 className="font-playfair text-h3 text-white mb-2">{pkg.name}</h3>
+                <p className="font-playfair text-h4 text-gold mb-3">From AED {pkg.price}</p>
+                <p className="font-inter text-body-sm text-gray-400 leading-relaxed mb-4">{pkg.detail}</p>
+                <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light">
+                  View package <ArrowRight size={14} />
+                </span>
+              </Link>
+            ))}
+          </div>
+          <div className="overflow-x-auto">
+            <p className="font-inter text-caption uppercase tracking-wider text-gold mb-4">Typical per-person band for a multi-course dinner</p>
+            <table className="w-full min-w-[520px] text-left">
+              <thead>
+                <tr className="border-b border-gold/30">
+                  <th className="py-3 pr-6 font-inter text-caption uppercase tracking-wider text-gray-400">Guests</th>
+                  <th className="py-3 font-inter text-caption uppercase tracking-wider text-gray-400">Per person</th>
+                </tr>
+              </thead>
+              <tbody>
+                {perPersonBands.map((row) => (
+                  <tr key={row.guests} className="border-b border-white/10">
+                    <td className="py-3 pr-6 font-inter text-body text-white">{row.guests}</td>
+                    <td className="py-3 font-inter text-body text-gray-300">{row.band}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+            <p className="mt-4 font-inter text-body-sm text-gray-500">
+              Starting points. Final quotes move with guest count, menu, ingredients and service.{' '}
+              <Link to="/private-chef-prices-dubai" className="text-gold hover:text-gold-light underline underline-offset-4">Full breakdown on private chef prices</Link>.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* A household */}
+      <section id="household" className="bg-cream section-padding scroll-mt-24">
+        <div className="container-custom">
+          <div className="max-w-[760px] mb-12">
+            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">A household</span>
+            <h2 className="font-playfair text-h2 text-black mb-4">A standing private chef arrangement</h2>
+            <p className="font-inter text-body text-gray-500 leading-relaxed mb-4">
+              Choose the level of chef. Then choose how often you want them. You can use myCHEF for a day, a week, a month, or build a combination around your life. You do not need to pay for a full day if you only want breakfast. You do not need our highest-level chef every day because you want an extraordinary dinner once a month.
+            </p>
+            <p className="font-inter text-body text-gray-500 leading-relaxed">
+              Independent licensed partners cook. myCHEF organises the service. This is not putting a chef on your payroll. Groceries are separate. Standard schedule is 5 service days per week.
+            </p>
           </div>
 
-          <div className="pc-loc-grid grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+          <div className="bg-white border border-gray-200 p-6 md:p-10 mb-12">
+            <h3 className="font-playfair text-h3 text-black mb-6">See a starting price</h3>
+            <div className="grid md:grid-cols-2 gap-8 mb-8">
+              <fieldset>
+                <legend className="font-inter text-caption uppercase tracking-wider text-gold mb-3">Chef level</legend>
+                <div className="flex flex-wrap gap-2">
+                  {chefLevels.map((item) => (
+                    <button
+                      key={item.name}
+                      type="button"
+                      onClick={() => setLevel(item.name)}
+                      className={`px-4 py-2 font-inter text-body-sm border transition-colors ${
+                        level === item.name
+                          ? 'bg-gold text-black border-gold'
+                          : 'border-gray-300 text-gray-600 hover:border-gold'
+                      }`}
+                    >
+                      {item.name}
+                    </button>
+                  ))}
+                </div>
+              </fieldset>
+              <fieldset>
+                <legend className="font-inter text-caption uppercase tracking-wider text-gold mb-3">Meals per day</legend>
+                <div className="flex flex-wrap gap-2">
+                  {(Object.keys(mealLabels) as MealPlan[]).map((key) => (
+                    <button
+                      key={key}
+                      type="button"
+                      onClick={() => setMeals(key)}
+                      className={`px-4 py-2 font-inter text-body-sm border transition-colors ${
+                        meals === key
+                          ? 'bg-gold text-black border-gold'
+                          : 'border-gray-300 text-gray-600 hover:border-gold'
+                      }`}
+                    >
+                      {mealLabels[key]}
+                    </button>
+                  ))}
+                </div>
+              </fieldset>
+            </div>
+            <p className="font-inter text-body-sm text-gray-500 mb-6">
+              {level} · {mealLabels[meals]} · 5 service days · chef + assistant + the myCHEF system. Groceries separate.
+            </p>
+            <div className="grid sm:grid-cols-3 gap-4">
+              <div className="border border-gray-200 p-5">
+                <p className="font-inter text-caption uppercase tracking-wider text-gold mb-2">Day</p>
+                <p className="font-playfair text-h3 text-black">{formatAed(quote.daily)}</p>
+              </div>
+              <div className="border border-gray-200 p-5">
+                <p className="font-inter text-caption uppercase tracking-wider text-gold mb-2">5-day week</p>
+                <p className="font-playfair text-h3 text-black">{formatAed(quote.weekly)}</p>
+              </div>
+              <div className="border border-gold/40 bg-gold/5 p-5">
+                <p className="font-inter text-caption uppercase tracking-wider text-gold mb-2">Month · ~20 days</p>
+                <p className="font-playfair text-h3 text-black">{formatAed(quote.monthly)}</p>
+              </div>
+            </div>
+          </div>
+
+          <h3 className="font-playfair text-h3 text-black mb-4">Chef levels — full-day starting price</h3>
+          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-4 mb-12">
+            {chefLevels.map((item) => (
+              <div key={item.name} className="bg-white border border-gray-200 p-5">
+                <p className="font-playfair text-h4 text-black mb-1">{item.name}</p>
+                <p className="font-inter text-body-sm text-gold mb-3">From AED {item.monthlyFull}+ / month</p>
+                <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{item.body}</p>
+              </div>
+            ))}
+          </div>
+
+          <h3 className="font-playfair text-h3 text-black mb-4">Private level · starting prices</h3>
+          <div className="overflow-x-auto mb-4">
+            <table className="w-full min-w-[640px] text-left bg-white">
+              <thead>
+                <tr className="border-b border-gold/30">
+                  <th className="py-3 px-4 font-inter text-caption uppercase tracking-wider text-gold">Service</th>
+                  <th className="py-3 px-4 font-inter text-caption uppercase tracking-wider text-gold">Daily</th>
+                  <th className="py-3 px-4 font-inter text-caption uppercase tracking-wider text-gold">Weekly · 5 days</th>
+                  <th className="py-3 px-4 font-inter text-caption uppercase tracking-wider text-gold">Monthly</th>
+                </tr>
+              </thead>
+              <tbody>
+                {([
+                  ['1 meal / day', 900, 4500, 18000],
+                  ['2 meals / day', 1200, 6000, 24000],
+                  ['Full day · 3 meals', 1500, 7500, 30000],
+                ] as const).map((row) => (
+                  <tr key={row[0]} className="border-b border-gray-200">
+                    <td className="py-3 px-4 font-inter text-body text-black">{row[0]}</td>
+                    <td className="py-3 px-4 font-inter text-body text-gray-600">{formatAed(row[1])}</td>
+                    <td className="py-3 px-4 font-inter text-body text-gray-600">{formatAed(row[2])}</td>
+                    <td className="py-3 px-4 font-inter text-body text-gray-600">{formatAed(row[3])}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="font-inter text-body-sm text-gray-500 mb-12">
+            Starting example: Private · 2 meals / day · AED 24,000+ / month. Every standard service includes 1 private chef + 1 assistant + the myCHEF system.
+          </p>
+
+          <h3 className="font-playfair text-h3 text-black mb-4">All chef levels · daily starting prices</h3>
+          <div className="overflow-x-auto mb-8">
+            <table className="w-full min-w-[720px] text-left bg-white">
+              <thead>
+                <tr className="border-b border-gold/30">
+                  <th className="py-3 px-4 font-inter text-caption uppercase tracking-wider text-gold">Chef level</th>
+                  <th className="py-3 px-4 font-inter text-caption uppercase tracking-wider text-gold">1 meal / day</th>
+                  <th className="py-3 px-4 font-inter text-caption uppercase tracking-wider text-gold">2 meals / day</th>
+                  <th className="py-3 px-4 font-inter text-caption uppercase tracking-wider text-gold">Full day</th>
+                </tr>
+              </thead>
+              <tbody>
+                {chefLevels.map((item) => (
+                  <tr key={item.name} className="border-b border-gray-200">
+                    <td className="py-3 px-4 font-inter text-body text-black">{item.name}</td>
+                    <td className="py-3 px-4 font-inter text-body text-gray-600">{formatAed(dailyRates[item.name]['1'])}</td>
+                    <td className="py-3 px-4 font-inter text-body text-gray-600">{formatAed(dailyRates[item.name]['2'])}</td>
+                    <td className="py-3 px-4 font-inter text-body text-gray-600">{formatAed(dailyRates[item.name].full)}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="font-inter text-body-sm text-gray-500 mb-12">
+            Daily equivalents are based on a standard monthly arrangement of approximately 20 service days. Why one meal is not one-third of the price: travel, prep, the kitchen, ingredients, the profile and the management system remain. One meal is about 60% of full-day service, not 33%.
+          </p>
+
+          <div className="grid lg:grid-cols-2 gap-8 mb-12">
+            <div className="bg-white border border-gray-200 p-8">
+              <h3 className="font-playfair text-h3 text-black mb-4">Every standard service includes</h3>
+              <ul className="space-y-3">
+                {householdIncludes.map((item) => (
+                  <li key={item} className="flex items-start gap-3">
+                    <Check size={16} className="text-gold mt-1 flex-shrink-0" />
+                    <span className="font-inter text-body-sm text-gray-500">{item}</span>
+                  </li>
+                ))}
+              </ul>
+              <p className="mt-6 font-inter text-body-sm text-gray-500">The difference between levels is primarily the chef.</p>
+            </div>
+            <div className="bg-white border border-gray-200 p-8">
+              <h3 className="font-playfair text-h3 text-black mb-4">The Food Profile</h3>
+              <p className="font-inter text-body-sm text-gray-500 leading-relaxed mb-4">
+                Before we start, we ask a lot of questions. If information does not help us provide your food and service, we do not need it. The profile is yours. You can see it, correct it, or ask for it to be deleted.
+              </p>
+              <ul className="space-y-2">
+                {profileQuestions.map((q) => (
+                  <li key={q} className="font-inter text-body-sm text-gray-500">— {q}</li>
+                ))}
+              </ul>
+            </div>
+          </div>
+
+          <div className="bg-white border border-gray-200 p-8 mb-12">
+            <h3 className="font-playfair text-h3 text-black mb-4">You can mix it</h3>
+            <p className="font-inter text-body text-gray-500 leading-relaxed mb-6">
+              Everyday: keep the chef level that makes sense financially. Special occasion: upgrade one meal. Different cuisine: rotate in a specialist. More guests: add another chef. You do not need Signature prices every day because you want a Signature chef twice a month.
+            </p>
+            <div className="grid md:grid-cols-2 gap-6 mb-8">
+              <div className="border border-gray-200 p-6">
+                <p className="font-inter text-caption uppercase tracking-wider text-gold mb-2">Example week</p>
+                <p className="font-inter text-body-sm text-gray-500 leading-relaxed mb-3">
+                  Monday–Friday Private · 2 meals: from AED 6,000. Friday dinner upgraded to Elite: from AED 3,500. That week: from AED 9,500 before groceries.
+                </p>
+              </div>
+              <div className="border border-gray-200 p-6">
+                <p className="font-inter text-caption uppercase tracking-wider text-gold mb-2">Example month</p>
+                <p className="font-inter text-body-sm text-gray-500 leading-relaxed">
+                  Private · 2 meals/day: from AED 24,000. Two Elite dinner upgrades: 2 × AED 3,500+ = AED 7,000+. Example month: from AED 31,000.
+                </p>
+              </div>
+            </div>
+            <p className="font-inter text-caption uppercase tracking-wider text-gold mb-3">Upgrade a meal — from, per service</p>
+            <div className="flex flex-wrap gap-3 mb-8">
+              {upgrades.map((u) => (
+                <span key={u.to} className="px-3 py-2 border border-gray-200 font-inter text-body-sm text-gray-600">
+                  to {u.to} AED {u.price}+
+                </span>
+              ))}
+            </div>
+            <p className="font-inter text-caption uppercase tracking-wider text-gold mb-3">Add people — starting prices</p>
+            <div className="flex flex-wrap gap-3">
+              {extraTeam.map((u) => (
+                <span key={u.role} className="px-3 py-2 border border-gray-200 font-inter text-body-sm text-gray-600">
+                  {u.role} AED {u.price}+
+                </span>
+              ))}
+            </div>
+          </div>
+
+          <p className="font-inter text-body text-gray-500 leading-relaxed mb-6">
+            Events sit on top of your household arrangement. A birthday dinner, a wedding, or a{' '}
+            <Link to="/yachts" className="text-gold hover:text-gold-light underline underline-offset-4">yacht party</Link>{' '}
+            is quoted as one complete event price — not 25 small charges, and not buried in the monthly fee. If you want food handled without a chef in the house every day,{' '}
+            <Link to="/weekly-meal-prep-dubai" className="text-gold hover:text-gold-light underline underline-offset-4">weekly meal prep</Link>{' '}
+            is the lighter version — from AED 1,898 a week.
+          </p>
+          <p className="font-inter text-body text-gray-500 leading-relaxed">
+            Six days, seven-day coverage, long days or late-night service are calculated. Seven-day service may use rotation. Quality comes before squeezing impossible hours out of one person. All prices shown are starting prices. One-off services, additional days, events and specialist requirements are confirmed before booking.
+          </p>
+        </div>
+      </section>
+
+      {/* Daily life / people */}
+      <section className="bg-black section-padding">
+        <div className="container-custom grid lg:grid-cols-2 gap-12 lg:gap-16">
+          <div>
+            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">The chefs</span>
+            <h2 className="font-playfair text-h2 text-white mb-6">We do not fill a slot with whoever is free</h2>
+            <p className="font-inter text-body text-gray-400 leading-relaxed mb-4">
+              This is a show of the people — not a locked roster. We work with 50+ professionals and change who we put forward depending on what you need. If the right match is not here, we find it.
+            </p>
+            <p className="font-inter text-body text-gray-400 leading-relaxed mb-4">
+              Every person we place as a head chef has typically led a restaurant kitchen for five to ten years, and arrives with their own assistants. France, Italy, the Philippines, Thailand, Vietnam, India and more. Matching is the work of myCHEF: the right professional to the right house, and a specialist when you want one.
+            </p>
+            <p className="font-inter text-body text-gray-400 leading-relaxed mb-6">
+              A CV is not enough. Twenty years of experience can still be the wrong household. Private service requires knowing when to speak and when not to, respecting someone’s home, being reliable, listening, and making excellent food. See{' '}
+              <Link to="/how-we-vet-our-chefs" className="text-gold hover:text-gold-light underline underline-offset-4">how we vet our chefs</Link>
+              {' '}and{' '}
+              <Link to="/our-chefs" className="text-gold hover:text-gold-light underline underline-offset-4">our chefs</Link>.
+            </p>
+            <p className="font-inter text-body-sm text-gray-500 leading-relaxed">
+              Level is background plus how they actually perform with myCHEF. Specialty is separate. A Japanese specialist is not better or worse than a nutrition-focused chef — they solve different problems.
+            </p>
+          </div>
+          <div>
+            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">Daily life</span>
+            <h2 className="font-playfair text-h2 text-white mb-6">A food service that learns</h2>
+            <p className="font-inter text-body text-gray-400 leading-relaxed mb-4">
+              You may have one chef you love. Keep them. Sometimes you want Chinese tonight, a higher-level chef for one Saturday, or healthy family food on a weekday without paying for a tasting-menu specialist.
+            </p>
+            <p className="font-inter text-body text-gray-400 leading-relaxed mb-4">
+              After approximately two days we contact you separately from the chef. How is the food? How is the service? How is the team? A sudden terrible score makes us ask: poor food, an unlearned preference, a misunderstanding, a mistake, or an unreasonable request? You are allowed to make a mistake. You are expected to learn from it. Repeated problems become a pattern. Patterns get coaching, a different match, or a decision that someone does not belong.
+            </p>
+            <p className="font-inter text-body text-gray-400 leading-relaxed mb-4">
+              Chefs can provide feedback too. Respect does not only travel from the chef to the client. Money does not remove the requirement for respect.
+            </p>
+            <p className="font-inter text-body text-gray-400 leading-relaxed">
+              Safety starts before the first meal. After a year you should not be re-explaining breakfast. That is the point. Our goal is to be there without feeling like we are there. Premium service is not saying yes to everything. It is being extremely good at what we promise, straightforward when something is not possible, listening when something goes wrong, and constantly improving.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Locations */}
+      <section className="bg-charcoal py-20">
+        <div className="container-custom">
+          <div className="text-center mb-12">
+            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">Where we cover</span>
+            <h2 className="font-playfair text-fluid-h2 text-white">Where in Dubai can I hire a private chef?</h2>
+          </div>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
             {locations.map((loc) => (
               <Link
                 key={loc.slug}
                 to={`/locations/${loc.slug}`}
-                className="pc-loc-item flex items-center gap-2 font-inter text-sm text-gray-400 hover:text-gold transition-colors opacity-0"
+                className="flex items-center gap-2 font-inter text-sm text-gray-400 hover:text-gold transition-colors"
               >
                 <span className="w-1.5 h-1.5 rounded-full bg-gold flex-shrink-0" />
                 {loc.name}
@@ -553,57 +645,57 @@ export default function PrivateChef() {
         </div>
       </section>
 
-      {/* ═══════════════ Section 6: FAQ ═══════════════ */}
+      {/* FAQ */}
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
             What should I know before hiring a private chef in Dubai?
           </h2>
-
           <FaqAccordion items={faqs} showJumpNav />
         </div>
       </section>
 
-      {/* ═══════════════ Section 7: Review Invite ═══════════════ */}
+      {/* Review invite — real reviews only */}
       <section className="bg-charcoal py-20">
-        <div className="container-custom max-w-[800px]">
-          <div className="pc-testi bg-charcoal border border-charcoal-light p-8 md:p-10 opacity-0 translate-y-5 text-center">
-            <h3 className="font-playfair text-h3 text-white mb-4">Love your myCHEF experience?</h3>
-            <p className="font-inter text-body text-gray-400 leading-relaxed mb-6">
-              Leave us a review and receive AED 50 credit toward your next private chef booking.
-            </p>
-            <Link to="/review" className="btn-primary">
-              Leave a Review
-            </Link>
-          </div>
+        <div className="container-custom max-w-[800px] text-center">
+          <h3 className="font-playfair text-h3 text-white mb-4">Love your myCHEF experience?</h3>
+          <p className="font-inter text-body text-gray-400 leading-relaxed mb-6">
+            We do not publish invented reviews. If you have used the service, leave a review and receive AED 50 credit toward your next private chef booking.
+          </p>
+          <Link to="/review" className="btn-primary">
+            Leave a Review
+          </Link>
         </div>
       </section>
 
-      {/* ═══════════════ Section 8: Related Services ═══════════════ */}
+      {/* Related */}
       <section className="bg-black py-20">
         <div className="container-custom">
           <h3 className="font-playfair text-h3 text-white text-center mb-10">
             Which other services pair with a private chef in Dubai?
           </h3>
-
-          <div className="pc-rel-grid grid md:grid-cols-3 gap-6">
-            {relatedServices.map((svc, i) => (
+          <div className="grid md:grid-cols-3 gap-6">
+            {relatedServices.map((svc) => (
               <Link
-                key={i}
+                key={svc.title}
                 to={svc.link}
-                className="pc-rel-card group bg-charcoal overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
+                className="group bg-charcoal overflow-hidden hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] transition-all duration-300"
               >
                 <div className="aspect-video overflow-hidden">
                   <img
                     src={svc.image}
                     alt={svc.title}
+                    width={640}
+                    height={360}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                    loading="lazy" decoding="async"/>
+                    loading="lazy"
+                    decoding="async"
+                  />
                 </div>
                 <div className="p-6">
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
-                  <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
+                  <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light">
                     Explore <ArrowRight size={14} />
                   </span>
                 </div>
@@ -613,30 +705,19 @@ export default function PrivateChef() {
         </div>
       </section>
 
-      <StarterPackagesSection
-        campaign="private-chef-dubai"
-        eyebrow="HOW MUCH DOES A PRIVATE CHEF COST IN DUBAI?"
-        title="How much does a private chef cost in Dubai?"
-        subtitle="Transparent starting prices for private chef experiences in Dubai. Final quote tailored to your event, menu, and guest count."
-      />
-
-      {/* ═══════════════ Related Guides ═══════════════ */}
       <section className="bg-cream py-16">
         <div className="container-custom max-w-[800px] text-center">
           <h3 className="font-playfair text-h3 text-black mb-4">Where can I learn more about hiring a private chef in Dubai?</h3>
           <p className="font-inter text-body text-gray-500 leading-relaxed">
-            Planning an event in Dubai? Read our{' '}
-            <Link to="/private-chef-vs-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Private Chef vs Catering</Link>{' '}
-            guide, see our{' '}
-            <Link to="/private-chef-prices-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef prices Dubai</Link>{' '}
-            breakdown, read{' '}
-            <Link to="/blog/how-much-does-private-chef-cost-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">how much does a private chef cost in Dubai</Link>,
-            {' '}or explore{' '}
-            <Link to="/blog/private-chef-palm-jumeirah-guide" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef Palm Jumeirah</Link>,
-            {' '}
-            <Link to="/guide/private-dining-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private dining in Dubai</Link>
+            Read our{' '}
+            <Link to="/private-chef-vs-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4">private chef vs catering</Link>{' '}
+            guide, see{' '}
+            <Link to="/private-chef-prices-dubai" className="text-gold hover:text-gold-light underline underline-offset-4">private chef prices Dubai</Link>,{' '}
+            <Link to="/blog/how-much-does-private-chef-cost-dubai" className="text-gold hover:text-gold-light underline underline-offset-4">how much a private chef costs</Link>,{' '}
+            <Link to="/blog/private-chef-palm-jumeirah-guide" className="text-gold hover:text-gold-light underline underline-offset-4">private chef Palm Jumeirah</Link>,{' '}
+            <Link to="/guide/private-dining-dubai" className="text-gold hover:text-gold-light underline underline-offset-4">private dining in Dubai</Link>
             {' '}and{' '}
-            <Link to="/buffet-vs-plated-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">buffet vs plated service in Dubai</Link>.
+            <Link to="/how-it-works" className="text-gold hover:text-gold-light underline underline-offset-4">how it works</Link>.
           </p>
         </div>
       </section>
@@ -646,35 +727,21 @@ export default function PrivateChef() {
         subtitle={
           <>
             Hire a{' '}
-            <Link to="/locations/palm-jumeirah" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef in Palm Jumeirah</Link>,{' '}
-            <Link to="/locations/dubai-marina" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Dubai Marina</Link>{' '}
-            or{' '}
-            <Link to="/locations/downtown-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Downtown Dubai</Link>.
+            <Link to="/locations/palm-jumeirah" className="text-gold hover:text-gold-light underline underline-offset-4">private chef in Palm Jumeirah</Link>,{' '}
+            <Link to="/locations/dubai-marina" className="text-gold hover:text-gold-light underline underline-offset-4">Dubai Marina</Link>
+            {' '}or{' '}
+            <Link to="/locations/downtown-dubai" className="text-gold hover:text-gold-light underline underline-offset-4">Downtown Dubai</Link>.
           </>
         }
       />
 
-      {/* ═══════════════ Section 9: CTA Banner ═══════════════ */}
       <section className="bg-gradient-to-b from-charcoal to-black py-20">
-        <div className="container-custom text-center pc-cta opacity-0 translate-y-8">
-          <h2 className="font-playfair text-h2 text-white mb-4">
-            Book Your Private Chef Today
-          </h2>
-          <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Tell us about your occasion and we will craft a bespoke proposal within 15 minutes during business hours.
+        <div className="container-custom text-center">
+          <h2 className="font-playfair text-h2 text-white mb-4">If this is the service you want, you already know the starting price</h2>
+          <p className="font-inter text-body-lg text-gray-400 max-w-[640px] mx-auto mb-8">
+            Starting example: from AED 24,000 / month. Private · 2 meals / day · 5 service days · chef + assistant + the system. Groceries separate. An evening starts from AED 1,200 for two. Then we ask the questions that become your Food Profile.
           </p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=private-chef-dubai" className="btn-primary">Get My Private Chef Quote</Link>
-            <a
-              href={WHATSAPP_LINK}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-secondary"
-            >
-              <Phone size={16} className="mr-2" />
-              Chat on WhatsApp
-            </a>
-          </div>
+          <QuotePair />
         </div>
       </section>
     </div>
