@@ -2,6 +2,9 @@ import { useRef, useEffect } from 'react'
 import { Link } from 'react-router'
 import gsap from 'gsap'
 import { deferNonCritical } from '../lib/deferNonCritical'
+import { cn } from '../lib/utils'
+
+type OverlayName = 'dark' | 'medium' | 'light' | 'left' | 'cinematic'
 
 interface PageHeroProps {
   eyebrow?: string
@@ -18,7 +21,11 @@ interface PageHeroProps {
   minHeight?: 'full' | 'tall' | 'large' | 'medium' | 'short'
   align?: 'left' | 'center'
   children?: React.ReactNode
-  overlay?: 'dark' | 'medium' | 'light' | 'left'
+  overlay?: OverlayName
+  /** Bolder H1 (weight, size, tracking, text-shadow). Opt-in so shared heroes stay unchanged. */
+  titleEmphasis?: boolean
+  /** Gold accent rule above the H1 — homepage-style luxury cue. */
+  accentLine?: boolean
   imagePosition?: string
   reducedMotion?: boolean
 }
@@ -31,11 +38,17 @@ const heightClasses = {
   short: 'min-h-[40dvh] md:min-h-[50dvh]',
 }
 
-const overlayClasses = {
-  dark: 'bg-gradient-to-b from-black/40 via-black/50 to-black/85',
-  medium: 'bg-gradient-to-b from-black/30 via-black/40 to-black/75',
-  light: 'bg-gradient-to-b from-black/20 via-black/30 to-black/60',
-  left: 'bg-gradient-to-r from-black/88 via-black/70 to-black/35',
+const overlayLayers: Record<OverlayName, string[]> = {
+  dark: ['bg-gradient-to-b from-black/40 via-black/50 to-black/85'],
+  medium: ['bg-gradient-to-b from-black/30 via-black/40 to-black/75'],
+  light: ['bg-gradient-to-b from-black/20 via-black/30 to-black/60'],
+  left: ['bg-gradient-to-r from-black/88 via-black/70 to-black/35'],
+  // Left-weighted cinematic scrim: dark enough for white type, photo still readable on the right.
+  cinematic: [
+    'bg-black/40',
+    'bg-gradient-to-r from-black/94 via-black/78 to-black/30',
+    'bg-gradient-to-b from-black/55 via-transparent to-black/65',
+  ],
 }
 
 export default function PageHero({
@@ -54,6 +67,8 @@ export default function PageHero({
   align = 'center',
   children,
   overlay = 'dark',
+  titleEmphasis = false,
+  accentLine = false,
   imagePosition = 'center',
   reducedMotion = false,
 }: PageHeroProps) {
@@ -148,7 +163,9 @@ export default function PageHero({
               style={{ objectPosition: imagePosition }}
             />
           </picture>
-          <div className={`absolute inset-0 ${overlayClasses[overlay]}`} />
+          {overlayLayers[overlay].map((layer) => (
+            <div key={layer} className={`absolute inset-0 ${layer}`} />
+          ))}
         </div>
       ) : (
         <div className="absolute inset-0 bg-gradient-to-b from-black via-charcoal to-black" />
@@ -161,7 +178,7 @@ export default function PageHero({
       >
         {breadcrumb && breadcrumb.length > 0 && (
           <nav aria-label="Breadcrumb" className="mb-6">
-            <ol className={`flex flex-wrap items-center gap-2 font-inter text-caption text-gray-400 ${align === 'center' ? 'justify-center' : ''}`}>
+            <ol className={`flex flex-wrap items-center gap-2 font-inter text-caption ${overlay === 'cinematic' ? 'text-white/70' : 'text-gray-400'} ${align === 'center' ? 'justify-center' : ''}`}>
               {breadcrumb.map((item, i) => (
                 <li key={item.label + i} className="flex items-center gap-2">
                   {i > 0 && <span className="text-gray-600">/</span>}
@@ -184,12 +201,29 @@ export default function PageHero({
           </span>
         )}
 
-        <h1 className={`font-playfair text-fluid-h1 text-white ${align === 'left' ? 'max-w-2xl' : ''}`} style={{ lineHeight: '1.1' }}>
+        {accentLine && <div className="gold-line mb-5 md:mb-7" />}
+
+        <h1
+          className={cn(
+            'font-playfair text-white',
+            titleEmphasis
+              ? 'font-semibold tracking-tight text-[clamp(2.25rem,5.2vw,4rem)] drop-shadow-[0_2px_28px_rgba(0,0,0,0.72)]'
+              : 'text-fluid-h1',
+            align === 'left' && (titleEmphasis ? 'max-w-3xl' : 'max-w-2xl'),
+          )}
+          style={{ lineHeight: titleEmphasis ? 1.05 : 1.1 }}
+        >
           {title}
         </h1>
 
         {subtitle && (
-          <p className={`mt-5 md:mt-6 font-inter text-base md:text-body-lg text-white/85 max-w-2xl leading-relaxed ${align === 'center' ? 'mx-auto' : ''}`}>
+          <p
+            className={cn(
+              'mt-5 md:mt-6 font-inter text-base md:text-body-lg max-w-2xl leading-relaxed',
+              titleEmphasis || overlay === 'cinematic' ? 'text-white/92 drop-shadow-[0_1px_12px_rgba(0,0,0,0.55)]' : 'text-white/85',
+              align === 'center' && 'mx-auto',
+            )}
+          >
             {subtitle}
           </p>
         )}
