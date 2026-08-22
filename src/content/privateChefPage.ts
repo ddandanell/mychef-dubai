@@ -19,9 +19,9 @@ export const photos = [
   },
   {
     src: '/images/private-chef-dubai-system.webp',
-    alt: 'Household manager with a tablet standing between a private chef at the stove and an assistant preparing vegetables in a Dubai villa kitchen',
-    width: 928,
-    height: 1152,
+    alt: 'Chef briefing household managers at a table with a whiteboard of kitchen plans and plated-food photos — the myCHEF system around the cook',
+    width: 960,
+    height: 1200,
   },
   {
     src: '/images/private-chef-dubai-evening.webp',
