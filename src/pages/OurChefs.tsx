@@ -46,7 +46,7 @@ const chefs = [
     specialties: ['Pastry', 'Chocolate Work', 'Wedding Cakes', 'Plated Desserts'],
   },
   {
-    image: '/images/arabic-catering-dubai-hero.webp',
+    image: '/images/chefs/layla-hassan.webp',
     name: 'Layla Hassan',
     role: 'Middle Eastern Chef',
     experience: '14+ Years',

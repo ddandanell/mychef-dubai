@@ -483,7 +483,7 @@ export const featuredChefs = [
     credential: '14+ years. Lebanese and Emirati kitchens — mezze, grills, Ramadan and family feasts.',
     specialties: ['Arabic', 'Mezze', 'Grilled meats'],
     experience: '14+ years',
-    image: '/images/arabic-catering-dubai-hero.webp',
+    image: '/images/chefs/layla-hassan.webp',
     href: '/chefs/layla-middle-eastern-chef',
   },
   {

@@ -7,8 +7,8 @@ const chef: ChefProfileData = {
   partnerLabel: 'Independent partner chef',
   experience: '14+ Years',
   cuisine: 'Middle Eastern & Arabic',
-  image: '/images/arabic-catering-dubai-hero.webp',
-  imageAlt: 'Chef Layla Hassan preparing Middle Eastern cuisine for a myCHEF Dubai event',
+  image: '/images/chefs/layla-hassan.webp',
+  imageAlt: 'Chef Layla Hassan, independent partner chef for myCHEF Dubai, posing in a professional black chef\'s jacket in a kitchen setting.',
   bio: 'Layla Hassan is a passionate advocate for the bold, generous flavours of the Middle East. Raised in a family where recipes were passed down through generations, she trained formally in Lebanese and Emirati kitchens before leading banquet and catering operations for some of Dubai’s most prestigious events. Layla specialises in turning traditional dishes into refined, contemporary presentations while preserving their authentic heart. Her mezze spreads, grilled meats, and aromatic rice dishes are designed for sharing and celebration. She is especially sought after during Ramadan, Eid, and national celebrations, when her Iftar and feast menus create a sense of community and occasion. Layla’s warmth and deep cultural knowledge make her a natural host in the kitchen as well as at the table.',
   specialties: [
     'Arabic Mezze',
