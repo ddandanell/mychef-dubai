@@ -163,6 +163,12 @@ export function howToSchema(
   }
 }
 
+function toAbsoluteUrl(url?: string) {
+  if (!url) return undefined
+  if (/^https?:\/\//i.test(url)) return url
+  return `${SITE_URL}${url.startsWith('/') ? url : `/${url}`}`
+}
+
 export function offerSchema(
   name: string,
   description: string,
@@ -179,7 +185,7 @@ export function offerSchema(
     price,
     priceCurrency,
     availability,
-    url: url ? `${SITE_URL}${url}` : undefined,
+    url: toAbsoluteUrl(url),
     seller: {
       '@type': 'Organization',
       name: SITE_NAME,
@@ -204,7 +210,7 @@ export function aggregateOfferSchema(
     lowPrice,
     highPrice,
     priceCurrency,
-    url: url ? `${SITE_URL}${url}` : undefined,
+    url: toAbsoluteUrl(url),
     seller: {
       '@type': 'Organization',
       name: SITE_NAME,

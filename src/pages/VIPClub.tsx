@@ -13,6 +13,7 @@ import {
 } from 'lucide-react'
 import SEO from '../components/SEO'
 import TrustSignalStrip from '../components/TrustSignalStrip'
+import LocationStrip from '../components/LocationStrip'
 import FaqAccordion from '../components/FaqAccordion'
 
 const WHATSAPP_NUMBER = '971551744849'
@@ -480,6 +481,8 @@ export default function VIPClub() {
           </div>
         </div>
       </section>
+
+      <LocationStrip title="VIP private chef experiences across Dubai" />
 
       {/* ═══════════════ Section 10: CTA Banner ═══════════════ */}
       <section className="bg-gradient-to-b from-charcoal to-black py-20">

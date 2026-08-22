@@ -18,6 +18,7 @@ import {
 import SEO from '../components/SEO'
 import PageHero from '../components/PageHero'
 import TrustSignalStrip from '../components/TrustSignalStrip'
+import LocationStrip from '../components/LocationStrip'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 
@@ -318,6 +319,8 @@ export default function FestiveCatering() {
           <FaqAccordion items={faqs} showJumpNav />
         </div>
       </section>
+
+      <LocationStrip title="Festive catering across Dubai" />
 
       {/* ═══════════════ Final CTA ═══════════════ */}
       <section className="festive-cta bg-gradient-to-b from-black to-charcoal py-20">

@@ -11,6 +11,7 @@ import {
 } from 'lucide-react'
 import SEO from '../../components/SEO'
 import TrustSignalStrip from '../../components/TrustSignalStrip'
+import LocationStrip from '../../components/LocationStrip'
 import FaqAccordion from '../../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { deferNonCritical } from '../../lib/deferNonCritical'
@@ -402,6 +403,10 @@ export default function ServiceLandingPage({ config }: Props) {
           </div>
         </div>
       </section>
+
+      <LocationStrip
+        title={`${config.breadcrumbLabel.replace(/\s+Dubai$/i, '').trim()} across Dubai`}
+      />
 
       {/* CTA */}
       <section className="bg-gradient-to-b from-charcoal to-black py-20">

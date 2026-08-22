@@ -7,11 +7,11 @@ import { Check, ChevronRight, Phone, ArrowRight } from 'lucide-react'
 import SEO from './SEO'
 import PageHero from './PageHero'
 import TrustSignalStrip from './TrustSignalStrip'
+import LocationStrip from './LocationStrip'
 import { breadcrumbSchema, faqPageSchema, offerSchema, serviceSchema } from '@/utils/schema'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 
 const WHATSAPP_NUMBER = '971551744849'
-const SITE_URL = 'https://www.mychef.ae'
 
 interface FAQ {
   q: string
@@ -84,7 +84,7 @@ export default function PackagePageTemplate({
     `${description} Starting from AED ${price} for ${guests}. Final pricing depends on menu choices, ingredients, dietary requirements, and service level.`,
     price.replace(/,/g, ''),
     'AED',
-    `${SITE_URL}${canonicalPath}`,
+    canonicalPath,
     'https://schema.org/InStock',
   )
 
@@ -267,6 +267,8 @@ export default function PackagePageTemplate({
           </div>
         </div>
       </section>
+
+      <LocationStrip title={`${name} packages across Dubai`} />
 
       {/* CTA */}
       <section className="bg-gradient-to-b from-black to-charcoal py-24">
