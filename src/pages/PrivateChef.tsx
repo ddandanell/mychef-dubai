@@ -3,7 +3,7 @@ import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
-import { Check, Phone, ArrowRight } from 'lucide-react'
+import { Check, Phone, ArrowRight, ArrowDown } from 'lucide-react'
 import SEO from '../components/SEO'
 import PageHero from '../components/PageHero'
 import LocationStrip from '../components/LocationStrip'
@@ -25,6 +25,9 @@ import {
   SEO_TITLE,
   WHATSAPP_MESSAGE,
   WHATSAPP_NUMBER,
+  backupAlone,
+  backupMychef,
+  calibration,
   chefLevelIntro,
   chefLevels,
   comparison,
@@ -35,13 +38,18 @@ import {
   extraTeam,
   faqs,
   featuredChefs,
+  foodProfileDemo,
   formatAed,
   higherNotBetter,
   householdIncludes,
   inspectUs,
+  levelSpecialtyExamples,
   levelVsSpecialty,
   lifeStages,
   locations,
+  managerAsks,
+  managerFlow,
+  networkSpecialties,
   pageSequence,
   paths,
   perPersonBands,
@@ -49,9 +57,10 @@ import {
   profileQuestions,
   proofItems,
   relatedServices,
+  scoreDemo,
+  systemMap,
   upgrades,
   vettingSteps,
-  weekInTheHouse,
   whatThisIs,
   whenThingsChange,
   whoDoesWhat,
@@ -177,6 +186,44 @@ function PathSwitcher({ className = '' }: { className?: string }) {
   )
 }
 
+function FlowColumn({
+  title,
+  steps,
+  accent = false,
+}: {
+  title: string
+  steps: readonly string[]
+  accent?: boolean
+}) {
+  return (
+    <div className={`p-8 ${accent ? 'bg-black text-white' : 'bg-cream border border-gray-200'}`}>
+      <h3 className={`font-playfair text-h4 mb-6 ${accent ? 'text-gold' : 'text-black'}`}>{title}</h3>
+      <ol className="space-y-0">
+        {steps.map((step, i) => (
+          <li key={step} className="flex flex-col items-start">
+            <p className={`font-inter text-body ${accent ? 'text-white' : 'text-gray-700'}`}>{step}</p>
+            {i < steps.length - 1 && (
+              <ArrowDown size={16} className={`my-3 ${accent ? 'text-gold' : 'text-gold'}`} aria-hidden />
+            )}
+          </li>
+        ))}
+      </ol>
+    </div>
+  )
+}
+
+function ScoreStars({ value }: { value: number }) {
+  return (
+    <span className="inline-flex gap-0.5" aria-label={`${value} out of 5`}>
+      {[1, 2, 3, 4, 5].map((n) => (
+        <span key={n} className={n <= value ? 'text-gold' : 'text-gray-300'} aria-hidden>
+          ★
+        </span>
+      ))}
+    </span>
+  )
+}
+
 function QuotePair() {
   return (
     <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -296,6 +343,29 @@ export default function PrivateChef() {
             className="min-h-[50vh] lg:min-h-full order-1 lg:order-2"
           />
         </div>
+        <div className="container-custom section-padding pt-0 pb-20">
+          <p className="font-inter text-caption uppercase tracking-wider text-gold mb-3 text-center">The machine</p>
+          <h3 className="font-playfair text-h3 text-black text-center mb-4">How a private chef through myCHEF actually runs</h3>
+          <p className="font-inter text-body-sm text-gray-500 text-center max-w-[640px] mx-auto mb-10 leading-relaxed">
+            One household does not need fifty chefs. It needs a manager, a record, a regular chef, and access to the rest. That is the product.
+          </p>
+          <ol className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            {systemMap.map((step, i) => (
+              <li key={step.n} className="border border-gray-200 p-5 bg-cream relative">
+                <p className="font-playfair text-h4 text-gold mb-2">{step.n}</p>
+                <p className="font-inter text-body text-black leading-relaxed">{step.label}</p>
+                {i < systemMap.length - 1 && i % 4 !== 3 && (
+                  <span className="hidden lg:block absolute -right-2 top-1/2 -translate-y-1/2 text-gold" aria-hidden>
+                    →
+                  </span>
+                )}
+              </li>
+            ))}
+          </ol>
+          <p className="font-inter text-body-sm text-gray-500 text-center mt-8 leading-relaxed">
+            Feedback updates the Food Profile. The Food Profile makes the next service better. That is why the longer you stay, the less you should have to explain.
+          </p>
+        </div>
       </section>
 
       {/* 02 Which service */}
@@ -392,17 +462,69 @@ export default function PrivateChef() {
         </div>
       </section>
 
+      {/* Household manager + Food Profile */}
+      <section id="your-manager" className="bg-white section-padding scroll-mt-24">
+        <div className="container-custom">
+          <div className="grid lg:grid-cols-2 gap-10 mb-16">
+            <div>
+              <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">Ongoing household</span>
+              <h2 className="font-playfair text-h2 text-black mb-4">Your myCHEF Household Manager</h2>
+              <p className="font-inter text-body text-gray-500 leading-relaxed mb-6">
+                Once you are an ongoing client, one person is responsible for the house. They know the Food Profile, the usual chefs, what has worked and what has not. Chefs change. That person does not. This is a role in the service — not a celebrity, and not another person you have to manage.
+              </p>
+              <div className="flex flex-wrap items-center gap-3 mb-8">
+                {managerFlow.map((node, i) => (
+                  <span key={node} className="inline-flex items-center gap-3">
+                    <span className="px-4 py-2 border border-gold bg-black text-gold font-inter text-caption uppercase tracking-wider">
+                      {node}
+                    </span>
+                    {i < managerFlow.length - 1 && (
+                      <ArrowRight size={16} className="text-gold" aria-hidden />
+                    )}
+                  </span>
+                ))}
+              </div>
+              <ul className="space-y-4">
+                {managerAsks.map((item) => (
+                  <li key={item.q} className="border-l-2 border-gold pl-4">
+                    <p className="font-playfair text-h4 text-black">{item.q}</p>
+                    <p className="font-inter text-body-sm text-gray-500 mt-1">{item.a}</p>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="border border-gray-200 bg-cream p-6 md:p-8">
+              <p className="font-inter text-caption uppercase tracking-wider text-gold mb-2">{foodProfileDemo.eyebrow}</p>
+              <h3 className="font-playfair text-h3 text-black mb-2">{foodProfileDemo.house}</h3>
+              <p className="font-inter text-caption text-gray-500 mb-6">{foodProfileDemo.note}</p>
+              <dl className="space-y-3">
+                {foodProfileDemo.fields.map((row) => (
+                  <div key={row.k} className="grid grid-cols-[140px_1fr] gap-3 border-b border-gray-200 pb-3 last:border-0">
+                    <dt className="font-inter text-caption uppercase tracking-wider text-gold">{row.k}</dt>
+                    <dd className="font-inter text-body-sm text-black">{row.v}</dd>
+                  </div>
+                ))}
+              </dl>
+              <p className="font-playfair text-h4 text-black mt-8">{foodProfileDemo.closer}</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* 05 The life you are buying */}
       <section id="the-life" className="bg-charcoal section-padding scroll-mt-24">
         <div className="container-custom">
           <div className="max-w-[760px] mx-auto text-center mb-12">
             <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">What this looks like</span>
             <h2 className="font-playfair text-h2 text-white mb-6">You are not buying a Food Profile</h2>
-            <p className="font-inter text-body-lg text-gray-300 leading-relaxed">
+            <p className="font-inter text-body-lg text-gray-300 leading-relaxed mb-4">
               Monday morning, breakfast appears exactly how they like it. The children get food they will actually eat. Friday they suddenly want Japanese. Friends come Saturday. The usual chef takes Sunday off. Nobody in the family needs to coordinate any of it. That is the life. The Food Profile is only how we remember it.
             </p>
+            <p className="font-inter text-body text-gray-400 leading-relaxed">
+              We don’t pretend we know everything immediately. Your first week is calibration.
+            </p>
           </div>
-          <div className="grid md:grid-cols-3 gap-6 mb-16">
+          <div className="grid md:grid-cols-3 gap-6 mb-12">
             {lifeStages.map((stage) => (
               <div key={stage.when} className="border border-gold/25 p-8 bg-black/40">
                 <p className="font-inter text-caption uppercase tracking-wider text-gold mb-3">{stage.when}</p>
@@ -411,14 +533,13 @@ export default function PrivateChef() {
               </div>
             ))}
           </div>
-          <div className="max-w-[800px] mx-auto">
-            <h3 className="font-playfair text-h3 text-white text-center mb-8">A week in the house</h3>
-            <ol className="space-y-0">
-              {weekInTheHouse.map((item, i) => (
-                <li key={item.day} className="grid md:grid-cols-[160px_1fr] gap-3 md:gap-8 py-5 border-t border-white/10 last:border-b">
-                  <p className="font-inter text-caption uppercase tracking-wider text-gold pt-1">{item.day}</p>
-                  <p className="font-inter text-body text-gray-300 leading-relaxed">{item.body}</p>
-                  <span className="sr-only">Day {i + 1}</span>
+          <div className="max-w-[900px] mx-auto">
+            <h3 className="font-playfair text-h3 text-white text-center mb-8">Your first week is calibration</h3>
+            <ol className="grid sm:grid-cols-2 lg:grid-cols-5 gap-4">
+              {calibration.map((item) => (
+                <li key={item.when} className="border border-gold/25 p-5 bg-black/40">
+                  <p className="font-inter text-caption uppercase tracking-wider text-gold mb-2">{item.when}</p>
+                  <p className="font-inter text-body-sm text-gray-200 leading-relaxed">{item.title}</p>
                 </li>
               ))}
             </ol>
@@ -493,8 +614,19 @@ export default function PrivateChef() {
         <div className="container-custom section-padding pt-4 pb-20">
           <p className="font-inter text-caption uppercase tracking-wider text-gold mb-3 text-center">Chefs currently listed in the network</p>
           <h3 className="font-playfair text-h3 text-white text-center mb-4">Independent partners — not a staff roster</h3>
-          <p className="font-inter text-body-sm text-gray-400 text-center max-w-[640px] mx-auto mb-10 leading-relaxed">
-            Four chefs we currently present on the site. Matching is not limited to them. Profiles describe independent licensed partners, not employees.
+          <p className="font-inter text-body-sm text-gray-400 text-center max-w-[640px] mx-auto mb-8 leading-relaxed">
+            Four chefs we currently present on the site. Matching is not limited to them. 50+ professionals in the network. These are examples, not a fixed roster. Independent licensed partners — not employees.
+          </p>
+          <p className="font-inter text-caption uppercase tracking-wider text-gold mb-4 text-center">50+ chefs · specialties in the network</p>
+          <div className="flex flex-wrap justify-center gap-2 mb-6">
+            {networkSpecialties.map((tag) => (
+              <span key={tag} className="px-3 py-1.5 border border-gold/30 font-inter text-caption uppercase tracking-wider text-gray-300">
+                {tag}
+              </span>
+            ))}
+          </div>
+          <p className="font-playfair text-h4 text-white text-center mb-12">
+            One household doesn’t need 50 chefs. It needs access to the right one.
           </p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {featuredChefs.map((chef) => (
@@ -517,8 +649,9 @@ export default function PrivateChef() {
                 <div className="p-5">
                   <p className="font-playfair text-h4 text-white mb-1">{chef.name}</p>
                   <p className="font-inter text-caption uppercase tracking-wider text-gold mb-2">{chef.role}</p>
-                  <p className="font-inter text-body-sm text-gray-400">{chef.cuisine}</p>
-                  <p className="font-inter text-body-sm text-gray-500 mt-1">{chef.experience}</p>
+                  <p className="font-inter text-body-sm text-gray-400 mb-3">{chef.cuisine}</p>
+                  <p className="font-inter text-caption text-gray-500">{chef.specialties.join(' · ')}</p>
+                  <p className="font-inter text-body-sm text-gray-500 mt-2">{chef.experience}</p>
                 </div>
               </Link>
             ))}
@@ -532,9 +665,31 @@ export default function PrivateChef() {
               <p className="font-inter text-body text-gray-400 leading-relaxed mb-4">
                 You may have one chef you love. Keep them. Sometimes you want Chinese tonight, a higher-level chef for one Saturday, or healthy family food on a weekday without paying for a tasting-menu specialist.
               </p>
-              <p className="font-inter text-body text-gray-400 leading-relaxed mb-4">
+              <p className="font-inter text-body text-gray-400 leading-relaxed mb-6">
                 After approximately two days we contact you separately from the chef. A sudden terrible score makes us ask: poor food, an unlearned preference, a misunderstanding, a mistake, or an unreasonable request? You are allowed to make a mistake. You are expected to learn from it.
               </p>
+              <div className="border border-gold/25 p-6 mb-6">
+                <p className="font-inter text-caption uppercase tracking-wider text-gold mb-2">{scoreDemo.eyebrow}</p>
+                <p className="font-inter text-caption text-gray-500 mb-4">{scoreDemo.note}</p>
+                <p className="font-playfair text-h4 text-white mb-4">How was this week?</p>
+                <ul className="space-y-2 mb-6">
+                  {scoreDemo.scores.map((row) => (
+                    <li key={row.label} className="flex items-center justify-between font-inter text-body-sm text-gray-300">
+                      <span>{row.label}</span>
+                      <ScoreStars value={row.value} />
+                    </li>
+                  ))}
+                </ul>
+                <ol className="space-y-3">
+                  {scoreDemo.steps.map((step) => (
+                    <li key={step.title}>
+                      <p className="font-inter text-body-sm text-gold">{step.title}</p>
+                      <p className="font-inter text-body-sm text-gray-400">{step.body}</p>
+                    </li>
+                  ))}
+                </ol>
+                <p className="font-inter text-body-sm text-gray-400 mt-5">{scoreDemo.chefsFeedback}</p>
+              </div>
               <p className="font-inter text-body text-gray-400 leading-relaxed">
                 Safety starts before the first meal. After a year you should not be re-explaining breakfast. Our goal is to be there without feeling like we are there.
               </p>
@@ -743,8 +898,26 @@ export default function PrivateChef() {
             </div>
             <div className="bg-white border border-gray-200 p-6 md:p-8">
               <h4 className="font-playfair text-h4 text-black mb-3">{levelVsSpecialty.title}</h4>
+              <div className="grid sm:grid-cols-[1fr_auto_1fr] items-center gap-4 mb-6">
+                <div className="border border-gold/40 p-5 text-center">
+                  <p className="font-inter text-caption uppercase tracking-wider text-gold mb-2">Level</p>
+                  <p className="font-playfair text-h4 text-black">Experience and performance</p>
+                </div>
+                <p className="font-playfair text-h3 text-gold text-center">×</p>
+                <div className="border border-gold/40 p-5 text-center">
+                  <p className="font-inter text-caption uppercase tracking-wider text-gold mb-2">Specialty</p>
+                  <p className="font-playfair text-h4 text-black">What they cook exceptionally</p>
+                </div>
+              </div>
               <p className="font-inter text-body text-gray-500 leading-relaxed mb-3">{levelVsSpecialty.level}</p>
               <p className="font-inter text-body text-gray-500 leading-relaxed mb-3">{levelVsSpecialty.specialty}</p>
+              <ul className="space-y-2 mb-4">
+                {levelSpecialtyExamples.map((row) => (
+                  <li key={row.level} className="font-inter text-body-sm text-gray-500">
+                    <strong className="font-medium text-black">{row.level}</strong> {row.specialty}.
+                  </li>
+                ))}
+              </ul>
               <p className="font-inter text-body text-gray-500 leading-relaxed mb-4">{levelVsSpecialty.body}</p>
               <p className="font-inter text-body text-gray-500 leading-relaxed">{levelVsSpecialty.close}</p>
             </div>
@@ -896,6 +1069,13 @@ export default function PrivateChef() {
               Rotation, a specialist, backup, guests, seven days. This is the part a freelancer cannot fake, and the part a household actually uses.
             </p>
           </div>
+          <div className="grid md:grid-cols-2 gap-6 mb-12">
+            <FlowColumn title="Hiring independently" steps={backupAlone} />
+            <FlowColumn title="With myCHEF" steps={backupMychef} accent />
+          </div>
+          <p className="font-inter text-body-sm text-gray-500 text-center max-w-[640px] mx-auto mb-12 leading-relaxed">
+            An equivalent chef cannot always be guaranteed. If one is not available, we tell you — then we give you the options. We do not fill a slot with whoever is free and hope you will not notice.
+          </p>
           <div className="grid md:grid-cols-2 gap-6">
             {whenThingsChange.map((item) => (
               <div key={item.title} className="border border-gray-200 p-8">
@@ -979,7 +1159,7 @@ export default function PrivateChef() {
             </div>
           </div>
           <p className="font-inter text-body-lg text-white leading-relaxed mt-10">
-            We promise to manage those realities professionally. If an equivalent chef is not available, we tell you, then we give you the options. We do not claim an allergic reaction can never happen. Chefs are professionals, not machines. We do not publish invented reviews.
+            What we promise is a system for dealing with reality when it happens. If an equivalent chef is not available, we tell you, then we give you the options. We do not claim an allergic reaction can never happen. Chefs are professionals, not machines. We do not publish invented reviews.
           </p>
         </div>
       </section>

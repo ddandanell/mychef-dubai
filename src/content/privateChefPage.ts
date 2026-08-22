@@ -68,6 +68,109 @@ export const pageSequence = [
   { n: '10', label: 'Start', href: '#start' },
 ] as const
 
+export const systemMap = [
+  { n: '01', label: 'You' },
+  { n: '02', label: 'Your household manager' },
+  { n: '03', label: 'Your Food Profile' },
+  { n: '04', label: 'Your regular chef + assistant' },
+  { n: '05', label: 'Specialists · backup · events' },
+  { n: '06', label: 'Feedback' },
+  { n: '07', label: 'Profile updated' },
+  { n: '08', label: 'Service gets better' },
+] as const
+
+export const managerAsks = [
+  { q: 'Chef unavailable?', a: 'Call your manager.' },
+  { q: 'Japanese on Friday?', a: 'Ask your manager.' },
+  { q: 'Six guests tomorrow?', a: 'Ask your manager.' },
+  { q: 'Something wasn’t right?', a: 'Tell your manager.' },
+]
+
+export const managerFlow = ['You', 'Your household manager', '50+ chef network'] as const
+
+export const foodProfileDemo = {
+  eyebrow: 'Example Food Profile',
+  house: 'A household like this',
+  note: 'This is a demonstration of the record we keep — not a real client, and not a review.',
+  fields: [
+    { k: 'Breakfast', v: '08:00' },
+    { k: 'Coffee', v: 'Flat white, oat milk' },
+    { k: 'Children', v: 'No mushrooms' },
+    { k: 'Spice', v: '3 / 5' },
+    { k: 'Favourites', v: 'Japanese, Italian, Thai' },
+    { k: 'Avoid', v: 'Coriander' },
+    { k: 'Diet', v: 'High protein on weekdays' },
+    { k: 'Service', v: 'Quiet mornings' },
+    { k: 'Friday', v: 'Usually guests' },
+    { k: 'Last update', v: 'Kept current' },
+  ],
+  closer: 'When the chef changes, this doesn’t.',
+}
+
+export const calibration = [
+  { when: 'Day 1', title: 'We know what you told us.' },
+  { when: 'Day 2', title: 'We learn what “spicy” actually means here.' },
+  { when: 'Week 1', title: 'Portions, timing, children and service.' },
+  { when: 'Month 1', title: 'The chef knows the rhythm of the house.' },
+  { when: 'Month 6', title: 'You barely need to explain.' },
+] as const
+
+export const scoreDemo = {
+  eyebrow: 'How a week is reviewed',
+  note: 'Example scores to show the mechanism. Not a published review.',
+  scores: [
+    { label: 'Food', value: 5 },
+    { label: 'Service', value: 5 },
+    { label: 'Team', value: 4 },
+  ],
+  steps: [
+    { title: 'One score that is off', body: 'A conversation — not a punishment machine.' },
+    { title: 'A repeated problem', body: 'A pattern. We ask what actually happened.' },
+    { title: 'A pattern', body: 'Coaching, a new match, or a chef who does not come back.' },
+  ],
+  chefsFeedback: 'Chefs can give feedback too. A house is allowed to make a mistake. Both sides are expected to learn.',
+}
+
+export const backupAlone = [
+  'Chef unavailable',
+  'You start calling people',
+  'A new chef arrives',
+  'You explain everything again',
+] as const
+
+export const backupMychef = [
+  'Chef unavailable',
+  'Your household manager is notified',
+  'A replacement is selected',
+  'The Food Profile is transferred',
+  'Service continues',
+] as const
+
+export const networkSpecialties = [
+  'Italian',
+  'French',
+  'Japanese',
+  'Thai',
+  'Indian',
+  'Arabic',
+  'Filipino',
+  'Vietnamese',
+  'Indonesian',
+  'Mediterranean',
+  'Nutrition',
+  'Vegan',
+  'Pastry',
+  'Sushi',
+  'Fine dining',
+  'Family cooking',
+] as const
+
+export const levelSpecialtyExamples = [
+  { level: 'Senior Chef', specialty: 'can specialise in Indian food' },
+  { level: 'Master Chef', specialty: 'can specialise in Japanese' },
+  { level: 'Executive Chef', specialty: 'can specialise in nutrition' },
+] as const
+
 export const paths = [
   {
     id: 'evening',
@@ -188,13 +291,13 @@ export const whoDoesWhat = [
   {
     who: 'myCHEF',
     items: [
+      'Your household manager — one person, not a network to manage',
       'The match',
       'Vetting and right-to-work checks',
       'The Food Profile',
       'Scheduling, backup and rotation',
       'Specialists when you want one',
       'Quality review',
-      'Your dedicated contact once you are an ongoing client',
     ],
   },
   {
@@ -336,42 +439,13 @@ export const lifeStages = [
   },
 ]
 
-export const weekInTheHouse = [
-  {
-    day: 'Monday morning',
-    body: 'Breakfast appears exactly how they like it. Coffee is already how this house takes coffee. Nobody sent a new set of instructions.',
-  },
-  {
-    day: 'Tuesday',
-    body: 'The children get food they will actually eat. Nobody negotiates at the table. That is not a small thing, if you have ever cooked for them yourself.',
-  },
-  {
-    day: 'Wednesday',
-    body: 'The house eats what “healthy” means here — not a generic programme, and not a restaurant menu wearing gym clothes.',
-  },
-  {
-    day: 'Thursday',
-    body: 'You are out late. Dinner still happens. The kitchen is left handled. You did not become the scheduler on the way home.',
-  },
-  {
-    day: 'Friday',
-    body: 'They suddenly want Japanese. Your contact rotates a specialist. The weekday chef is not asked to become someone else overnight.',
-  },
-  {
-    day: 'Saturday',
-    body: 'Friends come. We do not pretend the usual chef and assistant should suddenly handle a party. We build the team. You get one event price.',
-  },
-  {
-    day: 'Sunday',
-    body: 'The usual chef is off. The next chef is not starting from zero. Nobody in the family coordinates any of it. That is the life you are buying.',
-  },
-]
-
 export const dontPromise = [
   'We don’t promise every chef is available every day.',
-  'We don’t pretend one chef should work seven days a week.',
+  'We don’t pretend one person should work seven days without rest.',
+  'We don’t promise every chef will fit every household.',
+  'We don’t promise mistakes never happen.',
+  'We don’t promise every request is possible at every hour.',
   'We don’t promise zero allergy risk.',
-  'We don’t pretend every chef fits every household.',
 ]
 
 export const doPromise = [
@@ -380,7 +454,7 @@ export const doPromise = [
   'We promise the Food Profile travels when the chef changes.',
   'We promise to tell you when an equivalent chef is not available — then give you the options.',
   'We promise starting prices on this page, before you pay.',
-  'We promise to manage the realities we do not pretend away.',
+  'We promise a system for dealing with reality when it happens.',
 ]
 
 export const proofItems = [
@@ -448,32 +522,36 @@ export const inspectUs = [
 export const featuredChefs = [
   {
     name: 'Ahmed Al-Rashid',
-    role: 'Executive chef',
+    role: 'Independent partner chef',
     cuisine: 'Modern European & fine dining',
+    specialties: ['French technique', 'Villa dining', 'Fine dining'],
     experience: '18+ years',
     image: '/team-head-chef.webp',
     href: '/chefs/ahmed-executive-chef',
   },
   {
     name: 'Marco Rossi',
-    role: 'Italian chef',
+    role: 'Independent partner chef',
     cuisine: 'Italian & Mediterranean',
+    specialties: ['Italian', 'Pasta', 'Family-style'],
     experience: '15+ years',
     image: '/team-sous-chef.webp',
     href: '/chefs/marco-italian-chef',
   },
   {
     name: 'Layla Hassan',
-    role: 'Middle Eastern chef',
+    role: 'Independent partner chef',
     cuisine: 'Arabic & Levantine',
+    specialties: ['Arabic', 'Mezze', 'Grilled meats'],
     experience: '14+ years',
     image: '/images/arabic-catering-dubai-hero.webp',
     href: '/chefs/layla-middle-eastern-chef',
   },
   {
     name: 'Sofia Moretti',
-    role: 'Pastry chef',
+    role: 'Independent partner chef',
     cuisine: 'Patisserie & dessert design',
+    specialties: ['Pastry', 'Chocolate', 'Plated desserts'],
     experience: '12+ years',
     image: '/team-pastry-chef.webp',
     href: '/chefs/sofia-pastry-chef',
