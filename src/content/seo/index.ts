@@ -20,6 +20,11 @@ export interface SeoImage {
   role?: 'hero' | 'inline'
   width?: number
   height?: number
+  /** When set, the figure is placed after this H2 instead of even-spacing through the body. */
+  after_heading?: string
+  caption?: string
+  /** HTML list under the figure — used for inclusions/price bands that must not live in the pixels. */
+  inclusions?: string[]
 }
 
 export interface SeoFaq {

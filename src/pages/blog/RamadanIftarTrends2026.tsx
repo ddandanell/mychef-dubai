@@ -11,6 +11,8 @@ import BlogRelated from '../../components/BlogRelated'
 import TrustSignalStrip from '../../components/TrustSignalStrip'
 import KeyFactsBox from '../../components/KeyFactsBox'
 import SourcesBlock from '../../components/SourcesBlock'
+import ArticleToc from '../../components/ArticleToc'
+import BlogFigure from '../../components/BlogFigure'
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I read your Ramadan Iftar trends blog and would like a custom Iftar proposal (via mychef.ae/blog/ramadan-iftar-catering-trends-2026)')
@@ -101,7 +103,7 @@ export default function RamadanIftarTrends2026() {
         title="Ramadan Iftar Catering Trends 2026"
         description="Discover the Ramadan Iftar catering trends shaping Dubai in 2026, from grazing-style tables and modern Emirati dishes to sustainable sourcing and more."
         canonicalPath={`/blog/${SLUG}`}
-        ogImage="/images/ramadan-iftar-catering-dubai-hero.webp"
+        ogImage="/images/blog/ramadan-iftar-catering-trends-2026-hero.webp"
         schema={schema}
       />
 
@@ -110,7 +112,7 @@ export default function RamadanIftarTrends2026() {
         eyebrow="Ramadan 2026"
         title="Ramadan Iftar Catering Trends for 2026"
         subtitle="What Dubai hosts are requesting this Holy Month — and how to design an Iftar that feels generous, modern, and deeply memorable."
-        image="/images/ramadan-iftar-catering-dubai-hero.webp"
+        image="/images/blog/ramadan-iftar-catering-trends-2026-hero.webp"
         imageAlt="Ramadan Iftar catering trends Dubai 2026"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Blog', href: '/blog' }, { label: 'Ramadan Iftar Trends 2026' }]}
         minHeight="tall"
@@ -148,8 +150,9 @@ export default function RamadanIftarTrends2026() {
             </p>
           </section>
 
+          <ArticleToc />
           <section className="article-section opacity-0 translate-y-8 mb-12">
-            <h2 className="font-playfair text-h2 text-black mb-5">Modern Emirati Flavours with a Contemporary Touch</h2>
+            <h2 id="modern-emirati-flavours-with-a-contemporary-touch" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">Modern Emirati Flavours with a Contemporary Touch</h2>
             <h3 className="font-playfair text-h3 text-black mb-3">Reinterpreting classic dishes</h3>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
               This year, hosts are requesting Emirati staples — lamb ouzi, harees, machboos, and balaleet — presented in lighter, more refined formats. Think mini ouzi portions, individually plated harees, or machboos served from live cooking stations where guests can choose their proteins and garnishes. The flavours remain authentic, but the presentation suits contemporary tables.
@@ -161,7 +164,7 @@ export default function RamadanIftarTrends2026() {
           </section>
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
-            <h2 className="font-playfair text-h2 text-black mb-5">Sustainable, Seasonal Sourcing</h2>
+            <h2 id="sustainable-seasonal-sourcing" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">Sustainable, Seasonal Sourcing</h2>
             <h3 className="font-playfair text-h3 text-black mb-3">Reducing waste without reducing generosity</h3>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
               Large Iftar spreads have historically produced significant food waste. In 2026, caterers are designing menus around accurate headcounts, offering portion-controlled live stations, and donating untouched surplus through local food-sharing platforms. Guests still leave satisfied; hosts leave with a clearer conscience.
@@ -173,17 +176,26 @@ export default function RamadanIftarTrends2026() {
           </section>
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
-            <h2 className="font-playfair text-h2 text-black mb-5">Grazing and Sharing-Style Iftar Tables</h2>
+            <h2 id="grazing-and-sharing-style-iftar-tables" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">Grazing and Sharing-Style Iftar Tables</h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
               The traditional long buffet is being reimagined as a series of styled grazing tables. Separate stations for salads, hot mains, breads, and desserts allow guests to move at their own pace and reduce bottlenecks. This format also photographs beautifully, which matters when many hosts share their events online.
             </p>
             <p className="font-inter text-body text-gray-500 leading-relaxed">
               Sharing-style service is particularly effective for mixed groups where some guests prefer light salads while others want a full hot meal. It offers flexibility without the formality of plated courses.
             </p>
+            <BlogFigure
+              image={{
+                src: '/images/blog/ramadan-iftar-catering-trends-2026-2.webp',
+                alt: 'Late-night suhoor table with coffee and light bites after midnight',
+                width: 1920,
+                height: 1280,
+                caption: 'Suhoor is a different meal and a different clock. The team is still there after midnight.',
+              }}
+            />
           </section>
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
-            <h2 className="font-playfair text-h2 text-black mb-5">Mocktails and Hydration-First Beverage Menus</h2>
+            <h2 id="mocktails-and-hydration-first-beverage-menus" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">Mocktails and Hydration-First Beverage Menus</h2>
             <h3 className="font-playfair text-h3 text-black mb-3">Beyond juice jugs</h3>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
               Iftar drinks are becoming more sophisticated. Rose-water lemonades, date smoothies, sparkling pomegranate spritzers, and cardamom iced coffee are appearing alongside traditional jallab and tamarind. Beverage stations are often staffed so guests receive a fresh pour rather than helping themselves from large dispensers.
@@ -192,10 +204,19 @@ export default function RamadanIftarTrends2026() {
             <p className="font-inter text-body text-gray-500 leading-relaxed">
               Smart hosts now provide water and electrolyte-rich options not only at Iftar but also throughout the evening. This is especially appreciated at corporate events where guests may return to work or evening engagements.
             </p>
+            <BlogFigure
+              image={{
+                src: '/images/blog/ramadan-iftar-catering-trends-2026-3.webp',
+                alt: 'Mocktail and water station at an iftar, citrus and jugs, no alcohol',
+                width: 1920,
+                height: 1280,
+                caption: 'Drinks at iftar are hydration first. Juice, water, citrus — not a bar as the product.',
+              }}
+            />
           </section>
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
-            <h2 className="font-playfair text-h2 text-black mb-5">Smarter Ordering and Dietary Planning</h2>
+            <h2 id="smarter-ordering-and-dietary-planning" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">Smarter Ordering and Dietary Planning</h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
               Technology is making Ramadan catering easier. Online pre-ordering, digital dietary forms, and guest-specific labels help kitchens plan accurately and avoid cross-contamination. Vegetarian, vegan, gluten-free, and nut-free options are no longer afterthoughts; they are built into the menu from the start.
             </p>
@@ -213,7 +234,7 @@ export default function RamadanIftarTrends2026() {
           />
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
-            <h2 className="font-playfair text-h2 text-black mb-5">Planning Your Iftar with myCHEF Dubai</h2>
+            <h2 id="planning-your-iftar-with-mychef-dubai" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">Planning Your Iftar with myCHEF Dubai</h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
               Our <Link to="/ramadan-catering-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-4">Ramadan catering service in Dubai</Link> is designed around the rhythm of the Holy Month. We handle halal menus, live cooking stations, timed service around prayer schedules, and full setup and clear-down so you can focus on your guests.
             </p>

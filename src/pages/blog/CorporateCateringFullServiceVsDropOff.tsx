@@ -11,6 +11,8 @@ import BlogRelated from '../../components/BlogRelated'
 import TrustSignalStrip from '../../components/TrustSignalStrip'
 import KeyFactsBox from '../../components/KeyFactsBox'
 import SourcesBlock from '../../components/SourcesBlock'
+import ArticleToc from '../../components/ArticleToc'
+import BlogFigure from '../../components/BlogFigure'
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I read your corporate catering comparison blog and would like a proposal (via mychef.ae/blog/corporate-catering-full-service-vs-drop-off)')
@@ -112,7 +114,7 @@ export default function CorporateCateringFullServiceVsDropOff() {
         title="Corporate Catering: Full-Service vs Drop-Off"
         description="Compare drop-off and fully-coordinated catering by cost, setup, staffing, and guest experience so you can choose the right format."
         canonicalPath={`/blog/${SLUG}`}
-        ogImage="/images/corporate-catering-dubai-hero.webp"
+        ogImage="/images/blog/corporate-catering-full-service-vs-drop-off-hero.webp"
         schema={schema}
       />
 
@@ -121,7 +123,7 @@ export default function CorporateCateringFullServiceVsDropOff() {
         eyebrow="Corporate Catering"
         title="Corporate Catering: Full-Service vs Drop-Off"
         subtitle="Understand the difference between drop-off and fully-coordinated catering so you can choose the right format for your office or event."
-        image="/images/corporate-catering-dubai-hero.webp"
+        image="/images/blog/corporate-catering-full-service-vs-drop-off-hero.webp"
         imageAlt="Corporate catering full service vs drop off Dubai"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Blog', href: '/blog' }, { label: 'Full-Service vs Drop-Off' }]}
         minHeight="tall"
@@ -159,8 +161,9 @@ export default function CorporateCateringFullServiceVsDropOff() {
             </p>
           </section>
 
+          <ArticleToc />
           <section className="article-section opacity-0 translate-y-8 mb-12">
-            <h2 className="font-playfair text-h2 text-black mb-5">What Is Drop-Off Catering?</h2>
+            <h2 id="what-is-drop-off-catering" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">What Is Drop-Off Catering?</h2>
             <h3 className="font-playfair text-h3 text-black mb-3">Simple, efficient, and budget-friendly</h3>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
               Drop-off catering delivers prepared food to your office or venue in disposable or returnable trays. Your team sets it out, guests serve themselves, and you handle the clean-up. It is the most straightforward option for working lunches, training sessions, and casual team meetings.
@@ -172,7 +175,7 @@ export default function CorporateCateringFullServiceVsDropOff() {
           </section>
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
-            <h2 className="font-playfair text-h2 text-black mb-5">What Is fully-coordinated catering?</h2>
+            <h2 id="what-is-fully-coordinated-catering" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">What Is fully-coordinated catering?</h2>
             <h3 className="font-playfair text-h3 text-black mb-3">Everything handled for you</h3>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
               fully-coordinated catering includes delivery, set-up, on-site service staff, replenishment during the event, clear-down, and often tableware, linens, and styling. The catering team remains on site throughout the meal, allowing your employees to focus on the meeting or event.
@@ -181,10 +184,19 @@ export default function CorporateCateringFullServiceVsDropOff() {
             <p className="font-inter text-body text-gray-500 leading-relaxed">
               Choose full-service for client-facing events, board meetings, award ceremonies, product launches, and any occasion where presentation and guest experience matter. It is also the right choice when no one on your team has time to manage catering logistics.
             </p>
+            <BlogFigure
+              image={{
+                src: '/images/blog/corporate-catering-full-service-vs-drop-off-2.webp',
+                alt: 'Staffed office buffet with servers behind the line',
+                width: 1920,
+                height: 1280,
+                caption: 'Full service is people on site: servers, replenishment, clear-down. That labour is the price gap.',
+              }}
+            />
           </section>
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
-            <h2 className="font-playfair text-h2 text-black mb-5">Head-to-Head Comparison</h2>
+            <h2 id="head-to-head-comparison" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">Head-to-Head Comparison</h2>
             <div className="overflow-x-auto">
               <table className="w-full min-w-[500px] border-collapse">
                 <thead>
@@ -220,17 +232,26 @@ export default function CorporateCateringFullServiceVsDropOff() {
           </section>
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
-            <h2 className="font-playfair text-h2 text-black mb-5">Budget Beyond the Menu</h2>
+            <h2 id="budget-beyond-the-menu" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">Budget Beyond the Menu</h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
               When comparing quotes, look at the total cost rather than the per-head food price. Drop-off may seem cheaper, but if you need to buy disposables, assign staff to set up, or lose productivity managing logistics, the savings shrink. Full-service includes these elements upfront and usually delivers a smoother experience.
             </p>
             <p className="font-inter text-body text-gray-500 leading-relaxed">
               Consider your event goals. A working lunch for the internal team may not justify full-service, while a board dinner for investors almost certainly does. The right choice is the one that matches your objectives, not just your budget.
             </p>
+            <BlogFigure
+              image={{
+                src: '/images/blog/corporate-catering-full-service-vs-drop-off-3.webp',
+                alt: 'Extra servers putting on aprons in an office pantry before service',
+                width: 1920,
+                height: 1280,
+                caption: 'The extra cost is often two more people in the pantry, not a more expensive sandwich.',
+              }}
+            />
           </section>
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
-            <h2 className="font-playfair text-h2 text-black mb-5">Dietary Requirements and Dietary Labels</h2>
+            <h2 id="dietary-requirements-and-dietary-labels" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">Dietary Requirements and Dietary Labels</h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
               Both formats can accommodate dietary needs, but fully-coordinated catering makes it easier to manage allergens and preferences in real time. Staff can guide guests, keep vegetarian and halal options separate, and replenish dishes that run low. For drop-off, clear labelling and separate packaging are essential.
             </p>
@@ -248,7 +269,7 @@ export default function CorporateCateringFullServiceVsDropOff() {
           />
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
-            <h2 className="font-playfair text-h2 text-black mb-5">Corporate Catering with myCHEF Dubai</h2>
+            <h2 id="corporate-catering-with-mychef-dubai" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">Corporate Catering with myCHEF Dubai</h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
               Our <Link to="/corporate" className="text-gold hover:text-gold-light transition-colors underline underline-offset-4">corporate catering service in Dubai</Link> offers both drop-off and full-service options. We work with your office, venue, and schedule to recommend the format that best fits your event, headcount, and budget.
             </p>

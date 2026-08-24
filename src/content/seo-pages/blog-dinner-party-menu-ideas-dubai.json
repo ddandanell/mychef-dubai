@@ -242,24 +242,29 @@
  "images": [
   {
    "src": "/images/blog/dinner-party-menu-ideas-dubai-hero.webp",
-   "alt": "Dinner party menu ideas dubai — myCHEF Dubai private chef and catering",
+   "alt": "Host and chef tasting small sample dishes to decide a dinner-party menu",
    "role": "hero",
-   "width": 1280,
-   "height": 720
+   "width": 1920,
+   "height": 1080,
+   "caption": "Menu first: a host and chef tasting samples in the afternoon, before anyone sits down."
   },
   {
    "src": "/images/blog/dinner-party-menu-ideas-dubai-2.webp",
-   "alt": "Dinner party menu ideas dubai — table and food setup",
+   "alt": "Three courses in different states on a home kitchen island during service",
    "role": "inline",
-   "width": 1280,
-   "height": 720
+   "width": 1920,
+   "height": 1280,
+   "after_heading": "A three-course dinner party menu that works",
+   "caption": "A working three-course pass: starter leaving, main still on the hob, dessert waiting."
   },
   {
    "src": "/images/blog/dinner-party-menu-ideas-dubai-3.webp",
-   "alt": "Dinner party menu ideas dubai — guests dining at home in Dubai",
+   "alt": "Chef finishing a sharing showpiece at the end of a dining table",
    "role": "inline",
-   "width": 1280,
-   "height": 720
+   "width": 1920,
+   "height": 1080,
+   "after_heading": "Add one showpiece",
+   "caption": "One showpiece is enough. The rest of the menu can stay simple."
   }
  ]
 }

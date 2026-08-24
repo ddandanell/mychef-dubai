@@ -217,31 +217,29 @@
  "images": [
   {
    "src": "/images/blog/desert-dinner-party-dubai-hero.webp",
-   "alt": "Desert dinner party Dubai long table on the dunes at golden hour, luxury desert dinner Dubai",
+   "alt": "Guests walking a dune toward a small desert dining table at sunset",
    "role": "hero",
-   "width": 1280,
-   "height": 720
+   "width": 1920,
+   "height": 1080,
+   "caption": "A desert dinner starts with the site. The table is small on purpose."
   },
   {
    "src": "/images/blog/desert-dinner-party-dubai-2.webp",
-   "alt": "Desert dinner party Dubai: Desert BBQ catering Dubai: open charcoal grill in the dunes at dusk",
+   "alt": "Chef at a wind-protected desert grill with guests at a distance",
    "role": "inline",
-   "width": 1280,
-   "height": 720
+   "width": 1920,
+   "height": 1280,
+   "after_heading": "What can be cooked out there",
+   "caption": "What can actually be cooked: a stable grill, a wind break, no theatre fire."
   },
   {
    "src": "/images/blog/desert-dinner-party-dubai-3.webp",
-   "alt": "Desert dinner party Dubai: Private dinner in the desert Dubai majlis under the stars after the meal",
+   "alt": "Licensed desert camp setup: crates, generator screen, staff unfolding a table",
    "role": "inline",
-   "width": 1280,
-   "height": 720
-  },
-  {
-   "src": "/images/blog/desert-dinner-party-dubai-4.webp",
-   "alt": "Desert dinner party Dubai: Luxury desert dinner Dubai plated private table with lanterns after sunset",
-   "role": "inline",
-   "width": 1280,
-   "height": 720
+   "width": 1920,
+   "height": 1280,
+   "after_heading": "The three kinds of desert ground",
+   "caption": "Licensed ground looks like operations: crates, power, a table you can take down."
   }
  ]
 }

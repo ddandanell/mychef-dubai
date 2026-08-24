@@ -11,6 +11,8 @@ import BlogRelated from '../../components/BlogRelated'
 import TrustSignalStrip from '../../components/TrustSignalStrip'
 import KeyFactsBox from '../../components/KeyFactsBox'
 import SourcesBlock from '../../components/SourcesBlock'
+import ArticleToc from '../../components/ArticleToc'
+import BlogFigure from '../../components/BlogFigure'
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I read your Halal Private Dining in Dubai blog and would like a custom quote (via mychef.ae/blog/halal-private-dining-dubai-what-to-ask)')
@@ -101,7 +103,7 @@ export default function HalalPrivateDiningDubaiWhatToAsk() {
         title="Halal Private Dining Dubai: What to Ask"
         description="A guide for Dubai hosts booking halal private dining: certification, cross-contamination, alcohol policy, sourcing, and indicative costs."
         canonicalPath={`/blog/${SLUG}`}
-        ogImage="/images/halal-catering-dubai-hero.webp"
+        ogImage="/images/blog/halal-private-dining-dubai-what-to-ask-hero.webp"
         schema={schema}
       />
 
@@ -110,7 +112,7 @@ export default function HalalPrivateDiningDubaiWhatToAsk() {
         eyebrow="Halal"
         title="Halal Private Dining in Dubai: What to Ask Before You Book"
         subtitle="The questions every host should ask to ensure a fully halal, stress-free private dining experience at home or in a villa."
-        image="/images/halal-catering-dubai-hero.webp"
+        image="/images/blog/halal-private-dining-dubai-what-to-ask-hero.webp"
         imageAlt="Halal private dining setup in Dubai"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Blog', href: '/blog' }, { label: 'Halal Private Dining Dubai' }]}
         minHeight="tall"
@@ -148,8 +150,9 @@ export default function HalalPrivateDiningDubaiWhatToAsk() {
             </p>
           </section>
 
+          <ArticleToc />
           <section className="article-section opacity-0 translate-y-8 mb-12">
-            <h2 className="font-playfair text-h2 text-black mb-5">What Does Halal Private Dining Actually Mean?</h2>
+            <h2 id="what-does-halal-private-dining-actually-mean" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">What Does Halal Private Dining Actually Mean?</h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
               At its core, halal private dining means every dish is prepared, handled, and served in line with Islamic dietary law. That usually includes halal-certified meat and poultry, the absence of pork and non-halal animal by-products, and careful attention to alcohol, cross-contamination, and overall kitchen hygiene.
             </p>
@@ -159,7 +162,7 @@ export default function HalalPrivateDiningDubaiWhatToAsk() {
           </section>
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
-            <h2 className="font-playfair text-h2 text-black mb-5">1. Where Do You Source Meat and Poultry?</h2>
+            <h2 id="1-where-do-you-source-meat-and-poultry" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">1. Where Do You Source Meat and Poultry?</h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
               The starting point for any halal menu is the protein. Ask whether the chef buys from a UAE-approved halal supplier, whether certificates can be shown on request, and whether all meat, poultry, and processed items such as sausages, deli cuts, or stocks are halal-certified.
             </p>
@@ -169,17 +172,26 @@ export default function HalalPrivateDiningDubaiWhatToAsk() {
           </section>
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
-            <h2 className="font-playfair text-h2 text-black mb-5">2. How Do You Handle Cross-Contamination?</h2>
+            <h2 id="2-how-do-you-handle-cross-contamination" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">2. How Do You Handle Cross-Contamination?</h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
               Cross-contamination is one of the most common concerns for hosts who want a fully halal meal. In a home kitchen, this means more than avoiding pork; it includes separating knives, boards, pans, oils, and marinades that may have touched non-halal foods.
             </p>
             <p className="font-inter text-body text-gray-500 leading-relaxed">
               A professional <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef in Dubai</Link> should arrive with a clear prep plan, sanitise surfaces before starting, and use separate utensils for halal proteins. If your kitchen is shared or has been used for non-halal cooking, mention this in advance so the chef can plan accordingly.
             </p>
+            <BlogFigure
+              image={{
+                src: '/images/blog/halal-private-dining-dubai-what-to-ask-2.webp',
+                alt: 'Separated chopping boards and a chef washing a knife in a home kitchen',
+                width: 1920,
+                height: 1280,
+                caption: 'Ask how boards, knives and pans are kept apart. The answer should look like this, not a certificate on the wall.',
+              }}
+            />
           </section>
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
-            <h2 className="font-playfair text-h2 text-black mb-5">3. What Is Your Alcohol Policy?</h2>
+            <h2 id="3-what-is-your-alcohol-policy" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">3. What Is Your Alcohol Policy?</h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
               Halal food must not be cooked with alcohol, and many hosts also prefer an alcohol-free event. Ask whether the chef uses wine, spirits, or beer in any sauces, desserts, or reductions. Even trace amounts in a glaze or stock can affect the halal status of the dish.
             </p>
@@ -189,7 +201,7 @@ export default function HalalPrivateDiningDubaiWhatToAsk() {
           </section>
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
-            <h2 className="font-playfair text-h2 text-black mb-5">4. Can the Menu Be Customised for Dietary Needs?</h2>
+            <h2 id="4-can-the-menu-be-customised-for-dietary-needs" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">4. Can the Menu Be Customised for Dietary Needs?</h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
               A halal private dinner can easily be made gluten-free, dairy-free, nut-free, or vegan alongside halal proteins. The key is giving the chef a full list of allergies, intolerances, and strong preferences well ahead of the event.
             </p>
@@ -199,7 +211,7 @@ export default function HalalPrivateDiningDubaiWhatToAsk() {
           </section>
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
-            <h2 className="font-playfair text-h2 text-black mb-5">5. What Service Style and Staff Are Included?</h2>
+            <h2 id="5-what-service-style-and-staff-are-included" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">5. What Service Style and Staff Are Included?</h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
               Private dining is about more than the food. Ask whether the chef cooks and leaves, or whether service staff, table settings, plating, and clean-up are included. For formal dinners, you may want waiting staff; for intimate family meals, a single chef may be enough.
             </p>
@@ -209,7 +221,7 @@ export default function HalalPrivateDiningDubaiWhatToAsk() {
           </section>
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
-            <h2 className="font-playfair text-h2 text-black mb-5">Indicative Pricing for Halal Private Dining in Dubai</h2>
+            <h2 id="indicative-pricing-for-halal-private-dining-in-dubai" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">Indicative Pricing for Halal Private Dining in Dubai</h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
               Costs vary widely based on guest count, menu complexity, service style, and whether premium ingredients such as wagyu, fresh seafood, or truffle are included. The figures below are indicative and should be treated as a starting point, not a final quote.
             </p>
@@ -260,7 +272,7 @@ export default function HalalPrivateDiningDubaiWhatToAsk() {
           />
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
-            <h2 className="font-playfair text-h2 text-black mb-5">Final Checklist Before You Confirm</h2>
+            <h2 id="final-checklist-before-you-confirm" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">Final Checklist Before You Confirm</h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
               Before signing off, make sure you have written confirmation on the following points:
             </p>
@@ -279,7 +291,7 @@ export default function HalalPrivateDiningDubaiWhatToAsk() {
           </section>
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
-            <h2 className="font-playfair text-h2 text-black mb-5">Hosting Mixed Groups and Corporate Guests</h2>
+            <h2 id="hosting-mixed-groups-and-corporate-guests" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">Hosting Mixed Groups and Corporate Guests</h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
               Halal private dining is not limited to family celebrations. Corporate iftars, brand activations, yacht launches, and Eid gatherings often include guests from different backgrounds. A well-designed halal menu lets everyone eat from the same spread without anyone needing to ask awkward questions about ingredients.
             </p>
@@ -289,6 +301,15 @@ export default function HalalPrivateDiningDubaiWhatToAsk() {
             <p className="font-inter text-body text-gray-500 leading-relaxed">
               The goal is the same in every case: your guests should remember the flavours and the hospitality, not the logistics. Working with an experienced <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef</Link> or <Link to="/halal-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">halal catering</Link> partner makes that possible.
             </p>
+            <BlogFigure
+              image={{
+                src: '/images/blog/halal-private-dining-dubai-what-to-ask-3.webp',
+                alt: 'Mixed-group private dinner with water and juice on the table, no alcohol',
+                width: 1920,
+                height: 1280,
+                caption: 'A mixed table can still be fully halal. The drinks on the table are part of the answer.',
+              }}
+            />
           </section>
 
           <section className="article-section opacity-0 translate-y-8 mb-12">

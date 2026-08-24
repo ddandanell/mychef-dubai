@@ -196,24 +196,29 @@
  "images": [
   {
    "src": "/images/blog/private-chef-date-night-dubai-hero.webp",
-   "alt": "Date night ideas dubai — myCHEF Dubai private chef and catering",
+   "alt": "Dinner for two at home with the chef giving privacy from the kitchen",
    "role": "hero",
-   "width": 1280,
-   "height": 720
+   "width": 1920,
+   "height": 1080,
+   "caption": "Date night is two covers and a chef who stays out of the conversation."
   },
   {
    "src": "/images/blog/private-chef-date-night-dubai-2.webp",
-   "alt": "Date night ideas dubai — table and food setup",
+   "alt": "Two plated courses being set down for a date-night table",
    "role": "inline",
-   "width": 1280,
-   "height": 720
+   "width": 1920,
+   "height": 1280,
+   "after_heading": "What goes on the menu for a romantic dinner for two?",
+   "caption": "Two plates. That is the whole room."
   },
   {
    "src": "/images/blog/private-chef-date-night-dubai-3.webp",
-   "alt": "Date night ideas dubai — guests dining at home in Dubai",
+   "alt": "Indoor date-night table with curtains closed against Dubai heat",
    "role": "inline",
-   "width": 1280,
-   "height": 720
+   "width": 1920,
+   "height": 1280,
+   "after_heading": "Is a date night at home smarter in Dubai's summer?",
+   "caption": "In summer the smarter date night is indoors, with the heat left outside."
   }
  ]
 }

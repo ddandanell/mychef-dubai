@@ -6,6 +6,7 @@ import TrustSignalStrip from './TrustSignalStrip'
 import BlogRelated from './BlogRelated'
 import { getSeoContent, type SeoPage, type SeoImage } from '../content/seo'
 import { CONTEXTUAL_LINKS, pillarsFor, getPost } from '../content/blogTaxonomy'
+import BlogFigure from './BlogFigure'
 
 const WHATSAPP_LINK = 'https://wa.me/971551744849'
 const SITE = 'https://www.mychef.ae'
@@ -17,22 +18,33 @@ interface RenderedBlock {
   paragraphs: string[]
 }
 
-/** Editorial figure for blog imagery. The hero is eager + high priority (it is the LCP element). */
-function BlogFigure({ image, priority = false }: { image: SeoImage; priority?: boolean }) {
-  return (
-    <figure className="my-10 overflow-hidden rounded-2xl bg-gray-100">
-      <img
-        src={image.src}
-        alt={image.alt}
-        width={image.width}
-        height={image.height}
-        loading={priority ? 'eager' : 'lazy'}
-        decoding={priority ? 'sync' : 'async'}
-        fetchPriority={priority ? 'high' : 'auto'}
-        className="w-full h-auto object-cover"
-      />
-    </figure>
-  )
+/** Heading-locked figures first; leftover images keep the old even-spacing so other posts do not move. */
+function placeInlineImages(blocks: RenderedBlock[], inlineImages: SeoImage[]): Map<number, SeoImage> {
+  const byIndex = new Map<number, SeoImage>()
+  if (inlineImages.length === 0 || blocks.length === 0) return byIndex
+
+  const headingIndex = new Map(blocks.map((b, i) => [b.heading, i]))
+  const unplaced: SeoImage[] = []
+
+  for (const image of inlineImages) {
+    const locked = image.after_heading ? headingIndex.get(image.after_heading) : undefined
+    if (locked !== undefined) byIndex.set(locked, image)
+    else unplaced.push(image)
+  }
+
+  if (unplaced.length === 0) return byIndex
+
+  const step = Math.max(1, Math.floor(blocks.length / (unplaced.length + 1)))
+  let used = -1
+  unplaced.forEach((image, i) => {
+    let pos = Math.min(blocks.length - 1, (i + 1) * step - 1)
+    while (pos < blocks.length && (pos <= used || byIndex.has(pos))) pos += 1
+    if (pos >= blocks.length) return
+    byIndex.set(pos, image)
+    used = pos
+  })
+
+  return byIndex
 }
 
 const escapeRegExp = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
@@ -151,21 +163,11 @@ export default function HandoffPage() {
     ...(data.add_block ?? []).map((b) => ({ heading: b.new_heading, paragraphs: b.new_paragraphs })),
   ].filter((b) => Boolean(b.heading) && Array.isArray(b.paragraphs) && b.paragraphs.length > 0)
 
-  // Blog imagery: a hero figure at the top of the article, inline figures spread through the body.
+  // Blog imagery: a hero figure at the top of the article; inline figures follow after_heading when set.
   const images = data.images ?? []
   const heroImage = images.find((im) => im.role === 'hero') ?? null
   const inlineImages = images.filter((im) => im.role !== 'hero')
-  const imageAfterBlock = new Map<number, SeoImage>()
-  if (inlineImages.length > 0 && blocks.length > 0) {
-    const step = Math.max(1, Math.floor(blocks.length / (inlineImages.length + 1)))
-    let used = -1
-    inlineImages.forEach((im, i) => {
-      let pos = Math.min(blocks.length - 1, (i + 1) * step - 1)
-      if (pos <= used) pos = Math.min(blocks.length - 1, used + 1)
-      used = pos
-      imageAfterBlock.set(pos, im)
-    })
-  }
+  const imageAfterBlock = placeInlineImages(blocks, inlineImages)
 
   // Internal linking: contextual body links share one page-wide budget/state.
   const linkState: LinkState = { usedPhrases: new Set(), usedUrls: new Set(), budget: LINK_BUDGET }

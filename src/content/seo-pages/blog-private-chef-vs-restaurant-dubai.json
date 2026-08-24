@@ -231,24 +231,29 @@
  "images": [
   {
    "src": "/images/blog/private-chef-vs-restaurant-dubai-hero.webp",
-   "alt": "Private chef vs restaurant dubai — myCHEF Dubai private chef and catering",
+   "alt": "Host closing a glass door on a private home dinner while a chef works in the kitchen",
    "role": "hero",
-   "width": 1280,
-   "height": 720
+   "width": 1920,
+   "height": 1080,
+   "caption": "The case for a private chef: one table, no other diners, the evening stays in your house."
   },
   {
    "src": "/images/blog/private-chef-vs-restaurant-dubai-2.webp",
-   "alt": "Private chef vs restaurant dubai — table and food setup",
+   "alt": "Busy Dubai restaurant dining room with other tables and a host stand",
    "role": "inline",
-   "width": 1280,
-   "height": 720
+   "width": 1920,
+   "height": 1280,
+   "after_heading": "When a restaurant is the smarter call",
+   "caption": "A restaurant still wins when you want someone else’s room, no setup, and a kitchen that is already on."
   },
   {
    "src": "/images/blog/private-chef-vs-restaurant-dubai-3.webp",
-   "alt": "Private chef vs restaurant dubai — guests dining at home in Dubai",
+   "alt": "Chef packing leftover food into the host’s own fridge after a home dinner",
    "role": "inline",
-   "width": 1280,
-   "height": 720
+   "width": 1920,
+   "height": 1280,
+   "after_heading": "Private chef cost vs a restaurant, honestly",
+   "caption": "Money you do not see on a restaurant bill: leftovers go into your fridge, not a doggy bag you throw away."
   }
  ]
 }

@@ -155,7 +155,7 @@ export const BLOG_POSTS: BlogPost[] = [
     "title": "Ramadan Iftar Catering Trends for 2026",
     "excerpt": "From grazing-style Iftar tables to zero-waste menus and modern Emirati flavours, here is what is shaping Ramadan catering in Dubai this year.",
     "category": "Ramadan",
-    "image": "/images/ramadan-iftar-catering-dubai-hero.webp",
+    "image": "/images/blog/ramadan-iftar-catering-trends-2026-hero.webp",
     "hub": "seasonal",
     "date": "July 2026"
   },
@@ -164,7 +164,7 @@ export const BLOG_POSTS: BlogPost[] = [
     "title": "Yacht Party Menu Ideas in Dubai",
     "excerpt": "Plan a stylish, seaworthy menu for your next Dubai Marina or Palm Jumeirah cruise with canapés, fresh seafood, and desserts that travel well.",
     "category": "Yachts",
-    "image": "/images/yacht-catering-dubai-hero.webp",
+    "image": "/images/blog/yacht-party-menu-ideas-dubai-hero.webp",
     "hub": "outdoor",
     "date": "July 2026"
   },
@@ -173,7 +173,7 @@ export const BLOG_POSTS: BlogPost[] = [
     "title": "How Much Does a Private Chef Cost in Dubai?",
     "excerpt": "A practical breakdown of private chef pricing in Dubai, the factors that move the cost, and how to get an accurate quote for your dinner.",
     "category": "Private Chef",
-    "image": "/images/private-chef-dubai-hero.webp",
+    "image": "/images/blog/how-much-does-private-chef-cost-dubai-hero.webp",
     "hub": "private-chef",
     "date": "July 2026"
   },
@@ -182,7 +182,7 @@ export const BLOG_POSTS: BlogPost[] = [
     "title": "Corporate Catering: Full-Service vs Drop-Off",
     "excerpt": "Compare drop-off and fully-coordinated catering by cost, setup, staffing, and guest experience so you can choose the right format.",
     "category": "Corporate",
-    "image": "/images/corporate-catering-dubai-hero.webp",
+    "image": "/images/blog/corporate-catering-full-service-vs-drop-off-hero.webp",
     "hub": "corporate",
     "date": "July 2026"
   },
@@ -191,7 +191,7 @@ export const BLOG_POSTS: BlogPost[] = [
     "title": "Weekly Meal Prep vs Hiring a Full-Time Chef in Dubai",
     "excerpt": "Compare weekly meal prep services and full-time private chefs in Dubai by cost, flexibility, vetting, and lifestyle fit so you can choose the right option.",
     "category": "Meal Prep",
-    "image": "/images/weekly-meal-prep-dubai-hero.webp",
+    "image": "/images/blog/weekly-meal-prep-vs-full-time-chef-dubai-hero.webp",
     "hub": "private-chef",
     "date": "July 2026"
   },
@@ -200,7 +200,7 @@ export const BLOG_POSTS: BlogPost[] = [
     "title": "Best Private Chef Birthday Dinner in Dubai: Menu Ideas, Costs & How to Book",
     "excerpt": "Plan a private chef birthday dinner in Dubai with menu ideas, indicative costs, booking tips, and answers to the most common host questions.",
     "category": "Birthday",
-    "image": "/images/birthday-catering-dubai-hero.webp",
+    "image": "/images/blog/best-private-chef-birthday-dinner-dubai-hero.webp",
     "hub": "celebrations",
     "date": "July 2026"
   },
@@ -209,7 +209,7 @@ export const BLOG_POSTS: BlogPost[] = [
     "title": "Private Chef Palm Jumeirah: A Complete Guide to Dining at Home",
     "excerpt": "A practical guide to hiring a private chef in Palm Jumeirah, covering menus, service styles, indicative pricing, and how to book a curated dining experience at home.",
     "category": "Private Chef",
-    "image": "/images/luxury-dining-dubai-hero.webp",
+    "image": "/images/blog/private-chef-palm-jumeirah-guide-hero.webp",
     "hub": "private-chef",
     "date": "July 2026"
   },
@@ -218,7 +218,7 @@ export const BLOG_POSTS: BlogPost[] = [
     "title": "Halal Private Dining in Dubai: What to Ask Before You Book",
     "excerpt": "A practical guide for Dubai hosts booking halal private dining, covering certification, cross-contamination, alcohol policy, sourcing, and indicative costs.",
     "category": "Halal",
-    "image": "/images/halal-catering-dubai-hero.webp",
+    "image": "/images/blog/halal-private-dining-dubai-what-to-ask-hero.webp",
     "hub": "menus-dietary",
     "date": "July 2026"
   }

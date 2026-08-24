@@ -216,24 +216,29 @@
  "images": [
   {
    "src": "/images/blog/grazing-table-vs-buffet-dubai-hero.webp",
-   "alt": "Grazing table vs buffet dubai — myCHEF Dubai private chef and catering",
+   "alt": "Guests standing and talking around a grazing table in a villa lounge",
    "role": "hero",
-   "width": 1280,
-   "height": 720
+   "width": 1920,
+   "height": 1080,
+   "caption": "A grazing table is for mingling. People stand. The table is the centrepiece."
   },
   {
    "src": "/images/blog/grazing-table-vs-buffet-dubai-2.webp",
-   "alt": "Grazing table vs buffet dubai — table and food setup",
+   "alt": "Guests in a short queue at a real villa buffet line",
    "role": "inline",
-   "width": 1280,
-   "height": 720
+   "width": 1920,
+   "height": 1280,
+   "after_heading": "What is a buffet, and when does it win?",
+   "caption": "A buffet is a meal in a line. Different furniture, different hunger."
   },
   {
    "src": "/images/blog/grazing-table-vs-buffet-dubai-3.webp",
-   "alt": "Grazing table vs buffet dubai — guests dining at home in Dubai",
+   "alt": "Staff swapping a warm grazing board in the shade with ice bowls",
    "role": "inline",
-   "width": 1280,
-   "height": 720
+   "width": 1920,
+   "height": 1280,
+   "after_heading": "Grazing table ideas that work in Dubai's climate",
+   "caption": "Dubai heat is an operations problem: ice, shade, and swapping boards."
   }
  ]
 }

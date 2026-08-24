@@ -217,24 +217,29 @@
  "images": [
   {
    "src": "/images/blog/corporate-event-catering-ideas-dubai-hero.webp",
-   "alt": "Corporate event catering ideas dubai — myCHEF Dubai private chef and catering",
+   "alt": "Office canapés after laptops have been stacked aside, server offering a tray",
    "role": "hero",
-   "width": 1280,
-   "height": 720
+   "width": 1920,
+   "height": 1080,
+   "caption": "Corporate food happens after the devices are put away. Never on the keyboard."
   },
   {
    "src": "/images/blog/corporate-event-catering-ideas-dubai-2.webp",
-   "alt": "Corporate event catering ideas dubai — table and food setup",
+   "alt": "Drop-off lunch boxes being opened on a cleared Dubai meeting table",
    "role": "inline",
-   "width": 1280,
-   "height": 720
+   "width": 1920,
+   "height": 1280,
+   "after_heading": "Office catering ideas for team lunches and daily meetings",
+   "caption": "Team lunch: drop-off boxes on a cleared table, laptops on the side."
   },
   {
    "src": "/images/blog/corporate-event-catering-ideas-dubai-3.webp",
-   "alt": "Corporate event catering ideas dubai — guests dining at home in Dubai",
+   "alt": "Seated client dinner in a private dining room with a chef at the service door",
    "role": "inline",
-   "width": 1280,
-   "height": 720
+   "width": 1920,
+   "height": 1280,
+   "after_heading": "Client dinners, galas and company events",
+   "caption": "Client dinners are a different room and a different staff count."
   }
  ]
 }

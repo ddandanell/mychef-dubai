@@ -155,7 +155,7 @@
   {
    "new_heading": "Plan it with myCHEF",
    "new_paragraphs": [
-    "Ready to book, or want an exact quote for hiring a private chef in Dubai? Share your date, guest count and venue and we will match you to a vetted chef with a menu and an itemised price. Explore Private Chef , review Prices , or browse full-service catering in Dubai for larger events."
+    "Ready to book, or want an exact quote for hiring a private chef in Dubai? Share your date, guest count and venue and we will match you to a vetted chef with a menu and an itemised price. Explore our premium private chef services in Dubai, review our transparent private chef prices in Dubai, or browse full-service catering in Dubai for larger events."
    ],
    "insert_after_block": "How do you find the best private chef in Dubai?",
    "position": "after the block titled 'How do you find the best private chef in Dubai?'",
@@ -239,24 +239,55 @@
  "images": [
   {
    "src": "/images/blog/how-to-hire-a-private-chef-dubai-hero.webp",
-   "alt": "How to hire a private chef in dubai — myCHEF Dubai private chef and catering",
+   "alt": "Private chef dinner in a Dubai home: the host stays at the table while the chef finishes a plate at the island and a server pours water",
    "role": "hero",
-   "width": 1280,
-   "height": 720
+   "width": 1920,
+   "height": 1080,
+   "caption": "A private chef evening in a Dubai home: you stay with your guests while a small team runs the kitchen."
   },
   {
    "src": "/images/blog/how-to-hire-a-private-chef-dubai-2.webp",
-   "alt": "How to hire a private chef in dubai — table and food setup",
+   "alt": "Private chef and assistant preparing a Dubai home kitchen about two hours before guests arrive",
    "role": "inline",
-   "width": 1280,
-   "height": 720
+   "after_heading": "How to hire a private chef in Dubai, step by step",
+   "width": 1920,
+   "height": 1280,
+   "caption": "About two hours before service the kitchen is occupied: mise, kit, and a half-dressed table. No guests yet."
   },
   {
    "src": "/images/blog/how-to-hire-a-private-chef-dubai-3.webp",
-   "alt": "How to hire a private chef in dubai — guests dining at home in Dubai",
+   "alt": "Working kitchen still-life: knife roll, pans, sauce, cloths and a covered plate waiting for service",
    "role": "inline",
-   "width": 1280,
-   "height": 720
+   "after_heading": "How much does it cost to hire a private chef in Dubai?",
+   "width": 1200,
+   "height": 1600,
+   "caption": "What the per-head fee is paying for, physically — chef time, ingredients, kit, service and cleanup. Prices are not in the picture.",
+   "inclusions": [
+    "Chef time, sourcing and cooking",
+    "Table service and cleanup",
+    "From around AED 700 per person for a relaxed multi-course dinner",
+    "About AED 950 per person for premium plated menus",
+    "Fine-dining tasting from AED 1,400 per person",
+    "5% VAT shown as its own line"
+   ]
+  },
+  {
+   "src": "/images/blog/how-to-hire-a-private-chef-dubai-4.webp",
+   "alt": "Hired cook portioning a week of meals into containers in a Dubai apartment kitchen, household fridge open",
+   "role": "inline",
+   "after_heading": "Live-in and full-time private chefs in Dubai",
+   "width": 1920,
+   "height": 1080,
+   "caption": "Recurring booked cook / weekly meal prep. Not an employment placement, and not a live-in chef."
+  },
+  {
+   "src": "/images/blog/how-to-hire-a-private-chef-dubai-5.webp",
+   "alt": "Chef checking a probe thermometer in a pan while an assistant portions sauce in a home kitchen",
+   "role": "inline",
+   "after_heading": "Ask about food-safety certification before you book",
+   "width": 1920,
+   "height": 1280,
+   "caption": "A home kitchen is not municipally graded like a restaurant. Ask who holds current food-handler training and who is the Person in Charge."
   }
  ]
 }

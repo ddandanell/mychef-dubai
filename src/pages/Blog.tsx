@@ -58,7 +58,7 @@ export default function Blog() {
         title="Blog | Private Chef & Catering Insights"
         description="Expert tips, trends, and inspiration for private dining and luxury catering in Dubai."
         canonicalPath="/blog"
-        ogImage="/images/guides-hub-dubai-hero.webp"
+        ogImage="/images/mychef-dubai-blog-hero.webp"
         preloadHero="/images/mychef-dubai-blog-hero.webp"
         schema={schema}
       />
@@ -69,9 +69,9 @@ export default function Blog() {
         title="Private Chef & Catering Blog"
         subtitle="Expert tips, seasonal trends, and menu inspiration for private dining, yacht parties, Ramadan gatherings, and corporate events across Dubai."
         image="/images/mychef-dubai-blog-hero.webp"
-        imageAlt="Private chef plating seafood at a candlelit terrace table with the Dubai skyline at dusk"
-        imageWidth={1536}
-        imageHeight={1024}
+        imageAlt="Private chef evening in a Dubai villa: the host stays seated with guests while the culinary team finishes service"
+        imageWidth={1920}
+        imageHeight={1080}
         cta={{ label: 'Request a Custom Quote', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=blog' }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Blog' }]}
@@ -79,6 +79,9 @@ export default function Blog() {
         overlay="medium"
         imagePosition="center 40%"
       />
+      <p className="bg-cream text-center font-inter text-xs uppercase tracking-[0.14em] text-gray-400 py-3 border-b border-gray-200">
+        Experience concept shown
+      </p>
 
       {/* ═══════════════ Browse by Topic ═══════════════ */}
       <section className="bg-cream section-padding border-b border-gray-200">
@@ -141,7 +144,7 @@ export default function Blog() {
                 <div className="aspect-[16/9] overflow-hidden">
                   <img
                     src={post.image}
-                    alt={post.title}
+                    alt={`${post.title} — experience concept shown`}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                     loading="lazy"
                   />

@@ -235,17 +235,29 @@
  "images": [
   {
    "src": "/images/blog/how-far-ahead-book-caterer-dubai-hero.webp",
-   "alt": "How far in advance to book a caterer dubai — myCHEF Dubai private chef and catering",
+   "alt": "Chef and coordinator writing an unreadable schedule at a kitchen table",
    "role": "hero",
-   "width": 1280,
-   "height": 720
+   "width": 1920,
+   "height": 1080,
+   "caption": "Booking is a calendar problem before it is a menu problem."
   },
   {
    "src": "/images/blog/how-far-ahead-book-caterer-dubai-2.webp",
-   "alt": "How far in advance to book a caterer dubai — table and food setup",
+   "alt": "Busy catering kitchen the night before a large event",
    "role": "inline",
-   "width": 1280,
-   "height": 720
+   "width": 1920,
+   "height": 1280,
+   "after_heading": "Peak dates and seasonal demand",
+   "caption": "Peak dates look like this in the kitchen the night before. That is why they fill first."
+  },
+  {
+   "src": "/images/blog/how-far-ahead-book-caterer-dubai-3.webp",
+   "alt": "Chef loading insulated boxes into an unmarked car at dusk for a last-minute job",
+   "role": "inline",
+   "width": 1920,
+   "height": 1280,
+   "after_heading": "Can you arrange last-minute catering in Dubai?",
+   "caption": "Last-minute is possible for small jobs. It looks like a car, not a tasting menu."
   }
  ]
 }

@@ -11,6 +11,8 @@ import BlogRelated from '../../components/BlogRelated'
 import TrustSignalStrip from '../../components/TrustSignalStrip'
 import KeyFactsBox from '../../components/KeyFactsBox'
 import SourcesBlock from '../../components/SourcesBlock'
+import ArticleToc from '../../components/ArticleToc'
+import BlogFigure from '../../components/BlogFigure'
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I read your best private chef birthday dinner Dubai blog and would like a custom quote (via mychef.ae/blog/best-private-chef-birthday-dinner-dubai)')
@@ -101,7 +103,7 @@ export default function BestPrivateChefBirthdayDinnerDubai() {
         title="Best Private Chef Birthday Dinner Dubai"
         description="Plan a private chef birthday dinner in Dubai with menu ideas, indicative costs, booking tips, and answers to the most common host questions."
         canonicalPath={`/blog/${SLUG}`}
-        ogImage="/images/birthday-catering-dubai-hero.webp"
+        ogImage="/images/blog/best-private-chef-birthday-dinner-dubai-hero.webp"
         schema={schema}
       />
 
@@ -110,7 +112,7 @@ export default function BestPrivateChefBirthdayDinnerDubai() {
         eyebrow="Birthday"
         title="Best Private Chef Birthday Dinner in Dubai: Menu Ideas, Costs & How to Book"
         subtitle="How to host an unforgettable birthday dinner at home or in your villa with a private chef, from menu planning to final toast."
-        image="/images/birthday-catering-dubai-hero.webp"
+        image="/images/blog/best-private-chef-birthday-dinner-dubai-hero.webp"
         imageAlt="Private chef birthday dinner catering in Dubai"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Blog', href: '/blog' }, { label: 'Private Chef Birthday Dinner Dubai' }]}
         minHeight="tall"
@@ -148,8 +150,9 @@ export default function BestPrivateChefBirthdayDinnerDubai() {
             </p>
           </section>
 
+          <ArticleToc />
           <section className="article-section opacity-0 translate-y-8 mb-12">
-            <h2 className="font-playfair text-h2 text-black mb-5">Why Host a Birthday Dinner with a Private Chef?</h2>
+            <h2 id="why-host-a-birthday-dinner-with-a-private-chef" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">Why Host a Birthday Dinner with a Private Chef?</h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
               The best birthdays feel personal. A private chef gives you control over the atmosphere, the pacing, the music, and — most importantly — the food. You avoid parking stress, noise limits, and the awkwardness of splitting bills. Guests can move freely between indoor dining, poolside lounging, and terrace drinks while the kitchen runs quietly in the background.
             </p>
@@ -162,7 +165,7 @@ export default function BestPrivateChefBirthdayDinnerDubai() {
           </section>
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
-            <h2 className="font-playfair text-h2 text-black mb-5">Birthday Dinner Menu Ideas That Work in Dubai</h2>
+            <h2 id="birthday-dinner-menu-ideas-that-work-in-dubai" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">Birthday Dinner Menu Ideas That Work in Dubai</h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
               The ideal menu depends on the mood you want. For an elegant seated dinner, consider a three- or four-course menu: a light starter such as burrata with heirloom tomatoes or a delicate seafood carpaccio, a main of slow-cooked lamb, wagyu beef, or pan-seated sea bass, and a plated dessert with a birthday message.
             </p>
@@ -175,7 +178,7 @@ export default function BestPrivateChefBirthdayDinnerDubai() {
           </section>
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
-            <h2 className="font-playfair text-h2 text-black mb-5">Indicative Costs for a Private Chef Birthday Dinner</h2>
+            <h2 id="indicative-costs-for-a-private-chef-birthday-dinner" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">Indicative Costs for a Private Chef Birthday Dinner</h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
               Pricing varies by guest count, menu complexity, service style, and whether you add waiting staff or rentals. The figures below are indicative and meant to help you budget before requesting a tailored quote.
             </p>
@@ -225,7 +228,7 @@ export default function BestPrivateChefBirthdayDinnerDubai() {
           />
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
-            <h2 className="font-playfair text-h2 text-black mb-5">How to Book the Right Private Chef</h2>
+            <h2 id="how-to-book-the-right-private-chef" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">How to Book the Right Private Chef</h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
               Start by defining the basics: date, time, guest count, location, and budget. Then think about the experience you want. Is it a quiet candlelit dinner, a lively party, or something in between? Share any dietary needs, preferred cuisines, and must-have dishes upfront.
             </p>
@@ -238,7 +241,7 @@ export default function BestPrivateChefBirthdayDinnerDubai() {
           </section>
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
-            <h2 className="font-playfair text-h2 text-black mb-5">Dubai-Specific Considerations</h2>
+            <h2 id="dubai-specific-considerations" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">Dubai-Specific Considerations</h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
               Many Dubai birthday dinners happen in villas, penthouses, or on yachts, each with its own service constraints. Villa kitchens are usually well-equipped, but yacht galleys are compact, so menus must be designed for limited cooking space. If you are hosting outdoors in summer, consider timing the meal for after sunset and planning heat-friendly dishes.
             </p>
@@ -251,13 +254,22 @@ export default function BestPrivateChefBirthdayDinnerDubai() {
           </section>
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
-            <h2 className="font-playfair text-h2 text-black mb-5">Making the Evening Memorable</h2>
+            <h2 id="making-the-evening-memorable" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">Making the Evening Memorable</h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
               The little touches matter. A personalised menu card at each seat, a signature mocktail named after the guest of honour, a surprise dessert course with candles, or a midnight snack box for guests to take home all elevate the experience.
             </p>
             <p className="font-inter text-body text-gray-500 leading-relaxed">
               Music, lighting, and table styling should match the menu. A formal plated dinner pairs with soft jazz and low lighting; a vibrant sharing feast suits upbeat playlists and colourful florals. Coordinate these details with your <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef in Dubai</Link> or event planner so the evening feels cohesive from start to finish.
             </p>
+            <BlogFigure
+              image={{
+                src: '/images/blog/best-private-chef-birthday-dinner-dubai-2.webp',
+                alt: 'Small birthday cake being cut as a plated course at a home table',
+                width: 1920,
+                height: 1280,
+                caption: 'The cake is a course, not a balloon wall. Keep it small enough to serve at the table.',
+              }}
+            />
           </section>
 
           <section className="article-section opacity-0 translate-y-8 mb-12">

@@ -11,6 +11,8 @@ import BlogRelated from '../../components/BlogRelated'
 import TrustSignalStrip from '../../components/TrustSignalStrip'
 import KeyFactsBox from '../../components/KeyFactsBox'
 import SourcesBlock from '../../components/SourcesBlock'
+import ArticleToc from '../../components/ArticleToc'
+import BlogFigure from '../../components/BlogFigure'
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I read your Private Chef Palm Jumeirah guide and would like a custom quote (via mychef.ae/blog/private-chef-palm-jumeirah-guide)')
@@ -101,7 +103,7 @@ export default function PrivateChefPalmJumeirahGuide() {
         title="Private Chef Palm Jumeirah: A Complete Guide"
         description="A practical guide to hiring a private chef in Palm Jumeirah, covering menus, service styles, indicative pricing, and how to book a curated dining."
         canonicalPath={`/blog/${SLUG}`}
-        ogImage="/images/luxury-dining-dubai-hero.webp"
+        ogImage="/images/blog/private-chef-palm-jumeirah-guide-hero.webp"
         schema={schema}
       />
 
@@ -110,7 +112,7 @@ export default function PrivateChefPalmJumeirahGuide() {
         eyebrow="Private Chef"
         title="Private Chef Palm Jumeirah: A Complete Guide to Dining at Home"
         subtitle="Everything Dubai hosts need to know about booking a private chef for a Palm Jumeirah villa, apartment, or yacht — from menus and pricing to service and clean-up."
-        image="/images/luxury-dining-dubai-hero.webp"
+        image="/images/blog/private-chef-palm-jumeirah-guide-hero.webp"
         imageAlt="Private chef dining experience in Palm Jumeirah, Dubai"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Blog', href: '/blog' }, { label: 'Private Chef Palm Jumeirah Guide' }]}
         minHeight="tall"
@@ -148,8 +150,9 @@ export default function PrivateChefPalmJumeirahGuide() {
             </p>
           </section>
 
+          <ArticleToc />
           <section className="article-section opacity-0 translate-y-8 mb-12">
-            <h2 className="font-playfair text-h2 text-black mb-5">Why Palm Jumeirah Hosts Hire Private Chefs</h2>
+            <h2 id="why-palm-jumeirah-hosts-hire-private-chefs" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">Why Palm Jumeirah Hosts Hire Private Chefs</h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
               Privacy is the most common reason. A villa on the fronds or an apartment with a marina view gives you a setting that no restaurant can replicate. Add a chef, and the evening becomes entirely yours: no reservations, no fixed closing times, and no shared dining room.
             </p>
@@ -162,7 +165,7 @@ export default function PrivateChefPalmJumeirahGuide() {
           </section>
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
-            <h2 className="font-playfair text-h2 text-black mb-5">What the Service Includes</h2>
+            <h2 id="what-the-service-includes" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">What the Service Includes</h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
               A private chef booking is more than cooking. The standard flow starts with a menu consultation, followed by grocery sourcing, in-home preparation, service, and post-meal kitchen clean-up. Most chefs arrive two to four hours before service, depending on the complexity of the menu.
             </p>
@@ -175,7 +178,7 @@ export default function PrivateChefPalmJumeirahGuide() {
           </section>
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
-            <h2 className="font-playfair text-h2 text-black mb-5">Indicative Pricing in Palm Jumeirah</h2>
+            <h2 id="indicative-pricing-in-palm-jumeirah" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">Indicative Pricing in Palm Jumeirah</h2>
             <div className="overflow-x-auto">
               <table className="w-full text-left border-collapse font-inter text-body-sm">
                 <thead>
@@ -228,7 +231,7 @@ export default function PrivateChefPalmJumeirahGuide() {
           />
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
-            <h2 className="font-playfair text-h2 text-black mb-5">How to Plan the Menu</h2>
+            <h2 id="how-to-plan-the-menu" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">How to Plan the Menu</h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
               Start with the occasion and the guests. A romantic dinner calls for a shorter, elegant menu with wine pairings. A family brunch benefits from generous sharing platters and lighter desserts. A birthday party may need canapés, a live station, and a plated cake service.
             </p>
@@ -241,7 +244,7 @@ export default function PrivateChefPalmJumeirahGuide() {
           </section>
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
-            <h2 className="font-playfair text-h2 text-black mb-5">Private Chefs for Yachts and Special Venues</h2>
+            <h2 id="private-chefs-for-yachts-and-special-venues" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">Private Chefs for Yachts and Special Venues</h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
               Palm Jumeirah residents do not always dine at home. Many prefer a private chef for a yacht departure from Dubai Marina or a beachside setup on the fronds. The same chef can often provision, pack, and serve meals in off-site locations, though logistics and transport time will affect the quote.
             </p>
@@ -254,7 +257,7 @@ export default function PrivateChefPalmJumeirahGuide() {
           </section>
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
-            <h2 className="font-playfair text-h2 text-black mb-5">One-Off Events vs Recurring Private Chef Service</h2>
+            <h2 id="one-off-events-vs-recurring-private-chef-service" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">One-Off Events vs Recurring Private Chef Service</h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
               One-off bookings work beautifully for celebrations, anniversaries, and guest arrivals. You get a restaurant-quality experience without leaving the house, and the chef takes care of every detail for that single evening.
             </p>
@@ -267,26 +270,44 @@ export default function PrivateChefPalmJumeirahGuide() {
           </section>
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
-            <h2 className="font-playfair text-h2 text-black mb-5">Booking and Preparation Tips</h2>
+            <h2 id="booking-and-preparation-tips" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">Booking and Preparation Tips</h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
               Book at least five to seven days ahead for a standard dinner, and two to four weeks ahead for peak weekends, holidays, or multi-day bookings. Confirm the number of guests, dietary requirements, and arrival time in writing.
             </p>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
               Make sure your kitchen has enough refrigerator space, a working oven and stovetop, and basic serving platters if the chef is not supplying them. If your building has access cards or parking restrictions, share those details in advance.
             </p>
+            <BlogFigure
+              image={{
+                src: '/images/blog/private-chef-palm-jumeirah-guide-2.webp',
+                alt: 'Chef carrying an unmarked bag from a car toward a Palm Jumeirah villa gate',
+                width: 1920,
+                height: 1280,
+                caption: 'On the Palm the first problem is access: gate, parking, and how the kit actually arrives.',
+              }}
+            />
             <p className="font-inter text-body text-gray-500 leading-relaxed">
               On the day, the chef will handle setup, cooking, service, and clean-up. You only need to greet your guests and enjoy the evening.
             </p>
           </section>
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
-            <h2 className="font-playfair text-h2 text-black mb-5">What to Expect on the Day</h2>
+            <h2 id="what-to-expect-on-the-day" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">What to Expect on the Day</h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
               The chef will arrive with ingredients and tools, confirm the final menu and timings, and begin prep. Depending on the service style, they may plate each course individually or arrange sharing dishes for the table. Service staff, if included, will refill drinks, clear plates, and reset between courses.
             </p>
             <p className="font-inter text-body text-gray-500 leading-relaxed">
               After the meal, the chef wipes down surfaces, washes equipment, packs leftovers into containers, and removes rubbish. Most hosts find their kitchen cleaner than when the chef arrived.
             </p>
+            <BlogFigure
+              image={{
+                src: '/images/blog/private-chef-palm-jumeirah-guide-3.webp',
+                alt: 'Chef plating in a Palm Jumeirah villa kitchen with the waterway beyond the glass',
+                width: 1920,
+                height: 1280,
+                caption: 'The kitchen on a frond villa looks out to water. That is the room the chef actually works in.',
+              }}
+            />
           </section>
 
           <section className="article-section opacity-0 translate-y-8 mb-12">

@@ -11,6 +11,8 @@ import BlogRelated from '../../components/BlogRelated'
 import TrustSignalStrip from '../../components/TrustSignalStrip'
 import KeyFactsBox from '../../components/KeyFactsBox'
 import SourcesBlock from '../../components/SourcesBlock'
+import ArticleToc from '../../components/ArticleToc'
+import BlogFigure from '../../components/BlogFigure'
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I read your weekly meal prep vs full-time chef blog and would like a custom quote (via mychef.ae/blog/weekly-meal-prep-vs-full-time-chef-dubai)')
@@ -101,7 +103,7 @@ export default function WeeklyMealPrepVsFullTimeChef() {
         title="Weekly Meal Prep vs Full-Time Chef Dubai"
         description="Compare weekly meal prep services and full-time private chefs in Dubai by cost, flexibility, vetting, and lifestyle fit so you can choose the right."
         canonicalPath={`/blog/${SLUG}`}
-        ogImage="/images/weekly-meal-prep-dubai-hero.webp"
+        ogImage="/images/blog/weekly-meal-prep-vs-full-time-chef-dubai-hero.webp"
         schema={schema}
       />
 
@@ -110,8 +112,8 @@ export default function WeeklyMealPrepVsFullTimeChef() {
         eyebrow="Meal Prep"
         title="Weekly Meal Prep vs Hiring a Full-Time Chef in Dubai"
         subtitle="Which option fits your lifestyle, budget, and household? A side-by-side comparison for Dubai families, couples, and busy professionals."
-        image="/images/weekly-meal-prep-dubai-hero.webp"
-        imageAlt="Weekly meal prep versus full-time private chef Dubai"
+        image="/images/blog/weekly-meal-prep-vs-full-time-chef-dubai-hero.webp"
+        imageAlt="Weekly meal prep versus full-time private chef in Dubai"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Blog', href: '/blog' }, { label: 'Meal Prep vs Full-Time Chef' }]}
         minHeight="tall"
         overlay="dark"
@@ -148,8 +150,9 @@ export default function WeeklyMealPrepVsFullTimeChef() {
             </p>
           </section>
 
+          <ArticleToc />
           <section className="article-section opacity-0 translate-y-8 mb-12">
-            <h2 className="font-playfair text-h2 text-black mb-5">Cost Comparison at a Glance</h2>
+            <h2 id="cost-comparison-at-a-glance" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">Cost Comparison at a Glance</h2>
             <div className="overflow-x-auto">
               <table className="w-full text-left border-collapse font-inter text-body-sm">
                 <thead>
@@ -202,7 +205,7 @@ export default function WeeklyMealPrepVsFullTimeChef() {
           />
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
-            <h2 className="font-playfair text-h2 text-black mb-5">How Weekly Meal Prep Works</h2>
+            <h2 id="how-weekly-meal-prep-works" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">How Weekly Meal Prep Works</h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
               A private chef arrives at your home for scheduled prep sessions — usually two per week — and prepares multiple meals in advance. Dishes are portioned, labelled, and stored in your refrigerator or freezer. You simply reheat and eat when it suits you.
             </p>
@@ -215,17 +218,26 @@ export default function WeeklyMealPrepVsFullTimeChef() {
           </section>
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
-            <h2 className="font-playfair text-h2 text-black mb-5">When a Full-Time Private Chef Makes Sense</h2>
+            <h2 id="when-a-full-time-private-chef-makes-sense" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">When a Full-Time Private Chef Makes Sense</h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
               A full-time chef becomes part of your household. They plan every meal, shop daily or weekly, cook fresh dishes throughout the day, and often manage the kitchen full time. This is the right choice if you entertain frequently, follow strict medical or performance diets, have a large family with unpredictable schedules, or simply prefer the convenience of on-call culinary staff.
             </p>
             <p className="font-inter text-body text-gray-500 leading-relaxed">
               The trade-off is cost and management. Beyond salary, you typically cover accommodation or transport allowance, health insurance, annual leave, visa sponsorship, and end-of-service benefits. You also become the employer, which brings legal and administrative responsibilities.
             </p>
+            <BlogFigure
+              image={{
+                src: '/images/blog/weekly-meal-prep-vs-full-time-chef-dubai-2.webp',
+                alt: 'Busy family breakfast table that a household is trying to keep up with',
+                width: 1920,
+                height: 1280,
+                caption: 'This scale of household morning is usually an employment question, not a weekly cook-day. myCHEF does not place live-in staff.',
+              }}
+            />
           </section>
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
-            <h2 className="font-playfair text-h2 text-black mb-5">Vetting, Insurance, and Peace of Mind</h2>
+            <h2 id="vetting-insurance-and-peace-of-mind" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">Vetting, Insurance, and Peace of Mind</h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
               Hiring a private chef directly means you are responsible for background checks, food-safety credentials, and liability coverage. Through a full-service company like myCHEF Dubai, chefs are auditioned in person, reference-checked, and verified for food-safety competency before they ever enter a client home. Every booking also includes our booking protection.
             </p>
@@ -235,7 +247,7 @@ export default function WeeklyMealPrepVsFullTimeChef() {
           </section>
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
-            <h2 className="font-playfair text-h2 text-black mb-5">Flexibility and Lifestyle Fit</h2>
+            <h2 id="flexibility-and-lifestyle-fit" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">Flexibility and Lifestyle Fit</h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
               Weekly meal prep is easy to pause, scale, or adjust. Going on holiday? Skip a week. Hosting a dinner party? Add a one-off private chef booking. The service flexes with your calendar.
             </p>
@@ -245,7 +257,7 @@ export default function WeeklyMealPrepVsFullTimeChef() {
           </section>
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
-            <h2 className="font-playfair text-h2 text-black mb-5">The Verdict</h2>
+            <h2 id="the-verdict" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">The Verdict</h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
               If you want fresh, personalised meals at home without the cost and complexity of full-time staff, <Link to="/weekly-meal-prep-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">weekly meal prep</Link> is the practical choice. It delivers roughly 80% of the benefit of a private chef at a fraction of the cost.
             </p>

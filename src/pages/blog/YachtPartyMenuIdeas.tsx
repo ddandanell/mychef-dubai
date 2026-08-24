@@ -11,6 +11,8 @@ import BlogRelated from '../../components/BlogRelated'
 import TrustSignalStrip from '../../components/TrustSignalStrip'
 import KeyFactsBox from '../../components/KeyFactsBox'
 import SourcesBlock from '../../components/SourcesBlock'
+import ArticleToc from '../../components/ArticleToc'
+import BlogFigure from '../../components/BlogFigure'
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I read your yacht party menu ideas blog and would like a custom yacht menu (via mychef.ae/blog/yacht-party-menu-ideas-dubai)')
@@ -101,7 +103,7 @@ export default function YachtPartyMenuIdeas() {
         title="Yacht Party Menu Ideas in Dubai"
         description="Plan a stylish, seaworthy menu for your next Dubai Marina or Palm Jumeirah cruise with canapés, fresh seafood, and desserts that travel well."
         canonicalPath={`/blog/${SLUG}`}
-        ogImage="/images/yacht-catering-dubai-hero.webp"
+        ogImage="/images/blog/yacht-party-menu-ideas-dubai-hero.webp"
         schema={schema}
       />
 
@@ -110,8 +112,8 @@ export default function YachtPartyMenuIdeas() {
         eyebrow="Yacht Catering"
         title="Yacht Party Menu Ideas in Dubai"
         subtitle="How to build a menu that looks elegant, travels well, and tastes incredible while cruising Dubai Marina or the Palm."
-        image="/images/yacht-catering-dubai-hero.webp"
-        imageAlt="Yacht party menu ideas Dubai"
+        image="/images/blog/yacht-party-menu-ideas-dubai-hero.webp"
+        imageAlt="Canapés being passed on a Dubai yacht deck at golden hour"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Blog', href: '/blog' }, { label: 'Yacht Party Menu Ideas' }]}
         minHeight="tall"
         overlay="dark"
@@ -148,8 +150,9 @@ export default function YachtPartyMenuIdeas() {
             </p>
           </section>
 
+          <ArticleToc />
           <section className="article-section opacity-0 translate-y-8 mb-12">
-            <h2 className="font-playfair text-h2 text-black mb-5">Plan Around the Yacht Environment</h2>
+            <h2 id="plan-around-the-yacht-environment" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">Plan Around the Yacht Environment</h2>
             <h3 className="font-playfair text-h3 text-black mb-3">Compact kitchens call for smart prep</h3>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
               Most yacht galleys are tight, so menus that can be largely prepared onshore and finished on the boat work best. Items that require extensive last-minute frying, baking, or elaborate assembly can slow service and fill the cabin with heat. Cold starters, pre-plated salads, and individually portioned desserts keep things efficient.
@@ -158,6 +161,15 @@ export default function YachtPartyMenuIdeas() {
             <p className="font-inter text-body text-gray-500 leading-relaxed">
               On a moving vessel, guests prefer food they can hold in one hand while holding a drink in the other. Canapés, skewers, mini cones, and grazing boxes eliminate the need for cutlery and reduce the risk of spills.
             </p>
+            <BlogFigure
+              image={{
+                src: '/images/blog/yacht-party-menu-ideas-dubai-2.webp',
+                alt: 'Chef finishing cold seafood in a compact yacht galley',
+                width: 1920,
+                height: 1280,
+                caption: 'Most of the work happens onshore. The galley is for finishing, not a full restaurant pass.',
+              }}
+            />
           </section>
 
           <SourcesBlock
@@ -169,7 +181,7 @@ export default function YachtPartyMenuIdeas() {
           />
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
-            <h2 className="font-playfair text-h2 text-black mb-5">Canapés and Handheld Starters</h2>
+            <h2 id="canap-s-and-handheld-starters" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">Canapés and Handheld Starters</h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
               Start the cruise with a selection of light, elegant bites. Tuna tartare on crispy wonton, prawn cocktail shots, mini lamb kofta with tahini, and whipped feta crostini all travel well and set a sophisticated tone. For vegetarian guests, consider beetroot cured salmon alternatives, halloumi skewers, and avocado mousse cups.
             </p>
@@ -179,7 +191,7 @@ export default function YachtPartyMenuIdeas() {
           </section>
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
-            <h2 className="font-playfair text-h2 text-black mb-5">Fresh Seafood and Light Mains</h2>
+            <h2 id="fresh-seafood-and-light-mains" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">Fresh Seafood and Light Mains</h2>
             <h3 className="font-playfair text-h3 text-black mb-3">Let the location inspire the menu</h3>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
               Dubai’s coastal setting makes seafood a natural choice. Grilled sea bass, citrus-cured hammour, king prawns with garlic butter, and sushi-grade tuna all feel right at home on a yacht. Keep sauces light and acidic rather than heavy, as rich dishes can feel overwhelming in the sun.
@@ -191,7 +203,7 @@ export default function YachtPartyMenuIdeas() {
           </section>
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
-            <h2 className="font-playfair text-h2 text-black mb-5">Salads and Sides That Travel Well</h2>
+            <h2 id="salads-and-sides-that-travel-well" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">Salads and Sides That Travel Well</h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
               Salads should be dressed just before serving to avoid wilting. Build-your-own grain bowls with quinoa, chickpeas, roasted peppers, and a choice of proteins are a practical middle ground between buffet and plated service. They give guests control while keeping portions manageable.
             </p>
@@ -201,7 +213,7 @@ export default function YachtPartyMenuIdeas() {
           </section>
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
-            <h2 className="font-playfair text-h2 text-black mb-5">Desserts and Sweet Finishes</h2>
+            <h2 id="desserts-and-sweet-finishes" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">Desserts and Sweet Finishes</h2>
             <h3 className="font-playfair text-h3 text-black mb-3">Avoid anything fragile or melty</h3>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
               Yacht desserts need to survive heat and movement. Mini fruit tarts, chocolate truffles, date-based bites, and individual panna cotta pots are safer choices than tall cakes or ice cream. A fresh fruit platter with passionfruit, mango, and berries adds colour and refreshment.
@@ -210,10 +222,19 @@ export default function YachtPartyMenuIdeas() {
             <p className="font-inter text-body text-gray-500 leading-relaxed">
               For birthdays or anniversaries, consider a pre-sliced cake served in individual boxes or a layered trifle in clear cups. This avoids the logistical challenge of cutting cake on a moving deck.
             </p>
+            <BlogFigure
+              image={{
+                src: '/images/blog/yacht-party-menu-ideas-dubai-3.webp',
+                alt: 'Individual heat-stable desserts in a chilled box on a yacht counter',
+                width: 1200,
+                height: 1600,
+                caption: 'Desserts that survive heat and movement: cups and tarts, not a tall cake.',
+              }}
+            />
           </section>
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
-            <h2 className="font-playfair text-h2 text-black mb-5">Beverages for the Marina</h2>
+            <h2 id="beverages-for-the-marina" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">Beverages for the Marina</h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
               Keep drinks light and hydrating. Sparkling water with citrus and herbs, iced hibiscus tea, fresh coconut water, and a signature mocktail served from a central dispenser all work well. If alcohol is permitted, a crisp rosé, sparkling wine, or curated gin and tonic bar are popular on sunset cruises.
             </p>
@@ -223,7 +244,7 @@ export default function YachtPartyMenuIdeas() {
           </section>
 
           <section className="article-section opacity-0 translate-y-8 mb-12">
-            <h2 className="font-playfair text-h2 text-black mb-5">Let myCHEF Dubai Handle the Details</h2>
+            <h2 id="let-mychef-dubai-handle-the-details" className="font-playfair text-h2 text-black mb-5 scroll-mt-28">Let myCHEF Dubai Handle the Details</h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
               Our <Link to="/yachts" className="text-gold hover:text-gold-light transition-colors underline underline-offset-4">yacht catering service in Dubai</Link> is built around the realities of cooking and serving at sea. We coordinate directly with your yacht crew, plan menus around galley capacity, and provide service staff who understand how to move safely on deck.
             </p>

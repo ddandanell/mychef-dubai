@@ -233,24 +233,29 @@
  "images": [
   {
    "src": "/images/blog/vegan-catering-dubai-guide-hero.webp",
-   "alt": "Vegan catering dubai — myCHEF Dubai private chef and catering",
+   "alt": "Chef finishing a vegetable-forward plate with real produce on the island",
    "role": "hero",
-   "width": 1280,
-   "height": 720
+   "width": 1920,
+   "height": 1080,
+   "caption": "Plant-based catering is a kitchen of vegetables, not a substitute-meat photoshoot."
   },
   {
    "src": "/images/blog/vegan-catering-dubai-guide-2.webp",
-   "alt": "Vegan catering dubai — table and food setup",
+   "alt": "Plant-based mise: herbs, peeled vegetables, grains and a roasting pan",
    "role": "inline",
-   "width": 1280,
-   "height": 720
+   "width": 1200,
+   "height": 1600,
+   "after_heading": "What goes on a vegan menu for a Dubai event?",
+   "caption": "The menu is produce, fire and sauce — this is the mise, not a slogan."
   },
   {
    "src": "/images/blog/vegan-catering-dubai-guide-3.webp",
-   "alt": "Vegan catering dubai — guests dining at home in Dubai",
+   "alt": "Vegan private chef cooking in a normal Dubai apartment kitchen",
    "role": "inline",
-   "width": 1280,
-   "height": 720
+   "width": 1920,
+   "height": 1280,
+   "after_heading": "Can a vegan private chef cook at my home or villa?",
+   "caption": "It happens in ordinary home kitchens, including apartments."
   }
  ]
 }
