@@ -17,3 +17,9 @@ dist
 # Local verification reports
 .superpowers/
 tmp/
+
+# Local tooling / skills (not part of the site)
+.claude/
+AGENTS.md
+docs/skills/
+skills/
