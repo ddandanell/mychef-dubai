@@ -127,18 +127,26 @@ export default function About() {
         description="Discover myCHEF Dubai — a private-dining house that designs bespoke dining experiences and brings you professional, licensed chefs across Dubai."
         canonicalPath="/about"
         ogImage="/team-head-chef.webp"
+        preloadHero="/images/mychef-dubai-about-team-hero.webp"
         schema={breadcrumbSchema}
       />
 
       {/* Section 1: Hero */}
       <PageHero
-        eyebrow="ABOUT US"
-        title="The Story Behind Every Exceptional Meal"
-        subtitle="Tell us your occasion and we will bring you a vetted chef within 24 hours."
-        image="/images/about-mychef-dubai-hero.webp"
-        imageAlt="myCHEF Dubai private dining experience"
-        minHeight="medium"
-        overlay="dark"
+        eyebrow="ABOUT MYCHEF"
+        title="Hiring a chef is the easy part."
+        subtitle="Keeping the standard, covering the day off, remembering how your household eats — that is the work. This is the team that does it, so you run a service, not a person."
+        image="/images/mychef-dubai-about-team-hero.webp"
+        imageAlt="The myCHEF Dubai team — chefs, specialists and household managers — in a Dubai kitchen with the skyline behind them"
+        imageWidth={1672}
+        imageHeight={941}
+        minHeight="full"
+        overlay="cinematic"
+        align="left"
+        titleEmphasis
+        imagePosition="center 32%"
+        cta={{ label: 'Get a Tailored Quote', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=about' }}
+        secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'About' }]}
       />
 

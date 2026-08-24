@@ -351,7 +351,7 @@ export default function WeddingCatering() {
             Catering Worthy of Your Wedding Day
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Your wedding deserves a culinary experience as memorable as the day itself. At myCHEF Dubai, we design wedding catering around your love story — the cuisines that mean something to you, the moments you want to savour, and the guests you want to delight. From the welcome canapés to the final slice of cake — finished by our partner <Link to="/chefs/sofia-pastry-chef" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">pastry chef for wedding desserts</Link> — every detail is considered, styled, and executed with quiet precision.
+            Your wedding deserves a culinary experience as memorable as the day itself. At myCHEF Dubai, we design wedding catering around your love story — the cuisines that mean something to you, the moments you want to savour, and the guests you want to delight. From the welcome canapés to the final slice of cake — finished by our partner <Link to="/chefs/matteo-pastry-chef" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">pastry chef for wedding desserts</Link> — every detail is considered, styled, and executed with quiet precision.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             Whether you are planning an intimate villa ceremony, a grand hotel reception, or a multi-day celebration spanning engagement to brunch, we bring in the chef, the service, and the styling — through vetted licensed partners you engage. We work seamlessly with planners and stylists, and pair naturally with our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>. Explore our <Link to="/wedding-catering-menu-planning-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">wedding menu planning guide</Link>, <Link to="/dubai-catering-prices-guide" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Dubai catering prices guide</Link>, and <Link to="/venue-partners" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">venue partners</Link>.
@@ -539,7 +539,7 @@ export default function WeddingCatering() {
             and{' '}
             <Link to="/wedding-catering-menu-planning-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">wedding catering menu planning guide</Link>,
             {' '}and meet{' '}
-            <Link to="/chefs/sofia-pastry-chef" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Pastry Chef Sofia</Link>{' '}
+            <Link to="/chefs/matteo-pastry-chef" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Pastry Chef Matteo</Link>{' '}
             for your dessert table.
           </p>
         </div>

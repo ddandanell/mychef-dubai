@@ -129,32 +129,51 @@ export default function Contact() {
         description="Get in touch with myCHEF Dubai. Request a custom quote for private chef services, luxury catering, or bespoke dining. We reply within 15 minutes."
         canonicalPath="/contact"
         ogImage="/images/contact-hero.webp"
+        preloadHero="/images/mychef-dubai-contact-support-hero.webp"
         schema={breadcrumbSchema}
       />
 
       {/* Section 1: Hero */}
-      <section className="relative min-h-[60vh] flex items-center justify-center bg-black overflow-hidden">
+      <section className="relative min-h-[85svh] md:min-h-[max(700px,100vh)] flex items-center bg-black overflow-hidden -mt-16">
         <img
-          src="/images/contact-hero.webp"
-          alt="Private chef consultation with premium ingredients in a Dubai villa kitchen"
-          className="absolute inset-0 w-full h-full object-cover"
-          aria-hidden="true"
+          src="/images/mychef-dubai-contact-support-hero.webp"
+          alt="A myCHEF team member in a headset talking with a client on a video call at a warm office desk with the myCHEF logo behind"
+          width={1706}
+          height={922}
+          className="absolute inset-0 w-full h-full object-cover object-[50%_42%] md:object-center"
+          loading="eager"
+          fetchPriority="high"
+          decoding="async"
         />
-        <div className="absolute inset-0 bg-black/70" />
-        <div className="relative z-10 text-center container-custom py-24">
-          <nav aria-label="Breadcrumb" className="mb-8">
-            <ol className="flex items-center justify-center gap-2 font-inter text-body-sm text-gray-400">
+        {/* Standard hero scrim — identical to every other hero (see PageHero HERO_SCRIM) */}
+        <div className="absolute inset-0 bg-black/45" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-black/45" />
+        <div className="relative z-10 container-custom flex flex-col items-center text-center md:items-start md:text-left pt-28 pb-20">
+          <nav aria-label="Breadcrumb" className="mb-6">
+            <ol className="flex items-center gap-2 font-inter text-body-sm text-gray-300">
               <li><Link to="/" className="hover:text-gold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-black rounded-sm">Home</Link></li>
               <li><ChevronRight size={14} className="text-gray-500" aria-hidden="true" /></li>
               <li className="text-gold">Contact</li>
             </ol>
           </nav>
-          <p className="contact-hero-eyebrow font-inter text-caption font-medium uppercase tracking-[0.1em] text-gold mb-4">GET IN TOUCH</p>
-          <h1 className="contact-hero-h1 font-playfair text-fluid-h1 text-white mb-6" style={{ lineHeight: '1.1' }}>
-            Contact Us on<br />WhatsApp
+          <p className="contact-hero-eyebrow font-inter text-caption font-medium uppercase tracking-[0.14em] text-gold mb-4">Contact myCHEF</p>
+          <h1 className="contact-hero-h1 hero-title text-white mb-6 max-w-[16ch]">
+            Tell us what you need. We’ll take it from here.
           </h1>
-          <p className="contact-hero-sub font-inter text-body-lg text-gray-400 max-w-xl mx-auto">
-            Whether you are planning an intimate dinner or a grand event, start the conversation on WhatsApp for the fastest reply.
+          <p className="contact-hero-sub font-inter text-body-lg text-white/85 max-w-[48ch] leading-relaxed mb-8">
+            A dinner, an ongoing chef, a large event, or something you have not quite figured out yet. Talk to someone who understands the food and the operation behind it.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 items-center md:items-start">
+            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=contact" className="contact-cta-left btn-primary text-center">
+              Start a Conversation
+            </Link>
+            <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="contact-cta-right btn-secondary text-center">
+              WhatsApp Us
+            </a>
+          </div>
+          <p className="mt-6 font-inter text-body-sm text-white/70 flex items-center gap-2">
+            <span className="inline-block w-1.5 h-1.5 rounded-full bg-gold" aria-hidden="true" />
+            Real people. Real answers. No call centre.
           </p>
         </div>
       </section>

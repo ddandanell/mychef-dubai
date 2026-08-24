@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router'
 import gsap from 'gsap'
 import { deferNonCritical } from '../lib/deferNonCritical'
@@ -21,6 +21,36 @@ export default function HeroSection() {
   const statsRef = useRef<HTMLDivElement>(null)
   const imageRef = useRef<HTMLImageElement>(null)
   const rafRef = useRef<number | null>(null)
+  const videoRef = useRef<HTMLVideoElement>(null)
+  const playCountRef = useRef(0)
+  const [loadVideo, setLoadVideo] = useState(false)
+  const [videoVisible, setVideoVisible] = useState(false)
+  const [videoDone, setVideoDone] = useState(false)
+
+  // Mount the intro video only AFTER the window 'load' event, then on idle — so it
+  // never slows the initial page start. It plays twice, then fades to the poster.
+  useEffect(() => {
+    let done = false
+    const mount = () => {
+      if (done) return
+      done = true
+      const w = window as Window & { requestIdleCallback?: (cb: () => void, o?: { timeout: number }) => number }
+      if (w.requestIdleCallback) w.requestIdleCallback(() => setLoadVideo(true), { timeout: 2000 })
+      else window.setTimeout(() => setLoadVideo(true), 600)
+    }
+    if (document.readyState === 'complete') mount()
+    else window.addEventListener('load', mount, { once: true })
+    return () => window.removeEventListener('load', mount)
+  }, [])
+
+  const handleVideoEnded = () => {
+    playCountRef.current += 1
+    if (playCountRef.current < 2) {
+      videoRef.current?.play().catch(() => {})
+    } else {
+      setVideoDone(true) // fade video out → the poster image settles in
+    }
+  }
 
   useEffect(() => {
     const reduced = prefersReducedMotion()
@@ -148,17 +178,36 @@ export default function HeroSection() {
           <img
             ref={imageRef}
             src="/images/home-hero.webp"
-            alt="Premium private chef dining experience in Dubai"
+            alt="Private chef plating a fine-dining course in a Dubai penthouse kitchen with a skyline view"
             width={1344}
-            height={752}
+            height={672}
             loading="eager"
             fetchPriority="high"
             decoding="async"
             className="absolute inset-0 w-full h-full object-cover scale-105 will-change-transform"
           />
         </picture>
-        {/* Gradient overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/40 to-black/80" />
+        {/* Intro video — plays twice, then fades to the poster image above. Lazy-mounted. */}
+        {loadVideo && (
+          <video
+            ref={videoRef}
+            autoPlay
+            muted
+            playsInline
+            preload="auto"
+            poster="/images/home-hero.webp"
+            aria-hidden="true"
+            onCanPlay={() => { setVideoVisible(true); videoRef.current?.play().catch(() => {}) }}
+            onEnded={handleVideoEnded}
+            className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-[1200ms] ease-out ${videoVisible && !videoDone ? 'opacity-100' : 'opacity-0'}`}
+          >
+            <source src="/videos/home-hero.webm" type="video/webm" />
+            <source src="/videos/home-hero.mp4" type="video/mp4" />
+          </video>
+        )}
+        {/* Standard hero scrim — identical to every other hero (see PageHero HERO_SCRIM) */}
+        <div className="absolute inset-0 bg-black/45" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-black/45" />
       </div>
 
       {/* Content */}
@@ -169,8 +218,7 @@ export default function HeroSection() {
         {/* Headline */}
         <h1
           ref={headlineRef}
-          className="font-playfair font-semibold text-white opacity-0 max-w-3xl mx-auto md:mx-0 text-center md:text-left"
-          style={{ fontSize: 'clamp(1.75rem, 5.5vw, 4.5rem)', lineHeight: 1.02 }}
+          className="hero-title text-white opacity-0 max-w-[900px] mx-auto md:mx-0 text-center md:text-left"
         >
           Private Chef & Luxury Catering in Dubai — Brought to Your Villa, Yacht or Home
         </h1>
@@ -178,7 +226,7 @@ export default function HeroSection() {
         {/* Subtext */}
         <p
           ref={subtextRef}
-          className="mt-4 md:mt-6 font-inter text-base md:text-lg font-light text-white/90 max-w-xl mx-auto md:mx-0 leading-relaxed opacity-0 text-center md:text-left"
+          className="hero-copy mt-5 md:mt-7 text-white/90 max-w-[600px] mx-auto md:mx-0 opacity-0 text-center md:text-left"
         >
           Bespoke dining for 2 to 500+ guests. We design, cook and serve — so you stay a guest at your own table.
         </p>

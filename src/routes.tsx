@@ -11,7 +11,7 @@ const Contact: PreloadableComponent = lazyPreloadable(() => import('./pages/Cont
 const HowItWorks: PreloadableComponent = lazyPreloadable(() => import('./pages/HowItWorks'))
 const OurChefs: PreloadableComponent = lazyPreloadable(() => import('./pages/OurChefs'))
 const ChefAhmed: PreloadableComponent = lazyPreloadable(() => import('./pages/chefs/ChefAhmed'))
-const ChefSofia: PreloadableComponent = lazyPreloadable(() => import('./pages/chefs/ChefSofia'))
+const ChefMatteo: PreloadableComponent = lazyPreloadable(() => import('./pages/chefs/ChefMatteo'))
 const ChefMarco: PreloadableComponent = lazyPreloadable(() => import('./pages/chefs/ChefMarco'))
 const ChefLayla: PreloadableComponent = lazyPreloadable(() => import('./pages/chefs/ChefLayla'))
 const Menus: PreloadableComponent = lazyPreloadable(() => import('./pages/Menus'))
@@ -203,7 +203,7 @@ export const routes: AppRoute[] = [
   { path: "/how-it-works", element: <HowItWorks />, preload: HowItWorks.preload },
   { path: "/our-chefs", element: <OurChefs />, preload: OurChefs.preload },
   { path: "/chefs/ahmed-executive-chef", element: <ChefAhmed />, preload: ChefAhmed.preload },
-  { path: "/chefs/sofia-pastry-chef", element: <ChefSofia />, preload: ChefSofia.preload },
+  { path: "/chefs/matteo-pastry-chef", element: <ChefMatteo />, preload: ChefMatteo.preload },
   { path: "/chefs/marco-italian-chef", element: <ChefMarco />, preload: ChefMarco.preload },
   { path: "/chefs/layla-middle-eastern-chef", element: <ChefLayla />, preload: ChefLayla.preload },
   { path: "/menus", element: <Menus />, preload: Menus.preload },

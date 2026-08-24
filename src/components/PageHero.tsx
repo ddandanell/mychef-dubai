@@ -1,4 +1,4 @@
-import { useRef, useEffect } from 'react'
+import { useRef, useEffect, useState } from 'react'
 import { Link } from 'react-router'
 import gsap from 'gsap'
 import { deferNonCritical } from '../lib/deferNonCritical'
@@ -15,6 +15,8 @@ interface PageHeroProps {
   imageWidth?: number
   imageHeight?: number
   imageSrcSet?: string
+  /** Optional background video (mp4). Lazy-loaded after the page is idle; never render-blocking. */
+  videoSrc?: string
   cta?: { label: string; href: string; external?: boolean }
   secondaryCta?: { label: string; href: string; external?: boolean }
   breadcrumb?: { label: string; href?: string }[]
@@ -38,17 +40,21 @@ const heightClasses = {
   short: 'min-h-[40dvh] md:min-h-[50dvh]',
 }
 
-const overlayLayers: Record<OverlayName, string[]> = {
-  dark: ['bg-gradient-to-b from-black/40 via-black/50 to-black/85'],
-  medium: ['bg-gradient-to-b from-black/30 via-black/40 to-black/75'],
-  light: ['bg-gradient-to-b from-black/20 via-black/30 to-black/60'],
-  left: ['bg-gradient-to-r from-black/88 via-black/70 to-black/35'],
-  // Left-weighted cinematic scrim: dark enough for white type, photo still readable on the right.
-  cinematic: [
-    'bg-black/40',
-    'bg-gradient-to-r from-black/94 via-black/78 to-black/30',
-    'bg-gradient-to-b from-black/55 via-transparent to-black/65',
-  ],
+// ONE hero scrim used on every hero — dark enough for white type to read at any
+// vertical position, light enough to keep the photograph alive. Keep this the single
+// source of truth so all heroes look identical. The `overlay` prop is kept for API
+// compatibility but every value now resolves to this same treatment.
+export const HERO_SCRIM = [
+  'bg-black/45',
+  'bg-gradient-to-t from-black/80 via-black/30 to-black/45',
+] as const
+
+const overlayLayers: Record<OverlayName, readonly string[]> = {
+  dark: HERO_SCRIM,
+  medium: HERO_SCRIM,
+  light: HERO_SCRIM,
+  left: HERO_SCRIM,
+  cinematic: HERO_SCRIM,
 }
 
 export default function PageHero({
@@ -60,6 +66,7 @@ export default function PageHero({
   imageWidth = 1344,
   imageHeight = 752,
   imageSrcSet,
+  videoSrc,
   cta,
   secondaryCta,
   breadcrumb,
@@ -67,7 +74,6 @@ export default function PageHero({
   align = 'center',
   children,
   overlay = 'dark',
-  titleEmphasis = false,
   accentLine = false,
   imagePosition = 'center',
   reducedMotion = false,
@@ -76,6 +82,27 @@ export default function PageHero({
   const contentRef = useRef<HTMLDivElement>(null)
   const imageRef = useRef<HTMLImageElement>(null)
   const rafRef = useRef<number | null>(null)
+  const [loadVideo, setLoadVideo] = useState(false)
+  const [videoReady, setVideoReady] = useState(false)
+
+  // Mount the background video only AFTER the window 'load' event (every other
+  // critical resource has finished), then on the next idle tick — so the video
+  // can never slow down the initial page start. Poster stays the instant LCP.
+  // (Intentionally not gated on prefers-reduced-motion per owner request; muted + subtle.)
+  useEffect(() => {
+    if (!videoSrc) return
+    let done = false
+    const mount = () => {
+      if (done) return
+      done = true
+      const w = window as Window & { requestIdleCallback?: (cb: () => void, opts?: { timeout: number }) => number }
+      if (w.requestIdleCallback) w.requestIdleCallback(() => setLoadVideo(true), { timeout: 2000 })
+      else window.setTimeout(() => setLoadVideo(true), 600)
+    }
+    if (document.readyState === 'complete') mount()
+    else window.addEventListener('load', mount, { once: true })
+    return () => window.removeEventListener('load', mount)
+  }, [videoSrc])
 
   useEffect(() => {
     const reduced = reducedMotion || window.matchMedia('(prefers-reduced-motion: reduce)').matches
@@ -163,6 +190,32 @@ export default function PageHero({
               style={{ objectPosition: imagePosition }}
             />
           </picture>
+          {/* Optional background video — mounts only after the page is idle, so it never
+              blocks the rest of the site. The poster image above stays the instant LCP;
+              the video fades in over it when ready. Skipped for reduced-motion users. */}
+          {videoSrc && loadVideo && (
+            <video
+              autoPlay
+              muted
+              loop
+              playsInline
+              preload="auto"
+              poster={image}
+              aria-hidden="true"
+              onCanPlay={(e) => {
+                setVideoReady(true)
+                e.currentTarget.play().catch(() => {})
+              }}
+              className={cn(
+                'absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ease-out',
+                videoReady ? 'opacity-100' : 'opacity-0',
+              )}
+              style={{ objectPosition: imagePosition }}
+            >
+              {videoSrc.endsWith('.mp4') && <source src={videoSrc.replace(/\.mp4$/, '.webm')} type="video/webm" />}
+              <source src={videoSrc} type="video/mp4" />
+            </video>
+          )}
           {overlayLayers[overlay].map((layer) => (
             <div key={layer} className={`absolute inset-0 ${layer}`} />
           ))}
@@ -171,56 +224,49 @@ export default function PageHero({
         <div className="absolute inset-0 bg-gradient-to-b from-black via-charcoal to-black" />
       )}
 
+      {/* Breadcrumb — pinned top-left on every hero, with a readable scrim so it works over any photo */}
+      {breadcrumb && breadcrumb.length > 0 && (
+        <nav aria-label="Breadcrumb" className="absolute top-20 left-0 right-0 z-20">
+          <div className="container-custom">
+            <ol className="inline-flex flex-wrap items-center gap-2 font-inter text-caption bg-black/40 backdrop-blur-sm px-3.5 py-1.5 rounded-full ring-1 ring-white/10">
+              {breadcrumb.map((item, i) => (
+                <li key={item.label + i} className="flex items-center gap-2">
+                  {i > 0 && <span className="text-white/40" aria-hidden>/</span>}
+                  {item.href ? (
+                    <Link to={item.href} className="text-white/85 hover:text-gold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-black rounded-sm">
+                      {item.label}
+                    </Link>
+                  ) : (
+                    <span className="text-gold font-medium">{item.label}</span>
+                  )}
+                </li>
+              ))}
+            </ol>
+          </div>
+        </nav>
+      )}
+
       {/* Content */}
       <div
         ref={contentRef}
         className={`relative z-10 container-custom flex flex-col justify-center pt-28 pb-20 md:pb-24 ${alignmentClass}`}
       >
-        {breadcrumb && breadcrumb.length > 0 && (
-          <nav aria-label="Breadcrumb" className="mb-6">
-            <ol className={`flex flex-wrap items-center gap-2 font-inter text-caption ${overlay === 'cinematic' ? 'text-white/70' : 'text-gray-400'} ${align === 'center' ? 'justify-center' : ''}`}>
-              {breadcrumb.map((item, i) => (
-                <li key={item.label + i} className="flex items-center gap-2">
-                  {i > 0 && <span className="text-gray-600">/</span>}
-                  {item.href ? (
-                    <Link to={item.href} className="hover:text-gold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-black rounded-sm">
-                      {item.label}
-                    </Link>
-                  ) : (
-                    <span className="text-gold">{item.label}</span>
-                  )}
-                </li>
-              ))}
-            </ol>
-          </nav>
-        )}
-
         {eyebrow && (
-          <span className="font-inter text-caption font-medium uppercase tracking-[0.1em] text-gold mb-4">
+          <span className="font-inter text-caption font-medium uppercase tracking-[0.1em] text-gold mb-4 drop-shadow-[0_1px_10px_rgba(0,0,0,0.65)]">
             {eyebrow}
           </span>
         )}
 
         {accentLine && <div className="gold-line mb-5 md:mb-7" />}
 
-        <h1
-          className={cn(
-            'font-playfair text-white',
-            titleEmphasis
-              ? 'font-semibold tracking-tight text-[clamp(2.25rem,5.2vw,4rem)] drop-shadow-[0_2px_28px_rgba(0,0,0,0.72)]'
-              : 'text-fluid-h1',
-            align === 'left' && (titleEmphasis ? 'max-w-3xl' : 'max-w-2xl'),
-          )}
-          style={{ lineHeight: titleEmphasis ? 1.05 : 1.1 }}
-        >
+        <h1 className={cn('hero-title text-white max-w-[900px]', align === 'center' && 'mx-auto')}>
           {title}
         </h1>
 
         {subtitle && (
           <p
             className={cn(
-              'mt-5 md:mt-6 font-inter text-base md:text-body-lg max-w-2xl leading-relaxed',
-              titleEmphasis || overlay === 'cinematic' ? 'text-white/92 drop-shadow-[0_1px_12px_rgba(0,0,0,0.55)]' : 'text-white/85',
+              'hero-copy mt-5 md:mt-7 text-white/90 max-w-[600px]',
               align === 'center' && 'mx-auto',
             )}
           >

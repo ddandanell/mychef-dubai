@@ -9,6 +9,8 @@ module.exports = {
           DEFAULT: '#C8A45C',
           light: '#D9BC7A',
           dark: '#A68B4B',
+          // Readable gold for text on light (white/cream) backgrounds — passes WCAG AA.
+          ink: '#7A5F1C',
         },
         charcoal: {
           DEFAULT: '#1A1A1A',
@@ -56,8 +58,11 @@ module.exports = {
         },
       },
       fontFamily: {
-        playfair: ['"Playfair Display"', 'Georgia', 'serif'],
-        inter: ['Inter', 'system-ui', 'sans-serif'],
+        // Display serif — Cormorant Garamond (kept under the `playfair` key so every
+        // existing font-playfair usage swaps site-wide with no per-file edits).
+        playfair: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+        // Body / UI — Manrope (kept under the `inter` key for the same reason).
+        inter: ['Manrope', 'system-ui', 'sans-serif'],
       },
       fontSize: {
         'display': ['5rem', { lineHeight: '1.05', letterSpacing: '-0.02em' }],

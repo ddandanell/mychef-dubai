@@ -123,6 +123,7 @@ export default function Blog() {
         description="Expert tips, trends, and inspiration for private dining and luxury catering in Dubai."
         canonicalPath="/blog"
         ogImage="/images/guides-hub-dubai-hero.webp"
+        preloadHero="/images/mychef-dubai-blog-hero.webp"
         schema={schema}
       />
 
@@ -131,13 +132,16 @@ export default function Blog() {
         eyebrow="News & Inspiration"
         title="Private Chef & Catering Blog"
         subtitle="Expert tips, seasonal trends, and menu inspiration for private dining, yacht parties, Ramadan gatherings, and corporate events across Dubai."
-        image="/images/guides-hub-dubai-hero.webp"
-        imageAlt="myCHEF Dubai blog"
+        image="/images/mychef-dubai-blog-hero.webp"
+        imageAlt="Private chef plating seafood at a candlelit terrace table with the Dubai skyline at dusk"
+        imageWidth={1536}
+        imageHeight={1024}
         cta={{ label: 'Request a Custom Quote', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=blog' }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Blog' }]}
-        minHeight="tall"
-        overlay="dark"
+        minHeight="full"
+        overlay="medium"
+        imagePosition="center 40%"
       />
 
       {/* ═══════════════ Blog Grid ═══════════════ */}
