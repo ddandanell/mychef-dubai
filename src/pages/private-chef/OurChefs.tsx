@@ -2,11 +2,11 @@
 // Secondary: hire a chef (70), hire chef dubai (30), indian chef dubai (30), looking for chef (30).
 // Do not target another cluster page's primary here. See KEYWORD_LOCKS in content/privateChefCluster.ts.
 import { Link } from 'react-router'
-import { ArrowRight, Check } from 'lucide-react'
+import { Check } from 'lucide-react'
 import SEO from '../../components/SEO'
 import PageHero from '../../components/PageHero'
 import FaqAccordion from '../../components/FaqAccordion'
-import { Section, Container, Eyebrow, DisplayHeading, BodyCopy } from '../../components/system'
+import { Section, Container, Eyebrow, DisplayHeading, BodyCopy, SequenceRail } from '../../components/system'
 import ClusterNav from '../../components/private-chef/ClusterNav'
 import ClusterCTA from '../../components/private-chef/ClusterCTA'
 import FillFrame from '../../components/private-chef/FillFrame'
@@ -220,17 +220,7 @@ export default function PrivateChefOurChefsPage() {
           <p className="font-inter text-caption uppercase tracking-wider text-gold-ink mb-3">{evidenceChain.eyebrow}</p>
           <h3 className="font-playfair text-h3 text-black mb-4">{evidenceChain.title}</h3>
           <BodyCopy className="mb-8 max-w-[760px]">{evidenceChain.intro}</BodyCopy>
-          <ol className="flex flex-wrap items-center gap-y-4 mb-6 max-w-[1100px]">
-            {evidenceChain.steps.map((step, i) => (
-              <li key={step} className="flex items-center">
-                <span className="font-playfair text-h4 text-gold-ink leading-none select-none mr-2.5">{String(i + 1).padStart(2, '0')}</span>
-                <span className="font-inter text-body-sm text-gray-700">{step}</span>
-                {i < evidenceChain.steps.length - 1 && (
-                  <ArrowRight size={14} className="text-gold-ink/60 mx-4 flex-shrink-0" aria-hidden />
-                )}
-              </li>
-            ))}
-          </ol>
+          <SequenceRail steps={evidenceChain.steps} className="mb-6" />
           <BodyCopy muted className="mb-12">{evidenceChain.closer}</BodyCopy>
           <p className="font-inter text-caption uppercase tracking-wider text-gold-ink mb-3">{exampleProfiles.eyebrow}</p>
           <h3 className="font-playfair text-h3 text-black mb-2">Two profiles — one confirmed, one honestly new</h3>
@@ -262,17 +252,7 @@ export default function PrivateChefOurChefsPage() {
           <BodyCopy className="mb-10 max-w-[760px]">
             We do not say “here is our best chef.” When you hire a chef in Dubai yourself, you get whoever replied first and an interview to go on. Here, a family wanting simple high-protein meals does not automatically get the same person as a household entertaining every weekend: you describe the house; we calculate the role; the role determines Professional or Senior. Specialists are for the meal that needs one.
           </BodyCopy>
-          <ol className="flex flex-wrap items-center gap-y-4 mb-10 max-w-[1100px]">
-            {matchingSteps.map((step, i) => (
-              <li key={step} className="flex items-center">
-                <span className="font-playfair text-h4 text-gold-ink leading-none select-none mr-2.5">{String(i + 1).padStart(2, '0')}</span>
-                <span className="font-inter text-body-sm text-gray-700">{step}</span>
-                {i < matchingSteps.length - 1 && (
-                  <ArrowRight size={14} className="text-gold-ink/60 mx-4 flex-shrink-0" aria-hidden />
-                )}
-              </li>
-            ))}
-          </ol>
+          <SequenceRail steps={matchingSteps} className="mb-10" />
           <div className="grid lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] gap-10 lg:gap-16 items-start mb-16">
             <div>
               <p className="font-inter text-caption uppercase tracking-wider text-gold-ink mb-3">{specialists.eyebrow}</p>

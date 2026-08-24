@@ -78,37 +78,37 @@ export const howItWorksPhoto = {
   height: 720,
 }
 
-/** Cluster subpage heroes — one visual verb each. 4K masters. Experience concept shown. */
+/** Cluster subpage heroes — one visual verb each. Experience concept shown. */
 export const clusterHeroes = {
   howItWorks: {
     src: '/images/private-chef-how-it-works-hero.webp',
-    alt: 'A household and chefs review a household plan at a Dubai villa island in the evening. Experience concept shown.',
-    width: 3840,
-    height: 2160,
+    alt: 'A household, coordinator and chef review a plan at a Dubai villa island in the evening. Experience concept shown.',
+    width: 2560,
+    height: 1440,
   },
   ourChefs: {
     src: '/images/private-chef-our-chefs-hero.webp',
     alt: 'An adult chef cooks under assessment while two senior chefs watch and take notes in a dark test kitchen. Experience concept shown.',
-    width: 3840,
-    height: 2160,
+    width: 2560,
+    height: 1440,
   },
   quality: {
     src: '/images/private-chef-quality-training-hero.webp',
     alt: 'Two senior chefs review a finished plate under a warm lamp, one tasting and one finishing the garnish. Experience concept shown.',
-    width: 3840,
-    height: 2160,
+    width: 2560,
+    height: 1440,
   },
   privacy: {
     src: '/images/private-chef-privacy-security-hero.webp',
     alt: 'A private chef prepares food at a villa island while a couple sits in the living room, evening garden beyond. Experience concept shown.',
-    width: 3840,
-    height: 2160,
+    width: 2560,
+    height: 1440,
   },
   pricing: {
     src: '/images/private-chef-pricing-hero.webp',
     alt: 'Two people sit at a dark island with a notebook and blank tablet while a chef cooks in the background. Experience concept shown.',
-    width: 3840,
-    height: 2160,
+    width: 2560,
+    height: 1440,
   },
 } as const
 
@@ -537,6 +537,7 @@ export const scoreDemo = {
     { label: 'Food', value: 5 },
     { label: 'Service', value: 5 },
     { label: 'Team', value: 4 },
+    { label: 'Communication', value: 5 },
   ],
   steps: [
     { title: 'One score that is off', body: 'A conversation — not a punishment machine.' },
@@ -900,6 +901,9 @@ export const scoring = {
     sub: 'Earned in real households, from completed placements only',
     items: [
       'Food quality',
+      'Service',
+      'Team',
+      'Communication',
       'Understanding the household',
       'Reliability and professionalism',
       'Menu variety and adaptability',

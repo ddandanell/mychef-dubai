@@ -149,9 +149,9 @@ export default function PrivateChefQualityTraining() {
       <Section tone="white">
         <Container>
           <Eyebrow>Client feedback</Eyebrow>
-          <DisplayHeading size="h2" className="text-black mb-4">Food, service, team — then what happens</DisplayHeading>
+          <DisplayHeading size="h2" className="text-black mb-4">Food, service, team, communication — then what happens</DisplayHeading>
           <BodyCopy className="mb-8 max-w-[760px]">{scoreDemo.note}</BodyCopy>
-          <div className="grid sm:grid-cols-3 gap-4 mb-10 max-w-[720px]">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-10 max-w-[920px]">
             {scoreDemo.scores.map((s) => (
               <div key={s.label} className="border border-gray-200 p-6 text-center">
                 <p className="font-inter text-caption uppercase tracking-wider text-gold-ink mb-2">{s.label}</p>

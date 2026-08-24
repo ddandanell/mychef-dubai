@@ -307,3 +307,44 @@ export function CTAGroup({
     </div>
   )
 }
+
+/**
+ * Numbered sequence on a gold rail — the systemized step treatment.
+ * Do not render sequences as wrapping 01 → 02 flex lines; they fall apart.
+ */
+export function SequenceRail({
+  steps,
+  className,
+}: {
+  steps: readonly string[]
+  className?: string
+}) {
+  const n = steps.length
+  const cols =
+    n <= 4
+      ? 'lg:grid-cols-4'
+      : n === 5
+        ? 'lg:grid-cols-5'
+        : n === 6
+          ? 'lg:grid-cols-3 xl:grid-cols-6'
+          : 'lg:grid-cols-4'
+
+  return (
+    <ol className={cn('relative grid grid-cols-1 gap-y-8 lg:gap-x-8 lg:gap-y-10', cols, className)}>
+      <span className="pointer-events-none absolute top-2 bottom-2 left-[4px] w-px bg-gold/30 lg:hidden" aria-hidden />
+      <span className="pointer-events-none absolute top-[4px] right-0 left-0 hidden h-px bg-gold/30 lg:block" aria-hidden />
+      {steps.map((step, i) => (
+        <li key={step} className="relative pl-8 lg:pl-0 lg:pt-8">
+          <span className="absolute top-[6px] left-0 h-[9px] w-[9px] bg-gold-ink lg:top-0" aria-hidden />
+          <p className="mb-3 flex items-center gap-3 font-playfair text-h4 leading-none text-gold-ink select-none">
+            {String(i + 1).padStart(2, '0')}
+            {i < n - 1 && (
+              <span className="hidden font-inter text-body text-gold/60 lg:inline">→</span>
+            )}
+          </p>
+          <p className="max-w-[38ch] font-inter text-body-sm leading-relaxed text-gray-700">{step}</p>
+        </li>
+      ))}
+    </ol>
+  )
+}

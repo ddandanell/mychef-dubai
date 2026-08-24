@@ -1,15 +1,17 @@
+/**
+ * Suspense fallback for lazy routes. Deliberately NOT a full-screen overlay: the
+ * previous page stays visible while the next chunk loads, and only a 2px gold
+ * hairline at the top signals progress — no black flash on route changes.
+ */
 export default function PageLoader() {
   return (
-    <div className="fixed inset-0 z-[60] bg-black flex flex-col items-center justify-center">
-      {/* Top progress bar */}
-      <div className="absolute top-0 left-0 right-0 h-1 bg-charcoal-light overflow-hidden">
-        <div className="h-full bg-gold animate-loader-bar" />
-      </div>
-
-      <div className="text-center">
-        <div className="font-playfair text-gold text-2xl mb-4">myCHEF</div>
-        <div className="gold-line mx-auto animate-pulse" />
-      </div>
+    <div
+      role="status"
+      aria-live="polite"
+      className="pointer-events-none fixed inset-x-0 top-0 z-[60] h-0.5 overflow-hidden bg-transparent"
+    >
+      <div className="h-full w-full bg-gold/90 animate-loader-bar" />
+      <span className="sr-only">Loading page…</span>
     </div>
   )
 }
