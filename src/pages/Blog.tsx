@@ -6,90 +6,13 @@ import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import { ArrowRight, Phone, BookOpen } from 'lucide-react'
 import SEO from '../components/SEO'
 import PageHero from '../components/PageHero'
-import { DAVID_BLOGS } from '../content/blogSeries'
+import { BLOG_POSTS, BLOG_HUBS, postsInHub } from '../content/blogTaxonomy'
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I found your blog and would like to discuss catering (via mychef.ae/blog)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
-const featuredPosts = [
-  {
-    slug: '/blog/ramadan-iftar-catering-trends-2026',
-    title: 'Ramadan Iftar Catering Trends for 2026',
-    excerpt: 'From grazing-style Iftar tables to zero-waste menus and modern Emirati flavours, here is what is shaping Ramadan catering in Dubai this year.',
-    category: 'Ramadan',
-    date: 'July 2026',
-    image: '/images/ramadan-iftar-catering-dubai-hero.webp',
-  },
-  {
-    slug: '/blog/yacht-party-menu-ideas-dubai',
-    title: 'Yacht Party Menu Ideas in Dubai',
-    excerpt: 'Plan a stylish, seaworthy menu for your next Dubai Marina or Palm Jumeirah cruise with canapés, fresh seafood, and desserts that travel well.',
-    category: 'Yachts',
-    date: 'July 2026',
-    image: '/images/yacht-catering-dubai-hero.webp',
-  },
-  {
-    slug: '/blog/how-much-does-private-chef-cost-dubai',
-    title: 'How Much Does a Private Chef Cost in Dubai?',
-    excerpt: 'A practical breakdown of private chef pricing in Dubai, the factors that move the cost, and how to get an accurate quote for your dinner.',
-    category: 'Private Chef',
-    date: 'July 2026',
-    image: '/images/private-chef-dubai-hero.webp',
-  },
-  {
-    slug: '/blog/corporate-catering-full-service-vs-drop-off',
-    title: 'Corporate Catering: Full-Service vs Drop-Off',
-    excerpt: 'Compare drop-off and fully-coordinated catering by cost, setup, staffing, and guest experience so you can choose the right format.',
-    category: 'Corporate',
-    date: 'July 2026',
-    image: '/images/corporate-catering-dubai-hero.webp',
-  },
-  {
-    slug: '/blog/weekly-meal-prep-vs-full-time-chef-dubai',
-    title: 'Weekly Meal Prep vs Hiring a Full-Time Chef in Dubai',
-    excerpt: 'Compare weekly meal prep services and full-time private chefs in Dubai by cost, flexibility, vetting, and lifestyle fit so you can choose the right option.',
-    category: 'Meal Prep',
-    date: 'July 2026',
-    image: '/images/weekly-meal-prep-dubai-hero.webp',
-  },
-  {
-    slug: '/blog/best-private-chef-birthday-dinner-dubai',
-    title: 'Best Private Chef Birthday Dinner in Dubai: Menu Ideas, Costs & How to Book',
-    excerpt: 'Plan a private chef birthday dinner in Dubai with menu ideas, indicative costs, booking tips, and answers to the most common host questions.',
-    category: 'Birthday',
-    date: 'July 2026',
-    image: '/images/birthday-catering-dubai-hero.webp',
-  },
-  {
-    slug: '/blog/private-chef-palm-jumeirah-guide',
-    title: 'Private Chef Palm Jumeirah: A Complete Guide to Dining at Home',
-    excerpt: 'A practical guide to hiring a private chef in Palm Jumeirah, covering menus, service styles, indicative pricing, and how to book a curated dining experience at home.',
-    category: 'Private Chef',
-    date: 'July 2026',
-    image: '/images/luxury-dining-dubai-hero.webp',
-  },
-  {
-    slug: '/blog/halal-private-dining-dubai-what-to-ask',
-    title: 'Halal Private Dining in Dubai: What to Ask Before You Book',
-    excerpt: 'A practical guide for Dubai hosts booking halal private dining, covering certification, cross-contamination, alcohol policy, sourcing, and indicative costs.',
-    category: 'Halal',
-    date: 'July 2026',
-    image: '/images/halal-catering-dubai-hero.webp',
-  },
-]
-
-// The 13 David blogs (rendered via HandoffPage). Each has a hero image under /images/blog/.
-const davidPosts = DAVID_BLOGS.map((b) => ({
-  slug: b.url,
-  title: b.title,
-  excerpt: b.excerpt,
-  category: b.category,
-  date: b.date,
-  image: `/images/blog${b.url.replace('/blog', '')}-hero.webp`,
-}))
-
-const posts = [...featuredPosts, ...davidPosts]
+const posts = BLOG_POSTS
 
 const collectionSchema = {
   '@type': 'CollectionPage',
@@ -156,6 +79,45 @@ export default function Blog() {
         overlay="medium"
         imagePosition="center 40%"
       />
+
+      {/* ═══════════════ Browse by Topic ═══════════════ */}
+      <section className="bg-cream section-padding border-b border-gray-200">
+        <div className="container-custom max-w-[1100px]">
+          <div className="text-center mb-12">
+            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
+              Browse by Topic
+            </span>
+            <h2 className="font-playfair text-h2 text-black">
+              Explore Our Guides by Theme
+            </h2>
+          </div>
+
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {BLOG_HUBS.map((hub) => (
+              <Link
+                key={hub.slug}
+                to={`/blog/topic/${hub.slug}`}
+                className="group block bg-white border border-gray-200 p-6 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_8px_30px_rgba(0,0,0,0.08)] hover:border-gold"
+              >
+                <div className="flex items-center justify-between mb-3">
+                  <h3 className="font-playfair text-h4 text-black group-hover:text-gold transition-colors">
+                    {hub.title}
+                  </h3>
+                  <span className="font-inter text-xs text-gray-400">
+                    {postsInHub(hub.slug).length}
+                  </span>
+                </div>
+                <p className="font-inter text-body-sm text-gray-500 leading-relaxed mb-4">
+                  {hub.description}
+                </p>
+                <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
+                  View topic <ArrowRight size={14} />
+                </span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
 
       {/* ═══════════════ Blog Grid ═══════════════ */}
       <section className="bg-white section-padding">

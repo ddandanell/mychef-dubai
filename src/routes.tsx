@@ -126,6 +126,7 @@ const EidCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/
 const DiwaliCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/DiwaliCatering'))
 const Guides: PreloadableComponent = lazyPreloadable(() => import('./pages/Guides'))
 const Blog: PreloadableComponent = lazyPreloadable(() => import('./pages/Blog'))
+const BlogCategoryHub: PreloadableComponent = lazyPreloadable(() => import('./pages/BlogCategoryHub'))
 const RamadanIftarTrends2026: PreloadableComponent = lazyPreloadable(() => import('./pages/blog/RamadanIftarTrends2026'))
 const YachtPartyMenuIdeas: PreloadableComponent = lazyPreloadable(() => import('./pages/blog/YachtPartyMenuIdeas'))
 const PrivateChefCostDubai: PreloadableComponent = lazyPreloadable(() => import('./pages/blog/PrivateChefCostDubai'))
@@ -318,6 +319,7 @@ export const routes: AppRoute[] = [
   { path: "/diwali-catering-dubai", element: <DiwaliCatering />, preload: DiwaliCatering.preload },
   { path: "/guides", element: <Guides />, preload: Guides.preload },
   { path: "/blog", element: <Blog />, preload: Blog.preload },
+  { path: "/blog/topic/:hub", element: <BlogCategoryHub />, preload: BlogCategoryHub.preload },
   { path: "/blog/ramadan-iftar-catering-trends-2026", element: <RamadanIftarTrends2026 />, preload: RamadanIftarTrends2026.preload },
   { path: "/blog/yacht-party-menu-ideas-dubai", element: <YachtPartyMenuIdeas />, preload: YachtPartyMenuIdeas.preload },
   { path: "/blog/how-much-does-private-chef-cost-dubai", element: <PrivateChefCostDubai />, preload: PrivateChefCostDubai.preload },

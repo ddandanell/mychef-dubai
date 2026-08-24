@@ -22,6 +22,11 @@ export interface SeoImage {
   height?: number
 }
 
+export interface SeoFaq {
+  question: string
+  answer: string[]
+}
+
 export interface SeoPage {
   url: string
   head?: { title?: string; meta_description?: string; h1?: string }
@@ -29,6 +34,7 @@ export interface SeoPage {
   replace_in_block?: SeoReplaceBlock[]
   add_block?: SeoAddBlock[]
   images?: SeoImage[]
+  faq?: SeoFaq[]
 }
 
 const ROUTES = routes as Record<string, string>

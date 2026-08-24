@@ -1,74 +1,20 @@
 import { Link } from 'react-router'
 import { ArrowRight } from 'lucide-react'
+import { relatedPosts } from '../content/blogTaxonomy'
 
 interface BlogRelatedProps {
   currentSlug: string
+  /** How many related posts to show (default 3). */
+  count?: number
 }
 
-const posts = [
-  {
-    slug: '/blog/ramadan-iftar-catering-trends-2026',
-    title: 'Ramadan Iftar Catering Trends for 2026',
-    excerpt: 'From grazing-style Iftar tables to zero-waste menus and modern Emirati flavours, here is what is shaping Ramadan catering in Dubai this year.',
-    category: 'Ramadan',
-    image: '/images/ramadan-iftar-catering-dubai-hero.webp',
-  },
-  {
-    slug: '/blog/yacht-party-menu-ideas-dubai',
-    title: 'Yacht Party Menu Ideas in Dubai',
-    excerpt: 'Plan a stylish, seaworthy menu for your next Dubai Marina or Palm Jumeirah cruise with canapés, fresh seafood, and desserts that travel well.',
-    category: 'Yachts',
-    image: '/images/yacht-catering-dubai-hero.webp',
-  },
-  {
-    slug: '/blog/how-much-does-private-chef-cost-dubai',
-    title: 'How Much Does a Private Chef Cost in Dubai?',
-    excerpt: 'A practical breakdown of private chef pricing in Dubai, the factors that move the cost, and how to get an accurate quote for your dinner.',
-    category: 'Private Chef',
-    image: '/images/private-chef-dubai-hero.webp',
-  },
-  {
-    slug: '/blog/corporate-catering-full-service-vs-drop-off',
-    title: 'Corporate Catering: Full-Service vs Drop-Off',
-    excerpt: 'Compare drop-off and fully-coordinated catering by cost, setup, staffing, and guest experience so you can choose the right format.',
-    category: 'Corporate',
-    image: '/images/corporate-catering-dubai-hero.webp',
-  },
-  {
-    slug: '/blog/weekly-meal-prep-vs-full-time-chef-dubai',
-    title: 'Weekly Meal Prep vs Hiring a Full-Time Chef in Dubai',
-    excerpt: 'Compare weekly meal prep services and full-time private chefs in Dubai by cost, flexibility, vetting, and lifestyle fit so you can choose the right option.',
-    category: 'Meal Prep',
-    image: '/images/weekly-meal-prep-dubai-hero.webp',
-  },
-  {
-    slug: '/blog/best-private-chef-birthday-dinner-dubai',
-    title: 'Best Private Chef Birthday Dinner in Dubai: Menu Ideas, Costs & How to Book',
-    excerpt: 'Plan a private chef birthday dinner in Dubai with menu ideas, indicative costs, booking tips, and answers to the most common host questions.',
-    category: 'Birthday',
-    image: '/images/birthday-catering-dubai-hero.webp',
-  },
-  {
-    slug: '/blog/private-chef-palm-jumeirah-guide',
-    title: 'Private Chef Palm Jumeirah: A Complete Guide to Dining at Home',
-    excerpt: 'A practical guide to hiring a private chef in Palm Jumeirah, covering menus, service styles, indicative pricing, and how to book a curated dining experience at home.',
-    category: 'Private Chef',
-    image: '/images/luxury-dining-dubai-hero.webp',
-  },
-  {
-    slug: '/blog/halal-private-dining-dubai-what-to-ask',
-    title: 'Halal Private Dining in Dubai: What to Ask Before You Book',
-    excerpt: 'A practical guide for Dubai hosts booking halal private dining, covering certification, cross-contamination, alcohol policy, sourcing, and indicative costs.',
-    category: 'Halal',
-    image: '/images/halal-catering-dubai-hero.webp',
-  },
-]
-
-export default function BlogRelated({ currentSlug }: BlogRelatedProps) {
-  const related = posts
-    .filter((post) => post.slug !== currentSlug)
-    .slice(0, 3)
-
+/**
+ * Topic-aware "Related Reading" module. Pulls same-hub siblings first (then fills
+ * from the wider set) from the central blog taxonomy, so every post links to the
+ * most relevant neighbours rather than a fixed three.
+ */
+export default function BlogRelated({ currentSlug, count = 3 }: BlogRelatedProps) {
+  const related = relatedPosts(currentSlug, count)
   if (related.length === 0) return null
 
   return (
