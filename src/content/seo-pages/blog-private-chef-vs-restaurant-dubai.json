@@ -28,8 +28,8 @@
  },
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
-  "title": "Private Chef vs Restaurant Dubai: Which Wins a Special Occasion? | myCHEF",
-  "meta_description": "Private chef vs restaurant Dubai, compared honestly: privacy and a bespoke menu at home versus zero setup and a fixed menu out. Costs, food safety and how to choose.",
+  "title": "Private Chef vs Restaurant Dubai: How to Choose",
+  "meta_description": "Private chef vs restaurant in Dubai: privacy and a bespoke menu at home vs zero setup and a fixed menu out. Costs, food safety and how to choose.",
   "h1": "Private Chef vs Restaurant Dubai: Choosing for a Special Occasion — Real Prices and Timings"
  },
  "opening_paragraph": [

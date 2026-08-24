@@ -37,6 +37,13 @@ function BlogFigure({ image, priority = false }: { image: SeoImage; priority?: b
 
 const escapeRegExp = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
 
+/** Stable heading id for in-page anchor links (Table of Contents). */
+const slugify = (s: string) =>
+  s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 60)
+
+// Show a Table of Contents once a post has enough sections to warrant one.
+const TOC_MIN_SECTIONS = 4
+
 interface LinkState {
   usedPhrases: Set<string>
   usedUrls: Set<string>
@@ -164,6 +171,17 @@ export default function HandoffPage() {
   const linkState: LinkState = { usedPhrases: new Set(), usedUrls: new Set(), budget: LINK_BUDGET }
   const pillars = isBlog ? pillarsFor(pathname) : []
 
+  // Table of contents from the H2 headings (unique ids, dedupe collisions).
+  const usedIds = new Set<string>()
+  const toc = blocks.map((b) => {
+    let id = slugify(b.heading) || 'section'
+    let n = 2
+    while (usedIds.has(id)) id = `${slugify(b.heading)}-${n++}`
+    usedIds.add(id)
+    return { id, heading: b.heading }
+  })
+  const showToc = isBlog && toc.length >= TOC_MIN_SECTIONS
+
   // Structured data: Article + BreadcrumbList (+ FAQPage when the post carries an FAQ).
   const canonical = `${SITE}${pathname}`
   const graph: Record<string, unknown>[] = []
@@ -238,11 +256,32 @@ export default function HandoffPage() {
       <article className="bg-white section-padding">
         <div className="article-body container-custom max-w-[820px]">
           {heroImage && <BlogFigure image={heroImage} priority />}
+
+          {showToc && (
+            <nav aria-label="Table of contents" className="mb-12 rounded-2xl border border-gray-200 bg-cream p-6">
+              <span className="font-inter text-caption uppercase tracking-wider text-gold mb-4 block">
+                On this page
+              </span>
+              <ol className="grid sm:grid-cols-2 gap-x-8 gap-y-2 list-none">
+                {toc.map((item) => (
+                  <li key={item.id}>
+                    <a
+                      href={`#${item.id}`}
+                      className="font-inter text-body-sm text-gray-600 hover:text-gold transition-colors"
+                    >
+                      {item.heading}
+                    </a>
+                  </li>
+                ))}
+              </ol>
+            </nav>
+          )}
+
           {blocks.map((block, bi) => {
             const inline = imageAfterBlock.get(bi)
             return (
               <section key={`${block.heading}-${bi}`} className="mb-12">
-                <h2 className="font-playfair text-h2 text-black mb-5">{block.heading}</h2>
+                <h2 id={toc[bi].id} className="font-playfair text-h2 text-black mb-5 scroll-mt-28">{block.heading}</h2>
                 {block.paragraphs.map((p, i) => (
                   <p key={i} className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
                     {linkify(p, pathname, linkState, `${bi}-${i}`)}

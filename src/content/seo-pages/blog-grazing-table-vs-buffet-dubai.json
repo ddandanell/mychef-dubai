@@ -23,8 +23,8 @@
  },
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
-  "title": "Grazing Table vs Buffet Dubai: How to Choose (2026 Guide) | myCHEF Dubai",
-  "meta_description": "Grazing table vs buffet in Dubai: a grazing table is a styled, shareable centrepiece for mingling parties; a buffet is a full self-serve meal for hungry crowds. Costs, ideas and how to choose.",
+  "title": "Grazing Table vs Buffet Dubai: How to Choose",
+  "meta_description": "Grazing table vs buffet in Dubai: a styled centrepiece for mingling parties vs a full self-serve meal for crowds. Costs, ideas and how to choose.",
   "h1": "Grazing Table vs Buffet in Dubai: How to Choose — Real Prices and Timings"
  },
  "opening_paragraph": [
