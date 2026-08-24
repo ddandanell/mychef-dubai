@@ -387,6 +387,7 @@ export const routes: AppRoute[] = [
   { path: "/best-catering-companies-dubai", element: <HandoffPage /> },
   { path: "/blog/brunch-at-home-dubai", element: <HandoffPage /> },
   { path: "/blog/corporate-event-catering-ideas-dubai", element: <HandoffPage /> },
+  { path: "/blog/desert-dinner-party-dubai", element: <HandoffPage /> },
   { path: "/blog/dinner-party-menu-ideas-dubai", element: <HandoffPage /> },
   { path: "/blog/grazing-table-vs-buffet-dubai", element: <HandoffPage /> },
   { path: "/blog/how-far-ahead-book-caterer-dubai", element: <HandoffPage /> },

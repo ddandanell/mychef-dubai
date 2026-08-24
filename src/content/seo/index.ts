@@ -14,12 +14,21 @@ export interface SeoReplaceBlock {
   new_paragraphs: string[]
 }
 
+export interface SeoImage {
+  src: string
+  alt: string
+  role?: 'hero' | 'inline'
+  width?: number
+  height?: number
+}
+
 export interface SeoPage {
   url: string
   head?: { title?: string; meta_description?: string; h1?: string }
   opening_paragraph?: string[]
   replace_in_block?: SeoReplaceBlock[]
   add_block?: SeoAddBlock[]
+  images?: SeoImage[]
 }
 
 const ROUTES = routes as Record<string, string>
@@ -197,6 +206,7 @@ export const FULLPAGE_ROUTES: ReadonlySet<string> = new Set([
   '/best-catering-companies-dubai',
   '/blog/brunch-at-home-dubai',
   '/blog/corporate-event-catering-ideas-dubai',
+  '/blog/desert-dinner-party-dubai',
   '/blog/dinner-party-menu-ideas-dubai',
   '/blog/grazing-table-vs-buffet-dubai',
   '/blog/how-far-ahead-book-caterer-dubai',

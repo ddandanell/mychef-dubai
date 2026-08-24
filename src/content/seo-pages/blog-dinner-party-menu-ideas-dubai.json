@@ -21,7 +21,8 @@
   "subkeywords_not_carried": [
    "impressive dinner party recipes for adults"
   ],
-  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy.",
+  "focus_keyword": "dinner party menu ideas dubai"
  },
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
@@ -236,6 +237,29 @@
    "answer": [
     "Two to four weeks is comfortable for most dates, and longer for peak periods and large groups. Share your date, guest count and venue, and you will get an itemised proposal, usually within one business day."
    ]
+  }
+ ],
+ "images": [
+  {
+   "src": "/images/blog/dinner-party-menu-ideas-dubai-hero.webp",
+   "alt": "Dinner party menu ideas dubai — myCHEF Dubai private chef and catering",
+   "role": "hero",
+   "width": 1280,
+   "height": 720
+  },
+  {
+   "src": "/images/blog/dinner-party-menu-ideas-dubai-2.webp",
+   "alt": "Dinner party menu ideas dubai — table and food setup",
+   "role": "inline",
+   "width": 1280,
+   "height": 720
+  },
+  {
+   "src": "/images/blog/dinner-party-menu-ideas-dubai-3.webp",
+   "alt": "Dinner party menu ideas dubai — guests dining at home in Dubai",
+   "role": "inline",
+   "width": 1280,
+   "height": 720
   }
  ]
 }

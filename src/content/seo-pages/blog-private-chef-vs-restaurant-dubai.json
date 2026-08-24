@@ -23,7 +23,8 @@
   "subkeywords_not_carried": [
    "how much does a private chef earn in dubai?"
   ],
-  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy.",
+  "focus_keyword": "private chef vs restaurant dubai"
  },
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
@@ -37,7 +38,7 @@
  "replace_in_block": [
   {
    "block_on_your_page": "Private chef vs restaurant Dubai: which wins a special occasion?",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "Private chef vs restaurant Dubai: which wins a special occasion?",
    "new_paragraphs": [
     "For a real special occasion, a private chef usually wins, and the reason is exclusivity. Restaurant vs private chef in Dubai is a question of whose night it is. A restaurant seats you in a public room on someone else's schedule; a private chef builds the whole evening around your table, your pace and your guest list. Dubai gives that chef a lot to compete with. Restaurant Week 2026 alone ran more than 125 venues, over 30 of them in the Michelin Guide, according to Dubai Chronicle . That choice is dazzling, but none of those tables are only yours. For a proposal or a landmark birthday, that one difference tends to settle the decision."
@@ -45,7 +46,7 @@
   },
   {
    "block_on_your_page": "The real case for a private chef at home",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "The real case for a private chef at home",
    "new_paragraphs": [
     "Hire a private chef at home in Dubai and you buy three things a restaurant cannot sell: a bespoke menu, genuine privacy, and no closing time. The chef cooks a private chef dinner planned around your tastes, your allergies and the mood you are after, then serves it in a room with no other tables in it. Private dining vs a restaurant is the difference between a night shaped to you and a night you fit yourself into. The private chef benefits are practical, too. You host in your own villa or apartment, children and older guests stay comfortable, and the private chef experience keeps going long after a restaurant would have wanted the table back. The chef also washes up before leaving, so the last thing you do on a night like that is not the dishes. This is fine dining at home, minus the drive, the parking and the last call."
@@ -53,7 +54,7 @@
   },
   {
    "block_on_your_page": "When a restaurant is the smarter call",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "When a restaurant is the smarter call",
    "new_paragraphs": [
     "Sometimes the restaurant is the right answer. If you decide at seven that you want dinner out tonight, no private chef or restaurant debate is needed. You book a table and go. A restaurant wins when you want zero setup, a buzzing atmosphere, a view you cannot recreate at home, or one specific kitchen you have been meaning to try. Dubai's line-up runs deep, from Michelin-listed dining rooms to neighbourhood favourites. You give up control of the menu and you share the space, but you gain spontaneity and someone else does the washing up. For big, loud, see-and-be-seen nights, that trade is often exactly what you want."
@@ -61,7 +62,7 @@
   },
   {
    "block_on_your_page": "Private chef cost vs a restaurant, honestly",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "Private chef cost vs a restaurant, honestly",
    "new_paragraphs": [
     "On paper a private chef reads as pricier per head, but the gap narrows fast. MyCHEF private chefs are priced per person, usually from AED 700 to AED 950, with a multi-course celebration for a small group often landing around AED 2,400 to AED 3,600 in total. Weigh the private chef cost against a restaurant on equal terms. A high-end Dubai restaurant adds service, drinks at a markup and, on busy nights, a minimum spend once the occasion gets going. The private chef value is that the whole fee stays on your table and your group, with no other diners and no rushed turnover. For four to eight guests, the two options frequently land closer than people assume."
@@ -69,7 +70,7 @@
   },
   {
    "block_on_your_page": "Is a private chef worth it in Dubai?",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "Is a private chef worth it in Dubai?",
    "new_paragraphs": [
     "For the right night, yes, a private chef is worth it in Dubai when the occasion matters more than the convenience. Ask what you are paying for. If it is a forgettable weekday meal, a restaurant or a takeaway is fine. If it is an anniversary, a proposal, or a birthday you will talk about for years, the private chef value shows up in the details a restaurant cannot manage: the exact dish you love, your music, your timing, your guests and nobody else's. That is the honest private chef comparison. Worth it is not about the lowest bill. It is about whether the evening is yours."
@@ -77,7 +78,7 @@
   },
   {
    "block_on_your_page": "What is the difference between a chef and a private chef?",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "What is the difference between a chef and a private chef?",
    "new_paragraphs": [
     "A chef, in the ordinary sense of the word, cooks in a commercial kitchen for a room full of strangers: a fixed menu, a brigade around them and covers to turn. A private chef cooks for one household and one table, and the job is wider than the cooking. They take the brief, write the menu for the people who will actually eat it, shop for it, cook it in a domestic kitchen on domestic equipment, serve the courses at your pace and leave the kitchen clean. The craft overlaps almost entirely; the working day does not. Two different things also get called by the same name. A full time private chef in Dubai is employed by a household and cooks daily around a family's routine, diet and travel. A private chef booked for an evening is hired for one occasion and gone by midnight. Most people planning a celebration want the second, and that is what myCHEF arranges: a matched chef for your date, from AED 700 to AED 950 per person."
@@ -85,7 +86,7 @@
   },
   {
    "block_on_your_page": "Is the food safe when a chef cooks in your home?",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "Is the food safe when a chef cooks in your home?",
    "new_paragraphs": [
     "Yes, private cooking for guests in Dubai is a licensed, regulated activity, not a grey area. Cooking for a private party falls under the Party Cook business activity, code 5629.92, which the Meydan Free Zone notes requires Dubai Municipality Food Safety Department approval and registration on the FoodWatch platform before any food is prepared. On top of that, food handlers are expected to hold recognised training, such as the Person in Charge or basic food-hygiene certification, through Dubai Municipality-approved programmes . A serious private chef treats your kitchen with the same hygiene discipline a licensed restaurant kitchen has to follow."
@@ -93,7 +94,7 @@
   },
   {
    "block_on_your_page": "How myCHEF vets its private chefs",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "How myCHEF vets its private chefs",
    "new_paragraphs": [
     "Every myCHEF chef is checked before they ever cook for you. We run identity checks, a practical cooking assessment and reference verification, then keep watching quality through ongoing reviews after real events. So when Ahmed Al-Rashid plans a fine-dining tasting menu or Marco Rossi builds an Italian and Mediterranean spread, you are booking a chef whose skill has been tested, not just described. That vetting is a quiet part of the private chef vs restaurant Dubai answer. A restaurant kitchen is anonymous; your private chef is a named professional standing in your own home. If a dish or a detail matters, you talk to the person cooking it."
@@ -101,7 +102,7 @@
   },
   {
    "block_on_your_page": "Plan your special occasion with myCHEF",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "Plan your special occasion with myCHEF",
    "new_paragraphs": [
     "Ready to compare properly? Tell us your date, guest count and venue, and we will send an itemised proposal, usually within one business day. Explore a private chef in Dubai , our luxury dining experiences , or a proposal dinner , and see recent briefs in our. Planning something larger? Our catering in Dubai scales the same kitchen up to a full party."
@@ -109,7 +110,7 @@
   },
   {
    "block_on_your_page": "Private chef vs restaurant: an honest comparison",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "Private chef vs restaurant: an honest comparison",
    "new_paragraphs": [
     "Private chef Restaurant",
@@ -122,7 +123,7 @@
   },
   {
    "block_on_your_page": "Frequently asked questions",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "Frequently asked questions",
    "new_paragraphs": [
     "Is a private chef cheaper than a restaurant in Dubai?",
@@ -225,6 +226,29 @@
    "answer": [
     "Book as early as you can for weekends and peak season. Share your date, guest count and venue with myCHEF and you will receive an itemised proposal, usually within one business day."
    ]
+  }
+ ],
+ "images": [
+  {
+   "src": "/images/blog/private-chef-vs-restaurant-dubai-hero.webp",
+   "alt": "Private chef vs restaurant dubai — myCHEF Dubai private chef and catering",
+   "role": "hero",
+   "width": 1280,
+   "height": 720
+  },
+  {
+   "src": "/images/blog/private-chef-vs-restaurant-dubai-2.webp",
+   "alt": "Private chef vs restaurant dubai — table and food setup",
+   "role": "inline",
+   "width": 1280,
+   "height": 720
+  },
+  {
+   "src": "/images/blog/private-chef-vs-restaurant-dubai-3.webp",
+   "alt": "Private chef vs restaurant dubai — guests dining at home in Dubai",
+   "role": "inline",
+   "width": 1280,
+   "height": 720
   }
  ]
 }

@@ -6,12 +6,13 @@ import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import { ArrowRight, Phone, BookOpen } from 'lucide-react'
 import SEO from '../components/SEO'
 import PageHero from '../components/PageHero'
+import { DAVID_BLOGS } from '../content/blogSeries'
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I found your blog and would like to discuss catering (via mychef.ae/blog)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
-const posts = [
+const featuredPosts = [
   {
     slug: '/blog/ramadan-iftar-catering-trends-2026',
     title: 'Ramadan Iftar Catering Trends for 2026',
@@ -77,6 +78,18 @@ const posts = [
     image: '/images/halal-catering-dubai-hero.webp',
   },
 ]
+
+// The 13 David blogs (rendered via HandoffPage). Each has a hero image under /images/blog/.
+const davidPosts = DAVID_BLOGS.map((b) => ({
+  slug: b.url,
+  title: b.title,
+  excerpt: b.excerpt,
+  category: b.category,
+  date: b.date,
+  image: `/images/blog${b.url.replace('/blog', '')}-hero.webp`,
+}))
+
+const posts = [...featuredPosts, ...davidPosts]
 
 const collectionSchema = {
   '@type': 'CollectionPage',
