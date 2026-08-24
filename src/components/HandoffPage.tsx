@@ -3,13 +3,31 @@ import { Link, useLocation } from 'react-router'
 import { Phone } from 'lucide-react'
 import SEO from './SEO'
 import TrustSignalStrip from './TrustSignalStrip'
-import { getSeoContent, type SeoPage } from '../content/seo'
+import { getSeoContent, type SeoPage, type SeoImage } from '../content/seo'
 
 const WHATSAPP_LINK = 'https://wa.me/971551744849'
 
 interface RenderedBlock {
   heading: string
   paragraphs: string[]
+}
+
+/** Editorial figure for blog imagery. The hero is eager + high priority (it is the LCP element). */
+function BlogFigure({ image, priority = false }: { image: SeoImage; priority?: boolean }) {
+  return (
+    <figure className="my-10 overflow-hidden rounded-2xl bg-gray-100">
+      <img
+        src={image.src}
+        alt={image.alt}
+        width={image.width}
+        height={image.height}
+        loading={priority ? 'eager' : 'lazy'}
+        decoding={priority ? 'sync' : 'async'}
+        fetchPriority={priority ? 'high' : 'auto'}
+        className="w-full h-auto object-cover"
+      />
+    </figure>
+  )
 }
 
 /**
@@ -66,6 +84,23 @@ export default function HandoffPage() {
     ...(data.add_block ?? []).map((b) => ({ heading: b.new_heading, paragraphs: b.new_paragraphs })),
   ].filter((b) => Boolean(b.heading) && Array.isArray(b.paragraphs) && b.paragraphs.length > 0)
 
+  // Blog imagery: a hero figure at the top of the article, inline figures spread through the body.
+  const images = data.images ?? []
+  const heroImage = images.find((im) => im.role === 'hero') ?? null
+  const inlineImages = images.filter((im) => im.role !== 'hero')
+  // Map each inline image to the block index it should appear after, spread evenly and without collisions.
+  const imageAfterBlock = new Map<number, SeoImage>()
+  if (inlineImages.length > 0 && blocks.length > 0) {
+    const step = Math.max(1, Math.floor(blocks.length / (inlineImages.length + 1)))
+    let used = -1
+    inlineImages.forEach((im, i) => {
+      let pos = Math.min(blocks.length - 1, (i + 1) * step - 1)
+      if (pos <= used) pos = Math.min(blocks.length - 1, used + 1)
+      used = pos
+      imageAfterBlock.set(pos, im)
+    })
+  }
+
   return (
     <div>
       <SEO title={seoTitle} description={head.meta_description} canonicalPath={pathname} />
@@ -103,16 +138,21 @@ export default function HandoffPage() {
       {/* Body */}
       <article className="bg-white section-padding">
         <div className="article-body container-custom max-w-[820px]">
-          {blocks.map((block, bi) => (
-            <section key={`${block.heading}-${bi}`} className="mb-12">
-              <h2 className="font-playfair text-h2 text-black mb-5">{block.heading}</h2>
-              {block.paragraphs.map((p, i) => (
-                <p key={i} className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-                  {p}
-                </p>
-              ))}
-            </section>
-          ))}
+          {heroImage && <BlogFigure image={heroImage} priority />}
+          {blocks.map((block, bi) => {
+            const inline = imageAfterBlock.get(bi)
+            return (
+              <section key={`${block.heading}-${bi}`} className="mb-12">
+                <h2 className="font-playfair text-h2 text-black mb-5">{block.heading}</h2>
+                {block.paragraphs.map((p, i) => (
+                  <p key={i} className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+                    {p}
+                  </p>
+                ))}
+                {inline && <BlogFigure image={inline} />}
+              </section>
+            )
+          })}
         </div>
       </article>
 

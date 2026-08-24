@@ -19,7 +19,8 @@
   "subkeywords_not_carried": [
    "live in chef dubai"
   ],
-  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy.",
+  "focus_keyword": "date night ideas dubai"
  },
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
@@ -33,7 +34,7 @@
  "replace_in_block": [
   {
    "block_on_your_page": "Why a private chef beats a restaurant for date night",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "Why a private chef beats a restaurant for date night",
    "new_paragraphs": [
     "A private chef wins on privacy and pace: no other tables, no last call, no drive home. Dubai's most romantic restaurants are genuinely special, from At.mosphere on the 122nd floor of the Burj Khalifa to La Petite Maison in DIFC, and What's On notes the popular ones fill up fast, so you book weeks ahead and eat on their clock. At home the room is already yours, and so is the menu. If you want to linger over dessert past midnight, nobody is turning the table. For a lot of couples that trade is worth making: a genuine occasion without the logistics, and date night ideas in Dubai that skip the valet queue entirely."
@@ -41,7 +42,7 @@
   },
   {
    "block_on_your_page": "What does a private chef date night cost in Dubai?",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "What does a private chef date night cost in Dubai?",
    "new_paragraphs": [
     "A private chef date night in Dubai starts from AED 1,200 for two. That covers the chef, a multi-course plated menu, cooking on site, service and the clear-up. Longer tasting menus with wine-style pairings and a few extra courses run around AED 2,400, and if you fold in a small celebration for close friends the figure moves toward AED 3,600. The private chef date night cost in Dubai depends on the number of courses, the ingredients (fresh seafood or a good cut of beef pushes it up) and whether you add styling. Ask for an itemised quote so you can see exactly where the money goes, instead of a flat, mystery rate."
@@ -49,7 +50,7 @@
   },
   {
    "block_on_your_page": "What goes on the menu for a romantic dinner for two?",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "What goes on the menu for a romantic dinner for two?",
    "new_paragraphs": [
     "Anything the two of you love. The best evenings are rarely the most elaborate ones, and a romantic dinner in Dubai is built backwards from your taste: the dish from your first date, a shared favourite cuisine, or a menu you have wanted to try for months. Marco Rossi cooks Italian and Mediterranean, so handmade pasta followed by a slow-cooked main is a comforting, low-drama route. For the finish, Matteo Moretti handles pastry and plated desserts, which is usually where an anniversary dinner in Dubai earns its quiet gasp. Tell the chef about allergies, a vegetarian partner or a no-go ingredient, and the menu is rebuilt around it without fuss. A private chef romantic dinner in Dubai is as pared-back or as ambitious as you want, from three comfortable courses to a slow six-course tasting for two."
@@ -57,7 +58,7 @@
   },
   {
    "block_on_your_page": "Is a date night at home smarter in Dubai's summer?",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "Is a date night at home smarter in Dubai's summer?",
    "new_paragraphs": [
     "In summer, yes. July is among the UAE's hottest months, with average daytime maximums between 39.7°C and 43.8°C according to the National Center of Meteorology, as Gulf News reports. Crossing town for a booking in that heat, then hunting for parking, is nobody's idea of romance. A date night at home in Dubai skips all of it: the chef arrives, your kitchen does the work, and the air conditioning stays exactly where you like it. An at-home date night in Dubai also travels well to a villa, an apartment or a rooftop once the evenings cool in winter. Couples who host this way tend to relax faster, because there is no reservation clock and no journey home waiting at the end."
@@ -65,7 +66,7 @@
   },
   {
    "block_on_your_page": "How is food safety handled when a chef cooks in your home?",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "How is food safety handled when a chef cooks in your home?",
    "new_paragraphs": [
     "Carefully, and to Dubai's standards. Food-service work in Dubai runs on a HACCP-based food-safety system, and food handlers are expected to be trained in personal hygiene, temperature control and cross-contamination, as set out in industry guidance on Dubai Municipality rules . In practice your chef manages the cold chain from shop to plate, keeps raw and cooked foods apart in your kitchen, cooks to safe temperatures and leaves the space clean. You get restaurant-grade discipline without the restaurant. If there is a serious allergy in the room, flag it at booking so the chef can plan separate prep and equipment instead of improvising on the night."
@@ -73,7 +74,7 @@
   },
   {
    "block_on_your_page": "How does myCHEF vet its private chefs?",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "How does myCHEF vet its private chefs?",
    "new_paragraphs": [
     "Every myCHEF chef clears the same checks before cooking for anyone. That means verified identity documents, a practical cooking assessment instead of a CV read-through, reference checks with previous clients or kitchens, and ongoing reviews after real bookings. For a date night that matters more than it sounds, because you are handing a near-stranger your kitchen and one of the more important evenings of your year. Ahmed Al-Rashid leads the fine-dining side if you want a formal, multi-course experience, while the wider team covers everything from a relaxed couples dinner to a full proposal. You can read how the checks work on our chef vetting page, and see real briefs in our."
@@ -81,7 +82,7 @@
   },
   {
    "block_on_your_page": "How do I plan an anniversary, proposal or surprise?",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "How do I plan an anniversary, proposal or surprise?",
    "new_paragraphs": [
     "Start with the moment, then build the food around it. For an anniversary dinner in Dubai, tell us the story and we will thread it through the menu and the table. For a proposal, timing is everything: the chef can hold the dessert course until your signal, and we can style the room with candles and flowers before you arrive, so it is ready the second you walk in. These are the date night ideas in Dubai that couples tend to remember, and they usually cost less than most assume. See our date night , romantic dinner and proposal dinner pages, or send a rough brief and get an itemised plan back."
@@ -89,7 +90,7 @@
   },
   {
    "block_on_your_page": "Planning private chef date night step by step",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "Planning private chef date night step by step",
    "new_paragraphs": [
     "Send your date, guest count and venue — your private chef date night proposal arrives.",
@@ -102,7 +103,7 @@
   },
   {
    "block_on_your_page": "Frequently asked questions",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "Frequently asked questions",
    "new_paragraphs": [
     "How much does a private chef date night in Dubai cost?",
@@ -190,6 +191,29 @@
    "answer": [
     "Yes. myCHEF is implementing a documented vetting standard covering identity, a practical cooking assessment, references and post-event review. The chefs we work with operate to Dubai's HACCP-based food-safety standards."
    ]
+  }
+ ],
+ "images": [
+  {
+   "src": "/images/blog/private-chef-date-night-dubai-hero.webp",
+   "alt": "Date night ideas dubai — myCHEF Dubai private chef and catering",
+   "role": "hero",
+   "width": 1280,
+   "height": 720
+  },
+  {
+   "src": "/images/blog/private-chef-date-night-dubai-2.webp",
+   "alt": "Date night ideas dubai — table and food setup",
+   "role": "inline",
+   "width": 1280,
+   "height": 720
+  },
+  {
+   "src": "/images/blog/private-chef-date-night-dubai-3.webp",
+   "alt": "Date night ideas dubai — guests dining at home in Dubai",
+   "role": "inline",
+   "width": 1280,
+   "height": 720
   }
  ]
 }

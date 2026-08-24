@@ -18,7 +18,8 @@
    "grazing table vs buffet dubai price"
   ],
   "subkeywords_not_carried": [],
-  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy.",
+  "focus_keyword": "grazing table vs buffet dubai"
  },
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
@@ -32,7 +33,7 @@
  "replace_in_block": [
   {
    "block_on_your_page": "What exactly is a grazing table?",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "What exactly is a grazing table?",
    "new_paragraphs": [
     "A grazing table is abundance turned into decor. If you have only ever seen the phrase on an invitation, the meaning is simple enough. Picture a long table, or a smaller grazing board for intimate rooms, covered edge to edge with cheeses, charcuterie, dips, marinated vegetables, fresh and dried fruit, nuts, honeycomb and warm breads, styled to be photographed as much as eaten. In Dubai, grazing table catering has become a signature of stylish home parties because it doubles as the room's centrepiece. Guests help themselves through the evening, so there is no fixed sit-down moment. A single grazing platter can anchor a small gathering, while a full table works a bigger room. The look is generous and organic, with trailing greenery, overlapping textures and height built from stands and boxes, and it photographs beautifully."
@@ -40,7 +41,7 @@
   },
   {
    "block_on_your_page": "What is a buffet, and when does it win?",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "What is a buffet, and when does it win?",
    "new_paragraphs": [
     "A buffet is a full self-serve meal, and it wins whenever guests arrive genuinely hungry. Hot and cold mains, rice and grains, salads, sides and a dessert course sit in sequence so people build a complete plate and go back for more. Buffet catering in Dubai scales more economically than plated service, which is why it suits larger numbers, think 40 guests and up. Strong buffet ideas balance a crowd-pleasing centre, a carvery, a biryani or a live pasta station, with lighter options and labelled vegetarian and halal dishes. The carvery is worth knowing about for a practical reason: it is the one live station that fits any Dubai venue — villa dining room, apartment, terrace, beach or yacht deck — because it needs no flame, no fuel and no extraction, only hot-holding and a carving lamp. Where a building or a boat will not take live fire, the carvery is what keeps a centrepiece on the table, with the roasting and smoking done beforehand in the licensed kitchen and the carving done in front of guests. The trade-off is floor space, a sensible service flow and often chafing dishes to hold temperature, so a buffet reads less like decor and more like dinner. If your priority is a full room, a buffet delivers."
@@ -48,7 +49,7 @@
   },
   {
    "block_on_your_page": "Grazing table vs buffet Dubai: the honest comparison",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "Grazing table vs buffet Dubai: the honest comparison",
    "new_paragraphs": [
     "In the grazing table vs buffet Dubai comparison, the deciding factors are appetite, headcount and atmosphere. Choose grazing when the event is social and free-flowing: a cocktail evening, a product launch, a baby shower or a milestone drinks party where people mingle, nibble and seldom sit down. Choose a buffet when the meal is the event, a family celebration, a large birthday, a wedding reception, and guests expect to leave properly fed. Headcount matters too. Grazing shines up to roughly 30 to 40, after which a single table gets crowded and a buffet, or several grazing stations, serves better. Atmosphere is the final cue: grazing feels intimate and design-led, while a buffet feels abundant and communal. Neither format wins outright; they solve different problems."
@@ -56,7 +57,7 @@
   },
   {
    "block_on_your_page": "How much does each cost in Dubai?",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "How much does each cost in Dubai?",
    "new_paragraphs": [
     "Grazing table prices in Dubai typically start from around AED 950 for a compact platter and rise with size, styling and premium ingredients; a full styled table for a party often lands between AED 2400 and AED 4500. Buffet catering prices are usually quoted per head, from around AED 700 per person for a considered menu, so the total tracks your guest count instead of a single centrepiece. A grazing table can look more lavish for less at a small gathering, because one table serves many, while a buffet becomes the sensible pick as numbers climb, because per-head pricing stays predictable. Ask exactly what is included: styling, boards, replenishment, staff, delivery and collection, because the headline figure and the delivered figure can differ more than you expect."
@@ -64,7 +65,7 @@
   },
   {
    "block_on_your_page": "Grazing table ideas that work in Dubai's climate",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "Grazing table ideas that work in Dubai's climate",
    "new_paragraphs": [
     "The grazing table ideas that hold up in Dubai account for one thing above all: heat. Local summers are punishing, and Gulf News reports the hottest temperature recorded in the UAE reached 51.2C. Soft cheeses, cured meats and cut fruit lose their looks fast outdoors, so plan a shaded or indoor position and keep replenishment coming from a chilled back-of-house. Food safety sets the clock: Dubai Municipality guidance, via Khaleej Times , is that perishable food should not sit out beyond two hours. Lean on items that travel well, such as hard cheeses, olives, nuts, crackers, robust vegetables and dips, and build height with stands and boxes so the grazing board still reads full as guests eat through it."
@@ -72,7 +73,7 @@
   },
   {
    "block_on_your_page": "Which suits weddings and larger events?",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "Which suits weddings and larger events?",
    "new_paragraphs": [
     "For weddings and larger events, most hosts use both formats in sequence. A grazing table wedding welcome, set up during photos and canapés, gives arriving guests something to graze while the main room is prepared, and it doubles as a photo backdrop. The seated or buffet meal then does the feeding. When you plan a grazing table for events at scale, think in stations instead of one giant table, so queues stay short and the display stays generous. Grazing table hire in Dubai usually bundles the styling props, boards and greenery with the food, so confirm whether staffing and replenishment are included. For any sizeable celebration, event catering should be costed per head with a clear service plan, so the centrepiece does not quietly become a bottleneck on the night."
@@ -80,7 +81,7 @@
   },
   {
    "block_on_your_page": "Can you combine both catering styles?",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "Can you combine both catering styles?",
    "new_paragraphs": [
     "Yes, combining catering styles is often the smart move in Dubai. A well-tested flow is a grazing table on arrival for the first hour while guests settle, followed by a buffet or plated dinner once the room is seated, and finally a dessert grazing board to close. That gives the evening three distinct moments and keeps energy up without anyone waiting on a single service point. It also lets you flex the budget: a modest grazing centrepiece plus a well-priced buffet can feel more generous than one expensive format alone. Brief your caterer on the full timeline, arrival, speeches, dinner and dancing, so each style lands at the right moment and the kitchen can sequence its prep and replenishment."
@@ -88,7 +89,7 @@
   },
   {
    "block_on_your_page": "How myCHEF plans and delivers it",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "How myCHEF plans and delivers it",
    "new_paragraphs": [
     "At myCHEF we start from your brief: guest count, venue, timing, dietaries and the feeling you want. Then we shape the format, or the mix, that fits. For an Italian or Mediterranean grazing table, Marco Rossi builds antipasti and cheese displays with real depth. For an Arabic mezze table or a Ramadan iftar, Layla Hassan leads a halal-first spread. For a dessert grazing table or a wedding sweet display, Matteo Moretti handles the pastry work, while Ahmed Al-Rashid covers fine-dining plated service. Every chef on our roster is vetted before a single booking: identity checks, a practical cooking assessment, reference verification and ongoing reviews after events. Partners handle sourcing, styling, on-site setup and collection in line with Dubai Municipality food-safety norms, so your job on the day is to host."
@@ -96,7 +97,7 @@
   },
   {
    "block_on_your_page": "Plan it with myCHEF",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "Plan it with myCHEF",
    "new_paragraphs": [
     "Still weighing it up? Tell us your date, guest count and venue and we will suggest the right format and an itemised quote, usually within one business day. Explore Grazing Tables · Buffet Catering · Party Catering , or start from private chef or catering in Dubai ."
@@ -104,7 +105,7 @@
   },
   {
    "block_on_your_page": "Planning grazing table vs buffet step by step",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "Planning grazing table vs buffet step by step",
    "new_paragraphs": [
     "Send your date, guest count and venue — your grazing table vs buffet proposal arrives.",
@@ -117,7 +118,7 @@
   },
   {
    "block_on_your_page": "Frequently asked questions",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "Frequently asked questions",
    "new_paragraphs": [
     "Is a grazing table or a buffet cheaper in Dubai?",
@@ -210,6 +211,29 @@
    "answer": [
     "Yes, and it is a popular flow: a grazing table on arrival while guests mingle, a buffet or plated dinner once the room is seated, then a dessert grazing board to close. Brief your caterer on the full timeline so each style lands at the right moment."
    ]
+  }
+ ],
+ "images": [
+  {
+   "src": "/images/blog/grazing-table-vs-buffet-dubai-hero.webp",
+   "alt": "Grazing table vs buffet dubai — myCHEF Dubai private chef and catering",
+   "role": "hero",
+   "width": 1280,
+   "height": 720
+  },
+  {
+   "src": "/images/blog/grazing-table-vs-buffet-dubai-2.webp",
+   "alt": "Grazing table vs buffet dubai — table and food setup",
+   "role": "inline",
+   "width": 1280,
+   "height": 720
+  },
+  {
+   "src": "/images/blog/grazing-table-vs-buffet-dubai-3.webp",
+   "alt": "Grazing table vs buffet dubai — guests dining at home in Dubai",
+   "role": "inline",
+   "width": 1280,
+   "height": 720
   }
  ]
 }

@@ -23,7 +23,8 @@
   "subkeywords_not_carried": [
    "luxury nye party catering dubai"
   ],
-  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy.",
+  "focus_keyword": "new years eve catering dubai"
  },
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
@@ -234,6 +235,36 @@
    "answer": [
     "We can. A yacht evening works well with a sea-friendly menu of sushi, grazing and cold canapés, since galley space is tight, and it puts the fireworks over the water. Book the charter and the chef together, and book both early."
    ]
+  }
+ ],
+ "images": [
+  {
+   "src": "/images/blog/nye-party-catering-dubai-hero.webp",
+   "alt": "New years eve catering dubai — myCHEF Dubai private chef and catering",
+   "role": "hero",
+   "width": 1280,
+   "height": 720
+  },
+  {
+   "src": "/images/blog/nye-party-catering-dubai-2.webp",
+   "alt": "New years eve catering dubai — table and food setup",
+   "role": "inline",
+   "width": 1280,
+   "height": 720
+  },
+  {
+   "src": "/images/blog/nye-party-catering-dubai-3.webp",
+   "alt": "New years eve catering dubai — guests dining at home in Dubai",
+   "role": "inline",
+   "width": 1280,
+   "height": 720
+  },
+  {
+   "src": "/images/blog/nye-party-catering-dubai-4.webp",
+   "alt": "New years eve catering dubai — close-up food detail",
+   "role": "inline",
+   "width": 1280,
+   "height": 720
   }
  ]
 }

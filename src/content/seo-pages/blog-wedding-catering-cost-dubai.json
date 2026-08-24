@@ -22,7 +22,8 @@
    "how much does an emirati wedding cost?",
    "how much does a wedding planner cost in dubai?"
   ],
-  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy.",
+  "focus_keyword": "wedding catering cost dubai"
  },
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
@@ -36,7 +37,7 @@
  "replace_in_block": [
   {
    "block_on_your_page": "What does wedding catering cost in Dubai, really?",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "What does wedding catering cost in Dubai, really?",
    "new_paragraphs": [
     "As a working range, plated wedding catering in Dubai starts near AED 700 per guest, climbs to roughly AED 950 per guest for a fuller menu, and rises further for a luxury multi-course tasting. Buffets and grazing tables generally sit below the plated figure. Those are food-and-service numbers; quotes are usually shown before the standard 5% VAT, and a venue may add its own service charge on top. Because so much rides on your choices, treat any single \"average\" you read online with caution and get a real quote against your own guest list."
@@ -44,7 +45,7 @@
   },
   {
    "block_on_your_page": "Plated, buffet or stations: which format costs more?",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "Plated, buffet or stations: which format costs more?",
    "new_paragraphs": [
     "Plated service is the most expensive format per head, and for a clear reason. A wedding buffet catering setup lets guests serve themselves from a spread, so you need fewer waiters and the kitchen can batch-cook. Live stations sit in the middle, offering theatre without full table service. A plated dinner needs more chefs and service staff timed to each course, which is what pushes the wedding catering price per head up. If you want the feel of fine dining on a tighter wedding caterer budget, a hybrid works well: plated starters and dessert with sharing platters in the middle."
@@ -52,7 +53,7 @@
   },
   {
    "block_on_your_page": "What is included in a wedding catering package?",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "What is included in a wedding catering package?",
    "new_paragraphs": [
     "A proper wedding catering package should cover menu design and a tasting, the chefs and service staff, plating and styling, plus setup and cleanup. The wedding food catering line most people forget is labour: on a wedding day you are paying for a team, not just ingredients. Confirm exactly which wedding catering services are inside the quote and which are extras, because rentals, a bar, a cake or a dessert table are often priced separately. A clear itemised proposal is the sign of a caterer worth booking; a single lump sum with no breakdown is not."
@@ -60,7 +61,7 @@
   },
   {
    "block_on_your_page": "The lines that sit outside the per-head price",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "The lines that sit outside the per-head price",
    "new_paragraphs": [
     "Two things routinely surprise couples. The first is tax: every catering invoice in the UAE carries 5% VAT, which the UAE Ministry of Finance introduced across the country on 1 January 2018. A proposal that does not show it as its own line is incomplete instead of cheaper, and on a wedding-sized total that difference is worth seeing before you sign.",
@@ -69,7 +70,7 @@
   },
   {
    "block_on_your_page": "How does guest count change the price per head?",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "How does guest count change the price per head?",
    "new_paragraphs": [
     "Larger receptions bring the wedding catering cost per person down, up to a point. Fixed costs such as kitchen setup, delivery and a core service team are spread across more covers, so a 150-guest reception often has a lower per-head figure than a 40-person dinner of the same menu. That is why wedding catering prices in Dubai are almost typically quoted once the caterer knows your headcount and venue. If your numbers are still moving, ask for a quote at two guest counts so you can see how the cost of wedding catering in Dubai flexes as the list firms up."
@@ -77,7 +78,7 @@
   },
   {
    "block_on_your_page": "What pushes a luxury wedding catering bill higher?",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "What pushes a luxury wedding catering bill higher?",
    "new_paragraphs": [
     "Premium ingredients and premium service are what separate a luxury wedding catering menu from a standard one. Think seafood towers, wagyu, a live pasta or shawarma station, a bespoke wedding catering menu built around your story, and a higher ratio of staff to guests for slick, unhurried service. Styling matters too: custom plating, linens and a styled dessert table read as luxury and carry a cost. For a lavish multi-course tasting at a headline venue, per-guest figures around AED 1,200 and full-service wedding packages from roughly AED 4,500 are realistic once you layer these in."
@@ -85,7 +86,7 @@
   },
   {
    "block_on_your_page": "Can you do affordable or small wedding catering without cutting quality?",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "Can you do affordable or small wedding catering without cutting quality?",
    "new_paragraphs": [
     "Yes, and the trick is format, not compromise. For affordable wedding catering in Dubai, a generous buffet or grazing stations delivers variety at a friendlier per-head cost than a plated banquet. Small wedding catering follows a different logic: an intimate villa dinner for a handful of guests is often built around a private-chef booking with a minimum event value instead of a low per-head rate, so the experience stays personal. Seasonal timing helps as well. Dubai's peak wedding season runs November to March, so a shoulder-month or midweek date can ease pressure on availability and pricing, per The Wedding Atelier ."
@@ -93,7 +94,7 @@
   },
   {
    "block_on_your_page": "Who cooks it, and how are the chefs vetted?",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "Who cooks it, and how are the chefs vetted?",
    "new_paragraphs": [
     "Your menu decides your chef. MyCHEF pairs weddings with cooks who fit the brief: Ahmed Al-Rashid for plated fine dining, Marco Rossi for Italian and Mediterranean sharing feasts, Layla Hassan for fully halal Arabic menus, and Matteo Moretti for the wedding cake and dessert table. Every chef goes through real vetting before working an event: verified identity checks, a practical cooking assessment, reference verification, and ongoing performance reviews after each booking. You can read the full process on how we vet our chefs . Food safety across Dubai catering is overseen by the Dubai Municipality Food Safety Department , which sets the hygiene standards caterers operate under.",
@@ -102,7 +103,7 @@
   },
   {
    "block_on_your_page": "How to get an accurate quote and when to book",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "How to get an accurate quote and when to book",
    "new_paragraphs": [
     "The fastest route to a real number is to send your date, venue, guest count and preferred format, then sit down to a tasting before you commit. Peak season is the cooler window from November to March, when Dubai days average around 27°C and nights fall to about 19°C ( Weather and Climate ) and outdoor receptions work comfortably — which is also why a wedding reception catering slot then can be reserved six to twelve months out, so it pays to approach a wedding caterer in Dubai early instead of close to the date. Our wedding catering page and the planning checklist walk through the rest, and the prices guide gives wider context on catering costs across Dubai."
@@ -110,7 +111,7 @@
   },
   {
    "block_on_your_page": "Planning wedding catering cost step by step",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "Planning wedding catering cost step by step",
    "new_paragraphs": [
     "Send your date, guest count and venue — your wedding catering cost proposal arrives.",
@@ -123,7 +124,7 @@
   },
   {
    "block_on_your_page": "Frequently asked questions",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "Frequently asked questions",
    "new_paragraphs": [
     "How much does wedding catering cost per person in Dubai?",
@@ -205,6 +206,29 @@
    "answer": [
     "It can be. MyCHEF works with chefs such as Layla Hassan who cook fully halal Arabic and international menus, and every menu is confirmed with you in advance so it suits your guests and any dietary or cultural requirements."
    ]
+  }
+ ],
+ "images": [
+  {
+   "src": "/images/blog/wedding-catering-cost-dubai-hero.webp",
+   "alt": "Wedding catering cost dubai — myCHEF Dubai private chef and catering",
+   "role": "hero",
+   "width": 1280,
+   "height": 720
+  },
+  {
+   "src": "/images/blog/wedding-catering-cost-dubai-2.webp",
+   "alt": "Wedding catering cost dubai — table and food setup",
+   "role": "inline",
+   "width": 1280,
+   "height": 720
+  },
+  {
+   "src": "/images/blog/wedding-catering-cost-dubai-3.webp",
+   "alt": "Wedding catering cost dubai — guests dining at home in Dubai",
+   "role": "inline",
+   "width": 1280,
+   "height": 720
   }
  ]
 }

@@ -23,7 +23,8 @@
    "how much to hire a private chef for a day"
   ],
   "subkeywords_not_carried": [],
-  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy.",
+  "focus_keyword": "how to hire a private chef in dubai"
  },
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
@@ -37,7 +38,7 @@
  "replace_in_block": [
   {
    "block_on_your_page": "How to hire a private chef in Dubai, step by step",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "How to hire a private chef in Dubai, step by step",
    "new_paragraphs": [
     "Hiring a private chef in Dubai follows five clear steps: decide the occasion, share a short brief, get matched and quoted, confirm the booking, and enjoy the night. Private chef booking in Dubai begins the moment you send your date, guest numbers, venue and dietary needs; a good service we typically reply within 15 minutes during business hours with a proposed menu and an itemised price. From there, private chef hire in Dubai is mostly about small decisions, menu direction, service style and timing, not logistics. Once you book a private chef in Dubai, the chef takes over sourcing and preparation, so nothing else lands on you. Knowing how to book a private chef in Dubai this way keeps the process calm and predictable from first message to last plate."
@@ -45,7 +46,7 @@
   },
   {
    "block_on_your_page": "How much does it cost to hire a private chef in Dubai?",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "How much does it cost to hire a private chef in Dubai?",
    "new_paragraphs": [
     "Most bookings start from around AED 700 per person for a relaxed multi-course dinner, rising to about AED 950 per person for premium plated menus with more courses and higher-end ingredients. A fine-dining tasting experience begins from AED 1,400 per person, because it adds courses, produce and kitchen time. Your private chef cost in Dubai depends on the menu, guest count, ingredient tier and service style, so a small villa dinner for six might land near AED 2400 in total, while a larger celebration could reach AED 3600 or AED 4500. Private chef prices in Dubai are usually quoted per head and itemised, covering the chef's time, sourcing, cooking, table service and clean-up. Ask exactly what is included, whether tableware and staff are extra, and how leftover ingredients are handled, so you can compare quotes properly and avoid surprises on the night."
@@ -53,7 +54,7 @@
   },
   {
    "block_on_your_page": "How much is it to hire a private chef for a day?",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "How much is it to hire a private chef for a day?",
    "new_paragraphs": [
     "MyCHEF publishes no flat day rate, because the cost of a day tracks the meals and the headcount instead of the hours a chef is in the building. One dinner for six is priced on the menu and the number of guests, from around AED 700 per person. A full day at home — breakfast on the terrace, a lunch by the pool, dinner in the evening — is quoted as three services on one booking, and each service is priced on who sits down to that meal. Two things shift in your favour over a long day. The chef shops once for all three meals, and the setup happens once, so the middle service usually comes back below the headline per-head figure. What you should not expect is an hourly or daily fee that ignores the menu: a day of grazing plates for four people and a day that ends with a plated tasting menu for sixteen are different jobs with different food costs. Send the date, the meals you want covered and the numbers at each one, and the proposal comes back itemised service by service, with 5% VAT shown as its own line."
@@ -61,7 +62,7 @@
   },
   {
    "block_on_your_page": "Live-in and full-time private chefs in Dubai",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "Live-in and full-time private chefs in Dubai",
    "new_paragraphs": [
     "Hiring a chef full-time or live-in is a different transaction from booking one for an evening, and it is worth knowing which you are shopping for before you send enquiries. A live-in chef in Dubai is a household employee. You sponsor the residence visa, arrange medical insurance, pay a monthly salary and provide accommodation and food, and the placement is usually arranged through a licensed domestic-staff agency, not a catering company. That is an employment relationship with payroll and legal duties attached to it. MyCHEF does not place employed household staff, so if a live-in cook is genuinely what you want, a domestic-staff agency is the right door to knock on and we will say so.",
@@ -70,7 +71,7 @@
   },
   {
    "block_on_your_page": "Private chef or personal chef: which do you need?",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "Private chef or personal chef: which do you need?",
    "new_paragraphs": [
     "Choose a private chef in Dubai for a single event and a personal chef for ongoing weekday meals. A private chef designs and cooks a bespoke menu for one occasion, plates each course and serves at the table, which suits dinner parties, celebrations and date nights. A personal chef in Dubai leans more toward routine, cooking a week of meals in advance or teaching your household cook. The lines blur, and many myCHEF chefs do both, so the practical step is to say what you want: a memorable evening, weekly meal prep, or a hybrid where a chef caters a party now and returns for regular cooking later. Being clear up front means you are matched to someone whose strengths fit, instead of paying event rates for meal prep or vice versa."
@@ -78,7 +79,7 @@
   },
   {
    "block_on_your_page": "Can you hire a private chef for a night or a one-off dinner?",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "Can you hire a private chef for a night or a one-off dinner?",
    "new_paragraphs": [
     "Yes, most bookings are single events, so hiring a private chef for a night in Dubai is completely normal and needs no membership or long-term commitment. Whether it is a private chef at home in Dubai for a quiet anniversary, a birthday, or a private chef for a dinner party in Dubai with a dozen friends, you book one evening at a time and rebook whenever you like. The chef arrives with a plan, cooks course by course in your kitchen, and clears everything before leaving. This flexibility is why a private chef at home often beats a restaurant for special occasions: you keep the comfort and privacy of your own space, control the guest list and pacing, and still get a menu built entirely around your table, not a fixed printed one."
@@ -86,7 +87,7 @@
   },
   {
    "block_on_your_page": "Ask about food-safety certification before you book",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "Ask about food-safety certification before you book",
    "new_paragraphs": [
     "This is the question most hosts skip. Under Dubai’s framework, food-safety training is not optional for people working in food: ICCA Dubai sets out that every food handler, supervisor and Person in Charge operating under Dubai Municipality or another emirate authority must hold approved training, that each food business needs at least one certified Person in Charge carrying legal responsibility for compliance, and that certificates expire after roughly three to five years and must be renewed. Basic food-handler training, Person-in-Charge certification, HACCP and allergen-awareness courses all sit inside that system.",
@@ -96,7 +97,7 @@
   },
   {
    "block_on_your_page": "How are myCHEF private chefs vetted?",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "How are myCHEF private chefs vetted?",
    "new_paragraphs": [
     "MyCHEF is implementing a structured 12-stage partner verification and quality-assurance framework across its culinary partner network, covering company identity, trade licence and permitted activities, food-safety permits, Person-in-Charge and food-handler training documentation, kitchen and allergen controls, and a chef and service-team assessment. The hands-on part is the one worth asking any service about, because tasting a chef's food and watching how they work in a real kitchen tells you more than a CV does. Chefs are matched to your brief by cuisine and event type, so an Arabic feast might go to Layla Hassan, an Italian or Mediterranean dinner to Marco Rossi, a dessert-led celebration to pastry chef Matteo Moretti, and a fine-dining tasting menu to Ahmed Al-Rashid. All follow the same food-safety and hygiene standards. Food safety is taken seriously in the emirate: under the UAE government's official food-safety guidance , oversight in Dubai falls to the municipal authority, whose inspectors run regular random inspections of restaurants and food stores and check that food is suitable to eat, so the same hygiene discipline a licensed kitchen lives by is exactly what a good private chef should bring into your home. You can read the full process on our how we vet page before you decide, which is a sensible move when you are trusting someone to cook in your home."
@@ -104,7 +105,7 @@
   },
   {
    "block_on_your_page": "Which menu and cuisine should you choose?",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "Which menu and cuisine should you choose?",
    "new_paragraphs": [
     "Start from your guests, not the chef, then let the menu follow. Count firm numbers, note every dietary need early, whether that is vegetarian, halal, gluten-free or a serious allergy, and decide the mood: grazing and relaxed, or plated and formal. For a private chef for a dinner party in Dubai, a shared-plate Mediterranean spread from Marco Rossi keeps the table social, while a plated tasting menu from Ahmed Al-Rashid feels more like an occasion. During Ramadan, Layla Hassan builds iftar menus that open gently and pace the courses, and Matteo Moretti can add a dessert table for weddings and milestone celebrations. A good chef will adapt, swapping ingredients for allergies and balancing rich and light dishes, so share preferences and dislikes honestly instead of trying to design the menu yourself."
@@ -112,7 +113,7 @@
   },
   {
    "block_on_your_page": "How do you find the best private chef in Dubai?",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "How do you find the best private chef in Dubai?",
    "new_paragraphs": [
     "The right private chef for your evening is not the most famous name; it is the one matched correctly to your brief, budget and dietary needs. To find a private chef in Dubai reliably, look for transparent, itemised private chef prices, clear vetting, a menu tailored to you and not a fixed list, and fast, specific replies to your questions. Ask who cleans up, whether the chef brings equipment, what happens if a guest cancels, and how substitutions work. Compare two or three private chef services in Dubai on those answers, not on price alone. MyCHEF handles the matching for you, pairing your event with a vetted chef and an itemised proposal, so you skip the cold-calling and can focus on the guest list. Because food safety in Dubai sits with the municipal authority , restaurants are subject to regular official inspection, but a private chef cooks in your own kitchen without that outside oversight, which is exactly why transparent vetting matters more, not less, when you hire one. See our private chef and prices pages to start comparing."
@@ -120,7 +121,7 @@
   },
   {
    "block_on_your_page": "Frequently asked questions",
-   "match_confidence": 1.0,
+   "match_confidence": 1,
    "new_heading": "Frequently asked questions",
    "new_paragraphs": [
     "How much does it cost to hire a private chef in Dubai?",
@@ -233,6 +234,29 @@
    "answer": [
     "Book as early as you can. A standard private-chef dinner is often possible at 48 hours' notice, a bespoke menu or a larger private event sits nearer 5 to 7 days, and peak dates such as New Year and Eid go earlier still. Lead times depend on guest numbers, menu complexity, staffing, equipment, location and partner availability, and short-notice requests are assessed individually."
    ]
+  }
+ ],
+ "images": [
+  {
+   "src": "/images/blog/how-to-hire-a-private-chef-dubai-hero.webp",
+   "alt": "How to hire a private chef in dubai — myCHEF Dubai private chef and catering",
+   "role": "hero",
+   "width": 1280,
+   "height": 720
+  },
+  {
+   "src": "/images/blog/how-to-hire-a-private-chef-dubai-2.webp",
+   "alt": "How to hire a private chef in dubai — table and food setup",
+   "role": "inline",
+   "width": 1280,
+   "height": 720
+  },
+  {
+   "src": "/images/blog/how-to-hire-a-private-chef-dubai-3.webp",
+   "alt": "How to hire a private chef in dubai — guests dining at home in Dubai",
+   "role": "inline",
+   "width": 1280,
+   "height": 720
   }
  ]
 }
