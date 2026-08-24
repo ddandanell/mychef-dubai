@@ -99,7 +99,7 @@ export default function HalalPrivateDiningDubaiWhatToAsk() {
     <div ref={containerRef}>
       <SEO
         title="Halal Private Dining Dubai: What to Ask"
-        description="A practical guide for Dubai hosts booking halal private dining, covering certification, cross-contamination, alcohol policy, sourcing, and indicative costs."
+        description="A guide for Dubai hosts booking halal private dining: certification, cross-contamination, alcohol policy, sourcing, and indicative costs."
         canonicalPath={`/blog/${SLUG}`}
         ogImage="/images/halal-catering-dubai-hero.webp"
         schema={schema}

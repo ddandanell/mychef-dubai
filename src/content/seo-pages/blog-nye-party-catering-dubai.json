@@ -28,20 +28,20 @@
  },
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
-  "title": "NYE Party Catering Dubai: The Host's Planning Guide | myCHEF",
-  "meta_description": "NYE party catering in Dubai done well: passed canapés and live stations, a styled mocktail or cocktail bar, a midnight dessert, honest per-head prices, and why you book early.",
+  "title": "NYE Party Catering Dubai: Host's Planning Guide",
+  "meta_description": "NYE party catering in Dubai: passed canapés, live stations, a mocktail or cocktail bar, midnight dessert, per-head prices, and why to book early.",
   "h1": "NYE Party Catering Dubai: The Host's Planning Guide"
  },
  "opening_paragraph": [
-  "For NYE party catering Dubai, myCHEF's formula is three moves: passed canapés and live stations, a styled mocktail or cocktail bar, and a midnight dessert, from around AED 700 a head. Get those right and the evening runs itself."
+  "For NYE party catering in Dubai, myCHEF's formula is three moves: passed canapés and live stations, a styled mocktail or cocktail bar, and a midnight dessert, from around AED 700 a head. Get those right and the evening runs itself."
  ],
  "replace_in_block": [
   {
    "block_on_your_page": "What does NYE party catering Dubai include?",
    "match_confidence": 1,
-   "new_heading": "What does NYE party catering Dubai include?",
+   "new_heading": "What does NYE party catering in Dubai include?",
    "new_paragraphs": [
-    "At its heart, NYE party catering Dubai means a menu built for movement, not a fixed sit-down. The usual shape is passed canapés on arrival, one or two live stations where a chef finishes plates in front of guests, and a dessert or sweet table released as midnight nears. A drinks setup ties it together, whether that is a mocktail bar or, where the venue is licensed, its own bar service. MyCHEF plans the flow with you: how many canapés per guest before dinner, when the stations open, and the exact moment the dessert appears so nobody is queuing when the countdown starts. The aim is plain. Guests shouldn't feel the logistics, only the food arriving at the right time."
+    "At its heart, NYE party catering in Dubai means a menu built for movement, not a fixed sit-down. The usual shape is passed canapés on arrival, one or two live stations where a chef finishes plates in front of guests, and a dessert or sweet table released as midnight nears. A drinks setup ties it together, whether that is a mocktail bar or, where the venue is licensed, its own bar service. MyCHEF plans the flow with you: how many canapés per guest before dinner, when the stations open, and the exact moment the dessert appears so nobody is queuing when the countdown starts. The aim is plain. Guests shouldn't feel the logistics, only the food arriving at the right time."
    ]
   },
   {
@@ -113,7 +113,7 @@
   {
    "block_on_your_page": "Are there NYE party catering Dubai offers?",
    "match_confidence": 1,
-   "new_heading": "Are there NYE party catering Dubai offers?",
+   "new_heading": "Are there NYE party catering in Dubai offers?",
    "new_paragraphs": [
     "The straight answer is that there is no New Year's Eve discount here, and it is worth being sceptical of one anywhere. On 31 December every chef, server and piece of hired equipment in the city is already spoken for, so an offer that undercuts the rest of the year on the busiest night of the year is usually paid for somewhere you cannot see: fewer staff on the floor, cheaper proteins, a menu assembled off site hours before it is eaten. What myCHEF offers instead is the same itemised pricing on New Year's Eve as on any ordinary Tuesday, with food, staffing, rentals and service listed separately so you can see exactly where the money goes.",
     "If you would rather work from a fixed figure than a per-head quote, the standing packages apply on New Year's Eve as they do the rest of the year: Date Night from AED 1,200, Family Feast from AED 2,400, Birthday Celebration from AED 3,600, Corporate Dinner from AED 4,500 and The Full Experience from AED 5,500. Booking early does buy you something concrete, just not a lower number — it buys first pick of the chefs, and the villa and yacht dates that vanish before anything else does."
