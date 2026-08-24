@@ -328,7 +328,7 @@ export default function Catering() {
         canonicalPath="/catering-dubai"
         ogImage="/service-catering.webp"
         hideSiteName
-        preloadHero="/images/catering-dubai-hero.webp"
+        preloadHero="/images/luxury-catering-dubai-hero.webp"
         schema={{ '@context': 'https://schema.org', '@graph': [schema, breadcrumbSchema, faqPageSchema] }}
       />
 
@@ -336,14 +336,17 @@ export default function Catering() {
       <PageHero
         title="Luxury Catering Dubai for Events & Private Celebrations"
         subtitle="Event catering for 10–500+ guests. BBQ, buffet, canapés & plated service. We design, source, cook and serve — you stay a guest."
-        image="/images/catering-dubai-hero.webp"
-        imageAlt="Elegant catering setup in Dubai"
-        imageWidth={1344}
-        imageHeight={752}
+        image="/images/mychef-hero-loop-poster.webp"
+        imageAlt="A private chef finishing a dish — myCHEF catering in Dubai"
+        imageWidth={1168}
+        imageHeight={768}
+        imagePosition="center"
+        videoSrc="/videos/mychef-hero-loop.mp4"
+        align="left"
         cta={{ label: 'Get My Catering Quote', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=catering-dubai' }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Catering Dubai' }]}
-        minHeight="large"
+        minHeight="full"
         overlay="dark"
       />
       <TrustSignalStrip />

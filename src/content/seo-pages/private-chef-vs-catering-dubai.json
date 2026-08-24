@@ -106,7 +106,7 @@
   {
    "new_heading": "Which myCHEF chef cooks what?",
    "new_paragraphs": [
-    "We match the chef to the cuisine, then vet all of them the same way. Marco Rossi leads Italian and Mediterranean menus; Layla Hassan handles Arabic, halal and Ramadan or iftar tables; Sofia Moretti builds the pastry, wedding and dessert work; Ahmed Al-Rashid takes fine dining and anything that needs a steady default. Before a chef cooks for a client we run identity checks, a practical cooking assessment, reference verification and ongoing performance reviews, so the person at your stove is a known quantity. There is no single best private chef in Dubai, whatever a directory tells you; the right one for your evening is whoever cooks that cuisine properly and is free on your date. You can see how each brief played out in our, or read more on the private chef side."
+    "We match the chef to the cuisine, then vet all of them the same way. Marco Rossi leads Italian and Mediterranean menus; Layla Hassan handles Arabic, halal and Ramadan or iftar tables; Matteo Moretti builds the pastry, wedding and dessert work; Ahmed Al-Rashid takes fine dining and anything that needs a steady default. Before a chef cooks for a client we run identity checks, a practical cooking assessment, reference verification and ongoing performance reviews, so the person at your stove is a known quantity. There is no single best private chef in Dubai, whatever a directory tells you; the right one for your evening is whoever cooks that cuisine properly and is free on your date. You can see how each brief played out in our, or read more on the private chef side."
    ],
    "insert_after_block": "Private Chef vs Catering Comparison",
    "position": "after the block titled 'Private Chef vs Catering Comparison'",
@@ -175,7 +175,7 @@
     "How do I get an exact quote?",
     "Share your date, guest count and venue with myCHEF and you will get an itemised proposal, usually within one business day. The more detail on format and headcount, the tighter the number.",
     "Which chef will cook at my event?",
-    "We match the cuisine to the chef: Marco Rossi for Italian and Mediterranean, Layla Hassan for Arabic and halal, Sofia Moretti for pastry and desserts, and Ahmed Al-Rashid for fine dining."
+    "We match the cuisine to the chef: Marco Rossi for Italian and Mediterranean, Layla Hassan for Arabic and halal, Matteo Moretti for pastry and desserts, and Ahmed Al-Rashid for fine dining."
    ],
    "insert_after_block": "Private Chef vs Catering Comparison",
    "position": "after the block titled 'Private Chef vs Catering Comparison'",
@@ -260,7 +260,7 @@
   {
    "question": "Which chef will cook at my event?",
    "answer": [
-    "We match the cuisine to the chef: Marco Rossi for Italian and Mediterranean, Layla Hassan for Arabic and halal, Sofia Moretti for pastry and desserts, and Ahmed Al-Rashid for fine dining."
+    "We match the cuisine to the chef: Marco Rossi for Italian and Mediterranean, Layla Hassan for Arabic and halal, Matteo Moretti for pastry and desserts, and Ahmed Al-Rashid for fine dining."
    ]
   }
  ]

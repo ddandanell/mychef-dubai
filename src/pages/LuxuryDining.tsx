@@ -293,7 +293,7 @@ export default function LuxuryDining() {
         description="Luxury private dining in Dubai with a private chef at your villa, penthouse or yacht. Bespoke tasting menus, full service, halal options. Request a custom menu."
         canonicalPath="/luxury-dining-experiences"
         ogImage="/service-luxury-dining.webp"
-        preloadHero="/images/luxury-dining-dubai-hero.webp"
+        preloadHero="/images/luxury-dining-experiences-dubai-hero.webp"
         schema={{ ...schema, ...breadcrumbSchema, ...faqPageSchema }}
       />
 
@@ -301,15 +301,16 @@ export default function LuxuryDining() {
       <PageHero
         title="Luxury Private Dining Dubai — Fine Dining at Home"
         subtitle="Bespoke private dining crafted for life's most memorable moments. In your villa, on your yacht, or at your penthouse — we reply within 15 minutes during business hours."
-        image="/images/luxury-dining-dubai-hero.webp"
-        imageAlt="Luxury private dining in Dubai"
-        imageWidth={1344}
-        imageHeight={752}
+        image="/images/luxury-dining-experiences-dubai-hero.webp"
+        imageAlt="Private chef plating fine dining at a candlelit terrace table overlooking the Dubai skyline at night"
+        imageWidth={1683}
+        imageHeight={935}
         cta={{ label: 'Request My Private Dining Proposal', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=luxury-dining-experiences' }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Luxury Dining Experiences' }]}
-        minHeight="tall"
+        minHeight="full"
         overlay="dark"
+        imagePosition="center 45%"
       />
 
       <TrustSignalStrip variant="dark" />

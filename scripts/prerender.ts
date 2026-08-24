@@ -189,6 +189,14 @@ async function renderRoute(
 
   let html = await page.content()
 
+  // Puppeteer fires the fonts stylesheet's onload during prerender, flipping
+  // media="print" -> media="all" and re-serializing it as render-blocking.
+  // Reset it so the served HTML keeps the non-blocking load (onload re-applies it).
+  html = html.replace(
+    /(<link[^>]*fonts\.googleapis\.com[^>]*?)\smedia="all"/g,
+    '$1 media="print"',
+  )
+
   // Inline this route's SEO payload so the client hydrates SeoContent without a
   // fetch round-trip / rebuild. Placed just before </body>, outside #root, so
   // hydrateRoot never sees it.

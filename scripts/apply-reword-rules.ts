@@ -22,7 +22,7 @@ const EXCLUDED_FILES = new Set([
   'Catering.tsx',
   'Terms.tsx',
   'ChefAhmed.tsx',
-  'ChefSofia.tsx',
+  'ChefMatteo.tsx',
   'ChefMarco.tsx',
   'ChefLayla.tsx',
 ])
@@ -109,7 +109,7 @@ function getTemplateReplacements(handoff: Handoff, category: string): Replacemen
   // Map our categories to JSON template keys
   const templateKeyMap: Record<string, string> = {
     'occasion-catering': 'occasion-catering (~120 pages: every /*-catering-dubai, cuisine, dietary, festive, corporate-type page)',
-    'chef pages': 'chef pages (/our-chefs + /chefs/ahmed-executive-chef, /chefs/sofia-pastry-chef, /chefs/marco-italian-chef, /chefs/layla-middle-eastern-chef)',
+    'chef pages': 'chef pages (/our-chefs + /chefs/ahmed-executive-chef, /chefs/matteo-pastry-chef, /chefs/marco-italian-chef, /chefs/layla-middle-eastern-chef)',
     'location pages': 'location pages (/locations/*)',
     'service pages': 'service pages (/private-chef-dubai, /catering-dubai, /luxury-dining-experiences, /events, /corporate, /villas-private-residences, /yachts)',
     'blog & guides': 'blog & guides (/blog/*, /guides, /*-guide, /*-checklist-dubai, /dubai-food-trends-report-2026)',

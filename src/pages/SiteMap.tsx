@@ -208,7 +208,7 @@ export default function SiteMap() {
               <li><Link to="/blog/private-chef-palm-jumeirah-guide" className="text-gray-600 hover:text-gold transition-colors">/blog/private-chef-palm-jumeirah-guide</Link></li>
               <li><Link to="/blog/halal-private-dining-dubai-what-to-ask" className="text-gray-600 hover:text-gold transition-colors">/blog/halal-private-dining-dubai-what-to-ask</Link></li>
               <li><Link to="/chefs/ahmed-executive-chef" className="text-gray-600 hover:text-gold transition-colors">/chefs/ahmed-executive-chef</Link></li>
-              <li><Link to="/chefs/sofia-pastry-chef" className="text-gray-600 hover:text-gold transition-colors">/chefs/sofia-pastry-chef</Link></li>
+              <li><Link to="/chefs/matteo-pastry-chef" className="text-gray-600 hover:text-gold transition-colors">/chefs/matteo-pastry-chef</Link></li>
               <li><Link to="/chefs/marco-italian-chef" className="text-gray-600 hover:text-gold transition-colors">/chefs/marco-italian-chef</Link></li>
               <li><Link to="/chefs/layla-middle-eastern-chef" className="text-gray-600 hover:text-gold transition-colors">/chefs/layla-middle-eastern-chef</Link></li>
               <li><Link to="/catering-cost-calculator-dubai" className="text-gray-600 hover:text-gold transition-colors">/catering-cost-calculator-dubai</Link></li>

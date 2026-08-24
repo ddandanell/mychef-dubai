@@ -39,11 +39,25 @@
       "source": "/government-event-catering-dubai",
       "destination": "/luxury-dining-experiences",
       "statusCode": 301
+    },
+    {
+      "source": "/chefs/sofia-pastry-chef",
+      "destination": "/chefs/matteo-pastry-chef",
+      "statusCode": 301
     }
   ],
   "rewrites": [
-    { "source": "/inquiry", "destination": "/index.html" },
-    { "source": "/thank-you", "destination": "/index.html" },
-    { "source": "/(.*)", "destination": "/index.html" }
+    {
+      "source": "/inquiry",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/thank-you",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
   ]
 }

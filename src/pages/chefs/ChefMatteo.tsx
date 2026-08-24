@@ -1,15 +1,15 @@
 import ChefProfile, { type ChefProfileData } from './ChefProfile'
 
 const chef: ChefProfileData = {
-  slug: '/chefs/sofia-pastry-chef',
-  name: 'Sofia Moretti',
+  slug: '/chefs/matteo-pastry-chef',
+  name: 'Matteo Moretti',
   title: 'Pastry Chef',
   partnerLabel: 'Independent partner chef',
   experience: '12+ Years',
   cuisine: 'Modern Patisserie & Dessert Design',
   image: '/team-pastry-chef.webp',
-  imageAlt: 'Chef Sofia Moretti, independent partner pastry chef in the myCHEF Dubai network',
-  bio: 'Sofia Moretti is a classically trained independent pastry chef whose desserts are as theatrical as they are delicious. After graduating from Le Cordon Bleu Paris, she spent years in boutique patisseries and luxury hotel pastry departments across Europe before joining the myCHEF Dubai network of partner chefs. Sofia believes the final course should leave the strongest impression, and she approaches every dessert as edible art. Her chocolate work, sugar sculptures, and plated desserts have become a signature of wedding receptions, product launches, and intimate dinner parties throughout the city. Beyond technique, she brings a deep understanding of flavour balance and dietary adaptation, ensuring every guest experiences a memorable sweet finish. Whether designing an elaborate dessert table or a single show-stopping cake, Sofia delivers precision, creativity, and unmistakable elegance.',
+  imageAlt: 'Chef Matteo Moretti, independent partner pastry chef in the myCHEF Dubai network',
+  bio: 'Matteo Moretti is a classically trained independent pastry chef whose desserts are as theatrical as they are delicious. After graduating from Le Cordon Bleu Paris, he spent years in boutique patisseries and luxury hotel pastry departments across Europe before joining the myCHEF Dubai network of partner chefs. Matteo believes the final course should leave the strongest impression, and he approaches every dessert as edible art. His chocolate work, sugar sculptures, and plated desserts have become a signature of wedding receptions, product launches, and intimate dinner parties throughout the city. Beyond technique, he brings a deep understanding of flavour balance and dietary adaptation, ensuring every guest experiences a memorable sweet finish. Whether designing an elaborate dessert table or a single show-stopping cake, Matteo delivers precision, creativity, and unmistakable elegance.',
   specialties: [
     'Chocolate Work',
     'Sugar Art',
@@ -65,6 +65,6 @@ const chef: ChefProfileData = {
   ],
 }
 
-export default function ChefSofia() {
+export default function ChefMatteo() {
   return <ChefProfile chef={chef} />
 }
