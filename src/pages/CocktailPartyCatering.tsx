@@ -19,6 +19,8 @@ import TrustSignalStrip from '../components/TrustSignalStrip'
 import LocationStrip from '../components/LocationStrip'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to plan cocktail party catering in Dubai (via mychef.ae/cocktail-party-catering-dubai)')
@@ -332,9 +334,7 @@ export default function CocktailPartyCatering() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            MIXOLOGY & CANAPÉS
-          </span>
+          <SectionLabel align="center">MIXOLOGY & CANAPÉS</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             A Reception That Keeps Guests Mingling
           </h2>
@@ -351,9 +351,7 @@ export default function CocktailPartyCatering() {
       <section className="bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              COCKTAIL FORMATS
-            </span>
+            <SectionLabel align="center" tone="dark">COCKTAIL FORMATS</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Cocktail Catering for Every Setting
             </h2>
@@ -387,9 +385,7 @@ export default function CocktailPartyCatering() {
       <section className="bg-black section-padding pt-0">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WHERE WE POUR
-            </span>
+            <SectionLabel align="center" tone="dark">WHERE WE POUR</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Receptions for Every Venue
             </h2>

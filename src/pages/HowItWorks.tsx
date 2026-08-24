@@ -9,6 +9,8 @@ import SEO from '@/components/SEO'
 import PageHero from '@/components/PageHero'
 import TrustSignalStrip from '@/components/TrustSignalStrip'
 import { howToSchema } from '@/utils/schema'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to request a quote (via mychef.ae/how-it-works)')
@@ -144,7 +146,7 @@ export default function HowItWorks() {
       <section className="timeline-section bg-cream section-padding">
         <div className="container-custom max-w-[900px]">
           <div className="text-center mb-16">
-            <p className="font-inter text-caption font-medium uppercase tracking-wider text-gold mb-3">THE JOURNEY</p>
+            <SectionLabel align="center">THE JOURNEY</SectionLabel>
             <h2 className="font-playfair text-h2 text-black" style={{ lineHeight: '1.15' }}>Your Experience, Step by Step</h2>
           </div>
 
@@ -178,7 +180,7 @@ export default function HowItWorks() {
       <section className="bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-16">
-            <p className="font-inter text-caption font-medium uppercase tracking-wider text-gold mb-3">THE DETAILS</p>
+            <SectionLabel align="center" tone="dark">THE DETAILS</SectionLabel>
             <h2 className="font-playfair text-h2 text-white" style={{ lineHeight: '1.15' }}>What You Can Always Expect</h2>
           </div>
           <div className="features-grid grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -197,7 +199,7 @@ export default function HowItWorks() {
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[800px]">
           <div className="text-center mb-12">
-            <p className="font-inter text-caption font-medium uppercase tracking-wider text-gold mb-3">FAQ</p>
+            <SectionLabel align="center">FAQ</SectionLabel>
             <h2 className="font-playfair text-h2 text-black" style={{ lineHeight: '1.15' }}>Common Questions</h2>
           </div>
           <div className="divide-y divide-gray-200">

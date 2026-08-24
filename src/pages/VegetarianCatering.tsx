@@ -19,6 +19,8 @@ import TrustSignalStrip from '../components/TrustSignalStrip'
 import LocationStrip from '../components/LocationStrip'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to plan vegetarian catering in Dubai (via mychef.ae/vegetarian-catering-dubai)')
@@ -315,9 +317,7 @@ export default function VegetarianCatering() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            VEGETARIAN DINING IN DUBAI
-          </span>
+          <SectionLabel align="center">VEGETARIAN DINING IN DUBAI</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             A World of Vegetarian Flavour
           </h2>
@@ -334,9 +334,7 @@ export default function VegetarianCatering() {
       <section className="bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              VEGETARIAN FORMATS
-            </span>
+            <SectionLabel align="center" tone="dark">VEGETARIAN FORMATS</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Vegetarian for Every Occasion
             </h2>
@@ -370,9 +368,7 @@ export default function VegetarianCatering() {
       <section className="bg-black section-padding pt-0">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WHERE VEGETARIAN SHINES
-            </span>
+            <SectionLabel align="center" tone="dark">WHERE VEGETARIAN SHINES</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Designed for the Moment
             </h2>

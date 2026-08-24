@@ -9,6 +9,8 @@ import PageHero from '@/components/PageHero'
 import TrustSignalStrip from '@/components/TrustSignalStrip'
 import StarterPackagesSection from '@/sections/StarterPackagesSection'
 import { breadcrumbSchema } from '@/utils/schema'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to request a quote (via mychef.ae/menus)')
@@ -267,9 +269,7 @@ export default function Menus() {
       <section ref={pricingRef} className="bg-white section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption font-medium uppercase tracking-wider text-gold mb-4 block">
-              PER-PERSON STARTING RATES
-            </span>
+            <SectionLabel align="center">PER-PERSON STARTING RATES</SectionLabel>
             <h2 className="font-playfair text-h2 text-black mb-4">Service Format Pricing</h2>
             <p className="font-inter text-body text-gray-500 max-w-[640px] mx-auto">
               Per-person starting rates for bespoke menu formats. These sit alongside our fixed starter packages above.
@@ -369,9 +369,7 @@ export default function Menus() {
         <div className="container-custom max-w-[1000px]">
           {/* Section Header */}
           <div className="text-center mb-12">
-            <span className="font-inter text-caption font-medium uppercase tracking-wider text-gold mb-4 block">
-              A TASTE OF WHAT WE CREATE
-            </span>
+            <SectionLabel align="center" tone="dark">A TASTE OF WHAT WE CREATE</SectionLabel>
             <h2 className="font-playfair text-h2 text-white mb-4">Sample Evening Menu</h2>
             <p className="font-inter text-body text-gray-400">
               This is an example of a multi-course private dining experience. Every menu is fully customized.
@@ -439,9 +437,7 @@ export default function Menus() {
         <div className="container-custom">
           {/* Section Header */}
           <div className="text-center mb-12">
-            <span className="font-inter text-caption font-medium uppercase tracking-wider text-gold mb-4 block">
-              ELEVATE YOUR EXPERIENCE
-            </span>
+            <SectionLabel align="center" tone="dark">ELEVATE YOUR EXPERIENCE</SectionLabel>
             <h2 className="font-playfair text-fluid-h2 text-white">Wine, Cocktails & Service</h2>
           </div>
 

@@ -12,6 +12,8 @@ import TrustSignalStrip from '../components/TrustSignalStrip'
 import VIPPromoSection from '../components/VIPPromoSection'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { deferNonCritical } from '../lib/deferNonCritical'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to learn more about your catering packages (via mychef.ae/catering-packages-dubai)')
@@ -206,7 +208,7 @@ export default function CateringPackages() {
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[800px]">
           <div className="packages-section opacity-0 translate-y-8 text-center mb-8">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">Find Your Package</span>
+            <SectionLabel align="center">Find Your Package</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">Which catering package fits your occasion?</h2>
           </div>
           <PackageSelector />
@@ -226,9 +228,7 @@ export default function CateringPackages() {
         <div className="container-custom max-w-[900px]">
           <div className="packages-section opacity-0 translate-y-8 grid md:grid-cols-2 gap-10 items-start">
             <div>
-              <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-                What's Included
-              </span>
+              <SectionLabel>What's Included</SectionLabel>
               <h2 className="font-playfair text-h2 text-black mb-6">
                 What You Get with Every Package
               </h2>
@@ -266,9 +266,7 @@ export default function CateringPackages() {
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[900px]">
           <div className="packages-section opacity-0 translate-y-8 text-center mb-10">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              Explore More
-            </span>
+            <SectionLabel align="center">Explore More</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               Related Planning Resources
             </h2>
@@ -298,9 +296,7 @@ export default function CateringPackages() {
       <section className="packages-faq bg-cream py-20">
         <div className="container-custom max-w-[800px]">
           <div className="packages-section opacity-0 translate-y-8 text-center mb-10">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              FAQ
-            </span>
+            <SectionLabel align="center">FAQ</SectionLabel>
             <h2 className="font-playfair text-fluid-h2 text-black">
               Questions About Our Catering Packages
             </h2>

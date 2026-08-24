@@ -18,6 +18,8 @@ import SEO from '../components/SEO'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import { breadcrumbSchema, faqPageSchema, serviceSchema } from '../utils/schema'
 import FaqAccordion from '../components/FaqAccordion'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to understand your booking protection and insurance policies (via mychef.ae/booking-protection-insurance)')
@@ -238,9 +240,7 @@ export default function BookingProtectionInsurance() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            BOOK WITH CONFIDENCE
-          </span>
+          <SectionLabel align="center">BOOK WITH CONFIDENCE</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             Protection Built Into Every Booking
           </h2>
@@ -262,9 +262,7 @@ export default function BookingProtectionInsurance() {
       <section className="bpi-protections bg-cream section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WHAT IS COVERED
-            </span>
+            <SectionLabel align="center">WHAT IS COVERED</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               How We Protect Your Event
             </h2>
@@ -289,9 +287,7 @@ export default function BookingProtectionInsurance() {
       <section className="bg-black section-padding">
         <div className="container-custom max-w-[1000px]">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              POLICY PRINCIPLES
-            </span>
+            <SectionLabel align="center" tone="dark">POLICY PRINCIPLES</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               What to Expect From Our Terms
             </h2>

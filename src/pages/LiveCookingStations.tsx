@@ -19,6 +19,8 @@ import TrustSignalStrip from '../components/TrustSignalStrip'
 import LocationStrip from '../components/LocationStrip'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to plan live cooking stations in Dubai (via mychef.ae/live-cooking-stations-dubai)')
@@ -339,9 +341,7 @@ export default function LiveCookingStations() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            DUBAI LIVE STATION SPECIALISTS
-          </span>
+          <SectionLabel align="center">DUBAI LIVE STATION SPECIALISTS</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             The Theatre of Food, Brought to You
           </h2>
@@ -358,9 +358,7 @@ export default function LiveCookingStations() {
       <section className="bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              STATION TYPES
-            </span>
+            <SectionLabel align="center" tone="dark">STATION TYPES</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Choose Your Stations
             </h2>
@@ -394,9 +392,7 @@ export default function LiveCookingStations() {
       <section className="bg-black section-padding pt-0">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WHERE WE SERVE
-            </span>
+            <SectionLabel align="center" tone="dark">WHERE WE SERVE</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Stations for Every Occasion
             </h2>

@@ -2,32 +2,29 @@ import { useEffect, useRef } from 'react'
 import { Link } from 'react-router'
 import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
-import { MessageCircle, FileText, ShoppingBag, Utensils } from 'lucide-react'
+import { SectionLabel } from '@/components/system'
 
+// A sequence reads as an inline chain (01 → 02 → 03 → 04), not four boxes.
 const steps = [
   {
     number: '01',
-    icon: MessageCircle,
-    title: 'Reach Out',
-    description: 'Tell us about your occasion, your guests, and your vision — no detail is too small.',
+    title: 'Tell us about the job',
+    description: 'Occasion, guest count, the address, and how you like to eat. Send it by form or WhatsApp.',
   },
   {
     number: '02',
-    icon: FileText,
-    title: 'We Design the Evening',
-    description: 'We shape the menu around your tastes and your guests, and choose the right chef to bring it to life.',
+    title: 'We design the menu and choose the chef',
+    description: 'The menu is shaped around your tastes and your guests. Then we pick the chef whose cooking fits it.',
   },
   {
     number: '03',
-    icon: ShoppingBag,
-    title: 'Your Chef Arrives, We Run the Room',
-    description: 'On the day, the chef we chose arrives early and cooks to order in your kitchen — while we choreograph every detail around it.',
+    title: 'The chef arrives early and cooks in your kitchen',
+    description: 'On the day the chef cooks to order in your kitchen while we coordinate the service around it.',
   },
   {
     number: '04',
-    icon: Utensils,
-    title: 'You Simply Enjoy',
-    description: 'The courses are plated with precision; the service we arrange looks after your guests; the kitchen is left immaculate. All you keep is the memory.',
+    title: 'You sit down. We clear up.',
+    description: 'Courses are plated, the service we arrange looks after your guests, and the kitchen is left as it was found.',
   },
 ]
 
@@ -35,7 +32,7 @@ export default function HowItWorksSection() {
   useScrollTrigger()
   const sectionRef = useRef<HTMLDivElement>(null)
   const headerRef = useRef<HTMLDivElement>(null)
-  const cardsRef = useRef<HTMLDivElement>(null)
+  const cardsRef = useRef<HTMLOListElement>(null)
 
   useEffect(() => {
     const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
@@ -71,55 +68,48 @@ export default function HowItWorksSection() {
   return (
     <section ref={sectionRef} className="bg-cream section-padding">
       <div className="container-custom">
-        {/* Header */}
-        <div ref={headerRef} className="text-center mb-12 md:mb-16">
-          <span className="font-inter text-caption font-medium uppercase tracking-[0.1em] text-gold">
-            How It Works
-          </span>
-          <h2 className="font-playfair text-fluid-h2 text-black mt-4 mb-4">
-            How does booking a private chef in Dubai work?
+        {/* Header — left-aligned; the chain below carries the argument */}
+        <div ref={headerRef} className="max-w-[760px] mb-12 md:mb-16">
+          <SectionLabel>How It Works</SectionLabel>
+          <h2 className="font-playfair text-fluid-h2 text-black mb-5">
+            Tell us about the evening. We build the menu, the chef and the service around it.
           </h2>
-          <p className="font-inter text-base md:text-lg text-gray-500 max-w-xl mx-auto">
-            From your first message to the final course — a seamless experience.
+          <p className="font-inter text-body text-gray-500 leading-relaxed max-w-[60ch]">
+            Booking a private chef in Dubai, from your first message to the kitchen left clean.
           </p>
         </div>
 
-        {/* Steps Grid */}
-        <div
+        {/* Inline chain on a gold rail: horizontal at lg, vertical below */}
+        <ol
           ref={cardsRef}
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8"
+          className="relative grid grid-cols-1 gap-y-10 lg:grid-cols-4 lg:gap-x-10 mb-12 md:mb-14"
         >
-          {steps.map((step) => (
-            <div
-              key={step.number}
-              className="step-card relative text-center p-6 md:p-8 bg-white"
-            >
-              {/* Step Number (decorative) */}
-              <span className="absolute top-4 left-4 font-playfair text-[64px] md:text-[72px] font-semibold text-gold/20 leading-none select-none" aria-hidden="true">
+          <span className="hidden lg:block absolute top-[4px] left-0 right-0 h-px bg-gold/30" aria-hidden="true" />
+          <span className="lg:hidden absolute top-2 bottom-2 left-[4px] w-px bg-gold/30" aria-hidden="true" />
+          {steps.map((step, index) => (
+            <li key={step.number} className="step-card relative pl-8 lg:pl-0 lg:pt-8">
+              <span className="absolute left-0 top-[6px] h-[9px] w-[9px] bg-gold-ink lg:top-0" aria-hidden="true" />
+              <p className="flex items-center gap-3 mb-3 font-playfair text-h3 leading-none text-gold-ink" aria-hidden="true">
                 {step.number}
-              </span>
-
-              {/* Icon */}
-              <div className="relative z-10 flex justify-center mb-6">
-                <step.icon size={44} className="text-gold" strokeWidth={1.5} aria-hidden="true" />
-              </div>
-
-              {/* Content */}
-              <h3 className="relative z-10 font-playfair text-h3 text-black mb-3">
+                {index < steps.length - 1 && <span className="hidden lg:inline font-inter text-body text-gold/60">→</span>}
+              </p>
+              <h3 className="font-playfair text-h4 text-black mb-2">
+                <span className="sr-only">Step {index + 1}: </span>
                 {step.title}
               </h3>
-              <p className="relative z-10 font-inter text-base text-gray-500 leading-relaxed">
+              <p className="font-inter text-body-sm text-gray-500 leading-relaxed max-w-[38ch]">
                 {step.description}
               </p>
-            </div>
+            </li>
           ))}
-        </div>
+        </ol>
 
-        {/* CTA */}
-        <div className="text-center mt-10 md:mt-12">
+        {/* CTA — sits with the argument, not centered beneath it */}
+        <div className="flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-6">
           <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=home" className="btn-primary focus-visible:ring-offset-cream">
             Request a Proposal
           </Link>
+          <p className="font-inter text-body-sm text-gray-500">The price is agreed in the proposal, before the day.</p>
         </div>
       </div>
     </section>

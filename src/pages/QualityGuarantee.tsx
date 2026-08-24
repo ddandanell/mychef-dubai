@@ -17,6 +17,8 @@ import SEO from '../components/SEO'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import { breadcrumbSchema, faqPageSchema, serviceSchema } from '../utils/schema'
 import FaqAccordion from '../components/FaqAccordion'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to learn about your quality guarantee (via mychef.ae/quality-guarantee-dubai)')
@@ -223,9 +225,7 @@ export default function QualityGuarantee() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            OUR QUALITY PROMISE
-          </span>
+          <SectionLabel align="center">OUR QUALITY PROMISE</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             A Guarantee Built on Operational Rigor
           </h2>
@@ -247,9 +247,7 @@ export default function QualityGuarantee() {
       <section className="qg-guarantees bg-cream section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WHAT YOU CAN COUNT ON
-            </span>
+            <SectionLabel align="center">WHAT YOU CAN COUNT ON</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               Four Pillars of Our Guarantee
             </h2>
@@ -279,9 +277,7 @@ export default function QualityGuarantee() {
       <section className="bg-black section-padding">
         <div className="container-custom max-w-[1000px]">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              HOW WE HANDLE ISSUES
-            </span>
+            <SectionLabel align="center" tone="dark">HOW WE HANDLE ISSUES</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               What "Making It Right" Looks Like
             </h2>

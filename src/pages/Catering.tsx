@@ -3,7 +3,7 @@ import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
-import { UtensilsCrossed, PartyPopper, Heart, Building, Ship, Home, Cake, Check, Phone, ArrowRight } from 'lucide-react'
+import { ArrowRight, Building, Cake, Check, CookingPot, Flame, GlassWater, Grape, Hand, Heart, Home, PartyPopper, Phone, Sandwich, Ship, UtensilsCrossed, Wine } from 'lucide-react'
 import SEO from '../components/SEO'
 import PageHero from '../components/PageHero'
 import TrustSignalStrip from '../components/TrustSignalStrip'
@@ -14,6 +14,8 @@ import LocationStrip from '../components/LocationStrip'
 import { plainFaqAnswer } from '../utils/schema'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { deferNonCritical } from '../lib/deferNonCritical'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent("Hi myCHEF Dubai, I'd like a catering quote for an event. Date: __, Guests: __, Venue: __, Preferred format: __ (via mychef.ae/catering-dubai)")
@@ -113,14 +115,6 @@ const includedItems = [
   { title: 'Flexible Service Style', description: 'Plated, buffet, family-style, or cocktail service \u2014 your choice.' },
 ]
 
-const galleryImages = [
-  { src: '/service-catering.webp', alt: 'Elegant catering setup' },
-  { src: '/service-events.webp', alt: 'Luxury event catering' },
-  { src: '/service-corporate.webp', alt: 'Corporate catering' },
-  { src: '/service-villa.webp', alt: 'Villa celebration catering' },
-  { src: '/menu-canapes.webp', alt: 'Canapes and cocktail service' },
-  { src: '/service-luxury-dining.webp', alt: 'Luxury dining catering' },
-]
 
 const locations = [
   { name: 'Palm Jumeirah', slug: 'palm-jumeirah' },
@@ -143,50 +137,77 @@ const locations = [
 
 const faqs = [
   {
-    q: 'What is the minimum number of guests?',
-    a: 'We coordinate catering for events from 10 guests upward. For very small gatherings, a private chef experience may be more suitable.',
+    q: 'What is the minimum number of guests for catering?',
+    a: "We coordinate catering from 10 guests upward. Under around 20 guests, a private chef is often the better fit: one chef cooks a multi-course meal in your own kitchen, which suits dinner parties and smaller celebrations. Tell us the headcount and we will say which option makes sense — see our [private chef](/private-chef-dubai) page for how that works.",
+  },
+  {
+    q: 'How much does catering cost in Dubai?',
+    a: "Event catering in Dubai usually lands between AED 100 and AED 500 per person, depending on menu, service style and guest count. Live cooking stations and plated fine dining sit at the top of that range; buffets cost less per head. For 20 guests, canapé receptions, grazing tables and seated dinners are priced differently, and most start from around AED 90–150 per person. For 50 guests, buffet or live-station formats are the usual choice and are cheaper per person, starting from around AED 90. We do not publish a fixed price list because the cost depends on guest count, menu complexity, cuisine, service style, staffing and venue — a 20-guest canapé reception and a 200-guest plated gala are different jobs, so a custom quote is more accurate and usually better value than a generic package price. Every quote is itemised, covers menu design, sourcing, cooking, service and cleanup, and carries no obligation. Send your date, headcount and menu ideas and we usually reply within 15 minutes during business hours. Indicative starting points are on our [private chef prices](/private-chef-prices-dubai) page.",
+  },
+  {
+    q: 'What catering formats do you offer in Dubai?',
+    a: "The main formats, each with its own page: [BBQ](/bbq-catering-dubai), [buffet](/buffet-catering-dubai), [canapé](/canape-catering-dubai), [finger food](/finger-food-catering-dubai), [grazing tables](/grazing-table-dubai), [live cooking stations](/live-cooking-stations-dubai), [cocktail party catering](/cocktail-party-catering-dubai), [mocktail bars](/mocktail-bar-catering-dubai) and [dessert tables](/dessert-table-catering-dubai). Tell us the guest count, venue and mood of the event and we will recommend the format that fits.",
+  },
+  {
+    q: 'Should I choose buffet, plated, or live-station service?',
+    a: "It comes down to guest count, formality and space. Buffet stations suit larger, relaxed gatherings. Plated service fits formal seated dinners and weddings. Family-style dining and canapé or cocktail service sit in between. Live stations put the chef in front of the guests. Many clients combine styles. We map the service plan to your headcount and venue during the menu consultation.",
+  },
+  {
+    q: 'Can you do live cooking stations at my event?',
+    a: "Yes. Live cooking stations are one of our most popular formats: chefs prepare dishes fresh in front of your guests. They work for weddings, corporate functions and villa parties, and can be combined with a buffet or canapés for variety. See how they work on our [live cooking stations](/live-cooking-stations-dubai) page.",
+  },
+  {
+    q: 'Can you handle allergies, vegan, vegetarian and gluten-free guests?',
+    a: "Yes. The chef designs the menu around the dietary requirements you give us — vegan, vegetarian, gluten-free, dairy-free and nut allergies included. Share the details when we plan the menu; dishes are labelled and recipes adapted so every guest can eat safely. Mixed dietary crowds are routine. For plant-based events, see our [vegan catering](/vegan-catering-dubai) page.",
+  },
+  {
+    q: 'Is the food halal?',
+    a: "Yes. Halal ingredients are sourced by default for every myCHEF catering menu in Dubai — meat and poultry come from halal suppliers as standard. We can also work with mixed guest lists and specific certification requirements: tell us when we build the menu, and ask about any particular dish you want to check. More detail on our [halal catering Dubai](/halal-catering-dubai) page.",
+  },
+  {
+    q: 'Do you cater in villas, apartments, hotels, yachts and outdoor venues across Dubai?',
+    a: "Yes. We coordinate catering in private villas, apartments, rooftops, gardens, on beaches, poolside and on yachts across Dubai — villa garden parties, beach events and yacht gatherings are regular bookings, including in [Palm Jumeirah](/locations/palm-jumeirah), [Dubai Marina](/locations/dubai-marina) and [Downtown Dubai](/locations/downtown-dubai). We can also work within many hotel and managed-venue policies. Some hotels and serviced buildings require external caterers to be pre-approved or to hold specific documentation, so tell us the venue early and we handle the practicalities. Every major district is covered — see the full [locations](/locations) list.",
+  },
+  {
+    q: 'Can I book catering for a small office lunch in Dubai?',
+    a: "Yes. We deliver [office catering](/office-catering-dubai) and [business lunch catering](/business-lunch-catering-dubai) across Dubai's business districts, including [Business Bay](/locations/business-bay) and [DIFC](/locations/difc). Menus can be individually boxed, buffet-style or plated.",
+  },
+  {
+    q: 'Do you provide waiters, bartenders and serving staff?',
+    a: "Yes. Serving staff, hosts and bartenders are optional add-ons, sized to your guest count and service style. Plated dinners and cocktail receptions usually need trained waiters; a relaxed buffet needs fewer. We recommend the team size for your event, and the staff handle service and clearing so you can stay with your guests.",
   },
   {
     q: 'Do you provide tableware and linens?',
-    a: 'Yes. We can arrange full tableware, glassware, linens, and decor as part of your catering package. Let us know your requirements.',
-  },
-  {
-    q: 'Can you cater outdoor events?',
-    a: 'Absolutely. We regularly coordinate catering for villa garden parties, beach events, yacht gatherings, and poolside celebrations across Dubai.',
-  },
-  {
-    q: 'How is the food served at large events?',
-    a: 'We offer plated service, buffet stations, family-style dining, and canape/cocktail service. We recommend the best format based on your event.',
+    a: "Yes. Tableware, glassware, linens and decor can be arranged as part of your catering package. Tell us what the event needs when we plan it.",
   },
   {
     q: 'Do you handle setup and cleanup?',
-    a: 'Yes. Full setup, service, and cleanup are included in every catering package. You do not need to worry about a thing.',
+    a: "Yes. Full setup, service and cleanup are included in every catering package. The team arrives, sets up, serves and clears away.",
   },
   {
-    q: 'How far in advance should I book catering?',
-    a: 'For events under 50 guests, 1 week is recommended. For larger events, 2\u20134 weeks. Peak season (November\u2013March) requires earlier booking.',
+    q: 'Are the chefs and kitchens licensed and food-safety compliant?',
+    a: "Yes. The chefs and catering partners we bring you are independent, licensed professionals who work to Dubai Municipality food-safety standards. We only send chefs who meet the hygiene and licensing requirements, so your event is handled by qualified, accountable professionals rather than unverified freelancers — with proper food handling from sourcing through to on-site service.",
   },
-  { q: "How much does event catering cost per person in Dubai?", a: "Event catering in Dubai typically ranges from around AED 100 to AED 500 per person, depending on menu, service style, and guest count, and myCHEF works to a custom quote rather than a fixed price list. Live cooking stations and plated fine dining sit at the higher end, while buffets are more economical, and every quote includes menu design, sourcing, cooking, service, and cleanup. Share your date, headcount, and vibe and we usually reply within 15 minutes during business hours with a tailored figure — see indicative starting points on our [private chef prices](/private-chef-prices-dubai) page." },
-  { q: "Why don't you list fixed catering prices online?", a: "We quote every event individually because catering cost in Dubai depends on guest count, menu complexity, service style, staffing, and venue rather than a one-size-fits-all rate. A 20-guest canapé reception and a 200-guest plated gala have completely different logistics, so a custom quote is more accurate and usually better value than a generic package price. Tell us the details and you'll get a transparent, itemised quote — no obligation." },
-  { q: "Is there a deposit to confirm a catering booking, and what is your payment structure?", a: "Yes, a deposit secures your date and chef, with the balance settled before or on the event day, and 5% VAT applies to the total. Exact terms are confirmed in writing with your quote so there are no surprises, and you'll receive a proper invoice and confirmation for every payment. This keeps the booking transparent and protects both sides." },
-  { q: "Are the chefs and kitchens licensed and food-safety compliant?", a: "Yes, myCHEF is a team of professional chefs and catering professionals who operate to Dubai Municipality food-safety standards. We only bring you chefs who meet hygiene and licensing requirements, so your event is handled by qualified, accountable professionals rather than unverified freelancers. You can rely on proper food handling from sourcing through to on-site service." },
-  { q: "Is all the food halal?", a: "Yes, halal ingredients are sourced by default for every myCHEF catering menu in Dubai. Meat and poultry come from halal suppliers as standard, and we can accommodate mixed guest lists and specific requirements on request. If you have questions about a particular dish, just ask when we build your menu — or see our dedicated [halal catering](/halal-catering-dubai) options." },
-  { q: "Do you provide waiters, bartenders, and serving staff?", a: "Yes, professional serving staff, hosts, and bartenders are optional add-ons we arrange based on your guest count and service style. Full-service formats like plated dinners and cocktail receptions usually need trained waiters, while a relaxed buffet may need fewer, and we'll recommend the right team size for your event. Staff handle service and clearing so you can enjoy your own party." },
-  { q: "Can you handle guests with allergies, vegan, vegetarian, and gluten-free needs?", a: "Yes, your chef designs the menu around dietary requirements including vegan, vegetarian, gluten-free, dairy-free, and nut allergies. Just share the details when we plan your menu and we'll label dishes and adapt recipes so every guest is looked after safely. Mixed dietary crowds are routine for us — explore our [vegan catering](/vegan-catering-dubai) options for plant-based events." },
-  { q: "Do you cater in villas, apartments, hotels, and outdoor venues across Dubai?", a: "Yes, we coordinate catering in private villas, apartments, rooftops, gardens, beaches, and yachts throughout Dubai, and we can work within many hotel and managed-venue policies. Some hotels and serviced buildings require external caterers to be pre-approved or hold specific documentation, so let us know your venue early and we'll handle the practicalities. We cover every major district — see our full [locations](/locations) list." },
-  { q: "Can you do live cooking stations at my event?", a: "Yes, interactive live cooking stations are one of our most popular formats, with chefs preparing dishes fresh in front of your guests. They add theatre and a premium feel to weddings, corporate functions, and villa parties, and can be combined with buffets or canapés for variety. See how they work on our [live cooking stations](/live-cooking-stations-dubai) page." },
-  { q: "Should I choose buffet, plated, or live-station service for my event?", a: "It depends on your guest count, formality, and space: buffets suit larger relaxed gatherings, plated service fits formal seated dinners and weddings, and live stations add interactive flair. We'll recommend the best format for your headcount and venue, and many clients combine styles for a dynamic experience. Our team maps the right service plan to your event during the menu consultation." },
-  { q: "What happens if my guest count changes after I book?", a: "We build in flexibility and ask for a final confirmed headcount a few days before your event so the chef can source and portion accurately. Small changes are usually easy to absorb, while larger swings may adjust the quote, and we'll walk you through any impact clearly. Just keep us posted as your RSVPs firm up." },
-  { q: "Can you cater a last-minute or short-notice event in Dubai?", a: "Often yes — depending on your date, guest count, and menu, we can arrange short-notice catering, though more lead time gives more menu and chef options. Peak season from November to March and holidays book up fast, so reach out as early as you can. Message us with your date and we'll tell you within about 15 minutes during business hours what's possible via [contact](/contact)." },
-  { q: "How is myCHEF different from a traditional catering company?", a: "myCHEF is a curated network that brings you independent, vetted chefs rather than a single company reheating trays from a central kitchen. That means restaurant-quality food cooked or finished on-site, menus tailored to your event, and a single point of coordination for sourcing, service, and cleanup. You get chef-led quality with the convenience of full-service catering." },
-  { q: "Can you also arrange a private chef instead of full event catering?", a: "Yes, for smaller or more intimate gatherings a private chef experience is often a better fit than large-format catering. A private chef cooks a bespoke multi-course meal in your kitchen with a personal touch, ideal for dinner parties and celebrations under around 20 guests. Learn more on our [private chef](/private-chef-dubai) page and we'll advise which option suits your event." },
-  { q: "Do you offer menu tastings before a large event or wedding?", a: "Tastings can be arranged for larger events such as weddings so you can confirm dishes and presentation before the day. This is especially worthwhile for milestone celebrations where you want the menu exactly right, and we'll discuss availability and any cost when planning your event. It's one more way we make sure the food matches your expectations." },
-  { q: "How much does catering cost in Dubai for 20 guests?", a: "Catering for 20 guests is quoted based on menu and service style, with canapé receptions, grazing tables, and seated dinners all priced differently. Most 20-guest events start from around AED 90–150 per person. Share your date and menu ideas and we'll reply with a tailored figure, usually within 15 minutes during business hours." },
-  { q: "What catering formats do you offer in Dubai?", a: "We offer a full range of formats including [BBQ](/bbq-catering-dubai), [buffet](/buffet-catering-dubai), [canapé](/canape-catering-dubai), [finger food](/finger-food-catering-dubai), [grazing tables](/grazing-table-dubai), [live cooking stations](/live-cooking-stations-dubai), [cocktail party catering](/cocktail-party-catering-dubai), [mocktail bars](/mocktail-bar-catering-dubai), and [dessert tables](/dessert-table-catering-dubai). We recommend the best format for your guest count, venue, and event mood." },
-  { q: "Do you cater halal events in Dubai?", a: "Yes. Halal ingredients are sourced by default for every myCHEF menu, and we can accommodate mixed guest lists and specific certification requirements. See our dedicated [halal catering Dubai](/halal-catering-dubai) page for more detail." },
-  { q: "Can you cater at a villa or yacht in Dubai?", a: "Yes. We coordinate catering in private villas, apartments, gardens, beaches, and yachts across Dubai, including [Palm Jumeirah](/locations/palm-jumeirah), [Dubai Marina](/locations/dubai-marina), and [Downtown Dubai](/locations/downtown-dubai). Let us know your venue early and we'll handle the practicalities." },
-  { q: "How much does catering cost in Dubai for 50 guests?", a: "For 50 guests, buffet or live-station formats are popular and typically more economical per person. Prices start from around AED 90 per person, with the final cost depending on cuisine, service style, and staffing. We'll send a transparent, itemised quote once we know your headcount and menu." },
-  { q: "Can I book catering for a small office lunch in Dubai?", a: "Yes. We deliver [office catering](/office-catering-dubai) and [business lunch catering](/business-lunch-catering-dubai) across Dubai's business districts, including [Business Bay](/locations/business-bay) and [DIFC](/locations/difc). Menus can be individually boxed, buffet-style, or plated." },
+  {
+    q: 'How far in advance should I book catering, and can you do short notice?',
+    a: "For events under 50 guests, book 1 week ahead. For larger events, 2–4 weeks. Peak season (November–March) and holidays book up fast, so reach out earlier. Short notice is often possible — it depends on the date, guest count and menu, and more lead time means more chef and menu options. Message us with your date via [contact](/contact) and we usually tell you within about 15 minutes during business hours what is possible.",
+  },
+  {
+    q: 'What happens if my guest count changes after I book?',
+    a: "We ask for a final confirmed headcount a few days before the event so the chef can source and portion accurately. Small changes are usually easy to absorb. Larger swings may change the quote, and we walk you through the impact clearly. Keep us posted as RSVPs firm up.",
+  },
+  {
+    q: 'Is there a deposit, and how does payment work?',
+    a: "Yes. A deposit secures your date and chef; the balance is settled before or on the event day, and 5% VAT applies to the total. Exact terms are confirmed in writing with your quote, and you receive an invoice and confirmation for every payment. That keeps the booking clear and protects both sides.",
+  },
+  {
+    q: 'Do you offer menu tastings before a large event or wedding?',
+    a: "Tastings can be arranged for larger events such as weddings, so you confirm dishes and presentation before the day. They are most worthwhile for milestone celebrations where the menu has to be exactly right. Availability and any cost are agreed when we plan the event.",
+  },
+  {
+    q: 'How is myCHEF different from a traditional catering company?',
+    a: "A traditional caterer is one company reheating trays from a central kitchen. myCHEF is a curated network: we bring you independent, vetted chefs who cook or finish restaurant-quality food on-site, build the menu around your event, and give you a single point of coordination for sourcing, service and cleanup. Chef-led food with the convenience of full-service catering.",
+  },
 ]
 
 const relatedServices = [
@@ -334,17 +355,18 @@ export default function Catering() {
 
       {/* ═══════════════ Section 1: Hero ═══════════════ */}
       <PageHero
-        title="Luxury Catering Dubai for Events & Private Celebrations"
-        subtitle="Event catering for 10–500+ guests. BBQ, buffet, canapés & plated service. We design, source, cook and serve — you stay a guest."
-        image="/images/mychef-hero-loop-poster.webp"
-        imageAlt="A private chef finishing a dish — myCHEF catering in Dubai"
-        imageWidth={1168}
-        imageHeight={768}
-        imagePosition="center"
-        videoSrc="/videos/mychef-hero-loop.mp4"
+        variant="quiet"
+        eyebrow="Catering Dubai"
+        title="Catering built around the event."
+        subtitle="From private dinners to larger celebrations, we plan the food, chefs, service team and flow around the way you want the event to run."
+        image="/images/catering-dubai-hero.webp"
+        imageAlt="A private dinner about to begin on a Dubai villa terrace at night — a long marble table set with candles, one myCHEF chef plating under pendant lights, the city lights across the water"
+        imageWidth={2560}
+        imageHeight={1440}
+        imagePosition="100% 50%"
         align="left"
-        cta={{ label: 'Get My Catering Quote', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=catering-dubai' }}
-        secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
+        cta={{ label: 'Plan Your Event', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=catering-dubai' }}
+        secondaryCta={{ label: 'WhatsApp Us', href: WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Catering Dubai' }]}
         minHeight="full"
         overlay="dark"
@@ -362,13 +384,15 @@ export default function Catering() {
       <section className="bg-black py-14 border-b border-charcoal">
         <div className="container-custom max-w-3xl text-center">
           <p className="font-inter text-body text-gray-400 leading-relaxed">
-            Tell us about your event and we handle everything from menu to service within 24 hours. From menu design and ingredient sourcing to service staff and cleanup, we coordinate every detail of your catering experience across Dubai's most prestigious districts, including{' '}
-            <Link to="/locations/business-bay" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Business Bay catering</Link>,{' '}
-            <Link to="/locations/difc" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">DIFC catering</Link>,{' '}
+            Tell us the occasion, date, venue and numbers — an itemised proposal comes back within 24 hours. We cater across{' '}
+            <Link to="/locations/business-bay" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Business Bay</Link>,{' '}
+            <Link to="/locations/difc" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">DIFC</Link>,{' '}
             <Link to="/locations/palm-jumeirah" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Palm Jumeirah</Link>,{' '}
-            <Link to="/locations/downtown-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Downtown Dubai</Link>, and{' '}
-            <Link to="/locations/dubai-marina" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Dubai Marina</Link>.
-            Whether you are planning a corporate lunch, a private celebration, or a large gala, we design menus and service plans tailored to your venue and guests — from <Link to="/finger-food-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">finger food</Link> and <Link to="/cocktail-party-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">cocktail party catering</Link> to full banquets. For a faster starting point, explore our <Link to="/catering-packages-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Catering Packages Dubai</Link>.
+            <Link to="/locations/downtown-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Downtown</Link> and{' '}
+            <Link to="/locations/dubai-marina" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Dubai Marina</Link> — from{' '}
+            <Link to="/finger-food-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">finger food</Link> and{' '}
+            <Link to="/cocktail-party-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">cocktail parties</Link> to full banquets. Want a faster start? Begin from a{' '}
+            <Link to="/catering-packages-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">catering package</Link>.
           </p>
         </div>
       </section>
@@ -380,31 +404,46 @@ export default function Catering() {
       <section className="bg-white section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WHAT CATERING OPTIONS ARE AVAILABLE?
-            </span>
+            <SectionLabel align="center">WHAT CATERING OPTIONS ARE AVAILABLE?</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               What types of catering does myCHEF offer in Dubai?
             </h2>
           </div>
 
-          <div className="cat-fmt-grid grid md:grid-cols-3 gap-6">
-            {cateringFormats.map((fmt, i) => (
-              <Link
-                key={i}
-                to={fmt.link}
-                className="cat-fmt-card group bg-charcoal p-8 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
-              >
-                <UtensilsCrossed size={36} className="text-gold mb-4" />
-                <h3 className="font-playfair text-h3 text-white mb-3">{fmt.title}</h3>
-                <p className="font-inter text-body-sm text-gray-400 leading-relaxed mb-4">
-                  {fmt.description}
-                </p>
-                <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
-                  Learn More <ArrowRight size={14} />
-                </span>
-              </Link>
-            ))}
+          {/* Directory, not a card wall: one row per format, a concept icon that means something, hairline rhythm. */}
+          <div className="cat-fmt-grid grid md:grid-cols-2 gap-x-12 border-t border-gray-200">
+            {cateringFormats.map((fmt, i) => {
+              const Icon =
+                ({
+                  'BBQ Catering': Flame,
+                  'Buffet Catering': UtensilsCrossed,
+                  'Canapé Catering': Sandwich,
+                  'Finger Food Catering': Hand,
+                  'Grazing Tables': Grape,
+                  'Live Cooking Stations': CookingPot,
+                  'Cocktail Party Catering': Wine,
+                  'Mocktail Bar Catering': GlassWater,
+                  'Dessert Tables': Cake,
+                } as Record<string, typeof Flame>)[fmt.title] ?? UtensilsCrossed
+              return (
+                <Link
+                  key={i}
+                  to={fmt.link}
+                  className="cat-fmt-card group flex items-start gap-5 border-b border-gray-200 py-6 opacity-0 translate-y-12 transition-colors"
+                >
+                  <span className="mt-0.5 flex h-11 w-11 flex-shrink-0 items-center justify-center border border-gold/35 text-gold-ink transition-colors group-hover:bg-gold-ink group-hover:text-white">
+                    <Icon size={20} strokeWidth={1.5} aria-hidden />
+                  </span>
+                  <span className="min-w-0 flex-1">
+                    <span className="flex items-center justify-between gap-4">
+                      <h3 className="font-playfair text-h4 text-black transition-colors group-hover:text-gold-ink">{fmt.title}</h3>
+                      <ArrowRight size={16} className="flex-shrink-0 text-gold-ink opacity-0 -translate-x-1 transition-all group-hover:translate-x-0 group-hover:opacity-100" aria-hidden />
+                    </span>
+                    <p className="mt-1 font-inter text-body-sm text-gray-500 leading-relaxed">{fmt.description}</p>
+                  </span>
+                </Link>
+              )
+            })}
           </div>
         </div>
       </section>
@@ -413,18 +452,16 @@ export default function Catering() {
       <section className="bg-cream py-16">
         <div className="container-custom">
           <div className="text-center mb-10">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WHERE IN DUBAI DO YOU COORDINATE CATERING?
-            </span>
+            <SectionLabel align="center">WHERE IN DUBAI DO YOU COORDINATE CATERING?</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               Where can I book catering in Dubai?
             </h2>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-3 gap-px bg-gray-200 border border-gray-200">
             <Link
               to="/locations/business-bay"
-              className="group bg-white p-8 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-md"
+              className="group bg-white p-7 lg:p-8 transition-colors hover:bg-cream/60"
             >
               <h3 className="font-playfair text-h3 text-black mb-2">Business Bay</h3>
               <p className="font-inter text-body-sm text-gray-500 leading-relaxed mb-4">
@@ -437,7 +474,7 @@ export default function Catering() {
 
             <Link
               to="/locations/difc"
-              className="group bg-white p-8 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-md"
+              className="group bg-white p-7 lg:p-8 transition-colors hover:bg-cream/60"
             >
               <h3 className="font-playfair text-h3 text-black mb-2">DIFC</h3>
               <p className="font-inter text-body-sm text-gray-500 leading-relaxed mb-4">
@@ -450,7 +487,7 @@ export default function Catering() {
 
             <Link
               to="/locations/dubai-marina"
-              className="group bg-white p-8 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-md"
+              className="group bg-white p-7 lg:p-8 transition-colors hover:bg-cream/60"
             >
               <h3 className="font-playfair text-h3 text-black mb-2">Dubai Marina</h3>
               <p className="font-inter text-body-sm text-gray-500 leading-relaxed mb-4">
@@ -468,25 +505,25 @@ export default function Catering() {
       <section className="bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WHAT EVENTS DO YOU COORDINATE CATERING FOR?
-            </span>
+            <SectionLabel align="center" tone="dark">WHAT EVENTS DO YOU COORDINATE CATERING FOR?</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               What events can myCHEF design catering for in Dubai?
             </h2>
           </div>
 
-          <div className="cat-ev-grid grid md:grid-cols-2 gap-6">
+          <div className="cat-ev-grid grid md:grid-cols-2 gap-px bg-white/10 border border-white/10">
             {eventTypes.map((ev, i) => {
               const Icon = ev.icon
               return (
                 <div
                   key={i}
-                  className="cat-ev-item flex gap-4 bg-charcoal p-6 opacity-0 translate-y-10"
+                  className="cat-ev-item flex gap-5 bg-black p-6 lg:p-7 opacity-0 translate-y-10"
                 >
-                  <Icon size={36} className="text-gold flex-shrink-0" />
+                  <span className="mt-0.5 flex h-11 w-11 flex-shrink-0 items-center justify-center border border-gold/35 text-gold">
+                    <Icon size={20} strokeWidth={1.5} aria-hidden />
+                  </span>
                   <div>
-                    <h3 className="font-playfair text-h3 text-white mb-2">{ev.title}</h3>
+                    <h3 className="font-playfair text-h4 text-white mb-1.5">{ev.title}</h3>
                     <p className="font-inter text-body-sm text-gray-400 leading-relaxed">{ev.description}</p>
                   </div>
                 </div>
@@ -524,18 +561,18 @@ export default function Catering() {
             What do myCHEF catering events look like?
           </h2>
 
-          <div className="cat-gallery grid grid-cols-2 lg:grid-cols-3 gap-4">
-            {galleryImages.map((img, i) => (
-              <div key={i} className="cat-gallery-img aspect-[4/3] overflow-hidden opacity-0 scale-95">
-                <img
-                  src={img.src}
-                  alt={img.alt}
-                  width={800}
-                  height={600}
-                  className="w-full h-full object-cover transition-transform duration-300 hover:scale-[1.03]"
-                  loading="lazy" decoding="async"/>
-              </div>
-            ))}
+          <div className="cat-gallery">
+            <figure className="cat-gallery-img m-0 overflow-hidden opacity-0 scale-95">
+              <img
+                src="/images/catering-events-collage.webp"
+                alt="myCHEF catering events across Dubai — a garden reception under string lights, a rooftop dinner against the skyline, a chef plating, a chandelier-lit long table, buffet and canapé service"
+                width={3344}
+                height={1882}
+                className="w-full h-auto"
+                loading="lazy"
+                decoding="async"
+              />
+            </figure>
           </div>
         </div>
       </section>
@@ -609,12 +646,41 @@ export default function Catering() {
         </div>
       </section>
 
-      <StarterPackagesSection
-        campaign="catering-dubai"
-        eyebrow="HOW MUCH DOES CATERING COST IN DUBAI?"
-        title="How much does event catering cost in Dubai?"
-        subtitle="Transparent starting prices for event catering in Dubai. Packages scale from intimate dinners to corporate events — final quote tailored to your event."
-      />
+      {/* Pricing logic — the packages grid already appears once above; repeat the method, not the cards. */}
+      <section className="bg-cream section-padding">
+        <div className="container-custom">
+          <div className="grid gap-10 lg:grid-cols-[minmax(0,0.5fr)_minmax(0,0.5fr)] lg:gap-16 items-start">
+            <div>
+              <SectionLabel>HOW MUCH DOES CATERING COST IN DUBAI?</SectionLabel>
+              <h2 className="font-playfair text-h2 text-black mb-5">How much does event catering cost in Dubai?</h2>
+              <p className="font-inter text-body text-gray-600 leading-relaxed mb-4">
+                The format decides the number, not the occasion. Buffet and drop-off catering starts from AED 90 per person; when a chef cooks on site, from AED 700 per person. Guest count, menu and service staff move it from there.
+              </p>
+              <p className="font-inter text-body text-gray-600 leading-relaxed">
+                Every quote is itemised in writing before you commit, with 5% VAT shown separately. For a fixed starting point, the packages above are priced per event.
+              </p>
+            </div>
+            <dl className="grid gap-px bg-gray-200 border border-gray-200 sm:grid-cols-2 lg:mt-12">
+              {[
+                ['Buffet & drop-off', 'from AED 90 / person'],
+                ['Chef cooking on site', 'from AED 700 / person'],
+                ['Service staff', 'added by guest count'],
+                ['Quote', 'itemised, in writing'],
+              ].map(([k, v]) => (
+                <div key={k} className="bg-white p-6">
+                  <dt className="font-inter text-caption uppercase tracking-wider text-gray-400 mb-2">{k}</dt>
+                  <dd className="font-playfair text-h4 text-black">{v}</dd>
+                </div>
+              ))}
+            </dl>
+          </div>
+          <p className="mt-8">
+            <Link to="/catering-packages-dubai" className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-wider text-gold-ink hover:text-gold">
+              See all catering packages <ArrowRight size={14} />
+            </Link>
+          </p>
+        </div>
+      </section>
 
       {/* ═══════════════ Related Guides ═══════════════ */}
       <section className="bg-cream py-16">

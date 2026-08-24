@@ -19,6 +19,8 @@ import TrustSignalStrip from '../components/TrustSignalStrip'
 import LocationStrip from '../components/LocationStrip'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to discuss school catering in Dubai (via mychef.ae/school-catering-dubai)')
@@ -329,9 +331,7 @@ export default function SchoolCatering() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            NOURISHING YOUNG LEARNERS
-          </span>
+          <SectionLabel align="center">NOURISHING YOUNG LEARNERS</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             Meals That Support Healthy Learning
           </h2>
@@ -348,9 +348,7 @@ export default function SchoolCatering() {
       <section className="bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              SCHOOL CATERING FORMATS
-            </span>
+            <SectionLabel align="center" tone="dark">SCHOOL CATERING FORMATS</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Catering for the Whole School
             </h2>
@@ -384,9 +382,7 @@ export default function SchoolCatering() {
       <section className="bg-black section-padding pt-0">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              HOW WE SUPPORT SCHOOLS
-            </span>
+            <SectionLabel align="center" tone="dark">HOW WE SUPPORT SCHOOLS</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Built for the School Community
             </h2>

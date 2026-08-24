@@ -13,6 +13,8 @@ import SEO from '../../components/SEO'
 import TrustSignalStrip from '../../components/TrustSignalStrip'
 import FaqAccordion from '../../components/FaqAccordion'
 import { howToSchema } from '../../utils/schema'
+import { SectionLabel } from '../../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like a corporate catering checklist and quote (via mychef.ae/corporate-catering-checklist-dubai)')
@@ -287,9 +289,7 @@ export default function CorporateCateringChecklist() {
       {/* ═══════════════ Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            OFFICE & BUSINESS EVENTS
-          </span>
+          <SectionLabel align="center">OFFICE & BUSINESS EVENTS</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             Catering That Keeps Business Moving
           </h2>
@@ -306,9 +306,7 @@ export default function CorporateCateringChecklist() {
       <section className="bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              BEFORE THE EVENT
-            </span>
+            <SectionLabel align="center" tone="dark">BEFORE THE EVENT</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Pre-Event Planning Checklist
             </h2>
@@ -329,9 +327,7 @@ export default function CorporateCateringChecklist() {
       <section className="bg-cream section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              MENU FORMATS
-            </span>
+            <SectionLabel align="center">MENU FORMATS</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               Corporate Catering Formats
             </h2>
@@ -353,9 +349,7 @@ export default function CorporateCateringChecklist() {
         <div className="container-custom max-w-[900px]">
           <div className="grid lg:grid-cols-2 gap-12">
             <div>
-              <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-                ON THE DAY
-              </span>
+              <SectionLabel>ON THE DAY</SectionLabel>
               <h2 className="font-playfair text-h2 text-black mb-6">
                 Service Flow Checklist
               </h2>
@@ -379,9 +373,7 @@ export default function CorporateCateringChecklist() {
       <section className="bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              DUBAI BUSINESS SCENARIOS
-            </span>
+            <SectionLabel align="center" tone="dark">DUBAI BUSINESS SCENARIOS</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Corporate Catering Across Dubai
             </h2>
@@ -402,9 +394,7 @@ export default function CorporateCateringChecklist() {
       <section className="bg-charcoal section-padding">
         <div className="container-custom max-w-[900px]">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              AFTER THE EVENT
-            </span>
+            <SectionLabel align="center" tone="dark">AFTER THE EVENT</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Post-Event Follow-Up
             </h2>

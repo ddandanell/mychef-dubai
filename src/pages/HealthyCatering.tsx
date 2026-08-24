@@ -18,6 +18,8 @@ import TrustSignalStrip from '../components/TrustSignalStrip'
 import LocationStrip from '../components/LocationStrip'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to plan healthy catering in Dubai (via mychef.ae/healthy-catering-dubai)')
@@ -326,9 +328,7 @@ export default function HealthyCatering() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            BALANCED DINING IN DUBAI
-          </span>
+          <SectionLabel align="center">BALANCED DINING IN DUBAI</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             Food That Leaves You Energised
           </h2>
@@ -345,9 +345,7 @@ export default function HealthyCatering() {
       <section className="bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              HEALTHY FORMATS
-            </span>
+            <SectionLabel align="center" tone="dark">HEALTHY FORMATS</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Balanced for Every Occasion
             </h2>
@@ -381,9 +379,7 @@ export default function HealthyCatering() {
       <section className="bg-black section-padding pt-0">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WHERE HEALTHY SHINES
-            </span>
+            <SectionLabel align="center" tone="dark">WHERE HEALTHY SHINES</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Designed for the Moment
             </h2>

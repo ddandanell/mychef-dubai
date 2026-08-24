@@ -19,6 +19,8 @@ import TrustSignalStrip from '../components/TrustSignalStrip'
 import LocationStrip from '../components/LocationStrip'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to plan Asian catering in Dubai (via mychef.ae/asian-catering-dubai)')
@@ -337,9 +339,7 @@ export default function AsianCatering() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            VIBRANT ASIAN CATERING IN DUBAI
-          </span>
+          <SectionLabel align="center">VIBRANT ASIAN CATERING IN DUBAI</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             One Continent, Endless Flavour
           </h2>
@@ -356,9 +356,7 @@ export default function AsianCatering() {
       <section className="bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              MENU HIGHLIGHTS
-            </span>
+            <SectionLabel align="center" tone="dark">MENU HIGHLIGHTS</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               From Wok to Counter
             </h2>
@@ -392,9 +390,7 @@ export default function AsianCatering() {
       <section className="bg-black section-padding pt-0">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WHO your chef prepares FOR
-            </span>
+            <SectionLabel align="center" tone="dark">WHO your chef prepares FOR</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Asian Catering for Every Occasion
             </h2>

@@ -24,6 +24,8 @@ import TrustSignalStrip from '../components/TrustSignalStrip'
 import allLocations from '../data/locations.ts'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 
@@ -267,9 +269,7 @@ export default function LocationDetail() {
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[900px]">
           <div className="loc-section opacity-0 translate-y-8">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              Private Chef & Catering {loc.name}
-            </span>
+            <SectionLabel>Private Chef & Catering {loc.name}</SectionLabel>
             <h2 className="font-playfair text-h2 text-black mb-8">
               {loc.uniqueAngle}
             </h2>
@@ -336,7 +336,7 @@ export default function LocationDetail() {
       <section className="bg-charcoal section-padding">
         <div className="container-custom">
           <div className="loc-section opacity-0 translate-y-8 max-w-[900px] mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">Menus</span>
+            <SectionLabel tone="dark">Menus</SectionLabel>
             <h2 className="font-playfair text-h2 text-white mb-6">{loc.menuOptions.title}</h2>
             <div className="space-y-4 mb-8">
               {loc.menuOptions.paragraphs.map((paragraph, i) => (

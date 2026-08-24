@@ -2,13 +2,15 @@ import { useEffect, useRef } from 'react'
 import { Link } from 'react-router'
 import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
-import { Shield, Leaf, Clock, Award } from 'lucide-react'
+import { ShieldCheck } from 'lucide-react'
+import { SectionLabel } from '@/components/system'
 
-const trustBadges = [
-  { icon: Shield, label: 'Handpicked Chefs' },
-  { icon: Leaf, label: 'Premium Ingredients' },
-  { icon: Clock, label: 'Punctual Service' },
-  { icon: Award, label: 'Experienced Network' },
+// Mechanisms, not adjectives — each line is a fact already stated elsewhere on this page.
+const trustPoints = [
+  { title: 'Vetted and background-checked', body: 'Every chef is checked before they cook for a myCHEF client.' },
+  { title: 'Independent chefs with their own food-safety credentials', body: 'The chef who cooks holds the certificate.' },
+  { title: 'One point of contact', body: 'One contact from the first message to the day itself.' },
+  { title: 'Reply within 15 minutes in business hours', body: 'Then a vetted chef and a tailored proposal.' },
 ]
 
 export default function TrustSection() {
@@ -65,30 +67,31 @@ export default function TrustSection() {
           ref={leftRef}
           className="w-full lg:w-1/2 bg-charcoal py-16 md:py-20 lg:py-24 px-6 md:px-12 lg:px-20"
         >
-          <span className="font-inter text-caption font-medium uppercase tracking-[0.1em] text-gold">
-            Why Book With myCHEF Dubai
-          </span>
-          <h2 className="font-playfair text-fluid-h2 text-white mt-4 mb-6">
-            Why book a private chef or caterer in Dubai with myCHEF?
+          <SectionLabel tone="dark" icon={ShieldCheck}>Why book through myCHEF</SectionLabel>
+          <h2 className="font-playfair text-fluid-h2 text-white mb-6">
+            Finding a chef in Dubai is easy. Knowing who you are letting into your home is harder.
           </h2>
           <p className="font-inter text-base text-gray-400 leading-[1.7] mb-10 max-w-lg">
-            Founded by a team with deep roots in luxury hospitality, myCHEF Dubai brings you Dubai&apos;s most talented culinary artists — every chef carefully selected, every experience designed and delivered with discretion. One point of contact. One standard of selection.
+            myCHEF was founded by a team from hospitality. Every chef is selected against one standard, every event is delivered with discretion, and you deal with one point of contact from the first message to the last plate.
           </p>
 
-          {/* Trust Badges */}
-          <div className="grid grid-cols-2 gap-x-8 gap-y-6 mb-10">
-            {trustBadges.map((badge) => (
-              <div key={badge.label} className="flex items-center gap-3">
-                <badge.icon size={24} className="text-gold flex-shrink-0" aria-hidden="true" />
-                <span className="font-inter text-caption font-medium uppercase tracking-wider text-white">
-                  {badge.label}
+          {/* Numbered editorial rows — recognition list, not badges */}
+          <ol className="border-y border-white/10 divide-y divide-white/10 mb-10 max-w-xl">
+            {trustPoints.map((point, index) => (
+              <li key={point.title} className="flex items-baseline gap-5 py-4">
+                <span className="font-playfair text-h3 leading-none text-gold w-8 shrink-0" aria-hidden="true">
+                  0{index + 1}
                 </span>
-              </div>
+                <div>
+                  <p className="font-inter text-body font-medium text-white">{point.title}</p>
+                  <p className="font-inter text-body-sm text-gray-400 leading-relaxed mt-1">{point.body}</p>
+                </div>
+              </li>
             ))}
-          </div>
+          </ol>
 
           <Link to="/about" className="btn-secondary inline-flex focus-visible:ring-offset-charcoal">
-            About Us
+            About myCHEF
           </Link>
         </div>
 
@@ -99,12 +102,11 @@ export default function TrustSection() {
         >
           <img
             src="/images/yacht-catering-dubai-hero.webp"
-            alt="Luxury yacht dining experience"
+            alt="Chef serving canapés on a yacht deck in Dubai"
             width={1344}
             height={752}
             className="absolute inset-0 w-full h-full object-cover"
-            loading="eager"
-            fetchPriority="high"
+            loading="lazy"
             decoding="async"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-charcoal/60 via-transparent to-transparent lg:from-charcoal/40" />

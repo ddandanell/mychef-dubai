@@ -1,0 +1,61 @@
+{
+ "url": "/private-chef-dubai/privacy-security",
+ "keyword_strategy": {
+  "keyword_lock": {
+   "scope": "Private Chef cluster only (/private-chef-dubai/*). Do not apply these locks to other site sections.",
+   "locked_primary": "private chef for family",
+   "locked_primary_volume": 20,
+   "locked_primary_kd": 0,
+   "locked_primary_intent": "commercial",
+   "secondary_validated": [
+    {
+     "keyword": "private chef agency",
+     "volume": 20,
+     "kd": 0
+    },
+    {
+     "keyword": "hire a chef",
+     "volume": 70,
+     "kd": 19,
+     "intent": "informational"
+    }
+   ],
+   "owned_by_sibling_pages_do_not_target": [
+    {
+     "keyword": "cook in dubai",
+     "owner": "/private-chef-dubai/how-it-works"
+    },
+    {
+     "keyword": "personal chef dubai",
+     "owner": "/private-chef-dubai/our-chefs"
+    },
+    {
+     "keyword": "healthy food chef",
+     "owner": "/private-chef-dubai/quality-training"
+    },
+    {
+     "keyword": "home chef dubai",
+     "owner": "/private-chef-dubai/pricing"
+    },
+    {
+     "keyword": "private chef dubai",
+     "owner": "/private-chef-dubai"
+    }
+   ],
+   "source": "Semrush UAE export 2026-08-25",
+   "source_of_truth": "KEYWORD_LOCKS in src/content/privateChefCluster.ts"
+  },
+  "main_keyword": "private chef for family",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": false,
+   "meta_description": true,
+   "opening_paragraph": false
+  },
+  "note": "Rewrite pass 2026-08-25 (master writing prompt): H1 kept keyword-free by design; primary carried in subtitle and closing CTA; \"private chef agency\" differentiator paragraph added to opening section. Copy is driven from childSeo in src/content/privateChefCluster.ts and the page TSX — edit there, not here."
+ },
+ "head": {
+  "title": "Private Chef for Family in Dubai | Privacy & Security | myCHEF",
+  "meta_description": "Hiring a private chef for your family in Dubai: who enters your home, what myCHEF checks, how discretion works, and how household access is handled when an assignment ends."
+ }
+}

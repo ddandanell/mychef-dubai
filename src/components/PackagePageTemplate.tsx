@@ -10,6 +10,8 @@ import TrustSignalStrip from './TrustSignalStrip'
 import LocationStrip from './LocationStrip'
 import { breadcrumbSchema, faqPageSchema, offerSchema, serviceSchema } from '@/utils/schema'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
+import { SectionLabel } from '@/components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 
@@ -143,7 +145,7 @@ export default function PackagePageTemplate({
         <div className="container-custom max-w-[1000px]">
           <div className="pkg-fade opacity-0 translate-y-8 grid md:grid-cols-2 gap-10 items-start">
             <div>
-              <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">Package Overview</span>
+              <SectionLabel>Package Overview</SectionLabel>
               <h2 className="font-playfair text-h2 text-black mb-4">
                 What is included in the {name} package?
               </h2>
@@ -225,7 +227,7 @@ export default function PackagePageTemplate({
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[800px]">
           <div className="pkg-fade opacity-0 translate-y-8 text-center mb-10">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">FAQ</span>
+            <SectionLabel align="center">FAQ</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">Common Questions About the {name} Package</h2>
           </div>
           <div className="pkg-fade opacity-0 translate-y-8 space-y-3">

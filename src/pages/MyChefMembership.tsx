@@ -16,6 +16,8 @@ import SEO from '../components/SEO'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import { breadcrumbSchema, faqPageSchema, serviceSchema } from '../utils/schema'
 import FaqAccordion from '../components/FaqAccordion'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to learn about myCHEF Membership (via mychef.ae/membership)')
@@ -236,9 +238,7 @@ export default function MyChefMembership() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            MEMBERSHIP PERKS
-          </span>
+          <SectionLabel align="center">MEMBERSHIP PERKS</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             More Value for Frequent Hosts
           </h2>
@@ -260,9 +260,7 @@ export default function MyChefMembership() {
       <section className="mem-tiers bg-cream section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              CHOOSE YOUR PLAN
-            </span>
+            <SectionLabel align="center">CHOOSE YOUR PLAN</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               Membership Tiers
             </h2>
@@ -326,9 +324,7 @@ export default function MyChefMembership() {
       <section className="bg-black section-padding">
         <div className="container-custom max-w-[1000px]">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WHY MEMBERSHIP MAKES SENSE
-            </span>
+            <SectionLabel align="center" tone="dark">WHY MEMBERSHIP MAKES SENSE</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Built for People Who Dine Well Often
             </h2>

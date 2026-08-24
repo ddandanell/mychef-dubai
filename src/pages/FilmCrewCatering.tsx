@@ -19,6 +19,8 @@ import TrustSignalStrip from '../components/TrustSignalStrip'
 import LocationStrip from '../components/LocationStrip'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to arrange film crew catering in Dubai (via mychef.ae/film-crew-catering-dubai)')
@@ -317,9 +319,7 @@ export default function FilmCrewCatering() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            CATERING THAT KEEPS THE UNIT MOVING
-          </span>
+          <SectionLabel align="center">CATERING THAT KEEPS THE UNIT MOVING</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             Food That Holds the Schedule Together
           </h2>
@@ -336,9 +336,7 @@ export default function FilmCrewCatering() {
       <section className="bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              ON-SET FORMATS
-            </span>
+            <SectionLabel align="center" tone="dark">ON-SET FORMATS</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Catering for Every Stage of the Day
             </h2>
@@ -372,9 +370,7 @@ export default function FilmCrewCatering() {
       <section className="bg-black section-padding pt-0">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WHERE WE WORK
-            </span>
+            <SectionLabel align="center" tone="dark">WHERE WE WORK</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Built for the Production
             </h2>

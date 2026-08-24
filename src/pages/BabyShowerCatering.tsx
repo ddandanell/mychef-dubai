@@ -19,6 +19,8 @@ import TrustSignalStrip from '../components/TrustSignalStrip'
 import LocationStrip from '../components/LocationStrip'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to plan baby shower catering in Dubai (via mychef.ae/baby-shower-catering-dubai)')
@@ -337,9 +339,7 @@ export default function BabyShowerCatering() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            CELEBRATING NEW BEGINNINGS
-          </span>
+          <SectionLabel align="center">CELEBRATING NEW BEGINNINGS</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             A Gentle, Beautiful Spread for Your Shower
           </h2>
@@ -356,9 +356,7 @@ export default function BabyShowerCatering() {
       <section className="bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              HOW WE STYLE IT
-            </span>
+            <SectionLabel align="center" tone="dark">HOW WE STYLE IT</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Baby Shower Catering Formats
             </h2>
@@ -388,9 +386,7 @@ export default function BabyShowerCatering() {
       <section className="bg-black section-padding pt-0">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              EVERY KIND OF SHOWER
-            </span>
+            <SectionLabel align="center" tone="dark">EVERY KIND OF SHOWER</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Showers we coordinate catering for
             </h2>

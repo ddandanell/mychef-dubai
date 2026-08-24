@@ -19,6 +19,8 @@ import TrustSignalStrip from '../components/TrustSignalStrip'
 import LocationStrip from '../components/LocationStrip'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent("Hi myCHEF Dubai, I'd like to plan an anniversary dinner (via mychef.ae/anniversary-catering-dubai)")
@@ -329,9 +331,7 @@ export default function AnniversaryCatering() {
       {/* ═══════════════ Section 2: Intro ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            CELEBRATE THE YEARS
-          </span>
+          <SectionLabel align="center">CELEBRATE THE YEARS</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             A Dinner Worthy of the Milestone
           </h2>
@@ -354,9 +354,7 @@ export default function AnniversaryCatering() {
       <section className="bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WHAT WE CREATE
-            </span>
+            <SectionLabel align="center" tone="dark">WHAT WE CREATE</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Dining Crafted for the Occasion
             </h2>
@@ -386,9 +384,7 @@ export default function AnniversaryCatering() {
       <section className="bg-cream section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WAYS TO CELEBRATE
-            </span>
+            <SectionLabel align="center">WAYS TO CELEBRATE</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               How we coordinate catering for Anniversary Dinners
             </h2>

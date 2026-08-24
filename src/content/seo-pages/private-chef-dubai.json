@@ -35,13 +35,78 @@
    "private chef uk cost",
    "private chef dubai vacancy"
   ],
-  "note": "Page rebuilt 2026-08-22 around evening + household products. Copy lives in PrivateChef.tsx. SeoContent injectors left empty so old AED 700pp / named-chef blocks cannot append."
+  "note": "Page rebuilt 2026-08-22 around evening + household products. Copy lives in PrivateChef.tsx. SeoContent injectors left empty so old AED 700pp / named-chef blocks cannot append. | 2026-08-25: keyword locks added. Legacy subkeywords_carried_list retained as long-tail bets but NOT present in the Semrush UAE export — the coverage_percent above refers to those legacy terms only and is not validated against market volume. Validated targeting lives in keyword_lock.",
+  "keyword_lock": {
+   "scope": "Private Chef cluster only (/private-chef-dubai/*). Do not apply these locks to other site sections.",
+   "locked_primary": "private chef dubai",
+   "locked_primary_volume": 320,
+   "locked_primary_kd": 23,
+   "locked_primary_intent": "commercial",
+   "secondary_validated": [
+    {
+     "keyword": "chef dubai",
+     "volume": 720,
+     "kd": 29,
+     "intent": "informational"
+    },
+    {
+     "keyword": "private chef",
+     "volume": 170,
+     "kd": 17,
+     "intent": "commercial"
+    },
+    {
+     "keyword": "private chef services",
+     "volume": 20,
+     "kd": 0
+    },
+    {
+     "keyword": "private chef agency",
+     "volume": 20,
+     "kd": 0
+    },
+    {
+     "keyword": "private chef for dinner party",
+     "volume": 20,
+     "kd": 0
+    },
+    {
+     "keyword": "private bbq chef",
+     "volume": 20,
+     "kd": 0
+    }
+   ],
+   "owned_by_sibling_pages_do_not_target": [
+    {
+     "keyword": "cook in dubai",
+     "owner": "/private-chef-dubai/how-it-works"
+    },
+    {
+     "keyword": "personal chef dubai",
+     "owner": "/private-chef-dubai/our-chefs"
+    },
+    {
+     "keyword": "healthy food chef",
+     "owner": "/private-chef-dubai/quality-training"
+    },
+    {
+     "keyword": "private chef for family",
+     "owner": "/private-chef-dubai/privacy-security"
+    },
+    {
+     "keyword": "home chef dubai",
+     "owner": "/private-chef-dubai/pricing"
+    }
+   ],
+   "source": "Semrush UAE export 2026-08-25",
+   "source_of_truth": "KEYWORD_LOCKS in src/content/privateChefCluster.ts"
+  }
  },
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
-  "title": "Private Chef Dubai | Hire a Personal Chef at Home | myCHEF",
-  "meta_description": "Book a private chef in Dubai from AED 1,200 for dinner, or a household chef from AED 900 a day. Vetted chefs, one contact, prices on this page.",
-  "h1": "A private chef in Dubai is easy to find. A service that stays consistent is not."
+  "title": "Private Chef Dubai | Private Chef Services for Your Home | myCHEF",
+  "meta_description": "Private chef Dubai for a standing household — the same chef every week, a Food Profile that travels, and backup if they are off. Private chef services from a few days a week. From AED 2,700 a month.",
+  "h1": "Your chef. Your household. Already understood. (eyebrow inside H1: Private Chef Dubai)"
  },
  "opening_paragraph": [],
  "replace_in_block": [],

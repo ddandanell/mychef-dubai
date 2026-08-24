@@ -7,6 +7,8 @@ import { ArrowRight, Phone, BookOpen } from 'lucide-react'
 import SEO from '../components/SEO'
 import PageHero from '../components/PageHero'
 import { BLOG_POSTS, BLOG_HUBS, postsInHub } from '../content/blogTaxonomy'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I found your blog and would like to discuss catering (via mychef.ae/blog)')
@@ -87,9 +89,7 @@ export default function Blog() {
       <section className="bg-cream section-padding border-b border-gray-200">
         <div className="container-custom max-w-[1100px]">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              Browse by Topic
-            </span>
+            <SectionLabel align="center">Browse by Topic</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               Explore Our Guides by Theme
             </h2>
@@ -126,9 +126,7 @@ export default function Blog() {
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[1100px]">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              Latest Posts
-            </span>
+            <SectionLabel align="center">Latest Posts</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               Insights for Dubai Hosts
             </h2>

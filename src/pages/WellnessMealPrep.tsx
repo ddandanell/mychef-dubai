@@ -24,6 +24,8 @@ import TrustSignalStrip from '../components/TrustSignalStrip'
 import VIPPromoSection from '../components/VIPPromoSection'
 import { breadcrumbSchema, faqPageSchema, serviceSchema } from '../utils/schema'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to learn about wellness meal prep in Dubai (via mychef.ae/wellness-meal-prep-dubai)')
@@ -212,7 +214,7 @@ export default function WellnessMealPrep() {
       <section className="bg-cream section-padding">
         <div className="container-custom">
           <div className="text-center mb-12 wm-fade opacity-0 translate-y-8">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">Programmes</span>
+            <SectionLabel align="center">Programmes</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">Wellness Meal Prep Programmes</h2>
           </div>
           <div className="wm-cards grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -236,7 +238,7 @@ export default function WellnessMealPrep() {
       <section className="bg-black section-padding">
         <div className="container-custom max-w-[1000px]">
           <div className="text-center mb-12 wm-fade opacity-0 translate-y-8">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">The Process</span>
+            <SectionLabel align="center" tone="dark">The Process</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">How Wellness Meal Prep Works</h2>
           </div>
           <div className="grid md:grid-cols-2 gap-8">
@@ -263,7 +265,7 @@ export default function WellnessMealPrep() {
       <section className="bg-white section-padding">
         <div className="container-custom">
           <div className="text-center mb-12 wm-fade opacity-0 translate-y-8">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">Why Choose Us</span>
+            <SectionLabel align="center">Why Choose Us</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">Built for Health, Performance & Recovery</h2>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -287,7 +289,7 @@ export default function WellnessMealPrep() {
       <section className="bg-cream section-padding">
         <div className="container-custom max-w-[800px]">
           <div className="text-center mb-10 wm-fade opacity-0 translate-y-8">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">FAQ</span>
+            <SectionLabel align="center">FAQ</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">Wellness Meal Prep Questions</h2>
           </div>
           <div className="wm-faq-list space-y-3">

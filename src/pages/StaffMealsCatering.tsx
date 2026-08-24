@@ -19,6 +19,8 @@ import TrustSignalStrip from '../components/TrustSignalStrip'
 import LocationStrip from '../components/LocationStrip'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to arrange staff meals catering (via mychef.ae/staff-meals-catering-dubai)')
@@ -317,9 +319,7 @@ export default function StaffMealsCatering() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            CATERING FOR YOUR WORKFORCE
-          </span>
+          <SectionLabel align="center">CATERING FOR YOUR WORKFORCE</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             A Reliable Meal for Every Shift
           </h2>
@@ -336,9 +336,7 @@ export default function StaffMealsCatering() {
       <section className="bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              STAFF MEALS FORMATS
-            </span>
+            <SectionLabel align="center" tone="dark">STAFF MEALS FORMATS</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Catering Built Around Your Team
             </h2>
@@ -372,9 +370,7 @@ export default function StaffMealsCatering() {
       <section className="bg-black section-padding pt-0">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WHO WE FEED
-            </span>
+            <SectionLabel align="center" tone="dark">WHO WE FEED</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               From Daily Meals to Canteens
             </h2>

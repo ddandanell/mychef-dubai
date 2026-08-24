@@ -1,6 +1,8 @@
 import { Link } from 'react-router'
 import { ArrowRight } from 'lucide-react'
 import { relatedPosts } from '../content/blogTaxonomy'
+import { SectionLabel } from '@/components/system'
+
 
 interface BlogRelatedProps {
   currentSlug: string
@@ -21,9 +23,7 @@ export default function BlogRelated({ currentSlug, count = 3 }: BlogRelatedProps
     <section className="bg-white section-padding">
       <div className="container-custom max-w-[1100px]">
         <div className="text-center mb-10">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            Related Reading
-          </span>
+          <SectionLabel align="center">Related Reading</SectionLabel>
           <h2 className="font-playfair text-h2 text-black">
             More from the myCHEF Dubai Blog
           </h2>

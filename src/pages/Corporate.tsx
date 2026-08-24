@@ -22,6 +22,8 @@ import {
 import { Check, Quote, Star, ArrowRight, Clock, Shield, Award, Users, Leaf, FileText, Building, PartyPopper, } from 'lucide-react'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { deferNonCritical } from '../lib/deferNonCritical'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 
@@ -416,9 +418,7 @@ export default function Corporate({
       <section className="bg-white section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption font-medium uppercase tracking-widest text-gold">
-              WHAT WE OFFER
-            </span>
+            <SectionLabel align="center">WHAT WE OFFER</SectionLabel>
             <h2 className="font-playfair text-h2 text-black mt-4">
               What corporate dining solutions does myCHEF Dubai offer?
             </h2>
@@ -459,9 +459,7 @@ export default function Corporate({
       <section className="bg-cream section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption font-medium uppercase tracking-widest text-gold">
-              CATERING OPTIONS
-            </span>
+            <SectionLabel align="center">CATERING OPTIONS</SectionLabel>
             <h2 className="font-playfair text-h2 text-black mt-4">
               What types of corporate catering do you provide in Dubai?
             </h2>
@@ -487,9 +485,7 @@ export default function Corporate({
       <section className="bg-black section-padding">
         <div className="container-custom max-w-[1000px]">
           <div className="text-center mb-16">
-            <span className="font-inter text-caption font-medium uppercase tracking-widest text-gold">
-              WHY CHOOSE US
-            </span>
+            <SectionLabel align="center" tone="dark">WHY CHOOSE US</SectionLabel>
             <h2 className="font-playfair text-h2 text-white mt-4">
               Why do Dubai companies choose myCHEF for corporate catering?
             </h2>
@@ -537,9 +533,7 @@ export default function Corporate({
       <section className="bg-black section-padding">
         <div className="container-custom max-w-[1000px]">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption font-medium uppercase tracking-widest text-gold">
-              MONTHLY RETAINERS
-            </span>
+            <SectionLabel align="center" tone="dark">MONTHLY RETAINERS</SectionLabel>
             <h2 className="font-playfair text-h2 text-white mt-4">
               Ongoing corporate catering plans for Dubai businesses
             </h2>
@@ -641,7 +635,7 @@ export default function Corporate({
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[800px]">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption font-medium uppercase tracking-widest text-gold">FAQ</span>
+            <SectionLabel align="center">FAQ</SectionLabel>
             <h2 className="font-playfair text-h2 text-black mt-4">Frequently Asked Questions About Corporate Catering in Dubai</h2>
           </div>
           <Accordion type="single" collapsible className="w-full">

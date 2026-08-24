@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import { Link } from 'react-router'
 import { Phone, Users, ArrowRight, UtensilsCrossed, PartyPopper, ChefHat, Flame, GlassWater, Cake } from 'lucide-react'
+import { SectionLabel } from '@/components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 
@@ -99,9 +101,7 @@ export default function GuestCountSelector() {
     <section className="bg-cream section-padding">
       <div className="container-custom max-w-[1000px]">
         <div className="text-center mb-10">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            Find the Right Format
-          </span>
+          <SectionLabel align="center">Find the Right Format</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-4">
             How many guests are you catering for?
           </h2>

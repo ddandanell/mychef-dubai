@@ -75,7 +75,7 @@ export default function FloatingChefChat() {
     <div
       className="fixed z-50 flex flex-col items-end gap-3
         right-4 sm:right-6
-        bottom-[calc(5.5rem+env(safe-area-inset-bottom))] sm:bottom-6"
+        bottom-[calc(1rem+env(safe-area-inset-bottom))] sm:bottom-6"
       aria-label="Chef WhatsApp assistant"
     >
       {/* Prompt bubble — only shown when the user opens it, never auto-popped */}

@@ -21,6 +21,8 @@ import SEO from '../components/SEO'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to enquire about bar services and bartender hire in Dubai (via mychef.ae/bar-services-dubai)')
@@ -322,9 +324,7 @@ export default function BarServices() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            MOBILE BARS & BARTENDERS
-          </span>
+          <SectionLabel align="center">MOBILE BARS & BARTENDERS</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             Bar Service That Sets the Mood
           </h2>
@@ -341,9 +341,7 @@ export default function BarServices() {
       <section className="bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              BAR SERVICE FORMATS
-            </span>
+            <SectionLabel align="center" tone="dark">BAR SERVICE FORMATS</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               A Bar Setup for Every Event
             </h2>
@@ -377,9 +375,7 @@ export default function BarServices() {
       <section className="bg-black section-padding pt-0">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              EVENTS WE SERVE
-            </span>
+            <SectionLabel align="center" tone="dark">EVENTS WE SERVE</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Bar Service for Every Dubai Occasion
             </h2>
@@ -412,9 +408,7 @@ export default function BarServices() {
       <section className="bg-cream section-padding">
         <div className="container-custom max-w-[1000px]">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              SIGNATURE SIPS
-            </span>
+            <SectionLabel align="center">SIGNATURE SIPS</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               A Taste of Our Drink Menu
             </h2>

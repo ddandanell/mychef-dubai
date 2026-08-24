@@ -19,6 +19,8 @@ import TrustSignalStrip from '../components/TrustSignalStrip'
 import LocationStrip from '../components/LocationStrip'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to set up a corporate meal prep programme in Dubai (via mychef.ae/corporate-meal-prep-dubai)')
@@ -317,9 +319,7 @@ export default function CorporateMealPrep() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            GOOD FOOD, ON A SCHEDULE
-          </span>
+          <SectionLabel align="center">GOOD FOOD, ON A SCHEDULE</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             A Managed Programme, Not a One-Off
           </h2>
@@ -336,9 +336,7 @@ export default function CorporateMealPrep() {
       <section className="bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              MEAL PREP FORMATS
-            </span>
+            <SectionLabel align="center" tone="dark">MEAL PREP FORMATS</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Programmes Built Around Your Team
             </h2>
@@ -372,9 +370,7 @@ export default function CorporateMealPrep() {
       <section className="bg-black section-padding pt-0">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              HOW TEAMS USE IT
-            </span>
+            <SectionLabel align="center" tone="dark">HOW TEAMS USE IT</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Designed for the Workplace
             </h2>

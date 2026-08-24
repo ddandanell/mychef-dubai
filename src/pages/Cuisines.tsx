@@ -27,6 +27,8 @@ import LocationStrip from '../components/LocationStrip'
 import PageHero from '../components/PageHero'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to explore catering by cuisine (via mychef.ae/cuisines-dubai)')
@@ -259,9 +261,7 @@ export default function Cuisines() {
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[1100px]">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              Browse by Cuisine
-            </span>
+            <SectionLabel align="center">Browse by Cuisine</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               Choose a Cuisine for Your Dubai Event
             </h2>
@@ -301,9 +301,7 @@ export default function Cuisines() {
       <section className="bg-cream section-padding">
         <div className="container-custom max-w-[1100px]">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              Dietary & Allergen Catering
-            </span>
+            <SectionLabel align="center">Dietary & Allergen Catering</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               Inclusive Menus for Every Guest
             </h2>
@@ -365,9 +363,7 @@ export default function Cuisines() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <div className="text-center mb-10">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              FAQ
-            </span>
+            <SectionLabel align="center">FAQ</SectionLabel>
             <h2 className="font-playfair text-fluid-h2 text-black">
               Questions About Cuisine-Specific Catering
             </h2>

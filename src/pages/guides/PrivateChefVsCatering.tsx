@@ -14,6 +14,8 @@ import {
 import SEO from '../../components/SEO'
 import TrustSignalStrip from '../../components/TrustSignalStrip'
 import FaqAccordion from '../../components/FaqAccordion'
+import { SectionLabel } from '../../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'m deciding between a private chef and catering (via mychef.ae/private-chef-vs-catering-dubai)')
@@ -247,9 +249,7 @@ export default function PrivateChefVsCatering() {
       {/* ═══════════════ Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            DECISION GUIDE
-          </span>
+          <SectionLabel align="center">DECISION GUIDE</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             Choose the Right Service for Your Occasion
           </h2>
@@ -266,9 +266,7 @@ export default function PrivateChefVsCatering() {
       <section className="bg-black section-padding">
         <div className="container-custom max-w-[1000px]">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              SIDE-BY-SIDE
-            </span>
+            <SectionLabel align="center" tone="dark">SIDE-BY-SIDE</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Private Chef vs Catering Comparison
             </h2>
@@ -301,9 +299,7 @@ export default function PrivateChefVsCatering() {
       <section className="bg-cream section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              MAKING THE CHOICE
-            </span>
+            <SectionLabel align="center">MAKING THE CHOICE</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               When to Choose Each Option
             </h2>
@@ -346,9 +342,7 @@ export default function PrivateChefVsCatering() {
       <section className="bg-white section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              BEST OF BOTH
-            </span>
+            <SectionLabel align="center">BEST OF BOTH</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               Hybrid Options
             </h2>
@@ -369,9 +363,7 @@ export default function PrivateChefVsCatering() {
       <section className="bg-black section-padding">
         <div className="container-custom max-w-[900px]">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              COST & SCALE
-            </span>
+            <SectionLabel align="center" tone="dark">COST & SCALE</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               How Group Size Affects the Decision
             </h2>

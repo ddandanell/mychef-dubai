@@ -14,6 +14,8 @@ import SEO from '../../components/SEO'
 import TrustSignalStrip from '../../components/TrustSignalStrip'
 import FaqAccordion from '../../components/FaqAccordion'
 import { howToSchema } from '../../utils/schema'
+import { SectionLabel } from '../../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like help planning wedding catering (via mychef.ae/wedding-catering-checklist-dubai)')
@@ -254,9 +256,7 @@ export default function WeddingCateringChecklist() {
       {/* ═══════════════ Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            PLANNING TIMELINE
-          </span>
+          <SectionLabel align="center">PLANNING TIMELINE</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             Stay Ahead of Every Catering Decision
           </h2>
@@ -273,9 +273,7 @@ export default function WeddingCateringChecklist() {
       <section className="bg-black section-padding">
         <div className="container-custom max-w-[900px]">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              FROM 12 MONTHS TO DAY-OF
-            </span>
+            <SectionLabel align="center" tone="dark">FROM 12 MONTHS TO DAY-OF</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Wedding Catering Timeline
             </h2>
@@ -306,9 +304,7 @@ export default function WeddingCateringChecklist() {
       <section className="bg-cream section-padding">
         <div className="container-custom max-w-[1000px]">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              MENU & SERVICE
-            </span>
+            <SectionLabel align="center">MENU & SERVICE</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               Key Menu Decisions
             </h2>
@@ -329,9 +325,7 @@ export default function WeddingCateringChecklist() {
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[900px]">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              DUBAI-SPECIFIC
-            </span>
+            <SectionLabel align="center">DUBAI-SPECIFIC</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               What to Consider in Dubai
             </h2>
@@ -352,9 +346,7 @@ export default function WeddingCateringChecklist() {
       <section className="bg-black section-padding">
         <div className="container-custom max-w-[900px]">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WHEN TO BOOK MYCHEF
-            </span>
+            <SectionLabel align="center" tone="dark">WHEN TO BOOK MYCHEF</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Wedding Catering Support at Every Stage
             </h2>

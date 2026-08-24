@@ -19,6 +19,8 @@ import TrustSignalStrip from '../components/TrustSignalStrip'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { eventSchema } from '../utils/schema'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to discuss Ramadan Iftar catering (via mychef.ae/iftar-catering-dubai)')
@@ -347,9 +349,7 @@ export default function RamadanIftar() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            RAMADAN IN DUBAI
-          </span>
+          <SectionLabel align="center">RAMADAN IN DUBAI</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             Iftar Gatherings Made Meaningful
           </h2>
@@ -366,9 +366,7 @@ export default function RamadanIftar() {
       <section className="bg-cream section-padding">
         <div className="container-custom max-w-[900px]">
           <div className="text-center mb-10">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              Who We Serve
-            </span>
+            <SectionLabel align="center">Who We Serve</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               Iftar Catering Designed for Every Gathering
             </h2>
@@ -397,9 +395,7 @@ export default function RamadanIftar() {
       <section className="bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              RAMADAN SERVICES
-            </span>
+            <SectionLabel align="center" tone="dark">RAMADAN SERVICES</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Catering for Iftar, Suhoor & Eid
             </h2>
@@ -454,9 +450,7 @@ export default function RamadanIftar() {
       <section className="bg-charcoal section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              MENU HIGHLIGHTS
-            </span>
+            <SectionLabel align="center" tone="dark">MENU HIGHLIGHTS</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Flavours of the Holy Month
             </h2>
@@ -481,9 +475,7 @@ export default function RamadanIftar() {
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[1000px]">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              THE PROCESS
-            </span>
+            <SectionLabel align="center">THE PROCESS</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               How Iftar Catering Works
             </h2>
@@ -526,9 +518,7 @@ export default function RamadanIftar() {
       <section className="bg-cream section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              DUBAI IFTAR OCCASIONS
-            </span>
+            <SectionLabel align="center">DUBAI IFTAR OCCASIONS</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               Iftar Catering for Every Setting
             </h2>
@@ -585,9 +575,7 @@ export default function RamadanIftar() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <div className="text-center mb-10">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              FAQ
-            </span>
+            <SectionLabel align="center">FAQ</SectionLabel>
             <h2 className="font-playfair text-fluid-h2 text-black">
               Ramadan Iftar Questions
             </h2>

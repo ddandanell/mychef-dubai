@@ -17,6 +17,8 @@ import TrustSignalStrip from '../components/TrustSignalStrip'
 import { breadcrumbSchema, faqPageSchema, serviceSchema } from '../utils/schema'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to discuss a part-time private chef (via mychef.ae/part-time-private-chef-dubai)')
@@ -224,9 +226,7 @@ export default function PartTimePrivateChef() {
 
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            REGULAR SUPPORT
-          </span>
+          <SectionLabel align="center">REGULAR SUPPORT</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             The "Regular But Not Full-Time" Solution
           </h2>
@@ -247,9 +247,7 @@ export default function PartTimePrivateChef() {
       <section className="pt-benefits bg-cream section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WHY PART-TIME
-            </span>
+            <SectionLabel align="center">WHY PART-TIME</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               Benefits of a Part-Time Chef
             </h2>
@@ -273,9 +271,7 @@ export default function PartTimePrivateChef() {
       <section className="pt-arrangements bg-black section-padding">
         <div className="container-custom max-w-[1000px]">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              COMMON ARRANGEMENTS
-            </span>
+            <SectionLabel align="center" tone="dark">COMMON ARRANGEMENTS</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               How Families Use Part-Time Chefs
             </h2>

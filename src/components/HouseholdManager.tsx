@@ -117,12 +117,11 @@ export default function HouseholdManager({ photoSrc }: { photoSrc: string }) {
             </p>
           </blockquote>
 
-          {/* Four responsibilities */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-x-6 gap-y-9 mb-12">
-            {RESPONSIBILITIES.map(({ Icon, title, body }, i) => (
-              <div key={title} data-reveal className={i > 0 ? 'md:border-l md:border-gold/20 md:pl-6' : ''}>
+          <div className="grid sm:grid-cols-2 gap-5 mb-12">
+            {RESPONSIBILITIES.map(({ Icon, title, body }) => (
+              <div key={title} data-reveal className="border border-gray-200 bg-white p-6 md:p-7">
                 <Icon size={22} className="text-gold mb-4" strokeWidth={1.5} aria-hidden />
-                <h3 className="font-inter text-caption font-semibold uppercase tracking-[0.08em] text-black leading-snug mb-2">
+                <h3 className="font-playfair text-h4 text-black leading-snug mb-2">
                   {title}
                 </h3>
                 <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{body}</p>

@@ -9,6 +9,8 @@ import PageHero from '../../components/PageHero'
 import TrustSignalStrip from '../../components/TrustSignalStrip'
 import { breadcrumbSchema, serviceSchema } from '../../utils/schema'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
+import { SectionLabel } from '../../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 
@@ -113,7 +115,7 @@ export default function PartnerPageTemplate({
       <section className="bg-cream section-padding">
         <div className="container-custom max-w-[900px]">
           <div className="partner-fade opacity-0 translate-y-8 text-center">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">Why Partner</span>
+            <SectionLabel align="center">Why Partner</SectionLabel>
             <h2 className="font-playfair text-h2 text-black mb-6">{intro}</h2>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">{valueProposition}</p>
           </div>
@@ -124,7 +126,7 @@ export default function PartnerPageTemplate({
       <section className="bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12 partner-fade opacity-0 translate-y-8">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">Partnership Benefits</span>
+            <SectionLabel align="center" tone="dark">Partnership Benefits</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">What You Gain</h2>
           </div>
           <div className="partner-cards grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-[1000px] mx-auto">
@@ -146,7 +148,7 @@ export default function PartnerPageTemplate({
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[900px]">
           <div className="text-center mb-12 partner-fade opacity-0 translate-y-8">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">How It Works</span>
+            <SectionLabel align="center">How It Works</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">Simple Partnership Workflow</h2>
           </div>
           <div className="space-y-4">

@@ -2,43 +2,49 @@ import { useEffect, useRef } from 'react'
 import { Link } from 'react-router'
 import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
-import { ArrowRight } from 'lucide-react'
+import { ArrowRight, Briefcase, House, PartyPopper, Wine } from 'lucide-react'
+import type { LucideIcon } from 'lucide-react'
+import { SectionLabel } from '@/components/system'
 
-const services = [
+// The two core hubs lead with photography; the four built on them sit in a hairline index.
+const coreServices = [
   {
     image: '/images/private-chef-dubai-hero.webp',
     title: 'Private Chef Dubai',
-    description: 'A carefully selected professional chef for an evening, a week, or longer. We match the right chef to your taste and design the menu with you — bespoke dining, prepared by your chef in your own home.',
+    description: 'A vetted chef for one evening, a week, or longer. We match the chef to how you eat and design the menu with you — then the chef cooks it in your own kitchen.',
     link: '/private-chef-dubai',
   },
   {
     image: '/images/catering-dubai-hero.webp',
     title: 'Catering Dubai',
-    description: 'Plated dinners to grand buffets, for events of any size — designed with you and delivered by experienced, licensed caterers you engage through us.',
+    description: 'Plated dinners to full buffets, for events of any size — designed with you and delivered by experienced, licensed caterers you engage through us.',
     link: '/catering-dubai',
   },
+]
+
+const builtOnServices: { icon: LucideIcon; title: string; description: string; link: string }[] = [
   {
-    image: '/images/luxury-dining-dubai-hero.webp',
+    icon: Wine,
     title: 'Luxury Dining Experiences',
-    description: 'Intimate fine dining at home, romantic evenings, milestone celebrations — every course designed with you and prepared by your carefully selected chef.',
+    description: 'Fine dining at home, dinners for two, milestone celebrations — every course designed with you and cooked by the chef we selected for you.',
     link: '/luxury-dining-experiences',
   },
   {
-    image: '/images/events-catering-dubai-hero.webp',
+    icon: PartyPopper,
     title: 'Events & Celebrations',
-    description: 'From intimate gatherings to grand celebrations — we design the experience and bring in the chef, service and styling, so you host while your chef delivers.',
+    description: 'Small gatherings to large celebrations — we plan the evening and bring in the chef, service and styling, so you host while the chef delivers.',
     link: '/events',
   },
   {
-    image: '/images/corporate-catering-dubai-hero.webp',
+    icon: Briefcase,
     title: 'Corporate Dining',
-    description: 'Impress clients and colleagues with sophisticated boardroom dining and corporate events — designed with you and delivered by chefs and caterers who work to corporate standard.',
+    description: 'Boardroom dining and corporate events — designed with you and delivered by chefs and caterers who work to corporate standard.',
     link: '/corporate',
   },
   {
-    image: '/images/villa-catering-dubai-hero.webp',
+    icon: House,
     title: 'Villas & Residences',
-    description: 'Dedicated villa chef arrangements for holiday homes, long-stay guests, and luxury residences across Dubai — we bring you a vetted chef you engage, and design the dining around your home.',
+    description: 'Villa chef arrangements for holiday homes, long-stay guests and residences across Dubai — a vetted chef you engage, with the dining designed around your home.',
     link: '/villas-private-residences',
   },
 ]
@@ -100,57 +106,85 @@ export default function ServicesSection() {
       className="bg-black section-padding"
     >
       <div className="container-custom">
-        {/* Section Header */}
-        <div ref={headerRef} className="text-center mb-12 md:mb-16">
-          <span className="font-inter text-caption font-medium uppercase tracking-[0.1em] text-gold">
-            Private Chef & Luxury Dining
-          </span>
-          <h2 className="font-playfair text-fluid-h2 text-white mt-4 mb-4">
-            What private chef and luxury dining experiences does myCHEF Dubai offer?
+        {/* Section Header — left-aligned, argument first */}
+        <div ref={headerRef} className="max-w-[760px] mb-12 md:mb-16">
+          <SectionLabel tone="dark">Private Chef & Catering</SectionLabel>
+          <h2 className="font-playfair text-fluid-h2 text-white mb-5">
+            Private chef or catering in Dubai — you choose the type of service. We build the chef and the team around it.
           </h2>
-          <div className="gold-line mx-auto" />
+          <p className="font-inter text-body text-gray-400 leading-relaxed max-w-[62ch]">
+            Two core services, four built on them. The same selection standard and the same point of contact run through all six.
+          </p>
         </div>
 
-        {/* Services Grid */}
-        <div
-          ref={cardsRef}
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
-        >
-          {services.map((service) => (
-            <Link
-              key={service.link}
-              to={service.link}
-              className="service-card group block bg-charcoal transition-all duration-300 hover:-translate-y-1 hover:shadow-card focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-black"
-            >
-              {/* Image */}
-              <div className="relative aspect-[16/10] overflow-hidden">
-                <img
-                  src={service.image}
-                  alt={service.title}
-                  width={640}
-                  height={400}
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  loading="lazy"
-                  decoding="async"
-                />
-                <div className="absolute inset-0 gradient-overlay-bottom" />
-              </div>
+        <div ref={cardsRef}>
+          {/* Core hubs — photography-led, no box */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 mb-12 md:mb-16">
+            {coreServices.map((service, index) => (
+              <Link
+                key={service.link}
+                to={service.link}
+                className="service-card group block focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-4 focus-visible:ring-offset-black"
+              >
+                <div className="relative aspect-[16/10] overflow-hidden">
+                  <img
+                    src={service.image}
+                    alt={service.title}
+                    width={640}
+                    height={400}
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                  <div className="absolute inset-0 gradient-overlay-bottom" />
+                  <span className="absolute top-4 left-4 font-inter text-caption uppercase tracking-wider text-white/80" aria-hidden="true">
+                    0{index + 1}
+                  </span>
+                </div>
+                <div className="pt-6 border-t border-gold/40 mt-0">
+                  <h3 className="font-playfair text-fluid-h3 text-white mb-3 group-hover:text-gold transition-colors duration-300">
+                    {service.title}
+                  </h3>
+                  <p className="font-inter text-body text-gray-400 leading-relaxed mb-4 max-w-[52ch]">
+                    {service.description}
+                  </p>
+                  <span className="inline-flex items-center gap-2 font-inter text-body-sm font-medium uppercase tracking-wider text-gold group-hover:gap-3 transition-all duration-300">
+                    Explore
+                    <ArrowRight size={16} className="transition-transform duration-300 group-hover:translate-x-1" />
+                  </span>
+                </div>
+              </Link>
+            ))}
+          </div>
 
-              {/* Content */}
-              <div className="p-6">
-                <h3 className="font-playfair text-h3 text-white mb-2 group-hover:text-gold transition-colors duration-300">
-                  {service.title}
-                </h3>
-                <p className="font-inter text-body-sm text-gray-400 leading-relaxed mb-4">
-                  {service.description}
-                </p>
-                <span className="inline-flex items-center gap-2 font-inter text-body-sm font-medium uppercase tracking-wider text-gold group-hover:gap-3 transition-all duration-300">
-                  Explore
-                  <ArrowRight size={16} className="transition-transform duration-300 group-hover:translate-x-1" />
-                </span>
-              </div>
-            </Link>
-          ))}
+          {/* Built on the core — hairline index, concept icons */}
+          <p className="font-inter text-caption uppercase tracking-wider text-gray-400 mb-4">Built on the same standard</p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-px bg-white/10 border border-white/10">
+            {builtOnServices.map((service) => {
+              const Icon = service.icon
+              return (
+                <Link
+                  key={service.link}
+                  to={service.link}
+                  className="service-card group flex flex-col bg-black p-6 lg:p-7 transition-colors duration-300 hover:bg-charcoal focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-gold"
+                >
+                  <span className="mb-5 flex h-10 w-10 items-center justify-center border border-gold/35 text-gold">
+                    <Icon size={18} strokeWidth={1.5} aria-hidden="true" />
+                  </span>
+                  <h3 className="font-playfair text-h4 text-white mb-2 group-hover:text-gold transition-colors duration-300">
+                    {service.title}
+                  </h3>
+                  <p className="font-inter text-body-sm text-gray-400 leading-relaxed mb-5 flex-1">
+                    {service.description}
+                  </p>
+                  <span className="inline-flex items-center gap-2 font-inter text-caption font-medium uppercase tracking-wider text-gold group-hover:gap-3 transition-all duration-300">
+                    Explore
+                    <ArrowRight size={14} className="transition-transform duration-300 group-hover:translate-x-1" />
+                  </span>
+                </Link>
+              )
+            })}
+          </div>
         </div>
       </div>
     </section>

@@ -1,4 +1,46 @@
 import type { CSSProperties, ElementType, ReactNode } from 'react'
+import type { LucideIcon } from 'lucide-react'
+import {
+  ArrowUpRight,
+  BadgeCheck,
+  BookOpen,
+  CalendarCheck,
+  CalendarClock,
+  CircleHelp,
+  ClipboardCheck,
+  ClipboardList,
+  Columns2,
+  Compass,
+  Equal,
+  EyeOff,
+  GraduationCap,
+  Headset,
+  House,
+  IdCard,
+  Images,
+  Layers,
+  LayoutGrid,
+  LifeBuoy,
+  List,
+  ListChecks,
+  MapPin,
+  MessageSquare,
+  MessageSquareQuote,
+  NotebookPen,
+  PartyPopper,
+  ReceiptText,
+  RefreshCw,
+  Replace,
+  ShieldCheck,
+  SlidersHorizontal,
+  Sparkles,
+  Star,
+  UserRoundCheck,
+  Users,
+  Utensils,
+  UtensilsCrossed,
+  Workflow,
+} from 'lucide-react'
 import { cn } from '@/lib/utils'
 
 /**
@@ -51,28 +93,97 @@ export function Section({
   )
 }
 
-/** Small gold label. Auto-readable: bright gold on dark, gold-ink on light. */
-export function Eyebrow({
+type LabelTone = 'light' | 'dark'
+type LabelAlign = 'start' | 'center'
+
+/** Editorial section marker: icon — rule — uppercase label. Always secondary to the serif headline. */
+export function SectionLabel({
+  icon,
   tone = 'light',
+  align = 'start',
   className,
+  id,
   children,
 }: {
-  tone?: 'light' | 'dark'
+  icon?: LucideIcon
+  tone?: LabelTone
+  align?: LabelAlign
   className?: string
+  id?: string
   children: ReactNode
 }) {
+  const Icon =
+    icon ?? (typeof children === 'string' ? iconForSectionLabel(children) : Sparkles)
   return (
     <p
+      id={id}
       className={cn(
-        'font-inter text-caption font-medium uppercase tracking-[0.14em]',
+        'mb-8 flex items-center gap-3 font-inter text-[12.5px] font-medium uppercase tracking-[0.12em] md:text-[14px]',
         tone === 'dark' ? 'text-gold' : 'text-gold-ink',
+        align === 'center' && 'justify-center',
         className,
       )}
     >
-      {children}
+      <Icon aria-hidden className="size-5 shrink-0 md:size-6" strokeWidth={1.5} />
+      <span aria-hidden className="inline-block h-px w-8 shrink-0 bg-current md:w-11" />
+      <span>{children}</span>
     </p>
   )
 }
+
+/** Pick a Lucide icon from the section's meaning, not just the first word. */
+export function iconForSectionLabel(label: string): LucideIcon {
+  const l = label.toLowerCase()
+  if (/\bfaq\b/.test(l)) return CircleHelp
+  if (/not this page/.test(l)) return ArrowUpRight
+  if (/same logic/.test(l)) return Equal
+  if (/not the solution/.test(l)) return Replace
+  if (/the split/.test(l)) return Columns2
+  if (/tell us about the job|the job/.test(l)) return ClipboardList
+  if (/before anyone|put forward|vet/.test(l)) return ClipboardCheck
+  if (/identity|background/.test(l)) return IdCard
+  if (/dedicated contact|whatsapp first|coverage/.test(l)) return Headset
+  if (/client feedback/.test(l)) return MessageSquare
+  if (/after a rating/.test(l)) return SlidersHorizontal
+  if (/household conduct/.test(l)) return House
+  if (/the overview|five parts/.test(l)) return LayoutGrid
+  if (/why it is managed|why it is/.test(l)) return Workflow
+  if (/how often|rhythm/.test(l)) return CalendarClock
+  if (/^training$/.test(l)) return GraduationCap
+  if (/backup/.test(l)) return LifeBuoy
+  if (/discretion/.test(l)) return EyeOff
+  if (/where we serve|where .+ (work|shine|help|fit|matter|live|come|essential)|locations?/.test(l)) return MapPin
+  if (/included|what is included|what's included/.test(l)) return ListChecks
+  if (/how it works|the process|five stages|how we |how does/.test(l)) return ListChecks
+  if (/menu/.test(l)) return UtensilsCrossed
+  if (/who we|who your|who it|who we feed|who we serve/.test(l)) return Users
+  if (/pric|budget|indicative|from aed|rates?/.test(l)) return ReceiptText
+  if (/privacy|security/.test(l)) return ShieldCheck
+  if (/quality|standard|guarantee|certified/.test(l)) return BadgeCheck
+  if (/gallery/.test(l)) return Images
+  if (/client reviews/.test(l)) return Star
+  if (/review|testimonial/.test(l)) return MessageSquareQuote
+  if (/guide|resource|topic|blog/.test(l)) return BookOpen
+  if (/package|plan|membership/.test(l)) return Layers
+  if (/experienc|what we create|the experience/.test(l)) return Sparkles
+  if (/celebrat|occasion|ways to/.test(l)) return PartyPopper
+  if (/when to book|book mychef/.test(l)) return CalendarCheck
+  if (/side-by-side|both|compare/.test(l)) return Columns2
+  if (/explore|continue/.test(l)) return Compass
+  if (/on this page/.test(l)) return List
+  if (/product|household|what this is|house you want/.test(l)) return House
+  if (/team|our chefs|the chefs|matching|chef levels|levels/.test(l)) return UserRoundCheck
+  if (/trust/.test(l)) return ShieldCheck
+  if (/food profile/.test(l)) return NotebookPen
+  if (/continuity/.test(l)) return RefreshCw
+  if (/star chef|our chefs/.test(l)) return Star
+  if (/italian|cuisine|authentic|catering/.test(l)) return UtensilsCrossed
+  if (/service/.test(l)) return Utensils
+  return Sparkles
+}
+
+/** @deprecated Prefer SectionLabel with an explicit icon. Kept as an alias. */
+export const Eyebrow = SectionLabel
 
 const HEADING_SIZES = {
   h1: 'text-fluid-h1',

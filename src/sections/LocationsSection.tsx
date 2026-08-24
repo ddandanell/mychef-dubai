@@ -3,6 +3,7 @@ import { Link } from 'react-router'
 import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import { ArrowRight } from 'lucide-react'
+import { SectionLabel } from '@/components/system'
 
 const locations = [
   { image: '/loc-palm-jumeirah.webp', name: 'Palm Jumeirah', slug: 'palm-jumeirah' },
@@ -53,62 +54,54 @@ export default function LocationsSection() {
   return (
     <section ref={sectionRef} className="bg-black section-padding">
       <div className="container-custom">
-        {/* Header */}
-        <div ref={headerRef} className="text-center mb-12 md:mb-16">
-          <span className="font-inter text-caption font-medium uppercase tracking-[0.1em] text-gold">
-            Where We Serve in Dubai
-          </span>
-          <h2 className="font-playfair text-fluid-h2 text-white mt-4 mb-4">
-            Which areas in Dubai does myCHEF serve?
-          </h2>
-          <p className="font-inter text-base md:text-lg text-gray-400 max-w-2xl mx-auto">
-            From Palm Jumeirah to Downtown, Emirates Hills to Dubai Marina — we bring premium dining to your doorstep.
-          </p>
+        {/* Editorial header row: argument left, index link right */}
+        <div ref={headerRef} className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-10 md:mb-12">
+          <div className="max-w-[680px]">
+            <SectionLabel tone="dark">Where We Serve in Dubai</SectionLabel>
+            <h2 className="font-playfair text-fluid-h2 text-white mb-4">
+              Which areas in Dubai does myCHEF serve?
+            </h2>
+            <p className="font-inter text-body text-gray-400 leading-relaxed max-w-[58ch]">
+              Villas, apartments, yachts and offices across the city. Six areas to start with — the full list of neighbourhoods follows below.
+            </p>
+          </div>
+          <Link
+            to="/locations"
+            className="inline-flex items-center gap-2 self-start lg:self-auto lg:pb-1 font-inter text-body-sm font-medium uppercase tracking-wider text-gold hover:gap-3 transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-black"
+          >
+            View All Dubai Locations
+            <ArrowRight size={16} />
+          </Link>
         </div>
 
-        {/* Locations Grid */}
+        {/* Contact sheet — one hairline row at lg, not a card grid */}
         <div
           ref={cardsRef}
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
+          className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-px bg-white/10 border border-white/10"
         >
           {locations.map((loc) => (
             <Link
               key={loc.slug}
               to={`/locations/${loc.slug}`}
-              className="location-card group relative aspect-[4/3] block focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-black"
+              className="location-card group relative aspect-[3/4] block overflow-hidden bg-black focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-gold"
             >
-              <div className="absolute inset-0 overflow-hidden">
-                <img
-                  src={loc.image}
-                  alt={loc.name}
-                  width={800}
-                  height={600}
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  loading="lazy"
-                  decoding="async"
-                />
-              </div>
-              {/* Gradient overlay */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent group-hover:from-black/90 transition-all duration-300" />
-              {/* Location name */}
-              <div className="absolute bottom-0 left-0 p-6">
-                <h3 className="font-playfair text-2xl text-white group-hover:text-gold transition-colors duration-300">
+              <img
+                src={loc.image}
+                alt={loc.name}
+                width={800}
+                height={600}
+                className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                loading="lazy"
+                decoding="async"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/25 to-transparent group-hover:from-black/90 transition-all duration-300" />
+              <div className="absolute bottom-0 left-0 right-0 p-4 lg:p-5">
+                <h3 className="font-playfair text-h4 text-white group-hover:text-gold transition-colors duration-300">
                   {loc.name}
                 </h3>
               </div>
             </Link>
           ))}
-        </div>
-
-        {/* View All Link */}
-        <div className="text-center mt-10 md:mt-12">
-          <Link
-            to="/locations"
-            className="inline-flex items-center gap-2 font-inter text-body-sm font-medium uppercase tracking-wider text-gold hover:gap-3 transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-black"
-          >
-            View All Dubai Locations
-            <ArrowRight size={16} />
-          </Link>
         </div>
       </div>
     </section>

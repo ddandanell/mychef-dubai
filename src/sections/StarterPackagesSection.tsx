@@ -3,6 +3,8 @@ import { Link } from 'react-router'
 import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import { starterPackages, WHATSAPP_NUMBER } from '@/data/starterPackages'
+import { SectionLabel, iconForSectionLabel } from '@/components/system'
+
 
 interface StarterPackagesSectionProps {
   campaign?: string
@@ -45,9 +47,7 @@ export default function StarterPackagesSection({
     <section ref={sectionRef} className="bg-cream section-padding">
       <div className="container-custom">
         <div className="text-center mb-12">
-          <span className="font-inter text-caption font-medium uppercase tracking-wider text-gold mb-4 block">
-            {eyebrow}
-          </span>
+          <SectionLabel align="center" icon={iconForSectionLabel(eyebrow)}>{eyebrow}</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-4">{title}</h2>
           <p className="font-inter text-body text-gray-500 max-w-[640px] mx-auto">{subtitle}</p>
         </div>

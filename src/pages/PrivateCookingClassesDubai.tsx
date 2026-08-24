@@ -22,6 +22,8 @@ import SEO from '../components/SEO'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to book a private cooking class in Dubai (via mychef.ae/private-cooking-classes-dubai)')
@@ -358,9 +360,7 @@ export default function PrivateCookingClassesDubai() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            Cook, Learn, Dine
-          </span>
+          <SectionLabel align="center">Cook, Learn, Dine</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             Turn Your Kitchen Into a Private Culinary School
           </h2>
@@ -377,9 +377,7 @@ export default function PrivateCookingClassesDubai() {
       <section className="bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              Cooking Class Formats
-            </span>
+            <SectionLabel align="center" tone="dark">Cooking Class Formats</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               A Chef Experience for Every Occasion
             </h2>
@@ -413,9 +411,7 @@ export default function PrivateCookingClassesDubai() {
       <section className="bg-charcoal section-padding">
         <div className="container-custom max-w-[1000px]">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              How It Works
-            </span>
+            <SectionLabel align="center" tone="dark">How It Works</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               From Menu to Table in Five Steps
             </h2>
@@ -443,9 +439,7 @@ export default function PrivateCookingClassesDubai() {
       <section className="bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              Who It Is For
-            </span>
+            <SectionLabel align="center" tone="dark">Who It Is For</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Cooking Classes Made for You
             </h2>

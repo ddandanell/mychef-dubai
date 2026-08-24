@@ -19,6 +19,8 @@ import TrustSignalStrip from '../components/TrustSignalStrip'
 import LocationStrip from '../components/LocationStrip'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to discuss nursery catering in Dubai (via mychef.ae/nursery-catering-dubai)')
@@ -317,9 +319,7 @@ export default function NurseryCatering() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            GENTLE NUTRITION FOR LITTLE ONES
-          </span>
+          <SectionLabel align="center">GENTLE NUTRITION FOR LITTLE ONES</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             Meals Made for the Youngest Guests
           </h2>
@@ -336,9 +336,7 @@ export default function NurseryCatering() {
       <section className="bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              NURSERY CATERING FORMATS
-            </span>
+            <SectionLabel align="center" tone="dark">NURSERY CATERING FORMATS</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Care in Every Meal
             </h2>
@@ -372,9 +370,7 @@ export default function NurseryCatering() {
       <section className="bg-black section-padding pt-0">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              HOW WE SUPPORT NURSERIES
-            </span>
+            <SectionLabel align="center" tone="dark">HOW WE SUPPORT NURSERIES</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Built Around Young Children
             </h2>

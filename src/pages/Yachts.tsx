@@ -12,6 +12,8 @@ import FaqAccordion from '@/components/FaqAccordion'
 import { plainFaqAnswer } from '@/utils/schema'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { deferNonCritical } from '../lib/deferNonCritical'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent("Hi myCHEF Dubai, I'd like yacht catering. Charter date: __, Marina: __, Guests: __, Format: __ (via mychef.ae/yachts)")
@@ -249,7 +251,7 @@ export default function Yachts() {
       <section className="bg-white section-padding">
         <div className="container-custom">
           <div className="text-center mb-16">
-            <p className="font-inter text-caption font-medium uppercase tracking-wider text-gold mb-3">YACHT DINING</p>
+            <SectionLabel align="center">YACHT DINING</SectionLabel>
             <h2 className="font-playfair text-h2 text-black" style={{ lineHeight: '1.15' }}>
               Culinary Experiences on the Water
             </h2>
@@ -276,7 +278,7 @@ export default function Yachts() {
       <section className="yacht-experience-section bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-16">
-            <p className="font-inter text-caption font-medium uppercase tracking-wider text-gold mb-3">ON BOARD</p>
+            <SectionLabel align="center" tone="dark">ON BOARD</SectionLabel>
             <h2 className="font-playfair text-h2 text-white" style={{ lineHeight: '1.15' }}>
               Dining with the Dubai Skyline
             </h2>
@@ -350,7 +352,7 @@ export default function Yachts() {
       <section className="bg-cream section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <p className="font-inter text-caption font-medium uppercase tracking-wider text-gold mb-3">LOCATIONS</p>
+            <SectionLabel align="center">LOCATIONS</SectionLabel>
             <h2 className="font-playfair text-h2 text-black" style={{ lineHeight: '1.15' }}>
               Yacht Catering Locations
             </h2>
@@ -381,7 +383,7 @@ export default function Yachts() {
       <section className="bg-white section-padding">
         <div className="container-custom">
           <div className="text-center mb-16">
-            <p className="font-inter text-caption font-medium uppercase tracking-wider text-gold mb-3">OUR EXPERTISE</p>
+            <SectionLabel align="center">OUR EXPERTISE</SectionLabel>
             <h2 className="font-playfair text-h2 text-black" style={{ lineHeight: '1.15' }}>
               Built for Yacht Dining
             </h2>
@@ -404,7 +406,7 @@ export default function Yachts() {
       <section className="bg-black py-20">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <p className="font-inter text-caption font-medium uppercase tracking-wider text-gold mb-3">GALLERY</p>
+            <SectionLabel align="center" tone="dark">GALLERY</SectionLabel>
             <h2 className="font-playfair text-h2 text-white" style={{ lineHeight: '1.15' }}>
               On-Board Dining Moments
             </h2>
@@ -441,7 +443,7 @@ export default function Yachts() {
       <section className="bg-white section-padding">
         <div className="max-w-[800px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <p className="font-inter text-caption font-medium uppercase tracking-wider text-gold mb-3">FAQ</p>
+            <SectionLabel align="center">FAQ</SectionLabel>
             <h2 className="font-playfair text-h2 text-black" style={{ lineHeight: '1.15' }}>
               Common Questions About Yacht Catering
             </h2>

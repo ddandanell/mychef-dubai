@@ -1,10 +1,42 @@
-import { useState, useEffect, useRef } from 'react'
+import { useEffect, useState } from 'react'
 import { Link, useLocation } from 'react-router'
-import { Menu, X, Phone } from 'lucide-react'
+import * as NavigationMenuPrimitive from '@radix-ui/react-navigation-menu'
+import { ArrowRight, ChevronDown, Menu, MessageCircle, Phone, X } from 'lucide-react'
 import ChefHatLogo from './ChefHatLogo'
+import PrivateChefMegaMenu, { CLUSTER_ICONS } from './private-chef/PrivateChefMegaMenu'
+import {
+  NavigationMenu,
+  NavigationMenuItem,
+  NavigationMenuLink,
+  NavigationMenuList,
+} from '@/components/ui/navigation-menu'
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion'
+import {
+  Sheet,
+  SheetClose,
+  SheetContent,
+  SheetDescription,
+  SheetTitle,
+} from '@/components/ui/sheet'
+import { CLUSTER_NAV, CLUSTER_PATHS } from '@/content/privateChefCluster'
+import { cn } from '@/lib/utils'
 
-const navLinks = [
-  { label: 'Private Chef', href: '/private-chef-dubai' },
+type NavItem = {
+  label: string
+  href: string
+  children?: { href: string; label: string; description: string }[]
+}
+
+const navLinks: NavItem[] = [
+  {
+    label: 'Private Chef',
+    href: CLUSTER_PATHS.overview,
+    children: CLUSTER_NAV.map((item) => ({
+      href: item.href,
+      label: item.label,
+      description: item.description,
+    })),
+  },
   { label: 'Catering', href: '/catering-dubai' },
   { label: 'Experiences', href: '/luxury-dining-experiences' },
   { label: 'Locations', href: '/locations' },
@@ -17,162 +49,299 @@ const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I would like to request a quote for private chef or catering services.')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
+const navLinkClass =
+  'relative whitespace-nowrap font-inter text-[13px] font-medium uppercase tracking-[0.12em] antialiased text-white/85 transition-colors duration-300 hover:text-gold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold rounded-sm after:absolute after:-bottom-1 after:left-0 after:h-px after:w-full after:origin-left after:scale-x-0 after:bg-gold after:transition-transform after:duration-300 after:ease-out hover:after:scale-x-100'
+
+function normalizePath(pathname: string) {
+  if (pathname.length > 1 && pathname.endsWith('/')) return pathname.replace(/\/+$/, '')
+  return pathname
+}
+
+function isItemActive(pathname: string, href: string) {
+  const path = normalizePath(pathname)
+  return path === href || (href !== '/' && path.startsWith(`${href}/`))
+}
+
+function clusterActive(pathname: string) {
+  const path = normalizePath(pathname)
+  return path === CLUSTER_PATHS.overview || path.startsWith(`${CLUSTER_PATHS.overview}/`)
+}
+
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false)
+  const [mobileClusterOpen, setMobileClusterOpen] = useState(false)
   const location = useLocation()
-  const hamburgerRef = useRef<HTMLButtonElement>(null)
-  const closeRef = useRef<HTMLButtonElement>(null)
 
   useEffect(() => {
     setMobileOpen(false)
+    setMobileClusterOpen(false)
     window.scrollTo(0, 0)
   }, [location.pathname])
 
-  useEffect(() => {
-    if (mobileOpen) {
-      document.body.style.overflow = 'hidden'
-      closeRef.current?.focus()
-    } else {
-      document.body.style.overflow = ''
-      hamburgerRef.current?.focus()
-    }
-    return () => { document.body.style.overflow = '' }
-  }, [mobileOpen])
-
   return (
     <>
-      <nav className="sticky top-0 z-50 h-16 bg-black lg:bg-black/95 lg:backdrop-blur-xl border-b border-white/5">
-        <div className="container-custom h-full flex items-center justify-between">
-          {/* Mobile: Hamburger */}
-          <button
-            ref={hamburgerRef}
-            className="lg:hidden text-gold p-2 -ml-2 min-w-10 min-h-10 flex items-center justify-center rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold"
-            onClick={() => setMobileOpen(true)}
-            aria-label="Open menu"
-          >
-            <Menu size={22} />
-          </button>
-
-          {/* Logo */}
-          <Link to="/" className="flex items-center gap-1.5 group" aria-label="myCHEF Dubai home">
-            <ChefHatLogo className="h-6 w-6 text-gold transition-transform duration-300 group-hover:scale-110" />
-            <span className="font-playfair text-xl font-semibold text-gold tracking-tight">
-              myCHEF
-            </span>
-          </Link>
-
-          {/* Desktop Nav Links */}
-          <div className="hidden lg:flex items-center gap-6">
-            {navLinks.map((link) => {
-              const isActive = location.pathname === link.href || (link.href !== '/' && location.pathname.startsWith(link.href))
-              return (
-                <Link
-                  key={link.href}
-                  to={link.href}
-                  aria-current={isActive ? 'page' : undefined}
-                  className={`font-inter text-xs font-medium uppercase tracking-wide transition-colors duration-200 relative ${
-                    isActive ? 'text-gold' : 'text-white hover:text-gold'
-                  }`}
-                >
-                  {link.label}
-                  {isActive && <span className="absolute -bottom-1 left-0 right-0 h-px bg-gold" />}
-                </Link>
-              )
-            })}
-          </div>
-
-          {/* Desktop CTA Buttons */}
-          <div className="hidden lg:flex items-center gap-3">
-            <a
-              href={WHATSAPP_LINK}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-1.5 text-gold border border-gold rounded-full px-3 py-1.5 text-xs font-medium hover:bg-gold hover:text-black transition-all duration-300"
-              aria-label="Chat on WhatsApp"
-            >
-              <Phone size={14} />
-              <span className="hidden xl:inline">Chat</span>
-            </a>
-            <Link
-              to="/inquiry"
-              className="btn-primary text-xs py-2 px-4"
-            >
-              Request a Proposal
-            </Link>
-          </div>
-
-          {/* Mobile: WhatsApp */}
+      <NavigationMenu
+        key={location.pathname}
+        viewport={false}
+        delayDuration={100}
+        skipDelayDuration={200}
+        className="relative sticky top-0 z-50 flex h-16 min-h-16 w-full max-w-none flex-none justify-start overflow-visible bg-black"
+      >
+        <div
+          className="pointer-events-none absolute inset-0 hidden bg-black/95 backdrop-blur-xl lg:block"
+          aria-hidden
+        />
+        <div className="relative container-custom flex h-16 w-full items-center justify-between gap-4">
           <a
             href={WHATSAPP_LINK}
             target="_blank"
             rel="noopener noreferrer"
-            className="lg:hidden text-gold p-2 -mr-2 min-w-10 min-h-10 flex items-center justify-center rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold"
+            className="lg:hidden text-gold p-2 -ml-2 min-w-10 min-h-10 flex items-center justify-center rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold"
             aria-label="Chat on WhatsApp"
           >
             <Phone size={22} />
           </a>
-        </div>
-      </nav>
 
-      {/* Mobile Menu Overlay */}
-      {mobileOpen && (
-      <div
-        className="fixed inset-0 z-[100] bg-black lg:hidden"
-      >
-        <div className="container-custom h-full flex flex-col">
-          {/* Header */}
-          <div className="h-16 flex items-center justify-between">
-            <span className="flex items-center gap-1.5">
-              <ChefHatLogo className="h-6 w-6 text-gold" />
-              <span className="font-playfair text-xl font-semibold text-gold">myCHEF</span>
-            </span>
-            <button
-              ref={closeRef}
-              onClick={() => setMobileOpen(false)}
-              className="text-white p-2 -mr-2 min-w-10 min-h-10 flex items-center justify-center rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold"
-              aria-label="Close menu"
-            >
-              <X size={22} />
-            </button>
-          </div>
+          <Link to="/" className="flex shrink-0 items-center gap-1.5 group" aria-label="myCHEF Dubai home">
+            <ChefHatLogo className="h-6 w-6 text-gold transition-transform duration-300 group-hover:scale-110" />
+            <span className="font-playfair text-xl font-semibold text-gold tracking-tight">myCHEF</span>
+          </Link>
 
-          {/* Links */}
-          <div className="flex-1 flex flex-col items-center justify-center gap-6">
+          <NavigationMenuList className="hidden h-full flex-1 flex-nowrap items-center justify-center gap-5 lg:flex xl:gap-8">
             {navLinks.map((link) => {
-              const isActive = location.pathname === link.href || (link.href !== '/' && location.pathname.startsWith(link.href))
+              const hasChildren = Boolean(link.children?.length)
+              const isActive = hasChildren ? clusterActive(location.pathname) : isItemActive(location.pathname, link.href)
+              if (!hasChildren) {
+                return (
+                  <NavigationMenuItem key={link.href}>
+                    <NavigationMenuLink asChild active={isActive}>
+                      <Link
+                        to={link.href}
+                        aria-current={isActive ? 'page' : undefined}
+                        className={cn(navLinkClass, 'relative bg-transparent p-0 hover:bg-transparent focus:bg-transparent data-[active=true]:bg-transparent', isActive && 'text-gold')}
+                      >
+                        {link.label}
+                        {isActive && <span className="absolute -bottom-1 left-0 right-0 h-px bg-gold" />}
+                      </Link>
+                    </NavigationMenuLink>
+                  </NavigationMenuItem>
+                )
+              }
               return (
-                <Link
-                  key={link.href}
-                  to={link.href}
-                  aria-current={isActive ? 'page' : undefined}
-                  className={`font-inter text-lg font-medium transition-colors duration-200 ${
-                    isActive ? 'text-gold' : 'text-white hover:text-gold'
-                  }`}
-                  onClick={() => setMobileOpen(false)}
-                >
-                  {link.label}
-                </Link>
+                <NavigationMenuItem key={link.href} className="flex h-full items-center">
+                  <NavigationMenuPrimitive.Trigger asChild>
+                    <Link
+                      to={link.href}
+                      aria-current={normalizePath(location.pathname) === link.href ? 'page' : undefined}
+                      className={cn(
+                        navLinkClass,
+                        'group relative inline-flex h-full items-center gap-1 bg-transparent hover:bg-transparent data-[state=open]:text-gold',
+                        isActive && 'text-gold'
+                      )}
+                    >
+                      {link.label}
+                      <ChevronDown
+                        size={12}
+                        className="transition-transform duration-200 group-data-[state=open]:rotate-180"
+                        aria-hidden
+                      />
+                      <span
+                        className={cn(
+                          'absolute -bottom-1 left-0 right-3 h-px bg-gold transition-opacity duration-200',
+                          isActive ? 'opacity-100' : 'opacity-0 group-data-[state=open]:opacity-100'
+                        )}
+                      />
+                    </Link>
+                  </NavigationMenuPrimitive.Trigger>
+                  <NavigationMenuPrimitive.Content className="pc-mega-content">
+                    <PrivateChefMegaMenu />
+                  </NavigationMenuPrimitive.Content>
+                </NavigationMenuItem>
               )
             })}
-          </div>
+          </NavigationMenuList>
 
-          {/* CTA */}
-          <div className="pb-10 flex flex-col items-center gap-4">
-            <Link to="/inquiry" className="btn-primary w-full text-center" onClick={() => setMobileOpen(false)}>
-              Request a Proposal
-            </Link>
+          <div className="hidden lg:flex items-center">
+            {/* Hover mechanic adapted from Magic UI interactive-hover-button: the dot grows into the fill,
+                the resting label slides out, the action label slides in. Pure CSS transforms. */}
             <a
               href={WHATSAPP_LINK}
               target="_blank"
               rel="noopener noreferrer"
-              className="btn-secondary w-full text-center"
+              className="group relative flex items-center overflow-hidden rounded-full border border-gold px-3 py-2 xl:px-4 font-inter text-[12px] font-medium uppercase tracking-[0.12em] antialiased text-gold transition-colors duration-300 hover:text-black focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-black"
+              aria-label="Chat on WhatsApp"
             >
-              Chat on WhatsApp
+              <span className="flex items-center gap-2">
+                <span
+                  className="h-1.5 w-1.5 rounded-full bg-gold transition-transform duration-300 ease-out group-hover:scale-[40]"
+                  aria-hidden
+                />
+                <span className="inline-flex items-center gap-1.5 transition-all duration-300 group-hover:!translate-x-10 group-hover:!opacity-0">
+                  <Phone size={13} aria-hidden />
+                  <span className="hidden xl:inline">Chat</span>
+                </span>
+              </span>
+              <span
+                className="invisible absolute inset-0 z-10 flex !translate-x-10 items-center justify-center gap-1.5 !opacity-0 transition-all duration-300 group-hover:visible group-hover:!translate-x-0 group-hover:!opacity-100"
+                aria-hidden
+              >
+                <MessageCircle size={13} />
+                <span className="hidden xl:inline">WhatsApp</span>
+                <ArrowRight size={12} />
+              </span>
             </a>
           </div>
+
+          <button
+            type="button"
+            className="lg:hidden text-gold p-2 -mr-2 min-w-10 min-h-10 flex items-center justify-center rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold"
+            onClick={() => {
+              setMobileClusterOpen(clusterActive(location.pathname))
+              setMobileOpen(true)
+            }}
+            aria-label="Open menu"
+            aria-expanded={mobileOpen}
+          >
+            <Menu size={22} />
+          </button>
         </div>
-      </div>
-      )}
+      </NavigationMenu>
+
+      <Sheet
+        open={mobileOpen}
+        onOpenChange={(open) => {
+          setMobileOpen(open)
+          if (!open) setMobileClusterOpen(false)
+        }}
+      >
+        <SheetContent
+          side="right"
+          className="z-[100] h-full w-full max-w-none border-0 bg-black p-0 sm:max-w-none [&>button]:hidden"
+        >
+          <SheetTitle className="sr-only">Menu</SheetTitle>
+          <SheetDescription className="sr-only">
+            myCHEF Dubai pages and private chef services
+          </SheetDescription>
+          <div className="container-custom flex h-full w-full flex-col">
+            <div className="flex h-16 items-center justify-between">
+              <span className="flex items-center gap-1.5">
+                <ChefHatLogo className="h-6 w-6 text-gold" />
+                <span className="font-playfair text-xl font-semibold text-gold">myCHEF</span>
+              </span>
+              <SheetClose className="text-white p-2 -mr-2 min-w-10 min-h-10 flex items-center justify-center rounded-sm opacity-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold">
+                <span className="sr-only">Close menu</span>
+                <X size={22} aria-hidden />
+              </SheetClose>
+            </div>
+
+            <nav aria-label="Mobile" className="flex-1 overflow-y-auto overscroll-contain py-2">
+              <ul className="divide-y divide-white/10 border-y border-white/10">
+                {navLinks.map((link) => {
+                  const hasChildren = Boolean(link.children?.length)
+                  if (!hasChildren) {
+                    const active = isItemActive(location.pathname, link.href)
+                    return (
+                      <li key={link.href}>
+                        <Link
+                          to={link.href}
+                          aria-current={active ? 'page' : undefined}
+                          onClick={() => setMobileOpen(false)}
+                          className={cn(
+                            'flex min-h-[56px] items-center justify-between gap-4 border-l-2 px-4 font-playfair text-[22px] leading-none transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-gold',
+                            active ? 'border-gold text-gold' : 'border-transparent text-white hover:text-gold',
+                          )}
+                        >
+                          {link.label}
+                          <ArrowRight size={16} className="text-white/30" aria-hidden />
+                        </Link>
+                      </li>
+                    )
+                  }
+                  const active = clusterActive(location.pathname)
+                  return (
+                    <li key={link.href}>
+                      <Accordion
+                        type="single"
+                        collapsible
+                        value={mobileClusterOpen ? 'private-chef' : ''}
+                        onValueChange={(v) => setMobileClusterOpen(v === 'private-chef')}
+                      >
+                        <AccordionItem value="private-chef" className="border-b-0">
+                          <AccordionTrigger
+                            className={cn(
+                              'min-h-[56px] items-center rounded-none border-l-2 px-4 py-0 font-playfair text-[22px] leading-none hover:no-underline focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-gold focus-visible:border-l-2 [&>svg]:size-5 [&>svg]:translate-y-0 [&>svg]:text-gold',
+                              active ? 'border-gold text-gold' : 'border-transparent text-white',
+                            )}
+                          >
+                            {link.label}
+                          </AccordionTrigger>
+                          <AccordionContent className="pb-2">
+                            <ul className="bg-white/[0.03]">
+                              {link.children!.map((child) => {
+                                const Icon = CLUSTER_ICONS[child.href as keyof typeof CLUSTER_ICONS]
+                                const childActive = normalizePath(location.pathname) === child.href
+                                return (
+                                  <li key={child.href}>
+                                    <Link
+                                      to={child.href}
+                                      onClick={() => setMobileOpen(false)}
+                                      aria-current={childActive ? 'page' : undefined}
+                                      className={cn(
+                                        'flex min-h-[60px] items-center gap-4 border-l-2 py-3 pl-4 pr-5 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-gold',
+                                        childActive ? 'border-gold' : 'border-transparent',
+                                      )}
+                                    >
+                                      {Icon && (
+                                        <span className="flex h-9 w-9 flex-shrink-0 items-center justify-center border border-gold/35 text-gold">
+                                          <Icon size={18} strokeWidth={1.5} aria-hidden />
+                                        </span>
+                                      )}
+                                      <span className="min-w-0">
+                                        <span className={cn('block font-playfair text-[18px] leading-tight', childActive ? 'text-gold' : 'text-white')}>
+                                          {child.label}
+                                        </span>
+                                        <span className="mt-0.5 block font-inter text-body-sm leading-snug text-white/55">
+                                          {child.description}
+                                        </span>
+                                      </span>
+                                    </Link>
+                                  </li>
+                                )
+                              })}
+                            </ul>
+                          </AccordionContent>
+                        </AccordionItem>
+                      </Accordion>
+                    </li>
+                  )
+                })}
+              </ul>
+            </nav>
+
+            <div className="flex flex-col items-stretch gap-3 border-t border-white/10 pt-5 pb-8">
+              <Link to="/inquiry" className="btn-primary w-full text-center" onClick={() => setMobileOpen(false)}>
+                Request a Proposal
+              </Link>
+              <a
+                href={WHATSAPP_LINK}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-secondary flex w-full items-center justify-center gap-2 text-center"
+              >
+                <MessageCircle size={16} aria-hidden />
+                Chat on WhatsApp
+              </a>
+              <a
+                href="tel:+971551744849"
+                className="mt-1 flex min-h-[44px] items-center justify-center gap-2 font-inter text-body-sm text-white/60 hover:text-gold"
+              >
+                <Phone size={15} aria-hidden />
+                +971 55 174 4849
+              </a>
+            </div>
+          </div>
+        </SheetContent>
+      </Sheet>
     </>
   )
 }

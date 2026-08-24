@@ -18,6 +18,8 @@ import TrustSignalStrip from '../components/TrustSignalStrip'
 import { breadcrumbSchema, faqPageSchema, serviceSchema } from '../utils/schema'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to learn about the kids nutrition chef service (via mychef.ae/kids-nutrition-chef-dubai)')
@@ -248,9 +250,7 @@ export default function KidsNutritionChef() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            NUTRITIOUS MEALS FOR FAMILIES
-          </span>
+          <SectionLabel align="center">NUTRITIOUS MEALS FOR FAMILIES</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             Meals Kids Love, Parents Trust
           </h2>
@@ -272,9 +272,7 @@ export default function KidsNutritionChef() {
       <section className="kn-inclusions bg-cream section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WHAT IS INCLUDED
-            </span>
+            <SectionLabel align="center">WHAT IS INCLUDED</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               Built Around Your Family
             </h2>
@@ -299,9 +297,7 @@ export default function KidsNutritionChef() {
       <section className="kn-packages bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              KIDS NUTRITION PACKAGES
-            </span>
+            <SectionLabel align="center" tone="dark">KIDS NUTRITION PACKAGES</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Choose Your Rhythm
             </h2>

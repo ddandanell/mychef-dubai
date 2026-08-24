@@ -20,6 +20,8 @@ import LocationStrip from '../components/LocationStrip'
 import CorporateTrustStrip from '../components/CorporateTrustStrip'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to arrange business lunch catering (via mychef.ae/business-lunch-catering-dubai)')
@@ -319,9 +321,7 @@ export default function BusinessLunchCatering() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            CATERING FOR MEETINGS
-          </span>
+          <SectionLabel align="center">CATERING FOR MEETINGS</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             Lunches That Keep Business Moving
           </h2>
@@ -338,9 +338,7 @@ export default function BusinessLunchCatering() {
       <section className="bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              BUSINESS LUNCH FORMATS
-            </span>
+            <SectionLabel align="center" tone="dark">BUSINESS LUNCH FORMATS</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               The Right Lunch for the Room
             </h2>
@@ -374,9 +372,7 @@ export default function BusinessLunchCatering() {
       <section className="bg-black section-padding pt-0">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WHERE IT FITS
-            </span>
+            <SectionLabel align="center" tone="dark">WHERE IT FITS</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Made for the Moment
             </h2>

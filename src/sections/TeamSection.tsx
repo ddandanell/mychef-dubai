@@ -2,6 +2,7 @@ import { useEffect, useRef } from 'react'
 import { Link } from 'react-router'
 import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
+import { SectionLabel } from '@/components/system'
 
 export default function TeamSection() {
   useScrollTrigger()
@@ -52,8 +53,7 @@ export default function TeamSection() {
               width={800}
               height={1000}
               className="absolute inset-0 w-full h-full object-cover object-top"
-              loading="eager"
-              fetchPriority="high"
+              loading="lazy"
               decoding="async"
             />
           </div>
@@ -63,20 +63,21 @@ export default function TeamSection() {
             ref={rightRef}
             className="w-full lg:w-3/5 flex flex-col justify-center py-10 lg:py-0 lg:pl-8"
           >
-            <span className="font-inter text-caption font-medium uppercase tracking-[0.1em] text-gold">
-              The Chefs We Choose
-            </span>
-            <h2 className="font-playfair text-fluid-h2 text-white mt-4 mb-6">
-              Who cooks at a myCHEF Dubai experience?
+            <SectionLabel tone="dark">The Chefs We Choose</SectionLabel>
+            <h2 className="font-playfair text-fluid-h2 text-white mb-6">
+              The chef matters. How we choose one matters more.
             </h2>
             <p className="font-inter text-base text-gray-400 leading-[1.7] mb-4 max-w-lg">
-              Our chefs bring decades of experience from respected European and international kitchens to Dubai&apos;s most distinguished homes — every menu designed with precision, every plate telling a story.
+              The chefs in the network bring decades in European and international kitchens to homes across Dubai. Every menu is designed for the people it is cooked for.
             </p>
-            <p className="font-inter text-base text-gray-400 leading-[1.7] mb-8 max-w-lg">
-              Every chef, sous chef, pastry specialist, and service professional on our team is independent, carefully selected and vetted before they ever cook for a myCHEF client.
+            <p className="font-inter text-base text-gray-400 leading-[1.7] mb-6 max-w-lg">
+              Every chef, sous chef, pastry specialist and service professional is independent — selected and vetted before they ever cook for a myCHEF client.
+            </p>
+            <p className="font-playfair text-h4 text-white leading-snug mb-8 max-w-lg border-l-2 border-gold pl-5">
+              The chef cooks. We select, vet and stay your point of contact.
             </p>
             <Link to="/our-chefs" className="btn-secondary inline-flex self-start focus-visible:ring-offset-black">
-              Our Culinary Network
+              Meet the chef network
             </Link>
           </div>
         </div>

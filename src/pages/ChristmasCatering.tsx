@@ -21,6 +21,8 @@ import FaqAccordion from '../components/FaqAccordion'
 import LocationStrip from '../components/LocationStrip'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { eventSchema } from '../utils/schema'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to book Christmas catering in Dubai (via mychef.ae/christmas-catering-dubai)')
@@ -329,9 +331,7 @@ export default function ChristmasCatering() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            Festive Catering in Dubai
-          </span>
+          <SectionLabel align="center">Festive Catering in Dubai</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             A Christmas Feast Without the Stress
           </h2>
@@ -347,9 +347,7 @@ export default function ChristmasCatering() {
       {/* ═══════════════ Section 3: Target Audience ═══════════════ */}
       <section className="bg-cream section-padding">
         <div className="container-custom max-w-[900px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            Who Our Christmas Catering Is For
-          </span>
+          <SectionLabel align="center">Who Our Christmas Catering Is For</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             Celebrations for Every Kind of Host
           </h2>
@@ -363,9 +361,7 @@ export default function ChristmasCatering() {
       <section className="bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              Christmas Menus & Formats
-            </span>
+            <SectionLabel align="center" tone="dark">Christmas Menus & Formats</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Catering Styles for the Festive Season
             </h2>
@@ -420,9 +416,7 @@ export default function ChristmasCatering() {
       <section className="bg-black section-padding">
         <div className="container-custom max-w-[1000px]">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              How It Works
-            </span>
+            <SectionLabel align="center" tone="dark">How It Works</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               From Inquiry to Christmas Dinner
             </h2>
@@ -443,9 +437,7 @@ export default function ChristmasCatering() {
       {/* ═══════════════ Section 7: Why Choose myCHEF ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            Why Choose myCHEF
-          </span>
+          <SectionLabel align="center">Why Choose myCHEF</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             Festive Hospitality, Delivered to Your Door
           </h2>
@@ -462,9 +454,7 @@ export default function ChristmasCatering() {
       <section className="bg-black section-padding pt-0">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              Dubai Christmas Celebrations
-            </span>
+            <SectionLabel align="center" tone="dark">Dubai Christmas Celebrations</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Where we coordinate catering for Christmas Across Dubai
             </h2>

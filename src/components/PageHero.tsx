@@ -6,8 +6,36 @@ import { cn } from '../lib/utils'
 
 type OverlayName = 'dark' | 'medium' | 'light' | 'left' | 'cinematic'
 
+function HeroAction({
+  cta,
+  className,
+}: {
+  cta: { label: string; href: string; external?: boolean }
+  className: string
+}) {
+  const isHash = cta.href.startsWith('#')
+  if (cta.external || isHash) {
+    return (
+      <a
+        href={cta.href}
+        {...(cta.external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
+        className={className}
+      >
+        {cta.label}
+      </a>
+    )
+  }
+  return (
+    <Link to={cta.href} className={className}>
+      {cta.label}
+    </Link>
+  )
+}
+
 interface PageHeroProps {
   eyebrow?: string
+  /** "quiet": eyebrow inside the H1 (keyword stays in the heading), controlled serif scale, 55% copy column, restrained buttons. */
+  variant?: 'default' | 'quiet'
   title: React.ReactNode
   subtitle?: string
   image?: string
@@ -40,25 +68,29 @@ const heightClasses = {
   short: 'min-h-[40dvh] md:min-h-[50dvh]',
 }
 
-// ONE hero scrim used on every hero — dark enough for white type to read at any
-// vertical position, light enough to keep the photograph alive. Keep this the single
-// source of truth so all heroes look identical. The `overlay` prop is kept for API
-// compatibility but every value now resolves to this same treatment.
+// Default hero scrim — dark enough for white type, light enough to keep the photograph.
 export const HERO_SCRIM = [
   'bg-black/45',
   'bg-gradient-to-t from-black/80 via-black/30 to-black/45',
+] as const
+
+/** Copy-left cluster heroes: keep the right side of the photograph alive. */
+export const HERO_SCRIM_LEFT = [
+  'bg-gradient-to-r from-black/90 via-black/55 to-black/18',
+  'bg-gradient-to-t from-black/72 via-transparent to-black/35',
 ] as const
 
 const overlayLayers: Record<OverlayName, readonly string[]> = {
   dark: HERO_SCRIM,
   medium: HERO_SCRIM,
   light: HERO_SCRIM,
-  left: HERO_SCRIM,
+  left: HERO_SCRIM_LEFT,
   cinematic: HERO_SCRIM,
 }
 
 export default function PageHero({
   eyebrow,
+  variant = 'default',
   title,
   subtitle,
   image,
@@ -173,7 +205,7 @@ export default function PageHero({
             {image?.endsWith('.webp') && (
               <source
                 type="image/webp"
-                srcSet={imageSrcSet || `${image} 1344w, ${image} 960w, ${image} 640w`}
+                srcSet={imageSrcSet || `${image} ${imageWidth}w`}
                 sizes="100vw"
               />
             )}
@@ -251,7 +283,7 @@ export default function PageHero({
         ref={contentRef}
         className={`relative z-10 container-custom flex flex-col justify-center pt-28 pb-20 md:pb-24 ${alignmentClass}`}
       >
-        {eyebrow && (
+        {eyebrow && variant !== 'quiet' && (
           <span className="font-inter text-caption font-medium uppercase tracking-[0.1em] text-gold mb-4 drop-shadow-[0_1px_10px_rgba(0,0,0,0.65)]">
             {eyebrow}
           </span>
@@ -259,14 +291,25 @@ export default function PageHero({
 
         {accentLine && <div className="gold-line mb-5 md:mb-7" />}
 
-        <h1 className={cn('hero-title text-white max-w-[900px]', align === 'center' && 'mx-auto')}>
-          {title}
-        </h1>
+        {variant === 'quiet' ? (
+          <h1 className={cn('hero-title--quiet text-white lg:max-w-[58%]', align === 'center' && 'mx-auto')}>
+            {eyebrow && (
+              <span className="hero-eyebrow--quiet mb-5 block text-gold drop-shadow-[0_1px_10px_rgba(0,0,0,0.65)]">
+                {eyebrow}
+              </span>
+            )}
+            {title}
+          </h1>
+        ) : (
+          <h1 className={cn('hero-title text-white max-w-[900px]', align === 'center' && 'mx-auto')}>
+            {title}
+          </h1>
+        )}
 
         {subtitle && (
           <p
             className={cn(
-              'hero-copy mt-5 md:mt-7 text-white/90 max-w-[600px]',
+              variant === 'quiet' ? 'hero-copy--quiet mt-6 text-white/90 lg:max-w-[58%]' : 'hero-copy mt-5 md:mt-7 text-white/90 max-w-[600px]',
               align === 'center' && 'mx-auto',
             )}
           >
@@ -275,28 +318,18 @@ export default function PageHero({
         )}
 
         {(cta || secondaryCta) && (
-          <div className={`mt-8 md:mt-10 flex flex-col sm:flex-row gap-4 ${align === 'center' ? 'justify-center' : ''}`}>
+          <div className={`${variant === 'quiet' ? 'mt-8' : 'mt-8 md:mt-10'} flex flex-col sm:flex-row gap-3 sm:gap-4 ${align === 'center' ? 'justify-center' : ''}`}>
             {cta && (
-              cta.external ? (
-                <a href={cta.href} target="_blank" rel="noopener noreferrer" className="btn-primary text-center focus-visible:ring-offset-black">
-                  {cta.label}
-                </a>
-              ) : (
-                <Link to={cta.href} className="btn-primary text-center focus-visible:ring-offset-black">
-                  {cta.label}
-                </Link>
-              )
+              <HeroAction
+                cta={cta}
+                className={variant === 'quiet' ? 'hero-btn--quiet hero-btn--quiet-primary text-center focus-visible:ring-offset-black' : 'btn-primary text-center focus-visible:ring-offset-black'}
+              />
             )}
             {secondaryCta && (
-              secondaryCta.external ? (
-                <a href={secondaryCta.href} target="_blank" rel="noopener noreferrer" className="btn-secondary text-center focus-visible:ring-offset-black">
-                  {secondaryCta.label}
-                </a>
-              ) : (
-                <Link to={secondaryCta.href} className="btn-secondary text-center focus-visible:ring-offset-black">
-                  {secondaryCta.label}
-                </Link>
-              )
+              <HeroAction
+                cta={secondaryCta}
+                className={variant === 'quiet' ? 'hero-btn--quiet hero-btn--quiet-secondary text-center focus-visible:ring-offset-black' : 'btn-secondary text-center focus-visible:ring-offset-black'}
+              />
             )}
           </div>
         )}

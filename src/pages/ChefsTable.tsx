@@ -17,6 +17,8 @@ import TrustSignalStrip from '../components/TrustSignalStrip'
 import { breadcrumbSchema, faqPageSchema, serviceSchema } from '../utils/schema'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to book a chef\'s table experience (via mychef.ae/chefs-table-dubai)')
@@ -224,9 +226,7 @@ export default function ChefsTable() {
 
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            INTERACTIVE DINING
-          </span>
+          <SectionLabel align="center">INTERACTIVE DINING</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             Dinner as Performance
           </h2>
@@ -247,9 +247,7 @@ export default function ChefsTable() {
       <section className="ct-formats bg-cream section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              FORMATS
-            </span>
+            <SectionLabel align="center">FORMATS</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               Choose Your Experience
             </h2>
@@ -273,9 +271,7 @@ export default function ChefsTable() {
       <section className="ct-menus bg-black section-padding">
         <div className="container-custom max-w-[1000px]">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              TASTING MENU OPTIONS
-            </span>
+            <SectionLabel align="center" tone="dark">TASTING MENU OPTIONS</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Sample Chef's Table Menus
             </h2>

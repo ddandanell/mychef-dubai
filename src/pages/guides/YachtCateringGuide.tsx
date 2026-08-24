@@ -13,6 +13,8 @@ import {
 import SEO from '../../components/SEO'
 import TrustSignalStrip from '../../components/TrustSignalStrip'
 import FaqAccordion from '../../components/FaqAccordion'
+import { SectionLabel } from '../../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like a yacht catering guide and quote (via mychef.ae/yacht-catering-guide-dubai)')
@@ -267,9 +269,7 @@ export default function YachtCateringGuide() {
       {/* ═══════════════ Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            ON THE WATER
-          </span>
+          <SectionLabel align="center">ON THE WATER</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             Catering Designed for Yacht Life
           </h2>
@@ -286,9 +286,7 @@ export default function YachtCateringGuide() {
       <section className="bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              YACHT-SPECIFIC FACTORS
-            </span>
+            <SectionLabel align="center" tone="dark">YACHT-SPECIFIC FACTORS</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               What Makes Yacht Catering Different
             </h2>
@@ -309,9 +307,7 @@ export default function YachtCateringGuide() {
       <section className="bg-cream section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              POPULAR FORMATS
-            </span>
+            <SectionLabel align="center">POPULAR FORMATS</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               Yacht Catering Formats
             </h2>
@@ -332,9 +328,7 @@ export default function YachtCateringGuide() {
       <section className="bg-white section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              DUBAI ROUTES
-            </span>
+            <SectionLabel align="center">DUBAI ROUTES</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               Popular Yacht Catering Routes
             </h2>
@@ -358,9 +352,7 @@ export default function YachtCateringGuide() {
       <section className="bg-black section-padding">
         <div className="container-custom max-w-[900px]">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WEATHER & SEASONS
-            </span>
+            <SectionLabel align="center" tone="dark">WEATHER & SEASONS</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Planning Around Dubai's Climate
             </h2>

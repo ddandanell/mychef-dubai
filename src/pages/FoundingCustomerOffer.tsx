@@ -17,6 +17,8 @@ import SEO from '../components/SEO'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import { breadcrumbSchema, faqPageSchema, serviceSchema } from '../utils/schema'
 import FaqAccordion from '../components/FaqAccordion'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to learn more about the founding customer offer (via mychef.ae/founding-customer-offer)')
@@ -244,9 +246,7 @@ export default function FoundingCustomerOffer() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            LIMITED FOUNDING MEMBERSHIP
-          </span>
+          <SectionLabel align="center">LIMITED FOUNDING MEMBERSHIP</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             Premium Perks for Early Believers
           </h2>
@@ -268,9 +268,7 @@ export default function FoundingCustomerOffer() {
       <section className="fc-inclusions bg-cream section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WHAT IS INCLUDED
-            </span>
+            <SectionLabel align="center">WHAT IS INCLUDED</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               Built Around You
             </h2>
@@ -295,9 +293,7 @@ export default function FoundingCustomerOffer() {
       <section className="fc-packages bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              FOUNDING MEMBERSHIP TIERS
-            </span>
+            <SectionLabel align="center" tone="dark">FOUNDING MEMBERSHIP TIERS</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Choose Your Tier
             </h2>

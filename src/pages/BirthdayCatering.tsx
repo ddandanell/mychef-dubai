@@ -20,6 +20,8 @@ import LocationStrip from '../components/LocationStrip'
 import FaqAccordion from '../components/FaqAccordion'
 import { plainFaqAnswer } from '../utils/schema'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to plan birthday catering in Dubai (via mychef.ae/birthday-catering-dubai)')
@@ -338,9 +340,7 @@ export default function BirthdayCatering() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            DUBAI BIRTHDAY SPECIALISTS
-          </span>
+          <SectionLabel align="center">DUBAI BIRTHDAY SPECIALISTS</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             A Birthday They'll Always Remember
           </h2>
@@ -363,9 +363,7 @@ export default function BirthdayCatering() {
       <section className="bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              BIRTHDAY SERVICES
-            </span>
+            <SectionLabel align="center" tone="dark">BIRTHDAY SERVICES</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Catering for Every Birthday
             </h2>
@@ -399,9 +397,7 @@ export default function BirthdayCatering() {
       <section className="bg-black section-padding pt-0">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              EVERY AGE, EVERY THEME
-            </span>
+            <SectionLabel align="center" tone="dark">EVERY AGE, EVERY THEME</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Birthdays for Every Celebration
             </h2>

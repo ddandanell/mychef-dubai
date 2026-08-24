@@ -20,6 +20,8 @@ import LocationStrip from '../components/LocationStrip'
 import FaqAccordion from '../components/FaqAccordion'
 import { plainFaqAnswer } from '../utils/schema'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to plan wedding catering in Dubai (via mychef.ae/wedding-catering-dubai)')
@@ -344,9 +346,7 @@ export default function WeddingCatering() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            DUBAI WEDDING SPECIALISTS
-          </span>
+          <SectionLabel align="center">DUBAI WEDDING SPECIALISTS</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             Catering Worthy of Your Wedding Day
           </h2>
@@ -363,9 +363,7 @@ export default function WeddingCatering() {
       <section className="bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WEDDING SERVICE STYLES
-            </span>
+            <SectionLabel align="center" tone="dark">WEDDING SERVICE STYLES</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Catering for Every Wedding Format
             </h2>
@@ -399,9 +397,7 @@ export default function WeddingCatering() {
       <section className="bg-black section-padding pt-0">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WHERE WE SERVE
-            </span>
+            <SectionLabel align="center" tone="dark">WHERE WE SERVE</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Weddings for Every Setting
             </h2>

@@ -19,6 +19,8 @@ import SEO from '../components/SEO'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import { breadcrumbSchema, faqPageSchema, serviceSchema } from '../utils/schema'
 import FaqAccordion from '../components/FaqAccordion'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to apply to become a myCHEF chef (via mychef.ae/become-a-mychef)')
@@ -273,9 +275,7 @@ export default function BecomeAMyChef() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            CHEF RECRUITMENT
-          </span>
+          <SectionLabel align="center">CHEF RECRUITMENT</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             Cook at Dubai's Most Exciting Private Events
           </h2>
@@ -297,9 +297,7 @@ export default function BecomeAMyChef() {
       <section className="bmc-requirements bg-cream section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              REQUIREMENTS
-            </span>
+            <SectionLabel align="center">REQUIREMENTS</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               What We Look For
             </h2>
@@ -324,9 +322,7 @@ export default function BecomeAMyChef() {
       <section className="bg-black section-padding">
         <div className="container-custom max-w-[1000px]">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              APPLICATION JOURNEY
-            </span>
+            <SectionLabel align="center" tone="dark">APPLICATION JOURNEY</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               How to Join
             </h2>
@@ -353,9 +349,7 @@ export default function BecomeAMyChef() {
         <div className="container-custom max-w-[1000px]">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-                WHY JOIN
-              </span>
+              <SectionLabel>WHY JOIN</SectionLabel>
               <h2 className="font-playfair text-h2 text-black mb-6">
                 Cook More. Worry Less.
               </h2>
@@ -380,7 +374,7 @@ export default function BecomeAMyChef() {
         <div className="container-custom max-w-[1200px]">
           <div className="grid grid-cols-1 lg:grid-cols-[55%_45%] gap-y-12 lg:gap-x-12">
             <div className="bmc-form-left">
-              <span className="font-inter text-caption font-medium uppercase tracking-wider text-gold mb-3 block">CHEF APPLICATION</span>
+              <SectionLabel>CHEF APPLICATION</SectionLabel>
               <h2 className="font-playfair text-fluid-h2 text-black mb-2" style={{ lineHeight: '1.15' }}>
                 Apply to Become a myCHEF
               </h2>

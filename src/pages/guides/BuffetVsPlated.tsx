@@ -12,6 +12,8 @@ import {
 import SEO from '../../components/SEO'
 import TrustSignalStrip from '../../components/TrustSignalStrip'
 import FaqAccordion from '../../components/FaqAccordion'
+import { SectionLabel } from '../../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like advice on buffet vs plated service (via mychef.ae/buffet-vs-plated-dubai)')
@@ -248,9 +250,7 @@ export default function BuffetVsPlated() {
       {/* ═══════════════ Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            FORMAT COMPARISON
-          </span>
+          <SectionLabel align="center">FORMAT COMPARISON</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             Match the Service Style to Your Event
           </h2>
@@ -267,9 +267,7 @@ export default function BuffetVsPlated() {
       <section className="bg-black section-padding">
         <div className="container-custom max-w-[1000px]">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              SIDE-BY-SIDE
-            </span>
+            <SectionLabel align="center" tone="dark">SIDE-BY-SIDE</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Buffet vs Plated at a Glance
             </h2>
@@ -302,9 +300,7 @@ export default function BuffetVsPlated() {
       <section className="bg-cream section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              PROS & CONS
-            </span>
+            <SectionLabel align="center">PROS & CONS</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               Strengths and Trade-Offs
             </h2>
@@ -373,9 +369,7 @@ export default function BuffetVsPlated() {
       <section className="bg-white section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              BEST OF BOTH
-            </span>
+            <SectionLabel align="center">BEST OF BOTH</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               Combining Buffet and Plated Service
             </h2>

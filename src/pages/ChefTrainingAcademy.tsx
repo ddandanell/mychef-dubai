@@ -17,6 +17,8 @@ import SEO from '../components/SEO'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import { breadcrumbSchema, faqPageSchema, serviceSchema } from '../utils/schema'
 import FaqAccordion from '../components/FaqAccordion'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to learn more about the Chef Training Academy (via mychef.ae/chef-training-academy)')
@@ -244,9 +246,7 @@ export default function ChefTrainingAcademy() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            ELEVATE YOUR CRAFT
-          </span>
+          <SectionLabel align="center">ELEVATE YOUR CRAFT</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             Training Built for Private Dining
           </h2>
@@ -268,9 +268,7 @@ export default function ChefTrainingAcademy() {
       <section className="ct-inclusions bg-cream section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WHAT IS INCLUDED
-            </span>
+            <SectionLabel align="center">WHAT IS INCLUDED</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               Skills That Set You Apart
             </h2>
@@ -295,9 +293,7 @@ export default function ChefTrainingAcademy() {
       <section className="ct-packages bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              ACADEMY PROGRAMMES
-            </span>
+            <SectionLabel align="center" tone="dark">ACADEMY PROGRAMMES</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Choose Your Path
             </h2>

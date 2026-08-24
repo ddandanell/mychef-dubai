@@ -1,4 +1,5 @@
 import { Link } from 'react-router'
+import { SectionLabel } from '@/components/system'
 
 interface LocationStripProps {
   title?: string
@@ -29,9 +30,7 @@ export default function LocationStrip({ title = 'Private chef & luxury dining ac
     <section className={`bg-cream py-16 ${className}`}>
       <div className="container-custom max-w-[1100px]">
         <div className="text-center mb-8">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            Where We Serve
-          </span>
+          <SectionLabel align="center">Where We Serve</SectionLabel>
           <h3 className="font-playfair text-h3 text-black">
             {title}
           </h3>

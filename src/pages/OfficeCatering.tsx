@@ -20,6 +20,8 @@ import LocationStrip from '../components/LocationStrip'
 import CorporateTrustStrip from '../components/CorporateTrustStrip'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to set up office catering for our chefs (via mychef.ae/office-catering-dubai)')
@@ -325,9 +327,7 @@ export default function OfficeCatering() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            CATERING FOR THE WORKPLACE
-          </span>
+          <SectionLabel align="center">CATERING FOR THE WORKPLACE</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             Well-Fed Teams, Every Working Day
           </h2>
@@ -344,9 +344,7 @@ export default function OfficeCatering() {
       <section className="bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              OFFICE CATERING FORMATS
-            </span>
+            <SectionLabel align="center" tone="dark">OFFICE CATERING FORMATS</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Catering Around Your Working Week
             </h2>
@@ -380,9 +378,7 @@ export default function OfficeCatering() {
       <section className="bg-black section-padding pt-0">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WHO we coordinate catering for
-            </span>
+            <SectionLabel align="center" tone="dark">WHO we coordinate catering for</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Built for Busy Offices
             </h2>

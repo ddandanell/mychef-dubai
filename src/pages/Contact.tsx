@@ -1,52 +1,73 @@
 import { useRef } from 'react'
 import { Link } from 'react-router'
-import { Phone, Mail, Clock, ChevronRight, Check, MapPin } from 'lucide-react'
+import { Phone, Mail, Clock, ChevronRight, Check, MapPin, MessageCircle, ClipboardList, ArrowRight, Headset } from 'lucide-react'
 import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import { useGSAP } from '@gsap/react'
 import SEO from '@/components/SEO'
 import TrustSignalStrip from '@/components/TrustSignalStrip'
+import { BodyCopy, Container, DisplayHeading, Section, SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent("Hi myCHEF Dubai, I'd like to get in touch (via mychef.ae/contact)")
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
+const INQUIRY_LINK = '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=contact'
 
-const contactCards = [
+// Three real ways in. Each panel is one tap target; the note says what the channel is best for.
+const channels = [
   {
-    icon: Phone,
+    icon: MessageCircle,
     title: 'WhatsApp',
     detail: '+971 55 174 4849',
-    action: 'Chat Now',
-    actionType: 'link' as const,
+    note: 'Fastest. We typically reply within 15 minutes during business hours.',
+    action: 'Open WhatsApp',
     href: WHATSAPP_LINK,
+    kind: 'external' as const,
   },
   {
     icon: Mail,
     title: 'Email',
     detail: 'info@mychef.id',
-    action: 'Send Email',
-    actionType: 'mailto' as const,
+    note: 'For written briefs, documents and anything that needs a longer answer.',
+    action: 'Send an email',
     href: 'mailto:info@mychef.id',
+    kind: 'mailto' as const,
   },
   {
-    icon: Clock,
-    title: 'Response Time',
-    detail: 'We reply within 15 minutes',
-    action: 'Chat on WhatsApp',
-    actionType: 'link' as const,
-    href: WHATSAPP_LINK,
+    icon: ClipboardList,
+    title: 'Quote request',
+    detail: 'Menu ideas and an indicative price',
+    note: 'Tell us what you are planning. A coordinator reviews it and replies with a tailored proposal.',
+    action: 'Request a quote',
+    href: INQUIRY_LINK,
+    kind: 'internal' as const,
   },
 ]
 
-const trustItems = [
-  'Bespoke menus designed for every client',
-  'Premium ingredients sourced daily',
-  'Vetted, experienced our chefs',
-  'Full service including setup and cleanup',
-  'Available across all Dubai locations',
-  'Discreet, confidential service',
-  'Booking protection & insurance',
+const nextSteps = [
+  { step: 'You write', desc: 'WhatsApp, email or a quote request. Say what the occasion is, or what the household needs. A rough idea is enough.' },
+  { step: 'We ask what changes the price', desc: 'Date, guest count, location, dietary needs and how often. Prices and hours are agreed before any work starts.' },
+  { step: 'A vetted chef within 24 hours', desc: 'We come back with a chef we have checked and a proposal you can say yes or no to.' },
 ]
+
+const included: { text: string; href?: string }[] = [
+  { text: 'Menus designed around each client' },
+  { text: 'Ingredients sourced daily' },
+  { text: 'Chefs vetted before they are put forward' },
+  { text: 'Setup and cleanup included with full service' },
+  { text: 'Every community in Dubai' },
+  { text: 'Discretion inside the home' },
+  { text: 'Booking protection and insurance', href: '/booking-protection-insurance' },
+]
+
+// Communities that have their own page under /locations/:slug (see src/data/locations.ts).
+// Anything else renders as plain text instead of linking to "Location Not Found".
+const LOCATION_PAGES = new Set([
+  'palm-jumeirah', 'bluewaters-island', 'dubai-marina', 'jbr', 'jlt', 'jvc', 'downtown-dubai', 'difc',
+  'business-bay', 'emirates-hills', 'dubai-hills', 'arabian-ranches', 'jumeirah', 'umm-suqeim', 'al-barsha',
+])
+const toLocationSlug = (name: string) => name.toLowerCase().replace(/\s+/g, '-')
 
 const serviceAreas = [
   'Palm Jumeirah',
@@ -126,7 +147,7 @@ export default function Contact() {
     <div ref={containerRef}>
       <SEO
         title="Contact Us"
-        description="Get in touch with myCHEF Dubai. Request a custom quote for private chef services, luxury catering, or bespoke dining. We reply within 15 minutes."
+        description="Contact myCHEF Dubai on WhatsApp, email or the quote form for a private chef or catering. We typically reply within 15 minutes during business hours."
         canonicalPath="/contact"
         ogImage="/images/contact-hero.webp"
         preloadHero="/images/mychef-dubai-contact-support-hero.webp"
@@ -164,10 +185,10 @@ export default function Contact() {
             A dinner, an ongoing chef, a large event, or something you have not quite figured out yet. Talk to someone who understands the food and the operation behind it.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 items-center md:items-start">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=contact" className="contact-cta-left btn-primary text-center">
+            <Link to={INQUIRY_LINK} className="btn-primary text-center">
               Start a Conversation
             </Link>
-            <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="contact-cta-right btn-secondary text-center">
+            <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-secondary text-center">
               WhatsApp Us
             </a>
           </div>
@@ -180,146 +201,189 @@ export default function Contact() {
 
       <TrustSignalStrip />
 
-      {/* Section 2: Contact Cards */}
-      <section className="relative bg-cream py-16 md:py-20" style={{ marginTop: '-40px' }}>
-        <div className="max-w-[1000px] mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="contact-cards-grid grid md:grid-cols-3 gap-6">
-            {contactCards.map((card) => (
-              <div key={card.title} className="contact-card bg-white p-6 md:p-10 text-center shadow-subtle">
-                <div className="w-14 h-14 mx-auto mb-4 flex items-center justify-center rounded-full bg-gold/10">
-                  <card.icon size={24} className="text-gold" aria-hidden="true" />
-                </div>
-                <h4 className="font-playfair text-h4 text-black mb-2">{card.title}</h4>
-                <p className="font-inter text-body text-gray-500 mb-4">{card.detail}</p>
-                {card.actionType === 'link' && (
-                  <a
-                    href={card.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="font-inter text-body-sm font-medium text-gold hover:text-gold-light transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-cream rounded-sm"
-                  >
-                    {card.action}
-                  </a>
-                )}
-                {card.actionType === 'mailto' && (
-                  <a
-                    href={card.href}
-                    className="font-inter text-body-sm font-medium text-gold hover:text-gold-light transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-cream rounded-sm"
-                  >
-                    {card.action}
-                  </a>
-                )}
-              </div>
-            ))}
+      {/* Section 2: Channels — three real options; the whole panel is the tap target */}
+      <Section tone="ivory">
+        <Container>
+          <div className="max-w-[720px] mb-10 md:mb-12">
+            <SectionLabel icon={Headset}>Ways to reach us</SectionLabel>
+            <DisplayHeading size="h2" className="text-black">Three ways in. Pick the one that fits the question.</DisplayHeading>
           </div>
-        </div>
-      </section>
+          <ul className="contact-cards-grid grid md:grid-cols-3 gap-px bg-gray-200 border border-gray-200">
+            {channels.map((c) => {
+              const panelClass = 'group flex h-full flex-col p-6 lg:p-8 bg-white transition-colors hover:bg-gray-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-gold'
+              const inner = (
+                <>
+                  <div className="flex items-center gap-4 mb-5">
+                    <span className="flex h-10 w-10 shrink-0 items-center justify-center border border-gold/35 text-gold-ink transition-colors group-hover:border-gold-ink">
+                      <c.icon size={18} strokeWidth={1.5} aria-hidden />
+                    </span>
+                    <h3 className="font-playfair text-h4 text-black">{c.title}</h3>
+                  </div>
+                  <p className="font-inter text-body text-black">{c.detail}</p>
+                  <p className="font-inter text-body-sm text-gray-500 leading-relaxed mt-2">{c.note}</p>
+                  <span className="mt-auto pt-6 inline-flex items-center gap-2 font-inter text-caption uppercase tracking-wider text-gold-ink transition-colors group-hover:text-gold">
+                    {c.action} <ArrowRight size={14} aria-hidden />
+                  </span>
+                </>
+              )
+              return (
+                <li key={c.title} className="contact-card bg-white">
+                  {c.kind === 'internal' ? (
+                    <Link to={c.href} className={panelClass}>{inner}</Link>
+                  ) : (
+                    <a
+                      href={c.href}
+                      className={panelClass}
+                      {...(c.kind === 'external' ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
+                    >
+                      {inner}
+                    </a>
+                  )}
+                </li>
+              )
+            })}
+          </ul>
+        </Container>
+      </Section>
 
-      {/* Section 3: WhatsApp CTA */}
+      {/* Section 3: What happens next — inline chain 01 → 02 → 03, plus what every booking includes */}
       <section className="contact-cta-section bg-white section-padding">
-        <div className="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-[55%_45%] gap-y-12 lg:gap-x-12">
-            {/* Left Column - WhatsApp CTA */}
+        <Container>
+          <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,7fr)_minmax(0,5fr)] gap-y-14 lg:gap-x-16">
+            {/* Left column — the sequence, WhatsApp first */}
             <div className="contact-cta-left">
-              <p className="font-inter text-caption font-medium uppercase tracking-wider text-gold mb-3">WHATSAPP FIRST</p>
-              <h2 className="font-playfair text-fluid-h2 text-black mb-2" style={{ lineHeight: '1.15' }}>
-                Chat With Us on WhatsApp
-              </h2>
-              <p className="font-inter text-body text-gray-500 mb-8">
-                We are available on WhatsApp for quick questions, availability checks, and bespoke quotes. We typically respond within 15 minutes during business hours.
-              </p>
+              <SectionLabel icon={Clock}>The next 24 hours</SectionLabel>
+              <DisplayHeading size="h2" className="text-black mb-5">What happens after you write.</DisplayHeading>
+              <BodyCopy muted className="mb-10">
+                No call centre. A coordinator reads it, asks what is missing and comes back with a proposal.
+              </BodyCopy>
 
-              <a
-                href={WHATSAPP_LINK}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn-primary inline-flex items-center gap-2 focus-visible:ring-offset-white"
-              >
-                <Phone size={18} aria-hidden="true" />
-                Chat on WhatsApp
-              </a>
+              <ol className="grid sm:grid-cols-3 gap-x-6 gap-y-8 border-t border-gray-200 pt-8">
+                {nextSteps.map((s, i) => (
+                  <li key={s.step} className="max-sm:border-l max-sm:border-gold/30 max-sm:pl-5">
+                    <p className="flex items-center gap-3 mb-3 font-playfair text-h4 text-gold-ink leading-none select-none">
+                      <span>{String(i + 1).padStart(2, '0')}</span>
+                      {i < nextSteps.length - 1 && <ArrowRight size={16} className="hidden sm:inline-block text-gold/70" aria-hidden />}
+                    </p>
+                    <h3 className="font-inter text-body font-medium text-black mb-2">{s.step}</h3>
+                    <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{s.desc}</p>
+                  </li>
+                ))}
+              </ol>
+
+              <div className="mt-10">
+                <a
+                  href={WHATSAPP_LINK}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn-primary inline-flex items-center gap-2 focus-visible:ring-offset-white"
+                >
+                  <Phone size={18} aria-hidden="true" />
+                  Chat on WhatsApp
+                </a>
+              </div>
 
               <p className="font-inter text-body-sm text-gray-500 mt-6">
                 Prefer email?{' '}
-                <a href="mailto:info@mychef.id" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
+                <a href="mailto:info@mychef.id" className="text-gold-ink hover:text-gold underline underline-offset-4 transition-colors">
                   info@mychef.id
                 </a>
               </p>
             </div>
 
-            {/* Right Column - Trust Sidebar */}
-            <div className="contact-cta-right bg-black p-8 lg:p-12 h-fit">
-              <h3 className="font-playfair text-fluid-h3 text-white mb-8" style={{ lineHeight: '1.2' }}>
-                Why Choose myCHEF Dubai?
+            {/* Right column — what every booking includes (a list, not a box) */}
+            <aside className="contact-cta-right lg:border-l lg:border-gray-200 lg:pl-12">
+              <h3 className="font-playfair text-fluid-h3 text-black mb-6" style={{ lineHeight: '1.2' }}>
+                What comes with every booking
               </h3>
-              <div className="space-y-6">
-                {trustItems.map((item) => (
-                  <div key={item} className="flex items-start gap-3">
-                    <Check size={16} className="text-gold mt-1 flex-shrink-0" aria-hidden="true" />
-                    <span className="font-inter text-body text-gray-400">{item}</span>
-                  </div>
+              <ul className="space-y-4">
+                {included.map((item) => (
+                  <li key={item.text} className="flex items-start gap-3">
+                    <Check size={16} className="text-gold-ink mt-1 flex-shrink-0" aria-hidden="true" />
+                    {item.href ? (
+                      <Link to={item.href} className="font-inter text-body text-gray-600 underline decoration-gold/40 underline-offset-4 transition-colors hover:text-gold-ink hover:decoration-gold-ink">
+                        {item.text}
+                      </Link>
+                    ) : (
+                      <span className="font-inter text-body text-gray-600">{item.text}</span>
+                    )}
+                  </li>
                 ))}
-              </div>
-              <div className="mt-10 pt-8 border-t border-charcoal-light space-y-4">
-                <div className="flex items-center gap-3">
-                  <MapPin size={18} className="text-gold" aria-hidden="true" />
-                  <div>
-                    <p className="font-inter text-body-sm text-gray-400">Serving all of Dubai</p>
-                    <p className="font-inter text-body-sm text-gold">We respond within 15 minutes</p>
-                  </div>
-                </div>
-                <p className="font-inter text-body-sm text-gray-400">
+              </ul>
+              <div className="mt-8 pt-6 border-t border-gray-200 space-y-3">
+                <p className="flex items-center gap-2 font-inter text-body-sm text-gray-500">
+                  <MapPin size={16} className="text-gold-ink flex-shrink-0" aria-hidden="true" />
+                  Serving all of Dubai
+                </p>
+                <p className="font-inter text-body-sm text-gray-500">
                   Loved your experience?{' '}
-                  <Link to="/review" className="text-gold hover:underline">
+                  <Link to="/review" className="text-gold-ink hover:underline">
                     Leave a review and earn AED 50 credit
                   </Link>
                   .
                 </p>
-                <p className="font-inter text-body-sm text-gray-400">
+                <p className="font-inter text-body-sm text-gray-500">
                   Own a venue?{' '}
-                  <Link to="/partner-with-us" className="text-gold hover:underline">
+                  <Link to="/partner-with-us" className="text-gold-ink hover:underline">
                     Partner with us
                   </Link>
                   .
                 </p>
               </div>
-            </div>
+            </aside>
           </div>
-        </div>
+        </Container>
       </section>
 
-      {/* Section 4: Service Areas */}
+      {/* Section 4: Service Areas — linked where a location page exists, plain text where not */}
       <section className="service-areas-section bg-charcoal section-padding">
-        <div className="container-custom">
-          <div className="text-center mb-12">
-            <p className="font-inter text-caption font-medium uppercase tracking-wider text-gold mb-3">COVERAGE</p>
-            <h2 className="font-playfair text-fluid-h2 text-white" style={{ lineHeight: '1.15' }}>
-              We Come to You — Anywhere in Dubai
-            </h2>
+        <Container>
+          <div className="max-w-[720px] mx-auto text-center mb-10">
+            <SectionLabel align="center" tone="dark" icon={MapPin}>Coverage</SectionLabel>
+            <DisplayHeading size="h2" className="text-white">We come to you. Name the community.</DisplayHeading>
+            <BodyCopy tone="dark" className="mt-4 mx-auto">
+              Linked communities have their own page. Not listed? Tell us the address — we serve all of Dubai.
+            </BodyCopy>
           </div>
-          <div className="flex flex-wrap justify-center gap-3">
-            {serviceAreas.map((area) => (
-              <span
-                key={area}
-                className="service-area-tag px-4 py-2 font-inter text-body-sm text-gray-400 border border-gold/20 bg-[#2A2A2A] transition-all duration-300 hover:border-gold hover:text-gold cursor-default"
-              >
-                {area}
-              </span>
-            ))}
-          </div>
-        </div>
+          <ul className="flex flex-wrap justify-center gap-3">
+            {serviceAreas.map((area) => {
+              const slug = toLocationSlug(area)
+              return (
+                <li key={area} className="service-area-tag">
+                  {LOCATION_PAGES.has(slug) ? (
+                    <Link
+                      to={`/locations/${slug}`}
+                      className="inline-flex min-h-[44px] items-center px-4 font-inter text-body-sm text-gray-200 border border-gold/30 bg-charcoal-light transition-colors hover:border-gold hover:text-gold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-charcoal"
+                    >
+                      {area}
+                    </Link>
+                  ) : (
+                    <span className="inline-flex min-h-[44px] items-center px-4 font-inter text-body-sm text-gray-500 border border-white/10">
+                      {area}
+                    </span>
+                  )}
+                </li>
+              )
+            })}
+          </ul>
+          <p className="mt-8 text-center">
+            <Link to="/locations" className="inline-flex min-h-[44px] items-center gap-2 font-inter text-caption uppercase tracking-wider text-gold hover:text-gold-light focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-charcoal rounded-sm">
+              All location pages <ArrowRight size={14} aria-hidden />
+            </Link>
+          </p>
+        </Container>
       </section>
 
       {/* Section 5: Final CTA */}
       <section className="contact-final-section bg-black py-20">
         <div className="contact-final-cta container-custom text-center">
-          <h3 className="font-playfair text-fluid-h3 text-white mb-4">Ready to Start Planning?</h3>
-          <p className="font-inter text-body text-gray-400 max-w-lg mx-auto mb-8">
-            Tell us your occasion and we will bring you a vetted chef within 24 hours.
-          </p>
+          <DisplayHeading size="h3" className="text-white mb-4">One message is enough to start.</DisplayHeading>
+          <BodyCopy tone="dark" className="mx-auto mb-8">
+            Tell us the occasion, or the household and the week you need covered. We bring you a vetted chef within 24 hours, with the price agreed before anything is confirmed.
+          </BodyCopy>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
-              to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=contact"
+              to={INQUIRY_LINK}
               className="btn-primary focus-visible:ring-offset-black"
             >
               Request My Custom Quote

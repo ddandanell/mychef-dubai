@@ -19,6 +19,8 @@ import TrustSignalStrip from '../components/TrustSignalStrip'
 import LocationStrip from '../components/LocationStrip'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to plan a mocktail bar in Dubai (via mychef.ae/mocktail-bar-catering-dubai)')
@@ -332,9 +334,7 @@ export default function MocktailBarCatering() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            ALCOHOL-FREE CRAFT BAR
-          </span>
+          <SectionLabel align="center">ALCOHOL-FREE CRAFT BAR</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             The Craft of a Cocktail Bar, Without the Alcohol
           </h2>
@@ -351,9 +351,7 @@ export default function MocktailBarCatering() {
       <section className="bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              MOCKTAIL FORMATS
-            </span>
+            <SectionLabel align="center" tone="dark">MOCKTAIL FORMATS</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               An Alcohol-Free Bar for Every Occasion
             </h2>
@@ -387,9 +385,7 @@ export default function MocktailBarCatering() {
       <section className="bg-black section-padding pt-0">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WHERE WE SERVE
-            </span>
+            <SectionLabel align="center" tone="dark">WHERE WE SERVE</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Mocktails for Every Gathering
             </h2>

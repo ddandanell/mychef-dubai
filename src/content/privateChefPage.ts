@@ -1,10 +1,19 @@
 export const PAGE_PATH = '/private-chef-dubai'
 export const CAMPAIGN = 'private-chef-dubai'
 
-export const SEO_TITLE = 'Private Chef Dubai | Household Chef by the Week or Month | myCHEF'
+export function formatAed(n: number): string {
+  return `AED ${n.toLocaleString('en-US')}`
+}
+
+/** Monthly figure for a standing plan: (per-service + optional zone fee) × 4 weeks × days. */
+export function monthlyFrom(perService: number, daysPerWeek: number, zoneFee = 0): number {
+  return (perService + zoneFee) * 4 * daysPerWeek
+}
+
+export const SEO_TITLE = 'Private Chef Dubai | Household Chef, Managed Properly | myCHEF'
 export const SEO_DESCRIPTION =
-  'Hire a standing private chef in Dubai from AED 900 a day. New households from 5 days; returning from 2. One night is catering, not this page.'
-export const H1 = 'Book a private chef in Dubai'
+  'A private chef for your Dubai home — matched, assessed and managed. From a few days a week to a standing household arrangement. From AED 2,700 a month.'
+export const H1 = 'A Private Chef for Your Home, Managed Properly'
 export const HERO_IMAGE = '/images/private-chef-dubai-hero.webp'
 export const HERO_IMAGE_WIDTH = 1280
 export const HERO_IMAGE_HEIGHT = 720
@@ -68,6 +77,40 @@ export const howItWorksPhoto = {
   width: 1280,
   height: 720,
 }
+
+/** Cluster subpage heroes — one visual verb each. 4K masters. Experience concept shown. */
+export const clusterHeroes = {
+  howItWorks: {
+    src: '/images/private-chef-how-it-works-hero.webp',
+    alt: 'A household and chefs review a household plan at a Dubai villa island in the evening. Experience concept shown.',
+    width: 3840,
+    height: 2160,
+  },
+  ourChefs: {
+    src: '/images/private-chef-our-chefs-hero.webp',
+    alt: 'An adult chef cooks under assessment while two senior chefs watch and take notes in a dark test kitchen. Experience concept shown.',
+    width: 3840,
+    height: 2160,
+  },
+  quality: {
+    src: '/images/private-chef-quality-training-hero.webp',
+    alt: 'Two senior chefs review a finished plate under a warm lamp, one tasting and one finishing the garnish. Experience concept shown.',
+    width: 3840,
+    height: 2160,
+  },
+  privacy: {
+    src: '/images/private-chef-privacy-security-hero.webp',
+    alt: 'A private chef prepares food at a villa island while a couple sits in the living room, evening garden beyond. Experience concept shown.',
+    width: 3840,
+    height: 2160,
+  },
+  pricing: {
+    src: '/images/private-chef-pricing-hero.webp',
+    alt: 'Two people sit at a dark island with a notebook and blank tablet while a chef cooks in the background. Experience concept shown.',
+    width: 3840,
+    height: 2160,
+  },
+} as const
 
 export const whoDoesWhatPhoto = {
   src: '/images/private-chef-dubai-who-does-what.webp',
@@ -189,11 +232,11 @@ export const dailyLifePhotos = [
 ] as const
 
 export const HERO_SUBTITLE =
-  'This is a household chef — a standing arrangement that learns the house. New clients start at five service days. Once we know you, from two. A single dinner is catering. You stay a guest at your own table.'
+  'From a few days a week to a long-term household arrangement, we match, assess and manage the chef around the way your household actually eats.'
 
 export const WHATSAPP_NUMBER = '971551744849'
 export const WHATSAPP_MESSAGE =
-  "Hi myCHEF Dubai, I'd like a standing private chef for the household. Location: __, Meals/day: __, Start date: __, Days per week: __ (via mychef.ae/private-chef-dubai)"
+  "Hi myCHEF Dubai, I'd like a standing private chef for the household. Location: __, Service format (prep / dinner / food management / full day): __, Days per week: __, Who handles groceries: __, Start date: __ (via mychef.ae/private-chef-dubai)"
 
 export const pageSequence = [
   { n: '01', label: 'What this is', href: '#what-this-is' },
@@ -201,52 +244,237 @@ export const pageSequence = [
   { n: '03', label: 'Why not hire yourself', href: '#why-not-hire' },
   { n: '04', label: 'How it works', href: '#how-it-works' },
   { n: '05', label: 'The life', href: '#the-life' },
-  { n: '06', label: 'The chefs', href: '#the-chefs' },
-  { n: '07', label: 'What it costs', href: '#household' },
+  { n: '06', label: 'Chef quality', href: '#chef-levels' },
+  { n: '07', label: 'How pricing works', href: '#household' },
   { n: '08', label: 'When plans change', href: '#when-it-changes' },
   { n: '09', label: 'Start', href: '#start' },
 ] as const
 
+export const quickNav = [
+  { label: 'Get the price', href: '#calculator', primary: true },
+  { label: 'Service formats', href: '#formats', primary: false },
+  { label: 'Groceries', href: '#groceries', primary: false },
+  { label: 'Transport zones', href: '#transport', primary: false },
+  { label: 'Chef quality', href: '#chef-levels', primary: false },
+  { label: 'How chefs are scored', href: '#chef-scoring', primary: false },
+  { label: 'The Food Profile', href: '#food-profile', primary: false },
+  { label: 'When plans change', href: '#when-it-changes', primary: false },
+  { label: 'FAQs', href: '#faq', primary: false },
+] as const
+
 export const heroFacts = [
   {
-    eyebrow: 'New household',
-    title: 'From 5 service days',
-    body: 'The first week is how we learn the kitchen. We do not start a new house on a one-day booking.',
+    eyebrow: 'Entry point',
+    title: 'From AED 2,700 / month',
+    body: 'One three-hour prep session a week, Professional Chef. The chef cooks, organises the food and leaves — a private chef without someone in the house all day.',
   },
   {
-    eyebrow: 'Once we know you',
-    title: 'From 2 service days',
-    body: 'Returning clients can run two days. Still a household — not a one-off dinner.',
+    eyebrow: 'The product',
+    title: 'An ongoing monthly plan',
+    body: 'Displayed prices are for households of at least one month. Shorter arrangements run at 1.5× — because the beginning is where we do the most work.',
   },
   {
-    eyebrow: 'Typical month',
-    title: 'From AED 18,000',
-    body: 'Senior Chef, one meal a day, about 20 service days. From AED 900 a day on that plan. Groceries separate.',
+    eyebrow: 'Groceries',
+    title: 'At cost. Always.',
+    body: 'We make money from providing the service, not from marking up your tomatoes. Take over the whole food process and Daily Prep becomes five hours — the chef’s time is what you pay for, never the ingredients.',
   },
 ] as const
 
-export const bookingMinimums = [
+export const serviceFormats = [
   {
-    who: 'New household',
-    min: '5 service days',
-    why: 'The first week is calibration. We learn the kitchen, the coffee, the children, the timing. Five days is the start of a relationship, not a trial dinner.',
+    id: 'prep',
+    name: 'Daily Prep',
+    hours: 'Up to 3 hours',
+    perService: 675,
+    ask: 'Prepare it for me',
+    tag: 'The quiet option',
+    body: 'The chef comes in, prepares the food your household needs, organises it and leaves. You provide the groceries — or add grocery management and the service becomes five hours.',
+    includes: [
+      'Up to 3 hours of cooking and preparation',
+      'Lunch ready · dinner prepared for you to finish or reheat',
+      'Children’s food handled',
+      'Components portioned, labelled and stored',
+      'Kitchen left the way it was found',
+    ],
+    chooseIf: 'You want a private chef’s food — without another person in the house all day.',
   },
   {
-    who: 'Returning household',
-    min: '2 service days',
-    why: 'The Food Profile already exists. Two days is enough to run the house without restarting it.',
+    id: 'dinner',
+    name: 'Dinner Service',
+    hours: 'Up to 4 hours',
+    perService: 825,
+    ask: 'Cook dinner for me',
+    tag: null,
+    body: 'The chef arrives before the meal, cooks it fresh, serves it the way this house likes to be served, and leaves the kitchen handled. Choose dinner, breakfast or lunch — or more than one; each added meal adds service time.',
+    includes: [
+      'Up to 4 hours around one served meal',
+      'Add breakfast or lunch — each added meal adds 2.5 hours',
+      'Fresh preparation, finished to serve',
+      'Table service the way you want it — present or invisible',
+      'Kitchen handled before the chef leaves',
+    ],
+    chooseIf: 'A served meal — usually dinner — is the one that matters in your house.',
   },
   {
-    who: 'Typical week',
-    min: '5 service days',
-    why: 'Monday to Friday is the standard rhythm. Weekends by arrangement on top of the plan.',
-  },
-  {
-    who: 'Typical month',
-    min: '~20 service days',
-    why: 'That is the plan the daily rate is based on. Pause while you travel. Restart without rebuilding the profile.',
+    id: 'fullday',
+    name: 'Full-Day Chef',
+    hours: 'Up to 9 hours',
+    perService: 1575,
+    ask: 'Run my kitchen for me',
+    tag: null,
+    body: 'The chef is there for the household through the day, in whatever rhythm the house has agreed. The number of meals is secondary; the time is the product.',
+    includes: [
+      'Up to 9 hours — breakfast through dinner',
+      'The day’s meals in your household’s rhythm',
+      'Preparation, snacks and children’s meals between them',
+      'Kitchen organised through the day',
+      'Hours beyond nine agreed and charged separately',
+    ],
+    chooseIf: 'You want the kitchen staffed and food appearing through the whole day.',
   },
 ] as const
+
+export const mealChoices = [
+  { id: 'breakfast', label: 'Breakfast' },
+  { id: 'lunch', label: 'Lunch' },
+  { id: 'dinner', label: 'Dinner' },
+] as const
+
+export const mealServiceRule = {
+  baseHours: 4,
+  extraHours: 2.5,
+  basePrice: 825,
+  extraPrice: 375,
+  note: 'One served meal is up to 4 hours. Each added meal adds 2.5 hours of service — arrive, cook fresh, serve, hand the kitchen back. One served meal can cover the household’s sittings — children earlier, adults later — within the service window. Choose all three meals and you have Full-Day coverage.',
+}
+
+export const peopleBands = [
+  { id: 'p6', label: 'Up to 6', sub: 'The standard household', assistants: 0 },
+  { id: 'p10', label: '7–10', sub: 'Still one chef', assistants: 0 },
+  { id: 'p22', label: '11–22', sub: '+1 assistant', assistants: 1 },
+  { id: 'p34', label: '23–34', sub: '+2 assistants', assistants: 2 },
+  { id: 'p49', label: '35–49', sub: '+3 assistants', assistants: 3 },
+  { id: 'p50', label: '50+', sub: 'Lead Chef event', assistants: -1 },
+] as const
+
+export const assistantRule = {
+  pct: 25,
+  note: 'One chef handles up to ten people alone. From eleven, we add an assistant — roughly one per twelve guests — each at 25% of the service price. Above 49 people, this stops being household service and becomes a Lead Chef event with a full team and one event price.',
+}
+
+export const escalators = {
+  title: 'The only things that can change this number',
+  items: [
+    'Chef quality — displayed prices are Professional Chef; if the role needs a Senior Chef, you see the difference before you book.',
+    'People at the table — priced right here in the calculator, one assistant per ~12 guests above ten, at 25% of the service price each.',
+    'Hours beyond your format — AED 150 per additional hour, agreed in advance, never assumed.',
+    'Staying under one month — 1.5× the service rate, shown in the calculator.',
+  ],
+  closer: 'Nothing else moves it. Groceries stay at receipts. Transport is already included in the figures above.',
+}
+
+export const groceryAddOn = {
+  perService: 975,
+  hours: 'Up to 5 hours',
+  planName: 'Daily Prep + Grocery Management',
+  optionMine: {
+    label: 'I’ll handle the groceries',
+    sub: '3 hours per service',
+    body: 'You buy the ingredients and have them ready when the chef arrives. The chef’s time is focused on preparation and cooking.',
+  },
+  optionMychef: {
+    label: 'myCHEF handles everything',
+    sub: '5 hours per service',
+    body: 'We plan the meals, make the shopping list, buy the groceries, select the ingredients and check the quality before cooking. Groceries are charged at actual cost. No markup.',
+  },
+  explainer:
+    'Adding grocery management changes the service from 3 to 5 hours. The extra time covers meal planning, shopping, ingredient selection and transport. You still pay only the actual grocery receipts.',
+  principle: 'The groceries are not marked up. The chef’s additional time is what you pay for.',
+  boundary:
+    'A note on who does the shopping: standard service assumes you provide the ingredients. Our chefs are culinary professionals, hired for the kitchen — not errand runners. When you do want the shopping taken over, we make it a proper part of the job rather than a favour: the service becomes five hours, so the chef has real, paid time to plan the menus, get to the market and check the quality — without eating into your cooking time.',
+}
+
+export const formatChooser = {
+  eyebrow: 'Which one?',
+  title: 'Thirty seconds of guidance',
+  rows: [
+    { situation: 'Good food handled, nobody in the house all day', pick: 'Daily Prep' },
+    { situation: 'Never think about menus, shopping or what’s in the fridge again', pick: 'Daily Prep + Grocery Management' },
+    { situation: 'Dinner cooked fresh and served, evening after evening', pick: 'Dinner Service' },
+    { situation: 'A kitchen that runs from breakfast to dinner', pick: 'Full-Day Chef' },
+  ],
+  closer: 'Want prep on weekdays and a served dinner on Friday? Mixed weeks are normal — tell us. And if you are still unsure, describe how the house eats and we recommend the format. That is our job, not yours.',
+}
+
+export const formatsIntro = {
+  eyebrow: 'The real question',
+  title: 'How much of your food life do you want us to take over?',
+  body: 'We do not sell meals per day. Two meals could be a five-hour morning or a thirteen-hour spread — same count, completely different job. So you choose the chef’s working time and what it covers. Prices shown are per service at Professional Chef level, on an ongoing plan. Longer service days deliberately carry a lower hourly rate — a nine-hour day is better value per hour than a three-hour visit.',
+}
+
+export const buildAround = {
+  eyebrow: 'The household plan',
+  title: 'Build your private chef around your life',
+  paras: [
+    'Some families want a chef for three quiet hours in the morning. Some want dinner cooked and served every evening. Some want us to take food completely off their hands. Some want a chef in the house throughout the day.',
+    'Choose the time and rhythm that fits your household. We take care of the system behind it.',
+  ],
+}
+
+export const timeROI = {
+  eyebrow: 'What you get back',
+  title: 'The food loop you are currently running yourself',
+  intro:
+    'Food is not one task. It is a loop that runs every day whether you notice it or not — and it charges you twice: once in hours, once in attention.',
+  loop: [
+    { step: 'Thinking', detail: '“What’s for dinner?” — every day, plus what the children will actually eat and what is still in the fridge.' },
+    { step: 'Planning', detail: 'The list, the dietary juggling, the week ahead.' },
+    { step: 'Shopping', detail: 'The trip, the traffic, the queue, the bags.' },
+    { step: 'Cooking', detail: 'An hour or two — at the exact end of the day when you have the least left.' },
+    { step: 'Cleaning', detail: 'The kitchen does not reset itself.' },
+    { step: 'Restocking', detail: 'Noticing what ran out before it matters.' },
+  ],
+  math: {
+    label: 'Count your own week — the arithmetic is simple',
+    body: 'Cooking five evenings (call it 7 hours) + one proper shop (2 hours) + cleaning up (2–3 hours) + planning (an hour) is roughly twelve hours a week — before the thinking, which never fully switches off. Your number may differ. Count it once, honestly.',
+  },
+  roi: {
+    title: 'A return, not just a saving',
+    intro: 'Most of our clients bill their own hours. If your working hour is worth more than the chef’s, handing over the loop is arithmetic, not indulgence.',
+    returns: [
+      'Roughly a working day of hours back every week on a five-day plan',
+      'The 6pm decision — gone',
+      'Evenings that start when you sit down, not when the kitchen is clean',
+      'A mental tab closed: the fridge is no longer your responsibility',
+      'Food that got better while you stopped managing it',
+    ],
+    closer: 'The saving is not the point. What you buy back is the scarcest thing you have.',
+  },
+}
+
+export const oneMonth = {
+  eyebrow: 'Why one month — and why short stays cost 1.5×',
+  title: 'The beginning is where we do the most work',
+  paras: [
+    'We match your chef, understand your household, build your Food Profile, learn the kitchen, understand what the children actually eat, record preferences, establish routines and correct what does not work.',
+    'Behind every placement also sits the administration a professional kitchen in Dubai actually requires: verified identity, visa and right-to-work status, scheduling, backup coverage, and a network of chefs we look after properly. None of that appears on your plate, but all of it is real work.',
+    'We treat that first month as our investment in the relationship — which is why displayed prices are for ongoing plans of at least one month, and why shorter arrangements run at 1.5× the ongoing rate: the same setup work, recovered over far fewer days. A single dinner is still catering, not this page.',
+  ],
+}
+
+export const specialists = {
+  eyebrow: 'Specialists & Guest Chefs',
+  title: 'Exceptional chefs are not a monthly subscription',
+  body: 'Somebody who wants extraordinary Japanese food on Friday should not conclude they need the most expensive chef seven days a week. Specialists sit outside the recurring ladder and are quoted for the occasion. Keep your everyday chef. Add the specialist for the meal that needs one.',
+  items: [
+    'Japanese specialist',
+    'Sushi chef',
+    'Pastry chef',
+    'Fine-dining chef',
+    'Nutrition specialist',
+    'Michelin-background chef',
+  ],
+}
 
 export const cateringRedirect = {
   title: 'One night is catering',
@@ -259,10 +487,10 @@ export const systemMap = [
   { n: '01', label: 'You' },
   { n: '02', label: 'Your household manager' },
   { n: '03', label: 'Your Food Profile' },
-  { n: '04', label: 'Your regular chef + assistant' },
+  { n: '04', label: 'Your chef — and the team the work needs' },
   { n: '05', label: 'Specialists · backup · events' },
   { n: '06', label: 'Feedback' },
-  { n: '07', label: 'Profile updated' },
+  { n: '07', label: 'Profile and chef score updated' },
   { n: '08', label: 'Service gets better' },
 ] as const
 
@@ -318,6 +546,25 @@ export const scoreDemo = {
   chefsFeedback: 'Chefs can give feedback too. A house is allowed to make a mistake. Both sides are expected to learn.',
 }
 
+export const feedbackOutputs = {
+  title: 'One conversation, two records',
+  intro:
+    'When we check in after service, your feedback goes two places — because it does two different jobs.',
+  outputs: [
+    {
+      label: 'Your Food Profile',
+      example: '“Less salt.”',
+      body: 'Anything about how this house eats updates the profile. The next service needs less explaining. This record belongs to the household.',
+    },
+    {
+      label: 'The chef’s performance record',
+      example: '“Always on time. The kitchen is spotless when they leave.”',
+      body: 'Anything about how the chef works — food quality, reliability, communication, cleanliness, adaptability, household fit — feeds the chef’s verified performance score. This record follows the chef and helps decide their level.',
+    },
+  ],
+  closer: 'Only feedback from completed myCHEF placements counts toward a chef’s score. Nothing on a chef’s record is invented, imported or guessed.',
+}
+
 export const backupAlone = [
   'Chef unavailable',
   'You start calling people',
@@ -353,15 +600,15 @@ export const networkSpecialties = [
 ] as const
 
 export const levelSpecialtyExamples = [
-  { level: 'Senior Chef', specialty: 'can specialise in Indian food' },
-  { level: 'Master Chef', specialty: 'can specialise in Japanese' },
-  { level: 'Executive Chef', specialty: 'can specialise in nutrition' },
+  { level: 'A Professional Chef', specialty: 'can be an exceptional Indian cook' },
+  { level: 'A Senior Chef', specialty: 'can specialise in Japanese cuisine' },
+  { level: 'A Sushi Specialist', specialty: 'can join for one Friday dinner alongside your regular chef' },
 ] as const
 
 export const whatThisIs = [
   'myCHEF is not a list of chefs you have to manage, and not a staffing agency that puts someone on your payroll. Independent, licensed culinary partners cook. We organise the chef: the match, the standard and the backup.',
   'You are buying a standing food service for a household — a chef who comes back, a record of how this house eats, and one contact when something changes. That is a different product from a one-night dinner. A one-night dinner is catering.',
-  'Before anyone enters your kitchen we check identity and right-to-work, run a practical cooking assessment, take references, and review after service. On a standing arrangement we also hold your Food Profile, give you one contact, handle scheduling and backup, and bring in a specialist when you want one.',
+  'Before anyone enters your kitchen we check identity and right-to-work, run a practical cooking assessment, take references, and review after service. Every chef in the network carries a level they earned through that assessment — and keeps earning through verified client feedback. The whole system is explained on this page.',
   'The chef cooks. We keep the chef, the house and the standard aligned. The longer you stay, the less you should have to explain. That is the point of a long-term private chef — not a series of one-day hires.',
 ]
 
@@ -388,7 +635,7 @@ export const comparison = [
   {
     topic: 'Finding a chef',
     alone: 'You interview and hope. A good first dinner is not the same as a person who still fits the house in month four.',
-    mychef: 'You are matched to a chef already vetted for identity, cooking and references. The match is the kitchen, the cuisine and the format — not whoever replied first.',
+    mychef: 'You are matched to a chef already vetted for identity, cooking and references — with a level earned through assessment, not claimed from a CV. The match is the kitchen, the cuisine and the format — not whoever replied first.',
   },
   {
     topic: 'When they are unavailable',
@@ -413,180 +660,493 @@ export const comparison = [
   {
     topic: 'Cost',
     alone: 'A freelancer can look cheaper on day one. You are paying for the person only. Backup, matching, review and a kitchen that already knows the house are unpaid work — yours.',
-    mychef: 'The person plus backup, matching, review, and a kitchen that already knows the house. Starting prices are on this page before you pay.',
+    mychef: 'The person plus backup, matching, review, and a kitchen that already knows the house. The price is built openly from the role — chef level, working time, days, contract length and responsibilities — and you see it in writing before anything starts.',
   },
 ]
 
 export const processSteps = [
   {
     num: '01',
-    title: 'Tell us the rhythm',
-    body: 'How many meals, which days, and what “healthy” means in this house. New households start at five service days. Once we know you, from two. You do not have to choose a chef level to start a conversation. If you want one dinner, that is catering — we will send you there.',
+    title: 'Tell us about the job',
+    body: 'Which service format fits — a morning prep session, dinner service, full food management or a full-day chef. How many days a week, how many people, and what the chef is responsible for. Displayed prices are for ongoing monthly plans. You are never asked to choose a chef level. If you want one dinner, that is catering — we will send you there.',
+    points: [
+      'Service format: prep, dinner, food management, or a full-day chef',
+      'Days each week, how many people eat, and what the chef owns',
+      'Displayed prices are ongoing monthly plans — not a chef level you pick',
+      'One dinner is catering. We send that brief there, not here',
+    ],
   },
   {
     num: '02',
-    title: 'We match a chef — not whoever is free',
-    body: 'The match is the kitchen, the cuisine and how this house actually lives. Before anyone enters, we check identity and right-to-work, run a practical cooking assessment, and take references. A CV is not enough. Private service also requires knowing when to speak and when not to.',
+    title: 'We work out the role — then match a chef to it',
+    body: 'Your answers define the role: how demanding it is, how much time it takes, what it requires. The role determines the chef level. Then we search within that level for cuisine, personality and household fit. Before anyone enters, we check identity and right-to-work, run a practical cooking assessment, and take references. A CV is not enough.',
+    points: [
+      'The role is calculated from how the house actually works',
+      'That role sets the chef level — you do not have to name one',
+      'We then search inside that level for cuisine, personality, household fit',
+      'Identity, right-to-work, a cooking assessment, and references before anyone enters',
+    ],
   },
   {
     num: '03',
     title: 'We build your Food Profile',
     body: 'What you eat, what you do not, allergies, timing, how the children eat, whether you want conversation or quiet service. If it does not help us cook for you, we do not need it. The profile is yours: see it, correct it, or ask for it to be deleted. When the chef changes, the profile is what travels.',
+    points: [
+      'Allergies, timing, children, spice, coffee, guests, service style',
+      'If it does not help us cook for this house, it does not go in',
+      'You can see it, correct it, or ask for it to be deleted',
+      'When a backup chef steps in, this is what they receive',
+    ],
   },
   {
     num: '04',
     title: 'They shop as agreed, cook in your kitchen, leave it handled',
-    body: 'The chef manages the food, the kitchen, the service style and the plate. Groceries are separate and agreed in advance — so a simple healthy house does not subsidise someone eating wagyu.',
+    body: 'The chef manages the food, the kitchen, the service style and the plate. Groceries are separate and agreed in advance: you provide them, or we take over the complete food process — the service gets two more hours for planning and shopping, and the groceries themselves are charged at exact receipts with no markup.',
+    points: [
+      'The chef owns the food, the kitchen, the service style, and the plate',
+      'Groceries are agreed in advance — you provide them, or we take the process over',
+      'If we shop, the extra hours are chef time, and receipts are charged with no markup',
+      'The kitchen is left handled. You are not the closer',
+    ],
   },
   {
     num: '05',
     title: 'We ask how it was. Then we improve',
-    body: 'After about two days we contact you separately from the chef. A rating starts a conversation — not a punishment machine. The longer you stay, the less you should have to explain.',
+    body: 'After about two days we contact you separately from the chef. What you say about the food updates your Food Profile. What you say about the chef updates their verified performance record. A rating starts a conversation — not a punishment machine.',
+    points: [
+      'After about two days we contact you — separately from the chef',
+      'Food comments update the Food Profile',
+      'Chef comments update their verified performance record',
+      'A rating starts a conversation, not a punishment machine',
+    ],
   },
 ]
 
 export const whoDoesWhat = [
   {
     who: 'myCHEF',
+    role: 'The system around the chef',
     items: [
-      'Your household manager — one person, not a network to manage',
-      'The match',
-      'Vetting and right-to-work checks',
-      'The Food Profile',
-      'Scheduling, backup and rotation',
-      'Specialists when you want one',
-      'Quality review',
+      {
+        title: 'Your household manager',
+        detail: 'One named person. Not a switchboard. They hold the Food Profile, the chef relationship, and the week that is not normal.',
+      },
+      {
+        title: 'The role and the match',
+        detail: 'How demanding the job is, how much time it takes, which chef level it needs — then a search inside that level for cuisine and household fit.',
+      },
+      {
+        title: 'Vetting before anyone enters',
+        detail: 'Identity, right-to-work, a practical cooking assessment, references. A CV is not enough.',
+      },
+      {
+        title: 'The Food Profile',
+        detail: 'The record of how this house eats. Built with you, kept current, transferred when a chef changes.',
+      },
+      {
+        title: 'Scheduling, backup, rotation',
+        detail: 'Days, cover, seven-day rotation when the house needs it. The next chef is briefed from the profile, not from you at the door.',
+      },
+      {
+        title: 'Specialists when you want one',
+        detail: 'Keep the weekday chef. Ask for Japanese on Friday. You do not make a second hire.',
+      },
+      {
+        title: 'Quality review',
+        detail: 'What you say about the food updates the profile. What you say about the chef updates their verified record.',
+      },
     ],
   },
   {
     who: 'The chef',
+    role: 'The work in your kitchen',
     items: [
-      'The food',
-      'The kitchen',
-      'The service style',
-      'The plate',
+      {
+        title: 'The food',
+        detail: 'Menus, cooking, timing to this house’s rhythm — from the Food Profile, not from a briefing you have to repeat.',
+      },
+      {
+        title: 'The kitchen',
+        detail: 'Mise en place, cooking, cleanliness related to cooking. Left handled at the end of the service.',
+      },
+      {
+        title: 'The service style',
+        detail: 'Quiet mornings or conversation. Informal or more formal. Whatever the profile says for this house.',
+      },
+      {
+        title: 'The plate',
+        detail: 'What actually lands in front of you — and in front of the children, if they eat earlier.',
+      },
+      {
+        title: 'Shopping, as agreed',
+        detail: 'You provide groceries, or we take the process over. Receipts at cost, no markup, extra hours priced as chef time.',
+      },
+      {
+        title: 'Working from the record',
+        detail: 'Allergies, spice, coffee, guests. The chef should not have to guess, and you should not have to re-explain.',
+      },
     ],
   },
   {
     who: 'You',
+    role: 'The house, not the management',
     items: [
-      'What you want to eat',
-      'When',
-      'Whether the match is right',
+      {
+        title: 'What you want to eat',
+        detail: 'Taste, allergies, what “healthy” means here, how the children eat. That is yours. The rest is the system.',
+      },
+      {
+        title: 'When the house eats',
+        detail: 'Breakfast, children’s supper, dinner, Friday guests. The rhythm is yours to set.',
+      },
+      {
+        title: 'Whether the match is right',
+        detail: 'You see the chef’s verified profile and the price in writing. You approve before anyone starts.',
+      },
+      {
+        title: 'Feedback that actually goes somewhere',
+        detail: 'Tell your household manager. Food comments change the profile. Chef comments change the record.',
+      },
+      {
+        title: 'The weeks that are not normal',
+        detail: 'Travel, guests, a new diet. You tell one person. You do not rebuild the kitchen from scratch.',
+      },
     ],
   },
 ]
 
-export const eveningPackages = [
-  {
-    name: 'Date Night',
-    guests: '2 guests',
-    price: '1,200',
-    detail: 'Bespoke 3-course menu, chef, table service, cleanup.',
-    link: '/date-night-package-dubai',
-    image: '/images/private-chef-dubai-pkg-date-night.webp',
-    imageAlt: 'Intimate candlelit dinner for two with a private chef working in the open kitchen behind them',
-  },
-  {
-    name: 'Family Feast',
-    guests: '6–8 guests',
-    price: '2,400',
-    detail: 'Sharing-style menu, chef and service support.',
-    link: '/family-feast-package-dubai',
-    image: '/images/private-chef-dubai-pkg-family.webp',
-    imageAlt: 'Private chef placing a large sharing dish at a family table in a Dubai villa',
-  },
-  {
-    name: 'Birthday Celebration',
-    guests: '8–12 guests',
-    price: '3,600',
-    detail: 'Celebration menu and service staff.',
-    link: '/birthday-catering-package-dubai',
-    image: '/images/private-chef-dubai-pkg-birthday.webp',
-    imageAlt: 'Adult birthday dinner in a Dubai villa with a small elegant cake and a private chef at the table',
-  },
-  {
-    name: 'Corporate Dinner',
-    guests: '10–15 guests',
-    price: '4,500',
-    detail: 'Multi-course or buffet, service staff.',
-    link: '/corporate-dinner-package-dubai',
-    image: '/images/private-chef-dubai-pkg-corporate.webp',
-    imageAlt: 'Small executive dinner around a residential table with a private chef serving',
-  },
-  {
-    name: 'The Full Experience',
-    guests: '6–10 guests',
-    price: '5,500',
-    detail: 'Tasting menu, wine-pairing consultation, full service team.',
-    link: '/luxury-dining-experiences',
-    image: '/images/private-chef-dubai-pkg-full.webp',
-    imageAlt: 'Private chef presenting a tasting-menu course to guests in a Dubai villa',
-  },
-]
-
-export const perPersonBands = [
-  { guests: '2 guests', band: 'AED 950–1,300' },
-  { guests: '4 guests', band: 'AED 800–1,100' },
-  { guests: '6 guests', band: 'AED 750–1,000' },
-  { guests: '10 guests', band: 'AED 700–950' },
-  { guests: '20+', band: 'From AED 600' },
-]
+/* ---------- Chef quality — Professional, Senior, Specialist (+ Lead Chef) ---------- */
 
 export const chefLevels = [
   {
+    name: 'Professional Chef',
+    tag: 'The standard',
+    useCase: 'Strong everyday household cooking',
+    body: 'Suitable for regular family meals, meal preparation and straightforward international cuisines. Displayed prices start here — and Professional is a pass, not a consolation prize: a chef below our standard is not placed at all.',
+  },
+  {
     name: 'Senior Chef',
-    monthlyFull: '30,000',
-    useCase: 'Excellent everyday household cooking',
-    meaning: 'Strong experienced professional for excellent everyday household cooking',
-    body: 'An experienced professional chef for excellent everyday household cooking. Think breakfast, healthy lunches, family dinners, meal preparation and the food you actually want to eat every day. This is our starting level. It does not mean junior.',
+    tag: 'More experienced',
+    useCase: 'Demanding households and broader requirements',
+    body: 'Better for demanding households, broader cuisine requirements, entertaining and more technical cooking. Recommended when the role calls for it — and you see the price difference before you book.',
   },
   {
-    name: 'Head Chef',
-    monthlyFull: '40,000',
-    useCase: 'Kitchen leadership, menus and entertaining',
-    meaning: 'Has led professional kitchens. Stronger technique, menu planning and entertaining',
-    body: 'A chef with substantial professional experience who has progressed into kitchen leadership. Better suited when the household expects broader menu development, more advanced technique, multiple cuisines and regular entertaining.',
-  },
-  {
-    name: 'Executive Chef',
-    monthlyFull: '55,000',
-    useCase: 'Demanding households, nutrition, frequent guests',
-    meaning: 'Senior kitchen leader for demanding households, nutrition, multiple cuisines and regular entertaining',
-    body: 'A senior culinary leader. Suited to demanding households where food requires more planning: nutrition requirements, sophisticated menus, frequent guests, multiple preferences or higher culinary expectations. This is a myCHEF classification, not a claim that the chef holds that title in a restaurant brigade.',
-  },
-  {
-    name: 'Master Chef',
-    monthlyFull: '75,000',
-    useCase: 'Exceptional technique and sophisticated requirements',
-    meaning: 'Exceptional culinary background and demonstrated performance for sophisticated requirements',
-    body: 'One of the strongest culinary profiles in the myCHEF network — for exceptional technique, significant experience, advanced specialisation or restaurant-level private dining alongside household service. Master Chef is a myCHEF classification. It is not an externally awarded qualification, a competition title, or membership of a professional organisation.',
-  },
-  {
-    name: 'Signature Chef',
-    monthlyFull: '100,000',
-    useCase: 'The highest myCHEF classification',
-    meaning: 'Exceptional background, specialisation, discretion and performance',
-    body: 'Our highest classification. Reserved for exceptional chefs whose background, performance, specialisation and private-service ability place them at the top of the myCHEF network. If you are not sure you need it, you probably do not.',
+    name: 'Specialist Chefs',
+    tag: 'By cuisine or craft',
+    useCase: 'A particular cuisine or skill, for the occasion',
+    body: 'Sushi, pastry, Japanese, nutrition-focused cooking, fine dining and particular regional cuisines. Booked alongside your regular chef for the meal that needs one — quoted per occasion, so you never pay specialist rates for Tuesday’s family dinner.',
   },
 ] as const
 
+export const leadChef = {
+  eyebrow: 'By arrangement',
+  name: 'Lead Chef',
+  useCase: 'When the job requires leadership',
+  body: 'Private events, complex dinners and larger groups — typically 50 guests and up — where a Lead Chef runs a full team of chefs and assistants, the menu is designed for the occasion, and everything is included in one event price. This is for the occasions where perfection is the point.',
+  cta: 'We do not publish a price for this. Reach out for access.',
+}
+
 export const chefLevelIntro = [
-  'Not every household needs the most senior chef in the network.',
-  'myCHEF classifies chefs by professional background, leadership experience, technical ability, specialisation and demonstrated performance inside our system. These are myCHEF chef levels — not restaurant job titles, and not five increasingly expensive packages. “Head Chef” and “Executive Chef” have established meanings in a professional kitchen. On this page they describe a myCHEF match, not a brigade rank we are claiming for the chef’s last restaurant.',
+  'We used to publish a five-step chef hierarchy. We simplified it — because choosing a chef should not require studying a ladder. There are now two household quality levels, Professional and Senior, plus Specialists for particular cuisines and a Lead Chef for large events. That is the whole system.',
+  'None of these are restaurant titles. A chef’s profile shows both: their previous professional title, and the myCHEF quality they earned through our assessment and verified client performance. “Previous title: Executive Chef. myCHEF quality: Senior Chef.” One is history. The other is evidence.',
 ]
+
+export const restaurantTitle = {
+  eyebrow: 'Why restaurant rank is not enough',
+  title: 'An Executive Chef is not automatically the best private chef for your house',
+  paras: [
+    'An Executive Chef may be exceptional at running a professional kitchen — and accustomed to a brigade of assistants, established mise en place, specific suppliers and a fully equipped environment. Take all of that away and you are looking at a different job.',
+    'A Senior Chef de Partie can sometimes be the better household match: more hands-on, more flexible, more comfortable adapting to an unfamiliar private kitchen and a family’s actual rhythm.',
+    'So we do not rank anyone from a job title. Every chef goes through the same assessment, and every level is earned inside our system. That is the difference between a classification and a claim.',
+  ],
+}
 
 export const higherNotBetter = {
   title: 'Higher does not always mean better for you',
-  body: 'If you want healthy family meals five days a week, a Senior Chef who understands your family perfectly may be a much better match than a Signature Chef. If you want an extraordinary Japanese dinner on Saturday, we do not need to replace your everyday chef. We add the right specialist.',
+  body: 'If you want healthy family meals five days a week, a Professional Chef who understands your family perfectly may be a much better match than the most decorated chef in the network. If you want an extraordinary Japanese dinner on Saturday, we do not need to replace your everyday chef. We add the right specialist.',
 }
 
 export const levelVsSpecialty = {
   title: 'Level and specialty are different',
-  level: 'Level = experience, capability and demonstrated performance inside the myCHEF system.',
+  level: 'Level = verified capability and performance inside the myCHEF system.',
   specialty: 'Specialty = what that chef is particularly good at.',
-  body: 'Japanese is not a level. Italian is not a level. Nutrition is not a level. A Senior Chef can be an exceptional Indian specialist. A Master Chef can specialise in Japanese cuisine. An Executive Chef can be particularly strong in nutrition and family food. We match both dimensions: the right level + the right specialty + the right personality + the right household.',
-  close: 'You do not need to understand the entire hierarchy before booking. Tell us how you live, what you eat and what you expect. We recommend where to start. If your needs change, the chef can change with them.',
+  body: 'Japanese is not a level. Italian is not a level. Nutrition is not a level. We match both dimensions: the right level + the right specialty + the right personality + the right household.',
+  close: 'You do not need to understand the system before booking. Tell us how you live, what you eat and what you expect. We work out the role and recommend the level. If your needs change, the chef can change with them.',
+}
+
+/* ---------- How a chef earns their level ---------- */
+
+export const scoring = {
+  eyebrow: 'How a chef earns their level',
+  title: 'A score out of 100 — half built before your kitchen, half built inside real ones',
+  intro: [
+    'Every chef in the network carries a score out of 100, and the score decides the level. It has two parts.',
+    'The first part is what we verify ourselves, before a chef is placed anywhere: professional background, a practical culinary assessment, capability in a private household, professional standards, and specialist skills. This carries the larger share of the score.',
+    'The second part cannot be assessed in advance, because it only exists in real homes: verified client performance. Food quality week after week. Understanding the household. Reliability. Menu variety. Cleanliness and organisation. Shopping and cost management. Whether the household would recommend them.',
+  ],
+  verified: {
+    label: 'myCHEF Verified Quality',
+    sub: 'Assessed by us, before placement',
+    items: [
+      'Professional background',
+      'Practical culinary assessment',
+      'Private household capability',
+      'Professional standards',
+      'Specialist skills',
+    ],
+  },
+  performance: {
+    label: 'Verified Client Performance',
+    sub: 'Earned in real households, from completed placements only',
+    items: [
+      'Food quality',
+      'Understanding the household',
+      'Reliability and professionalism',
+      'Menu variety and adaptability',
+      'Cleanliness and organisation',
+      'Shopping and cost management',
+      'Household fit and overall recommendation',
+    ],
+  },
+  weightsNote:
+    'The exact point weightings and level thresholds live in our assessment framework and are applied identically to every chef. The structure is public; the pass mark is real. A chef below it is not approved for independent myCHEF placement at all.',
+  provisional: {
+    title: 'A CV cannot create the highest level',
+    paras: [
+      'A chef can arrive with an exceptional CV. That is evidence about their background — not about how they perform inside your home. That is why a large share of the mature score can only come from verified client performance.',
+      'So a new chef starts Provisional. A Provisional Senior Chef means the verified background supports Senior — and the household half of the score is still being earned. We will not claim a score that does not exist yet.',
+      'After enough real household history: Confirmed. With strong confirmed performance over time, a Professional Chef becomes eligible for Senior review.',
+    ],
+  },
+  progression: {
+    title: 'Levels move — in both directions',
+    body: 'Chefs progress through verified experience, reassessment, client performance, new skills and successful placements: Professional → Senior, and specialist accreditations on top. A chef can also be placed under review. The classification is alive, not a marketing label assigned forever.',
+  },
+  criticalFailures: {
+    title: 'The average never overrides safety',
+    body: 'A food-safety failure, a serious allergen-handling failure, false documentation or serious professional misconduct puts a chef on hold immediately — regardless of their overall score. The score is not a shield, and it cannot be gamed past safety.',
+  },
+}
+
+export const evidenceChain = {
+  eyebrow: 'Claimed is not the same as verified',
+  title: 'What a chef says — and what we have checked',
+  intro:
+    'Every claim on a chef’s profile sits somewhere on this chain. A chef with a spectacular CV and thin verification should not look identical to a chef whose history we have actually validated — so we track the difference.',
+  steps: [
+    'CV supplied',
+    'Employment checked',
+    'References contacted',
+    'Certificates checked',
+    'Practical assessment completed',
+    'myCHEF household performance recorded',
+  ],
+  closer:
+    'The further down the chain, the more the profile is evidence rather than autobiography.',
+}
+
+export const exampleProfiles = {
+  eyebrow: 'What a chef profile looks like',
+  note: 'Both profiles are demonstrations of the format — not real chefs, and not published scores.',
+  established: {
+    tag: 'Confirmed',
+    level: 'Senior Chef',
+    fields: [
+      { k: 'Overall score', v: '86 / 100' },
+      { k: 'Verified quality', v: 'Assessment complete' },
+      { k: 'Client performance', v: 'From verified myCHEF placements' },
+      { k: 'Professional experience', v: '12 years' },
+      { k: 'Private household experience', v: '4 years' },
+      { k: 'Specialties', v: 'Mediterranean · Japanese · Healthy cooking' },
+    ],
+    body: 'A confirmed profile: the assessment is complete, and the performance half of the score comes from completed placements in real households. When we recommend this chef, we can show you why.',
+  },
+  provisional: {
+    tag: 'Provisional',
+    level: 'Professional Chef',
+    fields: [
+      { k: 'Verified quality', v: 'Assessment complete' },
+      { k: 'Client performance', v: 'Not yet established' },
+      { k: 'Professional experience', v: '9 years' },
+      { k: 'Private household experience', v: 'New to private service' },
+      { k: 'Specialties', v: 'Italian · Family cooking' },
+    ],
+    body: 'An honest new profile: strong verified background, no household history with us yet — so no invented performance score. Provisional chefs start on supervised or smaller bookings, and their level is confirmed by real houses, not by us being optimistic.',
+  },
+}
+
+export const matchingSteps = [
+  'You describe the household',
+  'We calculate the role requirements',
+  'The role determines the chef level',
+  'We search within that level for cuisine and personality fit',
+  'You see the chef’s verified profile',
+  'You see exactly what the service costs',
+  'You approve before anything starts',
+] as const
+
+export const roleQuestions = {
+  eyebrow: 'Tell us about the job',
+  title: 'We ask about the role — never “what level would you like?”',
+  intro:
+    'You should not have to know what level chef your household needs. That is our job. What we need from you is how the house actually works:',
+  groups: [
+    {
+      label: 'Time',
+      items: ['How long you need the service', 'Days per week', 'Hours per day', 'Flexible or fixed meal times'],
+    },
+    {
+      label: 'The household',
+      items: ['How many people', 'Which meals', 'Children', 'Dietary and allergy requirements', 'Entertaining and events'],
+    },
+    {
+      label: 'The kitchen',
+      items: ['Kitchen facilities', 'Other household staff', 'Live-in or live-out', 'Travel with the household'],
+    },
+    {
+      label: 'The work',
+      items: ['Who handles groceries', 'Menu planning', 'Pantry management', 'Serving', 'Cleaning related to cooking'],
+    },
+    {
+      label: 'The standard',
+      items: ['The cooking standard you expect', 'Cuisines you want', 'What “healthy” means in this house'],
+    },
+  ],
+  closer:
+    'From those answers we calculate the role — and the role tells us the level, the hours and the team. Then you see the recommendation and the reasoning, not just a number.',
+}
+
+/* ---------- Pricing: the logic, not a menu ---------- */
+
+export const priceFactors = {
+  eyebrow: 'What actually determines your price',
+  title: 'Five things build the price. Nothing else does.',
+  factors: [
+    { label: 'Service format', body: 'Prep, dinner, food management or full-day — the chef’s working time, defined before we start.' },
+    { label: 'Days per week', body: 'One to seven. Seven-day households use chef rotation when required.' },
+    { label: 'Chef quality', body: 'Displayed prices are Professional Chef. If the role needs a Senior Chef, you see the difference before you book — we recommend, you decide.' },
+    { label: 'Plan length', body: 'Displayed prices are ongoing monthly plans. Under one month runs at 1.5× the ongoing rate.' },
+    { label: 'Transport', body: 'A published per-visit zone rate: typical taxi fare + 50% for the chef’s time in transit. The table is on this page.' },
+  ],
+  formula: 'Service format × days per week + zone transport, on a monthly plan = your price.',
+  groceriesLine: 'Groceries are on top, at actual receipts — never marked up. Take over the whole food process and Daily Prep becomes five hours: the chef’s additional time is what you pay for.',
+  transition:
+    'The calculator above shows the real number at Professional Chef level. Whatever you choose, the full price arrives in writing — every factor itemised — before you commit to anything.',
+}
+
+export const workingHours = {
+  eyebrow: 'Working time',
+  title: 'Your chef’s time is defined before we start',
+  intro: [
+    '“Two meals a day” is not a price. Breakfast at 08:00 and lunch at 12:00 is one job. Breakfast at 07:00 and dinner at 20:00 is a completely different one — same two meals, very different day. That is why we price working time, not meal counts.',
+    'Before the first service, your agreement defines the time — so “full day” never means one thing to you and another to the chef:',
+  ],
+  items: [
+    'How many hours each service day includes',
+    'What counts as working time',
+    'When we handle the food, Daily Prep becomes a five-hour service — the two extra hours are the planning and shopping, priced as chef time',
+    'What a split shift means, when mornings and evenings are far apart',
+    'Additional hours beyond your format: AED 150 per hour — agreed in advance, never assumed',
+    'How late service works',
+    'How seven-day coverage rotates between chefs',
+  ],
+  closer: 'No client should discover after booking what “full day” means. You will not have to.',
+}
+
+export const groceryModes = {
+  eyebrow: 'Groceries at cost. Always.',
+  title: 'We make money from providing the service, not from marking up your tomatoes',
+  intro:
+    'Normally you provide the groceries and the chef has three hours for preparation and cooking. If you want us to take over the complete food process, the service becomes five hours. Those additional two hours cover meal planning, shopping, ingredient selection and bringing everything to your home. The groceries themselves are charged at the exact cost. We add no markup.',
+  modes: [
+    {
+      label: 'You handle the groceries',
+      body: 'Tell us what you want. We help establish your Food Profile and meal direction — and the ingredients are there when the chef arrives, so the chef’s time is focused on preparation and cooking.',
+    },
+    {
+      label: 'We handle the food',
+      body: 'The chef who cooks is the chef who shops: they plan the meals, build the list, buy the groceries in person or online, select the ingredients and check quality and freshness before cooking with them. That is one of the real benefits of the five-hour version — the person choosing your fish is the person cooking it.',
+    },
+  ],
+  costs: [
+    { k: 'The principle', v: 'The groceries are not marked up. The chef’s additional time is what you pay for.' },
+    { k: 'The ingredients', v: 'Actual receipts. No markup, ever.' },
+    { k: 'How they are paid', v: 'You shop yourself, authorise the chef to pay with your card or household account, or we order online for you.' },
+  ],
+  closer: 'Grocery responsibility is a choice, not a chef level. Agreed in advance either way — so a simple healthy house does not subsidise someone eating wagyu.',
+  paymentProcess: {
+    label: 'How payment works in practice',
+    steps: [
+      'We agree the arrangement with you in writing before the first shop — which supermarkets, roughly what budget, who pays how.',
+      'Most clients register a card or sign a short authorisation for the household account; some prefer to pre-order online themselves.',
+      'The chef shops against the agreed menu and keeps every receipt.',
+      'The receipts come with your monthly invoice — you see exactly what was bought, at the shop’s own prices.',
+    ],
+  },
+}
+
+export const transportZones = {
+  eyebrow: 'Transport, published',
+  title: 'Getting the chef to your door — the formula is public',
+  intro:
+    'Transport is charged per service visit, and we would rather show you how the number is made than hide it in the price: we take the typical booked taxi fare to the middle of your zone, add 50% for the chef’s time spent in transit, and round to the nearest AED 5. That is the whole formula.',
+  zones: [
+    {
+      zone: 'Zone 1 · Central',
+      areas: 'Downtown Dubai, DIFC, Business Bay, Jumeirah',
+      taxi: '~AED 25–30',
+      fee: 40,
+    },
+    {
+      zone: 'Zone 2 · Mid',
+      areas: 'Umm Suqeim, Al Barsha, Dubai Hills',
+      taxi: '~AED 40–45',
+      fee: 65,
+    },
+    {
+      zone: 'Zone 3 · Marina & Palm',
+      areas: 'Dubai Marina, JBR, JLT, Bluewaters, Palm Jumeirah, Emirates Hills, JVC',
+      taxi: '~AED 60–70',
+      fee: 95,
+    },
+    {
+      zone: 'Zone 4 · Outer',
+      areas: 'Arabian Ranches and beyond',
+      taxi: '~AED 80–90',
+      fee: 130,
+    },
+  ],
+  notes: [
+    'The calculator above already includes your zone’s transport in the displayed price — what you see is what the visit costs, chef’s travel included.',
+    'Charged per service visit, on your monthly invoice — no surprises on the day.',
+    'Taxi estimates follow RTA rates, which adjust with fuel prices; we review the zones when the meter changes, not per trip.',
+    'If the chef also shops for you on the way, transport to the shops is at actual cost on receipts.',
+  ],
+}
+
+export const teamWorkload = {
+  eyebrow: 'The team',
+  title: 'We build the team around the workload',
+  paras: [
+    'A chef preparing a normal dinner for two does not need an assistant, and you should not pay for one. The thresholds are published: one chef handles up to ten people alone. From eleven, an assistant joins — roughly one per twelve guests — each at 25% of the service price.',
+    'Above 49 people it stops being household service and becomes a Lead Chef event: a full team, a designed menu, one event price. The team is part of the calculator — itemised in your price, not hidden in it.',
+  ],
+}
+
+export const whereMoneyGoes = {
+  eyebrow: 'Where your money goes',
+  title: 'The difference between a chef’s pay and your price is not unexplained markup',
+  intro: 'Your service price carries the whole system, and we would rather show the structure than have you guess:',
+  items: [
+    'Chef compensation',
+    'An assistant, where the workload requires one',
+    'Assessment, verification and the chef-level system',
+    'Matching and household management',
+    'Scheduling and the backup / replacement system',
+    'Administration',
+    'Transport at the published zone rate',
+    'Groceries at cost — no margin on food, ever; when we shop, you pay chef time, not a fee',
+  ],
 }
 
 export const lifeStages = [
@@ -621,8 +1181,8 @@ export const doPromise = [
   'We promise one contact once you are an ongoing client.',
   'We promise the Food Profile travels when the chef changes.',
   'We promise to tell you when an equivalent chef is not available — then give you the options.',
-  'We promise starting prices on this page, before you pay.',
-  'We promise a system for dealing with reality when it happens.',
+  'We promise the full price and the logic behind it, in writing, before you commit.',
+  'We promise no chef score is invented — performance comes from completed placements only.',
 ]
 
 export const proofItems = [
@@ -635,8 +1195,8 @@ export const proofItems = [
     body: 'Identity and right-to-work. A practical cooking assessment. References. Food-hygiene awareness. A trial period. Then ongoing review. The process is public — read how we vet our chefs.',
   },
   {
-    label: 'Chefs from professional kitchens',
-    body: 'Typically restaurant-trained, then assessed for private service. A CV is not enough. Knowing when to speak and when not to is part of the match. A standard household service includes one chef and one assistant.',
+    label: 'Levels earned, not claimed',
+    body: 'Chefs from professional kitchens, then assessed for private service. A restaurant title is history; a myCHEF level is evidence. New chefs start Provisional until real households confirm them.',
   },
   {
     label: 'A Food Profile that travels',
@@ -647,8 +1207,8 @@ export const proofItems = [
     body: 'Once you are an ongoing client, one person is responsible for your service. Specialists, backups and Saturday guests go through that person — not through you becoming HR.',
   },
   {
-    label: 'No invented reviews',
-    body: 'We do not publish testimonials we did not receive. If you have used the service, leave a review. That is the only kind we want on the site.',
+    label: 'No invented reviews — or scores',
+    body: 'We do not publish testimonials we did not receive, and a chef’s performance score comes only from completed myCHEF placements. If you have used the service, leave a review. That is the only kind we want.',
   },
 ]
 
@@ -675,7 +1235,7 @@ export const vettingSteps = [
   },
   {
     title: 'Ongoing review',
-    body: 'Feedback after service. Punctuality and presentation watched. A pattern of problems gets a conversation, a new match, or a chef who does not come back.',
+    body: 'Feedback after every placement feeds the chef’s performance score. Punctuality and presentation watched. A pattern of problems gets a conversation, a new match, or a chef who does not come back.',
   },
 ]
 
@@ -733,15 +1293,15 @@ export const whenThingsChange = [
   },
   {
     title: 'Friday wants Japanese',
-    body: 'Keep the weekday chef. Ask your contact for a specialist. You do not make a second hire, and you do not need a Signature Chef every day because you want one extraordinary dinner.',
+    body: 'Keep the weekday chef. Ask your contact for a specialist. You do not make a second hire, and you do not need the most senior chef in the network every day because you want one extraordinary dinner.',
   },
   {
     title: 'Friends on Saturday',
-    body: 'We do not pretend your normal chef and assistant should suddenly handle thirty people. We build the team and give you one event price — not 25 small charges buried in the month.',
+    body: 'We do not pretend your normal weekday setup should suddenly handle thirty people. We build the team for the evening and give you one event price — not 25 small charges buried in the month.',
   },
   {
     title: 'Seven-day coverage',
-    body: 'Chefs are professionals, not machines. Seven-day service uses rotation. Quality comes before squeezing impossible hours out of one person. Late service until 2:00 can be arranged — it should be arranged, not assumed.',
+    body: 'Chefs are professionals, not machines. Seven-day service uses rotation. Quality comes before squeezing impossible hours out of one person. Late service can be arranged — it should be arranged, not assumed.',
   },
   {
     title: 'The house changes',
@@ -753,38 +1313,13 @@ export const whenThingsChange = [
   },
 ]
 
-export type ChefLevelName = (typeof chefLevels)[number]['name']
-export type MealPlan = '1' | '2' | 'full'
-
-/** Effective daily starting prices (AED) on an ongoing ~20-day monthly plan. Weekly = ×5. Monthly ≈ ×20. Not isolated one-day tickets. */
-export const dailyRates: Record<ChefLevelName, Record<MealPlan, number>> = {
-  'Senior Chef': { '1': 900, '2': 1200, full: 1500 },
-  'Head Chef': { '1': 1200, '2': 1600, full: 2000 },
-  'Executive Chef': { '1': 1650, '2': 2200, full: 2750 },
-  'Master Chef': { '1': 2250, '2': 3000, full: 3750 },
-  'Signature Chef': { '1': 3000, '2': 4000, full: 5000 },
-}
-
 export const householdIncludes = [
-  '1 private chef + 1 assistant',
+  'A team built around the workload — one chef where one chef is enough, an assistant where the work requires one',
   'myCHEF management and a dedicated client contact',
   'Food Profile, quality monitoring and regular feedback',
   'Scheduling, backup and replacement coordination',
   'Chef rotation and access to the wider network',
   'Right-to-work checks and service administration',
-]
-
-export const upgrades = [
-  { to: 'Head Chef', price: '1,000' },
-  { to: 'Executive Chef', price: '2,000' },
-  { to: 'Master Chef', price: '3,500' },
-  { to: 'Signature Chef', price: '5,000' },
-]
-
-export const extraTeam = [
-  { role: 'Additional chef', price: '1,500' },
-  { role: 'Cuisine specialist', price: '2,500' },
-  { role: 'Additional assistant', price: '750' },
 ]
 
 export const profileQuestions = [
@@ -818,20 +1353,40 @@ export const locations = [
 
 export const faqs = [
   {
-    q: 'Can I book a private chef for one day?',
-    a: 'Not as a new household. New clients start at five service days. Returning clients, once the Food Profile exists, can book from two service days. A single dinner is catering — use the catering pages.',
+    q: 'What does a private chef in Dubai cost?',
+    a: 'From AED 675 per service at Professional Chef level — one weekly three-hour Daily Prep session is AED 2,700 a month. Dinner Service is from AED 825 and a Full-Day Chef from AED 1,575 per service. Add grocery management to Daily Prep and it becomes a five-hour service at AED 975 — the extra is the chef’s time, never a markup on the food. Monthly prices are the per-service rate × days per week × four weeks, plus a published per-visit transport zone rate (AED 40–130). If the role needs a Senior Chef, you see the difference before you book.',
   },
   {
-    q: 'Is AED 900 a day a one-off booking?',
-    a: 'No. AED 900+ is the effective daily starting rate on an ongoing Senior Chef household plan (about 20 service days a month). New households start at five service days. Returning clients from two. A single dinner is catering.',
+    q: 'Can I book a private chef for less than a month?',
+    a: 'Yes — at 1.5× the ongoing-plan rate. Displayed prices are for ongoing household plans of at least one month, because most of our work happens at the beginning: chef matching, household setup, Food Profile creation, planning and calibration. A single dinner is catering — use the catering pages.',
   },
   {
-    q: 'What do Senior Chef, Head Chef and Executive Chef mean?',
-    a: 'They are myCHEF chef levels — our classification of background, leadership, technique, specialisation and demonstrated performance — not restaurant job titles and not an external qualification. Master Chef is a myCHEF label, not a competition title or membership. Senior Chef is the starting level for excellent everyday cooking; it does not mean junior. Higher does not always mean better for your house. Tell us how you live and we recommend where to start.',
+    q: 'What are the myCHEF chef quality levels?',
+    a: 'We keep it simple. Professional Chef: strong everyday household cooking — regular family meals, meal preparation, straightforward international cuisines; displayed prices start here. Senior Chef: more experienced — demanding households, broader cuisines, entertaining, more technical cooking. Specialist Chefs: sushi, pastry, Japanese, nutrition-focused, fine dining and particular regional cuisines, booked for the occasion. Lead Chef: for private events and larger groups (typically 50+ guests) with a full team and a designed menu — by arrangement, no published price. Quality is earned through our assessment and verified client performance, not claimed from a restaurant title.',
+  },
+  {
+    q: 'How does a chef earn their level?',
+    a: 'Every chef carries a score out of 100 with two parts: what we verify ourselves before placement (background, practical assessment, household capability, standards, specialist skills — the larger share) and verified client performance from completed myCHEF placements. Each level corresponds to a score band, and below our pass mark a chef is not placed at all. New chefs start Provisional until real households confirm them.',
+  },
+  {
+    q: 'Why don’t you price by meals per day?',
+    a: 'Because meal counts hide the real job. Breakfast at 08:00 and lunch at 12:00 is a five-hour day; breakfast at 07:00 and dinner at 20:00 is a completely different one — both are “two meals.” So you choose a service format defined by working time: Daily Prep (up to 3 hours — 5 with grocery management), Dinner Service (up to 4) or Full-Day Chef (up to 9).',
   },
   {
     q: 'What is the minimum?',
-    a: 'Five service days for a new household. Two service days once we already know the house. The typical week is five days. The typical month is about 20 service days — that is the plan the daily rate is based on.',
+    a: 'One month at displayed rates, from one day per week. Anything shorter runs at 1.5× — see the question above. A single dinner is catering.',
+  },
+  {
+    q: 'Who buys the groceries?',
+    a: 'Your choice. Normally you provide the groceries and the chef’s three hours go into preparation and cooking. If you want us to take over the complete food process, Daily Prep becomes a five-hour service: the additional two hours cover meal planning, shopping, ingredient selection and bringing everything to your home. The groceries themselves are charged at the exact receipts — we add no markup; the chef’s additional time is what you pay for. Payment: you shop yourself, authorise the chef to pay with your card or household account, or we order online.',
+  },
+  {
+    q: 'What does transport cost?',
+    a: 'A published per-visit zone rate, built from a public formula: the typical booked taxi fare to the middle of your zone, plus 50% for the chef’s time in transit, rounded to the nearest AED 5. Zone 1 (Downtown, DIFC, Business Bay, Jumeirah) AED 40 · Zone 2 (Umm Suqeim, Al Barsha, Dubai Hills) AED 65 · Zone 3 (Marina, JBR, JLT, Bluewaters, Palm, Emirates Hills, JVC) AED 95 · Zone 4 (Arabian Ranches and beyond) AED 130. It appears on your monthly invoice, not as a surprise on the day.',
+  },
+  {
+    q: 'What counts as working time?',
+    a: 'It is defined in your agreement before the first service: the hours each service format includes, that planning and shopping use those booked hours when we handle the food (no fee is added for them), what a split shift means, and how additional hours are agreed and charged. “Full day” should never mean one thing to you and another to the chef.',
   },
   {
     q: 'Do you employ the chef, or do I?',
@@ -842,20 +1397,28 @@ export const faqs = [
     a: 'The next chef is not starting from zero — the Food Profile travels. If an equivalent chef is not available, we tell you, then we give you the options.',
   },
   {
-    q: 'Are groceries included?',
-    a: 'No. On a household plan groceries are agreed in advance, so a simple healthy house does not subsidise someone eating wagyu. 5% VAT is shown separately.',
-  },
-  {
     q: 'Do you cook halal, and can you handle allergies?',
     a: 'Halal sourcing is the default. Allergies are part of onboarding. We do not claim an allergic reaction can never happen. If a request is professionally unsafe, safety comes before preference. See [halal catering](/halal-catering-dubai) and [allergy-safe catering](/allergy-safe-catering-dubai).',
   },
   {
-    q: 'How far in advance should I book?',
-    a: 'A new household starts at five service days. Once we know you, two days is enough to run the house. During business hours we typically reply within 15 minutes.',
+    q: 'How many people can one chef cook for?',
+    a: 'Up to ten, alone. From eleven we add an assistant — roughly one per twelve guests — each at 25% of the service price, itemised in the calculator. Above 49 people it becomes a Lead Chef event: full team, designed menu, one event price, arranged directly.',
+  },
+  {
+    q: 'Do allergies or special diets change the price?',
+    a: 'No. Dietary requirements change the match, not the price — we search for the chef with the right skills, and allergies are handled as part of onboarding. Price is built from time, days, people and chef quality. Nothing else.',
+  },
+  {
+    q: 'Is VAT included in the prices?',
+    a: 'Prices on this page are shown before VAT. 5% VAT is shown separately on your invoice — like everything else here, no number is hidden inside another one.',
+  },
+  {
+    q: 'Can I pause the plan when I travel?',
+    a: 'Yes. Pause the standing rhythm while you are away and restart it without rebuilding the profile — the Food Profile and your chef relationship are still there when you come back. That is one of the reasons a system is different from a person you found once.',
   },
   {
     q: 'How do I start?',
-    a: 'Tell us how the house eats, which days, and when you want to begin. New households start at five days. WhatsApp or the inquiry form. You should understand the starting price before you pay.',
+    a: 'Choose a service format and how many days a week, tell us how the house eats, and when you want to begin. We calculate the role, recommend the chef level, and put the full price in writing before anything starts. WhatsApp or the inquiry form. During business hours we typically reply within 15 minutes.',
   },
 ]
 
@@ -879,7 +1442,3 @@ export const relatedServices = [
     link: '/how-we-vet-our-chefs',
   },
 ]
-
-export function formatAed(n: number): string {
-  return `AED ${n.toLocaleString('en-US')}+`
-}

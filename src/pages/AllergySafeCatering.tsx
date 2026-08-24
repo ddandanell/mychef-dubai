@@ -17,6 +17,8 @@ import TrustSignalStrip from '../components/TrustSignalStrip'
 import { breadcrumbSchema, faqPageSchema, serviceSchema } from '../utils/schema'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to discuss allergy-safe catering (via mychef.ae/allergy-safe-catering-dubai)')
@@ -226,9 +228,7 @@ export default function AllergySafeCatering() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            ALLERGEN-AWARE PRIVATE DINING
-          </span>
+          <SectionLabel align="center">ALLERGEN-AWARE PRIVATE DINING</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             Safe Menus Every Guest Can Enjoy
           </h2>
@@ -247,9 +247,7 @@ export default function AllergySafeCatering() {
       <section className="asc-protocols bg-cream section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              OUR PROTOCOL
-            </span>
+            <SectionLabel align="center">OUR PROTOCOL</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               Four Steps to Safer Catering
             </h2>
@@ -274,9 +272,7 @@ export default function AllergySafeCatering() {
       <section className="bg-black section-padding">
         <div className="container-custom max-w-[1000px]">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WHAT SETS US APART
-            </span>
+            <SectionLabel align="center" tone="dark">WHAT SETS US APART</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Our Allergy-Safe Commitments
             </h2>

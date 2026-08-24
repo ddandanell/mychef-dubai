@@ -18,6 +18,8 @@ import {
 import SEO from '../../components/SEO'
 import TrustSignalStrip from '../../components/TrustSignalStrip'
 import FaqAccordion from '../../components/FaqAccordion'
+import { SectionLabel } from '../../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I read your Dubai Food Trends Report 2026 and would like a custom catering proposal.')
@@ -267,9 +269,7 @@ export default function DubaiFoodTrendsReport2026() {
       {/* ═══════════════ Introduction ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            What We Are Watching in 2026
-          </span>
+          <SectionLabel align="center">What We Are Watching in 2026</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             Catering in Dubai Is Becoming More Personal, More Local, and More Inclusive
           </h2>
@@ -286,9 +286,7 @@ export default function DubaiFoodTrendsReport2026() {
       <section className="bg-cream section-padding">
         <div className="container-custom max-w-[1100px]">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              Six Trends Shaping the Year
-            </span>
+            <SectionLabel align="center">Six Trends Shaping the Year</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               What Hosts Are Asking For in 2026
             </h2>
@@ -319,9 +317,7 @@ export default function DubaiFoodTrendsReport2026() {
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[1100px]">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              From Trend to Table
-            </span>
+            <SectionLabel align="center">From Trend to Table</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               What These Trends Mean for Different Events
             </h2>
@@ -342,9 +338,7 @@ export default function DubaiFoodTrendsReport2026() {
       <section className="bg-black section-padding">
         <div className="container-custom max-w-[900px]">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              Action Steps
-            </span>
+            <SectionLabel align="center" tone="dark">Action Steps</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               How to Use This Report for Your Event
             </h2>
@@ -373,9 +367,7 @@ export default function DubaiFoodTrendsReport2026() {
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[1100px]">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              Related Resources
-            </span>
+            <SectionLabel align="center">Related Resources</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               Keep Reading
             </h2>
@@ -403,9 +395,7 @@ export default function DubaiFoodTrendsReport2026() {
       <section className="bg-cream py-20">
         <div className="container-custom max-w-[800px]">
           <div className="text-center mb-10">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              FAQ
-            </span>
+            <SectionLabel align="center">FAQ</SectionLabel>
             <h2 className="font-playfair text-fluid-h2 text-black">
               Dubai Food Trends 2026
             </h2>

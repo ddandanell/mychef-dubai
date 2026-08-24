@@ -5,6 +5,11 @@ import SocialLinks from '@/components/SocialLinks'
 
 const serviceLinks = [
   { label: 'Private Chef Dubai', href: '/private-chef-dubai' },
+  { label: 'How the household chef works', href: '/private-chef-dubai/how-it-works' },
+  { label: 'Chef selection & matching', href: '/private-chef-dubai/our-chefs' },
+  { label: 'Quality & training', href: '/private-chef-dubai/quality-training' },
+  { label: 'Privacy & security', href: '/private-chef-dubai/privacy-security' },
+  { label: 'Household chef pricing', href: '/private-chef-dubai/pricing' },
   { label: 'Catering Dubai', href: '/catering-dubai' },
   { label: 'Weekly Meal Prep', href: '/weekly-meal-prep-dubai' },
   { label: 'Luxury Dining', href: '/luxury-dining-experiences' },

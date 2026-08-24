@@ -19,6 +19,8 @@ import TrustSignalStrip from '../components/TrustSignalStrip'
 import LocationStrip from '../components/LocationStrip'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to plan canapé catering in Dubai (via mychef.ae/canape-catering-dubai)')
@@ -331,9 +333,7 @@ export default function CanapeCatering() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            DUBAI CANAPÉ SPECIALISTS
-          </span>
+          <SectionLabel align="center">DUBAI CANAPÉ SPECIALISTS</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             Small Bites, Lasting Impressions
           </h2>
@@ -353,9 +353,7 @@ export default function CanapeCatering() {
       <section className="bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              CANAPÉ SERVICE
-            </span>
+            <SectionLabel align="center" tone="dark">CANAPÉ SERVICE</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Canapés for Every Reception
             </h2>
@@ -389,9 +387,7 @@ export default function CanapeCatering() {
       <section className="bg-black section-padding pt-0">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WHERE WE SERVE
-            </span>
+            <SectionLabel align="center" tone="dark">WHERE WE SERVE</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Canapés for Every Setting
             </h2>

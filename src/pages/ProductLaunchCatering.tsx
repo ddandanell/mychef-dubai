@@ -24,6 +24,8 @@ import TrustSignalStrip from '../components/TrustSignalStrip'
 import LocationStrip from '../components/LocationStrip'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I would like to discuss product launch catering in Dubai (via mychef.ae/product-launch-catering-dubai)')
@@ -310,9 +312,7 @@ export default function ProductLaunchCatering() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            B2B EVENT CATERING
-          </span>
+          <SectionLabel align="center">B2B EVENT CATERING</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             Why Launch Catering Matters
           </h2>
@@ -332,9 +332,7 @@ export default function ProductLaunchCatering() {
       <section className="bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              LAUNCH CATERING FORMATS
-            </span>
+            <SectionLabel align="center" tone="dark">LAUNCH CATERING FORMATS</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Formats Built for Unveilings
             </h2>
@@ -368,9 +366,7 @@ export default function ProductLaunchCatering() {
       <section className="bg-black section-padding pt-0">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              INDUSTRIES WE SERVE
-            </span>
+            <SectionLabel align="center" tone="dark">INDUSTRIES WE SERVE</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Trusted Across Dubai Sectors
             </h2>

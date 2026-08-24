@@ -15,6 +15,8 @@ import LocationStrip from '../../components/LocationStrip'
 import FaqAccordion from '../../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { deferNonCritical } from '../../lib/deferNonCritical'
+import { SectionLabel, iconForSectionLabel } from '../../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 
@@ -257,9 +259,7 @@ export default function ServiceLandingPage({ config }: Props) {
       {/* Intro */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            {config.eyebrow}
-          </span>
+          <SectionLabel align="center" icon={iconForSectionLabel(config.eyebrow)}>{config.eyebrow}</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">{config.introH2}</h2>
           {config.introNodes}
         </div>
@@ -300,9 +300,7 @@ export default function ServiceLandingPage({ config }: Props) {
       <section className="bg-black section-padding pt-0">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              {config.useCasesEyebrow}
-            </span>
+            <SectionLabel align="center" tone="dark" icon={iconForSectionLabel(config.useCasesEyebrow)}>{config.useCasesEyebrow}</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">{config.useCasesH2}</h2>
           </div>
 

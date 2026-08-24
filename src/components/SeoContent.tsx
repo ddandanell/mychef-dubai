@@ -27,10 +27,10 @@ function readInlineSeo(pathname: string): SeoPage | null {
 
 /**
  * Appends the researched SEO copy (opening paragraph, reworded blocks and approved
- * new blocks) to the bottom of a page's main content. Text only — it reuses the
- * page's existing design tokens (section-padding, container-custom, font + colour
- * classes) and never adds an image, component or new styling. Headings use <h3> so
- * the original <h2> structure of every page is left completely untouched.
+ * new blocks) to the bottom of a page's main content as ONE compact digest: a sticky
+ * contents rail plus native <details> blocks (first open). All text stays in the DOM
+ * for crawlers; the reader gets a scannable index instead of a wall of sections.
+ * Headings remain <h3> so every page's <h2> structure is untouched.
  */
 export default function SeoContent() {
   const { pathname } = useLocation()
@@ -71,31 +71,72 @@ export default function SeoContent() {
 
   if (!opening && blocks.length === 0) return null
 
+  const slug = (t: string) => t.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '')
+
   return (
     <div className="seo-content">
-      {opening && (
-        <section className="bg-cream section-padding">
-          <div className="container-custom max-w-[820px]">
-            <p className="font-inter text-body-lg text-gray-500 leading-relaxed">{opening}</p>
-          </div>
-        </section>
-      )}
-
-      {blocks.map((block, bi) => (
-        <section
-          key={`${block.heading}-${bi}`}
-          className={bi % 2 === 0 ? 'bg-white section-padding' : 'bg-cream section-padding'}
-        >
-          <div className="container-custom max-w-[820px]">
-            <h3 className="font-playfair text-h2 text-black mb-6">{block.heading}</h3>
-            {block.paragraphs.map((p, i) => (
-              <p key={i} className="font-inter text-body-lg text-gray-500 leading-relaxed mb-4">
-                {p}
+      <section className="bg-cream section-padding">
+        <div className="container-custom">
+          <div className="grid gap-10 lg:grid-cols-[minmax(0,0.36fr)_minmax(0,0.64fr)] lg:gap-16">
+            {/* Rail: what this digest covers. Sticky on desktop so the reader keeps their place. */}
+            <div className="lg:sticky lg:top-24 lg:self-start">
+              <p className="font-inter text-caption font-medium uppercase tracking-[0.14em] text-gold-ink mb-4">
+                <span aria-hidden className="mr-3 inline-block h-px w-6 bg-current align-middle opacity-70" />
+                The details
               </p>
-            ))}
+              {opening && (
+                <p className="font-inter text-body text-gray-600 leading-relaxed mb-8">{opening}</p>
+              )}
+              {blocks.length > 1 && (
+                <nav aria-label="On this page">
+                  <ol className="border-t border-gray-200">
+                    {blocks.map((block, bi) => (
+                      <li key={`${block.heading}-${bi}`} className="border-b border-gray-200">
+                        <a
+                          href={`#seo-${slug(block.heading)}`}
+                          className="flex items-baseline gap-3 py-2.5 font-inter text-body-sm text-gray-600 hover:text-gold-ink transition-colors"
+                        >
+                          <span className="font-playfair text-gold-ink select-none">{String(bi + 1).padStart(2, '0')}</span>
+                          <span>{block.heading}</span>
+                        </a>
+                      </li>
+                    ))}
+                  </ol>
+                </nav>
+              )}
+            </div>
+
+            {/* Blocks: native <details> — indexable, accessible, zero JS. First one open. */}
+            <div className="border-t border-gray-200">
+              {blocks.map((block, bi) => (
+                <details
+                  key={`${block.heading}-${bi}`}
+                  id={`seo-${slug(block.heading)}`}
+                  open={bi === 0}
+                  className="group border-b border-gray-200 scroll-mt-24"
+                >
+                  <summary className="flex cursor-pointer list-none items-center justify-between gap-6 py-5 [&::-webkit-details-marker]:hidden">
+                    <h3 className="font-playfair text-h4 text-black group-open:text-gold-ink transition-colors">{block.heading}</h3>
+                    <span
+                      aria-hidden
+                      className="flex h-8 w-8 flex-shrink-0 items-center justify-center border border-gold/35 text-gold-ink transition-transform duration-300 group-open:rotate-45"
+                    >
+                      <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M6 1v10M1 6h10" /></svg>
+                    </span>
+                  </summary>
+                  <div className="pb-7 max-w-[680px]">
+                    {block.paragraphs.map((p, i) => (
+                      <p key={i} className="font-inter text-body text-gray-600 leading-relaxed mb-4 last:mb-0">
+                        {p}
+                      </p>
+                    ))}
+                  </div>
+                </details>
+              ))}
+            </div>
           </div>
-        </section>
-      ))}
+        </div>
+      </section>
     </div>
   )
 }

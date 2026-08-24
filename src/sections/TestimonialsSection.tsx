@@ -2,6 +2,7 @@ import { useState, useEffect, useRef, useCallback } from 'react'
 import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import { ChevronLeft, ChevronRight, Star, Quote } from 'lucide-react'
+import { SectionLabel } from '@/components/system'
 
 const testimonials = [
   {
@@ -105,10 +106,8 @@ export default function TestimonialsSection() {
       <div className="container-custom max-w-[1000px]">
         {/* Header */}
         <div ref={headerRef} className="text-center mb-10 md:mb-12">
-          <span className="font-inter text-caption font-medium uppercase tracking-[0.1em] text-gold">
-            Client Testimonials
-          </span>
-          <h2 className="font-playfair text-fluid-h2 text-white mt-4">
+          <SectionLabel align="center" tone="dark">Client Testimonials</SectionLabel>
+          <h2 className="font-playfair text-fluid-h2 text-white">
             What do clients say about myCHEF Dubai?
           </h2>
         </div>

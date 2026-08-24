@@ -23,6 +23,8 @@ import SEO from '../../components/SEO'
 import TrustSignalStrip from '../../components/TrustSignalStrip'
 import FaqAccordion from '../../components/FaqAccordion'
 import { howToSchema } from '../../utils/schema'
+import { SectionLabel } from '../../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like help planning a wedding catering menu (via mychef.ae/wedding-catering-menu-planning-dubai)')
@@ -425,9 +427,7 @@ export default function WeddingMenuPlanningGuide() {
       {/* ═══════════════ Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            WEDDING CATERING
-          </span>
+          <SectionLabel align="center">WEDDING CATERING</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             Create a Menu That Reflects Your Celebration
           </h2>
@@ -444,9 +444,7 @@ export default function WeddingMenuPlanningGuide() {
       <section className="bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              DUBAI WEDDINGS
-            </span>
+            <SectionLabel align="center" tone="dark">DUBAI WEDDINGS</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Why Wedding Catering in Dubai Is Unique
             </h2>
@@ -474,9 +472,7 @@ export default function WeddingMenuPlanningGuide() {
       <section className="bg-cream section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              SERVICE FORMATS
-            </span>
+            <SectionLabel align="center">SERVICE FORMATS</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               Choosing Your Service Style
             </h2>
@@ -501,9 +497,7 @@ export default function WeddingMenuPlanningGuide() {
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[1000px]">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              CUISINES
-            </span>
+            <SectionLabel align="center">CUISINES</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               Popular Wedding Cuisines in Dubai
             </h2>
@@ -539,9 +533,7 @@ export default function WeddingMenuPlanningGuide() {
       <section className="bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              MENU STRUCTURE
-            </span>
+            <SectionLabel align="center" tone="dark">MENU STRUCTURE</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Menu Structure by Wedding Segment
             </h2>
@@ -572,9 +564,7 @@ export default function WeddingMenuPlanningGuide() {
       <section className="bg-cream section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              INCLUSIVE MENUS
-            </span>
+            <SectionLabel align="center">INCLUSIVE MENUS</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               Dietary & Cultural Considerations
             </h2>
@@ -600,9 +590,7 @@ export default function WeddingMenuPlanningGuide() {
         <div className="container-custom max-w-[900px]">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-                DRINKS & SERVICE
-              </span>
+              <SectionLabel>DRINKS & SERVICE</SectionLabel>
               <h2 className="font-playfair text-h2 text-black mb-6">
                 Beverage Pairing & Bar Service
               </h2>
@@ -630,9 +618,7 @@ export default function WeddingMenuPlanningGuide() {
       <section className="bg-black section-padding">
         <div className="container-custom max-w-[900px]">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              2026 TRENDS
-            </span>
+            <SectionLabel align="center" tone="dark">2026 TRENDS</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Wedding Menu Trends in Dubai
             </h2>
@@ -658,9 +644,7 @@ export default function WeddingMenuPlanningGuide() {
       <section className="bg-cream section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              SAMPLE TEMPLATES
-            </span>
+            <SectionLabel align="center">SAMPLE TEMPLATES</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               Sample Wedding Menu Templates
             </h2>
@@ -719,9 +703,7 @@ export default function WeddingMenuPlanningGuide() {
         <div className="container-custom max-w-[900px]">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-                FREE WORKSHEET
-              </span>
+              <SectionLabel tone="dark">FREE WORKSHEET</SectionLabel>
               <h2 className="font-playfair text-h2 text-white mb-6">
                 Downloadable Menu Planning Worksheet
               </h2>

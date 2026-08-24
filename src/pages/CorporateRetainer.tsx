@@ -18,6 +18,8 @@ import CorporateTrustStrip from '../components/CorporateTrustStrip'
 import { breadcrumbSchema, faqPageSchema, serviceSchema } from '../utils/schema'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to discuss a corporate retainer (via mychef.ae/corporate-retainer-dubai)')
@@ -244,9 +246,7 @@ export default function CorporateRetainer() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            B2B CATERING
-          </span>
+          <SectionLabel align="center">B2B CATERING</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             Catering Without the Admin Overhead
           </h2>
@@ -268,9 +268,7 @@ export default function CorporateRetainer() {
       <section className="cr-tiers bg-cream section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              RETAINER PLANS
-            </span>
+            <SectionLabel align="center">RETAINER PLANS</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               Choose Your Monthly Tier
             </h2>
@@ -331,9 +329,7 @@ export default function CorporateRetainer() {
       <section className="bg-black section-padding">
         <div className="container-custom max-w-[1000px]">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WHY A RETAINER
-            </span>
+            <SectionLabel align="center" tone="dark">WHY A RETAINER</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Built for Procurement and Operations
             </h2>

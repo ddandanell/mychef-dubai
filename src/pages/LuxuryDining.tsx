@@ -3,7 +3,26 @@ import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
-import { MessageCircle, Palette, Sparkles, Utensils, Phone, ArrowRight } from 'lucide-react'
+import {
+  ArrowRight,
+  ArrowUpRight,
+  Briefcase,
+  Cake,
+  CalendarHeart,
+  Compass,
+  Diamond,
+  Gem,
+  GraduationCap,
+  Handshake,
+  Heart,
+  Moon,
+  PartyPopper,
+  Phone,
+  TreePine,
+  Users,
+  UtensilsCrossed,
+} from 'lucide-react'
+import type { LucideIcon } from 'lucide-react'
 import SEO from '../components/SEO'
 import PageHero from '../components/PageHero'
 import TrustSignalStrip from '../components/TrustSignalStrip'
@@ -12,6 +31,8 @@ import StarterPackagesSection from '@/sections/StarterPackagesSection'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { deferNonCritical } from '../lib/deferNonCritical'
+import { Section, Container, SectionLabel, DisplayHeading, BodyCopy } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent("Hi myCHEF Dubai, I'd like a luxury private dining quote. Date: __, Guests: __, Venue: __, Occasion: __ (via mychef.ae/luxury-dining-experiences)")
@@ -75,24 +96,20 @@ const relatedExperiences = [
 
 const processSteps = [
   {
-    icon: MessageCircle,
-    title: 'What happens during the consultation?',
-    description: 'We discuss your vision, preferences, dietary requirements, and the mood you want to create.',
+    title: 'Tell us the evening',
+    description: 'Date, guests, venue, occasion, dietary requirements and the mood you want. One conversation.',
   },
   {
-    icon: Palette,
-    title: 'How is your bespoke menu created?',
-    description: 'our chefs crafts a bespoke menu that tells a story through each course.',
+    title: 'The chef writes the menu',
+    description: 'Course by course, around your palate and the occasion — not a set list.',
   },
   {
-    icon: Sparkles,
-    title: 'How does your chef prepare your dining space?',
-    description: 'We arrive early, transform your space, and prepare everything to perfection.',
+    title: 'We arrive early',
+    description: 'Kitchen, equipment and table are set before your guests arrive.',
   },
   {
-    icon: Utensils,
-    title: 'What happens on the night of your dinner?',
-    description: 'You and your guests enjoy an unforgettable evening. We handle every detail.',
+    title: 'You host',
+    description: 'Cooking, plating, service and cleanup are handled. Your space is left as we found it.',
   },
 ]
 
@@ -105,19 +122,19 @@ const galleryImages = [
   { src: '/testimonial-villa.webp', alt: 'Happy guests at dinner', className: 'aspect-[4/3]' },
 ]
 
-const occasionTags = [
-  { label: 'Anniversaries', link: '/anniversary-catering-dubai' },
-  { label: 'Marriage Proposals', link: '/proposal-dinner-dubai' },
-  { label: 'Birthday Celebrations', link: '/birthday-catering-dubai' },
-  { label: 'Engagement Dinners', link: '/engagement-catering-dubai' },
-  { label: "Valentine's Day", link: '/valentines-day-catering-dubai' },
-  { label: 'Eid Celebrations', link: '/eid-catering-dubai' },
-  { label: 'Christmas Dinner', link: '/christmas-catering-dubai' },
-  { label: "New Year's Eve", link: '/new-year-catering-dubai' },
-  { label: 'Corporate Entertainment', link: '/corporate' },
-  { label: 'Client Hosting', link: '/corporate' },
-  { label: 'Family Reunions', link: '/reunion-catering-dubai' },
-  { label: 'Graduation Celebrations', link: '/graduation-catering-dubai' },
+const occasionTags: { label: string; link: string; icon: LucideIcon }[] = [
+  { label: 'Anniversaries', link: '/anniversary-catering-dubai', icon: CalendarHeart },
+  { label: 'Marriage Proposals', link: '/proposal-dinner-dubai', icon: Gem },
+  { label: 'Birthday Celebrations', link: '/birthday-catering-dubai', icon: Cake },
+  { label: 'Engagement Dinners', link: '/engagement-catering-dubai', icon: Diamond },
+  { label: "Valentine's Day", link: '/valentines-day-catering-dubai', icon: Heart },
+  { label: 'Eid Celebrations', link: '/eid-catering-dubai', icon: Moon },
+  { label: 'Christmas Dinner', link: '/christmas-catering-dubai', icon: TreePine },
+  { label: "New Year's Eve", link: '/new-year-catering-dubai', icon: PartyPopper },
+  { label: 'Corporate Entertainment', link: '/corporate', icon: Briefcase },
+  { label: 'Client Hosting', link: '/corporate', icon: Handshake },
+  { label: 'Family Reunions', link: '/reunion-catering-dubai', icon: Users },
+  { label: 'Graduation Celebrations', link: '/graduation-catering-dubai', icon: GraduationCap },
 ]
 
 const faqs = [
@@ -254,10 +271,10 @@ export default function LuxuryDining() {
         opacity: 1, scale: 1, duration: 0.6, stagger: 0.06, ease: 'power3.out',
       })
 
-      // Occasion tags
-      gsap.to('.ld-tag', {
+      // Occasion panels (hairline grid animates as one surface)
+      gsap.to('.ld-tags', {
         scrollTrigger: { trigger: '.ld-tags', start: 'top 85%', toggleActions: 'play none none none' },
-        opacity: 1, scale: 1, duration: 0.4, stagger: 0.04, ease: 'power3.out',
+        opacity: 1, y: 0, duration: 0.6, ease: 'power3.out',
       })
 
       // FAQ
@@ -266,16 +283,10 @@ export default function LuxuryDining() {
         opacity: 1, y: 0, duration: 0.5, stagger: 0.08, ease: 'power3.out',
       })
 
-      // Related
+      // Related services + experiences (one merged list)
       gsap.to('.ld-rel-card', {
         scrollTrigger: { trigger: '.ld-rel-grid', start: 'top 85%', toggleActions: 'play none none none' },
-        opacity: 1, y: 0, duration: 0.8, stagger: 0.1, ease: 'power3.out',
-      })
-
-      // Related Experiences
-      gsap.to('.ld-rel-exp-card', {
-        scrollTrigger: { trigger: '.ld-rel-exp-grid', start: 'top 85%', toggleActions: 'play none none none' },
-        opacity: 1, y: 0, duration: 0.8, stagger: 0.1, ease: 'power3.out',
+        opacity: 1, y: 0, duration: 0.6, stagger: 0.07, ease: 'power3.out',
       })
 
       // CTA
@@ -300,7 +311,7 @@ export default function LuxuryDining() {
       {/* ═══════════════ Section 1: Hero ═══════════════ */}
       <PageHero
         title="Luxury Private Dining Dubai — Fine Dining at Home"
-        subtitle="Bespoke private dining crafted for life's most memorable moments. In your villa, on your yacht, or at your penthouse — we reply within 15 minutes during business hours."
+        subtitle="A private chef, a menu written for the evening and full service — in your villa, on your yacht or at your penthouse. We reply within 15 minutes during business hours."
         image="/images/luxury-dining-experiences-dubai-hero.webp"
         imageAlt="Private chef plating fine dining at a candlelit terrace table overlooking the Dubai skyline at night"
         imageWidth={1683}
@@ -316,109 +327,102 @@ export default function LuxuryDining() {
       <TrustSignalStrip variant="dark" />
 
       {/* ═══════════════ Section 2: Experience Types ═══════════════ */}
-      <section className="bg-white section-padding">
-        <div className="container-custom">
-          <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              LUXURY DINING OPTIONS
-            </span>
-            <h2 className="font-playfair text-h2 text-black">
-              What luxury dining experiences can you book in Dubai?
-            </h2>
-            <p className="font-inter text-body text-gray-500 leading-relaxed max-w-[700px] mx-auto mt-4">
+      <Section tone="white" rhythm="standard">
+        <Container>
+          <div className="max-w-[760px] mb-12 lg:mb-16">
+            <SectionLabel icon={UtensilsCrossed}>Four formats</SectionLabel>
+            <DisplayHeading size="h2" className="text-black mb-5">
+              Private dining in Dubai comes in four formats. Start with the one that fits the evening.
+            </DisplayHeading>
+            <BodyCopy muted>
               Tell us about your occasion and we will bring you a vetted{' '}
-              <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef</Link>
+              <Link to="/private-chef-dubai" className="text-gold-ink hover:text-gold underline underline-offset-4 transition-colors">private chef</Link>
               {' '}within 24 hours. From penthouses in Downtown to villas in{' '}
-              <Link to="/locations/emirates-hills" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Emirates Hills</Link>
+              <Link to="/locations/emirates-hills" className="text-gold-ink hover:text-gold underline underline-offset-4 transition-colors">Emirates Hills</Link>
               , we bring restaurant-quality dining to your door — with a bespoke menu, elegant table styling, and discreet service.
-            </p>
+            </BodyCopy>
           </div>
 
-          <div className="ld-exp-grid grid md:grid-cols-2 gap-8">
+          <ol className="ld-exp-grid border-t border-gray-200">
             {experiences.map((exp, i) => (
-              <Link
-                key={i}
-                to={exp.link}
-                className="ld-exp-card group bg-white border border-gray-200 overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-lg opacity-0 translate-y-12"
-              >
-                <div className="aspect-video overflow-hidden">
-                  <img
-                    src={exp.image}
-                    alt={exp.title}
-                    width={640}
-                    height={360}
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                    loading="lazy" decoding="async"/>
-                </div>
-                <div className="p-8">
-                  <h3 className="font-playfair text-h3 text-black mb-3">{exp.title}</h3>
-                  <p className="font-inter text-body text-gray-500 leading-relaxed mb-4">
-                    {exp.description}
-                  </p>
-                  <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
-                    Explore This Experience <ArrowRight size={14} />
+              <li key={exp.link} className="ld-exp-card border-b border-gray-200 opacity-0 translate-y-12">
+                <Link
+                  to={exp.link}
+                  className="group grid grid-cols-[2.75rem_minmax(0,1fr)] gap-x-4 gap-y-5 py-8 md:grid-cols-[4.5rem_minmax(0,0.8fr)_minmax(0,1.2fr)] md:items-center md:gap-x-10 lg:py-10"
+                >
+                  <span
+                    className="pt-1 font-inter font-light tabular-nums leading-none text-3xl text-gold-ink/70 transition-colors group-hover:text-gold-ink md:pt-0 md:text-5xl"
+                    aria-hidden
+                  >
+                    {String(i + 1).padStart(2, '0')}
                   </span>
-                </div>
-              </Link>
+                  <div className="relative aspect-[3/2] overflow-hidden md:col-start-2 md:aspect-[16/10]">
+                    <img
+                      src={exp.image}
+                      alt={exp.title}
+                      width={640}
+                      height={360}
+                      className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+                      loading="lazy" decoding="async"/>
+                  </div>
+                  <div className="col-start-2 md:col-start-3 md:row-start-1">
+                    <h3 className="font-playfair text-h3 text-black mb-3 transition-colors group-hover:text-gold-ink">{exp.title}</h3>
+                    <p className="font-inter text-body text-gray-500 leading-relaxed mb-5 max-w-[52ch]">
+                      {exp.description}
+                    </p>
+                    <span className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-wider text-gold-ink">
+                      Explore this experience <ArrowRight size={14} className="transition-transform group-hover:translate-x-1" aria-hidden />
+                    </span>
+                  </div>
+                </Link>
+              </li>
             ))}
-          </div>
-        </div>
-      </section>
+          </ol>
+        </Container>
+      </Section>
 
       {/* ═══════════════ Section 3: The Experience ═══════════════ */}
-      <section className="bg-black section-padding">
-        <div className="container-custom max-w-[1000px]">
-          <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              HOW IT WORKS
-            </span>
-            <h2 className="font-playfair text-h2 text-white">
-              How does booking a luxury dining experience in Dubai work?
-            </h2>
+      <Section tone="dark" rhythm="standard">
+        <Container>
+          <div className="max-w-[760px] mb-12 lg:mb-16">
+            <SectionLabel tone="dark">How it works</SectionLabel>
+            <DisplayHeading size="h2" className="text-white mb-5">
+              Tell us about the evening. The menu is written around it.
+            </DisplayHeading>
+            <BodyCopy tone="dark">
+              Four steps from first message to last course. You do the first one.
+            </BodyCopy>
           </div>
 
-          <div className="ld-steps relative">
-            {/* Vertical dotted line */}
-            <div className="absolute left-1/2 top-0 bottom-0 w-px border-l border-dashed border-gold/30 -translate-x-1/2 hidden md:block" />
-
-            <div className="space-y-12">
-              {processSteps.map((step, i) => {
-                const Icon = step.icon
-                const isEven = i % 2 === 0
-                return (
-                  <div
-                    key={i}
-                    className={`ld-step relative flex flex-col md:flex-row items-center gap-6 md:gap-12 opacity-0 translate-y-8 ${
-                      isEven ? 'md:flex-row' : 'md:flex-row-reverse'
-                    }`}
-                  >
-                    {/* Content side */}
-                    <div className={`flex-1 text-center ${isEven ? 'md:text-right' : 'md:text-left'}`}>
-                      <h3 className="font-playfair text-h3 text-white mb-2">{step.title}</h3>
-                      <p className="font-inter text-body text-gray-400 leading-relaxed">{step.description}</p>
-                    </div>
-
-                    {/* Icon circle */}
-                    <div className="relative z-10 w-16 h-16 rounded-full bg-gold/20 border border-gold/40 flex items-center justify-center flex-shrink-0">
-                      <Icon size={28} className="text-gold" />
-                    </div>
-
-                    {/* Spacer side */}
-                    <div className="flex-1 hidden md:block" />
-                  </div>
-                )
-              })}
-            </div>
-          </div>
-        </div>
-      </section>
+          <ol className="ld-steps grid gap-10 md:grid-cols-4 md:gap-8">
+            {processSteps.map((step, i) => (
+              <li key={step.title} className="ld-step opacity-0 translate-y-8">
+                <div className="mb-5 flex items-center gap-3">
+                  <span className="font-inter font-light tabular-nums text-4xl leading-none text-gold" aria-hidden>
+                    {String(i + 1).padStart(2, '0')}
+                  </span>
+                  <span className="h-px flex-1 bg-gold/20" aria-hidden />
+                  {i < processSteps.length - 1 && (
+                    <ArrowRight size={16} className="hidden text-gold/50 md:block" aria-hidden />
+                  )}
+                </div>
+                <h3 className="font-playfair text-h4 text-white mb-3">{step.title}</h3>
+                <p className="font-inter text-body-sm text-gray-400 leading-relaxed">{step.description}</p>
+              </li>
+            ))}
+          </ol>
+        </Container>
+      </Section>
 
       {/* ═══════════════ Section 4: Gallery ═══════════════ */}
       <section className="bg-charcoal py-20">
         <div className="container-custom">
-          <h2 className="font-playfair text-fluid-h2 text-white text-center mb-10">
-            What do our luxury dining experiences look like?
-          </h2>
+          <div className="max-w-[760px] mb-10 lg:mb-12">
+            <SectionLabel tone="dark">Gallery</SectionLabel>
+            <DisplayHeading size="h2" className="text-white">
+              What the evening looks like: the plate, the table, the setting.
+            </DisplayHeading>
+          </div>
 
           <div className="ld-gallery columns-2 md:columns-3 gap-3 space-y-3">
             {galleryImages.map((img, i) => (
@@ -440,143 +444,136 @@ export default function LuxuryDining() {
       </section>
 
       {/* ═══════════════ Section 5: Special Occasions ═══════════════ */}
-      <section className="bg-cream py-20">
-        <div className="container-custom max-w-[1000px]">
-          <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            What occasions can you celebrate with luxury dining in Dubai?
-          </h2>
-
-          <div className="ld-tags flex flex-wrap justify-center gap-3">
-            {occasionTags.map((tag, i) => (
-              <Link
-                key={i}
-                to={tag.link}
-                className="ld-tag bg-white border border-gray-200 px-5 py-2.5 font-inter text-sm text-black hover:bg-gold hover:border-gold transition-all duration-300 opacity-0 scale-90"
-              >
-                {tag.label}
-              </Link>
-            ))}
+      <Section tone="ivory" rhythm="standard">
+        <Container>
+          <div className="max-w-[760px] mb-10 lg:mb-12">
+            <SectionLabel>Occasions</SectionLabel>
+            <DisplayHeading size="h2" className="text-black mb-5">
+              Name the occasion. The menu, the table and the timing follow from it.
+            </DisplayHeading>
+            <BodyCopy muted>Pick the closest. The detail is on the next page.</BodyCopy>
           </div>
-        </div>
-      </section>
+
+          <ul className="ld-tags grid grid-cols-2 gap-px border border-gray-200 bg-gray-200 opacity-0 translate-y-8 sm:grid-cols-3 lg:grid-cols-4">
+            {occasionTags.map(({ label, link, icon: Icon }) => (
+              <li key={label}>
+                <Link
+                  to={link}
+                  className="group flex h-full items-center gap-3 bg-white px-4 py-4 transition-colors hover:bg-cream sm:px-5 sm:py-5"
+                >
+                  <span className="flex h-9 w-9 flex-shrink-0 items-center justify-center border border-gold/35 text-gold-ink transition-colors group-hover:border-gold">
+                    <Icon size={16} strokeWidth={1.5} aria-hidden />
+                  </span>
+                  <span className="font-inter text-body-sm text-black">{label}</span>
+                  <ArrowUpRight size={14} className="ml-auto hidden flex-shrink-0 text-gray-300 transition-colors group-hover:text-gold-ink sm:block" aria-hidden />
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </Container>
+      </Section>
 
       {/* ═══════════════ Section 6: FAQ ═══════════════ */}
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
-          <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            What are the most common questions about luxury dining in Dubai?
-          </h2>
+          <div className="text-center mb-10">
+            <SectionLabel align="center">FAQ</SectionLabel>
+            <DisplayHeading size="h2" className="text-black">
+              Prices, lead times, discretion, the yacht. The questions hosts ask before they book.
+            </DisplayHeading>
+          </div>
 
           <FaqAccordion items={faqs} showJumpNav />
         </div>
       </section>
 
       {/* ═══════════════ Section 7: Related Services ═══════════════ */}
-      <section className="bg-black py-20">
-        <div className="container-custom">
-          <div className="text-center mb-10">
-            <h3 className="font-playfair text-h3 text-white">
-              Which myCHEF services pair with luxury dining?
-            </h3>
-          </div>
+      <Section tone="charcoal" rhythm="standard">
+        <Container>
+          <div className="grid gap-12 lg:grid-cols-[minmax(0,0.85fr)_minmax(0,1.15fr)] lg:gap-20">
+            <div className="lg:sticky lg:top-28 lg:self-start">
+              <SectionLabel tone="dark" icon={Compass}>Next to this page</SectionLabel>
+              <DisplayHeading size="h2" className="text-white mb-5">
+                One evening is this page. A chef who comes back is a different product.
+              </DisplayHeading>
+              <BodyCopy tone="dark">
+                If you want the same chef in the kitchen every week, that is the managed private chef service. If tonight is the job, these are the formats and add-ons that sit next to it.
+              </BodyCopy>
+            </div>
 
-          <div className="ld-rel-grid grid md:grid-cols-3 gap-6">
-            {relatedServices.map((svc, i) => (
-              <Link
-                key={i}
-                to={svc.link}
-                className="ld-rel-card group bg-charcoal overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
-              >
-                <div className="aspect-video overflow-hidden">
-                  <img
-                    src={svc.image}
-                    alt={svc.title}
-                    width={640}
-                    height={360}
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                    loading="lazy" decoding="async"/>
-                </div>
-                <div className="p-6">
-                  <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
-                  <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
-                  <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
-                    Explore <ArrowRight size={14} />
-                  </span>
-                </div>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
+            <div className="ld-rel-grid">
+              <p className="font-inter text-caption uppercase tracking-[0.14em] text-gold mb-1">Pairs with this page</p>
+              <ul className="divide-y divide-white/10 border-y border-white/10 mb-12">
+                {relatedServices.map((svc) => (
+                  <li key={svc.link} className="ld-rel-card opacity-0 translate-y-12">
+                    <Link to={svc.link} className="group flex items-start justify-between gap-6 py-5">
+                      <div>
+                        <h3 className="font-playfair text-h4 text-white mb-1 transition-colors group-hover:text-gold">{svc.title}</h3>
+                        <p className="font-inter text-body-sm text-gray-400 leading-relaxed max-w-[56ch]">{svc.description}</p>
+                      </div>
+                      <ArrowUpRight size={18} className="mt-1 flex-shrink-0 text-gold/60 transition-colors group-hover:text-gold" aria-hidden />
+                    </Link>
+                  </li>
+                ))}
+              </ul>
 
-      {/* ═══════════════ Related Experiences ═══════════════ */}
-      <section className="bg-white py-20">
-        <div className="container-custom">
-          <div className="text-center mb-10">
-            <h3 className="font-playfair text-h3 text-black">
-              What other experiences can you add?
-            </h3>
+              <p className="font-inter text-caption uppercase tracking-[0.14em] text-gold mb-1">Add to the evening</p>
+              <ul className="divide-y divide-white/10 border-y border-white/10">
+                {relatedExperiences.map((exp) => (
+                  <li key={exp.link} className="ld-rel-card opacity-0 translate-y-12">
+                    <Link to={exp.link} className="group flex items-start justify-between gap-6 py-5">
+                      <div>
+                        <h3 className="font-playfair text-h4 text-white mb-1 transition-colors group-hover:text-gold">{exp.title}</h3>
+                        <p className="font-inter text-body-sm text-gray-400 leading-relaxed max-w-[56ch]">{exp.description}</p>
+                      </div>
+                      <ArrowUpRight size={18} className="mt-1 flex-shrink-0 text-gold/60 transition-colors group-hover:text-gold" aria-hidden />
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
-
-          <div className="ld-rel-exp-grid grid md:grid-cols-3 gap-6">
-            {relatedExperiences.map((exp, i) => (
-              <Link
-                key={i}
-                to={exp.link}
-                className="ld-rel-exp-card group bg-cream overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-lg opacity-0 translate-y-12"
-              >
-                <div className="aspect-video overflow-hidden">
-                  <img
-                    src={exp.image}
-                    alt={exp.title}
-                    width={640}
-                    height={360}
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                    loading="lazy" decoding="async"/>
-                </div>
-                <div className="p-6">
-                  <h4 className="font-playfair text-h4 text-black mb-2">{exp.title}</h4>
-                  <p className="font-inter text-body-sm text-gray-500 mb-4">{exp.description}</p>
-                  <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
-                    Explore <ArrowRight size={14} />
-                  </span>
-                </div>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
+        </Container>
+      </Section>
 
       <StarterPackagesSection
         campaign="luxury-dining-experiences"
-        eyebrow="LUXURY DINING PRICING"
-        title="How much does luxury private dining cost in Dubai?"
-        subtitle="Indicative starting prices for bespoke luxury dining experiences in Dubai. Every final quote is tailored to your guest count, menu, and occasion."
+        eyebrow="PRICING"
+        title="Four things build the price: guests, courses, ingredient tier and venue."
+        subtitle="Indicative starting prices for private dining in Dubai. Every final quote is built from those four and the occasion, with 5% VAT stated up front."
       />
 
       {/* ═══════════════ Related Guides ═══════════════ */}
-      <section className="bg-cream py-16">
+      <section className="bg-white py-16">
         <div className="container-custom max-w-[800px] text-center">
-          <h3 className="font-playfair text-h3 text-black mb-4">Which guides help plan a luxury dinner in Dubai?</h3>
+          <h3 className="font-playfair text-h3 text-black mb-4">Planning it yourself first? Three guides.</h3>
           <p className="font-inter text-body text-gray-500 leading-relaxed">
             Planning an event in Dubai? Read our{' '}
-            <Link to="/luxury-dinner-planning-guide-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Luxury Dinner Planning Guide</Link>,
-            {' '}explore <Link to="/romantic-dinner-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">romantic dinner Dubai</Link> experiences,
-            {' '}or see indicative costs in our <Link to="/private-chef-prices-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef prices Dubai</Link> guide.
+            <Link to="/luxury-dinner-planning-guide-dubai" className="text-gold-ink hover:text-gold underline underline-offset-4 transition-colors">Luxury Dinner Planning Guide</Link>,
+            {' '}explore <Link to="/romantic-dinner-dubai" className="text-gold-ink hover:text-gold underline underline-offset-4 transition-colors">romantic dinner Dubai</Link> experiences,
+            {' '}or see indicative costs in our <Link to="/private-chef-prices-dubai" className="text-gold-ink hover:text-gold underline underline-offset-4 transition-colors">private chef prices Dubai</Link> guide.
           </p>
         </div>
       </section>
 
-      <LocationStrip title="Luxury private dining across Dubai" subtitle="From Downtown penthouses to Palm Jumeirah villas and Dubai Marina yachts, we bring fine dining to your chosen venue." />
+      <LocationStrip title="Private dining across Dubai" subtitle="From Downtown penthouses to Palm Jumeirah villas and Dubai Marina yachts, we bring fine dining to your chosen venue." />
 
       {/* ═══════════════ Section 8: CTA Banner ═══════════════ */}
       <section className="bg-gradient-to-b from-charcoal to-black py-20">
         <div className="container-custom text-center ld-cta opacity-0 translate-y-8">
           <h2 className="font-playfair text-h2 text-white mb-4">
-            Ready to book your luxury dining experience in Dubai?
+            Four details start the quote.
           </h2>
+          <p className="mb-5 flex flex-wrap items-center justify-center gap-x-3 gap-y-1 font-inter text-caption uppercase tracking-[0.14em] text-gold" aria-label="Date, guests, venue, occasion">
+            {['Date', 'Guests', 'Venue', 'Occasion'].map((item, i) => (
+              <span key={item} className="inline-flex items-center gap-3">
+                {i > 0 && <ArrowRight size={12} className="text-gold/50" aria-hidden />}
+                {item}
+              </span>
+            ))}
+          </p>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Your bespoke dining experience begins with a single conversation.
+            Send those and we reply within 15 minutes during business hours with a quote for the evening.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=luxury-dining-experiences" className="btn-primary">Request My Private Dining Proposal</Link>

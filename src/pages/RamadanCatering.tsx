@@ -19,6 +19,8 @@ import FaqAccordion from '../components/FaqAccordion'
 import LocationStrip from '../components/LocationStrip'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { eventSchema } from '../utils/schema'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to plan Ramadan catering in Dubai (via mychef.ae/ramadan-catering-dubai)')
@@ -335,9 +337,7 @@ export default function RamadanCatering() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            THE HOLY MONTH IN DUBAI
-          </span>
+          <SectionLabel align="center">THE HOLY MONTH IN DUBAI</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             Catering for Every Evening of Ramadan
           </h2>
@@ -354,9 +354,7 @@ export default function RamadanCatering() {
       <section className="bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              RAMADAN FORMATS
-            </span>
+            <SectionLabel align="center" tone="dark">RAMADAN FORMATS</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Iftar, Suhoor & Everything Between
             </h2>
@@ -390,9 +388,7 @@ export default function RamadanCatering() {
       <section className="bg-black section-padding pt-0">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WHERE WE SERVE
-            </span>
+            <SectionLabel align="center" tone="dark">WHERE WE SERVE</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Designed for the Occasion
             </h2>

@@ -1,22 +1,32 @@
 import { useRef } from 'react'
 import { Link } from 'react-router'
-import { Star, Shield, Heart, Clock } from 'lucide-react'
+import { ArrowRight, Waves, Anchor, Building2, TreePine, Landmark, Sprout } from 'lucide-react'
 import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import { useGSAP } from '@gsap/react'
 import SEO from '@/components/SEO'
 import PageHero from '@/components/PageHero'
 import TrustSignalStrip from '@/components/TrustSignalStrip'
+import { BodyCopy, Container, DisplayHeading, Section, SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to request a quote (via mychef.ae/about)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 const values = [
-  { icon: Star, title: 'Uncompromising Quality', desc: 'Only chefs who meet our standard, only premium ingredients — we never cut corners.' },
-  { icon: Shield, title: 'Complete Discretion', desc: 'Your privacy is paramount. The chefs and service professionals on our team operate with the utmost professionalism and confidentiality.' },
-  { icon: Heart, title: 'Genuine Hospitality', desc: 'A great dinner is remembered long after the plates are cleared — that feeling is what we design for. Warm, attentive service that makes every guest feel special.' },
-  { icon: Clock, title: 'Reliability & Precision', desc: 'On time, every time. Meticulous planning ensures your event runs flawlessly from start to finish.' },
+  { title: 'Quality', desc: 'Only chefs who meet the standard. Only ingredients that meet the menu. No corners cut on either.' },
+  { title: 'Discretion', desc: 'What happens in your home stays in your home. Every chef and service professional we place works to that rule.' },
+  { title: 'Hospitality', desc: 'A good dinner is remembered long after the plates are cleared. That feeling is what we design for: warm, attentive, unhurried.' },
+  { title: 'Reliability', desc: 'On time, every time. The plan is written before the day, so the day runs to the plan.' },
+]
+
+// The split — the chef cooks; myCHEF does the four jobs around the chef.
+const split = [
+  { step: 'Match', desc: 'The chef is chosen for your household, not pulled from a list.' },
+  { step: 'Vet', desc: 'Credentials, licensing and food safety are checked before anyone cooks for you.' },
+  { step: 'Back up', desc: 'A day off or a sick day is covered, so the household keeps eating.' },
+  { step: 'Review', desc: 'Placements are reviewed after service, and the standard is held.' },
 ]
 
 const team = [
@@ -25,20 +35,21 @@ const team = [
   { image: '/team-pastry-chef.webp', name: 'Thomas Chen', role: 'Pastry Chef', bio: 'Specializes in modern patisserie, chocolate work, and dessert presentation designed to close a meal with impact and elegance.', exp: 'Dessert & Pastry' },
 ]
 
-const stats = [
-  { value: 'Tailored', label: 'Menus' },
-  { value: 'Chef-Led', label: 'Network' },
-  { value: 'Dubai-wide', label: 'Coverage' },
-  { value: 'Clear', label: 'Pricing' },
-]
+// Communities that have their own page under /locations/:slug (see src/data/locations.ts).
+// Anything else renders as plain text instead of linking to "Location Not Found".
+const LOCATION_PAGES = new Set([
+  'palm-jumeirah', 'bluewaters-island', 'dubai-marina', 'jbr', 'jlt', 'jvc', 'downtown-dubai', 'difc',
+  'business-bay', 'emirates-hills', 'dubai-hills', 'arabian-ranches', 'jumeirah', 'umm-suqeim', 'al-barsha',
+])
+const toLocationSlug = (name: string) => name.toLowerCase().replace(/\s+/g, '-')
 
 const locations = [
-  { group: 'Beach & Island', items: ['Palm Jumeirah', 'Bluewaters Island'] },
-  { group: 'Marina & Waterfront', items: ['Dubai Marina', 'JBR', 'Dubai Creek Harbour'] },
-  { group: 'City Center', items: ['Downtown Dubai', 'DIFC', 'Business Bay'] },
-  { group: 'Premium Residential', items: ['Emirates Hills', 'Dubai Hills', 'Jumeirah Islands', 'Jumeirah Golf Estates', 'Arabian Ranches'] },
-  { group: 'Traditional', items: ['Jumeirah', 'Umm Suqeim', 'Al Safa'] },
-  { group: 'Emerging', items: ['Al Barari', 'Meydan', 'Dubai Silicon Oasis', 'Dubai South'] },
+  { group: 'Beach & Island', icon: Waves, items: ['Palm Jumeirah', 'Bluewaters Island'] },
+  { group: 'Marina & Waterfront', icon: Anchor, items: ['Dubai Marina', 'JBR', 'Dubai Creek Harbour'] },
+  { group: 'City Center', icon: Building2, items: ['Downtown Dubai', 'DIFC', 'Business Bay'] },
+  { group: 'Premium Residential', icon: TreePine, items: ['Emirates Hills', 'Dubai Hills', 'Jumeirah Islands', 'Jumeirah Golf Estates', 'Arabian Ranches'] },
+  { group: 'Traditional', icon: Landmark, items: ['Jumeirah', 'Umm Suqeim', 'Al Safa'] },
+  { group: 'Emerging', icon: Sprout, items: ['Al Barari', 'Meydan', 'Dubai Silicon Oasis', 'Dubai South'] },
 ]
 
 const breadcrumbSchema = {
@@ -58,7 +69,7 @@ export default function About() {
     const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
     const ctx = gsap.context(() => {
       if (reduced) {
-        gsap.set('.story-left, .story-right, .value-card, .team-card, .coverage-item, .about-cta-content', {
+        gsap.set('.story-left, .story-right, .value-card, .team-card, .split-step, .coverage-item, .about-cta-content', {
           opacity: 1, x: 0, y: 0, scale: 1,
         })
         return
@@ -86,22 +97,10 @@ export default function About() {
         scrollTrigger: { trigger: '.team-grid', start: 'top 85%', toggleActions: 'play none none none' },
       })
 
-      // Stats counter (scoped to this component)
-      const statEls = containerRef.current?.querySelectorAll('.stat-number')
-      statEls?.forEach((el) => {
-        const valueEl = el.querySelector('.stat-value')
-        const targetAttr = el.getAttribute('data-target')
-        if (!valueEl || !targetAttr) return
-        const target = parseInt(targetAttr, 10)
-        const suffix = el.getAttribute('data-suffix') || ''
-        const obj = { val: 0 }
-        gsap.to(obj, {
-          val: target,
-          duration: 2,
-          ease: 'power2.out',
-          scrollTrigger: { trigger: el, start: 'top 85%', toggleActions: 'play none none none' },
-          onUpdate: () => { valueEl.textContent = Math.round(obj.val) + suffix },
-        })
+      // The split — four steps reveal in sequence
+      gsap.from('.split-step', {
+        opacity: 0, y: 24, duration: 0.7, stagger: 0.12, ease: 'power3.out',
+        scrollTrigger: { trigger: '.split-band', start: 'top 85%', toggleActions: 'play none none none' },
       })
 
       // Coverage section
@@ -157,21 +156,23 @@ export default function About() {
         <div className="container-custom">
           <div className="grid lg:grid-cols-[55%_45%] gap-12 lg:gap-16 items-center">
             <div className="story-left">
-              <p className="font-inter text-caption font-medium uppercase tracking-wider text-gold mb-3">OUR STORY</p>
-              <h2 className="font-playfair text-fluid-h2 text-black mb-8" style={{ lineHeight: '1.15' }}>
-                From Fine Kitchens<br />to Dubai's Most Distinguished Homes
-              </h2>
+              <SectionLabel>Our story</SectionLabel>
+              <DisplayHeading size="h2" className="text-black mb-8">
+                Restaurants have a system behind the chef. Homes usually do not.
+              </DisplayHeading>
               <div className="space-y-4 font-inter text-body text-gray-500" style={{ lineHeight: '1.7' }}>
                 <p>myCHEF Dubai was founded with a simple belief: that exceptional dining should not be limited to restaurants. Drawing on years of experience in Europe's most demanding kitchens, our founder built myCHEF around a simple idea: the guest should own the evening and none of the work — so we design the experience and choose the talent to bring it to life.</p>
                 <p>Today, myCHEF is a private-dining house. We design the experience end to end and run every part of the evening — from the first idea to the final cleared plate. We choose the chef, shape the menu, choreograph the service, and hold it all to one standard, so you're at the table, not managing it.</p>
-                <p>We serve clients across Dubai — from Palm Jumeirah to Emirates Hills, Downtown to Dubai Marina — and every engagement is approached with the same standard: excellence without compromise.</p>
+                <p>We serve households across Dubai — from Palm Jumeirah to Emirates Hills, Downtown to Dubai Marina — and every engagement is held to the same standard.</p>
               </div>
             </div>
             <div className="story-right">
               <img
                 src="/testimonial-villa.webp"
                 alt="Founder at a private dinner event"
-                className="w-full object-cover"
+                width={1264}
+                height={848}
+                className="editorial-image w-full object-cover"
                 style={{ border: '1px solid rgba(200,164,92,0.3)' }}
                 loading="lazy"
                 decoding="async"
@@ -181,120 +182,136 @@ export default function About() {
         </div>
       </section>
 
-      {/* Section 3: Values */}
-      <section className="bg-cream section-padding">
-        <div className="container-custom">
-          <div className="text-center mb-12 md:mb-16">
-            <p className="font-inter text-caption font-medium uppercase tracking-wider text-gold mb-3">OUR VALUES</p>
-            <h2 className="font-playfair text-fluid-h2 text-black" style={{ lineHeight: '1.15' }}>What Drives Us</h2>
+      {/* Section 3: Values — numbered editorial rows, not an icon grid */}
+      <Section tone="ivory">
+        <Container>
+          <div className="grid lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] gap-10 lg:gap-16 items-start">
+            <div className="lg:sticky lg:top-28">
+              <SectionLabel>The standard</SectionLabel>
+              <DisplayHeading size="h2" className="text-black">The standard we hold every chef to.</DisplayHeading>
+              <BodyCopy muted className="mt-5">
+                Four lines, kept short so they can be used. A chef we put forward is held to all four — and so are we.
+              </BodyCopy>
+            </div>
+            <ol className="values-grid border-t border-gray-200">
+              {values.map((v, i) => (
+                <li key={v.title} className="value-card grid grid-cols-[3.5rem_1fr] sm:grid-cols-[5rem_1fr] gap-x-4 sm:gap-x-6 py-7 border-b border-gray-200">
+                  <p className="font-playfair text-h3 text-gold-ink leading-none select-none">{String(i + 1).padStart(2, '0')}</p>
+                  <div>
+                    <h3 className="font-playfair text-h3 text-black mb-2">{v.title}</h3>
+                    <p className="font-inter text-body text-gray-500 leading-relaxed max-w-[52ch]">{v.desc}</p>
+                  </div>
+                </li>
+              ))}
+            </ol>
           </div>
-          <div className="values-grid grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
-            {values.map((v) => (
-              <div key={v.title} className="value-card text-center">
-                <v.icon size={48} className="text-gold mx-auto mb-4" strokeWidth={1.5} />
-                <h3 className="font-playfair text-h3 text-black mb-3">{v.title}</h3>
-                <p className="font-inter text-body-sm text-gray-500" style={{ lineHeight: '1.6' }}>{v.desc}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+        </Container>
+      </Section>
 
       {/* Section 4: Team */}
       <section className="bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12 md:mb-16">
-            <p className="font-inter text-caption font-medium uppercase tracking-wider text-gold mb-3">THE CHEFS WE CHOOSE</p>
-            <h2 className="font-playfair text-fluid-h2 text-white mb-4" style={{ lineHeight: '1.15' }}>The Chefs We Choose</h2>
-            <p className="font-inter text-body text-gray-400 max-w-xl mx-auto">Behind every myCHEF evening is a chef we carefully selected — vetted for credentials, licensing and food-safety before they ever cook for a client. We choose the talent. We hold the standard. The artistry is theirs.</p>
+            <SectionLabel align="center" tone="dark">The chefs we choose</SectionLabel>
+            <DisplayHeading size="h2" className="text-white mb-4">The chef matters. How we choose one matters more.</DisplayHeading>
+            <BodyCopy tone="dark" className="mx-auto">Behind every myCHEF evening is a chef we selected — vetted for credentials, licensing and food safety before they ever cook for a client. We choose the talent. We hold the standard. The cooking is theirs.</BodyCopy>
           </div>
-          <div className="team-grid grid md:grid-cols-3 gap-8">
-            {team.map((chef) => (
-              <div key={chef.name} className="team-card">
-                <div className="aspect-[3/4] overflow-hidden mb-4">
+          <div className="team-grid grid md:grid-cols-3 gap-8 lg:gap-10">
+            {team.map((chef, i) => (
+              <article key={chef.name} className="team-card">
+                <div className="aspect-[3/4] overflow-hidden mb-5">
                   <img src={chef.image} alt={`${chef.name}, independent partner chef`} width={300} height={400} className="w-full h-full object-cover" loading="lazy" decoding="async" />
                 </div>
-                <h3 className="font-playfair text-h3 text-white">{chef.name}</h3>
-                <p className="font-inter text-body-sm text-gold uppercase tracking-[0.05em] mt-1">Independent partner chef</p>
-                <p className="font-inter text-body-sm text-gray-500 mt-2">{chef.role}</p>
-                <p className="font-inter text-body-sm text-gray-400 mt-3" style={{ lineHeight: '1.6' }}>{chef.bio}</p>
-                <span className="inline-block mt-3 font-inter text-caption text-gray-400 border border-charcoal-light px-3 py-1">{chef.exp}</span>
-              </div>
+                <p className="font-inter text-caption uppercase tracking-[0.12em] text-gold mb-2">
+                  {String(i + 1).padStart(2, '0')} · Independent partner chef
+                </p>
+                <h3 className="font-playfair text-h3 text-white leading-tight">{chef.name}</h3>
+                <p className="font-inter text-body-sm text-gray-300 mt-1">{chef.role} · {chef.exp}</p>
+                <p className="font-inter text-body-sm text-gray-400 leading-relaxed mt-4 pt-4 border-t border-white/10">{chef.bio}</p>
+              </article>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Section 5: Stats */}
-      <section className="bg-charcoal py-20">
-        <div className="container-custom">
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 max-w-[1000px] mx-auto text-center">
-            {stats.map((s) => (
-              <div key={s.label}>
-                <div className="stat-number font-playfair text-4xl md:text-[48px] text-gold">
-                  {s.value}
-                </div>
-                <p className="font-inter text-body-sm text-gray-400 uppercase tracking-wider mt-2">{s.label}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Section 6: Coverage Map */}
-      <section className="coverage-section bg-white section-padding">
-        <div className="container-custom">
-          <div className="text-center mb-12">
-            <p className="font-inter text-caption font-medium uppercase tracking-wider text-gold mb-3">OUR REACH</p>
-            <h2 className="font-playfair text-h2 text-black" style={{ lineHeight: '1.15' }}>We Serve All of Dubai</h2>
-          </div>
-          <div className="grid lg:grid-cols-[40%_60%] gap-12">
-            <div className="space-y-6">
-              {locations.map((loc) => (
-                <div key={loc.group} className="coverage-item">
-                  <h4 className="font-playfair text-h4 text-black mb-2">{loc.group}</h4>
-                  <div className="flex flex-wrap gap-2">
-                    {loc.items.map((item) => (
-                      <Link
-                        key={item}
-                        to={`/locations/${item.toLowerCase().replace(/\s+/g, '-')}`}
-                        className="font-inter text-body-sm text-gray-500 hover:text-gold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-charcoal rounded-sm"
-                      >
-                        {item}
-                      </Link>
-                    ))}
-                  </div>
-                </div>
+      {/* Section 5: The split — inline chain 01 → 02 → 03 → 04, not a stats band */}
+      <Section tone="charcoal" className="split-band">
+        <Container>
+          <div className="grid lg:grid-cols-[minmax(0,4fr)_minmax(0,8fr)] gap-10 lg:gap-16 items-start">
+            <div>
+              <SectionLabel tone="dark">The split</SectionLabel>
+              <DisplayHeading size="h2" className="text-white">The chef cooks. We do the other four jobs.</DisplayHeading>
+              <BodyCopy tone="dark" className="mt-5">
+                The chef is an independent partner in your kitchen. myCHEF is the system around them — the part that keeps working on their day off.
+              </BodyCopy>
+            </div>
+            <ol className="grid sm:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-8 lg:gap-x-6 border-t border-white/10 pt-8">
+              {split.map((s, i) => (
+                <li key={s.step} className="split-step max-lg:border-l max-lg:border-gold/30 max-lg:pl-5">
+                  <p className="flex items-center gap-3 mb-3 font-playfair text-h4 text-gold leading-none select-none">
+                    <span>{String(i + 1).padStart(2, '0')}</span>
+                    {i < split.length - 1 && <ArrowRight size={16} className="hidden lg:inline-block text-gold/60" aria-hidden />}
+                  </p>
+                  <h3 className="font-inter text-body font-medium text-white mb-2">{s.step}</h3>
+                  <p className="font-inter text-body-sm text-gray-400 leading-relaxed">{s.desc}</p>
+                </li>
               ))}
-            </div>
-            <div className="coverage-item flex items-center justify-center">
-              <div className="w-full h-full min-h-[300px] bg-charcoal relative overflow-hidden">
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="text-center">
-                    <p className="font-playfair text-h3 text-gold mb-4">Dubai Coverage</p>
-                    <div className="grid grid-cols-3 gap-4">
-                      {['Palm', 'Marina', 'Downtown', 'DIFC', 'Emirates Hills', 'JBR', 'Business Bay', 'Jumeirah', 'Arabian Ranches'].map((loc) => (
-                        <div key={loc} className="flex items-center gap-2">
-                          <div className="w-2 h-2 rounded-full bg-gold" />
-                          <span className="font-inter text-body-sm text-gray-400">{loc}</span>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            </ol>
           </div>
-        </div>
-      </section>
+        </Container>
+      </Section>
+
+      {/* Section 6: Coverage — hairline panels with concept icons, no placeholder map */}
+      <Section tone="white" className="coverage-section">
+        <Container>
+          <div className="max-w-[720px] mx-auto text-center mb-10 md:mb-14">
+            <SectionLabel align="center">Where we serve</SectionLabel>
+            <DisplayHeading size="h2" className="text-black">Twenty Dubai communities. The same standard in each.</DisplayHeading>
+            <BodyCopy muted className="mt-4 mx-auto">
+              Communities with their own page are linked. Not listed? Tell us the address — we serve all of Dubai.
+            </BodyCopy>
+          </div>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-px bg-gray-200 border border-gray-200">
+            {locations.map((loc) => (
+              <div key={loc.group} className="coverage-item bg-white p-6 lg:p-7">
+                <div className="flex items-center gap-4 mb-4">
+                  <span className="flex h-10 w-10 shrink-0 items-center justify-center border border-gold/35 text-gold-ink">
+                    <loc.icon size={18} strokeWidth={1.5} aria-hidden />
+                  </span>
+                  <h3 className="font-playfair text-h4 text-black">{loc.group}</h3>
+                </div>
+                <ul className="flex flex-wrap gap-x-5 gap-y-1">
+                  {loc.items.map((item) => {
+                    const slug = toLocationSlug(item)
+                    return (
+                      <li key={item} className="font-inter text-body-sm">
+                        {LOCATION_PAGES.has(slug) ? (
+                          <Link
+                            to={`/locations/${slug}`}
+                            className="inline-block py-1 text-gray-600 underline decoration-gold/40 underline-offset-4 transition-colors hover:text-gold-ink hover:decoration-gold-ink focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-white rounded-sm"
+                          >
+                            {item}
+                          </Link>
+                        ) : (
+                          <span className="inline-block py-1 text-gray-500">{item}</span>
+                        )}
+                      </li>
+                    )
+                  })}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </Container>
+      </Section>
 
       {/* Section 7: CTA Banner */}
       <section className="about-cta bg-black section-padding">
         <div className="about-cta-content container-custom text-center">
-          <h2 className="font-playfair text-fluid-h2 text-white mb-4" style={{ lineHeight: '1.15' }}>Experience the Difference</h2>
-          <p className="font-inter text-body text-gray-400 max-w-xl mx-auto mb-8">
-            Join the discerning clients who trust myCHEF Dubai for their most important occasions.
-          </p>
+          <DisplayHeading size="h2" className="text-white mb-4">Now tell us about your household.</DisplayHeading>
+          <BodyCopy tone="dark" className="mx-auto mb-8">
+            The occasion, the house, or the week you need covered — on WhatsApp, or request a quote. Prices and hours are agreed before any work starts.
+          </BodyCopy>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=about" className="btn-primary focus-visible:ring-offset-black">Request My Custom Quote</Link>
             <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-secondary focus-visible:ring-offset-black">Chat on WhatsApp</a>

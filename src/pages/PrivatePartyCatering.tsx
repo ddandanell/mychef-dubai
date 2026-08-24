@@ -19,6 +19,8 @@ import TrustSignalStrip from '../components/TrustSignalStrip'
 import LocationStrip from '../components/LocationStrip'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to plan private party catering in Dubai (via mychef.ae/private-party-catering-dubai)')
@@ -384,9 +386,7 @@ export default function PrivatePartyCatering() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            HOSTING, HANDLED
-          </span>
+          <SectionLabel align="center">HOSTING, HANDLED</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             Your Home, Transformed Into a Venue
           </h2>
@@ -403,9 +403,7 @@ export default function PrivatePartyCatering() {
       <section className="bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              HOW WE SERVE
-            </span>
+            <SectionLabel align="center" tone="dark">HOW WE SERVE</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Private Party Catering Formats
             </h2>
@@ -435,9 +433,7 @@ export default function PrivatePartyCatering() {
       <section className="bg-black section-padding pt-0">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              EVERY KIND OF GATHERING
-            </span>
+            <SectionLabel align="center" tone="dark">EVERY KIND OF GATHERING</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Private Parties we coordinate catering for
             </h2>

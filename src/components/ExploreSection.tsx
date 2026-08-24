@@ -1,4 +1,6 @@
 import { Link } from 'react-router'
+import { SectionLabel } from '@/components/system'
+
 
 interface ExploreSectionProps {
   className?: string
@@ -24,9 +26,7 @@ export default function ExploreSection({ className = '' }: ExploreSectionProps) 
     <section className={`bg-charcoal py-16 ${className}`}>
       <div className="container-custom max-w-[1100px]">
         <div className="text-center mb-10">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            Discover More
-          </span>
+          <SectionLabel align="center" tone="dark">Discover More</SectionLabel>
           <h2 className="font-playfair text-h2 text-white mb-4">
             Explore myCHEF Dubai
           </h2>

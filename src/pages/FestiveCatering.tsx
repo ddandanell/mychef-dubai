@@ -21,6 +21,8 @@ import TrustSignalStrip from '../components/TrustSignalStrip'
 import LocationStrip from '../components/LocationStrip'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to discuss festive catering (via mychef.ae/festive-catering-dubai)')
@@ -244,9 +246,7 @@ export default function FestiveCatering() {
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[1100px]">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              Browse by Occasion
-            </span>
+            <SectionLabel align="center">Browse by Occasion</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               Celebrate Every Season in Dubai
             </h2>
@@ -308,9 +308,7 @@ export default function FestiveCatering() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <div className="text-center mb-10">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              FAQ
-            </span>
+            <SectionLabel align="center">FAQ</SectionLabel>
             <h2 className="font-playfair text-fluid-h2 text-black">
               Planning Festive Catering in Dubai
             </h2>

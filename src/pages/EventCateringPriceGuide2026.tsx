@@ -18,6 +18,8 @@ import {
 import SEO from '../components/SEO'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import FaqAccordion from '../components/FaqAccordion'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent("Hi myCHEF Dubai, I read your Dubai event catering price guide and would like a custom quote for my event.")
@@ -338,9 +340,7 @@ export default function EventCateringPriceGuide2026() {
       {/* ═══════════════ Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            PLANNING & BUDGETING
-          </span>
+          <SectionLabel align="center">PLANNING & BUDGETING</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             Understand What Catering Really Costs in Dubai
           </h2>
@@ -357,9 +357,7 @@ export default function EventCateringPriceGuide2026() {
       <section className="bg-cream section-padding">
         <div className="container-custom max-w-[900px]">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              PRICING MODELS
-            </span>
+            <SectionLabel align="center">PRICING MODELS</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               How Dubai Catering Pricing Works
             </h2>
@@ -409,9 +407,7 @@ export default function EventCateringPriceGuide2026() {
       <section className="bg-black section-padding">
         <div className="container-custom max-w-[1000px]">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              2026 PRICE RANGES
-            </span>
+            <SectionLabel align="center" tone="dark">2026 PRICE RANGES</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Price Ranges by Event Type
             </h2>
@@ -452,9 +448,7 @@ export default function EventCateringPriceGuide2026() {
       <section className="bg-black section-padding pt-0">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WEDDINGS
-            </span>
+            <SectionLabel align="center" tone="dark">WEDDINGS</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Wedding Catering Costs
             </h2>
@@ -506,9 +500,7 @@ export default function EventCateringPriceGuide2026() {
       <section className="bg-cream section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              CORPORATE EVENTS
-            </span>
+            <SectionLabel align="center">CORPORATE EVENTS</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               Corporate Catering Costs
             </h2>
@@ -538,9 +530,7 @@ export default function EventCateringPriceGuide2026() {
       <section className="bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WHAT MOVES THE PRICE
-            </span>
+            <SectionLabel align="center" tone="dark">WHAT MOVES THE PRICE</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Factors That Affect Final Pricing
             </h2>
@@ -569,9 +559,7 @@ export default function EventCateringPriceGuide2026() {
         <div className="container-custom max-w-[900px]">
           <div className="grid lg:grid-cols-2 gap-12 items-start">
             <div>
-              <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-                ACCURATE QUOTES
-              </span>
+              <SectionLabel>ACCURATE QUOTES</SectionLabel>
               <h2 className="font-playfair text-h2 text-black mb-6">
                 How to Get an Accurate Quote
               </h2>

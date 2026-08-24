@@ -19,6 +19,8 @@ import {
 import SEO from '../../components/SEO'
 import TrustSignalStrip from '../../components/TrustSignalStrip'
 import FaqAccordion from '../../components/FaqAccordion'
+import { SectionLabel } from '../../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like villa catering ideas for my home (via mychef.ae/villa-catering-ideas-dubai)')
@@ -274,9 +276,7 @@ export default function VillaCateringIdeas() {
       {/* ═══════════════ Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            VILLA PARTY CATERING
-          </span>
+          <SectionLabel align="center">VILLA PARTY CATERING</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             Turn Your Villa Into the Venue
           </h2>
@@ -293,9 +293,7 @@ export default function VillaCateringIdeas() {
       <section className="bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              MENU FORMATS
-            </span>
+            <SectionLabel align="center" tone="dark">MENU FORMATS</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Villa Catering Ideas That Work
             </h2>
@@ -321,9 +319,7 @@ export default function VillaCateringIdeas() {
         <div className="container-custom max-w-[900px]">
           <div className="grid lg:grid-cols-2 gap-12">
             <div>
-              <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-                FLOW & LAYOUT
-              </span>
+              <SectionLabel>FLOW & LAYOUT</SectionLabel>
               <h2 className="font-playfair text-h2 text-black mb-6">
                 Villa Setup Tips
               </h2>
@@ -347,9 +343,7 @@ export default function VillaCateringIdeas() {
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[1000px]">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              SERVICE TEAM
-            </span>
+            <SectionLabel align="center">SERVICE TEAM</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               Staffing for Villa Events
             </h2>
@@ -380,9 +374,7 @@ export default function VillaCateringIdeas() {
       <section className="bg-black section-padding">
         <div className="container-custom max-w-[900px]">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              SEASONALITY
-            </span>
+            <SectionLabel align="center" tone="dark">SEASONALITY</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Planning Around Dubai's Weather
             </h2>
@@ -404,9 +396,7 @@ export default function VillaCateringIdeas() {
       <section className="bg-charcoal section-padding">
         <div className="container-custom max-w-[900px]">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WHEN TO BOOK MYCHEF
-            </span>
+            <SectionLabel align="center" tone="dark">WHEN TO BOOK MYCHEF</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Why Villa Hosts Choose Us
             </h2>

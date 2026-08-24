@@ -19,6 +19,8 @@ import TrustSignalStrip from '../components/TrustSignalStrip'
 import LocationStrip from '../components/LocationStrip'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent("Hi myCHEF Dubai, I'd like to plan bachelor party catering (via mychef.ae/bachelor-party-catering-dubai)")
@@ -329,9 +331,7 @@ export default function BachelorPartyCatering() {
       {/* ═══════════════ Section 2: Intro ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            THE LAST NIGHT OUT
-          </span>
+          <SectionLabel align="center">THE LAST NIGHT OUT</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             A Send-Off Worth Remembering
           </h2>
@@ -354,9 +354,7 @@ export default function BachelorPartyCatering() {
       <section className="bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WHAT WE BRING
-            </span>
+            <SectionLabel align="center" tone="dark">WHAT WE BRING</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Catering Built for the Party
             </h2>
@@ -386,9 +384,7 @@ export default function BachelorPartyCatering() {
       <section className="bg-cream section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WAYS TO CELEBRATE
-            </span>
+            <SectionLabel align="center">WAYS TO CELEBRATE</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               Where we coordinate catering for Bachelor Parties
             </h2>

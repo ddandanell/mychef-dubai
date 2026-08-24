@@ -10,6 +10,8 @@ import TrustSignalStrip from '@/components/TrustSignalStrip'
 import LocationStrip from '@/components/LocationStrip'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { deferNonCritical } from '../lib/deferNonCritical'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent("Hi myCHEF Dubai, I'd like a villa private chef / catering quote. Date(s): __, Guests: __, Villa community: __, Occasion: __ (via mychef.ae/villas-private-residences)")
@@ -257,7 +259,7 @@ export default function Villas() {
       <section className="bg-white section-padding">
         <div className="container-custom">
           <div className="text-center mb-16">
-            <p className="font-inter text-caption font-medium uppercase tracking-wider text-gold mb-3">VILLA SERVICES</p>
+            <SectionLabel align="center">VILLA SERVICES</SectionLabel>
             <h2 className="font-playfair text-h2 text-black" style={{ lineHeight: '1.15' }}>
               Chef Services for Your Dubai Villa
             </h2>
@@ -284,7 +286,7 @@ export default function Villas() {
       <section className="bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-16">
-            <p className="font-inter text-caption font-medium uppercase tracking-wider text-gold mb-3">DUBAI VILLA COMMUNITIES</p>
+            <SectionLabel align="center" tone="dark">DUBAI VILLA COMMUNITIES</SectionLabel>
             <h2 className="font-playfair text-h2 text-white" style={{ lineHeight: '1.15' }}>
               We Serve Every Villa Community in Dubai
             </h2>
@@ -316,7 +318,7 @@ export default function Villas() {
       <section className="bg-white section-padding">
         <div className="container-custom">
           <div className="text-center mb-16">
-            <p className="font-inter text-caption font-medium uppercase tracking-wider text-gold mb-3">VILLA LOCATIONS</p>
+            <SectionLabel align="center">VILLA LOCATIONS</SectionLabel>
             <h2 className="font-playfair text-h2 text-black" style={{ lineHeight: '1.15' }}>
               Villa Locations We Serve
             </h2>
@@ -362,7 +364,7 @@ export default function Villas() {
         <div className="container-custom">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
-              <p className="font-inter text-caption font-medium uppercase tracking-wider text-gold mb-3">WHY VILLA DINING</p>
+              <SectionLabel align="center">WHY VILLA DINING</SectionLabel>
               <h2 className="font-playfair text-h2 text-black mb-6" style={{ lineHeight: '1.15' }}>
                 The myCHEF Villa Advantage
               </h2>
@@ -400,7 +402,7 @@ export default function Villas() {
       <section className="bg-black py-20">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <p className="font-inter text-caption font-medium uppercase tracking-wider text-gold mb-3">GALLERY</p>
+            <SectionLabel align="center" tone="dark">GALLERY</SectionLabel>
             <h2 className="font-playfair text-h2 text-white" style={{ lineHeight: '1.15' }}>
               Villa Dining Moments
             </h2>
@@ -437,7 +439,7 @@ export default function Villas() {
       <section className="bg-white section-padding">
         <div className="max-w-[800px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <p className="font-inter text-caption font-medium uppercase tracking-wider text-gold mb-3">FAQ</p>
+            <SectionLabel align="center">FAQ</SectionLabel>
             <h2 className="font-playfair text-h2 text-black" style={{ lineHeight: '1.15' }}>
               Common Questions About Villa Chef Services
             </h2>

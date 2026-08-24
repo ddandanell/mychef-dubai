@@ -15,6 +15,8 @@ import SEO from '../../components/SEO'
 import TrustSignalStrip from '../../components/TrustSignalStrip'
 import FaqAccordion from '../../components/FaqAccordion'
 import { howToSchema } from '../../utils/schema'
+import { SectionLabel } from '../../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'m comparing caterers and would like to learn more (via mychef.ae/how-to-choose-caterer-dubai)')
@@ -273,9 +275,7 @@ export default function HowToChooseCatererDubai() {
       {/* ═══════════════ Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            VETTING & SELECTION
-          </span>
+          <SectionLabel align="center">VETTING & SELECTION</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             Make Your Decision With Confidence
           </h2>
@@ -292,9 +292,7 @@ export default function HowToChooseCatererDubai() {
       <section className="bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              10-POINT CHECKLIST
-            </span>
+            <SectionLabel align="center" tone="dark">10-POINT CHECKLIST</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               What to Check Before You Book
             </h2>
@@ -321,9 +319,7 @@ export default function HowToChooseCatererDubai() {
         <div className="container-custom max-w-[900px]">
           <div className="grid lg:grid-cols-2 gap-12">
             <div>
-              <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-                WATCH OUT FOR
-              </span>
+              <SectionLabel>WATCH OUT FOR</SectionLabel>
               <h2 className="font-playfair text-h2 text-black mb-6">
                 Red Flags to Avoid
               </h2>
@@ -347,9 +343,7 @@ export default function HowToChooseCatererDubai() {
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[900px]">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              DURING THE ENQUIRY
-            </span>
+            <SectionLabel align="center">DURING THE ENQUIRY</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               Questions to Ask Every Caterer
             </h2>
@@ -370,9 +364,7 @@ export default function HowToChooseCatererDubai() {
       <section className="bg-black section-padding">
         <div className="container-custom max-w-[900px]">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WHEN TO BOOK MYCHEF
-            </span>
+            <SectionLabel align="center" tone="dark">WHEN TO BOOK MYCHEF</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Why Hosts Choose myCHEF Dubai
             </h2>

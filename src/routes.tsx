@@ -16,6 +16,11 @@ const ChefMarco: PreloadableComponent = lazyPreloadable(() => import('./pages/ch
 const ChefLayla: PreloadableComponent = lazyPreloadable(() => import('./pages/chefs/ChefLayla'))
 const Menus: PreloadableComponent = lazyPreloadable(() => import('./pages/Menus'))
 const PrivateChef: PreloadableComponent = lazyPreloadable(() => import('./pages/PrivateChef'))
+const PrivateChefHowItWorks: PreloadableComponent = lazyPreloadable(() => import('./pages/private-chef/HowItWorks'))
+const PrivateChefOurChefsPage: PreloadableComponent = lazyPreloadable(() => import('./pages/private-chef/OurChefs'))
+const PrivateChefQualityTraining: PreloadableComponent = lazyPreloadable(() => import('./pages/private-chef/QualityTraining'))
+const PrivateChefPrivacySecurity: PreloadableComponent = lazyPreloadable(() => import('./pages/private-chef/PrivacySecurity'))
+const PrivateChefPricing: PreloadableComponent = lazyPreloadable(() => import('./pages/private-chef/Pricing'))
 const PrivateChefPrices: PreloadableComponent = lazyPreloadable(() => import('./pages/PrivateChefPrices'))
 const Catering: PreloadableComponent = lazyPreloadable(() => import('./pages/Catering'))
 const CateringPackages: PreloadableComponent = lazyPreloadable(() => import('./pages/CateringPackages'))
@@ -209,6 +214,11 @@ export const routes: AppRoute[] = [
   { path: "/chefs/layla-middle-eastern-chef", element: <ChefLayla />, preload: ChefLayla.preload },
   { path: "/menus", element: <Menus />, preload: Menus.preload },
   { path: "/private-chef-dubai", element: <PrivateChef />, preload: PrivateChef.preload },
+  { path: "/private-chef-dubai/how-it-works", element: <PrivateChefHowItWorks />, preload: PrivateChefHowItWorks.preload },
+  { path: "/private-chef-dubai/our-chefs", element: <PrivateChefOurChefsPage />, preload: PrivateChefOurChefsPage.preload },
+  { path: "/private-chef-dubai/quality-training", element: <PrivateChefQualityTraining />, preload: PrivateChefQualityTraining.preload },
+  { path: "/private-chef-dubai/privacy-security", element: <PrivateChefPrivacySecurity />, preload: PrivateChefPrivacySecurity.preload },
+  { path: "/private-chef-dubai/pricing", element: <PrivateChefPricing />, preload: PrivateChefPricing.preload },
   { path: "/private-chef-prices-dubai", element: <PrivateChefPrices />, preload: PrivateChefPrices.preload },
   { path: "/catering-dubai", element: <Catering />, preload: Catering.preload },
   { path: "/catering-packages-dubai", element: <CateringPackages />, preload: CateringPackages.preload },

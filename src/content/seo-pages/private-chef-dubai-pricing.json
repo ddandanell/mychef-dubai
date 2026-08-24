@@ -1,0 +1,68 @@
+{
+ "url": "/private-chef-dubai/pricing",
+ "keyword_strategy": {
+  "keyword_lock": {
+   "scope": "Private Chef cluster only (/private-chef-dubai/*). Do not apply these locks to other site sections.",
+   "locked_primary": "home chef dubai",
+   "locked_primary_volume": 50,
+   "locked_primary_kd": 19,
+   "locked_primary_intent": "commercial",
+   "secondary_validated": [
+    {
+     "keyword": "private chef hire",
+     "volume": 30,
+     "kd": 9,
+     "intent": "informational"
+    },
+    {
+     "keyword": "personal cook dubai",
+     "volume": 70,
+     "kd": 29,
+     "intent": "commercial"
+    },
+    {
+     "keyword": "part time cook in dubai",
+     "volume": 40,
+     "kd": 13,
+     "intent": "informational"
+    }
+   ],
+   "owned_by_sibling_pages_do_not_target": [
+    {
+     "keyword": "cook in dubai",
+     "owner": "/private-chef-dubai/how-it-works"
+    },
+    {
+     "keyword": "personal chef dubai",
+     "owner": "/private-chef-dubai/our-chefs"
+    },
+    {
+     "keyword": "healthy food chef",
+     "owner": "/private-chef-dubai/quality-training"
+    },
+    {
+     "keyword": "private chef for family",
+     "owner": "/private-chef-dubai/privacy-security"
+    },
+    {
+     "keyword": "private chef dubai",
+     "owner": "/private-chef-dubai"
+    }
+   ],
+   "source": "Semrush UAE export 2026-08-25",
+   "source_of_truth": "KEYWORD_LOCKS in src/content/privateChefCluster.ts"
+  },
+  "main_keyword": "home chef dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": false,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "note": "Hero system 2026-08-25: H1 is brand language. Primary \"home chef dubai\" stays in title, meta, calculator section and body. Copy is driven from childSeo in src/content/privateChefCluster.ts."
+ },
+ "head": {
+  "title": "Home Chef Dubai Prices | Private Chef Hire Plans | myCHEF",
+  "meta_description": "Home chef Dubai prices for standing household plans. Daily Prep from AED 675, Dinner Service from AED 825, Full-Day Chef from AED 1,575. Groceries at cost. Build your monthly figure."
+ }
+}

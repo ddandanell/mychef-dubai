@@ -18,6 +18,8 @@ import {
 } from 'lucide-react'
 import SEO from '../../components/SEO'
 import TrustSignalStrip from '../../components/TrustSignalStrip'
+import { SectionLabel } from '../../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I would like to plan a private dining experience in Dubai (via mychef.ae/guide/private-dining-dubai)')
@@ -348,9 +350,7 @@ export default function PrivateDiningGuide() {
       {/* ═══════════════ Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center pd-intro opacity-0 translate-y-10">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            INTIMATE, CHEF-LED DINING
-          </span>
+          <SectionLabel align="center">INTIMATE, CHEF-LED DINING</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             What Private Dining Means in Dubai
           </h2>
@@ -372,9 +372,7 @@ export default function PrivateDiningGuide() {
         <div className="container-custom max-w-[1000px]">
           <div className="grid lg:grid-cols-2 gap-12 items-start">
             <div className="pd-what-card opacity-0 translate-y-10">
-              <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-                DEFINED
-              </span>
+              <SectionLabel tone="dark">DEFINED</SectionLabel>
               <h2 className="font-playfair text-h2 text-white mb-6">
                 What Is Private Dining in Dubai?
               </h2>
@@ -402,9 +400,7 @@ export default function PrivateDiningGuide() {
       <section className="bg-cream section-padding pd-types">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              EXPERIENCE FORMATS
-            </span>
+            <SectionLabel align="center">EXPERIENCE FORMATS</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               Types of Private Dining Experiences
             </h2>
@@ -425,9 +421,7 @@ export default function PrivateDiningGuide() {
       <section className="bg-white section-padding pd-criteria">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              SELECTING THE RIGHT CHEF
-            </span>
+            <SectionLabel align="center">SELECTING THE RIGHT CHEF</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               How to Choose a Private Chef in Dubai
             </h2>
@@ -455,9 +449,7 @@ export default function PrivateDiningGuide() {
       <section className="bg-black section-padding">
         <div className="container-custom max-w-[1000px]">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              MENU PLANNING
-            </span>
+            <SectionLabel align="center" tone="dark">MENU PLANNING</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               What to Expect From the Process
             </h2>
@@ -502,9 +494,7 @@ export default function PrivateDiningGuide() {
       <section className="bg-white section-padding pd-pricing">
         <div className="container-custom max-w-[1000px]">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              PRICING OVERVIEW
-            </span>
+            <SectionLabel align="center">PRICING OVERVIEW</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               What Affects Private Dining Pricing
             </h2>
@@ -542,9 +532,7 @@ export default function PrivateDiningGuide() {
       <section className="bg-cream section-padding pd-occasions">
         <div className="container-custom max-w-[900px]">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              POPULAR USE CASES
-            </span>
+            <SectionLabel align="center">POPULAR USE CASES</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               Best Occasions for Private Dining
             </h2>
@@ -565,9 +553,7 @@ export default function PrivateDiningGuide() {
       <section className="bg-black section-padding pd-compare">
         <div className="container-custom max-w-[1000px]">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              PRIVATE DINING VS. LUXURY CATERING
-            </span>
+            <SectionLabel align="center" tone="dark">PRIVATE DINING VS. LUXURY CATERING</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Which Service Do You Need?
             </h2>

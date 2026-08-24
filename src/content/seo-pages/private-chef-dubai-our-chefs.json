@@ -1,0 +1,74 @@
+{
+ "url": "/private-chef-dubai/our-chefs",
+ "keyword_strategy": {
+  "keyword_lock": {
+   "scope": "Private Chef cluster only (/private-chef-dubai/*). Do not apply these locks to other site sections.",
+   "locked_primary": "personal chef dubai",
+   "locked_primary_volume": 70,
+   "locked_primary_kd": 22,
+   "locked_primary_intent": "commercial",
+   "secondary_validated": [
+    {
+     "keyword": "hire a chef",
+     "volume": 70,
+     "kd": 19,
+     "intent": "informational"
+    },
+    {
+     "keyword": "hire chef dubai",
+     "volume": 30,
+     "kd": 19,
+     "intent": "commercial"
+    },
+    {
+     "keyword": "indian chef dubai",
+     "volume": 30,
+     "kd": 20,
+     "intent": "informational"
+    },
+    {
+     "keyword": "looking for chef",
+     "volume": 30,
+     "kd": 22,
+     "intent": "informational"
+    }
+   ],
+   "owned_by_sibling_pages_do_not_target": [
+    {
+     "keyword": "cook in dubai",
+     "owner": "/private-chef-dubai/how-it-works"
+    },
+    {
+     "keyword": "healthy food chef",
+     "owner": "/private-chef-dubai/quality-training"
+    },
+    {
+     "keyword": "private chef for family",
+     "owner": "/private-chef-dubai/privacy-security"
+    },
+    {
+     "keyword": "home chef dubai",
+     "owner": "/private-chef-dubai/pricing"
+    },
+    {
+     "keyword": "private chef dubai",
+     "owner": "/private-chef-dubai"
+    }
+   ],
+   "source": "Semrush UAE export 2026-08-25",
+   "source_of_truth": "KEYWORD_LOCKS in src/content/privateChefCluster.ts"
+  },
+  "main_keyword": "personal chef dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": false,
+   "meta_description": true,
+   "opening_paragraph": false
+  },
+  "note": "Hero system 2026-08-25: H1 is brand language. Primary \"personal chef dubai\" stays in title, meta, matching H2 and body. Copy is driven from childSeo in src/content/privateChefCluster.ts."
+ },
+ "head": {
+  "title": "Personal Chef Dubai | Chef Selection & Matching | myCHEF",
+  "meta_description": "How to hire a chef in Dubai through myCHEF: identity checks, a practical cooking assessment, references and chef levels. Find a personal chef in Dubai matched to your household."
+ }
+}

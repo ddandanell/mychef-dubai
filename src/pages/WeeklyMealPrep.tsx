@@ -24,6 +24,8 @@ import VIPPromoSection from '../components/VIPPromoSection'
 import { breadcrumbSchema, faqPageSchema, serviceSchema } from '../utils/schema'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to request a proposal for weekly meal prep in Dubai (via mychef.ae/weekly-meal-prep-dubai)')
@@ -339,9 +341,7 @@ export default function WeeklyMealPrep() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            FRESH MEALS, MADE FOR YOUR WEEK
-          </span>
+          <SectionLabel align="center">FRESH MEALS, MADE FOR YOUR WEEK</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             Skip the Takeout. Reclaim Your Evenings.
           </h2>
@@ -366,9 +366,7 @@ export default function WeeklyMealPrep() {
       <section className="bg-cream section-padding">
         <div className="container-custom max-w-[1000px]">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              THE PROCESS
-            </span>
+            <SectionLabel align="center">THE PROCESS</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               How Weekly Meal Prep Works
             </h2>
@@ -400,9 +398,7 @@ export default function WeeklyMealPrep() {
       <section className="wmp-tiers bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              STARTING PRICES
-            </span>
+            <SectionLabel align="center" tone="dark">STARTING PRICES</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Weekly Meal Prep Plans
             </h2>
@@ -451,9 +447,7 @@ export default function WeeklyMealPrep() {
       <section className="bg-white section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WHY PRIVATE CHEF MEAL PREP
-            </span>
+            <SectionLabel align="center">WHY PRIVATE CHEF MEAL PREP</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               Benefits of Weekly Meal Prep
             </h2>
@@ -478,9 +472,7 @@ export default function WeeklyMealPrep() {
       <section className="bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              MADE FOR
-            </span>
+            <SectionLabel align="center" tone="dark">MADE FOR</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Who Weekly Meal Prep Is For
             </h2>

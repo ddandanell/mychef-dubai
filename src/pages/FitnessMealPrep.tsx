@@ -17,6 +17,8 @@ import TrustSignalStrip from '../components/TrustSignalStrip'
 import { breadcrumbSchema, faqPageSchema, serviceSchema } from '../utils/schema'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to discuss fitness meal prep (via mychef.ae/fitness-meal-prep-dubai)')
@@ -226,9 +228,7 @@ export default function FitnessMealPrep() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            PERFORMANCE NUTRITION
-          </span>
+          <SectionLabel align="center">PERFORMANCE NUTRITION</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             Eat for the Body You Are Building
           </h2>
@@ -250,9 +250,7 @@ export default function FitnessMealPrep() {
       <section className="fm-features bg-cream section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              THE DETAILS
-            </span>
+            <SectionLabel align="center">THE DETAILS</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               Precision Without Compromise
             </h2>
@@ -277,9 +275,7 @@ export default function FitnessMealPrep() {
       <section className="bg-black section-padding">
         <div className="container-custom max-w-[1000px]">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              GOAL-SPECIFIC PLANS
-            </span>
+            <SectionLabel align="center" tone="dark">GOAL-SPECIFIC PLANS</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Match Meals to Your Goal
             </h2>

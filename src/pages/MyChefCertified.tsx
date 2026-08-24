@@ -17,6 +17,8 @@ import SEO from '../components/SEO'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import { breadcrumbSchema, faqPageSchema, serviceSchema } from '../utils/schema'
 import FaqAccordion from '../components/FaqAccordion'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to know more about MyChef Certified (via mychef.ae/mychef-certified)')
@@ -244,9 +246,7 @@ export default function MyChefCertified() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            TRUST BUILT IN, NOT ADDED ON
-          </span>
+          <SectionLabel align="center">TRUST BUILT IN, NOT ADDED ON</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             A Standard You Can Taste
           </h2>
@@ -268,9 +268,7 @@ export default function MyChefCertified() {
       <section className="mc-inclusions bg-cream section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WHAT IS INCLUDED
-            </span>
+            <SectionLabel align="center">WHAT IS INCLUDED</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               Four Pillars of Certification
             </h2>
@@ -295,9 +293,7 @@ export default function MyChefCertified() {
       <section className="mc-packages bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              CERTIFICATION LEVELS
-            </span>
+            <SectionLabel align="center" tone="dark">CERTIFICATION LEVELS</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Chef Qualification Tiers
             </h2>

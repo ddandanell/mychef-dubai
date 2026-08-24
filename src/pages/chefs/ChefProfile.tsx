@@ -5,8 +5,10 @@ import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import { Award, Calendar, ChefHat, Check } from 'lucide-react'
 import SEO from '@/components/SEO'
 import PageHero from '@/components/PageHero'
+import { SectionLabel } from '@/components/system'
 import TrustSignalStrip from '@/components/TrustSignalStrip'
 import { breadcrumbSchema } from '@/utils/schema'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const SITE_URL = 'https://www.mychef.ae'
@@ -208,9 +210,7 @@ export default function ChefProfile({ chef }: ChefProfileProps) {
             </div>
 
             <div className="overview-content">
-              <span className="font-inter text-caption font-medium uppercase tracking-wider text-gold mb-4 block">
-                {chef.title}
-              </span>
+              <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">{chef.title}</span>
               <h2 className="font-playfair text-h2 text-black mb-2">{chef.name}</h2>
               {chef.partnerLabel && (
                 <p className="font-inter text-body-sm text-gold mb-4">{chef.partnerLabel}</p>
@@ -253,9 +253,7 @@ export default function ChefProfile({ chef }: ChefProfileProps) {
       <section ref={menusRef} className="bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption font-medium uppercase tracking-wider text-gold mb-4 block">
-              SIGNATURE CREATIONS
-            </span>
+            <SectionLabel align="center" tone="dark">SIGNATURE CREATIONS</SectionLabel>
             <h2 className="font-playfair text-h2 text-white mb-4">Sample Menus by {firstName}</h2>
             <p className="font-inter text-body text-gray-400 max-w-[640px] mx-auto">
               Every menu is fully bespoke. These examples show the style and range {firstName} brings to your table.

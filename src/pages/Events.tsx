@@ -20,6 +20,8 @@ import {
 import { Check, Quote, ArrowRight, } from 'lucide-react'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { deferNonCritical } from '../lib/deferNonCritical'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent(
@@ -491,9 +493,7 @@ export default function Events() {
         <div className="container-custom">
           {/* Header */}
           <div className="text-center mb-12 max-w-3xl mx-auto">
-            <span className="font-inter text-caption font-medium uppercase tracking-widest text-gold">
-              WHAT EVENTS DO YOU CATER?
-            </span>
+            <SectionLabel align="center">WHAT EVENTS DO YOU CATER?</SectionLabel>
             <h2 className="font-playfair text-h2 text-black mt-4">
               What events can myCHEF Dubai cater?
             </h2>
@@ -564,9 +564,7 @@ export default function Events() {
         <div className="container-custom max-w-[1000px]">
           {/* Header */}
           <div className="text-center mb-16">
-            <span className="font-inter text-caption font-medium uppercase tracking-widest text-gold">
-              HOW IT WORKS
-            </span>
+            <SectionLabel align="center" tone="dark">HOW IT WORKS</SectionLabel>
             <h2 className="font-playfair text-h2 text-white mt-4">
               How does booking event catering in Dubai work?
             </h2>
@@ -632,9 +630,7 @@ export default function Events() {
         <div className="container-custom">
           {/* Header */}
           <div className="text-center mb-12">
-            <span className="font-inter text-caption font-medium uppercase tracking-widest text-gold">
-              EVENT GALLERY
-            </span>
+            <SectionLabel align="center" tone="dark">EVENT GALLERY</SectionLabel>
             <h2 className="font-playfair text-h2 text-white mt-4">
               What do myCHEF Dubai events look like?
             </h2>
@@ -711,9 +707,7 @@ export default function Events() {
         <div className="container-custom max-w-[800px]">
           {/* Header */}
           <div className="text-center mb-12">
-            <span className="font-inter text-caption font-medium uppercase tracking-widest text-gold">
-              COMMON QUESTIONS
-            </span>
+            <SectionLabel align="center">COMMON QUESTIONS</SectionLabel>
             <h2 className="font-playfair text-h2 text-black mt-4">
               Frequently asked questions about event catering in Dubai
             </h2>
@@ -771,9 +765,7 @@ export default function Events() {
       <section className="bg-white section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption font-medium uppercase tracking-widest text-gold">
-              MORE EVENTS we coordinate catering for
-            </span>
+            <SectionLabel align="center">MORE EVENTS we coordinate catering for</SectionLabel>
             <h2 className="font-playfair text-h2 text-black mt-4">
               Which other events can myCHEF Dubai cater?
             </h2>

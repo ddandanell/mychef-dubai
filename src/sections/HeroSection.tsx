@@ -255,32 +255,21 @@ export default function HeroSection() {
           ref={statsRef}
           className="mt-10 md:mt-16 opacity-0"
         >
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 md:gap-8 max-w-2xl mx-auto md:mx-0">
-            <div className="text-center md:text-left">
-              <div className="stat-number font-playfair text-2xl md:text-4xl text-gold font-semibold">
-                <span className="text-gold">Private</span>
-              </div>
-              <div className="font-inter text-caption md:text-body-sm text-gray-400 uppercase tracking-wider mt-1">
-                Events & Dinners
-              </div>
+          {/* Three facts from this page, not three adjectives styled as counters */}
+          <dl className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-0 max-w-2xl mx-auto md:mx-0 sm:divide-x sm:divide-white/15">
+            <div className="text-center md:text-left sm:px-6 sm:first:pl-0">
+              <dt className="font-inter text-caption text-white/60 uppercase tracking-wider">Where we cook</dt>
+              <dd className="stat-number font-playfair text-2xl md:text-3xl text-white mt-1 leading-tight">Villas, yachts &amp; homes</dd>
             </div>
-            <div className="text-center md:text-left">
-              <div className="stat-number font-playfair text-2xl md:text-4xl text-gold font-semibold">
-                <span className="text-gold">Chef-Led</span>
-              </div>
-              <div className="font-inter text-caption md:text-body-sm text-gray-400 uppercase tracking-wider mt-1">
-                Dining Experiences
-              </div>
+            <div className="text-center md:text-left sm:px-6">
+              <dt className="font-inter text-caption text-white/60 uppercase tracking-wider">Guests per booking</dt>
+              <dd className="stat-number font-playfair text-2xl md:text-3xl text-white mt-1 leading-tight">2 to 500+</dd>
             </div>
-            <div className="text-center md:text-left">
-              <div className="stat-number font-playfair text-2xl md:text-4xl text-gold font-semibold">
-                <span className="text-gold">Dubai-wide</span>
-              </div>
-              <div className="font-inter text-caption md:text-body-sm text-gray-400 uppercase tracking-wider mt-1">
-                Service Coverage
-              </div>
+            <div className="text-center md:text-left sm:px-6">
+              <dt className="font-inter text-caption text-white/60 uppercase tracking-wider">Kitchen standard</dt>
+              <dd className="stat-number font-playfair text-2xl md:text-3xl text-white mt-1 leading-tight">Halal-first</dd>
             </div>
-          </div>
+          </dl>
         </div>
       </div>
     </section>

@@ -23,6 +23,8 @@ import LocationStrip from '../components/LocationStrip'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { deferNonCritical } from '../lib/deferNonCritical'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like a private chef quote for my event (via mychef.ae/private-chef-prices-dubai)')
@@ -288,9 +290,7 @@ export default function PrivateChefPrices() {
       <section className="bg-white section-padding prices-content">
         <div className="container-custom max-w-[900px]">
           <div className="prices-section opacity-0 translate-y-8 text-center mb-10">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              Indicative Pricing
-            </span>
+            <SectionLabel align="center">Indicative Pricing</SectionLabel>
             <h2 className="font-playfair text-h2 text-black mb-4">
               Private Chef Cost by Group Size
             </h2>
@@ -333,9 +333,7 @@ export default function PrivateChefPrices() {
         <div className="container-custom max-w-[900px]">
           <div className="prices-section opacity-0 translate-y-8 grid md:grid-cols-2 gap-10 items-start">
             <div>
-              <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-                What's Included
-              </span>
+              <SectionLabel align="center">What's Included</SectionLabel>
               <h2 className="font-playfair text-h2 text-black mb-6">
                 What You Get with a Private Chef
               </h2>
@@ -371,9 +369,7 @@ export default function PrivateChefPrices() {
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[1100px]">
           <div className="prices-section opacity-0 translate-y-8 text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              Cost Drivers
-            </span>
+            <SectionLabel align="center">Cost Drivers</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               What Affects Private Chef Pricing?
             </h2>
@@ -400,9 +396,7 @@ export default function PrivateChefPrices() {
       <section className="bg-black section-padding">
         <div className="container-custom max-w-[1100px]">
           <div className="prices-section opacity-0 translate-y-8 text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              Sample Menus
-            </span>
+            <SectionLabel align="center" tone="dark">Sample Menus</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Three Ways to Experience a Private Chef
             </h2>
@@ -429,9 +423,7 @@ export default function PrivateChefPrices() {
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[900px]">
           <div className="prices-section opacity-0 translate-y-8 text-center mb-10">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              Explore More
-            </span>
+            <SectionLabel align="center">Explore More</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               Related Planning Resources
             </h2>
@@ -461,9 +453,7 @@ export default function PrivateChefPrices() {
       <section className="bg-cream py-20">
         <div className="container-custom max-w-[800px]">
           <div className="prices-section opacity-0 translate-y-8 text-center mb-10">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              FAQ
-            </span>
+            <SectionLabel align="center">FAQ</SectionLabel>
             <h2 className="font-playfair text-fluid-h2 text-black">
               Common Questions About Private Chef Prices
             </h2>

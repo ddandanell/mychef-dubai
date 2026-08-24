@@ -1,6 +1,5 @@
 import { Link } from 'react-router'
 import SEO from '@/components/SEO'
-import TrustBar from '@/components/TrustBar'
 import TrustSignalStrip from '@/components/TrustSignalStrip'
 import LocationStrip from '@/components/LocationStrip'
 import HeroSection from '@/sections/HeroSection'
@@ -30,7 +29,6 @@ export default function Home() {
       />
       <HeroSection />
       <TrustSignalStrip />
-      <TrustBar />
       <ServicesSection />
       <StarterPackagesSection
         campaign="home"

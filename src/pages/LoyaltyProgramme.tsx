@@ -16,6 +16,8 @@ import SEO from '../components/SEO'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import { breadcrumbSchema, faqPageSchema, serviceSchema } from '../utils/schema'
 import FaqAccordion from '../components/FaqAccordion'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to learn about the loyalty programme (via mychef.ae/loyalty-programme)')
@@ -243,9 +245,7 @@ export default function LoyaltyProgramme() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            EAT WELL, EARN MORE
-          </span>
+          <SectionLabel align="center">EAT WELL, EARN MORE</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             Rewards That Taste Better
           </h2>
@@ -267,9 +267,7 @@ export default function LoyaltyProgramme() {
       <section className="lp-inclusions bg-cream section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WHAT IS INCLUDED
-            </span>
+            <SectionLabel align="center">WHAT IS INCLUDED</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               How You Earn and Grow
             </h2>
@@ -294,9 +292,7 @@ export default function LoyaltyProgramme() {
       <section className="lp-packages bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              LOYALTY TIERS
-            </span>
+            <SectionLabel align="center" tone="dark">LOYALTY TIERS</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Climb the Tiers
             </h2>

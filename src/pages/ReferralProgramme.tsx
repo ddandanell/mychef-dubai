@@ -8,6 +8,8 @@ import SEO from '../components/SEO'
 import PageHero from '../components/PageHero'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import { breadcrumbSchema, serviceSchema } from '../utils/schema'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to join the referral programme (via mychef.ae/referral-programme)')
@@ -110,7 +112,7 @@ export default function ReferralProgramme() {
       <section className="bg-cream section-padding">
         <div className="container-custom max-w-[1000px]">
           <div className="text-center mb-12 ref-fade opacity-0 translate-y-8">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">How It Works</span>
+            <SectionLabel align="center">How It Works</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">Three Steps to Earn Credit</h2>
           </div>
           <div className="ref-cards grid md:grid-cols-3 gap-6">
@@ -134,7 +136,7 @@ export default function ReferralProgramme() {
         <div className="container-custom max-w-[900px]">
           <div className="grid md:grid-cols-2 gap-10 items-center">
             <div className="ref-fade opacity-0 translate-y-8">
-              <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">Why Refer</span>
+              <SectionLabel align="center" tone="dark">Why Refer</SectionLabel>
               <h2 className="font-playfair text-h2 text-white mb-6">Share Great Food, Earn Great Rewards</h2>
               <p className="font-inter text-body text-gray-400 leading-relaxed mb-6">
                 The best recommendations come from people who have experienced myCHEF firsthand. Our referral programme rewards you for spreading the word about exceptional private dining and catering in Dubai.
@@ -167,7 +169,7 @@ export default function ReferralProgramme() {
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[800px]">
           <div className="ref-fade opacity-0 translate-y-8 text-center mb-10">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">Terms</span>
+            <SectionLabel align="center">Terms</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">Referral Programme Terms</h2>
           </div>
           <div className="ref-fade opacity-0 translate-y-8 space-y-4">

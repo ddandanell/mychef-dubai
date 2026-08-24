@@ -21,6 +21,8 @@ import SEO from '../../components/SEO'
 import TrustSignalStrip from '../../components/TrustSignalStrip'
 import FaqAccordion from '../../components/FaqAccordion'
 import { howToSchema } from '../../utils/schema'
+import { SectionLabel } from '../../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to discuss yacht catering (via mychef.ae/yacht-catering-checklist-dubai)')
@@ -337,9 +339,7 @@ export default function YachtCateringChecklist() {
       {/* ═══════════════ Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            Yacht Event Planning
-          </span>
+          <SectionLabel align="center">Yacht Event Planning</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             Catering at Sea Demands a Different Playbook
           </h2>
@@ -356,9 +356,7 @@ export default function YachtCateringChecklist() {
       <section className="bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              Why Yacht Catering Is Unique
-            </span>
+            <SectionLabel align="center" tone="dark">Why Yacht Catering Is Unique</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               The Logistics Behind a Perfect Yacht Event
             </h2>
@@ -383,9 +381,7 @@ export default function YachtCateringChecklist() {
       <section className="bg-cream section-padding">
         <div className="container-custom max-w-[1100px]">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              Step-by-Step Timeline
-            </span>
+            <SectionLabel align="center">Step-by-Step Timeline</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               Your Yacht Catering Countdown
             </h2>
@@ -419,9 +415,7 @@ export default function YachtCateringChecklist() {
       <section className="bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              Menu Inspiration
-            </span>
+            <SectionLabel align="center" tone="dark">Menu Inspiration</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Yacht Catering Menu Ideas for Dubai
             </h2>

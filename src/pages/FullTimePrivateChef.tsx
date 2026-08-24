@@ -18,6 +18,8 @@ import TrustSignalStrip from '../components/TrustSignalStrip'
 import { breadcrumbSchema, faqPageSchema, serviceSchema } from '../utils/schema'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to hire a full-time private chef (via mychef.ae/full-time-private-chef-dubai)')
@@ -248,9 +250,7 @@ export default function FullTimePrivateChef() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            RESIDENTIAL CHEF PLACEMENT
-          </span>
+          <SectionLabel align="center">RESIDENTIAL CHEF PLACEMENT</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             A Chef Who Becomes Part of Your Home
           </h2>
@@ -272,9 +272,7 @@ export default function FullTimePrivateChef() {
       <section className="fp-inclusions bg-cream section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WHAT IS INCLUDED
-            </span>
+            <SectionLabel align="center">WHAT IS INCLUDED</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               Complete Household Culinary Support
             </h2>
@@ -299,9 +297,7 @@ export default function FullTimePrivateChef() {
       <section className="fp-packages bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              RESIDENTIAL CHEF PACKAGES
-            </span>
+            <SectionLabel align="center" tone="dark">RESIDENTIAL CHEF PACKAGES</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Choose Your Arrangement
             </h2>

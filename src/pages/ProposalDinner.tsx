@@ -18,6 +18,8 @@ import TrustSignalStrip from '../components/TrustSignalStrip'
 import { breadcrumbSchema, faqPageSchema, serviceSchema } from '../utils/schema'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to plan a proposal dinner (via mychef.ae/proposal-dinner-dubai)')
@@ -248,9 +250,7 @@ export default function ProposalDinner() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            THE BIG MOMENT
-          </span>
+          <SectionLabel align="center">THE BIG MOMENT</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             Every Detail, Choreographed
           </h2>
@@ -272,9 +272,7 @@ export default function ProposalDinner() {
       <section className="pd-inclusions bg-cream section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WHAT IS INCLUDED
-            </span>
+            <SectionLabel align="center">WHAT IS INCLUDED</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               More Than Just Dinner
             </h2>
@@ -299,9 +297,7 @@ export default function ProposalDinner() {
       <section className="pd-packages bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              PROPOSAL PACKAGES
-            </span>
+            <SectionLabel align="center" tone="dark">PROPOSAL PACKAGES</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Choose Your Setting
             </h2>

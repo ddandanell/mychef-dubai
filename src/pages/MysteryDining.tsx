@@ -17,6 +17,8 @@ import SEO from '../components/SEO'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import { breadcrumbSchema, faqPageSchema, serviceSchema } from '../utils/schema'
 import FaqAccordion from '../components/FaqAccordion'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to book a mystery dining experience (via mychef.ae/mystery-dining-dubai)')
@@ -245,9 +247,7 @@ export default function MysteryDining() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            SURPRISE, PERSONALISED DINING
-          </span>
+          <SectionLabel align="center">SURPRISE, PERSONALISED DINING</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             A Menu Designed to Surprise You
           </h2>
@@ -269,9 +269,7 @@ export default function MysteryDining() {
       <section className="md-inclusions bg-cream section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WHAT IS INCLUDED
-            </span>
+            <SectionLabel align="center">WHAT IS INCLUDED</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               How We Build the Surprise
             </h2>
@@ -296,9 +294,7 @@ export default function MysteryDining() {
       <section className="md-packages bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              MYSTERY DINING PACKAGES
-            </span>
+            <SectionLabel align="center" tone="dark">MYSTERY DINING PACKAGES</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Choose Your Level of Discovery
             </h2>

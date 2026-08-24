@@ -7,6 +7,8 @@ import SEO from '@/components/SEO'
 import PageHero from '@/components/PageHero'
 import TrustSignalStrip from '@/components/TrustSignalStrip'
 import { breadcrumbSchema } from '@/utils/schema'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to request a quote (via mychef.ae/our-chefs)')
@@ -173,9 +175,7 @@ export default function OurChefs() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
             {/* Left Column */}
             <div className="philosophy-left">
-              <span className="font-inter text-caption font-medium uppercase tracking-wider text-gold mb-4 block">
-                OUR APPROACH
-              </span>
+              <SectionLabel>OUR APPROACH</SectionLabel>
               <h2 className="font-playfair text-h2 text-black mb-6">
                 The Chefs We Choose
               </h2>
@@ -217,9 +217,7 @@ export default function OurChefs() {
         <div className="container-custom">
           {/* Section Header */}
           <div className="text-center mb-16">
-            <span className="font-inter text-caption font-medium uppercase tracking-wider text-gold mb-4 block">
-              MEET THE CHEFS WE WORK WITH
-            </span>
+            <SectionLabel align="center" tone="dark">MEET THE CHEFS WE WORK WITH</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">Chefs In Our Network</h2>
           </div>
 

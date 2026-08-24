@@ -13,6 +13,8 @@ import {
 import SEO from '../../components/SEO'
 import TrustSignalStrip from '../../components/TrustSignalStrip'
 import FaqAccordion from '../../components/FaqAccordion'
+import { SectionLabel } from '../../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like a Ramadan catering guide and quote (via mychef.ae/ramadan-catering-guide-dubai)')
@@ -258,9 +260,7 @@ export default function RamadanCateringGuide() {
       {/* ═══════════════ Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            RAMADAN HOSPITALITY
-          </span>
+          <SectionLabel align="center">RAMADAN HOSPITALITY</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             Cater With Respect and Generosity
           </h2>
@@ -277,9 +277,7 @@ export default function RamadanCateringGuide() {
       <section className="bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              HOSTING ETIQUETTE
-            </span>
+            <SectionLabel align="center" tone="dark">HOSTING ETIQUETTE</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Ramadan Hospitality Principles
             </h2>
@@ -300,9 +298,7 @@ export default function RamadanCateringGuide() {
       <section className="bg-cream section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              MENU TYPES
-            </span>
+            <SectionLabel align="center">MENU TYPES</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               Iftar, Suhoor & Eid Menus
             </h2>
@@ -323,9 +319,7 @@ export default function RamadanCateringGuide() {
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[900px]">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              SUNSET & FAJR
-            </span>
+            <SectionLabel align="center">SUNSET & FAJR</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               Timing the Service
             </h2>
@@ -350,9 +344,7 @@ export default function RamadanCateringGuide() {
         <div className="container-custom max-w-[900px]">
           <div className="grid lg:grid-cols-2 gap-12">
             <div>
-              <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-                HALAL & DIETARY
-              </span>
+              <SectionLabel tone="dark">HALAL & DIETARY</SectionLabel>
               <h2 className="font-playfair text-h2 text-white mb-6">
                 Religious and Dietary Requirements
               </h2>
@@ -376,9 +368,7 @@ export default function RamadanCateringGuide() {
       <section className="bg-charcoal section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              SCALE
-            </span>
+            <SectionLabel align="center" tone="dark">SCALE</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Large Corporate & Community Iftars
             </h2>

@@ -2,6 +2,8 @@ import { Link, useParams } from 'react-router'
 import { ArrowRight, Phone } from 'lucide-react'
 import SEO from '../components/SEO'
 import { getHub, postsInHub } from '../content/blogTaxonomy'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_LINK = 'https://wa.me/971551744849'
 const SITE = 'https://www.mychef.ae'
@@ -97,9 +99,7 @@ export default function BlogCategoryHub() {
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[1100px]">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              {posts.length} {posts.length === 1 ? 'Guide' : 'Guides'}
-            </span>
+            <SectionLabel align="center">Guides</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">Guides in this topic</h2>
           </div>
 

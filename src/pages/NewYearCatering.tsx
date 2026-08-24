@@ -21,6 +21,8 @@ import FaqAccordion from '../components/FaqAccordion'
 import LocationStrip from '../components/LocationStrip'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { eventSchema } from '../utils/schema'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to book New Year\'s Eve catering in Dubai (via mychef.ae/new-year-catering-dubai)')
@@ -329,9 +331,7 @@ export default function NewYearCatering() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            Dubai's Biggest Night
-          </span>
+          <SectionLabel align="center">Dubai's Biggest Night</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             A New Year's Eve Worth Remembering
           </h2>
@@ -347,9 +347,7 @@ export default function NewYearCatering() {
       {/* ═══════════════ Section 3: Target Audience ═══════════════ */}
       <section className="bg-cream section-padding">
         <div className="container-custom max-w-[900px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            Who Our NYE Catering Is For
-          </span>
+          <SectionLabel align="center">Who Our NYE Catering Is For</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             Hosts Who Want a Seamless Countdown
           </h2>
@@ -363,9 +361,7 @@ export default function NewYearCatering() {
       <section className="bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              New Year's Eve Menus & Formats
-            </span>
+            <SectionLabel align="center" tone="dark">New Year's Eve Menus & Formats</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Catering Styles for the Countdown
             </h2>
@@ -420,9 +416,7 @@ export default function NewYearCatering() {
       <section className="bg-black section-padding">
         <div className="container-custom max-w-[1000px]">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              How It Works
-            </span>
+            <SectionLabel align="center" tone="dark">How It Works</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               From Inquiry to Midnight Toast
             </h2>
@@ -443,9 +437,7 @@ export default function NewYearCatering() {
       {/* ═══════════════ Section 7: Why Choose myCHEF ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            Why Choose myCHEF
-          </span>
+          <SectionLabel align="center">Why Choose myCHEF</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             End-to-End NYE Hospitality
           </h2>
@@ -462,9 +454,7 @@ export default function NewYearCatering() {
       <section className="bg-black section-padding pt-0">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              Dubai New Year's Eve Celebrations
-            </span>
+            <SectionLabel align="center" tone="dark">Dubai New Year's Eve Celebrations</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Where we coordinate catering for the Countdown Across Dubai
             </h2>

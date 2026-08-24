@@ -17,6 +17,8 @@ import SEO from '../components/SEO'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import { breadcrumbSchema, faqPageSchema, serviceSchema } from '../utils/schema'
 import FaqAccordion from '../components/FaqAccordion'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to discuss an influencer partnership (via mychef.ae/influencer-partnerships)')
@@ -244,9 +246,7 @@ export default function InfluencerPartnerships() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            COLLABORATE WITH US
-          </span>
+          <SectionLabel align="center">COLLABORATE WITH US</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             Content Worth Savouring
           </h2>
@@ -268,9 +268,7 @@ export default function InfluencerPartnerships() {
       <section className="ip-inclusions bg-cream section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              WHAT IS INCLUDED
-            </span>
+            <SectionLabel align="center">WHAT IS INCLUDED</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               Built for Creators
             </h2>
@@ -295,9 +293,7 @@ export default function InfluencerPartnerships() {
       <section className="ip-packages bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              PARTNERSHIP OPTIONS
-            </span>
+            <SectionLabel align="center" tone="dark">PARTNERSHIP OPTIONS</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Choose Your Collaboration
             </h2>

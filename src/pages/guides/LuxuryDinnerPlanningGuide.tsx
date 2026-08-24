@@ -14,6 +14,8 @@ import {
 import SEO from '../../components/SEO'
 import TrustSignalStrip from '../../components/TrustSignalStrip'
 import FaqAccordion from '../../components/FaqAccordion'
+import { SectionLabel } from '../../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like help planning a luxury dinner (via mychef.ae/luxury-dinner-planning-guide-dubai)')
@@ -274,9 +276,7 @@ export default function LuxuryDinnerPlanningGuide() {
       {/* ═══════════════ Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            PRIVATE DINING
-          </span>
+          <SectionLabel align="center">PRIVATE DINING</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             Create an Evening Worth Remembering
           </h2>
@@ -293,9 +293,7 @@ export default function LuxuryDinnerPlanningGuide() {
       <section className="bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              FIRST STEPS
-            </span>
+            <SectionLabel align="center" tone="dark">FIRST STEPS</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Defining the Occasion
             </h2>
@@ -317,9 +315,7 @@ export default function LuxuryDinnerPlanningGuide() {
       <section className="bg-cream section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              MENU DESIGN
-            </span>
+            <SectionLabel align="center">MENU DESIGN</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               Designing the Menu
             </h2>
@@ -341,9 +337,7 @@ export default function LuxuryDinnerPlanningGuide() {
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[900px]">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              TABLESCAPE
-            </span>
+            <SectionLabel align="center">TABLESCAPE</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               Styling the Table
             </h2>
@@ -367,9 +361,7 @@ export default function LuxuryDinnerPlanningGuide() {
       <section className="bg-black section-padding">
         <div className="container-custom max-w-[900px]">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              ATMOSPHERE
-            </span>
+            <SectionLabel align="center" tone="dark">ATMOSPHERE</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Lighting, Music & Ambience
             </h2>
@@ -391,9 +383,7 @@ export default function LuxuryDinnerPlanningGuide() {
         <div className="container-custom max-w-[900px]">
           <div className="grid lg:grid-cols-2 gap-12">
             <div>
-              <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-                SERVICE
-              </span>
+              <SectionLabel tone="dark">SERVICE</SectionLabel>
               <h2 className="font-playfair text-h2 text-white mb-6">
                 Chef and Service Staff
               </h2>
@@ -422,9 +412,7 @@ export default function LuxuryDinnerPlanningGuide() {
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[900px]">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              HOSTING
-            </span>
+            <SectionLabel align="center">HOSTING</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
               Hosting Tips for the Evening
             </h2>

@@ -21,6 +21,8 @@ import {
 import SEO from '../components/SEO'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import FaqAccordion from '../components/FaqAccordion'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to discuss a luxury event inspired by your case studies (via mychef.ae/case-studies)')
@@ -364,9 +366,7 @@ export default function CaseStudies() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            PROOF, NOT PROMISES
-          </span>
+          <SectionLabel align="center">PROOF, NOT PROMISES</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             See How We Bring Dubai Events to Life
           </h2>
@@ -385,9 +385,7 @@ export default function CaseStudies() {
       <section className="bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-10">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              EVENT PORTFOLIO
-            </span>
+            <SectionLabel align="center" tone="dark">EVENT PORTFOLIO</SectionLabel>
             <h2 className="font-playfair text-h2 text-white mb-8">
               Events We're Proud Of
             </h2>

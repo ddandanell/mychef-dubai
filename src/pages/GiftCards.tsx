@@ -16,6 +16,8 @@ import {
 import SEO from '../components/SEO'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import FaqAccordion from '../components/FaqAccordion'
+import { SectionLabel } from '../components/system'
+
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to buy a gift card (via mychef.ae/gift-cards)')
@@ -358,9 +360,7 @@ export default function GiftCards() {
       {/* ═══════════════ Section 2: Opening ═══════════════ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[820px] text-center">
-          <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-            THE GIFT OF EXPERIENCE
-          </span>
+          <SectionLabel align="center">THE GIFT OF EXPERIENCE</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
             Why a myCHEF Gift Card?
           </h2>
@@ -377,9 +377,7 @@ export default function GiftCards() {
       <section className="bg-black section-padding">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              GIFT CARD OPTIONS
-            </span>
+            <SectionLabel align="center" tone="dark">GIFT CARD OPTIONS</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Choose the Perfect Gift
             </h2>
@@ -413,9 +411,7 @@ export default function GiftCards() {
       <section className="bg-black section-padding pt-0">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="font-inter text-caption uppercase tracking-wider text-gold mb-3 block">
-              OCCASIONS
-            </span>
+            <SectionLabel align="center" tone="dark">OCCASIONS</SectionLabel>
             <h2 className="font-playfair text-h2 text-white">
               Moments Made for Gifting
             </h2>

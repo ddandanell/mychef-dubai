@@ -1,7 +1,15 @@
 import { useEffect, useRef, useState } from 'react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import { RotateCcw, Star } from 'lucide-react'
+import {
+  BookOpen,
+  ClipboardList,
+  CookingPot,
+  MessageCircleHeart,
+  RotateCcw,
+  Star,
+  UserSearch,
+} from 'lucide-react'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -9,6 +17,7 @@ interface Step {
   num: string
   title: string
   body: string
+  points?: readonly string[]
 }
 
 interface Photo {
@@ -23,10 +32,14 @@ interface ChefThumb {
   name: string
 }
 
-// The five phase labels the visitor should be able to scan on their own.
 const PHASES = ['Understand', 'Match', 'Learn', 'Deliver', 'Improve'] as const
-const BRIEF_ROWS = ['Meals a week', 'Service days', "What 'healthy' means here"]
-const PREF_TAGS = ['Breakfast', 'Children', 'No shellfish', '19:30 dinner', 'Quiet service']
+const PHASE_ICONS = [ClipboardList, UserSearch, BookOpen, CookingPot, MessageCircleHeart] as const
+const BRIEF_ROWS = [
+  { k: 'Meals a week', v: 'How often the house eats with a chef' },
+  { k: 'Service days', v: 'Which days, and how long each one is' },
+  { k: 'What “healthy” means here', v: 'This house — not a generic programme' },
+]
+const PREF_TAGS = ['Breakfast', 'Children', 'No shellfish', '19:30 dinner', 'Quiet service', 'Oat milk']
 
 export default function ProcessJourney({
   steps,
@@ -78,38 +91,40 @@ export default function ProcessJourney({
   const numberClass = (i: number) =>
     reduced || i === active ? 'text-gold' : i < active ? 'text-gold/55' : 'text-gold/25'
   const headlineClass = (i: number) => (reduced || i <= active ? 'text-black' : 'text-black/70')
-  const revealClass = (i: number) =>
-    reduced || i <= active ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
 
   const renderVisual = (i: number) => {
     switch (i) {
       case 0:
         return (
-          <dl className="border-l border-gold/40 pl-5 space-y-3 max-w-[20rem]">
+          <dl className="space-y-6">
             {BRIEF_ROWS.map((row) => (
-              <div key={row}>
-                <dt className="font-inter text-caption uppercase tracking-[0.14em] text-gray-500 mb-1">{row}</dt>
-                <dd className="h-px w-full bg-gradient-to-r from-gold/50 to-transparent" aria-hidden />
+              <div key={row.k} className="border-b border-gold/20 pb-5 last:border-0 last:pb-0">
+                <dt className="font-inter text-caption uppercase tracking-[0.14em] text-gold mb-2">{row.k}</dt>
+                <dd className="font-playfair text-h4 text-black">{row.v}</dd>
               </div>
             ))}
           </dl>
         )
       case 1:
         return (
-          <div className="flex items-end gap-4">
+          <div className="flex items-end justify-center gap-5 md:gap-8 min-h-[240px]">
             {chefThumbs.slice(0, 3).map((chef, idx) => {
               const selected = idx === 1
               return (
                 <figure key={chef.src} className="text-center">
                   <div
                     className={`overflow-hidden ${
-                      selected ? 'w-20 h-24 ring-2 ring-gold ring-offset-2 ring-offset-cream' : 'w-16 h-20 opacity-45 grayscale'
+                      selected
+                        ? 'w-28 h-36 md:w-36 md:h-44 ring-2 ring-gold ring-offset-4 ring-offset-cream'
+                        : 'w-20 h-28 md:w-24 md:h-32 opacity-45 grayscale'
                     }`}
                   >
                     <img src={chef.src} alt={chef.name} className="w-full h-full object-cover" loading="lazy" decoding="async" />
                   </div>
                   {selected && (
-                    <figcaption className="mt-2 font-inter text-caption uppercase tracking-[0.14em] text-gold">Matched</figcaption>
+                    <figcaption className="mt-3 font-inter text-caption uppercase tracking-[0.14em] text-gold">
+                      Matched
+                    </figcaption>
                   )}
                 </figure>
               )
@@ -118,19 +133,21 @@ export default function ProcessJourney({
         )
       case 2:
         return (
-          <p className="font-inter text-body-sm text-gray-600 leading-loose max-w-[24rem]">
-            {PREF_TAGS.map((tag, idx) => (
-              <span key={tag}>
-                {idx > 0 && <span className="text-gold px-2" aria-hidden>·</span>}
+          <div className="flex flex-wrap gap-3">
+            {PREF_TAGS.map((tag) => (
+              <span
+                key={tag}
+                className="border border-gold/30 px-4 py-2 font-inter text-body-sm text-gray-700"
+              >
                 {tag}
               </span>
             ))}
-          </p>
+          </div>
         )
       case 3:
         return (
-          <figure className="mt-2">
-            <div className="relative overflow-hidden aspect-[16/9] w-full">
+          <figure className="m-0">
+            <div className="relative overflow-hidden aspect-[16/10] w-full">
               <img
                 src={deliverPhoto.src}
                 alt={deliverPhoto.alt}
@@ -142,24 +159,24 @@ export default function ProcessJourney({
                 decoding="async"
               />
             </div>
-            <figcaption className="mt-3 font-playfair text-h4 text-black">
+            <figcaption className="mt-4 font-playfair text-h4 text-black">
               The household does not manage dinner. It simply happens.
             </figcaption>
           </figure>
         )
       case 4:
         return (
-          <div className="max-w-[22rem]">
-            <div className="flex items-center justify-between border border-gold/25 px-4 py-3">
-              <span className="font-inter text-body-sm text-gray-600">How was this week?</span>
-              <span className="inline-flex gap-0.5" aria-label="5 out of 5">
+          <div>
+            <div className="flex items-center justify-between border border-gold/30 px-5 py-4 mb-6">
+              <span className="font-inter text-body text-gray-600">How was this week?</span>
+              <span className="inline-flex gap-1" aria-label="5 out of 5">
                 {[0, 1, 2, 3, 4].map((n) => (
-                  <Star key={n} size={14} className="text-gold fill-gold" aria-hidden />
+                  <Star key={n} size={18} className="text-gold fill-gold" aria-hidden />
                 ))}
               </span>
             </div>
-            <p className="mt-3 flex items-start gap-2 font-inter text-body-sm text-gray-600">
-              <RotateCcw size={16} className="text-gold mt-0.5 flex-shrink-0" aria-hidden />
+            <p className="flex items-start gap-3 font-inter text-body-sm text-gray-600 leading-relaxed">
+              <RotateCcw size={18} className="text-gold mt-0.5 flex-shrink-0" aria-hidden />
               <span>
                 Every review updates your <span className="text-black">Food Profile</span> — so next week needs less
                 explaining.
@@ -173,61 +190,76 @@ export default function ProcessJourney({
   }
 
   return (
-    <div ref={rootRef} className="relative max-w-[880px] mx-auto">
-      {/* Progress rail */}
-      <div className="absolute top-3 bottom-3 left-[42px] md:left-[68px] w-px bg-gold/15" aria-hidden />
+    <div ref={rootRef} className="relative">
+      <div className="pointer-events-none absolute top-8 bottom-8 left-[2.5rem] md:left-[4.15rem] w-px bg-gold/15" aria-hidden />
       <div
         ref={fillRef}
-        className="absolute top-3 left-[42px] md:left-[68px] w-px bg-gold origin-top"
-        style={{ height: 'calc(100% - 1.5rem)', transform: reduced ? 'scaleY(1)' : 'scaleY(0)' }}
+        className="pointer-events-none absolute top-8 left-[2.5rem] md:left-[4.15rem] w-px bg-gold origin-top"
+        style={{ height: 'calc(100% - 4rem)', transform: reduced ? 'scaleY(1)' : 'scaleY(0)' }}
         aria-hidden
       />
 
-      {steps.map((step, i) => (
-        <div
-          key={step.num}
-          data-step
-          className="relative grid grid-cols-[42px_1fr] md:grid-cols-[68px_1fr] gap-6 md:gap-12 pb-20 md:pb-28 last:pb-10"
-        >
-          <div className="text-right relative">
-            {/* node on the rail */}
-            <span
-              className={`hidden md:block absolute -right-[9px] top-3 w-2 h-2 rounded-full transition-colors duration-500 ${
-                reduced || i <= active ? 'bg-gold' : 'bg-gold/25'
-              }`}
-              aria-hidden
-            />
-            <span
-              className={`font-playfair leading-none text-4xl md:text-6xl transition-colors duration-500 ${numberClass(i)}`}
-            >
-              {step.num}
-            </span>
-          </div>
+      {steps.map((step, i) => {
+        const PhaseIcon = PHASE_ICONS[i]
+        return (
+          <div
+            key={step.num}
+            data-step
+            className="relative grid grid-cols-[5.25rem_1fr] md:grid-cols-[8.5rem_1fr] gap-6 md:gap-12 pb-24 md:pb-32 last:pb-12"
+          >
+            <div className="relative text-right pt-2">
+              <span
+                className={`hidden md:block absolute -right-[5px] top-6 h-2.5 w-2.5 rounded-full transition-colors duration-500 ${
+                  reduced || i <= active ? 'bg-gold' : 'bg-gold/25'
+                }`}
+                aria-hidden
+              />
+              <span
+                className={`font-inter font-light leading-none whitespace-nowrap tabular-nums text-5xl md:text-6xl tracking-tight transition-colors duration-500 ${numberClass(i)}`}
+              >
+                {step.num}
+              </span>
+            </div>
 
-          <div className="pl-6 md:pl-10 -mt-1">
-            <p className="font-inter text-caption font-medium uppercase tracking-[0.2em] text-gold mb-3">{PHASES[i]}</p>
-            <h3
-              className={`font-playfair text-h3 md:text-[2rem] leading-tight mb-4 transition-colors duration-500 ${headlineClass(i)}`}
-            >
-              {step.title}
-            </h3>
-            <p className="font-inter text-body text-gray-600 leading-relaxed max-w-[46ch]">{step.body}</p>
-            <div className={`mt-7 transition-all duration-500 ease-out ${revealClass(i)}`}>{renderVisual(i)}</div>
+            <div className="grid items-start gap-10 lg:grid-cols-2 lg:gap-16 pt-1">
+              <div>
+                <p className="font-inter text-caption font-medium uppercase tracking-[0.2em] text-gold mb-4 inline-flex items-center gap-2">
+                  <PhaseIcon size={14} strokeWidth={1.75} aria-hidden />
+                  {PHASES[i]}
+                </p>
+                <h3
+                  className={`font-playfair text-h2 leading-[1.12] mb-6 transition-colors duration-500 ${headlineClass(i)}`}
+                >
+                  {step.title}
+                </h3>
+                <p className="font-inter text-body text-gray-600 leading-relaxed mb-8">{step.body}</p>
+                {step.points && (
+                  <ul className="space-y-4">
+                    {step.points.map((point) => (
+                      <li key={point} className="flex gap-3 font-inter text-body-sm text-gray-600 leading-relaxed">
+                        <span className="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-gold" aria-hidden />
+                        <span>{point}</span>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </div>
+              <div className="border border-gold/25 bg-white/70 p-7 md:p-10 min-h-[280px] flex items-center">
+                {renderVisual(i)}
+              </div>
+            </div>
           </div>
-        </div>
-      ))}
+        )
+      })}
 
-      {/* The loop: 05 improves 03 */}
-      <div className="grid grid-cols-[42px_1fr] md:grid-cols-[68px_1fr] gap-6 md:gap-12">
+      <div className="grid grid-cols-[5.25rem_1fr] md:grid-cols-[8.5rem_1fr] gap-6 md:gap-12">
         <div className="relative">
-          <RotateCcw size={22} className="text-gold absolute right-0 md:right-[10px] -top-1" aria-hidden />
+          <RotateCcw size={26} className="text-gold absolute right-0 md:right-1 top-0" aria-hidden />
         </div>
-        <div className="pl-6 md:pl-10">
-          <p className="font-inter text-body-sm text-gray-500 max-w-[40ch] leading-relaxed">
-            This is a loop, not a line. Step 05 feeds step 03 — the Food Profile keeps learning, so the service gets
-            easier the longer you stay.
-          </p>
-        </div>
+        <p className="font-inter text-body text-gray-500 max-w-[46ch] leading-relaxed pt-1">
+          This is a loop, not a line. Step 05 feeds step 03 — the Food Profile keeps learning, so the service gets
+          easier the longer you stay.
+        </p>
       </div>
     </div>
   )
