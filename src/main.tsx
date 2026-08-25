@@ -6,6 +6,7 @@ import './index.css'
 import './styles/cta-motion.css'
 import App from './App.tsx'
 import { armRevealFailsafe } from './lib/revealFailsafe'
+import { installChunkRecovery, markChunkRecovered } from './lib/chunkRecovery'
 import { preloadRoute } from './routes'
 
 const container = document.getElementById('root')!
@@ -26,8 +27,12 @@ const container = document.getElementById('root')!
  * that first client render too.
  */
 async function boot() {
+  // Must be armed before the first dynamic import: a stale tab after a deploy
+  // fails right here, and the listener turns that into one reload.
+  installChunkRecovery()
   try {
     await preloadRoute(window.location.pathname)
+    markChunkRecovered()
   } catch {
     // A chunk that fails to preload just suspends briefly (loader) — never fatal.
   }

@@ -1,9 +1,10 @@
 import { Suspense } from 'react'
 import { Analytics as VercelAnalytics } from '@vercel/analytics/react'
-import { Routes, Route } from 'react-router'
+import { Routes, Route, useLocation } from 'react-router'
 import Layout from './components/Layout'
 import Analytics from './components/Analytics'
 import PageLoader from './components/PageLoader'
+import RouteErrorBoundary from './components/RouteErrorBoundary'
 import { routes } from './routes'
 
 /**
@@ -12,17 +13,21 @@ import { routes } from './routes'
  * See src/lib/lazyPreloadable.tsx and src/main.tsx for the rationale.
  */
 export default function App() {
+  const { pathname } = useLocation()
   return (
     <Layout>
       <Analytics />
       <VercelAnalytics />
-      <Suspense fallback={<PageLoader />}>
-        <Routes>
-          {routes.map((route) => (
-            <Route key={route.path} path={route.path} element={route.element} />
-          ))}
-        </Routes>
-      </Suspense>
+      {/* Keyed by pathname so a failed route does not trap the next one. */}
+      <RouteErrorBoundary key={pathname}>
+        <Suspense fallback={<PageLoader />}>
+          <Routes>
+            {routes.map((route) => (
+              <Route key={route.path} path={route.path} element={route.element} />
+            ))}
+          </Routes>
+        </Suspense>
+      </RouteErrorBoundary>
     </Layout>
   )
 }
