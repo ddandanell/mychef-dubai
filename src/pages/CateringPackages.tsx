@@ -8,6 +8,7 @@ import SEO from '../components/SEO'
 import LocationStrip from '../components/LocationStrip'
 import PageHero from '../components/PageHero'
 import StarterPackagesSection from '../sections/StarterPackagesSection'
+import { PACKAGE_CARDS } from '@/content/hubPages'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import VIPPromoSection from '../components/VIPPromoSection'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
@@ -286,6 +287,36 @@ export default function CateringPackages() {
                   <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{item.description}</p>
                 </div>
                 <ArrowRight size={18} className="text-gold flex-shrink-0 mt-1 group-hover:translate-x-1 transition-transform" />
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ═══════════════ Every package option ═══════════════ */}
+      <section className="bg-white py-20">
+        <div className="container-custom">
+          <div className="packages-section opacity-0 translate-y-8 mb-10 max-w-[760px]">
+            <SectionLabel>All packages</SectionLabel>
+            <h2 className="font-playfair text-h2 text-black">Every Package Option</h2>
+          </div>
+          <div className="grid gap-px border border-gray-200 bg-gray-200 sm:grid-cols-2 lg:grid-cols-3">
+            {PACKAGE_CARDS.map((card) => (
+              <Link
+                key={card.href}
+                to={card.href}
+                className="group flex flex-col bg-white p-6 transition-colors hover:bg-cream lg:p-7"
+              >
+                <h3 className="font-playfair text-h4 text-black transition-colors group-hover:text-gold-ink">
+                  {card.title}
+                </h3>
+                <p className="mt-2 flex-1 font-inter text-body-sm leading-relaxed text-gray-600">
+                  {card.description}
+                </p>
+                <span className="mt-5 inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink">
+                  View package
+                  <ArrowRight size={13} className="transition-transform group-hover:translate-x-1" />
+                </span>
               </Link>
             ))}
           </div>

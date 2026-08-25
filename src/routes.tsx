@@ -25,6 +25,8 @@ const PrivateChefPlanTerms: PreloadableComponent = lazyPreloadable(() => import(
 const PrivateChefPrices: PreloadableComponent = lazyPreloadable(() => import('./pages/PrivateChefPrices'))
 const Catering: PreloadableComponent = lazyPreloadable(() => import('./pages/Catering'))
 const CateringPackages: PreloadableComponent = lazyPreloadable(() => import('./pages/CateringPackages'))
+const TrustAndPrograms: PreloadableComponent = lazyPreloadable(() => import('./pages/TrustAndPrograms'))
+const PartnersHub: PreloadableComponent = lazyPreloadable(() => import('./pages/Partners'))
 const DateNightPackage: PreloadableComponent = lazyPreloadable(() => import('./pages/DateNightPackage'))
 const FamilyFeastPackage: PreloadableComponent = lazyPreloadable(() => import('./pages/FamilyFeastPackage'))
 const BirthdayPackage: PreloadableComponent = lazyPreloadable(() => import('./pages/BirthdayPackage'))
@@ -226,6 +228,8 @@ export const routes: AppRoute[] = [
   { path: "/private-chef-prices-dubai", element: <PrivateChefPrices />, preload: PrivateChefPrices.preload },
   { path: "/catering-dubai", element: <Catering />, preload: Catering.preload },
   { path: "/catering-packages-dubai", element: <CateringPackages />, preload: CateringPackages.preload },
+  { path: "/trust-and-programs", element: <TrustAndPrograms />, preload: TrustAndPrograms.preload },
+  { path: "/partners", element: <PartnersHub />, preload: PartnersHub.preload },
   { path: "/date-night-package-dubai", element: <DateNightPackage />, preload: DateNightPackage.preload },
   { path: "/family-feast-package-dubai", element: <FamilyFeastPackage />, preload: FamilyFeastPackage.preload },
   { path: "/birthday-catering-package-dubai", element: <BirthdayPackage />, preload: BirthdayPackage.preload },

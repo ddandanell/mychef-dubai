@@ -9,7 +9,7 @@
  *                     baby shower, engagement, wedding, parties)
  *   Corporate         WHAT business use case (office, conferences, exhibitions,
  *                     product launches, galas, staff meals)
- *   Packages          Predefined packaged solutions
+ *   Cuisines          WHICH cuisine the menu is built from
  *
  * Every href below points at a route that already exists in src/routes.tsx.
  * No new URLs, no /private-events — the Private Events group links to /events.
@@ -47,6 +47,7 @@ export const CATERING_FORMATS_GROUPS: NavGroup[] = [
       { href: '/bbq-catering-dubai', label: 'BBQ Catering', description: 'Live fire, outdoors' },
       { href: '/grazing-table-dubai', label: 'Grazing Tables', description: 'A centrepiece spread to graze from' },
       { href: '/drop-off-catering-dubai', label: 'Drop-Off Catering', description: 'Delivered ready to serve' },
+      { href: '/catering-packages-dubai', label: 'Catering Package', description: 'Every package option in one place' },
     ],
   },
 ]
@@ -101,24 +102,26 @@ export const CORPORATE_NAV_GROUPS: NavGroup[] = [
   },
 ]
 
-/* ─────────────── Packages — predefined solutions ─────────────── */
+/* ─────────────── Cuisines ─────────────── */
 
-export const PACKAGES_ROOT = '/catering-packages-dubai'
+export const CUISINES_ROOT = '/cuisines-dubai'
 
-export const PACKAGES_GROUPS: NavGroup[] = [
+export const CUISINES_GROUPS: NavGroup[] = [
   {
-    heading: 'All packages',
+    heading: 'Cuisines',
     items: [
-      { href: '/catering-packages-dubai', label: 'Catering Packages', description: 'Every package and starting price' },
-      { href: '/birthday-catering-package-dubai', label: 'Birthday Package', description: 'Private chef for 8–12 guests' },
-      { href: '/family-feast-package-dubai', label: 'Family Feast', description: 'A shared table for the household' },
+      { href: '/cuisines-dubai', label: 'All Cuisines', description: 'Every cuisine we cater in Dubai' },
+      { href: '/arabic-catering-dubai', label: 'Arabic Catering', description: 'Mezze, grills and Levantine spreads' },
+      { href: '/asian-catering-dubai', label: 'Asian Catering', description: 'Pan-Asian menus and live wok' },
+      { href: '/indian-catering-dubai', label: 'Indian Catering', description: 'Regional Indian cooking and thalis' },
     ],
   },
   {
-    heading: 'More packages',
+    heading: 'More cuisines',
     items: [
-      { href: '/corporate-dinner-package-dubai', label: 'Corporate Dinner', description: 'Executive dinners for small groups' },
-      { href: '/date-night-package-dubai', label: 'Date Night', description: 'A chef-cooked dinner for two' },
+      { href: '/italian-catering-dubai', label: 'Italian Catering', description: 'Pasta, antipasti and wood-fired dishes' },
+      { href: '/mediterranean-catering-dubai', label: 'Mediterranean Catering', description: 'Light, shared, vegetable-forward' },
+      { href: '/sushi-catering-dubai', label: 'Sushi Catering', description: 'Sushi counters and Japanese menus' },
     ],
   },
 ]
@@ -130,7 +133,7 @@ const flatten = (groups: NavGroup[]): NavChild[] => groups.flatMap((g) => g.item
 export const CATERING_FORMATS_CHILDREN = flatten(CATERING_FORMATS_GROUPS)
 export const PRIVATE_EVENTS_CHILDREN = flatten(PRIVATE_EVENTS_GROUPS)
 export const CORPORATE_NAV_CHILDREN = flatten(CORPORATE_NAV_GROUPS)
-export const PACKAGES_CHILDREN = flatten(PACKAGES_GROUPS)
+export const CUISINES_CHILDREN = flatten(CUISINES_GROUPS)
 
 const normalize = (p: string) => (p.length > 1 && p.endsWith('/') ? p.replace(/\/+$/, '') : p)
 
@@ -140,9 +143,9 @@ const activeSet = (groups: NavGroup[], root: string) =>
 const CATERING_ACTIVE = activeSet(CATERING_FORMATS_GROUPS, CATERING_FORMATS_ROOT)
 const EVENTS_ACTIVE = activeSet(PRIVATE_EVENTS_GROUPS, PRIVATE_EVENTS_ROOT)
 const CORPORATE_ACTIVE = activeSet(CORPORATE_NAV_GROUPS, CORPORATE_NAV_ROOT)
-const PACKAGES_ACTIVE = activeSet(PACKAGES_GROUPS, PACKAGES_ROOT)
+const CUISINES_ACTIVE = activeSet(CUISINES_GROUPS, CUISINES_ROOT)
 
 export const cateringFormatsActive = (p: string) => CATERING_ACTIVE.has(normalize(p))
 export const privateEventsActive = (p: string) => EVENTS_ACTIVE.has(normalize(p))
 export const corporateNavActive = (p: string) => CORPORATE_ACTIVE.has(normalize(p))
-export const packagesNavActive = (p: string) => PACKAGES_ACTIVE.has(normalize(p))
+export const cuisinesNavActive = (p: string) => CUISINES_ACTIVE.has(normalize(p))

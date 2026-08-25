@@ -39,15 +39,15 @@ import {
   CORPORATE_NAV_CHILDREN,
   CORPORATE_NAV_GROUPS,
   CORPORATE_NAV_ROOT,
-  PACKAGES_CHILDREN,
-  PACKAGES_GROUPS,
-  PACKAGES_ROOT,
+  CUISINES_CHILDREN,
+  CUISINES_GROUPS,
+  CUISINES_ROOT,
   PRIVATE_EVENTS_CHILDREN,
   PRIVATE_EVENTS_GROUPS,
   PRIVATE_EVENTS_ROOT,
   cateringFormatsActive,
   corporateNavActive,
-  packagesNavActive,
+  cuisinesNavActive,
   privateEventsActive,
 } from '@/content/navClusters'
 import { cn } from '@/lib/utils'
@@ -57,7 +57,7 @@ type NavMega =
   | 'catering'
   | 'private-events'
   | 'corporate'
-  | 'packages'
+  | 'cuisines'
   | 'experiences'
   | 'contact'
 
@@ -81,10 +81,10 @@ const MEGA_MENUS: Record<NavMega, ComponentType> = {
       footer={{ text: 'Recurring or one-off?', linkLabel: 'Corporate catering explained.', href: CORPORATE_NAV_ROOT }}
     />
   ),
-  packages: () => (
+  cuisines: () => (
     <ClusterMegaMenu
-      groups={PACKAGES_GROUPS}
-      footer={{ text: 'Need something custom instead?', linkLabel: 'See all packages.', href: PACKAGES_ROOT }}
+      groups={CUISINES_GROUPS}
+      footer={{ text: 'Cooking something not listed?', linkLabel: 'See every cuisine.', href: CUISINES_ROOT }}
     />
   ),
   experiences: ExperiencesMegaMenu,
@@ -96,7 +96,7 @@ const MEGA_ICONS: Partial<Record<NavMega, Record<string, LucideIcon>>> = {
   catering: NAV_CLUSTER_ICONS,
   'private-events': NAV_CLUSTER_ICONS,
   corporate: NAV_CLUSTER_ICONS,
-  packages: NAV_CLUSTER_ICONS,
+  cuisines: NAV_CLUSTER_ICONS,
   experiences: EXPERIENCES_ICONS,
   contact: CONTACT_ICONS,
 }
@@ -126,7 +126,7 @@ const navLinks: NavItem[] = [
     children: CATERING_FORMATS_CHILDREN,
   },
   {
-    label: 'Private Events',
+    label: 'Events',
     href: PRIVATE_EVENTS_ROOT,
     mega: 'private-events',
     children: PRIVATE_EVENTS_CHILDREN,
@@ -138,13 +138,13 @@ const navLinks: NavItem[] = [
     children: CORPORATE_NAV_CHILDREN,
   },
   {
-    label: 'Packages',
-    href: PACKAGES_ROOT,
-    mega: 'packages',
-    children: PACKAGES_CHILDREN,
+    label: 'Cuisines',
+    href: CUISINES_ROOT,
+    mega: 'cuisines',
+    children: CUISINES_CHILDREN,
   },
   {
-    label: 'Dining Experiences',
+    label: 'Dinner',
     href: EXPERIENCES_PATHS.hub,
     mega: 'experiences',
     children: EXPERIENCES_NAV_CHILDREN,
@@ -184,7 +184,7 @@ function itemIsActive(pathname: string, link: NavItem) {
   if (link.mega === 'catering') return cateringFormatsActive(pathname)
   if (link.mega === 'private-events') return privateEventsActive(pathname)
   if (link.mega === 'corporate') return corporateNavActive(pathname)
-  if (link.mega === 'packages') return packagesNavActive(pathname)
+  if (link.mega === 'cuisines') return cuisinesNavActive(pathname)
   if (link.mega === 'experiences') return experiencesClusterActive(pathname)
   if (link.mega === 'contact') {
     return (
@@ -193,7 +193,7 @@ function itemIsActive(pathname: string, link: NavItem) {
       !cateringFormatsActive(pathname) &&
       !privateEventsActive(pathname) &&
       !corporateNavActive(pathname) &&
-      !packagesNavActive(pathname) &&
+      !cuisinesNavActive(pathname) &&
       !experiencesClusterActive(pathname)
     )
   }
@@ -336,7 +336,7 @@ export default function Navbar() {
               else if (cateringFormatsActive(location.pathname)) setMobileOpenGroup(CATERING_FORMATS_ROOT)
               else if (privateEventsActive(location.pathname)) setMobileOpenGroup(PRIVATE_EVENTS_ROOT)
               else if (corporateNavActive(location.pathname)) setMobileOpenGroup(CORPORATE_NAV_ROOT)
-              else if (packagesNavActive(location.pathname)) setMobileOpenGroup(PACKAGES_ROOT)
+              else if (cuisinesNavActive(location.pathname)) setMobileOpenGroup(CUISINES_ROOT)
               else if (experiencesClusterActive(location.pathname)) setMobileOpenGroup(EXPERIENCES_PATHS.hub)
               else if (contactNavActive(location.pathname)) setMobileOpenGroup(CONTACT_PATHS.contact)
               setMobileOpen(true)
