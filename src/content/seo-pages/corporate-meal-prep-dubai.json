@@ -1,0 +1,167 @@
+{
+ "url": "/corporate-meal-prep-dubai",
+ "keyword_strategy": {
+  "main_keyword": "corporate meal prep catering dubai",
+  "main_keyword_placed_in": {
+   "title": true,
+   "h1": true,
+   "meta_description": true,
+   "opening_paragraph": true
+  },
+  "subkeywords_total": 5,
+  "subkeywords_carried": 4,
+  "coverage_percent": 80,
+  "subkeywords_carried_list": [
+   "meal plans dubai",
+   "best meal plans dubai",
+   "best corporate meal prep catering dubai",
+   "corporate meal prep catering dubai reviews"
+  ],
+  "subkeywords_not_carried": [
+   "meal plans dubai cheap"
+  ],
+  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
+ },
+ "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+ "head": {
+  "title": "Corporate Meal Prep Catering Dubai | Menus & Prices | myCHEF",
+  "meta_description": "Corporate Meal Prep catering in Dubai from AED 700pp — daily individually-portioned meals, vetted chefs and full service. Bespoke and reliable. Get an itemised quote.",
+  "h1": "Corporate Meal Prep Catering in Dubai — What It Costs and How to Book"
+ },
+ "opening_paragraph": [
+  "Corporate meal prep catering in Dubai from myCHEF starts at AED 700 per person and keeps your team fed with fresh, individually-portioned meals cooked to a set weekly schedule. A vetted chef designs the menu, cooks and portions every meal, and delivers on time — so nobody loses an hour to lunch runs or a scramble for options. Tell us your headcount and dietary mix, we typically reply within 15 minutes during business hours, with an itemised proposal to follow."
+ ],
+ "replace_in_block": [
+  {
+   "block_on_your_page": "What Our Corporate Meal Prep Includes",
+   "match_confidence": 0.84,
+   "new_heading": "What corporate meal prep catering includes",
+   "new_paragraphs": [
+    "Corporate meal prep catering covers everything from menu design to labelled, ready-to-eat meals delivered to your office. As a corporate meal prep caterer in Dubai, myCHEF plans a rotating menu around your team's tastes and diets, cooks in a licensed kitchen, portions each meal into individual containers with clear labels, and delivers on a fixed daily or weekly rhythm. A typical programme includes a private corporate meal prep chef assigned to your account, a signed-off menu cycle, allergen and calorie labelling, chilled delivery, and a single point of contact for changes. Because meals arrive plated and portioned, there is no on-site cooking, no clutter and no cleanup for your facilities team. It is the difference between a one-off drop-off and a dependable service your people can plan their day around, week after week."
+   ]
+  },
+  {
+   "block_on_your_page": "Corporate Meal Prep Questions",
+   "match_confidence": 0.8,
+   "new_heading": "Corporate meal prep menu and options",
+   "new_paragraphs": [
+    "The corporate meal prep menu in Dubai is built as a rotating cycle so no one gets bored of the same three dishes. A standard week mixes lean proteins, wholegrains, fresh salads and a rotating hot main, with vegetarian, vegan, halal and lighter calorie-controlled tracks running alongside the core menu. Food is designed to travel and reheat well — nothing that turns soggy or dries out by 1pm. You can run a single shared menu or let staff pick from two or three daily options, and dietary flags (gluten-free, dairy-free, nut-free, keto) are handled meal by meal instead of as an afterthought. Menus rotate seasonally and can lean into whatever your team asks for, from Mediterranean bowls to Levantine mezze to comfort classics. Everything is agreed with you before the first delivery, then refined as feedback comes in."
+   ]
+  },
+  {
+   "block_on_your_page": "Catering Across Dubai",
+   "match_confidence": 0.68,
+   "new_heading": "Corporate meal prep catering across Dubai",
+   "new_paragraphs": [
+    "We deliver corporate meal prep catering across Dubai — from Business Bay, DIFC and Downtown offices to Dubai Marina, JLT, Media City and the free-zone campuses. Searching for corporate meal prep catering near me usually points here because we cover the whole city on one standard, adjusting delivery windows to your building and access rules. Explore office catering or weekly meal prep , and see the wider corporate catering and catering in Dubai range for events that go beyond the daily lunch."
+   ]
+  }
+ ],
+ "leave_untouched": [
+  "A Managed Programme, Not a One-Off",
+  "Programmes Built Around Your Team",
+  "Designed for the Workplace",
+  "Let's Set Up Your Meal Prep Programme",
+  "Explore myCHEF Dubai",
+  "A Taste of Our Meal Prep"
+ ],
+ "add_block": [
+  {
+   "new_heading": "Corporate meal prep catering for offices, events and teams",
+   "new_paragraphs": [
+    "The service flexes from a small startup floor to a multi-department headquarters, and it scales up for one-off needs too. Most clients use corporate meal prep catering services in Dubai for daily staff lunches — a reliable, healthy alternative to delivery apps that keeps the team on site and productive. It also works for shift teams who need meals ready at odd hours, for wellness programmes that reward staff with proper food, and for onboarding weeks when new hires eat together. When you have a bigger moment, the same corporate meal prep catering for events in Dubai covers offsites, training days, town halls and away-days, and can slot into a corporate meal prep party catering setup for a Friday team lunch or a project-launch spread. One caterer, one standard, whether it is five desks or five hundred."
+   ],
+   "insert_after_block": "What Our Corporate Meal Prep Includes",
+   "position": "after the block titled 'What Our Corporate Meal Prep Includes'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Delivery, dietary needs and logistics",
+   "new_paragraphs": [
+    "Reliable logistics are what separate real corporate meal prep food catering from an ad-hoc lunch order. Meals are cooked fresh, chilled or held at safe temperatures, and delivered on a set window your reception can rely on — daily, three days a week or in a batch you store and reheat. Container labelling — dish, allergens and heating guidance — is provided in line with the assigned partner's food-safety procedures. Dietary requirements are captured once at setup and carried through every cycle, and we handle last-minute additions, headcount changes and desk-side delivery for larger floors. For companies that want a home-catering-style touch for executives or remote leadership, individual meal prep can be delivered to home addresses alongside the office run, keeping one menu and one invoice across the whole team."
+   ],
+   "insert_after_block": "Corporate Meal Prep Questions",
+   "position": "after the block titled 'Corporate Meal Prep Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How much does corporate meal prep catering cost in Dubai?",
+   "new_paragraphs": [
+    "Corporate meal prep catering prices in Dubai start from AED 700 per person and are quoted by headcount, menu tier and how many meals per week you need. The per-person rate typically falls as volume rises, which is why a standing weekly programme costs less per meal than one-off ordering. Corporate meal prep catering packages can be structured as a retained programme with consistent menus and one simplified monthly invoice — an affordable, predictable way to feed a team versus daily app deliveries. If you want to benchmark the corporate meal prep catering cost against other formats, see our Dubai catering price guide , or send your numbers and we will build an itemised, no-obligation quote. There are no hidden charges: the proposal shows food, service and delivery as separate lines."
+   ],
+   "insert_after_block": "Corporate Meal Prep Questions",
+   "position": "after the block titled 'Corporate Meal Prep Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "How to hire corporate meal prep catering",
+   "new_paragraphs": [
+    "To hire corporate meal prep catering in Dubai, share your headcount, dietary mix, delivery days and start date, and we take it from there. We send a proposed menu cycle and an itemised proposal — usually within one business day — you review and adjust it, we confirm the schedule, and your assigned chef begins the first week. From there it runs on autopilot: a fixed delivery window, a rotating menu, and one contact for any change. You can scale meals up or down week to week, pause during holidays, and swap menu tracks as tastes shift. Most companies start with a two-week trial before committing to a longer programme, so you can judge the food and the reliability before it becomes routine."
+   ],
+   "insert_after_block": "Corporate Meal Prep Questions",
+   "position": "after the block titled 'Corporate Meal Prep Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Why myCHEF",
+   "new_paragraphs": [
+    "MyCHEF was founded by a chef trained in some of Europe's most demanding kitchens, on one idea: you run the business, we carry the food. Every chef working on corporate meal prep catering has cleared identity checks, a practical cooking assessment, reference verification and ongoing performance reviews — a continuous standard, not a one-time tick. We are honest about it, too: no system removes every risk, so we match each account to the best available chef for it, which is what makes a genuinely strong corporate meal prep catering company instead of a middleman.",
+    "For a corporate programme, that is often Ahmed Al-Rashid — 18+ years across Dubai, London and Paris in classical French technique — who treats a weekly menu with the same discipline as a fine-dining service: every dish balanced, portioned and consistent, delivery after delivery. We have run standing meal programmes and boardroom catering for teams across Dubai. Covers corporate meal prep catering; client reviews go up as events are delivered."
+   ],
+   "insert_after_block": "Corporate Meal Prep Questions",
+   "position": "after the block titled 'Corporate Meal Prep Questions'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Corporate meal prep catering FAQs",
+   "new_paragraphs": [
+    "How much does corporate meal prep catering cost in Dubai?",
+    "It starts from around AED 700 per person and is quoted by headcount, menu tier and how many meals per week you need. Standing weekly programmes are priced per programme and cost less per meal than one-off orders.",
+    "What is included in a corporate meal prep programme?",
+    "Included is menu design, an assigned vetted chef, individually-portioned and labelled meals, chilled delivery on a set schedule, and one contact for changes. There is no on-site cooking or cleanup for your team.",
+    "Can you handle dietary requirements and allergies?",
+    "Yes — vegetarian, vegan, halal, gluten-free, dairy-free, nut-free and calorie-controlled tracks run alongside the core menu. Requirements are captured once at setup, labelled on every container, and carried through each cycle.",
+    "Do you deliver daily or weekly?",
+    "Both — you choose a daily delivery window, a few days a week, or a batch you store and reheat. The schedule is fixed at setup so your reception can rely on it, with room for last-minute headcount changes.",
+    "How do I hire or set up a regular arrangement?",
+    "Share your headcount, dietary mix and delivery days; we send a proposed menu cycle and an itemised proposal, usually within one business day. Most companies start with a two-week trial before committing.",
+    "Can you deliver to home addresses as well as the office?",
+    "Yes — for executives or remote staff we can deliver individual corporate meal prep to home addresses alongside the office run, keeping one menu and one invoice across the whole team.",
+    "Is there a minimum headcount or commitment?",
+    "Programmes flex from a small floor to a large headquarters, and you can scale meals up or down week to week or pause for holidays. We will recommend a sensible starting point once we know your team size.",
+    "For corporate meal prep catering, the chefs and partner kitchens handling your booking operate to Dubai Municipality food-safety requirements ."
+   ],
+   "insert_after_block": "Catering Across Dubai",
+   "position": "after the block titled 'Catering Across Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Planning corporate meal prep catering step by step",
+   "new_paragraphs": [
+    "Send your date, guest count and venue — your proposal arrives.",
+    "Book corporate meal prep catering about 2 weeks ahead off-peak, and 6 weeks ahead between November and March.",
+    "Confirm the menu for corporate meal prep catering some 7 days ahead, once numbers stop moving.",
+    "Ask for dietary covers at the corporate meal prep catering briefing stage instead of within 48 hours .",
+    "Check parking and lift access; your corporate meal prep catering team is on site some 2 hours early.",
+    "Plan on roughly 3 hours of service, and add 5% VAT to the total."
+   ],
+   "insert_after_block": "Catering Across Dubai",
+   "position": "after the block titled 'Catering Across Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  },
+  {
+   "new_heading": "Which corporate meal prep catering format suits your event?",
+   "new_paragraphs": [
+    "Format What it gives you Staffing Cost position",
+    "Drop-off Food delivered ready to serve None Entry point",
+    "Buffet Presentation plus a maintained spread 1–2 From AED 700 per person",
+    "Live stations Cooking in front of your guests 2–4 Mid-range",
+    "Plated Every course served together 3 and above Top of the range"
+   ],
+   "insert_after_block": "Catering Across Dubai",
+   "position": "after the block titled 'Catering Across Dubai'",
+   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+  }
+ ],
+ "faq": []
+}
