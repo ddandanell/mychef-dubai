@@ -1,7 +1,7 @@
 import type { ReactNode } from 'react'
 import Navbar from './Navbar'
 import Footer from './Footer'
-import ExploreSection from './ExploreSection'
+import SiloSection from './SiloSection'
 import FloatingChefChat from './FloatingChefChat'
 import SeoContent from './SeoContent'
 import SeoHead from './SeoHead'
@@ -22,7 +22,7 @@ export default function Layout({ children }: LayoutProps) {
           {children}
           <SeoContent />
         </main>
-        <ExploreSection />
+        <SiloSection />
         <Footer />
       </WhatsAppMessageProvider>
       <FloatingChefChat />

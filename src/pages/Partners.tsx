@@ -110,6 +110,14 @@ export default function Partners() {
               Trust and programs
             </Link>
           </p>
+
+          <p className="mt-3 font-inter text-body-sm text-gray-500">
+            If you cook rather than refer,{' '}
+            <Link to="/become-a-mychef" className="text-gold-ink underline underline-offset-4 hover:text-gold">
+              join the myCHEF chef roster
+            </Link>
+            .
+          </p>
         </Container>
       </Section>
     </div>

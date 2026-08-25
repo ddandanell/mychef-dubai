@@ -325,6 +325,10 @@ export default function About() {
             <Link to="/press" className="text-gold hover:underline">
               press kit
             </Link>
+            . Chefs looking for work should read{' '}
+            <Link to="/become-a-mychef" className="text-gold hover:underline">
+              become a myCHEF chef
+            </Link>
             .
           </p>
         </div>

@@ -3,14 +3,14 @@ import { Phone, Mail, MapPin } from 'lucide-react'
 import TrustBar from '@/components/TrustBar'
 import SocialLinks from '@/components/SocialLinks'
 
+/**
+ * Sitewide services list. The six /private-chef-dubai/* modules are deliberately
+ * absent: they are steps inside the household plan, and putting them in a
+ * footer that renders on all 216 URLs split the cluster's equity six ways. They
+ * are still linked from inside the plan flow, where they belong.
+ */
 const serviceLinks = [
   { label: 'Private Chef Dubai', href: '/private-chef-dubai' },
-  { label: 'How the household chef works', href: '/private-chef-dubai/how-it-works' },
-  { label: 'Chef selection & matching', href: '/private-chef-dubai/our-chefs' },
-  { label: 'Quality & training', href: '/private-chef-dubai/quality-training' },
-  { label: 'Privacy & security', href: '/private-chef-dubai/privacy-security' },
-  { label: 'Household chef pricing', href: '/private-chef-dubai/pricing' },
-  { label: 'How your plan works', href: '/private-chef-dubai/how-your-plan-works' },
   { label: 'Catering Dubai', href: '/catering-dubai' },
   { label: 'Weddings', href: '/wedding-catering-dubai' },
   { label: 'Corporate Events', href: '/corporate-event-catering-dubai' },
@@ -221,11 +221,6 @@ export default function Footer() {
               <li>
                 <Link to="/booking-protection-insurance" className="font-inter text-body-sm text-gray-400 hover:text-gold transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-black rounded-sm">
                   Booking Protection
-                </Link>
-              </li>
-              <li>
-                <Link to="/become-a-mychef" className="font-inter text-body-sm text-gray-400 hover:text-gold transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-black rounded-sm">
-                  Become a myCHEF Chef
                 </Link>
               </li>
               <li>

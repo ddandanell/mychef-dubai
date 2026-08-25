@@ -97,7 +97,6 @@ export const CORPORATE_NAV_GROUPS: NavGroup[] = [
       { href: '/office-catering-dubai', label: 'Office Catering', description: 'Day-to-day workplace lunches' },
       { href: '/conference-catering-dubai', label: 'Conference Catering', description: 'Delegates, breaks, multi-day' },
       { href: '/exhibition-catering-dubai', label: 'Exhibition Catering', description: 'Stands and hospitality suites' },
-      { href: '/staff-meals-catering-dubai', label: 'Staff Meals', description: 'Daily meals at volume' },
     ],
   },
 ]

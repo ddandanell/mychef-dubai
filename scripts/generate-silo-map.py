@@ -24,7 +24,8 @@ import json, os, re, collections
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC = os.path.join(REPO, 'docs/seo/mychef-master-keywords.json')
 VERCEL = os.path.join(REPO, 'vercel.json')
-OUT = os.path.join(REPO, 'src/content/siloMap.json')
+OUT_FULL = os.path.join(REPO, 'docs/seo/silo-map.json')      # human-readable, for audit
+OUT_RUNTIME = os.path.join(REPO, 'src/content/siloMap.json')  # compact, shipped in the bundle
 
 SIBLING_CAP = 5
 CHILD_CAP = 12
@@ -45,9 +46,12 @@ SUPPRESSED = {
     '/private-chef-dubai/how-your-plan-works',
     # Recruitment intent. Lives on About and Partners only.
     '/become-a-mychef',
-    # Can rank, will not convert at myCHEF rates. Deliberately not invested in.
-    '/staff-meals-catering-dubai',
 }
+
+# Out of sitewide nav, but still carried by its own silo. Suppressing it
+# everywhere would leave a sitemapped page with zero internal links, which is
+# worse than the low-margin traffic the blueprint warned about.
+# (/staff-meals-catering-dubai was here; it is a corporate spoke, not a hub.)
 
 # The 52 URLs the architecture file never assigned. Pattern -> (silo, hub).
 # Ordered: first match wins.
@@ -100,6 +104,39 @@ STOP = {
     'per', 'person', 'how', 'much', 'is', 'do', 'you', 'can', 'what', 'with',
     'service', 'services', 'company', 'companies', 'mychef',
 }
+
+
+SMALL = {'a', 'an', 'and', 'at', 'for', 'in', 'of', 'on', 'or', 'the', 'to', 'vs', 'with'}
+CAPS = {'bbq': 'BBQ', 'vip': 'VIP', 'difc': 'DIFC', 'jbr': 'JBR', 'jlt': 'JLT',
+        'jvc': 'JVC', 'uae': 'UAE', 'faq': 'FAQ', 'mychef': 'myCHEF'}
+
+
+def human_label(url):
+    """Readable anchor text from the slug.
+
+    Deliberately not the primary keyword. Anchors that all read
+    "wedding catering dubai" are the exact-match pattern this project exists to
+    remove, and varied natural anchors describe the destination better anyway.
+    """
+    if url == '/':
+        return 'Home'
+    slug = url.strip('/')
+    for prefix in ('blog/', 'guide/', 'guides/', 'locations/', 'chefs/',
+                   'partners/', 'private-chef-dubai/'):
+        if slug.startswith(prefix):
+            slug = slug[len(prefix):]
+            break
+    slug = re.sub(r'-dubai$', '', slug)
+    words = [w for w in slug.split('-') if w]
+    out = []
+    for i, w in enumerate(words):
+        if w in CAPS:
+            out.append(CAPS[w])
+        elif i > 0 and w in SMALL:
+            out.append(w)
+        else:
+            out.append(w.capitalize())
+    return ' '.join(out) or url
 
 
 def editorial_routes():
@@ -227,7 +264,8 @@ def main():
 
     def entry(url):
         return {'url': url,
-                'label': pages[url].get('primary_keyword') or url,
+                'label': human_label(url),
+                'keyword': pages[url].get('primary_keyword'),
                 'silo': silo_of[url]}
 
     out_pages = {}
@@ -267,8 +305,8 @@ def main():
 
         crumb = [{'url': '/', 'label': 'Home'}]
         if hub and hub in pages:
-            crumb.append({'url': hub, 'label': pages[hub].get('primary_keyword') or hub})
-        crumb.append({'url': url, 'label': pages[url].get('primary_keyword') or url})
+            crumb.append({'url': hub, 'label': human_label(hub)})
+        crumb.append({'url': url, 'label': human_label(url)})
 
         out_pages[url] = {
             'url': url,
@@ -278,7 +316,8 @@ def main():
             'page_type': pages[url].get('page_type'),
             'primary_keyword': pages[url].get('primary_keyword'),
             'breadcrumb': crumb,
-            'uplink': ({'url': hub, 'label': pages[hub].get('primary_keyword') or hub}
+            'uplink': ({'url': hub, 'label': human_label(hub),
+                        'keyword': pages[hub].get('primary_keyword')}
                        if hub and hub in pages else None),
             'siblings': [entry(u) for u in siblings],
             'featured_children': [entry(u) for u in featured],
@@ -332,8 +371,44 @@ def main():
         'pages': out_pages,
     }
 
-    with open(OUT, 'w') as f:
+    with open(OUT_FULL, 'w') as f:
         json.dump(doc, f, indent=1, ensure_ascii=False)
+        f.write('\n')
+
+    # ---- compact runtime encoding ---------------------------------------
+    # The readable form is ~450KB, which would sit in the main bundle and be
+    # parsed on every page load. Ship an index-encoded version instead and let
+    # src/content/siloMap.ts hand the ergonomic shape back to templates.
+    urls = sorted({u for u in out_pages} | {e['url']
+                  for p in out_pages.values()
+                  for e in p['siblings'] + p['featured_children'] + p['silo_index']
+                  + p['commercial_owners'] + p['supporting_guides'] + p['areas']
+                  + p['breadcrumb'] + ([p['uplink']] if p['uplink'] else [])})
+    idx = {u: i for i, u in enumerate(urls)}
+    labels = [human_label(u) for u in urls]
+
+    def ids(entries):
+        return [idx[e['url']] for e in entries]
+
+    compact = {
+        'u': urls,
+        'l': labels,
+        'd': [idx[u] for u in do_not_link if u in idx],
+        'p': {u: {
+            'h': idx[p['uplink']['url']] if p['uplink'] else -1,
+            'H': 1 if p['is_hub'] else 0,
+            'b': [idx[c['url']] for c in p['breadcrumb']],
+            's': ids(p['siblings']),
+            'c': ids(p['featured_children']),
+            'i': ids(p['silo_index']),
+            'o': ids(p['commercial_owners']),
+            'g': ids(p['supporting_guides']),
+            'a': ids(p['areas']),
+            'z': p['silo'] or '',
+        } for u, p in out_pages.items()},
+    }
+    with open(OUT_RUNTIME, 'w') as f:
+        json.dump(compact, f, separators=(',', ':'), ensure_ascii=False)
         f.write('\n')
 
     print(f"pages            {doc['stats']['pages']}")
@@ -343,6 +418,8 @@ def main():
     print(f"orphans          {doc['stats']['orphans']}")
     for o in orphans:
         print('   orphan:', o)
+    print(f"readable        {os.path.getsize(OUT_FULL)//1024} KB  {OUT_FULL}")
+    print(f"runtime         {os.path.getsize(OUT_RUNTIME)//1024} KB  {OUT_RUNTIME}")
 
 
 if __name__ == '__main__':
