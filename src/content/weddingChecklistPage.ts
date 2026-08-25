@@ -79,6 +79,38 @@ export const checklistPhases = [
   },
 ] as const
 
+export const firstBrief = [
+  'Date and whether it is peak season (November to March).',
+  'Venue or area, and whether it is a villa, hotel, garden, beach or yacht.',
+  'Guest-count range, including children and vendors if they eat.',
+  'How you want people to eat, if you know: plated, buffet, stations, canapés, family-style, not sure.',
+  'Cuisine and any dishes that must appear — or must not.',
+  'Dietary list: Halal standard, vegetarian, vegan, Jain, gluten-free, dairy-free, nut-conscious, named allergies.',
+  'Budget band, even if it is a range.',
+  'What you already have: planner, florist, cake, bar, rentals.',
+  'Whether alcohol is expected, and whether the venue is licensed.',
+] as const
+
+export const plannerSplit = [
+  { who: 'myCHEF', does: 'The food and beverage operation: menu, chefs, service team, dietary planning, setup and clear-down of the food service, and the named contact for all of that.' },
+  { who: 'Your planner', does: 'The wedding: ceremony, florals, entertainment, photography, invitations, the run sheet everyone else fits into.' },
+  { who: 'The venue', does: 'The building, the licence, often the preferred-supplier list, load-in windows, overtime, and whether an external kitchen is allowed at all.' },
+  { who: 'The couple', does: 'Decisions. Taste. Final numbers. One named day-of contact who is not either of you.' },
+] as const
+
+export const foodChecklist = [
+  'Welcome drinks and canapés — or a decision that dinner starts on arrival.',
+  'Main format locked: plated, buffet, stations, sharing, or a mix with times.',
+  'Vegetarian, vegan, Jain and allergen-conscious covers named, not “we will see”.',
+  'Children’s plates if they are eating a different meal.',
+  'Vendor meals: photographers, musicians, planners eat too.',
+  'Cake: moment, dessert, or both. Specialist pastry if the cake is a showpiece.',
+  'Dessert table or plated sweet.',
+  'Late-night food with a time, or a clear no.',
+  'Bar: mocktails and soft drinks; alcohol only where licensed.',
+  'Tea, coffee, Arabic coffee, dates — if they belong to this family.',
+] as const
+
 export const questionsToAsk = [
   'Who is the named point of contact from first brief to clear-down?',
   'What is always coordinated, what is included only when the plan says so, and what is extra?',

@@ -26,14 +26,18 @@ import {
 } from '@/content/weddingCluster'
 import {
   MENU_KEYWORD_LOCK,
+  culturalNotes,
   cuisineRows,
+  extraCovers,
   menuFaqs,
   menuFormats,
+  menuMistakes,
   menuHero,
   menuLinks,
   menuSegments,
   sampleMenus,
   tastingSteps,
+  venueMenuNotes,
 } from '@/content/weddingMenuPage'
 
 const schema = {
@@ -227,6 +231,39 @@ export default function WeddingMenuPlanningGuide() {
 
       <Section tone="ivory" rhythm="chapter">
         <Container className="max-w-3xl">
+          <SectionLabel>CULTURAL PLANNING</SectionLabel>
+          <DisplayHeading className="text-black mb-6">The family is the brief</DisplayHeading>
+          <BodyCopy className="mb-10">
+            Dubai weddings are often two families, two kitchens, and a guest list that flew in from four time zones. The menu has to feed all of them without turning into a food court.
+          </BodyCopy>
+          <div className="space-y-8">
+            {culturalNotes.map((item) => (
+              <div key={item.title}>
+                <h2 className="font-playfair text-h4 text-black mb-2">{item.title}</h2>
+                <p className="font-inter text-body text-gray-600 leading-relaxed">{item.body}</p>
+              </div>
+            ))}
+          </div>
+        </Container>
+      </Section>
+
+      <Section tone="white" rhythm="chapter">
+        <Container className="max-w-3xl">
+          <SectionLabel>THE ROOM CHANGES THE FOOD</SectionLabel>
+          <DisplayHeading className="text-black mb-10">Villa, ballroom, yacht — the menu follows the kitchen</DisplayHeading>
+          <div className="space-y-8">
+            {venueMenuNotes.map((item) => (
+              <div key={item.title}>
+                <h2 className="font-playfair text-h4 text-black mb-2">{item.title}</h2>
+                <p className="font-inter text-body text-gray-600 leading-relaxed">{item.body}</p>
+              </div>
+            ))}
+          </div>
+        </Container>
+      </Section>
+
+      <Section tone="ivory" rhythm="chapter">
+        <Container className="max-w-3xl">
           <SectionLabel>DIETARY REQUIREMENTS</SectionLabel>
           <DisplayHeading className="text-black mb-6">Halal default. The rest of the list in time.</DisplayHeading>
           <BodyCopy className="mb-5">{WEDDING_DIETARY}</BodyCopy>
@@ -297,6 +334,36 @@ export default function WeddingMenuPlanningGuide() {
             </Link>
             .
           </p>
+        </Container>
+      </Section>
+
+      <Section tone="white" rhythm="chapter">
+        <Container className="max-w-3xl">
+          <SectionLabel>WHAT USUALLY GOES WRONG</SectionLabel>
+          <DisplayHeading className="text-black mb-10">Five menu mistakes we see in Dubai</DisplayHeading>
+          <div className="space-y-8">
+            {menuMistakes.map((item) => (
+              <div key={item.title}>
+                <h2 className="font-playfair text-h4 text-black mb-2">{item.title}</h2>
+                <p className="font-inter text-body text-gray-600 leading-relaxed">{item.body}</p>
+              </div>
+            ))}
+          </div>
+        </Container>
+      </Section>
+
+      <Section tone="ivory" rhythm="chapter">
+        <Container className="max-w-3xl">
+          <SectionLabel>THE REST OF THE ROOM</SectionLabel>
+          <DisplayHeading className="text-black mb-10">Children, vendors, drinks</DisplayHeading>
+          <div className="space-y-8">
+            {extraCovers.map((item) => (
+              <div key={item.title}>
+                <h2 className="font-playfair text-h4 text-black mb-2">{item.title}</h2>
+                <p className="font-inter text-body text-gray-600 leading-relaxed">{item.body}</p>
+              </div>
+            ))}
+          </div>
         </Container>
       </Section>
 

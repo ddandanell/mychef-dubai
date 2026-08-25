@@ -112,6 +112,78 @@ export const sampleMenus = [
   },
 ] as const
 
+export const culturalNotes = [
+  {
+    title: 'Indian wedding catering menu',
+    body: 'Often more than one food moment: welcome chaat, a vegetarian depth that is not an afterthought, breads and rice together, a sweet that belongs to the family not the hotel pastry list. Tell us the regions and the rules — Jain, satvik, onion-garlic, regional heat — before we write a generic “Indian buffet”.',
+  },
+  {
+    title: 'Arabic and Lebanese wedding menus',
+    body: 'Sharing is the grammar. Mezze should arrive as a table, not as twelve unrelated canapés. Grills and rice need a holding plan in July. A Lebanese wedding menu is not “Arabic with hummus”; it is its own cold and hot mezze, its own grill, its own dessert language.',
+  },
+  {
+    title: 'Fusion wedding menu Dubai',
+    body: 'Fusion is a design choice. Two kitchens that share a logic — spice, richness, vegetarian depth, what arrives first — can sit in one room. A food court of greatest hits cannot. If the families want both, we station them and label them. We do not hide one inside the other.',
+  },
+  {
+    title: 'Multi-day celebrations',
+    body: 'Engagement, sangeet, ceremony, reception, brunch. Each day can have its own format. Repeating the same buffet four times is how guests stop eating. Change the kitchen or the format, not only the tablecloth.',
+  },
+] as const
+
+export const venueMenuNotes = [
+  {
+    title: 'Villa and garden',
+    body: 'Heat, shade, distance from kitchen to table, and what happens if the wind arrives. Outdoor peaks from November to March. May to September usually wants a cooled room or a shorter outdoor window. We do not move an indoor tasting menu onto a lawn without changing it.',
+  },
+  {
+    title: 'Hotel ballroom',
+    body: 'If external catering is allowed, the menu still has to fit their load-in and their power. If it is not allowed, stop designing this page’s sample menus for that room.',
+  },
+  {
+    title: 'Yacht',
+    body: 'The galley is small. The menu is compact, the holding is tighter, and per-guest cost is usually higher for that reason. No live tandoor on a fifty-foot deck unless the charter and the fire plan say so.',
+  },
+] as const
+
+export const menuMistakes = [
+  {
+    title: 'A buffet of greatest hits',
+    body: 'Twelve cuisines, none of them finished. Guests graze and leave hungry. Pick a kitchen, or two that can share a service plan. Label them. Do not hide a third inside the dessert.',
+  },
+  {
+    title: 'Canapés that are the meal, without saying so',
+    body: 'Three bites and a long ceremony is a different brief from dinner. If canapés carry the night, the count and the substance have to change. Say it in the brief.',
+  },
+  {
+    title: 'The generic vegetarian plate',
+    body: 'A grilled vegetable stack next to lamb is how vegetarian guests know they were an afterthought. If a third of the room does not eat meat, that kitchen needs the same care as the grill.',
+  },
+  {
+    title: 'A cake nobody eats, and no dessert',
+    body: 'The cake is often a photograph. Plan something people will actually finish — a dessert table, a small plated sweet, Arabic sweets — and decide whether the cake is food or a moment.',
+  },
+  {
+    title: 'Late-night food as an untimed tray',
+    body: 'A tray of sliders at midnight without a service window is leftovers. Late-night wedding food is a timed service, with a person standing there.',
+  },
+] as const
+
+export const extraCovers = [
+  {
+    title: 'Children',
+    body: 'A smaller plate, milder seasoning, and a time that matches theirs — not a miniature tasting menu. Ask how many, and whether they sit with adults.',
+  },
+  {
+    title: 'Vendors',
+    body: 'Photographers, musicians and planners eat. Put vendor meals on the plan so the kitchen is not sending leftover canapés to the band at 11 p.m.',
+  },
+  {
+    title: 'Drinks that are not alcohol',
+    body: 'Mocktails, juices, tea, coffee, Arabic coffee. These can be planned through myCHEF. Wine and spirits only where the venue licence allows, coordinated with the venue or a licensed partner.',
+  },
+] as const
+
 export const tastingSteps = [
   'The date is held and the menu direction is agreed. Then we taste — not before.',
   'You eat the dishes that will be served, in something close to the real order.',

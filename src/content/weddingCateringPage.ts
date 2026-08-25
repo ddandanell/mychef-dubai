@@ -82,6 +82,14 @@ export const weddingSettings = [
     image: '/images/party-catering-dubai-hero.webp',
     imageAlt: 'An outdoor wedding reception in a Dubai garden. Experience concept shown.',
   },
+  {
+    title: 'Hotel and licensed venues',
+    body: 'Downtown, DIFC, Business Bay, Dubai Marina, JBR, Bluewaters: ask on day one whether external catering is allowed. If the hotel says no, they are selling a building and a kitchen. That can be the right buy — it is not a myCHEF plated menu in that ballroom.',
+    href: '/venue-partners',
+    linkLabel: 'Venue partners',
+    image: '/images/gala-dinner-catering-dubai-hero.webp',
+    imageAlt: 'A hotel ballroom set for a wedding dinner in Dubai. Experience concept shown.',
+  },
 ] as const
 
 export const weddingCuisines = [

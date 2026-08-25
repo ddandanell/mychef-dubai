@@ -123,6 +123,20 @@ export const hiddenLines = [
   { item: 'Cake', note: 'Specialist wedding cakes from about AED 1,200. Coordinated, not always baked by the same kitchen.' },
 ] as const
 
+export const compareQuotes = [
+  'Same guest count on both pages. If one quote is for 120 and the other for 150, you are not comparing.',
+  'Same format. A buffet headline next to a plated headline is not a saving.',
+  'What is inside: food, chefs, waiters, rentals, dessert, cake, bar, tasting, delivery, clear-down.',
+  'VAT as its own line. A number that “includes everything” and hides 5% is not cheaper.',
+  'Cut-off time and overtime. Hotel hours are often where the second invoice appears.',
+  'Kitchen: house kitchen, extra equipment, or a temporary kitchen at a site with no production space.',
+  'Alcohol: in, out, or not permitted. Corkage if you bring your own.',
+  'Minimum booking value. Small tables are often floors, not head-rates.',
+] as const
+
+export const vatSketch =
+  'UAE VAT is 5%. On an independent buffet line of AED 36,000 that is AED 1,800. On a hotel package of AED 90,000 that is AED 4,500 unless the package was already quoted inclusive — in which case ask them to show the split. A proposal that does not show VAT is incomplete instead of cheaper.'
+
 export const costSources = [
   'Cedar Tree and Kuber 2026 published wedding catering ranges (about AED 150–500 / 150–600).',
   'Eventify 2025 vendor-database budget notes (catering often 25–35% of a wedding).',

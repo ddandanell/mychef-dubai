@@ -8,10 +8,12 @@ import {
   Heart,
   Home,
   Package,
+  Plane,
   PartyPopper,
   Presentation,
   Salad,
   Sandwich,
+  Ship,
   Truck,
   UtensilsCrossed,
   Users,
@@ -32,6 +34,10 @@ export const NAV_CLUSTER_ICONS: Record<string, LucideIcon> = {
   '/bbq-catering-dubai': Flame,
   '/grazing-table-dubai': GlassWater,
   '/drop-off-catering-dubai': Truck,
+  // Catering — venues
+  '/villas-private-residences': Home,
+  '/yachts': Ship,
+  '/private-jet-catering-dubai': Plane,
   // Private events
   '/birthday-catering-dubai': Cake,
   '/kids-birthday-catering-dubai': Baby,

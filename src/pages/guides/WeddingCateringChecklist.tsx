@@ -32,6 +32,9 @@ import {
   checklistLinks,
   checklistPhases,
   dubaiBlock,
+  firstBrief,
+  foodChecklist,
+  plannerSplit,
   questionsToAsk,
 } from '@/content/weddingChecklistPage'
 
@@ -145,6 +148,64 @@ export default function WeddingCateringChecklist() {
 
       <Section tone="white" rhythm="chapter">
         <Container className="max-w-3xl">
+          <SectionLabel>THE FIRST BRIEF</SectionLabel>
+          <DisplayHeading className="text-black mb-6">What to send so we can answer honestly</DisplayHeading>
+          <BodyCopy className="mb-8">
+            You do not need a Pinterest board. You need the facts that change the kitchen plan.
+          </BodyCopy>
+          <ul className="space-y-3">
+            {firstBrief.map((item) => (
+              <li key={item}>
+                <label className="flex gap-3 items-start cursor-pointer">
+                  <input type="checkbox" className="mt-1.5 h-4 w-4 shrink-0 accent-[#C8A45C]" />
+                  <span className="font-inter text-body text-gray-600 leading-relaxed">{item}</span>
+                </label>
+              </li>
+            ))}
+          </ul>
+        </Container>
+      </Section>
+
+      <Section tone="ivory" rhythm="chapter">
+        <Container className="max-w-3xl">
+          <SectionLabel>WHO DOES WHAT</SectionLabel>
+          <DisplayHeading className="text-black mb-6">We are not the wedding planner</DisplayHeading>
+          <BodyCopy className="mb-10">
+            If you need a planner, hire a planner. We manage the food and beverage operation and fit it to their run sheet.
+          </BodyCopy>
+          <dl className="divide-y divide-gray-200 border-y border-gray-200">
+            {plannerSplit.map((row) => (
+              <div key={row.who} className="py-5 sm:grid sm:grid-cols-3 sm:gap-6">
+                <dt className="font-playfair text-h4 text-black">{row.who}</dt>
+                <dd className="mt-2 sm:col-span-2 sm:mt-0 font-inter text-body text-gray-600 leading-relaxed">{row.does}</dd>
+              </div>
+            ))}
+          </dl>
+        </Container>
+      </Section>
+
+      <Section tone="white" rhythm="chapter">
+        <Container className="max-w-3xl">
+          <SectionLabel>WEDDING FOOD CHECKLIST</SectionLabel>
+          <DisplayHeading className="text-black mb-6">The meal, named in order</DisplayHeading>
+          <BodyCopy className="mb-8">
+            This is the wedding food checklist. Tick what is in the brief. Leave the rest off — optional lines should stay optional.
+          </BodyCopy>
+          <ul className="space-y-3">
+            {foodChecklist.map((item) => (
+              <li key={item}>
+                <label className="flex gap-3 items-start cursor-pointer">
+                  <input type="checkbox" className="mt-1.5 h-4 w-4 shrink-0 accent-[#C8A45C]" />
+                  <span className="font-inter text-body text-gray-600 leading-relaxed">{item}</span>
+                </label>
+              </li>
+            ))}
+          </ul>
+        </Container>
+      </Section>
+
+      <Section tone="ivory" rhythm="chapter">
+        <Container className="max-w-3xl">
           <SectionLabel>WEDDING CATERING TIMELINE</SectionLabel>
           <DisplayHeading className="text-black mb-12">When to book a wedding caterer — and what happens after</DisplayHeading>
           <ol className="space-y-10">
@@ -174,7 +235,7 @@ export default function WeddingCateringChecklist() {
         </Container>
       </Section>
 
-      <Section tone="ivory" rhythm="chapter">
+      <Section tone="white" rhythm="chapter">
         <Container className="max-w-3xl">
           <SectionLabel>QUESTIONS TO ASK</SectionLabel>
           <DisplayHeading className="text-black mb-6">Wedding catering questions to ask before you hold the date</DisplayHeading>

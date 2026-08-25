@@ -35,99 +35,53 @@ export type CateringNavItem = {
   description: string
 }
 
-export type CateringNavGroup = {
-  heading: string
-  items: readonly CateringNavItem[]
-}
-
-export const CATERING_NAV_GROUPS: readonly CateringNavGroup[] = [
+/** Compact mega + mobile list. Six items, same shape as private chef CLUSTER_NAV. */
+export const CATERING_NAV = [
   {
-    heading: 'Catering',
-    items: [
-      {
-        href: CATERING_PATHS.overview,
-        label: 'Catering Dubai',
-        description: 'Everything we can build around your event',
-      },
-    ],
+    href: CATERING_PATHS.overview,
+    label: 'Catering Dubai',
+    description: 'Everything we can build around your event',
   },
   {
-    heading: 'Events',
-    items: [
-      {
-        href: CATERING_PATHS.weddings,
-        label: 'Weddings',
-        description: 'Intimate dinner to a larger reception',
-      },
-      {
-        href: CATERING_PATHS.corporateEvents,
-        label: 'Corporate Events',
-        description: 'Board meetings, launches, client dinners',
-      },
-      {
-        href: CATERING_PATHS.birthdays,
-        label: 'Birthdays & Celebrations',
-        description: 'Home dinner, villa party, anniversary',
-      },
-      {
-        href: CATERING_PATHS.privateEvents,
-        label: 'Private Events & Parties',
-        description: 'You have the guest list. We build around it',
-      },
-    ],
+    href: CATERING_PATHS.weddings,
+    label: 'Weddings',
+    description: 'Intimate dinner to a larger reception',
   },
   {
-    heading: 'Where',
-    items: [
-      {
-        href: CATERING_PATHS.villas,
-        label: 'Villa Catering',
-        description: 'Food only through to a complete villa event',
-      },
-      {
-        href: CATERING_PATHS.yachts,
-        label: 'Yacht Catering',
-        description: 'Timing, storage, setup and service on the water',
-      },
-      {
-        href: CATERING_PATHS.privateJet,
-        label: 'Private Jet Catering',
-        description: 'Food coordinated around the flight',
-      },
-    ],
+    href: CATERING_PATHS.corporateEvents,
+    label: 'Corporate Events',
+    description: 'Board meetings, launches, client dinners',
   },
   {
-    heading: 'How',
-    items: [
-      {
-        href: CATERING_PATHS.fullService,
-        label: 'Full-Service Catering',
-        description: 'Food, team, equipment and the service flow',
-      },
-      {
-        href: CATERING_PATHS.dropOff,
-        label: 'Food Only & Drop-Off',
-        description: 'Prepared food delivered to your venue',
-      },
-      {
-        href: CATERING_PATHS.styles,
-        label: 'Catering Styles',
-        description: 'How the food is served — buffet to plated',
-      },
-      {
-        href: CATERING_PATHS.menus,
-        label: 'Menus',
-        description: 'Cuisines and how a menu is built',
-      },
-    ],
+    href: CATERING_PATHS.villas,
+    label: 'Villa Catering',
+    description: 'Food only through to a complete villa event',
+  },
+  {
+    href: CATERING_PATHS.yachts,
+    label: 'Yacht Catering',
+    description: 'Timing, storage, setup and service on the water',
+  },
+  {
+    href: CATERING_PATHS.privateJet,
+    label: 'Private Jet Catering',
+    description: 'Food coordinated around the flight',
   },
 ] as const
 
-export const CATERING_NAV_CHILDREN: CateringNavItem[] = CATERING_NAV_GROUPS.flatMap((group) => [...group.items])
+export const CATERING_NAV_CHILDREN: CateringNavItem[] = CATERING_NAV.map((item) => ({
+  href: item.href,
+  label: item.label,
+  description: item.description,
+}))
 
 /** Pathnames that should gold-state the Catering nav item. Hashes ignored. */
 const ACTIVE_PATHS = new Set([
   ...CATERING_NAV_CHILDREN.map((item) => item.href.split('#')[0]).filter(Boolean),
+  CATERING_PATHS.birthdays,
+  CATERING_PATHS.privateEvents,
+  CATERING_PATHS.dropOff,
+  CATERING_PATHS.menus,
   '/blog/wedding-catering-cost-dubai',
   '/wedding-catering-checklist-dubai',
   '/wedding-catering-menu-planning-dubai',

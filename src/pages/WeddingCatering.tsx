@@ -337,10 +337,6 @@ export default function WeddingCatering() {
             <Link to="/bar-services-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
               Bar services
             </Link>
-            . Licensed hotel rooms and some ballroom executions sit with{' '}
-            <Link to="/venue-partners" className="text-gold-ink underline underline-offset-4 hover:text-gold">
-              venue partners
-            </Link>
             . To see how chefs are selected, read{' '}
             <Link to="/how-we-vet-our-chefs" className="text-gold-ink underline underline-offset-4 hover:text-gold">
               how we vet chefs

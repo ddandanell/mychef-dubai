@@ -31,6 +31,7 @@ import {
 } from '@/content/weddingCluster'
 import {
   COST_KEYWORD_LOCK,
+  compareQuotes,
   costFaqs,
   costFacts,
   costHero,
@@ -39,6 +40,7 @@ import {
   guestSketches,
   hiddenLines,
   quoteDrivers,
+  vatSketch,
 } from '@/content/weddingCostPage'
 
 const schema = {
@@ -264,9 +266,19 @@ export default function WeddingCateringCost() {
             <BodyCopy className="mb-5">
               This is where transparent sites earn the word. A five-star wedding package at AED 450 per guest for 200 people is AED 90,000 before you blink — and it may include the ballroom, a night for the couple, a tasting for four, and a cake. An independent buffet at AED 180 for the same 200 is AED 36,000 and does not include the room.
             </BodyCopy>
-            <BodyCopy>
+            <BodyCopy className="mb-8">
               Ask every quote the same questions. Is the room inside? Is the cake inside? Is the tasting inside? How many waiters? What time does overtime start? If one invoice is a building and the other is a kitchen, they are not competitors. They are different products.
             </BodyCopy>
+            <h3 className="font-playfair text-h4 text-black mb-4">How to compare two quotes</h3>
+            <ol className="space-y-3 mb-8">
+              {compareQuotes.map((item, index) => (
+                <li key={item} className="flex gap-4">
+                  <span className="font-inter text-caption text-gold-ink mt-1">{String(index + 1).padStart(2, '0')}</span>
+                  <span className="font-inter text-body text-gray-600 leading-relaxed">{item}</span>
+                </li>
+              ))}
+            </ol>
+            <BodyCopy>{vatSketch}</BodyCopy>
           </Container>
         </Section>
 
