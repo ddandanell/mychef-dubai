@@ -379,7 +379,11 @@ def main():
     # The readable form is ~450KB, which would sit in the main bundle and be
     # parsed on every page load. Ship an index-encoded version instead and let
     # src/content/siloMap.ts hand the ergonomic shape back to templates.
-    urls = sorted({u for u in out_pages} | {e['url']
+    # do_not_link must be in the index even though these URLs are never link
+    # targets -- otherwise the runtime set silently loses the redirect sources
+    # and the disallowed paths, which are the ones a template most needs to
+    # refuse to render.
+    urls = sorted({u for u in out_pages} | set(do_not_link) | {e['url']
                   for p in out_pages.values()
                   for e in p['siblings'] + p['featured_children'] + p['silo_index']
                   + p['commercial_owners'] + p['supporting_guides'] + p['areas']
@@ -393,7 +397,7 @@ def main():
     compact = {
         'u': urls,
         'l': labels,
-        'd': [idx[u] for u in do_not_link if u in idx],
+        'd': [idx[u] for u in do_not_link],
         'p': {u: {
             'h': idx[p['uplink']['url']] if p['uplink'] else -1,
             'H': 1 if p['is_hub'] else 0,

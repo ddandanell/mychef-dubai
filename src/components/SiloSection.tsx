@@ -64,10 +64,10 @@ const SiloSection = memo(function SiloSection() {
   if (!page) return null
 
   const siblings = clean(page.siblings)
-  const children = clean(page.featuredChildren)
-  const index = clean(page.siloIndex)
-  const owners = clean(page.commercialOwners)
-  const guides = clean(page.supportingGuides)
+  const children = clean(page.featured_children)
+  const index = clean(page.silo_index)
+  const owners = clean(page.commercial_owners)
+  const guides = clean(page.supporting_guides)
   const areas = clean(page.areas)
 
   if (!siblings.length && !children.length && !owners.length && !guides.length) return null
@@ -108,10 +108,10 @@ const SiloSection = memo(function SiloSection() {
 
         <div className="grid gap-10 lg:grid-cols-[minmax(0,4fr)_minmax(0,8fr)] lg:gap-16">
           <Rail
-            label={page.isHub ? 'Inside this section' : 'Closest to this page'}
-            title={page.isHub ? `Everything in ${silo}` : `More in ${silo}`}
+            label={page.is_hub ? 'Inside this section' : 'Closest to this page'}
+            title={page.is_hub ? `Everything in ${silo}` : `More in ${silo}`}
             note={
-              page.isHub
+              page.is_hub
                 ? 'The pages below sit under this hub. Start with the format you already know you want.'
                 : page.uplink
                   ? undefined

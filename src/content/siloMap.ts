@@ -53,16 +53,23 @@ export interface SiloLink {
 export interface SiloPage {
   url: string
   silo: string
-  isHub: boolean
+  is_hub: boolean
   /** One-sentence context link in the first third of the page. Not a heading. */
   uplink: SiloLink | null
   breadcrumb: SiloLink[]
+  /** Replaces "You May Also Like". 4-5 same-silo relatives. */
   siblings: SiloLink[]
-  featuredChildren: SiloLink[]
-  siloIndex: SiloLink[]
-  commercialOwners: SiloLink[]
-  supportingGuides: SiloLink[]
+  /** Hub cards. Hubs only. */
+  featured_children: SiloLink[]
+  /** Rest of the silo. Hubs only. */
+  silo_index: SiloLink[]
+  /** Blog CTA to the page that takes the booking. */
+  commercial_owners: SiloLink[]
+  /** Inverse of the above: a landing page offering its guides. Max 3. */
+  supporting_guides: SiloLink[]
   areas: SiloLink[]
+  /** Never render any of these. Same set on every page. */
+  do_not_link: ReadonlySet<string>
 }
 
 const link = (i: number): SiloLink => ({ url: map.u[i], label: map.l[i] })
@@ -83,14 +90,38 @@ export function getSiloPage(pathname: string): SiloPage | null {
   return {
     url: normalize(pathname),
     silo: entry.z,
-    isHub: entry.H === 1,
+    is_hub: entry.H === 1,
     uplink: entry.h >= 0 ? link(entry.h) : null,
     breadcrumb: links(entry.b),
     siblings: links(entry.s),
-    featuredChildren: links(entry.c),
-    siloIndex: links(entry.i),
-    commercialOwners: links(entry.o),
-    supportingGuides: links(entry.g),
+    featured_children: links(entry.c),
+    silo_index: links(entry.i),
+    commercial_owners: links(entry.o),
+    supporting_guides: links(entry.g),
     areas: links(entry.a),
+    do_not_link: doNotLink,
   }
+}
+
+/**
+ * The contract, addressable exactly as specified:
+ *
+ *     const page = silo.pages[path]
+ *     page.siblings          // You May Also Like
+ *     page.featured_children // hub cards
+ *     page.silo_index        // rest of the silo
+ *     page.commercial_owners // blog CTA
+ *     page.do_not_link       // never render
+ *
+ * Backed by a Proxy so every one of the 216 paths is addressable without
+ * materialising 216 objects at import time.
+ */
+export const silo = {
+  pages: new Proxy({} as Record<string, SiloPage | null>, {
+    get: (_t, key: string) => getSiloPage(key),
+    has: (_t, key: string) => normalize(key) in map.p,
+    ownKeys: () => Object.keys(map.p),
+    getOwnPropertyDescriptor: () => ({ enumerable: true, configurable: true }),
+  }),
+  do_not_link: doNotLink,
 }
