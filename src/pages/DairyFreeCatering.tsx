@@ -79,7 +79,7 @@ const config: DietaryPageConfig = {
       Icon: Building,
       title: 'Corporate Dairy-Free Lunches',
       description: 'Inclusive office catering with individually packed dairy-free meals or labelled buffet options for boardroom wellness days.',
-      link: '/corporate-catering-dubai',
+      link: '/corporate',
     },
   ],
   useCasesEyebrow: 'WHERE DAIRY-FREE CATERING WORKS',

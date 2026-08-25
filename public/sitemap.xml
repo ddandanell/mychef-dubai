@@ -154,6 +154,14 @@
   <url><loc>https://www.mychef.ae/chefs/marco-italian-chef</loc><lastmod>2026-08-25</lastmod><priority>0.6</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://www.mychef.ae/chefs/matteo-pastry-chef</loc><lastmod>2026-08-25</lastmod><priority>0.6</priority><changefreq>monthly</changefreq></url>
 
+  <!-- Blog topic hubs -->
+  <url><loc>https://www.mychef.ae/blog/topic/celebrations</loc><lastmod>2026-08-25</lastmod><priority>0.7</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://www.mychef.ae/blog/topic/corporate</loc><lastmod>2026-08-25</lastmod><priority>0.7</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://www.mychef.ae/blog/topic/menus-dietary</loc><lastmod>2026-08-25</lastmod><priority>0.7</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://www.mychef.ae/blog/topic/outdoor</loc><lastmod>2026-08-25</lastmod><priority>0.7</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://www.mychef.ae/blog/topic/private-chef</loc><lastmod>2026-08-25</lastmod><priority>0.7</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://www.mychef.ae/blog/topic/seasonal</loc><lastmod>2026-08-25</lastmod><priority>0.7</priority><changefreq>weekly</changefreq></url>
+
   <!-- Locations -->
   <url><loc>https://www.mychef.ae/locations</loc><lastmod>2026-08-25</lastmod><priority>0.9</priority><changefreq>weekly</changefreq></url>
   <url><loc>https://www.mychef.ae/locations/al-barsha</loc><lastmod>2026-08-25</lastmod><priority>0.8</priority><changefreq>weekly</changefreq></url>

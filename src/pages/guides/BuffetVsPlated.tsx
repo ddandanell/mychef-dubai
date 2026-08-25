@@ -70,7 +70,7 @@ const combining = [
 const internalLinks = [
   { title: 'Buffet Catering Dubai', link: '/buffet-catering-dubai', description: 'Buffet stations for events and celebrations.' },
   { title: 'Wedding Catering Dubai', link: '/wedding-catering-dubai', description: 'Plated and banquet options for weddings.' },
-  { title: 'Corporate Catering Dubai', link: '/corporate-catering-dubai', description: 'Business lunch and event formats.' },
+  { title: 'Corporate Catering Dubai', link: '/corporate', description: 'Business lunch and event formats.' },
   { title: 'Luxury Dining Dubai', link: '/luxury-dining-dubai', description: 'Elegant plated private dining experiences.' },
   { title: 'Party Catering Dubai', link: '/party-catering-dubai', description: 'Flexible formats for private celebrations.' },
   { title: 'Dubai Catering Prices Guide', link: '/dubai-catering-prices-guide', description: 'Cost guidance for buffet and plated service.' },

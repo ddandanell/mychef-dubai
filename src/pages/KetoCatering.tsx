@@ -74,7 +74,7 @@ const config: DietaryPageConfig = {
       Icon: Building,
       title: 'Corporate Wellness Lunches',
       description: 'Low-carb office lunch programmes that keep teams energised without the afternoon carb crash.',
-      link: '/corporate-catering-dubai',
+      link: '/corporate',
     },
   ],
   useCasesEyebrow: 'WHERE KETO CATERING FITS',

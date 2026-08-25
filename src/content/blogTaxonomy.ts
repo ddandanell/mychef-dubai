@@ -241,7 +241,7 @@ export const BLOG_HUBS: BlogHub[] = [
     "description": "Office lunches, team dinners, galas and the formats that fit each.",
     "pillar": {
       "label": "Corporate Catering Dubai",
-      "url": "/corporate-catering-dubai"
+      "url": "/corporate"
     },
     "intro": "Planning food for a Dubai team or company event — drop-off vs full-service, live stations, canapés and plated galas. Our corporate catering service handles the delivery; these guides help you choose the format."
   },
@@ -331,7 +331,7 @@ export const CONTEXTUAL_LINKS: ContextualLink[] = [
   },
   {
     "phrase": "corporate catering",
-    "url": "/corporate-catering-dubai"
+    "url": "/corporate"
   },
   {
     "phrase": "vegan catering",

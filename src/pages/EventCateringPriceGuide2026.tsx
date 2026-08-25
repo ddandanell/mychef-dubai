@@ -139,7 +139,7 @@ const quoteSteps = [
 
 const internalLinks = [
   { title: 'Wedding Catering Dubai', link: '/wedding-catering-dubai', description: 'Multi-course and banquet-style catering for Dubai weddings.' },
-  { title: 'Corporate Catering Dubai', link: '/corporate-catering-dubai', description: 'Buffets, working lunches, and boardroom catering for offices.' },
+  { title: 'Corporate Catering Dubai', link: '/corporate', description: 'Buffets, working lunches, and boardroom catering for offices.' },
   { title: 'Yacht Catering Dubai', link: '/yacht-catering-dubai', description: 'Compact, elegant menus designed for Dubai yacht events.' },
   { title: 'BBQ Catering Dubai', link: '/bbq-catering-dubai', description: 'Grill-focused menus for villas, poolsides, and outdoor events.' },
   { title: 'Private Chef Dubai', link: '/private-chef-dubai', description: 'Personal chef service for intimate dinners and daily dining.' },

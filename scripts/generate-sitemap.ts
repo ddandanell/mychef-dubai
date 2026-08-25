@@ -10,6 +10,7 @@
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
+import { BLOG_HUBS } from '../src/content/blogTaxonomy'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const ROUTES_TSX = path.resolve(__dirname, '../src/routes.tsx')
@@ -45,8 +46,10 @@ const EXCLUDED_PATHS = new Set([
   ...redirectSources(),
 ])
 
-// Dynamic route expansions
+// Dynamic route expansions. Values are the slugs substituted for the route's :param.
 const DYNAMIC_SLUGS: Record<string, string[]> = {
+  // Derived from the taxonomy so a new topic hub is never left out of the sitemap.
+  '/blog/topic/:hub': BLOG_HUBS.map((h) => h.slug),
   '/locations/:slug': [
     'dubai-marina',
     'downtown-dubai',
@@ -96,6 +99,7 @@ const PRIORITY_RULES: { pattern: RegExp; priority: number; changefreq: string; s
   { pattern: /^\/(about|contact|faq)$/, priority: 0.7, changefreq: 'monthly', section: 'Supporting' },
   { pattern: /^\/(how-we-vet-our-chefs|booking-protection-insurance|partner-with-us|gallery|venue-partners|case-studies|press)$/, priority: 0.7, changefreq: 'monthly', section: 'Supporting' },
   { pattern: /^\/blog$/, priority: 0.8, changefreq: 'weekly', section: 'Content gaps closed' },
+  { pattern: /^\/blog\/topic\/.+$/, priority: 0.7, changefreq: 'weekly', section: 'Blog topic hubs' },
   { pattern: /^\/blog\/.+$/, priority: 0.7, changefreq: 'monthly', section: 'Content gaps closed' },
   { pattern: /^\/chefs\/.+$/, priority: 0.6, changefreq: 'monthly', section: 'Content gaps closed' },
   { pattern: /^\/(become-a-mychef|review|vip-club|gift-cards)$/, priority: 0.6, changefreq: 'monthly', section: 'Supporting' },
@@ -119,7 +123,7 @@ function parseRoutes(source: string): string[] {
     if (pathStr === '*') continue
     if (DYNAMIC_SLUGS[pathStr]) {
       for (const slug of DYNAMIC_SLUGS[pathStr]) {
-        routes.push(pathStr.replace(':slug', slug))
+        routes.push(pathStr.replace(/:[^/]+/, slug))
       }
     } else if (!pathStr.includes(':')) {
       routes.push(pathStr)
@@ -166,6 +170,7 @@ function buildSitemap(paths: string[]): string {
     'Supporting',
     'Bluebook trust & service pages',
     'Content gaps closed',
+    'Blog topic hubs',
     'Locations',
     'Guides',
     'Linkable assets / guides',
@@ -179,7 +184,11 @@ function buildSitemap(paths: string[]): string {
   let xml = '<?xml version="1.0" encoding="UTF-8"?>\n'
   xml += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
 
-  for (const section of sectionOrder) {
+  // Any section not named in sectionOrder still has to ship. Without this a new
+  // priority rule is dropped from the XML while the run log still counts it.
+  const orderedSections = [...sectionOrder, ...[...grouped.keys()].filter((s) => !sectionOrder.includes(s))]
+
+  for (const section of orderedSections) {
     const pathsInSection = grouped.get(section)
     if (!pathsInSection || pathsInSection.length === 0) continue
     xml += `\n  <!-- ${section} -->\n`
@@ -198,7 +207,15 @@ function main() {
   const routes = parseRoutes(source)
   const xml = buildSitemap(routes)
   fs.writeFileSync(SITEMAP_OUT, xml)
-  console.log(`Generated sitemap with ${routes.length} URLs at ${SITEMAP_OUT}`)
+
+  // Count the emitted <loc> entries, not the collected routes — the two drifting
+  // apart is exactly the failure this guards against.
+  const written = (xml.match(/<loc>/g) ?? []).length
+  if (written !== routes.length) {
+    console.error(`ERROR: collected ${routes.length} routes but wrote ${written} URLs`)
+    process.exit(1)
+  }
+  console.log(`Generated sitemap with ${written} URLs at ${SITEMAP_OUT}`)
 
   // Sanity checks
   const expectedQuarantined = [

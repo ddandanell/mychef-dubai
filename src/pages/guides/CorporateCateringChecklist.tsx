@@ -91,7 +91,7 @@ const dubaiExamples = [
 ]
 
 const internalLinks = [
-  { title: 'Corporate Catering Dubai', link: '/corporate-catering-dubai', description: 'fully-coordinated catering for offices and events.' },
+  { title: 'Corporate Catering Dubai', link: '/corporate', description: 'fully-coordinated catering for offices and events.' },
   { title: 'Office Catering Dubai', link: '/office-catering-dubai', description: 'Daily and one-off office lunch solutions.' },
   { title: 'Business Lunch Catering', link: '/business-lunch-catering-dubai', description: 'Refined lunches for meetings and client entertaining.' },
   { title: 'Conference Catering Dubai', link: '/conference-catering-dubai', description: 'Multi-day event catering for conferences and seminars.' },

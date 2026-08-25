@@ -79,7 +79,7 @@ const config: DietaryPageConfig = {
       Icon: Building,
       title: 'Corporate Gluten-Free Lunches',
       description: 'Inclusive office lunches and boardroom catering with individually packed gluten-free meals or clearly labelled buffet lines.',
-      link: '/corporate-catering-dubai',
+      link: '/corporate',
     },
   ],
   useCasesEyebrow: 'WHERE GLUTEN-FREE CATERING HELPS',
