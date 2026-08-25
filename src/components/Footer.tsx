@@ -21,7 +21,13 @@ const serviceLinks = [
   { label: 'Private Jet Catering', href: '/private-jet-catering-dubai' },
   { label: 'Food Only & Drop-Off', href: '/drop-off-catering-dubai' },
   { label: 'Weekly Meal Prep', href: '/weekly-meal-prep-dubai' },
-  { label: 'Luxury Dining', href: '/luxury-dining-experiences' },
+  { label: 'Dining Experiences', href: '/luxury-dining-experiences' },
+  { label: 'Romantic Dinner', href: '/romantic-dinner-dubai' },
+  { label: 'Tasting Menu', href: '/tasting-menu-dubai' },
+  { label: 'Private Cooking Classes', href: '/private-cooking-classes-dubai' },
+  { label: 'Desert Dining', href: '/desert-dining-dubai' },
+  { label: 'Halal Private Dining', href: '/halal-private-dining-dubai' },
+  { label: 'Gift Cards', href: '/gift-cards' },
   { label: 'World Cuisines', href: '/cuisines-dubai' },
 ]
 

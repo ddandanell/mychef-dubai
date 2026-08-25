@@ -1,10 +1,14 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useState, type ComponentType } from 'react'
 import { Link, useLocation } from 'react-router'
 import * as NavigationMenuPrimitive from '@radix-ui/react-navigation-menu'
 import { ArrowRight, ChevronDown, Menu, MessageCircle, Phone, X } from 'lucide-react'
+import type { LucideIcon } from 'lucide-react'
 import ChefHatLogo from './ChefHatLogo'
 import PrivateChefMegaMenu, { CLUSTER_ICONS } from './private-chef/PrivateChefMegaMenu'
-import CateringMegaMenu from './catering/CateringMegaMenu'
+import CateringMegaMenu, { CATERING_ICONS } from './catering/CateringMegaMenu'
+import ExperiencesMegaMenu from './experiences/ExperiencesMegaMenu'
+import { EXPERIENCES_ICONS } from './experiences/experiencesIcons'
+import ContactMegaMenu, { CONTACT_ICONS } from './contact/ContactMegaMenu'
 import {
   NavigationMenu,
   NavigationMenuItem,
@@ -21,9 +25,29 @@ import {
 } from '@/components/ui/sheet'
 import { CLUSTER_NAV, CLUSTER_PATHS } from '@/content/privateChefCluster'
 import { CATERING_NAV_CHILDREN, CATERING_PATHS, cateringClusterActive } from '@/content/cateringCluster'
+import {
+  EXPERIENCES_NAV_CHILDREN,
+  EXPERIENCES_PATHS,
+  experiencesClusterActive,
+} from '@/content/experiencesCluster'
+import { CONTACT_NAV_CHILDREN, CONTACT_PATHS, contactNavActive } from '@/content/contactNav'
 import { cn } from '@/lib/utils'
 
-type NavMega = 'private-chef' | 'catering'
+type NavMega = 'private-chef' | 'catering' | 'experiences' | 'contact'
+
+const MEGA_MENUS: Record<NavMega, ComponentType> = {
+  'private-chef': PrivateChefMegaMenu,
+  catering: CateringMegaMenu,
+  experiences: ExperiencesMegaMenu,
+  contact: ContactMegaMenu,
+}
+
+const MEGA_ICONS: Partial<Record<NavMega, Record<string, LucideIcon>>> = {
+  'private-chef': CLUSTER_ICONS,
+  catering: CATERING_ICONS,
+  experiences: EXPERIENCES_ICONS,
+  contact: CONTACT_ICONS,
+}
 
 type NavItem = {
   label: string
@@ -49,11 +73,18 @@ const navLinks: NavItem[] = [
     mega: 'catering',
     children: CATERING_NAV_CHILDREN,
   },
-  { label: 'Experiences', href: '/luxury-dining-experiences' },
-  { label: 'Locations', href: '/locations' },
-  { label: 'Blog', href: '/blog' },
-  { label: 'About', href: '/about' },
-  { label: 'Contact', href: '/contact' },
+  {
+    label: 'Dining Experiences',
+    href: EXPERIENCES_PATHS.hub,
+    mega: 'experiences',
+    children: EXPERIENCES_NAV_CHILDREN,
+  },
+  {
+    label: 'Contact',
+    href: CONTACT_PATHS.contact,
+    mega: 'contact',
+    children: CONTACT_NAV_CHILDREN,
+  },
 ]
 
 const WHATSAPP_NUMBER = '971551744849'
@@ -81,6 +112,8 @@ function clusterActive(pathname: string) {
 function itemIsActive(pathname: string, link: NavItem) {
   if (link.mega === 'private-chef') return clusterActive(pathname)
   if (link.mega === 'catering') return cateringClusterActive(pathname)
+  if (link.mega === 'experiences') return experiencesClusterActive(pathname)
+  if (link.mega === 'contact') return contactNavActive(pathname)
   return isItemActive(pathname, link.href)
 }
 
@@ -170,10 +203,11 @@ export default function Navbar() {
                       />
                     </Link>
                   </NavigationMenuPrimitive.Trigger>
-                  <NavigationMenuPrimitive.Content
-                    className={cn('pc-mega-content', link.mega === 'catering' && 'cat-mega-wide')}
-                  >
-                    {link.mega === 'catering' ? <CateringMegaMenu /> : <PrivateChefMegaMenu />}
+                  <NavigationMenuPrimitive.Content className="pc-mega-content">
+                    {(() => {
+                      const Mega = MEGA_MENUS[link.mega!]
+                      return <Mega />
+                    })()}
                   </NavigationMenuPrimitive.Content>
                 </NavigationMenuItem>
               )
@@ -217,6 +251,8 @@ export default function Navbar() {
             onClick={() => {
               if (clusterActive(location.pathname)) setMobileOpenGroup(CLUSTER_PATHS.overview)
               else if (cateringClusterActive(location.pathname)) setMobileOpenGroup(CATERING_PATHS.overview)
+              else if (experiencesClusterActive(location.pathname)) setMobileOpenGroup(EXPERIENCES_PATHS.hub)
+              else if (contactNavActive(location.pathname)) setMobileOpenGroup(CONTACT_PATHS.contact)
               setMobileOpen(true)
             }}
             aria-label="Open menu"
@@ -236,7 +272,7 @@ export default function Navbar() {
       >
         <SheetContent
           side="right"
-          className="z-[100] h-full w-full max-w-none border-0 bg-black p-0 sm:max-w-none [&>button]:hidden"
+          className="z-[100] h-full w-full max-w-none border-0 bg-black p-0 sm:max-w-none [&>button]:hidden print:hidden"
         >
           <SheetTitle className="sr-only">Menu</SheetTitle>
           <SheetDescription className="sr-only">
@@ -299,11 +335,13 @@ export default function Navbar() {
                           <AccordionContent className="pb-2">
                             <ul className="bg-white/[0.03]">
                               {link.children!.map((child) => {
-                                const Icon = CLUSTER_ICONS[child.href as keyof typeof CLUSTER_ICONS]
+                                const Icon = link.mega ? MEGA_ICONS[link.mega]?.[child.href] : undefined
                                 const [childPath, childHash] = child.href.split('#')
                                 const childActive = childHash
                                   ? normalizePath(location.pathname) === childPath && location.hash === `#${childHash}`
-                                  : normalizePath(location.pathname) === childPath
+                                  : link.mega === 'contact'
+                                    ? isItemActive(location.pathname, childPath)
+                                    : normalizePath(location.pathname) === childPath
                                 return (
                                   <li key={child.href + child.label}>
                                     <Link
@@ -315,7 +353,7 @@ export default function Navbar() {
                                         childActive ? 'border-gold' : 'border-transparent',
                                       )}
                                     >
-                                      {link.mega === 'private-chef' && Icon && (
+                                      {Icon && (
                                         <span className="flex h-9 w-9 flex-shrink-0 items-center justify-center border border-gold/35 text-gold">
                                           <Icon size={18} strokeWidth={1.5} aria-hidden />
                                         </span>
