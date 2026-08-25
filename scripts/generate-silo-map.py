@@ -89,6 +89,82 @@ SILO_OVERRIDES = {
     '/locations':                ('Locations', None),
 }
 
+
+# ---------------------------------------------------------------------------
+# Sibling rules.
+#
+# TF-IDF alone gives same-silo padding, not next-step relevance. The test a
+# sibling has to survive is: would this buyer click that card next, or is it
+# only there because both URLs sit in the same folder? If the honest answer is
+# the folder, it belongs in the hub's silo index, not in You May Also Like.
+# ---------------------------------------------------------------------------
+
+# Pages that render no siblings at all. Legal, forms, media and the nested
+# household modules have no next step to sell.
+NO_SIBLINGS = {
+    '/privacy-policy', '/terms', '/site-map', '/contact', '/inquiry', '/thank-you',
+    '/gallery', '/press', '/review', '/faq', '/blog', '/guides',
+    '/private-chef-dubai/how-it-works', '/private-chef-dubai/our-chefs',
+    '/private-chef-dubai/pricing', '/private-chef-dubai/quality-training',
+    '/private-chef-dubai/privacy-security', '/private-chef-dubai/how-your-plan-works',
+    '/staff-meals-catering-dubai', '/become-a-mychef',
+}
+
+# Geography, not keyword overlap. JVC does not next-step to Emirates Hills.
+AREA_NEIGHBOURS = {
+    'dubai-marina': ['jbr', 'bluewaters-island', 'jlt', 'palm-jumeirah'],
+    'jbr': ['dubai-marina', 'bluewaters-island', 'palm-jumeirah', 'jlt'],
+    'bluewaters-island': ['jbr', 'dubai-marina', 'palm-jumeirah'],
+    'palm-jumeirah': ['dubai-marina', 'jbr', 'umm-suqeim', 'bluewaters-island'],
+    'jlt': ['dubai-marina', 'jvc', 'jbr', 'al-barsha'],
+    'jvc': ['jlt', 'al-barsha', 'dubai-hills', 'arabian-ranches'],
+    'al-barsha': ['jvc', 'jlt', 'umm-suqeim', 'dubai-hills'],
+    'umm-suqeim': ['jumeirah', 'al-barsha', 'palm-jumeirah'],
+    'jumeirah': ['umm-suqeim', 'downtown-dubai', 'business-bay', 'difc'],
+    'downtown-dubai': ['business-bay', 'difc', 'jumeirah'],
+    'business-bay': ['downtown-dubai', 'difc', 'jumeirah'],
+    'difc': ['downtown-dubai', 'business-bay', 'jumeirah'],
+    'emirates-hills': ['dubai-hills', 'arabian-ranches', 'jvc'],
+    'arabian-ranches': ['dubai-hills', 'emirates-hills', 'jvc'],
+    'dubai-hills': ['emirates-hills', 'arabian-ranches', 'al-barsha'],
+}
+
+# Constraint families and calendars. A page only siblings inside its own family.
+# Jain never sits next to halal -- the keyword review already killed that pair.
+FAMILIES = [
+    # dietary: allergy and intolerance
+    ['/allergy-safe-catering-dubai', '/allergen-aware-catering-dubai', '/nut-free-catering-dubai',
+     '/gluten-free-catering-dubai', '/dairy-free-catering-dubai', '/fodmap-catering-dubai'],
+    # dietary: plant-based
+    ['/vegan-catering-dubai', '/vegetarian-catering-dubai', '/jain-catering-dubai'],
+    # dietary: macro and health
+    ['/keto-catering-dubai', '/sugar-free-catering-dubai', '/healthy-catering-dubai',
+     '/pescatarian-catering-dubai'],
+    # faith
+    ['/halal-catering-dubai', '/halal-private-dining-dubai'],
+    # calendar: Ramadan
+    ['/ramadan-catering-dubai', '/iftar-catering-dubai', '/suhoor-catering-dubai',
+     '/eid-catering-dubai'],
+    # calendar: western winter
+    ['/christmas-catering-dubai', '/new-year-catering-dubai'],
+    # calendar: cultural
+    ['/diwali-catering-dubai', '/holi-catering-dubai', '/chinese-new-year-catering-dubai'],
+    # calendar: secular days
+    ['/valentines-day-catering-dubai', '/mothers-day-catering-dubai',
+     '/fathers-day-catering-dubai', '/easter-catering-dubai'],
+    # production crews, not boardrooms
+    ['/film-crew-catering-dubai', '/production-catering-dubai'],
+    # recruitment and B2B supply stay apart from customer pages
+    ['/partner-with-us', '/venue-partners', '/partners/concierge-services-dubai',
+     '/partners/event-planners-dubai', '/partners/villa-rentals-dubai',
+     '/partners/yacht-charters-dubai'],
+]
+FAMILY_OF = {u: set(f) for f in FAMILIES for u in f}
+
+# A sibling has to clear this much similarity. Below it the honest answer is
+# "no next step", and the list is short or empty rather than padded.
+SIBLING_FLOOR = 0.045
+
 # Hubs, from the blueprint silo table. A hub renders featured_children +
 # silo_index; everything else renders siblings.
 HUBS = {
@@ -249,7 +325,7 @@ def main():
                          and pages[u].get('page_type') == 'Commercial landing page') for u in live}
     areas = sorted(u for u in live if u.startswith('/locations/'))
 
-    def rank(cands, seed, cap, prefer=()):
+    def rank(cands, seed, cap, prefer=(), floor=0.0):
         """Rank by keyword overlap, weighted toward the seed's own family.
 
         A strict same-silo pool cannot serve a page whose nearest relatives were
@@ -260,7 +336,9 @@ def main():
         prefer = set(prefer)
         scored = sorted(((similarity(fp[seed], fp[c], idf) * (1.0 if c in prefer else 0.72), c)
                          for c in cands), key=lambda x: (-x[0], x[1]))
-        return [c for s, c in scored if s > 0][:cap] or [c for _, c in scored][:cap]
+        # No padding. If nothing clears the floor the honest answer is that this
+        # page has no next step, and the module renders nothing.
+        return [c for sc, c in scored if sc > floor][:cap]
 
     def entry(url):
         return {'url': url,
@@ -275,13 +353,28 @@ def main():
         family = [u for u in by_silo.get(silo, []) if u != url and u in linkable and u not in HUBS]
 
         # Siblings: nearest same-silo relatives by keyword fingerprint.
-        kin = set(family) | {u for u in linkable if hub and hub_of[u] == hub and u != url}
-        kind = is_guide[url]
-        # The homepage is reached from the breadcrumb on every page. It is never
-        # a lateral relative.
-        pool = [u for u in linkable
-                if u != url and u != '/' and u not in HUBS and is_guide[u] == kind]
-        siblings = rank(pool, url, SIBLING_CAP, prefer=kin) if pool else []
+        if url in NO_SIBLINGS:
+            siblings = []
+        elif url.startswith('/locations/'):
+            # Geographic neighbours, in adjacency order. Someone comparing areas
+            # compares the ones next door, not the ones with similar copy.
+            area = url.rsplit('/', 1)[-1]
+            siblings = [f'/locations/{a}' for a in AREA_NEIGHBOURS.get(area, [])
+                        if f'/locations/{a}' in linkable][:SIBLING_CAP]
+        elif url in FAMILY_OF:
+            # Constraint families and calendars only. Everything else the page
+            # relates to belongs in the hub index, not in You May Also Like.
+            fam = [u for u in FAMILY_OF[url] if u != url and u in linkable]
+            siblings = rank(fam, url, SIBLING_CAP) if fam else []
+        else:
+            kin = set(family) | {u for u in linkable if hub and hub_of[u] == hub and u != url}
+            kind = is_guide[url]
+            # The homepage is reached from the breadcrumb on every page. It is
+            # never a lateral relative.
+            pool = [u for u in linkable
+                    if u != url and u != '/' and u not in HUBS and is_guide[u] == kind
+                    and u not in NO_SIBLINGS and u not in FAMILY_OF]
+            siblings = rank(pool, url, SIBLING_CAP, prefer=kin, floor=SIBLING_FLOOR) if pool else []
 
         featured, index = [], []
         if hub_is:
