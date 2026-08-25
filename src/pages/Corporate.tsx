@@ -1,3 +1,7 @@
+// KEYWORD LOCK — this page owns: "corporate catering dubai" (the broad hub).
+// One-off company events belong to /corporate-event-catering-dubai; office lunches,
+// conferences, staff meals, meal prep and retainers each have their own page.
+// Do not target another corporate page's primary here.
 import { useEffect, useRef } from 'react'
 import { Link } from 'react-router'
 import gsap from 'gsap'
@@ -13,7 +17,6 @@ import PageHero from '@/components/PageHero'
 import LocationStrip from '@/components/LocationStrip'
 import TrustSignalStrip from '@/components/TrustSignalStrip'
 import CorporateTrustStrip from '@/components/CorporateTrustStrip'
-import StarterPackagesSection from '@/sections/StarterPackagesSection'
 import {
   breadcrumbSchema,
   faqPageSchema,
@@ -151,12 +154,12 @@ const serviceTiers = [
   {
     title: 'Corporate Event',
     features: [
-      '80\u2013500+ guests',
+      'Large-format events',
       'Multiple service stations',
       'Event coordination',
       'Full staffing',
       'Custom branding options',
-      'End-to-end management',
+      'Catering coordinated with your venue and planner',
     ],
   },
 ]
@@ -187,12 +190,47 @@ const faqs = [
   {
     question: 'Can you accommodate large corporate events?',
     answer:
-      'Yes. We coordinate catering for corporate events from 10 to 500+ guests with full service coordination.',
+      'Yes. We scale from small boardroom lunches to large company events with full service coordination. Tell us your headcount, venue and format and we will confirm what is workable for your date.',
   },
   {
     question: 'Is invoicing available for corporate accounts?',
     answer:
       'Yes. We provide detailed invoicing and can set up corporate account arrangements for regular clients.',
+  },
+  {
+    question: 'How much does corporate catering cost in Dubai?',
+    answer:
+      'It is quoted per booking, because format, service level, staffing and venue move the figure far more than headcount alone. You receive an itemised proposal with food, staffing, equipment and VAT as separate lines. For indicative market ranges before briefing us, see the Dubai catering prices guide.',
+  },
+  {
+    question: 'What is included in corporate catering services?',
+    answer:
+      'Menu design, sourcing, cooking, presentation and delivery as standard. Service staff, equipment, setup and pack-down are scoped to your format and shown as separate lines, so you can see what you are approving.',
+  },
+  {
+    question: 'Can you handle both daily office catering and one-off events?',
+    answer:
+      'Yes, but they are run as different services. Recurring workplace catering is planned around a weekly rhythm and headcount; a one-off company event is planned around a date, a venue and a format. Each has its own page so the detail is not watered down.',
+  },
+  {
+    question: 'Do you offer corporate retainers?',
+    answer:
+      'Yes. A standing arrangement suits organisations catering regularly through the year — it removes the briefing from every booking and keeps standards consistent. Terms are agreed in writing before anything starts.',
+  },
+  {
+    question: 'Can you cater dietary requirements for our team?',
+    answer:
+      'Yes. Our kitchens work to halal-first standards, and vegetarian, vegan and gluten-free options are planned into the menu rather than added at the end. For specific allergies, tell us which guest and which allergen so labelling and separation can be planned.',
+  },
+  {
+    question: 'How far in advance should we book?',
+    answer:
+      'A few days is usually enough for regular office catering. For larger corporate events, two to four weeks is comfortable, and earlier between November and March when demand is highest.',
+  },
+  {
+    question: 'Which areas of Dubai do you cover?',
+    answer:
+      'We work across Dubai, including DIFC, Business Bay, Downtown, Dubai Media City, Dubai Marina, JLT and the wider business districts. Access, parking and building rules affect delivery timing, so it helps to mention the venue early.',
   },
 ]
 
@@ -677,12 +715,42 @@ export default function Corporate({
         </div>
       </section>
 
-      <StarterPackagesSection
-        campaign="corporate"
-        eyebrow="CORPORATE CATERING PRICING"
-        title="How much does corporate catering cost in Dubai?"
-        subtitle="Transparent starting prices for corporate dinners, boardroom lunches, and team events in Dubai."
-      />
+      {/* Corporate pricing. The shared StarterPackagesSection was removed here: six of its
+          seven cards are private packages (date night, family feast, birthday, weekly prep)
+          that have no place on a corporate page. */}
+      <section className="bg-cream section-padding">
+        <div className="container-custom max-w-[820px]">
+          <SectionLabel>Pricing</SectionLabel>
+          <h2 className="font-playfair text-h2 text-black mt-4 mb-6">
+            How much does corporate catering cost in Dubai?
+          </h2>
+          <p className="font-inter text-body text-gray-600 leading-relaxed mb-4">
+            Corporate catering is quoted per booking rather than from a fixed list. The same headcount
+            produces very different figures depending on format, service level, staffing and venue —
+            a working lunch delivered to an office and a seated company dinner are not the same job.
+          </p>
+          <p className="font-inter text-body text-gray-600 leading-relaxed mb-8">
+            What you get back is an itemised proposal: food, staffing, equipment, delivery and VAT as
+            separate lines, so your finance team can see exactly what is being approved and you can
+            compare it fairly against another quote.
+          </p>
+          <div className="flex flex-wrap gap-x-8 gap-y-3">
+            <Link
+              to="/dubai-catering-prices-guide"
+              className="group inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.14em] text-gold-ink hover:text-gold"
+            >
+              Dubai catering prices guide
+              <ArrowRight size={14} className="transition-transform group-hover:translate-x-1" />
+            </Link>
+            <Link
+              to="/corporate-event-catering-dubai"
+              className="font-inter text-body-sm text-gray-500 underline underline-offset-4 hover:text-gold-ink"
+            >
+              Catering a company event?
+            </Link>
+          </div>
+        </div>
+      </section>
 
       {/* ═══════════════ Related Guides ═══════════════ */}
       <section className="bg-cream py-16">
