@@ -4,11 +4,11 @@ export default function BirthdayPackage() {
   return (
     <PackagePageTemplate
       name="Birthday Celebration"
-      seoTitle="Birthday Catering Package Dubai | Kids & Adults | myCHEF"
-      description="Birthday Catering Package Dubai: private chef celebrations for 8–12 guests from AED 3,600. Custom cake, canapés, and full service. Get a quote in 15 minutes."
+      seoTitle="Birthday Package Dubai | Private Chef for 8–12 Guests | myCHEF"
+      description="A fixed birthday package in Dubai: a private chef for 8–12 guests from AED 3,600, with menu, cake option and full service. Larger parties are quoted separately."
       canonicalPath="/birthday-catering-package-dubai"
       ogImage="/images/birthday-catering-dubai-hero.webp"
-      headline="Birthday Catering Package Dubai: Kids & Adults"
+      headline="Birthday Celebration Package for 8–12 Guests"
       eyebrow="BIRTHDAY PARTY PACKAGE"
       subheadline="Celebrate at home or in a private venue with a tailored menu, birthday cake, and full service for you and your guests."
       price="3,600"
