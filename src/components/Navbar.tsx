@@ -5,10 +5,12 @@ import { ArrowRight, ChevronDown, Menu, MessageCircle, Phone, X } from 'lucide-r
 import type { LucideIcon } from 'lucide-react'
 import ChefHatLogo from './ChefHatLogo'
 import PrivateChefMegaMenu, { CLUSTER_ICONS } from './private-chef/PrivateChefMegaMenu'
-import CateringMegaMenu, { CATERING_ICONS } from './catering/CateringMegaMenu'
 import ExperiencesMegaMenu from './experiences/ExperiencesMegaMenu'
 import { EXPERIENCES_ICONS } from './experiences/experiencesIcons'
-import ContactMegaMenu, { CONTACT_ICONS } from './contact/ContactMegaMenu'
+import ClusterMegaMenu from './nav/ClusterMegaMenu'
+import { NAV_CLUSTER_ICONS } from './nav/navIcons'
+import ContactMegaMenu from './contact/ContactMegaMenu'
+import { CONTACT_ICONS } from './contact/contactIcons'
 import {
   NavigationMenu,
   NavigationMenuItem,
@@ -24,27 +26,77 @@ import {
   SheetTitle,
 } from '@/components/ui/sheet'
 import { CLUSTER_NAV, CLUSTER_PATHS } from '@/content/privateChefCluster'
-import { CATERING_NAV_CHILDREN, CATERING_PATHS, cateringClusterActive } from '@/content/cateringCluster'
 import {
   EXPERIENCES_NAV_CHILDREN,
   EXPERIENCES_PATHS,
   experiencesClusterActive,
 } from '@/content/experiencesCluster'
 import { CONTACT_NAV_CHILDREN, CONTACT_PATHS, contactNavActive } from '@/content/contactNav'
+import {
+  CATERING_FORMATS_CHILDREN,
+  CATERING_FORMATS_GROUPS,
+  CATERING_FORMATS_ROOT,
+  CORPORATE_NAV_CHILDREN,
+  CORPORATE_NAV_GROUPS,
+  CORPORATE_NAV_ROOT,
+  PACKAGES_CHILDREN,
+  PACKAGES_GROUPS,
+  PACKAGES_ROOT,
+  PRIVATE_EVENTS_CHILDREN,
+  PRIVATE_EVENTS_GROUPS,
+  PRIVATE_EVENTS_ROOT,
+  cateringFormatsActive,
+  corporateNavActive,
+  packagesNavActive,
+  privateEventsActive,
+} from '@/content/navClusters'
 import { cn } from '@/lib/utils'
 
-type NavMega = 'private-chef' | 'catering' | 'experiences' | 'contact'
+type NavMega =
+  | 'private-chef'
+  | 'catering'
+  | 'private-events'
+  | 'corporate'
+  | 'packages'
+  | 'experiences'
+  | 'contact'
 
 const MEGA_MENUS: Record<NavMega, ComponentType> = {
   'private-chef': PrivateChefMegaMenu,
-  catering: CateringMegaMenu,
+  catering: () => (
+    <ClusterMegaMenu
+      groups={CATERING_FORMATS_GROUPS}
+      footer={{ text: 'Not sure which format fits?', linkLabel: 'Start with the event.', href: CATERING_FORMATS_ROOT }}
+    />
+  ),
+  'private-events': () => (
+    <ClusterMegaMenu
+      groups={PRIVATE_EVENTS_GROUPS}
+      footer={{ text: 'Something else entirely?', linkLabel: 'See all private events.', href: PRIVATE_EVENTS_ROOT }}
+    />
+  ),
+  corporate: () => (
+    <ClusterMegaMenu
+      groups={CORPORATE_NAV_GROUPS}
+      footer={{ text: 'Recurring or one-off?', linkLabel: 'Corporate catering explained.', href: CORPORATE_NAV_ROOT }}
+    />
+  ),
+  packages: () => (
+    <ClusterMegaMenu
+      groups={PACKAGES_GROUPS}
+      footer={{ text: 'Need something custom instead?', linkLabel: 'See all packages.', href: PACKAGES_ROOT }}
+    />
+  ),
   experiences: ExperiencesMegaMenu,
   contact: ContactMegaMenu,
 }
 
 const MEGA_ICONS: Partial<Record<NavMega, Record<string, LucideIcon>>> = {
   'private-chef': CLUSTER_ICONS,
-  catering: CATERING_ICONS,
+  catering: NAV_CLUSTER_ICONS,
+  'private-events': NAV_CLUSTER_ICONS,
+  corporate: NAV_CLUSTER_ICONS,
+  packages: NAV_CLUSTER_ICONS,
   experiences: EXPERIENCES_ICONS,
   contact: CONTACT_ICONS,
 }
@@ -69,9 +121,27 @@ const navLinks: NavItem[] = [
   },
   {
     label: 'Catering',
-    href: CATERING_PATHS.overview,
+    href: CATERING_FORMATS_ROOT,
     mega: 'catering',
-    children: CATERING_NAV_CHILDREN,
+    children: CATERING_FORMATS_CHILDREN,
+  },
+  {
+    label: 'Private Events',
+    href: PRIVATE_EVENTS_ROOT,
+    mega: 'private-events',
+    children: PRIVATE_EVENTS_CHILDREN,
+  },
+  {
+    label: 'Corporate',
+    href: CORPORATE_NAV_ROOT,
+    mega: 'corporate',
+    children: CORPORATE_NAV_CHILDREN,
+  },
+  {
+    label: 'Packages',
+    href: PACKAGES_ROOT,
+    mega: 'packages',
+    children: PACKAGES_CHILDREN,
   },
   {
     label: 'Dining Experiences',
@@ -92,7 +162,7 @@ const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I would like to re
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 const navLinkClass =
-  'relative whitespace-nowrap font-inter text-[13px] font-medium uppercase tracking-[0.12em] antialiased text-white/85 transition-colors duration-300 hover:text-gold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold rounded-sm after:absolute after:-bottom-1 after:left-0 after:h-px after:w-full after:origin-left after:scale-x-0 after:bg-gold after:transition-transform after:duration-300 after:ease-out hover:after:scale-x-100'
+  'relative whitespace-nowrap font-inter text-[11px] font-medium uppercase tracking-[0.07em] xl:text-[12px] xl:tracking-[0.09em] antialiased text-white/85 transition-colors duration-300 hover:text-gold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold rounded-sm after:absolute after:-bottom-1 after:left-0 after:h-px after:w-full after:origin-left after:scale-x-0 after:bg-gold after:transition-transform after:duration-300 after:ease-out hover:after:scale-x-100'
 
 function normalizePath(pathname: string) {
   if (pathname.length > 1 && pathname.endsWith('/')) return pathname.replace(/\/+$/, '')
@@ -111,9 +181,22 @@ function clusterActive(pathname: string) {
 
 function itemIsActive(pathname: string, link: NavItem) {
   if (link.mega === 'private-chef') return clusterActive(pathname)
-  if (link.mega === 'catering') return cateringClusterActive(pathname)
+  if (link.mega === 'catering') return cateringFormatsActive(pathname)
+  if (link.mega === 'private-events') return privateEventsActive(pathname)
+  if (link.mega === 'corporate') return corporateNavActive(pathname)
+  if (link.mega === 'packages') return packagesNavActive(pathname)
   if (link.mega === 'experiences') return experiencesClusterActive(pathname)
-  if (link.mega === 'contact') return contactNavActive(pathname)
+  if (link.mega === 'contact') {
+    return (
+      contactNavActive(pathname) &&
+      !clusterActive(pathname) &&
+      !cateringFormatsActive(pathname) &&
+      !privateEventsActive(pathname) &&
+      !corporateNavActive(pathname) &&
+      !packagesNavActive(pathname) &&
+      !experiencesClusterActive(pathname)
+    )
+  }
   return isItemActive(pathname, link.href)
 }
 
@@ -157,7 +240,7 @@ export default function Navbar() {
             <span className="font-playfair text-xl font-semibold text-gold tracking-tight">myCHEF</span>
           </Link>
 
-          <NavigationMenuList className="hidden h-full flex-1 flex-nowrap items-center justify-center gap-5 lg:flex xl:gap-8">
+          <NavigationMenuList className="hidden h-full flex-1 flex-nowrap items-center justify-center gap-3 lg:flex xl:gap-5">
             {navLinks.map((link) => {
               const hasChildren = Boolean(link.children?.length)
               const isActive = itemIsActive(location.pathname, link)
@@ -250,7 +333,10 @@ export default function Navbar() {
             className="lg:hidden text-gold p-2 -mr-2 min-w-10 min-h-10 flex items-center justify-center rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold"
             onClick={() => {
               if (clusterActive(location.pathname)) setMobileOpenGroup(CLUSTER_PATHS.overview)
-              else if (cateringClusterActive(location.pathname)) setMobileOpenGroup(CATERING_PATHS.overview)
+              else if (cateringFormatsActive(location.pathname)) setMobileOpenGroup(CATERING_FORMATS_ROOT)
+              else if (privateEventsActive(location.pathname)) setMobileOpenGroup(PRIVATE_EVENTS_ROOT)
+              else if (corporateNavActive(location.pathname)) setMobileOpenGroup(CORPORATE_NAV_ROOT)
+              else if (packagesNavActive(location.pathname)) setMobileOpenGroup(PACKAGES_ROOT)
               else if (experiencesClusterActive(location.pathname)) setMobileOpenGroup(EXPERIENCES_PATHS.hub)
               else if (contactNavActive(location.pathname)) setMobileOpenGroup(CONTACT_PATHS.contact)
               setMobileOpen(true)

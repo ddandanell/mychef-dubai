@@ -329,16 +329,6 @@
     }
   }
 
-  .pc-mega-content.cat-mega-wide {
-    width: min(1180px, calc(100vw - 2rem)) !important;
-  }
-
-  @media (min-width: 1280px) {
-    .pc-mega-content.cat-mega-wide {
-      width: min(1180px, calc(100vw - 4rem)) !important;
-    }
-  }
-
   .pc-mega-card {
     max-height: calc(100dvh - 5.5rem);
     overflow-x: hidden;
@@ -534,4 +524,20 @@ html:not(.js) .opacity-0 {
     background: #fff !important;
     color: #111 !important;
   }
+}
+
+
+/* Denser mega-menu rows for the four top-level clusters, so eight links fit
+   in the same card height as the older six-link menus. */
+.pc-mega-item--compact {
+  padding-top: 0.45rem;
+  padding-bottom: 0.45rem;
+}
+.pc-mega-item--compact .pc-mega-title {
+  font-size: 0.95rem;
+  line-height: 1.25;
+}
+.pc-mega-item--compact .pc-mega-desc {
+  font-size: 0.74rem;
+  line-height: 1.35;
 }
