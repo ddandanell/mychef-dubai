@@ -466,25 +466,18 @@ export default function Navbar() {
               </ul>
             </nav>
 
-            <div className="flex flex-col items-stretch gap-3 border-t border-white/10 pt-5 pb-8">
-              <Link to="/inquiry" className="btn-primary w-full text-center" onClick={() => setMobileOpen(false)}>
-                Request a Proposal
-              </Link>
+            <div
+              className="border-t border-white/10 pt-4"
+              style={{ paddingBottom: 'calc(env(safe-area-inset-bottom) + 1.25rem)' }}
+            >
               <a
                 href={WHATSAPP_LINK}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn-secondary flex w-full items-center justify-center gap-2 text-center"
+                className="btn-primary flex w-full items-center justify-center gap-2 text-center"
               >
                 <MessageCircle size={16} aria-hidden />
-                Chat on WhatsApp
-              </a>
-              <a
-                href="tel:+971551744849"
-                className="mt-1 flex min-h-[44px] items-center justify-center gap-2 font-inter text-body-sm text-white/60 hover:text-gold"
-              >
-                <Phone size={15} aria-hidden />
-                +971 55 174 4849
+                Chat with us
               </a>
             </div>
           </div>
