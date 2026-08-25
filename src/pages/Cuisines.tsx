@@ -246,7 +246,7 @@ export default function Cuisines() {
       {/* ═══════════════ Hero ═══════════════ */}
       <PageHero
         eyebrow="World Flavours, Dubai Style"
-        title="Catering Dubai by Cuisine"
+        title="Multi Cuisine Catering in Dubai"
         subtitle="From Italian trattoria classics and Arabic mezze to Asian tasting menus and plant-forward dishes — choose a cuisine and we’ll bring you a private chef or catering team. We reply within 15 minutes during business hours."
         image="/images/cuisines-hub-dubai-hero.webp"
         imageAlt="International catering cuisines prepared by private chefs in Dubai"

@@ -222,7 +222,7 @@ export default function MysteryDining() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 md-hero-h1">
-            Mystery Dining Dubai: Surprise Menus by a Private Chef
+            Surprise Dinner Experience Dubai: Menus Revealed on the Night
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 md-hero-sub">
             Tell us what excites your palate and any dietary boundaries. We will bring you a vetted private chef who designs a surprise menu around your tastes, delivered in your home, apartment, or villa within 24 hours.

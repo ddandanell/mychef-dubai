@@ -64,7 +64,7 @@ export default function PrivateJetCatering() {
       <PageHero
         variant="quiet"
         eyebrow="Private Jet Catering"
-        title="Food coordinated around the flight."
+        title="Private jet catering in Dubai, coordinated around the flight."
         subtitle="A focused service. Tell us the flight, passenger count, timing, food preferences and dietary requirements. We prepare and coordinate the food around the journey."
         image={HERO}
         imageAlt="Prepared jet catering packed for boarding in Dubai — labelled trays, quiet galley light, no cabin party. Experience concept shown."

@@ -8,7 +8,7 @@ export default function BirthdayPackage() {
       description="A fixed birthday catering package in Dubai: a private chef for 8–12 guests from AED 3,600, with menu, cake option and full service. Larger parties quoted separately."
       canonicalPath="/birthday-catering-package-dubai"
       ogImage="/images/birthday-catering-dubai-hero.webp"
-      headline="Birthday Celebration Package for 8–12 Guests"
+      headline="Birthday Catering Package Dubai for 8–12 Guests"
       eyebrow="BIRTHDAY PARTY PACKAGE"
       subheadline="Celebrate at home or in a private venue with a tailored menu, birthday cake, and full service for you and your guests."
       price="3,600"

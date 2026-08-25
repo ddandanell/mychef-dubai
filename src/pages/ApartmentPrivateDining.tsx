@@ -202,7 +202,7 @@ export default function ApartmentPrivateDining() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 apd-hero-h1">
-            Apartment Private Dining Dubai: Restaurant-Quality at Home
+            Private Chef for Apartment Dubai: Restaurant-Quality at Home
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 apd-hero-sub">
             Restaurant-quality multi-course dining for 2–8 guests, prepared in your own kitchen. No reservations, no travel, no compromise.

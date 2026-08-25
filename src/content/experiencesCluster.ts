@@ -156,7 +156,7 @@ export const experiencesHubSeo = {
   title: 'Luxury Dining Experiences Dubai | Private Chef Dining | myCHEF',
   description:
     'Luxury dining experiences in Dubai, from romantic dinners and tasting menus to cooking classes and desert dining. Designed around you by myCHEF.',
-  h1: 'Private Dining Experiences, Designed Around the Moment',
+  h1: 'Luxury dining in Dubai, designed around the moment',
   canonical: EXPERIENCES_PATHS.hub,
 } as const
 

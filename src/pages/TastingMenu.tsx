@@ -11,7 +11,7 @@ const config: ServicePageConfig = {
   ogImage: '/images/tasting-menu-dubai-hero.webp',
   showTrustSignalStrip: true,
   breadcrumbLabel: 'Tasting Menu Dubai',
-  h1: 'Tasting Menu & Chef’s Table in Dubai',
+  h1: 'Private Chef Tasting Menu & Chef’s Table in Dubai',
   heroSub:
     'Multi-course tasting menus and interactive chef’s table experiences in your villa, venue or private dining room — designed, cooked and presented by a dedicated partner chef.',
   heroImage: '/images/tasting-menu-dubai-hero.webp',

@@ -11,7 +11,7 @@ const config: OccasionPageConfig = {
   canonicalPath: '/valentines-day-catering-dubai',
   ogImage: '/images/valentines-day-catering-dubai-hero.webp',
   breadcrumbLabel: "Valentine's Day Catering Dubai",
-  h1: "Valentine's Day Private Dining in Dubai",
+  h1: "Valentine's Day Catering in Dubai",
   heroSub:
     "An intimate, candlelit Valentine's dinner crafted by a private chef in your Dubai home, villa or venue — bespoke menus, roses, champagne service and seamless cleanup.",
   heroImage: '/images/valentines-day-catering-dubai-hero.webp',

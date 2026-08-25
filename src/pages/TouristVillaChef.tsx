@@ -222,7 +222,7 @@ export default function TouristVillaChef() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 tvc-hero-h1">
-            Tourist Villa Chef Dubai: Multi-Day Private Dining
+            Holiday Villa Chef Dubai: Multi-Day Private Dining
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 tvc-hero-sub">
             Multi-day villa chef packages for visitors who want restaurant-quality dining without leaving their luxury rental. Themed dinners, Arabic feast finale, and zero logistics.

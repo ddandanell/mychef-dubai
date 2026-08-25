@@ -225,7 +225,7 @@ export default function KidsNutritionChef() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 kn-hero-h1">
-            Kids Nutrition Chef Dubai: Healthy Meals Children Love
+            Kids Meal Prep Dubai: Healthy Meals Children Love
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 kn-hero-sub">
             Healthy, delicious meals designed for children — and approved by parents. From school lunches to family dinners, we make nutrition easy.

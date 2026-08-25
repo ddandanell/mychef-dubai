@@ -1,9 +1,7 @@
 
 ===== KW_NOT_IN_H1 =====
 /about                                               "private chef company dubai" | Hiring a chef is the easy part.
-/apartment-private-dining-dubai                      "private chef for apartment dubai" | Apartment Private Dining Dubai: Restaurant-Quality at Home
 /become-a-mychef                                     "private chef jobs dubai" | Join the myCHEF Dubai Chef Network
-/birthday-catering-package-dubai                     "birthday catering package dubai" | Birthday Celebration Package for 8–12 Guests
 /blog                                                "catering blog dubai" | Private Chef & Catering Blog
 /blog/corporate-catering-full-service-vs-drop-off    "full service vs drop off catering dubai" | Corporate Catering: Full-Service vs Drop-Off
 /blog/halal-private-dining-dubai-what-to-ask         "what to ask a halal caterer dubai" | Halal Private Dining in Dubai: What to Ask Before You Book
@@ -18,8 +16,6 @@
 /chefs/layla-middle-eastern-chef                     "arabic private chef dubai" | Layla Hassan
 /chefs/marco-italian-chef                            "italian private chef dubai" | Marco Rossi
 /chefs/matteo-pastry-chef                            "private pastry chef dubai" | Matteo Moretti
-/cuisines-dubai                                      "multi cuisine catering dubai" | Catering Dubai by Cuisine
-/family-feast-package-dubai                          "family catering dubai" | Family Feast Package Dubai: Private Chef Dinner for 6–8
 /faq                                                 "catering faq dubai" | Frequently Asked Questions
 /farewell-catering-dubai                             "farewell party catering dubai" | Farewell & Retirement Catering in Dubai
 /founding-customer-offer                             "mychef founding customer offer" | Founding Customer Offer
@@ -27,26 +23,19 @@
 /guides                                              "catering checklist dubai" | Catering Guides for Dubai
 /how-we-vet-our-chefs                                "private chef background checks dubai" | How We Vet Our Private Chefs in Dubai
 /influencer-partnerships                             "food influencer partnerships dubai" | Influencer Partnerships
-/kids-nutrition-chef-dubai                           "kids meal prep dubai" | Kids Nutrition Chef Dubai: Healthy Meals Children Love
 /locations                                           "catering near me dubai" | Private Chef & Catering Across Dubai
 /loyalty-programme                                   "mychef loyalty programme" | Loyalty Programme
-/luxury-dining-experiences                           "luxury dining experiences dubai" | Dining Experiences Private Dining Experiences, Designed Ar
 /luxury-dinner-planning-guide-dubai                  "how to plan a luxury dinner dubai" | Luxury Dinner Planning Guide for Dubai
 /menus                                               "catering menus dubai" | Bespoke Menus, Crafted for Every Palate
 /mychef-certified                                    "mychef certified chefs" | MyChef Certified
-/mystery-dining-dubai                                "surprise dinner experience dubai" | Mystery Dining Dubai: Surprise Menus by a Private Chef
 /partner-with-us                                     "catering partnerships dubai" | Partner With myCHEF Dubai
 /partners/concierge-services-dubai                   "concierge services partnership dubai" | Concierge Partnership Dubai
 /private-chef-dubai/how-it-works                     "cook in dubai" | How It Works A private chef, without becoming the manager.
 /private-chef-dubai/privacy-security                 "private chef for family" | Privacy & Security Your home changes the standard.
 /private-chef-dubai/quality-training                 "healthy food chef" | Quality & Training Good on day one is not enough.
-/private-jet-catering-dubai                          "private jet catering dubai" | Private Jet Catering Food coordinated around the flight.
 /quality-guarantee-dubai                             "catering quality guarantee dubai" | Not Satisfied? We'll Make It Right
 /referral-programme                                  "mychef referral programme" | Give AED 100, Get AED 100
 /site-map                                            "site map dubai" | Site Map
-/tasting-menu-dubai                                  "private chef tasting menu dubai" | Tasting Menu & Chef’s Table in Dubai
-/tourist-villa-chef-dubai                            "holiday villa chef dubai" | Tourist Villa Chef Dubai: Multi-Day Private Dining
-/valentines-day-catering-dubai                       "valentines day catering dubai" | Valentine's Day Private Dining in Dubai
 /venue-partners                                      "preferred caterer dubai" | Venue Partners
 
 ===== KW_NOT_IN_DESC =====

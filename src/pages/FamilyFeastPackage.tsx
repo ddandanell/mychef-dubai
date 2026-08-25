@@ -8,7 +8,7 @@ export default function FamilyFeastPackage() {
       description="Family catering in Dubai: a private chef dinner for 6–8 guests from AED 2,400. Sharing-style menus, premium ingredients and full service. Request a quote."
       canonicalPath="/family-feast-package-dubai"
       ogImage="/images/celebration-catering-dubai-hero.webp"
-      headline="Family Feast Package Dubai: Private Chef Dinner for 6–8"
+      headline="Family Catering Dubai: Private Chef Dinner for 6–8"
       eyebrow="FAMILY DINING PACKAGE"
       subheadline="A generous sharing-style dinner for family and friends — prepared in your home and served without the stress."
       price="2,400"

@@ -23,7 +23,7 @@ export interface ProseSection {
 
 export const hero = {
   eyebrow: 'Dining Experiences',
-  h1: 'Private Dining Experiences, Designed Around the Moment',
+  h1: 'Luxury dining in Dubai, designed around the moment',
   subtitle:
     'From romantic dinners and private tasting menus to cooking classes and dining in extraordinary locations, myCHEF creates chef-led experiences around the people, food and setting that matter to you.',
   primaryCta: 'Explore Experiences',
