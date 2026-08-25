@@ -127,7 +127,7 @@ const trustFeatures = [
     icon: Leaf,
     title: 'Dietary Accommodation',
     description:
-      'All dietary requirements handled expertly. Vegetarian, vegan, halal, allergen-free \u2014 all options available.',
+      'Vegetarian, vegan and gluten-free options are planned into the menu rather than added at the end. Tell us which guest and which allergen and we plan labelling and separation around it.',
   },
   {
     icon: FileText,
