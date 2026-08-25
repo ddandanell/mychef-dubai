@@ -26,6 +26,14 @@ import { Check, Quote, Star, ArrowRight, Clock, Shield, Award, Users, Leaf, File
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { deferNonCritical } from '../lib/deferNonCritical'
 import { SectionLabel } from '../components/system'
+import {
+  boundaries,
+  formatLadder,
+  pricingIntro,
+  pricingNotes,
+  quoting,
+  routing,
+} from '@/content/corporatePage'
 
 
 const WHATSAPP_NUMBER = '971551744849'
@@ -717,24 +725,69 @@ export default function Corporate({
 
       {/* Corporate pricing. The shared StarterPackagesSection was removed here: six of its
           seven cards are private packages (date night, family feast, birthday, weekly prep)
-          that have no place on a corporate page. */}
+          that have no place on a corporate page. Figures come from corporatePage.ts — see the
+          provenance note at the top of that file. */}
       <section className="bg-cream section-padding">
-        <div className="container-custom max-w-[820px]">
+        <div className="container-custom max-w-[900px]">
           <SectionLabel>Pricing</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mt-4 mb-6">
             How much does corporate catering cost in Dubai?
           </h2>
-          <p className="font-inter text-body text-gray-600 leading-relaxed mb-4">
-            Corporate catering is quoted per booking rather than from a fixed list. The same headcount
-            produces very different figures depending on format, service level, staffing and venue —
-            a working lunch delivered to an office and a seated company dinner are not the same job.
-          </p>
-          <p className="font-inter text-body text-gray-600 leading-relaxed mb-8">
-            What you get back is an itemised proposal: food, staffing, equipment, delivery and VAT as
-            separate lines, so your finance team can see exactly what is being approved and you can
-            compare it fairly against another quote.
-          </p>
-          <div className="flex flex-wrap gap-x-8 gap-y-3">
+          {pricingIntro.map((t) => (
+            <p key={t} className="font-inter text-body text-gray-600 leading-relaxed mb-4">
+              {t}
+            </p>
+          ))}
+
+          {/* Mobile: stacked cards, so the price is never hidden behind a horizontal scroll. */}
+          <ul className="mt-10 border-t border-gray-200 sm:hidden">
+            {formatLadder.map((r) => (
+              <li key={r.format} className="border-b border-gray-200 py-4">
+                <div className="flex items-baseline justify-between gap-4">
+                  <span className="font-playfair text-h4 text-black">{r.format}</span>
+                  <span className="font-inter text-body-sm font-medium text-gold-ink text-right">{r.price}</span>
+                </div>
+                <p className="mt-1.5 font-inter text-body-sm text-gray-600">{r.what}</p>
+                <p className="mt-1 font-inter text-caption uppercase tracking-[0.12em] text-gray-400">
+                  Staff: {r.staff}
+                </p>
+              </li>
+            ))}
+          </ul>
+
+          <div className="mt-10 hidden overflow-x-auto sm:block">
+            <table className="w-full min-w-[620px] border-collapse text-left">
+              <thead>
+                <tr className="border-b border-gray-300">
+                  <th className="py-3 pr-4 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink">Format</th>
+                  <th className="py-3 pr-4 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink">What it is</th>
+                  <th className="py-3 pr-4 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink">Staff</th>
+                  <th className="py-3 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink">From</th>
+                </tr>
+              </thead>
+              <tbody>
+                {formatLadder.map((r) => (
+                  <tr key={r.format} className="border-b border-gray-200">
+                    <td className="py-4 pr-4 font-playfair text-h4 text-black">{r.format}</td>
+                    <td className="py-4 pr-4 font-inter text-body-sm text-gray-600">{r.what}</td>
+                    <td className="py-4 pr-4 font-inter text-body-sm text-gray-600">{r.staff}</td>
+                    <td className="py-4 font-inter text-body-sm font-medium text-gold-ink whitespace-nowrap">{r.price}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          <ul className="mt-8 border-t border-gray-200">
+            {pricingNotes.map((n) => (
+              <li key={n} className="flex items-start gap-3 border-b border-gray-200 py-3">
+                <span className="mt-2.5 h-px w-3 shrink-0 bg-gold-ink/60" aria-hidden />
+                <span className="font-inter text-body-sm text-gray-600">{n}</span>
+              </li>
+            ))}
+          </ul>
+
+          <div className="mt-8 flex flex-wrap gap-x-8 gap-y-3">
             <Link
               to="/dubai-catering-prices-guide"
               className="group inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.14em] text-gold-ink hover:text-gold"
@@ -749,6 +802,44 @@ export default function Corporate({
               Catering a company event?
             </Link>
           </div>
+        </div>
+      </section>
+
+      {/* Routing — the hub's real job */}
+      <section className="bg-white section-padding">
+        <div className="container-custom max-w-[820px]">
+          <SectionLabel>Choosing a service</SectionLabel>
+          <h2 className="font-playfair text-h2 text-black mt-4 mb-6">{routing.h2}</h2>
+          {routing.paragraphs.map((t) => (
+            <p key={t} className="font-inter text-body text-gray-600 leading-relaxed mb-4">
+              {t}
+            </p>
+          ))}
+          <div className="mt-10 grid gap-px border border-gray-200 bg-gray-200 sm:grid-cols-2 lg:grid-cols-4">
+            {boundaries.map((b) => (
+              <Link key={b.href} to={b.href} className="group bg-white p-6 transition-colors hover:bg-cream">
+                <p className="font-playfair text-h4 text-black mb-2">{b.q}</p>
+                <p className="font-inter text-body-sm leading-relaxed text-gray-600 mb-5">{b.a}</p>
+                <span className="inline-flex items-center gap-1.5 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink">
+                  {b.cta}
+                  <ArrowRight size={13} className="transition-transform group-hover:translate-x-1" />
+                </span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* How a quote is built */}
+      <section className="bg-cream section-padding">
+        <div className="container-custom max-w-[820px]">
+          <SectionLabel>Quoting</SectionLabel>
+          <h2 className="font-playfair text-h2 text-black mt-4 mb-6">{quoting.h2}</h2>
+          {quoting.paragraphs.map((t) => (
+            <p key={t} className="font-inter text-body text-gray-600 leading-relaxed mb-4">
+              {t}
+            </p>
+          ))}
         </div>
       </section>
 
