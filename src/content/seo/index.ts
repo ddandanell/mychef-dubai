@@ -220,6 +220,7 @@ export const SKIP_SEO_HEAD_ROUTES: ReadonlySet<string> = new Set([
 
 /** Commercial pages that own their own body copy. SeoContent must not append a second article. */
 export const SKIP_SEO_BODY_ROUTES: ReadonlySet<string> = new Set([
+  '/birthday-catering-dubai',
   '/blog',
   '/blog/wedding-catering-cost-dubai',
   '/catering-dubai',
