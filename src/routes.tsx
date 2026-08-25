@@ -21,6 +21,7 @@ const PrivateChefOurChefsPage: PreloadableComponent = lazyPreloadable(() => impo
 const PrivateChefQualityTraining: PreloadableComponent = lazyPreloadable(() => import('./pages/private-chef/QualityTraining'))
 const PrivateChefPrivacySecurity: PreloadableComponent = lazyPreloadable(() => import('./pages/private-chef/PrivacySecurity'))
 const PrivateChefPricing: PreloadableComponent = lazyPreloadable(() => import('./pages/private-chef/Pricing'))
+const PrivateChefPlanTerms: PreloadableComponent = lazyPreloadable(() => import('./pages/private-chef/HowYourPlanWorks'))
 const PrivateChefPrices: PreloadableComponent = lazyPreloadable(() => import('./pages/PrivateChefPrices'))
 const Catering: PreloadableComponent = lazyPreloadable(() => import('./pages/Catering'))
 const CateringPackages: PreloadableComponent = lazyPreloadable(() => import('./pages/CateringPackages'))
@@ -48,6 +49,7 @@ const NewYearCatering: PreloadableComponent = lazyPreloadable(() => import('./pa
 const BrunchCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/BrunchCatering'))
 const BreakfastCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/BreakfastCatering'))
 const DropOffCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/DropOffCatering'))
+const PrivateJetCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/PrivateJetCatering'))
 const TastingMenu: PreloadableComponent = lazyPreloadable(() => import('./pages/TastingMenu'))
 const FestiveCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/FestiveCatering'))
 const FAQ: PreloadableComponent = lazyPreloadable(() => import('./pages/FAQ'))
@@ -135,6 +137,7 @@ const BlogCategoryHub: PreloadableComponent = lazyPreloadable(() => import('./pa
 const RamadanIftarTrends2026: PreloadableComponent = lazyPreloadable(() => import('./pages/blog/RamadanIftarTrends2026'))
 const YachtPartyMenuIdeas: PreloadableComponent = lazyPreloadable(() => import('./pages/blog/YachtPartyMenuIdeas'))
 const PrivateChefCostDubai: PreloadableComponent = lazyPreloadable(() => import('./pages/blog/PrivateChefCostDubai'))
+const WeddingCateringCost: PreloadableComponent = lazyPreloadable(() => import('./pages/blog/WeddingCateringCost'))
 const CorporateCateringFullServiceVsDropOff: PreloadableComponent = lazyPreloadable(() => import('./pages/blog/CorporateCateringFullServiceVsDropOff'))
 const WeeklyMealPrepVsFullTimeChef: PreloadableComponent = lazyPreloadable(() => import('./pages/blog/WeeklyMealPrepVsFullTimeChef'))
 const BestPrivateChefBirthdayDinnerDubai: PreloadableComponent = lazyPreloadable(() => import('./pages/blog/BestPrivateChefBirthdayDinnerDubai'))
@@ -219,6 +222,7 @@ export const routes: AppRoute[] = [
   { path: "/private-chef-dubai/quality-training", element: <PrivateChefQualityTraining />, preload: PrivateChefQualityTraining.preload },
   { path: "/private-chef-dubai/privacy-security", element: <PrivateChefPrivacySecurity />, preload: PrivateChefPrivacySecurity.preload },
   { path: "/private-chef-dubai/pricing", element: <PrivateChefPricing />, preload: PrivateChefPricing.preload },
+  { path: "/private-chef-dubai/how-your-plan-works", element: <PrivateChefPlanTerms />, preload: PrivateChefPlanTerms.preload },
   { path: "/private-chef-prices-dubai", element: <PrivateChefPrices />, preload: PrivateChefPrices.preload },
   { path: "/catering-dubai", element: <Catering />, preload: Catering.preload },
   { path: "/catering-packages-dubai", element: <CateringPackages />, preload: CateringPackages.preload },
@@ -246,6 +250,7 @@ export const routes: AppRoute[] = [
   { path: "/brunch-catering-dubai", element: <BrunchCatering />, preload: BrunchCatering.preload },
   { path: "/breakfast-catering-dubai", element: <BreakfastCatering />, preload: BreakfastCatering.preload },
   { path: "/drop-off-catering-dubai", element: <DropOffCatering />, preload: DropOffCatering.preload },
+  { path: "/private-jet-catering-dubai", element: <PrivateJetCatering />, preload: PrivateJetCatering.preload },
   { path: "/tasting-menu-dubai", element: <TastingMenu />, preload: TastingMenu.preload },
   { path: "/festive-catering-dubai", element: <FestiveCatering />, preload: FestiveCatering.preload },
   { path: "/faq", element: <FAQ />, preload: FAQ.preload },
@@ -409,7 +414,7 @@ export const routes: AppRoute[] = [
   { path: "/blog/private-chef-date-night-dubai", element: <HandoffPage /> },
   { path: "/blog/private-chef-vs-restaurant-dubai", element: <HandoffPage /> },
   { path: "/blog/vegan-catering-dubai-guide", element: <HandoffPage /> },
-  { path: "/blog/wedding-catering-cost-dubai", element: <HandoffPage /> },
+  { path: "/blog/wedding-catering-cost-dubai", element: <WeddingCateringCost />, preload: WeddingCateringCost.preload },
   { path: "*", element: <NotFound />, preload: NotFound.preload },
 ]
 

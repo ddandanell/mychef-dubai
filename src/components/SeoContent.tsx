@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { useLocation } from 'react-router'
-import { getSeoContent, hasSeoContent, FULLPAGE_ROUTES, type SeoPage } from '../content/seo'
+import { getSeoContent, hasSeoContent, FULLPAGE_ROUTES, SKIP_SEO_BODY_ROUTES, type SeoPage } from '../content/seo'
 
 interface RenderedBlock {
   heading: string
@@ -38,7 +38,9 @@ export default function SeoContent() {
   // DOM. Guarded by the same eligibility check used below (FULLPAGE routes are
   // owned by HandoffPage, so SeoContent must render nothing for them).
   const [data, setData] = useState<SeoPage | null>(() =>
-    hasSeoContent(pathname) && !FULLPAGE_ROUTES.has(pathname) ? readInlineSeo(pathname) : null,
+    hasSeoContent(pathname) && !FULLPAGE_ROUTES.has(pathname) && !SKIP_SEO_BODY_ROUTES.has(pathname)
+      ? readInlineSeo(pathname)
+      : null,
   )
   const firstRun = useRef(true)
 
@@ -51,7 +53,7 @@ export default function SeoContent() {
       if (readInlineSeo(pathname)) return
     }
     setData(null)
-    if (!hasSeoContent(pathname) || FULLPAGE_ROUTES.has(pathname)) return
+    if (!hasSeoContent(pathname) || FULLPAGE_ROUTES.has(pathname) || SKIP_SEO_BODY_ROUTES.has(pathname)) return
     getSeoContent(pathname).then((loaded) => {
       if (active) setData(loaded)
     })

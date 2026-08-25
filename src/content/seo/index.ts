@@ -69,6 +69,7 @@ export const SKIP_SEO_HEAD_ROUTES: ReadonlySet<string> = new Set([
   '/blog/halal-private-dining-dubai-what-to-ask',
   '/blog/how-much-does-private-chef-cost-dubai',
   '/blog/private-chef-palm-jumeirah-guide',
+  '/blog/wedding-catering-cost-dubai',
   '/blog/ramadan-iftar-catering-trends-2026',
   '/blog/weekly-meal-prep-vs-full-time-chef-dubai',
   '/blog/yacht-party-menu-ideas-dubai',
@@ -208,12 +209,25 @@ export const SKIP_SEO_HEAD_ROUTES: ReadonlySet<string> = new Set([
   '/villa-catering-ideas-dubai',
   '/villas-private-residences',
   '/vip-club',
+  '/wedding-catering-checklist-dubai',
   '/wedding-catering-dubai',
   '/wedding-catering-menu-planning-dubai',
   '/weekly-meal-prep-dubai',
   '/wellness-meal-prep-dubai',
   '/yacht-catering-guide-dubai',
   '/yachts',
+])
+
+/** Commercial pages that own their own body copy. SeoContent must not append a second article. */
+export const SKIP_SEO_BODY_ROUTES: ReadonlySet<string> = new Set([
+  '/blog',
+  '/blog/wedding-catering-cost-dubai',
+  '/catering-dubai',
+  '/private-jet-catering-dubai',
+  '/site-map',
+  '/wedding-catering-checklist-dubai',
+  '/wedding-catering-dubai',
+  '/wedding-catering-menu-planning-dubai',
 ])
 
 // Handoff routes that have NO existing page component — rendered as a full page by
@@ -232,7 +246,6 @@ export const FULLPAGE_ROUTES: ReadonlySet<string> = new Set([
   '/blog/private-chef-date-night-dubai',
   '/blog/private-chef-vs-restaurant-dubai',
   '/blog/vegan-catering-dubai-guide',
-  '/blog/wedding-catering-cost-dubai',
 ])
 
 const loaders = import.meta.glob('../seo-pages/*.json', {

@@ -1,9 +1,4 @@
-import {
-  groceryAddOn,
-  mealServiceRule,
-  monthlyFrom,
-  serviceFormats,
-} from './privateChefPage'
+import { computeQuote, DEFAULT_INPUT } from './privateChefPricing'
 
 /** Nested household-chef cluster under the existing authority URL. */
 export const CLUSTER_ROOT = '/private-chef-dubai' as const
@@ -15,6 +10,8 @@ export const CLUSTER_PATHS = {
   quality: `${CLUSTER_ROOT}/quality-training`,
   privacy: `${CLUSTER_ROOT}/privacy-security`,
   pricing: `${CLUSTER_ROOT}/pricing`,
+  /** Support page for pricing (plain-English plan rules). Linked, not a nav item — CLUSTER_NAV stays at six. */
+  planTerms: `${CLUSTER_ROOT}/how-your-plan-works`,
 } as const
 
 export type ClusterPath = (typeof CLUSTER_PATHS)[keyof typeof CLUSTER_PATHS]
@@ -61,43 +58,18 @@ export const CLUSTER_NAV = [
 export const INQUIRY_HREF = '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=private-chef-dubai'
 export const FIND_CHEF_LABEL = 'Find Your Chef'
 
-const prep = serviceFormats.find((f) => f.id === 'prep')!
-const dinner = serviceFormats.find((f) => f.id === 'dinner')!
-const fullDay = serviceFormats.find((f) => f.id === 'fullday')!
+/** Structural price examples for the parent, computed by the single pricing engine (src/content/privateChefPricing.ts). */
+const preview = (serviceId: 'fresh-meal' | 'autopilot' | 'full-day', daysPerWeek: number) =>
+  computeQuote({ ...DEFAULT_INPUT, serviceId, daysPerWeek, guests: 4 })
+const pFresh = preview('fresh-meal', 1)
+const pAuto = preview('autopilot', 5)
+const pFull = preview('full-day', 5)
 
-/** Structural price examples for the parent only. Numbers come from serviceFormats. */
 export const pricingPreview = [
-  {
-    id: 'part-time',
-    label: 'Part-time household',
-    rhythm: 'One prep day a week',
-    format: prep.name,
-    days: 1,
-    monthly: monthlyFrom(prep.perService, 1),
-    note: 'Same chef, one prep day — without someone in the house all day.',
-  },
-  {
-    id: 'regular',
-    label: 'Regular household',
-    rhythm: 'Dinner five days a week',
-    format: dinner.name,
-    days: 5,
-    monthly: monthlyFrom(dinner.perService, 5),
-    note: 'The meal that matters, same chef, week after week.',
-  },
-  {
-    id: 'full',
-    label: 'Full household arrangement',
-    rhythm: 'Full-day chef, five days a week',
-    format: fullDay.name,
-    days: 5,
-    monthly: monthlyFrom(fullDay.perService, 5),
-    note: 'The kitchen staffed through the day, in this house’s rhythm.',
-  },
+  { id: 'part-time', label: 'Part-time household', rhythm: 'One fresh meal a week', format: pFresh.service.name, days: 1, monthly: pFresh.perMonth, note: 'Same chef, one cooked meal a week — the smallest long-term plan.' },
+  { id: 'regular', label: 'Regular household', rhythm: 'Kitchen on Autopilot, five days a week', format: pAuto.service.name, days: 5, monthly: pAuto.perMonth, note: 'Planning, shopping, cooking and cleanup handled — the managed kitchen.' },
+  { id: 'full', label: 'Full household arrangement', rhythm: 'Full-day chef, five days a week', format: pFull.service.name, days: 5, monthly: pFull.perMonth, note: 'The kitchen staffed through the day, in this house’s rhythm.' },
 ] as const
-
-export const groceryPreviewRate = groceryAddOn.perService
-export const extraMealRate = mealServiceRule.extraPrice
 
 /**
  * ============================================================================
@@ -219,8 +191,9 @@ export const KEYWORD_LOCKS = {
     ],
   },
   pricing: {
-    primary: { keyword: 'home chef dubai', volume: 50, kd: 19, intent: 'commercial' },
+    primary: { keyword: 'private chef dubai prices', volume: null, kd: null, intent: 'commercial' }, // owner decision 2026-08-25; hub keeps "private chef dubai"
     secondary: [
+      { keyword: 'home chef dubai', volume: 50, kd: 19, intent: 'commercial' },
       { keyword: 'private chef hire', volume: 30, kd: 9, intent: 'informational' },
       { keyword: 'personal cook dubai', volume: 70, kd: 29, intent: 'commercial' },
       { keyword: 'part time cook in dubai', volume: 40, kd: 13, intent: 'informational' },
@@ -234,7 +207,7 @@ export const parentSeo = {
   eyebrow: 'Private Chef Dubai',
   title: 'Private Chef Dubai | Private Chef Services for Your Home | myCHEF',
   description:
-    'Private chef Dubai for a standing household — the same chef every week, a Food Profile that travels, and backup if they are off. Private chef services from a few days a week. From AED 2,700 a month.',
+    'Private chef Dubai for a standing household — the same chef every week, a Food Profile that travels, and backup if they are off. Private chef services from three days. Long-term plans from AED 3,000 a month.',
   h1: 'Your chef. Your household. Already understood.',
   subtitle:
     'A managed private chef service built around how your home actually eats. One Food Profile, consistent standards, and backup handled for you.',
@@ -281,14 +254,14 @@ export const childSeo = {
       'A private chef works inside your personal space. That is why identity, references, right-to-work checks and ongoing management are part of the service, not an afterthought.',
     eyebrow: 'Privacy & Security',
   },
-  // LOCKED: "home chef dubai" (50/mo). Secondary: "private chef hire", "personal cook dubai", "part time cook in dubai".
+  // LOCKED: "private chef dubai prices" (owner decision 2026-08-25). Secondary: "home chef dubai", "private chef hire", "personal cook dubai", "part time cook in dubai".
   pricing: {
-    title: 'Home Chef Dubai Prices | Private Chef Hire Plans | myCHEF',
+    title: 'Private Chef Dubai Prices | Short Stay & Long-Term Plans | myCHEF',
     description:
-      'Home chef Dubai prices for standing household plans. Daily Prep from AED 675, Dinner Service from AED 825, Full-Day Chef from AED 1,575. Groceries at cost. Build your monthly figure.',
-    h1: 'Your household decides the price.',
+      'Private chef Dubai prices for short stays (3–29 days) and long-term household plans (30+ days). Choose the service, the chef level and the days — see your price before you enquire.',
+    h1: 'Private Chef Dubai Prices',
     subtitle:
-      'Chef level, schedule, hours, meals and support shape the final plan. Build the service around your household first, then see exactly what it costs before anything begins.',
+      'Choose how long you need your chef, how often they should come, and how much of your kitchen you want us to manage. See the price before you enquire.',
     eyebrow: 'Pricing & Plans',
   },
 } as const
@@ -408,7 +381,7 @@ export const parentFaqs = [
   },
   {
     q: 'How much does a household chef cost?',
-    a: 'From AED 675 per service at Professional Chef level — one weekly Daily Prep session is AED 2,700 a month, before VAT and the published transport zone rate. Dinner Service is from AED 825 and a Full-Day Chef from AED 1,575. The calculator, groceries, assistants and short-stay rate are on [Pricing & Plans](/private-chef-dubai/pricing). A one-night dinner is [catering](/catering-dubai).',
+    a: 'From AED 750 per service at Professional Chef level — a Fresh Meal (3 hours) once a week is AED 3,000 a month before VAT. Private Chef Food Prep (4h) is from AED 900, Kitchen on Autopilot (5h) from AED 1,050 and a Full-Day Private Chef (9h) from AED 1,500. Long-term rates improve with services per month; short stays of 3–29 days carry a higher daily rate. Build your figure on [Pricing & Plans](/private-chef-dubai/pricing). A one-night dinner is [catering](/catering-dubai).',
   },
 ] as const
 
@@ -419,7 +392,7 @@ export const howItWorksFaqs = [
   },
   {
     q: 'Can I get a part time cook in Dubai?',
-    a: 'Yes. Plans start at one day a week — a part-time cook doing Daily Prep is the entry point, at AED 2,700 a month. Same matching, same Food Profile, same backup as a full week. Rates are on [Pricing & Plans](/private-chef-dubai/pricing).',
+    a: 'Yes. Long-term plans start at one day a week — four chef visits a month — from AED 3,000 a month for a weekly Fresh Meal. Same matching, same Food Profile, same backup as a full week. Rates are on [Pricing & Plans](/private-chef-dubai/pricing).',
   },
   {
     q: 'What is the Food Profile?',
@@ -503,7 +476,7 @@ export const privacyFaqs = [
 export const pricingFaqs = [
   {
     q: 'What does a private chef in Dubai cost?',
-    a: 'From AED 675 per service at Professional Chef level — one weekly three-hour Daily Prep session is AED 2,700 a month. Dinner Service is from AED 825 and a Full-Day Chef from AED 1,575 per service. Add grocery management to Daily Prep and it becomes a five-hour service at AED 975 — the extra is the chef’s time, never a markup on the food. Monthly prices are the per-service rate × days per week × four weeks, plus a published per-visit transport zone rate (AED 40–130). If the role needs a Senior Chef, you see the difference before you book.',
+    a: 'From AED 750 per service at Professional Chef level. Fresh Meal (3 hours) from AED 750, Private Chef Food Prep (4h) from AED 900, Kitchen on Autopilot (5h) from AED 1,050 and a Full-Day Private Chef (9h) from AED 1,500. Head Chef rates are higher. Long-term rates improve with the number of services a month; short stays of 3–29 days carry a higher daily rate. Groceries are charged at actual cost with no markup. Build the exact figure on [Pricing & Plans](/private-chef-dubai/pricing).',
   },
   {
     q: 'Can I book a private chef for less than a month?',
@@ -515,7 +488,7 @@ export const pricingFaqs = [
   },
   {
     q: 'What does a home chef in Dubai cost per month?',
-    a: 'Home chef Dubai prices start at AED 2,700 a month — one weekly three-hour Daily Prep session at Professional level. Dinner Service five days a week is AED 16,500 a month, and a Full-Day Chef five days a week is AED 31,500 — plus the published transport zone rate (AED 40–130 per visit) and groceries at receipts.',
+    a: 'Long-term plans start at AED 3,000 a month — one Fresh Meal a week at Professional level. Kitchen on Autopilot five days a week is about AED 20,350 a month at the Dedicated Household Rate, and a Full-Day Private Chef five days a week about AED 29,040. Groceries are charged at actual cost. The calculator on [Pricing & Plans](/private-chef-dubai/pricing) shows your own figure.',
   },
   {
     q: 'Is private chef hire cheaper than employing a cook myself?',

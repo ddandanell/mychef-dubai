@@ -1,6 +1,7 @@
 import { Link } from 'react-router'
 import SEO from '@/components/SEO'
 import PageHero from '@/components/PageHero'
+import { BLOG_POSTS } from '@/content/blogTaxonomy'
 
 export default function SiteMap() {
   return (
@@ -204,14 +205,6 @@ export default function SiteMap() {
               <li><Link to="/gallery" className="text-gray-600 hover:text-gold transition-colors">/gallery</Link></li>
               <li><Link to="/venue-partners" className="text-gray-600 hover:text-gold transition-colors">/venue-partners</Link></li>
               <li><Link to="/blog" className="text-gray-600 hover:text-gold transition-colors">/blog</Link></li>
-              <li><Link to="/blog/ramadan-iftar-catering-trends-2026" className="text-gray-600 hover:text-gold transition-colors">/blog/ramadan-iftar-catering-trends-2026</Link></li>
-              <li><Link to="/blog/yacht-party-menu-ideas-dubai" className="text-gray-600 hover:text-gold transition-colors">/blog/yacht-party-menu-ideas-dubai</Link></li>
-              <li><Link to="/blog/how-much-does-private-chef-cost-dubai" className="text-gray-600 hover:text-gold transition-colors">/blog/how-much-does-private-chef-cost-dubai</Link></li>
-              <li><Link to="/blog/corporate-catering-full-service-vs-drop-off" className="text-gray-600 hover:text-gold transition-colors">/blog/corporate-catering-full-service-vs-drop-off</Link></li>
-              <li><Link to="/blog/weekly-meal-prep-vs-full-time-chef-dubai" className="text-gray-600 hover:text-gold transition-colors">/blog/weekly-meal-prep-vs-full-time-chef-dubai</Link></li>
-              <li><Link to="/blog/best-private-chef-birthday-dinner-dubai" className="text-gray-600 hover:text-gold transition-colors">/blog/best-private-chef-birthday-dinner-dubai</Link></li>
-              <li><Link to="/blog/private-chef-palm-jumeirah-guide" className="text-gray-600 hover:text-gold transition-colors">/blog/private-chef-palm-jumeirah-guide</Link></li>
-              <li><Link to="/blog/halal-private-dining-dubai-what-to-ask" className="text-gray-600 hover:text-gold transition-colors">/blog/halal-private-dining-dubai-what-to-ask</Link></li>
               <li><Link to="/chefs/ahmed-executive-chef" className="text-gray-600 hover:text-gold transition-colors">/chefs/ahmed-executive-chef</Link></li>
               <li><Link to="/chefs/matteo-pastry-chef" className="text-gray-600 hover:text-gold transition-colors">/chefs/matteo-pastry-chef</Link></li>
               <li><Link to="/chefs/marco-italian-chef" className="text-gray-600 hover:text-gold transition-colors">/chefs/marco-italian-chef</Link></li>
@@ -238,6 +231,18 @@ export default function SiteMap() {
               <li><Link to="/locations/bluewaters-island" className="text-gray-600 hover:text-gold transition-colors">/locations/bluewaters-island</Link></li>
               <li><Link to="/locations/umm-suqeim" className="text-gray-600 hover:text-gold transition-colors">/locations/umm-suqeim</Link></li>
               <li><Link to="/locations/al-barsha" className="text-gray-600 hover:text-gold transition-colors">/locations/al-barsha</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h2 className="font-playfair text-xl text-black mb-4">Blog ({BLOG_POSTS.length})</h2>
+            <ul className="space-y-2 font-inter text-body-sm">
+              {BLOG_POSTS.map((post) => (
+                <li key={post.slug}>
+                  <Link to={post.slug} className="text-gray-600 hover:text-gold transition-colors">
+                    {post.title}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
           <div>

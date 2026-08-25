@@ -10,14 +10,18 @@ const serviceLinks = [
   { label: 'Quality & training', href: '/private-chef-dubai/quality-training' },
   { label: 'Privacy & security', href: '/private-chef-dubai/privacy-security' },
   { label: 'Household chef pricing', href: '/private-chef-dubai/pricing' },
+  { label: 'How your plan works', href: '/private-chef-dubai/how-your-plan-works' },
   { label: 'Catering Dubai', href: '/catering-dubai' },
+  { label: 'Weddings', href: '/wedding-catering-dubai' },
+  { label: 'Corporate Events', href: '/corporate-event-catering-dubai' },
+  { label: 'Birthdays & Celebrations', href: '/birthday-catering-dubai' },
+  { label: 'Private Events', href: '/private-party-catering-dubai' },
+  { label: 'Villa Catering', href: '/villas-private-residences' },
+  { label: 'Yacht Catering', href: '/yachts' },
+  { label: 'Private Jet Catering', href: '/private-jet-catering-dubai' },
+  { label: 'Food Only & Drop-Off', href: '/drop-off-catering-dubai' },
   { label: 'Weekly Meal Prep', href: '/weekly-meal-prep-dubai' },
   { label: 'Luxury Dining', href: '/luxury-dining-experiences' },
-  { label: 'Events & Celebrations', href: '/events' },
-  { label: 'Festive Catering', href: '/festive-catering-dubai' },
-  { label: 'Corporate Dining', href: '/corporate' },
-  { label: 'Villas & Residences', href: '/villas-private-residences' },
-  { label: 'Yachts', href: '/yachts' },
   { label: 'World Cuisines', href: '/cuisines-dubai' },
 ]
 
@@ -35,6 +39,8 @@ const guideLinks = [
   { label: 'Choose a Caterer', href: '/how-to-choose-caterer-dubai' },
   { label: 'Villa Catering Ideas', href: '/villa-catering-ideas-dubai' },
   { label: 'Wedding Checklist', href: '/wedding-catering-checklist-dubai' },
+  { label: 'Wedding Menu Planning', href: '/wedding-catering-menu-planning-dubai' },
+  { label: 'Wedding Catering Cost', href: '/blog/wedding-catering-cost-dubai' },
   { label: 'Corporate Checklist', href: '/corporate-catering-checklist-dubai' },
   { label: 'Private Chef vs Catering', href: '/private-chef-vs-catering-dubai' },
   { label: 'Buffet vs Plated', href: '/buffet-vs-plated-dubai' },
@@ -82,7 +88,7 @@ export default function Footer() {
   const currentYear = new Date().getFullYear()
 
   return (
-    <footer className="bg-black border-t border-charcoal-light">
+    <footer className="bg-black border-t border-charcoal-light print:hidden">
       <div className="container-custom pt-16 pb-10 md:pt-20">
         {/* 6-Column Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-10 lg:gap-6">

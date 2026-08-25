@@ -30,8 +30,14 @@ const guides = [
   {
     slug: '/wedding-catering-menu-planning-dubai',
     title: 'Wedding Menu Planning Guide',
-    description: 'Build a wedding catering menu from guest profile and tasting to final service style and dietary coverage.',
+    description: 'Wedding food menu ideas for Dubai: plated, buffet, Indian, Arabic, tastings and late-night food. Not a price list.',
     icon: ClipboardList,
+  },
+  {
+    slug: '/blog/wedding-catering-cost-dubai',
+    title: 'Wedding Catering Cost Dubai',
+    description: 'Planning estimates for food-led buffets, hotel packages and chef-led villa dinners. VAT and extras. Figures reviewed 2026.',
+    icon: DollarSign,
   },
   {
     slug: '/how-to-choose-caterer-dubai',
@@ -48,7 +54,7 @@ const guides = [
   {
     slug: '/wedding-catering-checklist-dubai',
     title: 'Wedding Catering Checklist',
-    description: 'Month-by-month planning timeline from tasting to table settings so your wedding catering feels effortless.',
+    description: 'When to book a wedding caterer in Dubai, tasting window, community gates, hotel rules and day-of service. Printable. No prices.',
     icon: Heart,
   },
   {

@@ -7,7 +7,7 @@ import { SectionLabel, iconForSectionLabel } from '@/components/system'
 export default function ClusterCTA({
   eyebrow = 'If this is the house you want',
   title = 'Start the household plan',
-  body = 'From AED 2,700 a month for one weekly prep session — up to a full-day chef, seven days a week. We calculate the role, recommend the chef level, and put the full price in writing before anything starts.',
+  body = 'Long-term plans from AED 3,000 a month for a weekly Fresh Meal — up to a full-day chef, seven days a week. Build the plan on the pricing page, send it, and the exact figure arrives in writing before anything starts.',
   inquiryLabel,
 }: {
   eyebrow?: string

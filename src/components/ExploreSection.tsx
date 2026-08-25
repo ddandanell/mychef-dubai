@@ -23,7 +23,7 @@ const exploreLinks = [
 
 export default function ExploreSection({ className = '' }: ExploreSectionProps) {
   return (
-    <section className={`bg-charcoal py-16 ${className}`}>
+    <section className={`bg-charcoal py-16 print:hidden ${className}`}>
       <div className="container-custom max-w-[1100px]">
         <div className="text-center mb-10">
           <SectionLabel align="center" tone="dark">Discover More</SectionLabel>

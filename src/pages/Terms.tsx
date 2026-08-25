@@ -202,6 +202,15 @@ const sections = [
     ),
   },
   {
+    title: 'Private Chef Household Plans',
+    content: (
+      <p>
+        Recurring private chef plans (3 days or more) follow their own plain-English rules — rescheduling, groceries, guests and assistants, replacement, access, billing and more. Read{' '}
+        <a href="/private-chef-dubai/how-your-plan-works" className="text-gold hover:underline">how your plan works</a>. The full detail is set out in your service agreement.
+      </p>
+    ),
+  },
+  {
     title: 'Governing Law',
     content: (
       <p>These terms of service are governed by and construed in accordance with the laws of the United Arab Emirates. Any disputes arising under these terms shall be subject to the exclusive jurisdiction of the courts of Dubai.</p>

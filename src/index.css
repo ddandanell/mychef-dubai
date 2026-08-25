@@ -329,6 +329,16 @@
     }
   }
 
+  .pc-mega-content.cat-mega-wide {
+    width: min(1180px, calc(100vw - 2rem)) !important;
+  }
+
+  @media (min-width: 1280px) {
+    .pc-mega-content.cat-mega-wide {
+      width: min(1180px, calc(100vw - 4rem)) !important;
+    }
+  }
+
   .pc-mega-card {
     max-height: calc(100dvh - 5.5rem);
     overflow-x: hidden;
@@ -508,4 +518,20 @@
 html:not(.js) .opacity-0 {
   opacity: 1 !important;
   transform: none !important;
+}
+
+@media print {
+  .print-hide {
+    display: none !important;
+  }
+
+  body:has(.print-checklist) {
+    background: #fff !important;
+    color: #111 !important;
+  }
+
+  body:has(.print-checklist) .print-checklist {
+    background: #fff !important;
+    color: #111 !important;
+  }
 }

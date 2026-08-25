@@ -1,6 +1,7 @@
 import { MessageCircle } from 'lucide-react'
 import { Link } from 'react-router'
-import { CLUSTER_PATHS } from '@/content/privateChefCluster'
+import { CLUSTER_PATHS, pricingPreview } from '@/content/privateChefCluster'
+import { formatAed } from '@/content/privateChefPage'
 import { WHATSAPP_MESSAGE, WHATSAPP_NUMBER } from '@/content/privateChefPage'
 
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`
@@ -14,7 +15,7 @@ export default function RatesBar({ className = '' }: { className?: string }) {
           to={CLUSTER_PATHS.pricing}
           className="px-3 sm:px-4 py-2 font-inter text-caption sm:text-body-sm uppercase tracking-wider border border-gold text-gold hover:bg-gold hover:text-black transition-colors text-center whitespace-nowrap"
         >
-          From AED 2,700 / month · household prices
+          From {formatAed(pricingPreview[0].monthly)} / month · long-term household plans
         </Link>
         <a
           href={WHATSAPP_LINK}

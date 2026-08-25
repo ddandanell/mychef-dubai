@@ -74,9 +74,9 @@ const schema = {
         'Standing household private chef in Dubai: same chef, Food Profile, backup if they are off. From a few days a week to a long-term household plan, the chef is matched, assessed and managed.',
       offers: {
         '@type': 'Offer',
-        name: 'Household private chef plan — from AED 2,700 a month',
+        name: 'Household private chef plans — short stay (3–29 days) and long term (30+ days)',
         description:
-          'Professional Chef, one weekly Daily Prep session on an ongoing monthly plan. From AED 2,700 a month before VAT and the published transport zone rate. Per-service from AED 675.',
+          'Fresh Meal (3h) from AED 750, Private Chef Food Prep (4h) from AED 900, Kitchen on Autopilot (5h) from AED 1,050 and Full-Day Private Chef (9h) from AED 1,500 per service at Professional Chef level. Long-term rates improve with services per month. Groceries at actual cost.',
         url: 'https://www.mychef.ae/private-chef-dubai/pricing',
         priceCurrency: 'AED',
         price: '2700',
@@ -387,7 +387,7 @@ export default function PrivateChef() {
             <Eyebrow align="center">Pricing</Eyebrow>
             <DisplayHeading size="h2" className="text-black">The figure follows the chef, the schedule and the household.</DisplayHeading>
             <BodyCopy muted className="mt-4 mx-auto">
-              Displayed figures are Professional Chef on an ongoing monthly plan, before VAT and the published transport zone rate. The calculator lives on Pricing & Plans.
+              Displayed figures are Professional Chef on a long-term plan, before VAT. Groceries are charged at actual cost. Build your own figure on Pricing & Plans.
             </BodyCopy>
           </div>
           <div className="grid md:grid-cols-3 gap-4 mb-8">

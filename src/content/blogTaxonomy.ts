@@ -62,8 +62,8 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     "slug": "/blog/wedding-catering-cost-dubai",
-    "title": "Wedding Catering Cost Dubai: What to Budget in 2026",
-    "excerpt": "Wedding catering cost in Dubai starts from around AED 700 per guest for plated service. What buffets, stations and luxury menus really cost, and how to budget by guest count.",
+    "title": "Wedding Catering Cost Dubai: Planning Estimates for 2026",
+    "excerpt": "Wedding catering cost in Dubai is three products, not one ladder: food-led buffets, hotel packages and chef-led villa dinners. Planning estimates, VAT and extras.",
     "category": "Wedding",
     "image": "/images/blog/wedding-catering-cost-dubai-hero.webp",
     "hub": "celebrations",

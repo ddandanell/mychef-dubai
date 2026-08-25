@@ -4,6 +4,7 @@ import * as NavigationMenuPrimitive from '@radix-ui/react-navigation-menu'
 import { ArrowRight, ChevronDown, Menu, MessageCircle, Phone, X } from 'lucide-react'
 import ChefHatLogo from './ChefHatLogo'
 import PrivateChefMegaMenu, { CLUSTER_ICONS } from './private-chef/PrivateChefMegaMenu'
+import CateringMegaMenu from './catering/CateringMegaMenu'
 import {
   NavigationMenu,
   NavigationMenuItem,
@@ -19,11 +20,15 @@ import {
   SheetTitle,
 } from '@/components/ui/sheet'
 import { CLUSTER_NAV, CLUSTER_PATHS } from '@/content/privateChefCluster'
+import { CATERING_NAV_CHILDREN, CATERING_PATHS, cateringClusterActive } from '@/content/cateringCluster'
 import { cn } from '@/lib/utils'
+
+type NavMega = 'private-chef' | 'catering'
 
 type NavItem = {
   label: string
   href: string
+  mega?: NavMega
   children?: { href: string; label: string; description: string }[]
 }
 
@@ -31,13 +36,19 @@ const navLinks: NavItem[] = [
   {
     label: 'Private Chef',
     href: CLUSTER_PATHS.overview,
+    mega: 'private-chef',
     children: CLUSTER_NAV.map((item) => ({
       href: item.href,
       label: item.label,
       description: item.description,
     })),
   },
-  { label: 'Catering', href: '/catering-dubai' },
+  {
+    label: 'Catering',
+    href: CATERING_PATHS.overview,
+    mega: 'catering',
+    children: CATERING_NAV_CHILDREN,
+  },
   { label: 'Experiences', href: '/luxury-dining-experiences' },
   { label: 'Locations', href: '/locations' },
   { label: 'Blog', href: '/blog' },
@@ -67,16 +78,22 @@ function clusterActive(pathname: string) {
   return path === CLUSTER_PATHS.overview || path.startsWith(`${CLUSTER_PATHS.overview}/`)
 }
 
+function itemIsActive(pathname: string, link: NavItem) {
+  if (link.mega === 'private-chef') return clusterActive(pathname)
+  if (link.mega === 'catering') return cateringClusterActive(pathname)
+  return isItemActive(pathname, link.href)
+}
+
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false)
-  const [mobileClusterOpen, setMobileClusterOpen] = useState(false)
+  const [mobileOpenGroup, setMobileOpenGroup] = useState('')
   const location = useLocation()
 
   useEffect(() => {
     setMobileOpen(false)
-    setMobileClusterOpen(false)
-    window.scrollTo(0, 0)
-  }, [location.pathname])
+    setMobileOpenGroup('')
+    if (!location.hash) window.scrollTo(0, 0)
+  }, [location.pathname, location.hash])
 
   return (
     <>
@@ -85,7 +102,7 @@ export default function Navbar() {
         viewport={false}
         delayDuration={100}
         skipDelayDuration={200}
-        className="relative sticky top-0 z-50 flex h-16 min-h-16 w-full max-w-none flex-none justify-start overflow-visible bg-black"
+        className="relative sticky top-0 z-50 flex h-16 min-h-16 w-full max-w-none flex-none justify-start overflow-visible bg-black print:hidden"
       >
         <div
           className="pointer-events-none absolute inset-0 hidden bg-black/95 backdrop-blur-xl lg:block"
@@ -110,7 +127,7 @@ export default function Navbar() {
           <NavigationMenuList className="hidden h-full flex-1 flex-nowrap items-center justify-center gap-5 lg:flex xl:gap-8">
             {navLinks.map((link) => {
               const hasChildren = Boolean(link.children?.length)
-              const isActive = hasChildren ? clusterActive(location.pathname) : isItemActive(location.pathname, link.href)
+              const isActive = itemIsActive(location.pathname, link)
               if (!hasChildren) {
                 return (
                   <NavigationMenuItem key={link.href}>
@@ -153,8 +170,10 @@ export default function Navbar() {
                       />
                     </Link>
                   </NavigationMenuPrimitive.Trigger>
-                  <NavigationMenuPrimitive.Content className="pc-mega-content">
-                    <PrivateChefMegaMenu />
+                  <NavigationMenuPrimitive.Content
+                    className={cn('pc-mega-content', link.mega === 'catering' && 'cat-mega-wide')}
+                  >
+                    {link.mega === 'catering' ? <CateringMegaMenu /> : <PrivateChefMegaMenu />}
                   </NavigationMenuPrimitive.Content>
                 </NavigationMenuItem>
               )
@@ -196,7 +215,8 @@ export default function Navbar() {
             type="button"
             className="lg:hidden text-gold p-2 -mr-2 min-w-10 min-h-10 flex items-center justify-center rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold"
             onClick={() => {
-              setMobileClusterOpen(clusterActive(location.pathname))
+              if (clusterActive(location.pathname)) setMobileOpenGroup(CLUSTER_PATHS.overview)
+              else if (cateringClusterActive(location.pathname)) setMobileOpenGroup(CATERING_PATHS.overview)
               setMobileOpen(true)
             }}
             aria-label="Open menu"
@@ -211,7 +231,7 @@ export default function Navbar() {
         open={mobileOpen}
         onOpenChange={(open) => {
           setMobileOpen(open)
-          if (!open) setMobileClusterOpen(false)
+          if (!open) setMobileOpenGroup('')
         }}
       >
         <SheetContent
@@ -257,16 +277,17 @@ export default function Navbar() {
                       </li>
                     )
                   }
-                  const active = clusterActive(location.pathname)
+                  const active = itemIsActive(location.pathname, link)
+                  const groupId = link.href
                   return (
                     <li key={link.href}>
                       <Accordion
                         type="single"
                         collapsible
-                        value={mobileClusterOpen ? 'private-chef' : ''}
-                        onValueChange={(v) => setMobileClusterOpen(v === 'private-chef')}
+                        value={mobileOpenGroup === groupId ? groupId : ''}
+                        onValueChange={(v) => setMobileOpenGroup(v)}
                       >
-                        <AccordionItem value="private-chef" className="border-b-0">
+                        <AccordionItem value={groupId} className="border-b-0">
                           <AccordionTrigger
                             className={cn(
                               'min-h-[56px] items-center rounded-none border-l-2 px-4 py-0 font-playfair text-[22px] leading-none hover:no-underline focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-gold focus-visible:border-l-2 [&>svg]:size-5 [&>svg]:translate-y-0 [&>svg]:text-gold',
@@ -279,9 +300,12 @@ export default function Navbar() {
                             <ul className="bg-white/[0.03]">
                               {link.children!.map((child) => {
                                 const Icon = CLUSTER_ICONS[child.href as keyof typeof CLUSTER_ICONS]
-                                const childActive = normalizePath(location.pathname) === child.href
+                                const [childPath, childHash] = child.href.split('#')
+                                const childActive = childHash
+                                  ? normalizePath(location.pathname) === childPath && location.hash === `#${childHash}`
+                                  : normalizePath(location.pathname) === childPath
                                 return (
-                                  <li key={child.href}>
+                                  <li key={child.href + child.label}>
                                     <Link
                                       to={child.href}
                                       onClick={() => setMobileOpen(false)}
@@ -291,7 +315,7 @@ export default function Navbar() {
                                         childActive ? 'border-gold' : 'border-transparent',
                                       )}
                                     >
-                                      {Icon && (
+                                      {link.mega === 'private-chef' && Icon && (
                                         <span className="flex h-9 w-9 flex-shrink-0 items-center justify-center border border-gold/35 text-gold">
                                           <Icon size={18} strokeWidth={1.5} aria-hidden />
                                         </span>

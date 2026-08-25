@@ -53,7 +53,7 @@ const PRIORITY_RULES: { pattern: RegExp; priority: number; changefreq: string; s
   { pattern: /^\/$/, priority: 1.0, changefreq: 'weekly', section: 'Core hubs' },
   { pattern: /^\/catering-dubai$/, priority: 1.0, changefreq: 'weekly', section: 'Core hubs' },
   { pattern: /^\/private-chef-dubai$/, priority: 1.0, changefreq: 'weekly', section: 'Core hubs' },
-  { pattern: /^\/private-chef-dubai\/(how-it-works|our-chefs|quality-training|privacy-security|pricing)$/, priority: 0.8, changefreq: 'weekly', section: 'Private chef cluster' },
+  { pattern: /^\/private-chef-dubai\/(how-it-works|our-chefs|quality-training|privacy-security|pricing|how-your-plan-works)$/, priority: 0.8, changefreq: 'weekly', section: 'Private chef cluster' },
   { pattern: /^\/(catering-packages-dubai|private-chef-prices-dubai|luxury-dining-experiences|events|corporate|villas-private-residences|yachts|party-catering-dubai)$/, priority: 0.9, changefreq: 'weekly', section: 'Core hubs' },
   { pattern: /^\/locations$/, priority: 0.9, changefreq: 'weekly', section: 'Locations' },
   { pattern: /^\/weekly-meal-prep-dubai$/, priority: 0.9, changefreq: 'weekly', section: 'Bluebook trust & service pages' },

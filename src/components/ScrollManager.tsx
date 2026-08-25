@@ -27,20 +27,21 @@ import { armRevealFailsafe } from '../lib/revealFailsafe'
  */
 export default function ScrollManager() {
   useScrollTrigger()
-  const { pathname } = useLocation()
+  const { pathname, hash } = useLocation()
 
   useEffect(() => {
-    window.scrollTo(0, 0)
-
-    // Let the new route paint before measuring, otherwise refresh() reads the
-    // outgoing page's layout.
     const raf = requestAnimationFrame(() => {
+      if (hash) {
+        document.getElementById(hash.slice(1))?.scrollIntoView()
+      } else {
+        window.scrollTo(0, 0)
+      }
       ScrollTrigger.refresh()
       armRevealFailsafe()
     })
 
     return () => cancelAnimationFrame(raf)
-  }, [pathname])
+  }, [pathname, hash])
 
   return null
 }
