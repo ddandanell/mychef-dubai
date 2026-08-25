@@ -118,7 +118,7 @@ export default function HowItWorks() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="How It Works"
+        title="How to Book a Private Chef in Dubai"
         description="See how easy it is to book a private chef in Dubai. From your first message to the final course — a seamless, bespoke experience every time."
         canonicalPath="/how-it-works"
         ogImage="/images/how-it-works-dubai-hero.webp"
@@ -131,7 +131,7 @@ export default function HowItWorks() {
       {/* Section 1: Hero */}
       <PageHero
         eyebrow="THE EXPERIENCE"
-        title="Simple. Seamless. Extraordinary."
+        title="How to Book a Private Chef in Dubai"
         subtitle="Tell us your occasion and we will bring you a vetted chef within 24 hours. From your first message to the final course — every step is designed and coordinated with care."
         image="/images/how-it-works-dubai-hero.webp"
         imageAlt="How myCHEF works"

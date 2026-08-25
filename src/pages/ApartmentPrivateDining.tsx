@@ -177,7 +177,7 @@ export default function ApartmentPrivateDining() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Apartment Private Dining Dubai | 2–8 Guests | myCHEF"
+        title="Private Chef for Apartment Dubai | Dining for 2–8 | myCHEF"
         description="Restaurant-quality private dining in your Dubai apartment. A private chef shops, cooks, serves, and cleans for intimate groups of 2–8 guests. Get a quote."
         canonicalPath={CANONICAL_PATH}
         ogImage="/service-private-chef.webp"
