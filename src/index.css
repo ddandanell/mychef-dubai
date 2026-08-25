@@ -20,8 +20,8 @@
     --font-body: "Manrope", system-ui, Arial, sans-serif;
     /* Mobile-first: 40px on phones, ~60px on laptops, 72px cap on large screens.
        Previous 100px desktop ceiling made every hero feel oversized on computer. */
-    --hero-title-size: clamp(2.5rem, 1.15rem + 4vw, 4.5rem);
-    --hero-title-line: 1;
+    --hero-title-size: clamp(2.125rem, 1.1rem + 3.1vw, 3.5rem);
+    --hero-title-line: 1.12;
     --hero-body-size: clamp(1.0625rem, 1.05vw + 0.7rem, 1.125rem);
     --hero-body-line: 1.55;
 
@@ -216,11 +216,13 @@
   .hero-title {
     font-family: var(--font-display);
     font-size: var(--hero-title-size);
-    font-weight: 500;
+    font-weight: 400;
     line-height: var(--hero-title-line);
-    letter-spacing: -0.03em;
+    /* Cormorant is a classical face: it wants air, not the tight negative
+       tracking a modern sans would take. */
+    letter-spacing: -0.005em;
     /* Readability over photography — barely perceptible, never a glow or outline. */
-    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.28), 0 10px 30px rgba(0, 0, 0, 0.12);
+    text-shadow: 0 1px 6px rgba(0, 0, 0, 0.26), 0 8px 26px rgba(0, 0, 0, 0.10);
   }
   /* Quiet hero variant — eyebrow → serif H1 → one description → two restrained buttons. */
   .hero-eyebrow--quiet {

@@ -29,11 +29,27 @@ export default function HeroSection() {
 
   // Mount the intro video only AFTER the window 'load' event, then on idle — so it
   // never slows the initial page start. It plays twice, then fades to the poster.
+  //
+  // Waiting for idle is not enough on its own. The file is ~1.2 MB, and on a
+  // throttled mobile connection it became the LCP element at 13.8s while the
+  // 72 KB poster it sits on top of was still queued behind it. On anything slow
+  // or metered the video arrives long after the visitor has scrolled past, so
+  // it costs the whole page start and delivers nothing. Skip it there.
   useEffect(() => {
     let done = false
+    const skipVideo = () => {
+      const nav = navigator as Navigator & {
+        connection?: { saveData?: boolean; effectiveType?: string }
+      }
+      const c = nav.connection
+      if (c?.saveData) return true
+      if (c?.effectiveType && ['slow-2g', '2g', '3g'].includes(c.effectiveType)) return true
+      return window.matchMedia?.('(prefers-reduced-motion: reduce)').matches ?? false
+    }
     const mount = () => {
       if (done) return
       done = true
+      if (skipVideo()) return
       const w = window as Window & { requestIdleCallback?: (cb: () => void, o?: { timeout: number }) => number }
       if (w.requestIdleCallback) w.requestIdleCallback(() => setLoadVideo(true), { timeout: 2000 })
       else window.setTimeout(() => setLoadVideo(true), 600)
@@ -194,7 +210,7 @@ export default function HeroSection() {
             autoPlay
             muted
             playsInline
-            preload="auto"
+            preload="metadata"
             poster="/images/home-hero.webp"
             aria-hidden="true"
             onCanPlay={() => { setVideoVisible(true); videoRef.current?.play().catch(() => {}) }}
