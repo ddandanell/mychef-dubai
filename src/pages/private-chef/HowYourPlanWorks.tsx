@@ -15,7 +15,7 @@ const PATH = CLUSTER_PATHS.planTerms
 const hero = photos[3]
 const TITLE = 'How Your Private Chef Plan Works | myCHEF'
 const DESCRIPTION =
-  'Every rule that shapes a myCHEF private chef plan in Dubai, in plain English: groceries, guests, rescheduling, billing, replacement, access, children, and what happens when something goes wrong.'
+  'Every rule that shapes a myCHEF private chef plan in Dubai, in plain English: groceries, guests, rescheduling, billing, replacement and access.'
 
 const schema = {
   '@context': 'https://schema.org',

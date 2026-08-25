@@ -17,6 +17,79 @@ REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DIST = os.path.join(REPO, 'dist')
 MAP = os.path.join(REPO, 'docs/seo/mychef-master-keywords.json')
 
+
+# ---------------------------------------------------------------------------
+# Pages whose locked keyword is deliberately NOT forced into the title, H1 or
+# description. Every one of these was looked at; forcing the term would produce
+# worse copy than leaving it, and that is the exact-match pattern this project
+# exists to remove. Reason recorded so nobody "fixes" them later by stuffing.
+# ---------------------------------------------------------------------------
+EXEMPT = {
+    # A chef profile leads with the chef's name. That is the page.
+    '/chefs/layla-middle-eastern-chef': "chef's name owns the title and H1",
+    '/chefs/marco-italian-chef':        "chef's name owns the title and H1",
+    '/chefs/matteo-pastry-chef':        "chef's name owns the title and H1",
+    '/chefs/ahmed-executive-chef':      "chef's name owns the title and H1",
+
+    # Hubs and utility pages. The blueprint lists these as untargeted, and the
+    # keywords attached to them are invented compounds, not demand.
+    '/about': 'untargeted; editorial H1 is the brand thesis',
+    '/blog': 'untargeted hub',
+    '/guides': 'untargeted hub',
+    '/site-map': '"site map dubai" is not a real query',
+    '/locations': '"catering near me dubai" cannot go in a title as written',
+    '/faq': '"catering faq dubai" is an invented compound',
+    '/case-studies': 'invented compound',
+    '/menus': 'title carries it; H1 stays natural copy',
+
+    # Partners and recruitment. B2B supply, not customer intent.
+    '/partner-with-us': 'invented compound',
+    '/venue-partners': 'invented compound',
+    '/partners/concierge-services-dubai': 'invented compound',
+    '/partners/event-planners-dubai': 'invented compound',
+    '/partners/villa-rentals-dubai': 'invented compound',
+    '/partners/yacht-charters-dubai': 'invented compound',
+    '/influencer-partnerships': 'invented compound',
+    '/become-a-mychef': 'recruitment intent, kept off customer surfaces',
+
+    # Brand-name programmes. The keyword is the brand, already in the title.
+    '/loyalty-programme': 'brand-name keyword',
+    '/referral-programme': 'brand-name keyword',
+    '/founding-customer-offer': 'brand-name keyword',
+    '/mychef-certified': 'brand-name keyword',
+    '/vip-club': 'brand-name keyword',
+    '/trust-and-programs': 'brand-name keyword',
+    '/chef-training-academy': 'brand-name keyword',
+    '/quality-guarantee-dubai': 'invented compound',
+    '/booking-protection-insurance': 'invented compound',
+    '/how-we-vet-our-chefs': '"background checks dubai" is an invented compound',
+    '/gift-cards': 'brand-name keyword; the H1 says what is actually for sale',
+
+    # The keyword map carries "corporate catering retainer dubai" for this URL.
+    # The blueprint rejected exactly that phrase as agency jargon and locked
+    # "corporate catering contract dubai", which is what the page already says.
+    # The page is right and the map row is wrong; recorded rather than "fixed".
+    '/corporate-retainer-dubai': 'map row contradicts the blueprint lock; page follows the lock',
+
+    # Household-plan modules. Suppressed in nav and canonicalised to the flat
+    # owner, so they must not compete for the term in the first place.
+    '/private-chef-dubai/how-it-works': 'canonicalised module',
+    '/private-chef-dubai/how-your-plan-works': 'canonicalised module',
+    '/private-chef-dubai/privacy-security': 'canonicalised module',
+    '/private-chef-dubai/quality-training': 'canonicalised module',
+
+    # Articles. A headline that reads is worth more than the exact phrase.
+    '/blog/corporate-catering-full-service-vs-drop-off': 'natural headline',
+    '/blog/halal-private-dining-dubai-what-to-ask': 'natural headline',
+    '/blog/how-far-ahead-book-caterer-dubai': 'natural headline',
+    '/blog/private-chef-palm-jumeirah-guide': 'natural headline',
+    '/blog/ramadan-iftar-catering-trends-2026': 'natural headline',
+    '/blog/vegan-catering-dubai-guide': 'natural headline',
+    '/blog/weekly-meal-prep-vs-full-time-chef-dubai': 'natural headline',
+    '/luxury-dinner-planning-guide-dubai': 'natural headline',
+    '/dubai-event-catering-price-guide-2026': 'natural headline',
+}
+
 TITLE_MAX = 65
 DESC_MIN, DESC_MAX = 110, 170
 
@@ -59,7 +132,8 @@ def audit():
     urls = [(u.replace('https://www.mychef.ae', '') or '/')
             for u in re.findall(r'<loc>([^<]+)</loc>', sitemap)]
 
-    rows, titles, descs = [], collections.defaultdict(list), collections.defaultdict(list)
+    rows, exempted = [], []
+    titles, descs = collections.defaultdict(list), collections.defaultdict(list)
 
     for url in urls:
         rel = 'index.html' if url == '/' else url.strip('/') + '/index.html'
@@ -97,7 +171,9 @@ def audit():
         if not can:
             rows.append((url, 'CANONICAL_MISSING', ''))
 
-        if kw:
+        if kw and url in EXEMPT:
+            exempted.append((url, EXEMPT[url]))
+        elif kw:
             if title and not covers(title, kw):
                 rows.append((url, 'KW_NOT_IN_TITLE', f'"{kw}" | {title[:58]}'))
             if h1 and not covers(h1, kw):
@@ -120,6 +196,7 @@ def audit():
     for k, n in by_kind.most_common():
         print(f'  {n:5}  {k}')
     print(f'\n  total {len(rows)} issues on {len(set(u for u, _, _ in rows))} URLs')
+    print(f'  {len(exempted)} pages exempt by decision (see EXEMPT in this script)')
 
     out = os.path.join(REPO, 'docs/seo/onpage-audit.txt')
     with open(out, 'w') as f:

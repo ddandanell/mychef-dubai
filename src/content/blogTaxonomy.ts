@@ -228,7 +228,7 @@ export const BLOG_HUBS: BlogHub[] = [
   {
     "slug": "private-chef",
     "title": "Private Chef Guides",
-    "description": "Hiring, pricing, and getting the most from a private chef in Dubai.",
+    "description": "Hiring a private chef in Dubai: what it costs, how vetting and booking work, and how a chef at home compares to dining out.",
     "pillar": {
       "label": "Private Chef in Dubai",
       "url": "/private-chef-dubai"
@@ -238,7 +238,7 @@ export const BLOG_HUBS: BlogHub[] = [
   {
     "slug": "corporate",
     "title": "Corporate & Team Catering",
-    "description": "Office lunches, team dinners, galas and the formats that fit each.",
+    "description": "Corporate catering in Dubai: office lunches, team dinners and galas, drop-off against full service, and the format that fits each.",
     "pillar": {
       "label": "Corporate Catering Dubai",
       "url": "/corporate"
@@ -248,7 +248,7 @@ export const BLOG_HUBS: BlogHub[] = [
   {
     "slug": "celebrations",
     "title": "Weddings, Parties & Celebrations",
-    "description": "Weddings, birthdays, New Year and dinner parties, planned properly.",
+    "description": "Menus, budgets and formats for weddings, birthdays, New Year and dinner parties in Dubai, with the planning detail behind each.",
     "pillar": {
       "label": "Wedding Catering Dubai",
       "url": "/wedding-catering-dubai"
@@ -258,7 +258,7 @@ export const BLOG_HUBS: BlogHub[] = [
   {
     "slug": "seasonal",
     "title": "Ramadan & Seasonal Dining",
-    "description": "Iftar at home and the seasonal calendar of Dubai entertaining.",
+    "description": "Hosting through Ramadan and the Dubai seasonal calendar: iftar and suhoor menus, timing, guest numbers and what books out early.",
     "pillar": {
       "label": "Iftar Catering Dubai",
       "url": "/iftar-catering-dubai"
@@ -268,7 +268,7 @@ export const BLOG_HUBS: BlogHub[] = [
   {
     "slug": "outdoor",
     "title": "Outdoor & Destination Dining",
-    "description": "Desert dinners, yacht spreads and dining beyond the villa.",
+    "description": "Dining beyond the villa in Dubai: desert dinners, yacht spreads and beach setups, and what changes once the kitchen is not fixed.",
     "pillar": {
       "label": "Desert Dining Dubai",
       "url": "/desert-dining-dubai"
@@ -278,7 +278,7 @@ export const BLOG_HUBS: BlogHub[] = [
   {
     "slug": "menus-dietary",
     "title": "Menus, Brunch & Dietary",
-    "description": "Brunch, plant-based, halal and how to plan a menu that fits everyone.",
+    "description": "Planning a Dubai menu that fits everyone: brunch, plant-based, halal and allergy-aware, and how to brief a chef on all of it.",
     "pillar": {
       "label": "Our Menus",
       "url": "/menus"

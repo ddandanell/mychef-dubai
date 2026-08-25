@@ -175,7 +175,7 @@ export default function ChefProfile({ chef }: ChefProfileProps) {
     <>
       <SEO
         title={`${chef.name} | ${chef.title}`}
-        description={`Meet ${chef.name}, independent partner ${chef.title} in the myCHEF Dubai network. ${chef.experience} of ${chef.cuisine} expertise for private dining, villas, yachts, and events across Dubai.`}
+        description={`${chef.name}, ${chef.title} in the myCHEF network. ${chef.experience} of ${chef.cuisine} for private dining in Dubai villas, yachts and homes.`}
         canonicalPath={chef.slug}
         ogImage={chef.image}
         schema={schema as unknown as Record<string, unknown>}

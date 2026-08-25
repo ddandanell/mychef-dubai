@@ -104,7 +104,7 @@ export const CATERING_KEYWORD_LOCK = {
   primary: 'catering dubai',
   title: 'Catering Dubai | Food Only to Full Event Support | myCHEF',
   description:
-    'Catering in Dubai built around your event. Start with food delivered to the venue, or add chefs, service staff, tables and complete event support. Tell us what you are planning.',
+    'Catering in Dubai built around your event: food delivered to the venue, or chefs, staff, tables and full event support. Tell us what you are planning.',
 } as const
 
 export const CATERING_FOOTER_LINKS = [

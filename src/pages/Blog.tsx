@@ -20,7 +20,7 @@ const collectionSchema = {
   '@type': 'CollectionPage',
   name: 'myCHEF Dubai Blog',
   url: 'https://www.mychef.ae/blog',
-  description: 'Expert tips, trends, and inspiration for private dining and luxury catering in Dubai.',
+  description: 'The myCHEF Dubai blog: private chef and catering guides, real prices, menu ideas and the planning detail behind hosting well in Dubai.',
 }
 
 const breadcrumbSchema = {
@@ -58,7 +58,7 @@ export default function Blog() {
     <div ref={containerRef}>
       <SEO
         title="Blog | Private Chef & Catering Insights"
-        description="Expert tips, trends, and inspiration for private dining and luxury catering in Dubai."
+        description="The myCHEF Dubai blog: private chef and catering guides, real prices, menu ideas and the planning detail behind hosting well in Dubai."
         canonicalPath="/blog"
         ogImage="/images/mychef-dubai-blog-hero.webp"
         preloadHero="/images/mychef-dubai-blog-hero.webp"

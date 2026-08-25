@@ -10,7 +10,7 @@ const config: ServicePageConfig = {
   canonicalPath: '/farewell-catering-dubai',
   ogImage: '/service-events.webp',
   breadcrumbLabel: 'Farewell & Retirement Catering Dubai',
-  h1: 'Farewell & Retirement Catering in Dubai',
+  h1: 'Farewell & Retirement Party Catering in Dubai',
   heroSub:
     'Send off colleagues, friends and loved ones in style with farewell and retirement catering across Dubai — from office lunches and rooftop receptions to private villa parties.',
   heroImage: '/service-events.webp',

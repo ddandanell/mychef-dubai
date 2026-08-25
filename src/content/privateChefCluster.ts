@@ -207,7 +207,7 @@ export const parentSeo = {
   eyebrow: 'Private Chef Dubai',
   title: 'Private Chef Dubai | Private Chef Services for Your Home | myCHEF',
   description:
-    'Private chef Dubai for a standing household — the same chef every week, a Food Profile that travels, and backup if they are off. Private chef services from three days. Long-term plans from AED 3,000 a month.',
+    'Private chef Dubai for a standing household: the same chef weekly, a Food Profile that travels, backup if they are off. Plans from AED 3,000 a month.',
   h1: 'Your chef. Your household. Already understood.',
   subtitle:
     'A managed private chef service built around how your home actually eats. One Food Profile, consistent standards, and backup handled for you.',
@@ -238,7 +238,7 @@ export const childSeo = {
   quality: {
     title: 'Chef Quality & Training | Healthy Food Standards Dubai | myCHEF',
     description:
-      'How myCHEF keeps chef quality stable in Dubai homes: what we measure before placement, healthy food and dietary standards, feedback after service, and when the match should change.',
+      'How myCHEF keeps chef quality stable in Dubai homes: what we measure before placement, dietary standards, and when the match should change.',
     h1: 'Good on day one is not enough.',
     subtitle:
       'The real test is consistency. We review the food, service and household fit over time, then coach, adjust or change the match when something is not working.',
@@ -248,7 +248,7 @@ export const childSeo = {
   privacy: {
     title: 'Private Chef for Family in Dubai | Privacy & Security | myCHEF',
     description:
-      'Hiring a private chef for your family in Dubai: who enters your home, what myCHEF checks, how discretion works, and how household access is handled when an assignment ends.',
+      'Hiring a private chef for your family in Dubai: who enters your home, what myCHEF checks, and how discretion and household access are handled.',
     h1: 'Your home changes the standard.',
     subtitle:
       'A private chef works inside your personal space. That is why identity, references, right-to-work checks and ongoing management are part of the service, not an afterthought.',
