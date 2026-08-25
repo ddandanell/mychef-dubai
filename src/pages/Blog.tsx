@@ -74,7 +74,7 @@ export default function Blog() {
         imageAlt="Private chef evening in a Dubai villa: the host stays seated with guests while the culinary team finishes service"
         imageWidth={1920}
         imageHeight={1080}
-        cta={{ label: 'Request a Custom Quote', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=blog' }}
+        cta={{ label: 'Request a Custom Quote', href: '/inquiry' }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Blog' }]}
         minHeight="full"
@@ -182,7 +182,7 @@ export default function Blog() {
             Whether you are planning a villa dinner, yacht cruise, or corporate event, we will design a menu and service plan tailored to your occasion.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=blog" className="btn-primary">
+            <Link to="/inquiry" className="btn-primary">
               Request My Custom Quote
             </Link>
             <a

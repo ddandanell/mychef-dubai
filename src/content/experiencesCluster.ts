@@ -161,7 +161,7 @@ export const experiencesHubSeo = {
 } as const
 
 export const EXPERIENCES_INQUIRY_HREF =
-  '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=dining-experiences'
+  '/inquiry'
 
 export const EXPERIENCES_WHATSAPP_MESSAGE =
   "Hi myCHEF, I'd like to plan a private dining experience"

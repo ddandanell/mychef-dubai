@@ -59,7 +59,7 @@ const nyeFormats = [
     icon: Wine,
     title: 'Midnight Toast & Bar',
     description: 'Bartenders, mocktails, bubbles, and a structured midnight toast to mark the moment in style.',
-    link: '/party-catering-dubai',
+    link: '/private-party-catering-dubai',
   },
   {
     icon: UtensilsCrossed,
@@ -154,7 +154,7 @@ const relatedServices = [
     title: 'Party Catering',
     description: 'fully-coordinated catering for celebrations of every size, from intimate dinners to large villa parties.',
     image: '/service-events.webp',
-    link: '/party-catering-dubai',
+    link: '/private-party-catering-dubai',
   },
   {
     title: 'Yacht Catering',
@@ -304,7 +304,7 @@ export default function NewYearCatering() {
             Gala dinners, yacht countdowns, villa parties, and midnight toast service across Dubai. Custom menus and full-service hospitality for the biggest night of the year.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=new-year-catering-dubai" className="btn-primary opacity-0 translate-y-4 nye-hero-cta">Get a New Year Quote</Link>
+            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 nye-hero-cta">Get a New Year Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -485,7 +485,7 @@ export default function NewYearCatering() {
           <div className="flex flex-wrap items-center justify-center gap-3">
             <Link to="/events" className="px-5 py-2.5 border border-gold/30 text-gold font-inter text-sm hover:bg-gold hover:text-black transition-colors rounded-sm">Events</Link>
             <Link to="/catering-dubai" className="px-5 py-2.5 border border-gold/30 text-gold font-inter text-sm hover:bg-gold hover:text-black transition-colors rounded-sm">Catering Dubai</Link>
-            <Link to="/party-catering-dubai" className="px-5 py-2.5 border border-gold/30 text-gold font-inter text-sm hover:bg-gold hover:text-black transition-colors rounded-sm">Party Catering</Link>
+            <Link to="/private-party-catering-dubai" className="px-5 py-2.5 border border-gold/30 text-gold font-inter text-sm hover:bg-gold hover:text-black transition-colors rounded-sm">Party Catering</Link>
             <Link to="/yachts" className="px-5 py-2.5 border border-gold/30 text-gold font-inter text-sm hover:bg-gold hover:text-black transition-colors rounded-sm">Yacht Catering</Link>
             <Link to="/luxury-dining-experiences" className="px-5 py-2.5 border border-gold/30 text-gold font-inter text-sm hover:bg-gold hover:text-black transition-colors rounded-sm">Luxury Dining</Link>
             <Link to="/canape-catering-dubai" className="px-5 py-2.5 border border-gold/30 text-gold font-inter text-sm hover:bg-gold hover:text-black transition-colors rounded-sm">Canapé Catering</Link>
@@ -569,7 +569,7 @@ export default function NewYearCatering() {
             Tell us about your venue, guest count, and vision. We will design a menu, service plan, and midnight countdown experience that lets you ring in the new year without a worry.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=new-year-catering-dubai" className="btn-primary">Get a New Year Quote</Link>
+            <Link to="/inquiry" className="btn-primary">Get a New Year Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

@@ -106,7 +106,7 @@ export default function HowItWorksSection() {
 
         {/* CTA — sits with the argument, not centered beneath it */}
         <div className="flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-6">
-          <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=home" className="btn-primary focus-visible:ring-offset-cream">
+          <Link to="/inquiry" className="btn-primary focus-visible:ring-offset-cream">
             Request a Proposal
           </Link>
           <p className="font-inter text-body-sm text-gray-500">The price is agreed in the proposal, before the day.</p>

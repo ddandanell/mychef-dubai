@@ -93,7 +93,7 @@ export function cateringClusterActive(pathname: string) {
 }
 
 export const CATERING_INQUIRY_HREF =
-  '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=catering-dubai'
+  '/inquiry'
 
 export const CATERING_WHATSAPP_NUMBER = '971551744849'
 export const CATERING_WHATSAPP_MESSAGE =

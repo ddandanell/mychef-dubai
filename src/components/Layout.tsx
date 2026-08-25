@@ -4,7 +4,6 @@ import Navbar from './Navbar'
 import Footer from './Footer'
 import SiloSection from './SiloSection'
 import FloatingChefChat from './FloatingChefChat'
-import SeoContent from './SeoContent'
 import SeoHead from './SeoHead'
 import ScrollManager from './ScrollManager'
 import { WhatsAppMessageProvider } from '@/context/WhatsAppMessageContext'
@@ -31,7 +30,6 @@ export default function Layout({ children }: LayoutProps) {
         <main className="flex-1 overflow-x-clip">
           <PageEnter>
             {children}
-            <SeoContent />
           </PageEnter>
         </main>
         <SiloSection />

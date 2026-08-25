@@ -195,7 +195,7 @@ export default function ServiceLandingPage({ config }: Props) {
     { scope: containerRef }
   )
 
-  const inquiryLink = `/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${config.slug}`
+  const inquiryLink = '/inquiry'
 
   return (
     <div ref={containerRef}>

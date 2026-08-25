@@ -18,13 +18,11 @@ import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { SectionLabel } from '../components/system'
 
-
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to book a tourist villa chef package (via mychef.ae/tourist-villa-chef-dubai)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 const CANONICAL_PATH = '/tourist-villa-chef-dubai'
-const CAMPAIGN = 'tourist-villa-chef'
 
 const packages = [
   {
@@ -228,7 +226,7 @@ export default function TouristVillaChef() {
             Multi-day villa chef packages for visitors who want restaurant-quality dining without leaving their luxury rental. Themed dinners, Arabic feast finale, and zero logistics.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 tvc-hero-cta">Plan My Villa Chef Package</Link>
+            <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 tvc-hero-cta">Plan My Villa Chef Package</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -304,7 +302,7 @@ export default function TouristVillaChef() {
                   ))}
                 </ul>
                 <Link
-                  to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`}
+                  to={`/inquiry`}
                   className={`block text-center w-full py-3 font-inter text-sm uppercase tracking-wider transition-colors ${pkg.highlighted ? 'bg-gold text-black hover:bg-gold-light' : 'bg-black text-white hover:bg-charcoal'}`}
                 >
                   Request This Package
@@ -403,7 +401,7 @@ export default function TouristVillaChef() {
             Share your villa location, dates, and group size. We will design a multi-day chef package that turns your Dubai stay into a culinary journey.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Plan My Villa Chef Package</Link>
+            <Link to={`/inquiry`} className="btn-primary">Plan My Villa Chef Package</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

@@ -29,7 +29,6 @@ export const NAV_CLUSTER_ICONS: Record<string, LucideIcon> = {
   '/catering-dubai': UtensilsCrossed,
   '/buffet-catering-dubai': Salad,
   '/canape-catering-dubai': Sandwich,
-  '/finger-food-catering-dubai': Sandwich,
   '/live-cooking-stations-dubai': Flame,
   '/bbq-catering-dubai': Flame,
   '/grazing-table-dubai': GlassWater,

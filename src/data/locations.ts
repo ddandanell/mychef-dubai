@@ -983,7 +983,6 @@ const allLocations: LocationData[] = [
     relatedServices: [
       { name: 'Private Chef Dubai', path: '/private-chef-dubai' },
       { name: 'Catering Dubai', path: '/catering-dubai' },
-      { name: 'Party Catering', path: '/party-catering-dubai' },
       { name: 'Canapé Catering', path: '/canape-catering-dubai' }
     ],
     relatedEvents: [
@@ -1733,10 +1732,10 @@ const allLocations: LocationData[] = [
           'Family villa, golf and community event catering in Dubai Hills Estate.',
       },
       {
-        name: 'Mirdif',
-        slug: 'mirdif',
+        name: 'JVC',
+        slug: 'jvc',
         description:
-          'Suburban family catering and children\'s party menus in Mirdif.',
+          'Family-focused private chef and catering in Jumeirah Village Circle.',
       },
       {
         name: 'Emirates Hills',
@@ -1747,7 +1746,6 @@ const allLocations: LocationData[] = [
     ],
     relatedServices: [
       { name: 'BBQ Catering', path: '/bbq-catering-dubai' },
-      { name: 'Party Catering', path: '/party-catering-dubai' },
       { name: 'Private Chef Dubai', path: '/private-chef-dubai' },
       { name: 'Catering Dubai', path: '/catering-dubai' },
     ],
@@ -1939,7 +1937,6 @@ const allLocations: LocationData[] = [
     relatedServices: [
       { name: 'Villa Dining', path: '/villas-private-residences' },
       { name: 'BBQ Catering', path: '/bbq-catering-dubai' },
-      { name: 'Party Catering', path: '/party-catering-dubai' },
       { name: 'Private Chef Dubai', path: '/private-chef-dubai' },
     ],
     relatedEvents: [
@@ -2077,7 +2074,6 @@ const allLocations: LocationData[] = [
     relatedServices: [
       { name: "Private Chef Dubai", path: "/private-chef-dubai" },
       { name: "Catering Dubai", path: "/catering-dubai" },
-      { name: "Party Catering", path: "/party-catering-dubai" },
       { name: "Birthday Catering", path: "/birthday-catering-dubai" }
     ],
     relatedEvents: [
@@ -2532,7 +2528,7 @@ const allLocations: LocationData[] = [
     relatedServices: [
       { name: "Private Chef Dubai", path: "/private-chef-dubai" },
       { name: "Catering Dubai", path: "/catering-dubai" },
-      { name: "Party Catering", path: "/party-catering-dubai" },
+      { name: "Private Parties", path: "/private-party-catering-dubai" },
       { name: "Office Catering", path: "/office-catering-dubai" }
     ],
     relatedEvents: [
@@ -2556,5 +2552,11 @@ const allLocations: LocationData[] = [
     }
   }
 ]
+
+export const PUBLISHED_LOCATION_SLUGS = new Set(allLocations.map((location) => location.slug))
+
+export function locationPath(slug: string): string {
+  return PUBLISHED_LOCATION_SLUGS.has(slug) ? `/locations/${slug}` : '/locations'
+}
 
 export default allLocations

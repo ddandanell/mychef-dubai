@@ -68,7 +68,7 @@ const config: DietaryPageConfig = {
       Icon: Home,
       title: 'Villa Wellness Dinners',
       description: 'At-home low-carb dining for fitness retreats, birthday dinners and health-focused gatherings across Dubai.',
-      link: '/villa-catering-dubai',
+      link: '/villas-private-residences',
     },
     {
       Icon: Building,

@@ -9,6 +9,34 @@
       "main": true
     }
   },
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        }
+      ]
+    },
+    {
+      "source": "/fallback.html",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    }
+  ],
   "redirects": [
     {
       "source": "/corporate-catering-dubai",
@@ -49,20 +77,162 @@
       "source": "/private-chef-dubai/pricing",
       "destination": "/private-chef-prices-dubai",
       "statusCode": 301
+    },
+    {
+      "source": "/catering",
+      "destination": "/catering-dubai",
+      "statusCode": 301
+    },
+    {
+      "source": "/yacht-catering-dubai",
+      "destination": "/yachts",
+      "statusCode": 301
+    },
+    {
+      "source": "/villa-catering-dubai",
+      "destination": "/villas-private-residences",
+      "statusCode": 301
+    },
+    {
+      "source": "/event-catering-dubai",
+      "destination": "/events",
+      "statusCode": 301
+    },
+    {
+      "source": "/luxury-dining-dubai",
+      "destination": "/luxury-dining-experiences",
+      "statusCode": 301
+    },
+    {
+      "source": "/private-dining-dubai",
+      "destination": "/private-chef-dubai",
+      "statusCode": 301
+    },
+    {
+      "source": "/dessert-table-dubai",
+      "destination": "/dessert-table-catering-dubai",
+      "statusCode": 301
+    },
+    {
+      "source": "/live-cooking-station-dubai",
+      "destination": "/live-cooking-stations-dubai",
+      "statusCode": 301
+    },
+    {
+      "source": "/locations/jumeirah-islands",
+      "destination": "/locations",
+      "statusCode": 301
+    },
+    {
+      "source": "/locations/mirdif",
+      "destination": "/locations",
+      "statusCode": 301
+    },
+    {
+      "source": "/locations/dubai-internet-city",
+      "destination": "/locations",
+      "statusCode": 301
+    },
+    {
+      "source": "/locations/meydan",
+      "destination": "/locations",
+      "statusCode": 301
+    },
+    {
+      "source": "/locations/dubai-harbour",
+      "destination": "/locations",
+      "statusCode": 301
+    },
+    {
+      "source": "/locations/al-barari",
+      "destination": "/locations",
+      "statusCode": 301
+    },
+    {
+      "source": "/locations/dubai-media-city",
+      "destination": "/locations",
+      "statusCode": 301
+    },
+    {
+      "source": "/locations/dubai-creek-harbour",
+      "destination": "/locations",
+      "statusCode": 301
+    },
+    {
+      "source": "/locations/jumeirah-golf-estates",
+      "destination": "/locations",
+      "statusCode": 301
+    },
+    {
+      "source": "/locations/mall-of-the-emirates",
+      "destination": "/locations",
+      "statusCode": 301
+    },
+    {
+      "source": "/locations/dwtc",
+      "destination": "/locations",
+      "statusCode": 301
+    },
+    {
+      "source": "/locations/dubai-mall",
+      "destination": "/locations",
+      "statusCode": 301
+    },
+    {
+      "source": "/locations/city-walk",
+      "destination": "/locations",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/corporate-gala-dinner-downtown-dubai",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/product-launch-difc",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/family-eid-gathering-arabian-ranches",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/villa-wedding-reception-emirates-hills",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/yacht-birthday-celebration-dubai-marina",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/party-catering-dubai",
+      "destination": "/private-party-catering-dubai",
+      "statusCode": 301
+    },
+    {
+      "source": "/finger-food-catering-dubai",
+      "destination": "/canape-catering-dubai",
+      "statusCode": 301
+    },
+    {
+      "source": "/film-crew-catering-dubai",
+      "destination": "/production-catering-dubai",
+      "statusCode": 301
     }
   ],
   "rewrites": [
     {
-      "source": "/inquiry",
-      "destination": "/index.html"
-    },
-    {
-      "source": "/thank-you",
-      "destination": "/index.html"
-    },
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
+      "source": "/((?!.*\\.).*)",
+      "destination": "/fallback.html"
     }
   ]
 }

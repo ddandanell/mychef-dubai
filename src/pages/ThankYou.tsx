@@ -98,7 +98,7 @@ export default function ThankYou() {
             <p className="font-inter text-body text-gray-400 leading-relaxed mb-6">
               Refer a friend to myCHEF Dubai and you will both receive AED 100 — them off their first booking, you as credit towards your next experience.
             </p>
-            <Link to="/referral-programme?utm_source=mychef.ae&utm_medium=thank_you_banner&utm_campaign=referral-programme" className="btn-primary inline-flex items-center gap-2">
+            <Link to="/referral-programme" className="btn-primary inline-flex items-center gap-2">
               Join the Referral Programme <ChevronRight size={16} />
             </Link>
           </div>

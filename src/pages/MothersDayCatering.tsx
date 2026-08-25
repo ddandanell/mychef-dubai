@@ -61,13 +61,13 @@ const config: OccasionPageConfig = {
       Icon: Gift,
       title: 'Surprise Celebration Setup',
       description: 'We coordinate timing, flowers and table styling so the moment she walks in feels instantly special.',
-      link: '/party-catering-dubai',
+      link: '/private-party-catering-dubai',
     },
     {
       Icon: Building,
       title: 'Venue & Restaurant-Style Dining',
       description: 'Catering delivered to a private venue, clubhouse or restaurant space for larger multi-generational gatherings.',
-      link: '/event-catering-dubai',
+      link: '/events',
     },
     {
       Icon: Heart,

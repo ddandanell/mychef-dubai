@@ -195,7 +195,7 @@ export default function ReferralProgramme() {
               <Phone size={16} />
               Join on WhatsApp
             </a>
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=referral-programme" className="btn-secondary">
+            <Link to="/inquiry" className="btn-secondary">
               Send an Inquiry
             </Link>
           </div>

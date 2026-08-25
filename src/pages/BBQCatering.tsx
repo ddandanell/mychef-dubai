@@ -3,6 +3,7 @@ import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
+import { locationPath } from '@/data/locations'
 import {
   Flame,
   Beef,
@@ -39,7 +40,7 @@ const bbqFormats = [
     icon: Beef,
     title: 'Premium Meat Selection',
     description: 'Aged steaks, lamb chops, marinated chicken, and gourmet burgers, sourced from trusted suppliers and grilled over open flame for deep, smoky flavour.',
-    link: '/party-catering-dubai',
+    link: '/private-party-catering-dubai',
   },
   {
     icon: Fish,
@@ -63,7 +64,7 @@ const bbqFormats = [
     icon: Users,
     title: 'Sharing-Style Feasts',
     description: 'Grilled platters, mezze, salads, and sides served family-style for a warm, convivial atmosphere that brings guests together around the table.',
-    link: '/party-catering-dubai',
+    link: '/grazing-table-dubai',
   },
 ]
 
@@ -184,7 +185,7 @@ const relatedServices = [
     title: 'Party Catering',
     description: 'Bespoke menus, styling, and service for celebrations of every kind.',
     image: '/service-villa.webp',
-    link: '/party-catering-dubai',
+    link: '/private-party-catering-dubai',
   },
   {
     title: "Father's Day Catering",
@@ -322,7 +323,7 @@ export default function BBQCatering() {
             partner-chef-led grills, premium meats, and fresh seafood cooked live at your villa, garden, beach, or yacht — the theatre and aroma of open-flame cooking with flawless full service across Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=bbq-catering-dubai" className="btn-primary opacity-0 translate-y-4 bbq-hero-cta">Get a Tailored BBQ Quote</Link>
+            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 bbq-hero-cta">Get a Tailored BBQ Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -473,7 +474,7 @@ export default function BBQCatering() {
             {locations.map((loc) => (
               <Link
                 key={loc.slug}
-                to={`/locations/${loc.slug}`}
+                to={locationPath(loc.slug)}
                 className="bbq-loc-item flex items-center gap-2 font-inter text-sm text-gray-400 hover:text-gold transition-colors opacity-0"
               >
                 <span className="w-1.5 h-1.5 rounded-full bg-gold flex-shrink-0" />
@@ -530,7 +531,7 @@ export default function BBQCatering() {
             Tell us about your gathering and we'll design a grill menu, sides, and service plan that fits it perfectly.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=bbq-catering-dubai" className="btn-primary">Get a Tailored BBQ Quote</Link>
+            <Link to="/inquiry" className="btn-primary">Get a Tailored BBQ Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

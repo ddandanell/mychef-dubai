@@ -10,6 +10,12 @@ import BlogFigure from './BlogFigure'
 
 const WHATSAPP_LINK = 'https://wa.me/971551744849'
 const SITE = 'https://www.mychef.ae'
+
+declare global {
+  interface Window {
+    __SEO__?: { path: string; data: SeoPage }
+  }
+}
 // Max in-body contextual links per page, so linking stays natural and un-spammy.
 const LINK_BUDGET = 8
 

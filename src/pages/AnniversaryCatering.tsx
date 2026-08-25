@@ -3,6 +3,7 @@ import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
+import { locationPath } from '@/data/locations'
 import {
   Heart,
   ChefHat,
@@ -313,7 +314,7 @@ export default function AnniversaryCatering() {
             Romantic private-chef dinners at home, multi-course tasting menus, and celebration desserts. Intimate anniversary dining brought to your villa or home across Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=anniversary-catering-dubai" className="btn-primary opacity-0 translate-y-4 an-hero-cta">Plan My Anniversary</Link>
+            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 an-hero-cta">Plan My Anniversary</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -346,7 +347,7 @@ export default function AnniversaryCatering() {
             or{' '}
             <Link to="/proposal-dinner-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">proposal dinner Dubai</Link>{' '}
             options, or request a{' '}
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=anniversary-catering-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">Plan My Anniversary</Link>.
+            <Link to="/inquiry" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">Plan My Anniversary</Link>.
           </p>
         </div>
       </section>
@@ -471,7 +472,7 @@ export default function AnniversaryCatering() {
             {locations.map((loc) => (
               <Link
                 key={loc.slug}
-                to={`/locations/${loc.slug}`}
+                to={locationPath(loc.slug)}
                 className="an-loc-item flex items-center gap-2 font-inter text-sm text-gray-400 hover:text-gold transition-colors opacity-0"
               >
                 <span className="w-1.5 h-1.5 rounded-full bg-gold flex-shrink-0" />
@@ -532,7 +533,7 @@ export default function AnniversaryCatering() {
             Share the date and your tastes — we will bring the chef, the menu, and the celebration to your table.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=anniversary-catering-dubai" className="btn-primary">Plan My Anniversary</Link>
+            <Link to="/inquiry" className="btn-primary">Plan My Anniversary</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

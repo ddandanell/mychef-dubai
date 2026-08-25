@@ -73,7 +73,7 @@ const config: DietaryPageConfig = {
       Icon: Home,
       title: 'Villa Dairy-Free Dining',
       description: 'At-home dairy-free dining across Dubai’s premium neighbourhoods, cooked and served on-site with full styling.',
-      link: '/villa-catering-dubai',
+      link: '/villas-private-residences',
     },
     {
       Icon: Building,

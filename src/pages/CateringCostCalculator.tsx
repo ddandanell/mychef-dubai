@@ -187,7 +187,7 @@ export default function CateringCostCalculator() {
               </div>
 
               <Link
-                to="/inquiry?utm_source=mychef.ae&utm_medium=calculator&utm_campaign=cost-calculator"
+                to="/inquiry"
                 className="btn-primary inline-flex items-center gap-2 w-full md:w-auto justify-center"
               >
                 Get My Exact Quote <ArrowRight size={16} />
@@ -254,7 +254,7 @@ export default function CateringCostCalculator() {
             Tell us about your event and we will craft a bespoke proposal tailored to your vision and budget.
           </p>
           <Link
-            to="/inquiry?utm_source=mychef.ae&utm_medium=calculator_cta&utm_campaign=cost-calculator"
+            to="/inquiry"
             className="btn-primary inline-flex items-center gap-2"
           >
             Get a Tailored Quote <ArrowRight size={16} />

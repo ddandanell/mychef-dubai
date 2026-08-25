@@ -45,7 +45,7 @@ export default function ChefProfile({ chef }: ChefProfileProps) {
   const detailsRef = useRef<HTMLDivElement>(null)
   const ctaRef = useRef<HTMLDivElement>(null)
 
-  const inquiryLink = `/inquiry?utm_source=mychef.ae&utm_medium=chef_profile&utm_campaign=${chef.slug.replace('/chefs/', '')}`
+  const inquiryLink = `/inquiry'/chefs/', '')}`
   const whatsappMessage = encodeURIComponent(
     `Hi myCHEF Dubai, I would like to inquire about Chef ${chef.name} (via mychef.ae${chef.slug})`
   )

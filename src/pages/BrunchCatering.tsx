@@ -3,6 +3,7 @@ import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
+import { locationPath } from '@/data/locations'
 import {
   Sun,
   Coffee,
@@ -50,7 +51,7 @@ const brunchServices = [
     icon: Egg,
     title: 'Celebration Brunch',
     description: 'Birthday brunches, farewell mornings, and special-occasion breakfast parties with customised menus.',
-    link: '/party-catering-dubai',
+    link: '/private-party-catering-dubai',
   },
 ]
 
@@ -328,7 +329,7 @@ export default function BrunchCatering() {
             Weekend villa brunches, corporate breakfast events, and daily private chef mornings. Fresh pastries, eggs any style, seasonal fruit, and artisanal coffee — served wherever you are in Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=brunch-catering-dubai" className="btn-primary opacity-0 translate-y-4 brunch-hero-cta">Get a Brunch Quote</Link>
+            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 brunch-hero-cta">Get a Brunch Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -546,7 +547,7 @@ export default function BrunchCatering() {
                 <li><Link to="/catering-dubai" className="font-inter text-body text-gray-400 hover:text-gold transition-colors flex items-center gap-2"><ArrowRight size={14} /> Luxury Catering Dubai</Link></li>
                 <li><Link to="/private-chef-dubai" className="font-inter text-body text-gray-400 hover:text-gold transition-colors flex items-center gap-2"><ArrowRight size={14} /> Private Chef Dubai</Link></li>
                 <li><Link to="/corporate" className="font-inter text-body text-gray-400 hover:text-gold transition-colors flex items-center gap-2"><ArrowRight size={14} /> Corporate Catering</Link></li>
-                <li><Link to="/party-catering-dubai" className="font-inter text-body text-gray-400 hover:text-gold transition-colors flex items-center gap-2"><ArrowRight size={14} /> Party Catering</Link></li>
+                <li><Link to="/private-party-catering-dubai" className="font-inter text-body text-gray-400 hover:text-gold transition-colors flex items-center gap-2"><ArrowRight size={14} /> Party Catering</Link></li>
               </ul>
             </div>
             <div>
@@ -594,7 +595,7 @@ export default function BrunchCatering() {
             {locations.map((loc) => (
               <Link
                 key={loc.slug}
-                to={`/locations/${loc.slug}`}
+                to={locationPath(loc.slug)}
                 className="brunch-loc-item flex items-center gap-2 font-inter text-sm text-gray-400 hover:text-gold transition-colors opacity-0"
               >
                 <span className="w-1.5 h-1.5 rounded-full bg-gold flex-shrink-0" />
@@ -649,7 +650,7 @@ export default function BrunchCatering() {
             Tell us about your morning event and we will design a bespoke brunch menu, service style, and staffing plan for your villa, office, or event space in Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=brunch-catering-dubai" className="btn-primary">Get a Brunch Quote</Link>
+            <Link to="/inquiry" className="btn-primary">Get a Brunch Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

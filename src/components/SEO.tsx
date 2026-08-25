@@ -75,6 +75,7 @@ export default function SEO({
         <link rel="preload" as="image" type="image/webp" href={`${SITE_URL}${preloadHero}`} imageSizes="100vw" />
       )}
       <html lang="en" />
+      <meta name="robots" content={noindex ? 'noindex, follow' : 'index, follow'} />
 
       {/* Open Graph */}
       <meta property="og:title" content={fullTitle} />
@@ -89,11 +90,6 @@ export default function SEO({
       <meta name="twitter:title" content={fullTitle} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={`${SITE_URL}${ogImage}`} />
-
-      {/* hreflang */}
-      <link rel="alternate" hrefLang="en-ae" href={canonicalUrl} />
-
-      {noindex && <meta name="robots" content="noindex, nofollow" />}
 
       {jsonLd && (
         <script

@@ -19,13 +19,11 @@ import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { SectionLabel } from '../components/system'
 
-
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to discuss allergy-safe catering (via mychef.ae/allergy-safe-catering-dubai)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 const CANONICAL_PATH = '/allergy-safe-catering-dubai'
-const CAMPAIGN = 'allergy-safe-catering'
 
 const protocols = [
   {
@@ -209,7 +207,7 @@ export default function AllergySafeCatering() {
             Private chef and event catering in Dubai with rigorous allergen protocols, ingredient verification, and cross-contact controls — so every guest can eat with confidence.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 asc-hero-cta">Get My Allergy-Safe Quote</Link>
+            <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 asc-hero-cta">Get My Allergy-Safe Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -352,7 +350,7 @@ export default function AllergySafeCatering() {
             Tell us about your guests' allergies and dietary needs. We will design a safe, delicious menu and bring you a chef who knows how to execute it.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Get My Allergy-Safe Quote</Link>
+            <Link to={`/inquiry`} className="btn-primary">Get My Allergy-Safe Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

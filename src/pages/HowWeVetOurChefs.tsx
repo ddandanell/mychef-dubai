@@ -20,13 +20,11 @@ import { breadcrumbSchema, faqPageSchema, serviceSchema } from '../utils/schema'
 import FaqAccordion from '../components/FaqAccordion'
 import { SectionLabel } from '../components/system'
 
-
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to learn more about how you vet your chefs (via mychef.ae/how-we-vet-our-chefs)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 const CANONICAL_PATH = '/how-we-vet-our-chefs'
-const CAMPAIGN = 'how-we-vet-our-chefs'
 
 const vetSteps = [
   {
@@ -225,7 +223,7 @@ export default function HowWeVetOurChefs() {
             Trust begins with rigorous standards. Every chef in the myCHEF Dubai network passes identity checks, practical assessments, reference verification, and ongoing performance reviews.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 vet-hero-cta">Get a Tailored Quote</Link>
+            <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 vet-hero-cta">Get a Tailored Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -376,7 +374,7 @@ export default function HowWeVetOurChefs() {
             Every myCHEF Dubai chef is verified, assessed, and reviewed. Tell us about your event and we will bring you the right chef.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Get a Tailored Quote</Link>
+            <Link to={`/inquiry`} className="btn-primary">Get a Tailored Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

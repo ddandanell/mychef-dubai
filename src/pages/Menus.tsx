@@ -299,7 +299,7 @@ export default function Menus() {
                   ))}
                 </ul>
                 <Link
-                  to="/inquiry?utm_source=mychef.ae&utm_medium=pricing_card&utm_campaign=menus"
+                  to="/inquiry"
                   className="btn-primary text-center w-full"
                 >
                   Request Custom Quote
@@ -399,7 +399,7 @@ export default function Menus() {
             This is a sample menu for inspiration only. Every menu we create is bespoke.
           </p>
           <div className="text-center">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=menus" className="btn-primary">
+            <Link to="/inquiry" className="btn-primary">
               Request Your Custom Menu
             </Link>
           </div>
@@ -508,7 +508,7 @@ export default function Menus() {
               Tell us your vision. We will design a menu that exceeds every expectation.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=menus" className="btn-primary">
+              <Link to="/inquiry" className="btn-primary">
                 Request My Custom Quote
               </Link>
               <a

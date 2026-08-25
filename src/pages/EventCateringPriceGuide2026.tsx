@@ -20,11 +20,9 @@ import TrustSignalStrip from '../components/TrustSignalStrip'
 import FaqAccordion from '../components/FaqAccordion'
 import { SectionLabel } from '../components/system'
 
-
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent("Hi myCHEF Dubai, I read your Dubai event catering price guide and would like a custom quote for my event.")
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
-const CAMPAIGN = 'dubai-event-catering-price-guide-2026'
 
 /* ────────────────────── Data ────────────────────── */
 
@@ -140,7 +138,7 @@ const quoteSteps = [
 const internalLinks = [
   { title: 'Wedding Catering Dubai', link: '/wedding-catering-dubai', description: 'Multi-course and banquet-style catering for Dubai weddings.' },
   { title: 'Corporate Catering Dubai', link: '/corporate', description: 'Buffets, working lunches, and boardroom catering for offices.' },
-  { title: 'Yacht Catering Dubai', link: '/yacht-catering-dubai', description: 'Compact, elegant menus designed for Dubai yacht events.' },
+  { title: 'Yacht Catering Dubai', link: '/yachts', description: 'Compact, elegant menus designed for Dubai yacht events.' },
   { title: 'BBQ Catering Dubai', link: '/bbq-catering-dubai', description: 'Grill-focused menus for villas, poolsides, and outdoor events.' },
   { title: 'Private Chef Dubai', link: '/private-chef-dubai', description: 'Personal chef service for intimate dinners and daily dining.' },
   { title: 'Dubai Catering Prices Guide', link: '/dubai-catering-prices-guide', description: 'Per-person costs for private chef, buffet, plated dinner, and more.' },
@@ -322,7 +320,7 @@ export default function EventCateringPriceGuide2026() {
             An honest, Dubai-specific overview of event catering prices for 2026. Set a realistic budget, compare quotes fairly, and ask the right questions before booking.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 event-price-hero-cta">Get My Custom Quote</Link>
+            <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 event-price-hero-cta">Get My Custom Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -567,7 +565,7 @@ export default function EventCateringPriceGuide2026() {
               <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-6">
                 To receive a realistic quote quickly, share the following with your caterer. The more detail you provide, the more accurate and useful the proposal will be.
               </p>
-              <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Request a Custom Quote</Link>
+              <Link to={`/inquiry`} className="btn-primary">Request a Custom Quote</Link>
             </div>
 
             <div className="event-price-quote space-y-4">
@@ -607,7 +605,7 @@ export default function EventCateringPriceGuide2026() {
               </ul>
             </div>
             <Link
-              to={`/inquiry?utm_source=mychef.ae&utm_medium=pdf_download&utm_campaign=${CAMPAIGN}`}
+              to={`/inquiry`}
               className="btn-primary whitespace-nowrap"
             >
               Request the PDF
@@ -665,7 +663,7 @@ export default function EventCateringPriceGuide2026() {
             At myCHEF Dubai, we provide itemised, transparent quotes for weddings, corporate events, yacht charters, and private celebrations. No hidden fees, no inflated minimums — just a clear plan built around your guests.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Get My Custom Quote</Link>
+            <Link to={`/inquiry`} className="btn-primary">Get My Custom Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

@@ -37,7 +37,6 @@ export const CATERING_FORMATS_GROUPS: NavGroup[] = [
       { href: '/catering-dubai', label: 'Catering Dubai', description: 'Start here — the full service' },
       { href: '/buffet-catering-dubai', label: 'Buffet Catering', description: 'Relaxed, scales to bigger guest lists' },
       { href: '/canape-catering-dubai', label: 'Canapé Catering', description: 'Passed bites for standing receptions' },
-      { href: '/finger-food-catering-dubai', label: 'Finger Food', description: 'Informal, no cutlery needed' },
     ],
   },
   {

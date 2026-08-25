@@ -73,7 +73,7 @@ export default function StarterPackagesSection({
               </p>
               {pkg.recurring ? (
                 <Link
-                  to={`/weekly-meal-prep-dubai?utm_source=mychef.ae&utm_medium=starter_package_card&utm_campaign=${campaign}`}
+                  to={`/weekly-meal-prep-dubai`}
                   className="btn-secondary text-center w-full"
                 >
                   View Weekly Prep

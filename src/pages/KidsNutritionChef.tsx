@@ -20,13 +20,11 @@ import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { SectionLabel } from '../components/system'
 
-
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to learn about the kids nutrition chef service (via mychef.ae/kids-nutrition-chef-dubai)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 const CANONICAL_PATH = '/kids-nutrition-chef-dubai'
-const CAMPAIGN = 'kids-nutrition-chef'
 
 const inclusions = [
   {
@@ -231,7 +229,7 @@ export default function KidsNutritionChef() {
             Healthy, delicious meals designed for children — and approved by parents. From school lunches to family dinners, we make nutrition easy.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 kn-hero-cta">Plan My Kids' Nutrition Menu</Link>
+            <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 kn-hero-cta">Plan My Kids' Nutrition Menu</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -398,7 +396,7 @@ export default function KidsNutritionChef() {
             Tell us about your children, their preferences, and your weekly routine. We will design a nutrition plan the whole family enjoys.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Plan My Kids' Nutrition Menu</Link>
+            <Link to={`/inquiry`} className="btn-primary">Plan My Kids' Nutrition Menu</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

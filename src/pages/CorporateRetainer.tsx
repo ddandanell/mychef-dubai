@@ -20,13 +20,11 @@ import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { SectionLabel } from '../components/system'
 
-
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to discuss a corporate retainer (via mychef.ae/corporate-retainer-dubai)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 const CANONICAL_PATH = '/corporate-retainer-dubai'
-const CAMPAIGN = 'corporate-retainer'
 
 const tiers = [
   {
@@ -119,7 +117,7 @@ const relatedServices = [
   {
     title: 'Business Lunch Catering',
     description: 'Professional lunches delivered to your office or prepared on-site.',
-    image: '/images/business-lunch-catering-dubai-hero.webp',
+    image: '/images/office-catering-dubai-hero.webp',
     link: '/business-lunch-catering-dubai',
   },
   {
@@ -226,7 +224,7 @@ export default function CorporateRetainer() {
             Monthly catering credit, priority scheduling, and a dedicated account manager — designed for Dubai companies that entertain clients and feed teams regularly. Tell us about your monthly rhythm and we will design a retainer plan within 24 hours.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 cr-hero-cta">Get My Corporate Retainer Quote</Link>
+            <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 cr-hero-cta">Get My Corporate Retainer Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -409,7 +407,7 @@ export default function CorporateRetainer() {
             Tell us about your monthly catering rhythm and we will design a retainer plan that saves time, controls spend, and delivers consistent quality.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Get My Corporate Retainer Quote</Link>
+            <Link to={`/inquiry`} className="btn-primary">Get My Corporate Retainer Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

@@ -22,7 +22,7 @@ const container = document.getElementById('root')!
  * and render SYNCHRONOUSLY with flushSync in the same frame we clear the
  * prerendered markup — so there is no blank flash between the two. The current
  * route's chunk is preloaded first (lazyPreloadable) so the render is immediate,
- * and SeoContent seeds from the inlined window.__SEO__ so its copy is present on
+ * and HandoffPage seeds from the inlined window.__SEO__ so its copy is present on
  * that first client render too.
  */
 async function boot() {

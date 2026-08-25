@@ -95,7 +95,7 @@ const faqItems = [
   },
   {
     q: 'Can you cater at Dubai Marina and Palm Jumeirah?',
-    a: 'Yes. [Dubai Marina](/locations/dubai-marina) and [Palm Jumeirah](/locations/palm-jumeirah) are our most requested yacht boarding points. We also serve [Dubai Harbour](/locations/dubai-harbour), [JBR](/locations/jbr), [Bluewaters Island](/locations/bluewaters-island), and Dubai Creek.',
+    a: 'Yes. [Dubai Marina](/locations/dubai-marina) and [Palm Jumeirah](/locations/palm-jumeirah) are our most requested yacht boarding points. We also serve [Dubai Harbour](/locations), [JBR](/locations/jbr), [Bluewaters Island](/locations/bluewaters-island), and Dubai Creek.',
   },
   {
     q: 'Do you offer BBQ catering on a yacht?',
@@ -239,7 +239,7 @@ export default function Yachts() {
         imageAlt="Yacht catering in Dubai"
         imageWidth={1344}
         imageHeight={752}
-        cta={{ label: 'Get a Yacht Catering Quote', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=yachts' }}
+        cta={{ label: 'Get a Yacht Catering Quote', href: '/inquiry' }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Yachts' }]}
         minHeight="tall"
@@ -291,7 +291,7 @@ export default function Yachts() {
               </h3>
               <div className="space-y-4 font-inter text-body text-gray-400" style={{ lineHeight: '1.7' }}>
                 <p>There is nothing quite like dining on the water with Dubai&apos;s iconic skyline as your backdrop. Whether you are anchored off <Link to="/locations/palm-jumeirah" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Palm Jumeirah</Link>, cruising past Burj Al Arab, or watching the sunset over <Link to="/locations/dubai-marina" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Dubai Marina</Link> — a <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef</Link> elevates the experience to something truly extraordinary.</p>
-                <p>Our yacht chef services are designed around the unique challenges and opportunities of cooking at sea. We plan menus that work beautifully in a yacht galley, source ingredients that travel well, and present each course with the same precision you would expect in a fine dining restaurant. We board at <Link to="/locations/dubai-marina" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Dubai Marina</Link>, <Link to="/locations/palm-jumeirah" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Palm Jumeirah</Link>, <Link to="/locations/bluewaters-island" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Bluewaters Island</Link>, and <Link to="/locations/dubai-harbour" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Dubai Harbour</Link>. For inspiration, explore our <Link to="/blog/yacht-party-menu-ideas-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">yacht party menu ideas</Link> or browse <Link to="/luxury-dining-experiences" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury dining experiences</Link> for your next celebration.</p>
+                <p>Our yacht chef services are designed around the unique challenges and opportunities of cooking at sea. We plan menus that work beautifully in a yacht galley, source ingredients that travel well, and present each course with the same precision you would expect in a fine dining restaurant. We board at <Link to="/locations/dubai-marina" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Dubai Marina</Link>, <Link to="/locations/palm-jumeirah" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Palm Jumeirah</Link>, <Link to="/locations/bluewaters-island" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Bluewaters Island</Link>, and Dubai Harbour. For inspiration, explore our <Link to="/blog/yacht-party-menu-ideas-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">yacht party menu ideas</Link> or browse <Link to="/luxury-dining-experiences" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury dining experiences</Link> for your next celebration.</p>
               </div>
             </div>
             <div className="yacht-exp-right">
@@ -511,7 +511,7 @@ export default function Yachts() {
             Your private yacht chef experience awaits. Contact us to plan your on-board culinary journey.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=yachts" className="btn-primary inline-flex items-center gap-2">
+            <Link to="/inquiry" className="btn-primary inline-flex items-center gap-2">
               <Phone size={18} />
               Get a Yacht Catering Quote
             </Link>

@@ -33,7 +33,7 @@ const config: ServicePageConfig = {
           luxury dining experiences
         </Link>{' '}
         in Dubai. For larger celebrations, explore{' '}
-        <Link to="/event-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
+        <Link to="/events" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           event catering Dubai
         </Link>{' '}
         options, or add drama with{' '}
@@ -74,7 +74,7 @@ const config: ServicePageConfig = {
       Icon: PartyPopper,
       title: 'Celebration Tasting Dinners',
       description: 'Birthdays, anniversaries and milestones turned into memorable culinary journeys for small groups.',
-      link: '/private-dining-dubai',
+      link: '/private-chef-dubai',
     },
     {
       Icon: Users,
@@ -122,7 +122,7 @@ const config: ServicePageConfig = {
   galleryImages: [
     { src: '/images/tasting-menu-dubai-hero.webp', alt: 'Private tasting menu experience in Dubai' },
     { src: '/menu-appetizer.webp', alt: 'Artistic appetiser course from a tasting menu' },
-    { src: '/menu-mains.webp', alt: 'Plated main course at a chef’s table dinner' },
+    { src: '/menu-meat.webp', alt: 'Plated main course at a chef’s table dinner' },
     { src: '/menu-dessert.webp', alt: 'Refined dessert course for a private tasting menu' },
     { src: '/service-luxury-dining.webp', alt: 'Luxury private dining service in Dubai' },
     { src: '/service-villa.webp', alt: 'Villa tasting dinner setting' },
@@ -171,7 +171,7 @@ const config: ServicePageConfig = {
       title: 'Private Dining Dubai',
       description: 'Bespoke private dinners and intimate celebrations designed around your occasion.',
       image: '/service-villa.webp',
-      link: '/private-dining-dubai',
+      link: '/private-chef-dubai',
     },
   ],
   ctaH2: 'Design a Tasting Menu Your Guests Will Never Forget',

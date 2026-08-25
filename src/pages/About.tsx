@@ -9,6 +9,7 @@ import { aboutGraph } from '@/lib/organizationSchema'
 import PageHero from '@/components/PageHero'
 import TrustSignalStrip from '@/components/TrustSignalStrip'
 import { BodyCopy, Container, DisplayHeading, Section, SectionLabel } from '../components/system'
+import { locationPath } from '@/data/locations'
 
 
 const WHATSAPP_NUMBER = '971551744849'
@@ -123,7 +124,7 @@ export default function About() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="About myCHEF Dubai"
+        title="Private Chef Company Dubai"
         description="Discover myCHEF Dubai — a private-dining house that designs bespoke dining experiences and brings you professional, licensed chefs across Dubai."
         canonicalPath="/about"
         ogImage="/team-head-chef.webp"
@@ -145,7 +146,7 @@ export default function About() {
         align="left"
         titleEmphasis
         imagePosition="center 32%"
-        cta={{ label: 'Get a Tailored Quote', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=about' }}
+        cta={{ label: 'Get a Tailored Quote', href: '/inquiry' }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'About' }]}
       />
@@ -288,7 +289,7 @@ export default function About() {
                       <li key={item} className="font-inter text-body-sm">
                         {LOCATION_PAGES.has(slug) ? (
                           <Link
-                            to={`/locations/${slug}`}
+                            to={locationPath(slug)}
                             className="inline-block py-1 text-gray-600 underline decoration-gold/40 underline-offset-4 transition-colors hover:text-gold-ink hover:decoration-gold-ink focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-white rounded-sm"
                           >
                             {item}
@@ -314,7 +315,7 @@ export default function About() {
             The occasion, the house, or the week you need covered — on WhatsApp, or request a quote. Prices and hours are agreed before any work starts.
           </BodyCopy>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=about" className="btn-primary focus-visible:ring-offset-black">Request My Custom Quote</Link>
+            <Link to="/inquiry" className="btn-primary focus-visible:ring-offset-black">Request My Custom Quote</Link>
             <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-secondary focus-visible:ring-offset-black">Chat on WhatsApp</a>
           </div>
           <p className="mt-6 font-inter text-body-sm text-gray-500">

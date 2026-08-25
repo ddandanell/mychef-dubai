@@ -32,9 +32,7 @@ const config: ServicePageConfig = {
           corporate event catering Dubai
         </Link>{' '}
         and{' '}
-        <Link to="/party-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
-          party catering Dubai
-        </Link>{' '}
+        party catering Dubai{' '}
         services. For a more private family celebration, explore our{' '}
         <Link to="/private-party-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           private party catering Dubai
@@ -55,7 +53,7 @@ const config: ServicePageConfig = {
       Icon: PartyPopper,
       title: 'Rooftop & Venue Receptions',
       description: 'Canapés, grazing tables and mocktail bars for venue-based leaving parties and retirement receptions.',
-      link: '/event-catering-dubai',
+      link: '/events',
     },
     {
       Icon: Utensils,
@@ -159,12 +157,6 @@ const config: ServicePageConfig = {
       description: 'fully-coordinated catering for company events, award ceremonies and team gatherings.',
       image: '/service-corporate.webp',
       link: '/corporate-event-catering-dubai',
-    },
-    {
-      title: 'Party Catering Dubai',
-      description: 'The hub for birthdays, celebrations and every kind of private party.',
-      image: '/service-events.webp',
-      link: '/party-catering-dubai',
     },
     {
       title: 'Private Party Catering',

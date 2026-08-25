@@ -19,13 +19,11 @@ import { breadcrumbSchema, faqPageSchema, serviceSchema } from '../utils/schema'
 import FaqAccordion from '../components/FaqAccordion'
 import { SectionLabel } from '../components/system'
 
-
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to discuss an influencer partnership (via mychef.ae/influencer-partnerships)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 const CANONICAL_PATH = '/influencer-partnerships'
-const CAMPAIGN = 'influencer-partnerships'
 
 const inclusions = [
   {
@@ -227,7 +225,7 @@ export default function InfluencerPartnerships() {
             Tell us about your audience and content goals, and our partnerships team will reply within 15 minutes during business hours with a tailored collaboration proposal — from a single private chef experience to an ongoing ambassador arrangement.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 ip-hero-cta">Discuss a Partnership</Link>
+            <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 ip-hero-cta">Discuss a Partnership</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -396,7 +394,7 @@ export default function InfluencerPartnerships() {
             Share your media kit and collaboration idea. We will review your profile and propose a partnership that works for your audience and ours.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Discuss a Partnership</Link>
+            <Link to={`/inquiry`} className="btn-primary">Discuss a Partnership</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

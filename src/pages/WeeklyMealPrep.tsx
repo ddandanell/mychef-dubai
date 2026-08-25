@@ -26,13 +26,11 @@ import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { SectionLabel } from '../components/system'
 
-
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to request a proposal for weekly meal prep in Dubai (via mychef.ae/weekly-meal-prep-dubai)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 const CANONICAL_PATH = '/weekly-meal-prep-dubai'
-const CAMPAIGN = 'weekly-meal-prep-dubai'
 
 const howItWorks = [
   {
@@ -322,7 +320,7 @@ export default function WeeklyMealPrep() {
             Fresh, portioned meals prepared in your own kitchen each week — so you can eat well, save time, and skip the takeout cycle. We reply within 15 minutes during business hours.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 wmp-hero-cta">Get My Meal Prep Quote</Link>
+            <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 wmp-hero-cta">Get My Meal Prep Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -428,7 +426,7 @@ export default function WeeklyMealPrep() {
                     </li>
                   ))}
                 </ul>
-                <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=pricing_card&utm_campaign=${CAMPAIGN}`} className="btn-primary text-center w-full">
+                <Link to={`/inquiry`} className="btn-primary text-center w-full">
                   Get My Meal Prep Quote
                 </Link>
               </div>
@@ -567,7 +565,7 @@ export default function WeeklyMealPrep() {
             Tell us about your household, dietary needs, and preferred cuisines, and we will design a private chef meal prep plan that fits your week.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Get My Meal Prep Quote</Link>
+            <Link to={`/inquiry`} className="btn-primary">Get My Meal Prep Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

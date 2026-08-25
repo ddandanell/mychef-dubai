@@ -33,7 +33,7 @@ const StickyMobileCTA = memo(function StickyMobileCTA({ whatsappMessage }: Stick
       <div className="flex flex-col px-4 py-2">
         <div className="flex items-center min-h-16 gap-3">
           <Link
-            to="/inquiry?utm_source=mychef.ae&utm_medium=sticky_bar&utm_campaign=mobile"
+            to="/inquiry"
             className="btn-primary flex-1 min-h-12 px-4 text-xs uppercase tracking-wider"
           >
             <FileText size={16} className="mr-2 shrink-0" />

@@ -65,9 +65,9 @@ const internalLinks = [
   { title: 'Private Chef Dubai', link: '/private-chef-dubai', description: 'Personal chef service for homes and villas.' },
   { title: 'Catering Dubai', link: '/catering-dubai', description: 'fully-coordinated catering for events of all sizes.' },
   { title: 'Villa Catering Ideas', link: '/villa-catering-ideas-dubai', description: 'Menu formats designed for Dubai homes.' },
-  { title: 'Luxury Dining Dubai', link: '/luxury-dining-dubai', description: 'Elegant private dining experiences.' },
+  { title: 'Luxury Dining Dubai', link: '/luxury-dining-experiences', description: 'Elegant private dining experiences.' },
   { title: 'Dubai Catering Prices Guide', link: '/dubai-catering-prices-guide', description: 'Cost guidance for chef and catering formats.' },
-  { title: 'Party Catering Dubai', link: '/party-catering-dubai', description: 'fully-coordinated catering for private celebrations.' },
+  { title: 'Party Catering Dubai', link: '/private-party-catering-dubai', description: 'fully-coordinated catering for private celebrations.' },
 ]
 
 const faqs = [
@@ -231,7 +231,7 @@ export default function PrivateChefVsCatering() {
             A clear comparison to help you choose between a private chef and full catering for your Dubai home, villa, or event.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=private-chef-vs-catering-dubai" className="btn-primary opacity-0 translate-y-4 pvc-hero-cta">Get My Custom Quote</Link>
+            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 pvc-hero-cta">Get My Custom Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -430,7 +430,7 @@ export default function PrivateChefVsCatering() {
             Tell us about your guest count, venue, and the experience you want. We will recommend the right service and send a tailored quote.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=private-chef-vs-catering-dubai" className="btn-primary">Get My Custom Quote</Link>
+            <Link to="/inquiry" className="btn-primary">Get My Custom Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

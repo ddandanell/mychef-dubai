@@ -67,7 +67,7 @@ const config: OccasionPageConfig = {
       Icon: Home,
       title: 'Private Desert Camps',
       description: 'fully-coordinated catering at licensed desert camps and private setups arranged by your event planner.',
-      link: '/event-catering-dubai',
+      link: '/events',
     },
     {
       Icon: Sun,

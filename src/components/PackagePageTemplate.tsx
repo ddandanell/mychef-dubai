@@ -70,7 +70,6 @@ export default function PackagePageTemplate({
   relatedServices,
   heroImage,
   breadcrumbLabel,
-  campaign,
   hideSiteName = false,
   ctaLabel = 'Request This Package',
 }: PackagePageTemplateProps) {
@@ -213,7 +212,7 @@ export default function PackagePageTemplate({
                 ))}
               </ul>
               <Link
-                to={`/inquiry?utm_source=mychef.ae&utm_medium=package_page&utm_campaign=${campaign}`}
+                to={`/inquiry`}
                 className="btn-secondary w-full text-center mt-8"
               >
                 Customise My Package
@@ -284,7 +283,7 @@ export default function PackagePageTemplate({
               <Phone size={16} />
               {ctaLabel}
             </a>
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${campaign}`} className="btn-secondary">
+            <Link to={`/inquiry`} className="btn-secondary">
               Send an Inquiry
             </Link>
           </div>

@@ -3,6 +3,7 @@ import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
+import { locationPath } from '@/data/locations'
 import {
   ChefHat,
   Flame,
@@ -323,7 +324,7 @@ export default function LiveCookingStations() {
             Interactive partner-chef-led stations — carving, pasta, grill, street food, and dessert counters cooked to order. The theatre of food, plated fresh in front of your guests at weddings and corporate events across Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=live-cooking-stations-dubai" className="btn-primary opacity-0 translate-y-4 lcs-hero-cta">Build My Live Station Package</Link>
+            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 lcs-hero-cta">Build My Live Station Package</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -474,7 +475,7 @@ export default function LiveCookingStations() {
             {locations.map((loc) => (
               <Link
                 key={loc.slug}
-                to={`/locations/${loc.slug}`}
+                to={locationPath(loc.slug)}
                 className="lcs-loc-item flex items-center gap-2 font-inter text-sm text-gray-400 hover:text-gold transition-colors opacity-0"
               >
                 <span className="w-1.5 h-1.5 rounded-full bg-gold flex-shrink-0" />
@@ -531,7 +532,7 @@ export default function LiveCookingStations() {
             Tell us about your event and we'll design a set of live stations and a service plan that fits it perfectly.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=live-cooking-stations-dubai" className="btn-primary">Build My Live Station Package</Link>
+            <Link to="/inquiry" className="btn-primary">Build My Live Station Package</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

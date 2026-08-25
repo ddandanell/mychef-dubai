@@ -91,7 +91,6 @@ const corporateSolutions = [
   { title: 'Corporate Event Catering', link: '/corporate-event-catering-dubai' },
   { title: 'Conference Catering', link: '/conference-catering-dubai' },
   { title: 'Staff Meals Catering', link: '/staff-meals-catering-dubai' },
-  { title: 'Film Crew Catering', link: '/film-crew-catering-dubai' },
   { title: 'Production Catering', link: '/production-catering-dubai' },
   { title: 'Corporate Meal Prep', link: '/corporate-meal-prep-dubai' },
   { title: 'Product Launch Catering', link: '/product-launch-catering-dubai' },
@@ -451,7 +450,7 @@ export default function Corporate({
         imageAlt="Corporate catering in Dubai"
         imageWidth={1344}
         imageHeight={752}
-        cta={{ label: 'Get a Corporate Catering Quote', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=corporate' }}
+        cta={{ label: 'Get a Corporate Catering Quote', href: '/inquiry' }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Corporate' }]}
         minHeight="large"
@@ -474,8 +473,8 @@ export default function Corporate({
               <Link to="/locations/business-bay" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Business Bay</Link>,{' '}
               <Link to="/locations/difc" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">DIFC</Link>,{' '}
               <Link to="/locations/downtown-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Downtown Dubai</Link>,{' '}
-              <Link to="/locations/dubai-media-city" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Dubai Media City</Link>, and{' '}
-              <Link to="/locations/dubai-internet-city" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Dubai Internet City</Link>,
+              Dubai Media City, and{' '}
+              Dubai Internet City,
               from boardroom lunches to{' '}
               <Link to="/corporate-event-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">company-wide events</Link>.
             </p>
@@ -568,7 +567,7 @@ export default function Corporate({
                     </li>
                   ))}
                 </ul>
-                <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=corporate" className="btn-secondary w-full text-center text-sm py-3">Get a Corporate Catering Quote</Link>
+                <Link to="/inquiry" className="btn-secondary w-full text-center text-sm py-3">Get a Corporate Catering Quote</Link>
               </div>
             ))}
           </div>
@@ -888,7 +887,7 @@ export default function Corporate({
               Premium corporate catering that reflects the quality of your brand.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=corporate" className="btn-primary">Get a Corporate Catering Quote</Link>
+              <Link to="/inquiry" className="btn-primary">Get a Corporate Catering Quote</Link>
               <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-secondary">
                 Chat on WhatsApp
               </a>

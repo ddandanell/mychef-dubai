@@ -110,7 +110,7 @@ const relatedLinks = [
     { label: 'Beach Catering', href: '/beach-catering-dubai' },
     { label: 'Desert Dining', href: '/desert-dining-dubai' },
     { label: 'Afternoon Tea Catering', href: '/afternoon-tea-catering-dubai' },
-    { label: 'Party Catering', href: '/party-catering-dubai' },
+    { label: 'Party Catering', href: '/private-party-catering-dubai' },
     { label: 'Wedding Catering', href: '/wedding-catering-dubai' },
   ]},
   { title: 'Trust & Info', links: [
@@ -235,7 +235,7 @@ export default function FAQ() {
           {filteredFaqs.map(([category, items]) => (
             <div key={category} className="faq-category mb-10">
               {activeTab === 'All' && (
-                <h3 className="font-playfair text-h3 text-black mb-6">{category}</h3>
+                <h2 className="font-playfair text-h3 text-black mb-6">{category}</h2>
               )}
               <div className="divide-y divide-gray-200">
                 {items.map((item, i) => {
@@ -316,7 +316,7 @@ export default function FAQ() {
             Your bespoke dining experience is just a message away.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=faq" className="btn-primary">Request My Custom Quote</Link>
+            <Link to="/inquiry" className="btn-primary">Request My Custom Quote</Link>
             <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-secondary">Chat on WhatsApp</a>
           </div>
         </div>

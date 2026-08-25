@@ -19,13 +19,11 @@ import { breadcrumbSchema, faqPageSchema, serviceSchema } from '../utils/schema'
 import FaqAccordion from '../components/FaqAccordion'
 import { SectionLabel } from '../components/system'
 
-
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to learn more about the Chef Training Academy (via mychef.ae/chef-training-academy)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 const CANONICAL_PATH = '/chef-training-academy'
-const CAMPAIGN = 'chef-training-academy'
 
 const inclusions = [
   {
@@ -227,7 +225,7 @@ export default function ChefTrainingAcademy() {
             A practical academy for chefs who want to excel in private dining. Learn the standards that make myCHEF Dubai chefs trusted in the city&apos;s most distinguished homes.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 ct-hero-cta">Apply to the Academy</Link>
+            <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 ct-hero-cta">Apply to the Academy</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -396,7 +394,7 @@ export default function ChefTrainingAcademy() {
             Applications are open for the next intake. Tell us about your experience and goals, and we will recommend the right programme.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Apply to the Academy</Link>
+            <Link to={`/inquiry`} className="btn-primary">Apply to the Academy</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

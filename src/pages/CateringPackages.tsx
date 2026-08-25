@@ -197,7 +197,7 @@ export default function CateringPackages() {
         imageAlt="Catering packages and event menus in Dubai"
         imageWidth={1344}
         imageHeight={752}
-        cta={{ label: 'Get My Catering Package Quote', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=catering-packages' }}
+        cta={{ label: 'Get My Catering Package Quote', href: '/inquiry' }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Catering Packages Dubai' }]}
         minHeight="tall"
@@ -251,7 +251,7 @@ export default function CateringPackages() {
                 Tell us about your event and we will recommend the right package or design a fully bespoke menu that matches your vision and budget.
               </p>
               <Link
-                to="/inquiry?utm_source=mychef.ae&utm_medium=inline_link&utm_campaign=catering-packages"
+                to="/inquiry"
                 className="inline-flex items-center gap-2 font-inter text-body-sm uppercase tracking-wider text-gold hover:text-gold-light transition-colors"
               >
                 Get My Recommendation <ArrowRight size={14} />
@@ -373,7 +373,7 @@ export default function CateringPackages() {
             Choose a starter package or ask us to design something bespoke. We reply within 15 minutes during business hours.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=catering-packages" className="btn-primary">
+            <Link to="/inquiry" className="btn-primary">
               Get My Catering Package Quote
             </Link>
             <a

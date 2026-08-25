@@ -19,13 +19,11 @@ import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { SectionLabel } from '../components/system'
 
-
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to discuss postpartum meal prep (via mychef.ae/postpartum-meal-prep-dubai)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 const CANONICAL_PATH = '/postpartum-meal-prep-dubai'
-const CAMPAIGN = 'postpartum-meal-prep'
 
 const features = [
   {
@@ -209,7 +207,7 @@ export default function PostpartumMealPrep() {
             Nourishing, culturally sensitive recovery meals prepared in your own kitchen — so you can focus on your baby while eating well through the fourth trimester.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 ppm-hero-cta">Plan My Postpartum Meals</Link>
+            <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 ppm-hero-cta">Plan My Postpartum Meals</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -355,7 +353,7 @@ export default function PostpartumMealPrep() {
             Book a postpartum meal prep consultation and give yourself or a loved one the gift of warm, recovery-focused meals at home.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Plan My Postpartum Meals</Link>
+            <Link to={`/inquiry`} className="btn-primary">Plan My Postpartum Meals</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

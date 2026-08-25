@@ -3,6 +3,7 @@ import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
+import { locationPath } from '@/data/locations'
 import {
   Flame,
   Beef,
@@ -313,7 +314,7 @@ export default function BachelorPartyCatering() {
             Live grills, premium cuts, and full cocktail service for the send-off. Catering built for yacht charters, villa takeovers, and unforgettable nights across Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=bachelor-party-catering-dubai" className="btn-primary opacity-0 translate-y-4 bp-hero-cta">Plan My Bachelor Party</Link>
+            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 bp-hero-cta">Plan My Bachelor Party</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -344,9 +345,9 @@ export default function BachelorPartyCatering() {
             <Link to="/yachts" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">yacht catering</Link>,{' '}
             <Link to="/cocktail-party-catering-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">cocktail party catering</Link>,{' '}
             or full{' '}
-            <Link to="/party-catering-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">party catering Dubai</Link>{' '}
+            <Link to="/private-party-catering-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">party catering Dubai</Link>{' '}
             range, or jump straight to a{' '}
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=bachelor-party-catering-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">Plan My Bachelor Party</Link>.
+            <Link to="/inquiry" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">Plan My Bachelor Party</Link>.
           </p>
         </div>
       </section>
@@ -473,7 +474,7 @@ export default function BachelorPartyCatering() {
             {locations.map((loc) => (
               <Link
                 key={loc.slug}
-                to={`/locations/${loc.slug}`}
+                to={locationPath(loc.slug)}
                 className="bp-loc-item flex items-center gap-2 font-inter text-sm text-gray-400 hover:text-gold transition-colors opacity-0"
               >
                 <span className="w-1.5 h-1.5 rounded-full bg-gold flex-shrink-0" />
@@ -534,7 +535,7 @@ export default function BachelorPartyCatering() {
             Tell us the date, the venue, and the group — we will build the grill, the bar, and the menu around it.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=bachelor-party-catering-dubai" className="btn-primary">Plan My Bachelor Party</Link>
+            <Link to="/inquiry" className="btn-primary">Plan My Bachelor Party</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

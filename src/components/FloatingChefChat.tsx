@@ -16,7 +16,7 @@ const topicMap: Record<string, string> = {
   '/corporate': 'corporate catering',
   '/villas-private-residences': 'villa catering',
   '/yachts': 'yacht catering',
-  '/party-catering-dubai': 'party catering',
+  '/private-party-catering-dubai': 'party catering',
   '/wedding-catering-dubai': 'wedding catering',
   '/wedding-catering-checklist-dubai': 'wedding catering planning',
   '/blog/wedding-catering-cost-dubai': 'wedding catering cost',

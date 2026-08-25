@@ -214,7 +214,7 @@ export default function PartnerWithUs() {
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Link
-                to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=partner-with-us"
+                to="/inquiry"
                 className="btn-primary inline-flex items-center gap-2"
               >
                 Request Partnership Info

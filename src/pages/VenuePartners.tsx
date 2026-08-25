@@ -125,11 +125,6 @@ const schema = {
   ],
 }
 
-function quoteLink(venueName: string, categoryTitle: string) {
-  const encoded = encodeURIComponent(venueName)
-  return `/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=venue-partners&utm_content=venue-${encoded}&utm_term=${encodeURIComponent(categoryTitle)}`
-}
-
 export default function VenuePartners() {
   useScrollTrigger()
   const introRef = useRef<HTMLDivElement>(null)
@@ -293,7 +288,7 @@ export default function VenuePartners() {
                       {partner.location}
                     </p>
                     <Link
-                      to={quoteLink(partner.name, title)}
+                      to="/inquiry"
                       className="btn-primary w-full"
                     >
                       Request Quote for This Venue
@@ -340,7 +335,7 @@ export default function VenuePartners() {
             </div>
             <p className="mt-6 font-inter text-body-sm text-gray-500">
               Already have an event in mind?{' '}
-              <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=venue-partners" className="text-gold hover:underline">
+              <Link to="/inquiry" className="text-gold hover:underline">
                 Request a custom quote
               </Link>
               .

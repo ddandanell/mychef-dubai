@@ -56,7 +56,7 @@ export default function CTASection() {
 
           <div className="lg:col-span-5 lg:pl-16 lg:border-l lg:border-white/10">
             <div className="flex flex-col sm:flex-row lg:flex-col gap-4">
-              <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=home" className="btn-primary focus-visible:ring-offset-[#1A1A1A]">
+              <Link to="/inquiry" className="btn-primary focus-visible:ring-offset-[#1A1A1A]">
                 Get a Tailored Quote
               </Link>
               <a

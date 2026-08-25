@@ -22,7 +22,7 @@ export const WEDDING_PATHS = {
 } as const
 
 export const WEDDING_INQUIRY =
-  '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=wedding-catering-dubai'
+  '/inquiry'
 
 export const WEDDING_WHATSAPP_MESSAGE =
   "Hi myCHEF Dubai, wedding catering brief. Date: __. Venue/area: __. Guests: __. Format (plated/buffet/family-style/stations/canapés/not sure): __. Cuisine: __. Dietary: __. Budget band: __. Need (staff/bar/cake/dessert/rentals): __. Planner: __ (via mychef.ae/wedding-catering-dubai)"

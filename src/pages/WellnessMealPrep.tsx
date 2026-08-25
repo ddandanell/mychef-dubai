@@ -26,13 +26,11 @@ import { breadcrumbSchema, faqPageSchema, serviceSchema } from '../utils/schema'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { SectionLabel } from '../components/system'
 
-
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to learn about wellness meal prep in Dubai (via mychef.ae/wellness-meal-prep-dubai)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 const CANONICAL_PATH = '/wellness-meal-prep-dubai'
-const CAMPAIGN = 'wellness-meal-prep-dubai'
 
 const programmes = [
   {
@@ -202,7 +200,7 @@ export default function WellnessMealPrep() {
         subtitle="Nutritionist-aligned, macro-calculated meals prepared by a private chef in your own kitchen. Tell us about your household and goals — we will bring you a vetted wellness chef and send a tailored quote within 24 hours."
         image="/images/healthy-catering-dubai-hero.webp"
         imageAlt="Wellness meal prep in Dubai"
-        cta={{ label: 'Plan My Wellness Menu', href: `/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}` }}
+        cta={{ label: 'Plan My Wellness Menu', href: `/inquiry` }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Wellness Meal Prep Dubai' }]}
         minHeight="tall"
@@ -324,7 +322,7 @@ export default function WellnessMealPrep() {
             Tell us your goals, dietary needs, and household size. We will bring you a vetted wellness chef and send a tailored quote within 24 hours. Also explore <Link to="/healthy-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">healthy catering</Link> and <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef service</Link>.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">
+            <Link to={`/inquiry`} className="btn-primary">
               Get a Meal Prep Quote
             </Link>
             <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-secondary inline-flex items-center gap-2">

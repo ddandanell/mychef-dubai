@@ -4,6 +4,7 @@ import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
+import { locationPath } from '@/data/locations'
 import {
   Calendar,
   Users,
@@ -23,13 +24,11 @@ import TrustSignalStrip from '../components/TrustSignalStrip'
 import FaqAccordion from '../components/FaqAccordion'
 import { SectionLabel } from '../components/system'
 
-
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to discuss a luxury event inspired by your case studies (via mychef.ae/case-studies)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 const CANONICAL_PATH = '/case-studies'
-const CAMPAIGN = 'case-studies'
 
 /* ────────────────────── Data ────────────────────── */
 
@@ -208,7 +207,7 @@ const collectionSchema = {
         headline: cs.title,
         description: `${cs.menu}. ${cs.outcome}`,
         image: `https://www.mychef.ae${cs.image}`,
-        url: `https://www.mychef.ae/case-studies/${cs.slug}`,
+        url: 'https://www.mychef.ae/case-studies',
         publisher: {
           '@type': 'Organization',
           '@id': 'https://www.mychef.ae/#organization',
@@ -349,7 +348,7 @@ export default function CaseStudies() {
             Events we're proud of — from villa weddings and yacht birthdays to corporate galas and intimate private dinners across Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 cs-hero-cta">Get a Tailored Quote</Link>
+            <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 cs-hero-cta">Get a Tailored Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -413,9 +412,8 @@ export default function CaseStudies() {
             {filteredCaseStudies.map((cs, i) => {
               const Icon = categoryIcons[cs.category] || Calendar
               return (
-                <Link
+                <article
                   key={i}
-                  to={`/case-studies/${cs.slug}`}
                   className="cs-card group bg-charcoal overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
                 >
                   <div className="aspect-video overflow-hidden">
@@ -445,11 +443,8 @@ export default function CaseStudies() {
                     <p className="font-inter text-body-sm text-gray-400 leading-relaxed mb-4">
                       {cs.outcome}
                     </p>
-                    <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
-                      Read the Story <ArrowRight size={14} />
-                    </span>
                   </div>
-                </Link>
+                </article>
               )
             })}
           </div>
@@ -521,7 +516,7 @@ export default function CaseStudies() {
             {locations.map((loc) => (
               <Link
                 key={loc.slug}
-                to={`/locations/${loc.slug}`}
+                to={locationPath(loc.slug)}
                 className="cs-loc-item flex items-center gap-2 font-inter text-sm text-gray-400 hover:text-gold transition-colors opacity-0"
               >
                 <MapPin size={14} className="text-gold flex-shrink-0" />
@@ -577,7 +572,7 @@ export default function CaseStudies() {
             Tell us about your wedding, yacht, villa, or corporate event and we'll design a bespoke plan inspired by the events we are proud to share.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Request a Custom Quote</Link>
+            <Link to={`/inquiry`} className="btn-primary">Request a Custom Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

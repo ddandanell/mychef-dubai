@@ -45,13 +45,13 @@ const config: OccasionPageConfig = {
       Icon: Flag,
       title: 'National Day Buffet',
       description: 'A styled buffet of Emirati classics and modern dishes, perfect for villa parties, community gatherings and family celebrations.',
-      link: '/party-catering-dubai',
+      link: '/private-party-catering-dubai',
     },
     {
       Icon: Flame,
       title: 'Live Grill & Shawarma Station',
       description: 'An interactive station serving fresh grills, shawarma and Arabic breads cooked in front of your guests.',
-      link: '/live-cooking-station-dubai',
+      link: '/live-cooking-stations-dubai',
     },
     {
       Icon: Home,
@@ -69,7 +69,7 @@ const config: OccasionPageConfig = {
       Icon: Users,
       title: 'Community & Large Gatherings',
       description: 'Scalable catering for large guest lists, with multiple service points and efficient flow management.',
-      link: '/event-catering-dubai',
+      link: '/events',
     },
     {
       Icon: UtensilsCrossed,
@@ -117,7 +117,7 @@ const config: OccasionPageConfig = {
   galleryImages: [
     { src: '/images/uae-national-day-catering-dubai-hero.webp', alt: 'UAE National Day catering setup in Dubai' },
     { src: '/menu-canapes.webp', alt: 'Canapés and appetisers for a National Day event' },
-    { src: '/menu-mains.webp', alt: 'Emirati-inspired main dishes for a celebration' },
+    { src: '/menu-meat.webp', alt: 'Emirati-inspired main dishes for a celebration' },
     { src: '/menu-dessert.webp', alt: 'Date and Arabic desserts for National Day' },
     { src: '/service-events.webp', alt: 'Event catering service in Dubai' },
     { src: '/service-luxury-dining.webp', alt: 'Luxury private dining experience in Dubai' },
@@ -153,7 +153,7 @@ const config: OccasionPageConfig = {
     {
       title: 'Eid Catering Dubai',
       description: 'Festive halal catering for Eid al-Fitr and Eid al-Adha celebrations at home or venue.',
-      image: '/images/eid-catering-dubai-hero.webp',
+      image: '/images/eid-suhoor-catering-dubai-hero.webp',
       link: '/eid-catering-dubai',
     },
     {
@@ -166,7 +166,7 @@ const config: OccasionPageConfig = {
       title: 'Live Cooking Station Dubai',
       description: 'Interactive food stations that bring theatre and freshness to any celebration.',
       image: '/service-events.webp',
-      link: '/live-cooking-station-dubai',
+      link: '/live-cooking-stations-dubai',
     },
   ],
   ctaH2: 'Book Your UAE National Day Catering',

@@ -1,4 +1,4 @@
-// Support page for /private-chef-dubai/pricing — no keyword-lock primary of its own.
+// Support page for the plan calculator on /private-chef-prices-dubai — no keyword-lock primary of its own.
 import { Link } from 'react-router'
 import { ArrowRight } from 'lucide-react'
 import SEO from '../../components/SEO'

@@ -55,7 +55,6 @@ export default function PartnerPageTemplate({
   ctaText = 'Discuss a Partnership',
   heroImage,
   breadcrumbLabel,
-  campaign,
 }: PartnerPageTemplateProps) {
   useScrollTrigger()
   const containerRef = useRef<HTMLDivElement>(null)
@@ -174,7 +173,7 @@ export default function PartnerPageTemplate({
               <Phone size={16} />
               {ctaText}
             </a>
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${campaign}`} className="btn-secondary">
+            <Link to={`/inquiry`} className="btn-secondary">
               Send an Inquiry <ArrowRight size={16} />
             </Link>
           </div>

@@ -18,7 +18,7 @@ const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I read your corporate catering comparison blog and would like a proposal (via mychef.ae/blog/corporate-catering-full-service-vs-drop-off)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
-const CTA_HREF = '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=corporate-catering-full-service-vs-drop-off'
+const CTA_HREF = '/inquiry'
 const SLUG = 'corporate-catering-full-service-vs-drop-off'
 
 const articleSchema = {

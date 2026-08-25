@@ -1,5 +1,6 @@
 import { Link } from 'react-router'
 import { SectionLabel } from '@/components/system'
+import { locationPath } from '@/data/locations'
 
 interface LocationStripProps {
   title?: string
@@ -45,7 +46,7 @@ export default function LocationStrip({ title = 'Private chef & luxury dining ac
           {locations.map((loc) => (
             <Link
               key={loc.slug}
-              to={`/locations/${loc.slug}`}
+              to={locationPath(loc.slug)}
               className="px-4 py-2 font-inter text-body-sm text-gold border border-gold/30 hover:bg-gold hover:text-black transition-all duration-300"
             >
               {loc.name}

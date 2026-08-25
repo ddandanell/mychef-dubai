@@ -60,13 +60,13 @@ const config: OccasionPageConfig = {
       Icon: Cookie,
       title: 'Themed High Tea',
       description: 'Afternoon tea styled around a colour, occasion or brand — from pastel bridal showers to corporate logo touches.',
-      link: '/event-catering-dubai',
+      link: '/events',
     },
     {
       Icon: Home,
       title: 'At-Home Tea Parties',
       description: 'Full-service afternoon tea in your Dubai villa or apartment, complete with table styling, service and cleanup.',
-      link: '/villa-catering-dubai',
+      link: '/villas-private-residences',
     },
     {
       Icon: Building,

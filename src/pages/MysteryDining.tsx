@@ -19,13 +19,11 @@ import { breadcrumbSchema, faqPageSchema, serviceSchema } from '../utils/schema'
 import FaqAccordion from '../components/FaqAccordion'
 import { SectionLabel } from '../components/system'
 
-
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to book a mystery dining experience (via mychef.ae/mystery-dining-dubai)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 const CANONICAL_PATH = '/mystery-dining-dubai'
-const CAMPAIGN = 'mystery-dining'
 
 const inclusions = [
   {
@@ -228,7 +226,7 @@ export default function MysteryDining() {
             Tell us what excites your palate and any dietary boundaries. We will bring you a vetted private chef who designs a surprise menu around your tastes, delivered in your home, apartment, or villa within 24 hours.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 md-hero-cta">Plan My Mystery Dinner</Link>
+            <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 md-hero-cta">Plan My Mystery Dinner</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -328,7 +326,7 @@ export default function MysteryDining() {
                   ))}
                 </ul>
                 <Link
-                  to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`}
+                  to={`/inquiry`}
                   className="block text-center w-full py-3 font-inter text-sm uppercase tracking-wider bg-gold text-black hover:bg-gold-light transition-colors"
                 >
                   Get Your Quote
@@ -395,7 +393,7 @@ export default function MysteryDining() {
             Share your tastes, set your boundaries, and leave the creativity to us. A surprise menu tailored to you is only an enquiry away — we reply within 15 minutes during business hours.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Plan My Mystery Dinner</Link>
+            <Link to={`/inquiry`} className="btn-primary">Plan My Mystery Dinner</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

@@ -358,7 +358,7 @@ export default function Gallery() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
-                to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=gallery"
+                to="/inquiry"
                 className="btn-primary"
               >
                 Get a Tailored Quote

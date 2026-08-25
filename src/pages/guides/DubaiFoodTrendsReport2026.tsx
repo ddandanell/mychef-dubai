@@ -20,11 +20,9 @@ import TrustSignalStrip from '../../components/TrustSignalStrip'
 import FaqAccordion from '../../components/FaqAccordion'
 import { SectionLabel } from '../../components/system'
 
-
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I read your Dubai Food Trends Report 2026 and would like a custom catering proposal.')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
-const CAMPAIGN = 'dubai-food-trends-report-2026'
 
 /* ────────────────────── Data ────────────────────── */
 
@@ -250,7 +248,7 @@ export default function DubaiFoodTrendsReport2026() {
             The catering and private-dining movements shaping Dubai events this year — from hyper-local ingredients and inclusive menus to chef-led tasting experiences and non-alcoholic beverage programmes.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 trends-hero-cta">
+            <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 trends-hero-cta">
               Request a Custom Menu
             </Link>
             <a
@@ -358,7 +356,7 @@ export default function DubaiFoodTrendsReport2026() {
           </div>
 
           <div className="mt-10 text-center">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary inline-flex items-center gap-2">
+            <Link to={`/inquiry`} className="btn-primary inline-flex items-center gap-2">
               Plan a Trend-Forward Menu <ArrowRight size={16} />
             </Link>
           </div>
@@ -418,7 +416,7 @@ export default function DubaiFoodTrendsReport2026() {
             Tell us about your event and we will design a menu that feels current, personal, and unmistakably Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">
+            <Link to={`/inquiry`} className="btn-primary">
               Request a Custom Proposal
             </Link>
             <a

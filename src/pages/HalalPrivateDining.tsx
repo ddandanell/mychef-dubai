@@ -33,7 +33,7 @@ const config: ServicePageConfig = {
           halal catering Dubai
         </Link>{' '}
         service. For larger guest lists, explore our{' '}
-        <Link to="/event-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
+        <Link to="/events" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           event catering Dubai
         </Link>{' '}
         options, or pair private dining with a{' '}
@@ -87,7 +87,7 @@ const config: ServicePageConfig = {
       Icon: PartyPopper,
       title: 'Celebration Private Dining',
       description: 'Birthdays, anniversaries, engagements and family milestones with bespoke halal menus designed around the occasion.',
-      link: '/private-dining-dubai',
+      link: '/private-chef-dubai',
     },
   ],
   useCasesEyebrow: 'WHERE HALAL PRIVATE DINING WORKS',

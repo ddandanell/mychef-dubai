@@ -38,7 +38,7 @@ const config: ServicePageConfig = {
           corporate event catering Dubai
         </Link>{' '}
         when you need a lighter-touch option. For larger celebrations, explore our full-service{' '}
-        <Link to="/event-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
+        <Link to="/events" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           event catering Dubai
         </Link>{' '}
         offering.
@@ -75,7 +75,7 @@ const config: ServicePageConfig = {
       Icon: PartyPopper,
       title: 'Small Event Drop-Off',
       description: 'Birthdays, baby showers and informal parties with ready-to-serve food and disposable serveware.',
-      link: '/party-catering-dubai',
+      link: '/private-party-catering-dubai',
     },
     {
       Icon: Clock,
@@ -123,7 +123,7 @@ const config: ServicePageConfig = {
   galleryImages: [
     { src: '/images/drop-off-catering-dubai-hero.webp', alt: 'Drop-off catering boxes and platters in Dubai' },
     { src: '/menu-appetizer.webp', alt: 'Shareable appetiser platters for drop-off catering' },
-    { src: '/menu-mains.webp', alt: 'Packed hot mains and salads for delivery' },
+    { src: '/menu-meat.webp', alt: 'Packed hot mains and salads for delivery' },
     { src: '/service-corporate.webp', alt: 'Office drop-off catering delivery' },
     { src: '/service-villa.webp', alt: 'Villa drop-off meal spread' },
     { src: '/menu-dessert.webp', alt: 'Individual dessert portions for drop-off events' },

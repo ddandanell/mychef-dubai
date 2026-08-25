@@ -22,12 +22,10 @@ export const BIRTHDAY_PATHS = {
 /** Supporting pages. Linked selectively where they help a decision — not all at once. */
 export const BIRTHDAY_SUPPORT = {
   privateChef: '/private-chef-dubai',
-  partyCatering: '/party-catering-dubai',
   privateParty: '/private-party-catering-dubai',
   poolParty: '/pool-party-catering-dubai',
   buffet: '/buffet-catering-dubai',
   canape: '/canape-catering-dubai',
-  fingerFood: '/finger-food-catering-dubai',
   grazing: '/grazing-table-dubai',
   bbq: '/bbq-catering-dubai',
   liveStations: '/live-cooking-stations-dubai',
@@ -132,7 +130,7 @@ export function birthdayBreadcrumb(pageName: string, path: string) {
 }
 
 export const BIRTHDAY_INQUIRY_HREF =
-  '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=birthday-catering-dubai'
+  '/inquiry'
 
 export const BIRTHDAY_WHATSAPP_MESSAGE =
   "Hi myCHEF, I'd like a quote for birthday catering"

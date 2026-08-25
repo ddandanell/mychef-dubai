@@ -37,12 +37,12 @@ const villaCommunities = [
   { image: '/loc-palm-jumeirah.webp', name: 'Palm Jumeirah', link: '/locations/palm-jumeirah' },
   { image: '/loc-emirates-hills.webp', name: 'Emirates Hills', link: '/locations/emirates-hills' },
   { image: '/loc-downtown.webp', name: 'Dubai Hills', link: '/locations/dubai-hills' },
-  { image: '/loc-dubai-marina.webp', name: 'Jumeirah Islands', link: '/locations/jumeirah-islands' },
   { image: '/loc-jbr.webp', name: 'Arabian Ranches', link: '/locations/arabian-ranches' },
-  { image: '/loc-difc.webp', name: 'Jumeirah Golf Estates', link: '/locations/jumeirah-golf-estates' },
 ]
 
 const extraCommunities = [
+  'Jumeirah Islands',
+  'Jumeirah Golf Estates',
   'The Springs',
   'The Meadows',
   'Al Barari',
@@ -247,7 +247,7 @@ export default function Villas() {
         imageAlt="Villa private chef in Dubai"
         imageWidth={1344}
         imageHeight={752}
-        cta={{ label: 'Plan My Villa Dining', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=villas-private-residences' }}
+        cta={{ label: 'Plan My Villa Dining', href: '/inquiry' }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Villas & Private Residences' }]}
         minHeight="tall"
@@ -370,7 +370,7 @@ export default function Villas() {
                 The myCHEF Villa Advantage
               </h2>
               <p className="font-inter text-body text-gray-500 mb-8" style={{ lineHeight: '1.7' }}>
-                Having a private chef in your villa transforms everyday dining into an extraordinary experience. No reservations, no travel, no crowds — just exceptional food, prepared exclusively for you in the comfort of your own home. We serve villa communities across Dubai including <Link to="/locations/palm-jumeirah" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Palm Jumeirah</Link>, <Link to="/locations/emirates-hills" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Emirates Hills</Link>, <Link to="/locations/arabian-ranches" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Arabian Ranches</Link>, <Link to="/locations/dubai-hills" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Dubai Hills</Link>, and <Link to="/locations/jumeirah-islands" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Jumeirah Islands</Link>. Browse our <Link to="/villa-catering-ideas-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">villa catering ideas</Link> for inspiration, or learn more about our <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef services in Dubai</Link>.
+                Having a private chef in your villa transforms everyday dining into an extraordinary experience. No reservations, no travel, no crowds — just exceptional food, prepared exclusively for you in the comfort of your own home. We serve villa communities across Dubai including <Link to="/locations/palm-jumeirah" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Palm Jumeirah</Link>, <Link to="/locations/emirates-hills" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Emirates Hills</Link>, <Link to="/locations/arabian-ranches" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Arabian Ranches</Link>, <Link to="/locations/dubai-hills" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Dubai Hills</Link>, and <Link to="/locations" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Jumeirah Islands</Link>. Browse our <Link to="/villa-catering-ideas-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">villa catering ideas</Link> for inspiration, or learn more about our <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef services in Dubai</Link>.
               </p>
               <div className="villa-features-grid space-y-6">
                 {villaFeatures.map((feat) => (
@@ -522,7 +522,7 @@ export default function Villas() {
             Whether it is one evening or your entire stay — we bring exceptional dining to your Dubai villa.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=villas-private-residences" className="btn-primary inline-flex items-center gap-2">
+            <Link to="/inquiry" className="btn-primary inline-flex items-center gap-2">
               <Phone size={18} />
               Plan My Villa Dining
             </Link>

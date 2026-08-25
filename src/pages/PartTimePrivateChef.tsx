@@ -19,13 +19,11 @@ import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { SectionLabel } from '../components/system'
 
-
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to discuss a part-time private chef (via mychef.ae/part-time-private-chef-dubai)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 const CANONICAL_PATH = '/part-time-private-chef-dubai'
-const CAMPAIGN = 'part-time-private-chef'
 
 const benefits = [
   {
@@ -208,7 +206,7 @@ export default function PartTimePrivateChef() {
             Regular chef support 2–3 days per week — meal planning, shopping, cooking, and cleanup — without the cost or commitment of a full-time placement.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 pt-hero-cta">Get My Part-Time Chef Quote</Link>
+            <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 pt-hero-cta">Get My Part-Time Chef Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -342,7 +340,7 @@ export default function PartTimePrivateChef() {
             Tell us your schedule, household size, and dietary needs. We will bring you a vetted chef who fits your rhythm and your budget.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Get My Part-Time Chef Quote</Link>
+            <Link to={`/inquiry`} className="btn-primary">Get My Part-Time Chef Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

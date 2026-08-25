@@ -73,7 +73,7 @@ const config: DietaryPageConfig = {
       Icon: Home,
       title: 'Villa & Home Gluten-Free Menus',
       description: 'Full-service gluten-free dining at home across Palm Jumeirah, Emirates Hills and Dubai Hills, cooked and served on-site.',
-      link: '/villa-catering-dubai',
+      link: '/villas-private-residences',
     },
     {
       Icon: Building,

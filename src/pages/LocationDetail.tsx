@@ -4,6 +4,7 @@ import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import { ORGANIZATION_REF } from '@/lib/organizationSchema'
+import { locationPath } from '@/data/locations'
 import {
   MapPin,
   Phone,
@@ -127,6 +128,12 @@ export default function LocationDetail() {
   if (!loc) {
     return (
       <div className="min-h-screen bg-black flex items-center justify-center text-center px-4">
+        <SEO
+          title="Location Not Found"
+          description="We serve all of Dubai. Explore our locations or contact us directly."
+          canonicalPath="/locations"
+          noindex
+        />
         <div>
           <h1 className="font-playfair text-3xl text-white mb-4">Location Not Found</h1>
           <p className="text-gray-400 mb-8">We serve all of Dubai. Explore our locations or contact us directly.</p>
@@ -211,7 +218,7 @@ export default function LocationDetail() {
             Tell us your occasion and we will bring you a vetted chef in this area within 24 hours.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=locations-${loc.slug}`} className="btn-primary opacity-0 translate-y-4 loc-hero-cta">
+            <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 loc-hero-cta">
               Check Availability
             </Link>
             <a
@@ -413,7 +420,7 @@ export default function LocationDetail() {
             {loc.nearbyLocations.map((nearby, i) => (
               <Link
                 key={i}
-                to={`/locations/${nearby.slug}`}
+                to={locationPath(nearby.slug)}
                 className="loc-link group bg-cream p-6 hover:bg-black transition-all duration-300 opacity-0"
               >
                 <div className="flex items-center justify-between mb-3">
@@ -564,7 +571,7 @@ export default function LocationDetail() {
             {loc.callToAction.subtitle}
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=locations-${loc.slug}`} className="btn-primary">
+            <Link to={`/inquiry`} className="btn-primary">
               Check Availability
             </Link>
             <a

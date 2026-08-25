@@ -81,7 +81,7 @@ const config: ServicePageConfig = {
       Icon: Truck,
       title: 'Mobile Cart Hire',
       description: 'Compact, transportable carts suitable for venues, offices, outdoor events and private homes.',
-      link: '/party-catering-dubai',
+      link: '/private-party-catering-dubai',
     },
   ],
   useCasesEyebrow: 'WHERE DESSERT CARTS WORK',

@@ -19,13 +19,11 @@ import { breadcrumbSchema, faqPageSchema, serviceSchema } from '../utils/schema'
 import FaqAccordion from '../components/FaqAccordion'
 import { SectionLabel } from '../components/system'
 
-
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to know more about MyChef Certified (via mychef.ae/mychef-certified)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 const CANONICAL_PATH = '/mychef-certified'
-const CAMPAIGN = 'mychef-certified'
 
 const inclusions = [
   {
@@ -227,7 +225,7 @@ export default function MyChefCertified() {
             A certification that means something. Every chef on our platform passes in-person auditions, background checks, food-safety verification, and halal-competency screening.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 mc-hero-cta">Book a Certified Chef</Link>
+            <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 mc-hero-cta">Book a Certified Chef</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -396,7 +394,7 @@ export default function MyChefCertified() {
             Every myCHEF Dubai chef is MyChef Certified. Tell us about your event and we will bring you a chef who has already earned our trust.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Book a Certified Chef</Link>
+            <Link to={`/inquiry`} className="btn-primary">Book a Certified Chef</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

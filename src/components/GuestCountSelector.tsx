@@ -35,7 +35,7 @@ const recommendations: Record<RangeKey, Recommendation> = {
       { icon: Cake, label: 'Date Night Package', link: '/date-night-package-dubai' },
     ],
     price: 'From AED 750 per person',
-    ctaPath: '/inquiry?utm_source=mychef.ae&utm_medium=guest_selector&utm_campaign=catering-dubai',
+    ctaPath: '/inquiry',
   },
   small: {
     title: 'Small Parties',
@@ -47,7 +47,7 @@ const recommendations: Record<RangeKey, Recommendation> = {
       { icon: PartyPopper, label: 'Family Feast Package', link: '/family-feast-package-dubai' },
     ],
     price: 'From AED 180 per person',
-    ctaPath: '/inquiry?utm_source=mychef.ae&utm_medium=guest_selector&utm_campaign=catering-dubai',
+    ctaPath: '/inquiry',
   },
   medium: {
     title: 'Mid-Size Events',
@@ -59,7 +59,7 @@ const recommendations: Record<RangeKey, Recommendation> = {
       { icon: Cake, label: 'Birthday Package', link: '/birthday-catering-package-dubai' },
     ],
     price: 'From AED 150 per person',
-    ctaPath: '/inquiry?utm_source=mychef.ae&utm_medium=guest_selector&utm_campaign=catering-dubai',
+    ctaPath: '/inquiry',
   },
   large: {
     title: 'Large Celebrations',
@@ -68,10 +68,10 @@ const recommendations: Record<RangeKey, Recommendation> = {
       { icon: UtensilsCrossed, label: 'Buffet Catering', link: '/buffet-catering-dubai' },
       { icon: Flame, label: 'Live Cooking Stations', link: '/live-cooking-stations-dubai' },
       { icon: GlassWater, label: 'Bar Services', link: '/bar-services-dubai' },
-      { icon: PartyPopper, label: 'Party Catering', link: '/party-catering-dubai' },
+      { icon: PartyPopper, label: 'Party Catering', link: '/private-party-catering-dubai' },
     ],
     price: 'From AED 130 per person',
-    ctaPath: '/inquiry?utm_source=mychef.ae&utm_medium=guest_selector&utm_campaign=catering-dubai',
+    ctaPath: '/inquiry',
   },
   grand: {
     title: 'Grand Events',
@@ -83,7 +83,7 @@ const recommendations: Record<RangeKey, Recommendation> = {
       { icon: PartyPopper, label: 'Corporate Events', link: '/corporate-event-catering-dubai' },
     ],
     price: 'Custom quote for 100+ guests',
-    ctaPath: '/inquiry?utm_source=mychef.ae&utm_medium=guest_selector&utm_campaign=catering-dubai',
+    ctaPath: '/inquiry',
   },
 }
 

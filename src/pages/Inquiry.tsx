@@ -98,6 +98,7 @@ export default function Inquiry() {
         canonicalPath="/inquiry"
         ogImage="/service-catering.webp"
         noindex
+        hideSiteName
         schema={breadcrumbSchema(breadcrumbs) as unknown as Record<string, unknown>}
       />
 

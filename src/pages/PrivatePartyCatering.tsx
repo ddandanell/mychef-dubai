@@ -3,6 +3,7 @@ import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
+import { locationPath } from '@/data/locations'
 import {
   Home,
   Flame,
@@ -89,6 +90,14 @@ const useCases = [
     title: 'Intimate Home Celebrations',
     description: 'Even for smaller groups, a dedicated chef and host elevate the evening. We handle the cooking, serving, and cleanup so you can host without lifting a finger.',
   },
+  {
+    title: 'Bachelor, Bachelorette & Baby Showers',
+    description: 'Hen weekends, stag nights and showers are still party catering — the menu just reads differently. Grazing tables and passed bites for a bachelorette afternoon, a BBQ or live grill for a stag villa, an alcohol-free mocktail bar and pastel dessert table for a baby shower. Tell us the occasion and the guest list and we build the format around it.',
+  },
+  {
+    title: 'Yacht & Marina Parties',
+    description: 'Canapé receptions, sharing platters and chilled drinks designed for the water — compact, mess-free menus that plate cleanly on deck and hold up in the heat around Dubai Marina and Bluewaters. We coordinate loading, timing and service with the charter crew.',
+  },
 ]
 
 const galleryImages = [
@@ -162,10 +171,10 @@ const faqs = [
 
 const relatedServices = [
   {
-    title: 'Party Catering',
-    description: 'The hub for birthdays, showers, and every kind of private celebration.',
+    title: 'Birthday Catering',
+    description: 'Milestone birthdays at home, in a villa or on a yacht — menu, staff and styling handled.',
     image: '/service-events.webp',
-    link: '/party-catering-dubai',
+    link: '/birthday-catering-dubai',
   },
   {
     title: 'Luxury Catering',
@@ -355,7 +364,7 @@ export default function PrivatePartyCatering() {
             <ol className="flex items-center justify-center gap-2 font-inter text-body-sm">
               <li><Link to="/" className="text-gray-400 hover:text-gold transition-colors">Home</Link></li>
               <li className="text-gray-400">/</li>
-              <li><Link to="/party-catering-dubai" className="text-gray-400 hover:text-gold transition-colors">Party Catering</Link></li>
+              <li><Link to="/events" className="text-gray-400 hover:text-gold transition-colors">Events</Link></li>
               <li className="text-gray-400">/</li>
               <li><span className="text-gold">Private Party</span></li>
             </ol>
@@ -368,7 +377,7 @@ export default function PrivatePartyCatering() {
             Villa and home parties brought to life — live cooking stations, passed canapés, signature cocktails, and a full team of chefs and service staff, all handled for you.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=private-party-catering-dubai" className="btn-primary opacity-0 translate-y-4 ppc-hero-cta">Plan My Private Party</Link>
+            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 ppc-hero-cta">Plan My Private Party</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -395,7 +404,7 @@ export default function PrivatePartyCatering() {
             The best private parties feel effortless — for the guests and, just as importantly, for the host. At myCHEF Dubai, we bring everything a great party needs directly to your villa or home: a private chef, partner chefs, live cooking stations, a styled bar, and attentive service staff who look after every detail from the first welcome drink to the final clear-down.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Whether you are planning an intimate dinner, a lively cocktail reception, or a large celebration spilling across the garden and terrace, we design the menu and service around your space and your guests. Private party catering sits within our broader <Link to="/party-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">party catering in Dubai</Link> and our full <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering service</Link>. Explore <Link to="/canape-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">canapé catering</Link> and <Link to="/live-cooking-stations-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">live cooking stations</Link> for more formats.
+            Whether you are planning an intimate dinner, a lively cocktail reception, or a large celebration spilling across the garden and terrace, we design the menu and service around your space and your guests. This is the page for party catering in Dubai of every kind — birthdays, bachelor and bachelorette nights, baby showers, house parties, milestone dinners and yacht gatherings — and it sits inside our full <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering service</Link>. Explore <Link to="/canape-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">canapé catering</Link> and <Link to="/live-cooking-stations-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">live cooking stations</Link> for more formats.
           </p>
         </div>
       </section>
@@ -515,7 +524,7 @@ export default function PrivatePartyCatering() {
             {locations.map((loc) => (
               <Link
                 key={loc.slug}
-                to={`/locations/${loc.slug}`}
+                to={locationPath(loc.slug)}
                 className="ppc-loc-item flex items-center gap-2 font-inter text-sm text-gray-400 hover:text-gold transition-colors opacity-0"
               >
                 <span className="w-1.5 h-1.5 rounded-full bg-gold flex-shrink-0" />
@@ -572,7 +581,7 @@ export default function PrivatePartyCatering() {
             Tell us about your party and your space, and we'll design the menu, bar, and service to bring it all together.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=private-party-catering-dubai" className="btn-primary">Plan My Private Party</Link>
+            <Link to="/inquiry" className="btn-primary">Plan My Private Party</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

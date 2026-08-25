@@ -117,7 +117,7 @@ const config: OccasionPageConfig = {
   galleryImages: [
     { src: '/images/easter-catering-dubai-hero.webp', alt: 'Easter catering setup in Dubai' },
     { src: '/menu-appetizer.webp', alt: 'Spring appetisers for an Easter brunch' },
-    { src: '/menu-mains.webp', alt: 'Roast lamb and Easter main dishes' },
+    { src: '/menu-meat.webp', alt: 'Roast lamb and Easter main dishes' },
     { src: '/menu-dessert.webp', alt: 'Easter desserts and chocolate treats' },
     { src: '/service-events.webp', alt: 'Event catering service in Dubai' },
     { src: '/service-luxury-dining.webp', alt: 'Luxury private dining experience in Dubai' },

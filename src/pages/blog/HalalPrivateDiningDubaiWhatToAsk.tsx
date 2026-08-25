@@ -18,7 +18,7 @@ const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I read your Halal Private Dining in Dubai blog and would like a custom quote (via mychef.ae/blog/halal-private-dining-dubai-what-to-ask)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
-const CTA_HREF = '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=halal-private-dining-dubai-what-to-ask'
+const CTA_HREF = '/inquiry'
 const SLUG = 'halal-private-dining-dubai-what-to-ask'
 
 const faqs = [

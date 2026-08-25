@@ -29,9 +29,7 @@ const config: ServicePageConfig = {
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
         This service fits naturally within our wider{' '}
-        <Link to="/party-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
-          party catering Dubai
-        </Link>{' '}
+        party catering Dubai{' '}
         range and pairs well with{' '}
         <Link to="/private-party-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           private party catering Dubai
@@ -74,7 +72,7 @@ const config: ServicePageConfig = {
       Icon: Building,
       title: 'School & University Events',
       description: 'Catering for campus halls, school courtyards, auditoriums and graduation venues with scalable service.',
-      link: '/event-catering-dubai',
+      link: '/events',
     },
     {
       Icon: GraduationCap,
@@ -155,12 +153,6 @@ const config: ServicePageConfig = {
     },
   ],
   relatedServices: [
-    {
-      title: 'Party Catering Dubai',
-      description: 'The hub for birthdays, celebrations and every kind of private party across Dubai.',
-      image: '/service-events.webp',
-      link: '/party-catering-dubai',
-    },
     {
       title: 'Private Party Catering',
       description: 'Intimate home and villa parties with personalised menus and full service.',

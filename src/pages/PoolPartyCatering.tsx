@@ -30,7 +30,7 @@ const config: OccasionPageConfig = {
           BBQ catering Dubai
         </Link>{' '}
         for live grilling, or see how this fits with our{' '}
-        <Link to="/villa-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
+        <Link to="/villas-private-residences" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           villa catering Dubai
         </Link>{' '}
         service.
@@ -67,13 +67,13 @@ const config: OccasionPageConfig = {
       Icon: Home,
       title: 'Villa Pool Parties',
       description: 'fully-coordinated catering at your villa across Dubai, with waterproof-style setup, service and pack-down.',
-      link: '/villa-catering-dubai',
+      link: '/villas-private-residences',
     },
     {
       Icon: Sun,
       title: 'Beach Club & Venue Parties',
       description: 'Catering coordination for Dubai beach clubs, hotel pools and licensed venues with outdoor service.',
-      link: '/event-catering-dubai',
+      link: '/events',
     },
   ],
   useCasesEyebrow: 'WHERE POOL PARTY CATERING SHINES',
@@ -164,7 +164,7 @@ const config: OccasionPageConfig = {
       title: 'Villa Catering',
       description: 'Full-service dining at your Dubai villa, garden or terrace.',
       image: '/service-villa.webp',
-      link: '/villa-catering-dubai',
+      link: '/villas-private-residences',
     },
   ],
   ctaH2: 'Plan the Perfect Pool Party Menu',

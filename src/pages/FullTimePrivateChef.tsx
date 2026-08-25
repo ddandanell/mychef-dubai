@@ -20,13 +20,11 @@ import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { SectionLabel } from '../components/system'
 
-
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to hire a full-time private chef (via mychef.ae/full-time-private-chef-dubai)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 const CANONICAL_PATH = '/full-time-private-chef-dubai'
-const CAMPAIGN = 'full-time-private-chef'
 
 const inclusions = [
   {
@@ -231,7 +229,7 @@ export default function FullTimePrivateChef() {
             A dedicated chef for your household, matched to your family's tastes, schedule, and dietary needs. Vetted, experienced, and ready to move in.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 fp-hero-cta">Get My Full-Time Chef Quote</Link>
+            <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 fp-hero-cta">Get My Full-Time Chef Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -400,7 +398,7 @@ export default function FullTimePrivateChef() {
             Tell us about your household, schedule, and cuisine preferences. We will bring you a vetted full-time private chef who fits your home.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Get My Full-Time Chef Quote</Link>
+            <Link to={`/inquiry`} className="btn-primary">Get My Full-Time Chef Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

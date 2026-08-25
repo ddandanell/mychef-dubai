@@ -1,6 +1,10 @@
-// Data-driven SEO content applied on top of existing pages (MYCHEF-BLOCK-MAP handoff).
-// Text only — no images, no layout, no styling changes. Each route loads only its own
-// JSON (code-split via import.meta.glob) so the payload never bloats a single bundle.
+// Data-driven SEO metadata for handoff pages (MYCHEF-BLOCK-MAP handoff).
+// Since 2026-08-26 the researched body copy (opening_paragraph / replace_in_block /
+// add_block) is NOT rendered on commercial pages any more: it produced a second
+// article under every page ("The details") that duplicated the page above it.
+// The JSON stays because SeoHead still reads `head` on routes that do not own
+// their own <SEO>, and HandoffPage renders its full-page routes from it. Each
+// route loads only its own JSON (code-split via import.meta.glob).
 import routes from './routes.json'
 
 export interface SeoAddBlock {
@@ -115,8 +119,6 @@ export const SKIP_SEO_HEAD_ROUTES: ReadonlySet<string> = new Set([
   '/farewell-catering-dubai',
   '/fathers-day-catering-dubai',
   '/festive-catering-dubai',
-  '/film-crew-catering-dubai',
-  '/finger-food-catering-dubai',
   '/fitness-meal-prep-dubai',
   '/fodmap-catering-dubai',
   '/full-time-private-chef-dubai',
@@ -172,7 +174,6 @@ export const SKIP_SEO_HEAD_ROUTES: ReadonlySet<string> = new Set([
   '/our-chefs',
   '/oyster-bar-dubai',
   '/part-time-private-chef-dubai',
-  '/party-catering-dubai',
   '/pescatarian-catering-dubai',
   '/picnic-catering-dubai',
   '/pool-party-catering-dubai',
@@ -182,7 +183,6 @@ export const SKIP_SEO_HEAD_ROUTES: ReadonlySet<string> = new Set([
   '/private-chef-dubai/our-chefs',
   '/private-chef-dubai/quality-training',
   '/private-chef-dubai/privacy-security',
-  '/private-chef-dubai/pricing',
   '/private-chef-prices-dubai',
   '/private-chef-vs-catering-dubai',
   '/private-cooking-classes-dubai',
@@ -218,24 +218,9 @@ export const SKIP_SEO_HEAD_ROUTES: ReadonlySet<string> = new Set([
   '/yachts',
 ])
 
-/** Commercial pages that own their own body copy. SeoContent must not append a second article. */
-export const SKIP_SEO_BODY_ROUTES: ReadonlySet<string> = new Set([
-  '/birthday-catering-dubai',
-  '/blog',
-  '/blog/wedding-catering-cost-dubai',
-  '/catering-dubai',
-  '/corporate',
-  '/corporate-event-catering-dubai',
-  '/luxury-dining-experiences',
-  '/private-jet-catering-dubai',
-  '/site-map',
-  '/wedding-catering-checklist-dubai',
-  '/wedding-catering-dubai',
-  '/wedding-catering-menu-planning-dubai',
-])
 
 // Handoff routes that have NO existing page component — rendered as a full page by
-// HandoffPage. The shared SeoContent/SeoHead injectors skip these so nothing double-renders.
+// HandoffPage. SeoHead skips these so nothing double-renders.
 export const FULLPAGE_ROUTES: ReadonlySet<string> = new Set([
   '/best-catering-companies-dubai',
   '/blog/brunch-at-home-dubai',

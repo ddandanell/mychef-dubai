@@ -4,6 +4,7 @@ import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import { ArrowRight } from 'lucide-react'
 import { SectionLabel } from '@/components/system'
+import { locationPath } from '@/data/locations'
 
 const locations = [
   { image: '/loc-palm-jumeirah.webp', name: 'Palm Jumeirah', slug: 'palm-jumeirah' },
@@ -82,7 +83,7 @@ export default function LocationsSection() {
           {locations.map((loc) => (
             <Link
               key={loc.slug}
-              to={`/locations/${loc.slug}`}
+              to={locationPath(loc.slug)}
               className="location-card group relative aspect-[3/4] block overflow-hidden bg-black focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-gold"
             >
               <img

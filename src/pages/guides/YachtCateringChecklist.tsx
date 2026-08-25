@@ -27,7 +27,7 @@ import { SectionLabel } from '../../components/system'
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to discuss yacht catering (via mychef.ae/yacht-catering-checklist-dubai)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
-const UTM_PARAMS = '?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=yacht-catering-checklist-dubai'
+
 
 /* ────────────────────── Data ────────────────────── */
 
@@ -143,7 +143,7 @@ const menuIdeas = [
 ]
 
 const internalLinks = [
-  { title: 'Yacht Catering Dubai', link: '/yacht-catering-dubai', description: 'Compact, elegant menus designed for Dubai yacht events.' },
+  { title: 'Yacht Catering Dubai', link: '/yachts', description: 'Compact, elegant menus designed for Dubai yacht events.' },
   { title: 'Canapé Catering Dubai', link: '/canape-catering-dubai', description: 'Bite-sized reception menus perfect for yacht boarding and welcome drinks.' },
   { title: 'BBQ Catering Dubai', link: '/bbq-catering-dubai', description: 'Grill-focused menus for villas, poolsides, and outdoor events.' },
   { title: 'Mediterranean Catering Dubai', link: '/mediterranean-catering-dubai', description: 'Fresh, sun-inspired dishes ideal for cruising the Arabian Gulf.' },
@@ -321,7 +321,7 @@ export default function YachtCateringChecklist() {
             Plan a flawless yacht charter around Dubai Marina, Palm Jumeirah, and the Arabian Gulf — from first enquiry to final cleanup.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry${UTM_PARAMS}`} className="btn-primary opacity-0 translate-y-4 yacht-hero-cta">Plan My Yacht Menu</Link>
+            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 yacht-hero-cta">Plan My Yacht Menu</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -510,7 +510,7 @@ export default function YachtCateringChecklist() {
             We specialise in bespoke yacht catering across Dubai Marina, Palm Jumeirah, and the Arabian Gulf. Tell us about your charter and we will build a menu that works beautifully at sea.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry${UTM_PARAMS}`} className="btn-primary">Plan My Yacht Menu</Link>
+            <Link to="/inquiry" className="btn-primary">Plan My Yacht Menu</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

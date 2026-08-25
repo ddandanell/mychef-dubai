@@ -7,6 +7,7 @@ import PageHero from '../components/PageHero'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import { MapPin, ArrowRight, Phone } from 'lucide-react'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
+import { locationPath } from '@/data/locations'
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to request a quote (via mychef.ae/locations)')
@@ -84,7 +85,7 @@ export default function Locations() {
         image="/images/locations-dubai-hero.webp"
         imageAlt="Map of Dubai locations served by myCHEF"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Locations' }]}
-        cta={{ label: 'Request a Custom Quote', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=locations' }}
+        cta={{ label: 'Request a Custom Quote', href: '/inquiry' }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         minHeight="medium"
         overlay="dark"
@@ -94,11 +95,14 @@ export default function Locations() {
       {/* Location Cards Grid */}
       <section className="py-24 bg-black">
         <div className="container-custom">
+          <h2 className="font-playfair text-2xl md:text-3xl text-white text-center mb-10">
+            Dubai neighbourhoods we serve
+          </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {dubaiLocations.map((loc) => (
               <Link
                 key={loc.slug}
-                to={`/locations/${loc.slug}`}
+                to={locationPath(loc.slug)}
                 className="gsap-loc-card group relative overflow-hidden bg-charcoal block"
               >
                 <div className="aspect-[4/3] overflow-hidden">

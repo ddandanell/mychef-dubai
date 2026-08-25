@@ -3,6 +3,7 @@ import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
+import { locationPath } from '@/data/locations'
 import {
   Sparkles,
   Drumstick,
@@ -310,7 +311,7 @@ export default function EidCatering() {
             Halal Eid al-Fitr and Eid al-Adha feasts for family gatherings across Dubai — ouzi and whole-lamb roasts, generous mezze and grills, and traditional Eid sweets.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=eid-catering-dubai" className="btn-primary opacity-0 translate-y-4 eid-hero-cta">Get an Eid Quote</Link>
+            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 eid-hero-cta">Get an Eid Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -461,7 +462,7 @@ export default function EidCatering() {
             {locations.map((loc) => (
               <Link
                 key={loc.slug}
-                to={`/locations/${loc.slug}`}
+                to={locationPath(loc.slug)}
                 className="eid-loc-item flex items-center gap-2 font-inter text-sm text-gray-400 hover:text-gold transition-colors opacity-0"
               >
                 <span className="w-1.5 h-1.5 rounded-full bg-gold flex-shrink-0" />
@@ -518,7 +519,7 @@ export default function EidCatering() {
             Tell us about your Eid gathering and we'll design a halal feast — ouzi, grills, and sweets — handle the cooking and service, and let you enjoy the day. Book six to eight weeks ahead to secure your dates.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=eid-catering-dubai" className="btn-primary">Get an Eid Quote</Link>
+            <Link to="/inquiry" className="btn-primary">Get an Eid Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

@@ -8,7 +8,6 @@
   <url><loc>https://www.mychef.ae/corporate</loc><lastmod>2026-08-25</lastmod><priority>0.9</priority><changefreq>weekly</changefreq></url>
   <url><loc>https://www.mychef.ae/events</loc><lastmod>2026-08-25</lastmod><priority>0.9</priority><changefreq>weekly</changefreq></url>
   <url><loc>https://www.mychef.ae/luxury-dining-experiences</loc><lastmod>2026-08-25</lastmod><priority>0.9</priority><changefreq>weekly</changefreq></url>
-  <url><loc>https://www.mychef.ae/party-catering-dubai</loc><lastmod>2026-08-25</lastmod><priority>0.9</priority><changefreq>weekly</changefreq></url>
   <url><loc>https://www.mychef.ae/private-chef-dubai</loc><lastmod>2026-08-25</lastmod><priority>1.0</priority><changefreq>weekly</changefreq></url>
   <url><loc>https://www.mychef.ae/private-chef-prices-dubai</loc><lastmod>2026-08-25</lastmod><priority>0.9</priority><changefreq>weekly</changefreq></url>
   <url><loc>https://www.mychef.ae/villas-private-residences</loc><lastmod>2026-08-25</lastmod><priority>0.9</priority><changefreq>weekly</changefreq></url>
@@ -16,9 +15,6 @@
 
   <!-- Private chef cluster -->
   <url><loc>https://www.mychef.ae/private-chef-dubai/how-it-works</loc><lastmod>2026-08-25</lastmod><priority>0.8</priority><changefreq>weekly</changefreq></url>
-  <url><loc>https://www.mychef.ae/private-chef-dubai/how-your-plan-works</loc><lastmod>2026-08-25</lastmod><priority>0.8</priority><changefreq>weekly</changefreq></url>
-  <url><loc>https://www.mychef.ae/private-chef-dubai/privacy-security</loc><lastmod>2026-08-25</lastmod><priority>0.8</priority><changefreq>weekly</changefreq></url>
-  <url><loc>https://www.mychef.ae/private-chef-dubai/quality-training</loc><lastmod>2026-08-25</lastmod><priority>0.8</priority><changefreq>weekly</changefreq></url>
 
   <!-- Event & party spokes -->
   <url><loc>https://www.mychef.ae/afternoon-tea-catering-dubai</loc><lastmod>2026-08-25</lastmod><priority>0.7</priority><changefreq>weekly</changefreq></url>
@@ -48,7 +44,6 @@
   <url><loc>https://www.mychef.ae/canape-catering-dubai</loc><lastmod>2026-08-25</lastmod><priority>0.8</priority><changefreq>weekly</changefreq></url>
   <url><loc>https://www.mychef.ae/cocktail-party-catering-dubai</loc><lastmod>2026-08-25</lastmod><priority>0.8</priority><changefreq>weekly</changefreq></url>
   <url><loc>https://www.mychef.ae/dessert-table-catering-dubai</loc><lastmod>2026-08-25</lastmod><priority>0.7</priority><changefreq>weekly</changefreq></url>
-  <url><loc>https://www.mychef.ae/finger-food-catering-dubai</loc><lastmod>2026-08-25</lastmod><priority>0.7</priority><changefreq>weekly</changefreq></url>
   <url><loc>https://www.mychef.ae/mocktail-bar-catering-dubai</loc><lastmod>2026-08-25</lastmod><priority>0.7</priority><changefreq>weekly</changefreq></url>
 
   <!-- Cuisines -->
@@ -77,7 +72,6 @@
   <url><loc>https://www.mychef.ae/conference-catering-dubai</loc><lastmod>2026-08-25</lastmod><priority>0.7</priority><changefreq>weekly</changefreq></url>
   <url><loc>https://www.mychef.ae/corporate-event-catering-dubai</loc><lastmod>2026-08-25</lastmod><priority>0.8</priority><changefreq>weekly</changefreq></url>
   <url><loc>https://www.mychef.ae/corporate-meal-prep-dubai</loc><lastmod>2026-08-25</lastmod><priority>0.7</priority><changefreq>weekly</changefreq></url>
-  <url><loc>https://www.mychef.ae/film-crew-catering-dubai</loc><lastmod>2026-08-25</lastmod><priority>0.7</priority><changefreq>weekly</changefreq></url>
   <url><loc>https://www.mychef.ae/office-catering-dubai</loc><lastmod>2026-08-25</lastmod><priority>0.8</priority><changefreq>weekly</changefreq></url>
   <url><loc>https://www.mychef.ae/production-catering-dubai</loc><lastmod>2026-08-25</lastmod><priority>0.7</priority><changefreq>weekly</changefreq></url>
   <url><loc>https://www.mychef.ae/staff-meals-catering-dubai</loc><lastmod>2026-08-25</lastmod><priority>0.7</priority><changefreq>weekly</changefreq></url>
@@ -205,13 +199,6 @@
   <url><loc>https://www.mychef.ae/gala-dinner-catering-dubai</loc><lastmod>2026-08-25</lastmod><priority>0.7</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://www.mychef.ae/private-cooking-classes-dubai</loc><lastmod>2026-08-25</lastmod><priority>0.7</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://www.mychef.ae/product-launch-catering-dubai</loc><lastmod>2026-08-25</lastmod><priority>0.7</priority><changefreq>monthly</changefreq></url>
-
-  <!-- Utility -->
-  <url><loc>https://www.mychef.ae/site-map</loc><lastmod>2026-08-25</lastmod><priority>0.5</priority><changefreq>monthly</changefreq></url>
-
-  <!-- Legal -->
-  <url><loc>https://www.mychef.ae/privacy-policy</loc><lastmod>2026-08-25</lastmod><priority>0.3</priority><changefreq>yearly</changefreq></url>
-  <url><loc>https://www.mychef.ae/terms</loc><lastmod>2026-08-25</lastmod><priority>0.3</priority><changefreq>yearly</changefreq></url>
 
   <!-- Other -->
   <url><loc>https://www.mychef.ae/allergy-safe-catering-dubai</loc><lastmod>2026-08-25</lastmod><priority>0.5</priority><changefreq>monthly</changefreq></url>

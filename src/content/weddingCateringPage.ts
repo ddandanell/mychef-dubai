@@ -10,7 +10,7 @@ export const WEDDING_KEYWORD_LOCK = {
 } as const
 
 export const WEDDING_INQUIRY_HREF =
-  '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=wedding-catering-dubai'
+  '/inquiry'
 
 export const WEDDING_WHATSAPP_MESSAGE =
   "Hi myCHEF Dubai, I'm planning wedding catering. Date: __, Guests: __, Venue: __, Format: __ (via mychef.ae/wedding-catering-dubai)"

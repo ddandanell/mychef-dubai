@@ -28,7 +28,7 @@ const config: DietaryPageConfig = {
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
         We know that nut-free food still needs to feel exciting. Chefs in our network use seeds, herbs, spices, crunchy vegetables and other ingredients to create texture and flavour without ever opening a nut packet. Explore our wider{' '}
-        <Link to="/event-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
+        <Link to="/events" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           event catering Dubai
         </Link>{' '}
         options, browse our{' '}
@@ -73,7 +73,7 @@ const config: DietaryPageConfig = {
       Icon: Home,
       title: 'Family & Home Events',
       description: 'Safe nut-free dining for birthdays, Eid, Diwali and family gatherings at home across Dubai.',
-      link: '/party-catering-dubai',
+      link: '/private-party-catering-dubai',
     },
   ],
   useCasesEyebrow: 'WHERE NUT-FREE CATERING MATTERS',

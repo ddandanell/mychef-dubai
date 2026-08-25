@@ -3,6 +3,7 @@ import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
+import { locationPath } from '@/data/locations'
 import {
   Cake,
   Coffee,
@@ -157,7 +158,7 @@ const faqs = [
   { q: "Do you cater baby showers in villas, apartments, and gardens?", a: "Yes, we cater baby showers across homes, villas, gardens, and apartments throughout Dubai, and we style each space to suit. Garden and villa showers work wonderfully with outdoor grazing tables, while apartments and living rooms suit a compact dessert-and-mocktail display. Tell us your venue and we'll plan a setup that fits the space and flow." },
   { q: "Do you handle the setup and styling, or just drop off the food?", a: "We handle the full setup and styling as standard, arriving early to build your grazing boards, dessert stands, mocktail station, florals, and props. The goal is a magazine-worthy spread that's ready before your first guest arrives. After the celebration we pack down and leave your space spotless." },
   { q: "How far in advance should I book during peak season?", a: "During Dubai's peak season from November to March, we recommend booking two to three weeks ahead, as dates fill quickly for showers and celebrations. Outside peak season, one to two weeks is usually comfortable for most baby showers. If your date is close, still reach out, we'll always try to accommodate." },
-  { q: "Can baby shower catering be combined with other party services?", a: "Yes, many clients pair a baby shower with a wider celebration or upgrade to a fuller spread. Baby showers sit within our broader [party catering](/party-catering-dubai) offering, so it's easy to scale up to a bigger event or add a live station, canapes, or a grazing table. Just tell us the vibe you want and we'll shape one seamless menu." },
+  { q: "Can baby shower catering be combined with other party services?", a: "Yes, many clients pair a baby shower with a wider celebration or upgrade to a fuller spread. Baby showers sit within our broader [party catering](/private-party-catering-dubai) offering, so it's easy to scale up to a bigger event or add a live station, canapes, or a grazing table. Just tell us the vibe you want and we'll shape one seamless menu." },
   { q: "What makes myCHEF different from booking a venue package for a baby shower?", a: "We come to your chosen space and build the entire experience around you, rather than fitting your celebration into a fixed venue slot and menu. That means your theme, palette, guest list, and dietary needs shape everything, from the grazing table to the mocktail bar. You get a private, personal shower at home with full-service catering and cleanup handled by our team." },
 ]
 
@@ -166,7 +167,7 @@ const relatedServices = [
     title: 'Party Catering',
     description: 'The hub for birthdays, showers, and private celebrations across Dubai.',
     image: '/service-events.webp',
-    link: '/party-catering-dubai',
+    link: '/private-party-catering-dubai',
   },
   {
     title: 'Luxury Catering',
@@ -308,7 +309,7 @@ export default function BabyShowerCatering() {
             <ol className="flex items-center justify-center gap-2 font-inter text-body-sm">
               <li><Link to="/" className="text-gray-400 hover:text-gold transition-colors">Home</Link></li>
               <li className="text-gray-400">/</li>
-              <li><Link to="/party-catering-dubai" className="text-gray-400 hover:text-gold transition-colors">Party Catering</Link></li>
+              <li><Link to="/events" className="text-gray-400 hover:text-gold transition-colors">Events</Link></li>
               <li className="text-gray-400">/</li>
               <li><span className="text-gold">Baby Shower</span></li>
             </ol>
@@ -321,7 +322,7 @@ export default function BabyShowerCatering() {
             Elegant grazing tables, delicate canapés, afternoon-tea menus, dessert displays, and fresh mocktails — beautifully styled to your theme for a baby shower to remember.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=baby-shower-catering-dubai" className="btn-primary opacity-0 translate-y-4 bsc-hero-cta">Plan My Baby Shower</Link>
+            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 bsc-hero-cta">Plan My Baby Shower</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -348,7 +349,7 @@ export default function BabyShowerCatering() {
             A baby shower is a soft, joyful kind of celebration — and the food should feel the same way. At myCHEF Dubai, we specialise in light, elegant catering that looks as lovely as it tastes: abundant grazing tables, delicate canapés, afternoon-tea bites, and dessert displays styled around your colours and theme.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Everything is alcohol-free by default, with a fresh mocktail bar designed to feel celebratory and special. Chefs in our network handle the styling, the service, and the cleanup, so the mum-to-be and her guests can simply relax and enjoy the moment. Baby shower catering is part of our wider <Link to="/party-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">party catering in Dubai</Link>, pairs beautifully with our <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering service</Link>, and matches perfectly with a styled <Link to="/grazing-table-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">grazing table</Link>.
+            Everything is alcohol-free by default, with a fresh mocktail bar designed to feel celebratory and special. Chefs in our network handle the styling, the service, and the cleanup, so the mum-to-be and her guests can simply relax and enjoy the moment. Baby shower catering is part of our wider <Link to="/private-party-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">party catering in Dubai</Link>, pairs beautifully with our <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering service</Link>, and matches perfectly with a styled <Link to="/grazing-table-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">grazing table</Link>.
           </p>
         </div>
       </section>
@@ -468,7 +469,7 @@ export default function BabyShowerCatering() {
             {locations.map((loc) => (
               <Link
                 key={loc.slug}
-                to={`/locations/${loc.slug}`}
+                to={locationPath(loc.slug)}
                 className="bsc-loc-item flex items-center gap-2 font-inter text-sm text-gray-400 hover:text-gold transition-colors opacity-0"
               >
                 <span className="w-1.5 h-1.5 rounded-full bg-gold flex-shrink-0" />
@@ -525,7 +526,7 @@ export default function BabyShowerCatering() {
             Share your theme, palette, and guest count, and we'll craft a grazing, dessert, and mocktail experience to match.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=baby-shower-catering-dubai" className="btn-primary">Plan My Baby Shower</Link>
+            <Link to="/inquiry" className="btn-primary">Plan My Baby Shower</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

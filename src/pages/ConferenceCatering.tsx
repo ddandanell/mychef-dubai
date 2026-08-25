@@ -3,6 +3,7 @@ import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
+import { locationPath } from '@/data/locations'
 import {
   Coffee,
   Utensils,
@@ -301,7 +302,7 @@ export default function ConferenceCatering() {
             Coffee breaks, working lunches, and multi-day refreshments — timed precisely around your agenda to keep delegates energised across conferences and seminars in Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=conference-catering-dubai" className="btn-primary opacity-0 translate-y-4 conf-hero-cta">Get My Conference Catering Quote</Link>
+            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 conf-hero-cta">Get My Conference Catering Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -452,7 +453,7 @@ export default function ConferenceCatering() {
             {locations.map((loc) => (
               <Link
                 key={loc.slug}
-                to={`/locations/${loc.slug}`}
+                to={locationPath(loc.slug)}
                 className="conf-loc-item flex items-center gap-2 font-inter text-sm text-gray-400 hover:text-gold transition-colors opacity-0"
               >
                 <span className="w-1.5 h-1.5 rounded-full bg-gold flex-shrink-0" />
@@ -509,7 +510,7 @@ export default function ConferenceCatering() {
             Share your agenda, delegate numbers, and venue, and we'll build a timed catering plan — coffee breaks, working lunches, and multi-day menus — that keeps your conference running smoothly.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=conference-catering-dubai" className="btn-primary">Get My Conference Catering Quote</Link>
+            <Link to="/inquiry" className="btn-primary">Get My Conference Catering Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

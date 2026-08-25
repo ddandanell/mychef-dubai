@@ -18,7 +18,7 @@ const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I read your Private Chef Palm Jumeirah guide and would like a custom quote (via mychef.ae/blog/private-chef-palm-jumeirah-guide)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
-const CTA_HREF = '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=private-chef-palm-jumeirah-guide'
+const CTA_HREF = '/inquiry'
 const SLUG = 'private-chef-palm-jumeirah-guide'
 
 const faqs = [

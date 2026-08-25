@@ -12,29 +12,59 @@
   "Do not hand-write a sibling list. Add the URL to the keyword map and regenerate."
  ],
  "stats": {
-  "pages": 216,
-  "linkable": 209,
-  "contextual_edges": 2020,
+  "pages": 212,
+  "linkable": 206,
+  "contextual_edges": 1959,
   "orphans": 0,
   "silos": 14
  },
  "do_not_link": [
   "/become-a-mychef",
+  "/case-studies/corporate-gala-dinner-downtown-dubai",
+  "/case-studies/family-eid-gathering-arabian-ranches",
+  "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
+  "/case-studies/product-launch-difc",
+  "/case-studies/villa-wedding-reception-emirates-hills",
+  "/case-studies/yacht-birthday-celebration-dubai-marina",
+  "/catering",
   "/chefs/sofia-pastry-chef",
   "/corporate-catering-dubai",
+  "/dessert-table-dubai",
+  "/event-catering-dubai",
+  "/film-crew-catering-dubai",
+  "/finger-food-catering-dubai",
   "/government-event-catering-dubai",
   "/healthcare-catering-dubai",
   "/inquiry",
+  "/live-cooking-station-dubai",
+  "/locations/al-barari",
+  "/locations/city-walk",
+  "/locations/dubai-creek-harbour",
+  "/locations/dubai-harbour",
+  "/locations/dubai-internet-city",
+  "/locations/dubai-mall",
+  "/locations/dubai-media-city",
+  "/locations/dwtc",
+  "/locations/jumeirah-golf-estates",
+  "/locations/jumeirah-islands",
+  "/locations/mall-of-the-emirates",
+  "/locations/meydan",
+  "/locations/mirdif",
+  "/luxury-dining-dubai",
   "/nursery-catering-dubai",
+  "/party-catering-dubai",
   "/private-chef-dubai/how-it-works",
   "/private-chef-dubai/how-your-plan-works",
   "/private-chef-dubai/our-chefs",
   "/private-chef-dubai/pricing",
   "/private-chef-dubai/privacy-security",
   "/private-chef-dubai/quality-training",
+  "/private-dining-dubai",
   "/school-catering-dubai",
   "/thank-you",
-  "/university-catering-dubai"
+  "/university-catering-dubai",
+  "/villa-catering-dubai",
+  "/yacht-catering-dubai"
  ],
  "orphans": [],
  "silos": {
@@ -91,7 +121,6 @@
    "/dessert-cart-dubai",
    "/dessert-table-catering-dubai",
    "/drop-off-catering-dubai",
-   "/finger-food-catering-dubai",
    "/grazing-table-dubai",
    "/live-cooking-stations-dubai",
    "/menus",
@@ -113,7 +142,6 @@
    "/corporate-meal-prep-dubai",
    "/corporate-retainer-dubai",
    "/exhibition-catering-dubai",
-   "/film-crew-catering-dubai",
    "/gala-dinner-catering-dubai",
    "/office-catering-dubai",
    "/product-launch-catering-dubai",
@@ -222,7 +250,6 @@
    "/private-chef-dubai/how-it-works",
    "/private-chef-dubai/how-your-plan-works",
    "/private-chef-dubai/our-chefs",
-   "/private-chef-dubai/pricing",
    "/private-chef-dubai/privacy-security",
    "/private-chef-dubai/quality-training",
    "/private-chef-prices-dubai",
@@ -247,7 +274,6 @@
    "/holi-catering-dubai",
    "/housewarming-catering-dubai",
    "/kids-birthday-catering-dubai",
-   "/party-catering-dubai",
    "/picnic-catering-dubai",
    "/pool-party-catering-dubai",
    "/private-party-catering-dubai",
@@ -538,12 +564,6 @@
      "label": "Dessert Table Catering",
      "keyword": "dessert table catering dubai",
      "silo": "Catering"
-    },
-    {
-     "url": "/birthday-catering-dubai",
-     "label": "Birthday Catering",
-     "keyword": "birthday catering dubai",
-     "silo": "Private Events"
     }
    ],
    "featured_children": [],
@@ -723,12 +743,6 @@
      "url": "/private-party-catering-dubai",
      "label": "Private Party Catering",
      "keyword": "private party catering dubai",
-     "silo": "Private Events"
-    },
-    {
-     "url": "/party-catering-dubai",
-     "label": "Party Catering",
-     "keyword": "party catering dubai",
      "silo": "Private Events"
     },
     {
@@ -936,16 +950,16 @@
      "silo": "Cuisines and Dietary"
     },
     {
-     "url": "/finger-food-catering-dubai",
-     "label": "Finger Food Catering",
-     "keyword": "finger food catering dubai",
-     "silo": "Catering"
-    },
-    {
      "url": "/locations/dubai-hills",
      "label": "Dubai Hills",
      "keyword": "private chef dubai hills",
      "silo": "Locations"
+    },
+    {
+     "url": "/breakfast-catering-dubai",
+     "label": "Breakfast Catering",
+     "keyword": "breakfast catering dubai",
+     "silo": "Seasonal and Occasions"
     }
    ],
    "featured_children": [],
@@ -1026,9 +1040,9 @@
      "silo": "Cuisines and Dietary"
     },
     {
-     "url": "/party-catering-dubai",
-     "label": "Party Catering",
-     "keyword": "party catering dubai",
+     "url": "/private-party-catering-dubai",
+     "label": "Private Party Catering",
+     "keyword": "private party catering dubai",
      "silo": "Private Events"
     }
    ],
@@ -1182,12 +1196,6 @@
    },
    "siblings": [
     {
-     "url": "/party-catering-dubai",
-     "label": "Party Catering",
-     "keyword": "party catering dubai",
-     "silo": "Private Events"
-    },
-    {
      "url": "/private-party-catering-dubai",
      "label": "Private Party Catering",
      "keyword": "private party catering dubai",
@@ -1209,6 +1217,12 @@
      "url": "/yachts",
      "label": "Yachts",
      "keyword": "yacht catering dubai",
+     "silo": "Catering"
+    },
+    {
+     "url": "/buffet-catering-dubai",
+     "label": "Buffet Catering",
+     "keyword": "buffet catering dubai",
      "silo": "Catering"
     }
    ],
@@ -1284,12 +1298,6 @@
    },
    "siblings": [
     {
-     "url": "/party-catering-dubai",
-     "label": "Party Catering",
-     "keyword": "party catering dubai",
-     "silo": "Private Events"
-    },
-    {
      "url": "/private-party-catering-dubai",
      "label": "Private Party Catering",
      "keyword": "private party catering dubai",
@@ -1312,6 +1320,12 @@
      "label": "Baby Shower Catering",
      "keyword": "baby shower catering dubai",
      "silo": "Private Events"
+    },
+    {
+     "url": "/buffet-catering-dubai",
+     "label": "Buffet Catering",
+     "keyword": "buffet catering dubai",
+     "silo": "Catering"
     }
    ],
    "featured_children": [],
@@ -1798,15 +1812,15 @@
      "silo": "Private Events"
     },
     {
-     "url": "/party-catering-dubai",
-     "label": "Party Catering",
-     "keyword": "party catering dubai",
-     "silo": "Private Events"
-    },
-    {
      "url": "/pool-party-catering-dubai",
      "label": "Pool Party Catering",
      "keyword": "pool party catering dubai",
+     "silo": "Private Events"
+    },
+    {
+     "url": "/anniversary-catering-dubai",
+     "label": "Anniversary Catering",
+     "keyword": "anniversary catering dubai",
      "silo": "Private Events"
     }
    ],
@@ -2450,15 +2464,15 @@
    },
    "siblings": [
     {
-     "url": "/blog/corporate-event-catering-ideas-dubai",
-     "label": "Corporate Event Catering Ideas",
-     "keyword": "corporate event catering ideas dubai",
-     "silo": "Blog and Guides"
-    },
-    {
      "url": "/corporate-catering-checklist-dubai",
      "label": "Corporate Catering Checklist",
      "keyword": "corporate catering checklist dubai",
+     "silo": "Blog and Guides"
+    },
+    {
+     "url": "/blog/corporate-event-catering-ideas-dubai",
+     "label": "Corporate Event Catering Ideas",
+     "keyword": "corporate event catering ideas dubai",
      "silo": "Blog and Guides"
     },
     {
@@ -2772,16 +2786,16 @@
    "silo_index": [],
    "commercial_owners": [
     {
-     "url": "/party-catering-dubai",
-     "label": "Party Catering",
-     "keyword": "party catering dubai",
-     "silo": "Private Events"
-    },
-    {
      "url": "/romantic-dinner-dubai",
      "label": "Romantic Dinner",
      "keyword": "romantic dinner dubai",
      "silo": "Dining Experiences"
+    },
+    {
+     "url": "/corporate-dinner-package-dubai",
+     "label": "Corporate Dinner Package",
+     "keyword": "corporate dinner package dubai",
+     "silo": "Corporate Catering"
     }
    ],
    "supporting_guides": [],
@@ -3686,15 +3700,15 @@
      "silo": "Blog and Guides"
     },
     {
-     "url": "/blog/best-private-chef-birthday-dinner-dubai",
-     "label": "Best Private Chef Birthday Dinner",
-     "keyword": "private chef birthday dinner dubai",
-     "silo": "Blog and Guides"
-    },
-    {
      "url": "/blog/private-chef-date-night-dubai",
      "label": "Private Chef Date Night",
      "keyword": "private chef date night dubai",
+     "silo": "Blog and Guides"
+    },
+    {
+     "url": "/blog/best-private-chef-birthday-dinner-dubai",
+     "label": "Best Private Chef Birthday Dinner",
+     "keyword": "private chef birthday dinner dubai",
      "silo": "Blog and Guides"
     }
    ],
@@ -4188,9 +4202,9 @@
      "silo": "Catering"
     },
     {
-     "url": "/party-catering-dubai",
-     "label": "Party Catering",
-     "keyword": "party catering dubai",
+     "url": "/private-party-catering-dubai",
+     "label": "Private Party Catering",
+     "keyword": "private party catering dubai",
      "silo": "Private Events"
     }
    ],
@@ -4398,15 +4412,15 @@
      "silo": "Corporate Catering"
     },
     {
-     "url": "/finger-food-catering-dubai",
-     "label": "Finger Food Catering",
-     "keyword": "finger food catering dubai",
-     "silo": "Catering"
+     "url": "/arabic-catering-dubai",
+     "label": "Arabic Catering",
+     "keyword": "arabic catering dubai",
+     "silo": "Cuisines and Dietary"
     },
     {
-     "url": "/party-catering-dubai",
-     "label": "Party Catering",
-     "keyword": "party catering dubai",
+     "url": "/private-party-catering-dubai",
+     "label": "Private Party Catering",
+     "keyword": "private party catering dubai",
      "silo": "Private Events"
     }
    ],
@@ -4488,12 +4502,6 @@
      "silo": "Seasonal and Occasions"
     },
     {
-     "url": "/finger-food-catering-dubai",
-     "label": "Finger Food Catering",
-     "keyword": "finger food catering dubai",
-     "silo": "Catering"
-    },
-    {
      "url": "/buffet-catering-dubai",
      "label": "Buffet Catering",
      "keyword": "buffet catering dubai",
@@ -4506,10 +4514,16 @@
      "silo": "Catering"
     },
     {
-     "url": "/party-catering-dubai",
-     "label": "Party Catering",
-     "keyword": "party catering dubai",
+     "url": "/private-party-catering-dubai",
+     "label": "Private Party Catering",
+     "keyword": "private party catering dubai",
      "silo": "Private Events"
+    },
+    {
+     "url": "/menus",
+     "label": "Menus",
+     "keyword": "catering menus dubai",
+     "silo": "Catering"
     }
    ],
    "featured_children": [],
@@ -4584,18 +4598,6 @@
    },
    "siblings": [
     {
-     "url": "/finger-food-catering-dubai",
-     "label": "Finger Food Catering",
-     "keyword": "finger food catering dubai",
-     "silo": "Catering"
-    },
-    {
-     "url": "/party-catering-dubai",
-     "label": "Party Catering",
-     "keyword": "party catering dubai",
-     "silo": "Private Events"
-    },
-    {
      "url": "/breakfast-catering-dubai",
      "label": "Breakfast Catering",
      "keyword": "breakfast catering dubai",
@@ -4611,6 +4613,18 @@
      "url": "/wedding-catering-dubai",
      "label": "Wedding Catering",
      "keyword": "wedding catering dubai",
+     "silo": "Catering"
+    },
+    {
+     "url": "/indian-catering-dubai",
+     "label": "Indian Catering",
+     "keyword": "indian catering dubai",
+     "silo": "Cuisines and Dietary"
+    },
+    {
+     "url": "/canape-catering-dubai",
+     "label": "Canape Catering",
+     "keyword": "canape catering dubai",
      "silo": "Catering"
     }
    ],
@@ -4645,15 +4659,15 @@
      "silo": "Locations"
     },
     {
-     "url": "/locations/palm-jumeirah",
-     "label": "Palm Jumeirah",
-     "keyword": "private chef palm jumeirah",
-     "silo": "Locations"
-    },
-    {
      "url": "/locations/dubai-marina",
      "label": "Dubai Marina",
      "keyword": "private chef dubai marina",
+     "silo": "Locations"
+    },
+    {
+     "url": "/locations/palm-jumeirah",
+     "label": "Palm Jumeirah",
+     "keyword": "private chef palm jumeirah",
      "silo": "Locations"
     }
    ]
@@ -4890,18 +4904,6 @@
      "silo": "Catering"
     },
     {
-     "url": "/finger-food-catering-dubai",
-     "label": "Finger Food Catering",
-     "keyword": "finger food catering dubai",
-     "silo": "Catering"
-    },
-    {
-     "url": "/party-catering-dubai",
-     "label": "Party Catering",
-     "keyword": "party catering dubai",
-     "silo": "Private Events"
-    },
-    {
      "url": "/corporate-event-catering-dubai",
      "label": "Corporate Event Catering",
      "keyword": "corporate event catering dubai",
@@ -4912,6 +4914,12 @@
      "label": "Private Party Catering",
      "keyword": "private party catering dubai",
      "silo": "Private Events"
+    },
+    {
+     "url": "/menus",
+     "label": "Menus",
+     "keyword": "catering menus dubai",
+     "silo": "Catering"
     }
    ],
    "featured_children": [],
@@ -5139,18 +5147,6 @@
      "silo": "Catering"
     },
     {
-     "url": "/party-catering-dubai",
-     "label": "Party Catering",
-     "keyword": "party catering dubai",
-     "silo": "Private Events"
-    },
-    {
-     "url": "/finger-food-catering-dubai",
-     "label": "Finger Food Catering",
-     "keyword": "finger food catering dubai",
-     "silo": "Catering"
-    },
-    {
      "url": "/private-party-catering-dubai",
      "label": "Private Party Catering",
      "keyword": "private party catering dubai",
@@ -5160,6 +5156,18 @@
      "url": "/bbq-catering-dubai",
      "label": "BBQ Catering",
      "keyword": "bbq catering dubai",
+     "silo": "Catering"
+    },
+    {
+     "url": "/corporate-event-catering-dubai",
+     "label": "Corporate Event Catering",
+     "keyword": "corporate event catering dubai",
+     "silo": "Corporate Catering"
+    },
+    {
+     "url": "/menus",
+     "label": "Menus",
+     "keyword": "catering menus dubai",
      "silo": "Catering"
     }
    ],
@@ -5213,12 +5221,6 @@
      "silo": "Seasonal and Occasions"
     },
     {
-     "url": "/finger-food-catering-dubai",
-     "label": "Finger Food Catering",
-     "keyword": "finger food catering dubai",
-     "silo": "Catering"
-    },
-    {
      "url": "/yachts",
      "label": "Yachts",
      "keyword": "yacht catering dubai",
@@ -5234,6 +5236,12 @@
      "url": "/menus",
      "label": "Menus",
      "keyword": "catering menus dubai",
+     "silo": "Catering"
+    },
+    {
+     "url": "/grazing-table-dubai",
+     "label": "Grazing Table",
+     "keyword": "grazing table dubai",
      "silo": "Catering"
     }
    ],
@@ -5309,12 +5317,6 @@
      "label": "Fathers Day Catering",
      "keyword": "fathers day catering dubai",
      "silo": "Private Events"
-    },
-    {
-     "url": "/grazing-table-dubai",
-     "label": "Grazing Table",
-     "keyword": "grazing table dubai",
-     "silo": "Catering"
     },
     {
      "url": "/halloween-catering-dubai",
@@ -5469,10 +5471,10 @@
      "silo": "Dining Experiences"
     },
     {
-     "url": "/party-catering-dubai",
-     "label": "Party Catering",
-     "keyword": "party catering dubai",
-     "silo": "Private Events"
+     "url": "/buffet-catering-dubai",
+     "label": "Buffet Catering",
+     "keyword": "buffet catering dubai",
+     "silo": "Catering"
     }
    ],
    "featured_children": [
@@ -6220,12 +6222,6 @@
    },
    "siblings": [
     {
-     "url": "/party-catering-dubai",
-     "label": "Party Catering",
-     "keyword": "party catering dubai",
-     "silo": "Private Events"
-    },
-    {
      "url": "/private-party-catering-dubai",
      "label": "Private Party Catering",
      "keyword": "private party catering dubai",
@@ -6410,12 +6406,6 @@
      "label": "Corporate Event Catering",
      "keyword": "corporate event catering dubai",
      "silo": "Corporate Catering"
-    },
-    {
-     "url": "/party-catering-dubai",
-     "label": "Party Catering",
-     "keyword": "party catering dubai",
-     "silo": "Private Events"
     },
     {
      "url": "/buffet-catering-dubai",
@@ -6607,12 +6597,6 @@
      "silo": "Corporate Catering"
     },
     {
-     "url": "/film-crew-catering-dubai",
-     "label": "Film Crew Catering",
-     "keyword": "film crew catering dubai",
-     "silo": "Corporate Catering"
-    },
-    {
      "url": "/gala-dinner-catering-dubai",
      "label": "Gala Dinner Catering",
      "keyword": "gala dinner catering dubai",
@@ -6668,15 +6652,15 @@
    ],
    "areas": [
     {
-     "url": "/locations/difc",
-     "label": "DIFC",
-     "keyword": "private chef difc",
-     "silo": "Locations"
-    },
-    {
      "url": "/locations/business-bay",
      "label": "Business Bay",
      "keyword": "private chef business bay",
+     "silo": "Locations"
+    },
+    {
+     "url": "/locations/difc",
+     "label": "DIFC",
+     "keyword": "private chef difc",
      "silo": "Locations"
     },
     {
@@ -6937,9 +6921,9 @@
      "silo": "Corporate Catering"
     },
     {
-     "url": "/party-catering-dubai",
-     "label": "Party Catering",
-     "keyword": "party catering dubai",
+     "url": "/private-party-catering-dubai",
+     "label": "Private Party Catering",
+     "keyword": "private party catering dubai",
      "silo": "Private Events"
     }
    ],
@@ -7217,18 +7201,6 @@
      "silo": "Private Events"
     },
     {
-     "url": "/finger-food-catering-dubai",
-     "label": "Finger Food Catering",
-     "keyword": "finger food catering dubai",
-     "silo": "Catering"
-    },
-    {
-     "url": "/party-catering-dubai",
-     "label": "Party Catering",
-     "keyword": "party catering dubai",
-     "silo": "Private Events"
-    },
-    {
      "url": "/buffet-catering-dubai",
      "label": "Buffet Catering",
      "keyword": "buffet catering dubai",
@@ -7388,15 +7360,15 @@
      "silo": "Locations"
     },
     {
-     "url": "/locations/jlt",
-     "label": "JLT",
-     "keyword": "private chef jlt",
-     "silo": "Locations"
-    },
-    {
      "url": "/locations/jumeirah",
      "label": "Jumeirah",
      "keyword": "private chef jumeirah",
+     "silo": "Locations"
+    },
+    {
+     "url": "/locations/jlt",
+     "label": "JLT",
+     "keyword": "private chef jlt",
      "silo": "Locations"
     }
    ]
@@ -7997,18 +7969,6 @@
      "label": "Buffet Catering",
      "keyword": "buffet catering dubai",
      "silo": "Catering"
-    },
-    {
-     "url": "/finger-food-catering-dubai",
-     "label": "Finger Food Catering",
-     "keyword": "finger food catering dubai",
-     "silo": "Catering"
-    },
-    {
-     "url": "/party-catering-dubai",
-     "label": "Party Catering",
-     "keyword": "party catering dubai",
-     "silo": "Private Events"
     }
    ],
    "featured_children": [],
@@ -8315,10 +8275,10 @@
      "silo": "Catering"
     },
     {
-     "url": "/finger-food-catering-dubai",
-     "label": "Finger Food Catering",
-     "keyword": "finger food catering dubai",
-     "silo": "Catering"
+     "url": "/new-year-catering-dubai",
+     "label": "New Year Catering",
+     "keyword": "new year catering dubai",
+     "silo": "Seasonal and Occasions"
     }
    ],
    "supporting_guides": [],
@@ -8551,12 +8511,6 @@
    },
    "siblings": [
     {
-     "url": "/party-catering-dubai",
-     "label": "Party Catering",
-     "keyword": "party catering dubai",
-     "silo": "Private Events"
-    },
-    {
      "url": "/private-party-catering-dubai",
      "label": "Private Party Catering",
      "keyword": "private party catering dubai",
@@ -8639,12 +8593,6 @@
      "silo": "Corporate Catering"
     },
     {
-     "url": "/party-catering-dubai",
-     "label": "Party Catering",
-     "keyword": "party catering dubai",
-     "silo": "Private Events"
-    },
-    {
      "url": "/private-party-catering-dubai",
      "label": "Private Party Catering",
      "keyword": "private party catering dubai",
@@ -8661,6 +8609,12 @@
      "label": "Buffet Catering",
      "keyword": "buffet catering dubai",
      "silo": "Catering"
+    },
+    {
+     "url": "/wedding-catering-dubai",
+     "label": "Wedding Catering",
+     "keyword": "wedding catering dubai",
+     "silo": "Catering"
     }
    ],
    "featured_children": [
@@ -8674,12 +8628,6 @@
      "url": "/kids-birthday-catering-dubai",
      "label": "Kids Birthday Catering",
      "keyword": "kids birthday catering dubai",
-     "silo": "Private Events"
-    },
-    {
-     "url": "/party-catering-dubai",
-     "label": "Party Catering",
-     "keyword": "party catering dubai",
      "silo": "Private Events"
     },
     {
@@ -8735,6 +8683,12 @@
      "label": "Graduation Catering",
      "keyword": "graduation catering dubai",
      "silo": "Private Events"
+    },
+    {
+     "url": "/housewarming-catering-dubai",
+     "label": "Housewarming Catering",
+     "keyword": "housewarming catering dubai",
+     "silo": "Private Events"
     }
    ],
    "silo_index": [
@@ -8778,12 +8732,6 @@
      "url": "/holi-catering-dubai",
      "label": "Holi Catering",
      "keyword": "holi catering dubai",
-     "silo": "Private Events"
-    },
-    {
-     "url": "/housewarming-catering-dubai",
-     "label": "Housewarming Catering",
-     "keyword": "housewarming catering dubai",
      "silo": "Private Events"
     }
    ],
@@ -8863,22 +8811,10 @@
      "silo": "Catering"
     },
     {
-     "url": "/party-catering-dubai",
-     "label": "Party Catering",
-     "keyword": "party catering dubai",
-     "silo": "Private Events"
-    },
-    {
      "url": "/corporate-event-catering-dubai",
      "label": "Corporate Event Catering",
      "keyword": "corporate event catering dubai",
      "silo": "Corporate Catering"
-    },
-    {
-     "url": "/finger-food-catering-dubai",
-     "label": "Finger Food Catering",
-     "keyword": "finger food catering dubai",
-     "silo": "Catering"
     },
     {
      "url": "/private-party-catering-dubai",
@@ -9113,12 +9049,6 @@
    },
    "siblings": [
     {
-     "url": "/party-catering-dubai",
-     "label": "Party Catering",
-     "keyword": "party catering dubai",
-     "silo": "Private Events"
-    },
-    {
      "url": "/private-party-catering-dubai",
      "label": "Private Party Catering",
      "keyword": "private party catering dubai",
@@ -9287,12 +9217,6 @@
    },
    "siblings": [
     {
-     "url": "/party-catering-dubai",
-     "label": "Party Catering",
-     "keyword": "party catering dubai",
-     "silo": "Private Events"
-    },
-    {
      "url": "/private-party-catering-dubai",
      "label": "Private Party Catering",
      "keyword": "private party catering dubai",
@@ -9325,186 +9249,6 @@
      "url": "/ramadan-catering-guide-dubai",
      "label": "Ramadan Catering Guide",
      "keyword": "ramadan catering guide dubai",
-     "silo": "Blog and Guides"
-    }
-   ],
-   "areas": [
-    {
-     "url": "/locations/downtown-dubai",
-     "label": "Downtown",
-     "keyword": "private chef downtown dubai",
-     "silo": "Locations"
-    },
-    {
-     "url": "/locations/dubai-marina",
-     "label": "Dubai Marina",
-     "keyword": "private chef dubai marina",
-     "silo": "Locations"
-    },
-    {
-     "url": "/locations/difc",
-     "label": "DIFC",
-     "keyword": "private chef difc",
-     "silo": "Locations"
-    }
-   ]
-  },
-  "/film-crew-catering-dubai": {
-   "url": "/film-crew-catering-dubai",
-   "silo": "Corporate Catering",
-   "hub": "/corporate",
-   "is_hub": false,
-   "page_type": "Commercial landing page",
-   "primary_keyword": "film crew catering dubai",
-   "breadcrumb": [
-    {
-     "url": "/",
-     "label": "Home"
-    },
-    {
-     "url": "/corporate",
-     "label": "Corporate"
-    },
-    {
-     "url": "/film-crew-catering-dubai",
-     "label": "Film Crew Catering"
-    }
-   ],
-   "uplink": {
-    "url": "/corporate",
-    "label": "Corporate",
-    "keyword": "corporate catering dubai"
-   },
-   "siblings": [
-    {
-     "url": "/production-catering-dubai",
-     "label": "Production Catering",
-     "keyword": "production catering dubai",
-     "silo": "Corporate Catering"
-    }
-   ],
-   "featured_children": [],
-   "silo_index": [],
-   "commercial_owners": [],
-   "supporting_guides": [
-    {
-     "url": "/dubai-catering-prices-guide",
-     "label": "Dubai Catering Prices Guide",
-     "keyword": "catering prices dubai",
-     "silo": "Blog and Guides"
-    },
-    {
-     "url": "/best-catering-companies-dubai",
-     "label": "Best Catering Companies",
-     "keyword": "best catering companies dubai",
-     "silo": "Blog and Guides"
-    },
-    {
-     "url": "/blog/corporate-catering-full-service-vs-drop-off",
-     "label": "Corporate Catering Full Service vs Drop Off",
-     "keyword": "full service vs drop off catering dubai",
-     "silo": "Blog and Guides"
-    }
-   ],
-   "areas": [
-    {
-     "url": "/locations/downtown-dubai",
-     "label": "Downtown",
-     "keyword": "private chef downtown dubai",
-     "silo": "Locations"
-    },
-    {
-     "url": "/locations/dubai-marina",
-     "label": "Dubai Marina",
-     "keyword": "private chef dubai marina",
-     "silo": "Locations"
-    },
-    {
-     "url": "/locations/difc",
-     "label": "DIFC",
-     "keyword": "private chef difc",
-     "silo": "Locations"
-    }
-   ]
-  },
-  "/finger-food-catering-dubai": {
-   "url": "/finger-food-catering-dubai",
-   "silo": "Catering",
-   "hub": "/catering-dubai",
-   "is_hub": false,
-   "page_type": "Commercial landing page",
-   "primary_keyword": "finger food catering dubai",
-   "breadcrumb": [
-    {
-     "url": "/",
-     "label": "Home"
-    },
-    {
-     "url": "/catering-dubai",
-     "label": "Catering"
-    },
-    {
-     "url": "/finger-food-catering-dubai",
-     "label": "Finger Food Catering"
-    }
-   ],
-   "uplink": {
-    "url": "/catering-dubai",
-    "label": "Catering",
-    "keyword": "catering dubai"
-   },
-   "siblings": [
-    {
-     "url": "/buffet-catering-dubai",
-     "label": "Buffet Catering",
-     "keyword": "buffet catering dubai",
-     "silo": "Catering"
-    },
-    {
-     "url": "/private-party-catering-dubai",
-     "label": "Private Party Catering",
-     "keyword": "private party catering dubai",
-     "silo": "Private Events"
-    },
-    {
-     "url": "/menus",
-     "label": "Menus",
-     "keyword": "catering menus dubai",
-     "silo": "Catering"
-    },
-    {
-     "url": "/party-catering-dubai",
-     "label": "Party Catering",
-     "keyword": "party catering dubai",
-     "silo": "Private Events"
-    },
-    {
-     "url": "/canape-catering-dubai",
-     "label": "Canape Catering",
-     "keyword": "canape catering dubai",
-     "silo": "Catering"
-    }
-   ],
-   "featured_children": [],
-   "silo_index": [],
-   "commercial_owners": [],
-   "supporting_guides": [
-    {
-     "url": "/blog/corporate-event-catering-ideas-dubai",
-     "label": "Corporate Event Catering Ideas",
-     "keyword": "corporate event catering ideas dubai",
-     "silo": "Blog and Guides"
-    },
-    {
-     "url": "/dubai-catering-prices-guide",
-     "label": "Dubai Catering Prices Guide",
-     "keyword": "catering prices dubai",
-     "silo": "Blog and Guides"
-    },
-    {
-     "url": "/blog/yacht-party-menu-ideas-dubai",
-     "label": "Yacht Party Menu Ideas",
-     "keyword": "yacht party menu ideas dubai",
      "silo": "Blog and Guides"
     }
    ],
@@ -10192,12 +9936,6 @@
    },
    "siblings": [
     {
-     "url": "/party-catering-dubai",
-     "label": "Party Catering",
-     "keyword": "party catering dubai",
-     "silo": "Private Events"
-    },
-    {
      "url": "/private-party-catering-dubai",
      "label": "Private Party Catering",
      "keyword": "private party catering dubai",
@@ -10207,12 +9945,6 @@
      "url": "/buffet-catering-dubai",
      "label": "Buffet Catering",
      "keyword": "buffet catering dubai",
-     "silo": "Catering"
-    },
-    {
-     "url": "/finger-food-catering-dubai",
-     "label": "Finger Food Catering",
-     "keyword": "finger food catering dubai",
      "silo": "Catering"
     }
    ],
@@ -10916,18 +10648,6 @@
    },
    "siblings": [
     {
-     "url": "/finger-food-catering-dubai",
-     "label": "Finger Food Catering",
-     "keyword": "finger food catering dubai",
-     "silo": "Catering"
-    },
-    {
-     "url": "/party-catering-dubai",
-     "label": "Party Catering",
-     "keyword": "party catering dubai",
-     "silo": "Private Events"
-    },
-    {
      "url": "/private-party-catering-dubai",
      "label": "Private Party Catering",
      "keyword": "private party catering dubai",
@@ -10944,6 +10664,12 @@
      "label": "Buffet Catering",
      "keyword": "buffet catering dubai",
      "silo": "Catering"
+    },
+    {
+     "url": "/kids-birthday-catering-dubai",
+     "label": "Kids Birthday Catering",
+     "keyword": "kids birthday catering dubai",
+     "silo": "Private Events"
     }
    ],
    "featured_children": [],
@@ -11192,12 +10918,6 @@
    },
    "siblings": [
     {
-     "url": "/party-catering-dubai",
-     "label": "Party Catering",
-     "keyword": "party catering dubai",
-     "silo": "Private Events"
-    },
-    {
      "url": "/private-party-catering-dubai",
      "label": "Private Party Catering",
      "keyword": "private party catering dubai",
@@ -11235,15 +10955,15 @@
    ],
    "areas": [
     {
-     "url": "/locations/dubai-hills",
-     "label": "Dubai Hills",
-     "keyword": "private chef dubai hills",
-     "silo": "Locations"
-    },
-    {
      "url": "/locations/downtown-dubai",
      "label": "Downtown",
      "keyword": "private chef downtown dubai",
+     "silo": "Locations"
+    },
+    {
+     "url": "/locations/dubai-hills",
+     "label": "Dubai Hills",
+     "keyword": "private chef dubai hills",
      "silo": "Locations"
     },
     {
@@ -11640,12 +11360,6 @@
      "silo": "Catering"
     },
     {
-     "url": "/party-catering-dubai",
-     "label": "Party Catering",
-     "keyword": "party catering dubai",
-     "silo": "Private Events"
-    },
-    {
      "url": "/private-party-catering-dubai",
      "label": "Private Party Catering",
      "keyword": "private party catering dubai",
@@ -11661,6 +11375,12 @@
      "url": "/italian-catering-dubai",
      "label": "Italian Catering",
      "keyword": "italian catering dubai",
+     "silo": "Cuisines and Dietary"
+    },
+    {
+     "url": "/arabic-catering-dubai",
+     "label": "Arabic Catering",
+     "keyword": "arabic catering dubai",
      "silo": "Cuisines and Dietary"
     }
    ],
@@ -11734,14 +11454,7 @@
     "label": "Partners",
     "keyword": null
    },
-   "siblings": [
-    {
-     "url": "/finger-food-catering-dubai",
-     "label": "Finger Food Catering",
-     "keyword": "finger food catering dubai",
-     "silo": "Catering"
-    }
-   ],
+   "siblings": [],
    "featured_children": [],
    "silo_index": [],
    "commercial_owners": [],
@@ -12076,9 +11789,9 @@
      "silo": "Private Events"
     },
     {
-     "url": "/party-catering-dubai",
-     "label": "Party Catering",
-     "keyword": "party catering dubai",
+     "url": "/pool-party-catering-dubai",
+     "label": "Pool Party Catering",
+     "keyword": "pool party catering dubai",
      "silo": "Private Events"
     }
    ],
@@ -12344,12 +12057,6 @@
      "silo": "Private Chef"
     },
     {
-     "url": "/party-catering-dubai",
-     "label": "Party Catering",
-     "keyword": "party catering dubai",
-     "silo": "Private Events"
-    },
-    {
      "url": "/full-time-private-chef-dubai",
      "label": "Full Time Private Chef",
      "keyword": "full time private chef dubai",
@@ -12360,6 +12067,12 @@
      "label": "Birthday Catering",
      "keyword": "birthday catering dubai",
      "silo": "Private Events"
+    },
+    {
+     "url": "/how-it-works",
+     "label": "How It Works",
+     "keyword": "how to book a private chef dubai",
+     "silo": "Private Chef"
     }
    ],
    "featured_children": [],
@@ -13685,12 +13398,6 @@
    },
    "siblings": [
     {
-     "url": "/finger-food-catering-dubai",
-     "label": "Finger Food Catering",
-     "keyword": "finger food catering dubai",
-     "silo": "Catering"
-    },
-    {
      "url": "/buffet-catering-dubai",
      "label": "Buffet Catering",
      "keyword": "buffet catering dubai",
@@ -13703,16 +13410,22 @@
      "silo": "Private Events"
     },
     {
-     "url": "/party-catering-dubai",
-     "label": "Party Catering",
-     "keyword": "party catering dubai",
-     "silo": "Private Events"
-    },
-    {
      "url": "/tasting-menu-dubai",
      "label": "Tasting Menu",
      "keyword": "private chef tasting menu dubai",
      "silo": "Dining Experiences"
+    },
+    {
+     "url": "/business-lunch-catering-dubai",
+     "label": "Business Lunch Catering",
+     "keyword": "business lunch catering dubai",
+     "silo": "Corporate Catering"
+    },
+    {
+     "url": "/family-feast-package-dubai",
+     "label": "Family Feast Package",
+     "keyword": "family catering dubai",
+     "silo": "Packages"
     }
    ],
    "featured_children": [],
@@ -13732,9 +13445,9 @@
      "silo": "Blog and Guides"
     },
     {
-     "url": "/best-catering-companies-dubai",
-     "label": "Best Catering Companies",
-     "keyword": "best catering companies dubai",
+     "url": "/villa-catering-ideas-dubai",
+     "label": "Villa Catering Ideas",
+     "keyword": "villa catering ideas dubai",
      "silo": "Blog and Guides"
     }
    ],
@@ -15381,108 +15094,6 @@
     }
    ]
   },
-  "/party-catering-dubai": {
-   "url": "/party-catering-dubai",
-   "silo": "Private Events",
-   "hub": "/events",
-   "is_hub": false,
-   "page_type": "Commercial landing page",
-   "primary_keyword": "party catering dubai",
-   "breadcrumb": [
-    {
-     "url": "/",
-     "label": "Home"
-    },
-    {
-     "url": "/events",
-     "label": "Events"
-    },
-    {
-     "url": "/party-catering-dubai",
-     "label": "Party Catering"
-    }
-   ],
-   "uplink": {
-    "url": "/events",
-    "label": "Events",
-    "keyword": "event catering dubai"
-   },
-   "siblings": [
-    {
-     "url": "/private-party-catering-dubai",
-     "label": "Private Party Catering",
-     "keyword": "private party catering dubai",
-     "silo": "Private Events"
-    },
-    {
-     "url": "/bachelorette-party-catering-dubai",
-     "label": "Bachelorette Party Catering",
-     "keyword": "bachelorette party catering dubai",
-     "silo": "Private Events"
-    },
-    {
-     "url": "/pool-party-catering-dubai",
-     "label": "Pool Party Catering",
-     "keyword": "pool party catering dubai",
-     "silo": "Private Events"
-    },
-    {
-     "url": "/bachelor-party-catering-dubai",
-     "label": "Bachelor Party Catering",
-     "keyword": "bachelor party catering dubai",
-     "silo": "Private Events"
-    },
-    {
-     "url": "/buffet-catering-dubai",
-     "label": "Buffet Catering",
-     "keyword": "buffet catering dubai",
-     "silo": "Catering"
-    }
-   ],
-   "featured_children": [],
-   "silo_index": [],
-   "commercial_owners": [],
-   "supporting_guides": [
-    {
-     "url": "/dubai-catering-prices-guide",
-     "label": "Dubai Catering Prices Guide",
-     "keyword": "catering prices dubai",
-     "silo": "Blog and Guides"
-    },
-    {
-     "url": "/blog/dinner-party-menu-ideas-dubai",
-     "label": "Dinner Party Menu Ideas",
-     "keyword": "dinner party menu ideas dubai",
-     "silo": "Blog and Guides"
-    },
-    {
-     "url": "/blog/yacht-party-menu-ideas-dubai",
-     "label": "Yacht Party Menu Ideas",
-     "keyword": "yacht party menu ideas dubai",
-     "silo": "Blog and Guides"
-    }
-   ],
-   "areas": [
-    {
-     "url": "/locations/downtown-dubai",
-     "label": "Downtown",
-     "keyword": "private chef downtown dubai",
-     "silo": "Locations"
-    },
-    {
-     "url": "/locations/jumeirah",
-     "label": "Jumeirah",
-     "keyword": "private chef jumeirah",
-     "silo": "Locations"
-    },
-    {
-     "url": "/locations/dubai-marina",
-     "label": "Dubai Marina",
-     "keyword": "private chef dubai marina",
-     "silo": "Locations"
-    }
-   ]
-  },
   "/pescatarian-catering-dubai": {
    "url": "/pescatarian-catering-dubai",
    "silo": "Cuisines and Dietary",
@@ -15607,12 +15218,6 @@
      "silo": "Catering"
     },
     {
-     "url": "/party-catering-dubai",
-     "label": "Party Catering",
-     "keyword": "party catering dubai",
-     "silo": "Private Events"
-    },
-    {
      "url": "/private-party-catering-dubai",
      "label": "Private Party Catering",
      "keyword": "private party catering dubai",
@@ -15691,12 +15296,6 @@
    },
    "siblings": [
     {
-     "url": "/party-catering-dubai",
-     "label": "Party Catering",
-     "keyword": "party catering dubai",
-     "silo": "Private Events"
-    },
-    {
      "url": "/private-party-catering-dubai",
      "label": "Private Party Catering",
      "keyword": "private party catering dubai",
@@ -15718,6 +15317,12 @@
      "url": "/bachelorette-party-catering-dubai",
      "label": "Bachelorette Party Catering",
      "keyword": "bachelorette party catering dubai",
+     "silo": "Private Events"
+    },
+    {
+     "url": "/bachelor-party-catering-dubai",
+     "label": "Bachelor Party Catering",
+     "keyword": "bachelor party catering dubai",
      "silo": "Private Events"
     }
    ],
@@ -16311,58 +15916,6 @@
     }
    ]
   },
-  "/private-chef-dubai/pricing": {
-   "url": "/private-chef-dubai/pricing",
-   "silo": "Private Chef",
-   "hub": "/private-chef-dubai",
-   "is_hub": false,
-   "page_type": null,
-   "primary_keyword": "private chef dubai prices",
-   "breadcrumb": [
-    {
-     "url": "/",
-     "label": "Home"
-    },
-    {
-     "url": "/private-chef-dubai",
-     "label": "Private Chef"
-    },
-    {
-     "url": "/private-chef-dubai/pricing",
-     "label": "Pricing"
-    }
-   ],
-   "uplink": {
-    "url": "/private-chef-dubai",
-    "label": "Private Chef",
-    "keyword": "private chef dubai"
-   },
-   "siblings": [],
-   "featured_children": [],
-   "silo_index": [],
-   "commercial_owners": [],
-   "supporting_guides": [],
-   "areas": [
-    {
-     "url": "/locations/jlt",
-     "label": "JLT",
-     "keyword": "private chef jlt",
-     "silo": "Locations"
-    },
-    {
-     "url": "/locations/jumeirah",
-     "label": "Jumeirah",
-     "keyword": "private chef jumeirah",
-     "silo": "Locations"
-    },
-    {
-     "url": "/locations/jvc",
-     "label": "JVC",
-     "keyword": "private chef jvc",
-     "silo": "Locations"
-    }
-   ]
-  },
   "/private-chef-dubai/privacy-security": {
    "url": "/private-chef-dubai/privacy-security",
    "silo": "Private Chef",
@@ -16885,12 +16438,6 @@
    },
    "siblings": [
     {
-     "url": "/party-catering-dubai",
-     "label": "Party Catering",
-     "keyword": "party catering dubai",
-     "silo": "Private Events"
-    },
-    {
      "url": "/kids-birthday-catering-dubai",
      "label": "Kids Birthday Catering",
      "keyword": "kids birthday catering dubai",
@@ -16912,6 +16459,12 @@
      "url": "/pool-party-catering-dubai",
      "label": "Pool Party Catering",
      "keyword": "pool party catering dubai",
+     "silo": "Private Events"
+    },
+    {
+     "url": "/bachelorette-party-catering-dubai",
+     "label": "Bachelorette Party Catering",
+     "keyword": "bachelorette party catering dubai",
      "silo": "Private Events"
     }
    ],
@@ -16986,12 +16539,6 @@
     "keyword": "corporate catering dubai"
    },
    "siblings": [
-    {
-     "url": "/party-catering-dubai",
-     "label": "Party Catering",
-     "keyword": "party catering dubai",
-     "silo": "Private Events"
-    },
     {
      "url": "/corporate-event-catering-dubai",
      "label": "Corporate Event Catering",
@@ -17075,14 +16622,7 @@
     "label": "Corporate",
     "keyword": "corporate catering dubai"
    },
-   "siblings": [
-    {
-     "url": "/film-crew-catering-dubai",
-     "label": "Film Crew Catering",
-     "keyword": "film crew catering dubai",
-     "silo": "Corporate Catering"
-    }
-   ],
+   "siblings": [],
    "featured_children": [],
    "silo_index": [],
    "commercial_owners": [],
@@ -17567,12 +17107,6 @@
    },
    "siblings": [
     {
-     "url": "/party-catering-dubai",
-     "label": "Party Catering",
-     "keyword": "party catering dubai",
-     "silo": "Private Events"
-    },
-    {
      "url": "/private-party-catering-dubai",
      "label": "Private Party Catering",
      "keyword": "private party catering dubai",
@@ -17725,15 +17259,15 @@
      "silo": "Blog and Guides"
     },
     {
-     "url": "/blog/best-private-chef-birthday-dinner-dubai",
-     "label": "Best Private Chef Birthday Dinner",
-     "keyword": "private chef birthday dinner dubai",
+     "url": "/guide/private-dining-dubai",
+     "label": "Private Dining",
+     "keyword": "private dining dubai",
      "silo": "Blog and Guides"
     },
     {
-     "url": "/blog/dinner-party-menu-ideas-dubai",
-     "label": "Dinner Party Menu Ideas",
-     "keyword": "dinner party menu ideas dubai",
+     "url": "/blog/best-private-chef-birthday-dinner-dubai",
+     "label": "Best Private Chef Birthday Dinner",
+     "keyword": "private chef birthday dinner dubai",
      "silo": "Blog and Guides"
     }
    ],
@@ -19303,22 +18837,10 @@
      "silo": "Catering"
     },
     {
-     "url": "/party-catering-dubai",
-     "label": "Party Catering",
-     "keyword": "party catering dubai",
-     "silo": "Private Events"
-    },
-    {
      "url": "/private-party-catering-dubai",
      "label": "Private Party Catering",
      "keyword": "private party catering dubai",
      "silo": "Private Events"
-    },
-    {
-     "url": "/finger-food-catering-dubai",
-     "label": "Finger Food Catering",
-     "keyword": "finger food catering dubai",
-     "silo": "Catering"
     },
     {
      "url": "/menus",
@@ -19897,9 +19419,9 @@
      "silo": "Private Events"
     },
     {
-     "url": "/party-catering-dubai",
-     "label": "Party Catering",
-     "keyword": "party catering dubai",
+     "url": "/bachelor-party-catering-dubai",
+     "label": "Bachelor Party Catering",
+     "keyword": "bachelor party catering dubai",
      "silo": "Private Events"
     },
     {
@@ -19907,12 +19429,6 @@
      "label": "Dubai Marina",
      "keyword": "private chef dubai marina",
      "silo": "Locations"
-    },
-    {
-     "url": "/bachelor-party-catering-dubai",
-     "label": "Bachelor Party Catering",
-     "keyword": "bachelor party catering dubai",
-     "silo": "Private Events"
     }
    ],
    "featured_children": [],

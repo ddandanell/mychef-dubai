@@ -12,7 +12,9 @@
     "prerender": "tsx scripts/prerender.ts",
     "sitemap:generate": "tsx scripts/generate-sitemap.ts",
     "verify:meta": "tsx scripts/verify-meta.ts",
-    "verify:seo-contract": "python3 scripts/verify-seo-contract.py"
+    "verify:seo-contract": "python3 scripts/verify-seo-contract.py",
+    "verify:retirements": "python3 scripts/verify-retirements.py",
+    "retire:url": "python3 scripts/retire-url.py"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",

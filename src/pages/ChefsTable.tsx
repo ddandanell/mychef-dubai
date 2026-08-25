@@ -19,7 +19,6 @@ import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { SectionLabel } from '../components/system'
 
-
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to book a chef\'s table experience (via mychef.ae/chefs-table-dubai)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
@@ -27,7 +26,6 @@ const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}
 const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'm interested in a chef's table experience in Dubai. Date: __ Guests: __ Area: __"
 
 const CANONICAL_PATH = '/chefs-table-dubai'
-const CAMPAIGN = 'chefs-table'
 
 const formats = [
   {
@@ -208,7 +206,7 @@ export default function ChefsTable() {
             Interactive multi-course tasting experiences where the chef becomes part of the evening. For Dubai hosts who want dinner and entertainment in one.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 ct-hero-cta">Plan My Chef's Table</Link>
+            <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 ct-hero-cta">Plan My Chef's Table</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -351,7 +349,7 @@ export default function ChefsTable() {
             Tell us your group size, preferred cuisine, and any occasion. We will design a chef's table or omakase evening your guests will talk about for years.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Plan My Chef's Table</Link>
+            <Link to={`/inquiry`} className="btn-primary">Plan My Chef's Table</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

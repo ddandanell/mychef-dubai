@@ -479,7 +479,7 @@ export default function Events() {
         imageAlt="Event catering in Dubai"
         imageWidth={1344}
         imageHeight={752}
-        cta={{ label: 'Get an Event Catering Quote', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=events' }}
+        cta={{ label: 'Get an Event Catering Quote', href: '/inquiry' }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Events' }]}
         minHeight="large"
@@ -501,7 +501,7 @@ export default function Events() {
               From intimate gatherings to grand occasions, myCHEF Dubai delivers
               flawless service and bespoke menus for every kind of{' '}
               <Link
-                to="/party-catering-dubai"
+                to="/private-party-catering-dubai"
                 className="text-gold hover:text-gold-dark underline underline-offset-4 transition-colors"
               >
                 party catering Dubai
@@ -673,7 +673,7 @@ export default function Events() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
-                to="/inquiry?utm_source=mychef.ae&utm_medium=trust_section&utm_campaign=events"
+                to="/inquiry"
                 className="btn-primary"
               >
                 Plan My Event
@@ -829,7 +829,7 @@ export default function Events() {
               experience your guests will never forget.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=events" className="btn-primary">Get an Event Catering Quote</Link>
+              <Link to="/inquiry" className="btn-primary">Get an Event Catering Quote</Link>
               <a
                 href={WHATSAPP_LINK}
                 target="_blank"

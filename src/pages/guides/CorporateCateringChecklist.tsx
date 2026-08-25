@@ -271,7 +271,7 @@ export default function CorporateCateringChecklist() {
             A practical checklist for planning office breakfasts, working lunches, boardroom meetings, and corporate events in Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=corporate-catering-checklist-dubai" className="btn-primary opacity-0 translate-y-4 corp-hero-cta">Get My Custom Quote</Link>
+            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 corp-hero-cta">Get My Custom Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -458,7 +458,7 @@ export default function CorporateCateringChecklist() {
             Send us your headcount, date, and format. We will return an itemised corporate catering proposal within 15 minutes during business hours.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=corporate-catering-checklist-dubai" className="btn-primary">Get My Custom Quote</Link>
+            <Link to="/inquiry" className="btn-primary">Get My Custom Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

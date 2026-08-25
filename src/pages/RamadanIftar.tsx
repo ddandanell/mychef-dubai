@@ -3,6 +3,7 @@ import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
+import { locationPath } from '@/data/locations'
 import {
   Moon,
   Star,
@@ -51,7 +52,7 @@ const ramadanServices = [
     icon: Star,
     title: 'Eid Celebration Dining',
     description: 'Festive Eid menus that continue the spirit of Ramadan, from grazing tables to multi-course family feasts.',
-    link: '/party-catering-dubai',
+    link: '/private-party-catering-dubai',
   },
 ]
 
@@ -166,7 +167,7 @@ const relatedServices = [
     title: 'Party Catering',
     description: 'fully-coordinated catering for celebrations, from intimate dinners to large gatherings.',
     image: '/service-villa.webp',
-    link: '/party-catering-dubai',
+    link: '/private-party-catering-dubai',
   },
 ]
 
@@ -331,7 +332,7 @@ export default function RamadanIftar() {
             Traditional and contemporary Iftar menus prepared in your home, villa, office, or event space. From sunset dates to late-night Suhoor, we honour the spirit of Ramadan with exceptional food and attentive service.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=iftar-catering-dubai" className="btn-primary opacity-0 translate-y-4 iftar-hero-cta">Get an Iftar Quote</Link>
+            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 iftar-hero-cta">Get an Iftar Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -549,7 +550,7 @@ export default function RamadanIftar() {
                 <li><Link to="/catering-dubai" className="font-inter text-body text-gray-400 hover:text-gold transition-colors flex items-center gap-2"><ArrowRight size={14} /> Luxury Catering Dubai</Link></li>
                 <li><Link to="/private-chef-dubai" className="font-inter text-body text-gray-400 hover:text-gold transition-colors flex items-center gap-2"><ArrowRight size={14} /> Private Chef Dubai</Link></li>
                 <li><Link to="/corporate" className="font-inter text-body text-gray-400 hover:text-gold transition-colors flex items-center gap-2"><ArrowRight size={14} /> Corporate Catering</Link></li>
-                <li><Link to="/party-catering-dubai" className="font-inter text-body text-gray-400 hover:text-gold transition-colors flex items-center gap-2"><ArrowRight size={14} /> Party Catering</Link></li>
+                <li><Link to="/private-party-catering-dubai" className="font-inter text-body text-gray-400 hover:text-gold transition-colors flex items-center gap-2"><ArrowRight size={14} /> Party Catering</Link></li>
               </ul>
             </div>
             <div>
@@ -597,7 +598,7 @@ export default function RamadanIftar() {
             {locations.map((loc) => (
               <Link
                 key={loc.slug}
-                to={`/locations/${loc.slug}`}
+                to={locationPath(loc.slug)}
                 className="iftar-loc-item flex items-center gap-2 font-inter text-sm text-gray-400 hover:text-gold transition-colors opacity-0"
               >
                 <span className="w-1.5 h-1.5 rounded-full bg-gold flex-shrink-0" />
@@ -652,7 +653,7 @@ export default function RamadanIftar() {
             Ramadan dates fill quickly. Share your plans and we will design a custom Iftar menu and service plan for your home, office, or event space in Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=iftar-catering-dubai" className="btn-primary">Get an Iftar Quote</Link>
+            <Link to="/inquiry" className="btn-primary">Get an Iftar Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

@@ -81,7 +81,7 @@ const config: ServicePageConfig = {
       Icon: Clock,
       title: 'Late-Night Event Station',
       description: 'A satisfying late-night food station for weddings, after-parties and long celebrations.',
-      link: '/party-catering-dubai',
+      link: '/private-party-catering-dubai',
     },
   ],
   useCasesEyebrow: 'WHERE SHAWARMA STATIONS WORK',

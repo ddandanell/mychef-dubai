@@ -19,13 +19,11 @@ import { breadcrumbSchema, faqPageSchema, serviceSchema } from '../utils/schema'
 import FaqAccordion from '../components/FaqAccordion'
 import { SectionLabel } from '../components/system'
 
-
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to learn about your quality guarantee (via mychef.ae/quality-guarantee-dubai)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 const CANONICAL_PATH = '/quality-guarantee-dubai'
-const CAMPAIGN = 'quality-guarantee'
 
 const guarantees = [
   {
@@ -206,7 +204,7 @@ export default function QualityGuarantee() {
             Every myCHEF Dubai booking is backed by vetted chefs, backup cover, clear written terms, and a fair resolution promise — because trust is the real product.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 qg-hero-cta">Request a Guaranteed Quote</Link>
+            <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 qg-hero-cta">Request a Guaranteed Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -357,7 +355,7 @@ export default function QualityGuarantee() {
             Get a clear written proposal, vetted chef matching, and the backing of our quality guarantee for your next private dining or catering event in Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Request a Guaranteed Quote</Link>
+            <Link to={`/inquiry`} className="btn-primary">Request a Guaranteed Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

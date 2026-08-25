@@ -118,7 +118,7 @@ const config: DietaryPageConfig = {
   galleryImages: [
     { src: '/images/pescatarian-catering-dubai-hero.webp', alt: 'Pescatarian catering spread in Dubai' },
     { src: '/menu-appetizer.webp', alt: 'Seafood appetisers for pescatarian catering' },
-    { src: '/menu-mains.webp', alt: 'Grilled fish and seafood main dishes' },
+    { src: '/menu-meat.webp', alt: 'Grilled fish and seafood main dishes' },
     { src: '/menu-dessert.webp', alt: 'Light desserts for pescatarian events' },
     { src: '/service-events.webp', alt: 'Event catering service in Dubai' },
     { src: '/service-luxury-dining.webp', alt: 'Luxury private dining experience in Dubai' },

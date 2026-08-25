@@ -55,7 +55,7 @@ const config: OccasionPageConfig = {
       Icon: Sparkles,
       title: 'Surprise Proposal Setup',
       description: 'Discreet coordination, romantic styling and flawless timing so the only thing left to do is ask the question.',
-      link: '/private-party-catering-dubai',
+      link: '/proposal-dinner-dubai',
     },
     {
       Icon: Home,
@@ -73,7 +73,7 @@ const config: OccasionPageConfig = {
       Icon: UtensilsCrossed,
       title: 'Group Valentine Celebrations',
       description: 'Elegant shared menus for double dates, galentines gatherings or small parties who want a romantic atmosphere.',
-      link: '/party-catering-dubai',
+      link: '/private-party-catering-dubai',
     },
   ],
   useCasesEyebrow: "WHERE VALENTINE'S DINING SHINES",

@@ -18,13 +18,11 @@ import { breadcrumbSchema, faqPageSchema, serviceSchema } from '../utils/schema'
 import FaqAccordion from '../components/FaqAccordion'
 import { SectionLabel } from '../components/system'
 
-
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to learn about the loyalty programme (via mychef.ae/loyalty-programme)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 const CANONICAL_PATH = '/loyalty-programme'
-const CAMPAIGN = 'loyalty-programme'
 
 const inclusions = [
   {
@@ -226,7 +224,7 @@ export default function LoyaltyProgramme() {
             Every booking earns you closer to credits, chef upgrades, and exclusive experiences. The more you dine with myCHEF Dubai, the more we give back.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 lp-hero-cta">Join the Loyalty Programme</Link>
+            <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 lp-hero-cta">Join the Loyalty Programme</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -392,7 +390,7 @@ export default function LoyaltyProgramme() {
             Book your next private chef or catering experience and join the myCHEF Dubai loyalty programme. The rewards begin with your first meal.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Join the Loyalty Programme</Link>
+            <Link to={`/inquiry`} className="btn-primary">Join the Loyalty Programme</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

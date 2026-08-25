@@ -22,20 +22,48 @@ const RENDER_TIMEOUT_MS = 30000
 const NAVIGATION_TIMEOUT_MS = 60000
 
 // --- Inline SEO payload (window.__SEO__) ------------------------------------
-// SeoContent fetches its copy in a useEffect, so on the client's first paint it
-// renders nothing. Under hydrateRoot that mismatches the prerendered HTML and
-// React would clear + rebuild the section. Inlining each route's payload lets
-// SeoContent seed synchronously and hydrate cleanly. Injected as a plain (non
-// -module) <script>, so it runs before the deferred module entry sets up React.
+// HandoffPage fetches its copy in a useEffect, so on the client's first paint it
+// renders nothing. Inlining the route's payload lets it seed synchronously and
+// paint the same markup the prerender captured. Injected as a plain (non-module)
+// <script>, so it runs before the deferred module entry sets up React.
 const SEO_ROUTES: Record<string, string> = JSON.parse(
   fs.readFileSync(path.resolve(__dirname, "../src/content/seo/routes.json"), "utf-8"),
 )
 const SEO_PAGES_DIR = path.resolve(__dirname, "../src/content/seo-pages")
+const ROUTES_TSX = path.resolve(__dirname, "../src/routes.tsx")
+const VERCEL_JSON = path.resolve(__dirname, "../vercel.json")
 
-// Injected for EVERY slugged route (incl. the FULLPAGE HandoffPage routes) —
-// both SeoContent and HandoffPage seed from it. SeoContent itself still skips
-// FULLPAGE routes at render time, so nothing double-renders.
+/** Static (non-parametric) paths declared in src/routes.tsx, keyed by whether HandoffPage renders them. */
+function readRouteTable(): { paths: string[]; handoff: Set<string> } {
+  const src = fs.readFileSync(ROUTES_TSX, "utf-8")
+  const paths: string[] = []
+  const handoff = new Set<string>()
+  for (const m of src.matchAll(/\{\s*path:\s*"([^"]+)"\s*,\s*element:\s*<([A-Za-z0-9_]+)/g)) {
+    const p = m[1]
+    if (p.includes(":") || p.includes("*")) continue
+    paths.push(p)
+    if (m[2] === "HandoffPage") handoff.add(p)
+  }
+  return { paths, handoff }
+}
+
+const ROUTE_TABLE = readRouteTable()
+
+/** Paths vercel.json 301s away. They must never be rendered — the redirect wins on Vercel, but a stale dist dir is still a smell. */
+function redirectSources(): Set<string> {
+  try {
+    const cfg = JSON.parse(fs.readFileSync(VERCEL_JSON, "utf-8")) as { redirects?: { source: string }[] }
+    return new Set((cfg.redirects ?? []).map((r) => r.source).filter((s) => !s.includes(":") && !s.includes("*")))
+  } catch {
+    return new Set()
+  }
+}
+
+// Only HandoffPage routes seed from window.__SEO__ (commercial pages stopped
+// rendering the digest on 2026-08-26), so only they get the inline payload.
+// Everything else would just be ~10-15 KB of dead JSON per page.
 function inlineSeoScript(route: string): string {
+  if (!ROUTE_TABLE.handoff.has(route)) return ""
   const slug = SEO_ROUTES[route]
   if (!slug) return ""
   const file = path.join(SEO_PAGES_DIR, `${slug}.json`)
@@ -56,8 +84,16 @@ function inlineSeoScript(route: string): string {
   return `<script>window.__SEO__=${json}</script>`
 }
 
+// Routes that are deliberately SPA-only (vercel.json rewrites them to index.html).
+const SPA_ONLY = new Set(["/inquiry", "/thank-you"])
+
 /**
- * Read sitemap.xml and return a normalized list of routes.
+ * Return the normalized list of routes to prerender: every URL in sitemap.xml
+ * PLUS every static route declared in src/routes.tsx (dynamic expansions such
+ * as /locations/:slug only come from the sitemap). The union matters: noindex
+ * pages (legal pages, the nested private-chef modules) are correctly absent
+ * from the sitemap but must still ship as real HTML, and a sitemap-only source
+ * silently turned them into the empty SPA shell.
  * Root route ("/") is always placed last so it does not overwrite
  * dist/index.html while other routes are still being rendered against the
  * SPA shell.
@@ -72,14 +108,25 @@ function readRoutes(): string[] {
   }
 
   const sitemap = fs.readFileSync(sitemapPath, "utf-8")
-  const routes = Array.from(sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)).map((match) => {
+  const fromSitemap = Array.from(sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)).map((match) => {
     const url = match[1].trim()
     const pathname = new URL(url).pathname
     return pathname === "/" ? "/" : pathname.replace(/\/$/, "")
   })
 
+  const skip = redirectSources()
+  const fromRoutes = ROUTE_TABLE.paths.filter((p) => !SPA_ONLY.has(p) && !skip.has(p))
+  const extra = fromRoutes.filter((p) => !fromSitemap.includes(p))
+  if (extra.length > 0) {
+    console.log(`Prerendering ${extra.length} route(s) not in the sitemap (noindex/support pages): ${extra.join(", ")}`)
+  }
+  const dropped = fromSitemap.filter((p) => skip.has(p))
+  if (dropped.length > 0) {
+    console.warn(`WARNING: sitemap still lists redirected path(s), skipping: ${dropped.join(", ")}`)
+  }
+
   // De-duplicate and sort root last
-  const unique = Array.from(new Set(routes))
+  const unique = Array.from(new Set([...fromSitemap.filter((p) => !skip.has(p)), ...extra]))
   return unique.sort((a, b) => (a === "/" ? 1 : b === "/" ? -1 : a.localeCompare(b)))
 }
 
@@ -197,9 +244,9 @@ async function renderRoute(
     '$1 media="print"',
   )
 
-  // Inline this route's SEO payload so the client hydrates SeoContent without a
-  // fetch round-trip / rebuild. Placed just before </body>, outside #root, so
-  // hydrateRoot never sees it.
+  // Inline this route's SEO payload (HandoffPage routes only) so the client
+  // paints without a fetch round-trip / rebuild. Placed just before </body>,
+  // outside #root.
   const seoScript = inlineSeoScript(route)
   if (seoScript && html.includes("</body>")) {
     html = html.replace("</body>", `${seoScript}</body>`)
@@ -261,6 +308,12 @@ async function main(): Promise<void> {
 
   try {
     await renderRoutes(browser, url, routes)
+    // Catch-all rewrite must NOT serve dist/index.html — that file is the
+    // prerendered homepage. Unknown extensionless paths get the original SPA
+    // shell so React Router can show the real route or NotFound.
+    const fallbackPath = path.join(DIST_DIR, "fallback.html")
+    fs.copyFileSync(SHELL_PATH, fallbackPath)
+    console.log(`SPA fallback -> ${fallbackPath}`)
     console.log("Prerender complete.")
   } finally {
     await browser.close()

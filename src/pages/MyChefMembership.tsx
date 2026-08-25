@@ -18,13 +18,11 @@ import { breadcrumbSchema, faqPageSchema, serviceSchema } from '../utils/schema'
 import FaqAccordion from '../components/FaqAccordion'
 import { SectionLabel } from '../components/system'
 
-
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to learn about myCHEF Membership (via mychef.ae/membership)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 const CANONICAL_PATH = '/mychef-membership'
-const CAMPAIGN = 'mychef-membership'
 
 const tiers = [
   {
@@ -219,7 +217,7 @@ export default function MyChefMembership() {
             Priority booking, quarterly dining credits, member-only pricing, and a dedicated concierge line — designed for Dubai hosts who love great food without the friction.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 mem-hero-cta">Join MyChef Membership</Link>
+            <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 mem-hero-cta">Join MyChef Membership</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -404,7 +402,7 @@ export default function MyChefMembership() {
             Get priority access, quarterly credits, and member-only pricing for private chef and catering experiences in Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Join MyChef Membership</Link>
+            <Link to={`/inquiry`} className="btn-primary">Join MyChef Membership</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

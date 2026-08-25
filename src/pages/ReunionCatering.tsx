@@ -28,9 +28,7 @@ const config: ServicePageConfig = {
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
         This service works beautifully alongside our{' '}
-        <Link to="/party-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
-          party catering Dubai
-        </Link>{' '}
+        party catering Dubai{' '}
         range and{' '}
         <Link to="/villas-private-residences" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           villa dining Dubai
@@ -73,7 +71,7 @@ const config: ServicePageConfig = {
       Icon: Building,
       title: 'Alumni & School Reunions',
       description: 'Venue-based catering for school, university and alumni reunions with scalable menus and service.',
-      link: '/event-catering-dubai',
+      link: '/events',
     },
     {
       Icon: Heart,
@@ -154,12 +152,6 @@ const config: ServicePageConfig = {
     },
   ],
   relatedServices: [
-    {
-      title: 'Party Catering Dubai',
-      description: 'The hub for birthdays, celebrations and every kind of private gathering.',
-      image: '/service-events.webp',
-      link: '/party-catering-dubai',
-    },
     {
       title: 'Private Party Catering',
       description: 'Intimate home and villa parties with personalised menus and full service.',

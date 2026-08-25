@@ -20,13 +20,11 @@ import { breadcrumbSchema, faqPageSchema, serviceSchema } from '../utils/schema'
 import FaqAccordion from '../components/FaqAccordion'
 import { SectionLabel } from '../components/system'
 
-
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to understand your booking protection and insurance policies (via mychef.ae/booking-protection-insurance)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 const CANONICAL_PATH = '/booking-protection-insurance'
-const CAMPAIGN = 'booking-protection-insurance'
 
 const protections = [
   {
@@ -222,7 +220,7 @@ export default function BookingProtectionInsurance() {
             Clear policies, backup chef cover, liability insurance, and fair cancellation terms — so you can book your private chef or catering event with confidence.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 bpi-hero-cta">Get a Tailored Quote</Link>
+            <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 bpi-hero-cta">Get a Tailored Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -367,7 +365,7 @@ export default function BookingProtectionInsurance() {
             Get a clear written proposal with deposit, cancellation, and insurance details for your private chef or catering event in Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Get a Tailored Quote</Link>
+            <Link to={`/inquiry`} className="btn-primary">Get a Tailored Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

@@ -1,4 +1,5 @@
 import { Link } from 'react-router'
+import { locationPath } from '@/data/locations'
 import {
   ArrowRight,
   Building2,
@@ -29,7 +30,7 @@ const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent("Hi myCHEF Dubai, I'd like to get in touch (via mychef.ae/contact)")
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 const EMAIL = 'info@mychef.id'
-const INQUIRY_LINK = '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=contact'
+const INQUIRY_LINK = '/inquiry'
 const PRESS_MAIL = `mailto:${EMAIL}?subject=${encodeURIComponent('Press enquiry — myCHEF Dubai')}`
 const GENERAL_MAIL = `mailto:${EMAIL}?subject=${encodeURIComponent('Contact — myCHEF Dubai')}`
 
@@ -134,7 +135,8 @@ export default function Contact() {
   return (
     <div>
       <SEO
-        title="Contact Us"
+        title="Contact myCHEF Dubai — Enquiries"
+        hideSiteName
         description="Contact myCHEF Dubai for a private chef, catering, partnership or press enquiry. WhatsApp is usually fastest. We typically reply within 15 minutes during business hours."
         canonicalPath="/contact"
         ogImage="/images/mychef-household-plan-consultation.webp"
@@ -335,7 +337,7 @@ export default function Contact() {
                 {featuredLocations.map((loc) => (
                   <li key={loc.slug}>
                     <Link
-                      to={`/locations/${loc.slug}`}
+                      to={locationPath(loc.slug)}
                       className="inline-flex min-h-[44px] items-center font-inter text-body text-white/80 hover:text-gold transition-colors"
                     >
                       {loc.name}

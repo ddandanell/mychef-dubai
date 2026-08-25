@@ -21,6 +21,10 @@ import PageHero from '../components/PageHero'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import LocationStrip from '../components/LocationStrip'
 import FaqAccordion from '../components/FaqAccordion'
+import PriceCalculator from '../components/private-chef/pricing/PriceCalculator'
+import PlanTermsDigest from '../components/private-chef/pricing/PlanTermsDigest'
+import { SERVICES } from '../content/privateChefPricing'
+import { CLUSTER_PATHS } from '../content/privateChefCluster'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { deferNonCritical } from '../lib/deferNonCritical'
 import { SectionLabel } from '../components/system'
@@ -171,8 +175,29 @@ const breadcrumbSchema = {
   '@type': 'BreadcrumbList',
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.mychef.ae/' },
-    { '@type': 'ListItem', position: 2, name: 'Private Chef Prices Dubai', item: 'https://www.mychef.ae/private-chef-prices-dubai' },
+    { '@type': 'ListItem', position: 2, name: 'Private Chef Dubai', item: 'https://www.mychef.ae/private-chef-dubai' },
+    { '@type': 'ListItem', position: 3, name: 'Private Chef Prices Dubai', item: 'https://www.mychef.ae/private-chef-prices-dubai' },
   ],
+}
+
+/**
+ * Standing household plans (3+ days) — the plan builder used to live on
+ * /private-chef-dubai/pricing. That URL 301s here since 2026-08-26 so one page
+ * owns every private-chef price query; the calculator moved with it.
+ */
+const householdServiceSchema = {
+  '@type': 'Service',
+  name: 'Private chef — household plans (3+ days)',
+  url: 'https://www.mychef.ae/private-chef-prices-dubai#calculator',
+  provider: { '@id': 'https://www.mychef.ae/#organization' },
+  areaServed: { '@type': 'City', name: 'Dubai', '@id': 'https://www.wikidata.org/wiki/Q612' },
+  offers: SERVICES.map((svc) => ({
+    '@type': 'Offer',
+    name: `${svc.name} (${svc.hours}h) — Professional Chef`,
+    priceCurrency: 'AED',
+    price: String(svc.rates.professional),
+    unitText: svc.unit === 'day' ? 'DAY' : 'SERVICE',
+  })),
 }
 
 const privateChefOffers = [
@@ -224,7 +249,7 @@ const aggregateOfferSchema = {
 
 const schema = {
   '@context': 'https://schema.org',
-  '@graph': [serviceSchema, aggregateOfferSchema, faqSchema, breadcrumbSchema],
+  '@graph': [serviceSchema, aggregateOfferSchema, householdServiceSchema, faqSchema, breadcrumbSchema],
 }
 
 const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'd like private chef prices for my event in Dubai. Date: __ Guests: __ Area: __"
@@ -260,7 +285,7 @@ export default function PrivateChefPrices() {
     <div ref={containerRef}>
       <SEO
         title="Private Chef Prices Dubai | AED 700–950 Per Person | myCHEF"
-        description="See 2026 private chef prices in Dubai: per-person costs for 2–20 guests, what's included, and what affects the price. Get a tailored quote in 15 minutes."
+        description="2026 private chef prices in Dubai: per-person dinner costs for 2–20 guests, plus monthly household-chef plans from AED 750 a service. Get a quote in 15 minutes."
         canonicalPath="/private-chef-prices-dubai"
         ogImage="/images/private-chef-prices-dubai-hero.webp"
         hideSiteName
@@ -277,9 +302,9 @@ export default function PrivateChefPrices() {
         imageAlt="Private chef prices and menus in Dubai"
         imageWidth={1344}
         imageHeight={752}
-        cta={{ label: 'Get My Private Chef Quote', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=private-chef-prices' }}
+        cta={{ label: 'Get My Private Chef Quote', href: '/inquiry' }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
-        breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Private Chef Prices Dubai' }]}
+        breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Private Chef Dubai', href: '/private-chef-dubai' }, { label: 'Private Chef Prices Dubai' }]}
         minHeight="tall"
         overlay="dark"
       />
@@ -355,7 +380,7 @@ export default function PrivateChefPrices() {
                 We do not force you into a fixed package. You tell us your occasion, guest count, and preferences, and we design a menu and service plan that fits your budget.
               </p>
               <Link
-                to="/inquiry?utm_source=mychef.ae&utm_medium=inline_link&utm_campaign=private-chef-prices"
+                to="/inquiry"
                 className="inline-flex items-center gap-2 font-inter text-body-sm uppercase tracking-wider text-gold hover:text-gold-light transition-colors"
               >
                 Get My Private Chef Quote <ArrowRight size={14} />
@@ -389,6 +414,37 @@ export default function PrivateChefPrices() {
               )
             })}
           </div>
+        </div>
+      </section>
+
+      {/* ═══════════════ Household Plans (calculator) ═══════════════ */}
+      {/* One pricing owner: the standing-plan builder moved here from the
+          retired /private-chef-dubai/pricing on 2026-08-26. Not animated —
+          it is a form, so it must never sit at opacity-0. */}
+      <section id="calculator" className="bg-white section-padding scroll-mt-24 border-t border-gray-200">
+        <div className="container-custom max-w-[1100px]">
+          <div className="max-w-[760px] mb-12">
+            <SectionLabel>Household Plans</SectionLabel>
+            <h2 className="font-playfair text-h2 text-black mb-4">
+              A chef in the house several days a week: build the plan, see the monthly figure
+            </h2>
+            <p className="font-inter text-body text-gray-500 leading-relaxed">
+              Everything above is a one-night dinner. If you want the same chef cooking regularly — a few days a week, most weekdays, or every day — the price works differently: per service, from AED {SERVICES[0].rates.professional} at Professional Chef level, with groceries charged at actual cost and no markup. Choose the service, the chef level and the days, and the calculator shows your figure before you enquire. Long-term plans start at 30 days; short stays of 3–29 days carry a higher daily rate.
+            </p>
+            <p className="font-inter text-body-sm text-gray-500 mt-4">
+              New to the household service?{' '}
+              <Link to={CLUSTER_PATHS.overview} className="text-gold-ink underline underline-offset-4 hover:text-gold">Start with how a private chef in Dubai works</Link>
+              {' · '}
+              <Link to={CLUSTER_PATHS.planTerms} className="text-gold-ink underline underline-offset-4 hover:text-gold">Read how your plan works</Link>
+            </p>
+          </div>
+          <PriceCalculator />
+        </div>
+      </section>
+
+      <section className="bg-cream section-padding">
+        <div className="container-custom max-w-[1100px]">
+          <PlanTermsDigest />
         </div>
       </section>
 
@@ -476,7 +532,7 @@ export default function PrivateChefPrices() {
             Tell us your date, guest count, venue, and menu ideas. We’ll send a tailored proposal with clear itemisation and no hidden charges.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=private-chef-prices" className="btn-primary">
+            <Link to="/inquiry" className="btn-primary">
               Get My Private Chef Quote
             </Link>
             <a

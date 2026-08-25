@@ -19,13 +19,11 @@ import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { SectionLabel } from '../components/system'
 
-
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to book apartment private dining (via mychef.ae/apartment-private-dining-dubai)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 const CANONICAL_PATH = '/apartment-private-dining-dubai'
-const CAMPAIGN = 'apartment-private-dining'
 
 const features = [
   {
@@ -208,7 +206,7 @@ export default function ApartmentPrivateDining() {
             Restaurant-quality multi-course dining for 2–8 guests, prepared in your own kitchen. No reservations, no travel, no compromise.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 apd-hero-cta">Get My Apartment Dining Quote</Link>
+            <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 apd-hero-cta">Get My Apartment Dining Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -342,7 +340,7 @@ export default function ApartmentPrivateDining() {
             Tell us your apartment location, guest count, and occasion. We will bring you a chef who turns your home into the best dining room in Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Get My Apartment Dining Quote</Link>
+            <Link to={`/inquiry`} className="btn-primary">Get My Apartment Dining Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

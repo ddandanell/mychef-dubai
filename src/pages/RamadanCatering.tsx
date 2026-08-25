@@ -3,6 +3,7 @@ import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
+import { locationPath } from '@/data/locations'
 import {
   Moon,
   Sunrise,
@@ -310,7 +311,7 @@ export default function RamadanCatering() {
             Halal iftar and suhoor menus for home, majlis, corporate, and villa gatherings across Dubai — traditional spreads, attentive service, and timing planned around prayer.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=ramadan-catering-dubai" className="btn-primary opacity-0 translate-y-4 ram-hero-cta">Secure My Ramadan Date</Link>
+            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 ram-hero-cta">Secure My Ramadan Date</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -470,7 +471,7 @@ export default function RamadanCatering() {
             {locations.map((loc) => (
               <Link
                 key={loc.slug}
-                to={`/locations/${loc.slug}`}
+                to={locationPath(loc.slug)}
                 className="ram-loc-item flex items-center gap-2 font-inter text-sm text-gray-400 hover:text-gold transition-colors opacity-0"
               >
                 <span className="w-1.5 h-1.5 rounded-full bg-gold flex-shrink-0" />
@@ -544,7 +545,7 @@ export default function RamadanCatering() {
             Tell us about your iftar or suhoor and we'll design a halal menu, time the service around prayer, and handle every detail. Booking six to eight weeks ahead secures your dates.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=ramadan-catering-dubai" className="btn-primary">Secure My Ramadan Date</Link>
+            <Link to="/inquiry" className="btn-primary">Secure My Ramadan Date</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

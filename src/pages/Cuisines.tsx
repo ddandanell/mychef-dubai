@@ -250,7 +250,7 @@ export default function Cuisines() {
         subtitle="From Italian trattoria classics and Arabic mezze to Asian tasting menus and plant-forward dishes — choose a cuisine and we’ll bring you a private chef or catering team. We reply within 15 minutes during business hours."
         image="/images/cuisines-hub-dubai-hero.webp"
         imageAlt="International catering cuisines prepared by private chefs in Dubai"
-        cta={{ label: 'Request a Custom Menu', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=cuisines' }}
+        cta={{ label: 'Request a Custom Menu', href: '/inquiry' }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Cuisines' }]}
         minHeight="tall"
@@ -386,7 +386,7 @@ export default function Cuisines() {
             Tell us about your occasion, guest preferences and dietary needs. We’ll recommend cuisines, chefs and a menu plan tailored to your Dubai event.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=cuisines" className="btn-primary">
+            <Link to="/inquiry" className="btn-primary">
               Request My Custom Menu
             </Link>
             <a

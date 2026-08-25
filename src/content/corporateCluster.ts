@@ -32,7 +32,6 @@ export const CORPORATE_PATHS = {
   dinnerPackage: '/corporate-dinner-package-dubai',
   // Production
   production: '/production-catering-dubai',
-  filmCrew: '/film-crew-catering-dubai',
   // Informational
   checklist: '/corporate-catering-checklist-dubai',
   fullServiceVsDropOff: '/blog/corporate-catering-full-service-vs-drop-off',
@@ -122,7 +121,7 @@ export function corporateBreadcrumb(pageName: string, path: string) {
 }
 
 export const CORPORATE_INQUIRY_HREF =
-  '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=corporate-event-catering'
+  '/inquiry'
 
 export const CORPORATE_WHATSAPP_MESSAGE =
   "Hi myCHEF, I'd like a proposal for a corporate event"

@@ -20,13 +20,11 @@ import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { SectionLabel } from '../components/system'
 
-
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to plan a proposal dinner (via mychef.ae/proposal-dinner-dubai)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 const CANONICAL_PATH = '/proposal-dinner-dubai'
-const CAMPAIGN = 'proposal-dinner'
 
 const inclusions = [
   {
@@ -231,7 +229,7 @@ export default function ProposalDinner() {
             Private chef, personalised menu, flowers, candles, and perfect timing — so you can focus on the question while your chef handles everything else.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 pd-hero-cta">Plan Proposal Dinner</Link>
+            <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 pd-hero-cta">Plan Proposal Dinner</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -329,7 +327,7 @@ export default function ProposalDinner() {
                   ))}
                 </ul>
                 <Link
-                  to={`/inquiry?utm_source=mychef.ae&utm_medium=package_card&utm_campaign=${CAMPAIGN}`}
+                  to={`/inquiry`}
                   className="block text-center w-full py-3 font-inter text-sm uppercase tracking-wider bg-gold text-black hover:bg-gold-light transition-colors"
                 >
                   Enquire Now
@@ -396,7 +394,7 @@ export default function ProposalDinner() {
             Tell us your story, your partner's tastes, and your dream setting. We will design a proposal dinner worthy of the moment.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Plan Proposal Dinner</Link>
+            <Link to={`/inquiry`} className="btn-primary">Plan Proposal Dinner</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

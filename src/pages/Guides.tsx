@@ -219,7 +219,7 @@ export default function Guides() {
         subtitle="Practical guides to help you plan private dining, events, weddings, corporate functions and celebrations across Dubai — from budgets and checklists to menu ideas and timing."
         image="/images/guides-hub-dubai-hero.webp"
         imageAlt="Dubai catering guides"
-        cta={{ label: 'Request a Custom Quote', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=guides' }}
+        cta={{ label: 'Request a Custom Quote', href: '/inquiry' }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Guides' }]}
         minHeight="tall"
@@ -313,7 +313,7 @@ export default function Guides() {
             Read the guides, then request a custom proposal. We design menus and service plans for villas, offices, yachts and event spaces across Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=guides" className="btn-primary">
+            <Link to="/inquiry" className="btn-primary">
               Request My Custom Quote
             </Link>
             <a

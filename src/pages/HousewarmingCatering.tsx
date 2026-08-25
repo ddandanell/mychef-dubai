@@ -121,7 +121,7 @@ const config: ServicePageConfig = {
   galleryImages: [
     { src: '/service-villa.webp', alt: 'Housewarming catering at a Dubai villa' },
     { src: '/menu-appetizer.webp', alt: 'Appetisers for a housewarming party' },
-    { src: '/menu-mains.webp', alt: 'Shared main dishes for a housewarming celebration' },
+    { src: '/menu-meat.webp', alt: 'Shared main dishes for a housewarming celebration' },
     { src: '/service-events.webp', alt: 'Housewarming event catering setup' },
     { src: '/menu-dessert.webp', alt: 'Dessert table for a housewarming party' },
     { src: '/service-luxury-dining.webp', alt: 'Elegant private dining for a housewarming' },

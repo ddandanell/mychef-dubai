@@ -134,8 +134,8 @@ const comparisonRows = [
 
 const internalLinks = [
   { title: 'Private Chef Dubai', link: '/private-chef-dubai', description: 'Personal chef service for intimate dinners and daily dining in Dubai.' },
-  { title: 'Luxury Dining Dubai', link: '/luxury-dining-dubai', description: 'Premium dining experiences designed for villas, yachts, and penthouses.' },
-  { title: 'Yacht Catering Dubai', link: '/yacht-catering-dubai', description: 'Compact, elegant menus designed for Dubai yacht events.' },
+  { title: 'Luxury Dining Dubai', link: '/luxury-dining-experiences', description: 'Premium dining experiences designed for villas, yachts, and penthouses.' },
+  { title: 'Yacht Catering Dubai', link: '/yachts', description: 'Compact, elegant menus designed for Dubai yacht events.' },
   { title: 'Villa Catering Ideas', link: '/villa-catering-ideas-dubai', description: 'Menu formats and setups designed for Dubai villas and homes.' },
   { title: 'Wedding Catering Dubai', link: '/wedding-catering-dubai', description: 'Multi-course and banquet-style catering for Dubai weddings.' },
   { title: 'Dubai Catering Prices Guide', link: '/dubai-catering-prices-guide', description: 'A practical breakdown of catering costs per person in Dubai.' },
@@ -332,7 +332,7 @@ export default function PrivateDiningGuide() {
             Everything you need to know about hosting chef-led dining experiences in villas, penthouses, yachts, and desert venues across Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=private-dining-guide" className="btn-primary opacity-0 translate-y-4 pd-hero-cta">Plan My Private Dinner</Link>
+            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 pd-hero-cta">Plan My Private Dinner</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -477,7 +477,7 @@ export default function PrivateDiningGuide() {
                 </Link>{' '}
                 service.
               </p>
-              <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=private-dining-guide" className="btn-primary">Start Planning My Menu</Link>
+              <Link to="/inquiry" className="btn-primary">Start Planning My Menu</Link>
             </div>
             <div className="space-y-3">
               {dietaryAccommodations.map((item, i) => (
@@ -653,7 +653,7 @@ export default function PrivateDiningGuide() {
             Tell us about your occasion, location, and guest list. We will design a bespoke menu and service plan around the people at your table.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=private-dining-guide" className="btn-primary">Plan My Private Dinner</Link>
+            <Link to="/inquiry" className="btn-primary">Plan My Private Dinner</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

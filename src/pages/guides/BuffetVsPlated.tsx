@@ -71,8 +71,8 @@ const internalLinks = [
   { title: 'Buffet Catering Dubai', link: '/buffet-catering-dubai', description: 'Buffet stations for events and celebrations.' },
   { title: 'Wedding Catering Dubai', link: '/wedding-catering-dubai', description: 'Plated and banquet options for weddings.' },
   { title: 'Corporate Catering Dubai', link: '/corporate', description: 'Business lunch and event formats.' },
-  { title: 'Luxury Dining Dubai', link: '/luxury-dining-dubai', description: 'Elegant plated private dining experiences.' },
-  { title: 'Party Catering Dubai', link: '/party-catering-dubai', description: 'Flexible formats for private celebrations.' },
+  { title: 'Luxury Dining Dubai', link: '/luxury-dining-experiences', description: 'Elegant plated private dining experiences.' },
+  { title: 'Party Catering Dubai', link: '/private-party-catering-dubai', description: 'Flexible formats for private celebrations.' },
   { title: 'Dubai Catering Prices Guide', link: '/dubai-catering-prices-guide', description: 'Cost guidance for buffet and plated service.' },
 ]
 
@@ -232,7 +232,7 @@ export default function BuffetVsPlated() {
             Compare the two most popular catering formats and learn which suits your event style, guest count, and venue.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=buffet-vs-plated-dubai" className="btn-primary opacity-0 translate-y-4 bp-hero-cta">Get My Custom Quote</Link>
+            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 bp-hero-cta">Get My Custom Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -433,7 +433,7 @@ export default function BuffetVsPlated() {
             Tell us about your guest count, venue, and occasion. We will recommend a format and build a menu that fits.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=buffet-vs-plated-dubai" className="btn-primary">Get My Custom Quote</Link>
+            <Link to="/inquiry" className="btn-primary">Get My Custom Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

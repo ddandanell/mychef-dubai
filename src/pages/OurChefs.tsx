@@ -161,7 +161,7 @@ export default function OurChefs() {
         image="/images/about-mychef-dubai-hero.webp"
         imageAlt="A partner chef at work for a myCHEF Dubai private dining experience"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'The Chefs We Choose' }]}
-        cta={{ label: 'Request a Chef Match', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=our-chefs' }}
+        cta={{ label: 'Request a Chef Match', href: '/inquiry' }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         minHeight="medium"
         overlay="dark"
@@ -331,7 +331,7 @@ export default function OurChefs() {
               Every dish prepared by carefully selected independent chefs who have trained in respected professional kitchens around the world.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=our-chefs" className="btn-primary">
+              <Link to="/inquiry" className="btn-primary">
                 Request My Custom Quote
               </Link>
               <a

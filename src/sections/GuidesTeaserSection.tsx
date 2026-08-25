@@ -67,7 +67,7 @@ export default function GuidesTeaserSection() {
             </p>
           </div>
           <Link
-            to="/guides?utm_source=mychef.ae&utm_medium=home_guides_teaser&utm_campaign=home"
+            to="/guides"
             className="inline-flex items-center gap-2 self-start lg:self-auto lg:pb-1 font-inter text-body-sm font-medium uppercase tracking-wider text-gold-ink hover:text-gold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-cream rounded-sm"
           >
             <BookOpen size={16} strokeWidth={1.5} />
@@ -83,7 +83,7 @@ export default function GuidesTeaserSection() {
             return (
               <Link
                 key={i}
-                to={`${guide.slug}?utm_source=mychef.ae&utm_medium=home_guides_teaser&utm_campaign=home`}
+                to={guide.slug}
                 className="guides-teaser-card group flex flex-col bg-white p-6 lg:p-7 transition-colors duration-300 hover:bg-cream focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-gold opacity-0 translate-y-10"
               >
                 <span className="mb-5 flex h-10 w-10 items-center justify-center border border-gold/35 text-gold-ink">

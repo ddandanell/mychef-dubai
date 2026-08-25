@@ -57,13 +57,13 @@ const config: OccasionPageConfig = {
       Icon: Moon,
       title: 'Costume Ball & Venue Catering',
       description: 'Stylish buffet stations, grazing tables and roaming canapes for larger Halloween events at venues.',
-      link: '/event-catering-dubai',
+      link: '/events',
     },
     {
       Icon: PartyPopper,
       title: 'Trick-or-Treat Stations',
       description: 'Interactive treat stations and dessert displays that add theatre to any Halloween gathering.',
-      link: '/dessert-table-dubai',
+      link: '/dessert-table-catering-dubai',
     },
     {
       Icon: Home,
@@ -117,7 +117,7 @@ const config: OccasionPageConfig = {
   galleryImages: [
     { src: '/images/halloween-catering-dubai-hero.webp', alt: 'Halloween catering setup in Dubai' },
     { src: '/menu-appetizer.webp', alt: 'Spooky appetisers for Halloween catering' },
-    { src: '/menu-mains.webp', alt: 'Halloween themed main dishes' },
+    { src: '/menu-meat.webp', alt: 'Halloween themed main dishes' },
     { src: '/menu-dessert.webp', alt: 'Halloween desserts and treats' },
     { src: '/service-events.webp', alt: 'Event catering service in Dubai' },
     { src: '/service-luxury-dining.webp', alt: 'Luxury private dining experience in Dubai' },

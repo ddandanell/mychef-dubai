@@ -18,7 +18,7 @@ const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I read your best private chef birthday dinner Dubai blog and would like a custom quote (via mychef.ae/blog/best-private-chef-birthday-dinner-dubai)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
-const CTA_HREF = '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=best-private-chef-birthday-dinner-dubai'
+const CTA_HREF = '/inquiry'
 const SLUG = 'best-private-chef-birthday-dinner-dubai'
 
 const faqs = [

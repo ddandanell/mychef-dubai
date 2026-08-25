@@ -85,7 +85,7 @@ const internalLinks = [
   { title: 'Yachts Catering', link: '/yachts', description: 'myCHEF yacht catering services and packages.' },
   { title: 'Canapé Catering Dubai', link: '/canape-catering-dubai', description: 'Bite-sized menus ideal for yacht receptions.' },
   { title: 'BBQ Catering Dubai', link: '/bbq-catering-dubai', description: 'Grill menus for outdoor and deck events.' },
-  { title: 'Luxury Dining Dubai', link: '/luxury-dining-dubai', description: 'Elegant seated dinner experiences.' },
+  { title: 'Luxury Dining Dubai', link: '/luxury-dining-experiences', description: 'Elegant seated dinner experiences.' },
   { title: 'Private Party Catering', link: '/private-party-catering-dubai', description: 'Private celebration catering at unique venues.' },
   { title: 'Dubai Catering Prices Guide', link: '/dubai-catering-prices-guide', description: 'Budget guidance for yacht catering formats.' },
 ]
@@ -251,7 +251,7 @@ export default function YachtCateringGuide() {
             Everything you need to plan catering for a Dubai yacht charter, from menu formats and route timing to crew coordination and onboard service.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=yacht-catering-guide-dubai" className="btn-primary opacity-0 translate-y-4 yacht-hero-cta">Get My Custom Quote</Link>
+            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 yacht-hero-cta">Get My Custom Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -417,7 +417,7 @@ export default function YachtCateringGuide() {
             Share your yacht size, route, and guest count. We will design a sea-ready menu and service plan for your Dubai cruise.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=yacht-catering-guide-dubai" className="btn-primary">Get My Custom Quote</Link>
+            <Link to="/inquiry" className="btn-primary">Get My Custom Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

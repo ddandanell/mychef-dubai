@@ -72,7 +72,7 @@ export default function RomanticDinner() {
           <h1 className="font-playfair text-4xl md:text-6xl text-white font-semibold mb-4">Romantic Dinner Dubai</h1>
           <p className="text-gray-300 text-lg max-w-2xl mx-auto">Tell us about your evening and we will bring you a vetted private chef, arrange the candlelit table, and build a bespoke menu for an unforgettable night together.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=romantic-dinner-dubai" className="btn-primary">Plan My Romantic Dinner</Link>
+            <Link to="/inquiry" className="btn-primary">Plan My Romantic Dinner</Link>
             <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-secondary">WhatsApp My Plans</a>
           </div>
         </div>
@@ -131,7 +131,7 @@ export default function RomanticDinner() {
           <h2 className="font-playfair text-3xl text-white mb-6">Create an Unforgettable Evening</h2>
           <p className="text-gray-400 mb-8">Tell us about your date, dietary preferences, and venue. We will bring you a vetted chef and send a tailored proposal within 24 hours.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=romantic-dinner-dubai" className="btn-primary">Plan My Romantic Dinner</Link>
+            <Link to="/inquiry" className="btn-primary">Plan My Romantic Dinner</Link>
             <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-secondary">WhatsApp My Plans</a>
           </div>
         </div>

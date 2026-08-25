@@ -80,7 +80,7 @@ const config: ServicePageConfig = {
       Icon: Heart,
       title: 'IBS-Friendly Celebration Menus',
       description: 'Birthdays, anniversaries and family gatherings where low-FODMAP guests can celebrate without compromise.',
-      link: '/party-catering-dubai',
+      link: '/private-party-catering-dubai',
     },
   ],
   useCasesEyebrow: 'WHERE FODMAP-FRIENDLY CATERING HELPS',

@@ -78,7 +78,7 @@ const config: DietaryPageConfig = {
       Icon: Home,
       title: 'Villa & Home Jain Feasts',
       description: 'Full-service Jain dining at home for family gatherings and religious occasions across Dubai’s neighbourhoods.',
-      link: '/villa-catering-dubai',
+      link: '/villas-private-residences',
     },
     {
       Icon: Building,

@@ -88,7 +88,7 @@ const dubaiExamples = [
 const internalLinks = [
   { title: 'Private Chef Dubai', link: '/private-chef-dubai', description: 'Personal chef service for intimate dinners and daily dining.' },
   { title: 'BBQ Catering Dubai', link: '/bbq-catering-dubai', description: 'Grill-focused menus for villas, poolsides, and outdoor events.' },
-  { title: 'Yacht Catering Dubai', link: '/yacht-catering-dubai', description: 'Compact, elegant menus designed for Dubai yacht events.' },
+  { title: 'Yacht Catering Dubai', link: '/yachts', description: 'Compact, elegant menus designed for Dubai yacht events.' },
   { title: 'Corporate Catering Dubai', link: '/corporate', description: 'Buffets, working lunches, and boardroom catering for offices.' },
   { title: 'Wedding Catering Dubai', link: '/wedding-catering-dubai', description: 'Multi-course and banquet-style catering for Dubai weddings.' },
   { title: 'Villa Catering Ideas', link: '/villa-catering-ideas-dubai', description: 'Menu formats and setups designed for Dubai villas and homes.' },
@@ -276,7 +276,7 @@ export default function DubaiCateringPricesGuide() {
             A practical breakdown of Dubai catering costs per person, the factors that move the price, and how to request a custom quote that fits your event.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=dubai-catering-prices-guide" className="btn-primary opacity-0 translate-y-4 price-hero-cta">Get My Custom Quote</Link>
+            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 price-hero-cta">Get My Custom Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -403,7 +403,7 @@ export default function DubaiCateringPricesGuide() {
               <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-6">
                 Fixed packages can look simple, but they often force you into a predetermined menu, guest count band, or service style that does not match your event. A custom quote starts from your brief and builds outward.
               </p>
-              <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=dubai-catering-prices-guide" className="btn-primary">Get My Custom Quote</Link>
+              <Link to="/inquiry" className="btn-primary">Get My Custom Quote</Link>
             </div>
             <div className="space-y-4">
               {whyCustom.map((item, i) => (
@@ -484,7 +484,7 @@ export default function DubaiCateringPricesGuide() {
             Tell us about your event and we will send an itemised custom proposal that matches your menu, guest count, and venue.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=dubai-catering-prices-guide" className="btn-primary">Get My Custom Quote</Link>
+            <Link to="/inquiry" className="btn-primary">Get My Custom Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

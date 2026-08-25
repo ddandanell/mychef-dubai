@@ -406,7 +406,7 @@ export default function BirthdayCatering() {
           <FaqAccordion items={[...faqs]} defaultOpen={-1} />
           <p className="mt-8 font-inter text-body-sm text-gray-500">
             Planning something bigger or different?{' '}
-            <Link to={BIRTHDAY_SUPPORT.partyCatering} className="text-gold-ink underline underline-offset-4 hover:text-gold">
+            <Link to={BIRTHDAY_SUPPORT.privateParty} className="text-gold-ink underline underline-offset-4 hover:text-gold">
               Party catering
             </Link>
             {' · '}

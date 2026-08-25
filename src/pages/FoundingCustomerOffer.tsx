@@ -19,13 +19,11 @@ import { breadcrumbSchema, faqPageSchema, serviceSchema } from '../utils/schema'
 import FaqAccordion from '../components/FaqAccordion'
 import { SectionLabel } from '../components/system'
 
-
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to learn more about the founding customer offer (via mychef.ae/founding-customer-offer)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 const CANONICAL_PATH = '/founding-customer-offer'
-const CAMPAIGN = 'founding-customer'
 
 const inclusions = [
   {
@@ -227,7 +225,7 @@ export default function FoundingCustomerOffer() {
             Be among the first to experience myCHEF Dubai. Founding customers lock in exclusive pricing, priority chef matching, and premium perks for 12 months.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary opacity-0 translate-y-4 fc-hero-cta">Join as a Founding Customer</Link>
+            <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 fc-hero-cta">Join as a Founding Customer</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -327,7 +325,7 @@ export default function FoundingCustomerOffer() {
                   ))}
                 </ul>
                 <Link
-                  to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`}
+                  to={`/inquiry`}
                   className="block text-center w-full py-3 font-inter text-sm uppercase tracking-wider bg-gold text-black hover:bg-gold-light transition-colors"
                 >
                   Enquire
@@ -394,7 +392,7 @@ export default function FoundingCustomerOffer() {
             Founding memberships are limited. Secure your priority booking, locked-in pricing, and dedicated concierge before the window closes.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={`/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=${CAMPAIGN}`} className="btn-primary">Join as a Founding Customer</Link>
+            <Link to={`/inquiry`} className="btn-primary">Join as a Founding Customer</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

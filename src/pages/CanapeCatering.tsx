@@ -3,6 +3,7 @@ import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
+import { locationPath } from '@/data/locations'
 import {
   UtensilsCrossed,
   GlassWater,
@@ -95,6 +96,14 @@ const useCases = [
     title: 'Engagements & Intimate Celebrations',
     description: 'For engagements, anniversaries, and milestone toasts, a curated canapé selection feels considered and elegant without the formality of a seated dinner.',
   },
+  {
+    title: 'Finger Food & Sharing Platters',
+    description: 'Not every gathering wants a passing tray. For relaxed birthdays, house parties and family get-togethers we build finger food catering instead: sliders, wraps, skewers, mezze boards and warm savoury bites laid out as generous platters guests graze on all evening. Larger and more casual than a canapé, balanced hot and cold, sized to the time of day.',
+  },
+  {
+    title: 'Office & Networking Bites',
+    description: 'Working lunches, training days, seminar breaks and mixers across DIFC, Business Bay and Downtown — mess-free finger food that fits around a schedule. Delivered and set up cleanly without staff, or with servers and hosts when you want a full stand-up reception.',
+  },
 ]
 
 const galleryImages = [
@@ -157,7 +166,7 @@ const faqs = [
   { q: "Can I book a tasting before confirming my canapé menu?", a: "Yes, we can arrange a tasting for larger or premium receptions so you can experience the canapés and refine the selection before your event. For smaller bookings we guide the menu closely over WhatsApp or a call so you feel confident in every bite. Let us know your date and guest count and we will advise the best way to preview your menu." },
   { q: "Do you offer both hot and cold canapés?", a: "Yes. A well-balanced canapé reception mixes cold bites like chilled seafood and delicate crostini with warm savoury morsels straight from the pass, plus sweet petit fours to finish. Our chefs plan the ratio around your venue, timing, and whether the canapés are a pre-dinner welcome or the meal itself, so nothing arrives lukewarm or repetitive." },
   { q: "How many canapés replace a full dinner versus a pre-dinner reception?", a: "For a pre-dinner welcome, six to eight canapés per guest is plenty, while a standalone canapé evening that replaces dinner needs roughly ten to fourteen bites per guest, typically eight to twelve savoury plus two to four sweet. We plan the exact count around your event length and drinks, so guests leave satisfied rather than still hungry." },
-  { q: "What is the difference between canapés and finger food?", a: "Canapés are refined, one-to-two-bite creations built on a base like crostini or a delicate spoon, designed to look elegant on a passing tray, while finger food is generally larger and more casual. Canapés suit polished receptions, openings, and toasts, whereas finger food fits relaxed mingling. If your event is more casual, our [finger food catering in Dubai](/finger-food-catering-dubai) may be the better fit." },
+  { q: "What is the difference between canapés and finger food?", a: "Canapés are refined, one-to-two-bite creations built on a base like crostini or a delicate spoon, designed to look elegant on a passing tray, while finger food is generally larger and more casual. Canapés suit polished receptions, openings, and toasts, whereas finger food fits relaxed mingling. If your event is more casual, ask for our finger food and sharing-platter menus instead — same team, same booking, a more relaxed format." },
   { q: "Can you provide waiters and bartenders, or is it drop-off only?", a: "Both. We can deliver styled canapé displays for a self-serve reception, or bring a full team of waiters passing canapés and bartenders mixing cocktails and mocktails. Serving staff are optional and scaled to your guest count, so you choose the level of service your event needs and we handle the rest end to end." },
   { q: "How much notice do you need to book canapé catering?", a: "For smaller receptions a week or two is comfortable, while larger or fully staffed and branded events are best confirmed two to four weeks ahead so we can lock in staff, styling, and sourcing. During peak season from November to March, dates fill quickly, so earlier is safer. If your event is soon, message us anyway and we will tell you honestly what we can deliver." },
   { q: "Can you cater canapés at villas, yachts, rooftops, and event venues?", a: "Yes. We bring canapé receptions to private villas, yachts, rooftops, offices, galleries, and event venues across Dubai, adjusting the menu and equipment to each space. Compact, mess-free bites work beautifully on a deck or terrace, and we coordinate access, timing, and setup with your venue. Planning a charter reception? See our [yacht catering](/yachts) options." },
@@ -315,7 +324,7 @@ export default function CanapeCatering() {
             Passed canapés, styled displays, and cocktail pairings — refined, photogenic bites and seamless service for receptions, openings, launches, and elegant celebrations across Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=canape-catering-dubai" className="btn-primary opacity-0 translate-y-4 can-hero-cta">Get a Canapé Menu Quote</Link>
+            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 can-hero-cta">Get a Canapé Menu Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -345,7 +354,7 @@ export default function CanapeCatering() {
             our chefs build menus that move easily through a room, pairing chilled seafood bites, warm savoury morsels, and sweet petit fours with optional cocktails and mocktails. Servers pass canapés with timing and grace, while styled displays give guests a centrepiece to gather around. Whether it is a cocktail reception, a gallery opening, a rooftop gathering, or an engagement toast, we bring the bites, the staff, and the styling to you. Explore our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>, or speak to us to start planning.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mt-5">
-            For more casual mingling menus, see our <Link to="/finger-food-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">finger food catering in Dubai</Link>.
+            If the occasion is more relaxed than a reception, the same team runs finger food catering in Dubai — larger, more casual bites and sharing platters for offices, house parties and mixers — and we will tell you honestly which of the two fits your event.
           </p>
         </div>
       </section>
@@ -469,7 +478,7 @@ export default function CanapeCatering() {
             {locations.map((loc) => (
               <Link
                 key={loc.slug}
-                to={`/locations/${loc.slug}`}
+                to={locationPath(loc.slug)}
                 className="can-loc-item flex items-center gap-2 font-inter text-sm text-gray-400 hover:text-gold transition-colors opacity-0"
               >
                 <span className="w-1.5 h-1.5 rounded-full bg-gold flex-shrink-0" />
@@ -526,7 +535,7 @@ export default function CanapeCatering() {
             Tell us about your event and we'll design a canapé selection, drinks, and service plan that fits it perfectly.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=canape-catering-dubai" className="btn-primary">Get a Canapé Menu Quote</Link>
+            <Link to="/inquiry" className="btn-primary">Get a Canapé Menu Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

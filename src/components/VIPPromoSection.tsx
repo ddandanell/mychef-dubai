@@ -13,9 +13,9 @@ const benefits = [
   { icon: Crown, label: 'Exclusive seasonal menus' },
 ]
 
-export default function VIPPromoSection({ campaign = 'site', variant = 'dark' }: VIPPromoSectionProps) {
+export default function VIPPromoSection({ variant = 'dark' }: VIPPromoSectionProps) {
   const isDark = variant === 'dark'
-  const ctaUrl = `/vip-club?utm_source=mychef.ae&utm_medium=banner&utm_campaign=${campaign}`
+  const ctaUrl = `/vip-club`
 
   return (
     <section className={`${isDark ? 'bg-charcoal' : 'bg-cream'} section-padding`}>

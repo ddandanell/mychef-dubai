@@ -3,6 +3,7 @@ import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
+import { locationPath } from '@/data/locations'
 import {
   Soup,
   Salad,
@@ -45,7 +46,7 @@ const buffetFormats = [
     icon: Soup,
     title: 'Live Action Stations',
     description: 'Pasta, risotto, carving, and grill stations manned by our chefs, adding theatre and freshness to the buffet experience.',
-    link: '/party-catering-dubai',
+    link: '/live-cooking-stations-dubai',
   },
   {
     icon: Globe,
@@ -63,7 +64,7 @@ const buffetFormats = [
     icon: Users,
     title: 'Large Gatherings',
     description: 'Weddings, receptions, and milestone celebrations served with abundant, beautifully presented stations for every guest.',
-    link: '/party-catering-dubai',
+    link: '/private-party-catering-dubai',
   },
 ]
 
@@ -315,7 +316,7 @@ export default function BuffetCatering() {
             Abundant hot and cold stations, live action counters, and international menus — beautifully styled and seamlessly served for corporate events, weddings, and large gatherings across Dubai.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=buffet-catering-dubai" className="btn-primary opacity-0 translate-y-4 buf-hero-cta">Get a Buffet Quote</Link>
+            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 buf-hero-cta">Get a Buffet Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -466,7 +467,7 @@ export default function BuffetCatering() {
             {locations.map((loc) => (
               <Link
                 key={loc.slug}
-                to={`/locations/${loc.slug}`}
+                to={locationPath(loc.slug)}
                 className="buf-loc-item flex items-center gap-2 font-inter text-sm text-gray-400 hover:text-gold transition-colors opacity-0"
               >
                 <span className="w-1.5 h-1.5 rounded-full bg-gold flex-shrink-0" />
@@ -523,7 +524,7 @@ export default function BuffetCatering() {
             Tell us about your event and we'll design a buffet menu, stations, and service plan that fits it perfectly.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=buffet-catering-dubai" className="btn-primary">Get a Buffet Quote</Link>
+            <Link to="/inquiry" className="btn-primary">Get a Buffet Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"

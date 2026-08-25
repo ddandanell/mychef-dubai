@@ -1,6 +1,5 @@
 User-agent: *
 Allow: /
 Disallow: /thank-you
-Disallow: /inquiry
 
 Sitemap: https://www.mychef.ae/sitemap.xml

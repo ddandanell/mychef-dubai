@@ -103,7 +103,7 @@ const relatedServices = [
   { title: 'Villa Dining', link: '/villas-private-residences' },
   { title: 'Yacht Catering', link: '/yachts' },
   { title: 'Corporate Catering', link: '/corporate' },
-  { title: 'Party Catering', link: '/party-catering-dubai' },
+  { title: 'Party Catering', link: '/private-party-catering-dubai' },
   { title: 'Chinese New Year Catering', link: '/chinese-new-year-catering-dubai' },
   { title: 'Holi Catering', link: '/holi-catering-dubai' },
 ]
@@ -224,7 +224,7 @@ export default function FestiveCatering() {
         subtitle="From Christmas roasts and New Year tasting menus to Ramadan iftars, Eid feasts and Diwali celebrations — we design seasonal catering that matches the occasion."
         image="/images/festive-catering-dubai-hero.webp"
         imageAlt="Festive catering celebrations in Dubai"
-        cta={{ label: 'Get a Festive Quote', href: '/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=festive-catering' }}
+        cta={{ label: 'Get a Festive Quote', href: '/inquiry' }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Festive Catering Dubai' }]}
         minHeight="tall"
@@ -331,7 +331,7 @@ export default function FestiveCatering() {
             Tell us the occasion, date and guest count. We’ll create a festive menu and service plan tailored to your Dubai celebration.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=festive-catering" className="btn-primary">
+            <Link to="/inquiry" className="btn-primary">
               Get a Festive Quote
             </Link>
             <a

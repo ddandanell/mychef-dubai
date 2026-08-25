@@ -3,6 +3,7 @@ import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
+import { locationPath } from '@/data/locations'
 import {
   Video,
   Camera,
@@ -33,7 +34,7 @@ const productionFormats = [
     icon: Video,
     title: 'TV & Broadcast Catering',
     description: 'Full daily catering for television and broadcast shoots, scaled to large casts and crews and timed precisely around recording and rehearsal blocks.',
-    link: '/film-crew-catering-dubai',
+    link: '/staff-meals-catering-dubai',
   },
   {
     icon: Camera,
@@ -51,7 +52,7 @@ const productionFormats = [
     icon: Sunrise,
     title: 'Early & Extended Hours',
     description: 'Pre-call breakfasts and late wrap meals for productions that start before dawn and run well into the night across multi-day schedules.',
-    link: '/film-crew-catering-dubai',
+    link: '/breakfast-catering-dubai',
   },
   {
     icon: Salad,
@@ -83,6 +84,14 @@ const useCases = [
   {
     title: 'Multi-Day & Remote Shoots',
     description: 'For extended schedules and locations away from any fixed kitchen, we arrive fully equipped and self-sufficient, delivering consistent catering and craft services across every day of the production.',
+  },
+  {
+    title: 'Feature Films & Commercials',
+    description: 'Film crew catering for feature shoots and high-end commercials across Dubai: pre-dawn call-time breakfasts, substantial hot lunches and a continuously stocked craft table, scaled to the headcount on the call sheet and adjusted day to day as numbers change.',
+  },
+  {
+    title: 'Night Shoots & Wrap Meals',
+    description: 'Twelve-hour days and overnight shoots need food at the right moments, not just at noon. We plan warm second meals and late wrap catering around your shooting blocks so the unit stays fuelled however far the schedule runs — desert, beach, industrial backlot or studio.',
   },
 ]
 
@@ -154,10 +163,10 @@ const faqs = [
 
 const relatedServices = [
   {
-    title: 'Film Crew Catering',
-    description: 'On-set catering for film shoots, with early calls, hot lunches, and wrap meals.',
+    title: 'Staff Meals Catering',
+    description: 'Scheduled daily meals for teams — the recurring version of feeding a crew.',
     image: '/service-catering.webp',
-    link: '/film-crew-catering-dubai',
+    link: '/staff-meals-catering-dubai',
   },
   {
     title: 'Corporate Catering',
@@ -269,7 +278,7 @@ export default function ProductionCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Production Catering Dubai | TV, Photo & Event Crews | myCHEF"
+        title="Production Catering Dubai | Film, TV & Photo Crews | myCHEF"
         description="Production catering in Dubai for TV, photo & event crews — daily meals, craft services, early calls & dietary coverage. Timed to your schedule. Get a quote."
         canonicalPath="/production-catering-dubai"
         ogImage="/service-catering.webp"
@@ -301,7 +310,7 @@ export default function ProductionCatering() {
             On-location catering for TV, photo, and event productions across Dubai — daily crew meals, craft services, and full dietary coverage that keeps every shoot running on time.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=production-catering-dubai" className="btn-primary opacity-0 translate-y-4 prod-hero-cta">Get My Production Catering Quote</Link>
+            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 prod-hero-cta">Get My Production Catering Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -328,7 +337,7 @@ export default function ProductionCatering() {
             A production runs on its schedule, and catering is part of how that schedule holds. Hot meals served at the right moment, craft tables kept stocked between setups, and dietary needs handled without fuss all add up to a unit that stays focused and on time. At myCHEF Dubai, we plan production catering as part of the operation — timed to your call sheet, scaled to your headcount, and consistent across every day of the shoot.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            From television and broadcast crews to photo shoots, branded content, and live event productions, we keep cast, talent, and technical teams looked after from the first setup to the final wrap. Explore our production formats below, or see how it fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link> and dedicated <Link to="/film-crew-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">film crew catering in Dubai</Link>.
+            From television and broadcast crews to photo shoots, branded content, and live event productions, we keep cast, talent, and technical teams looked after from the first setup to the final wrap. Film crews, television units, photo shoots and event productions are one page here because the problem is the same: a moving team, a call sheet, and food that has to arrive hot at the right moment. Explore the formats below, or see how it fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
           </p>
         </div>
       </section>
@@ -452,7 +461,7 @@ export default function ProductionCatering() {
             {locations.map((loc) => (
               <Link
                 key={loc.slug}
-                to={`/locations/${loc.slug}`}
+                to={locationPath(loc.slug)}
                 className="prod-loc-item flex items-center gap-2 font-inter text-sm text-gray-400 hover:text-gold transition-colors opacity-0"
               >
                 <span className="w-1.5 h-1.5 rounded-full bg-gold flex-shrink-0" />
@@ -509,7 +518,7 @@ export default function ProductionCatering() {
             Tell us about your shoot — the dates, locations, headcount, and dietary needs — and we'll build a catering plan that keeps your production fed, focused, and on schedule.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=production-catering-dubai" className="btn-primary">Get My Production Catering Quote</Link>
+            <Link to="/inquiry" className="btn-primary">Get My Production Catering Quote</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
