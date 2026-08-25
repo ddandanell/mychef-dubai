@@ -209,7 +209,8 @@ const serviceSchema = {
   serviceType: 'Catering Service',
   provider: {
     '@type': 'Organization',
-    name: 'myCHEF Dubai',
+    '@id': 'https://www.mychef.ae/#organization',
+    name: 'myCHEF',
     url: 'https://www.mychef.ae',
     telephone: '+971-55-174-4849',
     areaServed: 'Dubai, UAE',
@@ -289,7 +290,7 @@ export default function DessertTableCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Dessert Table Catering Dubai | Wedding & Birthday Patisserie | myCHEF"
+        title="Dessert Table Catering Dubai | Wedding & Birthday | myCHEF"
         description="Bespoke dessert table catering in Dubai for weddings, birthdays & events. Custom cakes, French patisserie, styled sweet displays. Request a menu quote."
         canonicalPath="/dessert-table-catering-dubai"
         ogImage="/menu-dessert.webp"

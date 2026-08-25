@@ -188,7 +188,8 @@ const serviceSchema = {
   serviceType: 'Catering Service',
   provider: {
     '@type': 'Organization',
-    name: 'myCHEF Dubai',
+    '@id': 'https://www.mychef.ae/#organization',
+    name: 'myCHEF',
     url: 'https://www.mychef.ae',
     telephone: '+971-55-174-4849',
     areaServed: 'Dubai, UAE',
@@ -268,7 +269,7 @@ export default function ConferenceCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Conference Catering Dubai | Coffee Breaks & Working Lunches | myCHEF"
+        title="Conference Catering Dubai | Breaks & Working Lunches | myCHEF"
         description="Conference catering in Dubai with coffee breaks, working lunches & multi-day programmes. VAT/TRN invoicing, halal menus, account manager. Get a quote in 15 min."
         canonicalPath="/conference-catering-dubai"
         ogImage="/service-corporate.webp"

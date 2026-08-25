@@ -1,86 +1,25 @@
-const SITE_URL = 'https://www.mychef.ae'
-const SITE_NAME = 'myCHEF Dubai'
-const LOGO_URL = `${SITE_URL}/logo.svg`
+import { ORGANIZATION_REF, ORGANIZATION_SCHEMA } from '@/lib/organizationSchema'
 
+const SITE_URL = 'https://www.mychef.ae'
+const SITE_NAME = 'myCHEF'
+
+/**
+ * All three of these used to build separate business nodes — two of them with
+ * no @id — so the site described itself as three different companies. They now
+ * return the one entity in src/lib/organizationSchema.ts. Kept as named exports
+ * because pages embed them by name; identical nodes sharing an @id collapse to
+ * one on parse.
+ */
 export function organizationSchema() {
-  return {
-    '@context': 'https://schema.org',
-    '@type': 'Organization',
-    name: SITE_NAME,
-    url: SITE_URL,
-    logo: LOGO_URL,
-    description:
-      'Premium private-dining and event design in Dubai. We design bespoke culinary experiences and connect clients with vetted, licensed independent chefs and catering partners.',
-    // sameAs: add verified social profile URLs here once accounts are live
-    // (Instagram, Facebook, LinkedIn, TikTok, Pinterest, Google Business Profile)
-    contactPoint: {
-      '@type': 'ContactPoint',
-      telephone: '+971-55-174-4849',
-      email: 'info@mychef.id',
-      contactType: 'customer service',
-      areaServed: 'AE',
-      availableLanguage: ['English'],
-    },
-  }
+  return ORGANIZATION_SCHEMA
 }
 
 export function professionalServiceSchema() {
-  return {
-    '@context': 'https://schema.org',
-    '@type': 'ProfessionalService',
-    '@id': `${SITE_URL}/#business`,
-    name: SITE_NAME,
-    description:
-      'Premium private-dining and event design in Dubai. We design bespoke culinary experiences and connect clients with vetted, licensed independent chefs and catering partners. Culinary preparation is performed by those licensed third parties.',
-    url: SITE_URL,
-    logo: LOGO_URL,
-    image: `${SITE_URL}/images/home-hero.webp`,
-    telephone: '+971-55-174-4849',
-    email: 'info@mychef.id',
-    priceRange: '$$$$',
-    currenciesAccepted: 'AED',
-    areaServed: { '@type': 'City', name: 'Dubai' },
-    address: {
-      '@type': 'PostalAddress',
-      addressLocality: 'Dubai',
-      addressCountry: 'AE',
-    },
-    knowsLanguage: ['en', 'ar'],
-    slogan: 'One conversation. One plan. One standard. One unforgettable experience.',
-    contactPoint: {
-      '@type': 'ContactPoint',
-      contactType: 'customer service',
-      telephone: '+971-55-174-4849',
-      email: 'info@mychef.id',
-      availableLanguage: ['English', 'Arabic'],
-    },
-  }
+  return ORGANIZATION_SCHEMA
 }
 
 export function localBusinessSchema() {
-  return {
-    '@context': 'https://schema.org',
-    '@type': 'ProfessionalService',
-    name: SITE_NAME,
-    url: SITE_URL,
-    logo: LOGO_URL,
-    description:
-      'Premium private-dining and event design in Dubai. We design bespoke culinary experiences and connect clients with vetted, licensed independent chefs and catering partners.',
-    address: {
-      '@type': 'PostalAddress',
-      addressLocality: 'Dubai',
-      addressRegion: 'Dubai',
-      addressCountry: 'AE',
-    },
-    areaServed: {
-      '@type': 'City',
-      name: 'Dubai',
-    },
-    telephone: '+971-55-174-4849',
-    priceRange: '$$$$',
-    currenciesAccepted: 'AED, USD',
-    paymentAccepted: 'Cash, Credit Card, Bank Transfer',
-  }
+  return ORGANIZATION_SCHEMA
 }
 
 export function breadcrumbSchema(items: { name: string; path: string }[]) {
@@ -128,11 +67,7 @@ export function serviceSchema(
     '@type': 'Service',
     name,
     description,
-    provider: {
-      '@type': 'Organization',
-      name: SITE_NAME,
-      url: SITE_URL,
-    },
+    provider: ORGANIZATION_REF,
     serviceType,
     areaServed: {
       '@type': 'City',
@@ -186,11 +121,7 @@ export function offerSchema(
     priceCurrency,
     availability,
     url: toAbsoluteUrl(url),
-    seller: {
-      '@type': 'Organization',
-      name: SITE_NAME,
-      url: SITE_URL,
-    },
+    seller: ORGANIZATION_REF,
   }
 }
 
@@ -211,11 +142,7 @@ export function aggregateOfferSchema(
     highPrice,
     priceCurrency,
     url: toAbsoluteUrl(url),
-    seller: {
-      '@type': 'Organization',
-      name: SITE_NAME,
-      url: SITE_URL,
-    },
+    seller: ORGANIZATION_REF,
   }
 }
 
@@ -248,11 +175,7 @@ export function eventSchema(
         }
       : undefined,
     url: url ? `${SITE_URL}${url}` : undefined,
-    organizer: {
-      '@type': 'Organization',
-      name: SITE_NAME,
-      url: SITE_URL,
-    },
+    organizer: ORGANIZATION_REF,
   }
 }
 

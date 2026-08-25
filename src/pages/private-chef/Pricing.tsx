@@ -32,7 +32,7 @@ const schema = {
       '@type': 'Service',
       name: 'Private chef — household plans (3+ days)',
       url: `https://www.mychef.ae${PATH}`,
-      provider: { '@type': 'Organization', name: 'myCHEF Dubai' },
+      provider: { '@id': 'https://www.mychef.ae/#organization' },
       areaServed: 'Dubai',
       offers: SERVICES.map((s) => ({
         '@type': 'Offer',

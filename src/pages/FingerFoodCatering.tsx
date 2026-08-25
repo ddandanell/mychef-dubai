@@ -203,7 +203,8 @@ const serviceSchema = {
   serviceType: 'Catering Service',
   provider: {
     '@type': 'Organization',
-    name: 'myCHEF Dubai',
+    '@id': 'https://www.mychef.ae/#organization',
+    name: 'myCHEF',
     url: 'https://www.mychef.ae',
     telephone: '+971-55-174-4849',
     areaServed: 'Dubai, UAE',
@@ -283,7 +284,7 @@ export default function FingerFoodCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Finger Food Catering Dubai | Office & Party Bite-Size Menus | myCHEF"
+        title="Finger Food Catering Dubai | Office & Party Menus | myCHEF"
         description="Bite-size finger food catering in Dubai for offices, parties & corporate events. Hot & cold sharing platters, easy service, halal options. Request a quote."
         canonicalPath="/finger-food-catering-dubai"
         ogImage="/menu-canapes.webp"

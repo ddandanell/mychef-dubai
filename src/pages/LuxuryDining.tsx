@@ -52,7 +52,7 @@ const schema = {
       description: experiencesHubSeo.description,
       url: `https://www.mychef.ae${EXPERIENCES_PATHS.hub}`,
       about: { '@type': 'Thing', name: 'Private dining experiences in Dubai' },
-      publisher: { '@type': 'Organization', name: 'myCHEF Dubai', url: 'https://www.mychef.ae' },
+      publisher: { '@id': 'https://www.mychef.ae/#organization' },
     },
     experiencesBreadcrumb('Dining Experiences', EXPERIENCES_PATHS.hub),
     {

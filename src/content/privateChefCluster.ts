@@ -236,7 +236,7 @@ export const childSeo = {
   },
   // LOCKED: "healthy food chef" (30/mo). Secondary: "food chef" (110/mo), "chef cook" (260/mo).
   quality: {
-    title: 'Chef Quality & Training | Healthy Food Chef Standards Dubai | myCHEF',
+    title: 'Chef Quality & Training | Healthy Food Standards Dubai | myCHEF',
     description:
       'How myCHEF keeps chef quality stable in Dubai homes: what we measure before placement, healthy food and dietary standards, feedback after service, and when the match should change.',
     h1: 'Good on day one is not enough.',

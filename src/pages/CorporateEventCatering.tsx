@@ -46,7 +46,7 @@ const schema = {
       description: corporateEventSeo.description,
       url: `https://www.mychef.ae${CORPORATE_PATHS.events}`,
       areaServed: { '@type': 'City', name: 'Dubai' },
-      provider: { '@type': 'Organization', name: 'myCHEF Dubai', url: 'https://www.mychef.ae' },
+      provider: { '@id': 'https://www.mychef.ae/#organization' },
     },
     corporateBreadcrumb('Corporate Event Catering', CORPORATE_PATHS.events),
     {

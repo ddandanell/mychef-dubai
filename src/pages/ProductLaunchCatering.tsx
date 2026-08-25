@@ -176,7 +176,8 @@ const serviceSchema = {
   serviceType: 'Catering Service',
   provider: {
     '@type': 'Organization',
-    name: 'myCHEF Dubai',
+    '@id': 'https://www.mychef.ae/#organization',
+    name: 'myCHEF',
     url: 'https://www.mychef.ae',
     telephone: '+971-55-174-4849',
     areaServed: 'Dubai, UAE',
@@ -261,7 +262,7 @@ export default function ProductLaunchCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Product Launch Catering Dubai | Media, Press & Unveilings | myCHEF"
+        title="Product Launch Catering Dubai | Media & Press | myCHEF"
         description="Product launch catering in Dubai for media events, press briefings & unveilings. Branded canapés, live stations & VAT invoicing. Get a quote in 15 min."
         canonicalPath="/product-launch-catering-dubai"
         ogImage="/images/product-launch-catering-dubai-hero.webp"

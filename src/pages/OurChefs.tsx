@@ -157,7 +157,7 @@ export default function OurChefs() {
       <PageHero
         eyebrow="THE CHEFS WE CHOOSE"
         title="Vetted Private Chefs in Dubai"
-        subtitle="Every our chef is interviewed, tasted, and background-checked before joining. We bring you the right chef for your occasion — reply within 15 minutes during business hours."
+        subtitle="Every chef is interviewed, tasted and background-checked before joining. We bring you the right chef for your occasion — reply within 15 minutes during business hours."
         image="/images/about-mychef-dubai-hero.webp"
         imageAlt="A partner chef at work for a myCHEF Dubai private dining experience"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'The Chefs We Choose' }]}
@@ -183,7 +183,7 @@ export default function OurChefs() {
                 Behind every myCHEF evening is a chef we carefully selected — vetted for credentials, licensing and food-safety before they ever cook for a client. We choose the talent. We hold the standard. The artistry is theirs.
               </p>
               <p className="font-inter text-body text-gray-500 leading-relaxed">
-                Every our chef is independently vetted and selected not only for technical skill but for something harder to teach: the instinct for genuine hospitality. We believe that a truly exceptional dining experience is about how your guests feel — not just what they eat.
+                Every chef is independently vetted and selected not only for technical skill but for something harder to teach: the instinct for genuine hospitality. We believe that a truly exceptional dining experience is about how your guests feel — not just what they eat.
               </p>
             </div>
 

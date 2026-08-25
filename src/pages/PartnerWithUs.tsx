@@ -73,7 +73,7 @@ const serviceSchema = {
   '@type': 'Service',
   name: 'myCHEF Dubai Partnership Program',
   description: 'Partner with myCHEF Dubai to offer private chef and luxury catering services to your villa guests, yacht charter clients, wedding parties, and corporate contacts.',
-  provider: { '@type': 'Organization', name: 'myCHEF Dubai', url: 'https://www.mychef.ae' },
+  provider: { '@id': 'https://www.mychef.ae/#organization' },
   areaServed: { '@type': 'City', name: 'Dubai' },
   serviceType: 'Private chef and catering partnership program',
 }

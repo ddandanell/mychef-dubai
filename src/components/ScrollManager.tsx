@@ -1,46 +1,66 @@
-import { useEffect } from 'react'
+import { useEffect, useLayoutEffect } from 'react'
 import { useLocation } from 'react-router'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import { armRevealFailsafe } from '../lib/revealFailsafe'
+import { disableScrollRestoration, holdScrollTop, jumpToTop } from '../lib/scrollToTop'
 
 /**
  * Handles everything that has to happen when the route changes in this SPA.
  *
- * Previously none of this existed, which is why navigating between pages left
- * whole sections invisible:
+ *  1. Jump to the top on every new pathname. React Router keeps the previous
+ *     Y; the mobile Sheet restores the Y it locked when the menu opened.
+ *     `holdScrollTop` pins Y=0 through that unlock (~300ms close animation).
  *
- *  1. `window.scrollTo(0, 0)` — React Router keeps the browser's scroll
- *     position across navigations. A new page mounting at, say, 2000px down
- *     means every ScrollTrigger configured `start: "top 80%"` for content now
- *     above the viewport has already been passed and will never fire, leaving
- *     those sections stuck at opacity:0 forever.
+ *  2. Same-page `#hash` still scrolls to the target after layout.
  *
- *  2. `ScrollTrigger.refresh()` — trigger positions are measured once at
- *     creation. After a route swap the layout is entirely different, so every
- *     cached position is stale. There was no refresh() call anywhere in the
- *     codebase before this component.
+ *  3. `ScrollTrigger.refresh()` so GSAP start positions match the new page.
  *
- *  3. `armRevealFailsafe()` — last-resort sweep for anything still hidden.
- *
- * Order matters: scroll first, then refresh against the new scroll position.
+ *  4. `armRevealFailsafe()` for anything still stuck at opacity:0.
  */
 export default function ScrollManager() {
   useScrollTrigger()
   const { pathname, hash } = useLocation()
 
+  useLayoutEffect(() => {
+    disableScrollRestoration()
+  }, [])
+
+  useLayoutEffect(() => {
+    if (hash) return
+    jumpToTop()
+  }, [pathname, hash])
+
   useEffect(() => {
-    const raf = requestAnimationFrame(() => {
-      if (hash) {
-        document.getElementById(hash.slice(1))?.scrollIntoView()
-      } else {
-        window.scrollTo(0, 0)
+    disableScrollRestoration()
+
+    if (hash) {
+      const id = hash.slice(1)
+      const toHash = () => document.getElementById(id)?.scrollIntoView()
+      const raf = requestAnimationFrame(toHash)
+      const later = window.setTimeout(toHash, 120)
+      const refresh = window.setTimeout(() => {
+        ScrollTrigger.refresh()
+        armRevealFailsafe()
+      }, 80)
+      return () => {
+        cancelAnimationFrame(raf)
+        window.clearTimeout(later)
+        window.clearTimeout(refresh)
       }
+    }
+
+    const releaseHold = holdScrollTop(420)
+    const refresh = window.setTimeout(() => {
+      jumpToTop()
       ScrollTrigger.refresh()
       armRevealFailsafe()
-    })
+    }, 80)
 
-    return () => cancelAnimationFrame(raf)
+    return () => {
+      releaseHold()
+      window.clearTimeout(refresh)
+    }
   }, [pathname, hash])
 
   return null

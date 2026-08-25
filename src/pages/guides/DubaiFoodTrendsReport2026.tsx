@@ -131,12 +131,14 @@ const articleSchema = {
   image: 'https://www.mychef.ae/images/dubai-food-trends-report-hero.webp',
   author: {
     '@type': 'Organization',
-    name: 'myCHEF Dubai',
+    '@id': 'https://www.mychef.ae/#organization',
+    name: 'myCHEF',
     url: 'https://www.mychef.ae',
   },
   publisher: {
     '@type': 'Organization',
-    name: 'myCHEF Dubai',
+    '@id': 'https://www.mychef.ae/#organization',
+    name: 'myCHEF',
     logo: { '@type': 'ImageObject', url: 'https://www.mychef.ae/images/mychef-logo.png' },
   },
   datePublished: '2026-07-01',

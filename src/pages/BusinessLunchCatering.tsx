@@ -189,7 +189,8 @@ const serviceSchema = {
   serviceType: 'Catering Service',
   provider: {
     '@type': 'Organization',
-    name: 'myCHEF Dubai',
+    '@id': 'https://www.mychef.ae/#organization',
+    name: 'myCHEF',
     url: 'https://www.mychef.ae',
     telephone: '+971-55-174-4849',
     areaServed: 'Dubai, UAE',
@@ -269,7 +270,7 @@ export default function BusinessLunchCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Business Lunch Catering Dubai | Boardroom & Client Meetings | myCHEF"
+        title="Business Lunch Catering Dubai | Boardroom & Client | myCHEF"
         description="Business lunch catering in Dubai for boardroom meetings, client hosting & working lunches. VAT/TRN invoicing, halal menus. Get a quote in 15 min."
         canonicalPath="/business-lunch-catering-dubai"
         ogImage="/service-corporate.webp"

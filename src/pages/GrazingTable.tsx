@@ -202,7 +202,8 @@ const serviceSchema = {
   serviceType: 'Catering Service',
   provider: {
     '@type': 'Organization',
-    name: 'myCHEF Dubai',
+    '@id': 'https://www.mychef.ae/#organization',
+    name: 'myCHEF',
     url: 'https://www.mychef.ae',
     telephone: '+971-55-174-4849',
     areaServed: 'Dubai, UAE',
@@ -282,7 +283,7 @@ export default function GrazingTable() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Grazing Table Dubai | Artisan Cheese & Charcuterie Spreads | myCHEF"
+        title="Grazing Table Dubai | Cheese & Charcuterie Spreads | myCHEF"
         description="Artisan grazing tables in Dubai. Cheese & charcuterie spreads styled for showers, villas, weddings & corporate events. From AED __ for __ guests. Get a quote."
         canonicalPath="/grazing-table-dubai"
         ogImage="/menu-appetizer.webp"

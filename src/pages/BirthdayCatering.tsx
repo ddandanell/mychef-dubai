@@ -49,7 +49,7 @@ const schema = {
       description: birthdayHubSeo.description,
       url: `https://www.mychef.ae${BIRTHDAY_PATHS.hub}`,
       areaServed: { '@type': 'City', name: 'Dubai' },
-      provider: { '@type': 'Organization', name: 'myCHEF Dubai', url: 'https://www.mychef.ae' },
+      provider: { '@id': 'https://www.mychef.ae/#organization' },
     },
     birthdayBreadcrumb('Birthday Catering Dubai', BIRTHDAY_PATHS.hub),
     {

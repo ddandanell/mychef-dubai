@@ -168,8 +168,8 @@ export default function About() {
             </div>
             <div className="story-right">
               <img
-                src="/testimonial-villa.webp"
-                alt="Founder at a private dinner event"
+                src="/images/villa-catering-dubai-hero.webp"
+                alt="A chef grilling poolside at a Dubai villa at sunset. Experience concept shown."
                 width={1264}
                 height={848}
                 className="editorial-image w-full object-cover"

@@ -197,7 +197,8 @@ const serviceSchema = {
   serviceType: 'Baby Shower Catering Service',
   provider: {
     '@type': 'Organization',
-    name: 'myCHEF Dubai',
+    '@id': 'https://www.mychef.ae/#organization',
+    name: 'myCHEF',
     url: 'https://www.mychef.ae',
     telephone: '+971-55-174-4849',
     areaServed: 'Dubai, UAE',
@@ -286,7 +287,7 @@ export default function BabyShowerCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Baby Shower Catering Dubai | Grazing Tables, Tea & Mocktails | myCHEF"
+        title="Baby Shower Catering Dubai | Grazing Tables & Mocktails | myCHEF"
         description="Book baby shower catering in Dubai. Grazing tables, afternoon tea, canapés, dessert displays and mocktails styled to your theme. Get a quote in 15 minutes."
         canonicalPath="/baby-shower-catering-dubai"
         ogImage="/menu-dessert.webp"

@@ -65,7 +65,7 @@ const faqs = [
 const serviceSchema = {
   '@type': 'Service',
   name: 'Catering Packages Dubai',
-  provider: { '@type': 'Organization', name: 'myCHEF Dubai', url: 'https://www.mychef.ae' },
+  provider: { '@id': 'https://www.mychef.ae/#organization' },
   areaServed: { '@type': 'City', name: 'Dubai', '@id': 'https://www.wikidata.org/wiki/Q612' },
   description: 'Indicative catering packages in Dubai for date nights, family dinners, birthdays, corporate events and weekly meal prep. Request a custom quote.',
   url: 'https://www.mychef.ae/catering-packages-dubai',

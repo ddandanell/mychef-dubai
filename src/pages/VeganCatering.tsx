@@ -205,7 +205,8 @@ const serviceSchema = {
   serviceType: 'Catering Service',
   provider: {
     '@type': 'Organization',
-    name: 'myCHEF Dubai',
+    '@id': 'https://www.mychef.ae/#organization',
+    name: 'myCHEF',
     url: 'https://www.mychef.ae',
     telephone: '+971-55-174-4849',
     areaServed: 'Dubai, UAE',
@@ -285,7 +286,7 @@ export default function VeganCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Vegan Catering Dubai | Plant-Based Events & Private Dining"
+        title="Vegan Catering Dubai | Plant-Based Events & Dining"
         description="Vegan catering Dubai for plant-based events & private dining. Creative fine dining, canapés, grazing tables & dairy-free desserts. Quote in ~15 mins."
         canonicalPath="/vegan-catering-dubai"
         ogImage="/menu-appetizer.webp"

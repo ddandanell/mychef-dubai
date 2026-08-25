@@ -137,8 +137,8 @@ const articleSchema = {
   '@type': 'Article',
   headline: 'Villa Catering Ideas for Dubai Homes and Residences',
   description: 'Villa catering ideas for Dubai homes: BBQ, mezze, brunch, canapé parties, seated dinners, live cooking stations, dessert tables, setup tips, and staffing.',
-  author: { '@type': 'Organization', name: 'myCHEF Dubai' },
-  publisher: { '@type': 'Organization', name: 'myCHEF Dubai', url: 'https://www.mychef.ae' },
+  author: { '@id': 'https://www.mychef.ae/#organization' },
+  publisher: { '@id': 'https://www.mychef.ae/#organization' },
   datePublished: '2026-07-01',
   dateModified: '2026-07-22',
 }
@@ -149,7 +149,8 @@ const serviceSchema = {
   serviceType: 'Catering Service',
   provider: {
     '@type': 'Organization',
-    name: 'myCHEF Dubai',
+    '@id': 'https://www.mychef.ae/#organization',
+    name: 'myCHEF',
     url: 'https://www.mychef.ae',
     telephone: '+971-55-174-4849',
     areaServed: 'Dubai, UAE',

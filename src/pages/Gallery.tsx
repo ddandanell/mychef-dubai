@@ -69,7 +69,7 @@ const galleryItems = [
     aspect: 'aspect-[4/3]',
   },
   {
-    image: '/testimonial-villa.webp',
+    image: '/images/villa-catering-dubai-hero.webp',
     title: 'Villa Private Dining',
     category: 'Villas',
     aspect: 'aspect-square',

@@ -113,14 +113,14 @@ export default function FaqAccordion({ items, defaultOpen = 0, showJumpNav = fal
             <div
               key={i}
               id={slugs[i]}
-              className={`group relative scroll-mt-24 overflow-hidden rounded-2xl border bg-white transition-all duration-300
+              className={`group relative scroll-mt-24 overflow-hidden rounded-2xl border bg-white transition-all duration-500 ease-[cubic-bezier(0.22,1,0.36,1)]
                 ${isOpen
                   ? 'border-gold/60 shadow-[0_10px_40px_-12px_rgba(200,164,92,0.35)]'
                   : 'border-black/10 hover:border-gold/40 hover:shadow-[0_8px_30px_-16px_rgba(0,0,0,0.35)]'}`}
             >
               <span
                 aria-hidden="true"
-                className={`absolute left-0 top-0 h-full w-[3px] origin-top bg-gold transition-transform duration-300 ease-out
+                className={`absolute left-0 top-0 h-full w-[3px] origin-top bg-gold transition-transform duration-500 ease-[cubic-bezier(0.22,1,0.36,1)]
                   ${isOpen ? 'scale-y-100' : 'scale-y-0'}`}
               />
 
@@ -143,7 +143,7 @@ export default function FaqAccordion({ items, defaultOpen = 0, showJumpNav = fal
 
                   <span
                     aria-hidden="true"
-                    className={`relative flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full border transition-all duration-300
+                    className={`relative flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full border transition-all duration-500 ease-[cubic-bezier(0.22,1,0.36,1)]
                       ${isOpen ? 'border-gold bg-gold text-black rotate-45' : 'border-gold/40 text-gold group-hover:border-gold'}`}
                   >
                     <span className="absolute h-[2px] w-3.5 rounded bg-current" />
@@ -156,7 +156,7 @@ export default function FaqAccordion({ items, defaultOpen = 0, showJumpNav = fal
                 id={panelId}
                 role="region"
                 aria-labelledby={btnId}
-                className={`grid transition-[grid-template-rows] duration-300 ease-out ${isOpen ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'}`}
+                className={`grid transition-[grid-template-rows] duration-500 ease-[cubic-bezier(0.22,1,0.36,1)] ${isOpen ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'}`}
               >
                 <div className="overflow-hidden">
                   <p className="px-5 pb-5 md:px-6 md:pb-6 font-inter text-[0.9rem] md:text-body-sm leading-relaxed text-gray-500">

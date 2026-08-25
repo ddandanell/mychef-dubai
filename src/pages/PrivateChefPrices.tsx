@@ -152,7 +152,7 @@ const faqs = [
 const serviceSchema = {
   '@type': 'Service',
   name: 'Private Chef Prices Dubai',
-  provider: { '@type': 'Organization', name: 'myCHEF Dubai', url: 'https://www.mychef.ae' },
+  provider: { '@id': 'https://www.mychef.ae/#organization' },
   areaServed: { '@type': 'City', name: 'Dubai', '@id': 'https://www.wikidata.org/wiki/Q612' },
   description: 'Indicative private chef prices in Dubai by group size, menu style, and service level. Request a custom quote for your dinner.',
   url: 'https://www.mychef.ae/private-chef-prices-dubai',

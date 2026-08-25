@@ -3,6 +3,7 @@ import { useParams, Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
+import { ORGANIZATION_REF, ORGANIZATION_SCHEMA } from '@/lib/organizationSchema'
 import {
   MapPin,
   Phone,
@@ -155,7 +156,8 @@ export default function LocationDetail() {
         serviceType: 'Catering Service',
         provider: {
           '@type': 'Organization',
-          name: 'myCHEF Dubai',
+          '@id': 'https://www.mychef.ae/#organization',
+          name: 'myCHEF',
           url: 'https://www.mychef.ae',
           telephone: '+971-55-174-4849',
           areaServed: 'Dubai, UAE',
@@ -186,24 +188,19 @@ export default function LocationDetail() {
           { '@type': 'ListItem', position: 3, name: loc.name, item: pageUrl },
         ],
       },
+      // One business serving this area, not a separate business per area. The
+      // 15 location pages used to emit 15 anonymous LocalBusiness nodes named
+      // "myCHEF Dubai" — the schema equivalent of opening 15 Google profiles
+      // for a service-area business that is only allowed one.
       {
-        '@type': 'LocalBusiness',
-        name: 'myCHEF Dubai',
-        url: 'https://www.mychef.ae',
-        telephone: '+971-55-174-4849',
-        email: 'info@mychef.id',
+        '@type': 'Service',
+        name: `Private chef and catering in ${loc.name}`,
+        url: pageUrl,
         image: `https://www.mychef.ae${loc.heroImage}`,
-        priceRange: '$$$$',
-        areaServed: {
-          '@type': 'Place',
-          name: loc.name,
-        },
-        address: {
-          '@type': 'PostalAddress',
-          addressLocality: 'Dubai',
-          addressCountry: 'AE',
-        },
+        provider: ORGANIZATION_REF,
+        areaServed: { '@type': 'Place', name: loc.name },
       },
+      ORGANIZATION_SCHEMA,
     ],
   }
 

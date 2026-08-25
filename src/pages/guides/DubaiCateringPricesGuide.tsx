@@ -134,8 +134,8 @@ const articleSchema = {
   '@type': 'Article',
   headline: 'Dubai Catering Prices Guide: What to Budget for Your Event',
   description: 'A practical guide to Dubai catering prices per person for private chef, canapés, buffet, plated dinner, BBQ, and yacht catering, plus factors that affect cost.',
-  author: { '@type': 'Organization', name: 'myCHEF Dubai' },
-  publisher: { '@type': 'Organization', name: 'myCHEF Dubai', url: 'https://www.mychef.ae' },
+  author: { '@id': 'https://www.mychef.ae/#organization' },
+  publisher: { '@id': 'https://www.mychef.ae/#organization' },
   datePublished: '2026-07-01',
   dateModified: '2026-07-22',
 }
@@ -146,7 +146,8 @@ const serviceSchema = {
   serviceType: 'Catering Service',
   provider: {
     '@type': 'Organization',
-    name: 'myCHEF Dubai',
+    '@id': 'https://www.mychef.ae/#organization',
+    name: 'myCHEF',
     url: 'https://www.mychef.ae',
     telephone: '+971-55-174-4849',
     areaServed: 'Dubai, UAE',

@@ -185,7 +185,8 @@ const serviceSchema = {
   serviceType: 'Catering Service',
   provider: {
     '@type': 'Organization',
-    name: 'myCHEF Dubai',
+    '@id': 'https://www.mychef.ae/#organization',
+    name: 'myCHEF',
     url: 'https://www.mychef.ae',
     telephone: '+971-55-174-4849',
     areaServed: 'Dubai, UAE',
@@ -269,7 +270,7 @@ export default function NewYearCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="New Year's Eve Catering Dubai | Gala, Yacht & Villa Countdown | myCHEF"
+        title="New Year's Eve Catering Dubai | Gala, Yacht & Villa | myCHEF"
         description="New Year's Eve catering in Dubai from AED 700pp — canapés and grazing, vetted chefs and full service. Bespoke menus for your event. Get an itemised quote."
         canonicalPath="/new-year-catering-dubai"
         ogImage="/service-luxury-dining.webp"

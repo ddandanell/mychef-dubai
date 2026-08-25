@@ -78,7 +78,7 @@ const galleryImages = [
   '/service-luxury-dining.webp',
   '/service-private-chef.webp',
   '/service-events.webp',
-  '/testimonial-villa.webp',
+  '/images/villa-catering-dubai-hero.webp',
   '/menu-appetizer.webp',
 ]
 
@@ -122,7 +122,8 @@ const schema = {
   name: 'Villa Private Chef Dubai',
   provider: {
     '@type': 'Organization',
-    name: 'myCHEF Dubai',
+    '@id': 'https://www.mychef.ae/#organization',
+    name: 'myCHEF',
     url: 'https://www.mychef.ae',
     telephone: '+971-55-174-4849',
     areaServed: 'Dubai, UAE',
@@ -387,8 +388,8 @@ export default function Villas() {
             </div>
             <div>
               <img
-                src="/testimonial-villa.webp"
-                alt="Private villa dining experience in Dubai"
+                src="/images/villa-catering-dubai-hero.webp"
+                alt="Poolside villa catering in Dubai with the skyline behind. Experience concept shown."
                 width={600}
                 height={500}
                 className="w-full h-[500px] object-cover"

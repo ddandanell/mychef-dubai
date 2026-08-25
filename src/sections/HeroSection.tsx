@@ -161,7 +161,7 @@ export default function HeroSection() {
   return (
     <section
       ref={sectionRef}
-      className="relative min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center overflow-hidden -mt-16"
+      className="relative min-h-[85dvh] md:min-h-[80dvh] flex items-center justify-center overflow-hidden -mt-16"
     >
       {/* Background Image */}
       <div className="absolute inset-0 overflow-hidden">
@@ -211,14 +211,14 @@ export default function HeroSection() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 container-custom" style={{ paddingTop: 'calc(5rem + env(safe-area-inset-top))', paddingBottom: '5rem' }}>
+      <div className="relative z-10 container-custom" style={{ paddingTop: 'calc(4.25rem + env(safe-area-inset-top))', paddingBottom: '3.5rem' }}>
         {/* Gold accent line */}
-        <div ref={lineRef} className="gold-line mb-4 md:mb-8 opacity-0" />
+        <div ref={lineRef} className="gold-line mb-4 md:mb-5 opacity-0" />
 
         {/* Headline */}
         <h1
           ref={headlineRef}
-          className="hero-title text-white opacity-0 max-w-[900px] mx-auto md:mx-0 text-center md:text-left"
+          className="hero-title text-white opacity-0 max-w-[38rem] lg:max-w-[46rem] mx-auto md:mx-0 text-center md:text-left"
         >
           Private Chef & Luxury Catering in Dubai — Brought to Your Villa, Yacht or Home
         </h1>
@@ -226,13 +226,13 @@ export default function HeroSection() {
         {/* Subtext */}
         <p
           ref={subtextRef}
-          className="hero-copy mt-5 md:mt-7 text-white/90 max-w-[600px] mx-auto md:mx-0 opacity-0 text-center md:text-left"
+          className="hero-copy mt-4 md:mt-5 text-white/90 max-w-[34rem] mx-auto md:mx-0 opacity-0 text-center md:text-left"
         >
           Bespoke dining for 2 to 500+ guests. We design, cook and serve — so you stay a guest at your own table.
         </p>
 
         {/* CTA Row */}
-        <div ref={ctaRef} className="mt-8 md:mt-10 flex flex-col sm:flex-row gap-4 items-center md:items-start justify-center md:justify-start">
+        <div ref={ctaRef} className="mt-6 md:mt-8 flex flex-col sm:flex-row gap-3 sm:gap-4 items-center md:items-start justify-center md:justify-start">
           <Link to="/inquiry?utm_source=mychef.ae&utm_medium=cta_button&utm_campaign=home" className="btn-primary text-center">
             Get a Tailored Quote
           </Link>
@@ -253,7 +253,7 @@ export default function HeroSection() {
         {/* Stats Row */}
         <div
           ref={statsRef}
-          className="mt-10 md:mt-16 opacity-0"
+          className="mt-8 md:mt-10 opacity-0"
         >
           {/* Three facts from this page, not three adjectives styled as counters */}
           <dl className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-0 max-w-2xl mx-auto md:mx-0 sm:divide-x sm:divide-white/15">

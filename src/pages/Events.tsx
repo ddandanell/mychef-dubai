@@ -207,7 +207,7 @@ const galleryImages = [
   '/service-villa.webp',
   '/service-luxury-dining.webp',
   '/menu-canapes.webp',
-  '/testimonial-villa.webp',
+  '/images/villa-catering-dubai-hero.webp',
 ]
 
 const faqs = [

@@ -183,7 +183,8 @@ const serviceSchema = {
   serviceType: 'Catering Portfolio and Event Planning Service',
   provider: {
     '@type': 'Organization',
-    name: 'myCHEF Dubai',
+    '@id': 'https://www.mychef.ae/#organization',
+    name: 'myCHEF',
     url: 'https://www.mychef.ae',
     telephone: '+971-55-174-4849',
     areaServed: 'Dubai, UAE',
@@ -210,7 +211,8 @@ const collectionSchema = {
         url: `https://www.mychef.ae/case-studies/${cs.slug}`,
         publisher: {
           '@type': 'Organization',
-          name: 'myCHEF Dubai',
+          '@id': 'https://www.mychef.ae/#organization',
+          name: 'myCHEF',
           logo: { '@type': 'ImageObject', url: 'https://www.mychef.ae/logo.svg' },
         },
       },

@@ -61,11 +61,11 @@ interface PageHeroProps {
 }
 
 const heightClasses = {
-  full: 'min-h-[90dvh] md:min-h-[100dvh]',
-  tall: 'min-h-[75dvh] md:min-h-[85dvh]',
-  large: 'min-h-[60dvh] md:min-h-[70dvh]',
-  medium: 'min-h-[55dvh] md:min-h-[65dvh]',
-  short: 'min-h-[40dvh] md:min-h-[50dvh]',
+  full: 'min-h-[90dvh] md:min-h-[80dvh]',
+  tall: 'min-h-[75dvh] md:min-h-[70dvh]',
+  large: 'min-h-[60dvh] md:min-h-[58dvh]',
+  medium: 'min-h-[55dvh] md:min-h-[52dvh]',
+  short: 'min-h-[40dvh] md:min-h-[42dvh]',
 }
 
 // Default hero scrim — dark enough for white type, light enough to keep the photograph.
@@ -281,7 +281,7 @@ export default function PageHero({
       {/* Content */}
       <div
         ref={contentRef}
-        className={`relative z-10 container-custom flex flex-col justify-center pt-28 pb-20 md:pb-24 ${alignmentClass}`}
+        className={`relative z-10 container-custom flex flex-col justify-center pt-24 pb-16 md:pt-28 md:pb-16 ${alignmentClass}`}
       >
         {eyebrow && variant !== 'quiet' && (
           <span className="font-inter text-caption font-medium uppercase tracking-[0.1em] text-gold mb-4 drop-shadow-[0_1px_10px_rgba(0,0,0,0.65)]">

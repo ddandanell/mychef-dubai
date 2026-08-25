@@ -202,7 +202,8 @@ const serviceSchema = {
   serviceType: 'Catering Service',
   provider: {
     '@type': 'Organization',
-    name: 'myCHEF Dubai',
+    '@id': 'https://www.mychef.ae/#organization',
+    name: 'myCHEF',
     url: 'https://www.mychef.ae',
     telephone: '+971-55-174-4849',
     areaServed: 'Dubai, UAE',
@@ -282,7 +283,7 @@ export default function BuffetCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Buffet Catering Dubai | Hot & Cold Stations + Live Counters | myCHEF"
+        title="Buffet Catering Dubai | Hot, Cold & Live Stations | myCHEF"
         description="Premium buffet catering in Dubai with hot & cold stations, live action counters & international menus. Weddings, corporate events & large gatherings."
         canonicalPath="/buffet-catering-dubai"
         ogImage="/service-catering.webp"

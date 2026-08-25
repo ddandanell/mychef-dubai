@@ -188,7 +188,8 @@ const serviceSchema = {
   serviceType: 'Catering Service',
   provider: {
     '@type': 'Organization',
-    name: 'myCHEF Dubai',
+    '@id': 'https://www.mychef.ae/#organization',
+    name: 'myCHEF',
     url: 'https://www.mychef.ae',
     telephone: '+971-55-174-4849',
     areaServed: 'Dubai, UAE',
@@ -268,7 +269,7 @@ export default function CorporateMealPrep() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Corporate Meal Prep Dubai | Portioned Team Meals & Wellness | myCHEF"
+        title="Corporate Meal Prep Dubai | Portioned Team Meals | myCHEF"
         description="Corporate meal prep in Dubai — recurring portioned meals, wellness retainers & balanced menus delivered to your workplace. VAT/TRN invoicing. Get a quote."
         canonicalPath="/corporate-meal-prep-dubai"
         ogImage="/service-corporate.webp"

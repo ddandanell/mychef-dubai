@@ -8,9 +8,9 @@ export default function PageLoader() {
     <div
       role="status"
       aria-live="polite"
-      className="pointer-events-none fixed inset-x-0 top-0 z-[60] h-0.5 overflow-hidden bg-transparent"
+      className="pointer-events-none fixed inset-x-0 top-0 z-[60] h-px overflow-hidden bg-transparent"
     >
-      <div className="h-full w-full bg-gold/90 animate-loader-bar" />
+      <div className="h-full w-1/3 animate-loader-bar bg-gradient-to-r from-transparent via-gold to-transparent" />
       <span className="sr-only">Loading page…</span>
     </div>
   )

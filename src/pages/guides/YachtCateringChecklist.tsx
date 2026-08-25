@@ -191,8 +191,8 @@ const articleSchema = {
   '@type': 'Article',
   headline: 'The Ultimate Dubai Yacht Catering Checklist',
   description: 'A step-by-step checklist for planning flawless yacht catering in Dubai, covering timelines, menu ideas, galley coordination, and day-of service.',
-  author: { '@type': 'Organization', name: 'myCHEF Dubai' },
-  publisher: { '@type': 'Organization', name: 'myCHEF Dubai', url: 'https://www.mychef.ae' },
+  author: { '@id': 'https://www.mychef.ae/#organization' },
+  publisher: { '@id': 'https://www.mychef.ae/#organization' },
   datePublished: '2026-07-01',
   dateModified: '2026-07-22',
 }
@@ -203,7 +203,8 @@ const serviceSchema = {
   serviceType: 'Catering Service',
   provider: {
     '@type': 'Organization',
-    name: 'myCHEF Dubai',
+    '@id': 'https://www.mychef.ae/#organization',
+    name: 'myCHEF',
     url: 'https://www.mychef.ae',
     telephone: '+971-55-174-4849',
     areaServed: 'Dubai, UAE',

@@ -1,4 +1,5 @@
 import type { ReactNode } from 'react'
+import { useLocation } from 'react-router'
 import Navbar from './Navbar'
 import Footer from './Footer'
 import SiloSection from './SiloSection'
@@ -12,6 +13,15 @@ interface LayoutProps {
   children: ReactNode
 }
 
+function PageEnter({ children }: { children: ReactNode }) {
+  const { pathname } = useLocation()
+  return (
+    <div key={pathname} className="page-enter">
+      {children}
+    </div>
+  )
+}
+
 export default function Layout({ children }: LayoutProps) {
   return (
     <div className="min-h-[100dvh] flex flex-col bg-black text-white">
@@ -19,8 +29,10 @@ export default function Layout({ children }: LayoutProps) {
       <Navbar />
       <WhatsAppMessageProvider>
         <main className="flex-1 overflow-x-clip">
-          {children}
-          <SeoContent />
+          <PageEnter>
+            {children}
+            <SeoContent />
+          </PageEnter>
         </main>
         <SiloSection />
         <Footer />

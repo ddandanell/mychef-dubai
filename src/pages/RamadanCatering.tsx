@@ -188,7 +188,8 @@ const serviceSchema = {
   serviceType: 'Catering Service',
   provider: {
     '@type': 'Organization',
-    name: 'myCHEF Dubai',
+    '@id': 'https://www.mychef.ae/#organization',
+    name: 'myCHEF',
     url: 'https://www.mychef.ae',
     telephone: '+971-55-174-4849',
     areaServed: 'Dubai, UAE',
@@ -277,7 +278,7 @@ export default function RamadanCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Ramadan Catering Dubai | Iftar, Suhoor & Private Chef Service | myCHEF"
+        title="Ramadan Catering Dubai | Iftar, Suhoor & Private Chef | myCHEF"
         description="Book Ramadan catering in Dubai. Halal iftar and suhoor menus for homes, majlis, villas and corporate gatherings. Get a tailored quote in 15 minutes."
         canonicalPath="/ramadan-catering-dubai"
         ogImage="/service-events.webp"

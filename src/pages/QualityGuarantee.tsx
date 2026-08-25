@@ -31,7 +31,7 @@ const guarantees = [
   {
     icon: ShieldCheck,
     title: 'Vetted Chef Network',
-    description: 'Every our chef passes identity, reference, and in-person skill checks before they can accept bookings. We verify food safety awareness and professional communication, so the person arriving at your door is qualified.',
+    description: 'Every chef passes identity, reference and in-person skill checks before they can accept bookings. We verify food safety awareness and professional communication, so the person arriving at your door is qualified.',
   },
   {
     icon: RefreshCcw,

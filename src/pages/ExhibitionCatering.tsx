@@ -5,7 +5,7 @@ import type { ServicePageConfig } from './shared/ServiceLandingPage'
 
 const config: ServicePageConfig = {
   slug: 'exhibition-catering-dubai',
-  seoTitle: 'Exhibition Catering Dubai | DWTC, Expo City & Trade Shows | myCHEF',
+  seoTitle: 'Exhibition Catering Dubai | DWTC & Expo City | myCHEF',
   metaDescription:
     'Exhibition catering in Dubai for DWTC, Expo City & trade show stands. Branded counters, canapés, coffee stations & halal menus. VAT/TRN invoicing. Get a quote.',
   canonicalPath: '/exhibition-catering-dubai',

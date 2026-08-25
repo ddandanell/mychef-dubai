@@ -63,9 +63,9 @@ const TONE_CLASSES: Record<Tone, string> = {
 
 // Section rhythm — chapter breaks breathe more; connected sections sit closer.
 const RHYTHM_CLASSES: Record<Rhythm, string> = {
-  chapter: 'pt-[clamp(6rem,4rem+7vw,11rem)] pb-[clamp(6rem,4rem+7vw,11rem)]',
+  chapter: 'pt-[clamp(5.5rem,3.5rem+4vw,7.5rem)] pb-[clamp(5.5rem,3.5rem+4vw,7.5rem)]',
   standard: 'section-padding',
-  connected: 'pt-[clamp(3rem,2rem+3vw,5rem)] pb-[clamp(3rem,2rem+3vw,5rem)]',
+  connected: 'pt-[clamp(3rem,2rem+2.5vw,4.25rem)] pb-[clamp(3rem,2rem+2.5vw,4.25rem)]',
   none: '',
 }
 
@@ -118,14 +118,14 @@ export function SectionLabel({
     <p
       id={id}
       className={cn(
-        'mb-8 flex items-center gap-3 font-inter text-[12.5px] font-medium uppercase tracking-[0.12em] md:text-[14px]',
+        'mb-6 md:mb-7 flex items-center gap-3 font-inter text-[12.5px] font-medium uppercase tracking-[0.12em] md:text-[13px]',
         tone === 'dark' ? 'text-gold' : 'text-gold-ink',
         align === 'center' && 'justify-center',
         className,
       )}
     >
       <Icon aria-hidden className="size-5 shrink-0 md:size-6" strokeWidth={1.5} />
-      <span aria-hidden className="inline-block h-px w-8 shrink-0 bg-current md:w-11" />
+      <span aria-hidden className="gold-rule inline-block h-px w-8 shrink-0 bg-current md:w-11" />
       <span>{children}</span>
     </p>
   )
