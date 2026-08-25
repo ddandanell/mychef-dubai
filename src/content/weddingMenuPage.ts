@@ -4,7 +4,7 @@ export const MENU_KEYWORD_LOCK = {
   primary: 'wedding catering menu Dubai',
   title: 'Wedding Menu Planning Dubai | Ideas, Buffets & Tastings | myCHEF',
   description:
-    'Plan a wedding catering menu in Dubai: buffet and plated ideas, Indian, Arabic and Lebanese menus, tastings, late-night food and mixed diets. Not a price list.',
+    'Wedding menu planning in Dubai: buffet and plated ideas, Indian, Arabic and Lebanese menus, tastings, late-night food and mixed diets. Not a price list.',
 } as const
 
 export const menuHero = {

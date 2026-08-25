@@ -24,7 +24,7 @@ const SLUG = 'how-much-does-private-chef-cost-dubai'
 const articleSchema = {
   '@type': 'Article',
   headline: 'How Much Does a Private Chef Cost in Dubai?',
-  description: 'A practical breakdown of private chef pricing in Dubai, the factors that move the cost, and how to get an accurate quote for your dinner.',
+  description: 'How much does a private chef cost in Dubai? A breakdown of pricing, the factors that move the cost, and how to get an accurate quote for your dinner.',
   author: { '@type': 'Organization', name: 'myCHEF Dubai Team' },
   publisher: { '@type': 'Organization', name: 'myCHEF Dubai', url: 'https://www.mychef.ae' },
   datePublished: '2026-07-01',
@@ -101,7 +101,7 @@ export default function PrivateChefCostDubai() {
     <div ref={containerRef}>
       <SEO
         title="How Much Does a Private Chef Cost in Dubai?"
-        description="A practical breakdown of private chef pricing in Dubai, the factors that move the cost, and how to get an accurate quote for your dinner."
+        description="How much does a private chef cost in Dubai? A breakdown of pricing, the factors that move the cost, and how to get an accurate quote for your dinner."
         canonicalPath={`/blog/${SLUG}`}
         ogImage="/images/blog/how-much-does-private-chef-cost-dubai-hero.webp"
         schema={schema}

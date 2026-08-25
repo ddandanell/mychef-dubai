@@ -34,7 +34,7 @@
  },
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
-  "title": "Catering Dubai by Cuisine | Italian, Arabic, Indian & More | myCHEF",
+  "title": "Multi Cuisine Catering Dubai | Italian, Arabic, Indian | myCHEF",
   "meta_description": "Explore catering by cuisine in Dubai: Italian, Arabic, Indian, Mediterranean, Asian, sushi, BBQ, vegan, vegetarian, halal and healthy. Bespoke menus, vetted chefs, tailored quotes.",
   "h1": "Catering Dubai by Cuisine"
  },

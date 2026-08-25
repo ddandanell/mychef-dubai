@@ -5,7 +5,7 @@ import type { ServicePageConfig } from './shared/ServiceLandingPage'
 
 const config: ServicePageConfig = {
   slug: 'drop-off-catering-dubai',
-  seoTitle: "Drop-Off Catering Dubai | Office Lunch & Event Meals Delivered | myCHEF",
+  seoTitle: "Drop-Off Catering Dubai | Office & Event Meals Delivered | myCHEF",
   metaDescription: 'Drop-off catering in Dubai: individually packed meals, labelled platters & buffet boxes delivered to your office, villa or venue. No on-site staff.',
   canonicalPath: '/drop-off-catering-dubai',
   ogImage: '/images/drop-off-catering-dubai-hero.webp',

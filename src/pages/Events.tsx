@@ -463,7 +463,7 @@ export default function Events() {
   return (
     <>
       <SEO
-        title="Event Catering Dubai | Birthdays, Weddings & Private Parties"
+        title="Event Catering Dubai | Birthdays, Weddings & Parties"
         description="Premium event catering in Dubai for birthdays, weddings, engagements & private parties. Bespoke menus, vetted chefs, full service. Request a tailored quote."
         canonicalPath="/events"
         ogImage="/service-events.webp"

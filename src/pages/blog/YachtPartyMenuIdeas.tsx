@@ -24,7 +24,7 @@ const SLUG = 'yacht-party-menu-ideas-dubai'
 const articleSchema = {
   '@type': 'Article',
   headline: 'Yacht Party Menu Ideas in Dubai',
-  description: 'Plan a stylish, seaworthy menu for your next Dubai Marina or Palm Jumeirah cruise with canapés, fresh seafood, and desserts that travel well.',
+  description: 'Yacht party menu ideas for Dubai: canapés, fresh seafood and desserts that travel well, planned for a Dubai Marina or Palm Jumeirah cruise.',
   author: { '@type': 'Organization', name: 'myCHEF Dubai Team' },
   publisher: { '@type': 'Organization', name: 'myCHEF Dubai', url: 'https://www.mychef.ae' },
   datePublished: '2026-07-01',
@@ -101,7 +101,7 @@ export default function YachtPartyMenuIdeas() {
     <div ref={containerRef}>
       <SEO
         title="Yacht Party Menu Ideas in Dubai"
-        description="Plan a stylish, seaworthy menu for your next Dubai Marina or Palm Jumeirah cruise with canapés, fresh seafood, and desserts that travel well."
+        description="Yacht party menu ideas for Dubai: canapés, fresh seafood and desserts that travel well, planned for a Dubai Marina or Palm Jumeirah cruise."
         canonicalPath={`/blog/${SLUG}`}
         ogImage="/images/blog/yacht-party-menu-ideas-dubai-hero.webp"
         schema={schema}

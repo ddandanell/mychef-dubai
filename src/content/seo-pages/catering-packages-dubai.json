@@ -38,7 +38,7 @@
  },
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
-  "title": "Catering Packages Dubai | From AED 1,200 | Private Chef & Events | myCHEF",
+  "title": "Catering Packages Dubai | Private Chef, From AED 1,200 | myCHEF",
   "meta_description": "Ready-to-book catering packages in Dubai for date nights, birthdays, family feasts & corporate dinners. From AED 1,200. Vetted chefs included. Request your quote.",
   "h1": "Catering Packages Dubai"
  },

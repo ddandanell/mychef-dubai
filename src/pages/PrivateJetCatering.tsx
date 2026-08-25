@@ -53,7 +53,7 @@ export default function PrivateJetCatering() {
   return (
     <div>
       <SEO
-        title="Private Jet Catering Dubai | Food Coordinated Around the Flight | myCHEF"
+        title="Private Jet Catering Dubai | Coordinated to the Flight | myCHEF"
         description="Private jet catering from Dubai. Tell us the flight, passenger count, timing and dietary requirements. We prepare and coordinate the food around the journey."
         canonicalPath={PATH}
         ogImage={HERO}

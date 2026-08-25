@@ -218,7 +218,7 @@ export default function DubaiFoodTrendsReport2026() {
     <div ref={containerRef}>
       <SEO
         title="Dubai Food Trends Report 2026"
-        description="The Dubai catering trends shaping events in 2026: local sourcing, inclusive menus, chef-led tasting experiences, global-Dubai cuisine, live stations and more."
+        description="The Dubai food trends shaping events in 2026: local sourcing, inclusive menus, chef-led tasting experiences, global-Dubai cuisine and live stations."
         canonicalPath="/dubai-food-trends-report-2026"
         ogImage="/images/dubai-food-trends-report-hero.webp"
         schema={schema}

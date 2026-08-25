@@ -5,7 +5,7 @@ export default function BirthdayPackage() {
     <PackagePageTemplate
       name="Birthday Celebration"
       seoTitle="Birthday Catering Package Dubai | Private Chef for 8–12 | myCHEF"
-      description="A fixed birthday package in Dubai: a private chef for 8–12 guests from AED 3,600, with menu, cake option and full service. Larger parties are quoted separately."
+      description="A fixed birthday catering package in Dubai: a private chef for 8–12 guests from AED 3,600, with menu, cake option and full service. Larger parties quoted separately."
       canonicalPath="/birthday-catering-package-dubai"
       ogImage="/images/birthday-catering-dubai-hero.webp"
       headline="Birthday Celebration Package for 8–12 Guests"

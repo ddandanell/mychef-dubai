@@ -200,7 +200,7 @@ export default function KidsNutritionChef() {
     <div ref={containerRef}>
       <SEO
         title="Kids Meal Prep Dubai | Healthy Meals Children Eat | myCHEF"
-        description="Hire a kids nutrition chef in Dubai. myCHEF Dubai creates balanced, child-friendly meals designed around allergies, growth, and family routines. Get a quote."
+        description="Kids meal prep in Dubai by a private chef. Balanced, child-friendly meals designed around allergies, growth and family routines. Get a quote."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/private-chef-dubai-hero.webp"
         hideSiteName

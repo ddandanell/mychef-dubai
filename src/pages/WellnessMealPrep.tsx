@@ -189,7 +189,7 @@ export default function WellnessMealPrep() {
     <div ref={containerRef}>
       <SEO
         title="Healthy Meal Prep Dubai | Nutritionist-Aligned Chefs | myCHEF"
-        description="Wellness meal prep in Dubai by a private chef. Macro-calculated, fitness-focused, and medical-condition-friendly meals. Optional nutritionist."
+        description="Healthy meal prep in Dubai by a private chef. Macro-calculated, fitness-focused and medical-condition-friendly meals, with optional nutritionist support."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/healthy-catering-dubai-hero.webp"
         hideSiteName

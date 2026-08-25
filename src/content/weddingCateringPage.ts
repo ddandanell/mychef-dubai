@@ -4,7 +4,7 @@ export const WEDDING_PATH = '/wedding-catering-dubai' as const
 
 export const WEDDING_KEYWORD_LOCK = {
   primary: 'wedding catering Dubai',
-  title: 'Wedding Catering Dubai | Villa, Garden & Venue Receptions | myCHEF',
+  title: 'Wedding Catering Dubai | Villa, Garden & Venue | myCHEF',
   description:
     'Wedding catering in Dubai for villas, gardens and venues. myCHEF designs the plan and matches you with vetted chefs and licensed partners. Request a quote.',
 } as const

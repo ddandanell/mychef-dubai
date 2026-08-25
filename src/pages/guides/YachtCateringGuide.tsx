@@ -218,7 +218,7 @@ export default function YachtCateringGuide() {
     <div ref={containerRef}>
       <SEO
         title="Yacht Catering Guide Dubai | Menus"
-        description="Plan yacht catering in Dubai: galley constraints, canapés, BBQ, buffet, seated menus, Marina and Palm routes, weather, crew coordination, and permits."
+        description="A yacht catering guide for Dubai: galley constraints, canapés, BBQ, buffet and seated menus, Marina and Palm routes, weather, crew coordination and permits."
         canonicalPath="/yacht-catering-guide-dubai"
         ogImage="/service-yacht.webp"
         schema={schema}

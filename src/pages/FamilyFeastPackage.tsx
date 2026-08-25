@@ -5,7 +5,7 @@ export default function FamilyFeastPackage() {
     <PackagePageTemplate
       name="Family Feast"
       seoTitle="Family Catering Dubai | Feast Package, Private Chef | myCHEF"
-      description="Family Feast Package Dubai: private chef dinner for 6–8 guests from AED 2,400. Sharing-style menus, premium ingredients, and full service. Request a quote."
+      description="Family catering in Dubai: a private chef dinner for 6–8 guests from AED 2,400. Sharing-style menus, premium ingredients and full service. Request a quote."
       canonicalPath="/family-feast-package-dubai"
       ogImage="/images/celebration-catering-dubai-hero.webp"
       headline="Family Feast Package Dubai: Private Chef Dinner for 6–8"

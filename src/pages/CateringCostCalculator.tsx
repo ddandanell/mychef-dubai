@@ -80,7 +80,7 @@ export default function CateringCostCalculator() {
     <>
       <SEO
         title="Catering Cost Calculator Dubai | Instant Price Estimate"
-        description="Estimate the cost of private chef and luxury catering services in Dubai. Instant per-person pricing for villas, yachts, weddings, and corporate events."
+        description="A catering cost calculator for Dubai. Instant per-person pricing for villas, yachts, weddings and corporate events, plus private chef estimates."
         canonicalPath="/catering-cost-calculator-dubai"
         ogImage="/images/catering-dubai-hero.webp"
         schema={breadcrumbSchema(breadcrumbs) as unknown as Record<string, unknown>}

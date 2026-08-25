@@ -162,7 +162,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     "slug": "/blog/yacht-party-menu-ideas-dubai",
     "title": "Yacht Party Menu Ideas in Dubai",
-    "excerpt": "Plan a stylish, seaworthy menu for your next Dubai Marina or Palm Jumeirah cruise with canapés, fresh seafood, and desserts that travel well.",
+    "excerpt": "Yacht party menu ideas for Dubai: canapés, fresh seafood and desserts that travel well, planned for a Dubai Marina or Palm Jumeirah cruise.",
     "category": "Yachts",
     "image": "/images/blog/yacht-party-menu-ideas-dubai-hero.webp",
     "hub": "outdoor",
@@ -171,7 +171,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     "slug": "/blog/how-much-does-private-chef-cost-dubai",
     "title": "How Much Does a Private Chef Cost in Dubai?",
-    "excerpt": "A practical breakdown of private chef pricing in Dubai, the factors that move the cost, and how to get an accurate quote for your dinner.",
+    "excerpt": "How much does a private chef cost in Dubai? A breakdown of pricing, the factors that move the cost, and how to get an accurate quote for your dinner.",
     "category": "Private Chef",
     "image": "/images/blog/how-much-does-private-chef-cost-dubai-hero.webp",
     "hub": "private-chef",

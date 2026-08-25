@@ -244,7 +244,7 @@ export default function Menus() {
     <>
       <SEO
         title="Catering Menus Dubai | Chef Inspiration & Cuisines"
-        description="Explore bespoke menu options from myCHEF Dubai. Fine dining, Mediterranean, Middle Eastern, Asian fusion, and more. Every menu is custom-designed for."
+        description="Catering menus in Dubai from myCHEF: fine dining, Mediterranean, Middle Eastern and Asian fusion. Every menu is designed around your event and guests."
         canonicalPath="/menus"
         ogImage="/images/catering-dubai-hero.webp"
         schema={breadcrumbSchema(breadcrumbs) as unknown as Record<string, unknown>}

@@ -50,38 +50,24 @@
 /venue-partners                                      "preferred caterer dubai" | Venue Partners
 
 ===== KW_NOT_IN_DESC =====
-/                                                    "private chef and catering dubai"
 /about                                               "private chef company dubai"
 /become-a-mychef                                     "private chef jobs dubai"
-/best-catering-companies-dubai                       "best catering companies dubai"
-/birthday-catering-package-dubai                     "birthday catering package dubai"
 /blog                                                "catering blog dubai"
 /blog/corporate-catering-full-service-vs-drop-off    "full service vs drop off catering dubai"
 /blog/halal-private-dining-dubai-what-to-ask         "what to ask a halal caterer dubai"
 /blog/how-far-ahead-book-caterer-dubai               "how far in advance to book a caterer dubai"
-/blog/how-much-does-private-chef-cost-dubai          "how much does private chef cost dubai"
 /blog/private-chef-palm-jumeirah-guide               "private dining palm jumeirah dubai"
 /blog/vegan-catering-dubai-guide                     "vegan menu ideas dubai"
 /blog/weekly-meal-prep-vs-full-time-chef-dubai       "meal prep vs private chef dubai"
-/blog/yacht-party-menu-ideas-dubai                   "yacht party menu ideas dubai"
 /booking-protection-insurance                        "catering cancellation policy dubai"
 /case-studies                                        "catering case studies dubai"
-/catering-cost-calculator-dubai                      "catering cost calculator dubai"
 /chef-training-academy                               "chef training dubai"
-/cuisines-dubai                                      "multi cuisine catering dubai"
 /dubai-event-catering-price-guide-2026               "event catering price guide dubai 2026"
-/dubai-food-trends-report-2026                       "dubai food trends 2026"
-/family-feast-package-dubai                          "family catering dubai"
 /founding-customer-offer                             "mychef founding customer offer"
-/how-to-choose-caterer-dubai                         "how to choose a caterer dubai"
 /how-we-vet-our-chefs                                "private chef background checks dubai"
 /influencer-partnerships                             "food influencer partnerships dubai"
-/kids-nutrition-chef-dubai                           "kids meal prep dubai"
 /locations                                           "catering near me dubai"
-/luxury-dining-experiences                           "luxury dining experiences dubai"
 /luxury-dinner-planning-guide-dubai                  "how to plan a luxury dinner dubai"
-/menus                                               "catering menus dubai"
-/mystery-dining-dubai                                "surprise dinner experience dubai"
 /partner-with-us                                     "catering partnerships dubai"
 /partners/concierge-services-dubai                   "concierge services partnership dubai"
 /partners/event-planners-dubai                       "event planners partnership dubai"
@@ -89,46 +75,8 @@
 /partners/yacht-charters-dubai                       "yacht charters partnership dubai"
 /private-chef-dubai/how-your-plan-works              "how private chef plans work dubai"
 /referral-programme                                  "mychef referral programme"
-/tasting-menu-dubai                                  "private chef tasting menu dubai"
-/tourist-villa-chef-dubai                            "holiday villa chef dubai"
 /trust-and-programs                                  "mychef trust and programs"
 /venue-partners                                      "preferred caterer dubai"
-/wedding-catering-menu-planning-dubai                "wedding menu planning dubai"
-/wellness-meal-prep-dubai                            "healthy meal prep dubai"
-/yacht-catering-guide-dubai                          "yacht catering guide dubai"
-
-===== TITLE_LONG =====
-/                                                    71 chars
-/baby-shower-catering-dubai                          69 chars
-/best-catering-companies-dubai                       71 chars
-/brunch-catering-dubai                               70 chars
-/buffet-catering-dubai                               68 chars
-/business-lunch-catering-dubai                       68 chars
-/catering-packages-dubai                             73 chars
-/cocktail-party-catering-dubai                       67 chars
-/conference-catering-dubai                           68 chars
-/corporate                                           75 chars
-/corporate-meal-prep-dubai                           68 chars
-/cuisines-dubai                                      67 chars
-/dessert-table-catering-dubai                        69 chars
-/drop-off-catering-dubai                             71 chars
-/engagement-catering-dubai                           68 chars
-/events                                              69 chars
-/exhibition-catering-dubai                           66 chars
-/festive-catering-dubai                              71 chars
-/finger-food-catering-dubai                          68 chars
-/grazing-table-dubai                                 67 chars
-/luxury-dining-experiences                           76 chars
-/new-year-catering-dubai                             70 chars
-/private-chef-dubai/quality-training                 68 chars
-/private-jet-catering-dubai                          72 chars
-/product-launch-catering-dubai                       66 chars
-/ramadan-catering-dubai                              70 chars
-/vegan-catering-dubai                                67 chars
-/vegetarian-catering-dubai                           67 chars
-/villas-private-residences                           79 chars
-/wedding-catering-dubai                              66 chars
-/yachts                                              70 chars
 
 ===== KW_NOT_IN_TITLE =====
 /about                                               "private chef company dubai" | About myCHEF Dubai | myCHEF
@@ -144,7 +92,6 @@
 /chefs/layla-middle-eastern-chef                     "arabic private chef dubai" | Layla Hassan | Middle Eastern Chef | myCHEF
 /chefs/marco-italian-chef                            "italian private chef dubai" | Marco Rossi | Independent partner chef | myCHEF
 /chefs/matteo-pastry-chef                            "private pastry chef dubai" | Matteo Moretti | Pastry Chef | myCHEF
-/cuisines-dubai                                      "multi cuisine catering dubai" | Catering Dubai by Cuisine | Italian, Arabic, Indian & More
 /dubai-event-catering-price-guide-2026               "event catering price guide dubai 2026" | Dubai Event Catering Prices 2026 | myCHEF
 /guides                                              "catering checklist dubai" | Catering Guides Dubai | Prices & Planning | myCHEF
 /how-we-vet-our-chefs                                "private chef background checks dubai" | How We Vet the Chefs in Our Network | myCHEF
@@ -159,7 +106,6 @@
 /venue-partners                                      "preferred caterer dubai" | Venue Partners | Preferred Catering | myCHEF
 
 ===== DESC_LENGTH =====
-/best-catering-companies-dubai                       237 chars
 /blog                                                85 chars
 /blog/topic/celebrations                             67 chars
 /blog/topic/corporate                                66 chars
@@ -173,10 +119,29 @@
 /chefs/layla-middle-eastern-chef                     195 chars
 /chefs/marco-italian-chef                            209 chars
 /chefs/matteo-pastry-chef                            200 chars
-/cuisines-dubai                                      180 chars
 /privacy-policy                                      96 chars
 /private-chef-dubai                                  207 chars
 /private-chef-dubai/how-your-plan-works              194 chars
 /private-chef-dubai/privacy-security                 172 chars
 /private-chef-dubai/quality-training                 180 chars
 /valentines-day-catering-dubai                       179 chars
+
+===== TITLE_LONG =====
+/baby-shower-catering-dubai                          69 chars
+/brunch-catering-dubai                               70 chars
+/buffet-catering-dubai                               68 chars
+/business-lunch-catering-dubai                       68 chars
+/cocktail-party-catering-dubai                       67 chars
+/conference-catering-dubai                           68 chars
+/corporate-meal-prep-dubai                           68 chars
+/dessert-table-catering-dubai                        69 chars
+/engagement-catering-dubai                           68 chars
+/exhibition-catering-dubai                           66 chars
+/finger-food-catering-dubai                          68 chars
+/grazing-table-dubai                                 67 chars
+/new-year-catering-dubai                             70 chars
+/private-chef-dubai/quality-training                 68 chars
+/product-launch-catering-dubai                       66 chars
+/ramadan-catering-dubai                              70 chars
+/vegan-catering-dubai                                67 chars
+/vegetarian-catering-dubai                           67 chars
