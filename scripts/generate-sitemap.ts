@@ -14,7 +14,24 @@ import { fileURLToPath } from 'url'
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const ROUTES_TSX = path.resolve(__dirname, '../src/routes.tsx')
 const SITEMAP_OUT = path.resolve(__dirname, '../public/sitemap.xml')
+const VERCEL_JSON = path.resolve(__dirname, '../vercel.json')
 const DOMAIN = 'https://www.mychef.ae'
+
+/**
+ * Any path that vercel.json 301s away must never be advertised in the sitemap —
+ * a redirecting URL in a sitemap wastes crawl budget and confuses canonicalisation.
+ * Derived automatically so adding a redirect can never silently reintroduce the bug.
+ */
+function redirectSources(): string[] {
+  try {
+    const cfg = JSON.parse(fs.readFileSync(VERCEL_JSON, 'utf8')) as {
+      redirects?: { source: string }[]
+    }
+    return (cfg.redirects ?? []).map((r) => r.source).filter((s) => !s.includes(':') && !s.includes('*'))
+  } catch {
+    return []
+  }
+}
 
 // Paths that must never appear in the sitemap
 const EXCLUDED_PATHS = new Set([
@@ -25,6 +42,7 @@ const EXCLUDED_PATHS = new Set([
   '/school-catering-dubai',
   '/nursery-catering-dubai',
   '/university-catering-dubai',
+  ...redirectSources(),
 ])
 
 // Dynamic route expansions

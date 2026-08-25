@@ -54,6 +54,12 @@ export default function CorporateDinnerPackage() {
       ]}
       relatedServices={[
         {
+          title: 'Corporate Event Catering',
+          description: 'Company parties, launches, galas and networking events.',
+          image: '/service-corporate.webp',
+          link: '/corporate-event-catering-dubai',
+        },
+        {
           title: 'Corporate Catering Dubai',
           description: 'Boardroom lunches, client dinners, and team events.',
           image: '/service-corporate.webp',

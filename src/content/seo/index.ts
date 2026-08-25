@@ -223,6 +223,7 @@ export const SKIP_SEO_BODY_ROUTES: ReadonlySet<string> = new Set([
   '/blog',
   '/blog/wedding-catering-cost-dubai',
   '/catering-dubai',
+  '/corporate-event-catering-dubai',
   '/luxury-dining-experiences',
   '/private-jet-catering-dubai',
   '/site-map',
