@@ -38,6 +38,10 @@ function redirectSources(): string[] {
 const EXCLUDED_PATHS = new Set([
   '/inquiry',
   '/thank-you',
+  // Canonicalised to the flat owner URL. A page that points its canonical
+  // elsewhere must not also be advertised as its own entry.
+  '/private-chef-dubai/pricing',
+  '/private-chef-dubai/our-chefs',
   '/government-event-catering-dubai',
   '/healthcare-catering-dubai',
   '/school-catering-dubai',

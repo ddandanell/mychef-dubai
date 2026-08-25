@@ -256,7 +256,7 @@ export const childSeo = {
   },
   // LOCKED: "private chef dubai prices" (owner decision 2026-08-25). Secondary: "home chef dubai", "private chef hire", "personal cook dubai", "part time cook in dubai".
   pricing: {
-    title: 'Private Chef Dubai Prices | Short Stay & Long-Term Plans | myCHEF',
+    title: 'Build Your Private Chef Plan in Dubai | Hours, Days & Cover | myCHEF',
     description:
       'Private chef Dubai prices for short stays (3–29 days) and long-term household plans (30+ days). Choose the service, the chef level and the days — see your price before you enquire.',
     h1: 'Private Chef Dubai Prices',

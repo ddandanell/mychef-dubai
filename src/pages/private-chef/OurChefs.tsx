@@ -34,6 +34,11 @@ import {
 import { CLUSTER_PATHS, FIND_CHEF_LABEL, INQUIRY_HREF, childSeo, ourChefsFaqs } from '../../content/privateChefCluster'
 
 const PATH = CLUSTER_PATHS.ourChefs
+/**
+ * "private chefs dubai" is owned by the flat /our-chefs. This page is the chef
+ * module of the household plan, not a second answer to the same query.
+ */
+const CANONICAL = '/our-chefs'
 const seo = childSeo.ourChefs
 
 const schema = {
@@ -66,7 +71,7 @@ export default function PrivateChefOurChefsPage() {
       <SEO
         title={seo.title}
         description={seo.description}
-        canonicalPath={PATH}
+        canonicalPath={CANONICAL}
         ogImage={clusterHeroes.ourChefs.src}
         hideSiteName
         preloadHero={clusterHeroes.ourChefs.src}

@@ -16,6 +16,12 @@ import { CLUSTER_PATHS, childSeo } from '../../content/privateChefCluster'
 import { PRICING_FAQS, SERVICES } from '../../content/privateChefPricing'
 
 const PATH = CLUSTER_PATHS.pricing
+/**
+ * "private chef dubai price" is owned by the flat /private-chef-prices-dubai.
+ * This page is the plan builder inside the household flow, so it stays live and
+ * reachable but points its canonical at the owner instead of competing with it.
+ */
+const CANONICAL = '/private-chef-prices-dubai'
 const seo = childSeo.pricing
 const hero = photos[3]
 
@@ -53,7 +59,7 @@ export default function PrivateChefPricing() {
 
   return (
     <div className="pb-20 lg:pb-0">
-      <SEO title={seo.title} description={seo.description} canonicalPath={PATH} ogImage={hero.src} hideSiteName preloadHero={hero.src} schema={schema} />
+      <SEO title={seo.title} description={seo.description} canonicalPath={CANONICAL} ogImage={hero.src} hideSiteName preloadHero={hero.src} schema={schema} />
 
       {/* 1 — hero: title, one line, then straight into the calculator */}
       <PageHero
