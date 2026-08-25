@@ -1,0 +1,29 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.mychef.ae/private-chef-dubai#service",
+      "name": "Private Chef Dubai",
+      "serviceType": "Private Chef Service",
+      "url": "https://www.mychef.ae/private-chef-dubai",
+      "provider": {
+        "@id": "https://www.mychef.ae/#organization"
+      },
+      "areaServed": [
+        {
+          "@id": "https://www.mychef.ae/#place-dubai"
+        },
+        {
+          "@id": "https://www.mychef.ae/#place-jlt"
+        },
+        {
+          "@id": "https://www.mychef.ae/#place-jumeirah"
+        },
+        {
+          "@id": "https://www.mychef.ae/#place-jvc"
+        }
+      ]
+    }
+  ]
+}

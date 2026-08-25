@@ -42,6 +42,12 @@ const EXCLUDED_PATHS = new Set([
   // elsewhere must not also be advertised as its own entry.
   '/private-chef-dubai/pricing',
   '/private-chef-dubai/our-chefs',
+  '/private-chef-dubai/how-your-plan-works',
+  '/private-chef-dubai/privacy-security',
+  '/private-chef-dubai/quality-training',
+  '/privacy-policy',
+  '/terms',
+  '/site-map',
   '/government-event-catering-dubai',
   '/healthcare-catering-dubai',
   '/school-catering-dubai',

@@ -3,7 +3,7 @@ import { useParams, Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
-import { ORGANIZATION_REF, ORGANIZATION_SCHEMA } from '@/lib/organizationSchema'
+import { ORGANIZATION_REF } from '@/lib/organizationSchema'
 import {
   MapPin,
   Phone,
@@ -151,34 +151,14 @@ export default function LocationDetail() {
     '@graph': [
       {
         '@type': 'Service',
-        name: `Private Chef & Catering ${loc.name}`,
+        '@id': `${pageUrl}#service`,
+        name: `Private chef and catering in ${loc.name}`,
         description: loc.metaDescription,
-        serviceType: 'Catering Service',
-        provider: {
-          '@type': 'Organization',
-          '@id': 'https://www.mychef.ae/#organization',
-          name: 'myCHEF',
-          url: 'https://www.mychef.ae',
-          telephone: '+971-55-174-4849',
-          areaServed: 'Dubai, UAE',
-        },
-        areaServed: {
-          '@type': 'Place',
-          name: loc.name,
-          address: {
-            '@type': 'PostalAddress',
-            addressLocality: loc.name,
-            addressCountry: 'AE',
-          },
-        },
-      },
-      {
-        '@type': 'FAQPage',
-        mainEntity: loc.faqs.map((f) => ({
-          '@type': 'Question',
-          name: f.q,
-          acceptedAnswer: { '@type': 'Answer', text: f.a },
-        })),
+        serviceType: 'Private chef and catering',
+        url: pageUrl,
+        image: `https://www.mychef.ae${loc.heroImage}`,
+        provider: ORGANIZATION_REF,
+        areaServed: { '@id': `https://www.mychef.ae/#place-${loc.slug}` },
       },
       {
         '@type': 'BreadcrumbList',
@@ -188,19 +168,6 @@ export default function LocationDetail() {
           { '@type': 'ListItem', position: 3, name: loc.name, item: pageUrl },
         ],
       },
-      // One business serving this area, not a separate business per area. The
-      // 15 location pages used to emit 15 anonymous LocalBusiness nodes named
-      // "myCHEF Dubai" — the schema equivalent of opening 15 Google profiles
-      // for a service-area business that is only allowed one.
-      {
-        '@type': 'Service',
-        name: `Private chef and catering in ${loc.name}`,
-        url: pageUrl,
-        image: `https://www.mychef.ae${loc.heroImage}`,
-        provider: ORGANIZATION_REF,
-        areaServed: { '@type': 'Place', name: loc.name },
-      },
-      ORGANIZATION_SCHEMA,
     ],
   }
 

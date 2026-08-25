@@ -72,6 +72,7 @@ export default function PrivateChefOurChefsPage() {
         title={seo.title}
         description={seo.description}
         canonicalPath={CANONICAL}
+        noindex
         ogImage={clusterHeroes.ourChefs.src}
         hideSiteName
         preloadHero={clusterHeroes.ourChefs.src}

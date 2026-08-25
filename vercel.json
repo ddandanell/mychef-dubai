@@ -44,6 +44,11 @@
       "source": "/chefs/sofia-pastry-chef",
       "destination": "/chefs/matteo-pastry-chef",
       "statusCode": 301
+    },
+    {
+      "source": "/private-chef-dubai/pricing",
+      "destination": "/private-chef-prices-dubai",
+      "statusCode": 301
     }
   ],
   "rewrites": [

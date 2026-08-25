@@ -13,7 +13,7 @@ import ClusterNav from '../components/private-chef/ClusterNav'
 import ClusterCTA from '../components/private-chef/ClusterCTA'
 import RatesBar from '../components/private-chef/RatesBar'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
-import { plainFaqAnswer } from '../utils/schema'
+
 import {
   HERO_IMAGE,
   HERO_IMAGE_HEIGHT,
@@ -60,37 +60,19 @@ const schema = {
   '@graph': [
     {
       '@type': 'Service',
+      '@id': 'https://www.mychef.ae/private-chef-dubai#service',
       name: 'Private Chef Dubai',
       serviceType: 'Private Chef Service',
-      provider: {
-        '@type': 'Organization',
-        '@id': 'https://www.mychef.ae/#organization',
-        name: 'myCHEF',
-        url: 'https://www.mychef.ae',
-        telephone: '+971-55-174-4849',
-        areaServed: 'Dubai, UAE',
-      },
-      areaServed: 'Dubai, UAE',
+      provider: { '@id': 'https://www.mychef.ae/#organization' },
+      areaServed: [
+        { '@id': 'https://www.mychef.ae/#place-dubai' },
+        { '@id': 'https://www.mychef.ae/#place-jlt' },
+        { '@id': 'https://www.mychef.ae/#place-jumeirah' },
+        { '@id': 'https://www.mychef.ae/#place-jvc' },
+      ],
       description:
         'Standing household private chef in Dubai: same chef, Food Profile, backup if they are off. From a few days a week to a long-term household plan, the chef is matched, assessed and managed.',
-      offers: {
-        '@type': 'Offer',
-        name: 'Household private chef plans — short stay (3–29 days) and long term (30+ days)',
-        description:
-          'Fresh Meal (3h) from AED 750, Private Chef Food Prep (4h) from AED 900, Kitchen on Autopilot (5h) from AED 1,050 and Full-Day Private Chef (9h) from AED 1,500 per service at Professional Chef level. Long-term rates improve with services per month. Groceries at actual cost.',
-        url: 'https://www.mychef.ae/private-chef-dubai/pricing',
-        priceCurrency: 'AED',
-        price: '2700',
-        unitText: 'MONTH',
-      },
-    },
-    {
-      '@type': 'FAQPage',
-      mainEntity: parentFaqs.map((faq) => ({
-        '@type': 'Question',
-        name: faq.q,
-        acceptedAnswer: { '@type': 'Answer', text: plainFaqAnswer(faq.a) },
-      })),
+      url: 'https://www.mychef.ae/private-chef-dubai',
     },
     {
       '@type': 'BreadcrumbList',

@@ -1,0 +1,17 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.mychef.ae/locations/palm-jumeirah#service",
+      "name": "Private chef and catering in Palm Jumeirah",
+      "url": "https://www.mychef.ae/locations/palm-jumeirah",
+      "provider": {
+        "@id": "https://www.mychef.ae/#organization"
+      },
+      "areaServed": {
+        "@id": "https://www.mychef.ae/#place-palm-jumeirah"
+      }
+    }
+  ]
+}

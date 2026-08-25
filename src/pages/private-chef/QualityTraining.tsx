@@ -73,6 +73,7 @@ export default function PrivateChefQualityTraining() {
         title={seo.title}
         description={seo.description}
         canonicalPath={PATH}
+        noindex
         ogImage={hero.src}
         hideSiteName
         preloadHero={hero.src}

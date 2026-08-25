@@ -10,6 +10,7 @@ export default function SiteMap() {
         title="Site Map"
         description="Complete site map for myCHEF Dubai. Browse all private chef, catering, event, location, guide, and blog pages."
         canonicalPath="/site-map"
+        noindex
       />
       <PageHero
         eyebrow="Navigation"

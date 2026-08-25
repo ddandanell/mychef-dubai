@@ -184,12 +184,12 @@ export default function HandoffPage() {
   })
   const showToc = isBlog && toc.length >= TOC_MIN_SECTIONS
 
-  // Structured data: Article + BreadcrumbList (+ FAQPage when the post carries an FAQ).
+  // Structured data: Article + BreadcrumbList. FAQPage only ships on /faq.
   const canonical = `${SITE}${pathname}`
   const graph: Record<string, unknown>[] = []
   if (isBlog) {
     graph.push({
-      '@type': 'BlogPosting',
+      '@type': 'Article',
       headline: seoTitle,
       description: head.meta_description,
       image: heroImage ? [`${SITE}${heroImage.src}`] : undefined,
@@ -206,16 +206,6 @@ export default function HandoffPage() {
         { '@type': 'ListItem', position: 2, name: 'Blog', item: `${SITE}/blog` },
         { '@type': 'ListItem', position: 3, name: seoTitle, item: canonical },
       ],
-    })
-  }
-  if ((data.faq ?? []).length > 0) {
-    graph.push({
-      '@type': 'FAQPage',
-      mainEntity: (data.faq ?? []).map((f) => ({
-        '@type': 'Question',
-        name: f.question,
-        acceptedAnswer: { '@type': 'Answer', text: (f.answer ?? []).join(' ') },
-      })),
     })
   }
   const schema = graph.length > 0 ? { '@context': 'https://schema.org', '@graph': graph } : undefined

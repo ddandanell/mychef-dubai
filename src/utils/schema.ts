@@ -60,19 +60,15 @@ export function serviceSchema(
   name: string,
   description: string,
   serviceType: string,
-  area: string = 'Dubai',
+  _area: string = 'Dubai',
 ) {
   return {
-    '@context': 'https://schema.org',
     '@type': 'Service',
     name,
     description,
     provider: ORGANIZATION_REF,
     serviceType,
-    areaServed: {
-      '@type': 'City',
-      name: area,
-    },
+    areaServed: [{ '@id': 'https://www.mychef.ae/#place-dubai' }],
   }
 }
 
@@ -181,14 +177,11 @@ export function eventSchema(
 
 export function websiteSchema() {
   return {
-    '@context': 'https://schema.org',
     '@type': 'WebSite',
+    '@id': 'https://www.mychef.ae/#website',
     name: SITE_NAME,
     url: SITE_URL,
-    potentialAction: {
-      '@type': 'SearchAction',
-      target: `${SITE_URL}/search?q={search_term_string}`,
-      'query-input': 'required name=search_term_string',
-    },
+    publisher: ORGANIZATION_REF,
+    inLanguage: 'en-AE',
   }
 }

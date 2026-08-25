@@ -1,6 +1,8 @@
 {
  "schema_version": "2.0",
- "project": "myCHEF Dubai — master keyword map",
+ "do_not_feed_to_writers": true,
+ "superseded_by": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+ "project": "myCHEF Dubai — master keyword map (historical merge dump — not the shipping contract)",
  "generated_at": "2026-08-25",
  "site": "https://www.mychef.ae",
  "how_to_use": [

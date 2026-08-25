@@ -69,7 +69,7 @@ export default function HowYourPlanWorks() {
 
   return (
     <div>
-      <SEO title={TITLE} description={DESCRIPTION} canonicalPath={PATH} ogImage={hero.src} hideSiteName preloadHero={hero.src} schema={schema} />
+      <SEO title={TITLE} description={DESCRIPTION} canonicalPath={PATH} noindex ogImage={hero.src} hideSiteName preloadHero={hero.src} schema={schema} />
       <PageHero
         variant="quiet"
         eyebrow="Private Chef Dubai"

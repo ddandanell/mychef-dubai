@@ -59,7 +59,7 @@ export default function PrivateChefPricing() {
 
   return (
     <div className="pb-20 lg:pb-0">
-      <SEO title={seo.title} description={seo.description} canonicalPath={CANONICAL} ogImage={hero.src} hideSiteName preloadHero={hero.src} schema={schema} />
+      <SEO title={seo.title} description={seo.description} canonicalPath={CANONICAL} noindex ogImage={hero.src} hideSiteName preloadHero={hero.src} schema={schema} />
 
       {/* 1 — hero: title, one line, then straight into the calculator */}
       <PageHero

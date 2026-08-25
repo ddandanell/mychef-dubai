@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""Merge every myCHEF keyword source into one master file, with provenance."""
+"""Historical merge only. Do not feed the output to writers.
+
+Shipping contract: docs/seo/myCHEF-AE-SEO-STANDARD.json
+"""
 import json, re, os, glob, sys
 from collections import defaultdict
 

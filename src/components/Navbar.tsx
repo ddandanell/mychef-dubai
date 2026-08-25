@@ -208,8 +208,7 @@ export default function Navbar() {
   useEffect(() => {
     setMobileOpen(false)
     setMobileOpenGroup('')
-    if (!location.hash) window.scrollTo(0, 0)
-  }, [location.pathname, location.hash])
+  }, [location.pathname])
 
   return (
     <>
@@ -358,6 +357,7 @@ export default function Navbar() {
       >
         <SheetContent
           side="right"
+          onCloseAutoFocus={(event) => event.preventDefault()}
           className="z-[100] h-full w-full max-w-none border-0 bg-black p-0 sm:max-w-none [&>button]:hidden print:hidden"
         >
           <SheetTitle className="sr-only">Menu</SheetTitle>
@@ -365,118 +365,110 @@ export default function Navbar() {
             myCHEF Dubai pages and private chef services
           </SheetDescription>
           <div className="container-custom flex h-full w-full flex-col">
-            <div className="flex h-16 items-center justify-between">
+            <div className="flex h-12 items-center justify-between">
               <span className="flex items-center gap-1.5">
-                <ChefHatLogo className="h-6 w-6 text-gold" />
-                <span className="font-playfair text-xl font-semibold text-gold">myCHEF</span>
+                <ChefHatLogo className="h-5 w-5 text-gold" />
+                <span className="font-playfair text-lg font-semibold text-gold">myCHEF</span>
               </span>
               <SheetClose className="text-white p-2 -mr-2 min-w-10 min-h-10 flex items-center justify-center rounded-sm opacity-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold">
                 <span className="sr-only">Close menu</span>
-                <X size={22} aria-hidden />
+                <X size={20} aria-hidden />
               </SheetClose>
             </div>
 
-            <nav aria-label="Mobile" className="flex-1 overflow-y-auto overscroll-contain py-2">
-              <ul className="divide-y divide-white/10 border-y border-white/10">
+            <nav aria-label="Mobile" className="flex-1 overflow-y-auto overscroll-contain">
+              <Accordion
+                type="single"
+                collapsible
+                value={mobileOpenGroup}
+                onValueChange={setMobileOpenGroup}
+                className="divide-y divide-white/10 border-y border-white/10"
+              >
                 {navLinks.map((link) => {
                   const hasChildren = Boolean(link.children?.length)
                   if (!hasChildren) {
                     const active = isItemActive(location.pathname, link.href)
                     return (
-                      <li key={link.href}>
-                        <Link
-                          to={link.href}
-                          aria-current={active ? 'page' : undefined}
-                          onClick={() => setMobileOpen(false)}
-                          className={cn(
-                            'flex min-h-[56px] items-center justify-between gap-4 border-l-2 px-4 font-playfair text-[22px] leading-none transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-gold',
-                            active ? 'border-gold text-gold' : 'border-transparent text-white hover:text-gold',
-                          )}
-                        >
-                          {link.label}
-                          <ArrowRight size={16} className="text-white/30" aria-hidden />
-                        </Link>
-                      </li>
+                      <Link
+                        key={link.href}
+                        to={link.href}
+                        aria-current={active ? 'page' : undefined}
+                        onClick={() => setMobileOpen(false)}
+                        className={cn(
+                          'flex min-h-11 items-center justify-between gap-3 border-l-2 px-3 font-playfair text-[17px] leading-none transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-gold',
+                          active ? 'border-gold text-gold' : 'border-transparent text-white hover:text-gold',
+                        )}
+                      >
+                        {link.label}
+                        <ArrowRight size={14} className="text-white/30" aria-hidden />
+                      </Link>
                     )
                   }
                   const active = itemIsActive(location.pathname, link)
                   const groupId = link.href
                   return (
-                    <li key={link.href}>
-                      <Accordion
-                        type="single"
-                        collapsible
-                        value={mobileOpenGroup === groupId ? groupId : ''}
-                        onValueChange={(v) => setMobileOpenGroup(v)}
+                    <AccordionItem key={link.href} value={groupId} className="border-b-0">
+                      <AccordionTrigger
+                        className={cn(
+                          'min-h-11 items-center rounded-none border-l-2 px-3 py-0 font-playfair text-[17px] leading-none transition-colors duration-300 hover:no-underline hover:text-gold focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-gold focus-visible:border-l-2 [&>svg]:size-4 [&>svg]:translate-y-0 [&>svg]:text-gold [&>svg]:transition-transform [&>svg]:duration-300 [&>svg]:ease-out',
+                          active ? 'border-gold text-gold' : 'border-transparent text-white',
+                        )}
                       >
-                        <AccordionItem value={groupId} className="border-b-0">
-                          <AccordionTrigger
-                            className={cn(
-                              'min-h-[56px] items-center rounded-none border-l-2 px-4 py-0 font-playfair text-[22px] leading-none hover:no-underline focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-gold focus-visible:border-l-2 [&>svg]:size-5 [&>svg]:translate-y-0 [&>svg]:text-gold',
-                              active ? 'border-gold text-gold' : 'border-transparent text-white',
-                            )}
-                          >
-                            {link.label}
-                          </AccordionTrigger>
-                          <AccordionContent className="pb-2">
-                            <ul className="bg-white/[0.03]">
-                              {link.children!.map((child) => {
-                                const Icon = link.mega ? MEGA_ICONS[link.mega]?.[child.href] : undefined
-                                const [childPath, childHash] = child.href.split('#')
-                                const childActive = childHash
-                                  ? normalizePath(location.pathname) === childPath && location.hash === `#${childHash}`
-                                  : link.mega === 'contact'
-                                    ? isItemActive(location.pathname, childPath)
-                                    : normalizePath(location.pathname) === childPath
-                                return (
-                                  <li key={child.href + child.label}>
-                                    <Link
-                                      to={child.href}
-                                      onClick={() => setMobileOpen(false)}
-                                      aria-current={childActive ? 'page' : undefined}
-                                      className={cn(
-                                        'flex min-h-[60px] items-center gap-4 border-l-2 py-3 pl-4 pr-5 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-gold',
-                                        childActive ? 'border-gold' : 'border-transparent',
-                                      )}
-                                    >
-                                      {Icon && (
-                                        <span className="flex h-9 w-9 flex-shrink-0 items-center justify-center border border-gold/35 text-gold">
-                                          <Icon size={18} strokeWidth={1.5} aria-hidden />
-                                        </span>
-                                      )}
-                                      <span className="min-w-0">
-                                        <span className={cn('block font-playfair text-[18px] leading-tight', childActive ? 'text-gold' : 'text-white')}>
-                                          {child.label}
-                                        </span>
-                                        <span className="mt-0.5 block font-inter text-body-sm leading-snug text-white/55">
-                                          {child.description}
-                                        </span>
-                                      </span>
-                                    </Link>
-                                  </li>
-                                )
-                              })}
-                            </ul>
-                          </AccordionContent>
-                        </AccordionItem>
-                      </Accordion>
-                    </li>
+                        {link.label}
+                      </AccordionTrigger>
+                      <AccordionContent className="pb-0">
+                        <ul className="bg-white/[0.03]">
+                          {link.children!.map((child) => {
+                            const Icon = link.mega ? MEGA_ICONS[link.mega]?.[child.href] : undefined
+                            const [childPath, childHash] = child.href.split('#')
+                            const childActive = childHash
+                              ? normalizePath(location.pathname) === childPath && location.hash === `#${childHash}`
+                              : link.mega === 'contact'
+                                ? isItemActive(location.pathname, childPath)
+                                : normalizePath(location.pathname) === childPath
+                            return (
+                              <li key={child.href + child.label}>
+                                <Link
+                                  to={child.href}
+                                  onClick={() => setMobileOpen(false)}
+                                  aria-current={childActive ? 'page' : undefined}
+                                  title={child.description}
+                                  className={cn(
+                                    'group flex min-h-11 items-center gap-2.5 border-l-2 py-0 pl-3 pr-3 transition-colors duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-gold',
+                                    childActive ? 'border-gold' : 'border-transparent',
+                                  )}
+                                >
+                                  {Icon && (
+                                    <span className="flex h-7 w-7 flex-shrink-0 items-center justify-center border border-gold/35 text-gold transition-[border-color,background-color,transform] duration-300 ease-out group-hover:border-gold group-hover:bg-gold/10 group-hover:-translate-y-px">
+                                      <Icon size={14} strokeWidth={1.5} aria-hidden />
+                                    </span>
+                                  )}
+                                  <span className={cn('min-w-0 truncate font-inter text-[14px] leading-none transition-colors duration-300', childActive ? 'text-gold' : 'text-white/90 group-hover:text-gold')}>
+                                    {child.label}
+                                  </span>
+                                </Link>
+                              </li>
+                            )
+                          })}
+                        </ul>
+                      </AccordionContent>
+                    </AccordionItem>
                   )
                 })}
-              </ul>
+              </Accordion>
             </nav>
 
             <div
-              className="border-t border-white/10 pt-4"
-              style={{ paddingBottom: 'calc(env(safe-area-inset-bottom) + 1.25rem)' }}
+              className="flex justify-center border-t border-white/10 pt-1"
+              style={{ paddingBottom: 'calc(env(safe-area-inset-bottom) + 0.75rem)' }}
             >
               <a
                 href={WHATSAPP_LINK}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn-primary flex w-full items-center justify-center gap-2 text-center"
+                className="inline-flex min-h-10 items-center gap-1.5 px-3 font-inter text-[12px] font-normal tracking-[0.02em] text-white/55 transition-colors hover:text-gold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold"
               >
-                <MessageCircle size={16} aria-hidden />
+                <MessageCircle size={12} strokeWidth={1.5} aria-hidden />
                 Chat with us
               </a>
             </div>

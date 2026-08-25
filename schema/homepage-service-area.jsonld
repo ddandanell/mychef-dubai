@@ -1,0 +1,212 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "Organization",
+        "ProfessionalService",
+        "FoodService"
+      ],
+      "@id": "https://www.mychef.ae/#organization",
+      "name": "myCHEF",
+      "legalName": "Numini FZC",
+      "url": "https://www.mychef.ae/",
+      "logo": "https://www.mychef.ae/logo.svg",
+      "image": "https://www.mychef.ae/images/home-hero.webp",
+      "description": "Private chef and catering in Dubai. myCHEF designs the experience and matches clients with vetted, licensed independent chefs and catering partners, who cook at the client’s villa, yacht or home. There is no dining room.",
+      "telephone": "+971 55 174 4849",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Business Centre, Sharjah Publishing City Free Zone",
+        "addressLocality": "Sharjah",
+        "addressRegion": "Sharjah",
+        "addressCountry": "AE"
+      },
+      "areaServed": [
+        {
+          "@id": "https://www.mychef.ae/#place-dubai"
+        },
+        {
+          "@id": "https://www.mychef.ae/#place-palm-jumeirah"
+        },
+        {
+          "@id": "https://www.mychef.ae/#place-dubai-marina"
+        },
+        {
+          "@id": "https://www.mychef.ae/#place-downtown-dubai"
+        },
+        {
+          "@id": "https://www.mychef.ae/#place-jumeirah"
+        },
+        {
+          "@id": "https://www.mychef.ae/#place-jbr"
+        },
+        {
+          "@id": "https://www.mychef.ae/#place-business-bay"
+        },
+        {
+          "@id": "https://www.mychef.ae/#place-difc"
+        },
+        {
+          "@id": "https://www.mychef.ae/#place-emirates-hills"
+        },
+        {
+          "@id": "https://www.mychef.ae/#place-arabian-ranches"
+        },
+        {
+          "@id": "https://www.mychef.ae/#place-dubai-hills"
+        },
+        {
+          "@id": "https://www.mychef.ae/#place-jvc"
+        },
+        {
+          "@id": "https://www.mychef.ae/#place-jlt"
+        },
+        {
+          "@id": "https://www.mychef.ae/#place-bluewaters-island"
+        },
+        {
+          "@id": "https://www.mychef.ae/#place-umm-suqeim"
+        },
+        {
+          "@id": "https://www.mychef.ae/#place-al-barsha"
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.mychef.ae/#website",
+      "url": "https://www.mychef.ae/",
+      "name": "myCHEF",
+      "inLanguage": "en-AE",
+      "publisher": {
+        "@id": "https://www.mychef.ae/#organization"
+      }
+    },
+    {
+      "@type": "AdministrativeArea",
+      "@id": "https://www.mychef.ae/#place-dubai",
+      "name": "Dubai"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "@id": "https://www.mychef.ae/#place-palm-jumeirah",
+      "name": "Palm Jumeirah",
+      "containedInPlace": {
+        "@id": "https://www.mychef.ae/#place-dubai"
+      }
+    },
+    {
+      "@type": "AdministrativeArea",
+      "@id": "https://www.mychef.ae/#place-dubai-marina",
+      "name": "Dubai Marina",
+      "containedInPlace": {
+        "@id": "https://www.mychef.ae/#place-dubai"
+      }
+    },
+    {
+      "@type": "AdministrativeArea",
+      "@id": "https://www.mychef.ae/#place-downtown-dubai",
+      "name": "Downtown Dubai",
+      "containedInPlace": {
+        "@id": "https://www.mychef.ae/#place-dubai"
+      }
+    },
+    {
+      "@type": "AdministrativeArea",
+      "@id": "https://www.mychef.ae/#place-jumeirah",
+      "name": "Jumeirah",
+      "containedInPlace": {
+        "@id": "https://www.mychef.ae/#place-dubai"
+      }
+    },
+    {
+      "@type": "AdministrativeArea",
+      "@id": "https://www.mychef.ae/#place-jbr",
+      "name": "JBR",
+      "containedInPlace": {
+        "@id": "https://www.mychef.ae/#place-dubai"
+      }
+    },
+    {
+      "@type": "AdministrativeArea",
+      "@id": "https://www.mychef.ae/#place-business-bay",
+      "name": "Business Bay",
+      "containedInPlace": {
+        "@id": "https://www.mychef.ae/#place-dubai"
+      }
+    },
+    {
+      "@type": "AdministrativeArea",
+      "@id": "https://www.mychef.ae/#place-difc",
+      "name": "DIFC",
+      "containedInPlace": {
+        "@id": "https://www.mychef.ae/#place-dubai"
+      }
+    },
+    {
+      "@type": "AdministrativeArea",
+      "@id": "https://www.mychef.ae/#place-emirates-hills",
+      "name": "Emirates Hills",
+      "containedInPlace": {
+        "@id": "https://www.mychef.ae/#place-dubai"
+      }
+    },
+    {
+      "@type": "AdministrativeArea",
+      "@id": "https://www.mychef.ae/#place-arabian-ranches",
+      "name": "Arabian Ranches",
+      "containedInPlace": {
+        "@id": "https://www.mychef.ae/#place-dubai"
+      }
+    },
+    {
+      "@type": "AdministrativeArea",
+      "@id": "https://www.mychef.ae/#place-dubai-hills",
+      "name": "Dubai Hills",
+      "containedInPlace": {
+        "@id": "https://www.mychef.ae/#place-dubai"
+      }
+    },
+    {
+      "@type": "AdministrativeArea",
+      "@id": "https://www.mychef.ae/#place-jvc",
+      "name": "Jumeirah Village Circle",
+      "containedInPlace": {
+        "@id": "https://www.mychef.ae/#place-dubai"
+      }
+    },
+    {
+      "@type": "AdministrativeArea",
+      "@id": "https://www.mychef.ae/#place-jlt",
+      "name": "Jumeirah Lake Towers",
+      "containedInPlace": {
+        "@id": "https://www.mychef.ae/#place-dubai"
+      }
+    },
+    {
+      "@type": "AdministrativeArea",
+      "@id": "https://www.mychef.ae/#place-bluewaters-island",
+      "name": "Bluewaters Island",
+      "containedInPlace": {
+        "@id": "https://www.mychef.ae/#place-dubai"
+      }
+    },
+    {
+      "@type": "AdministrativeArea",
+      "@id": "https://www.mychef.ae/#place-umm-suqeim",
+      "name": "Umm Suqeim",
+      "containedInPlace": {
+        "@id": "https://www.mychef.ae/#place-dubai"
+      }
+    },
+    {
+      "@type": "AdministrativeArea",
+      "@id": "https://www.mychef.ae/#place-al-barsha",
+      "name": "Al Barsha",
+      "containedInPlace": {
+        "@id": "https://www.mychef.ae/#place-dubai"
+      }
+    }
+  ]
+}

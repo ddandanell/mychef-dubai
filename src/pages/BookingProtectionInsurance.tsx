@@ -190,7 +190,8 @@ export default function BookingProtectionInsurance() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Booking Protection & Insurance"
+        title="Catering Cancellation Policy Dubai | myCHEF"
+        hideSiteName
         description="Learn how myCHEF Dubai protects your booking with backup chefs, liability insurance, fair cancellation terms, deposit structure, and complaint handling."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/booking-protection-insurance-dubai-hero.webp"
@@ -215,7 +216,7 @@ export default function BookingProtectionInsurance() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 bpi-hero-h1">
-            Booking Protection & Insurance
+            Catering Cancellation Policy Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 bpi-hero-sub">
             Clear policies, backup chef cover, liability insurance, and fair cancellation terms — so you can book your private chef or catering event with confidence.

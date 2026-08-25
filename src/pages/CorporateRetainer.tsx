@@ -194,7 +194,7 @@ export default function CorporateRetainer() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Corporate Retainer Dubai | Monthly Catering Credit | myCHEF"
+        title="Corporate Catering Contract Dubai | myCHEF"
         description="myCHEF Dubai corporate retainer programmes for Dubai businesses. Monthly catering credit, priority booking, consolidated invoicing, and dedicated account."
         canonicalPath={CANONICAL_PATH}
         ogImage="/service-corporate.webp"
@@ -220,7 +220,7 @@ export default function CorporateRetainer() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 cr-hero-h1">
-            Corporate Retainer Dubai: Monthly Catering Credit & Priority Booking
+            Corporate Catering Contract Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 cr-hero-sub">
             Monthly catering credit, priority scheduling, and a dedicated account manager — designed for Dubai companies that entertain clients and feed teams regularly. Tell us about your monthly rhythm and we will design a retainer plan within 24 hours.

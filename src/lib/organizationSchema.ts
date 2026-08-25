@@ -1,67 +1,57 @@
 /**
  * The single business entity for myCHEF.
  *
- * Everything that describes the company emits this one node, at this one @id.
- * The site previously carried four: #organization, #business, and two with no
- * @id at all — which is how a search engine ends up holding three versions of
- * the same company.
+ * Service-area business: chefs go to the villa. There is no dining room.
+ * Do not mark this as Restaurant or FoodEstablishment.
  *
- * Aligned to the Google Business Profile lock. Change them together or the
- * profile, the site and the schema drift apart again:
+ * Aligned to the Google Business Profile lock and the visible footer:
  *
- *   public name   myCHEF          (no area or keywords in the title)
- *   legal name    Numini FZC      (on the licence and here, never in Maps)
+ *   public name   myCHEF
+ *   legal name    Numini FZC
  *   phone         +971 55 174 4849
  *   website       https://www.mychef.ae/
- *   type          service-area business, address hidden, one profile
- *   service area  Dubai and the 15 communities that have location pages,
- *                 not "AE" and not Abu Dhabi
+ *   registered    Business Centre, Sharjah Publishing City Free Zone, Sharjah
+ *   service area  Dubai (not Abu Dhabi, not a fake Palm kitchen)
  *
- * No street address: myCHEF cooks at the client's place, so there is no
- * customer-facing premises to publish. Locality only.
+ * Emit the full node only on `/` and `/about`. Everywhere else, point at `@id`.
  */
 
-/** The 15 communities with their own location pages. Keep in step with scripts/generate-sitemap.ts. */
-const SERVICE_AREAS = [
-  'Dubai Marina', 'Downtown Dubai', 'Palm Jumeirah', 'Jumeirah', 'JBR',
-  'Business Bay', 'DIFC', 'Emirates Hills', 'Arabian Ranches', 'Dubai Hills',
-  'Jumeirah Village Circle', 'Jumeirah Lake Towers', 'Bluewaters Island',
-  'Umm Suqeim', 'Al Barsha',
-] as const
+import { ALL_AREA_REFS, PLACE_NODES } from './serviceAreas'
 
 export const ORGANIZATION_ID = 'https://www.mychef.ae/#organization'
+export const WEBSITE_ID = 'https://www.mychef.ae/#website'
+export const LOGO_URL = 'https://www.mychef.ae/logo.svg'
+export const SITE_URL = 'https://www.mychef.ae'
 
 export const ORGANIZATION_SCHEMA = {
-  '@context': 'https://schema.org',
-  '@type': 'ProfessionalService',
+  '@type': ['Organization', 'ProfessionalService', 'FoodService'],
   '@id': ORGANIZATION_ID,
   name: 'myCHEF',
   legalName: 'Numini FZC',
-  url: 'https://www.mychef.ae/',
-  logo: 'https://www.mychef.ae/logo.svg',
-  image: 'https://www.mychef.ae/images/home-hero.webp',
+  url: `${SITE_URL}/`,
+  logo: LOGO_URL,
+  image: `${SITE_URL}/images/home-hero.webp`,
   description:
-    'Private chef and catering in Dubai. myCHEF designs the experience and matches clients with vetted, licensed independent chefs and catering partners, who carry out the cooking.',
+    'Private chef and catering in Dubai. myCHEF designs the experience and matches clients with vetted, licensed independent chefs and catering partners, who cook at the client’s villa, yacht or home. There is no dining room.',
   telephone: '+971 55 174 4849',
   priceRange: '$$$$',
   currenciesAccepted: 'AED',
   paymentAccepted: 'Cash, Credit Card, Bank Transfer',
   knowsLanguage: ['en', 'ar'],
-  // Locality only. A service-area business publishes no street address.
   address: {
     '@type': 'PostalAddress',
-    addressLocality: 'Dubai',
+    streetAddress: 'Business Centre, Sharjah Publishing City Free Zone',
+    addressLocality: 'Sharjah',
+    addressRegion: 'Sharjah',
     addressCountry: 'AE',
   },
-  areaServed: [
-    { '@type': 'City', name: 'Dubai', '@id': 'https://www.wikidata.org/wiki/Q612' },
-    ...SERVICE_AREAS.map((name) => ({ '@type': 'Place' as const, name })),
-  ],
+  areaServed: ALL_AREA_REFS,
   contactPoint: {
     '@type': 'ContactPoint',
     contactType: 'customer service',
     telephone: '+971 55 174 4849',
     availableLanguage: ['English', 'Arabic'],
+    areaServed: { '@id': `${SITE_URL}/#place-dubai` },
   },
   sameAs: [
     'https://www.facebook.com/profile.php?id=61591681367227',
@@ -70,10 +60,31 @@ export const ORGANIZATION_SCHEMA = {
     'https://www.youtube.com/@mychefuae',
     'https://x.com/mychefdubai',
     'https://www.reddit.com/user/myChefDUBAI',
-    // Add the Google Maps URL here once the profile is verified, so the
-    // listing and this entity are explicitly the same thing.
   ],
+}
+
+export const WEBSITE_SCHEMA = {
+  '@type': 'WebSite',
+  '@id': WEBSITE_ID,
+  url: `${SITE_URL}/`,
+  name: 'myCHEF',
+  inLanguage: 'en-AE',
+  publisher: { '@id': ORGANIZATION_ID },
 }
 
 /** Reference the business from another node instead of restating it. */
 export const ORGANIZATION_REF = { '@id': ORGANIZATION_ID }
+
+export function homepageGraph() {
+  return {
+    '@context': 'https://schema.org',
+    '@graph': [ORGANIZATION_SCHEMA, WEBSITE_SCHEMA, ...PLACE_NODES],
+  }
+}
+
+export function aboutGraph(breadcrumb: Record<string, unknown>) {
+  return {
+    '@context': 'https://schema.org',
+    '@graph': [ORGANIZATION_SCHEMA, breadcrumb],
+  }
+}

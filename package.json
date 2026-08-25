@@ -11,7 +11,8 @@
     "preview": "vite preview",
     "prerender": "tsx scripts/prerender.ts",
     "sitemap:generate": "tsx scripts/generate-sitemap.ts",
-    "verify:meta": "tsx scripts/verify-meta.ts"
+    "verify:meta": "tsx scripts/verify-meta.ts",
+    "verify:seo-contract": "python3 scripts/verify-seo-contract.py"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",

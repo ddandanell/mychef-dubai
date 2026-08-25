@@ -244,6 +244,7 @@ export default function Terms() {
         title="Terms of Service"
         description="myCHEF Dubai terms of service for private dining experience design, chef matching, and event coordination request."
         canonicalPath="/terms"
+        noindex
         ogImage="/images/catering-dubai-hero.webp"
         schema={breadcrumbSchema}
       />

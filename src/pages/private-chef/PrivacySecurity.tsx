@@ -57,6 +57,7 @@ export default function PrivateChefPrivacySecurity() {
         title={seo.title}
         description={seo.description}
         canonicalPath={PATH}
+        noindex
         ogImage={clusterHeroes.privacy.src}
         hideSiteName
         preloadHero={clusterHeroes.privacy.src}

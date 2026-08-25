@@ -173,7 +173,7 @@ export default function Privacy() {
         title="Privacy Policy"
         description="myCHEF Dubai privacy policy. How we collect, use, and protect your personal information request."
         canonicalPath="/privacy-policy"
-        noindex={false}
+        noindex
         ogImage="/images/catering-dubai-hero.webp"
         schema={breadcrumbSchema}
       />

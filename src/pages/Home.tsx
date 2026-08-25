@@ -13,7 +13,7 @@ import CTASection from '@/sections/CTASection'
 import StarterPackagesSection from '@/sections/StarterPackagesSection'
 import GuidesTeaserSection from '@/sections/GuidesTeaserSection'
 import LeadMagnetModal from '@/sections/LeadMagnetModal'
-import { ORGANIZATION_SCHEMA } from '@/lib/organizationSchema'
+import { homepageGraph } from '@/lib/organizationSchema'
 
 export default function Home() {
   return (
@@ -25,7 +25,7 @@ export default function Home() {
         ogImage="/images/home-hero.webp"
         preloadHero="/images/home-hero.webp"
         hideSiteName
-        schema={ORGANIZATION_SCHEMA}
+        schema={homepageGraph()}
       />
       <HeroSection />
       <TrustSignalStrip />

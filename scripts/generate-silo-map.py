@@ -2,7 +2,10 @@
 """
 Build the internal-linking contract from the locked keyword map.
 
-Input : docs/seo/mychef-master-keywords.json  (226 pages, silos, primaries)
+Historical generator. Writers must not use the output as ownership.
+Shipping contract: docs/seo/myCHEF-AE-SEO-STANDARD.json
+
+Input : docs/seo/mychef-master-keywords.json  (historical merge dump)
         vercel.json                            (redirect sources)
 Output: src/content/siloMap.json
 

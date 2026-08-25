@@ -1,4 +1,6 @@
 import { Helmet } from 'react-helmet-async'
+import { useLocation } from 'react-router'
+import { assemblePageGraph } from '@/lib/jsonld'
 
 interface SEOProps {
   title?: string
@@ -27,6 +29,10 @@ export default function SEO({
   schema,
   preloadHero,
 }: SEOProps) {
+  const { pathname } = useLocation()
+  const path = canonicalPath || pathname
+  const jsonLd = assemblePageGraph(path, schema)
+
   const fullTitle = title
     ? hideSiteName
       ? title
@@ -89,11 +95,11 @@ export default function SEO({
 
       {noindex && <meta name="robots" content="noindex, nofollow" />}
 
-      {/* JSON-LD Schema */}
-      {schema && (
-        <script type="application/ld+json">
-          {JSON.stringify(schema)}
-        </script>
+      {jsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, '\\u003c') }}
+        />
       )}
     </Helmet>
   )

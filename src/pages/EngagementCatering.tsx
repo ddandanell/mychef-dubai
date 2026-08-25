@@ -102,10 +102,22 @@ const includedItems = [
 ]
 
 const galleryImages = [
-  { src: '/service-luxury-dining.webp', alt: 'Refined plated engagement dinner in Dubai' },
-  { src: '/menu-canapes.webp', alt: 'Elegant canapes for an engagement reception' },
-  { src: '/menu-dessert.webp', alt: 'Styled dessert table for an engagement party' },
-  { src: '/service-villa.webp', alt: 'Intimate villa engagement celebration in Dubai' },
+  {
+    src: '/images/engagement-catering-dubai-plated.webp',
+    alt: 'A plated engagement dinner in a Dubai villa: the couple remain seated as a waiter places a course. Experience concept shown.',
+  },
+  {
+    src: '/images/engagement-catering-dubai-canapes.webp',
+    alt: 'A waiter passing canapés at a villa engagement reception in Dubai. Experience concept shown.',
+  },
+  {
+    src: '/images/engagement-catering-dubai-dessert.webp',
+    alt: 'A styled dessert table being finished for an engagement party in a Dubai home. Experience concept shown.',
+  },
+  {
+    src: '/images/engagement-catering-dubai-villa.webp',
+    alt: 'An engagement couple seated with family on a Dubai villa terrace while the catering team finishes quietly. Experience concept shown.',
+  },
 ]
 
 const locations = [
@@ -193,7 +205,8 @@ const serviceObj = {
   serviceType: 'Engagement Party Catering',
   provider: {
     '@type': 'Organization',
-    name: 'myCHEF Dubai',
+    '@id': 'https://www.mychef.ae/#organization',
+    name: 'myCHEF',
     url: 'https://www.mychef.ae',
     telephone: '+971-55-174-4849',
     areaServed: 'Dubai, UAE',
@@ -282,7 +295,7 @@ export default function EngagementCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Engagement Party Catering Dubai | Villa & Canapé Receptions | myCHEF"
+        title="Engagement Party Catering Dubai | Villa Receptions | myCHEF"
         description="Book engagement party catering in Dubai. Plated dinners, canapé receptions, dessert tables and bar service for villas and venues. Get a quote in 15 minutes."
         canonicalPath="/engagement-catering-dubai"
         ogImage="/service-luxury-dining.webp"
@@ -298,8 +311,8 @@ export default function EngagementCatering() {
         />
         <div className="absolute inset-0 bg-black/50" />
 
-        <div className="relative z-10 container-custom text-center max-w-[800px] py-20">
-          <nav className="mb-6 opacity-0 translate-y-4 en-hero-h1">
+        <div className="relative z-10 container-custom text-center max-w-[42rem] py-16 md:py-20">
+          <nav className="mb-5 opacity-0 translate-y-4 en-hero-h1">
             <ol className="flex items-center justify-center gap-2 font-inter text-body-sm">
               <li><Link to="/" className="text-gray-400 hover:text-gold transition-colors">Home</Link></li>
               <li className="text-gray-400">/</li>
@@ -447,6 +460,9 @@ export default function EngagementCatering() {
               </div>
             ))}
           </div>
+          <p className="font-inter text-caption text-gray-500 text-center mt-6">
+            Experience concept shown
+          </p>
         </div>
       </section>
 

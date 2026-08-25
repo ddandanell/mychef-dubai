@@ -8,6 +8,7 @@ import PageHero from '@/components/PageHero'
 import { SectionLabel } from '@/components/system'
 import TrustSignalStrip from '@/components/TrustSignalStrip'
 import { breadcrumbSchema } from '@/utils/schema'
+import { ORGANIZATION_REF } from '@/lib/organizationSchema'
 
 
 const WHATSAPP_NUMBER = '971551744849'
@@ -62,11 +63,14 @@ export default function ChefProfile({ chef }: ChefProfileProps) {
       breadcrumbSchema(breadcrumbs),
       {
         '@type': 'Person',
+        '@id': `${SITE_URL}${chef.slug}#person`,
         name: chef.name,
+        url: `${SITE_URL}${chef.slug}`,
         jobTitle: chef.title,
-        description: `${chef.name} is an independent partner chef in the myCHEF Dubai network, specialising in ${chef.cuisine} with ${chef.experience} of experience.`,
+        description: `${chef.name} is an independent partner chef in the myCHEF Dubai network, specialising in ${chef.cuisine}.`,
         image: `${SITE_URL}${chef.image}`,
         knowsAbout: chef.cuisine,
+        worksFor: ORGANIZATION_REF,
       },
     ],
   }

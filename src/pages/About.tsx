@@ -5,6 +5,7 @@ import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import { useGSAP } from '@gsap/react'
 import SEO from '@/components/SEO'
+import { aboutGraph } from '@/lib/organizationSchema'
 import PageHero from '@/components/PageHero'
 import TrustSignalStrip from '@/components/TrustSignalStrip'
 import { BodyCopy, Container, DisplayHeading, Section, SectionLabel } from '../components/system'
@@ -127,7 +128,7 @@ export default function About() {
         canonicalPath="/about"
         ogImage="/team-head-chef.webp"
         preloadHero="/images/mychef-dubai-about-team-hero.webp"
-        schema={breadcrumbSchema}
+        schema={aboutGraph(breadcrumbSchema)}
       />
 
       {/* Section 1: Hero */}
