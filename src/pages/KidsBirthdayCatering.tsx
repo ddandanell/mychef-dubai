@@ -159,9 +159,15 @@ const config: OccasionPageConfig = {
   relatedServices: [
     {
       title: 'Birthday Catering',
-      description: 'fully-coordinated catering for adults and mixed-age celebrations.',
+      description: 'Catering for adults, milestones and mixed-age celebrations.',
       image: '/images/birthday-catering-dubai-hero.webp',
       link: '/birthday-catering-dubai',
+    },
+    {
+      title: 'Private Chef Birthday Dinner',
+      description: 'When the party is a small seated dinner rather than a children\u2019s event.',
+      image: '/images/birthday-catering-dubai-hero.webp',
+      link: '/blog/best-private-chef-birthday-dinner-dubai',
     },
     {
       title: 'Nut-Free Catering',

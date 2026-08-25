@@ -52,7 +52,7 @@ const faqs = [
   },
   {
     q: "Do you cater kids' birthday dinners?",
-    a: "Yes. Kids' birthday dinners are a common booking, with familiar favourites, interactive build-your-own elements and a cake moment. Menus are cooked to be enjoyable rather than fussy, and the chef handles the mess. Larger children's parties are planned on the kids birthday catering page.",
+    a: "Yes. Kids' birthday dinners are a common booking, with familiar favourites, interactive build-your-own elements and a cake moment. Menus are cooked to be enjoyable rather than fussy, and the chef handles the mess. Larger children's parties are planned on our [kids birthday catering](/kids-birthday-catering-dubai) page, and a fixed option for 8-12 guests is the [birthday celebration package](/birthday-catering-package-dubai).",
   },
   {
     q: 'How do I get an exact quote?',

@@ -60,10 +60,10 @@ export default function BirthdayPackage() {
           link: '/birthday-catering-dubai',
         },
         {
-          title: 'Party Catering Dubai',
-          description: 'Menus, drinks, and service for celebrations of every kind.',
-          image: '/service-events.webp',
-          link: '/party-catering-dubai',
+          title: 'Kids Birthday Catering',
+          description: "Children's menus, party boxes and allergy planning for a younger guest list.",
+          image: '/images/kids-birthday-catering-dubai-hero.webp',
+          link: '/kids-birthday-catering-dubai',
         },
         {
           title: 'Catering Packages Dubai',
