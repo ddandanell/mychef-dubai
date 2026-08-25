@@ -62,31 +62,6 @@
    "new_paragraphs": [
     "Start from the guest of honour's favourite cuisine, then build an arc: sharp, light openers, a generous main, and a dessert that doubles as the celebration. Popular birthday menu ideas in Dubai include a Mediterranean mezze-to-grill run, an Italian antipasti-and-pasta feast, a modern Arabic spread, or a fine-dining tasting menu for a milestone. Live stations add energy: a pasta bar, a carving station, a shawarma or slider counter. A mocktail bar rounds out a family night, while a curated pairing lifts an adult dinner. Dietary needs are designed in from the first draft, not bolted on at the end. Fully halal menus, vegetarian and vegan courses, gluten-free and nut-conscious options all sit alongside the rest, available on request and subject to confirmation by the assigned culinary partner. Partner kitchens may handle allergens, so cross-contact cannot be completely excluded unless controls have been confirmed for your booking. You shape the whole menu in a short planning call before anything is confirmed."
    ]
-  },
-  {
-   "block_on_your_page": "Frequently Asked Questions",
-   "match_confidence": 1,
-   "new_heading": "Frequently asked questions",
-   "new_paragraphs": [
-    "What does a private chef birthday dinner in Dubai include?",
-    "It includes a menu planned around the birthday person, on-site cooking, plating, full service and a clean kitchen at the end. The chef takes a short brief on the guest of honour's favourite cuisine and any dietary needs, then designs bespoke courses instead of handing you a fixed card.",
-    "How much does a private chef birthday dinner cost in Dubai?",
-    "Birthday dinner prices in Dubai start from AED 700 to AED 950 per person for a bespoke plated menu, with fixed set-group packages from AED 2,400 for the Family Feast and a tasting menu around AED 1,400. The final cost depends on guest count, courses and extras, and is explained in an itemised proposal before you book.",
-    "Where should you go for a birthday dinner in Dubai?",
-    "For two to six people on a weeknight, a restaurant is still the easiest answer. For eight to twenty, a restaurant's private dining room gives you a closed room and a set menu, usually with a minimum spend. Beyond that, most birthdays move home: your own villa or apartment, a rented villa or rooftop, or a chartered yacht out of Dubai Marina, with a chef cooking on site so the hour, the guest list and the menu stay yours. Check that any rented venue allows outside catering and cooking before you book it.",
-    "How many guests can a birthday chef cater for?",
-    "A birthday chef caters for anything from an intimate table of two up to large parties of fifty or more. Smaller groups suit a plated multi-course dinner, while bigger celebrations move to live stations, grazing tables and buffet-style service, sometimes with a second chef to keep the pace.",
-    "Can the chef make the birthday cake or dessert table?",
-    "Yes. A pastry-led chef can create a bespoke celebration cake, a plated dessert or a full dessert table styled to your theme. Tell us the flavours, any dietary needs and how you want the reveal to work, and it is planned into the evening's timing.",
-    "Do you cater kids' birthday dinners?",
-    "Yes, kids' birthday dinners are a popular booking, with familiar favourites, interactive build-your-own elements and a show-stopping cake. Menus are cooked to be enjoyable instead of fussy, and the chef handles the mess so parents can relax.",
-    "How far in advance should I book a birthday chef in Dubai?",
-    "Allow 48 hours for a standard private-chef dinner, three to five days where live stations or extra staff are involved, and five to seven days for a bespoke tasting menu or a larger party. We recommend booking as early as possible for weekend and milestone dates. Lead times depend on guest numbers, menu complexity, staffing, equipment, location and partner availability. Late best private chef birthday dinner enquiries are assessed one by one against real partner availability for the date.",
-    "Can you accommodate dietary needs and halal menus?",
-    "Yes. Fully halal menus, vegetarian, vegan, gluten-free and nut-conscious options are designed in from the first draft instead of added at the end, available on request and subject to confirmation by the assigned culinary partner. Partner kitchens may handle allergens, and cross-contact cannot be completely excluded unless controls have been confirmed for your booking, so share every requirement when you enquire.",
-    "How do I get an exact quote?",
-    "Share your date, guest count and venue with myCHEF and you will get an itemised proposal, usually within one business day."
-   ]
   }
  ],
  "leave_untouched": [
@@ -117,15 +92,6 @@
    ],
    "insert_after_block": "Birthday Dinner Menu Ideas That Work in Dubai",
    "position": "after the block titled 'Birthday Dinner Menu Ideas That Work in Dubai'",
-   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
-  },
-  {
-   "new_heading": "How much does a private chef birthday dinner cost in Dubai?",
-   "new_paragraphs": [
-    "A private chef birthday dinner in Dubai starts from AED 700 to AED 950 per person for a bespoke plated menu, with the final price set by guest count, courses and cuisine. Fixed set-group packages give a clear number: the Family Feast starts from AED 2,400, with larger set menus at AED 3,600, AED 4,500 and AED 5,500 as courses, stations and service scale up. A dedicated tasting menu for a milestone runs around AED 1,400. Where your birthday dinner prices land depends on the extras: canapés, a dessert table, a drinks service, or a second chef for a big crowd. Nothing is hidden. You approve an itemised proposal before booking, so every line of the cost is explained up front. Per head, it usually beats a comparable restaurant night, with the whole space to yourselves."
-   ],
-   "insert_after_block": "Ready to Plan Your Birthday Dinner?",
-   "position": "after the block titled 'Ready to Plan Your Birthday Dinner?'",
    "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
   },
   {
@@ -207,60 +173,5 @@
    "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
   }
  ],
- "faq": [
-  {
-   "question": "What does a private chef birthday dinner in Dubai include?",
-   "answer": [
-    "It includes a menu planned around the birthday person, on-site cooking, plating, full service and a clean kitchen at the end. The chef takes a short brief on the guest of honour's favourite cuisine and any dietary needs, then designs bespoke courses instead of handing you a fixed card."
-   ]
-  },
-  {
-   "question": "How much does a private chef birthday dinner cost in Dubai?",
-   "answer": [
-    "Birthday dinner prices in Dubai start from AED 700 to AED 950 per person for a bespoke plated menu, with fixed set-group packages from AED 2,400 for the Family Feast and a tasting menu around AED 1,400. The final cost depends on guest count, courses and extras, and is explained in an itemised proposal before you book."
-   ]
-  },
-  {
-   "question": "Where should you go for a birthday dinner in Dubai?",
-   "answer": [
-    "For two to six people on a weeknight, a restaurant is still the easiest answer. For eight to twenty, a restaurant's private dining room gives you a closed room and a set menu, usually with a minimum spend. Beyond that, most birthdays move home: your own villa or apartment, a rented villa or rooftop, or a chartered yacht out of Dubai Marina, with a chef cooking on site so the hour, the guest list and the menu stay yours. Check that any rented venue allows outside catering and cooking before you book it."
-   ]
-  },
-  {
-   "question": "How many guests can a birthday chef cater for?",
-   "answer": [
-    "A birthday chef caters for anything from an intimate table of two up to large parties of fifty or more. Smaller groups suit a plated multi-course dinner, while bigger celebrations move to live stations, grazing tables and buffet-style service, sometimes with a second chef to keep the pace."
-   ]
-  },
-  {
-   "question": "Can the chef make the birthday cake or dessert table?",
-   "answer": [
-    "Yes. A pastry-led chef can create a bespoke celebration cake, a plated dessert or a full dessert table styled to your theme. Tell us the flavours, any dietary needs and how you want the reveal to work, and it is planned into the evening's timing."
-   ]
-  },
-  {
-   "question": "Do you cater kids' birthday dinners?",
-   "answer": [
-    "Yes, kids' birthday dinners are a popular booking, with familiar favourites, interactive build-your-own elements and a show-stopping cake. Menus are cooked to be enjoyable instead of fussy, and the chef handles the mess so parents can relax."
-   ]
-  },
-  {
-   "question": "How far in advance should I book a birthday chef in Dubai?",
-   "answer": [
-    "Allow 48 hours for a standard private-chef dinner, three to five days where live stations or extra staff are involved, and five to seven days for a bespoke tasting menu or a larger party. We recommend booking as early as possible for weekend and milestone dates. Lead times depend on guest numbers, menu complexity, staffing, equipment, location and partner availability. Late best private chef birthday dinner enquiries are assessed one by one against real partner availability for the date."
-   ]
-  },
-  {
-   "question": "Can you accommodate dietary needs and halal menus?",
-   "answer": [
-    "Yes. Fully halal menus, vegetarian, vegan, gluten-free and nut-conscious options are designed in from the first draft instead of added at the end, available on request and subject to confirmation by the assigned culinary partner. Partner kitchens may handle allergens, and cross-contact cannot be completely excluded unless controls have been confirmed for your booking, so share every requirement when you enquire."
-   ]
-  },
-  {
-   "question": "How do I get an exact quote?",
-   "answer": [
-    "Share your date, guest count and venue with myCHEF and you will get an itemised proposal, usually within one business day."
-   ]
-  }
- ]
+ "faq": []
 }

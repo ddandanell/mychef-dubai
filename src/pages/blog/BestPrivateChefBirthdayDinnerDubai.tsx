@@ -42,6 +42,22 @@ const faqs = [
     q: 'Do I need to provide kitchen equipment or serveware?',
     a: 'Usually no. The chef brings standard tools and can arrange plates, cutlery, and glassware through the platform if needed. You should provide a clean, working kitchen with oven, stovetop, and refrigerator space.',
   },
+  {
+    q: 'How many guests can a birthday chef cater for?',
+    a: 'Anything from an intimate table of two up to large parties of fifty or more. Smaller groups suit a plated multi-course dinner, while bigger celebrations move to live stations, grazing tables and buffet-style service, sometimes with a second chef to keep the pace.',
+  },
+  {
+    q: 'Can the chef make the birthday cake or dessert table?',
+    a: "Yes. A pastry-led chef can create a celebration cake, a plated dessert or a full dessert table styled to your theme. Tell us the flavours, any dietary needs and how you want the reveal to work, and it is planned into the evening's timing.",
+  },
+  {
+    q: "Do you cater kids' birthday dinners?",
+    a: "Yes. Kids' birthday dinners are a common booking, with familiar favourites, interactive build-your-own elements and a cake moment. Menus are cooked to be enjoyable rather than fussy, and the chef handles the mess. Larger children's parties are planned on the kids birthday catering page.",
+  },
+  {
+    q: 'How do I get an exact quote?',
+    a: 'Share your date, guest count and venue with myCHEF and you will get an itemised proposal, usually within one business day.',
+  },
 ]
 
 const articleSchema = {

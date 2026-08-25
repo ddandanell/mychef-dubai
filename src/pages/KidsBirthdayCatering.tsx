@@ -7,7 +7,7 @@ const config: OccasionPageConfig = {
   slug: 'kids-birthday-catering-dubai',
   seoTitle: "Kids Birthday Catering Dubai | Safe, Fun Party Food | myCHEF",
   metaDescription:
-    'Book kids birthday catering in Dubai. Nut-free, allergy-aware menus, fun food stations, themed treats and full setup. Get a quote in 15 minutes.',
+    'Kids birthday catering in Dubai: child-friendly menus, allergy planning with clear labelling, fun food stations, themed treats and full setup. Request a quote.',
   canonicalPath: '/kids-birthday-catering-dubai',
   ogImage: '/images/kids-birthday-catering-dubai-hero.webp',
   breadcrumbLabel: 'Kids Birthday Catering Dubai',
