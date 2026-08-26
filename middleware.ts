@@ -7,8 +7,9 @@
  * Any username is accepted; the browser's Basic Auth prompt is the "login".
  */
 // /api/ask reads the whole SEO database and costs money per question, so it sits behind the
-// same password as the pages. /api/e is deliberately NOT here: it is the public tracking beacon.
-export const config = { matcher: ['/seo', '/seo/:path*', '/api/ask'] }
+// same password as the pages. /api/proposals records queue decisions and sits with it.
+// /api/e is deliberately NOT here: it is the public tracking beacon.
+export const config = { matcher: ['/seo', '/seo/:path*', '/api/ask', '/api/proposals'] }
 
 export default function middleware(request: Request): Response | undefined {
   const expected = process.env.SEO_PASSWORD

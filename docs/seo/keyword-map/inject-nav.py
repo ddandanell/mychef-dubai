@@ -24,11 +24,12 @@ PAGES = [
     ("architecture.html", "Architecture", "the sitemap as an authority map"),
     ("ai-visibility.html", "AI answers", "who Claude names for buyer prompts"),
     ("actions.html", "Actions", "every change the agent made, newest first"),
+    ("proposals.html", "Queue", "the next things worth doing, scored from evidence"),
     ("ask.html", "Ask", "put a question to the read-only SEO analyst"),
 ]
 
 CSS = """
-<style id="board-nav-css">
+<style id=\"board-nav-css\">
 :root{--bn-bg:#10201f;--bn-ink:#e8efec;--bn-dim:#93a7a3;--bn-accent:#e0a24a;--bn-line:#243937}
 .board-nav{position:sticky;top:0;z-index:50;background:var(--bn-bg);color:var(--bn-ink);
   font:500 13px/1.2 Inter,-apple-system,system-ui,sans-serif;border-bottom:1px solid var(--bn-line);

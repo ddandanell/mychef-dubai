@@ -12,8 +12,6 @@ echo "== sitemap + silo map"; npx tsx scripts/generate-sitemap.ts >/dev/null; py
 echo "== snapshot ($MODE)"
 if [ "$MODE" = "live" ]; then python3 docs/seo/keyword-map/build-keyword-map.py --fetch >/dev/null
 else [ -d dist ] || { echo "no dist/ — run: npm run build:prerender"; exit 1; }; python3 docs/seo/keyword-map/build-keyword-map.py --dist >/dev/null; fi
-# In dist mode every builder must read the pages just built, not the last live crawl. Without this
-# the keyword file scored stale HTML: FAQ coverage read 9 keywords when the built pages had 203.
 SNAP=""; [ "$MODE" = "dist" ] && SNAP="--dist"
 echo "== traffic (Vercel Web Analytics)"; python3 docs/seo/keyword-map/harvest-vercel-analytics.py || true
 echo "== search (Search Console)"; python3 docs/seo/keyword-map/harvest-gsc.py || true
@@ -30,12 +28,15 @@ echo "== integrations"; python3 docs/seo/keyword-map/check-integrations.py --qui
 python3 docs/seo/keyword-map/build-status.py >/dev/null
 cp docs/seo/keyword-map/ask-template.html docs/seo/keyword-map/ask.html
 python3 docs/seo/keyword-map/build-actions.py >/dev/null
+echo "== queue"; python3 docs/seo/keyword-map/build-proposals.py
 echo "== keyword file"; python3 docs/seo/keyword-map/build-ownership.py $SNAP | head -12
 echo "== gates"
 python3 scripts/verify-seo-contract.py | tail -1
 python3 scripts/verify-keyword-locks.py
 python3 scripts/verify-retirements.py | tail -1
 python3 scripts/audit-onpage.py 2>/dev/null | grep "total" || true
-echo "== archive"; python3 docs/seo/keyword-map/store-keywords.py --mode "$MODE" || echo "  archive skipped (database unreachable) — the run still stands locally"
+echo "== archive"
+python3 docs/seo/keyword-map/store-keywords.py --mode "$MODE" || echo "  archive skipped (database unreachable) — the run still stands locally"
+python3 docs/seo/keyword-map/store-proposals.py || echo "  queue archive skipped"
 docs/seo/keyword-map/publish.sh
-echo "done — open docs/seo/keyword-map/index.html · ownership.html · report.html"
+echo "done — open docs/seo/keyword-map/index.html · ownership.html · proposals.html · report.html"
