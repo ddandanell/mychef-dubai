@@ -1,5 +1,6 @@
 import { Suspense } from 'react'
 import { Analytics as VercelAnalytics } from '@vercel/analytics/react'
+import { SpeedInsights } from '@vercel/speed-insights/react'
 import { Routes, Route, useLocation } from 'react-router'
 import Layout from './components/Layout'
 import Analytics from './components/Analytics'
@@ -18,6 +19,7 @@ export default function App() {
     <Layout>
       <Analytics />
       <VercelAnalytics />
+      <SpeedInsights route={pathname} />
       {/* Keyed by pathname so a failed route does not trap the next one. */}
       <RouteErrorBoundary key={pathname}>
         <Suspense fallback={<PageLoader />}>
