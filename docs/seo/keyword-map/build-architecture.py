@@ -4,7 +4,7 @@ Checks: every indexable contract page is in public/sitemap.xml; noindex/redirect
 routed; orphans (no contextual/silo inbound link); hub↔child linking both ways; breadcrumb on the live page matches
 the contract breadcrumb; click depth from the homepage (BFS over contextual+silo+nav links); redirect sources that still
 receive internal links. Writes architecture.json + architecture.html."""
-import json, pathlib, re, html, collections, datetime
+import json, pathlib, re, html, collections, datetime, sys
 HERE = pathlib.Path(__file__).resolve().parent; ROOT = HERE.parents[2]
 contract = json.loads((ROOT / "docs/seo/myCHEF-AE-SEO-STANDARD.json").read_text()); pages = contract["pages"]
 links = json.loads((HERE / "links.json").read_text()); prof = {p["url"]: p for p in links["profiles"]}
@@ -12,11 +12,15 @@ sm = set(re.sub(r"^https://www\.mychef\.ae", "", u) or "/" for u in re.findall(r
 routed = set(re.findall(r'\{\s*path:\s*"([^"]+)"', (ROOT / "src/routes.tsx").read_text()))
 vercel = json.loads((ROOT / "vercel.json").read_text()); redirect_src = {r["source"] for r in vercel.get("redirects", [])}
 LIVE = HERE / ".live"
+# --dist scores the pages just built into dist/ (snapshot .live-dist/); without it the page HTML
+# comes from the last live crawl in .live/. Research data (DataForSEO, competitors) always lives
+# under .live/ regardless — only the page HTML moves.
+PAGES = HERE / ".live-dist" if "--dist" in sys.argv else LIVE
 # outbound graph for depth
 graph = collections.defaultdict(set)
 A_RE = re.compile(r'<a\b[^>]*href="([^"]+)"', re.S)
 for url in prof:
-    f = LIVE / (("_index" if url == "/" else url.replace("/", "_")) + ".html")
+    f = PAGES / (("_index" if url == "/" else url.replace("/", "_")) + ".html")
     if not f.exists(): continue
     h = f.read_text(encoding="utf-8", errors="ignore")
     for href in A_RE.findall(h):
@@ -46,7 +50,7 @@ for url, p in prof.items():
     if d is None: issue("UNREACHABLE_FROM_HOME", url, "no link path from the homepage")
     elif d >= 4 and p["importance"] >= 4: issue("DEEP_IMPORTANT_PAGE", url, f"{d} clicks from home, importance {p['importance']}/8")
     # breadcrumb vs contract
-    f = LIVE / (("_index" if url == "/" else url.replace("/", "_")) + ".html")
+    f = PAGES / (("_index" if url == "/" else url.replace("/", "_")) + ".html")
     cp = pages.get(url) or {}
     want = [c.get("url") for c in ((cp.get("internal_linking") or {}).get("breadcrumb") or []) if c.get("url") and not c.get("current")]
     if f.exists() and want:

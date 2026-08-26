@@ -12,14 +12,17 @@ echo "== sitemap + silo map"; npx tsx scripts/generate-sitemap.ts >/dev/null; py
 echo "== snapshot ($MODE)"
 if [ "$MODE" = "live" ]; then python3 docs/seo/keyword-map/build-keyword-map.py --fetch >/dev/null
 else [ -d dist ] || { echo "no dist/ — run: npm run build:prerender"; exit 1; }; python3 docs/seo/keyword-map/build-keyword-map.py --dist >/dev/null; fi
+# In dist mode every builder must read the pages just built, not the last live crawl. Without this
+# the keyword file scored stale HTML: FAQ coverage read 9 keywords when the built pages had 203.
+SNAP=""; [ "$MODE" = "dist" ] && SNAP="--dist"
 echo "== research pages"
-python3 docs/seo/keyword-map/build-backlog.py >/dev/null
+python3 docs/seo/keyword-map/build-backlog.py $SNAP >/dev/null
 python3 docs/seo/keyword-map/build-demand.py >/dev/null
-python3 docs/seo/keyword-map/build-report.py >/dev/null
-python3 docs/seo/keyword-map/build-internal-links.py >/dev/null
-python3 docs/seo/keyword-map/build-gaps.py >/dev/null 2>&1 || true
-python3 docs/seo/keyword-map/build-architecture.py >/dev/null
-echo "== keyword file"; python3 docs/seo/keyword-map/build-ownership.py | head -12
+python3 docs/seo/keyword-map/build-report.py $SNAP >/dev/null
+python3 docs/seo/keyword-map/build-internal-links.py $SNAP >/dev/null
+python3 docs/seo/keyword-map/build-gaps.py $SNAP >/dev/null 2>&1 || true
+python3 docs/seo/keyword-map/build-architecture.py $SNAP >/dev/null
+echo "== keyword file"; python3 docs/seo/keyword-map/build-ownership.py $SNAP | head -12
 echo "== gates"
 python3 scripts/verify-seo-contract.py | tail -1
 python3 scripts/verify-keyword-locks.py

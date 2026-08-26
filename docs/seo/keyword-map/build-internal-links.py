@@ -9,11 +9,15 @@ Also: recommended additional linkers (same-silo pages and top-authority pages no
 
 Writes links.json + links.html.   python3 docs/seo/keyword-map/build-internal-links.py
 """
-import json, pathlib, re, html, collections, datetime
+import json, pathlib, re, html, collections, datetime, sys
 
 HERE = pathlib.Path(__file__).resolve().parent
 ROOT = HERE.parents[2]
 LIVE = HERE / ".live"
+# --dist scores the pages just built into dist/ (snapshot .live-dist/); without it the page HTML
+# comes from the last live crawl in .live/. Research data (DataForSEO, competitors) always lives
+# under .live/ regardless — only the page HTML moves.
+PAGES = HERE / ".live-dist" if "--dist" in sys.argv else LIVE
 contract = json.loads((ROOT / "docs/seo/myCHEF-AE-SEO-STANDARD.json").read_text())
 pages = contract["pages"]
 import unicodedata as _ud
@@ -58,7 +62,7 @@ def links_in(fragment, region):
 
 outlinks = {}
 for url in active:
-    f = LIVE / (("_index" if url == "/" else url.replace("/", "_")) + ".html")
+    f = PAGES / (("_index" if url == "/" else url.replace("/", "_")) + ".html")
     if not f.exists(): continue
     h = f.read_text(encoding="utf-8", errors="ignore")
     if len(h) < 500: continue

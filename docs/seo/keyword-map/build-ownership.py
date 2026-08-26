@@ -11,11 +11,15 @@ keyword on its owner page), links.json (inbound anchors per page), the contract 
 
 Writes keywords.csv, keywords.json, ownership.html.   python3 docs/seo/keyword-map/build-ownership.py
 """
-import json, pathlib, re, html, csv, collections, datetime
+import json, pathlib, re, html, csv, collections, datetime, sys
 
 HERE = pathlib.Path(__file__).resolve().parent
 ROOT = HERE.parents[2]
 LIVE = HERE / ".live"
+# --dist scores the pages just built into dist/ (snapshot .live-dist/); without it the page HTML
+# comes from the last live crawl in .live/. Research data (DataForSEO, competitors) always lives
+# under .live/ regardless — only the page HTML moves.
+PAGES = HERE / ".live-dist" if "--dist" in sys.argv else LIVE
 contract = json.loads((ROOT / "docs/seo/myCHEF-AE-SEO-STANDARD.json").read_text()); pages = contract["pages"]
 report = {r["kw"]: r for r in json.loads((HERE / "report.json").read_text())["rows"]}
 mapd = json.loads((HERE / "data.json").read_text())
@@ -32,7 +36,7 @@ def has(text, k): return bool(k) and re.search(r"(?<![a-z0-9])" + re.escape(norm
 # ---- live pages: body, FAQ text (from FAQPage JSON-LD), headings ------------------------------
 bodies, faqs, heads = {}, {}, {}
 for url in pages:
-    f = LIVE / (("_index" if url == "/" else url.replace("/", "_")) + ".html")
+    f = PAGES / (("_index" if url == "/" else url.replace("/", "_")) + ".html")
     if not f.exists(): continue
     h = f.read_text(encoding="utf-8", errors="ignore")
     if len(h) < 500: continue

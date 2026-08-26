@@ -12,12 +12,16 @@ Search Console columns stay empty until the service account is added to the mych
 Writes report.json + report.html next to this script.
 """
 COMPETITOR_BRANDS = __import__("re").compile(r"\b(royal catering|smart catering|safadi|al safadi|dish catering|odeon|elements catering|govindas|taste studio|tastestudio|buffestra|cedar tree|baguette|pinch gourmet|ahs catering|captain zaiqey|zaiqey|chefmaison|chef maison|monchef|mon chef|instachef|takeachef|take a chef|miummium|cozymeal|chefondemand|chef on demand|hiremycooks|kcal|right bite|eat clean|fitfood|kitopi|talabat|deliveroo|careem|noon food|zomato|emirates catering|emirates flight|abela|national catering|green forest|metropolitan|lifestyle diets|pure delight|foodie brands|atlantis|burj al arab|address hotel|la table|carluccio|sabor|gourmet gulf|flavours catering|capital catering|al maha|chef burak|le petit chef|king chef|trendy chef|jumeirah beach hotel|emirates palace|ritz|four seasons|marriott|hilton|hyatt|radisson|rotana|caterer global|catererglobal|bateel|cook & tap|yalla|lulu|spinneys|waitrose|carrefour|nusret|salt bae|kerala restaurant|calicut)\b")
-import json, pathlib, re, collections, datetime, html, csv
+import json, pathlib, re, collections, datetime, html, csv, sys
 
 HERE = pathlib.Path(__file__).resolve().parent
 ROOT = HERE.parents[2]
 D = HERE / ".live/research/dataforseo"
 LIVE = HERE / ".live"
+# --dist scores the pages just built into dist/ (snapshot .live-dist/); without it the page HTML
+# comes from the last live crawl in .live/. Research data (DataForSEO, competitors) always lives
+# under .live/ regardless — only the page HTML moves.
+PAGES = HERE / ".live-dist" if "--dist" in sys.argv else LIVE
 contract = json.loads((ROOT / "docs/seo/myCHEF-AE-SEO-STANDARD.json").read_text())
 pages = contract["pages"]
 
@@ -78,7 +82,7 @@ def strip(h):
     return html.unescape(re.sub(r"<[^>]+>", " ", h))
 bodies = {}
 for url in active:
-    fp = LIVE / (("_index" if url == "/" else url.replace("/", "_")) + ".html")
+    fp = PAGES / (("_index" if url == "/" else url.replace("/", "_")) + ".html")
     if fp.exists():
         h = fp.read_text(encoding="utf-8", errors="ignore")
         if len(h) > 200:

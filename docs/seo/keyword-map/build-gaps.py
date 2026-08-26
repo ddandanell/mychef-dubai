@@ -3,8 +3,12 @@
 Reads .live/research/competitors/ (fetched by harvest-competitors.py) and our live snapshot. For every active page:
 competitor word counts, price mentions, FAQ schema, recurring headings (normalised, present on ≥2 competitors) that our
 page lacks, and questions they answer that our page does not. Writes gaps.json + gaps.html."""
-import json, pathlib, re, html, collections, datetime
+import json, pathlib, re, html, collections, datetime, sys
 HERE = pathlib.Path(__file__).resolve().parent; ROOT = HERE.parents[2]; LIVE = HERE / ".live"; C = LIVE / "research/competitors"
+# --dist scores the pages just built into dist/ (snapshot .live-dist/); without it the page HTML
+# comes from the last live crawl in .live/. Research data (DataForSEO, competitors) always lives
+# under .live/ regardless — only the page HTML moves.
+PAGES = HERE / ".live-dist" if "--dist" in sys.argv else LIVE
 pages = json.loads((ROOT / "docs/seo/myCHEF-AE-SEO-STANDARD.json").read_text())["pages"]
 idx = json.loads((C / "index.json").read_text())
 import unicodedata as _ud
@@ -29,7 +33,7 @@ for url, t in idx["targets"].items():
             d = json.loads(f.read_text())
             if d.get("ok"): comps.append(d)
     if not comps: continue
-    ours_f = LIVE / (("_index" if url == "/" else url.replace("/", "_")) + ".html")
+    ours_f = PAGES / (("_index" if url == "/" else url.replace("/", "_")) + ".html")
     ours = ours_f.read_text(encoding="utf-8", errors="ignore") if ours_f.exists() else ""
     m = re.search(r"<main.*?</main>", ours, flags=re.S); mh = m.group(0) if m else ours
     our_heads = [norm(strip(x)) for x in re.findall(r"<h[23][^>]*>(.*?)</h[23]>", mh, flags=re.S)]

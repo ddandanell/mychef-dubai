@@ -10,11 +10,15 @@ Sources (all local):
 
 Writes backlog.json + backlog.html next to this script.  python3 docs/seo/keyword-map/build-backlog.py
 """
-import csv, html, json, pathlib, re, collections
+import csv, html, json, pathlib, re, collections, sys
 
 HERE = pathlib.Path(__file__).resolve().parent
 ROOT = HERE.parents[2]
 LIVE = HERE / ".live"
+# --dist scores the pages just built into dist/ (snapshot .live-dist/); without it the page HTML
+# comes from the last live crawl in .live/. Research data (DataForSEO, competitors) always lives
+# under .live/ regardless — only the page HTML moves.
+PAGES = HERE / ".live-dist" if "--dist" in sys.argv else LIVE
 RES = LIVE / "research"
 contract = json.loads((ROOT / "docs/seo/myCHEF-AE-SEO-STANDARD.json").read_text())
 pages = contract["pages"]
@@ -62,7 +66,7 @@ def strip(h):
     return html.unescape(re.sub(r"<[^>]+>", " ", h))
 bodies = {}
 for url in active:
-    f = LIVE / (("_index" if url == "/" else url.replace("/", "_")) + ".html")
+    f = PAGES / (("_index" if url == "/" else url.replace("/", "_")) + ".html")
     if f.exists():
         h = f.read_text(encoding="utf-8", errors="ignore")
         if len(h) > 200:
