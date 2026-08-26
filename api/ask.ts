@@ -58,6 +58,53 @@ async function snapshot(dsn: string): Promise<Snapshot> {
            score_trend_by_run: trend }
 }
 
+/**
+ * A compact, readable digest of the snapshot. The DataForSEO relay rejects a very long
+ * user_prompt, and a model reads prose faster than 60 KB of JSON anyway — so the numbers that
+ * matter are written out as lines, and the raw JSON is kept for providers that can take it.
+ */
+function digest(d: Snapshot): string {
+  const run = d.latest_run as Record<string, unknown>
+  const prev = d.previous_run as Record<string, unknown> | undefined
+  const lines: string[] = []
+  const rows = (k: string) => (d[k] as Record<string, unknown>[]) || []
+
+  lines.push(`LATEST RUN #${run?.id} (${String(run?.ran_at).slice(0, 10)}): ${run?.keywords} keywords, ${run?.primaries} primary; ` +
+    `average score ${run?.avg_score}/10, primaries ${run?.primary_avg}/10, ${run?.at_10} at 10/10, ${run?.below_5} below 5/10; ` +
+    `${run?.sitemap_urls} URLs in the sitemap, ${run?.doubles} duplicate assignments, ${run?.heading_collisions} heading collisions.`)
+  if (prev) lines.push(`PREVIOUS RUN #${prev.id}: average ${prev.avg_score}, primaries ${prev.primary_avg}, ${prev.at_10} at 10/10.`)
+
+  lines.push('\nSCORE TREND (newest first): ' + rows('score_trend_by_run')
+    .map((r) => `#${r.id} ${String(r.day).slice(0, 10)} avg ${r.avg_score} primaries ${r.primary_avg}`).join(' | '))
+
+  lines.push('\nWHAT GOOGLE SHOWS (top phrases by impressions — phrase | owner page | monthly UAE volume | impressions | clicks | position | share of demand):')
+  rows('headline_keywords').slice(0, 30).forEach((r) => lines.push(
+    `  ${r.keyword} | ${r.owner_url} | vol ${r.search_volume ?? '—'} | impr ${r.gsc_impressions} | clicks ${r.gsc_clicks} | pos ${r.gsc_position} | share ${r.demand_share ?? '—'}`))
+
+  lines.push('\nGOOGLE RANKS A PAGE THE CONTRACT DID NOT ASSIGN (phrase | assigned | actually ranking | impressions | position):')
+  rows('google_ranks_another_page').forEach((r) => lines.push(
+    `  ${r.keyword} | ${r.owner_url} | ${r.gsc_ranking_url} | ${r.gsc_impressions} | ${r.gsc_position}`))
+
+  lines.push('\nPRIMARY KEYWORDS WITH NO MEASURED UAE DEMAND: ' +
+    rows('primaries_without_measured_demand').slice(0, 30).map((r) => `${r.keyword} (${r.owner_url})`).join('; '))
+
+  lines.push('\nPAGES WITH THE WIDEST CONTENT GAPS (url | primary | primary score | subs found of total | visitors 30d | gap score | link authority):')
+  rows('pages_with_the_widest_gaps').slice(0, 20).forEach((r) => lines.push(
+    `  ${r.url} | ${r.primary_keyword} | ${r.primary_score}/10 | ${r.subs_found}/${r.subs} | ${r.visitors_30d ?? 0} visitors | gap ${r.gap_score} | ${r.authority}`))
+
+  lines.push('\nTRAFFIC, LAST 30 DAYS (url | visitors | pageviews): ' +
+    rows('traffic_last_30_days').slice(0, 20).map((r) => `${r.url} ${r.visitors}/${r.pageviews}`).join(' | '))
+
+  const beh = rows('first_party_behaviour')
+  lines.push('\nFIRST-PARTY BEHAVIOUR (url | sessions | conversions): ' +
+    (beh.length ? beh.map((r) => `${r.url} ${r.sessions}/${r.conversions}`).join(' | ') : 'the collector is live but has recorded very little yet'))
+
+  lines.push('\nSOURCE HEALTH: ' + rows('integration_health')
+    .map((r) => `${r.service}=${r.status}${r.error ? ` (${String(r.error).slice(0, 60)})` : ''}`).join('; '))
+
+  return lines.join('\n')
+}
+
 const SYSTEM = `You are the SEO analyst for myCHEF, a private chef and catering service in Dubai.
 You are given a JSON snapshot of the site's own SEO database and you answer questions about it.
 
@@ -150,6 +197,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   }
 
   const json = JSON.stringify(data)
+  const brief = digest(data).slice(0, 14000)   // the relay rejects very long prompts
   const gateway = process.env.AI_GATEWAY_API_KEY
   const anthropic = process.env.ANTHROPIC_API_KEY
   const login = process.env.DATAFORSEO_LOGIN
@@ -159,7 +207,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   for (const [name, run] of [
     ['Vercel AI Gateway', gateway ? () => askAIGateway(gateway, question, json) : null],
     ['Anthropic', anthropic ? () => askAnthropic(anthropic, question, json) : null],
-    ['Claude via DataForSEO', login && password ? () => askViaDataForSEO(login, password, question, json) : null],
+    ['Claude via DataForSEO', login && password ? () => askViaDataForSEO(login, password, question, brief) : null],
   ] as [string, (() => Promise<string>) | null][]) {
     if (!run) continue
     try {
