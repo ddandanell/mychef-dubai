@@ -1,6 +1,6 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node'
 import { neon } from '@neondatabase/serverless'
-import { PATH_PRIMARY } from './keyword-locks'
+import { PATH_PRIMARY } from '../src/lib/keywordLockPaths'
 
 /**
  * First-party event collector.
@@ -95,13 +95,19 @@ function cleanPath(url: string): string {
 }
 
 function landingClass(path: string): string {
-  const key = cleanPath(path)
-  if (key === '/') return 'brand'
-  if (!(key in PATH_PRIMARY)) return 'unowned'
-  const primary = PATH_PRIMARY[key]
-  if (!primary) return 'utility'
-  if (/mychef/i.test(primary)) return 'brand'
-  return 'owned'
+  // A missing or broken lock map must cost us a column, never the endpoint. This function
+  // returning "unknown" is a data gap; an exception here is a 500 on every page view.
+  try {
+    const key = cleanPath(path)
+    if (key === '/') return 'brand'
+    if (!PATH_PRIMARY || !(key in PATH_PRIMARY)) return 'unowned'
+    const primary = PATH_PRIMARY[key]
+    if (!primary) return 'utility'
+    if (/mychef/i.test(primary)) return 'brand'
+    return 'owned'
+  } catch {
+    return 'unknown'
+  }
 }
 
 function channelClass(referrer: string | null, utmSource: string | null, utmMedium: string | null): string {

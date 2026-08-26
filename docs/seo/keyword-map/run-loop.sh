@@ -33,10 +33,21 @@ python3 docs/seo/keyword-map/build-actions.py >/dev/null
 echo "== keyword file"; python3 docs/seo/keyword-map/build-ownership.py $SNAP | head -12
 echo "== proposals"; python3 docs/seo/keyword-map/build-proposals.py || true
 echo "== gates"
-python3 scripts/verify-seo-contract.py | tail -1
-python3 scripts/verify-keyword-locks.py
-python3 scripts/verify-retirements.py | tail -1
-python3 scripts/audit-onpage.py 2>/dev/null | grep "total" || true
+# The heartbeat records whether these passed, so their result has to be captured, not printed
+# and forgotten. A pipe would hand back tail's exit code, hence the temp file.
+GATES=pass
+GATE_LOG=$(mktemp)
+gate() {
+  if "$@" >"$GATE_LOG" 2>&1; then tail -1 "$GATE_LOG"; else GATES=fail; echo "  GATE FAILED: $*"; tail -3 "$GATE_LOG"; fi
+}
+gate python3 scripts/verify-seo-contract.py
+gate python3 scripts/verify-keyword-locks.py
+gate python3 scripts/verify-retirements.py
+gate python3 scripts/audit-onpage.py
+rm -f "$GATE_LOG"
 echo "== archive"; python3 docs/seo/keyword-map/store-keywords.py --mode "$MODE" || echo "  archive skipped (database unreachable) — the run still stands locally"
+echo "== control"; python3 docs/seo/keyword-map/build-control.py || true
+# The heartbeat is the only proof this ran. GATES is set by the gate block above.
+python3 docs/seo/keyword-map/heartbeat.py --kind full --mode "$MODE" --phase idle --gates "${GATES:-pass}" || true
 docs/seo/keyword-map/publish.sh
 echo "done — open docs/seo/keyword-map/index.html · ownership.html · report.html"

@@ -304,6 +304,63 @@ rendered HTML and places nothing.
 
 ---
 
+## 14. V2 — the control plane
+
+V1 answers *what does the site say*. V2 answers *did the loop run, what does it propose, what
+happened after a change, and what should be done today*. It is additive: no V1 table was
+renamed or dropped, and the optimizer still only writes when a human asks.
+
+### Locked, placed, proven
+
+The state of a keyword, in the only three steps that matter:
+
+| State | Means | Where it comes from |
+|---|---|---|
+| **LOCKED** | the contract assigns the phrase to a URL | `myCHEF-AE-SEO-STANDARD.json` |
+| **PLACED** | the built HTML of that URL really says it | the prerendered page, scored by `build-keyword-map.py` |
+| **PROVEN** | Search Console shows that URL earning impressions for it | `harvest-gsc.py` |
+
+A keyword is not finished at LOCKED. Coverage percentages hide that distinction, which is why
+Control shows all three. First measurement: **1,712 locked · 1,354 placed · 75 proven** — 1,637
+phrases are locked and have never been seen by Google.
+
+### The four new tables
+
+| Table | Holds |
+|---|---|
+| `seo_heartbeats` | one row per run: kind, phase, which sources fed it, whether the gates passed |
+| `seo_experiments` | every apply as a batch with a window and a verdict (`too_soon` / `lift` / `flat` / `drop` / `confounded`) |
+| `seo_briefings` | one page of judgement per day |
+| `seo_proposals` | the queue — the parallel session's columns, with the spec's names added beside them, nothing renamed |
+
+`seo_page_daily` (page × day, first-party + GSC + Vercel) and `seo_integrations` already
+existed and are reused.
+
+### Control
+
+`build-control.py` → `control.json` → the **Control** page. Locked/placed/proven, the last
+heartbeat with its git SHA and gate result, which sources are feeding, the five proposals worth
+doing next, open experiments, and the last twenty changes. A red banner when the last run is
+older than 36 hours, when the gates failed, or when a source has stopped feeding.
+
+### Two runners
+
+```bash
+npm run seo:daily     # cheap: GSC, first-party, Vercel, rollup, health, proposals, control, heartbeat, publish
+npm run seo:loop      # full: everything above plus the scorer, all builders, the gates and the archive
+```
+
+`run-daily.sh` never calls `harvest-serps.py`, `harvest-llm.py` or the optimizer — those cost
+money or change the site. Neither runner applies anything.
+
+### What V2 does not do yet
+
+Auto-apply (`apply-safe.py`), experiment closing (`close-experiments.py`), the daily briefing
+(`build-briefing.py`) and the optimizer's `--safe-only` / `--max-per-url` / `--batch-id` flags
+are specified and not built. The queue is populated and read-only until they are.
+
+---
+
 ## 14. Conventions
 
 - **Never commit a credential.** `~/.config/claude-seo/` and Vercel environment variables only.

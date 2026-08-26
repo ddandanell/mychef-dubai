@@ -39,7 +39,10 @@ sitemap_paths = {re.sub(r"^https://www\.mychef\.ae", "", u) or "/" for u in re.f
 html_sitemap = (ROOT / "src/pages/SiteMap.tsx").read_text(encoding="utf-8")
 routed = set(re.findall(r'\{\s*path:\s*"([^"]+)"', routes_src))
 
-redirects = [r for r in vercel.get("redirects", []) if ":" not in r["source"] and "*" not in r["source"]]
+# /seo/* is the internal board, not the website. Its convenience redirects (settings.html →
+# settings) are not retirements and have no business in the SEO contract.
+redirects = [r for r in vercel.get("redirects", [])
+             if ":" not in r["source"] and "*" not in r["source"] and not r["source"].startswith("/seo")]
 sources = {r["source"]: r["destination"] for r in redirects}
 contract_redirects = {r.get("from"): r.get("to") for r in contract.get("redirects", [])}
 

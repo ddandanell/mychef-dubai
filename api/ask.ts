@@ -52,7 +52,17 @@ async function snapshot(dsn: string): Promise<Snapshot> {
   const trend = await sql`SELECT id, ran_at::date AS day, avg_score, primary_avg, at_10, keywords
                           FROM seo_runs ORDER BY id DESC LIMIT 8`
 
-  return { latest_run: run, previous_run: prev, headline_keywords: top, google_ranks_another_page: wrongOwner,
+  // Whether the loop is alive, and what it is proposing. Without this the analyst answers
+  // confidently from a snapshot that may be days stale.
+  const beat = await sql`SELECT ran_at, kind, phase, gates_pass, sources_ok, sources_stale, git_commit
+                         FROM seo_heartbeats ORDER BY ran_at DESC LIMIT 1`.catch(() => [])
+  const proposals = await sql`SELECT coalesce(type, class) AS type, status, count(*)::int AS n
+                              FROM seo_proposals GROUP BY 1, 2 ORDER BY 3 DESC`.catch(() => [])
+  const experiments = await sql`SELECT verdict, count(*)::int AS n FROM seo_experiments
+                                GROUP BY 1`.catch(() => [])
+
+  return { last_heartbeat: beat[0] ?? null, proposal_queue: proposals, experiment_verdicts: experiments,
+           latest_run: run, previous_run: prev, headline_keywords: top, google_ranks_another_page: wrongOwner,
            primaries_without_measured_demand: noDemand, pages_with_the_widest_gaps: worstPages,
            traffic_last_30_days: traffic, first_party_behaviour: behaviour, integration_health: health,
            score_trend_by_run: trend }
@@ -68,6 +78,17 @@ function digest(d: Snapshot): string {
   const prev = d.previous_run as Record<string, unknown> | undefined
   const lines: string[] = []
   const rows = (k: string) => (d[k] as Record<string, unknown>[]) || []
+
+  const beat = d.last_heartbeat as Record<string, unknown> | null
+  if (beat) {
+    lines.push(`LOOP: last run ${String(beat.ran_at).slice(0, 16)} (${beat.kind}/${beat.phase}), ` +
+      `gates ${beat.gates_pass === false ? 'FAILED' : beat.gates_pass ? 'passed' : 'not recorded'}, ` +
+      `sources not feeding: ${((beat.sources_stale as string[]) || []).join(', ') || 'none'}.`)
+  } else {
+    lines.push('LOOP: no heartbeat recorded — treat every number below as of unknown age.')
+  }
+  const queue = rows('proposal_queue')
+  if (queue.length) lines.push('QUEUE: ' + queue.map((q) => `${q.type} ${q.status} ${q.n}`).join(' | '))
 
   lines.push(`LATEST RUN #${run?.id} (${String(run?.ran_at).slice(0, 10)}): ${run?.keywords} keywords, ${run?.primaries} primary; ` +
     `average score ${run?.avg_score}/10, primaries ${run?.primary_avg}/10, ${run?.at_10} at 10/10, ${run?.below_5} below 5/10; ` +

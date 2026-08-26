@@ -1,6 +1,7 @@
 import type { LucideIcon } from "lucide-react"
 import {
   Activity,
+  Gauge,
   BarChart3,
   Database,
   GitCompare,
@@ -39,6 +40,7 @@ export const SEO_NAV: SeoNavGroup[] = [
     title: "Overview",
     items: [
       { href: "/seo", label: "Board", description: "Every URL and its locked keywords", icon: LayoutDashboard, file: "data" },
+      { href: "/seo/control", label: "Control", description: "Locked, placed, proven — and whether the loop ran", icon: Gauge, file: "control" },
       { href: "/seo/status", label: "Status", description: "Is every source connected and feeding data", icon: Activity, file: "status" },
     ],
   },

@@ -11,6 +11,7 @@ import { SeoOsProvider } from "@/seo-os/context"
 import { seoPageForPath } from "@/seo-os/nav"
 import AnalystPage from "@/seo-os/pages/AnalystPage"
 import BoardPage from "@/seo-os/pages/BoardPage"
+import ControlPage from "@/seo-os/pages/ControlPage"
 import QueuePage from "@/seo-os/pages/QueuePage"
 import StatusPage from "@/seo-os/pages/StatusPage"
 import CatalogPage from "@/seo-os/pages/table-pages"
@@ -63,6 +64,7 @@ export default function SeoOs() {
               <SiteHeader onOpenNav={() => setMobileNav(true)} />
               <Routes>
                 <Route index element={<BoardPage />} />
+                <Route path="control" element={<ControlPage />} />
                 <Route path="status" element={<StatusPage />} />
                 <Route path="keywords" element={<CatalogPage id="keywords" />} />
                 <Route path="demand" element={<CatalogPage id="demand" />} />

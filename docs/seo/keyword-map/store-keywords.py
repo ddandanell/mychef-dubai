@@ -431,6 +431,16 @@ for t in ("seo_keywords", "seo_pages", "seo_report", "seo_links", "seo_gaps", "s
 cur.execute("SELECT pg_size_pretty(pg_database_size(current_database()))"); dbsize = cur.fetchone()[0]
 
 print(f"stored run {run_id} ({MODE}, {commit}) — {runs} runs archived, database {dbsize}")
+
+# A run that archived but left no heartbeat is invisible to Control; record it here so the
+# proof exists even when the caller forgets.
+try:
+    sys.path.insert(0, str(HERE))
+    import heartbeat
+    heartbeat.write(kind="full", mode=MODE, phase="idle",
+                    pages_scored=M.get("pages_active"), keywords_scored=S.get("keywords"))
+except Exception:  # noqa: BLE001
+    pass
 print("  this run wrote: " + " · ".join(f"{t.replace('seo_', '')} {n}" for t, n in sorted(wrote.items(), key=lambda kv: -kv[1])))
 print("  archive totals: " + " · ".join(f"{t.replace('seo_', '')} {n}" for t, n in sizes))
 conn.close()

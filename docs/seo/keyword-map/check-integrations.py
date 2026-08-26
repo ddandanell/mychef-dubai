@@ -240,9 +240,16 @@ record("Claude AI visibility", "AI", "connected" if ai_vis.exists() else "no dat
 # The analyst answers from the live site, so ask the deployed endpoint rather than guessing
 # from local environment variables — a key set on Vercel is invisible here.
 try:
-    probe = subprocess.run(["curl", "-s", "-m", "120", "-o", "-", "-w", "\n%{http_code}", "-u", "seo:" + (os.environ.get("SEO_PASSWORD") or ""),
-                            "-X", "POST", "https://www.mychef.ae/api/ask", "-H", "Content-Type: application/json",
-                            "--data", '{"question":"Reply with the word ready."}'], capture_output=True, text=True).stdout
+    # A model round-trip costs money and can take two minutes; the daily loop must not wait for
+    # one. GET tells us the function is deployed; --probe-ai asks it to actually answer.
+    if "--probe-ai" in sys.argv:
+        probe = subprocess.run(["curl", "-s", "-m", "90", "-o", "-", "-w", "\n%{http_code}",
+                                "-u", "seo:" + (os.environ.get("SEO_PASSWORD") or ""),
+                                "-X", "POST", "https://www.mychef.ae/api/ask", "-H", "Content-Type: application/json",
+                                "--data", '{"question":"Reply with the word ready."}'], capture_output=True, text=True).stdout
+    else:
+        probe = subprocess.run(["curl", "-s", "-m", "20", "-o", "-", "-w", "\n%{http_code}",
+                                "https://www.mychef.ae/api/ask"], capture_output=True, text=True).stdout
     code = probe.strip().splitlines()[-1] if probe.strip() else "000"
     head = probe.strip().rsplit("\n", 1)[0] if probe.strip().count("\n") else ""
     try:
@@ -252,9 +259,9 @@ try:
     if code == "200":
         record("SEO analyst (read-only)", "AI", "connected",
                f"answering via {payload.get('provider', 'a model provider')} — reads the archive, cannot change anything")
-    elif code == "401":
+    elif code in ("401", "405"):
         record("SEO analyst (read-only)", "AI", "connected",
-               "deployed and password-gated (no SEO_PASSWORD in this shell to test the answer path)")
+               "deployed and password-gated · run with --probe-ai to test the answer path")
     else:
         record("SEO analyst (read-only)", "AI", "not connected",
                "endpoint deployed, no model provider answering", None,

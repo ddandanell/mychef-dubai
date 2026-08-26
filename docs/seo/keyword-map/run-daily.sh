@@ -11,5 +11,7 @@ echo "== behaviour (first-party)"; python3 docs/seo/keyword-map/harvest-firstpar
 echo "== integrations"; python3 docs/seo/keyword-map/check-integrations.py --quiet || true
 python3 docs/seo/keyword-map/build-status.py >/dev/null || true
 echo "== proposals"; python3 docs/seo/keyword-map/build-proposals.py || true
+echo "== control"; python3 docs/seo/keyword-map/build-control.py || true
+python3 docs/seo/keyword-map/heartbeat.py --kind daily --mode live --phase idle || true
 docs/seo/keyword-map/publish.sh
 echo "daily rollup done — Status and Queue refreshed"

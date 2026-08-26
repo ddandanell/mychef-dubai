@@ -1,5 +1,22 @@
 # Keyword map — local research, not part of the website
 
+## Running it
+
+```bash
+npm run seo:daily        # cheap half — no SERP or LLM spend, no site edits
+npm run seo:loop         # full run — scorer, every builder, the gates, the archive
+npm run seo:control      # rebuild control.json only
+npm run seo:heartbeat    # when did the loop last run, and did its gates pass
+```
+
+`seo:daily` is safe to run on a schedule: Search Console, first-party events, Vercel traffic,
+the daily page rollup, the health check, proposals, Control, a heartbeat, publish. It never
+calls `harvest-serps.py` (paid), `harvest-llm.py` (paid) or the optimizer (writes to the site).
+
+`seo:loop` adds the scorer and every builder, runs the four gates, archives the run to Postgres
+and records whether the gates passed. Still applies nothing — copy changes are always an
+explicit `optimize-page.py --apply`.
+
 Open `index.html` (the map) and `backlog.html` (found, not yet placed) in a browser. Nothing in this folder is served; `.live/` (the site snapshot + research harvest) is git-ignored.
 
 ## The files

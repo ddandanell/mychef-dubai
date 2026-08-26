@@ -127,7 +127,10 @@ if module_changed:
     changed.append(str(MODULE.relative_to(ROOT)))
 
 # Compact path → primary map for api/e.ts (landing class). The browser never sees this.
-API_LOCKS = ROOT / "api/keyword-locks.ts"
+# It must live OUTSIDE api/: Vercel compiles every .ts in that folder as its own serverless
+# function, so a sibling import is not in the caller's bundle and the function 500s at
+# invocation while the build still passes.
+API_LOCKS = ROOT / "src/lib/keywordLockPaths.ts"
 api_entries = []
 for url in sorted(pages):
     lk = lock_for(url)
