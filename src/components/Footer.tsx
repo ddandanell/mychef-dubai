@@ -27,7 +27,7 @@ const serviceLinks = [
   { label: 'Private Cooking Classes', href: '/private-cooking-classes-dubai' },
   { label: 'Desert Dining', href: '/desert-dining-dubai' },
   { label: 'Halal Private Dining', href: '/halal-private-dining-dubai' },
-  { label: 'Gift Cards', href: '/gift-cards' },
+  { label: 'Book an evening in their name', href: '/gift-cards' },
   { label: 'World Cuisines', href: '/cuisines-dubai' },
 ]
 

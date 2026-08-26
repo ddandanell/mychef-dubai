@@ -50,7 +50,7 @@ export const partyHeroCopy = {
 
 export const siloIntro = {
   lead:
-    'This page is the house night: friends in, family in, a date on the calendar. Wedding, birthday and company-event searches belong on those pages.',
+    'This page is the unnamed house night: friends in, family in, a date on the calendar. Two families and a toast belong on engagement. Wedding, birthday and company-event searches have their own pages.',
   eventsHref: '/events',
   eventsLabel: 'Event catering in Dubai',
   cateringHref: '/catering-dubai',
@@ -61,6 +61,8 @@ export const siloIntro = {
 
 export const jumpNav = [
   { href: '#occasions', label: 'What you are hosting' },
+  { href: '#anniversary', label: 'Anniversaries' },
+  { href: '#graduation', label: 'Graduations' },
   { href: '#pricing', label: 'Formats & prices' },
   { href: '#menus', label: 'How food is served' },
   { href: '#how-it-works', label: 'How it works' },
@@ -73,7 +75,7 @@ export const jumpNav = [
  * Occasions that 301 here. Mention as use-cases. Do not card them back to this URL.
  */
 export const hostedHere = [
-  'Engagements and anniversaries',
+  'Anniversaries with friends at the table',
   'Bachelor and bachelorette nights',
   'Pool, terrace and beach gatherings',
   'Housewarmings',
@@ -87,10 +89,36 @@ export const hostedHereIntro =
   'The occasion name changes. The job does not: a guest list, a kitchen that may be small, a clock, and a house you still have to live in tomorrow. Those nights stay on this page. They are not separate products.'
 
 export const uniqueCardsIntro =
-  'If the night already has its own page — a cocktail reception, a baby shower, a BBQ — that page owns the brief. What follows are those pages, not another copy of this one.'
+  'If the night already has its own page — an engagement, a cocktail reception, a baby shower, a BBQ — that page owns the brief. What follows are those pages, not another copy of this one.'
+
+export const anniversaryBlock = {
+  h2: 'An anniversary with friends at the table',
+  paragraphs: [
+    'Two covers marking a year is a romantic dinner, not this page. An anniversary with friends at the table is a house night: a mixed guest list, a toast, and a kitchen that may not plate everyone at once.',
+    'That is private party catering. The date on the calendar changes the running order; it does not mint a second URL.',
+  ],
+  romanticHref: '/romantic-dinner-dubai',
+  romanticLabel: 'Romantic dinner in Dubai',
+} as const
+
+export const graduationBlock = {
+  h2: 'Graduation is a daytime mixed-ages table',
+  paragraphs: [
+    'A graduation at home is usually lunch or a late afternoon, not an evening party. Grandparents, siblings and classmates eat at different speeds. The brief is daytime food, earlier service, and a menu that does not assume a night out.',
+    'That stays on this page as a use-case. It is not a separate product.',
+  ],
+} as const
 
 /** Unique remaining URLs only — one card each. No Halloween/Easter cards to this same path. */
 export const uniqueOccasionCards = [
+  {
+    title: 'Engagement party catering',
+    body: 'Two families, a toast, a night that is not yet a wedding. The engagement page owns that brief.',
+    href: '/engagement-catering-dubai',
+    linkLabel: 'Engagement party catering in Dubai',
+    image: '/images/engagement-catering-dubai-hero.webp',
+    imageAlt: 'An engagement gathering in a Dubai home. Experience concept shown.',
+  },
   {
     title: 'Cocktail party catering',
     body: 'Standing food, a bar and a room that has to keep moving. The cocktail page owns the drinks brief.',
@@ -380,8 +408,8 @@ export const exampleEvents = [
 
 export const partyFaqs = [
   {
-    q: 'Is this the same as event catering or luxury catering?',
-    a: 'No. This page is the house night — friends, family, an engagement, a pool gathering, a housewarming. [Event catering in Dubai](/events) is the occasion hub. [Luxury catering in Dubai](/catering-dubai) is food-only through full service. Birthday, wedding and company events have their own pages.',
+    q: 'Is this the same as event catering, luxury catering or an engagement?',
+    a: 'No. This page is the unnamed house night — friends, family, an anniversary with friends, a graduation, a pool gathering, a housewarming. Two families and a toast sit on [engagement party catering](/engagement-catering-dubai). [Event catering in Dubai](/events) is the occasion hub. [Luxury catering in Dubai](/catering-dubai) is food-only through full service.',
   },
   {
     q: 'How is a house party priced?',
@@ -392,23 +420,15 @@ export const partyFaqs = [
     a: 'Drop-off starts from 10 guests, with a minimum order of AED 900. A standard event buffet starts from 20 guests. Under around 10 guests, a [private chef](/private-chef-dubai) cooking in your kitchen is usually the better product.',
   },
   {
-    q: 'Can you cater at a villa, apartment, garden or pool?',
-    a: 'Yes. Home and villa parties are the core of this page. Outdoor service is planned around heat, access, power and whether the kitchen is indoors. Those constraints belong in the brief so the proposal is honest. Operating detail for villas sits on [villa catering](/villas-private-residences).',
+    q: 'Is an anniversary on this page?',
+    a: 'Friends at the table, yes. Two covers marking a year is a [romantic dinner](/romantic-dinner-dubai). The anniversary-with-friends brief stays here rather than minting a second URL.',
   },
   {
-    q: 'Do you bring a bar? Who supplies alcohol?',
-    a: 'A bar team can be part of a staffed booking. In a private residence, alcohol is sourced by the host from a licensed retailer. We run mixing, glassware and service around what you provide. A non-alcoholic drinks list is a normal brief.',
+    q: 'Do you cater graduations?',
+    a: 'Yes, as a daytime mixed-ages table on this page — not as a separate URL. Earlier service, a menu that does not assume a night out, and a guest list that usually spans three generations.',
   },
   {
     q: 'Is the food halal?',
     a: 'Halal ingredients are sourced by default for myCHEF party menus in Dubai. Mixed guest lists and specific certification requirements should be in the brief. More on [halal catering](/halal-catering-dubai).',
-  },
-  {
-    q: 'Who cooks — does myCHEF employ the chefs?',
-    a: 'Culinary preparation is performed by independent, licensed culinary partners who work to Dubai Municipality food-safety standards. myCHEF designs and coordinates the catering. The client engages those professionals. No chef is guaranteed by name.',
-  },
-  {
-    q: 'How far in advance should I book?',
-    a: 'For parties under 50 guests, a week ahead is typical. Larger nights: 2–4 weeks. Peak season (November–March) and holidays book faster. Short notice is often possible — message the date. We typically reply within 15 minutes during business hours.',
   },
 ] as const

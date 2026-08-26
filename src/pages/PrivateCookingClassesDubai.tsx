@@ -117,8 +117,8 @@ const audienceGroups = [
     description: 'Whether you live in Dubai or are visiting, enjoy a chef-led culinary experience in the comfort of your own space.',
   },
   {
-    title: 'Gift Voucher Recipients',
-    description: 'A cooking class gift card is a thoughtful experience present — redeemable for any cuisine or occasion.',
+    title: 'Booked in someone else’s name',
+    description: 'We can hold a class date for someone else. They still choose the cuisine. There is no stored-value voucher.',
   },
 ]
 
@@ -379,7 +379,7 @@ export default function PrivateCookingClassesDubai() {
             Cooking classes rates Dubai, private cooking classes Dubai price and cooking class cost per person Dubai depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Cooking class packages Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. If you are weighing up best private cooking classes Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. Cooking classes at home Dubai is run at the address you give us: we bring the equipment, cook on site and leave the space as we found it. Couples cooking class Dubai, group cooking classes Dubai, private cooking class Dubai, cooking classes availability Dubai, cooking classes in Dubai for adults and cooking classes in Dubai for beginners are the same service under another name.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            From <Link to="/italian-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Italian cooking classes</Link> to sushi rolling and Middle Eastern mezze, every session is bespoke. Pair it with a <Link to="/romantic-dinner-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">romantic private dinner</Link>, book it as a <Link to="/gift-cards" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">cooking class gift card</Link>, or explore our full <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef service</Link> for an effortless chef-led evening.
+            From <Link to="/italian-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Italian cooking classes</Link> to sushi rolling and Middle Eastern mezze, every session is bespoke. Pair it with a <Link to="/romantic-dinner-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">romantic private dinner</Link>, book it <Link to="/gift-cards" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">in their name</Link>, or explore our full <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef service</Link> for an effortless chef-led evening.
           </p>
         </div>
       </section>

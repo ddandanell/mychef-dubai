@@ -368,12 +368,6 @@
       "reason": "Consolidate substantially similar commercial intent into the stronger owner URL."
     },
     {
-      "from": "/engagement-catering-dubai",
-      "to": "/private-party-catering-dubai",
-      "type": "301",
-      "reason": "Consolidate substantially similar commercial intent into the stronger owner URL."
-    },
-    {
       "from": "/anniversary-catering-dubai",
       "to": "/private-party-catering-dubai",
       "type": "301",
@@ -602,7 +596,6 @@
     "/case-studies/yacht-birthday-celebration-dubai-marina": "/case-studies",
     "/bachelor-party-catering-dubai": "/private-party-catering-dubai",
     "/bachelorette-party-catering-dubai": "/private-party-catering-dubai",
-    "/engagement-catering-dubai": "/private-party-catering-dubai",
     "/anniversary-catering-dubai": "/private-party-catering-dubai",
     "/kids-birthday-catering-dubai": "/birthday-catering-dubai",
     "/pool-party-catering-dubai": "/private-party-catering-dubai",
@@ -1971,7 +1964,7 @@
             "alt_anchors": []
           },
           {
-            "url": "/private-party-catering-dubai",
+            "url": "/engagement-catering-dubai",
             "anchor": "Engagement party catering",
             "alt_anchors": []
           },
@@ -19893,17 +19886,18 @@
       ]
     },
     "/engagement-catering-dubai": {
-      "url": "/private-party-catering-dubai",
+      "url": "/engagement-catering-dubai",
       "absolute_url": "https://www.mychef.ae/engagement-catering-dubai",
       "silo": "Private Events",
       "silo_priority": "P1",
       "page_type": "Commercial landing",
       "hub": "/events",
       "is_hub": false,
-      "status": "REDIRECTED",
+      "status": "LOCKED",
       "intent_owner": {
         "primary_keyword": "engagement party catering dubai",
         "subkeywords": [
+          "engagement catering dubai",
           "engagement catering dubai price",
           "engagement party catering cost per person dubai",
           "best engagement catering dubai",
@@ -19930,23 +19924,23 @@
         ]
       },
       "on_page": {
-        "title": "Engagement Party Catering Dubai | myCHEF",
+        "title": "Engagement Party Catering Dubai | Two Families & a Toast | myCHEF",
         "title_max_chars": 65,
-        "h1": "Engagement Party Catering Dubai",
+        "h1": "Engagement party catering in Dubai for two families and a toast",
         "h1_count": 1,
-        "meta_description": "Engagement Party Catering Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.",
+        "meta_description": "Engagement party catering Dubai for two families and a toast. Drop-off from AED 90, buffet from AED 120. Menu, staff, setup and clear-down.",
         "meta_description_max_chars": 160,
-        "og_title": "Engagement Party Catering Dubai",
+        "og_title": "Engagement party catering in Dubai for two families and a toast",
         "og_type": "website"
       },
       "indexation": {
         "robots": {
-          "index": false,
+          "index": true,
           "follow": true
         },
         "canonical": "https://www.mychef.ae/engagement-catering-dubai",
-        "redirect_to": "/private-party-catering-dubai",
-        "in_sitemap": false
+        "redirect_to": null,
+        "in_sitemap": true
       },
       "schema": [
         "Service",
@@ -19964,7 +19958,7 @@
             "anchor": "Events"
           },
           {
-            "url": "/private-party-catering-dubai",
+            "url": "/engagement-catering-dubai",
             "anchor": "Engagement party catering",
             "current": true
           }
@@ -20045,8 +20039,6 @@
           "/private-chef-dubai/our-chefs",
           "/chefs/sofia-pastry-chef",
           "/staff-meals-catering-dubai",
-          "/private-party-catering-dubai",
-          "/canape-catering-dubai",
           "/production-catering-dubai",
           "/corporate-catering-dubai",
           "/healthcare-catering-dubai",
@@ -20233,7 +20225,7 @@
             "alt_anchors": []
           },
           {
-            "url": "/private-party-catering-dubai",
+            "url": "/engagement-catering-dubai",
             "anchor": "Engagement party catering",
             "alt_anchors": []
           },
@@ -23655,17 +23647,10 @@
       "page_type": "Commercial landing",
       "hub": "/catering-packages-dubai",
       "is_hub": false,
-      "status": "LOCKED — JSON disagrees (ignore JSON)",
+      "status": "UNTARGETED — no stored-value product",
       "intent_owner": {
-        "primary_keyword": "mychef gift cards",
-        "subkeywords": [
-          "catering gift voucher dubai",
-          "dining gift card dubai",
-          "private chef gift card dubai",
-          "private cooking classes",
-          "chef dinner at home",
-          "private cooking classes catering dubai for couples"
-        ],
+        "primary_keyword": null,
+        "subkeywords": [],
         "subkeyword_cap": 12,
         "primary_may_appear_in": [
           "title",
@@ -23691,23 +23676,23 @@
         }
       },
       "on_page": {
-        "title": "Mychef Gift Cards | myCHEF",
+        "title": "Book the Evening in Their Name | myCHEF",
         "title_max_chars": 65,
-        "h1": "Mychef Gift Cards",
+        "h1": "We book the evening in their name",
         "h1_count": 1,
-        "meta_description": "Mychef Gift Cards with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.",
+        "meta_description": "myCHEF does not issue stored-value gift cards. We can book a private dinner in Dubai in someone else’s name, on a date they choose.",
         "meta_description_max_chars": 160,
-        "og_title": "Mychef Gift Cards",
+        "og_title": "We book the evening in their name",
         "og_type": "website"
       },
       "indexation": {
         "robots": {
-          "index": true,
+          "index": false,
           "follow": true
         },
         "canonical": "https://www.mychef.ae/gift-cards",
         "redirect_to": null,
-        "in_sitemap": true
+        "in_sitemap": false
       },
       "schema": [
         "Service",
@@ -24538,7 +24523,6 @@
       "intent_owner": {
         "primary_keyword": "private dining dubai",
         "subkeywords": [
-          "private dining experience dubai",
           "private dining at home dubai",
           "private dinner party dubai",
           "private dining ideas dubai",
@@ -32927,8 +32911,9 @@
       "is_hub": true,
       "status": "LOCKED",
       "intent_owner": {
-        "primary_keyword": "luxury dining in dubai",
+        "primary_keyword": "private dining experience dubai",
         "subkeywords": [
+          "luxury dining in dubai",
           "luxury dining experiences dubai",
           "luxury dining experiences dubai price",
           "luxury dining experience cost per person dubai",
@@ -32939,8 +32924,7 @@
           "luxury dining experience dubai",
           "dining offers in dubai",
           "dubai fine dining offers",
-          "best fine dining experience dubai",
-          "best fine dining in dubai"
+          "best fine dining experience dubai"
         ],
         "subkeyword_cap": 12,
         "primary_may_appear_in": [
@@ -32969,13 +32953,13 @@
         "primary_note": "Swapped 2026-08-26 on DataForSEO UAE data: 'luxury dining in dubai' 590/mo vs 'luxury dining experiences dubai' 0/mo."
       },
       "on_page": {
-        "title": "Luxury Dining in Dubai | Private Chef Experiences at Home | myCHEF",
+        "title": "Private Dining Experience Dubai | myCHEF",
         "title_max_chars": 65,
-        "h1": "Luxury Dining in Dubai, Designed Around the Moment",
+        "h1": "Private dining experience Dubai, designed around the moment",
         "h1_count": 1,
-        "meta_description": "Luxury Dining Experiences Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.",
+        "meta_description": "A private dining experience in Dubai: romantic dinners, tasting menus, cooking classes and desert tables, planned around the moment not a restaurant slot.",
         "meta_description_max_chars": 160,
-        "og_title": "Luxury Dining Experiences Dubai",
+        "og_title": "Private dining experience Dubai, designed around the moment",
         "og_type": "website"
       },
       "indexation": {
@@ -42214,7 +42198,7 @@
             "alt_anchors": []
           },
           {
-            "url": "/private-party-catering-dubai",
+            "url": "/engagement-catering-dubai",
             "anchor": "Engagement party catering",
             "alt_anchors": []
           },
@@ -45053,10 +45037,11 @@
       "page_type": "Commercial landing",
       "hub": "/luxury-dining-experiences",
       "is_hub": false,
-      "status": "LOCKED — JSON disagrees (ignore JSON)",
+      "status": "LOCKED",
       "intent_owner": {
-        "primary_keyword": "private chef tasting menu dubai",
+        "primary_keyword": "private tasting menu dubai",
         "subkeywords": [
+          "private chef tasting menu dubai",
           "tasting menu dubai price",
           "private chef tasting menu price per person dubai",
           "tasting menu packages dubai",
@@ -45064,7 +45049,6 @@
           "tasting menu at home dubai",
           "private chef set menu dubai",
           "chef tasting menu dubai",
-          "private tasting menu dubai",
           "tasting menu courses",
           "tasting menu birthday dubai",
           "degustation menu dubai private",
@@ -45096,13 +45080,13 @@
         }
       },
       "on_page": {
-        "title": "Private Chef Tasting Menu Dubai | myCHEF",
+        "title": "Private Tasting Menu Dubai | myCHEF",
         "title_max_chars": 65,
-        "h1": "Private Chef Tasting Menu Dubai",
+        "h1": "Private tasting menu Dubai",
         "h1_count": 1,
-        "meta_description": "Private Chef Tasting Menu Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.",
+        "meta_description": "A private tasting menu in Dubai at your table — courses cooked in your kitchen, paced to the conversation. Not a restaurant chef’s table.",
         "meta_description_max_chars": 160,
-        "og_title": "Private Chef Tasting Menu Dubai",
+        "og_title": "Private tasting menu Dubai",
         "og_type": "website"
       },
       "indexation": {
@@ -47961,7 +47945,7 @@
         },
         "siblings": [
           {
-            "url": "/private-party-catering-dubai",
+            "url": "/engagement-catering-dubai",
             "anchor": "Engagement party catering",
             "alt_anchors": []
           },

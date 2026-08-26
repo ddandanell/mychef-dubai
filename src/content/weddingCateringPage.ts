@@ -25,7 +25,7 @@ export const WEDDING_WHATSAPP_LINK = `https://wa.me/971551744849?text=${encodeUR
 
 /** pages["/wedding-catering-dubai"].internal_linking.siblings — render exactly. */
 export const WEDDING_SIBLING_LINKS = [
-  { href: '/private-party-catering-dubai', label: 'Engagement party catering' },
+  { href: '/engagement-catering-dubai', label: 'Engagement party catering' },
   { href: '/chefs/matteo-pastry-chef', label: 'Matteo — pastry' },
   { href: '/wedding-catering-checklist-dubai', label: 'Wedding catering checklist' },
   { href: '/venue-partners', label: 'Preferred caterer' },

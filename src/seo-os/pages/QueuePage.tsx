@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react"
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { DataTable, type TableColumn } from "@/seo-os/components/data-table"
-import { InspectorSheet } from "@/seo-os/components/inspector-sheet"
+import { RecordInspector } from "@/seo-os/components/record-inspector"
 import { PageFrame } from "@/seo-os/components/page-frame"
 import { useSeoJson } from "@/seo-os/lib/data"
 import { asRecord, fmtNum } from "@/seo-os/lib/format"
@@ -78,7 +78,7 @@ export default function QueuePage() {
         </Tabs>
       </div>
       <DataTable data={filtered} columns={columns} searchPlaceholder="Filter proposals…" onRowClick={setRow} />
-      <InspectorSheet row={row ? asRecord(row) : null} title={row?.keyword} onClose={() => setRow(null)} />
+      <RecordInspector row={row ? asRecord(row) : null} onClose={() => setRow(null)} />
     </PageFrame>
   )
 }

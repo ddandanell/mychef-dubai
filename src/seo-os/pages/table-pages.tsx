@@ -1,6 +1,6 @@
 import { useMemo, useState } from "react"
 import { DataTable, type TableColumn } from "@/seo-os/components/data-table"
-import { InspectorSheet } from "@/seo-os/components/inspector-sheet"
+import { RecordInspector } from "@/seo-os/components/record-inspector"
 import { PageFrame } from "@/seo-os/components/page-frame"
 import { useSeoJson } from "@/seo-os/lib/data"
 import { asRecord, flattenUnknown, fmtNum } from "@/seo-os/lib/format"
@@ -271,7 +271,7 @@ export default function CatalogPage({ id }: { id: CatalogId }) {
       metrics={metrics}
     >
       <DataTable data={rows} columns={config.columns} searchPlaceholder={config.search} onRowClick={setRow} />
-      <InspectorSheet row={row} onClose={() => setRow(null)} />
+      <RecordInspector row={row} onClose={() => setRow(null)} />
     </PageFrame>
   )
 }

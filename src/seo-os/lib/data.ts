@@ -53,28 +53,9 @@ export function useSeoJson<T>(file: string | undefined): LoadState<T> {
   return state
 }
 
-export type BoardPageRow = {
-  url: string
-  silo: string
-  hub?: string
-  is_hub?: boolean
-  page_type?: string
-  retired?: boolean
-  noindex?: boolean
-  primary?: string
-  primary_volume?: number | null
-  keyword_score?: number | null
-  cap?: number
-  room?: number
-  risk?: string
-  words?: number
-  subs?: Array<{
-    kw: string
-    volume?: number | null
-    place?: { score?: number; body?: boolean; h2?: boolean; title?: boolean }
-  }>
-  [key: string]: unknown
-}
+import type { BoardPageRow } from "@/seo-os/lib/board-model"
+
+export type { BoardPageRow }
 
 export type BoardFile = {
   generated?: string

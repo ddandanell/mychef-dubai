@@ -30,6 +30,8 @@ import {
   PRIVATE_PARTY_WHATSAPP_MESSAGE,
   decisionModule,
   exampleEvents,
+  anniversaryBlock,
+  graduationBlock,
   hostedHere,
   hostedHereIntro,
   includedItems,
@@ -223,6 +225,36 @@ export default function PrivatePartyCatering() {
               </li>
             ))}
           </ul>
+        </Container>
+      </Section>
+
+      <Section id="anniversary" tone="ivory" rhythm="chapter">
+        <Container className="max-w-3xl">
+          <SectionLabel>ANNIVERSARIES</SectionLabel>
+          <DisplayHeading className="text-black mb-6">{anniversaryBlock.h2}</DisplayHeading>
+          {anniversaryBlock.paragraphs.map((p) => (
+            <BodyCopy key={p.slice(0, 32)} className="mb-5">
+              {p}
+            </BodyCopy>
+          ))}
+          <Link
+            to={anniversaryBlock.romanticHref}
+            className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink hover:text-gold"
+          >
+            {anniversaryBlock.romanticLabel} <ArrowRight size={14} aria-hidden />
+          </Link>
+        </Container>
+      </Section>
+
+      <Section id="graduation" tone="white" rhythm="chapter">
+        <Container className="max-w-3xl">
+          <SectionLabel>GRADUATIONS</SectionLabel>
+          <DisplayHeading className="text-black mb-6">{graduationBlock.h2}</DisplayHeading>
+          {graduationBlock.paragraphs.map((p) => (
+            <BodyCopy key={p.slice(0, 32)} className="mb-5">
+              {p}
+            </BodyCopy>
+          ))}
         </Container>
       </Section>
 

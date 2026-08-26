@@ -10,12 +10,51 @@ export const cateringHero = {
 export const jumpNav = [
   { href: '#pricing', label: 'Pricing' },
   { href: '#options', label: 'Catering options' },
+  { href: '#styles', label: 'Styles' },
   { href: '#events', label: 'Events' },
   { href: '#venues', label: 'Venues' },
   { href: '#examples', label: 'Examples' },
   { href: '#how-it-works', label: 'How it works' },
   { href: '#faqs', label: 'FAQs' },
   { href: '#get-quote', label: 'Get a quote' },
+] as const
+
+export const priceRows = [
+  {
+    format: 'Drop-off food',
+    what: 'Food delivered ready to serve',
+    staff: 'None',
+    price: 'From AED 90 per person',
+    href: '/drop-off-catering-dubai',
+  },
+  {
+    format: 'Standard event buffet',
+    what: 'Presentation plus a maintained spread',
+    staff: '1–2',
+    price: 'From AED 120 per person',
+    href: '/buffet-catering-dubai',
+  },
+  {
+    format: 'Premium buffet, BBQ, live stations or canapés',
+    what: 'Cooking or passed food in front of guests',
+    staff: '2–4',
+    price: 'From AED 150 per person',
+    href: '/live-cooking-stations-dubai',
+  },
+  {
+    format: 'Chef-led plated dining',
+    what: 'Courses cooked and served at the table',
+    staff: '3 and above',
+    price: 'AED 700–950 per person',
+    href: '/buffet-vs-plated-dubai',
+  },
+] as const
+
+export const pricingNotes = [
+  'Drop-off: 10 guests minimum and AED 900 minimum order.',
+  'A standard event buffet starts from 20 guests.',
+  'All figures are before 5% VAT, which is shown as its own line.',
+  'Not every event meets the starting points. Guest count, menu, staffing, venue access, timing and equipment move the total.',
 ] as const
 
 export const serviceLevelChoices = [
@@ -168,6 +207,16 @@ export const serviceStyles = [
     title: 'Canapés & Cocktail Food',
     body: 'Designed for standing events, receptions, launches and social occasions.',
     href: '/canape-catering-dubai',
+  },
+  {
+    title: 'Finger food',
+    body: 'No cutlery. Kids versus adults, tray versus passed — planned on the canapé page, not as a second URL.',
+    href: '/canape-catering-dubai#finger-food',
+  },
+  {
+    title: 'Grazing tables',
+    body: 'A set display that fills the room visually with a smaller team than plated service.',
+    href: '/grazing-table-dubai',
   },
   {
     title: 'Food Stations',
@@ -361,7 +410,7 @@ export const cateringFaqs = [
   },
   {
     q: 'How much does catering cost in Dubai?',
-    a: 'It depends on guest count, menu, service style, staffing and venue — not on a single package price. On this site, buffet and drop-off catering is shown from AED 90 per person, and a chef cooking on site from AED 700 per person; guest count and staff move it from there. Every quote is itemised in writing, with 5% VAT shown separately. See the [catering prices guide](/dubai-catering-prices-guide) or the [cost calculator](/catering-cost-calculator-dubai).',
+    a: 'It depends on guest count, menu, service style, staffing and venue — not on a single package price. Drop-off starts from AED 90 per person, a standard event buffet from AED 120, premium buffet, BBQ, live stations and canapés from AED 150, and chef-led plated dining at AED 700–950 per person. Guest count and staff move it from there. Every quote is itemised in writing, with 5% VAT shown separately. See the [catering prices guide](/dubai-catering-prices-guide) or the [cost calculator](/catering-cost-calculator-dubai).',
   },
   {
     q: 'Do you provide waiters, bartenders and tableware?',

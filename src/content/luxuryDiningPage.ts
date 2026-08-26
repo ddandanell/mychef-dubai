@@ -23,9 +23,9 @@ export interface ProseSection {
 
 export const hero = {
   eyebrow: 'Dining Experiences',
-  h1: 'Luxury dining in Dubai, designed around the moment',
+  h1: 'Private dining experience Dubai, designed around the moment',
   subtitle:
-    'Luxury Dining in Dubai by myCHEF — From romantic dinners and private tasting menus to cooking classes and dining in extraordinary locations, myCHEF creates chef-led experiencetter to you.',
+    'A private dining experience in Dubai starts with the moment, then the chef, the menu and the room. Romantic dinners, tasting menus, cooking classes and desert tables — planned around you, not a restaurant slot.',
   primaryCta: 'Explore Experiences',
   secondaryCta: 'Plan Something Custom',
   utility: 'Dubai-wide · Private homes · Villas · Selected venues · Special locations',
@@ -34,7 +34,7 @@ export const hero = {
 /** Section 2 — the category definition. Typography only, no image. */
 export const whatItIs: ProseSection = {
   id: 'what-is-a-dining-experience',
-  h2: 'It Starts With Food. But the Food Is Not the Whole Point.',
+  h2: 'What a private dining experience Dubai actually is',
   paragraphs: [
     'A restaurant gives you a table inside their environment, on their schedule, from their menu. Traditional catering brings food to an event you are already running. A myCHEF dining experience starts somewhere else: with what you want the evening to feel like, and then builds the food, the chef and the service around that.',
     'It might happen at home, in a villa, on a yacht, in the desert, at a private venue, or somewhere else that suits what you have in mind. Sometimes the chef stays almost invisible and the evening belongs to your guests. Sometimes the chef introduces every course. Sometimes you are in the kitchen cooking alongside them. Sometimes the location is the whole reason for the evening.',
@@ -82,10 +82,10 @@ export const experienceFinder = [
   },
   {
     id: 'gift',
-    title: 'Gift an Experience',
-    text: 'Give someone a myCHEF experience rather than another physical present.',
+    title: 'We book the evening in their name',
+    text: 'There is no stored-value card. We hold a date for someone else and they still choose the menu.',
     href: EXPERIENCES_PATHS.giftCards,
-    cta: 'Explore Gift Cards',
+    cta: 'How gifting actually works',
     image: '/images/gift-cards-hero.webp',
     alt: 'Guests enjoying a chef-led dinner together at home. Experience concept shown.',
   },
@@ -233,12 +233,12 @@ export const prose: ProseSection[] = [
   },
   {
     id: 'gift-cards',
-    h2: 'Give Someone Something They Can Actually Remember',
+    h2: 'We book the evening in their name',
     paragraphs: [
-      'The problem with choosing a dining experience as a present is that you have to pick the date, the menu and the format on someone else\'s behalf, and those are exactly the decisions they would enjoy making.',
-      'A gift card hands over the experience without the guesswork. People use them for birthdays, weddings, anniversaries, thank-yous, corporate gifts and the times when the honest answer is that someone deserves an evening rather than an object.',
+      'myCHEF does not issue stored-value gift cards. There is no voucher, no 12-month balance, no SKU to buy and forward.',
+      'What we can do is take the booking in their name, hold a date range, and let them choose the menu. That is the whole product until we actually issue stored value.',
     ],
-    link: { href: EXPERIENCES_PATHS.giftCards, label: 'Explore Gift Cards' },
+    link: { href: EXPERIENCES_PATHS.giftCards, label: 'How gifting actually works' },
   },
   {
     id: 'vip-club',
@@ -300,7 +300,7 @@ export const finalDirectory = [
   { title: 'Tasting Menu', text: 'Multi-course private dining', href: EXPERIENCES_PATHS.tasting },
   { title: 'Cooking Class', text: 'Learn with your chef', href: EXPERIENCES_PATHS.cookingClasses },
   { title: 'Desert Dining', text: 'Take dinner somewhere different', href: EXPERIENCES_PATHS.desert },
-  { title: 'Gift Cards', text: 'Give the experience', href: EXPERIENCES_PATHS.giftCards },
+  { title: 'Book an evening in their name', text: 'We hold the date. They choose the menu.', href: EXPERIENCES_PATHS.giftCards },
   { title: 'Something Custom', text: 'Build it with us', href: '#custom' },
 ] as const
 
@@ -399,7 +399,7 @@ export const experienceFaqs = [
   },
   {
     q: 'Do you have gift cards?',
-    a: 'Yes. A gift card lets the recipient choose the date, menu and format themselves.',
+    a: 'Not as stored value. We can book the evening in their name and hold a date; they still choose the menu. There is no voucher to buy until we actually issue one.',
   },
   {
     q: 'Do you offer Valentine’s Day experiences?',

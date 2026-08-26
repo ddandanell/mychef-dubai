@@ -14,7 +14,7 @@ import { isSeoOsPath, SeoOsApp } from './seo-os/entry'
  * the boot sequence can preload the current route's chunk before hydrateRoot.
  * See src/lib/lazyPreloadable.tsx and src/main.tsx for the rationale.
  *
- * /seo is a separate app shell: no marketing Layout, noindex, light shadcn OS.
+ * /seo is a separate app shell: no marketing Layout, noindex, dark zinc shadcn OS.
  */
 export default function App() {
   const { pathname } = useLocation()
@@ -22,10 +22,12 @@ export default function App() {
 
   useEffect(() => {
     document.documentElement.classList.toggle('seo-os', seoOs)
+    document.documentElement.classList.toggle('dark', seoOs)
     document.body.classList.toggle('seo-os', seoOs)
+    document.body.classList.toggle('dark', seoOs)
     return () => {
-      document.documentElement.classList.remove('seo-os')
-      document.body.classList.remove('seo-os')
+      document.documentElement.classList.remove('seo-os', 'dark')
+      document.body.classList.remove('seo-os', 'dark')
     }
   }, [seoOs])
 

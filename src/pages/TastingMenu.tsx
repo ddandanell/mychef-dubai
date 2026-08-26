@@ -1,7 +1,7 @@
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /tasting-menu-dubai
-//     primary:     "private chef tasting menu dubai"
-//     subkeywords: "tasting menu dubai price" · "private chef tasting menu price per person dubai" · "tasting menu packages dubai" · "halal tasting menu dubai" · "tasting menu at home dubai" · "private chef set menu dubai" · "chef tasting menu dubai" · "private tasting menu dubai" · "tasting menu courses" · "tasting menu birthday dubai" · "degustation menu dubai private" · "private jet catering menu prices"
+//     primary:     "private tasting menu dubai"
+//     subkeywords: "private chef tasting menu dubai" · "tasting menu dubai price" · "private chef tasting menu price per person dubai" · "tasting menu packages dubai" · "halal tasting menu dubai" · "tasting menu at home dubai" · "private chef set menu dubai" · "chef tasting menu dubai" · "tasting menu courses" · "tasting menu birthday dubai" · "degustation menu dubai private" · "private jet catering menu prices"
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
 import { Link } from 'react-router'
@@ -11,20 +11,20 @@ import type { ServicePageConfig } from './shared/ServiceLandingPage'
 
 const config: ServicePageConfig = {
   slug: 'tasting-menu-dubai',
-  seoTitle: "Private Chef Tasting Menu Dubai | Chef’s Table",
-  metaDescription: 'Private Chef Tasting Menu Dubai — Private chef tasting menus and chef’s table experiences in Dubai for intimate dinners, celebrations and corporate…',
+  seoTitle: 'Private Tasting Menu Dubai | myCHEF',
+  metaDescription: 'A private tasting menu in Dubai at your table — courses cooked in your kitchen, paced to the conversation. Not a restaurant chef’s table.',
   canonicalPath: '/tasting-menu-dubai',
   ogImage: '/images/tasting-menu-dubai-hero.webp',
   showTrustSignalStrip: true,
   breadcrumbLabel: 'Tasting Menu Dubai',
-  h1: 'Private Chef Tasting Menu Dubai — Table',
+  h1: 'Private tasting menu Dubai',
   heroSub:
-    'Private Chef Tasting Menu Dubai by myCHEF — Multi-course tasting menus and interactive chef’s table experiences in your villa, venue or private dining room — designed, cooked and presented by a dedicated partner chef.',
+    'A private tasting menu in Dubai at your table: courses cooked in your kitchen, paced to the conversation. Not a restaurant chef’s table and not a wedding catalogue.',
   heroImage: '/images/tasting-menu-dubai-hero.webp',
   whatsappMessage:
     "Hi myCHEF Dubai, I'd like to book a tasting menu or chef's table in Dubai (via mychef.ae/tasting-menu-dubai)",
   eyebrow: 'TASTING MENU & CHEF’S TABLE DUBAI',
-  introH2: 'A Restaurant-Quality Experience, Private and Personal',
+  introH2: 'A private tasting menu Dubai at your table',
   introNodes: (
     <>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">

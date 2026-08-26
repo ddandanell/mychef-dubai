@@ -70,7 +70,7 @@ const canapeFormats = [
     icon: Heart,
     title: 'Engagement & Celebrations',
     description: 'Refined canapé selections and dessert bites for engagements, anniversaries, and intimate milestone receptions.',
-    link: '/private-party-catering-dubai',
+    link: '/engagement-catering-dubai',
   },
 ]
 
@@ -303,7 +303,7 @@ export default function CanapeCatering() {
     <div ref={containerRef}>
       <SEO
         title="Canapé Catering Dubai | Passed, Hot & Cold Canapés | myCHEF"
-        description="Elegant canapé catering Dubai. Passed, hot & cold bites for receptions, launches, weddings & corporate events. From AED __ per person — r"
+        description="Canapé catering in Dubai — passed or tray service for receptions, launches and standing events. Premium standing food from AED 150 per person."
         canonicalPath="/canape-catering-dubai"
         ogImage="/menu-canapes.webp"
         hideSiteName
@@ -331,7 +331,7 @@ export default function CanapeCatering() {
             Canapé Catering Dubai — Passed, Hot & Cold Bites
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 can-hero-sub">
-            Passed canapés, styled displays, and cocktail pairings — refined, photogenic bites and seamless service for receptions, openings, launches, and elegant celebrations across Dubai.
+            Passed canapés, tray service and standing food for receptions, openings and launches in Dubai. Premium standing food from AED 150 per person.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 can-hero-cta">Get a Canapé Menu Quote</Link>
@@ -372,6 +372,32 @@ export default function CanapeCatering() {
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mt-5">
             If the occasion is more relaxed than a reception, the same team runs finger food catering in Dubai — larger, more casual bites and sharing platters for offices, house parties and mixers — and we will tell you honestly which of the two fits your event.
           </p>
+        </div>
+      </section>
+
+      <section id="finger-food" className="bg-cream section-padding scroll-mt-24">
+        <div className="container-custom grid gap-10 lg:grid-cols-2 lg:items-center">
+          <div>
+            <SectionLabel>FINGER FOOD</SectionLabel>
+            <h2 className="font-playfair text-h2 text-black mb-6">Finger food is this page, not a second URL</h2>
+            <p className="font-inter text-body text-gray-600 leading-relaxed mb-5">
+              Finger food catering in Dubai is the same team as canapés, with a different brief: no cutlery, food people can hold while they talk. Kids versus adults changes the menu — smaller, blander, labelled for a child; more heat and spice for a standing adult room.
+            </p>
+            <p className="font-inter text-body text-gray-600 leading-relaxed">
+              Tray versus passed is a staffing decision. A tray on a table needs less movement. Passed service needs hands in the room. Finger food catering price per person follows the same published band as premium standing food: from AED 150. This block uses its own image; it does not reuse the canapé hero.
+            </p>
+          </div>
+          <figure className="aspect-[4/3] overflow-hidden bg-gray-100">
+            <img
+              src="/menu-appetizer.webp"
+              alt="Finger food on a tray — no cutlery, ready to pass. Experience concept shown."
+              width={1200}
+              height={900}
+              loading="lazy"
+              decoding="async"
+              className="h-full w-full object-cover"
+            />
+          </figure>
         </div>
       </section>
 

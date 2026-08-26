@@ -58,6 +58,7 @@ export default function SiteMap() {
               <li><Link to="/wedding-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/wedding-catering-dubai</Link></li>
               <li><Link to="/birthday-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/birthday-catering-dubai</Link></li>
               <li><Link to="/private-party-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/private-party-catering-dubai</Link></li>
+              <li><Link to="/engagement-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/engagement-catering-dubai</Link></li>
               <li><Link to="/baby-shower-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/baby-shower-catering-dubai</Link></li>
               <li><Link to="/desert-dining-dubai" className="text-gray-600 hover:text-gold transition-colors">/desert-dining-dubai</Link></li>
               <li><Link to="/afternoon-tea-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/afternoon-tea-catering-dubai</Link></li>

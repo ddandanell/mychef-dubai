@@ -1,0 +1,389 @@
+{
+ "generated": "2026-08-26 22:42",
+ "run_id": 16,
+ "banner": "Not feeding: First-party tracking, Google Analytics 4",
+ "heartbeat": {
+  "id": 1,
+  "ran_at": "2026-08-26T14:08+00:00",
+  "kind": "full",
+  "mode": "dist",
+  "git_commit": "ff2d69d",
+  "phase": "idle",
+  "sources_ok": [
+   "Neon Postgres",
+   "DataForSEO",
+   "Google Search Console",
+   "Vercel Web Analytics",
+   "Vercel project",
+   "First-party tracking",
+   "Bing Webmaster",
+   "PageSpeed / CrUX",
+   "Claude AI visibility",
+   "SEO analyst (read-only)",
+   "Board build (run-loop)"
+  ],
+  "sources_stale": [
+   "Google Analytics 4"
+  ],
+  "pages_scored": 177,
+  "keywords_scored": 1712,
+  "proposals_opened": null,
+  "edits_applied": null,
+  "gates_pass": true,
+  "error": null,
+  "age_hours": 0.6
+ },
+ "counts": {
+  "locked": 1712,
+  "placed": 1354,
+  "proven": 75,
+  "locked_unproven": 1637,
+  "primaries_locked": 163,
+  "primaries_placed": 149,
+  "primaries_proven": 25
+ },
+ "sources": [
+  {
+   "service": "Bing Webmaster",
+   "status": "connected",
+   "detail": "https://www.mychef.ae/ · 23 daily rows returned",
+   "last_success": null,
+   "error": null,
+   "checked_at": "2026-08-26T22:42+00:00"
+  },
+  {
+   "service": "Board build (run-loop)",
+   "status": "connected",
+   "detail": "keyword file, research pages and archive rebuilt on every run",
+   "last_success": "2026-08-26T19:58+00:00",
+   "error": "runs by hand — no scheduler is configured yet, so freshness depends on someone starting it",
+   "checked_at": "2026-08-26T22:42+00:00"
+  },
+  {
+   "service": "Claude AI visibility",
+   "status": "connected",
+   "detail": "16 buyer prompts, answers stored",
+   "last_success": "2026-08-26T10:07+00:00",
+   "error": null,
+   "checked_at": "2026-08-26T22:42+00:00"
+  },
+  {
+   "service": "DataForSEO",
+   "status": "connected",
+   "detail": "balance $40.57 · 41,635 SERP rows stored",
+   "last_success": "2026-08-26T10:00+00:00",
+   "error": null,
+   "checked_at": "2026-08-26T22:42+00:00"
+  },
+  {
+   "service": "First-party tracking",
+   "status": "error",
+   "detail": "/api/e answered 500, expected 405 for GET",
+   "last_success": "2026-08-26T13:53+00:00",
+   "error": null,
+   "checked_at": "2026-08-26T22:42+00:00"
+  },
+  {
+   "service": "Google Analytics 4",
+   "status": "not connected",
+   "detail": "4 properties visible, none owns the tag G-26YM3CE8CB",
+   "last_success": null,
+   "error": "grant Viewer to googlenay@trusty-bearing-489316-k1.iam.gserviceaccount.com in GA4 Admin",
+   "checked_at": "2026-08-26T22:42+00:00"
+  },
+  {
+   "service": "Google Search Console",
+   "status": "connected",
+   "detail": "2 property · 31 clicks in the last 10 days",
+   "last_success": "2026-08-24T00:00+00:00",
+   "error": null,
+   "checked_at": "2026-08-26T22:42+00:00"
+  },
+  {
+   "service": "Neon Postgres",
+   "status": "connected",
+   "detail": "13 runs · 55 MB · 105,099 rows across 15 tables",
+   "last_success": "2026-08-26T11:58+00:00",
+   "error": null,
+   "checked_at": "2026-08-26T22:42+00:00"
+  },
+  {
+   "service": "PageSpeed / CrUX",
+   "status": "connected",
+   "detail": "key present · not pulled into the board yet",
+   "last_success": null,
+   "error": "no collector writes CWV into the archive",
+   "checked_at": "2026-08-26T22:42+00:00"
+  },
+  {
+   "service": "SEO analyst (read-only)",
+   "status": "connected",
+   "detail": "deployed and password-gated · run with --probe-ai to test the answer path",
+   "last_success": null,
+   "error": null,
+   "checked_at": "2026-08-26T22:42+00:00"
+  },
+  {
+   "service": "Vercel Web Analytics",
+   "status": "connected",
+   "detail": "313 visitors in the last 7 days",
+   "last_success": "2026-08-26T22:39+00:00",
+   "error": null,
+   "checked_at": "2026-08-26T22:42+00:00"
+  },
+  {
+   "service": "Vercel project",
+   "status": "connected",
+   "detail": "mychef-dubai-vite · web analytics on · git integration linked",
+   "last_success": null,
+   "error": null,
+   "checked_at": "2026-08-26T22:42+00:00"
+  }
+ ],
+ "queue": [
+  {
+   "type": "fill_subkeyword",
+   "status": "open",
+   "count": 8
+  },
+  {
+   "type": "experiment",
+   "status": "open",
+   "count": 3
+  },
+  {
+   "type": "retarget",
+   "status": "open",
+   "count": 3
+  },
+  {
+   "type": "add_link",
+   "status": "open",
+   "count": 1
+  }
+ ],
+ "top5": [
+  {
+   "id": "2026-08-26-002",
+   "type": "fill_subkeyword",
+   "url": "/catering-dubai",
+   "keyword": "home catering dubai",
+   "reason": "assigned to /catering-dubai but the live copy does not say it",
+   "risk": "low",
+   "auto_eligible": false,
+   "status": "open"
+  },
+  {
+   "id": "2026-08-26-003",
+   "type": "fill_subkeyword",
+   "url": "/luxury-dining-experiences",
+   "keyword": "unique dining experiences dubai",
+   "reason": "assigned to /luxury-dining-experiences but the live copy does not say it",
+   "risk": "low",
+   "auto_eligible": false,
+   "status": "open"
+  },
+  {
+   "id": "2026-08-26-043",
+   "type": "add_link",
+   "url": "/festive-catering-dubai",
+   "keyword": "festive catering dubai",
+   "reason": "internal-link status Maximum opportunity",
+   "risk": "low",
+   "auto_eligible": false,
+   "status": "open"
+  },
+  {
+   "id": "2026-08-26-001",
+   "type": "retarget",
+   "url": "/catering-dubai",
+   "keyword": "catering dubai",
+   "reason": "GSC ranks /catering-packages-dubai for this phrase, not the contract owner",
+   "risk": "high",
+   "auto_eligible": false,
+   "status": "open"
+  },
+  {
+   "id": "2026-08-26-024",
+   "type": "fill_subkeyword",
+   "url": "/wellness-meal-prep-dubai",
+   "keyword": "healthy meal plan dubai",
+   "reason": "assigned to /wellness-meal-prep-dubai but the live copy does not say it",
+   "risk": "low",
+   "auto_eligible": false,
+   "status": "open"
+  }
+ ],
+ "experiments": {
+  "verdicts": {},
+  "open": []
+ },
+ "actions": [
+  {
+   "url": "/blog/vegan-catering-dubai-guide",
+   "where": "faq",
+   "how": "+1 (blog-vegan-catering-dubai-guide.json)",
+   "after": "how to cater for vegan guests dubai",
+   "at": "2026-08-26T13:42+00:00"
+  },
+  {
+   "url": "/blog/vegan-catering-dubai-guide",
+   "where": "body",
+   "how": "+4 sentences (blog-vegan-catering-dubai-guide.json:add_block)",
+   "after": "vegan menu plan, best vegan food in dubai, vegan party food ideas dubai, vegan fine dining ideas, vegan meal service dubai",
+   "at": "2026-08-26T13:42+00:00"
+  },
+  {
+   "url": "/blog/private-chef-vs-restaurant-dubai",
+   "where": "faq",
+   "how": "+1 (blog-private-chef-vs-restaurant-dubai.json)",
+   "after": "what is a private chef",
+   "at": "2026-08-26T13:42+00:00"
+  },
+  {
+   "url": "/blog/private-chef-vs-restaurant-dubai",
+   "where": "body",
+   "how": "+2 sentences (blog-private-chef-vs-restaurant-dubai.json:add_block)",
+   "after": "cost of a private chef, private chef vs restaurant cost dubai, catering vs private chef, private chef vs personal chef",
+   "at": "2026-08-26T13:42+00:00"
+  },
+  {
+   "url": "/blog/private-chef-date-night-dubai",
+   "where": "body",
+   "how": "+5 sentences (blog-private-chef-date-night-dubai.json:add_block)",
+   "after": "personal chef rates dubai, private chef date night cost dubai, best date night dinner in dubai, best personal chef for date night, romantic dinner ideas at home dubai, private chef for two dubai, priv",
+   "at": "2026-08-26T13:42+00:00"
+  },
+  {
+   "url": "/blog/nye-party-catering-dubai",
+   "where": "body",
+   "how": "+5 sentences (blog-nye-party-catering-dubai.json:add_block)",
+   "after": "nye party catering cost dubai, bachelor party catering menu dubai, bachelorette party catering menu dubai, new years eve party food ideas dubai, new years eve at home dubai, new years eve dinner at ho",
+   "at": "2026-08-26T13:42+00:00"
+  },
+  {
+   "url": "/blog/iftar-at-home-dubai",
+   "where": "body",
+   "how": "+4 sentences (blog-iftar-at-home-dubai.json:add_block)",
+   "after": "iftar at home cost dubai, iftar at home dubai offers, iftar buffet menu dubai, iftar menu at home dubai, iftar ideas at home dubai, family iftar at home dubai",
+   "at": "2026-08-26T13:42+00:00"
+  },
+  {
+   "url": "/blog/how-to-hire-a-private-chef-dubai",
+   "where": "faq",
+   "how": "+3 (blog-how-to-hire-a-private-chef-dubai.json)",
+   "after": "how do i hire a personal chef, how do you hire a private chef, how to find a private chef in dubai",
+   "at": "2026-08-26T13:42+00:00"
+  },
+  {
+   "url": "/blog/how-to-hire-a-private-chef-dubai",
+   "where": "body",
+   "how": "+1 sentences (blog-how-to-hire-a-private-chef-dubai.json:add_block)",
+   "after": "do private chefs bring their own equipment dubai",
+   "at": "2026-08-26T13:42+00:00"
+  },
+  {
+   "url": "/blog/how-far-ahead-book-caterer-dubai",
+   "where": "faq",
+   "how": "+4 (blog-how-far-ahead-book-caterer-dubai.json)",
+   "after": "how far ahead book caterer dubai, how far in advance to order catering, how early to book a private chef dubai, how to choose a caterer in dubai",
+   "at": "2026-08-26T13:42+00:00"
+  },
+  {
+   "url": "/blog/how-far-ahead-book-caterer-dubai",
+   "where": "body",
+   "how": "+1 sentences (blog-how-far-ahead-book-caterer-dubai.json:add_block)",
+   "after": "best time to hire meal caterer, best time to hire event caterer, best time to hire cooking caterer, best time to hire catering in advance",
+   "at": "2026-08-26T13:42+00:00"
+  },
+  {
+   "url": "/blog/grazing-table-vs-buffet-dubai",
+   "where": "faq",
+   "how": "+2 (blog-grazing-table-vs-buffet-dubai.json)",
+   "after": "what is buffet catering, what is a grazing table dubai",
+   "at": "2026-08-26T13:42+00:00"
+  },
+  {
+   "url": "/blog/grazing-table-vs-buffet-dubai",
+   "where": "body",
+   "how": "+2 sentences (blog-grazing-table-vs-buffet-dubai.json:add_block)",
+   "after": "average cost of grazing table, cost of grazing table for wedding, grazing table examples, grazing table for 50 guests",
+   "at": "2026-08-26T13:42+00:00"
+  },
+  {
+   "url": "/blog/dinner-party-menu-ideas-dubai",
+   "where": "faq",
+   "how": "+1 (blog-dinner-party-menu-ideas-dubai.json)",
+   "after": "what to serve at a dinner party dubai",
+   "at": "2026-08-26T13:42+00:00"
+  },
+  {
+   "url": "/blog/dinner-party-menu-ideas-dubai",
+   "where": "body",
+   "how": "+1 sentences (blog-dinner-party-menu-ideas-dubai.json:add_block)",
+   "after": "food party dubai menu, casual dinner party menu ideas, 3 course dinner party menu dubai, dinner party menu ideas dubai indian, dinner party menu ideas dubai vegetarian",
+   "at": "2026-08-26T13:42+00:00"
+  },
+  {
+   "url": "/blog/desert-dinner-party-dubai",
+   "where": "faq",
+   "how": "+1 (blog-desert-dinner-party-dubai.json)",
+   "after": "how much is dinner in dubai",
+   "at": "2026-08-26T13:42+00:00"
+  },
+  {
+   "url": "/blog/desert-dinner-party-dubai",
+   "where": "body",
+   "how": "+3 sentences (blog-desert-dinner-party-dubai.json:add_block)",
+   "after": "private chef cost for dinner party, luxury desert dinner dubai, best desert safari dinner dubai, desert dining ideas dubai, private dinner in the desert dubai",
+   "at": "2026-08-26T13:42+00:00"
+  },
+  {
+   "url": "/blog/corporate-event-catering-ideas-dubai",
+   "where": "faq",
+   "how": "+1 (blog-corporate-event-catering-ideas-dubai.json)",
+   "after": "what is event catering",
+   "at": "2026-08-26T13:42+00:00"
+  },
+  {
+   "url": "/blog/corporate-event-catering-ideas-dubai",
+   "where": "body",
+   "how": "+3 sentences (blog-corporate-event-catering-ideas-dubai.json:add_block)",
+   "after": "best catering format for corporate event dubai, event catering menu ideas, office party food ideas dubai, corporate lunch ideas dubai, small corporate event catering ideas dubai",
+   "at": "2026-08-26T13:42+00:00"
+  },
+  {
+   "url": "/blog/brunch-at-home-dubai",
+   "where": "faq",
+   "how": "+2 (blog-brunch-at-home-dubai.json)",
+   "after": "what is a good at home brunch menu, how to host brunch at home dubai",
+   "at": "2026-08-26T13:42+00:00"
+  }
+ ],
+ "tiles": [
+  {
+   "value": "1712",
+   "label": "Locked in the contract"
+  },
+  {
+   "value": "1354",
+   "label": "Placed in the built HTML"
+  },
+  {
+   "value": "75",
+   "label": "Proven in Search Console"
+  },
+  {
+   "value": "1637",
+   "label": "Locked but never seen"
+  },
+  {
+   "value": "1h",
+   "label": "Since the last run"
+  },
+  {
+   "value": "15",
+   "label": "Proposals waiting"
+  }
+ ]
+}

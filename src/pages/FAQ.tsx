@@ -87,7 +87,7 @@ const faqData: Record<Exclude<Category, 'All'>, { q: string; a: string }[]> = {
     { q: 'Can I book a mocktail bar for a family event?', a: 'Yes. Our mocktail bar is completely alcohol-free and ideal for family celebrations, kids’ parties, and Ramadan gatherings. See /bar-services-dubai.' },
     { q: 'What is the myCHEF VIP Club?', a: 'The VIP Club is a membership for frequent hosts, offering priority booking, exclusive menus, and dedicated account management. Visit /vip-club.' },
     { q: 'How do I join the VIP Club?', a: 'Contact us via WhatsApp or the /inquiry form and ask about VIP Club membership.' },
-    { q: 'Do you offer gift cards?', a: 'Yes. myCHEF gift cards are available for private dining experiences, cooking classes, and bespoke catering. See /gift-cards.' },
+    { q: 'Do you offer gift cards?', a: 'Not as stored value. We can book the evening in their name and hold a date; they still choose the menu. See /gift-cards.' },
   ],
 }
 

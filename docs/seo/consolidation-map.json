@@ -62,11 +62,12 @@
     },
     {
       "phase": 3,
-      "status": "done",
+      "status": "restored",
       "from": "/engagement-catering-dubai",
-      "to": "/private-party-catering-dubai",
+      "to": null,
       "reason": "Celebration micro-page. Note /proposal-dinner-dubai is a different (two-person) intent and stays.",
-      "executed": "2026-08-26 by the parallel session under the owner's \"run the next thing, get everything finished\" instruction — the GSC veto check in CONSOLIDATION-PLAN.md §3 was NOT run (no GSC access); re-check once access exists"
+      "executed": "2026-08-26 by the parallel session under the owner's \"run the next thing, get everything finished\" instruction — the GSC veto check in CONSOLIDATION-PLAN.md §3 was NOT run (no GSC access); re-check once access exists",
+      "restored": "2026-08-26 — unique product (two families, a toast, pre-wedding). 301 removed."
     },
     {
       "phase": 3,

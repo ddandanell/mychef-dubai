@@ -48,6 +48,8 @@ CREATE TABLE IF NOT EXISTS seo_experiments (
   closed_at TIMESTAMPTZ
 );
 CREATE INDEX IF NOT EXISTS seo_experiments_url ON seo_experiments(url);
+-- one experiment per batch per URL: the backfill and the daily close must both be re-runnable
+CREATE UNIQUE INDEX IF NOT EXISTS seo_experiments_batch_url ON seo_experiments(batch_id, url);
 CREATE INDEX IF NOT EXISTS seo_experiments_open ON seo_experiments(verdict) WHERE closed_at IS NULL;
 
 CREATE TABLE IF NOT EXISTS seo_briefings (

@@ -116,7 +116,8 @@ export const kindDetail = {
     h2: 'When the birthday is for children',
     paragraphs: [
       'Children’s birthdays fail when the food is an afterthought copied from an adult dinner, or when it is a second event running in the corner. The better brief is familiar dishes, smaller portions, and a start time that matches when children actually eat.',
-      'Send allergy notes with the guest list, not the week of the party. Vegetarian, gluten-aware and dairy-free guests are straightforward when the menu is being designed. A working event kitchen is a shared environment — we do not describe a menu as allergen-free.',
+      'Age belongs in the brief. A table for six-year-olds is not a table for twelve-year-olds. Labels on the food matter more than a themed menu — nuts, dairy, gluten, and anything a child cannot handle without an adult standing there.',
+      'No grill unless there is a named adult on it. Live fire and children in the same garden is a staffing problem, not a menu idea. Send allergy notes with the guest list, not the week of the party. Vegetarian, gluten-aware and dairy-free guests are straightforward when the menu is being designed. A working event kitchen is a shared environment — we do not describe a menu as allergen-free.',
       'Interactive stations (pizza, pasta, a dessert table) work when the room has power, queue space and an adult who can supervise. A plated children’s menu works when the party is seated and shorter. Birthday party catering in Dubai for a mixed guest list usually front-loads what the children need, then lets the adult evening open up.',
     ],
   },

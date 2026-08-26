@@ -41,7 +41,7 @@ export const PACKAGE_SIBLING_LINKS = [
 
 /** Featured children that are not priced packages. Anchors from STANDARD. */
 export const PACKAGE_FEATURED_EXTRAS = [
-  { href: '/gift-cards', label: 'Mychef gift cards' },
+  { href: '/gift-cards', label: 'Book an evening in their name' },
   { href: '/founding-customer-offer', label: 'Mychef founding customer offer' },
 ] as const
 

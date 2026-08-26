@@ -1,568 +1,369 @@
-import { useRef } from 'react'
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /engagement-catering-dubai
+//     primary:     "engagement party catering dubai"
+//     subkeywords: "engagement catering dubai" · "engagement catering dubai price" · "engagement party catering cost per person dubai" · "best engagement catering dubai" · "engagement catering packages dubai" · "engagement catering menu dubai" · "halal engagement catering dubai" · "engagement dinner catering dubai"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { Link } from 'react-router'
-import { useGSAP } from '@gsap/react'
-import gsap from 'gsap'
-import { useScrollTrigger } from '@/hooks/useScrollTrigger'
-import { locationPath } from '@/data/locations'
-import {
-  UtensilsCrossed,
-  Sparkles,
-  Cake,
-  Home,
-  Wine,
-  Gem,
-  Check,
-  Phone,
-  ArrowRight,
-} from 'lucide-react'
+import { ArrowRight } from 'lucide-react'
 import SEO from '../components/SEO'
+import PageHero from '../components/PageHero'
 import TrustSignalStrip from '../components/TrustSignalStrip'
-import LocationStrip from '../components/LocationStrip'
 import FaqAccordion from '../components/FaqAccordion'
+import LocationStrip from '../components/LocationStrip'
+import {
+  Section,
+  Container,
+  SectionLabel,
+  DisplayHeading,
+  BodyCopy,
+  SequenceRail,
+  CTAGroup,
+} from '../components/system'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
-import { SectionLabel } from '../components/system'
-
-
-const WHATSAPP_NUMBER = '971551744849'
-const WHATSAPP_MESSAGE = encodeURIComponent("Hi myCHEF Dubai, I'd like to plan engagement party catering (via mychef.ae/engagement-catering-dubai)")
-const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
-
-/* ────────────────────── Data ────────────────────── */
-
-const formats = [
-  {
-    icon: UtensilsCrossed,
-    title: 'Refined Plated Dinners',
-    description:
-      'Elegant multi-course dinners with professional table service. A considered menu and seamless serving for an evening that feels special from the first course.',
-  },
-  {
-    icon: Sparkles,
-    title: 'Canape Receptions',
-    description:
-      'Sophisticated passed canapes and bite-sized plates for a stand-up reception, perfect for mingling guests, toasts, and a relaxed celebratory atmosphere.',
-  },
-  {
-    icon: Cake,
-    title: 'Dessert Tables',
-    description:
-      'Styled dessert spreads with patisserie, petit fours, and a statement centrepiece to mark the occasion and give the evening a memorable finish.',
-  },
-  {
-    icon: Home,
-    title: 'Intimate Villa Celebrations',
-    description:
-      'fully-coordinated catering for private villa engagements across Dubai. We set up, serve, and clear away so you can be fully present with your guests.',
-  },
-  {
-    icon: Wine,
-    title: 'Drinks & Toasts',
-    description:
-      'A polished bar with signature cocktails, mocktails, and toast-ready service, poured by professional staff throughout the celebration.',
-  },
-  {
-    icon: Gem,
-    title: 'Tailored Presentation',
-    description:
-      'Table styling, linens, and plating designed to complement your theme and create an elegant, photograph-worthy setting for the announcement.',
-  },
-]
-
-const useCases = [
-  {
-    title: 'Intimate Villa Dinners',
-    description:
-      'A seated multi-course dinner at a private villa for close family and friends. Refined plating, attentive service, and a calm, celebratory atmosphere.',
-  },
-  {
-    title: 'Canape & Cocktail Receptions',
-    description:
-      'A stand-up reception with passed canapes and a polished bar, ideal for a larger guest list and a relaxed evening of toasts and conversation.',
-  },
-  {
-    title: 'Garden & Terrace Celebrations',
-    description:
-      'Outdoor engagement parties in gardens or on terraces, with full setup, elegant styling, and service tailored to the open-air setting.',
-  },
-  {
-    title: 'Family Announcement Dinners',
-    description:
-      'An intimate gathering to share the news with family, plated and served at home, leaving you free to focus on the moment that matters.',
-  },
-]
-
-const includedItems = [
-  { title: 'Bespoke Menu Design', description: 'A multi-course or canape menu created around your taste, theme, and guest list, planned in advance.' },
-  { title: 'Premium Ingredients', description: 'Fresh, high-quality produce and ingredients sourced from trusted Dubai suppliers.' },
-  { title: 'Partner Chefs', description: 'An experienced culinary team preparing and plating each course with care.' },
-  { title: 'Service Staff', description: 'Waiters, hosts, and bar staff scaled to your event size for seamless service.' },
-  { title: 'Table Setting & Styling', description: 'Elegant tableware, linens, and presentation styling to complement your celebration.' },
-  { title: 'Dessert & Toast Service', description: 'A styled dessert table and toast-ready drinks service for the high points of the evening.' },
-  { title: 'Full Setup & Cleanup', description: 'We arrive early, set the scene, serve throughout, and clear everything away after.' },
-  { title: 'On-Site Coordination', description: 'A coordinator manages timing and service so the evening unfolds effortlessly.' },
-]
-
-const galleryImages = [
-  {
-    src: '/images/engagement-catering-dubai-plated.webp',
-    alt: 'A plated engagement dinner in a Dubai villa: the couple remain seated as a waiter places a course. Experience concept shown.',
-  },
-  {
-    src: '/images/engagement-catering-dubai-canapes.webp',
-    alt: 'A waiter passing canapés at a villa engagement reception in Dubai. Experience concept shown.',
-  },
-  {
-    src: '/images/engagement-catering-dubai-dessert.webp',
-    alt: 'A styled dessert table being finished for an engagement party in a Dubai home. Experience concept shown.',
-  },
-  {
-    src: '/images/engagement-catering-dubai-villa.webp',
-    alt: 'An engagement couple seated with family on a Dubai villa terrace while the catering team finishes quietly. Experience concept shown.',
-  },
-]
-
-const locations = [
-  { name: 'Palm Jumeirah', slug: 'palm-jumeirah' },
-  { name: 'Downtown Dubai', slug: 'downtown-dubai' },
-  { name: 'Dubai Marina', slug: 'dubai-marina' },
-  { name: 'Emirates Hills', slug: 'emirates-hills' },
-  { name: 'JBR', slug: 'jbr' },
-  { name: 'DIFC', slug: 'difc' },
-  { name: 'Business Bay', slug: 'business-bay' },
-  { name: 'Jumeirah', slug: 'jumeirah' },
-  { name: 'Arabian Ranches', slug: 'arabian-ranches' },
-  { name: 'Dubai Hills', slug: 'dubai-hills' },
-  { name: 'Bluewaters Island', slug: 'bluewaters-island' },
-  { name: 'Meydan', slug: 'meydan' },
-]
-
-const faqs = [
-  {
-    q: 'What type of catering suits an engagement party?',
-    a: 'It depends on the style of celebration. Intimate gatherings often call for a refined plated dinner, while larger receptions suit passed canapes with a polished bar. We help you choose the right format for your guest list and venue, and tailor the menu accordingly.',
-  },
-  {
-    q: 'Can you cater an engagement party at a private villa?',
-    a: 'Yes. Private villa celebrations are among our most requested engagement formats. We bring full setup, plating, table styling, and service to your home or villa, and handle the cleanup afterwards so you can simply enjoy the evening.',
-  },
-  {
-    q: 'Do you provide a styled dessert table?',
-    a: 'We do. A styled dessert table with patisserie and a statement centrepiece is a popular finishing touch for engagement parties. Share your theme and colours and we will design the presentation to match.',
-  },
-  {
-    q: 'Can you accommodate dietary requirements?',
-    a: 'Absolutely. We build every engagement menu around your guests, including options for specific dietary needs and preferences. Just let us know when we design the menu together and we will plan around them.',
-  },
-  {
-    q: 'How many guests can you cater for?',
-    a: 'we coordinate catering intimate engagement dinners for close family as well as larger receptions. Plated menus, canape spreads, and dessert tables all scale to your numbers, so tell us the headcount and we will plan to suit.',
-  },
-  {
-    q: 'How far in advance should we book?',
-    a: 'For most engagement parties we recommend booking two to four weeks ahead, and earlier for larger receptions or peak season dates between November and March. Reach out as soon as you have a date to secure your preferred service.',
-  },
-  { q: "How much does engagement party catering cost in Dubai?", a: "Engagement party catering in Dubai is priced by custom quote, because the cost depends on your guest count, menu style, and level of service rather than a fixed per-head rate. A relaxed canape reception sits at a different price point to a multi-course plated dinner with full service staff, and 5% VAT applies to the final total. Share your date, headcount, and vision and we will send a clear, itemised proposal, usually within about 15 minutes during business hours." },
-  { q: "What is included in your engagement catering price?", a: "Every engagement package includes menu design, ingredient sourcing and shopping, on-site cooking by our chefs, plating and serving, and full cleanup afterwards, so the quote you receive is genuinely all-in. Table styling, a dessert course, and a toast-ready bar can be built in too, and serving staff are available as an option when you want a more hands-off evening. You can see how the process works on our [how it works](/how-it-works) page before you commit to anything." },
-  { q: "Is there a minimum spend or minimum guest count for an engagement party?", a: "We cater intimate engagement dinners for a handful of close family right up to larger receptions, so there is no rigid minimum that shuts out small gatherings. Smaller events are quoted differently to large ones because staffing and setup scale with your numbers, and we will always tell you honestly what suits your budget. Tell us your headcount and we will design a format that makes sense for it." },
-  { q: "Are your chefs and kitchens licensed and food-safety compliant?", a: "Yes. Our chefs and kitchens operate to Dubai Municipality food-safety standards, and our team handles preparation, transport, and on-site cooking to those same standards at your venue. That means proper temperature control, hygienic handling, and safe plating throughout your engagement party. You can read more about our team and standards on our [about](/about) page." },
-  { q: "Do you cook the food fresh on-site or just deliver it?", a: "We cook and finish your engagement menu on-site wherever the venue allows, so dishes reach your guests fresh, hot, and beautifully plated rather than arriving pre-packed. Our chefs bring their own equipment, prepare in your kitchen or a discreet service area, and plate each course to order. For dishes best prepared in advance, we transport them under strict food-safety controls and finish them at your event." },
-  { q: "Is your engagement catering halal?", a: "Yes, our engagement menus are halal sourced by default, using suppliers and preparation methods that meet halal requirements. If you have guests with additional needs alongside halal, such as vegetarian, vegan, or gluten-free preferences, we build those into the same menu. Just flag any requirements when we design your menu together and we will plan around them." },
-  { q: "Can you provide waiters and serving staff for our engagement party?", a: "Yes, professional serving staff, hosts, and bar staff are available as an option and scaled to your guest count and format. For a seated plated dinner we usually recommend fuller table service, while a canape reception may need a lighter team focused on passing and clearing. Let us know the style you want and we will build the right staffing into your proposal." },
-  { q: "Can you serve drinks and handle the toast at an engagement party?", a: "Yes, we run a polished bar with signature cocktails, mocktails, and toast-ready service poured by professional staff throughout the celebration. Because an engagement is all about the announcement and the toast, we time drinks service around those key moments so glasses are ready when they matter. Share your preferences and any venue rules on alcohol and we will plan the bar accordingly." },
-  { q: "Should we choose a plated dinner or a buffet for our engagement?", a: "A plated dinner suits a formal, seated engagement where you want an elegant multi-course flow, while a buffet or canape reception works better for a relaxed evening where guests mingle and graze. Plated service feels more refined and controlled, whereas a buffet gives variety and a lighter, social atmosphere. We help you weigh both against your venue and guest list, and you can compare styles on our [private chef vs catering](/private-chef-vs-catering-dubai) guide." },
-  { q: "Can you design the menu around a theme or colour scheme?", a: "Yes, we design engagement menus, dessert tables, and table styling to complement your theme, colours, and overall vision for the evening. Whether you want a romantic floral setting, a modern minimalist look, or a fusion of Arabic and international flavours, our chefs and stylists tailor the presentation to match. Share your mood board or Pinterest ideas and we will bring them onto the plate and the table." },
-  { q: "Do you offer a menu tasting before the engagement party?", a: "Menu tastings can be arranged for larger engagement bookings so you can sample and refine your courses before the day. Because every menu is custom-designed rather than picked from a fixed list, a tasting is a helpful way to lock in the exact dishes you want. Ask us when we build your proposal and we will let you know what a tasting involves for your event, or explore our [tasting menu](/tasting-menu-dubai) options." },
-  { q: "Which venues and areas of Dubai do you cater engagement parties in?", a: "We cater engagement parties in private villas, apartments, gardens, terraces, and event spaces across Dubai, including Palm Jumeirah, Downtown, Dubai Marina, Emirates Hills, and beyond. Our team handles setup, service, and cleanup wherever the celebration is held, adapting to indoor and open-air settings. Tell us your venue and we will plan the logistics around its layout and any building rules." },
-  { q: "What happens with setup and cleanup on the day?", a: "Our team arrives early to set the scene, cooks and serves throughout the evening, and clears everything away afterwards, so you are never left with the mess. Setup includes table styling, plating stations, and the bar, and cleanup returns your villa or venue to how we found it. That full-service approach means you stay a guest at your own engagement rather than a host running the kitchen." },
-  { q: "How is engagement party catering different from a private chef at home?", a: "Engagement catering is built for a celebration with a guest list, styling, and often serving staff, whereas a private chef experience is usually an intimate meal for a small group cooked and served by one chef. For a bigger announcement party you will want the fuller catering setup with a team; for a quiet family dinner a private chef may be enough. If you are unsure, our [private chef in Dubai](/private-chef-dubai) page explains the difference and we can advise based on your numbers." },
-  { q: "Can you also cater the wedding or other celebrations after the engagement?", a: "Yes, we cater the full journey of celebrations, from the engagement party to the wedding, anniversary dinners, and milestone events, all handled end to end by our own team. Many couples book us for the engagement and return for the bigger day because we already know their taste and style. Explore our [wedding catering](/wedding-catering-dubai) when you are ready to plan ahead." },
-  { q: "How quickly will you respond after I request a proposal?", a: "We typically reply within about 15 minutes during business hours, so you get a fast, clear answer rather than waiting days for a quote. From there we shape a proposal around your date, guest count, venue, and menu preferences, with pricing and inclusions set out plainly. The sooner you reach out the better your date availability, especially in peak season from November to March, so [contact us](/contact) as soon as you have a date in mind." },
-]
-
-const relatedServices = [
-  {
-    title: 'Catering Dubai',
-    description: 'fully-coordinated catering across Dubai for celebrations of every size and style.',
-    image: '/service-catering.webp',
-    link: '/catering-dubai',
-  },
-  {
-    title: 'Wedding Catering',
-    description: 'Elegant wedding receptions, rehearsal dinners, and bespoke menus for your big day.',
-    image: '/service-events.webp',
-    link: '/wedding-catering-dubai',
-  },
-  {
-    title: 'Luxury Dining',
-    description: 'Bespoke fine-dining experiences for a truly memorable celebration.',
-    image: '/service-luxury-dining.webp',
-    link: '/luxury-dining-experiences',
-  },
-]
-
-const serviceObj = {
-  '@type': 'Service',
-  name: 'Engagement Party Catering Dubai',
-  serviceType: 'Engagement Party Catering',
-  provider: {
-    '@type': 'Organization',
-    '@id': 'https://www.mychef.ae/#organization',
-    name: 'myCHEF',
-    url: 'https://www.mychef.ae',
-    telephone: '+971-55-174-4849',
-    areaServed: 'Dubai, UAE',
-  },
-  areaServed: 'Dubai, UAE',
-}
-
-const faqObj = {
-  '@type': 'FAQPage',
-  mainEntity: faqs.map((f) => ({
-    '@type': 'Question',
-    name: f.q,
-    acceptedAnswer: { '@type': 'Answer', text: f.a },
-  })),
-}
-
-const breadcrumbObj = {
-  '@type': 'BreadcrumbList',
-  itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.mychef.ae/' },
-    { '@type': 'ListItem', position: 2, name: 'Engagement Party Catering Dubai', item: 'https://www.mychef.ae/engagement-catering-dubai' },
-  ],
-}
+import { CATERING_INQUIRY_HREF } from '@/content/cateringCluster'
+import {
+  ENGAGEMENT_KEYWORD_LOCK,
+  ENGAGEMENT_ROOT,
+  ENGAGEMENT_SIBLING_LINKS,
+  ENGAGEMENT_WHATSAPP_LINK,
+  ENGAGEMENT_WHATSAPP_MESSAGE,
+  engagementFaqs,
+  engagementHero,
+  engagementHeroCopy,
+  gallery,
+  includedItems,
+  jumpNav,
+  menuFormats,
+  priceRows,
+  pricingIntro,
+  pricingNotes,
+  siloIntro,
+  startSteps,
+  whatItIs,
+  whoLeaves,
+} from '@/content/engagementPage'
 
 const schema = {
   '@context': 'https://schema.org',
-  '@graph': [serviceObj, faqObj, breadcrumbObj],
+  '@graph': [
+    {
+      '@type': 'Service',
+      '@id': 'https://www.mychef.ae/engagement-catering-dubai#service',
+      name: 'Engagement Party Catering Dubai',
+      serviceType: 'Engagement Party Catering',
+      description:
+        'Engagement party catering Dubai for two families and a toast. Drop-off from AED 90 per person, buffet from AED 120, live stations or chef-led plated dining.',
+      url: 'https://www.mychef.ae/engagement-catering-dubai',
+      provider: { '@id': 'https://www.mychef.ae/#organization' },
+      areaServed: { '@id': 'https://www.mychef.ae/#place-dubai' },
+    },
+    {
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.mychef.ae/' },
+        { '@type': 'ListItem', position: 2, name: 'Events', item: 'https://www.mychef.ae/events' },
+        {
+          '@type': 'ListItem',
+          position: 3,
+          name: 'Engagement party catering',
+          item: 'https://www.mychef.ae/engagement-catering-dubai',
+        },
+      ],
+    },
+  ],
 }
 
-/* ────────────────────── Component ────────────────────── */
-
-const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'd like a Engagement quote in Dubai. Date: __ Guests: __ Area: __"
 export default function EngagementCatering() {
-  useScrollTrigger()
-  useWhatsAppMessage(PAGE_WHATSAPP_MESSAGE)
-  const containerRef = useRef<HTMLDivElement>(null)
-
-  useGSAP(() => {
-    if (!containerRef.current) return
-
-    gsap.to('.en-hero-h1', { opacity: 1, y: 0, duration: 0.8, ease: 'power3.out' })
-    gsap.to('.en-hero-sub', { opacity: 1, y: 0, duration: 0.6, delay: 0.3, ease: 'power3.out' })
-    gsap.to('.en-hero-cta', { opacity: 1, y: 0, duration: 0.5, stagger: 0.15, delay: 0.6, ease: 'power3.out' })
-
-    gsap.to('.en-fmt-card', {
-      scrollTrigger: { trigger: '.en-fmt-grid', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, y: 0, duration: 0.8, stagger: 0.1, ease: 'power3.out',
-    })
-
-    gsap.to('.en-use-item', {
-      scrollTrigger: { trigger: '.en-use-grid', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, y: 0, duration: 0.7, stagger: 0.08, ease: 'power3.out',
-    })
-
-    gsap.to('.en-inc-item', {
-      scrollTrigger: { trigger: '.en-inc-grid', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, x: 0, duration: 0.6, stagger: 0.08, ease: 'power3.out',
-    })
-
-    gsap.to('.en-gallery-img', {
-      scrollTrigger: { trigger: '.en-gallery', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, scale: 1, duration: 0.6, stagger: 0.06, ease: 'power3.out',
-    })
-
-    gsap.to('.en-faq-item', {
-      scrollTrigger: { trigger: '.en-faq', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, y: 0, duration: 0.5, stagger: 0.08, ease: 'power3.out',
-    })
-
-    gsap.to('.en-loc-item', {
-      scrollTrigger: { trigger: '.en-loc-grid', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, duration: 0.5, stagger: 0.04, ease: 'power3.out',
-    })
-
-    gsap.to('.en-rel-card', {
-      scrollTrigger: { trigger: '.en-rel-grid', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, y: 0, duration: 0.8, stagger: 0.1, ease: 'power3.out',
-    })
-
-    gsap.to('.en-cta', {
-      scrollTrigger: { trigger: '.en-cta', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, y: 0, duration: 0.7, ease: 'power3.out',
-    })
-  }, { scope: containerRef })
+  useWhatsAppMessage(ENGAGEMENT_WHATSAPP_MESSAGE)
 
   return (
-    <div ref={containerRef}>
+    <div>
       <SEO
-        title="Engagement Party Catering Dubai | Villa Receptions | myCHEF"
-        description="Book engagement party catering in Dubai. Plated dinners, canapé receptions, dessert tables and bar service for villas and venues. Get a quote in 15 minutes."
-        canonicalPath="/private-party-catering-dubai"
-        ogImage="/service-luxury-dining.webp"
+        title={ENGAGEMENT_KEYWORD_LOCK.title}
+        description={ENGAGEMENT_KEYWORD_LOCK.description}
+        canonicalPath={ENGAGEMENT_ROOT}
+        ogImage={engagementHero.src}
         hideSiteName
+        preloadHero={engagementHero.src}
         schema={schema}
       />
 
-      {/* ═══════════════ Section 1: Hero ═══════════════ */}
-      <section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
-        <div
-          className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
-          style={{ backgroundImage: 'url(/images/celebration-catering-dubai-hero.webp)' }}
-        />
-        <div className="absolute inset-0 bg-black/50" />
-
-        <div className="relative z-10 container-custom text-center max-w-[42rem] py-16 md:py-20">
-          <nav className="mb-5 opacity-0 translate-y-4 en-hero-h1">
-            <ol className="flex items-center justify-center gap-2 font-inter text-body-sm">
-              <li><Link to="/" className="text-gray-400 hover:text-gold transition-colors">Home</Link></li>
-              <li className="text-gray-400">/</li>
-              <li><span className="text-gold">Engagement Party Catering Dubai</span></li>
-            </ol>
-          </nav>
-
-          <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 en-hero-h1">
-            Engagement Party Catering Dubai: Villa & Canapé Receptions
-          </h1>
-          <p className="font-inter text-lg text-white/90 max-w-[600px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 en-hero-sub">
-            Refined plated dinners, sophisticated canape receptions, and styled dessert tables. Elegant catering for intimate villa engagement celebrations across Dubai.
-          </p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 en-hero-cta">Plan My Engagement</Link>
-            <a
-              href={WHATSAPP_LINK}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-secondary opacity-0 translate-y-4 en-hero-cta"
-            >
-              <Phone size={16} className="mr-2" />
-              Chat on WhatsApp
-            </a>
-          </div>
-        </div>
-      </section>
-
+      <PageHero
+        eyebrow={engagementHeroCopy.eyebrow}
+        title={engagementHeroCopy.title}
+        subtitle={engagementHeroCopy.subtitle}
+        image={engagementHero.src}
+        imageAlt={engagementHero.alt}
+        imageWidth={engagementHero.width}
+        imageHeight={engagementHero.height}
+        align="left"
+        cta={{ label: 'Get an itemised engagement-catering quote', href: CATERING_INQUIRY_HREF }}
+        secondaryCta={{ label: 'Chat on WhatsApp', href: ENGAGEMENT_WHATSAPP_LINK, external: true }}
+        breadcrumb={[
+          { label: 'Home', href: '/' },
+          { label: 'Events', href: '/events' },
+          { label: 'Engagement party catering' },
+        ]}
+        minHeight="full"
+        overlay="dark"
+      >
+        <p className="mt-5 font-inter text-body-sm text-white/90 max-w-[58ch]">
+          {engagementHeroCopy.priceLine}
+        </p>
+        <p className="mt-3 font-inter text-body-sm text-white/70 max-w-[58ch]">
+          {engagementHeroCopy.replyLine}
+        </p>
+      </PageHero>
       <TrustSignalStrip />
 
-      {/* ═══════════════ Section 2: Intro ═══════════════ */}
-      <section className="bg-white section-padding">
-        <div className="container-custom max-w-[820px] text-center">
-          <SectionLabel align="center">MARK THE MOMENT</SectionLabel>
-          <h2 className="font-playfair text-h2 text-black mb-6">
-            An Evening to Celebrate the News
-          </h2>
-          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            An engagement party is a chance to gather the people who matter most and celebrate the start of something new. Whether you are hosting an intimate dinner for close family or a larger reception for friends, the catering sets the tone for the evening. Our engagement party catering brings refined plated dinners, sophisticated canape receptions, and beautifully styled dessert tables to your chosen venue across Dubai.
-          </p>
-          <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Each menu is designed around your taste, your theme, and your guest list, with elegant table styling, attentive service, and a polished bar to mark every toast. Chefs in our network handle the setup, serve throughout, and clear it all away, available for Dubai celebrations of every size. Explore our wider{' '}
-            <Link to="/catering-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">catering in Dubai</Link>,{' '}
-            <Link to="/wedding-catering-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">wedding catering</Link>{' '}
-            or{' '}
-            <Link to="/luxury-dining-experiences" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">luxury dining experiences</Link>,{' '}
-            or request a{' '}
-            <Link to="/inquiry" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">Plan My Engagement</Link>.
-          </p>
+      <nav aria-label="On this page" className="border-b border-gray-200 bg-white">
+        <div className="container-custom flex flex-wrap gap-x-5 gap-y-2 py-4">
+          {jumpNav.map((item) => (
+            <a
+              key={item.href}
+              href={item.href}
+              className="font-inter text-caption uppercase tracking-[0.12em] text-gray-500 hover:text-gold-ink"
+            >
+              {item.label}
+            </a>
+          ))}
         </div>
-      </section>
+      </nav>
 
-      {/* ═══════════════ Section 3: Formats ═══════════════ */}
-      <section className="bg-black section-padding">
-        <div className="container-custom">
-          <div className="text-center mb-12">
-            <SectionLabel align="center" tone="dark">WHAT WE CREATE</SectionLabel>
-            <h2 className="font-playfair text-h2 text-white">
-              Catering Crafted for the Occasion
-            </h2>
-          </div>
-
-          <div className="en-fmt-grid grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {formats.map((fmt, i) => {
-              const Icon = fmt.icon
-              return (
-                <div
-                  key={i}
-                  className="en-fmt-card bg-charcoal p-8 opacity-0 translate-y-12"
+      <Section tone="ivory" rhythm="connected">
+        <Container>
+          <p className="font-inter text-caption uppercase tracking-[0.12em] text-gold-ink mb-4">Also in this silo</p>
+          <ul className="flex flex-wrap gap-x-6 gap-y-2">
+            {ENGAGEMENT_SIBLING_LINKS.map((item) => (
+              <li key={item.href}>
+                <Link
+                  to={item.href}
+                  className="font-inter text-body-sm text-gray-700 underline decoration-gold/40 underline-offset-4 hover:text-gold-ink"
                 >
-                  <Icon size={36} className="text-gold mb-4" />
-                  <h3 className="font-playfair text-h3 text-white mb-3">{fmt.title}</h3>
-                  <p className="font-inter text-body-sm text-gray-400 leading-relaxed">
-                    {fmt.description}
-                  </p>
-                </div>
-              )
-            })}
-          </div>
-        </div>
-      </section>
-
-      {/* ═══════════════ Section 4: Use Cases ═══════════════ */}
-      <section className="bg-cream section-padding">
-        <div className="container-custom">
-          <div className="text-center mb-12">
-            <SectionLabel align="center">WAYS TO CELEBRATE</SectionLabel>
-            <h2 className="font-playfair text-h2 text-black">
-              Where we coordinate catering for Engagement Parties
-            </h2>
-          </div>
-
-          <div className="en-use-grid grid md:grid-cols-2 gap-6">
-            {useCases.map((uc, i) => (
-              <div key={i} className="en-use-item bg-white p-8 border border-gray-200 opacity-0 translate-y-10">
-                <h3 className="font-playfair text-h3 text-black mb-3">{uc.title}</h3>
-                <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{uc.description}</p>
-              </div>
+                  {item.label}
+                </Link>
+              </li>
             ))}
-          </div>
-          <p className="font-inter text-body-sm text-gray-500 text-center max-w-[680px] mx-auto mt-10 leading-relaxed">
-            Already thinking ahead to the big day? Explore our{' '}
-            <Link to="/wedding-catering-dubai" className="text-gold hover:text-gold-dark transition-colors underline underline-offset-2">wedding catering</Link>, or elevate the evening into a full{' '}
-            <Link to="/luxury-dining-experiences" className="text-gold hover:text-gold-dark transition-colors underline underline-offset-2">luxury dining experience</Link>.
+          </ul>
+          <p className="mt-6 font-inter text-body-sm text-gray-600 max-w-[62ch]">
+            {siloIntro.lead}{' '}
+            <Link to={siloIntro.eventsHref} className="text-gold-ink underline underline-offset-4 hover:text-gold">
+              {siloIntro.eventsLabel}
+            </Link>{' '}
+            {siloIntro.eventsNote}{' '}
+            <Link to={siloIntro.partyHref} className="text-gold-ink underline underline-offset-4 hover:text-gold">
+              {siloIntro.partyLabel}
+            </Link>{' '}
+            {siloIntro.partyNote}
           </p>
-        </div>
-      </section>
+        </Container>
+      </Section>
 
-      {/* ═══════════════ Section 5: What's Included ═══════════════ */}
-      <section className="bg-white section-padding">
-        <div className="container-custom max-w-[1000px]">
-          <h2 className="font-playfair text-h2 text-black text-center mb-12">
-            What Your Catering Includes
-          </h2>
+      <Section id="who-leaves" tone="white" rhythm="chapter">
+        <Container>
+          <SectionLabel>WHO THIS IS FOR</SectionLabel>
+          <DisplayHeading className="text-black mb-6">{whatItIs.h2}</DisplayHeading>
+          {whatItIs.paragraphs.map((p) => (
+            <BodyCopy key={p.slice(0, 40)} className="mb-5">
+              {p}
+            </BodyCopy>
+          ))}
+          <ul className="mt-12 grid md:grid-cols-2 gap-8">
+            {whoLeaves.map((item) => (
+              <li key={item.href} className="border-t border-gray-200 pt-6">
+                <h3 className="font-playfair text-h4 text-black mb-3">{item.title}</h3>
+                <p className="font-inter text-body-sm text-gray-600 leading-relaxed mb-4 max-w-[52ch]">{item.body}</p>
+                <Link
+                  to={item.href}
+                  className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink hover:text-gold"
+                >
+                  {item.linkLabel} <ArrowRight size={14} aria-hidden />
+                </Link>
+                {'secondaryHref' in item && item.secondaryHref ? (
+                  <Link
+                    to={item.secondaryHref}
+                    className="mt-3 flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink hover:text-gold"
+                  >
+                    {item.secondaryLabel} <ArrowRight size={14} aria-hidden />
+                  </Link>
+                ) : null}
+              </li>
+            ))}
+          </ul>
+        </Container>
+      </Section>
 
-          <div className="en-inc-grid grid md:grid-cols-2 gap-6">
-            {includedItems.map((item, i) => (
-              <div key={i} className="en-inc-item flex gap-3 opacity-0 -translate-x-5">
-                <Check size={20} className="text-gold flex-shrink-0 mt-0.5" />
-                <div>
-                  <h4 className="font-inter text-base font-medium text-black mb-1">{item.title}</h4>
-                  <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{item.description}</p>
-                </div>
+      <Section id="pricing" tone="charcoal" rhythm="chapter">
+        <Container className="max-w-3xl">
+          <SectionLabel tone="dark">FORMATS AND PRICES</SectionLabel>
+          <DisplayHeading className="text-white mb-6">Priced by format, not by a named package</DisplayHeading>
+          {pricingIntro.map((p) => (
+            <p key={p.slice(0, 32)} className="font-inter text-body text-gray-300 leading-relaxed mb-5 max-w-[65ch]">
+              {p}
+            </p>
+          ))}
+          <div className="overflow-x-auto mb-8">
+            <table className="w-full text-left font-inter text-body-sm text-gray-300">
+              <thead>
+                <tr className="border-b border-white/15">
+                  <th className="py-3 pr-4 font-medium text-white">Format</th>
+                  <th className="py-3 pr-4 font-medium text-white">What it is</th>
+                  <th className="py-3 pr-4 font-medium text-white">Staff</th>
+                  <th className="py-3 font-medium text-white">From</th>
+                </tr>
+              </thead>
+              <tbody>
+                {priceRows.map((row) => (
+                  <tr key={row.format} className="border-b border-white/10">
+                    <td className="py-3 pr-4 text-white">
+                      <Link to={row.href} data-track="price_table" className="hover:text-gold">
+                        {row.format}
+                      </Link>
+                    </td>
+                    <td className="py-3 pr-4">{row.what}</td>
+                    <td className="py-3 pr-4">{row.staff}</td>
+                    <td className="py-3">{row.price}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <ul className="mb-8 space-y-2">
+            {pricingNotes.map((note) => (
+              <li key={note} className="font-inter text-body-sm text-gray-400">
+                {note}
+              </li>
+            ))}
+          </ul>
+        </Container>
+      </Section>
+
+      <Section tone="white" rhythm="standard">
+        <Container>
+          <SectionLabel>WHAT IS INCLUDED</SectionLabel>
+          <DisplayHeading className="text-black mb-12">Menu, chefs, staff, setup and cleanup</DisplayHeading>
+          <div className="grid md:grid-cols-2 gap-8">
+            {includedItems.map((item) => (
+              <div key={item.title} className="border-t border-gray-200 pt-6">
+                <h3 className="font-playfair text-h4 text-black mb-3">{item.title}</h3>
+                <p className="font-inter text-body-sm text-gray-600 leading-relaxed max-w-[52ch]">{item.body}</p>
               </div>
             ))}
           </div>
-        </div>
-      </section>
+        </Container>
+      </Section>
 
-      {/* ═══════════════ Section 6: Gallery ═══════════════ */}
-      <section className="bg-black py-20">
-        <div className="container-custom">
-          <h2 className="font-playfair text-fluid-h2 text-white text-center mb-10">
-            A Taste of the Evening
-          </h2>
+      <Section id="menus" tone="ivory" rhythm="chapter">
+        <Container>
+          <SectionLabel>HOW THE FOOD IS SERVED</SectionLabel>
+          <DisplayHeading className="text-black mb-4">From drop-off to plated service</DisplayHeading>
+          <BodyCopy className="mb-12">
+            Pick a format. The specialist page owns the full explanation. Cuisine direction lives on{' '}
+            <Link to="/cuisines-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
+              Cuisines
+            </Link>
+            .
+          </BodyCopy>
+          <div className="grid md:grid-cols-2 gap-x-12 border-t border-gray-200">
+            {menuFormats.map((style) => (
+              <Link
+                key={style.title}
+                to={style.href}
+                className="group flex items-start gap-5 border-b border-gray-200 py-6"
+              >
+                <span className="min-w-0 flex-1">
+                  <span className="flex items-center justify-between gap-4">
+                    <h3 className="font-playfair text-h4 text-black transition-colors group-hover:text-gold-ink">{style.title}</h3>
+                    <ArrowRight size={16} className="flex-shrink-0 text-gold-ink opacity-0 -translate-x-1 transition-all group-hover:translate-x-0 group-hover:opacity-100" aria-hidden />
+                  </span>
+                  <p className="mt-1 font-inter text-body-sm text-gray-500 leading-relaxed">{style.body}</p>
+                  <span className="mt-3 inline-block font-inter text-caption uppercase tracking-[0.12em] text-gold-ink">{style.linkLabel}</span>
+                </span>
+              </Link>
+            ))}
+          </div>
+        </Container>
+      </Section>
 
-          <div className="en-gallery grid grid-cols-2 lg:grid-cols-4 gap-4">
-            {galleryImages.map((img, i) => (
-              <div key={i} className="en-gallery-img aspect-[4/3] overflow-hidden opacity-0 scale-95">
+      <Section id="gallery" tone="white" rhythm="chapter">
+        <Container>
+          <SectionLabel>THE ROOM</SectionLabel>
+          <DisplayHeading className="text-black mb-4">How the night can look</DisplayHeading>
+          <p className="font-inter text-body-sm text-gray-500 mb-10 max-w-[58ch]">
+            Experience concept shown. These frames are not photographs of a booked event.
+          </p>
+          <div className="grid sm:grid-cols-2 gap-4">
+            {gallery.map((img) => (
+              <figure key={img.src} className="aspect-[4/3] overflow-hidden bg-gray-100">
                 <img
                   src={img.src}
                   alt={img.alt}
-                  className="w-full h-full object-cover transition-transform duration-300 hover:scale-[1.03]"
-                  loading="lazy" decoding="async"/>
-              </div>
+                  width={1200}
+                  height={900}
+                  loading="lazy"
+                  decoding="async"
+                  className="h-full w-full object-cover"
+                />
+              </figure>
             ))}
           </div>
-          <p className="font-inter text-caption text-gray-500 text-center mt-6">
-            Experience concept shown
+        </Container>
+      </Section>
+
+      <Section id="how-it-works" tone="ivory" rhythm="chapter">
+        <Container>
+          <SectionLabel>HOW IT STARTS</SectionLabel>
+          <DisplayHeading className="text-black mb-12">Four steps. You stay with your guests.</DisplayHeading>
+          <SequenceRail steps={[...startSteps]} />
+        </Container>
+      </Section>
+
+      <Section id="faqs" tone="white" rhythm="standard">
+        <Container className="max-w-[800px]">
+          <SectionLabel align="center">BEFORE YOU BOOK</SectionLabel>
+          <DisplayHeading className="text-black text-center mb-10">What should I know before I book?</DisplayHeading>
+          <FaqAccordion items={[...engagementFaqs]} showJumpNav />
+        </Container>
+      </Section>
+
+      <LocationStrip
+        title="Engagement gatherings across Dubai"
+        subtitle={
+          <>
+            Available across Dubai including{' '}
+            <Link to="/locations/palm-jumeirah" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Palm Jumeirah</Link>,{' '}
+            <Link to="/locations/dubai-marina" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Dubai Marina</Link>
+            {' '}and{' '}
+            <Link to="/locations/downtown-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Downtown Dubai</Link>
+            . See{' '}
+            <Link to="/locations" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">areas we serve</Link>.
+          </>
+        }
+      />
+
+      <Section id="get-quote" tone="dark" rhythm="chapter">
+        <Container className="max-w-3xl">
+          <SectionLabel tone="dark">TELL US WHAT YOU ARE PLANNING</SectionLabel>
+          <DisplayHeading className="text-white mb-6">Date, address and guest count is enough to start</DisplayHeading>
+          <p className="font-inter text-body text-gray-300 leading-relaxed mb-8 max-w-[58ch]">
+            Event buffets start from AED 120 per person. You do not need to build the gathering before contacting us.
           </p>
-        </div>
-      </section>
-
-      {/* ═══════════════ Section 7: FAQ ═══════════════ */}
-      <section className="bg-white py-20">
-        <div className="container-custom max-w-[800px]">
-          <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Engagement Party Catering Questions
-          </h2>
-
-          <FaqAccordion items={faqs} showJumpNav />
-        </div>
-      </section>
-
-      {/* ═══════════════ Section 8: Locations ═══════════════ */}
-      <section className="bg-charcoal py-20">
-        <div className="container-custom">
-          <h2 className="font-playfair text-fluid-h2 text-white text-center mb-10">
-            Catering Across Dubai
-          </h2>
-
-          <div className="en-loc-grid grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
-            {locations.map((loc) => (
-              <Link
-                key={loc.slug}
-                to={locationPath(loc.slug)}
-                className="en-loc-item flex items-center gap-2 font-inter text-sm text-gray-400 hover:text-gold transition-colors opacity-0"
-              >
-                <span className="w-1.5 h-1.5 rounded-full bg-gold flex-shrink-0" />
-                {loc.name}
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ═══════════════ Section 9: Related Services ═══════════════ */}
-      <section className="bg-black py-20">
-        <div className="container-custom">
-          <h3 className="font-playfair text-h3 text-white text-center mb-10">
-            You May Also Like
-          </h3>
-
-          <div className="en-rel-grid grid md:grid-cols-3 gap-6">
-            {relatedServices.map((svc, i) => (
-              <Link
-                key={i}
-                to={svc.link}
-                className="en-rel-card group bg-charcoal overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
-              >
-                <div className="aspect-video overflow-hidden">
-                  <img
-                    src={svc.image}
-                    alt={svc.title}
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                    loading="lazy" decoding="async"/>
-                </div>
-                <div className="p-6">
-                  <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
-                  <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
-                  <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
-                    {svc.title} <ArrowRight size={14} />
-                  </span>
-                </div>
-              </Link>
-            ))}
-          </div>
-          <p className="font-inter text-body-sm text-gray-400 text-center mt-10">
-            Celebrating a milestone together? Explore our{' '}
-            <Link to="/private-party-catering-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">anniversary dinner catering</Link>.
-          </p>
-        </div>
-      </section>
-
-      <LocationStrip title="Engagement party catering across Dubai" />
-
-      {/* ═══════════════ Section 10: CTA Banner ═══════════════ */}
-      <section className="bg-gradient-to-b from-charcoal to-black py-20">
-        <div className="container-custom text-center en-cta opacity-0 translate-y-8">
-          <h2 className="font-playfair text-h2 text-white mb-4">
-            Plan the Celebration
-          </h2>
-          <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Share the date, the venue, and your vision — we will craft the menu, the styling, and the service around it.
-          </p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">Plan My Engagement</Link>
+          <CTAGroup>
+            <Link to={CATERING_INQUIRY_HREF} className="btn-primary">
+              Get an itemised engagement-catering quote
+            </Link>
             <a
-              href={WHATSAPP_LINK}
+              href={ENGAGEMENT_WHATSAPP_LINK}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-secondary"
             >
-              <Phone size={16} className="mr-2" />
               Chat on WhatsApp
             </a>
-          </div>
-        </div>
-      </section>
+          </CTAGroup>
+        </Container>
+      </Section>
     </div>
   )
 }

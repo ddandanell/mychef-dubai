@@ -357,11 +357,6 @@
       "statusCode": 301
     },
     {
-      "source": "/engagement-catering-dubai",
-      "destination": "/private-party-catering-dubai",
-      "statusCode": 301
-    },
-    {
       "source": "/anniversary-catering-dubai",
       "destination": "/private-party-catering-dubai",
       "statusCode": 301

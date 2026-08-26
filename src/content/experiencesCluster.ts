@@ -76,9 +76,9 @@ export const EXPERIENCES_NAV = [
   },
   {
     href: EXPERIENCES_PATHS.giftCards,
-    label: 'Gift Cards',
-    description: 'Give someone a myCHEF experience',
-    owns: 'Dining experience gift card Dubai',
+    label: 'Book an evening in their name',
+    description: 'We book the evening in their name. No stored-value card.',
+    owns: null,
   },
 ] as const
 
@@ -135,8 +135,8 @@ export const EXPERIENCE_KEYWORD_LOCKS = {
     ],
   },
   giftCards: {
-    primary: { keyword: 'dining experience gift card dubai', volume: null, kd: null, intent: 'transactional' },
-    secondary: [{ keyword: 'private chef gift card', volume: null, kd: null }],
+    primary: { keyword: null, volume: null, kd: null, intent: 'none' },
+    secondary: [],
   },
   halal: {
     primary: { keyword: 'halal private dining dubai', volume: null, kd: null, intent: 'commercial' },
@@ -153,10 +153,10 @@ export const EXPERIENCE_KEYWORD_LOCKS = {
 
 /** Hub SEO. Keeps the existing "Luxury Dining Experiences" positioning, widens the semantics. */
 export const experiencesHubSeo = {
-  title: 'Luxury Dining in Dubai | Private Chef Experiences | myCHEF',
+  title: 'Private Dining Experience Dubai | myCHEF',
   description:
-    'Luxury dining in Dubai, designed around the moment: romantic dinners, tasting menus, chef\'s table and desert dining by a private chef, from myCHEF.',
-  h1: 'Luxury dining in Dubai, designed around the moment',
+    'A private dining experience in Dubai: romantic dinners, tasting menus, cooking classes and desert tables, planned around the moment not a restaurant slot.',
+  h1: 'Private dining experience Dubai, designed around the moment',
   canonical: EXPERIENCES_PATHS.hub,
 } as const
 
@@ -195,7 +195,7 @@ export const EXPERIENCES_FOOTER_LINKS = [
   { label: 'Private Cooking Classes', href: EXPERIENCES_PATHS.cookingClasses },
   { label: 'Desert Dining', href: EXPERIENCES_PATHS.desert },
   { label: 'Halal Private Dining', href: EXPERIENCES_PATHS.halal },
-  { label: 'Gift Cards', href: EXPERIENCES_PATHS.giftCards },
+  { label: 'Book an evening in their name', href: EXPERIENCES_PATHS.giftCards },
 ] as const
 
 const SITE = 'https://www.mychef.ae'

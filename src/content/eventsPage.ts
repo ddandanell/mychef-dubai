@@ -112,6 +112,11 @@ export const coreEvents = [
 /** Unique maintained destinations only — no seasonal cards that 301 to the same party page. */
 export const otherEvents = [
   {
+    title: 'Engagement party catering',
+    href: '/engagement-catering-dubai',
+    linkLabel: 'Engagement party catering in Dubai',
+  },
+  {
     title: 'Private party catering',
     href: '/private-party-catering-dubai',
     linkLabel: 'Private party catering in Dubai',

@@ -59,6 +59,7 @@ const Locations: PreloadableComponent = lazyPreloadable(() => import('./pages/Lo
 const LocationDetail: PreloadableComponent = lazyPreloadable(() => import('./pages/LocationDetail'))
 const BabyShowerCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/BabyShowerCatering'))
 const PrivatePartyCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/PrivatePartyCatering'))
+const EngagementCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/EngagementCatering'))
 const DesertDining: PreloadableComponent = lazyPreloadable(() => import('./pages/DesertDining'))
 const AfternoonTeaCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/AfternoonTeaCatering'))
 const BBQCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/BBQCatering'))
@@ -218,6 +219,7 @@ export const routes: AppRoute[] = [
   { path: "/locations/:slug", element: <LocationDetail />, preload: LocationDetail.preload },
   { path: "/baby-shower-catering-dubai", element: <BabyShowerCatering />, preload: BabyShowerCatering.preload },
   { path: "/private-party-catering-dubai", element: <PrivatePartyCatering />, preload: PrivatePartyCatering.preload },
+  { path: "/engagement-catering-dubai", element: <EngagementCatering />, preload: EngagementCatering.preload },
   { path: "/desert-dining-dubai", element: <DesertDining />, preload: DesertDining.preload },
   { path: "/afternoon-tea-catering-dubai", element: <AfternoonTeaCatering />, preload: AfternoonTeaCatering.preload },
   { path: "/bbq-catering-dubai", element: <BBQCatering />, preload: BBQCatering.preload },

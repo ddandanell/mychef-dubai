@@ -41,6 +41,8 @@ import {
   jetPathway,
   jumpNav,
   officePathway,
+  priceRows,
+  pricingNotes,
   proofItems,
   quoteFactors,
   scopeSteps,
@@ -189,11 +191,41 @@ export default function Catering() {
           <SectionLabel tone="dark">PRICING</SectionLabel>
           <DisplayHeading className="text-white mb-6">Catering pricing in Dubai</DisplayHeading>
           <p className="font-inter text-body text-gray-300 leading-relaxed mb-5 max-w-[65ch]">
-            Food-only buffet and drop-off catering starts from AED 90 per person. Chef-led on-site catering starts from AED 700 per person.
+            These are the published bands. Format decides most of the figure: the same guests cost different amounts dropped off, as a buffet, or plated.
           </p>
-          <p className="font-inter text-body text-gray-300 leading-relaxed mb-8 max-w-[65ch]">
-            Your written proposal is based on guest count, menu, staffing, service format, venue access, timing and equipment. Minimums and 5% VAT are shown clearly before you book. Not every event meets the starting points.
-          </p>
+          <div className="overflow-x-auto mb-8">
+            <table className="w-full text-left font-inter text-body-sm text-gray-300">
+              <thead>
+                <tr className="border-b border-white/15">
+                  <th className="py-3 pr-4 font-medium text-white">Format</th>
+                  <th className="py-3 pr-4 font-medium text-white">What it is</th>
+                  <th className="py-3 pr-4 font-medium text-white">Staff</th>
+                  <th className="py-3 font-medium text-white">From</th>
+                </tr>
+              </thead>
+              <tbody>
+                {priceRows.map((row) => (
+                  <tr key={row.format} className="border-b border-white/10">
+                    <td className="py-3 pr-4 text-white">
+                      <Link to={row.href} className="hover:text-gold">
+                        {row.format}
+                      </Link>
+                    </td>
+                    <td className="py-3 pr-4">{row.what}</td>
+                    <td className="py-3 pr-4">{row.staff}</td>
+                    <td className="py-3">{row.price}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <ul className="mb-8 space-y-2">
+            {pricingNotes.map((note) => (
+              <li key={note} className="font-inter text-body-sm text-gray-400">
+                {note}
+              </li>
+            ))}
+          </ul>
           <p className="font-inter text-body text-gray-300 leading-relaxed mb-8 max-w-[65ch]">
             Catering service in Dubai and full service catering Dubai are the same booking: a vetted chef, matched to your kitchen and your menu. Catering services Dubai is the same service under another name.
           </p>
@@ -345,7 +377,7 @@ export default function Catering() {
         </Container>
       </Section>
 
-      <Section id="menus" tone="ivory" rhythm="chapter">
+      <Section id="styles" tone="ivory" rhythm="chapter">
         <Container>
           <SectionLabel>HOW THE FOOD IS SERVED</SectionLabel>
           <DisplayHeading className="text-black mb-4">You do not need to choose this before speaking with us</DisplayHeading>

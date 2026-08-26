@@ -1,7 +1,7 @@
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /guide/private-dining-dubai
 //     primary:     "private dining dubai"
-//     subkeywords: "private dining experience dubai" · "private dining at home dubai" · "private dinner party dubai" · "private dining ideas dubai" · "private dining dubai for couples" · "romantic private dining dubai" · "luxury private dining dubai menu" · "amazonico private dining dubai"
+//     subkeywords: "private dining at home dubai" · "private dinner party dubai" · "private dining ideas dubai" · "private dining dubai for couples" · "romantic private dining dubai" · "luxury private dining dubai menu" · "amazonico private dining dubai"
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
 import { useRef, useState } from 'react'

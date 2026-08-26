@@ -1,6 +1,6 @@
 # Dinner mega — page blueprints
 
-**Planning only.** Code locks in `experiencesCluster.ts` **win**. JSON `main_keyword` is wrong on hub, tasting, and gift cards.
+**Historical.** The live plan is the 2026-08-26 decision list. `docs/seo/myCHEF-AE-SEO-STANDARD.json` wins. The “ignore JSON” table below is void.
 
 **Product:** the moment. One line to `/private-chef-dubai` if they need a weekly chef. 80 guests → `/catering-dubai`.
 

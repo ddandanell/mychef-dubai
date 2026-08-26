@@ -2,37 +2,39 @@ import { Badge } from "@/components/ui/badge"
 import { cn } from "@/lib/utils"
 
 const TONES: Record<string, string> = {
-  ok: "border-transparent bg-emerald-100 text-emerald-900",
-  connected: "border-transparent bg-emerald-100 text-emerald-900",
-  healthy: "border-transparent bg-emerald-100 text-emerald-900",
-  live: "border-transparent bg-emerald-100 text-emerald-900",
-  done: "border-transparent bg-emerald-100 text-emerald-900",
-  warn: "border-transparent bg-amber-100 text-amber-950",
-  review: "border-transparent bg-amber-100 text-amber-950",
-  stale: "border-transparent bg-amber-100 text-amber-950",
-  bad: "border-transparent bg-red-100 text-red-900",
-  error: "border-transparent bg-red-100 text-red-900",
-  high: "border-transparent bg-red-100 text-red-900",
+  ok: "border-transparent bg-secondary text-secondary-foreground",
+  connected: "border-transparent bg-secondary text-secondary-foreground",
+  healthy: "border-transparent bg-secondary text-secondary-foreground",
+  live: "border-transparent bg-secondary text-secondary-foreground",
+  done: "border-transparent bg-secondary text-secondary-foreground",
+  warn: "border-transparent bg-accent text-accent-foreground",
+  review: "border-transparent bg-accent text-accent-foreground",
+  stale: "border-transparent bg-accent text-accent-foreground",
+  bad: "border-transparent bg-destructive/20 text-destructive-foreground",
+  error: "border-transparent bg-destructive/20 text-destructive-foreground",
+  high: "border-transparent bg-destructive/20 text-destructive-foreground",
   off: "border-transparent bg-muted text-muted-foreground",
   low: "border-transparent bg-muted text-muted-foreground",
-  medium: "border-transparent bg-amber-100 text-amber-950",
-  l2: "border-transparent bg-emerald-100 text-emerald-900",
-  l3: "border-transparent bg-amber-100 text-amber-950",
-  l4: "border-transparent bg-red-100 text-red-900",
+  medium: "border-transparent bg-accent text-accent-foreground",
+  l2: "border-transparent bg-secondary text-secondary-foreground",
+  l3: "border-transparent bg-accent text-accent-foreground",
+  l4: "border-transparent bg-destructive/20 text-destructive-foreground",
 }
 
 export function StatusPill({
   value,
+  tone,
   className,
 }: {
   value: unknown
+  tone?: "ok" | "warn" | "bad" | "off"
   className?: string
 }) {
   const raw = value == null || value === "" ? "—" : String(value)
-  const tone = TONES[raw.toLowerCase()] ?? ""
+  const color = TONES[tone ?? raw.toLowerCase()] ?? ""
   const label = raw.replaceAll("_", " ")
   return (
-    <Badge variant="outline" className={cn("font-normal", tone, className)}>
+    <Badge variant="outline" className={cn("font-normal", color, className)}>
       {label}
     </Badge>
   )

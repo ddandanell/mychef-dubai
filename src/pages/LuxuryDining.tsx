@@ -1,7 +1,7 @@
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /luxury-dining-experiences
-//     primary:     "luxury dining in dubai"
-//     subkeywords: "luxury dining experiences dubai" · "luxury dining experiences dubai price" · "luxury dining experience cost per person dubai" · "best luxury dining experiences dubai" · "luxury dining experiences packages dubai" · "luxury dining menu dubai" · "unique dining experiences dubai" · "luxury dining experience dubai" · "dining offers in dubai" · "dubai fine dining offers" · "best fine dining experience dubai" · "best fine dining in dubai"
+//     primary:     "private dining experience dubai"
+//     subkeywords: "luxury dining in dubai" · "luxury dining experiences dubai" · "luxury dining experiences dubai price" · "luxury dining experience cost per person dubai" · "best luxury dining experiences dubai" · "luxury dining experiences packages dubai" · "luxury dining menu dubai" · "unique dining experiences dubai" · "luxury dining experience dubai" · "dining offers in dubai" · "dubai fine dining offers" · "best fine dining experience dubai"
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
 import { Link } from 'react-router'

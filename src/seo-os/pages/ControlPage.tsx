@@ -1,69 +1,44 @@
-import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
+import { useNavigate } from "react-router"
+import { Bar, BarChart, XAxis, YAxis } from "recharts"
+
+import { Badge } from "@/components/ui/badge"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { type ChartConfig, ChartContainer, ChartTooltip, ChartTooltipContent } from "@/components/ui/chart"
+import { Progress } from "@/components/ui/progress"
+import { ScrollArea } from "@/components/ui/scroll-area"
+import { Skeleton } from "@/components/ui/skeleton"
+import { AnimatedCircularProgressBar } from "@/components/magicui/animated-circular-progress-bar"
+import { ShimmerButton } from "@/components/magicui/shimmer-button"
+import { ExperimentVerdict } from "@/seo-os/components/experiment-verdict"
+import { HeartbeatBanner } from "@/seo-os/components/heartbeat-banner"
+import { KpiCard } from "@/seo-os/components/kpi-card"
 import { PageFrame } from "@/seo-os/components/page-frame"
+import { ProposalRow } from "@/seo-os/components/proposal-row"
+import { SourceClock } from "@/seo-os/components/source-clock"
 import { StatusPill } from "@/seo-os/components/status-pill"
+import { Item, ItemContent, ItemDescription, ItemTitle } from "@/components/ui/item"
 import { useSeoJson } from "@/seo-os/lib/data"
+import type { ControlFile } from "@/seo-os/lib/control"
 
-/**
- * Control answers two questions no other page can: is the loop alive, and is a keyword
- * actually working. A keyword is not finished when it is locked in the contract — it is
- * finished when the page says it and Google has seen it. Locked, placed, proven.
- */
-
-type Heartbeat = {
-  ran_at?: string
-  kind?: string
-  phase?: string
-  git_commit?: string
-  age_hours?: number | null
-  gates_pass?: boolean | null
-  sources_ok?: string[]
-  sources_stale?: string[]
-  error?: string | null
-}
-
-type ControlFile = {
-  generated?: string
-  banner?: string | null
-  heartbeat?: Heartbeat
-  counts?: {
-    locked: number
-    placed: number
-    proven: number
-    locked_unproven: number
-    primaries_locked: number
-    primaries_placed: number
-    primaries_proven: number
-  }
-  sources?: { service: string; status: string; detail?: string; last_success?: string | null; error?: string | null }[]
-  queue?: { type: string; status: string; count: number }[]
-  top5?: { id: string; type: string; url?: string; keyword?: string; reason?: string; risk?: string; auto_eligible?: boolean }[]
-  experiments?: {
-    verdicts?: Record<string, number>
-    open?: { batch_id: string; url: string; keywords: string[]; applied_at?: string | null; window_days?: number; verdict?: string }[]
-  }
-  actions?: { url: string; where: string; how: string; after: string; at?: string | null }[]
-  tiles?: { value: string; label: string }[]
-}
-
-function share(part: number, whole: number): string {
-  if (!whole) return "—"
-  return `${Math.round((part / whole) * 100)}%`
-}
-
-function shareClass(part: number, whole: number): string {
-  if (!whole) return "text-muted-foreground"
-  const ratio = part / whole
-  if (ratio >= 0.6) return "text-emerald-700"
-  if (ratio >= 0.2) return "text-amber-700"
-  return "text-red-700"
-}
+const chartConfig = {
+  value: { label: "Keywords", color: "hsl(var(--primary))" },
+} satisfies ChartConfig
 
 export default function ControlPage() {
   const { data, error, loading } = useSeoJson<ControlFile>("control")
+  const navigate = useNavigate()
   const counts = data?.counts
   const beat = data?.heartbeat
-  const stale = beat?.age_hours != null && beat.age_hours > 36
+  const stale = Boolean(data?.banner) || (beat?.age_hours != null && beat.age_hours > 36)
+  const provenShare = counts && counts.locked ? Math.round((counts.proven / counts.locked) * 100) : 0
+  const top = data?.top5?.[0]
+  const chartData = counts
+    ? [
+        { name: "Locked", value: counts.locked },
+        { name: "Placed", value: counts.placed },
+        { name: "Proven", value: counts.proven },
+      ]
+    : []
 
   return (
     <PageFrame
@@ -73,145 +48,139 @@ export default function ControlPage() {
       exportData={data}
       loading={loading}
       error={error}
-      metrics={(data?.tiles ?? []).map((tile) => ({ label: tile.label, value: tile.value }))}
     >
       <div className="flex flex-col gap-8 px-4 lg:px-6">
-        {data?.banner ? (
-          <Alert variant={stale ? "destructive" : undefined}>
-            <AlertTitle>{stale ? "The loop has gone quiet" : "Needs attention"}</AlertTitle>
-            <AlertDescription>{data.banner}</AlertDescription>
-          </Alert>
-        ) : null}
+        <HeartbeatBanner banner={data?.banner} stale={stale} />
 
-        <section className="flex flex-col gap-3">
-          <h2 className="text-muted-foreground text-xs font-medium tracking-[0.14em] uppercase">
-            Locked · placed · proven
-          </h2>
-          <div className="grid gap-3 md:grid-cols-3">
-            <Card>
-              <CardHeader className="gap-1">
-                <CardDescription>Locked in the contract</CardDescription>
-                <CardTitle className="text-3xl tabular-nums">{counts?.locked ?? "—"}</CardTitle>
-              </CardHeader>
-              <CardContent className="text-muted-foreground text-sm">
-                {counts?.primaries_locked ?? 0} of them primary keywords. A lock is an intention, not a result.
-              </CardContent>
-            </Card>
-            <Card>
-              <CardHeader className="gap-1">
-                <CardDescription>Placed in the built HTML</CardDescription>
-                <CardTitle className="text-3xl tabular-nums">
-                  {counts?.placed ?? "—"}{" "}
-                  {counts ? (
-                    <span className={`text-base font-medium ${shareClass(counts.placed, counts.locked)}`}>
-                      {share(counts.placed, counts.locked)}
-                    </span>
-                  ) : null}
-                </CardTitle>
-              </CardHeader>
-              <CardContent className="text-muted-foreground text-sm">
-                Measured from the prerendered page, not from intent. Primaries need title and H1; subkeywords need a sentence.
-              </CardContent>
-            </Card>
-            <Card>
-              <CardHeader className="gap-1">
-                <CardDescription>Proven in Search Console</CardDescription>
-                <CardTitle className="text-3xl tabular-nums">
-                  {counts?.proven ?? "—"}{" "}
-                  {counts ? (
-                    <span className={`text-base font-medium ${shareClass(counts.proven, counts.locked)}`}>
-                      {share(counts.proven, counts.locked)}
-                    </span>
-                  ) : null}
-                </CardTitle>
-              </CardHeader>
-              <CardContent className="text-muted-foreground text-sm">
-                Google has shown the owner page for the phrase. {counts?.locked_unproven ?? 0} are locked and have never been seen.
-              </CardContent>
-            </Card>
+        <section className="grid gap-4 lg:grid-cols-[1fr_auto]">
+          <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
+            <KpiCard
+              label="Lock"
+              value={counts?.locked ?? 0}
+              hint={`${counts?.primaries_locked ?? 0} primaries in the contract.`}
+            />
+            <KpiCard
+              label="Place"
+              value={counts?.placed ?? 0}
+              delay={0.15}
+              hint="Measured in built HTML, not intent."
+            />
+            <KpiCard
+              label="Prove"
+              value={counts?.proven ?? 0}
+              delay={0.3}
+              hint="Google has shown the owner page for the phrase."
+            />
+            <KpiCard
+              label="Unproven"
+              value={counts?.locked_unproven ?? 0}
+              delay={0.45}
+              hint="Locked and never seen in Search Console."
+            />
           </div>
+          <Card className="flex items-center justify-center p-4">
+            <div className="flex flex-col items-center gap-2">
+              <AnimatedCircularProgressBar
+                className="size-28 text-lg"
+                max={100}
+                min={0}
+                value={provenShare}
+                gaugePrimaryColor="hsl(var(--primary))"
+                gaugeSecondaryColor="hsl(var(--muted))"
+              />
+              <p className="text-muted-foreground text-xs">Proven / locked</p>
+            </div>
+          </Card>
         </section>
 
-        <section className="flex flex-col gap-3">
-          <h2 className="text-muted-foreground text-xs font-medium tracking-[0.14em] uppercase">Last run</h2>
+        <section className="grid gap-4 lg:grid-cols-2">
           <Card>
-            <CardContent className="grid gap-4 py-5 md:grid-cols-4">
-              <div>
-                <p className="text-muted-foreground text-xs uppercase tracking-wider">When</p>
-                <p className="text-sm">
-                  {beat?.age_hours != null ? `${beat.age_hours}h ago` : "never"}{" "}
-                  <StatusPill value={stale ? "stale" : "live"} />
-                </p>
-                <p className="text-muted-foreground text-xs">{beat?.ran_at ?? ""}</p>
+            <CardHeader>
+              <CardTitle>Phase</CardTitle>
+              <CardDescription>
+                {beat?.kind ?? "—"} · {beat?.git_commit ?? "no commit"}
+              </CardDescription>
+            </CardHeader>
+            <CardContent className="flex flex-col gap-3">
+              <div className="flex items-center gap-2">
+                <Badge variant="secondary">{beat?.phase ?? "unknown"}</Badge>
+                <StatusPill value={beat?.gates_pass === false ? "error" : beat?.gates_pass ? "ok" : "review"} />
               </div>
-              <div>
-                <p className="text-muted-foreground text-xs uppercase tracking-wider">Kind and phase</p>
-                <p className="text-sm">
-                  {beat?.kind ?? "—"} · {beat?.phase ?? "—"}
-                </p>
-                <p className="text-muted-foreground font-mono text-xs">{beat?.git_commit ?? ""}</p>
-              </div>
-              <div>
-                <p className="text-muted-foreground text-xs uppercase tracking-wider">Gates</p>
-                <p className="text-sm">
-                  <StatusPill value={beat?.gates_pass === false ? "error" : beat?.gates_pass ? "ok" : "review"} />
-                </p>
-              </div>
-              <div>
-                <p className="text-muted-foreground text-xs uppercase tracking-wider">Sources</p>
-                <p className="text-sm">
-                  {(beat?.sources_ok ?? []).length} feeding · {(beat?.sources_stale ?? []).length} not
-                </p>
-                <p className="text-muted-foreground text-xs">{(beat?.sources_stale ?? []).join(", ")}</p>
-              </div>
+              <Progress value={provenShare} />
+              <p className="text-muted-foreground text-xs">
+                {beat?.age_hours != null ? `${beat.age_hours}h since last run` : "never ran"}
+              </p>
+            </CardContent>
+          </Card>
+          <Card>
+            <CardHeader>
+              <CardTitle>Score mix</CardTitle>
+              <CardDescription>Lock is not place. Place is not prove.</CardDescription>
+            </CardHeader>
+            <CardContent>
+              {chartData.length ? (
+                <ChartContainer config={chartConfig} className="h-40 w-full">
+                  <BarChart data={chartData} layout="vertical" margin={{ left: 8 }}>
+                    <XAxis type="number" hide />
+                    <YAxis type="category" dataKey="name" width={64} tickLine={false} axisLine={false} />
+                    <ChartTooltip content={<ChartTooltipContent />} />
+                    <Bar dataKey="value" fill="var(--color-value)" radius={4} />
+                  </BarChart>
+                </ChartContainer>
+              ) : (
+                <Skeleton className="h-40 w-full" />
+              )}
             </CardContent>
           </Card>
         </section>
 
-        {data?.top5?.length ? (
-          <section className="flex flex-col gap-3">
-            <h2 className="text-muted-foreground text-xs font-medium tracking-[0.14em] uppercase">
-              What to do next
-            </h2>
-            <div className="flex flex-col gap-2">
-              {data.top5.map((item) => (
-                <Card key={item.id}>
-                  <CardContent className="flex flex-col gap-1 py-4">
-                    <div className="flex flex-wrap items-center gap-2">
-                      <StatusPill value={item.type} />
-                      {item.risk ? <StatusPill value={item.risk} /> : null}
-                      <span className="font-mono text-xs">{item.url}</span>
-                      {item.keyword ? <span className="text-muted-foreground text-xs">{item.keyword}</span> : null}
-                      {item.auto_eligible ? <StatusPill value="auto-eligible" /> : null}
-                    </div>
-                    <p className="text-sm">{item.reason}</p>
-                  </CardContent>
-                </Card>
-              ))}
-            </div>
-          </section>
-        ) : null}
+        <section className="flex flex-col gap-3">
+          <div className="flex flex-wrap items-center justify-between gap-3">
+            <h2 className="text-muted-foreground text-xs font-medium tracking-[0.14em] uppercase">Top 5</h2>
+            <ShimmerButton
+              type="button"
+              className="h-9 px-4 py-0 text-sm"
+              disabled={!top}
+              onClick={() => navigate("/seo/queue")}
+            >
+              Open top proposal
+            </ShimmerButton>
+          </div>
+          <div className="flex flex-col gap-2">
+            {(data?.top5 ?? []).map((item) => (
+              <ProposalRow key={item.id} item={item} />
+            ))}
+          </div>
+        </section>
 
         <section className="flex flex-col gap-3">
-          <h2 className="text-muted-foreground text-xs font-medium tracking-[0.14em] uppercase">Experiments</h2>
+          <h2 className="text-muted-foreground text-xs font-medium tracking-[0.14em] uppercase">Source clocks</h2>
+          <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
+            {(data?.sources ?? []).map((source) => (
+              <SourceClock key={source.service} source={source} />
+            ))}
+          </div>
+        </section>
+
+        <section className="flex flex-col gap-3">
+          <h2 className="text-muted-foreground text-xs font-medium tracking-[0.14em] uppercase">Open experiments</h2>
           <Card>
-            <CardContent className="py-5 text-sm">
+            <CardContent className="py-4">
               {data?.experiments?.open?.length ? (
-                <ul className="flex flex-col gap-2">
-                  {data.experiments.open.map((x) => (
-                    <li key={x.batch_id} className="flex flex-wrap items-center gap-2">
-                      <StatusPill value={x.verdict ?? "too_soon"} />
-                      <span className="font-mono text-xs">{x.url}</span>
+                <div className="flex flex-col gap-2">
+                  {data.experiments.open.map((row) => (
+                    <div key={row.batch_id} className="flex flex-wrap items-center gap-2 text-sm">
+                      <ExperimentVerdict value={row.verdict} />
+                      <span className="font-mono text-xs">{row.url}</span>
                       <span className="text-muted-foreground text-xs">
-                        {x.applied_at} · {x.window_days}-day window
+                        {row.applied_at} · {row.window_days}-day window
                       </span>
-                    </li>
+                    </div>
                   ))}
-                </ul>
+                </div>
               ) : (
-                <p className="text-muted-foreground">
-                  No experiment is open. Every applied change should open one, so a verdict exists before the next edit
-                  to the same page.
+                <p className="text-muted-foreground text-sm">
+                  No experiment is open. Every applied change should open one before the next edit to the same page.
                 </p>
               )}
             </CardContent>
@@ -219,31 +188,23 @@ export default function ControlPage() {
         </section>
 
         <section className="flex flex-col gap-3">
-          <h2 className="text-muted-foreground text-xs font-medium tracking-[0.14em] uppercase">
-            The last 20 changes
-          </h2>
-          <div className="overflow-x-auto rounded-lg border">
-            <table className="w-full text-sm">
-              <thead className="bg-muted/50 text-muted-foreground text-xs uppercase tracking-wider">
-                <tr>
-                  <th className="px-3 py-2 text-left font-medium">URL</th>
-                  <th className="px-3 py-2 text-left font-medium">Where</th>
-                  <th className="px-3 py-2 text-left font-medium">What arrived</th>
-                  <th className="px-3 py-2 text-left font-medium">When</th>
-                </tr>
-              </thead>
-              <tbody>
-                {(data?.actions ?? []).map((a, i) => (
-                  <tr key={`${a.url}-${i}`} className="border-t align-top">
-                    <td className="px-3 py-2 font-mono text-xs">{a.url}</td>
-                    <td className="px-3 py-2 text-xs">{a.where}</td>
-                    <td className="text-muted-foreground px-3 py-2 text-xs">{a.after}</td>
-                    <td className="text-muted-foreground px-3 py-2 font-mono text-xs whitespace-nowrap">{a.at}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
+          <h2 className="text-muted-foreground text-xs font-medium tracking-[0.14em] uppercase">Last actions</h2>
+          <ScrollArea className="h-72 rounded-lg border">
+            <div className="flex flex-col">
+              {(data?.actions ?? []).map((action, index) => (
+                <Item key={`${action.url}-${index}`} size="sm" className="border-b last:border-b-0">
+                  <ItemContent>
+                    <ItemTitle>
+                      <span className="font-mono text-xs">{action.url}</span>
+                      <span className="text-muted-foreground text-xs">{action.where}</span>
+                    </ItemTitle>
+                    <ItemDescription>{action.after}</ItemDescription>
+                  </ItemContent>
+                  <span className="text-muted-foreground font-mono text-xs">{action.at}</span>
+                </Item>
+              ))}
+            </div>
+          </ScrollArea>
         </section>
       </div>
     </PageFrame>

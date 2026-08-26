@@ -48,6 +48,7 @@ const EXCLUDED_PATHS = new Set([
   '/privacy-policy',
   '/terms',
   '/site-map',
+  '/gift-cards',
   '/government-event-catering-dubai',
   '/healthcare-catering-dubai',
   '/school-catering-dubai',
