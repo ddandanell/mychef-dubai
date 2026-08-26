@@ -184,7 +184,9 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   const json = JSON.stringify(data)
   const brief = digest(data).slice(0, 14000)   // the relay rejects very long prompts
   const gateway = process.env.AI_GATEWAY_API_KEY
-  const oidc = process.env.VERCEL_OIDC_TOKEN
+  // Vercel mints an OIDC token per invocation. It arrives as a request header on Node
+  // functions and only sometimes as an environment variable, so check both.
+  const oidc = (req.headers['x-vercel-oidc-token'] as string | undefined) || process.env.VERCEL_OIDC_TOKEN
   const anthropic = process.env.ANTHROPIC_API_KEY
 
   // Deliberately not in this chain: DataForSEO's Claude endpoint. It caps user_prompt at about
