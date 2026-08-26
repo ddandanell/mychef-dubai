@@ -36,6 +36,20 @@ python3 docs/seo/keyword-map/build-keyword-map.py             # rebuild the map 
 
 `scripts/generate-keyword-locks.py` writes a `// KEYWORD LOCK … // END KEYWORD LOCK` header into every page component (resolved through `src/routes.tsx`), a `keyword_lock` field into each HandoffPage JSON, and `src/content/keywordLocks.ts` (`KEYWORD_LOCKS`, `keywordLockFor(pathname)`). The contract stays the source of truth; `npm run verify:keyword-locks` fails when any file drifts from it, so a session that rewrites a page from an old copy is caught before it ships. Not a `<meta name="keywords">` tag — search engines ignore that and it reads as a spam signal.
 
+## DataForSEO (connected 26 Aug 2026)
+
+Credentials live in `~/.config/claude-seo/dataforseo.env` (mode 600, never in the repo). All pulls are UAE (`location_code 2784`) / English and land in `.live/research/dataforseo/`:
+
+| Pull | Endpoint | Cost |
+|---|---|---|
+| UAE volume + CPC + 12-month history for every contract keyword | `keywords_data/google_ads/search_volume/live` | $0.09 per 1,000 keywords |
+| Difficulty / intent for every contract keyword | `dataforseo_labs/google/bulk_keyword_difficulty/live`, `search_intent/live` | ~$0.03 per 1,000 |
+| What mychef.ae and 7 competitors rank for (UAE) | `dataforseo_labs/google/ranked_keywords/live` | ~$0.01–0.03 each |
+| Demand pool around the head terms | `keyword_suggestions/live`, `related_keywords/live`, `keyword_ideas/live` | ~$0.01–0.13 each |
+| Live UAE SERPs, depth 30, per keyword (SERP similarity + current position) | `serp/google/organic/live/regular` | $0.005 per keyword |
+
+`harvest-serps.py` (resumable) fetches the SERPs; `build-demand.py` → `demand.html` (page verdicts, demand we are not on, current rankings); `build-report.py` → `report.html` + `report.csv` (the 12-column keyword report: volume · intent · commercial value · SERP similarity · difficulty · position · Search Console · CTR · competitor gap · entity coverage · recommended page · keep/merge/new). Search Console columns stay empty until the service account is on the mychef.ae property; Bing figures fill in where they exist.
+
 ## What the data can and cannot say
 
-Volumes exist only for the private-chef cluster (Semrush UAE, 25 Aug 2026) and the 13 `ae` rows of the owner's export. Autocomplete proves a phrase is typed, not how often. Semrush is out of API units; GSC has no mychef.ae property; Ahrefs is plan-gated (see `docs/seo/CONSOLIDATION-PLAN.md` §3). Pages that keep open slots do so because no *relevant* phrase exists in the pool — padding them would be the damage the brief forbids.
+Volumes are Google Ads for the UAE via DataForSEO (rounded, small numbers suppressed — 0 means "below the floor", not "never searched"); only 32 of 163 locked primaries show any. Autocomplete proves a phrase is typed, not how often. Semrush is out of API units; GSC has no mychef.ae property; Ahrefs is plan-gated (see `docs/seo/CONSOLIDATION-PLAN.md` §3). Pages that keep open slots do so because no *relevant* phrase exists in the pool — padding them would be the damage the brief forbids.

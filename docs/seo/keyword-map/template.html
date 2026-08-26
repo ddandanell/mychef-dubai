@@ -93,19 +93,19 @@
 <main>
   <div id="silos"></div>
   <div class="global" id="global"></div>
-  <p class="legend">Placement letters: <code>T</code> title · <code>D</code> meta description · <code>H1</code> · <code>H2</code> · <code>F</code> first 100 words · <code>B</code> body, <code>×n</code> = times used in the body. Dim = not found on the live page. Primary score /10: title 3 · H1 3 · description 2 · one H2 1 · used at least twice 1. Subkeyword score /4: body mentions (max 3) + description 1; a sub inside a title/H1/H2 is flagged, because the contract allows subkeywords in sentences only. "Other pages" counts live pages (excluding the owner) where the phrase appears anywhere. Volumes exist only for the private-chef cluster (Semrush UAE, 25 Aug 2026); everything else is unmeasured — see docs/seo/CONSOLIDATION-PLAN.md §3.</p>
+  <p class="legend">Placement letters: <code>T</code> title · <code>D</code> meta description · <code>H1</code> · <code>H2</code> · <code>F</code> first 100 words · <code>B</code> body, <code>×n</code> = times used in the body. Dim = not found on the live page. Primary score /10: title 3 · H1 3 · description 2 · one H2 1 · used at least twice 1. Subkeyword score /4: body mentions (max 3) + description 1; a sub inside a title/H1/H2 is flagged, because the contract allows subkeywords in sentences only. "Other pages" counts live pages (excluding the owner) where the phrase appears anywhere. Volumes: <span id="volsrc"></span>. A blank volume means Google Ads reports none for the UAE — not that the phrase is never searched, but that it is below the tool's floor.</p>
 </main>
 <script id="data" type="application/json">__DATA__</script>
 <script>
 const D = JSON.parse(document.getElementById('data').textContent);
 const $ = (s, el = document) => el.querySelector(s);
 const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
-document.getElementById('gen').textContent = D.generated;
+document.getElementById('gen').textContent = D.generated; document.getElementById('volsrc').textContent = D.stats.volume_source || '';
 
 const S = D.stats;
 const tiles = [
   ['Active pages', S.pages_active, `${S.pages_retired} retired · ${S.pages_noindex} noindex`, ''],
-  ['Locked primaries', S.primaries, `${S.measured_volumes} with a measured volume`, ''],
+  ['Locked primaries', S.primaries, `${S.measured_volumes} with UAE volume > 0`, S.measured_volumes < S.primaries / 2 ? 'warn' : ''],
   ['Subkeywords', S.subkeywords, `avg ${S.avg_subs} per page · cap 8`, ''],
   ['Room to add', S.room_total, `${S.pages_with_room} pages have free slots`, 'good'],
   ['Assigned twice', S.doubles, 'same phrase on 2+ pages', S.doubles ? 'warn' : 'good'],

@@ -51,12 +51,20 @@ pages = contract["pages"]
 banned = {b["term"].lower() for b in contract.get("banned_terms", [])}
 master = list(csv.DictReader(open(ROOT / "docs/seo/mychef-master-keywords.csv")))
 
-# volumes from the private-chef lock table (the only measured numbers in the repo)
+# volumes: DataForSEO Google Ads, UAE (location 2784, en) when pulled; else the private-chef lock table
 vol = {}
 ts = (ROOT / "src/content/privateChefCluster.ts").read_text()
 for m in re.finditer(r"keyword: '([^']+)', volume: (\d+|null)", ts):
     if m.group(2) != "null":
         vol[m.group(1).lower()] = int(m.group(2))
+_ads = LIVE / "research/dataforseo/google_ads_search_volume.json"
+if _ads.exists():
+    for r in json.loads(_ads.read_text()):
+        if r.get("keyword"):
+            vol[r["keyword"].lower()] = r.get("search_volume") or 0
+    VOL_SOURCE = "DataForSEO · Google Ads · United Arab Emirates · " + __import__("datetime").date.today().isoformat()
+else:
+    VOL_SOURCE = "private-chef lock table (Semrush UAE 2026-08-25)"
 
 def norm(s): return re.sub(r"\s+", " ", re.sub(r"[’'`]", "", (s or "").replace("-", " ").replace("–", " "))).strip().lower()
 def has(text, phrase):
@@ -125,8 +133,8 @@ for url, p in pages.items():
     rows.append({
         "url": url, "silo": p.get("silo") or "Unassigned", "hub": p.get("hub"), "is_hub": bool(p.get("is_hub")),
         "page_type": p.get("page_type"), "retired": retired, "noindex": noindex, "redirect_to": idx.get("redirect_to"),
-        "primary": primary, "primary_volume": vol.get(primary.lower()), "primary_place": place(primary, "primary") if primary else None,
-        "subs": [{"kw": s, "volume": vol.get(s.lower()), "place": place(s)} for s in subs],
+        "primary": primary, "primary_volume": vol.get(re.sub(r"[^a-z0-9 ]", "", norm(primary))), "primary_place": place(primary, "primary") if primary else None,
+        "subs": [{"kw": s, "volume": vol.get(re.sub(r"[^a-z0-9 ]", "", norm(s))), "place": place(s)} for s in subs],
         "cap": cap, "room": max(0, cap - len(subs)),
         "title": lv["title"] if lv else None, "description": lv["description"] if lv else None, "h1": lv["h1"] if lv else None, "h1_count": lv["h1_count"] if lv else None,
         "words": lv["words"] if lv else None, "live": lv is not None, "shell": bool(lv and lv["shell"]),
@@ -222,7 +230,7 @@ stats = {
     "primary_missing_title": sum(1 for r in active if r["primary"] and r["primary_place"] and not r["primary_place"]["title"]),
     "primary_missing_h1": sum(1 for r in active if r["primary"] and r["primary_place"] and not r["primary_place"]["h1"]),
     "shells": sum(1 for r in rows if r["shell"]), "candidates_total": sum(len(r["candidates"]) for r in active),
-    "measured_volumes": len(vol),
+    "measured_volumes": sum(1 for r in rows if r["primary_volume"]) , "volume_source": VOL_SOURCE,
     "primary_score_avg": round(sum(r["keyword_score"]["primary"] for r in active if r["keyword_score"]["primary"] is not None) / max(1, sum(1 for r in active if r["keyword_score"]["primary"] is not None)), 1),
     "primary_score_full": sum(1 for r in active if r["keyword_score"]["primary"] == 10),
     "sub_violations": sum(r["keyword_score"]["sub_violations"] for r in active),
