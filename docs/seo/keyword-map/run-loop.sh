@@ -16,6 +16,7 @@ else [ -d dist ] || { echo "no dist/ — run: npm run build:prerender"; exit 1; 
 # the keyword file scored stale HTML: FAQ coverage read 9 keywords when the built pages had 203.
 SNAP=""; [ "$MODE" = "dist" ] && SNAP="--dist"
 echo "== traffic (Vercel Web Analytics)"; python3 docs/seo/keyword-map/harvest-vercel-analytics.py || true
+echo "== behaviour (GA4)"; python3 docs/seo/keyword-map/harvest-ga4.py || true
 echo "== research pages"
 python3 docs/seo/keyword-map/build-backlog.py $SNAP >/dev/null
 python3 docs/seo/keyword-map/build-demand.py >/dev/null
