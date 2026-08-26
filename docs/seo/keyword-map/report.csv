@@ -6,7 +6,7 @@ catering services dubai,2400,commercial,10896.0,0.3,8,,,,,,"competitor #6, we no
 catering services in dubai,2400,commercial,10896.0,0.3,14,,,,,,"competitor #5, we not in top 30",1.0,True,/catering-dubai,sub,/catering-dubai,keep (sub)
 top chef dubai,1600,informational,2336.0,,5,,,,,,"competitor #30, we not in top 30",0.5,False,,,,backlog
 catering companies in dubai,1000,commercial,5070.0,0.5,25,,,,,,no tracked competitor in top 30,1.0,True,/best-catering-companies-dubai,sub,/best-catering-companies-dubai,keep (sub)
-catering company dubai,1000,commercial,5070.0,0.5,22,,,,,,"competitor #8, we not in top 30",1.0,False,/best-catering-companies-dubai,sub,/best-catering-companies-dubai,keep (sub)
+catering company dubai,1000,commercial,5070.0,0.5,22,,,,,,"competitor #8, we not in top 30",1.0,True,/best-catering-companies-dubai,sub,/best-catering-companies-dubai,keep (sub)
 catering company in dubai,1000,commercial,5070.0,0.5,22,,,,,,"competitor #4, we not in top 30",1.0,True,/best-catering-companies-dubai,sub,/best-catering-companies-dubai,keep (sub)
 dubai tattoo by chef,1000,commercial,210.0,,0,,,,,,"competitor #29, we not in top 30",,,,,,drop — off-intent
 abu dhabi catering,880,commercial,0,,20,n/a,,,,,"competitor #7, we not in top 30",,,,,,drop — off-intent
@@ -101,7 +101,7 @@ cooking chefs,140,informational,0,,14,,,,,,"competitor #1, we not in top 30",1.0
 corporate catering lunch,140,transactional,0,,0,27,,,,,"competitor #2, we #27",1.0,False,,,,new page candidate (passes demand; apply the 3-of-8 rule)
 corporate lunch catering,140,commercial,0,,0,,,,,,"competitor #5, we not in top 30",1.0,False,,,,new page candidate (passes demand; apply the 3-of-8 rule)
 fb catering abu dhabi,140,commercial,0,,11,n/a,,,,,"competitor #19, we not in top 30",,,,,,drop — off-intent
-food party dubai menu,140,informational,0,0.0,0,,,,,,no tracked competitor in top 30,1.0,False,/blog/dinner-party-menu-ideas-dubai,sub,/blog/dinner-party-menu-ideas-dubai,keep (sub)
+food party dubai menu,140,informational,0,0.0,0,,,,,,no tracked competitor in top 30,1.0,True,/blog/dinner-party-menu-ideas-dubai,sub,/blog/dinner-party-menu-ideas-dubai,keep (sub)
 grand catering,140,commercial,0,,0,n/a,,,,,"competitor #24, we not in top 30",,,,,,new page candidate (passes demand; apply the 3-of-8 rule)
 home catering dubai,140,commercial,746.2,0.08,4,,,,,,"competitor #7, we not in top 30",1.0,True,/catering-dubai,sub,/private-party-catering-dubai,merge → /private-party-catering-dubai
 lunch corporate catering,140,commercial,0,,0,32,,,,,"competitor #5, we #32",1.0,False,,,,new page candidate (passes demand; apply the 3-of-8 rule)
@@ -152,7 +152,7 @@ indian catering dubai,70,commercial,108.5,1.0,9,,,,,,no tracked competitor in to
 indian catering services dubai,70,commercial,0,,28,,,,,,no tracked competitor in top 30,0.67,False,,,/indian-catering-dubai,merge → /indian-catering-dubai
 indian food catering dubai,70,commercial,137.2,,,,,,,,no tracked competitor in top 30,1.0,False,,,,backlog
 indian food catering in dubai,70,commercial,85.4,,,,,,,,no tracked competitor in top 30,1.0,False,,,/indian-catering-dubai,merge → /indian-catering-dubai
-list of catering companies in dubai,70,commercial,172.9,0.33,17,,,,,,no tracked competitor in top 30,1.0,False,/best-catering-companies-dubai,sub,/best-catering-companies-dubai,keep (sub)
+list of catering companies in dubai,70,commercial,172.9,0.33,17,,,,,,no tracked competitor in top 30,1.0,True,/best-catering-companies-dubai,sub,/best-catering-companies-dubai,keep (sub)
 part time cook in dubai,70,informational,138.6,0.14,,,,,,,no tracked competitor in top 30,1.0,True,/part-time-private-chef-dubai,sub,/part-time-private-chef-dubai,keep (sub)
 personal chef dubai,70,commercial,171.5,0.43,0,28,,,,,"no tracked competitor in top 30, we #28",1.0,False,/private-chef-dubai,sub,/private-chef-dubai/how-it-works,merge → /private-chef-dubai/how-it-works
 private dinner in dubai,70,transactional,116.9,0.0,1,,,,,,no tracked competitor in top 30,1.0,True,/apartment-private-dining-dubai,sub,/guide/private-dining-dubai,merge → /guide/private-dining-dubai
@@ -250,7 +250,7 @@ pizza catering dubai,30,commercial,51.6,,,,,,,,no tracked competitor in top 30,1
 rk termin dubai speciality chef,30,transactional,0,,,,,,,,no tracked competitor in top 30,,,,,,backlog
 southern food catering service dubai,30,commercial,70.5,,,n/a,,,,,,,,,,,backlog
 top chef cooking studio dubai,30,informational,25.8,,,,,,,,no tracked competitor in top 30,0.5,False,,,,backlog
-vegan menu plan,30,informational,72.3,0.0,,,,,,,no tracked competitor in top 30,1.0,False,/blog/vegan-catering-dubai-guide,sub,/blog/vegan-catering-dubai-guide,keep (sub)
+vegan menu plan,30,informational,72.3,0.0,,,,,,,no tracked competitor in top 30,1.0,True,/blog/vegan-catering-dubai-guide,sub,/blog/vegan-catering-dubai-guide,keep (sub)
 affordable catering dubai,20,commercial,88.4,,,,,,,,no tracked competitor in top 30,0.5,False,,,,backlog
 arabic catering dubai,20,commercial,21.8,1.0,,,,,,,no tracked competitor in top 30,1.0,True,/arabic-catering-dubai,primary,/arabic-catering-dubai,keep (primary)
 bbq chef dubai,20,commercial,51.0,,,,,,,,no tracked competitor in top 30,1.0,False,,,,backlog
@@ -325,8 +325,8 @@ best indian food catering in dubai,10,commercial,0,,,,,,,,no tracked competitor 
 best private dining rooms dubai,10,commercial,53.0,,,,,,,,no tracked competitor in top 30,1.0,True,/blog/private-chef-palm-jumeirah-guide,sub,/blog/private-chef-palm-jumeirah-guide,keep (sub)
 bodybuilding meal prep dubai,10,transactional,0,0.44,,,,,,,no tracked competitor in top 30,1.0,True,/fitness-meal-prep-dubai,sub,/wellness-meal-prep-dubai,merge → /wellness-meal-prep-dubai
 book a private chef,10,transactional,0,0.27,,20,,,,,"no tracked competitor in top 30, we #20",1.0,True,/blog/best-private-chef-birthday-dinner-dubai,sub,/blog/best-private-chef-birthday-dinner-dubai,keep (sub)
-brunch ideas at home easy,10,informational,0,0.0,,,,,,,no tracked competitor in top 30,1.0,False,/blog/brunch-at-home-dubai,sub,/blog/brunch-at-home-dubai,keep (sub)
-casual dinner party menu ideas,10,commercial,0,0.08,,,,,,,no tracked competitor in top 30,1.0,False,/blog/dinner-party-menu-ideas-dubai,sub,/blog/dinner-party-menu-ideas-dubai,keep (sub)
+brunch ideas at home easy,10,informational,0,0.0,,,,,,,no tracked competitor in top 30,1.0,True,/blog/brunch-at-home-dubai,sub,/blog/brunch-at-home-dubai,keep (sub)
+casual dinner party menu ideas,10,commercial,0,0.08,,,,,,,no tracked competitor in top 30,1.0,True,/blog/dinner-party-menu-ideas-dubai,sub,/blog/dinner-party-menu-ideas-dubai,keep (sub)
 cat food price in dubai,10,commercial,2.9,,,,,,,,no tracked competitor in top 30,1.0,True,/influencer-partnerships,sub,/influencer-partnerships,keep (sub)
 catering business examples,10,commercial,0,,,,,,,,no tracked competitor in top 30,,,,,,backlog
 catering business for sale in dubai,10,transactional,0,,,,,,,,no tracked competitor in top 30,,,,,,backlog
@@ -350,7 +350,7 @@ chef middle east llc dubai,10,navigational,3.6,0.0,,,,,,,no tracked competitor i
 chef recruitment agencies in dubai,10,commercial,0,0.0,,,,,,,no tracked competitor in top 30,1.0,True,/about,sub,/about,keep (sub)
 corporate catering in dubai,10,commercial,66.7,0.44,,,,,,,no tracked competitor in top 30,1.0,True,/blog/corporate-event-catering-ideas-dubai,sub,/corporate,merge → /corporate
 corporate event catering near me,10,commercial,0,,,,,,,,no tracked competitor in top 30,1.0,True,/dubai-event-catering-price-guide-2026,sub,/dubai-event-catering-price-guide-2026,keep (sub)
-cost of a private chef,10,commercial,0,0.14,,,,,,,no tracked competitor in top 30,1.0,False,/blog/private-chef-vs-restaurant-dubai,sub,/blog/private-chef-vs-restaurant-dubai,keep (sub)
+cost of a private chef,10,commercial,0,0.14,,,,,,,no tracked competitor in top 30,1.0,True,/blog/private-chef-vs-restaurant-dubai,sub,/blog/private-chef-vs-restaurant-dubai,keep (sub)
 culinary academy dubai,10,commercial,26.0,0.57,,,,,,,no tracked competitor in top 30,1.0,True,/chef-training-academy,sub,/chef-training-academy,keep (sub)
 damac catering dubai,10,commercial,0,,,,,,,,no tracked competitor in top 30,,,,,,backlog
 desert catering dubai,10,commercial,0,,,,,,,,no tracked competitor in top 30,,,,,,backlog
@@ -358,7 +358,7 @@ dessert table catering near me,10,commercial,0,0.0,,,,,,,no tracked competitor i
 diwali food items,10,informational,0,0.0,,,,,,,no tracked competitor in top 30,1.0,True,/diwali-catering-dubai,sub,/diwali-catering-dubai,keep (sub)
 dnata catering dubai,10,commercial,0,,,,,,,,no tracked competitor in top 30,0.5,False,,,,backlog
 dubai cruise dinner booking,10,transactional,0,0.0,,,,,,,no tracked competitor in top 30,1.0,True,/luxury-dinner-planning-guide-dubai,sub,/luxury-dinner-planning-guide-dubai,keep (sub)
-dubai dinner cruise deals,10,commercial,13.3,0.0,,,,,,,no tracked competitor in top 30,0.33,False,/corporate-dinner-package-dubai,sub,/corporate-dinner-package-dubai,drop — off-intent
+dubai dinner cruise deals,10,commercial,13.3,0.0,,,,,,,no tracked competitor in top 30,1.0,True,/corporate-dinner-package-dubai,sub,/corporate-dinner-package-dubai,drop — off-intent
 dubai food fair 2026,10,informational,0,0.0,,,,,,,no tracked competitor in top 30,1.0,True,/dubai-food-trends-report-2026,sub,/dubai-food-trends-report-2026,keep (sub)
 dubai food price list,10,commercial,0,,33,,,,,,no tracked competitor in top 30,1.0,True,/influencer-partnerships,sub,/influencer-partnerships,keep (sub)
 dubai ncc catering company,10,commercial,25.4,,0,,,,,,no tracked competitor in top 30,,,,,,backlog
@@ -367,7 +367,7 @@ dubai semi government catering company,10,commercial,0,,,,,,,,no tracked competi
 dubai semi govt catering company,10,commercial,0,,,,,,,,no tracked competitor in top 30,,,,,,backlog
 eid lunch offers in dubai,10,commercial,0,0.0,,,,,,,no tracked competitor in top 30,1.0,True,/eid-catering-dubai,sub,/eid-catering-dubai,keep (sub)
 ep catering dubai,10,commercial,0,,,,,,,,no tracked competitor in top 30,,,,,,backlog
-event catering menu ideas,10,commercial,0,0.0,,,,,,,no tracked competitor in top 30,1.0,False,/blog/corporate-event-catering-ideas-dubai,sub,/blog/corporate-event-catering-ideas-dubai,keep (sub)
+event catering menu ideas,10,commercial,0,0.0,,,,,,,no tracked competitor in top 30,1.0,True,/blog/corporate-event-catering-ideas-dubai,sub,/blog/corporate-event-catering-ideas-dubai,keep (sub)
 filipino catering services in dubai,10,commercial,0,,,,,,,,no tracked competitor in top 30,,,,,,backlog
 find a private chef,10,transactional,0,0.18,,35,,,,,"no tracked competitor in top 30, we #35",1.0,True,/how-we-vet-our-chefs,sub,/locations/umm-suqeim,merge → /locations/umm-suqeim
 fitt meals catering services dubai,10,commercial,0,,,,,,,,no tracked competitor in top 30,0.75,False,,,,backlog
@@ -376,8 +376,8 @@ full time private chef,10,commercial,49.7,0.33,,30,,,,,"no tracked competitor in
 ginza catering dubai,10,commercial,0,,,,,,,,no tracked competitor in top 30,0.5,False,,,,backlog
 grazing platter dubai,10,transactional,0,0.31,,,,,,,no tracked competitor in top 30,1.0,True,/grazing-table-dubai,sub,/grazing-table-dubai,keep (sub)
 grazing table catering,10,transactional,0,0.06,,,,,,,no tracked competitor in top 30,1.0,True,/blog/grazing-table-vs-buffet-dubai,sub,/blog/grazing-table-vs-buffet-dubai,keep (sub)
-grazing table examples,10,informational,0,0.0,,,,,,,no tracked competitor in top 30,0.67,False,/blog/grazing-table-vs-buffet-dubai,sub,/blog/grazing-table-vs-buffet-dubai,keep (sub)
-grazing table for 50 guests,10,transactional,0,0.0,,,,,,,no tracked competitor in top 30,0.75,False,/blog/grazing-table-vs-buffet-dubai,sub,/blog/grazing-table-vs-buffet-dubai,keep (sub)
+grazing table examples,10,informational,0,0.0,,,,,,,no tracked competitor in top 30,1.0,True,/blog/grazing-table-vs-buffet-dubai,sub,/blog/grazing-table-vs-buffet-dubai,keep (sub)
+grazing table for 50 guests,10,transactional,0,0.0,,,,,,,no tracked competitor in top 30,1.0,True,/blog/grazing-table-vs-buffet-dubai,sub,/blog/grazing-table-vs-buffet-dubai,keep (sub)
 gulf catering company uae,10,commercial,0,0.0,,,,,,,no tracked competitor in top 30,1.0,True,/quality-guarantee-dubai,sub,/quality-guarantee-dubai,keep (sub)
 halal private dining,10,commercial,0,0.0,,,,,,,no tracked competitor in top 30,1.0,True,/blog/halal-private-dining-dubai-what-to-ask,sub,/blog/halal-private-dining-dubai-what-to-ask,keep (sub)
 halal wedding catering prices,10,commercial,0,0.0,,,,,,,no tracked competitor in top 30,1.0,True,/blog/wedding-catering-cost-dubai,sub,/blog/wedding-catering-cost-dubai,keep (sub)
@@ -401,7 +401,7 @@ iftar buffet dubai al barsha,10,informational,0,0.0,,,,,,,no tracked competitor 
 iftar buffet dubai jbr,10,transactional,0,0.0,,,,,,,no tracked competitor in top 30,1.0,True,/locations/jbr,sub,/locations/jbr,keep (sub)
 iftar buffet dubai jlt,10,transactional,0,0.0,,,,,,,no tracked competitor in top 30,0.67,False,/locations/jlt,sub,/locations/jlt,keep (sub)
 iftar buffet dubai jumeirah,10,transactional,0,,,,,,,,no tracked competitor in top 30,1.0,True,/locations/jumeirah,sub,/locations/jumeirah,keep (sub)
-iftar buffet menu dubai,10,transactional,0,,,,,,,,no tracked competitor in top 30,1.0,False,/blog/iftar-at-home-dubai,sub,/blog/iftar-at-home-dubai,keep (sub)
+iftar buffet menu dubai,10,transactional,0,,,,,,,,no tracked competitor in top 30,1.0,True,/blog/iftar-at-home-dubai,sub,/blog/iftar-at-home-dubai,keep (sub)
 indian catering companies in dubai,10,commercial,0,,,,,,,,no tracked competitor in top 30,0.67,False,,,/indian-catering-dubai,merge → /indian-catering-dubai
 indian food catering services in dubai,10,commercial,0,,,,,,,,no tracked competitor in top 30,0.75,False,,,/indian-catering-dubai,merge → /indian-catering-dubai
 indian party catering dubai,10,commercial,0,,,,,,,,no tracked competitor in top 30,1.0,False,,,/diwali-catering-dubai,merge → /diwali-catering-dubai
@@ -414,7 +414,7 @@ leading catering company in dubai,10,commercial,15.0,0.5,,,,,,,no tracked compet
 list of food catering companies in dubai,10,commercial,0,,,,,,,,no tracked competitor in top 30,1.0,False,,,/best-catering-companies-dubai,merge → /best-catering-companies-dubai
 looking for chef,10,informational,62.9,0.08,,,,,,,no tracked competitor in top 30,1.0,True,/our-chefs,sub,/our-chefs,keep (sub)
 lunch meal prep ideas high protein,10,commercial,0,,,,,,,,no tracked competitor in top 30,1.0,True,/blog/weekly-meal-prep-vs-full-time-chef-dubai,sub,/blog/weekly-meal-prep-vs-full-time-chef-dubai,keep (sub)
-luxury desert dinner dubai,10,informational,0,0.3,,,,,,,no tracked competitor in top 30,1.0,False,/blog/desert-dinner-party-dubai,sub,/desert-dining-dubai,merge → /desert-dining-dubai
+luxury desert dinner dubai,10,informational,0,0.3,,,,,,,no tracked competitor in top 30,1.0,True,/blog/desert-dinner-party-dubai,sub,/desert-dining-dubai,merge → /desert-dining-dubai
 majestic catering dubai,10,commercial,0,,,,,,,,no tracked competitor in top 30,,,,,,backlog
 meal prep private chef,10,commercial,0,,,28,,,,,"no tracked competitor in top 30, we #28",1.0,True,/blog/weekly-meal-prep-vs-full-time-chef-dubai,sub,/blog/weekly-meal-prep-vs-full-time-chef-dubai,keep (sub)
 monthly healthy meal plan dubai for weight loss,10,commercial,33.3,0.5,,,,,,,no tracked competitor in top 30,0.83,False,/wellness-meal-prep-dubai,sub,/wellness-meal-prep-dubai,keep (sub)
@@ -423,7 +423,7 @@ ncth catering company dubai,10,commercial,0,,,,,,,,no tracked competitor in top 
 new years day catering,10,commercial,0,0.0,,20,,,,,"no tracked competitor in top 30, we #20",1.0,True,/uae-national-day-catering-dubai,sub,/uae-national-day-catering-dubai,keep (sub)
 new years eve catering dubai,10,informational,0,0.75,,18,,,,,"no tracked competitor in top 30, we #18",1.0,True,/new-year-catering-dubai,sub,/new-year-catering-dubai,keep (sub)
 part time chef dubai,10,informational,7.7,0.07,,,,,,,no tracked competitor in top 30,1.0,True,/full-time-private-chef-dubai,sub,/full-time-private-chef-dubai,keep (sub)
-party catering ideas,10,commercial,0,0.0,,,,,,,no tracked competitor in top 30,1.0,False,/blog/nye-party-catering-dubai,sub,/blog/nye-party-catering-dubai,keep (sub)
+party catering ideas,10,commercial,0,0.0,,,,,,,no tracked competitor in top 30,1.0,True,/blog/nye-party-catering-dubai,sub,/blog/nye-party-catering-dubai,keep (sub)
 personal chef vs private chef,10,commercial,0,0.0,29,,,,,,no tracked competitor in top 30,1.0,True,/private-chef-vs-catering-dubai,sub,/private-chef-vs-catering-dubai,keep (sub)
 private chef agency,10,commercial,50,0.08,,,,,,,no tracked competitor in top 30,0.67,False,/private-chef-dubai/how-it-works,sub,/private-chef-dubai/how-it-works,keep (sub)
 private chef and catering,10,commercial,0,0.0,,25,,,,,"no tracked competitor in top 30, we #25",1.0,True,/become-a-mychef,sub,/become-a-mychef,keep (sub)
@@ -436,12 +436,12 @@ private chef for family,10,commercial,0,0.23,,19,,,,,"no tracked competitor in t
 private chef hire,10,transactional,43.7,0.38,,,,,,,no tracked competitor in top 30,1.0,True,/our-chefs,sub,/locations/dubai-marina,merge → /locations/dubai-marina
 private chef service,10,commercial,0,0.33,,,,,,,no tracked competitor in top 30,1.0,True,/private-chef-dubai/how-it-works,sub,/private-chef-dubai/how-it-works,keep (sub)
 private chef services,10,commercial,0,0.22,,29,,,,,"no tracked competitor in top 30, we #29",0.67,False,/private-chef-dubai/how-it-works,sub,/private-chef-dubai/how-it-works,keep (sub)
-private chef vs personal chef,10,commercial,0,0.0,29,,,,,,no tracked competitor in top 30,1.0,False,/blog/private-chef-vs-restaurant-dubai,sub,/blog/private-chef-vs-restaurant-dubai,keep (sub)
+private chef vs personal chef,10,commercial,0,0.0,29,,,,,,no tracked competitor in top 30,1.0,True,/blog/private-chef-vs-restaurant-dubai,sub,/blog/private-chef-vs-restaurant-dubai,keep (sub)
 private chefs dublin,10,commercial,0,,,,,,,,no tracked competitor in top 30,,,,,,backlog
 private cooking classes,10,commercial,0,0.0,,30,,,,,"no tracked competitor in top 30, we #30",1.0,True,/gift-cards,sub,/gift-cards,keep (sub)
 private dining for two dubai,10,transactional,0,0.0,34,,,,,,no tracked competitor in top 30,1.0,True,/romantic-dinner-dubai,sub,/guide/private-dining-dubai,merge → /guide/private-dining-dubai
 private dinner for two dubai,10,transactional,0,0.15,,,,,,,no tracked competitor in top 30,1.0,True,/romantic-dinner-dubai,sub,/romantic-dinner-dubai,keep (sub)
-private dinner in the desert dubai,10,transactional,63.3,0.33,,,,,,,no tracked competitor in top 30,1.0,False,/blog/desert-dinner-party-dubai,sub,/blog/desert-dinner-party-dubai,keep (sub)
+private dinner in the desert dubai,10,transactional,63.3,0.33,,,,,,,no tracked competitor in top 30,1.0,True,/blog/desert-dinner-party-dubai,sub,/blog/desert-dinner-party-dubai,keep (sub)
 private vs personal chef,10,commercial,0,,,,,,,,no tracked competitor in top 30,1.0,True,/blog/weekly-meal-prep-vs-full-time-chef-dubai,sub,/blog/weekly-meal-prep-vs-full-time-chef-dubai,keep (sub)
 ramadan buffet catering,10,commercial,0,0.38,,,,,,,no tracked competitor in top 30,1.0,False,/ramadan-catering-dubai,sub,/ramadan-catering-dubai,keep (sub)
 ramadan catering menu,10,commercial,0,0.29,,,,,,,no tracked competitor in top 30,1.0,True,/ramadan-catering-guide-dubai,sub,/ramadan-catering-guide-dubai,keep (sub)
@@ -456,7 +456,7 @@ simple but elegant dinner party menu,10,transactional,0,0.07,,,,,,,no tracked co
 southern food catering service dubai reviews,10,informational,0,,,,,,,,no tracked competitor in top 30,,,,,,backlog
 taj catering dubai,10,commercial,0,,,,,,,,no tracked competitor in top 30,,,,,,backlog
 the private chef,10,informational,0,0.45,,31,,,,,"no tracked competitor in top 30, we #31",1.0,True,/part-time-private-chef-dubai,sub,/part-time-private-chef-dubai,keep (sub)
-top catering companies dubai,10,commercial,0,0.57,,,,,,,no tracked competitor in top 30,1.0,False,/best-catering-companies-dubai,sub,/best-catering-companies-dubai,keep (sub)
+top catering companies dubai,10,commercial,0,0.57,,,,,,,no tracked competitor in top 30,1.0,True,/best-catering-companies-dubai,sub,/best-catering-companies-dubai,keep (sub)
 what food to bring to a boat party,10,informational,0,0.0,,,,,,,no tracked competitor in top 30,0.8,False,/blog/yacht-party-menu-ideas-dubai,sub,/blog/yacht-party-menu-ideas-dubai,keep (sub)
 what is a private chef,10,informational,0,0.0,,,,,,,no tracked competitor in top 30,1.0,False,/blog/private-chef-vs-restaurant-dubai,sub,/blog/private-chef-vs-restaurant-dubai,keep (sub)
 what is buffet catering,10,informational,0,0.0,,,,,,,no tracked competitor in top 30,1.0,False,/blog/grazing-table-vs-buffet-dubai,sub,/blog/grazing-table-vs-buffet-dubai,keep (sub)
@@ -466,7 +466,7 @@ yacht chef requirements,10,transactional,0,0.0,,,,,,,no tracked competitor in to
 yacht food ideas,10,informational,0,,,,,,,,no tracked competitor in top 30,1.0,True,/yacht-catering-guide-dubai,sub,/yacht-catering-guide-dubai,keep (sub)
 yacht menu ideas,10,informational,0,0.07,,,,,,,no tracked competitor in top 30,1.0,True,/blog/yacht-party-menu-ideas-dubai,sub,/blog/yacht-party-menu-ideas-dubai,keep (sub)
 yacht party food ideas,10,informational,0,,,,,,,,no tracked competitor in top 30,1.0,True,/yacht-catering-guide-dubai,sub,/yacht-catering-guide-dubai,keep (sub)
-3 course dinner party menu dubai,0,transactional,0,0.0,,,,,,,no tracked competitor in top 30,1.0,False,/blog/dinner-party-menu-ideas-dubai,sub,/blog/dinner-party-menu-ideas-dubai,keep (sub)
+3 course dinner party menu dubai,0,transactional,0,0.0,,,,,,,no tracked competitor in top 30,1.0,True,/blog/dinner-party-menu-ideas-dubai,sub,/blog/dinner-party-menu-ideas-dubai,keep (sub)
 a halal catering service,0,commercial,0,0.0,,,,,,,no tracked competitor in top 30,1.0,True,/blog/halal-private-dining-dubai-what-to-ask,sub,/blog/halal-private-dining-dubai-what-to-ask,keep (sub)
 about mychef dubai,0,navigational,0,0.0,,2,,,,,"no tracked competitor in top 30, we #2",1.0,True,/about,sub,/about,keep (sub)
 adult birthday catering dubai,0,,0,,,n/a,,,,,,1.0,False,/birthday-catering-dubai,sub,/birthday-catering-dubai,keep (sub)
@@ -509,7 +509,7 @@ asian catering dubai price,0,commercial,0,0.21,,,,,,,no tracked competitor in to
 asian catering menu dubai,0,transactional,0,0.38,,,,,,,no tracked competitor in top 30,1.0,True,/asian-catering-dubai,sub,/asian-catering-dubai,keep (sub)
 asian catering packages dubai,0,commercial,0,0.36,,,,,,,no tracked competitor in top 30,1.0,True,/asian-catering-dubai,sub,/asian-catering-dubai,keep (sub)
 average catering cost per person dubai 2026,0,commercial,0,,,19,,,,,"no tracked competitor in top 30, we #19",1.0,True,/dubai-event-catering-price-guide-2026,sub,/dubai-event-catering-price-guide-2026,keep (sub)
-average cost of grazing table,0,commercial,0,0.07,,,,,,,no tracked competitor in top 30,0.75,False,/blog/grazing-table-vs-buffet-dubai,sub,/blog/grazing-table-vs-buffet-dubai,keep (sub)
+average cost of grazing table,0,commercial,0,0.07,,,,,,,no tracked competitor in top 30,1.0,True,/blog/grazing-table-vs-buffet-dubai,sub,/blog/grazing-table-vs-buffet-dubai,keep (sub)
 average cost of personal chef in dubai,0,commercial,0,,,n/a,,,,,,1.0,True,/private-chef-prices-dubai,sub,/private-chef-prices-dubai,keep (sub)
 average cost of personal chef vs catering,0,commercial,0,,,n/a,,,,,,1.0,True,/private-chef-vs-catering-dubai,sub,/private-chef-vs-catering-dubai,keep (sub)
 awards dinner catering dubai,0,commercial,0,0.3,,,,,,,no tracked competitor in top 30,1.0,True,/gala-dinner-catering-dubai,sub,/gala-dinner-catering-dubai,keep (sub)
@@ -523,9 +523,9 @@ baby shower food and drinks catering,0,commercial,0,0.22,,,,,,,no tracked compet
 baby shower food catering near me,0,commercial,0,,,,,,,,no tracked competitor in top 30,1.0,True,/influencer-partnerships,sub,/influencer-partnerships,keep (sub)
 baby shower food dubai,0,,0,,,n/a,,,,,,1.0,True,/baby-shower-catering-dubai,sub,/baby-shower-catering-dubai,keep (sub)
 baby shower grazing table dubai,0,transactional,0,0.0,,,,,,,no tracked competitor in top 30,1.0,True,/baby-shower-catering-dubai,sub,/baby-shower-catering-dubai,keep (sub)
-bachelor party catering menu dubai,0,transactional,0,0.0,,2,,,,,"no tracked competitor in top 30, we #2",0.75,False,/blog/nye-party-catering-dubai,sub,/blog/nye-party-catering-dubai,keep (sub)
+bachelor party catering menu dubai,0,transactional,0,0.0,,2,,,,,"no tracked competitor in top 30, we #2",1.0,True,/blog/nye-party-catering-dubai,sub,/blog/nye-party-catering-dubai,keep (sub)
 bachelor party catering packages dubai,0,,0,,,n/a,,,,,,0.5,False,/catering-packages-dubai,sub,/catering-packages-dubai,keep (sub)
-bachelorette party catering menu dubai,0,commercial,0,0.0,,7,,,,,"no tracked competitor in top 30, we #7",0.75,False,/blog/nye-party-catering-dubai,sub,/blog/nye-party-catering-dubai,keep (sub)
+bachelorette party catering menu dubai,0,commercial,0,0.0,,7,,,,,"no tracked competitor in top 30, we #7",1.0,True,/blog/nye-party-catering-dubai,sub,/blog/nye-party-catering-dubai,keep (sub)
 bachelorette party catering packages dubai,0,,0,,,n/a,,,,,,0.5,False,/catering-packages-dubai,sub,/catering-packages-dubai,keep (sub)
 bar hire packages dubai,0,commercial,0,0.33,,,,,,,no tracked competitor in top 30,1.0,True,/bar-services-dubai,sub,/bar-services-dubai,keep (sub)
 bar services dubai,0,commercial,0,1.0,,,,,,,no tracked competitor in top 30,1.0,True,/bar-services-dubai,primary,/bar-services-dubai,keep (primary)
@@ -552,31 +552,31 @@ best asian catering dubai,0,commercial,0,0.25,,,,,,,no tracked competitor in top
 best baby shower catering dubai,0,commercial,0,,,n/a,,,,,,1.0,True,/baby-shower-catering-dubai,sub,/baby-shower-catering-dubai,keep (sub)
 best bbq catering dubai,0,commercial,0,0.38,,,,,,,no tracked competitor in top 30,1.0,True,/bbq-catering-dubai,sub,/bbq-catering-dubai,keep (sub)
 best birthday catering dubai,0,commercial,0,0.3,,,,,,,no tracked competitor in top 30,1.0,False,/birthday-catering-dubai,sub,/birthday-catering-dubai,keep (sub)
-best birthday catering package dubai,0,commercial,0,0.5,,,,,,,no tracked competitor in top 30,0.75,False,/birthday-catering-package-dubai,sub,/best-catering-companies-dubai,merge → /best-catering-companies-dubai
+best birthday catering package dubai,0,commercial,0,0.5,,,,,,,no tracked competitor in top 30,1.0,True,/birthday-catering-package-dubai,sub,/best-catering-companies-dubai,merge → /best-catering-companies-dubai
 best breakfast catering dubai,0,commercial,0,0.08,,,,,,,no tracked competitor in top 30,1.0,True,/breakfast-catering-dubai,sub,/breakfast-catering-dubai,keep (sub)
 best brunch catering dubai,0,commercial,0,0.08,,,,,,,no tracked competitor in top 30,1.0,True,/brunch-catering-dubai,sub,/brunch-catering-dubai,keep (sub)
 best buffet catering dubai,0,commercial,0,0.18,,,,,,,no tracked competitor in top 30,1.0,True,/buffet-catering-dubai,sub,/best-catering-companies-dubai,merge → /best-catering-companies-dubai
-best business dinner in dubai,0,informational,0,0.09,,,,,,,no tracked competitor in top 30,0.67,False,/corporate-dinner-package-dubai,sub,/corporate-dinner-package-dubai,keep (sub)
+best business dinner in dubai,0,informational,0,0.09,,,,,,,no tracked competitor in top 30,1.0,True,/corporate-dinner-package-dubai,sub,/corporate-dinner-package-dubai,keep (sub)
 best business lunch dubai with a view,0,,0,,,n/a,,,,,,1.0,True,/business-lunch-catering-dubai,sub,/business-lunch-catering-dubai,keep (sub)
 best canape catering dubai,0,commercial,0,0.15,,,,,,,no tracked competitor in top 30,1.0,True,/canape-catering-dubai,sub,/canape-catering-dubai,keep (sub)
-best catering format for corporate event dubai,0,commercial,0,0.3,,,,,,,no tracked competitor in top 30,0.8,False,/blog/corporate-event-catering-ideas-dubai,sub,/best-catering-companies-dubai,merge → /best-catering-companies-dubai
+best catering format for corporate event dubai,0,commercial,0,0.3,,,,,,,no tracked competitor in top 30,1.0,True,/blog/corporate-event-catering-ideas-dubai,sub,/best-catering-companies-dubai,merge → /best-catering-companies-dubai
 best catering locations dubai,0,commercial,0,0.5,,,,,,,no tracked competitor in top 30,0.67,False,/locations,sub,/best-catering-companies-dubai,merge → /best-catering-companies-dubai
 best catering packages dubai,0,commercial,0,,,n/a,,,,,,1.0,True,/catering-packages-dubai,sub,/catering-packages-dubai,keep (sub)
 best chef school in dubai,0,,0,,,n/a,,,,,,1.0,True,/chef-training-academy,sub,/chef-training-academy,keep (sub)
 best christmas catering dubai,0,commercial,0,0.4,,,,,,,no tracked competitor in top 30,1.0,True,/christmas-catering-dubai,sub,/christmas-catering-dubai,keep (sub)
 best cocktail party catering dubai,0,commercial,0,0.44,,,,,,,no tracked competitor in top 30,1.0,True,/cocktail-party-catering-dubai,sub,/cocktail-party-catering-dubai,keep (sub)
 best corporate event catering dubai,0,commercial,0,0.3,,,,,,,no tracked competitor in top 30,1.0,True,/corporate-event-catering-dubai,sub,/best-catering-companies-dubai,merge → /best-catering-companies-dubai
-best date night dinner in dubai,0,informational,0,0.0,,,,,,,no tracked competitor in top 30,1.0,False,/blog/private-chef-date-night-dubai,sub,/blog/private-chef-date-night-dubai,keep (sub)
-best date night package dubai,0,commercial,0,0.4,,,,,,,no tracked competitor in top 30,0.75,False,/date-night-package-dubai,sub,/date-night-package-dubai,keep (sub)
+best date night dinner in dubai,0,informational,0,0.0,,,,,,,no tracked competitor in top 30,1.0,True,/blog/private-chef-date-night-dubai,sub,/blog/private-chef-date-night-dubai,keep (sub)
+best date night package dubai,0,commercial,0,0.4,,,,,,,no tracked competitor in top 30,1.0,True,/date-night-package-dubai,sub,/date-night-package-dubai,keep (sub)
 best desert dining dubai,0,informational,0,0.71,,,,,,,no tracked competitor in top 30,1.0,True,/desert-dining-dubai,sub,/desert-dining-dubai,keep (sub)
 best desert dinner dubai,0,,0,,,n/a,,,,,,1.0,True,/desert-dining-dubai,sub,/desert-dining-dubai,keep (sub)
-best desert safari dinner dubai,0,commercial,0,0.09,,,,,,,no tracked competitor in top 30,0.75,False,/blog/desert-dinner-party-dubai,sub,/blog/desert-dinner-party-dubai,keep (sub)
+best desert safari dinner dubai,0,commercial,0,0.09,,,,,,,no tracked competitor in top 30,1.0,True,/blog/desert-dinner-party-dubai,sub,/blog/desert-dinner-party-dubai,keep (sub)
 best dessert table catering dubai,0,commercial,0,,,,,,,,no tracked competitor in top 30,0.75,False,/dessert-table-catering-dubai,sub,/dessert-table-catering-dubai,keep (sub)
 best dinner experience in dubai,0,informational,0,0.09,,,,,,,no tracked competitor in top 30,1.0,True,/mystery-dining-dubai,sub,/mystery-dining-dubai,keep (sub)
 best diwali catering dubai,0,commercial,0,0.4,,,,,,,no tracked competitor in top 30,1.0,True,/diwali-catering-dubai,sub,/diwali-catering-dubai,keep (sub)
 best drop off catering dubai,0,commercial,0,,,,,,,,no tracked competitor in top 30,1.0,True,/drop-off-catering-dubai,sub,/best-catering-companies-dubai,merge → /best-catering-companies-dubai
 best eid catering dubai,0,commercial,0,0.17,,,,,,,no tracked competitor in top 30,1.0,True,/eid-catering-dubai,sub,/eid-catering-dubai,keep (sub)
-best family catering dubai,0,commercial,0,0.0,,,,,,,no tracked competitor in top 30,0.67,False,/family-feast-package-dubai,sub,/best-catering-companies-dubai,merge → /best-catering-companies-dubai
+best family catering dubai,0,commercial,0,0.0,,,,,,,no tracked competitor in top 30,1.0,True,/family-feast-package-dubai,sub,/best-catering-companies-dubai,merge → /best-catering-companies-dubai
 best festive catering dubai,0,commercial,0,0.4,,32,,,,,"no tracked competitor in top 30, we #32",1.0,True,/festive-catering-dubai,sub,/festive-catering-dubai,keep (sub)
 best fine dining experience dubai,0,,0,,,n/a,,,,,,1.0,False,/luxury-dining-experiences,sub,/luxury-dining-experiences,keep (sub)
 best fine dining in dubai,0,,0,,,n/a,,,,,,1.0,False,/luxury-dining-experiences,sub,/luxury-dining-experiences,keep (sub)
@@ -601,7 +601,7 @@ best meal prep delivery dubai,0,commercial,0,0.62,,,,,,,no tracked competitor in
 best mediterranean catering dubai,0,commercial,0,0.22,,,,,,,no tracked competitor in top 30,1.0,True,/mediterranean-catering-dubai,sub,/mediterranean-catering-dubai,keep (sub)
 best mediterranean food in dubai,0,,0,,,n/a,,,,,,1.0,True,/mediterranean-catering-dubai,sub,/mediterranean-catering-dubai,keep (sub)
 best new year catering dubai,0,commercial,0,0.5,,14,,,,,"no tracked competitor in top 30, we #14",1.0,True,/new-year-catering-dubai,sub,/blog/nye-party-catering-dubai,merge → /blog/nye-party-catering-dubai
-best personal chef for date night,0,commercial,0,0.08,,,,,,,no tracked competitor in top 30,1.0,False,/blog/private-chef-date-night-dubai,sub,/blog/private-chef-date-night-dubai,keep (sub)
+best personal chef for date night,0,commercial,0,0.08,,,,,,,no tracked competitor in top 30,1.0,True,/blog/private-chef-date-night-dubai,sub,/blog/private-chef-date-night-dubai,keep (sub)
 best private chef birthday dinner dubai,0,commercial,0,0.5,,,,,,,no tracked competitor in top 30,1.0,False,/blog/best-private-chef-birthday-dinner-dubai,sub,/blog/private-chef-date-night-dubai,merge → /blog/private-chef-date-night-dubai
 best private chef for apartment dubai,0,commercial,0,0.71,,,,,,,no tracked competitor in top 30,1.0,True,/apartment-private-dining-dubai,sub,/apartment-private-dining-dubai,keep (sub)
 best private cooking classes dubai,0,commercial,0,0.33,,,,,,,no tracked competitor in top 30,1.0,True,/private-cooking-classes-dubai,sub,/private-cooking-classes-dubai,keep (sub)
@@ -611,14 +611,14 @@ best ramadan catering dubai,0,commercial,0,0.5,,,,,,,no tracked competitor in to
 best surprise dining experience dubai,0,commercial,0,,,n/a,,,,,,1.0,True,/mystery-dining-dubai,sub,/mystery-dining-dubai,keep (sub)
 best sushi catering dubai,0,commercial,0,0.3,,,,,,,no tracked competitor in top 30,1.0,True,/sushi-catering-dubai,sub,/sushi-catering-dubai,keep (sub)
 best time to hire caterers,0,,0,,,n/a,,,,,,1.0,True,/full-time-private-chef-dubai,sub,/full-time-private-chef-dubai,keep (sub)
-best time to hire catering in advance,0,commercial,0,0.08,,,,,,,no tracked competitor in top 30,1.0,False,/blog/how-far-ahead-book-caterer-dubai,sub,/blog/how-far-ahead-book-caterer-dubai,keep (sub)
-best time to hire cooking caterer,0,commercial,0,0.0,,,,,,,no tracked competitor in top 30,1.0,False,/blog/how-far-ahead-book-caterer-dubai,sub,/blog/how-far-ahead-book-caterer-dubai,keep (sub)
-best time to hire event caterer,0,commercial,0,0.0,,,,,,,no tracked competitor in top 30,1.0,False,/blog/how-far-ahead-book-caterer-dubai,sub,/blog/how-far-ahead-book-caterer-dubai,keep (sub)
-best time to hire meal caterer,0,commercial,0,0.0,,,,,,,no tracked competitor in top 30,0.8,False,/blog/how-far-ahead-book-caterer-dubai,sub,/blog/how-far-ahead-book-caterer-dubai,keep (sub)
+best time to hire catering in advance,0,commercial,0,0.08,,,,,,,no tracked competitor in top 30,1.0,True,/blog/how-far-ahead-book-caterer-dubai,sub,/blog/how-far-ahead-book-caterer-dubai,keep (sub)
+best time to hire cooking caterer,0,commercial,0,0.0,,,,,,,no tracked competitor in top 30,1.0,True,/blog/how-far-ahead-book-caterer-dubai,sub,/blog/how-far-ahead-book-caterer-dubai,keep (sub)
+best time to hire event caterer,0,commercial,0,0.0,,,,,,,no tracked competitor in top 30,1.0,True,/blog/how-far-ahead-book-caterer-dubai,sub,/blog/how-far-ahead-book-caterer-dubai,keep (sub)
+best time to hire meal caterer,0,commercial,0,0.0,,,,,,,no tracked competitor in top 30,1.0,True,/blog/how-far-ahead-book-caterer-dubai,sub,/blog/how-far-ahead-book-caterer-dubai,keep (sub)
 best uae national day catering dubai,0,commercial,0,0.5,,,,,,,no tracked competitor in top 30,1.0,True,/uae-national-day-catering-dubai,sub,/uae-national-day-catering-dubai,keep (sub)
 best veg meals in dubai,0,,0,,,n/a,,,,,,1.0,True,/staff-meals-catering-dubai,sub,/staff-meals-catering-dubai,keep (sub)
 best vegan catering dubai,0,commercial,0,0.62,,14,,,,,"no tracked competitor in top 30, we #14",1.0,True,/vegan-catering-dubai,sub,/vegan-catering-dubai,keep (sub)
-best vegan food in dubai,0,commercial,0,0.56,,,,,,,no tracked competitor in top 30,1.0,False,/blog/vegan-catering-dubai-guide,sub,/blog/vegan-catering-dubai-guide,keep (sub)
+best vegan food in dubai,0,commercial,0,0.56,,,,,,,no tracked competitor in top 30,1.0,True,/blog/vegan-catering-dubai-guide,sub,/blog/vegan-catering-dubai-guide,keep (sub)
 best vegetarian catering dubai,0,commercial,0,0.86,,,,,,,no tracked competitor in top 30,1.0,True,/vegetarian-catering-dubai,sub,/vegetarian-catering-dubai,keep (sub)
 best vegetarian food dubai,0,,0,,,n/a,,,,,,1.0,True,/vegetarian-catering-dubai,sub,/vegetarian-catering-dubai,keep (sub)
 biggest catering companies in uae,0,,0,,,n/a,,,,,,1.0,True,/cuisines-dubai,sub,/cuisines-dubai,keep (sub)
@@ -627,9 +627,9 @@ birthday afternoon tea dubai,0,,0,,,n/a,,,,,,1.0,True,/afternoon-tea-catering-du
 birthday brunch catering dubai,0,commercial,0,0.0,,,,,,,no tracked competitor in top 30,1.0,True,/brunch-catering-dubai,sub,/brunch-catering-dubai,keep (sub)
 birthday buffet catering dubai,0,,0,,,n/a,,,,,,1.0,False,/buffet-catering-dubai,sub,/buffet-catering-dubai,keep (sub)
 birthday canape catering dubai,0,,0,,,n/a,,,,,,1.0,True,/canape-catering-dubai,sub,/canape-catering-dubai,keep (sub)
-birthday catering at home dubai,0,,0,,,n/a,,,,,,1.0,False,/birthday-catering-package-dubai,sub,/birthday-catering-package-dubai,keep (sub)
-birthday catering blog dubai,0,,0,,,n/a,,,,,,0.67,False,/birthday-catering-package-dubai,sub,/birthday-catering-package-dubai,keep (sub)
-birthday catering company dubai,0,,0,,,n/a,,,,,,0.67,False,/best-catering-companies-dubai,sub,/best-catering-companies-dubai,keep (sub)
+birthday catering at home dubai,0,,0,,,n/a,,,,,,1.0,True,/birthday-catering-package-dubai,sub,/birthday-catering-package-dubai,keep (sub)
+birthday catering blog dubai,0,,0,,,n/a,,,,,,1.0,True,/birthday-catering-package-dubai,sub,/birthday-catering-package-dubai,keep (sub)
+birthday catering company dubai,0,,0,,,n/a,,,,,,1.0,True,/best-catering-companies-dubai,sub,/best-catering-companies-dubai,keep (sub)
 birthday catering cost calculator dubai,0,commercial,0,,,16,,,,,"no tracked competitor in top 30, we #16",1.0,True,/catering-cost-calculator-dubai,sub,/catering-cost-calculator-dubai,keep (sub)
 birthday catering cost per person dubai,0,commercial,0,0.09,,22,,,,,"no tracked competitor in top 30, we #22",1.0,False,/birthday-catering-dubai,sub,/birthday-catering-dubai,keep (sub)
 birthday catering dubai for adults,0,,0,,,n/a,,,,,,1.0,False,/birthday-catering-dubai,sub,/birthday-catering-dubai,keep (sub)
@@ -638,8 +638,8 @@ birthday catering for villa party dubai,0,transactional,0,0.09,,18,,,,,"no track
 birthday catering in dubai,0,,0,,,n/a,,,,,,1.0,True,/asian-catering-dubai,sub,/asian-catering-dubai,keep (sub)
 birthday catering locations dubai,0,commercial,0,0.2,,,,,,,no tracked competitor in top 30,0.67,False,/locations,sub,/birthday-catering-package-dubai,merge → /birthday-catering-package-dubai
 birthday catering menu dubai,0,commercial,0,0.4,,,,,,,no tracked competitor in top 30,1.0,False,/birthday-catering-dubai,sub,/birthday-catering-package-dubai,merge → /birthday-catering-package-dubai
-birthday catering package cost per person dubai,0,commercial,0,0.27,,17,,,,,"no tracked competitor in top 30, we #17",0.83,False,/birthday-catering-package-dubai,sub,/birthday-catering-package-dubai,keep (sub)
-birthday catering package dubai price,0,commercial,0,0.17,,,,,,,no tracked competitor in top 30,0.75,False,/birthday-catering-package-dubai,sub,/birthday-catering-package-dubai,keep (sub)
+birthday catering package cost per person dubai,0,commercial,0,0.27,,17,,,,,"no tracked competitor in top 30, we #17",1.0,True,/birthday-catering-package-dubai,sub,/birthday-catering-package-dubai,keep (sub)
+birthday catering package dubai price,0,commercial,0,0.17,,,,,,,no tracked competitor in top 30,1.0,True,/birthday-catering-package-dubai,sub,/birthday-catering-package-dubai,keep (sub)
 birthday catering packages dubai,0,commercial,0,1.0,,,,,,,no tracked competitor in top 30,1.0,True,/birthday-catering-package-dubai,primary,/birthday-catering-package-dubai,keep (primary)
 birthday catering prices dubai,0,commercial,0,0.07,,22,,,,,"no tracked competitor in top 30, we #22",1.0,True,/dubai-catering-prices-guide,sub,/dubai-catering-prices-guide,keep (sub)
 birthday dinner at villa dubai,0,,0,,,n/a,,,,,,1.0,True,/villa-catering-ideas-dubai,sub,/villa-catering-ideas-dubai,keep (sub)
@@ -648,7 +648,7 @@ birthday dinner party at home dubai,0,transactional,0,0.0,,,,,,,no tracked compe
 birthday event catering dubai,0,commercial,0,0.09,,,,,,,no tracked competitor in top 30,1.0,False,/events,sub,/birthday-catering-package-dubai,merge → /birthday-catering-package-dubai
 birthday grazing table dubai,0,,0,,,n/a,,,,,,1.0,True,/grazing-table-dubai,sub,/grazing-table-dubai,keep (sub)
 birthday party catering packages dubai,0,,0,,,n/a,,,,,,0.75,False,/catering-packages-dubai,sub,/catering-packages-dubai,keep (sub)
-birthday party package dubai catering,0,commercial,0,0.44,,,,,,,no tracked competitor in top 30,1.0,False,/birthday-catering-package-dubai,sub,/birthday-catering-package-dubai,keep (sub)
+birthday party package dubai catering,0,commercial,0,0.44,,,,,,,no tracked competitor in top 30,1.0,True,/birthday-catering-package-dubai,sub,/birthday-catering-package-dubai,keep (sub)
 birthday sushi catering dubai,0,,0,,,n/a,,,,,,1.0,True,/sushi-catering-dubai,sub,/sushi-catering-dubai,keep (sub)
 boardroom catering dubai,0,commercial,0,0.17,,22,,,,,"no tracked competitor in top 30, we #22",1.0,False,/corporate,sub,/corporate,keep (sub)
 boat catering dubai,0,transactional,0,0.7,,26,,,,,"no tracked competitor in top 30, we #26",1.0,True,/yachts,sub,/yachts,keep (sub)
@@ -670,14 +670,14 @@ breakfast catering price per person dubai,0,commercial,0,0.0,,16,,,,,"no tracked
 breakfast food in dubai,0,,0,,,n/a,,,,,,1.0,True,/breakfast-catering-dubai,sub,/breakfast-catering-dubai,keep (sub)
 breakfast options in dubai,0,,0,,,n/a,,,,,,1.0,True,/breakfast-catering-dubai,sub,/breakfast-catering-dubai,keep (sub)
 breakfast platters dubai,0,,0,,,n/a,,,,,,1.0,True,/breakfast-catering-dubai,sub,/breakfast-catering-dubai,keep (sub)
-brunch at home cost dubai,0,commercial,0,0.15,,3,,,,,"no tracked competitor in top 30, we #3",1.0,False,/blog/brunch-at-home-dubai,sub,/blog/brunch-at-home-dubai,keep (sub)
+brunch at home cost dubai,0,commercial,0,0.15,,3,,,,,"no tracked competitor in top 30, we #3",1.0,True,/blog/brunch-at-home-dubai,sub,/blog/brunch-at-home-dubai,keep (sub)
 brunch at home dubai,0,transactional,0,1.0,,,,,,,no tracked competitor in top 30,1.0,True,/blog/brunch-at-home-dubai,primary,/blog/brunch-at-home-dubai,keep (primary)
 brunch catering dubai,0,commercial,0,1.0,,,,,,,no tracked competitor in top 30,1.0,True,/brunch-catering-dubai,primary,/brunch-catering-dubai,keep (primary)
 brunch catering dubai price,0,commercial,0,0.18,,34,,,,,"no tracked competitor in top 30, we #34",1.0,True,/brunch-catering-dubai,sub,/brunch-catering-dubai,keep (sub)
 brunch catering menu dubai,0,transactional,0,0.23,,,,,,,no tracked competitor in top 30,1.0,True,/brunch-catering-dubai,sub,/brunch-catering-dubai,keep (sub)
 brunch catering packages dubai,0,commercial,0,,,n/a,,,,,,1.0,True,/brunch-catering-dubai,sub,/brunch-catering-dubai,keep (sub)
 brunch catering price per person dubai,0,commercial,0,0.0,,,,,,,no tracked competitor in top 30,1.0,True,/brunch-catering-dubai,sub,/brunch-catering-dubai,keep (sub)
-brunch ideas at home dubai,0,commercial,0,0.17,,,,,,,no tracked competitor in top 30,1.0,False,/blog/brunch-at-home-dubai,sub,/blog/brunch-at-home-dubai,keep (sub)
+brunch ideas at home dubai,0,commercial,0,0.17,,,,,,,no tracked competitor in top 30,1.0,True,/blog/brunch-at-home-dubai,sub,/blog/brunch-at-home-dubai,keep (sub)
 brunch offers in dubai,0,,0,,,n/a,,,,,,1.0,True,/brunch-catering-dubai,sub,/brunch-catering-dubai,keep (sub)
 brunch on sundays in dubai,0,,0,,,n/a,,,,,,1.0,True,/brunch-catering-dubai,sub,/brunch-catering-dubai,keep (sub)
 brunch party dubai,0,informational,0,0.0,0,,,,,,no tracked competitor in top 30,1.0,True,/blog/brunch-at-home-dubai,sub,/blog/brunch-at-home-dubai,keep (sub)
@@ -757,7 +757,7 @@ catering food checklist,0,informational,0,0.07,,25,,,,,"no tracked competitor in
 catering food cost calculator,0,commercial,0,,,,,,,,no tracked competitor in top 30,1.0,True,/influencer-partnerships,sub,/influencer-partnerships,keep (sub)
 catering foods near me halal,0,commercial,0,0.07,,,,,,,no tracked competitor in top 30,1.0,True,/halal-catering-dubai,sub,/halal-catering-dubai,keep (sub)
 catering for 50 people cost dubai,0,commercial,0,,,,,,,,no tracked competitor in top 30,1.0,True,/dubai-event-catering-price-guide-2026,sub,/dubai-event-catering-price-guide-2026,keep (sub)
-catering for family gathering dubai,0,commercial,0,,,n/a,,,,,,0.67,False,/family-feast-package-dubai,sub,/family-feast-package-dubai,keep (sub)
+catering for family gathering dubai,0,commercial,0,,,n/a,,,,,,1.0,True,/family-feast-package-dubai,sub,/family-feast-package-dubai,keep (sub)
 catering for guests with food allergies dubai,0,commercial,0,0.57,,2,,,,,"no tracked competitor in top 30, we #2",1.0,True,/allergy-safe-catering-dubai,sub,/allergy-safe-catering-dubai,keep (sub)
 catering for office meeting dubai,0,,0,,,n/a,,,,,,1.0,False,/office-catering-dubai,sub,/office-catering-dubai,keep (sub)
 catering for store opening dubai,0,transactional,0,,,,,,,,no tracked competitor in top 30,1.0,True,/product-launch-catering-dubai,sub,/product-launch-catering-dubai,keep (sub)
@@ -785,7 +785,7 @@ catering package cost per person dubai,0,commercial,0,0.0,,24,,,,,"no tracked co
 catering package dubai,0,,0,,,n/a,,,,,,1.0,True,/birthday-catering-package-dubai,sub,/birthday-catering-package-dubai,keep (sub)
 catering packages dubai,0,commercial,0,1.0,,,,,,,no tracked competitor in top 30,1.0,True,/catering-packages-dubai,primary,/catering-packages-dubai,keep (primary)
 catering packages dubai price,0,commercial,0,0.08,,,,,,,no tracked competitor in top 30,1.0,True,/catering-packages-dubai,sub,/catering-packages-dubai,keep (sub)
-catering packages on offer in dubai,0,commercial,0,0.09,,,,,,,no tracked competitor in top 30,0.67,False,/birthday-catering-package-dubai,sub,/birthday-catering-package-dubai,keep (sub)
+catering packages on offer in dubai,0,commercial,0,0.09,,,,,,,no tracked competitor in top 30,1.0,True,/birthday-catering-package-dubai,sub,/birthday-catering-package-dubai,keep (sub)
 catering palm jumeirah,0,commercial,0,0.0,,,,,,,no tracked competitor in top 30,1.0,True,/locations/palm-jumeirah,sub,/locations/palm-jumeirah,keep (sub)
 catering partner for concierge companies dubai,0,commercial,0,0.27,,,,,,,no tracked competitor in top 30,0.75,False,/partners/concierge-services-dubai,sub,/partners/concierge-services-dubai,keep (sub)
 catering partner for event planners dubai,0,commercial,0,,,n/a,,,,,,1.0,False,/partners/event-planners-dubai,sub,/partners/event-planners-dubai,keep (sub)
@@ -808,7 +808,7 @@ catering staff hire for private catering,0,transactional,0,,,,,,,,no tracked com
 catering trends for 2026,0,commercial,0,0.0,,,,,,,no tracked competitor in top 30,1.0,True,/blog/ramadan-iftar-catering-trends-2026,sub,/blog/ramadan-iftar-catering-trends-2026,keep (sub)
 catering umm suqeim,0,transactional,0,,,n/a,,,,,,1.0,True,/locations/umm-suqeim,sub,/locations/umm-suqeim,keep (sub)
 catering vs delivery,0,commercial,0,0.0,,,,,,,no tracked competitor in top 30,1.0,True,/quality-guarantee-dubai,sub,/quality-guarantee-dubai,keep (sub)
-catering vs private chef,0,commercial,0,0.0,,,,,,,no tracked competitor in top 30,1.0,False,/blog/private-chef-vs-restaurant-dubai,sub,/blog/private-chef-vs-restaurant-dubai,keep (sub)
+catering vs private chef,0,commercial,0,0.0,,,,,,,no tracked competitor in top 30,1.0,True,/blog/private-chef-vs-restaurant-dubai,sub,/blog/private-chef-vs-restaurant-dubai,keep (sub)
 catering wedding checklist,0,,0,,,n/a,,,,,,1.0,False,/wedding-catering-menu-planning-dubai,sub,/wedding-catering-menu-planning-dubai,keep (sub)
 catering with service staff,0,commercial,0,,,,,,,,no tracked competitor in top 30,1.0,True,/staff-meals-catering-dubai,sub,/staff-meals-catering-dubai,keep (sub)
 certified private chefs dubai,0,commercial,0,,,33,,,,,"no tracked competitor in top 30, we #33",1.0,True,/mychef-certified,sub,/private-chef-dubai/how-it-works,merge → /private-chef-dubai/how-it-works
@@ -879,7 +879,7 @@ cocktail party catering packages dubai,0,commercial,0,0.86,,36,,,,,"no tracked c
 cocktail party catering price per person dubai,0,commercial,0,,,n/a,,,,,,1.0,True,/cocktail-party-catering-dubai,sub,/cocktail-party-catering-dubai,keep (sub)
 cocktail reception catering dubai,0,commercial,0,0.44,,,,,,,no tracked competitor in top 30,1.0,True,/cocktail-party-catering-dubai,sub,/cocktail-party-catering-dubai,keep (sub)
 coles meal prep dubai,0,,0,,,n/a,,,,,,1.0,True,/kids-nutrition-chef-dubai,sub,/kids-nutrition-chef-dubai,keep (sub)
-company dinner package dubai,0,commercial,0,0.33,,,,,,,no tracked competitor in top 30,1.0,False,/corporate-dinner-package-dubai,sub,/corporate-dinner-package-dubai,keep (sub)
+company dinner package dubai,0,commercial,0,0.33,,,,,,,no tracked competitor in top 30,1.0,True,/corporate-dinner-package-dubai,sub,/corporate-dinner-package-dubai,keep (sub)
 company lunch catering dubai,0,commercial,0,0.27,,34,,,,,"no tracked competitor in top 30, we #34",1.0,False,/corporate,sub,/business-lunch-catering-dubai,merge → /business-lunch-catering-dubai
 comparing personal chef services vs catering,0,commercial,0,0.07,,,,,,,no tracked competitor in top 30,1.0,True,/private-chef-vs-catering-dubai,sub,/private-chef-vs-catering-dubai,keep (sub)
 concierge services partnership dubai,0,commercial,0,1.0,,,,,,,no tracked competitor in top 30,1.0,False,/partners/concierge-services-dubai,primary,/partners/concierge-services-dubai,keep (primary)
@@ -919,14 +919,14 @@ corporate catering food,0,,0,,,n/a,,,,,,1.0,False,/corporate,sub,/corporate,keep
 corporate catering full service vs drop off,0,commercial,0,0.27,,,,,,,no tracked competitor in top 30,1.0,True,/blog/corporate-catering-full-service-vs-drop-off,sub,/blog/corporate-catering-full-service-vs-drop-off,keep (sub)
 corporate catering halal,0,,0,,,n/a,,,,,,1.0,False,/corporate,sub,/corporate,keep (sub)
 corporate catering near me,0,,0,,,n/a,,,,,,1.0,False,/corporate-event-catering-dubai,sub,/corporate-event-catering-dubai,keep (sub)
-corporate catering package dubai,0,,0,,,n/a,,,,,,1.0,False,/corporate-dinner-package-dubai,sub,/corporate-dinner-package-dubai,keep (sub)
+corporate catering package dubai,0,,0,,,n/a,,,,,,1.0,True,/corporate-dinner-package-dubai,sub,/corporate-dinner-package-dubai,keep (sub)
 corporate catering price per head dubai,0,commercial,0,0.0,,3,,,,,"no tracked competitor in top 30, we #3",0.8,False,/corporate,sub,/corporate,keep (sub)
 corporate catering services dubai,0,commercial,0,0.56,,,,,,,no tracked competitor in top 30,1.0,False,/corporate,sub,/corporate,keep (sub)
 corporate catering supplier dubai,0,commercial,0,0.18,,,,,,,no tracked competitor in top 30,1.0,True,/corporate-retainer-dubai,sub,/corporate-retainer-dubai,keep (sub)
 corporate dinner package dubai,0,commercial,0,1.0,,34,,,,,"no tracked competitor in top 30, we #34",1.0,True,/corporate-dinner-package-dubai,primary,/corporate-dinner-package-dubai,keep (primary)
-corporate dinner package dubai cost per person,0,commercial,0,0.36,,15,,,,,"no tracked competitor in top 30, we #15",0.83,False,/corporate-dinner-package-dubai,sub,/corporate-dinner-package-dubai,keep (sub)
-corporate dinner package dubai price,0,commercial,0,0.36,,20,,,,,"no tracked competitor in top 30, we #20",0.75,False,/corporate-dinner-package-dubai,sub,/corporate-dinner-package-dubai,keep (sub)
-corporate dinner package menu dubai,0,commercial,0,0.33,,,,,,,no tracked competitor in top 30,1.0,False,/corporate-dinner-package-dubai,sub,/corporate-dinner-package-dubai,keep (sub)
+corporate dinner package dubai cost per person,0,commercial,0,0.36,,15,,,,,"no tracked competitor in top 30, we #15",1.0,True,/corporate-dinner-package-dubai,sub,/corporate-dinner-package-dubai,keep (sub)
+corporate dinner package dubai price,0,commercial,0,0.36,,20,,,,,"no tracked competitor in top 30, we #20",1.0,True,/corporate-dinner-package-dubai,sub,/corporate-dinner-package-dubai,keep (sub)
+corporate dinner package menu dubai,0,commercial,0,0.33,,,,,,,no tracked competitor in top 30,1.0,True,/corporate-dinner-package-dubai,sub,/corporate-dinner-package-dubai,keep (sub)
 corporate event catering checklist,0,informational,0,0.12,,,,,,,no tracked competitor in top 30,1.0,True,/corporate-catering-checklist-dubai,sub,/corporate-catering-checklist-dubai,keep (sub)
 corporate event catering dubai,0,commercial,0,1.0,,,,,,,no tracked competitor in top 30,1.0,True,/corporate-event-catering-dubai,primary,/corporate-event-catering-dubai,keep (primary)
 corporate event catering dubai cost per person,0,commercial,0,0.08,,8,,,,,"no tracked competitor in top 30, we #8",1.0,False,/corporate-event-catering-dubai,sub,/corporate-event-catering-dubai,keep (sub)
@@ -936,13 +936,13 @@ corporate event catering menu dubai,0,commercial,0,0.27,,,,,,,no tracked competi
 corporate event catering packages dubai,0,commercial,0,0.36,,,,,,,no tracked competitor in top 30,1.0,False,/corporate-event-catering-dubai,sub,/blog/corporate-event-catering-ideas-dubai,merge → /blog/corporate-event-catering-ideas-dubai
 corporate iftar catering dubai,0,commercial,0,0.55,,,,,,,no tracked competitor in top 30,1.0,False,/iftar-catering-dubai,sub,/iftar-catering-dubai,keep (sub)
 corporate lunch delivery dubai,0,commercial,0,0.08,,,,,,,no tracked competitor in top 30,1.0,False,/office-catering-dubai,sub,/office-catering-dubai,keep (sub)
-corporate lunch ideas dubai,0,commercial,0,0.0,,,,,,,no tracked competitor in top 30,1.0,False,/blog/corporate-event-catering-ideas-dubai,sub,/blog/corporate-event-catering-ideas-dubai,keep (sub)
+corporate lunch ideas dubai,0,commercial,0,0.0,,,,,,,no tracked competitor in top 30,1.0,True,/blog/corporate-event-catering-ideas-dubai,sub,/blog/corporate-event-catering-ideas-dubai,keep (sub)
 corporate lunch packages dubai,0,,0,,,n/a,,,,,,0.67,False,/corporate,sub,/corporate,keep (sub)
 corporate meal prep packages dubai,0,,0,,,n/a,,,,,,1.0,True,/corporate-retainer-dubai,sub,/corporate-retainer-dubai,keep (sub)
-cost of grazing table for wedding,0,commercial,0,0.0,,,,,,,no tracked competitor in top 30,1.0,False,/blog/grazing-table-vs-buffet-dubai,sub,/blog/grazing-table-vs-buffet-dubai,keep (sub)
+cost of grazing table for wedding,0,commercial,0,0.0,,,,,,,no tracked competitor in top 30,1.0,True,/blog/grazing-table-vs-buffet-dubai,sub,/blog/grazing-table-vs-buffet-dubai,keep (sub)
 cost of party catering,0,commercial,0,0.08,,,,,,,no tracked competitor in top 30,1.0,True,/cocktail-party-catering-dubai,sub,/cocktail-party-catering-dubai,keep (sub)
 cost of private chef dubai,0,commercial,0,0.62,,27,,,,,"no tracked competitor in top 30, we #27",1.0,True,/private-chef-prices-dubai,sub,/blog/how-much-does-private-chef-cost-dubai,merge → /blog/how-much-does-private-chef-cost-dubai
-couples dinner package dubai,0,,0,,,n/a,,,,,,0.67,False,/date-night-package-dubai,sub,/date-night-package-dubai,keep (sub)
+couples dinner package dubai,0,,0,,,n/a,,,,,,1.0,True,/date-night-package-dubai,sub,/date-night-package-dubai,keep (sub)
 courses of an italian dinner,0,informational,0,0.0,,,,,,,no tracked competitor in top 30,0.33,False,/chefs/marco-italian-chef,sub,/chefs/marco-italian-chef,keep (sub)
 coya dubai private dining,0,navigational,0,,,,,,,,no tracked competitor in top 30,1.0,True,/blog/private-chef-palm-jumeirah-guide,sub,/blog/private-chef-palm-jumeirah-guide,keep (sub)
 cuisines dubai catering,0,commercial,0,,,n/a,,,,,,1.0,False,/cuisines-dubai,sub,/cuisines-dubai,keep (sub)
@@ -950,11 +950,11 @@ culinary training dubai,0,commercial,0,0.43,,,,,,,no tracked competitor in top 3
 daily mediterranean meals,0,,0,,,n/a,,,,,,1.0,True,/mediterranean-catering-dubai,sub,/mediterranean-catering-dubai,keep (sub)
 daily office catering dubai,0,,0,,,n/a,,,,,,1.0,False,/office-catering-dubai,sub,/office-catering-dubai,keep (sub)
 daily office lunch dubai,0,informational,0,0.0,,,,,,,no tracked competitor in top 30,1.0,False,/office-catering-dubai,sub,/office-catering-dubai,keep (sub)
-date night at home dubai,0,transactional,0,,,n/a,,,,,,1.0,False,/date-night-package-dubai,sub,/date-night-package-dubai,keep (sub)
-date night dinner menu dubai,0,transactional,0,0.17,,,,,,,no tracked competitor in top 30,1.0,False,/date-night-package-dubai,sub,/date-night-package-dubai,keep (sub)
-date night dubai private dinner,0,transactional,0,0.08,,,,,,,no tracked competitor in top 30,1.0,False,/date-night-package-dubai,sub,/date-night-package-dubai,keep (sub)
+date night at home dubai,0,transactional,0,,,n/a,,,,,,1.0,True,/date-night-package-dubai,sub,/date-night-package-dubai,keep (sub)
+date night dinner menu dubai,0,transactional,0,0.17,,,,,,,no tracked competitor in top 30,1.0,True,/date-night-package-dubai,sub,/date-night-package-dubai,keep (sub)
+date night dubai private dinner,0,transactional,0,0.08,,,,,,,no tracked competitor in top 30,1.0,True,/date-night-package-dubai,sub,/date-night-package-dubai,keep (sub)
 date night package dubai,0,commercial,0,1.0,,,,,,,no tracked competitor in top 30,1.0,True,/date-night-package-dubai,primary,/date-night-package-dubai,keep (primary)
-date night package dubai price,0,commercial,0,0.14,,,,,,,no tracked competitor in top 30,1.0,False,/date-night-package-dubai,sub,/date-night-package-dubai,keep (sub)
+date night package dubai price,0,commercial,0,0.14,,,,,,,no tracked competitor in top 30,1.0,True,/date-night-package-dubai,sub,/date-night-package-dubai,keep (sub)
 date night private chef dubai,0,transactional,0,0.0,,24,,,,,"no tracked competitor in top 30, we #24",1.0,True,/romantic-dinner-dubai,sub,/private-chef-dubai/how-it-works,merge → /private-chef-dubai/how-it-works
 deepavali catering halal,0,,0,,,n/a,,,,,,1.0,True,/halal-catering-dubai,sub,/halal-catering-dubai,keep (sub)
 degustation menu dubai private,0,,0,,,n/a,,,,,,1.0,True,/tasting-menu-dubai,sub,/tasting-menu-dubai,keep (sub)
@@ -962,7 +962,7 @@ deluxe private jet catering,0,,0,,,n/a,,,,,,0.75,False,/private-jet-catering-dub
 desert bbq catering dubai,0,,0,,,n/a,,,,,,1.0,True,/bbq-catering-dubai,sub,/bbq-catering-dubai,keep (sub)
 desert dining dubai price,0,commercial,0,0.44,,,,,,,no tracked competitor in top 30,1.0,True,/desert-dining-dubai,sub,/desert-dining-dubai,keep (sub)
 desert dining experience dubai,0,,0,,,n/a,,,,,,1.0,True,/desert-dining-dubai,sub,/desert-dining-dubai,keep (sub)
-desert dining ideas dubai,0,commercial,0,0.27,,,,,,,no tracked competitor in top 30,1.0,False,/blog/desert-dinner-party-dubai,sub,/desert-dining-dubai,merge → /desert-dining-dubai
+desert dining ideas dubai,0,commercial,0,0.27,,,,,,,no tracked competitor in top 30,1.0,True,/blog/desert-dinner-party-dubai,sub,/desert-dining-dubai,merge → /desert-dining-dubai
 desert dining menu dubai,0,informational,0,,,n/a,,,,,,1.0,True,/desert-dining-dubai,sub,/desert-dining-dubai,keep (sub)
 desert dining packages dubai,0,commercial,0,0.6,,,,,,,no tracked competitor in top 30,1.0,True,/desert-dining-dubai,sub,/desert-dining-dubai,keep (sub)
 desert dining price per person dubai,0,commercial,0,0.44,,,,,,,no tracked competitor in top 30,1.0,True,/desert-dining-dubai,sub,/desert-dining-dubai,keep (sub)
@@ -988,14 +988,14 @@ dinner experience for couples dubai,0,,0,,,n/a,,,,,,1.0,True,/mystery-dining-dub
 dinner for couples in dubai,0,,0,,,n/a,,,,,,1.0,True,/proposal-dinner-dubai,sub,/proposal-dinner-dubai,keep (sub)
 dinner near me halal,0,,0,,,n/a,,,,,,1.0,True,/halal-catering-dubai,sub,/halal-catering-dubai,keep (sub)
 dinner offers in dubai,0,,0,,,n/a,,,,,,1.0,True,/proposal-dinner-dubai,sub,/proposal-dinner-dubai,keep (sub)
-dinner package for two dubai,0,,0,,,n/a,,,,,,1.0,False,/date-night-package-dubai,sub,/date-night-package-dubai,keep (sub)
+dinner package for two dubai,0,,0,,,n/a,,,,,,1.0,True,/date-night-package-dubai,sub,/date-night-package-dubai,keep (sub)
 dinner party catering dubai,0,,0,,,n/a,,,,,,1.0,False,/private-party-catering-dubai,sub,/private-party-catering-dubai,keep (sub)
 dinner party menu ideas dubai,0,commercial,0,1.0,,,,,,,no tracked competitor in top 30,1.0,True,/blog/dinner-party-menu-ideas-dubai,primary,/blog/dinner-party-menu-ideas-dubai,keep (primary)
-dinner party menu ideas dubai indian,0,commercial,0,0.0,,,,,,,no tracked competitor in top 30,1.0,False,/blog/dinner-party-menu-ideas-dubai,sub,/blog/dinner-party-menu-ideas-dubai,keep (sub)
-dinner party menu ideas dubai vegetarian,0,commercial,0,0.0,,29,,,,,"no tracked competitor in top 30, we #29",1.0,False,/blog/dinner-party-menu-ideas-dubai,sub,/blog/dinner-party-menu-ideas-dubai,keep (sub)
+dinner party menu ideas dubai indian,0,commercial,0,0.0,,,,,,,no tracked competitor in top 30,1.0,True,/blog/dinner-party-menu-ideas-dubai,sub,/blog/dinner-party-menu-ideas-dubai,keep (sub)
+dinner party menu ideas dubai vegetarian,0,commercial,0,0.0,,29,,,,,"no tracked competitor in top 30, we #29",1.0,True,/blog/dinner-party-menu-ideas-dubai,sub,/blog/dinner-party-menu-ideas-dubai,keep (sub)
 dinner party planning checklist dubai,0,informational,0,0.0,,,,,,,no tracked competitor in top 30,1.0,True,/luxury-dinner-planning-guide-dubai,sub,/luxury-dinner-planning-guide-dubai,keep (sub)
 dinner set price in dubai,0,,0,,,n/a,,,,,,1.0,True,/proposal-dinner-dubai,sub,/proposal-dinner-dubai,keep (sub)
-dinner set price in uae,0,,0,,,n/a,,,,,,0.33,False,/corporate-dinner-package-dubai,sub,/corporate-dinner-package-dubai,keep (sub)
+dinner set price in uae,0,,0,,,n/a,,,,,,1.0,True,/corporate-dinner-package-dubai,sub,/corporate-dinner-package-dubai,keep (sub)
 diwali buffet style food,0,,0,,,n/a,,,,,,1.0,True,/diwali-catering-dubai,sub,/diwali-catering-dubai,keep (sub)
 diwali catering,0,,0,,,n/a,,,,,,1.0,True,/festive-catering-dubai,sub,/festive-catering-dubai,keep (sub)
 diwali catering cost per person dubai,0,commercial,0,0.25,,,,,,,no tracked competitor in top 30,1.0,True,/diwali-catering-dubai,sub,/diwali-catering-dubai,keep (sub)
@@ -1012,7 +1012,7 @@ diwali food traditions,0,,0,,,n/a,,,,,,1.0,True,/diwali-catering-dubai,sub,/diwa
 diwali traditional food,0,,0,,,n/a,,,,,,1.0,True,/diwali-catering-dubai,sub,/diwali-catering-dubai,keep (sub)
 do i need serving staff for office catering dubai,0,commercial,0,0.0,,18,,,,,"no tracked competitor in top 30, we #18",1.0,True,/blog/corporate-catering-full-service-vs-drop-off,sub,/blog/corporate-catering-full-service-vs-drop-off,keep (sub)
 do private chefs also do the dishes,0,commercial,0,0.0,,,,,,,no tracked competitor in top 30,1.0,True,/blog/private-chef-vs-restaurant-dubai,sub,/blog/private-chef-vs-restaurant-dubai,keep (sub)
-do private chefs bring their own equipment dubai,0,commercial,0,0.14,,15,,,,,"no tracked competitor in top 30, we #15",0.83,False,/blog/how-to-hire-a-private-chef-dubai,sub,/blog/how-to-hire-a-private-chef-dubai,keep (sub)
+do private chefs bring their own equipment dubai,0,commercial,0,0.14,,15,,,,,"no tracked competitor in top 30, we #15",1.0,True,/blog/how-to-hire-a-private-chef-dubai,sub,/blog/how-to-hire-a-private-chef-dubai,keep (sub)
 do yachts allow outside catering dubai,0,commercial,0,,,31,,,,,"no tracked competitor in top 30, we #31",1.0,True,/yacht-catering-guide-dubai,sub,/yacht-catering-guide-dubai,keep (sub)
 does a private chef bring the ingredients dubai,0,commercial,0,0.23,,29,,,,,"no tracked competitor in top 30, we #29",1.0,False,/how-it-works,sub,/how-it-works,keep (sub)
 does a private chef clean up dubai,0,commercial,0,0.0,,22,,,,,"no tracked competitor in top 30, we #22",0.75,False,/faq,sub,/faq,keep (sub)
@@ -1089,19 +1089,19 @@ exhibition catering dubai price,0,commercial,0,0.17,,19,,,,,"no tracked competit
 exhibition catering menu dubai,0,commercial,0,0.25,,,,,,,no tracked competitor in top 30,1.0,True,/exhibition-catering-dubai,sub,/exhibition-catering-dubai,keep (sub)
 exhibition catering packages dubai,0,commercial,0,0.5,,33,,,,,"no tracked competitor in top 30, we #33",1.0,True,/exhibition-catering-dubai,sub,/exhibition-catering-dubai,keep (sub)
 exhibition stand catering dubai,0,commercial,0,0.33,,,,,,,no tracked competitor in top 30,1.0,True,/exhibition-catering-dubai,sub,/exhibition-catering-dubai,keep (sub)
-family catering cost per person dubai,0,commercial,0,0.0,,30,,,,,"no tracked competitor in top 30, we #30",0.8,False,/family-feast-package-dubai,sub,/family-feast-package-dubai,keep (sub)
+family catering cost per person dubai,0,commercial,0,0.0,,30,,,,,"no tracked competitor in top 30, we #30",1.0,True,/family-feast-package-dubai,sub,/family-feast-package-dubai,keep (sub)
 family catering dubai,0,commercial,0,1.0,,,,,,,no tracked competitor in top 30,1.0,True,/family-feast-package-dubai,primary,/family-feast-package-dubai,keep (primary)
-family catering dubai price,0,commercial,0,0.0,,,,,,,no tracked competitor in top 30,0.67,False,/family-feast-package-dubai,sub,/family-feast-package-dubai,keep (sub)
-family catering menu dubai,0,commercial,0,0.08,,,,,,,no tracked competitor in top 30,1.0,False,/family-feast-package-dubai,sub,/family-feast-package-dubai,keep (sub)
+family catering dubai price,0,commercial,0,0.0,,,,,,,no tracked competitor in top 30,1.0,True,/family-feast-package-dubai,sub,/family-feast-package-dubai,keep (sub)
+family catering menu dubai,0,commercial,0,0.08,,,,,,,no tracked competitor in top 30,1.0,True,/family-feast-package-dubai,sub,/family-feast-package-dubai,keep (sub)
 family catering menus dubai,0,commercial,0,0.18,,,,,,,no tracked competitor in top 30,1.0,False,/menus,sub,/menus,keep (sub)
 family chef,0,,0,,,n/a,,,,,,1.0,False,/family-feast-package-dubai,sub,/family-feast-package-dubai,keep (sub)
 family chef dubai full time,0,,0,,,n/a,,,,,,1.0,True,/part-time-private-chef-dubai,sub,/part-time-private-chef-dubai,keep (sub)
-family dinner package dubai,0,commercial,0,0.0,,,,,,,no tracked competitor in top 30,1.0,False,/family-feast-package-dubai,sub,/family-feast-package-dubai,keep (sub)
+family dinner package dubai,0,commercial,0,0.0,,,,,,,no tracked competitor in top 30,1.0,True,/family-feast-package-dubai,sub,/family-feast-package-dubai,keep (sub)
 family feast package dubai,0,commercial,0,0.0,,,,,,,no tracked competitor in top 30,1.0,True,/family-feast-package-dubai,sub,/family-feast-package-dubai,keep (sub)
-family iftar at home dubai,0,transactional,0,,,,,,,,no tracked competitor in top 30,1.0,False,/blog/iftar-at-home-dubai,sub,/blog/iftar-at-home-dubai,keep (sub)
-family meal package dubai,0,,0,,,n/a,,,,,,0.67,False,/family-feast-package-dubai,sub,/family-feast-package-dubai,keep (sub)
+family iftar at home dubai,0,transactional,0,,,,,,,,no tracked competitor in top 30,1.0,True,/blog/iftar-at-home-dubai,sub,/blog/iftar-at-home-dubai,keep (sub)
+family meal package dubai,0,,0,,,n/a,,,,,,1.0,True,/family-feast-package-dubai,sub,/family-feast-package-dubai,keep (sub)
 family meal prep dubai,0,transactional,0,0.4,,,,,,,no tracked competitor in top 30,1.0,True,/weekly-meal-prep-dubai,sub,/fitness-meal-prep-dubai,merge → /fitness-meal-prep-dubai
-family nutrition chef dubai,0,,0,,,n/a,,,,,,0.67,False,/family-feast-package-dubai,sub,/family-feast-package-dubai,keep (sub)
+family nutrition chef dubai,0,,0,,,n/a,,,,,,1.0,True,/family-feast-package-dubai,sub,/family-feast-package-dubai,keep (sub)
 famous private chefs,0,commercial,0,0.0,,,,,,,no tracked competitor in top 30,1.0,True,/chefs-table-dubai,sub,/chefs-table-dubai,keep (sub)
 female private chef arabian ranches,0,commercial,0,0.75,,21,,,,,"no tracked competitor in top 30, we #21",1.0,True,/locations/arabian-ranches,sub,/locations/arabian-ranches,keep (sub)
 female private chef bluewaters island,0,transactional,0,0.22,,11,,,,,"no tracked competitor in top 30, we #11",0.8,False,/locations/bluewaters-island,sub,/locations/bluewaters-island,keep (sub)
@@ -1139,7 +1139,7 @@ fitness meal prep menu dubai,0,transactional,0,0.5,,,,,,,no tracked competitor i
 fitness meal prep packages dubai,0,commercial,0,0.71,,,,,,,no tracked competitor in top 30,1.0,True,/fitness-meal-prep-dubai,sub,/weekly-meal-prep-dubai,merge → /weekly-meal-prep-dubai
 fitness meal prep services,0,,0,,,n/a,,,,,,1.0,True,/weekly-meal-prep-dubai,sub,/weekly-meal-prep-dubai,keep (sub)
 food blogger collaboration dubai,0,commercial,0,,,,,,,,no tracked competitor in top 30,1.0,True,/influencer-partnerships,sub,/influencer-partnerships,keep (sub)
-food catering company dubai,0,,0,,,n/a,,,,,,1.0,False,/best-catering-companies-dubai,sub,/best-catering-companies-dubai,keep (sub)
+food catering company dubai,0,,0,,,n/a,,,,,,1.0,True,/best-catering-companies-dubai,sub,/best-catering-companies-dubai,keep (sub)
 food catering locations dubai,0,commercial,0,0.5,,,,,,,no tracked competitor in top 30,0.67,False,/locations,sub,/best-catering-companies-dubai,merge → /best-catering-companies-dubai
 food catering menus dubai,0,commercial,0,0.08,,,,,,,no tracked competitor in top 30,0.67,False,/menus,sub,/menus,keep (sub)
 food catering packages dubai,0,commercial,0,0.44,,,,,,,no tracked competitor in top 30,0.67,False,/catering-packages-dubai,sub,/best-catering-companies-dubai,merge → /best-catering-companies-dubai
@@ -1183,7 +1183,7 @@ halal asian catering dubai,0,commercial,0,0.25,,,,,,,no tracked competitor in to
 halal baby shower catering dubai,0,commercial,0,0.38,,,,,,,no tracked competitor in top 30,1.0,True,/baby-shower-catering-dubai,sub,/baby-shower-catering-dubai,keep (sub)
 halal bbq catering dubai,0,commercial,0,0.44,,24,,,,,"no tracked competitor in top 30, we #24",1.0,True,/bbq-catering-dubai,sub,/bbq-catering-dubai,keep (sub)
 halal birthday catering dubai,0,commercial,0,0.17,,,,,,,no tracked competitor in top 30,1.0,False,/birthday-catering-dubai,sub,/birthday-catering-dubai,keep (sub)
-halal birthday catering package dubai,0,commercial,0,0.2,,,,,,,no tracked competitor in top 30,1.0,False,/birthday-catering-package-dubai,sub,/birthday-catering-package-dubai,keep (sub)
+halal birthday catering package dubai,0,commercial,0,0.2,,,,,,,no tracked competitor in top 30,1.0,True,/birthday-catering-package-dubai,sub,/birthday-catering-package-dubai,keep (sub)
 halal breakfast catering dubai,0,commercial,0,0.07,,,,,,,no tracked competitor in top 30,1.0,True,/breakfast-catering-dubai,sub,/breakfast-catering-dubai,keep (sub)
 halal brunch catering dubai,0,commercial,0,0.08,,29,,,,,"no tracked competitor in top 30, we #29",1.0,True,/brunch-catering-dubai,sub,/brunch-catering-dubai,keep (sub)
 halal buffet catering dubai,0,commercial,0,0.27,,,,,,,no tracked competitor in top 30,1.0,True,/buffet-catering-dubai,sub,/buffet-catering-dubai,keep (sub)
@@ -1198,11 +1198,11 @@ halal catering packages dubai,0,commercial,0,0.0,,,,,,,no tracked competitor in 
 halal chefs table dubai,0,commercial,0,0.6,,31,,,,,"no tracked competitor in top 30, we #31",1.0,True,/chefs-table-dubai,sub,/chefs-table-dubai,keep (sub)
 halal christmas catering dubai,0,commercial,0,,,n/a,,,,,,1.0,True,/christmas-catering-dubai,sub,/christmas-catering-dubai,keep (sub)
 halal corporate event catering dubai,0,commercial,0,0.3,,29,,,,,"no tracked competitor in top 30, we #29",1.0,False,/corporate-event-catering-dubai,sub,/corporate-event-catering-dubai,keep (sub)
-halal date night dubai,0,transactional,0,,,n/a,,,,,,1.0,False,/date-night-package-dubai,sub,/date-night-package-dubai,keep (sub)
+halal date night dubai,0,transactional,0,,,n/a,,,,,,1.0,True,/date-night-package-dubai,sub,/date-night-package-dubai,keep (sub)
 halal desert dining dubai,0,informational,0,0.86,,,,,,,no tracked competitor in top 30,1.0,True,/desert-dining-dubai,sub,/desert-dining-dubai,keep (sub)
 halal dessert table catering dubai,0,commercial,0,,,,,,,,no tracked competitor in top 30,1.0,False,/dessert-table-catering-dubai,sub,/dessert-table-catering-dubai,keep (sub)
 halal drop off catering dubai,0,commercial,0,,,20,,,,,"no tracked competitor in top 30, we #20",1.0,True,/drop-off-catering-dubai,sub,/drop-off-catering-dubai,keep (sub)
-halal family catering dubai,0,commercial,0,,,n/a,,,,,,1.0,False,/family-feast-package-dubai,sub,/family-feast-package-dubai,keep (sub)
+halal family catering dubai,0,commercial,0,,,n/a,,,,,,1.0,True,/family-feast-package-dubai,sub,/family-feast-package-dubai,keep (sub)
 halal festive catering dubai,0,commercial,0,0.44,,22,,,,,"no tracked competitor in top 30, we #22",1.0,False,/festive-catering-dubai,sub,/festive-catering-dubai,keep (sub)
 halal fine dining at home dubai,0,commercial,0,,,4,,,,,"no tracked competitor in top 30, we #4",1.0,True,/halal-private-dining-dubai,sub,/halal-private-dining-dubai,keep (sub)
 halal fitness meal prep dubai,0,commercial,0,0.44,,,,,,,no tracked competitor in top 30,1.0,True,/fitness-meal-prep-dubai,sub,/weekly-meal-prep-dubai,merge → /weekly-meal-prep-dubai
@@ -1298,9 +1298,9 @@ how to plan wedding catering dubai,0,informational,0,0.12,,13,,,,,"no tracked co
 how to plan yacht catering dubai,0,informational,0,,,n/a,,,,,,1.0,True,/yacht-catering-checklist-dubai,sub,/yacht-catering-checklist-dubai,keep (sub)
 how yacht catering works dubai,0,commercial,0,,,n/a,,,,,,1.0,True,/yacht-catering-guide-dubai,sub,/yacht-catering-guide-dubai,keep (sub)
 hutong dubai private dining,0,,0,,,n/a,,,,,,1.0,True,/halal-private-dining-dubai,sub,/halal-private-dining-dubai,keep (sub)
-iftar at home cost dubai,0,commercial,0,,,,,,,,no tracked competitor in top 30,1.0,False,/blog/iftar-at-home-dubai,sub,/blog/iftar-at-home-dubai,keep (sub)
+iftar at home cost dubai,0,commercial,0,,,,,,,,no tracked competitor in top 30,1.0,True,/blog/iftar-at-home-dubai,sub,/blog/iftar-at-home-dubai,keep (sub)
 iftar at home dubai,0,transactional,0,1.0,,n/a,,,,,,1.0,True,/blog/iftar-at-home-dubai,primary,/blog/iftar-at-home-dubai,keep (primary)
-iftar at home dubai offers,0,commercial,0,,,,,,,,no tracked competitor in top 30,1.0,False,/blog/iftar-at-home-dubai,sub,/blog/iftar-at-home-dubai,keep (sub)
+iftar at home dubai offers,0,commercial,0,,,,,,,,no tracked competitor in top 30,1.0,True,/blog/iftar-at-home-dubai,sub,/blog/iftar-at-home-dubai,keep (sub)
 iftar buffet catering dubai,0,transactional,0,0.33,,,,,,,no tracked competitor in top 30,1.0,True,/iftar-catering-dubai,sub,/iftar-catering-dubai,keep (sub)
 iftar buffet dubai business bay,0,,0,,,n/a,,,,,,1.0,True,/locations/business-bay,sub,/locations/business-bay,keep (sub)
 iftar buffet dubai downtown,0,,0,,,n/a,,,,,,1.0,True,/locations/downtown-dubai,sub,/locations/downtown-dubai,keep (sub)
@@ -1317,8 +1317,8 @@ iftar catering menu dubai,0,transactional,0,0.58,,,,,,,no tracked competitor in 
 iftar catering packages dubai,0,commercial,0,0.8,,,,,,,no tracked competitor in top 30,1.0,True,/iftar-catering-dubai,sub,/iftar-catering-dubai,keep (sub)
 iftar catering trends,0,commercial,0,0.0,,,,,,,no tracked competitor in top 30,1.0,True,/blog/ramadan-iftar-catering-trends-2026,sub,/blog/ramadan-iftar-catering-trends-2026,keep (sub)
 iftar dubai for corporate,0,,0,,,n/a,,,,,,1.0,True,/corporate-retainer-dubai,sub,/corporate-retainer-dubai,keep (sub)
-iftar ideas at home dubai,0,commercial,0,,,,,,,,no tracked competitor in top 30,1.0,False,/blog/iftar-at-home-dubai,sub,/blog/iftar-at-home-dubai,keep (sub)
-iftar menu at home dubai,0,transactional,0,,,,,,,,no tracked competitor in top 30,1.0,False,/blog/iftar-at-home-dubai,sub,/blog/iftar-at-home-dubai,keep (sub)
+iftar ideas at home dubai,0,commercial,0,,,,,,,,no tracked competitor in top 30,1.0,True,/blog/iftar-at-home-dubai,sub,/blog/iftar-at-home-dubai,keep (sub)
+iftar menu at home dubai,0,transactional,0,,,,,,,,no tracked competitor in top 30,1.0,True,/blog/iftar-at-home-dubai,sub,/blog/iftar-at-home-dubai,keep (sub)
 in flight catering dubai,0,transactional,0,0.08,,,,,,,no tracked competitor in top 30,1.0,False,/private-jet-catering-dubai,sub,/private-jet-catering-dubai,keep (sub)
 indian catering cost per head,0,,0,,,n/a,,,,,,1.0,True,/indian-catering-dubai,sub,/indian-catering-dubai,keep (sub)
 indian catering cost per person dubai,0,commercial,0,0.0,,,,,,,no tracked competitor in top 30,1.0,True,/indian-catering-dubai,sub,/indian-catering-dubai,keep (sub)
@@ -1358,8 +1358,8 @@ japanese catering dubai,0,commercial,0,0.21,,,,,,,no tracked competitor in top 3
 jerry villa chef,0,,0,,,n/a,,,,,,1.0,True,/villa-catering-ideas-dubai,sub,/villa-catering-ideas-dubai,keep (sub)
 jet catering menu dubai,0,transactional,0,,,n/a,,,,,,0.67,False,/private-jet-catering-dubai,sub,/private-jet-catering-dubai,keep (sub)
 kids birthday catering dubai,0,commercial,0,0.08,,,,,,,no tracked competitor in top 30,1.0,False,/birthday-catering-dubai,sub,/birthday-catering-dubai,keep (sub)
-kids birthday catering packages dubai,0,commercial,0,0.08,,,,,,,no tracked competitor in top 30,1.0,False,/birthday-catering-package-dubai,sub,/birthday-catering-package-dubai,keep (sub)
-kids birthday food package dubai,0,,0,,,n/a,,,,,,0.75,False,/birthday-catering-package-dubai,sub,/birthday-catering-package-dubai,keep (sub)
+kids birthday catering packages dubai,0,commercial,0,0.08,,,,,,,no tracked competitor in top 30,1.0,True,/birthday-catering-package-dubai,sub,/birthday-catering-package-dubai,keep (sub)
+kids birthday food package dubai,0,,0,,,n/a,,,,,,1.0,True,/birthday-catering-package-dubai,sub,/birthday-catering-package-dubai,keep (sub)
 kids meal plan dubai,0,commercial,0,0.5,,,,,,,no tracked competitor in top 30,1.0,True,/kids-nutrition-chef-dubai,sub,/kids-nutrition-chef-dubai,keep (sub)
 kids meal prep dubai,0,transactional,0,1.0,,,,,,,no tracked competitor in top 30,1.0,True,/kids-nutrition-chef-dubai,primary,/kids-nutrition-chef-dubai,keep (primary)
 kids meal prep dubai price,0,commercial,0,0.4,,,,,,,no tracked competitor in top 30,1.0,True,/kids-nutrition-chef-dubai,sub,/kids-nutrition-chef-dubai,keep (sub)
@@ -1376,7 +1376,7 @@ live cooking stations menu dubai,0,commercial,0,0.23,,,,,,,no tracked competitor
 live cooking stations packages dubai,0,commercial,0,0.0,,,,,,,no tracked competitor in top 30,1.0,True,/live-cooking-stations-dubai,sub,/live-cooking-stations-dubai,keep (sub)
 live in chef dubai,0,transactional,0,,,n/a,,,,,,0.5,False,/how-it-works,sub,/how-it-works,keep (sub)
 live pasta station dubai,0,transactional,0,0.18,,,,,,,no tracked competitor in top 30,1.0,True,/live-cooking-stations-dubai,sub,/live-cooking-stations-dubai,keep (sub)
-lunch date dubai,0,,0,,,n/a,,,,,,0.5,False,/date-night-package-dubai,sub,/date-night-package-dubai,keep (sub)
+lunch date dubai,0,,0,,,n/a,,,,,,1.0,True,/date-night-package-dubai,sub,/date-night-package-dubai,keep (sub)
 luxury catering company dubai,0,commercial,0,0.0,,,,,,,no tracked competitor in top 30,1.0,True,/about,sub,/about,keep (sub)
 luxury desert dining dubai,0,informational,0,0.5,,,,,,,no tracked competitor in top 30,1.0,True,/desert-dining-dubai,sub,/desert-dining-dubai,keep (sub)
 luxury dining experience cost per person dubai,0,commercial,0,0.0,,,,,,,no tracked competitor in top 30,0.67,False,/luxury-dining-experiences,sub,/luxury-dining-experiences,keep (sub)
@@ -1454,13 +1454,13 @@ new year dinner dubai,0,,0,,,n/a,,,,,,1.0,True,/new-year-catering-dubai,sub,/new
 new year party food dubai,0,,0,,,n/a,,,,,,1.0,True,/new-year-catering-dubai,sub,/new-year-catering-dubai,keep (sub)
 new year yacht catering dubai,0,informational,0,0.07,,,,,,,no tracked competitor in top 30,0.5,False,/yachts,sub,/yachts,keep (sub)
 new years day brunch dubai,0,,0,,,n/a,,,,,,1.0,True,/uae-national-day-catering-dubai,sub,/uae-national-day-catering-dubai,keep (sub)
-new years eve at home dubai,0,transactional,0,0.0,,,,,,,no tracked competitor in top 30,1.0,False,/blog/nye-party-catering-dubai,sub,/blog/nye-party-catering-dubai,keep (sub)
-new years eve dinner at home dubai,0,transactional,0,,,n/a,,,,,,1.0,False,/blog/nye-party-catering-dubai,sub,/blog/nye-party-catering-dubai,keep (sub)
-new years eve party food ideas dubai,0,commercial,0,0.17,,,,,,,no tracked competitor in top 30,1.0,False,/blog/nye-party-catering-dubai,sub,/blog/nye-party-catering-dubai,keep (sub)
+new years eve at home dubai,0,transactional,0,0.0,,,,,,,no tracked competitor in top 30,1.0,True,/blog/nye-party-catering-dubai,sub,/blog/nye-party-catering-dubai,keep (sub)
+new years eve dinner at home dubai,0,transactional,0,,,n/a,,,,,,1.0,True,/blog/nye-party-catering-dubai,sub,/blog/nye-party-catering-dubai,keep (sub)
+new years eve party food ideas dubai,0,commercial,0,0.17,,,,,,,no tracked competitor in top 30,1.0,True,/blog/nye-party-catering-dubai,sub,/blog/nye-party-catering-dubai,keep (sub)
 nikah catering dubai,0,transactional,0,0.1,,,,,,,no tracked competitor in top 30,1.0,True,/wedding-catering-dubai,sub,/wedding-catering-dubai,keep (sub)
 no onion no garlic catering dubai,0,transactional,0,0.0,,26,,,,,"no tracked competitor in top 30, we #26",1.0,True,/jain-catering-dubai,sub,/jain-catering-dubai,keep (sub)
 north indian catering dubai,0,commercial,0,0.4,,,,,,,no tracked competitor in top 30,1.0,True,/indian-catering-dubai,sub,/indian-catering-dubai,keep (sub)
-nye party catering cost dubai,0,commercial,0,0.56,,11,,,,,"no tracked competitor in top 30, we #11",1.0,False,/blog/nye-party-catering-dubai,sub,/blog/nye-party-catering-dubai,keep (sub)
+nye party catering cost dubai,0,commercial,0,0.56,,11,,,,,"no tracked competitor in top 30, we #11",1.0,True,/blog/nye-party-catering-dubai,sub,/blog/nye-party-catering-dubai,keep (sub)
 nye party catering dubai,0,transactional,0,1.0,,18,,,,,"no tracked competitor in top 30, we #18",1.0,True,/blog/nye-party-catering-dubai,primary,/blog/nye-party-catering-dubai,keep (primary)
 odyssey private jet catering,0,,0,,,n/a,,,,,,0.75,False,/private-jet-catering-dubai,sub,/private-jet-catering-dubai,keep (sub)
 office breakfast catering dubai,0,commercial,0,0.08,,,,,,,no tracked competitor in top 30,1.0,True,/breakfast-catering-dubai,sub,/breakfast-catering-dubai,keep (sub)
@@ -1473,7 +1473,7 @@ office dinner catering package dubai,0,,0,,,n/a,,,,,,1.0,True,/gala-dinner-cater
 office food delivery dubai,0,commercial,0,0.08,,,,,,,no tracked competitor in top 30,1.0,False,/office-catering-dubai,sub,/office-catering-dubai,keep (sub)
 office lunch catering dubai,0,commercial,0,0.27,,34,,,,,"no tracked competitor in top 30, we #34",1.0,False,/office-catering-dubai,sub,/business-lunch-catering-dubai,merge → /business-lunch-catering-dubai
 office lunch delivery dubai,0,transactional,0,0.22,,,,,,,no tracked competitor in top 30,1.0,True,/business-lunch-catering-dubai,sub,/business-lunch-catering-dubai,keep (sub)
-office party food ideas dubai,0,commercial,0,0.0,,,,,,,no tracked competitor in top 30,1.0,False,/blog/corporate-event-catering-ideas-dubai,sub,/blog/corporate-event-catering-ideas-dubai,keep (sub)
+office party food ideas dubai,0,commercial,0,0.0,,,,,,,no tracked competitor in top 30,1.0,True,/blog/corporate-event-catering-ideas-dubai,sub,/blog/corporate-event-catering-ideas-dubai,keep (sub)
 official event catering dubai,0,,0,,,n/a,,,,,,0.67,False,/events,sub,/events,keep (sub)
 outdoor bbq catering dubai,0,,0,,,n/a,,,,,,1.0,True,/bbq-catering-dubai,sub,/bbq-catering-dubai,keep (sub)
 outdoor event catering dubai,0,commercial,0,0.3,,,,,,,no tracked competitor in top 30,1.0,False,/events,sub,/events,keep (sub)
@@ -1532,7 +1532,7 @@ personal chef meal prep near me cost,0,,0,,,n/a,,,,,,1.0,True,/fitness-meal-prep
 personal chef near me,0,,0,0.0,,,,,,,no tracked competitor in top 30,1.0,True,/part-time-private-chef-dubai,sub,/part-time-private-chef-dubai,keep (sub)
 personal chef packages on offer in dubai,0,commercial,0,0.3,,27,,,,,"no tracked competitor in top 30, we #27",0.75,False,/how-it-works,sub,/apartment-private-dining-dubai,merge → /apartment-private-dining-dubai
 personal chef palm jumeirah,0,commercial,0,0.33,,33,,,,,"no tracked competitor in top 30, we #33",1.0,True,/locations/palm-jumeirah,sub,/full-time-private-chef-dubai,merge → /full-time-private-chef-dubai
-personal chef rates dubai,0,commercial,0,0.18,,,,,,,no tracked competitor in top 30,0.67,False,/blog/private-chef-date-night-dubai,sub,/blog/how-much-does-private-chef-cost-dubai,merge → /blog/how-much-does-private-chef-cost-dubai
+personal chef rates dubai,0,commercial,0,0.18,,,,,,,no tracked competitor in top 30,1.0,True,/blog/private-chef-date-night-dubai,sub,/blog/how-much-does-private-chef-cost-dubai,merge → /blog/how-much-does-private-chef-cost-dubai
 personal chef services availability in dubai,0,commercial,0,0.33,,,,,,,no tracked competitor in top 30,1.0,True,/about,sub,/apartment-private-dining-dubai,merge → /apartment-private-dining-dubai
 personal chef services faq,0,informational,0,0.07,,,,,,,no tracked competitor in top 30,1.0,True,/how-we-vet-our-chefs,sub,/how-we-vet-our-chefs,keep (sub)
 personal chef services on offer in dubai,0,commercial,0,0.38,,,,,,,no tracked competitor in top 30,1.0,True,/about,sub,/private-chef-dubai/how-it-works,merge → /private-chef-dubai/how-it-works
@@ -1582,16 +1582,16 @@ private chef business bay,0,transactional,0,1.0,,28,,,,,"no tracked competitor i
 private chef catering,0,,0,0.09,,1,,,,,"no tracked competitor in top 30, we #1",1.0,True,/private-chef-prices-dubai,sub,/private-chef-prices-dubai,keep (sub)
 private chef catering company,0,commercial,0,0.15,,20,,,,,"no tracked competitor in top 30, we #20",1.0,True,/private-chef-vs-catering-dubai,sub,/locations/downtown-dubai,merge → /locations/downtown-dubai
 private chef company dubai,0,commercial,0,1.0,,22,,,,,"no tracked competitor in top 30, we #22",1.0,True,/about,primary,/about,keep (primary)
-private chef corporate dinner dubai,0,transactional,0,,,n/a,,,,,,1.0,False,/corporate-dinner-package-dubai,sub,/corporate-dinner-package-dubai,keep (sub)
+private chef corporate dinner dubai,0,transactional,0,,,n/a,,,,,,1.0,True,/corporate-dinner-package-dubai,sub,/corporate-dinner-package-dubai,keep (sub)
 private chef cost dc,0,,0,,,n/a,,,,,,1.0,True,/blog/how-much-does-private-chef-cost-dubai,sub,/blog/how-much-does-private-chef-cost-dubai,keep (sub)
 private chef cost dubai,0,commercial,0,0.62,,28,,,,,"no tracked competitor in top 30, we #28",1.0,True,/private-chef-prices-dubai,sub,/blog/how-much-does-private-chef-cost-dubai,merge → /blog/how-much-does-private-chef-cost-dubai
 private chef cost for 6 people dubai,0,commercial,0,0.56,,26,,,,,"no tracked competitor in top 30, we #26",1.0,True,/blog/how-much-does-private-chef-cost-dubai,sub,/blog/how-much-does-private-chef-cost-dubai,keep (sub)
-private chef cost for dinner party,0,commercial,0,0.0,,,,,,,no tracked competitor in top 30,1.0,False,/blog/desert-dinner-party-dubai,sub,/blog/desert-dinner-party-dubai,keep (sub)
+private chef cost for dinner party,0,commercial,0,0.0,,,,,,,no tracked competitor in top 30,1.0,True,/blog/desert-dinner-party-dubai,sub,/blog/desert-dinner-party-dubai,keep (sub)
 private chef cost per person dubai,0,commercial,0,0.67,,30,,,,,"no tracked competitor in top 30, we #30",1.0,True,/blog/how-much-does-private-chef-cost-dubai,sub,/blog/how-much-does-private-chef-cost-dubai,keep (sub)
-private chef date night cost dubai,0,commercial,0,0.33,,22,,,,,"no tracked competitor in top 30, we #22",1.0,False,/blog/private-chef-date-night-dubai,sub,/blog/private-chef-date-night-dubai,keep (sub)
+private chef date night cost dubai,0,commercial,0,0.33,,22,,,,,"no tracked competitor in top 30, we #22",1.0,True,/blog/private-chef-date-night-dubai,sub,/blog/private-chef-date-night-dubai,keep (sub)
 private chef date night dubai,0,transactional,0,1.0,,,,,,,no tracked competitor in top 30,1.0,True,/blog/private-chef-date-night-dubai,primary,/blog/private-chef-date-night-dubai,keep (primary)
 private chef difc,0,navigational,0,1.0,,n/a,,,,,,1.0,True,/locations/difc,primary,/locations/difc,keep (primary)
-private chef dinner for 2 cost,0,,0,,,n/a,,,,,,0.6,False,/corporate-dinner-package-dubai,sub,/corporate-dinner-package-dubai,keep (sub)
+private chef dinner for 2 cost,0,,0,,,n/a,,,,,,1.0,True,/corporate-dinner-package-dubai,sub,/corporate-dinner-package-dubai,keep (sub)
 private chef dinner near me,0,,0,,,n/a,,,,,,1.0,False,/,sub,/,keep (sub)
 private chef dinner party near me,0,commercial,0,0.2,,35,,,,,"no tracked competitor in top 30, we #35",1.0,True,/blog/best-private-chef-birthday-dinner-dubai,sub,/blog/best-private-chef-birthday-dinner-dubai,keep (sub)
 private chef downtown dubai,0,transactional,0,1.0,,25,,,,,"no tracked competitor in top 30, we #25",1.0,True,/locations/downtown-dubai,primary,/locations/downtown-dubai,keep (primary)
@@ -1612,7 +1612,7 @@ private chef for apartment dubai,0,transactional,0,1.0,,,,,,,no tracked competit
 private chef for birthday dinner dubai,0,transactional,0,1.0,,29,,,,,"no tracked competitor in top 30, we #29",1.0,True,/blog/best-private-chef-birthday-dinner-dubai,primary,/blog/best-private-chef-birthday-dinner-dubai,keep (primary)
 private chef for dinner party dubai,0,transactional,0,0.22,,35,,,,,"no tracked competitor in top 30, we #35",1.0,False,/private-chef-dubai,sub,/blog/private-chef-date-night-dubai,merge → /blog/private-chef-date-night-dubai
 private chef for tourists dubai,0,transactional,0,0.56,,,,,,,no tracked competitor in top 30,1.0,True,/tourist-villa-chef-dubai,sub,/blog/private-chef-date-night-dubai,merge → /blog/private-chef-date-night-dubai
-private chef for two dubai,0,transactional,0,0.38,,27,,,,,"no tracked competitor in top 30, we #27",1.0,False,/blog/private-chef-date-night-dubai,sub,/our-chefs,merge → /our-chefs
+private chef for two dubai,0,transactional,0,0.38,,27,,,,,"no tracked competitor in top 30, we #27",1.0,True,/blog/private-chef-date-night-dubai,sub,/our-chefs,merge → /our-chefs
 private chef gift card dubai,0,commercial,0,,,n/a,,,,,,1.0,True,/gift-cards,sub,/gift-cards,keep (sub)
 private chef holiday villa dubai,0,transactional,0,0.45,,18,,,,,"no tracked competitor in top 30, we #18",1.0,True,/tourist-villa-chef-dubai,sub,/locations/dubai-hills,merge → /locations/dubai-hills
 private chef home catering,0,,0,,,n/a,,,,,,1.0,False,/,sub,/,keep (sub)
@@ -1628,7 +1628,7 @@ private chef membership dubai,0,commercial,0,,,21,,,,,"no tracked competitor in 
 private chef near me,0,,0,0.0,,,,,,,no tracked competitor in top 30,1.0,True,/private-chef-dubai,sub,/private-chef-dubai,keep (sub)
 private chef near me dubai,0,transactional,0,,,n/a,,,,,,1.0,False,/private-chef-dubai,sub,/private-chef-dubai,keep (sub)
 private chef near palm jumeirah,0,commercial,0,,,21,,,,,"no tracked competitor in top 30, we #21",1.0,True,/locations/jumeirah,sub,/locations/palm-jumeirah,merge → /locations/palm-jumeirah
-private chef new years eve dubai,0,transactional,0,0.09,,18,,,,,"no tracked competitor in top 30, we #18",1.0,False,/blog/nye-party-catering-dubai,sub,/blog/nye-party-catering-dubai,keep (sub)
+private chef new years eve dubai,0,transactional,0,0.09,,18,,,,,"no tracked competitor in top 30, we #18",1.0,True,/blog/nye-party-catering-dubai,sub,/blog/nye-party-catering-dubai,keep (sub)
 private chef or catering,0,commercial,0,0.5,,21,,,,,"no tracked competitor in top 30, we #21",1.0,True,/,sub,/,keep (sub)
 private chef or catering for a party,0,commercial,0,0.23,,27,,,,,"no tracked competitor in top 30, we #27",1.0,True,/private-chef-vs-catering-dubai,sub,/blog/private-chef-date-night-dubai,merge → /blog/private-chef-date-night-dubai
 private chef palm jumeirah,0,commercial,0,1.0,,25,,,,,"no tracked competitor in top 30, we #25",1.0,True,/locations/palm-jumeirah,primary,/locations/palm-jumeirah,keep (primary)
@@ -1647,7 +1647,7 @@ private chef villa dubai,0,transactional,0,0.36,,,,,,,no tracked competitor in t
 private chef vs caterer cost dubai,0,commercial,0,,,n/a,,,,,,1.0,True,/private-chef-vs-catering-dubai,sub,/private-chef-vs-catering-dubai,keep (sub)
 private chef vs catering,0,commercial,0,0.0,,,,,,,no tracked competitor in top 30,1.0,True,/blog/corporate-catering-full-service-vs-drop-off,sub,/blog/corporate-catering-full-service-vs-drop-off,keep (sub)
 private chef vs catering dubai,0,commercial,0,1.0,,7,,,,,"no tracked competitor in top 30, we #7",1.0,True,/private-chef-vs-catering-dubai,primary,/private-chef-vs-catering-dubai,keep (primary)
-private chef vs restaurant cost dubai,0,commercial,0,0.33,,28,,,,,"no tracked competitor in top 30, we #28",1.0,False,/blog/private-chef-vs-restaurant-dubai,sub,/blog/how-much-does-private-chef-cost-dubai,drop — off-intent
+private chef vs restaurant cost dubai,0,commercial,0,0.33,,28,,,,,"no tracked competitor in top 30, we #28",1.0,True,/blog/private-chef-vs-restaurant-dubai,sub,/blog/how-much-does-private-chef-cost-dubai,drop — off-intent
 private chef vs restaurant dubai,0,commercial,0,1.0,,21,,,,,"no tracked competitor in top 30, we #21",1.0,True,/blog/private-chef-vs-restaurant-dubai,primary,/blog/private-chef-vs-restaurant-dubai,keep (primary)
 private chef without managing staff dubai,0,transactional,0,0.2,,,,,,,no tracked competitor in top 30,0.8,False,/private-chef-dubai/how-it-works,sub,/private-chef-dubai/how-it-works,keep (sub)
 private chef yacht dubai,0,transactional,0,0.08,,27,,,,,"no tracked competitor in top 30, we #27",1.0,True,/yachts,sub,/yachts,keep (sub)
@@ -1684,10 +1684,10 @@ private dining palm jumeirah,0,commercial,0,0.0,,,,,,,no tracked competitor in t
 private dining palm jumeirah dubai,0,informational,0,1.0,,n/a,,,,,,1.0,True,/blog/private-chef-palm-jumeirah-guide,primary,/blog/private-chef-palm-jumeirah-guide,keep (primary)
 private dining trends dubai 2026,0,commercial,0,,,n/a,,,,,,1.0,True,/dubai-food-trends-report-2026,sub,/dubai-food-trends-report-2026,keep (sub)
 private dining umm suqeim,0,transactional,0,0.0,,,,,,,no tracked competitor in top 30,1.0,False,/locations/umm-suqeim,sub,/locations/umm-suqeim,keep (sub)
-private dinner cruise dubai price,0,,0,,,n/a,,,,,,0.5,False,/corporate-dinner-package-dubai,sub,/corporate-dinner-package-dubai,keep (sub)
-private dinner date dubai,0,transactional,0,0.0,,,,,,,no tracked competitor in top 30,1.0,False,/blog/private-chef-date-night-dubai,sub,/blog/private-chef-date-night-dubai,keep (sub)
+private dinner cruise dubai price,0,,0,,,n/a,,,,,,1.0,True,/corporate-dinner-package-dubai,sub,/corporate-dinner-package-dubai,keep (sub)
+private dinner date dubai,0,transactional,0,0.0,,,,,,,no tracked competitor in top 30,1.0,True,/blog/private-chef-date-night-dubai,sub,/blog/private-chef-date-night-dubai,keep (sub)
 private dinner experience dubai,0,informational,0,0.0,,,,,,,no tracked competitor in top 30,1.0,True,/mystery-dining-dubai,sub,/mystery-dining-dubai,keep (sub)
-private dinner package dubai,0,,0,,,n/a,,,,,,1.0,False,/date-night-package-dubai,sub,/date-night-package-dubai,keep (sub)
+private dinner package dubai,0,,0,,,n/a,,,,,,1.0,True,/date-night-package-dubai,sub,/date-night-package-dubai,keep (sub)
 private dinner palm jumeirah,0,transactional,0,0.0,,,,,,,no tracked competitor in top 30,1.0,True,/locations/palm-jumeirah,sub,/locations/palm-jumeirah,keep (sub)
 private dinner party dubai,0,transactional,0,0.86,,,,,,,no tracked competitor in top 30,1.0,True,/guide/private-dining-dubai,sub,/guide/private-dining-dubai,keep (sub)
 private event catering dubai,0,commercial,0,0.33,,,,,,,no tracked competitor in top 30,1.0,False,/events,sub,/events,keep (sub)
@@ -1748,7 +1748,7 @@ romantic dinner dubai desert,0,informational,0,0.0,,,,,,,no tracked competitor i
 romantic dinner dubai for couples,0,informational,0,0.62,,,,,,,no tracked competitor in top 30,1.0,True,/romantic-dinner-dubai,sub,/romantic-dinner-dubai,keep (sub)
 romantic dinner dubai marina,0,informational,0,0.17,,,,,,,no tracked competitor in top 30,1.0,True,/romantic-dinner-dubai,sub,/romantic-dinner-dubai,keep (sub)
 romantic dinner dubai with a view,0,informational,0,0.44,,,,,,,no tracked competitor in top 30,1.0,True,/romantic-dinner-dubai,sub,/romantic-dinner-dubai,keep (sub)
-romantic dinner ideas at home dubai,0,commercial,0,0.0,,,,,,,no tracked competitor in top 30,1.0,False,/blog/private-chef-date-night-dubai,sub,/blog/private-chef-date-night-dubai,keep (sub)
+romantic dinner ideas at home dubai,0,commercial,0,0.0,,,,,,,no tracked competitor in top 30,1.0,True,/blog/private-chef-date-night-dubai,sub,/blog/private-chef-date-night-dubai,keep (sub)
 romantic proposal dinner dubai,0,,0,,,n/a,,,,,,1.0,True,/proposal-dinner-dubai,sub,/proposal-dinner-dubai,keep (sub)
 sample catering menu dubai,0,transactional,0,,,n/a,,,,,,1.0,False,/menus,sub,/menus,keep (sub)
 satvik catering dubai,0,commercial,0,0.0,,,,,,,no tracked competitor in top 30,1.0,True,/jain-catering-dubai,sub,/jain-catering-dubai,keep (sub)
@@ -1761,7 +1761,7 @@ small catering locations dubai,0,commercial,0,0.33,,,,,,,no tracked competitor i
 small catering menus dubai,0,commercial,0,0.08,,,,,,,no tracked competitor in top 30,0.67,False,/menus,sub,/menus,keep (sub)
 small catering packages dubai,0,commercial,0,0.2,,,,,,,no tracked competitor in top 30,0.67,False,/catering-packages-dubai,sub,/catering-packages-dubai,keep (sub)
 small corporate catering dubai,0,commercial,0,,,n/a,,,,,,0.67,False,/corporate,sub,/corporate,keep (sub)
-small corporate event catering ideas dubai,0,commercial,0,0.3,,,,,,,no tracked competitor in top 30,0.8,False,/blog/corporate-event-catering-ideas-dubai,sub,/blog/corporate-event-catering-ideas-dubai,keep (sub)
+small corporate event catering ideas dubai,0,commercial,0,0.3,,,,,,,no tracked competitor in top 30,1.0,True,/blog/corporate-event-catering-ideas-dubai,sub,/blog/corporate-event-catering-ideas-dubai,keep (sub)
 small event catering dubai,0,commercial,0,0.18,,,,,,,no tracked competitor in top 30,1.0,False,/events,sub,/events,keep (sub)
 small office catering dubai,0,,0,,,n/a,,,,,,0.67,False,/office-catering-dubai,sub,/office-catering-dubai,keep (sub)
 small party catering dubai indian price list,0,,0,,,n/a,,,,,,0.83,False,/private-party-catering-dubai,sub,/private-party-catering-dubai,keep (sub)
@@ -1796,7 +1796,7 @@ tasting menu birthday dubai,0,,0,,,n/a,,,,,,1.0,True,/tasting-menu-dubai,sub,/ta
 tasting menu courses,0,,0,,,n/a,,,,,,1.0,True,/tasting-menu-dubai,sub,/tasting-menu-dubai,keep (sub)
 tasting menu dubai price,0,commercial,0,,,n/a,,,,,,1.0,True,/tasting-menu-dubai,sub,/tasting-menu-dubai,keep (sub)
 tasting menu packages dubai,0,commercial,0,0.14,,,,,,,no tracked competitor in top 30,1.0,True,/tasting-menu-dubai,sub,/tasting-menu-dubai,keep (sub)
-team dinner catering dubai,0,commercial,0,,,n/a,,,,,,1.0,False,/corporate-dinner-package-dubai,sub,/corporate-dinner-package-dubai,keep (sub)
+team dinner catering dubai,0,commercial,0,,,n/a,,,,,,1.0,True,/corporate-dinner-package-dubai,sub,/corporate-dinner-package-dubai,keep (sub)
 team lunch catering dubai,0,commercial,0,0.18,,34,,,,,"no tracked competitor in top 30, we #34",1.0,False,/office-catering-dubai,sub,/office-catering-dubai,keep (sub)
 the chefs table private chef and catering,0,commercial,0,,,,,,,,no tracked competitor in top 30,1.0,True,/mychef-certified,sub,/mychef-certified,keep (sub)
 the italian supper food truck dubai menu,0,,0,,,n/a,,,,,,1.0,True,/italian-catering-dubai,sub,/italian-catering-dubai,keep (sub)
@@ -1836,11 +1836,11 @@ vegan catering dubai price,0,commercial,0,0.5,,4,,,,,"no tracked competitor in t
 vegan catering menu dubai,0,transactional,0,0.4,,12,,,,,"no tracked competitor in top 30, we #12",1.0,True,/vegan-catering-dubai,sub,/vegan-catering-dubai,keep (sub)
 vegan catering packages dubai,0,commercial,0,0.45,,18,,,,,"no tracked competitor in top 30, we #18",1.0,True,/vegan-catering-dubai,sub,/vegan-catering-dubai,keep (sub)
 vegan christmas dinner dubai,0,,0,,,n/a,,,,,,1.0,True,/vegan-catering-dubai,sub,/vegan-catering-dubai,keep (sub)
-vegan fine dining ideas,0,commercial,0,0.0,,,,,,,no tracked competitor in top 30,1.0,False,/blog/vegan-catering-dubai-guide,sub,/blog/vegan-catering-dubai-guide,keep (sub)
+vegan fine dining ideas,0,commercial,0,0.0,,,,,,,no tracked competitor in top 30,1.0,True,/blog/vegan-catering-dubai-guide,sub,/blog/vegan-catering-dubai-guide,keep (sub)
 vegan food dubai,0,,0,,,n/a,,,,,,1.0,True,/vegan-catering-dubai,sub,/vegan-catering-dubai,keep (sub)
-vegan meal service dubai,0,commercial,0,0.0,,,,,,,no tracked competitor in top 30,1.0,False,/blog/vegan-catering-dubai-guide,sub,/blog/vegan-catering-dubai-guide,keep (sub)
+vegan meal service dubai,0,commercial,0,0.0,,,,,,,no tracked competitor in top 30,1.0,True,/blog/vegan-catering-dubai-guide,sub,/blog/vegan-catering-dubai-guide,keep (sub)
 vegan menu ideas dubai,0,commercial,0,1.0,,,,,,,no tracked competitor in top 30,1.0,True,/blog/vegan-catering-dubai-guide,primary,/blog/vegan-catering-dubai-guide,keep (primary)
-vegan party food ideas dubai,0,commercial,0,0.07,,10,,,,,"no tracked competitor in top 30, we #10",1.0,False,/blog/vegan-catering-dubai-guide,sub,/blog/vegan-catering-dubai-guide,keep (sub)
+vegan party food ideas dubai,0,commercial,0,0.07,,10,,,,,"no tracked competitor in top 30, we #10",1.0,True,/blog/vegan-catering-dubai-guide,sub,/blog/vegan-catering-dubai-guide,keep (sub)
 vegan private chef dubai,0,transactional,0,0.0,,34,,,,,"no tracked competitor in top 30, we #34",1.0,True,/vegan-catering-dubai,sub,/vegan-catering-dubai,keep (sub)
 vegan ready meals dubai,0,,0,,,n/a,,,,,,1.0,True,/vegan-catering-dubai,sub,/vegan-catering-dubai,keep (sub)
 vegetarian buffet catering dubai,0,commercial,0,0.75,,,,,,,no tracked competitor in top 30,1.0,True,/vegetarian-catering-dubai,sub,/vegetarian-catering-dubai,keep (sub)
@@ -1897,7 +1897,7 @@ wedding food packages dubai,0,commercial,0,0.09,,25,,,,,"no tracked competitor i
 wedding menu ideas dubai,0,commercial,0,0.33,,6,,,,,"no tracked competitor in top 30, we #6",1.0,False,/wedding-catering-menu-planning-dubai,sub,/wedding-catering-menu-planning-dubai,keep (sub)
 wedding menu planning dubai,0,transactional,0,1.0,,1,,,,,"no tracked competitor in top 30, we #1",1.0,True,/wedding-catering-menu-planning-dubai,primary,/wedding-catering-menu-planning-dubai,keep (primary)
 wedding menu planning dubai checklist,0,informational,0,0.23,,6,,,,,"no tracked competitor in top 30, we #6",1.0,False,/wedding-catering-menu-planning-dubai,sub,/wedding-catering-menu-planning-dubai,keep (sub)
-wednesday night dinner dubai,0,informational,0,0.0,,,,,,,no tracked competitor in top 30,0.67,False,/date-night-package-dubai,sub,/date-night-package-dubai,keep (sub)
+wednesday night dinner dubai,0,informational,0,0.0,,,,,,,no tracked competitor in top 30,1.0,True,/date-night-package-dubai,sub,/date-night-package-dubai,keep (sub)
 weekly meal plan dubai,0,,0,,,n/a,,,,,,1.0,True,/weekly-meal-prep-dubai,sub,/weekly-meal-prep-dubai,keep (sub)
 weekly meal prep dubai,0,transactional,0,0.62,,,,,,,no tracked competitor in top 30,1.0,True,/weekly-meal-prep-dubai,sub,/weekly-meal-prep-dubai,keep (sub)
 weekly meal prep vs private chef dubai,0,commercial,0,,,20,,,,,"no tracked competitor in top 30, we #20",1.0,True,/blog/weekly-meal-prep-vs-full-time-chef-dubai,sub,/blog/weekly-meal-prep-vs-full-time-chef-dubai,keep (sub)

@@ -12,6 +12,7 @@ export default function FamilyFeastPackage() {
       name="Family Feast"
       seoTitle="Family Catering Dubai | Feast Package, Private Chef | myCHEF"
       description="Family catering Dubai: a private chef dinner for 6–8 guests from AED 2,400. Sharing-style menus, premium ingredients and full service. Request a quote."
+      intro="Family catering Dubai price and family catering cost per person Dubai depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Family meal package Dubai and family dinner package Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. If you are weighing up best family catering Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. The family catering menu Dubai is drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Halal family catering Dubai and family nutrition chef Dubai are planned into the first draft of the menu rather than bolted on at the end. Catering for family gathering Dubai is planned around the room and the running order, with chefs, service staff and clear-down included."
       canonicalPath="/family-feast-package-dubai"
       ogImage="/images/celebration-catering-dubai-hero.webp"
       headline="Family Catering Dubai: Private Chef Dinner for 6–8"

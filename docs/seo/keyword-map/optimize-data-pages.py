@@ -122,8 +122,29 @@ def do_handoff(url):
     if op and not pp.get("first100", True):
         new, how = opt.place_primary(op[0], pk, "opening")
         if how != "already": op[0] = new; changes.append(("opening", how, op[0][:80], new[:80]))
-    corpus = before
+    # Guard against the file's own metadata: keyword_strategy.subkeywords_carried_list names every
+    # subkeyword, so measuring the whole JSON makes each one look already written into the page.
+    rendered_parts = [json.dumps(d.get("head") or {}, ensure_ascii=False), json.dumps(d.get("opening_paragraph") or [], ensure_ascii=False),
+                      json.dumps(d.get("faq") or [], ensure_ascii=False)]
+    for b in (d.get("add_block") or []) + (d.get("replace_in_block") or []):
+        rendered_parts.append(json.dumps([b.get("new_heading") or ""] + (b.get("new_paragraphs") or []), ensure_ascii=False))
+    corpus = " ".join(rendered_parts)
     miss = missing_subs(url, corpus)
+    # Body sentences go into the blocks HandoffPage actually renders: add_block[i].new_paragraphs.
+    # opening_paragraph is not an option — the component reads [0] only, so an appended string is invisible.
+    if miss:
+        blocks = [b for b in (d.get("add_block") or []) + (d.get("replace_in_block") or [])
+                  if b.get("new_heading") and isinstance(b.get("new_paragraphs"), list) and b["new_paragraphs"]]
+        if blocks:
+            facts0 = opt.facts_from(before)
+            sents, placed = opt.body_sentences(miss, pk, facts0, sum(ord(c) for c in url))
+            if sents:
+                chunks = [sents[:opt.BODY_MAX_SENTENCES]]
+                if len(sents) > opt.BODY_MAX_SENTENCES and len(blocks) > 1: chunks.append(sents[opt.BODY_MAX_SENTENCES:])
+                for blk, part in zip([blocks[0]] + ([blocks[len(blocks) // 2 if len(blocks) > 2 else 1]] if len(chunks) > 1 else []), chunks):
+                    blk["new_paragraphs"].append(" ".join(part))
+                changes.append(("body", f"+{len(sents)} sentences ({f.name}:add_block)", "", ", ".join(placed)))
+                miss = [k for k in miss if k not in placed]
     if miss:
         faq = d.setdefault("faq", []); facts = opt.facts_from(before); placed = []
         seed = sum(ord(c) for c in url); seen_cls = {}

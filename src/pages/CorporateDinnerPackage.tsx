@@ -12,6 +12,7 @@ export default function CorporateDinnerPackage() {
       name="Corporate Dinner"
       seoTitle="Corporate Dinner Package Dubai | Boardroom & Team Dining | myCHEF"
       description="Corporate Dinner Package Dubai: professional private dining for 10–15 guests from AED 4,500. Boardroom dinners, client entertainment, and VAT invoicing."
+      intro="Dinner set price in UAE, private dinner cruise Dubai price, corporate dinner package Dubai price, private chef dinner for 2 cost and corporate dinner package Dubai cost per person depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Dubai dinner cruise deals, company dinner package Dubai, corporate catering package Dubai and corporate dinner package menu Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. If you are weighing up best Business dinner in Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. Team dinner catering Dubai and private chef corporate dinner Dubai are run to a fixed timing, with one itemised invoice and dietary requirements tracked per person."
       canonicalPath="/corporate-dinner-package-dubai"
       ogImage="/images/corporate-catering-dubai-hero.webp"
       headline="Corporate Dinner Package Dubai: Boardroom & Team Dining"

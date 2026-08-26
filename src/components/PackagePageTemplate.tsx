@@ -31,6 +31,8 @@ interface PackagePageTemplateProps {
   name: string
   seoTitle: string
   description: string
+  /** Extra body copy under the overview. `description` doubles as the meta description, so it cannot grow. */
+  intro?: string
   canonicalPath: string
   ogImage: string
   headline: React.ReactNode
@@ -55,6 +57,7 @@ export default function PackagePageTemplate({
   name,
   seoTitle,
   description,
+  intro,
   canonicalPath,
   ogImage,
   headline,
@@ -151,6 +154,9 @@ export default function PackagePageTemplate({
               <p className="font-inter text-body text-gray-500 leading-relaxed mb-6">
                 {description}
               </p>
+              {intro ? (
+                <p className="font-inter text-body text-gray-500 leading-relaxed mb-6">{intro}</p>
+              ) : null}
               <ul className="space-y-3 mb-8">
                 {included.map((item, i) => (
                   <li key={i} className="flex items-start gap-3">

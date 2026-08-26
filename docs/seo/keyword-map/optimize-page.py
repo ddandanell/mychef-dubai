@@ -405,6 +405,18 @@ def _para_slots(src):
     out += [(m.end(), m.group(1), m.group(2)) for m in PARA1.finditer(src)]
     return sorted(set(out))
 
+PKG = re.compile(r"( *)description=\{?\"((?:[^\"\\\\]|\\\\.)*)\"\}?\n")
+def place_in_package(src, missing, primary, facts, seed=0):
+    """PackagePageTemplate pages have no prose in the file — copy arrives as props. `description`
+    is also the meta description so it cannot grow; the template takes an `intro` prop instead."""
+    if "PackagePageTemplate" not in src or "intro=" in src: return src, []
+    m = PKG.search(src)
+    if not m: return src, []
+    sents, used = body_sentences(missing, primary, facts, seed)
+    if not sents: return src, []
+    text = " ".join(sents).replace('"', "'")
+    return src[:m.end()] + f'{m.group(1)}intro="{text}"\n' + src[m.end():], used
+
 def place_in_body(src, missing, primary, facts, seed=0):
     """Write the sentences into the page's own prose paragraphs — two at most, in different
     sections, so a page with twelve unsaid phrases does not grow one wall of text."""
@@ -524,7 +536,8 @@ def plan(url):
     seed = sum(ord(c) for c in url)
     if missing:
         s = text_of(f)
-        s2, placed = place_in_body(s, missing, pk, facts, seed)
+        s2, placed = place_in_package(s, missing, pk, facts, seed)
+        if not placed: s2, placed = place_in_body(s, missing, pk, facts, seed)
         if placed:
             set_text(f, s2); changes.append(("body", f"+{len(body_sentences(missing, pk, facts, seed)[0])} sentences ({f.name})", "", ", ".join(placed)))
             missing = [k for k in missing if k not in placed]
