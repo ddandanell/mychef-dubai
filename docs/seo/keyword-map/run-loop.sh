@@ -30,6 +30,7 @@ echo "== integrations"; python3 docs/seo/keyword-map/check-integrations.py --qui
 python3 docs/seo/keyword-map/build-status.py >/dev/null
 cp docs/seo/keyword-map/ask-template.html docs/seo/keyword-map/ask.html
 python3 docs/seo/keyword-map/build-actions.py >/dev/null
+echo "== queue"; python3 docs/seo/keyword-map/build-proposals.py
 echo "== keyword file"; python3 docs/seo/keyword-map/build-ownership.py $SNAP | head -12
 echo "== gates"
 python3 scripts/verify-seo-contract.py | tail -1
@@ -38,4 +39,4 @@ python3 scripts/verify-retirements.py | tail -1
 python3 scripts/audit-onpage.py 2>/dev/null | grep "total" || true
 echo "== archive"; python3 docs/seo/keyword-map/store-keywords.py --mode "$MODE" || echo "  archive skipped (database unreachable) — the run still stands locally"
 docs/seo/keyword-map/publish.sh
-echo "done — open docs/seo/keyword-map/index.html · ownership.html · report.html"
+echo "done — open docs/seo/keyword-map/index.html · ownership.html · proposals.html · report.html"
