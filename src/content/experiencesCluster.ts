@@ -153,7 +153,7 @@ export const EXPERIENCE_KEYWORD_LOCKS = {
 
 /** Hub SEO. Keeps the existing "Luxury Dining Experiences" positioning, widens the semantics. */
 export const experiencesHubSeo = {
-  title: 'Luxury Dining in Dubai | Private Chef Experiences at Home | myCHEF',
+  title: 'Luxury Dining in Dubai | Private Chef Experiences | myCHEF',
   description:
     'Luxury dining in Dubai, designed around the moment: romantic dinners, tasting menus, chef\'s table and desert dining by a private chef, from myCHEF.',
   h1: 'Luxury dining in Dubai, designed around the moment',

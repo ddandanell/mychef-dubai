@@ -26,6 +26,7 @@ import json, os, re, collections
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC = os.path.join(REPO, 'docs/seo/mychef-master-keywords.json')
+CONTRACT = os.path.join(REPO, 'docs/seo/myCHEF-AE-SEO-STANDARD.json')
 VERCEL = os.path.join(REPO, 'vercel.json')
 OUT_FULL = os.path.join(REPO, 'docs/seo/silo-map.json')      # human-readable, for audit
 OUT_RUNTIME = os.path.join(REPO, 'src/content/siloMap.json')  # compact, shipped in the bundle
@@ -283,6 +284,13 @@ def redirect_sources():
 def main():
     data = json.load(open(SRC))
     pages = data['pages']
+
+    # SRC is the historical merge dump; the shipping contract owns the primary keyword.
+    # Without this overlay a keyword retired in the contract keeps riding in siloMap.json.
+    for url, cp in json.load(open(CONTRACT))['pages'].items():
+        kw = (cp.get('intent_owner') or {}).get('primary_keyword')
+        if kw and url in pages:
+            pages[url]['primary_keyword'] = kw
 
     dead = redirect_sources() | {'/inquiry', '/thank-you'}
     do_not_link = sorted(dead | SUPPRESSED)

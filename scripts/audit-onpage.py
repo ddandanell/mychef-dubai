@@ -15,7 +15,7 @@ import json, os, re, sys, html, collections, unicodedata
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DIST = os.path.join(REPO, 'dist')
-MAP = os.path.join(REPO, 'docs/seo/mychef-master-keywords.json')
+MAP = os.path.join(REPO, 'docs/seo/myCHEF-AE-SEO-STANDARD.json')
 
 
 # ---------------------------------------------------------------------------
@@ -126,7 +126,8 @@ def covers(haystack, keyword):
 
 def audit():
     data = json.load(open(MAP))
-    pages = data['pages']
+    pages = {u: {'primary_keyword': (p.get('intent_owner') or {}).get('primary_keyword')}
+             for u, p in data['pages'].items()}
 
     sitemap = open(os.path.join(REPO, 'public/sitemap.xml'), encoding='utf-8').read()
     urls = [(u.replace('https://www.mychef.ae', '') or '/')

@@ -4,7 +4,7 @@ export const EVENTS_ROOT = '/events' as const
 
 export const EVENTS_KEYWORD_LOCK = {
   primary: 'event catering dubai',
-  title: 'Event Catering Dubai | Weddings, Parties & Corporate Events | myCHEF',
+  title: 'Event Catering Dubai | Weddings, Parties & Corporate | myCHEF',
   description:
     'Book bespoke event catering Dubai for weddings, birthdays, private parties and corporate events. Menus, chefs, staffing, setup and cleanup—from AED 120 per person.',
 } as const
