@@ -50,6 +50,10 @@ Credentials live in `~/.config/claude-seo/dataforseo.env` (mode 600, never in th
 
 `harvest-serps.py` (resumable) fetches the SERPs; `build-demand.py` → `demand.html` (page verdicts, demand we are not on, current rankings); `build-report.py` → `report.html` + `report.csv` (the 12-column keyword report: volume · intent · commercial value · SERP similarity · difficulty · position · Search Console · CTR · competitor gap · entity coverage · recommended page · keep/merge/new). Search Console columns stay empty until the service account is on the mychef.ae property; Bing figures fill in where they exist.
 
+## AI visibility (DataForSEO AI Optimization → Claude LLM Responses)
+
+`harvest-llm.py` asks Claude (web search forced, Dubai-resident framing) 16 buyer prompts — one per service line — and records whom it names and cites; `ai-visibility.html` shows whether mychef.ae appears, the most-cited domains and providers, and every answer. ≈ $0.07 per prompt. One sample per prompt: treat presence across prompts as the signal.
+
 ## What the data can and cannot say
 
 Volumes are Google Ads for the UAE via DataForSEO (rounded, small numbers suppressed — 0 means "below the floor", not "never searched"); only 32 of 163 locked primaries show any. Autocomplete proves a phrase is typed, not how often. Semrush is out of API units; GSC has no mychef.ae property; Ahrefs is plan-gated (see `docs/seo/CONSOLIDATION-PLAN.md` §3). Pages that keep open slots do so because no *relevant* phrase exists in the pool — padding them would be the damage the brief forbids.
