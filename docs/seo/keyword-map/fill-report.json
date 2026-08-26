@@ -1,34 +1,381 @@
 {
- "generated": "2026-08-26 10:26",
+ "generated": "2026-08-26 12:56",
  "doubles_resolved": [],
  "added": {
-  "/catering-dubai": [
+  "/conference-catering-dubai": [
    {
-    "kw": "outdoor catering dubai",
+    "kw": "catering conference 2025",
     "score": 23,
     "intent": "long-tail",
     "sources": [
-     "historical-master"
+     "google-autocomplete"
     ],
     "vol_ae": null,
     "already_said": false
    },
    {
-    "kw": "party food catering dubai",
+    "kw": "catering conference 2026",
     "score": 23,
     "intent": "long-tail",
     "sources": [
-     "google-autocomplete",
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   },
+   {
+    "kw": "conference room catering",
+    "score": 23,
+    "intent": "long-tail",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   },
+   {
+    "kw": "eisenhower conference & catering",
+    "score": 23,
+    "intent": "long-tail",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   }
+  ],
+  "/private-jet-catering-dubai": [
+   {
+    "kw": "odyssey private jet catering",
+    "score": 23,
+    "intent": "long-tail",
+    "sources": [
+     "bing-autosuggest",
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   },
+   {
+    "kw": "private jet catering aspen",
+    "score": 23,
+    "intent": "long-tail",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   },
+   {
+    "kw": "private jet catering austin",
+    "score": 23,
+    "intent": "long-tail",
+    "sources": [
+     "bing-autosuggest",
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   },
+   {
+    "kw": "private jet catering farnborough",
+    "score": 23,
+    "intent": "long-tail",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   }
+  ],
+  "/blog/how-much-does-private-chef-cost-dubai": [
+   {
+    "kw": "private chef cost dc",
+    "score": 22,
+    "intent": "sales",
+    "sources": [
      "historical-master"
     ],
     "vol_ae": null,
     "already_said": false
    }
   ],
-  "/baby-shower-catering-dubai": [
+  "/villas-private-residences": [
    {
-    "kw": "small party catering in dubai",
+    "kw": "chef villa heanor",
+    "score": 19,
+    "intent": "long-tail",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   },
+   {
+    "kw": "chef villa in the sky",
+    "score": 19,
+    "intent": "long-tail",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   },
+   {
+    "kw": "chef villa klope",
+    "score": 19,
+    "intent": "long-tail",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   },
+   {
+    "kw": "chef villa lorraine",
+    "score": 19,
+    "intent": "long-tail",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   },
+   {
+    "kw": "chef villa navarre",
+    "score": 19,
+    "intent": "long-tail",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   },
+   {
+    "kw": "chef villa orsini",
+    "score": 19,
+    "intent": "long-tail",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   }
+  ],
+  "/staff-meals-catering-dubai": [
+   {
+    "kw": "chief of staff catering",
+    "score": 17,
+    "intent": "long-tail",
+    "sources": [
+     "bing-autosuggest"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   }
+  ],
+  "/booking-protection-insurance": [
+   {
+    "kw": "maggianos catering cancellation policy",
+    "score": 17,
+    "intent": "long-tail",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   },
+   {
+    "kw": "mission bbq catering cancellation policy",
+    "score": 17,
+    "intent": "long-tail",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   },
+   {
+    "kw": "moes catering cancellation policy",
+    "score": 17,
+    "intent": "long-tail",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   }
+  ],
+  "/corporate-catering-checklist-dubai": [
+   {
+    "kw": "catering checklist",
+    "score": 14,
+    "intent": "long-tail",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": true
+   }
+  ],
+  "/tourist-villa-chef-dubai": [
+   {
+    "kw": "villa with private chef jamaica",
+    "score": 14,
+    "intent": "long-tail",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   },
+   {
+    "kw": "villa with private chef thailand",
+    "score": 14,
+    "intent": "long-tail",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   },
+   {
+    "kw": "chef villa vanderpump",
+    "score": 13,
+    "intent": "long-tail",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   },
+   {
+    "kw": "chef villa zaira",
+    "score": 13,
+    "intent": "long-tail",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   },
+   {
+    "kw": "exclusive villa chef & heated pool",
+    "score": 13,
+    "intent": "long-tail",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   }
+  ],
+  "/guides": [
+   {
+    "kw": "catering checklist fssai",
+    "score": 13,
+    "intent": "long-tail",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   },
+   {
+    "kw": "catering checklist template",
+    "score": 13,
+    "intent": "long-tail",
+    "sources": [
+     "bing-autosuggest",
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   },
+   {
+    "kw": "catering cleaning checklist",
+    "score": 13,
+    "intent": "long-tail",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   }
+  ],
+  "/gala-dinner-catering-dubai": [
+   {
+    "kw": "gala food menu ideas",
+    "score": 12,
+    "intent": "informational",
+    "sources": [
+     "bing-autosuggest"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   }
+  ],
+  "/venue-partners": [
+   {
+    "kw": "preferred sonoma caterers",
+    "score": 12,
+    "intent": "long-tail",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   }
+  ],
+  "/drop-off-catering-dubai": [
+   {
+    "kw": "healthy meal delivery dubai",
     "score": 10,
+    "intent": "sales",
+    "sources": [
+     "historical-master"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   }
+  ],
+  "/locations/business-bay": [
+   {
+    "kw": "catering business dubai",
+    "score": 8,
+    "intent": "long-tail",
+    "sources": [
+     "google-autocomplete",
+     "historical-master"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   }
+  ],
+  "/partners/villa-rentals-dubai": [
+   {
+    "kw": "cooks villa blackburn",
+    "score": 8,
+    "intent": "long-tail",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   },
+   {
+    "kw": "cooks villa raipur",
+    "score": 8,
+    "intent": "long-tail",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   },
+   {
+    "kw": "cooks villa rarotonga",
+    "score": 8,
     "intent": "long-tail",
     "sources": [
      "google-autocomplete"
@@ -37,10 +384,10 @@
     "already_said": false
    }
   ],
-  "/asian-catering-dubai": [
+  "/partners/event-planners-dubai": [
    {
-    "kw": "bbq catering in dubai",
-    "score": 9,
+    "kw": "event catering ballarat",
+    "score": 8,
     "intent": "long-tail",
     "sources": [
      "google-autocomplete"
@@ -49,19 +396,72 @@
     "already_said": false
    },
    {
-    "kw": "best indian catering in dubai",
-    "score": 9,
+    "kw": "event catering bbq",
+    "score": 8,
     "intent": "long-tail",
     "sources": [
-     "google-autocomplete",
-     "historical-master"
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   }
+  ],
+  "/villa-catering-ideas-dubai": [
+   {
+    "kw": "giuseppe villa chef",
+    "score": 8,
+    "intent": "long-tail",
+    "sources": [
+     "google-autocomplete"
     ],
     "vol_ae": null,
     "already_said": false
    },
    {
-    "kw": "birthday catering in dubai",
-    "score": 9,
+    "kw": "jerry villa chef",
+    "score": 8,
+    "intent": "long-tail",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   }
+  ],
+  "/chefs-table-dubai": [
+   {
+    "kw": "chefs villa marlpool",
+    "score": 7,
+    "intent": "long-tail",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   },
+   {
+    "kw": "chefs villa number",
+    "score": 7,
+    "intent": "long-tail",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   },
+   {
+    "kw": "diwali decoration dining table",
+    "score": 7,
+    "intent": "long-tail",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   },
+   {
+    "kw": "diwali dining table cover",
+    "score": 7,
     "intent": "long-tail",
     "sources": [
      "google-autocomplete"
@@ -73,33 +473,36 @@
  },
  "skipped_full": [],
  "left_open": {
+  "/about": 1,
+  "/allergy-safe-catering-dubai": 1,
   "/apartment-private-dining-dubai": 4,
   "/bar-services-dubai": 1,
-  "/become-a-mychef": 5,
+  "/become-a-mychef": 7,
   "/best-catering-companies-dubai": 2,
   "/brand-activation-catering-dubai": 5,
   "/case-studies": 10,
   "/chef-training-academy": 2,
   "/chefs/marco-italian-chef": 1,
   "/chefs/matteo-pastry-chef": 4,
-  "/corporate-retainer-dubai": 1,
+  "/corporate-retainer-dubai": 2,
   "/cuisines-dubai": 1,
   "/eid-catering-dubai": 4,
   "/exhibition-catering-dubai": 4,
   "/family-feast-package-dubai": 1,
   "/faq": 2,
   "/festive-catering-dubai": 3,
-  "/founding-customer-offer": 6,
-  "/full-time-private-chef-dubai": 2,
-  "/how-it-works": 5,
+  "/founding-customer-offer": 9,
+  "/full-time-private-chef-dubai": 4,
+  "/gift-cards": 6,
+  "/how-it-works": 7,
   "/how-to-choose-caterer-dubai": 1,
   "/how-we-vet-our-chefs": 1,
-  "/italian-catering-dubai": 2,
+  "/italian-catering-dubai": 3,
   "/jain-catering-dubai": 2,
   "/locations": 2,
   "/locations/al-barsha": 5,
   "/locations/arabian-ranches": 6,
-  "/locations/bluewaters-island": 3,
+  "/locations/bluewaters-island": 5,
   "/locations/difc": 3,
   "/locations/downtown-dubai": 3,
   "/locations/dubai-hills": 4,
@@ -113,16 +516,18 @@
   "/locations/umm-suqeim": 7,
   "/loyalty-programme": 11,
   "/menus": 2,
-  "/mychef-certified": 5,
-  "/mychef-membership": 9,
-  "/part-time-private-chef-dubai": 2,
+  "/mychef-certified": 7,
+  "/mychef-membership": 10,
+  "/part-time-private-chef-dubai": 3,
+  "/partner-with-us": 3,
   "/partners/concierge-services-dubai": 6,
   "/private-chef-prices-dubai": 1,
-  "/product-launch-catering-dubai": 4,
+  "/product-launch-catering-dubai": 5,
   "/production-catering-dubai": 3,
   "/quality-guarantee-dubai": 7,
   "/ramadan-catering-dubai": 4,
   "/referral-programme": 11,
+  "/venue-partners": 4,
   "/vip-club": 9,
   "/yachts": 1
  }

@@ -188,6 +188,9 @@ export default function OurChefs() {
               <p className="font-inter text-body text-gray-500 leading-relaxed mb-4">
                 Behind every myCHEF evening is a chef we carefully selected — vetted for credentials, licensing and food-safety before they ever cook for a client. We choose the talent. We hold the standard. The artistry is theirs.
               </p>
+              <p className="font-inter text-body text-gray-500 leading-relaxed mb-4">
+                Personal chef, chef for hire, hire chef Dubai, looking for chef, private chef hire and private cook in Dubai are the same booking: a vetted chef, matched to your kitchen and your menu.
+              </p>
               <p className="font-inter text-body text-gray-500 leading-relaxed">
                 Every chef is independently vetted and selected not only for technical skill but for something harder to teach: the instinct for genuine hospitality. We believe that a truly exceptional dining experience is about how your guests feel — not just what they eat.
               </p>

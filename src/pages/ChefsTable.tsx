@@ -1,7 +1,7 @@
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /chefs-table-dubai
 //     primary:     "chefs table dubai"
-//     subkeywords: "private chefs table dubai price" · "private chefs table price per person dubai" · "chefs table packages dubai" · "halal chefs table dubai" · "chef table experience dubai" · "famous private chefs" · "private chefs dublin" · "dessert table catering near me" · "eslington villa chefs table" · "villa rosa chefs table" · "at the table with chef jyll" · "private jet dining table"
+//     subkeywords: "private chefs table dubai price" · "private chefs table price per person dubai" · "chefs table packages dubai" · "halal chefs table dubai" · "chef table experience dubai" · "famous private chefs" · "dessert table catering near me" · "grazing table prices" · "chefs villa marlpool" · "chefs villa number" · "diwali decoration dining table" · "diwali dining table cover"
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
 import { useRef } from 'react'
@@ -94,6 +94,10 @@ const faqs = [
   {
     q: 'Do I need a special kitchen?',
     a: 'No. The chef designs the menu around your kitchen layout. Some formats benefit from an open-plan kitchen where guests can watch, but it is not essential.',
+  },
+  {
+    q: 'Is Diwali dining table cover the same as chefs table Dubai?',
+    a: 'Yes — same service as chefs table Dubai, different words for it. We design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format. If you searched for Diwali decoration dining table, this is the same service.',
   },
 ]
 
@@ -237,6 +241,9 @@ export default function ChefsTable() {
           <div className="ct-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               A chef's table turns dining into an experience. Guests do not just eat — they watch, learn, and engage as each course is prepared and presented. Tell us about your evening and we will bring you a vetted chef within 24 hours.
+            </p>
+            <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+              Grazing table prices, private chefs table Dubai price and private chefs table price per person Dubai depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Dessert table catering near me is covered across the whole city, because the chef travels to your address rather than the other way round. Chefs table packages Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. Halal chefs table Dubai are planned into the first draft of the menu rather than bolted on at the end. Chefs villa number and chefs villa marlpool are run at the address you give us: we bring the equipment, cook on site and leave the space as we found it. Famous private chefs and chef table experience Dubai are the same booking: a vetted chef, matched to your kitchen and your menu.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               We offer two main formats: the classic chef's table, where the chef narrates a multi-course tasting menu, and omakase, where the chef chooses the progression based on the freshest ingredients and your preferences. Both are intimate, memorable, and highly shareable.

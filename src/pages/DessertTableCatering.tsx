@@ -172,6 +172,14 @@ const faqs = [
   { q: "Can I add a live dessert or coffee station to the table?", a: "Yes. We can pair your dessert table with live finishes and a barista-style [coffee and tea service](/catering-dubai), which works beautifully to close corporate events and private dinners. Live stations add interaction and a warm final touch alongside the styled sweets." },
   { q: "What's the difference between a dessert table and a grazing table?", a: "A dessert table focuses entirely on sweets, a centrepiece cake, patisserie, and bite-sized treats styled into a display, while a [grazing table](/grazing-table-dubai) leans savoury with cheeses, charcuterie, fruit, and dips. Many hosts book both, or a combined sweet-and-savoury spread, and we style either to match your event." },
   { q: "Can a dessert table be part of full-service catering for my event?", a: "Yes. Our dessert tables slot seamlessly into full-service catering, so you can have canapés, a plated or buffet meal, and a styled sweet finish all handled by one team. Booking everything together keeps the styling cohesive and the logistics simple. See how it fits within our wider [catering in Dubai](/catering-dubai)." },
+  {
+    q: 'What goes into the dessert table catering Dubai price?',
+    a: 'There is no single number for dessert table catering Dubai price: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day. If you searched for dessert table catering price per person Dubai, this is the same service.',
+  },
+  {
+    q: 'Do you offer dessert table catering packages Dubai?',
+    a: 'We start from set formats and adjust them to your event rather than selling a fixed box: menu length, service style, staff and equipment are chosen for the day. Ask for the format closest to what you are planning and we shape it from there.',
+  },
 ]
 
 const relatedServices = [

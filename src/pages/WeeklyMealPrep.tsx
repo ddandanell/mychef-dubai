@@ -418,6 +418,9 @@ export default function WeeklyMealPrep() {
               Tell us about your household — your size, dietary goals, preferred cuisines, and any allergies — and we will reply within 15 minutes during business hours, then bring you a vetted private chef. Our weekly meal prep service puts that chef in your kitchen once or twice a week to prepare fresh, portioned meals designed around your tastes, schedule, and health goals, so you can reclaim your evenings and skip the takeout cycle.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+              Weekly meal plan Dubai starts from a standing weekly format and get shaped around the household rather than sold as a fixed box. The fitness meal prep delivery menu is planned around what your household actually eats, with a draft week you change before anything is confirmed. Kids meal prep service is the same booking: a vetted chef, matched to your kitchen and your menu. Fitness meal prep services is the same service under another name.
+            </p>
+            <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               Unlike mass-market meal plans, this is fully bespoke. Your chef designs a rotating menu, sources premium ingredients, cooks in your home, packages everything cleanly, and leaves your kitchen spotless. The result is a fridge full of restaurant-quality meals that simply need reheating — whether you are feeding a family, an athlete, or a household with specific dietary needs. For strict allergen protocols, explore our <Link to="/allergy-safe-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">allergy-safe catering in Dubai</Link>.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">

@@ -980,7 +980,8 @@
           "private chef or catering",
           "private chef home catering",
           "chef private catering options",
-          "private chef party catering"
+          "private chef party catering",
+          "private chef dinner near me"
         ],
         "subkeyword_cap": 12,
         "primary_may_appear_in": [
@@ -1006,7 +1007,8 @@
           "private chef or catering": "google-autocomplete · already in live copy · filled 2026-08-26",
           "private chef home catering": "google-autocomplete · filled 2026-08-26",
           "chef private catering options": "bing-autosuggest · filled 2026-08-26",
-          "private chef party catering": "google-autocomplete · filled 2026-08-26"
+          "private chef party catering": "google-autocomplete · filled 2026-08-26",
+          "private chef dinner near me": "google-autocomplete/historical-master · filled 2026-08-26"
         }
       },
       "on_page": {
@@ -1247,7 +1249,6 @@
           "about mychef dubai",
           "luxury catering company dubai",
           "private chef agency dubai",
-          "a chef",
           "chef recruitment agencies in dubai",
           "personal chef services availability in dubai",
           "personal chef services on offer in dubai",
@@ -1270,7 +1271,6 @@
           "title"
         ],
         "subkeyword_notes": {
-          "a chef": "semrush-ae · UAE 30/mo · already in live copy · filled 2026-08-26",
           "chef recruitment agencies in dubai": "bing-autosuggest · filled 2026-08-26",
           "personal chef services availability in dubai": "bing-autosuggest · filled 2026-08-26",
           "personal chef services on offer in dubai": "bing-autosuggest · filled 2026-08-26",
@@ -1686,7 +1686,6 @@
           "allergy safe catering packages dubai",
           "allergy safe catering menu dubai",
           "catering for guests with food allergies dubai",
-          "fsai safe catering allergens",
           "best catering service in dubai",
           "catering services availability in dubai",
           "event catering",
@@ -1710,7 +1709,6 @@
           "title"
         ],
         "subkeyword_notes": {
-          "fsai safe catering allergens": "bing-autosuggest · filled 2026-08-26",
           "best catering service in dubai": "bing-autosuggest · filled 2026-08-26",
           "catering services availability in dubai": "bing-autosuggest · filled 2026-08-26",
           "event catering": "google-autocomplete · already in live copy · filled 2026-08-26",
@@ -4118,10 +4116,10 @@
       "intent_owner": {
         "primary_keyword": "private chef jobs dubai",
         "subkeywords": [
+          "catering jobs dubai",
           "chef jobs dubai",
           "work as a private chef dubai",
           "private chef vacancies dubai",
-          "catering jobs dubai",
           "become a private chef in dubai",
           "freelance chef work dubai",
           "private chef and catering"
@@ -5741,9 +5739,9 @@
           "corporate catering full service vs drop off",
           "drop off vs pick up catering",
           "bbq drop off catering",
-          "drop off catering brisbane",
           "wedding drop off catering",
-          "private chef vs catering"
+          "private chef vs catering",
+          "catering ideas dubai"
         ],
         "subkeyword_cap": 8,
         "primary_may_appear_in": [
@@ -5765,9 +5763,9 @@
           "corporate catering full service vs drop off": "historical-master · filled 2026-08-26",
           "drop off vs pick up catering": "bing-autosuggest · filled 2026-08-26",
           "bbq drop off catering": "bing-autosuggest · filled 2026-08-26",
-          "drop off catering brisbane": "bing-autosuggest · filled 2026-08-26",
           "wedding drop off catering": "bing-autosuggest · filled 2026-08-26",
-          "private chef vs catering": "google-autocomplete · filled 2026-08-26"
+          "private chef vs catering": "google-autocomplete · filled 2026-08-26",
+          "catering ideas dubai": "historical-master · already in live copy · filled 2026-08-26"
         }
       },
       "on_page": {
@@ -7329,7 +7327,7 @@
           "average private chef cost",
           "how much does a private chef charge",
           "private chef cost per day",
-          "private chef cost aus"
+          "private chef cost dc"
         ],
         "subkeyword_cap": 8,
         "primary_may_appear_in": [
@@ -7351,7 +7349,7 @@
           "average private chef cost": "bing-autosuggest · filled 2026-08-26",
           "how much does a private chef charge": "bing-autosuggest · filled 2026-08-26",
           "private chef cost per day": "historical-master · filled 2026-08-26",
-          "private chef cost aus": "historical-master · filled 2026-08-26"
+          "private chef cost dc": "historical-master · filled 2026-08-26"
         }
       },
       "on_page": {
@@ -10063,10 +10061,10 @@
           "catering hall contract cancellation policy",
           "catering booking cancellation policy",
           "cancellation policy for catering events",
-          "canes catering cancellation policy",
           "catering cancellation policy sample",
-          "chipotle catering cancellation policy",
-          "ez catering cancellation policy"
+          "maggianos catering cancellation policy",
+          "mission bbq catering cancellation policy",
+          "moes catering cancellation policy"
         ],
         "subkeyword_cap": 12,
         "primary_may_appear_in": [
@@ -10089,10 +10087,10 @@
           "catering hall contract cancellation policy": "bing-autosuggest · filled 2026-08-26",
           "catering booking cancellation policy": "bing-autosuggest · filled 2026-08-26",
           "cancellation policy for catering events": "bing-autosuggest/google-autocomplete · filled 2026-08-26",
-          "canes catering cancellation policy": "google-autocomplete · filled 2026-08-26",
           "catering cancellation policy sample": "google-autocomplete · filled 2026-08-26",
-          "chipotle catering cancellation policy": "bing-autosuggest/google-autocomplete · filled 2026-08-26",
-          "ez catering cancellation policy": "google-autocomplete · filled 2026-08-26"
+          "maggianos catering cancellation policy": "google-autocomplete · filled 2026-08-26",
+          "mission bbq catering cancellation policy": "google-autocomplete · filled 2026-08-26",
+          "moes catering cancellation policy": "google-autocomplete · filled 2026-08-26"
         }
       },
       "on_page": {
@@ -13130,12 +13128,12 @@
           "halal chefs table dubai",
           "chef table experience dubai",
           "famous private chefs",
-          "private chefs dublin",
           "dessert table catering near me",
-          "eslington villa chefs table",
-          "villa rosa chefs table",
-          "at the table with chef jyll",
-          "private jet dining table"
+          "grazing table prices",
+          "chefs villa marlpool",
+          "chefs villa number",
+          "diwali decoration dining table",
+          "diwali dining table cover"
         ],
         "subkeyword_cap": 12,
         "primary_may_appear_in": [
@@ -13156,12 +13154,12 @@
         "subkeyword_notes": {
           "chef table experience dubai": "historical-master · filled 2026-08-26",
           "famous private chefs": "google-autocomplete · filled 2026-08-26",
-          "private chefs dublin": "bing-autosuggest · filled 2026-08-26",
           "dessert table catering near me": "bing-autosuggest · filled 2026-08-26",
-          "eslington villa chefs table": "google-autocomplete · filled 2026-08-26",
-          "villa rosa chefs table": "google-autocomplete · filled 2026-08-26",
-          "at the table with chef jyll": "bing-autosuggest · filled 2026-08-26",
-          "private jet dining table": "google-autocomplete · filled 2026-08-26"
+          "grazing table prices": "google-autocomplete · filled 2026-08-26",
+          "chefs villa marlpool": "google-autocomplete · filled 2026-08-26",
+          "chefs villa number": "google-autocomplete · filled 2026-08-26",
+          "diwali decoration dining table": "google-autocomplete · filled 2026-08-26",
+          "diwali dining table cover": "google-autocomplete · filled 2026-08-26"
         }
       },
       "on_page": {
@@ -15118,11 +15116,11 @@
           "conference catering menu dubai",
           "conference lunch catering dubai",
           "catering & conference services coordinator",
+          "conference food catering",
           "catering conference 2025",
           "catering conference 2026",
-          "conference and catering umanitoba",
-          "conference catering brisbane",
-          "conference catering darwin"
+          "conference room catering",
+          "eisenhower conference & catering"
         ],
         "subkeyword_cap": 12,
         "primary_may_appear_in": [
@@ -15144,9 +15142,9 @@
           "catering & conference services coordinator": "google-autocomplete · filled 2026-08-26",
           "catering conference 2025": "google-autocomplete · filled 2026-08-26",
           "catering conference 2026": "google-autocomplete · filled 2026-08-26",
-          "conference and catering umanitoba": "google-autocomplete · filled 2026-08-26",
-          "conference catering brisbane": "bing-autosuggest/google-autocomplete · filled 2026-08-26",
-          "conference catering darwin": "bing-autosuggest · filled 2026-08-26"
+          "conference food catering": "google-autocomplete · filled 2026-08-26",
+          "conference room catering": "google-autocomplete · filled 2026-08-26",
+          "eisenhower conference & catering": "google-autocomplete · filled 2026-08-26"
         }
       },
       "on_page": {
@@ -15804,11 +15802,11 @@
           "how to plan corporate catering dubai",
           "corporate event catering checklist",
           "what to ask a corporate caterer dubai",
-          "catering company business plan checklist",
           "catering checklist for caterers",
           "catering checklist for events",
           "corporate catering services in dubai",
-          "dubai catering prices"
+          "dubai catering prices",
+          "catering checklist"
         ],
         "subkeyword_cap": 8,
         "primary_may_appear_in": [
@@ -15827,11 +15825,11 @@
           "title"
         ],
         "subkeyword_notes": {
-          "catering company business plan checklist": "bing-autosuggest · filled 2026-08-26",
           "catering checklist for caterers": "bing-autosuggest · filled 2026-08-26",
           "catering checklist for events": "bing-autosuggest · filled 2026-08-26",
           "corporate catering services in dubai": "google-autocomplete · filled 2026-08-26",
-          "dubai catering prices": "historical-master · already in live copy · filled 2026-08-26"
+          "dubai catering prices": "historical-master · already in live copy · filled 2026-08-26",
+          "catering checklist": "google-autocomplete · already in live copy · filled 2026-08-26"
         }
       },
       "on_page": {
@@ -16696,7 +16694,6 @@
           "corporate catering companies in dubai",
           "catering contract with cancellation policy",
           "catering services company in dubai",
-          "corporate catering dc",
           "corporate catering difc dubai",
           "catering contract examples",
           "corporate meal prep packages dubai",
@@ -16722,7 +16719,6 @@
           "corporate catering companies in dubai": "google-autocomplete/historical-master · filled 2026-08-26",
           "catering contract with cancellation policy": "bing-autosuggest · filled 2026-08-26",
           "catering services company in dubai": "historical-master · filled 2026-08-26",
-          "corporate catering dc": "historical-master · filled 2026-08-26",
           "corporate catering difc dubai": "historical-master · filled 2026-08-26",
           "catering contract examples": "google-autocomplete · filled 2026-08-26",
           "corporate meal prep packages dubai": "historical-master · filled 2026-08-26",
@@ -18584,11 +18580,11 @@
           "drop off catering menu dubai",
           "halal drop off catering dubai",
           "catering delivery dubai",
-          "drop off catering sunshine coast",
           "healthy food delivery dubai",
           "luxury food delivery dubai",
           "meal plans delivery dubai",
-          "party food delivery dubai"
+          "party food delivery dubai",
+          "healthy meal delivery dubai"
         ],
         "subkeyword_cap": 12,
         "primary_may_appear_in": [
@@ -18607,11 +18603,11 @@
           "title"
         ],
         "subkeyword_notes": {
-          "drop off catering sunshine coast": "bing-autosuggest · filled 2026-08-26",
           "healthy food delivery dubai": "bing-autosuggest · filled 2026-08-26",
           "luxury food delivery dubai": "bing-autosuggest · filled 2026-08-26",
           "meal plans delivery dubai": "bing-autosuggest · filled 2026-08-26",
-          "party food delivery dubai": "google-autocomplete · filled 2026-08-26"
+          "party food delivery dubai": "google-autocomplete · filled 2026-08-26",
+          "healthy meal delivery dubai": "historical-master · filled 2026-08-26"
         }
       },
       "on_page": {
@@ -22832,9 +22828,6 @@
         "primary_keyword": "mychef founding customer offer",
         "subkeywords": [
           "mychef dubai offer",
-          "master chef customer service",
-          "home chef customer log in",
-          "home chef customer support",
           "catering services on offer in dubai",
           "meal plan dubai offer"
         ],
@@ -22855,9 +22848,6 @@
           "title"
         ],
         "subkeyword_notes": {
-          "master chef customer service": "bing-autosuggest · filled 2026-08-26",
-          "home chef customer log in": "bing-autosuggest · filled 2026-08-26",
-          "home chef customer support": "bing-autosuggest · filled 2026-08-26",
           "catering services on offer in dubai": "bing-autosuggest · filled 2026-08-26",
           "meal plan dubai offer": "google-autocomplete · filled 2026-08-26"
         }
@@ -23056,9 +23046,7 @@
           "private chef for family",
           "part time chef dubai",
           "top personal chef providers in dubai",
-          "in home chef",
-          "best time to hire caterers",
-          "in home chef for dinner party"
+          "best time to hire caterers"
         ],
         "subkeyword_cap": 12,
         "primary_may_appear_in": [
@@ -23080,8 +23068,7 @@
           "private chef for family": "Semrush UAE 20/mo, owner export 2026-08-25; added 2026-08-26",
           "part time chef dubai": "historical-master · filled 2026-08-26",
           "top personal chef providers in dubai": "bing-autosuggest · filled 2026-08-26",
-          "best time to hire caterers": "bing-autosuggest · filled 2026-08-26",
-          "in home chef for dinner party": "bing-autosuggest · filled 2026-08-26"
+          "best time to hire caterers": "bing-autosuggest · filled 2026-08-26"
         }
       },
       "on_page": {
@@ -23296,11 +23283,11 @@
           "gala dinner catering menu dubai",
           "halal gala dinner catering dubai",
           "awards dinner catering dubai",
-          "gala dinner dresses for hire",
           "what is gala dinner",
           "gala dinner theme ideas",
           "diwali dinner catering",
-          "office dinner catering package dubai"
+          "office dinner catering package dubai",
+          "gala food menu ideas"
         ],
         "subkeyword_cap": 12,
         "primary_may_appear_in": [
@@ -23319,11 +23306,11 @@
           "title"
         ],
         "subkeyword_notes": {
-          "gala dinner dresses for hire": "bing-autosuggest · filled 2026-08-26",
           "what is gala dinner": "bing-autosuggest · filled 2026-08-26",
           "gala dinner theme ideas": "bing-autosuggest · filled 2026-08-26",
           "diwali dinner catering": "google-autocomplete · filled 2026-08-26",
-          "office dinner catering package dubai": "historical-master · filled 2026-08-26"
+          "office dinner catering package dubai": "historical-master · filled 2026-08-26",
+          "gala food menu ideas": "bing-autosuggest · filled 2026-08-26"
         }
       },
       "on_page": {
@@ -23676,14 +23663,8 @@
           "dining gift card dubai",
           "private chef gift card dubai",
           "private cooking classes",
-          "green chef offers gift cards",
-          "chef delivered gift cards",
-          "chef delivery service gift cards",
-          "home chef deals on gift cards",
-          "where to buy home chef gift cards",
-          "top chef offering personal chef gift cards",
-          "home chef meals gift card",
-          "chef dinner at home"
+          "chef dinner at home",
+          "private cooking classes catering dubai for couples"
         ],
         "subkeyword_cap": 12,
         "primary_may_appear_in": [
@@ -23705,14 +23686,8 @@
           "dining gift card dubai": "historical-master · filled 2026-08-26",
           "private chef gift card dubai": "historical-master · filled 2026-08-26",
           "private cooking classes": "google-autocomplete · already in live copy · filled 2026-08-26",
-          "green chef offers gift cards": "bing-autosuggest · filled 2026-08-26",
-          "chef delivered gift cards": "bing-autosuggest · filled 2026-08-26",
-          "chef delivery service gift cards": "bing-autosuggest · filled 2026-08-26",
-          "home chef deals on gift cards": "bing-autosuggest · filled 2026-08-26",
-          "where to buy home chef gift cards": "bing-autosuggest · filled 2026-08-26",
-          "top chef offering personal chef gift cards": "bing-autosuggest · filled 2026-08-26",
-          "home chef meals gift card": "bing-autosuggest · filled 2026-08-26",
-          "chef dinner at home": "bing-autosuggest · already in live copy · filled 2026-08-26"
+          "chef dinner at home": "bing-autosuggest · already in live copy · filled 2026-08-26",
+          "private cooking classes catering dubai for couples": "historical-master · filled 2026-08-26"
         }
       },
       "on_page": {
@@ -24794,9 +24769,9 @@
           "catering event checklist",
           "catering food checklist",
           "bbq catering checklist",
-          "catering audit checklist",
-          "catering business checklist",
-          "catering checklist excel"
+          "catering checklist fssai",
+          "catering checklist template",
+          "catering cleaning checklist"
         ],
         "subkeyword_cap": 12,
         "primary_may_appear_in": [
@@ -24822,9 +24797,9 @@
           "catering event checklist": "google-autocomplete · filled 2026-08-26",
           "catering food checklist": "google-autocomplete · filled 2026-08-26",
           "bbq catering checklist": "google-autocomplete · filled 2026-08-26",
-          "catering audit checklist": "google-autocomplete · filled 2026-08-26",
-          "catering business checklist": "google-autocomplete · filled 2026-08-26",
-          "catering checklist excel": "bing-autosuggest/google-autocomplete · filled 2026-08-26"
+          "catering checklist fssai": "google-autocomplete · filled 2026-08-26",
+          "catering checklist template": "bing-autosuggest/google-autocomplete · filled 2026-08-26",
+          "catering cleaning checklist": "google-autocomplete · filled 2026-08-26"
         }
       },
       "on_page": {
@@ -26525,8 +26500,6 @@
           "how does a private chef work in dubai",
           "does a private chef bring the ingredients dubai",
           "personal chef packages on offer in dubai",
-          "how to be a private chef",
-          "how to start a private chef business",
           "live in chef dubai"
         ],
         "subkeyword_cap": 12,
@@ -26547,8 +26520,6 @@
         ],
         "subkeyword_notes": {
           "personal chef packages on offer in dubai": "bing-autosuggest · filled 2026-08-26",
-          "how to be a private chef": "bing-autosuggest · filled 2026-08-26",
-          "how to start a private chef business": "bing-autosuggest · filled 2026-08-26",
           "live in chef dubai": "historical-master · filled 2026-08-26"
         }
       },
@@ -27887,7 +27858,6 @@
           "italian catering menu dubai",
           "halal italian catering dubai",
           "italian catering dubai delivery",
-          "italian catering dublin",
           "private italian chef near me",
           "the italian supper food truck dubai menu"
         ],
@@ -27909,7 +27879,6 @@
         ],
         "subkeyword_notes": {
           "italian catering dubai delivery": "historical-master · filled 2026-08-26",
-          "italian catering dublin": "bing-autosuggest · filled 2026-08-26",
           "private italian chef near me": "bing-autosuggest/google-autocomplete · filled 2026-08-26",
           "the italian supper food truck dubai menu": "historical-master · filled 2026-08-26"
         }
@@ -28765,7 +28734,8 @@
           "practical meal prep dubai",
           "meal prep dubai delivery",
           "meal prep dubai healthy",
-          "coles meal prep dubai"
+          "coles meal prep dubai",
+          "how to meal prep for school"
         ],
         "subkeyword_cap": 12,
         "primary_may_appear_in": [
@@ -28791,7 +28761,8 @@
           "practical meal prep dubai": "bing-autosuggest/google-autocomplete · filled 2026-08-26",
           "meal prep dubai delivery": "google-autocomplete/historical-master · filled 2026-08-26",
           "meal prep dubai healthy": "google-autocomplete/historical-master · filled 2026-08-26",
-          "coles meal prep dubai": "google-autocomplete · filled 2026-08-26"
+          "coles meal prep dubai": "google-autocomplete · filled 2026-08-26",
+          "how to meal prep for school": "google-autocomplete · filled 2026-08-26"
         }
       },
       "on_page": {
@@ -29910,8 +29881,6 @@
           "party catering bluewaters island",
           "personal chef bluewaters island",
           "female private chef bluewaters island",
-          "private chef big island hawaii",
-          "private chef hamilton island",
           "catering bluewaters dubai"
         ],
         "subkeyword_cap": 12,
@@ -29932,8 +29901,6 @@
         ],
         "subkeyword_notes": {
           "female private chef bluewaters island": "historical-master · filled 2026-08-26",
-          "private chef big island hawaii": "bing-autosuggest · filled 2026-08-26",
-          "private chef hamilton island": "bing-autosuggest · filled 2026-08-26",
           "catering bluewaters dubai": "historical-master · filled 2026-08-26"
         }
       },
@@ -30132,11 +30099,11 @@
           "personal chef business bay",
           "office catering business bay",
           "female private chef business bay",
-          "private chef bay area",
           "event catering business",
           "iftar buffet dubai business bay",
           "business dinner package dubai",
-          "business lunches in dubai"
+          "business lunches in dubai",
+          "catering business dubai"
         ],
         "subkeyword_cap": 12,
         "primary_may_appear_in": [
@@ -30156,11 +30123,11 @@
         ],
         "subkeyword_notes": {
           "female private chef business bay": "historical-master · filled 2026-08-26",
-          "private chef bay area": "bing-autosuggest · filled 2026-08-26",
           "event catering business": "google-autocomplete · already in live copy · filled 2026-08-26",
           "iftar buffet dubai business bay": "google-autocomplete · filled 2026-08-26",
           "business dinner package dubai": "historical-master · filled 2026-08-26",
-          "business lunches in dubai": "google-autocomplete/historical-master · filled 2026-08-26"
+          "business lunches in dubai": "google-autocomplete/historical-master · filled 2026-08-26",
+          "catering business dubai": "google-autocomplete/historical-master · filled 2026-08-26"
         }
       },
       "on_page": {
@@ -34365,9 +34332,7 @@
           "verified private chef dubai",
           "personal chefs in dubai",
           "how much do private chefs charge",
-          "personal chefs on board",
-          "the chefs table private chef and catering",
-          "private chefs catering richmond"
+          "the chefs table private chef and catering"
         ],
         "subkeyword_cap": 12,
         "primary_may_appear_in": [
@@ -34388,9 +34353,7 @@
         "subkeyword_notes": {
           "personal chefs in dubai": "google-autocomplete · filled 2026-08-26",
           "how much do private chefs charge": "google-autocomplete · filled 2026-08-26",
-          "personal chefs on board": "bing-autosuggest · filled 2026-08-26",
-          "the chefs table private chef and catering": "google-autocomplete · filled 2026-08-26",
-          "private chefs catering richmond": "google-autocomplete · filled 2026-08-26"
+          "the chefs table private chef and catering": "google-autocomplete · filled 2026-08-26"
         }
       },
       "on_page": {
@@ -34572,8 +34535,7 @@
         "primary_keyword": "mychef membership",
         "subkeywords": [
           "private chef membership dubai",
-          "priority consideration private chef dubai",
-          "home chef my account"
+          "priority consideration private chef dubai"
         ],
         "subkeyword_cap": 12,
         "primary_may_appear_in": [
@@ -34591,9 +34553,7 @@
           "h3",
           "title"
         ],
-        "subkeyword_notes": {
-          "home chef my account": "bing-autosuggest · filled 2026-08-26"
-        }
+        "subkeyword_notes": {}
       },
       "on_page": {
         "title": "Mychef Membership | myCHEF",
@@ -36146,7 +36106,6 @@
           "full time private chef",
           "the private chef",
           "personal chef near me",
-          "the private chef inc",
           "family chef dubai full time"
         ],
         "subkeyword_cap": 12,
@@ -36170,7 +36129,6 @@
           "full time private chef": "bing-autosuggest · filled 2026-08-26",
           "the private chef": "historical-master · already in live copy · filled 2026-08-26",
           "personal chef near me": "owner's list 2026-08-26 · Google Ads UAE 10/mo",
-          "the private chef inc": "bing-autosuggest · filled 2026-08-26",
           "family chef dubai full time": "historical-master · filled 2026-08-26"
         }
       },
@@ -36373,11 +36331,8 @@
           "top catering services providers in dubai",
           "partnership catering business",
           "catering requirements for events",
-          "catering business examples",
           "catering services list of menu",
-          "catering business proposal example",
-          "catering examples",
-          "catering plan example"
+          "catering examples"
         ],
         "subkeyword_cap": 12,
         "primary_may_appear_in": [
@@ -36400,11 +36355,8 @@
           "top catering services providers in dubai": "bing-autosuggest · filled 2026-08-26",
           "partnership catering business": "google-autocomplete · filled 2026-08-26",
           "catering requirements for events": "google-autocomplete · filled 2026-08-26",
-          "catering business examples": "google-autocomplete · filled 2026-08-26",
           "catering services list of menu": "google-autocomplete · filled 2026-08-26",
-          "catering business proposal example": "google-autocomplete · filled 2026-08-26",
-          "catering examples": "google-autocomplete · filled 2026-08-26",
-          "catering plan example": "google-autocomplete · filled 2026-08-26"
+          "catering examples": "google-autocomplete · filled 2026-08-26"
         }
       },
       "on_page": {
@@ -37014,11 +36966,11 @@
           "catering partner for event planners dubai",
           "a gala event catering",
           "catering event dubai",
-          "event catering dublin",
           "how to cater an event",
-          "event catering gst rate",
-          "event catering hire cornwall",
-          "event catering near me for birthday party"
+          "event catering near me for birthday party",
+          "event catering at home",
+          "event catering ballarat",
+          "event catering bbq"
         ],
         "subkeyword_cap": 8,
         "primary_may_appear_in": [
@@ -37039,11 +36991,11 @@
         "subkeyword_notes": {
           "a gala event catering": "bing-autosuggest · filled 2026-08-26",
           "catering event dubai": "google-autocomplete/historical-master · filled 2026-08-26",
-          "event catering dublin": "bing-autosuggest · filled 2026-08-26",
           "how to cater an event": "google-autocomplete/historical-master · filled 2026-08-26",
-          "event catering gst rate": "google-autocomplete · filled 2026-08-26",
-          "event catering hire cornwall": "google-autocomplete · filled 2026-08-26",
-          "event catering near me for birthday party": "google-autocomplete · filled 2026-08-26"
+          "event catering near me for birthday party": "google-autocomplete · filled 2026-08-26",
+          "event catering at home": "google-autocomplete · filled 2026-08-26",
+          "event catering ballarat": "google-autocomplete · filled 2026-08-26",
+          "event catering bbq": "google-autocomplete · filled 2026-08-26"
         }
       },
       "on_page": {
@@ -37237,9 +37189,9 @@
           "villa private chef",
           "cooks villa near me",
           "holiday villa with chef",
-          "aston villa head chef",
-          "caribbean villa with chef",
-          "chef cannavacciuolo villa"
+          "cooks villa blackburn",
+          "cooks villa raipur",
+          "cooks villa rarotonga"
         ],
         "subkeyword_cap": 8,
         "primary_may_appear_in": [
@@ -37262,9 +37214,9 @@
           "villa private chef": "google-autocomplete · already in live copy · filled 2026-08-26",
           "cooks villa near me": "google-autocomplete · filled 2026-08-26",
           "holiday villa with chef": "google-autocomplete · filled 2026-08-26",
-          "aston villa head chef": "google-autocomplete · filled 2026-08-26",
-          "caribbean villa with chef": "google-autocomplete · filled 2026-08-26",
-          "chef cannavacciuolo villa": "google-autocomplete · filled 2026-08-26"
+          "cooks villa blackburn": "google-autocomplete · filled 2026-08-26",
+          "cooks villa raipur": "google-autocomplete · filled 2026-08-26",
+          "cooks villa rarotonga": "google-autocomplete · filled 2026-08-26"
         }
       },
       "on_page": {
@@ -41315,12 +41267,12 @@
           "private jet food dubai",
           "private jet meals dubai",
           "emirates airline catering near dubai",
-          "aire private jet catering",
-          "belgium private jet catering",
           "deluxe private jet catering",
-          "lax private jet catering",
           "luxury private jet catering",
-          "nice private jet catering"
+          "odyssey private jet catering",
+          "private jet catering aspen",
+          "private jet catering austin",
+          "private jet catering farnborough"
         ],
         "subkeyword_cap": 12,
         "primary_may_appear_in": [
@@ -41342,12 +41294,12 @@
           "private jet food dubai": "historical-master · filled 2026-08-26",
           "private jet meals dubai": "historical-master · filled 2026-08-26",
           "emirates airline catering near dubai": "bing-autosuggest · filled 2026-08-26",
-          "aire private jet catering": "google-autocomplete · filled 2026-08-26",
-          "belgium private jet catering": "google-autocomplete · filled 2026-08-26",
           "deluxe private jet catering": "google-autocomplete · filled 2026-08-26",
-          "lax private jet catering": "google-autocomplete · filled 2026-08-26",
           "luxury private jet catering": "google-autocomplete · filled 2026-08-26",
-          "nice private jet catering": "google-autocomplete · filled 2026-08-26"
+          "odyssey private jet catering": "bing-autosuggest/google-autocomplete · filled 2026-08-26",
+          "private jet catering aspen": "google-autocomplete · filled 2026-08-26",
+          "private jet catering austin": "bing-autosuggest/google-autocomplete · filled 2026-08-26",
+          "private jet catering farnborough": "google-autocomplete · filled 2026-08-26"
         }
       },
       "on_page": {
@@ -41749,7 +41701,6 @@
           "product launch catering packages dubai",
           "product launch catering menu dubai",
           "catering for store opening dubai",
-          "top mechanic offering launch party catering",
           "catering planning checklist"
         ],
         "subkeyword_cap": 12,
@@ -41769,7 +41720,6 @@
           "title"
         ],
         "subkeyword_notes": {
-          "top mechanic offering launch party catering": "bing-autosuggest · filled 2026-08-26",
           "catering planning checklist": "google-autocomplete · already in live copy · filled 2026-08-26"
         }
       },
@@ -44252,12 +44202,12 @@
           "staff meals catering dubai cost per person",
           "catering staff hire for private catering",
           "catering with service staff",
-          "chief of staff catering company",
           "staff meals dubai",
           "event catering staff",
           "best veg meals in dubai",
           "monthly meals in dubai",
-          "ready to cook meals dubai"
+          "ready to cook meals dubai",
+          "chief of staff catering"
         ],
         "subkeyword_cap": 12,
         "primary_may_appear_in": [
@@ -44279,12 +44229,12 @@
           "staff meals catering dubai cost per person": "historical-master · filled 2026-08-26",
           "catering staff hire for private catering": "bing-autosuggest · filled 2026-08-26",
           "catering with service staff": "bing-autosuggest · filled 2026-08-26",
-          "chief of staff catering company": "bing-autosuggest · filled 2026-08-26",
           "staff meals dubai": "historical-master · filled 2026-08-26",
           "event catering staff": "google-autocomplete · filled 2026-08-26",
           "best veg meals in dubai": "google-autocomplete · filled 2026-08-26",
           "monthly meals in dubai": "bing-autosuggest · filled 2026-08-26",
-          "ready to cook meals dubai": "google-autocomplete · filled 2026-08-26"
+          "ready to cook meals dubai": "google-autocomplete · filled 2026-08-26",
+          "chief of staff catering": "bing-autosuggest · filled 2026-08-26"
         }
       },
       "on_page": {
@@ -45494,13 +45444,13 @@
           "chef for holiday home dubai",
           "private chef for tourists dubai",
           "private chef airbnb dubai",
-          "france villa holidays with private chef",
           "top chef offering home in dubai",
-          "holiday cottage with chef",
           "vacation villa with chef",
-          "private villa with chef ubud",
-          "vietnam villa with private chef",
-          "villa with private chef greece"
+          "villa with private chef jamaica",
+          "villa with private chef thailand",
+          "chef villa vanderpump",
+          "chef villa zaira",
+          "exclusive villa chef & heated pool"
         ],
         "subkeyword_cap": 12,
         "primary_may_appear_in": [
@@ -45519,13 +45469,13 @@
           "title"
         ],
         "subkeyword_notes": {
-          "france villa holidays with private chef": "bing-autosuggest · filled 2026-08-26",
           "top chef offering home in dubai": "bing-autosuggest · filled 2026-08-26",
-          "holiday cottage with chef": "google-autocomplete · filled 2026-08-26",
           "vacation villa with chef": "google-autocomplete · filled 2026-08-26",
-          "private villa with chef ubud": "google-autocomplete · filled 2026-08-26",
-          "vietnam villa with private chef": "google-autocomplete · filled 2026-08-26",
-          "villa with private chef greece": "google-autocomplete · filled 2026-08-26"
+          "villa with private chef jamaica": "google-autocomplete · filled 2026-08-26",
+          "villa with private chef thailand": "google-autocomplete · filled 2026-08-26",
+          "chef villa vanderpump": "google-autocomplete · filled 2026-08-26",
+          "chef villa zaira": "google-autocomplete · filled 2026-08-26",
+          "exclusive villa chef & heated pool": "google-autocomplete · filled 2026-08-26"
         }
       },
       "on_page": {
@@ -46805,15 +46755,11 @@
           "venue catering partnership dubai",
           "approved caterer list dubai",
           "venues that allow outside catering dubai",
-          "cwru preferred caterer",
-          "fiu preferred caterer",
           "preferred caterer agreement",
           "preferred caterer program",
           "what does preferred caterer mean",
-          "fiu preferred caterers",
-          "mit preferred caterers",
           "preferred caterers",
-          "preferred caterers mizzou"
+          "preferred sonoma caterers"
         ],
         "subkeyword_cap": 12,
         "primary_may_appear_in": [
@@ -46832,15 +46778,11 @@
           "title"
         ],
         "subkeyword_notes": {
-          "cwru preferred caterer": "bing-autosuggest · filled 2026-08-26",
-          "fiu preferred caterer": "bing-autosuggest · filled 2026-08-26",
           "preferred caterer agreement": "google-autocomplete · filled 2026-08-26",
           "preferred caterer program": "google-autocomplete · filled 2026-08-26",
           "what does preferred caterer mean": "google-autocomplete · filled 2026-08-26",
-          "fiu preferred caterers": "google-autocomplete · filled 2026-08-26",
-          "mit preferred caterers": "google-autocomplete · filled 2026-08-26",
           "preferred caterers": "google-autocomplete · filled 2026-08-26",
-          "preferred caterers mizzou": "bing-autosuggest · filled 2026-08-26"
+          "preferred sonoma caterers": "google-autocomplete · filled 2026-08-26"
         }
       },
       "on_page": {
@@ -47040,8 +46982,8 @@
           "villa and yacht catering partners dubai",
           "birthday dinner at villa dubai",
           "chef for villa",
-          "chef villa fleurie",
-          "chef villa florentine"
+          "giuseppe villa chef",
+          "jerry villa chef"
         ],
         "subkeyword_cap": 12,
         "primary_may_appear_in": [
@@ -47067,8 +47009,8 @@
           "villa and yacht catering partners dubai": "historical-master · filled 2026-08-26",
           "birthday dinner at villa dubai": "historical-master · filled 2026-08-26",
           "chef for villa": "google-autocomplete · filled 2026-08-26",
-          "chef villa fleurie": "google-autocomplete · filled 2026-08-26",
-          "chef villa florentine": "google-autocomplete · filled 2026-08-26"
+          "giuseppe villa chef": "google-autocomplete · filled 2026-08-26",
+          "jerry villa chef": "google-autocomplete · filled 2026-08-26"
         }
       },
       "on_page": {
@@ -47262,15 +47204,15 @@
           "private chef villa dubai",
           "villa catering dubai",
           "villa dinner party dubai",
-          "holiday villa in france with private chef",
           "private dining at villa dubai",
           "palm jumeirah villa dining",
           "villa catering dubai menu",
-          "villa with chef france",
-          "chef house villa flora",
-          "chef juan villa",
-          "chef victor villa",
-          "chef villa favorita"
+          "chef villa heanor",
+          "chef villa in the sky",
+          "chef villa klope",
+          "chef villa lorraine",
+          "chef villa navarre",
+          "chef villa orsini"
         ],
         "subkeyword_cap": 12,
         "primary_may_appear_in": [
@@ -47289,15 +47231,15 @@
           "title"
         ],
         "subkeyword_notes": {
-          "holiday villa in france with private chef": "bing-autosuggest · filled 2026-08-26",
           "private dining at villa dubai": "historical-master · filled 2026-08-26",
           "palm jumeirah villa dining": "historical-master · filled 2026-08-26",
           "villa catering dubai menu": "historical-master · filled 2026-08-26",
-          "villa with chef france": "google-autocomplete · filled 2026-08-26",
-          "chef house villa flora": "google-autocomplete · filled 2026-08-26",
-          "chef juan villa": "google-autocomplete · filled 2026-08-26",
-          "chef victor villa": "google-autocomplete · filled 2026-08-26",
-          "chef villa favorita": "google-autocomplete · filled 2026-08-26"
+          "chef villa heanor": "google-autocomplete · filled 2026-08-26",
+          "chef villa in the sky": "google-autocomplete · filled 2026-08-26",
+          "chef villa klope": "google-autocomplete · filled 2026-08-26",
+          "chef villa lorraine": "google-autocomplete · filled 2026-08-26",
+          "chef villa navarre": "google-autocomplete · filled 2026-08-26",
+          "chef villa orsini": "google-autocomplete · filled 2026-08-26"
         }
       },
       "on_page": {

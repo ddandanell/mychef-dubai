@@ -107,6 +107,10 @@ const faqs = [
     q: 'Which format works best for large guest counts?',
     a: 'Buffets generally scale more easily for large guest counts. For very large formal events, multiple buffet stations or family-style service can keep queues short while maintaining quality.',
   },
+  {
+    q: 'Which is better buffet or plated?',
+    a: 'Same service as buffet vs plated Dubai, different words for it. We design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format. If you searched for which is cheaper, buffet or plated and which is better, ala carte or buffet, this is the same service.',
+  },
 ]
 
 const faqSchema = {
@@ -263,6 +267,9 @@ export default function BuffetVsPlated() {
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Buffet and plated service are the two most common formats for Dubai events, and each creates a different atmosphere. Buffets encourage guests to move, choose, and socialise. Plated service delivers a refined, paced experience where every dish arrives at the table.
+          </p>
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+            Buffet or plated wedding Dubai and wedding buffet vs plated Dubai are planned around the room and the running order, with chefs, service staff and clear-down included. Difference between buffet and plated service and buffet vs plated service pros and cons comes down to four checks: who actually cooks, what the quote itemises, who buys the food, and how the kitchen is left. Is buffet or plated dinner better is the same service under another name.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             The right choice depends on your guest count, formality, venue layout, and budget. Many events also combine the two for the best of both worlds.

@@ -1,7 +1,7 @@
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /tourist-villa-chef-dubai
 //     primary:     "holiday villa chef dubai"
-//     subkeywords: "private chef holiday villa dubai" · "private chef for a week dubai" · "chef for holiday home dubai" · "private chef for tourists dubai" · "private chef airbnb dubai" · "france villa holidays with private chef" · "top chef offering home in dubai" · "holiday cottage with chef" · "vacation villa with chef" · "private villa with chef ubud" · "vietnam villa with private chef" · "villa with private chef greece"
+//     subkeywords: "private chef holiday villa dubai" · "private chef for a week dubai" · "chef for holiday home dubai" · "private chef for tourists dubai" · "private chef airbnb dubai" · "top chef offering home in dubai" · "vacation villa with chef" · "villa with private chef jamaica" · "villa with private chef thailand" · "chef villa vanderpump" · "chef villa zaira" · "exclusive villa chef & heated pool"
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
 import { useRef } from 'react'
@@ -112,6 +112,10 @@ const faqs = [
   {
     q: 'Is this available outside Dubai?',
     a: 'Our primary coverage is Dubai. Abu Dhabi and select Emirates may be possible for premium bespoke packages with transport logistics included.',
+  },
+  {
+    q: 'Is villa with private chef thailand part of what you offer?',
+    a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave it as we found it. Across Palm Jumeirah, Dubai Marina, Emirates Hills and Downtown Dubai this is our most common booking. Exclusive villa chef & heated pool land on this page too; it is one service.',
   },
 ]
 
@@ -258,6 +262,9 @@ export default function TouristVillaChef() {
           <div className="tvc-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               Tell us your villa location, travel dates, and group size, and we will bring you a vetted private chef within 24 hours. Our tourist villa chef service gives visitors a curated multi-day dining programme — a private chef shops, cooks, serves, and cleans so you can spend your holiday actually on holiday.
+            </p>
+            <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+              If you are weighing up top chef offering home in Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. Chef villa zaira, chef villa vanderpump, vacation villa with chef, chef for holiday home Dubai, villa with private chef jamaica and private chef holiday villa Dubai are run at the address you give us: we bring the equipment, cook on site and leave the space as we found it. Private chef airbnb Dubai, private chef for tourists Dubai and private chef for a week Dubai are the same booking: a vetted chef, matched to your kitchen and your menu.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               Menus move through Dubai's best culinary influences and culminate in an Arabic feast that feels like the perfect farewell. We coordinate with villa rental agencies, concierges, and property managers so access and timing are seamless.

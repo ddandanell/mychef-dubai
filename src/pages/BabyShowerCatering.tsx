@@ -166,6 +166,14 @@ const faqs = [
   { q: "How far in advance should I book during peak season?", a: "During Dubai's peak season from November to March, we recommend booking two to three weeks ahead, as dates fill quickly for showers and celebrations. Outside peak season, one to two weeks is usually comfortable for most baby showers. If your date is close, still reach out, we'll always try to accommodate." },
   { q: "Can baby shower catering be combined with other party services?", a: "Yes, many clients pair a baby shower with a wider celebration or upgrade to a fuller spread. Baby showers sit within our broader [party catering](/private-party-catering-dubai) offering, so it's easy to scale up to a bigger event or add a live station, canapes, or a grazing table. Just tell us the vibe you want and we'll shape one seamless menu." },
   { q: "What makes myCHEF different from booking a venue package for a baby shower?", a: "We come to your chosen space and build the entire experience around you, rather than fitting your celebration into a fixed venue slot and menu. That means your theme, palette, guest list, and dietary needs shape everything, from the grazing table to the mocktail bar. You get a private, personal shower at home with full-service catering and cleanup handled by our team." },
+  {
+    q: 'Do you do baby shower food Dubai?',
+    a: 'Yes. We plan the menu around the occasion and the room — plated, buffet, canapés or live stations — bring chefs, service staff and equipment, and handle the clear-down. Share the date, guest count and venue and you get a proposal with the format we would recommend and why. If you searched for small party catering in Dubai and baby shower grazing table Dubai, this is the same service.',
+  },
+  {
+    q: 'Can you cater baby shower food and drinks catering?',
+    a: 'For baby shower food and drinks catering the format follows the room and the running order — canapés while people arrive, a seated main, a station people come back to. Tell us the timings and the guest count and we send the shape we would use and why.',
+  },
 ]
 
 const relatedServices = [
@@ -353,6 +361,9 @@ export default function BabyShowerCatering() {
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             A baby shower is a soft, joyful kind of celebration — and the food should feel the same way. At myCHEF Dubai, we specialise in light, elegant catering that looks as lovely as it tastes: abundant grazing tables, delicate canapés, afternoon-tea bites, and dessert displays styled around your colours and theme.
+          </p>
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+            Baby shower catering Dubai price and baby shower catering cost per person Dubai depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Baby shower caterers near me are covered across the whole city, because the chef travels to your address rather than the other way round. Baby shower catering packages Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. If you are weighing up best baby shower catering Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. The baby shower catering menu Dubai is drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Halal baby shower catering Dubai is planned into the first draft of the menu rather than bolted on at the end.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             Everything is alcohol-free by default, with a fresh mocktail bar designed to feel celebratory and special. Chefs in our network handle the styling, the service, and the cleanup, so the mum-to-be and her guests can simply relax and enjoy the moment. Baby shower catering is part of our wider <Link to="/private-party-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">party catering in Dubai</Link>, pairs beautifully with our <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering service</Link>, and matches perfectly with a styled <Link to="/grazing-table-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">grazing table</Link>.

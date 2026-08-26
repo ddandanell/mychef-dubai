@@ -157,6 +157,14 @@ const faqs = [
     q: 'How far in advance should I book Diwali catering?',
     a: 'Diwali is a busy festive period in Dubai, so we recommend booking four to six weeks ahead to secure your date. Larger celebrations with live stations in particular benefit from earlier planning.',
   },
+  {
+    q: 'Is Diwali food items the same as Diwali catering Dubai?',
+    a: 'Yes — same service as Diwali catering Dubai, different words for it. We design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format. If you searched for Diwali food facts and Diwali food traditions, this is the same service.',
+  },
+  {
+    q: 'Do you also do Diwali traditional food?',
+    a: 'Yes — Diwali traditional food is this service under another name. Same team, same booking route, same itemised quote. People also search this as Diwali buffet style food — same team, same booking.',
+  },
 ]
 
 const relatedServices = [
@@ -342,6 +350,9 @@ export default function DiwaliCatering() {
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Diwali is a festival of light, abundance, and togetherness — and the food carries its joy. At myCHEF Dubai, we bring vibrant Indian festive menus to homes, offices, and villas across the city, from rich North and South Indian classics to fully vegetarian and Jain spreads. Live chaat and dosa stations add theatre, while generous tables of mithai bring the celebration to a sweet close.
+          </p>
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+            Diwali catering Dubai price and Diwali catering cost per person Dubai depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Diwali food catering near me is covered across the whole city, because the chef travels to your address rather than the other way round. Diwali catering packages Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. If you are weighing up best Diwali catering Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. The Diwali catering menu Dubai is drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Vegetarian Diwali catering Dubai is planned into the first draft of the menu rather than bolted on at the end.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             Whether you are hosting an intimate family Diwali, a corporate celebration, or a large villa party, chefs in our network cook on-site and our service team handle the service and pack-down, so the hosts can light the diyas and enjoy the evening. Our Diwali catering draws on our <Link to="/indian-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Indian catering</Link> and <Link to="/vegetarian-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">vegetarian catering</Link> menus, adds <Link to="/live-cooking-stations-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">live cooking stations</Link> for energy, and fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>. Because the festive period is busy, we recommend booking four to six weeks ahead.

@@ -1,7 +1,7 @@
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /villas-private-residences
 //     primary:     "villa chef dubai"
-//     subkeywords: "private chef villa dubai" · "villa catering dubai" · "villa dinner party dubai" · "holiday villa in france with private chef" · "private dining at villa dubai" · "palm jumeirah villa dining" · "villa catering dubai menu" · "villa with chef france" · "chef house villa flora" · "chef juan villa" · "chef victor villa" · "chef villa favorita"
+//     subkeywords: "private chef villa dubai" · "villa catering dubai" · "villa dinner party dubai" · "private dining at villa dubai" · "palm jumeirah villa dining" · "villa catering dubai menu" · "chef villa heanor" · "chef villa in the sky" · "chef villa klope" · "chef villa lorraine" · "chef villa navarre" · "chef villa orsini"
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
 import { Link } from 'react-router'
@@ -245,6 +245,9 @@ export default function Villas() {
               <h3 className="font-playfair text-h3 text-black mb-4">A chef for the household</h3>
               <p className="font-inter text-body text-gray-600 leading-relaxed mb-6">
                 A private chef villa Dubai arrangement is a standing rhythm: the same person, a Food Profile of how this house eats, and backup if they are off. Groceries as agreed, at actual receipts when we shop. Priced as working time, not per plate.
+              </p>
+              <p className="font-inter text-body text-gray-600 leading-relaxed mb-6">
+                Chef villa klope, chef villa heanor, chef villa orsini, chef villa navarre, chef villa lorraine and chef villa in the sky are run at the address you give us: we bring the equipment, cook on site and leave the space as we found it.
               </p>
               <Link
                 to="/private-chef-dubai"

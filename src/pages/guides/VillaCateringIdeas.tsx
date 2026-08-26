@@ -1,7 +1,7 @@
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /villa-catering-ideas-dubai
 //     primary:     "villa catering ideas dubai"
-//     subkeywords: "villa party food ideas dubai" · "home entertaining ideas dubai" · "villa dinner party ideas dubai" · "outdoor villa catering ideas dubai" · "small villa catering ideas dubai" · "birthday catering for villa party dubai" · "dubai self catering holidays" · "villa and yacht catering partners dubai" · "birthday dinner at villa dubai" · "chef for villa" · "chef villa fleurie" · "chef villa florentine"
+//     subkeywords: "villa party food ideas dubai" · "home entertaining ideas dubai" · "villa dinner party ideas dubai" · "outdoor villa catering ideas dubai" · "small villa catering ideas dubai" · "birthday catering for villa party dubai" · "dubai self catering holidays" · "villa and yacht catering partners dubai" · "birthday dinner at villa dubai" · "chef for villa" · "giuseppe villa chef" · "jerry villa chef"
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
 import { useRef } from 'react'
@@ -127,6 +127,14 @@ const faqs = [
   {
     q: 'How far in advance should I book villa catering?',
     a: 'Two to four weeks is ideal for most villa events. During the busy season from November to March, or for large celebrations, book six to eight weeks ahead.',
+  },
+  {
+    q: 'Do you provide small villa catering ideas Dubai?',
+    a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave it as we found it. Across Palm Jumeirah, Emirates Hills, Jumeirah this is our most common booking. If you searched for outdoor villa catering ideas Dubai and birthday catering for villa party Dubai, this is the same service.',
+  },
+  {
+    q: 'Can you do villa and yacht catering partners Dubai?',
+    a: 'With villa and yacht catering partners Dubai your address is the venue: we work with the kitchen you have, bring what it lacks, serve on your plates or ours, and clear down so the room goes back to normal. Across Palm Jumeirah, Emirates Hills, Jumeirah this is the everyday booking.',
   },
 ]
 
@@ -289,6 +297,9 @@ export default function VillaCateringIdeas() {
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Dubai's villas and private homes are some of the best places to host. With space for a pool, garden, terrace, and indoor dining, a villa lets you design an event that feels personal and relaxed. The right catering format brings the venue to life and keeps guests comfortable from arrival to clear-down.
+          </p>
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+            The villa party food ideas Dubai are drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Chef for villa, jerry villa chef, giuseppe villa chef, home entertaining ideas Dubai, villa dinner party ideas Dubai and birthday dinner at villa Dubai are run at the address you give us: we bring the equipment, cook on site and leave the space as we found it. Dubai self catering holidays is the same service under another name.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             Below are the most popular villa catering formats in Dubai, plus practical setup, staffing, and seasonality tips to help you plan.

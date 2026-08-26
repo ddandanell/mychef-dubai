@@ -1,7 +1,7 @@
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /gala-dinner-catering-dubai
 //     primary:     "gala dinner catering dubai"
-//     subkeywords: "gala dinner catering dubai price" · "gala dinner catering cost per person dubai" · "best gala dinner catering dubai" · "gala dinner catering packages dubai" · "gala dinner catering menu dubai" · "halal gala dinner catering dubai" · "awards dinner catering dubai" · "gala dinner dresses for hire" · "what is gala dinner" · "gala dinner theme ideas" · "diwali dinner catering" · "office dinner catering package dubai"
+//     subkeywords: "gala dinner catering dubai price" · "gala dinner catering cost per person dubai" · "best gala dinner catering dubai" · "gala dinner catering packages dubai" · "gala dinner catering menu dubai" · "halal gala dinner catering dubai" · "awards dinner catering dubai" · "what is gala dinner" · "gala dinner theme ideas" · "diwali dinner catering" · "office dinner catering package dubai" · "gala food menu ideas"
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
 import { useRef } from 'react'
@@ -137,6 +137,10 @@ const faqs = [
   {
     q: 'How far in advance should we book gala dinner catering?',
     a: 'We recommend 4–6 weeks for large galas to allow menu tastings, venue walkthroughs, and detailed service planning.',
+  },
+  {
+    q: 'What is gala dinner?',
+    a: 'Same service as gala dinner catering Dubai, different words for it. We design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
   },
 ]
 
@@ -320,6 +324,9 @@ export default function GalaDinnerCatering() {
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             A gala is a statement. From the moment guests arrive to the final course, every detail should reflect the prestige of the occasion. At myCHEF Dubai, we deliver gala dinner catering that matches the elegance of the venue, the formality of the dress code, and the ambition of the event itself. Chefs in our network design multi-course menus and curate sommelier-style beverage service, while polished front-of-house teams trained for black-tie occasions handle service.
+          </p>
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+            Gala dinner catering Dubai price and gala dinner catering cost per person Dubai depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Gala dinner catering packages Dubai and office dinner catering package Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. If you are weighing up best gala dinner catering Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. The gala food menu ideas and gala dinner catering menu Dubai are drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Halal gala dinner catering Dubai is planned into the first draft of the menu rather than bolted on at the end. Diwali dinner catering, gala dinner theme ideas and awards dinner catering Dubai are the same service under another name.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             Whether you are planning an awards ceremony, charity ball, or corporate anniversary gala, we work behind the scenes so the evening flows flawlessly. Explore our gala formats below, or see how we complement formal occasions through our{' '}

@@ -1,7 +1,7 @@
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /conference-catering-dubai
 //     primary:     "conference catering dubai"
-//     subkeywords: "conference catering dubai price" · "conference catering dubai cost per person" · "conference catering companies dubai" · "conference catering packages dubai" · "conference catering menu dubai" · "conference lunch catering dubai" · "catering & conference services coordinator" · "catering conference 2025" · "catering conference 2026" · "conference and catering umanitoba" · "conference catering brisbane" · "conference catering darwin"
+//     subkeywords: "conference catering dubai price" · "conference catering dubai cost per person" · "conference catering companies dubai" · "conference catering packages dubai" · "conference catering menu dubai" · "conference lunch catering dubai" · "catering & conference services coordinator" · "conference food catering" · "catering conference 2025" · "catering conference 2026" · "conference room catering" · "eisenhower conference & catering"
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
 import { useRef } from 'react'
@@ -397,6 +397,9 @@ export default function ConferenceCatering() {
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Conference catering is a logistics challenge as much as a culinary one. A full room of delegates needs to be fed and refreshed quickly, on a tight schedule, without losing energy across a long programme. The food matters — but so does the timing, the flow, and the way a break gets people back to their seats. At myCHEF Dubai, we plan conference catering around your agenda first, so service supports the day rather than slowing it down.
+          </p>
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+            Conference food catering, catering conference 2026, conference room catering and eisenhower conference & catering are run to a fixed timing, with one itemised invoice and dietary requirements tracked per person.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             From barista-style coffee breaks and efficient working lunches to all-day refreshments and rotating multi-day menus, we keep delegates energised from the opening session to the closing remarks. Organisers who run regular events find a standing relationship invaluable — we already understand your format and standards, so each conference is quicker to plan. Explore the formats below, or see our wider <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering in Dubai</Link>.

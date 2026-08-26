@@ -173,6 +173,10 @@ const faqs = [
   { q: "Can you combine Asian food with other cuisines for a mixed menu?", a: "Yes. Many clients pair pan-Asian stations with Arabic, Mediterranean, or Indian dishes for a multi-cuisine spread that suits a diverse Dubai guest list. We design the full menu as one balanced experience so the flavours and formats complement each other rather than compete. Explore our wider range on the [cuisines](/cuisines-dubai) page and we will craft the right blend for your occasion." },
   { q: "Is VAT included in the price you quote?", a: "Our quotes are clear about pricing, and the standard 5% UAE VAT applies to catering services. When we send your itemised proposal, you will see exactly what is included so there are no surprises later. If anything about the quote is unclear, just ask and we will walk you through every line before you confirm." },
   { q: "Do you offer vegetarian and vegan Asian menus for the whole event?", a: "Yes — Asian cuisine is naturally rich in plant-based cooking, so we can build entirely vegetarian or vegan spreads with tofu stir-fries, vegetable dumplings, fresh spring rolls, and veggie sushi rolls. We can also run a fully plant-based station alongside your main menu for mixed groups. Tell us your numbers and we will make the vegetarian and vegan options generous, not an afterthought." },
+  {
+    q: 'Do you also do Chinese catering Dubai?',
+    a: 'Yes. It is the same booking as Asian catering Dubai under another name: one team, your address, menu built for the occasion, and an itemised quote before you commit. People also search this as BBQ catering in Dubai and pan Asian catering Dubai — same team, same booking.',
+  },
 ]
 
 const relatedServices = [
@@ -353,6 +357,9 @@ export default function AsianCatering() {
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Asian cuisine is a world of contrasts — the sweet-sour-salty-spicy balance of a Thai curry, the high-heat char of a Cantonese wok, the precision of hand-rolled sushi, and the comfort of steaming dim sum. It is built for sharing, for movement, and for moments of theatre. At myCHEF Dubai, we bring those moments to your event with live stations and freshly cooked plates, drawing on Thai, Chinese, Japanese, and fusion traditions across the continent.
+          </p>
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+            Asian catering Dubai price and Asian catering cost per person Dubai depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Asian catering packages Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. If you are weighing up best Asian catering Dubai and best Indian catering in Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. The Asian catering menu Dubai is drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Halal Asian catering Dubai is planned into the first draft of the menu rather than bolted on at the end. Birthday catering in Dubai is planned around the room and the running order, with chefs, service staff and clear-down included.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             From live wok and dim sum stations to a <Link to="/sushi-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">sushi catering Dubai</Link> counter with hand-rolled maki and sashimi, our pan-Asian menus suit receptions, villa gatherings, weddings, and themed corporate nights. Halal sourcing is the baseline, spice levels are tailored to your guests, and vegetarian and vegan dishes are plentiful — explore how it fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.

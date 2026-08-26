@@ -147,6 +147,9 @@ export default function ReferralProgramme() {
               <p className="font-inter text-body text-gray-400 leading-relaxed mb-6">
                 The best recommendations come from people who have experienced myCHEF firsthand. Our referral programme rewards you for spreading the word about exceptional private dining and catering in Dubai.
               </p>
+              <p className="font-inter text-body text-gray-400 leading-relaxed mb-6">
+                Refer a friend catering Dubai is the same service under another name.
+              </p>
               <ul className="space-y-3">
                 {benefits.map((b, i) => (
                   <li key={i} className="flex items-start gap-3">

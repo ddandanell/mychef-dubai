@@ -112,6 +112,14 @@ const faqs = [
     q: 'How far in advance should I book Ramadan catering?',
     a: 'Book two to four weeks ahead for private iftars. For corporate or large community events, four to eight weeks is recommended, as Ramadan is one of the busiest catering periods in Dubai.',
   },
+  {
+    q: 'How much food per person for iftar Dubai?',
+    a: 'There is no single number for how much food per person for iftar Dubai: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+  },
+  {
+    q: 'How to plan iftar catering Dubai?',
+    a: 'We start from set formats and adjust them to your event rather than selling a fixed box: menu length, service style, staff and equipment are chosen for the day. Ask for the format closest to what you are planning and we shape it from there.',
+  },
 ]
 
 const faqSchema = {
@@ -273,6 +281,9 @@ export default function RamadanCateringGuide() {
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Ramadan is the most meaningful month of the year in Dubai, and the gatherings that mark it deserve careful planning. Whether you are hosting an intimate family iftar, a corporate suhoor, or a large community celebration, the catering should honour the rhythm of fasting, prayer, and hospitality.
+          </p>
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+            The Ramadan catering menu is drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Iftar catering checklist Dubai and Ramadan iftar catering trends Dubai are planned around the room and the running order, with chefs, service staff and clear-down included. Suhoor planning guide Dubai is the same service under another name.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             This guide covers the etiquette, menu formats, timing, and practical considerations that make Ramadan catering run smoothly.

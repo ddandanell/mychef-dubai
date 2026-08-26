@@ -1,7 +1,7 @@
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /allergy-safe-catering-dubai
 //     primary:     "allergy safe catering dubai"
-//     subkeywords: "allergy safe catering dubai price" · "allergy safe catering cost per person dubai" · "best allergy safe catering dubai" · "allergy safe catering packages dubai" · "allergy safe catering menu dubai" · "catering for guests with food allergies dubai" · "fsai safe catering allergens" · "best catering service in dubai" · "catering services availability in dubai" · "event catering" · "most reliable catering in dubai" · "food safety in dubai"
+//     subkeywords: "allergy safe catering dubai price" · "allergy safe catering cost per person dubai" · "best allergy safe catering dubai" · "allergy safe catering packages dubai" · "allergy safe catering menu dubai" · "catering for guests with food allergies dubai" · "best catering service in dubai" · "catering services availability in dubai" · "event catering" · "most reliable catering in dubai" · "food safety in dubai"
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
 import { useRef } from 'react'
@@ -258,6 +258,9 @@ export default function AllergySafeCatering() {
           <div className="asc-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               Tell us about your guests' allergies, intolerances, and dietary needs, and we will bring you a vetted chef experienced in allergy-safe preparation — usually within 24 hours. From ingredient verification to cross-contact controls, we build a clear protocol so everyone at your table can eat with confidence.
+            </p>
+            <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+              Allergy safe catering Dubai price and allergy safe catering cost per person Dubai depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Allergy safe catering packages Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. If you are weighing up best catering service in Dubai and best allergy safe catering Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. The allergy safe catering menu Dubai is drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Catering for guests with food allergies Dubai is planned into the first draft of the menu rather than bolted on at the end. Food safety in Dubai, most reliable catering in Dubai and catering services availability in Dubai are the same service under another name.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
               Explore dedicated <Link to="/allergy-safe-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">gluten-free</Link>, <Link to="/allergy-safe-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">dairy-free</Link>, and <Link to="/allergy-safe-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">nut-free</Link> catering, or view our broader <Link to="/cuisines-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">healthy catering</Link> options.

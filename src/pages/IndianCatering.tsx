@@ -172,6 +172,14 @@ const faqs = [
   { q: "Can you cater a large Indian wedding for several hundred guests?", a: "Yes, we regularly build multi-course Indian menus for large weddings and sangeets, flowing from chaat counters to live tandoor stations and a sweeping main buffet. We scale kitchen capacity, staffing, and logistics to match your guest count without compromising on freshness or authenticity. Plan the full celebration through our [wedding catering](/wedding-catering-dubai) service." },
   { q: "Is Indian catering cheaper as a buffet or a plated dinner?", a: "A buffet is generally the more economical choice because it needs less serving staff and lets guests help themselves, while plated and multi-course service costs more due to higher staffing. For weddings, many hosts combine both — live stations and a buffet for the crowd, with plated courses for a head table. We'll advise the best value format for your occasion and can compare a [buffet](/buffet-catering-dubai) against plated service in your quote." },
   { q: "How do I get a quote and how quickly will you reply?", a: "Send us your event date, guest count, and any dietary needs and we'll reply with a tailored Indian catering proposal, typically within 15 minutes during business hours. There's no obligation — you review the menu and pricing before anything is confirmed. Start by reaching out through our [contact](/contact) page or WhatsApp." },
+  {
+    q: 'How much Indian food cost in Dubai?',
+    a: 'There is no single number for how much Indian food cost in Dubai: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day. How much does Indian catering usually cost land on this page too; it is one service.',
+  },
+  {
+    q: 'Is north Indian catering Dubai the same as Indian catering Dubai?',
+    a: 'Yes — same service as Indian catering Dubai, different words for it. We design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format. If you searched for south Indian catering Dubai, this is the same service.',
+  },
 ]
 
 const relatedServices = [
@@ -352,6 +360,9 @@ export default function IndianCatering() {
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Indian food is built on layers — of spice, of region, of ritual. A great Indian menu is not a single cuisine but dozens, from the smoky tandoors and saffron biryanis of the north to the coconut curries, dosa, and tangy chutneys of the south. At myCHEF Dubai, we treat each menu as a journey across that map, cooking the way each dish is meant to be cooked and seasoning it with respect for tradition rather than shortcuts.
+          </p>
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+            Indian catering Dubai price, Indian catering cost per head and Indian catering cost per person Dubai depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Indian catering packages Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. If you are weighing up best Indian catering Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. The Indian catering menu Dubai is drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Halal Indian catering Dubai is planned into the first draft of the menu rather than bolted on at the end. Indian wedding catering Dubai is planned around the room and the running order, with chefs, service staff and clear-down included.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             Whether you are hosting a grand wedding banquet, a Diwali dinner at your villa, or a corporate function that needs to feel both generous and refined, our chefs, led by <Link to="/chefs/ahmed-executive-chef" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Executive Chef Ahmed</Link>, brings live tandoor and chaat stations, slow-cooked curries, and considered vegetarian, vegan, and Jain options to the table. Halal sourcing is the baseline, spice levels are tailored to your guests, and every detail is handled — explore how it fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>, or plan a dedicated <Link to="/diwali-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Diwali catering in Dubai</Link> menu.

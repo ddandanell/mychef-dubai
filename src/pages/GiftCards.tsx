@@ -1,7 +1,7 @@
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /gift-cards
 //     primary:     "mychef gift cards"
-//     subkeywords: "catering gift voucher dubai" · "dining gift card dubai" · "private chef gift card dubai" · "private cooking classes" · "green chef offers gift cards" · "chef delivered gift cards" · "chef delivery service gift cards" · "home chef deals on gift cards" · "where to buy home chef gift cards" · "top chef offering personal chef gift cards" · "home chef meals gift card" · "chef dinner at home"
+//     subkeywords: "catering gift voucher dubai" · "dining gift card dubai" · "private chef gift card dubai" · "private cooking classes" · "chef dinner at home" · "private cooking classes catering dubai for couples"
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
 import { useRef } from 'react'
@@ -374,6 +374,9 @@ export default function GiftCards() {
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Some gifts are opened once and forgotten. A myCHEF Dubai gift card is remembered long after the last course — an evening of exceptional food, personal service, and a setting designed around the people who matter most. Whether you are celebrating a birthday, marking an anniversary, welcoming someone to a new home, or thanking a valued client, a private chef experience in Dubai says more than any bottle, box, or bouquet ever could.
+          </p>
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+            Private chef gift card Dubai is the same booking: a vetted chef, matched to your kitchen and your menu. Dining gift card Dubai, catering gift voucher Dubai and private cooking classes catering Dubai for couples are the same service under another name.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             Our gift cards and dining vouchers can be used for a private chef dinner at home or in a villa, a couples' cooking class, a romantic meal for two, or even a yacht day with a chef on board. Each experience is planned around the recipient's tastes, dietary preferences, and occasion. Give a <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef dinner gift</Link>, a <Link to="/romantic-dinner-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">romantic dinner gift voucher</Link>, or a <Link to="/private-cooking-classes-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">cooking class gift voucher</Link> — and let them choose the moment that becomes a lasting memory.

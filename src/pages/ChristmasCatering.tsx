@@ -153,6 +153,10 @@ const faqs = [
   { q: "Should I choose full-service Christmas catering or a private chef at home?", a: "For a larger festive party with staff, styling, and a buffet or canapes, full-service Christmas catering is ideal, while an intimate seated Christmas dinner often suits a dedicated private chef. Both include menu design, cooking, and cleanup; the difference is scale and service style. If you are unsure, we will recommend the right format for your guest list, or compare our [private chef service](/private-chef-dubai)." },
   { q: "Can you handle a corporate Christmas party and staff meals together?", a: "Yes. We regularly run end-of-year corporate Christmas events, from boardroom lunches and canape receptions to full team celebrations with service staff and festive styling. We can also arrange separate catering for on-site staff meals during the same period. Our [corporate catering team](/corporate) coordinates menus, timings, and setup around your office schedule." },
   { q: "What if my guest count or menu changes after I book?", a: "That is completely normal in December, and we build flexibility into festive planning. Tell us as soon as numbers or dietary needs shift and we adjust the menu, portions, staffing, and quote accordingly. We would rather update the plan early than have you worried on the day, so keep us posted as your Christmas guest list firms up." },
+  {
+    q: 'How much does a full Christmas dinner cost?',
+    a: 'There is no single number for how much does a full Christmas dinner cost: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+  },
 ]
 
 const relatedServices = [
@@ -344,6 +348,9 @@ export default function ChristmasCatering() {
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Christmas in Dubai is a special time of year. With cooler evenings, twinkling city lights, and a community that loves to gather, many families and companies choose to host festive celebrations at home, in the office, or on a private terrace. At myCHEF Dubai, our Christmas catering service brings the seasonal spirit to your table with traditional flavours, modern presentation, and full-service hospitality.
+          </p>
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+            Christmas catering Dubai price and Christmas catering cost per person Dubai depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Christmas catering packages Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. If you are weighing up best Christmas catering Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. The Christmas catering menu Dubai is drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Halal Christmas catering Dubai is planned into the first draft of the menu rather than bolted on at the end. Christmas meals Dubai, Christmas dinner catering Dubai, Christmas turkey catering Dubai and Christmas dinner delivery Dubai are planned around the room and the running order, with chefs, service staff and clear-down included.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             From roasted turkey and honey-glazed ham to vegetarian festive mains and styled dessert tables, we design menus that suit your guest list, venue, and celebration style. Every detail is handled by chefs in our network, so you can focus on the people around you. Explore our Christmas catering options below, or see how they fit within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.

@@ -116,6 +116,14 @@ const faqs = [
     q: 'Can you do proposals outside a home or villa?',
     a: 'Yes. We can arrange private dining in yachts, desert settings, rooftops, and select venues. These require additional planning and permits, so book as early as possible.',
   },
+  {
+    q: 'Can I book private chef proposal dinner Dubai?',
+    a: 'Yes. Every chef on our roster is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.',
+  },
+  {
+    q: 'Is marriage proposal dinner Dubai the same as proposal dinner Dubai?',
+    a: 'Yes — same service as proposal dinner Dubai, different words for it. We design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format. If you searched for romantic proposal dinner Dubai and dinner for couples in Dubai, this is the same service.',
+  },
 ]
 
 const relatedServices = [
@@ -261,6 +269,9 @@ export default function ProposalDinner() {
           <div className="pd-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               A proposal dinner is not just a meal — it is a story told through food, setting, and timing. Tell us about your partner, your vision, and your venue, and we will reply within 15 minutes during business hours to start shaping your perfect "yes". We then bring you a vetted private chef and event manager for your date.
+            </p>
+            <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+              Proposal dinner Dubai price and dinner set price in Dubai depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Dinner offers in Dubai and proposal dinner packages Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. If you are weighing up best proposal dinner Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. The proposal dinner menu Dubai is drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Halal proposal dinner Dubai is planned into the first draft of the menu rather than bolted on at the end. Yacht proposal dinner Dubai is run at the address you give us: we bring the equipment, cook on site and leave the space as we found it.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               From the first course to the moment you get down on one knee, we manage the pacing, the styling, and the coordination with photographers and florists. You arrive as a guest; we make sure the evening unfolds exactly as you imagined.

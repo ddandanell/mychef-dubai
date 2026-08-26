@@ -30,6 +30,9 @@ const config: OccasionPageConfig = {
         UAE National Day is one of the most joyful occasions in Dubai — a time to come together, honour heritage and celebrate progress. Whether you are hosting an intimate family gathering, a villa party for friends or a corporate reception for colleagues, our National Day catering service brings the flavours of the Emirates to your chosen setting. We combine traditional Emirati dishes with contemporary presentation, so every buffet feels both rooted and refined.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+        UAE national day catering Dubai price and UAE national day catering cost per person Dubai depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. UAE national day catering packages Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. If you are weighing up best UAE national day catering Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. The UAE national day catering menu Dubai is drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed.
+      </p>
+      <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
         our chefs design menus around your guest list, venue and schedule. Expect slow-cooked lamb ouzi, fragrant machboos, freshly baked khameer, date-based desserts and live shawarma or kebab stations that draw guests in. we design and manage the experience from setup and service to cleanup, leaving you free to enjoy the fireworks, music and company.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
@@ -154,7 +157,15 @@ const config: OccasionPageConfig = {
       q: 'Are your National Day menus halal?',
       a: 'Yes. All our catering is halal by default, and we can accommodate vegetarian, vegan, gluten-free and other dietary requirements on request.',
     },
-  ],
+  {
+    q: 'Can you do mothers day lunch at home Dubai?',
+    a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave it as we found it. Across Palm Jumeirah, Emirates Hills, Jumeirah this is our most common booking. People also search this as Valentine\'s day dinner at home Dubai — same team, same booking.',
+  },
+  {
+    q: 'Does new years day catering mean this service?',
+    a: 'Yes — people search this several ways and land on the same service. Chefs and staff come to you, the menu is written for your event, and the quote separates food, people and hire. Valentine\'s day special dinner and new years day brunch Dubai land on this page too; it is one service.',
+  },
+],
   relatedServices: [
     {
       title: 'Eid Catering Dubai',

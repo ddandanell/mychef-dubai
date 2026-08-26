@@ -194,6 +194,9 @@ export default function Catering() {
           <p className="font-inter text-body text-gray-300 leading-relaxed mb-8 max-w-[65ch]">
             Your written proposal is based on guest count, menu, staffing, service format, venue access, timing and equipment. Minimums and 5% VAT are shown clearly before you book. Not every event meets the starting points.
           </p>
+          <p className="font-inter text-body text-gray-300 leading-relaxed mb-8 max-w-[65ch]">
+            Party food catering Dubai is planned around the room and the running order, with chefs, service staff and clear-down included. Private catering Dubai, bespoke catering Dubai and outdoor catering Dubai are the same service under another name.
+          </p>
           <div className="flex flex-wrap gap-6">
             <Link
               to={CATERING_PATHS.packages}

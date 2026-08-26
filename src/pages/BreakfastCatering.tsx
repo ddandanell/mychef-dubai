@@ -31,6 +31,9 @@ const config: ServicePageConfig = {
         The first meal of the day sets the tone for everything that follows. Our breakfast catering in Dubai is designed for busy teams, hotel groups, villa guests and early-morning events who want fresh food, reliable service and a setup that feels effortless. We deliver and serve across Dubai from Business Bay and DIFC to Palm Jumeirah, Jumeirah and Dubai Marina.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+        Breakfast catering Dubai price and breakfast catering price per person Dubai depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Breakfast catering packages Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. If you are weighing up best breakfast catering Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. The breakfast catering menu Dubai is drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Halal breakfast catering Dubai is planned into the first draft of the menu rather than bolted on at the end. Office breakfast catering Dubai and corporate breakfast catering Dubai are run to a fixed timing, with one itemised invoice and dietary requirements tracked per person.
+      </p>
+      <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
         Menus range from continental pastries, seasonal fruit and granola bowls to hot buffets with eggs, pancakes, Arabic breads and grilled proteins. We also provide barista-style coffee, fresh juices and mocktails so guests have everything they need in one place. Dietary options — including vegan, gluten-free, dairy-free and low-sugar — are clearly labelled and easy to request.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
@@ -159,7 +162,15 @@ const config: ServicePageConfig = {
       q: 'How far in advance should I book breakfast catering?',
       a: 'For smaller orders, 48 hours is usually enough. For large corporate breakfasts or hotel group orders, we recommend one to two weeks. During busy periods, earlier is better.',
     },
-  ],
+  {
+    q: 'Do you also do breakfast platters Dubai?',
+    a: 'Yes. It is the same booking as breakfast catering Dubai under another name: one team, your address, menu built for the occasion, and an itemised quote before you commit. People also search this as breakfast food in Dubai and breakfast options in Dubai — same team, same booking.',
+  },
+  {
+    q: 'Does Arabic breakfast catering Dubai mean this service?',
+    a: 'Yes — Arabic breakfast catering Dubai is this service under another name. Same team, same booking route, same itemised quote.',
+  },
+],
   relatedServices: [
     {
       title: 'Office Catering Dubai',

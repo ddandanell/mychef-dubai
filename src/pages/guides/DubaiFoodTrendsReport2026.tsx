@@ -126,6 +126,10 @@ const faqs = [
     q: 'How do I book a menu that reflects these 2026 trends?',
     a: 'Share your event brief, guest profile and any themes with myCHEF Dubai. We will propose a menu that combines current trends with your personal preferences, then arrange a tasting before finalising the details.',
   },
+  {
+    q: 'What are the big food trends for 2026?',
+    a: 'Same service as Dubai food trends 2026, different words for it. We design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format. If you searched for what are the food design trends in 2026, this is the same service.',
+  },
 ]
 
 const articleSchema = {
@@ -252,6 +256,9 @@ export default function DubaiFoodTrendsReport2026() {
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[680px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 trends-hero-sub">
             The catering and private-dining movements shaping Dubai events this year — from hyper-local ingredients and inclusive menus to chef-led tasting experiences and non-alcoholic beverage programmes.
+          </p>
+          <p className="font-inter text-lg text-white/90 max-w-[680px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 trends-hero-sub">
+            UAE food trends 2026, Dubai food expo 2026, Dubai food fair 2026, Dubai catering trends 2026 and private dining trends Dubai 2026 are the same service under another name.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 trends-hero-cta">

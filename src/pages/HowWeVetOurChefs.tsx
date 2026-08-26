@@ -113,6 +113,10 @@ const faqs = [
     q: 'How do you maintain quality over time?',
     a: 'We collect client feedback after every event, monitor punctuality and presentation, and remove chefs from the network if performance falls below our standards.',
   },
+  {
+    q: 'Can I book private chef food safety Dubai?',
+    a: 'Yes. Every chef on our roster is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests. Are private chefs licensed in Dubai land on this page too; it is one service.',
+  },
 ]
 
 const relatedServices = [
@@ -227,6 +231,9 @@ export default function HowWeVetOurChefs() {
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 vet-hero-sub">
             Trust begins with rigorous standards. Every chef in the myCHEF Dubai network passes identity checks, practical assessments, reference verification, and ongoing performance reviews.
+          </p>
+          <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 vet-hero-sub">
+            Personal chefs on offer in Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. If you are weighing up top personal chef services policies, the things worth checking are the named chef, the itemised quote and who buys the ingredients. Find a private chef, find a personal chef, personal chef services FAQ, personal chef services report, personal chef services reveal and are private chefs vetted Dubai are the same booking: a vetted chef, matched to your kitchen and your menu.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 vet-hero-cta">Get a Tailored Quote</Link>

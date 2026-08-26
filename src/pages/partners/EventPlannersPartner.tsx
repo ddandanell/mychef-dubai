@@ -1,7 +1,7 @@
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /partners/event-planners-dubai
 //     primary:     "event planners partnership dubai"
-//     subkeywords: "catering partner for event planners dubai" · "a gala event catering" · "catering event dubai" · "event catering dublin" · "how to cater an event" · "event catering gst rate" · "event catering hire cornwall" · "event catering near me for birthday party"
+//     subkeywords: "catering partner for event planners dubai" · "a gala event catering" · "catering event dubai" · "how to cater an event" · "event catering near me for birthday party" · "event catering at home" · "event catering ballarat" · "event catering bbq"
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
 import PartnerPageTemplate from './PartnerPageTemplate'

@@ -1,7 +1,7 @@
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /partner-with-us
 //     primary:     "catering partnerships dubai"
-//     subkeywords: "become a catering partner dubai" · "chef partnership dubai" · "work with mychef dubai" · "catering services list" · "top catering services providers in dubai" · "partnership catering business" · "catering requirements for events" · "catering business examples" · "catering services list of menu" · "catering business proposal example" · "catering examples" · "catering plan example"
+//     subkeywords: "become a catering partner dubai" · "chef partnership dubai" · "work with mychef dubai" · "catering services list" · "top catering services providers in dubai" · "partnership catering business" · "catering requirements for events" · "catering services list of menu" · "catering examples"
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
 import { useRef } from 'react'
@@ -152,6 +152,9 @@ export default function PartnerWithUs() {
           <section className="partner-section opacity-0 translate-y-8 mb-12 text-center">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed max-w-[800px] mx-auto">
               Whether you manage luxury villas, charter yachts, plan weddings, or run corporate concierge services, myCHEF Dubai can become the private chef partner your clients expect. We bring the culinary team, the menus, and the service standards — you bring the relationship.
+            </p>
+            <p className="font-inter text-body-lg text-gray-500 leading-relaxed max-w-[800px] mx-auto">
+              If you are weighing up top catering services providers in Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. The catering services list of menu is drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Partnership catering Business is run to a fixed timing, with one itemised invoice and dietary requirements tracked per person. Catering requirements for events is planned around the room and the running order, with chefs, service staff and clear-down included. Chef partnership Dubai is the same booking: a vetted chef, matched to your kitchen and your menu. Catering examples, catering services list, work with myCHEF Dubai and become a catering partner Dubai are the same service under another name.
             </p>
           </section>
 

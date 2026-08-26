@@ -162,6 +162,9 @@ export default function HalalPrivateDiningDubaiWhatToAsk() {
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
               At its core, halal private dining means every dish is prepared, handled, and served in line with Islamic dietary law. That usually includes halal-certified meat and poultry, the absence of pork and non-halal animal by-products, and careful attention to alcohol, cross-contamination, and overall kitchen hygiene.
             </p>
+            <p className="font-inter text-body text-gray-500 leading-relaxed mb-5">
+              Catering meals near me halal and food for catering near me halal are covered across the whole city, because the chef travels to your address rather than the other way round. List of halal caterer and a halal catering service are planned into the first draft of the menu rather than bolted on at the end.
+            </p>
             <p className="font-inter text-body text-gray-500 leading-relaxed">
               However, &ldquo;halal-friendly&rdquo; is not a regulated phrase. One chef may simply avoid pork and alcohol, while another works only with certified suppliers and dedicated equipment. Always ask for specifics rather than assuming.
             </p>

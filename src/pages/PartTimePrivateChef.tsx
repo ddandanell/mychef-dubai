@@ -1,7 +1,7 @@
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /part-time-private-chef-dubai
 //     primary:     "part time private chef dubai"
-//     subkeywords: "part time private chef dubai price" · "part time private chef dubai monthly cost" · "hire part time private chef dubai" · "part time private chef packages dubai" · "part time cook in dubai" · "full time private chef" · "the private chef" · "personal chef near me" · "the private chef inc" · "family chef dubai full time"
+//     subkeywords: "part time private chef dubai price" · "part time private chef dubai monthly cost" · "hire part time private chef dubai" · "part time private chef packages dubai" · "part time cook in dubai" · "full time private chef" · "the private chef" · "personal chef near me" · "family chef dubai full time"
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
 import { useRef } from 'react'
@@ -237,6 +237,9 @@ export default function PartTimePrivateChef() {
           <div className="pt-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               Get reliable, restaurant-quality cooking at home without the cost of a full-time chef. Tell us about your household size, schedule, and dietary preferences, and we will bring you a vetted chef who fits your rhythm — usually within 24 hours.
+            </p>
+            <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+              Part time private chef Dubai price and part time private chef Dubai monthly cost depend on the household: how many people eat at home, how many meals a week you want covered, and how often the chef comes. Personal chef near me is covered across the whole city, because the chef travels to your address rather than the other way round. Part time private chef packages Dubai start from a standing weekly format and get shaped around the household rather than sold as a fixed box. Full time private chef, part time cook in Dubai, family chef Dubai full time and hire part time private chef Dubai are the same booking: a vetted chef, matched to your kitchen and your menu.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               This is the highest-LTV segment in the private chef market. Families who book a chef 2–3 times per week generate predictable, recurring revenue and build long-term relationships with one trusted cook.

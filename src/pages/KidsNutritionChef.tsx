@@ -1,7 +1,7 @@
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /kids-nutrition-chef-dubai
 //     primary:     "kids meal prep dubai"
-//     subkeywords: "kids meal prep dubai price" · "healthy kids meals delivery dubai" · "kids meal plan dubai" · "emirates kids meal menu" · "chef meal prep company" · "dubai food prep service" · "meal prep for 5 year old" · "practical meal prep dubai" · "meal prep dubai delivery" · "meal prep dubai healthy" · "coles meal prep dubai"
+//     subkeywords: "kids meal prep dubai price" · "healthy kids meals delivery dubai" · "kids meal plan dubai" · "emirates kids meal menu" · "chef meal prep company" · "dubai food prep service" · "meal prep for 5 year old" · "practical meal prep dubai" · "meal prep dubai delivery" · "meal prep dubai healthy" · "coles meal prep dubai" · "how to meal prep for school"
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
 import { useRef } from 'react'
@@ -115,6 +115,14 @@ const faqs = [
   {
     q: 'Can parents review menus weekly?',
     a: 'Yes. Each weekly plan is shared in advance for feedback, and we welcome changes before the prep day.',
+  },
+  {
+    q: 'Do you also do coles meal prep Dubai?',
+    a: 'Yes. People call this several things; what you get is the same: one chef, your kitchen, a week of food planned around your diet, and an itemised figure with ingredients at cost. People also search this as meal prep Dubai delivery and practical meal prep Dubai — same team, same booking.',
+  },
+  {
+    q: 'Does meal prep for 5 year old mean this service?',
+    a: 'Yes — meal prep for 5 year old is this service under another name. Same team, same booking route, same itemised quote. How to meal prep for school land on this page too; it is one service.',
   },
 ]
 
@@ -261,6 +269,9 @@ export default function KidsNutritionChef() {
           <div className="kn-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               Give your children balanced, home-style meals they actually want to eat — and get your evenings back. Tell us about your household, your children's preferences, and any allergies or dietary goals, and we will bring you a vetted kids nutrition chef within 24 hours to build a plan that fits your family.
+            </p>
+            <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+              Kids meal prep Dubai price depends on the household: how many people eat at home, how many meals a week you want covered, and how often the chef comes. Kids meal plan Dubai starts from a standing weekly format and get shaped around the household rather than sold as a fixed box. The Emirates kids meal menu is planned around what your household actually eats, with a draft week you change before anything is confirmed. Healthy kids meals delivery Dubai is planned into the first draft of the menu rather than bolted on at the end. Chef meal prep company is run to a fixed timing, with one itemised invoice and dietary requirements tracked per person. Dubai food prep service is the same booking: a vetted chef, matched to your kitchen and your menu.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               Whether you need packed lunches for the week, balanced family dinners, or a full meal-prep service, we work around your schedule and your children's needs. Every menu is reviewed with parents, prepared with care, and delivered ready to serve.

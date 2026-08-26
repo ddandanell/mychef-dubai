@@ -400,6 +400,9 @@ export default function BusinessLunchCatering() {
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             A business lunch is rarely just about food. It is a chance to keep a meeting moving, to host a client well, or to give a hard-working team the break they need without losing the thread of the day. Done badly, catering interrupts the room. Done well, it disappears into the background — arriving on time, presented properly, and cleared away just as quietly. That is the standard we hold every business lunch to at myCHEF Dubai.
           </p>
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+            If you are weighing up best Business lunch Dubai with a view, the things worth checking are the named chef, the itemised quote and who buys the ingredients. Business lunch buffet Dubai, Business lunch options Dubai and Business lunch Downtown Dubai are run to a fixed timing, with one itemised invoice and dietary requirements tracked per person.
+          </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             From discreet boardroom lunches and polished client hosting to fast, hand-friendly working lunches, we tailor each menu to the setting and the agenda. Firms that host regularly find a standing arrangement saves time and keeps quality consistent, booking after booking. Explore the formats below, or see how business lunches sit within our wider <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering in Dubai</Link>, or scale up to <Link to="/corporate-event-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate event catering</Link>.
           </p>

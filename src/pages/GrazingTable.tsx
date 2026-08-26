@@ -412,6 +412,9 @@ export default function GrazingTable() {
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             A grazing table is more than food on a board — it is a moment. The abundant cascade of cured meats, aged cheeses, seasonal fruits, warm breads, and house-made dips becomes the visual heart of your celebration, the place guests drift back to all afternoon. At myCHEF Dubai, we treat each grazing table as an edible installation, composed and styled corner to corner for both flavour and effect.
           </p>
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+            Birthday grazing table Dubai is planned around the room and the running order, with chefs, service staff and clear-down included. Grazing tables Dubai and Indian grazing table Dubai are the same service under another name.
+          </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             Whether you are hosting a soft, floral bridal shower, a pastel baby shower, a relaxed villa gathering, or a polished corporate reception, our chefs build the spread on-site and tailors every element to your palette, theme, and guest count. Explore our grazing formats below, or see how it fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
           </p>

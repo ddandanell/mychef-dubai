@@ -1,7 +1,7 @@
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /booking-protection-insurance
 //     primary:     "catering cancellation policy dubai"
-//     subkeywords: "catering deposit refund dubai" · "event catering insurance dubai" · "what happens if my chef cancels dubai" · "caterer liability insurance dubai" · "catering contract wedding cancellation policy" · "catering hall contract cancellation policy" · "catering booking cancellation policy" · "cancellation policy for catering events" · "canes catering cancellation policy" · "catering cancellation policy sample" · "chipotle catering cancellation policy" · "ez catering cancellation policy"
+//     subkeywords: "catering deposit refund dubai" · "event catering insurance dubai" · "what happens if my chef cancels dubai" · "caterer liability insurance dubai" · "catering contract wedding cancellation policy" · "catering hall contract cancellation policy" · "catering booking cancellation policy" · "cancellation policy for catering events" · "catering cancellation policy sample" · "maggianos catering cancellation policy" · "mission bbq catering cancellation policy" · "moes catering cancellation policy"
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
 import { useRef } from 'react'
@@ -108,6 +108,14 @@ const faqs = [
   {
     q: 'Will I receive written booking terms?',
     a: 'Yes. Every booking is confirmed in writing with menu details, guest count, pricing, deposit, balance due date, cancellation terms, and any special arrangements.',
+  },
+  {
+    q: 'When should I sort out mission BBQ catering cancellation policy?',
+    a: 'Two to three weeks is comfortable for a full event and about a week for a dinner at home. December, Ramadan and New Year fill earliest — a month is safer for those. Short notice is still worth asking: if a chef is free you get a straight yes or no the same day, not a maybe. A deposit holds the date and the balance falls due after the day. Catering hall contract cancellation policy and catering contract wedding cancellation policy land on this page too; it is one service.',
+  },
+  {
+    q: 'What happens if my chef cancels Dubai?',
+    a: 'Every chef on our roster is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.',
   },
 ]
 
@@ -252,6 +260,9 @@ export default function BookingProtectionInsurance() {
           <div className="bpi-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               Booking a private chef or luxury catering service should feel exciting, not uncertain. At myCHEF Dubai, we have built clear protection policies around the questions clients ask most: What happens if the chef cannot make it? Are you insured? What if I need to cancel? How do deposits work? And if something goes wrong, how do you fix it?
+            </p>
+            <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+              For catering deposit refund Dubai, moes catering cancellation policy, catering cancellation policy sample, catering booking cancellation policy, maggianos catering cancellation policy and cancellation policy for catering events, two to three weeks is comfortable, and December, Ramadan and New Year fill earlier than that. Event catering insurance Dubai is planned around the room and the running order, with chefs, service staff and clear-down included. Caterer liability insurance Dubai is the same booking: a vetted chef, matched to your kitchen and your menu.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               The answers below are honest and practical. We do not promise that problems never happen — no service can. What we promise is that we have thought about them in advance, documented our terms clearly, and trained our chefs to respond quickly and fairly when they do. That is what booking protection means to us.

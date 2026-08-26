@@ -1,7 +1,7 @@
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /become-a-mychef
 //     primary:     "private chef jobs dubai"
-//     subkeywords: "chef jobs dubai" · "work as a private chef dubai" · "private chef vacancies dubai" · "catering jobs dubai" · "become a private chef in dubai" · "freelance chef work dubai" · "private chef and catering"
+//     subkeywords: "catering jobs dubai" · "chef jobs dubai" · "work as a private chef dubai" · "private chef vacancies dubai" · "become a private chef in dubai" · "freelance chef work dubai" · "private chef and catering"
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
 import 'react'
@@ -288,6 +288,9 @@ export default function BecomeAMyChef() {
           <div className="bmc-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               myCHEF Dubai is always looking for talented, reliable chefs who can deliver exceptional food in private homes, villas, yachts, and venues across the city. Whether you are a private chef with years of household experience, a restaurant chef ready for a new challenge, a pastry specialist, or an event chef who thrives under pressure, we want to hear from you.
+            </p>
+            <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+              Freelance chef work Dubai, private chef vacancies Dubai, work as a private chef Dubai and become a private chef in Dubai are the same booking: a vetted chef, matched to your kitchen and your menu. Catering jobs Dubai is the same service under another name.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               We are not a gig platform. We are a curated network. Every chef is vetted, every menu is bespoke, and every event is supported by a team that understands the standards expected in Dubai's luxury market. In return, you get access to interesting clients, flexible scheduling, clear payment terms, and a brand that promotes your skills professionally.

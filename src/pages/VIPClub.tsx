@@ -140,6 +140,10 @@ const faqs = [
     q: 'Can I gift a VIP membership?',
     a: 'Yes. Memberships can be purchased as gifts. Contact us for gift packaging and recipient onboarding.',
   },
+  {
+    q: 'Is VIP dining club Dubai the same as myCHEF VIP club?',
+    a: 'Yes — same service as myCHEF VIP club, different words for it. We design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format. If you searched for exclusive dining club Dubai and VIP government dining Dubai, this is the same service.',
+  },
 ]
 
 const relatedServices = [

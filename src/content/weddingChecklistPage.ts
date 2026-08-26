@@ -168,6 +168,14 @@ export const checklistFaqs = [
     q: 'Can you work on short notice?',
     a: 'Sometimes. It depends on the venue, the menu and whether the right licensed partners are free. Send the date. We will say yes or no without theatre.',
   },
+  {
+    q: 'How much food for a wedding Dubai?',
+    a: 'There is no single number for how much food for a wedding Dubai: guest count, menu, service style and staffing move the figure. Our indicative starting point on this page is AED 120 per guest. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+  },
+  {
+    q: 'How to plan wedding catering Dubai?',
+    a: 'We start from set formats and adjust them to your event rather than selling a fixed box: menu length, service style, staff and equipment are chosen for the day. Starting points begin at AED 120 per guest. Ask for the format closest to what you are planning and we shape it from there.',
+  },
 ] as const
 
 export const checklistLinks = [

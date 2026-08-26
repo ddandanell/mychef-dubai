@@ -1,7 +1,7 @@
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /
 //     primary:     "private chef and catering dubai"
-//     subkeywords: "luxury catering dubai" · "fine dining at home dubai" · "mychef dubai" · "private chef in dubai" · "top chef offering catering in dubai" · "catering company in uae" · "food catering companies in dubai" · "private chef or catering" · "private chef home catering" · "chef private catering options" · "private chef party catering"
+//     subkeywords: "luxury catering dubai" · "fine dining at home dubai" · "mychef dubai" · "private chef in dubai" · "top chef offering catering in dubai" · "catering company in uae" · "food catering companies in dubai" · "private chef or catering" · "private chef home catering" · "chef private catering options" · "private chef party catering" · "private chef dinner near me"
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
 import { Link } from 'react-router'

@@ -1,7 +1,7 @@
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /mychef-membership
 //     primary:     "mychef membership"
-//     subkeywords: "private chef membership dubai" · "priority consideration private chef dubai" · "home chef my account"
+//     subkeywords: "private chef membership dubai" · "priority consideration private chef dubai"
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
 import { useRef } from 'react'
@@ -249,6 +249,9 @@ export default function MyChefMembership() {
           <div className="mem-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               Tell us how often you host and what you value most, and we will recommend the right membership tier within one business day. myCHEF Membership is not a meal subscription — it is an access pass that unlocks priority dates, real dining credits, member pricing, and a direct concierge line.
+            </p>
+            <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+              Private chef membership Dubai and priority consideration private chef Dubai are the same booking: a vetted chef, matched to your kitchen and your menu.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               Whether you host monthly dinner parties, run a busy household with weekly meal prep, or simply want first access to seasonal menus and chef experiences, membership gives you a smoother, more rewarding way to dine.

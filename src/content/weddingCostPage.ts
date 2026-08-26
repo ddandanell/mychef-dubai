@@ -72,6 +72,10 @@ export const costFaqs = [
     q: 'Does the estimate include VAT, staff, cake and alcohol?',
     a: 'VAT of 5% is its own line. Staff, tableware, bar, cake and rentals are included only when the agreed plan says so. Alcohol is venue-licence dependent and is coordinated with the venue or a licensed partner. If a quote hides those lines, it is not cheaper — it is incomplete.',
   },
+  {
+    q: 'How is the halal wedding catering prices worked out?',
+    a: 'There is no single number for halal wedding catering prices: guest count, menu, service style and staffing move the figure. Our indicative starting point on this page is AED 120. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day. People also search this as catering services rates Dubai, small wedding catering cost Dubai and catering cost for 200 person wedding — same team, same booking.',
+  },
 ] as const
 
 export const quoteDrivers = [

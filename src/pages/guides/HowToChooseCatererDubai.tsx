@@ -130,6 +130,10 @@ const faqs = [
     q: 'Is caterer global Dubai something you arrange?',
     a: 'Yes. Every chef on our roster is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.',
   },
+  {
+    q: 'When to hire a caterer?',
+    a: 'Two to three weeks is comfortable for a full event and about a week for a dinner at home. December, Ramadan and New Year fill earliest — a month is safer for those. Short notice is still worth asking: if a chef is free you get a straight yes or no the same day, not a maybe. A deposit holds the date and the balance falls due after the day. If you searched for how far ahead to book a caterer Dubai, this is the same service.',
+  },
 ]
 
 const faqSchema = {
@@ -292,6 +296,9 @@ export default function HowToChooseCatererDubai() {
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Choosing a caterer is one of the most important decisions for any event. The right partner will ask the right questions, offer a clear proposal, and handle the details so you can focus on hosting. The wrong one can create stress on the day through poor communication, hidden costs, or mismatched service.
+          </p>
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+            If you are weighing up best caterers in Dubai and best catering companies in Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. Questions to ask a caterer Dubai comes down to four checks: who actually cooks, what the quote itemises, who buys the food, and how the kitchen is left. Preferred caterer list is the same booking: a vetted chef, matched to your kitchen and your menu.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             This checklist covers ten areas to evaluate before signing a contract, from menu flexibility and tastings to licenses, staffing, and backup plans.

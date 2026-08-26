@@ -151,6 +151,9 @@ export default function YachtPartyMenuIdeas() {
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               A yacht party in Dubai is one of the most memorable ways to celebrate a birthday, anniversary, corporate milestone, or simply a sunset among friends. But the best yacht menus are not just smaller versions of a land-based banquet. They need to account for compact galleys, movement on the water, limited plating space, and guests who want to socialise without juggling heavy plates.
             </p>
+            <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+              The yacht menu ideas, boat party menu ideas, yacht party food ideas Dubai, simple yacht party menu ideas and yacht party menu ideas for adults are drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Boat party food Dubai is planned around the room and the running order, with chefs, service staff and clear-down included.
+            </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
               This guide shares menu ideas that work beautifully on a yacht, from handheld canapés to fresh seafood and desserts that hold up in the marina breeze.
             </p>

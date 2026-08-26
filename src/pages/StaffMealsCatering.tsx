@@ -1,7 +1,7 @@
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /staff-meals-catering-dubai
 //     primary:     "staff meals catering dubai"
-//     subkeywords: "staff meals catering dubai price" · "staff lunch catering dubai" · "halal staff meals catering dubai" · "staff meals catering dubai cost per person" · "catering staff hire for private catering" · "catering with service staff" · "chief of staff catering company" · "staff meals dubai" · "event catering staff" · "best veg meals in dubai" · "monthly meals in dubai" · "ready to cook meals dubai"
+//     subkeywords: "staff meals catering dubai price" · "staff lunch catering dubai" · "halal staff meals catering dubai" · "staff meals catering dubai cost per person" · "catering staff hire for private catering" · "catering with service staff" · "staff meals dubai" · "event catering staff" · "best veg meals in dubai" · "monthly meals in dubai" · "ready to cook meals dubai" · "chief of staff catering"
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
 import { useRef } from 'react'
@@ -333,6 +333,9 @@ export default function StaffMealsCatering() {
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Feeding a workforce well is one of the quieter ways an organisation shows it values its people. A dependable daily meal keeps teams energised, saves staff the hassle of sorting lunch themselves, and builds a small but real sense of being looked after. The challenge at scale is consistency and cost — which is exactly what a planned staff meals service is built to solve. At myCHEF Dubai, we provide reliable team catering designed around the realities of a working operation.
+          </p>
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+            Staff meals catering Dubai price and staff meals catering Dubai cost per person depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. If you are weighing up best veg meals in Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. Halal staff meals catering Dubai is planned into the first draft of the menu rather than bolted on at the end. Staff meals Dubai, event catering staff, chief of staff catering, staff lunch catering Dubai, catering with service staff and catering staff hire for private catering are run to a fixed timing, with one itemised invoice and dietary requirements tracked per person. Ready to cook meals Dubai is the same booking: a vetted chef, matched to your kitchen and your menu. Monthly meals in Dubai is the same service under another name.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             From daily team meals and managed staff canteens to recurring retainers and shift-based catering, we keep your people well fed without the daily admin. Menus are fully halal and built to a high standard, with balanced and dietary options throughout, and a standing retainer gives you predictable invoicing and one reliable point of contact. Explore the formats below, see how staff catering fits within our wider <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering in Dubai</Link>, or browse our <Link to="/staff-meals-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate meal prep</Link> for portioned workplace programmes.

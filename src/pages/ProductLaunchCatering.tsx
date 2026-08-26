@@ -1,7 +1,7 @@
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /product-launch-catering-dubai
 //     primary:     "product launch catering dubai"
-//     subkeywords: "product launch catering dubai price" · "product launch catering dubai cost per person" · "launch party catering dubai" · "product launch catering packages dubai" · "product launch catering menu dubai" · "catering for store opening dubai" · "top mechanic offering launch party catering" · "catering planning checklist"
+//     subkeywords: "product launch catering dubai price" · "product launch catering dubai cost per person" · "launch party catering dubai" · "product launch catering packages dubai" · "product launch catering menu dubai" · "catering for store opening dubai" · "catering planning checklist"
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
 import { useRef } from 'react'
@@ -326,6 +326,9 @@ export default function ProductLaunchCatering() {
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             A product launch is more than a presentation — it is the first impression your market will have of something new. The food, the drinks, and the service all signal the quality and attention to detail behind your brand. At myCHEF Dubai, we design product launch catering around your product, your audience, and your venue, so every bite reinforces the story you are telling.
+          </p>
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+            Product launch catering Dubai price and product launch catering Dubai cost per person depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Product launch catering packages Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. The product launch catering menu Dubai is drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Launch party catering Dubai is planned around the room and the running order, with chefs, service staff and clear-down included. Catering for store opening Dubai is the same service under another name.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             From intimate investor dinners in DIFC to large-scale unveilings in Downtown Dubai, our chefs plan menus that match the tone of the event. We time service around speeches and reveals, cater to dietary and cultural requirements, and create presentation that photographs beautifully for press and social coverage. Whether you need a canapé reception, a media lunch, or a branded dessert bar, we deliver the polish your launch deserves.

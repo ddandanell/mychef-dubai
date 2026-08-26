@@ -1,7 +1,7 @@
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /blog/how-much-does-private-chef-cost-dubai
 //     primary:     "how much does private chef cost dubai"
-//     subkeywords: "private chef cost per person dubai" · "how much is a private chef for a night dubai" · "private chef cost for 6 people dubai" · "is a private chef worth it dubai" · "average private chef cost" · "how much does a private chef charge" · "private chef cost per day" · "private chef cost aus"
+//     subkeywords: "private chef cost per person dubai" · "how much is a private chef for a night dubai" · "private chef cost for 6 people dubai" · "is a private chef worth it dubai" · "average private chef cost" · "how much does a private chef charge" · "private chef cost per day" · "private chef cost dc"
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
 import { useRef } from 'react'
@@ -150,6 +150,9 @@ export default function PrivateChefCostDubai() {
           <section className="article-section opacity-0 translate-y-8 mb-12">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               Hiring a private chef in Dubai is one of the easiest ways to turn a regular evening into a memorable dining experience. Whether you want a romantic dinner for two, a family celebration in your villa, or a refined tasting menu for friends, a private chef brings restaurant-quality food and service directly to your home.
+            </p>
+            <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+              Private chef cost dc, average private chef cost, private chef cost per day, private chef cost per person Dubai and private chef cost for 6 people Dubai depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Is a private chef worth it Dubai is the same booking: a vetted chef, matched to your kitchen and your menu.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
               Pricing varies based on group size, menu complexity, ingredients, and staffing. This guide explains typical private chef costs in Dubai and what to ask when requesting a quote.

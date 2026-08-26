@@ -364,6 +364,9 @@ export default function PrivateDiningGuide() {
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Dubai&apos;s dining scene has shifted from restaurant reservations to something more intimate: private dining experiences hosted in villas, penthouses, yachts, and desert retreats across the city. It is a practical, flexible, and often more memorable alternative to dining out.
           </p>
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+            If you are weighing up luxury private dining Dubai menu, the things worth checking are the named chef, the itemised quote and who buys the ingredients. Private dining at home Dubai is run at the address you give us: we bring the equipment, cook on site and leave the space as we found it. Private dinner party Dubai is planned around the room and the running order, with chefs, service staff and clear-down included. Private dining ideas Dubai, romantic private dining Dubai, amazonico private dining Dubai, private dining experience Dubai and private dining Dubai for couples are the same service under another name.
+          </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             This guide explains what private dining means in Dubai, how it works, what it costs, and how to choose the right private chef for your occasion. For guests looking for a curated multi-course journey, our{' '}
             <Link to="/tasting-menu-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">

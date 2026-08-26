@@ -32,6 +32,9 @@ const config: ServicePageConfig = {
         Trade shows and exhibitions in Dubai move fast. Whether you are hosting a stand at Dubai World Trade Centre, organising a pavilion at Expo City, or running a corporate showcase at a hotel ballroom, your catering needs to keep pace with long hours, high footfall and back-to-back meetings. Our exhibition catering service is built around reliability, speed and presentation that reflects your brand.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+        Exhibition catering Dubai price and exhibition catering Dubai cost per person depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Exhibition catering packages Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. The exhibition catering menu Dubai is drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Trade show catering Dubai, Dubai food exhibition 2026, food exhibition catering Dubai and exhibition stand catering Dubai are the same service under another name.
+      </p>
+      <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
         We provide branded food counters, passed canapés, grab-and-go meal boxes, barista coffee stations, refreshment trolleys and VIP hospitality menus. Everything is designed to be served efficiently in a busy exhibition environment, with clear labelling for dietary needs and packaging that travels well from prep kitchen to stand.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">

@@ -1,7 +1,7 @@
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /italian-catering-dubai
 //     primary:     "italian catering dubai"
-//     subkeywords: "italian catering dubai price" · "italian catering cost per person dubai" · "best italian catering dubai" · "italian catering packages dubai" · "italian catering menu dubai" · "halal italian catering dubai" · "italian catering dubai delivery" · "italian catering dublin" · "private italian chef near me" · "the italian supper food truck dubai menu"
+//     subkeywords: "italian catering dubai price" · "italian catering cost per person dubai" · "best italian catering dubai" · "italian catering packages dubai" · "italian catering menu dubai" · "halal italian catering dubai" · "italian catering dubai delivery" · "private italian chef near me" · "the italian supper food truck dubai menu"
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
 import { useRef } from 'react'
@@ -171,6 +171,10 @@ const faqs = [
   { q: "Will there be enough food, and what happens to leftovers?", a: "We plan generous portions so no guest leaves hungry, calculating quantities to your headcount, event length, and menu style. Italian sharing food is abundant by nature, and any leftovers from a buffet are yours to keep. We would rather your table feels full and welcoming than tightly rationed." },
   { q: "Should I choose a buffet, a live station, or a plated Italian dinner?", a: "Buffets and live pasta or pizza stations suit larger, relaxed gatherings where guests mingle and serve themselves, while a plated multi-course dinner fits formal weddings and refined celebrations. Italian food works well in every format because it holds its quality beautifully. Tell us your guest count and the mood you want, and we will recommend the format that fits best." },
   { q: "How is your Italian catering different from ordering from a restaurant?", a: "Unlike a restaurant delivery, our chefs cook fresh on site at your venue, so pasta is made by hand and served warm rather than arriving in boxes. You get menu design, sourcing, live cooking, serving, and full cleanup as one seamless service in your own space. It is the authenticity of an Italian kitchen brought to your event, tailored entirely to your guests." },
+  {
+    q: 'Does Italian catering Dubai delivery mean this service?',
+    a: 'Yes — people search this several ways and land on the same service. Chefs and staff come to you, the menu is written for your event, and the quote separates food, people and hire.',
+  },
 ]
 
 const relatedServices = [
@@ -319,6 +323,9 @@ export default function ItalianCatering() {
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 ital-hero-sub">
             Handmade pasta, creamy risotto, abundant antipasti, and live pasta and pizza stations — the warmth and romance of an Italian kitchen brought to weddings, villas, and events across Dubai.
+          </p>
+          <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 ital-hero-sub">
+            Italian catering Dubai price and Italian catering cost per person Dubai depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Private Italian chef near me is covered across the whole city, because the chef travels to your address rather than the other way round. Italian catering packages Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. If you are weighing up best Italian catering Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. The Italian catering menu Dubai and the Italian supper food truck Dubai menu are drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Halal Italian catering Dubai is planned into the first draft of the menu rather than bolted on at the end.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 ital-hero-cta">Get My Italian Catering Quote</Link>

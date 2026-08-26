@@ -1,7 +1,7 @@
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /about
 //     primary:     "private chef company dubai"
-//     subkeywords: "about mychef dubai" · "luxury catering company dubai" · "private chef agency dubai" · "a chef" · "chef recruitment agencies in dubai" · "personal chef services availability in dubai" · "personal chef services on offer in dubai" · "top personal chef services provider in dubai"
+//     subkeywords: "about mychef dubai" · "luxury catering company dubai" · "private chef agency dubai" · "chef recruitment agencies in dubai" · "personal chef services availability in dubai" · "personal chef services on offer in dubai" · "top personal chef services provider in dubai"
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
 import { useRef } from 'react'
@@ -170,6 +170,9 @@ export default function About() {
               </DisplayHeading>
               <div className="space-y-4 font-inter text-body text-gray-500" style={{ lineHeight: '1.7' }}>
                 <p>myCHEF Dubai was founded with a simple belief: that exceptional dining should not be limited to restaurants. Drawing on years of experience in Europe's most demanding kitchens, our founder built myCHEF around a simple idea: the guest should own the evening and none of the work — so we design the experience and choose the talent to bring it to life.</p>
+                <p>
+                  Personal chef services on offer in Dubai starts from a set format and get adjusted to your date rather than sold as a fixed box. If you are weighing up luxury catering company Dubai and top personal chef services provider in Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. Private chef agency Dubai, chef recruitment agencies in Dubai and personal chef services availability in Dubai are the same booking: a vetted chef, matched to your kitchen and your menu. About myCHEF Dubai is the same service under another name.
+                </p>
                 <p>Today, myCHEF is a private-dining house. We design the experience end to end and run every part of the evening — from the first idea to the final cleared plate. We choose the chef, shape the menu, choreograph the service, and hold it all to one standard, so you're at the table, not managing it.</p>
                 <p>We serve households across Dubai — from Palm Jumeirah to Emirates Hills, Downtown to Dubai Marina — and every engagement is held to the same standard.</p>
               </div>

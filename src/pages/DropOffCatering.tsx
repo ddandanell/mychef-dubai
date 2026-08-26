@@ -1,7 +1,7 @@
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /drop-off-catering-dubai
 //     primary:     "drop off catering dubai"
-//     subkeywords: "drop off catering dubai price" · "drop off catering price per person dubai" · "best drop off catering dubai" · "drop off catering packages dubai" · "drop off catering menu dubai" · "halal drop off catering dubai" · "catering delivery dubai" · "drop off catering sunshine coast" · "healthy food delivery dubai" · "luxury food delivery dubai" · "meal plans delivery dubai" · "party food delivery dubai"
+//     subkeywords: "drop off catering dubai price" · "drop off catering price per person dubai" · "best drop off catering dubai" · "drop off catering packages dubai" · "drop off catering menu dubai" · "halal drop off catering dubai" · "catering delivery dubai" · "healthy food delivery dubai" · "luxury food delivery dubai" · "meal plans delivery dubai" · "party food delivery dubai" · "healthy meal delivery dubai"
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
 import { Link } from 'react-router'
@@ -156,6 +156,10 @@ const faqs = [
   {
     q: 'Do you deliver only in Dubai?',
     a: 'Coverage is Dubai. [Palm Jumeirah](/locations/palm-jumeirah), [Dubai Marina](/locations/dubai-marina) and [Downtown Dubai](/locations/downtown-dubai) are regular runs; [areas we serve](/locations) lists the rest. A Sharjah, Ajman or Abu Dhabi address goes on the enquiry and we tell you before you commit whether the Dubai network can serve it and what the travel adds.',
+  },
+  {
+    q: 'Do you also do catering delivery Dubai?',
+    a: 'Yes. It is the same booking as drop off catering Dubai under another name: one team, your address, menu built for the occasion, and an itemised quote before you commit.',
   },
 ] as const
 
@@ -455,6 +459,9 @@ export default function DropOffCatering() {
           <DisplayHeading className="text-white mb-6">What the published price is built from</DisplayHeading>
           <p className="font-inter text-body text-gray-300 leading-relaxed mb-5 max-w-[65ch]">
             The published drop off catering price per person in Dubai starts from AED 90 for a working-lunch spread. Guest count, menu and delivery move it. The quote is itemised so you can see food, delivery and 5% VAT as separate lines.
+          </p>
+          <p className="font-inter text-body text-gray-300 leading-relaxed mb-5 max-w-[65ch]">
+            Drop off catering Dubai price and drop off catering price per person Dubai depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Meal plans delivery Dubai and drop off catering packages Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. If you are weighing up luxury food delivery Dubai and best drop off catering Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. The drop off catering menu Dubai is drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Healthy food delivery Dubai, healthy meal delivery Dubai and halal drop off catering Dubai are planned into the first draft of the menu rather than bolted on at the end. Party food delivery Dubai is planned around the room and the running order, with chefs, service staff and clear-down included.
           </p>
           <div className="overflow-x-auto mb-8">
             <table className="w-full min-w-[28rem] text-left font-inter text-body-sm">

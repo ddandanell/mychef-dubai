@@ -1,7 +1,7 @@
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /founding-customer-offer
 //     primary:     "mychef founding customer offer"
-//     subkeywords: "mychef dubai offer" · "master chef customer service" · "home chef customer log in" · "home chef customer support" · "catering services on offer in dubai" · "meal plan dubai offer"
+//     subkeywords: "mychef dubai offer" · "catering services on offer in dubai" · "meal plan dubai offer"
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
 import { useRef } from 'react'
@@ -257,6 +257,9 @@ export default function FoundingCustomerOffer() {
           <div className="fc-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               Lock in priority access, a dedicated concierge, and a fixed founding rate for 12 months. Tell us how you dine and we will recommend the right founding tier, confirm availability, and bring you a vetted private chef in Dubai within 24 hours.
+            </p>
+            <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+              MyCHEF Dubai offer, meal plan Dubai offer and catering services on offer in Dubai start from a set format and get adjusted to your date rather than sold as a fixed box.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               In return for joining early, we reserve priority access to our most experienced, vetted chefs and assign a dedicated concierge who learns your preferences over time. Whether it is a weekly family dinner or a milestone celebration, your experience gets better with every booking.

@@ -1,7 +1,7 @@
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /full-time-private-chef-dubai
 //     primary:     "full time private chef dubai"
-//     subkeywords: "household chef dubai" · "hire a full time chef dubai" · "full time private chef cost dubai" · "monthly private chef dubai" · "private chef for family" · "part time chef dubai" · "top personal chef providers in dubai" · "in home chef" · "best time to hire caterers" · "in home chef for dinner party"
+//     subkeywords: "household chef dubai" · "hire a full time chef dubai" · "full time private chef cost dubai" · "monthly private chef dubai" · "private chef for family" · "part time chef dubai" · "top personal chef providers in dubai" · "best time to hire caterers"
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
 import { useRef } from 'react'
@@ -261,6 +261,9 @@ export default function FullTimePrivateChef() {
           <div className="fp-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               Hire a full-time private chef in Dubai and bring consistent, restaurant-quality dining into your home. Tell us about your household size, cuisine preferences, and schedule, and we will bring you a vetted residential chef within 24 hours.
+            </p>
+            <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+              Full time private chef cost Dubai depends on the household: how many people eat at home, how many meals a week you want covered, and how often the chef comes. For best time to hire caterers, two to three weeks is comfortable, and December, Ramadan and New Year fill earlier than that. If you are weighing up top personal chef providers in Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. Household chef Dubai, part time chef Dubai, private chef for family, monthly private chef Dubai and hire a full time chef Dubai are the same booking: a vetted chef, matched to your kitchen and your menu.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               Every candidate is vetted for culinary skill, professionalism, food-safety awareness, and experience in private households. We handle the shortlisting, interviews, and placement terms so you can focus on finding the right match for your family.

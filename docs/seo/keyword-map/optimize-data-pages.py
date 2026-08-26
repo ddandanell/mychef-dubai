@@ -19,9 +19,11 @@ pages, rowmap = opt.pages, opt.rowmap
 LOG = HERE / ".live/optimizer-log.jsonl"
 
 def missing_subs(url, corpus):
+    """Same guard as the component optimizer: prose only, plus what the page really renders."""
     row = rowmap.get(url) or {}; io = (pages.get(url) or {}).get("intent_owner") or {}
     miss = [x["kw"] for x in row.get("subs", []) if x.get("place") and not x["place"].get("body")] if row.get("subs") else list(io.get("subkeywords") or [])
-    return [k for k in miss if not opt.has(corpus, k)]
+    text = opt.prose(corpus); live = opt.rendered(url)
+    return [k for k in miss if not opt.has(text, k) and not (live and opt.has(live, k))]
 
 def log(rec):
     LOG.parent.mkdir(parents=True, exist_ok=True)
@@ -74,7 +76,10 @@ def do_location(url):
             new_obj = new_obj[:fm.start(3)] + esc + new_obj[fm.end(3):]; changes.append((mode, how, val, new))
     miss = missing_subs(url, new_obj)
     fa = re.search(r"(?m)^(\s*)faqs:\s*\[", new_obj)
-    if miss and fa:
+    # DISABLED: the entry-bounds walk below mis-read one entry and rewrote the whole file
+    # (1,181 lines deleted, caught by tsc). Locations are fully covered by their own copy today,
+    # so title/description/H1 stay and FAQ insertion waits for a bounds check that is proven safe.
+    if False and miss and fa:
         # array end within the object
         k = fa.end() - 1; depth = 0
         while k < len(new_obj):
@@ -85,8 +90,9 @@ def do_location(url):
             k += 1
         facts = opt.facts_from(obj); items, placed = [], []
         ind = fa.group(1)
-        for grp in opt.group_variants(miss)[:opt.MAX_FAQS]:
-            q, a = opt.faq_for(grp, pk, facts)
+        seed = sum(ord(c) for c in url); seen_cls = {}
+        for i, grp in enumerate(opt.group_variants(miss)[:opt.MAX_FAQS]):
+            c = opt.classify(grp[0]); q, a = opt.faq_for(grp, pk, facts, seed + i, seen_cls.get(c, 0)); seen_cls[c] = seen_cls.get(c, 0) + 1
             if opt.BANNED.search(a) or opt.BANNED.search(q): continue
             items.append(f"{ind}  {{\n{ind}    q: '{q.replace(chr(39), chr(92)+chr(39))}',\n{ind}    a: '{a.replace(chr(39), chr(92)+chr(39))}',\n{ind}  }},"); placed += grp
         if items:
@@ -120,8 +126,9 @@ def do_handoff(url):
     miss = missing_subs(url, corpus)
     if miss:
         faq = d.setdefault("faq", []); facts = opt.facts_from(before); placed = []
-        for grp in opt.group_variants(miss)[:opt.MAX_FAQS]:
-            q, a = opt.faq_for(grp, pk, facts)
+        seed = sum(ord(c) for c in url); seen_cls = {}
+        for i, grp in enumerate(opt.group_variants(miss)[:opt.MAX_FAQS]):
+            c = opt.classify(grp[0]); q, a = opt.faq_for(grp, pk, facts, seed + i, seen_cls.get(c, 0)); seen_cls[c] = seen_cls.get(c, 0) + 1
             if opt.BANNED.search(a) or opt.BANNED.search(q): continue
             faq.append({"question": q, "answer": [a]}); placed += grp
         if placed: changes.append(("faq", f"+{len(placed)} ({f.name})", "", ", ".join(placed)))

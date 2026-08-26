@@ -121,6 +121,10 @@ const faqs = [
     q: 'How far in advance should I book yacht catering?',
     a: 'Two to four weeks is ideal. During peak season from November to March, or for large charters, book six to eight weeks ahead.',
   },
+  {
+    q: 'How yacht catering works Dubai?',
+    a: 'Cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave it as we found it. Across Palm Jumeirah, Dubai Marina, Jumeirah this is our most common booking. If you searched for what to serve on a yacht Dubai, this is the same service.',
+  },
 ]
 
 const faqSchema = {
@@ -282,6 +286,9 @@ export default function YachtCateringGuide() {
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             A yacht charter in Dubai offers some of the most memorable settings for a celebration: the Marina skyline, the Palm, the open Gulf. But catering on board comes with unique constraints. Galleys are compact, decks move, storage is limited, and service must integrate with the crew and route.
+          </p>
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+            The yacht food ideas and yacht party food ideas are drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Yacht dinner in Dubai, catering for yacht party and small yacht catering guide Dubai are run at the address you give us: we bring the equipment, cook on site and leave the space as we found it. Do yachts allow outside catering Dubai is the same service under another name.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             This guide covers the practical side of yacht catering so you can choose a menu and service plan that works beautifully at sea.

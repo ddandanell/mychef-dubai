@@ -151,6 +151,18 @@ const faqs = [
   { q: "Should I choose a buffet or a plated menu for my festive event?", a: "It depends on the mood you want: a plated seated dinner feels more formal and elegant, while a festive buffet or grazing spread keeps things relaxed and social for larger, mingling crowds. Buffets and self-serve stations usually need less serving staff, whereas plated service delivers a polished, restaurant-style experience at home. Tell us your guest count and vibe and we'll recommend the format, or read our [buffet vs plated guide](/buffet-vs-plated-dubai)." },
   { q: "Do you cater corporate festive parties and end-of-year events?", a: "Yes — we cater corporate festive celebrations across Dubai, from office Christmas lunches and end-of-year galas to team New Year dinners, with menus and staffing scaled to your headcount. Our team handles setup, service and cleanup so your office or venue is left spotless. Explore our [corporate catering](/corporate) options and we'll tailor a festive package to your company's occasion and budget." },
   { q: "Can you match a festive theme, styling and presentation to my party?", a: "Yes — we style festive menus and presentation to match your theme, whether that's a classic Christmas table, a glamorous New Year reception, an Eid feast or a Diwali celebration. Beyond the food, we can coordinate table styling, tableware and décor through trusted partners so the whole setup feels cohesive. Share your theme and colour palette and we'll design a menu and look that fits the occasion." },
+  {
+    q: 'How is the festive catering Dubai price worked out?',
+    a: 'There is no single number for festive catering Dubai price: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day. People also search this as festive catering cost per person Dubai — same team, same booking.',
+  },
+  {
+    q: 'How do festive catering packages Dubai work?',
+    a: 'We start from set formats and adjust them to your event rather than selling a fixed box: menu length, service style, staff and equipment are chosen for the day. Ask for the format closest to what you are planning and we shape it from there.',
+  },
+  {
+    q: 'What makes myCHEF a strong choice for best festive catering Dubai?',
+    a: 'One team owns the whole event — menu, shopping, cooking on site, service and clear-down — so nothing falls between suppliers. The chefs are vetted and matched to the occasion, ingredients are charged at cost with no markup, and every quote is itemised.',
+  },
 ]
 
 const faqSchema = {

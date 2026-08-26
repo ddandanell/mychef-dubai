@@ -182,6 +182,14 @@ const faqs = [
     q: 'Which cuisines work best for yacht catering?',
     a: 'Light, fresh cuisines such as Mediterranean, Japanese, and seafood-focused menus work well. Avoid overly heavy dishes, messy finger foods, and items that do not hold up in outdoor heat.',
   },
+  {
+    q: 'How much food for a yacht party Dubai?',
+    a: 'There is no single number for how much food for a yacht party Dubai: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+  },
+  {
+    q: 'How to plan yacht catering Dubai?',
+    a: 'We start from set formats and adjust them to your event rather than selling a fixed box: menu length, service style, staff and equipment are chosen for the day. Ask for the format closest to what you are planning and we shape it from there.',
+  },
 ]
 
 const faqSchema = {
@@ -352,6 +360,9 @@ export default function YachtCateringChecklist() {
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             A yacht charter is one of the most memorable ways to entertain in Dubai — but catering on water is not the same as catering on land. Space is tighter, timing is stricter, and the vessel's movement affects everything from plating to refrigeration.
+          </p>
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+            Yacht catering package Dubai starts from a set format and get adjusted to your date rather than sold as a fixed box. The catering menu checklist is drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Catering checklist example and catering service checklist comes down to four checks: who actually cooks, what the quote itemises, who buys the food, and how the kitchen is left.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             This checklist walks you through the full timeline, from six weeks before the cruise to the moment your guests step back onto the dock. Use it to coordinate with your charter company, captain, event planner, and catering team so nothing is left to chance.

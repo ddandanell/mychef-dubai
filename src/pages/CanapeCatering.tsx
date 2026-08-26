@@ -420,6 +420,9 @@ export default function CanapeCatering() {
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             A great canapé does a lot of work in a single bite. It sets the tone of a reception, keeps guests mingling, and looks as considered as it tastes. At myCHEF Dubai, we treat canapé catering as precision work — each piece designed for balance, elegance, and the way it photographs on the tray.
           </p>
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+            Finger food catering price per person Dubai depends on the same three things: the guest count, the menu, and how much of the work happens in front of people. Canapes catering near me is covered across the whole city, because the chef travels to your address rather than the other way round. Corporate canape catering Dubai is run to a fixed timing, with one itemised invoice and dietary requirements tracked per person. Birthday canape catering Dubai is planned around the room and the running order, with chefs, service staff and clear-down included.
+          </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             our chefs build menus that move easily through a room, pairing chilled seafood bites, warm savoury morsels, and sweet petit fours with optional cocktails and mocktails. Servers pass canapés with timing and grace, while styled displays give guests a centrepiece to gather around. Whether it is a cocktail reception, a gallery opening, a rooftop gathering, or an engagement toast, we bring the bites, the staff, and the styling to you. Explore our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>, or speak to us to start planning.
           </p>

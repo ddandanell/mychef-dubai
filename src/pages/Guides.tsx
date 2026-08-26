@@ -1,7 +1,7 @@
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /guides
 //     primary:     "catering checklist dubai"
-//     subkeywords: "how to plan catering for an event dubai" · "event catering planning dubai" · "catering guides dubai price" · "event planning food checklist dubai" · "catering delivery checklist" · "catering order checklist" · "catering event checklist" · "catering food checklist" · "bbq catering checklist" · "catering audit checklist" · "catering business checklist" · "catering checklist excel"
+//     subkeywords: "how to plan catering for an event dubai" · "event catering planning dubai" · "catering guides dubai price" · "event planning food checklist dubai" · "catering delivery checklist" · "catering order checklist" · "catering event checklist" · "catering food checklist" · "bbq catering checklist" · "catering checklist fssai" · "catering checklist template" · "catering cleaning checklist"
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
 import { useRef } from 'react'
@@ -148,6 +148,18 @@ const faqs = [
   {
     q: 'How do I know whether to choose a private chef or full catering?',
     a: 'Our Private Chef vs Catering guide compares the two options by group size, occasion and budget so you can choose the right service model.',
+  },
+  {
+    q: 'How is the catering guides Dubai price worked out?',
+    a: 'There is no single number for catering guides Dubai price: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+  },
+  {
+    q: 'How to plan catering for an event Dubai?',
+    a: 'We start from set formats and adjust them to your event rather than selling a fixed box: menu length, service style, staff and equipment are chosen for the day. Ask for the format closest to what you are planning and we shape it from there.',
+  },
+  {
+    q: 'Do you do catering event checklist?',
+    a: 'Yes. We plan the menu around the occasion and the room — plated, buffet, canapés or live stations — bring chefs, service staff and equipment, and handle the clear-down. Share the date, guest count and venue and you get a proposal with the format we would recommend and why. If you searched for event catering planning Dubai and event planning food checklist Dubai, this is the same service.',
   },
 ]
 

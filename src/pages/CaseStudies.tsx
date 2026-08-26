@@ -381,6 +381,9 @@ export default function CaseStudies() {
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               Planning a high-stakes event in Dubai means needing proof that every detail will be handled with precision. Our case studies show how myCHEF Dubai approaches menu design, logistics, staffing, and service — from intimate villa dinners to large-scale corporate galas. Each story highlights the brief, the cuisine, the execution, and the outcome, so you can picture what is possible for your own celebration.
             </p>
+            <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+              Dubai event catering examples and private chef event portfolio Dubai are planned around the room and the running order, with chefs, service staff and clear-down included.
+            </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
               Whether you are organizing <Link to="/wedding-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">wedding catering Dubai</Link>, a <Link to="/yachts" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">yacht event</Link>, <Link to="/villas-private-residences" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">villa private dining</Link>, or <Link to="/corporate-event-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate event catering</Link>, these anonymized event stories offer a clear look at how we deliver. Browse the cases below, or visit our <Link to="/gallery" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">event gallery</Link> for more inspiration.
             </p>

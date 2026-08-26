@@ -179,6 +179,10 @@ const faqs = [
     q: 'What information do I need for an accurate quote?',
     a: 'Share your event date, guest count, venue, occasion, preferred cuisine, dietary requirements, beverage needs, and budget range. The more detail you provide, the more precise the proposal.',
   },
+  {
+    q: 'How much does catering cost in Dubai 2026?',
+    a: 'There is no single number for how much does catering cost in Dubai 2026: guest count, menu, service style and staffing move the figure. Our indicative starting point on this page is AED 10,000. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+  },
 ]
 
 const articleSchema = {
@@ -351,6 +355,9 @@ export default function EventCateringPriceGuide2026() {
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Catering is usually the largest line item after the venue when planning an event in Dubai. Yet pricing remains one of the least transparent parts of the process. Couples, corporate event managers, and private hosts often struggle to understand what a realistic budget looks like before requesting quotes.
+          </p>
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+            Dubai catering prices 2026, iftar buffet Dubai 2026 price, event catering cost Dubai 2026, catering for 50 people cost Dubai, catering rates during spring 2024 in Dubai and average catering cost per person Dubai 2026 depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Corporate event catering near me is covered across the whole city, because the chef travels to your address rather than the other way round. Event catering buffet, event catering activities and event catering for 100 people are planned around the room and the running order, with chefs, service staff and clear-down included.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             This guide provides an honest, Dubai-specific overview of event catering prices for 2026. It is based on current market practices and the variables that genuinely affect cost. Use it to set a budget, compare quotes, and ask the right questions before booking.

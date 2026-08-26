@@ -1,7 +1,7 @@
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /blog/corporate-catering-full-service-vs-drop-off
 //     primary:     "full service vs drop off catering dubai"
-//     subkeywords: "what is drop off catering dubai" · "do i need serving staff for office catering dubai" · "corporate catering full service vs drop off" · "drop off vs pick up catering" · "bbq drop off catering" · "drop off catering brisbane" · "wedding drop off catering" · "private chef vs catering"
+//     subkeywords: "what is drop off catering dubai" · "do i need serving staff for office catering dubai" · "corporate catering full service vs drop off" · "drop off vs pick up catering" · "bbq drop off catering" · "wedding drop off catering" · "private chef vs catering" · "catering ideas dubai"
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
 import { useRef } from 'react'
@@ -161,6 +161,9 @@ export default function CorporateCateringFullServiceVsDropOff() {
           <section className="article-section opacity-0 translate-y-8 mb-12">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               Corporate catering in Dubai comes in two main formats: drop-off and full-service. Both can deliver excellent food, but they suit very different occasions, budgets, and guest expectations. Choosing the wrong format can leave your team eating cold food from plastic trays or, conversely, paying for service staff you do not need.
+            </p>
+            <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+              Do I need serving staff for office catering Dubai is run to a fixed timing, with one itemised invoice and dietary requirements tracked per person. Wedding drop off catering is planned around the room and the running order, with chefs, service staff and clear-down included. Private chef vs catering and drop off vs pick up catering comes down to four checks: who actually cooks, what the quote itemises, who buys the food, and how the kitchen is left. BBQ drop off catering is the same service under another name.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
               This guide breaks down the differences so you can make a confident decision for your next office lunch, board meeting, product launch, or company celebration.

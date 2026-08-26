@@ -263,6 +263,9 @@ export default function PrivateChefVsCatering() {
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Private chefs and catering teams both bring restaurant-quality food to your location, but they serve different needs. A private chef is ideal when you want close collaboration and an intimate experience. Catering is the better fit when you need a full team to manage a larger event with service, rentals, and clear-down.
           </p>
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+            Private chef vs caterer cost Dubai and average cost of personal chef vs catering depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Private chef catering company is run to a fixed timing, with one itemised invoice and dietary requirements tracked per person. Private chef or catering for a party is planned around the room and the running order, with chefs, service staff and clear-down included. Personal chef vs private chef, difference between private chef and caterer and comparing personal chef services vs catering comes down to four checks: who actually cooks, what the quote itemises, who buys the food, and how the kitchen is left. Should I hire a chef or a caterer is the same booking: a vetted chef, matched to your kitchen and your menu.
+          </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             Below is a side-by-side comparison, plus guidance on hybrid options and how cost changes with scale.
           </p>

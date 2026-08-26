@@ -1,7 +1,7 @@
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /mychef-certified
 //     primary:     "mychef certified chefs"
-//     subkeywords: "certified private chefs dubai" · "verified private chef dubai" · "personal chefs in dubai" · "how much do private chefs charge" · "personal chefs on board" · "the chefs table private chef and catering" · "private chefs catering richmond"
+//     subkeywords: "certified private chefs dubai" · "verified private chef dubai" · "personal chefs in dubai" · "how much do private chefs charge" · "the chefs table private chef and catering"
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
 import { useRef } from 'react'
@@ -118,6 +118,10 @@ const faqs = [
   {
     q: 'Is chef on demand UAE something you arrange?',
     a: 'Yes. Every chef on our roster is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.',
+  },
+  {
+    q: 'How much do private chefs charge?',
+    a: 'There is no single number for how much do private chefs charge: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
   },
 ]
 
@@ -261,6 +265,9 @@ export default function MyChefCertified() {
           <div className="mc-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               MyChef Certified means every chef we send to your home, villa, or yacht in Dubai has passed in-person auditions, background checks, food-safety verification, and halal-competency screening. Tell us about your event and we will bring you a vetted chef within 24 hours.
+            </p>
+            <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+              Personal chefs in Dubai, verified private chef Dubai, certified private chefs Dubai and the chefs table private chef and catering are the same booking: a vetted chef, matched to your kitchen and your menu.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               From the first tasting to the final reference check, we look for chefs who combine technical skill with professionalism, discretion, and respect for the dietary and cultural expectations that matter in this city.

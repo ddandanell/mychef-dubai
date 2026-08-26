@@ -1,7 +1,7 @@
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /venue-partners
 //     primary:     "preferred caterer dubai"
-//     subkeywords: "venue catering partnership dubai" · "approved caterer list dubai" · "venues that allow outside catering dubai" · "cwru preferred caterer" · "fiu preferred caterer" · "preferred caterer agreement" · "preferred caterer program" · "what does preferred caterer mean" · "fiu preferred caterers" · "mit preferred caterers" · "preferred caterers" · "preferred caterers mizzou"
+//     subkeywords: "venue catering partnership dubai" · "approved caterer list dubai" · "venues that allow outside catering dubai" · "preferred caterer agreement" · "preferred caterer program" · "what does preferred caterer mean" · "preferred caterers" · "preferred sonoma caterers"
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
 import { useEffect, useRef } from 'react'
@@ -232,6 +232,9 @@ export default function VenuePartners() {
               experiences. Whether you are a yacht charter, a luxury villa manager, a hotel events team, or a
               corporate venue, we bring you a vetted chef you engage and catering services that elevate every guest
               experience.
+            </p>
+            <p className="reveal font-inter text-body text-gray-400">
+              Preferred caterers, preferred caterer program, preferred sonoma caterers, preferred caterer agreement and approved caterer list Dubai are the same booking: a vetted chef, matched to your kitchen and your menu. Venue catering partnership Dubai and venues that allow outside catering Dubai are the same service under another name.
             </p>
             <p className="reveal font-inter text-body-sm text-gray-500 mt-4">
               We are an independent private chef and catering service. Venue names shown are examples of

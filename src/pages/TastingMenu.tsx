@@ -31,6 +31,9 @@ const config: ServicePageConfig = {
         A tasting menu is the most intimate way to experience a chef’s creativity. Private chef’s table and tasting menu experiences on our team bring a curated, multi-course journey to your dining table — whether that is in a Palm Jumeirah villa, a Downtown penthouse, a corporate boardroom or a carefully chosen venue. Each course is introduced, every flavour is considered, and the pacing is designed around the conversation at the table.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+        Tasting menu Dubai price, private jet catering menu prices and private chef tasting menu price per person Dubai depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Tasting menu packages Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. The tasting menu courses, halal tasting menu Dubai, private tasting menu Dubai, tasting menu birthday Dubai, degustation menu Dubai private and tasting menu at home Dubai are drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed.
+      </p>
+      <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
         We begin with a consultation to understand your tastes, any dietary requirements and the tone of the evening. The chef then designs a bespoke menu that can span modern European, Japanese, Mediterranean, Middle Eastern or fusion influences. Wine-pairing-style mocktails, amuse-bouches, palate cleansers and petits fours complete the experience, with service that is attentive but never intrusive.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
@@ -159,7 +162,11 @@ const config: ServicePageConfig = {
       q: 'How far in advance should I book a tasting menu?',
       a: 'Two to four weeks is ideal, especially for complex menus or peak-season dates. Last-minute bookings are sometimes possible — contact us on WhatsApp to check chef availability.',
     },
-  ],
+  {
+    q: 'How is the private chef set menu Dubai put together?',
+    a: 'It is written for your event, not picked off a list: we start from what you are hosting, the season and any dietary needs, then send a draft you can change before anything is confirmed. Tell us the date and headcount and you get a first draft to react to.',
+  },
+],
   relatedServices: [
     {
       title: 'Luxury Dining Experiences',

@@ -154,6 +154,14 @@ const faqs = [
   { q: "Do I need to provide anything, or do you bring everything?", a: "You provide the space and we bring everything else, from ingredients and cooking equipment to chafing dishes, tableware, glassware, and linens. Our chefs arrive early to set up, cook fresh on-site, and then handle the full clear-down so your kitchen and dining area are left spotless. All you need to do is enjoy the morning with your guests." },
   { q: "Is brunch catering at home better than booking a hotel brunch?", a: "A catered brunch at home gives you a private, unhurried morning with a fully bespoke menu, no time limit, and no crowds, which a fixed hotel brunch cannot match. You choose exactly what is served, control the guest list, and keep the whole experience in your own space. If you would like to compare formats, our team can walk you through the options on the [contact](/contact) page." },
   { q: "Can a private chef prepare breakfast every day during a villa stay?", a: "Yes. Beyond one-off brunches, we offer daily breakfast chef service for families, holiday-home guests, and extended stays, with menus that change to keep every morning fresh. The chef shops, cooks, serves, and cleans up each day so your household starts effortlessly. Explore our full [private chef prices](/private-chef-prices-dubai) for daily and recurring arrangements." },
+  {
+    q: 'Is birthday brunch catering Dubai something you take on?',
+    a: 'Yes. We plan the menu around the occasion and the room — plated, buffet, canapés or live stations — bring chefs, service staff and equipment, and handle the clear-down. Share the date, guest count and venue and you get a proposal with the format we would recommend and why.',
+  },
+  {
+    q: 'Is easter brunch catering Dubai the same as brunch catering Dubai?',
+    a: 'Yes — same service as brunch catering Dubai, different words for it. We design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format. If you searched for brunch on sundays in Dubai and mothers day brunch catering Dubai, this is the same service.',
+  },
 ]
 
 const relatedServices = [
@@ -333,6 +341,9 @@ export default function BrunchCatering() {
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 brunch-hero-sub">
             Weekend villa brunches, corporate breakfast events, and daily private chef mornings. Fresh pastries, eggs any style, seasonal fruit, and artisanal coffee — served wherever you are in Dubai.
+          </p>
+          <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 brunch-hero-sub">
+            Brunch catering Dubai price and brunch catering price per person Dubai depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Brunch offers in Dubai and brunch catering packages Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. If you are weighing up best brunch catering Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. The brunch catering menu Dubai is drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Halal brunch catering Dubai is planned into the first draft of the menu rather than bolted on at the end. Villa brunch catering Dubai is run at the address you give us: we bring the equipment, cook on site and leave the space as we found it.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 brunch-hero-cta">Get a Brunch Quote</Link>

@@ -328,6 +328,9 @@ export default function ArabicCatering() {
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 arab-hero-sub">
             Abundant mezze, open charcoal grills, carved ouzi, and Emirati and Levantine classics — the warmth of an authentic Arabic feast brought to weddings, majlis, and events across Dubai.
           </p>
+          <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 arab-hero-sub">
+            Arabic catering Dubai price and Arabic catering cost per person Dubai depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Arabic catering packages Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. If you are weighing up best Arabic catering Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. The Arabic catering menu Dubai is drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Dubai catering company list is run to a fixed timing, with one itemised invoice and dietary requirements tracked per person. Mezze catering Dubai, Arabian Ranches dining, Lebanese catering Dubai, catering Arabic food Dubai and middle eastern catering Dubai are the same service under another name.
+          </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 arab-hero-cta">Get My Arabic Catering Quote</Link>
             <a

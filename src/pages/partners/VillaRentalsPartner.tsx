@@ -1,7 +1,7 @@
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /partners/villa-rentals-dubai
 //     primary:     "villa rentals partnership dubai"
-//     subkeywords: "catering partner for holiday homes dubai" · "villa catering package dubai" · "villa private chef" · "cooks villa near me" · "holiday villa with chef" · "aston villa head chef" · "caribbean villa with chef" · "chef cannavacciuolo villa"
+//     subkeywords: "catering partner for holiday homes dubai" · "villa catering package dubai" · "villa private chef" · "cooks villa near me" · "holiday villa with chef" · "cooks villa blackburn" · "cooks villa raipur" · "cooks villa rarotonga"
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
 import PartnerPageTemplate from './PartnerPageTemplate'

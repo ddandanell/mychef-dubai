@@ -16,6 +16,12 @@ Rules (all enforced):
     python3 docs/seo/keyword-map/fill-subkeywords.py --apply    # writes the contract
 """
 COMPETITOR_BRANDS = __import__("re").compile(r"\b(royal catering|smart catering|safadi|al safadi|dish catering|odeon|elements catering|govindas|taste studio|tastestudio|buffestra|cedar tree|baguette|pinch gourmet|ahs catering|captain zaiqey|zaiqey|chefmaison|chef maison|monchef|mon chef|instachef|takeachef|take a chef|miummium|cozymeal|chefondemand|chef on demand|hiremycooks|kcal|right bite|eat clean|fitfood|kitopi|talabat|deliveroo|careem|noon food|zomato|emirates catering|emirates flight|abela|national catering|green forest|metropolitan|lifestyle diets|pure delight|foodie brands|atlantis|burj al arab|address hotel|la table|carluccio|sabor|gourmet gulf|flavours catering|capital catering|al maha|chef burak|le petit chef|king chef|trendy chef|jumeirah beach hotel|emirates palace|ritz|four seasons|marriott|hilton|hyatt|radisson|rotana|caterer global|catererglobal|bateel|cook & tap|yalla|lulu|spinneys|waitrose|carrefour|nusret|salt bae|kerala restaurant|calicut)\b")
+
+# Meal-kit brands and non-UAE cities kept slipping in as "generic" words — "home chef my account",
+# "drop off catering brisbane", "private chefs dublin". They are not our queries at any volume.
+FOREIGN_BRANDS = __import__("re").compile(r"\b(home chef|green chef|blue apron|hello ?fresh|marley spoon|factor meals|freshly|gousto|la belle assiette|yhangry|chefs? plate|dinnerly|every ?plate)\b")
+OFF_GEO = __import__("re").compile(r"\b(brisbane|darwin|umanitoba|sydney|melbourne|perth|adelaide|auckland|london|manchester|birmingham|dublin|ireland|scotland|toronto|vancouver|montreal|new york|chicago|los angeles|miami|houston|dallas|atlanta|boston|seattle|denver|singapore|kuala lumpur|bangkok|manila|mumbai|delhi|bangalore|chennai|karachi|lahore|riyadh|jeddah|doha|kuwait city|bahrain|muscat|cairo|beirut|amman|istanbul|paris|berlin|madrid|barcelona|rome|milan|amsterdam|bali|jakarta|colombo|nairobi|lagos|johannesburg|cape town)\b")
+FOREIGN_REG = __import__("re").compile(r"\b(fsai|fda|food standards agency|environmental health officer)\b")
 import json, pathlib, re, sys, collections, datetime
 
 HERE = pathlib.Path(__file__).resolve().parent
@@ -142,6 +148,7 @@ pool = []
 for r in backlog["rows"]:
     k = norm(r["kw"]).rstrip("?.! ")
     if k in owned or any(b in k for b in BANNED) or BANNED_WORDS.search(k) or JUNK.search(k) or COMPETITOR_BRANDS.search(k): continue
+    if FOREIGN_BRANDS.search(k) or OFF_GEO.search(k) or FOREIGN_REG.search(k) or k.strip() in {'a chef', 'chef', 'catering'}: continue
     if r["intent"] in ("recruitment", "brand / competitor"): continue
     if not SERVICE.search(k) or OFFTOPIC.search(k): continue
     if len(k.split()) < 2 or len(k.split()) > 8 or len(k) > 60: continue

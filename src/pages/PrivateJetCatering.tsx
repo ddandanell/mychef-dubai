@@ -1,7 +1,7 @@
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /private-jet-catering-dubai
 //     primary:     "private jet catering dubai"
-//     subkeywords: "private jet chef dubai" · "in flight catering dubai" · "jet catering menu dubai" · "private jet food dubai" · "private jet meals dubai" · "emirates airline catering near dubai" · "aire private jet catering" · "belgium private jet catering" · "deluxe private jet catering" · "lax private jet catering" · "luxury private jet catering" · "nice private jet catering"
+//     subkeywords: "private jet chef dubai" · "in flight catering dubai" · "jet catering menu dubai" · "private jet food dubai" · "private jet meals dubai" · "emirates airline catering near dubai" · "deluxe private jet catering" · "luxury private jet catering" · "odyssey private jet catering" · "private jet catering aspen" · "private jet catering austin" · "private jet catering farnborough"
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
 import { Link } from 'react-router'

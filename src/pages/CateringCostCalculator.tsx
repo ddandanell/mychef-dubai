@@ -209,6 +209,9 @@ export default function CateringCostCalculator() {
               special dietary requirements, and venue logistics can affect the final price. For an exact bespoke
               proposal, request a quote and we will respond within 15 minutes during business hours.
             </p>
+            <p className="font-inter text-body-sm text-gray-500">
+              Estimate catering cost Dubai, catering calculator per person, small catering cost calculator Dubai, wedding catering cost calculator Dubai and birthday catering cost calculator Dubai depend on the same three things: the guest count, the menu, and how much of the work happens in front of people.
+            </p>
           </div>
         </div>
       </section>

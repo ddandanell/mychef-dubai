@@ -1,7 +1,7 @@
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
 //   /how-it-works
 //     primary:     "how to book a private chef dubai"
-//     subkeywords: "private chef booking process dubai" · "how does a private chef work in dubai" · "does a private chef bring the ingredients dubai" · "personal chef packages on offer in dubai" · "how to be a private chef" · "how to start a private chef business" · "live in chef dubai"
+//     subkeywords: "private chef booking process dubai" · "how does a private chef work in dubai" · "does a private chef bring the ingredients dubai" · "personal chef packages on offer in dubai" · "live in chef dubai"
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
 import { useRef, useState } from 'react'

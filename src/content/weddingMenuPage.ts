@@ -221,6 +221,10 @@ export const menuFaqs = [
     q: 'How do you handle Halal, vegan, Jain and allergies on one wedding menu?',
     a: 'Halal is the default kitchen standard. Vegetarian, vegan, Jain, gluten-free, dairy-free and nut-conscious covers are planned when you share them in time. We are allergy-aware. Cross-contact cannot be ruled out unless controls have been confirmed for the assigned kitchen.',
   },
+  {
+    q: 'How is the catering price list for wedding worked out?',
+    a: 'There is no single number for catering price list for wedding: guest count, menu, service style and staffing move the figure. Our indicative starting point on this page is AED 200. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+  },
 ] as const
 
 export const menuLinks = [
