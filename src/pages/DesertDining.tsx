@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /desert-dining-dubai
+//     primary:     "desert dining dubai"
+//     subkeywords: "desert dining dubai price" · "desert dining price per person dubai" · "best desert dining dubai" · "desert dining packages dubai" · "desert dining menu dubai" · "halal desert dining dubai" · "private desert dining dubai" · "luxury desert dining dubai" · "desert dining experience dubai" · "desert dinner dubai private" · "best desert dinner dubai" · "desert dinner experience dubai"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { Link } from 'react-router'
 import { Sun, Utensils, Flame, Salad, Moon, Home } from 'lucide-react'
 import OccasionCateringPage from './occasion/OccasionCateringPage'
@@ -7,13 +13,13 @@ const config: OccasionPageConfig = {
   slug: 'desert-dining-dubai',
   seoTitle: "Desert Dining Dubai | Luxury Outdoor Feasts",
   metaDescription:
-    'Desert dining and camp catering in Dubai: private dune dinners, Bedouin-style feasts, live grills and full-service outdoor events under the stars.',
+    'Desert Dining Dubai — Desert dining and camp catering in Dubai: private dune dinners, Bedouin-style feasts, live grills and full-service outdoor events…',
   canonicalPath: '/desert-dining-dubai',
   ogImage: '/images/desert-dining-dubai-hero.webp',
   breadcrumbLabel: 'Desert Dining & Camp Catering Dubai',
-  h1: 'Desert Dining & Camp Catering in Dubai',
+  h1: 'Desert Dining Dubai — Camp Catering',
   heroSub:
-    'Private dune dinners, Bedouin-style feasts and luxury camp catering across Dubai’s desert — live grills, Arabic sharing menus and service under the stars.',
+    'Desert Dining Dubai by myCHEF — Private dune dinners, Bedouin-style feasts and luxury camp catering across Dubai’s desert — live grills, Arabic sharing menus and service under the stars.',
   heroImage: '/images/desert-dining-dubai-hero.webp',
   whatsappMessage:
     "Hi myCHEF Dubai, I'd like to plan desert dining or camp catering in Dubai (via mychef.ae/desert-dining-dubai)",
@@ -120,7 +126,7 @@ const config: OccasionPageConfig = {
     { src: '/service-villa.webp', alt: 'Private dune dinner styling' },
     { src: '/service-events.webp', alt: 'Desert event catering in Dubai' },
   ],
-  faqsH2: 'Desert Dining Questions',
+  faqsH2: 'Desert Dining Dubai: the questions we get before a booking',
   faqs: [
     {
       q: 'Can you cater at any desert camp in Dubai?',

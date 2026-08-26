@@ -82,7 +82,9 @@ Rule: no row in Phases 3–5 is executed until GSC has been checked for that URL
 
 ---
 
-## 4. Phases 3–5 (planned, not executed)
+## 4. Phases 3–5 — executed 26 Aug (see status note)
+> **Status 26 Aug (evening):** Phases 3–5 were executed in the working tree by the parallel session (72 redirects live in `vercel.json`, `verify:retirements` green) under the owner's "run the next thing, get everything finished" instruction. The GSC veto check in §3 was **not** run — there is still no GSC access for mychef.ae. `/healthy-catering-dubai` (the site's only Bing click), `/oyster-bar-dubai` and `/dessert-cart-dubai` were among them. When GSC access exists, check those three first; a redirect can be reversed if the data says so.
+
 
 Full list with reasons in `consolidation-map.json`. Summary:
 

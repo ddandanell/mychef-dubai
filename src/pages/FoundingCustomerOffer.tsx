@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /founding-customer-offer
+//     primary:     "mychef founding customer offer"
+//     subkeywords: "mychef dubai offer" · "master chef customer service" · "home chef customer log in" · "home chef customer support" · "catering services on offer in dubai" · "meal plan dubai offer"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef } from 'react'
 import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
@@ -194,8 +200,8 @@ export default function FoundingCustomerOffer() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Founding Customer Offer Dubai | Early Access"
-        description="Join myCHEF Dubai as a founding customer. Exclusive pricing, priority booking, and premium perks for early members who trust us first."
+        title="myCHEF Founding Customer Offer | myCHEF"
+        description="myCHEF Founding Customer Offer — Join myCHEF Dubai as a founding customer. Exclusive pricing, priority booking, and premium perks for early members who…"
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/home-hero.webp"
         schema={schema}
@@ -219,7 +225,7 @@ export default function FoundingCustomerOffer() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 fc-hero-h1">
-            Founding Customer Offer
+            myCHEF Founding Customer Offer
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 fc-hero-sub">
             Be among the first to experience myCHEF Dubai. Founding customers lock in exclusive pricing, priority chef matching, and premium perks for 12 months.
@@ -340,7 +346,7 @@ export default function FoundingCustomerOffer() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Founding Customer Questions
+            myCHEF Founding Customer Offer: the questions we get before a booking
           </h2>
 
           <FaqAccordion items={faqs} />
@@ -372,7 +378,7 @@ export default function FoundingCustomerOffer() {
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
                   <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
-                    Explore <ArrowRight size={14} />
+                    {svc.title} <ArrowRight size={14} />
                   </span>
                 </div>
               </Link>

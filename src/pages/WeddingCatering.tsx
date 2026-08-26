@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /wedding-catering-dubai
+//     primary:     "wedding catering dubai"
+//     subkeywords: "wedding caterers dubai" · "wedding catering price per person dubai" · "wedding buffet catering dubai" · "wedding catering packages dubai" · "small wedding catering dubai" · "nikah catering dubai" · "wedding food packages dubai" · "when to book caterer for wedding" · "when to book catering for wedding" · "catering checklist for wedding" · "event catering for wedding" · "wedding catering blog dubai"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { Link } from 'react-router'
 import { ArrowRight } from 'lucide-react'
 import SEO from '../components/SEO'
@@ -16,28 +22,39 @@ import {
   CTAGroup,
 } from '../components/system'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
-import { plainFaqAnswer } from '../utils/schema'
-import { CATERING_PATHS } from '@/content/cateringCluster'
 import {
+  WEDDING_ALCOHOL,
   WEDDING_DIETARY,
   WEDDING_FINAL_NUMBERS,
   WEDDING_IDENTITY,
   WEDDING_INQUIRY,
   WEDDING_PATHS,
+  WEDDING_SEASON,
+  WEDDING_SETUP,
   WEDDING_TASTING,
   WEDDING_TIMELINE,
   WEDDING_WHATSAPP_LINK,
   WEDDING_WHATSAPP_MESSAGE,
-  hubEstimateSummary,
-  inclusionBuckets,
+  estimateBands,
 } from '@/content/weddingCluster'
 import {
   WEDDING_KEYWORD_LOCK,
-  weddingClusterLinks,
+  WEDDING_PATH,
+  WEDDING_SIBLING_LINKS,
+  WEDDING_SUPPORTING_GUIDES,
+  decisionModule,
+  exampleEvents,
+  includedItems,
+  jumpNav,
+  proofItems,
+  pricingIntro,
+  pricingNotes,
+  siloIntro,
   weddingCuisines,
   weddingFaqs,
   weddingFormats,
   weddingHero,
+  weddingHeroCopy,
   weddingProcess,
   weddingSettings,
 } from '@/content/weddingCateringPage'
@@ -47,35 +64,22 @@ const schema = {
   '@graph': [
     {
       '@type': 'Service',
+      '@id': 'https://www.mychef.ae/wedding-catering-dubai#service',
       name: 'Wedding Catering Dubai',
       serviceType: 'Wedding Catering',
-      provider: {
-        '@type': 'Organization',
-        '@id': 'https://www.mychef.ae/#organization',
-        name: 'myCHEF',
-        url: 'https://www.mychef.ae',
-        telephone: '+971-55-174-4849',
-        areaServed: 'Dubai, UAE',
-        description:
-          'myCHEF Dubai designs and coordinates wedding catering and matches the couple with vetted chefs, service professionals and licensed culinary partners. Culinary preparation is performed by those licensed third parties, whom the client engages.',
-      },
-      areaServed: 'Dubai, UAE',
+      description:
+        'Wedding Catering Dubai for villa, garden and licensed-venue receptions. myCHEF designs the catering plan and matches you with vetted chefs, service professionals and licensed culinary partners. A chef-led plated villa dinner typically sits around AED 700–950 per guest.',
+      url: 'https://www.mychef.ae/wedding-catering-dubai',
+      provider: { '@id': 'https://www.mychef.ae/#organization' },
+      areaServed: { '@id': 'https://www.mychef.ae/#place-dubai' },
     },
     {
       '@type': 'BreadcrumbList',
       itemListElement: [
         { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.mychef.ae/' },
-        { '@type': 'ListItem', position: 2, name: 'Catering Dubai', item: 'https://www.mychef.ae/catering-dubai' },
-        { '@type': 'ListItem', position: 3, name: 'Wedding Catering Dubai', item: `https://www.mychef.ae${WEDDING_PATHS.hub}` },
+        { '@type': 'ListItem', position: 2, name: 'Catering', item: 'https://www.mychef.ae/catering-dubai' },
+        { '@type': 'ListItem', position: 3, name: 'Wedding catering', item: `https://www.mychef.ae${WEDDING_PATH}` },
       ],
-    },
-    {
-      '@type': 'FAQPage',
-      mainEntity: weddingFaqs.map((faq) => ({
-        '@type': 'Question',
-        name: faq.q,
-        acceptedAnswer: { '@type': 'Answer', text: plainFaqAnswer(faq.a) },
-      })),
     },
   ],
 }
@@ -88,7 +92,7 @@ export default function WeddingCatering() {
       <SEO
         title={WEDDING_KEYWORD_LOCK.title}
         description={WEDDING_KEYWORD_LOCK.description}
-        canonicalPath={WEDDING_PATHS.hub}
+        canonicalPath={WEDDING_PATH}
         ogImage={weddingHero.src}
         hideSiteName
         preloadHero={weddingHero.src}
@@ -96,37 +100,94 @@ export default function WeddingCatering() {
       />
 
       <PageHero
-        variant="quiet"
-        eyebrow="Wedding Catering Dubai"
-        title="Wedding catering in Dubai for villas, gardens and venues"
-        subtitle="From an intimate dinner in a Palm garden to a full reception in a licensed venue — we design the food, match you with the right chefs and service team, and stay your single point of contact so you can be guests at your own wedding."
+        eyebrow={weddingHeroCopy.eyebrow}
+        title={weddingHeroCopy.title}
+        subtitle={weddingHeroCopy.subtitle}
         image={weddingHero.src}
         imageAlt={weddingHero.alt}
         imageWidth={weddingHero.width}
         imageHeight={weddingHero.height}
         imagePosition="70% 45%"
         align="left"
-        cta={{ label: 'Request a quote', href: WEDDING_INQUIRY }}
+        cta={{ label: 'Get an itemised wedding-catering quote', href: WEDDING_INQUIRY }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WEDDING_WHATSAPP_LINK, external: true }}
         breadcrumb={[
           { label: 'Home', href: '/' },
-          { label: 'Catering Dubai', href: CATERING_PATHS.overview },
-          { label: 'Wedding Catering Dubai' },
+          { label: 'Catering', href: '/catering-dubai' },
+          { label: 'Wedding catering' },
         ]}
         minHeight="full"
         overlay="dark"
-      />
+      >
+        <p className="mt-5 font-inter text-body-sm text-white/90 max-w-[58ch]">
+          {weddingHeroCopy.priceLine}
+        </p>
+        <p className="mt-3 font-inter text-body-sm text-white/70 max-w-[58ch]">
+          {weddingHeroCopy.replyLine}
+        </p>
+      </PageHero>
       <TrustSignalStrip />
 
-      <Section tone="ivory" rhythm="chapter">
+      <nav aria-label="On this page" className="border-b border-gray-200 bg-white">
+        <div className="container-custom flex flex-wrap gap-x-5 gap-y-2 py-4">
+          {jumpNav.map((item) => (
+            <a
+              key={item.href}
+              href={item.href}
+              className="font-inter text-caption uppercase tracking-[0.12em] text-gray-500 hover:text-gold-ink"
+            >
+              {item.label}
+            </a>
+          ))}
+        </div>
+      </nav>
+
+      <Section tone="ivory" rhythm="connected">
+        <Container>
+          <p className="font-inter text-caption uppercase tracking-[0.12em] text-gold-ink mb-4">Also in this silo</p>
+          <ul className="flex flex-wrap gap-x-6 gap-y-2">
+            {WEDDING_SIBLING_LINKS.map((item) => (
+              <li key={item.href}>
+                <Link
+                  to={item.href}
+                  className="font-inter text-body-sm text-gray-700 underline decoration-gold/40 underline-offset-4 hover:text-gold-ink"
+                >
+                  {item.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+          <p className="mt-6 font-inter text-body-sm text-gray-600 max-w-[62ch]">
+            {siloIntro.lead} Broader food-only through full-service catering sits on{' '}
+            <Link to={siloIntro.cateringHref} className="text-gold-ink underline underline-offset-4 hover:text-gold">
+              {siloIntro.cateringLabel}
+            </Link>
+            . Other named nights sit on{' '}
+            <Link to={siloIntro.eventsHref} className="text-gold-ink underline underline-offset-4 hover:text-gold">
+              {siloIntro.eventsLabel}
+            </Link>
+            . A standing household chef belongs on{' '}
+            <Link to={siloIntro.chefHref} className="text-gold-ink underline underline-offset-4 hover:text-gold">
+              {siloIntro.chefLabel}
+            </Link>
+            .
+          </p>
+        </Container>
+      </Section>
+
+      <Section tone="white" rhythm="chapter">
         <Container className="max-w-3xl">
           <SectionLabel>WHAT THIS IS</SectionLabel>
-          <DisplayHeading className="text-black mb-6">What does wedding catering through myCHEF actually mean?</DisplayHeading>
+          <DisplayHeading className="text-black mb-6">What does the wedding meal through myCHEF actually mean?</DisplayHeading>
           <BodyCopy className="mb-5">
             For one couple it is an intimate dinner for twenty around one table. For another it is a hundred guests arriving for canapés, then a buffet, live stations and dessert. A third needs a plated menu, waiters on every table, a bar team and someone holding the timing between the food and the rest of the celebration.
           </BodyCopy>
           <BodyCopy className="mb-5">
-            That is why we do not begin by asking you to choose Package A, B or C. We begin with the wedding.
+            That is why we do not begin by asking you to choose Package A, B or C. We begin with the wedding. This page is the wedding brief; the wider operation sits on{' '}
+            <Link to="/catering-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
+              Luxury catering in Dubai
+            </Link>
+            .
           </BodyCopy>
           <BodyCopy className="mb-5">{WEDDING_IDENTITY}</BodyCopy>
           <BodyCopy>
@@ -135,7 +196,7 @@ export default function WeddingCatering() {
         </Container>
       </Section>
 
-      <Section tone="white" rhythm="chapter">
+      <Section tone="ivory" rhythm="chapter">
         <Container className="max-w-3xl">
           <SectionLabel>WHAT MYCHEF HANDLES</SectionLabel>
           <DisplayHeading className="text-black mb-6">The catering. Not the whole wedding.</DisplayHeading>
@@ -143,7 +204,7 @@ export default function WeddingCatering() {
             Menu design, the culinary team, ingredient sourcing, food preparation, service staff, setup and clear-down of the catering operation, and dietary planning sit with us when they are in the brief.
           </BodyCopy>
           <BodyCopy className="mb-5">
-            Bar team, tableware, glassware, serving equipment and food presentation can be added. Cake can be coordinated; a specialist wedding cake often comes from a dedicated cake partner.
+            Bar team, tableware, glassware, serving equipment and food presentation can be added. Cake can be coordinated; a specialist wedding cake often comes from a dedicated cake partner — pastry chef Matteo Moretti when the brief needs that work.
           </BodyCopy>
           <BodyCopy>
             Venue sourcing, ceremony production, florals, entertainment, photography and invitations do not. We would rather be clear about that than pretend to be every supplier in the room.
@@ -151,7 +212,7 @@ export default function WeddingCatering() {
         </Container>
       </Section>
 
-      <Section tone="ivory" rhythm="chapter">
+      <Section id="formats" tone="white" rhythm="chapter">
         <Container>
           <SectionLabel>HOW GUESTS EAT</SectionLabel>
           <DisplayHeading className="text-black mb-4">How do you want your guests to eat?</DisplayHeading>
@@ -171,6 +232,7 @@ export default function WeddingCatering() {
                     <ArrowRight size={16} className="flex-shrink-0 text-gold-ink opacity-0 -translate-x-1 transition-all group-hover:translate-x-0 group-hover:opacity-100" aria-hidden />
                   </span>
                   <p className="mt-1 font-inter text-body-sm text-gray-500 leading-relaxed">{fmt.body}</p>
+                  <span className="mt-3 inline-block font-inter text-caption uppercase tracking-[0.12em] text-gold-ink">{fmt.linkLabel}</span>
                 </span>
               </Link>
             ))}
@@ -178,72 +240,147 @@ export default function WeddingCatering() {
         </Container>
       </Section>
 
-      <Section tone="white" rhythm="chapter">
-        <Container className="max-w-3xl">
+      <Section tone="ivory" rhythm="chapter">
+        <Container>
           <SectionLabel>INCLUDED AND OPTIONAL</SectionLabel>
           <DisplayHeading className="text-black mb-6">You do not have to buy a complete event package</DisplayHeading>
-          <BodyCopy className="mb-5">
-            Some couples already have a planner, a venue team and suppliers. They need the food. Others need more of the hospitality around it.
+          <BodyCopy className="mb-12">
+            Some couples already have a planner, a venue team and suppliers. They need the food. Others need more of the hospitality around it. If a line is optional, it is labelled optional.
           </BodyCopy>
-          <dl className="grid gap-8 sm:grid-cols-2">
-            <div>
-              <dt className="font-inter text-caption uppercase tracking-[0.12em] text-gold-ink mb-2">Always coordinated</dt>
-              <dd className="font-inter text-body-sm text-gray-600 leading-relaxed">{inclusionBuckets.always.join(' · ')}</dd>
-            </div>
-            <div>
-              <dt className="font-inter text-caption uppercase tracking-[0.12em] text-gold-ink mb-2">When the plan says so</dt>
-              <dd className="font-inter text-body-sm text-gray-600 leading-relaxed">{inclusionBuckets.whenAgreed.join(' · ')}</dd>
-            </div>
-            <div>
-              <dt className="font-inter text-caption uppercase tracking-[0.12em] text-gold-ink mb-2">Optional additions</dt>
-              <dd className="font-inter text-body-sm text-gray-600 leading-relaxed">{inclusionBuckets.optional.join(' · ')}</dd>
-            </div>
-            <div>
-              <dt className="font-inter text-caption uppercase tracking-[0.12em] text-gold-ink mb-2">Venue or licensed partners</dt>
-              <dd className="font-inter text-body-sm text-gray-600 leading-relaxed">
-                {inclusionBuckets.venue.join(' · ')}. {inclusionBuckets.partners.join(' · ')}.
-              </dd>
-            </div>
-          </dl>
-          <BodyCopy className="mt-8">
-            If a line is optional, it is labelled optional. Same idea as{' '}
-            <Link to={CATERING_PATHS.overview} className="text-gold-ink underline underline-offset-4 hover:text-gold">
-              catering in Dubai
-            </Link>
-            : start with what you need.
-          </BodyCopy>
+          <div className="grid md:grid-cols-2 gap-8">
+            {includedItems.map((item) => (
+              <div key={item.title} className="border-t border-gray-200 pt-6">
+                <h3 className="font-playfair text-h4 text-black mb-3">{item.title}</h3>
+                <p className="font-inter text-body-sm text-gray-600 leading-relaxed max-w-[52ch]">{item.body}</p>
+              </div>
+            ))}
+          </div>
         </Container>
       </Section>
 
-      <Section tone="ivory" rhythm="chapter">
+      <Section id="pricing" tone="charcoal" rhythm="chapter">
         <Container className="max-w-3xl">
-          <SectionLabel>COST</SectionLabel>
-          <DisplayHeading className="text-black mb-6">What determines wedding catering cost in Dubai?</DisplayHeading>
-          <BodyCopy className="mb-5">
-            Wedding catering in Dubai is custom-quoted. Treat any number you see online, including ours, as a planning estimate until you have a written proposal for your date, venue and guest count.
-          </BodyCopy>
-          <BodyCopy className="mb-5">{hubEstimateSummary}</BodyCopy>
-          <BodyCopy className="mb-5">
-            Every proposal shows 5% VAT as its own line. For the full picture — what moves the number, what often sits outside it, and how to read two quotes side by side — see how a quote is built.
-          </BodyCopy>
-          <Link
-            to={WEDDING_PATHS.cost}
-            className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink hover:text-gold"
-          >
-            Wedding catering cost guide <ArrowRight size={14} aria-hidden />
-          </Link>
+          <SectionLabel tone="dark">PRICING</SectionLabel>
+          <DisplayHeading className="text-white mb-6">Wedding catering Dubai, quoted from the wedding</DisplayHeading>
+          {pricingIntro.map((p) => (
+            <p key={p.slice(0, 32)} className="font-inter text-body text-gray-300 leading-relaxed mb-5 max-w-[65ch]">
+              {p}
+            </p>
+          ))}
+          <p className="font-inter text-body text-gray-300 leading-relaxed mb-5 max-w-[65ch]">
+            A wedding catering price per person Dubai figure only means something once the format is named. Hotels sell wedding catering packages Dubai as a room-and-food bundle. We send an itemised plan instead: food, staff, rentals, extras, VAT.
+          </p>
+          <p className="font-inter text-body text-gray-300 leading-relaxed mb-8 max-w-[65ch]">
+            Wedding buffet catering Dubai for a larger reception usually sits below plated service per guest, because the team is sized differently.
+          </p>
+          <div className="overflow-x-auto mb-8">
+            <table className="w-full text-left font-inter text-body-sm text-gray-300">
+              <thead>
+                <tr className="border-b border-white/15">
+                  <th className="py-3 pr-4 font-medium text-white">Format</th>
+                  <th className="py-3 font-medium text-white">Planning estimate</th>
+                </tr>
+              </thead>
+              <tbody>
+                {estimateBands.map((row) => (
+                  <tr key={row.product} className="border-b border-white/10">
+                    <td className="py-3 pr-4 text-white align-top">{row.product}</td>
+                    <td className="py-3 align-top">{row.estimate}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <ul className="mb-8 space-y-2">
+            {pricingNotes.map((note) => (
+              <li key={note} className="font-inter text-body-sm text-gray-400">
+                {note}
+              </li>
+            ))}
+          </ul>
+          <div className="flex flex-wrap gap-6">
+            <Link
+              to={WEDDING_PATHS.cost}
+              data-track="price_table"
+              className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold hover:text-gold-light"
+            >
+              Wedding catering cost <ArrowRight size={14} aria-hidden />
+            </Link>
+            <Link
+              to="/buffet-vs-plated-dubai"
+              data-track="price_table"
+              className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold hover:text-gold-light"
+            >
+              Buffet vs plated <ArrowRight size={14} aria-hidden />
+            </Link>
+            <Link
+              to={WEDDING_INQUIRY}
+              data-track="price_table"
+              className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold hover:text-gold-light"
+            >
+              Get an itemised quote <ArrowRight size={14} aria-hidden />
+            </Link>
+          </div>
         </Container>
       </Section>
 
-      <Section tone="white" rhythm="chapter">
+      <Section tone="white" rhythm="standard">
+        <Container className="max-w-3xl">
+          <SectionLabel>SMALL WEDDINGS</SectionLabel>
+          <DisplayHeading className="text-black mb-6">{decisionModule.h2}</DisplayHeading>
+          <BodyCopy className="mb-4">
+            Small wedding catering Dubai is not a banquet scaled down. <strong className="text-black">{decisionModule.intimateLead}</strong> {decisionModule.intimateBody}
+          </BodyCopy>
+          <BodyCopy className="mb-4">
+            A nikah catering Dubai brief is the same operation at a smaller table: menu, service and timing still have to hold.
+          </BodyCopy>
+          <BodyCopy className="mb-4">
+            <strong className="text-black">{decisionModule.cateringLead}</strong> {decisionModule.cateringBody}
+          </BodyCopy>
+          <BodyCopy className="mb-5">
+            <strong className="text-black">{decisionModule.eventsLead}</strong> {decisionModule.eventsBody} {decisionModule.dining}
+          </BodyCopy>
+          <div className="flex flex-wrap gap-6">
+            <Link
+              to={decisionModule.chefHref}
+              className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink hover:text-gold"
+            >
+              {decisionModule.chefLabel} <ArrowRight size={14} aria-hidden />
+            </Link>
+            <Link
+              to={decisionModule.cateringHref}
+              className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink hover:text-gold"
+            >
+              {decisionModule.cateringLabel} <ArrowRight size={14} aria-hidden />
+            </Link>
+            <Link
+              to={decisionModule.eventsHref}
+              className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink hover:text-gold"
+            >
+              {decisionModule.eventsLabel} <ArrowRight size={14} aria-hidden />
+            </Link>
+            <Link
+              to={decisionModule.diningHref}
+              className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink hover:text-gold"
+            >
+              {decisionModule.diningLabel} <ArrowRight size={14} aria-hidden />
+            </Link>
+          </div>
+        </Container>
+      </Section>
+
+      <Section id="venues" tone="ivory" rhythm="chapter">
         <Container>
           <SectionLabel>WHERE THE WEDDING HAPPENS</SectionLabel>
           <DisplayHeading className="text-black mb-12">Villa, garden, outdoor — the venue changes the catering</DisplayHeading>
           <EventPathway items={weddingSettings} compact />
-          <p className="mt-12 max-w-[58ch] font-inter text-body text-gray-600 leading-relaxed">
-            For a larger reception we can design the food across several moments: welcome drinks, canapés, dinner, dessert, late-night food, bar. Different parts can use different formats. Palm Jumeirah, Emirates Hills and Dubai Hills each have their own gate and kitchen realities —{' '}
+          <p className="mt-12 max-w-[58ch] font-inter text-body text-gray-600 leading-relaxed mb-5">
+            {WEDDING_SEASON} For a larger reception we can design the food across several moments: welcome drinks, canapés, dinner, dessert, late-night food, bar. Different parts can use different formats.
+          </p>
+          <p className="max-w-[58ch] font-inter text-body text-gray-600 leading-relaxed">
+            Palm Jumeirah, Emirates Hills and Dubai Hills each have their own gate and kitchen realities —{' '}
             <Link to="/locations/palm-jumeirah" className="text-gold-ink underline underline-offset-4 hover:text-gold">
-              Palm
+              Palm Jumeirah
             </Link>
             {', '}
             <Link to="/locations/emirates-hills" className="text-gold-ink underline underline-offset-4 hover:text-gold">
@@ -258,21 +395,21 @@ export default function WeddingCatering() {
         </Container>
       </Section>
 
-      <Section tone="ivory" rhythm="chapter">
+      <Section id="menus" tone="white" rhythm="chapter">
         <Container>
           <SectionLabel>THE MENU</SectionLabel>
           <DisplayHeading className="text-black mb-4">Build the menu around the wedding</DisplayHeading>
           <BodyCopy className="mb-10">
             Some couples know exactly what they want. Others only know the feeling — elegant, relaxed, traditional, modern. Both are enough to start. We look at guest count, format, season, venue, timing, dietary needs and how the food sits in the rest of the day.{' '}
             <Link to={WEDDING_PATHS.menu} className="text-gold-ink underline underline-offset-4 hover:text-gold">
-              Wedding menu planning guide
+              Wedding menu planning
             </Link>
             {' · '}
             <Link to="/dessert-table-catering-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
               Dessert table catering
             </Link>
             {' · '}
-            <Link to={CATERING_PATHS.menus} className="text-gold-ink underline underline-offset-4 hover:text-gold">
+            <Link to="/menus" className="text-gold-ink underline underline-offset-4 hover:text-gold">
               Menus
             </Link>
             .
@@ -286,22 +423,22 @@ export default function WeddingCatering() {
                   to={c.href}
                   className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink hover:text-gold"
                 >
-                  {c.title.replace(' wedding catering', '')} <ArrowRight size={14} aria-hidden />
+                  {c.linkLabel} <ArrowRight size={14} aria-hidden />
                 </Link>
               </article>
             ))}
           </div>
           <p className="mt-10 max-w-[62ch] font-inter text-body text-gray-600 leading-relaxed">
             Mediterranean, Italian, Asian, international and fusion menus sit under the same rule: one coherent meal, not a random collection of dishes.{' '}
-            <Link to={CATERING_PATHS.cuisines} className="text-gold-ink underline underline-offset-4 hover:text-gold">
-              Explore cuisines
+            <Link to="/cuisines-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
+              Menus and cuisines
             </Link>
             .
           </p>
         </Container>
       </Section>
 
-      <Section tone="white" rhythm="chapter">
+      <Section tone="ivory" rhythm="chapter">
         <Container className="max-w-3xl">
           <SectionLabel>DIETARY REQUIREMENTS</SectionLabel>
           <DisplayHeading className="text-black mb-6">Halal, allergies and the rest of the guest list</DisplayHeading>
@@ -315,18 +452,18 @@ export default function WeddingCatering() {
           <BodyCopy>
             {WEDDING_DIETARY} We do not promise an “allergy-safe” environment we cannot guarantee.{' '}
             <Link to="/vegan-catering-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
-              Vegan
+              Vegan catering
             </Link>
             {' · '}
             <Link to="/vegetarian-catering-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
-              Vegetarian
+              Vegetarian catering
             </Link>
             .
           </BodyCopy>
         </Container>
       </Section>
 
-      <Section tone="ivory" rhythm="chapter">
+      <Section tone="white" rhythm="chapter">
         <Container className="max-w-3xl">
           <SectionLabel>STAFF AND BAR</SectionLabel>
           <DisplayHeading className="text-black mb-6">The team should match the wedding</DisplayHeading>
@@ -334,7 +471,7 @@ export default function WeddingCatering() {
             Food can be excellent and still fail if service does not work. Waiters, runners and bartenders are scaled to guest count and format — not because they sit in a package.
           </BodyCopy>
           <BodyCopy>
-            If you need wedding bar service in Dubai, it is planned with the catering so service points, glassware, ice and guest flow make sense together. Venue licensing decides what can be poured.{' '}
+            {WEDDING_ALCOHOL}{' '}
             <Link to="/bar-services-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
               Bar services
             </Link>
@@ -347,13 +484,13 @@ export default function WeddingCatering() {
         </Container>
       </Section>
 
-      <Section tone="white" rhythm="chapter">
+      <Section id="how-it-works" tone="ivory" rhythm="chapter">
         <Container>
           <SectionLabel>HOW IT WORKS</SectionLabel>
           <DisplayHeading className="text-black mb-12">A sequence of decisions, not dozens of disconnected questions</DisplayHeading>
           <SequenceRail steps={weddingProcess} />
           <p className="mt-12 max-w-[58ch] font-inter text-body text-gray-600 leading-relaxed mb-5">
-            {WEDDING_TIMELINE}
+            {WEDDING_TIMELINE} {WEDDING_SETUP}
           </p>
           <p className="max-w-[58ch] font-inter text-body text-gray-600 leading-relaxed">
             Tasting: {WEDDING_TASTING} {WEDDING_FINAL_NUMBERS}{' '}
@@ -365,41 +502,69 @@ export default function WeddingCatering() {
         </Container>
       </Section>
 
-      <Section tone="charcoal" rhythm="chapter">
-        <Container className="max-w-3xl">
-          <SectionLabel tone="dark">SMALL WEDDINGS</SectionLabel>
-          <DisplayHeading className="text-white mb-6">A small wedding should not be a simplified large one</DisplayHeading>
-          <p className="font-inter text-body text-gray-300 leading-relaxed mb-5 max-w-[65ch]">
-            With fewer guests the food can be more personal: a private chef, a longer tasting menu, detailed plating, a sharing dinner. If the table is intimate, you may want{' '}
-            <Link to="/private-chef-dubai" className="text-gold underline underline-offset-4 hover:text-gold-light">
-              private chef Dubai
-            </Link>
-            {' '}or{' '}
-            <Link to="/luxury-dining-experiences" className="text-gold underline underline-offset-4 hover:text-gold-light">
-              private dining
-            </Link>
-            .
-          </p>
-          <p className="font-inter text-body text-gray-300 leading-relaxed max-w-[65ch]">
-            Previous celebrations:{' '}
-            <Link to="/gallery" className="text-gold underline underline-offset-4 hover:text-gold-light">
-              gallery
-            </Link>
-            {' · '}
-            <Link to="/case-studies" className="text-gold underline underline-offset-4 hover:text-gold-light">
+      <Section id="examples" tone="white" rhythm="chapter">
+        <Container>
+          <SectionLabel>HOW THIS LOOKS IN PRACTICE</SectionLabel>
+          <DisplayHeading className="text-black mb-4">A wedding format we have run</DisplayHeading>
+          <BodyCopy className="mb-12">
+            Client names stay private. Location, guest range, format and outcome are from an event already described on our{' '}
+            <Link to="/case-studies" className="text-gold-ink underline underline-offset-4 hover:text-gold">
               case studies
             </Link>
+            {' '}page. Previous celebrations also sit in the{' '}
+            <Link to="/gallery" className="text-gold-ink underline underline-offset-4 hover:text-gold">
+              gallery
+            </Link>
             .
-          </p>
+          </BodyCopy>
+          <div className="grid md:grid-cols-3 gap-8">
+            {exampleEvents.map((item) => (
+              <article key={item.title} className="border border-gray-200 p-6">
+                <h3 className="font-playfair text-h4 text-black mb-2">{item.title}</h3>
+                <p className="font-inter text-caption uppercase tracking-[0.12em] text-gold-ink mb-3">
+                  {item.guests} · {item.venue}
+                </p>
+                <p className="font-inter text-body-sm text-gray-600 leading-relaxed mb-3">{item.setup}</p>
+                <p className="font-inter text-body-sm text-gray-500 leading-relaxed mb-4">{item.outcome}</p>
+                <Link
+                  to={item.href}
+                  className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink hover:text-gold"
+                >
+                  {item.linkLabel} <ArrowRight size={14} aria-hidden />
+                </Link>
+              </article>
+            ))}
+          </div>
         </Container>
       </Section>
 
       <Section tone="ivory" rhythm="chapter">
         <Container>
-          <SectionLabel>THE WEDDING CLUSTER</SectionLabel>
+          <SectionLabel>WHY MYCHEF</SectionLabel>
+          <DisplayHeading className="text-black mb-12">Standards you can open, not slogans</DisplayHeading>
+          <div className="grid md:grid-cols-2 gap-8">
+            {proofItems.map((item) => (
+              <div key={item.title} className="border-t border-gray-200 pt-6">
+                <h3 className="font-playfair text-h4 text-black mb-3">{item.title}</h3>
+                <p className="font-inter text-body-sm text-gray-600 leading-relaxed mb-4 max-w-[52ch]">{item.body}</p>
+                <Link
+                  to={item.href}
+                  className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink hover:text-gold"
+                >
+                  {item.linkLabel} <ArrowRight size={14} aria-hidden />
+                </Link>
+              </div>
+            ))}
+          </div>
+        </Container>
+      </Section>
+
+      <Section tone="white" rhythm="chapter">
+        <Container>
+          <SectionLabel>PLANNING PAGES</SectionLabel>
           <DisplayHeading className="text-black mb-10">Cost, checklist and menu live on their own pages</DisplayHeading>
           <ul className="max-w-3xl divide-y divide-gray-200 border-y border-gray-200">
-            {weddingClusterLinks.map((item) => (
+            {WEDDING_SUPPORTING_GUIDES.map((item) => (
               <li key={item.href}>
                 <Link
                   to={item.href}
@@ -416,11 +581,11 @@ export default function WeddingCatering() {
         </Container>
       </Section>
 
-      <Section tone="white" rhythm="standard">
+      <Section id="faqs" tone="ivory" rhythm="standard">
         <Container className="max-w-[800px]">
-          <SectionLabel align="center">QUESTIONS</SectionLabel>
-          <DisplayHeading className="text-black text-center mb-10">Wedding catering questions</DisplayHeading>
-          <FaqAccordion items={[...weddingFaqs]} />
+          <SectionLabel align="center">BEFORE YOU BOOK</SectionLabel>
+          <DisplayHeading className="text-black text-center mb-10">What should I know before I book the wedding meal?</DisplayHeading>
+          <FaqAccordion items={[...weddingFaqs]} showJumpNav />
         </Container>
       </Section>
 
@@ -428,21 +593,27 @@ export default function WeddingCatering() {
         title="Wedding catering across Dubai"
         subtitle={
           <>
-            Palm Jumeirah, Dubai Marina, Downtown, Jumeirah, Emirates Hills, Dubai Hills and other Dubai locations. Send the venue — the property matters more than the neighbourhood name.
+            Available across Dubai including{' '}
+            <Link to="/locations/palm-jumeirah" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Palm Jumeirah</Link>,{' '}
+            <Link to="/locations/emirates-hills" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Emirates Hills</Link>
+            {' '}and{' '}
+            <Link to="/locations/dubai-hills" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Dubai Hills</Link>
+            . See{' '}
+            <Link to="/locations" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">areas we serve</Link>.
           </>
         }
       />
 
-      <Section tone="dark" rhythm="chapter">
+      <Section id="get-quote" tone="dark" rhythm="chapter">
         <Container className="max-w-3xl">
-          <SectionLabel tone="dark">START WITH THE WEDDING</SectionLabel>
-          <DisplayHeading className="text-white mb-6">You do not need to know exactly what to order</DisplayHeading>
+          <SectionLabel tone="dark">TELL US WHAT YOU ARE PLANNING</SectionLabel>
+          <DisplayHeading className="text-white mb-6">Date, venue and guest count is enough to start</DisplayHeading>
           <p className="font-inter text-body text-gray-300 leading-relaxed mb-8 max-w-[58ch]">
-            Date, venue or area, guest count, format, cuisine, dietary requirements, budget band, and whether you already have a planner. That is enough to begin. We typically reply within 15 minutes during business hours.
+            You do not need to know exactly what to order. Date, venue or area, guest count, format, cuisine, dietary requirements, budget band, and whether you already have a planner. That is enough to begin. We typically reply within 15 minutes during business hours.
           </p>
           <CTAGroup>
             <Link to={WEDDING_INQUIRY} className="btn-primary">
-              Request a quote
+              Get an itemised wedding-catering quote
             </Link>
             <a href={WEDDING_WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-secondary">
               Chat on WhatsApp

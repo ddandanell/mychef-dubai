@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /sushi-catering-dubai
+//     primary:     "sushi catering dubai"
+//     subkeywords: "sushi catering dubai price" · "sushi catering cost per person dubai" · "best sushi catering dubai" · "sushi catering packages dubai" · "sushi catering menu dubai" · "halal sushi catering dubai" · "japanese catering dubai" · "sushi chef at home dubai" · "birthday sushi catering dubai" · "sushi platter dubai" · "sushi caterer dubai" · "private sushi chef dubai"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef } from 'react'
 import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
@@ -178,7 +184,7 @@ const relatedServices = [
     title: 'Pescatarian Catering',
     description: 'Seafood-focused menus with responsibly sourced fish and plant-based accompaniments.',
     image: '/images/pescatarian-catering-dubai-hero.webp',
-    link: '/pescatarian-catering-dubai',
+    link: '/cuisines-dubai',
   },
   {
     title: 'Luxury Dining',
@@ -190,7 +196,7 @@ const relatedServices = [
     title: 'Oyster & Seafood Bar',
     description: 'Freshly shucked oysters, chilled shellfish and caviar for premium events.',
     image: '/images/sushi-catering-dubai-hero.webp',
-    link: '/oyster-bar-dubai',
+    link: '/live-cooking-stations-dubai',
   },
 ]
 
@@ -347,7 +353,7 @@ export default function SushiCatering() {
             Few things draw a room together like a beautifully composed sushi spread. The clean lines of hand-cut sashimi, the gloss of fresh nigiri, the careful balance of a well-built maki roll — sushi is as much about presentation as it is about flavour. At myCHEF Dubai, we treat each platter as a piece of edible craft, slicing premium fish to order and arranging every element with intention so it looks as considered as it tastes.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Whether you are hosting an intimate villa dinner, a cocktail reception, a yacht charter on the marina, or a polished corporate lunch, our chefs can build the experience around you — from a styled sashimi centrepiece to a live sushi chef rolling in front of your guests. Explore the formats below, see how sushi fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>, or browse our <Link to="/pescatarian-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">pescatarian catering</Link> and <Link to="/asian-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Asian catering</Link> menus.
+            Whether you are hosting an intimate villa dinner, a cocktail reception, a yacht charter on the marina, or a polished corporate lunch, our chefs can build the experience around you — from a styled sashimi centrepiece to a live sushi chef rolling in front of your guests. Explore the formats below, see how sushi fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>, or browse our <Link to="/cuisines-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">pescatarian catering</Link> and <Link to="/asian-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Asian catering</Link> menus.
           </p>
         </div>
       </section>
@@ -453,7 +459,7 @@ export default function SushiCatering() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Sushi Catering Questions
+            Sushi Catering Dubai: the questions we get before a booking
           </h2>
 
           <FaqAccordion items={faqs} showJumpNav />
@@ -507,7 +513,7 @@ export default function SushiCatering() {
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
                   <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
-                    Explore <ArrowRight size={14} />
+                    {svc.title} <ArrowRight size={14} />
                   </span>
                 </div>
               </Link>

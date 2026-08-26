@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /
+//     primary:     "private chef and catering dubai"
+//     subkeywords: "luxury catering dubai" · "fine dining at home dubai" · "mychef dubai" · "private chef in dubai" · "top chef offering catering in dubai" · "catering company in uae" · "food catering companies in dubai" · "private chef or catering" · "private chef home catering" · "chef private catering options" · "private chef party catering"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { Link } from 'react-router'
 import SEO from '@/components/SEO'
 import TrustSignalStrip from '@/components/TrustSignalStrip'
@@ -19,8 +25,8 @@ export default function Home() {
   return (
     <>
       <SEO
-        title="Private Chef & Catering Dubai | Villas, Yachts, Events | myCHEF"
-        description="Private chef and catering in Dubai for villas, yachts and homes. Vetted chefs, bespoke menus, halal-first, full service. Quote in 15 minutes."
+        title="Private Chef and Catering Dubai | Villas, Yachts, Events | myCHEF"
+        description="Private chef and catering Dubai villas, yachts and events book through myCHEF — vetted chefs, one contact, designed around the table you are hosting."
         canonicalPath="/"
         ogImage="/images/home-hero.webp"
         preloadHero="/images/home-hero.webp"
@@ -47,11 +53,15 @@ export default function Home() {
       <section className="bg-white py-12">
         <div className="container-custom max-w-[900px] text-center">
           <p className="font-inter text-body text-gray-500 leading-relaxed">
-            Looking for something different? Explore{' '}
-            <Link to="/gift-cards" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">myCHEF gift cards</Link>,
-            {' '}book a <Link to="/private-cooking-classes-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private cooking class in Dubai</Link>,
-            {' '}or join the <Link to="/vip-club" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">VIP Club</Link> for priority access and exclusive menus.
-            {' '}For your main event, browse <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
+            Start with{' '}
+            <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef</Link>
+            {', '}
+            <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">catering</Link>
+            {', '}
+            <Link to="/events" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">events</Link>
+            {' or '}
+            <Link to="/weekly-meal-prep-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">weekly meal prep</Link>
+            . Fine dining at home in Dubai is the same house: one brief, one team, one table.
           </p>
         </div>
       </section>

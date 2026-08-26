@@ -23,3 +23,5 @@ tmp/
 AGENTS.md
 docs/skills/
 skills/
+__pycache__/
+public/seo/

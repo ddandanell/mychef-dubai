@@ -1,526 +1,330 @@
-import { useRef } from 'react'
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /yachts
+//     primary:     "yacht catering dubai"
+//     subkeywords: "yacht chef dubai" · "private chef yacht dubai" · "boat catering dubai" · "yacht party catering dubai" · "chef for yacht charter dubai" · "yacht catering packages dubai" · "new year yacht catering dubai" · "small yacht catering dubai" · "yacht catering dubai harbour" · "yacht dinner cruise dubai" · "food to bring on a yacht party"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { Link } from 'react-router'
-import { ChevronRight, Utensils, GlassWater, Flame, UtensilsCrossed, Ship, Sunrise, Check, Phone, MapPin, Anchor, } from 'lucide-react'
-import gsap from 'gsap'
-import { useScrollTrigger } from '@/hooks/useScrollTrigger'
-import { useGSAP } from '@gsap/react'
-import SEO from '@/components/SEO'
-import PageHero from '@/components/PageHero'
-import TrustSignalStrip from '@/components/TrustSignalStrip'
-import LocationStrip from '@/components/LocationStrip'
-import FaqAccordion from '@/components/FaqAccordion'
-import { plainFaqAnswer } from '@/utils/schema'
+import { ArrowRight } from 'lucide-react'
+import SEO from '../components/SEO'
+import PageHero from '../components/PageHero'
+import TrustSignalStrip from '../components/TrustSignalStrip'
+import LocationStrip from '../components/LocationStrip'
+import {
+  Section,
+  Container,
+  SectionLabel,
+  DisplayHeading,
+  BodyCopy,
+  SequenceRail,
+  CTAGroup,
+} from '../components/system'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
-import { deferNonCritical } from '../lib/deferNonCritical'
-import { SectionLabel } from '../components/system'
+import { CATERING_INQUIRY_HREF, CATERING_PATHS } from '@/content/cateringCluster'
 
+const PATH = CATERING_PATHS.yachts
+const HERO = '/images/yacht-catering-dubai-hero.webp'
+const WHATSAPP_MESSAGE =
+  "Hi myCHEF Dubai, I'd like yacht catering. Charter date: __, Marina: __, Guests: __, Format: __ (via mychef.ae/yachts)"
+const WHATSAPP_LINK = `https://wa.me/971551744849?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`
 
-const WHATSAPP_NUMBER = '971551744849'
-const WHATSAPP_MESSAGE = encodeURIComponent("Hi myCHEF Dubai, I'd like yacht catering. Charter date: __, Marina: __, Guests: __, Format: __ (via mychef.ae/yachts)")
-const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
+/** pages["/yachts"].internal_linking.siblings — render exactly. */
+const SIBLINGS = [
+  { href: '/yacht-catering-guide-dubai', label: 'Yacht catering guide' },
+  { href: '/yacht-catering-checklist-dubai', label: 'Yacht catering checklist' },
+  { href: '/blog/yacht-party-menu-ideas-dubai', label: 'Yacht party menu ideas' },
+  { href: '/bar-services-dubai', label: 'Bar services' },
+  { href: '/locations/dubai-marina', label: 'Dubai Marina' },
+] as const
 
-const yachtServices = [
-  { icon: Utensils, title: 'Yacht Private Chef', desc: 'A dedicated chef on board for your voyage. Multi-course dining prepared fresh in the yacht galley with the Dubai skyline as your backdrop.', link: '/private-chef-dubai' },
-  { icon: GlassWater, title: 'Cocktail Party', desc: 'Sophisticated passed canapes and appetizers for yacht cocktail receptions and sunset cruises. Elegant, effortless entertaining.', link: '/cocktail-party-catering-dubai' },
-  { icon: Flame, title: 'BBQ on Deck', desc: 'Premium BBQ dining on deck. Partner-chef-led grilling station with premium cuts, fresh seafood, and Mediterranean-inspired sides.', link: '/bbq-catering-dubai' },
-  { icon: UtensilsCrossed, title: 'Formal Yacht Dinner', desc: 'Multi-course plated dinner service on your yacht. White-glove service, stunning presentation, and an unforgettable atmosphere.', link: '/luxury-dining-experiences' },
-  { icon: Ship, title: 'Yacht Event Catering', desc: 'fully-coordinated catering for yacht parties and events. Canapes, buffet, plated options — we scale to your guest count.', link: '/events' },
-  { icon: Sunrise, title: 'Sunrise & Sunset Brunch', desc: 'Elegant brunch service for morning or evening yacht cruises. Fresh, light, and beautifully presented for any time of day.', link: '/brunch-catering-dubai' },
-]
+const BOARDING = [
+  { href: '/locations/dubai-marina', label: 'Dubai Marina' },
+  { href: '/locations/palm-jumeirah', label: 'Palm Jumeirah' },
+  { href: '/locations/jbr', label: 'JBR' },
+] as const
 
-const yachtRoutes = [
-  'Dubai Marina',
-  'Palm Jumeirah',
-  'Burj Al Arab',
-  'Atlantis The Palm',
-  'World Islands',
-  'Dubai Creek',
-  'JBR',
-  'Bluewaters Island',
-  'Dubai Harbour',
-]
+const formats = [
+  {
+    title: 'Chef on board',
+    body: 'A chef cooks in the galley for the hours you have the vessel. Plates come out as you cruise. This is still a charter-day brief, not a household chef plan.',
+  },
+  {
+    title: 'Standing food and canapés',
+    body: 'Passed bites and platters that guests can hold on a moving deck. Useful when people are standing, swimming, or moving between saloon and bow.',
+  },
+  {
+    title: 'Grill on deck',
+    body: 'A compact grill when the captain allows it and there is a safe patch of deck. Seafood, cuts and sides, finished in the open air rather than a land buffet.',
+  },
+  {
+    title: 'Seated dinner',
+    body: 'Courses at a table in the saloon or on the aft deck. Timing has to match the route and the swell, not a restaurant pass.',
+  },
+  {
+    title: 'A larger day on the water',
+    body: 'More guests, more staff, a mix of canapés, a grill and a dessert. The headcount and the vessel decide the team, not a named package.',
+  },
+  {
+    title: 'Morning or sunset brunch',
+    body: 'Lighter food for a shorter cruise. Fruit, eggs, bakery, cold seafood — whatever the galley and the hour can actually support.',
+  },
+] as const
 
-const yachtFeatures = [
-  { title: 'Maritime-Experienced Chefs', desc: 'Our yacht chefs are specifically trained for cooking at sea — they understand galley constraints and plan accordingly.' },
-  { title: 'Compact Kitchen Expertise', desc: 'We bring portable equipment and techniques optimized for small yacht galleys. No dish is beyond our reach.' },
-  { title: 'Weather-Adaptive Menus', desc: 'Hot day? Cool, refreshing dishes. Evening breeze? Warm, comforting courses. We adapt to conditions.' },
-  { title: 'Dock-to-Deck Service', desc: 'we design and manage the experience from provisioning at the marina to plating on deck. Seamless, start to finish.' },
-]
-
-const galleryImages = [
-  '/service-yacht.webp',
-  '/service-luxury-dining.webp',
-  '/menu-seafood.webp',
-  '/menu-cocktails.webp',
-  '/service-events.webp',
-  '/testimonial-yacht.webp',
-]
-
-const faqItems = [
-  {
-    q: 'Can your chef work in a yacht galley?',
-    a: 'Yes. Our yacht chefs are experienced in working with yacht galleys of all sizes and configurations. They bring specialized compact equipment and plan menus that work beautifully within the unique constraints of on-board kitchens.',
-  },
-  {
-    q: 'What yacht sizes do you cater?',
-    a: 'From intimate 40-foot yachts to 200+ foot superyachts. We scale our chefs and service to match your vessel. Whether it is a romantic dinner for two or a celebration for fifty, we deliver the same exceptional standard.',
-  },
-  {
-    q: 'Do you provide service staff for yachts?',
-    a: 'Yes. We provide professional service staff, bartenders, and event coordination as needed for your yacht event. Every detail is handled so you can focus on enjoying your time on the water.',
-  },
-  {
-    q: 'Can you cater at Dubai Marina?',
-    a: 'Absolutely. Dubai Marina is one of our primary service areas for yacht catering. We are familiar with marina logistics, provisioning access, and all operational requirements for seamless service.',
-  },
-  {
-    q: 'What cuisines work best on a yacht?',
-    a: 'We recommend seafood-focused menus, Mediterranean cuisine, and light, fresh dishes that suit the maritime setting. Of course, every menu is fully customized to your preferences — from Japanese omakase to classic French tasting menus.',
-  },
-  {
-    q: 'How much is yacht catering in Dubai?',
-    a: 'Yacht catering is custom-quoted based on guest count, menu, and route. Prices typically start from around AED 150 per person for canapé and BBQ packages, with plated and premium seafood menus priced higher. Share your date and yacht details for a tailored figure.',
-  },
-  {
-    q: 'Can you cater a yacht for 2 people in Dubai?',
-    a: 'Yes. We arrange intimate yacht dinners for two, with a private chef preparing a multi-course meal in the galley as you cruise past [Dubai Marina](/locations/dubai-marina) or [Palm Jumeirah](/locations/palm-jumeirah).',
-  },
-  {
-    q: 'What menus work best on a yacht in Dubai?',
-    a: 'Light, fresh menus work best: seafood, Mediterranean mezze, canapés, and [BBQ](/bbq-catering-dubai). We avoid overly complex preparations and design dishes that travel and plate well in a galley, so the food matches the setting.',
-  },
-  {
-    q: 'Is yacht catering food-only or do you provide the yacht?',
-    a: 'We provide the food, chef, and service crew. You arrange the yacht charter directly, and we coordinate boarding time, galley access, and route with your captain. This keeps you free to choose the vessel and itinerary you prefer.',
-  },
-  {
-    q: 'Can you cater at Dubai Marina and Palm Jumeirah?',
-    a: 'Yes. [Dubai Marina](/locations/dubai-marina) and [Palm Jumeirah](/locations/palm-jumeirah) are our most requested yacht boarding points. We also serve [Dubai Harbour](/locations), [JBR](/locations/jbr), [Bluewaters Island](/locations/bluewaters-island), and Dubai Creek.',
-  },
-  {
-    q: 'Do you offer BBQ catering on a yacht?',
-    a: 'Yes. A [BBQ on deck](/bbq-catering-dubai) is one of our most popular yacht formats, with a chef-led grilling station serving premium cuts and fresh seafood while you cruise the Dubai coastline.',
-  },
-]
-
-const relatedServices = [
-  { label: 'Private Chef Dubai', href: '/private-chef-dubai' },
-  { label: 'Luxury Dining Experiences', href: '/luxury-dining-experiences' },
-  { label: 'Villa Private Chef', href: '/villas-private-residences' },
-  { label: 'Event Catering', href: '/events' },
-  { label: 'Oyster & Seafood Bar', href: '/oyster-bar-dubai' },
-]
-
-const breadcrumbSchema = {
+const schema = {
   '@context': 'https://schema.org',
-  '@type': 'BreadcrumbList',
-  itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.mychef.ae/' },
-    { '@type': 'ListItem', position: 2, name: 'Yachts', item: 'https://www.mychef.ae/yachts' },
+  '@graph': [
+    {
+      '@type': 'Service',
+      '@id': 'https://www.mychef.ae/yachts#service',
+      name: 'Yacht Catering Dubai',
+      serviceType: 'Yacht Catering',
+      description:
+        'Yacht Catering Dubai with a myCHEF chef and service team. Menus, marina loading, galley service and clear-down on a vessel you charter separately.',
+      url: 'https://www.mychef.ae/yachts',
+      provider: { '@id': 'https://www.mychef.ae/#organization' },
+      areaServed: { '@type': 'City', name: 'Dubai' },
+    },
+    {
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.mychef.ae/' },
+        { '@type': 'ListItem', position: 2, name: 'Private chef', item: 'https://www.mychef.ae/private-chef-dubai' },
+        { '@type': 'ListItem', position: 3, name: 'Yacht catering', item: 'https://www.mychef.ae/yachts' },
+      ],
+    },
   ],
 }
 
-const serviceSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'Service',
-  name: 'Yacht Catering Dubai',
-  description: 'Premium yacht catering and private chef services in Dubai. Dining on your yacht with Dubai Marina and Palm Jumeirah as your backdrop.',
-  provider: {
-    '@type': 'Organization',
-    '@id': 'https://www.mychef.ae/#organization',
-    name: 'myCHEF',
-    url: 'https://www.mychef.ae',
-    telephone: '+971 55 174 4849',
-  },
-  areaServed: {
-    '@type': 'Place',
-    name: 'Dubai, UAE',
-  },
-  serviceType: 'Yacht Catering',
-  url: 'https://www.mychef.ae/yachts',
-}
-
-const faqPageSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'FAQPage',
-  mainEntity: faqItems.map((item) => ({
-    '@type': 'Question',
-    name: item.q,
-    acceptedAnswer: {
-      '@type': 'Answer',
-      text: plainFaqAnswer(item.a),
-    },
-  })),
-}
-
-const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'd like yacht catering. Charter date: __, Marina: __, Guests: __, Format: __ (via mychef.ae/yachts)"
 export default function Yachts() {
-  useScrollTrigger()
-  useWhatsAppMessage(PAGE_WHATSAPP_MESSAGE)
-  const containerRef = useRef<HTMLDivElement>(null)
-
-  useGSAP(() => {
-    const ctx = gsap.context(() => {
-      // Defer below-the-fold ScrollTrigger animations so they do not contend
-      // with LCP/INP during the initial load.
-      deferNonCritical(() => {
-        // Service cards
-        gsap.from('.yacht-service-card', {
-          opacity: 0, y: 50, duration: 0.8, stagger: 0.1, ease: 'power3.out',
-          scrollTrigger: { trigger: '.yacht-services-grid', start: 'top 85%', toggleActions: 'play none none none' },
-        })
-
-        // Yacht experience content
-        gsap.from('.yacht-exp-left', {
-          opacity: 0, x: -30, duration: 0.8, ease: 'power3.out',
-          scrollTrigger: { trigger: '.yacht-experience-section', start: 'top 85%', toggleActions: 'play none none none' },
-        })
-        gsap.from('.yacht-exp-right', {
-          opacity: 0, x: 30, duration: 0.8, ease: 'power3.out', delay: 0.15,
-          scrollTrigger: { trigger: '.yacht-experience-section', start: 'top 85%', toggleActions: 'play none none none' },
-        })
-
-        // Route tags
-        gsap.from('.route-tag', {
-          opacity: 0, scale: 0.9, duration: 0.5, stagger: 0.05, ease: 'power3.out',
-          scrollTrigger: { trigger: '.routes-section', start: 'top 85%', toggleActions: 'play none none none' },
-        })
-
-        // Features
-        gsap.from('.yacht-feature', {
-          opacity: 0, y: 30, duration: 0.6, stagger: 0.12, ease: 'power3.out',
-          scrollTrigger: { trigger: '.yacht-features-grid', start: 'top 85%', toggleActions: 'play none none none' },
-        })
-
-        // Gallery
-        gsap.from('.gallery-item', {
-          opacity: 0, y: 30, duration: 0.6, stagger: 0.08, ease: 'power3.out',
-          scrollTrigger: { trigger: '.gallery-grid', start: 'top 85%', toggleActions: 'play none none none' },
-        })
-
-        // Testimonial
-        gsap.from('.yacht-testimonial', {
-          opacity: 0, y: 30, duration: 0.8, ease: 'power3.out',
-          scrollTrigger: { trigger: '.yacht-testimonial', start: 'top 85%', toggleActions: 'play none none none' },
-        })
-
-        // CTA
-        gsap.from('.yachts-cta-content', {
-          opacity: 0, y: 30, duration: 0.8, ease: 'power3.out',
-          scrollTrigger: { trigger: '.yachts-cta-section', start: 'top 85%', toggleActions: 'play none none none' },
-        })
-      })
-    }, containerRef)
-
-    return () => ctx.revert()
-  }, { scope: containerRef })
+  useWhatsAppMessage(WHATSAPP_MESSAGE)
 
   return (
-    <div ref={containerRef}>
+    <div>
       <SEO
-        title="Yacht Catering Dubai | 2–50 Guests, From AED 150pp | myCHEF"
-        description="Yacht catering and private chef service in Dubai Marina, Palm Jumeirah & JBR. Bespoke menus, seafood & canapés, full crew. Request a tailored quote."
-        canonicalPath="/yachts"
-        ogImage="/service-yacht.webp"
+        title="Yacht Catering Dubai | Chef & Crew for Charter Days | myCHEF"
+        description="Yacht Catering Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table."
+        canonicalPath={PATH}
+        ogImage={HERO}
         hideSiteName
-        preloadHero="/images/yacht-catering-dubai-hero.webp"
-        schema={{
-          '@context': 'https://schema.org',
-          '@graph': [serviceSchema, breadcrumbSchema, faqPageSchema],
-        }}
+        preloadHero={HERO}
+        schema={schema}
       />
 
-      {/* Section 1: Hero */}
       <PageHero
-        eyebrow="YACHT CATERING"
-        title="Yacht Catering Dubai — Private Chef On Board"
-        subtitle="Private chef and catering on board in Dubai Marina, Palm Jumeirah & JBR. Food & service only — yacht charter is booked separately."
-        image="/images/yacht-catering-dubai-hero.webp"
-        imageAlt="Yacht catering in Dubai"
+        eyebrow="Charter days"
+        title="Yacht Catering Dubai"
+        subtitle="Yacht Catering Dubai with a chef and crew for the charter day. You book the yacht. We handle menus, marina loading, galley service and clear-down so you stay a guest at the table."
+        image={HERO}
+        imageAlt="Chef and service on a Dubai yacht deck at dusk. Experience concept shown."
         imageWidth={1344}
         imageHeight={752}
-        cta={{ label: 'Get a Yacht Catering Quote', href: '/inquiry' }}
+        align="left"
+        cta={{ label: 'Get a yacht catering quote', href: CATERING_INQUIRY_HREF }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
-        breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Yachts' }]}
-        minHeight="tall"
+        breadcrumb={[
+          { label: 'Home', href: '/' },
+          { label: 'Private chef', href: '/private-chef-dubai' },
+          { label: 'Yacht catering' },
+        ]}
+        minHeight="full"
         overlay="dark"
       />
+      <TrustSignalStrip />
 
-      <TrustSignalStrip variant="dark" />
+      <Section tone="ivory" rhythm="chapter">
+        <Container className="max-w-3xl">
+          <SectionLabel>WHAT THIS IS</SectionLabel>
+          <DisplayHeading className="text-black mb-6">You charter the yacht. We do the food.</DisplayHeading>
+          <BodyCopy className="mb-5">
+            We do not supply the vessel. You arrange the charter, or you already own the boat. We bring the food, the chef and the people who serve it, then we clear the galley before you dock — or whenever the crew asks us to be off.
+          </BodyCopy>
+          <BodyCopy className="mb-5">
+            A private chef yacht Dubai brief is still one day or one evening on the water. It is not a standing household plan. If you want the same chef in a home, week after week, that is{' '}
+            <Link to="/private-chef-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
+              Private chef
+            </Link>
+            .
+          </BodyCopy>
+          <BodyCopy>
+            This page sits inside{' '}
+            <Link to="/catering-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
+              Luxury catering in Dubai
+            </Link>
+            . If the night is on land — a villa, a garden, an office — start with{' '}
+            <Link to="/events" className="text-gold-ink underline underline-offset-4 hover:text-gold">
+              Event catering in Dubai
+            </Link>
+            .
+          </BodyCopy>
+        </Container>
+      </Section>
 
-      {/* Section 2: Yacht Services */}
-      <section className="bg-white section-padding">
-        <div className="container-custom">
-          <div className="text-center mb-16">
-            <SectionLabel align="center">YACHT DINING</SectionLabel>
-            <h2 className="font-playfair text-h2 text-black" style={{ lineHeight: '1.15' }}>
-              Culinary Experiences on the Water
-            </h2>
-          </div>
-          <div className="yacht-services-grid grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {yachtServices.map((service) => (
-              <Link
-                key={service.title}
-                to={service.link}
-                className="yacht-service-card group block p-8 border border-gray-200 hover:border-gold transition-all duration-300 bg-white"
-              >
-                <div className="w-12 h-12 flex items-center justify-center mb-4 transition-colors" style={{ background: 'rgba(200,164,92,0.1)' }}>
-                  <service.icon size={22} className="text-gold" />
-                </div>
-                <h3 className="font-playfair text-h4 text-black mb-3 group-hover:text-gold transition-colors">{service.title}</h3>
-                <p className="font-inter text-body-sm text-gray-500" style={{ lineHeight: '1.7' }}>{service.desc}</p>
-              </Link>
+      <Section tone="white" rhythm="chapter">
+        <Container>
+          <SectionLabel>ON THE WATER</SectionLabel>
+          <DisplayHeading className="text-black mb-6">How yacht catering Dubai is planned around the galley</DisplayHeading>
+          <BodyCopy className="mb-12">
+            A yacht chef Dubai assignment is whoever can work that galley: smaller than a villa kitchen, fridge already half full of crew food, loading only when the marina opens the door. The menu has to survive that, or it should not be on the menu.
+          </BodyCopy>
+          <SequenceRail
+            steps={[
+              'Send the charter date, marina or berth, guest count, format, and anything you know about the galley.',
+              'We plan what can be finished on land and what can honestly be cooked on board. Fridge space and oven space decide more than taste notes.',
+              'Loading happens in the window the captain sets. Crates, ice, kit and people go on at the marina — not when it happens to suit a van.',
+              'Service on deck or in the saloon, then clear-down before you return, or at the time the crew agrees.',
+            ]}
+          />
+          <BodyCopy className="mt-12">
+            A chef for yacht charter Dubai needs the boarding time and the captain's contact, not a mood board. Boat catering Dubai is the same job with a different search: food planned for a moving deck.
+          </BodyCopy>
+        </Container>
+      </Section>
+
+      <Section tone="ivory" rhythm="chapter">
+        <Container>
+          <SectionLabel>FORMATS</SectionLabel>
+          <DisplayHeading className="text-black mb-4">What we can cook and serve on board</DisplayHeading>
+          <BodyCopy className="mb-12">
+            Light food holds up better in heat and swell: seafood, mezze, canapés, a grill if the deck allows it. Yacht party catering Dubai is the larger version of the same rules — more guests, more staff, still no dishes that only work in a restaurant pass.
+          </BodyCopy>
+          <div className="grid md:grid-cols-2 gap-x-12 border-t border-gray-200">
+            {formats.map((fmt) => (
+              <article key={fmt.title} className="border-b border-gray-200 py-6">
+                <h3 className="font-playfair text-h4 text-black mb-2">{fmt.title}</h3>
+                <p className="font-inter text-body-sm text-gray-600 leading-relaxed max-w-[52ch]">{fmt.body}</p>
+              </article>
             ))}
           </div>
-        </div>
-      </section>
+          <BodyCopy className="mt-10">
+            Drinks sit with{' '}
+            <Link to="/bar-services-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
+              Bar services
+            </Link>
+            {' '}when the operator allows alcohol and you want a bar on deck. Menu ideas that actually travel are on{' '}
+            <Link to="/blog/yacht-party-menu-ideas-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
+              Yacht party menu ideas
+            </Link>
+            .
+          </BodyCopy>
+        </Container>
+      </Section>
 
-      {/* Section 3: The Yacht Experience */}
-      <section className="yacht-experience-section bg-black section-padding">
-        <div className="container-custom">
-          <div className="text-center mb-16">
-            <SectionLabel align="center" tone="dark">ON BOARD</SectionLabel>
-            <h2 className="font-playfair text-h2 text-white" style={{ lineHeight: '1.15' }}>
-              Dining with the Dubai Skyline
-            </h2>
-          </div>
-          <div className="grid lg:grid-cols-2 gap-16 items-start">
-            <div className="yacht-exp-left">
-              <h3 className="font-playfair text-h3 text-white mb-6" style={{ lineHeight: '1.2' }}>
-                Why Yacht Dining Is Special
-              </h3>
-              <div className="space-y-4 font-inter text-body text-gray-400" style={{ lineHeight: '1.7' }}>
-                <p>There is nothing quite like dining on the water with Dubai&apos;s iconic skyline as your backdrop. Whether you are anchored off <Link to="/locations/palm-jumeirah" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Palm Jumeirah</Link>, cruising past Burj Al Arab, or watching the sunset over <Link to="/locations/dubai-marina" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Dubai Marina</Link> — a <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef</Link> elevates the experience to something truly extraordinary.</p>
-                <p>Our yacht chef services are designed around the unique challenges and opportunities of cooking at sea. We plan menus that work beautifully in a yacht galley, source ingredients that travel well, and present each course with the same precision you would expect in a fine dining restaurant. We board at <Link to="/locations/dubai-marina" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Dubai Marina</Link>, <Link to="/locations/palm-jumeirah" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Palm Jumeirah</Link>, <Link to="/locations/bluewaters-island" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Bluewaters Island</Link>, and Dubai Harbour. For inspiration, explore our <Link to="/blog/yacht-party-menu-ideas-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">yacht party menu ideas</Link> or browse <Link to="/luxury-dining-experiences" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury dining experiences</Link> for your next celebration.</p>
-              </div>
-            </div>
-            <div className="yacht-exp-right">
-              <div className="yacht-features-grid space-y-6">
-                {[
-                  'Experienced in yacht galleys of all sizes',
-                  'Menus designed for on-board preparation',
-                  'Premium seafood & ingredients sourced fresh',
-                  'Complete setup & cleanup included',
-                ].map((item, i) => (
-                  <div key={i} className="yacht-feature flex items-start gap-4">
-                    <div className="w-8 h-8 flex items-center justify-center flex-shrink-0" style={{ background: 'rgba(200,164,92,0.1)' }}>
-                      <Check size={16} className="text-gold" />
-                    </div>
-                    <span className="font-inter text-body text-gray-400">{item}</span>
-                  </div>
-                ))}
-              </div>
-              <div className="mt-10 p-6 border border-charcoal-light">
-                <div className="flex items-center gap-3 mb-3">
-                  <Anchor size={18} className="text-gold" />
-                  <h4 className="font-playfair text-h4 text-white">Available at All Dubai Marinas</h4>
-                </div>
-                <p className="font-inter text-body-sm text-gray-400" style={{ lineHeight: '1.6' }}>
-                  Dubai Marina, Palm Jumeirah, Dubai Harbour, Dubai Creek, and Jumeirah — we serve yachts at every marina and anchorage across the city.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <Section tone="white" rhythm="chapter">
+        <Container className="max-w-3xl">
+          <SectionLabel>THE QUOTE</SectionLabel>
+          <DisplayHeading className="text-black mb-6">What the quote is built from</DisplayHeading>
+          <BodyCopy className="mb-5">
+            Hosts looking for yacht catering packages Dubai get a written proposal, not a brochure of named deals. Guest count, menu, hours on board, staff, boarding marina and galley capacity are what build it.
+          </BodyCopy>
+          <BodyCopy className="mb-5">
+            Food, chef, service staff when the headcount needs them, setup and clear-down are in the proposal when they are in the brief. The yacht, fuel, marina fees and charter are yours.
+          </BodyCopy>
+          <BodyCopy>
+            Share the date, the marina, the guest count and the format. That is enough to start. The{' '}
+            <Link to="/yacht-catering-checklist-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
+              Yacht catering checklist
+            </Link>
+            {' '}is the list of what we will ask; the{' '}
+            <Link to="/yacht-catering-guide-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
+              Yacht catering guide
+            </Link>
+            {' '}is the longer explanation of galley limits and routes.
+          </BodyCopy>
+        </Container>
+      </Section>
 
-      {/* Section 4: Routes & Locations */}
-      <section className="routes-section bg-cream py-20">
-        <div className="max-w-[1000px] mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="font-playfair text-h2 text-black" style={{ lineHeight: '1.15' }}>
-              we coordinate catering for Yachts Across Dubai
-            </h2>
-            <p className="font-inter text-body text-gray-500 mt-4 max-w-xl mx-auto">
-              From Dubai Marina to the World Islands — our yacht chefs serve every waterway in the city.
-            </p>
-          </div>
-          <div className="flex flex-wrap justify-center gap-4">
-            {yachtRoutes.map((route) => (
-              <span
-                key={route}
-                className="route-tag inline-flex items-center gap-2 px-5 py-2.5 font-inter text-body-sm text-black bg-white border border-gray-200 hover:border-gold transition-all duration-300"
-              >
-                <MapPin size={14} className="text-gold" />
-                {route}
-              </span>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Section 4b: Yacht Catering Locations */}
-      <section className="bg-cream section-padding">
-        <div className="container-custom">
-          <div className="text-center mb-12">
-            <SectionLabel align="center">LOCATIONS</SectionLabel>
-            <h2 className="font-playfair text-h2 text-black" style={{ lineHeight: '1.15' }}>
-              Yacht Catering Locations
-            </h2>
-            <p className="font-inter text-body text-gray-500 mt-4 max-w-xl mx-auto">
-              We board at Dubai&apos;s premier marinas and yacht destinations.
-            </p>
-          </div>
-          <div className="grid md:grid-cols-3 gap-6 max-w-[1000px] mx-auto">
-            {[
-              { label: 'Dubai Marina', href: '/locations/dubai-marina' },
-              { label: 'Palm Jumeirah', href: '/locations/palm-jumeirah' },
-              { label: 'Bluewaters Island', href: '/locations/bluewaters-island' },
-            ].map((loc) => (
+      <Section tone="ivory" rhythm="chapter">
+        <Container>
+          <SectionLabel>BOARDING</SectionLabel>
+          <DisplayHeading className="text-black mb-4">Where we board</DisplayHeading>
+          <BodyCopy className="mb-10">
+            Most charters we cook for board at Dubai Marina, Palm Jumeirah or JBR. We also load where the vessel actually is — Dubai Harbour, Dubai Creek, Bluewaters — when the captain gives us a window.
+          </BodyCopy>
+          <div className="grid md:grid-cols-3 gap-6 max-w-[1000px]">
+            {BOARDING.map((loc) => (
               <Link
                 key={loc.href}
                 to={loc.href}
-                className="group flex items-center justify-between p-6 border border-gray-200 hover:border-gold transition-all duration-300 bg-white"
+                className="group flex items-center justify-between border border-gray-200 bg-white p-6 transition-colors hover:border-gold"
               >
-                <span className="font-playfair text-h4 text-black group-hover:text-gold transition-colors">{loc.label}</span>
-                <ChevronRight size={18} className="text-gold" />
+                <span className="font-playfair text-h4 text-black group-hover:text-gold-ink">{loc.label}</span>
+                <ArrowRight size={16} className="text-gold-ink" aria-hidden />
               </Link>
             ))}
           </div>
-        </div>
-      </section>
-
-      {/* Section 5: Features */}
-      <section className="bg-white section-padding">
-        <div className="container-custom">
-          <div className="text-center mb-16">
-            <SectionLabel align="center">OUR EXPERTISE</SectionLabel>
-            <h2 className="font-playfair text-h2 text-black" style={{ lineHeight: '1.15' }}>
-              Built for Yacht Dining
-            </h2>
-          </div>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {yachtFeatures.map((feat) => (
-              <div key={feat.title} className="text-center">
-                <div className="w-16 h-16 mx-auto mb-4 flex items-center justify-center" style={{ background: 'rgba(200,164,92,0.1)' }}>
-                  <Anchor size={24} className="text-gold" />
-                </div>
-                <h3 className="font-playfair text-h4 text-black mb-2">{feat.title}</h3>
-                <p className="font-inter text-body-sm text-gray-500" style={{ lineHeight: '1.7' }}>{feat.desc}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Section 6: Gallery */}
-      <section className="bg-black py-20">
-        <div className="container-custom">
-          <div className="text-center mb-12">
-            <SectionLabel align="center" tone="dark">GALLERY</SectionLabel>
-            <h2 className="font-playfair text-h2 text-white" style={{ lineHeight: '1.15' }}>
-              On-Board Dining Moments
-            </h2>
-          </div>
-          <div className="gallery-grid grid grid-cols-2 md:grid-cols-3 gap-4">
-            {galleryImages.map((img, i) => (
-              <div key={i} className="gallery-item relative overflow-hidden group aspect-[4/3]">
-                <img src={img} alt={`Yacht dining gallery ${i + 1}`} width={400} height={300} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" decoding="async" loading="lazy"/>
-                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300" />
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Section 7: Yacht Trust CTA */}
-      <section className="bg-charcoal py-20">
-        <div className="yacht-testimonial max-w-[800px] mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="text-gold text-4xl font-playfair mb-6">&ldquo;</div>
-          <h2 className="font-playfair text-h3 text-white mb-6" style={{ lineHeight: '1.3' }}>
-            Make your next yacht charter unforgettable with a private chef on board.
-          </h2>
-          <p className="font-inter text-body text-gray-400 mb-6">
-            We are collecting verified reviews from yacht charter guests. Share your experience and receive AED 50 credit towards your next booking.
+          <p className="mt-8">
+            <Link
+              to="/locations"
+              className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink hover:text-gold"
+            >
+              Areas we serve <ArrowRight size={14} aria-hidden />
+            </Link>
           </p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/review" className="btn-primary">Leave a Review</Link>
-            <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-secondary">Chat on WhatsApp</a>
-          </div>
-        </div>
-      </section>
+        </Container>
+      </Section>
 
-      {/* Section 8: FAQ */}
-      <section className="bg-white section-padding">
-        <div className="max-w-[800px] mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <SectionLabel align="center">FAQ</SectionLabel>
-            <h2 className="font-playfair text-h2 text-black" style={{ lineHeight: '1.15' }}>
-              Common Questions About Yacht Catering
-            </h2>
-          </div>
-          <FaqAccordion items={faqItems} showJumpNav />
-        </div>
-      </section>
-
-      {/* Section 9: Related Services */}
-      <section className="bg-cream py-16">
-        <div className="container-custom">
-          <div className="flex flex-wrap items-center justify-center gap-4">
-            <span className="font-inter text-body-sm text-gray-500 mr-2">Explore related services:</span>
-            {relatedServices.map((svc) => (
-              <Link
-                key={svc.href}
-                to={svc.href}
-                className="inline-flex items-center gap-1 px-4 py-2 font-inter text-body-sm text-black border border-gray-200 hover:border-gold hover:text-gold transition-all duration-300 bg-white"
-              >
-                {svc.label}
-                <ChevronRight size={14} />
-              </Link>
+      <Section tone="white" rhythm="standard">
+        <Container>
+          <SectionLabel>NEXT STEPS</SectionLabel>
+          <DisplayHeading className="text-black mb-10">You May Also Like</DisplayHeading>
+          <ul className="max-w-3xl divide-y divide-gray-200 border-y border-gray-200">
+            {SIBLINGS.map((item) => (
+              <li key={item.href}>
+                <Link
+                  to={item.href}
+                  className="group flex items-center justify-between gap-6 py-5"
+                >
+                  <span className="font-inter text-body text-gray-700">{item.label}</span>
+                  <ArrowRight
+                    size={16}
+                    className="flex-shrink-0 text-gold-ink transition-transform group-hover:translate-x-1"
+                    aria-hidden
+                  />
+                </Link>
+              </li>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ═══════════════ Related Guides ═══════════════ */}
-      <section className="bg-cream py-16">
-        <div className="container-custom max-w-[800px] text-center">
-          <h3 className="font-playfair text-h3 text-black mb-4">Related Guides</h3>
-          <p className="font-inter text-body text-gray-500 leading-relaxed">
-            Planning an event in Dubai? Read our{' '}
-            <Link to="/yacht-catering-guide-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Yacht Catering Guide</Link>,
-            {' '}download the{' '}
-            <Link to="/yacht-catering-checklist-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Yacht Catering Checklist</Link>,
-            {' '}or see our service areas in{' '}
-            <Link to="/locations/dubai-marina" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Dubai Marina</Link>{' '}
-            and{' '}
-            <Link to="/locations/palm-jumeirah" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Palm Jumeirah</Link>.
-          </p>
-        </div>
-      </section>
+          </ul>
+        </Container>
+      </Section>
 
       <LocationStrip
         title="Yacht catering across Dubai"
         subtitle={
           <>
-            Yacht catering from{' '}
-            <Link to="/locations/dubai-marina" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Dubai Marina</Link>{' '}
-            and{' '}
-            <Link to="/locations/palm-jumeirah" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Palm Jumeirah</Link>.
+            Boarding most often from{' '}
+            <Link to="/locations/dubai-marina" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
+              Dubai Marina
+            </Link>
+            {', '}
+            <Link to="/locations/palm-jumeirah" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
+              Palm Jumeirah
+            </Link>
+            {' '}and{' '}
+            <Link to="/locations/jbr" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
+              JBR
+            </Link>
+            .
           </>
         }
       />
 
-      {/* Section 10: CTA Banner */}
-      <section className="yachts-cta-section bg-black py-24">
-        <div className="yachts-cta-content container-custom text-center">
-          <h2 className="font-playfair text-h2 text-white mb-4" style={{ lineHeight: '1.15' }}>
-            Set Sail with Exceptional Dining
-          </h2>
-          <p className="font-inter text-body-lg text-gray-400 max-w-2xl mx-auto mb-10">
-            Your private yacht chef experience awaits. Contact us to plan your on-board culinary journey.
+      <Section tone="dark" rhythm="chapter">
+        <Container className="max-w-3xl">
+          <SectionLabel tone="dark">TELL US THE CHARTER</SectionLabel>
+          <DisplayHeading className="text-white mb-6">Date, marina and guest count is enough to start</DisplayHeading>
+          <p className="font-inter text-body text-gray-300 leading-relaxed mb-8 max-w-[58ch]">
+            You do not need a finished menu. Send the charter date, where you board, how many people, and whether you want a chef, standing food, a grill or a seated dinner.
           </p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary inline-flex items-center gap-2">
-              <Phone size={18} />
-              Get a Yacht Catering Quote
+          <CTAGroup>
+            <Link to={CATERING_INQUIRY_HREF} className="btn-primary">
+              Get a yacht catering quote
             </Link>
             <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-secondary">
               Chat on WhatsApp
             </a>
-          </div>
-        </div>
-      </section>
+          </CTAGroup>
+        </Container>
+      </Section>
     </div>
   )
 }

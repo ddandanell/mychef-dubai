@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /blog/yacht-party-menu-ideas-dubai
+//     primary:     "yacht party menu ideas dubai"
+//     subkeywords: "yacht party food ideas dubai" · "what food to bring on a yacht dubai" · "boat party food dubai" · "simple yacht party menu ideas" · "yacht party menu ideas for adults" · "boat party menu ideas" · "yacht menu ideas" · "what food to bring to a boat party"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef } from 'react'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { Link } from 'react-router'
@@ -100,8 +106,8 @@ export default function YachtPartyMenuIdeas() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Yacht Party Menu Ideas in Dubai"
-        description="Yacht party menu ideas for Dubai: canapés, fresh seafood and desserts that travel well, planned for a Dubai Marina or Palm Jumeirah cruise."
+        title="Yacht Party Menu Ideas Dubai"
+        description="Yacht party menu ideas Dubai: canapés, fresh seafood and desserts that travel well, planned for a Dubai Marina or Palm Jumeirah cruise."
         canonicalPath={`/blog/${SLUG}`}
         ogImage="/images/blog/yacht-party-menu-ideas-dubai-hero.webp"
         schema={schema}
@@ -110,8 +116,8 @@ export default function YachtPartyMenuIdeas() {
       {/* ═══════════════ Hero ═══════════════ */}
       <PageHero
         eyebrow="Yacht Catering"
-        title="Yacht Party Menu Ideas in Dubai"
-        subtitle="How to build a menu that looks elegant, travels well, and tastes incredible while cruising Dubai Marina or the Palm."
+        title="Yacht Party Menu Ideas Dubai"
+        subtitle="Yacht Party Menu Ideas Dubai by myCHEF — How to build a menu that looks elegant, travels well, and tastes incredible while cruising Dubai Marina or the Palm."
         image="/images/blog/yacht-party-menu-ideas-dubai-hero.webp"
         imageAlt="Canapés being passed on a Dubai yacht deck at golden hour"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Blog', href: '/blog' }, { label: 'Yacht Party Menu Ideas' }]}
@@ -269,7 +275,7 @@ export default function YachtPartyMenuIdeas() {
 
           {/* ═══════════════ CTA ═══════════════ */}
           <section className="article-cta bg-cream border border-gray-200 p-8 md:p-10 opacity-0 translate-y-8">
-            <h2 className="font-playfair text-h3 text-black mb-3">Planning a Yacht Party?</h2>
+            <h2 className="font-playfair text-h3 text-black mb-3">Yacht Party Menu Ideas Dubai: Planning a Yacht Party?</h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-6">
               Tell us your route, group size, and occasion. We will create a yacht menu that is elegant, practical, and perfectly suited to life on the water.
             </p>

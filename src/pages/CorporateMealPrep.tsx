@@ -34,7 +34,7 @@ const mealPrepFormats = [
     icon: Package,
     title: 'Portioned Meal Boxes',
     description: 'Individually portioned, freshly prepared meals delivered ready to serve or store, designed for consistency across teams of any size.',
-    link: '/healthy-catering-dubai',
+    link: '/cuisines-dubai',
   },
   {
     icon: Repeat,
@@ -52,7 +52,7 @@ const mealPrepFormats = [
     icon: Salad,
     title: 'Balanced & Dietary Menus',
     description: 'Nutrition-led menus with low-carb, high-protein, vegetarian, and other options, prepared side by side so every preference is covered.',
-    link: '/healthy-catering-dubai',
+    link: '/cuisines-dubai',
   },
   {
     icon: CalendarClock,
@@ -158,7 +158,7 @@ const relatedServices = [
     title: 'Healthy Catering',
     description: 'Nutrition-focused, balanced menus with low-carb and keto options.',
     image: '/menu-seafood.webp',
-    link: '/healthy-catering-dubai',
+    link: '/cuisines-dubai',
   },
   {
     title: 'Corporate Catering',
@@ -272,7 +272,7 @@ export default function CorporateMealPrep() {
       <SEO
         title="Corporate Meal Prep Dubai | Portioned Team Meals | myCHEF"
         description="Corporate meal prep in Dubai — recurring portioned meals, wellness retainers & balanced menus delivered to your workplace. VAT/TRN invoicing. Get a quote."
-        canonicalPath="/corporate-meal-prep-dubai"
+        canonicalPath="/staff-meals-catering-dubai"
         ogImage="/service-corporate.webp"
         hideSiteName
         schema={schema}
@@ -329,7 +329,7 @@ export default function CorporateMealPrep() {
             Feeding a team well, consistently, is a logistics challenge as much as a culinary one. The value of corporate meal prep is that it removes the organising entirely — balanced, individually portioned meals arrive on a reliable schedule, so your people stay energised and good nutrition becomes a quiet, dependable part of the working week. Tell us about your team size, office days, and dietary priorities, and we will design a tailored programme and confirm availability within 24 hours.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Whether you want a <Link to="/weekly-meal-prep-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">recurring weekly meal plan</Link>, a <Link to="/wellness-meal-prep-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">wellness retainer</Link> focused on employee wellbeing, or a multi-site programme across departments, we build a managed service around your team — with low-carb, high-protein, vegetarian, and other options covered. Explore our meal prep formats below, or see how it connects with our wider <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering in Dubai</Link> and <Link to="/healthy-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">healthy catering</Link>.
+            Whether you want a <Link to="/weekly-meal-prep-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">recurring weekly meal plan</Link>, a <Link to="/wellness-meal-prep-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">wellness retainer</Link> focused on employee wellbeing, or a multi-site programme across departments, we build a managed service around your team — with low-carb, high-protein, vegetarian, and other options covered. Explore our meal prep formats below, or see how it connects with our wider <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering in Dubai</Link> and <Link to="/cuisines-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">healthy catering</Link>.
           </p>
         </div>
       </section>
@@ -489,7 +489,7 @@ export default function CorporateMealPrep() {
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
                   <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
-                    Explore <ArrowRight size={14} />
+                    {svc.title} <ArrowRight size={14} />
                   </span>
                 </div>
               </Link>

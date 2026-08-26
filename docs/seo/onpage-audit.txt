@@ -1,0 +1,11 @@
+
+===== TITLE_LONG =====
+/events                                              68 chars
+/luxury-dining-experiences                           66 chars
+/wedding-catering-dubai                              66 chars
+
+===== KW_NOT_IN_DESC =====
+/luxury-dining-experiences                           "luxury dining experiences dubai"
+
+===== KW_NOT_IN_TITLE =====
+/weekly-meal-prep-dubai                              "weekly meal prep dubai" | Meal Prep Dubai | Private Chef Meals from AED 1,898 | myCH

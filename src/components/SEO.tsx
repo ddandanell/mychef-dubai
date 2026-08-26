@@ -14,6 +14,7 @@ interface SEOProps {
 }
 
 const SITE_NAME = 'myCHEF'
+const BRAND_SUFFIX_RE = /\|\s*myCHEF(?:\s+Dubai)?\s*$/i
 const DEFAULT_TITLE = 'myCHEF Dubai — Premium Private Chef & Luxury Dining Experiences'
 const DEFAULT_DESCRIPTION = 'myCHEF Dubai designs private dining experiences and brings you professional, licensed chefs across Dubai. From villas to yachts — request your custom quote today.'
 const DEFAULT_OG_IMAGE = '/images/home-hero.webp'
@@ -33,8 +34,11 @@ export default function SEO({
   const path = canonicalPath || pathname
   const jsonLd = assemblePageGraph(path, schema)
 
+  // Pages that already end in the brand (contract titles are written as
+  // "… | myCHEF") must not get a second suffix.
+  const endsWithSiteName = title ? BRAND_SUFFIX_RE.test(title) : false
   const fullTitle = title
-    ? hideSiteName
+    ? hideSiteName || endsWithSiteName
       ? title
       : `${title} | ${SITE_NAME}`
     : DEFAULT_TITLE

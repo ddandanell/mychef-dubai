@@ -7,7 +7,11 @@ import json, pathlib, re, html, collections, datetime
 HERE = pathlib.Path(__file__).resolve().parent; ROOT = HERE.parents[2]; LIVE = HERE / ".live"; C = LIVE / "research/competitors"
 pages = json.loads((ROOT / "docs/seo/myCHEF-AE-SEO-STANDARD.json").read_text())["pages"]
 idx = json.loads((C / "index.json").read_text())
-def norm(s): return re.sub(r"\s+", " ", re.sub(r"[^a-z0-9 ]", "", html.unescape(s or "").lower().replace("-", " "))).strip()
+import unicodedata as _ud
+def _deaccent(s): return "".join(c for c in _ud.normalize("NFKD", s or "") if not _ud.combining(c))
+def norm(s):
+    s = _deaccent(s or "")
+    return re.sub(r"\s+", " ", re.sub(r"[^a-z0-9 ]", "", html.unescape(s or "").lower().replace("-", " "))).strip()
 STOP = {"the","a","an","and","or","of","for","to","in","on","at","with","your","our","we","you","us","by","from","is","are","dubai","uae","my","its","it","this","that","all","any","as","be","can","do","how","what","why","when","where","which","who"}
 def sig(h):
     """Heading signature: content words, sorted, so 'Why choose us' ≈ 'Why choose our team'."""

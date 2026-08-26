@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /family-feast-package-dubai
+//     primary:     "family catering dubai"
+//     subkeywords: "family catering dubai price" · "family catering cost per person dubai" · "best family catering dubai" · "family catering menu dubai" · "halal family catering dubai" · "catering for family gathering dubai" · "family feast package dubai" · "family dinner package dubai" · "family meal package dubai" · "family chef" · "family nutrition chef dubai"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import PackagePageTemplate from '@/components/PackagePageTemplate'
 
 export default function FamilyFeastPackage() {
@@ -5,7 +11,7 @@ export default function FamilyFeastPackage() {
     <PackagePageTemplate
       name="Family Feast"
       seoTitle="Family Catering Dubai | Feast Package, Private Chef | myCHEF"
-      description="Family catering in Dubai: a private chef dinner for 6–8 guests from AED 2,400. Sharing-style menus, premium ingredients and full service. Request a quote."
+      description="Family catering Dubai: a private chef dinner for 6–8 guests from AED 2,400. Sharing-style menus, premium ingredients and full service. Request a quote."
       canonicalPath="/family-feast-package-dubai"
       ogImage="/images/celebration-catering-dubai-hero.webp"
       headline="Family Catering Dubai: Private Chef Dinner for 6–8"

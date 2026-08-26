@@ -29,7 +29,7 @@
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
   "title": "NYE Party Catering Dubai: Host's Planning Guide",
-  "meta_description": "NYE party catering in Dubai: passed canapés, live stations, a mocktail or cocktail bar, midnight dessert, per-head prices, and why to book early.",
+  "meta_description": "NYE party catering Dubai: passed canapés, live stations, a mocktail or cocktail bar, midnight dessert, per-head prices, and why to book early.",
   "h1": "NYE Party Catering Dubai: The Host's Planning Guide"
  },
  "opening_paragraph": [
@@ -264,5 +264,18 @@
    "after_heading": "Timing the food around the midnight countdown",
    "caption": "Midnight is a dessert, not another canapé round."
   }
- ]
+ ],
+ "keyword_lock": {
+  "primary": "nye party catering dubai",
+  "subkeywords": [
+   "new years eve at home dubai",
+   "nye party catering cost dubai",
+   "new years eve party food ideas dubai",
+   "private chef new years eve dubai",
+   "new years eve dinner at home dubai",
+   "party catering ideas",
+   "bachelor party catering menu dubai",
+   "bachelorette party catering menu dubai"
+  ]
+ }
 }

@@ -1,599 +1,487 @@
-import { useRef } from 'react'
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /private-party-catering-dubai
+//     primary:     "private party catering dubai"
+//     subkeywords: "private party catering dubai price" · "private party catering cost per person dubai" · "best private party catering dubai" · "private party catering packages dubai" · "private party catering menu dubai" · "halal private party catering dubai" · "party catering dubai" · "house party catering dubai" · "dinner party catering dubai" · "private catering near me" · "small party catering dubai indian price list" · "annual company party catering dubai"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { Link } from 'react-router'
-import { useGSAP } from '@gsap/react'
-import gsap from 'gsap'
-import { useScrollTrigger } from '@/hooks/useScrollTrigger'
-import { locationPath } from '@/data/locations'
-import {
-  Home,
-  Flame,
-  Martini,
-  Utensils,
-  Users,
-  Sparkles,
-  Check,
-  Phone,
-  ArrowRight,
-} from 'lucide-react'
+import { ArrowRight } from 'lucide-react'
 import SEO from '../components/SEO'
+import PageHero from '../components/PageHero'
 import TrustSignalStrip from '../components/TrustSignalStrip'
-import LocationStrip from '../components/LocationStrip'
 import FaqAccordion from '../components/FaqAccordion'
+import LocationStrip from '../components/LocationStrip'
+import {
+  Section,
+  Container,
+  SectionLabel,
+  DisplayHeading,
+  BodyCopy,
+  SequenceRail,
+  CTAGroup,
+} from '../components/system'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
-import { SectionLabel } from '../components/system'
-
-
-const WHATSAPP_NUMBER = '971551744849'
-const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to plan private party catering in Dubai (via mychef.ae/private-party-catering-dubai)')
-const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
-
-/* ────────────────────── Data ────────────────────── */
-
-const partyFormats = [
-  {
-    icon: Home,
-    title: 'Villa & Home Parties',
-    description: 'fully-coordinated catering brought to your villa, apartment, or garden — we set up a complete kitchen and service around your space.',
-  },
-  {
-    icon: Flame,
-    title: 'Live Cooking Stations',
-    description: 'partner-chef-led stations — pasta, grills, carving, and more — that turn the food into part of the entertainment.',
-  },
-  {
-    icon: Sparkles,
-    title: 'Canapés & Sharing',
-    description: 'Passed canapés and elegant sharing boards that keep guests mingling rather than seated for a relaxed atmosphere.',
-  },
-  {
-    icon: Martini,
-    title: 'Cocktails & Bar Service',
-    description: 'Professional bartenders, signature cocktails, mocktails, and a fully styled bar tailored to your party.',
-  },
-  {
-    icon: Utensils,
-    title: 'Plated & Buffet Dining',
-    description: 'When you want a seated moment — refined plated courses or generous buffet stations served by chefs in our network.',
-  },
-  {
-    icon: Users,
-    title: 'Full Service Staff',
-    description: 'Waiters, hosts, and bartenders scaled to your guest count, handling everything from welcome drinks to the final clear-down.',
-  },
-]
-
-const includedItems = [
-  { title: 'Bespoke Party Menu', description: 'A menu designed around your guests, theme, and the feel of the evening.' },
-  { title: 'On-Site Chefs', description: 'Chefs in our network cook and finish dishes live at your venue.' },
-  { title: 'Live Cooking Stations', description: 'Interactive grills, carving, and made-to-order stations as you like.' },
-  { title: 'Bar & Mixology', description: 'Cocktails, mocktails, and bartender service styled to your party.' },
-  { title: 'Service & Hosting Staff', description: 'Discreet, polished waiters and hosts to look after every guest.' },
-  { title: 'Tableware & Styling', description: 'Glassware, linens, and presentation to match your home and theme.' },
-  { title: 'Full Setup & Cleanup', description: 'We arrive early, run the service, and leave your home immaculate.' },
-  { title: 'Event Coordination', description: 'A coordinator manages timing so the evening flows effortlessly.' },
-]
-
-const useCases = [
-  {
-    title: 'Villa & Garden Gatherings',
-    description: 'Your villa becomes the venue. We build a working kitchen, set up live stations and a bar, and run full service across the garden, terrace, or majlis — common across Palm Jumeirah, Emirates Hills, and Dubai Hills.',
-  },
-  {
-    title: 'Milestone & Anniversary Dinners',
-    description: 'For the parties that matter most, we design a considered menu and seamless service — whether that means a plated dinner, a generous buffet, or a relaxed canapé-and-cocktail evening.',
-  },
-  {
-    title: 'Cocktail & Canapé Receptions',
-    description: 'A sophisticated, free-flowing format where passed canapés and signature cocktails keep guests circulating. Ideal for stylish home entertaining and celebrations of every kind.',
-  },
-  {
-    title: 'Intimate Home Celebrations',
-    description: 'Even for smaller groups, a dedicated chef and host elevate the evening. We handle the cooking, serving, and cleanup so you can host without lifting a finger.',
-  },
-  {
-    title: 'Bachelor, Bachelorette & Baby Showers',
-    description: 'Hen weekends, stag nights and showers are still party catering — the menu just reads differently. Grazing tables and passed bites for a bachelorette afternoon, a BBQ or live grill for a stag villa, an alcohol-free mocktail bar and pastel dessert table for a baby shower. Tell us the occasion and the guest list and we build the format around it.',
-  },
-  {
-    title: 'Yacht & Marina Parties',
-    description: 'Canapé receptions, sharing platters and chilled drinks designed for the water — compact, mess-free menus that plate cleanly on deck and hold up in the heat around Dubai Marina and Bluewaters. We coordinate loading, timing and service with the charter crew.',
-  },
-]
-
-const galleryImages = [
-  { src: '/service-events.webp', alt: 'Private party catering in Dubai' },
-  { src: '/service-villa.webp', alt: 'Villa private party catering setup' },
-  { src: '/menu-canapes.webp', alt: 'Canapés for a private party' },
-  { src: '/service-villa.webp', alt: 'Live cooking station at a home party' },
-  { src: '/menu-canapes.webp', alt: 'Sharing boards for a private party' },
-  { src: '/service-events.webp', alt: 'Full service private party in Dubai' },
-]
-
-const locations = [
-  { name: 'Palm Jumeirah', slug: 'palm-jumeirah' },
-  { name: 'Downtown Dubai', slug: 'downtown-dubai' },
-  { name: 'Dubai Marina', slug: 'dubai-marina' },
-  { name: 'Emirates Hills', slug: 'emirates-hills' },
-  { name: 'JBR', slug: 'jbr' },
-  { name: 'DIFC', slug: 'difc' },
-  { name: 'Business Bay', slug: 'business-bay' },
-  { name: 'Jumeirah', slug: 'jumeirah' },
-  { name: 'Arabian Ranches', slug: 'arabian-ranches' },
-  { name: 'Dubai Hills', slug: 'dubai-hills' },
-  { name: 'Bluewaters Island', slug: 'bluewaters-island' },
-  { name: 'Jumeirah Islands', slug: 'jumeirah-islands' },
-  { name: 'Al Barari', slug: 'al-barari' },
-  { name: 'Umm Suqeim', slug: 'umm-suqeim' },
-  { name: 'Meydan', slug: 'meydan' },
-  { name: 'Dubai Creek Harbour', slug: 'dubai-creek-harbour' },
-]
-
-const faqs = [
-  {
-    q: 'Do you cater private parties at home and in villas?',
-    a: 'Yes — private home and villa parties are our specialty. We bring a private chef, partner chefs, service staff, and a bar to your space, and handle setup and cleanup so your home is left exactly as we found it.',
-  },
-  {
-    q: 'What is a live cooking station?',
-    a: 'A live station is a partner-chef-led setup where dishes are prepared or finished in front of your guests — for example a pasta, grill, carving, or dessert station. It adds theatre and keeps the food fresh, hot, and interactive.',
-  },
-  {
-    q: 'Can you provide bartenders and cocktails?',
-    a: 'Absolutely. We offer professional bartenders, signature cocktails, mocktails, and a fully styled bar. We tailor the drinks menu to your party, including non-alcoholic and themed options.',
-  },
-  {
-    q: 'How many staff will you bring?',
-    a: 'We scale the team to your guest count and service style — typically chefs, waiters, hosts, and bartenders. During planning we recommend the right number to ensure attentive, unhurried service throughout the evening.',
-  },
-  {
-    q: 'How many guests can you cater for at a private party?',
-    a: 'we coordinate catering intimate gatherings of around 10 guests up to large home parties of a few hundred. For smaller, more personal evenings, our private chef service may also suit, and we are happy to advise.',
-  },
-  {
-    q: 'How far in advance should I book?',
-    a: 'For most private parties, one to two weeks is ideal. For larger events with live stations and full bar service, we recommend two to four weeks. During peak season (November to March), earlier booking is advised.',
-  },
-  { q: "How much does private party catering cost in Dubai?", a: "Private party catering in Dubai is priced by custom quote, because the cost depends on your guest count, menu, service style, and any live stations or bar service you add. As a rough guide, home parties commonly land anywhere from relaxed finger-food budgets up to premium plated evenings, and we build a transparent, all-in proposal so there are no surprises. Share your date and headcount and you can see a full breakdown on our [private chef prices in Dubai](/private-chef-prices-dubai) page or request a tailored quote." },
-  { q: "Is there a minimum spend or minimum number of guests for a private party?", a: "We cater private parties across a wide range of sizes, from intimate gatherings of around ten guests to large home celebrations, and any minimum is set within your custom quote rather than a fixed rule. Smaller, more personal evenings are often best served by our [private chef in Dubai](/private-chef-dubai) service, while bigger parties suit full catering with stations and staff. Tell us your numbers and we will recommend the right format." },
-  { q: "What exactly is included when I book private party catering?", a: "Every booking includes menu design, ingredient sourcing and shopping, on-site cooking, plating and serving, and full cleanup, so you host without lifting a finger. We also bring our own professional cooking equipment and can arrange bar service, live stations, and styling to match your theme. Serving staff and bartenders are optional add-ons scaled to your guest count and the feel you want." },
-  { q: "Do your chefs cook everything fresh at my home during the party?", a: "Yes, our chefs cook and finish dishes live at your villa or home, so the food is served fresh, hot, and exactly to your guests' preferences. We set up a complete working kitchen in your space, whether that is your own kitchen, the garden, or the terrace, and manage the entire service timeline. This on-site approach is why our [private party catering](/private-party-catering-dubai) feels more like restaurant dining than reheated delivery." },
-  { q: "Are your kitchens and chefs licensed and food-safety compliant?", a: "Yes, our chefs and kitchens operate to Dubai Municipality food-safety standards, so your party is handled with proper hygiene, temperature control, and safe food handling throughout. We take sourcing, preparation, and on-site service seriously, which matters most when we are cooking in your own home. You can read more about our team and standards on our [about](/about) page." },
-  { q: "Is the food halal?", a: "Yes, our ingredients are halal sourced by default, so your menu is halal unless you request otherwise. We handle a full range of cuisines and can build the entire party menu around halal requirements without compromising on variety or presentation. If you have specific sourcing or certification questions, just mention them when you request your quote." },
-  { q: "Can you handle guests with allergies, and vegan, vegetarian, or other dietary needs?", a: "Absolutely, we design menus around allergies and dietary needs including vegan, vegetarian, gluten-free, dairy-free, nut-free, and more, so every guest is looked after. During planning we map out each requirement and label dishes clearly at the party to avoid any confusion. Tell us your guest list details and we will build a menu that works for everyone at the table." },
-  { q: "How many serving staff and bartenders will my party need?", a: "We recommend the right number of chefs, waiters, hosts, and bartenders based on your guest count and service style, so service stays attentive and unhurried all evening. A relaxed canapé reception needs a different team than a seated plated dinner, and we advise on this during planning. Serving staff are optional, so you can keep it chef-only for smaller gatherings or scale up for larger celebrations." },
-  { q: "Do you bring your own equipment, or do I need to rent tables, chairs, and glassware?", a: "We bring our own professional cooking equipment, and we can also arrange glassware, linens, tableware, and presentation to match your home and theme. If you need larger items like tables, chairs, or a marquee for a big garden party, we coordinate those for you as part of the planning so you do not have to source them separately. Everything is set up before guests arrive and cleared away after." },
-  { q: "Can you cater an outdoor garden, terrace, or poolside party at my villa?", a: "Yes, we regularly cater outdoor villa parties across gardens, terraces, majlis areas, and poolside settings, building a working kitchen and service around your outdoor space. Outdoor entertaining is especially popular during peak season from November to March when the weather is ideal. For water-facing celebrations you might also like our [pool party catering in Dubai](/pool-party-catering-dubai)." },
-  { q: "How far in advance do I need to book a private party?", a: "For most private parties, one to two weeks is ideal, while larger events with live stations and full bar service are best booked two to four weeks ahead. During peak season from November to March, dates fill quickly, so earlier is safer. That said, we reply to enquiries typically within fifteen minutes during business hours, so it is always worth asking about your date even at short notice." },
-  { q: "Can you provide bar service and cocktails, and what about the alcohol itself?", a: "Yes, we provide professional bartenders, signature cocktails, mocktails, and a fully styled bar tailored to your party. In Dubai, alcohol served at a private residence must be legally sourced by the host from a licensed retailer, and we then handle all the mixing, service, and presentation around it. We also design excellent alcohol-free drinks menus if you prefer a fully non-alcoholic bar." },
-  { q: "Do you clean up completely after the party?", a: "Yes, full cleanup is included in every booking, so we clear the kitchen, service areas, and dining spaces and leave your home exactly as we found it. Our team arrives early to set up, runs the service throughout, and handles the entire clear-down at the end. You can enjoy your own party and wake up the next morning to a spotless home." },
-  { q: "How do I get a quote and confirm my private party?", a: "Simply share your date, guest count, venue, and the style of party you have in mind, and we reply typically within fifteen minutes during business hours with a tailored proposal. Your quote covers the full menu, staffing, and any add-ons, plus 5% VAT, with no hidden extras. You can start the conversation any time through our [contact](/contact) page or send us your details for a fast, custom proposal." },
-]
-
-const relatedServices = [
-  {
-    title: 'Birthday Catering',
-    description: 'Milestone birthdays at home, in a villa or on a yacht — menu, staff and styling handled.',
-    image: '/service-events.webp',
-    link: '/birthday-catering-dubai',
-  },
-  {
-    title: 'Luxury Catering',
-    description: 'Bespoke menus and full service for events of any size across Dubai.',
-    image: '/menu-canapes.webp',
-    link: '/catering-dubai',
-  },
-  {
-    title: 'Villas & Private Residences',
-    description: 'Tailored catering and chef service for villa and residence entertaining.',
-    image: '/service-villa.webp',
-    link: '/villas-private-residences',
-  },
-  {
-    title: 'Housewarming Catering',
-    description: 'Warm, welcoming menus and full service for new-home celebrations.',
-    image: '/service-villa.webp',
-    link: '/housewarming-catering-dubai',
-  },
-  {
-    title: 'Chinese New Year Catering',
-    description: 'Lunar New Year reunion menus, dim sum and live wok stations for private celebrations.',
-    image: '/images/asian-catering-dubai-hero.webp',
-    link: '/chinese-new-year-catering-dubai',
-  },
-  {
-    title: 'Holi Catering',
-    description: 'Colourful Indian festival menus and thandai bars for vibrant private Holi parties.',
-    image: '/images/indian-catering-dubai-hero.webp',
-    link: '/holi-catering-dubai',
-  },
-  {
-    title: 'Picnic Catering',
-    description: 'Outdoor baskets and grazing boxes for relaxed villa garden and park parties.',
-    image: '/images/beach-catering-dubai-hero.webp',
-    link: '/picnic-catering-dubai',
-  },
-  {
-    title: 'Graduation Party Catering',
-    description: 'Milestone graduation celebrations with personalised menus and full service.',
-    image: '/service-events.webp',
-    link: '/graduation-catering-dubai',
-  },
-  {
-    title: 'Farewell & Retirement Catering',
-    description: 'Private farewell and retirement parties at home or in a villa across Dubai.',
-    image: '/service-events.webp',
-    link: '/farewell-catering-dubai',
-  },
-  {
-    title: 'Reunion Catering',
-    description: 'Private reunions for family, old friends and alumni with shared menus.',
-    image: '/service-events.webp',
-    link: '/reunion-catering-dubai',
-  },
-  {
-    title: "Father's Day Catering",
-    description: "Private Father's Day brunches, BBQs and dinners at home or in a villa.",
-    image: '/service-events.webp',
-    link: '/fathers-day-catering-dubai',
-  },
-]
-
-const faqSchema = {
-  '@type': 'FAQPage',
-  mainEntity: faqs.map((f) => ({
-    '@type': 'Question',
-    name: f.q,
-    acceptedAnswer: { '@type': 'Answer', text: f.a },
-  })),
-}
-
-const serviceSchema = {
-  '@type': 'Service',
-  name: 'Private Party Catering Dubai',
-  serviceType: 'Private Party Catering Service',
-  provider: {
-    '@type': 'Organization',
-    '@id': 'https://www.mychef.ae/#organization',
-    name: 'myCHEF',
-    url: 'https://www.mychef.ae',
-    telephone: '+971-55-174-4849',
-    areaServed: 'Dubai, UAE',
-  },
-  areaServed: 'Dubai, UAE',
-}
-
-const breadcrumbSchema = {
-  '@type': 'BreadcrumbList',
-  itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.mychef.ae/' },
-    { '@type': 'ListItem', position: 2, name: 'Private Party Catering Dubai', item: 'https://www.mychef.ae/private-party-catering-dubai' },
-  ],
-}
+import { CATERING_INQUIRY_HREF, CATERING_PATHS } from '@/content/cateringCluster'
+import {
+  PRIVATE_PARTY_KEYWORD_LOCK,
+  PRIVATE_PARTY_ROOT,
+  PRIVATE_PARTY_SIBLING_LINKS,
+  PRIVATE_PARTY_WHATSAPP_LINK,
+  PRIVATE_PARTY_WHATSAPP_MESSAGE,
+  decisionModule,
+  exampleEvents,
+  hostedHere,
+  hostedHereIntro,
+  includedItems,
+  jumpNav,
+  menuFormats,
+  otherUniqueOccasions,
+  partyFaqs,
+  partyHero,
+  partyHeroCopy,
+  priceRows,
+  pricingIntro,
+  pricingNotes,
+  proofItems,
+  siloIntro,
+  startSteps,
+  uniqueCardsIntro,
+  uniqueOccasionCards,
+} from '@/content/privatePartyPage'
 
 const schema = {
   '@context': 'https://schema.org',
-  '@graph': [serviceSchema, faqSchema, breadcrumbSchema],
+  '@graph': [
+    {
+      '@type': 'Service',
+      '@id': 'https://www.mychef.ae/private-party-catering-dubai#service',
+      name: 'Private Party Catering Dubai',
+      serviceType: 'Private Party Catering',
+      description:
+        'Private party catering Dubai for homes, villas and gardens. Drop-off, buffet from AED 120 per person, live stations or chef-led plated dining. Menu, chefs, staffing, setup and cleanup.',
+      url: 'https://www.mychef.ae/private-party-catering-dubai',
+      provider: { '@id': 'https://www.mychef.ae/#organization' },
+      areaServed: { '@id': 'https://www.mychef.ae/#place-dubai' },
+    },
+    {
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.mychef.ae/' },
+        { '@type': 'ListItem', position: 2, name: 'Events', item: 'https://www.mychef.ae/events' },
+        {
+          '@type': 'ListItem',
+          position: 3,
+          name: 'Private party catering',
+          item: 'https://www.mychef.ae/private-party-catering-dubai',
+        },
+      ],
+    },
+  ],
 }
 
-/* ────────────────────── Component ────────────────────── */
-
-const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'd like a Private Party quote in Dubai. Date: __ Guests: __ Area: __"
 export default function PrivatePartyCatering() {
-  useScrollTrigger()
-  useWhatsAppMessage(PAGE_WHATSAPP_MESSAGE)
-  const containerRef = useRef<HTMLDivElement>(null)
-
-  useGSAP(() => {
-    if (!containerRef.current) return
-
-    // Hero
-    gsap.to('.ppc-hero-h1', { opacity: 1, y: 0, duration: 0.8, ease: 'power3.out' })
-    gsap.to('.ppc-hero-sub', { opacity: 1, y: 0, duration: 0.6, delay: 0.3, ease: 'power3.out' })
-    gsap.to('.ppc-hero-cta', { opacity: 1, y: 0, duration: 0.5, stagger: 0.15, delay: 0.6, ease: 'power3.out' })
-
-    // Format cards
-    gsap.to('.ppc-fmt-card', {
-      scrollTrigger: { trigger: '.ppc-fmt-grid', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, y: 0, duration: 0.8, stagger: 0.1, ease: 'power3.out',
-    })
-
-    // Use cases
-    gsap.to('.ppc-uc-item', {
-      scrollTrigger: { trigger: '.ppc-uc-grid', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, y: 0, duration: 0.7, stagger: 0.08, ease: 'power3.out',
-    })
-
-    // Included items
-    gsap.to('.ppc-inc-item', {
-      scrollTrigger: { trigger: '.ppc-inc-grid', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, x: 0, duration: 0.6, stagger: 0.08, ease: 'power3.out',
-    })
-
-    // Gallery
-    gsap.to('.ppc-gallery-img', {
-      scrollTrigger: { trigger: '.ppc-gallery', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, scale: 1, duration: 0.6, stagger: 0.06, ease: 'power3.out',
-    })
-
-    // FAQ
-    gsap.to('.ppc-faq-item', {
-      scrollTrigger: { trigger: '.ppc-faq', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, y: 0, duration: 0.5, stagger: 0.08, ease: 'power3.out',
-    })
-
-    // Locations
-    gsap.to('.ppc-loc-item', {
-      scrollTrigger: { trigger: '.ppc-loc-grid', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, duration: 0.5, stagger: 0.04, ease: 'power3.out',
-    })
-
-    // Related
-    gsap.to('.ppc-rel-card', {
-      scrollTrigger: { trigger: '.ppc-rel-grid', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, y: 0, duration: 0.8, stagger: 0.1, ease: 'power3.out',
-    })
-
-    // CTA
-    gsap.to('.ppc-cta', {
-      scrollTrigger: { trigger: '.ppc-cta', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, y: 0, duration: 0.7, ease: 'power3.out',
-    })
-  }, { scope: containerRef })
+  useWhatsAppMessage(PRIVATE_PARTY_WHATSAPP_MESSAGE)
 
   return (
-    <div ref={containerRef}>
+    <div>
       <SEO
-        title="Private Party Catering Dubai | Home & Villa Events | myCHEF"
-        description="Book private party catering in Dubai. Live cooking stations, canapés, cocktails and full service for home and villa events. Get a tailored quote in 15 minutes."
-        canonicalPath="/private-party-catering-dubai"
-        ogImage="/service-villa.webp"
+        title={PRIVATE_PARTY_KEYWORD_LOCK.title}
+        description={PRIVATE_PARTY_KEYWORD_LOCK.description}
+        canonicalPath={PRIVATE_PARTY_ROOT}
+        ogImage={partyHero.src}
         hideSiteName
+        preloadHero={partyHero.src}
         schema={schema}
       />
 
-      {/* ═══════════════ Section 1: Hero ═══════════════ */}
-      <section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
-        <div
-          className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
-          style={{ backgroundImage: 'url(/images/party-catering-dubai-hero.webp)' }}
-        />
-        <div className="absolute inset-0 bg-black/50" />
-
-        <div className="relative z-10 container-custom text-center max-w-[800px] py-20">
-          <nav className="mb-6 opacity-0 translate-y-4 ppc-hero-h1">
-            <ol className="flex items-center justify-center gap-2 font-inter text-body-sm">
-              <li><Link to="/" className="text-gray-400 hover:text-gold transition-colors">Home</Link></li>
-              <li className="text-gray-400">/</li>
-              <li><Link to="/events" className="text-gray-400 hover:text-gold transition-colors">Events</Link></li>
-              <li className="text-gray-400">/</li>
-              <li><span className="text-gold">Private Party</span></li>
-            </ol>
-          </nav>
-
-          <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 ppc-hero-h1">
-            Private Party Catering Dubai: Home & Villa Events
-          </h1>
-          <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 ppc-hero-sub">
-            Villa and home parties brought to life — live cooking stations, passed canapés, signature cocktails, and a full team of chefs and service staff, all handled for you.
-          </p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 ppc-hero-cta">Plan My Private Party</Link>
-            <a
-              href={WHATSAPP_LINK}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-secondary opacity-0 translate-y-4 ppc-hero-cta"
-            >
-              <Phone size={16} className="mr-2" />
-              Chat on WhatsApp
-            </a>
-          </div>
-        </div>
-      </section>
-
+      <PageHero
+        eyebrow={partyHeroCopy.eyebrow}
+        title={partyHeroCopy.title}
+        subtitle={partyHeroCopy.subtitle}
+        image={partyHero.src}
+        imageAlt={partyHero.alt}
+        imageWidth={partyHero.width}
+        imageHeight={partyHero.height}
+        align="left"
+        cta={{ label: 'Get an itemised party-catering quote', href: CATERING_INQUIRY_HREF }}
+        secondaryCta={{ label: 'Chat on WhatsApp', href: PRIVATE_PARTY_WHATSAPP_LINK, external: true }}
+        breadcrumb={[
+          { label: 'Home', href: '/' },
+          { label: 'Events', href: '/events' },
+          { label: 'Private party catering' },
+        ]}
+        minHeight="full"
+        overlay="dark"
+      >
+        <p className="mt-5 font-inter text-body-sm text-white/90 max-w-[58ch]">
+          {partyHeroCopy.priceLine}
+        </p>
+        <p className="mt-3 font-inter text-body-sm text-white/70 max-w-[58ch]">
+          {partyHeroCopy.replyLine}
+        </p>
+      </PageHero>
       <TrustSignalStrip />
 
-      {/* ═══════════════ Section 2: Opening ═══════════════ */}
-      <section className="bg-white section-padding">
-        <div className="container-custom max-w-[820px] text-center">
-          <SectionLabel align="center">HOSTING, HANDLED</SectionLabel>
-          <h2 className="font-playfair text-h2 text-black mb-6">
-            Your Home, Transformed Into a Venue
-          </h2>
-          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            The best private parties feel effortless — for the guests and, just as importantly, for the host. At myCHEF Dubai, we bring everything a great party needs directly to your villa or home: a private chef, partner chefs, live cooking stations, a styled bar, and attentive service staff who look after every detail from the first welcome drink to the final clear-down.
-          </p>
-          <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Whether you are planning an intimate dinner, a lively cocktail reception, or a large celebration spilling across the garden and terrace, we design the menu and service around your space and your guests. This is the page for party catering in Dubai of every kind — birthdays, bachelor and bachelorette nights, baby showers, house parties, milestone dinners and yacht gatherings — and it sits inside our full <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering service</Link>. Explore <Link to="/canape-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">canapé catering</Link> and <Link to="/live-cooking-stations-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">live cooking stations</Link> for more formats.
-          </p>
-        </div>
-      </section>
-
-      {/* ═══════════════ Section 3: Formats Grid ═══════════════ */}
-      <section className="bg-black section-padding">
-        <div className="container-custom">
-          <div className="text-center mb-12">
-            <SectionLabel align="center" tone="dark">HOW WE SERVE</SectionLabel>
-            <h2 className="font-playfair text-h2 text-white">
-              Private Party Catering Formats
-            </h2>
-          </div>
-
-          <div className="ppc-fmt-grid grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {partyFormats.map((fmt, i) => {
-              const Icon = fmt.icon
-              return (
-                <div
-                  key={i}
-                  className="ppc-fmt-card bg-charcoal p-8 opacity-0 translate-y-12"
-                >
-                  <Icon size={36} className="text-gold mb-4" />
-                  <h3 className="font-playfair text-h3 text-white mb-3">{fmt.title}</h3>
-                  <p className="font-inter text-body-sm text-gray-400 leading-relaxed">
-                    {fmt.description}
-                  </p>
-                </div>
-              )
-            })}
-          </div>
-        </div>
-      </section>
-
-      {/* ═══════════════ Section 4: Use Cases ═══════════════ */}
-      <section className="bg-black section-padding pt-0">
-        <div className="container-custom">
-          <div className="text-center mb-12">
-            <SectionLabel align="center" tone="dark">EVERY KIND OF GATHERING</SectionLabel>
-            <h2 className="font-playfair text-h2 text-white">
-              Private Parties we coordinate catering for
-            </h2>
-          </div>
-
-          <div className="ppc-uc-grid grid md:grid-cols-2 gap-6">
-            {useCases.map((uc, i) => (
-              <div key={i} className="ppc-uc-item bg-charcoal p-8 opacity-0 translate-y-10">
-                <h3 className="font-playfair text-h3 text-white mb-3">{uc.title}</h3>
-                <p className="font-inter text-body-sm text-gray-400 leading-relaxed">{uc.description}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ═══════════════ Section 5: What's Included ═══════════════ */}
-      <section className="bg-cream section-padding">
-        <div className="container-custom max-w-[1000px]">
-          <h2 className="font-playfair text-h2 text-black text-center mb-12">
-            What Our Private Party Catering Includes
-          </h2>
-
-          <div className="ppc-inc-grid grid md:grid-cols-2 gap-6">
-            {includedItems.map((item, i) => (
-              <div key={i} className="ppc-inc-item flex gap-3 opacity-0 -translate-x-5">
-                <Check size={20} className="text-gold flex-shrink-0 mt-0.5" />
-                <div>
-                  <h4 className="font-inter text-base font-medium text-black mb-1">{item.title}</h4>
-                  <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{item.description}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ═══════════════ Section 6: Gallery ═══════════════ */}
-      <section className="bg-black py-20">
-        <div className="container-custom">
-          <h2 className="font-playfair text-fluid-h2 text-white text-center mb-10">
-            Private Parties We've Brought to Life
-          </h2>
-
-          <div className="ppc-gallery grid grid-cols-2 lg:grid-cols-3 gap-4">
-            {galleryImages.map((img, i) => (
-              <div key={i} className="ppc-gallery-img aspect-[4/3] overflow-hidden opacity-0 scale-95">
-                <img
-                  src={img.src}
-                  alt={img.alt}
-                  className="w-full h-full object-cover transition-transform duration-300 hover:scale-[1.03]"
-                  loading="lazy" decoding="async"/>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ═══════════════ Section 7: FAQ ═══════════════ */}
-      <section className="bg-white py-20">
-        <div className="container-custom max-w-[800px]">
-          <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Private Party Catering Questions
-          </h2>
-
-          <FaqAccordion items={faqs} showJumpNav />
-        </div>
-      </section>
-
-      {/* ═══════════════ Section 8: Locations ═══════════════ */}
-      <section className="bg-charcoal py-20">
-        <div className="container-custom">
-          <h2 className="font-playfair text-fluid-h2 text-white text-center mb-10">
-            Private Party Catering Across Dubai
-          </h2>
-
-          <div className="ppc-loc-grid grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
-            {locations.map((loc) => (
-              <Link
-                key={loc.slug}
-                to={locationPath(loc.slug)}
-                className="ppc-loc-item flex items-center gap-2 font-inter text-sm text-gray-400 hover:text-gold transition-colors opacity-0"
-              >
-                <span className="w-1.5 h-1.5 rounded-full bg-gold flex-shrink-0" />
-                {loc.name}
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ═══════════════ Section 9: Related Services ═══════════════ */}
-      <section className="bg-black py-20">
-        <div className="container-custom">
-          <h3 className="font-playfair text-h3 text-white text-center mb-10">
-            You May Also Like
-          </h3>
-
-          <div className="ppc-rel-grid grid md:grid-cols-3 gap-6">
-            {relatedServices.map((svc, i) => (
-              <Link
-                key={i}
-                to={svc.link}
-                className="ppc-rel-card group bg-charcoal overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
-              >
-                <div className="aspect-video overflow-hidden">
-                  <img
-                    src={svc.image}
-                    alt={svc.title}
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                    loading="lazy" decoding="async"/>
-                </div>
-                <div className="p-6">
-                  <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
-                  <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
-                  <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
-                    Explore <ArrowRight size={14} />
-                  </span>
-                </div>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <LocationStrip title="Private party catering across Dubai" />
-
-      {/* ═══════════════ Section 10: CTA Banner ═══════════════ */}
-      <section className="bg-gradient-to-b from-charcoal to-black py-20">
-        <div className="container-custom text-center ppc-cta opacity-0 translate-y-8">
-          <h2 className="font-playfair text-h2 text-white mb-4">
-            Host Without Lifting a Finger
-          </h2>
-          <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Tell us about your party and your space, and we'll design the menu, bar, and service to bring it all together.
-          </p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">Plan My Private Party</Link>
+      <nav aria-label="On this page" className="border-b border-gray-200 bg-white">
+        <div className="container-custom flex flex-wrap gap-x-5 gap-y-2 py-4">
+          {jumpNav.map((item) => (
             <a
-              href={WHATSAPP_LINK}
+              key={item.href}
+              href={item.href}
+              className="font-inter text-caption uppercase tracking-[0.12em] text-gray-500 hover:text-gold-ink"
+            >
+              {item.label}
+            </a>
+          ))}
+        </div>
+      </nav>
+
+      <Section tone="ivory" rhythm="connected">
+        <Container>
+          <p className="font-inter text-caption uppercase tracking-[0.12em] text-gold-ink mb-4">Also in this silo</p>
+          <ul className="flex flex-wrap gap-x-6 gap-y-2">
+            {PRIVATE_PARTY_SIBLING_LINKS.map((item) => (
+              <li key={item.href}>
+                <Link
+                  to={item.href}
+                  className="font-inter text-body-sm text-gray-700 underline decoration-gold/40 underline-offset-4 hover:text-gold-ink"
+                >
+                  {item.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+          <p className="mt-6 font-inter text-body-sm text-gray-600 max-w-[62ch]">
+            {siloIntro.lead}{' '}
+            <Link to={siloIntro.eventsHref} className="text-gold-ink underline underline-offset-4 hover:text-gold">
+              {siloIntro.eventsLabel}
+            </Link>{' '}
+            {siloIntro.eventsNote}{' '}
+            <Link to={siloIntro.cateringHref} className="text-gold-ink underline underline-offset-4 hover:text-gold">
+              {siloIntro.cateringLabel}
+            </Link>{' '}
+            {siloIntro.cateringNote}
+          </p>
+        </Container>
+      </Section>
+
+      <Section id="occasions" tone="white" rhythm="chapter">
+        <Container>
+          <SectionLabel>WHAT ARE YOU HOSTING?</SectionLabel>
+          <DisplayHeading className="text-black mb-4">A house party, not a second events hub.</DisplayHeading>
+          <BodyCopy className="mb-8">{hostedHereIntro}</BodyCopy>
+          <ul className="mb-12 grid sm:grid-cols-2 gap-x-10 gap-y-2 max-w-3xl">
+            {hostedHere.map((item) => (
+              <li key={item} className="flex items-start gap-3 border-b border-gray-200 py-2.5">
+                <span className="mt-2.5 h-px w-3 shrink-0 bg-gold-ink/60" aria-hidden />
+                <span className="font-inter text-body-sm text-gray-700">{item}</span>
+              </li>
+            ))}
+          </ul>
+          <BodyCopy className="mb-12">{uniqueCardsIntro}</BodyCopy>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {uniqueOccasionCards.map((item) => (
+              <article key={item.href} className="border border-gray-200">
+                <Link to={item.href} data-track="party_card" className="block aspect-[16/10] overflow-hidden">
+                  <img
+                    src={item.image}
+                    alt={item.imageAlt}
+                    width={1600}
+                    height={900}
+                    loading="lazy"
+                    decoding="async"
+                    className="h-full w-full object-cover"
+                  />
+                </Link>
+                <div className="p-6">
+                  <h3 className="font-playfair text-h4 text-black mb-2">{item.title}</h3>
+                  <p className="font-inter text-body-sm text-gray-600 leading-relaxed mb-4">{item.body}</p>
+                  <Link
+                    to={item.href}
+                    data-track="party_card"
+                    className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink hover:text-gold"
+                  >
+                    {item.linkLabel} <ArrowRight size={14} aria-hidden />
+                  </Link>
+                </div>
+              </article>
+            ))}
+          </div>
+          <ul className="mt-12 max-w-3xl divide-y divide-gray-200 border-y border-gray-200">
+            {otherUniqueOccasions.map((item) => (
+              <li key={item.href}>
+                <Link
+                  to={item.href}
+                  data-track="party_card"
+                  className="group flex flex-col gap-1 py-5 sm:flex-row sm:items-baseline sm:justify-between sm:gap-6"
+                >
+                  <span className="font-inter text-body text-gray-600">{item.title}</span>
+                  <span className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink group-hover:text-gold">
+                    {item.linkLabel} <ArrowRight size={14} aria-hidden />
+                  </span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </Container>
+      </Section>
+
+      <Section id="pricing" tone="charcoal" rhythm="chapter">
+        <Container className="max-w-3xl">
+          <SectionLabel tone="dark">FORMATS AND PRICES</SectionLabel>
+          <DisplayHeading className="text-white mb-6">Private party catering Dubai, priced by format</DisplayHeading>
+          {pricingIntro.map((p) => (
+            <p key={p.slice(0, 32)} className="font-inter text-body text-gray-300 leading-relaxed mb-5 max-w-[65ch]">
+              {p}
+            </p>
+          ))}
+          <div className="overflow-x-auto mb-8">
+            <table className="w-full text-left font-inter text-body-sm text-gray-300">
+              <thead>
+                <tr className="border-b border-white/15">
+                  <th className="py-3 pr-4 font-medium text-white">Format</th>
+                  <th className="py-3 pr-4 font-medium text-white">What it is</th>
+                  <th className="py-3 pr-4 font-medium text-white">Staff</th>
+                  <th className="py-3 font-medium text-white">From</th>
+                </tr>
+              </thead>
+              <tbody>
+                {priceRows.map((row) => (
+                  <tr key={row.format} className="border-b border-white/10">
+                    <td className="py-3 pr-4 text-white">
+                      <Link to={row.href} data-track="price_table" className="hover:text-gold">
+                        {row.format}
+                      </Link>
+                    </td>
+                    <td className="py-3 pr-4">{row.what}</td>
+                    <td className="py-3 pr-4">{row.staff}</td>
+                    <td className="py-3">{row.price}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <ul className="mb-8 space-y-2">
+            {pricingNotes.map((note) => (
+              <li key={note} className="font-inter text-body-sm text-gray-400">
+                {note}
+              </li>
+            ))}
+          </ul>
+          <div className="flex flex-wrap gap-6">
+            <Link
+              to={CATERING_PATHS.packages}
+              data-track="price_table"
+              className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold hover:text-gold-light"
+            >
+              View catering packages <ArrowRight size={14} aria-hidden />
+            </Link>
+            <Link
+              to="/buffet-vs-plated-dubai"
+              data-track="price_table"
+              className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold hover:text-gold-light"
+            >
+              Compare catering formats <ArrowRight size={14} aria-hidden />
+            </Link>
+            <Link
+              to={CATERING_INQUIRY_HREF}
+              data-track="price_table"
+              className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold hover:text-gold-light"
+            >
+              Get an itemised quote <ArrowRight size={14} aria-hidden />
+            </Link>
+          </div>
+        </Container>
+      </Section>
+
+      <Section tone="white" rhythm="standard">
+        <Container className="max-w-3xl">
+          <SectionLabel>PRIVATE CHEF OR PARTY CATERING</SectionLabel>
+          <DisplayHeading className="text-black mb-6">{decisionModule.h2}</DisplayHeading>
+          <BodyCopy className="mb-4">
+            <strong className="text-black">{decisionModule.privateChefLead}</strong> {decisionModule.privateChefBody}
+          </BodyCopy>
+          <BodyCopy className="mb-4">
+            <strong className="text-black">{decisionModule.partyLead}</strong> {decisionModule.partyBody}
+          </BodyCopy>
+          <BodyCopy className="mb-4">{decisionModule.events}</BodyCopy>
+          <BodyCopy className="mb-5">{decisionModule.catering}</BodyCopy>
+          <div className="flex flex-wrap gap-6">
+            <Link
+              to={decisionModule.chefHref}
+              className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink hover:text-gold"
+            >
+              {decisionModule.chefLabel} <ArrowRight size={14} aria-hidden />
+            </Link>
+            <Link
+              to={decisionModule.eventsHref}
+              className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink hover:text-gold"
+            >
+              {decisionModule.eventsLabel} <ArrowRight size={14} aria-hidden />
+            </Link>
+            <Link
+              to={decisionModule.cateringHref}
+              className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink hover:text-gold"
+            >
+              {decisionModule.cateringLabel} <ArrowRight size={14} aria-hidden />
+            </Link>
+          </div>
+        </Container>
+      </Section>
+
+      <Section tone="ivory" rhythm="chapter">
+        <Container>
+          <SectionLabel>WHAT IS INCLUDED</SectionLabel>
+          <DisplayHeading className="text-black mb-12">Menu, chefs, staff, equipment, bar, setup and cleanup</DisplayHeading>
+          <div className="grid md:grid-cols-2 gap-8">
+            {includedItems.map((item) => (
+              <div key={item.title} className="border-t border-gray-200 pt-6">
+                <h3 className="font-playfair text-h4 text-black mb-3">{item.title}</h3>
+                <p className="font-inter text-body-sm text-gray-600 leading-relaxed max-w-[52ch]">{item.body}</p>
+              </div>
+            ))}
+          </div>
+        </Container>
+      </Section>
+
+      <Section id="menus" tone="white" rhythm="chapter">
+        <Container>
+          <SectionLabel>HOW THE FOOD IS SERVED</SectionLabel>
+          <DisplayHeading className="text-black mb-4">From drop-off to plated service</DisplayHeading>
+          <BodyCopy className="mb-12">
+            Pick a format. The specialist page owns the full explanation. Cuisine direction lives on{' '}
+            <Link to="/cuisines-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
+              Cuisines
+            </Link>
+            .
+          </BodyCopy>
+          <div className="grid md:grid-cols-2 gap-x-12 border-t border-gray-200">
+            {menuFormats.map((style) => (
+              <Link
+                key={style.title}
+                to={style.href}
+                className="group flex items-start gap-5 border-b border-gray-200 py-6"
+              >
+                <span className="min-w-0 flex-1">
+                  <span className="flex items-center justify-between gap-4">
+                    <h3 className="font-playfair text-h4 text-black transition-colors group-hover:text-gold-ink">{style.title}</h3>
+                    <ArrowRight size={16} className="flex-shrink-0 text-gold-ink opacity-0 -translate-x-1 transition-all group-hover:translate-x-0 group-hover:opacity-100" aria-hidden />
+                  </span>
+                  <p className="mt-1 font-inter text-body-sm text-gray-500 leading-relaxed">{style.body}</p>
+                  <span className="mt-3 inline-block font-inter text-caption uppercase tracking-[0.12em] text-gold-ink">{style.linkLabel}</span>
+                </span>
+              </Link>
+            ))}
+          </div>
+        </Container>
+      </Section>
+
+      <Section id="how-it-works" tone="ivory" rhythm="chapter">
+        <Container>
+          <SectionLabel>HOW IT STARTS</SectionLabel>
+          <DisplayHeading className="text-black mb-12">Four steps. You stay with your guests.</DisplayHeading>
+          <SequenceRail steps={[...startSteps]} />
+        </Container>
+      </Section>
+
+      <Section id="examples" tone="white" rhythm="chapter">
+        <Container>
+          <SectionLabel>HOW THIS LOOKS IN PRACTICE</SectionLabel>
+          <DisplayHeading className="text-black mb-4">Parties we have already run</DisplayHeading>
+          <BodyCopy className="mb-12">
+            Client names stay private. Location, guest range, format and outcome are from events already described on our{' '}
+            <Link to="/case-studies" className="text-gold-ink underline underline-offset-4 hover:text-gold">
+              case studies
+            </Link>{' '}
+            page.
+          </BodyCopy>
+          <div className="grid md:grid-cols-3 gap-8">
+            {exampleEvents.map((item) => (
+              <article key={item.title} className="border border-gray-200 p-6">
+                <h3 className="font-playfair text-h4 text-black mb-2">{item.title}</h3>
+                <p className="font-inter text-caption uppercase tracking-[0.12em] text-gold-ink mb-3">
+                  {item.guests} · {item.venue}
+                </p>
+                <p className="font-inter text-body-sm text-gray-600 leading-relaxed mb-3">{item.setup}</p>
+                <p className="font-inter text-body-sm text-gray-500 leading-relaxed mb-4">{item.outcome}</p>
+                <Link
+                  to={item.href}
+                  className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink hover:text-gold"
+                >
+                  {item.linkLabel} <ArrowRight size={14} aria-hidden />
+                </Link>
+              </article>
+            ))}
+          </div>
+        </Container>
+      </Section>
+
+      <Section tone="ivory" rhythm="chapter">
+        <Container>
+          <SectionLabel>WHY MYCHEF</SectionLabel>
+          <DisplayHeading className="text-black mb-12">Standards you can open, not slogans</DisplayHeading>
+          <div className="grid md:grid-cols-2 gap-8">
+            {proofItems.map((item) => (
+              <div key={item.title} className="border-t border-gray-200 pt-6">
+                <h3 className="font-playfair text-h4 text-black mb-3">{item.title}</h3>
+                <p className="font-inter text-body-sm text-gray-600 leading-relaxed mb-4 max-w-[52ch]">{item.body}</p>
+                <Link
+                  to={item.href}
+                  className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink hover:text-gold"
+                >
+                  {item.linkLabel} <ArrowRight size={14} aria-hidden />
+                </Link>
+              </div>
+            ))}
+          </div>
+        </Container>
+      </Section>
+
+      <Section id="faqs" tone="white" rhythm="standard">
+        <Container className="max-w-[800px]">
+          <SectionLabel align="center">BEFORE YOU BOOK</SectionLabel>
+          <DisplayHeading className="text-black text-center mb-10">What should I know before I book?</DisplayHeading>
+          <FaqAccordion items={[...partyFaqs]} showJumpNav />
+        </Container>
+      </Section>
+
+      <LocationStrip
+        title="House parties across Dubai"
+        subtitle={
+          <>
+            Available across Dubai including{' '}
+            <Link to="/locations/palm-jumeirah" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Palm Jumeirah</Link>,{' '}
+            <Link to="/locations/dubai-marina" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Dubai Marina</Link>
+            {' '}and{' '}
+            <Link to="/locations/downtown-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Downtown Dubai</Link>
+            . See{' '}
+            <Link to="/locations" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">areas we serve</Link>.
+          </>
+        }
+      />
+
+      <Section id="get-quote" tone="dark" rhythm="chapter">
+        <Container className="max-w-3xl">
+          <SectionLabel tone="dark">TELL US WHAT YOU ARE PLANNING</SectionLabel>
+          <DisplayHeading className="text-white mb-6">Date, address and guest count is enough to start</DisplayHeading>
+          <p className="font-inter text-body text-gray-300 leading-relaxed mb-8 max-w-[58ch]">
+            Event buffets start from AED 120 per person. You do not need to build the party before contacting us. We typically reply within 15 minutes during business hours.
+          </p>
+          <CTAGroup>
+            <Link to={CATERING_INQUIRY_HREF} className="btn-primary">
+              Get an itemised party-catering quote
+            </Link>
+            <a
+              href={PRIVATE_PARTY_WHATSAPP_LINK}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-secondary"
             >
-              <Phone size={16} className="mr-2" />
               Chat on WhatsApp
             </a>
-          </div>
-        </div>
-      </section>
+          </CTAGroup>
+        </Container>
+      </Section>
     </div>
   )
 }

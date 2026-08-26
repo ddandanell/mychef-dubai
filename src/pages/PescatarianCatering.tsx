@@ -7,7 +7,7 @@ const config: DietaryPageConfig = {
   slug: 'pescatarian-catering-dubai',
   seoTitle: "Pescatarian Catering Dubai | Seafood Menus",
   metaDescription: 'Pescatarian catering in Dubai for events, villas and offices. Seafood-forward menus with seasonal vegetables, dairy-free options and full-service.',
-  canonicalPath: '/pescatarian-catering-dubai',
+  canonicalPath: '/cuisines-dubai',
   showTrustSignalStrip: true,
   ogImage: '/images/pescatarian-catering-dubai-hero.webp',
   breadcrumbLabel: 'Pescatarian Catering Dubai',
@@ -33,7 +33,7 @@ const config: DietaryPageConfig = {
           sushi catering Dubai
         </Link>{' '}
         for raw-bar experiences, or see our broader{' '}
-        <Link to="/healthy-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
+        <Link to="/cuisines-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           healthy catering Dubai
         </Link>{' '}
         options for wellness-focused events.
@@ -161,7 +161,7 @@ const config: DietaryPageConfig = {
       title: 'Healthy Catering Dubai',
       description: 'Balanced, nutrition-conscious menus that pair naturally with pescatarian dining.',
       image: '/service-corporate.webp',
-      link: '/healthy-catering-dubai',
+      link: '/cuisines-dubai',
     },
     {
       title: 'Buffet Catering Dubai',

@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /ramadan-catering-dubai
+//     primary:     "ramadan catering dubai"
+//     subkeywords: "ramadan catering dubai price" · "ramadan catering cost per person dubai" · "best ramadan catering dubai" · "ramadan catering packages dubai" · "ramadan catering menu dubai" · "ramadan majlis catering dubai" · "ramadan buffet catering" · "ramadan iftar buffet dubai price"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef } from 'react'
 import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
@@ -40,7 +46,7 @@ const ramadanFormats = [
     icon: Sunrise,
     title: 'Suhoor Catering',
     description: 'Late-night, pre-dawn suhoor menus designed to sustain the day ahead, from light savoury plates to comforting hot dishes and refreshing drinks.',
-    link: '/suhoor-catering-dubai',
+    link: '/ramadan-catering-dubai',
   },
   {
     icon: Building,
@@ -164,7 +170,7 @@ const relatedServices = [
     title: 'Suhoor Catering',
     description: 'Pre-dawn suhoor menus to sustain the day ahead, for home and corporate gatherings.',
     image: '/menu-appetizer.webp',
-    link: '/suhoor-catering-dubai',
+    link: '/ramadan-catering-dubai',
   },
   {
     title: 'Eid Catering',
@@ -280,7 +286,7 @@ export default function RamadanCatering() {
     <div ref={containerRef}>
       <SEO
         title="Ramadan Catering Dubai | Iftar, Suhoor & Private Chef | myCHEF"
-        description="Book Ramadan catering in Dubai. Halal iftar and suhoor menus for homes, majlis, villas and corporate gatherings. Get a tailored quote in 15 minutes."
+        description="Book Ramadan catering Dubai. Halal iftar and suhoor menus for homes, majlis, villas and corporate gatherings. Get a tailored quote in 15 minutes."
         canonicalPath="/ramadan-catering-dubai"
         ogImage="/service-events.webp"
         hideSiteName
@@ -347,7 +353,7 @@ export default function RamadanCatering() {
             Ramadan is a season of gathering — of breaking the fast together at Maghrib and sharing quiet suhoor before the day begins. At myCHEF Dubai, we treat the holy month with the care it deserves, bringing generous, halal spreads to homes, majlis, offices, and villas across the city. From the first date and bowl of soup to slow-cooked mains and traditional sweets, every menu is built to honour the occasion and welcome your guests.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Whether you are hosting an intimate family iftar, a corporate function for your team, a community evening, or a late-night suhoor, chefs in our network and service staff handle the cooking, timing, and pack-down on-site. Explore our Ramadan formats below — from <Link to="/iftar-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">iftar catering</Link> and <Link to="/suhoor-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">suhoor catering</Link> to <Link to="/eid-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Eid feasts</Link> — or see how it fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>. Because the season is in such demand, we recommend booking six to eight weeks ahead.
+            Whether you are hosting an intimate family iftar, a corporate function for your team, a community evening, or a late-night suhoor, chefs in our network and service staff handle the cooking, timing, and pack-down on-site. Explore our Ramadan formats below — from <Link to="/iftar-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">iftar catering</Link> and <Link to="/ramadan-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">suhoor catering</Link> to <Link to="/eid-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Eid feasts</Link> — or see how it fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>. Because the season is in such demand, we recommend booking six to eight weeks ahead.
           </p>
         </div>
       </section>
@@ -453,7 +459,7 @@ export default function RamadanCatering() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Ramadan Catering Questions
+            Ramadan Catering Dubai: the questions we get before a booking
           </h2>
 
           <FaqAccordion items={faqs} />
@@ -507,7 +513,7 @@ export default function RamadanCatering() {
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
                   <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
-                    Explore <ArrowRight size={14} />
+                    {svc.title} <ArrowRight size={14} />
                   </span>
                 </div>
               </Link>
@@ -528,7 +534,7 @@ export default function RamadanCatering() {
             {' '}or browse dedicated{' '}
             <Link to="/iftar-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">iftar</Link>{' '}
             and{' '}
-            <Link to="/suhoor-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">suhoor catering</Link>.
+            <Link to="/ramadan-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">suhoor catering</Link>.
           </p>
         </div>
       </section>

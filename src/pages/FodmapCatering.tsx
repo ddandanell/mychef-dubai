@@ -7,7 +7,7 @@ const config: ServicePageConfig = {
   slug: 'fodmap-catering-dubai',
   seoTitle: "FODMAP-Friendly Catering Dubai | Low-FODMAP",
   metaDescription: 'Low-FODMAP catering in Dubai for IBS-friendly events, wellness retreats and private dinners. Gentle menus without onion, garlic and high-FODMAP.',
-  canonicalPath: '/fodmap-catering-dubai',
+  canonicalPath: '/allergy-safe-catering-dubai',
   showTrustSignalStrip: true,
   ogImage: '/images/healthy-catering-dubai-hero.webp',
   breadcrumbLabel: 'FODMAP-Friendly Catering Dubai',
@@ -29,15 +29,15 @@ const config: ServicePageConfig = {
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
         This service complements our broader{' '}
-        <Link to="/healthy-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
+        <Link to="/cuisines-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           healthy catering Dubai
         </Link>{' '}
         range and can be combined with{' '}
-        <Link to="/gluten-free-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
+        <Link to="/allergy-safe-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           gluten-free catering Dubai
         </Link>{' '}
         for wheat-sensitive guests. For events that also need reduced sugar, see our{' '}
-        <Link to="/sugar-free-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
+        <Link to="/allergy-safe-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           sugar-free catering Dubai
         </Link>{' '}
         options.
@@ -56,7 +56,7 @@ const config: ServicePageConfig = {
       Icon: Leaf,
       title: 'Wellness Retreat Catering',
       description: 'Multi-day retreat programmes with low-FODMAP breakfasts, lunches and dinners that support digestive wellbeing.',
-      link: '/healthy-catering-dubai',
+      link: '/cuisines-dubai',
     },
     {
       Icon: Home,
@@ -159,19 +159,19 @@ const config: ServicePageConfig = {
       title: 'Healthy Catering Dubai',
       description: 'Balanced, nutrition-focused menus that pair naturally with low-FODMAP requirements.',
       image: '/service-catering.webp',
-      link: '/healthy-catering-dubai',
+      link: '/cuisines-dubai',
     },
     {
       title: 'Gluten-Free Catering Dubai',
       description: 'Coeliac-safe menus that can be combined with low-FODMAP ingredients.',
       image: '/images/gluten-free-catering-dubai-hero.webp',
-      link: '/gluten-free-catering-dubai',
+      link: '/allergy-safe-catering-dubai',
     },
     {
       title: 'Sugar-Free Catering Dubai',
       description: 'Reduced-sugar menus for guests managing blood sugar alongside digestive health.',
       image: '/images/healthy-catering-dubai-hero.webp',
-      link: '/sugar-free-catering-dubai',
+      link: '/allergy-safe-catering-dubai',
     },
   ],
   ctaH2: 'Plan Low-FODMAP Catering That Works for Everyone',

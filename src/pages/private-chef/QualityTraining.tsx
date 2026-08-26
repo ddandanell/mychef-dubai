@@ -1,6 +1,9 @@
-// KEYWORD LOCK — this page owns: "healthy food chef" (30/mo, UAE).
-// Secondary: food chef (110), chef cook (260).
-// Do not target another cluster page's primary here. See KEYWORD_LOCKS in content/privateChefCluster.ts.
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /private-chef-dubai/quality-training
+//     primary:     none (untargeted by decision)
+//     subkeywords: none
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { Link } from 'react-router'
 import { Check, Clock, Flame, LayoutList, MessageSquare, NotebookPen } from 'lucide-react'
 import SEO from '../../components/SEO'

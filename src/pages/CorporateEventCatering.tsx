@@ -1,8 +1,9 @@
-// KEYWORD LOCK — this page owns: "corporate event catering dubai".
-// Scope: ONE-OFF company events (parties, launches, celebrations, networking, awards).
-// It must NOT target "corporate catering dubai" (that is /corporate), nor office lunches,
-// conference programmes, staff meals, meal prep, retainers or production catering —
-// each has its own page and is linked, not explained, from here.
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /corporate-event-catering-dubai
+//     primary:     "corporate event catering dubai"
+//     subkeywords: "corporate event catering dubai price" · "corporate event catering dubai cost per person" · "best corporate event catering dubai" · "corporate event catering packages dubai" · "corporate event catering menu dubai" · "halal corporate event catering dubai" · "event catering in dubai" · "top event planner offering catering in dubai" · "catering event questionnaire" · "checklist catering event" · "corporate catering near me" · "event advantage catering"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { Link } from 'react-router'
 import { ArrowRight, ArrowUpRight, MessageCircle } from 'lucide-react'
 import SEO from '../components/SEO'
@@ -12,25 +13,26 @@ import CorporateTrustStrip from '../components/CorporateTrustStrip'
 import LocationStrip from '../components/LocationStrip'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
-import { plainFaqAnswer } from '../utils/schema'
 import { Section, Container, SectionLabel, DisplayHeading, BodyCopy } from '../components/system'
 import {
   CORPORATE_INQUIRY_HREF,
   CORPORATE_PATHS,
   CORPORATE_WHATSAPP_LINK,
   CORPORATE_WHATSAPP_MESSAGE,
-  corporateBreadcrumb,
-  corporateEventSeo,
 } from '@/content/corporateCluster'
 import {
+  areaLinks,
   blocks,
   faqs,
   finalCta,
   hero,
   notThisPage,
   scope,
+  seo,
+  siblingLinks,
   specialities,
   steps,
+  uplinks,
   type Block,
 } from '@/content/corporateEventPage'
 
@@ -43,19 +45,23 @@ const schema = {
       '@type': 'Service',
       name: 'Corporate Event Catering Dubai',
       serviceType: 'Corporate event catering',
-      description: corporateEventSeo.description,
+      description: seo.description,
       url: `https://www.mychef.ae${CORPORATE_PATHS.events}`,
       areaServed: { '@type': 'City', name: 'Dubai' },
       provider: { '@id': 'https://www.mychef.ae/#organization' },
     },
-    corporateBreadcrumb('Corporate Event Catering', CORPORATE_PATHS.events),
     {
-      '@type': 'FAQPage',
-      mainEntity: faqs.map((f) => ({
-        '@type': 'Question',
-        name: f.q,
-        acceptedAnswer: { '@type': 'Answer', text: plainFaqAnswer(f.a) },
-      })),
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.mychef.ae/' },
+        { '@type': 'ListItem', position: 2, name: 'Corporate dining', item: 'https://www.mychef.ae/corporate' },
+        {
+          '@type': 'ListItem',
+          position: 3,
+          name: 'Corporate event catering',
+          item: `https://www.mychef.ae${CORPORATE_PATHS.events}`,
+        },
+      ],
     },
   ],
 }
@@ -100,8 +106,8 @@ export default function CorporateEventCatering() {
   return (
     <div>
       <SEO
-        title={corporateEventSeo.title}
-        description={corporateEventSeo.description}
+        title={seo.title}
+        description={seo.description}
         canonicalPath={CORPORATE_PATHS.events}
         ogImage={HERO_IMAGE}
         hideSiteName
@@ -110,7 +116,6 @@ export default function CorporateEventCatering() {
       />
 
       <PageHero
-        variant="quiet"
         eyebrow={hero.eyebrow}
         title={hero.h1}
         subtitle={hero.subtitle}
@@ -122,16 +127,19 @@ export default function CorporateEventCatering() {
         secondaryCta={{ label: hero.secondaryCta, href: CORPORATE_WHATSAPP_LINK, external: true }}
         breadcrumb={[
           { label: 'Home', href: '/' },
-          { label: 'Corporate Catering', href: CORPORATE_PATHS.hub },
-          { label: 'Corporate Event Catering' },
+          { label: 'Corporate dining', href: CORPORATE_PATHS.hub },
+          { label: 'Corporate event catering' },
         ]}
-        minHeight="tall"
-        overlay="left"
+        minHeight="full"
+        overlay="dark"
         align="left"
         imagePosition="center 45%"
       />
 
       <TrustSignalStrip />
+      <div className="bg-black">
+        <CorporateTrustStrip />
+      </div>
 
       <Section tone="white" rhythm="standard">
         <Container>
@@ -139,16 +147,45 @@ export default function CorporateEventCatering() {
         </Container>
       </Section>
 
+      <Section tone="ivory" rhythm="connected">
+        <Container>
+          <p className="font-inter text-caption uppercase tracking-[0.12em] text-gold-ink mb-4">Also in this silo</p>
+          <ul className="flex flex-wrap gap-x-6 gap-y-2">
+            {siblingLinks.map((item) => (
+              <li key={item.href}>
+                <Link
+                  to={item.href}
+                  className="font-inter text-body-sm text-gray-700 underline decoration-gold/40 underline-offset-4 hover:text-gold-ink"
+                >
+                  {item.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </Container>
+      </Section>
+
       {/* Scope — what we do and what we do not */}
-      <Section tone="ivory" rhythm="chapter">
+      <Section tone="white" rhythm="chapter">
         <Container>
           <SectionLabel>Scope</SectionLabel>
           <TextBlock block={scope} />
+          <p className="mt-8 max-w-[760px] font-inter text-body text-gray-600 leading-relaxed">
+            {uplinks.lead}{' '}
+            <Link to={uplinks.corporateHref} className="text-gold-ink underline underline-offset-4 hover:text-gold">
+              {uplinks.corporateLabel}
+            </Link>
+            . {uplinks.mid}{' '}
+            <Link to={uplinks.luxuryHref} className="text-gold-ink underline underline-offset-4 hover:text-gold">
+              {uplinks.luxuryLabel}
+            </Link>
+            .
+          </p>
         </Container>
       </Section>
 
       {/* Company parties — deliberately the first substantive section, ahead of galas */}
-      <Section tone="white" rhythm="chapter">
+      <Section tone="ivory" rhythm="chapter">
         <Container>
           <SectionLabel>Company parties</SectionLabel>
           <TextBlock block={blocks[0]} />
@@ -156,7 +193,7 @@ export default function CorporateEventCatering() {
       </Section>
 
       {/* Event types + speciality hand-off */}
-      <Section tone="ivory" rhythm="chapter">
+      <Section tone="white" rhythm="chapter">
         <Container>
           <SectionLabel>Event types</SectionLabel>
           <TextBlock block={blocks[1]} />
@@ -168,7 +205,7 @@ export default function CorporateEventCatering() {
                 </h3>
                 <p className="mt-2 font-inter text-body-sm leading-relaxed text-gray-600">{s.text}</p>
                 <span className="mt-4 inline-flex items-center gap-1.5 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink">
-                  Explore
+                  {s.linkLabel}
                   <ArrowRight size={13} className="transition-transform group-hover:translate-x-1" />
                 </span>
               </Link>
@@ -178,15 +215,22 @@ export default function CorporateEventCatering() {
       </Section>
 
       {/* Formats */}
-      <Section tone="white" rhythm="chapter">
+      <Section tone="ivory" rhythm="chapter">
         <Container>
           <SectionLabel>Service formats</SectionLabel>
           <TextBlock block={blocks[2]} />
+          <p className="mt-6 max-w-[760px] font-inter text-body-sm text-gray-500">
+            Need food delivered with no team on site?{' '}
+            <Link to="/drop-off-catering-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
+              Drop-off catering
+            </Link>
+            .
+          </p>
         </Container>
       </Section>
 
       {/* Menus & dietary */}
-      <Section tone="ivory" rhythm="chapter">
+      <Section tone="white" rhythm="chapter">
         <Container>
           <SectionLabel>Menus</SectionLabel>
           <TextBlock block={blocks[3]} />
@@ -194,17 +238,29 @@ export default function CorporateEventCatering() {
       </Section>
 
       {/* Logistics */}
-      <Section tone="white" rhythm="chapter">
+      <Section tone="ivory" rhythm="chapter">
         <Container>
           <SectionLabel>Logistics</SectionLabel>
           <TextBlock block={blocks[4]} />
+          <p className="mt-8 max-w-[760px] font-inter text-body-sm text-gray-500">
+            {areaLinks.map((item, i) => (
+              <span key={item.href}>
+                {i > 0 && <span className="text-gray-300"> · </span>}
+                <Link to={item.href} className="text-gold-ink underline underline-offset-4 hover:text-gold">
+                  {item.label}
+                </Link>
+              </span>
+            ))}
+            <span className="text-gray-300"> · </span>
+            <Link to="/locations" className="text-gold-ink underline underline-offset-4 hover:text-gold">
+              Areas we serve
+            </Link>
+          </p>
         </Container>
       </Section>
 
-      <CorporateTrustStrip />
-
       {/* Pricing & procurement */}
-      <Section tone="ivory" rhythm="chapter">
+      <Section tone="white" rhythm="chapter">
         <Container>
           <SectionLabel>Pricing</SectionLabel>
           <TextBlock block={blocks[5]} />
@@ -212,7 +268,7 @@ export default function CorporateEventCatering() {
       </Section>
 
       {/* How it works */}
-      <Section tone="white" rhythm="chapter">
+      <Section tone="ivory" rhythm="chapter">
         <Container>
           <SectionLabel>How it works</SectionLabel>
           <TextBlock block={blocks[6]} />
@@ -259,12 +315,9 @@ export default function CorporateEventCatering() {
         </Container>
       </Section>
 
-      {/* FAQ — eight visible questions, matching the FAQPage markup exactly */}
       <section className="bg-cream py-24">
         <div className="container-custom max-w-[800px]">
-          <h2 className="mb-10 font-playfair text-fluid-h2 text-black">
-            Corporate Event Catering in Dubai — Common Questions
-          </h2>
+          <h2 className="mb-10 font-playfair text-fluid-h2 text-black">Corporate Event Catering Dubai: Questions that come up before a company event</h2>
           <FaqAccordion items={[...faqs]} defaultOpen={-1} />
           <p className="mt-8 font-inter text-body-sm text-gray-500">
             Planning the wider programme?{' '}
@@ -283,7 +336,32 @@ export default function CorporateEventCatering() {
         </div>
       </section>
 
-      <LocationStrip />
+      <LocationStrip
+        title="Company events across Dubai"
+        subtitle={
+          <>
+            Most briefings we take are in{' '}
+            <Link to="/locations/difc" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
+              DIFC
+            </Link>
+            ,{' '}
+            <Link
+              to="/locations/business-bay"
+              className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors"
+            >
+              Business Bay
+            </Link>{' '}
+            and{' '}
+            <Link
+              to="/locations/downtown-dubai"
+              className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors"
+            >
+              Downtown Dubai
+            </Link>
+            .
+          </>
+        }
+      />
 
       <Section tone="charcoal" rhythm="chapter">
         <Container>
@@ -309,9 +387,13 @@ export default function CorporateEventCatering() {
               </a>
             </div>
             <p className="mt-8 font-inter text-body-sm text-white/45">
-              Broader corporate catering, including recurring workplace service, sits on the{' '}
+              Recurring workplace catering sits on{' '}
               <Link to={CORPORATE_PATHS.hub} className="text-gold hover:text-gold-light">
-                corporate catering hub
+                Corporate catering in Dubai
+              </Link>
+              . Weddings, villas and yachts sit on{' '}
+              <Link to="/catering-dubai" className="text-gold hover:text-gold-light">
+                Luxury catering in Dubai
               </Link>
               .
             </p>

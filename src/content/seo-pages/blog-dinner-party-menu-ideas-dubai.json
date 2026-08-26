@@ -27,11 +27,11 @@
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
   "title": "Dinner Party Menu Ideas Dubai: A Host's 2026 Guide | myCHEF",
-  "meta_description": "Dinner party menu ideas in Dubai, from budgeting and a three-course structure to showpiece stations, dietary planning and whether to hire a private chef.",
-  "h1": "Dinner Party Menu Ideas for Dubai Hosts — Real Prices and Timings"
+  "meta_description": "Dinner party menu ideas Dubai, from budgeting and a three-course structure to showpiece stations, dietary planning and whether to hire a private chef.",
+  "h1": "Dinner Party Menu Ideas Dubai Hosts — Real Prices and Timings"
  },
  "opening_paragraph": [
-  "A dinner party in Dubai with a myCHEF private chef costs from around AED 700 per person. Great dinner party menu ideas in Dubai begin with your guests and a budget of around AED 700 per person for a private-chef dinner. Build from there: pick one cuisine direction, balance the plates from light to rich, cover every dietary need, and add one thing people remember. Do that and the evening runs itself. Better still, hand the cooking to a chef and be a guest at your own table."
+  "A dinner party in Dubai with a myCHEF private chef costs from around AED 700 per person. Great dinner party menu ideas Dubai begin with your guests and a budget of around AED 700 per person for a private-chef dinner. Build from there: pick one cuisine direction, balance the plates from light to rich, cover every dietary need, and add one thing people remember. Do that and the evening runs itself. Better still, hand the cooking to a chef and be a guest at your own table."
  ],
  "replace_in_block": [
   {
@@ -266,5 +266,18 @@
    "after_heading": "Add one showpiece",
    "caption": "One showpiece is enough. The rest of the menu can stay simple."
   }
- ]
+ ],
+ "keyword_lock": {
+  "primary": "dinner party menu ideas dubai",
+  "subkeywords": [
+   "what to serve at a dinner party dubai",
+   "3 course dinner party menu dubai",
+   "dinner party menu ideas dubai indian",
+   "dinner party menu ideas dubai vegetarian",
+   "simple but elegant dinner party menu",
+   "themed dinner party menu ideas",
+   "casual dinner party menu ideas",
+   "food party dubai menu"
+  ]
+ }
 }

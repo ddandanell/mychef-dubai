@@ -1,6 +1,9 @@
-// KEYWORD LOCK — this page owns: "private chef dubai" (320/mo, UAE).
-// Secondary: chef dubai (720), private chef (170), private chef services (20), private chef agency (20).
-// Do not target another cluster page's primary here. See KEYWORD_LOCKS in content/privateChefCluster.ts.
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /private-chef-dubai
+//     primary:     "private chef dubai"
+//     subkeywords: "personal chef dubai" · "chef at home dubai" · "private chef service dubai" · "book a private chef dubai" · "private chef for dinner party dubai" · "private chef near me dubai" · "private chef" · "private chef near me" · "french private chef dubai" · "private chef dubai daily" · "private chef dubai full time" · "private chef dubai monthly"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { Link } from 'react-router'
 import { ArrowRight } from 'lucide-react'
 import SEO from '../components/SEO'
@@ -30,8 +33,10 @@ import {
   CLUSTER_PATHS,
   FIND_CHEF_LABEL,
   INQUIRY_HREF,
+  PRIVATE_CHEF_SIBLING_LINKS,
   foodProfilePreview,
   householdProblems,
+  hubRouteCards,
   parentFaqs,
   parentSeo,
   pricingPreview,
@@ -71,7 +76,7 @@ const schema = {
         { '@id': 'https://www.mychef.ae/#place-jvc' },
       ],
       description:
-        'Standing household private chef in Dubai: same chef, Food Profile, backup if they are off. From a few days a week to a long-term household plan, the chef is matched, assessed and managed.',
+        'Private chef Dubai for a standing household: same chef, Food Profile, backup if they are off. From a few days a week to a long-term household plan, the chef is matched, assessed and managed.',
       url: 'https://www.mychef.ae/private-chef-dubai',
     },
     {
@@ -100,7 +105,6 @@ export default function PrivateChef() {
       />
 
       <PageHero
-        variant="quiet"
         eyebrow={parentSeo.eyebrow}
         title={parentSeo.h1}
         subtitle={parentSeo.subtitle}
@@ -111,7 +115,7 @@ export default function PrivateChef() {
         videoSrc="/videos/private-chef-hero.mp4"
         cta={{ label: FIND_CHEF_LABEL, href: INQUIRY_HREF }}
         secondaryCta={{ label: 'How It Works', href: CLUSTER_PATHS.howItWorks }}
-        breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Private Chef Dubai' }]}
+        breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Private chef' }]}
         minHeight="full"
         overlay="cinematic"
         align="left"
@@ -121,18 +125,43 @@ export default function PrivateChef() {
       <RatesBar />
       <ClusterNav />
 
+      <Section tone="ivory" rhythm="connected">
+        <Container>
+          <p className="font-inter text-caption uppercase tracking-[0.12em] text-gold-ink mb-4">Also in this silo</p>
+          <ul className="flex flex-wrap gap-x-6 gap-y-2">
+            {PRIVATE_CHEF_SIBLING_LINKS.map((item) => (
+              <li key={item.href}>
+                <Link
+                  to={item.href}
+                  className="font-inter text-body-sm text-gray-700 underline decoration-gold/40 underline-offset-4 hover:text-gold-ink"
+                >
+                  {item.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+          <p className="mt-6 font-inter text-body-sm text-gray-600 max-w-[62ch]">
+            A standing household chef stays here. A one-night dinner goes to{' '}
+            <Link to="/catering-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
+              Luxury catering in Dubai
+            </Link>
+            .
+          </p>
+        </Container>
+      </Section>
+
       <Section id="what-this-is" tone="white">
         <Container>
           <div className="grid lg:grid-cols-[1.05fr_0.95fr] gap-12 lg:gap-16 items-center">
             <div>
               <Eyebrow>What this is</Eyebrow>
-              <DisplayHeading size="h2" className="text-black mb-6">A household chef. A system behind them.</DisplayHeading>
+              <DisplayHeading size="h2" className="text-black mb-6">What a private chef Dubai arrangement is</DisplayHeading>
               <BodyCopy className="mb-5">
                 myCHEF is not a list of chefs you have to manage, and not a staffing agency that puts someone on your payroll. Independent, licensed culinary partners cook. We organise the chef: the match, the Food Profile and the backup.
               </BodyCopy>
               <BodyCopy className="mb-5">
-                You are buying a standing food service for a household — usually the same chef, a record of how this house eats, and one contact when something changes. That is a different product from a one-night dinner. A one-night dinner is{' '}
-                <Link to="/catering-dubai" className="text-gold-ink hover:text-gold-light underline underline-offset-4">catering</Link>.
+                You are buying a standing in-home chef in Dubai — usually the same person, a record of how this house eats, and one contact when something changes. That is a different product from a one-night dinner. A one-night dinner is{' '}
+                <Link to="/catering-dubai" className="text-gold-ink hover:text-gold-light underline underline-offset-4">Luxury catering in Dubai</Link>.
               </BodyCopy>
               <BodyCopy muted>
                 If you want breakfast to appear without briefing it, a villa that eats for weeks, or a family that does not want another person to manage — this is the page.
@@ -151,13 +180,48 @@ export default function PrivateChef() {
         </Container>
       </Section>
 
-      <Section id="household-easier" tone="ivory">
+      <Section id="which-service" tone="ivory">
+        <Container>
+          <div className="max-w-[720px] mb-10">
+            <Eyebrow>Which page</Eyebrow>
+            <DisplayHeading size="h2" className="text-black mb-4">One night, or a chef who stays</DisplayHeading>
+            <BodyCopy muted>
+              A standing household chef stays on this page. A one-night dinner belongs on catering — not here.
+            </BodyCopy>
+          </div>
+          <div className="grid md:grid-cols-2 gap-4">
+            {hubRouteCards.map((card) =>
+              card.href ? (
+                <Link
+                  key={card.title}
+                  to={card.href}
+                  className="border border-gray-200 bg-white p-6 md:p-8 hover:border-gold/50 transition-colors"
+                >
+                  <h3 className="font-playfair text-h4 text-black mb-3">{card.title}</h3>
+                  <p className="font-inter text-body-sm text-gray-500 leading-relaxed mb-5">{card.body}</p>
+                  <span className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-wider text-gold-ink">
+                    {card.cta} <ArrowRight size={14} />
+                  </span>
+                </Link>
+              ) : (
+                <div key={card.title} className="border border-gold/40 bg-white p-6 md:p-8">
+                  <h3 className="font-playfair text-h4 text-black mb-3">{card.title}</h3>
+                  <p className="font-inter text-body-sm text-gray-500 leading-relaxed mb-5">{card.body}</p>
+                  <p className="font-inter text-caption uppercase tracking-wider text-gold-ink">{card.cta}</p>
+                </div>
+              ),
+            )}
+          </div>
+        </Container>
+      </Section>
+
+      <Section id="household-easier" tone="white">
         <Container>
           <div className="max-w-[720px] mx-auto text-center mb-12">
             <Eyebrow align="center">Who it is for</Eyebrow>
             <DisplayHeading size="h2" className="text-black">What would make the household easier?</DisplayHeading>
             <BodyCopy muted className="mt-4 mx-auto">
-              Not which cuisine, and not which evening. The useful question is the one the house is already living with — families, villas and long stays included.
+              Not which cuisine, and not which evening. A chef at home in Dubai is useful when the house already has a weekly problem — families, villas and long stays included.
             </BodyCopy>
           </div>
           <div className="grid md:grid-cols-2 gap-x-16 gap-y-10 md:gap-y-12 max-w-[1060px] mx-auto">
@@ -341,7 +405,7 @@ export default function PrivateChef() {
             <Eyebrow align="center">Trust</Eyebrow>
             <DisplayHeading size="h2" className="text-black">Who we put in the kitchen</DisplayHeading>
             <BodyCopy muted className="mt-4 mx-auto">
-              The short version. Selection, quality and discretion each have their own page.
+              A personal chef in Dubai is matched to this kitchen — identity, a cook-off, then household fit. Selection, quality and discretion each have their own page.
             </BodyCopy>
           </div>
           <ol className="grid sm:grid-cols-2 lg:grid-cols-4 gap-px bg-gray-200 border border-gray-200 mb-10">
@@ -354,7 +418,7 @@ export default function PrivateChef() {
             ))}
           </ol>
           <div className="flex flex-col sm:flex-row justify-center gap-6 text-center">
-            <Link to={CLUSTER_PATHS.ourChefs} className="inline-flex items-center justify-center gap-2 font-inter text-caption uppercase tracking-wider text-gold-ink hover:text-gold">
+            <Link to="/our-chefs" className="inline-flex items-center justify-center gap-2 font-inter text-caption uppercase tracking-wider text-gold-ink hover:text-gold">
               See how we select chefs <ArrowRight size={14} />
             </Link>
             <Link to={CLUSTER_PATHS.privacy} className="inline-flex items-center justify-center gap-2 font-inter text-caption uppercase tracking-wider text-gold-ink hover:text-gold">
@@ -401,7 +465,7 @@ export default function PrivateChef() {
       <section id="faq" className="bg-cream py-20 scroll-mt-24">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-4">
-            What should I know before starting a household chef in Dubai?
+            Private Chef Dubai: What should I know before starting a household chef in Dubai?
           </h2>
           <p className="font-inter text-body-sm text-gray-500 text-center mb-8 leading-relaxed">
             Short answers. The system, the chefs, privacy and the full price logic each have their own page.
@@ -424,17 +488,19 @@ export default function PrivateChef() {
         title="A household chef across Dubai"
         subtitle={
           <>
-            A standing{' '}
-            <Link to="/locations/palm-jumeirah" className="text-gold-ink hover:text-gold-light underline underline-offset-4">private chef in Palm Jumeirah</Link>,{' '}
-            <Link to="/locations/dubai-marina" className="text-gold-ink hover:text-gold-light underline underline-offset-4">Dubai Marina</Link>
-            {' '}or{' '}
-            <Link to="/locations/downtown-dubai" className="text-gold-ink hover:text-gold-light underline underline-offset-4">Downtown Dubai</Link>
-            — matched to the house, not to a single evening.
+            A private chef near me in Dubai still needs a match, not a pin on a map.{' '}
+            <Link to="/locations/palm-jumeirah" className="text-gold-ink hover:text-gold-light underline underline-offset-4">Palm Jumeirah</Link>,{' '}
+            <Link to="/locations/emirates-hills" className="text-gold-ink hover:text-gold-light underline underline-offset-4">Emirates Hills</Link>
+            {' '}and{' '}
+            <Link to="/locations/dubai-hills" className="text-gold-ink hover:text-gold-light underline underline-offset-4">Dubai Hills</Link>
+            {' '}are typical houses; the same system covers the rest of the city.
           </>
         }
       />
 
-      <ClusterCTA />
+      <ClusterCTA
+        body={`Book a private chef in Dubai after the figure is in writing. Long-term plans from ${formatAed(pricingPreview[0].monthly)} a month for a weekly Fresh Meal — up to a full-day chef, seven days a week. Build the plan on the pricing page, send it, and the exact figure arrives before anyone starts.`}
+      />
     </div>
   )
 }

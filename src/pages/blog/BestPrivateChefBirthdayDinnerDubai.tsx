@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /blog/best-private-chef-birthday-dinner-dubai
+//     primary:     "private chef for birthday dinner dubai"
+//     subkeywords: "best private chef birthday dinner dubai" · "private chef birthday dinner cost dubai" · "birthday dinner ideas at home dubai" · "birthday dinner party at home dubai" · "private chef dinner menu" · "private chef dinner party near me" · "book a private chef" · "private beach dinner dubai"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef } from 'react'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { Link } from 'react-router'
@@ -52,7 +58,7 @@ const faqs = [
   },
   {
     q: "Do you cater kids' birthday dinners?",
-    a: "Yes. Kids' birthday dinners are a common booking, with familiar favourites, interactive build-your-own elements and a cake moment. Menus are cooked to be enjoyable rather than fussy, and the chef handles the mess. Larger children's parties are planned on our [kids birthday catering](/kids-birthday-catering-dubai) page, and a fixed option for 8-12 guests is the [birthday celebration package](/birthday-catering-package-dubai).",
+    a: "Yes. Kids' birthday dinners are a common booking, with familiar favourites, interactive build-your-own elements and a cake moment. Menus are cooked to be enjoyable rather than fussy, and the chef handles the mess. Larger children's parties are planned on our [kids birthday catering](/birthday-catering-dubai) page, and a fixed option for 8-12 guests is the [birthday celebration package](/birthday-catering-package-dubai).",
   },
   {
     q: 'How do I get an exact quote?',
@@ -116,8 +122,8 @@ export default function BestPrivateChefBirthdayDinnerDubai() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Best Private Chef Birthday Dinner Dubai"
-        description="Plan a private chef birthday dinner in Dubai with menu ideas, indicative costs, booking tips, and answers to the most common host questions."
+        title="Private Chef for Birthday Dinner Dubai | myCHEF"
+        description="Private Chef for Birthday Dinner Dubai — Plan a private chef birthday dinner in Dubai with menu ideas, indicative costs, booking tips, and answers to the…"
         canonicalPath={`/blog/${SLUG}`}
         ogImage="/images/blog/best-private-chef-birthday-dinner-dubai-hero.webp"
         schema={schema}
@@ -126,8 +132,8 @@ export default function BestPrivateChefBirthdayDinnerDubai() {
       {/* Hero */}
       <PageHero
         eyebrow="Birthday"
-        title="Best Private Chef Birthday Dinner in Dubai: Menu Ideas, Costs & How to Book"
-        subtitle="How to host an unforgettable birthday dinner at home or in your villa with a private chef, from menu planning to final toast."
+        title="Private Chef for Birthday Dinner Dubai — Menu Ideas, Costs & How to Book"
+        subtitle="Private Chef for Birthday Dinner Dubai by myCHEF — How to host an unforgettable birthday dinner at home or in your villa with a private chef, from menu planning to final toast."
         image="/images/blog/best-private-chef-birthday-dinner-dubai-hero.webp"
         imageAlt="Private chef birthday dinner catering in Dubai"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Blog', href: '/blog' }, { label: 'Private Chef Birthday Dinner Dubai' }]}
@@ -303,7 +309,7 @@ export default function BestPrivateChefBirthdayDinnerDubai() {
           <BlogRelated currentSlug="/blog/best-private-chef-birthday-dinner-dubai" />
 
           <section className="article-cta opacity-0 translate-y-8 bg-cream p-8 md:p-12 text-center">
-            <h2 className="font-playfair text-h3 text-black mb-4">Ready to Plan Your Birthday Dinner?</h2>
+            <h2 className="font-playfair text-h3 text-black mb-4">Private Chef for Birthday Dinner Dubai: Ready to Plan Your Birthday Dinner?</h2>
             <p className="font-inter text-body text-gray-500 max-w-[600px] mx-auto mb-8">
               Tell us about your celebration and we will bring you a private chef who can design a menu, handle the service, and leave your kitchen spotless.
             </p>

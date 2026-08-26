@@ -8,7 +8,7 @@ const config: OccasionPageConfig = {
   seoTitle: "Beach Catering Dubai | Seafood Menus",
   metaDescription:
     'Beach catering in Dubai for private gatherings, beach clubs and shoreline events. Fresh seafood, grilled meats, salads and full service by the water.',
-  canonicalPath: '/beach-catering-dubai',
+  canonicalPath: '/private-party-catering-dubai',
   ogImage: '/images/beach-catering-dubai-hero.webp',
   breadcrumbLabel: 'Beach Catering Dubai',
   h1: 'Beach Catering in Dubai',

@@ -298,7 +298,7 @@ export default function EngagementCatering() {
       <SEO
         title="Engagement Party Catering Dubai | Villa Receptions | myCHEF"
         description="Book engagement party catering in Dubai. Plated dinners, canapé receptions, dessert tables and bar service for villas and venues. Get a quote in 15 minutes."
-        canonicalPath="/engagement-catering-dubai"
+        canonicalPath="/private-party-catering-dubai"
         ogImage="/service-luxury-dining.webp"
         hideSiteName
         schema={schema}
@@ -525,7 +525,7 @@ export default function EngagementCatering() {
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
                   <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
-                    Explore <ArrowRight size={14} />
+                    {svc.title} <ArrowRight size={14} />
                   </span>
                 </div>
               </Link>
@@ -533,7 +533,7 @@ export default function EngagementCatering() {
           </div>
           <p className="font-inter text-body-sm text-gray-400 text-center mt-10">
             Celebrating a milestone together? Explore our{' '}
-            <Link to="/anniversary-catering-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">anniversary dinner catering</Link>.
+            <Link to="/private-party-catering-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">anniversary dinner catering</Link>.
           </p>
         </div>
       </section>

@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /fitness-meal-prep-dubai
+//     primary:     "fitness meal prep dubai"
+//     subkeywords: "fitness meal prep dubai price" · "fitness meal prep dubai price per meal" · "best fitness meal prep dubai" · "fitness meal prep packages dubai" · "fitness meal prep menu dubai" · "halal fitness meal prep dubai" · "high protein meal prep dubai" · "bodybuilding meal prep dubai" · "fitness meal plan dubai" · "practical meal prep uae" · "best meal prep companies dubai" · "personal chef meal prep near me cost"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef } from 'react'
 import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
@@ -107,7 +113,7 @@ const relatedServices = [
     title: 'Healthy Catering Dubai',
     description: 'Balanced, nutrition-conscious menus for events and family dining.',
     image: '/images/healthy-catering-dubai-hero.webp',
-    link: '/healthy-catering-dubai',
+    link: '/cuisines-dubai',
   },
 ]
 
@@ -176,7 +182,7 @@ export default function FitnessMealPrep() {
     <div ref={containerRef}>
       <SEO
         title="Fitness Meal Prep Dubai | Macro Meals | myCHEF"
-        description="Fitness meal prep in Dubai by a private chef. Macro-calculated, calorie-precision meals for fat loss, muscle gain, and athletic performance. Get a quote."
+        description="Fitness meal prep Dubai by a private chef. Macro-calculated, calorie-precision meals for fat loss, muscle gain, and athletic performance. Get a quote."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/healthy-catering-dubai-hero.webp"
         hideSiteName
@@ -301,7 +307,7 @@ export default function FitnessMealPrep() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Fitness Meal Prep Questions
+            Fitness Meal Prep Dubai: the questions we get before a booking
           </h2>
 
           <FaqAccordion items={faqs} />
@@ -333,7 +339,7 @@ export default function FitnessMealPrep() {
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
                   <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
-                    Explore <ArrowRight size={14} />
+                    {svc.title} <ArrowRight size={14} />
                   </span>
                 </div>
               </Link>

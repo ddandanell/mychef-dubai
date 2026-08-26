@@ -7,7 +7,7 @@ const config: ServicePageConfig = {
   slug: 'sugar-free-catering-dubai',
   seoTitle: "Sugar-Free Catering Dubai | Diabetic-Friendly",
   metaDescription: 'Sugar-free and diabetic-friendly catering in Dubai for offices, villas and wellness events. Naturally sweetened dishes, low-GI menus and full setup.',
-  canonicalPath: '/sugar-free-catering-dubai',
+  canonicalPath: '/allergy-safe-catering-dubai',
   showTrustSignalStrip: true,
   ogImage: '/images/healthy-catering-dubai-hero.webp',
   breadcrumbLabel: 'Sugar-Free Catering Dubai',
@@ -29,15 +29,15 @@ const config: ServicePageConfig = {
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
         This approach works alongside our wider{' '}
-        <Link to="/healthy-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
+        <Link to="/cuisines-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           healthy catering Dubai
         </Link>{' '}
         range and pairs naturally with{' '}
-        <Link to="/keto-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
+        <Link to="/cuisines-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           keto catering Dubai
         </Link>{' '}
         for low-carb events. We can also combine sugar-free requirements with{' '}
-        <Link to="/gluten-free-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
+        <Link to="/allergy-safe-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           gluten-free catering Dubai
         </Link>{' '}
         in a single coherent menu.
@@ -159,25 +159,25 @@ const config: ServicePageConfig = {
       title: 'Healthy Catering Dubai',
       description: 'Balanced, nutrition-focused menus that pair naturally with sugar-free requirements.',
       image: '/service-catering.webp',
-      link: '/healthy-catering-dubai',
+      link: '/cuisines-dubai',
     },
     {
       title: 'Keto Catering Dubai',
       description: 'Low-carb, high-protein menus that overlap naturally with reduced-sugar dining.',
       image: '/service-events.webp',
-      link: '/keto-catering-dubai',
+      link: '/cuisines-dubai',
     },
     {
       title: 'Gluten-Free Catering Dubai',
       description: 'Coeliac-safe and gluten-free menus that can be combined with sugar-free options.',
       image: '/menu-canapes.webp',
-      link: '/gluten-free-catering-dubai',
+      link: '/allergy-safe-catering-dubai',
     },
     {
       title: 'FODMAP-Friendly Catering Dubai',
       description: 'Low-FODMAP menus for guests managing digestive sensitivities alongside sugar intake.',
       image: '/images/healthy-catering-dubai-hero.webp',
-      link: '/fodmap-catering-dubai',
+      link: '/allergy-safe-catering-dubai',
     },
   ],
   ctaH2: 'Plan Sugar-Free Catering That Everyone Enjoys',

@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /loyalty-programme
+//     primary:     "mychef loyalty programme"
+//     subkeywords: "mychef rewards"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef } from 'react'
 import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
@@ -193,8 +199,8 @@ export default function LoyaltyProgramme() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Loyalty Programme Dubai | Private Dining"
-        description="Earn rewards every time you book a private chef or catering with myCHEF Dubai. Our loyalty programme turns repeat dining into credits and experiences."
+        title="myCHEF Loyalty Programme | Loyalty Programme Dubai | myCHEF"
+        description="myCHEF Loyalty Programme — Earn rewards every time you book a private chef or catering with myCHEF Dubai. Our loyalty programme turns repeat dining into…"
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/luxury-dining-dubai-hero.webp"
         schema={schema}
@@ -218,7 +224,7 @@ export default function LoyaltyProgramme() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 lp-hero-h1">
-            Loyalty Programme
+            myCHEF Loyalty Programme
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 lp-hero-sub">
             Every booking earns you closer to credits, chef upgrades, and exclusive experiences. The more you dine with myCHEF Dubai, the more we give back.
@@ -338,7 +344,7 @@ export default function LoyaltyProgramme() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Loyalty Programme Questions
+            myCHEF Loyalty Programme: the questions we get before a booking
           </h2>
 
           <FaqAccordion items={faqs} />
@@ -370,7 +376,7 @@ export default function LoyaltyProgramme() {
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
                   <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
-                    Explore <ArrowRight size={14} />
+                    {svc.title} <ArrowRight size={14} />
                   </span>
                 </div>
               </Link>

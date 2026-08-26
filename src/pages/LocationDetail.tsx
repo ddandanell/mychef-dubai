@@ -208,7 +208,7 @@ export default function LocationDetail() {
             </ol>
           </nav>
 
-          <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 loc-hero-h1">
+          <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 loc-hero-h1">
             {loc.h1}
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[700px] mx-auto mb-4 leading-relaxed opacity-0 translate-y-5 loc-hero-sub">

@@ -285,7 +285,7 @@ export default function BachelorettePartyCatering() {
       <SEO
         title="Bachelorette Party Catering Dubai | Canapés & Grazing | myCHEF"
         description="Book bachelorette party catering in Dubai. Elegant canapés, grazing tables, cocktails and mocktails for villas and rooftops. Get a quote in 15 minutes."
-        canonicalPath="/bachelorette-party-catering-dubai"
+        canonicalPath="/private-party-catering-dubai"
         ogImage="/service-events.webp"
         hideSiteName
         schema={schema}
@@ -510,7 +510,7 @@ export default function BachelorettePartyCatering() {
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
                   <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
-                    Explore <ArrowRight size={14} />
+                    {svc.title} <ArrowRight size={14} />
                   </span>
                 </div>
               </Link>
@@ -518,7 +518,7 @@ export default function BachelorettePartyCatering() {
           </div>
           <p className="font-inter text-body-sm text-gray-400 text-center mt-10">
             Planning the other half of the celebration? Explore our{' '}
-            <Link to="/bachelor-party-catering-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">bachelor party catering</Link>.
+            <Link to="/private-party-catering-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">bachelor party catering</Link>.
           </p>
         </div>
       </section>

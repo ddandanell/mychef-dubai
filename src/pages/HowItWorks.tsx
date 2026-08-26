@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /how-it-works
+//     primary:     "how to book a private chef dubai"
+//     subkeywords: "private chef booking process dubai" · "how does a private chef work in dubai" · "does a private chef bring the ingredients dubai" · "personal chef packages on offer in dubai" · "how to be a private chef" · "how to start a private chef business" · "live in chef dubai"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef, useState } from 'react'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { Link } from 'react-router'
@@ -118,8 +124,8 @@ export default function HowItWorks() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="How to Book a Private Chef in Dubai"
-        description="See how easy it is to book a private chef in Dubai. From your first message to the final course — a seamless, bespoke experience every time."
+        title="How to Book a Private Chef Dubai"
+        description="How to Book a Private Chef Dubai — See how easy it is to book a private chef in Dubai. From your first message to the final course — a seamless, bespoke…"
         canonicalPath="/how-it-works"
         ogImage="/images/how-it-works-dubai-hero.webp"
         schema={{
@@ -131,8 +137,8 @@ export default function HowItWorks() {
       {/* Section 1: Hero */}
       <PageHero
         eyebrow="THE EXPERIENCE"
-        title="How to Book a Private Chef in Dubai"
-        subtitle="Tell us your occasion and we will bring you a vetted chef within 24 hours. From your first message to the final course — every step is designed and coordinated with care."
+        title="How to Book a Private Chef Dubai"
+        subtitle="How to Book a Private Chef Dubai by myCHEF — Tell us your occasion and we will bring you a vetted chef within 24 hours. From your first message to the final course — every step is designed and coordinated with care."
         image="/images/how-it-works-dubai-hero.webp"
         imageAlt="How myCHEF works"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'How It Works' }]}
@@ -249,7 +255,7 @@ export default function HowItWorks() {
       {/* Section 6: CTA */}
       <section className="hiw-cta bg-black section-padding">
         <div className="hiw-cta-content container-custom text-center">
-          <h2 className="font-playfair text-h2 text-white mb-4" style={{ lineHeight: '1.15' }}>Ready to Begin?</h2>
+          <h2 className="font-playfair text-h2 text-white mb-4" style={{ lineHeight: '1.15' }}>How to Book a Private Chef Dubai: Ready to Begin?</h2>
           <p className="font-inter text-body text-gray-400 max-w-xl mx-auto mb-8">
             Your bespoke dining experience starts with a single message.
           </p>

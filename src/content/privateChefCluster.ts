@@ -1,4 +1,4 @@
-import { computeQuote, DEFAULT_INPUT } from './privateChefPricing'
+import { computeQuote, DEFAULT_INPUT, fmt } from './privateChefPricing'
 
 /** Nested household-chef cluster under the existing authority URL. */
 export const CLUSTER_ROOT = '/private-chef-dubai' as const
@@ -10,7 +10,7 @@ export const CLUSTER_PATHS = {
   quality: `${CLUSTER_ROOT}/quality-training`,
   privacy: `${CLUSTER_ROOT}/privacy-security`,
   /**
-   * One pricing owner. The nested /private-chef-dubai/pricing 301s to the flat
+   * One pricing owner. The nested /private-chef-prices-dubai 301s to the flat
    * URL since 2026-08-26 and the plan calculator lives there (#calculator), so
    * every cluster link goes straight to the destination — never through the redirect.
    */
@@ -209,16 +209,39 @@ export const KEYWORD_LOCKS = {
   },
 } as const
 
-/** LOCKED: "private chef dubai" (320/mo). Secondary: "chef dubai" (720/mo), "private chef" (170/mo). */
+/** pages["/private-chef-dubai"].internal_linking.siblings — render exactly. */
+export const PRIVATE_CHEF_SIBLING_LINKS = [
+  { href: '/full-time-private-chef-dubai', label: 'Full-time private chef' },
+  { href: '/part-time-private-chef-dubai', label: 'Part-time private chef' },
+  { href: '/weekly-meal-prep-dubai', label: 'Weekly meal prep' },
+  { href: '/private-chef-prices-dubai', label: 'Private chef prices' },
+  { href: '/our-chefs', label: 'Our chefs' },
+] as const
+
+export const hubRouteCards = [
+  {
+    title: 'Standing household chef',
+    body: 'The same chef most weeks, a Food Profile, and backup if they are off. Hire a private chef in Dubai for the house — this is the page.',
+    href: null as string | null,
+    cta: 'You are on the right page',
+  },
+  {
+    title: 'One-night dinner',
+    body: 'A private chef for a dinner party in Dubai is catering: one evening, a team, then clear-down.',
+    href: '/catering-dubai',
+    cta: 'Luxury catering in Dubai',
+  },
+] as const
+
+/** LOCKED: "private chef dubai". Title/H1/meta from STANDARD; monthly figure from the pricing engine. */
 export const parentSeo = {
-  /** Rendered inside the H1 as an eyebrow span — the locked keyword stays in the heading. */
-  eyebrow: 'Private Chef Dubai',
-  title: 'Private Chef Dubai | Private Chef Services for Your Home | myCHEF',
-  description:
-    'Private chef Dubai for a standing household: the same chef weekly, a Food Profile that travels, backup if they are off. Plans from AED 3,000 a month.',
-  h1: 'Your chef. Your household. Already understood.',
+  /** Gold caption above the H1. Do not use PageHero variant="quiet" — that concatenates this into the H1. */
+  eyebrow: 'Household chef',
+  title: `Private Chef Dubai | From ${fmt(pricingPreview[0].monthly)} a Month | myCHEF`,
+  description: `A standing private chef for the household in Dubai. Prep, dinner or full-day plans from ${fmt(pricingPreview[0].monthly)} a month. Matched, managed and replaced if the fit is wrong.`,
+  h1: 'Private Chef Dubai — a chef who comes back',
   subtitle:
-    'A managed private chef service built around how your home actually eats. One Food Profile, consistent standards, and backup handled for you.',
+    'A private chef Dubai service is a standing chef for the household: usually the same person, a Food Profile of how this house eats, and backup if they are off. Independent licensed partners cook. myCHEF matches, manages and replaces. A one-night dinner is catering.',
 }
 
 export const childSeo = {
@@ -297,7 +320,7 @@ export const householdProblems = [
   },
   {
     title: 'I need this for a family, a villa, or a long stay',
-    body: 'A standing private chef in a Dubai home — not a one-night dinner. Our private chef services are built for households that eat here week after week, not for single events.',
+    body: 'A standing private chef in a Dubai home — not a one-night dinner. Our private chef service in Dubai is built for households that eat here week after week, not for single events.',
   },
 ] as const
 
@@ -308,7 +331,7 @@ export const systemCards = [
     title: 'The brief, the match, the Food Profile, and backup when the week is not normal.',
   },
   {
-    href: CLUSTER_PATHS.ourChefs,
+    href: '/our-chefs',
     label: 'Our Chefs',
     title: 'Who we put forward for this house, and how the match is made.',
   },
@@ -361,7 +384,7 @@ export const foodProfilePreview = [
 export const parentFaqs = [
   {
     q: 'What is a private chef in Dubai?',
-    a: 'At myCHEF, a private chef is a standing household arrangement: the same chef in your home, matched, assessed and managed. A single dinner is catering. This page is for a chef who comes back. See [how the household chef system works](/private-chef-dubai/how-it-works).',
+    a: 'At myCHEF, a private chef is a standing household arrangement: the same chef in your home, matched, assessed and managed. A single dinner is [Luxury catering in Dubai](/catering-dubai). This page is for a chef who comes back. See [how the household chef system works](/private-chef-dubai/how-it-works).',
   },
   {
     q: 'Can I have the same chef every week?',
@@ -389,7 +412,55 @@ export const parentFaqs = [
   },
   {
     q: 'How much does a household chef cost?',
-    a: 'From AED 750 per service at Professional Chef level — a Fresh Meal (3 hours) once a week is AED 3,000 a month before VAT. Private Chef Food Prep (4h) is from AED 900, Kitchen on Autopilot (5h) from AED 1,050 and a Full-Day Private Chef (9h) from AED 1,500. Long-term rates improve with services per month; short stays of 3–29 days carry a higher daily rate. Build your figure on [Pricing & Plans](/private-chef-prices-dubai#calculator). A one-night dinner is [catering](/catering-dubai).',
+    a: 'From AED 750 per service at Professional Chef level — a Fresh Meal (3 hours) once a week is AED 3,000 a month before VAT. Private Chef Food Prep (4h) is from AED 900, Kitchen on Autopilot (5h) from AED 1,050 and a Full-Day Private Chef (9h) from AED 1,500. Long-term rates improve with services per month; short stays of 3–29 days carry a higher daily rate. Build your figure on [Pricing & Plans](/private-chef-prices-dubai#calculator). A one-night dinner is [Luxury catering in Dubai](/catering-dubai).',
+  },
+  {
+    q: 'Is personal chef Dubai something you arrange?',
+    a: 'Yes. Every chef on our roster is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.',
+  },
+  {
+    q: 'Do you provide chef at home Dubai?',
+    a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave the home as we found it. Across Palm Jumeirah, Emirates Hills, Jumeirah this is our most common booking.',
+  },
+  {
+    q: 'Is private chef service Dubai something you arrange?',
+    a: 'Yes. Every chef on our roster is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.',
+  },
+  {
+    q: 'Is book a private chef Dubai something you arrange?',
+    a: 'Yes. Every chef on our roster is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.',
+  },
+  {
+    q: 'Do you cater private chef for dinner party Dubai?',
+    a: 'Yes. We plan the menu around the occasion and the room — plated, buffet, canapés or live stations — bring chefs, service staff and equipment, and handle the clear-down. Share the date, guest count and venue and you get a proposal with the format we would recommend and why.',
+  },
+  {
+    q: 'I searched \'private chef near me Dubai\' — do you cover my area?',
+    a: 'Yes. We cook and serve across Dubai, including Palm Jumeirah, Emirates Hills, Jumeirah, and we come to you: the kitchen is your villa, apartment, office, venue or yacht. Tell us the address and we confirm the team, travel and set-up time for it. If you searched for private chef near me, this is the same service.',
+  },
+  {
+    q: 'Is personal chef Dubai something you arrange?',
+    a: 'Yes. Every chef on our roster is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.',
+  },
+  {
+    q: 'Do you provide chef at home Dubai?',
+    a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave the home as we found it. Across Palm Jumeirah, Emirates Hills, Jumeirah this is our most common booking.',
+  },
+  {
+    q: 'Is private chef service Dubai something you arrange?',
+    a: 'Yes. Every chef on our roster is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.',
+  },
+  {
+    q: 'Is book a private chef Dubai something you arrange?',
+    a: 'Yes. Every chef on our roster is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.',
+  },
+  {
+    q: 'Do you cater private chef for dinner party Dubai?',
+    a: 'Yes. We plan the menu around the occasion and the room — plated, buffet, canapés or live stations — bring chefs, service staff and equipment, and handle the clear-down. Share the date, guest count and venue and you get a proposal with the format we would recommend and why.',
+  },
+  {
+    q: 'I searched \'private chef near me Dubai\' — do you cover my area?',
+    a: 'Yes. We cook and serve across Dubai, including Palm Jumeirah, Emirates Hills, Jumeirah, and we come to you: the kitchen is your villa, apartment, office, venue or yacht. Tell us the address and we confirm the team, travel and set-up time for it. If you searched for private chef near me, this is the same service.',
   },
 ] as const
 

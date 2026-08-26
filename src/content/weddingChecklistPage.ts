@@ -4,7 +4,7 @@ export const CHECKLIST_KEYWORD_LOCK = {
   primary: 'wedding catering checklist Dubai',
   title: 'Wedding Catering Checklist Dubai | Timeline & Questions | myCHEF',
   description:
-    'A wedding catering checklist for Dubai: when to book, tasting timeline, community gates, hotel rules, alcohol licences and day-of service. Print it. No prices.',
+    'A wedding catering checklist Dubai: when to book, tasting timeline, community gates, hotel rules, alcohol licences and day-of service. Print it. No prices.',
 } as const
 
 export const checklistHero = {

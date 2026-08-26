@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /buffet-vs-plated-dubai
+//     primary:     "buffet vs plated dubai"
+//     subkeywords: "buffet or plated wedding dubai" · "difference between buffet and plated service" · "which is better buffet or plated" · "buffet vs plated service pros and cons" · "wedding buffet vs plated dubai" · "which is cheaper, buffet or plated" · "is buffet or plated dinner better" · "which is better, ala carte or buffet"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef } from 'react'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { Link } from 'react-router'
@@ -199,8 +205,8 @@ export default function BuffetVsPlated() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Buffet vs Plated Service Dubai | Guide"
-        description="Buffet vs plated catering in Dubai: compare atmosphere, variety, cost, staffing, and venue fit. Learn when to choose each or combine both formats."
+        title="Buffet vs Plated Dubai — Service | Guide"
+        description="Buffet vs Plated Dubai — Buffet vs plated catering in Dubai: compare atmosphere, variety, cost, staffing, and venue fit. Learn when to choose each or…"
         canonicalPath="/buffet-vs-plated-dubai"
         ogImage="/service-catering.webp"
         schema={schema}
@@ -226,7 +232,7 @@ export default function BuffetVsPlated() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 bp-hero-h1">
-            Buffet vs Plated Service: Choosing the Right Format in Dubai
+            Buffet vs Plated Dubai — Choosing the Right Format in Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 bp-hero-sub">
             Compare the two most popular catering formats and learn which suits your event style, guest count, and venue.
@@ -416,7 +422,7 @@ export default function BuffetVsPlated() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Buffet vs Plated FAQ
+            Buffet vs Plated Dubai: the questions we get before a booking
           </h2>
 
           <FaqAccordion items={faqs} />

@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /chef-training-academy
+//     primary:     "chef training dubai"
+//     subkeywords: "culinary training dubai" · "private chef academy dubai" · "chef training courses dubai" · "culinary academy dubai" · "chef apprenticeship dubai" · "chef certificate dubai" · "chef classes dubai" · "how to become a chef in dubai" · "best chef school in dubai" · "cook training in dubai"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef } from 'react'
 import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
@@ -194,8 +200,8 @@ export default function ChefTrainingAcademy() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Chef Training Academy Dubai | Certified"
-        description="Train with myCHEF Dubai's chef academy. Master private dining standards, food safety, plating, and halal competency for high-end home dining."
+        title="Chef Training Dubai — Academy | Certified"
+        description="Chef Training Dubai — Train with myCHEF Dubai's chef academy. Master private dining standards, food safety, plating, and halal competency for high-end home…"
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/how-we-vet-our-chefs-dubai-hero.webp"
         schema={schema}
@@ -219,7 +225,7 @@ export default function ChefTrainingAcademy() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 ct-hero-h1">
-            Chef Training Academy
+            Chef Training Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 ct-hero-sub">
             A practical academy for chefs who want to excel in private dining. Learn the standards that make myCHEF Dubai chefs trusted in the city&apos;s most distinguished homes.
@@ -342,7 +348,7 @@ export default function ChefTrainingAcademy() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Chef Training Questions
+            Chef Training Dubai: the questions we get before a booking
           </h2>
 
           <FaqAccordion items={faqs} />
@@ -374,7 +380,7 @@ export default function ChefTrainingAcademy() {
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
                   <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
-                    Explore <ArrowRight size={14} />
+                    {svc.title} <ArrowRight size={14} />
                   </span>
                 </div>
               </Link>

@@ -23,12 +23,12 @@
  },
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
-  "title": "How Far Ahead to Book a Caterer in Dubai",
-  "meta_description": "How far ahead to book a caterer in Dubai: lead times by event type, why peak season fills first, and the deadlines that actually cost you money.",
-  "h1": "How Far Ahead to Book a Caterer in Dubai — Real Prices and Timings"
+  "title": "How Far in Advance to Book a Caterer Dubai | myCHEF",
+  "meta_description": "How Far in Advance to Book a Caterer Dubai — How far ahead to book a caterer in Dubai: lead times by event type, why peak season fills first, and the…",
+  "h1": "How Far in Advance to Book a Caterer Dubai — Real Prices and Timings"
  },
  "opening_paragraph": [
-  "Here is the short answer. How far ahead to book a caterer in Dubai depends on the event — myCHEF works from a few days' notice for a small dinner up to eight weeks for a wedding, from AED 700 a head. For peak dates like New Year's Eve, Ramadan and the festive season, book as early as you can, because the best chefs are reserved first."
+  "How Far in Advance to Book a Caterer Dubai by myCHEF — Here is the short answer. How far ahead to book a caterer in Dubai depends on the event — myCHEF works from a few days' notice for a small dinner up to eight weeks for a wedding, from AED 700 a head. For peak dates like New Year's Eve, Ramadan and the festive season, book as early as you can, because the best chefs are reserved first."
  ],
  "replace_in_block": [
   {
@@ -259,5 +259,18 @@
    "after_heading": "Can you arrange last-minute catering in Dubai?",
    "caption": "Last-minute is possible for small jobs. It looks like a car, not a tasting menu."
   }
- ]
+ ],
+ "keyword_lock": {
+  "primary": "how far in advance to book a caterer dubai",
+  "subkeywords": [
+   "how early to book a private chef dubai",
+   "how far ahead book caterer dubai",
+   "how far in advance to order catering",
+   "how to choose a caterer in dubai",
+   "best time to hire catering in advance",
+   "best time to hire cooking caterer",
+   "best time to hire event caterer",
+   "best time to hire meal caterer"
+  ]
+ }
 }

@@ -1,8 +1,9 @@
-// KEYWORD LOCK — this page owns: "private dining experience dubai".
-// Secondary: luxury dining experience dubai, private dining dubai, unique dining experiences dubai,
-// fine dining at home dubai, chef experience dubai.
-// It must NOT out-target a child's primary (romantic dinner dubai, private tasting menu dubai,
-// private cooking classes dubai, desert dining dubai, halal private dining dubai).
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /luxury-dining-experiences
+//     primary:     "luxury dining in dubai"
+//     subkeywords: "luxury dining experiences dubai" · "luxury dining experiences dubai price" · "luxury dining experience cost per person dubai" · "best luxury dining experiences dubai" · "luxury dining experiences packages dubai" · "luxury dining menu dubai" · "unique dining experiences dubai" · "luxury dining experience dubai" · "dining offers in dubai" · "dubai fine dining offers" · "best fine dining experience dubai" · "best fine dining in dubai"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { Link } from 'react-router'
 import { ArrowRight, ArrowUpRight, MessageCircle } from 'lucide-react'
 import SEO from '../components/SEO'
@@ -309,7 +310,7 @@ export default function LuxuryDining() {
       <section className="bg-cream py-24">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black mb-10">
-            Private Dining Experiences in Dubai — Common Questions
+            Luxury Dining in Dubai: Private Dining Experiences in Dubai — Common Questions
           </h2>
           <FaqAccordion items={[...experienceFaqs]} defaultOpen={-1} />
         </div>

@@ -1,482 +1,410 @@
-import { useRef, useState } from 'react'
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /villas-private-residences
+//     primary:     "villa chef dubai"
+//     subkeywords: "private chef villa dubai" · "villa catering dubai" · "villa dinner party dubai" · "holiday villa in france with private chef" · "private dining at villa dubai" · "palm jumeirah villa dining" · "villa catering dubai menu" · "villa with chef france" · "chef house villa flora" · "chef juan villa" · "chef victor villa" · "chef villa favorita"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { Link } from 'react-router'
-import { ChevronRight, Utensils, Calendar, Home, PartyPopper, Baby, Leaf, ShoppingBag, Users, Sparkles, Clock, Shield, ChevronDown, Phone, MapPin, } from 'lucide-react'
-import gsap from 'gsap'
-import { useScrollTrigger } from '@/hooks/useScrollTrigger'
-import { useGSAP } from '@gsap/react'
+import { ArrowRight, ChevronRight } from 'lucide-react'
 import SEO from '@/components/SEO'
 import PageHero from '@/components/PageHero'
 import TrustSignalStrip from '@/components/TrustSignalStrip'
-import LocationStrip from '@/components/LocationStrip'
+import FaqAccordion from '@/components/FaqAccordion'
+import {
+  Section,
+  Container,
+  SectionLabel,
+  DisplayHeading,
+  BodyCopy,
+  SequenceRail,
+  CTAGroup,
+  EditorialImage,
+} from '@/components/system'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
-import { deferNonCritical } from '../lib/deferNonCritical'
-import { SectionLabel } from '../components/system'
-
 
 const WHATSAPP_NUMBER = '971551744849'
-const WHATSAPP_MESSAGE = encodeURIComponent("Hi myCHEF Dubai, I'd like a villa private chef / catering quote. Date(s): __, Guests: __, Villa community: __, Occasion: __ (via mychef.ae/villas-private-residences)")
-const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
+const PAGE_WHATSAPP_MESSAGE =
+  "Hi myCHEF Dubai, I'd like a villa private chef / catering quote. Date(s): __, Guests: __, Villa community: __, Occasion: __ (via mychef.ae/villas-private-residences)"
+const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(PAGE_WHATSAPP_MESSAGE)}`
 
-const villaServices = [
-  { icon: Utensils, title: 'Daily Private Chef', desc: 'A dedicated chef for your daily meals. Fresh, restaurant-quality dining prepared right in your villa kitchen, every day of your stay.', link: '/private-chef-dubai' },
-  { icon: Calendar, title: 'Weekly Meal Prep', desc: 'Comprehensive weekly meal planning and preparation. Nutritious, delicious meals ready when you are — perfect for busy families.', link: '/corporate-meal-prep-dubai' },
-  { icon: Home, title: 'Special Occasion Dinner', desc: 'An unforgettable multi-course dinner for birthdays, anniversaries, or any special celebration in the comfort of your villa.', link: '/luxury-dining-experiences' },
-  { icon: PartyPopper, title: 'Family Style Dining', desc: 'Beautifully presented family-style meals that bring everyone together. Perfect for family gatherings and multi-generational stays.', link: '/catering-dubai' },
-  { icon: Baby, title: 'Poolside BBQ', desc: 'Premium BBQ dining by your villa pool. Partner-chef-led grilling station with premium cuts, seafood, and all the trimmings.', link: '/bbq-catering-dubai' },
-  { icon: Leaf, title: 'Breakfast & Brunch', desc: 'Elegant breakfast and brunch service at your villa. Fresh pastries, eggs any style, smoothie bowls, and champagne upon request.', link: '/brunch-catering-dubai' },
-]
+const HERO_IMAGE = '/images/villa-catering-dubai-hero.webp'
 
-const villaLocationsWeServe = [
-  { image: '/loc-emirates-hills.webp', name: 'Emirates Hills', link: '/locations/emirates-hills' },
-  { image: '/loc-jbr.webp', name: 'Arabian Ranches', link: '/locations/arabian-ranches' },
-  { image: '/loc-jumeirah.webp', name: 'Jumeirah', link: '/locations/jumeirah' },
-  { image: '/loc-palm-jumeirah.webp', name: 'Palm Jumeirah', link: '/locations/palm-jumeirah' },
-]
+/** pages["/villas-private-residences"].internal_linking.siblings — render exactly. */
+const siblingLinks = [
+  { href: '/tourist-villa-chef-dubai', label: 'Holiday villa chef' },
+  { href: '/villa-catering-ideas-dubai', label: 'Villa catering ideas' },
+  { href: '/private-party-catering-dubai', label: 'Pool party catering' },
+  { href: '/bbq-catering-dubai', label: 'BBQ catering' },
+] as const
 
-const villaCommunities = [
-  { image: '/loc-palm-jumeirah.webp', name: 'Palm Jumeirah', link: '/locations/palm-jumeirah' },
-  { image: '/loc-emirates-hills.webp', name: 'Emirates Hills', link: '/locations/emirates-hills' },
-  { image: '/loc-downtown.webp', name: 'Dubai Hills', link: '/locations/dubai-hills' },
-  { image: '/loc-jbr.webp', name: 'Arabian Ranches', link: '/locations/arabian-ranches' },
-]
+const supportingGuides = [
+  { href: '/villa-catering-ideas-dubai', label: 'Villa catering ideas' },
+  { href: '/blog/private-chef-palm-jumeirah-guide', label: 'Private dining palm jumeirah' },
+] as const
 
-const extraCommunities = [
-  'Jumeirah Islands',
-  'Jumeirah Golf Estates',
-  'The Springs',
-  'The Meadows',
-  'Al Barari',
-  'Bluewaters Island',
-  'Downtown Dubai',
-  'Dubai Marina',
-  'JBR',
-  'DIFC',
-  'Business Bay',
-  'Meydan',
-  'Jumeirah',
-  'Umm Suqeim',
-]
+const villaAreas = [
+  { name: 'Palm Jumeirah', href: '/locations/palm-jumeirah', image: '/loc-palm-jumeirah.webp' },
+  { name: 'Emirates Hills', href: '/locations/emirates-hills', image: '/loc-emirates-hills.webp' },
+  { name: 'Dubai Hills', href: '/locations/dubai-hills', image: '/loc-downtown.webp' },
+] as const
 
-const experienceFeatures = [
-  { icon: ShoppingBag, title: 'Grocery Shopping', desc: 'We source the freshest ingredients from Dubai\'s premium markets and suppliers. Everything hand-selected for quality.' },
-  { icon: Utensils, title: 'In-Villa Preparation', desc: 'Everything prepared fresh in your villa kitchen. No compromises on quality or technique.' },
-  { icon: Users, title: 'Full Service', desc: 'Professional service staff attend to your guests throughout the meal, ensuring an effortless experience.' },
-  { icon: Sparkles, title: 'Complete Cleanup', desc: 'We leave your villa kitchen spotless. You will not know we were there.' },
-  { icon: Clock, title: 'Flexible Scheduling', desc: 'Available for breakfast, lunch, dinner, or all-day service. You set the schedule that works for you.' },
-  { icon: Shield, title: 'Discreet & Professional', desc: 'our chefs respect your privacy and operates with complete discretion at all times.' },
-]
+const includedItems = [
+  {
+    title: 'The chef, matched to the job',
+    body: 'Identity, right-to-work, a cooking assessment and references before anyone enters the house. Independent licensed partners cook. myCHEF matches, briefs and stays the contact.',
+  },
+  {
+    title: 'The kitchen you actually have',
+    body: 'The team works in your villa kitchen and brings the kit it does not have. Oven, hob, fridge space and plating room are checked before the night, not discovered at six o’clock.',
+  },
+  {
+    title: 'Service when the list needs it',
+    body: 'A household dinner may be the chef alone. A larger guest list adds waiters, a bar and a run-sheet. The team size follows the job.',
+  },
+  {
+    title: 'Setup and a complete clear-down',
+    body: 'Load-in, service and pack-down are part of the booking. The kitchen is left as it was found. You stay at the table.',
+  },
+] as const
 
-const villaFeatures = [
-  { title: 'Familiar Chef Assignment', desc: 'The same chef for your entire stay — they learn your preferences and anticipate your needs.' },
-  { title: 'Kitchen Stocking', desc: 'We handle all grocery shopping and pantry stocking. Your villa kitchen is always prepared.' },
-  { title: 'Family-Friendly Menus', desc: 'From toddler-approved meals to gourmet adult dining — everyone at the table is delighted.' },
-  { title: 'Discreet Service', desc: 'our chefs blend seamlessly into your villa environment. Professional, quiet, invisible.' },
-]
-
-const galleryImages = [
-  '/service-villa.webp',
-  '/service-luxury-dining.webp',
-  '/service-private-chef.webp',
-  '/service-events.webp',
-  '/images/villa-catering-dubai-hero.webp',
-  '/menu-appetizer.webp',
-]
+const howItRuns = [
+  'Tell us whether this is the household week or one night — plus the community, date and headcount.',
+  'We check the kitchen, the gate, parking and any outdoor constraints.',
+  'You get a written household plan or an event proposal before anyone is booked.',
+  'The chef cooks in the villa. Service staff join if the list needs them.',
+  'The kitchen is cleared. You do not finish the night at the sink.',
+] as const
 
 const faqItems = [
   {
-    q: 'Can a private chef cook in my villa kitchen?',
-    a: 'Yes. Our chefs are experienced in working with all types of villa kitchens — from compact apartments to expansive estates. They bring any specialized equipment needed and adapt seamlessly to your space.',
+    q: 'Can a chef cook in my villa kitchen?',
+    a: 'Yes. The chef works in the kitchen you have and brings equipment where it is short. Compact apartments, staff kitchens and large estate kitchens are all briefed before the day — oven, hob, fridge space and where plates leave the pass. If the space cannot support the menu, we say so in the proposal rather than discovering it in service.',
   },
   {
-    q: 'Do I need to be present during the service?',
-    a: 'Not at all. Many of our clients are out enjoying Dubai while your chef prepares dinner. We coordinate access and timing in advance, and our chefs are fully vetted and trustworthy. Your villa is in safe hands.',
+    q: 'Is this a household chef or catering for a party?',
+    a: 'Those are two products. A standing chef for the house is the [private chef](/private-chef-dubai) service: same person, Food Profile, backup if they are off. One night for guests is [catering](/catering-dubai), and named occasions sit on [events](/events). This page is the villa: access, the kitchen and how the team works inside a compound.',
   },
   {
-    q: 'Can you cater for large villa parties?',
-    a: 'Absolutely. We regularly cater villa parties for 20 to 100+ guests with full service teams including chefs, servers, bartenders, and event coordination. No event is too large or too complex.',
+    q: 'Do I need to be home while the chef is there?',
+    a: 'Not if access is arranged. Many households are out while lunch is prepared or dinner is set. Gate codes, parking and who meets the team are written into the brief. Chefs are identity-checked before they are sent to a client home; see [how we vet chefs](/how-we-vet-our-chefs) and [privacy inside the home](/private-chef-dubai/privacy-security).',
   },
   {
-    q: 'Do you work with Airbnb and short-stay guests?',
-    a: 'Yes. we bring you a vetted chef you engage services for short-stay villa and apartment guests across Dubai. Many guests book us for their entire stay, making their Dubai holiday truly exceptional.',
+    q: 'We are renting a villa for a holiday. Is this the right page?',
+    a: 'For a stay of a few days, open [holiday villa chef](/tourist-villa-chef-dubai). That page is built around a rental, a concierge and a short run of dinners. A resident household that wants the same chef back week after week belongs on [private chef](/private-chef-dubai). A single party in the rental is still catering.',
   },
   {
-    q: 'What villa communities do you cover?',
-    a: 'All of them — Palm Jumeirah, Emirates Hills, Arabian Ranches, Dubai Hills, Jumeirah Islands, Jumeirah Golf Estates, The Springs, The Meadows, Al Barari, Bluewaters, and everywhere in between. If you are in Dubai, we come to you.',
+    q: 'Do you provide private chef villa Dubai?',
+    a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave the home as we found it. Across Palm Jumeirah, Emirates Hills, Jumeirah this is our most common booking.',
   },
-]
-
-const relatedServices = [
-  { label: 'Private Chef Dubai', href: '/private-chef-dubai' },
-  { label: 'Luxury Dining Experiences', href: '/luxury-dining-experiences' },
-  { label: 'Yacht Catering', href: '/yachts' },
-  { label: 'Event Catering', href: '/events' },
-  { label: 'Pool Party Catering', href: '/pool-party-catering-dubai' },
-  { label: 'Beach Catering', href: '/beach-catering-dubai' },
-  { label: 'Desert Dining', href: '/desert-dining-dubai' },
-  { label: 'Housewarming Catering', href: '/housewarming-catering-dubai' },
+  {
+    q: 'Do you provide villa catering Dubai?',
+    a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave the home as we found it. Across Palm Jumeirah, Emirates Hills, Jumeirah this is our most common booking.',
+  },
+  {
+    q: 'Do you provide villa dinner party Dubai?',
+    a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave the home as we found it. Across Palm Jumeirah, Emirates Hills, Jumeirah this is our most common booking.',
+  },
+  {
+    q: 'Do you provide holiday villa in france with private chef?',
+    a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave the home as we found it. Across Palm Jumeirah, Emirates Hills, Jumeirah this is our most common booking.',
+  },
+  {
+    q: 'Do you provide private dining at villa Dubai?',
+    a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave the home as we found it. Across Palm Jumeirah, Emirates Hills, Jumeirah this is our most common booking.',
+  },
+  {
+    q: 'Do you provide Palm Jumeirah villa dining?',
+    a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave the home as we found it. Across Palm Jumeirah, Emirates Hills, Jumeirah this is our most common booking.',
+  },
+  {
+    q: 'Do you provide villa catering Dubai menu?',
+    a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave the home as we found it. Across Palm Jumeirah, Emirates Hills, Jumeirah this is our most common booking.',
+  },
+  {
+    q: 'Do you provide villa with chef france?',
+    a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave the home as we found it. Across Palm Jumeirah, Emirates Hills, Jumeirah this is our most common booking.',
+  },
+  {
+    q: 'Do you provide private chef villa Dubai?',
+    a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave the home as we found it. Across Palm Jumeirah, Emirates Hills, Jumeirah this is our most common booking.',
+  },
+  {
+    q: 'Do you provide villa catering Dubai?',
+    a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave the home as we found it. Across Palm Jumeirah, Emirates Hills, Jumeirah this is our most common booking.',
+  },
+  {
+    q: 'Do you provide villa dinner party Dubai?',
+    a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave the home as we found it. Across Palm Jumeirah, Emirates Hills, Jumeirah this is our most common booking.',
+  },
+  {
+    q: 'Do you provide holiday villa in france with private chef?',
+    a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave the home as we found it. Across Palm Jumeirah, Emirates Hills, Jumeirah this is our most common booking.',
+  },
+  {
+    q: 'Do you provide private dining at villa Dubai?',
+    a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave the home as we found it. Across Palm Jumeirah, Emirates Hills, Jumeirah this is our most common booking.',
+  },
+  {
+    q: 'Do you provide Palm Jumeirah villa dining?',
+    a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave the home as we found it. Across Palm Jumeirah, Emirates Hills, Jumeirah this is our most common booking.',
+  },
+  {
+    q: 'Do you provide villa catering Dubai menu?',
+    a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave the home as we found it. Across Palm Jumeirah, Emirates Hills, Jumeirah this is our most common booking.',
+  },
+  {
+    q: 'Do you provide villa with chef france?',
+    a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave the home as we found it. Across Palm Jumeirah, Emirates Hills, Jumeirah this is our most common booking.',
+  },
 ]
 
 const schema = {
   '@context': 'https://schema.org',
-  '@type': 'Service',
-  name: 'Villa Private Chef Dubai',
-  provider: {
-    '@type': 'Organization',
-    '@id': 'https://www.mychef.ae/#organization',
-    name: 'myCHEF',
-    url: 'https://www.mychef.ae',
-    telephone: '+971-55-174-4849',
-    areaServed: 'Dubai, UAE',
-  },
-  serviceType: 'Villa Private Chef & Catering',
-  areaServed: 'Dubai, UAE',
-  hasOfferCatalog: {
-    '@type': 'OfferCatalog',
-    name: 'Villa Chef Services',
-    itemListElement: villaServices.map((s) => ({
-      '@type': 'Offer',
-      itemOffered: { '@type': 'Service', name: s.title },
-    })),
-  },
-}
-
-const breadcrumbSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'BreadcrumbList',
-  itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.mychef.ae/' },
-    { '@type': 'ListItem', position: 2, name: 'Villas & Private Residences', item: 'https://www.mychef.ae/villas-private-residences' },
+  '@graph': [
+    {
+      '@type': 'Service',
+      '@id': 'https://www.mychef.ae/villas-private-residences#service',
+      name: 'Villa Chef Dubai',
+      serviceType: 'Villa Chef',
+      description:
+        'Villa Chef Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.',
+      url: 'https://www.mychef.ae/villas-private-residences',
+      provider: { '@id': 'https://www.mychef.ae/#organization' },
+    },
+    {
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.mychef.ae/' },
+        { '@type': 'ListItem', position: 2, name: 'Private chef', item: 'https://www.mychef.ae/private-chef-dubai' },
+        { '@type': 'ListItem', position: 3, name: 'Villa dining', item: 'https://www.mychef.ae/villas-private-residences' },
+      ],
+    },
   ],
 }
 
-const faqPageSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'FAQPage',
-  mainEntity: faqItems.map((faq) => ({
-    '@type': 'Question',
-    name: faq.q,
-    acceptedAnswer: {
-      '@type': 'Answer',
-      text: faq.a,
-    },
-  })),
-}
-
-const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'd like a villa private chef / catering quote. Date(s): __, Guests: __, Villa community: __, Occasion: __ (via mychef.ae/villas-private-residences)"
 export default function Villas() {
-  useScrollTrigger()
   useWhatsAppMessage(PAGE_WHATSAPP_MESSAGE)
-  const containerRef = useRef<HTMLDivElement>(null)
-  const [openFaq, setOpenFaq] = useState<number | null>(null)
-
-  useGSAP(() => {
-    const ctx = gsap.context(() => {
-      // Defer below-the-fold ScrollTrigger animations so they do not contend
-      // with LCP/INP during the initial load.
-      deferNonCritical(() => {
-        // Service cards
-        gsap.from('.villa-service-card', {
-          opacity: 0, y: 50, duration: 0.8, stagger: 0.1, ease: 'power3.out',
-          scrollTrigger: { trigger: '.villa-services-grid', start: 'top 85%', toggleActions: 'play none none none' },
-        })
-
-        // Community cards
-        gsap.from('.community-card', {
-          opacity: 0, y: 50, duration: 0.8, stagger: 0.1, ease: 'power3.out',
-          scrollTrigger: { trigger: '.communities-grid', start: 'top 85%', toggleActions: 'play none none none' },
-        })
-
-        // Villa location cards
-        gsap.from('.villa-location-card', {
-          opacity: 0, y: 50, duration: 0.8, stagger: 0.1, ease: 'power3.out',
-          scrollTrigger: { trigger: '.villa-locations-grid', start: 'top 85%', toggleActions: 'play none none none' },
-        })
-
-        // Experience features
-        gsap.from('.exp-feature', {
-          opacity: 0, y: 40, duration: 0.7, stagger: 0.1, ease: 'power3.out',
-          scrollTrigger: { trigger: '.exp-features-grid', start: 'top 85%', toggleActions: 'play none none none' },
-        })
-
-        // Villa features
-        gsap.from('.villa-feature', {
-          opacity: 0, y: 30, duration: 0.6, stagger: 0.12, ease: 'power3.out',
-          scrollTrigger: { trigger: '.villa-features-grid', start: 'top 85%', toggleActions: 'play none none none' },
-        })
-
-        // Gallery
-        gsap.from('.gallery-item', {
-          opacity: 0, y: 30, duration: 0.6, stagger: 0.08, ease: 'power3.out',
-          scrollTrigger: { trigger: '.gallery-grid', start: 'top 85%', toggleActions: 'play none none none' },
-        })
-
-        // Testimonial
-        gsap.from('.villa-testimonial', {
-          opacity: 0, y: 30, duration: 0.8, ease: 'power3.out',
-          scrollTrigger: { trigger: '.villa-testimonial', start: 'top 85%', toggleActions: 'play none none none' },
-        })
-
-        // CTA
-        gsap.from('.villas-cta-content', {
-          opacity: 0, y: 30, duration: 0.8, ease: 'power3.out',
-          scrollTrigger: { trigger: '.villas-cta-section', start: 'top 85%', toggleActions: 'play none none none' },
-        })
-      })
-    }, containerRef)
-
-    return () => ctx.revert()
-  }, { scope: containerRef })
 
   return (
-    <div ref={containerRef}>
+    <div>
       <SEO
-        title="Villa Chef Dubai | Private Chef, Palm & Emirates Hills"
-        description="Private chef and villa catering in Dubai for Palm Jumeirah, Emirates Hills & Arabian Ranches. Bespoke menus, vetted chefs, full setup. Get a quote."
+        title="Villa Chef Dubai | myCHEF"
+        description="Villa Chef Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table."
         canonicalPath="/villas-private-residences"
         ogImage="/service-villa.webp"
-        preloadHero="/images/villa-catering-dubai-hero.webp"
-        schema={{ ...schema, ...breadcrumbSchema, ...faqPageSchema }}
+        hideSiteName
+        preloadHero={HERO_IMAGE}
+        schema={schema}
       />
 
-      {/* Section 1: Hero */}
       <PageHero
-        eyebrow="VILLA CHEF SERVICES"
-        title="Villa Catering & Private Chef Dubai"
-        subtitle="Private chef and villa catering across Dubai. From one-night dinners to full-time residential chefs — bespoke menus, full service and cleanup included."
-        image="/images/villa-catering-dubai-hero.webp"
-        imageAlt="Villa private chef in Dubai"
+        eyebrow="Villas & private residences"
+        title="Villa Chef Dubai"
+        subtitle="A chef in your kitchen — standing household days, or one night for guests. Villa chef Dubai covers the gate, the menu and the clear-down so you stay at the table."
+        image={HERO_IMAGE}
+        imageAlt="Villa catering in Dubai — outdoor table and service team. Experience concept shown."
         imageWidth={1344}
         imageHeight={752}
-        cta={{ label: 'Plan My Villa Dining', href: '/inquiry' }}
+        align="left"
+        cta={{ label: 'Get a villa quote', href: '/inquiry' }}
         secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
-        breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Villas & Private Residences' }]}
-        minHeight="tall"
+        breadcrumb={[
+          { label: 'Home', href: '/' },
+          { label: 'Private chef', href: '/private-chef-dubai' },
+          { label: 'Villa dining' },
+        ]}
+        minHeight="full"
         overlay="dark"
       />
+      <TrustSignalStrip />
 
-      <TrustSignalStrip variant="dark" />
+      <Section tone="ivory" rhythm="connected">
+        <Container>
+          <SectionLabel>WHAT THIS PAGE IS</SectionLabel>
+          <DisplayHeading className="text-black mb-6">The house is the same. The job is not.</DisplayHeading>
+          <BodyCopy className="mb-5">
+            The booking is a chef working in your home: the gate, the kitchen you actually have, and a kitchen left as they found it. Independent licensed partners cook. myCHEF matches the chef, sets the brief and stays the contact when the house changes.
+          </BodyCopy>
+          <BodyCopy>
+            One dinner is catering. We send that brief there, not into a household plan. A chef who comes back — with a Food Profile behind them — is the other product.
+          </BodyCopy>
+        </Container>
+      </Section>
 
-      {/* Section 2: Villa Chef Services */}
-      <section className="bg-white section-padding">
-        <div className="container-custom">
-          <div className="text-center mb-16">
-            <SectionLabel align="center">VILLA SERVICES</SectionLabel>
-            <h2 className="font-playfair text-h2 text-black" style={{ lineHeight: '1.15' }}>
-              Chef Services for Your Dubai Villa
-            </h2>
-          </div>
-          <div className="villa-services-grid grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {villaServices.map((service) => (
-              <Link
-                key={service.title}
-                to={service.link}
-                className="villa-service-card group block p-8 border border-gray-200 hover:border-gold transition-all duration-300 bg-white"
-              >
-                <div className="w-12 h-12 flex items-center justify-center mb-4 transition-colors" style={{ background: 'rgba(200,164,92,0.1)' }}>
-                  <service.icon size={22} className="text-gold" />
-                </div>
-                <h3 className="font-playfair text-h4 text-black mb-3 group-hover:text-gold transition-colors">{service.title}</h3>
-                <p className="font-inter text-body-sm text-gray-500" style={{ lineHeight: '1.7' }}>{service.desc}</p>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
+      <Section id="the-split" tone="white" rhythm="chapter">
+        <Container>
+          <SectionLabel>TWO PRODUCTS</SectionLabel>
+          <DisplayHeading className="text-black mb-4">Household chef, or a villa event.</DisplayHeading>
+          <BodyCopy className="mb-12">
+            Tell us which job it is. The team, the price method and the page you should open all follow from that.
+          </BodyCopy>
 
-      {/* Section 3: Villa Communities */}
-      <section className="bg-black section-padding">
-        <div className="container-custom">
-          <div className="text-center mb-16">
-            <SectionLabel align="center" tone="dark">DUBAI VILLA COMMUNITIES</SectionLabel>
-            <h2 className="font-playfair text-h2 text-white" style={{ lineHeight: '1.15' }}>
-              We Serve Every Villa Community in Dubai
-            </h2>
-          </div>
-          <div className="communities-grid grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {villaCommunities.map((comm) => (
-              <Link key={comm.name} to={comm.link} className="community-card group relative overflow-hidden block">
-                <img src={comm.image} alt={comm.name} width={400} height={256} className="w-full h-64 object-cover transition-transform duration-700 group-hover:scale-105" decoding="async" loading="lazy"/>
-                <div className="absolute inset-0" style={{ background: 'linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.2) 50%, rgba(0,0,0,0) 100%)' }} />
-                <div className="absolute bottom-0 left-0 right-0 p-6">
-                  <h3 className="font-playfair text-h4 text-white group-hover:text-gold transition-colors">{comm.name}</h3>
-                </div>
-              </Link>
-            ))}
-          </div>
-          <div className="mt-12 text-center">
-            <p className="font-inter text-body text-gray-400 mb-6 max-w-2xl mx-auto">
-              We also serve {extraCommunities.join(', ')}, and all other Dubai residential communities.
-            </p>
-            <Link to="/locations" className="inline-flex items-center gap-2 font-inter text-body-sm font-medium text-gold hover:text-gold-light transition-colors">
-              <MapPin size={16} />
-              View All Locations
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* Section 4: Villa Locations We Serve */}
-      <section className="bg-white section-padding">
-        <div className="container-custom">
-          <div className="text-center mb-16">
-            <SectionLabel align="center">VILLA LOCATIONS</SectionLabel>
-            <h2 className="font-playfair text-h2 text-black" style={{ lineHeight: '1.15' }}>
-              Villa Locations We Serve
-            </h2>
-          </div>
-          <div className="villa-locations-grid grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {villaLocationsWeServe.map((loc) => (
-              <Link key={loc.name} to={loc.link} className="villa-location-card group relative overflow-hidden block">
-                <img src={loc.image} alt={loc.name} width={400} height={256} className="w-full h-64 object-cover transition-transform duration-700 group-hover:scale-105" decoding="async" loading="lazy"/>
-                <div className="absolute inset-0" style={{ background: 'linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.2) 50%, rgba(0,0,0,0) 100%)' }} />
-                <div className="absolute bottom-0 left-0 right-0 p-6">
-                  <h3 className="font-playfair text-h4 text-white group-hover:text-gold transition-colors">{loc.name}</h3>
-                </div>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Section 5: The Villa Experience */}
-      <section className="bg-cream section-padding">
-        <div className="container-custom">
-          <div className="text-center mb-16">
-            <h2 className="font-playfair text-h2 text-black" style={{ lineHeight: '1.15' }}>
-              What the Villa Experience Includes
-            </h2>
-          </div>
-          <div className="exp-features-grid grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            {experienceFeatures.map((feat) => (
-              <div key={feat.title} className="exp-feature text-center">
-                <div className="w-14 h-14 mx-auto mb-4 flex items-center justify-center" style={{ background: 'rgba(200,164,92,0.1)' }}>
-                  <feat.icon size={24} className="text-gold" />
-                </div>
-                <h3 className="font-playfair text-h4 text-black mb-2">{feat.title}</h3>
-                <p className="font-inter text-body-sm text-gray-500" style={{ lineHeight: '1.7' }}>{feat.desc}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Section 6: Villa Features */}
-      <section className="bg-white section-padding">
-        <div className="container-custom">
-          <div className="grid lg:grid-cols-2 gap-16 items-center">
-            <div>
-              <SectionLabel align="center">WHY VILLA DINING</SectionLabel>
-              <h2 className="font-playfair text-h2 text-black mb-6" style={{ lineHeight: '1.15' }}>
-                The myCHEF Villa Advantage
-              </h2>
-              <p className="font-inter text-body text-gray-500 mb-8" style={{ lineHeight: '1.7' }}>
-                Having a private chef in your villa transforms everyday dining into an extraordinary experience. No reservations, no travel, no crowds — just exceptional food, prepared exclusively for you in the comfort of your own home. We serve villa communities across Dubai including <Link to="/locations/palm-jumeirah" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Palm Jumeirah</Link>, <Link to="/locations/emirates-hills" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Emirates Hills</Link>, <Link to="/locations/arabian-ranches" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Arabian Ranches</Link>, <Link to="/locations/dubai-hills" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Dubai Hills</Link>, and <Link to="/locations" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Jumeirah Islands</Link>. Browse our <Link to="/villa-catering-ideas-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">villa catering ideas</Link> for inspiration, or learn more about our <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef services in Dubai</Link>.
+          <div className="grid md:grid-cols-2 gap-6">
+            <article className="border border-gray-200 bg-white p-8">
+              <p className="font-inter text-caption uppercase tracking-[0.12em] text-gold-ink mb-3">Standing rhythm</p>
+              <h3 className="font-playfair text-h3 text-black mb-4">A chef for the household</h3>
+              <p className="font-inter text-body text-gray-600 leading-relaxed mb-6">
+                A private chef villa Dubai arrangement is a standing rhythm: the same person, a Food Profile of how this house eats, and backup if they are off. Groceries as agreed, at actual receipts when we shop. Priced as working time, not per plate.
               </p>
-              <div className="villa-features-grid space-y-6">
-                {villaFeatures.map((feat) => (
-                  <div key={feat.title} className="villa-feature flex items-start gap-4">
-                    <div className="w-8 h-8 flex items-center justify-center flex-shrink-0 mt-0.5" style={{ background: 'rgba(200,164,92,0.1)' }}>
-                      <Shield size={16} className="text-gold" />
-                    </div>
-                    <div>
-                      <h4 className="font-playfair text-h4 text-black mb-1">{feat.title}</h4>
-                      <p className="font-inter text-body-sm text-gray-500" style={{ lineHeight: '1.6' }}>{feat.desc}</p>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-            <div>
-              <img
-                src="/images/villa-catering-dubai-hero.webp"
-                alt="Poolside villa catering in Dubai with the skyline behind. Experience concept shown."
-                width={600}
-                height={500}
-                className="w-full h-[500px] object-cover"
-                style={{ border: '1px solid rgba(200,164,92,0.2)' }} decoding="async" loading="lazy"/>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Section 7: Gallery */}
-      <section className="bg-black py-20">
-        <div className="container-custom">
-          <div className="text-center mb-12">
-            <SectionLabel align="center" tone="dark">GALLERY</SectionLabel>
-            <h2 className="font-playfair text-h2 text-white" style={{ lineHeight: '1.15' }}>
-              Villa Dining Moments
-            </h2>
-          </div>
-          <div className="gallery-grid grid grid-cols-2 md:grid-cols-3 gap-4">
-            {galleryImages.map((img, i) => (
-              <div key={i} className="gallery-item relative overflow-hidden group aspect-[4/3]">
-                <img src={img} alt={`Villa dining gallery ${i + 1}`} width={400} height={300} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" decoding="async" loading="lazy"/>
-                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300" />
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Section 8: Review Invitation */}
-      <section className="bg-charcoal py-20">
-        <div className="villa-testimonial max-w-[800px] mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="text-gold text-4xl font-playfair mb-6">&ldquo;</div>
-          <h2 className="font-playfair text-h3 text-white mb-6" style={{ lineHeight: '1.3' }}>
-            Love your myCHEF villa experience?
-          </h2>
-          <p className="font-inter text-body text-gray-400 mb-6">
-            We are collecting verified reviews from villa guests. Leave a review and receive AED 50 credit towards your next booking.
-          </p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/review" className="btn-primary">Leave a Review</Link>
-            <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-secondary">Chat on WhatsApp</a>
-          </div>
-        </div>
-      </section>
-
-      {/* Section 9: FAQ */}
-      <section className="bg-white section-padding">
-        <div className="max-w-[800px] mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <SectionLabel align="center">FAQ</SectionLabel>
-            <h2 className="font-playfair text-h2 text-black" style={{ lineHeight: '1.15' }}>
-              Common Questions About Villa Chef Services
-            </h2>
-          </div>
-          <div className="space-y-0">
-            {faqItems.map((item, i) => (
-              <div key={i} className="border-b border-gray-200">
-                <button
-                  onClick={() => setOpenFaq(openFaq === i ? null : i)}
-                  className="w-full flex items-center justify-between py-5 text-left group"
-                >
-                  <span className="font-playfair text-h4 text-black group-hover:text-gold transition-colors pr-4">{item.q}</span>
-                  <ChevronDown
-                    size={20}
-                    className={`text-gold flex-shrink-0 transition-transform duration-300 ${openFaq === i ? 'rotate-180' : ''}`}
-                  />
-                </button>
-                <div
-                  className={`overflow-hidden transition-all duration-300 ${openFaq === i ? 'max-h-96 pb-5' : 'max-h-0'}`}
-                >
-                  <p className="font-inter text-body text-gray-500" style={{ lineHeight: '1.7' }}>{item.a}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Section 10: Related Services */}
-      <section className="bg-cream py-16">
-        <div className="container-custom">
-          <div className="flex flex-wrap items-center justify-center gap-4">
-            <span className="font-inter text-body-sm text-gray-500 mr-2">Explore related services:</span>
-            {relatedServices.map((svc) => (
               <Link
-                key={svc.href}
+                to="/private-chef-dubai"
+                className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink hover:text-gold"
+              >
+                Private chef <ArrowRight size={14} aria-hidden />
+              </Link>
+            </article>
+
+            <article className="border border-gray-200 bg-white p-8">
+              <p className="font-inter text-caption uppercase tracking-[0.12em] text-gold-ink mb-3">One night</p>
+              <h3 className="font-playfair text-h3 text-black mb-4">A team for the guest list</h3>
+              <p className="font-inter text-body text-gray-600 leading-relaxed mb-6">
+                Villa catering Dubai is the other job: a guest list, a clock, setup and a team that leaves before you start the washing up. A villa dinner party Dubai night is planned around heat, outdoor space, parking and when the gate will actually open.
+              </p>
+              <div className="flex flex-wrap gap-x-6 gap-y-3">
+                <Link
+                  to="/catering-dubai"
+                  className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink hover:text-gold"
+                >
+                  Catering <ArrowRight size={14} aria-hidden />
+                </Link>
+                <Link
+                  to="/events"
+                  className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink hover:text-gold"
+                >
+                  Events <ArrowRight size={14} aria-hidden />
+                </Link>
+              </div>
+            </article>
+          </div>
+        </Container>
+      </Section>
+
+      <Section id="includes" tone="ivory" rhythm="chapter">
+        <Container>
+          <div className="grid lg:grid-cols-[1.05fr_0.95fr] gap-12 lg:gap-16 items-center">
+            <div>
+              <SectionLabel>ON THE NIGHT, AND IN THE WEEK</SectionLabel>
+              <DisplayHeading className="text-black mb-6">What villa chef Dubai includes</DisplayHeading>
+              <BodyCopy className="mb-8">
+                The villa is the constraint. The menu, the staff and the kit are built around it — then written down before anyone arrives.
+              </BodyCopy>
+              <ul className="space-y-8">
+                {includedItems.map((item) => (
+                  <li key={item.title} className="border-t border-gray-200 pt-6">
+                    <h3 className="font-playfair text-h4 text-black mb-2">{item.title}</h3>
+                    <p className="font-inter text-body-sm text-gray-600 leading-relaxed">{item.body}</p>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <EditorialImage
+              src={HERO_IMAGE}
+              alt="Poolside villa catering in Dubai with the skyline behind. Experience concept shown."
+              width={1344}
+              height={752}
+              aspect="aspect-[4/5] lg:aspect-[4/5]"
+              objectPosition="center 40%"
+              className="w-full"
+            />
+          </div>
+        </Container>
+      </Section>
+
+      <Section id="how-it-runs" tone="white" rhythm="chapter">
+        <Container>
+          <SectionLabel>HOW THE TEAM WORKS HERE</SectionLabel>
+          <DisplayHeading className="text-black mb-4">Tell us the job. We build the kitchen around it.</DisplayHeading>
+          <BodyCopy className="mb-10">
+            Gated compounds are not a restaurant pass. Parking, load-in, staff access and where smoke can go belong in the brief. Intimate chef-led dinners that are really an experience, not a household plan, sit on{' '}
+            <Link to="/luxury-dining-experiences" className="text-gold-ink underline underline-offset-4 hover:text-gold">
+              luxury dining
+            </Link>
+            .
+          </BodyCopy>
+          <SequenceRail steps={howItRuns} />
+        </Container>
+      </Section>
+
+      <Section id="areas" tone="charcoal" rhythm="chapter">
+        <Container>
+          <SectionLabel tone="dark">WHERE THE VILLA IS</SectionLabel>
+          <DisplayHeading className="text-white mb-4">Three communities, then the rest of Dubai</DisplayHeading>
+          <BodyCopy tone="dark" className="mb-10">
+            The operating detail changes with the compound — beach access on the Palm is not a garden in the Hills. Other communities are listed with{' '}
+            <Link to="/locations" className="text-gold hover:text-gold-light underline underline-offset-4">
+              areas we serve
+            </Link>
+            .
+          </BodyCopy>
+          <div className="grid sm:grid-cols-3 gap-6">
+            {villaAreas.map((area) => (
+              <Link key={area.href} to={area.href} className="group relative block overflow-hidden">
+                <img
+                  src={area.image}
+                  alt={area.name}
+                  width={400}
+                  height={256}
+                  className="w-full h-64 object-cover transition-transform duration-700 group-hover:scale-105"
+                  decoding="async"
+                  loading="lazy"
+                />
+                <div
+                  className="absolute inset-0"
+                  style={{ background: 'linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.2) 50%, rgba(0,0,0,0) 100%)' }}
+                />
+                <div className="absolute bottom-0 left-0 right-0 p-6">
+                  <h3 className="font-playfair text-h4 text-white group-hover:text-gold transition-colors">{area.name}</h3>
+                </div>
+              </Link>
+            ))}
+          </div>
+          <p className="mt-10">
+            <Link
+              to="/locations"
+              className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold hover:text-gold-light"
+            >
+              Areas we serve <ArrowRight size={14} aria-hidden />
+            </Link>
+          </p>
+        </Container>
+      </Section>
+
+      <Section id="quote" tone="white" rhythm="chapter">
+        <Container className="max-w-3xl">
+          <SectionLabel>HOW THE QUOTE IS BUILT</SectionLabel>
+          <DisplayHeading className="text-black mb-6">The method first. The number after.</DisplayHeading>
+          <BodyCopy className="mb-5">
+            A household chef is priced as working time × days, plus the published zone rate for the visit. Groceries sit on top, at receipts. That calculator lives on{' '}
+            <Link to="/private-chef-prices-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
+              private chef prices
+            </Link>
+            .
+          </BodyCopy>
+          <BodyCopy>
+            An event night is quoted from guest count, menu, staffing, access and whether service is indoors or by the pool. Food-only through full service is scoped on{' '}
+            <Link to="/catering-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
+              catering
+            </Link>
+            . There is no single villa rate. Minimums and 5% VAT are shown on the written proposal.
+          </BodyCopy>
+        </Container>
+      </Section>
+
+      <Section id="faqs" tone="ivory" rhythm="standard">
+        <Container className="max-w-[800px]">
+          <SectionLabel align="center">BEFORE YOU BOOK</SectionLabel>
+          <DisplayHeading className="text-black text-center mb-10">What should I know before a chef arrives?</DisplayHeading>
+          <FaqAccordion items={[...faqItems]} />
+        </Container>
+      </Section>
+
+      <Section tone="white" rhythm="connected">
+        <Container>
+          <SectionLabel align="center">YOU MAY ALSO LIKE</SectionLabel>
+          <div className="flex flex-wrap items-center justify-center gap-4">
+            {siblingLinks.map((svc) => (
+              <Link
+                key={svc.label}
                 to={svc.href}
                 className="inline-flex items-center gap-1 px-4 py-2 font-inter text-body-sm text-black border border-gray-200 hover:border-gold hover:text-gold transition-all duration-300 bg-white"
               >
@@ -485,53 +413,49 @@ export default function Villas() {
               </Link>
             ))}
           </div>
-        </div>
-      </section>
+        </Container>
+      </Section>
 
-      {/* ═══════════════ Related Guides ═══════════════ */}
-      <section className="bg-cream py-16">
-        <div className="container-custom max-w-[800px] text-center">
-          <h3 className="font-playfair text-h3 text-black mb-4">Related Guides</h3>
+      <Section tone="ivory" rhythm="connected">
+        <Container className="max-w-[720px] text-center">
+          <SectionLabel align="center">PLANNING READING</SectionLabel>
+          <DisplayHeading as="h2" size="h3" className="text-black mb-6">
+            If you are still shaping the night
+          </DisplayHeading>
           <p className="font-inter text-body text-gray-500 leading-relaxed">
-            Planning an event in Dubai? Read our{' '}
-            <Link to="/villa-catering-ideas-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Villa Catering Ideas</Link>.
+            {supportingGuides.map((guide, i) => (
+              <span key={guide.label}>
+                {i > 0 && (i === supportingGuides.length - 1 ? ' and ' : ', ')}
+                <Link
+                  to={guide.href}
+                  className="text-gold-ink hover:text-gold underline underline-offset-4 transition-colors"
+                >
+                  {guide.label}
+                </Link>
+              </span>
+            ))}
+            .
           </p>
-        </div>
-      </section>
+        </Container>
+      </Section>
 
-      <LocationStrip
-        title="Villa chef services across Dubai"
-        subtitle={
-          <>
-            Villa private chef service in{' '}
-            <Link to="/locations/palm-jumeirah" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Palm Jumeirah</Link>,{' '}
-            <Link to="/locations/emirates-hills" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Emirates Hills</Link>{' '}
-            and{' '}
-            <Link to="/locations/arabian-ranches" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Arabian Ranches</Link>.
-          </>
-        }
-      />
-
-      {/* Section 11: CTA Banner */}
-      <section className="villas-cta-section bg-black py-24">
-        <div className="villas-cta-content container-custom text-center">
-          <h2 className="font-playfair text-h2 text-white mb-4" style={{ lineHeight: '1.15' }}>
-            Book Your Villa Chef Today
-          </h2>
-          <p className="font-inter text-body-lg text-gray-400 max-w-2xl mx-auto mb-10">
-            Whether it is one evening or your entire stay — we bring exceptional dining to your Dubai villa.
+      <Section id="get-quote" tone="dark" rhythm="chapter">
+        <Container className="max-w-3xl">
+          <SectionLabel tone="dark">TELL US THE HOUSE</SectionLabel>
+          <DisplayHeading className="text-white mb-6">Community, date and the job is enough to start</DisplayHeading>
+          <p className="font-inter text-body text-gray-300 leading-relaxed mb-8 max-w-[58ch]">
+            Standing chef or one night. Guest count if you have it. We typically reply within 15 minutes during business hours.
           </p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary inline-flex items-center gap-2">
-              <Phone size={18} />
-              Plan My Villa Dining
+          <CTAGroup>
+            <Link to="/inquiry" className="btn-primary">
+              Get a villa quote
             </Link>
             <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-secondary">
               Chat on WhatsApp
             </a>
-          </div>
-        </div>
-      </section>
+          </CTAGroup>
+        </Container>
+      </Section>
     </div>
   )
 }

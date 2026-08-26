@@ -1,110 +1,80 @@
-// KEYWORD LOCK — this page owns: "birthday catering dubai".
-// Covers adults, milestones, mixed-age, home and villa birthdays. It introduces kids
-// birthdays, the bookable package and chef-led birthday dinners, then links to the page
-// that owns each. Do not target another birthday URL's primary here, and do not add
-// "adult/milestone/villa birthday catering" pages — those intents live on this page.
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /birthday-catering-dubai
+//     primary:     "birthday catering dubai"
+//     subkeywords: "birthday catering dubai price" · "birthday catering cost per person dubai" · "best birthday catering dubai" · "birthday catering menu dubai" · "halal birthday catering dubai" · "birthday party catering dubai" · "full service birthday catering dubai" · "kids birthday catering dubai" · "adult birthday catering dubai" · "allergy aware birthday catering dubai" · "bespoke birthday catering dubai" · "birthday catering dubai for adults"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { Link } from 'react-router'
-import { ArrowRight, Check, MessageCircle, Plus } from 'lucide-react'
+import { ArrowRight } from 'lucide-react'
 import SEO from '../components/SEO'
 import PageHero from '../components/PageHero'
 import TrustSignalStrip from '../components/TrustSignalStrip'
-import LocationStrip from '../components/LocationStrip'
 import FaqAccordion from '../components/FaqAccordion'
+import LocationStrip from '../components/LocationStrip'
+import {
+  Section,
+  Container,
+  SectionLabel,
+  DisplayHeading,
+  BodyCopy,
+  SequenceRail,
+  CTAGroup,
+} from '../components/system'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
-import { plainFaqAnswer } from '../utils/schema'
-import { Section, Container, SectionLabel, DisplayHeading, BodyCopy } from '../components/system'
+import { CATERING_INQUIRY_HREF } from '@/content/cateringCluster'
 import {
   BIRTHDAY_INQUIRY_HREF,
-  BIRTHDAY_PACKAGE,
   BIRTHDAY_PATHS,
-  BIRTHDAY_SUPPORT,
+  BIRTHDAY_SIBLING_LINKS,
   BIRTHDAY_WHATSAPP_LINK,
   BIRTHDAY_WHATSAPP_MESSAGE,
-  birthdayBreadcrumb,
-  birthdayHubSeo,
+  BIRTHDAY_KEYWORD_LOCK,
 } from '@/content/birthdayCluster'
 import {
-  audiences,
-  blocks,
-  faqs,
-  finalCta,
-  formats,
-  hero,
-  menuDirections,
-  quoteScope,
-  serviceAreas,
-  steps,
-  type Block,
+  birthdayFaqs,
+  birthdayHero,
+  birthdayHeroCopy,
+  birthdayKinds,
+  decisionModule,
+  exampleEvents,
+  exampleNote,
+  includedItems,
+  jumpNav,
+  kindDetail,
+  menuFormats,
+  otherBirthdays,
+  packagePointer,
+  priceRows,
+  pricingH2,
+  pricingIntro,
+  pricingNotes,
+  proofItems,
+  siloIntro,
+  startSteps,
 } from '@/content/birthdayPage'
-
-const HERO_IMAGE = '/images/birthday-catering-dubai-hero.webp'
 
 const schema = {
   '@context': 'https://schema.org',
   '@graph': [
     {
       '@type': 'Service',
+      '@id': 'https://www.mychef.ae/birthday-catering-dubai#service',
       name: 'Birthday Catering Dubai',
-      serviceType: 'Birthday catering',
-      description: birthdayHubSeo.description,
-      url: `https://www.mychef.ae${BIRTHDAY_PATHS.hub}`,
-      areaServed: { '@type': 'City', name: 'Dubai' },
+      serviceType: 'Birthday Catering',
+      description: BIRTHDAY_KEYWORD_LOCK.description,
+      url: 'https://www.mychef.ae/birthday-catering-dubai',
       provider: { '@id': 'https://www.mychef.ae/#organization' },
+      areaServed: { '@id': 'https://www.mychef.ae/#place-dubai' },
     },
-    birthdayBreadcrumb('Birthday Catering Dubai', BIRTHDAY_PATHS.hub),
     {
-      '@type': 'FAQPage',
-      mainEntity: faqs.map((f) => ({
-        '@type': 'Question',
-        name: f.q,
-        acceptedAnswer: { '@type': 'Answer', text: plainFaqAnswer(f.a) },
-      })),
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.mychef.ae/' },
+        { '@type': 'ListItem', position: 2, name: 'Events', item: 'https://www.mychef.ae/events' },
+        { '@type': 'ListItem', position: 3, name: 'Birthday catering', item: 'https://www.mychef.ae/birthday-catering-dubai' },
+      ],
     },
   ],
-}
-
-function TextBlock({ block }: { block: Block }) {
-  return (
-    <div id={block.id} className="scroll-mt-24 max-w-[760px]">
-      <DisplayHeading size="h2" className="mb-6 text-black">
-        {block.h2}
-      </DisplayHeading>
-      {block.paragraphs.map((p) => (
-        <BodyCopy key={p} tone="muted" className="mb-4 last:mb-0">
-          {p}
-        </BodyCopy>
-      ))}
-      {block.bullets ? (
-        <ul className="mt-8 grid gap-x-8 gap-y-2 sm:grid-cols-2">
-          {block.bullets.map((b) => (
-            <li key={b} className="flex items-start gap-3 border-b border-gray-200 py-2.5">
-              <span className="mt-2.5 h-px w-3 shrink-0 bg-gold-ink/60" aria-hidden />
-              <span className="font-inter text-body-sm text-gray-700">{b}</span>
-            </li>
-          ))}
-        </ul>
-      ) : null}
-      {block.link ? (
-        <div className="mt-8 flex flex-wrap items-center gap-x-8 gap-y-3">
-          <Link
-            to={block.link.href}
-            className="group inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.14em] text-gold-ink hover:text-gold"
-          >
-            {block.link.label}
-            <ArrowRight size={14} className="transition-transform group-hover:translate-x-1" />
-          </Link>
-          {block.secondaryLink ? (
-            <Link
-              to={block.secondaryLink.href}
-              className="font-inter text-body-sm text-gray-500 underline underline-offset-4 hover:text-gold-ink"
-            >
-              {block.secondaryLink.label}
-            </Link>
-          ) : null}
-        </div>
-      ) : null}
-    </div>
-  )
 }
 
 export default function BirthdayCatering() {
@@ -113,79 +83,313 @@ export default function BirthdayCatering() {
   return (
     <div>
       <SEO
-        title={birthdayHubSeo.title}
-        description={birthdayHubSeo.description}
+        title={BIRTHDAY_KEYWORD_LOCK.title}
+        description={BIRTHDAY_KEYWORD_LOCK.description}
         canonicalPath={BIRTHDAY_PATHS.hub}
-        ogImage={HERO_IMAGE}
+        ogImage={birthdayHero.src}
         hideSiteName
-        preloadHero={HERO_IMAGE}
+        preloadHero={birthdayHero.src}
         schema={schema}
       />
 
       <PageHero
-        variant="quiet"
-        eyebrow={hero.eyebrow}
-        title={hero.h1}
-        subtitle={hero.subtitle}
-        image={HERO_IMAGE}
-        imageAlt="A birthday table laid for guests in a Dubai home, with a chef finishing a dish in the background. Experience concept shown."
-        imageWidth={1683}
-        imageHeight={935}
-        cta={{ label: hero.primaryCta, href: BIRTHDAY_INQUIRY_HREF }}
-        secondaryCta={{ label: hero.secondaryCta, href: BIRTHDAY_WHATSAPP_LINK, external: true }}
+        eyebrow={birthdayHeroCopy.eyebrow}
+        title={birthdayHeroCopy.title}
+        subtitle={birthdayHeroCopy.subtitle}
+        image={birthdayHero.src}
+        imageAlt={birthdayHero.alt}
+        imageWidth={birthdayHero.width}
+        imageHeight={birthdayHero.height}
+        align="left"
+        cta={{ label: 'Get an itemised birthday quote', href: BIRTHDAY_INQUIRY_HREF }}
+        secondaryCta={{ label: 'Chat on WhatsApp', href: BIRTHDAY_WHATSAPP_LINK, external: true }}
         breadcrumb={[
           { label: 'Home', href: '/' },
-          { label: 'Catering', href: '/catering-dubai' },
-          { label: 'Birthday Catering' },
+          { label: 'Events', href: '/events' },
+          { label: 'Birthday catering' },
         ]}
-        minHeight="tall"
-        overlay="left"
-        align="left"
-        imagePosition="center 45%"
-      />
-
+        minHeight="full"
+        overlay="dark"
+      >
+        <p className="mt-5 font-inter text-body-sm text-white/90 max-w-[58ch]">
+          {birthdayHeroCopy.priceLine}
+        </p>
+        <p className="mt-3 font-inter text-body-sm text-white/70 max-w-[58ch]">
+          {birthdayHeroCopy.replyLine}
+        </p>
+      </PageHero>
       <TrustSignalStrip />
 
-      <Section tone="white" rhythm="standard">
+      <nav aria-label="On this page" className="border-b border-gray-200 bg-white">
+        <div className="container-custom flex flex-wrap gap-x-5 gap-y-2 py-4">
+          {jumpNav.map((item) => (
+            <a
+              key={item.href}
+              href={item.href}
+              className="font-inter text-caption uppercase tracking-[0.12em] text-gray-500 hover:text-gold-ink"
+            >
+              {item.label}
+            </a>
+          ))}
+        </div>
+      </nav>
+
+      <Section tone="ivory" rhythm="connected">
         <Container>
-          <p className="font-inter text-caption uppercase tracking-[0.16em] text-gray-400">{hero.utility}</p>
+          <p className="font-inter text-caption uppercase tracking-[0.12em] text-gold-ink mb-4">Also in this silo</p>
+          <ul className="flex flex-wrap gap-x-6 gap-y-2">
+            {BIRTHDAY_SIBLING_LINKS.map((item) => (
+              <li key={item.href}>
+                <Link
+                  to={item.href}
+                  className="font-inter text-body-sm text-gray-700 underline decoration-gold/40 underline-offset-4 hover:text-gold-ink"
+                >
+                  {item.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+          <p className="mt-6 font-inter text-body-sm text-gray-600 max-w-[62ch]">
+            {siloIntro.lead} Broader food-only through full-service catering sits on{' '}
+            <Link to="/catering-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
+              {siloIntro.cateringLabel}
+            </Link>
+            . Intimate chef-led dinners belong on{' '}
+            <Link to="/private-chef-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
+              {siloIntro.chefLabel}
+            </Link>
+            . Cuisine direction lives on{' '}
+            <Link to="/cuisines-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
+              {siloIntro.cuisinesLabel}
+            </Link>
+            .
+          </p>
         </Container>
       </Section>
 
-      {/* Who this is for — three routes */}
-      <Section tone="ivory" rhythm="chapter">
+      <Section id="kinds" tone="white" rhythm="chapter">
         <Container>
-          <div className="mb-12 max-w-[720px]">
-            <SectionLabel>Who it is for</SectionLabel>
-            <DisplayHeading size="h2" className="mb-5 text-black">
-              Three Very Different Kinds of Birthday
-            </DisplayHeading>
-            <BodyCopy tone="muted">
-              They need different food, different timing and sometimes different people. Start with the one
-              closest to what you are planning.
-            </BodyCopy>
-          </div>
-          <div className="grid gap-8 md:grid-cols-3">
-            {audiences.map((a) => (
-              <Link key={a.id} to={a.href} className="group block">
-                <div className="overflow-hidden">
+          <SectionLabel>WHAT ARE YOU HOSTING?</SectionLabel>
+          <DisplayHeading className="text-black mb-4">Three kinds of birthday. The food has to match the room.</DisplayHeading>
+          <BodyCopy className="mb-12">
+            Adult, children’s and mixed-age parties need different timings and different plates. Start with the one closest to the night you are planning.
+          </BodyCopy>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {birthdayKinds.map((item) => (
+              <article key={item.id} className="border border-gray-200">
+                <a href={item.href} data-track="event_card" className="block aspect-[16/10] overflow-hidden">
                   <img
-                    src={a.image}
-                    alt={a.alt}
-                    width={800}
-                    height={600}
+                    src={item.image}
+                    alt={item.imageAlt}
+                    width={1344}
+                    height={752}
                     loading="lazy"
                     decoding="async"
-                    className="aspect-[4/3] w-full object-cover transition-transform duration-700 group-hover:scale-[1.03]"
+                    className="h-full w-full object-cover"
                   />
+                </a>
+                <div className="p-6">
+                  <h3 className="font-playfair text-h4 text-black mb-2">{item.title}</h3>
+                  <p className="font-inter text-body-sm text-gray-600 leading-relaxed mb-4">{item.body}</p>
+                  <a
+                    href={item.href}
+                    data-track="event_card"
+                    className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink hover:text-gold"
+                  >
+                    {item.linkLabel} <ArrowRight size={14} aria-hidden />
+                  </a>
                 </div>
-                <h3 className="mt-5 font-playfair text-h3 text-black transition-colors group-hover:text-gold-ink">
-                  {a.title}
-                </h3>
-                <p className="mt-2 font-inter text-body-sm leading-relaxed text-gray-600">{a.text}</p>
-                <span className="mt-4 inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.14em] text-gold-ink">
-                  {a.cta}
-                  <ArrowRight size={14} className="transition-transform group-hover:translate-x-1" />
+              </article>
+            ))}
+          </div>
+          <ul className="mt-12 max-w-3xl divide-y divide-gray-200 border-y border-gray-200">
+            {otherBirthdays.map((item) => (
+              <li key={`${item.href}-${item.title}`}>
+                <Link
+                  to={item.href}
+                  data-track="event_card"
+                  className="group flex flex-col gap-1 py-5 sm:flex-row sm:items-baseline sm:justify-between sm:gap-6"
+                >
+                  <span className="font-inter text-body text-gray-600">{item.title}</span>
+                  <span className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink group-hover:text-gold">
+                    {item.linkLabel} <ArrowRight size={14} aria-hidden />
+                  </span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </Container>
+      </Section>
+
+      {(Object.keys(kindDetail) as Array<keyof typeof kindDetail>).map((key, i) => {
+        const block = kindDetail[key]
+        return (
+          <Section key={key} id={key} tone={i % 2 === 0 ? 'ivory' : 'white'} rhythm="chapter">
+            <Container className="max-w-3xl">
+              <DisplayHeading className="text-black mb-6">{block.h2}</DisplayHeading>
+              {block.paragraphs.map((p) => (
+                <BodyCopy key={p.slice(0, 40)} className="mb-4 last:mb-0">
+                  {p}
+                </BodyCopy>
+              ))}
+            </Container>
+          </Section>
+        )
+      })}
+
+      <Section id="pricing" tone="charcoal" rhythm="chapter">
+        <Container className="max-w-3xl">
+          <SectionLabel tone="dark">FORMATS AND PRICES</SectionLabel>
+          <DisplayHeading className="text-white mb-6">{pricingH2}</DisplayHeading>
+          {pricingIntro.map((p) => (
+            <p key={p.slice(0, 32)} className="font-inter text-body text-gray-300 leading-relaxed mb-5 max-w-[65ch]">
+              {p}
+            </p>
+          ))}
+          <div className="overflow-x-auto mb-8">
+            <table className="w-full text-left font-inter text-body-sm text-gray-300">
+              <thead>
+                <tr className="border-b border-white/15">
+                  <th className="py-3 pr-4 font-medium text-white">Format</th>
+                  <th className="py-3 pr-4 font-medium text-white">What it is</th>
+                  <th className="py-3 pr-4 font-medium text-white">Staff</th>
+                  <th className="py-3 font-medium text-white">From</th>
+                </tr>
+              </thead>
+              <tbody>
+                {priceRows.map((row) => (
+                  <tr key={row.format} className="border-b border-white/10">
+                    <td className="py-3 pr-4 text-white">
+                      <Link to={row.href} data-track="price_table" className="hover:text-gold">
+                        {row.format}
+                      </Link>
+                    </td>
+                    <td className="py-3 pr-4">{row.what}</td>
+                    <td className="py-3 pr-4">{row.staff}</td>
+                    <td className="py-3">{row.price}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <ul className="mb-8 space-y-2">
+            {pricingNotes.map((note) => (
+              <li key={note} className="font-inter text-body-sm text-gray-400">
+                {note}
+              </li>
+            ))}
+          </ul>
+          <div className="border-t border-white/15 pt-8 mb-8">
+            <p className="font-playfair text-h4 text-white mb-2">{packagePointer.title}</p>
+            <p className="font-inter text-body-sm text-gray-300 leading-relaxed mb-4 max-w-[62ch]">{packagePointer.body}</p>
+            <Link
+              to={packagePointer.href}
+              data-track="price_table"
+              className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold hover:text-gold-light"
+            >
+              {packagePointer.linkLabel} <ArrowRight size={14} aria-hidden />
+            </Link>
+          </div>
+          <div className="flex flex-wrap gap-6">
+            <Link
+              to="/buffet-vs-plated-dubai"
+              data-track="price_table"
+              className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold hover:text-gold-light"
+            >
+              Compare catering formats <ArrowRight size={14} aria-hidden />
+            </Link>
+            <Link
+              to={CATERING_INQUIRY_HREF}
+              data-track="price_table"
+              className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold hover:text-gold-light"
+            >
+              Get an itemised quote <ArrowRight size={14} aria-hidden />
+            </Link>
+          </div>
+        </Container>
+      </Section>
+
+      <Section tone="white" rhythm="standard">
+        <Container className="max-w-3xl">
+          <SectionLabel>PRIVATE CHEF OR EVENT CATERING</SectionLabel>
+          <DisplayHeading className="text-black mb-6">{decisionModule.h2}</DisplayHeading>
+          <BodyCopy className="mb-4">
+            <strong className="text-black">{decisionModule.privateChefLead}</strong> {decisionModule.privateChefBody}
+          </BodyCopy>
+          <BodyCopy className="mb-4">
+            <strong className="text-black">{decisionModule.eventLead}</strong> {decisionModule.eventBody}
+          </BodyCopy>
+          <BodyCopy className="mb-4">{decisionModule.catering}</BodyCopy>
+          <BodyCopy className="mb-5">{decisionModule.dining}</BodyCopy>
+          <div className="flex flex-wrap gap-6">
+            <Link
+              to={decisionModule.chefHref}
+              className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink hover:text-gold"
+            >
+              {decisionModule.chefLabel} <ArrowRight size={14} aria-hidden />
+            </Link>
+            <Link
+              to={decisionModule.dinnerHref}
+              className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink hover:text-gold"
+            >
+              {decisionModule.dinnerLabel} <ArrowRight size={14} aria-hidden />
+            </Link>
+            <Link
+              to={decisionModule.cateringHref}
+              className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink hover:text-gold"
+            >
+              {decisionModule.cateringLabel} <ArrowRight size={14} aria-hidden />
+            </Link>
+            <Link
+              to={decisionModule.diningHref}
+              className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink hover:text-gold"
+            >
+              {decisionModule.diningLabel} <ArrowRight size={14} aria-hidden />
+            </Link>
+          </div>
+        </Container>
+      </Section>
+
+      <Section tone="ivory" rhythm="chapter">
+        <Container>
+          <SectionLabel>WHAT IS INCLUDED</SectionLabel>
+          <DisplayHeading className="text-black mb-12">Menu, chefs, staff, cake, bar, setup and cleanup</DisplayHeading>
+          <div className="grid md:grid-cols-2 gap-8">
+            {includedItems.map((item) => (
+              <div key={item.title} className="border-t border-gray-200 pt-6">
+                <h3 className="font-playfair text-h4 text-black mb-3">{item.title}</h3>
+                <p className="font-inter text-body-sm text-gray-600 leading-relaxed max-w-[52ch]">{item.body}</p>
+              </div>
+            ))}
+          </div>
+        </Container>
+      </Section>
+
+      <Section id="menus" tone="white" rhythm="chapter">
+        <Container>
+          <SectionLabel>HOW THE FOOD IS SERVED</SectionLabel>
+          <DisplayHeading className="text-black mb-4">From drop-off to plated service</DisplayHeading>
+          <BodyCopy className="mb-12">
+            Pick a format. The specialist page owns the full explanation. Cuisine direction lives on{' '}
+            <Link to="/cuisines-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
+              Cuisines
+            </Link>
+            .
+          </BodyCopy>
+          <div className="grid md:grid-cols-2 gap-x-12 border-t border-gray-200">
+            {menuFormats.map((style) => (
+              <Link
+                key={style.title}
+                to={style.href}
+                className="group flex items-start gap-5 border-b border-gray-200 py-6"
+              >
+                <span className="min-w-0 flex-1">
+                  <span className="flex items-center justify-between gap-4">
+                    <h3 className="font-playfair text-h4 text-black transition-colors group-hover:text-gold-ink">{style.title}</h3>
+                    <ArrowRight size={16} className="flex-shrink-0 text-gold-ink opacity-0 -translate-x-1 transition-all group-hover:translate-x-0 group-hover:opacity-100" aria-hidden />
+                  </span>
+                  <p className="mt-1 font-inter text-body-sm text-gray-500 leading-relaxed">{style.body}</p>
+                  <span className="mt-3 inline-block font-inter text-caption uppercase tracking-[0.12em] text-gold-ink">{style.linkLabel}</span>
                 </span>
               </Link>
             ))}
@@ -193,261 +397,109 @@ export default function BirthdayCatering() {
         </Container>
       </Section>
 
-      {/* Formats at a glance */}
-      <Section tone="white" rhythm="chapter" id="formats">
+      <Section id="how-it-works" tone="ivory" rhythm="chapter">
         <Container>
-          <div className="mb-10 max-w-[760px]">
-            <SectionLabel>Service formats</SectionLabel>
-            <DisplayHeading size="h2" className="mb-5 text-black">
-              Six Ways to Feed a Birthday Party
-            </DisplayHeading>
-            <BodyCopy tone="muted">
-              The format decides the cost, the staffing and how the evening feels — more than the menu does.
-              Tell us the space and the guest count and we will confirm what is workable.
-            </BodyCopy>
-          </div>
+          <SectionLabel>HOW IT STARTS</SectionLabel>
+          <DisplayHeading className="text-black mb-12">Four steps. You stay in the review.</DisplayHeading>
+          <SequenceRail steps={[...startSteps]} />
+        </Container>
+      </Section>
 
-          {/* Mobile: stacked, so nothing hides behind a horizontal scroll */}
-          <ul className="border-t border-gray-200 lg:hidden">
-            {formats.map((f) => (
-              <li key={f.format} className="border-b border-gray-200 py-5">
-                <div className="flex items-baseline justify-between gap-4">
-                  <span className="font-playfair text-h4 text-black">{f.format}</span>
-                  <Link to={f.href} className="font-inter text-caption uppercase tracking-[0.12em] text-gold-ink">
-                    Detail
-                  </Link>
-                </div>
-                <p className="mt-2 font-inter text-body-sm text-gray-700">Best for: {f.bestFor}</p>
-                <p className="mt-1 font-inter text-body-sm text-gray-600">{f.feel}</p>
-                <p className="mt-1 font-inter text-caption uppercase tracking-[0.1em] text-gray-400">
-                  Space: {f.space} · Staffing: {f.staffing}
+      <Section id="examples" tone="white" rhythm="chapter">
+        <Container>
+          <SectionLabel>HOW THIS LOOKS IN PRACTICE</SectionLabel>
+          <DisplayHeading className="text-black mb-4">A birthday we have run, and two common briefs</DisplayHeading>
+          <BodyCopy className="mb-12">{exampleNote} See{' '}
+            <Link to="/case-studies" className="text-gold-ink underline underline-offset-4 hover:text-gold">
+              case studies
+            </Link>
+            .
+          </BodyCopy>
+          <div className="grid md:grid-cols-3 gap-8">
+            {exampleEvents.map((item) => (
+              <article key={item.title} className="border border-gray-200 p-6">
+                <h3 className="font-playfair text-h4 text-black mb-2">{item.title}</h3>
+                <p className="font-inter text-caption uppercase tracking-[0.12em] text-gold-ink mb-3">
+                  {item.guests} · {item.venue}
                 </p>
-              </li>
+                <p className="font-inter text-body-sm text-gray-600 leading-relaxed mb-3">{item.setup}</p>
+                <p className="font-inter text-body-sm text-gray-500 leading-relaxed mb-4">{item.outcome}</p>
+                <Link
+                  to={item.href}
+                  className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink hover:text-gold"
+                >
+                  {item.linkLabel} <ArrowRight size={14} aria-hidden />
+                </Link>
+              </article>
             ))}
-          </ul>
-
-          <div className="hidden overflow-x-auto lg:block">
-            <table className="w-full border-collapse text-left">
-              <thead>
-                <tr className="border-b border-gray-300">
-                  {['Format', 'Best for', 'How it feels', 'Space it needs', 'Staffing', ''].map((th) => (
-                    <th
-                      key={th}
-                      className="py-3 pr-4 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink"
-                    >
-                      {th}
-                    </th>
-                  ))}
-                </tr>
-              </thead>
-              <tbody>
-                {formats.map((f) => (
-                  <tr key={f.format} className="border-b border-gray-200">
-                    <td className="py-4 pr-4 font-playfair text-h4 text-black">{f.format}</td>
-                    <td className="py-4 pr-4 font-inter text-body-sm text-gray-700">{f.bestFor}</td>
-                    <td className="py-4 pr-4 font-inter text-body-sm text-gray-600">{f.feel}</td>
-                    <td className="py-4 pr-4 font-inter text-body-sm text-gray-600">{f.space}</td>
-                    <td className="py-4 pr-4 font-inter text-body-sm text-gray-600">{f.staffing}</td>
-                    <td className="py-4">
-                      <Link
-                        to={f.href}
-                        className="whitespace-nowrap font-inter text-caption uppercase tracking-[0.12em] text-gold-ink hover:text-gold"
-                      >
-                        Detail
-                      </Link>
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
           </div>
         </Container>
       </Section>
 
-      {/* Long-form body */}
-      {blocks.map((block, i) => (
-        <Section key={block.id} tone={i % 2 === 0 ? 'ivory' : 'white'} rhythm="chapter">
-          <Container>
-            <TextBlock block={block} />
-
-            {/* Menu directions sit inside the menu-design section */}
-            {block.id === 'menu-design' ? (
-              <div className="mt-12 grid gap-px border border-gray-200 bg-gray-200 md:grid-cols-3">
-                {menuDirections.map((m) => (
-                  <div key={m.title} className="bg-white p-6">
-                    <h3 className="font-playfair text-h4 text-black">{m.title}</h3>
-                    <p className="mt-2 font-inter text-body-sm leading-relaxed text-gray-600">{m.text}</p>
-                  </div>
-                ))}
-                <p className="col-span-full bg-cream p-4 font-inter text-caption text-gray-500">
-                  Illustrative directions, not fixed menus — every one is built around your guests, your
-                  space and the time of day.
-                </p>
+      <Section tone="ivory" rhythm="chapter">
+        <Container>
+          <SectionLabel>WHY MYCHEF</SectionLabel>
+          <DisplayHeading className="text-black mb-12">Standards you can open, not slogans</DisplayHeading>
+          <div className="grid md:grid-cols-2 gap-8">
+            {proofItems.map((item) => (
+              <div key={item.title} className="border-t border-gray-200 pt-6">
+                <h3 className="font-playfair text-h4 text-black mb-3">{item.title}</h3>
+                <p className="font-inter text-body-sm text-gray-600 leading-relaxed mb-4 max-w-[52ch]">{item.body}</p>
+                <Link
+                  to={item.href}
+                  className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink hover:text-gold"
+                >
+                  {item.linkLabel} <ArrowRight size={14} aria-hidden />
+                </Link>
               </div>
-            ) : null}
-
-            {/* Inclusions vs options sit inside the pricing section */}
-            {block.id === 'pricing' ? (
-              <>
-                <div className="mt-12 grid gap-px border border-gray-200 bg-gray-200 md:grid-cols-2">
-                  <div className="bg-white p-6 lg:p-7">
-                    <p className="mb-4 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink">
-                      {quoteScope.included.label}
-                    </p>
-                    <ul className="space-y-2">
-                      {quoteScope.included.items.map((it) => (
-                        <li key={it} className="flex items-start gap-2.5 font-inter text-body-sm text-gray-700">
-                          <Check size={14} className="mt-1 shrink-0 text-gold-ink" />
-                          {it}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                  <div className="bg-cream p-6 lg:p-7">
-                    <p className="mb-4 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink">
-                      {quoteScope.optional.label}
-                    </p>
-                    <ul className="space-y-2">
-                      {quoteScope.optional.items.map((it) => (
-                        <li key={it} className="flex items-start gap-2.5 font-inter text-body-sm text-gray-700">
-                          <Plus size={14} className="mt-1 shrink-0 text-gold-ink" />
-                          {it}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                </div>
-
-                {/* The one concrete package */}
-                <div className="mt-8 border-t-2 border-t-gold bg-white p-6 lg:p-8">
-                  <p className="font-inter text-caption uppercase tracking-[0.14em] text-gold-ink">
-                    One bookable package
-                  </p>
-                  <p className="mt-3 font-playfair text-h3 text-black">
-                    Birthday celebration for {BIRTHDAY_PACKAGE.guests}
-                  </p>
-                  <p className="mt-2 font-inter text-body text-gray-600">
-                    From{' '}
-                    <span className="font-medium text-gold-ink">{BIRTHDAY_PACKAGE.from}</span> ·{' '}
-                    {BIRTHDAY_PACKAGE.perPerson}. A fixed starting point for a small seated celebration —
-                    everything else on this page is quoted to your event.
-                  </p>
-                  <Link
-                    to={BIRTHDAY_PACKAGE.href}
-                    className="group mt-5 inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.14em] text-gold-ink hover:text-gold"
-                  >
-                    See what the package includes
-                    <ArrowRight size={14} className="transition-transform group-hover:translate-x-1" />
-                  </Link>
-                </div>
-              </>
-            ) : null}
-          </Container>
-        </Section>
-      ))}
-
-      {/* How booking works */}
-      <Section tone="white" rhythm="chapter" id="how-booking-works">
-        <Container>
-          <div className="mb-12 max-w-[720px]">
-            <SectionLabel>How it works</SectionLabel>
-            <DisplayHeading size="h2" className="mb-5 text-black">
-              From First Message to the Day Itself
-            </DisplayHeading>
-          </div>
-          <ol className="relative grid grid-cols-1 gap-y-8 lg:grid-cols-5 lg:gap-x-8">
-            <span className="pointer-events-none absolute top-2 bottom-2 left-[4px] w-px bg-gold/30 lg:hidden" aria-hidden />
-            <span className="pointer-events-none absolute top-[4px] right-0 left-0 hidden h-px bg-gold/30 lg:block" aria-hidden />
-            {steps.map((s) => (
-              <li key={s.n} className="relative pl-8 lg:pl-0 lg:pt-8">
-                <span className="absolute top-[6px] left-0 h-[9px] w-[9px] bg-gold-ink lg:top-0" aria-hidden />
-                <p className="mb-3 font-playfair text-h4 leading-none text-gold-ink select-none">{s.n}</p>
-                <p className="mb-2 font-playfair text-h4 text-black">{s.title}</p>
-                <p className="max-w-[38ch] font-inter text-body-sm leading-relaxed text-gray-600">{s.text}</p>
-              </li>
             ))}
-          </ol>
-        </Container>
-      </Section>
-
-      {/* Service areas */}
-      <Section tone="ivory" rhythm="standard">
-        <Container>
-          <div className="max-w-[760px]">
-            <SectionLabel>Where we cater</SectionLabel>
-            <DisplayHeading size="h2" className="mb-5 text-black">
-              Birthday Catering Across Dubai
-            </DisplayHeading>
-            <BodyCopy tone="muted" className="mb-6">
-              We cater birthdays across Dubai. Where you are affects planning more than most people expect —
-              access, parking, lift availability and community rules all feed into the timings, so it helps
-              to mention the address early.
-            </BodyCopy>
-            <p className="font-inter text-body-sm text-gray-600">
-              {serviceAreas.join(' · ')} and the rest of the city.{' '}
-              <Link
-                to={BIRTHDAY_SUPPORT.locations}
-                className="text-gold-ink underline underline-offset-4 hover:text-gold"
-              >
-                See areas we cover
-              </Link>
-              .
-            </p>
           </div>
         </Container>
       </Section>
 
-      {/* FAQ */}
-      <section className="bg-cream py-24">
-        <div className="container-custom max-w-[800px]">
-          <h2 className="mb-10 font-playfair text-fluid-h2 text-black">
-            Birthday Catering in Dubai — Common Questions
-          </h2>
-          <FaqAccordion items={[...faqs]} defaultOpen={-1} />
-          <p className="mt-8 font-inter text-body-sm text-gray-500">
-            Planning something bigger or different?{' '}
-            <Link to={BIRTHDAY_SUPPORT.privateParty} className="text-gold-ink underline underline-offset-4 hover:text-gold">
-              Party catering
-            </Link>
-            {' · '}
-            <Link to={BIRTHDAY_SUPPORT.poolParty} className="text-gold-ink underline underline-offset-4 hover:text-gold">
-              Pool party catering
-            </Link>
-            {' · '}
-            <Link to={BIRTHDAY_SUPPORT.gallery} className="text-gold-ink underline underline-offset-4 hover:text-gold">
-              Gallery
-            </Link>
+      <Section id="faqs" tone="white" rhythm="standard">
+        <Container className="max-w-[800px]">
+          <SectionLabel align="center">BEFORE YOU BOOK</SectionLabel>
+          <DisplayHeading className="text-black text-center mb-10">What should I know before I book?</DisplayHeading>
+          <FaqAccordion items={[...birthdayFaqs]} showJumpNav />
+        </Container>
+      </Section>
+
+      <LocationStrip
+        title="Birthday catering across Dubai"
+        subtitle={
+          <>
+            Available across Dubai including{' '}
+            <Link to="/locations/palm-jumeirah" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Palm Jumeirah</Link>,{' '}
+            <Link to="/locations/dubai-marina" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Dubai Marina</Link>
+            {' '}and{' '}
+            <Link to="/locations/downtown-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Downtown Dubai</Link>
+            . See{' '}
+            <Link to="/locations" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">areas we serve</Link>.
+          </>
+        }
+      />
+
+      <Section id="get-quote" tone="dark" rhythm="chapter">
+        <Container className="max-w-3xl">
+          <SectionLabel tone="dark">TELL US WHAT YOU ARE PLANNING</SectionLabel>
+          <DisplayHeading className="text-white mb-6">Date, guest count and the kind of birthday is enough to start</DisplayHeading>
+          <p className="font-inter text-body text-gray-300 leading-relaxed mb-8 max-w-[58ch]">
+            Event buffets start from AED 120 per person. You do not need to build the party before contacting us. We typically reply within 15 minutes during business hours.
           </p>
-        </div>
-      </section>
-
-      <LocationStrip />
-
-      {/* Final conversion */}
-      <Section tone="charcoal" rhythm="chapter">
-        <Container>
-          <div className="max-w-[720px]">
-            <DisplayHeading size="h2" className="mb-6 text-white">
-              {finalCta.h2}
-            </DisplayHeading>
-            <BodyCopy tone="light" className="mb-9 text-body-lg">
-              {finalCta.body}
-            </BodyCopy>
-            <div className="flex flex-wrap gap-4">
-              <Link to={BIRTHDAY_INQUIRY_HREF} className="btn-primary">
-                {finalCta.primary}
-              </Link>
-              <a
-                href={BIRTHDAY_WHATSAPP_LINK}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn-secondary inline-flex items-center gap-2"
-              >
-                <MessageCircle size={16} />
-                {finalCta.secondary}
-              </a>
-            </div>
-          </div>
+          <CTAGroup>
+            <Link to={BIRTHDAY_INQUIRY_HREF} className="btn-primary">
+              Get an itemised birthday quote
+            </Link>
+            <a
+              href={BIRTHDAY_WHATSAPP_LINK}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-secondary"
+            >
+              Chat on WhatsApp
+            </a>
+          </CTAGroup>
         </Container>
       </Section>
     </div>

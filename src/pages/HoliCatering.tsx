@@ -8,7 +8,7 @@ const config: ServicePageConfig = {
   seoTitle: "Holi Catering Dubai | Festival Feasts",
   metaDescription:
     'Holi catering in Dubai: vibrant Indian festival menus, chaat stations, thandai, biryanis and colourful desserts for home, villa and corporate celebrations.',
-  canonicalPath: '/holi-catering-dubai',
+  canonicalPath: '/indian-catering-dubai',
   ogImage: '/images/indian-catering-dubai-hero.webp',
   breadcrumbLabel: 'Holi Catering Dubai',
   h1: 'Holi Catering in Dubai',
@@ -56,7 +56,7 @@ const config: ServicePageConfig = {
       Icon: Sun,
       title: 'Garden & Poolside Holi Party',
       description: 'Outdoor catering for villa gardens and pool decks with live stations, grazing tables and refreshing drinks.',
-      link: '/pool-party-catering-dubai',
+      link: '/private-party-catering-dubai',
     },
     {
       Icon: Flame,
@@ -68,7 +68,7 @@ const config: ServicePageConfig = {
       Icon: Music,
       title: 'Thandai & Mocktail Bar',
       description: 'A dedicated drinks station serving thandai, flavoured lassis, lemonades and colourful Holi mocktails.',
-      link: '/mocktail-bar-catering-dubai',
+      link: '/bar-services-dubai',
     },
     {
       Icon: Home,

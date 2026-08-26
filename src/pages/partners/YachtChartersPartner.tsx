@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /partners/yacht-charters-dubai
+//     primary:     "yacht charters partnership dubai"
+//     subkeywords: "catering partner for yacht charter companies dubai" · "private yacht dinner dubai price" · "dinner on a yacht" · "dubai canal dinner yacht" · "dubai marina yacht dinner cruise" · "dubai marina yacht tour with dinner" · "yacht rental dubai with dinner" · "yacht chef requirements"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import PartnerPageTemplate from './PartnerPageTemplate'
 import { Ship, TrendingUp, Shield, Users, Briefcase } from 'lucide-react'
 
@@ -5,8 +11,8 @@ export default function YachtChartersPartner() {
   return (
     <PartnerPageTemplate
       name="Yacht Charters"
-      seoTitle="Yacht Charter Partnership Dubai | Chef"
-      description="Partner with myCHEF Dubai to offer private chef and catering services on your yacht charters across Dubai Marina, Palm Jumeirah, and beyond."
+      seoTitle="Yacht Charters Partnership Dubai | Chef"
+      description="Yacht Charters Partnership Dubai — Partner with myCHEF Dubai to offer private chef and catering services on your yacht charters across Dubai Marina, Palm…"
       canonicalPath="/partners/yacht-charters-dubai"
       ogImage="/images/yacht-catering-dubai-hero.webp"
       headline="Yacht Charter Partnership Dubai"

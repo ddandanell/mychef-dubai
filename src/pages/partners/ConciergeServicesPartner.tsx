@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /partners/concierge-services-dubai
+//     primary:     "concierge services partnership dubai"
+//     subkeywords: "catering partner for concierge companies dubai" · "partner with a private chef company dubai"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import PartnerPageTemplate from './PartnerPageTemplate'
 import { ConciergeBell, TrendingUp, Shield, Users, Briefcase } from 'lucide-react'
 
@@ -5,8 +11,8 @@ export default function ConciergeServicesPartner() {
   return (
     <PartnerPageTemplate
       name="Concierge Services"
-      seoTitle="Concierge Partnership Dubai | Catering"
-      description="Partner with myCHEF Dubai to offer your concierge clients exclusive private chef and luxury catering experiences across Dubai."
+      seoTitle="Concierge Services Partnership Dubai | myCHEF"
+      description="Concierge Services Partnership Dubai — Partner with myCHEF Dubai to offer your concierge clients exclusive private chef and luxury catering experiences…"
       canonicalPath="/partners/concierge-services-dubai"
       ogImage="/images/luxury-dining-dubai-hero.webp"
       headline="Concierge Partnership Dubai"

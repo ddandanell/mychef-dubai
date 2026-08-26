@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /locations
+//     primary:     "catering near me dubai"
+//     subkeywords: "catering services near me dubai" · "private chef service areas dubai" · "dubai chocolate catering near me" · "best catering locations dubai" · "birthday catering locations dubai" · "food catering locations dubai" · "small catering locations dubai" · "what is the largest catering company" · "dubai private chef locations" · "caterers near by"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useEffect, useRef } from 'react'
 import { Link } from 'react-router'
 import gsap from 'gsap'
@@ -63,8 +69,8 @@ export default function Locations() {
   return (
     <div ref={pageRef}>
       <SEO
-        title="Private Chef & Catering Locations"
-        description="Premium private chef and luxury catering services across Dubai. Palm Jumeirah, Downtown, Dubai Marina, Emirates Hills, JBR, DIFC, Business Bay, JVC & more."
+        title="Catering Near Me Dubai | Private Chef & Catering Areas | myCHEF"
+        description="Catering Near Me Dubai — Premium private chef and luxury catering services across Dubai. Palm Jumeirah, Downtown, Dubai Marina, Emirates Hills, JBR, DIFC…"
         canonicalPath="/locations"
         ogImage="/loc-downtown.webp"
         schema={{
@@ -80,8 +86,8 @@ export default function Locations() {
       {/* Hero */}
       <PageHero
         eyebrow="Dubai Coverage"
-        title="Private Chef & Catering Across Dubai"
-        subtitle="From Palm Jumeirah to Downtown, Emirates Hills to Dubai Marina — we bring premium dining to your doorstep. We reply within 15 minutes during business hours."
+        title="Catering Near Me Dubai: Private Chef & Catering Across Dubai"
+        subtitle="Catering Near Me Dubai by myCHEF — From Palm Jumeirah to Downtown, Emirates Hills to Dubai Marina — we bring premium dining to your doorstep. We reply within 15 minutes during"
         image="/images/locations-dubai-hero.webp"
         imageAlt="Map of Dubai locations served by myCHEF"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Locations' }]}
@@ -123,7 +129,7 @@ export default function Locations() {
                     {loc.description}
                   </p>
                   <div className="flex items-center text-gold text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <span>Explore</span>
+                    <span>{loc.name}</span>
                     <ArrowRight size={14} className="ml-1" />
                   </div>
                 </div>
@@ -150,7 +156,7 @@ export default function Locations() {
       {/* CTA */}
       <section className="py-24 bg-black text-center">
         <div className="max-w-3xl mx-auto px-4">
-          <h2 className="font-playfair text-3xl md:text-4xl text-white mb-6">Not Sure If We Cover Your Area?</h2>
+          <h2 className="font-playfair text-3xl md:text-4xl text-white mb-6">Catering Near Me Dubai: Not Sure If We Cover Your Area?</h2>
           <p className="text-gray-400 mb-8">We serve all of Dubai and surrounding Emirates. Message us to confirm availability for your location.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

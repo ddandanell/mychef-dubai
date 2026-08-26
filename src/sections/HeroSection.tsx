@@ -236,7 +236,7 @@ export default function HeroSection() {
           ref={headlineRef}
           className="hero-title text-white opacity-0 max-w-[38rem] lg:max-w-[46rem] mx-auto md:mx-0 text-center md:text-left"
         >
-          Private Chef & Luxury Catering in Dubai — Brought to Your Villa, Yacht or Home
+          Private Chef and Catering Dubai — Brought to Your Villa, Yacht or Home
         </h1>
 
         {/* Subtext */}
@@ -244,7 +244,7 @@ export default function HeroSection() {
           ref={subtextRef}
           className="hero-copy mt-4 md:mt-5 text-white/90 max-w-[34rem] mx-auto md:mx-0 opacity-0 text-center md:text-left"
         >
-          Bespoke dining for 2 to 500+ guests. We design, cook and serve — so you stay a guest at your own table.
+          Private chef and catering Dubai families, hosts and companies book for 2 to 500+ guests. We design, cook and serve — so you stay a guest at your own table.
         </p>
 
         {/* CTA Row */}

@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /uae-national-day-catering-dubai
+//     primary:     "uae national day catering dubai"
+//     subkeywords: "uae national day catering dubai price" · "uae national day catering cost per person dubai" · "best uae national day catering dubai" · "uae national day catering packages dubai" · "uae national day catering menu dubai" · "national day catering dubai" · "new years day catering" · "mothers day brunch dubai catering" · "new years day brunch dubai" · "mothers day lunch at home dubai" · "valentines day dinner at home dubai" · "valentines day special dinner"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { Link } from 'react-router'
 import { Flag, Home, Building2, Users, UtensilsCrossed, Flame } from 'lucide-react'
 import OccasionCateringPage from './occasion/OccasionCateringPage'
@@ -6,11 +12,11 @@ import type { OccasionPageConfig } from './occasion/OccasionCateringPage'
 const config: OccasionPageConfig = {
   slug: 'uae-national-day-catering-dubai',
   seoTitle: 'UAE National Day Catering Dubai | Emirati Menus',
-  metaDescription: 'UAE National Day catering in Dubai. Celebrate 2 December with bespoke Emirati menus, live grills and elegant buffets at home, villas, offices or venues.',
+  metaDescription: 'UAE national day catering Dubai. Celebrate 2 December with bespoke Emirati menus, live grills and elegant buffets at home, villas, offices or venues.',
   canonicalPath: '/uae-national-day-catering-dubai',
   ogImage: '/images/uae-national-day-catering-dubai-hero.webp',
   breadcrumbLabel: 'UAE National Day Catering Dubai',
-  h1: 'UAE National Day Catering in Dubai',
+  h1: 'UAE National Day Catering Dubai',
   heroSub:
     'Celebrate the spirit of the Union with a bespoke National Day menu crafted by a private chef — authentic Emirati flavours, modern canapés and seamless service at your villa, office or venue.',
   heroImage: '/images/uae-national-day-catering-dubai-hero.webp',
@@ -122,7 +128,7 @@ const config: OccasionPageConfig = {
     { src: '/service-events.webp', alt: 'Event catering service in Dubai' },
     { src: '/service-luxury-dining.webp', alt: 'Luxury private dining experience in Dubai' },
   ],
-  faqsH2: 'UAE National Day Catering Questions',
+  faqsH2: 'UAE National Day Catering Dubai: the questions we get before a booking',
   faqs: [
     {
       q: 'Can you cater UAE National Day at my home or villa?',

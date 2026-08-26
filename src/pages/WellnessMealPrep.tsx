@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /wellness-meal-prep-dubai
+//     primary:     "healthy meal prep dubai"
+//     subkeywords: "healthy meal prep dubai price" · "healthy meal prep dubai price per meal" · "healthy meal prep delivery dubai" · "healthy meal plan dubai" · "weight loss meal plan dubai" · "healthy food chef" · "wellness meal prep dubai" · "monthly healthy meal plan dubai for weight loss" · "meal prep in dubai" · "healthy food plan dubai" · "healthy meal plans dubai" · "chef meal prep cost"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef, useState } from 'react'
 import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
@@ -187,7 +193,7 @@ export default function WellnessMealPrep() {
     <div ref={containerRef}>
       <SEO
         title="Healthy Meal Prep Dubai | Nutritionist-Aligned Chefs | myCHEF"
-        description="Healthy meal prep in Dubai by a private chef. Macro-calculated, fitness-focused and medical-condition-friendly meals, with optional nutritionist support."
+        description="Healthy meal prep Dubai by a private chef. Macro-calculated, fitness-focused and medical-condition-friendly meals, with optional nutritio"
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/healthy-catering-dubai-hero.webp"
         hideSiteName
@@ -196,8 +202,8 @@ export default function WellnessMealPrep() {
 
       <PageHero
         eyebrow="HEALTH-FOCUSED MEAL PREP"
-        title="Healthy Meal Prep in Dubai, Nutritionist-Aligned"
-        subtitle="Nutritionist-aligned, macro-calculated meals prepared by a private chef in your own kitchen. Tell us about your household and goals — we will bring you a vetted wellness chef and send a tailored quote within 24 hours."
+        title="Healthy Meal Prep Dubai, Nutritionist-Aligned"
+        subtitle="Healthy Meal Prep Dubai by myCHEF — Nutritionist-aligned, macro-calculated meals prepared by a private chef in your own kitchen. Tell us about your household and goals — we wila tailored quote within 24 hours."
         image="/images/healthy-catering-dubai-hero.webp"
         imageAlt="Wellness meal prep in Dubai"
         cta={{ label: 'Plan My Wellness Menu', href: `/inquiry` }}
@@ -317,9 +323,9 @@ export default function WellnessMealPrep() {
       {/* CTA */}
       <section className="bg-gradient-to-b from-black to-charcoal py-24">
         <div className="container-custom text-center wm-fade opacity-0 translate-y-8">
-          <h2 className="font-playfair text-h2 text-white mb-4">Start Your Wellness Meal Plan</h2>
+          <h2 className="font-playfair text-h2 text-white mb-4">Healthy Meal Prep Dubai: Start Your Wellness Meal Plan</h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Tell us your goals, dietary needs, and household size. We will bring you a vetted wellness chef and send a tailored quote within 24 hours. Also explore <Link to="/healthy-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">healthy catering</Link> and <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef service</Link>.
+            Tell us your goals, dietary needs, and household size. We will bring you a vetted wellness chef and send a tailored quote within 24 hours. Also explore <Link to="/cuisines-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">healthy catering</Link> and <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef service</Link>.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary">

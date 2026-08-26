@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /villa-catering-ideas-dubai
+//     primary:     "villa catering ideas dubai"
+//     subkeywords: "villa party food ideas dubai" · "home entertaining ideas dubai" · "villa dinner party ideas dubai" · "outdoor villa catering ideas dubai" · "small villa catering ideas dubai" · "birthday catering for villa party dubai" · "dubai self catering holidays" · "villa and yacht catering partners dubai" · "birthday dinner at villa dubai" · "chef for villa" · "chef villa fleurie" · "chef villa florentine"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef } from 'react'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { Link } from 'react-router'
@@ -226,7 +232,7 @@ export default function VillaCateringIdeas() {
     <div ref={containerRef}>
       <SEO
         title="Villa Catering Ideas Dubai | Party Menus"
-        description="Villa catering ideas for Dubai homes: BBQ, mezze, brunch, canapés, seated dinners, live stations, and dessert tables. Setup tips, staffing, and more."
+        description="Villa catering ideas Dubai homes: BBQ, mezze, brunch, canapés, seated dinners, live stations, and dessert tables. Setup tips, staffing, and more."
         canonicalPath="/villa-catering-ideas-dubai"
         ogImage="/service-villa.webp"
         schema={schema}
@@ -252,7 +258,7 @@ export default function VillaCateringIdeas() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 villa-hero-h1">
-            Villa Catering Ideas for Dubai Homes and Residences
+            Villa Catering Ideas Dubai Homes and Residences
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 villa-hero-sub">
             Menu formats, setup tips, and staffing guidance for unforgettable villa parties across Dubai, from poolside BBQs to elegant seated dinners.
@@ -448,7 +454,7 @@ export default function VillaCateringIdeas() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Villa Catering FAQ
+            Villa Catering Ideas Dubai: the questions we get before a booking
           </h2>
 
           <FaqAccordion items={faqs} />

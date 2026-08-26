@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /tourist-villa-chef-dubai
+//     primary:     "holiday villa chef dubai"
+//     subkeywords: "private chef holiday villa dubai" · "private chef for a week dubai" · "chef for holiday home dubai" · "private chef for tourists dubai" · "private chef airbnb dubai" · "france villa holidays with private chef" · "top chef offering home in dubai" · "holiday cottage with chef" · "vacation villa with chef" · "private villa with chef ubud" · "vietnam villa with private chef" · "villa with private chef greece"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef } from 'react'
 import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
@@ -195,7 +201,7 @@ export default function TouristVillaChef() {
     <div ref={containerRef}>
       <SEO
         title="Holiday Villa Chef Dubai | Multi-Day Private Dining | myCHEF"
-        description="Holiday villa chef service in Dubai. Multi-day private chef packages for luxury villa rentals, with themed dinners and an Arabic feast finale. Get a quote."
+        description="Holiday Villa Chef Dubai — Holiday villa chef service in Dubai. Multi-day private chef packages for luxury villa rentals, with themed dinners and an Arabic…"
         canonicalPath={CANONICAL_PATH}
         ogImage="/service-villa.webp"
         hideSiteName
@@ -349,7 +355,7 @@ export default function TouristVillaChef() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Tourist Villa Chef Questions
+            Holiday Villa Chef Dubai: the questions we get before a booking
           </h2>
 
           <FaqAccordion items={faqs} />
@@ -381,7 +387,7 @@ export default function TouristVillaChef() {
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
                   <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
-                    Explore <ArrowRight size={14} />
+                    {svc.title} <ArrowRight size={14} />
                   </span>
                 </div>
               </Link>

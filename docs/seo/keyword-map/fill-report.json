@@ -1,47 +1,67 @@
 {
- "generated": "2026-08-26 10:03",
+ "generated": "2026-08-26 10:26",
  "doubles_resolved": [],
  "added": {
   "/catering-dubai": [
    {
-    "kw": "full service catering dubai",
-    "score": 25,
-    "intent": "sales",
-    "sources": [
-     "historical-master"
-    ],
-    "vol_ae": null,
-    "already_said": false
-   }
-  ],
-  "/blog/private-chef-palm-jumeirah-guide": [
-   {
-    "kw": "how much does a private chef cost",
-    "score": 13,
-    "intent": "sales",
-    "sources": [
-     "bing-autosuggest"
-    ],
-    "vol_ae": null,
-    "already_said": true
-   }
-  ],
-  "/how-it-works": [
-   {
-    "kw": "live in chef dubai",
-    "score": 9,
+    "kw": "outdoor catering dubai",
+    "score": 23,
     "intent": "long-tail",
     "sources": [
      "historical-master"
     ],
     "vol_ae": null,
     "already_said": false
+   },
+   {
+    "kw": "party food catering dubai",
+    "score": 23,
+    "intent": "long-tail",
+    "sources": [
+     "google-autocomplete",
+     "historical-master"
+    ],
+    "vol_ae": null,
+    "already_said": false
    }
   ],
-  "/locations/emirates-hills": [
+  "/baby-shower-catering-dubai": [
    {
-    "kw": "is emirates food halal",
-    "score": 7,
+    "kw": "small party catering in dubai",
+    "score": 10,
+    "intent": "long-tail",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   }
+  ],
+  "/asian-catering-dubai": [
+   {
+    "kw": "bbq catering in dubai",
+    "score": 9,
+    "intent": "long-tail",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   },
+   {
+    "kw": "best indian catering in dubai",
+    "score": 9,
+    "intent": "long-tail",
+    "sources": [
+     "google-autocomplete",
+     "historical-master"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   },
+   {
+    "kw": "birthday catering in dubai",
+    "score": 9,
     "intent": "long-tail",
     "sources": [
      "google-autocomplete"
@@ -53,24 +73,57 @@
  },
  "skipped_full": [],
  "left_open": {
-  "/become-a-mychef": 1,
-  "/brand-activation-catering-dubai": 1,
-  "/case-studies": 6,
+  "/apartment-private-dining-dubai": 4,
+  "/bar-services-dubai": 1,
+  "/become-a-mychef": 5,
+  "/best-catering-companies-dubai": 2,
+  "/brand-activation-catering-dubai": 5,
+  "/case-studies": 10,
+  "/chef-training-academy": 2,
   "/chefs/marco-italian-chef": 1,
   "/chefs/matteo-pastry-chef": 4,
+  "/corporate-retainer-dubai": 1,
+  "/cuisines-dubai": 1,
+  "/eid-catering-dubai": 4,
+  "/exhibition-catering-dubai": 4,
+  "/family-feast-package-dubai": 1,
   "/faq": 2,
-  "/founding-customer-offer": 2,
-  "/how-it-works": 1,
-  "/locations/al-barsha": 1,
-  "/locations/arabian-ranches": 2,
-  "/locations/jbr": 2,
-  "/locations/jvc": 3,
-  "/locations/umm-suqeim": 3,
-  "/loyalty-programme": 7,
-  "/mychef-membership": 5,
+  "/festive-catering-dubai": 3,
+  "/founding-customer-offer": 6,
+  "/full-time-private-chef-dubai": 2,
+  "/how-it-works": 5,
+  "/how-to-choose-caterer-dubai": 1,
+  "/how-we-vet-our-chefs": 1,
+  "/italian-catering-dubai": 2,
+  "/jain-catering-dubai": 2,
+  "/locations": 2,
+  "/locations/al-barsha": 5,
+  "/locations/arabian-ranches": 6,
+  "/locations/bluewaters-island": 3,
+  "/locations/difc": 3,
+  "/locations/downtown-dubai": 3,
+  "/locations/dubai-hills": 4,
+  "/locations/dubai-marina": 2,
+  "/locations/emirates-hills": 4,
+  "/locations/jbr": 6,
+  "/locations/jlt": 3,
+  "/locations/jumeirah": 4,
+  "/locations/jvc": 7,
+  "/locations/palm-jumeirah": 2,
+  "/locations/umm-suqeim": 7,
+  "/loyalty-programme": 11,
+  "/menus": 2,
+  "/mychef-certified": 5,
+  "/mychef-membership": 9,
+  "/part-time-private-chef-dubai": 2,
   "/partners/concierge-services-dubai": 6,
-  "/quality-guarantee-dubai": 3,
-  "/referral-programme": 7,
-  "/vip-club": 5
+  "/private-chef-prices-dubai": 1,
+  "/product-launch-catering-dubai": 4,
+  "/production-catering-dubai": 3,
+  "/quality-guarantee-dubai": 7,
+  "/ramadan-catering-dubai": 4,
+  "/referral-programme": 11,
+  "/vip-club": 9,
+  "/yachts": 1
  }
 }

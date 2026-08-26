@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /private-chef-prices-dubai
+//     primary:     "private chef dubai price"
+//     subkeywords: "private chef cost dubai" · "how much is a private chef in dubai" · "private chef dubai rates" · "cost of private chef dubai" · "private chef for dinner party" · "average cost of personal chef in dubai" · "personal chef services rates dubai" · "private chef catering" · "private chef dubai price per day" · "part time private chef catering dubai price" · "part time cook for home dubai cost"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef } from 'react'
 import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
@@ -151,6 +157,54 @@ const faqs = [
   { q: "How does menu complexity change the final price?", a: "Menu complexity is one of the biggest price levers, because more courses, live cooking stations, intricate plating, and pairings all add chef time, staffing, and ingredient cost. A refined three-course dinner is considerably lighter on budget than an eight-course tasting menu with wine service. Browse our [menus](/menus) to see how different formats map to different price points before you choose." },
   { q: "Will the price change if some guests cancel or extra guests join?", a: "Minor changes to guest numbers can shift the total, since pricing is driven largely by headcount, ingredients, and staffing. We ask for a confirmed guest count a set time before the event so shopping and staffing are accurate, and we handle reasonable adjustments where possible. Significant last-minute changes may affect the quote, so it is best to update us as soon as your numbers firm up." },
   { q: "How do I get an exact price for my event?", a: "Share your date, guest count, venue, and any menu or dietary preferences, and we return a tailored, itemised proposal with clear pricing and VAT shown separately. There is no obligation, and during business hours we typically reply within about 15 minutes. Start with a quick message on our [contact](/contact) page and we will turn your details into a precise quote." },
+  {
+    q: 'How much does private chef cost Dubai come to?',
+    a: 'There is no single number for private chef cost Dubai: guest count, menu, service style and staffing move the figure. Our indicative starting point on this page is AED 950 – 1,300. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day. If you searched for cost of private chef Dubai, this is the same service.',
+  },
+  {
+    q: 'How much does private chef Dubai rates come to?',
+    a: 'There is no single number for private chef Dubai rates: guest count, menu, service style and staffing move the figure. Our indicative starting point on this page is AED 950 – 1,300. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+  },
+  {
+    q: 'Do you cater private chef for dinner party?',
+    a: 'Yes. We plan the menu around the occasion and the room — plated, buffet, canapés or live stations — bring chefs, service staff and equipment, and handle the clear-down. Share the date, guest count and venue and you get a proposal with the format we would recommend and why.',
+  },
+  {
+    q: 'How much does average cost of personal chef in Dubai come to?',
+    a: 'There is no single number for average cost of personal chef in Dubai: guest count, menu, service style and staffing move the figure. Our indicative starting point on this page is AED 950 – 1,300. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+  },
+  {
+    q: 'How much does personal chef services rates Dubai come to?',
+    a: 'There is no single number for personal chef services rates Dubai: guest count, menu, service style and staffing move the figure. Our indicative starting point on this page is AED 950 – 1,300. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+  },
+  {
+    q: 'Is private chef catering something you arrange?',
+    a: 'Yes. Every chef on our roster is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.',
+  },
+  {
+    q: 'How much does private chef cost Dubai come to?',
+    a: 'There is no single number for private chef cost Dubai: guest count, menu, service style and staffing move the figure. Our indicative starting point on this page is AED 950 – 1,300. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day. If you searched for cost of private chef Dubai, this is the same service.',
+  },
+  {
+    q: 'How much does private chef Dubai rates come to?',
+    a: 'There is no single number for private chef Dubai rates: guest count, menu, service style and staffing move the figure. Our indicative starting point on this page is AED 950 – 1,300. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+  },
+  {
+    q: 'Do you cater private chef for dinner party?',
+    a: 'Yes. We plan the menu around the occasion and the room — plated, buffet, canapés or live stations — bring chefs, service staff and equipment, and handle the clear-down. Share the date, guest count and venue and you get a proposal with the format we would recommend and why.',
+  },
+  {
+    q: 'How much does average cost of personal chef in Dubai come to?',
+    a: 'There is no single number for average cost of personal chef in Dubai: guest count, menu, service style and staffing move the figure. Our indicative starting point on this page is AED 950 – 1,300. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+  },
+  {
+    q: 'How much does personal chef services rates Dubai come to?',
+    a: 'There is no single number for personal chef services rates Dubai: guest count, menu, service style and staffing move the figure. Our indicative starting point on this page is AED 950 – 1,300. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+  },
+  {
+    q: 'Is private chef catering something you arrange?',
+    a: 'Yes. Every chef on our roster is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.',
+  },
 ]
 
 const serviceSchema = {
@@ -182,7 +236,7 @@ const breadcrumbSchema = {
 
 /**
  * Standing household plans (3+ days) — the plan builder used to live on
- * /private-chef-dubai/pricing. That URL 301s here since 2026-08-26 so one page
+ * /private-chef-prices-dubai. That URL 301s here since 2026-08-26 so one page
  * owns every private-chef price query; the calculator moved with it.
  */
 const householdServiceSchema = {
@@ -284,8 +338,8 @@ export default function PrivateChefPrices() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Private Chef Prices Dubai | AED 700–950 Per Person | myCHEF"
-        description="2026 private chef prices in Dubai: per-person dinner costs for 2–20 guests, plus monthly household-chef plans from AED 750 a service. Get a quote in 15 minutes."
+        title="Private Chef Dubai Price | AED 700–950 Per Person | myCHEF"
+        description="2026 private chef Dubai price: per-person dinner costs for 2–20 guests, plus monthly household-chef plans from AED 750 a service. Get a "
         canonicalPath="/private-chef-prices-dubai"
         ogImage="/images/private-chef-prices-dubai-hero.webp"
         hideSiteName
@@ -296,8 +350,8 @@ export default function PrivateChefPrices() {
       {/* ═══════════════ Hero ═══════════════ */}
       <PageHero
         eyebrow="Transparent Pricing"
-        title="Private Chef Prices Dubai: Per-Person Cost Guide"
-        subtitle="See indicative private chef costs by group size, what affects the price, and what is included — so you can budget with confidence."
+        title="Private Chef Dubai Price: Per-Person Cost Guide"
+        subtitle="Private Chef Dubai Price by myCHEF — See indicative private chef costs by group size, what affects the price, and what is included — so you can budget with confidence."
         image="/images/private-chef-prices-dubai-hero.webp"
         imageAlt="Private chef prices and menus in Dubai"
         imageWidth={1344}
@@ -419,7 +473,7 @@ export default function PrivateChefPrices() {
 
       {/* ═══════════════ Household Plans (calculator) ═══════════════ */}
       {/* One pricing owner: the standing-plan builder moved here from the
-          retired /private-chef-dubai/pricing on 2026-08-26. Not animated —
+          retired /private-chef-prices-dubai on 2026-08-26. Not animated —
           it is a form, so it must never sit at opacity-0. */}
       <section id="calculator" className="bg-white section-padding scroll-mt-24 border-t border-gray-200">
         <div className="container-custom max-w-[1100px]">
@@ -511,7 +565,7 @@ export default function PrivateChefPrices() {
           <div className="prices-section opacity-0 translate-y-8 text-center mb-10">
             <SectionLabel align="center">FAQ</SectionLabel>
             <h2 className="font-playfair text-fluid-h2 text-black">
-              Common Questions About Private Chef Prices
+              Private Chef Dubai Price: the questions we get before a booking
             </h2>
           </div>
 

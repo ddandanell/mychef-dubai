@@ -57,3 +57,15 @@ Credentials live in `~/.config/claude-seo/dataforseo.env` (mode 600, never in th
 ## What the data can and cannot say
 
 Volumes are Google Ads for the UAE via DataForSEO (rounded, small numbers suppressed — 0 means "below the floor", not "never searched"); only 32 of 163 locked primaries show any. Autocomplete proves a phrase is typed, not how often. Semrush is out of API units; GSC has no mychef.ae property; Ahrefs is plan-gated (see `docs/seo/CONSOLIDATION-PLAN.md` §3). Pages that keep open slots do so because no *relevant* phrase exists in the pool — padding them would be the damage the brief forbids.
+
+## Published on the site — `/seo/` (password-gated)
+
+`publish.sh` (run by `run-loop.sh`) copies the generated pages into `public/seo/`, so they ship with every deploy at `https://www.mychef.ae/seo/` (`index.html`, `ownership.html`, `report.html`, `backlog.html`, `demand.html`, `links.html`, `gaps.html`, `architecture.html`, `ai-visibility.html`, CSVs). `middleware.ts` gates `/seo` and `/seo/*` with HTTP Basic Auth — any username, password = the `SEO_PASSWORD` Vercel environment variable (set on production + preview; never in code). `vercel.json` adds `X-Robots-Tag: noindex` on `/seo/*`, `robots.txt` disallows `/seo`, and nothing on the site links to it.
+
+## Durable store — Neon Postgres
+
+`store-keywords.py` writes every loop run into Neon (credentials in `~/.config/claude-seo/neon.env`, mode 600): `seo_runs` (one row per run with headline stats), `seo_keywords` (the full keyword file per run), `seo_pages` (per-URL score, links, gap, verdict) and `seo_optimizer_log` (every change the optimizer made). Latest run: `SELECT * FROM seo_keywords WHERE run_id = (SELECT max(id) FROM seo_runs)`. Score history per keyword: `SELECT r.ran_at, k.score FROM seo_keywords k JOIN seo_runs r ON r.id = k.run_id WHERE k.keyword = 'catering dubai' ORDER BY 1`.
+
+## The optimizer — writing the keywords into the site
+
+`optimize-page.py` (component pages: literal `<SEO>`, constants in content modules, `PageHero`, config-object templates, template props) and `optimize-data-pages.py` (location entries, HandoffPage JSONs) put the exact primary into title, meta description, H1, opening and one H2, and add one FAQ per missing subkeyword word-set (question or answer says the exact phrase; near-variants share a FAQ). Matching tolerates accents, plurals, word order and up to three extra words; a page's own spelling (Canapé, Arabian Ranches) is kept. Idempotent (a duplicate guard reads the source before adding), logged to `.live/optimizer-log.jsonl`, reversible per URL with `--revert`. Dry run by default; `--apply` writes. Never a `<meta name="keywords">`.

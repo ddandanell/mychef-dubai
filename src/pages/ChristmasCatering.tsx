@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /christmas-catering-dubai
+//     primary:     "christmas catering dubai"
+//     subkeywords: "christmas catering dubai price" · "christmas catering cost per person dubai" · "best christmas catering dubai" · "christmas catering packages dubai" · "christmas catering menu dubai" · "halal christmas catering dubai" · "christmas dinner catering dubai" · "christmas turkey catering dubai" · "christmas dinner delivery dubai" · "how much does a full christmas dinner cost" · "christmas meals dubai" · "festive catering"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef } from 'react'
 import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
@@ -271,7 +277,7 @@ export default function ChristmasCatering() {
     <div ref={containerRef}>
       <SEO
         title="Christmas Catering Dubai | Festive Roasts & Private Chef | myCHEF"
-        description="Book Christmas catering in Dubai. Roasted turkey, festive canapés and seasonal menus for villa, office and family celebrations. Get a tailored quote."
+        description="Book Christmas catering Dubai. Roasted turkey, festive canapés and seasonal menus for villa, office and family celebrations. Get a tailored quote."
         canonicalPath="/christmas-catering-dubai"
         ogImage="/service-catering.webp"
         hideSiteName
@@ -516,7 +522,7 @@ export default function ChristmasCatering() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Christmas Catering Questions
+            Christmas Catering Dubai: the questions we get before a booking
           </h2>
 
           <FaqAccordion items={faqs} showJumpNav />
@@ -548,7 +554,7 @@ export default function ChristmasCatering() {
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
                   <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
-                    Explore <ArrowRight size={14} />
+                    {svc.title} <ArrowRight size={14} />
                   </span>
                 </div>
               </Link>

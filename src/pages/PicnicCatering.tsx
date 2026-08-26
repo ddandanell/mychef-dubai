@@ -8,7 +8,7 @@ const config: ServicePageConfig = {
   seoTitle: "Picnic Catering Dubai | Outdoor Baskets & Grazing",
   metaDescription:
     'Picnic catering in Dubai: beautifully styled outdoor baskets, grazing boxes, fresh sandwiches and salads delivered to parks, beaches, deserts and villas.',
-  canonicalPath: '/picnic-catering-dubai',
+  canonicalPath: '/private-party-catering-dubai',
   ogImage: '/images/beach-catering-dubai-hero.webp',
   breadcrumbLabel: 'Picnic Catering Dubai',
   h1: 'Picnic Catering in Dubai',
@@ -29,7 +29,7 @@ const config: ServicePageConfig = {
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
         Picnic catering pairs naturally with our{' '}
-        <Link to="/beach-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
+        <Link to="/private-party-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           beach catering Dubai
         </Link>{' '}
         and{' '}
@@ -56,7 +56,7 @@ const config: ServicePageConfig = {
       Icon: Sun,
       title: 'Beach & Park Picnics',
       description: 'Delivery-friendly menus designed for sandy beaches, waterfront lawns and shaded parks across Dubai.',
-      link: '/beach-catering-dubai',
+      link: '/private-party-catering-dubai',
     },
     {
       Icon: Car,
@@ -80,7 +80,7 @@ const config: ServicePageConfig = {
       Icon: Leaf,
       title: 'Vegan & Healthy Picnics',
       description: 'Plant-based, gluten-free and light picnic menus for health-conscious guests.',
-      link: '/healthy-catering-dubai',
+      link: '/cuisines-dubai',
     },
   ],
   useCasesEyebrow: 'WHERE PICNIC CATERING WORKS',
@@ -159,7 +159,7 @@ const config: ServicePageConfig = {
       title: 'Beach Catering Dubai',
       description: 'Relaxed coastal menus, grazing boxes and drinks for beach gatherings across Dubai.',
       image: '/images/beach-catering-dubai-hero.webp',
-      link: '/beach-catering-dubai',
+      link: '/private-party-catering-dubai',
     },
     {
       title: 'Drop-Off Catering Dubai',

@@ -4,7 +4,7 @@ export const COST_KEYWORD_LOCK = {
   primary: 'wedding catering cost Dubai',
   title: 'Wedding Catering Cost Dubai | 2026 Planning Estimates | myCHEF',
   description:
-    'Wedding catering cost in Dubai, explained as three products: food-led buffets, hotel packages and chef-led villa dinners. Planning estimates, VAT and extras.',
+    'Wedding catering cost Dubai, explained as three products: food-led buffets, hotel packages and chef-led villa dinners. Planning estimates, VAT and extras.',
 } as const
 
 export const costHero = {

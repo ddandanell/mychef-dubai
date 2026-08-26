@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /dubai-event-catering-price-guide-2026
+//     primary:     "event catering price guide dubai 2026"
+//     subkeywords: "dubai catering prices 2026" · "event catering cost dubai 2026" · "how much does catering cost in dubai 2026" · "average catering cost per person dubai 2026" · "catering rates during spring 2024 in dubai" · "catering for 50 people cost dubai" · "corporate event catering near me" · "iftar buffet dubai 2026 price" · "event catering prices" · "event catering buffet" · "event catering for 100 people" · "event catering activities"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef } from 'react'
 import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
@@ -289,8 +295,8 @@ export default function EventCateringPriceGuide2026() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Dubai Event Catering Prices 2026"
-        description="Honest Dubai event catering prices for 2026: per-person ranges for weddings, corporate events, yacht catering, BBQ, buffet, and plated dinners. Plus."
+        title="Event Catering Price Guide Dubai 2026 | myCHEF"
+        description="Event Catering Price Guide Dubai 2026 — Honest Dubai event catering prices for 2026: per-person ranges for weddings, corporate events, yacht catering, BBQ…"
         canonicalPath="/dubai-event-catering-price-guide-2026"
         ogImage="/images/event-catering-price-guide-hero.webp"
         schema={schema}
@@ -314,7 +320,7 @@ export default function EventCateringPriceGuide2026() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 event-price-hero-h1">
-            Dubai Event Catering Price Guide 2026
+            Event Catering Price Guide Dubai 2026
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[680px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 event-price-hero-sub">
             An honest, Dubai-specific overview of event catering prices for 2026. Set a realistic budget, compare quotes fairly, and ask the right questions before booking.
@@ -646,7 +652,7 @@ export default function EventCateringPriceGuide2026() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Event Catering Pricing FAQ
+            Event Catering Price Guide Dubai 2026: the questions we get before a booking
           </h2>
 
           <FaqAccordion items={faqs} />

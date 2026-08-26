@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /corporate-dinner-package-dubai
+//     primary:     "corporate dinner package dubai"
+//     subkeywords: "corporate dinner package dubai price" · "corporate dinner package dubai cost per person" · "private chef corporate dinner dubai" · "corporate dinner package menu dubai" · "team dinner catering dubai" · "dubai dinner cruise deals" · "best business dinner in dubai" · "company dinner package dubai" · "private dinner cruise dubai price" · "corporate catering package dubai" · "dinner set price in uae" · "private chef dinner for 2 cost"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import PackagePageTemplate from '@/components/PackagePageTemplate'
 
 export default function CorporateDinnerPackage() {

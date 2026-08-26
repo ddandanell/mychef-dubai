@@ -7,7 +7,7 @@ const config: ServicePageConfig = {
   slug: 'farewell-catering-dubai',
   seoTitle: 'Farewell Party Catering Dubai | Retirement Send-Offs',
   metaDescription: 'Farewell and retirement party catering in Dubai for office send-offs, retirement celebrations and goodbye gatherings. Buffets, canapés, live stations and more.',
-  canonicalPath: '/farewell-catering-dubai',
+  canonicalPath: '/private-party-catering-dubai',
   ogImage: '/service-events.webp',
   breadcrumbLabel: 'Farewell & Retirement Catering Dubai',
   h1: 'Farewell & Retirement Party Catering in Dubai',

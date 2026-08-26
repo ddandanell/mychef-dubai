@@ -29,6 +29,23 @@ export default function Analytics() {
       const href = a.getAttribute('href') || ''
       const pagePath = window.location.pathname
       const ctaText = a.innerText?.trim() || a.getAttribute('aria-label') || ''
+      const track = a.getAttribute('data-track') || ''
+
+      if (track === 'event_card' || track === 'service_card') {
+        trackEvent(track === 'service_card' ? 'service_card_click' : 'event_card_click', {
+          link_url: href,
+          page_path: pagePath,
+          cta_text: ctaText,
+        })
+      }
+
+      if (track === 'price_table') {
+        trackEvent('price_table_click', {
+          link_url: href,
+          page_path: pagePath,
+          cta_text: ctaText,
+        })
+      }
 
       if (/wa\.me|api\.whatsapp|whatsapp/i.test(href)) {
         trackEvent('whatsapp_click', {
@@ -58,6 +75,24 @@ export default function Analytics() {
       // Quote / inquiry CTAs route to /inquiry (including UTM-tagged links)
       if (/^\/?inquiry(\?|$)/i.test(href)) {
         trackEvent('begin_inquiry', {
+          link_url: href,
+          page_path: pagePath,
+          cta_text: ctaText,
+        })
+        return
+      }
+
+      if (/catering-cost-calculator-dubai/.test(href)) {
+        trackEvent('calculator_click', {
+          link_url: href,
+          page_path: pagePath,
+          cta_text: ctaText,
+        })
+        return
+      }
+
+      if (/dubai-catering-prices-guide|catering-packages-dubai/.test(href)) {
+        trackEvent('pricing_guide_click', {
           link_url: href,
           page_path: pagePath,
           cta_text: ctaText,

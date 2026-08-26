@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /blog/halal-private-dining-dubai-what-to-ask
+//     primary:     "what to ask a halal caterer dubai"
+//     subkeywords: "what to ask a caterer dubai" · "list of halal caterer" · "halal private dining" · "what to consider when choosing a caterer" · "what do you need to cater an event" · "a halal catering service" · "catering meals near me halal" · "food for catering near me halal"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef } from 'react'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { Link } from 'react-router'
@@ -100,8 +106,8 @@ export default function HalalPrivateDiningDubaiWhatToAsk() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Halal Private Dining Dubai: What to Ask"
-        description="A guide for Dubai hosts booking halal private dining: certification, cross-contamination, alcohol policy, sourcing, and indicative costs."
+        title="What to Ask a Halal Caterer Dubai | myCHEF"
+        description="What to Ask a Halal Caterer Dubai — A guide for Dubai hosts booking halal private dining: certification, cross-contamination, alcohol policy, sourcing, and…"
         canonicalPath={`/blog/${SLUG}`}
         ogImage="/images/blog/halal-private-dining-dubai-what-to-ask-hero.webp"
         schema={schema}
@@ -110,8 +116,8 @@ export default function HalalPrivateDiningDubaiWhatToAsk() {
       {/* Hero */}
       <PageHero
         eyebrow="Halal"
-        title="Halal Private Dining in Dubai: What to Ask Before You Book"
-        subtitle="The questions every host should ask to ensure a fully halal, stress-free private dining experience at home or in a villa."
+        title="What to Ask a Halal Caterer Dubai — Halal Private Dining in Dubai"
+        subtitle="What to Ask a Halal Caterer Dubai by myCHEF — The questions every host should ask to ensure a fully halal, stress-free private dining experience at home or in a villa."
         image="/images/blog/halal-private-dining-dubai-what-to-ask-hero.webp"
         imageAlt="Halal private dining setup in Dubai"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Blog', href: '/blog' }, { label: 'Halal Private Dining Dubai' }]}
@@ -327,7 +333,7 @@ export default function HalalPrivateDiningDubaiWhatToAsk() {
           <BlogRelated currentSlug="/blog/halal-private-dining-dubai-what-to-ask" />
 
           <section className="article-cta opacity-0 translate-y-8 bg-cream p-8 md:p-12 text-center">
-            <h2 className="font-playfair text-h3 text-black mb-4">Book a Fully Halal Private Dining Experience</h2>
+            <h2 className="font-playfair text-h3 text-black mb-4">What to Ask a Halal Caterer Dubai: Book a Fully Halal Private Dining Experience</h2>
             <p className="font-inter text-body text-gray-500 max-w-[600px] mx-auto mb-8">
               Tell us about your event, guest count, and halal requirements. We will design a menu and service plan that gives you complete peace of mind.
             </p>

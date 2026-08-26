@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /new-year-catering-dubai
+//     primary:     "new year catering dubai"
+//     subkeywords: "new year catering dubai price" · "new year catering cost per person dubai" · "best new year catering dubai" · "new year catering packages dubai" · "new year catering menu dubai" · "halal new year catering dubai" · "new years eve catering dubai" · "chinese new year catering dubai buffet" · "new year dinner dubai" · "new year party food dubai" · "chinese new year dinner at home dubai" · "chinese new year set menu dubai"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef } from 'react'
 import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
@@ -270,8 +276,8 @@ export default function NewYearCatering() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="New Year's Eve Catering Dubai | Gala, Yacht & Villa | myCHEF"
-        description="New Year's Eve catering in Dubai from AED 700pp — canapés and grazing, vetted chefs and full service. Bespoke menus for your event. Get an itemised quote."
+        title="New Year Catering Dubai | New Year's Eve Catering Dubai | myCHEF"
+        description="New Year Catering Dubai — New Year's Eve catering in Dubai from AED 700pp — canapés and grazing, vetted chefs and full service. Bespoke menus for your…"
         canonicalPath="/new-year-catering-dubai"
         ogImage="/service-luxury-dining.webp"
         hideSiteName
@@ -298,7 +304,7 @@ export default function NewYearCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 nye-hero-h1">
-            New Year's Eve Catering Dubai: Gala, Yacht & Villa Countdowns
+            New Year Catering Dubai — Gala, Yacht & Villa Countdowns
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 nye-hero-sub">
             Gala dinners, yacht countdowns, villa parties, and midnight toast service across Dubai. Custom menus and full-service hospitality for the biggest night of the year.
@@ -516,7 +522,7 @@ export default function NewYearCatering() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            New Year's Eve Catering Questions
+            New Year Catering Dubai: the questions we get before a booking
           </h2>
 
           <FaqAccordion items={faqs} showJumpNav />
@@ -548,7 +554,7 @@ export default function NewYearCatering() {
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
                   <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
-                    Explore <ArrowRight size={14} />
+                    {svc.title} <ArrowRight size={14} />
                   </span>
                 </div>
               </Link>

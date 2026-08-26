@@ -8,7 +8,7 @@ const config: ServicePageConfig = {
   seoTitle: "Coffee & Tea Service Dubai | Receptions",
   metaDescription:
     'Coffee and tea service in Dubai: barista-style coffee, specialty teas, pastries and light bites for corporate receptions, meetings, breakfasts and events.',
-  canonicalPath: '/coffee-tea-service-dubai',
+  canonicalPath: '/catering-dubai',
   ogImage: '/images/afternoon-tea-catering-dubai-hero.webp',
   showTrustSignalStrip: true,
   breadcrumbLabel: 'Coffee & Tea Service Dubai',
@@ -75,7 +75,7 @@ const config: ServicePageConfig = {
       Icon: Leaf,
       title: 'Specialty & Wellness Teas',
       description: 'Herbal, green, matcha and wellness infusions for health-conscious guests.',
-      link: '/healthy-catering-dubai',
+      link: '/cuisines-dubai',
     },
     {
       Icon: Truck,

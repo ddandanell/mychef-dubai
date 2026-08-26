@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /ramadan-catering-guide-dubai
+//     primary:     "ramadan catering guide dubai"
+//     subkeywords: "how to plan iftar catering dubai" · "suhoor planning guide dubai" · "iftar catering checklist dubai" · "how much food per person for iftar dubai" · "when to book iftar catering dubai" · "catering guide dubai" · "ramadan iftar catering trends dubai" · "ramadan catering menu"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef } from 'react'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { Link } from 'react-router'
@@ -75,7 +81,7 @@ const largeGatherings = [
 const internalLinks = [
   { title: 'Ramadan Catering Dubai', link: '/ramadan-catering-dubai', description: 'fully-coordinated catering for homes and venues.' },
   { title: 'Iftar Catering Dubai', link: '/iftar-catering-dubai', description: 'Evening iftar menus and buffet service.' },
-  { title: 'Suhoor Catering Dubai', link: '/suhoor-catering-dubai', description: 'Pre-dawn suhoor menus and lounge setups.' },
+  { title: 'Suhoor Catering Dubai', link: '/ramadan-catering-dubai', description: 'Pre-dawn suhoor menus and lounge setups.' },
   { title: 'Eid Catering Dubai', link: '/eid-catering-dubai', description: 'Festive menus for Eid gatherings.' },
   { title: 'Arabic Catering Dubai', link: '/arabic-catering-dubai', description: 'Traditional Arabic dishes and mezze spreads.' },
   { title: 'Halal Catering Dubai', link: '/halal-catering-dubai', description: 'Halal-compliant catering for all occasions.' },
@@ -210,7 +216,7 @@ export default function RamadanCateringGuide() {
     <div ref={containerRef}>
       <SEO
         title="Ramadan Catering Guide Dubai | Iftar"
-        description="Ramadan catering guide for Dubai: iftar, suhoor, and Eid menus, timing around sunset and Fajr, halal requirements, large gatherings, and booking timelines."
+        description="Ramadan catering guide Dubai: iftar, suhoor, and Eid menus, timing around sunset and Fajr, halal requirements, large gatherings, and booking timelines."
         canonicalPath="/ramadan-catering-guide-dubai"
         ogImage="/service-catering.webp"
         schema={schema}
@@ -236,7 +242,7 @@ export default function RamadanCateringGuide() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 ram-hero-h1">
-            Ramadan Catering Guide for Dubai: Iftar, Suhoor & Eid
+            Ramadan Catering Guide Dubai: Iftar, Suhoor & Eid
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 ram-hero-sub">
             Plan respectful, abundant Ramadan gatherings with guidance on iftar, suhoor, Eid menus, halal requirements, and service timing.
@@ -416,7 +422,7 @@ export default function RamadanCateringGuide() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Ramadan Catering FAQ
+            Ramadan Catering Guide Dubai: the questions we get before a booking
           </h2>
 
           <FaqAccordion items={faqs} />

@@ -157,13 +157,13 @@ const relatedServices = [
     title: 'Gluten-Free Catering',
     description: 'Coeliac-safe menus and clearly labelled dishes for guests avoiding gluten.',
     image: '/images/gluten-free-catering-dubai-hero.webp',
-    link: '/gluten-free-catering-dubai',
+    link: '/allergy-safe-catering-dubai',
   },
   {
     title: 'Keto & Low-Carb Catering',
     description: 'High-protein, low-carb menus designed for macro-conscious guests and wellness events.',
     image: '/images/keto-catering-dubai-hero.webp',
-    link: '/keto-catering-dubai',
+    link: '/cuisines-dubai',
   },
   {
     title: 'Breakfast Catering Dubai',
@@ -175,13 +175,13 @@ const relatedServices = [
     title: 'Sugar-Free Catering',
     description: 'Diabetic-friendly and reduced-sugar menus for health-conscious events.',
     image: '/images/healthy-catering-dubai-hero.webp',
-    link: '/sugar-free-catering-dubai',
+    link: '/allergy-safe-catering-dubai',
   },
   {
     title: 'FODMAP-Friendly Catering',
     description: 'Low-FODMAP menus designed for IBS-sensitive guests and gentle digestion.',
     image: '/images/healthy-catering-dubai-hero.webp',
-    link: '/fodmap-catering-dubai',
+    link: '/allergy-safe-catering-dubai',
   },
 ]
 
@@ -283,7 +283,7 @@ export default function HealthyCatering() {
       <SEO
         title="Healthy Catering Dubai | Corporate Wellness Menus"
         description="Healthy catering Dubai for corporate wellness & nutritionist-led menus. Balanced dishes, low-carb & keto options, salad bars. Quote in ~15 mins."
-        canonicalPath="/healthy-catering-dubai"
+        canonicalPath="/cuisines-dubai"
         ogImage="/menu-seafood.webp"
         schema={schema}
       />
@@ -338,7 +338,7 @@ export default function HealthyCatering() {
             Healthy catering should never feel like a sacrifice. The best balanced menus are built on quality ingredients and thoughtful composition — lean proteins, whole grains, vibrant vegetables, and just enough indulgence — so guests finish a meal feeling light and energised rather than weighed down. At myCHEF Dubai, we treat nutrition and flavour as partners, not trade-offs, crafting menus that look generous and eat well.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Whether you are planning a corporate wellness day, a fitness retreat, a light summer reception, or a balanced family gathering, our chefs design menus around your goals. Explore dedicated <Link to="/keto-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">keto catering Dubai</Link> and <Link to="/gluten-free-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">gluten-free catering Dubai</Link> options, or see how healthy dining fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
+            Whether you are planning a corporate wellness day, a fitness retreat, a light summer reception, or a balanced family gathering, our chefs design menus around your goals. Explore dedicated <Link to="/cuisines-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">keto catering Dubai</Link> and <Link to="/allergy-safe-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">gluten-free catering Dubai</Link> options, or see how healthy dining fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
           </p>
         </div>
       </section>
@@ -498,7 +498,7 @@ export default function HealthyCatering() {
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
                   <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
-                    Explore <ArrowRight size={14} />
+                    {svc.title} <ArrowRight size={14} />
                   </span>
                 </div>
               </Link>

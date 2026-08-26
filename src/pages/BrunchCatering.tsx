@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /brunch-catering-dubai
+//     primary:     "brunch catering dubai"
+//     subkeywords: "brunch catering dubai price" · "brunch catering price per person dubai" · "best brunch catering dubai" · "brunch catering packages dubai" · "brunch catering menu dubai" · "halal brunch catering dubai" · "villa brunch catering dubai" · "birthday brunch catering dubai" · "easter brunch catering dubai" · "mothers day brunch catering dubai" · "brunch offers in dubai" · "brunch on sundays in dubai"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef } from 'react'
 import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
@@ -140,7 +146,7 @@ const faqs = [
   { q: "Can you make eggs, pancakes, and waffles to order in front of guests?", a: "Yes. We set up live cooking stations so your guests get eggs any style, fresh pancakes, waffles, and shakshuka made to order on the spot. Interactive stations are one of the best parts of a home brunch, adding a relaxed, sociable energy to the morning. We bring all the equipment and the chef handles everything, then clears it away after service." },
   { q: "Is there a minimum number of guests for brunch catering?", a: "We cater brunches for intimate groups of a handful of people right up to large gatherings of sixty or more, so there is no rigid one-size minimum. For very small brunches a single chef manages the whole spread, while larger events get additional kitchen and serving support. Share your guest count when you enquire and we scale the team and menu to fit." },
   { q: "Do you provide waiters and serving staff for the brunch?", a: "Yes, serving staff are an optional add-on so you can host completely hands-free while we pour coffee, refill stations, and clear plates. For smaller brunches the chef can handle both cooking and light service, while larger events benefit from dedicated hosts. We recommend the right staffing level for your guest count in your [private chef](/private-chef-dubai) proposal." },
-  { q: "Can you cater a brunch with drinks, mocktails, or a bar setup?", a: "Yes. We include fresh juices, smoothies, artisanal coffee, specialty teas, and mocktail bellinis as part of our brunch menus, and we can add a dedicated drinks station. For a livelier setup we can arrange a full [mocktail bar](/mocktail-bar-catering-dubai) with a host mixing to order. Let us know the vibe you want and we design the beverage service around it." },
+  { q: "Can you cater a brunch with drinks, mocktails, or a bar setup?", a: "Yes. We include fresh juices, smoothies, artisanal coffee, specialty teas, and mocktail bellinis as part of our brunch menus, and we can add a dedicated drinks station. For a livelier setup we can arrange a full [mocktail bar](/bar-services-dubai) with a host mixing to order. Let us know the vibe you want and we design the beverage service around it." },
   { q: "Can you handle allergies and mixed dietary needs at one brunch?", a: "Absolutely. We routinely cater brunches where guests have different needs, offering vegan, vegetarian, gluten-free, dairy-free, and nut-aware options side by side on the same table. Because every menu is built from scratch, we plan around your guest list rather than forcing a fixed menu. For stricter requirements, our [allergy-safe catering](/allergy-safe-catering-dubai) approach adds extra care and clear labelling." },
   { q: "Which areas of Dubai do you cover for brunch catering?", a: "We cater brunches across all of Dubai, including Palm Jumeirah, Downtown Dubai, Dubai Marina, Emirates Hills, JBR, and beyond, in villas, apartments, offices, and event spaces. Our chefs travel to you with everything needed for the morning. If you are in a gated community, holiday home, or hotel suite, just share the access details when you book." },
   { q: "How early should I book brunch catering to secure my date?", a: "For most brunches, booking one to two weeks ahead is comfortable, while large corporate mornings or peak-season dates are best secured two to four weeks in advance. Peak season in Dubai runs November to March, when weekends fill up fastest. If your date is soon, still reach out, as we often accommodate shorter timelines depending on availability." },
@@ -155,7 +161,7 @@ const relatedServices = [
     title: "Mother's Day Catering",
     description: 'Celebrate Mum with a beautiful brunch, lunch or high tea at home or venue.',
     image: '/images/mothers-day-catering-dubai-hero.webp',
-    link: '/mothers-day-catering-dubai',
+    link: '/private-party-catering-dubai',
   },
   {
     title: 'Private Chef Dubai',
@@ -293,7 +299,7 @@ export default function BrunchCatering() {
     <div ref={containerRef}>
       <SEO
         title="Brunch Catering Dubai | Private Chef & Villa Brunch | myCHEF"
-        description="Brunch catering & private breakfast chef in Dubai. Weekend villa brunches, corporate mornings, fresh pastries & artisanal coffee. Request a tailored quote."
+        description="Brunch Catering Dubai — Brunch catering & private breakfast chef in Dubai. Weekend villa brunches, corporate mornings, fresh pastries & artisanal coffee.…"
         canonicalPath="/brunch-catering-dubai"
         ogImage="/service-villa.webp"
         hideSiteName
@@ -323,7 +329,7 @@ export default function BrunchCatering() {
             Morning Indulgence
           </p>
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 brunch-hero-h1">
-            Brunch Catering & Private Breakfast Chef in Dubai
+            Brunch Catering Dubai — Private Breakfast Chef
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 brunch-hero-sub">
             Weekend villa brunches, corporate breakfast events, and daily private chef mornings. Fresh pastries, eggs any style, seasonal fruit, and artisanal coffee — served wherever you are in Dubai.
@@ -576,7 +582,7 @@ export default function BrunchCatering() {
           <div className="text-center mb-10">
             <SectionLabel align="center">FAQ</SectionLabel>
             <h2 className="font-playfair text-fluid-h2 text-black">
-              Brunch Catering Questions
+              Brunch Catering Dubai: the questions we get before a booking
             </h2>
           </div>
 
@@ -631,7 +637,7 @@ export default function BrunchCatering() {
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
                   <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
-                    Explore <ArrowRight size={14} />
+                    {svc.title} <ArrowRight size={14} />
                   </span>
                 </div>
               </Link>

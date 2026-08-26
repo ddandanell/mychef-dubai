@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /weekly-meal-prep-dubai
+//     primary:     "meal prep dubai"
+//     subkeywords: "weekly meal prep dubai" · "meal prep chef dubai" · "meal prep service dubai" · "private chef meal prep dubai" · "batch cooking service dubai" · "personal chef meal prep dubai" · "family meal prep dubai" · "is weekly meal prep healthy" · "best meal prep delivery dubai" · "weekly meal plan dubai" · "fitness meal prep delivery menu" · "fitness meal prep services" · "kids meal prep service"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef } from 'react'
 import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
@@ -186,6 +192,70 @@ const faqs = [
     q: 'How far in advance should I book weekly meal prep?',
     a: 'We recommend booking at least one week in advance so the chef can plan menus and source ingredients. For recurring clients, schedules are agreed monthly.',
   },
+  {
+    q: 'Is meal prep chef Dubai something you arrange?',
+    a: 'Yes. Every chef on our roster is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.',
+  },
+  {
+    q: 'Do you offer meal prep service Dubai?',
+    a: 'Yes. It sits inside the same service as meal prep Dubai: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+  },
+  {
+    q: 'Is private chef meal prep Dubai something you arrange?',
+    a: 'Yes. Every chef on our roster is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.',
+  },
+  {
+    q: 'Do you offer batch cooking service Dubai?',
+    a: 'Yes. It sits inside the same service as meal prep Dubai: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+  },
+  {
+    q: 'Is personal chef meal prep Dubai something you arrange?',
+    a: 'Yes. Every chef on our roster is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.',
+  },
+  {
+    q: 'Do you offer family meal prep Dubai?',
+    a: 'Yes. It sits inside the same service as meal prep Dubai: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+  },
+  {
+    q: 'Can you handle is weekly meal prep healthy?',
+    a: 'Yes. Dietary needs are planned into the menu from the first draft, not bolted on: dishes are labelled, cross-contact is managed in the kitchen we set up on site, and the chef is briefed on every guest requirement before the day.',
+  },
+  {
+    q: 'What makes myCHEF a strong choice for best meal prep delivery Dubai?',
+    a: 'One team owns the whole event — menu, shopping, cooking on site, service and clear-down — so nothing falls between suppliers. The chefs are vetted and matched to the occasion, ingredients are charged at cost with no markup, and every quote is itemised.',
+  },
+  {
+    q: 'Is meal prep chef Dubai something you arrange?',
+    a: 'Yes. Every chef on our roster is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.',
+  },
+  {
+    q: 'Do you offer meal prep service Dubai?',
+    a: 'Yes. It sits inside the same service as meal prep Dubai: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+  },
+  {
+    q: 'Is private chef meal prep Dubai something you arrange?',
+    a: 'Yes. Every chef on our roster is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.',
+  },
+  {
+    q: 'Do you offer batch cooking service Dubai?',
+    a: 'Yes. It sits inside the same service as meal prep Dubai: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+  },
+  {
+    q: 'Is personal chef meal prep Dubai something you arrange?',
+    a: 'Yes. Every chef on our roster is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.',
+  },
+  {
+    q: 'Do you offer family meal prep Dubai?',
+    a: 'Yes. It sits inside the same service as meal prep Dubai: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+  },
+  {
+    q: 'Can you handle is weekly meal prep healthy?',
+    a: 'Yes. Dietary needs are planned into the menu from the first draft, not bolted on: dishes are labelled, cross-contact is managed in the kitchen we set up on site, and the chef is briefed on every guest requirement before the day.',
+  },
+  {
+    q: 'What makes myCHEF a strong choice for best meal prep delivery Dubai?',
+    a: 'One team owns the whole event — menu, shopping, cooking on site, service and clear-down — so nothing falls between suppliers. The chefs are vetted and matched to the occasion, ingredients are charged at cost with no markup, and every quote is itemised.',
+  },
 ]
 
 const relatedServices = [
@@ -199,13 +269,13 @@ const relatedServices = [
     title: 'Healthy Catering Dubai',
     description: 'Nutrition-focused catering with balanced menus and dietary flexibility.',
     image: '/menu-seafood.webp',
-    link: '/healthy-catering-dubai',
+    link: '/cuisines-dubai',
   },
   {
     title: 'Corporate Meal Prep',
     description: 'Recurring portioned meal programmes for teams and workplaces across Dubai.',
     image: '/service-corporate.webp',
-    link: '/corporate-meal-prep-dubai',
+    link: '/staff-meals-catering-dubai',
   },
 ]
 
@@ -288,8 +358,8 @@ export default function WeeklyMealPrep() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Weekly Meal Prep Dubai | Private Chef from AED 1,898 | myCHEF"
-        description="Weekly meal prep in Dubai by a private chef. Fresh, portioned meals prepared in your home. Starting from AED 1,898/week. Halal, healthy, and fully."
+        title="Meal Prep Dubai | Private Chef Meals from AED 1,898 | myCHEF"
+        description="Meal prep Dubai households rely on: a private chef cooks fresh weekly meals in your kitchen from AED 1,898 a week. Halal by default, built around your diet."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/weekly-meal-prep-dubai-hero.webp"
         hideSiteName
@@ -314,7 +384,7 @@ export default function WeeklyMealPrep() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 wmp-hero-h1">
-            Weekly Meal Prep Dubai: Fresh Meals by a Private Chef
+            Meal Prep Dubai: Fresh Weekly Meals Cooked by a Private Chef
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 wmp-hero-sub">
             Fresh, portioned meals prepared in your own kitchen each week — so you can eat well, save time, and skip the takeout cycle. We reply within 15 minutes during business hours.
@@ -341,7 +411,7 @@ export default function WeeklyMealPrep() {
         <div className="container-custom max-w-[820px] text-center">
           <SectionLabel align="center">FRESH MEALS, MADE FOR YOUR WEEK</SectionLabel>
           <h2 className="font-playfair text-h2 text-black mb-6">
-            Skip the Takeout. Reclaim Your Evenings.
+            Meal Prep Dubai, Cooked Fresh in Your Own Kitchen
           </h2>
           <div className="wmp-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
@@ -351,7 +421,7 @@ export default function WeeklyMealPrep() {
               Unlike mass-market meal plans, this is fully bespoke. Your chef designs a rotating menu, sources premium ingredients, cooks in your home, packages everything cleanly, and leaves your kitchen spotless. The result is a fridge full of restaurant-quality meals that simply need reheating — whether you are feeding a family, an athlete, or a household with specific dietary needs. For strict allergen protocols, explore our <Link to="/allergy-safe-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">allergy-safe catering in Dubai</Link>.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              If you are comparing options, you may also be interested in our <Link to="/wellness-meal-prep-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">wellness meal prep</Link>, <Link to="/corporate-meal-prep-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate meal prep programmes</Link>, or the full <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef experience in Dubai</Link>. For menu inspiration, explore our <Link to="/menus" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">bespoke menus</Link>.
+              If you are comparing options, you may also be interested in our <Link to="/wellness-meal-prep-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">wellness meal prep</Link>, <Link to="/staff-meals-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate meal prep programmes</Link>, or the full <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef experience in Dubai</Link>. For menu inspiration, explore our <Link to="/menus" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">bespoke menus</Link>.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mt-5">
               Deciding between weekly prep and a full-time chef? Read our comparison of <Link to="/blog/weekly-meal-prep-vs-full-time-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">weekly meal prep vs full-time chef in Dubai</Link>.
@@ -512,7 +582,7 @@ export default function WeeklyMealPrep() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Weekly Meal Prep Questions
+            Meal Prep Dubai: Weekly Meal Prep Questions
           </h2>
 
           <FaqAccordion items={faqs} />
@@ -544,7 +614,7 @@ export default function WeeklyMealPrep() {
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
                   <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
-                    Explore <ArrowRight size={14} />
+                    {svc.title} <ArrowRight size={14} />
                   </span>
                 </div>
               </Link>

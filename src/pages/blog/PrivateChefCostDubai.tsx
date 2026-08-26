@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /blog/how-much-does-private-chef-cost-dubai
+//     primary:     "how much does private chef cost dubai"
+//     subkeywords: "private chef cost per person dubai" · "how much is a private chef for a night dubai" · "private chef cost for 6 people dubai" · "is a private chef worth it dubai" · "average private chef cost" · "how much does a private chef charge" · "private chef cost per day" · "private chef cost aus"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef } from 'react'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { Link } from 'react-router'
@@ -100,8 +106,8 @@ export default function PrivateChefCostDubai() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="How Much Does a Private Chef Cost in Dubai?"
-        description="How much does a private chef cost in Dubai? A breakdown of pricing, the factors that move the cost, and how to get an accurate quote for your dinner."
+        title="How Much Does Private Chef Cost Dubai — a?"
+        description="How Much Does Private Chef Cost Dubai — How much does a private chef cost in Dubai? A breakdown of pricing, the factors that move the cost, and how to get…"
         canonicalPath={`/blog/${SLUG}`}
         ogImage="/images/blog/how-much-does-private-chef-cost-dubai-hero.webp"
         schema={schema}
@@ -110,8 +116,8 @@ export default function PrivateChefCostDubai() {
       {/* ═══════════════ Hero ═══════════════ */}
       <PageHero
         eyebrow="Private Chef"
-        title="How Much Does a Private Chef Cost in Dubai?"
-        subtitle="Understand what goes into private chef pricing so you can budget confidently for an intimate dinner, family celebration, or special occasion."
+        title="How Much Does Private Chef Cost Dubai — a?"
+        subtitle="How Much Does Private Chef Cost Dubai by myCHEF — Understand what goes into private chef pricing so you can budget confidently for an intimate dinner, family celebration, or special occasion."
         image="/images/blog/how-much-does-private-chef-cost-dubai-hero.webp"
         imageAlt="Host and coordinator reviewing an itemised private chef proposal at a dining table"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Blog', href: '/blog' }, { label: 'Private Chef Cost Dubai' }]}
@@ -262,7 +268,7 @@ export default function PrivateChefCostDubai() {
 
           {/* ═══════════════ CTA ═══════════════ */}
           <section className="article-cta bg-cream border border-gray-200 p-8 md:p-10 opacity-0 translate-y-8">
-            <h2 className="font-playfair text-h3 text-black mb-3">Get Your Private Chef Quote</h2>
+            <h2 className="font-playfair text-h3 text-black mb-3">How Much Does Private Chef Cost Dubai: Get Your Private Chef Quote</h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-6">
               Tell us about your occasion, guest count, and preferred cuisine. We will design a private dining experience tailored to your home or villa in Dubai.
             </p>

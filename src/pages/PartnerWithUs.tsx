@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /partner-with-us
+//     primary:     "catering partnerships dubai"
+//     subkeywords: "become a catering partner dubai" · "chef partnership dubai" · "work with mychef dubai" · "catering services list" · "top catering services providers in dubai" · "partnership catering business" · "catering requirements for events" · "catering business examples" · "catering services list of menu" · "catering business proposal example" · "catering examples" · "catering plan example"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef } from 'react'
 import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
@@ -121,8 +127,8 @@ export default function PartnerWithUs() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Partner With Us Dubai | Chef Partnerships"
-        description="Partner with myCHEF Dubai to offer private chef and luxury catering services to villa guests, yacht charter clients, wedding parties, and corporate contacts."
+        title="Catering Partnerships Dubai | Partner With Us Dubai | myCHEF"
+        description="Catering Partnerships Dubai — Partner with myCHEF Dubai to offer private chef and luxury catering services to villa guests, yacht charter clients, wedding…"
         canonicalPath={`/${SLUG}`}
         ogImage="/images/case-studies-hero.webp"
         schema={schema}
@@ -130,8 +136,8 @@ export default function PartnerWithUs() {
 
       <PageHero
         eyebrow="Partnerships"
-        title="Partner With myCHEF Dubai"
-        subtitle="Give your guests, clients, and members access to Dubai's most discreet private chef and luxury catering service — and earn commission on every booking."
+        title="Catering Partnerships Dubai: Partner With myCHEF Dubai"
+        subtitle="Catering Partnerships Dubai by myCHEF — Give your guests, clients, and members access to Dubai's most discreet private chef and luxury catering service — and earn commission on eve"
         image="/images/case-studies-hero.webp"
         imageAlt="myCHEF Dubai partnership opportunities"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Partner With Us' }]}
@@ -208,7 +214,7 @@ export default function PartnerWithUs() {
           </section>
 
           <section className="partner-cta opacity-0 translate-y-8 bg-cream p-8 md:p-12 text-center">
-            <h2 className="font-playfair text-h3 text-black mb-4">Become a myCHEF Partner</h2>
+            <h2 className="font-playfair text-h3 text-black mb-4">Catering Partnerships Dubai: Become a myCHEF Partner</h2>
             <p className="font-inter text-body text-gray-500 max-w-[600px] mx-auto mb-8">
               Tell us about your business and the clients you serve. We will reply within one business day with partnership options and next steps.
             </p>

@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /staff-meals-catering-dubai
+//     primary:     "staff meals catering dubai"
+//     subkeywords: "staff meals catering dubai price" · "staff lunch catering dubai" · "halal staff meals catering dubai" · "staff meals catering dubai cost per person" · "catering staff hire for private catering" · "catering with service staff" · "chief of staff catering company" · "staff meals dubai" · "event catering staff" · "best veg meals in dubai" · "monthly meals in dubai" · "ready to cook meals dubai"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef } from 'react'
 import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
@@ -64,7 +70,7 @@ const staffFormats = [
     icon: Leaf,
     title: 'Healthy & Dietary Options',
     description: 'Balanced, lighter choices alongside vegetarian, vegan, and gluten-free options so every colleague is catered for.',
-    link: '/healthy-catering-dubai',
+    link: '/cuisines-dubai',
   },
 ]
 
@@ -164,7 +170,7 @@ const relatedServices = [
     title: 'Healthy Catering',
     description: 'Balanced, nutrition-focused menus with low-carb, keto, and lighter options for teams.',
     image: '/menu-seafood.webp',
-    link: '/healthy-catering-dubai',
+    link: '/cuisines-dubai',
   },
   {
     title: 'Corporate Catering',
@@ -271,7 +277,7 @@ export default function StaffMealsCatering() {
     <div ref={containerRef}>
       <SEO
         title="Staff Meals Catering Dubai | Daily Team Meals & Canteens | myCHEF"
-        description="Staff meals catering in Dubai with daily team meals, canteens & retainers. Halal menus, VAT/TRN invoicing, account management. Get a quote."
+        description="Staff meals catering Dubai with daily team meals, canteens & retainers. Halal menus, VAT/TRN invoicing, account management. Get a quote."
         canonicalPath="/staff-meals-catering-dubai"
         ogImage="/service-corporate.webp"
         hideSiteName
@@ -329,7 +335,7 @@ export default function StaffMealsCatering() {
             Feeding a workforce well is one of the quieter ways an organisation shows it values its people. A dependable daily meal keeps teams energised, saves staff the hassle of sorting lunch themselves, and builds a small but real sense of being looked after. The challenge at scale is consistency and cost — which is exactly what a planned staff meals service is built to solve. At myCHEF Dubai, we provide reliable team catering designed around the realities of a working operation.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            From daily team meals and managed staff canteens to recurring retainers and shift-based catering, we keep your people well fed without the daily admin. Menus are fully halal and built to a high standard, with balanced and dietary options throughout, and a standing retainer gives you predictable invoicing and one reliable point of contact. Explore the formats below, see how staff catering fits within our wider <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering in Dubai</Link>, or browse our <Link to="/corporate-meal-prep-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate meal prep</Link> for portioned workplace programmes.
+            From daily team meals and managed staff canteens to recurring retainers and shift-based catering, we keep your people well fed without the daily admin. Menus are fully halal and built to a high standard, with balanced and dietary options throughout, and a standing retainer gives you predictable invoicing and one reliable point of contact. Explore the formats below, see how staff catering fits within our wider <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering in Dubai</Link>, or browse our <Link to="/staff-meals-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate meal prep</Link> for portioned workplace programmes.
           </p>
         </div>
       </section>
@@ -435,7 +441,7 @@ export default function StaffMealsCatering() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Staff Meals Questions
+            Staff Meals Catering Dubai: the questions we get before a booking
           </h2>
 
           <FaqAccordion items={faqs} />
@@ -489,7 +495,7 @@ export default function StaffMealsCatering() {
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
                   <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
-                    Explore <ArrowRight size={14} />
+                    {svc.title} <ArrowRight size={14} />
                   </span>
                 </div>
               </Link>

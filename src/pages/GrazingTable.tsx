@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /grazing-table-dubai
+//     primary:     "grazing table dubai"
+//     subkeywords: "grazing table dubai price" · "grazing table for 20 guests dubai" · "best grazing table dubai" · "grazing table packages dubai" · "grazing table menu dubai" · "halal grazing table dubai" · "grazing platter dubai" · "grazing table delivery dubai" · "indian grazing table dubai" · "birthday grazing table dubai" · "grazing tables dubai" · "grazing board"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef } from 'react'
 import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
@@ -46,7 +52,7 @@ const grazingFormats = [
     icon: Heart,
     title: 'Bridal & Hen Grazing',
     description: 'Soft palettes, florals, and sweet-and-savoury pairings designed for bridal showers, hen afternoons, and engagement celebrations.',
-    link: '/bachelorette-party-catering-dubai',
+    link: '/private-party-catering-dubai',
   },
   {
     icon: Baby,
@@ -165,6 +171,70 @@ const faqs = [
   { q: "How far in advance do I need to book a grazing table?", a: "For smaller grazing tables and boards, a week or two is usually enough, while larger, fully styled installations are best confirmed two to four weeks ahead. Peak season runs from November to March, and popular weekend dates book up quickly, so earlier is always safer during those months. If your date is soon, reach out anyway, as we'll always try to accommodate short notice." },
   { q: "Can you match a specific theme, colour palette, or occasion?", a: "Yes, we style each grazing table around your palette, theme, florals, and venue so it feels made for your celebration, whether that's a soft bridal shower, a pastel baby shower, or a branded corporate reception. We coordinate boards, vessels, foliage, and garnishes to your look and can add sweet or savoury emphasis as needed. Share your inspiration or mood board when you [get in touch](/contact) and we'll design to it." },
   { q: "Can you add hot dishes, live stations, or dessert to a grazing table?", a: "Yes, a grazing table can stand alone or become part of a fuller spread with hot sharing dishes, live cooking stations, or a dessert display alongside it. This works beautifully for larger events where you want the grazing centrepiece plus something more substantial for guests. We'll help you balance the mix so it suits your timing, guest count, and budget." },
+  {
+    q: 'How much does grazing table Dubai price come to?',
+    a: 'There is no single number for grazing table Dubai price: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+  },
+  {
+    q: 'Do you offer grazing table for 20 guests Dubai?',
+    a: 'Yes. It sits inside the same service as grazing table Dubai: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+  },
+  {
+    q: 'What makes myCHEF a strong choice for best grazing table Dubai?',
+    a: 'One team owns the whole event — menu, shopping, cooking on site, service and clear-down — so nothing falls between suppliers. The chefs are vetted and matched to the occasion, ingredients are charged at cost with no markup, and every quote is itemised.',
+  },
+  {
+    q: 'Do you offer grazing table packages Dubai?',
+    a: 'Yes. We start from set formats and adjust them to your event rather than selling a fixed box: menu length, service style, staff and equipment are chosen for the day. Ask for the format closest to what you are planning and we shape it from there.',
+  },
+  {
+    q: 'Do you offer grazing table menu Dubai?',
+    a: 'Yes. It sits inside the same service as grazing table Dubai: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+  },
+  {
+    q: 'Can you handle halal grazing table Dubai?',
+    a: 'Yes. Dietary needs are planned into the menu from the first draft, not bolted on: dishes are labelled, cross-contact is managed in the kitchen we set up on site, and the chef is briefed on every guest requirement before the day.',
+  },
+  {
+    q: 'Do you offer grazing platter Dubai?',
+    a: 'Yes. It sits inside the same service as grazing table Dubai: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+  },
+  {
+    q: 'Do you offer grazing table delivery Dubai?',
+    a: 'Yes. It sits inside the same service as grazing table Dubai: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+  },
+  {
+    q: 'How much does grazing table Dubai price come to?',
+    a: 'There is no single number for grazing table Dubai price: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+  },
+  {
+    q: 'Do you offer grazing table for 20 guests Dubai?',
+    a: 'Yes. It sits inside the same service as grazing table Dubai: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+  },
+  {
+    q: 'What makes myCHEF a strong choice for best grazing table Dubai?',
+    a: 'One team owns the whole event — menu, shopping, cooking on site, service and clear-down — so nothing falls between suppliers. The chefs are vetted and matched to the occasion, ingredients are charged at cost with no markup, and every quote is itemised.',
+  },
+  {
+    q: 'Do you offer grazing table packages Dubai?',
+    a: 'Yes. We start from set formats and adjust them to your event rather than selling a fixed box: menu length, service style, staff and equipment are chosen for the day. Ask for the format closest to what you are planning and we shape it from there.',
+  },
+  {
+    q: 'Do you offer grazing table menu Dubai?',
+    a: 'Yes. It sits inside the same service as grazing table Dubai: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+  },
+  {
+    q: 'Can you handle halal grazing table Dubai?',
+    a: 'Yes. Dietary needs are planned into the menu from the first draft, not bolted on: dishes are labelled, cross-contact is managed in the kitchen we set up on site, and the chef is briefed on every guest requirement before the day.',
+  },
+  {
+    q: 'Do you offer grazing platter Dubai?',
+    a: 'Yes. It sits inside the same service as grazing table Dubai: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+  },
+  {
+    q: 'Do you offer grazing table delivery Dubai?',
+    a: 'Yes. It sits inside the same service as grazing table Dubai: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+  },
 ]
 
 const relatedServices = [
@@ -178,7 +248,7 @@ const relatedServices = [
     title: 'Bachelorette Catering',
     description: 'Styled grazing, canapés, and dessert displays for a memorable hen celebration.',
     image: '/service-villa.webp',
-    link: '/bachelorette-party-catering-dubai',
+    link: '/private-party-catering-dubai',
   },
   {
     title: 'Baby Shower Catering',
@@ -285,7 +355,7 @@ export default function GrazingTable() {
     <div ref={containerRef}>
       <SEO
         title="Grazing Table Dubai | Cheese & Charcuterie Spreads | myCHEF"
-        description="Artisan grazing tables in Dubai. Cheese & charcuterie spreads styled for showers, villas, weddings & corporate events. From AED __ for __ guests. Get a quote."
+        description="Artisan grazing table Dubai. Cheese & charcuterie spreads styled for showers, villas, weddings & corporate events. From AED __ for __ gu"
         canonicalPath="/grazing-table-dubai"
         ogImage="/menu-appetizer.webp"
         hideSiteName
@@ -310,7 +380,7 @@ export default function GrazingTable() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 graz-hero-h1">
-            Grazing Tables & Charcuterie Spreads in Dubai
+            Grazing Table Dubai — Charcuterie Spreads
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 graz-hero-sub">
             Abundant artisan grazing spreads, styled corner to corner — from bridal showers and villa gatherings to corporate receptions across Dubai.
@@ -449,7 +519,7 @@ export default function GrazingTable() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Grazing Table Questions
+            Grazing Table Dubai: the questions we get before a booking
           </h2>
 
           <FaqAccordion items={faqs} showJumpNav />
@@ -503,7 +573,7 @@ export default function GrazingTable() {
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
                   <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
-                    Explore <ArrowRight size={14} />
+                    {svc.title} <ArrowRight size={14} />
                   </span>
                 </div>
               </Link>

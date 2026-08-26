@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /wedding-catering-checklist-dubai
+//     primary:     "wedding catering checklist dubai"
+//     subkeywords: "how to plan wedding catering dubai" · "wedding catering questions to ask" · "wedding catering timeline dubai" · "how much food for a wedding dubai" · "catering contract wedding checklist" · "checklist for catering event" · "wedding catering services in dubai" · "afternoon tea wedding catering"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { Link } from 'react-router'
 import { ArrowRight, Printer } from 'lucide-react'
 import SEO from '../../components/SEO'
@@ -93,7 +99,7 @@ export default function WeddingCateringChecklist() {
         <PageHero
           variant="quiet"
           eyebrow="Wedding Catering Checklist Dubai"
-          title="Wedding catering checklist for Dubai"
+          title="Wedding Catering Checklist Dubai"
           subtitle="A planning sequence for villas, gardens and venues. When to book, when to taste, what to ask the community office, and what to send seven days out. No prices on this page."
           image={checklistHero.src}
           imageAlt={checklistHero.alt}

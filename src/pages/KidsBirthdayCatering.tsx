@@ -8,7 +8,7 @@ const config: OccasionPageConfig = {
   seoTitle: "Kids Birthday Catering Dubai | Safe, Fun Party Food | myCHEF",
   metaDescription:
     'Kids birthday catering in Dubai: child-friendly menus, allergy planning with clear labelling, fun food stations, themed treats and full setup. Request a quote.',
-  canonicalPath: '/kids-birthday-catering-dubai',
+  canonicalPath: '/birthday-catering-dubai',
   ogImage: '/images/kids-birthday-catering-dubai-hero.webp',
   breadcrumbLabel: 'Kids Birthday Catering Dubai',
   h1: 'Kids Birthday Catering Dubai: Safe, Fun Party Food',
@@ -32,7 +32,7 @@ const config: OccasionPageConfig = {
           birthday catering Dubai
         </Link>{' '}
         service, explore safe{' '}
-        <Link to="/nut-free-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
+        <Link to="/allergy-safe-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           nut-free catering Dubai
         </Link>{' '}
         options for school-age guests, or view our{' '}
@@ -173,7 +173,7 @@ const config: OccasionPageConfig = {
       title: 'Nut-Free Catering',
       description: 'Allergy-aware catering ideal for school-age children and family events.',
       image: '/images/nut-free-catering-dubai-hero.webp',
-      link: '/nut-free-catering-dubai',
+      link: '/allergy-safe-catering-dubai',
     },
     {
       title: 'Dessert Table Catering',
@@ -185,7 +185,7 @@ const config: OccasionPageConfig = {
       title: 'Gelato & Dessert Cart',
       description: 'Fun ice cream, candy and dessert carts that kids love at birthday parties.',
       image: '/images/dessert-table-catering-dubai-hero.webp',
-      link: '/dessert-cart-dubai',
+      link: '/live-cooking-stations-dubai',
     },
   ],
   ctaH2: 'Plan a Kids Birthday Party Everyone Will Love',

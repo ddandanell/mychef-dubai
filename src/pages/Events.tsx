@@ -1,847 +1,481 @@
-import { useEffect, useRef } from 'react'
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /events
+//     primary:     "event catering dubai"
+//     subkeywords: "private event catering dubai" · "event caterers dubai" · "event catering packages dubai" · "small event catering dubai" · "outdoor event catering dubai" · "wedding event catering dubai" · "birthday event catering dubai" · "brand event catering dubai" · "business event catering dubai" · "launch event catering dubai" · "networking event catering dubai" · "official event catering dubai"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { Link } from 'react-router'
-import gsap from 'gsap'
-import { useScrollTrigger } from '@/hooks/useScrollTrigger'
+import { ArrowRight } from 'lucide-react'
+import SEO from '../components/SEO'
+import PageHero from '../components/PageHero'
+import TrustSignalStrip from '../components/TrustSignalStrip'
+import FaqAccordion from '../components/FaqAccordion'
+import LocationStrip from '../components/LocationStrip'
 import {
-  Accordion,
-  AccordionItem,
-  AccordionTrigger,
-  AccordionContent,
-} from '@/components/ui/accordion'
-import SEO from '@/components/SEO'
-import PageHero from '@/components/PageHero'
-import TrustSignalStrip from '@/components/TrustSignalStrip'
-import LocationStrip from '@/components/LocationStrip'
-import {
-  breadcrumbSchema,
-  faqPageSchema,
-  serviceSchema,
-} from '@/utils/schema'
-import { Check, Quote, ArrowRight, } from 'lucide-react'
+  Section,
+  Container,
+  SectionLabel,
+  DisplayHeading,
+  BodyCopy,
+  SequenceRail,
+  CTAGroup,
+} from '../components/system'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
-import { deferNonCritical } from '../lib/deferNonCritical'
-import { SectionLabel } from '../components/system'
+import { CATERING_INQUIRY_HREF, CATERING_PATHS } from '@/content/cateringCluster'
+import {
+  EVENTS_KEYWORD_LOCK,
+  EVENTS_ROOT,
+  EVENTS_SIBLING_LINKS,
+  EVENTS_WHATSAPP_LINK,
+  EVENTS_WHATSAPP_MESSAGE,
+  coreEvents,
+  decisionModule,
+  eventFaqs,
+  eventsHero,
+  eventsHeroCopy,
+  exampleEvents,
+  includedItems,
+  jumpNav,
+  menuFormats,
+  otherEvents,
+  priceRows,
+  pricingIntro,
+  pricingNotes,
+  proofItems,
+  siloIntro,
+  startSteps,
+} from '@/content/eventsPage'
 
+const schema = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'Service',
+      '@id': 'https://www.mychef.ae/events#service',
+      name: 'Event Catering Dubai',
+      serviceType: 'Event Catering',
+      description:
+        'Event catering in Dubai for weddings, birthdays, private parties and corporate events. Delivered food, buffet, live stations, canapés or chef-led plated dining. Event buffets start from AED 120 per person.',
+      url: 'https://www.mychef.ae/events',
+      provider: { '@id': 'https://www.mychef.ae/#organization' },
+      areaServed: { '@id': 'https://www.mychef.ae/#place-dubai' },
+      hasOfferCatalog: {
+        '@type': 'OfferCatalog',
+        name: 'Event catering formats',
+        itemListElement: [
+          { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Wedding Catering', url: 'https://www.mychef.ae/wedding-catering-dubai' } },
+          { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Birthday Catering', url: 'https://www.mychef.ae/birthday-catering-dubai' } },
+          { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Private Party Catering', url: 'https://www.mychef.ae/private-party-catering-dubai' } },
+          { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Corporate Event Catering', url: 'https://www.mychef.ae/corporate-event-catering-dubai' } },
+        ],
+      },
+    },
+    {
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.mychef.ae/' },
+        { '@type': 'ListItem', position: 2, name: 'Events', item: 'https://www.mychef.ae/events' },
+      ],
+    },
+  ],
+}
 
-const WHATSAPP_NUMBER = '971551744849'
-const WHATSAPP_MESSAGE = encodeURIComponent(
-  "Hi myCHEF Dubai, I'm planning an event and need catering. Date: __, Guests: __, Venue: __, Event type: __ (via mychef.ae/events)"
-)
-const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
-
-/* ───── Data ───── */
-
-const eventTypes = [
-  {
-    image: '/service-events.webp',
-    title: 'Birthday Catering',
-    description:
-      'From intimate family dinners to milestone celebrations. Custom menus, cakes, and full service.',
-    link: '/birthday-catering-dubai',
-  },
-  {
-    image: '/service-luxury-dining.webp',
-    title: 'Wedding Catering',
-    description:
-      'Receptions, rehearsal dinners, post-wedding brunches. Elegant, bespoke, and unforgettable.',
-    link: '/wedding-catering-dubai',
-  },
-  {
-    image: '/service-villa.webp',
-    title: 'Villa Party Catering',
-    description:
-      'fully-coordinated catering for villa events. Setup, service, cleanup \u2014 all handled professionally.',
-    link: '/villas-private-residences',
-  },
-  {
-    image: '/service-corporate.webp',
-    title: 'Corporate Events',
-    description:
-      'Product launches, client entertaining, team celebrations. Professional and impressive.',
-    link: '/corporate-event-catering-dubai',
-  },
-  {
-    image: '/service-yacht.webp',
-    title: 'Yacht Event Catering',
-    description:
-      'Catering for yacht parties and events. Canapes, BBQ, plated service on the water.',
-    link: '/yachts',
-  },
-  {
-    image: '/service-catering.webp',
-    title: 'Cocktail Receptions',
-    description:
-      'Sophisticated canapes, passed appetizers, and cocktail service for networking events.',
-    link: '/cocktail-party-catering-dubai',
-  },
-]
-
-const relatedEventCatering = [
-  {
-    image: '/service-events.webp',
-    title: 'Private Party Catering',
-    description: 'Bespoke catering for any private celebration with friends and family.',
-    link: '/private-party-catering-dubai',
-  },
-  {
-    image: '/service-luxury-dining.webp',
-    title: 'Engagement Catering',
-    description: 'Elegant menus and styling to celebrate your engagement in style.',
-    link: '/engagement-catering-dubai',
-  },
-  {
-    image: '/service-catering.webp',
-    title: 'Anniversary Catering',
-    description: 'Romantic, refined catering for milestone anniversaries at home or venue.',
-    link: '/anniversary-catering-dubai',
-  },
-  {
-    image: '/menu-canapes.webp',
-    title: 'Baby Shower Catering',
-    description: 'Beautiful grazing tables, canapes, and sweet treats for baby showers.',
-    link: '/baby-shower-catering-dubai',
-  },
-  {
-    image: '/service-events.webp',
-    title: 'Festive Catering',
-    description: 'Seasonal menus for Christmas, New Year, Ramadan, Eid, Diwali and more.',
-    link: '/festive-catering-dubai',
-  },
-  {
-    image: '/images/beach-catering-dubai-hero.webp',
-    title: 'Beach Catering',
-    description: 'Fresh seafood, grills and salads for Dubai beach clubs and shoreline events.',
-    link: '/beach-catering-dubai',
-  },
-  {
-    image: '/images/desert-dining-dubai-hero.webp',
-    title: 'Desert Dining',
-    description: 'Bedouin-inspired feasts and live grills under the stars in the Dubai dunes.',
-    link: '/desert-dining-dubai',
-  },
-  {
-    image: '/images/afternoon-tea-catering-dubai-hero.webp',
-    title: 'Afternoon Tea Catering',
-    description: 'Elegant high tea with tiered stands for showers, birthdays and corporate events.',
-    link: '/afternoon-tea-catering-dubai',
-  },
-  {
-    image: '/images/valentines-day-catering-dubai-hero.webp',
-    title: "Valentine's Day Catering",
-    description: 'Candlelit private dining and romantic catering for proposals, anniversaries and February 14.',
-    link: '/valentines-day-catering-dubai',
-  },
-  {
-    image: '/images/mothers-day-catering-dubai-hero.webp',
-    title: "Mother's Day Catering",
-    description: 'Elegant brunch, lunch and high tea catering to celebrate Mum at home or venue.',
-    link: '/mothers-day-catering-dubai',
-  },
-  {
-    image: '/images/uae-national-day-catering-dubai-hero.webp',
-    title: 'UAE National Day Catering',
-    description: 'Emirati-inspired menus, live grills and elegant buffets for 2 December celebrations across Dubai.',
-    link: '/uae-national-day-catering-dubai',
-  },
-  {
-    image: '/images/easter-catering-dubai-hero.webp',
-    title: 'Easter Catering',
-    description: 'Spring brunches, roast lunches and garden parties for Easter celebrations with family and friends.',
-    link: '/easter-catering-dubai',
-  },
-  {
-    image: '/images/halloween-catering-dubai-hero.webp',
-    title: 'Halloween Catering',
-    description: 'Spooky, stylish menus and themed treats for home parties, kids events and venue celebrations.',
-    link: '/halloween-catering-dubai',
-  },
-  {
-    image: '/images/diwali-catering-dubai-hero.webp',
-    title: 'Diwali Catering',
-    description: 'Festive Indian menus, sweets and celebratory spreads for Diwali gatherings across Dubai.',
-    link: '/diwali-catering-dubai',
-  },
-]
-
-const processSteps = [
-  {
-    num: '01',
-    title: 'Share your event details',
-    description:
-      'We discuss your event vision, guest count, venue, dietary needs, and budget.',
-  },
-  {
-    num: '02',
-    title: 'We design your bespoke menu',
-    description:
-      'our chefs creates a bespoke menu and we design the service flow for your event.',
-  },
-  {
-    num: '03',
-    title: 'We execute flawlessly on the day',
-    description:
-      'We arrive early, set up, and execute flawlessly. You focus on your guests.',
-  },
-  {
-    num: '04',
-    title: 'We handle cleanup and follow-up',
-    description:
-      'Complete cleanup and follow-up to ensure everything exceeded expectations.',
-  },
-]
-
-const includedItems = [
-  'Bespoke Menu Design',
-  'Premium Ingredients',
-  'Professional Chefs',
-  'Service Staff',
-  'Tableware & Linens',
-  'Bar Service (Optional)',
-  'Setup & Decoration',
-  'Full Cleanup',
-]
-
-const galleryImages = [
-  '/service-events.webp',
-  '/service-catering.webp',
-  '/service-villa.webp',
-  '/service-luxury-dining.webp',
-  '/menu-canapes.webp',
-  '/images/villa-catering-dubai-hero.webp',
-]
-
-const faqs = [
-  {
-    question: 'What is the minimum guest count for event catering?',
-    answer:
-      'Our event catering starts from 10 guests. For smaller groups, our private chef service is ideal.',
-  },
-  {
-    question: 'Can you cater at any venue in Dubai?',
-    answer:
-      'Yes. We coordinate catering at villas, penthouses, yachts, event spaces, and outdoor venues across Dubai.',
-  },
-  {
-    question: 'Do you provide staff for large events?',
-    answer:
-      'Absolutely. we bring you a vetted chef you engage, waiters, bartenders, and event coordinators based on your guest count and service style.',
-  },
-  {
-    question: 'Can you create themed menus?',
-    answer:
-      'Yes. We design themed menus for any occasion \u2014 seasonal, cultural, or personal themes.',
-  },
-  {
-    question: 'What happens if guest numbers change?',
-    answer:
-      'We understand plans change. Contact us as soon as possible and we will adjust accordingly.',
-  },
-]
-
-const relatedServices = [
-  {
-    title: 'Corporate Dining',
-    description: 'Professional catering for business events and meetings.',
-    link: '/corporate',
-  },
-  {
-    title: 'Villas & Residences',
-    description: 'Private chef services for villa events and celebrations.',
-    link: '/villas-private-residences',
-  },
-  {
-    title: 'Yacht Catering',
-    description: 'Catering for yacht parties and on-water events.',
-    link: '/yachts',
-  },
-]
-
-/* ───── Schema ───── */
-
-const breadcrumbs = [
-  { name: 'Home', path: '/' },
-  { name: 'Services', path: '/catering-dubai' },
-  { name: 'Events', path: '/events' },
-]
-
-const schema = [
-  breadcrumbSchema(breadcrumbs),
-  faqPageSchema(faqs),
-  serviceSchema(
-    'Event Catering Dubai',
-    'Premium event catering in Dubai for birthdays, weddings, and private celebrations with bespoke menus and professional staff.',
-    'EventCatering',
-    'Dubai'
-  ),
-]
-
-/* ───── Page Component ───── */
-
-const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'm planning an event and need catering. Date: __, Guests: __, Venue: __, Event type: __ (via mychef.ae/events)"
 export default function Events() {
-  useScrollTrigger()
-  useWhatsAppMessage(PAGE_WHATSAPP_MESSAGE)
-  const eventCardsRef = useRef<HTMLDivElement>(null)
-  const processRef = useRef<HTMLDivElement>(null)
-  const includedRef = useRef<HTMLDivElement>(null)
-  const galleryRef = useRef<HTMLDivElement>(null)
-  const testimonialRef = useRef<HTMLDivElement>(null)
-  const ctaRef = useRef<HTMLDivElement>(null)
-  const relatedRef = useRef<HTMLDivElement>(null)
-  const relatedEventsRef = useRef<HTMLDivElement>(null)
-
-  useEffect(() => {
-    let ctx: gsap.Context | null = null
-    // Defer below-the-fold ScrollTrigger animations so they do not contend
-    // with LCP/INP during the initial load.
-    deferNonCritical(() => {
-      ctx = gsap.context(() => {
-
-        /* Event cards */
-      if (eventCardsRef.current) {
-        const cards = eventCardsRef.current.children
-        gsap.fromTo(
-          cards,
-          { opacity: 0, y: 50 },
-          {
-            opacity: 1,
-            y: 0,
-            duration: 0.8,
-            stagger: 0.1,
-            ease: 'power3.out',
-            scrollTrigger: {
-              trigger: eventCardsRef.current,
-              start: 'top 85%',
-            },
-          }
-        )
-      }
-
-      /* Process steps */
-      if (processRef.current) {
-        const steps = processRef.current.querySelectorAll('.process-step')
-        gsap.fromTo(
-          steps,
-          { opacity: 0, y: 40 },
-          {
-            opacity: 1,
-            y: 0,
-            duration: 0.8,
-            stagger: 0.15,
-            ease: 'power3.out',
-            scrollTrigger: {
-              trigger: processRef.current,
-              start: 'top 85%',
-            },
-          }
-        )
-      }
-
-      /* Included items */
-      if (includedRef.current) {
-        const items = includedRef.current.querySelectorAll('.check-item')
-        gsap.fromTo(
-          items,
-          { opacity: 0, x: -20 },
-          {
-            opacity: 1,
-            x: 0,
-            duration: 0.5,
-            stagger: 0.08,
-            ease: 'power3.out',
-            scrollTrigger: {
-              trigger: includedRef.current,
-              start: 'top 85%',
-            },
-          }
-        )
-      }
-
-      /* Gallery */
-      if (galleryRef.current) {
-        const imgs = galleryRef.current.children
-        gsap.fromTo(
-          imgs,
-          { opacity: 0, scale: 0.95 },
-          {
-            opacity: 1,
-            scale: 1,
-            duration: 0.6,
-            stagger: 0.1,
-            ease: 'power3.out',
-            scrollTrigger: {
-              trigger: galleryRef.current,
-              start: 'top 85%',
-            },
-          }
-        )
-      }
-
-      /* Testimonial */
-      if (testimonialRef.current) {
-        gsap.fromTo(
-          testimonialRef.current.children,
-          { opacity: 0, y: 30 },
-          {
-            opacity: 1,
-            y: 0,
-            duration: 0.8,
-            ease: 'power3.out',
-            scrollTrigger: {
-              trigger: testimonialRef.current,
-              start: 'top 85%',
-            },
-          }
-        )
-      }
-
-      /* CTA */
-      if (ctaRef.current) {
-        gsap.fromTo(
-          ctaRef.current.children,
-          { opacity: 0, y: 40 },
-          {
-            opacity: 1,
-            y: 0,
-            duration: 0.8,
-            stagger: 0.15,
-            ease: 'power3.out',
-            scrollTrigger: {
-              trigger: ctaRef.current,
-              start: 'top 80%',
-            },
-          }
-        )
-      }
-
-      /* Related services */
-      if (relatedRef.current) {
-        const cards = relatedRef.current.children
-        gsap.fromTo(
-          cards,
-          { opacity: 0, y: 40 },
-          {
-            opacity: 1,
-            y: 0,
-            duration: 0.7,
-            stagger: 0.12,
-            ease: 'power3.out',
-            scrollTrigger: {
-              trigger: relatedRef.current,
-              start: 'top 85%',
-            },
-          }
-        )
-      }
-
-      /* Related event catering */
-      if (relatedEventsRef.current) {
-        const cards = relatedEventsRef.current.children
-        gsap.fromTo(
-          cards,
-          { opacity: 0, y: 40 },
-          {
-            opacity: 1,
-            y: 0,
-            duration: 0.7,
-            stagger: 0.12,
-            ease: 'power3.out',
-            scrollTrigger: {
-              trigger: relatedEventsRef.current,
-              start: 'top 85%',
-            },
-          }
-        )
-      }
-
-      })
-    })
-
-    return () => ctx?.revert()
-  }, [])
+  useWhatsAppMessage(EVENTS_WHATSAPP_MESSAGE)
 
   return (
-    <>
+    <div>
       <SEO
-        title="Event Catering Dubai | Birthdays, Weddings & Parties"
-        description="Premium event catering in Dubai for birthdays, weddings, engagements & private parties. Bespoke menus, vetted chefs, full service. Request a tailored quote."
-        canonicalPath="/events"
-        ogImage="/service-events.webp"
-        preloadHero="/images/events-catering-dubai-hero.webp"
-        schema={schema as unknown as Record<string, unknown>}
+        title={EVENTS_KEYWORD_LOCK.title}
+        description={EVENTS_KEYWORD_LOCK.description}
+        canonicalPath={EVENTS_ROOT}
+        ogImage={eventsHero.src}
+        hideSiteName
+        preloadHero={eventsHero.src}
+        schema={schema}
       />
 
-      {/* ─── Section 1: Hero ─── */}
       <PageHero
-        title="Event Catering Dubai for Weddings, Parties & Corporate Events"
-        subtitle="Event catering for 10–500+ guests across Dubai. Birthdays, weddings, corporate functions & private parties — we design, source, cook and serve."
-        image="/images/events-catering-dubai-hero.webp"
-        imageAlt="Event catering in Dubai"
-        imageWidth={1344}
-        imageHeight={752}
-        cta={{ label: 'Get an Event Catering Quote', href: '/inquiry' }}
-        secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
+        eyebrow={eventsHeroCopy.eyebrow}
+        title={eventsHeroCopy.title}
+        subtitle={eventsHeroCopy.subtitle}
+        image={eventsHero.src}
+        imageAlt={eventsHero.alt}
+        imageWidth={eventsHero.width}
+        imageHeight={eventsHero.height}
+        align="left"
+        cta={{ label: 'Get an itemised event-catering quote', href: CATERING_INQUIRY_HREF }}
+        secondaryCta={{ label: 'Chat on WhatsApp', href: EVENTS_WHATSAPP_LINK, external: true }}
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Events' }]}
-        minHeight="large"
+        minHeight="full"
         overlay="dark"
-      />
+      >
+        <p className="mt-5 font-inter text-body-sm text-white/90 max-w-[58ch]">
+          {eventsHeroCopy.priceLine}
+        </p>
+        <p className="mt-3 font-inter text-body-sm text-white/70 max-w-[58ch]">
+          {eventsHeroCopy.replyLine}
+        </p>
+      </PageHero>
+      <TrustSignalStrip />
 
-      <TrustSignalStrip variant="dark" />
+      <nav aria-label="On this page" className="border-b border-gray-200 bg-white">
+        <div className="container-custom flex flex-wrap gap-x-5 gap-y-2 py-4">
+          {jumpNav.map((item) => (
+            <a
+              key={item.href}
+              href={item.href}
+              className="font-inter text-caption uppercase tracking-[0.12em] text-gray-500 hover:text-gold-ink"
+            >
+              {item.label}
+            </a>
+          ))}
+        </div>
+      </nav>
 
-      {/* ─── Section 2: Event Types ─── */}
-      <section className="bg-white section-padding">
-        <div className="container-custom">
-          {/* Header */}
-          <div className="text-center mb-12 max-w-3xl mx-auto">
-            <SectionLabel align="center">WHAT EVENTS DO YOU CATER?</SectionLabel>
-            <h2 className="font-playfair text-h2 text-black mt-4">
-              What events can myCHEF Dubai cater?
-            </h2>
-            <p className="font-inter text-base text-gray-600 mt-4 leading-relaxed">
-              From intimate gatherings to grand occasions, myCHEF Dubai delivers
-              flawless service and bespoke menus for every kind of{' '}
-              <Link
-                to="/private-party-catering-dubai"
-                className="text-gold hover:text-gold-dark underline underline-offset-4 transition-colors"
-              >
-                party catering Dubai
-              </Link>{' '}
-              experience. Looking for a ready-to-book option? See our{' '}
-              <Link
-                to="/catering-packages-dubai"
-                className="text-gold hover:text-gold-dark underline underline-offset-4 transition-colors"
-              >
-                catering packages Dubai
-              </Link>{' '}
-              collection.
-            </p>
-          </div>
+      <Section tone="ivory" rhythm="connected">
+        <Container>
+          <p className="font-inter text-caption uppercase tracking-[0.12em] text-gold-ink mb-4">Also in this silo</p>
+          <ul className="flex flex-wrap gap-x-6 gap-y-2">
+            {EVENTS_SIBLING_LINKS.map((item) => (
+              <li key={item.href}>
+                <Link
+                  to={item.href}
+                  className="font-inter text-body-sm text-gray-700 underline decoration-gold/40 underline-offset-4 hover:text-gold-ink"
+                >
+                  {item.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+          <p className="mt-6 font-inter text-body-sm text-gray-600 max-w-[62ch]">
+            {siloIntro.lead} Broader food-only through full-service catering sits on{' '}
+            <Link to="/catering-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
+              {siloIntro.cateringLabel}
+            </Link>
+            . Intimate chef-led dinners belong on{' '}
+            <Link to="/private-chef-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
+              {siloIntro.chefLabel}
+            </Link>
+            . A tasting or a desert dinner belongs on{' '}
+            <Link to={siloIntro.diningHref} className="text-gold-ink underline underline-offset-4 hover:text-gold">
+              {siloIntro.diningLabel}
+            </Link>
+            .
+          </p>
+        </Container>
+      </Section>
 
-          {/* Grid */}
-          <div
-            ref={eventCardsRef}
-            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
-          >
-            {eventTypes.map((event) => (
-              <div
-                key={event.title}
-                className="group bg-charcoal overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)]"
-              >
-                {/* Image */}
-                <div className="relative aspect-video overflow-hidden">
+      <Section id="event-types" tone="white" rhythm="chapter">
+        <Container>
+          <SectionLabel>WHAT ARE YOU HOSTING?</SectionLabel>
+          <DisplayHeading className="text-black mb-4">Six event types. The specialist page owns the rest.</DisplayHeading>
+          <BodyCopy className="mb-12">
+            Wedding, birthday, corporate, villa, yacht and cocktail searches belong on those pages. This hub sends you there with the right brief.
+          </BodyCopy>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {coreEvents.map((item) => (
+              <article key={item.href} className="border border-gray-200">
+                <Link to={item.href} data-track="event_card" className="block aspect-[16/10] overflow-hidden">
                   <img
-                    src={event.image}
-                    alt={event.title}
-                    width={640}
-                    height={360}
+                    src={item.image}
+                    alt={item.imageAlt}
+                    width={1600}
+                    height={900}
                     loading="lazy"
-                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" decoding="async"/>
-                  <div className="absolute inset-0 gradient-overlay-bottom" />
-                </div>
-                {/* Content */}
+                    decoding="async"
+                    className="h-full w-full object-cover"
+                  />
+                </Link>
                 <div className="p-6">
-                  <h3 className="font-playfair text-h3 text-white mb-2">
-                    {event.title}
-                  </h3>
-                  <p className="font-inter text-body-sm text-gray-400 leading-relaxed mb-4">
-                    {event.description}
-                  </p>
+                  <h3 className="font-playfair text-h4 text-black mb-2">{item.title}</h3>
+                  <p className="font-inter text-body-sm text-gray-600 leading-relaxed mb-4">{item.body}</p>
                   <Link
-                    to={event.link}
-                    className="inline-flex items-center gap-2 font-inter text-body-sm font-medium uppercase tracking-wider text-gold hover:text-gold-light transition-colors"
+                    to={item.href}
+                    data-track="event_card"
+                    className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink hover:text-gold"
                   >
-                    Explore <ArrowRight size={14} />
+                    {item.linkLabel} <ArrowRight size={14} aria-hidden />
                   </Link>
                 </div>
-              </div>
+              </article>
             ))}
           </div>
-        </div>
-      </section>
-
-      {/* ─── Section 3: Process ─── */}
-      <section className="bg-black section-padding">
-        <div className="container-custom max-w-[1000px]">
-          {/* Header */}
-          <div className="text-center mb-16">
-            <SectionLabel align="center" tone="dark">HOW IT WORKS</SectionLabel>
-            <h2 className="font-playfair text-h2 text-white mt-4">
-              How does booking event catering in Dubai work?
-            </h2>
-          </div>
-
-          {/* Steps */}
-          <div
-            ref={processRef}
-            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8"
-          >
-            {processSteps.map((step) => (
-              <div
-                key={step.num}
-                className="process-step text-center"
-              >
-                <span className="font-playfair text-[48px] text-gold leading-none">
-                  {step.num}
-                </span>
-                <h3 className="font-playfair text-h3 text-white mt-4 mb-3">
-                  {step.title}
-                </h3>
-                <p className="font-inter text-body-sm text-gray-400 leading-relaxed">
-                  {step.description}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ─── Section 4: What's Included ─── */}
-      <section className="bg-cream section-padding">
-        <div className="container-custom max-w-[1000px]">
-          {/* Header */}
-          <div className="text-center mb-12">
-            <h2 className="font-playfair text-h2 text-black">
-              What is included in event catering in Dubai?
-            </h2>
-          </div>
-
-          {/* Checklist Grid */}
-          <div
-            ref={includedRef}
-            className="grid grid-cols-1 sm:grid-cols-2 gap-4"
-          >
-            {includedItems.map((item) => (
-              <div
-                key={item}
-                className="check-item flex items-center gap-4 p-4 bg-white rounded-sm"
-              >
-                <div className="flex-shrink-0 w-8 h-8 flex items-center justify-center bg-gold/10">
-                  <Check size={18} className="text-gold" />
-                </div>
-                <span className="font-inter text-base text-black">{item}</span>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ─── Section 5: Gallery ─── */}
-      <section className="bg-black section-padding">
-        <div className="container-custom">
-          {/* Header */}
-          <div className="text-center mb-12">
-            <SectionLabel align="center" tone="dark">EVENT GALLERY</SectionLabel>
-            <h2 className="font-playfair text-h2 text-white mt-4">
-              What do myCHEF Dubai events look like?
-            </h2>
-          </div>
-
-          {/* Grid */}
-          <div
-            ref={galleryRef}
-            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"
-          >
-            {galleryImages.map((img, i) => (
-              <div
-                key={i}
-                className="relative aspect-[4/3] overflow-hidden group"
-              >
-                <img
-                  src={img}
-                  alt={`Event catering Dubai ${i + 1}`}
-                  width={800}
-                  height={600}
-                  loading="lazy"
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" decoding="async"/>
-                <div className="absolute inset-0 bg-black/20 transition-opacity duration-300 group-hover:opacity-0" />
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ─── Section 6: Review Invitation ─── */}
-      <section className="bg-charcoal py-20 md:py-24">
-        <div className="container-custom max-w-[800px]">
-          <div ref={testimonialRef} className="text-center">
-            <Quote size={32} className="text-gold mx-auto mb-6" />
-            <h2 className="font-playfair text-xl md:text-2xl text-white italic leading-relaxed mb-6">
-              Your event could be our next featured celebration
-            </h2>
-            <p className="font-inter text-body-sm text-gray-400 max-w-[600px] mx-auto mb-8">
-              After your event, we will invite you to share a quick review. Your feedback helps us match future hosts with the right chef even faster.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link
-                to="/inquiry"
-                className="btn-primary"
-              >
-                Plan My Event
-              </Link>
-              <a
-                href={WHATSAPP_LINK}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn-secondary"
-              >
-                Chat on WhatsApp
-              </a>
-            </div>
-            <div className="mt-10 pt-8 border-t border-white/10 flex flex-wrap justify-center gap-6 text-gray-400 font-inter text-sm">
-              <span className="flex items-center gap-2">
-                <Check size={16} className="text-gold" /> Vetted chef network
-              </span>
-              <span className="flex items-center gap-2">
-                <Check size={16} className="text-gold" /> 24-hour quote response
-              </span>
-              <span className="flex items-center gap-2">
-                <Check size={16} className="text-gold" /> Full setup & cleanup
-              </span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ─── Section 7: FAQ ─── */}
-      <section className="bg-white section-padding">
-        <div className="container-custom max-w-[800px]">
-          {/* Header */}
-          <div className="text-center mb-12">
-            <SectionLabel align="center">COMMON QUESTIONS</SectionLabel>
-            <h2 className="font-playfair text-h2 text-black mt-4">
-              Frequently asked questions about event catering in Dubai
-            </h2>
-          </div>
-
-          <Accordion type="single" collapsible className="w-full">
-            {faqs.map((faq, i) => (
-              <AccordionItem key={i} value={`faq-${i}`}>
-                <AccordionTrigger className="font-inter text-base font-medium text-black hover:text-gold text-left">
-                  {faq.question}
-                </AccordionTrigger>
-                <AccordionContent className="font-inter text-body-sm text-gray-500 leading-relaxed">
-                  {faq.answer}
-                </AccordionContent>
-              </AccordionItem>
-            ))}
-          </Accordion>
-        </div>
-      </section>
-
-      {/* ─── Section 8: Related Services ─── */}
-      <section className="bg-cream section-padding">
-        <div className="container-custom">
-          <div className="text-center mb-12">
-            <h2 className="font-playfair text-h2 text-black">
-              What other catering services does myCHEF Dubai offer?
-            </h2>
-          </div>
-          <div
-            ref={relatedRef}
-            className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-[1000px] mx-auto"
-          >
-            {relatedServices.map((service) => (
-              <Link
-                key={service.title}
-                to={service.link}
-                className="group bg-white p-8 border-t-[3px] border-gold hover:-translate-y-1 hover:shadow-lg transition-all duration-300"
-              >
-                <h3 className="font-playfair text-h3 text-black mb-2">
-                  {service.title}
-                </h3>
-                <p className="font-inter text-body-sm text-gray-500 mb-4">
-                  {service.description}
-                </p>
-                <span className="inline-flex items-center gap-2 font-inter text-body-sm font-medium uppercase tracking-wider text-gold group-hover:text-gold-dark transition-colors">
-                  Learn More <ArrowRight size={14} />
-                </span>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ─── Section 9: Related Event Catering ─── */}
-      <section className="bg-white section-padding">
-        <div className="container-custom">
-          <div className="text-center mb-12">
-            <SectionLabel align="center">MORE EVENTS we coordinate catering for</SectionLabel>
-            <h2 className="font-playfair text-h2 text-black mt-4">
-              Which other events can myCHEF Dubai cater?
-            </h2>
-          </div>
-          <div
-            ref={relatedEventsRef}
-            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"
-          >
-            {relatedEventCatering.map((event) => (
-              <Link
-                key={event.title}
-                to={event.link}
-                className="group bg-cream overflow-hidden hover:-translate-y-1 hover:shadow-lg transition-all duration-300"
-              >
-                <div className="relative aspect-video overflow-hidden">
-                  <img
-                    src={event.image}
-                    alt={event.title}
-                    width={640}
-                    height={360}
-                    loading="lazy"
-                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
-                    decoding="async"
-                  />
-                  <div className="absolute inset-0 gradient-overlay-bottom" />
-                </div>
-                <div className="p-6">
-                  <h3 className="font-playfair text-h3 text-black mb-2">
-                    {event.title}
-                  </h3>
-                  <p className="font-inter text-body-sm text-gray-500 leading-relaxed mb-4">
-                    {event.description}
-                  </p>
-                  <span className="inline-flex items-center gap-2 font-inter text-body-sm font-medium uppercase tracking-wider text-gold group-hover:text-gold-dark transition-colors">
-                    Explore <ArrowRight size={14} />
+          <ul className="mt-12 max-w-3xl divide-y divide-gray-200 border-y border-gray-200">
+            {otherEvents.map((item) => (
+              <li key={`${item.href}-${item.title}`}>
+                <Link
+                  to={item.href}
+                  data-track="event_card"
+                  className="group flex flex-col gap-1 py-5 sm:flex-row sm:items-baseline sm:justify-between sm:gap-6"
+                >
+                  <span className="font-inter text-body text-gray-600">{item.title}</span>
+                  <span className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink group-hover:text-gold">
+                    {item.linkLabel} <ArrowRight size={14} aria-hidden />
                   </span>
-                </div>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </Container>
+      </Section>
+
+      <Section id="pricing" tone="charcoal" rhythm="chapter">
+        <Container className="max-w-3xl">
+          <SectionLabel tone="dark">FORMATS AND PRICES</SectionLabel>
+          <DisplayHeading className="text-white mb-6">Event catering prices in Dubai</DisplayHeading>
+          {pricingIntro.map((p) => (
+            <p key={p.slice(0, 32)} className="font-inter text-body text-gray-300 leading-relaxed mb-5 max-w-[65ch]">
+              {p}
+            </p>
+          ))}
+          <div className="overflow-x-auto mb-8">
+            <table className="w-full text-left font-inter text-body-sm text-gray-300">
+              <thead>
+                <tr className="border-b border-white/15">
+                  <th className="py-3 pr-4 font-medium text-white">Format</th>
+                  <th className="py-3 pr-4 font-medium text-white">What it is</th>
+                  <th className="py-3 pr-4 font-medium text-white">Staff</th>
+                  <th className="py-3 font-medium text-white">From</th>
+                </tr>
+              </thead>
+              <tbody>
+                {priceRows.map((row) => (
+                  <tr key={row.format} className="border-b border-white/10">
+                    <td className="py-3 pr-4 text-white">
+                      <Link to={row.href} data-track="price_table" className="hover:text-gold">
+                        {row.format}
+                      </Link>
+                    </td>
+                    <td className="py-3 pr-4">{row.what}</td>
+                    <td className="py-3 pr-4">{row.staff}</td>
+                    <td className="py-3">{row.price}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <ul className="mb-8 space-y-2">
+            {pricingNotes.map((note) => (
+              <li key={note} className="font-inter text-body-sm text-gray-400">
+                {note}
+              </li>
+            ))}
+          </ul>
+          <div className="flex flex-wrap gap-6">
+            <Link
+              to={CATERING_PATHS.packages}
+              data-track="price_table"
+              className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold hover:text-gold-light"
+            >
+              View catering packages <ArrowRight size={14} aria-hidden />
+            </Link>
+            <Link
+              to="/buffet-vs-plated-dubai"
+              data-track="price_table"
+              className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold hover:text-gold-light"
+            >
+              Compare catering formats <ArrowRight size={14} aria-hidden />
+            </Link>
+            <Link
+              to={CATERING_INQUIRY_HREF}
+              data-track="price_table"
+              className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold hover:text-gold-light"
+            >
+              Get an itemised quote <ArrowRight size={14} aria-hidden />
+            </Link>
+          </div>
+        </Container>
+      </Section>
+
+      <Section tone="white" rhythm="standard">
+        <Container className="max-w-3xl">
+          <SectionLabel>PRIVATE CHEF OR EVENT CATERING</SectionLabel>
+          <DisplayHeading className="text-black mb-6">{decisionModule.h2}</DisplayHeading>
+          <BodyCopy className="mb-4">
+            <strong className="text-black">{decisionModule.privateChefLead}</strong> {decisionModule.privateChefBody}
+          </BodyCopy>
+          <BodyCopy className="mb-4">
+            <strong className="text-black">{decisionModule.eventLead}</strong> {decisionModule.eventBody}
+          </BodyCopy>
+          <BodyCopy className="mb-4">{decisionModule.catering}</BodyCopy>
+          <BodyCopy className="mb-5">{decisionModule.dining}</BodyCopy>
+          <div className="flex flex-wrap gap-6">
+            <Link
+              to={decisionModule.chefHref}
+              className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink hover:text-gold"
+            >
+              {decisionModule.chefLabel} <ArrowRight size={14} aria-hidden />
+            </Link>
+            <Link
+              to={decisionModule.cateringHref}
+              className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink hover:text-gold"
+            >
+              {decisionModule.cateringLabel} <ArrowRight size={14} aria-hidden />
+            </Link>
+            <Link
+              to={decisionModule.diningHref}
+              className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink hover:text-gold"
+            >
+              {decisionModule.diningLabel} <ArrowRight size={14} aria-hidden />
+            </Link>
+          </div>
+        </Container>
+      </Section>
+
+      <Section tone="ivory" rhythm="chapter">
+        <Container>
+          <SectionLabel>WHAT IS INCLUDED</SectionLabel>
+          <DisplayHeading className="text-black mb-12">Menu, chefs, staff, equipment, bar, setup and cleanup</DisplayHeading>
+          <div className="grid md:grid-cols-2 gap-8">
+            {includedItems.map((item) => (
+              <div key={item.title} className="border-t border-gray-200 pt-6">
+                <h3 className="font-playfair text-h4 text-black mb-3">{item.title}</h3>
+                <p className="font-inter text-body-sm text-gray-600 leading-relaxed max-w-[52ch]">{item.body}</p>
+              </div>
+            ))}
+          </div>
+        </Container>
+      </Section>
+
+      <Section id="menus" tone="white" rhythm="chapter">
+        <Container>
+          <SectionLabel>HOW THE FOOD IS SERVED</SectionLabel>
+          <DisplayHeading className="text-black mb-4">From drop-off to plated service</DisplayHeading>
+          <BodyCopy className="mb-12">
+            Pick a format. The specialist page owns the full explanation. Cuisine direction lives on{' '}
+            <Link to="/cuisines-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
+              Cuisines
+            </Link>
+            .
+          </BodyCopy>
+          <div className="grid md:grid-cols-2 gap-x-12 border-t border-gray-200">
+            {menuFormats.map((style) => (
+              <Link
+                key={style.title}
+                to={style.href}
+                className="group flex items-start gap-5 border-b border-gray-200 py-6"
+              >
+                <span className="min-w-0 flex-1">
+                  <span className="flex items-center justify-between gap-4">
+                    <h3 className="font-playfair text-h4 text-black transition-colors group-hover:text-gold-ink">{style.title}</h3>
+                    <ArrowRight size={16} className="flex-shrink-0 text-gold-ink opacity-0 -translate-x-1 transition-all group-hover:translate-x-0 group-hover:opacity-100" aria-hidden />
+                  </span>
+                  <p className="mt-1 font-inter text-body-sm text-gray-500 leading-relaxed">{style.body}</p>
+                  <span className="mt-3 inline-block font-inter text-caption uppercase tracking-[0.12em] text-gold-ink">{style.linkLabel}</span>
+                </span>
               </Link>
             ))}
           </div>
-        </div>
-      </section>
+        </Container>
+      </Section>
 
-      <LocationStrip title="Event catering across Dubai" />
+      <Section id="how-it-works" tone="ivory" rhythm="chapter">
+        <Container>
+          <SectionLabel>HOW IT STARTS</SectionLabel>
+          <DisplayHeading className="text-black mb-12">Four steps. You stay in the review.</DisplayHeading>
+          <SequenceRail steps={[...startSteps]} />
+        </Container>
+      </Section>
 
-      {/* ─── Section 10: CTA Banner ─── */}
-      <section
-        className="relative py-28 md:py-32 overflow-hidden"
-        style={{
-          background: 'linear-gradient(135deg, #1A1A1A 0%, #0A0A0A 100%)',
-        }}
-      >
-        <div className="container-custom text-center">
-          <div ref={ctaRef}>
-            <div className="gold-line mx-auto mb-8" />
-            <h2 className="font-playfair text-h2 md:text-[48px] text-white mb-6">
-              Ready to book event catering in Dubai?
-            </h2>
-            <p className="font-inter text-lg text-gray-400 max-w-[500px] mx-auto mb-10">
-              Tell us about your celebration and we will create a catering
-              experience your guests will never forget.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link to="/inquiry" className="btn-primary">Get an Event Catering Quote</Link>
-              <a
-                href={WHATSAPP_LINK}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn-secondary"
-              >
-                Chat on WhatsApp
-              </a>
-            </div>
+      <Section id="examples" tone="white" rhythm="chapter">
+        <Container>
+          <SectionLabel>HOW THIS LOOKS IN PRACTICE</SectionLabel>
+          <DisplayHeading className="text-black mb-4">Event formats we have run</DisplayHeading>
+          <BodyCopy className="mb-12">
+            Client names stay private. Location, guest range, format and outcome are from events already described on our{' '}
+            <Link to="/case-studies" className="text-gold-ink underline underline-offset-4 hover:text-gold">
+              case studies
+            </Link>{' '}
+            page.
+          </BodyCopy>
+          <div className="grid md:grid-cols-3 gap-8">
+            {exampleEvents.map((item) => (
+              <article key={item.title} className="border border-gray-200 p-6">
+                <h3 className="font-playfair text-h4 text-black mb-2">{item.title}</h3>
+                <p className="font-inter text-caption uppercase tracking-[0.12em] text-gold-ink mb-3">
+                  {item.guests} · {item.venue}
+                </p>
+                <p className="font-inter text-body-sm text-gray-600 leading-relaxed mb-3">{item.setup}</p>
+                <p className="font-inter text-body-sm text-gray-500 leading-relaxed mb-4">{item.outcome}</p>
+                <Link
+                  to={item.href}
+                  className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink hover:text-gold"
+                >
+                  {item.linkLabel} <ArrowRight size={14} aria-hidden />
+                </Link>
+              </article>
+            ))}
           </div>
-        </div>
-      </section>
-    </>
+        </Container>
+      </Section>
+
+      <Section tone="ivory" rhythm="chapter">
+        <Container>
+          <SectionLabel>WHY MYCHEF</SectionLabel>
+          <DisplayHeading className="text-black mb-12">Standards you can open, not slogans</DisplayHeading>
+          <div className="grid md:grid-cols-2 gap-8">
+            {proofItems.map((item) => (
+              <div key={item.title} className="border-t border-gray-200 pt-6">
+                <h3 className="font-playfair text-h4 text-black mb-3">{item.title}</h3>
+                <p className="font-inter text-body-sm text-gray-600 leading-relaxed mb-4 max-w-[52ch]">{item.body}</p>
+                <Link
+                  to={item.href}
+                  className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink hover:text-gold"
+                >
+                  {item.linkLabel} <ArrowRight size={14} aria-hidden />
+                </Link>
+              </div>
+            ))}
+          </div>
+        </Container>
+      </Section>
+
+      <Section id="faqs" tone="white" rhythm="standard">
+        <Container className="max-w-[800px]">
+          <SectionLabel align="center">BEFORE YOU BOOK</SectionLabel>
+          <DisplayHeading className="text-black text-center mb-10">What should I know before I book?</DisplayHeading>
+          <FaqAccordion items={[...eventFaqs]} showJumpNav />
+        </Container>
+      </Section>
+
+      <LocationStrip
+        title="Event catering across Dubai"
+        subtitle={
+          <>
+            Available across Dubai including{' '}
+            <Link to="/locations/palm-jumeirah" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Palm Jumeirah</Link>,{' '}
+            <Link to="/locations/dubai-marina" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Dubai Marina</Link>
+            {' '}and{' '}
+            <Link to="/locations/downtown-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Downtown Dubai</Link>
+            . See{' '}
+            <Link to="/locations" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">areas we serve</Link>.
+          </>
+        }
+      />
+
+      <Section id="get-quote" tone="dark" rhythm="chapter">
+        <Container className="max-w-3xl">
+          <SectionLabel tone="dark">TELL US WHAT YOU ARE PLANNING</SectionLabel>
+          <DisplayHeading className="text-white mb-6">Date, venue and guest count is enough to start</DisplayHeading>
+          <p className="font-inter text-body text-gray-300 leading-relaxed mb-8 max-w-[58ch]">
+            Event buffets start from AED 120 per person. You do not need to build the event before contacting us. We typically reply within 15 minutes during business hours.
+          </p>
+          <CTAGroup>
+            <Link to={CATERING_INQUIRY_HREF} className="btn-primary">
+              Get an itemised event-catering quote
+            </Link>
+            <a
+              href={EVENTS_WHATSAPP_LINK}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-secondary"
+            >
+              Chat on WhatsApp
+            </a>
+          </CTAGroup>
+        </Container>
+      </Section>
+    </div>
   )
 }

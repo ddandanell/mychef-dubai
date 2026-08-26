@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /how-to-choose-caterer-dubai
+//     primary:     "how to choose a caterer dubai"
+//     subkeywords: "how to pick a caterer dubai" · "questions to ask a caterer dubai" · "what to look for in a catering company" · "how to compare catering quotes dubai" · "how to find a good caterer in dubai" · "how far ahead to book a caterer dubai" · "best catering companies in dubai" · "when to hire a caterer" · "how to choose birthday caterer dubai" · "best caterers in dubai" · "preferred caterer list"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef } from 'react'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { Link } from 'react-router'
@@ -120,6 +126,10 @@ const faqs = [
     q: 'How far in advance should I book a caterer in Dubai?',
     a: 'For small gatherings, two to three weeks is usually enough. For weddings, corporate events, and peak season from November to March, book six to twelve weeks ahead.',
   },
+  {
+    q: 'Is caterer global Dubai something you arrange?',
+    a: 'Yes. Every chef on our roster is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.',
+  },
 ]
 
 const faqSchema = {
@@ -224,8 +234,8 @@ export default function HowToChooseCatererDubai() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="How to Choose a Caterer in Dubai"
-        description="How to choose a caterer in Dubai: a 10-point checklist covering tastings, licences, staffing, dietary handling, transparent quotes and venue familiarity."
+        title="How to Choose a Caterer Dubai"
+        description="How to choose a caterer Dubai: a 10-point checklist covering tastings, licences, staffing, dietary handling, transparent quotes and venue"
         canonicalPath="/how-to-choose-caterer-dubai"
         ogImage="/service-catering.webp"
         schema={schema}
@@ -251,7 +261,7 @@ export default function HowToChooseCatererDubai() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 choose-hero-h1">
-            How to Choose the Right Caterer in Dubai
+            How to Choose a Caterer Dubai: How to Choose the Right Caterer in Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 choose-hero-sub">
             A practical 10-point checklist to help you compare caterers, spot red flags, and book a team that matches your event, venue, and guests.
@@ -416,7 +426,7 @@ export default function HowToChooseCatererDubai() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Choosing a Caterer FAQ
+            How to Choose a Caterer Dubai: the questions we get before a booking
           </h2>
 
           <FaqAccordion items={faqs} />

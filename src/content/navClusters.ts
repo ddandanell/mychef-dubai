@@ -59,19 +59,19 @@ export const PRIVATE_EVENTS_GROUPS: NavGroup[] = [
   {
     heading: 'Celebrations',
     items: [
-      { href: '/birthday-catering-dubai', label: 'Birthday Catering', description: 'Adults, milestones and villa parties' },
-      { href: '/kids-birthday-catering-dubai', label: 'Kids Birthdays', description: "Children's menus and party food" },
-      { href: '/anniversary-catering-dubai', label: 'Anniversaries', description: 'Intimate dinners and milestones' },
-      { href: '/graduation-catering-dubai', label: 'Graduations', description: 'Marking the end of something' },
+      { href: '/wedding-catering-dubai', label: 'Wedding Catering', description: 'The full food and beverage operation' },
+      { href: '/birthday-catering-dubai', label: 'Birthday Catering', description: 'Adults, children, milestones and villa parties' },
+      { href: '/private-party-catering-dubai', label: 'Private Parties', description: 'Engagements, anniversaries, pool parties and family gatherings' },
+      { href: '/baby-shower-catering-dubai', label: 'Baby Showers', description: 'Daytime gatherings and afternoon food' },
     ],
   },
   {
-    heading: 'Milestones & parties',
+    heading: 'Places & formats',
     items: [
-      { href: '/wedding-catering-dubai', label: 'Wedding Catering', description: 'The full food and beverage operation' },
-      { href: '/engagement-catering-dubai', label: 'Engagements', description: 'Proposals and engagement parties' },
-      { href: '/baby-shower-catering-dubai', label: 'Baby Showers', description: 'Daytime gatherings and afternoon food' },
-      { href: '/private-party-catering-dubai', label: 'Private Parties', description: 'Everything that is simply a party' },
+      { href: '/desert-dining-dubai', label: 'Desert Dining', description: 'Dining in the dunes, not a villa table' },
+      { href: '/afternoon-tea-catering-dubai', label: 'Afternoon Tea', description: 'A distinct service, not a dinner' },
+      { href: '/yachts', label: 'Yacht Catering', description: 'Menus built for the water' },
+      { href: '/events', label: 'All Events', description: 'The event planning hub' },
     ],
   },
 ]

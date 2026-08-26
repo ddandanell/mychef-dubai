@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /private-chef-vs-catering-dubai
+//     primary:     "private chef vs catering dubai"
+//     subkeywords: "difference between private chef and caterer" · "should i hire a chef or a caterer" · "private chef or catering for a party" · "private chef vs caterer cost dubai" · "personal chef vs private chef" · "average cost of personal chef vs catering" · "comparing personal chef services vs catering" · "private chef catering company"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef } from 'react'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { Link } from 'react-router'
@@ -199,7 +205,7 @@ export default function PrivateChefVsCatering() {
     <div ref={containerRef}>
       <SEO
         title="Private Chef vs Catering Dubai | Guide"
-        description="Private chef vs catering in Dubai: compare guest count, service style, cost, and when to choose each. Hybrid options and scale guidance included."
+        description="Private chef vs catering Dubai: compare guest count, service style, cost, and when to choose each. Hybrid options and scale guidance incl"
         canonicalPath="/private-chef-vs-catering-dubai"
         ogImage="/service-private-chef.webp"
         schema={schema}
@@ -225,7 +231,7 @@ export default function PrivateChefVsCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 pvc-hero-h1">
-            Private Chef vs Catering: What Works Best in Dubai?
+            Private Chef vs Catering Dubai — What Works Best in Dubai?
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 pvc-hero-sub">
             A clear comparison to help you choose between a private chef and full catering for your Dubai home, villa, or event.
@@ -413,7 +419,7 @@ export default function PrivateChefVsCatering() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Private Chef vs Catering FAQ
+            Private Chef vs Catering Dubai: the questions we get before a booking
           </h2>
 
           <FaqAccordion items={faqs} />

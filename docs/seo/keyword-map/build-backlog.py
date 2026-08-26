@@ -32,7 +32,11 @@ HEADS = [("private chef", "/private-chef-dubai"), ("personal chef", "/private-ch
 COMMERCIAL_TYPES = {"Commercial landing", "Location landing", "Homepage"}
 GUIDE_TYPES = {"Blog post", "Guide / comparison"}
 
-def norm(s): return re.sub(r"\s+", " ", re.sub(r"[’'`]", "", (s or "").replace("-", " ").replace("–", " "))).strip().lower()
+import unicodedata as _ud
+def _deaccent(s): return "".join(c for c in _ud.normalize("NFKD", s or "") if not _ud.combining(c))
+def norm(s):
+    s = _deaccent(s or "")
+    return re.sub(r"\s+", " ", re.sub(r"[’'`]", "", (s or "").replace("-", " ").replace("–", " "))).strip().lower()
 def has(text, phrase):
     p = norm(phrase)
     return bool(p) and re.search(r"(?<![a-z0-9])" + re.escape(p) + r"(?![a-z0-9])", text) is not None

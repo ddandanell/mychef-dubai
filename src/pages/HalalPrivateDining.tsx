@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /halal-private-dining-dubai
+//     primary:     "halal private dining dubai"
+//     subkeywords: "halal private dining dubai price" · "halal private dining cost per person dubai" · "best halal private dining dubai" · "halal private dining packages dubai" · "halal private dining menu dubai" · "halal private chef dubai" · "halal fine dining at home dubai" · "dining near me halal" · "private fine dining dubai" · "dubai small private dining" · "gaia dubai private dining" · "hutong dubai private dining"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { Link } from 'react-router'
 import { Star, Utensils, Moon, Home, Building, PartyPopper } from 'lucide-react'
 import ServiceLandingPage from './shared/ServiceLandingPage'
@@ -6,12 +12,12 @@ import type { ServicePageConfig } from './shared/ServiceLandingPage'
 const config: ServicePageConfig = {
   slug: 'halal-private-dining-dubai',
   seoTitle: "Halal Private Dining Dubai | Certified",
-  metaDescription: 'Halal private dining in Dubai: bespoke halal menus served in your villa, home or venue by a dedicated chef and service team. Perfect for intimate dinners.',
+  metaDescription: 'Halal private dining Dubai: bespoke halal menus served in your villa, home or venue by a dedicated chef and service team. Perfect for intimate dinners.',
   canonicalPath: '/halal-private-dining-dubai',
   showTrustSignalStrip: true,
   ogImage: '/images/halal-private-dining-dubai-hero.webp',
   breadcrumbLabel: 'Halal Private Dining Dubai',
-  h1: 'Halal Private Dining in Dubai',
+  h1: 'Halal Private Dining Dubai',
   heroSub:
     'Bespoke halal menus, private chef service and discreet hospitality for intimate dinners, family celebrations and corporate gatherings across Dubai — all prepared to trusted halal standards.',
   heroImage: '/images/halal-private-dining-dubai-hero.webp',
@@ -134,7 +140,7 @@ const config: ServicePageConfig = {
     { src: '/service-villa.webp', alt: 'Villa private dinner setting' },
     { src: '/menu-dessert.webp', alt: 'Traditional halal dessert presentation' },
   ],
-  faqsH2: 'Halal Private Dining Questions',
+  faqsH2: 'Halal Private Dining Dubai: the questions we get before a booking',
   faqs: [
     {
       q: 'Is everything on the menu halal?',

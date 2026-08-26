@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /baby-shower-catering-dubai
+//     primary:     "baby shower catering dubai"
+//     subkeywords: "baby shower catering dubai price" · "baby shower catering cost per person dubai" · "best baby shower catering dubai" · "baby shower catering packages dubai" · "baby shower catering menu dubai" · "halal baby shower catering dubai" · "baby shower grazing table dubai" · "baby shower food and drinks catering" · "baby shower caterers near me" · "baby shower food dubai" · "party catering in dubai" · "small party catering in dubai"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef } from 'react'
 import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
@@ -289,7 +295,7 @@ export default function BabyShowerCatering() {
     <div ref={containerRef}>
       <SEO
         title="Baby Shower Catering Dubai | Grazing Tables & Mocktails | myCHEF"
-        description="Book baby shower catering in Dubai. Grazing tables, afternoon tea, canapés, dessert displays and mocktails styled to your theme. Get a quote in 15 minutes."
+        description="Book baby shower catering Dubai. Grazing tables, afternoon tea, canapés, dessert displays and mocktails styled to your theme. Get a quote in 15 minutes."
         canonicalPath="/baby-shower-catering-dubai"
         ogImage="/menu-dessert.webp"
         hideSiteName
@@ -451,7 +457,7 @@ export default function BabyShowerCatering() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Baby Shower Catering Questions
+            Baby Shower Catering Dubai: the questions we get before a booking
           </h2>
 
           <FaqAccordion items={faqs} showJumpNav />
@@ -505,7 +511,7 @@ export default function BabyShowerCatering() {
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
                   <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
-                    Explore <ArrowRight size={14} />
+                    {svc.title} <ArrowRight size={14} />
                   </span>
                 </div>
               </Link>

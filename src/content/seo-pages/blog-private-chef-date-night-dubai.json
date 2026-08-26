@@ -25,7 +25,7 @@
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
   "title": "Private Chef Date Night Dubai: Ideas & Costs",
-  "meta_description": "A private chef date night in Dubai: a plated dinner for two at home from AED 1,200, chef cooking and serving. Menus, costs and how to book.",
+  "meta_description": "A private chef date night Dubai: a plated dinner for two at home from AED 1,200, chef cooking and serving. Menus, costs and how to book.",
   "h1": "Private Chef Date Night Dubai: A Real Guide for Two"
  },
  "opening_paragraph": [
@@ -220,5 +220,18 @@
    "after_heading": "Is a date night at home smarter in Dubai's summer?",
    "caption": "In summer the smarter date night is indoors, with the heat left outside."
   }
- ]
+ ],
+ "keyword_lock": {
+  "primary": "private chef date night dubai",
+  "subkeywords": [
+   "private chef date night cost dubai",
+   "romantic dinner ideas at home dubai",
+   "private chef for two dubai",
+   "best personal chef for date night",
+   "private chef how much",
+   "best date night dinner in dubai",
+   "private dinner date dubai",
+   "personal chef rates dubai"
+  ]
+ }
 }

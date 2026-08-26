@@ -142,7 +142,7 @@ export default function PackagePageTemplate({
       {/* Package Overview */}
       <section className="bg-cream section-padding">
         <div className="container-custom max-w-[1000px]">
-          <div className="pkg-fade opacity-0 translate-y-8 grid md:grid-cols-2 gap-10 items-start">
+          <div className="pkg-fade translate-y-8 grid md:grid-cols-2 gap-10 items-start">
             <div>
               <SectionLabel>Package Overview</SectionLabel>
               <h2 className="font-playfair text-h2 text-black mb-4">
@@ -187,7 +187,7 @@ export default function PackagePageTemplate({
       <section className="bg-black section-padding">
         <div className="container-custom max-w-[1000px]">
           <div className="pkg-cards grid md:grid-cols-2 gap-8">
-            <div className="pkg-card opacity-0 translate-y-8 bg-charcoal p-8">
+            <div className="pkg-card translate-y-8 bg-charcoal p-8">
               <h3 className="font-playfair text-h3 text-white mb-6">Sample Menu Ideas</h3>
               <ul className="space-y-3">
                 {sampleMenu.map((item, i) => (
@@ -201,7 +201,7 @@ export default function PackagePageTemplate({
                 Every menu is bespoke. Share your preferences and we will design something just for you.
               </p>
             </div>
-            <div className="pkg-card opacity-0 translate-y-8 bg-charcoal p-8">
+            <div className="pkg-card translate-y-8 bg-charcoal p-8">
               <h3 className="font-playfair text-h3 text-white mb-6">Popular Add-ons</h3>
               <ul className="space-y-3">
                 {addOns.map((item, i) => (
@@ -225,11 +225,11 @@ export default function PackagePageTemplate({
       {/* FAQ */}
       <section className="bg-white section-padding">
         <div className="container-custom max-w-[800px]">
-          <div className="pkg-fade opacity-0 translate-y-8 text-center mb-10">
+          <div className="pkg-fade translate-y-8 text-center mb-10">
             <SectionLabel align="center">FAQ</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">Common Questions About the {name} Package</h2>
           </div>
-          <div className="pkg-fade opacity-0 translate-y-8 space-y-3">
+          <div className="pkg-fade translate-y-8 space-y-3">
             {faqs.map((faq, i) => (
               <div key={i} className="border border-gray-200 p-5">
                 <h3 className="font-playfair text-h4 text-black mb-2">{faq.q}</h3>
@@ -243,7 +243,7 @@ export default function PackagePageTemplate({
       {/* Related Services */}
       <section className="bg-cream section-padding">
         <div className="container-custom">
-          <div className="pkg-fade opacity-0 translate-y-8 text-center mb-10">
+          <div className="pkg-fade translate-y-8 text-center mb-10">
             <h3 className="font-playfair text-h2 text-black">Related Services</h3>
           </div>
           <div className="pkg-cards grid md:grid-cols-3 gap-6 max-w-[1000px] mx-auto">
@@ -251,7 +251,7 @@ export default function PackagePageTemplate({
               <Link
                 key={i}
                 to={svc.link}
-                className="pkg-card opacity-0 translate-y-8 group bg-white overflow-hidden hover:-translate-y-1 hover:shadow-lg transition-all duration-300"
+                className="pkg-card translate-y-8 group bg-white overflow-hidden hover:-translate-y-1 hover:shadow-lg transition-all duration-300"
               >
                 <div className="aspect-video overflow-hidden">
                   <img src={svc.image} alt={svc.title} width={640} height={360} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" decoding="async" />
@@ -260,7 +260,7 @@ export default function PackagePageTemplate({
                   <h4 className="font-playfair text-h4 text-black mb-2 group-hover:text-gold transition-colors">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-500 mb-4">{svc.description}</p>
                   <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
-                    Explore <ArrowRight size={14} />
+                    {svc.title} <ArrowRight size={14} />
                   </span>
                 </div>
               </Link>
@@ -273,7 +273,7 @@ export default function PackagePageTemplate({
 
       {/* CTA */}
       <section className="bg-gradient-to-b from-black to-charcoal py-24">
-        <div className="container-custom text-center pkg-fade opacity-0 translate-y-8">
+        <div className="container-custom text-center pkg-fade translate-y-8">
           <h2 className="font-playfair text-h2 text-white mb-4">Book the {name} Package</h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
             Tell us your date, guest count, and any dietary needs. We will confirm availability and send a tailored proposal.

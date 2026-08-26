@@ -305,6 +305,17 @@ def main() -> None:
             if f.exists():
                 f.unlink()
 
+    # 6b. consolidation map: the record of what was retired must never drift from what was done
+    MAP = ROOT / "docs/seo/consolidation-map.json"
+    if MAP.exists():
+        cm = load_json(MAP); hit = False
+        for row in cm.get("rows", []):
+            if row.get("from") == src:
+                row["status"] = "done"; row["to"] = dst; row["executed"] = f"{dt.date.today().isoformat()} via scripts/retire-url.py — {a.reason}"; hit = True
+        if not hit:
+            cm.setdefault("rows", []).append({"phase": "ad hoc", "status": "done", "from": src, "to": dst, "reason": a.reason, "executed": f"{dt.date.today().isoformat()} via scripts/retire-url.py"})
+        dump_json(MAP, cm, indent=2); changes.append("consolidation-map.json: row marked done")
+
     # 7. regenerate ----------------------------------------------------------
     if not a.no_regen:
         subprocess.run(["npx", "tsx", "scripts/generate-sitemap.ts"], cwd=ROOT, check=True, stdout=subprocess.DEVNULL)

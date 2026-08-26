@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /yacht-catering-checklist-dubai
+//     primary:     "yacht catering checklist dubai"
+//     subkeywords: "how to plan yacht catering dubai" · "what to ask a yacht caterer dubai" · "how much food for a yacht party dubai" · "yacht catering menu" · "yacht catering package dubai" · "catering menu checklist" · "catering checklist example" · "catering service checklist"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef } from 'react'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { Link } from 'react-router'
@@ -289,7 +295,7 @@ export default function YachtCateringChecklist() {
     <div ref={containerRef}>
       <SEO
         title="Yacht Catering Checklist Dubai"
-        description="Downloadable yacht catering checklist for Dubai. Plan menus, galley logistics, loading, service, and cleanup for yacht events in Dubai Marina and the Palm."
+        description="Downloadable yacht catering checklist Dubai. Plan menus, galley logistics, loading, service, and cleanup for yacht events in Dubai Marina and the Palm."
         canonicalPath="/yacht-catering-checklist-dubai"
         ogImage="/images/yacht-catering-checklist-hero.webp"
         schema={schema}
@@ -315,7 +321,7 @@ export default function YachtCateringChecklist() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 yacht-hero-h1">
-            The Ultimate Dubai Yacht Catering Checklist
+            The Ultimate Yacht Catering Checklist Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 yacht-hero-sub">
             Plan a flawless yacht charter around Dubai Marina, Palm Jumeirah, and the Arabian Gulf — from first enquiry to final cleanup.
@@ -493,7 +499,7 @@ export default function YachtCateringChecklist() {
       <section className="bg-cream py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Yacht Catering FAQ
+            Yacht Catering Checklist Dubai: the questions we get before a booking
           </h2>
 
           <FaqAccordion items={faqs} />

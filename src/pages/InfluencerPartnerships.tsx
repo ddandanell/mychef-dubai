@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /influencer-partnerships
+//     primary:     "food influencer partnerships dubai"
+//     subkeywords: "food influencer collaboration dubai" · "food blogger collaboration dubai" · "independent food company dubai" · "cat food price in dubai" · "dubai food price list" · "veg food in dubai price" · "baby shower food catering near me" · "catering food cost calculator" · "how to calculate food cost for catering" · "checklist for food preparation" · "dubai food for lunch" · "food prep dubai"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef } from 'react'
 import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
@@ -194,8 +200,8 @@ export default function InfluencerPartnerships() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Influencer Partnerships Dubai"
-        description="Partner with myCHEF Dubai for private chef experiences, content collaborations, and exclusive dining events across the UAE."
+        title="Food Influencer Partnerships Dubai | myCHEF"
+        description="Food Influencer Partnerships Dubai — Partner with myCHEF Dubai for private chef experiences, content collaborations, and exclusive dining events across the UAE."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/luxury-dining-dubai-hero.webp"
         schema={schema}
@@ -219,7 +225,7 @@ export default function InfluencerPartnerships() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 ip-hero-h1">
-            Influencer Partnerships
+            Food Influencer Partnerships Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 ip-hero-sub">
             Tell us about your audience and content goals, and our partnerships team will reply within 15 minutes during business hours with a tailored collaboration proposal — from a single private chef experience to an ongoing ambassador arrangement.
@@ -342,7 +348,7 @@ export default function InfluencerPartnerships() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Partnership Questions
+            Food Influencer Partnerships Dubai: the questions we get before a booking
           </h2>
 
           <FaqAccordion items={faqs} />
@@ -374,7 +380,7 @@ export default function InfluencerPartnerships() {
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
                   <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
-                    Explore <ArrowRight size={14} />
+                    {svc.title} <ArrowRight size={14} />
                   </span>
                 </div>
               </Link>

@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /dubai-food-trends-report-2026
+//     primary:     "dubai food trends 2026"
+//     subkeywords: "dubai catering trends 2026" · "uae food trends 2026" · "private dining trends dubai 2026" · "dubai food trends report" · "what are the big food trends for 2026" · "what are the food design trends in 2026" · "dubai food expo 2026" · "dubai food fair 2026"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef } from 'react'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { Link } from 'react-router'
@@ -217,8 +223,8 @@ export default function DubaiFoodTrendsReport2026() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Dubai Food Trends Report 2026"
-        description="The Dubai food trends shaping events in 2026: local sourcing, inclusive menus, chef-led tasting experiences, global-Dubai cuisine and live stations."
+        title="Dubai Food Trends 2026 — Report"
+        description="Dubai Food Trends 2026 — The Dubai food trends shaping events in 2026: local sourcing, inclusive menus, chef-led tasting experiences, global-Dubai cuisine…"
         canonicalPath="/dubai-food-trends-report-2026"
         ogImage="/images/dubai-food-trends-report-hero.webp"
         schema={schema}
@@ -242,7 +248,7 @@ export default function DubaiFoodTrendsReport2026() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 trends-hero-h1">
-            Dubai Food Trends Report 2026
+            Dubai Food Trends 2026 — Report
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[680px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 trends-hero-sub">
             The catering and private-dining movements shaping Dubai events this year — from hyper-local ingredients and inclusive menus to chef-led tasting experiences and non-alcoholic beverage programmes.

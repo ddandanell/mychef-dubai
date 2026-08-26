@@ -42,10 +42,12 @@ export function plainFaqAnswer(answer: string): string {
 }
 
 export function faqPageSchema(faqs: { question: string; answer: string }[]) {
+  const items = (faqs || []).filter((faq) => faq.question?.trim() && faq.answer?.trim())
+  if (!items.length) return null
   return {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
-    mainEntity: faqs.map((faq) => ({
+    mainEntity: items.map((faq) => ({
       '@type': 'Question',
       name: faq.question,
       acceptedAnswer: {

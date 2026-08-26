@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /partners/event-planners-dubai
+//     primary:     "event planners partnership dubai"
+//     subkeywords: "catering partner for event planners dubai" · "a gala event catering" · "catering event dubai" · "event catering dublin" · "how to cater an event" · "event catering gst rate" · "event catering hire cornwall" · "event catering near me for birthday party"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import PartnerPageTemplate from './PartnerPageTemplate'
 import { Calendar, TrendingUp, Shield, Users, Briefcase } from 'lucide-react'
 
@@ -5,8 +11,8 @@ export default function EventPlannersPartner() {
   return (
     <PartnerPageTemplate
       name="Event Planners"
-      seoTitle="Event Planner Partnership Dubai"
-      description="Partner with myCHEF Dubai for reliable, premium catering and private chef services for your events across Dubai."
+      seoTitle="Event Planners Partnership Dubai"
+      description="Event Planners Partnership Dubai — Partner with myCHEF Dubai for reliable, premium catering and private chef services for your events across Dubai."
       canonicalPath="/partners/event-planners-dubai"
       ogImage="/images/events-catering-dubai-hero.webp"
       headline="Event Planner Partnership Dubai"

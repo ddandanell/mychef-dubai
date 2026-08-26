@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /breakfast-catering-dubai
+//     primary:     "breakfast catering dubai"
+//     subkeywords: "breakfast catering dubai price" · "breakfast catering price per person dubai" · "best breakfast catering dubai" · "breakfast catering packages dubai" · "breakfast catering menu dubai" · "halal breakfast catering dubai" · "arabic breakfast catering dubai" · "office breakfast catering dubai" · "corporate breakfast catering dubai" · "breakfast food in dubai" · "breakfast options in dubai" · "breakfast platters dubai"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { Link } from 'react-router'
 import { Coffee, Building, Home, PartyPopper, Sun, Utensils } from 'lucide-react'
 import ServiceLandingPage from './shared/ServiceLandingPage'
@@ -6,12 +12,12 @@ import type { ServicePageConfig } from './shared/ServiceLandingPage'
 const config: ServicePageConfig = {
   slug: 'breakfast-catering-dubai',
   seoTitle: "Breakfast Catering Dubai | Office & Home",
-  metaDescription: 'Breakfast catering in Dubai for offices, villas and hotels. Fresh pastries, hot dishes, healthy bowls, coffee and juice, delivered or fully served.',
+  metaDescription: 'Breakfast catering Dubai for offices, villas and hotels. Fresh pastries, hot dishes, healthy bowls, coffee and juice, delivered or fully served.',
   canonicalPath: '/breakfast-catering-dubai',
   ogImage: '/images/breakfast-catering-dubai-hero.webp',
   showTrustSignalStrip: true,
   breadcrumbLabel: 'Breakfast Catering Dubai',
-  h1: 'Breakfast Catering in Dubai',
+  h1: 'Breakfast Catering Dubai',
   heroSub:
     'Morning menus delivered fresh to offices, villas and hotels across Dubai — from light continental spreads to hot breakfast buffets, barista coffee and healthy grab-and-go options.',
   heroImage: '/images/breakfast-catering-dubai-hero.webp',
@@ -37,7 +43,7 @@ const config: ServicePageConfig = {
           brunch catering Dubai
         </Link>{' '}
         when you want the meal to extend past midday. For healthier starts, see our{' '}
-        <Link to="/healthy-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
+        <Link to="/cuisines-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           healthy catering Dubai
         </Link>{' '}
         options.
@@ -80,7 +86,7 @@ const config: ServicePageConfig = {
       Icon: Utensils,
       title: 'Healthy & Dietary Breakfasts',
       description: 'Low-sugar, gluten-free, dairy-free and vegan breakfast options that keep energy steady through the morning.',
-      link: '/healthy-catering-dubai',
+      link: '/cuisines-dubai',
     },
   ],
   useCasesEyebrow: 'WHERE BREAKFAST CATERING HELPS',
@@ -127,7 +133,7 @@ const config: ServicePageConfig = {
     { src: '/service-villa.webp', alt: 'Villa breakfast catering in Dubai' },
     { src: '/service-events.webp', alt: 'Event breakfast buffet service' },
   ],
-  faqsH2: 'Breakfast Catering Questions',
+  faqsH2: 'Breakfast Catering Dubai: the questions we get before a booking',
   faqs: [
     {
       q: 'What time do you deliver breakfast catering?',
@@ -171,13 +177,13 @@ const config: ServicePageConfig = {
       title: 'Healthy Catering Dubai',
       description: 'Balanced, nutrition-conscious menus that pair naturally with morning meals.',
       image: '/service-catering.webp',
-      link: '/healthy-catering-dubai',
+      link: '/cuisines-dubai',
     },
     {
       title: 'Coffee & Tea Service',
       description: 'Barista-style coffee, specialty teas and pastries to complete any morning event.',
       image: '/images/afternoon-tea-catering-dubai-hero.webp',
-      link: '/coffee-tea-service-dubai',
+      link: '/catering-dubai',
     },
   ],
   ctaH2: 'Book Breakfast Catering That Gets the Morning Right',

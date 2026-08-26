@@ -1,542 +1,443 @@
-import { useRef } from 'react'
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /buffet-catering-dubai
+//     primary:     "buffet catering dubai"
+//     subkeywords: "buffet catering dubai price" · "buffet catering price per person dubai" · "best buffet catering dubai" · "buffet catering packages dubai" · "buffet catering menu dubai" · "halal buffet catering dubai" · "breakfast buffet catering dubai" · "international buffet catering dubai" · "birthday buffet catering dubai" · "christmas buffet catering dubai" · "corporate buffet catering dubai" · "eid buffet catering dubai"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { Link } from 'react-router'
-import { useGSAP } from '@gsap/react'
-import gsap from 'gsap'
-import { useScrollTrigger } from '@/hooks/useScrollTrigger'
-import { locationPath } from '@/data/locations'
-import {
-  Soup,
-  Salad,
-  Flame,
-  Building,
-  Users,
-  Globe,
-  Check,
-  Phone,
-  ArrowRight,
-} from 'lucide-react'
+import { ArrowRight } from 'lucide-react'
 import SEO from '../components/SEO'
+import PageHero from '../components/PageHero'
 import TrustSignalStrip from '../components/TrustSignalStrip'
-import LocationStrip from '../components/LocationStrip'
-import FaqAccordion from '../components/FaqAccordion'
+import {
+  Section,
+  Container,
+  SectionLabel,
+  DisplayHeading,
+  BodyCopy,
+  SequenceRail,
+  CTAGroup,
+  EditorialImage,
+} from '../components/system'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
-import { SectionLabel } from '../components/system'
+import { CATERING_INQUIRY_HREF, CATERING_PATHS } from '@/content/cateringCluster'
 
+const HERO = {
+  src: '/images/buffet-catering-dubai-hero.webp',
+  alt: 'Guests at a Dubai villa buffet while the catering team replenishes a hot station. Experience concept shown.',
+  width: 1344,
+  height: 752,
+} as const
 
 const WHATSAPP_NUMBER = '971551744849'
-const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to plan buffet catering in Dubai (via mychef.ae/buffet-catering-dubai)')
-const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
+const WHATSAPP_MESSAGE =
+  "Hi myCHEF Dubai, I'd like a buffet catering quote. Date: __ Guests: __ Area: __ (via mychef.ae/buffet-catering-dubai)"
+const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`
 
-/* ────────────────────── Data ────────────────────── */
+/** pages["/buffet-catering-dubai"].internal_linking.siblings — render exactly. */
+const SIBLINGS = [
+  {
+    href: '/buffet-vs-plated-dubai',
+    label: 'Buffet vs plated',
+    body: 'When the room should sit for courses, and when it should move.',
+  },
+  {
+    href: '/grazing-table-dubai',
+    label: 'Grazing tables',
+    body: 'A styled centrepiece. Not a dinner line.',
+  },
+  {
+    href: '/live-cooking-stations-dubai',
+    label: 'Live cooking stations',
+    body: 'Dishes finished in front of guests.',
+  },
+  {
+    href: '/canape-catering-dubai',
+    label: 'Canapé catering',
+    body: 'One-bite food for a standing room.',
+  },
+] as const
 
-const buffetFormats = [
+const INCLUDED = [
   {
-    icon: Flame,
-    title: 'Hot Stations',
-    description: 'Chafing-dish mains, slow-cooked roasts, curries, and pasta or carving stations kept warm and replenished throughout your event.',
-    link: '/catering-dubai',
+    title: 'The menu',
+    body: 'Hot and cold dishes, sides, breads and dessert, sized to the guest count and the diets in the room.',
   },
   {
-    icon: Salad,
-    title: 'Cold & Salad Stations',
-    description: 'Vibrant salads, antipasti, seafood on ice, cheeses, and breads — fresh, colourful displays that anchor any buffet table.',
-    link: '/catering-dubai',
+    title: 'The kitchen',
+    body: 'Licensed culinary partners matched to the brief. No chef is promised by name until the event is scoped.',
   },
   {
-    icon: Soup,
-    title: 'Live Action Stations',
-    description: 'Pasta, risotto, carving, and grill stations manned by our chefs, adding theatre and freshness to the buffet experience.',
-    link: '/live-cooking-stations-dubai',
+    title: 'The line',
+    body: 'Chafing and holding equipment, platters, labels, linen for the spread, and a layout that does not stall at one tray.',
   },
   {
-    icon: Globe,
-    title: 'International Cuisines',
-    description: 'Arabic, Mediterranean, Asian, and Continental spreads — or a curated mix — designed around your guests and the occasion.',
-    link: '/catering-dubai',
+    title: 'The team',
+    body: 'Station staff sized to the count — enough to replenish, label and keep a queue moving. Not a waiter on every chair.',
   },
   {
-    icon: Building,
-    title: 'Corporate Buffets',
-    description: 'Working lunches, conferences, and company events with efficient, generous service that keeps things moving on schedule.',
-    link: '/corporate',
+    title: 'The night',
+    body: 'Arrival, setup, service, replenishment and clear-down. You are not stacking dishes at midnight.',
   },
   {
-    icon: Users,
-    title: 'Large Gatherings',
-    description: 'Weddings, receptions, and milestone celebrations served with abundant, beautifully presented stations for every guest.',
-    link: '/private-party-catering-dubai',
+    title: 'The diets',
+    body: 'Halal ingredients by default. Vegetarian, vegan and allergy dishes cooked and labelled as separate items, not as an afterthought.',
   },
-]
+] as const
 
-const includedItems = [
-  { title: 'Hot & Cold Stations', description: 'Balanced buffet menus spanning warm mains, fresh salads, and sides.' },
-  { title: 'Live Action Counters', description: 'partner-chef-led pasta, carving, and grill stations for freshness and theatre.' },
-  { title: 'International Menus', description: 'Arabic, Mediterranean, Asian, and Continental options, or a tailored blend.' },
-  { title: 'Elegant Display Styling', description: 'Tiered presentation, chafing dishes, linens, and signage for each dish.' },
-  { title: 'Professional Service Staff', description: 'Servers, station chefs, and hosts scaled to your guest count.' },
-  { title: 'Replenishment & Flow', description: 'Continuous topping-up so stations stay full and queues stay short.' },
-  { title: 'Full Setup & Cleanup', description: 'We arrive early, run the service, and leave your space spotless.' },
-  { title: 'Dietary Flexibility', description: 'Halal, vegetarian, vegan, and allergy-aware dishes clearly labelled.' },
-]
+const PRICE_ROWS = [
+  {
+    format: 'Staffed buffet',
+    what: 'A maintained spread. Typically 1–2 staff.',
+    price: 'From AED 120 per person',
+    note: 'From 20 guests.',
+    href: null as string | null,
+  },
+  {
+    format: 'Drop-off',
+    what: 'Food delivered ready to serve. No team on site.',
+    price: 'From AED 90 per person',
+    note: 'From 10 guests. AED 900 minimum order.',
+    href: CATERING_PATHS.dropOff,
+  },
+  {
+    format: 'Live finishing',
+    what: 'Cooking in front of guests, often beside a buffet.',
+    price: 'From AED 150 per person',
+    note: 'A different format when the pan is the point.',
+    href: '/live-cooking-stations-dubai',
+  },
+  {
+    format: 'Plated dining',
+    what: 'Courses cooked and served to the table.',
+    price: 'AED 700–950 per person',
+    note: 'A different product. Compare before you mix the two.',
+    href: '/buffet-vs-plated-dubai',
+  },
+] as const
 
-const useCases = [
-  {
-    title: 'Corporate Events & Conferences',
-    description: 'Working lunches, product launches, and conference catering that feed large numbers efficiently without compromising on presentation. Polished, professional, and always on schedule across DIFC, Business Bay, and beyond.',
-  },
-  {
-    title: 'Weddings & Receptions',
-    description: 'Abundant, beautifully styled buffet stations let guests dine at their own pace. International spreads and live counters bring variety and a sense of occasion to your celebration.',
-  },
-  {
-    title: 'Villa & Garden Gatherings',
-    description: 'Relaxed, generous buffets for family celebrations and milestone events at home. We bring the stations, the staff, and the styling to villas across Palm Jumeirah, Emirates Hills, and Dubai Hills.',
-  },
-  {
-    title: 'Community & Cultural Occasions',
-    description: 'Iftar gatherings, Eid celebrations, and cultural events served with respect for tradition and a spread designed around the moment, scaled comfortably for large groups.',
-  },
-]
-
-const galleryImages = [
-  { src: '/service-catering.webp', alt: 'Luxury buffet catering setup in Dubai' },
-  { src: '/menu-seafood.webp', alt: 'Seafood station on a buffet' },
-  { src: '/menu-appetizer.webp', alt: 'Appetizer and salad buffet display' },
-  { src: '/service-events.webp', alt: 'Buffet stations at a Dubai event' },
-  { src: '/service-corporate.webp', alt: 'Corporate buffet lunch' },
-  { src: '/menu-meat.webp', alt: 'Carving station at a buffet' },
-]
-
-const locations = [
-  { name: 'Palm Jumeirah', slug: 'palm-jumeirah' },
-  { name: 'Downtown Dubai', slug: 'downtown-dubai' },
-  { name: 'Dubai Marina', slug: 'dubai-marina' },
-  { name: 'Emirates Hills', slug: 'emirates-hills' },
-  { name: 'JBR', slug: 'jbr' },
-  { name: 'DIFC', slug: 'difc' },
-  { name: 'Business Bay', slug: 'business-bay' },
-  { name: 'Jumeirah', slug: 'jumeirah' },
-  { name: 'Arabian Ranches', slug: 'arabian-ranches' },
-  { name: 'Dubai Hills', slug: 'dubai-hills' },
-  { name: 'Bluewaters Island', slug: 'bluewaters-island' },
-  { name: 'Jumeirah Islands', slug: 'jumeirah-islands' },
-  { name: 'Al Barari', slug: 'al-barari' },
-  { name: 'Umm Suqeim', slug: 'umm-suqeim' },
-  { name: 'Meydan', slug: 'meydan' },
-  { name: 'Dubai Creek Harbour', slug: 'dubai-creek-harbour' },
-]
-
-const faqs = [
-  {
-    q: 'How many guests is buffet catering suitable for?',
-    a: 'Buffet service is ideal for larger gatherings, typically from around 30 guests up to several hundred. It lets guests dine at their own pace while we keep stations replenished and flowing throughout the event.',
-  },
-  {
-    q: 'What cuisines can you offer on a buffet?',
-    a: 'We design Arabic, Mediterranean, Asian, and Continental spreads, or a curated mix of all four. Every menu is built around your guests, the occasion, and any cultural or dietary preferences you have.',
-  },
-  {
-    q: 'Do you provide live cooking stations with the buffet?',
-    a: 'Yes. We can add partner-chef-led pasta, carving, grill, and other live stations to your buffet. They bring freshness and a sense of theatre, and are popular for weddings and corporate events.',
-  },
-  {
-    q: 'Can you cater corporate buffet lunches?',
-    a: 'Absolutely. We regularly cater working lunches, conferences, and company events with efficient, generous service designed to feed large numbers on schedule while keeping presentation polished.',
-  },
-  {
-    q: 'Do you handle styling, setup, and cleanup?',
-    a: 'Yes. Every package includes elegant display styling, full setup before guests arrive, attentive service and replenishment during the event, and complete cleanup afterward.',
-  },
-  {
-    q: 'How far in advance should I book buffet catering?',
-    a: 'For smaller buffets, one to two weeks is ideal. For large events and weddings, we recommend two to four weeks. During peak season (November to March), earlier booking is strongly advised.',
-  },
-  { q: "How much does buffet catering cost per person in Dubai?", a: "Buffet catering in Dubai is priced by custom quote, because the cost per head depends on your menu, guest count, number of stations, and level of service and staffing. We build every buffet to your budget and give you one clear, itemised proposal with no surprise add-ons. Share your event details and we typically reply within 15 minutes during business hours, or see our [private chef and catering prices](/private-chef-prices-dubai) for a sense of how quotes are structured." },
-  { q: "Is your buffet price all-inclusive, or are there hidden charges on top?", a: "Our buffet quote is fully inclusive: it covers menu design, ingredient sourcing and shopping, on-site cooking, station styling, service, replenishment, and full cleanup. The only additions are 5% VAT and any optional extras you choose, such as extra live stations or additional serving staff. We put everything in writing up front so you know the final figure before you confirm." },
-  { q: "Is there a minimum number of guests or minimum spend for buffet catering?", a: "Buffet service works best for larger groups, so a practical minimum guest count usually applies to keep the spread generous and cost-effective. For smaller headcounts we can arrange a fixed package rate or suggest a plated or drop-off option instead. Tell us your numbers on the [contact page](/contact) and we will recommend the format that gives you the best value." },
-  { q: "Do you supply the chafing dishes, crockery, linens, and buffet equipment?", a: "Yes. Every buffet includes the chafing dishes, warmers, serving platters, tiered display stands, linens, and dish signage needed to present the food beautifully. We arrive early to set everything up and take it all away during cleanup, so you never have to hire or return equipment yourself." },
-  { q: "Is your buffet catering halal, and how do you handle food safety?", a: "Yes, our buffet menus are halal sourced by default, and our chefs and kitchens operate to Dubai Municipality food-safety standards. Hot stations are kept at safe serving temperatures and replenished in fresh batches throughout your event, so the food stays safe and appetising from the first guest to the last." },
-  { q: "How do I know the food won't run out or run cold at a buffet?", a: "Our service team monitors every station and tops it up in fresh batches before it empties, so guests always find full, hot, and appealing displays. We plan quantities generously around your final guest count and keep chafing dishes and warmers running throughout, so nothing sits out too long or runs short." },
-  { q: "How many dishes should a buffet have for my guest count?", a: "A well-balanced Dubai buffet usually pairs a few hot mains with salads, sides, breads, and desserts so every guest finds something they love. We scale the number of dishes and stations to your headcount and appetite, spreading variety so consumption stays even and the table always looks abundant. We will design the exact spread around your event when we build your [menu](/menus)." },
-  { q: "Do you require a deposit to confirm a buffet booking?", a: "We confirm your buffet date once the menu and quote are agreed, and any deposit terms are set out clearly in your written proposal before you commit. There are no hidden conditions, and we walk you through every line so you know exactly what secures your booking. Reach out and we will send a transparent proposal, usually within 15 minutes during business hours." },
-  { q: "Can you cater a buffet at my villa, rooftop, or garden with no kitchen?", a: "Yes. Our chefs bring their own mobile cooking setup and cook on-site at villas, rooftops, gardens, and event spaces across Dubai, even where there is no full kitchen. We handle access, power, and layout in advance so your [villa or private residence](/villas-private-residences) is buffet-ready without you lifting a finger." },
-  { q: "Can you accommodate vegetarian, vegan, and allergy needs on the buffet?", a: "Absolutely. We build vegetarian, vegan, gluten-free, and allergy-aware dishes into the spread and label each one clearly at the station so guests can choose with confidence. Just tell us the dietary needs in your group and we design a buffet that includes everyone without a separate, lesser menu." },
-  { q: "Can I mix cuisines, like Arabic and Indian, on the same buffet?", a: "Yes, mixing cuisines is one of the biggest advantages of a buffet. We regularly combine Arabic, Indian, Mediterranean, Asian, and Continental dishes into one cohesive spread designed around your guests. Our chefs balance the flavours and stations so the mix feels intentional and generous rather than random." },
-  { q: "How many serving staff will you bring for a buffet?", a: "We scale service staff to your guest count and the number of stations, and serving staff are an optional part of every buffet package. Larger events and live counters call for more hands to keep stations stocked and the flow smooth, while relaxed gatherings need fewer. We recommend the right team size when we build your proposal." },
-  { q: "Should I choose a buffet or plated service for my event?", a: "A buffet suits larger, relaxed gatherings where variety and guest flow matter, while plated service fits formal, seated occasions with a set menu. Buffets typically feed more people per head of cost and let guests dine at their own pace, whereas plated dinners feel more refined and controlled. If you are unsure, our [private chef dining](/private-chef-dubai) and full-service catering can go either way, and we will advise based on your event." },
-  { q: "Can you add live cooking stations to make the buffet more interactive?", a: "Yes. We can add live pasta, carving, grill, and other action counters manned by our chefs, bringing freshness and a sense of theatre to your buffet. These are popular for weddings and corporate events and are quoted as an optional upgrade, so you choose exactly how interactive you want the spread to be. See our [live cooking stations in Dubai](/live-cooking-stations-dubai) for the full range." },
-]
-
-const relatedServices = [
-  {
-    title: 'Catering Dubai',
-    description: 'fully-coordinated catering for events of every size across Dubai.',
-    image: '/service-catering.webp',
-    link: '/catering-dubai',
-  },
-  {
-    title: 'BBQ Catering',
-    description: 'partner-chef-led grills, premium meats, and seafood for villa and yacht events.',
-    image: '/service-events.webp',
-    link: '/bbq-catering-dubai',
-  },
-  {
-    title: 'Corporate Catering',
-    description: 'Professional dining for boardroom lunches, conferences, and functions.',
-    image: '/service-corporate.webp',
-    link: '/corporate',
-  },
-]
-
-const faqSchema = {
-  '@type': 'FAQPage',
-  mainEntity: faqs.map((f) => ({
-    '@type': 'Question',
-    name: f.q,
-    acceptedAnswer: { '@type': 'Answer', text: f.a },
-  })),
-}
-
-const serviceSchema = {
-  '@type': 'Service',
-  name: 'Buffet Catering Dubai',
-  serviceType: 'Catering Service',
-  provider: {
-    '@type': 'Organization',
-    '@id': 'https://www.mychef.ae/#organization',
-    name: 'myCHEF',
-    url: 'https://www.mychef.ae',
-    telephone: '+971-55-174-4849',
-    areaServed: 'Dubai, UAE',
-  },
-  areaServed: 'Dubai, UAE',
-}
-
-const breadcrumbSchema = {
-  '@type': 'BreadcrumbList',
-  itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.mychef.ae/' },
-    { '@type': 'ListItem', position: 2, name: 'Buffet Catering Dubai', item: 'https://www.mychef.ae/buffet-catering-dubai' },
-  ],
-}
+const STEPS = [
+  'Date, guest count, venue, and how you want people to eat.',
+  'An itemised proposal: the line, the team, the figure, 5% VAT on its own line.',
+  'You confirm diets and final numbers.',
+  'The team sets up, holds, replenishes and clears. You stay with your guests.',
+] as const
 
 const schema = {
   '@context': 'https://schema.org',
-  '@graph': [serviceSchema, faqSchema, breadcrumbSchema],
+  '@graph': [
+    {
+      '@type': 'Service',
+      name: 'Buffet Catering Dubai',
+      serviceType: 'Buffet catering',
+      description:
+        'Buffet Catering Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.',
+      url: 'https://www.mychef.ae/buffet-catering-dubai',
+      provider: { '@id': 'https://www.mychef.ae/#organization' },
+      areaServed: { '@type': 'City', name: 'Dubai' },
+    },
+    {
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.mychef.ae/' },
+        { '@type': 'ListItem', position: 2, name: 'Catering', item: 'https://www.mychef.ae/catering-dubai' },
+        { '@type': 'ListItem', position: 3, name: 'Buffet catering', item: 'https://www.mychef.ae/buffet-catering-dubai' },
+      ],
+    },
+  ],
 }
 
-/* ────────────────────── Component ────────────────────── */
-
-const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'd like a Buffet quote in Dubai. Date: __ Guests: __ Area: __"
 export default function BuffetCatering() {
-  useScrollTrigger()
-  useWhatsAppMessage(PAGE_WHATSAPP_MESSAGE)
-  const containerRef = useRef<HTMLDivElement>(null)
-
-  useGSAP(() => {
-    if (!containerRef.current) return
-
-    gsap.to('.buf-hero-h1', { opacity: 1, y: 0, duration: 0.8, ease: 'power3.out' })
-    gsap.to('.buf-hero-sub', { opacity: 1, y: 0, duration: 0.6, delay: 0.3, ease: 'power3.out' })
-    gsap.to('.buf-hero-cta', { opacity: 1, y: 0, duration: 0.5, stagger: 0.15, delay: 0.6, ease: 'power3.out' })
-
-    gsap.to('.buf-fmt-card', {
-      scrollTrigger: { trigger: '.buf-fmt-grid', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, y: 0, duration: 0.8, stagger: 0.1, ease: 'power3.out',
-    })
-
-    gsap.to('.buf-uc-item', {
-      scrollTrigger: { trigger: '.buf-uc-grid', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, y: 0, duration: 0.7, stagger: 0.08, ease: 'power3.out',
-    })
-
-    gsap.to('.buf-inc-item', {
-      scrollTrigger: { trigger: '.buf-inc-grid', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, x: 0, duration: 0.6, stagger: 0.08, ease: 'power3.out',
-    })
-
-    gsap.to('.buf-gallery-img', {
-      scrollTrigger: { trigger: '.buf-gallery', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, scale: 1, duration: 0.6, stagger: 0.06, ease: 'power3.out',
-    })
-
-    gsap.to('.buf-faq-item', {
-      scrollTrigger: { trigger: '.buf-faq', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, y: 0, duration: 0.5, stagger: 0.08, ease: 'power3.out',
-    })
-
-    gsap.to('.buf-loc-item', {
-      scrollTrigger: { trigger: '.buf-loc-grid', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, duration: 0.5, stagger: 0.04, ease: 'power3.out',
-    })
-
-    gsap.to('.buf-rel-card', {
-      scrollTrigger: { trigger: '.buf-rel-grid', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, y: 0, duration: 0.8, stagger: 0.1, ease: 'power3.out',
-    })
-
-    gsap.to('.buf-cta', {
-      scrollTrigger: { trigger: '.buf-cta', start: 'top 85%', toggleActions: 'play none none none' },
-      opacity: 1, y: 0, duration: 0.7, ease: 'power3.out',
-    })
-  }, { scope: containerRef })
+  useWhatsAppMessage(WHATSAPP_MESSAGE)
 
   return (
-    <div ref={containerRef}>
+    <div>
       <SEO
-        title="Buffet Catering Dubai | Hot, Cold & Live Stations | myCHEF"
-        description="Premium buffet catering in Dubai with hot & cold stations, live action counters & international menus. Weddings, corporate events & large gatherings."
+        title="Buffet Catering Dubai | myCHEF"
+        description="Buffet Catering Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table."
         canonicalPath="/buffet-catering-dubai"
-        ogImage="/service-catering.webp"
+        ogImage={HERO.src}
         hideSiteName
+        preloadHero={HERO.src}
         schema={schema}
       />
 
-      {/* ═══════════════ Section 1: Hero ═══════════════ */}
-      <section className="relative min-h-[85dvh] md:min-h-[85dvh] md:min-h-[100dvh] flex items-center justify-center bg-black overflow-hidden">
-        <div
-          className="absolute inset-0 bg-cover bg-center bg-fixed max-lg:bg-scroll"
-          style={{ backgroundImage: 'url(/images/buffet-catering-dubai-hero.webp)' }}
-        />
-        <div className="absolute inset-0 bg-black/50" />
-
-        <div className="relative z-10 container-custom text-center max-w-[800px] py-20">
-          <nav className="mb-6 opacity-0 translate-y-4 buf-hero-h1">
-            <ol className="flex items-center justify-center gap-2 font-inter text-body-sm">
-              <li><Link to="/" className="text-gray-400 hover:text-gold transition-colors">Home</Link></li>
-              <li className="text-gray-400">/</li>
-              <li><span className="text-gold">Buffet Catering Dubai</span></li>
-            </ol>
-          </nav>
-
-          <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 buf-hero-h1">
-            Buffet Catering in Dubai — Hot, Cold & Live-Action Stations
-          </h1>
-          <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 buf-hero-sub">
-            Abundant hot and cold stations, live action counters, and international menus — beautifully styled and seamlessly served for corporate events, weddings, and large gatherings across Dubai.
-          </p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 buf-hero-cta">Get a Buffet Quote</Link>
-            <a
-              href={WHATSAPP_LINK}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-secondary opacity-0 translate-y-4 buf-hero-cta"
-            >
-              <Phone size={16} className="mr-2" />
-              Chat on WhatsApp
-            </a>
-          </div>
-        </div>
-      </section>
-
+      <PageHero
+        title="Buffet Catering Dubai"
+        subtitle="Buffet catering Dubai is a staffed self-serve line: heat held, labels honest, trays replenished, the queue watched. From 20 guests, from AED 120 per person before 5% VAT. You stay with your guests."
+        image={HERO.src}
+        imageAlt={HERO.alt}
+        imageWidth={HERO.width}
+        imageHeight={HERO.height}
+        align="left"
+        cta={{ label: 'Get an itemised buffet quote', href: CATERING_INQUIRY_HREF }}
+        secondaryCta={{ label: 'Chat on WhatsApp', href: WHATSAPP_LINK, external: true }}
+        breadcrumb={[
+          { label: 'Home', href: '/' },
+          { label: 'Catering', href: CATERING_PATHS.overview },
+          { label: 'Buffet catering' },
+        ]}
+        minHeight="full"
+        overlay="dark"
+      >
+        <p className="mt-5 font-inter text-body-sm text-white/70 max-w-[58ch]">
+          Share the date, headcount and venue. We typically reply within 15 minutes during business hours.
+        </p>
+      </PageHero>
       <TrustSignalStrip />
 
-      {/* ═══════════════ Section 2: Opening ═══════════════ */}
-      <section className="bg-white section-padding">
-        <div className="container-custom max-w-[820px] text-center">
-          <SectionLabel align="center">DUBAI BUFFET SPECIALISTS</SectionLabel>
-          <h2 className="font-playfair text-h2 text-black mb-6">
-            Generous Stations, Effortless Service
-          </h2>
-          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            A well-designed buffet is one of the most generous ways to host. It lets guests choose what they love, return for more, and dine at their own pace — while the room stays relaxed and the conversation keeps flowing. At myCHEF Dubai, we treat buffet catering as a balance of abundance and elegance, with stations styled as carefully as they are stocked.
-          </p>
-          <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Our menus span hot mains, slow-cooked roasts, vibrant salads, seafood on ice, breads, and desserts, drawing on Arabic, Mediterranean, Asian, and Continental traditions. Live counters add freshness and theatre, while our service team keeps every station full and the flow smooth from first guest to last. Whether it is a corporate lunch, a wedding reception, or a large family celebration, we bring the stations, the staff, and the styling to you. Explore our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>, or speak to us to start planning.
-          </p>
-        </div>
-      </section>
+      <Section tone="ivory" rhythm="chapter">
+        <Container className="max-w-3xl">
+          <SectionLabel>WHAT THIS IS</SectionLabel>
+          <DisplayHeading className="text-black mb-6">A buffet is a line that has to keep moving</DisplayHeading>
+          <BodyCopy className="mb-5">
+            Guests serve themselves. That only works if hot food stays hot, cold food stays cold, labels stay honest, and someone is watching the queue before it forms. A row of trays left on a table is not a service.
+          </BodyCopy>
+          <BodyCopy className="mb-5">
+            myCHEF designs the spread and matches licensed culinary partners to the room you actually have. They cook; we coordinate the line, the staffing and the clear-down. You are not the person topping up rice during your own party.
+          </BodyCopy>
+          <BodyCopy>
+            The format sits inside{' '}
+            <Link to="/catering-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
+              Luxury catering in Dubai
+            </Link>
+            . If the brief is a named night — a wedding, a birthday, a company event — start with{' '}
+            <Link to="/events" className="text-gold-ink underline underline-offset-4 hover:text-gold">
+              Event catering in Dubai
+            </Link>
+            {' '}and come back here for how people will eat.
+          </BodyCopy>
+        </Container>
+      </Section>
 
-      {/* ═══════════════ Section 3: Buffet Formats ═══════════════ */}
-      <section className="bg-black section-padding">
-        <div className="container-custom">
-          <div className="text-center mb-12">
-            <SectionLabel align="center" tone="dark">BUFFET STATIONS</SectionLabel>
-            <h2 className="font-playfair text-h2 text-white">
-              Build Your Buffet
-            </h2>
+      <Section tone="white" rhythm="chapter">
+        <Container>
+          <div className="grid gap-12 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
+            <div>
+              <SectionLabel>WHO THIS IS FOR</SectionLabel>
+              <DisplayHeading className="text-black mb-6">Mixed guest lists. Rooms that cannot sit everyone at once.</DisplayHeading>
+              <BodyCopy className="mb-5">
+                A buffet earns its place when tastes differ, when the count runs from about twenty into the hundreds, and when you want people on their feet between plates. Villa receptions, company lunches, family gatherings — same format, different rooms.
+              </BodyCopy>
+              <BodyCopy className="mb-5">
+                It is the wrong tool below about twenty guests. The line looks thin and dishes cool between visits. Food delivered with no team on site starts from 10 guests — that is{' '}
+                <Link to={CATERING_PATHS.dropOff} className="text-gold-ink underline underline-offset-4 hover:text-gold">
+                  drop-off catering
+                </Link>
+                . A dinner for a handful of people belongs with a{' '}
+                <Link to="/private-chef-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
+                  Private chef
+                </Link>
+                , which has no minimum headcount.
+              </BodyCopy>
+              <BodyCopy>
+                If you want courses to the table, read{' '}
+                <Link to="/buffet-vs-plated-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
+                  Buffet vs plated
+                </Link>
+                . If the food is a styled centrepiece rather than a meal, that is{' '}
+                <Link to="/grazing-table-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
+                  Grazing tables
+                </Link>
+                . If the cooking is the entertainment, use{' '}
+                <Link to="/live-cooking-stations-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
+                  Live cooking stations
+                </Link>
+                . If people are standing with a drink in one hand, use{' '}
+                <Link to="/canape-catering-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
+                  Canapé catering
+                </Link>
+                .
+              </BodyCopy>
+            </div>
+            <EditorialImage
+              src="/service-catering.webp"
+              alt="A catering team holding a self-serve line at a Dubai event. Experience concept shown."
+              width={1264}
+              height={848}
+              aspect="aspect-[3/2]"
+              objectPosition="center 45%"
+            />
           </div>
+        </Container>
+      </Section>
 
-          <div className="buf-fmt-grid grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {buffetFormats.map((fmt, i) => {
-              const Icon = fmt.icon
-              return (
-                <Link
-                  key={i}
-                  to={fmt.link}
-                  className="buf-fmt-card group bg-charcoal p-8 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
-                >
-                  <Icon size={36} className="text-gold mb-4" />
-                  <h3 className="font-playfair text-h3 text-white mb-3">{fmt.title}</h3>
-                  <p className="font-inter text-body-sm text-gray-400 leading-relaxed mb-4">
-                    {fmt.description}
-                  </p>
-                  <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
-                    Learn More <ArrowRight size={14} />
+      <Section tone="ivory" rhythm="chapter">
+        <Container className="max-w-3xl">
+          <SectionLabel>THE NIGHT</SectionLabel>
+          <DisplayHeading className="text-black mb-6">What buffet catering Dubai has to do on the night</DisplayHeading>
+          <BodyCopy className="mb-5">
+            Heat. Replenish. Labels. Queue. That is the job. What people mean by the best buffet catering Dubai can book is not the opening photograph. It is whether the last guests still find hot food, a label they can trust, and a line that moves.
+          </BodyCopy>
+          <BodyCopy className="mb-5">
+            Hot pans go into holding equipment, not onto a table to go lukewarm. Fresh trays replace tired ones before the station looks empty. Halal buffet catering Dubai is the default: ingredients are sourced that way unless the brief says otherwise. Vegetarian, vegan and allergy dishes are separate, labelled items — specific certificates belong in the brief, not after the fact.
+          </BodyCopy>
+          <BodyCopy>
+            One long table in a large room becomes a queue. We split the line — more than one point of service — when the count and the layout need it. Independent licensed partners cook to Dubai Municipality food-safety standards. myCHEF coordinates the structure. You engage those professionals for the night.
+          </BodyCopy>
+        </Container>
+      </Section>
+
+      <Section tone="white" rhythm="chapter">
+        <Container>
+          <SectionLabel>WHAT YOU ARE BUYING</SectionLabel>
+          <DisplayHeading className="text-black mb-4">What the booking includes</DisplayHeading>
+          <BodyCopy className="mb-12">
+            The quote is the spread plus the people who keep it. You do not hire trays and hope someone watches them.
+          </BodyCopy>
+          <ul className="grid gap-px border border-gray-200 bg-gray-200 sm:grid-cols-2">
+            {INCLUDED.map((item) => (
+              <li key={item.title} className="bg-white p-6 md:p-8">
+                <h3 className="font-playfair text-h4 text-black mb-2">{item.title}</h3>
+                <p className="font-inter text-body-sm text-gray-600 leading-relaxed">{item.body}</p>
+              </li>
+            ))}
+          </ul>
+        </Container>
+      </Section>
+
+      <Section tone="ivory" rhythm="chapter">
+        <Container className="max-w-3xl">
+          <SectionLabel>THE SPREAD</SectionLabel>
+          <DisplayHeading className="text-black mb-6">The menu has to hold</DisplayHeading>
+          <BodyCopy className="mb-5">
+            The buffet catering menu Dubai is built for holding time, not only for a tasting. Curries, grills, rice, salads, breads, a dessert that can sit. Pasta finished in a pan belongs on a live station, not in a tray for an hour.
+          </BodyCopy>
+          <BodyCopy>
+            Arabic, Indian, Mediterranean, Asian, Italian or a mixed line — chosen because of who is in the room, not because a brochure lists cuisines. We fix the balance of meat, seafood, vegetarian and labelled diets with you before anyone shops.
+          </BodyCopy>
+        </Container>
+      </Section>
+
+      <Section id="pricing" tone="white" rhythm="chapter">
+        <Container>
+          <SectionLabel>THE FIGURE</SectionLabel>
+          <DisplayHeading className="text-black mb-6">How the price is built</DisplayHeading>
+          <BodyCopy className="mb-5">
+            The buffet catering Dubai price is a per-person band plus staff, equipment and VAT — not a hidden box. Guest count, menu, how many stations, venue access and timing move it. Every proposal is itemised in writing before you confirm.
+          </BodyCopy>
+          <BodyCopy className="mb-12">
+            A staffed event buffet starts from AED 120 per person, from 20 guests — the buffet catering price per person Dubai we publish for a maintained spread with a small team. 5% VAT is shown as its own line. The bands below are already on this site; they are not a quote.
+          </BodyCopy>
+          <div className="overflow-x-auto border border-gray-200">
+            <table className="w-full min-w-[36rem] text-left">
+              <thead className="bg-cream">
+                <tr className="font-inter text-caption uppercase tracking-[0.12em] text-gray-500">
+                  <th className="px-5 py-3 font-medium">Format</th>
+                  <th className="px-5 py-3 font-medium">What you get</th>
+                  <th className="px-5 py-3 font-medium">Published band</th>
+                </tr>
+              </thead>
+              <tbody>
+                {PRICE_ROWS.map((row) => (
+                  <tr key={row.format} className="border-t border-gray-200">
+                    <td className="px-5 py-4 font-inter text-body-sm text-black align-top">
+                      {row.href ? (
+                        <Link to={row.href} className="text-gold-ink underline underline-offset-4 hover:text-gold">
+                          {row.format}
+                        </Link>
+                      ) : (
+                        row.format
+                      )}
+                    </td>
+                    <td className="px-5 py-4 font-inter text-body-sm text-gray-600 align-top">
+                      {row.what} {row.note}
+                    </td>
+                    <td className="px-5 py-4 font-inter text-body-sm text-black align-top whitespace-nowrap">{row.price}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <BodyCopy className="mt-8">
+            Starting points for buffet catering packages Dubai live on{' '}
+            <Link to={CATERING_PATHS.packages} className="text-gold-ink underline underline-offset-4 hover:text-gold">
+              catering packages
+            </Link>
+            . They are not fixed boxes. The method and the published bands are also on the{' '}
+            <Link to={CATERING_PATHS.priceGuide} className="text-gold-ink underline underline-offset-4 hover:text-gold">
+              catering prices guide
+            </Link>
+            .
+          </BodyCopy>
+        </Container>
+      </Section>
+
+      <Section tone="ivory" rhythm="chapter">
+        <Container>
+          <SectionLabel>HOW IT STARTS</SectionLabel>
+          <DisplayHeading className="text-black mb-12">Four steps. You stay in the review.</DisplayHeading>
+          <SequenceRail steps={[...STEPS]} />
+        </Container>
+      </Section>
+
+      <Section tone="white" rhythm="chapter">
+        <Container className="max-w-3xl">
+          <SectionLabel>WHERE</SectionLabel>
+          <DisplayHeading className="text-black mb-6">Where the line is set</DisplayHeading>
+          <BodyCopy className="mb-5">
+            We bring the kit to the kitchen you have — villa, apartment, office floor, garden or licensed venue. Access, power, shade and how far the food travels from the van to the table are part of the brief, especially outdoors in heat.
+          </BodyCopy>
+          <BodyCopy>
+            Regular rooms include{' '}
+            <Link to="/locations/palm-jumeirah" className="text-gold-ink underline underline-offset-4 hover:text-gold">
+              Palm Jumeirah
+            </Link>
+            ,{' '}
+            <Link to="/locations/dubai-marina" className="text-gold-ink underline underline-offset-4 hover:text-gold">
+              Dubai Marina
+            </Link>
+            {' '}and{' '}
+            <Link to="/locations/downtown-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
+              Downtown Dubai
+            </Link>
+            . The full list is on{' '}
+            <Link to="/locations" className="text-gold-ink underline underline-offset-4 hover:text-gold">
+              Areas we serve
+            </Link>
+            .
+          </BodyCopy>
+        </Container>
+      </Section>
+
+      <Section tone="ivory" rhythm="chapter">
+        <Container>
+          <SectionLabel>You May Also Like</SectionLabel>
+          <DisplayHeading className="text-black mb-10">If the line is not the right tool</DisplayHeading>
+          <ul className="grid gap-px border border-gray-200 bg-gray-200 sm:grid-cols-2">
+            {SIBLINGS.map((item) => (
+              <li key={item.href} className="bg-white">
+                <Link to={item.href} className="group flex h-full flex-col p-6 md:p-8">
+                  <h3 className="font-playfair text-h4 text-black transition-colors group-hover:text-gold-ink">{item.label}</h3>
+                  <p className="mt-2 flex-1 font-inter text-body-sm text-gray-600 leading-relaxed">{item.body}</p>
+                  <span className="mt-5 inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink">
+                    {item.label}
+                    <ArrowRight size={14} className="transition-transform group-hover:translate-x-1" aria-hidden />
                   </span>
                 </Link>
-              )
-            })}
-          </div>
-        </div>
-      </section>
-
-      {/* ═══════════════ Section 4: Use Cases ═══════════════ */}
-      <section className="bg-black section-padding pt-0">
-        <div className="container-custom">
-          <div className="text-center mb-12">
-            <SectionLabel align="center" tone="dark">WHERE WE SERVE</SectionLabel>
-            <h2 className="font-playfair text-h2 text-white">
-              Buffets for Every Occasion
-            </h2>
-          </div>
-
-          <div className="buf-uc-grid grid md:grid-cols-2 gap-6">
-            {useCases.map((uc, i) => (
-              <div key={i} className="buf-uc-item bg-charcoal p-8 opacity-0 translate-y-10">
-                <h3 className="font-playfair text-h3 text-white mb-3">{uc.title}</h3>
-                <p className="font-inter text-body-sm text-gray-400 leading-relaxed">{uc.description}</p>
-              </div>
+              </li>
             ))}
-          </div>
-        </div>
-      </section>
+          </ul>
+        </Container>
+      </Section>
 
-      {/* ═══════════════ Section 5: What's Included ═══════════════ */}
-      <section className="bg-cream section-padding">
-        <div className="container-custom max-w-[1000px]">
-          <h2 className="font-playfair text-h2 text-black text-center mb-12">
-            What Our Buffet Catering Includes
-          </h2>
-
-          <div className="buf-inc-grid grid md:grid-cols-2 gap-6">
-            {includedItems.map((item, i) => (
-              <div key={i} className="buf-inc-item flex gap-3 opacity-0 -translate-x-5">
-                <Check size={20} className="text-gold flex-shrink-0 mt-0.5" />
-                <div>
-                  <h4 className="font-inter text-base font-medium text-black mb-1">{item.title}</h4>
-                  <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{item.description}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ═══════════════ Section 6: Gallery ═══════════════ */}
-      <section className="bg-black py-20">
-        <div className="container-custom">
-          <h2 className="font-playfair text-fluid-h2 text-white text-center mb-10">
-            A Taste of Our Buffet Catering
-          </h2>
-
-          <div className="buf-gallery grid grid-cols-2 lg:grid-cols-3 gap-4">
-            {galleryImages.map((img, i) => (
-              <div key={i} className="buf-gallery-img aspect-[4/3] overflow-hidden opacity-0 scale-95">
-                <img
-                  src={img.src}
-                  alt={img.alt}
-                  className="w-full h-full object-cover transition-transform duration-300 hover:scale-[1.03]"
-                  loading="lazy" decoding="async"/>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ═══════════════ Section 7: FAQ ═══════════════ */}
-      <section className="bg-white py-20">
-        <div className="container-custom max-w-[800px]">
-          <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Buffet Catering Questions
-          </h2>
-
-          <FaqAccordion items={faqs} showJumpNav />
-        </div>
-      </section>
-
-      {/* ═══════════════ Section 8: Locations ═══════════════ */}
-      <section className="bg-charcoal py-20">
-        <div className="container-custom">
-          <h2 className="font-playfair text-fluid-h2 text-white text-center mb-10">
-            Buffet Catering Across Dubai
-          </h2>
-
-          <div className="buf-loc-grid grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
-            {locations.map((loc) => (
-              <Link
-                key={loc.slug}
-                to={locationPath(loc.slug)}
-                className="buf-loc-item flex items-center gap-2 font-inter text-sm text-gray-400 hover:text-gold transition-colors opacity-0"
-              >
-                <span className="w-1.5 h-1.5 rounded-full bg-gold flex-shrink-0" />
-                {loc.name}
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ═══════════════ Section 9: Related Services ═══════════════ */}
-      <section className="bg-black py-20">
-        <div className="container-custom">
-          <h3 className="font-playfair text-h3 text-white text-center mb-10">
-            You May Also Like
-          </h3>
-
-          <div className="buf-rel-grid grid md:grid-cols-3 gap-6">
-            {relatedServices.map((svc, i) => (
-              <Link
-                key={i}
-                to={svc.link}
-                className="buf-rel-card group bg-charcoal overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
-              >
-                <div className="aspect-video overflow-hidden">
-                  <img
-                    src={svc.image}
-                    alt={svc.title}
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                    loading="lazy" decoding="async"/>
-                </div>
-                <div className="p-6">
-                  <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
-                  <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
-                  <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
-                    Explore <ArrowRight size={14} />
-                  </span>
-                </div>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <LocationStrip title="Buffet catering across Dubai" />
-
-      {/* ═══════════════ Section 10: CTA Banner ═══════════════ */}
-      <section className="bg-gradient-to-b from-charcoal to-black py-20">
-        <div className="container-custom text-center buf-cta opacity-0 translate-y-8">
-          <h2 className="font-playfair text-h2 text-white mb-4">
-            Plan Your Buffet
-          </h2>
-          <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
-            Tell us about your event and we'll design a buffet menu, stations, and service plan that fits it perfectly.
+      <Section tone="dark" rhythm="chapter">
+        <Container className="max-w-3xl">
+          <SectionLabel tone="dark">TELL US THE NIGHT</SectionLabel>
+          <DisplayHeading className="text-white mb-6">Date, guest count and venue is enough to start</DisplayHeading>
+          <p className="font-inter text-body text-gray-300 leading-relaxed mb-8 max-w-[58ch]">
+            You do not need a finished menu before you write. We typically reply within 15 minutes during business hours, with an itemised proposal to follow.
           </p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary">Get a Buffet Quote</Link>
-            <a
-              href={WHATSAPP_LINK}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-secondary"
-            >
-              <Phone size={16} className="mr-2" />
+          <CTAGroup>
+            <Link to={CATERING_INQUIRY_HREF} className="btn-primary">
+              Get an itemised buffet quote
+            </Link>
+            <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-secondary">
               Chat on WhatsApp
             </a>
-          </div>
-        </div>
-      </section>
+          </CTAGroup>
+        </Container>
+      </Section>
     </div>
   )
 }

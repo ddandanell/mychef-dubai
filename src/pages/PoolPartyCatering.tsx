@@ -8,7 +8,7 @@ const config: OccasionPageConfig = {
   seoTitle: "Pool Party Catering Dubai | Villa Food",
   metaDescription:
     'Pool party catering in Dubai for villas and beach clubs. Fresh, light menus, hydration stations, BBQ and sweet treats — full setup and service.',
-  canonicalPath: '/pool-party-catering-dubai',
+  canonicalPath: '/private-party-catering-dubai',
   ogImage: '/images/pool-party-catering-dubai-hero.webp',
   breadcrumbLabel: 'Pool Party Catering Dubai',
   h1: 'Pool Party Catering in Dubai',
@@ -158,7 +158,7 @@ const config: OccasionPageConfig = {
       title: 'Mocktail Bar Catering',
       description: 'Refreshing alcohol-free bars ideal for family pool parties.',
       image: '/menu-canapes.webp',
-      link: '/mocktail-bar-catering-dubai',
+      link: '/bar-services-dubai',
     },
     {
       title: 'Villa Catering',

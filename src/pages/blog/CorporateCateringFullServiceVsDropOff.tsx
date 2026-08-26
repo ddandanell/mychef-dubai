@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /blog/corporate-catering-full-service-vs-drop-off
+//     primary:     "full service vs drop off catering dubai"
+//     subkeywords: "what is drop off catering dubai" · "do i need serving staff for office catering dubai" · "corporate catering full service vs drop off" · "drop off vs pick up catering" · "bbq drop off catering" · "drop off catering brisbane" · "wedding drop off catering" · "private chef vs catering"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef } from 'react'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { Link } from 'react-router'
@@ -111,8 +117,8 @@ export default function CorporateCateringFullServiceVsDropOff() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Corporate Catering: Full-Service vs Drop-Off"
-        description="Compare drop-off and fully-coordinated catering by cost, setup, staffing, and guest experience so you can choose the right format."
+        title="Full Service vs Drop Off Catering Dubai | myCHEF Journal"
+        description="Full Service vs Drop Off Catering Dubai — Compare drop-off and fully-coordinated catering by cost, setup, staffing, and guest experience so you can choose…"
         canonicalPath={`/blog/${SLUG}`}
         ogImage="/images/blog/corporate-catering-full-service-vs-drop-off-hero.webp"
         schema={schema}
@@ -121,8 +127,8 @@ export default function CorporateCateringFullServiceVsDropOff() {
       {/* ═══════════════ Hero ═══════════════ */}
       <PageHero
         eyebrow="Corporate Catering"
-        title="Corporate Catering: Full-Service vs Drop-Off"
-        subtitle="Understand the difference between drop-off and fully-coordinated catering so you can choose the right format for your office or event."
+        title="Full Service vs Drop Off Catering Dubai — Corporate Catering"
+        subtitle="Full Service vs Drop Off Catering Dubai by myCHEF — Understand the difference between drop-off and fully-coordinated catering so you can choose the right format for your office or event."
         image="/images/blog/corporate-catering-full-service-vs-drop-off-hero.webp"
         imageAlt="Corporate catering full service vs drop off Dubai"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Blog', href: '/blog' }, { label: 'Full-Service vs Drop-Off' }]}
@@ -294,7 +300,7 @@ export default function CorporateCateringFullServiceVsDropOff() {
 
           {/* ═══════════════ CTA ═══════════════ */}
           <section className="article-cta bg-cream border border-gray-200 p-8 md:p-10 opacity-0 translate-y-8">
-            <h2 className="font-playfair text-h3 text-black mb-3">Plan Your Next Corporate Event</h2>
+            <h2 className="font-playfair text-h3 text-black mb-3">Full Service vs Drop Off Catering Dubai: Plan Your Next Corporate Event</h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-6">
               Tell us about your event, headcount, and service preference. We will recommend the right format and send a transparent, itemised proposal.
             </p>

@@ -1,347 +1,366 @@
 /**
  * Copy for /birthday-catering-dubai
  *
- * KEYWORD LOCK: "birthday catering dubai" (BIRTHDAY_KEYWORD_LOCKS.hub).
- * The hub covers adults, milestones, mixed-age, home and villa parties. It introduces
- * kids birthdays, the bookable package and chef-led birthday dinners, then hands each
- * to the page that owns it. It must not duplicate their menus, FAQs or detail.
+ * KEYWORD LOCK: "birthday catering dubai" — title, H1, first 100 words, one subheading.
+ * Kids parties live on this URL (/birthday-catering-dubai 301s here).
  *
- * CLAIM DISCIPLINE (plan §47 — nothing below is published without support):
- *   - No "allergen-free" or "nut-free". Cross-contact is stated as a real limit.
- *   - Cake, bar, styling, furniture and staffing are described as quoted options,
- *     never as automatic inclusions.
- *   - No invented guest minimums or maximums.
- *   - No page-specific response-time promise.
- *   - myCHEF coordinates independent licensed culinary professionals — the copy must
- *     not present myCHEF as a food establishment.
- *   - The only price shown is the package published on /birthday-catering-package-dubai.
+ * Prices: published event-catering bands from eventsPage.ts, plus the package
+ * already published on /birthday-catering-package-dubai. Nothing else.
  */
 
-import { BIRTHDAY_PATHS, BIRTHDAY_SUPPORT } from './birthdayCluster'
+import { CATERING_PATHS } from './cateringCluster'
+import {
+  BIRTHDAY_PACKAGE,
+  BIRTHDAY_PATHS,
+  BIRTHDAY_SUPPORT,
+} from './birthdayCluster'
+import { menuFormats as eventMenuFormats, priceRows as eventPriceRows, pricingNotes as eventPricingNotes } from './eventsPage'
 
-export interface Block {
-  id: string
-  h2: string
-  paragraphs: string[]
-  bullets?: string[]
-  link?: { href: string; label: string }
-  secondaryLink?: { href: string; label: string }
-}
+export const birthdayHero = {
+  src: '/images/birthday-catering-dubai-hero.webp',
+  alt: 'A birthday table laid for guests in a Dubai home, with a chef finishing a dish in the background. Experience concept shown.',
+  width: 2688,
+  height: 1504,
+} as const
 
-export const hero = {
-  eyebrow: 'Birthday Catering Dubai',
-  h1: 'Birthday Catering in Dubai for Every Kind of Celebration',
+export const birthdayHeroCopy = {
+  eyebrow: 'Event catering',
+  title: 'Birthday Catering Dubai',
   subtitle:
-    'Birthday party catering across Dubai — from an intimate dinner for eight to a villa party for a hundred. Tell us the date, the guest count and where it is happening, and we will shape the food and service around it.',
-  primaryCta: 'Request a birthday quote',
-  secondaryCta: 'WhatsApp us',
-  utility: 'Homes · Villas · Gardens · Rooftops · Private venues',
-}
+    'Birthday catering Dubai for a seated dinner, a villa party or a children’s gathering. Menus, chefs, staffing, setup and clear-down — so you stay a guest at your own table.',
+  priceLine: 'Event buffets from AED 120 per person.',
+  replyLine: 'Share your date, venue and guest count. We typically reply within 15 minutes during business hours.',
+} as const
 
-/** §21 — three routes, so a visitor knows in seconds whether this is their kind of party. */
-export const audiences = [
+export const siloIntro = {
+  lead:
+    'This page is the birthday brief under Events — not the format catalogue and not a standing household chef. Children’s parties are planned here, not on a second kids page.',
+  cateringLabel: 'Luxury catering in Dubai',
+  chefLabel: 'private chef services in Dubai',
+  cuisinesLabel: 'Cuisines',
+} as const
+
+export const jumpNav = [
+  { href: '#kinds', label: 'Kinds of birthday' },
+  { href: '#pricing', label: 'Formats & prices' },
+  { href: '#menus', label: 'Menus' },
+  { href: '#how-it-works', label: 'How it works' },
+  { href: '#examples', label: 'Case studies' },
+  { href: '#faqs', label: 'FAQs' },
+  { href: '#get-quote', label: 'Quote' },
+] as const
+
+export const birthdayKinds = [
   {
-    id: 'adults',
-    title: 'Adult & milestone birthdays',
-    text: 'Thirtieths, fortieths, fiftieths and the ones that matter more than the number. Seated dinners, standing receptions and everything between.',
+    id: 'milestones',
+    title: 'Adult and milestone birthdays',
+    body: 'Thirtieths, fortieths, fiftieths and the ones that matter more than the number. The running order — welcome food, a toast, cake — shapes the menu more than the cuisine does.',
     href: '#milestones',
-    cta: 'Milestone celebrations',
-    image: '/images/birthday-catering-dubai-hero.webp',
-    alt: 'Guests seated at a candlelit birthday dinner table in a Dubai home. Experience concept shown.',
-  },
-  {
-    id: 'family',
-    title: 'Family & mixed-age parties',
-    text: 'When grandparents, teenagers and toddlers eat at the same party, the menu has to work for all of them without becoming two separate events.',
-    href: '#family',
-    cta: 'Mixed-age parties',
-    image: '/images/party-catering-dubai-hero.webp',
-    alt: 'A family birthday gathering around a shared table in a Dubai garden. Experience concept shown.',
+    linkLabel: 'Milestone birthdays',
+    image: '/images/celebration-catering-dubai-hero.webp',
+    imageAlt: 'Guests seated at a birthday dinner table in a Dubai home. Experience concept shown.',
   },
   {
     id: 'kids',
-    title: "Children's birthdays",
-    text: 'Child-friendly portions, food parents are happy about, and presentation that suits the age group — planned on its own page.',
-    href: BIRTHDAY_PATHS.kids,
-    cta: 'Kids birthday catering',
+    title: 'Children’s birthdays',
+    body: 'Familiar food, portions a child can finish, and allergy notes in the brief before anyone cooks. Parents stay at the party instead of running the kitchen.',
+    href: '#kids',
+    linkLabel: 'Kids birthday catering',
     image: '/images/kids-birthday-catering-dubai-hero.webp',
-    alt: "Colourful food laid out for a children's birthday party in Dubai. Experience concept shown.",
-  },
-]
-
-/** §22 — formats at a glance. No invented minimums; "best for" guidance only. */
-export interface FormatRow {
-  format: string
-  bestFor: string
-  feel: string
-  space: string
-  staffing: string
-  href: string
-}
-
-export const formats: FormatRow[] = [
-  {
-    format: 'Private chef dinner',
-    bestFor: 'Small seated groups',
-    feel: 'A restaurant evening at your table',
-    space: 'A usable kitchen',
-    staffing: 'Chef, service where wanted',
-    href: BIRTHDAY_SUPPORT.privateChef,
-  },
-  {
-    format: 'Plated dinner',
-    bestFor: 'Seated celebrations with a running order',
-    feel: 'Formal, timed around speeches and cake',
-    space: 'Seating for everyone, prep area',
-    staffing: 'Highest — service scales with guests',
-    href: BIRTHDAY_SUPPORT.privateParty,
-  },
-  {
-    format: 'Buffet',
-    bestFor: 'Larger and mixed-age parties',
-    feel: 'Relaxed, people eat when they are ready',
-    space: 'A run of table space, room to queue',
-    staffing: 'Moderate, plus replenishment',
-    href: BIRTHDAY_SUPPORT.buffet,
-  },
-  {
-    format: 'Canapés & finger food',
-    bestFor: 'Standing receptions, shorter parties',
-    feel: 'Everyone circulating, nobody seated',
-    space: 'Little — no dining tables needed',
-    staffing: 'Passing staff',
-    href: BIRTHDAY_SUPPORT.canape,
-  },
-  {
-    format: 'Live stations',
-    bestFor: 'Parties that need something to gather around',
-    feel: 'Interactive, cooked in front of guests',
-    space: 'Power, ventilation, queue room',
-    staffing: 'A chef per station',
-    href: BIRTHDAY_SUPPORT.liveStations,
-  },
-  {
-    format: 'Drop-off',
-    bestFor: 'Informal parties you are hosting yourself',
-    feel: 'Simple — you serve, you clear',
-    space: 'Fridge and counter space',
-    staffing: 'None',
-    href: BIRTHDAY_SUPPORT.dropOff,
-  },
-]
-
-export const blocks: Block[] = [
-  {
-    id: 'milestones',
-    h2: 'Milestone Birthdays Need a Shape, Not Just a Menu',
-    paragraphs: [
-      'A milestone birthday is not a bigger dinner party. It has a moment in it — a toast, a speech, a cake carried in while someone tries to keep a straight face — and the food has to make room for that instead of competing with it.',
-      'So the planning starts with the running order rather than the menu. Welcome bites while people arrive and nobody has quite relaxed yet. A main service that is either seated and paced, or standing and continuous, depending on whether anybody intends to speak. A gap before the cake so it does not collide with dessert. Something late for the people who stay, because at most good parties the last hour is the one people remember.',
-      'What changes with the milestone is usually tone rather than technique. A thirtieth tends to run later and lean toward standing food and stations. A fiftieth or a seventieth is more often seated, quieter, and built around people actually talking to each other. Both can be excellent; they are just not the same evening, and a caterer who offers you the same plan for both has not asked enough questions.',
-    ],
+    imageAlt: 'Food laid out for a children’s birthday party in a Dubai home. Experience concept shown.',
   },
   {
     id: 'family',
-    h2: 'When Three Generations Are at the Same Party',
-    paragraphs: [
-      'Mixed-age birthdays are the hardest ones to cater well, and the failure is almost always the same: two entirely separate menus that make the children feel like an afterthought and leave the adults picking at food designed for someone else.',
-      'The better approach is one menu with deliberate overlap. Dishes that work plain for a seven-year-old and dressed for an adult. Something familiar on the table so nobody goes hungry out of stubbornness. Portions and heights that a child can actually reach without a parent hovering.',
-      'Timing matters as much as food here. Children eat earlier and leave earlier, so the running order usually front-loads what they need and lets the adult part of the evening open up afterwards — which is a planning decision, not a catering one, and worth deciding before the menu is written.',
-    ],
-    link: { href: BIRTHDAY_PATHS.kids, label: 'Kids birthday catering in Dubai' },
+    title: 'Mixed-age family parties',
+    body: 'One menu with deliberate overlap — not two separate events in the same garden. Children eat earlier; the adult part of the evening opens afterwards.',
+    href: '#family',
+    linkLabel: 'Mixed-age parties',
+    image: '/images/party-catering-dubai-hero.webp',
+    imageAlt: 'A family birthday gathering around a shared table in a Dubai garden. Experience concept shown.',
   },
-  {
-    id: 'private-chef-or-catering',
-    h2: 'Private Chef or Event Catering?',
-    paragraphs: [
-      'For a smaller birthday, these are genuinely different products and people often ask for the wrong one.',
-      'A private chef suits a seated group where dinner is the event: courses cooked in your kitchen and served at your table, at the pace of the conversation. It needs a workable kitchen and a guest list small enough that one chef can cook to order.',
-      'Event catering suits everything that outgrows that — more guests than a home kitchen can plate at once, a standing format, multiple service points, or a venue with no kitchen at all. It brings its own equipment and staffing, and it is planned around the room rather than the stove.',
-      'If you are between the two, the honest test is whether guests will be seated at one table at the same time. If yes, a chef is usually better value and a better evening. If no, you want catering.',
-    ],
-    link: { href: BIRTHDAY_PATHS.dinnerArticle, label: 'Read about chef-led birthday dinners' },
-    secondaryLink: { href: BIRTHDAY_SUPPORT.chefVsCatering, label: 'Private chef vs catering' },
-  },
-  {
-    id: 'villa-home',
-    h2: 'Birthday Catering at Home, in a Villa or Outdoors',
-    paragraphs: [
-      'Most birthdays we cater in Dubai happen at somebody\'s home, and homes are where the practical problems live. Whether we can cook on site depends on the kitchen: counter space, oven capacity, whether the hob is usable while food is also being plated. Some villas have more than enough. Some apartments have a single oven and a galley, which changes the menu rather than ruling out the party.',
-      'Outside, the constraints shift. Heat is the obvious one — for much of the year an outdoor buffet needs shade, timing and holding equipment, or it needs to be a format that does not sit out. Then there is power for stations, water access, where a vehicle can unload, how far the food has to travel from the van to the table, and whether the community has rules about noise, access hours or contractor entry.',
-      'None of that is your problem to solve, but it is why we ask about the space before quoting. It is cheaper to design the menu around a small kitchen than to discover the limit on the night.',
-    ],
-    link: { href: BIRTHDAY_SUPPORT.villas, label: 'Catering in villas and private residences' },
-  },
-  {
-    id: 'surprise',
-    h2: 'Planning a Surprise Without Ruining It',
-    paragraphs: [
-      'Surprise birthdays work or fail on logistics rather than secrecy. The usual giveaway is not a leaked message — it is a catering van outside, or a stranger carrying equipment through the front door while the guest of honour is still home.',
-      'So we plan arrival windows around the reveal instead of around convenience: when the team can load in, where equipment waits out of sight, how long setup actually takes, and when the cake appears. We can keep contact to one person and stay off the family group chat entirely.',
-      'What we coordinate is the catering side of that timeline. Getting the guest of honour out of the house, and everything the other suppliers are doing, stays with whoever is running the surprise — we will work to that plan, but we are not running it.',
-    ],
-  },
-  {
-    id: 'menu-design',
-    h2: 'How a Birthday Menu Gets Built',
-    paragraphs: [
-      'A birthday menu is assembled from six things: who is eating, what time of day it is, where it is happening, how it is being served, what people cannot eat, and the budget. Change any one and the menu changes with it.',
-      'Time of day does more work than most people expect. A midday party wants lighter food and more of it early; an evening celebration wants something substantial in the middle and something salty near the end. An afternoon children\'s party and a fiftieth dinner can share a cuisine and still have almost nothing else in common.',
-      'Cuisine direction is a starting point, not a constraint — Arabic and Lebanese spreads, Italian, Indian, Asian, Mediterranean and mixed international menus are all normal requests. What is genuinely available on your date depends on which culinary partners are free and what they cook well, and we would rather tell you that than promise everything.',
-    ],
-    link: { href: BIRTHDAY_SUPPORT.cuisines, label: 'Browse cuisines' },
-    secondaryLink: { href: BIRTHDAY_SUPPORT.menus, label: 'Menu directions' },
-  },
-  {
-    id: 'dietary',
-    h2: 'Dietary Requirements and Allergies',
-    paragraphs: [
-      'Send dietary requirements with the guest count, not the week of the party. Vegetarian, vegan, gluten-aware and dairy-free guests are straightforward to plan for when the menu is being designed, and awkward to retrofit once it is signed off. Halal catering is the default expectation for most Dubai parties and is planned in from the start.',
-      'Severe allergies are handled differently and more carefully. Tell us which guest and which allergen, and the requirement goes to the appointed culinary partner before the booking is confirmed — they assess the ingredients, the preparation environment and the cross-contact controls, and confirm whether the menu can be produced as asked. If the answer is no, you hear it before you pay.',
-      'We do not describe a menu as allergen-free. A working event kitchen is a shared environment, and a badge that cannot be guaranteed is worth less than a clear account of what can and cannot be controlled.',
-    ],
-  },
-  {
-    id: 'cake-desserts',
-    h2: 'Cakes, Dessert Tables and Sweet Service',
-    paragraphs: [
-      'A birthday cake is coordinated rather than assumed. Tell us early if you want one arranged, and we will confirm the design, flavour, inscription, serving size and delivery timing as part of the proposal — or work around a cake you are bringing yourself, which is just as common.',
-      'On the day, the cake needs three things people forget to plan: somewhere cold to wait, a table it can be presented on, and someone to cut and serve it after the moment has passed. Cake cutting and plating is a service line, and it is worth including if you would rather not do it yourself in front of everyone.',
-      'Dessert tables and dessert carts are quoted options, not standard inclusions. They earn their place at parties where dessert is meant to be a second event rather than a course.',
-    ],
-    link: { href: BIRTHDAY_SUPPORT.dessertTable, label: 'Dessert tables' },
-    secondaryLink: { href: BIRTHDAY_SUPPORT.grazing, label: 'Grazing tables' },
-  },
-  {
-    id: 'drinks',
-    h2: 'Drinks, Mocktails and Bar Service',
-    paragraphs: [
-      'Welcome drinks, water service, juices, mocktail stations and barista coffee can all be arranged, and a mocktail bar does more for a party than people expect — it gives non-drinking guests something that feels made for them rather than left over.',
-      'Alcohol is licence dependent and is not something myCHEF supplies. Where alcohol is being served, it is arranged through your venue or a licensed provider, and the rules that apply come from them and from the venue rather than from us. Bartenders and bar setup can be quoted as service alongside that.',
-    ],
-    link: { href: BIRTHDAY_SUPPORT.mocktail, label: 'Mocktail bar catering' },
-    secondaryLink: { href: BIRTHDAY_SUPPORT.barServices, label: 'Bar services' },
-  },
-  {
-    id: 'pricing',
-    h2: 'What Actually Drives a Birthday Catering Price',
-    paragraphs: [
-      'Birthday catering in Dubai is quoted per event rather than from a fixed list, because guest count on its own tells you very little. Thirty people at a drop-off lunch and thirty people at a plated dinner with live stations are different jobs with different teams behind them.',
-      'What moves the number: how many guests, how complex the menu is, the service format, how many staff the format needs, equipment and furniture hire, how easy the venue is to access, travel, whether a cake and bar are included, and how long the team is on site.',
-      'What you get back is itemised — food, staffing, equipment, delivery and VAT as separate lines — so you can see what you are approving and compare it fairly against another quote.',
-    ],
-    link: { href: BIRTHDAY_SUPPORT.priceGuide, label: 'Dubai catering prices guide' },
-    secondaryLink: { href: BIRTHDAY_SUPPORT.costCalculator, label: 'Catering cost calculator' },
-  },
-]
+] as const
 
-/** §36 — inclusions vs quoted options. Only lines operations can stand behind. */
-export const quoteScope = {
-  included: {
-    label: 'Typically in a catering quote',
-    items: [
-      'Menu design and planning',
-      'Ingredients and preparation',
-      'Cooking by a licensed culinary partner',
-      'Delivery to your address',
-      'Presentation and setup of the food',
+export const otherBirthdays = [
+  {
+    title: 'A set menu for 8–12 guests',
+    href: BIRTHDAY_PATHS.package,
+    linkLabel: 'Birthday catering packages',
+  },
+  {
+    title: 'A chef-led seated dinner',
+    href: BIRTHDAY_PATHS.dinnerArticle,
+    linkLabel: 'Private chef for birthday dinner',
+  },
+  {
+    title: 'Villa and garden parties',
+    href: BIRTHDAY_SUPPORT.villas,
+    linkLabel: 'Villa catering in Dubai',
+  },
+  {
+    title: 'Yacht birthdays',
+    href: BIRTHDAY_SUPPORT.yachts,
+    linkLabel: 'Yacht event catering in Dubai',
+  },
+] as const
+
+export const kindDetail = {
+  milestones: {
+    h2: 'A milestone needs a shape, not just a menu',
+    paragraphs: [
+      'A milestone birthday has a moment in it — a toast, a speech, a cake carried in — and the food has to make room for that instead of competing with it.',
+      'Planning starts with the running order. Welcome bites while people arrive. A main service that is either seated and paced, or standing and continuous, depending on whether anybody intends to speak. A gap before the cake so it does not collide with dessert. Something late for the people who stay.',
+      'A thirtieth tends to run later and lean toward standing food and stations. A fiftieth or a seventieth is more often seated. Both can work; they are not the same evening.',
     ],
   },
-  optional: {
-    label: 'Quoted when you ask for it',
-    items: [
-      'Serving staff and on-site coordination',
-      'Crockery, glassware, cutlery and linen',
-      'Furniture and equipment hire',
-      'Birthday cake, coordinated to your brief',
-      'Dessert table or dessert cart',
-      'Mocktail bar and bartender service',
-      'Table styling',
-      'Clear-down and waste removal',
+  kids: {
+    h2: 'When the birthday is for children',
+    paragraphs: [
+      'Children’s birthdays fail when the food is an afterthought copied from an adult dinner, or when it is a second event running in the corner. The better brief is familiar dishes, smaller portions, and a start time that matches when children actually eat.',
+      'Send allergy notes with the guest list, not the week of the party. Vegetarian, gluten-aware and dairy-free guests are straightforward when the menu is being designed. A working event kitchen is a shared environment — we do not describe a menu as allergen-free.',
+      'Interactive stations (pizza, pasta, a dessert table) work when the room has power, queue space and an adult who can supervise. A plated children’s menu works when the party is seated and shorter. Birthday party catering in Dubai for a mixed guest list usually front-loads what the children need, then lets the adult evening open up.',
     ],
   },
-}
+  family: {
+    h2: 'When three generations are at the same party',
+    paragraphs: [
+      'The usual failure is two entirely separate menus: children feel like an afterthought and adults pick at food designed for someone else.',
+      'One menu with overlap works better. Dishes that work plain for a seven-year-old and dressed for an adult. Something familiar on the table so nobody goes hungry out of stubbornness. Portions and heights a child can reach without a parent hovering.',
+      'Timing is a planning decision, not a catering trick. Decide it before the menu is written.',
+    ],
+  },
+} as const
 
-export const menuDirections = [
+/** Published event-catering bands — same figures as /events. Not birthday-specific inventions. */
+export const priceRows = eventPriceRows
+export const pricingNotes = eventPricingNotes
+export const menuFormats = eventMenuFormats
+
+/** The one allowed exact-match subheading for the locked primary. */
+export const pricingH2 = 'What moves a birthday catering Dubai quote'
+
+export const pricingIntro = [
+  'These are the published event-catering bands. Birthday catering cost per person in Dubai moves with format more than with the guest list: the same twenty people cost different amounts dropped off, as a buffet, or plated.',
+  'Every quote is itemised — food, staffing, equipment, venue access, timing and 5% VAT as separate lines. If you want a set menu for 8–12 rather than a fully scoped brief, that sits on the packages page.',
+] as const
+
+export const packagePointer = {
+  title: `Birthday celebration for ${BIRTHDAY_PACKAGE.guests}`,
+  body: `From ${BIRTHDAY_PACKAGE.from} · ${BIRTHDAY_PACKAGE.perPerson}. A fixed starting point for a small seated celebration. Everything else on this page is quoted to the event.`,
+  href: BIRTHDAY_PACKAGE.href,
+  linkLabel: 'See what the package includes',
+} as const
+
+export const includedItems = [
   {
-    title: 'Relaxed sharing feast',
-    text: 'Mezze, grills and salads down the middle of the table, replenished as it goes. Works for mixed ages and for parties where nobody wants to sit down for two hours.',
+    title: 'Menu',
+    body: 'A birthday catering menu in Dubai is built around who is eating, the time of day, the room, how the food is served, dietary needs and what you want to spend. Change any one and the menu changes with it.',
   },
   {
-    title: 'Canapés then a plated dinner',
-    text: 'Passed bites while guests arrive, then a seated menu paced around speeches and the cake. The format for a milestone that has a running order.',
+    title: 'Chefs',
+    body: 'Licensed culinary partners matched to the brief. No chef is guaranteed by name.',
   },
   {
-    title: 'Family party with a children\'s tier',
-    text: 'One menu with a plainer version of the same dishes for younger guests, served earlier — not a separate party running in the corner.',
-  },
-]
-
-export const steps = [
-  { n: '01', title: 'Send the details', text: 'Date, area, guest count, the kind of birthday it is, and any dietary requirements.' },
-  { n: '02', title: 'Get a recommendation', text: 'We suggest a format and menu direction that suits the space and the group.' },
-  { n: '03', title: 'Confirm menu and scope', text: 'Adjust the food, the staffing and the add-ons until it fits what you want to spend.' },
-  { n: '04', title: 'Approve the quote', text: 'Scope and terms confirmed in writing before anything is committed.' },
-  { n: '05', title: 'Final numbers', text: 'Confirm the final guest count and the timings for the day.' },
-]
-
-export const serviceAreas = [
-  'Palm Jumeirah',
-  'Dubai Hills',
-  'Arabian Ranches',
-  'Emirates Hills',
-  'Jumeirah',
-  'Dubai Marina',
-  'Downtown Dubai',
-]
-
-/** §42 — ten unique questions. FAQPage markup mirrors exactly this list. */
-export const faqs = [
-  {
-    q: 'How much does birthday catering cost in Dubai?',
-    a: 'It is quoted per event. Guest count, menu complexity, service format, staffing, equipment, venue access and duration all move the figure, so the same headcount can produce very different quotes. One concrete option is the birthday package for 8–12 guests from AED 3,600. For wider ranges, use the Dubai catering prices guide or the cost calculator.',
+    title: 'Staff',
+    body: 'Waiters, bartenders and runners sized to the format — added when the party needs them.',
   },
   {
-    q: 'What is included in a birthday catering quote?',
-    a: 'Menu design, ingredients, preparation by a licensed culinary partner, delivery and presentation of the food are the usual core. Serving staff, tableware, furniture, styling, cake, drinks, clear-down and waste removal are quoted when you ask for them, and appear as separate lines rather than being folded into a per-head figure.',
+    title: 'Cake',
+    body: 'Coordinated when you want it: flavour, inscription, serving size and when it appears. Or we work around a cake you are bringing. Cutting and plating is a service line, not assumed.',
+  },
+  {
+    title: 'Bar',
+    body: 'Optional drinks service and a mocktail bar. Alcohol at a private residence is sourced by the host.',
+  },
+  {
+    title: 'Setup and cleanup',
+    body: 'Arrival, setup, service and clear-down are part of a staffed booking. Drop-off is food only — you serve, you clear.',
+  },
+] as const
+
+export const startSteps = [
+  'Share the date, venue, guest count and what kind of birthday it is — including how many children, if any.',
+  'We send an itemised proposal: menu direction, format, staffing and the figures that move with them.',
+  'You review it. Swap dishes, drop a layer, or add a station before anything is confirmed.',
+  'On the day the team runs setup, service and clear-down. You stay with your guests.',
+] as const
+
+export const decisionModule = {
+  h2: 'Private chef or a staffed party?',
+  privateChefLead: 'Private chef:',
+  privateChefBody:
+    'best when dinner is the event — a seated group, a workable kitchen, courses at the pace of the conversation.',
+  eventLead: 'Event catering:',
+  eventBody:
+    'best when the guest list outgrows one stove — standing food, multiple service points, or a venue with no kitchen.',
+  catering:
+    'If the question is food-only through full event support, that sits on catering — not this birthday page.',
+  dining: 'If the night is a tasting or a two-cover moment, that is private dining.',
+  chefHref: BIRTHDAY_SUPPORT.privateChef,
+  chefLabel: 'Private chef services in Dubai',
+  dinnerHref: BIRTHDAY_PATHS.dinnerArticle,
+  dinnerLabel: 'Private chef for birthday dinner',
+  cateringHref: BIRTHDAY_SUPPORT.catering,
+  cateringLabel: 'Luxury catering in Dubai',
+  diningHref: BIRTHDAY_SUPPORT.dining,
+  diningLabel: 'Private dining in Dubai',
+} as const
+
+export const proofItems = [
+  {
+    title: 'How culinary partners are selected',
+    body: 'Identity, right-to-work, skill and references are checked before anyone cooks for a client. No chef is guaranteed by name; we match the birthday.',
+    href: '/how-we-vet-our-chefs',
+    linkLabel: 'How myCHEF quality standards work',
+  },
+  {
+    title: 'What halal-first means here',
+    body: 'Halal ingredients are sourced by default for myCHEF event menus in Dubai. Halal birthday catering in Dubai still needs specific certification written into the brief when a guest requires it.',
+    href: '/halal-catering-dubai',
+    linkLabel: 'Halal catering',
+  },
+  {
+    title: 'Food safety and who cooks',
+    body: 'Culinary preparation is performed by independent, licensed culinary partners working to Dubai Municipality food-safety standards. myCHEF designs and coordinates the catering. The client engages those professionals.',
+    href: '/how-it-works',
+    linkLabel: 'How booking works',
+  },
+  {
+    title: 'Written proposals',
+    body: 'Guest count, menu, staffing, format, venue access, timing and equipment are itemised. Minimums and 5% VAT are shown before you book.',
+    href: `${BIRTHDAY_PATHS.hub}#pricing`,
+    linkLabel: 'Formats and prices',
+  },
+] as const
+
+/** One published case study; the others are typical briefs, not invented events. */
+export const exampleEvents = [
+  {
+    title: 'Yacht birthday celebration, Dubai Marina',
+    guests: '25 guests',
+    venue: 'Yacht, Dubai Marina',
+    setup: 'Sunset canapés, BBQ and signature mocktails, planned around loading and storage.',
+    outcome: 'Passed bites, grills and alcohol-free craft drinks served as the yacht cruised the marina.',
+    href: CATERING_PATHS.yachts,
+    linkLabel: 'Yacht event catering in Dubai',
+  },
+  {
+    title: 'Seated dinner at home',
+    guests: 'Typical brief',
+    venue: 'Apartment or villa kitchen',
+    setup: 'Courses cooked on site. Needs a usable hob and somewhere to plate.',
+    outcome: 'Quoted as chef-led plated dining, not as a scaled-down buffet.',
+    href: BIRTHDAY_PATHS.dinnerArticle,
+    linkLabel: 'Private chef for birthday dinner',
+  },
+  {
+    title: 'Mixed-age villa afternoon',
+    guests: 'Typical brief',
+    venue: 'Garden or indoor-outdoor villa',
+    setup: 'Sharing table or buffet, children’s food served earlier, cake as its own moment.',
+    outcome: 'Staffed when the guest list outgrows one kitchen.',
+    href: BIRTHDAY_SUPPORT.villas,
+    linkLabel: 'Villa catering in Dubai',
+  },
+] as const
+
+export const exampleNote =
+  'Most birthdays we run are in a home or villa. Kitchen size, lift access, shade and community rules belong in the brief so the proposal is honest. Client names stay private. The yacht example is from our case studies page; the other two are common briefs, not named events.'
+
+export const birthdayFaqs = [
+  {
+    q: 'How is a birthday quote built?',
+    a: 'From format first, then guest count, menu, staffing, venue access, timing and 5% VAT. Drop-off food starts from AED 90 per person. A standard event buffet starts from AED 120 per person. Premium buffet, BBQ, live stations and canapés start from AED 150. Chef-led plated dining is typically AED 700–950 per person. See [event catering prices](/events#pricing) or the [catering prices guide](/dubai-catering-prices-guide).',
+  },
+  {
+    q: 'Is there a set package?',
+    a: `Yes — a birthday celebration for ${BIRTHDAY_PACKAGE.guests} from ${BIRTHDAY_PACKAGE.from} (${BIRTHDAY_PACKAGE.perPerson}). Larger or different formats are quoted to the event. See [birthday catering packages](/birthday-catering-package-dubai).`,
+  },
+  {
+    q: 'Do you cater children’s birthdays?',
+    a: 'Yes. Children’s menus, earlier timings and allergy notes are part of the same brief as an adult or mixed-age party. They are planned here, not on a second kids page.'
   },
   {
     q: 'What is the minimum guest count?',
-    a: 'There is no single minimum, because it depends on the format. A chef cooking at your home suits very small groups, while a full buffet needs enough guests to justify the setup. Tell us your number and we will say which formats make sense for it.',
+    a: 'Drop-off starts from 10 guests, with a minimum order of AED 900. A standard event buffet starts from 20 guests. A chef cooking in your kitchen has no volume minimum — a seated birthday dinner for a small table is a normal booking. See [private chef for birthday dinner](/blog/best-private-chef-birthday-dinner-dubai).',
   },
   {
-    q: 'How far ahead should I book birthday catering?',
-    a: 'Two to four weeks is comfortable for most parties, and earlier between November and March when demand is highest. Short-notice bookings are often possible depending on the date and format — we will tell you honestly what is achievable rather than accept and improvise.',
-  },
-  {
-    q: 'Can you provide separate menus for children and adults?',
-    a: 'Yes, and usually the better answer is one menu with a plainer version of the same dishes for younger guests, served earlier. Fully separate menus are possible but often make children feel like an afterthought. Detailed children\'s menus and party boxes are on the kids birthday catering page.',
-  },
-  {
-    q: 'Can you cater at a villa, apartment or outdoor venue?',
-    a: 'Yes. What changes is the menu, not whether it can happen. Kitchen size, power, water, unloading distance, shade and community access rules all shape what can be cooked on site, so we ask about the space before quoting.',
+    q: 'How far in advance should I book?',
+    a: 'For parties under 50 guests, a week ahead is typical. Larger parties: 2–4 weeks. Peak season (November–March) and holiday weekends book faster. Short notice is often possible — message the date. We typically reply within 15 minutes during business hours.',
   },
   {
     q: 'Can you handle allergies and dietary requirements?',
-    a: 'Vegetarian, vegan, gluten-aware, dairy-free and halal requirements are planned into the menu when it is designed. For severe allergies, tell us which guest and which allergen — the requirement goes to the appointed culinary partner, who confirms whether it can be produced safely. We do not describe menus as allergen-free, because an event kitchen is a shared environment.',
+    a: 'Vegetarian, vegan, gluten-aware, dairy-free and halal requirements are planned into the menu when it is designed. For a severe allergy, tell us which guest and which allergen — the appointed culinary partner confirms whether it can be produced. We do not describe menus as allergen-free.',
   },
   {
-    q: 'Do you provide cakes, staff, tableware and drinks?',
-    a: 'All of them can be arranged, and none is automatic. Cake, serving staff, crockery and glassware, styling and mocktail or bar service are quoted options confirmed in your proposal. Alcohol is licence dependent and is arranged through your venue or a licensed provider rather than supplied by myCHEF.',
+    q: 'Do you provide a cake, staff and drinks?',
+    a: 'Cake, serving staff, tableware and a mocktail or bar team are quoted when you ask for them. None is automatic. Alcohol at a private residence is sourced by the host.',
   },
   {
-    q: 'Should I choose a private chef, a buffet or full-service catering?',
-    a: 'The practical test is whether every guest will be seated at one table at the same time. If yes, a private chef usually gives a better evening. If not, you want catering — buffet for larger mixed-age parties, canapés for standing receptions, live stations when the party needs something to gather around.',
+    q: 'Can you keep a surprise quiet?',
+    a: 'We plan load-in around the reveal, keep contact to one person and stay off the family group chat. Getting the guest of honour out of the house stays with whoever is running the surprise.',
   },
   {
-    q: 'What details do you need to prepare a quote?',
-    a: 'Date, area or venue, adult and child guest counts, the kind of birthday it is, your preferred service format if you have one, dietary requirements, and whether you want a cake or bar included. A budget position helps too — telling us early means the first proposal is realistic rather than the third.',
+    q: 'How much does birthday catering Dubai price come to?',
+    a: 'There is no single number for birthday catering Dubai price: guest count, menu, service style and staffing move the figure. Our indicative starting point on this page is AED 120 per person. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
   },
-]
-
-export const finalCta = {
-  h2: 'Tell Us About the Birthday',
-  body: 'The date, the area, how many adults and children, and what kind of celebration you have in mind. That is enough for a first proposal — and if something will not work in your space, we will say so before you have spent anything.',
-  primary: 'Request a birthday quote',
-  secondary: 'WhatsApp us',
-}
+  {
+    q: 'How much does birthday catering cost per person Dubai come to?',
+    a: 'There is no single number for birthday catering cost per person Dubai: guest count, menu, service style and staffing move the figure. Our indicative starting point on this page is AED 120 per person. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+  },
+  {
+    q: 'What makes myCHEF a strong choice for best birthday catering Dubai?',
+    a: 'One team owns the whole event — menu, shopping, cooking on site, service and clear-down — so nothing falls between suppliers. The chefs are vetted and matched to the occasion, ingredients are charged at cost with no markup, and every quote is itemised.',
+  },
+  {
+    q: 'Do you cater birthday catering menu Dubai?',
+    a: 'Yes. We plan the menu around the occasion and the room — plated, buffet, canapés or live stations — bring chefs, service staff and equipment, and handle the clear-down. Share the date, guest count and venue and you get a proposal with the format we would recommend and why.',
+  },
+  {
+    q: 'Can you handle halal birthday catering Dubai?',
+    a: 'Yes. Dietary needs are planned into the menu from the first draft, not bolted on: dishes are labelled, cross-contact is managed in the kitchen we set up on site, and the chef is briefed on every guest requirement before the day.',
+  },
+  {
+    q: 'Do you cater birthday party catering Dubai?',
+    a: 'Yes. We plan the menu around the occasion and the room — plated, buffet, canapés or live stations — bring chefs, service staff and equipment, and handle the clear-down. Share the date, guest count and venue and you get a proposal with the format we would recommend and why.',
+  },
+  {
+    q: 'Do you cater full service birthday catering Dubai?',
+    a: 'Yes. We plan the menu around the occasion and the room — plated, buffet, canapés or live stations — bring chefs, service staff and equipment, and handle the clear-down. Share the date, guest count and venue and you get a proposal with the format we would recommend and why.',
+  },
+  {
+    q: 'Do you cater kids birthday catering Dubai?',
+    a: 'Yes. We plan the menu around the occasion and the room — plated, buffet, canapés or live stations — bring chefs, service staff and equipment, and handle the clear-down. Share the date, guest count and venue and you get a proposal with the format we would recommend and why.',
+  },
+  {
+    q: 'How much does birthday catering Dubai price come to?',
+    a: 'There is no single number for birthday catering Dubai price: guest count, menu, service style and staffing move the figure. Our indicative starting point on this page is AED 120 per person. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+  },
+  {
+    q: 'How much does birthday catering cost per person Dubai come to?',
+    a: 'There is no single number for birthday catering cost per person Dubai: guest count, menu, service style and staffing move the figure. Our indicative starting point on this page is AED 120 per person. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+  },
+  {
+    q: 'What makes myCHEF a strong choice for best birthday catering Dubai?',
+    a: 'One team owns the whole event — menu, shopping, cooking on site, service and clear-down — so nothing falls between suppliers. The chefs are vetted and matched to the occasion, ingredients are charged at cost with no markup, and every quote is itemised.',
+  },
+  {
+    q: 'Do you cater birthday catering menu Dubai?',
+    a: 'Yes. We plan the menu around the occasion and the room — plated, buffet, canapés or live stations — bring chefs, service staff and equipment, and handle the clear-down. Share the date, guest count and venue and you get a proposal with the format we would recommend and why.',
+  },
+  {
+    q: 'Can you handle halal birthday catering Dubai?',
+    a: 'Yes. Dietary needs are planned into the menu from the first draft, not bolted on: dishes are labelled, cross-contact is managed in the kitchen we set up on site, and the chef is briefed on every guest requirement before the day.',
+  },
+  {
+    q: 'Do you cater birthday party catering Dubai?',
+    a: 'Yes. We plan the menu around the occasion and the room — plated, buffet, canapés or live stations — bring chefs, service staff and equipment, and handle the clear-down. Share the date, guest count and venue and you get a proposal with the format we would recommend and why.',
+  },
+  {
+    q: 'Do you cater full service birthday catering Dubai?',
+    a: 'Yes. We plan the menu around the occasion and the room — plated, buffet, canapés or live stations — bring chefs, service staff and equipment, and handle the clear-down. Share the date, guest count and venue and you get a proposal with the format we would recommend and why.',
+  },
+  {
+    q: 'Do you cater kids birthday catering Dubai?',
+    a: 'Yes. We plan the menu around the occasion and the room — plated, buffet, canapés or live stations — bring chefs, service staff and equipment, and handle the clear-down. Share the date, guest count and venue and you get a proposal with the format we would recommend and why.',
+  },
+] as const

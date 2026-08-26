@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /catering-cost-calculator-dubai
+//     primary:     "catering cost calculator dubai"
+//     subkeywords: "estimate catering cost dubai" · "catering budget calculator dubai" · "how much will catering cost dubai" · "how much catering do i need for 50 guests dubai" · "birthday catering cost calculator dubai" · "small catering cost calculator dubai" · "wedding catering cost calculator dubai" · "catering calculator per person"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router'
 import gsap from 'gsap'
@@ -80,7 +86,7 @@ export default function CateringCostCalculator() {
     <>
       <SEO
         title="Catering Cost Calculator Dubai | Instant Price Estimate"
-        description="A catering cost calculator for Dubai. Instant per-person pricing for villas, yachts, weddings and corporate events, plus private chef estimates."
+        description="A catering cost calculator Dubai. Instant per-person pricing for villas, yachts, weddings and corporate events, plus private chef estimates."
         canonicalPath="/catering-cost-calculator-dubai"
         ogImage="/images/catering-dubai-hero.webp"
         schema={breadcrumbSchema(breadcrumbs) as unknown as Record<string, unknown>}
@@ -248,7 +254,7 @@ export default function CateringCostCalculator() {
       <section className="bg-black py-20 md:py-28">
         <div className="container-custom text-center">
           <h2 className="font-playfair text-fluid-h2 text-white mb-6">
-            Ready for Your Exact Quote?
+            Catering Cost Calculator Dubai: Ready for Your Exact Quote?
           </h2>
           <p className="font-inter text-body text-gray-400 max-w-[600px] mx-auto mb-10">
             Tell us about your event and we will craft a bespoke proposal tailored to your vision and budget.

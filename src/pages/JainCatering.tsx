@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /jain-catering-dubai
+//     primary:     "jain catering dubai"
+//     subkeywords: "jain catering dubai price" · "jain catering cost per person dubai" · "best jain catering dubai" · "jain catering packages dubai" · "jain catering menu dubai" · "no onion no garlic catering dubai" · "satvik catering dubai" · "jain wedding catering dubai" · "jain food rules" · "emirates jain meal menu"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { Link } from 'react-router'
 import { Sprout, Utensils, Salad, Leaf, Home, Building } from 'lucide-react'
 import DietaryCateringPage from './dietary/DietaryCateringPage'
@@ -7,7 +13,7 @@ const config: DietaryPageConfig = {
   slug: 'jain-catering-dubai',
   seoTitle: 'Jain Catering Dubai | No-Onion/Garlic Weddings & Events | myCHEF',
   metaDescription:
-    'Book Jain catering in Dubai. No-onion, no-garlic, root-vegetable-free menus for weddings, Paryushan and family celebrations. Get a tailored quote in 15 minutes.',
+    'Book Jain catering Dubai. No-onion, no-garlic, root-vegetable-free menus for weddings, Paryushan and family celebrations. Get a tailored quote in 15 minutes.',
   canonicalPath: '/jain-catering-dubai',
   hideSiteName: true,
   showTrustSignalStrip: true,
@@ -131,7 +137,7 @@ const config: DietaryPageConfig = {
     { src: '/service-villa.webp', alt: 'Villa Jain dinner styling' },
     { src: '/service-events.webp', alt: 'Jain event catering in Dubai' },
   ],
-  faqsH2: 'Jain Catering Questions',
+  faqsH2: 'Jain Catering Dubai: the questions we get before a booking',
   faqs: [
     {
       q: 'What ingredients are avoided in Jain catering?',

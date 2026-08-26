@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /venue-partners
+//     primary:     "preferred caterer dubai"
+//     subkeywords: "venue catering partnership dubai" · "approved caterer list dubai" · "venues that allow outside catering dubai" · "cwru preferred caterer" · "fiu preferred caterer" · "preferred caterer agreement" · "preferred caterer program" · "what does preferred caterer mean" · "fiu preferred caterers" · "mit preferred caterers" · "preferred caterers" · "preferred caterers mizzou"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useEffect, useRef } from 'react'
 import { Link } from 'react-router'
 import gsap from 'gsap'
@@ -191,8 +197,8 @@ export default function VenuePartners() {
   return (
     <>
       <SEO
-        title="Venue Partners | Preferred Catering"
-        description="Discover Dubai venues where myCHEF provides private chef and catering services. From yacht charters to luxury villas and event spaces, we coordinate."
+        title="Preferred Caterer Dubai | Venue Partners | myCHEF"
+        description="Preferred Caterer Dubai — Discover Dubai venues where myCHEF provides private chef and catering services. From yacht charters to luxury villas and event…"
         canonicalPath="/venue-partners"
         ogImage="/images/locations-dubai-hero.webp"
         schema={schema as Record<string, unknown>}
@@ -200,8 +206,8 @@ export default function VenuePartners() {
 
       <PageHero
         eyebrow="PARTNER NETWORK"
-        title="Venue Partners"
-        subtitle="Exceptional Dubai venues where our private chefs and catering teams regularly deliver bespoke service."
+        title="Preferred Caterer Dubai: Venue Partners"
+        subtitle="Preferred Caterer Dubai by myCHEF — Exceptional Dubai venues where our private chefs and catering teams regularly deliver bespoke service."
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Venue Partners' }]}
         minHeight="medium"
         overlay="dark"
@@ -219,7 +225,7 @@ export default function VenuePartners() {
               WHY PARTNER WITH MYCHEF
             </span>
             <h2 className="reveal font-playfair text-h2 text-white mb-6">
-              Preferred Catering Partners for Distinguished Dubai Venues
+              Preferred Caterer Dubai: Preferred Catering Partners for Distinguished Dubai Venues
             </h2>
             <p className="reveal font-inter text-body text-gray-400">
               Our venue partner program brings together the best locations in Dubai with bespoke culinary

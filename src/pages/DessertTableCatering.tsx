@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /dessert-table-catering-dubai
+//     primary:     "dessert table catering dubai"
+//     subkeywords: "dessert table catering dubai price" · "dessert table catering price per person dubai" · "best dessert table catering dubai" · "dessert table catering packages dubai" · "dessert table catering menu dubai" · "halal dessert table catering dubai" · "sweet table dubai" · "dessert table setup dubai" · "dessert table dubai" · "childrens dessert table dubai" · "dessert shops in dubai" · "wedding catering in dubai"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef } from 'react'
 import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
@@ -163,7 +169,7 @@ const faqs = [
   { q: "Do you provide the stands, cake plinths, and styling props?", a: "Yes. Every dessert table comes with tiered stands, cake plinths, glassware, and themed styling props, all arranged on-site by our team. We treat the display as a designed installation, so you do not need to source or return any of the props yourself." },
   { q: "Do you deliver and set up the dessert table at my villa or venue?", a: "Yes. Our team delivers, builds, and styles the dessert table on-site at your home, villa, or event venue anywhere across Dubai, including Palm Jumeirah, Downtown, and Dubai Marina. We coordinate timing with your venue so the table is ready and pristine before your guests arrive." },
   { q: "How long does the dessert table need for set-up on the day?", a: "Our team typically arrives ahead of your guests to build and style the table, with the exact window depending on the size and complexity of the display. When you book, we confirm an arrival time that fits your run sheet, so everything is photographed and perfect before the celebration begins." },
-  { q: "Can I add a live dessert or coffee station to the table?", a: "Yes. We can pair your dessert table with live finishes and a barista-style [coffee and tea service](/coffee-tea-service-dubai), which works beautifully to close corporate events and private dinners. Live stations add interaction and a warm final touch alongside the styled sweets." },
+  { q: "Can I add a live dessert or coffee station to the table?", a: "Yes. We can pair your dessert table with live finishes and a barista-style [coffee and tea service](/catering-dubai), which works beautifully to close corporate events and private dinners. Live stations add interaction and a warm final touch alongside the styled sweets." },
   { q: "What's the difference between a dessert table and a grazing table?", a: "A dessert table focuses entirely on sweets, a centrepiece cake, patisserie, and bite-sized treats styled into a display, while a [grazing table](/grazing-table-dubai) leans savoury with cheeses, charcuterie, fruit, and dips. Many hosts book both, or a combined sweet-and-savoury spread, and we style either to match your event." },
   { q: "Can a dessert table be part of full-service catering for my event?", a: "Yes. Our dessert tables slot seamlessly into full-service catering, so you can have canapés, a plated or buffet meal, and a styled sweet finish all handled by one team. Booking everything together keeps the styling cohesive and the logistics simple. See how it fits within our wider [catering in Dubai](/catering-dubai)." },
 ]
@@ -191,7 +197,7 @@ const relatedServices = [
     title: 'Gelato & Dessert Cart',
     description: 'Mobile gelato, crepe, candy and mini dessert carts for events of any size.',
     image: '/images/dessert-table-catering-dubai-hero.webp',
-    link: '/dessert-cart-dubai',
+    link: '/live-cooking-stations-dubai',
   },
 ]
 
@@ -292,7 +298,7 @@ export default function DessertTableCatering() {
     <div ref={containerRef}>
       <SEO
         title="Dessert Table Catering Dubai | Wedding & Birthday | myCHEF"
-        description="Bespoke dessert table catering in Dubai for weddings, birthdays & events. Custom cakes, French patisserie, styled sweet displays. Request a menu quote."
+        description="Bespoke dessert table catering Dubai for weddings, birthdays & events. Custom cakes, French patisserie, styled sweet displays. Request a menu quote."
         canonicalPath="/dessert-table-catering-dubai"
         ogImage="/menu-dessert.webp"
         hideSiteName
@@ -317,7 +323,7 @@ export default function DessertTableCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 des-hero-h1">
-            Dessert Table Catering in Dubai — Weddings, Birthdays & Events
+            Dessert Table Catering Dubai — Weddings, Birthdays & Events
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 des-hero-sub">
             Custom cakes, French patisserie, and styled sweet tables for weddings, birthdays, and baby showers — designed to look as good as they taste.
@@ -456,7 +462,7 @@ export default function DessertTableCatering() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Dessert Table Questions
+            Dessert Table Catering Dubai: the questions we get before a booking
           </h2>
 
           <FaqAccordion items={faqs} showJumpNav />
@@ -510,7 +516,7 @@ export default function DessertTableCatering() {
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
                   <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
-                    Explore <ArrowRight size={14} />
+                    {svc.title} <ArrowRight size={14} />
                   </span>
                 </div>
               </Link>

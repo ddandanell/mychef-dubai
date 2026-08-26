@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /case-studies
+//     primary:     "catering case studies dubai"
+//     subkeywords: "dubai event catering examples" · "private chef event portfolio dubai"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef, useState } from 'react'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { Link } from 'react-router'
@@ -317,8 +323,8 @@ export default function CaseStudies() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Event Case Studies | Luxury Catering Dubai"
-        description="See how myCHEF Dubai delivers luxury catering for weddings, yachts, villas, and corporate events. Real event stories, menus, and guest experiences."
+        title="Catering Case Studies Dubai | Event Case Studies | myCHEF"
+        description="Catering Case Studies Dubai — See how myCHEF Dubai delivers luxury catering for weddings, yachts, villas, and corporate events. Real event stories, menus…"
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/case-studies-hero.webp"
         schema={schema}
@@ -342,7 +348,7 @@ export default function CaseStudies() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 cs-hero-h1">
-            myCHEF Case Studies & Event Stories
+            Catering Case Studies Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 cs-hero-sub">
             Events we're proud of — from villa weddings and yacht birthdays to corporate galas and intimate private dinners across Dubai.
@@ -498,7 +504,7 @@ export default function CaseStudies() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Case Study Questions
+            Catering Case Studies Dubai: the questions we get before a booking
           </h2>
 
           <FaqAccordion items={faqs} />
@@ -553,7 +559,7 @@ export default function CaseStudies() {
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
                   <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
-                    Explore <ArrowRight size={14} />
+                    {svc.title} <ArrowRight size={14} />
                   </span>
                 </div>
               </Link>

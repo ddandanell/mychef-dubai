@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /blog/private-chef-palm-jumeirah-guide
+//     primary:     "private dining palm jumeirah dubai"
+//     subkeywords: "palm jumeirah villa dining menu" · "private chef palm springs" · "private dining chef near me" · "halal private dining menu" · "best private dining rooms dubai" · "carbone dubai private dining" · "coya dubai private dining" · "how much does a private chef cost"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef } from 'react'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { Link } from 'react-router'
@@ -100,8 +106,8 @@ export default function PrivateChefPalmJumeirahGuide() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Private Chef Palm Jumeirah: A Complete Guide"
-        description="A practical guide to hiring a private chef in Palm Jumeirah, covering menus, service styles, indicative pricing, and how to book a curated dining."
+        title="Private Dining Palm Jumeirah Dubai | myCHEF"
+        description="Private Dining Palm Jumeirah Dubai — A practical guide to hiring a private chef in Palm Jumeirah, covering menus, service styles, indicative pricing, and…"
         canonicalPath={`/blog/${SLUG}`}
         ogImage="/images/blog/private-chef-palm-jumeirah-guide-hero.webp"
         schema={schema}
@@ -110,8 +116,8 @@ export default function PrivateChefPalmJumeirahGuide() {
       {/* Hero */}
       <PageHero
         eyebrow="Private Chef"
-        title="Private Chef Palm Jumeirah: A Complete Guide to Dining at Home"
-        subtitle="Everything Dubai hosts need to know about booking a private chef for a Palm Jumeirah villa, apartment, or yacht — from menus and pricing to service and clean-up."
+        title="Private Dining Palm Jumeirah Dubai — A Complete Guide to Dining at Home"
+        subtitle="Private Dining Palm Jumeirah Dubai by myCHEF — Everything Dubai hosts need to know about booking a private chef for a Palm Jumeirah villa, apartment, or yacht — from menus and pricing to "
         image="/images/blog/private-chef-palm-jumeirah-guide-hero.webp"
         imageAlt="Private chef dining experience in Palm Jumeirah, Dubai"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Blog', href: '/blog' }, { label: 'Private Chef Palm Jumeirah Guide' }]}
@@ -325,7 +331,7 @@ export default function PrivateChefPalmJumeirahGuide() {
           <BlogRelated currentSlug="/blog/private-chef-palm-jumeirah-guide" />
 
           <section className="article-cta opacity-0 translate-y-8 bg-cream p-8 md:p-12 text-center">
-            <h2 className="font-playfair text-h3 text-black mb-4">Ready to Book a Private Chef in Palm Jumeirah?</h2>
+            <h2 className="font-playfair text-h3 text-black mb-4">Private Dining Palm Jumeirah Dubai: Ready to Book a Private Chef in Palm Jumeirah?</h2>
             <p className="font-inter text-body text-gray-500 max-w-[600px] mx-auto mb-8">
               Tell us about your occasion, guest count, and menu preferences. We will bring you a vetted chef and send a custom quote within one business day.
             </p>

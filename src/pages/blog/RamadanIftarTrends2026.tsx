@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /blog/ramadan-iftar-catering-trends-2026
+//     primary:     "ramadan catering trends dubai 2026"
+//     subkeywords: "iftar catering ideas dubai" · "ramadan iftar catering trends 2026" · "what are the event catering trends in 2026" · "iftar catering trends" · "catering trends for 2026" · "what are current trends in the catering industry" · "ramadan catering in dubai" · "biggest food trends 2026"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef } from 'react'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { Link } from 'react-router'
@@ -100,8 +106,8 @@ export default function RamadanIftarTrends2026() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Ramadan Iftar Catering Trends 2026"
-        description="Discover the Ramadan Iftar catering trends shaping Dubai in 2026, from grazing-style tables and modern Emirati dishes to sustainable sourcing and more."
+        title="Ramadan Catering Trends Dubai 2026 | myCHEF"
+        description="Ramadan Catering Trends Dubai 2026 — Discover the Ramadan Iftar catering trends shaping Dubai in 2026, from grazing-style tables and modern Emirati dishes…"
         canonicalPath={`/blog/${SLUG}`}
         ogImage="/images/blog/ramadan-iftar-catering-trends-2026-hero.webp"
         schema={schema}
@@ -110,8 +116,8 @@ export default function RamadanIftarTrends2026() {
       {/* ═══════════════ Hero ═══════════════ */}
       <PageHero
         eyebrow="Ramadan 2026"
-        title="Ramadan Iftar Catering Trends for 2026"
-        subtitle="What Dubai hosts are requesting this Holy Month — and how to design an Iftar that feels generous, modern, and deeply memorable."
+        title="Ramadan Catering Trends Dubai 2026"
+        subtitle="Ramadan Catering Trends Dubai 2026 by myCHEF — What Dubai hosts are requesting this Holy Month — and how to design an Iftar that feels generous, modern, and deeply memorable."
         image="/images/blog/ramadan-iftar-catering-trends-2026-hero.webp"
         imageAlt="Ramadan Iftar catering trends Dubai 2026"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Blog', href: '/blog' }, { label: 'Ramadan Iftar Trends 2026' }]}
@@ -259,7 +265,7 @@ export default function RamadanIftarTrends2026() {
 
           {/* ═══════════════ CTA ═══════════════ */}
           <section className="article-cta bg-cream border border-gray-200 p-8 md:p-10 opacity-0 translate-y-8">
-            <h2 className="font-playfair text-h3 text-black mb-3">Ready to Plan Your 2026 Iftar?</h2>
+            <h2 className="font-playfair text-h3 text-black mb-3">Ramadan Catering Trends Dubai 2026: Ready to Plan Your 2026 Iftar?</h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed mb-6">
               Let us design a Ramadan Iftar menu that blends tradition with modern presentation. Request a custom proposal tailored to your venue, guest count, and style.
             </p>

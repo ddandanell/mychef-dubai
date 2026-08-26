@@ -36,11 +36,7 @@ const Corporate: PreloadableComponent = lazyPreloadable(() => import('./pages/Co
 const Villas: PreloadableComponent = lazyPreloadable(() => import('./pages/Villas'))
 const Yachts: PreloadableComponent = lazyPreloadable(() => import('./pages/Yachts'))
 const RomanticDinner: PreloadableComponent = lazyPreloadable(() => import('./pages/RomanticDinner'))
-const ValentinesDayCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/ValentinesDayCatering'))
-const MothersDayCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/MothersDayCatering'))
 const UaeNationalDayCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/UaeNationalDayCatering'))
-const EasterCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/EasterCatering'))
-const HalloweenCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/HalloweenCatering'))
 const BirthdayCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/BirthdayCatering'))
 const WeddingCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/WeddingCatering'))
 const RamadanIftar: PreloadableComponent = lazyPreloadable(() => import('./pages/RamadanIftar'))
@@ -61,29 +57,10 @@ const Privacy: PreloadableComponent = lazyPreloadable(() => import('./pages/Priv
 const Terms: PreloadableComponent = lazyPreloadable(() => import('./pages/Terms'))
 const Locations: PreloadableComponent = lazyPreloadable(() => import('./pages/Locations'))
 const LocationDetail: PreloadableComponent = lazyPreloadable(() => import('./pages/LocationDetail'))
-const BachelorPartyCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/BachelorPartyCatering'))
-const BachelorettePartyCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/BachelorettePartyCatering'))
-const EngagementCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/EngagementCatering'))
-const AnniversaryCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/AnniversaryCatering'))
 const BabyShowerCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/BabyShowerCatering'))
 const PrivatePartyCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/PrivatePartyCatering'))
-const KidsBirthdayCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/KidsBirthdayCatering'))
-const PoolPartyCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/PoolPartyCatering'))
-const BeachCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/BeachCatering'))
 const DesertDining: PreloadableComponent = lazyPreloadable(() => import('./pages/DesertDining'))
 const AfternoonTeaCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/AfternoonTeaCatering'))
-const HousewarmingCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/HousewarmingCatering'))
-const GraduationCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/GraduationCatering'))
-const FarewellCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/FarewellCatering'))
-const ReunionCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/ReunionCatering'))
-const FathersDayCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/FathersDayCatering'))
-const ChineseNewYearCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/ChineseNewYearCatering'))
-const HoliCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/HoliCatering'))
-const PicnicCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/PicnicCatering'))
-const CoffeeTeaService: PreloadableComponent = lazyPreloadable(() => import('./pages/CoffeeTeaService'))
-const DessertCart: PreloadableComponent = lazyPreloadable(() => import('./pages/DessertCart'))
-const ShawarmaStation: PreloadableComponent = lazyPreloadable(() => import('./pages/ShawarmaStation'))
-const OysterBar: PreloadableComponent = lazyPreloadable(() => import('./pages/OysterBar'))
 const BBQCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/BBQCatering'))
 const BuffetCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/BuffetCatering'))
 const CanapeCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/CanapeCatering'))
@@ -91,7 +68,6 @@ const LiveCookingStations: PreloadableComponent = lazyPreloadable(() => import('
 const GrazingTable: PreloadableComponent = lazyPreloadable(() => import('./pages/GrazingTable'))
 const DessertTableCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/DessertTableCatering'))
 const CocktailPartyCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/CocktailPartyCatering'))
-const MocktailBarCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/MocktailBarCatering'))
 const IndianCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/IndianCatering'))
 const ArabicCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/ArabicCatering'))
 const MediterraneanCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/MediterraneanCatering'))
@@ -101,15 +77,7 @@ const SushiCatering: PreloadableComponent = lazyPreloadable(() => import('./page
 const VeganCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/VeganCatering'))
 const VegetarianCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/VegetarianCatering'))
 const HalalCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/HalalCatering'))
-const HealthyCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/HealthyCatering'))
-const GlutenFreeCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/GlutenFreeCatering'))
-const DairyFreeCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/DairyFreeCatering'))
-const NutFreeCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/NutFreeCatering'))
-const KetoCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/KetoCatering'))
 const JainCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/JainCatering'))
-const PescatarianCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/PescatarianCatering'))
-const SugarFreeCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/SugarFreeCatering'))
-const FodmapCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/FodmapCatering'))
 const HalalPrivateDining: PreloadableComponent = lazyPreloadable(() => import('./pages/HalalPrivateDining'))
 const Cuisines: PreloadableComponent = lazyPreloadable(() => import('./pages/Cuisines'))
 const OfficeCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/OfficeCatering'))
@@ -118,9 +86,7 @@ const CorporateEventCatering: PreloadableComponent = lazyPreloadable(() => impor
 const ConferenceCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/ConferenceCatering'))
 const StaffMealsCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/StaffMealsCatering'))
 const ProductionCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/ProductionCatering'))
-const CorporateMealPrep: PreloadableComponent = lazyPreloadable(() => import('./pages/CorporateMealPrep'))
 const RamadanCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/RamadanCatering'))
-const SuhoorCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/SuhoorCatering'))
 const EidCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/EidCatering'))
 const DiwaliCatering: PreloadableComponent = lazyPreloadable(() => import('./pages/DiwaliCatering'))
 const Guides: PreloadableComponent = lazyPreloadable(() => import('./pages/Guides'))
@@ -229,11 +195,7 @@ export const routes: AppRoute[] = [
   { path: "/villas-private-residences", element: <Villas />, preload: Villas.preload },
   { path: "/yachts", element: <Yachts />, preload: Yachts.preload },
   { path: "/romantic-dinner-dubai", element: <RomanticDinner />, preload: RomanticDinner.preload },
-  { path: "/valentines-day-catering-dubai", element: <ValentinesDayCatering />, preload: ValentinesDayCatering.preload },
-  { path: "/mothers-day-catering-dubai", element: <MothersDayCatering />, preload: MothersDayCatering.preload },
   { path: "/uae-national-day-catering-dubai", element: <UaeNationalDayCatering />, preload: UaeNationalDayCatering.preload },
-  { path: "/easter-catering-dubai", element: <EasterCatering />, preload: EasterCatering.preload },
-  { path: "/halloween-catering-dubai", element: <HalloweenCatering />, preload: HalloweenCatering.preload },
   { path: "/birthday-catering-dubai", element: <BirthdayCatering />, preload: BirthdayCatering.preload },
   { path: "/wedding-catering-dubai", element: <WeddingCatering />, preload: WeddingCatering.preload },
   { path: "/iftar-catering-dubai", element: <RamadanIftar />, preload: RamadanIftar.preload },
@@ -254,29 +216,10 @@ export const routes: AppRoute[] = [
   { path: "/terms", element: <Terms />, preload: Terms.preload },
   { path: "/locations", element: <Locations />, preload: Locations.preload },
   { path: "/locations/:slug", element: <LocationDetail />, preload: LocationDetail.preload },
-  { path: "/bachelor-party-catering-dubai", element: <BachelorPartyCatering />, preload: BachelorPartyCatering.preload },
-  { path: "/bachelorette-party-catering-dubai", element: <BachelorettePartyCatering />, preload: BachelorettePartyCatering.preload },
-  { path: "/engagement-catering-dubai", element: <EngagementCatering />, preload: EngagementCatering.preload },
-  { path: "/anniversary-catering-dubai", element: <AnniversaryCatering />, preload: AnniversaryCatering.preload },
   { path: "/baby-shower-catering-dubai", element: <BabyShowerCatering />, preload: BabyShowerCatering.preload },
   { path: "/private-party-catering-dubai", element: <PrivatePartyCatering />, preload: PrivatePartyCatering.preload },
-  { path: "/kids-birthday-catering-dubai", element: <KidsBirthdayCatering />, preload: KidsBirthdayCatering.preload },
-  { path: "/pool-party-catering-dubai", element: <PoolPartyCatering />, preload: PoolPartyCatering.preload },
-  { path: "/beach-catering-dubai", element: <BeachCatering />, preload: BeachCatering.preload },
   { path: "/desert-dining-dubai", element: <DesertDining />, preload: DesertDining.preload },
   { path: "/afternoon-tea-catering-dubai", element: <AfternoonTeaCatering />, preload: AfternoonTeaCatering.preload },
-  { path: "/housewarming-catering-dubai", element: <HousewarmingCatering />, preload: HousewarmingCatering.preload },
-  { path: "/graduation-catering-dubai", element: <GraduationCatering />, preload: GraduationCatering.preload },
-  { path: "/farewell-catering-dubai", element: <FarewellCatering />, preload: FarewellCatering.preload },
-  { path: "/reunion-catering-dubai", element: <ReunionCatering />, preload: ReunionCatering.preload },
-  { path: "/fathers-day-catering-dubai", element: <FathersDayCatering />, preload: FathersDayCatering.preload },
-  { path: "/chinese-new-year-catering-dubai", element: <ChineseNewYearCatering />, preload: ChineseNewYearCatering.preload },
-  { path: "/holi-catering-dubai", element: <HoliCatering />, preload: HoliCatering.preload },
-  { path: "/picnic-catering-dubai", element: <PicnicCatering />, preload: PicnicCatering.preload },
-  { path: "/coffee-tea-service-dubai", element: <CoffeeTeaService />, preload: CoffeeTeaService.preload },
-  { path: "/dessert-cart-dubai", element: <DessertCart />, preload: DessertCart.preload },
-  { path: "/shawarma-station-dubai", element: <ShawarmaStation />, preload: ShawarmaStation.preload },
-  { path: "/oyster-bar-dubai", element: <OysterBar />, preload: OysterBar.preload },
   { path: "/bbq-catering-dubai", element: <BBQCatering />, preload: BBQCatering.preload },
   { path: "/buffet-catering-dubai", element: <BuffetCatering />, preload: BuffetCatering.preload },
   { path: "/canape-catering-dubai", element: <CanapeCatering />, preload: CanapeCatering.preload },
@@ -284,7 +227,6 @@ export const routes: AppRoute[] = [
   { path: "/grazing-table-dubai", element: <GrazingTable />, preload: GrazingTable.preload },
   { path: "/dessert-table-catering-dubai", element: <DessertTableCatering />, preload: DessertTableCatering.preload },
   { path: "/cocktail-party-catering-dubai", element: <CocktailPartyCatering />, preload: CocktailPartyCatering.preload },
-  { path: "/mocktail-bar-catering-dubai", element: <MocktailBarCatering />, preload: MocktailBarCatering.preload },
   { path: "/indian-catering-dubai", element: <IndianCatering />, preload: IndianCatering.preload },
   { path: "/arabic-catering-dubai", element: <ArabicCatering />, preload: ArabicCatering.preload },
   { path: "/mediterranean-catering-dubai", element: <MediterraneanCatering />, preload: MediterraneanCatering.preload },
@@ -294,15 +236,7 @@ export const routes: AppRoute[] = [
   { path: "/vegan-catering-dubai", element: <VeganCatering />, preload: VeganCatering.preload },
   { path: "/vegetarian-catering-dubai", element: <VegetarianCatering />, preload: VegetarianCatering.preload },
   { path: "/halal-catering-dubai", element: <HalalCatering />, preload: HalalCatering.preload },
-  { path: "/healthy-catering-dubai", element: <HealthyCatering />, preload: HealthyCatering.preload },
-  { path: "/gluten-free-catering-dubai", element: <GlutenFreeCatering />, preload: GlutenFreeCatering.preload },
-  { path: "/dairy-free-catering-dubai", element: <DairyFreeCatering />, preload: DairyFreeCatering.preload },
-  { path: "/nut-free-catering-dubai", element: <NutFreeCatering />, preload: NutFreeCatering.preload },
-  { path: "/keto-catering-dubai", element: <KetoCatering />, preload: KetoCatering.preload },
   { path: "/jain-catering-dubai", element: <JainCatering />, preload: JainCatering.preload },
-  { path: "/pescatarian-catering-dubai", element: <PescatarianCatering />, preload: PescatarianCatering.preload },
-  { path: "/sugar-free-catering-dubai", element: <SugarFreeCatering />, preload: SugarFreeCatering.preload },
-  { path: "/fodmap-catering-dubai", element: <FodmapCatering />, preload: FodmapCatering.preload },
   { path: "/halal-private-dining-dubai", element: <HalalPrivateDining />, preload: HalalPrivateDining.preload },
   { path: "/cuisines-dubai", element: <Cuisines />, preload: Cuisines.preload },
   { path: "/office-catering-dubai", element: <OfficeCatering />, preload: OfficeCatering.preload },
@@ -311,9 +245,7 @@ export const routes: AppRoute[] = [
   { path: "/conference-catering-dubai", element: <ConferenceCatering />, preload: ConferenceCatering.preload },
   { path: "/staff-meals-catering-dubai", element: <StaffMealsCatering />, preload: StaffMealsCatering.preload },
   { path: "/production-catering-dubai", element: <ProductionCatering />, preload: ProductionCatering.preload },
-  { path: "/corporate-meal-prep-dubai", element: <CorporateMealPrep />, preload: CorporateMealPrep.preload },
   { path: "/ramadan-catering-dubai", element: <RamadanCatering />, preload: RamadanCatering.preload },
-  { path: "/suhoor-catering-dubai", element: <SuhoorCatering />, preload: SuhoorCatering.preload },
   { path: "/eid-catering-dubai", element: <EidCatering />, preload: EidCatering.preload },
   { path: "/diwali-catering-dubai", element: <DiwaliCatering />, preload: DiwaliCatering.preload },
   { path: "/guides", element: <Guides />, preload: Guides.preload },

@@ -8,7 +8,7 @@ const config: OccasionPageConfig = {
   seoTitle: "Mother's Day Catering Dubai | Brunch & Lunch",
   metaDescription:
     "Mother's Day catering in Dubai from AED 700pp — a brunch spread or afternoon tea, vetted chefs and full service. Bespoke menus for your event. Get an itemised quote.",
-  canonicalPath: '/mothers-day-catering-dubai',
+  canonicalPath: '/private-party-catering-dubai',
   ogImage: '/images/mothers-day-catering-dubai-hero.webp',
   breadcrumbLabel: "Mother's Day Catering Dubai",
   h1: "Mother's Day Catering in Dubai",

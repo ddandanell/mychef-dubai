@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /arabic-catering-dubai
+//     primary:     "arabic catering dubai"
+//     subkeywords: "arabic catering dubai price" · "arabic catering cost per person dubai" · "best arabic catering dubai" · "arabic catering packages dubai" · "arabic catering menu dubai" · "lebanese catering dubai" · "middle eastern catering dubai" · "mezze catering dubai" · "catering arabic food dubai" · "dubai catering company list" · "corporate catering" · "arabian ranches dining"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef } from 'react'
 import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
@@ -158,7 +164,7 @@ const faqs = [
   { q: "Is all the meat in your Arabic menus halal?", a: "Yes, halal meat and poultry are the default across all our Arabic catering in Dubai, sourced from trusted suppliers. Because Arabic cuisine centres on lamb, chicken, and kofta, halal sourcing is built into everything we prepare, and we're always happy to confirm the details when you plan. If you need a fully halal-certified event, explore our dedicated [halal catering](/halal-catering-dubai) menus." },
   { q: "What is the minimum number of guests for Arabic catering?", a: "We cater Arabic menus for a wide range of gatherings, from an intimate family majlis to weddings of several hundred guests, and we'll tailor the spread to your headcount rather than force a fixed minimum. Smaller villa dinners work beautifully with a focused mezze-and-grill selection, while larger celebrations can add ouzi, live stations, and a full sweets table. Give us your guest count and we'll advise the right menu scale." },
   { q: "Can you cater a large Arabic wedding banquet in Dubai?", a: "Absolutely, Arabic weddings are one of our specialities, and we scale gracefully from welcome mezze through a carved whole-lamb ouzi centrepiece to a flowing Arabic sweets and coffee table. We coordinate the timing, staffing, and stations so hundreds of guests are served warm, generous food without bottlenecks. See how it fits within our full [wedding catering](/wedding-catering-dubai) service." },
-  { q: "Do you offer live cooking stations like shawarma and charcoal grills?", a: "Yes, live stations are a highlight of our Arabic catering, from a shawarma carving station to open charcoal grills searing shish taouk, kofta, and lamb chops to order. Interactive stations add theatre and keep food hot and fresh throughout the event, which guests love at weddings, majlis nights, and corporate functions. Ask about pairing a [shawarma station](/shawarma-station-dubai) with a mezze grazing table." },
+  { q: "Do you offer live cooking stations like shawarma and charcoal grills?", a: "Yes, live stations are a highlight of our Arabic catering, from a shawarma carving station to open charcoal grills searing shish taouk, kofta, and lamb chops to order. Interactive stations add theatre and keep food hot and fresh throughout the event, which guests love at weddings, majlis nights, and corporate functions. Ask about pairing a [shawarma station](/live-cooking-stations-dubai) with a mezze grazing table." },
   { q: "Should we choose buffet or plated service for Arabic catering?", a: "It depends on your occasion: a buffet or station spread suits the sharing, abundant spirit of Arabic hospitality and works well for majlis evenings and large gatherings, while plated service gives a more formal, controlled experience for weddings and gala dinners. Arabic mezze naturally lends itself to a generous buffet, but we can plate courses elegantly when the setting calls for it. We'll recommend the format that best fits your guests and venue." },
   { q: "Can you accommodate vegetarian, vegan, and dietary requirements alongside the meat dishes?", a: "Yes, Arabic cuisine is naturally rich in plant-based dishes, so we build generous vegetarian and vegan mezze and mains — hummus, moutabal, stuffed vine leaves, grilled vegetables, and more — right alongside the grills. We also handle gluten-free, nut-free, and other requirements when you flag them in advance so every guest is looked after. Just share any allergies or preferences and we'll design the spread around them." },
   { q: "Do you cater iftar, suhoor, and Ramadan gatherings?", a: "Yes, we cater iftar and suhoor throughout Ramadan with dates, soups, mezze, grilled mains, and Arabic sweets, timed and styled for the occasion at homes, hotels, and corporate venues. Ramadan is one of our busiest periods, so we plan the menu and serving flow carefully around your break-fast time. Book early and see our dedicated [iftar catering](/iftar-catering-dubai) menus." },
@@ -192,7 +198,7 @@ const relatedServices = [
     title: 'Live Shawarma & Kebab Station',
     description: 'Freshly carved shawarma and grilled kebabs cooked to order at your event.',
     image: '/images/arabic-catering-dubai-hero.webp',
-    link: '/shawarma-station-dubai',
+    link: '/live-cooking-stations-dubai',
   },
 ]
 
@@ -455,7 +461,7 @@ export default function ArabicCatering() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Arabic Catering Questions
+            Arabic Catering Dubai: the questions we get before a booking
           </h2>
 
           <FaqAccordion items={faqs} showJumpNav />
@@ -509,7 +515,7 @@ export default function ArabicCatering() {
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
                   <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
-                    Explore <ArrowRight size={14} />
+                    {svc.title} <ArrowRight size={14} />
                   </span>
                 </div>
               </Link>

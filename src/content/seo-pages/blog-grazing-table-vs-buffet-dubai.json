@@ -24,8 +24,8 @@
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
   "title": "Grazing Table vs Buffet Dubai: How to Choose",
-  "meta_description": "Grazing table vs buffet in Dubai: a styled centrepiece for mingling parties vs a full self-serve meal for crowds. Costs, ideas and how to choose.",
-  "h1": "Grazing Table vs Buffet in Dubai: How to Choose — Real Prices and Timings"
+  "meta_description": "Grazing table vs buffet Dubai: a styled centrepiece for mingling parties vs a full self-serve meal for crowds. Costs, ideas and how to choose.",
+  "h1": "Grazing Table vs Buffet Dubai: How to Choose — Real Prices and Timings"
  },
  "opening_paragraph": [
   "The grazing table vs buffet Dubai decision comes down to mood: a myCHEF grazing table, from around AED 950, is a styled centrepiece for mingling. A buffet, by contrast, feeds a hungry crowd properly. Grazing suits a cocktail-style party where guests nibble and chat. A buffet suits a proper sit-down where people arrive hungry. Plenty of Dubai hosts run both, grazing on arrival and a buffet later, and the right call depends on your guest count, timing and how formal the evening feels."
@@ -240,5 +240,18 @@
    "after_heading": "Grazing table ideas that work in Dubai's climate",
    "caption": "Dubai heat is an operations problem: ice, shade, and swapping boards."
   }
- ]
+ ],
+ "keyword_lock": {
+  "primary": "grazing table vs buffet dubai",
+  "subkeywords": [
+   "what is a grazing table dubai",
+   "grazing table ideas",
+   "grazing table catering",
+   "grazing table examples",
+   "grazing table for 50 guests",
+   "average cost of grazing table",
+   "cost of grazing table for wedding",
+   "what is buffet catering"
+  ]
+ }
 }

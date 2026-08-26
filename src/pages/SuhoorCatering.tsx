@@ -212,7 +212,7 @@ const suhoorEventSchema = eventSchema(
   undefined,
   undefined,
   'Dubai',
-  '/suhoor-catering-dubai',
+  '/ramadan-catering-dubai',
 )
 
 const schema = {
@@ -281,7 +281,7 @@ export default function SuhoorCatering() {
       <SEO
         title="Suhoor Catering Dubai | Pre-Dawn Ramadan Menus | myCHEF"
         description="Book Suhoor catering in Dubai. Halal pre-dawn menus, light and hearty options, home, majlis and corporate service. Get a tailored quote in 15 minutes."
-        canonicalPath="/suhoor-catering-dubai"
+        canonicalPath="/ramadan-catering-dubai"
         ogImage="/menu-appetizer.webp"
         hideSiteName
         schema={schema}
@@ -498,7 +498,7 @@ export default function SuhoorCatering() {
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
                   <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
-                    Explore <ArrowRight size={14} />
+                    {svc.title} <ArrowRight size={14} />
                   </span>
                 </div>
               </Link>

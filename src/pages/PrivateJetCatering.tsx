@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /private-jet-catering-dubai
+//     primary:     "private jet catering dubai"
+//     subkeywords: "private jet chef dubai" · "in flight catering dubai" · "jet catering menu dubai" · "private jet food dubai" · "private jet meals dubai" · "emirates airline catering near dubai" · "aire private jet catering" · "belgium private jet catering" · "deluxe private jet catering" · "lax private jet catering" · "luxury private jet catering" · "nice private jet catering"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { Link } from 'react-router'
 import SEO from '../components/SEO'
 import PageHero from '../components/PageHero'
@@ -55,7 +61,7 @@ export default function PrivateJetCatering() {
     <div>
       <SEO
         title="Private Jet Catering Dubai | Coordinated to the Flight | myCHEF"
-        description="Private jet catering from Dubai. Tell us the flight, passenger count, timing and dietary requirements. We prepare and coordinate the food around the journey."
+        description="Private Jet Catering Dubai — Private jet catering from Dubai. Tell us the flight, passenger count, timing and dietary requirements. We prepare and…"
         canonicalPath={PATH}
         ogImage={HERO}
         hideSiteName
@@ -65,8 +71,8 @@ export default function PrivateJetCatering() {
       <PageHero
         variant="quiet"
         eyebrow="Private Jet Catering"
-        title="Private jet catering in Dubai, coordinated around the flight."
-        subtitle="A focused service. Tell us the flight, passenger count, timing, food preferences and dietary requirements. We prepare and coordinate the food around the journey."
+        title="Private Jet Catering Dubai, coordinated around the flight."
+        subtitle="Private Jet Catering Dubai by myCHEF — A focused service. Tell us the flight, passenger count, timing, food preferences and dietary requirements. We prepare and coordinate the food around the journey."
         image={HERO}
         imageAlt="Prepared jet catering packed for boarding in Dubai — labelled trays, quiet galley light, no cabin party. Experience concept shown."
         imageWidth={2560}

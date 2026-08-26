@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /allergy-safe-catering-dubai
+//     primary:     "allergy safe catering dubai"
+//     subkeywords: "allergy safe catering dubai price" · "allergy safe catering cost per person dubai" · "best allergy safe catering dubai" · "allergy safe catering packages dubai" · "allergy safe catering menu dubai" · "catering for guests with food allergies dubai" · "fsai safe catering allergens" · "best catering service in dubai" · "catering services availability in dubai" · "event catering" · "most reliable catering in dubai" · "food safety in dubai"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef } from 'react'
 import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
@@ -92,22 +98,41 @@ const faqs = [
 
 const relatedServices = [
   {
-    title: 'Healthy Catering Dubai',
-    description: 'Balanced, nutrition-conscious menus for events and family dining.',
-    image: '/images/healthy-catering-dubai-hero.webp',
-    link: '/healthy-catering-dubai',
+    title: 'Cuisines Dubai',
+    description: 'Indian, Arabic, Italian, vegan, vegetarian, Jain and more — built around how your guests eat.',
+    image: '/images/cuisines-hub-dubai-hero.webp',
+    link: '/cuisines-dubai',
   },
   {
-    title: 'Gluten-Free Catering',
-    description: 'Dedicated gluten-free menus with cross-contact controls.',
-    image: '/images/gluten-free-catering-dubai-hero.webp',
-    link: '/gluten-free-catering-dubai',
+    title: 'Halal Catering',
+    description: 'Halal sourcing as the default, not an add-on.',
+    image: '/images/halal-catering-dubai-hero.webp',
+    link: '/halal-catering-dubai',
   },
   {
-    title: 'Nut-Free Catering',
-    description: 'Safe nut-free event catering for homes, schools, and venues.',
-    image: '/images/nut-free-catering-dubai-hero.webp',
-    link: '/nut-free-catering-dubai',
+    title: 'Catering Dubai',
+    description: 'The full catering service this protocol sits inside.',
+    image: '/images/catering-dubai-hero.webp',
+    link: '/catering-dubai',
+  },
+]
+
+const requirementSections = [
+  {
+    title: 'Gluten',
+    description: 'Wheat, barley and rye stay off the plate when you brief us. We verify labels, keep a separate prep path for coeliac-risk guests, and say clearly if a home kitchen cannot support that separation.',
+  },
+  {
+    title: 'Dairy',
+    description: 'Lactose-free and dairy-free are not the same brief. Tell us which you need. We swap stocks, pastries and finishing butters before service, not at the pass.',
+  },
+  {
+    title: 'Nuts',
+    description: 'For nut-free events we treat the whole menu, not one dish. That includes oils, garnishes, desserts and supplier declarations. Severe nut allergy is flagged before a chef is matched.',
+  },
+  {
+    title: 'Low-FODMAP and sugar-aware',
+    description: 'Onion, garlic, wheat and high-FODMAP fruit come off the build when requested. Reduced-sugar desserts are designed as the menu, not a garnish swap on the night.',
   },
 ]
 
@@ -176,7 +201,7 @@ export default function AllergySafeCatering() {
     <div ref={containerRef}>
       <SEO
         title="Allergy-Safe Catering Dubai | Gluten, Dairy & Nut-Free | myCHEF"
-        description="Allergy-safe private chef and catering in Dubai. Detailed allergen briefings, ingredient verification, cross-contact controls, and dietary accommodation."
+        description="Allergy Safe Catering Dubai — Allergy-safe private chef and catering in Dubai. Detailed allergen briefings, ingredient verification, cross-contact controls…"
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/healthy-catering-dubai-hero.webp"
         hideSiteName
@@ -235,7 +260,7 @@ export default function AllergySafeCatering() {
               Tell us about your guests' allergies, intolerances, and dietary needs, and we will bring you a vetted chef experienced in allergy-safe preparation — usually within 24 hours. From ingredient verification to cross-contact controls, we build a clear protocol so everyone at your table can eat with confidence.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              Explore dedicated <Link to="/gluten-free-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">gluten-free</Link>, <Link to="/dairy-free-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">dairy-free</Link>, and <Link to="/nut-free-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">nut-free</Link> catering, or view our broader <Link to="/healthy-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">healthy catering</Link> options.
+              Explore dedicated <Link to="/allergy-safe-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">gluten-free</Link>, <Link to="/allergy-safe-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">dairy-free</Link>, and <Link to="/allergy-safe-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">nut-free</Link> catering, or view our broader <Link to="/cuisines-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">healthy catering</Link> options.
             </p>
           </div>
         </div>
@@ -262,6 +287,23 @@ export default function AllergySafeCatering() {
                 </div>
               )
             })}
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-white section-padding">
+        <div className="container-custom max-w-[1000px]">
+          <div className="text-center mb-12">
+            <SectionLabel align="center">REQUIREMENTS WE BUILD FOR</SectionLabel>
+            <h2 className="font-playfair text-h2 text-black">Gluten, dairy, nuts and special menus</h2>
+          </div>
+          <div className="grid md:grid-cols-2 gap-6">
+            {requirementSections.map((item) => (
+              <div key={item.title} className="border border-gray-200 p-8">
+                <h3 className="font-playfair text-h3 text-black mb-3">{item.title}</h3>
+                <p className="font-inter text-body-sm text-gray-500 leading-relaxed">{item.description}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -298,7 +340,7 @@ export default function AllergySafeCatering() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Allergy-Safe Catering Questions
+            Allergy Safe Catering Dubai: the questions we get before a booking
           </h2>
 
           <FaqAccordion items={faqs} />
@@ -330,7 +372,7 @@ export default function AllergySafeCatering() {
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
                   <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
-                    Explore <ArrowRight size={14} />
+                    {svc.title} <ArrowRight size={14} />
                   </span>
                 </div>
               </Link>

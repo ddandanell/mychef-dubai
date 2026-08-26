@@ -8,7 +8,7 @@ const config: ServicePageConfig = {
   seoTitle: 'Graduation Catering Dubai | School & University Parties',
   metaDescription:
     'Graduation party catering in Dubai for schools, universities and private celebrations. Buffet, canapés, live stations and full event service. Request a quote.',
-  canonicalPath: '/graduation-catering-dubai',
+  canonicalPath: '/private-party-catering-dubai',
   ogImage: '/service-events.webp',
   breadcrumbLabel: 'Graduation Party Catering Dubai',
   h1: 'Graduation Party Catering in Dubai',

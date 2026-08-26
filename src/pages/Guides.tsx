@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /guides
+//     primary:     "catering checklist dubai"
+//     subkeywords: "how to plan catering for an event dubai" · "event catering planning dubai" · "catering guides dubai price" · "event planning food checklist dubai" · "catering delivery checklist" · "catering order checklist" · "catering event checklist" · "catering food checklist" · "bbq catering checklist" · "catering audit checklist" · "catering business checklist" · "catering checklist excel"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef } from 'react'
 import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
@@ -205,8 +211,8 @@ export default function Guides() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Catering Guides Dubai | Prices & Planning"
-        description="Free Dubai catering guides: prices, wedding and corporate checklists, villa ideas, yacht catering, Ramadan planning, private chef vs catering, and more."
+        title="Catering Checklist Dubai | Catering Guides Dubai | myCHEF"
+        description="Catering Checklist Dubai — Free Dubai catering guides: prices, wedding and corporate checklists, villa ideas, yacht catering, Ramadan planning, private chef…"
         canonicalPath="/guides"
         ogImage="/service-catering.webp"
         schema={schema}
@@ -215,8 +221,8 @@ export default function Guides() {
       {/* ═══════════════ Hero ═══════════════ */}
       <PageHero
         eyebrow="Free Planning Resources"
-        title="Catering Guides for Dubai"
-        subtitle="Practical guides to help you plan private dining, events, weddings, corporate functions and celebrations across Dubai — from budgets and checklists to menu ideas and timing."
+        title="Catering Checklist Dubai"
+        subtitle="Catering Checklist Dubai by myCHEF — Practical guides to help you plan private dining, events, weddings, corporate functions and celebrations across Dubai — from budgets and che"
         image="/images/guides-hub-dubai-hero.webp"
         imageAlt="Dubai catering guides"
         cta={{ label: 'Request a Custom Quote', href: '/inquiry' }}
@@ -294,7 +300,7 @@ export default function Guides() {
           <div className="text-center mb-10">
             <SectionLabel align="center">FAQ</SectionLabel>
             <h2 className="font-playfair text-fluid-h2 text-black">
-              About Our Catering Guides
+              Catering Checklist Dubai: About Our Catering Guides
             </h2>
           </div>
 

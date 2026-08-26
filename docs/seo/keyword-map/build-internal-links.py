@@ -16,7 +16,11 @@ ROOT = HERE.parents[2]
 LIVE = HERE / ".live"
 contract = json.loads((ROOT / "docs/seo/myCHEF-AE-SEO-STANDARD.json").read_text())
 pages = contract["pages"]
-def norm(s): return re.sub(r"\s+", " ", re.sub(r"[^a-z0-9 ]", "", (s or "").lower().replace("-", " "))).strip()
+import unicodedata as _ud
+def _deaccent(s): return "".join(c for c in _ud.normalize("NFKD", s or "") if not _ud.combining(c))
+def norm(s):
+    s = _deaccent(s or "")
+    return re.sub(r"\s+", " ", re.sub(r"[^a-z0-9 ]", "", (s or "").lower().replace("-", " "))).strip()
 STOP = {"dubai", "in", "the", "a", "an", "for", "of", "uae", "and", "to", "at", "near", "me", "with", "on", "is", "your", "our"}
 def toks(s): return {t for t in norm(s).split() if t not in STOP}
 

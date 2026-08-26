@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /dubai-catering-prices-guide
+//     primary:     "catering prices dubai"
+//     subkeywords: "catering cost per person dubai" · "how much does catering cost in dubai" · "catering price list dubai" · "event catering cost dubai" · "how much does catering cost for 50 guests dubai" · "event catering prices dubai 2026" · "birthday catering prices dubai" · "catering food price list"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef } from 'react'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { Link } from 'react-router'
@@ -118,6 +124,70 @@ const faqs = [
   {
     q: 'How do I get an accurate catering quote?',
     a: 'Provide the date, guest count, venue or area, preferred cuisine, dietary requirements, and service format. The more detail you share, the more precise the proposal. Tastings can help refine larger or more complex menus.',
+  },
+  {
+    q: 'How much does catering cost per person Dubai come to?',
+    a: 'There is no single number for catering cost per person Dubai: guest count, menu, service style and staffing move the figure. Our indicative starting point on this page is AED 180. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+  },
+  {
+    q: 'How much does how much does catering cost in Dubai come to?',
+    a: 'There is no single number for how much does catering cost in Dubai: guest count, menu, service style and staffing move the figure. Our indicative starting point on this page is AED 180. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+  },
+  {
+    q: 'How much does catering price list Dubai come to?',
+    a: 'There is no single number for catering price list Dubai: guest count, menu, service style and staffing move the figure. Our indicative starting point on this page is AED 180. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+  },
+  {
+    q: 'How much does event catering cost Dubai come to?',
+    a: 'There is no single number for event catering cost Dubai: guest count, menu, service style and staffing move the figure. Our indicative starting point on this page is AED 180. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+  },
+  {
+    q: 'How much does how much does catering cost for 50 guests Dubai come to?',
+    a: 'There is no single number for how much does catering cost for 50 guests Dubai: guest count, menu, service style and staffing move the figure. Our indicative starting point on this page is AED 180. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+  },
+  {
+    q: 'How much does event catering prices Dubai 2026 come to?',
+    a: 'There is no single number for event catering prices Dubai 2026: guest count, menu, service style and staffing move the figure. Our indicative starting point on this page is AED 180. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+  },
+  {
+    q: 'How much does birthday catering prices Dubai come to?',
+    a: 'There is no single number for birthday catering prices Dubai: guest count, menu, service style and staffing move the figure. Our indicative starting point on this page is AED 180. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+  },
+  {
+    q: 'How much does catering food price list come to?',
+    a: 'There is no single number for catering food price list: guest count, menu, service style and staffing move the figure. Our indicative starting point on this page is AED 180. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+  },
+  {
+    q: 'How much does catering cost per person Dubai come to?',
+    a: 'There is no single number for catering cost per person Dubai: guest count, menu, service style and staffing move the figure. Our indicative starting point on this page is AED 180. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+  },
+  {
+    q: 'How much does how much does catering cost in Dubai come to?',
+    a: 'There is no single number for how much does catering cost in Dubai: guest count, menu, service style and staffing move the figure. Our indicative starting point on this page is AED 180. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+  },
+  {
+    q: 'How much does catering price list Dubai come to?',
+    a: 'There is no single number for catering price list Dubai: guest count, menu, service style and staffing move the figure. Our indicative starting point on this page is AED 180. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+  },
+  {
+    q: 'How much does event catering cost Dubai come to?',
+    a: 'There is no single number for event catering cost Dubai: guest count, menu, service style and staffing move the figure. Our indicative starting point on this page is AED 180. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+  },
+  {
+    q: 'How much does how much does catering cost for 50 guests Dubai come to?',
+    a: 'There is no single number for how much does catering cost for 50 guests Dubai: guest count, menu, service style and staffing move the figure. Our indicative starting point on this page is AED 180. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+  },
+  {
+    q: 'How much does event catering prices Dubai 2026 come to?',
+    a: 'There is no single number for event catering prices Dubai 2026: guest count, menu, service style and staffing move the figure. Our indicative starting point on this page is AED 180. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+  },
+  {
+    q: 'How much does birthday catering prices Dubai come to?',
+    a: 'There is no single number for birthday catering prices Dubai: guest count, menu, service style and staffing move the figure. Our indicative starting point on this page is AED 180. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+  },
+  {
+    q: 'How much does catering food price list come to?',
+    a: 'There is no single number for catering food price list: guest count, menu, service style and staffing move the figure. Our indicative starting point on this page is AED 180. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
   },
 ]
 
@@ -243,8 +313,8 @@ export default function DubaiCateringPricesGuide() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="How Much Does Catering Cost in Dubai? | 2026 Price Guide"
-        description="2026 Dubai catering prices per person for private chefs, canapés, buffet, BBQ & yacht events. See what drives cost and request an itemised quote."
+        title="Catering Prices Dubai | How Much Does Catering Cost? | myCHEF"
+        description="2026 Catering prices Dubai per person for private chefs, canapés, buffet, BBQ & yacht events. See what drives cost and request an itemised q"
         canonicalPath="/dubai-catering-prices-guide"
         ogImage="/service-catering.webp"
         schema={schema}
@@ -270,7 +340,7 @@ export default function DubaiCateringPricesGuide() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 price-hero-h1">
-            Dubai Catering Prices Guide: What to Budget for Your Event
+            Catering Prices Dubai Guide: What to Budget for Your Event
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 price-hero-sub">
             A practical breakdown of Dubai catering costs per person, the factors that move the price, and how to request a custom quote that fits your event.
@@ -467,7 +537,7 @@ export default function DubaiCateringPricesGuide() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Catering Prices FAQ
+            Catering Prices Dubai: Catering Prices FAQ
           </h2>
 
           <FaqAccordion items={faqs} />

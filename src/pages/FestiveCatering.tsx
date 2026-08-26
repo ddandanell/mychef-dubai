@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /festive-catering-dubai
+//     primary:     "festive catering dubai"
+//     subkeywords: "festive catering dubai price" · "festive catering cost per person dubai" · "best festive catering dubai" · "festive catering packages dubai" · "festive catering menu dubai" · "halal festive catering dubai" · "festive season catering dubai" · "christmas catering in dubai" · "diwali catering"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef } from 'react'
 import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
@@ -54,7 +60,7 @@ const festivePages = [
     icon: Sun,
   },
   {
-    slug: '/suhoor-catering-dubai',
+    slug: '/ramadan-catering-dubai',
     title: 'Suhoor Catering',
     description: 'Light, sustaining pre-dawn menus served in the early hours for Suhoor gatherings at home or in a villa.',
     icon: Coffee,
@@ -78,13 +84,13 @@ const festivePages = [
     icon: UtensilsCrossed,
   },
   {
-    slug: '/halloween-catering-dubai',
+    slug: '/private-party-catering-dubai',
     title: 'Halloween Catering',
     description: 'Spooky, playful menus and themed treats for Halloween parties at home or in a Dubai venue.',
     icon: PartyPopper,
   },
   {
-    slug: '/easter-catering-dubai',
+    slug: '/private-party-catering-dubai',
     title: 'Easter Catering',
     description: 'Spring-inspired brunches, roasts and family feasts for Easter celebrations across Dubai.',
     icon: Sun,
@@ -104,8 +110,8 @@ const relatedServices = [
   { title: 'Yacht Catering', link: '/yachts' },
   { title: 'Corporate Catering', link: '/corporate' },
   { title: 'Party Catering', link: '/private-party-catering-dubai' },
-  { title: 'Chinese New Year Catering', link: '/chinese-new-year-catering-dubai' },
-  { title: 'Holi Catering', link: '/holi-catering-dubai' },
+  { title: 'Chinese New Year Catering', link: '/asian-catering-dubai' },
+  { title: 'Holi Catering', link: '/indian-catering-dubai' },
 ]
 
 const faqs = [
@@ -139,7 +145,7 @@ const faqs = [
   { q: "Can you handle mixed dietary needs at one festive table?", a: "Absolutely — we regularly cater festive tables that mix vegetarian, vegan, gluten-free, dairy-free and nut-free guests alongside the classic dishes, all without splitting the celebration. Our chefs plan the menu so everyone eats well and nothing feels like an afterthought. Share your guests' requirements when you enquire and we'll map every course to keep the meal safe and inclusive; see our [allergy-safe catering](/allergy-safe-catering-dubai) approach for details." },
   { q: "Do you cater festive events in villas, apartments and yachts?", a: "Yes — we cater festive occasions in private villas, apartments, community homes and on yachts across Dubai, bringing our own equipment to work in your space. Our chefs adapt to compact apartment kitchens or expansive villa setups, and handle the logistics of on-board yacht service. Let us know your venue and we'll plan a menu and setup that fits; explore [villa and private residence dining](/villas-private-residences) or [yacht catering](/yachts)." },
   { q: "Can you provide a Christmas turkey and full roast for a home dinner?", a: "Yes — our chefs prepare a full festive roast in your home, including turkey with all the trimmings, sides, gravy and seasonal desserts, cooked fresh rather than reheated. We tailor the spread to your guest count and can add a carving station, canapés to start and a dessert course. Everything is cooked, plated and served on-site, with cleanup handled afterwards." },
-  { q: "Do you offer bar service, cocktails and drinks stations for festive parties?", a: "Yes — we can arrange bar service, cocktail and mocktail stations, and coffee or tea service for your festive celebration through our team and trusted partners. This pairs naturally with canapé receptions, New Year countdowns and grazing setups, so drinks and food flow together. Ask us about a [mocktail bar](/mocktail-bar-catering-dubai) or full bar setup and we'll fold it into your festive quote." },
+  { q: "Do you offer bar service, cocktails and drinks stations for festive parties?", a: "Yes — we can arrange bar service, cocktail and mocktail stations, and coffee or tea service for your festive celebration through our team and trusted partners. This pairs naturally with canapé receptions, New Year countdowns and grazing setups, so drinks and food flow together. Ask us about a [mocktail bar](/bar-services-dubai) or full bar setup and we'll fold it into your festive quote." },
   { q: "Can you create live cooking stations and grazing tables for the festive season?", a: "Yes — live cooking stations, carving counters, dessert carts and grazing tables are popular festive centrepieces we design and staff on-site. They add theatre and let guests watch dishes finished fresh, which works beautifully for New Year receptions and large parties. Browse our [live cooking stations](/live-cooking-stations-dubai) and [grazing table](/grazing-table-dubai) options, and we'll build a spread that suits your occasion." },
   { q: "When is peak festive catering season in Dubai and does it get busy?", a: "Peak season runs from November to March, covering Christmas, New Year, Ramadan, Iftar, Eid and the cooler outdoor-dining months, and dates book up quickly during this window. Because our chefs and kitchens are in high demand across the season, securing your date early gives you the widest menu and staffing options. Reach out as soon as you have a date in mind and we'll hold the best availability we can." },
   { q: "Should I choose a buffet or a plated menu for my festive event?", a: "It depends on the mood you want: a plated seated dinner feels more formal and elegant, while a festive buffet or grazing spread keeps things relaxed and social for larger, mingling crowds. Buffets and self-serve stations usually need less serving staff, whereas plated service delivers a polished, restaurant-style experience at home. Tell us your guest count and vibe and we'll recommend the format, or read our [buffet vs plated guide](/buffet-vs-plated-dubai)." },
@@ -210,7 +216,7 @@ export default function FestiveCatering() {
     <div ref={containerRef}>
       <SEO
         title="Festive Catering Dubai | Ramadan, Eid, Diwali, NYE | myCHEF"
-        description="Book festive catering in Dubai for Ramadan, Eid, Diwali, Christmas and NYE. Bespoke menus, private chefs and full service. Get a tailored quote in 15 minutes."
+        description="Book festive catering Dubai for Ramadan, Eid, Diwali, Christmas and NYE. Bespoke menus, private chefs and full service. Get a tailored quote in 15 minutes."
         canonicalPath="/festive-catering-dubai"
         ogImage="/images/festive-catering-dubai-hero.webp"
         hideSiteName
@@ -273,7 +279,7 @@ export default function FestiveCatering() {
                     </p>
                   </div>
                   <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
-                    Explore <ArrowRight size={14} />
+                    {page.title} <ArrowRight size={14} />
                   </span>
                 </Link>
               )
@@ -310,7 +316,7 @@ export default function FestiveCatering() {
           <div className="text-center mb-10">
             <SectionLabel align="center">FAQ</SectionLabel>
             <h2 className="font-playfair text-fluid-h2 text-black">
-              Planning Festive Catering in Dubai
+              Planning Festive Catering Dubai
             </h2>
           </div>
 

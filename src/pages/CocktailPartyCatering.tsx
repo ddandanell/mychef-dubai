@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /cocktail-party-catering-dubai
+//     primary:     "cocktail party catering dubai"
+//     subkeywords: "cocktail party catering dubai price" · "cocktail party catering price per person dubai" · "best cocktail party catering dubai" · "cocktail party catering packages dubai" · "cocktail party catering menu dubai" · "cocktail reception catering dubai" · "cocktail making class dubai" · "cost of party catering" · "party buffet catering near me" · "party sandwiches catering near me" · "pool party catering price per person dubai" · "private party catering near me"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef } from 'react'
 import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
@@ -179,7 +185,7 @@ const relatedServices = [
     title: 'Mocktail Bar Catering',
     description: 'A crafted alcohol-free bar with signature mocktails for every guest.',
     image: '/menu-cocktails.webp',
-    link: '/mocktail-bar-catering-dubai',
+    link: '/bar-services-dubai',
   },
   {
     title: 'Yacht Catering',
@@ -286,7 +292,7 @@ export default function CocktailPartyCatering() {
     <div ref={containerRef}>
       <SEO
         title="Cocktail Party Catering Dubai | Canapés & Bar | myCHEF"
-        description="Cocktail party catering in Dubai with mixologists, canapés & full bar service. Rooftop, yacht, villa & corporate receptions. Get a quote in 15 min."
+        description="Cocktail party catering Dubai with mixologists, canapés & full bar service. Rooftop, yacht, villa & corporate receptions. Get a quote in 15 min."
         canonicalPath="/cocktail-party-catering-dubai"
         ogImage="/menu-cocktails.webp"
         hideSiteName
@@ -311,7 +317,7 @@ export default function CocktailPartyCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 cock-hero-h1">
-            Cocktail Party Catering in Dubai — Mixologists, Canapés & Bar Service
+            Cocktail Party Catering Dubai — Mixologists, Canapés & Bar Service
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 cock-hero-sub">
             Professional mixologists, signature cocktails, and elegant passed canapés — styled for rooftop receptions, yacht parties, and villa soirées across Dubai.
@@ -450,7 +456,7 @@ export default function CocktailPartyCatering() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Cocktail Catering Questions
+            Cocktail Party Catering Dubai: the questions we get before a booking
           </h2>
 
           <FaqAccordion items={faqs} showJumpNav />
@@ -504,7 +510,7 @@ export default function CocktailPartyCatering() {
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
                   <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
-                    Explore <ArrowRight size={14} />
+                    {svc.title} <ArrowRight size={14} />
                   </span>
                 </div>
               </Link>

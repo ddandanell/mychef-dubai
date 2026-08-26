@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /guide/private-dining-dubai
+//     primary:     "private dining dubai"
+//     subkeywords: "private dining experience dubai" · "private dining at home dubai" · "private dinner party dubai" · "private dining ideas dubai" · "private dining dubai for couples" · "romantic private dining dubai" · "luxury private dining dubai menu" · "amazonico private dining dubai"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef, useState } from 'react'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { Link } from 'react-router'
@@ -300,7 +306,7 @@ export default function PrivateDiningGuide() {
     <div ref={containerRef}>
       <SEO
         title="Private Dining Dubai: A Complete Guide"
-        description="A complete guide to private dining in Dubai: where to host, types of experiences, how to choose a private chef, menu planning, pricing, and FAQs."
+        description="A complete guide to private dining Dubai: where to host, types of experiences, how to choose a private chef, menu planning, pricing, and FAQs."
         canonicalPath="/guide/private-dining-dubai"
         ogImage="/images/private-dining-guide-hero.webp"
         schema={schema}
@@ -326,7 +332,7 @@ export default function PrivateDiningGuide() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 pd-hero-h1">
-            The Complete Guide to Private Dining in Dubai
+            The Complete Guide to Private Dining Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 pd-hero-sub">
             Everything you need to know about hosting chef-led dining experiences in villas, penthouses, yachts, and desert venues across Dubai.
@@ -647,7 +653,7 @@ export default function PrivateDiningGuide() {
       <section className="bg-gradient-to-b from-charcoal to-black py-20">
         <div className="container-custom text-center pd-cta opacity-0 translate-y-8">
           <h2 className="font-playfair text-h2 text-white mb-4">
-            Plan Your Private Dining Experience
+            Private Dining Dubai: Plan Your Private Dining Experience
           </h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
             Tell us about your occasion, location, and guest list. We will design a bespoke menu and service plan around the people at your table.

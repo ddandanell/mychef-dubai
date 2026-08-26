@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /yacht-catering-guide-dubai
+//     primary:     "yacht catering guide dubai"
+//     subkeywords: "how yacht catering works dubai" · "what to serve on a yacht dubai" · "do yachts allow outside catering dubai" · "small yacht catering guide dubai" · "catering for yacht party" · "yacht dinner in dubai" · "yacht party food ideas" · "yacht food ideas"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef } from 'react'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { Link } from 'react-router'
@@ -219,7 +225,7 @@ export default function YachtCateringGuide() {
     <div ref={containerRef}>
       <SEO
         title="Yacht Catering Guide Dubai | Menus"
-        description="A yacht catering guide for Dubai: galley constraints, canapés, BBQ, buffet and seated menus, Marina and Palm routes, weather, crew coordination and permits."
+        description="A yacht catering guide Dubai: galley constraints, canapés, BBQ, buffet and seated menus, Marina and Palm routes, weather, crew coordination and permits."
         canonicalPath="/yacht-catering-guide-dubai"
         ogImage="/service-yacht.webp"
         schema={schema}
@@ -245,7 +251,7 @@ export default function YachtCateringGuide() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 yacht-hero-h1">
-            Yacht Catering Guide for Dubai Cruises and Celebrations
+            Yacht Catering Guide Dubai Cruises and Celebrations
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 yacht-hero-sub">
             Everything you need to plan catering for a Dubai yacht charter, from menu formats and route timing to crew coordination and onboard service.
@@ -400,7 +406,7 @@ export default function YachtCateringGuide() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Yacht Catering FAQ
+            Yacht Catering Guide Dubai: the questions we get before a booking
           </h2>
 
           <FaqAccordion items={faqs} />

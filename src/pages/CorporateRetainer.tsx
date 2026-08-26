@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /corporate-retainer-dubai
+//     primary:     "corporate catering contract dubai"
+//     subkeywords: "corporate catering contract dubai cost" · "monthly corporate catering dubai" · "corporate catering supplier dubai" · "corporate catering companies in dubai" · "catering contract with cancellation policy" · "catering services company in dubai" · "corporate catering dc" · "corporate catering difc dubai" · "catering contract examples" · "corporate meal prep packages dubai" · "iftar dubai for corporate"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef } from 'react'
 import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
@@ -193,7 +199,7 @@ export default function CorporateRetainer() {
     <div ref={containerRef}>
       <SEO
         title="Corporate Catering Contract Dubai | myCHEF"
-        description="myCHEF Dubai corporate retainer programmes for Dubai businesses. Monthly catering credit, priority booking, consolidated invoicing, and dedicated account."
+        description="Corporate Catering Contract Dubai — myCHEF Dubai corporate retainer programmes for Dubai businesses. Monthly catering credit, priority booking, consolidated…"
         canonicalPath={CANONICAL_PATH}
         ogImage="/service-corporate.webp"
         hideSiteName
@@ -355,7 +361,7 @@ export default function CorporateRetainer() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Corporate Retainer Questions
+            Corporate Catering Contract Dubai: the questions we get before a booking
           </h2>
 
           <FaqAccordion items={faqs} />
@@ -387,7 +393,7 @@ export default function CorporateRetainer() {
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
                   <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
-                    Explore <ArrowRight size={14} />
+                    {svc.title} <ArrowRight size={14} />
                   </span>
                 </div>
               </Link>

@@ -62,11 +62,12 @@ function renderAnswer(a: string): ReactNode {
  * in-answer internal links, and an optional jump-nav. Mobile + desktop tuned.
  */
 export default function FaqAccordion({ items, defaultOpen = 0, showJumpNav = false, className = '' }: FaqAccordionProps) {
+  const faqs = (items || []).filter((it) => it.q?.trim() && it.a?.trim())
   const [open, setOpen] = useState<number>(defaultOpen)
   const baseId = useId()
   const { hash } = useLocation()
 
-  const slugs = items ? items.map((it) => slugify(it.q)) : []
+  const slugs = faqs.map((it) => slugify(it.q))
 
   // Deep-link: if the URL hash matches a question, open it and scroll to it.
   useEffect(() => {
@@ -81,15 +82,15 @@ export default function FaqAccordion({ items, defaultOpen = 0, showJumpNav = fal
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [hash])
 
-  if (!items || items.length === 0) return null
+  if (faqs.length === 0) return null
 
   return (
     <div className={className}>
-      {showJumpNav && items.length > 4 && (
+      {showJumpNav && faqs.length > 4 && (
         <nav aria-label="Jump to a question" className="mb-8 rounded-2xl border border-black/10 bg-cream/60 p-5">
           <p className="font-inter text-xs font-semibold uppercase tracking-wider text-gold-dark mb-3">Jump to a question</p>
           <ul className="grid gap-x-6 gap-y-2 sm:grid-cols-2">
-            {items.map((it, i) => (
+            {faqs.map((it, i) => (
               <li key={i}>
                 <a
                   href={`#${slugs[i]}`}
@@ -105,7 +106,7 @@ export default function FaqAccordion({ items, defaultOpen = 0, showJumpNav = fal
       )}
 
       <div className="flex flex-col gap-3">
-        {items.map((item, i) => {
+        {faqs.map((item, i) => {
           const isOpen = open === i
           const btnId = `${baseId}-btn-${i}`
           const panelId = `${baseId}-panel-${i}`

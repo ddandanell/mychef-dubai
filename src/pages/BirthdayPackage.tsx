@@ -1,11 +1,17 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /birthday-catering-package-dubai
+//     primary:     "birthday catering packages dubai"
+//     subkeywords: "birthday catering package dubai price" · "birthday catering package cost per person dubai" · "best birthday catering package dubai" · "what is included in birthday catering package dubai" · "halal birthday catering package dubai" · "kids birthday catering packages dubai" · "birthday party package dubai catering" · "catering packages on offer in dubai" · "catering package dubai" · "kids birthday food package dubai" · "birthday catering at home dubai" · "birthday catering blog dubai"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import PackagePageTemplate from '@/components/PackagePageTemplate'
 
 export default function BirthdayPackage() {
   return (
     <PackagePageTemplate
       name="Birthday Celebration"
-      seoTitle="Birthday Catering Package Dubai | Private Chef for 8–12 | myCHEF"
-      description="A fixed birthday catering package in Dubai: a private chef for 8–12 guests from AED 3,600, with menu, cake option and full service. Larger parties quoted separately."
+      seoTitle="Birthday Catering Packages Dubai | Private Chef for 8–12 | myCHEF"
+      description="A fixed birthday catering packages Dubai: a private chef for 8–12 guests from AED 3,600, with menu, cake option and full service. Larger parties quoted separately."
       canonicalPath="/birthday-catering-package-dubai"
       ogImage="/images/birthday-catering-dubai-hero.webp"
       headline="Birthday Catering Package Dubai for 8–12 Guests"
@@ -63,7 +69,7 @@ export default function BirthdayPackage() {
           title: 'Kids Birthday Catering',
           description: "Children's menus, party boxes and allergy planning for a younger guest list.",
           image: '/images/kids-birthday-catering-dubai-hero.webp',
-          link: '/kids-birthday-catering-dubai',
+          link: '/birthday-catering-dubai',
         },
         {
           title: 'Catering Packages Dubai',

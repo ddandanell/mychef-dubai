@@ -39,6 +39,20 @@ def fetch_live(dest: pathlib.Path) -> None:
 if len(sys.argv) > 1 and sys.argv[1] == "--fetch":
     LIVE = HERE / ".live"
     fetch_live(LIVE)
+elif len(sys.argv) > 1 and sys.argv[1] == "--dist":
+    # rescore from a local prerender (npm run build:prerender) instead of the live snapshot
+    LIVE = HERE / ".live-dist"; LIVE.mkdir(exist_ok=True)
+    import shutil
+    for f in LIVE.glob("*.html"): f.unlink()
+    for html_file in (ROOT / "dist").rglob("index.html"):
+        rel = "/" + str(html_file.parent.relative_to(ROOT / "dist")).replace("\\", "/")
+        rel = "/" if rel in ("/.", "/") else rel
+        shutil.copy(html_file, LIVE / (("_index" if rel == "/" else rel.replace("/", "_")) + ".html"))
+    src_live = HERE / ".live"
+    for name in ("status.tsv",):
+        if (src_live / name).exists(): shutil.copy(src_live / name, LIVE / name)
+    if (src_live / "research").exists() and not (LIVE / "research").exists(): (LIVE / "research").symlink_to(src_live / "research")
+    print(f"rescoring from dist/: {len(list(LIVE.glob('*.html')))} pages")
 elif len(sys.argv) > 1:
     LIVE = pathlib.Path(sys.argv[1])
 else:
@@ -66,7 +80,11 @@ if _ads.exists():
 else:
     VOL_SOURCE = "private-chef lock table (Semrush UAE 2026-08-25)"
 
-def norm(s): return re.sub(r"\s+", " ", re.sub(r"[’'`]", "", (s or "").replace("-", " ").replace("–", " "))).strip().lower()
+import unicodedata as _ud
+def _deaccent(s): return "".join(c for c in _ud.normalize("NFKD", s or "") if not _ud.combining(c))
+def norm(s):
+    s = _deaccent(s or "")
+    return re.sub(r"\s+", " ", re.sub(r"[’'`]", "", (s or "").replace("-", " ").replace("–", " "))).strip().lower()
 def has(text, phrase):
     p = norm(phrase)
     return bool(p) and re.search(r"(?<![a-z0-9])" + re.escape(p) + r"(?![a-z0-9])", text) is not None

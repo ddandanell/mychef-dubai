@@ -7,7 +7,7 @@ const config: ServicePageConfig = {
   slug: 'reunion-catering-dubai',
   seoTitle: "Reunion Catering Dubai | Family & Friends",
   metaDescription: 'Reunion catering in Dubai for family gatherings, school reunions and friends get-togethers. Shared menus, live stations, villa service and full setup.',
-  canonicalPath: '/reunion-catering-dubai',
+  canonicalPath: '/private-party-catering-dubai',
   ogImage: '/service-events.webp',
   breadcrumbLabel: 'Reunion Catering Dubai',
   h1: 'Reunion Catering in Dubai',

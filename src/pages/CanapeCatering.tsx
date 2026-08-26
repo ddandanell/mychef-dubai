@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /canape-catering-dubai
+//     primary:     "canape catering dubai"
+//     subkeywords: "canape catering dubai price" · "canape catering price per person dubai" · "best canape catering dubai" · "canape catering packages dubai" · "canape catering menu dubai" · "halal canape catering dubai" · "how many canapes per person" · "finger food catering dubai" · "birthday canape catering dubai" · "corporate canape catering dubai" · "finger food catering price per person dubai" · "canapes catering near me"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef } from 'react'
 import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
@@ -64,7 +70,7 @@ const canapeFormats = [
     icon: Heart,
     title: 'Engagement & Celebrations',
     description: 'Refined canapé selections and dessert bites for engagements, anniversaries, and intimate milestone receptions.',
-    link: '/engagement-catering-dubai',
+    link: '/private-party-catering-dubai',
   },
 ]
 
@@ -173,6 +179,70 @@ const faqs = [
   { q: "Can you accommodate vegetarian, vegan, and allergy-specific canapés?", a: "Yes. We routinely build proper vegetarian and vegan canapé selections rather than a single token option, and we cater gluten-free, nut-free, and other allergy-aware bites, all clearly labelled. Tell us about any allergies or dietary needs when you enquire and our chefs design the tray so every guest can eat with confidence." },
   { q: "Can canapés be paired with a cocktail or mocktail bar?", a: "Yes. We design paired bite-and-drink menus with bartender service so each canapé complements the cocktail or mocktail it arrives with, including fully non-alcoholic bars for family and corporate events. It turns a reception into a coordinated experience rather than food and drinks running separately. Explore our [cocktail party catering in Dubai](/cocktail-party-catering-dubai) for the full setup." },
   { q: "Should I choose canapés or a full seated dinner for my event?", a: "Choose canapés when you want guests mingling, moving, and networking, such as receptions, launches, engagement toasts, and welcome hours, and choose a seated menu when the food is the main event. Many hosts start with passed canapés and drinks, then transition to a meal, and we can plan both under one booking. Tell us the mood you want and we will recommend the right format." },
+  {
+    q: 'How much does canape catering Dubai price come to?',
+    a: 'There is no single number for canape catering Dubai price: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+  },
+  {
+    q: 'How much does canape catering price per person Dubai come to?',
+    a: 'There is no single number for canape catering price per person Dubai: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+  },
+  {
+    q: 'What makes myCHEF a strong choice for best canape catering Dubai?',
+    a: 'One team owns the whole event — menu, shopping, cooking on site, service and clear-down — so nothing falls between suppliers. The chefs are vetted and matched to the occasion, ingredients are charged at cost with no markup, and every quote is itemised.',
+  },
+  {
+    q: 'Do you offer canape catering packages Dubai?',
+    a: 'Yes. We start from set formats and adjust them to your event rather than selling a fixed box: menu length, service style, staff and equipment are chosen for the day. Ask for the format closest to what you are planning and we shape it from there.',
+  },
+  {
+    q: 'Do you offer canape catering menu Dubai?',
+    a: 'Yes. It sits inside the same service as canape catering Dubai: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+  },
+  {
+    q: 'Can you handle halal canape catering Dubai?',
+    a: 'Yes. Dietary needs are planned into the menu from the first draft, not bolted on: dishes are labelled, cross-contact is managed in the kitchen we set up on site, and the chef is briefed on every guest requirement before the day.',
+  },
+  {
+    q: 'How much does how many canapes per person come to?',
+    a: 'There is no single number for how many canapes per person: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+  },
+  {
+    q: 'Do you offer finger food catering Dubai?',
+    a: 'Yes. It sits inside the same service as canape catering Dubai: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+  },
+  {
+    q: 'How much does canape catering Dubai price come to?',
+    a: 'There is no single number for canape catering Dubai price: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+  },
+  {
+    q: 'How much does canape catering price per person Dubai come to?',
+    a: 'There is no single number for canape catering price per person Dubai: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+  },
+  {
+    q: 'What makes myCHEF a strong choice for best canape catering Dubai?',
+    a: 'One team owns the whole event — menu, shopping, cooking on site, service and clear-down — so nothing falls between suppliers. The chefs are vetted and matched to the occasion, ingredients are charged at cost with no markup, and every quote is itemised.',
+  },
+  {
+    q: 'Do you offer canape catering packages Dubai?',
+    a: 'Yes. We start from set formats and adjust them to your event rather than selling a fixed box: menu length, service style, staff and equipment are chosen for the day. Ask for the format closest to what you are planning and we shape it from there.',
+  },
+  {
+    q: 'Do you offer canape catering menu Dubai?',
+    a: 'Yes. It sits inside the same service as canape catering Dubai: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+  },
+  {
+    q: 'Can you handle halal canape catering Dubai?',
+    a: 'Yes. Dietary needs are planned into the menu from the first draft, not bolted on: dishes are labelled, cross-contact is managed in the kitchen we set up on site, and the chef is briefed on every guest requirement before the day.',
+  },
+  {
+    q: 'How much does how many canapes per person come to?',
+    a: 'There is no single number for how many canapes per person: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+  },
+  {
+    q: 'Do you offer finger food catering Dubai?',
+    a: 'Yes. It sits inside the same service as canape catering Dubai: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+  },
 ]
 
 const relatedServices = [
@@ -293,7 +363,7 @@ export default function CanapeCatering() {
     <div ref={containerRef}>
       <SEO
         title="Canapé Catering Dubai | Passed, Hot & Cold Canapés | myCHEF"
-        description="Elegant canapé catering in Dubai. Passed, hot & cold bites for receptions, launches, weddings & corporate events. From AED __ per person — request a menu quote."
+        description="Elegant canapé catering Dubai. Passed, hot & cold bites for receptions, launches, weddings & corporate events. From AED __ per person — r"
         canonicalPath="/canape-catering-dubai"
         ogImage="/menu-canapes.webp"
         hideSiteName
@@ -318,7 +388,7 @@ export default function CanapeCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 can-hero-h1">
-            Canapé Catering in Dubai — Passed, Hot & Cold Bites
+            Canapé Catering Dubai — Passed, Hot & Cold Bites
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 can-hero-sub">
             Passed canapés, styled displays, and cocktail pairings — refined, photogenic bites and seamless service for receptions, openings, launches, and elegant celebrations across Dubai.
@@ -460,7 +530,7 @@ export default function CanapeCatering() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Canapé Catering Questions
+            Canape Catering Dubai: the questions we get before a booking
           </h2>
 
           <FaqAccordion items={faqs} showJumpNav />
@@ -514,7 +584,7 @@ export default function CanapeCatering() {
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
                   <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
-                    Explore <ArrowRight size={14} />
+                    {svc.title} <ArrowRight size={14} />
                   </span>
                 </div>
               </Link>

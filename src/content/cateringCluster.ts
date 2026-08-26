@@ -104,8 +104,17 @@ export const CATERING_KEYWORD_LOCK = {
   primary: 'catering dubai',
   title: 'Catering Dubai | Food Only to Full Event Support | myCHEF',
   description:
-    'Catering in Dubai built around your event: food delivered to the venue, or chefs, staff, tables and full event support. Tell us what you are planning.',
+    'Catering Dubai by myCHEF: catering services in Dubai for weddings, villas, yachts, offices and home parties. Food-only from AED 90pp or full service.',
 } as const
+
+/** Rendered exactly as STANDARD siblings on /catering-dubai. */
+export const CATERING_SIBLING_LINKS = [
+  { href: '/events', label: 'Events' },
+  { href: '/buffet-catering-dubai', label: 'Buffet catering' },
+  { href: '/drop-off-catering-dubai', label: 'Drop-off catering' },
+  { href: '/cuisines-dubai', label: 'Cuisines' },
+  { href: '/catering-packages-dubai', label: 'Catering packages' },
+] as const
 
 export const CATERING_FOOTER_LINKS = [
   { label: 'Catering Dubai', href: CATERING_PATHS.overview },

@@ -1,3 +1,5 @@
+import { SERVICES } from './privateChefPricing'
+
 export const PAGE_PATH = '/private-chef-dubai'
 export const CAMPAIGN = 'private-chef-dubai'
 
@@ -10,10 +12,13 @@ export function monthlyFrom(perService: number, daysPerWeek: number, zoneFee = 0
   return (perService + zoneFee) * 4 * daysPerWeek
 }
 
-export const SEO_TITLE = 'Private Chef Dubai | Household Chef, Managed Properly | myCHEF'
+/** Entry long-term figure: Professional Chef, one Fresh Meal a week. From the pricing engine. */
+export const ENTRY_MONTHLY = monthlyFrom(SERVICES[0].rates.professional, 1)
+
+export const SEO_TITLE = `Private Chef Dubai | From ${formatAed(ENTRY_MONTHLY)} a Month | myCHEF`
 export const SEO_DESCRIPTION =
-  'A private chef for your Dubai home — matched, assessed and managed. From a few days a week to a standing household arrangement. From AED 2,700 a month.'
-export const H1 = 'A Private Chef for Your Home, Managed Properly'
+  `A standing private chef for the household in Dubai. Prep, dinner or full-day plans from ${formatAed(ENTRY_MONTHLY)} a month. Matched, managed and replaced if the fit is wrong.`
+export const H1 = 'Private Chef Dubai — a chef who comes back'
 export const HERO_IMAGE = '/images/private-chef-dubai-hero.webp'
 export const HERO_IMAGE_WIDTH = 1280
 export const HERO_IMAGE_HEIGHT = 720

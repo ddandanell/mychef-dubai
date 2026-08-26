@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /date-night-package-dubai
+//     primary:     "date night package dubai"
+//     subkeywords: "date night package dubai price" · "best date night package dubai" · "what is included in a date night package dubai" · "date night dinner menu dubai" · "halal date night dubai" · "date night at home dubai" · "date night dubai private dinner" · "wednesday night dinner dubai" · "lunch date dubai" · "private dinner package dubai" · "couples dinner package dubai" · "dinner package for two dubai"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import PackagePageTemplate from '@/components/PackagePageTemplate'
 
 export default function DateNightPackage() {

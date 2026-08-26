@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /referral-programme
+//     primary:     "mychef referral programme"
+//     subkeywords: "refer a friend catering dubai"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef } from 'react'
 import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
@@ -87,8 +93,8 @@ export default function ReferralProgramme() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Referral Programme Dubai | Give & Get AED 100"
-        description="Refer friends to myCHEF Dubai and earn AED 100 credit for every booking. Your friend also receives AED 100 off their first private chef or catering experience."
+        title="myCHEF Referral Programme | Referral Programme Dubai | myCHEF"
+        description="myCHEF Referral Programme — Refer friends to myCHEF Dubai and earn AED 100 credit for every booking. Your friend also receives AED 100 off their first…"
         canonicalPath="/referral-programme"
         ogImage="/images/celebration-catering-dubai-hero.webp"
         schema={schema}
@@ -96,8 +102,8 @@ export default function ReferralProgramme() {
 
       <PageHero
         eyebrow="REFER & REWARD"
-        title="Give AED 100, Get AED 100"
-        subtitle="Share myCHEF Dubai with friends and family. They save on their first booking, and you earn credit towards your next experience."
+        title="myCHEF Referral Programme: Give AED 100, Get AED 100"
+        subtitle="myCHEF Referral Programme by myCHEF — Share myCHEF Dubai with friends and family. They save on their first booking, and you earn credit towards your next experience."
         image="/images/celebration-catering-dubai-hero.webp"
         imageAlt="myCHEF Dubai referral programme"
         cta={{ label: 'Join the Referral Programme', href: WHATSAPP_LINK, external: true }}
@@ -186,7 +192,7 @@ export default function ReferralProgramme() {
       {/* CTA */}
       <section className="bg-gradient-to-b from-charcoal to-black py-24">
         <div className="container-custom text-center ref-fade opacity-0 translate-y-8">
-          <h2 className="font-playfair text-h2 text-white mb-4">Start Earning Today</h2>
+          <h2 className="font-playfair text-h2 text-white mb-4">myCHEF Referral Programme: Start Earning Today</h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">
             Join the myCHEF referral programme on WhatsApp and start sharing AED 100 rewards with your network.
           </p>

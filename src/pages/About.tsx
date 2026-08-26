@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /about
+//     primary:     "private chef company dubai"
+//     subkeywords: "about mychef dubai" · "luxury catering company dubai" · "private chef agency dubai" · "a chef" · "chef recruitment agencies in dubai" · "personal chef services availability in dubai" · "personal chef services on offer in dubai" · "top personal chef services provider in dubai"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef } from 'react'
 import { Link } from 'react-router'
 import { ArrowRight, Waves, Anchor, Building2, TreePine, Landmark, Sprout } from 'lucide-react'
@@ -125,7 +131,7 @@ export default function About() {
     <div ref={containerRef}>
       <SEO
         title="Private Chef Company Dubai"
-        description="Discover myCHEF Dubai — a private-dining house that designs bespoke dining experiences and brings you professional, licensed chefs across Dubai."
+        description="Private Chef Company Dubai — Discover myCHEF Dubai — a private-dining house that designs bespoke dining experiences and brings you professional, licensed…"
         canonicalPath="/about"
         ogImage="/team-head-chef.webp"
         preloadHero="/images/mychef-dubai-about-team-hero.webp"
@@ -135,8 +141,8 @@ export default function About() {
       {/* Section 1: Hero */}
       <PageHero
         eyebrow="ABOUT MYCHEF"
-        title="Hiring a chef is the easy part."
-        subtitle="Keeping the standard, covering the day off, remembering how your household eats — that is the work. This is the team that does it, so you run a service, not a person."
+        title="Private Chef Company Dubai: Hiring a chef is the easy part."
+        subtitle="Private Chef Company Dubai by myCHEF — Keeping the standard, covering the day off, remembering how your household eats — that is the work. This is the team that does it, so you ru"
         image="/images/mychef-dubai-about-team-hero.webp"
         imageAlt="The myCHEF Dubai team — chefs, specialists and household managers — in a Dubai kitchen with the skyline behind them"
         imageWidth={1672}

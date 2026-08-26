@@ -284,7 +284,7 @@ export default function BachelorPartyCatering() {
       <SEO
         title="Bachelor Party Catering Dubai | Yacht, Villa & BBQ | myCHEF"
         description="Book bachelor party catering in Dubai. Live BBQ grills, premium meats, cocktails and full service for yacht and villa send-offs. Get a quote in 15 minutes."
-        canonicalPath="/bachelor-party-catering-dubai"
+        canonicalPath="/private-party-catering-dubai"
         ogImage="/service-events.webp"
         hideSiteName
         schema={schema}
@@ -510,7 +510,7 @@ export default function BachelorPartyCatering() {
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
                   <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
-                    Explore <ArrowRight size={14} />
+                    {svc.title} <ArrowRight size={14} />
                   </span>
                 </div>
               </Link>
@@ -518,7 +518,7 @@ export default function BachelorPartyCatering() {
           </div>
           <p className="font-inter text-body-sm text-gray-400 text-center mt-10">
             Planning the other half of the celebration? Explore our{' '}
-            <Link to="/bachelorette-party-catering-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">bachelorette party catering</Link>.
+            <Link to="/private-party-catering-dubai" className="text-gold hover:text-gold-light transition-colors underline underline-offset-2">bachelorette party catering</Link>.
           </p>
         </div>
       </section>

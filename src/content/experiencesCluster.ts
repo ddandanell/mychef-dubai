@@ -21,7 +21,7 @@ export const EXPERIENCES_PATHS = {
   giftCards: '/gift-cards',
   /** Supporting pages — reached through the hub, deliberately not in the dropdown. */
   halal: '/halal-private-dining-dubai',
-  valentines: '/valentines-day-catering-dubai',
+  valentines: '/romantic-dinner-dubai',
   vipClub: '/vip-club',
 } as const
 
@@ -153,9 +153,9 @@ export const EXPERIENCE_KEYWORD_LOCKS = {
 
 /** Hub SEO. Keeps the existing "Luxury Dining Experiences" positioning, widens the semantics. */
 export const experiencesHubSeo = {
-  title: 'Luxury Dining Experiences Dubai | Private Chef Dining | myCHEF',
+  title: 'Luxury Dining in Dubai | Private Chef Experiences at Home | myCHEF',
   description:
-    'Luxury dining experiences in Dubai, from romantic dinners and tasting menus to cooking classes and desert dining. Designed around you by myCHEF.',
+    'Luxury dining in Dubai, designed around the moment: romantic dinners, tasting menus, chef\'s table and desert dining by a private chef, from myCHEF.',
   h1: 'Luxury dining in Dubai, designed around the moment',
   canonical: EXPERIENCES_PATHS.hub,
 } as const

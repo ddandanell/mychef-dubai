@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /our-chefs
+//     primary:     "private chefs dubai"
+//     subkeywords: "chefs dubai" · "how are private chefs vetted dubai" · "are private chefs in dubai licensed" · "female private chef dubai" · "hire chef dubai" · "looking for chef" · "private chef hire" · "personal chef" · "chef for hire" · "female private chefs dubai" · "private bbq chef dubai" · "private cook in dubai"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useEffect, useRef } from 'react'
 import { Link } from 'react-router'
 import gsap from 'gsap'
@@ -146,8 +152,8 @@ export default function OurChefs() {
   return (
     <>
       <SEO
-        title="Private Chef Network Dubai | Vetted Chefs"
-        description="Meet the experienced private chefs in the myCHEF Dubai network. Professional independent chefs specializing in fine dining, international cuisine, and more."
+        title="Private Chefs Dubai | Vetted Chefs"
+        description="Private Chefs Dubai — Meet the experienced private chefs in the myCHEF Dubai network. Professional independent chefs specializing in fine dining…"
         canonicalPath="/our-chefs"
         ogImage="/images/about-mychef-dubai-hero.webp"
         schema={breadcrumbSchema(breadcrumbs) as unknown as Record<string, unknown>}
@@ -156,8 +162,8 @@ export default function OurChefs() {
       {/* Section 1: Page Hero */}
       <PageHero
         eyebrow="THE CHEFS WE CHOOSE"
-        title="Vetted Private Chefs in Dubai"
-        subtitle="Every chef is interviewed, tasted and background-checked before joining. We bring you the right chef for your occasion — reply within 15 minutes during business hours."
+        title="Vetted Private Chefs Dubai"
+        subtitle="Private Chefs Dubai by myCHEF — Every chef is interviewed, tasted and background-checked before joining. We bring you the right chef for your occasion — reply within 15 min"
         image="/images/about-mychef-dubai-hero.webp"
         imageAlt="A partner chef at work for a myCHEF Dubai private dining experience"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'The Chefs We Choose' }]}
@@ -286,7 +292,7 @@ export default function OurChefs() {
       {/* Section 4: Kitchen Standards */}
       <section ref={standardsRef} className="bg-charcoal py-20">
         <div className="container-custom max-w-[1000px]">
-          <h2 className="font-playfair text-fluid-h2 text-white text-center mb-12">How We Vet Every Chef</h2>
+          <h2 className="font-playfair text-fluid-h2 text-white text-center mb-12">Private Chefs Dubai: How We Vet Every Chef</h2>
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
             {standards.map(({ icon: Icon, label }) => (
               <div key={label} className="standard-item flex flex-col items-center text-center">

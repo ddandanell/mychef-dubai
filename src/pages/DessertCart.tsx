@@ -8,7 +8,7 @@ const config: ServicePageConfig = {
   seoTitle: "Gelato & Dessert Cart Dubai | Events",
   metaDescription:
     'Dessert cart and gelato cart hire in Dubai: ice cream, sorbet, crepes, waffles and sweet treats for weddings, parties, corporate events and kids birthdays.',
-  canonicalPath: '/dessert-cart-dubai',
+  canonicalPath: '/live-cooking-stations-dubai',
   ogImage: '/images/dessert-table-catering-dubai-hero.webp',
   showTrustSignalStrip: true,
   breadcrumbLabel: 'Gelato & Dessert Cart Dubai',
@@ -34,7 +34,7 @@ const config: ServicePageConfig = {
           dessert table catering Dubai
         </Link>{' '}
         and as a highlight at{' '}
-        <Link to="/kids-birthday-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
+        <Link to="/birthday-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           kids birthday catering Dubai
         </Link>{' '}
         parties. It also pairs well with{' '}
@@ -69,7 +69,7 @@ const config: ServicePageConfig = {
       Icon: PartyPopper,
       title: 'Candy & Popcorn Cart',
       description: 'Colourful candy jars, popcorn, cotton candy and nostalgic treats for fun, family-friendly events.',
-      link: '/kids-birthday-catering-dubai',
+      link: '/birthday-catering-dubai',
     },
     {
       Icon: Sparkles,
@@ -166,7 +166,7 @@ const config: ServicePageConfig = {
       title: 'Kids Birthday Catering',
       description: 'Fun, safe and colourful catering designed specifically for childrens parties in Dubai.',
       image: '/images/kids-birthday-catering-dubai-hero.webp',
-      link: '/kids-birthday-catering-dubai',
+      link: '/birthday-catering-dubai',
     },
     {
       title: 'Wedding Catering Dubai',

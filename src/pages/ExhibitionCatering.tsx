@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /exhibition-catering-dubai
+//     primary:     "exhibition catering dubai"
+//     subkeywords: "exhibition catering dubai price" · "exhibition catering dubai cost per person" · "exhibition stand catering dubai" · "exhibition catering packages dubai" · "exhibition catering menu dubai" · "trade show catering dubai" · "food exhibition catering dubai" · "dubai food exhibition 2026"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { Link } from 'react-router'
 import { Building2, Users, Coffee, PartyPopper, Truck, Utensils } from 'lucide-react'
 import ServiceLandingPage from './shared/ServiceLandingPage'
@@ -7,7 +13,7 @@ const config: ServicePageConfig = {
   slug: 'exhibition-catering-dubai',
   seoTitle: 'Exhibition Catering Dubai | DWTC & Expo City | myCHEF',
   metaDescription:
-    'Exhibition catering in Dubai for DWTC, Expo City & trade show stands. Branded counters, canapés, coffee stations & halal menus. VAT/TRN invoicing. Get a quote.',
+    'Exhibition catering Dubai for DWTC, Expo City & trade show stands. Branded counters, canapés, coffee stations & halal menus. VAT/TRN invoicing. Get a quote.',
   canonicalPath: '/exhibition-catering-dubai',
   ogImage: '/service-events.webp',
   breadcrumbLabel: 'Exhibition Catering Dubai',
@@ -132,7 +138,7 @@ const config: ServicePageConfig = {
     { src: '/service-luxury-dining.webp', alt: 'VIP hospitality catering for exhibitions' },
     { src: '/menu-dessert.webp', alt: 'Dessert display for exhibition events' },
   ],
-  faqsH2: 'Exhibition Catering Questions',
+  faqsH2: 'Exhibition Catering Dubai: the questions we get before a booking',
   faqs: [
     {
       q: 'Which exhibition venues in Dubai do you cater?',

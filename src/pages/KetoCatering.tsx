@@ -8,7 +8,7 @@ const config: DietaryPageConfig = {
   seoTitle: "Keto & Low-Carb Catering Dubai | High-Protein",
   metaDescription:
     'Keto and low-carb catering in Dubai for events, villas, offices and wellness retreats. High-protein menus, healthy fats and zero compromise on flavour.',
-  canonicalPath: '/keto-catering-dubai',
+  canonicalPath: '/cuisines-dubai',
   showTrustSignalStrip: true,
   ogImage: '/images/keto-catering-dubai-hero.webp',
   breadcrumbLabel: 'Keto & Low-Carb Catering Dubai',
@@ -27,7 +27,7 @@ const config: DietaryPageConfig = {
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
         Whether you need a fully keto wedding menu, a low-carb corporate lunch, or a villa dinner where guests can stay on track without feeling deprived, we design every dish with macros in mind. Pair this with our{' '}
-        <Link to="/healthy-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
+        <Link to="/cuisines-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           healthy catering Dubai
         </Link>{' '}
         range or explore{' '}
@@ -153,13 +153,13 @@ const config: DietaryPageConfig = {
       title: 'Healthy Catering',
       description: 'Balanced, nutrition-focused menus for wellness events and offices.',
       image: '/service-corporate.webp',
-      link: '/healthy-catering-dubai',
+      link: '/cuisines-dubai',
     },
     {
       title: 'Sugar-Free Catering',
       description: 'Reduced-sugar menus that align naturally with low-carb goals.',
       image: '/images/healthy-catering-dubai-hero.webp',
-      link: '/sugar-free-catering-dubai',
+      link: '/allergy-safe-catering-dubai',
     },
     {
       title: 'BBQ Catering',

@@ -38,9 +38,9 @@
  },
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
-  "title": "Buffet Catering Dubai | Menus & Prices | myCHEF",
-  "meta_description": "Buffet catering in Dubai from AED 120pp — hot and cold mains, vetted chefs, setup and cleanup. Minimum 20 guests on a buffet. Get an itemised quote.",
-  "h1": "Buffet Catering in Dubai — Real Prices, Menus and Timings"
+  "title": "Buffet Catering Dubai | myCHEF",
+  "meta_description": "Buffet Catering Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.",
+  "h1": "Buffet Catering Dubai"
  },
  "opening_paragraph": [
   "Buffet catering in Dubai costs from AED 120 per person and feeds a long guest list from one generous self-serve spread. It is the format hosts reach for when the count runs from twenty to a few hundred and plated service would be slow or costly. A vetted chef and team cook, replenish and clear the whole spread, so you work the room instead of the kitchen. Tell us your numbers and we typically reply within 15 minutes during business hours, with an itemised proposal to follow."

@@ -8,7 +8,7 @@ const config: OccasionPageConfig = {
   seoTitle: "Valentine's Day Catering Dubai | Private Chef Dinners",
   metaDescription:
     "Valentine's Day catering in Dubai with prices: AED 700–950pp for a private chef at your table, from AED 120pp for a party spread.",
-  canonicalPath: '/valentines-day-catering-dubai',
+  canonicalPath: '/romantic-dinner-dubai',
   ogImage: '/images/valentines-day-catering-dubai-hero.webp',
   breadcrumbLabel: "Valentine's Day Catering Dubai",
   h1: "Valentine's Day Catering in Dubai",

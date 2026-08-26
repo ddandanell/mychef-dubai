@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /bbq-catering-dubai
+//     primary:     "bbq catering dubai"
+//     subkeywords: "bbq catering dubai price" · "bbq catering price per person dubai" · "best bbq catering dubai" · "bbq catering packages dubai" · "bbq catering menu dubai" · "halal bbq catering dubai" · "bbq chef at home dubai" · "villa bbq catering dubai" · "home bbq catering dubai" · "desert bbq catering dubai" · "live bbq catering dubai" · "outdoor bbq catering dubai"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef } from 'react'
 import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
@@ -58,7 +64,7 @@ const bbqFormats = [
     icon: Ship,
     title: 'Yacht BBQ Catering',
     description: 'Compact, mess-free grilling and chilled sides designed for the deck — generous, relaxed dining for charters around Dubai Marina and the coast.',
-    link: '/bachelor-party-catering-dubai',
+    link: '/private-party-catering-dubai',
   },
   {
     icon: Users,
@@ -166,6 +172,70 @@ const faqs = [
   { q: "Is a live BBQ better than a buffet for my event?", a: "A live BBQ adds theatre, aroma, and freshly grilled plates cooked to order, which makes it feel more interactive and social than a static spread. A buffet can serve very large numbers efficiently, and many clients combine a grill station with buffet sides for the best of both. If you are weighing the options, compare with our [buffet catering in Dubai](/buffet-catering-dubai)." },
   { q: "Can I add other live cooking stations alongside the grill?", a: "Yes, the BBQ pairs beautifully with additional live stations such as a shawarma carvery, mezze spread, or dessert setup to round out the experience. We coordinate the whole service so everything runs smoothly from one team on the day. Explore more options on our [live cooking stations in Dubai](/live-cooking-stations-dubai) page." },
   { q: "Is your BBQ catering fully halal?", a: "Yes, we source halal meats by default for our grills, and we are happy to confirm the specifics of your chosen menu. This applies across steaks, lamb, chicken, and any additional proteins we prepare on the day. If you have further questions about sourcing, just ask when you request your proposal." },
+  {
+    q: 'How much does BBQ catering Dubai price come to?',
+    a: 'There is no single number for BBQ catering Dubai price: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+  },
+  {
+    q: 'How much does BBQ catering price per person Dubai come to?',
+    a: 'There is no single number for BBQ catering price per person Dubai: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+  },
+  {
+    q: 'What makes myCHEF a strong choice for best BBQ catering Dubai?',
+    a: 'One team owns the whole event — menu, shopping, cooking on site, service and clear-down — so nothing falls between suppliers. The chefs are vetted and matched to the occasion, ingredients are charged at cost with no markup, and every quote is itemised.',
+  },
+  {
+    q: 'Do you offer BBQ catering packages Dubai?',
+    a: 'Yes. We start from set formats and adjust them to your event rather than selling a fixed box: menu length, service style, staff and equipment are chosen for the day. Ask for the format closest to what you are planning and we shape it from there.',
+  },
+  {
+    q: 'Do you offer BBQ catering menu Dubai?',
+    a: 'Yes. It sits inside the same service as BBQ catering Dubai: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+  },
+  {
+    q: 'Can you handle halal BBQ catering Dubai?',
+    a: 'Yes. Dietary needs are planned into the menu from the first draft, not bolted on: dishes are labelled, cross-contact is managed in the kitchen we set up on site, and the chef is briefed on every guest requirement before the day.',
+  },
+  {
+    q: 'Do you provide BBQ chef at home Dubai?',
+    a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave the home as we found it. Across Palm Jumeirah, Dubai Marina, Emirates Hills this is our most common booking.',
+  },
+  {
+    q: 'Do you provide villa BBQ catering Dubai?',
+    a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave the home as we found it. Across Palm Jumeirah, Dubai Marina, Emirates Hills this is our most common booking.',
+  },
+  {
+    q: 'How much does BBQ catering Dubai price come to?',
+    a: 'There is no single number for BBQ catering Dubai price: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+  },
+  {
+    q: 'How much does BBQ catering price per person Dubai come to?',
+    a: 'There is no single number for BBQ catering price per person Dubai: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+  },
+  {
+    q: 'What makes myCHEF a strong choice for best BBQ catering Dubai?',
+    a: 'One team owns the whole event — menu, shopping, cooking on site, service and clear-down — so nothing falls between suppliers. The chefs are vetted and matched to the occasion, ingredients are charged at cost with no markup, and every quote is itemised.',
+  },
+  {
+    q: 'Do you offer BBQ catering packages Dubai?',
+    a: 'Yes. We start from set formats and adjust them to your event rather than selling a fixed box: menu length, service style, staff and equipment are chosen for the day. Ask for the format closest to what you are planning and we shape it from there.',
+  },
+  {
+    q: 'Do you offer BBQ catering menu Dubai?',
+    a: 'Yes. It sits inside the same service as BBQ catering Dubai: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+  },
+  {
+    q: 'Can you handle halal BBQ catering Dubai?',
+    a: 'Yes. Dietary needs are planned into the menu from the first draft, not bolted on: dishes are labelled, cross-contact is managed in the kitchen we set up on site, and the chef is briefed on every guest requirement before the day.',
+  },
+  {
+    q: 'Do you provide BBQ chef at home Dubai?',
+    a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave the home as we found it. Across Palm Jumeirah, Dubai Marina, Emirates Hills this is our most common booking.',
+  },
+  {
+    q: 'Do you provide villa BBQ catering Dubai?',
+    a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave the home as we found it. Across Palm Jumeirah, Dubai Marina, Emirates Hills this is our most common booking.',
+  },
 ]
 
 const relatedServices = [
@@ -191,7 +261,7 @@ const relatedServices = [
     title: "Father's Day Catering",
     description: "Celebrate Dad with a BBQ or brunch menu he'll love.",
     image: '/service-events.webp',
-    link: '/fathers-day-catering-dubai',
+    link: '/private-party-catering-dubai',
   },
 ]
 
@@ -292,7 +362,7 @@ export default function BBQCatering() {
     <div ref={containerRef}>
       <SEO
         title="BBQ Catering Dubai | Live BBQ Stations & Outdoor Grills | myCHEF"
-        description="Book live BBQ catering in Dubai. Partner-chef-led grills, aged steaks, seafood & halal options for villas, gardens, beaches & yachts. Get a tailored."
+        description="Book live BBQ catering Dubai. Partner-chef-led grills, aged steaks, seafood & halal options for villas, gardens, beaches & yachts. Get a "
         canonicalPath="/bbq-catering-dubai"
         ogImage="/service-events.webp"
         hideSiteName
@@ -317,7 +387,7 @@ export default function BBQCatering() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 bbq-hero-h1">
-            BBQ Catering & Live Barbecue Stations in Dubai
+            BBQ Catering Dubai — Live Barbecue Stations
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 bbq-hero-sub">
             partner-chef-led grills, premium meats, and fresh seafood cooked live at your villa, garden, beach, or yacht — the theatre and aroma of open-flame cooking with flawless full service across Dubai.
@@ -456,7 +526,7 @@ export default function BBQCatering() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            BBQ Catering Questions
+            BBQ Catering Dubai: the questions we get before a booking
           </h2>
 
           <FaqAccordion items={faqs} showJumpNav />
@@ -510,7 +580,7 @@ export default function BBQCatering() {
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
                   <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
-                    Explore <ArrowRight size={14} />
+                    {svc.title} <ArrowRight size={14} />
                   </span>
                 </div>
               </Link>

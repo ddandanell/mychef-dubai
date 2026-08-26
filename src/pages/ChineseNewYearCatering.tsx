@@ -8,7 +8,7 @@ const config: ServicePageConfig = {
   seoTitle: "Chinese New Year Catering Dubai | Feasts",
   metaDescription:
     'Chinese New Year catering in Dubai: Lunar New Year menus, dim sum, Peking duck, live noodle stations and family banquets at home or venues. Request a quote.',
-  canonicalPath: '/chinese-new-year-catering-dubai',
+  canonicalPath: '/asian-catering-dubai',
   ogImage: '/images/asian-catering-dubai-hero.webp',
   breadcrumbLabel: 'Chinese New Year Catering Dubai',
   h1: 'Chinese New Year Catering in Dubai',

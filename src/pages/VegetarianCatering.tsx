@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /vegetarian-catering-dubai
+//     primary:     "vegetarian catering dubai"
+//     subkeywords: "vegetarian catering dubai price" · "vegetarian catering cost per person dubai" · "best vegetarian catering dubai" · "vegetarian catering packages dubai" · "vegetarian catering menu dubai" · "pure veg catering dubai" · "veg catering dubai" · "vegetarian buffet catering dubai" · "vegetarian meals for catering" · "best vegetarian food dubai" · "is vegetarian food available in dubai" · "vegetarian meal plans dubai"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef } from 'react'
 import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
@@ -46,7 +52,7 @@ const vegFormats = [
     icon: Carrot,
     title: 'Garden Salads & Bowls',
     description: 'Vibrant seasonal salads, grain bowls, and roasted vegetable plates that feel light, fresh, and substantial all at once.',
-    link: '/healthy-catering-dubai',
+    link: '/cuisines-dubai',
   },
   {
     icon: Flame,
@@ -64,7 +70,7 @@ const vegFormats = [
     icon: Building,
     title: 'Corporate Vegetarian',
     description: 'Inclusive vegetarian lunches and reception menus for offices and events where dietary variety and presentation both matter.',
-    link: '/healthy-catering-dubai',
+    link: '/cuisines-dubai',
   },
 ]
 
@@ -170,7 +176,7 @@ const relatedServices = [
     title: 'Healthy Catering',
     description: 'Nutrition-focused, balanced menus for wellness days and corporate events.',
     image: '/service-catering.webp',
-    link: '/healthy-catering-dubai',
+    link: '/cuisines-dubai',
   },
 ]
 
@@ -433,7 +439,7 @@ export default function VegetarianCatering() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Vegetarian Catering Questions
+            Vegetarian Catering Dubai: the questions we get before a booking
           </h2>
 
           <FaqAccordion items={faqs} />
@@ -487,7 +493,7 @@ export default function VegetarianCatering() {
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
                   <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
-                    Explore <ArrowRight size={14} />
+                    {svc.title} <ArrowRight size={14} />
                   </span>
                 </div>
               </Link>

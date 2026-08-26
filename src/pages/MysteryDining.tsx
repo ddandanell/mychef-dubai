@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /mystery-dining-dubai
+//     primary:     "surprise dinner experience dubai"
+//     subkeywords: "surprise dinner experience dubai price" · "best surprise dining experience dubai" · "surprise dinner package dubai" · "surprise dinner for two dubai" · "best dinner experience in dubai" · "mystery dinner dubai" · "private dinner experience dubai" · "surprise cake delivery in dubai" · "fine dining experience dubai" · "unique dining experience dubai" · "dinner experience for couples dubai" · "chef dining experience dubai"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef } from 'react'
 import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
@@ -195,7 +201,7 @@ export default function MysteryDining() {
     <div ref={containerRef}>
       <SEO
         title="Surprise Dinner Experience Dubai | Private Chef Menus | myCHEF"
-        description="Book a surprise dinner experience in Dubai. A private chef designs a multi-course menu around your preferences and dietary needs, revealed on the night."
+        description="Book a surprise dinner experience Dubai. A private chef designs a multi-course menu around your preferences and dietary needs, revealed on the night."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/tasting-menu-dubai-hero.webp"
         hideSiteName
@@ -341,7 +347,7 @@ export default function MysteryDining() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Mystery Dining Questions
+            Surprise Dinner Experience Dubai: the questions we get before a booking
           </h2>
 
           <FaqAccordion items={faqs} />
@@ -373,7 +379,7 @@ export default function MysteryDining() {
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
                   <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
-                    Explore <ArrowRight size={14} />
+                    {svc.title} <ArrowRight size={14} />
                   </span>
                 </div>
               </Link>

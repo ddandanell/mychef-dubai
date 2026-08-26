@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /conference-catering-dubai
+//     primary:     "conference catering dubai"
+//     subkeywords: "conference catering dubai price" · "conference catering dubai cost per person" · "conference catering companies dubai" · "conference catering packages dubai" · "conference catering menu dubai" · "conference lunch catering dubai" · "catering & conference services coordinator" · "catering conference 2025" · "catering conference 2026" · "conference and catering umanitoba" · "conference catering brisbane" · "conference catering darwin"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef } from 'react'
 import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
@@ -64,7 +70,7 @@ const conferenceFormats = [
     icon: Leaf,
     title: 'Dietary-Inclusive Menus',
     description: 'Vegetarian, vegan, gluten-free, and halal options clearly labelled and available across every break and meal.',
-    link: '/healthy-catering-dubai',
+    link: '/cuisines-dubai',
   },
 ]
 
@@ -150,6 +156,70 @@ const faqs = [
   {
     q: 'How far in advance should we book conference catering?',
     a: 'For multi-day conferences we recommend booking two to four weeks ahead, and earlier during the peak season from November to March. For organisers running events regularly, a standing arrangement makes planning each conference faster and keeps standards consistent.',
+  },
+  {
+    q: 'How much does conference catering Dubai price come to?',
+    a: 'There is no single number for conference catering Dubai price: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+  },
+  {
+    q: 'How much does conference catering Dubai cost per person come to?',
+    a: 'There is no single number for conference catering Dubai cost per person: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+  },
+  {
+    q: 'Do you handle conference catering companies Dubai?',
+    a: 'Yes. For companies we work to a fixed timing, invoice properly, cater dietary requirements per employee and keep the set-up clean and quick. One contact, one itemised quote, and the same team every time if you want continuity.',
+  },
+  {
+    q: 'Do you offer conference catering packages Dubai?',
+    a: 'Yes. We start from set formats and adjust them to your event rather than selling a fixed box: menu length, service style, staff and equipment are chosen for the day. Ask for the format closest to what you are planning and we shape it from there.',
+  },
+  {
+    q: 'Do you handle conference catering menu Dubai?',
+    a: 'Yes. For companies we work to a fixed timing, invoice properly, cater dietary requirements per employee and keep the set-up clean and quick. One contact, one itemised quote, and the same team every time if you want continuity.',
+  },
+  {
+    q: 'Do you handle conference lunch catering Dubai?',
+    a: 'Yes. For companies we work to a fixed timing, invoice properly, cater dietary requirements per employee and keep the set-up clean and quick. One contact, one itemised quote, and the same team every time if you want continuity.',
+  },
+  {
+    q: 'Do you handle catering & conference services coordinator?',
+    a: 'Yes. For companies we work to a fixed timing, invoice properly, cater dietary requirements per employee and keep the set-up clean and quick. One contact, one itemised quote, and the same team every time if you want continuity.',
+  },
+  {
+    q: 'Do you handle catering conference 2025?',
+    a: 'Yes. For companies we work to a fixed timing, invoice properly, cater dietary requirements per employee and keep the set-up clean and quick. One contact, one itemised quote, and the same team every time if you want continuity.',
+  },
+  {
+    q: 'How much does conference catering Dubai price come to?',
+    a: 'There is no single number for conference catering Dubai price: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+  },
+  {
+    q: 'How much does conference catering Dubai cost per person come to?',
+    a: 'There is no single number for conference catering Dubai cost per person: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+  },
+  {
+    q: 'Do you handle conference catering companies Dubai?',
+    a: 'Yes. For companies we work to a fixed timing, invoice properly, cater dietary requirements per employee and keep the set-up clean and quick. One contact, one itemised quote, and the same team every time if you want continuity.',
+  },
+  {
+    q: 'Do you offer conference catering packages Dubai?',
+    a: 'Yes. We start from set formats and adjust them to your event rather than selling a fixed box: menu length, service style, staff and equipment are chosen for the day. Ask for the format closest to what you are planning and we shape it from there.',
+  },
+  {
+    q: 'Do you handle conference catering menu Dubai?',
+    a: 'Yes. For companies we work to a fixed timing, invoice properly, cater dietary requirements per employee and keep the set-up clean and quick. One contact, one itemised quote, and the same team every time if you want continuity.',
+  },
+  {
+    q: 'Do you handle conference lunch catering Dubai?',
+    a: 'Yes. For companies we work to a fixed timing, invoice properly, cater dietary requirements per employee and keep the set-up clean and quick. One contact, one itemised quote, and the same team every time if you want continuity.',
+  },
+  {
+    q: 'Do you handle catering & conference services coordinator?',
+    a: 'Yes. For companies we work to a fixed timing, invoice properly, cater dietary requirements per employee and keep the set-up clean and quick. One contact, one itemised quote, and the same team every time if you want continuity.',
+  },
+  {
+    q: 'Do you handle catering conference 2025?',
+    a: 'Yes. For companies we work to a fixed timing, invoice properly, cater dietary requirements per employee and keep the set-up clean and quick. One contact, one itemised quote, and the same team every time if you want continuity.',
   },
 ]
 
@@ -271,7 +341,7 @@ export default function ConferenceCatering() {
     <div ref={containerRef}>
       <SEO
         title="Conference Catering Dubai | Breaks & Working Lunches | myCHEF"
-        description="Conference catering in Dubai with coffee breaks, working lunches & multi-day programmes. VAT/TRN invoicing, halal menus, account manager. Get a quote in 15 min."
+        description="Conference catering Dubai with coffee breaks, working lunches & multi-day programmes. VAT/TRN invoicing, halal menus, account manager. Ge"
         canonicalPath="/conference-catering-dubai"
         ogImage="/service-corporate.webp"
         hideSiteName
@@ -435,7 +505,7 @@ export default function ConferenceCatering() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Conference Catering Questions
+            Conference Catering Dubai: Conference Catering Questions
           </h2>
 
           <FaqAccordion items={faqs} />
@@ -489,7 +559,7 @@ export default function ConferenceCatering() {
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
                   <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
-                    Explore <ArrowRight size={14} />
+                    {svc.title} <ArrowRight size={14} />
                   </span>
                 </div>
               </Link>

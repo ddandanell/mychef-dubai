@@ -39,8 +39,8 @@
  },
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
-  "title": "Brunch at Home in Dubai: 2026 Hosting Guide",
-  "meta_description": "Host brunch at home in Dubai: menus, drinks, budgets from around AED 700 per person, and when a private chef is worth it.",
+  "title": "Brunch at Home Dubai: 2026 Hosting Guide",
+  "meta_description": "Host brunch at home Dubai: menus, drinks, budgets from around AED 700 per person, and when a private chef is worth it.",
   "h1": "Brunch at Home Dubai: How to Host a Standout Spread — Real Prices and Timings"
  },
  "opening_paragraph": [
@@ -310,5 +310,18 @@
    "after_heading": "Should you add a bottomless or mocktail bar?",
    "caption": "A drinks station can be juice and coffee. It does not have to be a champagne tower."
   }
- ]
+ ],
+ "keyword_lock": {
+  "primary": "brunch at home dubai",
+  "subkeywords": [
+   "how to host brunch at home dubai",
+   "brunch at home cost dubai",
+   "brunch ideas at home dubai",
+   "private chef brunch dubai",
+   "brunch ideas at home easy",
+   "what is a good at home brunch menu",
+   "what is a dubai style brunch",
+   "brunch party dubai"
+  ]
+ }
 }

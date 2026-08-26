@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /postpartum-meal-prep-dubai
+//     primary:     "postpartum meal prep dubai"
+//     subkeywords: "postpartum meal prep dubai price" · "postpartum meal delivery dubai" · "postpartum meal prep packages dubai" · "postpartum meal prep menu dubai" · "confinement food delivery dubai" · "meals for new mums dubai" · "postpartum meal plan dubai" · "easy meal prep for after baby" · "fitness meal prep delivery" · "best meal prep companies in dubai" · "postpartum chef dubai" · "meal prep food dubai"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef } from 'react'
 import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
@@ -176,7 +182,7 @@ export default function PostpartumMealPrep() {
     <div ref={containerRef}>
       <SEO
         title="Postpartum Meal Prep Dubai | Recovery Meals | myCHEF"
-        description="Postpartum meal prep in Dubai by a private chef. Nutrient-dense, culturally appropriate recovery meals for new mothers during the fourth trimester. Get a quote."
+        description="Postpartum meal prep Dubai by a private chef. Nutrient-dense, culturally appropriate recovery meals for new mothers during the fourth trimester. Get a quote."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/weekly-meal-prep-dubai-hero.webp"
         hideSiteName
@@ -238,7 +244,7 @@ export default function PostpartumMealPrep() {
               A private chef visits your home, prepares multiple days of recovery-focused meals, portions them for easy reheating, and leaves your kitchen clean. If your needs continue beyond the fourth trimester, our <Link to="/weekly-meal-prep-dubai" className="text-gold hover:underline">weekly meal prep</Link> service can keep your household fed without the daily effort.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              We do not provide medical advice, but we do listen carefully to your preferences, your doctor or nutritionist&apos;s guidance, and the traditions that matter to your family. For ongoing health and fitness goals, our <Link to="/wellness-meal-prep-dubai" className="text-gold hover:underline">wellness meal prep</Link> programmes offer nutritionist-aligned support. Also see <Link to="/healthy-catering-dubai" className="text-gold hover:underline">healthy catering</Link> and <Link to="/private-chef-dubai" className="text-gold hover:underline">private chef service</Link>.
+              We do not provide medical advice, but we do listen carefully to your preferences, your doctor or nutritionist&apos;s guidance, and the traditions that matter to your family. For ongoing health and fitness goals, our <Link to="/wellness-meal-prep-dubai" className="text-gold hover:underline">wellness meal prep</Link> programmes offer nutritionist-aligned support. Also see <Link to="/cuisines-dubai" className="text-gold hover:underline">healthy catering</Link> and <Link to="/private-chef-dubai" className="text-gold hover:underline">private chef service</Link>.
             </p>
           </div>
         </div>
@@ -301,7 +307,7 @@ export default function PostpartumMealPrep() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Postpartum Meal Prep Questions
+            Postpartum Meal Prep Dubai: the questions we get before a booking
           </h2>
 
           <FaqAccordion items={faqs} />
@@ -333,7 +339,7 @@ export default function PostpartumMealPrep() {
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
                   <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
-                    Explore <ArrowRight size={14} />
+                    {svc.title} <ArrowRight size={14} />
                   </span>
                 </div>
               </Link>

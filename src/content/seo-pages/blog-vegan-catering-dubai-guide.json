@@ -27,12 +27,12 @@
  },
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
-  "title": "Plant Based Catering Dubai — What to Expect | myCHEF Dubai",
-  "meta_description": "Plant based catering in Dubai: what a plant-led menu actually looks like, how it is sourced and priced, and what to ask before you book.",
-  "h1": "Plant Based Catering Dubai — What to Expect"
+  "title": "Vegan Menu Ideas Dubai | myCHEF",
+  "meta_description": "Vegan Menu Ideas Dubai — Plant based catering in Dubai: what a plant-led menu actually looks like, how it is sourced and priced, and what to ask before you…",
+  "h1": "Vegan Menu Ideas Dubai: Plant Based Catering Dubai — What to Expect"
  },
  "opening_paragraph": [
-  "Plant based catering in Dubai costs from AED 700 per person. Here is the honest version. Vegan catering in Dubai delivers fully plant-based menus, no meat, dairy or eggs, from around AED 700 per person, so your vegan guests get a real spread instead of a side salad. With myCHEF you get the same chefs, cooking and service as any other menu."
+  "Vegan Menu Ideas Dubai by myCHEF — Plant based catering in Dubai costs from AED 700 per person. Here is the honest version. Vegan catering in Dubai delivers fully plant-based menus, no meat, dairy or eggs, from around AED 700 per person, so your vegan guests get a real spread instead of a side salad. With myCHEF you get the same chefs, cooking and service as any other menu."
  ],
  "replace_in_block": [
   {
@@ -257,5 +257,18 @@
    "after_heading": "Can a vegan private chef cook at my home or villa?",
    "caption": "It happens in ordinary home kitchens, including apartments."
   }
- ]
+ ],
+ "keyword_lock": {
+  "primary": "vegan menu ideas dubai",
+  "subkeywords": [
+   "vegan party food ideas dubai",
+   "how to cater for vegan guests dubai",
+   "vegan menu plan",
+   "vegan fine dining ideas",
+   "vegan meal service dubai",
+   "best vegan food in dubai",
+   "plant based catering near me",
+   "does dubai cater for vegans"
+  ]
+ }
 }

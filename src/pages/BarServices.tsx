@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /bar-services-dubai
+//     primary:     "bar services dubai"
+//     subkeywords: "mobile bar hire dubai price" · "bar hire packages dubai" · "bartender hire dubai" · "mocktail bar catering price per person dubai" · "mocktail bar birthday party dubai" · "mocktail bar dubai" · "event bartender dubai" · "mocktail bar catering menu dubai" · "oyster bar catering price per person dubai" · "bartender for birthday party dubai" · "mocktail station dubai"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef } from 'react'
 import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
@@ -54,7 +60,7 @@ const barFormats = [
     icon: Leaf,
     title: 'Mocktail & Non-Alcoholic Bar',
     description: 'Elevated zero-proof options so every guest can enjoy beautifully crafted drinks.',
-    link: '/mocktail-bar-catering-dubai',
+    link: '/bar-services-dubai',
   },
 ]
 
@@ -63,7 +69,9 @@ const includedItems = [
   { title: 'Bartenders & Bar Backs', description: 'Professional bar staff scaled to your guest count for smooth, attentive service.' },
   { title: 'Mobile Bar Setup, Glassware & Garnishes', description: 'A styled bar counter, quality glassware, fresh garnishes, and complete presentation.' },
   { title: 'Premium Spirits, Mixers & Fresh Ingredients', description: 'Quality spirits, hand-picked mixers, and fresh produce for every pour.' },
-  { title: 'Non-Alcoholic Menu Options', description: 'Creative mocktails and zero-proof drinks for inclusive events.' },
+  { title: 'Non-Alcoholic Menu Options', description: 'Creative mocktails and zero-proof drinks for inclusive events. Mocktail bars sit here, not on a second URL.' },
+  { title: 'Glassware, Ice & Mixers', description: 'The bar arrives with glassware, ice and mixers. You do not source them separately unless you want to.' },
+  { title: 'Alcohol and BYO', description: 'We can supply the spirits or run a BYO bar you have already bought. The policy is written into the quote so there is no surprise at setup.' },
   { title: 'Setup, Service & Breakdown', description: 'We handle delivery, installation, service, and clear-down from start to finish.' },
 ]
 
@@ -164,7 +172,7 @@ const relatedServices = [
     title: 'Mocktail Bar Catering',
     description: 'Alcohol-free craft bars with fresh, theatre-led mocktails for every guest.',
     image: '/service-events.webp',
-    link: '/mocktail-bar-catering-dubai',
+    link: '/bar-services-dubai',
   },
   {
     title: 'Wedding Catering',
@@ -276,7 +284,7 @@ export default function BarServices() {
     <div ref={containerRef}>
       <SEO
         title="Bar Services Dubai | Bartender Hire & Mobile Bars | myCHEF"
-        description="Bar services in Dubai — hire bartenders, mobile bars & custom cocktails for villas, yachts, weddings & corporate events. Zero-proof menus. Get a quote."
+        description="Bar services Dubai — hire bartenders, mobile bars & custom cocktails for villas, yachts, weddings & corporate events. Zero-proof menus. Get a quote."
         canonicalPath="/bar-services-dubai"
         ogImage="/images/bar-services-dubai-hero.webp"
         hideSiteName
@@ -334,7 +342,7 @@ export default function BarServices() {
             Premium bar service is about more than drinks — it shapes the atmosphere of your entire event. At myCHEF Dubai, we bring trained bartenders, curated menus, and elegant mobile bars to villas, yachts, venues, and private residences across the city. Whether your guests prefer classic cocktails, creative mocktails, or a fully alcohol-free bar, we design the experience around them.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            From intimate villa dinners to large-scale corporate galas, our bar team delivers polished service, fresh ingredients, and a setup that looks as good as the drinks taste. Explore our formats below, browse our <Link to="/cocktail-party-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">cocktail party catering</Link>, or see our dedicated <Link to="/mocktail-bar-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">non-alcoholic mocktail bar catering</Link> for an inclusive, zero-proof option.
+            From intimate villa dinners to large-scale corporate galas, our bar team delivers polished service, fresh ingredients, and a setup that looks as good as the drinks taste. Explore our formats below, browse our <Link to="/cocktail-party-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">cocktail party catering</Link>, or see our dedicated <Link to="/bar-services-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">non-alcoholic mocktail bar catering</Link> for an inclusive, zero-proof option.
           </p>
         </div>
       </section>
@@ -397,7 +405,7 @@ export default function BarServices() {
                   <h3 className="font-playfair text-h3 text-white mb-3">{uc.title}</h3>
                   <p className="font-inter text-body-sm text-gray-400 leading-relaxed mb-4">{uc.description}</p>
                   <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
-                    Explore <ArrowRight size={14} />
+                    {uc.title} <ArrowRight size={14} />
                   </span>
                 </Link>
               )
@@ -473,7 +481,7 @@ export default function BarServices() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Bar Service Questions
+            Bar Services Dubai: the questions we get before a booking
           </h2>
 
           <FaqAccordion items={faqs} />
@@ -527,7 +535,7 @@ export default function BarServices() {
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
                   <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
-                    Explore <ArrowRight size={14} />
+                    {svc.title} <ArrowRight size={14} />
                   </span>
                 </div>
               </Link>

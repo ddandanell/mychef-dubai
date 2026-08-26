@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /chefs/marco-italian-chef
+//     primary:     "italian private chef dubai"
+//     subkeywords: "private chef italian food dubai" · "italian chef for dinner party dubai" · "italian chef at home dubai" · "italian food supplier dubai" · "italian catering in dubai" · "courses of an italian dinner" · "eat italian catering menu"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import ChefProfile, { type ChefProfileData } from './ChefProfile'
 
 const chef: ChefProfileData = {

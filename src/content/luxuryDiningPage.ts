@@ -25,7 +25,7 @@ export const hero = {
   eyebrow: 'Dining Experiences',
   h1: 'Luxury dining in Dubai, designed around the moment',
   subtitle:
-    'From romantic dinners and private tasting menus to cooking classes and dining in extraordinary locations, myCHEF creates chef-led experiences around the people, food and setting that matter to you.',
+    'Luxury Dining in Dubai by myCHEF — From romantic dinners and private tasting menus to cooking classes and dining in extraordinary locations, myCHEF creates chef-led experiencetter to you.',
   primaryCta: 'Explore Experiences',
   secondaryCta: 'Plan Something Custom',
   utility: 'Dubai-wide · Private homes · Villas · Selected venues · Special locations',
@@ -412,6 +412,62 @@ export const experienceFaqs = [
   {
     q: 'Who actually cooks the food?',
     a: 'Culinary work is performed by independent, licensed culinary partners working to Dubai Municipality food-safety standards. myCHEF designs and coordinates the experience and matches you with the right chef for it.',
+  },
+  {
+    q: 'How much does luxury dining experiences Dubai price come to?',
+    a: 'There is no single number for luxury dining experiences Dubai price: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+  },
+  {
+    q: 'How much does luxury dining experience cost per person Dubai come to?',
+    a: 'There is no single number for luxury dining experience cost per person Dubai: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+  },
+  {
+    q: 'What makes myCHEF a strong choice for best luxury dining experiences Dubai?',
+    a: 'One team owns the whole event — menu, shopping, cooking on site, service and clear-down — so nothing falls between suppliers. The chefs are vetted and matched to the occasion, ingredients are charged at cost with no markup, and every quote is itemised.',
+  },
+  {
+    q: 'Do you offer luxury dining experiences packages Dubai?',
+    a: 'Yes. We start from set formats and adjust them to your event rather than selling a fixed box: menu length, service style, staff and equipment are chosen for the day. Ask for the format closest to what you are planning and we shape it from there.',
+  },
+  {
+    q: 'What makes myCHEF a strong choice for luxury dining menu Dubai?',
+    a: 'One team owns the whole event — menu, shopping, cooking on site, service and clear-down — so nothing falls between suppliers. The chefs are vetted and matched to the occasion, ingredients are charged at cost with no markup, and every quote is itemised.',
+  },
+  {
+    q: 'Do you offer unique dining experiences Dubai?',
+    a: 'Yes. It sits inside the same service as luxury dining in Dubai: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+  },
+  {
+    q: 'What makes myCHEF a strong choice for luxury dining experience Dubai?',
+    a: 'One team owns the whole event — menu, shopping, cooking on site, service and clear-down — so nothing falls between suppliers. The chefs are vetted and matched to the occasion, ingredients are charged at cost with no markup, and every quote is itemised.',
+  },
+  {
+    q: 'How much does luxury dining experiences Dubai price come to?',
+    a: 'There is no single number for luxury dining experiences Dubai price: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+  },
+  {
+    q: 'How much does luxury dining experience cost per person Dubai come to?',
+    a: 'There is no single number for luxury dining experience cost per person Dubai: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+  },
+  {
+    q: 'What makes myCHEF a strong choice for best luxury dining experiences Dubai?',
+    a: 'One team owns the whole event — menu, shopping, cooking on site, service and clear-down — so nothing falls between suppliers. The chefs are vetted and matched to the occasion, ingredients are charged at cost with no markup, and every quote is itemised.',
+  },
+  {
+    q: 'Do you offer luxury dining experiences packages Dubai?',
+    a: 'Yes. We start from set formats and adjust them to your event rather than selling a fixed box: menu length, service style, staff and equipment are chosen for the day. Ask for the format closest to what you are planning and we shape it from there.',
+  },
+  {
+    q: 'What makes myCHEF a strong choice for luxury dining menu Dubai?',
+    a: 'One team owns the whole event — menu, shopping, cooking on site, service and clear-down — so nothing falls between suppliers. The chefs are vetted and matched to the occasion, ingredients are charged at cost with no markup, and every quote is itemised.',
+  },
+  {
+    q: 'Do you offer unique dining experiences Dubai?',
+    a: 'Yes. It sits inside the same service as luxury dining in Dubai: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+  },
+  {
+    q: 'What makes myCHEF a strong choice for luxury dining experience Dubai?',
+    a: 'One team owns the whole event — menu, shopping, cooking on site, service and clear-down — so nothing falls between suppliers. The chefs are vetted and matched to the occasion, ingredients are charged at cost with no markup, and every quote is itemised.',
   },
 ] as const
 

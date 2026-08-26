@@ -101,14 +101,17 @@ export default function ServiceLandingPage({ config }: Props) {
   const WHATSAPP_MESSAGE = encodeURIComponent(config.whatsappMessage)
   const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
-  const faqSchema = {
-    '@type': 'FAQPage',
-    mainEntity: config.faqs.map((f) => ({
-      '@type': 'Question',
-      name: f.q,
-      acceptedAnswer: { '@type': 'Answer', text: f.a },
-    })),
-  }
+  const faqItems = (config.faqs || []).filter((f) => f.q?.trim() && f.a?.trim())
+  const faqSchema = faqItems.length
+    ? {
+        '@type': 'FAQPage',
+        mainEntity: faqItems.map((f) => ({
+          '@type': 'Question',
+          name: f.q,
+          acceptedAnswer: { '@type': 'Answer', text: f.a },
+        })),
+      }
+    : null
 
   const serviceSchema = {
     '@type': 'Service',
@@ -140,7 +143,7 @@ export default function ServiceLandingPage({ config }: Props) {
 
   const schema = {
     '@context': 'https://schema.org',
-    '@graph': [serviceSchema, faqSchema, breadcrumbSchema],
+    '@graph': [serviceSchema, ...(faqSchema ? [faqSchema] : []), breadcrumbSchema],
   }
 
   useGSAP(
@@ -218,7 +221,7 @@ export default function ServiceLandingPage({ config }: Props) {
         <div className="absolute inset-0 bg-black/50" />
 
         <div className="relative z-10 container-custom text-center max-w-[800px] py-20">
-          <nav className="mb-6 opacity-0 translate-y-4 svc-hero-h1">
+          <nav className="mb-6 translate-y-4 svc-hero-h1">
             <ol className="flex items-center justify-center gap-2 font-inter text-body-sm">
               <li>
                 <Link to="/" className="text-gray-400 hover:text-gold transition-colors">
@@ -232,21 +235,21 @@ export default function ServiceLandingPage({ config }: Props) {
             </ol>
           </nav>
 
-          <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 svc-hero-h1">
+          <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 translate-y-10 svc-hero-h1">
             {config.h1}
           </h1>
-          <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 svc-hero-sub">
+          <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed translate-y-5 svc-hero-sub">
             {config.heroSub}
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to={inquiryLink} className="btn-primary opacity-0 translate-y-4 svc-hero-cta">
+            <Link to={inquiryLink} className="btn-primary translate-y-4 svc-hero-cta">
               {config.primaryCta || 'Get a Tailored Quote'}
             </Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
               rel="noopener noreferrer"
-              className="btn-secondary opacity-0 translate-y-4 svc-hero-cta"
+              className="btn-secondary translate-y-4 svc-hero-cta"
             >
               <Phone size={16} className="mr-2" />
               Chat on WhatsApp
@@ -280,7 +283,7 @@ export default function ServiceLandingPage({ config }: Props) {
                 <Link
                   key={i}
                   to={fmt.link}
-                  className="svc-fmt-card group bg-charcoal p-8 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
+                  className="svc-fmt-card group bg-charcoal p-8 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] translate-y-12"
                 >
                   <Icon size={36} className="text-gold mb-4" />
                   <h3 className="font-playfair text-h3 text-white mb-3">{fmt.title}</h3>
@@ -307,7 +310,7 @@ export default function ServiceLandingPage({ config }: Props) {
 
           <div className="svc-uc-grid grid md:grid-cols-2 gap-6">
             {config.useCases.map((uc, i) => (
-              <div key={i} className="svc-uc-item bg-charcoal p-8 opacity-0 translate-y-10">
+              <div key={i} className="svc-uc-item bg-charcoal p-8 translate-y-10">
                 <h3 className="font-playfair text-h3 text-white mb-3">{uc.title}</h3>
                 <p className="font-inter text-body-sm text-gray-400 leading-relaxed">{uc.description}</p>
               </div>
@@ -323,7 +326,7 @@ export default function ServiceLandingPage({ config }: Props) {
 
           <div className="svc-inc-grid grid md:grid-cols-2 gap-6">
             {config.includedItems.map((item, i) => (
-              <div key={i} className="svc-inc-item flex gap-3 opacity-0 -translate-x-5">
+              <div key={i} className="svc-inc-item flex gap-3 -translate-x-5">
                 <Check size={20} className="text-gold flex-shrink-0 mt-0.5" />
                 <div>
                   <h4 className="font-inter text-base font-medium text-black mb-1">{item.title}</h4>
@@ -342,7 +345,7 @@ export default function ServiceLandingPage({ config }: Props) {
 
           <div className="svc-gallery grid grid-cols-2 lg:grid-cols-3 gap-4">
             {config.galleryImages.map((img, i) => (
-              <div key={i} className="svc-gallery-img aspect-[4/3] overflow-hidden opacity-0 scale-95">
+              <div key={i} className="svc-gallery-img aspect-[4/3] overflow-hidden scale-95">
                 <img
                   src={img.src}
                   alt={img.alt}
@@ -358,14 +361,15 @@ export default function ServiceLandingPage({ config }: Props) {
         </div>
       </section>
 
-      {/* FAQ */}
+      {faqItems.length > 0 && (
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">{config.faqsH2}</h2>
 
-          <FaqAccordion items={config.faqs} />
+          <FaqAccordion items={faqItems} />
         </div>
       </section>
+      )}
 
       {/* Related services */}
       <section className="bg-black py-20">
@@ -377,7 +381,7 @@ export default function ServiceLandingPage({ config }: Props) {
               <Link
                 key={i}
                 to={svc.link}
-                className="svc-rel-card group bg-charcoal overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] opacity-0 translate-y-12"
+                className="svc-rel-card group bg-charcoal overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] translate-y-12"
               >
                 <div className="aspect-video overflow-hidden">
                   <img
@@ -394,7 +398,7 @@ export default function ServiceLandingPage({ config }: Props) {
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
                   <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
-                    Explore <ArrowRight size={14} />
+                    {svc.title} <ArrowRight size={14} />
                   </span>
                 </div>
               </Link>
@@ -409,7 +413,7 @@ export default function ServiceLandingPage({ config }: Props) {
 
       {/* CTA */}
       <section className="bg-gradient-to-b from-charcoal to-black py-20">
-        <div className="container-custom text-center svc-cta opacity-0 translate-y-8">
+        <div className="container-custom text-center svc-cta translate-y-8">
           <h2 className="font-playfair text-h2 text-white mb-4">{config.ctaH2}</h2>
           <p className="font-inter text-body-lg text-gray-400 max-w-[600px] mx-auto mb-8">{config.ctaP}</p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

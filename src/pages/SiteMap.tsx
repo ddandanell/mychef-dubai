@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /site-map
+//     primary:     none (untargeted by decision)
+//     subkeywords: none
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { Link } from 'react-router'
 import SEO from '@/components/SEO'
 import PageHero from '@/components/PageHero'
@@ -51,29 +57,14 @@ export default function SiteMap() {
             <ul className="space-y-2 font-inter text-body-sm">
               <li><Link to="/wedding-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/wedding-catering-dubai</Link></li>
               <li><Link to="/birthday-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/birthday-catering-dubai</Link></li>
-              <li><Link to="/bachelor-party-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/bachelor-party-catering-dubai</Link></li>
-              <li><Link to="/bachelorette-party-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/bachelorette-party-catering-dubai</Link></li>
-              <li><Link to="/engagement-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/engagement-catering-dubai</Link></li>
-              <li><Link to="/anniversary-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/anniversary-catering-dubai</Link></li>
-              <li><Link to="/baby-shower-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/baby-shower-catering-dubai</Link></li>
               <li><Link to="/private-party-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/private-party-catering-dubai</Link></li>
-              <li><Link to="/kids-birthday-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/kids-birthday-catering-dubai</Link></li>
-              <li><Link to="/pool-party-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/pool-party-catering-dubai</Link></li>
-              <li><Link to="/beach-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/beach-catering-dubai</Link></li>
+              <li><Link to="/baby-shower-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/baby-shower-catering-dubai</Link></li>
               <li><Link to="/desert-dining-dubai" className="text-gray-600 hover:text-gold transition-colors">/desert-dining-dubai</Link></li>
               <li><Link to="/afternoon-tea-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/afternoon-tea-catering-dubai</Link></li>
-              <li><Link to="/housewarming-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/housewarming-catering-dubai</Link></li>
-              <li><Link to="/graduation-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/graduation-catering-dubai</Link></li>
-              <li><Link to="/farewell-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/farewell-catering-dubai</Link></li>
-              <li><Link to="/reunion-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/reunion-catering-dubai</Link></li>
-              <li><Link to="/fathers-day-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/fathers-day-catering-dubai</Link></li>
-              <li><Link to="/chinese-new-year-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/chinese-new-year-catering-dubai</Link></li>
-              <li><Link to="/holi-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/holi-catering-dubai</Link></li>
-              <li><Link to="/picnic-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/picnic-catering-dubai</Link></li>
-              <li><Link to="/coffee-tea-service-dubai" className="text-gray-600 hover:text-gold transition-colors">/coffee-tea-service-dubai</Link></li>
-              <li><Link to="/dessert-cart-dubai" className="text-gray-600 hover:text-gold transition-colors">/dessert-cart-dubai</Link></li>
-              <li><Link to="/shawarma-station-dubai" className="text-gray-600 hover:text-gold transition-colors">/shawarma-station-dubai</Link></li>
-              <li><Link to="/oyster-bar-dubai" className="text-gray-600 hover:text-gold transition-colors">/oyster-bar-dubai</Link></li>
+              <li><Link to="/asian-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/asian-catering-dubai</Link></li>
+              <li><Link to="/indian-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/indian-catering-dubai</Link></li>
+              <li><Link to="/catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/catering-dubai</Link></li>
+              <li><Link to="/live-cooking-stations-dubai" className="text-gray-600 hover:text-gold transition-colors">/live-cooking-stations-dubai</Link></li>
             </ul>
           </div>
           <div>
@@ -86,7 +77,7 @@ export default function SiteMap() {
               <li><Link to="/grazing-table-dubai" className="text-gray-600 hover:text-gold transition-colors">/grazing-table-dubai</Link></li>
               <li><Link to="/dessert-table-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/dessert-table-catering-dubai</Link></li>
               <li><Link to="/cocktail-party-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/cocktail-party-catering-dubai</Link></li>
-              <li><Link to="/mocktail-bar-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/mocktail-bar-catering-dubai</Link></li>
+              <li><Link to="/bar-services-dubai" className="text-gray-600 hover:text-gold transition-colors">/bar-services-dubai</Link></li>
             </ul>
           </div>
           <div>
@@ -102,15 +93,8 @@ export default function SiteMap() {
               <li><Link to="/vegan-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/vegan-catering-dubai</Link></li>
               <li><Link to="/vegetarian-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/vegetarian-catering-dubai</Link></li>
               <li><Link to="/halal-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/halal-catering-dubai</Link></li>
-              <li><Link to="/healthy-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/healthy-catering-dubai</Link></li>
-              <li><Link to="/gluten-free-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/gluten-free-catering-dubai</Link></li>
-              <li><Link to="/dairy-free-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/dairy-free-catering-dubai</Link></li>
-              <li><Link to="/nut-free-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/nut-free-catering-dubai</Link></li>
-              <li><Link to="/keto-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/keto-catering-dubai</Link></li>
+              <li><Link to="/allergy-safe-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/allergy-safe-catering-dubai</Link></li>
               <li><Link to="/jain-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/jain-catering-dubai</Link></li>
-              <li><Link to="/pescatarian-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/pescatarian-catering-dubai</Link></li>
-              <li><Link to="/sugar-free-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/sugar-free-catering-dubai</Link></li>
-              <li><Link to="/fodmap-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/fodmap-catering-dubai</Link></li>
               <li><Link to="/halal-private-dining-dubai" className="text-gray-600 hover:text-gold transition-colors">/halal-private-dining-dubai</Link></li>
             </ul>
           </div>
@@ -123,7 +107,6 @@ export default function SiteMap() {
               <li><Link to="/conference-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/conference-catering-dubai</Link></li>
               <li><Link to="/staff-meals-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/staff-meals-catering-dubai</Link></li>
               <li><Link to="/production-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/production-catering-dubai</Link></li>
-              <li><Link to="/corporate-meal-prep-dubai" className="text-gray-600 hover:text-gold transition-colors">/corporate-meal-prep-dubai</Link></li>
             </ul>
           </div>
           <div>
@@ -131,14 +114,10 @@ export default function SiteMap() {
             <ul className="space-y-2 font-inter text-body-sm">
               <li><Link to="/festive-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/festive-catering-dubai</Link></li>
               <li><Link to="/romantic-dinner-dubai" className="text-gray-600 hover:text-gold transition-colors">/romantic-dinner-dubai</Link></li>
-              <li><Link to="/valentines-day-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/valentines-day-catering-dubai</Link></li>
-              <li><Link to="/mothers-day-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/mothers-day-catering-dubai</Link></li>
+              <li><Link to="/private-party-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/private-party-catering-dubai</Link></li>
               <li><Link to="/uae-national-day-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/uae-national-day-catering-dubai</Link></li>
-              <li><Link to="/easter-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/easter-catering-dubai</Link></li>
-              <li><Link to="/halloween-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/halloween-catering-dubai</Link></li>
               <li><Link to="/ramadan-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/ramadan-catering-dubai</Link></li>
               <li><Link to="/iftar-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/iftar-catering-dubai</Link></li>
-              <li><Link to="/suhoor-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/suhoor-catering-dubai</Link></li>
               <li><Link to="/eid-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/eid-catering-dubai</Link></li>
               <li><Link to="/diwali-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/diwali-catering-dubai</Link></li>
               <li><Link to="/christmas-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/christmas-catering-dubai</Link></li>

@@ -28,12 +28,12 @@
  },
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
-  "title": "How to Hire a Private Chef in Dubai: 2026 Guide",
-  "meta_description": "How to hire a private chef in Dubai: costs from around AED 700 per person, how booking and vetting work, and what to ask before your dinner.",
-  "h1": "How to Hire a Private Chef in Dubai (Step by Step) — Real Prices and Timings"
+  "title": "How to Hire a Private Chef Dubai: 2026 Guide",
+  "meta_description": "How to hire a private chef Dubai: costs from around AED 700 per person, how booking and vetting work, and what to ask before your dinner.",
+  "h1": "How to Hire a Private Chef Dubai (Step by Step) — Real Prices and Timings"
  },
  "opening_paragraph": [
-  "How to hire a private chef in Dubai takes four steps with myCHEF: send your date, guest count and venue, then expect rates from around AED 700 per person. A private chef in Dubai cooks a bespoke, multi-course menu in your own kitchen, serves at the table and leaves it spotless, so you get restaurant-level food at home while someone else handles the shopping, cooking and washing up."
+  "How to hire a private chef Dubai takes four steps with myCHEF: send your date, guest count and venue, then expect rates from around AED 700 per person. A private chef in Dubai cooks a bespoke, multi-course menu in your own kitchen, serves at the table and leaves it spotless, so you get restaurant-level food at home while someone else handles the shopping, cooking and washing up."
  ],
  "replace_in_block": [
   {
@@ -289,5 +289,18 @@
    "height": 1280,
    "caption": "A home kitchen is not municipally graded like a restaurant. Ask who holds current food-handler training and who is the Person in Charge."
   }
- ]
+ ],
+ "keyword_lock": {
+  "primary": "how to hire a private chef dubai",
+  "subkeywords": [
+   "how to find a private chef in dubai",
+   "do private chefs bring their own equipment dubai",
+   "hiring a private chef",
+   "how do you hire a private chef",
+   "private chef for a day",
+   "chef hire",
+   "how do i hire a personal chef",
+   "chef at home in dubai"
+  ]
+ }
 }

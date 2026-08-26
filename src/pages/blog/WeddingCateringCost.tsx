@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /blog/wedding-catering-cost-dubai
+//     primary:     "wedding catering cost dubai"
+//     subkeywords: "wedding catering cost dubai 2026" · "wedding catering cost per person dubai" · "how much does wedding food cost in dubai" · "wedding catering cost for 100 guests dubai" · "small wedding catering cost dubai" · "catering cost for 200 person wedding" · "halal wedding catering prices" · "catering services rates dubai"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { Link } from 'react-router'
 import SEO from '../../components/SEO'
 import PageHero from '../../components/PageHero'
@@ -94,7 +100,7 @@ export default function WeddingCateringCost() {
       <PageHero
         variant="quiet"
         eyebrow="Wedding Catering Cost Dubai"
-        title="Wedding catering cost in Dubai: three products, not one ladder"
+        title="Wedding Catering Cost Dubai: three products, not one ladder"
         subtitle="Food-led buffets, hotel packages and chef-led villa dinners are priced differently. These are planning estimates for 2026. The written proposal is the only number that matters."
         image={costHero.src}
         imageAlt={costHero.alt}
@@ -376,7 +382,7 @@ export default function WeddingCateringCost() {
         <Section tone="white" rhythm="chapter">
           <Container className="max-w-3xl">
             <h2 id="sources" className="font-playfair text-h2 text-black mb-6 scroll-mt-28">
-              Where these bands come from
+              Wedding Catering Cost Dubai: Where these bands come from
             </h2>
             <BodyCopy className="mb-5">
               Planner blogs disagree with each other by design. That is why we publish ranges and a written proposal, not a single heroic number. Figures reviewed {FIGURES_REVIEWED}.

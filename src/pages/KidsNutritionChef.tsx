@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /kids-nutrition-chef-dubai
+//     primary:     "kids meal prep dubai"
+//     subkeywords: "kids meal prep dubai price" · "healthy kids meals delivery dubai" · "kids meal plan dubai" · "emirates kids meal menu" · "chef meal prep company" · "dubai food prep service" · "meal prep for 5 year old" · "practical meal prep dubai" · "meal prep dubai delivery" · "meal prep dubai healthy" · "coles meal prep dubai"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef } from 'react'
 import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
@@ -198,7 +204,7 @@ export default function KidsNutritionChef() {
     <div ref={containerRef}>
       <SEO
         title="Kids Meal Prep Dubai | Healthy Meals Children Eat | myCHEF"
-        description="Kids meal prep in Dubai by a private chef. Balanced, child-friendly meals designed around allergies, growth and family routines. Get a quote."
+        description="Kids meal prep Dubai by a private chef. Balanced, child-friendly meals designed around allergies, growth and family routines. Get a quote."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/private-chef-dubai-hero.webp"
         hideSiteName
@@ -344,7 +350,7 @@ export default function KidsNutritionChef() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Kids Nutrition Questions
+            Kids Meal Prep Dubai: the questions we get before a booking
           </h2>
 
           <FaqAccordion items={faqs} />
@@ -376,7 +382,7 @@ export default function KidsNutritionChef() {
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
                   <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
-                    Explore <ArrowRight size={14} />
+                    {svc.title} <ArrowRight size={14} />
                   </span>
                 </div>
               </Link>

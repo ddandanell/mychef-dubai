@@ -28,11 +28,11 @@
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
   "title": "Iftar at Home Dubai: Menu, Timing & Cost Guide | myCHEF",
-  "meta_description": "How to host iftar at home in Dubai: the menu order, exact timing to Maghrib, halal and food-safety rules, and what a private chef or caterer costs.",
-  "h1": "Iftar at Home in Dubai: A Host's Menu, Timing & Cost Guide"
+  "meta_description": "How to host iftar at home Dubai: the menu order, exact timing to Maghrib, halal and food-safety rules, and what a private chef or caterer costs.",
+  "h1": "Iftar at Home Dubai: A Host's Menu, Timing & Cost Guide"
  },
  "opening_paragraph": [
-  "Here is the short version. Hosting iftar at home in Dubai is a shared, unhurried meal timed to Maghrib, with myCHEF private-chef service from around AED 1,200 so you break your fast at the table. A caterer plans the courses, keeps the food halal and hot, and clears up afterwards. That leaves you free to sit with family and guests instead of watching the oven."
+  "Here is the short version. Hosting iftar at home Dubai is a shared, unhurried meal timed to Maghrib, with myCHEF private-chef service from around AED 1,200 so you break your fast at the table. A caterer plans the courses, keeps the food halal and hot, and clears up afterwards. That leaves you free to sit with family and guests instead of watching the oven."
  ],
  "replace_in_block": [
   {
@@ -276,5 +276,18 @@
    "after_heading": "What goes on an iftar menu at home?",
    "caption": "An iftar menu is a sequence, not a generic dinner plate."
   }
- ]
+ ],
+ "keyword_lock": {
+  "primary": "iftar at home dubai",
+  "subkeywords": [
+   "how to host iftar at home dubai",
+   "iftar at home cost dubai",
+   "iftar ideas at home dubai",
+   "iftar menu at home dubai",
+   "family iftar at home dubai",
+   "iftar at home dubai offers",
+   "iftar meal box",
+   "iftar buffet menu dubai"
+  ]
+ }
 }

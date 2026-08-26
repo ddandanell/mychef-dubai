@@ -7,7 +7,7 @@ const config: DietaryPageConfig = {
   slug: 'gluten-free-catering-dubai',
   seoTitle: 'Gluten-Free Catering Dubai | Coeliac-Safe Events | myCHEF',
   metaDescription: 'Book gluten-free catering in Dubai. Coeliac-safe menus for weddings, villas and offices, with clear labelling and full service. Get a tailored quote.',
-  canonicalPath: '/gluten-free-catering-dubai',
+  canonicalPath: '/allergy-safe-catering-dubai',
   hideSiteName: true,
   showTrustSignalStrip: true,
   ogImage: '/images/gluten-free-catering-dubai-hero.webp',
@@ -28,7 +28,7 @@ const config: DietaryPageConfig = {
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
         Whether you are managing coeliac disease, a wheat intolerance, or simply want a fully gluten-free celebration, strict processes reduce cross-contamination risk and chefs in our network plan the service around your guests’ needs. Explore how this sits alongside our{' '}
-        <Link to="/healthy-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
+        <Link to="/cuisines-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           healthy catering Dubai
         </Link>{' '}
         options, browse our{' '}
@@ -158,19 +158,19 @@ const config: DietaryPageConfig = {
       title: 'Healthy Catering',
       description: 'Balanced, nutrition-conscious menus for wellness-focused events and corporate lunches.',
       image: '/service-corporate.webp',
-      link: '/healthy-catering-dubai',
+      link: '/cuisines-dubai',
     },
     {
       title: 'Sugar-Free Catering',
       description: 'Reduced-sugar and diabetic-friendly menus that can be combined with gluten-free options.',
       image: '/images/healthy-catering-dubai-hero.webp',
-      link: '/sugar-free-catering-dubai',
+      link: '/allergy-safe-catering-dubai',
     },
     {
       title: 'FODMAP-Friendly Catering',
       description: 'Low-FODMAP menus that also work well alongside gluten-free requirements.',
       image: '/images/healthy-catering-dubai-hero.webp',
-      link: '/fodmap-catering-dubai',
+      link: '/allergy-safe-catering-dubai',
     },
     {
       title: 'Vegan Catering',

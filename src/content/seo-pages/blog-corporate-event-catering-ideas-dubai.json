@@ -28,11 +28,11 @@
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
   "title": "Corporate Event Catering Ideas Dubai (2026)",
-  "meta_description": "Corporate event catering ideas for Dubai offices: drop-off lunches, live stations, canapés and plated galas, with dietary options and budgeting.",
-  "h1": "Corporate Event Catering Ideas for Dubai Offices — Real Prices and Timings"
+  "meta_description": "Corporate event catering ideas Dubai offices: drop-off lunches, live stations, canapés and plated galas, with dietary options and budgeting.",
+  "h1": "Corporate Event Catering Ideas Dubai Offices — Real Prices and Timings"
  },
  "opening_paragraph": [
-  "Corporate catering in Dubai from myCHEF is priced from AED 90 per head for a working lunch, and from AED 700 for a chef cooking on site. Strong corporate event catering ideas match the service style to the occasion , not to the budget you started with. Pick the right format and the rest of the event tends to fall into place around it."
+  "Corporate Event Catering Ideas Dubai by myCHEF — Corporate catering in Dubai from myCHEF is priced from AED 90 per head for a working lunch, and from AED 700 for a chef cooking on site. Strong corporate event catering ideas match the service style to the occasion , not to the budget you started with. Pick the right format and the rest of the event tends to fall into place around it."
  ],
  "replace_in_block": [
   {
@@ -241,5 +241,18 @@
    "after_heading": "Client dinners, galas and company events",
    "caption": "Client dinners are a different room and a different staff count."
   }
- ]
+ ],
+ "keyword_lock": {
+  "primary": "corporate event catering ideas dubai",
+  "subkeywords": [
+   "office party food ideas dubai",
+   "corporate lunch ideas dubai",
+   "small corporate event catering ideas dubai",
+   "corporate catering in dubai",
+   "event catering menu ideas",
+   "what is event catering",
+   "best catering format for corporate event dubai",
+   "event catering ideas"
+  ]
+ }
 }

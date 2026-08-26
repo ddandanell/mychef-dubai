@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /wedding-catering-menu-planning-dubai
+//     primary:     "wedding menu planning dubai"
+//     subkeywords: "how to plan a wedding menu dubai" · "wedding food ideas dubai" · "wedding menu ideas dubai" · "wedding buffet menu ideas dubai" · "wedding menu planning dubai checklist" · "wedding catering menu planning dubai" · "catering menu dubai" · "catering menu near me halal" · "catering price list for wedding" · "catering wedding checklist" · "event catering wedding" · "finger food catering menu dubai"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { Link } from 'react-router'
 import { ArrowRight } from 'lucide-react'
 import SEO from '../../components/SEO'
@@ -94,8 +100,8 @@ export default function WeddingMenuPlanningGuide() {
       <PageHero
         variant="quiet"
         eyebrow="Wedding Catering Menu Dubai"
-        title="Wedding catering menu planning for Dubai"
-        subtitle="How guests eat, which kitchen the day belongs to, what a tasting is for, and three sample shapes — garden, ballroom, yacht. Not a price list."
+        title="Wedding Menu Planning Dubai — catering"
+        subtitle="Wedding Menu Planning Dubai by myCHEF — How guests eat, which kitchen the day belongs to, what a tasting is for, and three sample shapes — garden, ballroom, yacht. Not a price list."
         image={menuHero.src}
         imageAlt={menuHero.alt}
         imageWidth={menuHero.width}

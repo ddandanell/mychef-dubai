@@ -8,7 +8,7 @@ const config: ServicePageConfig = {
   seoTitle: "Oyster & Seafood Bar Dubai | Shellfish",
   metaDescription:
     'Oyster and seafood bar in Dubai: fresh oysters, chilled shellfish, caviar and premium seafood platters for weddings, corporate events and private parties.',
-  canonicalPath: '/oyster-bar-dubai',
+  canonicalPath: '/live-cooking-stations-dubai',
   ogImage: '/images/sushi-catering-dubai-hero.webp',
   showTrustSignalStrip: true,
   breadcrumbLabel: 'Oyster & Seafood Bar Dubai',

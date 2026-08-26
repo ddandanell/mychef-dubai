@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /vip-club
+//     primary:     "mychef vip club"
+//     subkeywords: "vip dining club dubai" · "exclusive dining club dubai" · "vip government dining dubai"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef } from 'react'
 import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
@@ -251,7 +257,7 @@ export default function VIPClub() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="VIP Club Dubai | Private Chef Membership"
+        title="myCHEF VIP Club | Private Chef Membership Dubai | myCHEF"
         description="Join the myCHEF VIP Club for priority private chef bookings, exclusive menus, member rates, and concierge dining across Dubai."
         canonicalPath="/vip-club"
         ogImage="/images/vip-club-hero.webp"
@@ -471,7 +477,7 @@ export default function VIPClub() {
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
                   <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
-                    Explore <ArrowRight size={14} />
+                    {svc.title} <ArrowRight size={14} />
                   </span>
                 </div>
               </Link>

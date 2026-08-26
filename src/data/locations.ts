@@ -55,8 +55,8 @@ const allLocations: LocationData[] = [
     name: 'Dubai Marina',
     title: 'Private Chef Dubai Marina | Yacht & Penthouse Catering | myCHEF',
     metaDescription:
-      'Book a private chef in Dubai Marina. Yacht & penthouse catering with tailored menus, full setup and cleanup. Get a tailored quote in 15 minutes.',
-    h1: 'Private Chef & Catering Dubai Marina',
+      'Book a private chef Dubai Marina. Yacht & penthouse catering with tailored menus, full setup and cleanup. Get a tailored quote in 15 minutes.',
+    h1: 'Private Chef Dubai Marina — Catering',
     heroImage: '/loc-dubai-marina.webp',
     heroSubtitle:
       'Dubai Marina private chef and catering for yacht decks, penthouses and skyline dinners — tailored menus with full setup and cleanup.',
@@ -233,8 +233,40 @@ const allLocations: LocationData[] = [
         q: 'Is cleanup included after the event?',
         a:
           'Yes, full cleanup and kitchen reset are included as standard with every booking.'
-      }
-    ],
+      },
+      {
+        q: 'Do you provide chef at home Dubai Marina?',
+        a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave the home as we found it. Across Palm Jumeirah, Dubai Marina, JBR this is our most common booking.',
+      },
+      {
+        q: 'Do you offer private dining Dubai Marina?',
+        a: 'Yes. It sits inside the same service as private chef Dubai Marina: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+      },
+      {
+        q: 'Do you cater party catering Dubai Marina?',
+        a: 'Yes. We plan the menu around the occasion and the room — plated, buffet, canapés or live stations — bring chefs, service staff and equipment, and handle the clear-down. Share the date, guest count and venue and you get a proposal with the format we would recommend and why.',
+      },
+      {
+        q: 'Is personal chef Dubai Marina something you arrange?',
+        a: 'Yes. Every chef on our roster is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.',
+      },
+      {
+        q: 'Is female private chef Dubai Marina something you arrange?',
+        a: 'Yes. Every chef on our roster is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.',
+      },
+      {
+        q: 'Is private chef Dubai Marina menu something you arrange?',
+        a: 'Yes. Every chef on our roster is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.',
+      },
+      {
+        q: 'Do you offer fine dining in Dubai Marina?',
+        a: 'Yes. It sits inside the same service as private chef Dubai Marina: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+      },
+      {
+        q: 'Do you offer iftar buffet Dubai Marina?',
+        a: 'Yes. It sits inside the same service as private chef Dubai Marina: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+      },
+],
     uniqueAngle:
       'Yacht-ready private chef and catering for Dubai Marina, with dedicated marine delivery and high-rise concierge coordination.',
     propertyType:
@@ -252,8 +284,8 @@ const allLocations: LocationData[] = [
     name: 'Downtown Dubai',
     title: 'Private Chef Downtown Dubai | Penthouse & Corporate | myCHEF',
     metaDescription:
-      'Book a private chef in Downtown Dubai. Penthouse & corporate dining with tailored menus, full setup and cleanup. Get a tailored quote in 15 minutes.',
-    h1: 'Private Chef & Catering Downtown Dubai',
+      'Book a private chef Downtown Dubai. Penthouse & corporate dining with tailored menus, full setup and cleanup. Get a tailored quote in 15 minutes.',
+    h1: 'Private Chef Downtown Dubai — Catering',
     heroImage: '/loc-downtown.webp',
     heroSubtitle:
       'Downtown Dubai private chef and catering for penthouses, corporate events and skyline dining — tailored menus with full service.',
@@ -430,8 +462,36 @@ const allLocations: LocationData[] = [
         q: 'How does pricing work?',
         a:
           'We provide a custom proposal based on guest count, menu complexity and service level.'
-      }
-    ],
+      },
+      {
+        q: 'Do you provide chef at home Downtown Dubai?',
+        a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave the home as we found it. Across Downtown Dubai, DIFC, Jumeirah this is our most common booking.',
+      },
+      {
+        q: 'Do you offer private dining Downtown Dubai?',
+        a: 'Yes. It sits inside the same service as private chef Downtown Dubai: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+      },
+      {
+        q: 'Do you cater party catering Downtown Dubai?',
+        a: 'Yes. We plan the menu around the occasion and the room — plated, buffet, canapés or live stations — bring chefs, service staff and equipment, and handle the clear-down. Share the date, guest count and venue and you get a proposal with the format we would recommend and why.',
+      },
+      {
+        q: 'Is personal chef Downtown Dubai something you arrange?',
+        a: 'Yes. Every chef on our roster is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.',
+      },
+      {
+        q: 'Do you handle office catering Downtown Dubai?',
+        a: 'Yes. For companies we work to a fixed timing, invoice properly, cater dietary requirements per employee and keep the set-up clean and quick. One contact, one itemised quote, and the same team every time if you want continuity.',
+      },
+      {
+        q: 'Do you offer fine dining in Downtown Dubai?',
+        a: 'Yes. It sits inside the same service as private chef Downtown Dubai: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+      },
+      {
+        q: 'Do you offer iftar buffet Dubai Downtown?',
+        a: 'Yes. It sits inside the same service as private chef Downtown Dubai: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+      },
+],
     uniqueAngle:
       'Fine dining catering with Burj Khalifa views for penthouses, corporate events and private celebrations in Downtown Dubai.',
     propertyType:
@@ -449,8 +509,8 @@ const allLocations: LocationData[] = [
     name: 'Palm Jumeirah',
     title: 'Private Chef Palm Jumeirah | Villa & Yacht | myCHEF',
     metaDescription:
-      'Book a private chef in Palm Jumeirah. Villa & yacht catering with tailored menus, full setup and cleanup. Get a tailored quote in 15 minutes.',
-    h1: 'Private Chef & Catering Palm Jumeirah',
+      'Book a private chef Palm Jumeirah. Villa & yacht catering with tailored menus, full setup and cleanup. Get a tailored quote in 15 minutes.',
+    h1: 'Private Chef Palm Jumeirah — Catering',
     heroImage: '/loc-palm-jumeirah.webp',
     heroSubtitle:
       'Palm Jumeirah private chef and catering for Frond villas and yacht events — discreet service with tailored menus and full cleanup.',
@@ -627,8 +687,44 @@ const allLocations: LocationData[] = [
         q: 'Are dietary requirements accommodated?',
         a:
           'Yes, menus are built around allergies, halal preferences and any guest dietary needs.'
-      }
-    ],
+      },
+      {
+        q: 'Do you provide chef at home Palm Jumeirah?',
+        a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave the home as we found it. Across Palm Jumeirah, Dubai Marina, Emirates Hills this is our most common booking.',
+      },
+      {
+        q: 'Do you offer private dining Palm Jumeirah?',
+        a: 'Yes. It sits inside the same service as private chef Palm Jumeirah: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+      },
+      {
+        q: 'Do you cater party catering Palm Jumeirah?',
+        a: 'Yes. We plan the menu around the occasion and the room — plated, buffet, canapés or live stations — bring chefs, service staff and equipment, and handle the clear-down. Share the date, guest count and venue and you get a proposal with the format we would recommend and why.',
+      },
+      {
+        q: 'Is personal chef Palm Jumeirah something you arrange?',
+        a: 'Yes. Every chef on our roster is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.',
+      },
+      {
+        q: 'Do you offer private dinner Palm Jumeirah?',
+        a: 'Yes. It sits inside the same service as private chef Palm Jumeirah: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+      },
+      {
+        q: 'Do you handle Business lunch Palm Jumeirah?',
+        a: 'Yes. For companies we work to a fixed timing, invoice properly, cater dietary requirements per employee and keep the set-up clean and quick. One contact, one itemised quote, and the same team every time if you want continuity.',
+      },
+      {
+        q: 'Do you provide villa chef Palm Jumeirah?',
+        a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave the home as we found it. Across Palm Jumeirah, Dubai Marina, Emirates Hills this is our most common booking.',
+      },
+      {
+        q: 'Do you offer iftar buffet Dubai Palm Jumeirah?',
+        a: 'Yes. It sits inside the same service as private chef Palm Jumeirah: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+      },
+      {
+        q: 'Do you offer catering Jumeirah Dubai?',
+        a: 'Yes. It sits inside the same service as private chef Palm Jumeirah: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+      },
+],
     uniqueAngle:
       'Discreet seven-course villa dining and private chef service for Palm Jumeirah\'s most exclusive addresses.',
     propertyType:
@@ -646,8 +742,8 @@ const allLocations: LocationData[] = [
     name: 'Jumeirah',
     title: 'Private Chef Jumeirah Dubai | Beachfront & Villa | myCHEF',
     metaDescription:
-      'Book a private chef in Jumeirah Dubai. Beachfront & villa catering with tailored menus, full setup and cleanup. Get a tailored quote in 15 minutes.',
-    h1: 'Private Chef & Catering Jumeirah Dubai',
+      'Book a private chef Jumeirah Dubai. Beachfront & villa catering with tailored menus, full setup and cleanup. Get a tailored quote in 15 minutes.',
+    h1: 'Private Chef Jumeirah — Catering Dubai',
     heroImage: '/loc-jumeirah.webp',
     heroSubtitle:
       'Jumeirah private chef and catering for beachfront villas and garden celebrations — family-friendly menus with full service.',
@@ -824,8 +920,36 @@ const allLocations: LocationData[] = [
         q: 'How do you manage parking at Jumeirah villas?',
         a:
           'We confirm access and parking with you or your security ahead of the event.'
-      }
-    ],
+      },
+      {
+        q: 'Do you provide chef at home Jumeirah?',
+        a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave the home as we found it. Across Emirates Hills, Downtown Dubai, JBR this is our most common booking.',
+      },
+      {
+        q: 'Do you offer private dining Jumeirah?',
+        a: 'Yes. It sits inside the same service as private chef Jumeirah: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+      },
+      {
+        q: 'Do you cater party catering Jumeirah?',
+        a: 'Yes. We plan the menu around the occasion and the room — plated, buffet, canapés or live stations — bring chefs, service staff and equipment, and handle the clear-down. Share the date, guest count and venue and you get a proposal with the format we would recommend and why.',
+      },
+      {
+        q: 'Is personal chef Jumeirah something you arrange?',
+        a: 'Yes. Every chef on our roster is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.',
+      },
+      {
+        q: 'Is female private chef Jumeirah something you arrange?',
+        a: 'Yes. Every chef on our roster is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.',
+      },
+      {
+        q: 'Is private chef near Palm Jumeirah something you arrange?',
+        a: 'Yes. Every chef on our roster is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.',
+      },
+      {
+        q: 'Do you offer iftar buffet Dubai Jumeirah?',
+        a: 'Yes. It sits inside the same service as private chef Jumeirah: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+      },
+],
     uniqueAngle:
       'Beachfront private chef and villa dining for Jumeirah\'s coastal homes and family celebrations.',
     propertyType:
@@ -843,8 +967,8 @@ const allLocations: LocationData[] = [
     name: 'JBR',
     title: 'Private Chef JBR Dubai | Beachfront & Apartment | myCHEF',
     metaDescription:
-      'Book a private chef in JBR Dubai. Beachfront & apartment catering with tailored menus, full setup and cleanup. Get a tailored quote in 15 minutes.',
-    h1: 'Private Chef & Catering JBR Dubai',
+      'Book a private chef JBR Dubai. Beachfront & apartment catering with tailored menus, full setup and cleanup. Get a tailored quote in 15 minutes.',
+    h1: 'Private Chef JBR — Catering Dubai',
     heroImage: '/loc-jbr.webp',
     heroSubtitle:
       'JBR private chef and catering for beachfront apartments, birthdays and sunset gatherings — tailored menus with full service.',
@@ -1020,8 +1144,28 @@ const allLocations: LocationData[] = [
         q: 'How far ahead should I book?',
         a:
           'Two weeks is recommended, especially during the busy tourist season from November to March.'
-      }
-    ],
+      },
+      {
+        q: 'Do you provide chef at home JBR?',
+        a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave the home as we found it. Across Dubai Marina, JBR, Jumeirah this is our most common booking.',
+      },
+      {
+        q: 'Do you offer private dining JBR?',
+        a: 'Yes. It sits inside the same service as private chef JBR: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+      },
+      {
+        q: 'Do you cater party catering JBR?',
+        a: 'Yes. We plan the menu around the occasion and the room — plated, buffet, canapés or live stations — bring chefs, service staff and equipment, and handle the clear-down. Share the date, guest count and venue and you get a proposal with the format we would recommend and why.',
+      },
+      {
+        q: 'Is personal chef JBR something you arrange?',
+        a: 'Yes. Every chef on our roster is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.',
+      },
+      {
+        q: 'Do you offer iftar buffet Dubai JBR?',
+        a: 'Yes. It sits inside the same service as private chef JBR: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+      },
+],
     uniqueAngle:
       'Beachfront luxury catering in JBR for sandy birthdays, apartment dinners and sunset gatherings by the Arabian Gulf.',
     propertyType:
@@ -1040,8 +1184,8 @@ const allLocations: LocationData[] = [
     name: 'Business Bay',
     title: 'Private Chef Business Bay Dubai | Corporate & Private | myCHEF',
     metaDescription:
-      'Book a private chef in Business Bay Dubai. Corporate & private dining with tailored menus, full setup and cleanup. Get a tailored quote in 15 minutes.',
-    h1: 'Private Chef & Catering Business Bay Dubai',
+      'Book a private chef Business Bay Dubai. Corporate & private dining with tailored menus, full setup and cleanup. Get a tailored quote in 15 minutes.',
+    h1: 'Private Chef Business Bay — Catering Dubai',
     heroImage: '/loc-difc.webp',
     heroSubtitle:
       'Business Bay private chef and catering for offices, canal-front venues and residential towers — tailored menus with full service.',
@@ -1213,7 +1357,43 @@ const allLocations: LocationData[] = [
         q: 'Do you provide service staff as well as the chef?',
         a: 'Yes. Every Business Bay event includes professional service staff and, where needed, front-of-house support for plated or buffet service.',
       },
-    ],
+      {
+        q: 'Do you provide chef at home Business Bay?',
+        a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave the home as we found it. Across Downtown Dubai, DIFC, Jumeirah this is our most common booking.',
+      },
+      {
+        q: 'Do you handle party catering Business Bay?',
+        a: 'Yes. For companies we work to a fixed timing, invoice properly, cater dietary requirements per employee and keep the set-up clean and quick. One contact, one itemised quote, and the same team every time if you want continuity.',
+      },
+      {
+        q: 'Do you handle personal chef Business Bay?',
+        a: 'Yes. For companies we work to a fixed timing, invoice properly, cater dietary requirements per employee and keep the set-up clean and quick. One contact, one itemised quote, and the same team every time if you want continuity.',
+      },
+      {
+        q: 'Do you handle office catering Business Bay?',
+        a: 'Yes. For companies we work to a fixed timing, invoice properly, cater dietary requirements per employee and keep the set-up clean and quick. One contact, one itemised quote, and the same team every time if you want continuity.',
+      },
+      {
+        q: 'Do you handle female private chef Business Bay?',
+        a: 'Yes. For companies we work to a fixed timing, invoice properly, cater dietary requirements per employee and keep the set-up clean and quick. One contact, one itemised quote, and the same team every time if you want continuity.',
+      },
+      {
+        q: 'Is private chef Bay area something you arrange?',
+        a: 'Yes. Every chef on our roster is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.',
+      },
+      {
+        q: 'Do you handle iftar buffet Dubai Business Bay?',
+        a: 'Yes. For companies we work to a fixed timing, invoice properly, cater dietary requirements per employee and keep the set-up clean and quick. One contact, one itemised quote, and the same team every time if you want continuity.',
+      },
+      {
+        q: 'Do you offer Business dinner package Dubai?',
+        a: 'Yes. We start from set formats and adjust them to your event rather than selling a fixed box: menu length, service style, staff and equipment are chosen for the day. Ask for the format closest to what you are planning and we shape it from there.',
+      },
+      {
+        q: 'Do you handle Business lunches in Dubai?',
+        a: 'Yes. For companies we work to a fixed timing, invoice properly, cater dietary requirements per employee and keep the set-up clean and quick. One contact, one itemised quote, and the same team every time if you want continuity.',
+      },
+],
     uniqueAngle:
       "Canal-front corporate dining — from tower boardrooms to waterfront venues in Dubai's busiest business district.",
     propertyType:
@@ -1231,8 +1411,8 @@ const allLocations: LocationData[] = [
     name: 'DIFC',
     title: 'Private Chef DIFC Dubai | Corporate & Boardroom | myCHEF',
     metaDescription:
-      'Book a private chef in DIFC Dubai. Corporate & boardroom dining with tailored menus, full setup and cleanup. Get a tailored quote in 15 minutes.',
-    h1: 'Private Chef & Catering DIFC Dubai',
+      'Book a private chef DIFC Dubai. Corporate & boardroom dining with tailored menus, full setup and cleanup. Get a tailored quote in 15 minutes.',
+    h1: 'Private Chef DIFC — Catering Dubai',
     heroImage: '/loc-difc.webp',
     heroSubtitle:
       'DIFC private chef and corporate catering for boardrooms, power lunches and finance events — precise service with tailored menus.',
@@ -1398,7 +1578,35 @@ const allLocations: LocationData[] = [
         q: 'Do you deliver to Gate Village restaurants and event spaces?',
         a: 'Yes. We can provide external catering support at approved Gate Village venues and private dining rooms with the venue\'s permission.',
       },
-    ],
+      {
+        q: 'Do you provide chef at home DIFC?',
+        a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave the home as we found it. Across Downtown Dubai, DIFC, Business Bay this is our most common booking.',
+      },
+      {
+        q: 'Do you offer private dining DIFC?',
+        a: 'Yes. It sits inside the same service as private chef DIFC: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+      },
+      {
+        q: 'Do you cater party catering DIFC?',
+        a: 'Yes. We plan the menu around the occasion and the room — plated, buffet, canapés or live stations — bring chefs, service staff and equipment, and handle the clear-down. Share the date, guest count and venue and you get a proposal with the format we would recommend and why.',
+      },
+      {
+        q: 'Is personal chef DIFC something you arrange?',
+        a: 'Yes. Every chef on our roster is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.',
+      },
+      {
+        q: 'Do you handle office catering DIFC?',
+        a: 'Yes. For companies we work to a fixed timing, invoice properly, cater dietary requirements per employee and keep the set-up clean and quick. One contact, one itemised quote, and the same team every time if you want continuity.',
+      },
+      {
+        q: 'Do you offer fine dining in DIFC?',
+        a: 'Yes. It sits inside the same service as private chef DIFC: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+      },
+      {
+        q: 'Do you handle Business lunch in DIFC?',
+        a: 'Yes. For companies we work to a fixed timing, invoice properly, cater dietary requirements per employee and keep the set-up clean and quick. One contact, one itemised quote, and the same team every time if you want continuity.',
+      },
+],
     uniqueAngle:
       '60-minute power lunches and discreet boardroom dining for Dubai\'s financial district.',
     propertyType:
@@ -1416,8 +1624,8 @@ const allLocations: LocationData[] = [
     name: 'Emirates Hills',
     title: 'Private Chef Emirates Hills Dubai | Villa & Estate | myCHEF',
     metaDescription:
-      'Book a private chef in Emirates Hills. Villa & estate dining with tailored menus, full setup and cleanup. Get a tailored quote in 15 minutes.',
-    h1: 'Private Chef & Catering Emirates Hills Dubai',
+      'Book a private chef Emirates Hills. Villa & estate dining with tailored menus, full setup and cleanup. Get a tailored quote in 15 minutes.',
+    h1: 'Private Chef Emirates Hills — Catering Dubai',
     heroImage: '/loc-emirates-hills.webp',
     heroSubtitle:
       'Emirates Hills private chef and villa dining for ultra-luxury estates — discreet, tailored menus with full service and cleanup.',
@@ -1589,7 +1797,31 @@ const allLocations: LocationData[] = [
         q: 'What group sizes do you cover?',
         a: 'we coordinate catering intimate dinners from six guests up to large villa events for 50 or more, with service staff scaled to the occasion.',
       },
-    ],
+      {
+        q: 'Do you provide chef at home Emirates Hills?',
+        a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave the home as we found it. Across Palm Jumeirah, Emirates Hills, Jumeirah this is our most common booking.',
+      },
+      {
+        q: 'Do you offer private dining Emirates Hills?',
+        a: 'Yes. It sits inside the same service as private chef Emirates Hills: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+      },
+      {
+        q: 'Do you cater party catering Emirates Hills?',
+        a: 'Yes. We plan the menu around the occasion and the room — plated, buffet, canapés or live stations — bring chefs, service staff and equipment, and handle the clear-down. Share the date, guest count and venue and you get a proposal with the format we would recommend and why.',
+      },
+      {
+        q: 'Is personal chef Emirates Hills something you arrange?',
+        a: 'Yes. Every chef on our roster is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.',
+      },
+      {
+        q: 'Can you handle is Emirates food halal?',
+        a: 'Yes. Dietary needs are planned into the menu from the first draft, not bolted on: dishes are labelled, cross-contact is managed in the kitchen we set up on site, and the chef is briefed on every guest requirement before the day.',
+      },
+      {
+        q: 'Can you handle healthy food Dubai Hills?',
+        a: 'Yes. Dietary needs are planned into the menu from the first draft, not bolted on: dishes are labelled, cross-contact is managed in the kitchen we set up on site, and the chef is briefed on every guest requirement before the day.',
+      },
+],
     uniqueAngle:
       'Ultra-discreet villa dining for Dubai\'s most exclusive addresses around Montgomerie Golf Course.',
     propertyType:
@@ -1607,8 +1839,8 @@ const allLocations: LocationData[] = [
     name: 'Arabian Ranches',
     title: 'Private Chef Arabian Ranches Dubai | Family Villa | myCHEF',
     metaDescription:
-      'Book a private chef in Arabian Ranches. Family villa catering with tailored menus, full setup and cleanup. Get a tailored quote in 15 minutes.',
-    h1: 'Private Chef & Catering Arabian Ranches Dubai',
+      'Book a private chef Arabian Ranches. Family villa catering with tailored menus, full setup and cleanup. Get a tailored quote in 15 minutes.',
+    h1: 'Private Chef Arabian Ranches — Catering Dubai',
     heroImage: '/loc-emirates-hills.webp',
     heroSubtitle:
       'Arabian Ranches private chef and catering for villa gardens, BBQs and family celebrations — relaxed, tailored menus with full service.',
@@ -1779,7 +2011,27 @@ const allLocations: LocationData[] = [
         q: 'Do you handle outdoor setup and cleanup?',
         a: 'Yes. Our chefs bring outdoor equipment, protects garden surfaces and clears everything after service.',
       },
-    ],
+      {
+        q: 'Do you provide chef at home Arabian Ranches?',
+        a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave the home as we found it. Across Emirates Hills, Jumeirah, Arabian Ranches this is our most common booking.',
+      },
+      {
+        q: 'Do you offer private dining Arabian Ranches?',
+        a: 'Yes. It sits inside the same service as private chef Arabian Ranches: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+      },
+      {
+        q: 'Do you cater party catering Arabian Ranches?',
+        a: 'Yes. We plan the menu around the occasion and the room — plated, buffet, canapés or live stations — bring chefs, service staff and equipment, and handle the clear-down. Share the date, guest count and venue and you get a proposal with the format we would recommend and why.',
+      },
+      {
+        q: 'Is personal chef Arabian Ranches something you arrange?',
+        a: 'Yes. Every chef on our roster is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.',
+      },
+      {
+        q: 'Is female private chef Arabian Ranches something you arrange?',
+        a: 'Yes. Every chef on our roster is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.',
+      },
+],
     uniqueAngle:
       'Trusted family catering for Arabian Ranches — from villa garden BBQs to community seasonal celebrations.',
     propertyType:
@@ -1797,8 +2049,8 @@ const allLocations: LocationData[] = [
     name: 'Dubai Hills',
     title: 'Private Chef Dubai Hills | Golf & Family Villa | myCHEF',
     metaDescription:
-      'Book a private chef in Dubai Hills. Golf & family villa catering with tailored menus, full setup and cleanup. Get a tailored quote in 15 minutes.',
-    h1: 'Private Chef & Catering Dubai Hills Dubai',
+      'Book a private chef Dubai Hills. Golf & family villa catering with tailored menus, full setup and cleanup. Get a tailored quote in 15 minutes.',
+    h1: 'Private Chef Dubai Hills — Catering Dubai',
     heroImage: '/loc-emirates-hills.webp',
     heroSubtitle:
       'Dubai Hills private chef and catering for villas, golf events and family gatherings — tailored menus with full service.',
@@ -1969,7 +2221,35 @@ const allLocations: LocationData[] = [
         q: 'What cuisines are popular in Dubai Hills?',
         a: 'Mediterranean, Middle Eastern, Italian and BBQ menus are popular for garden events; French and international options suit more formal dinners.',
       },
-    ],
+      {
+        q: 'Do you provide chef at home Dubai Hills?',
+        a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave the home as we found it. Across Emirates Hills, Arabian Ranches, Dubai Hills this is our most common booking.',
+      },
+      {
+        q: 'Do you offer private dining Dubai Hills?',
+        a: 'Yes. It sits inside the same service as private chef Dubai Hills: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+      },
+      {
+        q: 'Do you cater party catering Dubai Hills?',
+        a: 'Yes. We plan the menu around the occasion and the room — plated, buffet, canapés or live stations — bring chefs, service staff and equipment, and handle the clear-down. Share the date, guest count and venue and you get a proposal with the format we would recommend and why.',
+      },
+      {
+        q: 'Is personal chef Dubai Hills something you arrange?',
+        a: 'Yes. Every chef on our roster is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.',
+      },
+      {
+        q: 'What makes myCHEF a strong choice for private chef luxury villa Dubai Hills?',
+        a: 'One team owns the whole event — menu, shopping, cooking on site, service and clear-down — so nothing falls between suppliers. The chefs are vetted and matched to the occasion, ingredients are charged at cost with no markup, and every quote is itemised.',
+      },
+      {
+        q: 'Do you offer iftar buffet Dubai Hills?',
+        a: 'Yes. It sits inside the same service as private chef Dubai Hills: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+      },
+      {
+        q: 'Do you handle Dubai Hills Business lunch?',
+        a: 'Yes. For companies we work to a fixed timing, invoice properly, cater dietary requirements per employee and keep the set-up clean and quick. One contact, one itemised quote, and the same team every time if you want continuity.',
+      },
+],
     uniqueAngle:
       "Dubai Hills Estate's family luxury caterer — seven-course fine dining for villa gardens and golf events.",
     propertyType:

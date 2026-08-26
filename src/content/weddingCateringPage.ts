@@ -1,21 +1,43 @@
 import { CATERING_PATHS } from './cateringCluster'
+import {
+  ESTIMATE_CAPTION,
+  FIGURES_REVIEWED,
+  WEDDING_VAT,
+  estimateFloors,
+  inclusionBuckets,
+} from './weddingCluster'
 
 export const WEDDING_PATH = '/wedding-catering-dubai' as const
 
 export const WEDDING_KEYWORD_LOCK = {
-  primary: 'wedding catering Dubai',
-  title: 'Wedding Catering Dubai | Villa, Garden & Venue | myCHEF',
+  primary: 'wedding catering dubai',
+  title: 'Wedding Catering Dubai | Villa, Garden & Venue Receptions | myCHEF',
   description:
-    'Wedding catering in Dubai for villas, gardens and venues. myCHEF designs the plan and matches you with vetted chefs and licensed partners. Request a quote.',
+    'Wedding Catering Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.',
 } as const
 
-export const WEDDING_INQUIRY_HREF =
-  '/inquiry'
+export const WEDDING_INQUIRY_HREF = '/inquiry'
 
 export const WEDDING_WHATSAPP_MESSAGE =
   "Hi myCHEF Dubai, I'm planning wedding catering. Date: __, Guests: __, Venue: __, Format: __ (via mychef.ae/wedding-catering-dubai)"
 
 export const WEDDING_WHATSAPP_LINK = `https://wa.me/971551744849?text=${encodeURIComponent(WEDDING_WHATSAPP_MESSAGE)}`
+
+/** pages["/wedding-catering-dubai"].internal_linking.siblings — render exactly. */
+export const WEDDING_SIBLING_LINKS = [
+  { href: '/private-party-catering-dubai', label: 'Engagement party catering' },
+  { href: '/chefs/matteo-pastry-chef', label: 'Matteo — pastry' },
+  { href: '/wedding-catering-checklist-dubai', label: 'Wedding catering checklist' },
+  { href: '/venue-partners', label: 'Preferred caterer' },
+  { href: '/buffet-vs-plated-dubai', label: 'Buffet vs plated' },
+] as const
+
+/** pages["/wedding-catering-dubai"].internal_linking.supporting_guides */
+export const WEDDING_SUPPORTING_GUIDES = [
+  { href: '/wedding-catering-checklist-dubai', label: 'Wedding catering checklist', note: 'The planning sequence' },
+  { href: '/wedding-catering-menu-planning-dubai', label: 'Wedding menu planning', note: 'Formats, tasting, sample menus' },
+  { href: '/blog/wedding-catering-cost-dubai', label: 'Wedding catering cost', note: 'What changes the quote' },
+] as const
 
 export const weddingHero = {
   src: '/images/wedding-catering-dubai-hero.webp',
@@ -24,36 +46,73 @@ export const weddingHero = {
   height: 1440,
 } as const
 
+export const weddingHeroCopy = {
+  eyebrow: 'Wedding Catering Dubai',
+  title: 'Wedding Catering Dubai',
+  subtitle:
+    'Wedding Catering Dubai for a villa dinner, a garden reception or a licensed venue. myCHEF designs the catering plan, matches you with vetted chefs, service professionals and licensed culinary partners, and stays your point of contact so you can be guests at your own table.',
+  priceLine:
+    'A chef-led plated villa dinner typically sits around AED 700–950 per guest. A staffed wedding buffet often sits around AED 180–350. 5% VAT is shown as its own line.',
+  replyLine: 'Share your date, venue and guest count. We typically reply within 15 minutes during business hours.',
+} as const
+
+export const siloIntro = {
+  lead:
+    'This page is the wedding meal — menu, team, timing and service. It is not a wedding planner, and it is not every other event type.',
+  cateringHref: '/catering-dubai',
+  cateringLabel: 'Luxury catering in Dubai',
+  eventsHref: '/events',
+  eventsLabel: 'Event catering in Dubai',
+  chefHref: '/private-chef-dubai',
+  chefLabel: 'Private chef services in Dubai',
+} as const
+
+export const jumpNav = [
+  { href: '#formats', label: 'How guests eat' },
+  { href: '#pricing', label: 'Prices' },
+  { href: '#venues', label: 'Where' },
+  { href: '#menus', label: 'Menus' },
+  { href: '#how-it-works', label: 'How it works' },
+  { href: '#faqs', label: 'FAQs' },
+  { href: '#get-quote', label: 'Quote' },
+] as const
+
 export const weddingFormats = [
   {
     title: 'Plated wedding dinner',
     body: 'Guests are seated and courses are served to the table. Staffing, table layout and timing matter more here than on a buffet.',
     href: '/buffet-vs-plated-dubai',
+    linkLabel: 'Buffet vs plated',
   },
   {
     title: 'Wedding buffet',
     body: 'A practical format for larger groups and more choice. Presentation, serving equipment and the team around it still have to suit a wedding — not a conference lunch.',
     href: '/buffet-catering-dubai',
+    linkLabel: 'Buffet catering',
   },
   {
     title: 'Live cooking stations',
     body: 'Food prepared in front of guests. Pasta, carving, grill, seafood, sushi, Asian, Middle Eastern or dessert stations can be the main meal or one stage of a longer evening.',
     href: '/live-cooking-stations-dubai',
+    linkLabel: 'Live cooking stations',
   },
   {
     title: 'Canapés and cocktail reception',
     body: 'For arrivals, the gap after the ceremony, or a standing reception. Can stay light before dinner, or become the whole food service.',
-    href: '/canape-catering-dubai',
+    href: '/cocktail-party-catering-dubai',
+    linkLabel: 'Cocktail reception catering',
   },
   {
     title: 'Sharing and family-style',
     body: 'Large dishes on the table. More social than plated service, still styled. Works well with Mediterranean, Italian and Middle Eastern menus.',
     href: CATERING_PATHS.overview,
+    linkLabel: 'Food, service and the table',
   },
   {
     title: 'Grazing and dessert tables',
     body: 'A grazing table for arrivals or a relaxed stretch of the reception. A dessert table as the last food moment of the night.',
     href: '/grazing-table-dubai',
+    linkLabel: 'Grazing tables',
   },
 ] as const
 
@@ -77,7 +136,7 @@ export const weddingSettings = [
   {
     title: 'Garden and outdoor weddings',
     body: 'Temperature, food holding, shade, access and kitchen distance all change the plan. We do not simply move an indoor menu outside.',
-    href: '/beach-catering-dubai',
+    href: '/private-party-catering-dubai',
     linkLabel: 'Outdoor catering',
     image: '/images/party-catering-dubai-hero.webp',
     imageAlt: 'An outdoor wedding reception in a Dubai garden. Experience concept shown.',
@@ -86,7 +145,7 @@ export const weddingSettings = [
     title: 'Hotel and licensed venues',
     body: 'Downtown, DIFC, Business Bay, Dubai Marina, JBR, Bluewaters: ask on day one whether external catering is allowed. If the hotel says no, they are selling a building and a kitchen. That can be the right buy — it is not a myCHEF plated menu in that ballroom.',
     href: '/venue-partners',
-    linkLabel: 'Venue partners',
+    linkLabel: 'Preferred caterer',
     image: '/images/gala-dinner-catering-dubai-hero.webp',
     imageAlt: 'A hotel ballroom set for a wedding dinner in Dubai. Experience concept shown.',
   },
@@ -97,16 +156,19 @@ export const weddingCuisines = [
     title: 'Indian wedding catering',
     body: 'Regional dishes, vegetarian selections, live stations, breads, snacks and sweets — often across more than one moment of the celebration. We start with the family, preferred regions, dietary requirements and format.',
     href: '/indian-catering-dubai',
+    linkLabel: 'Indian catering',
   },
   {
     title: 'Arabic wedding catering',
     body: 'Sharing dishes, grills, mezze, rice, salads, breads, desserts, or a more contemporary reading of the same kitchen.',
     href: '/arabic-catering-dubai',
+    linkLabel: 'Arabic catering',
   },
   {
     title: 'Lebanese wedding catering',
     body: 'Cold and hot mezze, grilled dishes, salads, breads, sharing mains and desserts — built as one menu, not a list of dishes.',
     href: '/arabic-catering-dubai',
+    linkLabel: 'Lebanese and mezze menus',
   },
 ] as const
 
@@ -119,6 +181,99 @@ export const weddingProcess = [
   'Guest count, menu, dietary requirements and timing are confirmed before the day.',
   'On the wedding day the team runs the food and beverage operation. You stay with the reason everyone is there.',
 ] as const
+
+export const pricingIntro = [
+  'Treat any number you see online, including ours, as a planning estimate until you have a written proposal for your date, venue and guest count.',
+  'A food-led wedding buffet or station plan in Dubai often sits around AED 180–350 per guest once staff are in the room — less if it is true drop-off, more if you open live kitchens. A chef-led plated dinner in a villa, the evening most couples mean when they want myCHEF in the house, typically sits around AED 700–950 per guest. Hotel ballroom packages are a third thing: often AED 380–800+ and they may already include the room. Small villa dinners often work to a night minimum around AED 2,400–4,500 rather than a cheap head-rate.',
+] as const
+
+export const pricingNotes = [
+  ESTIMATE_CAPTION,
+  WEDDING_VAT,
+  estimateFloors,
+  `Figures reviewed ${FIGURES_REVIEWED}.`,
+  'Not every wedding meets the starting points. Guest count, menu, staffing, venue access, timing and equipment move the total.',
+] as const
+
+export const includedItems = [
+  {
+    title: 'Always coordinated',
+    body: inclusionBuckets.always.join(' · '),
+  },
+  {
+    title: 'When the plan says so',
+    body: inclusionBuckets.whenAgreed.join(' · '),
+  },
+  {
+    title: 'Optional additions',
+    body: inclusionBuckets.optional.join(' · '),
+  },
+  {
+    title: 'Venue or licensed partners',
+    body: `${inclusionBuckets.venue.join(' · ')}. ${inclusionBuckets.partners.join(' · ')}.`,
+  },
+] as const
+
+export const proofItems = [
+  {
+    title: 'How culinary partners are selected',
+    body: 'Identity, right-to-work, skill and references are checked before anyone cooks for a client. No chef is guaranteed by name; we match the wedding.',
+    href: '/how-we-vet-our-chefs',
+    linkLabel: 'How myCHEF quality standards work',
+  },
+  {
+    title: 'What halal-first means here',
+    body: 'Halal ingredients are sourced by default for myCHEF catering menus in Dubai. Tell us the standard you expect. Specific certification belongs in the brief.',
+    href: '/halal-catering-dubai',
+    linkLabel: 'Halal catering',
+  },
+  {
+    title: 'Food safety and who cooks',
+    body: 'Culinary preparation is performed by independent, licensed culinary partners working to Dubai Municipality food-safety standards. myCHEF designs and coordinates the catering. The client engages those professionals.',
+    href: '/how-it-works',
+    linkLabel: 'How booking works',
+  },
+  {
+    title: 'Written proposals',
+    body: 'Guest count, menu, staffing, format, venue access, timing and equipment are itemised. Minimums and 5% VAT are shown before you book.',
+    href: `${WEDDING_PATH}#pricing`,
+    linkLabel: 'Wedding catering prices',
+  },
+] as const
+
+/** Published on /case-studies — no client names, no new claims. */
+export const exampleEvents = [
+  {
+    title: 'Villa wedding reception, Emirates Hills',
+    guests: '80 guests',
+    venue: 'Private villa, Emirates Hills',
+    setup: 'Arabic-Mediterranean fusion; roaming canapés, live grill and family-style sharing plates.',
+    outcome: 'Guests kept moving through canapés and sharing plates; the dance floor stayed full.',
+    href: '/case-studies',
+    linkLabel: 'Case studies',
+  },
+] as const
+
+export const decisionModule = {
+  h2: 'A small wedding should not be a simplified large one',
+  intimateLead: 'Intimate table:',
+  intimateBody:
+    'with fewer guests the food can be more personal: a longer tasting menu, detailed plating, a sharing dinner. That brief often belongs with a private chef for a smaller table.',
+  cateringLead: 'Not a wedding:',
+  cateringBody: 'food-only through full event support for any other night sits on the catering hub.',
+  eventsLead: 'Another occasion:',
+  eventsBody: 'a birthday, corporate night or private party belongs on the events hub.',
+  dining:
+    'If the table is two covers, a tasting or a desert dinner, that is private dining — not this page.',
+  chefHref: '/private-chef-dubai',
+  chefLabel: 'Private chef services in Dubai',
+  cateringHref: '/catering-dubai',
+  cateringLabel: 'Luxury catering in Dubai',
+  eventsHref: '/events',
+  eventsLabel: 'Event catering in Dubai',
+  diningHref: '/luxury-dining-experiences',
+  diningLabel: 'Private dining in Dubai',
+} as const
 
 export const weddingFaqs = [
   {
@@ -153,14 +308,70 @@ export const weddingFaqs = [
     q: 'Do you work with our wedding planner?',
     a: 'Yes. We manage the food and beverage operation and fit it to your planner’s run sheet. We do not replace a planner. If you do not have one, we still need one named day-of contact who is not the couple.',
   },
+  {
+    q: 'Do you cater wedding caterers Dubai?',
+    a: 'Yes. We plan the menu around the occasion and the room — plated, buffet, canapés or live stations — bring chefs, service staff and equipment, and handle the clear-down. Share the date, guest count and venue and you get a proposal with the format we would recommend and why.',
+  },
+  {
+    q: 'How much does wedding catering price per person Dubai come to?',
+    a: 'There is no single number for wedding catering price per person Dubai: guest count, menu, service style and staffing move the figure. Our indicative starting point on this page is AED 700–950 per guest. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+  },
+  {
+    q: 'Do you cater wedding buffet catering Dubai?',
+    a: 'Yes. We plan the menu around the occasion and the room — plated, buffet, canapés or live stations — bring chefs, service staff and equipment, and handle the clear-down. Share the date, guest count and venue and you get a proposal with the format we would recommend and why.',
+  },
+  {
+    q: 'Do you offer wedding catering packages Dubai?',
+    a: 'Yes. We start from set formats and adjust them to your event rather than selling a fixed box: menu length, service style, staff and equipment are chosen for the day. Starting points begin at AED 700–950 per guest. Ask for the format closest to what you are planning and we shape it from there.',
+  },
+  {
+    q: 'Do you cater small wedding catering Dubai?',
+    a: 'Yes. We plan the menu around the occasion and the room — plated, buffet, canapés or live stations — bring chefs, service staff and equipment, and handle the clear-down. Share the date, guest count and venue and you get a proposal with the format we would recommend and why.',
+  },
+  {
+    q: 'Do you offer nikah catering Dubai?',
+    a: 'Yes. It sits inside the same service as wedding catering Dubai: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+  },
+  {
+    q: 'Do you offer wedding food packages Dubai?',
+    a: 'Yes. We start from set formats and adjust them to your event rather than selling a fixed box: menu length, service style, staff and equipment are chosen for the day. Starting points begin at AED 700–950 per guest. Ask for the format closest to what you are planning and we shape it from there.',
+  },
+  {
+    q: 'Do you cater when to book caterer for wedding?',
+    a: 'Yes. We plan the menu around the occasion and the room — plated, buffet, canapés or live stations — bring chefs, service staff and equipment, and handle the clear-down. Share the date, guest count and venue and you get a proposal with the format we would recommend and why.',
+  },
+  {
+    q: 'Do you cater wedding caterers Dubai?',
+    a: 'Yes. We plan the menu around the occasion and the room — plated, buffet, canapés or live stations — bring chefs, service staff and equipment, and handle the clear-down. Share the date, guest count and venue and you get a proposal with the format we would recommend and why.',
+  },
+  {
+    q: 'How much does wedding catering price per person Dubai come to?',
+    a: 'There is no single number for wedding catering price per person Dubai: guest count, menu, service style and staffing move the figure. Our indicative starting point on this page is AED 700–950 per guest. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+  },
+  {
+    q: 'Do you cater wedding buffet catering Dubai?',
+    a: 'Yes. We plan the menu around the occasion and the room — plated, buffet, canapés or live stations — bring chefs, service staff and equipment, and handle the clear-down. Share the date, guest count and venue and you get a proposal with the format we would recommend and why.',
+  },
+  {
+    q: 'Do you offer wedding catering packages Dubai?',
+    a: 'Yes. We start from set formats and adjust them to your event rather than selling a fixed box: menu length, service style, staff and equipment are chosen for the day. Starting points begin at AED 700–950 per guest. Ask for the format closest to what you are planning and we shape it from there.',
+  },
+  {
+    q: 'Do you cater small wedding catering Dubai?',
+    a: 'Yes. We plan the menu around the occasion and the room — plated, buffet, canapés or live stations — bring chefs, service staff and equipment, and handle the clear-down. Share the date, guest count and venue and you get a proposal with the format we would recommend and why.',
+  },
+  {
+    q: 'Do you offer nikah catering Dubai?',
+    a: 'Yes. It sits inside the same service as wedding catering Dubai: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+  },
+  {
+    q: 'Do you offer wedding food packages Dubai?',
+    a: 'Yes. We start from set formats and adjust them to your event rather than selling a fixed box: menu length, service style, staff and equipment are chosen for the day. Starting points begin at AED 700–950 per guest. Ask for the format closest to what you are planning and we shape it from there.',
+  },
+  {
+    q: 'Do you cater when to book caterer for wedding?',
+    a: 'Yes. We plan the menu around the occasion and the room — plated, buffet, canapés or live stations — bring chefs, service staff and equipment, and handle the clear-down. Share the date, guest count and venue and you get a proposal with the format we would recommend and why.',
+  },
 ] as const
 
-export const weddingClusterLinks = [
-  { href: '/blog/wedding-catering-cost-dubai', label: 'Wedding catering cost', note: 'What changes the quote' },
-  { href: '/wedding-catering-checklist-dubai', label: 'Wedding catering checklist', note: 'The planning sequence' },
-  { href: '/wedding-catering-menu-planning-dubai', label: 'Wedding menu planning', note: 'Formats, tasting, sample menus' },
-  { href: '/dessert-table-catering-dubai', label: 'Dessert table catering', note: 'Cake and the last food moment' },
-  { href: '/blog/grazing-table-vs-buffet-dubai', label: 'Grazing table vs buffet', note: 'Which format fits the room' },
-  { href: '/blog/how-far-ahead-book-caterer-dubai', label: 'How far ahead to book', note: 'Lead times by event type' },
-  { href: '/blog/vegan-catering-dubai-guide', label: 'Vegan catering guide', note: 'Plant-based menus' },
-] as const
+export const weddingClusterLinks = WEDDING_SUPPORTING_GUIDES

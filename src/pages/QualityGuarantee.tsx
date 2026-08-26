@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /quality-guarantee-dubai
+//     primary:     "catering quality guarantee dubai"
+//     subkeywords: "what if catering goes wrong dubai" · "catering complaint policy dubai" · "how to complain about a caterer dubai" · "gulf catering company uae" · "catering vs delivery"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef } from 'react'
 import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
@@ -173,8 +179,8 @@ export default function QualityGuarantee() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Quality Guarantee Dubai | Satisfaction"
-        description="myCHEF Dubai quality guarantee: vetted chefs, backup cover, written briefings, and fair resolution if your private chef or catering experience falls short."
+        title="Catering Quality Guarantee Dubai | What We Promise | myCHEF"
+        description="Catering Quality Guarantee Dubai — myCHEF Dubai quality guarantee: vetted chefs, backup cover, written briefings, and fair resolution if your private chef…"
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/how-we-vet-our-chefs-dubai-hero.webp"
         schema={schema}
@@ -198,7 +204,7 @@ export default function QualityGuarantee() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 qg-hero-h1">
-            Not Satisfied? We'll Make It Right
+            Catering Quality Guarantee Dubai: Not Satisfied? We'll Make It Right
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 qg-hero-sub">
             Every myCHEF Dubai booking is backed by vetted chefs, backup cover, clear written terms, and a fair resolution promise — because trust is the real product.
@@ -303,7 +309,7 @@ export default function QualityGuarantee() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Quality Guarantee Questions
+            Catering Quality Guarantee Dubai: the questions we get before a booking
           </h2>
 
           <FaqAccordion items={faqs} />
@@ -335,7 +341,7 @@ export default function QualityGuarantee() {
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
                   <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
-                    Explore <ArrowRight size={14} />
+                    {svc.title} <ArrowRight size={14} />
                   </span>
                 </div>
               </Link>

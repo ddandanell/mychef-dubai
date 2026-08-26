@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /faq
+//     primary:     "catering faq dubai"
+//     subkeywords: "catering minimum order dubai" · "how much notice does a caterer need dubai" · "is catering in dubai halal" · "does a private chef clean up dubai" · "what are common red flags with catering companies" · "what questions to ask for a catering service"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef, useState, useMemo } from 'react'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { Link } from 'react-router'
@@ -26,7 +32,7 @@ const faqData: Record<Exclude<Category, 'All'>, { q: string; a: string }[]> = {
     { q: 'What is included in the price?', a: 'Menu design, your chef\'s sourcing and cooking, service, and cleanup — all designed and run by us. Tableware, linens, premium upgrades, and travel outside Dubai may be additional.' },
     { q: 'Are there any hidden fees?', a: 'No. Your written quote includes all agreed costs. We are transparent about pricing, deposits, and any optional add-ons before you confirm.' },
     { q: 'Can I get a fixed-price menu?', a: 'Yes. Once guest count, format, and cuisine preferences are confirmed, we can propose a fixed-price menu per person or a flat package rate.' },
-    { q: 'How does corporate meal prep pricing work?', a: 'Corporate meal prep is priced as a recurring programme based on headcount, menu complexity, and delivery frequency. Visit /corporate-meal-prep-dubai for details.' },
+    { q: 'How does corporate meal prep pricing work?', a: 'Corporate meal prep is priced as a recurring programme based on headcount, menu complexity, and delivery frequency. Visit /staff-meals-catering-dubai for details.' },
   ],
   'Booking process': [
     { q: 'How do I book a private chef in Dubai?', a: 'Contact us via WhatsApp or our online /inquiry form. Tell us about your event, and we will respond within 15 minutes during business hours with a bespoke proposal.' },
@@ -78,7 +84,7 @@ const faqData: Record<Exclude<Category, 'All'>, { q: string; a: string }[]> = {
   ],
   'Bar & VIP': [
     { q: 'What bar services do you offer?', a: 'We arrange bartenders, mobile bars, craft cocktails, mocktails, wine service, and champagne presentations. Visit /bar-services-dubai.' },
-    { q: 'Can I book a mocktail bar for a family event?', a: 'Yes. Our mocktail bar is completely alcohol-free and ideal for family celebrations, kids’ parties, and Ramadan gatherings. See /mocktail-bar-catering-dubai.' },
+    { q: 'Can I book a mocktail bar for a family event?', a: 'Yes. Our mocktail bar is completely alcohol-free and ideal for family celebrations, kids’ parties, and Ramadan gatherings. See /bar-services-dubai.' },
     { q: 'What is the myCHEF VIP Club?', a: 'The VIP Club is a membership for frequent hosts, offering priority booking, exclusive menus, and dedicated account management. Visit /vip-club.' },
     { q: 'How do I join the VIP Club?', a: 'Contact us via WhatsApp or the /inquiry form and ask about VIP Club membership.' },
     { q: 'Do you offer gift cards?', a: 'Yes. myCHEF gift cards are available for private dining experiences, cooking classes, and bespoke catering. See /gift-cards.' },
@@ -96,18 +102,18 @@ const relatedLinks = [
     { label: 'Villas', href: '/villas-private-residences' },
   ]},
   { title: 'Dietary', links: [
-    { label: 'Gluten-Free Catering', href: '/gluten-free-catering-dubai' },
-    { label: 'Dairy-Free Catering', href: '/dairy-free-catering-dubai' },
-    { label: 'Nut-Free Catering', href: '/nut-free-catering-dubai' },
-    { label: 'Keto & Low-Carb Catering', href: '/keto-catering-dubai' },
+    { label: 'Gluten-Free Catering', href: '/allergy-safe-catering-dubai' },
+    { label: 'Dairy-Free Catering', href: '/allergy-safe-catering-dubai' },
+    { label: 'Nut-Free Catering', href: '/allergy-safe-catering-dubai' },
+    { label: 'Keto & Low-Carb Catering', href: '/cuisines-dubai' },
     { label: 'Jain Catering', href: '/jain-catering-dubai' },
     { label: 'Vegan Catering', href: '/vegan-catering-dubai' },
     { label: 'Vegetarian Catering', href: '/vegetarian-catering-dubai' },
   ]},
   { title: 'Occasions', links: [
-    { label: 'Kids Birthday Catering', href: '/kids-birthday-catering-dubai' },
-    { label: 'Pool Party Catering', href: '/pool-party-catering-dubai' },
-    { label: 'Beach Catering', href: '/beach-catering-dubai' },
+    { label: 'Kids Birthday Catering', href: '/birthday-catering-dubai' },
+    { label: 'Pool Party Catering', href: '/private-party-catering-dubai' },
+    { label: 'Beach Catering', href: '/private-party-catering-dubai' },
     { label: 'Desert Dining', href: '/desert-dining-dubai' },
     { label: 'Afternoon Tea Catering', href: '/afternoon-tea-catering-dubai' },
     { label: 'Party Catering', href: '/private-party-catering-dubai' },
@@ -189,8 +195,8 @@ export default function FAQ() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="FAQ | Private Chef & Catering Dubai"
-        description="Find answers about private chef services, catering, pricing, booking, chefs, halal, locations, and more. myCHEF Dubai's comprehensive FAQ hub."
+        title="Catering Faq Dubai | FAQ | Private Chef & Catering Dubai | myCHEF"
+        description="Catering Faq Dubai — Find answers about private chef services, catering, pricing, booking, chefs, halal, locations, and more. myCHEF Dubai's comprehensive…"
         canonicalPath="/faq"
         ogImage="/images/faq-dubai-hero.webp"
         schema={schema}
@@ -199,8 +205,8 @@ export default function FAQ() {
       {/* Section 1: Hero */}
       <PageHero
         eyebrow="HELP CENTER"
-        title="Frequently Asked Questions"
-        subtitle="Everything you need to know about private chef services, catering, pricing, and bookings in Dubai."
+        title="Catering Faq Dubai: Frequently Asked Questions"
+        subtitle="Catering Faq Dubai by myCHEF — Everything you need to know about private chef services, catering, pricing, and bookings in Dubai."
         image="/images/faq-dubai-hero.webp"
         imageAlt="myCHEF Dubai customer support and FAQ"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'FAQ' }]}
@@ -311,7 +317,7 @@ export default function FAQ() {
       {/* Section 6: CTA */}
       <section className="faq-cta bg-black section-padding">
         <div className="faq-cta-content container-custom text-center">
-          <h2 className="font-playfair text-h2 text-white mb-4" style={{ lineHeight: '1.15' }}>Ready to Book?</h2>
+          <h2 className="font-playfair text-h2 text-white mb-4" style={{ lineHeight: '1.15' }}>Catering Faq Dubai: Ready to Book?</h2>
           <p className="font-inter text-body text-gray-400 max-w-xl mx-auto mb-8">
             Your bespoke dining experience is just a message away.
           </p>

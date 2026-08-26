@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /blog/weekly-meal-prep-vs-full-time-chef-dubai
+//     primary:     "meal prep vs private chef dubai"
+//     subkeywords: "is a full time private chef worth it dubai" · "weekly meal prep vs private chef dubai" · "meal prep private chef" · "personal chef for meal prep cost" · "private vs personal chef" · "weekly meal prep" · "healthy meal prep ideas for the week" · "lunch meal prep ideas high protein"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef } from 'react'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { Link } from 'react-router'
@@ -100,8 +106,8 @@ export default function WeeklyMealPrepVsFullTimeChef() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Weekly Meal Prep vs Full-Time Chef Dubai"
-        description="Compare weekly meal prep services and full-time private chefs in Dubai by cost, flexibility, vetting, and lifestyle fit so you can choose the right."
+        title="Meal Prep vs Private Chef Dubai | myCHEF"
+        description="Meal Prep vs Private Chef Dubai — Compare weekly meal prep services and full-time private chefs in Dubai by cost, flexibility, vetting, and lifestyle fit so…"
         canonicalPath={`/blog/${SLUG}`}
         ogImage="/images/blog/weekly-meal-prep-vs-full-time-chef-dubai-hero.webp"
         schema={schema}
@@ -110,8 +116,8 @@ export default function WeeklyMealPrepVsFullTimeChef() {
       {/* Hero */}
       <PageHero
         eyebrow="Meal Prep"
-        title="Weekly Meal Prep vs Hiring a Full-Time Chef in Dubai"
-        subtitle="Which option fits your lifestyle, budget, and household? A side-by-side comparison for Dubai families, couples, and busy professionals."
+        title="Meal Prep vs Private Chef Dubai"
+        subtitle="Meal Prep vs Private Chef Dubai by myCHEF — Which option fits your lifestyle, budget, and household? A side-by-side comparison for Dubai families, couples, and busy professionals."
         image="/images/blog/weekly-meal-prep-vs-full-time-chef-dubai-hero.webp"
         imageAlt="Weekly meal prep versus full-time private chef in Dubai"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Blog', href: '/blog' }, { label: 'Meal Prep vs Full-Time Chef' }]}
@@ -281,7 +287,7 @@ export default function WeeklyMealPrepVsFullTimeChef() {
           <BlogRelated currentSlug="/blog/weekly-meal-prep-vs-full-time-chef-dubai" />
 
           <section className="article-cta opacity-0 translate-y-8 bg-cream p-8 md:p-12 text-center">
-            <h2 className="font-playfair text-h3 text-black mb-4">Not Sure Which Option Is Right for You?</h2>
+            <h2 className="font-playfair text-h3 text-black mb-4">Meal Prep vs Private Chef Dubai: Not Sure Which Option Is Right for You?</h2>
             <p className="font-inter text-body text-gray-500 max-w-[600px] mx-auto mb-8">
               Tell us about your household and schedule. We will recommend the most cost-effective solution and design a menu that fits your lifestyle.
             </p>

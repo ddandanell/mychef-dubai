@@ -6,9 +6,14 @@ import allLocations from '../src/data/locations.ts'
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const pagesDir = path.resolve(__dirname, '../src/pages')
 
-const SITE_NAME = 'myCHEF Dubai'
+const SITE_NAME = 'myCHEF'
 const TITLE_SUFFIX = ` | ${SITE_NAME}`
-const MAX_FINAL_TITLE_LEN = 60
+// Mirrors src/components/SEO.tsx: the suffix is appended unless hideSiteName or the
+// title already ends in the brand. Cap = title_max_chars in the SEO contract.
+const MAX_FINAL_TITLE_LEN = 65
+const BRAND_SUFFIX_RE = /\|\s*myCHEF(?:\s+Dubai)?\s*$/i
+const finalTitleLength = (title: string, hideSiteName: boolean): number =>
+  hideSiteName || BRAND_SUFFIX_RE.test(title) ? title.length : title.length + TITLE_SUFFIX.length
 const MAX_PROP_TITLE_LEN = MAX_FINAL_TITLE_LEN - TITLE_SUFFIX.length
 
 interface Meta {
@@ -114,9 +119,7 @@ function logIssue(type: string, label: string, detail: string) {
 }
 
 function checkMeta(meta: Meta, label: string) {
-  const finalTitleLen = meta.hideSiteName
-    ? meta.title.length
-    : meta.title.length + TITLE_SUFFIX.length
+  const finalTitleLen = finalTitleLength(meta.title, meta.hideSiteName)
 
   if (finalTitleLen > MAX_FINAL_TITLE_LEN) {
     logIssue(
@@ -126,7 +129,7 @@ function checkMeta(meta: Meta, label: string) {
     )
   }
 
-  if (/[,|]\s*myCHEF(?:\s+Dubai)?\s*$/.test(meta.title) && !meta.hideSiteName) {
+  if (/myCHEF(?:\s+Dubai)?\s*\|\s*myCHEF(?:\s+Dubai)?\s*$/i.test(meta.title) || /myCHEF Dubai\s*$/.test(meta.title)) {
     logIssue('DUP_SUFFIX', label, meta.title)
   }
 
@@ -212,7 +215,7 @@ for (const f of chefFiles) {
   }
 
   const titleProp = `${nameMatch[1]} | ${titleMatch[1]}`
-  const finalTitleLen = titleProp.length + TITLE_SUFFIX.length
+  const finalTitleLen = finalTitleLength(titleProp, false)
 
   if (finalTitleLen > MAX_FINAL_TITLE_LEN) {
     logIssue(

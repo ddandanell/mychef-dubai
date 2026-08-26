@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /corporate-catering-checklist-dubai
+//     primary:     "corporate catering checklist dubai"
+//     subkeywords: "how to plan corporate catering dubai" · "corporate event catering checklist" · "what to ask a corporate caterer dubai" · "catering company business plan checklist" · "catering checklist for caterers" · "catering checklist for events" · "corporate catering services in dubai" · "dubai catering prices"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef } from 'react'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { Link } from 'react-router'
@@ -239,7 +245,7 @@ export default function CorporateCateringChecklist() {
     <div ref={containerRef}>
       <SEO
         title="Corporate Catering Checklist Dubai"
-        description="A corporate catering checklist for Dubai businesses: headcount, dietary needs, format, timing, budget, menu options, service flow, and post-event follow-up."
+        description="A corporate catering checklist Dubai businesses: headcount, dietary needs, format, timing, budget, menu options, service flow, and post-event follow-up."
         canonicalPath="/corporate-catering-checklist-dubai"
         ogImage="/service-corporate.webp"
         schema={schema}
@@ -265,7 +271,7 @@ export default function CorporateCateringChecklist() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 corp-hero-h1">
-            Corporate Catering Checklist for Dubai Businesses
+            Corporate Catering Checklist Dubai Businesses
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 corp-hero-sub">
             A practical checklist for planning office breakfasts, working lunches, boardroom meetings, and corporate events in Dubai.
@@ -441,7 +447,7 @@ export default function CorporateCateringChecklist() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Corporate Catering FAQ
+            Corporate Catering Checklist Dubai: the questions we get before a booking
           </h2>
 
           <FaqAccordion items={faqs} />

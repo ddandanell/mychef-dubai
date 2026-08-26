@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /business-lunch-catering-dubai
+//     primary:     "business lunch catering dubai"
+//     subkeywords: "business lunch catering dubai price" · "business lunch catering dubai cost per person" · "business lunch delivery dubai" · "business lunch catering packages dubai" · "business lunch catering menu dubai" · "working lunch catering dubai" · "business lunch offers in dubai" · "office lunch delivery dubai" · "business lunch options dubai" · "business lunch buffet dubai" · "best business lunch dubai with a view" · "business lunch downtown dubai"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef } from 'react'
 import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
@@ -65,7 +71,7 @@ const lunchFormats = [
     icon: Leaf,
     title: 'Dietary-Inclusive Menus',
     description: 'Vegetarian, vegan, gluten-free, and lighter options built in, so every guest at the table is well looked after.',
-    link: '/healthy-catering-dubai',
+    link: '/cuisines-dubai',
   },
 ]
 
@@ -151,6 +157,70 @@ const faqs = [
   {
     q: 'How much notice do you need for a business lunch?',
     a: 'For a standard business lunch, a few working days’ notice is usually sufficient. For larger client events or bespoke executive menus, we recommend a little more lead time. If you cater regularly, a standing arrangement makes last-minute bookings far simpler.',
+  },
+  {
+    q: 'How much does business lunch catering Dubai price come to?',
+    a: 'There is no single number for business lunch catering Dubai price: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+  },
+  {
+    q: 'How much does business lunch catering Dubai cost per person come to?',
+    a: 'There is no single number for business lunch catering Dubai cost per person: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+  },
+  {
+    q: 'Do you handle business lunch delivery Dubai?',
+    a: 'Yes. For companies we work to a fixed timing, invoice properly, cater dietary requirements per employee and keep the set-up clean and quick. One contact, one itemised quote, and the same team every time if you want continuity.',
+  },
+  {
+    q: 'Do you offer business lunch catering packages Dubai?',
+    a: 'Yes. We start from set formats and adjust them to your event rather than selling a fixed box: menu length, service style, staff and equipment are chosen for the day. Ask for the format closest to what you are planning and we shape it from there.',
+  },
+  {
+    q: 'Do you handle business lunch catering menu Dubai?',
+    a: 'Yes. For companies we work to a fixed timing, invoice properly, cater dietary requirements per employee and keep the set-up clean and quick. One contact, one itemised quote, and the same team every time if you want continuity.',
+  },
+  {
+    q: 'Do you offer working lunch catering Dubai?',
+    a: 'Yes. It sits inside the same service as business lunch catering Dubai: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+  },
+  {
+    q: 'Do you offer business lunch offers in Dubai?',
+    a: 'Yes. We start from set formats and adjust them to your event rather than selling a fixed box: menu length, service style, staff and equipment are chosen for the day. Ask for the format closest to what you are planning and we shape it from there.',
+  },
+  {
+    q: 'Do you handle office lunch delivery Dubai?',
+    a: 'Yes. For companies we work to a fixed timing, invoice properly, cater dietary requirements per employee and keep the set-up clean and quick. One contact, one itemised quote, and the same team every time if you want continuity.',
+  },
+  {
+    q: 'How much does business lunch catering Dubai price come to?',
+    a: 'There is no single number for business lunch catering Dubai price: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+  },
+  {
+    q: 'How much does business lunch catering Dubai cost per person come to?',
+    a: 'There is no single number for business lunch catering Dubai cost per person: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
+  },
+  {
+    q: 'Do you handle business lunch delivery Dubai?',
+    a: 'Yes. For companies we work to a fixed timing, invoice properly, cater dietary requirements per employee and keep the set-up clean and quick. One contact, one itemised quote, and the same team every time if you want continuity.',
+  },
+  {
+    q: 'Do you offer business lunch catering packages Dubai?',
+    a: 'Yes. We start from set formats and adjust them to your event rather than selling a fixed box: menu length, service style, staff and equipment are chosen for the day. Ask for the format closest to what you are planning and we shape it from there.',
+  },
+  {
+    q: 'Do you handle business lunch catering menu Dubai?',
+    a: 'Yes. For companies we work to a fixed timing, invoice properly, cater dietary requirements per employee and keep the set-up clean and quick. One contact, one itemised quote, and the same team every time if you want continuity.',
+  },
+  {
+    q: 'Do you offer working lunch catering Dubai?',
+    a: 'Yes. It sits inside the same service as business lunch catering Dubai: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+  },
+  {
+    q: 'Do you offer business lunch offers in Dubai?',
+    a: 'Yes. We start from set formats and adjust them to your event rather than selling a fixed box: menu length, service style, staff and equipment are chosen for the day. Ask for the format closest to what you are planning and we shape it from there.',
+  },
+  {
+    q: 'Do you handle office lunch delivery Dubai?',
+    a: 'Yes. For companies we work to a fixed timing, invoice properly, cater dietary requirements per employee and keep the set-up clean and quick. One contact, one itemised quote, and the same team every time if you want continuity.',
   },
 ]
 
@@ -272,7 +342,7 @@ export default function BusinessLunchCatering() {
     <div ref={containerRef}>
       <SEO
         title="Business Lunch Catering Dubai | Boardroom & Client | myCHEF"
-        description="Business lunch catering in Dubai for boardroom meetings, client hosting & working lunches. VAT/TRN invoicing, halal menus. Get a quote in 15 min."
+        description="Business lunch catering Dubai for boardroom meetings, client hosting & working lunches. VAT/TRN invoicing, halal menus. Get a quote in 15 min."
         canonicalPath="/business-lunch-catering-dubai"
         ogImage="/service-corporate.webp"
         hideSiteName
@@ -437,7 +507,7 @@ export default function BusinessLunchCatering() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Business Lunch Questions
+            Business Lunch Catering Dubai: Business Lunch Questions
           </h2>
 
           <FaqAccordion items={faqs} />
@@ -491,7 +561,7 @@ export default function BusinessLunchCatering() {
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
                   <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
-                    Explore <ArrowRight size={14} />
+                    {svc.title} <ArrowRight size={14} />
                   </span>
                 </div>
               </Link>

@@ -1,7 +1,7 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": "vite",
-  "buildCommand": "tsc -b && vite build && tsx scripts/prerender.ts",
+  "buildCommand": "bash docs/seo/keyword-map/publish.sh && tsc -b && vite build && tsx scripts/prerender.ts",
   "outputDirectory": "dist",
   "git": {
     "deploymentEnabled": {
@@ -33,6 +33,19 @@
         {
           "key": "X-Robots-Tag",
           "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/seo/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow, noarchive"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "private, no-store"
         }
       ]
     }
@@ -227,9 +240,183 @@
       "source": "/film-crew-catering-dubai",
       "destination": "/production-catering-dubai",
       "statusCode": 301
+    },
+    {
+      "source": "/bachelor-party-catering-dubai",
+      "destination": "/private-party-catering-dubai",
+      "statusCode": 301
+    },
+    {
+      "source": "/bachelorette-party-catering-dubai",
+      "destination": "/private-party-catering-dubai",
+      "statusCode": 301
+    },
+    {
+      "source": "/engagement-catering-dubai",
+      "destination": "/private-party-catering-dubai",
+      "statusCode": 301
+    },
+    {
+      "source": "/anniversary-catering-dubai",
+      "destination": "/private-party-catering-dubai",
+      "statusCode": 301
+    },
+    {
+      "source": "/kids-birthday-catering-dubai",
+      "destination": "/birthday-catering-dubai",
+      "statusCode": 301
+    },
+    {
+      "source": "/pool-party-catering-dubai",
+      "destination": "/private-party-catering-dubai",
+      "statusCode": 301
+    },
+    {
+      "source": "/beach-catering-dubai",
+      "destination": "/private-party-catering-dubai",
+      "statusCode": 301
+    },
+    {
+      "source": "/housewarming-catering-dubai",
+      "destination": "/private-party-catering-dubai",
+      "statusCode": 301
+    },
+    {
+      "source": "/graduation-catering-dubai",
+      "destination": "/private-party-catering-dubai",
+      "statusCode": 301
+    },
+    {
+      "source": "/farewell-catering-dubai",
+      "destination": "/private-party-catering-dubai",
+      "statusCode": 301
+    },
+    {
+      "source": "/reunion-catering-dubai",
+      "destination": "/private-party-catering-dubai",
+      "statusCode": 301
+    },
+    {
+      "source": "/fathers-day-catering-dubai",
+      "destination": "/private-party-catering-dubai",
+      "statusCode": 301
+    },
+    {
+      "source": "/picnic-catering-dubai",
+      "destination": "/private-party-catering-dubai",
+      "statusCode": 301
+    },
+    {
+      "source": "/mothers-day-catering-dubai",
+      "destination": "/private-party-catering-dubai",
+      "statusCode": 301
+    },
+    {
+      "source": "/easter-catering-dubai",
+      "destination": "/private-party-catering-dubai",
+      "statusCode": 301
+    },
+    {
+      "source": "/halloween-catering-dubai",
+      "destination": "/private-party-catering-dubai",
+      "statusCode": 301
+    },
+    {
+      "source": "/holi-catering-dubai",
+      "destination": "/indian-catering-dubai",
+      "statusCode": 301
+    },
+    {
+      "source": "/chinese-new-year-catering-dubai",
+      "destination": "/asian-catering-dubai",
+      "statusCode": 301
+    },
+    {
+      "source": "/valentines-day-catering-dubai",
+      "destination": "/romantic-dinner-dubai",
+      "statusCode": 301
+    },
+    {
+      "source": "/suhoor-catering-dubai",
+      "destination": "/ramadan-catering-dubai",
+      "statusCode": 301
+    },
+    {
+      "source": "/mocktail-bar-catering-dubai",
+      "destination": "/bar-services-dubai",
+      "statusCode": 301
+    },
+    {
+      "source": "/shawarma-station-dubai",
+      "destination": "/live-cooking-stations-dubai",
+      "statusCode": 301
+    },
+    {
+      "source": "/oyster-bar-dubai",
+      "destination": "/live-cooking-stations-dubai",
+      "statusCode": 301
+    },
+    {
+      "source": "/dessert-cart-dubai",
+      "destination": "/live-cooking-stations-dubai",
+      "statusCode": 301
+    },
+    {
+      "source": "/coffee-tea-service-dubai",
+      "destination": "/catering-dubai",
+      "statusCode": 301
+    },
+    {
+      "source": "/healthy-catering-dubai",
+      "destination": "/cuisines-dubai",
+      "statusCode": 301
+    },
+    {
+      "source": "/gluten-free-catering-dubai",
+      "destination": "/allergy-safe-catering-dubai",
+      "statusCode": 301
+    },
+    {
+      "source": "/dairy-free-catering-dubai",
+      "destination": "/allergy-safe-catering-dubai",
+      "statusCode": 301
+    },
+    {
+      "source": "/nut-free-catering-dubai",
+      "destination": "/allergy-safe-catering-dubai",
+      "statusCode": 301
+    },
+    {
+      "source": "/sugar-free-catering-dubai",
+      "destination": "/allergy-safe-catering-dubai",
+      "statusCode": 301
+    },
+    {
+      "source": "/fodmap-catering-dubai",
+      "destination": "/allergy-safe-catering-dubai",
+      "statusCode": 301
+    },
+    {
+      "source": "/pescatarian-catering-dubai",
+      "destination": "/cuisines-dubai",
+      "statusCode": 301
+    },
+    {
+      "source": "/keto-catering-dubai",
+      "destination": "/cuisines-dubai",
+      "statusCode": 301
+    },
+    {
+      "source": "/corporate-meal-prep-dubai",
+      "destination": "/staff-meals-catering-dubai",
+      "statusCode": 301
     }
   ],
   "rewrites": [
+    {
+      "source": "/seo",
+      "destination": "/seo/index.html"
+    },
     {
       "source": "/((?!.*\\.).*)",
       "destination": "/fallback.html"

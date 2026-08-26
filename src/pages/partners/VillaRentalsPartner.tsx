@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /partners/villa-rentals-dubai
+//     primary:     "villa rentals partnership dubai"
+//     subkeywords: "catering partner for holiday homes dubai" · "villa catering package dubai" · "villa private chef" · "cooks villa near me" · "holiday villa with chef" · "aston villa head chef" · "caribbean villa with chef" · "chef cannavacciuolo villa"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import PartnerPageTemplate from './PartnerPageTemplate'
 import { Home, TrendingUp, Shield, Users, Briefcase } from 'lucide-react'
 
@@ -5,8 +11,8 @@ export default function VillaRentalsPartner() {
   return (
     <PartnerPageTemplate
       name="Villa Rentals"
-      seoTitle="Villa Rental Partnership Dubai | Chef"
-      description="Partner with myCHEF Dubai to offer premium in-villa private chef and catering services to your guests. Enhance your villa rental with bespoke dining."
+      seoTitle="Villa Rentals Partnership Dubai | Chef"
+      description="Villa Rentals Partnership Dubai — Partner with myCHEF Dubai to offer premium in-villa private chef and catering services to your guests. Enhance your villa…"
       canonicalPath="/partners/villa-rentals-dubai"
       ogImage="/images/villa-catering-dubai-hero.webp"
       headline="Villa Rental Partnership Dubai"

@@ -22,7 +22,7 @@ export const CORPORATE_PATHS = {
   businessLunch: '/business-lunch-catering-dubai',
   conference: '/conference-catering-dubai',
   staffMeals: '/staff-meals-catering-dubai',
-  mealPrep: '/corporate-meal-prep-dubai',
+  mealPrep: '/staff-meals-catering-dubai',
   retainer: '/corporate-retainer-dubai',
   // Event specialities
   productLaunch: '/product-launch-catering-dubai',
@@ -41,7 +41,7 @@ export const CORPORATE_PATHS = {
   catering: '/catering-dubai',
   canape: '/canape-catering-dubai',
   halal: '/halal-catering-dubai',
-  farewell: '/farewell-catering-dubai',
+  farewell: '/private-party-catering-dubai',
 } as const
 
 /**

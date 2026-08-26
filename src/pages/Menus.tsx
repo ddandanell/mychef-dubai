@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /menus
+//     primary:     "catering menus dubai"
+//     subkeywords: "catering menu ideas dubai" · "sample catering menu dubai" · "family catering menus dubai" · "food catering menus dubai" · "small catering menus dubai" · "catering menu description" · "paul catering menu dubai" · "foods to cater" · "what is a good catering menu" · "finger foods to cater"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useEffect, useRef, useState } from 'react'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { Link } from 'react-router'
@@ -244,7 +250,7 @@ export default function Menus() {
     <>
       <SEO
         title="Catering Menus Dubai | Chef Inspiration & Cuisines"
-        description="Catering menus in Dubai from myCHEF: fine dining, Mediterranean, Middle Eastern and Asian fusion. Every menu is designed around your event and guests."
+        description="Catering menus Dubai from myCHEF: fine dining, Mediterranean, Middle Eastern and Asian fusion. Every menu is designed around your event a"
         canonicalPath="/menus"
         ogImage="/images/catering-dubai-hero.webp"
         schema={breadcrumbSchema(breadcrumbs) as unknown as Record<string, unknown>}
@@ -253,8 +259,8 @@ export default function Menus() {
       {/* Section 1: Page Hero */}
       <PageHero
         eyebrow="CULINARY OFFERINGS"
-        title="Bespoke Menus, Crafted for Every Palate"
-        subtitle="Tell us your occasion and we will bring you a vetted chef within 24 hours. Every menu is designed from scratch — here is a glimpse of what we create."
+        title="Catering Menus Dubai"
+        subtitle="Catering Menus Dubai by myCHEF — Tell us your occasion and we will bring you a vetted chef within 24 hours. Every menu is designed from scratch — here is a glimpse of what w"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'Menus' }]}
         minHeight="medium"
         overlay="dark"
@@ -462,7 +468,7 @@ export default function Menus() {
       <section ref={faqRef} className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Pricing FAQ
+            Catering Menus Dubai: the questions we get before a booking
           </h2>
 
           <div className="space-y-3">

@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /afternoon-tea-catering-dubai
+//     primary:     "afternoon tea catering dubai"
+//     subkeywords: "afternoon tea catering dubai price" · "afternoon tea catering price per person dubai" · "best afternoon tea catering dubai" · "afternoon tea catering packages dubai" · "afternoon tea catering menu dubai" · "halal afternoon tea catering dubai" · "afternoon tea at home dubai" · "high tea catering dubai" · "afternoon tea caterers near me" · "best afternoon tea dubai" · "afternoon tea grazing table" · "birthday afternoon tea dubai"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { Link } from 'react-router'
 import { Coffee, Utensils, Cake, Cookie, Home, Building } from 'lucide-react'
 import OccasionCateringPage from './occasion/OccasionCateringPage'
@@ -6,11 +12,11 @@ import type { OccasionPageConfig } from './occasion/OccasionCateringPage'
 const config: OccasionPageConfig = {
   slug: 'afternoon-tea-catering-dubai',
   seoTitle: "Afternoon Tea Catering Dubai | High Tea",
-  metaDescription: 'Afternoon tea and high tea catering in Dubai for birthdays, bridal showers, corporate events and home gatherings. Elegant savoury, scones, cakes and full.',
+  metaDescription: 'Afternoon Tea Catering Dubai — Afternoon tea and high tea catering in Dubai for birthdays, bridal showers, corporate events and home gatherings. Elegant…',
   canonicalPath: '/afternoon-tea-catering-dubai',
   ogImage: '/images/afternoon-tea-catering-dubai-hero.webp',
   breadcrumbLabel: 'Afternoon Tea Catering Dubai',
-  h1: 'Afternoon Tea Catering in Dubai',
+  h1: 'Afternoon Tea Catering Dubai',
   heroSub:
     'Elegant afternoon tea and high tea catering across Dubai — refined savoury bites, warm scones, petit fours and beautiful table service for home, venue and corporate events.',
   heroImage: '/images/afternoon-tea-catering-dubai-hero.webp',
@@ -119,7 +125,7 @@ const config: OccasionPageConfig = {
     { src: '/service-villa.webp', alt: 'Villa high tea styling' },
     { src: '/service-events.webp', alt: 'Afternoon tea event catering in Dubai' },
   ],
-  faqsH2: 'Afternoon Tea Catering Questions',
+  faqsH2: 'Afternoon Tea Catering Dubai: the questions we get before a booking',
   faqs: [
     {
       q: 'What is included in a typical afternoon tea menu?',
@@ -151,7 +157,7 @@ const config: OccasionPageConfig = {
       title: "Mother's Day Catering",
       description: 'A refined afternoon tea or brunch to celebrate Mum in style.',
       image: '/images/mothers-day-catering-dubai-hero.webp',
-      link: '/mothers-day-catering-dubai',
+      link: '/private-party-catering-dubai',
     },
     {
       title: 'Canapé Catering',

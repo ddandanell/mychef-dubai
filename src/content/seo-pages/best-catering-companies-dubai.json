@@ -29,11 +29,11 @@
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
   "title": "Best Catering Companies Dubai | 11 Compared on Prices | myCHEF",
-  "meta_description": "The best catering companies in Dubai, compared on published figures: 102 per-head prices, per-format medians, stated minimums and notice periods. All source-linked.",
-  "h1": "Best Catering Companies in Dubai: 11 Compared on What They Publish"
+  "meta_description": "Best catering companies Dubai 2026: 11 caterers compared on 102 published per-head prices, minimums and notice periods. Every figure source-linked.",
+  "h1": "Best Catering Companies Dubai: 11 Compared on What They Publish"
  },
  "opening_paragraph": [
-  "myCHEF captured 102 per-person prices from six Dubai caterers' own menus in July 2026, and no one company wins on every format. Every competitor figure here was printed on that company's own page or menu PDF, and each carries the link it came from. Medians below are derived from those captured prices and labelled as such.",
+  "Best Catering Companies Dubai by myCHEF — myCHEF captured 102 per-person prices from six Dubai caterers' own menus in July 2026, and no one company wins on every format. Every competitor figure here was printed on that company's own page or menu PDF, and each carries the link it came from. Medians below are derived from those captured prices and labelled as such.",
   "Those 102 captured lines run from 10 to 570 dirhams a head. Nothing about a competitor on this page is calculated, estimated or inferred. Where a figure is a median, a range or a count, it comes from the capture and is labelled with the number of lines behind it, because a median built on four lines and one built on twenty-two are not the same kind of evidence.",
   "Two disclosures before the numbers, because both change how you should read them. First, myCHEF wrote this guide and myCHEF is one of the eleven catering companies on it. Second, the source-linking claim covers competitor figures only: myCHEF's own rates below are its current rate card, published here, and parts of mychef.ae still carry an older set of figures pending update — so do not treat the myCHEF row as independently checkable the way a linked rival menu PDF is. Naming that is the point; a comparison written by a participant is only worth reading if it says where its own evidence is weaker."
  ],
@@ -268,5 +268,20 @@
     "Mostly no. Monchef prints its rate as 370 dirhams plus VAT per person. Cedar Tree Catering states its minimum order value as 700 dirhams excluding 5% VAT. Catering and restaurant services in the UAE carry 5% VAT, in force since 1 January 2018 per the UAE Ministry of Finance. Every myCHEF figure on this page is pre-VAT too. Put every quote on the same side of the tax line before you compare."
    ]
   }
- ]
+ ],
+ "keyword_lock": {
+  "primary": "best catering companies dubai",
+  "subkeywords": [
+   "top catering companies dubai",
+   "list of catering companies in dubai",
+   "top 10 catering companies in dubai",
+   "corporate catering companies",
+   "leading catering company in dubai",
+   "catering company in dubai",
+   "catering companies in dubai",
+   "catering company dubai",
+   "food catering company dubai",
+   "birthday catering company dubai"
+  ]
+ }
 }

@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /iftar-catering-dubai
+//     primary:     "iftar catering dubai"
+//     subkeywords: "iftar catering dubai price" · "iftar catering cost per person dubai" · "best iftar catering dubai" · "iftar catering packages dubai" · "iftar catering menu dubai" · "iftar buffet catering dubai" · "corporate iftar catering dubai" · "iftar catering at home dubai" · "what to eat for iftar" · "best iftar buffet dubai 2026 packages" · "best iftar buffet dubai offers" · "iftar buffet dubai near me"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef } from 'react'
 import { Link } from 'react-router'
 import { useGSAP } from '@gsap/react'
@@ -296,7 +302,7 @@ export default function RamadanIftar() {
     <div ref={containerRef}>
       <SEO
         title="Iftar Catering Dubai | Ramadan Private Chef & Buffet | myCHEF"
-        description="Book Iftar catering in Dubai. Ramadan private chef and buffet service with dates, mezze, grills, desserts and full service for family and corporate."
+        description="Book Iftar catering Dubai. Ramadan private chef and buffet service with dates, mezze, grills, desserts and full service for family and corporate."
         canonicalPath="/iftar-catering-dubai"
         ogImage="/service-catering.webp"
         hideSiteName
@@ -556,7 +562,7 @@ export default function RamadanIftar() {
             <div>
               <h3 className="font-inter text-caption uppercase tracking-wider text-gold mb-4">Related Seasonal Services</h3>
               <ul className="space-y-3">
-                <li><Link to="/suhoor-catering-dubai" className="font-inter text-body text-gray-400 hover:text-gold transition-colors flex items-center gap-2"><ArrowRight size={14} /> Suhoor Catering Dubai</Link></li>
+                <li><Link to="/ramadan-catering-dubai" className="font-inter text-body text-gray-400 hover:text-gold transition-colors flex items-center gap-2"><ArrowRight size={14} /> Suhoor Catering Dubai</Link></li>
                 <li><Link to="/ramadan-catering-dubai" className="font-inter text-body text-gray-400 hover:text-gold transition-colors flex items-center gap-2"><ArrowRight size={14} /> Ramadan Catering Dubai</Link></li>
                 <li><Link to="/eid-catering-dubai" className="font-inter text-body text-gray-400 hover:text-gold transition-colors flex items-center gap-2"><ArrowRight size={14} /> Eid Catering Dubai</Link></li>
               </ul>
@@ -579,7 +585,7 @@ export default function RamadanIftar() {
           <div className="text-center mb-10">
             <SectionLabel align="center">FAQ</SectionLabel>
             <h2 className="font-playfair text-fluid-h2 text-black">
-              Ramadan Iftar Questions
+              Iftar Catering Dubai: the questions we get before a booking
             </h2>
           </div>
 
@@ -634,7 +640,7 @@ export default function RamadanIftar() {
                   <h4 className="font-playfair text-h4 text-white mb-2">{svc.title}</h4>
                   <p className="font-inter text-body-sm text-gray-400 mb-4">{svc.description}</p>
                   <span className="inline-flex items-center gap-1 font-inter text-body-sm uppercase tracking-wider text-gold group-hover:text-gold-light transition-colors">
-                    Explore <ArrowRight size={14} />
+                    {svc.title} <ArrowRight size={14} />
                   </span>
                 </div>
               </Link>

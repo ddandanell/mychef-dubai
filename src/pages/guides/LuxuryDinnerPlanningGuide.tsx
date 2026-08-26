@@ -1,3 +1,9 @@
+// KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
+//   /luxury-dinner-planning-guide-dubai
+//     primary:     "how to plan a luxury dinner dubai"
+//     subkeywords: "luxury dinner party planning dubai" · "how to host a dinner party dubai" · "dinner party planning checklist dubai" · "luxury dinner cruise dubai marina" · "luxury dinner set in dubai price" · "dubai cruise dinner booking" · "luxury dinner in dubai" · "how much dinner in dubai"
+//   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
+// END KEYWORD LOCK
 import { useRef } from 'react'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { Link } from 'react-router'
@@ -88,7 +94,7 @@ const internalLinks = [
   { title: 'Private Chef Dubai', link: '/private-chef-dubai', description: 'Personal chef service for intimate dinners.' },
   { title: 'Villa Catering Ideas', link: '/villa-catering-ideas-dubai', description: 'Setup and menu ideas for villa dinners.' },
   { title: 'Romantic Dinner Dubai', link: '/romantic-dinner-dubai', description: 'Intimate dining experiences for two.' },
-  { title: 'Anniversary Catering Dubai', link: '/anniversary-catering-dubai', description: 'Celebratory dinners for anniversaries.' },
+  { title: 'Anniversary Catering Dubai', link: '/private-party-catering-dubai', description: 'Celebratory dinners for anniversaries.' },
   { title: 'Dubai Catering Prices Guide', link: '/dubai-catering-prices-guide', description: 'Budget guidance for luxury dinner formats.' },
 ]
 
@@ -225,8 +231,8 @@ export default function LuxuryDinnerPlanningGuide() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Luxury Dinner Planning Guide Dubai"
-        description="Plan a luxury dinner in Dubai: tasting menus, tablescape, wine pairings, private chef, service staff, lighting, music, ambience, and hosting tips."
+        title="How to Plan a Luxury Dinner Dubai | myCHEF"
+        description="How to Plan a Luxury Dinner Dubai — Plan a luxury dinner in Dubai: tasting menus, tablescape, wine pairings, private chef, service staff, lighting, music…"
         canonicalPath="/luxury-dinner-planning-guide-dubai"
         ogImage="/service-luxury-dining.webp"
         schema={schema}
@@ -252,7 +258,7 @@ export default function LuxuryDinnerPlanningGuide() {
           </nav>
 
           <h1 className="font-playfair text-fluid-h1 font-semibold text-white leading-tight mb-6 opacity-0 translate-y-10 lux-hero-h1">
-            Luxury Dinner Planning Guide for Dubai
+            How to Plan a Luxury Dinner Dubai
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 lux-hero-sub">
             How to design an unforgettable private dining experience, from menu and tablescape to lighting, service, and hosting.
@@ -459,7 +465,7 @@ export default function LuxuryDinnerPlanningGuide() {
       <section className="bg-white py-20">
         <div className="container-custom max-w-[800px]">
           <h2 className="font-playfair text-fluid-h2 text-black text-center mb-10">
-            Luxury Dinner FAQ
+            How to Plan a Luxury Dinner Dubai: the questions we get before a booking
           </h2>
 
           <FaqAccordion items={faqs} />

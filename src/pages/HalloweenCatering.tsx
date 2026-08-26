@@ -7,7 +7,7 @@ const config: OccasionPageConfig = {
   slug: 'halloween-catering-dubai',
   seoTitle: 'Halloween Catering Dubai | Spooky Party Menus',
   metaDescription: 'Halloween catering in Dubai. Spooky, stylish menus for home parties, kids events and venue celebrations. Private chef service, themed treats and full.',
-  canonicalPath: '/halloween-catering-dubai',
+  canonicalPath: '/private-party-catering-dubai',
   ogImage: '/images/halloween-catering-dubai-hero.webp',
   breadcrumbLabel: 'Halloween Catering Dubai',
   h1: 'Halloween Catering in Dubai',
@@ -32,7 +32,7 @@ const config: OccasionPageConfig = {
           private party catering
         </Link>{' '}
         for a fully hosted night, or explore{' '}
-        <Link to="/kids-birthday-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
+        <Link to="/birthday-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           kids birthday catering
         </Link>{' '}
         for child-friendly Halloween menus.
@@ -51,7 +51,7 @@ const config: OccasionPageConfig = {
       Icon: Candy,
       title: 'Kids Halloween Parties',
       description: 'Fun, fright-free menus with themed sweets, cupcakes, finger foods and playful presentation.',
-      link: '/kids-birthday-catering-dubai',
+      link: '/birthday-catering-dubai',
     },
     {
       Icon: Moon,
@@ -160,13 +160,13 @@ const config: OccasionPageConfig = {
       title: 'Kids Birthday Catering',
       description: 'Fun, child-friendly menus and themed catering perfect for younger Halloween guests.',
       image: '/images/kids-birthday-catering-dubai-hero.webp',
-      link: '/kids-birthday-catering-dubai',
+      link: '/birthday-catering-dubai',
     },
     {
       title: 'Easter Catering Dubai',
       description: 'Spring-inspired menus for Easter brunches, lunches and garden celebrations in Dubai.',
       image: '/images/easter-catering-dubai-hero.webp',
-      link: '/easter-catering-dubai',
+      link: '/private-party-catering-dubai',
     },
   ],
   ctaH2: 'Plan Your Halloween Celebration in Dubai',
