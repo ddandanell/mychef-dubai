@@ -243,8 +243,12 @@ try:
     probe = subprocess.run(["curl", "-s", "-m", "120", "-o", "-", "-w", "\n%{http_code}", "-u", "seo:" + (os.environ.get("SEO_PASSWORD") or ""),
                             "-X", "POST", "https://www.mychef.ae/api/ask", "-H", "Content-Type: application/json",
                             "--data", '{"question":"Reply with the word ready."}'], capture_output=True, text=True).stdout
-    code = probe.strip().splitlines()[-1]
-    payload = json.loads(probe.strip().rsplit("\n", 1)[0] or "{}") if probe.strip().count("\n") else {}
+    code = probe.strip().splitlines()[-1] if probe.strip() else "000"
+    head = probe.strip().rsplit("\n", 1)[0] if probe.strip().count("\n") else ""
+    try:
+        payload = json.loads(head) if head.startswith("{") else {}
+    except Exception:            # a 401 answers in plain text, not JSON
+        payload = {}
     if code == "200":
         record("SEO analyst (read-only)", "AI", "connected",
                f"answering via {payload.get('provider', 'a model provider')} — reads the archive, cannot change anything")
