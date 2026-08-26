@@ -44,6 +44,8 @@ CREATE TABLE IF NOT EXISTS seo_keywords (
   secondary_urls TEXT[], title_cov BOOL, meta_cov BOOL, h1_cov BOOL, h2_cov BOOL, body_count INT, faq_cov BOOL, anchor_cov TEXT,
   cannibalisation TEXT, competitor_gap TEXT, serp_similarity NUMERIC(4,2), score INT, next_action TEXT, silo TEXT,
   page_visitors INT, page_pageviews INT,
+  gsc_clicks INT, gsc_impressions INT, gsc_ctr NUMERIC(6,4), gsc_position NUMERIC(5,1),
+  gsc_ranking_url TEXT, demand_share NUMERIC(6,3),
   PRIMARY KEY (run_id, keyword, owner_url)
 );
 CREATE TABLE IF NOT EXISTS seo_pages (
@@ -161,7 +163,10 @@ CREATE INDEX IF NOT EXISTS seo_backlog_kw ON seo_backlog(keyword);
 
 # older databases predate some columns — add what is missing rather than failing
 ADD_COLUMNS = [("seo_keywords", "page_visitors", "INT"), ("seo_keywords", "page_pageviews", "INT"),
-               ("seo_pages", "visitors_30d", "INT"), ("seo_pages", "pageviews_30d", "INT")]
+               ("seo_pages", "visitors_30d", "INT"), ("seo_pages", "pageviews_30d", "INT"),
+               ("seo_keywords", "gsc_clicks", "INT"), ("seo_keywords", "gsc_impressions", "INT"),
+               ("seo_keywords", "gsc_ctr", "NUMERIC(6,4)"), ("seo_keywords", "gsc_position", "NUMERIC(5,1)"),
+               ("seo_keywords", "gsc_ranking_url", "TEXT"), ("seo_keywords", "demand_share", "NUMERIC(6,3)")]
 
 
 def load(name):
@@ -234,12 +239,15 @@ if kw:
          ["run_id", "keyword", "owner_url", "role", "search_volume", "intent", "commercial_value", "difficulty",
           "current_position", "target_position", "secondary_urls", "title_cov", "meta_cov", "h1_cov", "h2_cov",
           "body_count", "faq_cov", "anchor_cov", "cannibalisation", "competitor_gap", "serp_similarity", "score",
-          "next_action", "silo", "page_visitors", "page_pageviews"],
+          "next_action", "silo", "page_visitors", "page_pageviews",
+          "gsc_clicks", "gsc_impressions", "gsc_ctr", "gsc_position", "gsc_ranking_url", "demand_share"],
          [(run_id, r["keyword"] or "(untargeted)", r["primary_owning_url"], r["role"], r["search_volume"], r["intent"],
            r["commercial_value"], r["difficulty"], r["current_position"], r["target_position"], r["secondary_supporting_urls"],
            r["title_coverage"], r["meta_coverage"], r["h1_coverage"], r["h2_coverage"], r["body_coverage"], r["faq_coverage"],
            r["internal_anchor_coverage"], r["cannibalisation_risk"], r["competitor_gap"], r["serp_similarity"],
-           r["optimization_score"], r["next_action"], r["silo"], r.get("page_visitors"), r.get("page_pageviews"))
+           r["optimization_score"], r["next_action"], r["silo"], r.get("page_visitors"), r.get("page_pageviews"),
+           r.get("gsc_clicks"), r.get("gsc_impressions"), r.get("gsc_ctr"), r.get("gsc_position"),
+           r.get("gsc_ranking_url"), r.get("demand_share"))
           for r in kw["rows"]])
 
 # ---- the page table -----------------------------------------------------------------------------
