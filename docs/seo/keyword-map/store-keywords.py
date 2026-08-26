@@ -137,6 +137,20 @@ CREATE TABLE IF NOT EXISTS seo_traffic_breakdown (
   PRIMARY KEY (captured_on, window_days, dimension, value)
 );
 
+-- first-party behaviour, written by api/e.ts on the live site (never by this script)
+CREATE TABLE IF NOT EXISTS web_sessions (
+  session_id TEXT PRIMARY KEY, started_at TIMESTAMPTZ NOT NULL DEFAULT now(), landing_url TEXT,
+  referrer_host TEXT, country TEXT, device TEXT, utm_source TEXT, utm_medium TEXT, utm_campaign TEXT
+);
+CREATE TABLE IF NOT EXISTS web_events (
+  session_id TEXT NOT NULL, seq INT NOT NULL, at TIMESTAMPTZ NOT NULL DEFAULT now(),
+  event TEXT NOT NULL, url TEXT NOT NULL, value INT, label TEXT,
+  PRIMARY KEY (session_id, seq)
+);
+CREATE INDEX IF NOT EXISTS web_events_url ON web_events(url);
+CREATE INDEX IF NOT EXISTS web_events_event ON web_events(event);
+CREATE INDEX IF NOT EXISTS web_events_at ON web_events(at);
+
 CREATE INDEX IF NOT EXISTS seo_keywords_owner ON seo_keywords(owner_url);
 CREATE INDEX IF NOT EXISTS seo_keywords_kw ON seo_keywords(keyword);
 CREATE INDEX IF NOT EXISTS seo_report_kw ON seo_report(keyword);

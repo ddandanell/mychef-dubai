@@ -1,26 +1,31 @@
 import { useEffect } from 'react'
 import { useLocation } from 'react-router'
-import { GA_MEASUREMENT_ID, initAnalytics, trackPageView, trackEvent } from '../lib/analytics'
+import { initAnalytics, trackPageView, trackEvent } from '../lib/analytics'
+import { initTracking, trackPage, trackConversion } from '../lib/track'
 
 /**
  * Loads GA4, sends a page_view on every client-side route change, and auto-tracks
  * the two conversions that matter on this site: WhatsApp clicks and lead-form
- * submits. Renders nothing. Fully inert until GA_MEASUREMENT_ID is set.
+ * submits, and mirrors the two conversions into the first-party collector.
+ * Renders nothing. GA stays inert until GA_MEASUREMENT_ID is set; the first-party
+ * collector runs either way.
  */
 export default function Analytics() {
   const location = useLocation()
 
   useEffect(() => {
     initAnalytics()
+    initTracking()
   }, [])
 
   useEffect(() => {
     trackPageView(location.pathname + location.search)
+    trackPage(location.pathname)
   }, [location.pathname, location.search])
 
   useEffect(() => {
-    if (!GA_MEASUREMENT_ID) return
-
+    // Both GA and the first-party collector read these listeners. trackEvent() is inert
+    // without a measurement id, so the listeners no longer depend on GA being configured.
     const onClick = (e: MouseEvent) => {
       const target = e.target as HTMLElement | null
       const a = target?.closest('a') as HTMLAnchorElement | null
@@ -53,6 +58,7 @@ export default function Analytics() {
           page_path: pagePath,
           cta_text: ctaText,
         })
+        trackConversion('whatsapp_click', track || 'link')
         return
       }
 
@@ -113,6 +119,7 @@ export default function Analytics() {
         method,
         page_path: window.location.pathname,
       })
+      trackConversion('form_submit', method)
     }
 
     document.addEventListener('click', onClick, true)

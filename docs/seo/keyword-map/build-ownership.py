@@ -30,6 +30,13 @@ _vf = HERE / ".live/research/vercel/analytics.json"
 traffic = json.loads(_vf.read_text()) if _vf.exists() else {"pages": {}, "totals": {}, "window_days": 0, "since": "", "until": ""}
 def traffic_for(u):
     return (traffic["pages"].get(u.rstrip("/") or "/") or {"visitors": 0, "pageviews": 0})
+
+# Behaviour from our own collector (api/e.ts): seconds on page, bounce, conversions.
+_bf = HERE / ".live/research/firstparty/behaviour.json"
+_beh = json.loads(_bf.read_text()) if _bf.exists() else {"pages": []}
+behaviour = {p["url"]: p for p in _beh.get("pages", [])}
+def behaviour_for(u):
+    return behaviour.get(u.rstrip("/") or "/") or {"sessions": 0, "bounce_rate": None, "median_seconds": None, "conversions": 0}
 import unicodedata as _ud
 def _deaccent(s): return "".join(c for c in _ud.normalize("NFKD", s or "") if not _ud.combining(c))
 def norm(s):
@@ -141,6 +148,8 @@ for k, (url, role) in owner.items():
         "cannibalisation_risk": risk, "competitor_gap": rep.get("competitor_gap"), "serp_similarity": rep.get("serp_similarity"),
         "optimization_score": score, "next_action": "; ".join(nxt) or "hold — nothing to do", "silo": pages[url].get("silo"),
         "page_visitors": traffic_for(url)["visitors"], "page_pageviews": traffic_for(url)["pageviews"],
+        "page_conversions": behaviour_for(url)["conversions"], "page_seconds": behaviour_for(url)["median_seconds"],
+        "page_bounce": behaviour_for(url)["bounce_rate"],
     })
 # every sitemap URL is in the file — pages with no keyword get an explicit untargeted row so nothing is invisible
 sitemap_urls = [re.sub(r"^https://www\.mychef\.ae", "", u) or "/" for u in re.findall(r"<loc>([^<]+)</loc>", (ROOT / "public/sitemap.xml").read_text())]
@@ -151,7 +160,9 @@ for u in sitemap_urls:
                      "primary_owning_url": u, "role": "untargeted (in sitemap)", "secondary_supporting_urls": [], "title_coverage": False, "meta_coverage": False, "h1_coverage": False, "h2_coverage": False,
                      "body_coverage": 0, "faq_coverage": False, "internal_anchor_coverage": "none", "cannibalisation_risk": "n/a", "competitor_gap": None, "serp_similarity": None,
                      "optimization_score": 0, "next_action": "decide: lock a primary or keep untargeted by decision", "silo": (pages.get(u) or {}).get("silo"),
-                     "page_visitors": traffic_for(u)["visitors"], "page_pageviews": traffic_for(u)["pageviews"]})
+                     "page_visitors": traffic_for(u)["visitors"], "page_pageviews": traffic_for(u)["pageviews"],
+                     "page_conversions": behaviour_for(u)["conversions"], "page_seconds": behaviour_for(u)["median_seconds"],
+                     "page_bounce": behaviour_for(u)["bounce_rate"]})
 rows.sort(key=lambda r: (-(r["search_volume"]), r["primary_owning_url"], r["role"] != "primary", r["keyword"]))
 stats = {"keywords": sum(1 for r in rows if r["keyword"]), "sitemap_urls": len(sitemap_urls), "sitemap_urls_untargeted": sum(1 for r in rows if not r["keyword"]), "primaries": sum(1 for r in rows if r["role"] == "primary"), "avg_score": round(sum(r["optimization_score"] for r in rows) / max(1, len(rows)), 2),
          "at_10": sum(1 for r in rows if r["optimization_score"] == 10), "below_5": sum(1 for r in rows if r["optimization_score"] < 5),
@@ -169,7 +180,7 @@ tick = lambda b: '<b style="color:#0a6f0a">✓</b>' if b else '<span style="colo
 def sc(n): return f'<span class="flag {"good" if n >= 8 else "warn" if n >= 5 else "serious"}"><i></i>{n}/10</span>'
 trs = "".join(f"""<tr data-t="{esc((r['keyword'] + ' ' + r['primary_owning_url'] + ' ' + (r['silo'] or '')).lower())}" data-role="{r['role']}" data-s="{r['optimization_score']}"><td class="kw">{esc(r['keyword'])}<div class="muted">{esc(r['role'])} · {esc(r['silo'])}</div></td>
 <td class="nums">{r['search_volume'] or '<span class=muted>0</span>'}<div class="muted">{esc(r['intent'] or '')}</div></td><td class="nums">{'$' + format(r['commercial_value'], ',.0f') if r['commercial_value'] else '—'}</td><td class="nums">{r['difficulty'] if r['difficulty'] is not None else '—'}</td>
-<td class="nums">{('#' + str(r['current_position'])) if r['current_position'] else '—'} → {r['target_position']}</td><td class="nums">{r['page_visitors'] or '<span class=muted>0</span>'}<div class="muted">{r['page_pageviews']} views</div></td><td><code>{esc(r['primary_owning_url'])}</code>{('<div class=muted>' + ' '.join('<code>' + esc(u) + '</code>' for u in r['secondary_supporting_urls'][:3]) + '</div>') if r['secondary_supporting_urls'] else ''}</td>
+<td class="nums">{('#' + str(r['current_position'])) if r['current_position'] else '—'} → {r['target_position']}</td><td class="nums">{r['page_visitors'] or '<span class=muted>0</span>'}<div class="muted">{r['page_pageviews']} views{(' · ' + str(r['page_conversions']) + ' conv') if r['page_conversions'] else ''}</div></td><td><code>{esc(r['primary_owning_url'])}</code>{('<div class=muted>' + ' '.join('<code>' + esc(u) + '</code>' for u in r['secondary_supporting_urls'][:3]) + '</div>') if r['secondary_supporting_urls'] else ''}</td>
 <td class="cov">{tick(r['title_coverage'])} {tick(r['meta_coverage'])} {tick(r['h1_coverage'])} {tick(r['h2_coverage'])} <span class="nums">×{r['body_coverage']}</span> {tick(r['faq_coverage'])} <span class="muted">{esc(r['internal_anchor_coverage'])}</span></td>
 <td>{esc(r['cannibalisation_risk'])}</td><td class="muted">{esc(r['competitor_gap'] or '—')}</td><td>{sc(r['optimization_score'])}</td><td class="muted">{esc(r['next_action'])}</td></tr>""" for r in rows)
 window = traffic.get("window_days") or 30
