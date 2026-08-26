@@ -347,12 +347,6 @@ export default function LiveCookingStations() {
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 lcs-hero-sub">
             Interactive partner-chef-led stations — carving, pasta, grill, street food, and dessert counters cooked to order. The theatre of food, plated fresh in front of your guests at weddings and corporate events across Dubai.
           </p>
-          <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 lcs-hero-sub">
-            Live cooking stations Dubai price and live cooking station price per person Dubai depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Live cooking stations packages Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. If you are weighing up best live cooking stations Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. The live cooking stations menu Dubai is drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Halal live cooking stations Dubai is planned into the first draft of the menu rather than bolted on at the end. Live pasta station Dubai and live station catering Dubai are the same service under another name.
-          </p>
-          <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 lcs-hero-sub">
-            Live cooking classes, shawarma live station, live cooking station ideas and private classes for cooking are the same service under another name.
-          </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 lcs-hero-cta">Build My Live Station Package</Link>
             <a
@@ -379,6 +373,12 @@ export default function LiveCookingStations() {
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Some of the most memorable moments at an event happen around the food — guests gathering at a counter, watching a chef finish a dish, the aroma rising as it is plated to order. At myCHEF Dubai, live cooking stations turn dining into an experience, where the cooking itself becomes part of the entertainment and the conversation.
+          </p>
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+            Live cooking stations Dubai price and live cooking station price per person Dubai depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Live cooking stations packages Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. If you are weighing up best live cooking stations Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. The live cooking stations menu Dubai is drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Halal live cooking stations Dubai is planned into the first draft of the menu rather than bolted on at the end. Live pasta station Dubai and live station catering Dubai are the same service under another name.
+          </p>
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+            Live cooking classes, shawarma live station, live cooking station ideas and private classes for cooking are the same service under another name.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             our chefs work at self-contained, beautifully styled counters — carving prime cuts, finishing pasta and risotto in the pan, grilling over open flame, assembling global street food, and flambéing desserts. Stations can be mixed and themed to match your event, spreading guests across the room and offering variety at every turn. Whether it is a wedding, a gala, or a corporate launch, we bring the stations, the chefs, and the styling to you. Explore our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>, or speak to us to start planning.

@@ -47,10 +47,10 @@ export const weddingHero = {
 } as const
 
 export const weddingHeroCopy = {
-  eyebrow: 'Wedding Catering Dubai',
+  eyebrow: 'Weddings',
   title: 'Wedding Catering Dubai',
   subtitle:
-    'Wedding Catering Dubai for a villa dinner, a garden reception or a licensed venue. myCHEF designs the catering plan, matches you with vetted chefs, service professionals and licensed culinary partners, and stays your point of contact so you can be guests at your own table.',
+    'Wedding Catering Dubai for a villa dinner, a garden reception or a licensed venue — so you can be guests at your own table.',
   priceLine:
     'A chef-led plated villa dinner typically sits around AED 700–950 per guest. A staffed wedding buffet often sits around AED 180–350. 5% VAT is shown as its own line.',
   replyLine: 'Share your date, venue and guest count. We typically reply within 15 minutes during business hours.',
@@ -58,7 +58,7 @@ export const weddingHeroCopy = {
 
 export const siloIntro = {
   lead:
-    'This page is the wedding meal — menu, team, timing and service. It is not a wedding planner, and it is not every other event type.',
+    'This page is the wedding meal — menu, team, timing and service. It is not a wedding planner, and it is not every other event type. myCHEF designs the catering plan, matches you with vetted chefs, service professionals and licensed culinary partners, and stays your point of contact throughout.',
   cateringHref: '/catering-dubai',
   cateringLabel: 'Luxury catering in Dubai',
   eventsHref: '/events',

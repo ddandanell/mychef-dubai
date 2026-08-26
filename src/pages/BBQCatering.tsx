@@ -328,12 +328,6 @@ export default function BBQCatering() {
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 bbq-hero-sub">
             partner-chef-led grills, premium meats, and fresh seafood cooked live at your villa, garden, beach, or yacht — the theatre and aroma of open-flame cooking with flawless full service across Dubai.
           </p>
-          <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 bbq-hero-sub">
-            BBQ catering Dubai price and BBQ catering price per person Dubai depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. BBQ catering packages Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. If you are weighing up best BBQ catering Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. The BBQ catering menu Dubai is drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Halal BBQ catering Dubai is planned into the first draft of the menu rather than bolted on at the end. Villa BBQ catering Dubai and BBQ chef at home Dubai are run at the address you give us: we bring the equipment, cook on site and leave the space as we found it.
-          </p>
-          <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 bbq-hero-sub">
-            Desert BBQ catering Dubai is run at the address you give us: we bring the equipment, cook on site and leave the space as we found it. Outdoor BBQ catering Dubai is the same service under another name.
-          </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 bbq-hero-cta">Get a Tailored BBQ Quote</Link>
             <a
@@ -360,6 +354,12 @@ export default function BBQCatering() {
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             There is something timeless about food cooked over fire — the sound of the grill, the aroma drifting across the terrace, the moment guests gather while a chef plates a perfectly charred cut. At myCHEF Dubai, our BBQ catering turns that simple pleasure into a polished, full-service experience, designed around your venue and your guests.
+          </p>
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+            BBQ catering Dubai price and BBQ catering price per person Dubai depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. BBQ catering packages Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. If you are weighing up best BBQ catering Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. The BBQ catering menu Dubai is drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Halal BBQ catering Dubai is planned into the first draft of the menu rather than bolted on at the end. Villa BBQ catering Dubai and BBQ chef at home Dubai are run at the address you give us: we bring the equipment, cook on site and leave the space as we found it.
+          </p>
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+            Desert BBQ catering Dubai is run at the address you give us: we bring the equipment, cook on site and leave the space as we found it. Outdoor BBQ catering Dubai is the same service under another name.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             Grill our chefs work live at your event, cooking premium steaks, lamb, marinated chicken, gourmet burgers, and fresh seafood to order. Around the grill we build a generous spread of mezze, salads, hot sides, and house sauces, so every guest finds something they love. Whether it is a relaxed villa gathering, a yacht charter, or a corporate celebration, we bring the stations, the staff, and the styling to you. Explore our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>, or speak to us directly to start planning your menu.

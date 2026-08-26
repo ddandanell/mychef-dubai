@@ -229,9 +229,6 @@ export default function CorporateRetainer() {
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 cr-hero-sub">
             Monthly catering credit, priority scheduling, and a dedicated account manager — designed for Dubai companies that entertain clients and feed teams regularly. Tell us about your monthly rhythm and we will design a retainer plan within 24 hours.
           </p>
-          <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 cr-hero-sub">
-            Corporate catering contract Dubai cost depends on the same three things: the guest count, the menu, and how much of the work happens in front of people. Corporate meal prep packages Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. For catering contract with cancellation policy, two to three weeks is comfortable, and December, Ramadan and New Year fill earlier than that. Iftar Dubai for corporate, corporate catering DIFC Dubai, monthly corporate catering Dubai, corporate catering supplier Dubai, catering services company in Dubai and corporate catering companies in Dubai are run to a fixed timing, with one itemised invoice and dietary requirements tracked per person. Catering contract examples is the same service under another name.
-          </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 cr-hero-cta">Get My Corporate Retainer Quote</Link>
             <a
@@ -260,6 +257,9 @@ export default function CorporateRetainer() {
           <div className="cr-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               Our corporate retainer gives your Dubai company one reliable catering partner, predictable monthly spend, and priority access to vetted chefs. Tell us about your monthly rhythm — boardroom lunches, client dinners, team events — and we will design a written retainer proposal within 24 hours.
+            </p>
+            <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+              Corporate catering contract Dubai cost depends on the same three things: the guest count, the menu, and how much of the work happens in front of people. Corporate meal prep packages Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. For catering contract with cancellation policy, two to three weeks is comfortable, and December, Ramadan and New Year fill earlier than that. Iftar Dubai for corporate, corporate catering DIFC Dubai, monthly corporate catering Dubai, corporate catering supplier Dubai, catering services company in Dubai and corporate catering companies in Dubai are run to a fixed timing, with one itemised invoice and dietary requirements tracked per person. Catering contract examples is the same service under another name.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               For a fixed monthly fee, your team gets a pre-allocated catering credit, priority booking, a dedicated contact, and one consolidated VAT invoice. The process is simple: brief us, confirm the date, and we handle chef selection, ingredients, service, and cleanup.

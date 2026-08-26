@@ -361,6 +361,34 @@ are specified and not built. The queue is populated and read-only until they are
 
 ---
 
+## 14. The hero rule
+
+**A hero sells. It does not carry coverage copy.**
+
+The hero is the section holding the `<h1>`. A visitor arriving there wants one promise, one
+supporting line and a way to act. When the body-sentence optimizer chose "the first prose
+paragraph on the page" it chose hero subtitles, and heroes grew to 200+ words —
+`/bbq-catering-dubai` reached 245. Keyword sentences belong in body copy further down, where
+they read as prose.
+
+Three things hold the rule:
+
+| Where | What it does |
+|---|---|
+| `optimize-page.py` → `hero_end()` | the body placer will not write above that offset, ever |
+| `scripts/verify-hero.py` | gate: 90 words of hero prose, 140 for an article header. Breadcrumbs, eyebrows and button labels are not counted — they are navigation, not copy |
+| `move-hero-copy.py` | moves generated paragraphs already sitting in a hero down to the first prose section below it, keeping that section's styling |
+
+After the first pass: 19 paragraphs moved off 12 pages, median hero prose **36 words**, worst
+case 245 → 37. Two hand-written heroes were trimmed by moving their detail into the intro
+below — `/wedding-catering-dubai` (whose eyebrow also repeated its own H1 word for word) and
+`/engagement-catering-dubai`.
+
+A page whose hero genuinely needs more room goes in `EXEMPT` in the gate, with the reason
+written next to it — agreed once, not argued every run.
+
+---
+
 ## 14. Conventions
 
 - **Never commit a credential.** `~/.config/claude-seo/` and Vercel environment variables only.

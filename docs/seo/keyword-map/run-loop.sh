@@ -45,6 +45,7 @@ gate python3 scripts/verify-keyword-locks.py
 gate python3 scripts/verify-retirements.py
 gate python3 scripts/verify-api-functions.py
 gate python3 scripts/audit-onpage.py
+gate python3 scripts/verify-hero.py
 rm -f "$GATE_LOG"
 echo "== archive"; python3 docs/seo/keyword-map/store-keywords.py --mode "$MODE" || echo "  archive skipped (database unreachable) — the run still stands locally"
 echo "== experiments"; python3 docs/seo/keyword-map/close-experiments.py || true

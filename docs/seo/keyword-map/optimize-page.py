@@ -399,6 +399,24 @@ def body_sentences(missing, primary, facts, seed=0):
 
 PARA = re.compile(r"( *)<p\b([^>]*)>[ \t]*\n((?:[^<>{}\n][^<>{}]*\n)+?)[ \t]*</p>")
 PARA1 = re.compile(r"( *)<p\b([^>]*)>([^<>{}\n]{180,})</p>")
+def hero_end(src):
+    """Offset just past the section holding the first <h1>.
+
+    The hero sells; it does not carry coverage copy. Writing keyword sentences into the first
+    prose paragraph put 200+ words into hero subtitles — /bbq-catering-dubai reached 245 — so
+    everything before this offset is off limits to the body placer.
+    """
+    h1 = src.find("<h1")
+    if h1 < 0: return 0
+    start = src.rfind("<section", 0, h1)
+    if start < 0: return h1
+    depth = 0
+    for m in re.finditer(r"<section\b|</section>", src[start:]):
+        depth += 1 if m.group(0).startswith("<section") else -1
+        if depth == 0: return start + m.end()
+    return len(src)
+
+
 def _para_slots(src):
     """Every plain-prose paragraph in the file, multi-line or single-line, longest text first."""
     out = [(m.end(), m.group(1), m.group(2)) for m in PARA.finditer(src) if len(m.group(3).strip()) >= 180]
@@ -419,8 +437,12 @@ def place_in_package(src, missing, primary, facts, seed=0):
 
 def place_in_body(src, missing, primary, facts, seed=0):
     """Write the sentences into the page's own prose paragraphs — two at most, in different
-    sections, so a page with twelve unsaid phrases does not grow one wall of text."""
-    slots = _para_slots(src)
+    sections, so a page with twelve unsaid phrases does not grow one wall of text.
+
+    Never inside the hero: see hero_end().
+    """
+    floor = hero_end(src)
+    slots = [s for s in _para_slots(src) if s[0] > floor]
     if not slots: return src, []
     sents, used = body_sentences(missing, primary, facts, seed)
     if not sents: return src, []

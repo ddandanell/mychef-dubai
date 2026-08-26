@@ -43,14 +43,14 @@ export const engagementHeroCopy = {
   eyebrow: 'Private events',
   title: 'Engagement party catering in Dubai for two families and a toast',
   subtitle:
-    'Engagement party catering Dubai for the night two families share a house and a toast — not a proposal at a table for two, and not the wedding. Drop-off from AED 90 per person, a buffet from AED 120, live stations, or a chef plating at the table. Menu, chefs, staff, setup and clear-down, scoped to the room.',
+    'Engagement party catering Dubai for the night two families share a house and a toast — not a proposal at a table for two, and not the wedding.',
   priceLine: 'Event buffets from AED 120 per person.',
   replyLine: 'Share the date, address, guest count and who is in the room. We typically reply within 15 minutes during business hours.',
 } as const
 
 export const siloIntro = {
   lead:
-    'This page is the gathering after the ask and before the marriage. The proposal, the wedding, a dinner for two, and an anniversary with friends each have their own page.',
+    'This page is the gathering after the ask and before the marriage. The proposal, the wedding, a dinner for two, and an anniversary with friends each have their own page. Drop-off from AED 90 per person, a buffet from AED 120, live stations, or a chef plating at the table — menu, chefs, staff, setup and clear-down, scoped to the room.',
   eventsHref: '/events',
   eventsLabel: 'Event catering in Dubai',
   partyHref: '/private-party-catering-dubai',

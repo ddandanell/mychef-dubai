@@ -316,12 +316,6 @@ export default function ItalianCatering() {
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 ital-hero-sub">
             Handmade pasta, creamy risotto, abundant antipasti, and live pasta and pizza stations — the warmth and romance of an Italian kitchen brought to weddings, villas, and events across Dubai.
           </p>
-          <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 ital-hero-sub">
-            Italian catering Dubai delivery is the same service under another name.
-          </p>
-          <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 ital-hero-sub">
-            Italian catering Dubai price and Italian catering cost per person Dubai depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Private Italian chef near me is covered across the whole city, because the chef travels to your address rather than the other way round. Italian catering packages Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. If you are weighing up best Italian catering Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. The Italian catering menu Dubai and the Italian supper food truck Dubai menu are drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Halal Italian catering Dubai is planned into the first draft of the menu rather than bolted on at the end.
-          </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 ital-hero-cta">Get My Italian Catering Quote</Link>
             <a
@@ -347,6 +341,12 @@ export default function ItalianCatering() {
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Italian food is the cuisine of generosity and craft — a few good ingredients, treated with patience, turned into something that brings people to the table and keeps them there. Pasta rolled and cut by hand, risotto stirred to that perfect creamy texture, antipasti laid out to share, and dolci to finish slowly over espresso. At myCHEF Dubai, your chef prepares in that tradition, making pasta fresh and simmering sauces from scratch rather than reaching for shortcuts.
+          </p>
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+            Italian catering Dubai delivery is the same service under another name.
+          </p>
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+            Italian catering Dubai price and Italian catering cost per person Dubai depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Private Italian chef near me is covered across the whole city, because the chef travels to your address rather than the other way round. Italian catering packages Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. If you are weighing up best Italian catering Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. The Italian catering menu Dubai and the Italian supper food truck Dubai menu are drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Halal Italian catering Dubai is planned into the first draft of the menu rather than bolted on at the end.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             From antipasti and handmade pasta to wood-fired pizza, live risotto stations, and a tiramisu-and-espresso finish, our Italian menus are developed by <Link to="/chefs/marco-italian-chef" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Chef Marco, our Italian chef</Link>, and suit weddings, villa dinners, corporate receptions, and intimate plated occasions alike. Halal sourcing is the baseline, vegetarian and vegan dishes are plentiful, and a partner-chef-led <Link to="/live-cooking-stations-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">live cooking station</Link> can become the centrepiece of your event — explore how it fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.

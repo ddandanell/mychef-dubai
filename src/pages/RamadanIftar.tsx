@@ -341,12 +341,6 @@ export default function RamadanIftar() {
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 iftar-hero-sub">
             Traditional and contemporary Iftar menus prepared in your home, villa, office, or event space. From sunset dates to late-night Suhoor, we honour the spirit of Ramadan with exceptional food and attentive service.
           </p>
-          <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 iftar-hero-sub">
-            Iftar buffet catering Dubai is planned around the room and the running order, with chefs, service staff and clear-down included.
-          </p>
-          <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 iftar-hero-sub">
-            Iftar catering Dubai price and iftar catering cost per person Dubai depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Iftar buffet Dubai near me is covered across the whole city, because the chef travels to your address rather than the other way round. Iftar catering packages Dubai, best iftar buffet Dubai offers and best iftar buffet Dubai 2026 packages start from a set format and get adjusted to your date rather than sold as a fixed box. If you are weighing up best iftar catering Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. The iftar catering menu Dubai is drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Iftar catering at home Dubai is run at the address you give us: we bring the equipment, cook on site and leave the space as we found it.
-          </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 iftar-hero-cta">Get an Iftar Quote</Link>
             <a
@@ -373,6 +367,12 @@ export default function RamadanIftar() {
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Iftar is more than a meal — it is a moment of gratitude, togetherness, and tradition. At myCHEF Dubai, we create Iftar catering experiences that respect the rhythm of Ramadan while delivering food your guests will remember. From the first date to the final cup of Arabic coffee, every detail is planned around your family, your colleagues, or your community.
+          </p>
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+            Iftar buffet catering Dubai is planned around the room and the running order, with chefs, service staff and clear-down included.
+          </p>
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+            Iftar catering Dubai price and iftar catering cost per person Dubai depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Iftar buffet Dubai near me is covered across the whole city, because the chef travels to your address rather than the other way round. Iftar catering packages Dubai, best iftar buffet Dubai offers and best iftar buffet Dubai 2026 packages start from a set format and get adjusted to your date rather than sold as a fixed box. If you are weighing up best iftar catering Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. The iftar catering menu Dubai is drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Iftar catering at home Dubai is run at the address you give us: we bring the equipment, cook on site and leave the space as we found it.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             Whether you are hosting an intimate family Iftar, a corporate gathering for staff, or a community event at a hotel or event space, chefs in our network bring the menu, staff, and setup to you. Menus can be adapted to guest count, dietary needs, and event style, ensuring each evening feels personal and effortless.

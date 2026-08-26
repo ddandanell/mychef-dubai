@@ -257,9 +257,6 @@ export default function DubaiFoodTrendsReport2026() {
           <p className="font-inter text-lg text-white/90 max-w-[680px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 trends-hero-sub">
             The catering and private-dining movements shaping Dubai events this year — from hyper-local ingredients and inclusive menus to chef-led tasting experiences and non-alcoholic beverage programmes.
           </p>
-          <p className="font-inter text-lg text-white/90 max-w-[680px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 trends-hero-sub">
-            UAE food trends 2026, Dubai food expo 2026, Dubai food fair 2026, Dubai catering trends 2026 and private dining trends Dubai 2026 are the same service under another name.
-          </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 trends-hero-cta">
               Request a Custom Menu
@@ -288,6 +285,9 @@ export default function DubaiFoodTrendsReport2026() {
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Dubai’s event scene continues to mature. Hosts are no longer impressed by volume alone; they want menus that tell a story, reflect their guests, and feel considered from the first bite to the final petit four. After planning hundreds of private dinners, villa parties, yacht events and corporate functions, here are the trends we see defining 2026.
+          </p>
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+            UAE food trends 2026, Dubai food expo 2026, Dubai food fair 2026, Dubai catering trends 2026 and private dining trends Dubai 2026 are the same service under another name.
           </p>
           <p className="font-inter text-body text-gray-500 leading-relaxed">
             This report is intended as a practical planning tool, not a collection of passing fads. Each trend below affects how you brief a caterer, what questions to ask, and what your guests are likely to remember.

@@ -338,12 +338,6 @@ export default function BrunchCatering() {
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 brunch-hero-sub">
             Weekend villa brunches, corporate breakfast events, and daily private chef mornings. Fresh pastries, eggs any style, seasonal fruit, and artisanal coffee — served wherever you are in Dubai.
           </p>
-          <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 brunch-hero-sub">
-            Birthday brunch catering Dubai is planned around the room and the running order, with chefs, service staff and clear-down included.
-          </p>
-          <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 brunch-hero-sub">
-            Brunch catering Dubai price and brunch catering price per person Dubai depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Brunch offers in Dubai and brunch catering packages Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. If you are weighing up best brunch catering Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. The brunch catering menu Dubai is drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Halal brunch catering Dubai is planned into the first draft of the menu rather than bolted on at the end. Villa brunch catering Dubai is run at the address you give us: we bring the equipment, cook on site and leave the space as we found it.
-          </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 brunch-hero-cta">Get a Brunch Quote</Link>
             <a
@@ -370,6 +364,12 @@ export default function BrunchCatering() {
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             A great brunch sets the tone for the entire day. At myCHEF Dubai, we design brunch and breakfast catering that feels relaxed, abundant, and completely effortless. From a slow weekend gathering at your villa to a polished corporate breakfast before a big meeting, we bring the menu, a partner chef, and the service to you.
+          </p>
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+            Birthday brunch catering Dubai is planned around the room and the running order, with chefs, service staff and clear-down included.
+          </p>
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+            Brunch catering Dubai price and brunch catering price per person Dubai depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Brunch offers in Dubai and brunch catering packages Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. If you are weighing up best brunch catering Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. The brunch catering menu Dubai is drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Halal brunch catering Dubai is planned into the first draft of the menu rather than bolted on at the end. Villa brunch catering Dubai is run at the address you give us: we bring the equipment, cook on site and leave the space as we found it.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             Our brunch menus are built around fresh, seasonal ingredients and your personal tastes. Whether you want healthy bowls and fresh juice or eggs Benedict and pastries, we create a spread that suits the occasion. Every detail — from the coffee to the clear-down — is handled by our chefs.

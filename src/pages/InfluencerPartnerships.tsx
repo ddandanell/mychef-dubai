@@ -234,9 +234,6 @@ export default function InfluencerPartnerships() {
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 ip-hero-sub">
             Tell us about your audience and content goals, and our partnerships team will reply within 15 minutes during business hours with a tailored collaboration proposal — from a single private chef experience to an ongoing ambassador arrangement.
           </p>
-          <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 ip-hero-sub">
-            Dubai food price list, catering food cost calculator, cat food price in Dubai and veg food in Dubai price depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Baby shower food catering near me is covered across the whole city, because the chef travels to your address rather than the other way round. Independent food company Dubai is run to a fixed timing, with one itemised invoice and dietary requirements tracked per person. Checklist for food preparation comes down to four checks: who actually cooks, what the quote itemises, who buys the food, and how the kitchen is left. Food prep Dubai, Dubai food for lunch, food blogger collaboration Dubai and food influencer collaboration Dubai are the same service under another name.
-          </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 ip-hero-cta">Discuss a Partnership</Link>
             <a
@@ -264,6 +261,9 @@ export default function InfluencerPartnerships() {
           <div className="ip-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               MyCHEF Dubai partners with food, lifestyle, and luxury creators who want exceptional food and shareable moments for their audience. Tell us about your content goals and follower profile, and we will bring you a vetted private chef and a collaboration plan that fits your brand.
+            </p>
+            <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+              Dubai food price list, catering food cost calculator, cat food price in Dubai and veg food in Dubai price depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Baby shower food catering near me is covered across the whole city, because the chef travels to your address rather than the other way round. Independent food company Dubai is run to a fixed timing, with one itemised invoice and dietary requirements tracked per person. Checklist for food preparation comes down to four checks: who actually cooks, what the quote itemises, who buys the food, and how the kitchen is left. Food prep Dubai, Dubai food for lunch, food blogger collaboration Dubai and food influencer collaboration Dubai are the same service under another name.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               Our partnerships team handles menu curation, chef matching, styling, shoot timing, and usage rights. You bring your voice and audience; we bring the culinary production value that makes every post stand out.

@@ -228,12 +228,6 @@ export default function HowWeVetOurChefs() {
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 vet-hero-sub">
             Trust begins with rigorous standards. Every chef in the myCHEF Dubai network passes identity checks, practical assessments, reference verification, and ongoing performance reviews.
           </p>
-          <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 vet-hero-sub">
-            Private chef food safety Dubai and are private chefs licensed in Dubai are the same booking: a vetted chef, matched to your kitchen and your menu.
-          </p>
-          <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 vet-hero-sub">
-            Personal chefs on offer in Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. If you are weighing up top personal chef services policies, the things worth checking are the named chef, the itemised quote and who buys the ingredients. Find a private chef, find a personal chef, personal chef services FAQ, personal chef services report, personal chef services reveal and are private chefs vetted Dubai are the same booking: a vetted chef, matched to your kitchen and your menu.
-          </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to={`/inquiry`} className="btn-primary opacity-0 translate-y-4 vet-hero-cta">Get a Tailored Quote</Link>
             <a
@@ -259,6 +253,12 @@ export default function HowWeVetOurChefs() {
           <div className="vet-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               When you invite a private chef into your home, villa, or yacht, you are trusting more than their cooking. You are trusting their professionalism, their hygiene habits, their punctuality, and their judgment around your family, guests, and property. That is why myCHEF Dubai does not treat vetting as a one-time checkbox. It is a continuous process built around verification, assessment, reference checks, and real-world observation.
+            </p>
+            <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+              Private chef food safety Dubai and are private chefs licensed in Dubai are the same booking: a vetted chef, matched to your kitchen and your menu.
+            </p>
+            <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+              Personal chefs on offer in Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. If you are weighing up top personal chef services policies, the things worth checking are the named chef, the itemised quote and who buys the ingredients. Find a private chef, find a personal chef, personal chef services FAQ, personal chef services report, personal chef services reveal and are private chefs vetted Dubai are the same booking: a vetted chef, matched to your kitchen and your menu.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               We are also honest about what vetting means. No system can eliminate every risk, and no chef is automatically guaranteed work. We match each event to the best available chef based on cuisine expertise, availability, and client requirements. Our commitment is that every chef who represents myCHEF Dubai has met the standards below — and continues to meet them through regular feedback and review.
