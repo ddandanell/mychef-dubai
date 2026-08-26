@@ -11,6 +11,7 @@ Search Console columns stay empty until the service account is added to the mych
 
 Writes report.json + report.html next to this script.
 """
+COMPETITOR_BRANDS = __import__("re").compile(r"\b(royal catering|smart catering|safadi|al safadi|dish catering|odeon|elements catering|govindas|taste studio|tastestudio|buffestra|cedar tree|baguette|pinch gourmet|ahs catering|captain zaiqey|zaiqey|chefmaison|chef maison|monchef|mon chef|instachef|takeachef|take a chef|miummium|cozymeal|chefondemand|chef on demand|hiremycooks|kcal|right bite|eat clean|fitfood|kitopi|talabat|deliveroo|careem|noon food|zomato|emirates catering|emirates flight|abela|national catering|green forest|metropolitan|lifestyle diets|pure delight|foodie brands|atlantis|burj al arab|address hotel|la table|carluccio|sabor|gourmet gulf|flavours catering|capital catering|al maha|chef burak|le petit chef|king chef|trendy chef|jumeirah beach hotel|emirates palace|ritz|four seasons|marriott|hilton|hyatt|radisson|rotana|caterer global|catererglobal|bateel|cook & tap|yalla|lulu|spinneys|waitrose|carrefour|nusret|salt bae|kerala restaurant|calicut)\b")
 import json, pathlib, re, collections, datetime, html, csv
 
 HERE = pathlib.Path(__file__).resolve().parent
@@ -129,7 +130,7 @@ for k in keys:
     bp, bs = best_page_by_serp(k)
     cov = coverage(k, own_url or bp) if (own_url or bp) else None
     it = intent.get(k) or (pool_meta.get(k) or {}).get("intent")
-    off = bool(re.search(r"\b(show|shows|places?|deals?|restaurants?|hotel|hotels|cafe|salary|vacancy|recipe|recipes|tattoo|abu dhabi|al ain|sharjah|ajman|fujairah|ras al khaimah|umm al quwain|cedar tree|emirates flight|le petit chef|king chef|chef burak|chef eyad|calicut chef|trendy chef|baguette|buffestra|metropolitan catering|brunch and cake|food view|pure delight|foodie brands|lifestyle diets|green forest|national catering|caterer middle east|catering middle east|chef work|taste studio|tastestudio|pinch gourmet|ahs catering|captain zaiqey)\b", k))
+    off = bool(COMPETITOR_BRANDS.search(k)) or bool(re.search(r"\b(show|shows|places?|deals?|restaurants?|hotel|hotels|cafe|salary|vacancy|recipe|recipes|tattoo|abu dhabi|al ain|sharjah|ajman|fujairah|ras al khaimah|umm al quwain|cedar tree|emirates flight|le petit chef|king chef|chef burak|chef eyad|calicut chef|trendy chef|baguette|buffestra|metropolitan catering|brunch and cake|food view|pure delight|foodie brands|lifestyle diets|green forest|national catering|caterer middle east|catering middle east|chef work|taste studio|tastestudio|pinch gourmet|ahs catering|captain zaiqey)\b", k))
     recruitment = bool(re.search(r"\b(jobs?|salary|vacancy|vacancies|careers?|hiring in|chef hiring)\b", k))
     # recommendation
     rec_page = own_url

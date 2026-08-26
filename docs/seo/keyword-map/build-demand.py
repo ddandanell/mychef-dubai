@@ -12,6 +12,7 @@ Joins (all local, pulled from DataForSEO, UAE / English):
 
 Writes demand.json + demand.html next to this script.
 """
+COMPETITOR_BRANDS = __import__("re").compile(r"\b(royal catering|smart catering|safadi|al safadi|dish catering|odeon|elements catering|govindas|taste studio|tastestudio|buffestra|cedar tree|baguette|pinch gourmet|ahs catering|captain zaiqey|zaiqey|chefmaison|chef maison|monchef|mon chef|instachef|takeachef|take a chef|miummium|cozymeal|chefondemand|chef on demand|hiremycooks|kcal|right bite|eat clean|fitfood|kitopi|talabat|deliveroo|careem|noon food|zomato|emirates catering|emirates flight|abela|national catering|green forest|metropolitan|lifestyle diets|pure delight|foodie brands|atlantis|burj al arab|address hotel|la table|carluccio|sabor|gourmet gulf|flavours catering|capital catering|al maha|chef burak|le petit chef|king chef|trendy chef|jumeirah beach hotel|emirates palace|ritz|four seasons|marriott|hilton|hyatt|radisson|rotana|caterer global|catererglobal|bateel|cook & tap|yalla|lulu|spinneys|waitrose|carrefour|nusret|salt bae|kerala restaurant|calicut)\b")
 import json, pathlib, re, collections, datetime
 
 HERE = pathlib.Path(__file__).resolve().parent
@@ -106,7 +107,7 @@ for k, (u, role) in owner.items(): owned_sets.setdefault(tokset(k), (u, role, k)
 rows = []
 for k, e in pool.items():
     if e["volume"] < 10: continue
-    if len(k.split()) < 2 or BRAND.search(k) or (e.get("intent") == "navigational"): continue
+    if len(k.split()) < 2 or BRAND.search(k) or COMPETITOR_BRANDS.search(k) or (e.get("intent") == "navigational"): continue
     relevant = bool(SERVICE.search(k)) and not OFF.search(k)
     own = owner.get(k)
     variant_of = None

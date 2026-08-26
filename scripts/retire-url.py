@@ -45,7 +45,7 @@ SEO_PAGES = ROOT / "src/content/seo-pages"
 ROUTES_TSX = ROOT / "src/routes.tsx"
 SITEMAP_TSX = ROOT / "src/pages/SiteMap.tsx"
 SRC = ROOT / "src"
-SUBKEYWORD_CAP = 8
+SUBKEYWORD_CAP = 12
 LINK_LISTS = (
     "siblings",
     "featured_children",
