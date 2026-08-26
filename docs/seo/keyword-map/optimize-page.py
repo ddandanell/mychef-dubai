@@ -287,37 +287,37 @@ def faq_for(kws, page_primary, facts, seed=0, dup=0):
     elif cls == "price":
         a = f"There is no single number for {k1}: guest count, menu, service style and staffing move the figure. {('Our indicative starting point on this page is ' + price + '. ') if price else ''}Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.{alt}"
     elif cls == "near_me":
-        a = f"Yes. We cook and serve across Dubai, including {areas}, and we come to you: the kitchen is your villa, apartment, office, venue or yacht. Tell us the address and we confirm the team, travel and set-up time for it.{alt}"
+        a = f"Yes. We cover {k1} across the city, including {areas}, and we come to you: the kitchen is your villa, apartment, office, venue or yacht. Tell us the address and we confirm the team, travel and set-up time for it.{alt}"
     elif cls == "packages" and home_plan:
         a = f"We work from standing weekly formats — number of meals, days in your kitchen, diet — and shape them around the household instead of selling a fixed box. {('Plans start at ' + price + '. ') if price else ''}Tell us how many people eat at home and how often, and we adjust the closest plan to it.{alt}"
     elif cls == "packages":
-        a = f"We start from set formats and adjust them to your event rather than selling a fixed box: menu length, service style, staff and equipment are chosen for the day. {('Starting points begin at ' + price + '. ') if price else ''}Ask for the format closest to what you are planning and we shape it from there.{alt}"
+        a = f"{cap(k1)} starts from a set format that we adjust to your event rather than selling a fixed box: menu length, service style, staff and equipment are chosen for the day. {('Starting points begin at ' + price + '. ') if price else ''}Ask for the format closest to what you are planning and we shape it from there.{alt}"
     elif cls == "best" and home_plan:
-        a = f"One vetted chef, one plan, one figure: we do the shopping, cook in your kitchen, label and store everything, and charge ingredients at cost with no markup. The same chef comes back each week, so your diet and your kitchen never have to be explained twice.{alt}"
+        a = f"For {k1}: one vetted chef, one plan, one figure. We do the shopping, cook in your kitchen, label and store everything, and charge ingredients at cost with no markup. The same chef comes back each week, so your diet and your kitchen never have to be explained twice.{alt}"
     elif cls == "best":
-        a = f"One team owns the whole event — menu, shopping, cooking on site, service and clear-down — so nothing falls between suppliers. The chefs are vetted and matched to the occasion, ingredients are charged at cost with no markup, and every quote is itemised.{alt}"
+        a = f"For {k1}, one team owns the whole event — menu, shopping, cooking on site, service and clear-down — so nothing falls between suppliers. The chefs are vetted and matched to the occasion, ingredients are charged at cost with no markup, and every quote is itemised.{alt}"
     elif cls == "menu" and home_plan:
-        a = f"It is planned around the household: what you actually eat, what you avoid, the season, and any medical, training or postnatal needs. You get a draft week to change before anything is confirmed, and it rotates so the same plate does not come back every few days.{alt}"
+        a = f"The {k1} is planned around the household: what you actually eat, what you avoid, the season, and any medical, training or postnatal needs. You get a draft week to change before anything is confirmed, and it rotates so the same plate does not come back every few days.{alt}"
     elif cls == "menu":
-        a = f"It is written for your event, not picked off a list: we start from what you are hosting, the season and any dietary needs, then send a draft you can change before anything is confirmed. Tell us the date and headcount and you get a first draft to react to.{alt}"
+        a = f"The {k1} is written for your event, not picked off a list: we start from what you are hosting, the season and any dietary needs, then send a draft you can change before anything is confirmed. Tell us the date and headcount and you get a first draft to react to.{alt}"
     elif cls == "booking":
-        a = f"Two to three weeks is comfortable for a full event and about a week for a dinner at home. December, Ramadan and New Year fill earliest — a month is safer for those. Short notice is still worth asking: if a chef is free you get a straight yes or no the same day, not a maybe. A deposit holds the date and the balance falls due after the day.{alt}"
+        a = f"For {k1}, two to three weeks is comfortable for a full event and about a week for a dinner at home. December, Ramadan and New Year fill earliest — a month is safer for those. Short notice is still worth asking: if a chef is free you get a straight yes or no the same day, not a maybe. A deposit holds the date and the balance falls due after the day.{alt}"
     elif cls == "dietary":
-        a = f"Yes. Dietary needs are planned into the menu from the first draft, not bolted on: dishes are labelled, cross-contact is managed in the kitchen we set up on site, and the chef is briefed on every guest requirement before the day.{alt}"
+        a = f"Yes. For {k1} the requirement is planned into the menu from the first draft, not bolted on: dishes are labelled, cross-contact is managed in the kitchen we set up on site, and the chef is briefed on every guest requirement before the day.{alt}"
     elif cls == "home":
-        a = f"Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave it as we found it. Across {areas} this is our most common booking.{alt}"
+        a = f"Yes. {cap(k1)} is the core of what we do: we bring the equipment, set up a working kitchen in your space, serve, and leave it as we found it. Across {areas} this is our most common booking.{alt}"
     elif cls == "corporate":
-        a = f"Yes. For companies we work to a fixed timing, invoice properly, cater dietary requirements per employee and keep the set-up clean and quick. {('Budgets typically start around ' + price + '. ') if price else ''}One contact, one itemised quote, and the same team every time if you want continuity.{alt}"
+        a = f"Yes. For {k1} we work to a fixed timing, invoice properly, cater dietary requirements per employee and keep the set-up clean and quick. {('Budgets typically start around ' + price + '. ') if price else ''}One contact, one itemised quote, and the same team every time if you want continuity.{alt}"
     elif cls == "occasion":
-        a = f"Yes. We plan the menu around the occasion and the room — plated, buffet, canapés or live stations — bring chefs, service staff and equipment, and handle the clear-down. Share the date, guest count and venue and you get a proposal with the format we would recommend and why.{alt}"
+        a = f"Yes. For {k1} we plan the menu around the occasion and the room — plated, buffet, canapés or live stations — bring chefs, service staff and equipment, and handle the clear-down. Share the date, guest count and venue and you get a proposal with the format we would recommend and why.{alt}"
     elif cls == "equipment":
-        a = f"The chef brings their own knives and any specialist kit the menu needs — pans, a grill, chafing dishes, a portable hob — and cooks in your kitchen, using your oven and hob where that is the sensible thing to do. We check the kitchen and the menu beforehand and bring whatever is missing; anything hired in is listed on the quote, and the kitchen is left clean.{alt}"
+        a = f"For {k1}, the chef brings their own knives and any specialist kit the menu needs — pans, a grill, chafing dishes, a portable hob — and cooks in your kitchen, using your oven and hob where that is the sensible thing to do. We check the kitchen and the menu beforehand and bring whatever is missing; anything hired in is listed on the quote, and the kitchen is left clean.{alt}"
     elif cls == "choose":
-        a = f"Ask four things before you commit. Who actually cooks on the day, and can you see their background? Is the quote itemised — food, chef time, staff, hire and 5% VAT separately — or one lump figure? Who buys the ingredients, and at whose price? And what state is the kitchen left in? Anyone who answers all four in writing is usually the one who turns up as promised.{alt}"
+        a = f"Ask four things before you commit to {k1}. Who actually cooks on the day, and can you see their background? Is the quote itemised — food, chef time, staff, hire and 5% VAT separately — or one lump figure? Who buys the ingredients, and at whose price? And what state is the kitchen left in? Anyone who answers all four in writing is usually the one who turns up as promised.{alt}"
     elif cls == "chef" and home_plan:
-        a = f"Yes. Every chef is vetted in person, cooks a trial, and is matched to the household — diet, kitchen, schedule. You keep the same chef so the routine settles, and one contact arranges cover when they are away.{alt}"
+        a = f"Yes. Every chef we send for {k1} is vetted in person, cooks a trial, and is matched to the household — diet, kitchen, schedule. You keep the same chef so the routine settles, and one contact arranges cover when they are away.{alt}"
     elif cls == "chef":
-        a = f"Yes. Every chef on our roster is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.{alt}"
+        a = f"Yes. Every chef we send for {k1} is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.{alt}"
     elif home_plan:
         a = [f"Yes — same service as {P} under another name. A vetted chef cooks in your kitchen on the days you choose, the shopping is done for you and ingredients are charged at cost. Tell us the household size and how many meals a week you want covered.{alt}",
              f"Yes. People call this several things; what you get is the same: one chef, your kitchen, a week of food planned around your diet, and an itemised figure with ingredients at cost.{alt}",
@@ -325,7 +325,7 @@ def faq_for(kws, page_primary, facts, seed=0, dup=0):
     else:
         a = [f"Yes — same service as {P}, different words for it. We design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.{alt}",
              f"Yes. It is the same booking as {P} under another name: one team, your address, menu built for the occasion, and an itemised quote before you commit.{alt}",
-             f"Yes — people search this several ways and land on the same service. Chefs and staff come to you, the menu is written for your event, and the quote separates food, people and hire.{alt}"][v]
+             f"Yes — {k1} and this page are the same service, reached by different words. Chefs and staff come to you, the menu is written for your event, and the quote separates food, people and hire.{alt}"][v]
     if dup and cls in ANS2:
         a = ANS2[cls].format(k1=k1, P=P, areas=areas, price=price) + alt
     if OPEN.match(norm(k1)):

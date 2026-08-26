@@ -157,70 +157,6 @@ const faqs = [
     q: 'How far in advance should we book conference catering?',
     a: 'For multi-day conferences we recommend booking two to four weeks ahead, and earlier during the peak season from November to March. For organisers running events regularly, a standing arrangement makes planning each conference faster and keeps standards consistent.',
   },
-  {
-    q: 'How much does conference catering Dubai price come to?',
-    a: 'There is no single number for conference catering Dubai price: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
-  },
-  {
-    q: 'How much does conference catering Dubai cost per person come to?',
-    a: 'There is no single number for conference catering Dubai cost per person: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
-  },
-  {
-    q: 'Do you handle conference catering companies Dubai?',
-    a: 'Yes. For companies we work to a fixed timing, invoice properly, cater dietary requirements per employee and keep the set-up clean and quick. One contact, one itemised quote, and the same team every time if you want continuity.',
-  },
-  {
-    q: 'Do you offer conference catering packages Dubai?',
-    a: 'Yes. We start from set formats and adjust them to your event rather than selling a fixed box: menu length, service style, staff and equipment are chosen for the day. Ask for the format closest to what you are planning and we shape it from there.',
-  },
-  {
-    q: 'Do you handle conference catering menu Dubai?',
-    a: 'Yes. For companies we work to a fixed timing, invoice properly, cater dietary requirements per employee and keep the set-up clean and quick. One contact, one itemised quote, and the same team every time if you want continuity.',
-  },
-  {
-    q: 'Do you handle conference lunch catering Dubai?',
-    a: 'Yes. For companies we work to a fixed timing, invoice properly, cater dietary requirements per employee and keep the set-up clean and quick. One contact, one itemised quote, and the same team every time if you want continuity.',
-  },
-  {
-    q: 'Do you handle catering & conference services coordinator?',
-    a: 'Yes. For companies we work to a fixed timing, invoice properly, cater dietary requirements per employee and keep the set-up clean and quick. One contact, one itemised quote, and the same team every time if you want continuity.',
-  },
-  {
-    q: 'Do you handle catering conference 2025?',
-    a: 'Yes. For companies we work to a fixed timing, invoice properly, cater dietary requirements per employee and keep the set-up clean and quick. One contact, one itemised quote, and the same team every time if you want continuity.',
-  },
-  {
-    q: 'How much does conference catering Dubai price come to?',
-    a: 'There is no single number for conference catering Dubai price: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
-  },
-  {
-    q: 'How much does conference catering Dubai cost per person come to?',
-    a: 'There is no single number for conference catering Dubai cost per person: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
-  },
-  {
-    q: 'Do you handle conference catering companies Dubai?',
-    a: 'Yes. For companies we work to a fixed timing, invoice properly, cater dietary requirements per employee and keep the set-up clean and quick. One contact, one itemised quote, and the same team every time if you want continuity.',
-  },
-  {
-    q: 'Do you offer conference catering packages Dubai?',
-    a: 'Yes. We start from set formats and adjust them to your event rather than selling a fixed box: menu length, service style, staff and equipment are chosen for the day. Ask for the format closest to what you are planning and we shape it from there.',
-  },
-  {
-    q: 'Do you handle conference catering menu Dubai?',
-    a: 'Yes. For companies we work to a fixed timing, invoice properly, cater dietary requirements per employee and keep the set-up clean and quick. One contact, one itemised quote, and the same team every time if you want continuity.',
-  },
-  {
-    q: 'Do you handle conference lunch catering Dubai?',
-    a: 'Yes. For companies we work to a fixed timing, invoice properly, cater dietary requirements per employee and keep the set-up clean and quick. One contact, one itemised quote, and the same team every time if you want continuity.',
-  },
-  {
-    q: 'Do you handle catering & conference services coordinator?',
-    a: 'Yes. For companies we work to a fixed timing, invoice properly, cater dietary requirements per employee and keep the set-up clean and quick. One contact, one itemised quote, and the same team every time if you want continuity.',
-  },
-  {
-    q: 'Do you handle catering conference 2025?',
-    a: 'Yes. For companies we work to a fixed timing, invoice properly, cater dietary requirements per employee and keep the set-up clean and quick. One contact, one itemised quote, and the same team every time if you want continuity.',
-  },
 ]
 
 const relatedServices = [
@@ -397,6 +333,9 @@ export default function ConferenceCatering() {
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Conference catering is a logistics challenge as much as a culinary one. A full room of delegates needs to be fed and refreshed quickly, on a tight schedule, without losing energy across a long programme. The food matters — but so does the timing, the flow, and the way a break gets people back to their seats. At myCHEF Dubai, we plan conference catering around your agenda first, so service supports the day rather than slowing it down.
+          </p>
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+            Conference catering Dubai price and conference catering Dubai cost per person depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Conference catering packages Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. The conference catering menu Dubai is drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Catering conference 2025, conference lunch catering Dubai, conference catering companies Dubai and catering & conference services coordinator are run to a fixed timing, with one itemised invoice and dietary requirements tracked per person.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Conference food catering, catering conference 2026, conference room catering and eisenhower conference & catering are run to a fixed timing, with one itemised invoice and dietary requirements tracked per person.

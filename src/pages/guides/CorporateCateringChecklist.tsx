@@ -131,12 +131,12 @@ const faqs = [
     a: 'Yes. Corporate catering includes delivery, setup, service where required, and clear-down. We aim to leave the meeting room or event space exactly as we found it.',
   },
   {
-    q: 'How to plan corporate catering Dubai?',
-    a: 'We start from set formats and adjust them to your event rather than selling a fixed box: menu length, service style, staff and equipment are chosen for the day. Ask for the format closest to what you are planning and we shape it from there.',
-  },
-  {
     q: 'What to ask a corporate caterer Dubai?',
     a: 'For companies we work to a fixed timing, invoice properly, cater dietary requirements per employee and keep the set-up clean and quick. One contact, one itemised quote, and the same team every time if you want continuity.',
+  },
+  {
+    q: 'How to plan corporate catering Dubai?',
+    a: 'How to plan corporate catering Dubai starts from a set format that we adjust to your event rather than selling a fixed box: menu length, service style, staff and equipment are chosen for the day. Ask for the format closest to what you are planning and we shape it from there.',
   },
 ]
 

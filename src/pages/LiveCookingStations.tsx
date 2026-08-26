@@ -191,70 +191,6 @@ const faqs = [
   { q: "How are live cooking stations different from a standard buffet?", a: "With live stations, chefs cook and plate each dish fresh to order in front of guests, so the food is hotter, more interactive, and doubles as entertainment, unlike a buffet where dishes sit pre-prepared in trays. Stations also spread guests around the room and shorten queues at larger events. Many clients combine a couple of live stations with a buffet or plated service for the best of both." },
   { q: "Can I mix live stations with a plated dinner or full catering service?", a: "Absolutely. Live stations pair beautifully with a seated plated dinner, a buffet, or a canapé reception, for example live stations during the drinks reception followed by a plated main course. We design the whole flow as one seamless service through our wider [catering in Dubai](/catering-dubai). Tell us your running order and we'll build a menu and timeline around it." },
   { q: "Do you offer dessert and sweet live stations too?", a: "Yes, our live dessert stations include crepes, flambé, live ice cream, and plated desserts finished to order, making a memorable sweet finale that entertains as much as it tastes. They're a favourite at weddings and celebrations alongside savoury carving, pasta, and grill counters. We'll help you choose the right sweet station to round off your menu." },
-  {
-    q: 'How much does live cooking stations Dubai price come to?',
-    a: 'There is no single number for live cooking stations Dubai price: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
-  },
-  {
-    q: 'How much does live cooking station price per person Dubai come to?',
-    a: 'There is no single number for live cooking station price per person Dubai: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
-  },
-  {
-    q: 'What makes myCHEF a strong choice for best live cooking stations Dubai?',
-    a: 'One team owns the whole event — menu, shopping, cooking on site, service and clear-down — so nothing falls between suppliers. The chefs are vetted and matched to the occasion, ingredients are charged at cost with no markup, and every quote is itemised.',
-  },
-  {
-    q: 'Do you offer live cooking stations packages Dubai?',
-    a: 'Yes. We start from set formats and adjust them to your event rather than selling a fixed box: menu length, service style, staff and equipment are chosen for the day. Ask for the format closest to what you are planning and we shape it from there.',
-  },
-  {
-    q: 'Do you offer live cooking stations menu Dubai?',
-    a: 'Yes. It sits inside the same service as live cooking stations Dubai: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
-  },
-  {
-    q: 'Can you handle halal live cooking stations Dubai?',
-    a: 'Yes. Dietary needs are planned into the menu from the first draft, not bolted on: dishes are labelled, cross-contact is managed in the kitchen we set up on site, and the chef is briefed on every guest requirement before the day.',
-  },
-  {
-    q: 'Do you offer live station catering Dubai?',
-    a: 'Yes. It sits inside the same service as live cooking stations Dubai: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
-  },
-  {
-    q: 'Do you offer live pasta station Dubai?',
-    a: 'Yes. It sits inside the same service as live cooking stations Dubai: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
-  },
-  {
-    q: 'How much does live cooking stations Dubai price come to?',
-    a: 'There is no single number for live cooking stations Dubai price: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
-  },
-  {
-    q: 'How much does live cooking station price per person Dubai come to?',
-    a: 'There is no single number for live cooking station price per person Dubai: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
-  },
-  {
-    q: 'What makes myCHEF a strong choice for best live cooking stations Dubai?',
-    a: 'One team owns the whole event — menu, shopping, cooking on site, service and clear-down — so nothing falls between suppliers. The chefs are vetted and matched to the occasion, ingredients are charged at cost with no markup, and every quote is itemised.',
-  },
-  {
-    q: 'Do you offer live cooking stations packages Dubai?',
-    a: 'Yes. We start from set formats and adjust them to your event rather than selling a fixed box: menu length, service style, staff and equipment are chosen for the day. Ask for the format closest to what you are planning and we shape it from there.',
-  },
-  {
-    q: 'Do you offer live cooking stations menu Dubai?',
-    a: 'Yes. It sits inside the same service as live cooking stations Dubai: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
-  },
-  {
-    q: 'Can you handle halal live cooking stations Dubai?',
-    a: 'Yes. Dietary needs are planned into the menu from the first draft, not bolted on: dishes are labelled, cross-contact is managed in the kitchen we set up on site, and the chef is briefed on every guest requirement before the day.',
-  },
-  {
-    q: 'Do you offer live station catering Dubai?',
-    a: 'Yes. It sits inside the same service as live cooking stations Dubai: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
-  },
-  {
-    q: 'Do you offer live pasta station Dubai?',
-    a: 'Yes. It sits inside the same service as live cooking stations Dubai: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
-  },
 ]
 
 const relatedServices = [
@@ -410,6 +346,9 @@ export default function LiveCookingStations() {
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 lcs-hero-sub">
             Interactive partner-chef-led stations — carving, pasta, grill, street food, and dessert counters cooked to order. The theatre of food, plated fresh in front of your guests at weddings and corporate events across Dubai.
+          </p>
+          <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 lcs-hero-sub">
+            Live cooking stations Dubai price and live cooking station price per person Dubai depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Live cooking stations packages Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. If you are weighing up best live cooking stations Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. The live cooking stations menu Dubai is drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Halal live cooking stations Dubai is planned into the first draft of the menu rather than bolted on at the end. Live pasta station Dubai and live station catering Dubai are the same service under another name.
           </p>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 lcs-hero-sub">
             Live cooking classes, shawarma live station, live cooking station ideas and private classes for cooking are the same service under another name.

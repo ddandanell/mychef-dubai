@@ -30,6 +30,12 @@ const config: OccasionPageConfig = {
         There is something undeniably elegant about a well-executed afternoon tea: tiered stands of delicate sandwiches, warm scones with cream, and small cakes arranged like jewellery. Our afternoon tea catering brings that hotel-lounge experience to your home, villa, office or event venue across Dubai — without the formality of a fixed venue.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+        Birthday afternoon tea Dubai is planned around the room and the running order, with chefs, service staff and clear-down included.
+      </p>
+      <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+        High tea catering Dubai and afternoon tea grazing table are the same service under another name.
+      </p>
+      <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
         Afternoon tea catering Dubai price and afternoon tea catering price per person Dubai depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Afternoon tea caterers near me are covered across the whole city, because the chef travels to your address rather than the other way round. Afternoon tea catering packages Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. If you are weighing up best afternoon tea Dubai and best afternoon tea catering Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. The afternoon tea catering menu Dubai is drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Halal afternoon tea catering Dubai is planned into the first draft of the menu rather than bolted on at the end.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
@@ -157,10 +163,6 @@ const config: OccasionPageConfig = {
   {
     q: 'Can you do afternoon tea at home Dubai?',
     a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave it as we found it. Across Palm Jumeirah, Dubai Marina, Emirates Hills and Downtown Dubai this is our most common booking.',
-  },
-  {
-    q: 'Is birthday afternoon tea Dubai something you take on?',
-    a: 'Yes. We plan the menu around the occasion and the room — plated, buffet, canapés or live stations — bring chefs, service staff and equipment, and handle the clear-down. Share the date, guest count and venue and you get a proposal with the format we would recommend and why.',
   },
 ],
   relatedServices: [

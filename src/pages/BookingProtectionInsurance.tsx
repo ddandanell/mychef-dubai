@@ -115,7 +115,7 @@ const faqs = [
   },
   {
     q: 'What happens if my chef cancels Dubai?',
-    a: 'Every chef on our roster is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.',
+    a: 'Every chef we send for what happens if my chef cancels Dubai is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.',
   },
 ]
 

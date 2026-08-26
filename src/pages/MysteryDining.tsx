@@ -115,10 +115,6 @@ const faqs = [
     q: 'Can kids participate?',
     a: 'Yes, with advance notice. We adapt portion sizes, spice levels, and ingredients for younger guests while keeping the experience playful and age-appropriate.',
   },
-  {
-    q: 'Does dinner experience for couples Dubai mean this service?',
-    a: 'Yes — people search this several ways and land on the same service. Chefs and staff come to you, the menu is written for your event, and the quote separates food, people and hire.',
-  },
 ]
 
 const relatedServices = [
@@ -234,6 +230,9 @@ export default function MysteryDining() {
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 md-hero-sub">
             Tell us what excites your palate and any dietary boundaries. We will bring you a vetted private chef who designs a surprise menu around your tastes, delivered in your home, apartment, or villa within 24 hours.
+          </p>
+          <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 md-hero-sub">
+            Dinner experience for couples Dubai is the same service under another name.
           </p>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 md-hero-sub">
             Surprise dinner experience Dubai price depends on the same three things: the guest count, the menu, and how much of the work happens in front of people. Surprise dinner package Dubai starts from a set format and get adjusted to your date rather than sold as a fixed box. If you are weighing up best dinner experience in Dubai and best surprise dining experience Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. Chef dining experience Dubai is the same booking: a vetted chef, matched to your kitchen and your menu. Mystery dinner Dubai, fine dining experience Dubai, unique dining experience Dubai, private dinner experience Dubai, surprise dinner for two Dubai and surprise cake delivery in Dubai are the same service under another name.

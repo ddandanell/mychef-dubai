@@ -95,12 +95,12 @@ const faqs = [
     a: 'Refunds are considered on a case-by-case basis for service failures attributable to us or the chef. Cancellation refunds follow the terms in your written proposal, which depend on how far in advance you cancel.',
   },
   {
-    q: 'How to complain about a caterer Dubai?',
-    a: 'Every chef on our roster is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.',
-  },
-  {
     q: 'What if catering goes wrong Dubai?',
     a: 'Same service as catering quality guarantee Dubai, different words for it. We design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
+  },
+  {
+    q: 'How to complain about a caterer Dubai?',
+    a: 'Every chef we send for how to complain about a caterer Dubai is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.',
   },
 ]
 

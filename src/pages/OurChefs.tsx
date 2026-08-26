@@ -189,6 +189,9 @@ export default function OurChefs() {
                 Behind every myCHEF evening is a chef we carefully selected — vetted for credentials, licensing and food-safety before they ever cook for a client. We choose the talent. We hold the standard. The artistry is theirs.
               </p>
               <p className="font-inter text-body text-gray-500 leading-relaxed mb-4">
+                Private BBQ chef Dubai, female private chef Dubai, female private chefs Dubai and are private chefs in Dubai licensed are the same booking: a vetted chef, matched to your kitchen and your menu.
+              </p>
+              <p className="font-inter text-body text-gray-500 leading-relaxed mb-4">
                 Personal chef, chef for hire, hire chef Dubai, looking for chef, private chef hire and private cook in Dubai are the same booking: a vetted chef, matched to your kitchen and your menu.
               </p>
               <p className="font-inter text-body text-gray-500 leading-relaxed">

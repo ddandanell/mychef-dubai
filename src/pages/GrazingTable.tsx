@@ -171,70 +171,6 @@ const faqs = [
   { q: "How far in advance do I need to book a grazing table?", a: "For smaller grazing tables and boards, a week or two is usually enough, while larger, fully styled installations are best confirmed two to four weeks ahead. Peak season runs from November to March, and popular weekend dates book up quickly, so earlier is always safer during those months. If your date is soon, reach out anyway, as we'll always try to accommodate short notice." },
   { q: "Can you match a specific theme, colour palette, or occasion?", a: "Yes, we style each grazing table around your palette, theme, florals, and venue so it feels made for your celebration, whether that's a soft bridal shower, a pastel baby shower, or a branded corporate reception. We coordinate boards, vessels, foliage, and garnishes to your look and can add sweet or savoury emphasis as needed. Share your inspiration or mood board when you [get in touch](/contact) and we'll design to it." },
   { q: "Can you add hot dishes, live stations, or dessert to a grazing table?", a: "Yes, a grazing table can stand alone or become part of a fuller spread with hot sharing dishes, live cooking stations, or a dessert display alongside it. This works beautifully for larger events where you want the grazing centrepiece plus something more substantial for guests. We'll help you balance the mix so it suits your timing, guest count, and budget." },
-  {
-    q: 'How much does grazing table Dubai price come to?',
-    a: 'There is no single number for grazing table Dubai price: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
-  },
-  {
-    q: 'Do you offer grazing table for 20 guests Dubai?',
-    a: 'Yes. It sits inside the same service as grazing table Dubai: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
-  },
-  {
-    q: 'What makes myCHEF a strong choice for best grazing table Dubai?',
-    a: 'One team owns the whole event — menu, shopping, cooking on site, service and clear-down — so nothing falls between suppliers. The chefs are vetted and matched to the occasion, ingredients are charged at cost with no markup, and every quote is itemised.',
-  },
-  {
-    q: 'Do you offer grazing table packages Dubai?',
-    a: 'Yes. We start from set formats and adjust them to your event rather than selling a fixed box: menu length, service style, staff and equipment are chosen for the day. Ask for the format closest to what you are planning and we shape it from there.',
-  },
-  {
-    q: 'Do you offer grazing table menu Dubai?',
-    a: 'Yes. It sits inside the same service as grazing table Dubai: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
-  },
-  {
-    q: 'Can you handle halal grazing table Dubai?',
-    a: 'Yes. Dietary needs are planned into the menu from the first draft, not bolted on: dishes are labelled, cross-contact is managed in the kitchen we set up on site, and the chef is briefed on every guest requirement before the day.',
-  },
-  {
-    q: 'Do you offer grazing platter Dubai?',
-    a: 'Yes. It sits inside the same service as grazing table Dubai: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
-  },
-  {
-    q: 'Do you offer grazing table delivery Dubai?',
-    a: 'Yes. It sits inside the same service as grazing table Dubai: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
-  },
-  {
-    q: 'How much does grazing table Dubai price come to?',
-    a: 'There is no single number for grazing table Dubai price: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
-  },
-  {
-    q: 'Do you offer grazing table for 20 guests Dubai?',
-    a: 'Yes. It sits inside the same service as grazing table Dubai: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
-  },
-  {
-    q: 'What makes myCHEF a strong choice for best grazing table Dubai?',
-    a: 'One team owns the whole event — menu, shopping, cooking on site, service and clear-down — so nothing falls between suppliers. The chefs are vetted and matched to the occasion, ingredients are charged at cost with no markup, and every quote is itemised.',
-  },
-  {
-    q: 'Do you offer grazing table packages Dubai?',
-    a: 'Yes. We start from set formats and adjust them to your event rather than selling a fixed box: menu length, service style, staff and equipment are chosen for the day. Ask for the format closest to what you are planning and we shape it from there.',
-  },
-  {
-    q: 'Do you offer grazing table menu Dubai?',
-    a: 'Yes. It sits inside the same service as grazing table Dubai: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
-  },
-  {
-    q: 'Can you handle halal grazing table Dubai?',
-    a: 'Yes. Dietary needs are planned into the menu from the first draft, not bolted on: dishes are labelled, cross-contact is managed in the kitchen we set up on site, and the chef is briefed on every guest requirement before the day.',
-  },
-  {
-    q: 'Do you offer grazing platter Dubai?',
-    a: 'Yes. It sits inside the same service as grazing table Dubai: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
-  },
-  {
-    q: 'Do you offer grazing table delivery Dubai?',
-    a: 'Yes. It sits inside the same service as grazing table Dubai: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
-  },
 ]
 
 const relatedServices = [
@@ -411,6 +347,9 @@ export default function GrazingTable() {
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             A grazing table is more than food on a board — it is a moment. The abundant cascade of cured meats, aged cheeses, seasonal fruits, warm breads, and house-made dips becomes the visual heart of your celebration, the place guests drift back to all afternoon. At myCHEF Dubai, we treat each grazing table as an edible installation, composed and styled corner to corner for both flavour and effect.
+          </p>
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+            Grazing table Dubai price depends on the same three things: the guest count, the menu, and how much of the work happens in front of people. Grazing table packages Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. If you are weighing up best grazing table Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. The grazing table menu Dubai is drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Halal grazing table Dubai is planned into the first draft of the menu rather than bolted on at the end. Grazing platter Dubai, grazing table delivery Dubai and grazing table for 20 guests Dubai are the same service under another name.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Birthday grazing table Dubai is planned around the room and the running order, with chefs, service staff and clear-down included. Grazing tables Dubai and Indian grazing table Dubai are the same service under another name.

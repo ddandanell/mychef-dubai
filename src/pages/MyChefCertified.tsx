@@ -116,10 +116,6 @@ const faqs = [
     a: 'We assess each chef\'s practical understanding of halal preparation, ingredient sourcing, and cross-contamination prevention. This helps us match chefs appropriately with households that observe halal requirements.',
   },
   {
-    q: 'Is chef on demand UAE something you arrange?',
-    a: 'Yes. Every chef on our roster is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.',
-  },
-  {
     q: 'How much do private chefs charge?',
     a: 'There is no single number for how much do private chefs charge: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
   },

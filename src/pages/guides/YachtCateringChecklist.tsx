@@ -188,7 +188,7 @@ const faqs = [
   },
   {
     q: 'How to plan yacht catering Dubai?',
-    a: 'We start from set formats and adjust them to your event rather than selling a fixed box: menu length, service style, staff and equipment are chosen for the day. Ask for the format closest to what you are planning and we shape it from there.',
+    a: 'How to plan yacht catering Dubai starts from a set format that we adjust to your event rather than selling a fixed box: menu length, service style, staff and equipment are chosen for the day. Ask for the format closest to what you are planning and we shape it from there.',
   },
 ]
 

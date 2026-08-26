@@ -92,70 +92,6 @@ const faqItems = [
     q: 'We are renting a villa for a holiday. Is this the right page?',
     a: 'For a stay of a few days, open [holiday villa chef](/tourist-villa-chef-dubai). That page is built around a rental, a concierge and a short run of dinners. A resident household that wants the same chef back week after week belongs on [private chef](/private-chef-dubai). A single party in the rental is still catering.',
   },
-  {
-    q: 'Do you provide private chef villa Dubai?',
-    a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave the home as we found it. Across Palm Jumeirah, Emirates Hills, Jumeirah this is our most common booking.',
-  },
-  {
-    q: 'Do you provide villa catering Dubai?',
-    a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave the home as we found it. Across Palm Jumeirah, Emirates Hills, Jumeirah this is our most common booking.',
-  },
-  {
-    q: 'Do you provide villa dinner party Dubai?',
-    a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave the home as we found it. Across Palm Jumeirah, Emirates Hills, Jumeirah this is our most common booking.',
-  },
-  {
-    q: 'Do you provide holiday villa in france with private chef?',
-    a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave the home as we found it. Across Palm Jumeirah, Emirates Hills, Jumeirah this is our most common booking.',
-  },
-  {
-    q: 'Do you provide private dining at villa Dubai?',
-    a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave the home as we found it. Across Palm Jumeirah, Emirates Hills, Jumeirah this is our most common booking.',
-  },
-  {
-    q: 'Do you provide Palm Jumeirah villa dining?',
-    a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave the home as we found it. Across Palm Jumeirah, Emirates Hills, Jumeirah this is our most common booking.',
-  },
-  {
-    q: 'Do you provide villa catering Dubai menu?',
-    a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave the home as we found it. Across Palm Jumeirah, Emirates Hills, Jumeirah this is our most common booking.',
-  },
-  {
-    q: 'Do you provide villa with chef france?',
-    a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave the home as we found it. Across Palm Jumeirah, Emirates Hills, Jumeirah this is our most common booking.',
-  },
-  {
-    q: 'Do you provide private chef villa Dubai?',
-    a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave the home as we found it. Across Palm Jumeirah, Emirates Hills, Jumeirah this is our most common booking.',
-  },
-  {
-    q: 'Do you provide villa catering Dubai?',
-    a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave the home as we found it. Across Palm Jumeirah, Emirates Hills, Jumeirah this is our most common booking.',
-  },
-  {
-    q: 'Do you provide villa dinner party Dubai?',
-    a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave the home as we found it. Across Palm Jumeirah, Emirates Hills, Jumeirah this is our most common booking.',
-  },
-  {
-    q: 'Do you provide holiday villa in france with private chef?',
-    a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave the home as we found it. Across Palm Jumeirah, Emirates Hills, Jumeirah this is our most common booking.',
-  },
-  {
-    q: 'Do you provide private dining at villa Dubai?',
-    a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave the home as we found it. Across Palm Jumeirah, Emirates Hills, Jumeirah this is our most common booking.',
-  },
-  {
-    q: 'Do you provide Palm Jumeirah villa dining?',
-    a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave the home as we found it. Across Palm Jumeirah, Emirates Hills, Jumeirah this is our most common booking.',
-  },
-  {
-    q: 'Do you provide villa catering Dubai menu?',
-    a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave the home as we found it. Across Palm Jumeirah, Emirates Hills, Jumeirah this is our most common booking.',
-  },
-  {
-    q: 'Do you provide villa with chef france?',
-    a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave the home as we found it. Across Palm Jumeirah, Emirates Hills, Jumeirah this is our most common booking.',
-  },
 ]
 
 const schema = {
@@ -245,6 +181,9 @@ export default function Villas() {
               <h3 className="font-playfair text-h3 text-black mb-4">A chef for the household</h3>
               <p className="font-inter text-body text-gray-600 leading-relaxed mb-6">
                 A private chef villa Dubai arrangement is a standing rhythm: the same person, a Food Profile of how this house eats, and backup if they are off. Groceries as agreed, at actual receipts when we shop. Priced as working time, not per plate.
+              </p>
+              <p className="font-inter text-body text-gray-600 leading-relaxed mb-6">
+                The villa catering Dubai menu is drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Palm Jumeirah villa dining and private dining at villa Dubai are run at the address you give us: we bring the equipment, cook on site and leave the space as we found it.
               </p>
               <p className="font-inter text-body text-gray-600 leading-relaxed mb-6">
                 Chef villa klope, chef villa heanor, chef villa orsini, chef villa navarre, chef villa lorraine and chef villa in the sky are run at the address you give us: we bring the equipment, cook on site and leave the space as we found it.

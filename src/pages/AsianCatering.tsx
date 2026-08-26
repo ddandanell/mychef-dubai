@@ -153,10 +153,6 @@ const faqs = [
     q: 'Do you offer sushi and vegetarian options?',
     a: 'Yes. We provide a live sushi counter with hand-rolled maki, nigiri, and sashimi, including vegetarian rolls. Asian cuisine is rich in plant-based dishes, so we build generous vegetarian and vegan menus on request.',
   },
-  {
-    q: 'How far in advance should I book Asian catering?',
-    a: 'For smaller gatherings, one to two weeks is ideal. For weddings and large functions with live stations, we recommend two to four weeks. During peak season from November to March, earlier booking is strongly advised.',
-  },
   { q: "How much does Asian catering in Dubai cost per person?", a: "Asian catering in Dubai is priced by custom quote, because the cost depends on your menu, guest count, number of live stations, and level of service. Once you tell us your date, headcount, and whether you want wok, dim sum, or sushi stations, we build a transparent, itemised proposal — usually within 15 minutes during business hours. You can also browse our [catering packages](/catering-packages-dubai) to see how full-service pricing is structured." },
   { q: "What exactly is included when I book your Asian catering?", a: "Every booking includes menu design, ingredient sourcing and shopping, on-site cooking, plating and serving, and full cleanup afterwards — you are left with nothing to tidy. Live wok, dim sum, and sushi stations are handled by our own chefs, and serving staff can be added when you want a fully waited service. In short, we handle the whole Asian feast from planning to pack-down so you can enjoy your own event." },
   { q: "Is there a minimum number of guests for Asian catering?", a: "We cater Asian menus for intimate villa dinners of a handful of guests right up to large weddings and corporate functions of several hundred. Live stations like wok and dim sum work best with a slightly larger group so the theatre and flow feel right, but we scale the format to your numbers. Just share your guest count and we will recommend the best setup for the size of your gathering." },

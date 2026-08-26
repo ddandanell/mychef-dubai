@@ -177,8 +177,8 @@ const faqs = [
     a: 'There is no single number for dessert table catering Dubai price: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day. If you searched for dessert table catering price per person Dubai, this is the same service.',
   },
   {
-    q: 'Do you offer dessert table catering packages Dubai?',
-    a: 'We start from set formats and adjust them to your event rather than selling a fixed box: menu length, service style, staff and equipment are chosen for the day. Ask for the format closest to what you are planning and we shape it from there.',
+    q: 'What is included in dessert table catering packages Dubai?',
+    a: 'Dessert table catering packages Dubai starts from a set format that we adjust to your event rather than selling a fixed box: menu length, service style, staff and equipment are chosen for the day. Ask for the format closest to what you are planning and we shape it from there.',
   },
 ]
 

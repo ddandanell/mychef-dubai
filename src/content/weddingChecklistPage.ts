@@ -174,7 +174,7 @@ export const checklistFaqs = [
   },
   {
     q: 'How to plan wedding catering Dubai?',
-    a: 'We start from set formats and adjust them to your event rather than selling a fixed box: menu length, service style, staff and equipment are chosen for the day. Starting points begin at AED 120 per guest. Ask for the format closest to what you are planning and we shape it from there.',
+    a: 'How to plan wedding catering Dubai starts from a set format that we adjust to your event rather than selling a fixed box: menu length, service style, staff and equipment are chosen for the day. Starting points begin at AED 120 per guest. Ask for the format closest to what you are planning and we shape it from there.',
   },
 ] as const
 

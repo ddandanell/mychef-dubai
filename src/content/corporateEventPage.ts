@@ -268,62 +268,6 @@ export const faqs = [
     q: 'How far ahead should we book, and can you handle short notice?',
     a: 'Two to four weeks is comfortable for most corporate events, and earlier between November and March when demand is highest. Short-notice events are often possible depending on date, headcount and format — we will tell you honestly what is achievable rather than accept and improvise.',
   },
-  {
-    q: 'How much does corporate event catering Dubai price come to?',
-    a: 'There is no single number for corporate event catering Dubai price: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
-  },
-  {
-    q: 'How much does corporate event catering Dubai cost per person come to?',
-    a: 'There is no single number for corporate event catering Dubai cost per person: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
-  },
-  {
-    q: 'What makes myCHEF a strong choice for best corporate event catering Dubai?',
-    a: 'One team owns the whole event — menu, shopping, cooking on site, service and clear-down — so nothing falls between suppliers. The chefs are vetted and matched to the occasion, ingredients are charged at cost with no markup, and every quote is itemised.',
-  },
-  {
-    q: 'Do you offer corporate event catering packages Dubai?',
-    a: 'Yes. We start from set formats and adjust them to your event rather than selling a fixed box: menu length, service style, staff and equipment are chosen for the day. Ask for the format closest to what you are planning and we shape it from there.',
-  },
-  {
-    q: 'Do you handle corporate event catering menu Dubai?',
-    a: 'Yes. For companies we work to a fixed timing, invoice properly, cater dietary requirements per employee and keep the set-up clean and quick. One contact, one itemised quote, and the same team every time if you want continuity.',
-  },
-  {
-    q: 'Can you handle halal corporate event catering Dubai?',
-    a: 'Yes. Dietary needs are planned into the menu from the first draft, not bolted on: dishes are labelled, cross-contact is managed in the kitchen we set up on site, and the chef is briefed on every guest requirement before the day.',
-  },
-  {
-    q: 'What makes myCHEF a strong choice for top event planner offering catering in Dubai?',
-    a: 'One team owns the whole event — menu, shopping, cooking on site, service and clear-down — so nothing falls between suppliers. The chefs are vetted and matched to the occasion, ingredients are charged at cost with no markup, and every quote is itemised.',
-  },
-  {
-    q: 'How much does corporate event catering Dubai price come to?',
-    a: 'There is no single number for corporate event catering Dubai price: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
-  },
-  {
-    q: 'How much does corporate event catering Dubai cost per person come to?',
-    a: 'There is no single number for corporate event catering Dubai cost per person: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
-  },
-  {
-    q: 'What makes myCHEF a strong choice for best corporate event catering Dubai?',
-    a: 'One team owns the whole event — menu, shopping, cooking on site, service and clear-down — so nothing falls between suppliers. The chefs are vetted and matched to the occasion, ingredients are charged at cost with no markup, and every quote is itemised.',
-  },
-  {
-    q: 'Do you offer corporate event catering packages Dubai?',
-    a: 'Yes. We start from set formats and adjust them to your event rather than selling a fixed box: menu length, service style, staff and equipment are chosen for the day. Ask for the format closest to what you are planning and we shape it from there.',
-  },
-  {
-    q: 'Do you handle corporate event catering menu Dubai?',
-    a: 'Yes. For companies we work to a fixed timing, invoice properly, cater dietary requirements per employee and keep the set-up clean and quick. One contact, one itemised quote, and the same team every time if you want continuity.',
-  },
-  {
-    q: 'Can you handle halal corporate event catering Dubai?',
-    a: 'Yes. Dietary needs are planned into the menu from the first draft, not bolted on: dishes are labelled, cross-contact is managed in the kitchen we set up on site, and the chef is briefed on every guest requirement before the day.',
-  },
-  {
-    q: 'What makes myCHEF a strong choice for top event planner offering catering in Dubai?',
-    a: 'One team owns the whole event — menu, shopping, cooking on site, service and clear-down — so nothing falls between suppliers. The chefs are vetted and matched to the occasion, ingredients are charged at cost with no markup, and every quote is itemised.',
-  },
 ]
 
 export const finalCta = {

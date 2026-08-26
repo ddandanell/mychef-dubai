@@ -158,52 +158,12 @@ const faqs = [
   { q: "Will the price change if some guests cancel or extra guests join?", a: "Minor changes to guest numbers can shift the total, since pricing is driven largely by headcount, ingredients, and staffing. We ask for a confirmed guest count a set time before the event so shopping and staffing are accurate, and we handle reasonable adjustments where possible. Significant last-minute changes may affect the quote, so it is best to update us as soon as your numbers firm up." },
   { q: "How do I get an exact price for my event?", a: "Share your date, guest count, venue, and any menu or dietary preferences, and we return a tailored, itemised proposal with clear pricing and VAT shown separately. There is no obligation, and during business hours we typically reply within about 15 minutes. Start with a quick message on our [contact](/contact) page and we will turn your details into a precise quote." },
   {
-    q: 'How much does private chef cost Dubai come to?',
-    a: 'There is no single number for private chef cost Dubai: guest count, menu, service style and staffing move the figure. Our indicative starting point on this page is AED 950 – 1,300. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day. If you searched for cost of private chef Dubai, this is the same service.',
+    q: 'What goes into the private chef cost Dubai?',
+    a: 'There is no single number for private chef cost Dubai: guest count, menu, service style and staffing move the figure. Our indicative starting point on this page is AED 950 – 1,300. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day. If you searched for private chef Dubai rates, cost of private chef Dubai and personal chef services rates Dubai, this is the same service.',
   },
   {
-    q: 'How much does private chef Dubai rates come to?',
-    a: 'There is no single number for private chef Dubai rates: guest count, menu, service style and staffing move the figure. Our indicative starting point on this page is AED 950 – 1,300. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
-  },
-  {
-    q: 'Do you cater private chef for dinner party?',
-    a: 'Yes. We plan the menu around the occasion and the room — plated, buffet, canapés or live stations — bring chefs, service staff and equipment, and handle the clear-down. Share the date, guest count and venue and you get a proposal with the format we would recommend and why.',
-  },
-  {
-    q: 'How much does average cost of personal chef in Dubai come to?',
-    a: 'There is no single number for average cost of personal chef in Dubai: guest count, menu, service style and staffing move the figure. Our indicative starting point on this page is AED 950 – 1,300. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
-  },
-  {
-    q: 'How much does personal chef services rates Dubai come to?',
-    a: 'There is no single number for personal chef services rates Dubai: guest count, menu, service style and staffing move the figure. Our indicative starting point on this page is AED 950 – 1,300. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
-  },
-  {
-    q: 'Is private chef catering something you arrange?',
-    a: 'Yes. Every chef on our roster is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.',
-  },
-  {
-    q: 'How much does private chef cost Dubai come to?',
-    a: 'There is no single number for private chef cost Dubai: guest count, menu, service style and staffing move the figure. Our indicative starting point on this page is AED 950 – 1,300. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day. If you searched for cost of private chef Dubai, this is the same service.',
-  },
-  {
-    q: 'How much does private chef Dubai rates come to?',
-    a: 'There is no single number for private chef Dubai rates: guest count, menu, service style and staffing move the figure. Our indicative starting point on this page is AED 950 – 1,300. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
-  },
-  {
-    q: 'Do you cater private chef for dinner party?',
-    a: 'Yes. We plan the menu around the occasion and the room — plated, buffet, canapés or live stations — bring chefs, service staff and equipment, and handle the clear-down. Share the date, guest count and venue and you get a proposal with the format we would recommend and why.',
-  },
-  {
-    q: 'How much does average cost of personal chef in Dubai come to?',
-    a: 'There is no single number for average cost of personal chef in Dubai: guest count, menu, service style and staffing move the figure. Our indicative starting point on this page is AED 950 – 1,300. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
-  },
-  {
-    q: 'How much does personal chef services rates Dubai come to?',
-    a: 'There is no single number for personal chef services rates Dubai: guest count, menu, service style and staffing move the figure. Our indicative starting point on this page is AED 950 – 1,300. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
-  },
-  {
-    q: 'Is private chef catering something you arrange?',
-    a: 'Yes. Every chef on our roster is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.',
+    q: 'How is the private chef Dubai price per day worked out?',
+    a: 'Two things decide private chef Dubai price per day more than anything else: how many people you are feeding and how much of the work is done in front of them. A drop-off tray for twenty and a plated dinner for twenty are not the same job. Send the headcount, the date and the address and the quote comes back itemised, with 5% VAT on its own line. People also search this as part time cook for home Dubai cost, average cost of personal chef in Dubai and part time private chef catering Dubai price — same team, same booking.',
   },
 ]
 

@@ -414,54 +414,6 @@ export const parentFaqs = [
     q: 'How much does a household chef cost?',
     a: 'From AED 750 per service at Professional Chef level — a Fresh Meal (3 hours) once a week is AED 3,000 a month before VAT. Private Chef Food Prep (4h) is from AED 900, Kitchen on Autopilot (5h) from AED 1,050 and a Full-Day Private Chef (9h) from AED 1,500. Long-term rates improve with services per month; short stays of 3–29 days carry a higher daily rate. Build your figure on [Pricing & Plans](/private-chef-prices-dubai#calculator). A one-night dinner is [Luxury catering in Dubai](/catering-dubai).',
   },
-  {
-    q: 'Is personal chef Dubai something you arrange?',
-    a: 'Yes. Every chef on our roster is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.',
-  },
-  {
-    q: 'Do you provide chef at home Dubai?',
-    a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave the home as we found it. Across Palm Jumeirah, Emirates Hills, Jumeirah this is our most common booking.',
-  },
-  {
-    q: 'Is private chef service Dubai something you arrange?',
-    a: 'Yes. Every chef on our roster is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.',
-  },
-  {
-    q: 'Is book a private chef Dubai something you arrange?',
-    a: 'Yes. Every chef on our roster is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.',
-  },
-  {
-    q: 'Do you cater private chef for dinner party Dubai?',
-    a: 'Yes. We plan the menu around the occasion and the room — plated, buffet, canapés or live stations — bring chefs, service staff and equipment, and handle the clear-down. Share the date, guest count and venue and you get a proposal with the format we would recommend and why.',
-  },
-  {
-    q: 'I searched \'private chef near me Dubai\' — do you cover my area?',
-    a: 'Yes. We cook and serve across Dubai, including Palm Jumeirah, Emirates Hills, Jumeirah, and we come to you: the kitchen is your villa, apartment, office, venue or yacht. Tell us the address and we confirm the team, travel and set-up time for it. If you searched for private chef near me, this is the same service.',
-  },
-  {
-    q: 'Is personal chef Dubai something you arrange?',
-    a: 'Yes. Every chef on our roster is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.',
-  },
-  {
-    q: 'Do you provide chef at home Dubai?',
-    a: 'Yes — cooking at your own address is the core of what we do. We bring the equipment, set up a working kitchen in your space, serve, and leave the home as we found it. Across Palm Jumeirah, Emirates Hills, Jumeirah this is our most common booking.',
-  },
-  {
-    q: 'Is private chef service Dubai something you arrange?',
-    a: 'Yes. Every chef on our roster is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.',
-  },
-  {
-    q: 'Is book a private chef Dubai something you arrange?',
-    a: 'Yes. Every chef on our roster is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.',
-  },
-  {
-    q: 'Do you cater private chef for dinner party Dubai?',
-    a: 'Yes. We plan the menu around the occasion and the room — plated, buffet, canapés or live stations — bring chefs, service staff and equipment, and handle the clear-down. Share the date, guest count and venue and you get a proposal with the format we would recommend and why.',
-  },
-  {
-    q: 'I searched \'private chef near me Dubai\' — do you cover my area?',
-    a: 'Yes. We cook and serve across Dubai, including Palm Jumeirah, Emirates Hills, Jumeirah, and we come to you: the kitchen is your villa, apartment, office, venue or yacht. Tell us the address and we confirm the team, travel and set-up time for it. If you searched for private chef near me, this is the same service.',
-  },
 ] as const
 
 export const howItWorksFaqs = [

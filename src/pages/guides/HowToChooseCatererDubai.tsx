@@ -127,12 +127,12 @@ const faqs = [
     a: 'For small gatherings, two to three weeks is usually enough. For weddings, corporate events, and peak season from November to March, book six to twelve weeks ahead.',
   },
   {
-    q: 'Is caterer global Dubai something you arrange?',
-    a: 'Yes. Every chef on our roster is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.',
-  },
-  {
     q: 'When to hire a caterer?',
     a: 'Two to three weeks is comfortable for a full event and about a week for a dinner at home. December, Ramadan and New Year fill earliest — a month is safer for those. Short notice is still worth asking: if a chef is free you get a straight yes or no the same day, not a maybe. A deposit holds the date and the balance falls due after the day. If you searched for how far ahead to book a caterer Dubai, this is the same service.',
+  },
+  {
+    q: 'What to look for in a catering company?',
+    a: 'For what to look for in a catering company we work to a fixed timing, invoice properly, cater dietary requirements per employee and keep the set-up clean and quick. One contact, one itemised quote, and the same team every time if you want continuity.',
   },
 ]
 

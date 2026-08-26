@@ -195,6 +195,12 @@ export default function Catering() {
             Your written proposal is based on guest count, menu, staffing, service format, venue access, timing and equipment. Minimums and 5% VAT are shown clearly before you book. Not every event meets the starting points.
           </p>
           <p className="font-inter text-body text-gray-300 leading-relaxed mb-8 max-w-[65ch]">
+            Catering service in Dubai and full service catering Dubai are the same booking: a vetted chef, matched to your kitchen and your menu. Catering services Dubai is the same service under another name.
+          </p>
+          <p className="font-inter text-body text-gray-300 leading-relaxed mb-8 max-w-[65ch]">
+            Catering Dubai party and small catering Dubai party are planned around the room and the running order, with chefs, service staff and clear-down included.
+          </p>
+          <p className="font-inter text-body text-gray-300 leading-relaxed mb-8 max-w-[65ch]">
             Party food catering Dubai is planned around the room and the running order, with chefs, service staff and clear-down included. Private catering Dubai, bespoke catering Dubai and outdoor catering Dubai are the same service under another name.
           </p>
           <div className="flex flex-wrap gap-6">

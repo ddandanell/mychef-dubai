@@ -192,70 +192,6 @@ const faqs = [
     q: 'How far in advance should I book weekly meal prep?',
     a: 'We recommend booking at least one week in advance so the chef can plan menus and source ingredients. For recurring clients, schedules are agreed monthly.',
   },
-  {
-    q: 'Is meal prep chef Dubai something you arrange?',
-    a: 'Yes. Every chef on our roster is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.',
-  },
-  {
-    q: 'Do you offer meal prep service Dubai?',
-    a: 'Yes. It sits inside the same service as meal prep Dubai: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
-  },
-  {
-    q: 'Is private chef meal prep Dubai something you arrange?',
-    a: 'Yes. Every chef on our roster is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.',
-  },
-  {
-    q: 'Do you offer batch cooking service Dubai?',
-    a: 'Yes. It sits inside the same service as meal prep Dubai: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
-  },
-  {
-    q: 'Is personal chef meal prep Dubai something you arrange?',
-    a: 'Yes. Every chef on our roster is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.',
-  },
-  {
-    q: 'Do you offer family meal prep Dubai?',
-    a: 'Yes. It sits inside the same service as meal prep Dubai: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
-  },
-  {
-    q: 'Can you handle is weekly meal prep healthy?',
-    a: 'Yes. Dietary needs are planned into the menu from the first draft, not bolted on: dishes are labelled, cross-contact is managed in the kitchen we set up on site, and the chef is briefed on every guest requirement before the day.',
-  },
-  {
-    q: 'What makes myCHEF a strong choice for best meal prep delivery Dubai?',
-    a: 'One team owns the whole event — menu, shopping, cooking on site, service and clear-down — so nothing falls between suppliers. The chefs are vetted and matched to the occasion, ingredients are charged at cost with no markup, and every quote is itemised.',
-  },
-  {
-    q: 'Is meal prep chef Dubai something you arrange?',
-    a: 'Yes. Every chef on our roster is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.',
-  },
-  {
-    q: 'Do you offer meal prep service Dubai?',
-    a: 'Yes. It sits inside the same service as meal prep Dubai: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
-  },
-  {
-    q: 'Is private chef meal prep Dubai something you arrange?',
-    a: 'Yes. Every chef on our roster is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.',
-  },
-  {
-    q: 'Do you offer batch cooking service Dubai?',
-    a: 'Yes. It sits inside the same service as meal prep Dubai: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
-  },
-  {
-    q: 'Is personal chef meal prep Dubai something you arrange?',
-    a: 'Yes. Every chef on our roster is vetted in person, cooks a trial and is matched to what you need — a one-night dinner, a standing household plan, or a specific cuisine. You deal with one contact; the chef arrives briefed, with a plan for your kitchen and your guests.',
-  },
-  {
-    q: 'Do you offer family meal prep Dubai?',
-    a: 'Yes. It sits inside the same service as meal prep Dubai: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
-  },
-  {
-    q: 'Can you handle is weekly meal prep healthy?',
-    a: 'Yes. Dietary needs are planned into the menu from the first draft, not bolted on: dishes are labelled, cross-contact is managed in the kitchen we set up on site, and the chef is briefed on every guest requirement before the day.',
-  },
-  {
-    q: 'What makes myCHEF a strong choice for best meal prep delivery Dubai?',
-    a: 'One team owns the whole event — menu, shopping, cooking on site, service and clear-down — so nothing falls between suppliers. The chefs are vetted and matched to the occasion, ingredients are charged at cost with no markup, and every quote is itemised.',
-  },
 ]
 
 const relatedServices = [
@@ -416,6 +352,12 @@ export default function WeeklyMealPrep() {
           <div className="wmp-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               Tell us about your household — your size, dietary goals, preferred cuisines, and any allergies — and we will reply within 15 minutes during business hours, then bring you a vetted private chef. Our weekly meal prep service puts that chef in your kitchen once or twice a week to prepare fresh, portioned meals designed around your tastes, schedule, and health goals, so you can reclaim your evenings and skip the takeout cycle.
+            </p>
+            <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+              If you are weighing up best meal prep delivery Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. Is weekly meal prep healthy is planned into the first draft of the menu rather than bolted on at the end. Meal prep service Dubai and batch cooking service Dubai are the same booking: a vetted chef, matched to your kitchen and your menu. Family meal prep Dubai is the same service under another name.
+            </p>
+            <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+              Meal prep chef Dubai, private chef meal prep Dubai and personal chef meal prep Dubai are the same booking: a vetted chef, matched to your kitchen and your menu.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               Weekly meal plan Dubai starts from a standing weekly format and get shaped around the household rather than sold as a fixed box. The fitness meal prep delivery menu is planned around what your household actually eats, with a draft week you change before anything is confirmed. Kids meal prep service is the same booking: a vetted chef, matched to your kitchen and your menu. Fitness meal prep services is the same service under another name.

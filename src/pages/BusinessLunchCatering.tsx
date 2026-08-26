@@ -158,70 +158,6 @@ const faqs = [
     q: 'How much notice do you need for a business lunch?',
     a: 'For a standard business lunch, a few working days’ notice is usually sufficient. For larger client events or bespoke executive menus, we recommend a little more lead time. If you cater regularly, a standing arrangement makes last-minute bookings far simpler.',
   },
-  {
-    q: 'How much does business lunch catering Dubai price come to?',
-    a: 'There is no single number for business lunch catering Dubai price: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
-  },
-  {
-    q: 'How much does business lunch catering Dubai cost per person come to?',
-    a: 'There is no single number for business lunch catering Dubai cost per person: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
-  },
-  {
-    q: 'Do you handle business lunch delivery Dubai?',
-    a: 'Yes. For companies we work to a fixed timing, invoice properly, cater dietary requirements per employee and keep the set-up clean and quick. One contact, one itemised quote, and the same team every time if you want continuity.',
-  },
-  {
-    q: 'Do you offer business lunch catering packages Dubai?',
-    a: 'Yes. We start from set formats and adjust them to your event rather than selling a fixed box: menu length, service style, staff and equipment are chosen for the day. Ask for the format closest to what you are planning and we shape it from there.',
-  },
-  {
-    q: 'Do you handle business lunch catering menu Dubai?',
-    a: 'Yes. For companies we work to a fixed timing, invoice properly, cater dietary requirements per employee and keep the set-up clean and quick. One contact, one itemised quote, and the same team every time if you want continuity.',
-  },
-  {
-    q: 'Do you offer working lunch catering Dubai?',
-    a: 'Yes. It sits inside the same service as business lunch catering Dubai: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
-  },
-  {
-    q: 'Do you offer business lunch offers in Dubai?',
-    a: 'Yes. We start from set formats and adjust them to your event rather than selling a fixed box: menu length, service style, staff and equipment are chosen for the day. Ask for the format closest to what you are planning and we shape it from there.',
-  },
-  {
-    q: 'Do you handle office lunch delivery Dubai?',
-    a: 'Yes. For companies we work to a fixed timing, invoice properly, cater dietary requirements per employee and keep the set-up clean and quick. One contact, one itemised quote, and the same team every time if you want continuity.',
-  },
-  {
-    q: 'How much does business lunch catering Dubai price come to?',
-    a: 'There is no single number for business lunch catering Dubai price: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
-  },
-  {
-    q: 'How much does business lunch catering Dubai cost per person come to?',
-    a: 'There is no single number for business lunch catering Dubai cost per person: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
-  },
-  {
-    q: 'Do you handle business lunch delivery Dubai?',
-    a: 'Yes. For companies we work to a fixed timing, invoice properly, cater dietary requirements per employee and keep the set-up clean and quick. One contact, one itemised quote, and the same team every time if you want continuity.',
-  },
-  {
-    q: 'Do you offer business lunch catering packages Dubai?',
-    a: 'Yes. We start from set formats and adjust them to your event rather than selling a fixed box: menu length, service style, staff and equipment are chosen for the day. Ask for the format closest to what you are planning and we shape it from there.',
-  },
-  {
-    q: 'Do you handle business lunch catering menu Dubai?',
-    a: 'Yes. For companies we work to a fixed timing, invoice properly, cater dietary requirements per employee and keep the set-up clean and quick. One contact, one itemised quote, and the same team every time if you want continuity.',
-  },
-  {
-    q: 'Do you offer working lunch catering Dubai?',
-    a: 'Yes. It sits inside the same service as business lunch catering Dubai: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
-  },
-  {
-    q: 'Do you offer business lunch offers in Dubai?',
-    a: 'Yes. We start from set formats and adjust them to your event rather than selling a fixed box: menu length, service style, staff and equipment are chosen for the day. Ask for the format closest to what you are planning and we shape it from there.',
-  },
-  {
-    q: 'Do you handle office lunch delivery Dubai?',
-    a: 'Yes. For companies we work to a fixed timing, invoice properly, cater dietary requirements per employee and keep the set-up clean and quick. One contact, one itemised quote, and the same team every time if you want continuity.',
-  },
 ]
 
 const relatedServices = [
@@ -399,6 +335,9 @@ export default function BusinessLunchCatering() {
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             A business lunch is rarely just about food. It is a chance to keep a meeting moving, to host a client well, or to give a hard-working team the break they need without losing the thread of the day. Done badly, catering interrupts the room. Done well, it disappears into the background — arriving on time, presented properly, and cleared away just as quietly. That is the standard we hold every business lunch to at myCHEF Dubai.
+          </p>
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+            Business lunch catering Dubai price and Business lunch catering Dubai cost per person depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Business lunch offers in Dubai and Business lunch catering packages Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. The Business lunch catering menu Dubai is drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Office lunch delivery Dubai and Business lunch delivery Dubai are run to a fixed timing, with one itemised invoice and dietary requirements tracked per person. Working lunch catering Dubai is the same service under another name.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             If you are weighing up best Business lunch Dubai with a view, the things worth checking are the named chef, the itemised quote and who buys the ingredients. Business lunch buffet Dubai, Business lunch options Dubai and Business lunch Downtown Dubai are run to a fixed timing, with one itemised invoice and dietary requirements tracked per person.

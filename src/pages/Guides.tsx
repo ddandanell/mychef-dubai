@@ -155,11 +155,11 @@ const faqs = [
   },
   {
     q: 'How to plan catering for an event Dubai?',
-    a: 'We start from set formats and adjust them to your event rather than selling a fixed box: menu length, service style, staff and equipment are chosen for the day. Ask for the format closest to what you are planning and we shape it from there.',
+    a: 'How to plan catering for an event Dubai starts from a set format that we adjust to your event rather than selling a fixed box: menu length, service style, staff and equipment are chosen for the day. Ask for the format closest to what you are planning and we shape it from there.',
   },
   {
-    q: 'Do you do catering event checklist?',
-    a: 'Yes. We plan the menu around the occasion and the room — plated, buffet, canapés or live stations — bring chefs, service staff and equipment, and handle the clear-down. Share the date, guest count and venue and you get a proposal with the format we would recommend and why. If you searched for event catering planning Dubai and event planning food checklist Dubai, this is the same service.',
+    q: 'Is catering event checklist something you take on?',
+    a: 'Yes. For catering event checklist we plan the menu around the occasion and the room — plated, buffet, canapés or live stations — bring chefs, service staff and equipment, and handle the clear-down. Share the date, guest count and venue and you get a proposal with the format we would recommend and why. Event catering planning Dubai and event planning food checklist Dubai land on this page too; it is one service.',
   },
 ]
 

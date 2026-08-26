@@ -180,68 +180,8 @@ const faqs = [
   { q: "Can canapés be paired with a cocktail or mocktail bar?", a: "Yes. We design paired bite-and-drink menus with bartender service so each canapé complements the cocktail or mocktail it arrives with, including fully non-alcoholic bars for family and corporate events. It turns a reception into a coordinated experience rather than food and drinks running separately. Explore our [cocktail party catering in Dubai](/cocktail-party-catering-dubai) for the full setup." },
   { q: "Should I choose canapés or a full seated dinner for my event?", a: "Choose canapés when you want guests mingling, moving, and networking, such as receptions, launches, engagement toasts, and welcome hours, and choose a seated menu when the food is the main event. Many hosts start with passed canapés and drinks, then transition to a meal, and we can plan both under one booking. Tell us the mood you want and we will recommend the right format." },
   {
-    q: 'How much does canape catering Dubai price come to?',
-    a: 'There is no single number for canape catering Dubai price: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
-  },
-  {
-    q: 'How much does canape catering price per person Dubai come to?',
-    a: 'There is no single number for canape catering price per person Dubai: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
-  },
-  {
-    q: 'What makes myCHEF a strong choice for best canape catering Dubai?',
-    a: 'One team owns the whole event — menu, shopping, cooking on site, service and clear-down — so nothing falls between suppliers. The chefs are vetted and matched to the occasion, ingredients are charged at cost with no markup, and every quote is itemised.',
-  },
-  {
-    q: 'Do you offer canape catering packages Dubai?',
-    a: 'Yes. We start from set formats and adjust them to your event rather than selling a fixed box: menu length, service style, staff and equipment are chosen for the day. Ask for the format closest to what you are planning and we shape it from there.',
-  },
-  {
-    q: 'Do you offer canape catering menu Dubai?',
-    a: 'Yes. It sits inside the same service as canape catering Dubai: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
-  },
-  {
-    q: 'Can you handle halal canape catering Dubai?',
-    a: 'Yes. Dietary needs are planned into the menu from the first draft, not bolted on: dishes are labelled, cross-contact is managed in the kitchen we set up on site, and the chef is briefed on every guest requirement before the day.',
-  },
-  {
-    q: 'How much does how many canapes per person come to?',
+    q: 'How many canapes per person?',
     a: 'There is no single number for how many canapes per person: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
-  },
-  {
-    q: 'Do you offer finger food catering Dubai?',
-    a: 'Yes. It sits inside the same service as canape catering Dubai: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
-  },
-  {
-    q: 'How much does canape catering Dubai price come to?',
-    a: 'There is no single number for canape catering Dubai price: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
-  },
-  {
-    q: 'How much does canape catering price per person Dubai come to?',
-    a: 'There is no single number for canape catering price per person Dubai: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
-  },
-  {
-    q: 'What makes myCHEF a strong choice for best canape catering Dubai?',
-    a: 'One team owns the whole event — menu, shopping, cooking on site, service and clear-down — so nothing falls between suppliers. The chefs are vetted and matched to the occasion, ingredients are charged at cost with no markup, and every quote is itemised.',
-  },
-  {
-    q: 'Do you offer canape catering packages Dubai?',
-    a: 'Yes. We start from set formats and adjust them to your event rather than selling a fixed box: menu length, service style, staff and equipment are chosen for the day. Ask for the format closest to what you are planning and we shape it from there.',
-  },
-  {
-    q: 'Do you offer canape catering menu Dubai?',
-    a: 'Yes. It sits inside the same service as canape catering Dubai: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
-  },
-  {
-    q: 'Can you handle halal canape catering Dubai?',
-    a: 'Yes. Dietary needs are planned into the menu from the first draft, not bolted on: dishes are labelled, cross-contact is managed in the kitchen we set up on site, and the chef is briefed on every guest requirement before the day.',
-  },
-  {
-    q: 'How much does how many canapes per person come to?',
-    a: 'There is no single number for how many canapes per person: guest count, menu, service style and staffing move the figure. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day.',
-  },
-  {
-    q: 'Do you offer finger food catering Dubai?',
-    a: 'Yes. It sits inside the same service as canape catering Dubai: we design the menu around your event, bring the chef and team to your address, and quote it itemised so you can see what each part costs. Tell us the date and headcount and we recommend the format.',
   },
 ]
 
@@ -419,6 +359,9 @@ export default function CanapeCatering() {
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             A great canapé does a lot of work in a single bite. It sets the tone of a reception, keeps guests mingling, and looks as considered as it tastes. At myCHEF Dubai, we treat canapé catering as precision work — each piece designed for balance, elegance, and the way it photographs on the tray.
+          </p>
+          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
+            Canape catering Dubai price and canape catering price per person Dubai depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Canape catering packages Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. If you are weighing up best canape catering Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. The canape catering menu Dubai is drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Halal canape catering Dubai is planned into the first draft of the menu rather than bolted on at the end. Finger food catering Dubai is the same service under another name.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Finger food catering price per person Dubai depends on the same three things: the guest count, the menu, and how much of the work happens in front of people. Canapes catering near me is covered across the whole city, because the chef travels to your address rather than the other way round. Corporate canape catering Dubai is run to a fixed timing, with one itemised invoice and dietary requirements tracked per person. Birthday canape catering Dubai is planned around the room and the running order, with chefs, service staff and clear-down included.

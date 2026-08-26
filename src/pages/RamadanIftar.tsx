@@ -155,8 +155,8 @@ const faqs = [
   { q: "Do you also cater Suhoor and Eid meals, not just Iftar?", a: "Yes, alongside Iftar we cater late-night Suhoor gatherings before Fajr and festive Eid celebration menus. Suhoor menus focus on light, energising dishes and coffee, while [Eid catering](/eid-catering-dubai) continues the celebration with grazing tables and family feasts. Many clients book us across the whole holy month and into Eid." },
   { q: "Why choose a private chef Iftar instead of a restaurant or hotel buffet?", a: "A private chef Iftar brings freshly cooked food, a fully customised menu, and hosted service to your own space, so your family or team breaks the fast in comfort and privacy. Unlike a fixed hotel buffet, we design the menu around your preferences, guest count, and dietary needs. Explore our [private chef service](/private-chef-dubai) to see how a hosted Iftar at home compares." },
   {
-    q: 'Is iftar buffet catering Dubai something you take on?',
-    a: 'Yes. We plan the menu around the occasion and the room — plated, buffet, canapés or live stations — bring chefs, service staff and equipment, and handle the clear-down. Share the date, guest count and venue and you get a proposal with the format we would recommend and why. What to eat for iftar land on this page too; it is one service.',
+    q: 'What to eat for iftar?',
+    a: 'For what to eat for iftar we plan the menu around the occasion and the room — plated, buffet, canapés or live stations — bring chefs, service staff and equipment, and handle the clear-down. Share the date, guest count and venue and you get a proposal with the format we would recommend and why.',
   },
 ]
 
@@ -340,6 +340,9 @@ export default function RamadanIftar() {
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 iftar-hero-sub">
             Traditional and contemporary Iftar menus prepared in your home, villa, office, or event space. From sunset dates to late-night Suhoor, we honour the spirit of Ramadan with exceptional food and attentive service.
+          </p>
+          <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 iftar-hero-sub">
+            Iftar buffet catering Dubai is planned around the room and the running order, with chefs, service staff and clear-down included.
           </p>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 iftar-hero-sub">
             Iftar catering Dubai price and iftar catering cost per person Dubai depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Iftar buffet Dubai near me is covered across the whole city, because the chef travels to your address rather than the other way round. Iftar catering packages Dubai, best iftar buffet Dubai offers and best iftar buffet Dubai 2026 packages start from a set format and get adjusted to your date rather than sold as a fixed box. If you are weighing up best iftar catering Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. The iftar catering menu Dubai is drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Iftar catering at home Dubai is run at the address you give us: we bring the equipment, cook on site and leave the space as we found it.
