@@ -22,6 +22,7 @@ PAGES = [
     ("gaps.html", "Gaps", "what competitors cover and we do not"),
     ("architecture.html", "Architecture", "the sitemap as an authority map"),
     ("ai-visibility.html", "AI answers", "who Claude names for buyer prompts"),
+    ("actions.html", "Actions", "every change the agent made, newest first"),
 ]
 
 CSS = """

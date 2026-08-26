@@ -539,7 +539,11 @@ def plan(url):
         s2, placed = place_in_package(s, missing, pk, facts, seed)
         if not placed: s2, placed = place_in_body(s, missing, pk, facts, seed)
         if placed:
-            set_text(f, s2); changes.append(("body", f"+{len(body_sentences(missing, pk, facts, seed)[0])} sentences ({f.name})", "", ", ".join(placed)))
+            sents_written = body_sentences(missing, pk, facts, seed)[0]
+            set_text(f, s2)
+            # The log is read on the Actions page — record the words, not just which
+            # keywords they carried, or a bad sentence is invisible until someone opens the page.
+            changes.append(("body", f"+{len(sents_written)} sentences ({f.name}) · {', '.join(placed)}", "", " ".join(sents_written)))
             missing = [k for k in missing if k not in placed]
     if missing:
         s = text_of(f); name = None
@@ -558,15 +562,15 @@ def plan(url):
             # an open item, so a page at or over the cap gets no new ones — the sentences carry it.
             have = len(re.findall(r"(?m)^\s*q:\s*['\"`]", ts[:end]))
             room = max(0, FAQ_CAP - have)
-            items, placed = [], []
+            items, placed, asked = [], [], []
             seen_cls = collections.Counter()
             for i, grp in enumerate(group_variants(missing)[:room]):
                 c = classify(grp[0]); q, a = faq_for(grp, pk, facts, seed + i, seen_cls[c]); seen_cls[c] += 1
                 if BANNED.search(a) or BANNED.search(q): continue
-                items.append("  {\n    q: '" + q.replace("'", "\\'") + "',\n    a: '" + a.replace("'", "\\'") + "',\n  },"); placed += grp
+                items.append("  {\n    q: '" + q.replace("'", "\\'") + "',\n    a: '" + a.replace("'", "\\'") + "',\n  },"); placed += grp; asked.append(q)
             if items:
                 ts2 = ts[:end].rstrip() + "\n" + "\n".join(items) + "\n" + ts[end:]
-                set_text(target, ts2); changes.append(("faq", f"+{len(items)} ({target.name}:{name}, page had {have})", "", ", ".join(placed)))
+                set_text(target, ts2); changes.append(("faq", f"+{len(items)} ({target.name}:{name}, page had {have}) · {', '.join(placed)}", "", " · ".join(asked)))
                 missing = [k for k in missing if k not in placed]
             elif not room: changes.append(("faq", f"skipped — page already carries {have} FAQs (cap {FAQ_CAP})", "", ", ".join(missing)))
         else: changes.append(("faq", "no FAQ array found", "", ", ".join(missing)))
