@@ -116,7 +116,16 @@ if LIVE:
         def redirect_request(self, *a, **k):
             return None
 
-    opener = urllib.request.build_opener(NoRedirect)
+    # macOS system python ships no CA bundle, so every live check came back as an ERROR rather
+    # than a pass or a fail — which reads like the site is broken when it is only urllib.
+    import ssl
+    try:
+        import certifi
+        ctx = ssl.create_default_context(cafile=certifi.where())
+    except ImportError:
+        ctx = ssl.create_default_context()
+
+    opener = urllib.request.build_opener(NoRedirect, urllib.request.HTTPSHandler(context=ctx))
     for src, dst in sources.items():
         try:
             req = urllib.request.Request(SITE + src, method="HEAD", headers={"User-Agent": "mychef-verify"})
@@ -131,7 +140,7 @@ if LIVE:
         except Exception as ex:  # noqa: BLE001
             fail(f"LIVE_ERROR {src}: {ex}")
         try:
-            with urllib.request.urlopen(SITE + dst, timeout=20) as r:
+            with urllib.request.urlopen(SITE + dst, timeout=20, context=ctx) as r:
                 body = r.read().decode("utf-8", errors="ignore")
                 canon = re.search(r'<link rel="canonical" href="([^"]+)"', body)
                 if not canon:
