@@ -30,6 +30,7 @@ JSON_FILES = [
     "ai-visibility.json",
     "proposals.json",
     "control.json",
+    "experiments.json",
 ]
 CSV_FILES = ["report.csv", "keywords.csv"]
 

@@ -47,6 +47,8 @@ gate python3 scripts/verify-api-functions.py
 gate python3 scripts/audit-onpage.py
 rm -f "$GATE_LOG"
 echo "== archive"; python3 docs/seo/keyword-map/store-keywords.py --mode "$MODE" || echo "  archive skipped (database unreachable) — the run still stands locally"
+echo "== experiments"; python3 docs/seo/keyword-map/close-experiments.py || true
+python3 docs/seo/keyword-map/build-experiments.py >/dev/null || true
 echo "== control"; python3 docs/seo/keyword-map/build-control.py || true
 # The heartbeat is the only proof this ran. GATES is set by the gate block above.
 python3 docs/seo/keyword-map/heartbeat.py --kind full --mode "$MODE" --phase idle --gates "${GATES:-pass}" || true
