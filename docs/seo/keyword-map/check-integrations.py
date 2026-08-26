@@ -237,14 +237,26 @@ record("Claude AI visibility", "AI", "connected" if ai_vis.exists() else "no dat
        "16 buyer prompts, answers stored" if ai_vis.exists() else "never run",
        datetime.datetime.fromtimestamp(ai_vis.stat().st_mtime) if ai_vis.exists() else None)
 
-providers = []
-if os.environ.get("AI_GATEWAY_API_KEY"): providers.append("Vercel AI Gateway")
-if os.environ.get("ANTHROPIC_API_KEY"): providers.append("Anthropic direct")
-if d4s.get("DATAFORSEO_LOGIN"): providers.append("Claude via DataForSEO")
-record("SEO analyst (read-only)", "AI", "connected" if providers else "not connected",
-       (" · ".join(providers) + " — answers questions about the data, cannot change anything") if providers
-       else "no model provider configured", None,
-       None if providers else "set AI_GATEWAY_API_KEY or ANTHROPIC_API_KEY on the Vercel project")
+# The analyst answers from the live site, so ask the deployed endpoint rather than guessing
+# from local environment variables — a key set on Vercel is invisible here.
+try:
+    probe = subprocess.run(["curl", "-s", "-m", "120", "-o", "-", "-w", "\n%{http_code}", "-u", "seo:" + (os.environ.get("SEO_PASSWORD") or ""),
+                            "-X", "POST", "https://www.mychef.ae/api/ask", "-H", "Content-Type: application/json",
+                            "--data", '{"question":"Reply with the word ready."}'], capture_output=True, text=True).stdout
+    code = probe.strip().splitlines()[-1]
+    payload = json.loads(probe.strip().rsplit("\n", 1)[0] or "{}") if probe.strip().count("\n") else {}
+    if code == "200":
+        record("SEO analyst (read-only)", "AI", "connected",
+               f"answering via {payload.get('provider', 'a model provider')} — reads the archive, cannot change anything")
+    elif code == "401":
+        record("SEO analyst (read-only)", "AI", "connected",
+               "deployed and password-gated (no SEO_PASSWORD in this shell to test the answer path)")
+    else:
+        record("SEO analyst (read-only)", "AI", "not connected",
+               "endpoint deployed, no model provider answering", None,
+               (payload.get("error") or f"HTTP {code}")[:180])
+except Exception as ex:  # noqa: BLE001
+    record("SEO analyst (read-only)", "AI", "error", "could not reach /api/ask", None, str(ex)[:160])
 
 # ---- 9. the loop itself -----------------------------------------------------------------------------
 kwf = HERE / "keywords.json"

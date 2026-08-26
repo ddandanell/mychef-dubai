@@ -149,27 +149,12 @@ async function askAnthropic(key: string, question: string, data: string): Promis
   return j.content?.map((c) => c.text || '').join('') || ''
 }
 
-async function askViaDataForSEO(login: string, password: string, question: string, data: string): Promise<string> {
-  // The same Claude endpoint the AI-visibility check already uses, with web search off — no new
-  // credential needed, which is why the analyst works before any AI key is configured.
-  const auth = Buffer.from(`${login}:${password}`).toString('base64')
-  const r = await fetch('https://api.dataforseo.com/v3/ai_optimization/claude/llm_responses/live', {
-    method: 'POST',
-    headers: { Authorization: `Basic ${auth}`, 'Content-Type': 'application/json' },
-    body: JSON.stringify([{
-      user_prompt: `${question}\n\nSNAPSHOT:\n${data}`,
-      model_name: MODEL, web_search: false, max_output_tokens: 1500, temperature: 0.2, system_message: SYSTEM,
-    }]),
-  })
-  if (!r.ok) throw new Error(`DataForSEO ${r.status}`)
-  const j = (await r.json()) as {
-    tasks?: { status_message?: string; result?: { items?: { sections?: { text?: string }[] }[] }[] }[]
-  }
-  const task = j.tasks?.[0]
-  const items = task?.result?.[0]?.items || []
-  const text = items.flatMap((i) => (i.sections || []).map((s) => s.text || '')).join('\n').trim()
-  if (!text) throw new Error(task?.status_message || 'no answer returned')
-  return text
+/**
+ * Vercel AI Gateway, authenticated with the function's own OIDC token when no gateway key is
+ * set. Costs nothing to configure — the token is minted per invocation by the platform.
+ */
+async function askGatewayOIDC(token: string, question: string, data: string): Promise<string> {
+  return askAIGateway(token, question, data)
 }
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
@@ -199,15 +184,17 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   const json = JSON.stringify(data)
   const brief = digest(data).slice(0, 14000)   // the relay rejects very long prompts
   const gateway = process.env.AI_GATEWAY_API_KEY
+  const oidc = process.env.VERCEL_OIDC_TOKEN
   const anthropic = process.env.ANTHROPIC_API_KEY
-  const login = process.env.DATAFORSEO_LOGIN
-  const password = process.env.DATAFORSEO_PASSWORD
 
+  // Deliberately not in this chain: DataForSEO's Claude endpoint. It caps user_prompt at about
+  // 500 characters, which is a brand-visibility probe, not a chat API — the data digest alone is
+  // 14 KB. It stays where it belongs, in harvest-llm.py.
   const attempts: string[] = []
   for (const [name, run] of [
-    ['Vercel AI Gateway', gateway ? () => askAIGateway(gateway, question, json) : null],
+    ['Vercel AI Gateway', gateway ? () => askAIGateway(gateway, question, brief) : null],
+    ['Vercel AI Gateway (OIDC)', oidc ? () => askGatewayOIDC(oidc, question, brief) : null],
     ['Anthropic', anthropic ? () => askAnthropic(anthropic, question, json) : null],
-    ['Claude via DataForSEO', login && password ? () => askViaDataForSEO(login, password, question, brief) : null],
   ] as [string, (() => Promise<string>) | null][]) {
     if (!run) continue
     try {
@@ -220,6 +207,6 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   return res.status(502).json({
     error: attempts.length
       ? `No model answered. ${attempts.join(' · ')}`
-      : 'No model provider is configured. Set AI_GATEWAY_API_KEY or ANTHROPIC_API_KEY on the project.',
+      : 'No model provider is configured. Create a key at Vercel → AI Gateway and set AI_GATEWAY_API_KEY on this project, or set ANTHROPIC_API_KEY.',
   })
 }
