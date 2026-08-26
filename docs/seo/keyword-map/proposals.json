@@ -1,0 +1,292 @@
+{
+ "generated": "2026-08-26 20:38",
+ "rule": "impact = demand × gap × convertibility / risk. Top 15 shown. Agent does not apply.",
+ "proposals": [
+  {
+   "id": "2026-08-26-002",
+   "class": "fill_subkeyword",
+   "url": "/catering-dubai",
+   "keyword": "home catering dubai",
+   "reason": "assigned to /catering-dubai but the live copy does not say it",
+   "evidence": {
+    "impr": 61,
+    "sub_volume": 140,
+    "conv_28d": 0
+   },
+   "action": "insert approved sentence template on the owner page",
+   "risk": "low",
+   "autonomy": "L2",
+   "impact": 48.0,
+   "demand": "live",
+   "status": "open"
+  },
+  {
+   "id": "2026-08-26-003",
+   "class": "fill_subkeyword",
+   "url": "/luxury-dining-experiences",
+   "keyword": "unique dining experiences dubai",
+   "reason": "assigned to /luxury-dining-experiences but the live copy does not say it",
+   "evidence": {
+    "impr": 0,
+    "sub_volume": 70,
+    "conv_28d": 0
+   },
+   "action": "insert approved sentence template on the owner page",
+   "risk": "low",
+   "autonomy": "L2",
+   "impact": 11.8,
+   "demand": "live",
+   "status": "open"
+  },
+  {
+   "id": "2026-08-26-043",
+   "class": "add_link",
+   "url": "/festive-catering-dubai",
+   "keyword": "festive catering dubai",
+   "reason": "internal-link status Maximum opportunity",
+   "evidence": {
+    "status": "Maximum opportunity",
+    "in_contextual": 3,
+    "conv_28d": 0
+   },
+   "action": "add a contextual link from a same-silo or hub page",
+   "risk": "low",
+   "autonomy": "L2",
+   "impact": 8.58,
+   "demand": "live",
+   "status": "open"
+  },
+  {
+   "id": "2026-08-26-001",
+   "class": "retarget",
+   "url": "/catering-dubai",
+   "keyword": "catering dubai",
+   "reason": "GSC ranks /catering-packages-dubai for this phrase, not the contract owner",
+   "evidence": {
+    "impr": 61,
+    "pos": 64.1,
+    "clicks": 0,
+    "gsc_ranking_url": "/catering-packages-dubai",
+    "conv_28d": 0
+   },
+   "action": "move the keyword to the URL Google chose, or 301 if same intent",
+   "risk": "high",
+   "autonomy": "L3",
+   "impact": 8.0,
+   "demand": "live",
+   "status": "open"
+  },
+  {
+   "id": "2026-08-26-024",
+   "class": "fill_subkeyword",
+   "url": "/wellness-meal-prep-dubai",
+   "keyword": "healthy meal plan dubai",
+   "reason": "assigned to /wellness-meal-prep-dubai but the live copy does not say it",
+   "evidence": {
+    "impr": 0,
+    "sub_volume": 390,
+    "conv_28d": 0
+   },
+   "action": "insert approved sentence template on the owner page",
+   "risk": "low",
+   "autonomy": "L2",
+   "impact": 7.8,
+   "demand": "live",
+   "status": "open"
+  },
+  {
+   "id": "2026-08-26-006",
+   "class": "fill_subkeyword",
+   "url": "/private-chef-dubai",
+   "keyword": "personal chef dubai",
+   "reason": "assigned to /private-chef-dubai but the live copy does not say it",
+   "evidence": {
+    "impr": 356,
+    "sub_volume": 70,
+    "conv_28d": 0
+   },
+   "action": "insert approved sentence template on the owner page",
+   "risk": "low",
+   "autonomy": "L2",
+   "impact": 7.12,
+   "demand": "live",
+   "status": "open"
+  },
+  {
+   "id": "2026-08-26-022",
+   "class": "fill_subkeyword",
+   "url": "/wedding-catering-dubai",
+   "keyword": "when to book caterer for wedding",
+   "reason": "assigned to /wedding-catering-dubai but the live copy does not say it",
+   "evidence": {
+    "impr": 182,
+    "sub_volume": 10,
+    "conv_28d": 0
+   },
+   "action": "insert approved sentence template on the owner page",
+   "risk": "low",
+   "autonomy": "L2",
+   "impact": 3.64,
+   "demand": "live",
+   "status": "open"
+  },
+  {
+   "id": "2026-08-26-007",
+   "class": "experiment",
+   "url": "/private-chef-dubai",
+   "keyword": "private chef dubai",
+   "reason": "356 GSC impressions — enough to test a title template",
+   "evidence": {
+    "impr": 356,
+    "pos": 28.8,
+    "clicks": 3,
+    "ctr": 0.0084
+   },
+   "action": "title test: primary at front vs area + price cue. Do not change H1 in the same test.",
+   "risk": "medium",
+   "autonomy": "L4",
+   "impact": 2.3733,
+   "demand": "live",
+   "status": "open"
+  },
+  {
+   "id": "2026-08-26-039",
+   "class": "fill_subkeyword",
+   "url": "/partners/yacht-charters-dubai",
+   "keyword": "dinner on a yacht",
+   "reason": "assigned to /partners/yacht-charters-dubai but the live copy does not say it",
+   "evidence": {
+    "impr": 0,
+    "sub_volume": 110,
+    "conv_28d": 0
+   },
+   "action": "insert approved sentence template on the owner page",
+   "risk": "low",
+   "autonomy": "L2",
+   "impact": 2.2,
+   "demand": "live",
+   "status": "open"
+  },
+  {
+   "id": "2026-08-26-032",
+   "class": "fill_subkeyword",
+   "url": "/chefs/layla-middle-eastern-chef",
+   "keyword": "chef middle east dubai",
+   "reason": "assigned to /chefs/layla-middle-eastern-chef but the live copy does not say it",
+   "evidence": {
+    "impr": 0,
+    "sub_volume": 70,
+    "conv_28d": 0
+   },
+   "action": "insert approved sentence template on the owner page",
+   "risk": "low",
+   "autonomy": "L2",
+   "impact": 1.4,
+   "demand": "live",
+   "status": "open"
+  },
+  {
+   "id": "2026-08-26-023",
+   "class": "experiment",
+   "url": "/wedding-catering-dubai",
+   "keyword": "wedding catering dubai",
+   "reason": "182 GSC impressions — enough to test a title template",
+   "evidence": {
+    "impr": 182,
+    "pos": 42.1,
+    "clicks": 0,
+    "ctr": 0
+   },
+   "action": "title test: primary at front vs area + price cue. Do not change H1 in the same test.",
+   "risk": "medium",
+   "autonomy": "L4",
+   "impact": 1.2133,
+   "demand": "live",
+   "status": "open"
+  },
+  {
+   "id": "2026-08-26-005",
+   "class": "retarget",
+   "url": "/private-chef-dubai",
+   "keyword": "private chef dubai",
+   "reason": "GSC ranks / for this phrase, not the contract owner",
+   "evidence": {
+    "impr": 356,
+    "pos": 28.8,
+    "clicks": 3,
+    "gsc_ranking_url": "/",
+    "conv_28d": 0
+   },
+   "action": "move the keyword to the URL Google chose, or 301 if same intent",
+   "risk": "high",
+   "autonomy": "L3",
+   "impact": 1.1867,
+   "demand": "live",
+   "status": "open"
+  },
+  {
+   "id": "2026-08-26-009",
+   "class": "experiment",
+   "url": "/guide/private-dining-dubai",
+   "keyword": "private dining dubai",
+   "reason": "166 GSC impressions — enough to test a title template",
+   "evidence": {
+    "impr": 166,
+    "pos": 44.6,
+    "clicks": 0,
+    "ctr": 0
+   },
+   "action": "title test: primary at front vs area + price cue. Do not change H1 in the same test.",
+   "risk": "medium",
+   "autonomy": "L4",
+   "impact": 1.1333,
+   "demand": "live",
+   "status": "open"
+  },
+  {
+   "id": "2026-08-26-004",
+   "class": "retarget",
+   "url": "/our-chefs",
+   "keyword": "private chefs dubai",
+   "reason": "GSC ranks / for this phrase, not the contract owner",
+   "evidence": {
+    "impr": 33,
+    "pos": 40.8,
+    "clicks": 0,
+    "gsc_ranking_url": "/",
+    "conv_28d": 0
+   },
+   "action": "move the keyword to the URL Google chose, or 301 if same intent",
+   "risk": "high",
+   "autonomy": "L3",
+   "impact": 1.0667,
+   "demand": "live",
+   "status": "open"
+  },
+  {
+   "id": "2026-08-26-015",
+   "class": "fill_subkeyword",
+   "url": "/birthday-catering-dubai",
+   "keyword": "birthday party catering dubai",
+   "reason": "assigned to /birthday-catering-dubai but the live copy does not say it",
+   "evidence": {
+    "impr": 25,
+    "sub_volume": 40,
+    "conv_28d": 0
+   },
+   "action": "insert approved sentence template on the owner page",
+   "risk": "low",
+   "autonomy": "L2",
+   "impact": 1.0,
+   "demand": "live",
+   "status": "open"
+  }
+ ],
+ "deferred": 36,
+ "deferred_classes": {
+  "fill_subkeyword": 17,
+  "experiment": 3,
+  "retarget": 8,
+  "retire": 8
+ }
+}

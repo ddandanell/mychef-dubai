@@ -77,6 +77,54 @@ def main():
     cur.execute("""SELECT coalesce(country, '??'), coalesce(device, 'unknown'), count(*) FROM web_sessions
                    WHERE started_at >= %s GROUP BY 1, 2 ORDER BY 3 DESC LIMIT 40""", (since,))
     audience = [{"country": c, "device": d, "sessions": n} for c, d, n in cur.fetchall()]
+
+    rolled = 0
+    try:
+        sys.path.insert(0, str(HERE))
+        from rollup_daily import ensure, upsert_firstparty, set_primaries
+        ensure(cur)
+        cur.execute("""
+            WITH ev AS (SELECT * FROM web_events WHERE at >= %s),
+                 per_session AS (
+                   SELECT session_id, url, (at AT TIME ZONE 'UTC')::date AS day,
+                          bool_or(event = 'engaged') AS engaged,
+                          max(CASE WHEN event = 'exit' THEN value END) AS seconds,
+                          max(CASE WHEN event = 'scroll_depth' THEN value END) AS scroll,
+                          count(*) FILTER (WHERE event = 'whatsapp_click') AS wa,
+                          count(*) FILTER (WHERE event = 'form_submit') AS forms,
+                          count(*) FILTER (WHERE event = 'phone_click') AS phone,
+                          count(*) FILTER (WHERE event = 'inquiry_complete') AS inquiry_ok
+                   FROM ev
+                   GROUP BY session_id, url, (at AT TIME ZONE 'UTC')::date)
+            SELECT day, url,
+                   count(*) AS sessions,
+                   count(*) FILTER (WHERE engaged) AS engaged,
+                   count(*) FILTER (WHERE NOT engaged) AS bounced,
+                   coalesce(sum(wa), 0), coalesce(sum(forms), 0), coalesce(sum(phone), 0),
+                   coalesce(sum(inquiry_ok), 0),
+                   percentile_disc(0.5) WITHIN GROUP (ORDER BY seconds),
+                   percentile_disc(0.5) WITHIN GROUP (ORDER BY scroll)
+            FROM per_session GROUP BY day, url
+        """, (since,))
+        daily = []
+        for day, url, sessions, engaged, bounced, wa, forms, phone, inquiry_ok, secs, scroll in cur.fetchall():
+            daily.append({
+                "day": day, "url": url, "sessions": int(sessions or 0),
+                "engaged": int(engaged or 0), "bounced": int(bounced or 0),
+                "wa_clicks": int(wa or 0), "forms": int(forms or 0),
+                "phone": int(phone or 0), "inquiry_ok": int(inquiry_ok or 0),
+                "med_seconds": secs, "med_scroll": scroll,
+            })
+        rolled = upsert_firstparty(cur, daily)
+        contract_path = HERE.parents[2] / "docs/seo/myCHEF-AE-SEO-STANDARD.json"
+        if contract_path.exists():
+            import json as _json
+            set_primaries(cur, (_json.loads(contract_path.read_text()).get("pages") or {}))
+        conn.commit()
+    except Exception as ex:  # noqa: BLE001
+        conn.rollback()
+        print(f"first-party daily rollup skipped ({str(ex)[:80]})")
+
     conn.close()
 
     data = {"generated": datetime.datetime.now().strftime("%Y-%m-%d %H:%M"), "window_days": DAYS,
@@ -91,7 +139,8 @@ def main():
     if not t["sessions"]:
         print("first-party: no events yet — the collector is live but nobody has been recorded")
     else:
-        print(f"first-party {DAYS}d: {t['sessions']} sessions · {t['conversions']} conversions · {t['urls']} URLs")
+        print(f"first-party {DAYS}d: {t['sessions']} sessions · {t['conversions']} conversions · {t['urls']} URLs"
+              + (f" · {rolled} daily rows" if rolled else ""))
     return 0
 
 

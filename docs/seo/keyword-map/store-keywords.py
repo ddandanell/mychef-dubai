@@ -160,6 +160,12 @@ CREATE INDEX IF NOT EXISTS seo_serps_kw ON seo_serps(keyword);
 CREATE INDEX IF NOT EXISTS seo_traffic_url ON seo_traffic(url);
 CREATE INDEX IF NOT EXISTS seo_backlog_kw ON seo_backlog(keyword);
 """
+try:
+    sys.path.insert(0, str(HERE))
+    from rollup_daily import DDL as ROLLUP_DDL
+    DDL = DDL + ROLLUP_DDL
+except ImportError:
+    pass
 
 # older databases predate some columns — add what is missing rather than failing
 ADD_COLUMNS = [("seo_keywords", "page_visitors", "INT"), ("seo_keywords", "page_pageviews", "INT"),

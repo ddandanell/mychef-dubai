@@ -29,6 +29,8 @@ const StickyMobileCTA = memo(function StickyMobileCTA({ whatsappMessage }: Stick
       className="fixed bottom-0 left-0 right-0 z-40 lg:hidden bg-black/95 backdrop-blur-sm border-t border-white/10 shadow-[0_-4px_24px_rgba(0,0,0,0.5)]"
       style={{ paddingBottom: 'env(safe-area-inset-bottom)' }}
       aria-label="Mobile call-to-action"
+      data-placement="sticky"
+      data-sticky
     >
       <div className="flex flex-col px-4 py-2">
         <div className="flex items-center min-h-16 gap-3">

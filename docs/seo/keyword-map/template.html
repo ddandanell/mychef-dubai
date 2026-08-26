@@ -8,11 +8,11 @@
 <style>
   :root {
     color-scheme: light;
-    --surface: #fcfcfb; --surface-2: #f3f2ee; --line: #e2e1db; --line-strong: #c9c8c0;
-    --ink: #0b0b0b; --ink-2: #52514e; --ink-3: #84827c;
-    --bar: #2a78d6; --bar-track: #dce9f8;
-    --good: #0ca30c; --warn: #fab219; --serious: #ec835a;
-    --font: "Inter", -apple-system, system-ui, "Segoe UI", sans-serif; --mono: ui-monospace, SFMono-Regular, Menlo, monospace;
+    --surface: #F7F7F4; --surface-2: #F0F0EB; --line: #E7E7E2; --line-strong: #D4D4CC;
+    --ink: #111111; --ink-2: #6B6B65; --ink-3: #8A8A84;
+    --bar: #0B211D; --bar-track: #E7E7E2;
+    --good: #1F7A4D; --warn: #C47A12; --serious: #B42318;
+    --font: Inter, ui-sans-serif, system-ui, sans-serif; --mono: ui-monospace, SFMono-Regular, Menlo, monospace;
   }
   * { box-sizing: border-box; }
   body { margin: 0; background: var(--surface); color: var(--ink); font: 14px/1.45 var(--font); }
@@ -103,16 +103,23 @@ const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<
 document.getElementById('gen').textContent = D.generated; document.getElementById('volsrc').textContent = D.stats.volume_source || '';
 
 const S = D.stats;
+let subsOnPage = 0;
+for (const rows of Object.values(D.silos)) for (const r of rows) if (!r.retired && !r.noindex) for (const s of r.subs) if (s.place && (s.place.body || s.place.title || s.place.h1 || s.place.h2)) subsOnPage += 1;
+const health = Math.max(0, Math.min(100, Math.round((S.primary_score_avg || 0) * 10)));
+const coverage = S.subkeywords ? Math.round((subsOnPage / S.subkeywords) * 100) : 0;
+const critical = (S.heading_collisions || 0) + (S.live_ahead_of_contract || 0) + (S.primary_missing_h1 || 0);
+const opportunities = (S.room_total || 0) + (S.doubles || 0);
 const tiles = [
+  ['SEO Health', health, `primary avg ${S.primary_score_avg}/10 · ${S.primary_score_full} at 10/10`, health >= 80 ? 'good' : health >= 50 ? 'warn' : 'serious'],
   ['Active pages', S.pages_active, `${S.pages_retired} retired · ${S.pages_noindex} noindex`, ''],
+  ['Keyword coverage', `${coverage}%`, `${subsOnPage} of ${S.subkeywords} subs found on-page`, coverage >= 70 ? 'good' : coverage >= 40 ? 'warn' : 'serious'],
+  ['Critical issues', critical, `${S.heading_collisions} collisions · ${S.primary_missing_h1} primary missing H1`, critical ? 'serious' : 'good'],
+  ['Opportunities', opportunities, `${S.room_total} free slots · ${S.doubles} assigned twice`, opportunities ? 'warn' : 'good'],
   ['Locked primaries', S.primaries, `${S.measured_volumes} with UAE volume > 0`, S.measured_volumes < S.primaries / 2 ? 'warn' : ''],
   ['Subkeywords', S.subkeywords, `avg ${S.avg_subs} per page · cap 8`, ''],
-  ['Room to add', S.room_total, `${S.pages_with_room} pages have free slots`, 'good'],
   ['Assigned twice', S.doubles, 'same phrase on 2+ pages', S.doubles ? 'warn' : 'good'],
   ['Heading collisions', S.heading_collisions, 'a primary used in another page\'s title/H1/H2', S.heading_collisions ? 'serious' : 'good'],
   ['Primary not in H1', S.primary_missing_h1, `${S.primary_missing_title} also missing from title`, 'warn'],
-  ['Subkeywords found on own page', (() => { let f = 0; for (const rows of Object.values(D.silos)) for (const r of rows) if (!r.retired && !r.noindex) for (const s of r.subs) if (s.place && (s.place.body || s.place.title || s.place.h1 || s.place.h2)) f += 1; return f; })(), `of ${S.subkeywords} assigned — the rest are logged but the copy never says them`, 'serious'],
-  ['Primary score', `${S.primary_score_avg}/10`, `${S.primary_score_full} pages at 10/10 · title 3 · H1 3 · description 2 · H2 1 · used twice 1`, S.primary_score_avg >= 8 ? 'good' : S.primary_score_avg >= 5 ? 'warn' : 'serious'],
   ['Subkeywords in headings', S.sub_violations, 'contract: subs in sentences only', S.sub_violations ? 'warn' : 'good'],
   ['Live ahead of contract', S.live_ahead_of_contract, `${S.live_redirecting} sitemap URLs redirect live`, S.live_ahead_of_contract ? 'serious' : 'good'],
 ];

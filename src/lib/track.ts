@@ -7,20 +7,21 @@
 // in the same Postgres as seo_keywords and seo_pages, so that join is a query.
 //
 // Collected: a random session id (sessionStorage, dies with the tab), the path,
-// the referring hostname, utm tags, and one of six event names. Never: cookies,
-// IP, names, emails, free text, or anything typed into a form.
+// the referring hostname, utm tags, channel class, and a fixed event vocabulary.
+// Never: cookies, IP, names, emails, free text, raw search queries, or anything
+// typed into a form.
 //
 // Silent by design — if the endpoint is missing or the browser refuses, nothing
 // throws and nothing is retried.
 // =============================================================================
+
+import { allowLabel, type TrackEventName } from './trackVocab'
 
 const ENDPOINT = '/api/e'
 const KEY_SESSION = 'mc_s'
 const KEY_SEQ = 'mc_q'
 const MAX_EVENTS = 60
 const ENGAGED_AFTER_MS = 15_000
-
-type EventName = 'page_view' | 'engaged' | 'scroll_depth' | 'whatsapp_click' | 'form_submit' | 'exit'
 
 let started = 0
 let maxScroll = 0
@@ -38,7 +39,6 @@ function optedOut(): boolean {
   } catch {
     /* private mode — treat as tracking allowed, nothing is stored anyway */
   }
-  // The board itself is internal; never record visits to it.
   return typeof location !== 'undefined' && location.pathname.startsWith('/seo')
 }
 
@@ -67,7 +67,7 @@ function nextSeq(): number | null {
   }
 }
 
-function send(event: EventName, extra: { value?: number; label?: string } = {}): void {
+function send(event: TrackEventName, extra: { value?: number; label?: string } = {}): void {
   if (optedOut()) return
   const s = sessionId()
   if (!s) return
@@ -81,7 +81,8 @@ function send(event: EventName, extra: { value?: number; label?: string } = {}):
     u: location.pathname.replace(/\/+$/, '') || '/',
   }
   if (typeof extra.value === 'number') payload.v = extra.value
-  if (extra.label) payload.l = extra.label
+  const label = allowLabel(extra.label)
+  if (label) payload.l = label
 
   if (q === 0) {
     try {
@@ -96,6 +97,10 @@ function send(event: EventName, extra: { value?: number; label?: string } = {}):
     if (source) payload.us = source.slice(0, 60)
     if (medium) payload.um = medium.slice(0, 60)
     if (campaign) payload.uc = campaign.slice(0, 60)
+    const xid = params.get('xid')
+    const xv = params.get('xv')
+    if (xid) payload.xid = xid.slice(0, 16)
+    if (xv && /^[ABC]$/i.test(xv)) payload.xv = xv.toUpperCase()
   }
 
   const blob = JSON.stringify(payload)
@@ -130,13 +135,13 @@ function onScroll(): void {
 
 function onHide(): void {
   if (!currentPath) return
-  send('exit', { value: Math.round((Date.now() - started) / 1000), label: String(maxScroll) })
+  send('exit', { value: Math.round((Date.now() - started) / 1000) })
 }
 
 /** Call once when the app mounts, then again on every client-side route change. */
 export function trackPage(path: string): void {
   if (optedOut()) return
-  if (currentPath && currentPath !== path) onHide()      // the previous page ended here
+  if (currentPath && currentPath !== path) onHide()
 
   currentPath = path
   started = Date.now()
@@ -145,8 +150,12 @@ export function trackPage(path: string): void {
   depthsSent.clear()
   send('page_view')
 
+  const params = new URLSearchParams(typeof location === 'undefined' ? '' : location.search)
+  if (params.get('xid') && params.get('xv')) {
+    send('expose', { label: 'link' })
+  }
+
   window.setTimeout(() => {
-    // "Engaged" is the bounce test: still on the same page, tab visible, after 15 seconds.
     if (!engagedSent && currentPath === path && document.visibilityState === 'visible') {
       engagedSent = true
       send('engaged')
@@ -154,9 +163,12 @@ export function trackPage(path: string): void {
   }, ENGAGED_AFTER_MS)
 }
 
-/** One of the five conversions the site actually cares about. */
-export function trackConversion(event: 'whatsapp_click' | 'form_submit', label?: string): void {
-  send(event, { label })
+export function trackConversion(
+  event: Extract<TrackEventName, 'whatsapp_click' | 'form_submit' | 'phone_click' | 'email_click' | 'cta_click' | 'inquiry_start' | 'inquiry_complete' | 'calc_use' | 'expose'>,
+  label?: string,
+  value?: number,
+): void {
+  send(event, { label: allowLabel(label) ?? undefined, value })
 }
 
 let wired = false
@@ -170,3 +182,5 @@ export function initTracking(): void {
     if (document.visibilityState === 'hidden') onHide()
   })
 }
+
+export type { TrackLabel } from './trackVocab'

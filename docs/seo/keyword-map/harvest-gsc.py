@@ -62,6 +62,10 @@ def main():
         by_pair = query(H, {**rng, "dimensions": ["query", "page"], "rowLimit": 5000})
         by_page = query(H, {**rng, "dimensions": ["page"], "rowLimit": 1000})
         by_date = query(H, {**rng, "dimensions": ["date"], "rowLimit": 500})
+        try:
+            by_page_date = query(H, {**rng, "dimensions": ["date", "page"], "rowLimit": 25000})
+        except Exception:
+            by_page_date = []
     except urllib.error.HTTPError as e:
         detail = e.read().decode()[:160]
         print(f"Search Console HTTP {e.code} for {SITE}: {detail}")
@@ -90,6 +94,9 @@ def main():
     pages = shape(by_page, ["page"])
     for p in pages:
         p["url"] = path_of(p.pop("page"))
+    page_daily = shape(by_page_date, ["date", "page"])
+    for p in page_daily:
+        p["url"] = path_of(p.pop("page"))
 
     # which URL Google actually ranks for each phrase — the one to compare against the contract
     ranking_url = {}
@@ -103,6 +110,7 @@ def main():
         "pairs": pairs,
         "pages": pages,
         "daily": shape(by_date, ["date"]),
+        "page_daily": page_daily,
         "ranking_url": ranking_url,
     }
     tot = {"clicks": sum(q["clicks"] for q in data["queries"]),
@@ -113,6 +121,28 @@ def main():
     (OUT / "search-analytics.json").write_text(json.dumps(data, ensure_ascii=False, indent=1) + "\n")
     print(f"Search Console {DAYS}d: {tot['clicks']} clicks · {tot['impressions']} impressions · "
           f"{tot['queries']} queries · {tot['pages']} pages")
+
+    envf = os.path.expanduser("~/.config/claude-seo/neon.env")
+    if page_daily and os.path.exists(envf):
+        try:
+            import psycopg2
+            sys.path.insert(0, str(HERE))
+            from rollup_daily import ensure, upsert_gsc, set_primaries
+            env = {k: v.strip().strip('"').strip("'") for k, v in
+                   (l.strip().split("=", 1) for l in open(envf) if "=" in l and not l.startswith("#"))}
+            conn = psycopg2.connect(env.get("DATABASE_URL_UNPOOLED") or env["DATABASE_URL"])
+            cur = conn.cursor()
+            ensure(cur)
+            n = upsert_gsc(cur, [{"day": p["date"], "url": p["url"], "gsc_clicks": p["clicks"],
+                                  "gsc_impr": p["impressions"], "gsc_ctr": p["ctr"], "gsc_pos": p["position"]}
+                                 for p in page_daily])
+            contract_path = HERE.parents[2] / "docs/seo/myCHEF-AE-SEO-STANDARD.json"
+            if contract_path.exists():
+                set_primaries(cur, (json.loads(contract_path.read_text()).get("pages") or {}))
+            conn.commit(); conn.close()
+            print(f"  seo_page_daily: {n} GSC rows upserted")
+        except Exception as ex:  # noqa: BLE001
+            print(f"  seo_page_daily GSC rollup skipped ({str(ex)[:80]})")
     return 0
 
 

@@ -1,7 +1,7 @@
 /**
  * Vercel Routing Middleware — password gate for the board at /seo/* and its analyst at /api/ask.
  *
- * The pages are static HTML copied from docs/seo/keyword-map by docs/seo/keyword-map/publish.sh.
+ * The board is the React OS at /seo, fed by JSON from docs/seo/keyword-map/publish.sh.
  * They are noindex, disallowed in robots.txt and never linked from the site. The password is the
  * SEO_PASSWORD environment variable (set with: vercel env add SEO_PASSWORD production) — never in code.
  * Any username is accepted; the browser's Basic Auth prompt is the "login".

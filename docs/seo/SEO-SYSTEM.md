@@ -40,9 +40,11 @@ Five ideas hold it together:
 |---|---|
 | `docs/seo/myCHEF-AE-SEO-STANDARD.json` | The contract. Which keyword each URL owns. |
 | `docs/seo/keyword-map/*.py` | The collectors, the optimizer, the builders. |
-| `docs/seo/keyword-map/*.html` | The board pages, regenerated every run. |
+| `docs/seo/keyword-map/*.html` | Generator output. The live board is React, not these files. |
+| `docs/seo/keyword-map/*.json` | Research payloads the React OS reads. |
+| `src/seo-os/` | shadcn dashboard-01 shell for `/seo` (sidebar, cards, tables, inspector). |
 | `docs/seo/keyword-map/.live/` | Snapshots and research data. Git-ignored. |
-| `public/seo/` | The published board. Git-ignored; written at build time. |
+| `public/seo/data/` | Published JSON. Git-ignored; written at build time by `publish.sh`. |
 | `src/content/keywordLocks.ts` | The contract, compiled for the app. |
 | `api/e.ts` | First-party event collector (public). |
 | `api/ask.ts` | The read-only SEO analyst (password-gated). |
@@ -103,10 +105,13 @@ so and leave the previous snapshot in place.
 | `build-architecture.py` | The sitemap as an authority map: depth, orphans, hub↔child. |
 | `build-actions.py` | **Actions** — every edit the agent made, with the words before and after. |
 | `build-status.py` | **Status** — the health of every source. |
+| `build-proposals.py` | **Queue** — ranked proposals from the loop's own evidence. Does not call the optimizer. |
+| `run-daily.sh` | Cheap half: GSC + first-party + Vercel + rollup + Queue + Status. Safe to cron. |
 | `fill-subkeywords.py` | Fills free subkeyword slots from the backlog, one owner per phrase. |
 | `store-keywords.py` | Writes the whole run to Postgres. |
-| `inject-nav.py` | Adds the shared navigation to every published page. |
-| `publish.sh` | Copies the board into `public/seo/`. Runs inside the Vercel build. |
+| `inject-nav.py` | Legacy HTML chrome. Kept for local HTML previews; production `/seo` is the React OS. |
+| `export-board-data.py` | Copies JSON (+ status/actions extracts) into `public/seo/data`. |
+| `publish.sh` | Runs the exporter. Runs inside the Vercel build. |
 
 ---
 
@@ -221,6 +226,8 @@ Neon Postgres. `DATABASE_URL` (pooled) for the site, `DATABASE_URL_UNPOOLED` for
 `seo_traffic_breakdown`, `seo_integrations`. These are captured on their own schedule, so a
 rerun on the same data cannot duplicate them.
 
+**Dated, page grain** — `seo_page_daily` (first-party + GSC + Vercel views per URL per day). The join the advisor reads. `seo_proposals` is the queue: open / accepted / rejected, never written by the optimizer.
+
 **Not run-scoped** — `seo_optimizer_log` (every edit ever), `web_sessions`, `web_events`.
 
 `store-keywords.py --prune-keep N` trims the bulky tables for older runs when storage matters;
@@ -230,8 +237,13 @@ runs, keywords and pages are always kept.
 
 ## 11. First-party tracking
 
-`api/e.ts` accepts six events and nothing else: `page_view`, `engaged`, `scroll_depth`,
-`whatsapp_click`, `form_submit`, `exit`.
+`api/e.ts` accepts a fixed vocabulary and nothing else: `page_view`, `engaged`, `scroll_depth`,
+`whatsapp_click`, `form_submit`, `exit`, plus `cta_click`, `inquiry_start`, `inquiry_complete`,
+`calc_use`, `expose`, `phone_click`, `email_click`. Labels are an allow-list (`hero`, `sticky`,
+`price_table`, `faq`, `footer`, `nav`, `inquiry_form`, `contact_form`, `lead_magnet`, `lead_form`,
+`link`). Unknown labels are dropped, not stored. Session 0 also records channel class (`organic` /
+`paid` / `social` / `direct` / `referral` / `llm`) and a **server-side** landing class from the
+contract (`brand` / `owned` / `unowned` / `utility`). The browser never ships the lock map.
 
 **Privacy.** No cookies, no IP stored, no free text, nothing typed into a form. The session id is
 random, lives in `sessionStorage` and dies with the tab. Country comes from Vercel's edge header.
@@ -288,7 +300,7 @@ rendered HTML and places nothing.
 | **32 phrases rank on an unassigned page** | The contract and Google disagree | Move the keyword or move the content |
 | **Location FAQ insertion is disabled** | `optimize-data-pages.py` cannot add FAQs to `locations.ts` | Its entry-bounds walk once deleted 1,181 lines; needs a proven fix before re-enabling |
 | **Core Web Vitals** | Not in the archive | A `harvest-psi.py` using the existing key |
-| **The board is static HTML** | No history on screen, no drill-down, not built for a phone | The Next.js panel — see the Mise en Place plan |
+| **The board is a React OS on static JSON** | No live query of Postgres from the browser | `/api/ask` for questions; harvests still write JSON |
 
 ---
 

@@ -126,6 +126,25 @@ def main():
     t = data["totals"]
     say(f"Vercel analytics {DAYS}d: {t['visitors']} visitors · {t['pageviews']} pageviews · {t['urls_listed']} URLs"
         + (" (paging stopped early — some URLs are missing)" if t["truncated"] else ""))
+
+    envf = os.path.expanduser("~/.config/claude-seo/neon.env")
+    if by_url and os.path.exists(envf):
+        try:
+            import psycopg2
+            sys.path.insert(0, str(HERE))
+            from rollup_daily import ensure, upsert_vercel
+            env = {k: v.strip().strip('"').strip("'") for k, v in
+                   (l.strip().split("=", 1) for l in open(envf) if "=" in l and not l.startswith("#"))}
+            conn = psycopg2.connect(env.get("DATABASE_URL_UNPOOLED") or env["DATABASE_URL"])
+            cur = conn.cursor()
+            ensure(cur)
+            today = datetime.date.today().isoformat()
+            n = upsert_vercel(cur, [{"day": today, "url": url, "vercel_views": v.get("pageviews") or 0}
+                                    for url, v in by_url.items()])
+            conn.commit(); conn.close()
+            say(f"  seo_page_daily: {n} Vercel view rows for {today} (window snapshot, not a true daily series)")
+        except Exception as ex:  # noqa: BLE001
+            say(f"  seo_page_daily Vercel rollup skipped ({str(ex)[:80]})")
     return 0
 
 

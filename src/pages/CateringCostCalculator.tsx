@@ -5,6 +5,8 @@
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
 import { useEffect, useRef, useState } from 'react'
+import { trackConversion } from '@/lib/track'
+import { bucketGuests } from '@/lib/trackVocab'
 import { Link } from 'react-router'
 import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
@@ -48,6 +50,18 @@ export default function CateringCostCalculator() {
   const perPerson = Math.round(selectedService.basePrice * selectedStaff.multiplier)
   const totalLow = perPerson * guests
   const totalHigh = Math.round(perPerson * 1.4 * guests)
+  const calcArmed = useRef(false)
+
+  useEffect(() => {
+    if (!calcArmed.current) {
+      calcArmed.current = true
+      return
+    }
+    const t = window.setTimeout(() => {
+      trackConversion('calc_use', 'link', bucketGuests(guests))
+    }, 800)
+    return () => window.clearTimeout(t)
+  }, [guests, service, staffLevel])
 
   useEffect(() => {
     const ctx = gsap.context(() => {

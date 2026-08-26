@@ -11,6 +11,7 @@ import gsap from 'gsap'
 import { useGSAP } from '@gsap/react'
 import SEO from '@/components/SEO'
 import { trackEvent } from '@/lib/analytics'
+import { trackConversion } from '@/lib/track'
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to request a quote (via mychef.ae/thank-you)')
@@ -37,6 +38,7 @@ export default function ThankYou() {
       event_label: 'form_submit',
       page_path: window.location.pathname,
     })
+    trackConversion('inquiry_complete', 'inquiry_form')
   }, [])
 
   useGSAP(() => {

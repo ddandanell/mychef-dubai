@@ -1,5 +1,6 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node'
 import { neon } from '@neondatabase/serverless'
+import { PATH_PRIMARY } from './keyword-locks'
 
 /**
  * First-party event collector.
@@ -9,21 +10,51 @@ import { neon } from '@neondatabase/serverless'
  * "WhatsApp clicks per owned keyword" becomes a query instead of a guess. It is also not
  * blocked by ad blockers, because it is our own domain.
  *
- * What it never collects: no cookies, no IP address, no user id, no free text. A session id
- * lives in sessionStorage and dies with the tab. Country comes from Vercel's edge header,
- * which is country-level only.
+ * What it never collects: no cookies, no IP address, no user id, no free text, no raw
+ * search queries. A session id lives in sessionStorage and dies with the tab. Country comes
+ * from Vercel's edge header, which is country-level only. Landing class is computed here
+ * from the contract, not by the browser.
  *
  * Abuse limits, in order of strength:
  *   1. a fixed event vocabulary — anything else is rejected
- *   2. 60 events per session, enforced by the (session_id, seq) primary key
- *   3. a per-instance token bucket on a daily-salted hash of the IP, never stored
- *   4. a 2 KB body cap and a strict shape check on every field
+ *   2. labels from an allow-list — anything else is dropped, not stored
+ *   3. 60 events per session, enforced by the (session_id, seq) primary key
+ *   4. a per-instance token bucket on a daily-salted hash of the IP, never stored
+ *   5. a 3 KB body cap and a strict shape check on every field
  */
 
-const EVENTS = new Set(['page_view', 'engaged', 'scroll_depth', 'whatsapp_click', 'form_submit', 'exit'])
+const EVENTS = new Set([
+  'page_view',
+  'engaged',
+  'scroll_depth',
+  'whatsapp_click',
+  'form_submit',
+  'exit',
+  'cta_click',
+  'inquiry_start',
+  'inquiry_complete',
+  'calc_use',
+  'expose',
+  'phone_click',
+  'email_click',
+])
+const LABELS = new Set([
+  'hero',
+  'sticky',
+  'price_table',
+  'faq',
+  'footer',
+  'nav',
+  'inquiry_form',
+  'contact_form',
+  'lead_magnet',
+  'lead_form',
+  'link',
+])
+const CHANNELS = new Set(['organic', 'paid', 'social', 'direct', 'referral', 'llm'])
 const MAX_SEQ = 60
-const MAX_BODY = 2048
-const BUCKET_LIMIT = 60          // events per minute per IP hash, per function instance
+const MAX_BODY = 3072
+const BUCKET_LIMIT = 60
 const SESSION_RE = /^[a-z0-9]{12,32}$/
 const PATH_RE = /^\/[\w\-/.]{0,180}$/
 
@@ -34,7 +65,7 @@ function allow(key: string): boolean {
   const minute = Math.floor(Date.now() / 60000)
   const b = buckets.get(key)
   if (!b || b.minute !== minute) {
-    if (buckets.size > 5000) buckets.clear()   // instances are short-lived; this is a safety valve
+    if (buckets.size > 5000) buckets.clear()
     buckets.set(key, { n: 1, minute })
     return true
   }
@@ -43,7 +74,6 @@ function allow(key: string): boolean {
 }
 
 function hashed(value: string): string {
-  // FNV-1a. Not a secret — only used to tell two visitors apart inside one minute.
   let h = 0x811c9dc5
   for (let i = 0; i < value.length; i += 1) {
     h ^= value.charCodeAt(i)
@@ -57,6 +87,35 @@ function device(ua: string): string {
   if (/Mobile|iPhone|Android/i.test(ua)) return 'mobile'
   if (!ua) return 'unknown'
   return 'desktop'
+}
+
+function cleanPath(url: string): string {
+  const key = url.length > 1 ? url.replace(/\/+$/, '') : url
+  return key || '/'
+}
+
+function landingClass(path: string): string {
+  const key = cleanPath(path)
+  if (key === '/') return 'brand'
+  if (!(key in PATH_PRIMARY)) return 'unowned'
+  const primary = PATH_PRIMARY[key]
+  if (!primary) return 'utility'
+  if (/mychef/i.test(primary)) return 'brand'
+  return 'owned'
+}
+
+function channelClass(referrer: string | null, utmSource: string | null, utmMedium: string | null): string {
+  const medium = (utmMedium || '').toLowerCase()
+  const source = (utmSource || '').toLowerCase()
+  if (/cpc|ppc|paid|ads|paidsearch|display/.test(medium) || /cpc|ppc|paid/.test(source)) return 'paid'
+  const host = (referrer || '').toLowerCase()
+  if (/chatgpt|openai|perplexity|claude\.ai|gemini\.google|copilot\.microsoft|you\.com|phind|poe\.com/.test(host)) {
+    return 'llm'
+  }
+  if (/facebook|instagram|linkedin|t\.co$|twitter|x\.com|tiktok|pinterest|whatsapp/.test(host)) return 'social'
+  if (/google\.|bing\.|yahoo\.|duckduckgo|baidu/.test(host)) return 'organic'
+  if (host) return 'referral'
+  return 'direct'
 }
 
 const str = (v: unknown, max: number): string | null =>
@@ -75,7 +134,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   if (process.env.TRACKING_OFF === '1') return res.status(204).end()
 
   const dsn = process.env.DATABASE_URL
-  if (!dsn) return res.status(204).end()          // never fail the page over analytics
+  if (!dsn) return res.status(204).end()
 
   const raw = typeof req.body === 'string' ? req.body : JSON.stringify(req.body ?? {})
   if (raw.length > MAX_BODY) return res.status(413).json({ error: 'Payload too large' })
@@ -94,38 +153,55 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
   if (!session || !SESSION_RE.test(session)) return res.status(400).json({ error: 'Bad session' })
   if (!event || !EVENTS.has(event)) return res.status(400).json({ error: 'Unknown event' })
-  if (!url || !PATH_RE.test(url)) return res.status(400).json({ error: 'Bad url' })
+  if (!url || !PATH_RE.test(url) || url.startsWith('/seo')) return res.status(400).json({ error: 'Bad url' })
   if (seq === null) return res.status(400).json({ error: 'Bad sequence' })
 
   const ip = String(req.headers['x-forwarded-for'] || '').split(',')[0].trim()
   const day = new Date().toISOString().slice(0, 10)
   if (!allow(hashed(ip + day))) return res.status(429).json({ error: 'Too many events' })
 
-  const value = int(body.v, 86400)                              // seconds, percent — always a number
-  const label = str(body.l, 60)                                 // a fixed-vocabulary label, e.g. "hero"
+  const value = int(body.v, 86400)
+  const rawLabel = str(body.l, 60)
+  const label = rawLabel && LABELS.has(rawLabel) ? rawLabel : null
   const country = String(req.headers['x-vercel-ip-country'] || '').slice(0, 2).toUpperCase() || null
   const ua = String(req.headers['user-agent'] || '')
-  const referrer = str(body.r, 120)                             // hostname only, set by the client
+  const referrer = str(body.r, 120)
   const utmSource = str(body.us, 60)
   const utmMedium = str(body.um, 60)
   const utmCampaign = str(body.uc, 60)
+  const xid = str(body.xid, 16)
+  const xvRaw = str(body.xv, 1)
+  const xv = xvRaw && /^[ABC]$/.test(xvRaw) ? xvRaw : null
+  const ch = channelClass(referrer, utmSource, utmMedium)
+  const lc = landingClass(url)
+  if (!CHANNELS.has(ch)) return res.status(204).end()
 
   try {
     const sql = neon(dsn)
     if (seq === 0) {
-      await sql`
-        INSERT INTO web_sessions (session_id, started_at, landing_url, referrer_host, country, device,
-                                  utm_source, utm_medium, utm_campaign)
-        VALUES (${session}, now(), ${url}, ${referrer}, ${country}, ${device(ua)},
-                ${utmSource}, ${utmMedium}, ${utmCampaign})
-        ON CONFLICT (session_id) DO NOTHING`
+      try {
+        await sql`
+          INSERT INTO web_sessions (session_id, started_at, landing_url, referrer_host, country, device,
+                                    utm_source, utm_medium, utm_campaign, channel_class, landing_class,
+                                    experiment_id, variant)
+          VALUES (${session}, now(), ${url}, ${referrer}, ${country}, ${device(ua)},
+                  ${utmSource}, ${utmMedium}, ${utmCampaign}, ${ch}, ${lc}, ${xid}, ${xv})
+          ON CONFLICT (session_id) DO NOTHING`
+      } catch {
+        await sql`
+          INSERT INTO web_sessions (session_id, started_at, landing_url, referrer_host, country, device,
+                                    utm_source, utm_medium, utm_campaign)
+          VALUES (${session}, now(), ${url}, ${referrer}, ${country}, ${device(ua)},
+                  ${utmSource}, ${utmMedium}, ${utmCampaign})
+          ON CONFLICT (session_id) DO NOTHING`
+      }
     }
     await sql`
       INSERT INTO web_events (session_id, seq, at, event, url, value, label)
       VALUES (${session}, ${seq}, now(), ${event}, ${url}, ${value}, ${label})
       ON CONFLICT (session_id, seq) DO NOTHING`
   } catch {
-    return res.status(204).end()                                // a analytics write must never surface to a visitor
+    return res.status(204).end()
   }
   return res.status(204).end()
 }

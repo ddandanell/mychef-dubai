@@ -1,4 +1,4 @@
-import { Suspense } from 'react'
+import { Suspense, useEffect } from 'react'
 import { Analytics as VercelAnalytics } from '@vercel/analytics/react'
 import { SpeedInsights } from '@vercel/speed-insights/react'
 import { Routes, Route, useLocation } from 'react-router'
@@ -7,29 +7,61 @@ import Analytics from './components/Analytics'
 import PageLoader from './components/PageLoader'
 import RouteErrorBoundary from './components/RouteErrorBoundary'
 import { routes } from './routes'
+import { isSeoOsPath, SeoOsApp } from './seo-os/entry'
 
 /**
  * Route list lives in ./routes.tsx (generated from the former inline table) so
  * the boot sequence can preload the current route's chunk before hydrateRoot.
  * See src/lib/lazyPreloadable.tsx and src/main.tsx for the rationale.
+ *
+ * /seo is a separate app shell: no marketing Layout, noindex, light shadcn OS.
  */
 export default function App() {
   const { pathname } = useLocation()
+  const seoOs = isSeoOsPath(pathname)
+
+  useEffect(() => {
+    document.documentElement.classList.toggle('seo-os', seoOs)
+    document.body.classList.toggle('seo-os', seoOs)
+    return () => {
+      document.documentElement.classList.remove('seo-os')
+      document.body.classList.remove('seo-os')
+    }
+  }, [seoOs])
+
   return (
-    <Layout>
+    <>
       <Analytics />
       <VercelAnalytics />
       <SpeedInsights route={pathname} />
-      {/* Keyed by pathname so a failed route does not trap the next one. */}
-      <RouteErrorBoundary key={pathname}>
-        <Suspense fallback={<PageLoader />}>
-          <Routes>
-            {routes.map((route) => (
-              <Route key={route.path} path={route.path} element={route.element} />
-            ))}
-          </Routes>
-        </Suspense>
-      </RouteErrorBoundary>
-    </Layout>
+      <Routes>
+        <Route
+          path="/seo/*"
+          element={
+            <RouteErrorBoundary key="seo-os">
+              <Suspense fallback={<PageLoader />}>
+                <SeoOsApp />
+              </Suspense>
+            </RouteErrorBoundary>
+          }
+        />
+        <Route
+          path="*"
+          element={
+            <Layout>
+              <RouteErrorBoundary key={pathname}>
+                <Suspense fallback={<PageLoader />}>
+                  <Routes>
+                    {routes.map((route) => (
+                      <Route key={route.path} path={route.path} element={route.element} />
+                    ))}
+                  </Routes>
+                </Suspense>
+              </RouteErrorBoundary>
+            </Layout>
+          }
+        />
+      </Routes>
+    </>
   )
 }

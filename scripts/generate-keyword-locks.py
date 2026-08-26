@@ -126,6 +126,27 @@ if module_changed:
     if not CHECK: MODULE.write_text(module)
     changed.append(str(MODULE.relative_to(ROOT)))
 
+# Compact path → primary map for api/e.ts (landing class). The browser never sees this.
+API_LOCKS = ROOT / "api/keyword-locks.ts"
+api_entries = []
+for url in sorted(pages):
+    lk = lock_for(url)
+    if lk is None:
+        continue
+    primary = "null" if not lk["primary"] else ts_str(lk["primary"])
+    api_entries.append(f"  {ts_str(url)}: {primary},")
+api_module = (
+    "// AUTO-GENERATED from docs/seo/myCHEF-AE-SEO-STANDARD.json by scripts/generate-keyword-locks.py\n"
+    "// Compact lock map for api/e.ts landing class. Do not hand-edit.\n"
+    "export const PATH_PRIMARY: Record<string, string | null> = {\n"
+    + "\n".join(api_entries)
+    + "\n}\n"
+)
+if (not API_LOCKS.exists()) or API_LOCKS.read_text() != api_module:
+    if not CHECK:
+        API_LOCKS.write_text(api_module)
+    changed.append(str(API_LOCKS.relative_to(ROOT)))
+
 if CHECK:
     if changed:
         print(f"keyword locks OUT OF DATE in {len(changed)} file(s):"); [print("  ", c) for c in changed[:20]]

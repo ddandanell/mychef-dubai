@@ -1,0 +1,72 @@
+/* Scoped light tokens for the password-gated SEO OS. Marketing stays black. */
+html.seo-os,
+body.seo-os {
+  color-scheme: light;
+}
+
+body.seo-os,
+.seo-os {
+  --background: 60 20% 97%;
+  --foreground: 0 0% 7%;
+  --card: 0 0% 100%;
+  --card-foreground: 0 0% 7%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 0 0% 7%;
+  --primary: 162 50% 8%;
+  --primary-foreground: 42 48% 88%;
+  --secondary: 60 10% 94%;
+  --secondary-foreground: 0 0% 7%;
+  --muted: 60 10% 94%;
+  --muted-foreground: 60 3% 41%;
+  --accent: 42 48% 92%;
+  --accent-foreground: 162 50% 10%;
+  --destructive: 4 64% 42%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 60 9% 90%;
+  --input: 60 9% 86%;
+  --ring: 42 48% 57%;
+  --radius: 0.625rem;
+  --sidebar-background: 162 50% 8%;
+  --sidebar-foreground: 48 20% 92%;
+  --sidebar-primary: 42 48% 57%;
+  --sidebar-primary-foreground: 162 50% 8%;
+  --sidebar-accent: 162 32% 14%;
+  --sidebar-accent-foreground: 42 48% 78%;
+  --sidebar-border: 162 24% 16%;
+  --sidebar-ring: 42 48% 57%;
+  --chart-1: 162 40% 22%;
+  --chart-2: 42 48% 57%;
+  --chart-3: 60 3% 45%;
+  --chart-4: 162 18% 40%;
+  --chart-5: 4 64% 42%;
+  background: hsl(var(--background));
+  color: hsl(var(--foreground));
+  font-family: var(--font-body);
+}
+
+body.seo-os h1,
+body.seo-os h2,
+body.seo-os h3,
+body.seo-os h4,
+body.seo-os h5,
+body.seo-os h6,
+.seo-os h1,
+.seo-os h2,
+.seo-os h3,
+.seo-os h4,
+.seo-os h5,
+.seo-os h6 {
+  font-family: var(--font-body);
+}
+
+body.seo-os :focus-visible,
+.seo-os :focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px hsl(var(--ring));
+}
+
+body.seo-os ::selection,
+.seo-os ::selection {
+  background-color: rgba(200, 164, 92, 0.28);
+  color: #111111;
+}

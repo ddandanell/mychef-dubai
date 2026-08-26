@@ -8,6 +8,8 @@ import App from './App.tsx'
 import { armRevealFailsafe } from './lib/revealFailsafe'
 import { installChunkRecovery, markChunkRecovered } from './lib/chunkRecovery'
 import { preloadRoute } from './routes'
+import { isSeoOsPath, SeoOsApp } from './seo-os/entry'
+import './seo-os/theme.css'
 
 const container = document.getElementById('root')!
 
@@ -31,7 +33,14 @@ async function boot() {
   // fails right here, and the listener turns that into one reload.
   installChunkRecovery()
   try {
-    await preloadRoute(window.location.pathname)
+    const pathname = window.location.pathname
+    if (isSeoOsPath(pathname)) {
+      document.documentElement.classList.add('seo-os')
+      document.body.classList.add('seo-os')
+      await SeoOsApp.preload()
+    } else {
+      await preloadRoute(pathname)
+    }
     markChunkRecovered()
   } catch {
     // A chunk that fails to preload just suspends briefly (loader) — never fatal.

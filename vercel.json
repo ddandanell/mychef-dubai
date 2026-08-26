@@ -52,6 +52,111 @@
   ],
   "redirects": [
     {
+      "source": "/seo/index.html",
+      "destination": "/seo",
+      "statusCode": 301
+    },
+    {
+      "source": "/seo/ownership.html",
+      "destination": "/seo/keywords",
+      "statusCode": 301
+    },
+    {
+      "source": "/seo/ownership",
+      "destination": "/seo/keywords",
+      "statusCode": 301
+    },
+    {
+      "source": "/seo/report.html",
+      "destination": "/seo/research",
+      "statusCode": 301
+    },
+    {
+      "source": "/seo/report",
+      "destination": "/seo/research",
+      "statusCode": 301
+    },
+    {
+      "source": "/seo/status.html",
+      "destination": "/seo/status",
+      "statusCode": 301
+    },
+    {
+      "source": "/seo/demand.html",
+      "destination": "/seo/demand",
+      "statusCode": 301
+    },
+    {
+      "source": "/seo/gaps.html",
+      "destination": "/seo/gaps",
+      "statusCode": 301
+    },
+    {
+      "source": "/seo/architecture.html",
+      "destination": "/seo/architecture",
+      "statusCode": 301
+    },
+    {
+      "source": "/seo/links.html",
+      "destination": "/seo/links",
+      "statusCode": 301
+    },
+    {
+      "source": "/seo/queue.html",
+      "destination": "/seo/queue",
+      "statusCode": 301
+    },
+    {
+      "source": "/seo/backlog.html",
+      "destination": "/seo/backlog",
+      "statusCode": 301
+    },
+    {
+      "source": "/seo/actions.html",
+      "destination": "/seo/actions",
+      "statusCode": 301
+    },
+    {
+      "source": "/seo/ai-visibility.html",
+      "destination": "/seo/ai-visibility",
+      "statusCode": 301
+    },
+    {
+      "source": "/seo/ask.html",
+      "destination": "/seo/ask",
+      "statusCode": 301
+    },
+    {
+      "source": "/seo/gsc.html",
+      "destination": "/seo/gsc",
+      "statusCode": 301
+    },
+    {
+      "source": "/seo/analytics.html",
+      "destination": "/seo/analytics",
+      "statusCode": 301
+    },
+    {
+      "source": "/seo/semrush.html",
+      "destination": "/seo/semrush",
+      "statusCode": 301
+    },
+    {
+      "source": "/seo/dataforseo.html",
+      "destination": "/seo/dataforseo",
+      "statusCode": 301
+    },
+    {
+      "source": "/seo/connections.html",
+      "destination": "/seo/connections",
+      "statusCode": 301
+    },
+    {
+      "source": "/seo/settings.html",
+      "destination": "/seo/settings",
+      "statusCode": 301
+    },
+    {
       "source": "/corporate-catering-dubai",
       "destination": "/corporate",
       "statusCode": 301
@@ -413,10 +518,6 @@
     }
   ],
   "rewrites": [
-    {
-      "source": "/seo",
-      "destination": "/seo/index.html"
-    },
     {
       "source": "/((?!.*\\.).*)",
       "destination": "/fallback.html"

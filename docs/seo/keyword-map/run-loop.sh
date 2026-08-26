@@ -31,6 +31,7 @@ python3 docs/seo/keyword-map/build-status.py >/dev/null
 cp docs/seo/keyword-map/ask-template.html docs/seo/keyword-map/ask.html
 python3 docs/seo/keyword-map/build-actions.py >/dev/null
 echo "== keyword file"; python3 docs/seo/keyword-map/build-ownership.py $SNAP | head -12
+echo "== proposals"; python3 docs/seo/keyword-map/build-proposals.py || true
 echo "== gates"
 python3 scripts/verify-seo-contract.py | tail -1
 python3 scripts/verify-keyword-locks.py

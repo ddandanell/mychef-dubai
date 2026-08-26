@@ -1,5 +1,6 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<!doctype html><html lang="en" class="seo-os"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex"><title>myCHEF Data Board — Ask</title>
+
 <style>
 :root{color-scheme:light}
 body{margin:0;background:#fcfcfb;color:#0b0b0b;font:14px/1.6 Inter,-apple-system,system-ui,sans-serif}
@@ -20,7 +21,7 @@ main{max-width:900px;margin:0 auto;padding:18px 24px 120px}
 .ai .bubble{background:#fff;border:1px solid #e6e5df;border-radius:10px;padding:13px 15px;white-space:pre-wrap}
 .ai .bubble.err{background:#fbf1ef;border-color:#eccfc9;color:#8a3d33;white-space:normal}
 .meta{color:#9a988f;font-size:11px;margin-top:7px}
-.composer{position:fixed;left:0;right:0;bottom:0;background:linear-gradient(180deg,rgba(252,252,251,0) 0%,#fcfcfb 26%);padding:24px 24px 20px}
+.composer{position:fixed;left:224px;right:0;bottom:0;background:linear-gradient(180deg,rgba(247,247,244,0) 0%,#F7F7F4 26%);padding:24px 24px 20px}
 .inner{max-width:900px;margin:0 auto;display:flex;gap:9px}
 textarea{flex:1;resize:none;font:inherit;padding:11px 13px;border:1px solid #c9c8c0;border-radius:10px;background:#fff;min-height:46px;max-height:150px}
 textarea:focus{outline:2px solid #10201f;outline-offset:-1px;border-color:#10201f}
@@ -31,7 +32,30 @@ button.send:disabled{opacity:.45;cursor:default}
 .dots span:nth-child(2){animation-delay:.15s}.dots span:nth-child(3){animation-delay:.3s}
 @keyframes b{0%,60%,100%{opacity:.25}30%{opacity:1}}
 @media (prefers-reduced-motion:reduce){.dots span{animation:none;opacity:.6}}
-</style></head><body>
+</style>
+
+<link rel="stylesheet" href="ui/board.css">
+<link rel="stylesheet" href="/seo/ui/board.css">
+</head><body class="seo-os" data-seo-page="ask.html"><aside id="seo-nav" aria-label="SEO Intelligence"><a class="seo-brand" href="/seo/index.html"><i></i><span><strong>myCHEF</strong><span>SEO Intelligence</span></span></a><div class="seo-nav-section">OVERVIEW</div><a class="seo-nav-link" href="/seo/index.html" title="every URL and its locked keywords">Board</a><a class="seo-nav-link" href="/seo/status.html" title="is every source connected and feeding data">Status</a><div class="seo-nav-section">SEARCH</div><a class="seo-nav-link" href="/seo/ownership.html" title="one row per keyword, with its score">Keywords</a><a class="seo-nav-link" href="/seo/demand.html" title="what each page's keyword set is worth">Demand</a><a class="seo-nav-link" href="/seo/report.html" title="volume, difficulty, intent, position">Research</a><a class="seo-nav-link" href="/seo/gaps.html" title="what competitors cover and we do not">Gaps</a><div class="seo-nav-section">SITE</div><a class="seo-nav-link" href="/seo/architecture.html" title="the sitemap as an authority map">Architecture</a><a class="seo-nav-link" href="/seo/links.html" title="internal link profile per URL">Links</a><div class="seo-nav-section">EXECUTION</div><a class="seo-nav-link" href="/seo/queue.html" title="ranked proposals, not applied">Queue</a><a class="seo-nav-link" href="/seo/backlog.html" title="phrases no page owns yet">Backlog</a><a class="seo-nav-link" href="/seo/actions.html" title="every change the agent made, newest first">Agent Runs</a><div class="seo-nav-section">AI</div><a class="seo-nav-link" href="/seo/ai-visibility.html" title="who Claude names for buyer prompts">AI Visibility</a><a class="seo-nav-link on" href="/seo/ask.html" title="put a question to the read-only SEO analyst">Analyst</a><div class="seo-nav-section">DATA</div><a class="seo-nav-link" href="/seo/gsc.html" title="impressions, clicks, position">Search Console</a><a class="seo-nav-link" href="/seo/analytics.html" title="Vercel, first-party, GA4">Analytics</a><a class="seo-nav-link" href="/seo/semrush.html" title="historic export, API paused">Semrush</a><a class="seo-nav-link" href="/seo/dataforseo.html" title="volume, SERPs, difficulty">DataForSEO</a><div class="seo-nav-section">INTEGRATIONS</div><a class="seo-nav-link" href="/seo/connections.html" title="keys, freshness, what still needs access">Connections</a><div class="seo-nav-section">SETTINGS</div><a class="seo-nav-link" href="/seo/settings.html" title="density, exports, how a run works">Settings</a><div class="seo-nav-foot">password-gated · noindex</div></aside><header id="seo-topbar">
+  <div class="seo-topbar-main">
+    <button type="button" class="seo-nav-toggle" aria-label="Open navigation">☰</button>
+    <div>
+      <h1 class="seo-page-title">Analyst</h1>
+      <p class="seo-page-meta" data-seo-meta></p>
+    </div>
+  </div>
+  <div class="seo-topbar-actions">
+    <button type="button" class="seo-btn seo-btn-primary" data-seo-action="run">Run Agent</button>
+    <button type="button" class="seo-btn" data-seo-action="export">Export</button>
+    <a class="seo-btn seo-btn-ghost" href="/seo/settings.html">Settings</a>
+    <button type="button" class="seo-btn seo-btn-ghost" data-seo-action="help" aria-label="About this page">?</button>
+  </div>
+</header>
+<div id="seo-help-copy" hidden></div>
+
+
+
+
 <header>
   <h1>Ask the analyst</h1>
   <p class="sub">Reads the live SEO database — keywords, positions, impressions, clicks, traffic, gaps, cannibalisation
@@ -120,4 +144,32 @@ document.getElementById('starters').addEventListener('click', (e) => {
   if (e.target.tagName === 'BUTTON') ask(e.target.textContent);
 });
 </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="seo-drawer-backdrop"></div>
+<aside id="seo-drawer" aria-label="Record inspector">
+  <header>
+    <h2 id="seo-drawer-title">Inspector</h2>
+    <button type="button" class="seo-btn" onclick="window.seoCloseDrawer && seoCloseDrawer()">Close</button>
+  </header>
+  <div class="seo-drawer-body"></div>
+</aside>
+<div id="seo-modal-root"></div>
+<script src="ui/board.js"></script>
+<script src="/seo/ui/board.js"></script>
 </body></html>

@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en" class="seo-os">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>myCHEF SEO Intelligence — Settings</title>
+
+<link rel="stylesheet" href="ui/board.css">
+<link rel="stylesheet" href="/seo/ui/board.css">
+</head>
+<body class="seo-os" data-seo-page="settings.html"><aside id="seo-nav" aria-label="SEO Intelligence"><a class="seo-brand" href="/seo/index.html"><i></i><span><strong>myCHEF</strong><span>SEO Intelligence</span></span></a><div class="seo-nav-section">OVERVIEW</div><a class="seo-nav-link" href="/seo/index.html" title="every URL and its locked keywords">Board</a><a class="seo-nav-link" href="/seo/status.html" title="is every source connected and feeding data">Status</a><div class="seo-nav-section">SEARCH</div><a class="seo-nav-link" href="/seo/ownership.html" title="one row per keyword, with its score">Keywords</a><a class="seo-nav-link" href="/seo/demand.html" title="what each page's keyword set is worth">Demand</a><a class="seo-nav-link" href="/seo/report.html" title="volume, difficulty, intent, position">Research</a><a class="seo-nav-link" href="/seo/gaps.html" title="what competitors cover and we do not">Gaps</a><div class="seo-nav-section">SITE</div><a class="seo-nav-link" href="/seo/architecture.html" title="the sitemap as an authority map">Architecture</a><a class="seo-nav-link" href="/seo/links.html" title="internal link profile per URL">Links</a><div class="seo-nav-section">EXECUTION</div><a class="seo-nav-link" href="/seo/queue.html" title="ranked proposals, not applied">Queue</a><a class="seo-nav-link" href="/seo/backlog.html" title="phrases no page owns yet">Backlog</a><a class="seo-nav-link" href="/seo/actions.html" title="every change the agent made, newest first">Agent Runs</a><div class="seo-nav-section">AI</div><a class="seo-nav-link" href="/seo/ai-visibility.html" title="who Claude names for buyer prompts">AI Visibility</a><a class="seo-nav-link" href="/seo/ask.html" title="put a question to the read-only SEO analyst">Analyst</a><div class="seo-nav-section">DATA</div><a class="seo-nav-link" href="/seo/gsc.html" title="impressions, clicks, position">Search Console</a><a class="seo-nav-link" href="/seo/analytics.html" title="Vercel, first-party, GA4">Analytics</a><a class="seo-nav-link" href="/seo/semrush.html" title="historic export, API paused">Semrush</a><a class="seo-nav-link" href="/seo/dataforseo.html" title="volume, SERPs, difficulty">DataForSEO</a><div class="seo-nav-section">INTEGRATIONS</div><a class="seo-nav-link" href="/seo/connections.html" title="keys, freshness, what still needs access">Connections</a><div class="seo-nav-section">SETTINGS</div><a class="seo-nav-link on" href="/seo/settings.html" title="density, exports, how a run works">Settings</a><div class="seo-nav-foot">password-gated · noindex</div></aside><header id="seo-topbar">
+  <div class="seo-topbar-main">
+    <button type="button" class="seo-nav-toggle" aria-label="Open navigation">☰</button>
+    <div>
+      <h1 class="seo-page-title">Settings</h1>
+      <p class="seo-page-meta" data-seo-meta></p>
+    </div>
+  </div>
+  <div class="seo-topbar-actions">
+    <button type="button" class="seo-btn seo-btn-primary" data-seo-action="run">Run Agent</button>
+    <button type="button" class="seo-btn" data-seo-action="export">Export</button>
+    <a class="seo-btn seo-btn-ghost" href="/seo/settings.html">Settings</a>
+    <button type="button" class="seo-btn seo-btn-ghost" data-seo-action="help" aria-label="About this page">?</button>
+  </div>
+</header>
+<div id="seo-help-copy" hidden></div>
+
+
+
+
+<header>
+  <h1>Settings</h1>
+  <p class="sub">The board is a read surface on static files plus a password gate. Density and chrome live in the OS shell.</p>
+</header>
+<main class="seo-room">
+
+            <h2>How a run works</h2>
+            <ol class="seo-run-steps">
+              <li class="done"><span class="seo-run-dot"></span>Snapshot the site (live fetch or local dist)</li>
+              <li class="done"><span class="seo-run-dot"></span>Harvest Search Console, analytics, behaviour</li>
+              <li class="done"><span class="seo-run-dot"></span>Rebuild Keywords, Demand, Research, Links, Gaps, Architecture</li>
+              <li class="done"><span class="seo-run-dot"></span>Probe integrations · write Status · archive to Postgres</li>
+              <li class="done"><span class="seo-run-dot"></span>Publish into /seo (this shell)</li>
+            </ol>
+            <p class="seo-help"><code>docs/seo/keyword-map/run-loop.sh live</code> — nothing on this page edits copy. Optimizer writes are reversible and listed under Agent Runs.</p>
+            <h2>Access</h2>
+            <p class="seo-help">HTTP Basic Auth via <code>SEO_PASSWORD</code>. Pages send <code>X-Robots-Tag: noindex</code>. <code>/seo/robots.txt</code> disallows all agents.</p>
+            <h2>Display</h2>
+            <p class="seo-help">Tables paginate at 100 rows, sort on header click, and open a right-hand inspector. Filter chips stay on each page. Saved column layouts are not persisted on the server.</p>
+            
+</main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="seo-drawer-backdrop"></div>
+<aside id="seo-drawer" aria-label="Record inspector">
+  <header>
+    <h2 id="seo-drawer-title">Inspector</h2>
+    <button type="button" class="seo-btn" onclick="window.seoCloseDrawer && seoCloseDrawer()">Close</button>
+  </header>
+  <div class="seo-drawer-body"></div>
+</aside>
+<div id="seo-modal-root"></div>
+<script src="ui/board.js"></script>
+<script src="/seo/ui/board.js"></script>
+</body>
+</html>

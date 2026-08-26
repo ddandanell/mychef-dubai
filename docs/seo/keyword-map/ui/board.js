@@ -1,5 +1,7 @@
 /* myCHEF SEO Intelligence OS — shell behaviour. Does not change SEO scores. */
 (function () {
+  if (window.__MYCHEF_SEO_OS__) return;
+  window.__MYCHEF_SEO_OS__ = true;
   const PAGE = (document.body.getAttribute("data-seo-page") || location.pathname.split("/").pop() || "index.html").replace(/^\//, "") || "index.html";
   const FILE = PAGE.includes(".") ? PAGE : PAGE ? PAGE + ".html" : "index.html";
 
@@ -12,6 +14,9 @@
   }
 
   ready(function boot() {
+    try { bootInner(); } catch (err) { console.error(err); document.documentElement.dataset.seoReady = "1"; }
+  });
+  function bootInner() {
     document.documentElement.classList.add("seo-os");
     document.body.classList.add("seo-os");
     splitMetrics();
@@ -21,11 +26,12 @@
     enhanceTables();
     buildOpportunities();
     wireNavToggle();
-  });
+    document.documentElement.dataset.seoReady = "1";
+  }
 
   function splitMetrics() {
-    const tiles = $(".seo-os > .tiles, .seo-os .tiles").filter((el) => el.parentElement === document.body || el.previousElementSibling?.tagName === "HEADER" || el.parentElement?.tagName === "BODY");
-    const root = tiles[0] || $(".tiles")[0];
+    const tiles = $$(".seo-os > .tiles, .seo-os .tiles").filter((el) => el.parentElement === document.body || el.previousElementSibling?.tagName === "HEADER" || el.parentElement?.tagName === "BODY");
+    const root = tiles[0] || $(".tiles");
     if (!root) return;
     const cards = $$(":scope > .tile", root);
     if (cards.length <= 5) {
