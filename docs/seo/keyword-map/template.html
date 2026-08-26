@@ -75,8 +75,8 @@
 </head>
 <body>
 <header>
-  <h1>myCHEF.ae keyword map <a href="backlog.html" style="font-size:13px;font-weight:500;margin-left:14px;color:#2a78d6">Backlog</a> <a href="demand.html" style="font-size:13px;font-weight:500;margin-left:10px;color:#2a78d6">Demand</a> <a href="report.html" style="font-size:13px;font-weight:500;margin-left:10px;color:#2a78d6">Keyword report</a> <a href="ai-visibility.html" style="font-size:13px;font-weight:500;margin-left:10px;color:#2a78d6">AI visibility</a></h1>
-  <p class="sub">Every indexable URL, grouped by silo, with its locked primary, its subkeywords (cap 8), where each keyword actually appears on the live page, what is assigned twice, which primaries are echoed in other pages' headings, and what the historical keyword master still holds for that URL. Generated <span id="gen"></span>. Keyword ownership comes from the SEO contract <em>as it sits in the working tree</em> (it already carries the Phase 3–5 retirements the parallel session is preparing); placement and risk come from the live HTML of the 211 sitemap URLs fetched at the same time. Local research file — not part of the website.</p>
+  <h1>myCHEF Data Board <a href="backlog.html" style="font-size:13px;font-weight:500;margin-left:14px;color:#2a78d6">Backlog</a> <a href="demand.html" style="font-size:13px;font-weight:500;margin-left:10px;color:#2a78d6">Demand</a> <a href="report.html" style="font-size:13px;font-weight:500;margin-left:10px;color:#2a78d6">Keyword report</a> <a href="ownership.html" style="font-size:13px;font-weight:500;margin-left:10px;color:#2a78d6">Ownership</a> <a href="links.html" style="font-size:13px;font-weight:500;margin-left:10px;color:#2a78d6">Internal links</a> <a href="gaps.html" style="font-size:13px;font-weight:500;margin-left:10px;color:#2a78d6">Gaps</a> <a href="ai-visibility.html" style="font-size:13px;font-weight:500;margin-left:10px;color:#2a78d6">AI visibility</a></h1>
+  <p class="sub"><b>Every keyword this site owns, and whether the page actually says it.</b> One row per indexable URL: its locked primary, its subkeywords, where each phrase lands in the live HTML, what two pages are fighting over, and how much traffic the page earns. <span class="muted">Run by an agent — it re-reads the built site, refreshes demand, SERPs, traffic and AI answers, writes the changes it makes, and archives every run to Postgres. Generated <span id="gen"></span>. Internal tool, password-gated, never indexed.</span></p>
 </header>
 <div class="tiles" id="tiles"></div>
 <div class="filters">
@@ -148,9 +148,8 @@ const row = (r) => {
     <td class="nums">${n ? `${cov}/${n} on page` : '<span class="muted">—</span>'}</td>
     <td>${riskFlag(r)}</td>
     <td class="nums">${r.doubles.length ? `<span class="flag warn"><i></i>${r.doubles.length}</span>` : '<span class="muted">0</span>'}</td>
-    <td class="nums">${r.candidates.length || '<span class="muted">0</span>'}</td>
   </tr>
-  <tr class="detail"><td colspan="9"><div class="cols">
+  <tr class="detail"><td colspan="8"><div class="cols">
     <div><h4>Assigned keywords on this page (live placement · other pages using the phrase)</h4>
       <ul class="kws">
         ${r.primary ? `<li><span><b>${esc(r.primary)}</b> <span class="note">primary${r.primary_volume != null ? ` · ${r.primary_volume}/mo` : ''}</span></span><span class="place">${place(r.primary_place)}</span><span class="note">${scoreBadge(r.primary_place ? r.primary_place.score : null, 10)} ${r.risk ? `· ${r.risk.heading_pages.length} headings · ${r.risk.body_pages} bodies elsewhere` : ''}</span></li>` : ''}
@@ -159,8 +158,8 @@ const row = (r) => {
       </ul>
       ${r.title ? `<p class="muted" style="margin:10px 0 0">Live title: <em>${esc(r.title)}</em><br>Live H1: <em>${esc(r.h1 || '(none)')}</em>${r.h1_count > 1 ? ` <span class="flag warn"><i></i>${r.h1_count} H1s</span>` : ''} · ${r.words ?? '—'} words</p>` : ''}
     </div>
-    <div><h4>Could be added (${r.room} free slot${r.room === 1 ? '' : 's'}) — from the historical master, volumes unmeasured</h4>
-      ${r.candidates.length ? `<ul class="cands">${r.candidates.map((c) => `<li>${esc(c.kw)} <span class="role">${esc(c.role.toLowerCase())}${c.also_in_master_urls ? ` · listed on ${c.also_in_master_urls} other URL${c.also_in_master_urls > 1 ? 's' : ''} in the master` : ''}${c.elsewhere ? ' · already assigned elsewhere' : ''}</span></li>`).join('')}</ul>` : '<p class="muted">No unused candidates recorded for this URL.</p>'}
+    <div><h4>${r.room} free slot${r.room === 1 ? '' : 's'} on this page</h4>
+      <p class="muted">Phrases worth adding are researched with real UAE volume on the <a href="backlog.html">Backlog</a>, filtered to this URL. The old master list is not shown here: all 1,453 of its suggestions came without a measured volume.</p>
       ${r.risk && r.risk.heading_pages.length ? `<h4 style="margin-top:14px">Pages whose headings use this primary</h4><ul class="cands">${r.risk.heading_pages.map((u) => `<li><code>${esc(u)}</code></li>`).join('')}</ul>` : ''}
     </div>
   </div></td></tr>`;
@@ -172,7 +171,7 @@ for (const [name, rows] of Object.entries(D.silos)) {
   const active = rows.filter((r) => !r.retired && !r.noindex);
   const sec = document.createElement('section'); sec.className = 'silo'; sec.dataset.silo = name;
   sec.innerHTML = `<h2>${esc(name)} <span class="meta">${active.length} active · ${active.reduce((a, r) => a + r.subs.length, 0)} subkeywords · ${active.reduce((a, r) => a + r.room, 0)} free slots · ${active.filter((r) => r.risk && r.risk.heading_pages.length).length} collisions</span></h2>
-  <table><thead><tr><th>URL</th><th>Locked primary</th><th>Primary on page</th><th>Score</th><th>Subkeywords</th><th>Subs found</th><th>Cannibalisation risk</th><th>Doubles</th><th>Can add</th></tr></thead><tbody>${rows.map(row).join('')}</tbody></table>`;
+  <table><thead><tr><th>URL</th><th>Locked primary</th><th>Primary on page</th><th>Score</th><th>Subkeywords</th><th>Subs found</th><th>Cannibalisation risk</th><th>Doubles</th></tr></thead><tbody>${rows.map(row).join('')}</tbody></table>`;
   silosEl.appendChild(sec);
 }
 silosEl.addEventListener('click', (e) => { const tr = e.target.closest('tr.page'); if (!tr) return; tr.nextElementSibling.classList.toggle('open'); });
@@ -185,9 +184,9 @@ G.innerHTML = `
   <h2 style="margin-top:28px">Primaries echoed in other pages' headings (${D.collisions.length})</h2>
   <p>A locked primary appearing in the title, H1 or an H2 of a page that does not own it (and whose own primary does not simply contain it). These are the pages Google can confuse with the owner.</p>
   <table><thead><tr><th>Primary</th><th>Owner</th><th>Other pages using it in a heading</th><th>Body-only pages</th></tr></thead><tbody>${D.collisions.map((c) => `<tr><td class="kw">${esc(c.kw)}${c.volume != null ? `<span class="vol">${c.volume}/mo</span>` : ''}</td><td><code>${esc(c.owner)}</code></td><td>${c.heading_pages.map((u) => `<code>${esc(u)}</code>`).join(' ')}</td><td class="nums">${c.body_pages}</td></tr>`).join('') || '<tr><td colspan="4" class="muted">none</td></tr>'}</tbody></table>
-  <h2 style="margin-top:28px">Structural overlap — a primary contained in another primary (${D.containment.length})</h2>
-  <p>Expected in a hub-and-spoke site (<code>catering dubai</code> sits inside <code>bbq catering dubai</code>). Not a fault by itself; it is the list to watch when a spoke starts outranking its hub, or when two spokes differ by one word.</p>
-  <table><thead><tr><th>Shorter primary</th><th>Owner</th><th>Longer primary</th><th>Owner</th></tr></thead><tbody>${D.containment.map((c) => `<tr><td class="kw">${esc(c.short)}</td><td><code>${esc(c.short_owner)}</code></td><td class="kw">${esc(c.long)}</td><td><code>${esc(c.long_owner)}</code></td></tr>`).join('')}</tbody></table>`;
+  <h2 style="margin-top:28px">Two of our pages in one result set (${(D.serp_overlap || []).length})</h2>
+  <p>Measured, not inferred: Google returned two different myCHEF URLs for the same phrase in the last SERP capture. This is the only overlap worth acting on — one of the two should own the phrase and the other should link to it.</p>
+  <table><thead><tr><th>Phrase</th><th>Contract owner</th><th>Pages Google returned</th></tr></thead><tbody>${(D.serp_overlap || []).map((c) => `<tr><td class="kw">${esc(c.kw)}${c.volume != null ? `<span class="vol">${c.volume}/mo</span>` : ''}</td><td>${c.owner ? `<code>${esc(c.owner)}</code>` : '<span class="muted">not a contract primary</span>'}</td><td>${c.pages.map((p) => `<code>${esc(p.url)}</code> <span class="muted">#${p.rank}</span>`).join(' ')}</td></tr>`).join('') || '<tr><td colspan="3" class="muted">none in the last capture</td></tr>'}</tbody></table>`;
 
 function apply() {
   const q = $('#q').value.trim().toLowerCase(), silo = sel.value;

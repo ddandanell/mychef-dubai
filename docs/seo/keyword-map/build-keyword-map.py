@@ -195,6 +195,29 @@ for i, (a, oa) in enumerate(prims):
         if a != b and has(b, a):
             contain.append({"short": a, "short_owner": oa, "long": b, "long_owner": ob})
 
+# --- measured overlap: two of OUR urls in the same live result set ----------
+# Substring containment ("catering dubai" inside "bbq catering dubai") is how a hub-and-spoke
+# site is supposed to look — 74 pairs, none of which predicted anything. What matters is when
+# Google actually shows two of our pages for one phrase, so that is what gets listed.
+serp_overlap = []
+_sf = HERE / ".live/research/dataforseo/serps.jsonl"   # research data always lives under .live/
+if _sf.exists():
+    _seen = set()
+    for _line in _sf.read_text().splitlines():
+        try: _d = json.loads(_line)
+        except Exception: continue
+        _mine = []
+        for _i, _it in enumerate(_d.get("items") or [], start=1):
+            if "mychef.ae" not in (_it.get("domain") or ""): continue
+            _u = (_it.get("url") or "").split("mychef.ae", 1)[-1].split("?")[0].rstrip("/") or "/"
+            if _u not in [x[0] for x in _mine]: _mine.append((_u, _i))
+        if len(_mine) > 1 and _d["kw"] not in _seen:
+            _seen.add(_d["kw"])
+            serp_overlap.append({"kw": _d["kw"], "volume": vol.get(_d["kw"]),
+                                 "owner": prim_owner.get(_d["kw"]),
+                                 "pages": [{"url": u, "rank": r} for u, r in sorted(_mine, key=lambda x: x[1])]})
+    serp_overlap.sort(key=lambda c: (-(c["volume"] or 0), c["kw"]))
+
 # --- candidates to add (historical master, unvalidated) ---------------------
 by_url = collections.defaultdict(list)
 for m in master:
@@ -256,7 +279,7 @@ stats = {
     "live_ahead_of_contract": sum(1 for r in rows if (r.get("live_code") or "200") != "200" and not r["retired"]),
 }
 import datetime as _dt
-OUT.write_text(json.dumps({"generated": _dt.datetime.now().strftime("%Y-%m-%d %H:%M"), "stats": stats, "silos": silos, "doubles": doubles, "collisions": sorted([c for c in collisions if c["heading_pages"]], key=lambda c: -len(c["heading_pages"])), "containment": contain}, ensure_ascii=False))
+OUT.write_text(json.dumps({"generated": _dt.datetime.now().strftime("%Y-%m-%d %H:%M"), "stats": stats, "silos": silos, "doubles": doubles, "collisions": sorted([c for c in collisions if c["heading_pages"]], key=lambda c: -len(c["heading_pages"])), "containment": contain, "serp_overlap": serp_overlap}, ensure_ascii=False))
 tpl = (pathlib.Path(__file__).resolve().parent / "template.html").read_text()
 payload = OUT.read_text().replace("</", "<\\/")
 (pathlib.Path(__file__).resolve().parent / "index.html").write_text(tpl.replace("__DATA__", payload))
@@ -264,4 +287,4 @@ print(json.dumps(stats, indent=1))
 print("silos:", {k: len(v) for k, v in silos.items()})
 print("top heading collisions:", [(c["kw"], len(c["heading_pages"])) for c in sorted(collisions, key=lambda c: -len(c["heading_pages"]))[:8]])
 print("doubles sample:", [(d["kw"], len(d["uses"])) for d in doubles[:8]])
-print("containment pairs:", len(contain), contain[:3])
+print("containment pairs:", len(contain), "| measured SERP overlaps:", len(serp_overlap))
