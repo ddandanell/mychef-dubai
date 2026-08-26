@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>myCHEF.ae keyword map</title>
+<style>
+  :root {
+    color-scheme: light;
+    --surface: #fcfcfb; --surface-2: #f3f2ee; --line: #e2e1db; --line-strong: #c9c8c0;
+    --ink: #0b0b0b; --ink-2: #52514e; --ink-3: #84827c;
+    --bar: #2a78d6; --bar-track: #dce9f8;
+    --good: #0ca30c; --warn: #fab219; --serious: #ec835a;
+    --font: "Inter", -apple-system, system-ui, "Segoe UI", sans-serif; --mono: ui-monospace, SFMono-Regular, Menlo, monospace;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--surface); color: var(--ink); font: 14px/1.45 var(--font); }
+  header { padding: 28px 32px 18px; border-bottom: 1px solid var(--line); }
+  h1 { margin: 0 0 4px; font-size: 22px; letter-spacing: -0.01em; }
+  .sub { color: var(--ink-2); max-width: 78ch; }
+  .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; padding: 18px 32px 6px; }
+  .tile { border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; background: #fff; }
+  .tile .n { font-size: 26px; font-weight: 600; letter-spacing: -0.02em; line-height: 1.1; }
+  .tile .l { color: var(--ink-2); font-size: 12px; margin-top: 4px; }
+  .tile.serious .n { color: #a34a24; } .tile.warn .n { color: #8a5a00; } .tile.good .n { color: #0a6f0a; }
+  .filters { position: sticky; top: 0; z-index: 5; display: flex; flex-wrap: wrap; gap: 10px; align-items: center; padding: 12px 32px; background: var(--surface); border-bottom: 1px solid var(--line); }
+  .filters input[type=search] { width: 320px; padding: 7px 10px; border: 1px solid var(--line-strong); border-radius: 6px; font: inherit; }
+  .filters select { padding: 7px 8px; border: 1px solid var(--line-strong); border-radius: 6px; font: inherit; background: #fff; }
+  .filters label.tog { display: inline-flex; gap: 6px; align-items: center; color: var(--ink-2); padding: 6px 10px; border: 1px solid var(--line); border-radius: 999px; cursor: pointer; }
+  .filters label.tog:has(input:checked) { border-color: var(--ink); color: var(--ink); }
+  .filters .count { margin-left: auto; color: var(--ink-3); font-variant-numeric: tabular-nums; }
+  main { padding: 8px 32px 60px; }
+  section.silo { margin-top: 26px; }
+  section.silo > h2 { margin: 0 0 8px; font-size: 16px; display: flex; gap: 10px; align-items: baseline; }
+  section.silo > h2 .meta { color: var(--ink-3); font-weight: 400; font-size: 12px; }
+  table { width: 100%; border-collapse: collapse; background: #fff; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-2); background: var(--surface-2); font-weight: 600; white-space: nowrap; }
+  tr.page { cursor: pointer; }
+  tr.page:hover td { background: #faf9f5; }
+  tr.page.hub td:first-child { font-weight: 600; }
+  td.url { font-family: var(--mono); font-size: 12.5px; white-space: nowrap; }
+  td.url .type { display: block; color: var(--ink-3); font-family: var(--font); font-size: 11px; }
+  .kw { font-weight: 500; }
+  .vol { color: var(--ink-3); font-size: 11.5px; font-variant-numeric: tabular-nums; margin-left: 4px; }
+  .bar { display: inline-block; width: 72px; height: 6px; background: var(--bar-track); border-radius: 4px; vertical-align: middle; margin-right: 8px; overflow: hidden; }
+  .bar i { display: block; height: 100%; background: var(--bar); border-radius: 4px; }
+  .nums { font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .place { font-family: var(--mono); font-size: 12px; letter-spacing: 0.04em; white-space: nowrap; }
+  .place b { color: var(--ink); } .place s { color: var(--ink-3); text-decoration: none; opacity: .55; }
+  .flag { display: inline-flex; align-items: center; gap: 5px; font-size: 12px; padding: 2px 8px; border-radius: 999px; border: 1px solid var(--line); white-space: nowrap; }
+  .flag.good { border-color: var(--good); } .flag.warn { border-color: var(--warn); } .flag.serious { border-color: var(--serious); }
+  .flag i { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+  .flag.good i { background: var(--good); } .flag.warn i { background: var(--warn); } .flag.serious i { background: var(--serious); } .flag.none i { background: var(--line-strong); }
+  tr.detail { display: none; } tr.detail.open { display: table-row; }
+  tr.detail > td { background: #faf9f5; padding: 12px 14px 16px 26px; }
+  .cols { display: grid; grid-template-columns: 1.1fr 1fr; gap: 22px; }
+  .cols h4 { margin: 0 0 6px; font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-2); }
+  ul.kws { list-style: none; margin: 0; padding: 0; }
+  ul.kws li { display: grid; grid-template-columns: 1fr auto auto; gap: 12px; padding: 5px 0; border-bottom: 1px dashed var(--line); font-size: 13px; }
+  ul.kws li .note { color: var(--ink-3); font-size: 12px; }
+  ul.cands { columns: 2; column-gap: 24px; margin: 0; padding-left: 18px; font-size: 13px; }
+  ul.cands li { break-inside: avoid; padding: 2px 0; }
+  ul.cands li .role { color: var(--ink-3); font-size: 11.5px; }
+  .muted { color: var(--ink-3); }
+  .global { margin-top: 34px; }
+  .global h2 { font-size: 16px; margin: 0 0 6px; }
+  .global p { color: var(--ink-2); margin: 0 0 10px; max-width: 80ch; }
+  .legend { color: var(--ink-3); font-size: 12px; margin: 8px 0 0; }
+  code { font-family: var(--mono); font-size: 12px; background: var(--surface-2); padding: 1px 5px; border-radius: 4px; }
+  tr.hidden { display: none; }
+  @media (max-width: 900px) { .cols { grid-template-columns: 1fr; } .filters input[type=search] { width: 100%; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>myCHEF.ae keyword map <a href="backlog.html" style="font-size:13px;font-weight:500;margin-left:14px;color:#2a78d6">→ Backlog: found, not yet placed</a></h1>
+  <p class="sub">Every indexable URL, grouped by silo, with its locked primary, its subkeywords (cap 8), where each keyword actually appears on the live page, what is assigned twice, which primaries are echoed in other pages' headings, and what the historical keyword master still holds for that URL. Generated <span id="gen"></span>. Keyword ownership comes from the SEO contract <em>as it sits in the working tree</em> (it already carries the Phase 3–5 retirements the parallel session is preparing); placement and risk come from the live HTML of the 211 sitemap URLs fetched at the same time. Local research file — not part of the website.</p>
+</header>
+<div class="tiles" id="tiles"></div>
+<div class="filters">
+  <input type="search" id="q" placeholder="Search URL or keyword…">
+  <select id="silo"><option value="">All silos</option></select>
+  <label class="tog"><input type="checkbox" id="fRoom"> has room</label>
+  <label class="tog"><input type="checkbox" id="fRisk"> heading collision</label>
+  <label class="tog"><input type="checkbox" id="fDouble"> assigned twice</label>
+  <label class="tog"><input type="checkbox" id="fMiss"> primary not in title/H1</label>
+  <label class="tog"><input type="checkbox" id="fLow"> primary score below 7</label>
+  <label class="tog"><input type="checkbox" id="fRetired"> show retired / noindex</label>
+  <span class="count" id="count"></span>
+</div>
+<main>
+  <div id="silos"></div>
+  <div class="global" id="global"></div>
+  <p class="legend">Placement letters: <code>T</code> title · <code>D</code> meta description · <code>H1</code> · <code>H2</code> · <code>F</code> first 100 words · <code>B</code> body, <code>×n</code> = times used in the body. Dim = not found on the live page. Primary score /10: title 3 · H1 3 · description 2 · one H2 1 · used at least twice 1. Subkeyword score /4: body mentions (max 3) + description 1; a sub inside a title/H1/H2 is flagged, because the contract allows subkeywords in sentences only. "Other pages" counts live pages (excluding the owner) where the phrase appears anywhere. Volumes exist only for the private-chef cluster (Semrush UAE, 25 Aug 2026); everything else is unmeasured — see docs/seo/CONSOLIDATION-PLAN.md §3.</p>
+</main>
+<script id="data" type="application/json">__DATA__</script>
+<script>
+const D = JSON.parse(document.getElementById('data').textContent);
+const $ = (s, el = document) => el.querySelector(s);
+const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+document.getElementById('gen').textContent = D.generated;
+
+const S = D.stats;
+const tiles = [
+  ['Active pages', S.pages_active, `${S.pages_retired} retired · ${S.pages_noindex} noindex`, ''],
+  ['Locked primaries', S.primaries, `${S.measured_volumes} with a measured volume`, ''],
+  ['Subkeywords', S.subkeywords, `avg ${S.avg_subs} per page · cap 8`, ''],
+  ['Room to add', S.room_total, `${S.pages_with_room} pages have free slots`, 'good'],
+  ['Assigned twice', S.doubles, 'same phrase on 2+ pages', S.doubles ? 'warn' : 'good'],
+  ['Heading collisions', S.heading_collisions, 'a primary used in another page\'s title/H1/H2', S.heading_collisions ? 'serious' : 'good'],
+  ['Primary not in H1', S.primary_missing_h1, `${S.primary_missing_title} also missing from title`, 'warn'],
+  ['Subkeywords found on own page', (() => { let f = 0; for (const rows of Object.values(D.silos)) for (const r of rows) if (!r.retired && !r.noindex) for (const s of r.subs) if (s.place && (s.place.body || s.place.title || s.place.h1 || s.place.h2)) f += 1; return f; })(), `of ${S.subkeywords} assigned — the rest are logged but the copy never says them`, 'serious'],
+  ['Primary score', `${S.primary_score_avg}/10`, `${S.primary_score_full} pages at 10/10 · title 3 · H1 3 · description 2 · H2 1 · used twice 1`, S.primary_score_avg >= 8 ? 'good' : S.primary_score_avg >= 5 ? 'warn' : 'serious'],
+  ['Subkeywords in headings', S.sub_violations, 'contract: subs in sentences only', S.sub_violations ? 'warn' : 'good'],
+  ['Live ahead of contract', S.live_ahead_of_contract, `${S.live_redirecting} sitemap URLs redirect live`, S.live_ahead_of_contract ? 'serious' : 'good'],
+];
+$('#tiles').innerHTML = tiles.map(([l, n, sub, cls]) => `<div class="tile ${cls}"><div class="n">${n}</div><div class="l">${l}<br><span class="muted">${sub}</span></div></div>`).join('');
+
+const place = (p) => !p ? '<span class="muted">no live page</span>' : ['title', 'description', 'h1', 'h2', 'first100', 'body'].map((k, i) => { const L = ['T', 'D', 'H1', 'H2', 'F', 'B'][i]; return p[k] ? `<b>${L}</b>` : `<s>${L}</s>`; }).join(' ') + (p.count ? ` <span class="muted">×${p.count}</span>` : '');
+const scoreBadge = (n, max) => n == null ? '<span class="muted">—</span>' : `<span class="flag ${n >= max ? 'good' : n >= max / 2 ? 'warn' : 'serious'}"><i></i>${n}/${max}</span>`;
+const riskFlag = (r) => {
+  if (!r.primary) return '<span class="flag none"><i></i>untargeted</span>';
+  if (!r.risk) return '<span class="flag none"><i></i>no live data</span>';
+  const h = r.risk.heading_pages.length, b = r.risk.body_pages;
+  if (h) return `<span class="flag serious" title="${esc(r.risk.heading_pages.join(', '))}"><i></i>in ${h} other heading${h > 1 ? 's' : ''}</span>`;
+  if (b >= 8) return `<span class="flag warn"><i></i>body of ${b} pages</span>`;
+  return `<span class="flag good"><i></i>own${b ? ` · ${b} body mention${b > 1 ? 's' : ''}` : ''}</span>`;
+};
+const liveFlag = (r) => {
+  if (r.retired) return `<span class="flag none"><i></i>retired → ${esc(r.redirect_to || '').replace('https://www.mychef.ae', '')}</span>`;
+  if (r.noindex) return '<span class="flag none"><i></i>noindex</span>';
+  if (r.live_code && r.live_code !== '200') return `<span class="flag serious"><i></i>live ${esc(r.live_code)} → ${esc(r.live_to || '')} (contract says active)</span>`;
+  if (r.shell) return '<span class="flag warn"><i></i>live page is a shell</span>';
+  return '';
+};
+const row = (r) => {
+  const n = r.subs.length, cov = r.subs.filter((s) => s.place && (s.place.body || s.place.title || s.place.h1 || s.place.h2)).length;
+  const kwsCell = r.primary ? `<span class="kw">${esc(r.primary)}</span>${r.primary_volume != null ? `<span class="vol">${r.primary_volume}/mo</span>` : ''}` : '<span class="muted">— (untargeted by decision)</span>';
+  const miss = r.primary && r.primary_place && !(r.primary_place.title && r.primary_place.h1);
+  return `<tr class="page ${r.is_hub ? 'hub' : ''}" data-url="${esc(r.url)}" data-silo="${esc(r.silo)}" data-room="${r.room}" data-risk="${r.risk && r.risk.heading_pages.length ? 1 : 0}" data-double="${r.doubles.length ? 1 : 0}" data-miss="${miss ? 1 : 0}" data-low="${r.keyword_score.primary != null && r.keyword_score.primary < 7 ? 1 : 0}" data-inactive="${r.retired || r.noindex ? 1 : 0}" data-text="${esc((r.url + ' ' + r.primary + ' ' + r.subs.map((s) => s.kw).join(' ') + ' ' + (r.title || '')).toLowerCase())}">
+    <td class="url">${esc(r.url)}<span class="type">${esc(r.page_type || '')}${r.is_hub ? ' · hub' : ''}</span></td>
+    <td>${kwsCell}<div>${liveFlag(r)}</div></td>
+    <td class="place">${r.primary ? place(r.primary_place) : '<span class="muted">—</span>'}</td>
+    <td class="nums">${scoreBadge(r.keyword_score.primary, 10)}${r.keyword_score.sub_violations ? ` <span class="flag serious" title="a subkeyword sits in a heading — the contract allows subs in sentences only"><i></i>${r.keyword_score.sub_violations} sub in heading</span>` : ''}</td>
+    <td class="nums"><span class="bar"><i style="width:${Math.round((n / r.cap) * 100)}%"></i></span>${n}/${r.cap} · <span class="${r.room ? '' : 'muted'}">${r.room} free</span></td>
+    <td class="nums">${n ? `${cov}/${n} on page` : '<span class="muted">—</span>'}</td>
+    <td>${riskFlag(r)}</td>
+    <td class="nums">${r.doubles.length ? `<span class="flag warn"><i></i>${r.doubles.length}</span>` : '<span class="muted">0</span>'}</td>
+    <td class="nums">${r.candidates.length || '<span class="muted">0</span>'}</td>
+  </tr>
+  <tr class="detail"><td colspan="9"><div class="cols">
+    <div><h4>Assigned keywords on this page (live placement · other pages using the phrase)</h4>
+      <ul class="kws">
+        ${r.primary ? `<li><span><b>${esc(r.primary)}</b> <span class="note">primary${r.primary_volume != null ? ` · ${r.primary_volume}/mo` : ''}</span></span><span class="place">${place(r.primary_place)}</span><span class="note">${scoreBadge(r.primary_place ? r.primary_place.score : null, 10)} ${r.risk ? `· ${r.risk.heading_pages.length} headings · ${r.risk.body_pages} bodies elsewhere` : ''}</span></li>` : ''}
+        ${r.subs.map((s) => `<li><span>${esc(s.kw)} ${r.doubles.includes(s.kw.toLowerCase()) ? '<span class="flag warn"><i></i>also assigned elsewhere</span>' : ''}${s.volume != null ? `<span class="vol">${s.volume}/mo</span>` : ''}${s.place && s.place.violation ? ' <span class="flag serious"><i></i>in a heading</span>' : ''}</span><span class="place">${place(s.place)}</span><span class="note">${scoreBadge(s.place ? s.place.score : null, 4)} ${s.other_pages != null ? `· ${s.other_pages} other page${s.other_pages === 1 ? '' : 's'}` : ''}</span></li>`).join('')}
+        ${!r.subs.length && !r.primary ? '<li class="muted">nothing assigned</li>' : ''}
+      </ul>
+      ${r.title ? `<p class="muted" style="margin:10px 0 0">Live title: <em>${esc(r.title)}</em><br>Live H1: <em>${esc(r.h1 || '(none)')}</em>${r.h1_count > 1 ? ` <span class="flag warn"><i></i>${r.h1_count} H1s</span>` : ''} · ${r.words ?? '—'} words</p>` : ''}
+    </div>
+    <div><h4>Could be added (${r.room} free slot${r.room === 1 ? '' : 's'}) — from the historical master, volumes unmeasured</h4>
+      ${r.candidates.length ? `<ul class="cands">${r.candidates.map((c) => `<li>${esc(c.kw)} <span class="role">${esc(c.role.toLowerCase())}${c.also_in_master_urls ? ` · listed on ${c.also_in_master_urls} other URL${c.also_in_master_urls > 1 ? 's' : ''} in the master` : ''}${c.elsewhere ? ' · already assigned elsewhere' : ''}</span></li>`).join('')}</ul>` : '<p class="muted">No unused candidates recorded for this URL.</p>'}
+      ${r.risk && r.risk.heading_pages.length ? `<h4 style="margin-top:14px">Pages whose headings use this primary</h4><ul class="cands">${r.risk.heading_pages.map((u) => `<li><code>${esc(u)}</code></li>`).join('')}</ul>` : ''}
+    </div>
+  </div></td></tr>`;
+};
+
+const silosEl = $('#silos'); const sel = $('#silo');
+for (const [name, rows] of Object.entries(D.silos)) {
+  const opt = document.createElement('option'); opt.value = name; opt.textContent = `${name} (${rows.length})`; sel.appendChild(opt);
+  const active = rows.filter((r) => !r.retired && !r.noindex);
+  const sec = document.createElement('section'); sec.className = 'silo'; sec.dataset.silo = name;
+  sec.innerHTML = `<h2>${esc(name)} <span class="meta">${active.length} active · ${active.reduce((a, r) => a + r.subs.length, 0)} subkeywords · ${active.reduce((a, r) => a + r.room, 0)} free slots · ${active.filter((r) => r.risk && r.risk.heading_pages.length).length} collisions</span></h2>
+  <table><thead><tr><th>URL</th><th>Locked primary</th><th>Primary on page</th><th>Score</th><th>Subkeywords</th><th>Subs found</th><th>Cannibalisation risk</th><th>Doubles</th><th>Can add</th></tr></thead><tbody>${rows.map(row).join('')}</tbody></table>`;
+  silosEl.appendChild(sec);
+}
+silosEl.addEventListener('click', (e) => { const tr = e.target.closest('tr.page'); if (!tr) return; tr.nextElementSibling.classList.toggle('open'); });
+
+const G = $('#global');
+G.innerHTML = `
+  <h2>Assigned twice (${D.doubles.length})</h2>
+  <p>The same phrase carried by two or more active pages. One owner per exact phrase is the rule; a second page may still say it in a sentence, but it should not be listed as that page's keyword.</p>
+  <table><thead><tr><th>Keyword</th><th>Pages</th></tr></thead><tbody>${D.doubles.map((d) => `<tr><td class="kw">${esc(d.kw)}</td><td>${d.uses.map((u) => `<code>${esc(u.url)}</code> <span class="muted">${u.role}</span>`).join(' · ')}</td></tr>`).join('') || '<tr><td colspan="2" class="muted">none</td></tr>'}</tbody></table>
+  <h2 style="margin-top:28px">Primaries echoed in other pages' headings (${D.collisions.length})</h2>
+  <p>A locked primary appearing in the title, H1 or an H2 of a page that does not own it (and whose own primary does not simply contain it). These are the pages Google can confuse with the owner.</p>
+  <table><thead><tr><th>Primary</th><th>Owner</th><th>Other pages using it in a heading</th><th>Body-only pages</th></tr></thead><tbody>${D.collisions.map((c) => `<tr><td class="kw">${esc(c.kw)}${c.volume != null ? `<span class="vol">${c.volume}/mo</span>` : ''}</td><td><code>${esc(c.owner)}</code></td><td>${c.heading_pages.map((u) => `<code>${esc(u)}</code>`).join(' ')}</td><td class="nums">${c.body_pages}</td></tr>`).join('') || '<tr><td colspan="4" class="muted">none</td></tr>'}</tbody></table>
+  <h2 style="margin-top:28px">Structural overlap — a primary contained in another primary (${D.containment.length})</h2>
+  <p>Expected in a hub-and-spoke site (<code>catering dubai</code> sits inside <code>bbq catering dubai</code>). Not a fault by itself; it is the list to watch when a spoke starts outranking its hub, or when two spokes differ by one word.</p>
+  <table><thead><tr><th>Shorter primary</th><th>Owner</th><th>Longer primary</th><th>Owner</th></tr></thead><tbody>${D.containment.map((c) => `<tr><td class="kw">${esc(c.short)}</td><td><code>${esc(c.short_owner)}</code></td><td class="kw">${esc(c.long)}</td><td><code>${esc(c.long_owner)}</code></td></tr>`).join('')}</tbody></table>`;
+
+function apply() {
+  const q = $('#q').value.trim().toLowerCase(), silo = sel.value;
+  const fRoom = $('#fRoom').checked, fRisk = $('#fRisk').checked, fDouble = $('#fDouble').checked, fMiss = $('#fMiss').checked, fRet = $('#fRetired').checked, fLow = $('#fLow').checked;
+  let shown = 0;
+  document.querySelectorAll('tr.page').forEach((tr) => {
+    const d = tr.dataset;
+    let ok = (!silo || d.silo === silo) && (!q || d.text.includes(q)) && (!fRoom || +d.room > 0) && (!fRisk || d.risk === '1') && (!fDouble || d.double === '1') && (!fMiss || d.miss === '1') && (!fLow || d.low === '1') && (fRet || d.inactive === '0');
+    tr.classList.toggle('hidden', !ok); tr.nextElementSibling.classList.toggle('hidden', !ok); if (!ok) tr.nextElementSibling.classList.remove('open');
+    if (ok) shown += 1;
+  });
+  document.querySelectorAll('section.silo').forEach((s) => { s.style.display = s.querySelector('tr.page:not(.hidden)') ? '' : 'none'; });
+  $('#count').textContent = `${shown} pages shown`;
+}
+['q', 'silo', 'fRoom', 'fRisk', 'fDouble', 'fMiss', 'fLow', 'fRetired'].forEach((id) => document.getElementById(id).addEventListener('input', apply));
+apply();
+</script>
+</body>
+</html>

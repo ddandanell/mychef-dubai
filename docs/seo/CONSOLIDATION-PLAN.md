@@ -104,6 +104,10 @@ Target end state: roughly 60–100 indexable pages where every page has a job �
 
 ---
 
-## 6. The rule for any future URL
+## 6. Keyword map, backlog and locks (added 26 Aug, later the same day)
+
+`docs/seo/keyword-map/` holds the local research layer: the **map** (`index.html` — every URL's locked primary, subkeywords, live placement with per-keyword scores, doubles, cannibalisation risk), the **backlog** (`backlog.html` — researched phrases no page owns yet, grouped by suggested page), the autocomplete harvest, and `fill-subkeywords.py`, which filled every page's slots from the pool under strict rules (see its README). The contract is now projected into code: `npm run seo:locks` writes a KEYWORD LOCK header into every page component and `src/content/keywordLocks.ts`; `npm run verify:keyword-locks` fails on drift. Add both to the release gate in §2.
+
+## 7. The rule for any future URL
 
 > Do not create another indexable URL unless it represents a materially different user intent from every existing URL. If an existing page can satisfy the intent with a section, add the section. If two URLs satisfy the same intent, keep the stronger page, merge the useful content, `retire-url.py` the weaker one, and let `verify-retirements.py` prove the four signals agree.

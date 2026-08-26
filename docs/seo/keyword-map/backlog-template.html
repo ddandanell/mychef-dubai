@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>myCHEF.ae keyword backlog</title>
+<style>
+  :root { color-scheme: light; --surface:#fcfcfb; --surface-2:#f3f2ee; --line:#e2e1db; --line-strong:#c9c8c0; --ink:#0b0b0b; --ink-2:#52514e; --ink-3:#84827c; --accent:#2a78d6; --good:#0ca30c; --warn:#fab219; --serious:#ec835a; --font:"Inter",-apple-system,system-ui,"Segoe UI",sans-serif; --mono:ui-monospace,SFMono-Regular,Menlo,monospace; }
+  * { box-sizing:border-box } body { margin:0; background:var(--surface); color:var(--ink); font:14px/1.45 var(--font) }
+  header { padding:28px 32px 18px; border-bottom:1px solid var(--line) } h1 { margin:0 0 4px; font-size:22px } h1 a { font-size:13px; font-weight:500; margin-left:14px; color:var(--accent) }
+  .sub { color:var(--ink-2); max-width:84ch }
+  .tiles { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:10px; padding:18px 32px 6px }
+  .tile { border:1px solid var(--line); border-radius:8px; padding:12px 14px; background:#fff } .tile .n { font-size:26px; font-weight:600; line-height:1.1 } .tile .l { color:var(--ink-2); font-size:12px; margin-top:4px }
+  .filters { position:sticky; top:0; z-index:5; display:flex; flex-wrap:wrap; gap:10px; align-items:center; padding:12px 32px; background:var(--surface); border-bottom:1px solid var(--line) }
+  .filters input[type=search] { width:320px; padding:7px 10px; border:1px solid var(--line-strong); border-radius:6px; font:inherit } .filters select { padding:7px 8px; border:1px solid var(--line-strong); border-radius:6px; font:inherit; background:#fff }
+  .filters label.tog { display:inline-flex; gap:6px; align-items:center; color:var(--ink-2); padding:6px 10px; border:1px solid var(--line); border-radius:999px; cursor:pointer } .filters label.tog:has(input:checked) { border-color:var(--ink); color:var(--ink) }
+  .filters .count { margin-left:auto; color:var(--ink-3); font-variant-numeric:tabular-nums }
+  main { padding:8px 32px 60px }
+  section.grp { margin-top:26px } section.grp > h2 { margin:0 0 8px; font-size:15px; display:flex; gap:10px; align-items:baseline; font-family:var(--mono) } section.grp > h2 .meta { color:var(--ink-3); font-weight:400; font-size:12px; font-family:var(--font) }
+  table { width:100%; border-collapse:collapse; background:#fff; border:1px solid var(--line); border-radius:8px; overflow:hidden } th,td { text-align:left; padding:7px 10px; border-bottom:1px solid var(--line); vertical-align:top }
+  th { font-size:11px; text-transform:uppercase; letter-spacing:.06em; color:var(--ink-2); background:var(--surface-2); font-weight:600; white-space:nowrap }
+  td.kw { font-weight:500 } .muted { color:var(--ink-3) } code { font-family:var(--mono); font-size:12px; background:var(--surface-2); padding:1px 5px; border-radius:4px }
+  .flag { display:inline-flex; align-items:center; gap:5px; font-size:12px; padding:2px 8px; border-radius:999px; border:1px solid var(--line); white-space:nowrap } .flag i { width:8px; height:8px; border-radius:50%; display:inline-block; background:var(--line-strong) }
+  .flag.sales i { background:var(--good) } .flag.long-tail i { background:var(--accent) } .flag.informational i { background:var(--warn) } .flag.brand i,.flag.recruitment i { background:var(--serious) }
+  .src { color:var(--ink-3); font-size:11.5px } .nums { font-variant-numeric:tabular-nums; white-space:nowrap }
+  tr.hidden { display:none } .legend { color:var(--ink-3); font-size:12px; margin-top:10px }
+  @media (max-width:900px) { .filters input[type=search] { width:100% } }
+</style>
+</head>
+<body>
+<header>
+  <h1>myCHEF.ae keyword backlog <a href="index.html">← Keyword map</a></h1>
+  <p class="sub">Phrases found in research that no page owns yet — grouped by the page they most plausibly belong to, with that page's free subkeyword slots. Sources: Google autocomplete for the UAE (real queries, no volumes), Bing autosuggest (en-AE), the owner's Semrush export (only <code>ae</code> rows carry a UAE volume; <code>us</code> rows are phrasing hints), and the historical keyword master. Anything already owned in the contract, containing a banned term, or from the Bali database is excluded. Generated <span id="gen"></span>. Local research file.</p>
+</header>
+<div class="tiles" id="tiles"></div>
+<div class="filters">
+  <input type="search" id="q" placeholder="Search phrase or page…">
+  <select id="intent"><option value="">All intents</option><option>sales</option><option>long-tail</option><option>informational</option><option>brand / competitor</option><option>recruitment</option></select>
+  <select id="src"><option value="">All sources</option></select>
+  <select id="silo"><option value="">All silos</option></select>
+  <label class="tog"><input type="checkbox" id="fVol"> has UAE volume</label>
+  <label class="tog"><input type="checkbox" id="fSaid"> already said on a page</label>
+  <label class="tog"><input type="checkbox" id="fRoom"> target page has room</label>
+  <span class="count" id="count"></span>
+</div>
+<main>
+  <div id="groups"></div>
+  <p class="legend">Intent is a rule-of-thumb from the words in the phrase (hire/price/packages → sales; how/ideas/menu → informational; jobs/salary → recruitment, which the contract boxes to <code>/become-a-mychef</code> only; known brands → competitor, do not target). "Suggested page" is token overlap with the page's primary, subkeywords and slug plus the query that surfaced it — a starting point for you to decide, not a decision. "Already said on" lists live pages whose body contains the exact phrase: often the natural home.</p>
+</main>
+<script id="data" type="application/json">__DATA__</script>
+<script>
+const D = JSON.parse(document.getElementById('data').textContent);
+const $ = (s) => document.querySelector(s);
+const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+$('#gen').textContent = D.generated;
+const S = D.stats;
+$('#tiles').innerHTML = [
+  ['Unplaced phrases', S.total, 'found, not owned by any page'],
+  ['Sales intent', S.by_intent['sales'] || 0, 'hire / price / packages / service'],
+  ['Long-tail', S.by_intent['long-tail'] || 0, 'no modifier — specific need'],
+  ['Informational', S.by_intent['informational'] || 0, 'guide / ideas / how — blog or FAQ material'],
+  ['With UAE volume', S.with_ae_volume, 'from the Semrush export'],
+  ['Already said on a page', S.already_said, 'exact phrase exists live — log it there'],
+  ['Pages with suggestions', S.pages_with_suggestions, `${S.no_home} phrases have no obvious home`],
+].map(([l, n, sub]) => `<div class="tile"><div class="n">${n}</div><div class="l">${l}<br><span class="muted">${sub}</span></div></div>`).join('');
+
+const srcSel = $('#src'); Object.keys(S.by_source).sort().forEach((s) => { const o = document.createElement('option'); o.value = s; o.textContent = `${s} (${S.by_source[s]})`; srcSel.appendChild(o); });
+const groups = {};
+for (const r of D.rows) { const key = r.suggested || 'No obvious home'; (groups[key] ||= []).push(r); }
+const silos = new Set(); for (const r of D.rows) silos.add(r.silo || 'No obvious home');
+const siloSel = $('#silo'); [...silos].sort().forEach((s) => { const o = document.createElement('option'); o.value = s; o.textContent = s; siloSel.appendChild(o); });
+const cap = D.capacity;
+const order = Object.keys(groups).sort((a, b) => (a === 'No obvious home') - (b === 'No obvious home') || (cap[a]?.silo || '').localeCompare(cap[b]?.silo || '') || a.localeCompare(b));
+const flag = (i) => `<span class="flag ${i.split(' ')[0]}"><i></i>${esc(i)}</span>`;
+$('#groups').innerHTML = order.map((page) => {
+  const rows = groups[page]; const c = cap[page];
+  return `<section class="grp" data-silo="${esc(rows[0].silo || 'No obvious home')}"><h2>${esc(page)} <span class="meta">${c ? `${esc(c.silo)} · primary “${esc(c.primary)}” · ${c.room} free slot${c.room === 1 ? '' : 's'}` : 'phrases with no clear owner — decide by hand'} · ${rows.length} phrase${rows.length === 1 ? '' : 's'}</span></h2>
+  <table><thead><tr><th>Phrase</th><th>Intent</th><th>Volume</th><th>Sources</th><th>Alternatives</th><th>Already said on</th></tr></thead><tbody>
+  ${rows.map((r) => `<tr data-intent="${esc(r.intent)}" data-src="${esc(r.sources.join('|'))}" data-silo="${esc(r.silo || 'No obvious home')}" data-vol="${r.vol_ae ? 1 : 0}" data-said="${r.already_said_on.length ? 1 : 0}" data-room="${r.room > 0 ? 1 : 0}" data-text="${esc((r.kw + ' ' + (r.suggested || '') + ' ' + r.alternatives.join(' ')).toLowerCase())}">
+    <td class="kw">${esc(r.kw)}</td><td>${flag(r.intent)}</td>
+    <td class="nums">${r.vol_ae != null ? `${r.vol_ae}/mo UAE${r.kd ? ` · KD ${esc(r.kd)}` : ''}` : r.vol_us != null ? `<span class="muted">${r.vol_us}/mo US only</span>` : '<span class="muted">—</span>'}</td>
+    <td class="src">${r.sources.map(esc).join(', ')}</td>
+    <td>${r.alternatives.map((u) => `<code>${esc(u)}</code>`).join(' ') || '<span class="muted">—</span>'}</td>
+    <td>${r.already_said_on.map((u) => `<code>${esc(u)}</code>`).join(' ') || '<span class="muted">—</span>'}</td></tr>`).join('')}
+  </tbody></table></section>`;
+}).join('');
+
+function apply() {
+  const q = $('#q').value.trim().toLowerCase(), it = $('#intent').value, src = srcSel.value, silo = siloSel.value;
+  const fVol = $('#fVol').checked, fSaid = $('#fSaid').checked, fRoom = $('#fRoom').checked; let n = 0;
+  document.querySelectorAll('tbody tr').forEach((tr) => {
+    const d = tr.dataset;
+    const ok = (!q || d.text.includes(q)) && (!it || d.intent === it) && (!src || d.src.split('|').includes(src)) && (!silo || d.silo === silo) && (!fVol || d.vol === '1') && (!fSaid || d.said === '1') && (!fRoom || d.room === '1');
+    tr.classList.toggle('hidden', !ok); if (ok) n += 1;
+  });
+  document.querySelectorAll('section.grp').forEach((s) => { s.style.display = s.querySelector('tbody tr:not(.hidden)') ? '' : 'none'; });
+  $('#count').textContent = `${n} phrases shown`;
+}
+['q', 'intent', 'src', 'silo', 'fVol', 'fSaid', 'fRoom'].forEach((id) => document.getElementById(id).addEventListener('input', apply));
+apply();
+</script>
+</body>
+</html>

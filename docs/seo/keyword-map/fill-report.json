@@ -1,0 +1,738 @@
+{
+ "generated": "2026-08-26 09:10",
+ "doubles_resolved": [],
+ "added": {
+  "/conference-catering-dubai": [
+   {
+    "kw": "catering & conference services coordinator",
+    "score": 25,
+    "intent": "sales",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   },
+   {
+    "kw": "catering conference 2025",
+    "score": 23,
+    "intent": "long-tail",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   }
+  ],
+  "/gift-cards": [
+   {
+    "kw": "green chef offers gift cards",
+    "score": 25,
+    "intent": "sales",
+    "sources": [
+     "bing-autosuggest"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   },
+   {
+    "kw": "chef delivered gift cards",
+    "score": 23,
+    "intent": "long-tail",
+    "sources": [
+     "bing-autosuggest"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   },
+   {
+    "kw": "chef delivery service gift cards",
+    "score": 19,
+    "intent": "sales",
+    "sources": [
+     "bing-autosuggest"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   },
+   {
+    "kw": "home chef deals on gift cards",
+    "score": 19,
+    "intent": "sales",
+    "sources": [
+     "bing-autosuggest"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   }
+  ],
+  "/private-jet-catering-dubai": [
+   {
+    "kw": "aire private jet catering",
+    "score": 23,
+    "intent": "long-tail",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   },
+   {
+    "kw": "belgium private jet catering",
+    "score": 23,
+    "intent": "long-tail",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   }
+  ],
+  "/": [
+   {
+    "kw": "private chef or catering",
+    "score": 22,
+    "intent": "long-tail",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": true
+   }
+  ],
+  "/booking-protection-insurance": [
+   {
+    "kw": "catering booking cancellation policy",
+    "score": 21,
+    "intent": "sales",
+    "sources": [
+     "bing-autosuggest"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   }
+  ],
+  "/diwali-catering-dubai": [
+   {
+    "kw": "diwali food catering near me",
+    "score": 20,
+    "intent": "sales",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   }
+  ],
+  "/villas-private-residences": [
+   {
+    "kw": "villa with chef france",
+    "score": 20,
+    "intent": "long-tail",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   }
+  ],
+  "/ramadan-catering-guide-dubai": [
+   {
+    "kw": "ramadan catering menu",
+    "score": 18,
+    "intent": "informational",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   }
+  ],
+  "/tourist-villa-chef-dubai": [
+   {
+    "kw": "holiday cottage with chef",
+    "score": 17,
+    "intent": "long-tail",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   }
+  ],
+  "/guides": [
+   {
+    "kw": "catering delivery checklist",
+    "score": 15,
+    "intent": "sales",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   },
+   {
+    "kw": "catering order checklist",
+    "score": 15,
+    "intent": "sales",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   },
+   {
+    "kw": "catering event checklist",
+    "score": 14,
+    "intent": "long-tail",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   },
+   {
+    "kw": "catering food checklist",
+    "score": 14,
+    "intent": "long-tail",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   }
+  ],
+  "/blog/private-chef-vs-restaurant-dubai": [
+   {
+    "kw": "cost of a private chef",
+    "score": 15,
+    "intent": "sales",
+    "sources": [
+     "bing-autosuggest"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   }
+  ],
+  "/become-a-mychef": [
+   {
+    "kw": "private chef and catering",
+    "score": 15,
+    "intent": "long-tail",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": true
+   }
+  ],
+  "/yacht-catering-checklist-dubai": [
+   {
+    "kw": "catering menu checklist",
+    "score": 14,
+    "intent": "informational",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   },
+   {
+    "kw": "catering checklist example",
+    "score": 13,
+    "intent": "informational",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   },
+   {
+    "kw": "catering service checklist",
+    "score": 10,
+    "intent": "sales",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   }
+  ],
+  "/venue-partners": [
+   {
+    "kw": "cwru preferred caterer",
+    "score": 14,
+    "intent": "long-tail",
+    "sources": [
+     "bing-autosuggest"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   },
+   {
+    "kw": "fiu preferred caterer",
+    "score": 14,
+    "intent": "long-tail",
+    "sources": [
+     "bing-autosuggest"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   },
+   {
+    "kw": "preferred caterer agreement",
+    "score": 14,
+    "intent": "long-tail",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   },
+   {
+    "kw": "preferred caterer program",
+    "score": 14,
+    "intent": "long-tail",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   },
+   {
+    "kw": "what does preferred caterer mean",
+    "score": 12,
+    "intent": "informational",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   }
+  ],
+  "/locations/difc": [
+   {
+    "kw": "fine dining in difc",
+    "score": 14,
+    "intent": "long-tail",
+    "sources": [
+     "bing-autosuggest"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   }
+  ],
+  "/locations/jlt": [
+   {
+    "kw": "business lunch in jlt",
+    "score": 13,
+    "intent": "long-tail",
+    "sources": [
+     "bing-autosuggest"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   }
+  ],
+  "/locations/dubai-hills": [
+   {
+    "kw": "dubai hills business lunch",
+    "score": 13,
+    "intent": "long-tail",
+    "sources": [
+     "bing-autosuggest"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   }
+  ],
+  "/how-we-vet-our-chefs": [
+   {
+    "kw": "find a private chef",
+    "score": 13,
+    "intent": "long-tail",
+    "sources": [
+     "bing-autosuggest"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   },
+   {
+    "kw": "personal chef services faq",
+    "score": 12,
+    "intent": "sales",
+    "sources": [
+     "bing-autosuggest"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   },
+   {
+    "kw": "personal chef services report",
+    "score": 12,
+    "intent": "sales",
+    "sources": [
+     "bing-autosuggest"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   }
+  ],
+  "/brand-activation-catering-dubai": [
+   {
+    "kw": "top catering services provider in dubai",
+    "score": 13,
+    "intent": "sales",
+    "sources": [
+     "bing-autosuggest"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   }
+  ],
+  "/yacht-catering-guide-dubai": [
+   {
+    "kw": "yacht food ideas",
+    "score": 13,
+    "intent": "informational",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   }
+  ],
+  "/blog/how-far-ahead-book-caterer-dubai": [
+   {
+    "kw": "best time to hire cooking caterer",
+    "score": 12,
+    "intent": "sales",
+    "sources": [
+     "bing-autosuggest"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   },
+   {
+    "kw": "best time to hire event caterer",
+    "score": 12,
+    "intent": "sales",
+    "sources": [
+     "bing-autosuggest"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   },
+   {
+    "kw": "best time to hire meal caterer",
+    "score": 12,
+    "intent": "sales",
+    "sources": [
+     "bing-autosuggest"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   }
+  ],
+  "/product-launch-catering-dubai": [
+   {
+    "kw": "catering planning checklist",
+    "score": 12,
+    "intent": "long-tail",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": true
+   }
+  ],
+  "/partners/villa-rentals-dubai": [
+   {
+    "kw": "villa private chef",
+    "score": 12,
+    "intent": "long-tail",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": true
+   },
+   {
+    "kw": "cooks villa near me",
+    "score": 9,
+    "intent": "sales",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   },
+   {
+    "kw": "holiday villa with chef",
+    "score": 8,
+    "intent": "long-tail",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   },
+   {
+    "kw": "aston villa head chef",
+    "score": 7,
+    "intent": "long-tail",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   },
+   {
+    "kw": "caribbean villa with chef",
+    "score": 7,
+    "intent": "long-tail",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   },
+   {
+    "kw": "chef cannavacciuolo villa",
+    "score": 7,
+    "intent": "long-tail",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   }
+  ],
+  "/partner-with-us": [
+   {
+    "kw": "catering services list",
+    "score": 11,
+    "intent": "sales",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   },
+   {
+    "kw": "top catering services providers in dubai",
+    "score": 11,
+    "intent": "sales",
+    "sources": [
+     "bing-autosuggest"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   },
+   {
+    "kw": "partnership catering business",
+    "score": 10,
+    "intent": "long-tail",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   },
+   {
+    "kw": "catering requirements for events",
+    "score": 9,
+    "intent": "long-tail",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   },
+   {
+    "kw": "catering business examples",
+    "score": 7,
+    "intent": "informational",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   }
+  ],
+  "/quality-guarantee-dubai": [
+   {
+    "kw": "catering vs delivery",
+    "score": 11,
+    "intent": "sales",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   }
+  ],
+  "/how-it-works": [
+   {
+    "kw": "how to be a private chef",
+    "score": 11,
+    "intent": "informational",
+    "sources": [
+     "bing-autosuggest"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   },
+   {
+    "kw": "how to start a private chef business",
+    "score": 11,
+    "intent": "informational",
+    "sources": [
+     "bing-autosuggest"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   }
+  ],
+  "/partners/event-planners-dubai": [
+   {
+    "kw": "event catering gst rate",
+    "score": 10,
+    "intent": "sales",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   },
+   {
+    "kw": "event catering hire cornwall",
+    "score": 10,
+    "intent": "sales",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   },
+   {
+    "kw": "event catering near me for birthday party",
+    "score": 10,
+    "intent": "sales",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   }
+  ],
+  "/mychef-certified": [
+   {
+    "kw": "chef on demand uae",
+    "score": 8,
+    "intent": "long-tail",
+    "sources": [
+     "bing-autosuggest"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   },
+   {
+    "kw": "personal chefs on board",
+    "score": 8,
+    "intent": "long-tail",
+    "sources": [
+     "bing-autosuggest"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   },
+   {
+    "kw": "the chefs table private chef and catering",
+    "score": 7,
+    "intent": "long-tail",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   },
+   {
+    "kw": "private chefs catering richmond",
+    "score": 6,
+    "intent": "long-tail",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   }
+  ],
+  "/chefs/marco-italian-chef": [
+   {
+    "kw": "courses of an italian dinner",
+    "score": 8,
+    "intent": "long-tail",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   },
+   {
+    "kw": "eat italian catering menu",
+    "score": 6,
+    "intent": "informational",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   }
+  ],
+  "/partners/yacht-charters-dubai": [
+   {
+    "kw": "yacht chef requirements",
+    "score": 7,
+    "intent": "long-tail",
+    "sources": [
+     "google-autocomplete"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   }
+  ],
+  "/mychef-membership": [
+   {
+    "kw": "home chef my account",
+    "score": 6,
+    "intent": "long-tail",
+    "sources": [
+     "bing-autosuggest"
+    ],
+    "vol_ae": null,
+    "already_said": false
+   }
+  ]
+ },
+ "skipped_full": [],
+ "left_open": {
+  "/become-a-mychef": 1,
+  "/brand-activation-catering-dubai": 1,
+  "/case-studies": 6,
+  "/chefs/marco-italian-chef": 1,
+  "/chefs/matteo-pastry-chef": 4,
+  "/faq": 2,
+  "/how-it-works": 2,
+  "/locations/arabian-ranches": 2,
+  "/locations/jbr": 2,
+  "/locations/jvc": 3,
+  "/locations/umm-suqeim": 3,
+  "/loyalty-programme": 7,
+  "/mychef-membership": 5,
+  "/partners/concierge-services-dubai": 6,
+  "/quality-guarantee-dubai": 3,
+  "/referral-programme": 7,
+  "/vip-club": 5
+ }
+}
