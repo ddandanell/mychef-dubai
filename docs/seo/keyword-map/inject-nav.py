@@ -13,6 +13,7 @@ OUT = pathlib.Path(sys.argv[1] if len(sys.argv) > 1 else "public/seo")
 
 # order = how you actually work: what the site owns, then what to do next, then how it is doing
 PAGES = [
+    ("status.html", "Status", "is every source connected and feeding data"),
     ("index.html", "Board", "every URL and its locked keywords"),
     ("ownership.html", "Keywords", "one row per keyword, with its score"),
     ("report.html", "Research", "volume, difficulty, intent, position"),
@@ -23,6 +24,7 @@ PAGES = [
     ("architecture.html", "Architecture", "the sitemap as an authority map"),
     ("ai-visibility.html", "AI answers", "who Claude names for buyer prompts"),
     ("actions.html", "Actions", "every change the agent made, newest first"),
+    ("ask.html", "Ask", "put a question to the read-only SEO analyst"),
 ]
 
 CSS = """

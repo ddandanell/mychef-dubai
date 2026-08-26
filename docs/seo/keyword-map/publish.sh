@@ -3,7 +3,7 @@
 set -euo pipefail
 cd "$(dirname "$0")/../../.."
 mkdir -p public/seo
-for f in index backlog demand report ownership links gaps architecture ai-visibility actions; do
+for f in status index backlog demand report ownership links gaps architecture ai-visibility actions ask; do
   [ -f "docs/seo/keyword-map/$f.html" ] && cp "docs/seo/keyword-map/$f.html" "public/seo/$f.html"
 done
 for f in report keywords; do [ -f "docs/seo/keyword-map/$f.csv" ] && cp "docs/seo/keyword-map/$f.csv" "public/seo/$f.csv"; done

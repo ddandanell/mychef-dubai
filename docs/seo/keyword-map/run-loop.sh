@@ -26,6 +26,9 @@ python3 docs/seo/keyword-map/build-report.py $SNAP >/dev/null
 python3 docs/seo/keyword-map/build-internal-links.py $SNAP >/dev/null
 python3 docs/seo/keyword-map/build-gaps.py $SNAP >/dev/null 2>&1 || true
 python3 docs/seo/keyword-map/build-architecture.py $SNAP >/dev/null
+echo "== integrations"; python3 docs/seo/keyword-map/check-integrations.py --quiet || true
+python3 docs/seo/keyword-map/build-status.py >/dev/null
+cp docs/seo/keyword-map/ask-template.html docs/seo/keyword-map/ask.html
 python3 docs/seo/keyword-map/build-actions.py >/dev/null
 echo "== keyword file"; python3 docs/seo/keyword-map/build-ownership.py $SNAP | head -12
 echo "== gates"

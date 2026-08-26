@@ -1,0 +1,123 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex"><title>myCHEF Data Board — Ask</title>
+<style>
+:root{color-scheme:light}
+body{margin:0;background:#fcfcfb;color:#0b0b0b;font:14px/1.6 Inter,-apple-system,system-ui,sans-serif}
+header{padding:22px 28px 16px;border-bottom:1px solid #e2e1db}
+h1{margin:0 0 4px;font-size:22px}
+.sub{color:#52514e;max-width:92ch;margin:0;font-size:13px}
+main{max-width:900px;margin:0 auto;padding:18px 24px 120px}
+.starters{display:flex;flex-wrap:wrap;gap:7px;margin:0 0 18px}
+.starters button{font:inherit;font-size:12.5px;padding:6px 11px;border:1px solid #d8d6cc;background:#fff;border-radius:20px;cursor:pointer;color:#3f4b48}
+.starters button:hover{border-color:#a9b5b1;background:#f4f6f5}
+.thread{display:flex;flex-direction:column;gap:16px}
+.msg{display:flex;gap:11px;align-items:flex-start}
+.who{flex:none;width:26px;height:26px;border-radius:50%;display:grid;place-items:center;font-size:11px;font-weight:700;margin-top:2px}
+.you .who{background:#e7eaf3;color:#3a4a72}
+.ai .who{background:#10201f;color:#e0a24a}
+.bubble{flex:1;min-width:0}
+.you .bubble{color:#0b0b0b;font-weight:500}
+.ai .bubble{background:#fff;border:1px solid #e6e5df;border-radius:10px;padding:13px 15px;white-space:pre-wrap}
+.ai .bubble.err{background:#fbf1ef;border-color:#eccfc9;color:#8a3d33;white-space:normal}
+.meta{color:#9a988f;font-size:11px;margin-top:7px}
+.composer{position:fixed;left:0;right:0;bottom:0;background:linear-gradient(180deg,rgba(252,252,251,0) 0%,#fcfcfb 26%);padding:24px 24px 20px}
+.inner{max-width:900px;margin:0 auto;display:flex;gap:9px}
+textarea{flex:1;resize:none;font:inherit;padding:11px 13px;border:1px solid #c9c8c0;border-radius:10px;background:#fff;min-height:46px;max-height:150px}
+textarea:focus{outline:2px solid #10201f;outline-offset:-1px;border-color:#10201f}
+button.send{font:inherit;font-weight:600;padding:0 18px;border:0;border-radius:10px;background:#10201f;color:#fff;cursor:pointer}
+button.send:disabled{opacity:.45;cursor:default}
+.note{max-width:900px;margin:10px auto 0;color:#9a988f;font-size:11.5px;text-align:center}
+.dots span{display:inline-block;width:5px;height:5px;border-radius:50%;background:#9a988f;margin-right:3px;animation:b 1.2s infinite}
+.dots span:nth-child(2){animation-delay:.15s}.dots span:nth-child(3){animation-delay:.3s}
+@keyframes b{0%,60%,100%{opacity:.25}30%{opacity:1}}
+@media (prefers-reduced-motion:reduce){.dots span{animation:none;opacity:.6}}
+</style></head><body>
+<header>
+  <h1>Ask the analyst</h1>
+  <p class="sub">Reads the live SEO database — keywords, positions, impressions, clicks, traffic, gaps, cannibalisation
+  and the health of every source — and explains it in plain language. <b>Read-only:</b> it connects as a database role
+  that can select and nothing else, so it can tell you what to change but cannot change anything.</p>
+</header>
+<main>
+  <div class="starters" id="starters">
+    <button>What should I focus on first?</button>
+    <button>Which pages are losing visibility?</button>
+    <button>Are there keyword cannibalisation problems?</button>
+    <button>What is happening with impressions, clicks and CTR?</button>
+    <button>Why is this site not ranking for private chef dubai?</button>
+    <button>Which keywords are the biggest missed opportunities?</button>
+    <button>What does the SEO score actually mean?</button>
+  </div>
+  <div class="thread" id="thread"></div>
+</main>
+<div class="composer">
+  <div class="inner">
+    <textarea id="q" rows="1" placeholder="Ask about the numbers — &ldquo;why did this keyword drop?&rdquo;, &ldquo;which pages are improving?&rdquo;"></textarea>
+    <button class="send" id="send">Ask</button>
+  </div>
+  <p class="note">Answers come from the latest archived run. Each question costs a few cents of model time.</p>
+</div>
+<script>
+const thread = document.getElementById('thread'), box = document.getElementById('q'), send = document.getElementById('send');
+
+function add(role, text, meta) {
+  const wrap = document.createElement('div');
+  wrap.className = 'msg ' + role;
+  const who = document.createElement('div');
+  who.className = 'who';
+  who.textContent = role === 'you' ? 'You' : 'AI';
+  const bubble = document.createElement('div');
+  bubble.className = 'bubble' + (meta === 'error' ? ' err' : '');
+  bubble.textContent = text;
+  wrap.append(who, bubble);
+  if (meta && meta !== 'error') {
+    const m = document.createElement('div');
+    m.className = 'meta';
+    m.textContent = meta;
+    bubble.append(m);
+  }
+  thread.append(wrap);
+  wrap.scrollIntoView({ behavior: 'smooth', block: 'end' });
+  return bubble;
+}
+
+async function ask(question) {
+  if (!question.trim()) return;
+  add('you', question);
+  box.value = '';
+  send.disabled = true;
+  const pending = add('ai', '');
+  pending.innerHTML = '<span class="dots"><span></span><span></span><span></span></span> reading the database…';
+  try {
+    const r = await fetch('/api/ask', {
+      method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ question }),
+    });
+    const d = await r.json();
+    if (!r.ok) {
+      pending.className = 'bubble err';
+      pending.textContent = d.error || ('The analyst returned ' + r.status + '.');
+    } else {
+      pending.textContent = d.answer;
+      const m = document.createElement('div');
+      m.className = 'meta';
+      m.textContent = d.provider + ' · run #' + d.run;
+      pending.append(m);
+    }
+  } catch (e) {
+    pending.className = 'bubble err';
+    pending.textContent = 'Could not reach the analyst: ' + e.message;
+  }
+  send.disabled = false;
+  box.focus();
+}
+
+send.addEventListener('click', () => ask(box.value));
+box.addEventListener('keydown', (e) => {
+  if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); ask(box.value); }
+});
+box.addEventListener('input', () => { box.style.height = 'auto'; box.style.height = Math.min(150, box.scrollHeight) + 'px'; });
+document.getElementById('starters').addEventListener('click', (e) => {
+  if (e.target.tagName === 'BUTTON') ask(e.target.textContent);
+});
+</script>
+</body></html>

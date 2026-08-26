@@ -1,0 +1,163 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex"><title>myCHEF Data Board — Status</title>
+<style>
+:root{color-scheme:light;--ok:#1f7a4d;--warn:#9a6a12;--bad:#a5342a;--off:#6d7b78}
+body{margin:0;background:#fcfcfb;color:#0b0b0b;font:13px/1.5 Inter,-apple-system,system-ui,sans-serif}
+header{padding:22px 28px 16px;border-bottom:1px solid #e2e1db}
+h1{margin:0 0 4px;font-size:22px}
+.sub{color:#52514e;max-width:94ch;margin:0}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;padding:14px 28px 4px}
+.tile{border:1px solid #e2e1db;border-radius:8px;padding:10px 12px;background:#fff}
+.tile .n{font-size:24px;font-weight:600;line-height:1.1}
+.tile .l{color:#52514e;font-size:12px;margin-top:3px}
+main{padding:6px 28px 60px}
+h2{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:#83817a;margin:26px 0 10px;font-weight:600}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:12px}
+.card{border:1px solid #e6e5df;border-radius:8px;background:#fff;padding:13px 15px;border-left:3px solid var(--off)}
+.card.ok{border-left-color:var(--ok)} .card.warn{border-left-color:var(--warn)}
+.card.bad{border-left-color:var(--bad)} .card.off{border-left-color:#c9c8c0}
+.top{display:flex;align-items:center;gap:8px}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--off);flex:none}
+.card.ok .dot{background:var(--ok)} .card.warn .dot{background:var(--warn)}
+.card.bad .dot{background:var(--bad)} .card.off .dot{background:#c9c8c0}
+.name{font-weight:600}
+.state{margin-left:auto;font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:var(--off);font-weight:600}
+.card.ok .state{color:var(--ok)} .card.warn .state{color:var(--warn)} .card.bad .state{color:var(--bad)}
+.detail{margin:8px 0 10px;color:#3f4b48}
+dl{margin:0;display:grid;grid-template-columns:1fr 1fr;gap:6px;border-top:1px solid #f0efe9;padding-top:8px}
+dt{font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#9a988f}
+dd{margin:2px 0 0;font-size:12px}
+.muted{color:#9a988f}
+.err{margin:9px 0 0;padding:7px 9px;background:#fbf1ef;border-radius:5px;color:#8a3d33;font-size:12px}
+table{border-collapse:collapse;margin-top:8px;min-width:280px}
+td{padding:4px 14px 4px 0;border-bottom:1px solid #f0efe9;font-size:12px}
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.nums{font-variant-numeric:tabular-nums;text-align:right;color:#52514e}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px;align-items:start}
+</style></head><body>
+<header>
+  <h1>Status</h1>
+  <p class="sub">Every source the board depends on, and whether it is actually feeding data — not just whether a key exists.
+  A service that authenticates but has stopped delivering shows as stale. Checked 2026-08-26 19:24.</p>
+</header>
+<div class="tiles">
+  <div class="tile"><div class="n" style="color:var(--ok)">11</div><div class="l">Connected and fresh</div></div>
+  <div class="tile"><div class="n" style="color:var(--warn)">0</div><div class="l">Stale or waiting for data</div></div>
+  <div class="tile"><div class="n" style="color:var(--bad)">1</div><div class="l">Errors or not connected</div></div>
+  <div class="tile"><div class="n">97,020</div><div class="l">Rows in the archive<br><span class="muted">12 runs · 50 MB</span></div></div>
+</div>
+<main>
+<h2>Store</h2><div class="grid"><div class="card ok">
+  <div class="top"><span class="dot"></span><span class="name">Neon Postgres</span><span class="state">Connected</span></div>
+  <p class="detail">12 runs · 50 MB · 97,020 rows across 15 tables</p>
+  <dl>
+    <div><dt>Last data</dt><dd>8h ago<span class="muted"> · 2026-08-26T10:47</span></dd></div>
+    <div><dt>Checked</dt><dd>19:24 today</dd></div>
+  </dl>
+  
+</div></div><h2>Demand &amp; SERPs</h2><div class="grid"><div class="card ok">
+  <div class="top"><span class="dot"></span><span class="name">DataForSEO</span><span class="state">Connected</span></div>
+  <p class="detail">balance $40.63 · 41,635 SERP rows stored</p>
+  <dl>
+    <div><dt>Last data</dt><dd>9h ago<span class="muted"> · 2026-08-26T10:00</span></dd></div>
+    <div><dt>Checked</dt><dd>19:24 today</dd></div>
+  </dl>
+  
+</div></div><h2>Search</h2><div class="grid"><div class="card ok">
+  <div class="top"><span class="dot"></span><span class="name">Google Search Console</span><span class="state">Connected</span></div>
+  <p class="detail">2 property · 31 clicks in the last 10 days</p>
+  <dl>
+    <div><dt>Last data</dt><dd>2d ago<span class="muted"> · 2026-08-24</span></dd></div>
+    <div><dt>Checked</dt><dd>19:24 today</dd></div>
+  </dl>
+  
+</div><div class="card ok">
+  <div class="top"><span class="dot"></span><span class="name">Bing Webmaster</span><span class="state">Connected</span></div>
+  <p class="detail">https://www.mychef.ae/ · 23 daily rows returned</p>
+  <dl>
+    <div><dt>Last data</dt><dd>—</dd></div>
+    <div><dt>Checked</dt><dd>19:24 today</dd></div>
+  </dl>
+  
+</div></div><h2>Behaviour</h2><div class="grid"><div class="card off">
+  <div class="top"><span class="dot"></span><span class="name">Google Analytics 4</span><span class="state">Not connected</span></div>
+  <p class="detail">4 properties visible, none owns the tag G-26YM3CE8CB</p>
+  <dl>
+    <div><dt>Last data</dt><dd>—</dd></div>
+    <div><dt>Checked</dt><dd>19:24 today</dd></div>
+  </dl>
+  <p class="err">grant Viewer to googlenay@trusty-bearing-489316-k1.iam.gserviceaccount.com in GA4 Admin</p>
+</div><div class="card ok">
+  <div class="top"><span class="dot"></span><span class="name">First-party tracking</span><span class="state">Connected</span></div>
+  <p class="detail">endpoint live · 11 events recorded</p>
+  <dl>
+    <div><dt>Last data</dt><dd>7h ago<span class="muted"> · 2026-08-26T11:24</span></dd></div>
+    <div><dt>Checked</dt><dd>19:24 today</dd></div>
+  </dl>
+  
+</div></div><h2>Traffic</h2><div class="grid"><div class="card ok">
+  <div class="top"><span class="dot"></span><span class="name">Vercel Web Analytics</span><span class="state">Connected</span></div>
+  <p class="detail">307 visitors in the last 7 days</p>
+  <dl>
+    <div><dt>Last data</dt><dd>just now<span class="muted"> · 2026-08-26T18:44</span></dd></div>
+    <div><dt>Checked</dt><dd>19:24 today</dd></div>
+  </dl>
+  
+</div></div><h2>Platform</h2><div class="grid"><div class="card ok">
+  <div class="top"><span class="dot"></span><span class="name">Vercel project</span><span class="state">Connected</span></div>
+  <p class="detail">mychef-dubai-vite · web analytics on · git integration linked</p>
+  <dl>
+    <div><dt>Last data</dt><dd>—</dd></div>
+    <div><dt>Checked</dt><dd>19:24 today</dd></div>
+  </dl>
+  
+</div><div class="card ok">
+  <div class="top"><span class="dot"></span><span class="name">Board build (run-loop)</span><span class="state">Connected</span></div>
+  <p class="detail">keyword file, research pages and archive rebuilt on every run</p>
+  <dl>
+    <div><dt>Last data</dt><dd>just now<span class="muted"> · 2026-08-26T18:47</span></dd></div>
+    <div><dt>Checked</dt><dd>19:24 today</dd></div>
+  </dl>
+  <p class="err">runs by hand — no scheduler is configured yet, so freshness depends on someone starting it</p>
+</div></div><h2>Performance</h2><div class="grid"><div class="card ok">
+  <div class="top"><span class="dot"></span><span class="name">PageSpeed / CrUX</span><span class="state">Connected</span></div>
+  <p class="detail">key present · not pulled into the board yet</p>
+  <dl>
+    <div><dt>Last data</dt><dd>—</dd></div>
+    <div><dt>Checked</dt><dd>19:24 today</dd></div>
+  </dl>
+  <p class="err">no collector writes CWV into the archive</p>
+</div></div><h2>AI</h2><div class="grid"><div class="card ok">
+  <div class="top"><span class="dot"></span><span class="name">Claude AI visibility</span><span class="state">Connected</span></div>
+  <p class="detail">16 buyer prompts, answers stored</p>
+  <dl>
+    <div><dt>Last data</dt><dd>9h ago<span class="muted"> · 2026-08-26T10:07</span></dd></div>
+    <div><dt>Checked</dt><dd>19:24 today</dd></div>
+  </dl>
+  
+</div><div class="card ok">
+  <div class="top"><span class="dot"></span><span class="name">SEO analyst (read-only)</span><span class="state">Connected</span></div>
+  <p class="detail">Claude via DataForSEO — answers questions about the data, cannot change anything</p>
+  <dl>
+    <div><dt>Last data</dt><dd>—</dd></div>
+    <div><dt>Checked</dt><dd>19:24 today</dd></div>
+  </dl>
+  
+</div></div>
+<div class="two">
+  <div>
+    <h2>What the archive holds</h2>
+    <table><tbody><tr><td class="mono">seo_serps</td><td class="nums">41,635</td></tr><tr><td class="mono">seo_backlog</td><td class="nums">20,975</td></tr><tr><td class="mono">seo_keywords</td><td class="nums">20,770</td></tr><tr><td class="mono">seo_report</td><td class="nums">9,785</td></tr><tr><td class="mono">seo_pages</td><td class="nums">2,052</td></tr><tr><td class="mono">seo_optimizer_log</td><td class="nums">1,615</td></tr><tr><td class="mono">seo_traffic</td><td class="nums">157</td></tr><tr><td class="mono">seo_ai_visibility</td><td class="nums">16</td></tr><tr><td class="mono">web_events</td><td class="nums">11</td></tr><tr><td class="mono">web_sessions</td><td class="nums">4</td></tr></tbody></table>
+  </div>
+  <div>
+    <h2>How to read this</h2>
+    <p class="sub"><b>Connected</b> means the API answered and data from it has landed recently.
+    <b>Stale</b> means the key works but nothing new has arrived — usually a collector that stopped running.
+    <b>No data yet</b> means the connection is fine and the source has simply not produced anything.
+    <b>Not connected</b> means a credential or a permission is missing; the card says which.</p>
+    <p class="sub">The board is rebuilt by <span class="mono">run-loop.sh</span>, which refreshes every source in order,
+    rescores the whole site, runs the gates and archives the run. Nothing here is scheduled yet: freshness depends on
+    that command being run.</p>
+  </div>
+</div>
+</main></body></html>
