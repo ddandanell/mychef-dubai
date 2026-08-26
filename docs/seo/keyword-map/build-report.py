@@ -103,6 +103,7 @@ def best_page_by_serp(k):
     best, bs = None, 0
     for url, a in active.items():
         if not a["primary"] or a["primary"] not in serps or url == "/": continue   # the homepage ranks for everything; it is not a merge target
+        if a["type"] in ("Brand / utility", "Utility / untargeted", "Partner landing", "Chef profile") or url in ("/about", "/contact", "/faq", "/how-we-vet-our-chefs", "/menus", "/gallery", "/press"): continue
         s = serp_sim(k, a["primary"])
         if s is not None and s > bs: best, bs = url, s
     return best, bs
@@ -128,11 +129,12 @@ for k in keys:
     bp, bs = best_page_by_serp(k)
     cov = coverage(k, own_url or bp) if (own_url or bp) else None
     it = intent.get(k) or (pool_meta.get(k) or {}).get("intent")
-    off = bool(re.search(r"\b(show|shows|places?|deals?|restaurants?|hotel|hotels|cafe|salary|vacancy|recipe|recipes)\b", k))
+    off = bool(re.search(r"\b(show|shows|places?|deals?|restaurants?|hotel|hotels|cafe|salary|vacancy|recipe|recipes|tattoo|abu dhabi|al ain|sharjah|ajman|fujairah|ras al khaimah|umm al quwain|cedar tree|emirates flight|le petit chef|king chef|chef burak|chef eyad|calicut chef|trendy chef|baguette|buffestra|metropolitan catering|brunch and cake|food view|pure delight|foodie brands|lifestyle diets|green forest|national catering|caterer middle east|catering middle east|chef work|taste studio|tastestudio|pinch gourmet|ahs catering|captain zaiqey)\b", k))
     recruitment = bool(re.search(r"\b(jobs?|salary|vacancy|vacancies|careers?|hiring in|chef hiring)\b", k))
     # recommendation
     rec_page = own_url
-    if bp and bs >= 0.5 and bp != own_url and not (own and own[1] == "primary"):
+    same_as_owner_primary = bool(own_url) and set(toks(k)) == set(toks(active[own_url]["primary"]))
+    if bp and bs >= 0.5 and bp != own_url and not (own and own[1] == "primary") and not same_as_owner_primary:
         rec_page = bp
     elif not own_url:
         rec_page = bp if bp and bs >= 0.3 else None

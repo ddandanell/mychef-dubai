@@ -32,7 +32,7 @@ ranked = load("ranked_keywords_mychef_ae.json", {}).get("items") or []
 comp = load("competitors_ranked_keywords.json", {})
 
 OFF = re.compile(r"\b(show|shows|places?|deals?|restaurants?|hotel|hotels|cafe|jobs?|salary|vacancy|careers?|recipe|recipes|near me open|buffet in|brunch in|dinner in|lunch in|breakfast in|iftar in|menu prices?|ladies night|happy hour)\b")
-BRAND = re.compile(r"\b(emirates catering|emirates flight|king chef|le petit chef|petit chef|chef burak|burak|chef eyad|calicut chef|trendy chef|big ticket|salt bae|nusret|gordon ramsay|jamie oliver|kerala restaurant|dream dinner|dinner show|cozymeal|takeachef|chefmaison|monchef|instachef|miummium|talabat|deliveroo|careem|noon|zomato)\b")
+BRAND = re.compile(r"\b(emirates catering|emirates flight|king chef|le petit chef|petit chef|chef burak|burak|chef eyad|calicut chef|trendy chef|big ticket|salt bae|nusret|gordon ramsay|jamie oliver|kerala restaurant|dream dinner|dinner show|cozymeal|takeachef|metropolitan catering|brunch and cake|food view|pure delight|foodie brands|lifestyle diets|cedar tree|green forest|national catering|ahs catering|chefmaison|monchef|instachef|miummium|talabat|deliveroo|careem|noon|zomato)\b")
 STOPW = {"dubai", "in", "the", "a", "an", "for", "of", "uae", "and", "to", "at", "near", "me", "with", "on", "is", "your"}
 def tokset(k): return frozenset(t for t in k.split() if t not in STOPW)
 SERVICE = re.compile(r"\b(chef|chefs|cook|cooks|catering|caterer|caterers|cater|meal prep|meal plan|private dining|dinner at home|home dining|personal chef|bartender|grazing|canap|buffet catering|bbq catering)\b")
