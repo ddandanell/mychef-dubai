@@ -192,10 +192,20 @@ phrases Google actually shows with volume/impressions/clicks/position/share-of-d
 phrases ranking on a page the contract did not assign, primaries with no measured demand, the
 widest content gaps, traffic, first-party behaviour and source health.
 
-**Model providers, in order:** `AI_GATEWAY_API_KEY`, then the function's own `VERCEL_OIDC_TOKEN`,
-then `ANTHROPIC_API_KEY`. DataForSEO's Claude endpoint is deliberately *not* in the chain: it
-caps a prompt at about 500 characters — measured, 493 passes and 521 fails — which makes it a
-brand-visibility probe, not a chat API.
+**Model providers, in order:** `AI_GATEWAY_API_KEY`, then the function's own OIDC token
+(`x-vercel-oidc-token`), then `ANTHROPIC_API_KEY`. Within the gateway it asks for Claude Sonnet 5
+first and falls back to `meta/llama-3.3-70b`, which the free AI tier allows — the answer says
+which model replied.
+
+DataForSEO's Claude endpoint is deliberately *not* in the chain: it caps a prompt at about 500
+characters — measured, 493 passes and 521 fails — which makes it a brand-visibility probe, not a
+chat API.
+
+**It needs one key.** The Vercel API token authenticates against the gateway, but it can also
+deploy and delete projects, so it does not belong in a web-facing function's environment. Create
+a scoped key at **Vercel → AI → API keys** and set it as `AI_GATEWAY_API_KEY`. On free credits
+the analyst answers on Llama 3.3 70B; with a few dollars of AI credits it answers on Claude
+Sonnet 5.
 
 ---
 
@@ -270,6 +280,7 @@ rendered HTML and places nothing.
 
 | Gap | Consequence | Fix |
 |---|---|---|
+| **AI Gateway key** | The analyst is deployed and read-only but has no model to answer with | Create a key at Vercel → AI → API keys, set `AI_GATEWAY_API_KEY` |
 | **GA4 access** | No time-on-page or bounce from Google's side | Add `googlenay@trusty-bearing-489316-k1.iam.gserviceaccount.com` as Viewer on the property that owns `G-26YM3CE8CB` |
 | **Nothing is scheduled** | Freshness depends on someone running `run-loop.sh` | Vercel Cron, once the panel exists |
 | **127 of 163 primaries have no measured UAE demand** | Those pages have nothing to win | Re-target or merge, page by page |

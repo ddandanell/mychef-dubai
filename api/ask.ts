@@ -121,18 +121,31 @@ What you cannot do: you have read-only access. You cannot edit pages, keywords, 
 database. If asked to change something, explain what you would change and say it has to be applied
 by the person running the board.`
 
-async function askAIGateway(key: string, question: string, data: string): Promise<string> {
-  const r = await fetch('https://ai-gateway.vercel.sh/v1/chat/completions', {
-    method: 'POST',
-    headers: { Authorization: `Bearer ${key}`, 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      model: `anthropic/${MODEL}`, max_tokens: 1200,
-      messages: [{ role: 'system', content: SYSTEM }, { role: 'user', content: `${question}\n\nSNAPSHOT:\n${data}` }],
-    }),
-  })
-  if (!r.ok) throw new Error(`AI Gateway ${r.status}`)
-  const j = (await r.json()) as { choices?: { message?: { content?: string } }[] }
-  return j.choices?.[0]?.message?.content || ''
+// Claude first. A team on the free AI tier is refused it, so fall back to a model the free
+// tier does allow rather than answering nothing — the reply says which one answered.
+const GATEWAY_MODELS = [`anthropic/${MODEL}`, 'meta/llama-3.3-70b']
+
+async function askAIGateway(key: string, question: string, data: string): Promise<{ text: string; model: string }> {
+  let lastError = ''
+  for (const model of GATEWAY_MODELS) {
+    const r = await fetch('https://ai-gateway.vercel.sh/v1/chat/completions', {
+      method: 'POST',
+      headers: { Authorization: `Bearer ${key}`, 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        model, max_tokens: 1200,
+        messages: [{ role: 'system', content: SYSTEM }, { role: 'user', content: `${question}\n\nSNAPSHOT:\n${data}` }],
+      }),
+    })
+    if (!r.ok) {
+      lastError = `${model}: ${r.status}`
+      continue
+    }
+    const j = (await r.json()) as { choices?: { message?: { content?: string } }[] }
+    const text = j.choices?.[0]?.message?.content || ''
+    if (text) return { text, model }
+    lastError = `${model}: empty answer`
+  }
+  throw new Error(lastError || 'no model answered')
 }
 
 async function askAnthropic(key: string, question: string, data: string): Promise<string> {
@@ -153,7 +166,7 @@ async function askAnthropic(key: string, question: string, data: string): Promis
  * Vercel AI Gateway, authenticated with the function's own OIDC token when no gateway key is
  * set. Costs nothing to configure — the token is minted per invocation by the platform.
  */
-async function askGatewayOIDC(token: string, question: string, data: string): Promise<string> {
+async function askGatewayOIDC(token: string, question: string, data: string): Promise<{ text: string; model: string }> {
   return askAIGateway(token, question, data)
 }
 
@@ -196,12 +209,15 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   for (const [name, run] of [
     ['Vercel AI Gateway', gateway ? () => askAIGateway(gateway, question, brief) : null],
     ['Vercel AI Gateway (OIDC)', oidc ? () => askGatewayOIDC(oidc, question, brief) : null],
-    ['Anthropic', anthropic ? () => askAnthropic(anthropic, question, json) : null],
-  ] as [string, (() => Promise<string>) | null][]) {
+    ['Anthropic', anthropic ? async () => ({ text: await askAnthropic(anthropic, question, json), model: MODEL }) : null],
+  ] as [string, (() => Promise<{ text: string; model: string }>) | null][]) {
     if (!run) continue
     try {
       const answer = await run()
-      if (answer) return res.status(200).json({ answer, provider: name, run: (data.latest_run as { id?: number })?.id })
+      if (answer.text) {
+        return res.status(200).json({ answer: answer.text, provider: `${name} · ${answer.model}`,
+                                      run: (data.latest_run as { id?: number })?.id })
+      }
     } catch (e) {
       attempts.push(`${name}: ${(e as Error).message}`)
     }
