@@ -49,13 +49,33 @@ body{margin-top:0}
 
 
 def bar(current):
+    # Absolute paths, always. The board is served at /seo (a rewrite, no trailing slash), so a
+    # relative href resolves against the site root and 404s — which is what happened to every
+    # link on every page until this was fixed.
     links = "".join(
-        f'<a href="{f}" class="{"on" if f == current else ""}" title="{t}">{label}</a>'
+        f'<a href="/seo/{f}" class="{"on" if f == current else ""}" title="{t}">{label}</a>'
         for f, label, t in PAGES if (OUT / f).exists())
     return (CSS + '<nav class="board-nav" aria-label="Board sections">'
             '<div class="brand"><i></i>myCHEF Data Board <span>agent-run</span></div>'
             + links +
             '<div class="spacer"></div><div class="stamp">password-gated · noindex</div></nav>')
+
+
+KNOWN = {f for f, _, _ in PAGES} | {"report.csv", "keywords.csv"}
+
+def absolutise(html):
+    """Every in-board link becomes /seo/… so it works from /seo and /seo/index.html alike."""
+    return re.sub(r'href="(?!https?:|/|#|mailto:)([\w.-]+\.(?:html|csv))(#[^"]*)?"',
+                  lambda m: f'href="/seo/{m.group(1)}{m.group(2) or ""}"' if m.group(1) in KNOWN else m.group(0),
+                  html)
+
+
+def strip_h1_links(html):
+    """The page titles each carried their own copy of the nav. The bar does that job now."""
+    m = re.search(r"<h1[^>]*>(.*?)</h1>", html, re.S)
+    if not m: return html
+    inner = re.sub(r"\s*<a\b[^>]*>.*?</a>", "", m.group(1), flags=re.S).rstrip()
+    return html[:m.start(1)] + inner + html[m.end(1):]
 
 
 def main():
@@ -67,6 +87,8 @@ def main():
         if not p.exists(): continue
         html = p.read_text(encoding="utf-8", errors="ignore")
         if 'class="board-nav"' in html: continue          # already injected by an earlier publish
+        html = absolutise(html)
+        html = strip_h1_links(html)
         m = re.search(r"<body[^>]*>", html)
         if not m: continue
         p.write_text(html[:m.end()] + bar(f) + html[m.end():], encoding="utf-8")
