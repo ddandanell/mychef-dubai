@@ -53,9 +53,9 @@ const config: ServicePageConfig = {
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mt-5">
         Not sure what to confirm before booking? Read our guide on{' '}
-        <Link to="/blog/halal-private-dining-dubai-what-to-ask" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
+        
           halal private dining in Dubai — what to ask
-        </Link>{' '}
+        {' '}
         before you plan.
       </p>
     </>

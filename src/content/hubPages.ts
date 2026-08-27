@@ -33,9 +33,6 @@ export const PACKAGE_UPLINK = {
 
 /** pages["/catering-packages-dubai"].internal_linking.siblings — render exactly. */
 export const PACKAGE_SIBLING_LINKS = [
-  { href: '/birthday-catering-package-dubai', label: 'Birthday catering packages' },
-  { href: '/family-feast-package-dubai', label: 'Family catering' },
-  { href: '/date-night-package-dubai', label: 'Date night package' },
   { href: '/dubai-catering-prices-guide', label: 'Catering prices' },
 ] as const
 
@@ -47,9 +44,6 @@ export const PACKAGE_FEATURED_EXTRAS = [
 
 /** pages["/catering-packages-dubai"].internal_linking.locations — three areas + index. */
 export const PACKAGE_LOCATION_LINKS = [
-  { href: '/locations/palm-jumeirah', label: 'Palm Jumeirah' },
-  { href: '/locations/dubai-marina', label: 'Dubai Marina' },
-  { href: '/locations/downtown-dubai', label: 'Downtown Dubai' },
   { href: '/locations', label: 'Areas we serve' },
 ] as const
 
@@ -70,49 +64,6 @@ export type PrimaryPackage = {
  * Titles use STANDARD featured_children anchors.
  */
 export const PRIMARY_PACKAGES: PrimaryPackage[] = [
-  {
-    occasion: 'date-night',
-    title: 'Date night package',
-    href: '/date-night-package-dubai',
-    guests: '2',
-    price: '1,200',
-    perPerson: 'AED 600',
-    description: 'An intimate three-course private chef dinner for two, cooked and served at home.',
-    included: 'Bespoke 3-course menu for two, private chef, table service, and full cleanup.',
-  },
-  {
-    occasion: 'family-dinner',
-    title: 'Family catering',
-    href: '/family-feast-package-dubai',
-    guests: '6–8',
-    price: '2,400',
-    perPerson: 'AED 300–400',
-    description: 'A relaxed sharing-style dinner built around family and friends at one table.',
-    included:
-      'Generous sharing-style menu, premium ingredients, chef and service support for a relaxed family dinner.',
-  },
-  {
-    occasion: 'birthday',
-    title: 'Birthday catering packages',
-    href: '/birthday-catering-package-dubai',
-    guests: '8–12',
-    price: '3,600',
-    perPerson: 'AED 300–450',
-    description:
-      'A private chef birthday celebration for 8–12 guests, with a tailored menu, cake option and full service.',
-    included: 'Celebration menu with canapés or starter, main course, dessert, cake option, and service staff.',
-  },
-  {
-    occasion: 'corporate',
-    title: 'Corporate dinner package',
-    href: '/corporate-dinner-package-dubai',
-    guests: '10–15',
-    price: '4,500',
-    perPerson: 'AED 300–450',
-    description: 'Professional dinner catering for boardrooms and teams, sized for a smaller senior group.',
-    included:
-      'Professional multi-course or buffet menu, service staff, VAT invoice, and presentation for board or team dinners.',
-  },
 ]
 
 /** /catering-packages-dubai — the four published packages. */

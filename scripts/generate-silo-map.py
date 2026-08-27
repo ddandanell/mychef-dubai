@@ -39,7 +39,17 @@ AREA_CAP = 3
 
 # Pages that must never be rendered by an automatic module.
 # Redirect sources and robots-disallowed paths are added programmatically.
-SUPPRESSED = {
+def _parked() -> set:
+    """Parked pages are linked from nowhere — including from the related-pages module, which is
+    where most internal links on this site actually come from."""
+    import json as _json, pathlib as _pl
+    f = _pl.Path(__file__).resolve().parents[1] / "docs/seo/parked-urls.json"
+    return set(_json.loads(f.read_text()).get("urls") or {})
+
+
+PARKED = _parked()
+
+SUPPRESSED = PARKED | {
     # Household-plan modules. The flat URL owns the query; these are product
     # modules reached from inside the plan flow, not sitewide nav destinations.
     '/private-chef-dubai/how-it-works',
@@ -334,7 +344,7 @@ def main():
                     or u.startswith(('/blog/', '/guide/'))) for u in live}
     is_commercial = {u: (not is_guide[u]
                          and pages[u].get('page_type') == 'Commercial landing page') for u in live}
-    areas = sorted(u for u in live if u.startswith('/locations/'))
+    areas = sorted(u for u in live if u.startswith('/locations/') and u in linkable)
 
     def rank(cands, seed, cap, prefer=(), floor=0.0):
         """Rank by keyword overlap, weighted toward the seed's own family.

@@ -106,7 +106,6 @@ const relatedLinks = [
     { label: 'Dairy-Free Catering', href: '/allergy-safe-catering-dubai' },
     { label: 'Nut-Free Catering', href: '/allergy-safe-catering-dubai' },
     { label: 'Keto & Low-Carb Catering', href: '/cuisines-dubai' },
-    { label: 'Jain Catering', href: '/jain-catering-dubai' },
     { label: 'Vegan Catering', href: '/vegan-catering-dubai' },
     { label: 'Vegetarian Catering', href: '/vegetarian-catering-dubai' },
   ]},
@@ -130,10 +129,6 @@ const relatedLinks = [
     { label: 'Inquiry', href: '/inquiry' },
   ]},
   { title: 'Locations', links: [
-    { label: 'Palm Jumeirah', href: '/locations/palm-jumeirah' },
-    { label: 'Downtown Dubai', href: '/locations/downtown-dubai' },
-    { label: 'Dubai Marina', href: '/locations/dubai-marina' },
-    { label: 'Emirates Hills', href: '/locations/emirates-hills' },
     { label: 'JBR', href: '/locations/jbr' },
     { label: 'All Locations', href: '/locations' },
   ]},

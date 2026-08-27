@@ -343,7 +343,7 @@
     },
     {
       "source": "/film-crew-catering-dubai",
-      "destination": "/production-catering-dubai",
+      "destination": "/corporate-event-catering-dubai",
       "statusCode": 301
     },
     {
@@ -428,7 +428,7 @@
     },
     {
       "source": "/chinese-new-year-catering-dubai",
-      "destination": "/asian-catering-dubai",
+      "destination": "/catering-dubai",
       "statusCode": 301
     },
     {
@@ -508,7 +508,7 @@
     },
     {
       "source": "/corporate-meal-prep-dubai",
-      "destination": "/staff-meals-catering-dubai",
+      "destination": "/office-catering-dubai",
       "statusCode": 301
     }
   ],

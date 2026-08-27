@@ -32,9 +32,10 @@
       "phase": 2,
       "status": "done",
       "from": "/film-crew-catering-dubai",
-      "to": "/production-catering-dubai",
+      "to": "/corporate-event-catering-dubai",
       "reason": "Same customer problem. Film/night-shoot use cases ported; title now 'Film, TV & Photo Crews'.",
-      "evidence": "No Bing impressions."
+      "evidence": "No Bing impressions.",
+      "note": "Re-pointed 2026-08-28: /production-catering-dubai is parked, and a redirect may not land on a page asked to be forgotten."
     },
     {
       "phase": 2,
@@ -308,9 +309,10 @@
       "phase": 5,
       "status": "done",
       "from": "/chinese-new-year-catering-dubai",
-      "to": "/asian-catering-dubai",
+      "to": "/catering-dubai",
       "reason": "Cuisine page is the closer replacement.",
-      "executed": "2026-08-26 by the parallel session under the owner's \"run the next thing, get everything finished\" instruction — the GSC veto check in CONSOLIDATION-PLAN.md §3 was NOT run (no GSC access); re-check once access exists"
+      "executed": "2026-08-26 by the parallel session under the owner's \"run the next thing, get everything finished\" instruction — the GSC veto check in CONSOLIDATION-PLAN.md §3 was NOT run (no GSC access); re-check once access exists",
+      "note": "Re-pointed 2026-08-28: /asian-catering-dubai is parked, and a redirect may not land on a page asked to be forgotten."
     },
     {
       "phase": 5,
@@ -323,9 +325,10 @@
       "phase": 5,
       "status": "done",
       "from": "/corporate-meal-prep-dubai",
-      "to": "/staff-meals-catering-dubai",
+      "to": "/office-catering-dubai",
       "reason": "If the service is fundamentally scheduled employee meals.",
-      "executed": "2026-08-26 by the parallel session under the owner's \"run the next thing, get everything finished\" instruction — the GSC veto check in CONSOLIDATION-PLAN.md §3 was NOT run (no GSC access); re-check once access exists"
+      "executed": "2026-08-26 by the parallel session under the owner's \"run the next thing, get everything finished\" instruction — the GSC veto check in CONSOLIDATION-PLAN.md §3 was NOT run (no GSC access); re-check once access exists",
+      "note": "Re-pointed 2026-08-28: /staff-meals-catering-dubai is parked, and a redirect may not land on a page asked to be forgotten."
     },
     {
       "phase": 5,

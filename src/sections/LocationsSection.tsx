@@ -5,6 +5,7 @@ import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import { ArrowRight } from 'lucide-react'
 import { SectionLabel } from '@/components/system'
 import { locationPath } from '@/data/locations'
+import { isParked } from '@/content/parkedUrls'
 
 const locations = [
   { image: '/loc-palm-jumeirah.webp', name: 'Palm Jumeirah', slug: 'palm-jumeirah' },
@@ -80,7 +81,7 @@ export default function LocationsSection() {
           ref={cardsRef}
           className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-px bg-white/10 border border-white/10"
         >
-          {locations.map((loc) => (
+          {locations.filter((l) => !isParked(locationPath(l.slug))).map((loc) => (
             <Link
               key={loc.slug}
               to={locationPath(loc.slug)}

@@ -13,6 +13,18 @@ import json, pathlib, re, html, collections, datetime, sys
 
 HERE = pathlib.Path(__file__).resolve().parent
 ROOT = HERE.parents[2]
+
+def _parked() -> set:
+    """URLs deliberately hidden: no sitemap entry, no inbound link, no breadcrumb. Counting them
+    as orphans would bury the real ones — verify-parked.py is what proves that state is correct."""
+    import json as _json
+    try:
+        return set(_json.loads((ROOT / "docs/seo/parked-urls.json").read_text()).get("urls") or {})
+    except Exception:
+        return set()
+
+
+PARKED = _parked()
 LIVE = HERE / ".live"
 # --dist scores the pages just built into dist/ (snapshot .live-dist/); without it the page HTML
 # comes from the last live crawl in .live/. Research data (DataForSEO, competitors) always lives
@@ -121,6 +133,7 @@ for url, a in active.items():
     imp = importance(url)
     n_ctx = len(uniq_ctx)
     if a["noindex"]: status = "noindex — not a target"
+    elif url in PARKED: status = "parked — hidden on purpose"
     elif n_ctx == 0 and not silo_in: status = "ORPHAN (nav/footer only)" if ins else "ORPHAN"
     elif imp >= 5 and n_ctx < 5: status = "Maximum opportunity"
     elif n_ctx < 3: status = "Weak"
@@ -128,8 +141,9 @@ for url, a in active.items():
     else: status = "Strong"
     same_silo = [u for u, b in active.items() if u != url and b["silo"] == a["silo"] and u in outlinks and u not in uniq_ctx and not b["noindex"]]
     strong_not_linking = [u for u in top_authority if u != url and u not in uniq_ctx and not active[u]["noindex"]][:8]
-    hub_links_child = a["hub"] in uniq_ctx or a["hub"] in {l["from"] for l in silo_in} if a.get("hub") and a["hub"] != url else None
-    child_links_hub = any(l["to"] == a["hub"] and l["region"] in ("contextual", "breadcrumb") for l in outlinks.get(url, [])) if a.get("hub") and a["hub"] != url else None
+    parked = url in PARKED
+    hub_links_child = None if parked else (a["hub"] in uniq_ctx or a["hub"] in {l["from"] for l in silo_in} if a.get("hub") and a["hub"] != url else None)
+    child_links_hub = None if parked else (any(l["to"] == a["hub"] and l["region"] in ("contextual", "breadcrumb") for l in outlinks.get(url, [])) if a.get("hub") and a["hub"] != url else None)
     bad = [l for l in ins if l["region"] == "contextual" and l["anchor"] and norm(l["anchor"]) in ("learn more", "read more", "click here", "here", "more")]
     profiles.append({
         "url": url, "primary": a["raw_primary"], "volume": vol.get(a["primary"], 0), "cluster": a["subs"][:12], "silo": a["silo"], "hub": a["hub"], "is_hub": a["is_hub"], "type": a["type"], "noindex": a["noindex"],

@@ -52,17 +52,7 @@ export const experienceFinder = [
     cta: 'Explore Romantic Dinner',
     image: '/images/romantic-dinner-dubai-hero.webp',
     alt: 'A couple dining privately by candlelight at a table set for two in a Dubai villa. Experience concept shown.',
-  },
-  {
-    id: 'tasting',
-    title: 'Private Tasting Menu',
-    text: 'A multi-course menu where progression, presentation and chef interaction become part of the evening.',
-    href: EXPERIENCES_PATHS.tasting,
-    cta: 'Explore Tasting Menus',
-    image: '/images/tasting-menu-dubai-hero.webp',
-    alt: 'A chef presenting a course to seated guests at a private tasting menu dinner. Experience concept shown.',
-  },
-  {
+  },  {
     id: 'cooking-class',
     title: 'Private Cooking Class',
     text: 'Cook alongside a professional chef in a private, hands-on session built around your group and the cuisine you want to learn.',
@@ -103,7 +93,6 @@ export const prose: ProseSection[] = [
       'You do not need all of it. If you want a chef and excellent food and nothing else, that is a complete booking. If you want a full proposal setup where every detail is handled before your partner walks in, that is a different conversation and we plan it differently.',
     ],
     link: { href: EXPERIENCES_PATHS.romantic, label: 'Explore Romantic Dinner in Dubai' },
-    secondaryLink: { href: EXPERIENCES_PATHS.tasting, label: 'Or plan it as a tasting menu' },
   },
   {
     id: 'tasting-menus',
@@ -115,7 +104,6 @@ export const prose: ProseSection[] = [
       'Dietary requirements are part of the menu design, not an exception handled at the end. Allergies, vegetarian and vegan guests, gluten requirements and halal requirements all change how a progression is built, and it is far easier to design around them than to substitute around them later.',
       'Tasting menus work especially well for smaller groups, where the dinner itself is the evening rather than the backdrop to it.',
     ],
-    link: { href: EXPERIENCES_PATHS.tasting, label: 'Explore Private Tasting Menus' },
     secondaryLink: { href: EXPERIENCES_PATHS.halal, label: 'Halal private dining' },
   },
   {

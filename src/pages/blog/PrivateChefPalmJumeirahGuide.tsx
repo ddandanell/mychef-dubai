@@ -169,7 +169,7 @@ export default function PrivateChefPalmJumeirahGuide() {
               Families with children, couples celebrating quietly, and groups of friends who want to linger over conversation all benefit from the flexibility. You control the music, dress code, guest list, and menu. The chef simply handles the food.
             </p>
             <p className="font-inter text-body text-gray-500 leading-relaxed">
-              For residents of <Link to="/locations/palm-jumeirah" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Palm Jumeirah</Link>, the convenience is hard to beat. There is no valet queue and no late-night taxi arrangement — just a short walk from dining table to sofa.
+              For residents of Palm Jumeirah, the convenience is hard to beat. There is no valet queue and no late-night taxi arrangement — just a short walk from dining table to sofa.
             </p>
           </section>
 

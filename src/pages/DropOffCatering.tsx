@@ -155,7 +155,7 @@ const faqs = [
   },
   {
     q: 'Do you deliver only in Dubai?',
-    a: 'Coverage is Dubai. [Palm Jumeirah](/locations/palm-jumeirah), [Dubai Marina](/locations/dubai-marina) and [Downtown Dubai](/locations/downtown-dubai) are regular runs; [areas we serve](/locations) lists the rest. A Sharjah, Ajman or Abu Dhabi address goes on the enquiry and we tell you before you commit whether the Dubai network can serve it and what the travel adds.',
+    a: 'Coverage is Dubai. Palm Jumeirah, Dubai Marina and Downtown Dubai are regular runs; [areas we serve](/locations) lists the rest. A Sharjah, Ajman or Abu Dhabi address goes on the enquiry and we tell you before you commit whether the Dubai network can serve it and what the travel adds.',
   },
   {
     q: 'Do you also do catering delivery Dubai?',
@@ -576,17 +576,17 @@ export default function DropOffCatering() {
         subtitle={
           <>
             Regular runs include{' '}
-            <Link to="/locations/palm-jumeirah" className="text-gold hover:text-gold-light underline underline-offset-4">
+            
               Palm Jumeirah
-            </Link>
+            
             ,{' '}
-            <Link to="/locations/dubai-marina" className="text-gold hover:text-gold-light underline underline-offset-4">
+            
               Dubai Marina
-            </Link>
+            
             {' '}and{' '}
-            <Link to="/locations/downtown-dubai" className="text-gold hover:text-gold-light underline underline-offset-4">
+            
               Downtown Dubai
-            </Link>
+            
             . Full list on{' '}
             <Link to="/locations" className="text-gold hover:text-gold-light underline underline-offset-4">
               Areas we serve

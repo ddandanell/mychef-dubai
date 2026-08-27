@@ -358,12 +358,6 @@ export default function Catering() {
               <p className="font-inter text-body-sm text-gray-600 leading-relaxed mb-4 max-w-[48ch]">
                 {jetPathway.body}
               </p>
-              <Link
-                to={jetPathway.href}
-                className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink hover:text-gold"
-              >
-                {jetPathway.linkLabel} <ArrowRight size={14} aria-hidden />
-              </Link>
             </div>
           </div>
         </Container>
@@ -576,10 +570,10 @@ export default function Catering() {
         subtitle={
           <>
             Available across Dubai including{' '}
-            <Link to="/locations/palm-jumeirah" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Palm Jumeirah</Link>,{' '}
-            <Link to="/locations/dubai-marina" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Dubai Marina</Link>
+            Palm Jumeirah,{' '}
+            Dubai Marina
             {' '}and{' '}
-            <Link to="/locations/downtown-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Downtown Dubai</Link>.
+            Downtown Dubai.
           </>
         }
       />

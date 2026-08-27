@@ -6,6 +6,7 @@ import TrustSignalStrip from './TrustSignalStrip'
 import BlogRelated from './BlogRelated'
 import { getSeoContent, type SeoPage, type SeoImage } from '../content/seo'
 import { CONTEXTUAL_LINKS, pillarsFor, getPost } from '../content/blogTaxonomy'
+import { isParked } from '@/content/parkedUrls'
 import BlogFigure from './BlogFigure'
 
 const WHATSAPP_LINK = 'https://wa.me/971551744849'
@@ -177,7 +178,8 @@ export default function HandoffPage() {
 
   // Internal linking: contextual body links share one page-wide budget/state.
   const linkState: LinkState = { usedPhrases: new Set(), usedUrls: new Set(), budget: LINK_BUDGET }
-  const pillars = isBlog ? pillarsFor(pathname) : []
+  // A pillar is a link like any other: a parked destination does not get one.
+  const pillars = isBlog ? pillarsFor(pathname).filter((p) => !isParked(p.url)) : []
 
   // Table of contents from the H2 headings (unique ids, dedupe collisions).
   const usedIds = new Set<string>()

@@ -10,6 +10,7 @@ import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import { locationPath } from '@/data/locations'
+import { isParked } from '@/content/parkedUrls'
 import {
   Carrot,
   Soup,
@@ -132,6 +133,11 @@ const locations = [
   { name: 'Dubai Creek Harbour', slug: 'dubai-creek-harbour' },
 ]
 
+// Only areas whose page is live: an area whose page is parked is still served, it just
+// does not get a link to a page Google has been asked to forget.
+const liveLocations = locations.filter((l) => !isParked(locationPath(l.slug)))
+
+
 const faqs = [
   {
     q: 'What styles of vegetarian food do you cater?',
@@ -165,12 +171,6 @@ const relatedServices = [
     description: 'Fully plant-based fine dining, canapés, and dairy-free desserts for inclusive events.',
     image: '/menu-canapes.webp',
     link: '/vegan-catering-dubai',
-  },
-  {
-    title: 'Jain Catering',
-    description: 'Respectful Jain menus prepared without onion, garlic, root vegetables, mushrooms or eggs.',
-    image: '/images/jain-catering-dubai-hero.webp',
-    link: '/jain-catering-dubai',
   },
   {
     title: 'Healthy Catering',
@@ -336,7 +336,7 @@ export default function VegetarianCatering() {
             Vegetarian catering Dubai price and vegetarian catering cost per person Dubai depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Vegetarian meal plans Dubai and vegetarian catering packages Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. If you are weighing up best vegetarian food Dubai and best vegetarian catering Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. The vegetarian catering menu Dubai is drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Vegetarian meals for catering, vegetarian buffet catering Dubai and is vegetarian food available in Dubai are planned into the first draft of the menu rather than bolted on at the end.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Whether you are hosting a festival or family gathering, a mezze-style reception, a villa dinner, or an inclusive corporate lunch, our chefs design and serves a menu suited to your guests — including <Link to="/jain-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Jain-friendly dishes</Link> without onion and garlic. For a fully plant-based version, see our <Link to="/vegan-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">vegan catering Dubai</Link> menus. Explore our vegetarian formats below, or see how it fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
+            Whether you are hosting a festival or family gathering, a mezze-style reception, a villa dinner, or an inclusive corporate lunch, our chefs design and serves a menu suited to your guests — including Jain-friendly dishes without onion and garlic. For a fully plant-based version, see our <Link to="/vegan-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">vegan catering Dubai</Link> menus. Explore our vegetarian formats below, or see how it fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
           </p>
         </div>
       </section>
@@ -457,7 +457,7 @@ export default function VegetarianCatering() {
           </h2>
 
           <div className="veg-loc-grid grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
-            {locations.map((loc) => (
+            {liveLocations.map((loc) => (
               <Link
                 key={loc.slug}
                 to={locationPath(loc.slug)}

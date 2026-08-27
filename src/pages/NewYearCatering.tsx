@@ -505,8 +505,8 @@ export default function NewYearCatering() {
             <Link to="/yachts" className="px-5 py-2.5 border border-gold/30 text-gold font-inter text-sm hover:bg-gold hover:text-black transition-colors rounded-sm">Yacht Catering</Link>
             <Link to="/luxury-dining-experiences" className="px-5 py-2.5 border border-gold/30 text-gold font-inter text-sm hover:bg-gold hover:text-black transition-colors rounded-sm">Luxury Dining</Link>
             <Link to="/canape-catering-dubai" className="px-5 py-2.5 border border-gold/30 text-gold font-inter text-sm hover:bg-gold hover:text-black transition-colors rounded-sm">Canapé Catering</Link>
-            <Link to="/locations/palm-jumeirah" className="px-5 py-2.5 border border-gold/30 text-gold font-inter text-sm hover:bg-gold hover:text-black transition-colors rounded-sm">Palm Jumeirah</Link>
-            <Link to="/locations/dubai-marina" className="px-5 py-2.5 border border-gold/30 text-gold font-inter text-sm hover:bg-gold hover:text-black transition-colors rounded-sm">Dubai Marina</Link>
+            Palm Jumeirah
+            Dubai Marina
           </div>
         </div>
       </section>

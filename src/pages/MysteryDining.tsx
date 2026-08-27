@@ -125,12 +125,6 @@ const relatedServices = [
     link: '/romantic-dinner-dubai',
   },
   {
-    title: 'Tasting Menu Dubai',
-    description: 'Multi-course tasting experiences crafted by private chefs in your own space.',
-    image: '/images/tasting-menu-dubai-hero.webp',
-    link: '/tasting-menu-dubai',
-  },
-  {
     title: 'Private Chef Dubai',
     description: 'Bespoke private chef service for dinners, events, and weekly meal prep.',
     image: '/images/private-chef-dubai-hero.webp',
@@ -266,7 +260,7 @@ export default function MysteryDining() {
               The result is a relaxed, conversational dinner where guests arrive curious and leave impressed. It works equally well for romantic date nights, small group celebrations, and diners who want a tasting-menu experience without leaving their home or villa.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              Browse <Link to="/romantic-dinner-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">romantic dinners</Link>, <Link to="/tasting-menu-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">tasting menus</Link>, <Link to="/luxury-dining-experiences" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury dining experiences</Link>, or <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef service</Link> for more bespoke dining options.
+              Browse <Link to="/romantic-dinner-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">romantic dinners</Link>, tasting menus, <Link to="/luxury-dining-experiences" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury dining experiences</Link>, or <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef service</Link> for more bespoke dining options.
             </p>
           </div>
         </div>

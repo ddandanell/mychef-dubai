@@ -80,13 +80,7 @@ export const birthdayKinds = [
   },
 ] as const
 
-export const otherBirthdays = [
-  {
-    title: 'A set menu for 8–12 guests',
-    href: BIRTHDAY_PATHS.package,
-    linkLabel: 'Birthday catering packages',
-  },
-  {
+export const otherBirthdays = [  {
     title: 'A chef-led seated dinner',
     href: BIRTHDAY_PATHS.dinnerArticle,
     linkLabel: 'Private chef for birthday dinner',
@@ -141,14 +135,12 @@ export const pricingH2 = 'What moves a birthday catering Dubai quote'
 
 export const pricingIntro = [
   'These are the published event-catering bands. Birthday catering cost per person in Dubai moves with format more than with the guest list: the same twenty people cost different amounts dropped off, as a buffet, or plated.',
-  'Every quote is itemised — food, staffing, equipment, venue access, timing and 5% VAT as separate lines. If you want a set menu for 8–12 rather than a fully scoped brief, that sits on the packages page.',
+  'Every quote is itemised — food, staffing, equipment, venue access, timing and 5% VAT as separate lines. If you want a set menu for 8–12 rather than a fully scoped brief, say so in the brief and we quote it that way.',
 ] as const
 
 export const packagePointer = {
   title: `Birthday celebration for ${BIRTHDAY_PACKAGE.guests}`,
   body: `From ${BIRTHDAY_PACKAGE.from} · ${BIRTHDAY_PACKAGE.perPerson}. A fixed starting point for a small seated celebration. Everything else on this page is quoted to the event.`,
-  href: BIRTHDAY_PACKAGE.href,
-  linkLabel: 'See what the package includes',
 } as const
 
 export const includedItems = [
@@ -274,7 +266,7 @@ export const birthdayFaqs = [
   },
   {
     q: 'Is there a set package?',
-    a: `Yes — a birthday celebration for ${BIRTHDAY_PACKAGE.guests} from ${BIRTHDAY_PACKAGE.from} (${BIRTHDAY_PACKAGE.perPerson}). Larger or different formats are quoted to the event. See [birthday catering packages](/birthday-catering-package-dubai).`,
+    a: `Yes — a birthday celebration for ${BIRTHDAY_PACKAGE.guests} from ${BIRTHDAY_PACKAGE.from} (${BIRTHDAY_PACKAGE.perPerson}). Larger or different formats are quoted to the event. See birthday catering packages.`,
   },
   {
     q: 'Do you cater children’s birthdays?',

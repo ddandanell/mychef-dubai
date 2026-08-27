@@ -62,7 +62,7 @@ export default function SiteMap() {
               <li><Link to="/baby-shower-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/baby-shower-catering-dubai</Link></li>
               <li><Link to="/desert-dining-dubai" className="text-gray-600 hover:text-gold transition-colors">/desert-dining-dubai</Link></li>
               <li><Link to="/afternoon-tea-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/afternoon-tea-catering-dubai</Link></li>
-              <li><Link to="/asian-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/asian-catering-dubai</Link></li>
+              <li>/asian-catering-dubai</li>
               <li><Link to="/indian-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/indian-catering-dubai</Link></li>
               <li><Link to="/catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/catering-dubai</Link></li>
               <li><Link to="/live-cooking-stations-dubai" className="text-gray-600 hover:text-gold transition-colors">/live-cooking-stations-dubai</Link></li>
@@ -89,13 +89,13 @@ export default function SiteMap() {
               <li><Link to="/arabic-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/arabic-catering-dubai</Link></li>
               <li><Link to="/mediterranean-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/mediterranean-catering-dubai</Link></li>
               <li><Link to="/italian-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/italian-catering-dubai</Link></li>
-              <li><Link to="/asian-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/asian-catering-dubai</Link></li>
+              <li>/asian-catering-dubai</li>
               <li><Link to="/sushi-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/sushi-catering-dubai</Link></li>
               <li><Link to="/vegan-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/vegan-catering-dubai</Link></li>
               <li><Link to="/vegetarian-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/vegetarian-catering-dubai</Link></li>
               <li><Link to="/halal-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/halal-catering-dubai</Link></li>
               <li><Link to="/allergy-safe-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/allergy-safe-catering-dubai</Link></li>
-              <li><Link to="/jain-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/jain-catering-dubai</Link></li>
+              <li>/jain-catering-dubai</li>
               <li><Link to="/halal-private-dining-dubai" className="text-gray-600 hover:text-gold transition-colors">/halal-private-dining-dubai</Link></li>
             </ul>
           </div>
@@ -106,8 +106,8 @@ export default function SiteMap() {
               <li><Link to="/business-lunch-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/business-lunch-catering-dubai</Link></li>
               <li><Link to="/corporate-event-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/corporate-event-catering-dubai</Link></li>
               <li><Link to="/conference-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/conference-catering-dubai</Link></li>
-              <li><Link to="/staff-meals-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/staff-meals-catering-dubai</Link></li>
-              <li><Link to="/production-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/production-catering-dubai</Link></li>
+              <li>/staff-meals-catering-dubai</li>
+              <li>/production-catering-dubai</li>
             </ul>
           </div>
           <div>
@@ -116,7 +116,7 @@ export default function SiteMap() {
               <li><Link to="/festive-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/festive-catering-dubai</Link></li>
               <li><Link to="/romantic-dinner-dubai" className="text-gray-600 hover:text-gold transition-colors">/romantic-dinner-dubai</Link></li>
               <li><Link to="/private-party-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/private-party-catering-dubai</Link></li>
-              <li><Link to="/uae-national-day-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/uae-national-day-catering-dubai</Link></li>
+              <li>/uae-national-day-catering-dubai</li>
               <li><Link to="/ramadan-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/ramadan-catering-dubai</Link></li>
               <li><Link to="/iftar-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/iftar-catering-dubai</Link></li>
               <li><Link to="/eid-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/eid-catering-dubai</Link></li>
@@ -126,7 +126,7 @@ export default function SiteMap() {
               <li><Link to="/brunch-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/brunch-catering-dubai</Link></li>
               <li><Link to="/breakfast-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/breakfast-catering-dubai</Link></li>
               <li><Link to="/drop-off-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/drop-off-catering-dubai</Link></li>
-              <li><Link to="/tasting-menu-dubai" className="text-gray-600 hover:text-gold transition-colors">/tasting-menu-dubai</Link></li>
+              <li>/tasting-menu-dubai</li>
             </ul>
           </div>
           <div>
@@ -153,19 +153,19 @@ export default function SiteMap() {
               <li><Link to="/review" className="text-gray-600 hover:text-gold transition-colors">/review</Link></li>
               <li><Link to="/referral-programme" className="text-gray-600 hover:text-gold transition-colors">/referral-programme</Link></li>
               <li><Link to="/mychef-membership" className="text-gray-600 hover:text-gold transition-colors">/mychef-membership</Link></li>
-              <li><Link to="/corporate-retainer-dubai" className="text-gray-600 hover:text-gold transition-colors">/corporate-retainer-dubai</Link></li>
-              <li><Link to="/postpartum-meal-prep-dubai" className="text-gray-600 hover:text-gold transition-colors">/postpartum-meal-prep-dubai</Link></li>
-              <li><Link to="/fitness-meal-prep-dubai" className="text-gray-600 hover:text-gold transition-colors">/fitness-meal-prep-dubai</Link></li>
-              <li><Link to="/tourist-villa-chef-dubai" className="text-gray-600 hover:text-gold transition-colors">/tourist-villa-chef-dubai</Link></li>
+              <li>/corporate-retainer-dubai</li>
+              <li>/postpartum-meal-prep-dubai</li>
+              <li>/fitness-meal-prep-dubai</li>
+              <li>/tourist-villa-chef-dubai</li>
               <li><Link to="/proposal-dinner-dubai" className="text-gray-600 hover:text-gold transition-colors">/proposal-dinner-dubai</Link></li>
               <li><Link to="/founding-customer-offer" className="text-gray-600 hover:text-gold transition-colors">/founding-customer-offer</Link></li>
               <li><Link to="/loyalty-programme" className="text-gray-600 hover:text-gold transition-colors">/loyalty-programme</Link></li>
               <li><Link to="/mychef-certified" className="text-gray-600 hover:text-gold transition-colors">/mychef-certified</Link></li>
-              <li><Link to="/mystery-dining-dubai" className="text-gray-600 hover:text-gold transition-colors">/mystery-dining-dubai</Link></li>
+              <li>/mystery-dining-dubai</li>
               <li><Link to="/chef-training-academy" className="text-gray-600 hover:text-gold transition-colors">/chef-training-academy</Link></li>
               <li><Link to="/influencer-partnerships" className="text-gray-600 hover:text-gold transition-colors">/influencer-partnerships</Link></li>
               <li><Link to="/full-time-private-chef-dubai" className="text-gray-600 hover:text-gold transition-colors">/full-time-private-chef-dubai</Link></li>
-              <li><Link to="/kids-nutrition-chef-dubai" className="text-gray-600 hover:text-gold transition-colors">/kids-nutrition-chef-dubai</Link></li>
+              <li>/kids-nutrition-chef-dubai</li>
               <li><Link to="/apartment-private-dining-dubai" className="text-gray-600 hover:text-gold transition-colors">/apartment-private-dining-dubai</Link></li>
               <li><Link to="/chefs-table-dubai" className="text-gray-600 hover:text-gold transition-colors">/chefs-table-dubai</Link></li>
               <li><Link to="/part-time-private-chef-dubai" className="text-gray-600 hover:text-gold transition-colors">/part-time-private-chef-dubai</Link></li>
@@ -193,20 +193,20 @@ export default function SiteMap() {
             <h2 className="font-playfair text-xl text-black mb-4">Locations</h2>
             <ul className="space-y-2 font-inter text-body-sm">
               <li><Link to="/locations" className="text-gray-600 hover:text-gold transition-colors">/locations</Link></li>
-              <li><Link to="/locations/dubai-marina" className="text-gray-600 hover:text-gold transition-colors">/locations/dubai-marina</Link></li>
-              <li><Link to="/locations/downtown-dubai" className="text-gray-600 hover:text-gold transition-colors">/locations/downtown-dubai</Link></li>
-              <li><Link to="/locations/palm-jumeirah" className="text-gray-600 hover:text-gold transition-colors">/locations/palm-jumeirah</Link></li>
-              <li><Link to="/locations/jumeirah" className="text-gray-600 hover:text-gold transition-colors">/locations/jumeirah</Link></li>
+              <li>/locations/dubai-marina</li>
+              <li>/locations/downtown-dubai</li>
+              <li>/locations/palm-jumeirah</li>
+              <li>/locations/jumeirah</li>
               <li><Link to="/locations/jbr" className="text-gray-600 hover:text-gold transition-colors">/locations/jbr</Link></li>
-              <li><Link to="/locations/business-bay" className="text-gray-600 hover:text-gold transition-colors">/locations/business-bay</Link></li>
+              <li>/locations/business-bay</li>
               <li><Link to="/locations/difc" className="text-gray-600 hover:text-gold transition-colors">/locations/difc</Link></li>
-              <li><Link to="/locations/emirates-hills" className="text-gray-600 hover:text-gold transition-colors">/locations/emirates-hills</Link></li>
-              <li><Link to="/locations/arabian-ranches" className="text-gray-600 hover:text-gold transition-colors">/locations/arabian-ranches</Link></li>
-              <li><Link to="/locations/dubai-hills" className="text-gray-600 hover:text-gold transition-colors">/locations/dubai-hills</Link></li>
-              <li><Link to="/locations/jvc" className="text-gray-600 hover:text-gold transition-colors">/locations/jvc</Link></li>
+              <li>/locations/emirates-hills</li>
+              <li>/locations/arabian-ranches</li>
+              <li>/locations/dubai-hills</li>
+              <li>/locations/jvc</li>
               <li><Link to="/locations/jlt" className="text-gray-600 hover:text-gold transition-colors">/locations/jlt</Link></li>
-              <li><Link to="/locations/bluewaters-island" className="text-gray-600 hover:text-gold transition-colors">/locations/bluewaters-island</Link></li>
-              <li><Link to="/locations/umm-suqeim" className="text-gray-600 hover:text-gold transition-colors">/locations/umm-suqeim</Link></li>
+              <li>/locations/bluewaters-island</li>
+              <li>/locations/umm-suqeim</li>
               <li><Link to="/locations/al-barsha" className="text-gray-600 hover:text-gold transition-colors">/locations/al-barsha</Link></li>
             </ul>
           </div>
@@ -234,15 +234,15 @@ export default function SiteMap() {
               <li><Link to="/private-chef-vs-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/private-chef-vs-catering-dubai</Link></li>
               <li><Link to="/buffet-vs-plated-dubai" className="text-gray-600 hover:text-gold transition-colors">/buffet-vs-plated-dubai</Link></li>
               <li><Link to="/yacht-catering-guide-dubai" className="text-gray-600 hover:text-gold transition-colors">/yacht-catering-guide-dubai</Link></li>
-              <li><Link to="/ramadan-catering-guide-dubai" className="text-gray-600 hover:text-gold transition-colors">/ramadan-catering-guide-dubai</Link></li>
-              <li><Link to="/luxury-dinner-planning-guide-dubai" className="text-gray-600 hover:text-gold transition-colors">/luxury-dinner-planning-guide-dubai</Link></li>
+              <li>/ramadan-catering-guide-dubai</li>
+              <li>/luxury-dinner-planning-guide-dubai</li>
             </ul>
           </div>
           <div>
             <h2 className="font-playfair text-xl text-black mb-4">Linkable assets / guides</h2>
             <ul className="space-y-2 font-inter text-body-sm">
               <li><Link to="/guide/private-dining-dubai" className="text-gray-600 hover:text-gold transition-colors">/guide/private-dining-dubai</Link></li>
-              <li><Link to="/dubai-event-catering-price-guide-2026" className="text-gray-600 hover:text-gold transition-colors">/dubai-event-catering-price-guide-2026</Link></li>
+              <li>/dubai-event-catering-price-guide-2026</li>
               <li><Link to="/yacht-catering-checklist-dubai" className="text-gray-600 hover:text-gold transition-colors">/yacht-catering-checklist-dubai</Link></li>
               <li><Link to="/wedding-catering-menu-planning-dubai" className="text-gray-600 hover:text-gold transition-colors">/wedding-catering-menu-planning-dubai</Link></li>
               <li><Link to="/dubai-food-trends-report-2026" className="text-gray-600 hover:text-gold transition-colors">/dubai-food-trends-report-2026</Link></li>
@@ -252,10 +252,10 @@ export default function SiteMap() {
             <h2 className="font-playfair text-xl text-black mb-4">Additional service & experience pages</h2>
             <ul className="space-y-2 font-inter text-body-sm">
               <li><Link to="/bar-services-dubai" className="text-gray-600 hover:text-gold transition-colors">/bar-services-dubai</Link></li>
-              <li><Link to="/product-launch-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/product-launch-catering-dubai</Link></li>
-              <li><Link to="/brand-activation-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/brand-activation-catering-dubai</Link></li>
-              <li><Link to="/exhibition-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/exhibition-catering-dubai</Link></li>
-              <li><Link to="/gala-dinner-catering-dubai" className="text-gray-600 hover:text-gold transition-colors">/gala-dinner-catering-dubai</Link></li>
+              <li>/product-launch-catering-dubai</li>
+              <li>/brand-activation-catering-dubai</li>
+              <li>/exhibition-catering-dubai</li>
+              <li>/gala-dinner-catering-dubai</li>
               <li><Link to="/private-cooking-classes-dubai" className="text-gray-600 hover:text-gold transition-colors">/private-cooking-classes-dubai</Link></li>
               <li><Link to="/vip-club" className="text-gray-600 hover:text-gold transition-colors">/vip-club</Link></li>
               <li><Link to="/gift-cards" className="text-gray-600 hover:text-gold transition-colors">/gift-cards</Link></li>

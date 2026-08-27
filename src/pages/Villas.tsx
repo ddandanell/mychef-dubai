@@ -31,7 +31,6 @@ const HERO_IMAGE = '/images/villa-catering-dubai-hero.webp'
 
 /** pages["/villas-private-residences"].internal_linking.siblings — render exactly. */
 const siblingLinks = [
-  { href: '/tourist-villa-chef-dubai', label: 'Holiday villa chef' },
   { href: '/villa-catering-ideas-dubai', label: 'Villa catering ideas' },
   { href: '/private-party-catering-dubai', label: 'Pool party catering' },
   { href: '/bbq-catering-dubai', label: 'BBQ catering' },
@@ -42,16 +41,10 @@ const supportingGuides = [
   { href: '/blog/private-chef-palm-jumeirah-guide', label: 'Private dining palm jumeirah' },
 ] as const
 
-const villaAreas = [
-  { name: 'Palm Jumeirah', href: '/locations/palm-jumeirah', image: '/loc-palm-jumeirah.webp' },
-  { name: 'Emirates Hills', href: '/locations/emirates-hills', image: '/loc-emirates-hills.webp' },
-  { name: 'Dubai Hills', href: '/locations/dubai-hills', image: '/loc-downtown.webp' },
-] as const
-
 const includedItems = [
   {
     title: 'The chef, matched to the job',
-    body: 'Identity, right-to-work, a cooking assessment and references before anyone enters the house. Independent licensed partners cook. myCHEF matches, briefs and stays the contact.',
+    body: 'Identity, right-to-work, a cooking assessment and references before anyone enters the house. A licensed supplier employs the chef, on a visa we have asked to see. myCHEF matches, briefs and stays the contact.',
   },
   {
     title: 'The kitchen you actually have',
@@ -90,7 +83,7 @@ const faqItems = [
   },
   {
     q: 'We are renting a villa for a holiday. Is this the right page?',
-    a: 'For a stay of a few days, open [holiday villa chef](/tourist-villa-chef-dubai). That page is built around a rental, a concierge and a short run of dinners. A resident household that wants the same chef back week after week belongs on [private chef](/private-chef-dubai). A single party in the rental is still catering.',
+    a: 'For a stay of a few days, open holiday villa chef. That page is built around a rental, a concierge and a short run of dinners. A resident household that wants the same chef back week after week belongs on [private chef](/private-chef-dubai). A single party in the rental is still catering.',
   },
 ]
 
@@ -159,7 +152,7 @@ export default function Villas() {
           <SectionLabel>WHAT THIS PAGE IS</SectionLabel>
           <DisplayHeading className="text-black mb-6">The house is the same. The job is not.</DisplayHeading>
           <BodyCopy className="mb-5">
-            The booking is a chef working in your home: the gate, the kitchen you actually have, and a kitchen left as they found it. Independent licensed partners cook. myCHEF matches the chef, sets the brief and stays the contact when the house changes.
+            The booking is a chef working in your home: the gate, the kitchen you actually have, and a kitchen left as they found it. A licensed supplier employs the chef, on a visa we have asked to see. myCHEF matches the chef, sets the brief and stays the contact when the house changes.
           </BodyCopy>
           <BodyCopy>
             One dinner is catering. We send that brief there, not into a household plan. A chef who comes back — with a Food Profile behind them — is the other product.
@@ -270,7 +263,7 @@ export default function Villas() {
       <Section id="areas" tone="charcoal" rhythm="chapter">
         <Container>
           <SectionLabel tone="dark">WHERE THE VILLA IS</SectionLabel>
-          <DisplayHeading className="text-white mb-4">Three communities, then the rest of Dubai</DisplayHeading>
+          <DisplayHeading className="text-white mb-4">The compound changes the job</DisplayHeading>
           <BodyCopy tone="dark" className="mb-10">
             The operating detail changes with the compound — beach access on the Palm is not a garden in the Hills. Other communities are listed with{' '}
             <Link to="/locations" className="text-gold hover:text-gold-light underline underline-offset-4">
@@ -278,28 +271,6 @@ export default function Villas() {
             </Link>
             .
           </BodyCopy>
-          <div className="grid sm:grid-cols-3 gap-6">
-            {villaAreas.map((area) => (
-              <Link key={area.href} to={area.href} className="group relative block overflow-hidden">
-                <img
-                  src={area.image}
-                  alt={area.name}
-                  width={400}
-                  height={256}
-                  className="w-full h-64 object-cover transition-transform duration-700 group-hover:scale-105"
-                  decoding="async"
-                  loading="lazy"
-                />
-                <div
-                  className="absolute inset-0"
-                  style={{ background: 'linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.2) 50%, rgba(0,0,0,0) 100%)' }}
-                />
-                <div className="absolute bottom-0 left-0 right-0 p-6">
-                  <h3 className="font-playfair text-h4 text-white group-hover:text-gold transition-colors">{area.name}</h3>
-                </div>
-              </Link>
-            ))}
-          </div>
           <p className="mt-10">
             <Link
               to="/locations"

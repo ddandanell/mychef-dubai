@@ -5,6 +5,7 @@
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
 import { Link } from 'react-router'
+import { isParked } from '@/content/parkedUrls'
 import { ArrowRight, ArrowUpRight, MessageCircle } from 'lucide-react'
 import SEO from '../components/SEO'
 import PageHero from '../components/PageHero'
@@ -292,7 +293,7 @@ export default function LuxuryDining() {
             </BodyCopy>
           </div>
           <div className="grid gap-px bg-white/15 border border-white/15 md:grid-cols-3">
-            {otherCategories.map((c) => (
+            {otherCategories.filter((i) => !isParked(i.href)).map((c) => (
               <Link key={c.cta} to={c.href} className="group bg-black p-7 lg:p-8 transition-colors hover:bg-white/[0.04]">
                 <p className="font-playfair text-h4 text-white mb-3">{c.q}</p>
                 <p className="font-inter text-body-sm text-white/55 leading-relaxed mb-6">{c.a}</p>
@@ -326,7 +327,7 @@ export default function LuxuryDining() {
             </DisplayHeading>
           </div>
           <div className="grid border-t border-gray-200 sm:grid-cols-2 lg:grid-cols-3">
-            {finalDirectory.map((d) => (
+            {finalDirectory.filter((i) => !isParked(i.href)).map((d) => (
               <Link
                 key={d.title}
                 to={d.href}

@@ -158,7 +158,7 @@ export default function PrivateChef() {
               <Eyebrow>What this is</Eyebrow>
               <DisplayHeading size="h2" className="text-black mb-6">What a private chef Dubai arrangement is</DisplayHeading>
               <BodyCopy className="mb-5">
-                myCHEF is not a list of chefs you have to manage, and not a staffing agency that puts someone on your payroll. Independent, licensed culinary partners cook. We organise the chef: the match, the Food Profile and the backup.
+                myCHEF is not a list of chefs you have to manage, and not a staffing agency that puts someone on your payroll. A licensed supplier employs the chef, on a visa we have asked to see. We organise the chef: the match, the Food Profile and the backup.
               </BodyCopy>
               <BodyCopy className="mb-5">
                 You are buying a standing in-home chef in Dubai — usually the same person, a record of how this house eats, and one contact when something changes. That is a different product from a one-night dinner. A one-night dinner is{' '}
@@ -520,10 +520,10 @@ export default function PrivateChef() {
         subtitle={
           <>
             A private chef near me in Dubai still needs a match, not a pin on a map.{' '}
-            <Link to="/locations/palm-jumeirah" className="text-gold-ink hover:text-gold-light underline underline-offset-4">Palm Jumeirah</Link>,{' '}
-            <Link to="/locations/emirates-hills" className="text-gold-ink hover:text-gold-light underline underline-offset-4">Emirates Hills</Link>
+            Palm Jumeirah,{' '}
+            Emirates Hills
             {' '}and{' '}
-            <Link to="/locations/dubai-hills" className="text-gold-ink hover:text-gold-light underline underline-offset-4">Dubai Hills</Link>
+            Dubai Hills
             {' '}are typical houses; the same system covers the rest of the city.
           </>
         }

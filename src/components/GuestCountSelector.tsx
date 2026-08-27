@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Link } from 'react-router'
-import { Phone, Users, ArrowRight, UtensilsCrossed, PartyPopper, ChefHat, Flame, GlassWater, Cake } from 'lucide-react'
+import { Phone, Users, ArrowRight, UtensilsCrossed, PartyPopper, ChefHat, Flame, GlassWater } from 'lucide-react'
 import { SectionLabel } from '@/components/system'
 
 
@@ -32,7 +32,6 @@ const recommendations: Record<RangeKey, Recommendation> = {
       { icon: ChefHat, label: 'Private Chef Dubai', link: '/private-chef-dubai' },
       { icon: UtensilsCrossed, label: 'Luxury Private Dining', link: '/luxury-dining-experiences' },
       { icon: GlassWater, label: 'Canapé Reception', link: '/canape-catering-dubai' },
-      { icon: Cake, label: 'Date Night Package', link: '/date-night-package-dubai' },
     ],
     price: 'From AED 750 per person',
     ctaPath: '/inquiry',
@@ -44,7 +43,6 @@ const recommendations: Record<RangeKey, Recommendation> = {
       { icon: Flame, label: 'BBQ Catering', link: '/bbq-catering-dubai' },
       { icon: GlassWater, label: 'Canapés & Finger Food', link: '/canape-catering-dubai' },
       { icon: UtensilsCrossed, label: 'Grazing Table', link: '/grazing-table-dubai' },
-      { icon: PartyPopper, label: 'Family Feast Package', link: '/family-feast-package-dubai' },
     ],
     price: 'From AED 180 per person',
     ctaPath: '/inquiry',
@@ -56,7 +54,6 @@ const recommendations: Record<RangeKey, Recommendation> = {
       { icon: UtensilsCrossed, label: 'Buffet Catering', link: '/buffet-catering-dubai' },
       { icon: Flame, label: 'Live Cooking Stations', link: '/live-cooking-stations-dubai' },
       { icon: GlassWater, label: 'Cocktail Party Catering', link: '/cocktail-party-catering-dubai' },
-      { icon: Cake, label: 'Birthday Package', link: '/birthday-catering-package-dubai' },
     ],
     price: 'From AED 150 per person',
     ctaPath: '/inquiry',
@@ -79,7 +76,6 @@ const recommendations: Record<RangeKey, Recommendation> = {
     formats: [
       { icon: UtensilsCrossed, label: 'Event Catering', link: '/events' },
       { icon: Flame, label: 'Live Stations & BBQ', link: '/live-cooking-stations-dubai' },
-      { icon: GlassWater, label: 'Gala Dinner Catering', link: '/gala-dinner-catering-dubai' },
       { icon: PartyPopper, label: 'Corporate Events', link: '/corporate-event-catering-dubai' },
     ],
     price: 'Custom quote for 100+ guests',

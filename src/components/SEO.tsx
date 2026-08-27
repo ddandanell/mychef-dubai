@@ -1,3 +1,4 @@
+import { isParked } from '@/content/parkedUrls'
 import { Helmet } from 'react-helmet-async'
 import { useLocation } from 'react-router'
 import { assemblePageGraph } from '@/lib/jsonld'
@@ -30,6 +31,9 @@ export default function SEO({
   schema,
   preloadHero,
 }: SEOProps) {
+  // A parked URL is one the site keeps and Google is asked to forget. The decision lives in
+  // docs/seo/parked-urls.json so a page cannot disagree with the list.
+  const hidden = noindex || isParked(canonicalPath ?? '')
   const { pathname } = useLocation()
   const path = canonicalPath || pathname
   const jsonLd = assemblePageGraph(path, schema)
@@ -79,7 +83,7 @@ export default function SEO({
         <link rel="preload" as="image" type="image/webp" href={`${SITE_URL}${preloadHero}`} imageSizes="100vw" />
       )}
       <html lang="en" />
-      <meta name="robots" content={noindex ? 'noindex, follow' : 'index, follow'} />
+      <meta name="robots" content={hidden ? 'noindex, follow' : 'index, follow'} />
 
       {/* Open Graph */}
       <meta property="og:title" content={fullTitle} />

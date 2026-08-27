@@ -153,9 +153,10 @@
     },
     {
       "from": "/film-crew-catering-dubai",
-      "to": "/production-catering-dubai",
+      "to": "/corporate-event-catering-dubai",
       "type": "301",
-      "reason": "Film crew and production catering are the same customer problem; one owner (consolidation plan 2026-08-26, phase 2)"
+      "reason": "Film crew and production catering are the same customer problem; one owner (consolidation plan 2026-08-26, phase 2)",
+      "note": "Re-pointed 2026-08-28: the old destination is parked, and a redirect may not land on a page asked to be forgotten."
     },
     {
       "from": "/corporate-catering-dubai",
@@ -453,9 +454,10 @@
     },
     {
       "from": "/chinese-new-year-catering-dubai",
-      "to": "/asian-catering-dubai",
+      "to": "/catering-dubai",
       "type": "301",
-      "reason": "Consolidate substantially similar commercial intent into the stronger owner URL."
+      "reason": "Consolidate substantially similar commercial intent into the stronger owner URL.",
+      "note": "Re-pointed 2026-08-28: the old destination is parked, and a redirect may not land on a page asked to be forgotten."
     },
     {
       "from": "/valentines-day-catering-dubai",
@@ -549,9 +551,10 @@
     },
     {
       "from": "/corporate-meal-prep-dubai",
-      "to": "/staff-meals-catering-dubai",
+      "to": "/office-catering-dubai",
       "type": "301",
-      "reason": "Consolidate substantially similar commercial intent into the stronger owner URL."
+      "reason": "Consolidate substantially similar commercial intent into the stronger owner URL.",
+      "note": "Re-pointed 2026-08-28: the old destination is parked, and a redirect may not land on a page asked to be forgotten."
     }
   ],
   "canonical_overrides": {
@@ -14268,7 +14271,7 @@
           "follow": true
         },
         "canonical": "https://www.mychef.ae/chinese-new-year-catering-dubai",
-        "redirect_to": "/asian-catering-dubai",
+        "redirect_to": "/catering-dubai",
         "in_sitemap": false
       },
       "schema": [
@@ -16507,7 +16510,7 @@
           "follow": true
         },
         "canonical": "https://www.mychef.ae/corporate-meal-prep-dubai",
-        "redirect_to": "/staff-meals-catering-dubai",
+        "redirect_to": "/office-catering-dubai",
         "in_sitemap": false
       },
       "schema": [
@@ -21991,7 +21994,7 @@
           "googlebot": "noindex, follow"
         },
         "canonical": "https://www.mychef.ae/production-catering-dubai",
-        "redirect_to": "/production-catering-dubai",
+        "redirect_to": "/corporate-event-catering-dubai",
         "in_sitemap": false
       },
       "schema": [

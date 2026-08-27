@@ -87,6 +87,18 @@ function inlineSeoScript(route: string): string {
 // Routes that are deliberately SPA-only (vercel.json rewrites them to index.html).
 const SPA_ONLY = new Set(["/inquiry", "/thank-you"])
 
+// Parked pages left the sitemap on purpose, and /locations/:slug expands only from the sitemap —
+// so without this a parked area page ships as the empty SPA shell and its noindex never reaches
+// a crawler that does not run JavaScript. A park has to be a real page saying noindex.
+const PARKED_ROUTES: string[] = (() => {
+  try {
+    const raw = fs.readFileSync(path.resolve(__dirname, "../docs/seo/parked-urls.json"), "utf-8")
+    return Object.keys(JSON.parse(raw).urls ?? {})
+  } catch {
+    return []
+  }
+})()
+
 /**
  * Return the normalized list of routes to prerender: every URL in sitemap.xml
  * PLUS every static route declared in src/routes.tsx (dynamic expansions such
@@ -125,8 +137,12 @@ function readRoutes(): string[] {
     console.warn(`WARNING: sitemap still lists redirected path(s), skipping: ${dropped.join(", ")}`)
   }
 
-  // De-duplicate and sort root last
-  const unique = Array.from(new Set([...fromSitemap.filter((p) => !skip.has(p)), ...extra]))
+  // De-duplicate and sort root last. Parked pages are added explicitly: they left the sitemap on
+  // purpose, and /locations/:slug expands only from the sitemap, so without this a parked area
+  // page would ship as the empty SPA shell and its noindex would never reach a crawler.
+  const unique = Array.from(
+    new Set([...fromSitemap.filter((p) => !skip.has(p)), ...extra, ...PARKED_ROUTES.filter((p) => !skip.has(p))]),
+  )
   return unique.sort((a, b) => (a === "/" ? 1 : b === "/" ? -1 : a.localeCompare(b)))
 }
 
@@ -200,6 +216,31 @@ async function launchBrowser(): Promise<Browser> {
   })
 }
 
+/** Keep the last <title> and the last of each named meta — the route's own, not the shell's. */
+function dedupeHead(html: string): string {
+  const head = html.slice(0, html.indexOf("</head>") + 7)
+  if (!head) return html
+  let out = head
+
+  // The app rewrites document.title in place, so the FIRST title is this route's and any later
+  // one is the shell's leftover. Meta tags are appended instead, so there the LAST is the route's.
+  const titles = [...head.matchAll(/<title>.*?<\/title>/g)].map((m) => m[0])
+  for (const t of titles.slice(1)) out = out.replace(t, "")
+
+  const named = new Map<string, string[]>()
+  for (const m of head.matchAll(/<meta (?:name|property)="([^"]+)"[^>]*>/g)) {
+    named.set(m[1], [...(named.get(m[1]) ?? []), m[0]])
+  }
+  for (const tags of named.values()) {
+    for (const tag of tags.slice(0, -1)) out = out.replace(tag, "")
+  }
+
+  const canonicals = [...head.matchAll(/<link rel="canonical"[^>]*>/g)].map((m) => m[0])
+  for (const c of canonicals.slice(0, -1)) out = out.replace(c, "")
+
+  return out + html.slice(head.length)
+}
+
 async function renderRoute(
   page: Page,
   baseUrl: string,
@@ -243,6 +284,12 @@ async function renderRoute(
     /(<link[^>]*fonts\.googleapis\.com[^>]*?)\smedia="all"/g,
     '$1 media="print"',
   )
+
+  // The shell snapshot carries the home page's <title> and meta. The app appends this route's
+  // own tags after them, so every prerendered page shipped two titles and two robots tags —
+  // Google takes the first title and the most restrictive robots, which happened to work and
+  // was one edit away from not working. Keep the last of each; that is the page's own.
+  html = dedupeHead(html)
 
   // Inline this route's SEO payload (HandoffPage routes only) so the client
   // paints without a fetch round-trip / rebuild. Placed just before </body>,

@@ -5,6 +5,7 @@
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
 import { Link } from 'react-router'
+import { isParked } from '@/content/parkedUrls'
 import { ArrowRight } from 'lucide-react'
 import SEO from '../components/SEO'
 import PageHero from '../components/PageHero'
@@ -138,7 +139,7 @@ export default function BirthdayCatering() {
         <Container>
           <p className="font-inter text-caption uppercase tracking-[0.12em] text-gold-ink mb-4">Also in this silo</p>
           <ul className="flex flex-wrap gap-x-6 gap-y-2">
-            {BIRTHDAY_SIBLING_LINKS.map((item) => (
+            {BIRTHDAY_SIBLING_LINKS.filter((item) => !isParked(item.href)).map((item) => (
               <li key={item.href}>
                 <Link
                   to={item.href}
@@ -282,13 +283,6 @@ export default function BirthdayCatering() {
           <div className="border-t border-white/15 pt-8 mb-8">
             <p className="font-playfair text-h4 text-white mb-2">{packagePointer.title}</p>
             <p className="font-inter text-body-sm text-gray-300 leading-relaxed mb-4 max-w-[62ch]">{packagePointer.body}</p>
-            <Link
-              to={packagePointer.href}
-              data-track="price_table"
-              className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold hover:text-gold-light"
-            >
-              {packagePointer.linkLabel} <ArrowRight size={14} aria-hidden />
-            </Link>
           </div>
           <div className="flex flex-wrap gap-6">
             <Link
@@ -470,10 +464,10 @@ export default function BirthdayCatering() {
         subtitle={
           <>
             Available across Dubai including{' '}
-            <Link to="/locations/palm-jumeirah" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Palm Jumeirah</Link>,{' '}
-            <Link to="/locations/dubai-marina" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Dubai Marina</Link>
+            Palm Jumeirah,{' '}
+            Dubai Marina
             {' '}and{' '}
-            <Link to="/locations/downtown-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Downtown Dubai</Link>
+            Downtown Dubai
             . See{' '}
             <Link to="/locations" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">areas we serve</Link>.
           </>

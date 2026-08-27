@@ -110,12 +110,6 @@ const relatedServices = [
     image: '/service-luxury-dining.webp',
     link: '/luxury-dining-experiences',
   },
-  {
-    title: 'Tasting Menu Dubai',
-    description: 'Multi-course menus designed like a fine-dining restaurant experience at home.',
-    image: '/images/luxury-dining-dubai-hero.webp',
-    link: '/tasting-menu-dubai',
-  },
 ]
 
 const schema = {
@@ -245,7 +239,7 @@ export default function ChefsTable() {
               We offer two main formats: the classic chef's table, where the chef narrates a multi-course tasting menu, and omakase, where the chef chooses the progression based on the freshest ingredients and your preferences. Both are intimate, memorable, and highly shareable.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              Explore <Link to="/sushi-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">sushi catering</Link>, <Link to="/tasting-menu-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">tasting menus</Link>, <Link to="/luxury-dining-experiences" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury dining experiences</Link>, or <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef service</Link>.
+              Explore <Link to="/sushi-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">sushi catering</Link>, tasting menus, <Link to="/luxury-dining-experiences" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury dining experiences</Link>, or <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef service</Link>.
             </p>
           </div>
         </div>

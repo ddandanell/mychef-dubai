@@ -26,7 +26,9 @@
     "verify:hero": "python3 scripts/verify-hero.py",
     "seo:rules": "python3 docs/seo/keyword-map/build-rules.py",
     "seo:breadcrumbs": "python3 scripts/generate-breadcrumbs.py",
-    "verify:breadcrumbs": "python3 scripts/generate-breadcrumbs.py --check"
+    "verify:breadcrumbs": "python3 scripts/generate-breadcrumbs.py --check",
+    "seo:parked": "python3 scripts/generate-parked.py",
+    "verify:parked": "python3 scripts/verify-parked.py"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",

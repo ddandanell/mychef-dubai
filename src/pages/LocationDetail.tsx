@@ -5,6 +5,7 @@ import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import { ORGANIZATION_REF } from '@/lib/organizationSchema'
 import { locationPath } from '@/data/locations'
+import { isParked } from '@/content/parkedUrls'
 import {
   MapPin,
   Phone,
@@ -417,7 +418,7 @@ export default function LocationDetail() {
             <h2 className="font-playfair text-h2 text-black">Also Serving Near {loc.name}</h2>
           </div>
           <div className="loc-links grid md:grid-cols-3 gap-6">
-            {loc.nearbyLocations.map((nearby, i) => (
+            {loc.nearbyLocations.filter((n) => !isParked(locationPath(n.slug))).map((nearby, i) => (
               <Link
                 key={i}
                 to={locationPath(nearby.slug)}

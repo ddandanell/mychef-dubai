@@ -6,6 +6,7 @@
 // END KEYWORD LOCK
 import { useRef } from 'react'
 import { Link } from 'react-router'
+import { isParked } from '@/content/parkedUrls'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
@@ -110,7 +111,6 @@ const relatedServices = [
   { title: 'Yacht Catering', link: '/yachts' },
   { title: 'Corporate Catering', link: '/corporate' },
   { title: 'Party Catering', link: '/private-party-catering-dubai' },
-  { title: 'Chinese New Year Catering', link: '/asian-catering-dubai' },
   { title: 'Holi Catering', link: '/indian-catering-dubai' },
 ]
 
@@ -271,7 +271,7 @@ export default function FestiveCatering() {
           </div>
 
           <div className="festive-grid grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {festivePages.map((page, i) => {
+            {festivePages.filter((page) => !isParked(page.slug)).map((page, i) => {
               const Icon = page.icon
               return (
                 <Link

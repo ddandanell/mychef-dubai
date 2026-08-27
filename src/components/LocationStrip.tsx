@@ -1,6 +1,7 @@
 import { Link } from 'react-router'
 import { SectionLabel } from '@/components/system'
 import { locationPath } from '@/data/locations'
+import { isParked } from '@/content/parkedUrls'
 
 interface LocationStripProps {
   title?: string
@@ -25,6 +26,10 @@ const locations = [
   { name: 'Umm Suqeim', slug: 'umm-suqeim' },
   { name: 'Al Barsha', slug: 'al-barsha' },
 ]
+// Eleven of the fifteen area pages took 60–120 internal links each and were never shown by
+// Google once in 90 days. The strip now offers only the four that earn impressions.
+const shown = locations.filter((l) => !isParked(locationPath(l.slug)))
+
 
 export default function LocationStrip({ title = 'Private chef & luxury dining across Dubai', subtitle, className = '' }: LocationStripProps) {
   return (
@@ -43,7 +48,7 @@ export default function LocationStrip({ title = 'Private chef & luxury dining ac
         </div>
 
         <div className="flex flex-wrap justify-center gap-3">
-          {locations.map((loc) => (
+          {shown.map((loc) => (
             <Link
               key={loc.slug}
               to={locationPath(loc.slug)}

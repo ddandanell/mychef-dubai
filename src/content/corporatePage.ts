@@ -132,31 +132,13 @@ export const corePathways = [
     image: '/images/corporate-catering-dubai-hero.webp',
     imageAlt: 'Conference catering in Dubai. Experience concept shown.',
   },
-  {
-    title: 'Staff meals',
-    body: 'Volume meals for a workforce. A different operation from a client-facing lunch.',
-    href: '/staff-meals-catering-dubai',
-    linkLabel: 'Staff meals catering in Dubai',
-    image: '/images/staff-meals-catering-dubai-hero.webp',
-    imageAlt: 'Staff meals catering in Dubai. Experience concept shown.',
-  },
-  {
-    title: 'Production catering',
-    body: 'Meals that move with a call sheet. Crew feeding, not a styled reception.',
-    href: '/production-catering-dubai',
-    linkLabel: 'Production catering in Dubai',
-    image: '/images/film-production-catering-dubai-hero.webp',
-    imageAlt: 'Production catering in Dubai. Experience concept shown.',
-  },
 ] as const
 
 export const moreCorporate = [
-  { href: '/gala-dinner-catering-dubai', label: 'Gala dinner catering' },
-  { href: '/product-launch-catering-dubai', label: 'Product launch catering' },
-  { href: '/exhibition-catering-dubai', label: 'Exhibition catering' },
-  { href: '/brand-activation-catering-dubai', label: 'Brand activation catering' },
-  { href: '/corporate-dinner-package-dubai', label: 'Corporate dinner package' },
-  { href: '/corporate-retainer-dubai', label: 'Corporate catering contract' },
+  { href: '/office-catering-dubai', label: 'Office catering' },
+  { href: '/business-lunch-catering-dubai', label: 'Business lunch catering' },
+  { href: '/conference-catering-dubai', label: 'Conference catering' },
+  { href: '/corporate-event-catering-dubai', label: 'Corporate event catering' },
 ] as const
 
 export const startSteps = [
@@ -204,8 +186,8 @@ export const exampleEvents = [
     venue: 'Venue, DIFC',
     setup: 'Branded canapés, a live chef station, timed guest flow around the reveal.',
     outcome: 'Service timed to the product reveal, with interactive cooking in the room.',
-    href: '/product-launch-catering-dubai',
-    linkLabel: 'Product launch catering in Dubai',
+    href: '/corporate-event-catering-dubai',
+    linkLabel: 'Corporate event catering in Dubai',
   },
   {
     title: 'Corporate gala dinner, Downtown Dubai',
@@ -213,8 +195,8 @@ export const exampleEvents = [
     venue: 'Ballroom, Downtown Dubai',
     setup: 'Four-course plated service, timed courses, full front-of-house staffing.',
     outcome: 'Seated dinner held timing, dietary coverage and service across a large room.',
-    href: '/gala-dinner-catering-dubai',
-    linkLabel: 'Gala dinner catering in Dubai',
+    href: '/corporate-event-catering-dubai',
+    linkLabel: 'Corporate event catering in Dubai',
   },
 ] as const
 
@@ -233,7 +215,7 @@ export const corporateFaqs = [
   },
   {
     q: 'Do you offer a standing corporate arrangement?',
-    a: 'Yes. A written contract suits organisations catering regularly through the year. It removes the briefing from every booking. See [corporate catering contracts](/corporate-retainer-dubai).',
+    a: 'Yes. A written contract suits organisations catering regularly through the year. It removes the briefing from every booking. See corporate catering contracts.',
   },
   {
     q: 'Is invoicing available for corporate accounts?',
@@ -265,17 +247,5 @@ export const boundaries = [
     a: 'Parties, launches, galas and networking receptions.',
     href: '/corporate-event-catering-dubai',
     cta: 'Corporate event catering',
-  },
-  {
-    q: 'Daily meals for a workforce?',
-    a: 'Volume staff meals are a different operation entirely.',
-    href: '/staff-meals-catering-dubai',
-    cta: 'Staff meals',
-  },
-  {
-    q: 'Catering a shoot or crew?',
-    a: 'Meals that move with the call sheet.',
-    href: '/production-catering-dubai',
-    cta: 'Production catering',
   },
 ]

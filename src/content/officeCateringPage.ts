@@ -34,7 +34,6 @@ export const OFFICE_WHATSAPP_LINK = `https://wa.me/${OFFICE_WHATSAPP_NUMBER}?tex
 export const OFFICE_SIBLING_LINKS = [
   { href: '/business-lunch-catering-dubai', label: 'Business lunch catering' },
   { href: '/drop-off-catering-dubai', label: 'Drop-off catering' },
-  { href: '/staff-meals-catering-dubai', label: 'Corporate meal prep' },
   { href: '/breakfast-catering-dubai', label: 'Breakfast catering' },
 ] as const
 
@@ -190,14 +189,6 @@ export const siblingCards = [
     linkLabel: 'Drop-off catering',
     image: '/images/drop-off-catering-dubai-hero.webp',
     imageAlt: 'Drop-off catering delivered to a Dubai office. Experience concept shown.',
-  },
-  {
-    title: 'Corporate meal prep',
-    body: 'Volume meals for a workforce. A different operation from a client-facing lunch.',
-    href: '/staff-meals-catering-dubai',
-    linkLabel: 'Corporate meal prep',
-    image: '/images/staff-meals-catering-dubai-hero.webp',
-    imageAlt: 'Corporate meal prep for a Dubai workforce. Experience concept shown.',
   },
   {
     title: 'Breakfast catering',

@@ -55,20 +55,18 @@ export const BIRTHDAY_KEYWORD_LOCK = {
 
 /** pages["/birthday-catering-dubai"].internal_linking.siblings — render exactly. */
 export const BIRTHDAY_SIBLING_LINKS = [
-  { href: '/birthday-catering-package-dubai', label: 'Birthday catering packages' },
   { href: '/blog/best-private-chef-birthday-dinner-dubai', label: 'Private chef for birthday dinner' },
   { href: '/private-party-catering-dubai', label: 'Private party catering' },
 ] as const
 
 /**
- * Published on /birthday-catering-package-dubai. This hub may point at it.
- * Do not retarget the package primary here.
+ * The set-menu numbers. The page that published them is parked, so the hub states the offer
+ * itself rather than sending a reader to a page Google has been asked to forget.
  */
 export const BIRTHDAY_PACKAGE = {
   guests: '8–12 guests',
   from: 'AED 3,600',
   perPerson: 'AED 300–450 per person',
-  href: BIRTHDAY_PATHS.package,
 } as const
 
 export const BIRTHDAY_INQUIRY_HREF = '/inquiry'

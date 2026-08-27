@@ -5,6 +5,7 @@
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
 import { Link } from 'react-router'
+import { isParked } from '@/content/parkedUrls'
 import { ArrowRight, ArrowUpRight, MessageCircle } from 'lucide-react'
 import SEO from '../components/SEO'
 import PageHero from '../components/PageHero'
@@ -198,7 +199,7 @@ export default function CorporateEventCatering() {
           <SectionLabel>Event types</SectionLabel>
           <TextBlock block={blocks[1]} />
           <div className="mt-12 grid gap-px border border-gray-200 bg-gray-200 sm:grid-cols-2 lg:grid-cols-3">
-            {specialities.map((s) => (
+            {specialities.filter((s) => !isParked(s.href)).map((s) => (
               <Link key={s.href} to={s.href} className="group bg-white p-6 transition-colors hover:bg-cream">
                 <h3 className="font-playfair text-h4 text-black transition-colors group-hover:text-gold-ink">
                   {s.title}
@@ -345,19 +346,13 @@ export default function CorporateEventCatering() {
               DIFC
             </Link>
             ,{' '}
-            <Link
-              to="/locations/business-bay"
-              className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors"
-            >
+            
               Business Bay
-            </Link>{' '}
+            {' '}
             and{' '}
-            <Link
-              to="/locations/downtown-dubai"
-              className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors"
-            >
+            
               Downtown Dubai
-            </Link>
+            
             .
           </>
         }

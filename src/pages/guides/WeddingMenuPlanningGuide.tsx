@@ -279,13 +279,13 @@ export default function WeddingMenuPlanningGuide() {
               Vegan catering
             </Link>
             {' · '}
-            <Link to="/blog/vegan-catering-dubai-guide" className="text-gold-ink underline underline-offset-4 hover:text-gold">
+            
               vegan catering guide
-            </Link>
+            
             {' · '}
-            <Link to="/jain-catering-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
+            
               Jain catering
-            </Link>
+            
             . Do not write “allergy-safe” on a mixed wedding service unless a dedicated controlled kitchen has been confirmed for that booking.
           </BodyCopy>
         </Container>

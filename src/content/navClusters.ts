@@ -1,3 +1,5 @@
+import { isParked } from '@/content/parkedUrls'
+
 /**
  * Top-level navigation clusters.
  *
@@ -30,7 +32,7 @@ export interface NavGroup {
 
 export const CATERING_FORMATS_ROOT = '/catering-dubai'
 
-export const CATERING_FORMATS_GROUPS: NavGroup[] = [
+const CATERING_FORMATS_GROUPS_RAW: NavGroup[] = [
   {
     heading: 'Service formats',
     items: [
@@ -55,7 +57,7 @@ export const CATERING_FORMATS_GROUPS: NavGroup[] = [
 
 export const PRIVATE_EVENTS_ROOT = '/events'
 
-export const PRIVATE_EVENTS_GROUPS: NavGroup[] = [
+const PRIVATE_EVENTS_GROUPS_RAW: NavGroup[] = [
   {
     heading: 'Celebrations',
     items: [
@@ -80,14 +82,12 @@ export const PRIVATE_EVENTS_GROUPS: NavGroup[] = [
 
 export const CORPORATE_NAV_ROOT = '/corporate'
 
-export const CORPORATE_NAV_GROUPS: NavGroup[] = [
+const CORPORATE_NAV_GROUPS_RAW: NavGroup[] = [
   {
     heading: 'Company events',
     items: [
       { href: '/corporate', label: 'Corporate Catering', description: 'Start here — the full picture' },
       { href: '/corporate-event-catering-dubai', label: 'Corporate Events', description: 'Company parties, launches, awards' },
-      { href: '/product-launch-catering-dubai', label: 'Product Launches', description: 'Receptions that open the doors well' },
-      { href: '/gala-dinner-catering-dubai', label: 'Gala Dinners', description: 'Formal dinners and award nights' },
     ],
   },
   {
@@ -95,7 +95,6 @@ export const CORPORATE_NAV_GROUPS: NavGroup[] = [
     items: [
       { href: '/office-catering-dubai', label: 'Office Catering', description: 'Day-to-day workplace lunches' },
       { href: '/conference-catering-dubai', label: 'Conference Catering', description: 'Delegates, breaks, multi-day' },
-      { href: '/exhibition-catering-dubai', label: 'Exhibition Catering', description: 'Stands and hospitality suites' },
     ],
   },
 ]
@@ -104,13 +103,12 @@ export const CORPORATE_NAV_GROUPS: NavGroup[] = [
 
 export const CUISINES_ROOT = '/cuisines-dubai'
 
-export const CUISINES_GROUPS: NavGroup[] = [
+const CUISINES_GROUPS_RAW: NavGroup[] = [
   {
     heading: 'Cuisines',
     items: [
       { href: '/cuisines-dubai', label: 'All Cuisines', description: 'Every cuisine we cater in Dubai' },
       { href: '/arabic-catering-dubai', label: 'Arabic Catering', description: 'Mezze, grills and Levantine spreads' },
-      { href: '/asian-catering-dubai', label: 'Asian Catering', description: 'Pan-Asian menus and live wok' },
       { href: '/indian-catering-dubai', label: 'Indian Catering', description: 'Regional Indian cooking and thalis' },
     ],
   },
@@ -126,7 +124,18 @@ export const CUISINES_GROUPS: NavGroup[] = [
 
 /* ─────────────── Shared helpers ─────────────── */
 
-const flatten = (groups: NavGroup[]): NavChild[] => groups.flatMap((g) => g.items)
+const live = (items: NavChild[]) => items.filter((i) => !isParked(i.href))
+
+/** Navigation is the loudest link on the site. A parked page is not in it, anywhere. */
+export const liveGroups = (groups: NavGroup[]): NavGroup[] =>
+  groups.map((g) => ({ ...g, items: live(g.items) })).filter((g) => g.items.length > 0)
+
+export const CATERING_FORMATS_GROUPS: NavGroup[] = liveGroups(CATERING_FORMATS_GROUPS_RAW)
+export const PRIVATE_EVENTS_GROUPS: NavGroup[] = liveGroups(PRIVATE_EVENTS_GROUPS_RAW)
+export const CORPORATE_NAV_GROUPS: NavGroup[] = liveGroups(CORPORATE_NAV_GROUPS_RAW)
+export const CUISINES_GROUPS: NavGroup[] = liveGroups(CUISINES_GROUPS_RAW)
+
+const flatten = (groups: NavGroup[]): NavChild[] => live(groups.flatMap((g) => g.items))
 
 export const CATERING_FORMATS_CHILDREN = flatten(CATERING_FORMATS_GROUPS)
 export const PRIVATE_EVENTS_CHILDREN = flatten(PRIVATE_EVENTS_GROUPS)

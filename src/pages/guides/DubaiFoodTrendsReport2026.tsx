@@ -94,7 +94,6 @@ const howToUse = [
 
 const internalLinks = [
   { title: 'Private Dining Dubai', link: '/guide/private-dining-dubai', description: 'How private dining works in Dubai and when it fits your event.' },
-  { title: 'Dubai Event Catering Price Guide 2026', link: '/dubai-event-catering-price-guide-2026', description: 'Realistic per-person pricing for events, weddings and corporate functions.' },
   { title: 'Yacht Catering Checklist', link: '/yacht-catering-checklist-dubai', description: 'A practical checklist for catering on Dubai yachts and boats.' },
   { title: 'Wedding Menu Planning Guide', link: '/wedding-catering-menu-planning-dubai', description: 'How to plan a wedding catering menu from tasting to table.' },
   { title: 'Catering Dubai', link: '/catering-dubai', description: 'fully-coordinated catering for events, celebrations and corporate functions.' },

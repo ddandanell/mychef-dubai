@@ -34,6 +34,17 @@ function redirectSources(): string[] {
   }
 }
 
+// Parked pages keep resolving but must never be advertised — the list is the same one the app
+// reads for noindex, so a page cannot be in the sitemap and hidden at the same time.
+const PARKED: string[] = (() => {
+  try {
+    const raw = fs.readFileSync(path.resolve(__dirname, '../docs/seo/parked-urls.json'), 'utf8')
+    return Object.keys(JSON.parse(raw).urls ?? {})
+  } catch {
+    return []
+  }
+})()
+
 // Paths that must never appear in the sitemap
 const EXCLUDED_PATHS = new Set([
   '/inquiry',
@@ -55,6 +66,7 @@ const EXCLUDED_PATHS = new Set([
   '/nursery-catering-dubai',
   '/university-catering-dubai',
   ...redirectSources(),
+  ...PARKED,
 ])
 
 // Dynamic route expansions. Values are the slugs substituted for the route's :param.

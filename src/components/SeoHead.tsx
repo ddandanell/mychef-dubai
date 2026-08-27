@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Helmet } from 'react-helmet-async'
+import { isParked } from '@/content/parkedUrls'
 import { useLocation } from 'react-router'
 import { getSeoContent, hasSeoContent, FULLPAGE_ROUTES, SKIP_SEO_HEAD_ROUTES, type SeoPage } from '../content/seo'
 import { routes } from '../routes'
@@ -50,6 +51,9 @@ export default function SeoHead() {
 
   return (
     <Helmet prioritizeSeoTags>
+      {/* A handoff page builds its head here rather than through <SEO>, so the park list has to
+          be honoured in both places or a parked article keeps saying index, follow. */}
+      <meta name="robots" content={isParked(pathname) ? 'noindex, follow' : 'index, follow'} />
       {title ? <title>{title}</title> : null}
       {title ? <meta property="og:title" content={title} /> : null}
       {title ? <meta name="twitter:title" content={title} /> : null}

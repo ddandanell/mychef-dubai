@@ -392,9 +392,9 @@ export default function Corporate() {
           <>
             Trusted for corporate catering in{' '}
             <Link to="/locations/difc" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">DIFC</Link>,{' '}
-            <Link to="/locations/business-bay" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Business Bay</Link>
+            Business Bay
             {' '}and{' '}
-            <Link to="/locations/downtown-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Downtown Dubai</Link>.
+            Downtown Dubai.
           </>
         }
       />

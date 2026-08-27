@@ -41,11 +41,6 @@ const brandAssets = [
 
 const linkableResources = [
   {
-    title: 'Dubai Event Catering Price Guide 2026',
-    description: 'Indicative per-person pricing and budget planning for weddings, corporate events, and private parties in Dubai.',
-    href: '/dubai-event-catering-price-guide-2026',
-  },
-  {
     title: 'Yacht Catering Checklist',
     description: 'A practical checklist for planning food and service on a Dubai yacht charter.',
     href: '/yacht-catering-checklist-dubai',

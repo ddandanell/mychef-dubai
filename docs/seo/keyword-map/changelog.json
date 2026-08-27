@@ -1,18 +1,18 @@
 {
- "generated": "2026-08-27 20:36",
+ "generated": "2026-08-28 02:59",
  "window_days": 120,
  "intro": "Everything that happened to the site, newest first: copy the optimizer wrote, commits that changed pages, images or design, and URLs that were retired. The movement view reads this to explain why a number moved.",
  "tiles": [
   {
-   "value": "528",
+   "value": "531",
    "label": "Changes in 120 days"
   },
   {
-   "value": "216",
+   "value": "217",
    "label": "Copy edits"
   },
   {
-   "value": "121",
+   "value": "122",
    "label": "Design & images"
   },
   {
@@ -21,10 +21,10 @@
   }
  ],
  "kinds": {
-  "copy": 216,
-  "tooling": 31,
+  "tooling": 32,
+  "page": 175,
+  "copy": 217,
   "tracking": 7,
-  "page": 174,
   "other": 70,
   "design": 20,
   "config": 4,
@@ -106,7 +106,7 @@
   },
   {
    "day": "2026-08-27",
-   "changes": 7
+   "changes": 10
   }
  ],
  "busiest_urls": [
@@ -120,7 +120,7 @@
   },
   {
    "url": "/our-chefs",
-   "changes": 38
+   "changes": 39
   },
   {
    "url": "/yachts",
@@ -135,6 +135,14 @@
    "changes": 27
   },
   {
+   "url": "/about",
+   "changes": 26
+  },
+  {
+   "url": "/private-cooking-classes-dubai",
+   "changes": 26
+  },
+  {
    "url": "/how-it-works",
    "changes": 26
   },
@@ -143,20 +151,12 @@
    "changes": 26
   },
   {
-   "url": "/private-cooking-classes-dubai",
-   "changes": 25
-  },
-  {
-   "url": "/about",
-   "changes": 25
+   "url": "/chef-training-academy",
+   "changes": 21
   },
   {
    "url": "/guides",
    "changes": 21
-  },
-  {
-   "url": "/chef-training-academy",
-   "changes": 20
   },
   {
    "url": "/gift-cards",
@@ -179,19 +179,89 @@
    "changes": 10
   },
   {
+   "url": "/blog/grazing-table-vs-buffet-dubai",
+   "changes": 9
+  },
+  {
+   "url": "/blog/private-chef-date-night-dubai",
+   "changes": 9
+  },
+  {
    "url": "/blog/corporate-event-catering-ideas-dubai",
    "changes": 9
-  },
-  {
-   "url": "/blog/nye-party-catering-dubai",
-   "changes": 9
-  },
-  {
-   "url": "/blog/dinner-party-menu-ideas-dubai",
-   "changes": 8
   }
  ],
  "items": [
+  {
+   "at": "2026-08-27T22:11:02+08:00",
+   "day": "2026-08-27",
+   "source": "git",
+   "kind": "tooling",
+   "label": "SEO tooling",
+   "summary": "feat(seo): which pages are carrying the site, and which are being carried",
+   "who": "David Dandanell",
+   "ref": "e3617fb",
+   "sha": "e3617fb9041c3b1c3cac294f87e498c78164054e",
+   "files": 2,
+   "urls": [],
+   "detail": "docs/seo/keyword-map/build-pruning.py, docs/seo/keyword-map/pruning.json",
+   "touched": {
+    "tooling": 2
+   },
+   "site_affecting": false,
+   "id": "git:e3617fb9041c3b1c3cac294f87e498c78164054e"
+  },
+  {
+   "at": "2026-08-27T20:45:30+08:00",
+   "day": "2026-08-27",
+   "source": "git",
+   "kind": "page",
+   "label": "Page component",
+   "summary": "fix(seo): the last stuffing sentence, rewritten rather than deleted",
+   "who": "David Dandanell",
+   "ref": "ecf5b14",
+   "sha": "ecf5b141537000b206ec6f8afbed2fea03cbf88b",
+   "files": 6,
+   "urls": [],
+   "detail": "docs/seo/keyword-map/data.json, docs/seo/keyword-map/index.html, docs/seo/keyword-map/keywords.csv, docs/seo/keyword-map/keywords.json, docs/seo/keyword-map/ownership.html, src/pages/ChefsTable.tsx",
+   "touched": {
+    "tooling": 5,
+    "page": 1
+   },
+   "site_affecting": true,
+   "id": "git:ecf5b141537000b206ec6f8afbed2fea03cbf88b"
+  },
+  {
+   "at": "2026-08-27T20:37:57+08:00",
+   "day": "2026-08-27",
+   "source": "git",
+   "kind": "copy",
+   "label": "Content module",
+   "summary": "fix(seo): the site now says one thing, and says it top-down",
+   "who": "David Dandanell",
+   "ref": "1bfe6cf",
+   "sha": "1bfe6cf324f90d9360ced1b56104f0b186c1cfb6",
+   "files": 106,
+   "urls": [
+    "/about",
+    "/blog/grazing-table-vs-buffet-dubai",
+    "/blog/private-chef-date-night-dubai",
+    "/catering-packages-dubai",
+    "/chef-training-academy",
+    "/our-chefs",
+    "/private-cooking-classes-dubai"
+   ],
+   "detail": "docs/seo/keyword-map/architecture.html, docs/seo/keyword-map/architecture.json, docs/seo/keyword-map/backlog.html, docs/seo/keyword-map/backlog.json, docs/seo/keyword-map/build-rules.py, docs/seo/keyword-map/changelog.json +100 more",
+   "touched": {
+    "tooling": 22,
+    "structure": 1,
+    "design": 4,
+    "copy": 7,
+    "page": 70
+   },
+   "site_affecting": true,
+   "id": "git:1bfe6cf324f90d9360ced1b56104f0b186c1cfb6"
+  },
   {
    "at": "2026-08-27T19:33:06+08:00",
    "day": "2026-08-27",

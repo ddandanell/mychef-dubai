@@ -139,12 +139,6 @@ const relatedServices = [
     image: '/images/gluten-free-catering-dubai-hero.webp',
     link: '/allergy-safe-catering-dubai',
   },
-  {
-    title: 'Family Feast Package Dubai',
-    description: 'A relaxed, generous family dining experience at home with a private chef.',
-    image: '/images/private-chef-dubai-hero.webp',
-    link: '/family-feast-package-dubai',
-  },
 ]
 
 const schema = {
@@ -277,7 +271,7 @@ export default function KidsNutritionChef() {
               Whether you need packed lunches for the week, balanced family dinners, or a full meal-prep service, we work around your schedule and your children's needs. Every menu is reviewed with parents, prepared with care, and delivered ready to serve.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              Explore more family-friendly options: <Link to="/weekly-meal-prep-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">weekly meal prep</Link>, <Link to="/allergy-safe-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">allergy-safe catering</Link>, <Link to="/family-feast-package-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">family feast packages</Link>, or <Link to="/birthday-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">birthday catering</Link>.
+              Explore more family-friendly options: <Link to="/weekly-meal-prep-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">weekly meal prep</Link>, <Link to="/allergy-safe-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">allergy-safe catering</Link>, family feast packages, or <Link to="/birthday-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">birthday catering</Link>.
             </p>
           </div>
         </div>

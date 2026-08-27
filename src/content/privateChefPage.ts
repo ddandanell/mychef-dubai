@@ -1409,7 +1409,7 @@ export const faqs = [
   },
   {
     q: 'Do you employ the chef, or do I?',
-    a: 'Neither, in the usual sense. Independent licensed culinary partners cook. myCHEF organises the match, the standard, the backup and your contact. You are not putting a chef on your payroll.',
+    a: 'Neither, in the usual sense. A licensed supplier employs the chef, on a visa we have asked to see. myCHEF organises the match, the standard, the backup and your contact. You are not putting a chef on your payroll.',
   },
   {
     q: 'What happens if my chef is unavailable?',

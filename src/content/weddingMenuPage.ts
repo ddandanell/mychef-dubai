@@ -235,9 +235,7 @@ export const menuLinks = [
   { href: '/arabic-catering-dubai', label: 'Arabic catering', note: 'Mezze, grills, sharing tables' },
   { href: '/halal-catering-dubai', label: 'Halal catering', note: 'Default kitchen standard' },
   { href: '/vegan-catering-dubai', label: 'Vegan catering', note: 'Plant-based covers that belong in the menu' },
-  { href: '/jain-catering-dubai', label: 'Jain catering', note: 'No-root and temple-style planning' },
   { href: '/dessert-table-catering-dubai', label: 'Dessert table catering', note: 'Cake, sweets, the last food moment' },
   { href: '/blog/grazing-table-vs-buffet-dubai', label: 'Grazing table vs buffet', note: 'Which format fits the room' },
-  { href: '/blog/vegan-catering-dubai-guide', label: 'Vegan catering guide', note: 'How a plant-led menu is built' },
   { href: '/bar-services-dubai', label: 'Bar services', note: 'Mocktails, and alcohol where licensed' },
 ] as const

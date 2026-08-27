@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-27 20:36",
+ "generated": "2026-08-28 02:59",
  "intro": "Every rule here exists because something went wrong once. A rule with a gate is checked on every run and fails the build when it breaks; a rule without one is written down and carried by the tooling, with the numbers beside it.",
  "tiles": [
   {
@@ -155,7 +155,7 @@
    "why": "A rise or a fall is unreadable without what was done. The record used to be split across a Postgres table, git and a JSON map, so a number could never be joined to the edit that caused it.",
    "where": "build-changelog.py → seo_changelog · the Changes page",
    "status": "no gate",
-   "evidence": "528 change(s) logged over the last 120 days"
+   "evidence": "531 change(s) logged over the last 120 days"
   },
   {
    "id": "compare-like-with-like",

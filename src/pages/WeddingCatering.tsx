@@ -388,17 +388,17 @@ export default function WeddingCatering() {
           </p>
           <p className="max-w-[58ch] font-inter text-body text-gray-600 leading-relaxed">
             Palm Jumeirah, Emirates Hills and Dubai Hills each have their own gate and kitchen realities —{' '}
-            <Link to="/locations/palm-jumeirah" className="text-gold-ink underline underline-offset-4 hover:text-gold">
+            
               Palm Jumeirah
-            </Link>
+            
             {', '}
-            <Link to="/locations/emirates-hills" className="text-gold-ink underline underline-offset-4 hover:text-gold">
+            
               Emirates Hills
-            </Link>
+            
             {', '}
-            <Link to="/locations/dubai-hills" className="text-gold-ink underline underline-offset-4 hover:text-gold">
+            
               Dubai Hills
-            </Link>
+            
             .
           </p>
         </Container>
@@ -603,10 +603,10 @@ export default function WeddingCatering() {
         subtitle={
           <>
             Available across Dubai including{' '}
-            <Link to="/locations/palm-jumeirah" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Palm Jumeirah</Link>,{' '}
-            <Link to="/locations/emirates-hills" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Emirates Hills</Link>
+            Palm Jumeirah,{' '}
+            Emirates Hills
             {' '}and{' '}
-            <Link to="/locations/dubai-hills" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Dubai Hills</Link>
+            Dubai Hills
             . See{' '}
             <Link to="/locations" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">areas we serve</Link>.
           </>

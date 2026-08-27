@@ -10,12 +10,12 @@ import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import { locationPath } from '@/data/locations'
+import { isParked } from '@/content/parkedUrls'
 import {
   Flame,
   UtensilsCrossed,
   Leaf,
   Soup,
-  ChefHat,
   Users,
   Check,
   Phone,
@@ -53,12 +53,6 @@ const menuHighlights = [
     title: 'North Indian Curries',
     description: 'Rich, layered gravies — butter chicken, rogan josh, dal makhani, and palak paneer — simmered the traditional way and balanced for every palate.',
     link: '/catering-dubai',
-  },
-  {
-    icon: ChefHat,
-    title: 'South Indian Specialities',
-    description: 'Dosa, idli, sambar, and coconut-laced curries from the southern coast, served with chutneys and a lighter, spice-forward character.',
-    link: '/asian-catering-dubai',
   },
   {
     icon: Leaf,
@@ -132,6 +126,11 @@ const locations = [
   { name: 'Dubai Creek Harbour', slug: 'dubai-creek-harbour' },
 ]
 
+// Only areas whose page is live: an area whose page is parked is still served, it just
+// does not get a link to a page Google has been asked to forget.
+const liveLocations = locations.filter((l) => !isParked(locationPath(l.slug)))
+
+
 const faqs = [
   {
     q: 'Do you cater both North and South Indian cuisine?',
@@ -162,9 +161,9 @@ const faqs = [
   { q: "Are there any hidden charges like VAT or service fees?", a: "No hidden charges — your proposal itemises everything, and the only statutory addition is 5% VAT as required in the UAE. Optional extras like additional serving staff or specialty live stations are quoted transparently up front so you can decide what to include. You approve the full menu and price before anything is confirmed." },
   { q: "Do you have a minimum number of guests for Indian catering?", a: "We cater Indian menus for a wide range of gatherings, from an intimate villa dinner to a wedding banquet for several hundred. For very small groups a private chef preparing a regional tasting in your kitchen is often the better fit, while buffets and live stations suit larger celebrations. Tell us your headcount and we'll recommend the right format." },
   { q: "Are your kitchens and chefs licensed and food-safe?", a: "Yes — our chefs and kitchens operate to Dubai Municipality food-safety standards, with proper hygiene and temperature control from prep through to serving. This matters especially for large Indian spreads with rich gravies and dairy-based dishes that need careful handling on the day. You can read more about our team and standards on our [about](/about) page." },
-  { q: "Can I taste the food before booking a large event?", a: "Yes, tasting sessions can be arranged for larger events such as weddings and corporate functions so you can confirm dishes, spice levels, and portion sizes before you commit. It's a good chance to fine-tune your menu across starters, mains, breads, and sweets. Ask about a [tasting menu](/tasting-menu-dubai) when you request your proposal." },
+  { q: "Can I taste the food before booking a large event?", a: "Yes, tasting sessions can be arranged for larger events such as weddings and corporate functions so you can confirm dishes, spice levels, and portion sizes before you commit. It's a good chance to fine-tune your menu across starters, mains, breads, and sweets. Ask about a tasting menu when you request your proposal." },
   { q: "Do you provide waiters and serving staff for Indian events?", a: "Yes, professional serving staff and waiters are available for buffets, plated dinners, and live-station setups. Staffing is optional and scaled to your guest count and service style, so a relaxed villa buffet can run lighter while a formal reception gets full front-of-house support. We'll suggest the right number of staff for a smooth service." },
-  { q: "Can you cater a fully Jain menu with no onion or garlic?", a: "Yes — we prepare complete Jain menus with no onion, no garlic, and no root vegetables, cooked as a full spread rather than a stripped-back version. Pure-vegetarian, satvik, and vegan dishes are handled with the same care, and veg and non-veg are kept separate during preparation. Explore our dedicated [Jain catering](/jain-catering-dubai) options for festivals and family gatherings." },
+  { q: "Can you cater a fully Jain menu with no onion or garlic?", a: "Yes — we prepare complete Jain menus with no onion, no garlic, and no root vegetables, cooked as a full spread rather than a stripped-back version. Pure-vegetarian, satvik, and vegan dishes are handled with the same care, and veg and non-veg are kept separate during preparation. Explore our dedicated Jain catering options for festivals and family gatherings." },
   { q: "Do you cater Indian food at home villas and apartments across Dubai?", a: "Yes, our chefs come fully equipped to villas, apartments, and private residences across Dubai and cook, serve, and clear on-site. For a Diwali dinner, a birthday, or a family celebration, we bring the tandoor, chaat counter, and buffet to you so you can host without lifting a finger. We cater in [villas and private residences](/villas-private-residences) throughout the city." },
   { q: "Can you handle Indian mithai, desserts, and a sweets table?", a: "Yes, we prepare traditional Indian sweets and mithai — from gulab jamun and jalebi to kheer and barfi — and can style a dedicated dessert or sweets table for weddings and festivals. Low-sugar and vegan dessert options are available on request so every guest is looked after. It pairs beautifully with a [dessert table](/dessert-table-catering-dubai) setup for larger celebrations." },
   { q: "Do you offer live chaat and street-food counters for parties?", a: "Yes, interactive chaat counters with pani puri, bhel, and tikki are among our most-booked party formats, cooked fresh in front of your guests. They keep people mingling and add real theatre to receptions, birthdays, and festival evenings alongside a live tandoor. See our full range of [live cooking stations](/live-cooking-stations-dubai) to build your spread." },
@@ -194,12 +193,6 @@ const relatedServices = [
     description: 'Mezze, charcoal grills, and Levantine feasts styled for celebrations of any size.',
     image: '/service-events.webp',
     link: '/arabic-catering-dubai',
-  },
-  {
-    title: 'Asian Catering',
-    description: 'Thai, Chinese, and pan-Asian menus with live wok and dim sum stations.',
-    image: '/menu-seafood.webp',
-    link: '/asian-catering-dubai',
   },
   {
     title: 'Holi Catering Dubai',
@@ -486,7 +479,7 @@ export default function IndianCatering() {
           </h2>
 
           <div className="ind-loc-grid grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
-            {locations.map((loc) => (
+            {liveLocations.map((loc) => (
               <Link
                 key={loc.slug}
                 to={locationPath(loc.slug)}

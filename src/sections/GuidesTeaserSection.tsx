@@ -1,5 +1,6 @@
 import { useRef } from 'react'
 import { Link } from 'react-router'
+import { isParked } from '@/content/parkedUrls'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
@@ -78,7 +79,7 @@ export default function GuidesTeaserSection() {
 
         {/* Hairline panels — categories, not floating cards */}
         <div className="guides-teaser-grid grid sm:grid-cols-2 lg:grid-cols-4 gap-px bg-gray-200 border border-gray-200">
-          {guides.map((guide, i) => {
+          {guides.filter((g) => !isParked(g.slug)).map((guide, i) => {
             const Icon = guide.icon
             return (
               <Link

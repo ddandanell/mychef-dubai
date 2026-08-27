@@ -10,6 +10,7 @@ import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import { locationPath } from '@/data/locations'
+import { isParked } from '@/content/parkedUrls'
 import {
   ShieldCheck,
   Beef,
@@ -131,6 +132,11 @@ const locations = [
   { name: 'Meydan', slug: 'meydan' },
   { name: 'Dubai Creek Harbour', slug: 'dubai-creek-harbour' },
 ]
+
+// Only areas whose page is live: an area whose page is parked is still served, it just
+// does not get a link to a page Google has been asked to forget.
+const liveLocations = locations.filter((l) => !isParked(locationPath(l.slug)))
+
 
 const faqs = [
   {
@@ -339,7 +345,7 @@ export default function HalalCatering() {
             Our halal menus are as varied as they are considered — spanning Arabic grills from our <Link to="/arabic-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Arabic catering Dubai</Link> menus, Indian classics, Asian favourites, and Continental plates, all from a fully halal kitchen. Whether you are hosting a wedding, a Ramadan iftar, a villa dinner, or a corporate function, our chefs design and serves a menu suited to your occasion. Explore the formats below, or see how it fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mt-5">
-            Hosting an intimate halal dinner? See what to ask when booking <Link to="/blog/halal-private-dining-dubai-what-to-ask" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">halal private dining in Dubai</Link>.
+            Hosting an intimate halal dinner? See what to ask when booking halal private dining in Dubai.
           </p>
         </div>
       </section>
@@ -460,7 +466,7 @@ export default function HalalCatering() {
           </h2>
 
           <div className="hal-loc-grid grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
-            {locations.map((loc) => (
+            {liveLocations.map((loc) => (
               <Link
                 key={loc.slug}
                 to={locationPath(loc.slug)}

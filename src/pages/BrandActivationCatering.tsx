@@ -10,6 +10,7 @@ import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import { locationPath } from '@/data/locations'
+import { isParked } from '@/content/parkedUrls'
 import {
   UtensilsCrossed,
   Store,
@@ -132,6 +133,11 @@ const locations = [
   { name: 'Dubai Creek Harbour', slug: 'dubai-creek-harbour' },
 ]
 
+// Only areas whose page is live: an area whose page is parked is still served, it just
+// does not get a link to a page Google has been asked to forget.
+const liveLocations = locations.filter((l) => !isParked(locationPath(l.slug)))
+
+
 const faqs = [
   {
     q: 'What is brand activation catering?',
@@ -157,22 +163,10 @@ const faqs = [
 
 const relatedServices = [
   {
-    title: 'Product Launch Catering',
-    description: 'Strategic menus and polished service for launches that need to impress press, partners, and guests.',
-    image: '/service-events.webp',
-    link: '/product-launch-catering-dubai',
-  },
-  {
     title: 'Corporate Event Catering',
     description: 'Professional dining and reception solutions for conferences, board dinners, and company celebrations.',
     image: '/service-corporate.webp',
     link: '/corporate-event-catering-dubai',
-  },
-  {
-    title: 'Exhibition Catering Dubai',
-    description: 'Trade show and exhibition catering for branded stands, pavilions and visitor hospitality.',
-    image: '/service-events.webp',
-    link: '/exhibition-catering-dubai',
   },
 ]
 
@@ -334,7 +328,7 @@ export default function BrandActivationCatering() {
             Brand activation catering Dubai price and brand activation catering Dubai cost per person depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Brand activation catering packages Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. If you are weighing up top catering services provider in Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. The brand activation catering menu Dubai is drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Brand activation catering company Dubai is run to a fixed timing, with one itemised invoice and dietary requirements tracked per person.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            From <Link to="/product-launch-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">product launch catering Dubai</Link> to mall pop-ups and influencer events, our brand activation catering turns tastings into talk-of-the-town moments. Explore our formats below, or see how it fits within our <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering</Link> and wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>, and how live chef theatre complements our <Link to="/live-cooking-stations-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">live cooking station hire</Link>.
+            From product launch catering Dubai to mall pop-ups and influencer events, our brand activation catering turns tastings into talk-of-the-town moments. Explore our formats below, or see how it fits within our <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering</Link> and wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>, and how live chef theatre complements our <Link to="/live-cooking-stations-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">live cooking station hire</Link>.
           </p>
         </div>
       </section>
@@ -456,7 +450,7 @@ export default function BrandActivationCatering() {
           </h2>
 
           <div className="bda-loc-grid grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
-            {locations.map((loc) => (
+            {liveLocations.map((loc) => (
               <Link
                 key={loc.slug}
                 to={locationPath(loc.slug)}

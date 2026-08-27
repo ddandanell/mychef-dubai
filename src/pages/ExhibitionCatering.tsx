@@ -5,7 +5,7 @@
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
 import { Link } from 'react-router'
-import { Building2, Users, Coffee, PartyPopper, Truck, Utensils } from 'lucide-react'
+import { Users, Coffee, Truck, Utensils } from 'lucide-react'
 import ServiceLandingPage from './shared/ServiceLandingPage'
 import type { ServicePageConfig } from './shared/ServiceLandingPage'
 
@@ -47,9 +47,9 @@ const config: ServicePageConfig = {
           luxury catering in Dubai
         </Link>{' '}
         offering. For product launches and brand activations, see our{' '}
-        <Link to="/brand-activation-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
+        
           brand activation catering
-        </Link>{' '}
+        {' '}
         service, or explore{' '}
         <Link to="/canape-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           canapé catering Dubai
@@ -60,12 +60,6 @@ const config: ServicePageConfig = {
   ),
   formatsH2: 'Exhibition Catering Formats',
   formats: [
-    {
-      Icon: Building2,
-      title: 'Branded Stand Catering',
-      description: 'A fully branded food and beverage counter on your exhibition stand, designed to attract visitors and extend dwell time.',
-      link: '/brand-activation-catering-dubai',
-    },
     {
       Icon: Coffee,
       title: 'Coffee & Refreshment Stations',
@@ -89,12 +83,6 @@ const config: ServicePageConfig = {
       title: 'VIP Hospitality Catering',
       description: 'Premium plated and buffet options for private meeting rooms, hospitality suites and executive lounges.',
       link: '/corporate-event-catering-dubai',
-    },
-    {
-      Icon: PartyPopper,
-      title: 'Stand Launch & After-Show Events',
-      description: 'Catering for stand openings, product reveals and after-show networking events at nearby venues or hotels.',
-      link: '/product-launch-catering-dubai',
     },
   ],
   useCasesEyebrow: 'WHERE EXHIBITION CATERING HELPS',
@@ -174,12 +162,6 @@ const config: ServicePageConfig = {
       description: 'fully-coordinated catering for conferences, launches and company events across Dubai.',
       image: '/service-events.webp',
       link: '/corporate-event-catering-dubai',
-    },
-    {
-      title: 'Brand Activation Catering',
-      description: 'Bespoke catering for brand activations, pop-ups and experiential marketing events.',
-      image: '/service-corporate.webp',
-      link: '/brand-activation-catering-dubai',
     },
     {
       title: 'Canapé Catering Dubai',

@@ -14,6 +14,7 @@ import TrustSignalStrip from '../components/TrustSignalStrip'
 import { MapPin, ArrowRight, Phone } from 'lucide-react'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { locationPath } from '@/data/locations'
+import { isParked } from '@/content/parkedUrls'
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to request a quote (via mychef.ae/locations)')
@@ -105,7 +106,7 @@ export default function Locations() {
             Dubai neighbourhoods we serve
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-            {dubaiLocations.map((loc) => (
+            {dubaiLocations.filter((loc) => !isParked(locationPath(loc.slug))).map((loc) => (
               <Link
                 key={loc.slug}
                 to={locationPath(loc.slug)}

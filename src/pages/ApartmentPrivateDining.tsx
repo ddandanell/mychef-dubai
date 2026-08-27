@@ -109,12 +109,6 @@ const relatedServices = [
     image: '/service-private-chef.webp',
     link: '/private-chef-dubai',
   },
-  {
-    title: 'Date Night Package',
-    description: 'A ready-designed dinner-for-two experience at a transparent fixed price.',
-    image: '/images/private-chef-dubai-hero.webp',
-    link: '/date-night-package-dubai',
-  },
 ]
 
 const schema = {
@@ -245,7 +239,7 @@ export default function ApartmentPrivateDining() {
               Chefs in our network are selected for their ability to work beautifully in compact spaces. They arrive with ingredients, prepare a multi-course menu, serve with care, and leave your kitchen spotless. All you need is a table, chairs, and good company.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              Explore <Link to="/romantic-dinner-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">romantic dinners</Link>, <Link to="/date-night-package-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">date night packages</Link>, <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef services</Link>, or <Link to="/part-time-private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">part-time private chef</Link> arrangements.
+              Explore <Link to="/romantic-dinner-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">romantic dinners</Link>, date night packages, <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef services</Link>, or <Link to="/part-time-private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">part-time private chef</Link> arrangements.
             </p>
           </div>
         </div>

@@ -6,6 +6,7 @@
 // END KEYWORD LOCK
 import { useRef } from 'react'
 import { Link } from 'react-router'
+import { isParked } from '@/content/parkedUrls'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
@@ -255,7 +256,7 @@ export default function Guides() {
           </div>
 
           <div className="guides-grid grid md:grid-cols-2 gap-6">
-            {guides.map((guide, i) => {
+            {guides.filter((g) => !isParked(g.slug)).map((guide, i) => {
               const Icon = guide.icon
               return (
                 <Link

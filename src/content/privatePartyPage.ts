@@ -28,7 +28,6 @@ export const PRIVATE_PARTY_WHATSAPP_LINK = `https://wa.me/${PRIVATE_PARTY_WHATSA
 
 /** pages["/private-party-catering-dubai"].internal_linking.siblings — render exactly. */
 export const PRIVATE_PARTY_SIBLING_LINKS = [
-  { href: '/blog/dinner-party-menu-ideas-dubai', label: 'Dinner party menu ideas' },
   { href: '/villa-catering-ideas-dubai', label: 'Villa catering ideas' },
 ] as const
 

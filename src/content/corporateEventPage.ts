@@ -37,7 +37,6 @@ export const seo = {
 
 /** STANDARD internal_linking.siblings — render exactly. */
 export const siblingLinks = [
-  { href: '/gala-dinner-catering-dubai', label: 'Gala dinner catering' },
   { href: '/corporate', label: 'Corporate dining' },
   { href: '/blog/corporate-event-catering-ideas-dubai', label: 'Corporate event catering ideas' },
   { href: '/live-cooking-stations-dubai', label: 'Live cooking stations' },
@@ -46,8 +45,6 @@ export const siblingLinks = [
 /** STANDARD locations sample (three on-page). */
 export const areaLinks = [
   { href: '/locations/difc', label: 'DIFC' },
-  { href: '/locations/business-bay', label: 'Business Bay' },
-  { href: '/locations/downtown-dubai', label: 'Downtown Dubai' },
 ] as const
 
 export const hero = {
@@ -225,14 +222,7 @@ export const notThisPage = [
     a: 'Delegate catering and coffee breaks run on a different operation.',
     href: CORPORATE_PATHS.conference,
     cta: 'Conference catering',
-  },
-  {
-    q: 'A full calendar of events each year?',
-    a: 'A standing arrangement removes the briefing from every booking.',
-    href: CORPORATE_PATHS.retainer,
-    cta: 'Corporate catering contract',
-  },
-]
+  },]
 
 /** Visible FAQ only. No FAQPage schema on this URL. */
 export const faqs = [

@@ -369,9 +369,9 @@ export default function PrivateDiningGuide() {
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             This guide explains what private dining means in Dubai, how it works, what it costs, and how to choose the right private chef for your occasion. For guests looking for a curated multi-course journey, our{' '}
-            <Link to="/tasting-menu-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
+            
               tasting menu Dubai
-            </Link>{' '}
+            {' '}
             service offers a chef’s table experience designed around your table and your tastes.
           </p>
         </div>

@@ -10,6 +10,7 @@ import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import { locationPath } from '@/data/locations'
+import { isParked } from '@/content/parkedUrls'
 import {
   UtensilsCrossed,
   Soup,
@@ -116,6 +117,11 @@ const locations = [
   { name: 'DWTC', slug: 'dwtc' },
   { name: 'Palm Jumeirah', slug: 'palm-jumeirah' },
 ]
+
+// Only areas whose page is live: an area whose page is parked is still served, it just
+// does not get a link to a page Google has been asked to forget.
+const liveLocations = locations.filter((l) => !isParked(locationPath(l.slug)))
+
 
 const faqs = [
   {
@@ -456,7 +462,7 @@ export default function GalaDinnerCatering() {
           </h2>
 
           <div className="gala-loc-grid grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
-            {locations.map((loc) => (
+            {liveLocations.map((loc) => (
               <Link
                 key={loc.slug}
                 to={locationPath(loc.slug)}

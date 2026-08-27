@@ -38,9 +38,9 @@ const config: ServicePageConfig = {
           yacht catering Dubai
         </Link>{' '}
         services, and adds a refined touch to{' '}
-        <Link to="/gala-dinner-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
+        
           gala dinner catering Dubai
-        </Link>{' '}
+        {' '}
         receptions.
       </p>
     </>
@@ -167,12 +167,6 @@ const config: ServicePageConfig = {
       description: 'Luxury onboard dining, canapés and seafood service for yacht events and cruises.',
       image: '/service-luxury-dining.webp',
       link: '/yachts',
-    },
-    {
-      title: 'Gala Dinner Catering',
-      description: 'fully-coordinated catering with premium menus, stations and white-glove service.',
-      image: '/service-events.webp',
-      link: '/gala-dinner-catering-dubai',
     },
   ],
   ctaH2: 'Create an Unforgettable Seafood Experience',

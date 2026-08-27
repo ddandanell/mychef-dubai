@@ -18,12 +18,10 @@ const serviceLinks = [
   { label: 'Private Events', href: '/private-party-catering-dubai' },
   { label: 'Villa Catering', href: '/villas-private-residences' },
   { label: 'Yacht Catering', href: '/yachts' },
-  { label: 'Private Jet Catering', href: '/private-jet-catering-dubai' },
   { label: 'Food Only & Drop-Off', href: '/drop-off-catering-dubai' },
   { label: 'Weekly Meal Prep', href: '/weekly-meal-prep-dubai' },
   { label: 'Dining Experiences', href: '/luxury-dining-experiences' },
   { label: 'Romantic Dinner', href: '/romantic-dinner-dubai' },
-  { label: 'Tasting Menu', href: '/tasting-menu-dubai' },
   { label: 'Private Cooking Classes', href: '/private-cooking-classes-dubai' },
   { label: 'Desert Dining', href: '/desert-dining-dubai' },
   { label: 'Halal Private Dining', href: '/halal-private-dining-dubai' },
@@ -51,8 +49,6 @@ const guideLinks = [
   { label: 'Private Chef vs Catering', href: '/private-chef-vs-catering-dubai' },
   { label: 'Buffet vs Plated', href: '/buffet-vs-plated-dubai' },
   { label: 'Yacht Catering Guide', href: '/yacht-catering-guide-dubai' },
-  { label: 'Ramadan Catering Guide', href: '/ramadan-catering-guide-dubai' },
-  { label: 'Luxury Dinner Guide', href: '/luxury-dinner-planning-guide-dubai' },
   { label: 'Food Trends Report 2026', href: '/dubai-food-trends-report-2026' },
 ]
 
@@ -69,20 +65,9 @@ const companyLinks = [
 ]
 
 const locationLinks = [
-  { label: 'Dubai Marina', href: '/locations/dubai-marina' },
-  { label: 'Downtown Dubai', href: '/locations/downtown-dubai' },
-  { label: 'Palm Jumeirah', href: '/locations/palm-jumeirah' },
-  { label: 'Jumeirah', href: '/locations/jumeirah' },
   { label: 'JBR', href: '/locations/jbr' },
-  { label: 'Business Bay', href: '/locations/business-bay' },
   { label: 'DIFC', href: '/locations/difc' },
-  { label: 'Emirates Hills', href: '/locations/emirates-hills' },
-  { label: 'Arabian Ranches', href: '/locations/arabian-ranches' },
-  { label: 'Dubai Hills', href: '/locations/dubai-hills' },
-  { label: 'JVC', href: '/locations/jvc' },
   { label: 'JLT', href: '/locations/jlt' },
-  { label: 'Bluewaters Island', href: '/locations/bluewaters-island' },
-  { label: 'Umm Suqeim', href: '/locations/umm-suqeim' },
   { label: 'Al Barsha', href: '/locations/al-barsha' },
 ]
 

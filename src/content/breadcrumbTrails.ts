@@ -70,19 +70,6 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "Arabic catering"
   }
  ],
- "/asian-catering-dubai": [
-  {
-   "href": "/",
-   "label": "Home"
-  },
-  {
-   "href": "/cuisines-dubai",
-   "label": "Cuisines"
-  },
-  {
-   "label": "Asian catering"
-  }
- ],
  "/baby-shower-catering-dubai": [
   {
    "href": "/",
@@ -159,19 +146,6 @@ export const TRAILS: Record<string, Crumb[]> = {
   },
   {
    "label": "Birthday catering"
-  }
- ],
- "/birthday-catering-package-dubai": [
-  {
-   "href": "/",
-   "label": "Home"
-  },
-  {
-   "href": "/catering-packages-dubai",
-   "label": "Catering packages"
-  },
-  {
-   "label": "Birthday catering packages"
   }
  ],
  "/blog": [
@@ -255,40 +229,6 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "Corporate event catering ideas"
   }
  ],
- "/blog/desert-dinner-party-dubai": [
-  {
-   "href": "/",
-   "label": "Home"
-  },
-  {
-   "href": "/guides",
-   "label": "Guides"
-  },
-  {
-   "href": "/blog",
-   "label": "Journal"
-  },
-  {
-   "label": "Desert dinner party"
-  }
- ],
- "/blog/dinner-party-menu-ideas-dubai": [
-  {
-   "href": "/",
-   "label": "Home"
-  },
-  {
-   "href": "/guides",
-   "label": "Guides"
-  },
-  {
-   "href": "/blog",
-   "label": "Journal"
-  },
-  {
-   "label": "Dinner party menu ideas"
-  }
- ],
  "/blog/grazing-table-vs-buffet-dubai": [
   {
    "href": "/",
@@ -304,23 +244,6 @@ export const TRAILS: Record<string, Crumb[]> = {
   },
   {
    "label": "Grazing table vs buffet"
-  }
- ],
- "/blog/halal-private-dining-dubai-what-to-ask": [
-  {
-   "href": "/",
-   "label": "Home"
-  },
-  {
-   "href": "/guides",
-   "label": "Guides"
-  },
-  {
-   "href": "/blog",
-   "label": "Journal"
-  },
-  {
-   "label": "What to ask a halal caterer"
   }
  ],
  "/blog/how-far-ahead-book-caterer-dubai": [
@@ -374,57 +297,6 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "How to hire a private chef"
   }
  ],
- "/blog/iftar-at-home-dubai": [
-  {
-   "href": "/",
-   "label": "Home"
-  },
-  {
-   "href": "/guides",
-   "label": "Guides"
-  },
-  {
-   "href": "/blog",
-   "label": "Journal"
-  },
-  {
-   "label": "Iftar at home"
-  }
- ],
- "/blog/nye-party-catering-dubai": [
-  {
-   "href": "/",
-   "label": "Home"
-  },
-  {
-   "href": "/guides",
-   "label": "Guides"
-  },
-  {
-   "href": "/blog",
-   "label": "Journal"
-  },
-  {
-   "label": "Nye party catering"
-  }
- ],
- "/blog/private-chef-date-night-dubai": [
-  {
-   "href": "/",
-   "label": "Home"
-  },
-  {
-   "href": "/guides",
-   "label": "Guides"
-  },
-  {
-   "href": "/blog",
-   "label": "Journal"
-  },
-  {
-   "label": "Private chef date night"
-  }
- ],
  "/blog/private-chef-palm-jumeirah-guide": [
   {
    "href": "/",
@@ -442,57 +314,6 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "Private dining palm jumeirah"
   }
  ],
- "/blog/private-chef-vs-restaurant-dubai": [
-  {
-   "href": "/",
-   "label": "Home"
-  },
-  {
-   "href": "/guides",
-   "label": "Guides"
-  },
-  {
-   "href": "/blog",
-   "label": "Journal"
-  },
-  {
-   "label": "Private chef vs restaurant"
-  }
- ],
- "/blog/ramadan-iftar-catering-trends-2026": [
-  {
-   "href": "/",
-   "label": "Home"
-  },
-  {
-   "href": "/guides",
-   "label": "Guides"
-  },
-  {
-   "href": "/blog",
-   "label": "Journal"
-  },
-  {
-   "label": "Ramadan catering trends 2026"
-  }
- ],
- "/blog/vegan-catering-dubai-guide": [
-  {
-   "href": "/",
-   "label": "Home"
-  },
-  {
-   "href": "/guides",
-   "label": "Guides"
-  },
-  {
-   "href": "/blog",
-   "label": "Journal"
-  },
-  {
-   "label": "Vegan menu ideas"
-  }
- ],
  "/blog/wedding-catering-cost-dubai": [
   {
    "href": "/",
@@ -508,23 +329,6 @@ export const TRAILS: Record<string, Crumb[]> = {
   },
   {
    "label": "Wedding catering cost"
-  }
- ],
- "/blog/weekly-meal-prep-vs-full-time-chef-dubai": [
-  {
-   "href": "/",
-   "label": "Home"
-  },
-  {
-   "href": "/guides",
-   "label": "Guides"
-  },
-  {
-   "href": "/blog",
-   "label": "Journal"
-  },
-  {
-   "label": "Meal prep vs private chef"
   }
  ],
  "/blog/yacht-party-menu-ideas-dubai": [
@@ -555,19 +359,6 @@ export const TRAILS: Record<string, Crumb[]> = {
   },
   {
    "label": "Catering cancellation policy"
-  }
- ],
- "/brand-activation-catering-dubai": [
-  {
-   "href": "/",
-   "label": "Home"
-  },
-  {
-   "href": "/corporate",
-   "label": "Corporate dining"
-  },
-  {
-   "label": "Brand activation catering"
   }
  ],
  "/breakfast-catering-dubai": [
@@ -860,19 +651,6 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "Corporate catering checklist"
   }
  ],
- "/corporate-dinner-package-dubai": [
-  {
-   "href": "/",
-   "label": "Home"
-  },
-  {
-   "href": "/corporate",
-   "label": "Corporate dining"
-  },
-  {
-   "label": "Corporate dinner package"
-  }
- ],
  "/corporate-event-catering-dubai": [
   {
    "href": "/",
@@ -886,19 +664,6 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "Corporate event catering"
   }
  ],
- "/corporate-retainer-dubai": [
-  {
-   "href": "/",
-   "label": "Home"
-  },
-  {
-   "href": "/corporate",
-   "label": "Corporate dining"
-  },
-  {
-   "label": "Corporate catering contract"
-  }
- ],
  "/cuisines-dubai": [
   {
    "href": "/",
@@ -906,19 +671,6 @@ export const TRAILS: Record<string, Crumb[]> = {
   },
   {
    "label": "Cuisines"
-  }
- ],
- "/date-night-package-dubai": [
-  {
-   "href": "/",
-   "label": "Home"
-  },
-  {
-   "href": "/luxury-dining-experiences",
-   "label": "Luxury dining"
-  },
-  {
-   "label": "Date night package"
   }
  ],
  "/desert-dining-dubai": [
@@ -986,19 +738,6 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "Catering prices"
   }
  ],
- "/dubai-event-catering-price-guide-2026": [
-  {
-   "href": "/",
-   "label": "Home"
-  },
-  {
-   "href": "/guides",
-   "label": "Guides"
-  },
-  {
-   "label": "Event catering price guide 2026"
-  }
- ],
  "/dubai-food-trends-report-2026": [
   {
    "href": "/",
@@ -1047,32 +786,6 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "Events"
   }
  ],
- "/exhibition-catering-dubai": [
-  {
-   "href": "/",
-   "label": "Home"
-  },
-  {
-   "href": "/corporate",
-   "label": "Corporate dining"
-  },
-  {
-   "label": "Exhibition catering"
-  }
- ],
- "/family-feast-package-dubai": [
-  {
-   "href": "/",
-   "label": "Home"
-  },
-  {
-   "href": "/catering-packages-dubai",
-   "label": "Catering packages"
-  },
-  {
-   "label": "Family catering"
-  }
- ],
  "/faq": [
   {
    "href": "/",
@@ -1089,19 +802,6 @@ export const TRAILS: Record<string, Crumb[]> = {
   },
   {
    "label": "Festive catering"
-  }
- ],
- "/fitness-meal-prep-dubai": [
-  {
-   "href": "/",
-   "label": "Home"
-  },
-  {
-   "href": "/private-chef-dubai",
-   "label": "Private chef"
-  },
-  {
-   "label": "Fitness meal prep"
   }
  ],
  "/founding-customer-offer": [
@@ -1128,19 +828,6 @@ export const TRAILS: Record<string, Crumb[]> = {
   },
   {
    "label": "Full-time private chef"
-  }
- ],
- "/gala-dinner-catering-dubai": [
-  {
-   "href": "/",
-   "label": "Home"
-  },
-  {
-   "href": "/corporate",
-   "label": "Corporate dining"
-  },
-  {
-   "label": "Gala dinner catering"
   }
  ],
  "/gallery": [
@@ -1321,32 +1008,6 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "Italian catering"
   }
  ],
- "/jain-catering-dubai": [
-  {
-   "href": "/",
-   "label": "Home"
-  },
-  {
-   "href": "/cuisines-dubai",
-   "label": "Cuisines"
-  },
-  {
-   "label": "Jain catering"
-  }
- ],
- "/kids-nutrition-chef-dubai": [
-  {
-   "href": "/",
-   "label": "Home"
-  },
-  {
-   "href": "/private-chef-dubai",
-   "label": "Private chef"
-  },
-  {
-   "label": "Kids meal prep"
-  }
- ],
  "/live-cooking-stations-dubai": [
   {
    "href": "/",
@@ -1382,45 +1043,6 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "Al Barsha"
   }
  ],
- "/locations/arabian-ranches": [
-  {
-   "href": "/",
-   "label": "Home"
-  },
-  {
-   "href": "/locations",
-   "label": "Areas we serve"
-  },
-  {
-   "label": "Arabian Ranches"
-  }
- ],
- "/locations/bluewaters-island": [
-  {
-   "href": "/",
-   "label": "Home"
-  },
-  {
-   "href": "/locations",
-   "label": "Areas we serve"
-  },
-  {
-   "label": "Bluewaters Island"
-  }
- ],
- "/locations/business-bay": [
-  {
-   "href": "/",
-   "label": "Home"
-  },
-  {
-   "href": "/locations",
-   "label": "Areas we serve"
-  },
-  {
-   "label": "Business Bay"
-  }
- ],
  "/locations/difc": [
   {
    "href": "/",
@@ -1432,58 +1054,6 @@ export const TRAILS: Record<string, Crumb[]> = {
   },
   {
    "label": "DIFC"
-  }
- ],
- "/locations/downtown-dubai": [
-  {
-   "href": "/",
-   "label": "Home"
-  },
-  {
-   "href": "/locations",
-   "label": "Areas we serve"
-  },
-  {
-   "label": "Downtown Dubai"
-  }
- ],
- "/locations/dubai-hills": [
-  {
-   "href": "/",
-   "label": "Home"
-  },
-  {
-   "href": "/locations",
-   "label": "Areas we serve"
-  },
-  {
-   "label": "Dubai Hills"
-  }
- ],
- "/locations/dubai-marina": [
-  {
-   "href": "/",
-   "label": "Home"
-  },
-  {
-   "href": "/locations",
-   "label": "Areas we serve"
-  },
-  {
-   "label": "Dubai Marina"
-  }
- ],
- "/locations/emirates-hills": [
-  {
-   "href": "/",
-   "label": "Home"
-  },
-  {
-   "href": "/locations",
-   "label": "Areas we serve"
-  },
-  {
-   "label": "Emirates Hills"
   }
  ],
  "/locations/jbr": [
@@ -1512,58 +1082,6 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "JLT"
   }
  ],
- "/locations/jumeirah": [
-  {
-   "href": "/",
-   "label": "Home"
-  },
-  {
-   "href": "/locations",
-   "label": "Areas we serve"
-  },
-  {
-   "label": "Jumeirah"
-  }
- ],
- "/locations/jvc": [
-  {
-   "href": "/",
-   "label": "Home"
-  },
-  {
-   "href": "/locations",
-   "label": "Areas we serve"
-  },
-  {
-   "label": "JVC"
-  }
- ],
- "/locations/palm-jumeirah": [
-  {
-   "href": "/",
-   "label": "Home"
-  },
-  {
-   "href": "/locations",
-   "label": "Areas we serve"
-  },
-  {
-   "label": "Palm Jumeirah"
-  }
- ],
- "/locations/umm-suqeim": [
-  {
-   "href": "/",
-   "label": "Home"
-  },
-  {
-   "href": "/locations",
-   "label": "Areas we serve"
-  },
-  {
-   "label": "Umm Suqeim"
-  }
- ],
  "/loyalty-programme": [
   {
    "href": "/",
@@ -1584,19 +1102,6 @@ export const TRAILS: Record<string, Crumb[]> = {
   },
   {
    "label": "Luxury dining"
-  }
- ],
- "/luxury-dinner-planning-guide-dubai": [
-  {
-   "href": "/",
-   "label": "Home"
-  },
-  {
-   "href": "/guides",
-   "label": "Guides"
-  },
-  {
-   "label": "How to plan a luxury dinner"
   }
  ],
  "/mediterranean-catering-dubai": [
@@ -1649,19 +1154,6 @@ export const TRAILS: Record<string, Crumb[]> = {
   },
   {
    "label": "Mychef membership"
-  }
- ],
- "/mystery-dining-dubai": [
-  {
-   "href": "/",
-   "label": "Home"
-  },
-  {
-   "href": "/luxury-dining-experiences",
-   "label": "Luxury dining"
-  },
-  {
-   "label": "Surprise dinner experience"
   }
  ],
  "/new-year-catering-dubai": [
@@ -1788,19 +1280,6 @@ export const TRAILS: Record<string, Crumb[]> = {
   },
   {
    "label": "Yacht charters partnership"
-  }
- ],
- "/postpartum-meal-prep-dubai": [
-  {
-   "href": "/",
-   "label": "Home"
-  },
-  {
-   "href": "/private-chef-dubai",
-   "label": "Private chef"
-  },
-  {
-   "label": "Postpartum meal prep"
   }
  ],
  "/press": [
@@ -1942,15 +1421,6 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "Private cooking classes"
   }
  ],
- "/private-jet-catering-dubai": [
-  {
-   "href": "/",
-   "label": "Home"
-  },
-  {
-   "label": "Private jet catering"
-  }
- ],
  "/private-party-catering-dubai": [
   {
    "href": "/",
@@ -1962,32 +1432,6 @@ export const TRAILS: Record<string, Crumb[]> = {
   },
   {
    "label": "Private party catering"
-  }
- ],
- "/product-launch-catering-dubai": [
-  {
-   "href": "/",
-   "label": "Home"
-  },
-  {
-   "href": "/corporate",
-   "label": "Corporate dining"
-  },
-  {
-   "label": "Product launch catering"
-  }
- ],
- "/production-catering-dubai": [
-  {
-   "href": "/",
-   "label": "Home"
-  },
-  {
-   "href": "/corporate",
-   "label": "Corporate dining"
-  },
-  {
-   "label": "Production catering"
   }
  ],
  "/proposal-dinner-dubai": [
@@ -2027,19 +1471,6 @@ export const TRAILS: Record<string, Crumb[]> = {
   },
   {
    "label": "Ramadan catering"
-  }
- ],
- "/ramadan-catering-guide-dubai": [
-  {
-   "href": "/",
-   "label": "Home"
-  },
-  {
-   "href": "/guides",
-   "label": "Guides"
-  },
-  {
-   "label": "Ramadan catering guide"
   }
  ],
  "/referral-programme": [
@@ -2094,19 +1525,6 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "Site map"
   }
  ],
- "/staff-meals-catering-dubai": [
-  {
-   "href": "/",
-   "label": "Home"
-  },
-  {
-   "href": "/corporate",
-   "label": "Corporate dining"
-  },
-  {
-   "label": "Staff meals catering"
-  }
- ],
  "/sushi-catering-dubai": [
   {
    "href": "/",
@@ -2118,19 +1536,6 @@ export const TRAILS: Record<string, Crumb[]> = {
   },
   {
    "label": "Sushi catering"
-  }
- ],
- "/tasting-menu-dubai": [
-  {
-   "href": "/",
-   "label": "Home"
-  },
-  {
-   "href": "/luxury-dining-experiences",
-   "label": "Luxury dining"
-  },
-  {
-   "label": "Private chef tasting menu"
   }
  ],
  "/terms": [
@@ -2146,19 +1551,6 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "Terms"
   }
  ],
- "/tourist-villa-chef-dubai": [
-  {
-   "href": "/",
-   "label": "Home"
-  },
-  {
-   "href": "/private-chef-dubai",
-   "label": "Private chef"
-  },
-  {
-   "label": "Holiday villa chef"
-  }
- ],
  "/trust-and-programs": [
   {
    "href": "/",
@@ -2170,19 +1562,6 @@ export const TRAILS: Record<string, Crumb[]> = {
   },
   {
    "label": "Trust and programs"
-  }
- ],
- "/uae-national-day-catering-dubai": [
-  {
-   "href": "/",
-   "label": "Home"
-  },
-  {
-   "href": "/festive-catering-dubai",
-   "label": "Festive catering"
-  },
-  {
-   "label": "Uae national day catering"
   }
  ],
  "/vegan-catering-dubai": [
@@ -2438,10 +1817,6 @@ export const CHILDREN: Record<string, Crumb[]> = {
   {
    "href": "/about",
    "label": "About myCHEF"
-  },
-  {
-   "href": "/private-jet-catering-dubai",
-   "label": "Private jet catering"
   }
  ],
  "/catering-dubai": [
@@ -2496,14 +1871,6 @@ export const CHILDREN: Record<string, Crumb[]> = {
  ],
  "/catering-packages-dubai": [
   {
-   "href": "/birthday-catering-package-dubai",
-   "label": "Birthday catering packages"
-  },
-  {
-   "href": "/family-feast-package-dubai",
-   "label": "Family catering"
-  },
-  {
    "href": "/founding-customer-offer",
    "label": "Mychef founding customer offer"
   },
@@ -2530,10 +1897,6 @@ export const CHILDREN: Record<string, Crumb[]> = {
  ],
  "/corporate": [
   {
-   "href": "/brand-activation-catering-dubai",
-   "label": "Brand activation catering"
-  },
-  {
    "href": "/business-lunch-catering-dubai",
    "label": "Business lunch catering"
   },
@@ -2542,40 +1905,12 @@ export const CHILDREN: Record<string, Crumb[]> = {
    "label": "Conference catering"
   },
   {
-   "href": "/corporate-dinner-package-dubai",
-   "label": "Corporate dinner package"
-  },
-  {
    "href": "/corporate-event-catering-dubai",
    "label": "Corporate event catering"
   },
   {
-   "href": "/corporate-retainer-dubai",
-   "label": "Corporate catering contract"
-  },
-  {
-   "href": "/exhibition-catering-dubai",
-   "label": "Exhibition catering"
-  },
-  {
-   "href": "/gala-dinner-catering-dubai",
-   "label": "Gala dinner catering"
-  },
-  {
    "href": "/office-catering-dubai",
    "label": "Office catering"
-  },
-  {
-   "href": "/product-launch-catering-dubai",
-   "label": "Product launch catering"
-  },
-  {
-   "href": "/production-catering-dubai",
-   "label": "Production catering"
-  },
-  {
-   "href": "/staff-meals-catering-dubai",
-   "label": "Staff meals catering"
   }
  ],
  "/cuisines-dubai": [
@@ -2588,10 +1923,6 @@ export const CHILDREN: Record<string, Crumb[]> = {
    "label": "Arabic catering"
   },
   {
-   "href": "/asian-catering-dubai",
-   "label": "Asian catering"
-  },
-  {
    "href": "/halal-catering-dubai",
    "label": "Halal catering"
   },
@@ -2602,10 +1933,6 @@ export const CHILDREN: Record<string, Crumb[]> = {
   {
    "href": "/italian-catering-dubai",
    "label": "Italian catering"
-  },
-  {
-   "href": "/jain-catering-dubai",
-   "label": "Jain catering"
   },
   {
    "href": "/mediterranean-catering-dubai",
@@ -2740,10 +2067,6 @@ export const CHILDREN: Record<string, Crumb[]> = {
   {
    "href": "/ramadan-catering-dubai",
    "label": "Ramadan catering"
-  },
-  {
-   "href": "/uae-national-day-catering-dubai",
-   "label": "Uae national day catering"
   }
  ],
  "/guides": [
@@ -2768,20 +2091,8 @@ export const CHILDREN: Record<string, Crumb[]> = {
    "label": "Corporate event catering ideas"
   },
   {
-   "href": "/blog/desert-dinner-party-dubai",
-   "label": "Desert dinner party"
-  },
-  {
-   "href": "/blog/dinner-party-menu-ideas-dubai",
-   "label": "Dinner party menu ideas"
-  },
-  {
    "href": "/blog/grazing-table-vs-buffet-dubai",
    "label": "Grazing table vs buffet"
-  },
-  {
-   "href": "/blog/halal-private-dining-dubai-what-to-ask",
-   "label": "What to ask a halal caterer"
   },
   {
    "href": "/blog/how-far-ahead-book-caterer-dubai",
@@ -2796,40 +2107,12 @@ export const CHILDREN: Record<string, Crumb[]> = {
    "label": "How to hire a private chef"
   },
   {
-   "href": "/blog/iftar-at-home-dubai",
-   "label": "Iftar at home"
-  },
-  {
-   "href": "/blog/nye-party-catering-dubai",
-   "label": "Nye party catering"
-  },
-  {
-   "href": "/blog/private-chef-date-night-dubai",
-   "label": "Private chef date night"
-  },
-  {
    "href": "/blog/private-chef-palm-jumeirah-guide",
    "label": "Private dining palm jumeirah"
   },
   {
-   "href": "/blog/private-chef-vs-restaurant-dubai",
-   "label": "Private chef vs restaurant"
-  },
-  {
-   "href": "/blog/ramadan-iftar-catering-trends-2026",
-   "label": "Ramadan catering trends 2026"
-  },
-  {
-   "href": "/blog/vegan-catering-dubai-guide",
-   "label": "Vegan menu ideas"
-  },
-  {
    "href": "/blog/wedding-catering-cost-dubai",
    "label": "Wedding catering cost"
-  },
-  {
-   "href": "/blog/weekly-meal-prep-vs-full-time-chef-dubai",
-   "label": "Meal prep vs private chef"
   },
   {
    "href": "/blog/yacht-party-menu-ideas-dubai",
@@ -2852,10 +2135,6 @@ export const CHILDREN: Record<string, Crumb[]> = {
    "label": "Catering prices"
   },
   {
-   "href": "/dubai-event-catering-price-guide-2026",
-   "label": "Event catering price guide 2026"
-  },
-  {
    "href": "/dubai-food-trends-report-2026",
    "label": "Food trends 2026"
   },
@@ -2868,16 +2147,8 @@ export const CHILDREN: Record<string, Crumb[]> = {
    "label": "How to choose a caterer"
   },
   {
-   "href": "/luxury-dinner-planning-guide-dubai",
-   "label": "How to plan a luxury dinner"
-  },
-  {
    "href": "/private-chef-vs-catering-dubai",
    "label": "Private chef or catering"
-  },
-  {
-   "href": "/ramadan-catering-guide-dubai",
-   "label": "Ramadan catering guide"
   },
   {
    "href": "/villa-catering-ideas-dubai",
@@ -2906,36 +2177,8 @@ export const CHILDREN: Record<string, Crumb[]> = {
    "label": "Al Barsha"
   },
   {
-   "href": "/locations/arabian-ranches",
-   "label": "Arabian Ranches"
-  },
-  {
-   "href": "/locations/bluewaters-island",
-   "label": "Bluewaters Island"
-  },
-  {
-   "href": "/locations/business-bay",
-   "label": "Business Bay"
-  },
-  {
    "href": "/locations/difc",
    "label": "DIFC"
-  },
-  {
-   "href": "/locations/downtown-dubai",
-   "label": "Downtown Dubai"
-  },
-  {
-   "href": "/locations/dubai-hills",
-   "label": "Dubai Hills"
-  },
-  {
-   "href": "/locations/dubai-marina",
-   "label": "Dubai Marina"
-  },
-  {
-   "href": "/locations/emirates-hills",
-   "label": "Emirates Hills"
   },
   {
    "href": "/locations/jbr",
@@ -2944,22 +2187,6 @@ export const CHILDREN: Record<string, Crumb[]> = {
   {
    "href": "/locations/jlt",
    "label": "JLT"
-  },
-  {
-   "href": "/locations/jumeirah",
-   "label": "Jumeirah"
-  },
-  {
-   "href": "/locations/jvc",
-   "label": "JVC"
-  },
-  {
-   "href": "/locations/palm-jumeirah",
-   "label": "Palm Jumeirah"
-  },
-  {
-   "href": "/locations/umm-suqeim",
-   "label": "Umm Suqeim"
   }
  ],
  "/luxury-dining-experiences": [
@@ -2968,20 +2195,12 @@ export const CHILDREN: Record<string, Crumb[]> = {
    "label": "Private chef for apartment"
   },
   {
-   "href": "/date-night-package-dubai",
-   "label": "Date night package"
-  },
-  {
    "href": "/desert-dining-dubai",
    "label": "Desert dining"
   },
   {
    "href": "/halal-private-dining-dubai",
    "label": "Halal private dining"
-  },
-  {
-   "href": "/mystery-dining-dubai",
-   "label": "Surprise dinner experience"
   },
   {
    "href": "/private-cooking-classes-dubai",
@@ -2994,10 +2213,6 @@ export const CHILDREN: Record<string, Crumb[]> = {
   {
    "href": "/romantic-dinner-dubai",
    "label": "Dinner for two"
-  },
-  {
-   "href": "/tasting-menu-dubai",
-   "label": "Private chef tasting menu"
   }
  ],
  "/partners": [
@@ -3056,16 +2271,8 @@ export const CHILDREN: Record<string, Crumb[]> = {
    "label": "Matteo — pastry"
   },
   {
-   "href": "/fitness-meal-prep-dubai",
-   "label": "Fitness meal prep"
-  },
-  {
    "href": "/full-time-private-chef-dubai",
    "label": "Full-time private chef"
-  },
-  {
-   "href": "/kids-nutrition-chef-dubai",
-   "label": "Kids meal prep"
   },
   {
    "href": "/our-chefs",
@@ -3074,10 +2281,6 @@ export const CHILDREN: Record<string, Crumb[]> = {
   {
    "href": "/part-time-private-chef-dubai",
    "label": "Part-time private chef"
-  },
-  {
-   "href": "/postpartum-meal-prep-dubai",
-   "label": "Postpartum meal prep"
   },
   {
    "href": "/private-chef-dubai/how-it-works",
@@ -3102,10 +2305,6 @@ export const CHILDREN: Record<string, Crumb[]> = {
   {
    "href": "/private-chef-prices-dubai",
    "label": "Private chef prices"
-  },
-  {
-   "href": "/tourist-villa-chef-dubai",
-   "label": "Holiday villa chef"
   },
   {
    "href": "/villas-private-residences",

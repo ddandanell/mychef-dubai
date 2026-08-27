@@ -1,3 +1,4 @@
+import { isParked } from '@/content/parkedUrls'
 // AUTO-GENERATED master blog taxonomy — the single source of truth for the blog.
 // Consumed by Blog.tsx (index), BlogRelated.tsx (related module), HandoffPage.tsx
 // (contextual links + related + schema) and BlogCategoryHub.tsx (topic hubs).
@@ -32,7 +33,7 @@ export interface ContextualLink {
   url: string
 }
 
-export const BLOG_POSTS: BlogPost[] = [
+const ALL_BLOG_POSTS: BlogPost[] = [
   {
     "slug": "/blog/how-to-hire-a-private-chef-dubai",
     "title": "How to Hire a Private Chef Dubai: 2026 Cost & Booking Guide",
@@ -224,6 +225,15 @@ export const BLOG_POSTS: BlogPost[] = [
   }
 ]
 
+/**
+ * A parked post leaves every listing, not just the sitemap. The blog index and the topic pages
+ * are built from this table, so filtering here is what stops a link surviving in the one place
+ * that lists everything.
+ */
+export const BLOG_POSTS: BlogPost[] = ALL_BLOG_POSTS.filter(
+  (post) => !isParked(post.slug.startsWith("/") ? post.slug : `/blog/${post.slug}`),
+)
+
 export const BLOG_HUBS: BlogHub[] = [
   {
     "slug": "private-chef",
@@ -288,7 +298,7 @@ export const BLOG_HUBS: BlogHub[] = [
 ]
 
 /** In-body link phrases, sorted longest-first so specific phrases win over generic ones. */
-export const CONTEXTUAL_LINKS: ContextualLink[] = [
+const ALL_CONTEXTUAL_LINKS: ContextualLink[] = [
   {
     "phrase": "desert dining in Dubai",
     "url": "/desert-dining-dubai"
@@ -358,6 +368,11 @@ export const CONTEXTUAL_LINKS: ContextualLink[] = [
     "url": "/catering-dubai"
   }
 ]
+
+/** In-article links follow the same rule as every other link: never to a parked page. */
+export const CONTEXTUAL_LINKS: ContextualLink[] = ALL_CONTEXTUAL_LINKS.filter(
+  (l) => !isParked(l.url),
+)
   .sort((a, b) => b.phrase.length - a.phrase.length)
 
 const EXTRA_PILLARS: Record<string, BlogPillar[]> = {

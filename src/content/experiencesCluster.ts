@@ -1,3 +1,4 @@
+import { isParked } from '@/content/parkedUrls'
 /**
  * Dining Experiences cluster.
  *
@@ -43,7 +44,7 @@ export type ExperiencePath = (typeof EXPERIENCES_PATHS)[keyof typeof EXPERIENCES
  * The visible navigation. Six items — deliberately compact.
  * Supporting pages (halal, Valentine's, VIP Club) are reached through the hub.
  */
-export const EXPERIENCES_NAV = [
+const EXPERIENCES_NAV_RAW = [
   {
     href: EXPERIENCES_PATHS.hub,
     label: 'Luxury Dining Experiences',
@@ -167,7 +168,7 @@ export const EXPERIENCES_WHATSAPP_MESSAGE =
   "Hi myCHEF, I'd like to plan a private dining experience"
 
 /** Flat list the mobile menu consumes. */
-export const EXPERIENCES_NAV_CHILDREN = EXPERIENCES_NAV.map((i) => ({
+export const EXPERIENCES_NAV_CHILDREN = EXPERIENCES_NAV_RAW.filter((i) => !isParked(i.href)).map((i) => ({
   href: i.href,
   label: i.label,
   description: i.description,
@@ -188,7 +189,7 @@ export const EXPERIENCES_WHATSAPP_LINK = `https://wa.me/${EXPERIENCES_WHATSAPP_N
   EXPERIENCES_WHATSAPP_MESSAGE,
 )}`
 
-export const EXPERIENCES_FOOTER_LINKS = [
+const EXPERIENCES_FOOTER_LINKS_RAW = [
   { label: 'Dining Experiences', href: EXPERIENCES_PATHS.hub },
   { label: 'Romantic Dinner', href: EXPERIENCES_PATHS.romantic },
   { label: 'Tasting Menu', href: EXPERIENCES_PATHS.tasting },
@@ -215,3 +216,7 @@ export function experiencesBreadcrumb(pageName: string, path: string) {
   }
   return { '@type': 'BreadcrumbList', itemListElement: trail }
 }
+
+/** A parked page leaves the cluster's link lists; delete it from the park list to bring it back. */
+export const EXPERIENCES_NAV = EXPERIENCES_NAV_RAW.filter((i) => !isParked(i.href))
+export const EXPERIENCES_FOOTER_LINKS = EXPERIENCES_FOOTER_LINKS_RAW.filter((i) => !isParked(i.href))

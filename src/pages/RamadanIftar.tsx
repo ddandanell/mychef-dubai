@@ -10,6 +10,7 @@ import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import { locationPath } from '@/data/locations'
+import { isParked } from '@/content/parkedUrls'
 import {
   Moon,
   Star,
@@ -188,6 +189,11 @@ const locations = [
   { name: 'Emirates Hills', slug: 'emirates-hills' },
   { name: 'JBR', slug: 'jbr' },
 ]
+
+// Only areas whose page is live: an area whose page is parked is still served, it just
+// does not get a link to a page Google has been asked to forget.
+const liveLocations = locations.filter((l) => !isParked(locationPath(l.slug)))
+
 
 const faqSchema = {
   '@type': 'FAQPage',
@@ -580,9 +586,9 @@ export default function RamadanIftar() {
             <div>
               <h3 className="font-inter text-caption uppercase tracking-wider text-gold mb-4">Popular Locations</h3>
               <ul className="space-y-3">
-                <li><Link to="/locations/downtown-dubai" className="font-inter text-body text-gray-400 hover:text-gold transition-colors flex items-center gap-2"><ArrowRight size={14} /> Downtown Dubai</Link></li>
-                <li><Link to="/locations/dubai-marina" className="font-inter text-body text-gray-400 hover:text-gold transition-colors flex items-center gap-2"><ArrowRight size={14} /> Dubai Marina</Link></li>
-                <li><Link to="/locations/palm-jumeirah" className="font-inter text-body text-gray-400 hover:text-gold transition-colors flex items-center gap-2"><ArrowRight size={14} /> Palm Jumeirah</Link></li>
+                <li><ArrowRight size={14} /> Downtown Dubai</li>
+                <li><ArrowRight size={14} /> Dubai Marina</li>
+                <li><ArrowRight size={14} /> Palm Jumeirah</li>
               </ul>
             </div>
           </div>
@@ -611,7 +617,7 @@ export default function RamadanIftar() {
           </h2>
 
           <div className="iftar-loc-grid grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
-            {locations.map((loc) => (
+            {liveLocations.map((loc) => (
               <Link
                 key={loc.slug}
                 to={locationPath(loc.slug)}

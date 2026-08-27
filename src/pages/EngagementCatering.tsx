@@ -332,10 +332,10 @@ export default function EngagementCatering() {
         subtitle={
           <>
             Available across Dubai including{' '}
-            <Link to="/locations/palm-jumeirah" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Palm Jumeirah</Link>,{' '}
-            <Link to="/locations/dubai-marina" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Dubai Marina</Link>
+            Palm Jumeirah,{' '}
+            Dubai Marina
             {' '}and{' '}
-            <Link to="/locations/downtown-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Downtown Dubai</Link>
+            Downtown Dubai
             . See{' '}
             <Link to="/locations" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">areas we serve</Link>.
           </>

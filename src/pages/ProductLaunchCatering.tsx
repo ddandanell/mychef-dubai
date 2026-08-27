@@ -10,6 +10,7 @@ import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import { locationPath } from '@/data/locations'
+import { isParked } from '@/content/parkedUrls'
 import {
   Wine,
   Newspaper,
@@ -124,6 +125,11 @@ const locations = [
   { name: 'Dubai Creek Harbour', slug: 'dubai-creek-harbour' },
 ]
 
+// Only areas whose page is live: an area whose page is parked is still served, it just
+// does not get a link to a page Google has been asked to forget.
+const liveLocations = locations.filter((l) => !isParked(locationPath(l.slug)))
+
+
 const faqs = [
   {
     q: 'Do you cater small product launches in Dubai?',
@@ -153,12 +159,6 @@ const relatedServices = [
     description: 'fully-coordinated catering for conferences, galas, and company milestones across Dubai.',
     image: '/images/corporate-catering-dubai-hero.webp',
     link: '/corporate-event-catering-dubai',
-  },
-  {
-    title: 'Brand Activation Catering',
-    description: 'Immersive food and drink experiences designed to amplify brand activations and pop-ups.',
-    image: '/images/events-catering-dubai-hero.webp',
-    link: '/brand-activation-catering-dubai',
   },
   {
     title: 'Conference Catering',
@@ -476,7 +476,7 @@ export default function ProductLaunchCatering() {
           </h2>
 
           <div className="plc-loc-grid grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
-            {locations.map((loc) => (
+            {liveLocations.map((loc) => (
               <Link
                 key={loc.slug}
                 to={locationPath(loc.slug)}

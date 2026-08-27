@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-27 20:36",
+ "generated": "2026-08-28 02:59",
  "run_id": 16,
  "banner": null,
  "heartbeat": {
@@ -31,7 +31,7 @@
   "edits_applied": null,
   "gates_pass": null,
   "error": null,
-  "age_hours": 21.9
+  "age_hours": 28.3
  },
  "counts": {
   "locked": 1712,
@@ -563,7 +563,7 @@
    "label": "Locked but never seen"
   },
   {
-   "value": "22h",
+   "value": "28h",
    "label": "Since the last run"
   },
   {

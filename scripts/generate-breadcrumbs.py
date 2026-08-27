@@ -27,6 +27,15 @@ ROUTES = ROOT / "src/routes.tsx"
 VERCEL = ROOT / "vercel.json"
 
 
+def parked() -> set[str]:
+    """Pages the site keeps but Google is asked to forget. A trail to one, or a hub listing one
+    as a child, would be a link — and a parked page is linked from nowhere."""
+    try:
+        return set(json.loads((ROOT / "docs/seo/parked-urls.json").read_text()).get("urls") or {})
+    except Exception:  # noqa: BLE001
+        return set()
+
+
 def redirect_sources() -> set[str]:
     """URLs that 301 elsewhere. Linking to one spends a click and a crawl on a bounce."""
     try:
@@ -66,7 +75,7 @@ def children_of(pages: dict) -> dict:
     contract for five hubs — so eighteen children were filed under a parent that never linked
     down to them. The contract wins, here as everywhere.
     """
-    gone = redirect_sources()
+    gone = redirect_sources() | parked()
     kids: dict[str, list] = {}
     for url, p in pages.items():
         hub = p.get("hub")
@@ -85,7 +94,7 @@ def children_of(pages: dict) -> dict:
 
 def build() -> str:
     pages = json.loads(CONTRACT.read_text())["pages"]
-    gone = redirect_sources()
+    gone = redirect_sources() | parked()
     trails = {}
     for url, p in pages.items():
         if url in gone:

@@ -1,5 +1,5 @@
 import { Link } from 'react-router'
-import { Coffee, Sun, Users, Cookie, Leaf, Truck } from 'lucide-react'
+import { Coffee, Sun, Users, Cookie, Leaf } from 'lucide-react'
 import ServiceLandingPage from './shared/ServiceLandingPage'
 import type { ServicePageConfig } from './shared/ServiceLandingPage'
 
@@ -76,12 +76,6 @@ const config: ServicePageConfig = {
       title: 'Specialty & Wellness Teas',
       description: 'Herbal, green, matcha and wellness infusions for health-conscious guests.',
       link: '/cuisines-dubai',
-    },
-    {
-      Icon: Truck,
-      title: 'Mobile Coffee Cart',
-      description: 'Compact cart-based setup perfect for receptions, product launches and exhibition stands.',
-      link: '/brand-activation-catering-dubai',
     },
   ],
   useCasesEyebrow: 'WHERE COFFEE & TEA SERVICE WORKS',

@@ -10,6 +10,7 @@ import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import { locationPath } from '@/data/locations'
+import { isParked } from '@/content/parkedUrls'
 import {
   Fish,
   Salad,
@@ -132,6 +133,11 @@ const locations = [
   { name: 'Dubai Creek Harbour', slug: 'dubai-creek-harbour' },
 ]
 
+// Only areas whose page is live: an area whose page is parked is still served, it just
+// does not get a link to a page Google has been asked to forget.
+const liveLocations = locations.filter((l) => !isParked(locationPath(l.slug)))
+
+
 const faqs = [
   {
     q: 'What does Mediterranean catering include?',
@@ -162,7 +168,7 @@ const faqs = [
   { q: "What exactly is included in the price you quote?", a: "Every Mediterranean catering quote includes menu design, ingredient sourcing and shopping, on-site cooking, plating and serving, and full cleanup afterwards. Unlike food-only drop-off caterers, we handle the whole experience end to end, so there are no surprise charges for setup or pack-down. Serving staff are optional and 5% VAT applies to the final quote." },
   { q: "Do you charge an extra service charge on top of the quote?", a: "No, we don't add a separate 10–20% service charge like many Dubai caterers do — the price we quote is the price you pay, plus the standard 5% VAT. Your proposal spells out food, cooking, service, and cleanup as one transparent figure so you can budget with confidence. If anything changes, we re-quote openly rather than surprising you on the day." },
   { q: "Are your chefs and kitchens licensed and food-safe?", a: "Yes, our chefs and kitchens operate to Dubai Municipality food-safety standards, which matters most for Mediterranean menus built around fresh seafood and raw salads. We handle cold-chain sourcing, safe handling, and hygienic on-site preparation as a matter of routine. You can read more about our team and standards on our [about page](/about)." },
-  { q: "Can I taste the Mediterranean menu before I book a large event?", a: "Yes, for larger events and weddings we can arrange a tasting so you can experience the mezze, grills, and seafood before committing. It's the best way to fine-tune flavours, portion sizes, and presentation to match your celebration. See how a curated multi-course tasting works on our [tasting menu Dubai](/tasting-menu-dubai) page, then let us set one up." },
+  { q: "Can I taste the Mediterranean menu before I book a large event?", a: "Yes, for larger events and weddings we can arrange a tasting so you can experience the mezze, grills, and seafood before committing. It's the best way to fine-tune flavours, portion sizes, and presentation to match your celebration. See how a curated multi-course tasting works on our tasting menu Dubai page, then let us set one up." },
   { q: "Do you offer buffet, sharing platters, or plated Mediterranean service?", a: "We offer all three — a generous mezze buffet, relaxed sharing platters, or an elegant plated seafood dinner, depending on the mood of your event. Buffets and sharing styles suit villa lunches and poolside parties, while plated courses bring polish to corporate and refined dining. We'll recommend the format that fits your guests, venue, and budget." },
   { q: "Can you set up a live grill or souvlaki station at my event?", a: "Yes, a live charcoal grill is one of the most popular ways to serve Mediterranean food, with souvlaki, whole fish, halloumi, and lamb cooked in front of your guests. It adds theatre and keeps everything hot and fresh from flame to plate. Explore the format on our [live cooking stations Dubai](/live-cooking-stations-dubai) page." },
   { q: "Do you provide serving staff and waiters for Mediterranean catering?", a: "Yes, professional serving staff and waiters are optional and easy to add to any Mediterranean booking. For a relaxed sharing lunch you may not need them, but for plated dinners, corporate receptions, or larger parties they keep service smooth and let you host without lifting a finger. We'll suggest the right staffing level for your guest count and format." },
@@ -473,7 +479,7 @@ export default function MediterraneanCatering() {
           </h2>
 
           <div className="med-loc-grid grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
-            {locations.map((loc) => (
+            {liveLocations.map((loc) => (
               <Link
                 key={loc.slug}
                 to={locationPath(loc.slug)}

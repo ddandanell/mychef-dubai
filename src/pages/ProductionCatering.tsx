@@ -10,8 +10,8 @@ import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import { locationPath } from '@/data/locations'
+import { isParked } from '@/content/parkedUrls'
 import {
-  Video,
   Camera,
   Coffee,
   Sunrise,
@@ -36,12 +36,6 @@ const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}
 /* ────────────────────── Data ────────────────────── */
 
 const productionFormats = [
-  {
-    icon: Video,
-    title: 'TV & Broadcast Catering',
-    description: 'Full daily catering for television and broadcast shoots, scaled to large casts and crews and timed precisely around recording and rehearsal blocks.',
-    link: '/staff-meals-catering-dubai',
-  },
   {
     icon: Camera,
     title: 'Photo & Editorial Shoots',
@@ -140,6 +134,11 @@ const locations = [
   { name: 'Dubai Creek Harbour', slug: 'dubai-creek-harbour' },
 ]
 
+// Only areas whose page is live: an area whose page is parked is still served, it just
+// does not get a link to a page Google has been asked to forget.
+const liveLocations = locations.filter((l) => !isParked(locationPath(l.slug)))
+
+
 const faqs = [
   {
     q: 'What types of production do you cater for?',
@@ -168,12 +167,6 @@ const faqs = [
 ]
 
 const relatedServices = [
-  {
-    title: 'Staff Meals Catering',
-    description: 'Scheduled daily meals for teams — the recurring version of feeding a crew.',
-    image: '/service-catering.webp',
-    link: '/staff-meals-catering-dubai',
-  },
   {
     title: 'Corporate Catering',
     description: 'Professional corporate dining, from working lunches to large functions.',
@@ -467,7 +460,7 @@ export default function ProductionCatering() {
           </h2>
 
           <div className="prod-loc-grid grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
-            {locations.map((loc) => (
+            {liveLocations.map((loc) => (
               <Link
                 key={loc.slug}
                 to={locationPath(loc.slug)}

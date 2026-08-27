@@ -210,12 +210,6 @@ const relatedServices = [
     image: '/menu-seafood.webp',
     link: '/cuisines-dubai',
   },
-  {
-    title: 'Corporate Meal Prep',
-    description: 'Recurring portioned meal programmes for teams and workplaces across Dubai.',
-    image: '/service-corporate.webp',
-    link: '/staff-meals-catering-dubai',
-  },
 ]
 
 const schema = {
@@ -370,10 +364,10 @@ export default function WeeklyMealPrep() {
               Unlike mass-market meal plans, this is fully bespoke. Your chef designs a rotating menu, sources premium ingredients, cooks in your home, packages everything cleanly, and leaves your kitchen spotless. The result is a fridge full of restaurant-quality meals that simply need reheating — whether you are feeding a family, an athlete, or a household with specific dietary needs. For strict allergen protocols, explore our <Link to="/allergy-safe-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">allergy-safe catering in Dubai</Link>.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              If you are comparing options, you may also be interested in our <Link to="/wellness-meal-prep-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">wellness meal prep</Link>, <Link to="/staff-meals-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate meal prep programmes</Link>, or the full <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef experience in Dubai</Link>. For menu inspiration, explore our <Link to="/menus" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">bespoke menus</Link>.
+              If you are comparing options, you may also be interested in our <Link to="/wellness-meal-prep-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">wellness meal prep</Link>, corporate meal prep programmes, or the full <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef experience in Dubai</Link>. For menu inspiration, explore our <Link to="/menus" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">bespoke menus</Link>.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mt-5">
-              Deciding between weekly prep and a full-time chef? Read our comparison of <Link to="/blog/weekly-meal-prep-vs-full-time-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">weekly meal prep vs full-time chef in Dubai</Link>.
+              Deciding between weekly prep and a full-time chef? Read our comparison of weekly meal prep vs full-time chef in Dubai.
             </p>
           </div>
         </div>

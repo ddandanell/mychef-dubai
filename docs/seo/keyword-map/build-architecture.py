@@ -6,6 +6,18 @@ the contract breadcrumb; click depth from the homepage (BFS over contextual+silo
 receive internal links. Writes architecture.json + architecture.html."""
 import json, pathlib, re, html, collections, datetime, sys
 HERE = pathlib.Path(__file__).resolve().parent; ROOT = HERE.parents[2]
+
+def _parked() -> set:
+    """URLs deliberately hidden: no sitemap entry, no inbound link, no breadcrumb. Counting them
+    as orphans would bury the real ones — verify-parked.py is what proves that state is correct."""
+    import json as _json
+    try:
+        return set(_json.loads((HERE.parents[2] / "docs/seo/parked-urls.json").read_text()).get("urls") or {})
+    except Exception:
+        return set()
+
+
+PARKED = _parked()
 contract = json.loads((ROOT / "docs/seo/myCHEF-AE-SEO-STANDARD.json").read_text()); pages = contract["pages"]
 links = json.loads((HERE / "links.json").read_text()); prof = {p["url"]: p for p in links["profiles"]}
 sm = set(re.sub(r"^https://www\.mychef\.ae", "", u) or "/" for u in re.findall(r"<loc>([^<]+)</loc>", (ROOT / "public/sitemap.xml").read_text()))
@@ -34,15 +46,17 @@ while q:
 issues = []
 def issue(kind, url, detail): issues.append({"kind": kind, "url": url, "detail": detail})
 for url, p in pages.items():
+    if url in PARKED: continue          # parked: out of the sitemap on purpose, checked by verify-parked.py
     idx = p.get("indexation") or {}; indexable = not idx.get("redirect_to") and (idx.get("robots") or {}).get("index", True)
     if indexable and url not in sm: issue("MISSING_FROM_SITEMAP", url, "indexable in the contract but not in public/sitemap.xml")
     if not indexable and url in sm: issue("NOINDEX_IN_SITEMAP", url, "noindex/redirected but listed in the sitemap")
     if idx.get("redirect_to") and url in routed: issue("REDIRECT_STILL_ROUTED", url, "vercel.json redirects it but routes.tsx still renders it")
 for u in sm:
+    if u in PARKED: continue
     if u not in routed and not re.match(r"^/(locations|blog/topic)/", u): issue("SITEMAP_NOT_ROUTED", u, "in the sitemap but no static route")
     if u in redirect_src: issue("SITEMAP_LISTS_REDIRECT", u, "sitemap lists a URL that 301s")
 for url, p in prof.items():
-    if p["noindex"]: continue
+    if p["noindex"] or url in PARKED: continue
     if p["status"].startswith("ORPHAN"): issue("ORPHAN", url, f"{p['in_nav']} nav / {p['in_footer']} footer links only")
     if p["hub_links_child"] is False: issue("HUB_NOT_LINKING_CHILD", url, f"hub {p['hub']} does not link to this child in copy or silo")
     if p["child_links_hub"] is False: issue("CHILD_NOT_LINKING_HUB", url, f"page does not link up to its hub {p['hub']} in copy or breadcrumb")
@@ -61,6 +75,7 @@ for url, p in prof.items():
 # internal links to redirect sources (should be zero after verify-retirements)
 for src, ls in [(u, graph.get(u, set())) for u in prof]:
     for v in ls:
+        if src in PARKED: continue
         if v in redirect_src: issue("LINK_TO_REDIRECT", src, f"links to {v} which 301s")
 kinds = collections.Counter(i["kind"] for i in issues)
 stats = {"sitemap_urls": len(sm), "routed": len(routed), "max_depth": max(depth.values()), "avg_depth": round(sum(depth.values()) / max(1, len(depth)), 2), "issues": len(issues), "by_kind": dict(kinds)}

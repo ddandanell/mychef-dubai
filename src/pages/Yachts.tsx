@@ -34,12 +34,9 @@ const SIBLINGS = [
   { href: '/yacht-catering-checklist-dubai', label: 'Yacht catering checklist' },
   { href: '/blog/yacht-party-menu-ideas-dubai', label: 'Yacht party menu ideas' },
   { href: '/bar-services-dubai', label: 'Bar services' },
-  { href: '/locations/dubai-marina', label: 'Dubai Marina' },
 ] as const
 
 const BOARDING = [
-  { href: '/locations/dubai-marina', label: 'Dubai Marina' },
-  { href: '/locations/palm-jumeirah', label: 'Palm Jumeirah' },
   { href: '/locations/jbr', label: 'JBR' },
 ] as const
 
@@ -292,13 +289,13 @@ export default function Yachts() {
         subtitle={
           <>
             Boarding most often from{' '}
-            <Link to="/locations/dubai-marina" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
+            
               Dubai Marina
-            </Link>
+            
             {', '}
-            <Link to="/locations/palm-jumeirah" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
+            
               Palm Jumeirah
-            </Link>
+            
             {' '}and{' '}
             <Link to="/locations/jbr" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
               JBR

@@ -10,6 +10,7 @@ import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import { locationPath } from '@/data/locations'
+import { isParked } from '@/content/parkedUrls'
 import {
   UtensilsCrossed,
   ChefHat,
@@ -131,6 +132,11 @@ const locations = [
   { name: 'Meydan', slug: 'meydan' },
   { name: 'Dubai Creek Harbour', slug: 'dubai-creek-harbour' },
 ]
+
+// Only areas whose page is live: an area whose page is parked is still served, it just
+// does not get a link to a page Google has been asked to forget.
+const liveLocations = locations.filter((l) => !isParked(locationPath(l.slug)))
+
 
 const faqs = [
   {
@@ -338,7 +344,7 @@ export default function StaffMealsCatering() {
             Staff meals catering Dubai price and staff meals catering Dubai cost per person depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. If you are weighing up best veg meals in Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. Halal staff meals catering Dubai is planned into the first draft of the menu rather than bolted on at the end. Staff meals Dubai, event catering staff, chief of staff catering, staff lunch catering Dubai, catering with service staff and catering staff hire for private catering are run to a fixed timing, with one itemised invoice and dietary requirements tracked per person. Ready to cook meals Dubai is the same booking: a vetted chef, matched to your kitchen and your menu.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            From daily team meals and managed staff canteens to recurring retainers and shift-based catering, we keep your people well fed without the daily admin. Menus are fully halal and built to a high standard, with balanced and dietary options throughout, and a standing retainer gives you predictable invoicing and one reliable point of contact. Explore the formats below, see how staff catering fits within our wider <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering in Dubai</Link>, or browse our <Link to="/staff-meals-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate meal prep</Link> for portioned workplace programmes.
+            From daily team meals and managed staff canteens to recurring retainers and shift-based catering, we keep your people well fed without the daily admin. Menus are fully halal and built to a high standard, with balanced and dietary options throughout, and a standing retainer gives you predictable invoicing and one reliable point of contact. Explore the formats below, see how staff catering fits within our wider <Link to="/corporate" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">corporate catering in Dubai</Link>, or browse our corporate meal prep for portioned workplace programmes.
           </p>
         </div>
       </section>
@@ -459,7 +465,7 @@ export default function StaffMealsCatering() {
           </h2>
 
           <div className="staff-loc-grid grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
-            {locations.map((loc) => (
+            {liveLocations.map((loc) => (
               <Link
                 key={loc.slug}
                 to={locationPath(loc.slug)}

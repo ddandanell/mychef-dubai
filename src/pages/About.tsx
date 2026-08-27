@@ -6,6 +6,7 @@
 // END KEYWORD LOCK
 import { useRef } from 'react'
 import { Link } from 'react-router'
+import { isParked } from '@/content/parkedUrls'
 import { ArrowRight, Waves, Anchor, Building2, TreePine, Landmark, Sprout } from 'lucide-react'
 import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
@@ -45,10 +46,14 @@ const team = [
 
 // Communities that have their own page under /locations/:slug (see src/data/locations.ts).
 // Anything else renders as plain text instead of linking to "Location Not Found".
-const LOCATION_PAGES = new Set([
+const LOCATION_PAGES = new Set(
+  // A community is a link only while its page is live. Parked areas stay listed as places we
+  // serve — they are just not a link to a page Google has been asked to forget.
+  [
   'palm-jumeirah', 'bluewaters-island', 'dubai-marina', 'jbr', 'jlt', 'jvc', 'downtown-dubai', 'difc',
   'business-bay', 'emirates-hills', 'dubai-hills', 'arabian-ranches', 'jumeirah', 'umm-suqeim', 'al-barsha',
-])
+  ].filter((slug) => !isParked(`/locations/${slug}`)),
+)
 const toLocationSlug = (name: string) => name.toLowerCase().replace(/\s+/g, '-')
 
 const locations = [

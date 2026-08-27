@@ -29,9 +29,9 @@ const config: ServicePageConfig = {
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
         This service complements our broader{' '}
-        <Link to="/asian-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
+        
           Asian catering Dubai
-        </Link>{' '}
+        {' '}
         and{' '}
         <Link to="/festive-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           festive catering Dubai
@@ -155,12 +155,6 @@ const config: ServicePageConfig = {
     },
   ],
   relatedServices: [
-    {
-      title: 'Asian Catering Dubai',
-      description: 'Broader Asian menus including Chinese, Japanese, Thai and Korean flavours for any occasion.',
-      image: '/images/asian-catering-dubai-hero.webp',
-      link: '/asian-catering-dubai',
-    },
     {
       title: 'Festive Catering Dubai',
       description: 'Seasonal menus and themed catering for celebrations throughout the year.',

@@ -111,7 +111,6 @@ const occasions = [
   { label: 'Anniversaries', desc: 'An anniversary dinner Dubai couples remember usually recreates one dish from the night you met.' },
   { label: 'Proposals', desc: 'Ring timing, photographer and florist coordinated with the courses.', link: '/proposal-dinner-dubai' },
   { label: "Valentine's Day", desc: "A Valentine's private dinner Dubai couples book early; February sells out weeks ahead." },
-  { label: 'Date nights', desc: 'A date night private chef Dubai couples book monthly, without babysitter-and-traffic maths.', link: '/date-night-package-dubai' },
   { label: 'Birthday surprises', desc: 'A chef arriving unannounced with their favourite menu already agreed.' },
   { label: 'Honeymoons', desc: 'Private dining for two Dubai honeymooners book on the first night in the villa.' },
 ]
@@ -231,9 +230,9 @@ export default function RomanticDinner() {
           </div>
           <p className="text-gray-500 text-sm text-center mt-10 gsap-reveal">
             We cook across the city; the pages for{' '}
-            <Link to="/locations/palm-jumeirah" className="text-gold hover:text-gold-light">Palm Jumeirah</Link>,{' '}
-            <Link to="/locations/dubai-marina" className="text-gold hover:text-gold-light">Dubai Marina</Link> and{' '}
-            <Link to="/locations/downtown-dubai" className="text-gold hover:text-gold-light">Downtown Dubai</Link> cover
+            Palm Jumeirah,{' '}
+            Dubai Marina and{' '}
+            Downtown Dubai cover
             building access and parking, and{' '}
             <Link to="/yachts" className="text-gold hover:text-gold-light">yacht catering</Link> covers dinner on the water.
           </p>
@@ -316,7 +315,7 @@ export default function RomanticDinner() {
             Prices are for Dubai addresses and exclude VAT. Desert and beach sites add venue and transport fees, quoted per
             location. Premium ingredients such as wagyu, truffle and caviar are itemised, never hidden in a service charge.
             The fixed-price{' '}
-            <Link to="/date-night-package-dubai" className="text-gold hover:text-gold-light underline underline-offset-4">date night package</Link>{' '}
+            date night package{' '}
             is the fastest way to book the three-course format.
           </p>
         </div>
@@ -335,7 +334,7 @@ export default function RomanticDinner() {
           </div>
           <p className="text-gray-500 text-sm text-center mt-10 gsap-reveal">
             Still deciding? Read how a{' '}
-            <Link to="/blog/private-chef-date-night-dubai" className="text-gold hover:text-gold-light">private chef date night</Link>{' '}
+            private chef date night{' '}
             actually unfolds, hour by hour.
           </p>
         </div>

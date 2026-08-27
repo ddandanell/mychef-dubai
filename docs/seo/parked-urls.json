@@ -1,0 +1,148 @@
+{
+  "note": "Parked, not deleted. A parked URL still resolves — nothing 404s and no redirect is needed — but it renders noindex, leaves the sitemap, and no page links to it. Removing a line from this file and rebuilding brings the page back exactly as it was.",
+  "measured_window": "2026-05-27 to 2026-08-25 (Search Console, 90 days)",
+  "parked_on": "2026-08-28",
+  "urls": {
+    "/asian-catering-dubai": {
+      "reason": "Google Ads reports no volume for its phrase and Search Console has not shown it once in 90 days"
+    },
+    "/birthday-catering-package-dubai": {
+      "reason": "Google Ads reports no volume for its phrase and Search Console has not shown it once in 90 days"
+    },
+    "/blog/desert-dinner-party-dubai": {
+      "reason": "Desert dining is a winter format, October to March",
+      "revive_on": "2026-10-01"
+    },
+    "/blog/dinner-party-menu-ideas-dubai": {
+      "reason": "no impression in 90 days; the topic is covered by a page that does earn"
+    },
+    "/blog/halal-private-dining-dubai-what-to-ask": {
+      "reason": "no impression in 90 days; the topic is covered by a page that does earn"
+    },
+    "/blog/iftar-at-home-dubai": {
+      "reason": "Ramadan 2027 planning starts in December",
+      "revive_on": "2026-12-01"
+    },
+    "/blog/nye-party-catering-dubai": {
+      "reason": "New Year's Eve planning starts in November",
+      "revive_on": "2026-10-15"
+    },
+    "/blog/private-chef-date-night-dubai": {
+      "reason": "no impression in 90 days; the topic is covered by a page that does earn"
+    },
+    "/blog/private-chef-vs-restaurant-dubai": {
+      "reason": "no impression in 90 days; the topic is covered by a page that does earn"
+    },
+    "/blog/ramadan-iftar-catering-trends-2026": {
+      "reason": "Ramadan 2027 planning starts in December",
+      "revive_on": "2026-12-01"
+    },
+    "/blog/vegan-catering-dubai-guide": {
+      "reason": "no impression in 90 days; the topic is covered by a page that does earn"
+    },
+    "/blog/weekly-meal-prep-vs-full-time-chef-dubai": {
+      "reason": "no impression in 90 days; the topic is covered by a page that does earn"
+    },
+    "/brand-activation-catering-dubai": {
+      "reason": "Google Ads reports no volume for its phrase and Search Console has not shown it once in 90 days"
+    },
+    "/corporate-dinner-package-dubai": {
+      "reason": "Google Ads reports no volume for its phrase and Search Console has not shown it once in 90 days"
+    },
+    "/corporate-retainer-dubai": {
+      "reason": "Google Ads reports no volume for its phrase and Search Console has not shown it once in 90 days"
+    },
+    "/date-night-package-dubai": {
+      "reason": "Google Ads reports no volume for its phrase and Search Console has not shown it once in 90 days"
+    },
+    "/dubai-event-catering-price-guide-2026": {
+      "reason": "no impression in 90 days; the topic is covered by a page that does earn"
+    },
+    "/exhibition-catering-dubai": {
+      "reason": "Google Ads reports no volume for its phrase and Search Console has not shown it once in 90 days"
+    },
+    "/family-feast-package-dubai": {
+      "reason": "Google Ads reports no volume for its phrase and Search Console has not shown it once in 90 days"
+    },
+    "/fitness-meal-prep-dubai": {
+      "reason": "Google Ads reports no volume for its phrase and Search Console has not shown it once in 90 days"
+    },
+    "/gala-dinner-catering-dubai": {
+      "reason": "Google Ads reports no volume for its phrase and Search Console has not shown it once in 90 days"
+    },
+    "/jain-catering-dubai": {
+      "reason": "Google Ads reports no volume for its phrase and Search Console has not shown it once in 90 days"
+    },
+    "/kids-nutrition-chef-dubai": {
+      "reason": "Google Ads reports no volume for its phrase and Search Console has not shown it once in 90 days"
+    },
+    "/locations/arabian-ranches": {
+      "reason": "no impression in 90 days while absorbing 60–120 internal links each — the four areas that do earn (JLT, JBR, Al Barsha, DIFC) stay"
+    },
+    "/locations/bluewaters-island": {
+      "reason": "no impression in 90 days while absorbing 60–120 internal links each — the four areas that do earn (JLT, JBR, Al Barsha, DIFC) stay"
+    },
+    "/locations/business-bay": {
+      "reason": "no impression in 90 days while absorbing 60–120 internal links each — the four areas that do earn (JLT, JBR, Al Barsha, DIFC) stay"
+    },
+    "/locations/downtown-dubai": {
+      "reason": "no impression in 90 days while absorbing 60–120 internal links each — the four areas that do earn (JLT, JBR, Al Barsha, DIFC) stay"
+    },
+    "/locations/dubai-hills": {
+      "reason": "no impression in 90 days while absorbing 60–120 internal links each — the four areas that do earn (JLT, JBR, Al Barsha, DIFC) stay"
+    },
+    "/locations/dubai-marina": {
+      "reason": "no impression in 90 days while absorbing 60–120 internal links each — the four areas that do earn (JLT, JBR, Al Barsha, DIFC) stay"
+    },
+    "/locations/emirates-hills": {
+      "reason": "no impression in 90 days while absorbing 60–120 internal links each — the four areas that do earn (JLT, JBR, Al Barsha, DIFC) stay"
+    },
+    "/locations/jumeirah": {
+      "reason": "no impression in 90 days while absorbing 60–120 internal links each — the four areas that do earn (JLT, JBR, Al Barsha, DIFC) stay"
+    },
+    "/locations/jvc": {
+      "reason": "no impression in 90 days while absorbing 60–120 internal links each — the four areas that do earn (JLT, JBR, Al Barsha, DIFC) stay"
+    },
+    "/locations/palm-jumeirah": {
+      "reason": "no impression in 90 days while absorbing 60–120 internal links each — the four areas that do earn (JLT, JBR, Al Barsha, DIFC) stay"
+    },
+    "/locations/umm-suqeim": {
+      "reason": "no impression in 90 days while absorbing 60–120 internal links each — the four areas that do earn (JLT, JBR, Al Barsha, DIFC) stay"
+    },
+    "/luxury-dinner-planning-guide-dubai": {
+      "reason": "no impression in 90 days; the topic is covered by a page that does earn"
+    },
+    "/mystery-dining-dubai": {
+      "reason": "Google Ads reports no volume for its phrase and Search Console has not shown it once in 90 days"
+    },
+    "/postpartum-meal-prep-dubai": {
+      "reason": "Google Ads reports no volume for its phrase and Search Console has not shown it once in 90 days"
+    },
+    "/private-jet-catering-dubai": {
+      "reason": "Google Ads reports no volume for its phrase and Search Console has not shown it once in 90 days"
+    },
+    "/product-launch-catering-dubai": {
+      "reason": "Google Ads reports no volume for its phrase and Search Console has not shown it once in 90 days"
+    },
+    "/production-catering-dubai": {
+      "reason": "Google Ads reports no volume for its phrase and Search Console has not shown it once in 90 days"
+    },
+    "/ramadan-catering-guide-dubai": {
+      "reason": "Ramadan 2027 planning starts in December",
+      "revive_on": "2026-12-01"
+    },
+    "/staff-meals-catering-dubai": {
+      "reason": "Google Ads reports no volume for its phrase and Search Console has not shown it once in 90 days"
+    },
+    "/tasting-menu-dubai": {
+      "reason": "Google Ads reports no volume for its phrase and Search Console has not shown it once in 90 days"
+    },
+    "/tourist-villa-chef-dubai": {
+      "reason": "Google Ads reports no volume for its phrase and Search Console has not shown it once in 90 days"
+    },
+    "/uae-national-day-catering-dubai": {
+      "reason": "National Day is 2 December",
+      "revive_on": "2026-10-01"
+    }
+  }
+}

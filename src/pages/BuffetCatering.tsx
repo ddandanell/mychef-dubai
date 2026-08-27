@@ -380,17 +380,17 @@ export default function BuffetCatering() {
           </BodyCopy>
           <BodyCopy>
             Regular rooms include{' '}
-            <Link to="/locations/palm-jumeirah" className="text-gold-ink underline underline-offset-4 hover:text-gold">
+            
               Palm Jumeirah
-            </Link>
+            
             ,{' '}
-            <Link to="/locations/dubai-marina" className="text-gold-ink underline underline-offset-4 hover:text-gold">
+            
               Dubai Marina
-            </Link>
+            
             {' '}and{' '}
-            <Link to="/locations/downtown-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
+            
               Downtown Dubai
-            </Link>
+            
             . The full list is on{' '}
             <Link to="/locations" className="text-gold-ink underline underline-offset-4 hover:text-gold">
               Areas we serve

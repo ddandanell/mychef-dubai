@@ -6,6 +6,7 @@
 // END KEYWORD LOCK
 import { Link } from 'react-router'
 import { locationPath } from '@/data/locations'
+import { isParked } from '@/content/parkedUrls'
 import {
   ArrowRight,
   Building2,
@@ -330,7 +331,7 @@ export default function Contact() {
                 Customer-facing brand of Numini FZC. Registered at Business Centre, Sharjah Publishing City Free Zone, Sharjah, United Arab Emirates.
               </p>
               <BodyCopy tone="dark">
-                Services are provided through professional culinary partners and chefs operating under the applicable food-safety requirements. Independent, licensed culinary partners cook. myCHEF organises the match, the standard and the backup.
+                Services are provided through professional culinary partners and chefs operating under the applicable food-safety requirements. A licensed supplier employs the chef, on a visa we have asked to see. myCHEF organises the match, the standard and the backup.
               </BodyCopy>
             </div>
             <div>
@@ -340,7 +341,7 @@ export default function Contact() {
                 From Palm Jumeirah and Emirates Hills to Downtown, Dubai Marina and private residences across the city.
               </BodyCopy>
               <ul className="grid sm:grid-cols-2 gap-3 mb-8">
-                {featuredLocations.map((loc) => (
+                {featuredLocations.filter((loc) => !isParked(locationPath(loc.slug))).map((loc) => (
                   <li key={loc.slug}>
                     <Link
                       to={locationPath(loc.slug)}

@@ -422,13 +422,13 @@ export default function OfficeCatering() {
               DIFC
             </Link>
             ,{' '}
-            <Link to="/locations/business-bay" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
+            
               Business Bay
-            </Link>{' '}
+            {' '}
             and{' '}
-            <Link to="/locations/downtown-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
+            
               Downtown Dubai
-            </Link>
+            
             .
           </>
         }

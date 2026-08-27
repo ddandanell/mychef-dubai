@@ -10,10 +10,10 @@ import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import { locationPath } from '@/data/locations'
+import { isParked } from '@/content/parkedUrls'
 import {
   Fish,
   ChefHat,
-  Utensils,
   Sparkles,
   Ship,
   Building,
@@ -47,12 +47,6 @@ const sushiFormats = [
     title: 'Live Sushi Chef Station',
     description: 'A dedicated sushi chef rolls, slices, and plates in front of your guests, bringing the theatre of an omakase counter into your villa or venue.',
     link: '/live-cooking-stations-dubai',
-  },
-  {
-    icon: Utensils,
-    title: 'Maki & Roll Selections',
-    description: 'Classic and signature maki, uramaki, and temaki — from delicate cucumber rolls to richly layered specialty rolls — cut and presented to order.',
-    link: '/asian-catering-dubai',
   },
   {
     icon: Sparkles,
@@ -132,6 +126,11 @@ const locations = [
   { name: 'Dubai Creek Harbour', slug: 'dubai-creek-harbour' },
 ]
 
+// Only areas whose page is live: an area whose page is parked is still served, it just
+// does not get a link to a page Google has been asked to forget.
+const liveLocations = locations.filter((l) => !isParked(locationPath(l.slug)))
+
+
 const faqs = [
   {
     q: 'Can you provide a live sushi chef at my event?',
@@ -164,22 +163,16 @@ const faqs = [
   { q: "Is your sushi prepared to Dubai food-safety standards?", a: "Yes. Our chefs and kitchens operate to Dubai Municipality food-safety standards, and raw fish for sushi and sashimi is handled and stored to the strict requirements Dubai sets for serving it. We manage the cold chain carefully so everything reaches your guests fresh and safe. Food safety is never something we cut corners on." },
   { q: "Is your sushi halal?", a: "Yes. We source halal by default, and fish is naturally permissible in Islam whether served raw or cooked, so our sashimi, nigiri, and rolls are suitable for halal guests. We prepare without alcohol-based ingredients unless you specifically request otherwise. Just let us know your requirements when we plan your menu." },
   { q: "Can you accommodate gluten-free, nut, and other allergies?", a: "Yes. We can prepare gluten-free sushi using tamari in place of regular soy, and we take nut, shellfish, and other allergies seriously with careful separation during preparation. Sashimi is naturally gluten-free, and we clearly flag which pieces suit which guests. Tell us about any dietary needs early so we can build them into the menu." },
-  { q: "Can you cater sushi alongside cooked dishes and other cuisines?", a: "Absolutely. Sushi works beautifully as one part of a wider spread, and we can pair it with tempura, teriyaki, hot Asian dishes, or a completely different cuisine at the same event. Many clients use a sushi station as a showpiece next to a fuller menu. Browse our [Asian catering](/asian-catering-dubai) options to see how it all comes together." },
+  { q: "Can you cater sushi alongside cooked dishes and other cuisines?", a: "Absolutely. Sushi works beautifully as one part of a wider spread, and we can pair it with tempura, teriyaki, hot Asian dishes, or a completely different cuisine at the same event. Many clients use a sushi station as a showpiece next to a fuller menu. Browse our Asian catering options to see how it all comes together." },
   { q: "Do you provide serving staff for sushi events?", a: "Serving staff are available as an optional addition, whether you want a sushi chef at a live station, waiters passing canapes, or a team to replenish and tend the display. For a plated sashimi centrepiece you may need very few hands, while a large reception benefits from a full team. We'll recommend the right staffing when we quote." },
   { q: "Which areas of Dubai do you cover for sushi catering?", a: "We cater sushi across Dubai, including Palm Jumeirah, Emirates Hills, Downtown, Dubai Marina, Dubai Hills, and the wider city, as well as villas, apartments, yachts, and event venues. Waterfront and outdoor settings are planned carefully so chilled sushi stays at its best. Wherever you're hosting, we bring the full set-up to you." },
   { q: "How do I get a quote and how quickly will you reply?", a: "Share your date, guest count, venue, and the sushi style you have in mind, and we'll come back with a tailored quote, typically within about 15 minutes during business hours. Prices are quoted per event and include our full service, with 5% VAT applied. You can [get in touch here](/contact) to start planning." },
   { q: "Can you build a live sushi station or omakase-style experience?", a: "Yes. Beyond platters, we can create a live sushi station where a chef slices and rolls in front of your guests, or a more intimate omakase-style progression for a seated dinner. It turns the food itself into part of the entertainment. Explore our [live cooking stations](/live-cooking-stations-dubai) to see the format in action." },
-  { q: "Can I taste the sushi before booking a large event?", a: "For larger events and weddings, a tasting can often be arranged so you can experience the fish quality and finalise your selections before the day. It's a good way to fine-tune the menu when the stakes and guest numbers are high. Ask us about a [tasting menu](/tasting-menu-dubai) when you enquire and we'll advise what's possible." },
+  { q: "Can I taste the sushi before booking a large event?", a: "For larger events and weddings, a tasting can often be arranged so you can experience the fish quality and finalise your selections before the day. It's a good way to fine-tune the menu when the stakes and guest numbers are high. Ask us about a tasting menu when you enquire and we'll advise what's possible." },
   { q: "Should I choose a sushi station over restaurant delivery or takeaway?", a: "A live sushi station or freshly prepared platters give you restaurant-level quality at your own venue, with fish sliced on-site rather than sitting in a delivery box. You get the freshness, presentation, and theatre of a sushi counter without leaving your event. It's the difference between catering built for the occasion and food that simply arrives." },
 ]
 
 const relatedServices = [
-  {
-    title: 'Asian Catering',
-    description: 'Pan-Asian menus spanning Japanese, Thai, and beyond for events of every size.',
-    image: '/menu-appetizer.webp',
-    link: '/asian-catering-dubai',
-  },
   {
     title: 'Pescatarian Catering',
     description: 'Seafood-focused menus with responsibly sourced fish and plant-based accompaniments.',
@@ -359,7 +352,7 @@ export default function SushiCatering() {
             Sushi catering Dubai price and sushi catering cost per person Dubai depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Sushi catering packages Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. If you are weighing up best sushi catering Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. The sushi catering menu Dubai is drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Halal sushi catering Dubai is planned into the first draft of the menu rather than bolted on at the end. Sushi chef at home Dubai is run at the address you give us: we bring the equipment, cook on site and leave the space as we found it.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Whether you are hosting an intimate villa dinner, a cocktail reception, a yacht charter on the marina, or a polished corporate lunch, our chefs can build the experience around you — from a styled sashimi centrepiece to a live sushi chef rolling in front of your guests. Explore the formats below, see how sushi fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>, or browse our <Link to="/cuisines-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">pescatarian catering</Link> and <Link to="/asian-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">Asian catering</Link> menus.
+            Whether you are hosting an intimate villa dinner, a cocktail reception, a yacht charter on the marina, or a polished corporate lunch, our chefs can build the experience around you — from a styled sashimi centrepiece to a live sushi chef rolling in front of your guests. Explore the formats below, see how sushi fits within our wider <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">luxury catering in Dubai</Link>, or browse our <Link to="/cuisines-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">pescatarian catering</Link> and Asian catering menus.
           </p>
         </div>
       </section>
@@ -480,7 +473,7 @@ export default function SushiCatering() {
           </h2>
 
           <div className="sush-loc-grid grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
-            {locations.map((loc) => (
+            {liveLocations.map((loc) => (
               <Link
                 key={loc.slug}
                 to={locationPath(loc.slug)}

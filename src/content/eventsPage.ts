@@ -351,7 +351,7 @@ export const eventFaqs = [
   },
   {
     q: 'How much does event catering cost in Dubai?',
-    a: 'Drop-off food starts from AED 90 per person. A standard event buffet starts from AED 120 per person. Premium buffet, BBQ, live stations and canapés start from AED 150. Chef-led plated dining is typically AED 700–950 per person. Guest count, menu, staffing, venue and 5% VAT move the total. Every proposal is itemised. See [event catering packages](/catering-packages-dubai), the [catering prices guide](/dubai-catering-prices-guide) or the [event catering price guide 2026](/dubai-event-catering-price-guide-2026).',
+    a: 'Drop-off food starts from AED 90 per person. A standard event buffet starts from AED 120 per person. Premium buffet, BBQ, live stations and canapés start from AED 150. Chef-led plated dining is typically AED 700–950 per person. Guest count, menu, staffing, venue and 5% VAT move the total. Every proposal is itemised. See [event catering packages](/catering-packages-dubai), the [catering prices guide](/dubai-catering-prices-guide) or the event catering price guide 2026.',
   },
   {
     q: 'What is the lowest-cost format?',

@@ -173,9 +173,7 @@ export const venuePathways = [
 
 export const jetPathway = {
   title: 'Private Jets',
-  body: 'A much more focused service. Tell us the flight, passenger count, timing, food preferences and dietary requirements. We prepare and coordinate the food around the journey.',
-  href: CATERING_PATHS.privateJet,
-  linkLabel: 'Private Jet Catering',
+  body: 'A much more focused service. Tell us the flight, passenger count, timing, food preferences and dietary requirements. We prepare and coordinate the food around the journey — ask for it in the brief.',
 } as const
 
 export const officePathway = {
@@ -280,7 +278,6 @@ export const unsureLinks = [
   { prompt: 'I am planning a birthday or celebration', href: CATERING_PATHS.birthdays, label: 'Birthday catering in Dubai' },
   { prompt: 'I am hosting at a villa', href: CATERING_PATHS.villas, label: 'Villa catering in Dubai' },
   { prompt: 'I am hosting on a yacht', href: CATERING_PATHS.yachts, label: 'Yacht catering in Dubai' },
-  { prompt: 'I need food for a private jet', href: CATERING_PATHS.privateJet, label: 'Private jet catering' },
   { prompt: 'I only need food delivered', href: CATERING_PATHS.dropOff, label: 'Food delivery and drop-off catering' },
   { prompt: 'I am comparing caterers first', href: '/best-catering-companies-dubai', label: 'Compare catering companies in Dubai on published prices' },
   { prompt: 'I need help with most of the event', href: CATERING_INQUIRY_HREF, label: 'Get a tailored catering quote' },
@@ -438,7 +435,7 @@ export const cateringFaqs = [
   },
   {
     q: 'Do you provide grazing tables, live stations, gala dinners and waiters?',
-    a: 'All four, as layers on the same booking. [Grazing tables](/grazing-table-dubai) and [live cooking stations](/live-cooking-stations-dubai) suit standing events; a [gala dinner](/gala-dinner-catering-dubai) is plated with a full service team; waiters, hosts and bartenders are added by guest count. Tell us the format and we size the team — you never pay for staff the format does not need.',
+    a: 'All four, as layers on the same booking. [Grazing tables](/grazing-table-dubai) and [live cooking stations](/live-cooking-stations-dubai) suit standing events; a gala dinner is plated with a full service team; waiters, hosts and bartenders are added by guest count. Tell us the format and we size the team — you never pay for staff the format does not need.',
   },
   {
     q: 'How do I compare catering companies in Dubai?',

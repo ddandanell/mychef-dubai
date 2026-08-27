@@ -22,6 +22,7 @@ import {
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { CATERING_INQUIRY_HREF, CATERING_PATHS } from '@/content/cateringCluster'
 import { locationPath } from '@/data/locations'
+import { isParked } from '@/content/parkedUrls'
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE =
@@ -104,14 +105,6 @@ const cuisineKitchens = [
     imageAlt: 'Italian pasta service at a Dubai table. Experience concept shown.',
   },
   {
-    href: '/asian-catering-dubai',
-    title: 'Asian catering',
-    body: 'Thai, Chinese and pan-Asian plates run as named kitchens — not one “Asian” dish.',
-    linkLabel: 'Asian catering',
-    image: '/images/asian-catering-dubai-hero.webp',
-    imageAlt: 'Asian tasting plates prepared for a Dubai event. Experience concept shown.',
-  },
-  {
     href: '/mediterranean-catering-dubai',
     title: 'Mediterranean catering',
     body: 'Vegetable-forward sharing, grilled fish and olive-oil cooking for heat and mixed tables.',
@@ -133,7 +126,6 @@ const dietaryRoutes = [
   { href: '/vegan-catering-dubai', label: 'Vegan catering' },
   { href: '/vegetarian-catering-dubai', label: 'Vegetarian catering' },
   { href: '/allergy-safe-catering-dubai', label: 'Gluten free catering' },
-  { href: '/jain-catering-dubai', label: 'Jain catering' },
 ] as const
 
 const locations = [
@@ -141,6 +133,10 @@ const locations = [
   { name: 'Dubai Marina', slug: 'dubai-marina' },
   { name: 'Downtown Dubai', slug: 'downtown-dubai' },
 ] as const
+
+// Only areas whose page is live: an area whose page is parked is still served, it just
+// does not get a link to a page Google has been asked to forget.
+const liveLocations = locations.filter((l) => !isParked(locationPath(l.slug)))
 
 const startSteps = [
   'Tell us the date, venue, guest count and which kitchens the table needs.',
@@ -164,7 +160,7 @@ const faqs = [
   },
   {
     q: 'Do you guarantee a named chef for a cuisine?',
-    a: 'No. Italian menus are often matched to Marco Rossi and Arabic menus to Layla Hassan, but a named chef is confirmed only after the brief, the date and availability. Independent licensed partners cook. You are not putting a chef on your payroll.',
+    a: 'No. Italian menus are often matched to Marco Rossi and Arabic menus to Layla Hassan, but a named chef is confirmed only after the brief, the date and availability. A licensed supplier employs the chef, on a visa we have asked to see. You are not putting a chef on your payroll.',
   },
 ]
 
@@ -442,7 +438,7 @@ export default function Cuisines() {
             Quoted to the villa, apartment or yacht — not a restaurant you travel to.
           </BodyCopy>
           <ul className="flex flex-wrap gap-3">
-            {locations.map((loc) => (
+            {liveLocations.map((loc) => (
               <li key={loc.slug}>
                 <Link
                   to={locationPath(loc.slug)}

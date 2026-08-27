@@ -36,9 +36,9 @@ const config: OccasionPageConfig = {
           nut-free catering Dubai
         </Link>{' '}
         options for school-age guests, or view our{' '}
-        <Link to="/birthday-catering-package-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
+        
           Birthday Celebration package
-        </Link>{' '}
+        {' '}
         and{' '}
         <Link to="/catering-packages-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           catering packages
