@@ -13,6 +13,7 @@ python3 docs/seo/keyword-map/build-status.py >/dev/null || true
 echo "== proposals"; python3 docs/seo/keyword-map/build-proposals.py || true
 echo "== experiments"; python3 docs/seo/keyword-map/close-experiments.py || true
 python3 docs/seo/keyword-map/build-experiments.py >/dev/null || true
+echo "== rules"; python3 docs/seo/keyword-map/build-rules.py --quick || true
 echo "== control"; python3 docs/seo/keyword-map/build-control.py || true
 python3 docs/seo/keyword-map/heartbeat.py --kind daily --mode live --phase idle || true
 docs/seo/keyword-map/publish.sh

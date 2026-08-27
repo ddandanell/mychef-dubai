@@ -12,6 +12,7 @@ import AnalystPage from "@/seo-os/pages/AnalystPage"
 import AskPage from "@/seo-os/pages/AskPage"
 import BoardPage from "@/seo-os/pages/BoardPage"
 import ControlPage from "@/seo-os/pages/ControlPage"
+import RulesPage from "@/seo-os/pages/RulesPage"
 import ExperimentsPage from "@/seo-os/pages/ExperimentsPage"
 import QueuePage from "@/seo-os/pages/QueuePage"
 import StatusPage from "@/seo-os/pages/StatusPage"
@@ -68,6 +69,7 @@ export default function SeoOs() {
           <Route path="control" element={<ControlPage />} />
           <Route path="experiments" element={<ExperimentsPage />} />
           <Route path="status" element={<StatusPage />} />
+                <Route path="rules" element={<RulesPage />} />
           <Route path="keywords" element={<CatalogPage id="keywords" />} />
           <Route path="demand" element={<CatalogPage id="demand" />} />
           <Route path="research" element={<CatalogPage id="research" />} />

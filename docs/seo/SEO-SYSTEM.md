@@ -361,6 +361,18 @@ are specified and not built. The queue is populated and read-only until they are
 
 ---
 
+## 14. The rules, live
+
+`build-rules.py` writes `rules.json` and the board renders it at **/seo/rules**: fifteen rules,
+each with the reason it exists, where it is enforced, and whether it holds right now. Six are
+gated — the gate's own exit code is the status and its last line is the evidence — and the rest
+are carried by the tooling with their current numbers beside them.
+
+A rule whose reason is forgotten is the next rule somebody deletes, so every card says what
+went wrong to create it.
+
+---
+
 ## 14. The hero rule
 
 **A hero sells. It does not carry coverage copy.**

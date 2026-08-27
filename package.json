@@ -23,7 +23,8 @@
     "seo:control": "python3 docs/seo/keyword-map/build-control.py",
     "seo:heartbeat": "python3 docs/seo/keyword-map/heartbeat.py --show",
     "verify:api": "python3 scripts/verify-api-functions.py",
-    "verify:hero": "python3 scripts/verify-hero.py"
+    "verify:hero": "python3 scripts/verify-hero.py",
+    "seo:rules": "python3 docs/seo/keyword-map/build-rules.py"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",

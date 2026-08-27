@@ -1,0 +1,152 @@
+{
+ "generated": "2026-08-27 10:44",
+ "intro": "Every rule here exists because something went wrong once. A rule with a gate is checked on every run and fails the build when it breaks; a rule without one is written down and carried by the tooling, with the numbers beside it.",
+ "tiles": [
+  {
+   "value": "15",
+   "label": "Rules"
+  },
+  {
+   "value": "6",
+   "label": "Enforced by a gate"
+  },
+  {
+   "value": "6",
+   "label": "Holding right now"
+  },
+  {
+   "value": "0",
+   "label": "Broken right now"
+  }
+ ],
+ "rules": [
+  {
+   "id": "one-contract",
+   "rule": "One contract decides which keyword each URL owns. Nothing else may decide it.",
+   "why": "Two pages targeting one phrase is the cheapest way to lose both. The contract is the only place ownership is written, and a verifier fails the build if it contradicts itself.",
+   "where": "docs/seo/myCHEF-AE-SEO-STANDARD.json",
+   "status": "holds",
+   "evidence": "SEO contract OK — 216 URLs, 163 unique primaries, 0 collisions.",
+   "command": "python3 scripts/verify-seo-contract.py"
+  },
+  {
+   "id": "locks-in-code",
+   "rule": "Every page file carries its own keyword lock, generated from the contract.",
+   "why": "A page and the contract drifting apart is invisible until a rewrite quietly re-targets a page. The lock header makes the intent readable where the copy is edited.",
+   "where": "src/**/*.tsx headers · src/content/keywordLocks.ts",
+   "status": "holds",
+   "evidence": "keyword locks OK — 153 page files + 179 module entries match the contract",
+   "command": "python3 scripts/verify-keyword-locks.py"
+  },
+  {
+   "id": "hero-sells",
+   "rule": "A hero sells. Keyword and coverage copy go below the fold — 90 words of hero prose, 140 for an article header.",
+   "why": "The body-sentence optimizer chose the first prose paragraph, which on most templates is the hero subtitle. /bbq-catering-dubai reached 245 words above the fold.",
+   "where": "optimize-page.py hero_end() · move-hero-copy.py",
+   "needs_build": true,
+   "status": "holds",
+   "evidence": "hero copy OK — 185 pages, median 36 words of hero prose, none over budget",
+   "command": "python3 scripts/verify-hero.py"
+  },
+  {
+   "id": "subs-in-sentences",
+   "rule": "Subkeywords live in sentences. Never in a title, an H1 or a heading.",
+   "why": "One FAQ per subkeyword put phrases into h3s and pushed pages to 26 FAQs. The contract's own rule is sentences only; the optimizer enforces it and the map counts violations.",
+   "where": "optimize-page.py · the map's sub_violations column",
+   "status": "no gate",
+   "evidence": "3 heading collision(s): another page's primary used in a heading here"
+  },
+  {
+   "id": "faq-cap",
+   "rule": "A page carries 5–8 FAQs. The optimizer adds none to a page already at the cap.",
+   "why": "An earlier pass added one FAQ per missing phrase: 24–26 per page, with answers repeated word for word across the site.",
+   "where": "optimize-page.py FAQ_CAP · docs/seo/CONSOLIDATION-PLAN.md",
+   "status": "no gate",
+   "evidence": "the optimizer adds none above the cap; pages already over it are an owner decision"
+  },
+  {
+   "id": "no-junk-phrases",
+   "rule": "Never write a phrase from the unplaceable list into copy — meal-kit brands, non-UAE cities, foreign regulators, other people's conferences.",
+   "why": "The harvested keyword pool carries them, and 'Green chef offers gift cards' reached the working tree before it was caught.",
+   "where": "optimize-page.py UNPLACEABLE · fill-subkeywords.py filters",
+   "status": "no gate",
+   "evidence": "81 phrases removed from the contract and blocked in the filler"
+  },
+  {
+   "id": "measured-demand",
+   "rule": "A primary keyword needs measured UAE demand. Zero-volume phrases are fine as subkeywords, never as a page's target.",
+   "why": "A page aimed at demand that does not exist has nothing to win, however well it is written.",
+   "where": "the keyword file's next action · Control's demand debt",
+   "status": "no gate",
+   "evidence": "127 of 163 primaries have no measured UAE volume"
+  },
+  {
+   "id": "self-contained-functions",
+   "rule": "A Vercel function in api/ imports packages only. No relative imports, ever.",
+   "why": "Every file in api/ is compiled as its own function; a relative import is not resolved at runtime. The build passes and the endpoint returns 500. It happened twice in one day: /api/e and /api/seo-login.",
+   "where": "scripts/verify-api-functions.py · .claude hookify rule",
+   "status": "holds",
+   "evidence": "api functions OK — 4 self-contained (ask.ts, e.ts, seo-login.ts, submit-lead.ts)",
+   "command": "python3 scripts/verify-api-functions.py"
+  },
+  {
+   "id": "retirements-agree",
+   "rule": "A retired URL redirects, leaves the sitemap, loses its internal links, and says so in the contract. All four signals or none.",
+   "why": "A half-retired URL keeps collecting links and splitting authority with its replacement.",
+   "where": "scripts/verify-retirements.py",
+   "status": "holds",
+   "evidence": "Retirements OK — 71 redirects, all four signals agree.",
+   "command": "python3 scripts/verify-retirements.py"
+  },
+  {
+   "id": "on-page-basics",
+   "rule": "Title under 65 characters, description in range, one H1, canonical present, primary in the title and the H1.",
+   "why": "The unglamorous half of on-page SEO, and the half that silently rots during a redesign.",
+   "where": "scripts/audit-onpage.py",
+   "needs_build": true,
+   "status": "holds",
+   "evidence": "full report -> /Users/openclaw/Documents/GitHub/mychef-dubai/docs/seo/onpage-audit.txt",
+   "command": "python3 scripts/audit-onpage.py"
+  },
+  {
+   "id": "measure-the-build",
+   "rule": "Scores come from the built HTML, never from intent. Rebuild and re-snapshot before judging whether a change landed.",
+   "why": "A score that moved without a rebuild is measuring the previous build.",
+   "where": "build-keyword-map.py --dist · run-loop.sh",
+   "status": "no gate",
+   "evidence": ""
+  },
+  {
+   "id": "experiment-every-apply",
+   "rule": "Every applied change opens an experiment with a window and a verdict. A drop opens a watch proposal — never an automatic revert.",
+   "why": "1,615 edits had been made with no baseline, so none of them could be judged.",
+   "where": "backfill-experiments.py · close-experiments.py",
+   "status": "no gate",
+   "evidence": "58 experiment(s) recorded"
+  },
+  {
+   "id": "nothing-auto-applies",
+   "rule": "Nothing writes to the site without a person. The queue proposes; a human accepts.",
+   "why": "The optimizer can edit 155 pages in a minute. That is exactly why it does not get to decide.",
+   "where": "build-proposals.py never calls the optimizer · apply-safe.py is not built",
+   "status": "no gate",
+   "evidence": "15 proposal(s) waiting for a decision"
+  },
+  {
+   "id": "push-is-release",
+   "rule": "A push to main is a release. Run every gate before pushing, never after.",
+   "why": "Vercel's Git integration deploys production on every push to main.",
+   "where": "run-loop.sh gate block",
+   "status": "no gate",
+   "evidence": ""
+  },
+  {
+   "id": "credentials-outside",
+   "rule": "Credentials live in ~/.config/claude-seo and Vercel environment variables. Never in the repo.",
+   "why": "A key in a commit is a key that has to be rotated.",
+   "where": "~/.config/claude-seo (mode 600) · Vercel project env",
+   "status": "no gate",
+   "evidence": ""
+  }
+ ]
+}
