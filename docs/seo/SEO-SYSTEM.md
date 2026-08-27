@@ -361,7 +361,7 @@ are specified and not built. The queue is populated and read-only until they are
 
 ---
 
-## 14. The rules, live
+## 15. The rules, live
 
 `build-rules.py` writes `rules.json` and the board renders it at **/seo/rules**: fifteen rules,
 each with the reason it exists, where it is enforced, and whether it holds right now. Six are
@@ -373,7 +373,7 @@ went wrong to create it.
 
 ---
 
-## 14. The hero rule
+## 16. The hero rule
 
 **A hero sells. It does not carry coverage copy.**
 
@@ -401,7 +401,7 @@ written next to it — agreed once, not argued every run.
 
 ---
 
-## 14. Conventions
+## 17. Conventions
 
 - **Never commit a credential.** `~/.config/claude-seo/` and Vercel environment variables only.
 - **The contract wins.** Change a keyword there, run `npm run seo:locks`, never edit a lock header.

@@ -1,4 +1,4 @@
-import type { ReactNode } from "react"
+import { useEffect, useState, type ReactNode } from "react"
 import { Link } from "react-router"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
@@ -24,6 +24,7 @@ import {
   type SubKeyword,
 } from "@/seo-os/lib/board-model"
 import { fmtNum, stringifyCell } from "@/seo-os/lib/format"
+import { useKeywordIndex, type KeywordRow } from "@/seo-os/lib/keyword-index"
 
 function Section({ title, children }: { title: string; children: ReactNode }) {
   return (
@@ -43,7 +44,7 @@ function Metric({ label, value }: { label: string; value: string }) {
   )
 }
 
-function PageInspector({ row }: { row: BoardPageRow }) {
+function PageInspector({ row, onOpenKeyword }: { row: BoardPageRow; onOpenKeyword?: (kw: string) => void }) {
   const subs = row.subs ?? []
   const found = subs.filter(subOnPage).length
   const score = primaryScore(row)
@@ -96,6 +97,7 @@ function PageInspector({ row }: { row: BoardPageRow }) {
                 volume={row.primary_volume}
                 place={row.primary_place}
                 note={headings.length ? `${headings.length} other headings · ${bodyMentions(row)} bodies` : undefined}
+                onOpen={onOpenKeyword}
               />
             ) : null}
             {subs.map((sub) => (
@@ -112,7 +114,8 @@ function PageInspector({ row }: { row: BoardPageRow }) {
                       ? `${sub.other_pages} other page${sub.other_pages === 1 ? "" : "s"}`
                       : undefined
                 }
-              />
+                onOpen={onOpenKeyword}
+                />
             ))}
             {!row.primary && !subs.length ? <p className="text-muted-foreground text-sm">Nothing assigned.</p> : null}
           </div>
@@ -187,15 +190,21 @@ function KeywordLine({
   volume,
   place,
   note,
+  onOpen,
 }: {
   name: string
   role: string
   volume?: number | null
   place?: SubKeyword["place"]
   note?: string
+  onOpen?: (kw: string) => void
 }) {
+  const Wrapper = onOpen ? "button" : "div"
   return (
-    <div className="flex flex-col gap-2 rounded-lg border p-3">
+    <Wrapper
+      {...(onOpen ? { type: "button" as const, onClick: () => onOpen(name) } : {})}
+      className={`flex flex-col gap-2 rounded-lg border p-3 text-left${onOpen ? " hover:bg-muted/60" : ""}`}
+    >
       <div className="flex items-start justify-between gap-3">
         <div className="min-w-0">
           <p className="font-medium">{name}</p>
@@ -207,7 +216,7 @@ function KeywordLine({
         </div>
       </div>
       <PlacementMarks place={place} size="sm" />
-    </div>
+    </Wrapper>
   )
 }
 
@@ -264,45 +273,155 @@ function ProposalInspector({ row }: { row: Record<string, unknown> }) {
   )
 }
 
-function KeywordInspector({ row }: { row: Record<string, unknown> }) {
+function Marks({ row }: { row: Record<string, unknown> }) {
   const marks = [
     ["Title", row.title_coverage],
     ["Meta", row.meta_coverage],
     ["H1", row.h1_coverage],
     ["H2", row.h2_coverage],
-    ["Body", row.body_coverage],
+    ["Body", Number(row.body_coverage ?? 0) > 0],
     ["FAQ", row.faq_coverage],
-    ["Anchor", row.internal_anchor_coverage],
+    ["Anchor", row.internal_anchor_coverage === "exact"],
   ] as const
+  return (
+    <div className="flex flex-wrap gap-1.5">
+      {marks.map(([label, on]) => (
+        <Badge key={label} variant={on ? "default" : "outline"}>
+          {label}
+        </Badge>
+      ))}
+    </div>
+  )
+}
+
+/**
+ * A keyword is a place you can navigate to, not a row you glance at: where it lives, what sits
+ * beside it on that page, what Google does with it, and whether Google agrees about the owner.
+ * Clicking a sibling moves the inspector to that phrase without closing it.
+ */
+function KeywordInspector({ row, onOpenKeyword }: { row: Record<string, unknown>; onOpenKeyword?: (kw: string) => void }) {
+  const index = useKeywordIndex()
+  const name = String(row.keyword || "Keyword")
+  const owner = String(row.primary_owning_url || "—")
+  const family = index.family(name)
+  const rankingUrl = row.gsc_ranking_url ? String(row.gsc_ranking_url) : null
+  const elsewhere = rankingUrl && rankingUrl !== owner
+  const share = row.demand_share != null ? `${Math.round(Number(row.demand_share) * 100)}%` : null
+  const supporting = Array.isArray(row.secondary_supporting_urls) ? (row.secondary_supporting_urls as string[]) : []
+
   return (
     <>
       <SheetHeader className="border-b px-6 py-5 text-left">
-        <SheetTitle className="text-xl leading-snug">{String(row.keyword || "Keyword")}</SheetTitle>
-        <SheetDescription>Coverage and the next action on the owner URL.</SheetDescription>
+        <SheetTitle className="text-xl leading-snug">{name}</SheetTitle>
+        <SheetDescription>Where it lives, what it sits beside, and what Google does with it.</SheetDescription>
         <div className="flex flex-wrap items-center gap-2">
           <StatusPill value={row.role} />
-          <span className="text-muted-foreground font-mono text-xs">{String(row.primary_owning_url || "—")}</span>
+          {row.intent ? <StatusPill value={row.intent} /> : null}
+          <span className="text-muted-foreground font-mono text-xs">{owner}</span>
         </div>
       </SheetHeader>
+
       <div className="grid grid-cols-4 gap-3 border-b px-6 py-4">
         <Metric label="Volume" value={fmtNum(row.search_volume)} />
-        <Metric label="Score" value={fmtNum(row.optimization_score)} />
-        <Metric label="Impr" value={fmtNum(row.gsc_impressions)} />
+        <Metric label="Score" value={`${fmtNum(row.optimization_score)}/10`} />
+        <Metric label="Impressions" value={fmtNum(row.gsc_impressions)} />
         <Metric label="Position" value={fmtNum(row.current_position ?? row.gsc_position)} />
       </div>
+
       <div className="min-h-0 flex-1 overflow-y-auto">
         <Section title="On the owner page">
-          <div className="flex flex-wrap gap-1.5">
-            {marks.map(([label, on]) => (
-              <Badge key={label} variant={on ? "default" : "outline"}>
-                {label}
-              </Badge>
-            ))}
-          </div>
+          <Marks row={row} />
+          <p className="text-muted-foreground text-xs">
+            Measured in the built HTML. Body mentions: {fmtNum(row.body_coverage)}.
+          </p>
         </Section>
         <Separator />
+
+        <Section title="What Google does with it">
+          {row.gsc_impressions ? (
+            <div className="flex flex-col gap-2 text-sm">
+              <p>
+                {fmtNum(row.gsc_impressions)} impressions and {fmtNum(row.gsc_clicks)} clicks over 90 days, average
+                position {fmtNum(row.gsc_position)}
+                {share ? `, which is ${share} of the measured monthly demand` : ""}.
+              </p>
+              {elsewhere ? (
+                <p className="rounded-md border border-amber-300 bg-amber-50 p-2 text-xs text-amber-900">
+                  Google ranks <span className="font-mono">{rankingUrl}</span> for this phrase, not the assigned owner.
+                  Either move the keyword or move the content.
+                </p>
+              ) : null}
+            </div>
+          ) : (
+            <p className="text-muted-foreground text-sm">
+              Google has never shown a myCHEF page for this phrase. Locked and placed is not the same as proven.
+            </p>
+          )}
+        </Section>
+        <Separator />
+
+        <Section title={`The rest of ${owner}`}>
+          {family.length ? (
+            <div className="flex flex-col gap-1.5">
+              {family.map((sib: KeywordRow) => (
+                <button
+                  key={sib.keyword}
+                  type="button"
+                  onClick={() => onOpenKeyword?.(sib.keyword)}
+                  className="hover:bg-muted/60 flex items-center justify-between gap-3 rounded-md border px-3 py-2 text-left"
+                >
+                  <span className="min-w-0">
+                    <span className="block truncate text-sm">{sib.keyword}</span>
+                    <span className="text-muted-foreground text-xs">
+                      {sib.role}
+                      {sib.search_volume ? ` · ${fmtNum(sib.search_volume)}/mo` : " · no measured volume"}
+                      {sib.gsc_impressions ? ` · ${fmtNum(sib.gsc_impressions)} impr` : ""}
+                    </span>
+                  </span>
+                  <span className="text-muted-foreground shrink-0 text-xs tabular-nums">
+                    {fmtNum(sib.optimization_score)}/10
+                  </span>
+                </button>
+              ))}
+            </div>
+          ) : (
+            <p className="text-muted-foreground text-sm">Nothing else is assigned to this page.</p>
+          )}
+        </Section>
+        <Separator />
+
+        {supporting.length || row.cannibalisation_risk ? (
+          <>
+            <Section title="Elsewhere on the site">
+              {row.cannibalisation_risk && row.cannibalisation_risk !== "none" ? (
+                <p className="text-sm">Cannibalisation risk: {String(row.cannibalisation_risk)}</p>
+              ) : null}
+              {supporting.length ? (
+                <div className="flex flex-wrap gap-1.5">
+                  {supporting.slice(0, 8).map((u) => (
+                    <Badge key={u} variant="outline" className="font-mono text-[11px]">
+                      {u}
+                    </Badge>
+                  ))}
+                </div>
+              ) : null}
+            </Section>
+            <Separator />
+          </>
+        ) : null}
+
         <Section title="Next action">
           <p className="text-sm leading-relaxed">{String(row.next_action || "—")}</p>
+          <div className="flex flex-wrap gap-2 pt-1">
+            <Button asChild size="sm" variant="outline">
+              <Link to="/seo">Open the board</Link>
+            </Button>
+            <Button asChild size="sm" variant="outline">
+              <a href={`https://www.mychef.ae${owner}`} target="_blank" rel="noopener">
+                View the live page
+              </a>
+            </Button>
+          </div>
         </Section>
       </div>
     </>
@@ -336,10 +455,12 @@ function FallbackInspector({ row }: { row: Record<string, unknown> }) {
   )
 }
 
-function panelFor(row: Record<string, unknown>) {
-  if (row.primary_place || Array.isArray(row.subs)) return <PageInspector row={row as BoardPageRow} />
+function panelFor(row: Record<string, unknown>, onOpenKeyword: (kw: string) => void) {
+  if (row.primary_place || Array.isArray(row.subs)) return <PageInspector row={row as BoardPageRow} onOpenKeyword={onOpenKeyword} />
   if (row.impact != null && row.autonomy) return <ProposalInspector row={row} />
-  if (row.keyword && (row.primary_owning_url || row.optimization_score != null)) return <KeywordInspector row={row} />
+  if (row.keyword && (row.primary_owning_url || row.optimization_score != null)) {
+    return <KeywordInspector row={row} onOpenKeyword={onOpenKeyword} />
+  }
   return <FallbackInspector row={row} />
 }
 
@@ -350,13 +471,36 @@ export function RecordInspector({
   row: Record<string, unknown> | null
   onClose: () => void
 }) {
+  const index = useKeywordIndex()
+  // Drilling from a page into one of its keywords, and from there into a sibling, should not
+  // close the panel and lose the place you came from.
+  const [trail, setTrail] = useState<Record<string, unknown>[]>([])
+  useEffect(() => setTrail([]), [row])
+
+  const current = trail.length ? trail[trail.length - 1] : row
+  const openKeyword = (keyword: string) => {
+    const found = index.byKeyword.get(keyword.trim().toLowerCase())
+    if (found) setTrail((t) => [...t, found as unknown as Record<string, unknown>])
+  }
+
   return (
     <Sheet open={Boolean(row)} onOpenChange={(open) => !open && onClose()}>
       <SheetContent
         side="right"
         className="flex w-full flex-col gap-0 overflow-hidden p-0 sm:max-w-xl lg:max-w-2xl"
       >
-        {row ? panelFor(row) : null}
+        {trail.length ? (
+          <div className="flex items-center gap-2 border-b px-4 py-2">
+            <Button size="sm" variant="ghost" onClick={() => setTrail((t) => t.slice(0, -1))}>
+              ← Back
+            </Button>
+            <span className="text-muted-foreground truncate text-xs">
+              {String((row as Record<string, unknown>)?.url || (row as Record<string, unknown>)?.keyword || "")}
+              {trail.slice(0, -1).map((step) => ` › ${String(step.keyword || step.url || "")}`).join("")}
+            </span>
+          </div>
+        ) : null}
+        {current ? panelFor(current, openKeyword) : null}
       </SheetContent>
     </Sheet>
   )
