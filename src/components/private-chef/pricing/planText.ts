@@ -11,7 +11,6 @@ export function planText(input: QuoteInput, q: Quote, lead?: { name?: string; ar
     q.shortStay ? `Duration: Short stay, ${input.stayDays} chef days` : `Duration: Long term, ${length}`,
     q.shortStay ? '' : `Frequency: ${input.daysPerWeek} day${input.daysPerWeek > 1 ? 's' : ''}/week (approx. ${q.servicesPerMonth} services/month)`,
     `Service: ${q.service.name} · ${q.hoursPerService}h/service${q.service.asksMeal ? ` · ${input.meal}` : ''}`,
-    `Chef: ${q.chef.name}`,
     `Household: ${input.guests} people · ${q.customStaffing ? 'custom staffing review' : q.assistants ? `${q.assistants} assistant(s)` : 'no assistant'}`,
     `Groceries: ${q.groceryManaged ? 'managed by myCHEF' : 'managed by client'} · charged at actual cost`,
     q.tier ? `Rate: ${q.tier.name}` : 'Rate: short-stay',

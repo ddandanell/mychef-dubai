@@ -16,7 +16,6 @@ import {
   Leaf,
   MapPin,
   Clock,
-  Wine,
   Phone,
   ArrowRight,
   Check,
@@ -30,6 +29,16 @@ import FaqAccordion from '../components/FaqAccordion'
 import PriceCalculator from '../components/private-chef/pricing/PriceCalculator'
 import PlanTermsDigest from '../components/private-chef/pricing/PlanTermsDigest'
 import { SERVICES } from '../content/privateChefPricing'
+import {
+  CANCEL_NOTICE_HOURS,
+  EMPLOYMENT,
+  HOUSEHOLD_JOBS,
+  MONTH_EXAMPLE,
+  MONTH_SENTENCE,
+  OVERTIME_RULE,
+  QUALITY_LEVELS,
+  THE_LINE,
+} from '../content/privateChefStandard'
 import { CLUSTER_PATHS } from '../content/privateChefCluster'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { deferNonCritical } from '../lib/deferNonCritical'
@@ -40,73 +49,57 @@ const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like a private chef quote for my event (via mychef.ae/private-chef-prices-dubai)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
-const priceTable = [
-  { guests: '2 guests', perPerson: 'AED 950 – 1,300', total: 'AED 1,900 – 2,600', note: 'Intimate dinner; chef + service staff' },
-  { guests: '4 guests', perPerson: 'AED 800 – 1,100', total: 'AED 3,200 – 4,400', note: 'Small celebration; multi-course menu' },
-  { guests: '6 guests', perPerson: 'AED 750 – 1,000', total: 'AED 4,500 – 6,000', note: 'Family-style or plated dinner' },
-  { guests: '10 guests', perPerson: 'AED 700 – 950', total: 'AED 7,000 – 9,500', note: 'Dinner party; scaled service team' },
-  { guests: '20+ guests', perPerson: 'AED 600+', total: 'AED 12,000+', note: 'Larger villa or event format' },
-]
+/**
+ * This URL is the household price. One night — a dinner party, a birthday, a villa full of
+ * guests — is catering, and its per-person table lives on /catering-dubai. Selling both here
+ * taught the client, the supplier and the cook three different products on one page.
+ */
+const jobTable = HOUSEHOLD_JOBS.map((job) => ({
+  name: job.name,
+  hours: `${job.hours} hours`,
+  price: `AED ${job.rate.toLocaleString('en-AE')}`,
+  unit: job.unit === 'day' ? 'a day' : 'a visit',
+  what: job.tagline,
+}))
 
 const includedItems = [
-  'Menu consultation and bespoke menu design',
-  'Grocery shopping and premium ingredient sourcing',
-  'Private chef cooking at your venue',
-  'Service staff for preparation, plating, and clear-down',
-  'Kitchen clean-up after the meal',
+  'The same chef, matched to how this house eats and cooks',
+  'The Food Profile — what is loved, refused, allergic, and how the kitchen is left',
+  'Backup when your chef is off, briefed from that profile before they arrive',
+  'The review after service, and a new match if the fit is wrong',
+  'Kitchen handed back the way it was found, every visit',
 ]
 
 const costFactors = [
   {
-    icon: Users,
-    title: 'Group Size',
-    description: 'Smaller dinners have a higher per-person rate because chef and staff time are shared among fewer guests. Larger groups benefit from economies of scale.',
-  },
-  {
     icon: UtensilsCrossed,
-    title: 'Menu Complexity',
-    description: 'A three-course bistro menu costs less than a six-course tasting menu with wine pairings, live cooking, or intricate plating.',
-  },
-  {
-    icon: Leaf,
-    title: 'Ingredients & Cuisine',
-    description: 'Premium proteins, truffles, imported specialties, and seasonal produce raise the cost. Simple, seasonal menus are often more cost-efficient.',
-  },
-  {
-    icon: MapPin,
-    title: 'Venue & Location',
-    description: 'Villas without full kitchens, yacht galleys, or remote Dubai locations may require mobile equipment, extra transport, and additional staff.',
+    title: 'Which job',
+    description: 'Fresh Meal, Food Prep, Kitchen on Autopilot or a Full Day. The job decides the hours and the price; the chef’s level never does.',
   },
   {
     icon: Clock,
-    title: 'Service Duration',
-    description: 'Extended service hours, late-night events, or multi-day retainers increase staffing and logistics costs.',
+    title: 'How many days',
+    description: 'From one day a week upward. At five days and above the household rate improves, because the chef’s week is substantially reserved for one house.',
   },
   {
-    icon: Wine,
-    title: 'Add-Ons',
-    description: 'Bar service, bespoke cakes, wine pairings, tableware rentals, and florals are quoted separately so you control the final spend.',
-  },
-]
-
-const sampleMenus = [
-  {
-    name: 'Casual Private Dinner',
-    courses: '3 courses',
-    price: 'From AED 750 per person',
-    dishes: 'Seasonal salad or soup, main course with sides, dessert. Family-style or plated.',
+    icon: Leaf,
+    title: 'Groceries',
+    description: 'Yours or ours. Charged at the actual receipts with no markup; letting us run them adds an hour of kitchen management on the shorter services.',
   },
   {
-    name: 'Premium Private Chef Experience',
-    courses: '5 courses',
-    price: 'From AED 950 per person',
-    dishes: 'Amuse-bouche, starter, fish, main, dessert. Includes service staff and elegant plating.',
+    icon: Users,
+    title: 'People in the house',
+    description: 'Up to eight are in the chef price. From nine an assistant joins automatically — one to 19, two to 29, three to 39.',
   },
   {
-    name: 'Tasting Menu & Wine Pairing',
-    courses: '6–8 courses',
-    price: 'From AED 1,400 per person',
-    dishes: 'Curated tasting menu with premium ingredients, paired wines, and full front-of-house team.',
+    icon: Clock,
+    title: 'Time that runs over',
+    description: OVERTIME_RULE,
+  },
+  {
+    icon: MapPin,
+    title: 'Where you are',
+    description: 'Most Dubai homes carry no surcharge. Remote areas, or a kitchen that needs equipment brought in, are shown as their own line before you agree.',
   },
 ]
 
@@ -119,51 +112,52 @@ const relatedLinks = [
 
 const faqs = [
   {
-    q: 'How much is a private chef in Dubai for a dinner party?',
-    a: 'For a dinner party of 6–10 guests, private chef prices in Dubai typically range from AED 700 to AED 950 per person, depending on the menu, ingredients, and service level. Smaller groups of 2–4 guests may sit at the higher end of the per-person range.',
+    q: 'What is the private chef Dubai price for a household?',
+    a: `One price per job, whoever cooks it: Fresh Meal (3 hours) AED 750, Private Chef Food Prep (4h) AED 900, Kitchen on Autopilot (5h) AED 1,050, and a Full-Day Private Chef (9h) AED 1,500. There is no more expensive grade of chef to be upgraded to — what has levels is the chef’s own pay. Anyone comparing private chef Dubai rates or the cost of private chef Dubai will find those four numbers and nothing hidden underneath them.`,
   },
   {
-    q: 'What is included in a private chef quote?',
-    a: 'A private chef quote usually includes menu consultation, grocery shopping, ingredients, cooking at your venue, service during the meal, and kitchen clean-up. Staffing, transport, rentals, beverages, and VAT are itemised separately.',
+    q: 'How much is a private chef in Dubai per month?',
+    a: `${MONTH_SENTENCE} ${MONTH_EXAMPLE.longMonthNote} One day a week is AED 3,000 a month; five days of Kitchen on Autopilot is AED 18,500 and a Full-Day chef five days a week is AED 26,400. The calculator on this page produces exactly those figures — there is not a second set for the brochure.`,
   },
   {
-    q: 'Is there a minimum spend for a private chef?',
-    a: 'Minimums vary by date, chef, and menu. Small dinners for two are common, though the per-person rate is higher because the chef’s preparation and travel time are fixed. We confirm minimums when you request a quote.',
+    q: 'What does the private chef Dubai price per day cover?',
+    a: 'The chef’s hours for that job, the menu work around them, the Food Profile, backup when they are off, the review after service, and the kitchen left the way it was found. Groceries are separate and charged at the actual receipts. VAT at 5% is shown on its own line. People search this as the average cost of personal chef in Dubai or personal chef services rates Dubai — same service, same four prices.',
   },
   {
-    q: 'Can I customise the menu for dietary requirements?',
-    a: 'Yes. Every menu is designed around your preferences and dietary needs, including vegetarian, vegan, halal, gluten-free, dairy-free, nut-free, and keto options.',
+    q: 'Is a part-time cook for home in Dubai cheaper than a full-time hire?',
+    a: 'Usually, because you pay for the days the house actually needs instead of a full salary, a visa and the unpaid work of finding cover. A part time cook for home Dubai cost starts at AED 3,000 a month for one Fresh Meal a week and rises with the days you book. A direct hire looks cheaper per hour until the first week someone is ill.',
   },
   {
-    q: 'Do you offer tastings before a large event?',
-    a: 'Tastings are available for larger or high-value bookings. They let you confirm flavours, portion sizes, and presentation before the event and are quoted separately.',
+    q: 'What if I want a private chef for a dinner party?',
+    a: 'That is catering, and it is priced per person rather than per visit — from AED 90 for drop-off to AED 700–950 for a chef-led plated dinner. A private chef for dinner party evenings, private chef catering for a birthday, or a part time private chef catering Dubai price for one night all live on [catering](/catering-dubai). This page is for a chef who comes back.',
   },
   {
-    q: 'How far in advance should I book a private chef in Dubai?',
-    a: 'We recommend booking 1–2 weeks ahead for standard dates and 3–4 weeks ahead for peak seasons, public holidays, and large events. Last-minute requests can often be accommodated depending on chef availability.',
-  },
-  { q: "Why do private chef prices in Dubai vary so much per person?", a: "Private chef prices vary because the quote is built around your specific event, not a fixed menu, so guest count, number of courses, ingredient tier, staffing, and venue all move the number. A relaxed three-course dinner sits far below a multi-course tasting menu with premium proteins and a full front-of-house team. Because every event is different, we price by custom quote so you only pay for the experience you actually want. See the [cost drivers](/private-chef-vs-catering-dubai) that shape a proposal before you decide." },
-  { q: "What is not included in the price and might cost extra?", a: "Beyond the core service, common extras are beverages and bar service, tableware and furniture rentals, bespoke cakes, wine pairings, florals, and transport for remote or hard-to-reach venues. The 5% VAT that applies in the UAE is also shown separately. We itemise every add-on in your quote so there are no surprises and you stay in full control of the final spend." },
-  { q: "Do I need to pay a deposit to secure my date?", a: "Yes, a deposit is typically required to confirm your chef and lock in the date, with the balance settled closer to or on the day of the event. Deposit amounts depend on the size and scope of the booking, and we confirm the exact terms in writing before anything is charged. Popular dates around weekends and holidays get booked early, so an early deposit protects your preferred slot." },
-  { q: "Is hiring a private chef cheaper than a fine-dining restaurant in Dubai?", a: "For a group, a private chef often lands close to or below the true cost of a comparable fine-dining evening once you add restaurant private-room minimum spends, drinks markups, and taxis. You also gain privacy, a menu built around your table, and a relaxed pace no restaurant booking can match. The value grows with group size, since chef and staff time is shared across more guests." },
-  { q: "At what group size does a private chef become better value than dining out?", a: "A private chef usually becomes strong value from around five or six guests upward, because the fixed chef and staffing time is spread across more people, lowering the per-person rate. Small dinners for two are still popular, but they carry a higher per-head price since preparation and travel time stay the same. Larger dinner parties in a villa are where the economics tip clearly in your favour." },
-  { q: "Do I have to buy the ingredients myself?", a: "No, ingredient sourcing and grocery shopping are handled for you and built into the quote, so you never shop or stock up. Your chef selects fresh, halal-sourced produce and premium proteins matched to your agreed menu and budget. If you request rare or luxury items like truffle or premium seafood, those are reflected transparently in the ingredient line of your proposal." },
-  { q: "Is a service charge or gratuity added on top?", a: "Gratuity is not automatically added and is entirely at your discretion; your quote covers the chef, service staff, cooking, and clean-up as agreed. Many hosts choose to tip when the experience exceeds expectations, but there is no obligation and no hidden service charge baked into the price. Everything you are paying for is spelled out clearly in the itemised proposal." },
-  { q: "Does the quote include service staff, or just the chef?", a: "For plated and multi-course dinners, the quote includes the service staff needed for preparation, plating, serving, and clear-down alongside the chef. The number of staff scales with your guest count and menu complexity, which is one reason larger or more formal events carry additional staffing cost. A casual family-style dinner may need a smaller team, keeping that portion of the budget lower." },
-  { q: "Are weekday or off-peak bookings cheaper than weekends?", a: "Weekday and off-peak dates can offer better value and easier availability than busy weekends, holidays, and peak season. If your date is flexible, mentioning that when you request a quote helps us bring you the best chef and a more efficient price. Fixed dates around New Year, Eid, and major holidays tend to book out first and sit at the top of the range." },
-  { q: "Is weekly meal prep cheaper per meal than a one-off dinner party?", a: "Yes, on a per-meal basis regular meal prep is usually far more economical than a one-off multi-course dinner party, because it is everyday cooking rather than an event experience. A dinner party pays for occasion-level menus, premium plating, and a full service team, while [weekly meal prep](/weekly-meal-prep-dubai) is priced for volume and routine. If your goal is healthy daily eating rather than entertaining, meal prep gives the lowest cost per plate." },
-  { q: "Can you work to a fixed budget I set?", a: "Yes, tell us your target budget and we design a menu, ingredient selection, and service plan that fits it rather than pushing a set package. Because pricing is quote-based, we can adjust courses, protein choices, and staffing to hit the number that works for you. This is easier when you share your guest count, venue, and date so the proposal is accurate from the start." },
-  { q: "Are there travel or location fees for villas, hotels, or remote venues?", a: "A location or logistics fee may apply for remote areas, venues without a functional kitchen, or spaces needing mobile equipment and extra transport. Most standard Dubai homes and villas do not trigger meaningful surcharges, and any that apply are shown clearly in your quote. Share your venue details up front so the proposal reflects the real setup from the beginning." },
-  { q: "How does menu complexity change the final price?", a: "Menu complexity is one of the biggest price levers, because more courses, live cooking stations, intricate plating, and pairings all add chef time, staffing, and ingredient cost. A refined three-course dinner is considerably lighter on budget than an eight-course tasting menu with wine service. Browse our [menus](/menus) to see how different formats map to different price points before you choose." },
-  { q: "Will the price change if some guests cancel or extra guests join?", a: "Minor changes to guest numbers can shift the total, since pricing is driven largely by headcount, ingredients, and staffing. We ask for a confirmed guest count a set time before the event so shopping and staffing are accurate, and we handle reasonable adjustments where possible. Significant last-minute changes may affect the quote, so it is best to update us as soon as your numbers firm up." },
-  { q: "How do I get an exact price for my event?", a: "Share your date, guest count, venue, and any menu or dietary preferences, and we return a tailored, itemised proposal with clear pricing and VAT shown separately. There is no obligation, and during business hours we typically reply within about 15 minutes. Start with a quick message on our [contact](/contact) page and we will turn your details into a precise quote." },
-  {
-    q: 'What goes into the private chef cost Dubai?',
-    a: 'There is no single number for private chef cost Dubai: guest count, menu, service style and staffing move the figure. Our indicative starting point on this page is AED 950 – 1,300. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day. If you searched for private chef Dubai rates, cost of private chef Dubai and personal chef services rates Dubai, this is the same service.',
+    q: 'Who employs the chef?',
+    a: 'A licensed supplier employs your chef on a proper visa we have asked to see. We match the person to the house, manage the arrangement, score the work and pay the quality extra to the cook. You never put a chef on your payroll, and nobody invoices your villa personally.',
   },
   {
-    q: 'How is the private chef Dubai price per day worked out?',
-    a: 'Two things decide private chef Dubai price per day more than anything else: how many people you are feeding and how much of the work is done in front of them. A drop-off tray for twenty and a plated dinner for twenty are not the same job. Send the headcount, the date and the address and the quote comes back itemised, with 5% VAT on its own line. People also search this as part time cook for home Dubai cost, average cost of personal chef in Dubai and part time private chef catering Dubai price — same team, same booking.',
+    q: 'Can I move a visit?',
+    a: `Yes — with at least ${CANCEL_NOTICE_HOURS} hours’ notice a scheduled visit moves within the same billing month, subject to availability. Less than that and the visit stays chargeable, because the chef’s day was already held for your house. The supplier who employs the chef works to the same ${CANCEL_NOTICE_HOURS} hours, so nobody is told two different rules.`,
+  },
+  {
+    q: 'What happens when a day runs long?',
+    a: OVERTIME_RULE,
+  },
+  {
+    q: 'Do I have to buy the groceries?',
+    a: 'Your choice. Provide them yourself and the chef’s hours go entirely into cooking; hand them over and the shopping, the receipts and the inventory become part of the job. Either way groceries are charged at the exact receipts with no markup, and Kitchen on Autopilot and the Full Day already include the management hour.',
+  },
+  {
+    q: 'Can I change my chef?',
+    a: 'Yes. A wrong match is changed, and the Food Profile stays with the household so the next chef is not starting from zero. A chef whose scores fall below the standard stops working in houses through us — that is the same ladder they are paid on.',
+  },
+  {
+    q: 'How long is the commitment?',
+    a: 'Long-term plans begin at 30 days and at least four visits a month. A short stay of 3–29 days is possible at a higher daily rate, because trained staff are reserved for a short, less stable period. Nothing auto-renews into a longer term than you agreed.',
+  },
+  {
+    q: 'Is weekly meal prep cheaper per meal than cooking every day?',
+    a: 'Per plate, yes. [Weekly meal prep](/weekly-meal-prep-dubai) is the Food Prep job — four hours, AED 900 — used once or twice a week to cook forward, which spreads the chef’s time across more meals than a fresh dinner every night. If the goal is healthy daily eating rather than a table full of guests, that is the cheapest shape of this service.',
   },
 ]
 
@@ -172,7 +166,7 @@ const serviceSchema = {
   name: 'Private Chef Prices Dubai',
   provider: { '@id': 'https://www.mychef.ae/#organization' },
   areaServed: { '@type': 'City', name: 'Dubai', '@id': 'https://www.wikidata.org/wiki/Q612' },
-  description: 'Indicative private chef prices in Dubai by group size, menu style, and service level. Request a custom quote for your dinner.',
+  description: 'Household private chef prices in Dubai: one price per job, per visit, with groceries charged at cost. A one-night dinner party is catering.',
   url: 'https://www.mychef.ae/private-chef-prices-dubai',
 }
 
@@ -207,55 +201,28 @@ const householdServiceSchema = {
   areaServed: { '@type': 'City', name: 'Dubai', '@id': 'https://www.wikidata.org/wiki/Q612' },
   offers: SERVICES.map((svc) => ({
     '@type': 'Offer',
-    name: `${svc.name} (${svc.hours}h) — Professional Chef`,
+    name: `${svc.name} (${svc.hours}h)`,
     priceCurrency: 'AED',
-    price: String(svc.rates.professional),
+    price: String(svc.rate),
     unitText: svc.unit === 'day' ? 'DAY' : 'SERVICE',
   })),
 }
 
-const privateChefOffers = [
-  {
-    name: 'Private Chef Dinner for 2 Guests',
-    description: 'Intimate dinner for two; total estimate AED 1,900 – 2,600.',
-    price: '1900',
-  },
-  {
-    name: 'Private Chef Dinner for 4 Guests',
-    description: 'Small celebration; total estimate AED 3,200 – 4,400.',
-    price: '3200',
-  },
-  {
-    name: 'Private Chef Dinner for 6 Guests',
-    description: 'Family-style or plated dinner; total estimate AED 4,500 – 6,000.',
-    price: '4500',
-  },
-  {
-    name: 'Private Chef Dinner for 10 Guests',
-    description: 'Dinner party with scaled service team; total estimate AED 7,000 – 9,500.',
-    price: '7000',
-  },
-  {
-    name: 'Private Chef Dinner for 20+ Guests',
-    description: 'Larger villa or event format; total estimate from AED 12,000.',
-    price: '12000',
-  },
-]
-
 const aggregateOfferSchema = {
   '@type': 'AggregateOffer',
-  name: 'Private Chef Prices Dubai',
-  description: 'Indicative private chef prices in Dubai by group size. Prices are starting points; final quotes depend on menu, ingredients, venue, and service level.',
+  name: 'Private Chef Prices Dubai — household plans',
+  description:
+    'Household private chef prices in Dubai: one price per job, from AED 750 for a 3-hour Fresh Meal to AED 1,500 for a full day. Groceries at actual cost. One night with guests is catering.',
   url: 'https://www.mychef.ae/private-chef-prices-dubai',
   priceCurrency: 'AED',
-  lowPrice: '1900',
-  highPrice: '12000',
-  offers: privateChefOffers.map((offer) => ({
+  lowPrice: String(HOUSEHOLD_JOBS[0].rate),
+  highPrice: String(HOUSEHOLD_JOBS[HOUSEHOLD_JOBS.length - 1].rate),
+  offers: HOUSEHOLD_JOBS.map((job) => ({
     '@type': 'Offer',
-    name: offer.name,
-    description: offer.description,
-    url: 'https://www.mychef.ae/private-chef-prices-dubai',
-    price: offer.price,
+    name: `${job.name} (${job.hours}h)`,
+    description: job.tagline,
+    url: 'https://www.mychef.ae/private-chef-prices-dubai#calculator',
+    price: String(job.rate),
     priceCurrency: 'AED',
     availability: 'https://schema.org/InStock',
   })),
@@ -298,8 +265,8 @@ export default function PrivateChefPrices() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Private Chef Dubai Price | AED 700–950 Per Person | myCHEF"
-        description="2026 private chef Dubai price: per-person dinner costs for 2–20 guests, plus monthly household-chef plans from AED 750 a service. Get a "
+        title="Private Chef Dubai Price | AED 750–1,500 a Visit | myCHEF"
+        description="2026 private chef Dubai price for a household: AED 750 a visit for a fresh meal up to AED 1,500 for a full day, groceries at cost. Build your month. "
         canonicalPath="/private-chef-prices-dubai"
         ogImage="/images/private-chef-prices-dubai-hero.webp"
         hideSiteName
@@ -310,8 +277,8 @@ export default function PrivateChefPrices() {
       {/* ═══════════════ Hero ═══════════════ */}
       <PageHero
         eyebrow="Transparent Pricing"
-        title="Private Chef Dubai Price: Per-Person Cost Guide"
-        subtitle="Private Chef Dubai Price by myCHEF — See indicative private chef costs by group size, what affects the price, and what is included — so you can budget with confidence."
+        title="Private Chef Dubai Price: What a Chef in the House Costs"
+        subtitle="Four jobs, four numbers, one price each. Groceries at cost. Build the month before you enquire."
         image="/images/private-chef-prices-dubai-hero.webp"
         imageAlt="Private chef prices and menus in Dubai"
         imageWidth={1344}
@@ -325,16 +292,18 @@ export default function PrivateChefPrices() {
 
       <TrustSignalStrip variant="dark" />
 
-      {/* ═══════════════ Price Table ═══════════════ */}
+      {/* ═══════════════ The four household jobs ═══════════════ */}
       <section className="bg-white section-padding prices-content">
         <div className="container-custom max-w-[900px]">
-          <div className="prices-section opacity-0 translate-y-8 text-center mb-10">
-            <SectionLabel align="center">Indicative Pricing</SectionLabel>
+          <div className="prices-section opacity-0 translate-y-8 mb-10">
+            <SectionLabel>The four jobs</SectionLabel>
             <h2 className="font-playfair text-h2 text-black mb-4">
-              Private Chef Cost by Group Size
+              The private chef Dubai price is one number per job
             </h2>
-            <p className="font-inter text-body text-gray-500 max-w-[700px] mx-auto">
-              These are representative price bands for a bespoke multi-course private chef dinner in Dubai. Final quotes depend on menu, ingredients, venue, and service level.
+            <p className="font-inter text-body text-gray-500 max-w-[760px]">
+              {THE_LINE.privateChef} {THE_LINE.catering} This page prices the first one. Pick the job the house
+              needs, and the price is the same whoever we send — what changes with a chef’s level is what the chef
+              earns, not what you pay.
             </p>
           </div>
 
@@ -342,28 +311,59 @@ export default function PrivateChefPrices() {
             <table className="w-full min-w-[600px] border-collapse border border-gray-200">
               <thead>
                 <tr className="bg-black text-white">
-                  <th className="font-inter text-sm uppercase tracking-wider text-left p-4">Group Size</th>
-                  <th className="font-inter text-sm uppercase tracking-wider text-left p-4">Per Person</th>
-                  <th className="font-inter text-sm uppercase tracking-wider text-left p-4">Estimated Total</th>
-                  <th className="font-inter text-sm uppercase tracking-wider text-left p-4">Notes</th>
+                  <th className="font-inter text-sm uppercase tracking-wider text-left p-4">The job</th>
+                  <th className="font-inter text-sm uppercase tracking-wider text-left p-4">Hours</th>
+                  <th className="font-inter text-sm uppercase tracking-wider text-left p-4">Price</th>
+                  <th className="font-inter text-sm uppercase tracking-wider text-left p-4">What it is</th>
                 </tr>
               </thead>
               <tbody>
-                {priceTable.map((row, i) => (
-                  <tr key={i} className="border-b border-gray-200 even:bg-cream">
-                    <td className="font-inter text-base text-black p-4 font-medium">{row.guests}</td>
-                    <td className="font-inter text-body text-gray-500 p-4">{row.perPerson}</td>
-                    <td className="font-inter text-body text-gray-500 p-4">{row.total}</td>
-                    <td className="font-inter text-body-sm text-gray-500 p-4">{row.note}</td>
+                {jobTable.map((row) => (
+                  <tr key={row.name} className="border-b border-gray-200 even:bg-cream">
+                    <td className="font-inter text-base text-black p-4 font-medium">{row.name}</td>
+                    <td className="font-inter text-body text-gray-500 p-4">{row.hours}</td>
+                    <td className="font-inter text-body text-black p-4 tabular-nums">{row.price} <span className="text-gray-400">{row.unit}</span></td>
+                    <td className="font-inter text-body-sm text-gray-500 p-4">{row.what}</td>
                   </tr>
                 ))}
               </tbody>
             </table>
           </div>
 
-          <p className="prices-section opacity-0 translate-y-8 font-inter text-sm text-gray-400 text-center mt-4">
-            Prices are indicative and exclude VAT, beverages, rentals, and transport where applicable. Request a custom quote for an exact proposal.
+          <p className="prices-section opacity-0 translate-y-8 font-inter text-sm text-gray-400 mt-4">
+            Groceries are charged at the actual receipts with no markup. VAT at 5% is shown on its own line.
+            Planning one night with guests? That is priced per person on{' '}
+            <Link to="/catering-dubai" className="text-gold-ink underline underline-offset-4">catering</Link>.
           </p>
+
+          {/* The month we teach everywhere: the same figures the calculator below produces. */}
+          <div className="prices-section opacity-0 translate-y-8 mt-12 border border-gray-200 bg-cream p-6 md:p-8">
+            <p className="font-inter text-caption uppercase tracking-[0.14em] text-gold-ink mb-3">A worked month</p>
+            <h3 className="font-playfair text-h3 text-black mb-4">
+              Four days a week, {MONTH_EXAMPLE.service}: {MONTH_EXAMPLE.visits} visits
+            </h3>
+            <dl className="grid gap-4 sm:grid-cols-3 mb-4">
+              <div>
+                <dt className="font-inter text-caption uppercase tracking-wider text-gray-400">The house pays</dt>
+                <dd className="font-playfair text-h3 text-black tabular-nums">AED {MONTH_EXAMPLE.client.toLocaleString('en-AE')}</dd>
+              </div>
+              <div>
+                <dt className="font-inter text-caption uppercase tracking-wider text-gray-400">To the supplier who employs the chef</dt>
+                <dd className="font-playfair text-h3 text-black tabular-nums">AED {MONTH_EXAMPLE.supplier.toLocaleString('en-AE')}</dd>
+              </div>
+              <div>
+                <dt className="font-inter text-caption uppercase tracking-wider text-gray-400">Quality extra to the chef</dt>
+                <dd className="font-playfair text-h3 text-black tabular-nums">
+                  {MONTH_EXAMPLE.cookExtra.map((v) => `AED ${v.toLocaleString('en-AE')}`).join(' · ')}
+                </dd>
+              </div>
+            </dl>
+            <p className="font-inter text-body-sm text-gray-600 leading-relaxed">
+              {QUALITY_LEVELS.map((l) => `${l.name} ${l.extraPct ? `+${l.extraPct * 100}%` : 'starting'}`).join(' · ')}.
+              The extra is paid to the registered chef, not to the company that sent them, and the figure the house
+              pays does not move when a chef climbs. {MONTH_EXAMPLE.longMonthNote} {EMPLOYMENT.short}
+            </p>
+          </div>
         </div>
       </section>
 
@@ -374,7 +374,7 @@ export default function PrivateChefPrices() {
             <div>
               <SectionLabel align="center">What's Included</SectionLabel>
               <h2 className="font-playfair text-h2 text-black mb-6">
-                What You Get with a Private Chef
+                What the price covers, every visit
               </h2>
               <ul className="space-y-4">
                 {includedItems.map((item, i) => (
@@ -388,10 +388,12 @@ export default function PrivateChefPrices() {
             <div className="bg-black p-8">
               <ChefHat size={40} className="text-gold mb-4" />
               <h3 className="font-playfair text-h3 text-white mb-3">
-                No Hidden Menu Packages
+                One price, one person, no upgrade path
               </h3>
               <p className="font-inter text-body text-gray-400 leading-relaxed mb-6">
-                We do not force you into a fixed package. You tell us your occasion, guest count, and preferences, and we design a menu and service plan that fits your budget.
+                There is no premium grade of chef to be sold up to. You choose the job and the days; we match the
+                person. A chef who scores well earns more from us — the house is never asked to pay more for the
+                person it already likes.
               </p>
               <Link
                 to="/inquiry"
@@ -410,7 +412,7 @@ export default function PrivateChefPrices() {
           <div className="prices-section opacity-0 translate-y-8 text-center mb-12">
             <SectionLabel align="center">Cost Drivers</SectionLabel>
             <h2 className="font-playfair text-h2 text-black">
-              What Affects Private Chef Pricing?
+              What moves the private chef cost Dubai households actually pay
             </h2>
           </div>
 
@@ -443,7 +445,11 @@ export default function PrivateChefPrices() {
               A chef in the house several days a week: build the plan, see the monthly figure
             </h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed">
-              Everything above is a one-night dinner. If you want the same chef cooking regularly — a few days a week, most weekdays, or every day — the price works differently: per service, from AED {SERVICES[0].rates.professional} at Professional Chef level, with groceries charged at actual cost and no markup. Choose the service, the chef level and the days, and the calculator shows your figure before you enquire. Long-term plans start at 30 days; short stays of 3–29 days carry a higher daily rate.
+              Choose the job and the days, and the calculator shows the figure before you enquire — the same figure
+              the table above quotes, from AED {SERVICES[0].rate} a visit, with groceries charged at the actual
+              receipts and no markup. Long-term plans start at 30 days; short stays of 3–29 days carry a higher daily
+              rate. A single night with guests is priced per person on{' '}
+              <Link to="/catering-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">catering</Link>.
             </p>
             <p className="font-inter text-body-sm text-gray-500 mt-4">
               New to the household service?{' '}
@@ -462,30 +468,27 @@ export default function PrivateChefPrices() {
         </div>
       </section>
 
-      {/* ═══════════════ Sample Menus ═══════════════ */}
+      {/* One night with guests is the other product. Say so, then send them there. */}
       <section className="bg-black section-padding">
-        <div className="container-custom max-w-[1100px]">
-          <div className="prices-section opacity-0 translate-y-8 text-center mb-12">
-            <SectionLabel align="center" tone="dark">Sample Menus</SectionLabel>
-            <h2 className="font-playfair text-h2 text-white">
-              Three Ways to Experience a Private Chef
+        <div className="container-custom max-w-[900px]">
+          <div className="prices-section opacity-0 translate-y-8">
+            <SectionLabel tone="dark">The other door</SectionLabel>
+            <h2 className="font-playfair text-h2 text-white mb-4">
+              One night with guests is catering, and it is priced per person
             </h2>
+            <p className="font-inter text-body text-gray-400 leading-relaxed mb-6 max-w-[760px]">
+              {THE_LINE.catering} {THE_LINE.test} A birthday for eight on Saturday is catering even though it happens
+              in the same kitchen; a Tuesday and Thursday for a family of five is this page. Catering runs from
+              AED 90 a head for drop-off to AED 700–950 for a chef-led plated dinner, and it is quoted with the
+              staffing the night needs.
+            </p>
+            <Link
+              to="/catering-dubai"
+              className="inline-flex items-center gap-2 font-inter text-body-sm uppercase tracking-wider text-gold hover:text-gold-light transition-colors"
+            >
+              See catering prices <ArrowRight size={14} />
+            </Link>
           </div>
-
-          <div className="grid md:grid-cols-3 gap-6">
-            {sampleMenus.map((menu, i) => (
-              <div key={i} className="prices-section opacity-0 translate-y-8 border border-gold/20 p-6 flex flex-col">
-                <h3 className="font-playfair text-h3 text-white mb-2">{menu.name}</h3>
-                <p className="font-inter text-sm text-gold uppercase tracking-wider mb-4">{menu.courses}</p>
-                <p className="font-inter text-body text-gray-400 leading-relaxed mb-4 flex-1">{menu.dishes}</p>
-                <p className="font-inter text-lg text-white font-medium border-t border-gold/20 pt-4">{menu.price}</p>
-              </div>
-            ))}
-          </div>
-
-          <p className="prices-section opacity-0 translate-y-8 font-inter text-sm text-gray-400 text-center mt-8">
-            Sample menus are illustrative. Every event receives a bespoke proposal based on your preferences and dietary requirements.
-          </p>
         </div>
       </section>
 

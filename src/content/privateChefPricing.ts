@@ -10,7 +10,6 @@
  * Rates marked DRAFT are the owner's starting figures — tune here, not in components.
  */
 
-export type ChefLevel = 'professional' | 'head'
 export type ServiceId = 'fresh-meal' | 'food-prep' | 'autopilot' | 'full-day'
 export type Duration = 'short' | 'long'
 export type Meal = 'breakfast' | 'lunch' | 'dinner'
@@ -26,7 +25,7 @@ export const SERVICES = [
     hours: 3,
     tagline: 'A freshly prepared breakfast, lunch or dinner.',
     body: 'Your chef arrives, cooks one meal fresh, serves it the way this house likes, and leaves the kitchen handled.',
-    rates: { professional: 750, head: 950 }, // DRAFT
+    rate: 750, // DRAFT
     unit: 'service',
     badge: null,
     highlight: false,
@@ -42,7 +41,7 @@ export const SERVICES = [
     hours: 4,
     tagline: 'Food for your day, without staff in your home all day.',
     body: 'Breakfast cooked fresh, then lunch, dinner and other food prepared for later — or the four hours used entirely around the meals you prefer. You control how the time is used.',
-    rates: { professional: 900, head: 1150 }, // DRAFT
+    rate: 900, // DRAFT
     unit: 'service',
     badge: 'Privacy-first',
     highlight: true,
@@ -58,7 +57,7 @@ export const SERVICES = [
     hours: 5,
     tagline: 'The managed kitchen. Planning, shopping, cooking, cleanup.',
     body: 'Your chef runs the food side of the house: plans the menus, keeps the Food Profile current, watches the inventory, shops or orders online, tracks receipts, cooks and cleans up.',
-    rates: { professional: 1050, head: 1350 }, // DRAFT
+    rate: 1050, // DRAFT
     unit: 'service',
     badge: 'Most convenient',
     highlight: false,
@@ -86,7 +85,7 @@ export const SERVICES = [
     hours: 9,
     tagline: 'The kitchen staffed from breakfast to dinner.',
     body: 'Fresh meals through the day in your household’s rhythm, with grocery management, the Food Profile and normal household food administration already part of the day.',
-    rates: { professional: 1500, head: 1900 }, // DRAFT
+    rate: 1500, // DRAFT
     unit: 'day',
     badge: 'Complete household service',
     highlight: false,
@@ -109,41 +108,47 @@ export const SERVICES = [
 ] as const
 
 /** Adding grocery management to a 3h or 4h service adds one hour of kitchen-management time. DRAFT. */
-export const GROCERY_MANAGEMENT_ADD_ON = { hours: 1, rates: { professional: 150, head: 200 } } as const
+export const GROCERY_MANAGEMENT_ADD_ON = { hours: 1, rate: 150 } as const
 
-export const CHEF_LEVELS = [
-  {
-    id: 'professional',
-    name: 'Professional Chef',
-    note: 'Best value for most households',
-    bestFor: ['Everyday household cooking', 'Healthy meals', 'Family meals', 'International cuisine', 'Meal preparation', 'Regular breakfast, lunch, dinner'],
-  },
-  {
-    id: 'head',
-    name: 'Head Chef',
-    note: 'For higher expectations and more complex kitchens',
-    bestFor: ['More complex menus', 'Higher culinary expectations', 'Entertaining regularly', 'Kitchen leadership', 'More advanced cuisine', 'Managing assistants', 'Households requiring greater independence'],
-  },
-] as const
+/**
+ * What the house pays does not depend on a chef's level. The three levels are the cook's pay
+ * ladder — Level 1 starting, Level 2 +10%, Level 3 +20%, paid to the registered cook — and they
+ * live in privateChefStandard.ts with the score bands that move a person between them.
+ *
+ * Selling a "Head Chef" upgrade beside a quality ladder gave the same person two prices and the
+ * house two stories. One price. One person. One ladder.
+ */
+/** Of what the house pays, the share that goes to the licensed supplier who employs the chef. */
+export const SUPPLIER_SHARE = 0.4
+
+export function formatAed(n: number): string {
+  return `AED ${n.toLocaleString('en-AE')}`
+}
 
 /** Days per week → approx. services per month (30-day month). Long-term minimum is 4 services / month. */
 export const FREQUENCIES = [
   { days: 1, perMonth: 4 },
   { days: 2, perMonth: 8 },
-  { days: 3, perMonth: 13 },
-  { days: 4, perMonth: 17 },
-  { days: 5, perMonth: 22 },
-  { days: 6, perMonth: 26 },
-  { days: 7, perMonth: 30 },
+  { days: 3, perMonth: 12 },
+  { days: 4, perMonth: 16 },
+  { days: 5, perMonth: 20 },
+  { days: 6, perMonth: 24 },
+  { days: 7, perMonth: 28 },
 ] as const
+/** A 30-day month occasionally lands one extra visit. It is billed when it happens, never assumed. */
+export const LONG_MONTH_NOTE =
+  'Four weeks of visits. A long month sometimes lands one more; it is billed when it happens.'
 export const LONG_TERM_MIN_SERVICES = 4
 
-/** Long-term rate tiers by services per month. Percentages are DRAFT margins to test. */
+/**
+ * Two household rates, not four. One price up to four days a week — which is the month we teach
+ * everywhere, sixteen visits at the list rate — and a better rate from five days, where the
+ * chef's week is substantially reserved for one house. Four bands with 4% steps meant the month
+ * printed on the page and the month the calculator produced were never the same month.
+ */
 export const RATE_TIERS = [
-  { id: 'standard', name: 'Standard Long-Term Rate', min: 4, max: 7, discount: 0 },
-  { id: 'regular', name: 'Regular Household Rate', min: 8, max: 15, discount: 0.04 },
-  { id: 'preferred', name: 'Preferred Household Rate', min: 16, max: 21, discount: 0.08 },
-  { id: 'dedicated', name: 'Dedicated Household Rate', min: 22, max: Infinity, discount: 0.12 },
+  { id: 'standard', name: 'Standard Household Rate', min: 4, max: 19, discount: 0 },
+  { id: 'dedicated', name: 'Dedicated Household Rate', min: 20, max: Infinity, discount: 0.12 },
 ] as const
 
 /** 3–29 day assignments: trained staff reserved for a short, less stable period. Multiplier inherited from the site's published under-one-month rule. DRAFT. */
@@ -171,16 +176,24 @@ export const GUESTS_MAX = 40
 /** DRAFT assistant rates. */
 export const ASSISTANT_RATES = { short: 350, fullDay: 550, extraHour: 90 } as const
 
-/** Published overtime. Standard day 9h; ~10h by the same chef depending on availability; beyond → extended coverage. */
+/**
+ * Overtime is the hourly rate of that job plus 50%. The 50% goes to the supplier; the cook stays
+ * on their normal rate, so a long day is never something anyone has a reason to engineer.
+ */
 export const OVERTIME = {
-  professional: 200,
-  head: 250,
+  uplift: 0.5,
   assistant: 90,
   standardDayHours: 9,
   sameChefMaxHours: 10,
 } as const
 
-export const RESCHEDULE_NOTICE_HOURS = 72
+/** Hourly overtime for one job, rounded to the nearest 10 dirhams so a quote reads like a price. */
+export function overtimeRate(serviceId: ServiceId): number {
+  const service = SERVICES.find((s) => s.id === serviceId) ?? SERVICES[0]
+  return Math.round((service.rate / service.hours) * (1 + OVERTIME.uplift) / 10) * 10
+}
+
+export const RESCHEDULE_NOTICE_HOURS = 24
 
 export interface QuoteInput {
   duration: Duration
@@ -193,7 +206,6 @@ export interface QuoteInput {
   startDate: string | null
   serviceId: ServiceId
   meal: Meal
-  chef: ChefLevel
   guests: number
   groceryMode: GroceryMode
 }
@@ -206,7 +218,6 @@ export interface QuoteLine {
 
 export interface Quote {
   service: (typeof SERVICES)[number]
-  chef: (typeof CHEF_LEVELS)[number]
   hoursPerService: number
   groceryManaged: boolean
   assistants: number
@@ -245,7 +256,6 @@ export function relationshipFor(daysPerWeek: number) {
 
 export function computeQuote(input: QuoteInput): Quote {
   const service = SERVICES.find((s) => s.id === input.serviceId) ?? SERVICES[0]
-  const chef = CHEF_LEVELS.find((c) => c.id === input.chef) ?? CHEF_LEVELS[0]
   const shortStay = input.duration === 'short'
 
   // Grocery management: included in 5h/9h; optional +1h add-on for 3h/4h.
@@ -253,7 +263,7 @@ export function computeQuote(input: QuoteInput): Quote {
   const groceryManaged = service.groceryIncluded || addsManagement
   const hoursPerService = service.hours + (addsManagement ? GROCERY_MANAGEMENT_ADD_ON.hours : 0)
 
-  const baseChef = service.rates[input.chef] + (addsManagement ? GROCERY_MANAGEMENT_ADD_ON.rates[input.chef] : 0)
+  const baseChef = service.rate + (addsManagement ? GROCERY_MANAGEMENT_ADD_ON.rate : 0)
 
   const { assistants, custom } = assistantsFor(input.guests)
   const assistantRate = service.id === 'full-day' ? ASSISTANT_RATES.fullDay : ASSISTANT_RATES.short
@@ -268,7 +278,7 @@ export function computeQuote(input: QuoteInput): Quote {
   const perService = chefPerService + assistantsCost
 
   const lines: QuoteLine[] = [
-    { label: `${chef.name} · ${service.name} (${hoursPerService}h)`, amount: chefPerService, note: shortStay ? 'Short-stay rate' : tier?.name },
+    { label: `${service.name} (${hoursPerService}h)`, amount: chefPerService, note: shortStay ? 'Short-stay rate' : tier?.name },
   ]
   if (assistants > 0) lines.push({ label: `${assistants} assistant${assistants > 1 ? 's' : ''}`, amount: assistantsCost, note: `${assistantRate} each` })
 
@@ -280,7 +290,6 @@ export function computeQuote(input: QuoteInput): Quote {
 
   return {
     service,
-    chef,
     hoursPerService,
     groceryManaged,
     assistants,
@@ -308,7 +317,6 @@ export const DEFAULT_INPUT: QuoteInput = {
   startDate: null,
   serviceId: 'autopilot',
   meal: 'dinner',
-  chef: 'professional',
   guests: 4,
   groceryMode: 'client',
 }
@@ -321,7 +329,7 @@ export const FEE_INCLUDES = [
   'Quality follow-up', 'Schedule management', 'Replacement support', 'Access to additional staff', 'Long-term specialist access',
 ] as const
 export const FEE_SEPARATE = [
-  'Groceries', 'Direct grocery transport / delivery', 'Additional assistants', 'Overtime', 'Specialist chef services', 'Extra event staffing',
+  'Groceries', 'Direct grocery transport / delivery', 'Additional assistants', 'Overtime', 'Specialist chef sessions', 'Extra event staffing',
 ] as const
 
 export const SPECIALISTS = ['Japanese / Sushi', 'Italian', 'French', 'Pastry', 'Indian', 'BBQ', 'Special dietary specialists'] as const
@@ -330,7 +338,7 @@ export const PRICING_FAQS = [
   { q: 'What is the minimum long-term booking?', a: '30 days and at least four chef services per month.' },
   { q: 'Can I have the same chef every week?', a: 'Yes. Recurring plans are built around a regular assigned chef whenever possible; at five or more days a week the arrangement is dedicated, with chef capacity substantially reserved around your schedule.' },
   { q: 'Can I choose my days?', a: 'Yes. You set the days, and the chef is built around them.' },
-  { q: 'Can I move a scheduled day?', a: 'Yes — with at least 72 hours’ notice, a scheduled service can be moved within the current billing month, subject to chef availability. With less than 72 hours’ notice the service remains chargeable.' },
+  { q: 'Can I move a scheduled day?', a: `Yes — with at least ${RESCHEDULE_NOTICE_HOURS} hours’ notice, a scheduled service can be moved within the current billing month, subject to chef availability. With less than ${RESCHEDULE_NOTICE_HOURS} hours’ notice the service remains chargeable, because the chef’s day was already held for your house. The supplier who employs the chef works to the same ${RESCHEDULE_NOTICE_HOURS} hours, so nobody is told two different rules.` },
   { q: 'Are groceries included?', a: 'The shopping cost is separate and charged at actual cost. Grocery management — planning, shopping or ordering, receipts — is included in Kitchen on Autopilot and Full-Day plans, and can be added to Fresh Meal and Food Prep.' },
   { q: 'Does myCHEF mark up groceries?', a: 'No. Groceries and any direct delivery or transport costs are charged at actual cost. myCHEF adds no percentage.' },
   { q: 'How many people are included?', a: 'Up to eight people are included in the chef price. From nine, the calculator adds assistants automatically: one from 9 to 19, two from 20 to 29, three from 30 to 39. From 40 we review staffing with you.' },

@@ -124,8 +124,8 @@ export default function HowItWorks() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="How to Book a Private Chef Dubai"
-        description="How to Book a Private Chef Dubai — See how easy it is to book a private chef in Dubai. From your first message to the final course — a seamless, bespoke…"
+        title="How to Book a Private Chef Dubai for One Evening"
+        description="How to book a private chef Dubai for a single evening: the occasion, the menu, the chef, the night itself. A chef who comes back every week is the household plan instead."
         canonicalPath="/how-it-works"
         ogImage="/images/how-it-works-dubai-hero.webp"
         schema={{
@@ -137,8 +137,8 @@ export default function HowItWorks() {
       {/* Section 1: Hero */}
       <PageHero
         eyebrow="THE EXPERIENCE"
-        title="How to Book a Private Chef Dubai"
-        subtitle="How to Book a Private Chef Dubai by myCHEF — Tell us your occasion and we will bring you a vetted chef within 24 hours. From your first message to the final course — every step is designed and coordinated with care."
+        title="How to Book a Private Chef Dubai for One Evening"
+        subtitle="One night, one occasion: you tell us the date and the table, we design the menu and choose the chef. A chef who comes back most weeks is a household plan, and that works differently."
         image="/images/how-it-works-dubai-hero.webp"
         imageAlt="How myCHEF works"
         breadcrumb={[{ label: 'Home', href: '/' }, { label: 'How It Works' }]}

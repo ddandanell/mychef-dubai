@@ -15,7 +15,9 @@ import {
   ASSISTANT_RATES,
   CUSTOM_STAFFING_FROM,
   LONG_TERM_MIN_SERVICES,
+  SERVICES,
   OVERTIME,
+  overtimeRate,
   RESCHEDULE_NOTICE_HOURS,
   SPECIALISTS,
   fmt,
@@ -180,7 +182,7 @@ export const PLAN_TERMS: TermGroup[] = [
         id: 'overtime',
         title: 'Need the chef for longer?',
         paragraphs: [
-          `Standard Full-Day Private Chef: ${OVERTIME.standardDayHours} hours. Additional Professional Chef time: ${fmt(OVERTIME.professional)} per hour. Additional Head Chef time: ${fmt(OVERTIME.head)} per hour. Additional assistant time: ${fmt(OVERTIME.assistant)} per hour.`,
+          `Standard Full-Day Private Chef: ${OVERTIME.standardDayHours} hours. Extra time is the hourly rate of that job plus ${OVERTIME.uplift * 100}% — ${SERVICES.map((s) => `${s.name} ${fmt(overtimeRate(s.id))}`).join(', ')} per hour. Additional assistant time: ${fmt(OVERTIME.assistant)} per hour. The uplift goes to the supplier who employs the chef; the chef stays on their normal rate, so a long day is nobody's incentive.`,
           'Short extensions can often be handled by your regular chef when arranged in advance. Longer coverage may require a second chef or rotating team so service quality and working conditions remain sustainable.',
         ],
         decisionRelevant: true,

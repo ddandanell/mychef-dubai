@@ -7,7 +7,6 @@ import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover
 import { cn } from '@/lib/utils'
 import {
   ASSISTANT_RATES,
-  CHEF_LEVELS,
   DEFAULT_INPUT,
   FEE_INCLUDES,
   FEE_SEPARATE,
@@ -26,6 +25,7 @@ import {
   type ServiceId,
 } from '@/content/privateChefPricing'
 import { CLUSTER_PATHS } from '@/content/privateChefCluster'
+import { EMPLOYMENT, QUALITY_LEVELS } from '@/content/privateChefStandard'
 import { feedbackFor, type LastChange } from './feedback'
 import PlanForm from './PlanForm'
 import PlanSheet from './PlanSheet'
@@ -161,11 +161,11 @@ export default function PriceCalculator() {
                     </span>
                     <span className="mt-4 flex items-baseline justify-between gap-3">
                       <span className="font-playfair text-h3 leading-none text-gold-ink tabular-nums whitespace-nowrap">
-                        {fmt(s.rates[input.chef])}
+                        {fmt(s.rate)}
                         <span className="ml-1 font-inter text-caption text-gray-400">/ {s.unit === 'day' ? 'day' : 'visit'}</span>
                       </span>
                       <span className="font-inter text-caption text-gray-400 whitespace-nowrap">
-                        {input.chef === 'head' ? 'Pro' : 'Head'} {fmt(s.rates[input.chef === 'head' ? 'professional' : 'head'])}
+                        {s.hours}h · one price
                       </span>
                     </span>
                     {on ? (
@@ -212,21 +212,21 @@ export default function PriceCalculator() {
             )}
           </Row>
 
-          <Row label="Chef level">
-            <div role="group" aria-label="Chef level" className="grid grid-cols-2 border border-gray-200">
-              {CHEF_LEVELS.map((c) => {
-                const on = input.chef === c.id
-                return (
-                  <button key={c.id} type="button" aria-pressed={on} onClick={() => set('chef', c.id)} className={cn('px-4 py-4 text-center transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-inset', on ? 'bg-cream' : 'bg-white hover:bg-cream/40')}>
-                    <span className={cn('block font-playfair text-h4 leading-none', on ? 'text-gold-ink' : 'text-gray-700')}>{c.name}</span>
-                    <span className="mt-1.5 block font-inter text-caption text-gray-400">{c.note}</span>
-                  </button>
-                )
-              })}
+          <Row label="Who cooks" hint="One price for the job. The level is what the chef earns for doing it well — the figure below does not move.">
+            <div className="grid gap-2 sm:grid-cols-3">
+              {QUALITY_LEVELS.map((level) => (
+                <div key={level.id} className="border border-gray-200 px-4 py-3">
+                  <span className="block font-playfair text-h4 leading-none text-gold-ink">{level.name}</span>
+                  <span className="mt-1 block font-inter text-caption uppercase tracking-wider text-gray-400">
+                    {level.label} · {level.extraPct ? `+${level.extraPct * 100}% to the chef` : 'the price is the price'}
+                  </span>
+                  <span className="mt-2 block font-inter text-body-sm text-gray-600">{level.meaning}</span>
+                </div>
+              ))}
             </div>
             <p className="mt-3 font-inter text-body-sm text-gray-500">
-              {quote.chef.bestFor.slice(0, 3).join(' · ')}.{' '}
-              <Link to={CLUSTER_PATHS.ourChefs} className="text-gold-ink underline underline-offset-4">How we evaluate chefs</Link>
+              {EMPLOYMENT.short} The quality extra is paid to the registered chef, not to the company that sent them.{' '}
+              <Link to={CLUSTER_PATHS.ourChefs} className="text-gold-ink underline underline-offset-4">How we score chefs</Link>
             </p>
           </Row>
 
@@ -279,7 +279,7 @@ export default function PriceCalculator() {
           <p className="font-inter text-caption uppercase tracking-[0.14em] text-gold-ink mb-3">Your plan is ready</p>
           <h3 className="font-playfair text-fluid-h2 text-black mb-4">Send this plan to myCHEF.</h3>
           <p className="font-inter text-body text-gray-600 leading-relaxed">
-            {quote.chef.name} · {quote.service.name} · {quote.shortStay ? `${input.stayDays} chef days` : `${input.daysPerWeek} day${input.daysPerWeek > 1 ? 's' : ''} a week`} ·{' '}
+            {quote.service.name} · {quote.shortStay ? `${input.stayDays} chef days` : `${input.daysPerWeek} day${input.daysPerWeek > 1 ? 's' : ''} a week`} ·{' '}
             <span className="text-gold-ink font-medium">{quote.shortStay ? `${fmt(quote.total ?? 0)} for the stay` : `${fmt(quote.perMonth)} a month`}</span>
           </p>
           <p className="mt-3 font-inter text-body-sm text-gray-500">A coordinator checks chef availability for your days and area, and comes back with the exact figure in writing — before anything starts.</p>

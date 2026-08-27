@@ -43,9 +43,9 @@ export default function PlanSummary({ input, quote, feedback, whatsappHref, vari
     <aside className={cn('bg-white border-t-2 border-t-gold', sheet ? '' : 'border border-gray-200')} aria-live="polite">
       <div className={cn('border-b border-gray-200', sheet ? 'px-5 py-5' : 'p-6 lg:p-7')}>
         <p className="font-inter text-caption uppercase tracking-[0.14em] text-gold-ink mb-2">Your plan</p>
-        <p className="font-playfair text-h4 text-black">{quote.chef.name}</p>
+        <p className="font-playfair text-h4 text-black">{quote.service.name}</p>
         <p className="mt-1 font-inter text-body-sm text-gray-600">
-          {quote.service.name} · {quote.hoursPerService} hours a visit
+          {quote.hoursPerService} hours a visit
           {quote.service.asksMeal ? ` · ${input.meal}` : ''}
         </p>
         <p className="font-inter text-body-sm text-gray-600">

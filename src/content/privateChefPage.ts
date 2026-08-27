@@ -13,7 +13,7 @@ export function monthlyFrom(perService: number, daysPerWeek: number, zoneFee = 0
 }
 
 /** Entry long-term figure: Professional Chef, one Fresh Meal a week. From the pricing engine. */
-export const ENTRY_MONTHLY = monthlyFrom(SERVICES[0].rates.professional, 1)
+export const ENTRY_MONTHLY = monthlyFrom(SERVICES[0].rate, 1)
 
 export const SEO_TITLE = `Private Chef Dubai | From ${formatAed(ENTRY_MONTHLY)} a Month | myCHEF`
 export const SEO_DESCRIPTION =
@@ -537,12 +537,18 @@ export const calibration = [
 
 export const scoreDemo = {
   eyebrow: 'How a week is reviewed',
-  note: 'Example scores to show the mechanism. Not a published review.',
+  note: 'The four questions themselves. The numbers beside them are an illustration of the mechanism, not a chef’s published record — no score on this site is invented.',
   scores: [
-    { label: 'Food', value: 5 },
-    { label: 'Service', value: 5 },
-    { label: 'Team', value: 4 },
-    { label: 'Communication', value: 5 },
+    { label: 'The service', value: 5 },
+    { label: 'The food', value: 5 },
+    { label: 'The person', value: 4 },
+    { label: 'Anything better', value: null },
+  ],
+  bands: [
+    { band: '4.0 and up', effect: 'Climbs a level at the next review — and 10% or 20% more to the chef.' },
+    { band: '3.5 – 3.9', effect: 'Holds the current level.' },
+    { band: 'Under 3.5', effect: 'Drops a level, and we look at the match before we look at the person.' },
+    { band: 'Under 2.5, twice', effect: 'That person stops working in houses through us.' },
   ],
   steps: [
     { title: 'One score that is off', body: 'A conversation — not a punishment machine.' },
@@ -607,12 +613,12 @@ export const networkSpecialties = [
 
 export const levelSpecialtyExamples = [
   { level: 'A Professional Chef', specialty: 'can be an exceptional Indian cook' },
-  { level: 'A Senior Chef', specialty: 'can specialise in Japanese cuisine' },
-  { level: 'A Sushi Specialist', specialty: 'can join for one Friday dinner alongside your regular chef' },
+  { level: 'Your regular chef', specialty: 'cooks the week the house actually eats' },
+  { level: 'A sushi specialist', specialty: 'can join for one Friday dinner alongside them — an add-on, not a rank' },
 ] as const
 
 export const whatThisIs = [
-  'myCHEF is not a list of chefs you have to manage, and not a staffing agency that puts someone on your payroll. Independent, licensed culinary partners cook. We organise the chef: the match, the standard and the backup.',
+  'myCHEF is not a list of chefs you have to manage, and not a staffing agency that puts someone on your payroll. A licensed supplier employs your chef on a proper visa. We organise the chef: the match, the standard, the score and the backup — and the quality extra is paid to the cook, not to the company that sent them.',
   'You are buying a standing food service for a household — a chef who comes back, a record of how this house eats, and one contact when something changes. That is a different product from a one-night dinner. A one-night dinner is catering.',
   'Before anyone enters your kitchen we check identity and right-to-work, run a practical cooking assessment, take references, and review after service. Every chef in the network carries a level they earned through that assessment — and keeps earning through verified client feedback. The whole system is explained on this page.',
   'The chef cooks. We keep the chef, the house and the standard aligned. The longer you stay, the less you should have to explain. That is the point of a long-term private chef — not a series of one-day hires.',
@@ -661,12 +667,12 @@ export const comparison = [
   {
     topic: 'Paperwork and the relationship',
     alone: 'You own it — visas, cover, awkward conversations, the Sunday when nobody is free.',
-    mychef: 'You talk to one person. We manage the network. Independent licensed partners cook. You are not putting a chef on your payroll.',
+    mychef: 'You talk to one person. We manage the network. A licensed supplier employs the chef on a visa we have seen. You are not putting a chef on your payroll.',
   },
   {
     topic: 'Cost',
     alone: 'A freelancer can look cheaper on day one. You are paying for the person only. Backup, matching, review and a kitchen that already knows the house are unpaid work — yours.',
-    mychef: 'The person plus backup, matching, review, and a kitchen that already knows the house. The price is built openly from the role — chef level, working time, days, contract length and responsibilities — and you see it in writing before anything starts.',
+    mychef: 'The person plus backup, matching, review, and a kitchen that already knows the house. The price is built openly from the job — which service, how long, how many days, how long the plan runs — and you see it in writing before anything starts. There is no premium grade of chef to be sold up to.',
   },
 ]
 
@@ -821,40 +827,44 @@ export const whoDoesWhat = [
   },
 ]
 
-/* ---------- Chef quality — Professional, Senior, Specialist (+ Lead Chef) ---------- */
+/* ---------- Chef quality — one client word, three levels of pay ---------- */
 
+/**
+ * There is one word for the person who cooks in your house: a professional chef. What has three
+ * levels is what that chef earns. Two client-facing grades beside a Level 1/2/3 supplier ladder
+ * beside a "Head Chef" price gave one person three names and the house three stories.
+ */
 export const chefLevels = [
   {
-    name: 'Professional Chef',
-    tag: 'The standard',
-    useCase: 'Strong everyday household cooking',
-    body: 'Suitable for regular family meals, meal preparation and straightforward international cuisines. Displayed prices start here — and Professional is a pass, not a consolation prize: a chef below our standard is not placed at all.',
+    name: 'Level 1',
+    tag: 'Starting',
+    useCase: 'Every chef who passes the assessment',
+    body: 'Nobody cooks in a house without passing identity, right-to-work, a practical cooking assessment and references. Level 1 is a pass, not a consolation prize — a chef below the standard is not placed at all. The price you see is the price, whoever is standing in the kitchen.',
   },
   {
-    name: 'Senior Chef',
-    tag: 'More experienced',
-    useCase: 'Demanding households and broader requirements',
-    body: 'Better for demanding households, broader cuisine requirements, entertaining and more technical cooking. Recommended when the role calls for it — and you see the price difference before you book.',
+    name: 'Level 2',
+    tag: 'Good work · +10% to the chef',
+    useCase: 'Scored 4.0 or better across a full month of visits',
+    body: 'The households they cook for score the service, the food, the person and what would make next week better. A month at 4.0 or better moves the chef to Level 2, and they earn 10% more for the same job. Your figure does not move.',
   },
   {
-    name: 'Specialist Chefs',
-    tag: 'By cuisine or craft',
-    useCase: 'A particular cuisine or skill, for the occasion',
-    body: 'Sushi, pastry, Japanese, nutrition-focused cooking, fine dining and particular regional cuisines. Booked alongside your regular chef for the meal that needs one — quoted per occasion, so you never pay specialist rates for Tuesday’s family dinner.',
+    name: 'Level 3',
+    tag: 'Kept good work · +20% to the chef',
+    useCase: 'Held 4.0 or better for three months',
+    body: 'Three months at 4.0 or better is Level 3: 20% more to the chef, and the catering work opens up, because a person who holds a house together is the person we want running an event. Anyone can slip back — under 3.5 drops a level, and twice under 2.5 ends the household work.',
   },
 ] as const
 
-export const leadChef = {
-  eyebrow: 'By arrangement',
-  name: 'Lead Chef',
-  useCase: 'When the job requires leadership',
-  body: 'Private events, complex dinners and larger groups — typically 50 guests and up — where a Lead Chef runs a full team of chefs and assistants, the menu is designed for the occasion, and everything is included in one event price. This is for the occasions where perfection is the point.',
-  cta: 'We do not publish a price for this. Reach out for access.',
+/** Specialists are an add-on for one meal, not a rank on the ladder. */
+export const specialistChefs = {
+  name: 'Specialists',
+  useCase: 'A particular cuisine or craft, for the occasion',
+  body: 'Sushi, pastry, a particular regional kitchen. Booked alongside your regular chef for the meal that needs one, quoted per occasion — so Tuesday’s family dinner is never billed at a specialist rate. A specialist is not a higher level; it is a different skill for one night.',
 }
 
 export const chefLevelIntro = [
-  'We used to publish a five-step chef hierarchy. We simplified it — because choosing a chef should not require studying a ladder. There are now two household quality levels, Professional and Senior, plus Specialists for particular cuisines and a Lead Chef for large events. That is the whole system.',
-  'None of these are restaurant titles. A chef’s profile shows both: their previous professional title, and the myCHEF quality they earned through our assessment and verified client performance. “Previous title: Executive Chef. myCHEF quality: Senior Chef.” One is history. The other is evidence.',
+  'One ladder, and it is about money rather than rank. Level 1 is where every chef starts and the price the house pays is the price. Level 2 is 10% more to the chef for a month scored 4.0 or better. Level 3 is 20% more for holding that for three months. The extra is paid to the registered chef, not to the company that sent them — and a house is never asked to pay more for the person it already likes.',
+  'None of these are restaurant titles. A chef’s profile shows both: the professional title they carried before, and the level they earned here through assessment and real household scores. “Previous title: Executive Chef. myCHEF level: 2.” One is history. The other is evidence.',
 ]
 
 export const restaurantTitle = {
@@ -1259,7 +1269,7 @@ export const inspectUs = [
 export const featuredChefs = [
   {
     name: 'Ahmed Al-Rashid',
-    role: 'Independent partner chef',
+    role: 'Sample profile · format only',
     cuisine: 'Modern European & fine dining',
     specialties: ['French technique', 'Villa dining', 'Fine dining'],
     experience: '18+ years',
@@ -1268,7 +1278,7 @@ export const featuredChefs = [
   },
   {
     name: 'Marco Rossi',
-    role: 'Independent partner chef',
+    role: 'Sample profile · format only',
     cuisine: 'Italian & Mediterranean',
     specialties: ['Italian', 'Pasta', 'Family-style'],
     experience: '15+ years',
@@ -1277,7 +1287,7 @@ export const featuredChefs = [
   },
   {
     name: 'Layla Hassan',
-    role: 'Independent partner chef',
+    role: 'Sample profile · format only',
     cuisine: 'Arabic & Levantine',
     specialties: ['Arabic', 'Mezze', 'Grilled meats'],
     experience: '14+ years',
@@ -1286,7 +1296,7 @@ export const featuredChefs = [
   },
   {
     name: 'Matteo Moretti',
-    role: 'Independent partner chef',
+    role: 'Sample profile · format only',
     cuisine: 'Patisserie & dessert design',
     specialties: ['Pastry', 'Chocolate', 'Plated desserts'],
     experience: '12+ years',

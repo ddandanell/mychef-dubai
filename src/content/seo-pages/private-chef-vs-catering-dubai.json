@@ -1,267 +1,267 @@
 {
- "url": "/private-chef-vs-catering-dubai",
- "keyword_strategy": {
-  "main_keyword": "private chef vs dubai",
-  "main_keyword_placed_in": {
-   "title": true,
-   "h1": true,
-   "meta_description": true,
-   "opening_paragraph": true
+  "url": "/private-chef-vs-catering-dubai",
+  "keyword_strategy": {
+    "main_keyword": "private chef vs dubai",
+    "main_keyword_placed_in": {
+      "title": true,
+      "h1": true,
+      "meta_description": true,
+      "opening_paragraph": true
+    },
+    "subkeywords_total": 17,
+    "subkeywords_carried": 14,
+    "coverage_percent": 82,
+    "subkeywords_carried_list": [
+      "personal chef vs private chef",
+      "how much does a private chef cost in dubai?",
+      "live in chef dubai",
+      "private chef vs dubai cost",
+      "private chef vs dubai price",
+      "full time private chef dubai",
+      "private chef dubai cost",
+      "private chef dubai hire",
+      "hire private chef dubai",
+      "best private chef dubai",
+      "book private chef dubai",
+      "private chef dubai daily",
+      "private chef dubai full time",
+      "how much does it cost to hire a private chef"
+    ],
+    "subkeywords_not_carried": [
+      "is dubai good for chefs?",
+      "do private chefs make more money?",
+      "how much does a private chef earn in dubai?"
+    ],
+    "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
   },
-  "subkeywords_total": 17,
-  "subkeywords_carried": 14,
-  "coverage_percent": 82,
-  "subkeywords_carried_list": [
-   "personal chef vs private chef",
-   "how much does a private chef cost in dubai?",
-   "live in chef dubai",
-   "private chef vs dubai cost",
-   "private chef vs dubai price",
-   "full time private chef dubai",
-   "private chef dubai cost",
-   "private chef dubai hire",
-   "hire private chef dubai",
-   "best private chef dubai",
-   "book private chef dubai",
-   "private chef dubai daily",
-   "private chef dubai full time",
-   "how much does it cost to hire a private chef"
+  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
+  "head": {
+    "title": "Private Chef vs Catering in Dubai: Your Private Chef vs Dubai Guide (2026) | myCHEF Dubai",
+    "meta_description": "Private chef vs catering in Dubai: a private chef is a standing arrangement — the same person comes back to your house. Catering is one night. Guest count only decides the team, not which door you use.",
+    "h1": "Private Chef vs Catering in Dubai — the House or the Night"
+  },
+  "opening_paragraph": [
+    "The split is not guest count. A private chef is a standing arrangement: the same person comes back to your house, with a Food Profile of how you eat and backup when they are off. Catering is one night — a dinner, a party, an event, a team that arrives and leaves. A Tuesday and Thursday for a family of five is a private chef. A birthday for eight on Saturday is catering, in the same kitchen, because nobody is coming back. Guest count decides how big the team is, and when a house night has grown into an event; it does not decide which company you are talking to. Household plans are priced per visit, from AED 750; catering is priced per person, from AED 90 for drop-off to AED 700–950 for a chef-led plated dinner."
   ],
-  "subkeywords_not_carried": [
-   "is dubai good for chefs?",
-   "do private chefs make more money?",
-   "how much does a private chef earn in dubai?"
+  "replace_in_block": [],
+  "leave_untouched": [
+    "Choose the Right Service for Your Occasion",
+    "When to Choose Each Option",
+    "Hybrid Options",
+    "How Group Size Affects the Decision",
+    "Explore Our Services",
+    "Private Chef vs Catering FAQ",
+    "Not Sure Which to Choose?",
+    "Explore myCHEF Dubai",
+    "Private Chef vs Catering Comparison"
   ],
-  "note": "The main term sits at the top - title, H1, meta and opening. The subkeywords are worked through the body in the order the sections run. Rewording these paragraphs breaks the strategy."
- },
- "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
- "head": {
-  "title": "Private Chef vs Catering in Dubai: Your Private Chef vs Dubai Guide (2026) | myCHEF Dubai",
-  "meta_description": "Private chef vs Dubai catering, explained: choose a private chef for an intimate meal cooked to order at home (about 2-12 guests, from AED 700-950 per person); choose catering to feed a crowd.",
-  "h1": "Private Chef vs Catering in Dubai — Real Prices and Timings"
- },
- "opening_paragraph": [
-  "A private chef is the better fit for small seated dinners; catering is built for volume. In a private chef vs Dubai catering decision, book a myCHEF private chef for an intimate meal cooked to order at home, from AED 700 per person; book catering to feed a crowd. A private chef sells the experience of a restaurant built for one table. Catering feeds a bigger room well. Everything below is that choice, explained in plain terms."
- ],
- "replace_in_block": [],
- "leave_untouched": [
-  "Choose the Right Service for Your Occasion",
-  "When to Choose Each Option",
-  "Hybrid Options",
-  "How Group Size Affects the Decision",
-  "Explore Our Services",
-  "Private Chef vs Catering FAQ",
-  "Not Sure Which to Choose?",
-  "Explore myCHEF Dubai",
-  "Private Chef vs Catering Comparison"
- ],
- "add_block": [
-  {
-   "new_heading": "What is the real difference between a private chef and catering?",
-   "new_paragraphs": [
-    "The difference comes down to intimacy versus scale. A private chef cooks a set menu in your kitchen, plates every course and clears up afterwards, so the evening runs like a small restaurant that exists only for your guests. Catering takes that same food and stretches it across a bigger event, with a service team, warmers and often a buffet behind it. Dubai's official Food Code treats both as a food establishment, which it defines as any place where food is prepared, traded or sold to the consumer, including caterers and temporary kitchens. So the legal category is the same; the experience is not."
-   ],
-   "insert_after_block": null,
-   "position": "at the very start of the page body, before 'Choose the Right Service for Your Occasion'",
-   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
-  },
-  {
-   "new_heading": "How many guests before you should switch to catering?",
-   "new_paragraphs": [
-    "Around twelve is the usual tipping point. One private chef can plate beautifully for roughly 2 to 12 covers before timing and hot-holding start to fight back. Beyond that you want stations, warmers and a team plating in parallel, which is catering territory. If your headcount sits right on that line, tell us the format you have in mind and we will point you to the right fit, since myCHEF runs both sides. A seated party for forty is a catering job. An anniversary dinner for six is a private chef job. Most bookings sort themselves out the moment you count heads."
-   ],
-   "insert_after_block": "Private Chef vs Catering Comparison",
-   "position": "after the block titled 'Private Chef vs Catering Comparison'",
-   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
-  },
-  {
-   "new_heading": "Personal chef vs private chef — not the same job",
-   "new_paragraphs": [
-    "A private chef cooks the meal you are about to eat, for one household or one event, and is in the room while you eat it. A personal chef normally works across several clients, comes in for a cooking session and leaves a week of food portioned and labelled in your fridge. The two words get used interchangeably in Dubai, but they buy different things: presence at the table, or food in the fridge.",
-    "That distinction maps onto three real arrangements. A private-chef dinner is priced per head at AED 700 to 950 and exists for one evening. Personal-chef style cooking is what our weekly meal prep is — from AED 1,898 a week for 2 to 3 sessions, or AED 2,698 for a larger household at 4 to 6 — where nobody serves you and the value is in the fridge on Wednesday. A full-time placement is a third thing again, quoted per programme. If the cooking itself is the occasion, you want a private chef. If the cooking is a logistics problem you would like solved, you want the personal-chef pattern."
-   ],
-   "insert_after_block": "Private Chef vs Catering Comparison",
-   "position": "after the block titled 'Private Chef vs Catering Comparison'",
-   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
-  },
-  {
-   "new_heading": "Live-in, full-time and daily cooking",
-   "new_paragraphs": [
-    "A live in chef dubai households ask about is a full-time placement with accommodation, and it sits outside the per-event pricing entirely. So does daily cooking without live-in: the same chef in your kitchen every day, cooking breakfast, lunch and dinner around your family's schedule. Both are quoted per programme instead of per head, because the variable is how much of the week the chef works — meals per day, days per week, live-in or travelling to you, and how often you entertain.",
-    "The useful way to choose is by frequency. One evening a month is a private-chef booking. A few structured cooking sessions a week is meal prep. Every day is a full time private chef dubai placement, and that is where a written programme quote replaces a per-person rate. Guests do not change that logic — a placement chef still steps up to cook a dinner party, at the same per-head event rates."
-   ],
-   "insert_after_block": "Private Chef vs Catering Comparison",
-   "position": "after the block titled 'Private Chef vs Catering Comparison'",
-   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
-  },
-  {
-   "new_heading": "Do private chefs and caterers in Dubai need the same licences?",
-   "new_paragraphs": [
-    "They share one regulator, but the permit route differs. In Dubai, food safety sits with the Dubai Municipality Food Safety Department, which enforces the Dubai Food Code across every food establishment. A catering company works under a trade licence plus a food establishment permit, while cooking at a private event, classed as party cooking, needs event approval. The official Dubai Municipality permits guidance states the application is filed at least three working days before the event, with the caterer, venue and organiser registered on Dubai's FoodWatch platform. Every myCHEF chef works inside these rules, so the paperwork is not your problem."
-   ],
-   "insert_after_block": "Private Chef vs Catering Comparison",
-   "position": "after the block titled 'Private Chef vs Catering Comparison'",
-   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
-  },
-  {
-   "new_heading": "Which myCHEF chef cooks what?",
-   "new_paragraphs": [
-    "We match the chef to the cuisine, then vet all of them the same way. Marco Rossi leads Italian and Mediterranean menus; Layla Hassan handles Arabic, halal and Ramadan or iftar tables; Matteo Moretti builds the pastry, wedding and dessert work; Ahmed Al-Rashid takes fine dining and anything that needs a steady default. Before a chef cooks for a client we run identity checks, a practical cooking assessment, reference verification and ongoing performance reviews, so the person at your stove is a known quantity. There is no single best private chef in Dubai, whatever a directory tells you; the right one for your evening is whoever cooks that cuisine properly and is free on your date. You can see how each brief played out in our, or read more on the private chef side."
-   ],
-   "insert_after_block": "Private Chef vs Catering Comparison",
-   "position": "after the block titled 'Private Chef vs Catering Comparison'",
-   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
-  },
-  {
-   "new_heading": "How do prices and menus work?",
-   "new_paragraphs": [
-    "You pay a private chef per person and a caterer per event. A private chef dinner starts around AED 700 to 950 per guest and climbs with extra courses, premium ingredients and party size; a bespoke tasting menu with wine pairing starts at AED 1,400 per head. Catering is packaged instead: a drop-off spread might open near AED 2,400, a staffed buffet around AED 3,600, and a full plated event with service closer to AED 4,500 to 5,500, depending on numbers and format. Every quote is itemised, and you can compare live figures on our prices page. No two menus in Dubai are identical, so the menu drives the number, not a rate card."
-   ],
-   "insert_after_block": "Private Chef vs Catering Comparison",
-   "position": "after the block titled 'Private Chef vs Catering Comparison'",
-   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
-  },
-  {
-   "new_heading": "When should you book each one, and what should you plan?",
-   "new_paragraphs": [
-    "Book a private chef when the night is about the experience, and catering when it is about volume. That is how to weigh the two in practice. A short planning checklist: fix the date, count guests, pick a venue, then decide between plated intimacy and a self-serve spread. For date nights, small celebrations and villa dinners, hire a private chef; for weddings, corporate functions and large parties, choose catering. If you are weighing a personal chef or caterer near me and want ideas or tips before you commit, send us the occasion and we will map both against your budget. Start from private chef or catering in Dubai ."
-   ],
-   "insert_after_block": "Private Chef vs Catering Comparison",
-   "position": "after the block titled 'Private Chef vs Catering Comparison'",
-   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
-  },
-  {
-   "new_heading": "Plan it with myCHEF",
-   "new_paragraphs": [
-    "Ready to book or want an exact quote? Private Chef · Catering · Prices . Tell us the occasion and guest count, and because myCHEF does both, we will steer you to the right one."
-   ],
-   "insert_after_block": "Private Chef vs Catering Comparison",
-   "position": "after the block titled 'Private Chef vs Catering Comparison'",
-   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
-  },
-  {
-   "new_heading": "Planning either option step by step",
-   "new_paragraphs": [
-    "Send your date, guest count and venue — your proposal arrives.",
-    "Book a private-chef dinner at least 48 hours ahead and a catering package 72 hours ahead; live stations and multi-staff events want 3 to 5 days, larger productions 7 to 14.",
-    "Confirm the menu about 7 days out, when the guest list is firm.",
-    "Ask early about allergies and dietary plates — not in the last 48 hours before the event.",
-    "Check the access route before the day — setup starts roughly 2 hours ahead.",
-    "Plan on roughly 3 hours of service, and add 5% VAT to the total."
-   ],
-   "insert_after_block": "Private Chef vs Catering Comparison",
-   "position": "after the block titled 'Private Chef vs Catering Comparison'",
-   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
-  },
-  {
-   "new_heading": "Frequently asked questions",
-   "new_paragraphs": [
-    "What is the short answer?",
-    "Choose a private chef for an intimate meal cooked to order in your home (usually 2-12 guests, from AED 700-950 per person); choose catering for a larger event with service staff, buffets or stations.",
-    "How much does a private chef cost in Dubai?",
-    "AED 950 to 1,300 per head at a table of two, AED 750 to 1,000 at six, AED 700 to 950 at ten, and from AED 600 above twenty guests. A tasting menu with wine pairing starts at AED 1,400 a head. How much it costs to hire a private chef therefore falls as the table grows, because one chef's evening is shared between more plates.",
-    "What is the difference between a personal chef and a private chef?",
-    "A private chef cooks the meal you are about to eat and is there while you eat it. A personal chef usually cooks across several clients and leaves a week of portioned food in your fridge. In our range that is a private-chef dinner from AED 700 per person versus weekly meal prep from AED 1,898.",
-    "Can I book a chef daily, or live-in?",
-    "Yes. Daily cooking and live-in placements are quoted per programme instead of per head, because the variable is how much of the week the chef works — meals per day, days worked, live-in or travelling in, and how often you entertain. Event cooking for guests is still charged at the per-person rate.",
-    "Which is cheaper for a small dinner, a private chef or a caterer?",
-    "A private chef is usually cheaper for a small dinner, because you pay a per-head rate instead of an event minimum built for a crowd. At six or eight guests that per-person figure is often better value than a catered package.",
-    "How many guests can one private chef cook for?",
-    "One private chef comfortably plates for about 2 to 12 guests. Beyond a dozen covers the timing gets hard for a single pair of hands, and you move into catering with stations and a service team.",
-    "Do I need a permit for a private chef at my villa?",
-    "No, the chef handles it. Under Dubai Municipality rules, cooking at a private event is party cooking and needs event approval, filed at least three working days before the date, so you never touch the paperwork.",
-    "Can myCHEF cook halal and special-diet menus?",
-    "Yes. Halal is standard, and Layla Hassan builds Arabic, Ramadan and iftar menus, while any menu can be adapted for vegetarian, allergy-aware and other dietary needs on request.",
-    "How do I get an exact quote?",
-    "Share your date, guest count and venue with myCHEF and you will get an itemised proposal, usually within one business day. The more detail on format and headcount, the tighter the number.",
-    "Which chef will cook at my event?",
-    "We match the cuisine to the chef: Marco Rossi for Italian and Mediterranean, Layla Hassan for Arabic and halal, Matteo Moretti for pastry and desserts, and Ahmed Al-Rashid for fine dining."
-   ],
-   "insert_after_block": "Private Chef vs Catering Comparison",
-   "position": "after the block titled 'Private Chef vs Catering Comparison'",
-   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
-  },
-  {
-   "new_heading": "Sources",
-   "new_paragraphs": [
-    "Food safety in Dubai is governed by official authorities. According to the Dubai Municipality Food Safety Department , the Dubai Food Code defines a food establishment to include caterers and temporary kitchens, and the Food-Related Permits and Approvals guidance sets the event-approval timeline for party cooking. Confirm current requirements with these official sources.",
-    "Request a proposal or see private chef prices ."
-   ],
-   "insert_after_block": "Private Chef vs Catering Comparison",
-   "position": "after the block titled 'Private Chef vs Catering Comparison'",
-   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
-  },
-  {
-   "new_heading": "Private chef vs Dubai catering: which one costs less?",
-   "new_paragraphs": [
-    "For a small dinner a private chef usually wins on value; for a big event, catering does. A private chef is priced per head, from AED 700 to 950 per person, and independent Dubai cost guides for 2026 note that the per-person figure falls as guest numbers rise, because the chef's fixed time and travel spread across more plates. Catering is quoted by guest count and format, and a self-serve buffet is normally the most economical option per head because it needs fewer service staff. The honest rule on cost: under about a dozen guests the private chef is the sharper choice, and past that catering's price per plate slips below it."
-   ],
-   "insert_after_block": "Private Chef vs Catering Comparison",
-   "position": "after the block titled 'Private Chef vs Catering Comparison'",
-   "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
-   "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
-  }
- ],
- "faq": [
-  {
-   "question": "What is the short answer?",
-   "answer": [
-    "Choose a private chef for an intimate meal cooked to order in your home (usually 2-12 guests, from AED 700-950 per person); choose catering for a larger event with service staff, buffets or stations."
-   ]
-  },
-  {
-   "question": "How much does a private chef cost in Dubai?",
-   "answer": [
-    "AED 950 to 1,300 per head at a table of two, AED 750 to 1,000 at six, AED 700 to 950 at ten, and from AED 600 above twenty guests. A tasting menu with wine pairing starts at AED 1,400 a head. How much it costs to hire a private chef therefore falls as the table grows, because one chef's evening is shared between more plates."
-   ]
-  },
-  {
-   "question": "What is the difference between a personal chef and a private chef?",
-   "answer": [
-    "A private chef cooks the meal you are about to eat and is there while you eat it. A personal chef usually cooks across several clients and leaves a week of portioned food in your fridge. In our range that is a private-chef dinner from AED 700 per person versus weekly meal prep from AED 1,898."
-   ]
-  },
-  {
-   "question": "Can I book a chef daily, or live-in?",
-   "answer": [
-    "Yes. Daily cooking and live-in placements are quoted per programme instead of per head, because the variable is how much of the week the chef works — meals per day, days worked, live-in or travelling in, and how often you entertain. Event cooking for guests is still charged at the per-person rate."
-   ]
-  },
-  {
-   "question": "Which is cheaper for a small dinner, a private chef or a caterer?",
-   "answer": [
-    "A private chef is usually cheaper for a small dinner, because you pay a per-head rate instead of an event minimum built for a crowd. At six or eight guests that per-person figure is often better value than a catered package."
-   ]
-  },
-  {
-   "question": "How many guests can one private chef cook for?",
-   "answer": [
-    "One private chef comfortably plates for about 2 to 12 guests. Beyond a dozen covers the timing gets hard for a single pair of hands, and you move into catering with stations and a service team."
-   ]
-  },
-  {
-   "question": "Do I need a permit for a private chef at my villa?",
-   "answer": [
-    "No, the chef handles it. Under Dubai Municipality rules, cooking at a private event is party cooking and needs event approval, filed at least three working days before the date, so you never touch the paperwork."
-   ]
-  },
-  {
-   "question": "Can myCHEF cook halal and special-diet menus?",
-   "answer": [
-    "Yes. Halal is standard, and Layla Hassan builds Arabic, Ramadan and iftar menus, while any menu can be adapted for vegetarian, allergy-aware and other dietary needs on request."
-   ]
-  },
-  {
-   "question": "How do I get an exact quote?",
-   "answer": [
-    "Share your date, guest count and venue with myCHEF and you will get an itemised proposal, usually within one business day. The more detail on format and headcount, the tighter the number."
-   ]
-  },
-  {
-   "question": "Which chef will cook at my event?",
-   "answer": [
-    "We match the cuisine to the chef: Marco Rossi for Italian and Mediterranean, Layla Hassan for Arabic and halal, Matteo Moretti for pastry and desserts, and Ahmed Al-Rashid for fine dining."
-   ]
-  }
- ]
+  "add_block": [
+    {
+      "new_heading": "What is the real difference between a private chef and catering?",
+      "new_paragraphs": [
+        "The difference comes down to intimacy versus scale. A private chef cooks a set menu in your kitchen, plates every course and clears up afterwards, so the evening runs like a small restaurant that exists only for your guests. Catering takes that same food and stretches it across a bigger event, with a service team, warmers and often a buffet behind it. Dubai's official Food Code treats both as a food establishment, which it defines as any place where food is prepared, traded or sold to the consumer, including caterers and temporary kitchens. So the legal category is the same; the experience is not."
+      ],
+      "insert_after_block": null,
+      "position": "at the very start of the page body, before 'Choose the Right Service for Your Occasion'",
+      "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+    },
+    {
+      "new_heading": "How many guests before you should switch to catering?",
+      "new_paragraphs": [
+        "Around twelve is the usual tipping point. One private chef can plate beautifully for roughly 2 to 12 covers before timing and hot-holding start to fight back. Beyond that you want stations, warmers and a team plating in parallel, which is catering territory. If your headcount sits right on that line, tell us the format you have in mind and we will point you to the right fit, since myCHEF runs both sides. A seated party for forty is a catering job. An anniversary dinner for six is a private chef job. Most bookings sort themselves out the moment you count heads."
+      ],
+      "insert_after_block": "Private Chef vs Catering Comparison",
+      "position": "after the block titled 'Private Chef vs Catering Comparison'",
+      "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+    },
+    {
+      "new_heading": "Personal chef vs private chef — not the same job",
+      "new_paragraphs": [
+        "A private chef cooks the meal you are about to eat, for one household or one event, and is in the room while you eat it. A personal chef normally works across several clients, comes in for a cooking session and leaves a week of food portioned and labelled in your fridge. The two words get used interchangeably in Dubai, but they buy different things: presence at the table, or food in the fridge.",
+        "That distinction maps onto three real arrangements. A private-chef dinner is priced per head at AED 700 to 950 and exists for one evening. Personal-chef style cooking is what our weekly meal prep is — from AED 1,898 a week for 2 to 3 sessions, or AED 2,698 for a larger household at 4 to 6 — where nobody serves you and the value is in the fridge on Wednesday. A full-time placement is a third thing again, quoted per programme. If the cooking itself is the occasion, you want a private chef. If the cooking is a logistics problem you would like solved, you want the personal-chef pattern."
+      ],
+      "insert_after_block": "Private Chef vs Catering Comparison",
+      "position": "after the block titled 'Private Chef vs Catering Comparison'",
+      "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+    },
+    {
+      "new_heading": "Live-in, full-time and daily cooking",
+      "new_paragraphs": [
+        "A live in chef dubai households ask about is a full-time placement with accommodation, and it sits outside the per-event pricing entirely. So does daily cooking without live-in: the same chef in your kitchen every day, cooking breakfast, lunch and dinner around your family's schedule. Both are quoted per programme instead of per head, because the variable is how much of the week the chef works — meals per day, days per week, live-in or travelling to you, and how often you entertain.",
+        "The useful way to choose is by frequency. One evening a month is a private-chef booking. A few structured cooking sessions a week is meal prep. Every day is a full time private chef dubai placement, and that is where a written programme quote replaces a per-person rate. Guests do not change that logic — a placement chef still steps up to cook a dinner party, at the same per-head event rates."
+      ],
+      "insert_after_block": "Private Chef vs Catering Comparison",
+      "position": "after the block titled 'Private Chef vs Catering Comparison'",
+      "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+    },
+    {
+      "new_heading": "Do private chefs and caterers in Dubai need the same licences?",
+      "new_paragraphs": [
+        "They share one regulator, but the permit route differs. In Dubai, food safety sits with the Dubai Municipality Food Safety Department, which enforces the Dubai Food Code across every food establishment. A catering company works under a trade licence plus a food establishment permit, while cooking at a private event, classed as party cooking, needs event approval. The official Dubai Municipality permits guidance states the application is filed at least three working days before the event, with the caterer, venue and organiser registered on Dubai's FoodWatch platform. Every myCHEF chef works inside these rules, so the paperwork is not your problem."
+      ],
+      "insert_after_block": "Private Chef vs Catering Comparison",
+      "position": "after the block titled 'Private Chef vs Catering Comparison'",
+      "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+    },
+    {
+      "new_heading": "Which myCHEF chef cooks what?",
+      "new_paragraphs": [
+        "We match the chef to the cuisine, then vet all of them the same way. Marco Rossi leads Italian and Mediterranean menus; Layla Hassan handles Arabic, halal and Ramadan or iftar tables; Matteo Moretti builds the pastry, wedding and dessert work; Ahmed Al-Rashid takes fine dining and anything that needs a steady default. Before a chef cooks for a client we run identity checks, a practical cooking assessment, reference verification and ongoing performance reviews, so the person at your stove is a known quantity. There is no single best private chef in Dubai, whatever a directory tells you; the right one for your evening is whoever cooks that cuisine properly and is free on your date. You can see how each brief played out in our, or read more on the private chef side."
+      ],
+      "insert_after_block": "Private Chef vs Catering Comparison",
+      "position": "after the block titled 'Private Chef vs Catering Comparison'",
+      "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+    },
+    {
+      "new_heading": "How do prices and menus work?",
+      "new_paragraphs": [
+        "You pay a private chef per person and a caterer per event. A private chef dinner starts around AED 700 to 950 per guest and climbs with extra courses, premium ingredients and party size; a bespoke tasting menu with wine pairing starts at AED 1,400 per head. Catering is packaged instead: a drop-off spread might open near AED 2,400, a staffed buffet around AED 3,600, and a full plated event with service closer to AED 4,500 to 5,500, depending on numbers and format. Every quote is itemised, and you can compare live figures on our prices page. No two menus in Dubai are identical, so the menu drives the number, not a rate card."
+      ],
+      "insert_after_block": "Private Chef vs Catering Comparison",
+      "position": "after the block titled 'Private Chef vs Catering Comparison'",
+      "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+    },
+    {
+      "new_heading": "When should you book each one, and what should you plan?",
+      "new_paragraphs": [
+        "Book a private chef when the night is about the experience, and catering when it is about volume. That is how to weigh the two in practice. A short planning checklist: fix the date, count guests, pick a venue, then decide between plated intimacy and a self-serve spread. For date nights, small celebrations and villa dinners, hire a private chef; for weddings, corporate functions and large parties, choose catering. If you are weighing a personal chef or caterer near me and want ideas or tips before you commit, send us the occasion and we will map both against your budget. Start from private chef or catering in Dubai ."
+      ],
+      "insert_after_block": "Private Chef vs Catering Comparison",
+      "position": "after the block titled 'Private Chef vs Catering Comparison'",
+      "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+    },
+    {
+      "new_heading": "Plan it with myCHEF",
+      "new_paragraphs": [
+        "Ready to book or want an exact quote? Private Chef · Catering · Prices . Tell us the occasion and guest count, and because myCHEF does both, we will steer you to the right one."
+      ],
+      "insert_after_block": "Private Chef vs Catering Comparison",
+      "position": "after the block titled 'Private Chef vs Catering Comparison'",
+      "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+    },
+    {
+      "new_heading": "Planning either option step by step",
+      "new_paragraphs": [
+        "Send your date, guest count and venue — your proposal arrives.",
+        "Book a private-chef dinner at least 48 hours ahead and a catering package 72 hours ahead; live stations and multi-staff events want 3 to 5 days, larger productions 7 to 14.",
+        "Confirm the menu about 7 days out, when the guest list is firm.",
+        "Ask early about allergies and dietary plates — not in the last 48 hours before the event.",
+        "Check the access route before the day — setup starts roughly 2 hours ahead.",
+        "Plan on roughly 3 hours of service, and add 5% VAT to the total."
+      ],
+      "insert_after_block": "Private Chef vs Catering Comparison",
+      "position": "after the block titled 'Private Chef vs Catering Comparison'",
+      "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+    },
+    {
+      "new_heading": "Frequently asked questions",
+      "new_paragraphs": [
+        "What is the short answer?",
+        "Choose a private chef for an intimate meal cooked to order in your home (usually 2-12 guests, from AED 700-950 per person); choose catering for a larger event with service staff, buffets or stations.",
+        "How much does a private chef cost in Dubai?",
+        "AED 950 to 1,300 per head at a table of two, AED 750 to 1,000 at six, AED 700 to 950 at ten, and from AED 600 above twenty guests. A tasting menu with wine pairing starts at AED 1,400 a head. How much it costs to hire a private chef therefore falls as the table grows, because one chef's evening is shared between more plates.",
+        "What is the difference between a personal chef and a private chef?",
+        "A private chef cooks the meal you are about to eat and is there while you eat it. A personal chef usually cooks across several clients and leaves a week of portioned food in your fridge. In our range that is a private-chef dinner from AED 700 per person versus weekly meal prep from AED 1,898.",
+        "Can I book a chef daily, or live-in?",
+        "Yes. Daily cooking and live-in placements are quoted per programme instead of per head, because the variable is how much of the week the chef works — meals per day, days worked, live-in or travelling in, and how often you entertain. Event cooking for guests is still charged at the per-person rate.",
+        "Which is cheaper for a small dinner, a private chef or a caterer?",
+        "A private chef is usually cheaper for a small dinner, because you pay a per-head rate instead of an event minimum built for a crowd. At six or eight guests that per-person figure is often better value than a catered package.",
+        "How many guests can one private chef cook for?",
+        "One private chef comfortably plates for about 2 to 12 guests. Beyond a dozen covers the timing gets hard for a single pair of hands, and you move into catering with stations and a service team.",
+        "Do I need a permit for a private chef at my villa?",
+        "No, the chef handles it. Under Dubai Municipality rules, cooking at a private event is party cooking and needs event approval, filed at least three working days before the date, so you never touch the paperwork.",
+        "Can myCHEF cook halal and special-diet menus?",
+        "Yes. Halal is standard, and Layla Hassan builds Arabic, Ramadan and iftar menus, while any menu can be adapted for vegetarian, allergy-aware and other dietary needs on request.",
+        "How do I get an exact quote?",
+        "Share your date, guest count and venue with myCHEF and you will get an itemised proposal, usually within one business day. The more detail on format and headcount, the tighter the number.",
+        "Which chef will cook at my event?",
+        "We match the cuisine to the chef: Marco Rossi for Italian and Mediterranean, Layla Hassan for Arabic and halal, Matteo Moretti for pastry and desserts, and Ahmed Al-Rashid for fine dining."
+      ],
+      "insert_after_block": "Private Chef vs Catering Comparison",
+      "position": "after the block titled 'Private Chef vs Catering Comparison'",
+      "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+    },
+    {
+      "new_heading": "Sources",
+      "new_paragraphs": [
+        "Food safety in Dubai is governed by official authorities. According to the Dubai Municipality Food Safety Department , the Dubai Food Code defines a food establishment to include caterers and temporary kitchens, and the Food-Related Permits and Approvals guidance sets the event-approval timeline for party cooking. Confirm current requirements with these official sources.",
+        "Request a proposal or see private chef prices ."
+      ],
+      "insert_after_block": "Private Chef vs Catering Comparison",
+      "position": "after the block titled 'Private Chef vs Catering Comparison'",
+      "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling."
+    },
+    {
+      "new_heading": "Private chef vs Dubai catering: which one costs less?",
+      "new_paragraphs": [
+        "For a small dinner a private chef usually wins on value; for a big event, catering does. A private chef is priced per head, from AED 700 to 950 per person, and independent Dubai cost guides for 2026 note that the per-person figure falls as guest numbers rise, because the chef's fixed time and travel spread across more plates. Catering is quoted by guest count and format, and a self-serve buffet is normally the most economical option per head because it needs fewer service staff. The honest rule on cost: under about a dozen guests the private chef is the sharper choice, and past that catering's price per plate slips below it."
+      ],
+      "insert_after_block": "Private Chef vs Catering Comparison",
+      "position": "after the block titled 'Private Chef vs Catering Comparison'",
+      "styling": "Use the SAME section markup this page already uses for its other blocks. Do not invent a new component, do not add an image, do not add or change any styling.",
+      "note": "Moved here from a replacement: this text is worth having, but it is not about the same thing as the block above it, so it is added rather than swapped in."
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is the short answer?",
+      "answer": [
+        "Choose a private chef for an intimate meal cooked to order in your home (usually 2-12 guests, from AED 700-950 per person); choose catering for a larger event with service staff, buffets or stations."
+      ]
+    },
+    {
+      "question": "How much does a private chef cost in Dubai?",
+      "answer": [
+        "AED 950 to 1,300 per head at a table of two, AED 750 to 1,000 at six, AED 700 to 950 at ten, and from AED 600 above twenty guests. A tasting menu with wine pairing starts at AED 1,400 a head. How much it costs to hire a private chef therefore falls as the table grows, because one chef's evening is shared between more plates."
+      ]
+    },
+    {
+      "question": "What is the difference between a personal chef and a private chef?",
+      "answer": [
+        "A private chef cooks the meal you are about to eat and is there while you eat it. A personal chef usually cooks across several clients and leaves a week of portioned food in your fridge. In our range that is a private-chef dinner from AED 700 per person versus weekly meal prep from AED 1,898."
+      ]
+    },
+    {
+      "question": "Can I book a chef daily, or live-in?",
+      "answer": [
+        "Yes. Daily cooking and live-in placements are quoted per programme instead of per head, because the variable is how much of the week the chef works — meals per day, days worked, live-in or travelling in, and how often you entertain. Event cooking for guests is still charged at the per-person rate."
+      ]
+    },
+    {
+      "question": "Which is cheaper for a small dinner, a private chef or a caterer?",
+      "answer": [
+        "A private chef is usually cheaper for a small dinner, because you pay a per-head rate instead of an event minimum built for a crowd. At six or eight guests that per-person figure is often better value than a catered package."
+      ]
+    },
+    {
+      "question": "How many guests can one private chef cook for?",
+      "answer": [
+        "One private chef comfortably plates for about 2 to 12 guests. Beyond a dozen covers the timing gets hard for a single pair of hands, and you move into catering with stations and a service team."
+      ]
+    },
+    {
+      "question": "Do I need a permit for a private chef at my villa?",
+      "answer": [
+        "No, the chef handles it. Under Dubai Municipality rules, cooking at a private event is party cooking and needs event approval, filed at least three working days before the date, so you never touch the paperwork."
+      ]
+    },
+    {
+      "question": "Can myCHEF cook halal and special-diet menus?",
+      "answer": [
+        "Yes. Halal is standard, and Layla Hassan builds Arabic, Ramadan and iftar menus, while any menu can be adapted for vegetarian, allergy-aware and other dietary needs on request."
+      ]
+    },
+    {
+      "question": "How do I get an exact quote?",
+      "answer": [
+        "Share your date, guest count and venue with myCHEF and you will get an itemised proposal, usually within one business day. The more detail on format and headcount, the tighter the number."
+      ]
+    },
+    {
+      "question": "Which chef will cook at my event?",
+      "answer": [
+        "We match the cuisine to the chef: Marco Rossi for Italian and Mediterranean, Layla Hassan for Arabic and halal, Matteo Moretti for pastry and desserts, and Ahmed Al-Rashid for fine dining."
+      ]
+    }
+  ]
 }

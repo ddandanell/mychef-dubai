@@ -55,42 +55,48 @@ const inclusions = [
   },
 ]
 
+/**
+ * "Full-time" here is the most-days end of the same household ladder, priced per visit like
+ * every other plan. It used to sell live-in placement from AED 4,500 with a 30-day trial and
+ * "UAE employment norms for domestic staff" — a different company, and one that contradicted
+ * every other page: we do not place staff onto a household's payroll.
+ */
 const packages = [
   {
-    name: 'Part-Time Residential',
-    price: 'From AED 4,500/mo',
-    description: 'Ideal for smaller households who want a chef several days per week.',
+    name: 'Four days a week',
+    price: 'AED 16,800/mo',
+    description: 'Kitchen on Autopilot, 16 visits a month. The most common shape of a full household plan.',
     features: [
-      '3–4 days per week',
-      'Breakfast and dinner preparation',
-      'Weekly household menu planning',
-      'Grocery list coordination',
-      'Dietary preference management',
+      '5 hours a visit, four days a week',
+      'Menus, shopping, cooking and cleanup',
+      'Food Profile kept current',
+      'Groceries at the actual receipts, no markup',
+      'Backup chef briefed from your profile',
     ],
   },
   {
-    name: 'Full-Time Live-Out',
-    price: 'From AED 8,500/mo',
-    description: 'A dedicated chef who commutes daily for complete household meal coverage.',
+    name: 'Five days a week',
+    price: 'AED 26,400/mo',
+    description: 'A Full-Day chef, 20 visits a month, on the Dedicated Household Rate.',
     features: [
-      '5–6 days per week',
-      'Breakfast, lunch, and dinner',
-      'Event and entertainment support',
-      'Grocery sourcing coordination',
-      'Backup chef coverage',
+      '9 hours a day, five days a week',
+      'Breakfast, lunch and dinner in the house rhythm',
+      'Grocery management included',
+      'Household food administration',
+      'Chef capacity substantially reserved for you',
     ],
     highlighted: true,
   },
   {
-    name: 'Full-Time Live-In',
-    price: 'From AED 12,500/mo',
-    description: 'A residential chef embedded in your household for seamless daily service.',
+    name: 'Six days a week',
+    price: 'AED 31,680/mo',
+    description: 'A Full-Day chef, 24 visits a month — as close to resident as this service goes.',
     features: [
-      '6 days per week, resident chef',
-      'All meals, snacks, and events',
+      'Six days of full-day cover',
+      'All meals, snacks and household events',
       'Full kitchen organisation',
-      'Travel with household available',
-      'Dedicated account manager',
+      'One contact for changes and absence',
+      'Same rate per visit as five days',
     ],
   },
 ]
@@ -98,15 +104,15 @@ const packages = [
 const faqs = [
   {
     q: 'How do I hire a full-time private chef through myCHEF Dubai?',
-    a: 'Start with a brief consultation. We learn your household size, cuisine preferences, schedule, dietary needs, and whether you need a live-in or live-out arrangement. We then shortlist vetted candidates and arrange interviews before placement.',
+    a: 'Start with a brief consultation: household size, cuisine preferences, schedule, dietary needs and how many days a week the kitchen should be staffed. We match a chef from the network, you approve the profile before anything starts, and the plan is priced per visit — there is no placement fee and no salary to negotiate.',
   },
   {
     q: 'What is the notice period for a full-time private chef?',
-    a: 'Most residential placements begin with a 30-day trial period, followed by a standard contract. Notice terms are agreed upfront and typically align with UAE employment norms for domestic staff.',
+    a: 'Plans begin at 30 days, and the first month is where the match is tested rather than assumed — we call you separately from the chef after about two days, and again through the month. A wrong match is changed, not argued about. Nothing auto-renews into a longer term than you agreed, and either side can end the plan with a month’s notice.',
   },
   {
     q: 'Can the chef live in?',
-    a: 'Yes. We place both live-in and live-out chefs depending on your household setup, villa layout, and privacy preferences. Live-in arrangements include accommodation and rest-day terms in the contract.',
+    a: 'No — we do not place live-in staff, and we are clearer about that than the rest of the market. A live-in chef is an employment relationship between your household and a person, with the visa, accommodation, rest days and end-of-service that come with it. Our model is the opposite: a licensed supplier employs the chef on a proper visa, and the house buys days of cooking. Six days a week of full-day cover is as close to resident as this gets, without you becoming an employer.',
   },
   {
     q: 'What if the chef is sick or leaves?',
@@ -144,7 +150,7 @@ const schema = {
   '@graph': [
     serviceSchema(
       'Full-Time Private Chef Dubai',
-      'Hire a vetted full-time, live-in or live-out private chef in Dubai for daily household meal preparation, menu planning, events, and dietary management.',
+      'A full-time private chef in Dubai for daily household meal preparation, menu planning and dietary management — priced per visit, four to six days a week, with the chef employed by a licensed supplier rather than by your household.',
       'Catering Service',
       'Dubai',
     ),
@@ -260,7 +266,7 @@ export default function FullTimePrivateChef() {
           </h2>
           <div className="fp-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Hire a full-time private chef in Dubai and bring consistent, restaurant-quality dining into your home. Tell us about your household size, cuisine preferences, and schedule, and we will bring you a vetted residential chef within 24 hours.
+              Hire a full-time private chef in Dubai and bring consistent, restaurant-quality dining into your home. Tell us your household size, cuisine preferences and schedule, and we come back with the match, the start date and the monthly figure in writing before anything begins.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               Full time private chef cost Dubai depends on the household: how many people eat at home, how many meals a week you want covered, and how often the chef comes. For best time to hire caterers, two to three weeks is comfortable, and December, Ramadan and New Year fill earlier than that. If you are weighing up top personal chef providers in Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. Household chef Dubai, part time chef Dubai, private chef for family, monthly private chef Dubai and hire a full time chef Dubai are the same booking: a vetted chef, matched to your kitchen and your menu.

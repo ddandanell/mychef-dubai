@@ -29,6 +29,7 @@ import {
   WHATSAPP_MESSAGE,
 } from '../../content/privateChefPage'
 import { CLUSTER_PATHS, FIND_CHEF_LABEL, INQUIRY_HREF, childSeo, howItWorksFaqs } from '../../content/privateChefCluster'
+import { QUALITY_LEVELS, SCORE_BANDS, SCORE_ROUTING, WRONG_MATCH } from '../../content/privateChefStandard'
 
 const PATH = CLUSTER_PATHS.howItWorks
 const seo = childSeo.howItWorks
@@ -131,6 +132,54 @@ export default function PrivateChefHowItWorks() {
               See how chefs are selected and matched →
             </Link>
           </p>
+        </Container>
+      </Section>
+
+      {/* The review is stage five. What it does to the chef's money is the part everyone was left to guess. */}
+      <Section id="what-the-score-does" tone="white" rhythm="chapter">
+        <Container>
+          <div className="max-w-[760px]">
+            <Eyebrow>What the review does</Eyebrow>
+            <DisplayHeading size="h2" className="text-black mb-5">
+              The score is not a formality. It moves the chef’s pay.
+            </DisplayHeading>
+            <BodyCopy muted>
+              After about two days we call you — separately from the chef — and ask four things: the service, the food,
+              the person, and what would make next week better. {SCORE_ROUTING.food} {SCORE_ROUTING.person}{' '}
+              {SCORE_ROUTING.safety}
+            </BodyCopy>
+          </div>
+          <div className="mt-10 grid gap-6 lg:grid-cols-2">
+            <div className="border border-gray-200 p-6">
+              <p className="font-inter text-caption uppercase tracking-[0.14em] text-gold-ink mb-4">Where the score lands</p>
+              <dl className="grid gap-3">
+                {SCORE_BANDS.map((band) => (
+                  <div key={band.band} className="grid grid-cols-[auto_1fr] gap-3 items-baseline">
+                    <dt className="font-playfair text-h4 text-black whitespace-nowrap">{band.band}</dt>
+                    <dd className="font-inter text-body-sm text-gray-600 leading-relaxed">{band.effect}</dd>
+                  </div>
+                ))}
+              </dl>
+            </div>
+            <div className="border border-gray-200 p-6">
+              <p className="font-inter text-caption uppercase tracking-[0.14em] text-gold-ink mb-4">What a level is worth</p>
+              <dl className="grid gap-3">
+                {QUALITY_LEVELS.map((level) => (
+                  <div key={level.id} className="grid grid-cols-[auto_1fr] gap-3 items-baseline">
+                    <dt className="font-playfair text-h4 text-black whitespace-nowrap">{level.name}</dt>
+                    <dd className="font-inter text-body-sm text-gray-600 leading-relaxed">
+                      {level.extraPct ? `+${level.extraPct * 100}% to the chef. ` : 'The price is the price. '}
+                      {level.meaning}
+                    </dd>
+                  </div>
+                ))}
+              </dl>
+              <p className="mt-4 font-inter text-body-sm text-gray-500 leading-relaxed">
+                The extra is paid to the registered chef, not to the company that sent them, and your figure does not
+                move when they climb. {WRONG_MATCH}
+              </p>
+            </div>
+          </div>
         </Container>
       </Section>
 

@@ -15,10 +15,6 @@ export interface Feedback {
 export function feedbackFor(last: LastChange | null, prev: Quote | null, next: Quote): Feedback | null {
   if (!last) return null
   switch (last.key) {
-    case 'chef':
-      return last.to === 'head'
-        ? { title: 'Head Chef selected', body: 'Advanced menu planning, kitchen leadership and higher-complexity household service.' }
-        : { title: 'Professional Chef selected', body: 'Best value for everyday household cooking — family meals, healthy cooking, international cuisine.' }
     case 'daysPerWeek': {
       const before = prev?.tier?.discount ?? 0
       const after = next.tier?.discount ?? 0

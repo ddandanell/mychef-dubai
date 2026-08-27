@@ -23,7 +23,7 @@ import {
   exampleProfiles,
   featuredChefs,
   higherNotBetter,
-  leadChef,
+  specialistChefs,
   levelSpecialtyExamples,
   levelVsSpecialty,
   matchingSteps,
@@ -117,7 +117,7 @@ export default function PrivateChefOurChefsPage() {
             />
             <div>
               <Eyebrow>Chef levels</Eyebrow>
-              <DisplayHeading size="h2" className="text-black mb-4">Professional, Senior, Specialist, Lead Chef — that is the whole system</DisplayHeading>
+              <DisplayHeading size="h2" className="text-black mb-4">One chef, three levels of pay — that is the whole system</DisplayHeading>
               {chefLevelIntro.map((para) => (
                 <BodyCopy key={para.slice(0, 48)} className="mb-4">{para}</BodyCopy>
               ))}
@@ -133,11 +133,16 @@ export default function PrivateChefOurChefsPage() {
               </div>
             ))}
           </div>
+          {/* Specialists sit beside the ladder, not on it. Running a 60-guest team is a catering job
+              and lives on the catering pages, not in a household hire ladder. */}
           <div className="bg-black text-white p-6 md:p-8 mb-8">
-            <p className="font-inter text-caption uppercase tracking-wider text-gold mb-2">{leadChef.eyebrow}</p>
-            <h3 className="font-playfair text-h4 text-white mb-2">{leadChef.name}</h3>
-            <p className="font-inter text-body-sm text-gray-300 leading-relaxed mb-3">{leadChef.body}</p>
-            <p className="font-inter text-body text-white">{leadChef.cta}</p>
+            <p className="font-inter text-caption uppercase tracking-wider text-gold mb-2">Beside the ladder, not on it</p>
+            <h3 className="font-playfair text-h4 text-white mb-2">{specialistChefs.name}</h3>
+            <p className="font-inter text-body-sm text-gray-300 leading-relaxed mb-3">{specialistChefs.body}</p>
+            <p className="font-inter text-body text-white">
+              A chef leading a team for a party is a catering job with a running order — that is quoted on{' '}
+              <Link to="/catering-dubai" className="text-gold underline underline-offset-4">catering</Link>, not here.
+            </p>
           </div>
           <div className="bg-white border border-gray-200 p-6 md:p-8 mb-6">
             <p className="font-inter text-caption uppercase tracking-wider text-gold-ink mb-3">{restaurantTitle.eyebrow}</p>
@@ -259,7 +264,7 @@ export default function PrivateChefOurChefsPage() {
           <Eyebrow id="matching" className="scroll-mt-24">Matching</Eyebrow>
           <DisplayHeading size="h2" className="text-black mb-4">The right personal chef in Dubai depends on the household</DisplayHeading>
           <BodyCopy className="mb-10 max-w-[760px]">
-            We do not say “here is our best chef.” When you hire a chef in Dubai yourself, you get whoever replied first and an interview to go on. Here, a family wanting simple high-protein meals does not automatically get the same person as a household entertaining every weekend: you describe the house; we calculate the role; the role determines Professional or Senior. Specialists are for the meal that needs one.
+            We do not say “here is our best chef.” When you hire a chef in Dubai yourself, you get whoever replied first and an interview to go on. Here, a family wanting simple high-protein meals does not automatically get the same person as a household entertaining every weekend: you describe the house; we work out the job; the job decides which chef fits it. Every chef costs the house the same — what changes with a chef’s level is what they earn, not what you pay. Specialists are for the meal that needs one.
           </BodyCopy>
           <SequenceRail steps={matchingSteps} className="mb-10" />
           <div className="grid lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] gap-10 lg:gap-16 items-start mb-16">
@@ -333,7 +338,7 @@ export default function PrivateChefOurChefsPage() {
         </div>
       </section>
 
-      <ClusterCTA title="See the chef matched to this house" body="Tell us how you live and what you eat. We work out the role and recommend Professional or Senior — or a specialist for the meal that needs one. You approve the profile before anyone starts." />
+      <ClusterCTA title="See the chef matched to this house" body="Tell us how you live and what you eat. We work out the job and match the chef to it — or add a specialist for the meal that needs one. You approve the profile before anyone starts, and the price does not change with the chef’s level." />
     </div>
   )
 }

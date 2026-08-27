@@ -15,6 +15,7 @@ import ClusterCTA from '../../components/private-chef/ClusterCTA'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { plainFaqAnswer } from '../../utils/schema'
 import { clusterHeroes, doPromise, dontPromise, vettingSteps, WHATSAPP_MESSAGE } from '../../content/privateChefPage'
+import { EMPLOYMENT } from '../../content/privateChefStandard'
 import { CLUSTER_PATHS, FIND_CHEF_LABEL, INQUIRY_HREF, childSeo, householdConduct, informationBoundaries, privacyFaqs } from '../../content/privateChefCluster'
 
 const PATH = CLUSTER_PATHS.privacy
@@ -94,10 +95,15 @@ export default function PrivateChefPrivacySecurity() {
           <Eyebrow>Identity & background</Eyebrow>
           <DisplayHeading size="h2" className="text-black mb-4">Only checks we actually run</DisplayHeading>
           <BodyCopy className="mb-5 max-w-[760px]">
-            Someone is entering your private home. We check identity and right-to-work, cook in a practical assessment, take references, and require food-hygiene awareness. That is the list.
+            Someone is entering your private home. We check identity and right-to-work, cook in a practical assessment, take references, and require food-hygiene awareness. That is the list. {EMPLOYMENT.visa}
           </BodyCopy>
           <BodyCopy className="mb-5 max-w-[760px]">
-            This is also where we differ from a private chef agency. An agency typically hands over CVs and steps away once someone is hired. We stay in the assignment — the checks below are ours to run, and ours to stand behind for as long as the chef is in your family’s home.
+            {EMPLOYMENT.notAnAgency} An agency hands over CVs and steps away once someone is hired; we stay in the
+            assignment — the checks below are ours to run, and ours to stand behind for as long as the chef is in your
+            family’s home.
+          </BodyCopy>
+          <BodyCopy className="mb-5 max-w-[760px]">
+            Said plainly, because it decides who carries the risk: {EMPLOYMENT.full.charAt(0).toLowerCase() + EMPLOYMENT.full.slice(1)}
           </BodyCopy>
           <BodyCopy className="mb-8 max-w-[760px]">
             We do not publish police certificates we have not seen, licences we cannot show, or absolute safety guarantees. If a check is not below, we do not claim it. The same four steps are described when we{' '}

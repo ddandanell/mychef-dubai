@@ -16,6 +16,7 @@ import ClusterNav from '../components/private-chef/ClusterNav'
 import ClusterCTA from '../components/private-chef/ClusterCTA'
 import RatesBar from '../components/private-chef/RatesBar'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
+import { EMPLOYMENT, MONTH_EXAMPLE, MONTH_SENTENCE, QUALITY_LEVELS } from '../content/privateChefStandard'
 
 import {
   HERO_IMAGE,
@@ -273,6 +274,36 @@ export default function PrivateChef() {
             >
               See how the household chef system works <ArrowRight size={14} />
             </Link>
+          </p>
+        </Container>
+      </Section>
+
+      {/* Who employs whom, and what a chef earns for doing it well. One ladder, printed once. */}
+      <Section id="who-employs" tone="white">
+        <Container>
+          <div className="max-w-[760px]">
+            <Eyebrow>Who employs the chef</Eyebrow>
+            <DisplayHeading size="h2">You are not the employer, and we are not an introduction.</DisplayHeading>
+            <BodyCopy className="mt-4">{EMPLOYMENT.full}</BodyCopy>
+          </div>
+          <div className="mt-10 grid gap-4 md:grid-cols-3">
+            {QUALITY_LEVELS.map((level) => (
+              <div key={level.id} className="border border-gray-200 p-6">
+                <p className="font-inter text-caption uppercase tracking-[0.14em] text-gold-ink">{level.label}</p>
+                <p className="mt-2 font-playfair text-h3 text-black">
+                  {level.name}
+                  <span className="ml-2 font-inter text-body-sm text-gray-500">
+                    {level.extraPct ? `+${level.extraPct * 100}% to the chef` : 'the price is the price'}
+                  </span>
+                </p>
+                <p className="mt-3 font-inter text-body-sm text-gray-600 leading-relaxed">{level.meaning}</p>
+              </div>
+            ))}
+          </div>
+          <p className="mt-6 font-inter text-body-sm text-gray-600 max-w-[760px] leading-relaxed">
+            {MONTH_SENTENCE} {MONTH_EXAMPLE.longMonthNote} Your figure does not change when a chef climbs a level —
+            the extra comes out of what the arrangement already earns, which is why a house is never asked to pay
+            more for the person it already likes.
           </p>
         </Container>
       </Section>

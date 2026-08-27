@@ -50,7 +50,7 @@ const benefits = [
   {
     icon: Wallet,
     title: 'More Accessible Than Full-Time',
-    description: 'Part-time chef arrangements start from around AED 8,000 per month — a practical middle ground between ad-hoc bookings and full-time placement. Final quote tailored to your schedule and household needs.',
+    description: 'A part-time chef is priced per visit, like every household job: AED 750 for a 3-hour Fresh Meal up to AED 1,500 for a full day. Two dinners a week is AED 6,000 a month; four days on Kitchen on Autopilot is 16 visits at AED 16,800. Groceries are charged at the actual receipts.',
   },
 ]
 
@@ -80,11 +80,11 @@ const faqs = [
   },
   {
     q: 'How much does a part-time private chef cost in Dubai?',
-    a: 'Part-time private chef arrangements in Dubai typically start from AED 8,000 per month, depending on frequency, hours, household size, and menu complexity. We tailor every quote to your specific schedule and requirements.',
+    a: 'Part-time is the same price list as every other household plan, counted per visit: from AED 3,000 a month for one Fresh Meal a week, AED 6,000 for two dinners a week, AED 16,800 for four days of Kitchen on Autopilot. There is no separate part-time tariff and no more expensive grade of chef — the levels are what the chef earns, not what you pay.',
   },
   {
     q: 'Is the chef employed by myCHEF or by me?',
-    a: 'Chefs in our network are independent culinary professionals. MyCHEF matches, coordinates, and manages quality assurance. Employment or freelance contracting terms are agreed transparently between you and the chef, with our support.',
+    a: 'A licensed supplier employs your chef on a proper visa we have asked to see. myCHEF matches the person to the house, manages the arrangement, scores the work and pays the quality extra to the cook. You never employ or contract the chef yourself, and nobody invoices your villa personally — the booking is with us.',
   },
   {
     q: 'Can I try a part-time chef before committing?',
@@ -239,10 +239,13 @@ export default function PartTimePrivateChef() {
               Get reliable, restaurant-quality cooking at home without the cost of a full-time chef. Tell us about your household size, schedule, and dietary preferences, and we will bring you a vetted chef who fits your rhythm — usually within 24 hours.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Part time private chef Dubai price and part time private chef Dubai monthly cost depend on the household: how many people eat at home, how many meals a week you want covered, and how often the chef comes. Personal chef near me is covered across the whole city, because the chef travels to your address rather than the other way round. Part time private chef packages Dubai start from a standing weekly format and get shaped around the household rather than sold as a fixed box. Full time private chef, part time cook in Dubai, family chef Dubai full time and hire part time private chef Dubai are the same booking: a vetted chef, matched to your kitchen and your menu.
+              Part time private chef Dubai price and part time private chef Dubai monthly cost depend on the household: how many people eat at home, how many meals a week you want covered, and how often the chef comes. Personal chef near me is covered across the whole city, because the chef travels to your address rather than the other way round. Part time private chef packages Dubai start from a standing weekly format and get shaped around the household rather than sold as a fixed box. Whether you call it a part time cook in Dubai, a family chef or a full time private chef, the booking is the same one: a vetted chef matched to your kitchen, priced by the visit.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              This is the highest-LTV segment in the private chef market. Families who book a chef 2–3 times per week generate predictable, recurring revenue and build long-term relationships with one trusted cook.
+              Two or three days a week is where this service works best for a family: often enough that the chef
+              stops asking how you like things, rare enough that the house is not staffed every day. The same person
+              comes back, the Food Profile carries what they learn, and someone briefed from it covers the weeks they
+              are off.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
               Compare with <Link to="/weekly-meal-prep-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">weekly meal prep</Link>, <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">occasional private chef</Link> services, or see <Link to="/private-chef-prices-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef prices in Dubai</Link> to find the right rhythm for your household.

@@ -23,6 +23,7 @@ import {
   WHATSAPP_MESSAGE,
 } from '../../content/privateChefPage'
 import { CLUSTER_PATHS, FIND_CHEF_LABEL, INQUIRY_HREF, childSeo, qualityFaqs } from '../../content/privateChefCluster'
+import { MONTH_SENTENCE, QUALITY_LEVELS, SCORE_BANDS, SCORE_ROUTING } from '../../content/privateChefStandard'
 
 const PATH = CLUSTER_PATHS.quality
 const seo = childSeo.quality
@@ -159,7 +160,11 @@ export default function PrivateChefQualityTraining() {
             {scoreDemo.scores.map((s) => (
               <div key={s.label} className="border border-gray-200 p-6 text-center">
                 <p className="font-inter text-caption uppercase tracking-wider text-gold-ink mb-2">{s.label}</p>
-                <p className="font-playfair text-h2 text-black">{s.value}<span className="text-h4 text-gray-400"> / 5</span></p>
+                {s.value == null ? (
+                  <p className="font-playfair text-h4 text-black">One line<span className="text-body-sm text-gray-400"> · not scored</span></p>
+                ) : (
+                  <p className="font-playfair text-h2 text-black">{s.value}<span className="text-h4 text-gray-400"> / 5</span></p>
+                )}
               </div>
             ))}
           </div>
@@ -171,7 +176,41 @@ export default function PrivateChefQualityTraining() {
               </div>
             ))}
           </div>
-          <p className="font-inter text-body-sm text-gray-500 mb-10 max-w-[760px]">{scoreDemo.chefsFeedback}</p>
+          <div className="grid gap-6 lg:grid-cols-2 mb-10">
+            <div className="border border-gray-200 p-6">
+              <p className="font-inter text-caption uppercase tracking-[0.14em] text-gold-ink mb-4">Where the average lands</p>
+              <dl className="grid gap-3">
+                {SCORE_BANDS.map((band) => (
+                  <div key={band.band} className="grid grid-cols-[auto_1fr] gap-3 items-baseline">
+                    <dt className="font-playfair text-h4 text-black whitespace-nowrap">{band.band}</dt>
+                    <dd className="font-inter text-body-sm text-gray-600 leading-relaxed">{band.effect}</dd>
+                  </div>
+                ))}
+              </dl>
+            </div>
+            <div className="border border-gray-200 p-6">
+              <p className="font-inter text-caption uppercase tracking-[0.14em] text-gold-ink mb-4">What it is worth to the chef</p>
+              <dl className="grid gap-3">
+                {QUALITY_LEVELS.map((level) => (
+                  <div key={level.id} className="grid grid-cols-[auto_1fr] gap-3 items-baseline">
+                    <dt className="font-playfair text-h4 text-black whitespace-nowrap">{level.name}</dt>
+                    <dd className="font-inter text-body-sm text-gray-600 leading-relaxed">
+                      {level.extraPct ? `+${level.extraPct * 100}% to the chef. ` : 'The price is the price. '}
+                      {level.meaning}
+                    </dd>
+                  </div>
+                ))}
+              </dl>
+              <p className="mt-4 font-inter text-body-sm text-gray-600 leading-relaxed">
+                {MONTH_SENTENCE} The extra is paid to the registered chef, not to the company that sent them, and it is
+                the same ladder the supplier signs — a chef at Level 3 also takes catering work, which is why the good
+                ones stay.
+              </p>
+            </div>
+          </div>
+          <p className="font-inter text-body-sm text-gray-500 mb-10 max-w-[760px]">
+            {SCORE_ROUTING.food} {SCORE_ROUTING.person} {SCORE_ROUTING.safety} {scoreDemo.chefsFeedback}
+          </p>
           <h3 className="font-playfair text-h3 text-black mb-3">{feedbackOutputs.title}</h3>
           <BodyCopy className="mb-6">{feedbackOutputs.intro}</BodyCopy>
           <div className="grid md:grid-cols-2 gap-4 mb-6">

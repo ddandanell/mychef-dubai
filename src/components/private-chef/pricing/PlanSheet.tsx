@@ -21,7 +21,7 @@ export default function PlanSheet({ input, quote, feedback, whatsappHref }: Plan
           <div className="min-w-0">
             <p className="font-playfair text-[22px] leading-none text-gold-ink tabular-nums whitespace-nowrap">{headline}</p>
             <p className="mt-1 truncate font-inter text-caption text-gray-500">
-              {feedback ? `${feedback.title}.` : `${quote.chef.name} · ${quote.service.name}`}
+              {feedback ? `${feedback.title}.` : `${quote.service.name} · ${quote.hoursPerService}h`}
             </p>
           </div>
           <DrawerTrigger asChild>

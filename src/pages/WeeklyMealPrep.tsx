@@ -26,7 +26,6 @@ import {
 import SEO from '../components/SEO'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import LocationStrip from '../components/LocationStrip'
-import VIPPromoSection from '../components/VIPPromoSection'
 import { breadcrumbSchema, faqPageSchema, serviceSchema } from '../utils/schema'
 import FaqAccordion from '../components/FaqAccordion'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
@@ -71,41 +70,45 @@ const howItWorks = [
   },
 ]
 
+/**
+ * Meal prep is not its own price list. It is the Food Prep job — four hours, AED 900 — used once
+ * or twice a week to cook forward. The old AED 1,898 / 2,698 weekly tiers mapped to nothing in
+ * the engine, so the calculator and this page quoted two different companies.
+ */
 const tiers = [
   {
-    name: 'Weekly Prep Lite',
-    guests: '2–3 people',
-    sessions: '2 prep sessions / week',
-    price: '1,898',
-    unit: '/ week',
-    highlight: 'Final quote tailored to your household',
+    name: 'Once a week',
+    guests: 'Any household up to eight people',
+    sessions: '1 Food Prep session / week',
+    price: '900',
+    unit: '/ session',
+    highlight: 'AED 3,600 a month · four sessions',
     features: [
-      'Bespoke menu plan for 2–3 guests',
-      '2 chef-led prep sessions per week',
-      'Fresh portioned meals for lunches and dinners',
+      'Four hours of chef time in your kitchen',
+      'Breakfast cooked fresh, the rest prepared for later',
+      'Menu built from the Food Profile, not a rotation',
       'Allergen handling and dietary notes',
-      'Container labelling and reheating guide',
-      'Kitchen cleanup after every session',
+      'Containers labelled with a reheating guide',
+      'Kitchen left the way it was found',
     ],
   },
   {
-    name: 'Weekly Prep Standard',
-    guests: '4–6 people',
-    sessions: '2 prep sessions / week',
-    price: '2,698',
+    name: 'Twice a week',
+    guests: 'Any household up to eight people',
+    sessions: '2 Food Prep sessions / week',
+    price: '1,800',
     unit: '/ week',
-    highlight: 'Final quote tailored to your household',
+    highlight: 'AED 7,200 a month · eight sessions',
     features: [
-      'Bespoke menu plan for 4–6 guests',
-      '2 chef-led prep sessions per week',
-      'Greater variety and larger batch sizes',
-      'Halal, vegetarian, and allergy options available',
-      'Rotating menus so meals never feel repetitive',
-      'Kitchen cleanup after every session',
+      'Two four-hour sessions, mid-week and weekend',
+      'Food that is still good on day three, planned that way',
+      'Menu adjusted every week from your feedback',
+      'Allergen handling and dietary notes',
+      'Groceries yours, or ours at the actual receipts',
+      'Same chef, with backup briefed from your profile',
     ],
   },
 ]
-
 const benefits = [
   {
     icon: Clock,
@@ -174,7 +177,7 @@ const faqs = [
   },
   {
     q: 'How much does weekly meal prep cost in Dubai?',
-    a: 'Plans start from AED 1,898 per week for Weekly Prep Lite (2–3 people, 2 sessions) and from AED 2,698 per week for Weekly Prep Standard (4–6 people, 2 sessions). Final pricing depends on menu complexity, dietary requirements, and frequency.',
+    a: 'Meal prep is the Food Prep job: four hours, AED 900 a session. Once a week is AED 3,600 a month, twice a week AED 1,800 a week or AED 7,200 a month. Up to eight people are in that price; groceries are charged at the actual receipts with no markup. There is no separate meal-prep tariff.',
   },
   {
     q: 'Can I choose the cuisines each week?',
@@ -294,8 +297,8 @@ export default function WeeklyMealPrep() {
   return (
     <div ref={containerRef}>
       <SEO
-        title="Meal Prep Dubai | Private Chef Meals from AED 1,898 | myCHEF"
-        description="Meal prep Dubai households rely on: a private chef cooks fresh weekly meals in your kitchen from AED 1,898 a week. Halal by default, built around your diet."
+        title="Meal Prep Dubai | A Chef in Your Kitchen, AED 900 | myCHEF"
+        description="Meal prep Dubai households rely on: a private chef cooks a week of food in your kitchen in four hours, AED 900 a session. Halal by default, built around your diet."
         canonicalPath={CANONICAL_PATH}
         ogImage="/images/weekly-meal-prep-dubai-hero.webp"
         hideSiteName
@@ -354,10 +357,11 @@ export default function WeeklyMealPrep() {
               Tell us about your household — your size, dietary goals, preferred cuisines, and any allergies — and we will reply within 15 minutes during business hours, then bring you a vetted private chef. Our weekly meal prep service puts that chef in your kitchen once or twice a week to prepare fresh, portioned meals designed around your tastes, schedule, and health goals, so you can reclaim your evenings and skip the takeout cycle.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              If you are weighing up best meal prep delivery Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. Is weekly meal prep healthy is planned into the first draft of the menu rather than bolted on at the end. Meal prep service Dubai and batch cooking service Dubai are the same booking: a vetted chef, matched to your kitchen and your menu. Family meal prep Dubai is the same service under another name.
+              If you are weighing up meal prep delivery in Dubai, three things are worth checking: whether a named chef cooks it, whether the quote is itemised, and who buys the ingredients. Whether weekly meal prep is healthy is decided in the first draft of the menu rather than bolted on at the end — a family meal prep service that plans around your diet is a different thing from a batch cooking service that reheats a fixed rotation.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Meal prep chef Dubai, private chef meal prep Dubai and personal chef meal prep Dubai are the same booking: a vetted chef, matched to your kitchen and your menu.
+              A meal prep chef cooks in your kitchen rather than shipping trays from a production unit, which is
+              why the food tastes like it was made in a house — because it was.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               Weekly meal plan Dubai starts from a standing weekly format and get shaped around the household rather than sold as a fixed box. The fitness meal prep delivery menu is planned around what your household actually eats, with a draft week you change before anything is confirmed. Kids meal prep service is the same booking: a vetted chef, matched to your kitchen and your menu. Fitness meal prep services is the same service under another name.
@@ -454,7 +458,6 @@ export default function WeeklyMealPrep() {
         </div>
       </section>
 
-      <VIPPromoSection campaign="weekly-meal-prep-dubai" variant="light" />
 
       {/* ═══════════════ Section 5: Benefits ═══════════════ */}
       <section className="bg-white section-padding">

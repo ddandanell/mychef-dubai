@@ -56,12 +56,12 @@ const vetSteps = [
   {
     icon: CalendarCheck,
     title: 'Trial Event Period',
-    description: 'New chefs begin with supervised trial events or smaller bookings. This lets us observe how they perform in real homes, villas, and venues before assigning high-stakes events independently.',
+    description: 'New chefs start Provisional: supervised visits and smaller bookings, in real houses, before anyone cooks for a household on their own or runs a night with guests. A cook-off in a kitchen tells us more than a CV, and a first real visit tells us more than the cook-off.',
   },
   {
     icon: TrendingUp,
     title: 'Ongoing Performance Reviews',
-    description: 'Vetting does not stop at onboarding. We collect client feedback after every event, monitor punctuality and presentation, and remove chefs from the network if standards slip.',
+    description: 'Vetting does not stop at onboarding. Every household scores the service, the food, the person and what would make next week better. 4.0 and up climbs a level and earns 10% or 20% more; 3.5 to 3.9 holds; under 3.5 drops a level, and under 2.5 twice ends the household work. Safety is never a score — it is a stop.',
   },
 ]
 
@@ -84,14 +84,14 @@ const standards = [
   },
   {
     title: 'No Guaranteed Placement',
-    description: 'We do not guarantee any chef a specific number of events. Work is assigned based on availability, skill fit, and client requirements.',
+    description: 'We do not guarantee any chef a fixed amount of work. Household plans and event nights are assigned on availability, skill fit and what the client needs — and a chef holding Level 3 sees the catering work first, because a person who holds a house together is who we want running an event.',
   },
 ]
 
 const faqs = [
   {
     q: 'How do you verify your chefs?',
-    a: 'We verify identity, UAE visa status, and right-to-work documents. We also conduct practical skill assessments, reference checks, food-safety evaluations, and supervised trial events.',
+    a: 'We verify identity, UAE visa status and right-to-work documents — we ask to see them, not to be told about them. We also run practical skill assessments, reference checks, food-safety evaluations and supervised first visits. A licensed supplier employs the chef; the checks are ours to run and ours to stand behind.',
   },
   {
     q: 'Are chefs in your network food-safety-certified?',
@@ -102,8 +102,8 @@ const faqs = [
     a: 'Yes. Reference checks are a mandatory part of our vetting process. We contact previous employers or clients to confirm skills, reliability, and professionalism.',
   },
   {
-    q: 'What happens during the trial event?',
-    a: 'New chefs are assigned to smaller or supervised events so we can observe their real-world performance, punctuality, presentation, and client interaction before larger bookings.',
+    q: 'What happens on a new chef’s first bookings?',
+    a: 'New chefs are assigned to smaller or supervised visits — a household lunch before a household plan, a small night before a large one — so we can see punctuality, presentation and how they are with the people in the room before anything high-stakes.',
   },
   {
     q: 'Is a specific chef guaranteed for my event?',
