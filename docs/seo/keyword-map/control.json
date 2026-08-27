@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-26 22:42",
+ "generated": "2026-08-27 11:12",
  "run_id": 16,
  "banner": "Not feeding: First-party tracking, Google Analytics 4",
  "heartbeat": {
-  "id": 1,
-  "ran_at": "2026-08-26T14:08+00:00",
-  "kind": "full",
-  "mode": "dist",
+  "id": 2,
+  "ran_at": "2026-08-26T14:42+00:00",
+  "kind": "daily",
+  "mode": "live",
   "git_commit": "ff2d69d",
   "phase": "idle",
   "sources_ok": [
@@ -15,7 +15,6 @@
    "Google Search Console",
    "Vercel Web Analytics",
    "Vercel project",
-   "First-party tracking",
    "Bing Webmaster",
    "PageSpeed / CrUX",
    "Claude AI visibility",
@@ -23,15 +22,16 @@
    "Board build (run-loop)"
   ],
   "sources_stale": [
-   "Google Analytics 4"
+   "Google Analytics 4",
+   "First-party tracking"
   ],
   "pages_scored": 177,
   "keywords_scored": 1712,
   "proposals_opened": null,
   "edits_applied": null,
-  "gates_pass": true,
+  "gates_pass": null,
   "error": null,
-  "age_hours": 0.6
+  "age_hours": 12.5
  },
  "counts": {
   "locked": 1712,
@@ -142,22 +142,22 @@
  ],
  "queue": [
   {
-   "type": "fill_subkeyword",
+   "type": "place_subkeyword",
    "status": "open",
    "count": 8
   },
   {
-   "type": "experiment",
+   "type": "reassign_primary",
    "status": "open",
    "count": 3
   },
   {
-   "type": "retarget",
+   "type": "watch",
    "status": "open",
    "count": 3
   },
   {
-   "type": "add_link",
+   "type": "add_internal_link",
    "status": "open",
    "count": 1
   }
@@ -165,7 +165,7 @@
  "top5": [
   {
    "id": "2026-08-26-002",
-   "type": "fill_subkeyword",
+   "type": "place_subkeyword",
    "url": "/catering-dubai",
    "keyword": "home catering dubai",
    "reason": "assigned to /catering-dubai but the live copy does not say it",
@@ -175,7 +175,7 @@
   },
   {
    "id": "2026-08-26-003",
-   "type": "fill_subkeyword",
+   "type": "place_subkeyword",
    "url": "/luxury-dining-experiences",
    "keyword": "unique dining experiences dubai",
    "reason": "assigned to /luxury-dining-experiences but the live copy does not say it",
@@ -185,7 +185,7 @@
   },
   {
    "id": "2026-08-26-043",
-   "type": "add_link",
+   "type": "add_internal_link",
    "url": "/festive-catering-dubai",
    "keyword": "festive catering dubai",
    "reason": "internal-link status Maximum opportunity",
@@ -195,7 +195,7 @@
   },
   {
    "id": "2026-08-26-001",
-   "type": "retarget",
+   "type": "reassign_primary",
    "url": "/catering-dubai",
    "keyword": "catering dubai",
    "reason": "GSC ranks /catering-packages-dubai for this phrase, not the contract owner",
@@ -205,7 +205,7 @@
   },
   {
    "id": "2026-08-26-024",
-   "type": "fill_subkeyword",
+   "type": "place_subkeyword",
    "url": "/wellness-meal-prep-dubai",
    "keyword": "healthy meal plan dubai",
    "reason": "assigned to /wellness-meal-prep-dubai but the live copy does not say it",
@@ -215,8 +215,193 @@
   }
  ],
  "experiments": {
-  "verdicts": {},
-  "open": []
+  "verdicts": {
+   "too_soon": 58
+  },
+  "open": [
+   {
+    "batch_id": "backfill-2026-08-26",
+    "url": "/locations/al-barsha",
+    "keywords": [
+     "catering services al quoz",
+     "iftar buffet dubai al barsha",
+     "catering al barsha",
+     "party catering al barsha",
+     "personal chef al barsha",
+     "private dining al barsha",
+     "private chef al barsha",
+     "chef at home al barsha"
+    ],
+    "applied_at": "2026-08-26T10:47+00:00",
+    "window_days": 14,
+    "verdict": "too_soon"
+   },
+   {
+    "batch_id": "backfill-2026-08-26",
+    "url": "/locations/jlt",
+    "keywords": [
+     "business lunch in jlt",
+     "iftar buffet dubai jlt",
+     "indian food company jlt",
+     "chef at home jlt",
+     "catering jlt",
+     "private chef jlt",
+     "private dining jlt",
+     "party catering jlt",
+     "personal chef jlt",
+     "office catering jlt"
+    ],
+    "applied_at": "2026-08-26T10:47+00:00",
+    "window_days": 14,
+    "verdict": "too_soon"
+   },
+   {
+    "batch_id": "backfill-2026-08-26",
+    "url": "/blog/how-far-ahead-book-caterer-dubai",
+    "keywords": [
+     "best time to hire cooking caterer",
+     "how early to book a private chef dubai",
+     "best time to hire meal caterer",
+     "best time to hire event caterer",
+     "how far ahead book caterer dubai",
+     "how far in advance to order catering",
+     "how to choose a caterer in dubai",
+     "best time to hire catering in advance",
+     "how far in advance to book a caterer dubai"
+    ],
+    "applied_at": "2026-08-26T10:47+00:00",
+    "window_days": 14,
+    "verdict": "too_soon"
+   },
+   {
+    "batch_id": "backfill-2026-08-26",
+    "url": "/blog/how-to-hire-a-private-chef-dubai",
+    "keywords": [
+     "chef hire",
+     "hiring a private chef",
+     "private chef for a day",
+     "how to hire a private chef dubai",
+     "how do you hire a private chef",
+     "how do i hire a personal chef",
+     "do private chefs bring their own equipment dubai",
+     "chef at home in dubai",
+     "how to find a private chef in dubai"
+    ],
+    "applied_at": "2026-08-26T10:47+00:00",
+    "window_days": 14,
+    "verdict": "too_soon"
+   },
+   {
+    "batch_id": "backfill-2026-08-26",
+    "url": "/locations/difc",
+    "keywords": [
+     "fine dining in difc",
+     "party catering difc",
+     "personal chef difc",
+     "private dining difc",
+     "office catering difc",
+     "private chef difc",
+     "business lunch in difc",
+     "catering difc",
+     "chef at home difc",
+     "corporate catering difc"
+    ],
+    "applied_at": "2026-08-26T10:47+00:00",
+    "window_days": 14,
+    "verdict": "too_soon"
+   },
+   {
+    "batch_id": "backfill-2026-08-26",
+    "url": "/locations/jbr",
+    "keywords": [
+     "iftar buffet dubai jbr",
+     "chef at home jbr",
+     "private chef jbr",
+     "private dining jbr",
+     "personal chef jbr",
+     "party catering jbr",
+     "catering jbr"
+    ],
+    "applied_at": "2026-08-26T10:47+00:00",
+    "window_days": 14,
+    "verdict": "too_soon"
+   },
+   {
+    "batch_id": "backfill-2026-08-26",
+    "url": "/blog/grazing-table-vs-buffet-dubai",
+    "keywords": [
+     "grazing table ideas",
+     "grazing table for 50 guests",
+     "what is buffet catering",
+     "grazing table examples",
+     "grazing table catering",
+     "what is a grazing table dubai",
+     "average cost of grazing table",
+     "cost of grazing table for wedding",
+     "grazing table vs buffet dubai"
+    ],
+    "applied_at": "2026-08-26T10:47+00:00",
+    "window_days": 14,
+    "verdict": "too_soon"
+   },
+   {
+    "batch_id": "backfill-2026-08-26",
+    "url": "/blog/brunch-at-home-dubai",
+    "keywords": [
+     "brunch ideas at home easy",
+     "how to host brunch at home dubai",
+     "private chef brunch dubai",
+     "what is a dubai style brunch",
+     "what is a good at home brunch menu",
+     "brunch party dubai",
+     "brunch at home cost dubai",
+     "brunch at home dubai",
+     "brunch ideas at home dubai"
+    ],
+    "applied_at": "2026-08-26T10:47+00:00",
+    "window_days": 14,
+    "verdict": "too_soon"
+   },
+   {
+    "batch_id": "backfill-2026-08-26",
+    "url": "/blog/corporate-event-catering-ideas-dubai",
+    "keywords": [
+     "event catering menu ideas",
+     "corporate catering in dubai",
+     "what is event catering",
+     "best catering format for corporate event dubai",
+     "office party food ideas dubai",
+     "event catering ideas",
+     "corporate event catering ideas dubai",
+     "corporate lunch ideas dubai",
+     "small corporate event catering ideas dubai"
+    ],
+    "applied_at": "2026-08-26T10:47+00:00",
+    "window_days": 14,
+    "verdict": "too_soon"
+   },
+   {
+    "batch_id": "backfill-2026-08-26",
+    "url": "/allergy-safe-catering-dubai",
+    "keywords": [
+     "best catering service in dubai",
+     "allergy safe catering menu dubai",
+     "allergy safe catering packages dubai",
+     "best allergy safe catering dubai",
+     "catering for guests with food allergies dubai",
+     "catering services availability in dubai",
+     "event catering",
+     "allergy safe catering dubai price",
+     "most reliable catering in dubai",
+     "allergy safe catering cost per person dubai",
+     "allergy safe catering dubai",
+     "food safety in dubai"
+    ],
+    "applied_at": "2026-08-26T10:44+00:00",
+    "window_days": 14,
+    "verdict": "too_soon"
+   }
+  ]
  },
  "actions": [
   {
@@ -378,7 +563,7 @@
    "label": "Locked but never seen"
   },
   {
-   "value": "1h",
+   "value": "12h",
    "label": "Since the last run"
   },
   {

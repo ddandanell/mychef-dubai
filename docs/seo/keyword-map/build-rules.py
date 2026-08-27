@@ -140,6 +140,14 @@ RULES = [
         "where": "build-proposals.py never calls the optimizer · apply-safe.py is not built",
     },
     {
+        "id": "commit-the-run",
+        "rule": "A run is only visible on the board once its JSON is committed. public/seo/data is "
+                "written during the Vercel build from the committed files.",
+        "why": "A loop can run, archive to Postgres and update every local file while the live board "
+               "keeps showing yesterday — the JSON is the payload, and an uncommitted payload never ships.",
+        "where": "docs/seo/keyword-map/*.json → export-board-data.py → public/seo/data (gitignored)",
+    },
+    {
         "id": "push-is-release",
         "rule": "A push to main is a release. Run every gate before pushing, never after.",
         "why": "Vercel's Git integration deploys production on every push to main.",

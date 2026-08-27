@@ -1,0 +1,2739 @@
+{
+ "generated": "2026-08-26 23:33",
+ "intro": "Every applied change, with the days before it and the days after. A verdict is only written once the window closes, and never turns into an automatic revert — a drop opens a watch proposal for a person.",
+ "counts": {
+  "too_soon": 58
+ },
+ "tiles": [
+  {
+   "value": "58",
+   "label": "Experiments recorded"
+  },
+  {
+   "value": "58",
+   "label": "Waiting on their window"
+  },
+  {
+   "value": "0",
+   "label": "Lift"
+  },
+  {
+   "value": "0",
+   "label": "Drop"
+  },
+  {
+   "value": "0",
+   "label": "Confounded"
+  },
+  {
+   "value": "0",
+   "label": "Judged so far"
+  }
+ ],
+ "verdict_notes": {
+  "too_soon": "the window has not closed yet",
+  "lift": "impressions or clicks up, enquiries not down",
+  "flat": "no meaningful move",
+  "drop": "clicks or enquiries down with nothing else to blame",
+  "confounded": "another edit landed in the window, or there were no readings to compare"
+ },
+ "items": [
+  {
+   "id": 41,
+   "batch_id": "backfill-2026-08-26",
+   "url": "/locations/jlt",
+   "keywords": [
+    "business lunch in jlt",
+    "iftar buffet dubai jlt",
+    "indian food company jlt",
+    "chef at home jlt",
+    "catering jlt",
+    "private chef jlt"
+   ],
+   "applied_at": "2026-08-26T10:47+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-10",
+   "days_to_go": 15,
+   "parts": [
+    "description",
+    "h1",
+    "title"
+   ],
+   "edits": 3,
+   "baseline": {
+    "to": "2026-08-25",
+    "from": "2026-08-12",
+    "edits": 3,
+    "parts": [
+     "description",
+     "h1",
+     "title"
+    ],
+    "gsc_pos": 32.1,
+    "gsc_impr": 51,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": 2,
+    "days_with_data": 13
+   },
+   "after": null,
+   "other_edits_in_window": 0,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 40,
+   "batch_id": "backfill-2026-08-26",
+   "url": "/locations/jbr",
+   "keywords": [
+    "iftar buffet dubai jbr",
+    "chef at home jbr",
+    "private chef jbr",
+    "private dining jbr",
+    "personal chef jbr",
+    "party catering jbr"
+   ],
+   "applied_at": "2026-08-26T10:47+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-10",
+   "days_to_go": 15,
+   "parts": [
+    "description",
+    "faq",
+    "h1",
+    "title"
+   ],
+   "edits": 6,
+   "baseline": {
+    "to": "2026-08-25",
+    "from": "2026-08-12",
+    "edits": 6,
+    "parts": [
+     "description",
+     "faq",
+     "h1",
+     "title"
+    ],
+    "gsc_pos": 13.1,
+    "gsc_impr": 23,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": 1,
+    "days_with_data": 9
+   },
+   "after": null,
+   "other_edits_in_window": 1,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 39,
+   "batch_id": "backfill-2026-08-26",
+   "url": "/locations/difc",
+   "keywords": [
+    "fine dining in difc",
+    "party catering difc",
+    "personal chef difc",
+    "private dining difc",
+    "office catering difc",
+    "private chef difc"
+   ],
+   "applied_at": "2026-08-26T10:47+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-10",
+   "days_to_go": 15,
+   "parts": [
+    "description",
+    "faq",
+    "h1",
+    "title"
+   ],
+   "edits": 6,
+   "baseline": {
+    "to": "2026-08-25",
+    "from": "2026-08-12",
+    "edits": 6,
+    "parts": [
+     "description",
+     "faq",
+     "h1",
+     "title"
+    ],
+    "gsc_pos": 28.7,
+    "gsc_impr": 23,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": 0,
+    "days_with_data": 12
+   },
+   "after": null,
+   "other_edits_in_window": 1,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 38,
+   "batch_id": "backfill-2026-08-26",
+   "url": "/locations/al-barsha",
+   "keywords": [
+    "catering services al quoz",
+    "iftar buffet dubai al barsha",
+    "catering al barsha",
+    "party catering al barsha",
+    "personal chef al barsha",
+    "private dining al barsha"
+   ],
+   "applied_at": "2026-08-26T10:47+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-10",
+   "days_to_go": 15,
+   "parts": [
+    "description",
+    "h1",
+    "title"
+   ],
+   "edits": 3,
+   "baseline": {
+    "to": "2026-08-25",
+    "from": "2026-08-12",
+    "edits": 3,
+    "parts": [
+     "description",
+     "h1",
+     "title"
+    ],
+    "gsc_pos": 20.2,
+    "gsc_impr": 34,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": 0,
+    "days_with_data": 12
+   },
+   "after": null,
+   "other_edits_in_window": 0,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 14,
+   "batch_id": "backfill-2026-08-26",
+   "url": "/blog/how-to-hire-a-private-chef-dubai",
+   "keywords": [
+    "chef hire",
+    "hiring a private chef",
+    "private chef for a day",
+    "how to hire a private chef dubai",
+    "how do you hire a private chef",
+    "how do i hire a personal chef"
+   ],
+   "applied_at": "2026-08-26T10:47+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-10",
+   "days_to_go": 15,
+   "parts": [
+    "body",
+    "description",
+    "faq",
+    "h1",
+    "opening",
+    "title"
+   ],
+   "edits": 6,
+   "baseline": {
+    "to": "2026-08-25",
+    "from": "2026-08-12",
+    "edits": 6,
+    "parts": [
+     "body",
+     "description",
+     "faq",
+     "h1",
+     "opening",
+     "title"
+    ],
+    "gsc_pos": 78.9,
+    "gsc_impr": 96,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": 0,
+    "days_with_data": 10
+   },
+   "after": null,
+   "other_edits_in_window": 1,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 12,
+   "batch_id": "backfill-2026-08-26",
+   "url": "/blog/how-far-ahead-book-caterer-dubai",
+   "keywords": [
+    "best time to hire cooking caterer",
+    "how early to book a private chef dubai",
+    "best time to hire meal caterer",
+    "best time to hire event caterer",
+    "how far ahead book caterer dubai",
+    "how far in advance to order catering"
+   ],
+   "applied_at": "2026-08-26T10:47+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-10",
+   "days_to_go": 15,
+   "parts": [
+    "body",
+    "description",
+    "faq",
+    "h1",
+    "opening",
+    "title"
+   ],
+   "edits": 6,
+   "baseline": {
+    "to": "2026-08-25",
+    "from": "2026-08-12",
+    "edits": 6,
+    "parts": [
+     "body",
+     "description",
+     "faq",
+     "h1",
+     "opening",
+     "title"
+    ],
+    "gsc_pos": 5.0,
+    "gsc_impr": 9,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": 0,
+    "days_with_data": 7
+   },
+   "after": null,
+   "other_edits_in_window": 1,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 11,
+   "batch_id": "backfill-2026-08-26",
+   "url": "/blog/grazing-table-vs-buffet-dubai",
+   "keywords": [
+    "grazing table ideas",
+    "grazing table for 50 guests",
+    "what is buffet catering",
+    "grazing table examples",
+    "grazing table catering",
+    "what is a grazing table dubai"
+   ],
+   "applied_at": "2026-08-26T10:47+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-10",
+   "days_to_go": 15,
+   "parts": [
+    "body",
+    "description",
+    "faq",
+    "h1"
+   ],
+   "edits": 4,
+   "baseline": {
+    "to": "2026-08-25",
+    "from": "2026-08-12",
+    "edits": 4,
+    "parts": [
+     "body",
+     "description",
+     "faq",
+     "h1"
+    ],
+    "gsc_pos": 5.5,
+    "gsc_impr": 2,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": 0,
+    "days_with_data": 2
+   },
+   "after": null,
+   "other_edits_in_window": 1,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 10,
+   "batch_id": "backfill-2026-08-26",
+   "url": "/blog/corporate-event-catering-ideas-dubai",
+   "keywords": [
+    "event catering menu ideas",
+    "corporate catering in dubai",
+    "what is event catering",
+    "best catering format for corporate event dubai",
+    "office party food ideas dubai",
+    "event catering ideas"
+   ],
+   "applied_at": "2026-08-26T10:47+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-10",
+   "days_to_go": 15,
+   "parts": [
+    "body",
+    "description",
+    "faq",
+    "h1",
+    "opening"
+   ],
+   "edits": 5,
+   "baseline": {
+    "to": "2026-08-25",
+    "from": "2026-08-12",
+    "edits": 5,
+    "parts": [
+     "body",
+     "description",
+     "faq",
+     "h1",
+     "opening"
+    ],
+    "gsc_pos": 54.3,
+    "gsc_impr": 999,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": 0,
+    "days_with_data": 10
+   },
+   "after": null,
+   "other_edits_in_window": 1,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 9,
+   "batch_id": "backfill-2026-08-26",
+   "url": "/blog/brunch-at-home-dubai",
+   "keywords": [
+    "brunch ideas at home easy",
+    "how to host brunch at home dubai",
+    "private chef brunch dubai",
+    "what is a dubai style brunch",
+    "what is a good at home brunch menu",
+    "brunch party dubai"
+   ],
+   "applied_at": "2026-08-26T10:47+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-10",
+   "days_to_go": 15,
+   "parts": [
+    "body",
+    "description",
+    "faq",
+    "title"
+   ],
+   "edits": 4,
+   "baseline": {
+    "to": "2026-08-25",
+    "from": "2026-08-12",
+    "edits": 4,
+    "parts": [
+     "body",
+     "description",
+     "faq",
+     "title"
+    ],
+    "gsc_pos": 3.1,
+    "gsc_impr": 5,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": 0,
+    "days_with_data": 4
+   },
+   "after": null,
+   "other_edits_in_window": 1,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 58,
+   "batch_id": "backfill-2026-08-26",
+   "url": "/yacht-catering-guide-dubai",
+   "keywords": [
+    "yacht dinner in dubai",
+    "yacht food ideas",
+    "yacht party food ideas",
+    "yacht catering guide dubai",
+    "catering for yacht party",
+    "do yachts allow outside catering dubai"
+   ],
+   "applied_at": "2026-08-26T10:44+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-10",
+   "days_to_go": 15,
+   "parts": [
+    "body",
+    "description",
+    "faq",
+    "h1",
+    "h2"
+   ],
+   "edits": 14,
+   "baseline": {
+    "to": "2026-08-25",
+    "from": "2026-08-12",
+    "edits": 14,
+    "parts": [
+     "body",
+     "description",
+     "faq",
+     "h1",
+     "h2"
+    ],
+    "gsc_pos": 29.7,
+    "gsc_impr": 356,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": 0,
+    "days_with_data": 13
+   },
+   "after": null,
+   "other_edits_in_window": 1,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 56,
+   "batch_id": "backfill-2026-08-26",
+   "url": "/wedding-catering-menu-planning-dubai",
+   "keywords": [
+    "catering menu dubai",
+    "wedding menu planning dubai checklist",
+    "catering menu near me halal",
+    "wedding menu planning dubai",
+    "wedding food ideas dubai",
+    "wedding catering menu planning dubai"
+   ],
+   "applied_at": "2026-08-26T10:44+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-10",
+   "days_to_go": 15,
+   "parts": [
+    "description",
+    "faq",
+    "h1",
+    "opening"
+   ],
+   "edits": 9,
+   "baseline": {
+    "to": "2026-08-25",
+    "from": "2026-08-12",
+    "edits": 9,
+    "parts": [
+     "description",
+     "faq",
+     "h1",
+     "opening"
+    ],
+    "gsc_pos": 27.7,
+    "gsc_impr": 287,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": 0,
+    "days_with_data": 13
+   },
+   "after": null,
+   "other_edits_in_window": 1,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 54,
+   "batch_id": "backfill-2026-08-26",
+   "url": "/vip-club",
+   "keywords": [
+    "vip government dining dubai",
+    "exclusive dining club dubai",
+    "vip dining club dubai",
+    "mychef vip club"
+   ],
+   "applied_at": "2026-08-26T10:44+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-10",
+   "days_to_go": 15,
+   "parts": [
+    "faq",
+    "title"
+   ],
+   "edits": 7,
+   "baseline": {
+    "to": "2026-08-25",
+    "from": "2026-08-12",
+    "edits": 7,
+    "parts": [
+     "faq",
+     "title"
+    ],
+    "gsc_pos": 17.9,
+    "gsc_impr": 20,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": 0,
+    "days_with_data": 7
+   },
+   "after": null,
+   "other_edits_in_window": 1,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 52,
+   "batch_id": "backfill-2026-08-26",
+   "url": "/venue-partners",
+   "keywords": [
+    "preferred caterer program",
+    "preferred caterers",
+    "preferred sonoma caterers",
+    "what does preferred caterer mean",
+    "venues that allow outside catering dubai",
+    "venue catering partnership dubai"
+   ],
+   "applied_at": "2026-08-26T10:44+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-10",
+   "days_to_go": 15,
+   "parts": [
+    "body",
+    "description",
+    "faq",
+    "h1",
+    "h2",
+    "opening",
+    "title"
+   ],
+   "edits": 20,
+   "baseline": {
+    "to": "2026-08-25",
+    "from": "2026-08-12",
+    "edits": 20,
+    "parts": [
+     "body",
+     "description",
+     "faq",
+     "h1",
+     "h2",
+     "opening",
+     "title"
+    ],
+    "gsc_pos": 48.5,
+    "gsc_impr": 8,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": 0,
+    "days_with_data": 6
+   },
+   "after": null,
+   "other_edits_in_window": 1,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 51,
+   "batch_id": "backfill-2026-08-26",
+   "url": "/vegan-catering-dubai",
+   "keywords": [
+    "vegan catering dubai",
+    "plant based catering dubai",
+    "vegan caterers dubai",
+    "vegan catering cost per person dubai",
+    "vegan catering dubai price",
+    "vegan catering menu dubai"
+   ],
+   "applied_at": "2026-08-26T10:44+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-10",
+   "days_to_go": 15,
+   "parts": [
+    "body",
+    "faq",
+    "h2"
+   ],
+   "edits": 7,
+   "baseline": {
+    "to": "2026-08-25",
+    "from": "2026-08-12",
+    "edits": 7,
+    "parts": [
+     "body",
+     "faq",
+     "h2"
+    ],
+    "gsc_pos": 8.5,
+    "gsc_impr": 9,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": 0,
+    "days_with_data": 7
+   },
+   "after": null,
+   "other_edits_in_window": 1,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 50,
+   "batch_id": "backfill-2026-08-26",
+   "url": "/proposal-dinner-dubai",
+   "keywords": [
+    "proposal dinner dubai price",
+    "halal proposal dinner dubai",
+    "dinner for couples in dubai",
+    "marriage proposal dinner dubai",
+    "proposal dinner dubai",
+    "best proposal dinner dubai"
+   ],
+   "applied_at": "2026-08-26T10:44+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-10",
+   "days_to_go": 15,
+   "parts": [
+    "body",
+    "description",
+    "faq",
+    "h1",
+    "h2"
+   ],
+   "edits": 15,
+   "baseline": {
+    "to": "2026-08-25",
+    "from": "2026-08-12",
+    "edits": 15,
+    "parts": [
+     "body",
+     "description",
+     "faq",
+     "h1",
+     "h2"
+    ],
+    "gsc_pos": 48.8,
+    "gsc_impr": 3,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": 0,
+    "days_with_data": 2
+   },
+   "after": null,
+   "other_edits_in_window": 1,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 48,
+   "batch_id": "backfill-2026-08-26",
+   "url": "/private-cooking-classes-dubai",
+   "keywords": [
+    "couples cooking class dubai",
+    "cooking classes at home dubai",
+    "private cooking classes dubai",
+    "private cooking class dubai",
+    "best private cooking classes dubai",
+    "cooking class packages dubai"
+   ],
+   "applied_at": "2026-08-26T10:44+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-10",
+   "days_to_go": 15,
+   "parts": [
+    "body",
+    "description",
+    "faq",
+    "h2"
+   ],
+   "edits": 8,
+   "baseline": {
+    "to": "2026-08-25",
+    "from": "2026-08-12",
+    "edits": 8,
+    "parts": [
+     "body",
+     "description",
+     "faq",
+     "h2"
+    ],
+    "gsc_pos": 10.6,
+    "gsc_impr": 101,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": 1,
+    "days_with_data": 13
+   },
+   "after": null,
+   "other_edits_in_window": 1,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 47,
+   "batch_id": "backfill-2026-08-26",
+   "url": "/private-chef-dubai/how-it-works",
+   "keywords": [
+    "household chef",
+    "private chef services",
+    "private chef service",
+    "private chef agency",
+    "chef middle east llc dubai",
+    "managed private chef service dubai"
+   ],
+   "applied_at": "2026-08-26T10:44+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-10",
+   "days_to_go": 15,
+   "parts": [
+    "description",
+    "h1",
+    "h2",
+    "opening",
+    "title"
+   ],
+   "edits": 5,
+   "baseline": {
+    "to": "2026-08-25",
+    "from": "2026-08-12",
+    "edits": 5,
+    "parts": [
+     "description",
+     "h1",
+     "h2",
+     "opening",
+     "title"
+    ],
+    "gsc_pos": 44.5,
+    "gsc_impr": 4,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": 0,
+    "days_with_data": 1
+   },
+   "after": null,
+   "other_edits_in_window": 0,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 45,
+   "batch_id": "backfill-2026-08-26",
+   "url": "/partner-with-us",
+   "keywords": [
+    "catering requirements for events",
+    "catering services list",
+    "top catering services providers in dubai",
+    "partnership catering business",
+    "chef partnership dubai",
+    "catering services list of menu"
+   ],
+   "applied_at": "2026-08-26T10:44+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-10",
+   "days_to_go": 15,
+   "parts": [
+    "body",
+    "description",
+    "faq",
+    "h1",
+    "h2",
+    "opening",
+    "title"
+   ],
+   "edits": 19,
+   "baseline": {
+    "to": "2026-08-25",
+    "from": "2026-08-12",
+    "edits": 19,
+    "parts": [
+     "body",
+     "description",
+     "faq",
+     "h1",
+     "h2",
+     "opening",
+     "title"
+    ],
+    "gsc_pos": 34.4,
+    "gsc_impr": 8,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": 1,
+    "days_with_data": 6
+   },
+   "after": null,
+   "other_edits_in_window": 1,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 44,
+   "batch_id": "backfill-2026-08-26",
+   "url": "/new-year-catering-dubai",
+   "keywords": [
+    "new years eve catering dubai",
+    "new year party food dubai",
+    "best new year catering dubai",
+    "chinese new year catering dubai buffet",
+    "chinese new year dinner at home dubai",
+    "chinese new year set menu dubai"
+   ],
+   "applied_at": "2026-08-26T10:44+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-10",
+   "days_to_go": 15,
+   "parts": [
+    "body",
+    "description",
+    "faq",
+    "h1",
+    "h2",
+    "title"
+   ],
+   "edits": 20,
+   "baseline": {
+    "to": "2026-08-25",
+    "from": "2026-08-12",
+    "edits": 20,
+    "parts": [
+     "body",
+     "description",
+     "faq",
+     "h1",
+     "h2",
+     "title"
+    ],
+    "gsc_pos": 8.3,
+    "gsc_impr": 25,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": 0,
+    "days_with_data": 11
+   },
+   "after": null,
+   "other_edits_in_window": 1,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 43,
+   "batch_id": "backfill-2026-08-26",
+   "url": "/mediterranean-catering-dubai",
+   "keywords": [
+    "mediterranean food for catering",
+    "mediterranean catering dubai price",
+    "mediterranean catering cost per person dubai",
+    "mediterranean buffet dubai",
+    "halal mediterranean catering dubai",
+    "greek catering dubai"
+   ],
+   "applied_at": "2026-08-26T10:44+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-10",
+   "days_to_go": 15,
+   "parts": [
+    "body",
+    "faq",
+    "h2"
+   ],
+   "edits": 7,
+   "baseline": {
+    "to": "2026-08-25",
+    "from": "2026-08-12",
+    "edits": 7,
+    "parts": [
+     "body",
+     "faq",
+     "h2"
+    ],
+    "gsc_pos": 60.5,
+    "gsc_impr": 47,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": 0,
+    "days_with_data": 13
+   },
+   "after": null,
+   "other_edits_in_window": 1,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 37,
+   "batch_id": "backfill-2026-08-26",
+   "url": "/locations",
+   "keywords": [
+    "dubai private chef locations",
+    "private chef service areas dubai",
+    "small catering locations dubai",
+    "what is the largest catering company",
+    "dubai chocolate catering near me",
+    "food catering locations dubai"
+   ],
+   "applied_at": "2026-08-26T10:44+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-10",
+   "days_to_go": 15,
+   "parts": [
+    "description",
+    "h1",
+    "h2",
+    "opening",
+    "title"
+   ],
+   "edits": 10,
+   "baseline": {
+    "to": "2026-08-25",
+    "from": "2026-08-12",
+    "edits": 10,
+    "parts": [
+     "description",
+     "h1",
+     "h2",
+     "opening",
+     "title"
+    ],
+    "gsc_pos": 14.3,
+    "gsc_impr": 39,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": 0,
+    "days_with_data": 10
+   },
+   "after": null,
+   "other_edits_in_window": 1,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 36,
+   "batch_id": "backfill-2026-08-26",
+   "url": "/italian-catering-dubai",
+   "keywords": [
+    "italian catering dubai",
+    "italian catering cost per person dubai",
+    "private italian chef near me",
+    "the italian supper food truck dubai menu",
+    "italian catering menu dubai",
+    "italian catering dubai price"
+   ],
+   "applied_at": "2026-08-26T10:44+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-10",
+   "days_to_go": 15,
+   "parts": [
+    "body",
+    "faq",
+    "h2"
+   ],
+   "edits": 13,
+   "baseline": {
+    "to": "2026-08-25",
+    "from": "2026-08-12",
+    "edits": 13,
+    "parts": [
+     "body",
+     "faq",
+     "h2"
+    ],
+    "gsc_pos": 12.4,
+    "gsc_impr": 50,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": 1,
+    "days_with_data": 10
+   },
+   "after": null,
+   "other_edits_in_window": 1,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 35,
+   "batch_id": "backfill-2026-08-26",
+   "url": "/how-we-vet-our-chefs",
+   "keywords": [
+    "private chefs in dubai",
+    "find a private chef",
+    "top personal chef services policies",
+    "personal chef services reveal",
+    "find a personal chef",
+    "personal chef services report"
+   ],
+   "applied_at": "2026-08-26T10:44+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-10",
+   "days_to_go": 15,
+   "parts": [
+    "body",
+    "description",
+    "faq",
+    "h1",
+    "h2",
+    "title"
+   ],
+   "edits": 20,
+   "baseline": {
+    "to": "2026-08-25",
+    "from": "2026-08-12",
+    "edits": 20,
+    "parts": [
+     "body",
+     "description",
+     "faq",
+     "h1",
+     "h2",
+     "title"
+    ],
+    "gsc_pos": 12.3,
+    "gsc_impr": 31,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": 0,
+    "days_with_data": 10
+   },
+   "after": null,
+   "other_edits_in_window": 1,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 34,
+   "batch_id": "backfill-2026-08-26",
+   "url": "/halal-private-dining-dubai",
+   "keywords": [
+    "halal private dining dubai price",
+    "halal private dining menu dubai",
+    "best halal private dining dubai",
+    "dining near me halal",
+    "dubai small private dining",
+    "gaia dubai private dining"
+   ],
+   "applied_at": "2026-08-26T10:44+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-10",
+   "days_to_go": 15,
+   "parts": [
+    "body",
+    "description",
+    "faq",
+    "h1",
+    "h2"
+   ],
+   "edits": 15,
+   "baseline": {
+    "to": "2026-08-25",
+    "from": "2026-08-12",
+    "edits": 15,
+    "parts": [
+     "body",
+     "description",
+     "faq",
+     "h1",
+     "h2"
+    ],
+    "gsc_pos": 44.1,
+    "gsc_impr": 55,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": 1,
+    "days_with_data": 8
+   },
+   "after": null,
+   "other_edits_in_window": 1,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 33,
+   "batch_id": "backfill-2026-08-26",
+   "url": "/halal-catering-dubai",
+   "keywords": [
+    "best halal catering dubai",
+    "halal catering dubai",
+    "best halal food dubai",
+    "catering foods near me halal",
+    "deepavali catering halal",
+    "dinner near me halal"
+   ],
+   "applied_at": "2026-08-26T10:44+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-10",
+   "days_to_go": 15,
+   "parts": [
+    "body",
+    "faq",
+    "h2"
+   ],
+   "edits": 7,
+   "baseline": {
+    "to": "2026-08-25",
+    "from": "2026-08-12",
+    "edits": 7,
+    "parts": [
+     "body",
+     "faq",
+     "h2"
+    ],
+    "gsc_pos": 53.5,
+    "gsc_impr": 78,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": 0,
+    "days_with_data": 11
+   },
+   "after": null,
+   "other_edits_in_window": 1,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 32,
+   "batch_id": "backfill-2026-08-26",
+   "url": "/guides",
+   "keywords": [
+    "catering event checklist",
+    "catering cleaning checklist",
+    "catering delivery checklist",
+    "catering food checklist",
+    "catering guides dubai price",
+    "catering checklist template"
+   ],
+   "applied_at": "2026-08-26T10:44+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-10",
+   "days_to_go": 15,
+   "parts": [
+    "description",
+    "faq",
+    "h1",
+    "h2",
+    "opening",
+    "title"
+   ],
+   "edits": 17,
+   "baseline": {
+    "to": "2026-08-25",
+    "from": "2026-08-12",
+    "edits": 17,
+    "parts": [
+     "description",
+     "faq",
+     "h1",
+     "h2",
+     "opening",
+     "title"
+    ],
+    "gsc_pos": 21.5,
+    "gsc_impr": 28,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": 1,
+    "days_with_data": 9
+   },
+   "after": null,
+   "other_edits_in_window": 1,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 30,
+   "batch_id": "backfill-2026-08-26",
+   "url": "/festive-catering-dubai",
+   "keywords": [
+    "christmas catering in dubai",
+    "diwali catering",
+    "festive catering cost per person dubai",
+    "festive catering dubai price",
+    "halal festive catering dubai",
+    "best festive catering dubai"
+   ],
+   "applied_at": "2026-08-26T10:44+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-10",
+   "days_to_go": 15,
+   "parts": [
+    "description",
+    "faq",
+    "h2"
+   ],
+   "edits": 10,
+   "baseline": {
+    "to": "2026-08-25",
+    "from": "2026-08-12",
+    "edits": 10,
+    "parts": [
+     "description",
+     "faq",
+     "h2"
+    ],
+    "gsc_pos": 29.2,
+    "gsc_impr": 187,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": 0,
+    "days_with_data": 13
+   },
+   "after": null,
+   "other_edits_in_window": 1,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 29,
+   "batch_id": "backfill-2026-08-26",
+   "url": "/faq",
+   "keywords": [
+    "does a private chef clean up dubai",
+    "how much notice does a caterer need dubai",
+    "is catering in dubai halal",
+    "what are common red flags with catering companies",
+    "what questions to ask for a catering service",
+    "catering minimum order dubai"
+   ],
+   "applied_at": "2026-08-26T10:44+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-10",
+   "days_to_go": 15,
+   "parts": [
+    "description",
+    "h1",
+    "h2",
+    "opening",
+    "title"
+   ],
+   "edits": 10,
+   "baseline": {
+    "to": "2026-08-25",
+    "from": "2026-08-12",
+    "edits": 10,
+    "parts": [
+     "description",
+     "h1",
+     "h2",
+     "opening",
+     "title"
+    ],
+    "gsc_pos": 10.7,
+    "gsc_impr": 70,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": 0,
+    "days_with_data": 13
+   },
+   "after": null,
+   "other_edits_in_window": 1,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 28,
+   "batch_id": "backfill-2026-08-26",
+   "url": "/eid-catering-dubai",
+   "keywords": [
+    "eid lunch offers in dubai",
+    "eid catering packages dubai",
+    "eid catering dubai",
+    "best eid catering dubai",
+    "eid al adha catering dubai",
+    "eid al fitr catering dubai"
+   ],
+   "applied_at": "2026-08-26T10:44+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-10",
+   "days_to_go": 15,
+   "parts": [
+    "body",
+    "description",
+    "faq",
+    "h2"
+   ],
+   "edits": 8,
+   "baseline": {
+    "to": "2026-08-25",
+    "from": "2026-08-12",
+    "edits": 8,
+    "parts": [
+     "body",
+     "description",
+     "faq",
+     "h2"
+    ],
+    "gsc_pos": 1.0,
+    "gsc_impr": 1,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": 0,
+    "days_with_data": 1
+   },
+   "after": null,
+   "other_edits_in_window": 1,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 27,
+   "batch_id": "backfill-2026-08-26",
+   "url": "/dubai-food-trends-report-2026",
+   "keywords": [
+    "dubai food expo 2026",
+    "dubai food fair 2026",
+    "uae food trends 2026",
+    "private dining trends dubai 2026",
+    "dubai food trends 2026",
+    "dubai catering trends 2026"
+   ],
+   "applied_at": "2026-08-26T10:44+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-10",
+   "days_to_go": 15,
+   "parts": [
+    "body",
+    "description",
+    "faq",
+    "h1",
+    "title"
+   ],
+   "edits": 14,
+   "baseline": {
+    "to": "2026-08-25",
+    "from": "2026-08-12",
+    "edits": 14,
+    "parts": [
+     "body",
+     "description",
+     "faq",
+     "h1",
+     "title"
+    ],
+    "gsc_pos": 63.8,
+    "gsc_impr": 5,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": 0,
+    "days_with_data": 4
+   },
+   "after": null,
+   "other_edits_in_window": 1,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 26,
+   "batch_id": "backfill-2026-08-26",
+   "url": "/dessert-table-catering-dubai",
+   "keywords": [
+    "dessert table catering price per person dubai",
+    "wedding catering in dubai",
+    "sweet table dubai",
+    "halal dessert table catering dubai",
+    "dessert table setup dubai",
+    "childrens dessert table dubai"
+   ],
+   "applied_at": "2026-08-26T10:44+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-10",
+   "days_to_go": 15,
+   "parts": [
+    "description",
+    "faq",
+    "h1",
+    "h2"
+   ],
+   "edits": 10,
+   "baseline": {
+    "to": "2026-08-25",
+    "from": "2026-08-12",
+    "edits": 10,
+    "parts": [
+     "description",
+     "faq",
+     "h1",
+     "h2"
+    ],
+    "gsc_pos": 15.3,
+    "gsc_impr": 197,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": 1,
+    "days_with_data": 11
+   },
+   "after": null,
+   "other_edits_in_window": 1,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 25,
+   "batch_id": "backfill-2026-08-26",
+   "url": "/corporate-catering-checklist-dubai",
+   "keywords": [
+    "corporate catering services in dubai",
+    "catering checklist for events",
+    "how to plan corporate catering dubai",
+    "what to ask a corporate caterer dubai",
+    "corporate catering checklist dubai",
+    "catering checklist"
+   ],
+   "applied_at": "2026-08-26T10:44+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-10",
+   "days_to_go": 15,
+   "parts": [
+    "body",
+    "description",
+    "faq",
+    "h1",
+    "h2"
+   ],
+   "edits": 15,
+   "baseline": {
+    "to": "2026-08-25",
+    "from": "2026-08-12",
+    "edits": 15,
+    "parts": [
+     "body",
+     "description",
+     "faq",
+     "h1",
+     "h2"
+    ],
+    "gsc_pos": 43.4,
+    "gsc_impr": 227,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": 0,
+    "days_with_data": 13
+   },
+   "after": null,
+   "other_edits_in_window": 1,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 22,
+   "batch_id": "backfill-2026-08-26",
+   "url": "/cocktail-party-catering-dubai",
+   "keywords": [
+    "cocktail making class dubai",
+    "cocktail party catering packages dubai",
+    "cocktail party catering dubai",
+    "best cocktail party catering dubai",
+    "cocktail party catering dubai price",
+    "cocktail party catering menu dubai"
+   ],
+   "applied_at": "2026-08-26T10:44+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-10",
+   "days_to_go": 15,
+   "parts": [
+    "body",
+    "description",
+    "faq",
+    "h1",
+    "h2"
+   ],
+   "edits": 9,
+   "baseline": {
+    "to": "2026-08-25",
+    "from": "2026-08-12",
+    "edits": 9,
+    "parts": [
+     "body",
+     "description",
+     "faq",
+     "h1",
+     "h2"
+    ],
+    "gsc_pos": 16.8,
+    "gsc_impr": 466,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": 3,
+    "days_with_data": 13
+   },
+   "after": null,
+   "other_edits_in_window": 1,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 21,
+   "batch_id": "backfill-2026-08-26",
+   "url": "/christmas-catering-dubai",
+   "keywords": [
+    "christmas catering dubai",
+    "christmas dinner catering dubai",
+    "christmas catering menu dubai",
+    "christmas catering packages dubai",
+    "how much does a full christmas dinner cost",
+    "christmas dinner delivery dubai"
+   ],
+   "applied_at": "2026-08-26T10:44+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-10",
+   "days_to_go": 15,
+   "parts": [
+    "body",
+    "description",
+    "faq",
+    "h2"
+   ],
+   "edits": 13,
+   "baseline": {
+    "to": "2026-08-25",
+    "from": "2026-08-12",
+    "edits": 13,
+    "parts": [
+     "body",
+     "description",
+     "faq",
+     "h2"
+    ],
+    "gsc_pos": 9.2,
+    "gsc_impr": 11,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": 1,
+    "days_with_data": 4
+   },
+   "after": null,
+   "other_edits_in_window": 1,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 20,
+   "batch_id": "backfill-2026-08-26",
+   "url": "/case-studies",
+   "keywords": [
+    "private chef event portfolio dubai",
+    "dubai event catering examples",
+    "catering case studies dubai"
+   ],
+   "applied_at": "2026-08-26T10:44+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-10",
+   "days_to_go": 15,
+   "parts": [
+    "body",
+    "description",
+    "faq",
+    "h1",
+    "h2",
+    "title"
+   ],
+   "edits": 14,
+   "baseline": {
+    "to": "2026-08-25",
+    "from": "2026-08-12",
+    "edits": 14,
+    "parts": [
+     "body",
+     "description",
+     "faq",
+     "h1",
+     "h2",
+     "title"
+    ],
+    "gsc_pos": 58.4,
+    "gsc_impr": 12,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": 0,
+    "days_with_data": 8
+   },
+   "after": null,
+   "other_edits_in_window": 1,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 17,
+   "batch_id": "backfill-2026-08-26",
+   "url": "/brunch-catering-dubai",
+   "keywords": [
+    "brunch catering dubai price",
+    "brunch catering packages dubai",
+    "best brunch catering dubai",
+    "brunch offers in dubai",
+    "brunch on sundays in dubai",
+    "easter brunch catering dubai"
+   ],
+   "applied_at": "2026-08-26T10:44+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-10",
+   "days_to_go": 15,
+   "parts": [
+    "body",
+    "description",
+    "faq",
+    "h1",
+    "h2"
+   ],
+   "edits": 15,
+   "baseline": {
+    "to": "2026-08-25",
+    "from": "2026-08-12",
+    "edits": 15,
+    "parts": [
+     "body",
+     "description",
+     "faq",
+     "h1",
+     "h2"
+    ],
+    "gsc_pos": 37.5,
+    "gsc_impr": 302,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": 2,
+    "days_with_data": 9
+   },
+   "after": null,
+   "other_edits_in_window": 1,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 16,
+   "batch_id": "backfill-2026-08-26",
+   "url": "/blog/wedding-catering-cost-dubai",
+   "keywords": [
+    "catering cost for 200 person wedding",
+    "halal wedding catering prices",
+    "wedding catering cost dubai 2026",
+    "wedding catering cost for 100 guests dubai",
+    "wedding catering cost per person dubai",
+    "catering services rates dubai"
+   ],
+   "applied_at": "2026-08-26T10:44+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-10",
+   "days_to_go": 15,
+   "parts": [
+    "description",
+    "faq",
+    "h1",
+    "h2"
+   ],
+   "edits": 9,
+   "baseline": {
+    "to": "2026-08-25",
+    "from": "2026-08-12",
+    "edits": 9,
+    "parts": [
+     "description",
+     "faq",
+     "h1",
+     "h2"
+    ],
+    "gsc_pos": 4.0,
+    "gsc_impr": 33,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": 0,
+    "days_with_data": 11
+   },
+   "after": null,
+   "other_edits_in_window": 1,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 15,
+   "batch_id": "backfill-2026-08-26",
+   "url": "/blog/private-chef-palm-jumeirah-guide",
+   "keywords": [
+    "best private dining rooms dubai",
+    "private dining chef near me",
+    "private chef palm springs",
+    "palm jumeirah villa dining menu",
+    "how much does a private chef cost",
+    "halal private dining menu"
+   ],
+   "applied_at": "2026-08-26T10:44+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-10",
+   "days_to_go": 15,
+   "parts": [
+    "body",
+    "description",
+    "h1",
+    "h2",
+    "opening",
+    "title"
+   ],
+   "edits": 15,
+   "baseline": {
+    "to": "2026-08-25",
+    "from": "2026-08-12",
+    "edits": 15,
+    "parts": [
+     "body",
+     "description",
+     "h1",
+     "h2",
+     "opening",
+     "title"
+    ],
+    "gsc_pos": 8.5,
+    "gsc_impr": 5,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": 0,
+    "days_with_data": 3
+   },
+   "after": null,
+   "other_edits_in_window": 1,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 13,
+   "batch_id": "backfill-2026-08-26",
+   "url": "/blog/how-much-does-private-chef-cost-dubai",
+   "keywords": [
+    "average private chef cost",
+    "how much does a private chef charge",
+    "private chef cost per day",
+    "private chef cost dc",
+    "how much does private chef cost dubai",
+    "private chef cost per person dubai"
+   ],
+   "applied_at": "2026-08-26T10:44+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-10",
+   "days_to_go": 15,
+   "parts": [
+    "body",
+    "description",
+    "faq",
+    "h1",
+    "h2",
+    "opening",
+    "title"
+   ],
+   "edits": 15,
+   "baseline": {
+    "to": "2026-08-25",
+    "from": "2026-08-12",
+    "edits": 15,
+    "parts": [
+     "body",
+     "description",
+     "faq",
+     "h1",
+     "h2",
+     "opening",
+     "title"
+    ],
+    "gsc_pos": 96.5,
+    "gsc_impr": 4,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": 0,
+    "days_with_data": 4
+   },
+   "after": null,
+   "other_edits_in_window": 1,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 6,
+   "batch_id": "backfill-2026-08-26",
+   "url": "/bar-services-dubai",
+   "keywords": [
+    "mocktail bar catering menu dubai",
+    "oyster bar catering price per person dubai",
+    "mocktail station dubai",
+    "mocktail bar dubai",
+    "mocktail bar catering price per person dubai",
+    "mocktail bar birthday party dubai"
+   ],
+   "applied_at": "2026-08-26T10:44+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-10",
+   "days_to_go": 15,
+   "parts": [
+    "body",
+    "description",
+    "faq",
+    "h2"
+   ],
+   "edits": 8,
+   "baseline": {
+    "to": "2026-08-25",
+    "from": "2026-08-12",
+    "edits": 8,
+    "parts": [
+     "body",
+     "description",
+     "faq",
+     "h2"
+    ],
+    "gsc_pos": 61.0,
+    "gsc_impr": 1,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": 0,
+    "days_with_data": 1
+   },
+   "after": null,
+   "other_edits_in_window": 1,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 5,
+   "batch_id": "backfill-2026-08-26",
+   "url": "/arabic-catering-dubai",
+   "keywords": [
+    "dubai catering company list",
+    "lebanese catering dubai",
+    "arabic catering dubai",
+    "best arabic catering dubai",
+    "arabic catering cost per person dubai",
+    "catering arabic food dubai"
+   ],
+   "applied_at": "2026-08-26T10:44+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-10",
+   "days_to_go": 15,
+   "parts": [
+    "body",
+    "faq",
+    "h2"
+   ],
+   "edits": 7,
+   "baseline": {
+    "to": "2026-08-25",
+    "from": "2026-08-12",
+    "edits": 7,
+    "parts": [
+     "body",
+     "faq",
+     "h2"
+    ],
+    "gsc_pos": 22.9,
+    "gsc_impr": 245,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": 3,
+    "days_with_data": 11
+   },
+   "after": null,
+   "other_edits_in_window": 1,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 4,
+   "batch_id": "backfill-2026-08-26",
+   "url": "/apartment-private-dining-dubai",
+   "keywords": [
+    "private dinner in dubai",
+    "chef to chef dubai",
+    "personal chef availability in dubai",
+    "private chef for apartment dubai",
+    "apartment dinner party dubai",
+    "apartment private dining packages dubai"
+   ],
+   "applied_at": "2026-08-26T10:44+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-10",
+   "days_to_go": 15,
+   "parts": [
+    "body",
+    "description",
+    "faq",
+    "h2"
+   ],
+   "edits": 8,
+   "baseline": {
+    "to": "2026-08-25",
+    "from": "2026-08-12",
+    "edits": 8,
+    "parts": [
+     "body",
+     "description",
+     "faq",
+     "h2"
+    ],
+    "gsc_pos": 8.3,
+    "gsc_impr": 10,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": 0,
+    "days_with_data": 3
+   },
+   "after": null,
+   "other_edits_in_window": 1,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 3,
+   "batch_id": "backfill-2026-08-26",
+   "url": "/allergy-safe-catering-dubai",
+   "keywords": [
+    "best catering service in dubai",
+    "allergy safe catering menu dubai",
+    "allergy safe catering packages dubai",
+    "best allergy safe catering dubai",
+    "catering for guests with food allergies dubai",
+    "catering services availability in dubai"
+   ],
+   "applied_at": "2026-08-26T10:44+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-10",
+   "days_to_go": 15,
+   "parts": [
+    "body",
+    "description",
+    "faq",
+    "h2"
+   ],
+   "edits": 8,
+   "baseline": {
+    "to": "2026-08-25",
+    "from": "2026-08-12",
+    "edits": 8,
+    "parts": [
+     "body",
+     "description",
+     "faq",
+     "h2"
+    ],
+    "gsc_pos": 1.0,
+    "gsc_impr": 1,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": 0,
+    "days_with_data": 1
+   },
+   "after": null,
+   "other_edits_in_window": 1,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 2,
+   "batch_id": "backfill-2026-08-26",
+   "url": "/afternoon-tea-catering-dubai",
+   "keywords": [
+    "best afternoon tea dubai",
+    "halal afternoon tea catering dubai",
+    "birthday afternoon tea dubai",
+    "afternoon tea catering dubai",
+    "afternoon tea at home dubai",
+    "afternoon tea caterers near me"
+   ],
+   "applied_at": "2026-08-26T10:44+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-10",
+   "days_to_go": 15,
+   "parts": [
+    "body",
+    "description",
+    "faq",
+    "h1",
+    "h2"
+   ],
+   "edits": 16,
+   "baseline": {
+    "to": "2026-08-25",
+    "from": "2026-08-12",
+    "edits": 16,
+    "parts": [
+     "body",
+     "description",
+     "faq",
+     "h1",
+     "h2"
+    ],
+    "gsc_pos": 7.0,
+    "gsc_impr": 35,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": 1,
+    "days_with_data": 10
+   },
+   "after": null,
+   "other_edits_in_window": 1,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 1,
+   "batch_id": "backfill-2026-08-26",
+   "url": "/about",
+   "keywords": [
+    "chef recruitment agencies in dubai",
+    "personal chef services availability in dubai",
+    "personal chef services on offer in dubai",
+    "about mychef dubai",
+    "private chef agency dubai",
+    "top personal chef services provider in dubai"
+   ],
+   "applied_at": "2026-08-26T10:44+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-10",
+   "days_to_go": 15,
+   "parts": [
+    "body",
+    "description",
+    "h1",
+    "opening"
+   ],
+   "edits": 7,
+   "baseline": {
+    "to": "2026-08-25",
+    "from": "2026-08-12",
+    "edits": 7,
+    "parts": [
+     "body",
+     "description",
+     "h1",
+     "opening"
+    ],
+    "gsc_pos": 20.1,
+    "gsc_impr": 62,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": 0,
+    "days_with_data": 13
+   },
+   "after": null,
+   "other_edits_in_window": 1,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 57,
+   "batch_id": "backfill-2026-08-26",
+   "url": "/wellness-meal-prep-dubai",
+   "keywords": [
+    "healthy meal plan dubai",
+    "weight loss meal plan dubai",
+    "healthy meal prep dubai",
+    "monthly healthy meal plan dubai for weight loss",
+    "healthy food chef",
+    "healthy meal prep dubai price"
+   ],
+   "applied_at": "2026-08-26T10:39+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-10",
+   "days_to_go": 15,
+   "parts": [
+    "description",
+    "faq",
+    "h1",
+    "h2",
+    "opening"
+   ],
+   "edits": 10,
+   "baseline": {
+    "to": "2026-08-25",
+    "from": "2026-08-12",
+    "edits": 10,
+    "parts": [
+     "description",
+     "faq",
+     "h1",
+     "h2",
+     "opening"
+    ],
+    "gsc_pos": 10.3,
+    "gsc_impr": 5,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": 0,
+    "days_with_data": 3
+   },
+   "after": null,
+   "other_edits_in_window": 1,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 55,
+   "batch_id": "backfill-2026-08-26",
+   "url": "/wedding-catering-dubai",
+   "keywords": [
+    "wedding catering dubai",
+    "when to book caterer for wedding",
+    "when to book catering for wedding",
+    "catering checklist for wedding",
+    "event catering for wedding",
+    "nikah catering dubai"
+   ],
+   "applied_at": "2026-08-26T10:39+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-10",
+   "days_to_go": 15,
+   "parts": [
+    "body",
+    "faq"
+   ],
+   "edits": 17,
+   "baseline": {
+    "to": "2026-08-25",
+    "from": "2026-08-12",
+    "edits": 17,
+    "parts": [
+     "body",
+     "faq"
+    ],
+    "gsc_pos": 56.9,
+    "gsc_impr": 41,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": 0,
+    "days_with_data": 13
+   },
+   "after": null,
+   "other_edits_in_window": 1,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 53,
+   "batch_id": "backfill-2026-08-26",
+   "url": "/villas-private-residences",
+   "keywords": [
+    "private dining at villa dubai",
+    "villa dinner party dubai",
+    "villa catering dubai menu",
+    "villa chef dubai",
+    "chef villa heanor",
+    "chef villa in the sky"
+   ],
+   "applied_at": "2026-08-26T10:39+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-10",
+   "days_to_go": 15,
+   "parts": [
+    "body",
+    "faq"
+   ],
+   "edits": 9,
+   "baseline": {
+    "to": "2026-08-25",
+    "from": "2026-08-12",
+    "edits": 9,
+    "parts": [
+     "body",
+     "faq"
+    ],
+    "gsc_pos": 35.8,
+    "gsc_impr": 102,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": 1,
+    "days_with_data": 13
+   },
+   "after": null,
+   "other_edits_in_window": 1,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 49,
+   "batch_id": "backfill-2026-08-26",
+   "url": "/private-party-catering-dubai",
+   "keywords": [
+    "party catering dubai",
+    "annual company party catering dubai",
+    "best private party catering dubai",
+    "dinner party catering dubai",
+    "halal private party catering dubai",
+    "house party catering dubai"
+   ],
+   "applied_at": "2026-08-26T10:39+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-10",
+   "days_to_go": 15,
+   "parts": [
+    "faq"
+   ],
+   "edits": 3,
+   "baseline": {
+    "to": "2026-08-25",
+    "from": "2026-08-12",
+    "edits": 3,
+    "parts": [
+     "faq"
+    ],
+    "gsc_pos": 56.5,
+    "gsc_impr": 788,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": 2,
+    "days_with_data": 10
+   },
+   "after": null,
+   "other_edits_in_window": 1,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 46,
+   "batch_id": "backfill-2026-08-26",
+   "url": "/private-chef-dubai",
+   "keywords": [
+    "private chef dubai",
+    "private chef",
+    "personal chef dubai",
+    "chef at home dubai",
+    "private chef dubai monthly",
+    "private chef near me dubai"
+   ],
+   "applied_at": "2026-08-26T10:39+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-10",
+   "days_to_go": 15,
+   "parts": [
+    "description",
+    "faq",
+    "h2",
+    "title"
+   ],
+   "edits": 11,
+   "baseline": {
+    "to": "2026-08-25",
+    "from": "2026-08-12",
+    "edits": 11,
+    "parts": [
+     "description",
+     "faq",
+     "h2",
+     "title"
+    ],
+    "gsc_pos": 37.6,
+    "gsc_impr": 483,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": 4,
+    "days_with_data": 13
+   },
+   "after": null,
+   "other_edits_in_window": 1,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 42,
+   "batch_id": "backfill-2026-08-26",
+   "url": "/luxury-dining-experiences",
+   "keywords": [
+    "luxury dining in dubai",
+    "unique dining experiences dubai",
+    "luxury dining menu dubai",
+    "luxury dining experiences dubai price",
+    "best luxury dining experiences dubai",
+    "dining offers in dubai"
+   ],
+   "applied_at": "2026-08-26T10:39+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-10",
+   "days_to_go": 15,
+   "parts": [
+    "faq",
+    "h2",
+    "opening"
+   ],
+   "edits": 7,
+   "baseline": {
+    "to": "2026-08-25",
+    "from": "2026-08-12",
+    "edits": 7,
+    "parts": [
+     "faq",
+     "h2",
+     "opening"
+    ],
+    "gsc_pos": 31.1,
+    "gsc_impr": 499,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": 2,
+    "days_with_data": 13
+   },
+   "after": null,
+   "other_edits_in_window": 1,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 31,
+   "batch_id": "backfill-2026-08-26",
+   "url": "/grazing-table-dubai",
+   "keywords": [
+    "grazing table dubai",
+    "grazing platter dubai",
+    "grazing table for 20 guests dubai",
+    "halal grazing table dubai",
+    "grazing tables dubai",
+    "grazing table menu dubai"
+   ],
+   "applied_at": "2026-08-26T10:39+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-10",
+   "days_to_go": 15,
+   "parts": [
+    "body",
+    "description",
+    "faq",
+    "h1",
+    "h2"
+   ],
+   "edits": 21,
+   "baseline": {
+    "to": "2026-08-25",
+    "from": "2026-08-12",
+    "edits": 21,
+    "parts": [
+     "body",
+     "description",
+     "faq",
+     "h1",
+     "h2"
+    ],
+    "gsc_pos": 6.6,
+    "gsc_impr": 92,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": 2,
+    "days_with_data": 8
+   },
+   "after": null,
+   "other_edits_in_window": 1,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 24,
+   "batch_id": "backfill-2026-08-26",
+   "url": "/corporate",
+   "keywords": [
+    "corporate catering dubai",
+    "corporate catering companies dubai",
+    "boardroom catering dubai",
+    "vip corporate catering dubai",
+    "small corporate catering dubai",
+    "recurring corporate catering dubai"
+   ],
+   "applied_at": "2026-08-26T10:39+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-10",
+   "days_to_go": 15,
+   "parts": [
+    "description",
+    "faq"
+   ],
+   "edits": 4,
+   "baseline": {
+    "to": "2026-08-25",
+    "from": "2026-08-12",
+    "edits": 4,
+    "parts": [
+     "description",
+     "faq"
+    ],
+    "gsc_pos": 34.5,
+    "gsc_impr": 492,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": 0,
+    "days_with_data": 3
+   },
+   "after": null,
+   "other_edits_in_window": 1,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 23,
+   "batch_id": "backfill-2026-08-26",
+   "url": "/conference-catering-dubai",
+   "keywords": [
+    "catering conference 2026",
+    "catering conference services coordinator",
+    "conference catering companies dubai",
+    "conference catering dubai",
+    "conference catering dubai cost per person",
+    "conference catering dubai price"
+   ],
+   "applied_at": "2026-08-26T10:39+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-10",
+   "days_to_go": 15,
+   "parts": [
+    "body",
+    "description",
+    "faq",
+    "h2"
+   ],
+   "edits": 13,
+   "baseline": {
+    "to": "2026-08-25",
+    "from": "2026-08-12",
+    "edits": 13,
+    "parts": [
+     "body",
+     "description",
+     "faq",
+     "h2"
+    ],
+    "gsc_pos": 59.3,
+    "gsc_impr": 236,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": 0,
+    "days_with_data": 11
+   },
+   "after": null,
+   "other_edits_in_window": 1,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 19,
+   "batch_id": "backfill-2026-08-26",
+   "url": "/canape-catering-dubai",
+   "keywords": [
+    "canape catering dubai",
+    "finger food catering dubai",
+    "how many canapes per person",
+    "halal canape catering dubai",
+    "finger food catering price per person dubai",
+    "corporate canape catering dubai"
+   ],
+   "applied_at": "2026-08-26T10:39+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-10",
+   "days_to_go": 15,
+   "parts": [
+    "body",
+    "description",
+    "faq",
+    "h1",
+    "h2",
+    "title"
+   ],
+   "edits": 23,
+   "baseline": {
+    "to": "2026-08-25",
+    "from": "2026-08-12",
+    "edits": 23,
+    "parts": [
+     "body",
+     "description",
+     "faq",
+     "h1",
+     "h2",
+     "title"
+    ],
+    "gsc_pos": 23.8,
+    "gsc_impr": 570,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": 0,
+    "days_with_data": 9
+   },
+   "after": null,
+   "other_edits_in_window": 1,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 18,
+   "batch_id": "backfill-2026-08-26",
+   "url": "/business-lunch-catering-dubai",
+   "keywords": [
+    "business lunch downtown dubai",
+    "business lunch offers in dubai",
+    "business lunch options dubai",
+    "office lunch delivery dubai",
+    "working lunch catering dubai",
+    "business lunch catering packages dubai"
+   ],
+   "applied_at": "2026-08-26T10:39+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-10",
+   "days_to_go": 15,
+   "parts": [
+    "body",
+    "description",
+    "faq",
+    "h2"
+   ],
+   "edits": 11,
+   "baseline": {
+    "to": "2026-08-25",
+    "from": "2026-08-12",
+    "edits": 11,
+    "parts": [
+     "body",
+     "description",
+     "faq",
+     "h2"
+    ],
+    "gsc_pos": 35.2,
+    "gsc_impr": 803,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": 0,
+    "days_with_data": 13
+   },
+   "after": null,
+   "other_edits_in_window": 1,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 8,
+   "batch_id": "backfill-2026-08-26",
+   "url": "/birthday-catering-dubai",
+   "keywords": [
+    "birthday catering dubai",
+    "birthday party catering dubai",
+    "birthday catering menu dubai",
+    "full service birthday catering dubai",
+    "halal birthday catering dubai",
+    "kids birthday catering dubai"
+   ],
+   "applied_at": "2026-08-26T10:39+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-10",
+   "days_to_go": 15,
+   "parts": [
+    "faq"
+   ],
+   "edits": 3,
+   "baseline": {
+    "to": "2026-08-25",
+    "from": "2026-08-12",
+    "edits": 3,
+    "parts": [
+     "faq"
+    ],
+    "gsc_pos": 37.2,
+    "gsc_impr": 170,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": 0,
+    "days_with_data": 5
+   },
+   "after": null,
+   "other_edits_in_window": 1,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  },
+  {
+   "id": 7,
+   "batch_id": "backfill-2026-08-26",
+   "url": "/bbq-catering-dubai",
+   "keywords": [
+    "bbq catering dubai",
+    "live bbq catering dubai",
+    "bbq catering dubai price",
+    "bbq catering packages dubai",
+    "bbq catering price per person dubai",
+    "bbq chef at home dubai"
+   ],
+   "applied_at": "2026-08-26T10:39+00:00",
+   "window_days": 14,
+   "closes_on": "2026-09-10",
+   "days_to_go": 15,
+   "parts": [
+    "body",
+    "description",
+    "faq",
+    "h1",
+    "h2"
+   ],
+   "edits": 21,
+   "baseline": {
+    "to": "2026-08-25",
+    "from": "2026-08-12",
+    "edits": 21,
+    "parts": [
+     "body",
+     "description",
+     "faq",
+     "h1",
+     "h2"
+    ],
+    "gsc_pos": 17.7,
+    "gsc_impr": 119,
+    "sessions": null,
+    "wa_clicks": null,
+    "gsc_clicks": 0,
+    "days_with_data": 12
+   },
+   "after": null,
+   "other_edits_in_window": 1,
+   "verdict": "too_soon",
+   "why": "the window has not closed yet",
+   "closed_at": null
+  }
+ ]
+}
