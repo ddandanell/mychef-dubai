@@ -38,6 +38,21 @@ behaviour = {p["url"]: p for p in _beh.get("pages", [])}
 def behaviour_for(u):
     return behaviour.get(u.rstrip("/") or "/") or {"sessions": 0, "bounce_rate": None, "median_seconds": None, "conversions": 0}
 
+# GA4 covers the same two questions with far more sessions behind it right now; first-party wins
+# on conversions because it is the only one that can be joined to a keyword.
+_gaf = HERE / ".live/research/ga4/analytics.json"
+_ga = json.loads(_gaf.read_text()) if _gaf.exists() else {"pages": []}
+ga4 = {p["url"]: p for p in _ga.get("pages", [])}
+def engagement_for(u):
+    g = ga4.get(u.rstrip("/") or "/")
+    b = behaviour_for(u)
+    return {
+        "sessions": (g or {}).get("sessions") or b["sessions"],
+        "bounce_rate": (g or {}).get("bounce_rate", b["bounce_rate"]),
+        "seconds": (g or {}).get("avg_engagement_seconds", b["median_seconds"]),
+        "source": "ga4" if g else ("first-party" if b["sessions"] else None),
+    }
+
 import unicodedata as _ud
 def _deaccent(s): return "".join(c for c in _ud.normalize("NFKD", s or "") if not _ud.combining(c))
 def norm(s):
@@ -169,8 +184,9 @@ for k, (url, role) in owner.items():
         "cannibalisation_risk": risk, "competitor_gap": rep.get("competitor_gap"), "serp_similarity": rep.get("serp_similarity"),
         "optimization_score": score, "next_action": "; ".join(nxt) or "hold — nothing to do", "silo": pages[url].get("silo"),
         "page_visitors": traffic_for(url)["visitors"], "page_pageviews": traffic_for(url)["pageviews"],
-        "page_conversions": behaviour_for(url)["conversions"], "page_seconds": behaviour_for(url)["median_seconds"],
-        "page_bounce": behaviour_for(url)["bounce_rate"],
+        "page_conversions": behaviour_for(url)["conversions"], "page_seconds": engagement_for(url)["seconds"],
+        "page_bounce": engagement_for(url)["bounce_rate"], "page_sessions": engagement_for(url)["sessions"],
+        "behaviour_source": engagement_for(url)["source"],
         "gsc_clicks": g.get("clicks"), "gsc_impressions": g.get("impressions"), "gsc_ctr": g.get("ctr"),
         "gsc_position": g.get("position"), "gsc_ranking_url": ranks_at, "demand_share": share,
     })
@@ -184,8 +200,9 @@ for u in sitemap_urls:
                      "body_coverage": 0, "faq_coverage": False, "internal_anchor_coverage": "none", "cannibalisation_risk": "n/a", "competitor_gap": None, "serp_similarity": None,
                      "optimization_score": 0, "next_action": "decide: lock a primary or keep untargeted by decision", "silo": (pages.get(u) or {}).get("silo"),
                      "page_visitors": traffic_for(u)["visitors"], "page_pageviews": traffic_for(u)["pageviews"],
-                     "page_conversions": behaviour_for(u)["conversions"], "page_seconds": behaviour_for(u)["median_seconds"],
-                     "page_bounce": behaviour_for(u)["bounce_rate"], "gsc_clicks": None, "gsc_impressions": None,
+                     "page_conversions": behaviour_for(u)["conversions"], "page_seconds": engagement_for(u)["seconds"],
+                     "page_bounce": engagement_for(u)["bounce_rate"], "page_sessions": engagement_for(u)["sessions"],
+                     "behaviour_source": engagement_for(u)["source"], "gsc_clicks": None, "gsc_impressions": None,
                      "gsc_ctr": None, "gsc_position": None, "gsc_ranking_url": None, "demand_share": None})
 rows.sort(key=lambda r: (-(r["search_volume"]), r["primary_owning_url"], r["role"] != "primary", r["keyword"]))
 stats = {"keywords": sum(1 for r in rows if r["keyword"]), "sitemap_urls": len(sitemap_urls), "sitemap_urls_untargeted": sum(1 for r in rows if not r["keyword"]), "primaries": sum(1 for r in rows if r["role"] == "primary"), "avg_score": round(sum(r["optimization_score"] for r in rows) / max(1, len(rows)), 2),

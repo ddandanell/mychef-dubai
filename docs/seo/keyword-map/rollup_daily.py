@@ -5,6 +5,8 @@ Never invented: missing sources leave their columns null.
 """
 from __future__ import annotations
 
+import psycopg2.extras
+
 DDL = """
 ALTER TABLE web_sessions ADD COLUMN IF NOT EXISTS channel_class TEXT;
 ALTER TABLE web_sessions ADD COLUMN IF NOT EXISTS landing_class TEXT;
@@ -29,10 +31,29 @@ CREATE TABLE IF NOT EXISTS seo_page_daily (
   gsc_ctr      real,
   gsc_pos      real,
   vercel_views int,
+  ga4_sessions int,
+  ga4_engaged int,
+  ga4_engagement_rate real,
+  ga4_avg_seconds real,
+  ga4_key_events int,
   PRIMARY KEY (day, url)
 );
+ALTER TABLE seo_page_daily ADD COLUMN IF NOT EXISTS ga4_sessions int;
+ALTER TABLE seo_page_daily ADD COLUMN IF NOT EXISTS ga4_engaged int;
+ALTER TABLE seo_page_daily ADD COLUMN IF NOT EXISTS ga4_engagement_rate real;
+ALTER TABLE seo_page_daily ADD COLUMN IF NOT EXISTS ga4_avg_seconds real;
+ALTER TABLE seo_page_daily ADD COLUMN IF NOT EXISTS ga4_key_events int;
 CREATE INDEX IF NOT EXISTS seo_page_daily_url ON seo_page_daily(url);
 CREATE INDEX IF NOT EXISTS seo_page_daily_day ON seo_page_daily(day);
+
+-- One row per query per day. seo_page_daily answers "which page moved"; this answers
+-- "which words moved", which is the question that names the next edit.
+CREATE TABLE IF NOT EXISTS seo_query_daily (
+  day DATE NOT NULL, query TEXT NOT NULL,
+  clicks INT, impressions INT, ctr REAL, position REAL,
+  PRIMARY KEY (day, query)
+);
+CREATE INDEX IF NOT EXISTS seo_query_daily_query ON seo_query_daily(query);
 
 CREATE TABLE IF NOT EXISTS seo_proposals (
   id TEXT PRIMARY KEY,
@@ -68,7 +89,7 @@ def set_primaries(cur, contract_pages):
             rows.append((primary, url))
     if not rows:
         return
-    cur.executemany(
+    psycopg2.extras.execute_batch(cur, 
         "UPDATE seo_page_daily SET primary_kw = %s WHERE url = %s AND primary_kw IS NULL",
         rows,
     )
@@ -94,7 +115,7 @@ def upsert_firstparty(cur, rows):
         med_seconds = EXCLUDED.med_seconds,
         med_scroll = EXCLUDED.med_scroll
     """
-    cur.executemany(sql, rows)
+    psycopg2.extras.execute_batch(cur, sql, rows)
     return len(rows)
 
 
@@ -110,7 +131,7 @@ def upsert_gsc(cur, rows):
         gsc_ctr = EXCLUDED.gsc_ctr,
         gsc_pos = EXCLUDED.gsc_pos
     """
-    cur.executemany(sql, rows)
+    psycopg2.extras.execute_batch(cur, sql, rows)
     return len(rows)
 
 
@@ -122,5 +143,40 @@ def upsert_vercel(cur, rows):
       VALUES (%(day)s, %(url)s, %(vercel_views)s)
       ON CONFLICT (day, url) DO UPDATE SET vercel_views = EXCLUDED.vercel_views
     """
-    cur.executemany(sql, rows)
+    psycopg2.extras.execute_batch(cur, sql, rows)
+    return len(rows)
+
+
+def upsert_ga4(cur, rows):
+    """GA4 is reported per landing page per day. Its columns stay null when GA4 is silent —
+    a page with no session did not have a bounce rate of zero."""
+    if not rows:
+        return 0
+    sql = """
+      INSERT INTO seo_page_daily (day, url, ga4_sessions, ga4_engaged, ga4_engagement_rate,
+                                  ga4_avg_seconds, ga4_key_events)
+      VALUES (%(day)s, %(url)s, %(sessions)s, %(engaged)s, %(engagement_rate)s,
+              %(avg_seconds)s, %(key_events)s)
+      ON CONFLICT (day, url) DO UPDATE SET
+        ga4_sessions = EXCLUDED.ga4_sessions,
+        ga4_engaged = EXCLUDED.ga4_engaged,
+        ga4_engagement_rate = EXCLUDED.ga4_engagement_rate,
+        ga4_avg_seconds = EXCLUDED.ga4_avg_seconds,
+        ga4_key_events = EXCLUDED.ga4_key_events
+    """
+    psycopg2.extras.execute_batch(cur, sql, rows)
+    return len(rows)
+
+
+def upsert_queries(cur, rows):
+    """Query x day from Search Console. Same rule as everywhere else: a day with no row is a
+    day Google reported nothing for that query, not a day it scored zero."""
+    if not rows:
+        return 0
+    psycopg2.extras.execute_batch(cur, """
+      INSERT INTO seo_query_daily (day, query, clicks, impressions, ctr, position)
+      VALUES (%(day)s, %(query)s, %(clicks)s, %(impressions)s, %(ctr)s, %(position)s)
+      ON CONFLICT (day, query) DO UPDATE SET clicks = EXCLUDED.clicks,
+        impressions = EXCLUDED.impressions, ctr = EXCLUDED.ctr, position = EXCLUDED.position
+    """, rows)
     return len(rows)

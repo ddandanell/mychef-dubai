@@ -1,0 +1,485 @@
+{
+ "generated": "2026-08-27 12:55",
+ "captured_on": "2026-08-27",
+ "strategy": "mobile",
+ "site": "https://www.mychef.ae",
+ "thresholds": {
+  "good": {
+   "lcp_ms": 2500,
+   "inp_ms": 200,
+   "cls": 0.1,
+   "fcp_ms": 1800,
+   "ttfb_ms": 800
+  },
+  "poor": {
+   "lcp_ms": 4000,
+   "inp_ms": 500,
+   "cls": 0.25,
+   "fcp_ms": 3000,
+   "ttfb_ms": 1800
+  }
+ },
+ "median_performance": 71.0,
+ "field_pages": 0,
+ "failing": [
+  "/private-chef-dubai",
+  "/wedding-catering-dubai",
+  "/arabic-catering-dubai",
+  "/guide/private-dining-dubai",
+  "/corporate",
+  "/catering-dubai",
+  "/office-catering-dubai",
+  "/yachts"
+ ],
+ "pages": [
+  {
+   "url": "/private-chef-dubai",
+   "strategy": "mobile",
+   "performance": 66.0,
+   "seo_score": 100,
+   "accessibility": 95.0,
+   "lab_lcp_ms": 5626.0829,
+   "lab_fcp_ms": 4801.0701,
+   "lab_cls": 0,
+   "lab_tbt_ms": 0,
+   "lab_ttfb_ms": 4,
+   "lab_speed_index_ms": 5369.1223,
+   "bytes": 2507779,
+   "field_source": null,
+   "field_lcp_ms": null,
+   "field_inp_ms": null,
+   "field_cls": null,
+   "field_ttfb_ms": null,
+   "lcp": "poor",
+   "inp": null,
+   "cls": "good",
+   "opportunities": [
+    {
+     "id": "unused-javascript",
+     "title": "Reduce unused JavaScript",
+     "saving_ms": 750
+    },
+    {
+     "id": "unused-css-rules",
+     "title": "Reduce unused CSS",
+     "saving_ms": 130
+    }
+   ]
+  },
+  {
+   "url": "/wedding-catering-dubai",
+   "strategy": "mobile",
+   "performance": 72.0,
+   "seo_score": 100,
+   "accessibility": 95.0,
+   "lab_lcp_ms": 4953.0496,
+   "lab_fcp_ms": 3901.0384,
+   "lab_cls": 0.0001,
+   "lab_tbt_ms": 123,
+   "lab_ttfb_ms": 4,
+   "lab_speed_index_ms": 3901.0384,
+   "bytes": 659917,
+   "field_source": null,
+   "field_lcp_ms": null,
+   "field_inp_ms": null,
+   "field_cls": null,
+   "field_ttfb_ms": null,
+   "lcp": "poor",
+   "inp": null,
+   "cls": "good",
+   "opportunities": [
+    {
+     "id": "unused-javascript",
+     "title": "Reduce unused JavaScript",
+     "saving_ms": 900
+    },
+    {
+     "id": "unused-css-rules",
+     "title": "Reduce unused CSS",
+     "saving_ms": 130
+    }
+   ]
+  },
+  {
+   "url": "/arabic-catering-dubai",
+   "strategy": "mobile",
+   "performance": 73.0,
+   "seo_score": 100,
+   "accessibility": 94.0,
+   "lab_lcp_ms": 4501.5679,
+   "lab_fcp_ms": 3901.5582,
+   "lab_cls": 0.0001,
+   "lab_tbt_ms": 149,
+   "lab_ttfb_ms": 4,
+   "lab_speed_index_ms": 3901.5582,
+   "bytes": 725985,
+   "field_source": null,
+   "field_lcp_ms": null,
+   "field_inp_ms": null,
+   "field_cls": null,
+   "field_ttfb_ms": null,
+   "lcp": "poor",
+   "inp": null,
+   "cls": "good",
+   "opportunities": [
+    {
+     "id": "unused-javascript",
+     "title": "Reduce unused JavaScript",
+     "saving_ms": 300
+    },
+    {
+     "id": "unused-css-rules",
+     "title": "Reduce unused CSS",
+     "saving_ms": 150
+    }
+   ]
+  },
+  {
+   "url": "/guide/private-dining-dubai",
+   "strategy": "mobile",
+   "performance": 71.0,
+   "seo_score": 100,
+   "accessibility": 94.0,
+   "lab_lcp_ms": 4879.0955,
+   "lab_fcp_ms": 3601.0689,
+   "lab_cls": 0.0001,
+   "lab_tbt_ms": 179,
+   "lab_ttfb_ms": 3,
+   "lab_speed_index_ms": 3876.9293,
+   "bytes": 613405,
+   "field_source": null,
+   "field_lcp_ms": null,
+   "field_inp_ms": null,
+   "field_cls": null,
+   "field_ttfb_ms": null,
+   "lcp": "poor",
+   "inp": null,
+   "cls": "good",
+   "opportunities": [
+    {
+     "id": "unused-javascript",
+     "title": "Reduce unused JavaScript",
+     "saving_ms": 750
+    },
+    {
+     "id": "unused-css-rules",
+     "title": "Reduce unused CSS",
+     "saving_ms": 150
+    }
+   ]
+  },
+  {
+   "url": "/corporate",
+   "strategy": "mobile",
+   "performance": 70.0,
+   "seo_score": 100,
+   "accessibility": 95.0,
+   "lab_lcp_ms": 4884.1016,
+   "lab_fcp_ms": 3901.0799,
+   "lab_cls": 0,
+   "lab_tbt_ms": 195,
+   "lab_ttfb_ms": 3,
+   "lab_speed_index_ms": 3901.0799,
+   "bytes": 653122,
+   "field_source": null,
+   "field_lcp_ms": null,
+   "field_inp_ms": null,
+   "field_cls": null,
+   "field_ttfb_ms": null,
+   "lcp": "poor",
+   "inp": null,
+   "cls": "good",
+   "opportunities": [
+    {
+     "id": "unused-javascript",
+     "title": "Reduce unused JavaScript",
+     "saving_ms": 750
+    }
+   ]
+  },
+  {
+   "url": "/catering-dubai",
+   "strategy": "mobile",
+   "performance": 71.0,
+   "seo_score": 100,
+   "accessibility": 95.0,
+   "lab_lcp_ms": 5178.5415,
+   "lab_fcp_ms": 3901.0307,
+   "lab_cls": 0.0001,
+   "lab_tbt_ms": 104,
+   "lab_ttfb_ms": 4,
+   "lab_speed_index_ms": 3926.2191,
+   "bytes": 759207,
+   "field_source": null,
+   "field_lcp_ms": null,
+   "field_inp_ms": null,
+   "field_cls": null,
+   "field_ttfb_ms": null,
+   "lcp": "poor",
+   "inp": null,
+   "cls": "good",
+   "opportunities": [
+    {
+     "id": "unused-javascript",
+     "title": "Reduce unused JavaScript",
+     "saving_ms": 900
+    },
+    {
+     "id": "unused-css-rules",
+     "title": "Reduce unused CSS",
+     "saving_ms": 280
+    }
+   ]
+  },
+  {
+   "url": "/office-catering-dubai",
+   "strategy": "mobile",
+   "performance": 70.0,
+   "seo_score": 100,
+   "accessibility": 95.0,
+   "lab_lcp_ms": 4967.1016,
+   "lab_fcp_ms": 3901.0787,
+   "lab_cls": 0,
+   "lab_tbt_ms": 140,
+   "lab_ttfb_ms": 3,
+   "lab_speed_index_ms": 4207.0269,
+   "bytes": 656956,
+   "field_source": null,
+   "field_lcp_ms": null,
+   "field_inp_ms": null,
+   "field_cls": null,
+   "field_ttfb_ms": null,
+   "lcp": "poor",
+   "inp": null,
+   "cls": "good",
+   "opportunities": [
+    {
+     "id": "unused-javascript",
+     "title": "Reduce unused JavaScript",
+     "saving_ms": 750
+    },
+    {
+     "id": "unused-css-rules",
+     "title": "Reduce unused CSS",
+     "saving_ms": 280
+    }
+   ]
+  },
+  {
+   "url": "/yachts",
+   "strategy": "mobile",
+   "performance": 73.0,
+   "seo_score": 100,
+   "accessibility": 94.0,
+   "lab_lcp_ms": 4743.95,
+   "lab_fcp_ms": 3626.3356,
+   "lab_cls": 0.0001,
+   "lab_tbt_ms": 162,
+   "lab_ttfb_ms": 2,
+   "lab_speed_index_ms": 3626.3356,
+   "bytes": 638802,
+   "field_source": null,
+   "field_lcp_ms": null,
+   "field_inp_ms": null,
+   "field_cls": null,
+   "field_ttfb_ms": null,
+   "lcp": "poor",
+   "inp": null,
+   "cls": "good",
+   "opportunities": [
+    {
+     "id": "unused-javascript",
+     "title": "Reduce unused JavaScript",
+     "saving_ms": 900
+    }
+   ]
+  }
+ ],
+ "errors": [],
+ "intro": "Lab is one Lighthouse run in a Google datacentre — available for every page, and the only number you can act on before a page has traffic. Field is what real Chrome users experienced over 28 days; it is blank for a page too quiet to report, which is not the same as fast. Google ranks on the field number where it has one.",
+ "tiles": [
+  {
+   "value": "71.0",
+   "label": "Median performance"
+  },
+  {
+   "value": "8",
+   "label": "Pages measured"
+  },
+  {
+   "value": "0",
+   "label": "With real-user data"
+  },
+  {
+   "value": "8",
+   "label": "Failing a Core Web Vital"
+  }
+ ],
+ "worst": [
+  {
+   "url": "/private-chef-dubai",
+   "strategy": "mobile",
+   "performance": 66.0,
+   "seo_score": 100,
+   "accessibility": 95.0,
+   "lab_lcp_ms": 5626.0829,
+   "lab_fcp_ms": 4801.0701,
+   "lab_cls": 0,
+   "lab_tbt_ms": 0,
+   "lab_ttfb_ms": 4,
+   "lab_speed_index_ms": 5369.1223,
+   "bytes": 2507779,
+   "field_source": null,
+   "field_lcp_ms": null,
+   "field_inp_ms": null,
+   "field_cls": null,
+   "field_ttfb_ms": null,
+   "lcp": "poor",
+   "inp": null,
+   "cls": "good",
+   "opportunities": [
+    {
+     "id": "unused-javascript",
+     "title": "Reduce unused JavaScript",
+     "saving_ms": 750
+    },
+    {
+     "id": "unused-css-rules",
+     "title": "Reduce unused CSS",
+     "saving_ms": 130
+    }
+   ]
+  },
+  {
+   "url": "/corporate",
+   "strategy": "mobile",
+   "performance": 70.0,
+   "seo_score": 100,
+   "accessibility": 95.0,
+   "lab_lcp_ms": 4884.1016,
+   "lab_fcp_ms": 3901.0799,
+   "lab_cls": 0,
+   "lab_tbt_ms": 195,
+   "lab_ttfb_ms": 3,
+   "lab_speed_index_ms": 3901.0799,
+   "bytes": 653122,
+   "field_source": null,
+   "field_lcp_ms": null,
+   "field_inp_ms": null,
+   "field_cls": null,
+   "field_ttfb_ms": null,
+   "lcp": "poor",
+   "inp": null,
+   "cls": "good",
+   "opportunities": [
+    {
+     "id": "unused-javascript",
+     "title": "Reduce unused JavaScript",
+     "saving_ms": 750
+    }
+   ]
+  },
+  {
+   "url": "/office-catering-dubai",
+   "strategy": "mobile",
+   "performance": 70.0,
+   "seo_score": 100,
+   "accessibility": 95.0,
+   "lab_lcp_ms": 4967.1016,
+   "lab_fcp_ms": 3901.0787,
+   "lab_cls": 0,
+   "lab_tbt_ms": 140,
+   "lab_ttfb_ms": 3,
+   "lab_speed_index_ms": 4207.0269,
+   "bytes": 656956,
+   "field_source": null,
+   "field_lcp_ms": null,
+   "field_inp_ms": null,
+   "field_cls": null,
+   "field_ttfb_ms": null,
+   "lcp": "poor",
+   "inp": null,
+   "cls": "good",
+   "opportunities": [
+    {
+     "id": "unused-javascript",
+     "title": "Reduce unused JavaScript",
+     "saving_ms": 750
+    },
+    {
+     "id": "unused-css-rules",
+     "title": "Reduce unused CSS",
+     "saving_ms": 280
+    }
+   ]
+  },
+  {
+   "url": "/guide/private-dining-dubai",
+   "strategy": "mobile",
+   "performance": 71.0,
+   "seo_score": 100,
+   "accessibility": 94.0,
+   "lab_lcp_ms": 4879.0955,
+   "lab_fcp_ms": 3601.0689,
+   "lab_cls": 0.0001,
+   "lab_tbt_ms": 179,
+   "lab_ttfb_ms": 3,
+   "lab_speed_index_ms": 3876.9293,
+   "bytes": 613405,
+   "field_source": null,
+   "field_lcp_ms": null,
+   "field_inp_ms": null,
+   "field_cls": null,
+   "field_ttfb_ms": null,
+   "lcp": "poor",
+   "inp": null,
+   "cls": "good",
+   "opportunities": [
+    {
+     "id": "unused-javascript",
+     "title": "Reduce unused JavaScript",
+     "saving_ms": 750
+    },
+    {
+     "id": "unused-css-rules",
+     "title": "Reduce unused CSS",
+     "saving_ms": 150
+    }
+   ]
+  },
+  {
+   "url": "/catering-dubai",
+   "strategy": "mobile",
+   "performance": 71.0,
+   "seo_score": 100,
+   "accessibility": 95.0,
+   "lab_lcp_ms": 5178.5415,
+   "lab_fcp_ms": 3901.0307,
+   "lab_cls": 0.0001,
+   "lab_tbt_ms": 104,
+   "lab_ttfb_ms": 4,
+   "lab_speed_index_ms": 3926.2191,
+   "bytes": 759207,
+   "field_source": null,
+   "field_lcp_ms": null,
+   "field_inp_ms": null,
+   "field_cls": null,
+   "field_ttfb_ms": null,
+   "lcp": "poor",
+   "inp": null,
+   "cls": "good",
+   "opportunities": [
+    {
+     "id": "unused-javascript",
+     "title": "Reduce unused JavaScript",
+     "saving_ms": 900
+    },
+    {
+     "id": "unused-css-rules",
+     "title": "Reduce unused CSS",
+     "saving_ms": 280
+    }
+   ]
+  }
+ ]
+}

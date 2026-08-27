@@ -11,6 +11,7 @@ import { AnimatedCircularProgressBar } from "@/components/magicui/animated-circu
 import { ShimmerButton } from "@/components/magicui/shimmer-button"
 import { ExperimentVerdict } from "@/seo-os/components/experiment-verdict"
 import { HeartbeatBanner } from "@/seo-os/components/heartbeat-banner"
+import { MovementPanel, type MoversFile } from "@/seo-os/components/movement-panel"
 import { KpiCard } from "@/seo-os/components/kpi-card"
 import { PageFrame } from "@/seo-os/components/page-frame"
 import { ProposalRow } from "@/seo-os/components/proposal-row"
@@ -26,6 +27,7 @@ const chartConfig = {
 
 export default function ControlPage() {
   const { data, error, loading } = useSeoJson<ControlFile>("control")
+  const movers = useSeoJson<MoversFile>("movers")
   const navigate = useNavigate()
   const counts = data?.counts
   const beat = data?.heartbeat
@@ -51,6 +53,8 @@ export default function ControlPage() {
     >
       <div className="flex flex-col gap-8 px-4 lg:px-6">
         <HeartbeatBanner banner={data?.banner} stale={stale} />
+
+        <MovementPanel data={movers.data} />
 
         <section className="grid gap-4 lg:grid-cols-[1fr_auto]">
           <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-4">

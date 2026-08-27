@@ -66,6 +66,10 @@ def main():
             by_page_date = query(H, {**rng, "dimensions": ["date", "page"], "rowLimit": 25000})
         except Exception:
             by_page_date = []
+        try:
+            by_query_date = query(H, {**rng, "dimensions": ["date", "query"], "rowLimit": 25000})
+        except Exception:
+            by_query_date = []
     except urllib.error.HTTPError as e:
         detail = e.read().decode()[:160]
         print(f"Search Console HTTP {e.code} for {SITE}: {detail}")
@@ -127,7 +131,7 @@ def main():
         try:
             import psycopg2
             sys.path.insert(0, str(HERE))
-            from rollup_daily import ensure, upsert_gsc, set_primaries
+            from rollup_daily import ensure, upsert_gsc, upsert_queries, set_primaries
             env = {k: v.strip().strip('"').strip("'") for k, v in
                    (l.strip().split("=", 1) for l in open(envf) if "=" in l and not l.startswith("#"))}
             conn = psycopg2.connect(env.get("DATABASE_URL_UNPOOLED") or env["DATABASE_URL"])
@@ -139,8 +143,12 @@ def main():
             contract_path = HERE.parents[2] / "docs/seo/myCHEF-AE-SEO-STANDARD.json"
             if contract_path.exists():
                 set_primaries(cur, (json.loads(contract_path.read_text()).get("pages") or {}))
+            q = upsert_queries(cur, [{"day": r["keys"][0], "query": r["keys"][1],
+                                      "clicks": r.get("clicks"), "impressions": r.get("impressions"),
+                                      "ctr": r.get("ctr"), "position": r.get("position")}
+                                     for r in by_query_date if len(r.get("keys", [])) == 2])
             conn.commit(); conn.close()
-            print(f"  seo_page_daily: {n} GSC rows upserted")
+            print(f"  seo_page_daily: {n} GSC rows upserted · seo_query_daily: {q} query-days")
         except Exception as ex:  # noqa: BLE001
             print(f"  seo_page_daily GSC rollup skipped ({str(ex)[:80]})")
     return 0

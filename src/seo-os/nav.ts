@@ -3,6 +3,7 @@ import {
   Activity,
   BarChart3,
   Database,
+  FileClock,
   FlaskConical,
   Gauge,
   GitCompare,
@@ -22,6 +23,7 @@ import {
   Settings,
   Sparkles,
   TrendingUp,
+  Zap,
 } from "lucide-react"
 
 export type SeoNavItem = {
@@ -53,6 +55,8 @@ export const SEO_NAV: SeoNavGroup[] = [
       { href: "/seo/links", label: "Links", description: "Internal link profile per URL", icon: Link2, file: "links" },
       { href: "/seo/gaps", label: "Gaps", description: "What competitors cover and we do not", icon: GitCompare, file: "gaps" },
       { href: "/seo/architecture", label: "Architecture", description: "The sitemap as an authority map", icon: Network, file: "architecture" },
+      { href: "/seo/changes", label: "Changes", description: "Every change to the site, with the words before and after", icon: FileClock, file: "changelog" },
+      { href: "/seo/speed", label: "Speed", description: "Core Web Vitals, lab and field, per page", icon: Zap, file: "speed" },
       { href: "/seo/actions", label: "Actions", description: "Every change the agent made, newest first", icon: History, file: "actions" },
       { href: "/seo/ask", label: "Ask", description: "Put a question to the read-only SEO analyst", icon: MessageSquare },
     ],

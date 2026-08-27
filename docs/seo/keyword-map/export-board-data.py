@@ -32,6 +32,9 @@ JSON_FILES = [
     "control.json",
     "rules.json",
     "experiments.json",
+    "movers.json",
+    "changelog.json",
+    "speed.json",
 ]
 CSV_FILES = ["report.csv", "keywords.csv"]
 

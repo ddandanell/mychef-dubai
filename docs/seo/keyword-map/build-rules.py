@@ -148,6 +148,33 @@ RULES = [
         "where": "docs/seo/keyword-map/*.json → export-board-data.py → public/seo/data (gitignored)",
     },
     {
+        "id": "log-every-change",
+        "rule": "Every change to the site is logged with its date and the URLs it can affect — copy, "
+                "images, design, retirements, all of it.",
+        "why": "A rise or a fall is unreadable without what was done. The record used to be split "
+               "across a Postgres table, git and a JSON map, so a number could never be joined to "
+               "the edit that caused it.",
+        "where": "build-changelog.py → seo_changelog · the Changes page",
+    },
+    {
+        "id": "compare-like-with-like",
+        "rule": "Compare the last seven complete days with the seven before them, and never against "
+                "a part-reported day.",
+        "why": "Search Console reports two to three days late. Comparing today with last Tuesday "
+               "invents a crash that is only the reporting lag, and a weekend against a weekday "
+               "invents a trend that is only the weekend.",
+        "where": "build-movers.py windows · the Control page",
+    },
+    {
+        "id": "name-the-reason-honestly",
+        "rule": "A move is explained from the arithmetic first — ranking, demand or click-through — "
+                "and only then blamed on a change that could plausibly cause that shape.",
+        "why": "Blaming every move on the most recent edit is how a dashboard starts lying. And an "
+               "average position that improves while impressions fall is a page losing its long "
+               "tail, not a page winning.",
+        "where": "build-movers.py explain()",
+    },
+    {
         "id": "push-is-release",
         "rule": "A push to main is a release. Run every gate before pushing, never after.",
         "why": "Vercel's Git integration deploys production on every push to main.",
@@ -179,6 +206,12 @@ def main():
         "no-junk-phrases": "81 phrases removed from the contract and blocked in the filler",
         "experiment-every-apply": f"{len(data('experiments.json').get('items', []))} experiment(s) recorded",
         "nothing-auto-applies": f"{sum(q['count'] for q in data('control.json').get('queue', []) if q.get('status') == 'open')} proposal(s) waiting for a decision",
+        "log-every-change": f"{len(data('changelog.json').get('items', []))} change(s) logged over the last "
+                            f"{data('changelog.json').get('window_days', 0)} days",
+        "compare-like-with-like": (lambda m: f"{m.get('recent', {}).get('from', '?')} to {m.get('recent', {}).get('to', '?')} "
+                                             f"against {m.get('prior', {}).get('from', '?')} to {m.get('prior', {}).get('to', '?')}")(data("movers.json")),
+        "name-the-reason-honestly": f"{data('movers.json').get('attributed', 0)} of the movers this week are "
+                                    "attributed to a change on that page",
     }
 
     out = []

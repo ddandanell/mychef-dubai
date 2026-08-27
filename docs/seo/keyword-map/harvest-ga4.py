@@ -104,28 +104,39 @@ def main():
     until = datetime.date.today()
     since = until - datetime.timedelta(days=DAYS)
     rng = [{"startDate": since.isoformat(), "endDate": until.isoformat()}]
-    host_filter = {"filter": {"fieldName": "hostName", "inListFilter": {"values": list(SITE_HOSTS)}}}
+    # The property has one stream and it is this site, so filtering on hostName only drops rows
+    # GA4 recorded without one — 54 sessions became 9. --host-filter puts it back if a property
+    # ever serves more than one site.
+    host_filter = ({"filter": {"fieldName": "hostName", "inListFilter": {"values": list(SITE_HOSTS)}}}
+                   if "--host-filter" in sys.argv else None)
 
     pages = report(tok, prop, {
         "dateRanges": rng,
         "dimensions": [{"name": "landingPagePlusQueryString"}],
         "metrics": [{"name": "sessions"}, {"name": "engagedSessions"}, {"name": "engagementRate"},
                     {"name": "averageSessionDuration"}, {"name": "userEngagementDuration"}, {"name": "keyEvents"}],
-        "dimensionFilter": host_filter, "limit": 500,
+        **({"dimensionFilter": host_filter} if host_filter else {}), "limit": 500,
         "orderBys": [{"metric": {"metricName": "sessions"}, "desc": True}]})
 
     events = report(tok, prop, {
         "dateRanges": rng,
         "dimensions": [{"name": "eventName"}, {"name": "pagePath"}],
         "metrics": [{"name": "eventCount"}],
-        "dimensionFilter": host_filter, "limit": 1000,
+        **({"dimensionFilter": host_filter} if host_filter else {}), "limit": 1000,
         "orderBys": [{"metric": {"metricName": "eventCount"}, "desc": True}]})
+
+    daily = report(tok, prop, {
+        "dateRanges": rng,
+        "dimensions": [{"name": "date"}, {"name": "landingPagePlusQueryString"}],
+        "metrics": [{"name": "sessions"}, {"name": "engagedSessions"}, {"name": "engagementRate"},
+                    {"name": "userEngagementDuration"}, {"name": "keyEvents"}],
+        **({"dimensionFilter": host_filter} if host_filter else {}), "limit": 5000})
 
     channels = report(tok, prop, {
         "dateRanges": rng,
         "dimensions": [{"name": "sessionDefaultChannelGroup"}],
         "metrics": [{"name": "sessions"}, {"name": "engagementRate"}, {"name": "keyEvents"}],
-        "dimensionFilter": host_filter, "limit": 20})
+        **({"dimensionFilter": host_filter} if host_filter else {}), "limit": 20})
 
     def rows(r, dims, mets):
         out = []
@@ -150,12 +161,40 @@ def main():
         "events": rows(events, ["event", "path"], ["count"]),
         "channels": rows(channels, ["channel"], ["sessions", "engagement_rate", "key_events"]),
     }
+    day_rows = rows(daily, ["date", "landing_page"],
+                    ["sessions", "engaged", "engagement_rate", "engagement_seconds", "key_events"])
+    for r in day_rows:
+        r["url"] = (r["landing_page"] or "/").split("?")[0].rstrip("/") or "/"
+        r["day"] = f"{r['date'][:4]}-{r['date'][4:6]}-{r['date'][6:]}"
+        r["avg_seconds"] = round((r.get("engagement_seconds") or 0) / max(1, r.get("sessions") or 1), 1)
+    data["daily"] = day_rows
+
+    rolled = 0
+    try:
+        sys.path.insert(0, str(HERE))
+        import psycopg2
+        from rollup_daily import ensure, upsert_ga4
+        envf = os.path.expanduser("~/.config/claude-seo/neon.env")
+        env = {k: v.strip().strip('"').strip("'") for k, v in
+               (l.strip().split("=", 1) for l in open(envf) if "=" in l and not l.startswith("#"))}
+        conn = psycopg2.connect(env.get("DATABASE_URL_UNPOOLED") or env["DATABASE_URL"])
+        cur = conn.cursor()
+        ensure(cur)
+        rolled = upsert_ga4(cur, [{"day": r["day"], "url": r["url"], "sessions": r["sessions"],
+                                   "engaged": r["engaged"], "engagement_rate": r["engagement_rate"],
+                                   "avg_seconds": r["avg_seconds"], "key_events": r["key_events"]}
+                                  for r in day_rows])
+        conn.commit(); conn.close()
+    except Exception as ex:  # noqa: BLE001
+        print(f"  GA4 daily rollup skipped ({str(ex)[:80]})")
+
     OUT.mkdir(parents=True, exist_ok=True)
     (OUT / "analytics.json").write_text(json.dumps(data, ensure_ascii=False, indent=1) + "\n")
     conv = sum(e["count"] for e in data["events"] if e["event"] in
                ("whatsapp_click", "begin_inquiry", "phone_click", "email_click"))
     print(f"GA4 {DAYS}d: {len(page_rows)} landing pages · "
-          f"{sum(p['sessions'] for p in page_rows)} sessions · {conv} contact events")
+          f"{sum(p['sessions'] for p in page_rows)} sessions · {conv} contact events"
+          + (f" · {rolled} daily rows" if rolled else ""))
     return 0
 
 

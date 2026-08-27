@@ -151,7 +151,13 @@ if sa.exists():
                  for p in (a.get("propertySummaries") or [])]
         snap = HERE / ".live/research/ga4/analytics.json"
         if snap.exists():
-            record("Google Analytics 4", "Behaviour", "connected", f"{len(props)} properties visible",
+            # "A property is visible" is not the same as "data reaches the board". What proves the
+            # connection is sessions in the snapshot the harvester wrote.
+            g = json.loads(snap.read_text())
+            sess = sum(pg.get("sessions") or 0 for pg in g.get("pages", []))
+            record("Google Analytics 4", "Behaviour", "connected" if sess else "no data",
+                   f"{g.get('property','?').split('/')[-1]} · {len(g.get('pages', []))} landing pages · "
+                   f"{sess} sessions in {g.get('window_days', 30)}d · {len(g.get('daily', []))} day-rows stored",
                    datetime.datetime.fromtimestamp(snap.stat().st_mtime))
         else:
             record("Google Analytics 4", "Behaviour", "not connected",

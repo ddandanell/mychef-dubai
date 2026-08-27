@@ -65,9 +65,9 @@ runtime, as Vercel environment variables. **No credential is ever committed.**
 | **Google Search Console** | Impressions, clicks, CTR, average position per query and page | `service-account.json` | Connected 26 Aug 2026 |
 | **Vercel Web Analytics** | Visitors and pageviews per URL, referrers, countries, devices | `vercel.env` | Connected |
 | **First-party events** | Time on page, bounce, scroll depth, WhatsApp clicks — joinable to keywords | `DATABASE_URL` on Vercel | Connected |
-| **Google Analytics 4** | The same behaviour data, from Google's side | `service-account.json` | **Not connected** — see §9 |
+| **Google Analytics 4** | Sessions, engagement time, bounce, key events per landing page | `service-account.json` | Connected 27 Aug 2026 (property 543704202) |
 | **Bing Webmaster** | Bing crawl and ranking data | `bing-webmaster.env` | Connected |
-| **PageSpeed / CrUX** | Core Web Vitals | `google-psi.env` | Key present, no collector |
+| **PageSpeed / CrUX** | Core Web Vitals, lab and field | `google-psi.env` | Connected 27 Aug 2026 (`harvest-psi.py`) |
 
 The Status page shows this live, including whether each source has actually *delivered*
 recently — a key that authenticates but has gone quiet reads as stale, not green.
@@ -86,10 +86,13 @@ so and leave the previous snapshot in place.
 | `harvest-gsc.py` | Search Console by query, query+page, page and date. |
 | `harvest-vercel-analytics.py` | Traffic per URL, referrers, countries, devices. Pages past the API's 100-row cap. |
 | `harvest-firstparty.py` | Sessions, bounce, median seconds, conversions from our own events. |
-| `harvest-ga4.py` | GA4 engagement and conversion events. Waiting on access. |
+| `harvest-ga4.py` | GA4 engagement and conversion events, per landing page and per day. The `hostName` filter is opt-in (`--host-filter`): on a single-site property it drops rows GA4 recorded without one — 54 sessions became 9. |
+| `harvest-psi.py` | Lighthouse and CrUX for the pages with traffic plus one of each template. Lab is available for every URL; field stays null until a page has enough real visits to report. |
 | `harvest-competitors.py` | The pages that outrank us, fetched and parsed. |
 | `harvest-llm.py` | Asks Claude 16 buyer questions and records who it names. ~$0.07 each. |
 | `harvest-autocomplete.py` / `harvest-targeted.py` | Google and Bing suggestions for the UAE. |
+| `build-changelog.py` | Merges the optimizer log, git and the retirement map into one dated change log per URL. |
+| `build-movers.py` | The last seven complete days against the seven before them, per page and per query, with the reason each move has. |
 | `check-integrations.py` | Probes every source for connection **and** data flow. |
 
 ## 5. The builders
@@ -175,6 +178,8 @@ disallowed in `robots.txt`. Rebuilt by `run-loop.sh` and published during the Ve
 | **Gaps** | What competitors cover that we do not. |
 | **Architecture** | Click depth, hub↔child, sitemap health. |
 | **AI answers** | Whether Claude names myCHEF for buyer prompts. |
+| **Changes** | Every change to the site — copy, images, design, retirements — with the words before and after. |
+| **Speed** | Core Web Vitals per page, lab beside field. |
 | **Actions** | Every change the agent made, with before and after. |
 | **Ask** | The read-only analyst. |
 
@@ -226,7 +231,7 @@ Neon Postgres. `DATABASE_URL` (pooled) for the site, `DATABASE_URL_UNPOOLED` for
 `seo_traffic_breakdown`, `seo_integrations`. These are captured on their own schedule, so a
 rerun on the same data cannot duplicate them.
 
-**Dated, page grain** — `seo_page_daily` (first-party + GSC + Vercel views per URL per day). The join the advisor reads. `seo_proposals` is the queue: open / accepted / rejected, never written by the optimizer.
+**Dated, page grain** — `seo_page_daily` (first-party + GSC + Vercel views + GA4 per URL per day). The join the advisor reads. `seo_query_daily` is the same grain for queries: which words moved, not just which pages. `seo_cwv` holds one speed capture per URL per day. `seo_changelog` is every change made to the site, with the URLs it can affect. `seo_proposals` is the queue: open / accepted / rejected, never written by the optimizer.
 
 **Not run-scoped** — `seo_optimizer_log` (every edit ever), `web_sessions`, `web_events`.
 
@@ -361,7 +366,35 @@ are specified and not built. The queue is populated and read-only until they are
 
 ---
 
-## 15. The rules, live
+## 15. What moved, and why
+
+The front page opens with the last seven complete days against the seven before them — the same
+weekdays, so a quiet Friday meets a quiet Friday. Search Console reports two to three days late,
+so the window ends on its latest complete day; comparing against a part-reported day invents a
+fall that is not there.
+
+Each mover carries a reason, taken from the arithmetic before the change log:
+
+| Shape | What the numbers say | What to do about it |
+|---|---|---|
+| **Ranking** | Impressions and position moved together | The page is winning or losing rank — keep or examine the last edit |
+| **Demand** | Impressions moved, position did not | The market moved, not the page. Nothing to fix |
+| **Snippet** | Same impressions, different click rate | The title and description are doing more or less work |
+| **Coverage** | Impressions fell while the average position improved | The page lost its long tail. The better average is the trap, not the win |
+| **New / gone** | Impressions from nothing, or to nothing | Indexing or de-indexing — check the URL directly |
+
+Only once the shape is known does the change log get to name a culprit, and only a change that
+could plausibly produce that shape: a body-sentence rewrite is never offered as the reason
+demand moved. A page nobody touched says so, in those words.
+
+The change log behind it (`build-changelog.py` → `seo_changelog` → the **Changes** page) merges
+three streams: the optimizer's own edits with the words before and after, every commit that
+touched the site classified by what it changed, and the retirement map. That is what makes
+"traffic doubled on the 14th" answerable with "because of what we did on the 12th".
+
+---
+
+## 16. The rules, live
 
 `build-rules.py` writes `rules.json` and the board renders it at **/seo/rules**: fifteen rules,
 each with the reason it exists, where it is enforced, and whether it holds right now. Six are
@@ -373,7 +406,7 @@ went wrong to create it.
 
 ---
 
-## 16. The hero rule
+## 17. The hero rule
 
 **A hero sells. It does not carry coverage copy.**
 
@@ -401,7 +434,7 @@ written next to it — agreed once, not argued every run.
 
 ---
 
-## 17. Conventions
+## 18. Conventions
 
 - **Never commit a credential.** `~/.config/claude-seo/` and Vercel environment variables only.
 - **The contract wins.** Change a keyword there, run `npm run seo:locks`, never edit a lock header.
