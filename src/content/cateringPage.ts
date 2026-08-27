@@ -75,6 +75,10 @@ export const serviceLevelChoices = [
   },
 ] as const
 
+/** The one sentence that keeps the two doors the same company. */
+export const SAME_PARTNERS =
+  'The partner houses behind an event are the ones behind the household plans: the same licensed suppliers, the same visas we have asked to see, the same score after the work. A chef who holds a house together is who we want running your night — which is why the good ones stay.'
+
 export const quoteFactors =
   'Guest count, menu, service format, staffing, venue and kitchen access, equipment, and timing. 5% VAT is shown separately on the written proposal.'
 
@@ -210,7 +214,7 @@ export const serviceStyles = [
   },
   {
     title: 'Finger food',
-    body: 'No cutlery. Kids versus adults, tray versus passed — planned on the canapé page, not as a second URL.',
+    body: 'No cutlery. Kids versus adults, tray versus passed, and how many pieces a head before people start looking for a chair.',
     href: '/canape-catering-dubai#finger-food',
   },
   {
@@ -266,7 +270,7 @@ export const startSteps = [
   'Tell us about the event: date, location, guest count, type of event, anything you already know.',
   'We build the structure: food, service style, team, equipment, any additional support.',
   'You review it. You can remove things, add things, change the menu, adjust the scope.',
-  'Once the structure is agreed, we confirm the team and operational plan.',
+  'Once the structure is agreed, a 50% deposit holds the date and the team, and we confirm the operational plan. For a wedding or a large event, the tasting happens here — quoted as its own line, before the menu is locked.',
   'On the day, everyone knows what they are responsible for. You can spend more time with your guests.',
 ] as const
 
@@ -286,7 +290,7 @@ export const proofItems = [
   {
     title: 'How culinary partners are selected',
     claim: 'Vetted chef and culinary-partner network.',
-    body: 'Identity, right-to-work, skill and references are checked before anyone cooks for a client. No chef is guaranteed by name; we match the event.',
+    body: 'Identity, right-to-work, skill and references are checked before anyone cooks for a client, and the partner house employs them on a visa we have seen. On an event no chef is guaranteed by name — we match the night. That is the honest difference from the household service, where the whole point is that the same person comes back.',
     href: '/how-we-vet-our-chefs',
     linkLabel: 'How myCHEF quality standards work',
   },
@@ -300,7 +304,7 @@ export const proofItems = [
   {
     title: 'Food safety and who cooks',
     claim: 'Food safety and licensed-partner operating standards.',
-    body: 'Culinary preparation is performed by independent, licensed culinary partners working to Dubai Municipality food-safety standards. myCHEF designs and coordinates the catering. The client engages those professionals.',
+    body: 'Culinary preparation is performed by licensed culinary partners working to Dubai Municipality food-safety standards. Those partners employ the cooks, on visas we have asked to see; myCHEF takes the brief, matches the event, scores the work and pays. The booking is with us — you are not putting anyone on your payroll, and nobody invoices your villa personally.',
     href: '/how-it-works',
     linkLabel: 'How booking works',
   },
@@ -402,11 +406,11 @@ export const cateringFaqs = [
   },
   {
     q: 'How is myCHEF different from a traditional catering company?',
-    a: 'Many Dubai caterers present a package of menus, buffets and staff. myCHEF starts with the event you are actually planning. You add only the layers that make it work — food, kitchen, service, table, atmosphere, event support. Independent licensed culinary partners cook; we coordinate the structure. You do not have to buy a complete event package to get the food right.',
+    a: 'Many Dubai caterers present a package of menus, buffets and staff. myCHEF starts with the event you are actually planning. You add only the layers that make it work — food, kitchen, service, table, atmosphere, event support. Licensed culinary partners employ the cooks and do the cooking; we take the brief, match the event, score the work and carry the booking. You do not have to buy a complete event package to get the food right.',
   },
   {
     q: 'What is the minimum number of guests?',
-    a: 'We coordinate catering from about 10 guests upward. Under around 20 guests, a [private chef](/private-chef-dubai) cooking in your kitchen is often the better fit for a dinner. Tell us the headcount and we will say which option makes sense.',
+    a: 'From about 10 guests upward, and small parties of 10 to 20 at home are a large part of what we do — that is not a reluctant minimum. The one case where we send you elsewhere is a *seated* dinner under about 20: a [private chef](/private-chef-prices-dubai) is priced per visit rather than per person, which is usually both cheaper and a better evening. Anything with a buffet, a bar, passed food or a running order is catering at any headcount.',
   },
   {
     q: 'How much does catering cost in Dubai?',
@@ -422,11 +426,11 @@ export const cateringFaqs = [
   },
   {
     q: 'Who cooks — does myCHEF employ the chefs?',
-    a: 'Culinary preparation is performed by independent, licensed culinary partners who work to Dubai Municipality food-safety standards. myCHEF designs and coordinates the catering around your event. The client engages those professionals.',
+    a: 'Culinary preparation is performed by licensed culinary partners working to Dubai Municipality food-safety standards. Those partner houses employ the cooks on proper visas; myCHEF designs and coordinates the catering around your event, and the contract and the invoice are with myCHEF. You are not hiring a stranger off an app, and you are not employing anyone.',
   },
   {
     q: 'How far in advance should I book?',
-    a: 'For events under 50 guests, a week ahead is typical. Larger events: 2–4 weeks. Peak season (November–March) and holidays book faster. Short notice is often possible — message the date via [contact](/contact). We typically reply within 15 minutes during business hours.',
+    a: 'For events under 50 guests, a week ahead is typical. Larger events: 2–4 weeks. Peak season (November–March) and holidays book faster. Short notice is often possible — message the date via [contact](/contact). During business hours, 9am to 9pm, a reply typically comes back within 15 minutes; a message sent overnight is answered first thing.',
   },
   {
     q: 'Do you cater small parties of 10 to 20 guests at home?',
@@ -439,6 +443,22 @@ export const cateringFaqs = [
   {
     q: 'How do I compare catering companies in Dubai?',
     a: 'On what they publish. We keep a page that compares the [best catering companies in Dubai](/best-catering-companies-dubai) on 102 per-person prices, minimum orders and notice periods, all taken from their own menus and source-linked — including where myCHEF is not the cheapest. Read it before you ask anyone for a quote.',
+  },
+  {
+    q: 'What is the cancellation window?',
+    a: 'For an event, 48 hours before the date: cancel or move it with more notice than that and nothing is charged beyond costs already committed — ingredients ordered, equipment reserved, staff released late. Inside 48 hours the booking stands, because the team and the food are already bought. A standing household visit runs on a shorter clock, 24 hours, and the supplier who employs the chefs works to the same two numbers, so nobody is told a different rule to the one you were told.',
+  },
+  {
+    q: 'What happens if the party runs late?',
+    a: 'Extra time is charged at the hourly rate of that job plus 50%, agreed on the night before anyone stays. The 50% goes to the partner house that employs the team; the cooks and waiters stay on their normal rate, so nobody on the floor has a reason to make a night run long. It is the same rule as the household service — one paper for both doors.',
+  },
+  {
+    q: 'Is there a tasting?',
+    a: 'For weddings and larger or high-value events, yes: a tasting is arranged before the menu is locked, and it is quoted as its own line rather than hidden in the per-person price. For a standard party or a corporate booking a tasting is not usually necessary, and we would rather spend that budget on the night itself. Ask, and we will tell you honestly which side of that line your event sits on.',
+  },
+  {
+    q: 'Who is on the invoice, and when is the deposit due?',
+    a: 'myCHEF invoices you, and myCHEF pays the partner house that employs the cooks and the service team. No guest, host or venue pays a chef directly. A 50% deposit holds the date and the team; the balance is due as agreed in writing before the event, with 5% VAT shown on its own line throughout.',
   },
   {
     q: 'I already have a planner, florist or rental company. Can you still help?',

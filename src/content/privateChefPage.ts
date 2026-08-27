@@ -370,7 +370,7 @@ export const assistantRule = {
 export const escalators = {
   title: 'The only things that can change this number',
   items: [
-    'Chef quality — displayed prices are Professional Chef; if the role needs a Senior Chef, you see the difference before you book.',
+    'The job, not the chef — every professional chef in the network costs the house the same rate for the same job; the levels are what the chef earns.',
     'People at the table — priced right here in the calculator, one assistant per ~12 guests above ten, at 25% of the service price each.',
     'Hours beyond your format — AED 150 per additional hour, agreed in advance, never assumed.',
     'Staying under one month — 1.5× the service rate, shown in the calculator.',
@@ -414,7 +414,7 @@ export const formatChooser = {
 export const formatsIntro = {
   eyebrow: 'The real question',
   title: 'How much of your food life do you want us to take over?',
-  body: 'We do not sell meals per day. Two meals could be a five-hour morning or a thirteen-hour spread — same count, completely different job. So you choose the chef’s working time and what it covers. Prices shown are per service at Professional Chef level, on an ongoing plan. Longer service days deliberately carry a lower hourly rate — a nine-hour day is better value per hour than a three-hour visit.',
+  body: 'We do not sell meals per day. Two meals could be a five-hour morning or a thirteen-hour spread — same count, completely different job. So you choose the chef’s working time and what it covers. Prices shown are per service on an ongoing plan, one rate per job. Longer service days deliberately carry a lower hourly rate — a nine-hour day is better value per hour than a three-hour visit.',
 }
 
 export const buildAround = {
@@ -933,8 +933,8 @@ export const scoring = {
     title: 'A CV cannot create the highest level',
     paras: [
       'A chef can arrive with an exceptional CV. That is evidence about their background — not about how they perform inside your home. That is why a large share of the mature score can only come from verified client performance.',
-      'So a new chef starts Provisional. A Provisional Senior Chef means the verified background supports Senior — and the household half of the score is still being earned. We will not claim a score that does not exist yet.',
-      'After enough real household history: Confirmed. With strong confirmed performance over time, a Professional Chef becomes eligible for Senior review.',
+      'So a new chef starts Provisional at Level 1. The verified background is on file; the household half of the record is still being earned, and no level above 1 is claimed before real houses have scored the work. We will not publish a score that does not exist yet.',
+      'After enough real household history: Confirmed. A month scored 4.0 or better moves a chef to Level 2 and 10% more pay; holding it for three months is Level 3 and 20%. It is the same ladder in the supplier’s paperwork — one document, not a client version and a chef version.',
     ],
   },
   progression: {
@@ -969,9 +969,9 @@ export const exampleProfiles = {
   note: 'Both profiles are demonstrations of the format — not real chefs, and not published scores.',
   established: {
     tag: 'Confirmed',
-    level: 'Senior Chef',
+    level: 'Level 3 · confirmed',
     fields: [
-      { k: 'Overall score', v: '86 / 100' },
+      { k: 'Household score', v: '4.4 / 5 across six months' },
       { k: 'Verified quality', v: 'Assessment complete' },
       { k: 'Client performance', v: 'From verified myCHEF placements' },
       { k: 'Professional experience', v: '12 years' },
@@ -1043,14 +1043,14 @@ export const priceFactors = {
   factors: [
     { label: 'Service format', body: 'Prep, dinner, food management or full-day — the chef’s working time, defined before we start.' },
     { label: 'Days per week', body: 'One to seven. Seven-day households use chef rotation when required.' },
-    { label: 'Chef quality', body: 'Displayed prices are Professional Chef. If the role needs a Senior Chef, you see the difference before you book — we recommend, you decide.' },
+    { label: 'Chef quality', body: 'One rate per job, whoever cooks it. A chef’s level changes what the chef earns — 10% at Level 2, 20% at Level 3 — never what the house pays.' },
     { label: 'Plan length', body: 'Displayed prices are ongoing monthly plans. Under one month runs at 1.5× the ongoing rate.' },
     { label: 'Transport', body: 'A published per-visit zone rate: typical taxi fare + 50% for the chef’s time in transit. The table is on this page.' },
   ],
   formula: 'Service format × days per week + zone transport, on a monthly plan = your price.',
   groceriesLine: 'Groceries are on top, at actual receipts — never marked up. Take over the whole food process and Daily Prep becomes five hours: the chef’s additional time is what you pay for.',
   transition:
-    'The calculator above shows the real number at Professional Chef level. Whatever you choose, the full price arrives in writing — every factor itemised — before you commit to anything.',
+    'The calculator above shows the real number — there is only one, because the house pays the same rate whoever cooks. Whatever you choose, the full price arrives in writing, every factor itemised, before you commit to anything.',
 }
 
 export const workingHours = {
@@ -1373,7 +1373,7 @@ export const locations = [
 export const faqs = [
   {
     q: 'What does a private chef in Dubai cost?',
-    a: 'From AED 675 per service at Professional Chef level — one weekly three-hour Daily Prep session is AED 2,700 a month. Dinner Service is from AED 825 and a Full-Day Chef from AED 1,575 per service. Add grocery management to Daily Prep and it becomes a five-hour service at AED 975 — the extra is the chef’s time, never a markup on the food. Monthly prices are the per-service rate × days per week × four weeks, plus a published per-visit transport zone rate (AED 40–130). If the role needs a Senior Chef, you see the difference before you book.',
+    a: 'One rate per job: Fresh Meal (3 hours) AED 750, Private Chef Food Prep (4h) AED 900, Kitchen on Autopilot (5h) AED 1,050, Full-Day Private Chef (9h) AED 1,500. A weekly Fresh Meal is AED 3,000 a month; four days a week of Autopilot is 16 visits at AED 16,800. Groceries are charged at the actual receipts with no markup, and there is no more expensive grade of chef to be moved up to.',
   },
   {
     q: 'Can I book a private chef for less than a month?',
@@ -1381,7 +1381,7 @@ export const faqs = [
   },
   {
     q: 'What are the myCHEF chef quality levels?',
-    a: 'We keep it simple. Professional Chef: strong everyday household cooking — regular family meals, meal preparation, straightforward international cuisines; displayed prices start here. Senior Chef: more experienced — demanding households, broader cuisines, entertaining, more technical cooking. Specialist Chefs: sushi, pastry, Japanese, nutrition-focused, fine dining and particular regional cuisines, booked for the occasion. Lead Chef: for private events and larger groups (typically 50+ guests) with a full team and a designed menu — by arrangement, no published price. Quality is earned through our assessment and verified client performance, not claimed from a restaurant title.',
+    a: 'One ladder, and it is about pay rather than rank. Level 1 is where every approved chef starts and the price the house pays is the price. Level 2 is a month scored 4.0 or better and 10% more to the chef; Level 3 is holding that for three months, 20% more, and first sight of the catering work. Specialists — sushi, pastry, a particular regional kitchen — are booked alongside your regular chef for the meal that needs one, quoted per occasion rather than sitting on the ladder. A chef leading a team for a large event is a catering job. Levels are earned through our assessment and real household scores, never claimed from a restaurant title.',
   },
   {
     q: 'How does a chef earn their level?',

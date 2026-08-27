@@ -79,7 +79,7 @@ const pressFaqs = [
   },
   {
     q: 'Who can I interview for a feature?',
-    a: 'We can arrange interviews with the myCHEF Dubai founder, head of operations, or one of our vetted executive chefs. Reach out to info@mychef.id with your deadline.',
+    a: 'We can arrange interviews with the myCHEF Dubai founder, head of operations, or one of our vetted executive chefs. Reach out to hallo@mychef.ae with your deadline.',
   },
   {
     q: 'Do you have a partnership or affiliate programme?',
@@ -221,7 +221,7 @@ export default function Press() {
               <p className="font-playfair text-h4 text-white mb-4">myCHEF Dubai</p>
               <p className="font-inter text-body text-gray-400 mb-2">Dubai, United Arab Emirates</p>
               <p className="font-inter text-body text-gray-400 mb-2">Phone / WhatsApp: +971 55 174 4849</p>
-              <p className="font-inter text-body text-gray-400 mb-2">Email: info@mychef.id</p>
+              <p className="font-inter text-body text-gray-400 mb-2">Email: hallo@mychef.ae</p>
               <p className="font-inter text-body text-gray-400">Website: https://www.mychef.ae</p>
             </div>
           </section>
@@ -265,8 +265,8 @@ export default function Press() {
           </div>
           <p className="mt-6 font-inter text-body-sm text-gray-500">
             Or email us at{' '}
-            <a href="mailto:info@mychef.id?subject=Press%20enquiry%20-%20myCHEF%20Dubai" className="text-gold hover:text-gold-light underline underline-offset-4">
-              info@mychef.id
+            <a href="mailto:hallo@mychef.ae?subject=Press%20enquiry%20-%20myCHEF%20Dubai" className="text-gold hover:text-gold-light underline underline-offset-4">
+              hallo@mychef.ae
             </a>
           </p>
         </div>

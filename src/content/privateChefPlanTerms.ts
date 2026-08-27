@@ -91,11 +91,11 @@ export const PLAN_TERMS: TermGroup[] = [
       },
       {
         id: 'chef-level',
-        title: 'Choose the level your household actually needs.',
+        title: 'One price for the job. The level is what the chef earns.',
         paragraphs: [
-          'Professional Chef — best suited to everyday household cooking: family meals, healthy cooking, international cuisine, food preparation, breakfast, lunch and dinner, regular household routines.',
-          'Head Chef — best suited to more demanding culinary or operational requirements: advanced menu planning, broader technical experience, entertaining, managing assistants, more complex dietary requirements, higher kitchen responsibility, greater independence.',
-          'Not sure? We will recommend the appropriate level rather than automatically recommending the more expensive chef.',
+          'There is one word for the person who cooks in your house: a professional chef. Nobody is placed who has not passed identity, right-to-work, a practical cooking assessment and references, so the entry level is a pass rather than a budget option.',
+          'What has three levels is the chef’s own pay. Level 1 is where everyone starts and the price you see is the price. A month scored 4.0 or better reaches Level 2 and the chef earns 10% more; holding 4.0 for three months reaches Level 3 and 20% more. Below 3.5 a chef drops a level, and twice below 2.5 ends the household work.',
+          'The extra is paid to the registered chef, not to the company that sent them — and your figure does not move when they climb. There is no more expensive grade of chef for us to recommend you up to.',
         ],
         decisionRelevant: true,
       },

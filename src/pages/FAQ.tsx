@@ -286,7 +286,7 @@ export default function FAQ() {
               <Phone size={18} />
               Chat on WhatsApp
             </a>
-            <a href="mailto:info@mychef.id" className="btn-secondary inline-flex items-center gap-2">
+            <a href="mailto:hallo@mychef.ae" className="btn-secondary inline-flex items-center gap-2">
               <Mail size={18} />
               Send Us an Email
             </a>

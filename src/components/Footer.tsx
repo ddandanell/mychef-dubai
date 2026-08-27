@@ -249,11 +249,11 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="mailto:info@mychef.id"
+                  href="mailto:hallo@mychef.ae"
                   className="flex items-center gap-3 font-inter text-body-sm text-gray-400 hover:text-gold transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-black rounded-sm"
                 >
                   <Mail size={16} className="text-gold flex-shrink-0" aria-hidden="true" />
-                  <span>info@mychef.id</span>
+                  <span>hallo@mychef.ae</span>
                 </a>
               </li>
               <li>
@@ -273,7 +273,7 @@ export default function Footer() {
         <div className="border-t border-charcoal-light mt-8 pt-8">
           <div className="flex flex-col items-center gap-3 text-center">
             <p className="font-inter text-xs text-gray-500 uppercase tracking-wider">
-              Part of Global Catering
+              myCHEF also operates in Bali
             </p>
             <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6">
               <div className="text-center">

@@ -45,8 +45,7 @@ import {
   pricingNotes,
   proofItems,
   quoteFactors,
-  scopeSteps,
-  serviceLevelChoices,
+  SAME_PARTNERS,
   serviceStyles,
   startSteps,
   unsureLinks,
@@ -120,7 +119,7 @@ export default function Catering() {
         overlay="dark"
       >
         <p className="mt-5 font-inter text-body-sm text-white/70 max-w-[58ch]">
-          Share your date, venue and guest count. Typical reply within 15 minutes during business hours.
+          Share your date, venue and guest count.
         </p>
       </PageHero>
       <TrustSignalStrip />
@@ -163,26 +162,9 @@ export default function Catering() {
               How myCHEF quality standards work <ArrowRight size={14} aria-hidden />
             </Link>
           </p>
-        </Container>
-      </Section>
-
-      <Section tone="white" rhythm="standard">
-        <Container>
-          <SectionLabel>CHOOSE A LEVEL</SectionLabel>
-          <DisplayHeading className="text-black mb-4">Food delivery, catering plus service, or the full event.</DisplayHeading>
-          <BodyCopy className="mb-8">What affects your quote: {quoteFactors}</BodyCopy>
-          <div className="grid md:grid-cols-3 gap-4">
-            {serviceLevelChoices.map((choice) => (
-              <Link
-                key={choice.label}
-                to={choice.href}
-                className="border border-gray-200 bg-white p-6 hover:border-gold/50 transition-colors"
-              >
-                <h3 className="font-playfair text-h4 text-black mb-2">{choice.label}</h3>
-                <p className="font-inter text-body-sm text-gray-500">{choice.hint}</p>
-              </Link>
-            ))}
-          </div>
+          <p className="mt-6 max-w-[65ch] font-inter text-body-sm text-gray-500 leading-relaxed">
+            {SAME_PARTNERS}
+          </p>
         </Container>
       </Section>
 
@@ -227,13 +209,13 @@ export default function Catering() {
             ))}
           </ul>
           <p className="font-inter text-body text-gray-300 leading-relaxed mb-8 max-w-[65ch]">
-            Catering service in Dubai and full service catering Dubai are the same booking: a vetted chef, matched to your kitchen and your menu. Catering services Dubai is the same service under another name.
-          </p>
-          <p className="font-inter text-body text-gray-300 leading-relaxed mb-8 max-w-[65ch]">
-            Catering Dubai party and small catering Dubai party are planned around the room and the running order, with chefs, service staff and clear-down included.
-          </p>
-          <p className="font-inter text-body text-gray-300 leading-relaxed mb-8 max-w-[65ch]">
-            Party food catering Dubai is planned around the room and the running order, with chefs, service staff and clear-down included. Private catering Dubai, bespoke catering Dubai and outdoor catering Dubai are the same service under another name.
+            Which band you are in is decided by the format, not by the word you searched for: a party, a buffet, a
+            bar or anything with a running order is priced per person here. A seated dinner under about twenty
+            people is usually cheaper as a household visit — twelve guests at AED 700 a head is AED 8,400 of plated
+            dining with a service team, while one Full-Day{' '}
+            <Link to="/private-chef-prices-dubai" className="text-gold underline underline-offset-4 hover:text-gold-light">private chef</Link>{' '}
+            is AED 1,500 plus groceries and cooks for the household rather than for a room. Different jobs — pick the
+            one that matches the night, not the smaller number.
           </p>
           <div className="flex flex-wrap gap-6">
             <Link
@@ -261,12 +243,28 @@ export default function Catering() {
       <Section tone="white" rhythm="standard">
         <Container className="max-w-3xl">
           <SectionLabel>PRIVATE CHEF OR CATERING</SectionLabel>
-          <DisplayHeading className="text-black mb-6">Not sure which service fits?</DisplayHeading>
+          <DisplayHeading className="text-black mb-6">Two doors: the house, or the night</DisplayHeading>
           <BodyCopy className="mb-4">
-            <strong className="text-black">Private chef:</strong> best for intimate, chef-led dining in your home, villa or yacht.
+            <strong className="text-black">Private chef:</strong> the same person comes back — most weeks, with a Food
+            Profile of how your house eats and backup when they are off. Priced per visit, from AED 750.
+          </BodyCopy>
+          <BodyCopy className="mb-4">
+            <strong className="text-black">Catering:</strong> one event, quoted as layers, with the team the night
+            needs and no promise of the same face next month. Priced per person, from AED 90.
           </BodyCopy>
           <BodyCopy className="mb-5">
-            <strong className="text-black">Catering:</strong> best for events of 10+ guests, flexible menus, buffet or plated formats, staffing and larger-scale service.
+            The split is not guest count. A Tuesday and Thursday for a family of five is a private chef; a birthday
+            for eight on Saturday is catering, in the same kitchen, because nobody is coming back. Guest count only
+            decides how big the team is. As a rule of thumb: for a seated dinner under about 20, start on{' '}
+            <Link to="/private-chef-prices-dubai" className="text-gold-ink underline underline-offset-4">private chef prices</Link>{' '}
+            — you are buying a visit, not a per-person menu. For a party, a buffet, a bar or anything that needs a
+            running order, you are in the right place.
+          </BodyCopy>
+          <BodyCopy className="mb-5">
+            The arithmetic is worth knowing before you choose. Twelve people at AED 700 a head is AED 8,400 of
+            chef-led plated dining, designed and staffed for the evening. One Full-Day private chef is AED 1,500 plus
+            groceries, cooking for the household — no service team, no plating for a room, no running order. They are
+            different jobs, and the cheaper number is not automatically the right one.
           </BodyCopy>
           <Link
             to="/private-chef-dubai"
@@ -295,37 +293,31 @@ export default function Catering() {
         </Container>
       </Section>
 
+      {/* One ladder for the whole page. The three cards and the five steps said this same thing
+          in different clothes, which read to a client — and to Google — as three overlapping offers. */}
       <Section id="options" tone="white" rhythm="chapter">
         <Container>
+          <span id="layers" className="block scroll-mt-24" aria-hidden />
           <SectionLabel>THE RANGE</SectionLabel>
-          <DisplayHeading className="text-black mb-4">Catering Dubai, from food only to full event support</DisplayHeading>
-          <BodyCopy className="mb-12">
-            Start with food. Stop wherever you want. You do not buy a complete event package to get the food right.
+          <DisplayHeading className="text-black mb-4">Catering Dubai, in layers. Stop wherever it works.</DisplayHeading>
+          <BodyCopy className="mb-4">
+            Start with food. Add only what the night actually needs. You do not buy a complete event package to get
+            the food right, and the quote is itemised so you can see what each layer costs before you keep it.
           </BodyCopy>
-          <ol className="max-w-3xl">
-            {scopeSteps.map((step, i) => (
-              <li
-                key={step.id}
-                id={step.id === 'full-service' ? 'full-service' : undefined}
-                className="border-t border-gray-200 py-8 last:border-b scroll-mt-24"
-              >
-                <p className="font-playfair text-gold-ink text-h4 mb-2">
-                  {String(i + 1).padStart(2, '0')}
-                </p>
-                <h3 className="font-playfair text-h3 text-black mb-3">{step.title}</h3>
-                <p className="font-inter text-body text-gray-600 leading-relaxed max-w-[58ch]">{step.body}</p>
-                <p className="mt-3 font-inter text-body-sm text-gray-500 max-w-[58ch]">{step.bestFor}</p>
-                {'href' in step && step.href && 'linkLabel' in step && step.linkLabel && (
-                  <Link
-                    to={step.href}
-                    className="mt-4 inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink hover:text-gold"
-                  >
-                    {step.linkLabel} <ArrowRight size={14} aria-hidden />
-                  </Link>
-                )}
-              </li>
-            ))}
-          </ol>
+          <BodyCopy className="mb-12">What affects your quote: {quoteFactors}</BodyCopy>
+          <EventLayers />
+          <p className="mt-10 max-w-[65ch] font-inter text-body-sm text-gray-500 leading-relaxed">
+            One honest note on the last layer: we are a food company. Flowers, entertainment, photography and the
+            other suppliers are coordinated around the food, not promised as a planning service — if your event needs
+            a planner, you need a planner, and we work happily alongside one.
+          </p>
+          <p className="mt-4 max-w-[65ch] font-inter text-body-sm text-gray-500 leading-relaxed">
+            Food only is completely fine.{' '}
+            <Link to={CATERING_PATHS.dropOff} className="text-gold-ink underline underline-offset-4">
+              Drop-off catering
+            </Link>{' '}
+            is the first layer on its own: the food delivered ready to serve, and nothing you did not ask for.
+          </p>
         </Container>
       </Section>
 
@@ -514,30 +506,6 @@ export default function Catering() {
         </Container>
       </Section>
 
-      <Section id="layers" tone="white" rhythm="chapter">
-        <Container>
-          <SectionLabel>WHAT CAN WE ADD?</SectionLabel>
-          <DisplayHeading className="text-black mb-4">Think of the event in layers</DisplayHeading>
-          <BodyCopy className="mb-12">You can stop at any layer.</BodyCopy>
-          <EventLayers />
-        </Container>
-      </Section>
-
-      <Section tone="ivory" rhythm="chapter">
-        <Container className="max-w-3xl">
-          <SectionLabel>FOOD ONLY</SectionLabel>
-          <DisplayHeading className="text-black mb-6">Food only is completely fine</DisplayHeading>
-          <BodyCopy className="mb-5">
-            Not every event needs full service. If your team, venue or household already has everything else covered, we can simply provide the food — buffet food, sharing dishes, corporate meals, canapés, breakfast, lunch, dinner, party food, desserts — delivered to the agreed location and time.
-          </BodyCopy>
-          <Link
-            to={CATERING_PATHS.dropOff}
-            className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink hover:text-gold"
-          >
-            Food delivery and drop-off catering <ArrowRight size={14} aria-hidden />
-          </Link>
-        </Container>
-      </Section>
 
       <Section tone="white" rhythm="chapter">
         <Container className="max-w-3xl">
@@ -585,7 +553,7 @@ export default function Catering() {
           <SectionLabel tone="dark">TELL US WHAT YOU ARE PLANNING</SectionLabel>
           <DisplayHeading className="text-white mb-6">Date, venue and guest count is enough to start</DisplayHeading>
           <p className="font-inter text-body text-gray-300 leading-relaxed mb-8 max-w-[58ch]">
-            You do not need to build the event before contacting us. We typically reply within 15 minutes during business hours.
+            You do not need to build the event before contacting us. During business hours, 9am to 9pm, a reply typically comes back within 15 minutes; a message sent overnight is answered first thing.
           </p>
           <CTAGroup>
             <Link to={CATERING_INQUIRY_HREF} className="btn-primary">

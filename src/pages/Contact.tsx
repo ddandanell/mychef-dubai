@@ -35,7 +35,7 @@ import {
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent("Hi myCHEF Dubai, I'd like to get in touch (via mychef.ae/contact)")
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
-const EMAIL = 'info@mychef.id'
+const EMAIL = 'hallo@mychef.ae'
 const INQUIRY_LINK = '/inquiry'
 const PRESS_MAIL = `mailto:${EMAIL}?subject=${encodeURIComponent('Press enquiry — myCHEF Dubai')}`
 const GENERAL_MAIL = `mailto:${EMAIL}?subject=${encodeURIComponent('Contact — myCHEF Dubai')}`
