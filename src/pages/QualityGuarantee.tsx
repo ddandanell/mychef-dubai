@@ -246,7 +246,7 @@ export default function QualityGuarantee() {
               Tell us about your event, dietary needs, and preferred style, and we will bring you a vetted private chef in Dubai within 24 hours. Every myCHEF Dubai booking is backed by identity-checked chefs, backup cover, written terms, and a fair resolution promise — because trust is the real product.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Gulf catering company UAE is run to a fixed timing, with one itemised invoice and dietary requirements tracked per person. Catering vs delivery comes down to four checks: who actually cooks, what the quote itemises, who buys the food, and how the kitchen is left. Catering complaint policy Dubai is the same service under another name.
+              Gulf catering company UAE is run to a fixed timing, with one itemised invoice and dietary requirements tracked per person. Catering vs delivery comes down to four checks: who actually cooks, what the quote itemises, who buys the food, and how the kitchen is left.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               Our quality guarantee is not a marketing slogan. It is a set of operational promises: every chef is vetted, every booking is confirmed in writing, backup cover is available, and if something genuinely falls short, we investigate and make it right. We do not claim perfection. We claim accountability.

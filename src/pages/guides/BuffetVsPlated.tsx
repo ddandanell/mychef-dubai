@@ -269,7 +269,7 @@ export default function BuffetVsPlated() {
             Buffet and plated service are the two most common formats for Dubai events, and each creates a different atmosphere. Buffets encourage guests to move, choose, and socialise. Plated service delivers a refined, paced experience where every dish arrives at the table.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Buffet or plated wedding Dubai and wedding buffet vs plated Dubai are planned around the room and the running order, with chefs, service staff and clear-down included. Difference between buffet and plated service and buffet vs plated service pros and cons comes down to four checks: who actually cooks, what the quote itemises, who buys the food, and how the kitchen is left. Is buffet or plated dinner better is the same service under another name.
+            Buffet or plated wedding Dubai and wedding buffet vs plated Dubai are planned around the room and the running order, with chefs, service staff and clear-down included. Difference between buffet and plated service and buffet vs plated service pros and cons comes down to four checks: who actually cooks, what the quote itemises, who buys the food, and how the kitchen is left.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
             The right choice depends on your guest count, formality, venue layout, and budget. Many events also combine the two for the best of both worlds.

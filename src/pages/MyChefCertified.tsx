@@ -263,9 +263,6 @@ export default function MyChefCertified() {
               MyChef Certified means every chef we send to your home, villa, or yacht in Dubai has passed in-person auditions, background checks, food-safety verification, and halal-competency screening. Tell us about your event and we will bring you a vetted chef within 24 hours.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Personal chefs in Dubai, verified private chef Dubai, certified private chefs Dubai and the chefs table private chef and catering are the same booking: a vetted chef, matched to your kitchen and your menu.
-            </p>
-            <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               From the first tasting to the final reference check, we look for chefs who combine technical skill with professionalism, discretion, and respect for the dietary and cultural expectations that matter in this city.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">

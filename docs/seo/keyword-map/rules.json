@@ -1,17 +1,17 @@
 {
- "generated": "2026-08-27 13:12",
+ "generated": "2026-08-27 20:36",
  "intro": "Every rule here exists because something went wrong once. A rule with a gate is checked on every run and fails the build when it breaks; a rule without one is written down and carried by the tooling, with the numbers beside it.",
  "tiles": [
   {
-   "value": "19",
+   "value": "20",
    "label": "Rules"
   },
   {
-   "value": "6",
+   "value": "7",
    "label": "Enforced by a gate"
   },
   {
-   "value": "6",
+   "value": "7",
    "label": "Holding right now"
   },
   {
@@ -45,7 +45,7 @@
    "where": "optimize-page.py hero_end() · move-hero-copy.py",
    "needs_build": true,
    "status": "holds",
-   "evidence": "hero copy OK — 0 pages, median 0 words of hero prose, none over budget",
+   "evidence": "hero copy OK — 185 pages, median 36 words of hero prose, none over budget",
    "command": "python3 scripts/verify-hero.py"
   },
   {
@@ -78,7 +78,7 @@
    "why": "A page aimed at demand that does not exist has nothing to win, however well it is written.",
    "where": "the keyword file's next action · Control's demand debt",
    "status": "no gate",
-   "evidence": "128 of 164 primaries have no measured UAE volume"
+   "evidence": "128 of 163 primaries have no measured UAE volume"
   },
   {
    "id": "self-contained-functions",
@@ -141,12 +141,21 @@
    "evidence": ""
   },
   {
+   "id": "hierarchy-from-the-contract",
+   "rule": "Every page renders the breadcrumb the contract gives it, and every hub links down to the pages filed under it.",
+   "why": "108 URLs rendered no breadcrumb and 37 rendered one that disagreed with the contract, so Google was told a different hierarchy from the one the keyword map enforces — and 74 children never linked up to their own hub, which is authority spent and not collected.",
+   "where": "scripts/generate-breadcrumbs.py → src/content/breadcrumbTrails.ts · SiloTrail · SiloChildren",
+   "status": "holds",
+   "evidence": "breadcrumb trails OK — 215 URLs compiled from the contract",
+   "command": "python3 scripts/generate-breadcrumbs.py --check"
+  },
+  {
    "id": "log-every-change",
    "rule": "Every change to the site is logged with its date and the URLs it can affect — copy, images, design, retirements, all of it.",
    "why": "A rise or a fall is unreadable without what was done. The record used to be split across a Postgres table, git and a JSON map, so a number could never be joined to the edit that caused it.",
    "where": "build-changelog.py → seo_changelog · the Changes page",
    "status": "no gate",
-   "evidence": "525 change(s) logged over the last 120 days"
+   "evidence": "528 change(s) logged over the last 120 days"
   },
   {
    "id": "compare-like-with-like",

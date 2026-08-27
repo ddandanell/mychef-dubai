@@ -148,6 +148,16 @@ RULES = [
         "where": "docs/seo/keyword-map/*.json → export-board-data.py → public/seo/data (gitignored)",
     },
     {
+        "id": "hierarchy-from-the-contract",
+        "rule": "Every page renders the breadcrumb the contract gives it, and every hub links down to "
+                "the pages filed under it.",
+        "why": "108 URLs rendered no breadcrumb and 37 rendered one that disagreed with the contract, so "
+               "Google was told a different hierarchy from the one the keyword map enforces — and 74 "
+               "children never linked up to their own hub, which is authority spent and not collected.",
+        "where": "scripts/generate-breadcrumbs.py → src/content/breadcrumbTrails.ts · SiloTrail · SiloChildren",
+        "check": ["python3", "scripts/generate-breadcrumbs.py", "--check"],
+    },
+    {
         "id": "log-every-change",
         "rule": "Every change to the site is logged with its date and the URLs it can affect — copy, "
                 "images, design, retirements, all of it.",
@@ -206,6 +216,8 @@ def main():
         "no-junk-phrases": "81 phrases removed from the contract and blocked in the filler",
         "experiment-every-apply": f"{len(data('experiments.json').get('items', []))} experiment(s) recorded",
         "nothing-auto-applies": f"{sum(q['count'] for q in data('control.json').get('queue', []) if q.get('status') == 'open')} proposal(s) waiting for a decision",
+        "hierarchy-from-the-contract": (lambda a: f"{a.get('stats', {}).get('issues', 0)} architecture issue(s) open"
+                                        f" · {a.get('stats', {}).get('by_kind', {})}")(data("architecture.json")),
         "log-every-change": f"{len(data('changelog.json').get('items', []))} change(s) logged over the last "
                             f"{data('changelog.json').get('window_days', 0)} days",
         "compare-like-with-like": (lambda m: f"{m.get('recent', {}).get('from', '?')} to {m.get('recent', {}).get('to', '?')} "

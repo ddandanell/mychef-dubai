@@ -24,7 +24,9 @@
     "seo:heartbeat": "python3 docs/seo/keyword-map/heartbeat.py --show",
     "verify:api": "python3 scripts/verify-api-functions.py",
     "verify:hero": "python3 scripts/verify-hero.py",
-    "seo:rules": "python3 docs/seo/keyword-map/build-rules.py"
+    "seo:rules": "python3 docs/seo/keyword-map/build-rules.py",
+    "seo:breadcrumbs": "python3 scripts/generate-breadcrumbs.py",
+    "verify:breadcrumbs": "python3 scripts/generate-breadcrumbs.py --check"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",

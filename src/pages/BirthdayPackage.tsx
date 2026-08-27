@@ -15,7 +15,7 @@ export default function BirthdayPackage() {
       intro="Birthday catering package Dubai price and birthday catering package cost per person Dubai depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Kids birthday food package Dubai, best birthday catering package Dubai, halal birthday catering package Dubai, kids birthday catering packages Dubai, birthday party package Dubai catering and catering packages on offer in Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. Birthday catering at home Dubai is run at the address you give us: we bring the equipment, cook on site and leave the space as we found it. Birthday catering blog Dubai is planned around the room and the running order, with chefs, service staff and clear-down included."
       canonicalPath="/birthday-catering-package-dubai"
       ogImage="/images/birthday-catering-dubai-hero.webp"
-      headline="Birthday Catering Package Dubai for 8–12 Guests"
+      headline="Birthday Catering Packages Dubai for 8–12 Guests"
       eyebrow="BIRTHDAY PARTY PACKAGE"
       subheadline="Celebrate at home or in a private venue with a tailored menu, birthday cake, and full service for you and your guests."
       price="3,600"

@@ -10,7 +10,7 @@ const chef: ChefProfileData = {
   slug: '/chefs/ahmed-executive-chef',
   name: 'Ahmed Al-Rashid',
   title: 'Executive Chef',
-  partnerLabel: 'Independent partner chef',
+  partnerLabel: 'Partner chef · employed by a licensed supplier',
   experience: '18+ Years',
   cuisine: 'Modern European & Fine Dining',
   image: '/team-head-chef.webp',

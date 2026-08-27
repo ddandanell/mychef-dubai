@@ -1032,7 +1032,8 @@
         "breadcrumb": [
           {
             "url": "/",
-            "anchor": "Home"
+            "anchor": "Home",
+            "current": true
           }
         ],
         "uplink_hub": null,
@@ -13122,11 +13123,7 @@
           "chef table experience dubai",
           "famous private chefs",
           "dessert table catering near me",
-          "grazing table prices",
-          "chefs villa marlpool",
-          "chefs villa number",
-          "diwali decoration dining table",
-          "diwali dining table cover"
+          "grazing table prices"
         ],
         "subkeyword_cap": 12,
         "primary_may_appear_in": [
@@ -26921,9 +26918,6 @@
           "private chefs in dubai",
           "personal chefs on offer in dubai",
           "find a private chef",
-          "personal chef services faq",
-          "personal chef services report",
-          "personal chef services reveal",
           "top personal chef services policies",
           "find a personal chef"
         ],
@@ -46742,8 +46736,7 @@
           "preferred caterer agreement",
           "preferred caterer program",
           "what does preferred caterer mean",
-          "preferred caterers",
-          "preferred sonoma caterers"
+          "preferred caterers"
         ],
         "subkeyword_cap": 12,
         "primary_may_appear_in": [

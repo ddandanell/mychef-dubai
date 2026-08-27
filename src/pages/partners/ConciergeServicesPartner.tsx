@@ -15,7 +15,7 @@ export default function ConciergeServicesPartner() {
       description="Concierge Services Partnership Dubai — Partner with myCHEF Dubai to offer your concierge clients exclusive private chef and luxury catering experiences…"
       canonicalPath="/partners/concierge-services-dubai"
       ogImage="/images/luxury-dining-dubai-hero.webp"
-      headline="Concierge Partnership Dubai"
+      headline="Concierge Services Partnership Dubai"
       eyebrow="FOR CONCIERGE & LIFESTYLE SERVICES"
       subheadline="Provide your clients with private chefs, in-villa dining, yacht catering, and exclusive culinary experiences."
       intro="A Culinary Partner for Discerning Clients"

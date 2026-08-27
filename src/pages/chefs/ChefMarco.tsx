@@ -10,6 +10,7 @@ const chef: ChefProfileData = {
   slug: '/chefs/marco-italian-chef',
   name: 'Marco Rossi',
   title: 'Independent partner chef',
+  seoPhrase: 'Italian Private Chef Dubai',
   experience: '15+ Years',
   cuisine: 'Authentic Italian & Mediterranean',
   image: '/team-sous-chef.webp',

@@ -2268,7 +2268,7 @@ const allLocations: LocationData[] = [
     name: "JVC",
     title: "Private Chef JVC Dubai | Family & Home Celebrations | myCHEF",
     metaDescription: "Book a private chef in JVC Dubai. Family & home celebrations with tailored menus, full setup and cleanup. Get a tailored quote in 15 minutes.",
-    h1: "Private Chef & Catering JVC Dubai",
+    h1: "Private Chef JVC — Catering for Villas and Family Homes",
     heroImage: "/loc-dubai-marina.webp",
     heroSubtitle: "JVC private chef and catering for family celebrations, birthdays and home gatherings — tailored menus with full service.",
     intro: [
@@ -2381,7 +2381,7 @@ const allLocations: LocationData[] = [
     name: "JLT",
     title: "Private Chef JLT Dubai | Office & Lakeside Apartment | myCHEF",
     metaDescription: "Book a private chef in JLT Dubai. Office & apartment catering with tailored menus, full setup and cleanup. Get a tailored quote in 15 minutes.",
-    h1: "Private Chef & Catering JLT Dubai",
+    h1: "Private Chef JLT — Catering for Lakeside Apartments and Offices",
     heroImage: "/loc-dubai-marina.webp",
     heroSubtitle: "JLT private chef and catering for offices, lakeside apartments and corporate events — tailored menus with full service.",
     intro: [
@@ -2494,9 +2494,9 @@ const allLocations: LocationData[] = [
   {
     slug: "bluewaters-island",
     name: "Bluewaters",
-    title: "Private Chef Bluewaters Dubai | Island & Ain Dubai | myCHEF",
+    title: "Private Chef Bluewaters Island | Marina Dining | myCHEF",
     metaDescription: "Book a private chef in Bluewaters Dubai. Island dining with Ain Dubai views, tailored menus and full service. Get a tailored quote in 15 minutes.",
-    h1: "Private Chef & Catering Bluewaters Island Dubai",
+    h1: "Private Chef Bluewaters Island — Catering with the Marina at the Door",
     heroImage: "/loc-jbr.webp",
     heroSubtitle: "Bluewaters Island private chef and catering for luxury apartments and short-stay celebrations — island dining with Ain Dubai views.",
     intro: [
@@ -2609,7 +2609,7 @@ const allLocations: LocationData[] = [
     name: "Umm Suqeim",
     title: "Private Chef Umm Suqeim Dubai | Beachfront Villa | myCHEF",
     metaDescription: "Book a private chef in Umm Suqeim Dubai. Beachfront villa catering with tailored menus, full setup and cleanup. Get a tailored quote in 15 minutes.",
-    h1: "Private Chef & Catering Umm Suqeim Dubai",
+    h1: "Private Chef Umm Suqeim — Catering for Villas Near the Beach",
     heroImage: "/loc-jumeirah.webp",
     heroSubtitle: "Umm Suqeim private chef and catering for beachfront villas and coastal celebrations — tailored menus with full service.",
     intro: [
@@ -2722,7 +2722,7 @@ const allLocations: LocationData[] = [
     name: "Al Barsha",
     title: "Private Chef Al Barsha Dubai | Flexible Catering | myCHEF",
     metaDescription: "Book a private chef in Al Barsha Dubai. Flexible villa & apartment catering with tailored menus and full service. Get a tailored quote in 15 minutes.",
-    h1: "Private Chef & Catering Al Barsha Dubai",
+    h1: "Private Chef Al Barsha — Catering for Family Villas and Apartments",
     heroImage: "/loc-downtown.webp",
     heroSubtitle: "Al Barsha private chef and catering for apartments, villas and hotel residences — flexible, tailored menus with full service.",
     intro: [

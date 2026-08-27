@@ -286,9 +286,6 @@ export default function DubaiFoodTrendsReport2026() {
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Dubai’s event scene continues to mature. Hosts are no longer impressed by volume alone; they want menus that tell a story, reflect their guests, and feel considered from the first bite to the final petit four. After planning hundreds of private dinners, villa parties, yacht events and corporate functions, here are the trends we see defining 2026.
           </p>
-          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            UAE food trends 2026, Dubai food expo 2026, Dubai food fair 2026, Dubai catering trends 2026 and private dining trends Dubai 2026 are the same service under another name.
-          </p>
           <p className="font-inter text-body text-gray-500 leading-relaxed">
             This report is intended as a practical planning tool, not a collection of passing fads. Each trend below affects how you brief a caterer, what questions to ask, and what your guests are likely to remember.
           </p>

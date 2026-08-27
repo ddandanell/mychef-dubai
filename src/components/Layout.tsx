@@ -1,6 +1,8 @@
 import type { ReactNode } from 'react'
 import { useLocation } from 'react-router'
 import Navbar from './Navbar'
+import SiloTrail from './SiloTrail'
+import SiloChildren from './SiloChildren'
 import Footer from './Footer'
 import SiloSection from './SiloSection'
 import FloatingChefChat from './FloatingChefChat'
@@ -28,9 +30,11 @@ export default function Layout({ children }: LayoutProps) {
       <Navbar />
       <WhatsAppMessageProvider>
         <main className="flex-1 overflow-x-clip">
+          <SiloTrail />
           <PageEnter>
             {children}
           </PageEnter>
+          <SiloChildren />
         </main>
         <SiloSection />
         <Footer />

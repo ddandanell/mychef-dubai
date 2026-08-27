@@ -247,10 +247,10 @@ export const parentSeo = {
 export const childSeo = {
   // LOCKED: "cook in dubai" (320/mo). Secondary: "chef cook", "personal cook dubai", "part time cook in dubai".
   howItWorks: {
-    title: 'How to Get a Cook in Dubai | Managed Chef Service | myCHEF',
+    title: 'Managed Private Chef Service Dubai | How It Works | myCHEF',
     description:
       'How to get a cook in Dubai on a standing plan: the brief, the match, the Food Profile, onboarding and feedback. Full-time or part time cook in Dubai, managed for you.',
-    h1: 'A private chef, without becoming the manager.',
+    h1: 'A managed private chef service Dubai households run without becoming the manager.',
     subtitle:
       'Tell us how your household eats. We match the chef, build the Food Profile and stay behind the service as routines, preferences and people change.',
     eyebrow: 'How It Works',

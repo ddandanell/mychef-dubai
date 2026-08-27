@@ -18,6 +18,9 @@ export interface ChefProfileData {
   slug: string
   name: string
   title: string
+  /** The phrase this profile is locked to. A profile that never says what the chef is hired for
+   *  ranks for the person's name and nothing else. */
+  seoPhrase?: string
   partnerLabel?: string
   experience: string
   cuisine: string
@@ -174,7 +177,7 @@ export default function ChefProfile({ chef }: ChefProfileProps) {
   return (
     <>
       <SEO
-        title={`${chef.name} | ${chef.title}`}
+        title={`${chef.name} | ${chef.seoPhrase ?? chef.title}`}
         description={`${chef.name}, ${chef.title} in the myCHEF network. ${chef.experience} of ${chef.cuisine} for private dining in Dubai villas, yachts and homes.`}
         canonicalPath={chef.slug}
         ogImage={chef.image}
@@ -183,7 +186,7 @@ export default function ChefProfile({ chef }: ChefProfileProps) {
 
       <PageHero
         eyebrow="MEET THE CHEF"
-        title={chef.name}
+        title={chef.seoPhrase ? `${chef.name} — ${chef.seoPhrase}` : chef.name}
         subtitle={`${chef.title} • ${chef.cuisine}`}
         image={chef.image}
         imageAlt={chef.imageAlt}

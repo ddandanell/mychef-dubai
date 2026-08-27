@@ -290,9 +290,6 @@ export default function BecomeAMyChef() {
               myCHEF Dubai is always looking for talented, reliable chefs who can deliver exceptional food in private homes, villas, yachts, and venues across the city. Whether you are a private chef with years of household experience, a restaurant chef ready for a new challenge, a pastry specialist, or an event chef who thrives under pressure, we want to hear from you.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Freelance chef work Dubai, private chef vacancies Dubai, work as a private chef Dubai and become a private chef in Dubai are the same booking: a vetted chef, matched to your kitchen and your menu. Catering jobs Dubai is the same service under another name.
-            </p>
-            <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               We are not a gig platform. We are a curated network. Every chef is vetted, every menu is bespoke, and every event is supported by a team that understands the standards expected in Dubai's luxury market. In return, you get access to interesting clients, flexible scheduling, clear payment terms, and a brand that promotes your skills professionally.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">

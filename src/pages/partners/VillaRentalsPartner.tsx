@@ -15,7 +15,7 @@ export default function VillaRentalsPartner() {
       description="Villa Rentals Partnership Dubai — Partner with myCHEF Dubai to offer premium in-villa private chef and catering services to your guests. Enhance your villa…"
       canonicalPath="/partners/villa-rentals-dubai"
       ogImage="/images/villa-catering-dubai-hero.webp"
-      headline="Villa Rental Partnership Dubai"
+      headline="Villa Rentals Partnership Dubai"
       eyebrow="FOR VILLA RENTAL COMPANIES"
       subheadline="Give your guests an unforgettable in-villa dining experience with a private chef and full-service dining coordination."
       intro="Add a Premium Dining Experience to Every Villa Stay"

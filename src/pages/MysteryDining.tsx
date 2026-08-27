@@ -260,10 +260,7 @@ export default function MysteryDining() {
               Tell us about your event and we will bring you a vetted private chef within 24 hours. You share what excites your palate and what must stay off the plate; the chef designs a surprise menu around those boundaries so every course lands as a discovery.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Dinner experience for couples Dubai is the same service under another name.
-            </p>
-            <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Surprise dinner experience Dubai price depends on the same three things: the guest count, the menu, and how much of the work happens in front of people. Surprise dinner package Dubai starts from a set format and get adjusted to your date rather than sold as a fixed box. If you are weighing up best dinner experience in Dubai and best surprise dining experience Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. Chef dining experience Dubai is the same booking: a vetted chef, matched to your kitchen and your menu. Mystery dinner Dubai, fine dining experience Dubai, unique dining experience Dubai, private dinner experience Dubai, surprise dinner for two Dubai and surprise cake delivery in Dubai are the same service under another name.
+              Surprise dinner experience Dubai price depends on the same three things: the guest count, the menu, and how much of the work happens in front of people. Surprise dinner package Dubai starts from a set format and get adjusted to your date rather than sold as a fixed box. If you are weighing up best dinner experience in Dubai and best surprise dining experience Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. Chef dining experience Dubai is the same booking: a vetted chef, matched to your kitchen and your menu.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               The result is a relaxed, conversational dinner where guests arrive curious and leave impressed. It works equally well for romantic date nights, small group celebrations, and diners who want a tasting-menu experience without leaving their home or villa.

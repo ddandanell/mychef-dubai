@@ -41,7 +41,7 @@ export const engagementHero = {
 
 export const engagementHeroCopy = {
   eyebrow: 'Private events',
-  title: 'Engagement party catering in Dubai for two families and a toast',
+  title: 'Engagement party catering Dubai for two families and a toast',
   subtitle:
     'Engagement party catering Dubai for the night two families share a house and a toast — not a proposal at a table for two, and not the wedding.',
   priceLine: 'Event buffets from AED 120 per person.',

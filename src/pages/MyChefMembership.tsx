@@ -251,9 +251,6 @@ export default function MyChefMembership() {
               Tell us how often you host and what you value most, and we will recommend the right membership tier within one business day. myCHEF Membership is not a meal subscription — it is an access pass that unlocks priority dates, real dining credits, member pricing, and a direct concierge line.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Private chef membership Dubai and priority consideration private chef Dubai are the same booking: a vetted chef, matched to your kitchen and your menu.
-            </p>
-            <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               Whether you host monthly dinner parties, run a busy household with weekly meal prep, or simply want first access to seasonal menus and chef experiences, membership gives you a smoother, more rewarding way to dine.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">

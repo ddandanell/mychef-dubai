@@ -30,9 +30,6 @@ const config: OccasionPageConfig = {
         UAE National Day is one of the most joyful occasions in Dubai — a time to come together, honour heritage and celebrate progress. Whether you are hosting an intimate family gathering, a villa party for friends or a corporate reception for colleagues, our National Day catering service brings the flavours of the Emirates to your chosen setting. We combine traditional Emirati dishes with contemporary presentation, so every buffet feels both rooted and refined.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        Mothers day brunch Dubai catering is the same service under another name.
-      </p>
-      <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
         UAE national day catering Dubai price and UAE national day catering cost per person Dubai depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. UAE national day catering packages Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. If you are weighing up best UAE national day catering Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. The UAE national day catering menu Dubai is drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">

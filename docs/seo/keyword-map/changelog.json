@@ -1,18 +1,18 @@
 {
- "generated": "2026-08-27 13:11",
+ "generated": "2026-08-27 20:36",
  "window_days": 120,
  "intro": "Everything that happened to the site, newest first: copy the optimizer wrote, commits that changed pages, images or design, and URLs that were retired. The movement view reads this to explain why a number moved.",
  "tiles": [
   {
-   "value": "525",
+   "value": "528",
    "label": "Changes in 120 days"
   },
   {
-   "value": "214",
+   "value": "216",
    "label": "Copy edits"
   },
   {
-   "value": "119",
+   "value": "121",
    "label": "Design & images"
   },
   {
@@ -21,8 +21,8 @@
   }
  ],
  "kinds": {
-  "tooling": 30,
-  "copy": 214,
+  "copy": 216,
+  "tooling": 31,
   "tracking": 7,
   "page": 174,
   "other": 70,
@@ -106,25 +106,25 @@
   },
   {
    "day": "2026-08-27",
-   "changes": 4
+   "changes": 7
   }
  ],
  "busiest_urls": [
   {
    "url": "/corporate",
-   "changes": 50
+   "changes": 51
   },
   {
    "url": "/events",
    "changes": 43
   },
   {
-   "url": "/yachts",
-   "changes": 37
+   "url": "/our-chefs",
+   "changes": 38
   },
   {
-   "url": "/our-chefs",
-   "changes": 36
+   "url": "/yachts",
+   "changes": 37
   },
   {
    "url": "/how-to-choose-caterer-dubai",
@@ -133,6 +133,10 @@
   {
    "url": "/menus",
    "changes": 27
+  },
+  {
+   "url": "/how-it-works",
+   "changes": 26
   },
   {
    "url": "/dubai-catering-prices-guide",
@@ -147,19 +151,15 @@
    "changes": 25
   },
   {
-   "url": "/how-it-works",
-   "changes": 25
-  },
-  {
    "url": "/guides",
    "changes": 21
   },
   {
-   "url": "/gift-cards",
-   "changes": 19
+   "url": "/chef-training-academy",
+   "changes": 20
   },
   {
-   "url": "/chef-training-academy",
+   "url": "/gift-cards",
    "changes": 19
   },
   {
@@ -192,6 +192,76 @@
   }
  ],
  "items": [
+  {
+   "at": "2026-08-27T19:33:06+08:00",
+   "day": "2026-08-27",
+   "source": "git",
+   "kind": "copy",
+   "label": "Content module",
+   "summary": "fix(catering): one ladder, the real split, and who employs the cooks",
+   "who": "David Dandanell",
+   "ref": "e338a62",
+   "sha": "e338a62aeaaa542d9ab9718ee0b30929acac1a11",
+   "files": 17,
+   "urls": [
+    "/chef-training-academy",
+    "/corporate",
+    "/our-chefs",
+    "/vip-club"
+   ],
+   "detail": "src/components/Footer.tsx, src/content/cateringPage.ts, src/content/privateChefPage.ts, src/content/privateChefPlanTerms.ts, src/content/seo-pages/chef-training-academy.json, src/content/seo-pages/corporate.json +11 more",
+   "touched": {
+    "design": 1,
+    "copy": 6,
+    "page": 10
+   },
+   "site_affecting": true,
+   "id": "git:e338a62aeaaa542d9ab9718ee0b30929acac1a11"
+  },
+  {
+   "at": "2026-08-27T19:15:38+08:00",
+   "day": "2026-08-27",
+   "source": "git",
+   "kind": "copy",
+   "label": "Content module",
+   "summary": "fix(private-chef): one ladder, one price, one paper across the household silo",
+   "who": "David Dandanell",
+   "ref": "34fe3e5",
+   "sha": "34fe3e59cab2067a69e55299e3a7fa1aa93aadb8",
+   "files": 22,
+   "urls": [
+    "/how-it-works",
+    "/our-chefs",
+    "/private-chef-vs-catering-dubai"
+   ],
+   "detail": "src/components/private-chef/pricing/PlanSheet.tsx, src/components/private-chef/pricing/PlanSummary.tsx, src/components/private-chef/pricing/PriceCalculator.tsx, src/components/private-chef/pricing/feedback.ts, src/components/private-chef/pricing/planText.ts, src/content/privateChefCluster.ts +16 more",
+   "touched": {
+    "design": 3,
+    "copy": 6,
+    "page": 11
+   },
+   "site_affecting": true,
+   "id": "git:34fe3e59cab2067a69e55299e3a7fa1aa93aadb8"
+  },
+  {
+   "at": "2026-08-27T13:12:17+08:00",
+   "day": "2026-08-27",
+   "source": "git",
+   "kind": "tooling",
+   "label": "SEO tooling",
+   "summary": "feat(seo): a change is rarely one kind of change",
+   "who": "David Dandanell",
+   "ref": "3cfa382",
+   "sha": "3cfa3821558b4f04a2632c2a486ad86a52870a5c",
+   "files": 6,
+   "urls": [],
+   "detail": "docs/seo/keyword-map/build-changelog.py, docs/seo/keyword-map/changelog.json, docs/seo/keyword-map/movers.json, docs/seo/keyword-map/rules.json, src/seo-os/components/movement-panel.tsx, src/seo-os/pages/ChangesPage.tsx",
+   "touched": {
+    "tooling": 4
+   },
+   "site_affecting": false,
+   "id": "git:3cfa3821558b4f04a2632c2a486ad86a52870a5c"
+  },
   {
    "at": "2026-08-27T13:02:28+08:00",
    "day": "2026-08-27",

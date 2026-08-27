@@ -1,5 +1,6 @@
 import { useRef, useEffect, useState } from 'react'
-import { Link } from 'react-router'
+import { Link, useLocation } from 'react-router'
+import { trailFor } from '@/content/breadcrumbTrails'
 import gsap from 'gsap'
 import { deferNonCritical } from '../lib/deferNonCritical'
 import { cn } from '../lib/utils'
@@ -110,6 +111,11 @@ export default function PageHero({
   imagePosition = 'center',
   reducedMotion = false,
 }: PageHeroProps) {
+  // The contract owns the hierarchy. A hand-written breadcrumb prop is a fallback for pages the
+  // contract does not cover, never a second opinion about where a page sits.
+  const { pathname } = useLocation()
+  const trail = trailFor(pathname).length > 0 ? trailFor(pathname) : (breadcrumb ?? [])
+
   const sectionRef = useRef<HTMLDivElement>(null)
   const contentRef = useRef<HTMLDivElement>(null)
   const imageRef = useRef<HTMLImageElement>(null)
@@ -257,11 +263,11 @@ export default function PageHero({
       )}
 
       {/* Breadcrumb — pinned top-left on every hero, with a readable scrim so it works over any photo */}
-      {breadcrumb && breadcrumb.length > 0 && (
+      {trail.length > 0 && (
         <nav aria-label="Breadcrumb" className="absolute top-20 left-0 right-0 z-20">
           <div className="container-custom">
             <ol className="inline-flex flex-wrap items-center gap-2 font-inter text-caption bg-black/40 backdrop-blur-sm px-3.5 py-1.5 rounded-full ring-1 ring-white/10">
-              {breadcrumb.map((item, i) => (
+              {trail.map((item, i) => (
                 <li key={item.label + i} className="flex items-center gap-2">
                   {i > 0 && <span className="text-white/40" aria-hidden>/</span>}
                   {item.href ? (

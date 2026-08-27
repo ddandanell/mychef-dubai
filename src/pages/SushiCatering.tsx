@@ -353,10 +353,7 @@ export default function SushiCatering() {
             Few things draw a room together like a beautifully composed sushi spread. The clean lines of hand-cut sashimi, the gloss of fresh nigiri, the careful balance of a well-built maki roll — sushi is as much about presentation as it is about flavour. At myCHEF Dubai, we treat each platter as a piece of edible craft, slicing premium fish to order and arranging every element with intention so it looks as considered as it tastes.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Birthday sushi catering Dubai is planned around the room and the running order, with chefs, service staff and clear-down included. Sushi caterer Dubai and private sushi chef Dubai are the same booking: a vetted chef, matched to your kitchen and your menu.
-          </p>
-          <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Sushi platter Dubai and Japanese catering Dubai are the same service under another name.
+            Birthday sushi catering Dubai is planned around the room and the running order, with chefs, service staff and clear-down included.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
             Sushi catering Dubai price and sushi catering cost per person Dubai depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Sushi catering packages Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. If you are weighing up best sushi catering Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. The sushi catering menu Dubai is drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Halal sushi catering Dubai is planned into the first draft of the menu rather than bolted on at the end. Sushi chef at home Dubai is run at the address you give us: we bring the equipment, cook on site and leave the space as we found it.

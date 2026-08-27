@@ -152,7 +152,7 @@ export default function RamadanIftarTrends2026() {
               Ramadan in Dubai is more than a month of fasting; it is a season of gathering, generosity, and carefully planned hospitality. In 2026, Iftar catering is moving away from predictable buffet lines toward curated, visually striking tables that honour tradition while embracing modern dining habits. Hosts want menus that feel abundant without being wasteful, and service that lets guests focus on prayer, family, and conversation.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Iftar catering ideas Dubai are planned around the room and the running order, with chefs, service staff and clear-down included. Biggest food trends 2026 is the same service under another name.
+              Iftar catering ideas Dubai are planned around the room and the running order, with chefs, service staff and clear-down included.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
               Whether you are organising an intimate family Iftar or a corporate gathering for several hundred guests, understanding the latest trends helps you plan an event that feels timely and thoughtful.

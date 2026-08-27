@@ -33,9 +33,6 @@ const config: OccasionPageConfig = {
         Birthday afternoon tea Dubai is planned around the room and the running order, with chefs, service staff and clear-down included.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-        High tea catering Dubai and afternoon tea grazing table are the same service under another name.
-      </p>
-      <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
         Afternoon tea catering Dubai price and afternoon tea catering price per person Dubai depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Afternoon tea caterers near me are covered across the whole city, because the chef travels to your address rather than the other way round. Afternoon tea catering packages Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. If you are weighing up best afternoon tea Dubai and best afternoon tea catering Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. The afternoon tea catering menu Dubai is drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Halal afternoon tea catering Dubai is planned into the first draft of the menu rather than bolted on at the end.
       </p>
       <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
