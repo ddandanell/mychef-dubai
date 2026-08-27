@@ -30,6 +30,7 @@ type Change = {
   ref?: string
   files?: number
   urls?: string[]
+  touched?: Record<string, number>
   parts?: Part[]
   site_affecting?: boolean
 }
@@ -69,7 +70,9 @@ export default function ChangesPage() {
   const filtered = useMemo(() => {
     return items.filter((item) => {
       if (kind === "site" && !item.site_affecting) return false
-      if (kind !== "site" && kind !== "all" && item.kind !== kind) return false
+      // A commit headlined as copy that also swapped an image belongs under "image" too —
+      // filtering on the headline alone hides exactly the change someone is looking for.
+      if (kind !== "site" && kind !== "all" && item.kind !== kind && !(item.touched ?? {})[kind]) return false
       if (url && !(item.urls ?? []).some((u) => u.includes(url)) && !item.summary.toLowerCase().includes(url.toLowerCase()))
         return false
       return true
@@ -145,6 +148,13 @@ export default function ChangesPage() {
                       {change.urls && change.urls.length > 3 ? (
                         <span className="text-muted-foreground text-xs">+{change.urls.length - 3} more</span>
                       ) : null}
+                      {Object.entries(change.touched ?? {})
+                        .filter(([kind]) => kind !== change.kind)
+                        .map(([kind, count]) => (
+                          <span key={kind} className="text-muted-foreground text-xs">
+                            · {count} {kind}
+                          </span>
+                        ))}
                     </div>
                     <p className="text-sm">{change.summary}</p>
                     {change.parts?.length ? (

@@ -222,8 +222,8 @@ export function MovementPanel({ data }: { data: MoversFile | null }) {
         <CardHeader className="pb-2">
           <CardTitle className="text-base">Fourteen days, both windows</CardTitle>
           <CardDescription>
-            The shaded block on the right is the week being reported. A tick under the axis is a day the site
-            was changed — {changeDays.size} such day(s) in this window.
+            The shaded block on the right is the week being reported. Each dashed line is a day the site was
+            changed, numbered with how many changes landed that day — {changeDays.size} such day(s) here.
           </CardDescription>
         </CardHeader>
         <CardContent>
@@ -249,7 +249,7 @@ export function MovementPanel({ data }: { data: MoversFile | null }) {
                   fillOpacity={0.06}
                 />
               ) : null}
-              {[...changeDays.keys()].map((day) => (
+              {[...changeDays.entries()].map(([day, count]) => (
                 <ReferenceLine
                   key={day}
                   yAxisId="impr"
@@ -257,6 +257,12 @@ export function MovementPanel({ data }: { data: MoversFile | null }) {
                   stroke="var(--muted-foreground)"
                   strokeDasharray="2 4"
                   strokeOpacity={0.7}
+                  label={{
+                    value: String(count),
+                    position: "top",
+                    fontSize: 10,
+                    fill: "var(--muted-foreground)",
+                  }}
                 />
               ))}
               <ChartTooltip content={<ChartTooltipContent labelFormatter={(v) => short(String(v))} />} />

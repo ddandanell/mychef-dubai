@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-27 13:01",
+ "generated": "2026-08-27 13:12",
  "window_days": 7,
  "recent": {
   "from": "2026-08-18",
@@ -451,6 +451,41 @@
    "direction": "up"
   },
   {
+   "url": "/site-map",
+   "primary": null,
+   "clicks_recent": 0,
+   "clicks_prior": 0,
+   "clicks_delta": 0,
+   "impr_recent": 43,
+   "impr_prior": 33,
+   "impr_delta": 10,
+   "impr_pct": 30.3,
+   "pos_recent": 47.7,
+   "pos_prior": 45.2,
+   "pos_delta": 2.5,
+   "ctr_recent": 0.0,
+   "ctr_prior": 0.0,
+   "sessions_recent": 0,
+   "sessions_prior": 0,
+   "contacts_recent": 0,
+   "contacts_prior": 0,
+   "why": {
+    "shape": "ranking",
+    "headline": "Slipped down the results page",
+    "detail": "position 45.2 → 47.7 · +10 impressions",
+    "confidence": "likely",
+    "cause": {
+     "day": "2026-08-26",
+     "kind": "copy",
+     "summary": "feat(seo): restore engagement, honest gift cards, and a gated zinc board",
+     "ref": "fc608f7",
+     "source": "git"
+    },
+    "changes": 9
+   },
+   "direction": "flat"
+  },
+  {
    "url": "/wedding-catering-menu-planning-dubai",
    "primary": "wedding menu planning dubai",
    "clicks_recent": 0,
@@ -482,41 +517,6 @@
      "source": "optimizer"
     },
     "changes": 3
-   },
-   "direction": "flat"
-  },
-  {
-   "url": "/site-map",
-   "primary": null,
-   "clicks_recent": 0,
-   "clicks_prior": 0,
-   "clicks_delta": 0,
-   "impr_recent": 43,
-   "impr_prior": 33,
-   "impr_delta": 10,
-   "impr_pct": 30.3,
-   "pos_recent": 47.7,
-   "pos_prior": 45.2,
-   "pos_delta": 2.5,
-   "ctr_recent": 0.0,
-   "ctr_prior": 0.0,
-   "sessions_recent": 0,
-   "sessions_prior": 0,
-   "contacts_recent": 0,
-   "contacts_prior": 0,
-   "why": {
-    "shape": "ranking",
-    "headline": "Slipped down the results page",
-    "detail": "position 45.2 → 47.7 · +10 impressions",
-    "confidence": "likely",
-    "cause": {
-     "day": "2026-08-26",
-     "kind": "copy",
-     "summary": "feat(seo): site-wide keyword optimizer pass, ownership file, /seo publication and Neon store",
-     "ref": "b221ac8",
-     "source": "git"
-    },
-    "changes": 9
    },
    "direction": "flat"
   },
@@ -619,8 +619,8 @@
     "cause": {
      "day": "2026-08-26",
      "kind": "copy",
-     "summary": "feat(seo): site-wide keyword optimizer pass, ownership file, /seo publication and Neon store",
-     "ref": "b221ac8",
+     "summary": "feat(seo): two more places subkeywords can live — package intro prop and handoff blocks",
+     "ref": "0050b9c",
      "source": "git"
     },
     "changes": 9
@@ -1081,19 +1081,6 @@
    "pos_delta": -2.0
   },
   {
-   "query": "wedding catering dubai",
-   "clicks_recent": 0,
-   "clicks_prior": 0,
-   "clicks_delta": 0,
-   "impr_recent": 33,
-   "impr_prior": 31,
-   "impr_delta": 2,
-   "impr_pct": 6.5,
-   "pos_recent": 29.7,
-   "pos_prior": 30.3,
-   "pos_delta": -0.6
-  },
-  {
    "query": "private dining dubai",
    "clicks_recent": 0,
    "clicks_prior": 0,
@@ -1105,6 +1092,19 @@
    "pos_recent": 44.3,
    "pos_prior": 44.4,
    "pos_delta": -0.1
+  },
+  {
+   "query": "wedding catering dubai",
+   "clicks_recent": 0,
+   "clicks_prior": 0,
+   "clicks_delta": 0,
+   "impr_recent": 33,
+   "impr_prior": 31,
+   "impr_delta": 2,
+   "impr_pct": 6.5,
+   "pos_recent": 29.7,
+   "pos_prior": 30.3,
+   "pos_delta": -0.6
   }
  ],
  "queries_down": [
@@ -1200,19 +1200,6 @@
    "pos_delta": -3.6
   },
   {
-   "query": "corporate dessert catering",
-   "clicks_recent": 0,
-   "clicks_prior": 0,
-   "clicks_delta": 0,
-   "impr_recent": 5,
-   "impr_prior": 27,
-   "impr_delta": -22,
-   "impr_pct": -81.5,
-   "pos_recent": 6.2,
-   "pos_prior": 6.1,
-   "pos_delta": 0.1
-  },
-  {
    "query": "cocktail party catering",
    "clicks_recent": 0,
    "clicks_prior": 0,
@@ -1224,6 +1211,19 @@
    "pos_recent": 7.7,
    "pos_prior": 9.4,
    "pos_delta": -1.6
+  },
+  {
+   "query": "corporate dessert catering",
+   "clicks_recent": 0,
+   "clicks_prior": 0,
+   "clicks_delta": 0,
+   "impr_recent": 5,
+   "impr_prior": 27,
+   "impr_delta": -22,
+   "impr_pct": -81.5,
+   "pos_recent": 6.2,
+   "pos_prior": 6.1,
+   "pos_delta": 0.1
   },
   {
    "query": "buffet catering",
@@ -1270,9 +1270,219 @@
   {
    "day": "2026-08-26",
    "kind": "copy",
-   "summary": "12 edit(s) on /corporate-retainer-dubai: 5× body, 5× faq, 1× h2, 1× description",
+   "summary": "14 edit(s) on /case-studies: 5× body, 1× faq, 2× h2, 2× h1, 2× description, 2× title",
    "ref": "",
    "source": "optimizer"
+  },
+  {
+   "day": "2026-08-26",
+   "kind": "tracking",
+   "summary": "fix(api): the tracking function must be self-contained, or it 500s",
+   "ref": "37edbf4",
+   "source": "git"
+  },
+  {
+   "day": "2026-08-26",
+   "kind": "tracking",
+   "summary": "feat(seo): V2 Slice A — heartbeats, Control, and a fix for the dead tracking endpoint",
+   "ref": "5948249",
+   "source": "git"
+  },
+  {
+   "day": "2026-08-26",
+   "kind": "page",
+   "summary": "feat(seo): shadcn board at /seo, and a Queue that does not apply itself",
+   "ref": "ff2d69d",
+   "source": "git"
+  },
+  {
+   "day": "2026-08-26",
+   "kind": "tracking",
+   "summary": "feat(seo): the analyst falls back to a free-tier model, and says which one answered",
+   "ref": "cacd58d",
+   "source": "git"
+  },
+  {
+   "day": "2026-08-26",
+   "kind": "tracking",
+   "summary": "docs(seo): full system documentation, and read the OIDC token from the request header",
+   "ref": "b544b37",
+   "source": "git"
+  },
+  {
+   "day": "2026-08-26",
+   "kind": "tracking",
+   "summary": "fix(seo): the analyst needs a real model endpoint, not the DataForSEO relay",
+   "ref": "25a941b",
+   "source": "git"
+  },
+  {
+   "day": "2026-08-26",
+   "kind": "tracking",
+   "summary": "fix(seo): the analyst's relay rejects long prompts - send a digest, not raw JSON",
+   "ref": "17da0a4",
+   "source": "git"
+  },
+  {
+   "day": "2026-08-26",
+   "kind": "tracking",
+   "summary": "feat(seo): system status page and a read-only SEO analyst",
+   "ref": "5d93d1d",
+   "source": "git"
+  },
+  {
+   "day": "2026-08-26",
+   "kind": "other",
+   "summary": "chore(seo): verify the board's service account as a second site owner",
+   "ref": "71bbfff",
+   "source": "git"
+  },
+  {
+   "day": "2026-08-26",
+   "kind": "design",
+   "summary": "feat(analytics): first-party event collector, joined to the keyword tables",
+   "ref": "3b76947",
+   "source": "git"
+  },
+  {
+   "day": "2026-08-26",
+   "kind": "other",
+   "summary": "feat: add Vercel Speed Insights for Core Web Vitals",
+   "ref": "262bb12",
+   "source": "git"
+  },
+  {
+   "day": "2026-08-26",
+   "kind": "copy",
+   "summary": "feat(seo): two more places subkeywords can live — package intro prop and handoff blocks",
+   "ref": "0050b9c",
+   "source": "git"
+  },
+  {
+   "day": "2026-08-26",
+   "kind": "copy",
+   "summary": "5 edit(s) on /family-feast-package-dubai: 2× h1, 1× faq, 1× body, 1× description",
+   "ref": "",
+   "source": "optimizer"
+  },
+  {
+   "day": "2026-08-26",
+   "kind": "copy",
+   "summary": "4 edit(s) on /blog/grazing-table-vs-buffet-dubai: 1× body, 1× faq, 1× h1, 1× description",
+   "ref": "",
+   "source": "optimizer"
+  },
+  {
+   "day": "2026-08-26",
+   "kind": "copy",
+   "summary": "5 edit(s) on /blog/dinner-party-menu-ideas-dubai: 1× faq, 1× body, 1× opening, 1× h1, 1× description",
+   "ref": "",
+   "source": "optimizer"
+  },
+  {
+   "day": "2026-08-26",
+   "kind": "copy",
+   "summary": "5 edit(s) on /blog/desert-dinner-party-dubai: 1× faq, 1× body, 1× opening, 1× h1, 1× description",
+   "ref": "",
+   "source": "optimizer"
+  },
+  {
+   "day": "2026-08-26",
+   "kind": "copy",
+   "summary": "5 edit(s) on /blog/corporate-event-catering-ideas-dubai: 1× faq, 1× body, 1× opening, 1× h1, 1× description",
+   "ref": "",
+   "source": "optimizer"
+  },
+  {
+   "day": "2026-08-26",
+   "kind": "copy",
+   "summary": "4 edit(s) on /blog/brunch-at-home-dubai: 1× faq, 1× body, 1× description, 1× title",
+   "ref": "",
+   "source": "optimizer"
+  },
+  {
+   "day": "2026-08-26",
+   "kind": "copy",
+   "summary": "2 edit(s) on /best-catering-companies-dubai: 1× body, 1× opening",
+   "ref": "",
+   "source": "optimizer"
+  },
+  {
+   "day": "2026-08-26",
+   "kind": "copy",
+   "summary": "3 edit(s) on /date-night-package-dubai: 1× faq, 1× body, 1× h1",
+   "ref": "",
+   "source": "optimizer"
+  },
+  {
+   "day": "2026-08-26",
+   "kind": "copy",
+   "summary": "2 edit(s) on /corporate-dinner-package-dubai: 1× body, 1× h1",
+   "ref": "",
+   "source": "optimizer"
+  },
+  {
+   "day": "2026-08-26",
+   "kind": "copy",
+   "summary": "6 edit(s) on /birthday-catering-package-dubai: 1× faq, 1× body, 2× h1, 1× description, 1× title",
+   "ref": "",
+   "source": "optimizer"
+  },
+  {
+   "day": "2026-08-26",
+   "kind": "copy",
+   "summary": "6 edit(s) on /blog/vegan-catering-dubai-guide: 1× faq, 1× body, 1× opening, 1× h1, 1× description, 1× title",
+   "ref": "",
+   "source": "optimizer"
+  },
+  {
+   "day": "2026-08-26",
+   "kind": "copy",
+   "summary": "3 edit(s) on /blog/private-chef-vs-restaurant-dubai: 1× faq, 1× body, 1× description",
+   "ref": "",
+   "source": "optimizer"
+  },
+  {
+   "day": "2026-08-26",
+   "kind": "copy",
+   "summary": "2 edit(s) on /blog/private-chef-date-night-dubai: 1× body, 1× description",
+   "ref": "",
+   "source": "optimizer"
+  },
+  {
+   "day": "2026-08-26",
+   "kind": "copy",
+   "summary": "2 edit(s) on /blog/nye-party-catering-dubai: 1× body, 1× description",
+   "ref": "",
+   "source": "optimizer"
+  },
+  {
+   "day": "2026-08-26",
+   "kind": "copy",
+   "summary": "4 edit(s) on /blog/iftar-at-home-dubai: 1× body, 1× opening, 1× h1, 1× description",
+   "ref": "",
+   "source": "optimizer"
+  },
+  {
+   "day": "2026-08-26",
+   "kind": "copy",
+   "summary": "6 edit(s) on /blog/how-to-hire-a-private-chef-dubai: 1× faq, 1× body, 1× opening, 1× h1, 1× description, 1× title",
+   "ref": "",
+   "source": "optimizer"
+  },
+  {
+   "day": "2026-08-26",
+   "kind": "copy",
+   "summary": "6 edit(s) on /blog/how-far-ahead-book-caterer-dubai: 1× faq, 1× body, 1× opening, 1× h1, 1× description, 1× title",
+   "ref": "",
+   "source": "optimizer"
+  },
+  {
+   "day": "2026-08-26",
+   "kind": "copy",
+   "summary": "fix(seo): no FAQ answer is repeated across pages; 254 boilerplate FAQs removed",
+   "ref": "4c654a1",
+   "source": "git"
   },
   {
    "day": "2026-08-26",
@@ -1536,13 +1746,6 @@
   {
    "day": "2026-08-26",
    "kind": "copy",
-   "summary": "3 edit(s) on /partners/villa-rentals-dubai: 1× h1, 1× description, 1× title",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
    "summary": "8 edit(s) on /fitness-meal-prep-dubai: 5× body, 1× faq, 1× h2, 1× description",
    "ref": "",
    "source": "optimizer"
@@ -1606,6 +1809,13 @@
   {
    "day": "2026-08-26",
    "kind": "copy",
+   "summary": "12 edit(s) on /corporate-retainer-dubai: 5× body, 5× faq, 1× h2, 1× description",
+   "ref": "",
+   "source": "optimizer"
+  },
+  {
+   "day": "2026-08-26",
+   "kind": "copy",
    "summary": "9 edit(s) on /cocktail-party-catering-dubai: 5× body, 1× faq, 1× h2, 1× h1, 1× description",
    "ref": "",
    "source": "optimizer"
@@ -1634,9 +1844,9 @@
   {
    "day": "2026-08-26",
    "kind": "copy",
-   "summary": "14 edit(s) on /case-studies: 5× body, 1× faq, 2× h2, 2× h1, 2× description, 2× title",
-   "ref": "",
-   "source": "optimizer"
+   "summary": "feat(seo): restore engagement, honest gift cards, and a gated zinc board",
+   "ref": "fc608f7",
+   "source": "git"
   },
   {
    "day": "2026-08-26",
@@ -1712,13 +1922,6 @@
    "day": "2026-08-26",
    "kind": "copy",
    "summary": "20 edit(s) on /blog/corporate-catering-full-service-vs-drop-off: 5× faq, 5× body, 2× h2, 2× opening, 2× h1, 2× description, 2× title",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "3 edit(s) on /partners/event-planners-dubai: 1× h1, 1× description, 1× title",
    "ref": "",
    "source": "optimizer"
   },
@@ -2229,6 +2432,20 @@
   {
    "day": "2026-08-26",
    "kind": "copy",
+   "summary": "3 edit(s) on /partners/villa-rentals-dubai: 1× h1, 1× description, 1× title",
+   "ref": "",
+   "source": "optimizer"
+  },
+  {
+   "day": "2026-08-26",
+   "kind": "copy",
+   "summary": "3 edit(s) on /partners/event-planners-dubai: 1× h1, 1× description, 1× title",
+   "ref": "",
+   "source": "optimizer"
+  },
+  {
+   "day": "2026-08-26",
+   "kind": "copy",
    "summary": "3 edit(s) on /partners/concierge-services-dubai: 1× h1, 1× description, 1× title",
    "ref": "",
    "source": "optimizer"
@@ -2332,290 +2549,10 @@
    "source": "optimizer"
   },
   {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "feat(seo): restore engagement, honest gift cards, and a gated zinc board",
-   "ref": "fc608f7",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "tracking",
-   "summary": "fix(api): the tracking function must be self-contained, or it 500s",
-   "ref": "37edbf4",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "tracking",
-   "summary": "feat(seo): V2 Slice A — heartbeats, Control, and a fix for the dead tracking endpoint",
-   "ref": "5948249",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "page",
-   "summary": "feat(seo): shadcn board at /seo, and a Queue that does not apply itself",
-   "ref": "ff2d69d",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "tracking",
-   "summary": "feat(seo): the analyst falls back to a free-tier model, and says which one answered",
-   "ref": "cacd58d",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "tracking",
-   "summary": "docs(seo): full system documentation, and read the OIDC token from the request header",
-   "ref": "b544b37",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "tracking",
-   "summary": "fix(seo): the analyst needs a real model endpoint, not the DataForSEO relay",
-   "ref": "25a941b",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "tracking",
-   "summary": "fix(seo): the analyst's relay rejects long prompts - send a digest, not raw JSON",
-   "ref": "17da0a4",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "tracking",
-   "summary": "feat(seo): system status page and a read-only SEO analyst",
-   "ref": "5d93d1d",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "other",
-   "summary": "chore(seo): verify the board's service account as a second site owner",
-   "ref": "71bbfff",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "design",
-   "summary": "feat(analytics): first-party event collector, joined to the keyword tables",
-   "ref": "3b76947",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "other",
-   "summary": "feat: add Vercel Speed Insights for Core Web Vitals",
-   "ref": "262bb12",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "feat(seo): two more places subkeywords can live — package intro prop and handoff blocks",
-   "ref": "0050b9c",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "5 edit(s) on /family-feast-package-dubai: 2× h1, 1× faq, 1× body, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "4 edit(s) on /blog/grazing-table-vs-buffet-dubai: 1× body, 1× faq, 1× h1, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "5 edit(s) on /blog/dinner-party-menu-ideas-dubai: 1× faq, 1× body, 1× opening, 1× h1, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "5 edit(s) on /blog/desert-dinner-party-dubai: 1× faq, 1× body, 1× opening, 1× h1, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "5 edit(s) on /blog/corporate-event-catering-ideas-dubai: 1× faq, 1× body, 1× opening, 1× h1, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "4 edit(s) on /blog/brunch-at-home-dubai: 1× faq, 1× body, 1× description, 1× title",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "2 edit(s) on /best-catering-companies-dubai: 1× body, 1× opening",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "3 edit(s) on /date-night-package-dubai: 1× faq, 1× body, 1× h1",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "2 edit(s) on /corporate-dinner-package-dubai: 1× body, 1× h1",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "6 edit(s) on /birthday-catering-package-dubai: 1× faq, 1× body, 2× h1, 1× description, 1× title",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "6 edit(s) on /blog/vegan-catering-dubai-guide: 1× faq, 1× body, 1× opening, 1× h1, 1× description, 1× title",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "3 edit(s) on /blog/private-chef-vs-restaurant-dubai: 1× faq, 1× body, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "2 edit(s) on /blog/private-chef-date-night-dubai: 1× body, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "2 edit(s) on /blog/nye-party-catering-dubai: 1× body, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "4 edit(s) on /blog/iftar-at-home-dubai: 1× body, 1× opening, 1× h1, 1× description",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "6 edit(s) on /blog/how-to-hire-a-private-chef-dubai: 1× faq, 1× body, 1× opening, 1× h1, 1× description, 1× title",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "6 edit(s) on /blog/how-far-ahead-book-caterer-dubai: 1× faq, 1× body, 1× opening, 1× h1, 1× description, 1× title",
-   "ref": "",
-   "source": "optimizer"
-  },
-  {
-   "day": "2026-08-26",
-   "kind": "copy",
-   "summary": "fix(seo): no FAQ answer is repeated across pages; 254 boilerplate FAQs removed",
-   "ref": "4c654a1",
-   "source": "git"
-  },
-  {
    "day": "2026-08-25",
    "kind": "copy",
-   "summary": "feat(nav): rename Events/Dinner, swap Packages for Cuisines, add two About hubs",
-   "ref": "f8783c3",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-25",
-   "kind": "page",
-   "summary": "fix(corporate): drop the \"allergen-free\" claim from the hub",
-   "ref": "10ac922",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-25",
-   "kind": "design",
-   "summary": "feat(nav): mobile drawer ends with one WhatsApp CTA",
-   "ref": "2ef3b59",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-25",
-   "kind": "copy",
-   "summary": "feat(wedding): flatten the catering mega and deepen the wedding cluster",
-   "ref": "6c8955b",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-25",
-   "kind": "other",
-   "summary": "chore(seo): add Google + Bing site verification tokens for mychef.ae",
-   "ref": "a49ee70",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-25",
-   "kind": "copy",
-   "summary": "feat: site-wide design pass, keyword-locked Private Chef cluster, catering redesign, nav + hero system",
-   "ref": "20f1f56",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-25",
-   "kind": "copy",
-   "summary": "fix: ship single-scene cluster heroes and a company contact hub",
-   "ref": "a77a161",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-25",
-   "kind": "copy",
-   "summary": "feat(pricing): rebuild private chef pricing as a single-engine calculator + plain-English plan terms",
-   "ref": "6590fa5",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-25",
-   "kind": "copy",
-   "summary": "feat(experiences): Dining Experiences cluster — nav, IA and rebuilt pillar page",
-   "ref": "e0c8d81",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-25",
-   "kind": "copy",
-   "summary": "feat(corporate): rebuild corporate event catering around company events",
-   "ref": "4d04ba3",
+   "summary": "fix(corporate): remove private packages and the duplicate appended article from the hub",
+   "ref": "d0fcd7d",
    "source": "git"
   },
   {
@@ -2628,6 +2565,76 @@
   {
    "day": "2026-08-25",
    "kind": "copy",
+   "summary": "feat(wedding): flatten the catering mega and deepen the wedding cluster",
+   "ref": "6c8955b",
+   "source": "git"
+  },
+  {
+   "day": "2026-08-25",
+   "kind": "design",
+   "summary": "feat(nav): mobile drawer ends with one WhatsApp CTA",
+   "ref": "2ef3b59",
+   "source": "git"
+  },
+  {
+   "day": "2026-08-25",
+   "kind": "copy",
+   "summary": "feat(nav): rename Events/Dinner, swap Packages for Cuisines, add two About hubs",
+   "ref": "f8783c3",
+   "source": "git"
+  },
+  {
+   "day": "2026-08-25",
+   "kind": "copy",
+   "summary": "feat(nav): split the top level into Catering, Private Events, Corporate and Packages",
+   "ref": "f7b96d2",
+   "source": "git"
+  },
+  {
+   "day": "2026-08-25",
+   "kind": "page",
+   "summary": "feat(birthday): complete the interlinking across the four-page cluster",
+   "ref": "c4b2157",
+   "source": "git"
+  },
+  {
+   "day": "2026-08-25",
+   "kind": "copy",
+   "summary": "fix(birthday): de-duplicate the birthday-dinner article and tighten kids claims",
+   "ref": "bcc33f6",
+   "source": "git"
+  },
+  {
+   "day": "2026-08-25",
+   "kind": "page",
+   "summary": "fix(birthday): narrow the package page to its actual offer",
+   "ref": "ba70f7b",
+   "source": "git"
+  },
+  {
+   "day": "2026-08-25",
+   "kind": "copy",
+   "summary": "feat(birthday): rebuild /birthday-catering-dubai as a focused commercial hub",
+   "ref": "ded4c09",
+   "source": "git"
+  },
+  {
+   "day": "2026-08-25",
+   "kind": "page",
+   "summary": "fix(corporate): drop the \"allergen-free\" claim from the hub",
+   "ref": "10ac922",
+   "source": "git"
+  },
+  {
+   "day": "2026-08-25",
+   "kind": "copy",
+   "summary": "feat(corporate): restore corporate pricing on-page and deepen the hub",
+   "ref": "ad417a6",
+   "source": "git"
+  },
+  {
+   "day": "2026-08-25",
+   "kind": "copy",
    "summary": "fix(seo): end the two private-chef cannibalisations",
    "ref": "4203d12",
    "source": "git"
@@ -2635,22 +2642,43 @@
   {
    "day": "2026-08-25",
    "kind": "copy",
-   "summary": "feat(seo): silo modules replace the same twelve links on every page",
-   "ref": "f836e68",
+   "summary": "feat(corporate): rebuild corporate event catering around company events",
+   "ref": "4d04ba3",
    "source": "git"
   },
   {
    "day": "2026-08-25",
    "kind": "copy",
-   "summary": "fix(seo): put the locked keyword back in 18 drifted titles",
-   "ref": "b08a33a",
+   "summary": "feat(experiences): Dining Experiences cluster — nav, IA and rebuilt pillar page",
+   "ref": "e0c8d81",
    "source": "git"
   },
   {
    "day": "2026-08-25",
    "kind": "copy",
-   "summary": "fix(seo): descriptions carry their keyword, pillar titles fit the SERP",
-   "ref": "e550d4f",
+   "summary": "feat(pricing): rebuild private chef pricing as a single-engine calculator + plain-English plan terms",
+   "ref": "6590fa5",
+   "source": "git"
+  },
+  {
+   "day": "2026-08-25",
+   "kind": "copy",
+   "summary": "fix: ship single-scene cluster heroes and a company contact hub",
+   "ref": "a77a161",
+   "source": "git"
+  },
+  {
+   "day": "2026-08-25",
+   "kind": "copy",
+   "summary": "feat: site-wide design pass, keyword-locked Private Chef cluster, catering redesign, nav + hero system",
+   "ref": "20f1f56",
+   "source": "git"
+  },
+  {
+   "day": "2026-08-25",
+   "kind": "other",
+   "summary": "chore(seo): add Google + Bing site verification tokens for mychef.ae",
+   "ref": "a49ee70",
    "source": "git"
   },
   {
@@ -2669,20 +2697,6 @@
   },
   {
    "day": "2026-08-25",
-   "kind": "copy",
-   "summary": "feat(corporate): restore corporate pricing on-page and deepen the hub",
-   "ref": "ad417a6",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-25",
-   "kind": "copy",
-   "summary": "fix(corporate): remove private packages and the duplicate appended article from the hub",
-   "ref": "d0fcd7d",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-25",
    "kind": "design",
    "summary": "feat(seo): rebuild the details digest, rewrite siblings by intent",
    "ref": "ce4d39b",
@@ -2691,57 +2705,22 @@
   {
    "day": "2026-08-25",
    "kind": "copy",
-   "summary": "feat(birthday): rebuild /birthday-catering-dubai as a focused commercial hub",
-   "ref": "ded4c09",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-25",
-   "kind": "page",
-   "summary": "fix(birthday): narrow the package page to its actual offer",
-   "ref": "ba70f7b",
+   "summary": "fix(seo): descriptions carry their keyword, pillar titles fit the SERP",
+   "ref": "e550d4f",
    "source": "git"
   },
   {
    "day": "2026-08-25",
    "kind": "copy",
-   "summary": "fix(birthday): de-duplicate the birthday-dinner article and tighten kids claims",
-   "ref": "bcc33f6",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-25",
-   "kind": "page",
-   "summary": "feat(birthday): complete the interlinking across the four-page cluster",
-   "ref": "c4b2157",
+   "summary": "fix(seo): put the locked keyword back in 18 drifted titles",
+   "ref": "b08a33a",
    "source": "git"
   },
   {
    "day": "2026-08-25",
    "kind": "copy",
-   "summary": "feat(nav): split the top level into Catering, Private Events, Corporate and Packages",
-   "ref": "f7b96d2",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-24",
-   "kind": "copy",
-   "summary": "Blog on-page SEO: ToC, tightened meta, NLP phrasing (#10)",
-   "ref": "9c1be77",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-24",
-   "kind": "copy",
-   "summary": "feat: sync live Vercel production source into git",
-   "ref": "0613a54",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-24",
-   "kind": "other",
-   "summary": "Merge pull request #7 from ddandanell/vercel-live-snapshot",
-   "ref": "053a64c",
+   "summary": "feat(seo): silo modules replace the same twelve links on every page",
+   "ref": "f836e68",
    "source": "git"
   },
   {
@@ -2754,15 +2733,15 @@
   {
    "day": "2026-08-24",
    "kind": "other",
-   "summary": "Merge pull request #8 from ddandanell/blog-desert-and-images",
-   "ref": "b44c68f",
+   "summary": "Merge pull request #7 from ddandanell/vercel-live-snapshot",
+   "ref": "053a64c",
    "source": "git"
   },
   {
    "day": "2026-08-24",
    "kind": "copy",
-   "summary": "feat(blog): internal-linking system, topic hubs, and schema (Phases 1-3)",
-   "ref": "848412a",
+   "summary": "feat: sync live Vercel production source into git",
+   "ref": "0613a54",
    "source": "git"
   },
   {
@@ -2770,6 +2749,27 @@
    "kind": "other",
    "summary": "Merge pull request #9 from ddandanell/blog-internal-linking-hubs-schema",
    "ref": "ed15853",
+   "source": "git"
+  },
+  {
+   "day": "2026-08-24",
+   "kind": "design",
+   "summary": "fix: commit ArticleToc used by hand-built blog posts",
+   "ref": "c819d76",
+   "source": "git"
+  },
+  {
+   "day": "2026-08-24",
+   "kind": "copy",
+   "summary": "feat: unique article-specific images on every blog post",
+   "ref": "06c4271",
+   "source": "git"
+  },
+  {
+   "day": "2026-08-24",
+   "kind": "copy",
+   "summary": "Blog on-page SEO: ToC, tightened meta, NLP phrasing (#10)",
+   "ref": "9c1be77",
    "source": "git"
   },
   {
@@ -2782,15 +2782,85 @@
   {
    "day": "2026-08-24",
    "kind": "copy",
-   "summary": "feat: unique article-specific images on every blog post",
-   "ref": "06c4271",
+   "summary": "feat(blog): internal-linking system, topic hubs, and schema (Phases 1-3)",
+   "ref": "848412a",
    "source": "git"
   },
   {
    "day": "2026-08-24",
-   "kind": "design",
-   "summary": "fix: commit ArticleToc used by hand-built blog posts",
-   "ref": "c819d76",
+   "kind": "other",
+   "summary": "Merge pull request #8 from ddandanell/blog-desert-and-images",
+   "ref": "b44c68f",
+   "source": "git"
+  },
+  {
+   "day": "2026-08-22",
+   "kind": "copy",
+   "summary": "feat(private-chef): add six full-bleed luxury photographs to /private-chef-dubai",
+   "ref": "58d208b",
+   "source": "git"
+  },
+  {
+   "day": "2026-08-22",
+   "kind": "copy",
+   "summary": "feat(private-chef): rebuild /private-chef-dubai around evening and household products",
+   "ref": "680fc9f",
+   "source": "git"
+  },
+  {
+   "day": "2026-08-22",
+   "kind": "page",
+   "summary": "feat(bluebook-batch-21): add LocationStrip to service/package templates and remaining commercial pages",
+   "ref": "9bf4abc",
+   "source": "git"
+  },
+  {
+   "day": "2026-08-22",
+   "kind": "copy",
+   "summary": "feat(private-chef): replace system-section photo with chef briefing the team",
+   "ref": "1f539b6",
+   "source": "git"
+  },
+  {
+   "day": "2026-08-22",
+   "kind": "copy",
+   "summary": "feat(private-chef): lock cinematic 1200×800 hero on /private-chef-dubai",
+   "ref": "222ec8c",
+   "source": "git"
+  },
+  {
+   "day": "2026-08-22",
+   "kind": "page",
+   "summary": "feat(private-chef): darker cinematic hero with bolder H1",
+   "ref": "98e0720",
+   "source": "git"
+  },
+  {
+   "day": "2026-08-22",
+   "kind": "copy",
+   "summary": "feat(chefs): give Layla Hassan a dedicated portrait",
+   "ref": "f0a7860",
+   "source": "git"
+  },
+  {
+   "day": "2026-08-22",
+   "kind": "other",
+   "summary": "Merge branch 'cursor/private-chef-sales-rewrite-0c1d' into main",
+   "ref": "eb772d8",
+   "source": "git"
+  },
+  {
+   "day": "2026-08-22",
+   "kind": "copy",
+   "summary": "feat(private-chef): rewrite /private-chef-dubai as a managed-household sales page",
+   "ref": "cddf9cf",
+   "source": "git"
+  },
+  {
+   "day": "2026-08-22",
+   "kind": "page",
+   "summary": "feat(private-chef): darker cinematic hero with bolder H1",
+   "ref": "274716c",
    "source": "git"
   },
   {
@@ -2843,80 +2913,10 @@
    "source": "git"
   },
   {
-   "day": "2026-08-22",
-   "kind": "copy",
-   "summary": "feat(private-chef): add six full-bleed luxury photographs to /private-chef-dubai",
-   "ref": "58d208b",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-22",
-   "kind": "copy",
-   "summary": "feat(private-chef): rebuild /private-chef-dubai around evening and household products",
-   "ref": "680fc9f",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-22",
-   "kind": "page",
-   "summary": "feat(bluebook-batch-21): add LocationStrip to service/package templates and remaining commercial pages",
-   "ref": "9bf4abc",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-22",
-   "kind": "copy",
-   "summary": "feat(private-chef): replace system-section photo with chef briefing the team",
-   "ref": "1f539b6",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-22",
-   "kind": "copy",
-   "summary": "feat(private-chef): lock cinematic 1200×800 hero on /private-chef-dubai",
-   "ref": "222ec8c",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-22",
-   "kind": "copy",
-   "summary": "feat(chefs): give Layla Hassan a dedicated portrait",
-   "ref": "f0a7860",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-22",
-   "kind": "other",
-   "summary": "Merge branch 'cursor/private-chef-sales-rewrite-0c1d' into main",
-   "ref": "eb772d8",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-22",
-   "kind": "copy",
-   "summary": "feat(private-chef): rewrite /private-chef-dubai as a managed-household sales page",
-   "ref": "cddf9cf",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-22",
-   "kind": "page",
-   "summary": "feat(private-chef): darker cinematic hero with bolder H1",
-   "ref": "274716c",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-22",
-   "kind": "page",
-   "summary": "feat(private-chef): darker cinematic hero with bolder H1",
-   "ref": "98e0720",
-   "source": "git"
-  },
-  {
    "day": "2026-08-21",
-   "kind": "page",
-   "summary": "feat(whatsapp): page-specific qualifying messages on 8 core commercial hubs",
-   "ref": "2563197",
+   "kind": "copy",
+   "summary": "fix(seo): eliminate duplicate <title> across all indexable routes",
+   "ref": "775d3d3",
    "source": "git"
   },
   {
@@ -3057,6 +3057,13 @@
    "kind": "page",
    "summary": "feat(bluebook-batch-1): homepage benefit headline, core hub titles/H1s/subtitles/CTAs",
    "ref": "33dfe38",
+   "source": "git"
+  },
+  {
+   "day": "2026-08-21",
+   "kind": "page",
+   "summary": "feat(whatsapp): page-specific qualifying messages on 8 core commercial hubs",
+   "ref": "2563197",
    "source": "git"
   },
   {
@@ -3215,13 +3222,6 @@
   },
   {
    "day": "2026-08-21",
-   "kind": "copy",
-   "summary": "fix(seo): eliminate duplicate <title> across all indexable routes",
-   "ref": "775d3d3",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-21",
    "kind": "page",
    "summary": "Tasks 7-8: reduce mobile hero height on key hubs; add TrustSignalStrip under location heroes",
    "ref": "1aa0673",
@@ -3250,27 +3250,20 @@
   },
   {
    "day": "2026-08-20",
-   "kind": "copy",
-   "summary": "fix(seo): deduplicate <title> on 6 commercial hubs",
-   "ref": "de0cd85",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-20",
    "kind": "page",
    "summary": "feat(seo): add noindex to /inquiry conversion page",
    "ref": "0b108dd",
    "source": "git"
+  },
+  {
+   "day": "2026-08-20",
+   "kind": "copy",
+   "summary": "fix(seo): deduplicate <title> on 6 commercial hubs",
+   "ref": "de0cd85",
+   "source": "git"
   }
  ],
  "changes_before_window": [
-  {
-   "day": "2026-08-07",
-   "kind": "design",
-   "summary": "fix(mobile): kill horizontal scroll + responsive media everywhere",
-   "ref": "a5b5c3e",
-   "source": "git"
-  },
   {
    "day": "2026-08-07",
    "kind": "copy",
@@ -3286,10 +3279,24 @@
    "source": "git"
   },
   {
+   "day": "2026-08-07",
+   "kind": "design",
+   "summary": "fix(mobile): kill horizontal scroll + responsive media everywhere",
+   "ref": "a5b5c3e",
+   "source": "git"
+  },
+  {
    "day": "2026-08-06",
-   "kind": "copy",
-   "summary": "voice: full-service positioning + footer ownership + remove insurance claims",
-   "ref": "980cee1",
+   "kind": "page",
+   "summary": "feat(faq): anchors, in-answer links, hash deep-linking, jump-nav",
+   "ref": "df969fa",
+   "source": "git"
+  },
+  {
+   "day": "2026-08-06",
+   "kind": "page",
+   "summary": "seo(private-chef-dubai): expand FAQ to 20 research-backed, intent-sorted Q&As",
+   "ref": "2585e46",
    "source": "git"
   },
   {
@@ -3350,9 +3357,9 @@
   },
   {
    "day": "2026-08-06",
-   "kind": "other",
-   "summary": "Merge pull request #3 from ddandanell/vercel-agent/disable-preview-deployments",
-   "ref": "de55daf",
+   "kind": "copy",
+   "summary": "voice: full-service positioning + footer ownership + remove insurance claims",
+   "ref": "980cee1",
    "source": "git"
   },
   {
@@ -3365,15 +3372,8 @@
   {
    "day": "2026-08-06",
    "kind": "other",
-   "summary": "Merge pull request #4 from ddandanell/vercel-agent/install-web-analytics",
-   "ref": "8fc76dc",
-   "source": "git"
-  },
-  {
-   "day": "2026-08-06",
-   "kind": "page",
-   "summary": "feat(faq): anchors, in-answer links, hash deep-linking, jump-nav",
-   "ref": "df969fa",
+   "summary": "Merge branch 'main' of https://github.com/ddandanell/mychef-dubai",
+   "ref": "03b590e",
    "source": "git"
   },
   {
@@ -3385,23 +3385,23 @@
   },
   {
    "day": "2026-08-06",
-   "kind": "page",
-   "summary": "seo(private-chef-dubai): expand FAQ to 20 research-backed, intent-sorted Q&As",
-   "ref": "2585e46",
+   "kind": "other",
+   "summary": "Merge pull request #4 from ddandanell/vercel-agent/install-web-analytics",
+   "ref": "8fc76dc",
    "source": "git"
   },
   {
    "day": "2026-08-06",
    "kind": "other",
-   "summary": "Merge branch 'main' of https://github.com/ddandanell/mychef-dubai",
-   "ref": "03b590e",
+   "summary": "Merge pull request #3 from ddandanell/vercel-agent/disable-preview-deployments",
+   "ref": "de55daf",
    "source": "git"
   },
   {
    "day": "2026-08-05",
-   "kind": "page",
-   "summary": "seo(anniversary): apply block-map content pack (pilot)",
-   "ref": "a9aa1da",
+   "kind": "design",
+   "summary": "fix: stop pages rendering permanently invisible; repair SPA navigation",
+   "ref": "be36f66",
    "source": "git"
   }
  ]

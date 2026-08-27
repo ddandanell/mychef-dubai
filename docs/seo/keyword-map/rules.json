@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-27 13:01",
+ "generated": "2026-08-27 13:12",
  "intro": "Every rule here exists because something went wrong once. A rule with a gate is checked on every run and fails the build when it breaks; a rule without one is written down and carried by the tooling, with the numbers beside it.",
  "tiles": [
   {
@@ -45,7 +45,7 @@
    "where": "optimize-page.py hero_end() · move-hero-copy.py",
    "needs_build": true,
    "status": "holds",
-   "evidence": "hero copy OK — 185 pages, median 36 words of hero prose, none over budget",
+   "evidence": "hero copy OK — 0 pages, median 0 words of hero prose, none over budget",
    "command": "python3 scripts/verify-hero.py"
   },
   {
@@ -146,7 +146,7 @@
    "why": "A rise or a fall is unreadable without what was done. The record used to be split across a Postgres table, git and a JSON map, so a number could never be joined to the edit that caused it.",
    "where": "build-changelog.py → seo_changelog · the Changes page",
    "status": "no gate",
-   "evidence": "524 change(s) logged over the last 120 days"
+   "evidence": "525 change(s) logged over the last 120 days"
   },
   {
    "id": "compare-like-with-like",

@@ -84,20 +84,27 @@ def urls_for(path: str) -> list[str]:
     return []
 
 
-def classify(paths: list[str]) -> tuple[str, str, list[str]]:
+def classify(paths: list[str]) -> tuple[str, str, list[str], dict[str, int]]:
+    """The commit's headline kind, plus everything else it touched.
+
+    One commit is rarely one kind of change: a page rewrite that also swaps the hero image is
+    both, and collapsing it to "copy" hides the picture that changed. So the headline is the
+    most consequential kind and the tally keeps the rest — an image swap inside a copy commit
+    stays visible on the Changes page and stays searchable per URL.
+    """
     kinds, labels, hit = [], [], []
     for p in paths:
         for pattern, kind, label in KINDS:
             if re.search(pattern, p):
                 kinds.append(kind); labels.append(label); break
         hit += urls_for(p)
+    tally = {k: kinds.count(k) for k in dict.fromkeys(kinds)}
     if not kinds:
-        return "other", "Other", sorted(set(hit))
-    # A commit that touches copy and tooling is a copy change; tooling is what is left over.
+        return "other", "Other", sorted(set(hit)), {}
     for k in ("copy", "page", "image", "structure", "design", "tracking", "config"):
         if k in kinds:
-            return k, labels[kinds.index(k)], sorted(set(hit))
-    return kinds[0], labels[0], sorted(set(hit))
+            return k, labels[kinds.index(k)], sorted(set(hit)), tally
+    return kinds[0], labels[0], sorted(set(hit)), tally
 
 
 def from_git(since: str) -> list[dict]:
@@ -110,13 +117,14 @@ def from_git(since: str) -> list[dict]:
         head, _, files = block.partition("\n")
         sha, short, when, who, subject = (head.split("\x02") + [""] * 5)[:5]
         paths = [l.strip() for l in files.splitlines() if l.strip()]
-        kind, label, hit = classify(paths)
+        kind, label, hit, tally = classify(paths)
         out.append({
             "at": when, "day": when[:10], "source": "git", "kind": kind, "label": label,
             "summary": subject, "who": who, "ref": short, "sha": sha,
             "files": len(paths), "urls": hit,
             "detail": ", ".join(paths[:6]) + (f" +{len(paths) - 6} more" if len(paths) > 6 else ""),
-            "site_affecting": kind not in NON_SITE,
+            "touched": tally,
+            "site_affecting": any(k not in NON_SITE for k in tally) if tally else kind not in NON_SITE,
         })
     return out
 
@@ -146,9 +154,10 @@ def from_optimizer() -> list[dict]:
         g = grouped.setdefault(k, {
             "at": at.isoformat(), "day": day, "source": "optimizer", "kind": "copy",
             "label": "Copy edit", "urls": [url], "who": "optimizer", "ref": "",
-            "parts": [], "site_affecting": True,
+            "parts": [], "touched": {"copy": 0}, "site_affecting": True,
         })
         g["parts"].append({"where": where, "how": how, "before": before, "after": after})
+        g["touched"]["copy"] += 1
         g["at"] = max(g["at"], at.isoformat())
     out = []
     for g in grouped.values():
@@ -182,7 +191,7 @@ def from_structure() -> list[dict]:
             "label": "URL retired", "summary": f"{r.get('from') or r.get('url')} → {r.get('to') or r.get('target')}",
             "detail": r.get("reason", ""), "who": "consolidation", "ref": "",
             "files": 0, "urls": [u for u in (r.get("from") or r.get("url"), r.get("to") or r.get("target")) if u],
-            "site_affecting": True,
+            "touched": {"structure": 1}, "site_affecting": True,
         })
     return out
 
@@ -191,8 +200,9 @@ DDL = """
 CREATE TABLE IF NOT EXISTS seo_changelog (
   id TEXT PRIMARY KEY, at TIMESTAMPTZ NOT NULL, day DATE NOT NULL, source TEXT NOT NULL,
   kind TEXT NOT NULL, label TEXT, summary TEXT, detail TEXT, who TEXT, ref TEXT,
-  files INT, urls TEXT[], site_affecting BOOLEAN
+  files INT, urls TEXT[], site_affecting BOOLEAN, touched JSONB
 );
+ALTER TABLE seo_changelog ADD COLUMN IF NOT EXISTS touched JSONB;
 CREATE INDEX IF NOT EXISTS seo_changelog_day ON seo_changelog(day);
 CREATE INDEX IF NOT EXISTS seo_changelog_urls ON seo_changelog USING GIN(urls);
 """
@@ -209,11 +219,13 @@ def archive(items):
         cur.execute(DDL)
         psycopg2.extras.execute_values(cur, """
             INSERT INTO seo_changelog (id, at, day, source, kind, label, summary, detail, who, ref,
-                                       files, urls, site_affecting) VALUES %s
+                                       files, urls, site_affecting, touched) VALUES %s
             ON CONFLICT (id) DO UPDATE SET summary = EXCLUDED.summary, detail = EXCLUDED.detail,
-                urls = EXCLUDED.urls, files = EXCLUDED.files, site_affecting = EXCLUDED.site_affecting
+                urls = EXCLUDED.urls, files = EXCLUDED.files, site_affecting = EXCLUDED.site_affecting,
+                touched = EXCLUDED.touched
         """, [(i["id"], i["at"], i["day"], i["source"], i["kind"], i["label"], i["summary"],
-               i["detail"], i["who"], i["ref"], i["files"], i["urls"], i["site_affecting"]) for i in items])
+               i["detail"], i["who"], i["ref"], i["files"], i["urls"], i["site_affecting"],
+               json.dumps(i.get("touched") or {})) for i in items])
         conn.commit(); conn.close()
         return len(items)
     except Exception as ex:  # noqa: BLE001
@@ -249,7 +261,8 @@ def main():
         "tiles": [
             {"value": str(len(items)), "label": f"Changes in {DAYS} days"},
             {"value": str(sum(1 for i in items if i["kind"] == "copy")), "label": "Copy edits"},
-            {"value": str(sum(1 for i in items if i["kind"] in ("image", "design"))), "label": "Design & images"},
+            {"value": str(sum(1 for i in items if (i.get("touched") or {}).get("image")
+                              or (i.get("touched") or {}).get("design"))), "label": "Design & images"},
             {"value": str(len(by_url)), "label": "URLs touched"},
         ],
         "kinds": kinds,
