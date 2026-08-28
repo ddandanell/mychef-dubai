@@ -156,7 +156,7 @@ export const SKIP_SEO_HEAD_ROUTES: ReadonlySet<string> = new Set([
   '/private-chef-dubai/our-chefs',
   '/private-chef-dubai/quality-training',
   '/private-chef-dubai/privacy-security',
-  '/private-chef-prices-dubai',
+  '/private-chef-dubai/pricing',
   '/private-chef-vs-catering-dubai',
   '/private-cooking-classes-dubai',
   '/product-launch-catering-dubai',

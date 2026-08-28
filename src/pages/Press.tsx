@@ -63,7 +63,7 @@ const linkableResources = [
   {
     title: 'Private Chef Prices Dubai',
     description: 'Transparent starting prices and what affects the cost of a private chef.',
-    href: '/private-chef-prices-dubai',
+    href: '/private-chef-dubai/pricing',
   },
 ]
 

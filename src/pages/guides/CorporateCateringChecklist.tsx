@@ -282,10 +282,11 @@ export default function CorporateCateringChecklist() {
             Corporate Catering Checklist Dubai Businesses
           </h1>
           <p className="font-inter text-lg text-white/90 max-w-[640px] mx-auto mb-8 leading-relaxed opacity-0 translate-y-5 corp-hero-sub">
-            A practical checklist for planning office breakfasts, working lunches, boardroom meetings, and corporate events in Dubai.
+            A practical checklist for office breakfasts, working lunches, boardrooms and company events. To book the service, start on{' '}
+            <Link to="/corporate" className="text-gold underline underline-offset-4 hover:text-gold-light">corporate catering in Dubai</Link>.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link to="/inquiry" className="btn-primary opacity-0 translate-y-4 corp-hero-cta">Get My Custom Quote</Link>
+            <Link to="/corporate" className="btn-primary opacity-0 translate-y-4 corp-hero-cta">Corporate catering</Link>
             <a
               href={WHATSAPP_LINK}
               target="_blank"
@@ -309,13 +310,17 @@ export default function CorporateCateringChecklist() {
             Catering That Keeps Business Moving
           </h2>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Corporate catering in Dubai needs to be reliable, timely, and professional. Whether you are feeding a boardroom of ten or hosting a product launch for two hundred, the right checklist ensures nothing is forgotten: headcount, dietary needs, format, timing, budget, and follow-up.
+            This page is the planning list — headcount, dietary needs, format, timing, budget and follow-up — so a boardroom of ten and a launch for two hundred both get the same checks. The page that sells the work is{' '}
+            <Link to="/corporate" className="text-gold-ink underline underline-offset-4 hover:text-gold">corporate catering in Dubai</Link>.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-            Corporate event catering checklist and corporate catering services in Dubai are run to a fixed timing, with one itemised invoice and dietary requirements tracked per person. Catering checklist for events is planned around the room and the running order, with chefs, service staff and clear-down included. Catering checklist for caterers comes down to four checks: who actually cooks, what the quote itemises, who buys the food, and how the kitchen is left.
+            A corporate catering checklist in Dubai is useful when timing is fixed, the invoice is itemised, and dietary requirements are tracked per person. Plan around the room and the running order: who cooks, what the quote itemises, who buys the food, and how the kitchen is left.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Use this guide to plan your next business event, and share it with your team to keep everyone aligned.
+            Use the list with your team. When you are ready to book, go to{' '}
+            <Link to="/corporate" className="text-gold-ink underline underline-offset-4 hover:text-gold">corporate catering</Link>
+            {' '}or{' '}
+            <Link to="/office-catering-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">office catering in Dubai</Link>.
           </p>
         </div>
       </section>

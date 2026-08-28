@@ -39,11 +39,12 @@
     },
     {
       "phase": 2,
-      "status": "done",
+      "status": "reversed",
       "from": "/private-chef-dubai/pricing",
       "to": "/private-chef-prices-dubai",
       "reason": "One pricing owner. 301 existed since 046ccf8 but the SPA route, cluster links and the plan calculator were stranded; calculator now lives on the owner page (#calculator).",
-      "evidence": "Contract canonical_overrides + redirects."
+      "evidence": "Contract canonical_overrides + redirects.",
+      "note": "Reversed 2026-08-28: GSC still indexes nested (152 impr, pos ~12, 3 clicks); flat is discovered-not-indexed. Owner is nested again; flat 301s there."
     },
     {
       "phase": 3,
@@ -351,6 +352,14 @@
       "from": "/wedding-catering-dubai, /birthday-catering-dubai, /private-party-catering-dubai, /baby-shower-catering-dubai, /desert-dining-dubai, /afternoon-tea-catering-dubai, /bbq-catering-dubai, /buffet-catering-dubai, /canape-catering-dubai, /live-cooking-stations-dubai, /grazing-table-dubai, /cocktail-party-catering-dubai, /indian|arabic|mediterranean|italian|asian|sushi-catering-dubai, /vegan|vegetarian|halal|jain-catering-dubai, /corporate, /office|business-lunch|corporate-event|conference|production-catering-dubai, /ramadan|iftar|eid|diwali|christmas|new-year-catering-dubai, /uae-national-day-catering-dubai (potential), /romantic-dinner-dubai, /tasting-menu-dubai, /chefs-table-dubai, /luxury-dining-experiences",
       "to": null,
       "reason": "Distinct intent, product or operational process per the consultant's architecture."
+    },
+    {
+      "phase": "ad hoc",
+      "status": "done",
+      "from": "/private-chef-prices-dubai",
+      "to": "/private-chef-dubai/pricing",
+      "reason": "Google already indexes the nested URL (152 impr, pos ~12, 3 clicks). Flat URL is discovered-not-indexed. One owner on the ranked URL; restore cluster IA.",
+      "executed": "2026-08-28 via scripts/retire-url.py"
     }
   ]
 }

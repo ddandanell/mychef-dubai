@@ -121,7 +121,7 @@ const benefits = [
   {
     icon: ChefHat,
     title: 'Private Chef Convenience',
-    description: <>A chef cooks in your home, handles cleanup, and leaves your fridge stocked for the week. Compare <Link to="/private-chef-prices-dubai" className="text-gold underline hover:no-underline">private chef prices in Dubai</Link>.</>,
+    description: <>A chef cooks in your home, handles cleanup, and leaves your fridge stocked for the week. Compare <Link to="/private-chef-dubai/pricing" className="text-gold underline hover:no-underline">private chef prices in Dubai</Link>.</>,
   },
 ]
 

@@ -3,7 +3,7 @@ import { Link, useLocation } from 'react-router'
 
 export interface FaqItem {
   q: string
-  /** Plain text, optionally with markdown-style links: "see our [prices](/private-chef-prices-dubai)". */
+  /** Plain text, optionally with markdown-style links: "see our [prices](/private-chef-dubai/pricing)". */
   a: string
 }
 

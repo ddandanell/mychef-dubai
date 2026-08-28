@@ -10,7 +10,7 @@ const topicMap: Record<string, string> = {
   '/catering-dubai': 'catering in Dubai',
   '/catering-packages-dubai': 'our catering packages',
   '/private-chef-dubai': 'private chef service',
-  '/private-chef-prices-dubai': 'private chef prices',
+  '/private-chef-dubai/pricing': 'private chef prices',
   '/luxury-dining-experiences': 'luxury dining experiences',
   '/events': 'event catering',
   '/corporate': 'corporate catering',

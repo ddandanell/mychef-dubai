@@ -50,11 +50,12 @@ def _parked() -> set:
 PARKED = _parked()
 
 SUPPRESSED = PARKED | {
-    # Household-plan modules. The flat URL owns the query; these are product
-    # modules reached from inside the plan flow, not sitewide nav destinations.
+    # Household-plan modules (and the retired flat prices slug). Pricing lives
+    # on /private-chef-dubai/pricing; these others are product modules, not
+    # sitewide nav destinations.
     '/private-chef-dubai/how-it-works',
     '/private-chef-dubai/our-chefs',
-    '/private-chef-dubai/pricing',
+    '/private-chef-prices-dubai',
     '/private-chef-dubai/quality-training',
     '/private-chef-dubai/privacy-security',
     '/private-chef-dubai/how-your-plan-works',
@@ -97,7 +98,7 @@ SILO_OVERRIDES = {
     '/office-catering-dubai':    ('Corporate Catering', '/corporate'),
     '/romantic-dinner-dubai':    ('Dining Experiences', '/luxury-dining-experiences'),
     '/weekly-meal-prep-dubai':   ('Private Chef', '/private-chef-dubai'),
-    '/private-chef-prices-dubai':('Private Chef', '/private-chef-dubai'),
+    '/private-chef-dubai/pricing':('Private Chef', '/private-chef-dubai'),
     '/our-chefs':                ('Private Chef', '/private-chef-dubai'),
     '/cuisines-dubai':           ('Cuisines and Dietary', None),
     '/locations':                ('Locations', None),
@@ -119,7 +120,7 @@ NO_SIBLINGS = {
     '/privacy-policy', '/terms', '/site-map', '/contact', '/inquiry', '/thank-you',
     '/gallery', '/press', '/review', '/faq', '/blog', '/guides',
     '/private-chef-dubai/how-it-works', '/private-chef-dubai/our-chefs',
-    '/private-chef-dubai/pricing', '/private-chef-dubai/quality-training',
+    '/private-chef-dubai/quality-training',
     '/private-chef-dubai/privacy-security', '/private-chef-dubai/how-your-plan-works',
     '/staff-meals-catering-dubai', '/become-a-mychef',
 }

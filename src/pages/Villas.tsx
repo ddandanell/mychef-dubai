@@ -288,7 +288,7 @@ export default function Villas() {
           <DisplayHeading className="text-black mb-6">The method first. The number after.</DisplayHeading>
           <BodyCopy className="mb-5">
             A household chef is priced as working time × days, plus the published zone rate for the visit. Groceries sit on top, at receipts. That calculator lives on{' '}
-            <Link to="/private-chef-prices-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
+            <Link to="/private-chef-dubai/pricing" className="text-gold-ink underline underline-offset-4 hover:text-gold">
               private chef prices
             </Link>
             .

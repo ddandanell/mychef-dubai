@@ -407,7 +407,7 @@ export const cateringFaqs = [
   },
   {
     q: 'What is the minimum number of guests?',
-    a: 'From about 10 guests upward, and small parties of 10 to 20 at home are a large part of what we do — that is not a reluctant minimum. The one case where we send you elsewhere is a *seated* dinner under about 20: a [private chef](/private-chef-prices-dubai) is priced per visit rather than per person, which is usually both cheaper and a better evening. Anything with a buffet, a bar, passed food or a running order is catering at any headcount.',
+    a: 'From about 10 guests upward, and small parties of 10 to 20 at home are a large part of what we do — that is not a reluctant minimum. The one case where we send you elsewhere is a *seated* dinner under about 20: a [private chef](/private-chef-dubai/pricing) is priced per visit rather than per person, which is usually both cheaper and a better evening. Anything with a buffet, a bar, passed food or a running order is catering at any headcount.',
   },
   {
     q: 'How much does catering cost in Dubai?',

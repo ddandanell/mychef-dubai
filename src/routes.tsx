@@ -181,7 +181,7 @@ export const routes: AppRoute[] = [
   { path: "/private-chef-dubai/quality-training", element: <PrivateChefQualityTraining />, preload: PrivateChefQualityTraining.preload },
   { path: "/private-chef-dubai/privacy-security", element: <PrivateChefPrivacySecurity />, preload: PrivateChefPrivacySecurity.preload },
   { path: "/private-chef-dubai/how-your-plan-works", element: <PrivateChefPlanTerms />, preload: PrivateChefPlanTerms.preload },
-  { path: "/private-chef-prices-dubai", element: <PrivateChefPrices />, preload: PrivateChefPrices.preload },
+  { path: "/private-chef-dubai/pricing", element: <PrivateChefPrices />, preload: PrivateChefPrices.preload },
   { path: "/catering-dubai", element: <Catering />, preload: Catering.preload },
   { path: "/catering-packages-dubai", element: <CateringPackages />, preload: CateringPackages.preload },
   { path: "/trust-and-programs", element: <TrustAndPrograms />, preload: TrustAndPrograms.preload },

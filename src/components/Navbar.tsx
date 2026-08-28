@@ -1,4 +1,4 @@
-import { useEffect, useState, type ComponentType } from 'react'
+import { useEffect, useRef, useState, type ComponentType } from 'react'
 import { Link, useLocation } from 'react-router'
 import * as NavigationMenuPrimitive from '@radix-ui/react-navigation-menu'
 import { ArrowRight, ChevronDown, Menu, MessageCircle, Phone, X } from 'lucide-react'
@@ -203,17 +203,34 @@ function itemIsActive(pathname: string, link: NavItem) {
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false)
   const [mobileOpenGroup, setMobileOpenGroup] = useState('')
+  const [menu, setMenu] = useState('')
+  const ignoreOpen = useRef(false)
   const location = useLocation()
 
   useEffect(() => {
+    ignoreOpen.current = true
+    setMenu('')
     setMobileOpen(false)
     setMobileOpenGroup('')
+    const clear = window.setTimeout(() => {
+      ignoreOpen.current = false
+    }, 0)
+    return () => window.clearTimeout(clear)
   }, [location.pathname])
+
+  function closeMega() {
+    ignoreOpen.current = true
+    setMenu('')
+  }
 
   return (
     <>
       <NavigationMenu
-        key={location.pathname}
+        value={menu}
+        onValueChange={(next) => {
+          if (ignoreOpen.current && next) return
+          setMenu(next)
+        }}
         viewport={false}
         delayDuration={100}
         skipDelayDuration={200}
@@ -260,10 +277,12 @@ export default function Navbar() {
                 )
               }
               return (
-                <NavigationMenuItem key={link.href} className="flex h-full items-center">
+                <NavigationMenuItem key={link.href} value={link.mega} className="flex h-full items-center">
                   <NavigationMenuPrimitive.Trigger asChild>
                     <Link
                       to={link.href}
+                      onPointerDown={closeMega}
+                      onClick={closeMega}
                       aria-current={normalizePath(location.pathname) === link.href ? 'page' : undefined}
                       className={cn(
                         navLinkClass,

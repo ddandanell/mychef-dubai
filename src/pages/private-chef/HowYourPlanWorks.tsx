@@ -4,7 +4,7 @@
 //     subkeywords: "private chef monthly plan dubai" · "how a household chef plan works"
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
-// Support page for the plan calculator on /private-chef-prices-dubai — no keyword-lock primary of its own.
+// Support page for the plan calculator on /private-chef-dubai/pricing — no keyword-lock primary of its own.
 import { Link } from 'react-router'
 import { ArrowRight } from 'lucide-react'
 import SEO from '../../components/SEO'

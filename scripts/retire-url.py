@@ -198,13 +198,20 @@ def main() -> None:
             up["anchor"] = dst_anchor or up.get("anchor")
             relinked += 1
         dnl = il.get("do_not_link")
-        if isinstance(dnl, list) and src not in dnl and path != src:
-            dnl.append(src)
+        if isinstance(dnl, list):
+            # Destination is live — drop it from the blocklist if a previous
+            # retirement of *dst* left it there (restore-in-place).
+            if dst in dnl:
+                dnl[:] = [u for u in dnl if u != dst]
+            if src not in dnl and path != src:
+                dnl.append(src)
     changes.append(f"contract: {relinked} internal-linking references re-pointed {src} -> {dst}")
 
     nav = contract.get("global_nav") or {}
     for key, val in list(nav.items()):
         if key == "footer_do_not_include" and isinstance(val, list):
+            if dst in val:
+                val[:] = [u for u in val if u != dst]
             if src not in val:
                 val.append(src)
             continue

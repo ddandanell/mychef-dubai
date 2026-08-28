@@ -236,7 +236,7 @@ export default function HeroSection() {
           ref={headlineRef}
           className="hero-title text-white opacity-0 max-w-[38rem] lg:max-w-[46rem] mx-auto md:mx-0 text-center md:text-left"
         >
-          Private Chef and Catering Dubai — Brought to Your Villa, Yacht or Home
+          myCHEF Dubai — a chef for the house, or catering for the event
         </h1>
 
         {/* Subtext */}
@@ -244,23 +244,33 @@ export default function HeroSection() {
           ref={subtextRef}
           className="hero-copy mt-4 md:mt-5 text-white/90 max-w-[34rem] mx-auto md:mx-0 opacity-0 text-center md:text-left"
         >
-          Private chef and catering Dubai families, hosts and companies book for 2 to 500+ guests. We design, cook and serve — so you stay a guest at your own table.
+          A household chef cooks in your kitchen. Catering is the event — food, staff, the running order. Start with the page that matches the job.
         </p>
 
         {/* CTA Row */}
         <div ref={ctaRef} className="mt-6 md:mt-8 flex flex-col sm:flex-row gap-3 sm:gap-4 items-center md:items-start justify-center md:justify-start">
-          <Link to="/inquiry" className="btn-primary text-center">
-            Get a Tailored Quote
+          <Link to="/private-chef-dubai" className="btn-primary text-center">
+            Private chef
           </Link>
+          <Link to="/catering-dubai" className="btn-secondary text-center">
+            Catering
+          </Link>
+        </div>
+        <p className="mt-3 font-inter text-body-sm text-white/75 text-center md:text-left">
+          Or{' '}
+          <Link to="/inquiry" className="text-gold underline underline-offset-4 hover:text-gold-light">
+            get a tailored quote
+          </Link>
+          {' · '}
           <a
             href={WHATSAPP_LINK}
             target="_blank"
             rel="noopener noreferrer"
-            className="btn-secondary text-center"
+            className="text-gold underline underline-offset-4 hover:text-gold-light"
           >
-            Chat on WhatsApp
+            WhatsApp
           </a>
-        </div>
+        </p>
         <p className="mt-4 font-inter text-body-sm text-white/70 flex items-center gap-2 justify-center md:justify-start">
           <span className="inline-block w-1.5 h-1.5 rounded-full bg-gold" aria-hidden="true" />
           Typical reply within 15 min · No obligation

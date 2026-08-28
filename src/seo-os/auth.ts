@@ -1,4 +1,5 @@
 const STORAGE = "seo-gate"
+const DEV_CODE = "asshole"
 
 function isJsonApi(response: Response): boolean {
   const type = response.headers.get("content-type") || ""
@@ -19,6 +20,7 @@ export async function seoSession(): Promise<boolean> {
 }
 
 export async function seoLogin(password: string): Promise<{ ok: boolean; error?: string }> {
+  const devCodeOk = import.meta.env.DEV && password === DEV_CODE
   try {
     const response = await fetch("/api/seo-login", {
       method: "POST",
@@ -31,6 +33,7 @@ export async function seoLogin(password: string): Promise<{ ok: boolean; error?:
       return { ok: true }
     }
     if (import.meta.env.DEV && (!isJsonApi(response) || response.status === 404 || response.status === 503)) {
+      if (!devCodeOk) return { ok: false, error: "Wrong password." }
       sessionStorage.setItem(STORAGE, "ok")
       return { ok: true }
     }
@@ -38,6 +41,7 @@ export async function seoLogin(password: string): Promise<{ ok: boolean; error?:
     return { ok: false, error: "Could not reach the gate." }
   } catch {
     if (import.meta.env.DEV) {
+      if (!devCodeOk) return { ok: false, error: "Wrong password." }
       sessionStorage.setItem(STORAGE, "ok")
       return { ok: true }
     }

@@ -248,7 +248,7 @@ export default function PartTimePrivateChef() {
               are off.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-              Compare with <Link to="/weekly-meal-prep-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">weekly meal prep</Link>, <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">occasional private chef</Link> services, or see <Link to="/private-chef-prices-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef prices in Dubai</Link> to find the right rhythm for your household.
+              Compare with <Link to="/weekly-meal-prep-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">weekly meal prep</Link>, <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">occasional private chef</Link> services, or see <Link to="/private-chef-dubai/pricing" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef prices in Dubai</Link> to find the right rhythm for your household.
             </p>
           </div>
         </div>

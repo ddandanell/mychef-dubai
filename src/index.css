@@ -359,6 +359,10 @@
     box-shadow: none !important;
   }
 
+  .pc-mega-content[data-state="closed"] {
+    display: none !important;
+  }
+
   @media (min-width: 1280px) {
     .pc-mega-content {
       left: 2rem !important;

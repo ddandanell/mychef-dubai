@@ -192,11 +192,6 @@
       "statusCode": 301
     },
     {
-      "source": "/private-chef-dubai/pricing",
-      "destination": "/private-chef-prices-dubai",
-      "statusCode": 301
-    },
-    {
       "source": "/catering",
       "destination": "/catering-dubai",
       "statusCode": 301
@@ -509,6 +504,11 @@
     {
       "source": "/corporate-meal-prep-dubai",
       "destination": "/office-catering-dubai",
+      "statusCode": 301
+    },
+    {
+      "source": "/private-chef-prices-dubai",
+      "destination": "/private-chef-dubai/pricing",
       "statusCode": 301
     }
   ],

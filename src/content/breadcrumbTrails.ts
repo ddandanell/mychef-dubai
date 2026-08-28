@@ -1356,6 +1356,19 @@ export const TRAILS: Record<string, Crumb[]> = {
    "label": "Our chefs"
   }
  ],
+ "/private-chef-dubai/pricing": [
+  {
+   "href": "/",
+   "label": "Home"
+  },
+  {
+   "href": "/private-chef-dubai",
+   "label": "Private chef"
+  },
+  {
+   "label": "Pricing"
+  }
+ ],
  "/private-chef-dubai/privacy-security": [
   {
    "href": "/",
@@ -1380,19 +1393,6 @@ export const TRAILS: Record<string, Crumb[]> = {
   },
   {
    "label": "Quality training"
-  }
- ],
- "/private-chef-prices-dubai": [
-  {
-   "href": "/",
-   "label": "Home"
-  },
-  {
-   "href": "/private-chef-dubai",
-   "label": "Private chef"
-  },
-  {
-   "label": "Private chef prices"
   }
  ],
  "/private-chef-vs-catering-dubai": [
@@ -1792,9 +1792,9 @@ export const HERO_ROUTES: string[] = [
  "/private-chef-dubai/how-it-works",
  "/private-chef-dubai/how-your-plan-works",
  "/private-chef-dubai/our-chefs",
+ "/private-chef-dubai/pricing",
  "/private-chef-dubai/privacy-security",
  "/private-chef-dubai/quality-training",
- "/private-chef-prices-dubai",
  "/private-jet-catering-dubai",
  "/private-party-catering-dubai",
  "/referral-programme",
@@ -2295,16 +2295,16 @@ export const CHILDREN: Record<string, Crumb[]> = {
    "label": "Our chefs"
   },
   {
+   "href": "/private-chef-dubai/pricing",
+   "label": "Pricing"
+  },
+  {
    "href": "/private-chef-dubai/privacy-security",
    "label": "Privacy security"
   },
   {
    "href": "/private-chef-dubai/quality-training",
    "label": "Quality training"
-  },
-  {
-   "href": "/private-chef-prices-dubai",
-   "label": "Private chef prices"
   },
   {
    "href": "/villas-private-residences",

@@ -104,7 +104,7 @@ export default function Catering() {
 
       <PageHero
         eyebrow="Catering Dubai"
-        title="Luxury Catering Dubai, Built Around Your Event"
+        title="Catering Dubai, Built Around Your Event"
         subtitle="From delivered buffet food to chefs, service staff, live cooking and full event support, myCHEF designs catering around the event you are actually hosting. Our catering services in Dubai cover weddings, villa events, yachts, private celebrations, offices and corporate events. Food-only catering starts from AED 90 per person; full service catering with staff, bar and live cooking is priced to the guest count and format."
         image={cateringHero.src}
         imageAlt={cateringHero.alt}
@@ -213,7 +213,7 @@ export default function Catering() {
             bar or anything with a running order is priced per person here. A seated dinner under about twenty
             people is usually cheaper as a household visit — twelve guests at AED 700 a head is AED 8,400 of plated
             dining with a service team, while one Full-Day{' '}
-            <Link to="/private-chef-prices-dubai" className="text-gold underline underline-offset-4 hover:text-gold-light">private chef</Link>{' '}
+            <Link to="/private-chef-dubai/pricing" className="text-gold underline underline-offset-4 hover:text-gold-light">private chef</Link>{' '}
             is AED 1,500 plus groceries and cooks for the household rather than for a room. Different jobs — pick the
             one that matches the night, not the smaller number.
           </p>
@@ -256,7 +256,7 @@ export default function Catering() {
             The split is not guest count. A Tuesday and Thursday for a family of five is a private chef; a birthday
             for eight on Saturday is catering, in the same kitchen, because nobody is coming back. Guest count only
             decides how big the team is. As a rule of thumb: for a seated dinner under about 20, start on{' '}
-            <Link to="/private-chef-prices-dubai" className="text-gold-ink underline underline-offset-4">private chef prices</Link>{' '}
+            <Link to="/private-chef-dubai/pricing" className="text-gold-ink underline underline-offset-4">private chef prices</Link>{' '}
             — you are buying a visit, not a per-person menu. For a party, a buffet, a bar or anything that needs a
             running order, you are in the right place.
           </BodyCopy>

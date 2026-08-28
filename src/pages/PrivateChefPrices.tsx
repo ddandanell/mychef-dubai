@@ -1,5 +1,5 @@
 // KEYWORD LOCK — generated from docs/seo/myCHEF-AE-SEO-STANDARD.json (npm run seo:locks); the contract wins, edit it there.
-//   /private-chef-prices-dubai
+//   /private-chef-dubai/pricing
 //     primary:     "private chef dubai price"
 //     subkeywords: "private chef cost dubai" · "how much is a private chef in dubai" · "private chef dubai rates" · "cost of private chef dubai" · "private chef for dinner party" · "average cost of personal chef in dubai" · "personal chef services rates dubai" · "private chef catering" · "private chef dubai price per day" · "part time private chef catering dubai price" · "part time cook for home dubai cost"
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
@@ -24,6 +24,7 @@ import {
 import SEO from '../components/SEO'
 import PageHero from '../components/PageHero'
 import TrustSignalStrip from '../components/TrustSignalStrip'
+import ClusterNav from '../components/private-chef/ClusterNav'
 import LocationStrip from '../components/LocationStrip'
 import FaqAccordion from '../components/FaqAccordion'
 import PriceCalculator from '../components/private-chef/pricing/PriceCalculator'
@@ -46,7 +47,7 @@ import { SectionLabel } from '../components/system'
 
 
 const WHATSAPP_NUMBER = '971551744849'
-const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like a private chef quote for my event (via mychef.ae/private-chef-prices-dubai)')
+const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like a private chef quote for my event (via mychef.ae/private-chef-dubai/pricing)')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 /**
@@ -167,7 +168,7 @@ const serviceSchema = {
   provider: { '@id': 'https://www.mychef.ae/#organization' },
   areaServed: { '@type': 'City', name: 'Dubai', '@id': 'https://www.wikidata.org/wiki/Q612' },
   description: 'Household private chef prices in Dubai: one price per job, per visit, with groceries charged at cost. A one-night dinner party is catering.',
-  url: 'https://www.mychef.ae/private-chef-prices-dubai',
+  url: 'https://www.mychef.ae/private-chef-dubai/pricing',
 }
 
 const faqSchema = {
@@ -184,19 +185,15 @@ const breadcrumbSchema = {
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.mychef.ae/' },
     { '@type': 'ListItem', position: 2, name: 'Private Chef Dubai', item: 'https://www.mychef.ae/private-chef-dubai' },
-    { '@type': 'ListItem', position: 3, name: 'Private Chef Prices Dubai', item: 'https://www.mychef.ae/private-chef-prices-dubai' },
+    { '@type': 'ListItem', position: 3, name: 'Private Chef Prices Dubai', item: 'https://www.mychef.ae/private-chef-dubai/pricing' },
   ],
 }
 
-/**
- * Standing household plans (3+ days) — the plan builder used to live on
- * /private-chef-prices-dubai. That URL 301s here since 2026-08-26 so one page
- * owns every private-chef price query; the calculator moved with it.
- */
+/** Standing household plans (3+ days) — calculator on this URL at #calculator. */
 const householdServiceSchema = {
   '@type': 'Service',
   name: 'Private chef — household plans (3+ days)',
-  url: 'https://www.mychef.ae/private-chef-prices-dubai#calculator',
+  url: 'https://www.mychef.ae/private-chef-dubai/pricing#calculator',
   provider: { '@id': 'https://www.mychef.ae/#organization' },
   areaServed: { '@type': 'City', name: 'Dubai', '@id': 'https://www.wikidata.org/wiki/Q612' },
   offers: SERVICES.map((svc) => ({
@@ -213,7 +210,7 @@ const aggregateOfferSchema = {
   name: 'Private Chef Prices Dubai — household plans',
   description:
     'Household private chef prices in Dubai: one price per job, from AED 750 for a 3-hour Fresh Meal to AED 1,500 for a full day. Groceries at actual cost. One night with guests is catering.',
-  url: 'https://www.mychef.ae/private-chef-prices-dubai',
+  url: 'https://www.mychef.ae/private-chef-dubai/pricing',
   priceCurrency: 'AED',
   lowPrice: String(HOUSEHOLD_JOBS[0].rate),
   highPrice: String(HOUSEHOLD_JOBS[HOUSEHOLD_JOBS.length - 1].rate),
@@ -221,7 +218,7 @@ const aggregateOfferSchema = {
     '@type': 'Offer',
     name: `${job.name} (${job.hours}h)`,
     description: job.tagline,
-    url: 'https://www.mychef.ae/private-chef-prices-dubai#calculator',
+    url: 'https://www.mychef.ae/private-chef-dubai/pricing#calculator',
     price: String(job.rate),
     priceCurrency: 'AED',
     availability: 'https://schema.org/InStock',
@@ -267,7 +264,7 @@ export default function PrivateChefPrices() {
       <SEO
         title="Private Chef Dubai Price | AED 750–1,500 a Visit | myCHEF"
         description="2026 private chef Dubai price for a household: AED 750 a visit for a fresh meal up to AED 1,500 for a full day, groceries at cost. Build your month. "
-        canonicalPath="/private-chef-prices-dubai"
+        canonicalPath="/private-chef-dubai/pricing"
         ogImage="/images/private-chef-prices-dubai-hero.webp"
         hideSiteName
         preloadHero="/images/private-chef-prices-dubai-hero.webp"
@@ -291,6 +288,7 @@ export default function PrivateChefPrices() {
       />
 
       <TrustSignalStrip variant="dark" />
+      <ClusterNav />
 
       {/* ═══════════════ The four household jobs ═══════════════ */}
       <section className="bg-white section-padding prices-content">
@@ -434,9 +432,8 @@ export default function PrivateChefPrices() {
       </section>
 
       {/* ═══════════════ Household Plans (calculator) ═══════════════ */}
-      {/* One pricing owner: the standing-plan builder moved here from the
-          retired /private-chef-prices-dubai on 2026-08-26. Not animated —
-          it is a form, so it must never sit at opacity-0. */}
+      {/* Plan builder on the pricing owner. Not animated — it is a form, so it
+          must never sit at opacity-0. */}
       <section id="calculator" className="bg-white section-padding scroll-mt-24 border-t border-gray-200">
         <div className="container-custom max-w-[1100px]">
           <div className="max-w-[760px] mb-12">

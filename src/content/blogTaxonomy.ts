@@ -329,7 +329,7 @@ const ALL_CONTEXTUAL_LINKS: ContextualLink[] = [
   },
   {
     "phrase": "private chef prices",
-    "url": "/private-chef-prices-dubai"
+    "url": "/private-chef-dubai/pricing"
   },
   {
     "phrase": "private chef",
@@ -389,13 +389,13 @@ const EXTRA_PILLARS: Record<string, BlogPillar[]> = {
   "/blog/how-much-does-private-chef-cost-dubai": [
     {
       "label": "Private Chef Prices",
-      "url": "/private-chef-prices-dubai"
+      "url": "/private-chef-dubai/pricing"
     }
   ],
   "/blog/how-to-hire-a-private-chef-dubai": [
     {
       "label": "Private Chef Prices",
-      "url": "/private-chef-prices-dubai"
+      "url": "/private-chef-dubai/pricing"
     }
   ],
   "/blog/private-chef-date-night-dubai": [

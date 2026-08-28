@@ -14,7 +14,7 @@
  "stats": {
   "pages": 179,
   "linkable": 128,
-  "contextual_edges": 1479,
+  "contextual_edges": 1477,
   "orphans": 0,
   "silos": 14
  },
@@ -121,9 +121,9 @@
   "/private-chef-dubai/how-it-works",
   "/private-chef-dubai/how-your-plan-works",
   "/private-chef-dubai/our-chefs",
-  "/private-chef-dubai/pricing",
   "/private-chef-dubai/privacy-security",
   "/private-chef-dubai/quality-training",
+  "/private-chef-prices-dubai",
   "/private-dining-dubai",
   "/private-jet-catering-dubai",
   "/product-launch-catering-dubai",
@@ -335,9 +335,9 @@
    "/private-chef-dubai/how-it-works",
    "/private-chef-dubai/how-your-plan-works",
    "/private-chef-dubai/our-chefs",
+   "/private-chef-dubai/pricing",
    "/private-chef-dubai/privacy-security",
    "/private-chef-dubai/quality-training",
-   "/private-chef-prices-dubai",
    "/tourist-villa-chef-dubai",
    "/weekly-meal-prep-dubai",
    "/wellness-meal-prep-dubai"
@@ -395,8 +395,8 @@
    "uplink": null,
    "siblings": [
     {
-     "url": "/private-chef-prices-dubai",
-     "label": "Private Chef Prices",
+     "url": "/private-chef-dubai/pricing",
+     "label": "Pricing",
      "keyword": "private chef dubai price",
      "silo": "Private Chef"
     },
@@ -470,8 +470,8 @@
    "uplink": null,
    "siblings": [
     {
-     "url": "/private-chef-prices-dubai",
-     "label": "Private Chef Prices",
+     "url": "/private-chef-dubai/pricing",
+     "label": "Pricing",
      "keyword": "private chef dubai price",
      "silo": "Private Chef"
     },
@@ -781,8 +781,8 @@
      "silo": "Dining Experiences"
     },
     {
-     "url": "/private-chef-prices-dubai",
-     "label": "Private Chef Prices",
+     "url": "/private-chef-dubai/pricing",
+     "label": "Pricing",
      "keyword": "private chef dubai price",
      "silo": "Private Chef"
     },
@@ -2669,15 +2669,15 @@
    "silo_index": [],
    "commercial_owners": [
     {
-     "url": "/private-chef-prices-dubai",
-     "label": "Private Chef Prices",
-     "keyword": "private chef dubai price",
-     "silo": "Private Chef"
-    },
-    {
      "url": "/private-chef-dubai",
      "label": "Private Chef",
      "keyword": "private chef dubai",
+     "silo": "Private Chef"
+    },
+    {
+     "url": "/full-time-private-chef-dubai",
+     "label": "Full Time Private Chef",
+     "keyword": "full time private chef dubai",
      "silo": "Private Chef"
     }
    ],
@@ -2771,9 +2771,9 @@
      "silo": "Private Chef"
     },
     {
-     "url": "/private-chef-prices-dubai",
-     "label": "Private Chef Prices",
-     "keyword": "private chef dubai price",
+     "url": "/full-time-private-chef-dubai",
+     "label": "Full Time Private Chef",
+     "keyword": "full time private chef dubai",
      "silo": "Private Chef"
     }
    ],
@@ -3227,9 +3227,9 @@
      "silo": "Private Chef"
     },
     {
-     "url": "/private-chef-prices-dubai",
-     "label": "Private Chef Prices",
-     "keyword": "private chef dubai price",
+     "url": "/full-time-private-chef-dubai",
+     "label": "Full Time Private Chef",
+     "keyword": "full time private chef dubai",
      "silo": "Private Chef"
     }
    ],
@@ -4491,6 +4491,12 @@
      "label": "Corporate Event Catering",
      "keyword": "corporate event catering dubai",
      "silo": "Corporate Catering"
+    },
+    {
+     "url": "/private-chef-dubai/pricing",
+     "label": "Pricing",
+     "keyword": "private chef dubai price",
+     "silo": "Private Chef"
     }
    ],
    "featured_children": [],
@@ -4990,8 +4996,8 @@
    },
    "siblings": [
     {
-     "url": "/private-chef-prices-dubai",
-     "label": "Private Chef Prices",
+     "url": "/private-chef-dubai/pricing",
+     "label": "Pricing",
      "keyword": "private chef dubai price",
      "silo": "Private Chef"
     },
@@ -5011,12 +5017,6 @@
      "url": "/chefs/layla-middle-eastern-chef",
      "label": "Layla Middle Eastern Chef",
      "keyword": "arabic private chef dubai",
-     "silo": "Private Chef"
-    },
-    {
-     "url": "/part-time-private-chef-dubai",
-     "label": "Part Time Private Chef",
-     "keyword": "part time private chef dubai",
      "silo": "Private Chef"
     }
    ],
@@ -5208,8 +5208,8 @@
      "silo": "Cuisines and Dietary"
     },
     {
-     "url": "/private-chef-prices-dubai",
-     "label": "Private Chef Prices",
+     "url": "/private-chef-dubai/pricing",
+     "label": "Pricing",
      "keyword": "private chef dubai price",
      "silo": "Private Chef"
     },
@@ -5291,8 +5291,8 @@
      "silo": "Cuisines and Dietary"
     },
     {
-     "url": "/private-chef-prices-dubai",
-     "label": "Private Chef Prices",
+     "url": "/private-chef-dubai/pricing",
+     "label": "Pricing",
      "keyword": "private chef dubai price",
      "silo": "Private Chef"
     },
@@ -5368,8 +5368,8 @@
    },
    "siblings": [
     {
-     "url": "/private-chef-prices-dubai",
-     "label": "Private Chef Prices",
+     "url": "/private-chef-dubai/pricing",
+     "label": "Pricing",
      "keyword": "private chef dubai price",
      "silo": "Private Chef"
     },
@@ -7864,8 +7864,8 @@
    },
    "siblings": [
     {
-     "url": "/private-chef-prices-dubai",
-     "label": "Private Chef Prices",
+     "url": "/private-chef-dubai/pricing",
+     "label": "Pricing",
      "keyword": "private chef dubai price",
      "silo": "Private Chef"
     },
@@ -8722,8 +8722,8 @@
    },
    "siblings": [
     {
-     "url": "/private-chef-prices-dubai",
-     "label": "Private Chef Prices",
+     "url": "/private-chef-dubai/pricing",
+     "label": "Pricing",
      "keyword": "private chef dubai price",
      "silo": "Private Chef"
     },
@@ -8901,8 +8901,8 @@
    },
    "siblings": [
     {
-     "url": "/private-chef-prices-dubai",
-     "label": "Private Chef Prices",
+     "url": "/private-chef-dubai/pricing",
+     "label": "Pricing",
      "keyword": "private chef dubai price",
      "silo": "Private Chef"
     },
@@ -9407,15 +9407,15 @@
      "silo": "Private Events"
     },
     {
-     "url": "/full-time-private-chef-dubai",
-     "label": "Full Time Private Chef",
-     "keyword": "full time private chef dubai",
+     "url": "/private-chef-dubai/pricing",
+     "label": "Pricing",
+     "keyword": "private chef dubai price",
      "silo": "Private Chef"
     },
     {
-     "url": "/private-chef-prices-dubai",
-     "label": "Private Chef Prices",
-     "keyword": "private chef dubai price",
+     "url": "/full-time-private-chef-dubai",
+     "label": "Full Time Private Chef",
+     "keyword": "full time private chef dubai",
      "silo": "Private Chef"
     }
    ],
@@ -9495,6 +9495,12 @@
      "label": "Private Cooking Classes",
      "keyword": "private cooking classes dubai",
      "silo": "Dining Experiences"
+    },
+    {
+     "url": "/how-it-works",
+     "label": "How It Works",
+     "keyword": "how to book a private chef dubai",
+     "silo": "Private Chef"
     }
    ],
    "featured_children": [],
@@ -9567,8 +9573,8 @@
      "silo": "Private Events"
     },
     {
-     "url": "/private-chef-prices-dubai",
-     "label": "Private Chef Prices",
+     "url": "/private-chef-dubai/pricing",
+     "label": "Pricing",
      "keyword": "private chef dubai price",
      "silo": "Private Chef"
     },
@@ -10297,8 +10303,8 @@
      "silo": "Dining Experiences"
     },
     {
-     "url": "/private-chef-prices-dubai",
-     "label": "Private Chef Prices",
+     "url": "/private-chef-dubai/pricing",
+     "label": "Pricing",
      "keyword": "private chef dubai price",
      "silo": "Private Chef"
     },
@@ -10718,8 +10724,8 @@
      "silo": "Private Chef"
     },
     {
-     "url": "/private-chef-prices-dubai",
-     "label": "Private Chef Prices",
+     "url": "/private-chef-dubai/pricing",
+     "label": "Pricing",
      "keyword": "private chef dubai price",
      "silo": "Private Chef"
     }
@@ -10775,8 +10781,8 @@
      "silo": "Trust and About"
     },
     {
-     "url": "/private-chef-prices-dubai",
-     "label": "Private Chef Prices",
+     "url": "/private-chef-dubai/pricing",
+     "label": "Pricing",
      "keyword": "private chef dubai price",
      "silo": "Private Chef"
     },
@@ -11147,8 +11153,8 @@
    },
    "siblings": [
     {
-     "url": "/private-chef-prices-dubai",
-     "label": "Private Chef Prices",
+     "url": "/private-chef-dubai/pricing",
+     "label": "Pricing",
      "keyword": "private chef dubai price",
      "silo": "Private Chef"
     },
@@ -11234,8 +11240,8 @@
      "silo": "Private Chef"
     },
     {
-     "url": "/private-chef-prices-dubai",
-     "label": "Private Chef Prices",
+     "url": "/private-chef-dubai/pricing",
+     "label": "Pricing",
      "keyword": "private chef dubai price",
      "silo": "Private Chef"
     },
@@ -11309,8 +11315,8 @@
      "silo": "Private Chef"
     },
     {
-     "url": "/private-chef-prices-dubai",
-     "label": "Private Chef Prices",
+     "url": "/private-chef-dubai/pricing",
+     "label": "Pricing",
      "keyword": "private chef dubai price",
      "silo": "Private Chef"
     },
@@ -11504,8 +11510,8 @@
      "silo": "Membership and Offers"
     },
     {
-     "url": "/private-chef-prices-dubai",
-     "label": "Private Chef Prices",
+     "url": "/private-chef-dubai/pricing",
+     "label": "Pricing",
      "keyword": "private chef dubai price",
      "silo": "Private Chef"
     }
@@ -12072,8 +12078,8 @@
    "uplink": null,
    "siblings": [
     {
-     "url": "/private-chef-prices-dubai",
-     "label": "Private Chef Prices",
+     "url": "/private-chef-dubai/pricing",
+     "label": "Pricing",
      "keyword": "private chef dubai price",
      "silo": "Private Chef"
     },
@@ -12107,12 +12113,6 @@
      "url": "/weekly-meal-prep-dubai",
      "label": "Weekly Meal Prep",
      "keyword": "meal prep dubai",
-     "silo": "Private Chef"
-    },
-    {
-     "url": "/private-chef-prices-dubai",
-     "label": "Private Chef Prices",
-     "keyword": "private chef dubai price",
      "silo": "Private Chef"
     },
     {
@@ -12175,6 +12175,12 @@
      "url": "/our-chefs",
      "label": "Our Chefs",
      "keyword": "private chefs dubai",
+     "silo": "Private Chef"
+    },
+    {
+     "url": "/private-chef-dubai/pricing",
+     "label": "Pricing",
+     "keyword": "private chef dubai price",
      "silo": "Private Chef"
     }
    ],
@@ -12414,6 +12420,89 @@
     }
    ]
   },
+  "/private-chef-dubai/pricing": {
+   "url": "/private-chef-dubai/pricing",
+   "silo": "Private Chef",
+   "hub": "/private-chef-dubai",
+   "is_hub": false,
+   "page_type": null,
+   "primary_keyword": "private chef dubai price",
+   "breadcrumb": [
+    {
+     "url": "/",
+     "label": "Home"
+    },
+    {
+     "url": "/private-chef-dubai",
+     "label": "Private Chef"
+    },
+    {
+     "url": "/private-chef-dubai/pricing",
+     "label": "Pricing"
+    }
+   ],
+   "uplink": {
+    "url": "/private-chef-dubai",
+    "label": "Private Chef",
+    "keyword": "private chef dubai"
+   },
+   "siblings": [
+    {
+     "url": "/full-time-private-chef-dubai",
+     "label": "Full Time Private Chef",
+     "keyword": "full time private chef dubai",
+     "silo": "Private Chef"
+    },
+    {
+     "url": "/how-it-works",
+     "label": "How It Works",
+     "keyword": "how to book a private chef dubai",
+     "silo": "Private Chef"
+    },
+    {
+     "url": "/chefs/layla-middle-eastern-chef",
+     "label": "Layla Middle Eastern Chef",
+     "keyword": "arabic private chef dubai",
+     "silo": "Private Chef"
+    },
+    {
+     "url": "/part-time-private-chef-dubai",
+     "label": "Part Time Private Chef",
+     "keyword": "part time private chef dubai",
+     "silo": "Private Chef"
+    },
+    {
+     "url": "/chefs/marco-italian-chef",
+     "label": "Marco Italian Chef",
+     "keyword": "italian private chef dubai",
+     "silo": "Private Chef"
+    }
+   ],
+   "featured_children": [],
+   "silo_index": [],
+   "commercial_owners": [],
+   "supporting_guides": [],
+   "areas": [
+    {
+     "url": "/locations/jlt",
+     "label": "JLT",
+     "keyword": "private chef jlt",
+     "silo": "Locations"
+    },
+    {
+     "url": "/locations/jbr",
+     "label": "JBR",
+     "keyword": "private chef jbr",
+     "silo": "Locations"
+    },
+    {
+     "url": "/locations/al-barsha",
+     "label": "Al Barsha",
+     "keyword": "private chef al barsha",
+     "silo": "Locations"
+    }
+   ]
+  },
   "/private-chef-dubai/privacy-security": {
    "url": "/private-chef-dubai/privacy-security",
    "silo": "Private Chef",
@@ -12518,108 +12607,6 @@
     }
    ]
   },
-  "/private-chef-prices-dubai": {
-   "url": "/private-chef-prices-dubai",
-   "silo": "Private Chef",
-   "hub": "/private-chef-dubai",
-   "is_hub": false,
-   "page_type": "Commercial landing page",
-   "primary_keyword": "private chef dubai price",
-   "breadcrumb": [
-    {
-     "url": "/",
-     "label": "Home"
-    },
-    {
-     "url": "/private-chef-dubai",
-     "label": "Private Chef"
-    },
-    {
-     "url": "/private-chef-prices-dubai",
-     "label": "Private Chef Prices"
-    }
-   ],
-   "uplink": {
-    "url": "/private-chef-dubai",
-    "label": "Private Chef",
-    "keyword": "private chef dubai"
-   },
-   "siblings": [
-    {
-     "url": "/full-time-private-chef-dubai",
-     "label": "Full Time Private Chef",
-     "keyword": "full time private chef dubai",
-     "silo": "Private Chef"
-    },
-    {
-     "url": "/part-time-private-chef-dubai",
-     "label": "Part Time Private Chef",
-     "keyword": "part time private chef dubai",
-     "silo": "Private Chef"
-    },
-    {
-     "url": "/how-it-works",
-     "label": "How It Works",
-     "keyword": "how to book a private chef dubai",
-     "silo": "Private Chef"
-    },
-    {
-     "url": "/chefs/layla-middle-eastern-chef",
-     "label": "Layla Middle Eastern Chef",
-     "keyword": "arabic private chef dubai",
-     "silo": "Private Chef"
-    },
-    {
-     "url": "/chefs/marco-italian-chef",
-     "label": "Marco Italian Chef",
-     "keyword": "italian private chef dubai",
-     "silo": "Private Chef"
-    }
-   ],
-   "featured_children": [],
-   "silo_index": [],
-   "commercial_owners": [],
-   "supporting_guides": [
-    {
-     "url": "/blog/how-much-does-private-chef-cost-dubai",
-     "label": "How Much Does Private Chef Cost",
-     "keyword": "how much does private chef cost dubai",
-     "silo": "Blog and Guides"
-    },
-    {
-     "url": "/private-chef-vs-catering-dubai",
-     "label": "Private Chef vs Catering",
-     "keyword": "private chef vs catering dubai",
-     "silo": "Blog and Guides"
-    },
-    {
-     "url": "/blog/how-to-hire-a-private-chef-dubai",
-     "label": "How to Hire a Private Chef",
-     "keyword": "how to hire a private chef dubai",
-     "silo": "Blog and Guides"
-    }
-   ],
-   "areas": [
-    {
-     "url": "/locations/jlt",
-     "label": "JLT",
-     "keyword": "private chef jlt",
-     "silo": "Locations"
-    },
-    {
-     "url": "/locations/al-barsha",
-     "label": "Al Barsha",
-     "keyword": "private chef al barsha",
-     "silo": "Locations"
-    },
-    {
-     "url": "/locations/jbr",
-     "label": "JBR",
-     "keyword": "private chef jbr",
-     "silo": "Locations"
-    }
-   ]
-  },
   "/private-chef-vs-catering-dubai": {
    "url": "/private-chef-vs-catering-dubai",
    "silo": "Blog and Guides",
@@ -12688,9 +12675,9 @@
      "silo": "Private Chef"
     },
     {
-     "url": "/private-chef-prices-dubai",
-     "label": "Private Chef Prices",
-     "keyword": "private chef dubai price",
+     "url": "/full-time-private-chef-dubai",
+     "label": "Full Time Private Chef",
+     "keyword": "full time private chef dubai",
      "silo": "Private Chef"
     }
    ],
@@ -12750,8 +12737,8 @@
      "silo": "Catering"
     },
     {
-     "url": "/private-chef-prices-dubai",
-     "label": "Private Chef Prices",
+     "url": "/private-chef-dubai/pricing",
+     "label": "Pricing",
      "keyword": "private chef dubai price",
      "silo": "Private Chef"
     },
@@ -12840,8 +12827,8 @@
      "silo": "Private Events"
     },
     {
-     "url": "/private-chef-prices-dubai",
-     "label": "Private Chef Prices",
+     "url": "/private-chef-dubai/pricing",
+     "label": "Pricing",
      "keyword": "private chef dubai price",
      "silo": "Private Chef"
     },
@@ -12942,8 +12929,8 @@
      "silo": "Private Events"
     },
     {
-     "url": "/private-chef-prices-dubai",
-     "label": "Private Chef Prices",
+     "url": "/private-chef-dubai/pricing",
+     "label": "Pricing",
      "keyword": "private chef dubai price",
      "silo": "Private Chef"
     },
@@ -13638,8 +13625,8 @@
      "silo": "Private Events"
     },
     {
-     "url": "/private-chef-prices-dubai",
-     "label": "Private Chef Prices",
+     "url": "/private-chef-dubai/pricing",
+     "label": "Pricing",
      "keyword": "private chef dubai price",
      "silo": "Private Chef"
     },
@@ -13914,16 +13901,16 @@
      "silo": "Catering"
     },
     {
+     "url": "/private-chef-dubai/pricing",
+     "label": "Pricing",
+     "keyword": "private chef dubai price",
+     "silo": "Private Chef"
+    },
+    {
      "url": "/private-party-catering-dubai",
      "label": "Private Party Catering",
      "keyword": "private party catering dubai",
      "silo": "Private Events"
-    },
-    {
-     "url": "/private-chef-prices-dubai",
-     "label": "Private Chef Prices",
-     "keyword": "private chef dubai price",
-     "silo": "Private Chef"
     },
     {
      "url": "/full-time-private-chef-dubai",
@@ -14035,8 +14022,8 @@
      "silo": "Catering"
     },
     {
-     "url": "/private-chef-prices-dubai",
-     "label": "Private Chef Prices",
+     "url": "/private-chef-dubai/pricing",
+     "label": "Pricing",
      "keyword": "private chef dubai price",
      "silo": "Private Chef"
     },
@@ -14135,6 +14122,12 @@
      "label": "Quality Guarantee",
      "keyword": "catering quality guarantee dubai",
      "silo": "Trust and About"
+    },
+    {
+     "url": "/private-chef-dubai/pricing",
+     "label": "Pricing",
+     "keyword": "private chef dubai price",
+     "silo": "Private Chef"
     }
    ],
    "featured_children": [],
@@ -14188,14 +14181,7 @@
     "label": "Catering",
     "keyword": "catering dubai"
    },
-   "siblings": [
-    {
-     "url": "/private-chef-prices-dubai",
-     "label": "Private Chef Prices",
-     "keyword": "private chef dubai price",
-     "silo": "Private Chef"
-    }
-   ],
+   "siblings": [],
    "featured_children": [],
    "silo_index": [],
    "commercial_owners": [],
@@ -14213,9 +14199,9 @@
      "silo": "Blog and Guides"
     },
     {
-     "url": "/dubai-catering-prices-guide",
-     "label": "Dubai Catering Prices Guide",
-     "keyword": "catering prices dubai",
+     "url": "/blog/how-to-hire-a-private-chef-dubai",
+     "label": "How to Hire a Private Chef",
+     "keyword": "how to hire a private chef dubai",
      "silo": "Blog and Guides"
     }
    ],
@@ -14603,6 +14589,12 @@
    },
    "siblings": [
     {
+     "url": "/private-chef-dubai/pricing",
+     "label": "Pricing",
+     "keyword": "private chef dubai price",
+     "silo": "Private Chef"
+    },
+    {
      "url": "/brunch-catering-dubai",
      "label": "Brunch Catering",
      "keyword": "brunch catering dubai",
@@ -14613,12 +14605,6 @@
      "label": "Private Party Catering",
      "keyword": "private party catering dubai",
      "silo": "Private Events"
-    },
-    {
-     "url": "/private-chef-prices-dubai",
-     "label": "Private Chef Prices",
-     "keyword": "private chef dubai price",
-     "silo": "Private Chef"
     },
     {
      "url": "/full-time-private-chef-dubai",

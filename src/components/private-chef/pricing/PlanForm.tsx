@@ -22,7 +22,7 @@ export default function PlanForm({ input }: { input: QuoteInput }) {
     try {
       const res = await fetch('/api/submit-lead', {
         method: 'POST', headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ formId: 'private-chef-plan', name, email: fields.email, phone: fields.whatsapp, serviceType: 'Private Chef — household plan', eventDate: fields.start || input.startDate || '', guests: input.guests, location: fields.area, message, source: 'pricing-calculator', page: '/private-chef-prices-dubai' }),
+        body: JSON.stringify({ formId: 'private-chef-plan', name, email: fields.email, phone: fields.whatsapp, serviceType: 'Private Chef — household plan', eventDate: fields.start || input.startDate || '', guests: input.guests, location: fields.area, message, source: 'pricing-calculator', page: '/private-chef-dubai/pricing' }),
       })
       if (res.ok) {
         trackConversion('inquiry_complete', 'lead_form')

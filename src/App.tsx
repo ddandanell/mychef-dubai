@@ -51,7 +51,7 @@ export default function App() {
           path="*"
           element={
             <Layout>
-              <RouteErrorBoundary key={pathname}>
+              <RouteErrorBoundary pathname={pathname}>
                 <Suspense fallback={<PageLoader />}>
                   <Routes>
                     {routes.map((route) => (

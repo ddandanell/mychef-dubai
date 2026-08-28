@@ -1,5 +1,4 @@
-import type { ReactNode } from 'react'
-import { useLocation } from 'react-router'
+import { useEffect, type ReactNode } from 'react'
 import Navbar from './Navbar'
 import SiloTrail from './SiloTrail'
 import SiloChildren from './SiloChildren'
@@ -9,31 +8,35 @@ import FloatingChefChat from './FloatingChefChat'
 import SeoHead from './SeoHead'
 import ScrollManager from './ScrollManager'
 import { WhatsAppMessageProvider } from '@/context/WhatsAppMessageContext'
+import { preloadRoute } from '@/routes'
 
 interface LayoutProps {
   children: ReactNode
 }
 
-function PageEnter({ children }: { children: ReactNode }) {
-  const { pathname } = useLocation()
-  return (
-    <div key={pathname} className="page-enter">
-      {children}
-    </div>
-  )
-}
-
 export default function Layout({ children }: LayoutProps) {
+  useEffect(() => {
+    const onOver = (event: PointerEvent) => {
+      const el = event.target
+      if (!(el instanceof Element)) return
+      const hit = el.closest('a[href^="/"]')
+      if (!hit) return
+      const href = hit.getAttribute('href')
+      if (!href || href.startsWith('/seo')) return
+      void preloadRoute(href.split('#')[0] ?? href)
+    }
+    document.addEventListener('pointerover', onOver)
+    return () => document.removeEventListener('pointerover', onOver)
+  }, [])
+
   return (
-    <div className="min-h-[100dvh] flex flex-col bg-black text-white">
+    <div className="flex min-h-[100dvh] flex-col bg-black text-white">
       <ScrollManager />
       <Navbar />
       <WhatsAppMessageProvider>
-        <main className="flex-1 overflow-x-clip">
+        <main className="flex min-h-[calc(100dvh-4rem)] flex-1 flex-col overflow-x-clip">
           <SiloTrail />
-          <PageEnter>
-            {children}
-          </PageEnter>
+          {children}
           <SiloChildren />
         </main>
         <SiloSection />

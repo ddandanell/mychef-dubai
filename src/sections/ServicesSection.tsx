@@ -110,7 +110,7 @@ export default function ServicesSection() {
         <div ref={headerRef} className="max-w-[760px] mb-12 md:mb-16">
           <SectionLabel tone="dark">Private Chef & Catering</SectionLabel>
           <h2 className="font-playfair text-fluid-h2 text-white mb-5">
-            Private chef or catering in Dubai — you choose the type of service. We build the chef and the team around it.
+            myCHEF Dubai does two jobs. A chef for the house, or catering for the event.
           </h2>
           <p className="font-inter text-body text-gray-400 leading-relaxed max-w-[62ch]">
             Two core services, four built on them. The same selection standard and the same point of contact run through all six.

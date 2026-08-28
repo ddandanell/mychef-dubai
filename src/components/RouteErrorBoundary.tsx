@@ -3,6 +3,7 @@ import { isChunkLoadError, reloadOnceForStaleChunk } from '@/lib/chunkRecovery'
 
 interface Props {
   children: ReactNode
+  pathname?: string
 }
 
 interface State {
@@ -14,13 +15,20 @@ interface State {
  * deploy (its route chunk no longer exists) — for that we reload once, which
  * fetches the current build. Anything else, or a second failure, gets a plain
  * message with a reload button instead of a page that silently never appears.
- * Remounted per pathname from App.tsx, so leaving the page clears the state.
+ * Error state clears when the pathname changes, without remounting the tree
+ * (a key={pathname} remount collapsed main and flashed the silo/footer).
  */
 export default class RouteErrorBoundary extends Component<Props, State> {
   state: State = { error: null }
 
   static getDerivedStateFromError(error: Error): State {
     return { error }
+  }
+
+  componentDidUpdate(prevProps: Props): void {
+    if (this.state.error && prevProps.pathname !== this.props.pathname) {
+      this.setState({ error: null })
+    }
   }
 
   componentDidCatch(error: Error, info: ErrorInfo): void {
