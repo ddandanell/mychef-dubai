@@ -38,6 +38,13 @@ const guides = [
 export default function GuidesTeaserSection() {
   useScrollTrigger()
   const sectionRef = useRef<HTMLDivElement>(null)
+  const liveGuides = guides.filter((g) => !isParked(g.slug))
+  const gridCols =
+    liveGuides.length <= 2
+      ? 'grid-cols-1 sm:grid-cols-2'
+      : liveGuides.length === 3
+        ? 'grid-cols-1 sm:grid-cols-2 lg:grid-cols-3'
+        : 'grid-cols-1 sm:grid-cols-2 lg:grid-cols-4'
 
   useGSAP(() => {
     if (!sectionRef.current) return
@@ -78,8 +85,8 @@ export default function GuidesTeaserSection() {
         </div>
 
         {/* Hairline panels — categories, not floating cards */}
-        <div className="guides-teaser-grid grid sm:grid-cols-2 lg:grid-cols-4 gap-px bg-gray-200 border border-gray-200">
-          {guides.filter((g) => !isParked(g.slug)).map((guide, i) => {
+        <div className={`guides-teaser-grid grid ${gridCols} gap-px bg-gray-200 border border-gray-200`}>
+          {liveGuides.map((guide, i) => {
             const Icon = guide.icon
             return (
               <Link
