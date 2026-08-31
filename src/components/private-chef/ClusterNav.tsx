@@ -29,7 +29,7 @@ export default function ClusterNav() {
   }, [pathname])
 
   return (
-    <nav aria-label="Household chef pages" className="bg-black border-y border-gold/25">
+    <nav aria-label="Household chef pages" className="border-y border-black/10 bg-cream">
       <div className="container-custom py-3 flex items-stretch gap-2 overflow-x-auto">
         {CLUSTER_NAV.map((item) => {
           const isActive = isClusterLinkActive(pathname, item.href)
@@ -42,11 +42,11 @@ export default function ClusterNav() {
               className={`flex-shrink-0 px-3.5 py-2 border transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold ${
                 isActive
                   ? 'border-gold bg-gold text-black'
-                  : 'border-white/15 text-white/80 hover:border-gold hover:text-gold'
+                  : 'border-black/10 text-charcoal hover:border-gold hover:text-gold-ink'
               }`}
             >
               <span className="block font-inter text-caption uppercase tracking-wider">{item.label}</span>
-              <span className={`hidden md:block font-inter text-[11px] mt-0.5 leading-snug ${isActive ? 'text-black/70' : 'text-white/45'}`}>
+              <span className={`hidden md:block font-inter text-[11px] mt-0.5 leading-snug ${isActive ? 'text-black/70' : 'text-gray-500'}`}>
                 {item.description}
               </span>
             </Link>

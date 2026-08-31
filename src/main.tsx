@@ -46,9 +46,11 @@ async function boot() {
     // A chunk that fails to preload just suspends briefly (loader) — never fatal.
   }
 
-  const root = createRoot(container)
-  // Clear the prerendered markup and paint React's tree in the same frame.
+  // Wipe prerendered chrome before attaching React. Clearing after createRoot
+  // left the old navbar in the document for a frame, so a second menu flashed
+  // on every full load and on client navigations that fell back to a reload.
   container.replaceChildren()
+  const root = createRoot(container)
   flushSync(() => {
     root.render(
       <HelmetProvider>

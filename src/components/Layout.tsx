@@ -34,7 +34,7 @@ export default function Layout({ children }: LayoutProps) {
       <ScrollManager />
       <Navbar />
       <WhatsAppMessageProvider>
-        <main className="flex min-h-[calc(100dvh-4rem)] flex-1 flex-col overflow-x-clip">
+        <main className="relative flex min-h-[calc(100dvh-4rem)] flex-1 flex-col overflow-x-clip">
           <SiloTrail />
           {children}
           <SiloChildren />

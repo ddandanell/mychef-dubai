@@ -218,6 +218,12 @@ export default function Navbar() {
     return () => window.clearTimeout(clear)
   }, [location.pathname])
 
+  useEffect(() => {
+    const closeMegaOnScroll = () => setMenu('')
+    window.addEventListener('scroll', closeMegaOnScroll, { passive: true })
+    return () => window.removeEventListener('scroll', closeMegaOnScroll)
+  }, [])
+
   function closeMega() {
     ignoreOpen.current = true
     setMenu('')

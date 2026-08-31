@@ -18,12 +18,12 @@ export default function SiloTrail() {
   if (trail.length < 2 || hasOwnHeroTrail(pathname)) return null
 
   return (
-    <nav aria-label="Breadcrumb" className="border-b border-white/10 bg-black">
-      <div className="container-custom">
-        <ol className="flex flex-wrap items-center gap-x-1.5 gap-y-1 py-3 font-inter text-caption text-gray-400">
+    <nav aria-label="Breadcrumb" className="pointer-events-none absolute inset-x-0 top-0 z-20">
+      <div className="container-custom pointer-events-auto pt-3">
+        <ol className="inline-flex flex-wrap items-center gap-2 font-inter text-caption bg-black/40 backdrop-blur-sm px-3.5 py-1.5 rounded-full ring-1 ring-white/10 text-gray-300">
           {trail.map((crumb, i) => (
             <li key={`${crumb.label}-${i}`} className="flex items-center gap-1.5">
-              {i > 0 && <ChevronRight size={12} className="text-gray-600" aria-hidden />}
+              {i > 0 && <ChevronRight size={12} className="text-white/40" aria-hidden />}
               {crumb.href ? (
                 <Link
                   to={crumb.href}
@@ -32,7 +32,7 @@ export default function SiloTrail() {
                   {crumb.label}
                 </Link>
               ) : (
-                <span className="text-gray-300" aria-current="page">
+                <span className="text-gold" aria-current="page">
                   {crumb.label}
                 </span>
               )}

@@ -63,9 +63,33 @@ def hero_routes() -> list[str]:
         f = (ROOT / "src" / rel.lstrip("./")).with_suffix(".tsx")
         if not f.exists():
             f = (ROOT / "src" / rel.replace("./", "")).with_suffix(".tsx")
-        if f.exists() and "PageHero" in f.read_text(encoding="utf-8"):
+        if not f.exists():
+            continue
+        text = f.read_text(encoding="utf-8")
+        # PageHero draws the trail over the photo. Many pages hand-roll the same
+        # trail in a custom hero (often without aria-label). Either one must keep
+        # the shared bar off the page, or two navigations stack under the main menu.
+        if _page_draws_own_trail(text):
             out.append(path)
     return sorted(set(out))
+
+
+_OWN_TRAIL_NAV = re.compile(r"<nav\b([^>]*)>([\s\S]*?)</nav>", re.I)
+
+
+def _page_draws_own_trail(text: str) -> bool:
+    if "PageHero" in text:
+        return True
+    if 'aria-label="Breadcrumb"' in text or "aria-label='Breadcrumb'" in text:
+        return True
+    for match in _OWN_TRAIL_NAV.finditer(text):
+        attrs, body = match.group(1), match.group(2)
+        blob = f"{attrs} {body}"
+        if "Breadcrumb" in blob or "hero-h1" in blob:
+            return True
+        if 'to="/"' in body and "Home" in body:
+            return True
+    return False
 
 
 def children_of(pages: dict) -> dict:
@@ -135,7 +159,15 @@ export function trailFor(path: string): Crumb[] {{
 }}
 
 export function hasOwnHeroTrail(path: string): boolean {{
-  return HERO_ROUTES.includes(clean(path))
+  const p = clean(path)
+  return HERO_ROUTES.some((route) => {{
+    if (route === p) return true
+    if (!route.includes(":")) return false
+    const a = route.split("/")
+    const b = p.split("/")
+    if (a.length !== b.length) return false
+    return a.every((seg, i) => seg.startsWith(":") || seg === b[i])
+  }})
 }}
 
 export function childrenOf(path: string): Crumb[] {{
