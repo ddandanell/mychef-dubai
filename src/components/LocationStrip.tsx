@@ -6,6 +6,7 @@ import { isParked } from '@/content/parkedUrls'
 interface LocationStripProps {
   title?: string
   subtitle?: React.ReactNode
+  eyebrow?: string
   className?: string
 }
 
@@ -31,12 +32,12 @@ const locations = [
 const shown = locations.filter((l) => !isParked(locationPath(l.slug)))
 
 
-export default function LocationStrip({ title = 'Private chef & luxury dining across Dubai', subtitle, className = '' }: LocationStripProps) {
+export default function LocationStrip({ title = 'Private chef & luxury dining across Dubai', subtitle, eyebrow = 'Where We Serve', className = '' }: LocationStripProps) {
   return (
     <section className={`bg-cream py-16 ${className}`}>
       <div className="container-custom max-w-[1100px]">
         <div className="text-center mb-8">
-          <SectionLabel align="center">Where We Serve</SectionLabel>
+          <SectionLabel align="center">{eyebrow}</SectionLabel>
           <h3 className="font-playfair text-h3 text-black">
             {title}
           </h3>

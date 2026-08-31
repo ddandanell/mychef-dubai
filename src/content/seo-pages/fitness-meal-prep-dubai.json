@@ -32,12 +32,12 @@
  },
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
-  "title": "Fitness Meal Prep Dubai | from AED 1,898 / week | myCHEF",
-  "meta_description": "Fitness Meal Prep in Dubai — macro-aware meals cooked fresh in your kitchen. From aed 1,898 / week, with vetted chefs and full service. Request a proposal from myCHEF.",
+  "title": "Fitness Meal Prep Dubai | from AED 1,900 / week | myCHEF",
+  "meta_description": "Fitness Meal Prep in Dubai — macro-aware meals cooked fresh in your kitchen. From aed 1,900 / week, with vetted chefs and full service. Request a proposal from myCHEF.",
   "h1": "Fitness Meal Prep Catering in Dubai — Real Prices, Menus and Timings"
  },
  "opening_paragraph": [
-  "Fitness meal prep catering in Dubai from myCHEF starts at AED 1,898 per week. A vetted private chef shops, cooks and portions macro-aware meals fresh in your own kitchen — high-protein, weighed and labelled to your calorie and macro targets — so you skip the Sunday batch-cook and just train and eat. Tell us your goals, the week and your address, and during our published business hours you will usually have an itemised proposal back promptly."
+  "Fitness meal prep catering in Dubai from myCHEF starts at AED 1,900 per week. A vetted private chef shops, cooks and portions macro-aware meals fresh in your own kitchen — high-protein, weighed and labelled to your calorie and macro targets — so you skip the Sunday batch-cook and just train and eat. Tell us your goals, the week and your address, and during our published business hours you will usually have an itemised proposal back promptly."
  ],
  "replace_in_block": [
   {
@@ -87,7 +87,7 @@
   {
    "new_heading": "How much does fitness meal prep catering in Dubai cost?",
    "new_paragraphs": [
-    "Fitness meal prep catering in Dubai starts from AED 1,898 per week for a single-person weekly plan, with larger or multi-meal plans around AED 2,698 per week. The final fitness meal prep catering cost depends on meals per day, number of portions, protein choices and service level. The fairest number comes from an itemised quote, not a flat rate. Fitness meal prep catering prices cover menu design, the chef, sourcing, cooking, portioning, setup and clean-down — there is no separate delivery-box mark-up. Fitness meal prep catering packages are weekly cycles you can pause or scale. The plans stay affordable next to daily restaurant or ready-meal ordering, while the quality reads as a genuinely luxury service. For the full picture, see our private chef prices and the Dubai catering price guide , or request a quote."
+    "Fitness meal prep catering in Dubai starts from AED 1,900 per week for a single-person weekly plan, with larger or multi-meal plans around AED 2,700 per week. The final fitness meal prep catering cost depends on meals per day, number of portions, protein choices and service level. The fairest number comes from an itemised quote, not a flat rate. Fitness meal prep catering prices cover menu design, the chef, sourcing, cooking, portioning, setup and clean-down — there is no separate delivery-box mark-up. Fitness meal prep catering packages are weekly cycles you can pause or scale. The plans stay affordable next to daily restaurant or ready-meal ordering, while the quality reads as a genuinely luxury service. For the full picture, see our private chef prices and the Dubai catering price guide , or request a quote."
    ],
    "insert_after_block": "Fitness Meal Prep Questions",
    "position": "after the block titled 'Fitness Meal Prep Questions'",
@@ -163,7 +163,7 @@
    "new_heading": "Common questions",
    "new_paragraphs": [
     "How much does fitness meal prep catering cost in Dubai?",
-    "It starts from AED 1,898 per week for a single-person plan, and around AED 2,698 per week for larger or multi-meal plans. The exact cost depends on meals per day, people and protein choices — send your details for an itemised quote.",
+    "It starts from AED 1,900 per week for a single-person plan, and around AED 2,700 per week for larger or multi-meal plans. The exact cost depends on meals per day, people and protein choices — send your details for an itemised quote.",
     "What is included in a fitness meal prep plan?",
     "Included is menu design to your macros, a vetted private chef, fresh sourcing, cooking, weighed and labelled portions, setup and kitchen clean-down. There is no separate delivery mark-up.",
     "Can the menu match my specific macros and diet?",

@@ -49,7 +49,7 @@ export default function TeamSection() {
           >
             <img
               src="/team-head-chef.webp"
-              alt="Chef in the myCHEF network"
+              alt="Head chef cooking in a Dubai home"
               width={800}
               height={1000}
               className="absolute inset-0 w-full h-full object-cover object-top"
@@ -68,16 +68,16 @@ export default function TeamSection() {
               The chef matters. How we choose one matters more.
             </h2>
             <p className="font-inter text-base text-gray-400 leading-[1.7] mb-4 max-w-lg">
-              The chefs in the network bring decades in European and international kitchens to homes across Dubai. Every menu is designed for the people it is cooked for.
+              Our chefs bring decades in European and international kitchens into homes across Dubai. Every menu is designed for the people it is cooked for.
             </p>
             <p className="font-inter text-base text-gray-400 leading-[1.7] mb-6 max-w-lg">
-              Every chef, sous chef, pastry specialist and service professional is independent — selected and vetted before they ever cook for a myCHEF client.
+              Chefs, sous chefs, pastry specialists and service staff — every one of them vetted before they cook for you, and scored by the homes they cook in afterwards.
             </p>
             <p className="font-playfair text-h4 text-white leading-snug mb-8 max-w-lg border-l-2 border-gold pl-5">
-              The chef cooks. We select, vet and stay your point of contact.
+              We choose the chef. We brief the chef. We stay with you from the first message to the last plate.
             </p>
             <Link to="/our-chefs" className="btn-secondary inline-flex self-start focus-visible:ring-offset-black">
-              Meet the chef network
+              Meet our chefs
             </Link>
           </div>
         </div>

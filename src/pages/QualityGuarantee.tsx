@@ -84,7 +84,7 @@ const faqs = [
   },
   {
     q: 'How do I report a quality issue?',
-    a: 'You can message us on WhatsApp, call, or email hallo@mychef.ae. We ask for details and, where possible, photos. Most concerns are acknowledged within hours and resolved within one to two business days.',
+    a: 'You can message us on WhatsApp, call, or email info@mychef.ae. We ask for details and, where possible, photos. Most concerns are acknowledged within hours and resolved within one to two business days.',
   },
   {
     q: 'Is there a guarantee that I will love the food?',

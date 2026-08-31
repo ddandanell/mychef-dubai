@@ -1,4 +1,4 @@
-import { Clock, ShieldCheck } from 'lucide-react'
+import { Clock } from 'lucide-react'
 import { cn } from '@/lib/utils'
 
 interface TrustBarProps {
@@ -38,24 +38,7 @@ export default function TrustBar({ variant = 'light', className }: TrustBarProps
                 isLight ? 'text-charcoal' : 'text-gray-400'
               )}
             >
-              Typical reply within 15 minutes
-            </span>
-          </div>
-
-          {/* Food safety */}
-          <div className="flex items-center gap-2">
-            <ShieldCheck
-              size={isCompact ? 16 : 18}
-              className="text-gold flex-shrink-0"
-              aria-hidden="true"
-            />
-            <span
-              className={cn(
-                'font-inter text-body-sm',
-                isLight ? 'text-charcoal' : 'text-gray-400'
-              )}
-            >
-              Independent chefs who hold their own food-safety credentials
+              Typical reply within 15 minutes during business hours, 9am to 11pm
             </span>
           </div>
 

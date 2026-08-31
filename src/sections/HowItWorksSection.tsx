@@ -8,23 +8,23 @@ import { SectionLabel } from '@/components/system'
 const steps = [
   {
     number: '01',
-    title: 'Tell us about the job',
-    description: 'Occasion, guest count, the address, and how you like to eat. Send it by form or WhatsApp.',
+    title: 'Tell us about the evening',
+    description: 'The occasion, your guest count, the address, and how you like to eat. Send it by form or WhatsApp.',
   },
   {
     number: '02',
-    title: 'We design the menu and choose the chef',
-    description: 'The menu is shaped around your tastes and your guests. Then we pick the chef whose cooking fits it.',
+    title: 'We design the menu and choose your chef',
+    description: 'The menu is shaped around your tastes and your guests. Then we choose the chef whose cooking fits it.',
   },
   {
     number: '03',
-    title: 'The chef arrives early and cooks in your kitchen',
-    description: 'On the day the chef cooks to order in your kitchen while we coordinate the service around it.',
+    title: 'Your chef arrives early and cooks in your kitchen',
+    description: 'Everything cooked to order in your own kitchen, with the service running around it.',
   },
   {
     number: '04',
     title: 'You sit down. We clear up.',
-    description: 'Courses are plated, the service we arrange looks after your guests, and the kitchen is left as it was found.',
+    description: 'Courses are plated, your guests are looked after all evening, and the kitchen is left exactly as we found it.',
   },
 ]
 
@@ -109,7 +109,7 @@ export default function HowItWorksSection() {
           <Link to="/inquiry" className="btn-primary focus-visible:ring-offset-cream">
             Request a Proposal
           </Link>
-          <p className="font-inter text-body-sm text-gray-500">The price is agreed in the proposal, before the day.</p>
+          <p className="font-inter text-body-sm text-gray-500">The price is agreed in your proposal, before the day.</p>
         </div>
       </div>
     </section>

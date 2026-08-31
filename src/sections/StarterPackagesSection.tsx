@@ -2,8 +2,9 @@ import { useEffect, useRef } from 'react'
 import { Link } from 'react-router'
 import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
-import { starterPackages, WHATSAPP_NUMBER } from '@/data/starterPackages'
+import { starterPackages } from '@/data/starterPackages'
 import { SectionLabel, iconForSectionLabel } from '@/components/system'
+import { buildWhatsAppLink } from '@/lib/whatsapp'
 
 
 interface StarterPackagesSectionProps {
@@ -59,14 +60,13 @@ export default function StarterPackagesSection({
               className="starter-package-card bg-white p-6 border border-gray-200 flex flex-col"
             >
               <h3 className="font-playfair text-h4 text-black mb-2">{pkg.name}</h3>
-              <p className="font-inter text-body-sm text-gray-500 mb-4">{pkg.guests} guests</p>
+              <p className="font-inter text-body-sm text-gray-500 mb-4">{pkg.guests}</p>
               <div className="mb-4">
                 <span className="font-inter text-caption text-gray-500 uppercase tracking-wider">From AED</span>
                 <p className="font-playfair text-3xl text-gold">
                   {pkg.price}
                   {pkg.recurring && <span className="font-inter text-sm text-gray-500 ml-1">/ week</span>}
                 </p>
-                <p className="font-inter text-body-sm text-gray-500 mt-2">Final quote tailored to your event.</p>
               </div>
               <p className="font-inter text-body-sm text-gray-500 leading-relaxed flex-1 mb-6">
                 {pkg.included}
@@ -76,18 +76,19 @@ export default function StarterPackagesSection({
                   to={`/weekly-meal-prep-dubai`}
                   className="btn-secondary text-center w-full"
                 >
-                  View Weekly Prep
+                  See weekly prep
                 </Link>
               ) : (
                 <a
-                  href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(
-                    `Hi myCHEF Dubai, I'd like to request a proposal for the ${pkg.name} package (via mychef.ae/${campaign})`
-                  )}`}
+                  href={buildWhatsAppLink(
+                    `Hi myCHEF, I'd like a proposal for ${pkg.name}. My date and guest count are:`,
+                    { source: 'mychef.ae', medium: 'price_card', campaign },
+                  )}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-primary text-center w-full"
                 >
-                  Request This Package
+                  Request a proposal
                 </a>
               )}
             </div>
@@ -95,7 +96,7 @@ export default function StarterPackagesSection({
         </div>
 
         <p className="font-inter text-body-sm text-gray-500 text-center max-w-[700px] mx-auto">
-          Prices are indicative starting points. Final quotes depend on guest count, menu selection, ingredients, and service level.
+          Starting prices. Your final quote depends on guest count, menu, ingredients and the level of service you want.
         </p>
       </div>
     </section>

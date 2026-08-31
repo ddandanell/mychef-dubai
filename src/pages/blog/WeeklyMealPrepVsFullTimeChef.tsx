@@ -30,7 +30,7 @@ const SLUG = 'weekly-meal-prep-vs-full-time-chef-dubai'
 const faqs = [
   {
     q: 'Is weekly meal prep cheaper than a full-time chef in Dubai?',
-    a: 'Yes, for most households. A weekly meal prep service typically costs AED 1,898–2,698 per week for two prep sessions, while a full-time private chef costs AED 18,000–35,000+ per month plus benefits, accommodation, and visa sponsorship.',
+    a: 'Yes, for most households. A weekly meal prep service typically costs AED 1,900–2,700 per week for two prep sessions, while a full-time private chef costs AED 18,000–35,000+ per month plus benefits, accommodation, and visa sponsorship.',
   },
   {
     q: 'Who should hire a full-time private chef instead of meal prep?',
@@ -137,9 +137,9 @@ export default function WeeklyMealPrepVsFullTimeChef() {
           </div>
 
           <KeyFactsBox
-            answer="Weekly meal prep in Dubai usually costs AED 1,898–2,698 per week and suits busy households wanting flexibility; a full-time private chef costs AED 18,000–35,000+ per month and suits households needing daily on-call cooking."
+            answer="Weekly meal prep in Dubai usually costs AED 1,900–2,700 per week and suits busy households wanting flexibility; a full-time private chef costs AED 18,000–35,000+ per month and suits households needing daily on-call cooking."
             facts={[
-              { label: 'Weekly meal prep', value: 'AED 1,898–2,698 / week' },
+              { label: 'Weekly meal prep', value: 'AED 1,900–2,700 / week' },
               { label: 'Full-time private chef', value: 'AED 18,000–35,000+ / month + benefits' },
               { label: 'Meal prep commitment', value: 'Weekly or monthly plan' },
               { label: 'Full-time commitment', value: 'Annual contract typical' },
@@ -171,7 +171,7 @@ export default function WeeklyMealPrepVsFullTimeChef() {
                 <tbody className="text-gray-500">
                   <tr className="border-b border-gray-100">
                     <td className="py-3 pr-4">Typical cost</td>
-                    <td className="py-3 pr-4">AED 1,898–2,698 / week</td>
+                    <td className="py-3 pr-4">AED 1,900–2,700 / week</td>
                     <td className="py-3">AED 18,000–35,000+ / month</td>
                   </tr>
                   <tr className="border-b border-gray-100">

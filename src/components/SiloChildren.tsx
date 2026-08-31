@@ -29,13 +29,18 @@ export default function SiloChildren() {
   const missing = kids.filter((k) => k.href && !alreadyListed.has(k.href))
   if (!missing.length) return null
 
+  const isHome = pathname === '/'
+  const sectionLabel = isHome ? 'More about myCHEF' : 'Inside this section'
+  const sectionNote = isHome
+    ? 'Who we are and how we work.'
+    : 'Everything filed under this page, in one place — so you can see the whole section rather than finding it a page at a time.'
+
   return (
-    <section className="border-t border-white/10 bg-black py-12 print:hidden" aria-label="Inside this section">
+    <section className="border-t border-white/10 bg-black py-12 print:hidden" aria-label={sectionLabel}>
       <div className="container-custom max-w-[1200px]">
-        <SectionLabel tone="dark">Inside this section</SectionLabel>
+        <SectionLabel tone="dark">{sectionLabel}</SectionLabel>
         <p className="mb-6 max-w-[62ch] font-inter text-body-sm leading-relaxed text-white/50">
-          Everything filed under this page, in one place — so you can see the whole section rather than
-          finding it a page at a time.
+          {sectionNote}
         </p>
         <ul className="grid gap-x-8 gap-y-1 sm:grid-cols-2 lg:grid-cols-3">
           {missing.map((child) => (

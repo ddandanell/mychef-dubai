@@ -267,7 +267,7 @@ export default function BecomeAMyChef() {
               Apply on WhatsApp
             </a>
             <a
-              href="mailto:hallo@mychef.ae"
+              href="mailto:info@mychef.ae"
               className="btn-secondary opacity-0 translate-y-4 bmc-hero-cta inline-flex items-center gap-2"
             >
               Email Instead
@@ -407,7 +407,7 @@ export default function BecomeAMyChef() {
                 </div>
                 <div className="flex items-start gap-3">
                   <Check size={16} className="text-gold mt-1 flex-shrink-0" />
-                  <span className="font-inter text-body-sm text-gray-500">Prefer email? Send your CV to <a href="mailto:hallo@mychef.ae" className="text-gold hover:text-gold-light underline underline-offset-4">hallo@mychef.ae</a>.</span>
+                  <span className="font-inter text-body-sm text-gray-500">Prefer email? Send your CV to <a href="mailto:info@mychef.ae" className="text-gold hover:text-gold-light underline underline-offset-4">info@mychef.ae</a>.</span>
                 </div>
               </div>
             </div>
@@ -516,7 +516,7 @@ export default function BecomeAMyChef() {
               Apply on WhatsApp
             </a>
             <a
-              href="mailto:hallo@mychef.ae"
+              href="mailto:info@mychef.ae"
               className="btn-secondary inline-flex items-center gap-2"
             >
               Email Instead

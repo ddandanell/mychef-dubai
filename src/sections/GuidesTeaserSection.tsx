@@ -18,13 +18,13 @@ const guides = [
   {
     slug: '/wedding-catering-menu-planning-dubai',
     title: 'Wedding Menu Planning',
-    description: 'Build a wedding menu from tasting and dietary coverage to final service style.',
+    description: 'How to build a wedding menu, from the tasting to the dietary list to how the food is served.',
     icon: ClipboardList,
   },
   {
     slug: '/yacht-catering-checklist-dubai',
     title: 'Yacht Catering Checklist',
-    description: 'A printable week-by-week checklist for catering on Dubai yachts and boats.',
+    description: 'A printable week-by-week checklist for catering on a Dubai yacht.',
     icon: Anchor,
   },
   {
@@ -61,10 +61,10 @@ export default function GuidesTeaserSection() {
           <div className="max-w-[720px]">
             <SectionLabel>Free Planning Resources</SectionLabel>
             <h2 className="font-playfair text-fluid-h2 text-black mb-4">
-              What it costs, what to plan, and what is changing — before you commit to anything.
+              What it costs, what to plan, and what is changing in Dubai this year.
             </h2>
             <p className="font-inter text-body text-gray-500 leading-relaxed max-w-[60ch]">
-              Practical guides written for Dubai hosts — budgets, checklists and the trends shaping events this year.
+              Practical guides for Dubai hosts — budgets, checklists, and the food and catering trends shaping events this year.
             </p>
           </div>
           <Link
@@ -97,7 +97,7 @@ export default function GuidesTeaserSection() {
                   {guide.description}
                 </p>
                 <span className="inline-flex items-center gap-2 font-inter text-caption font-medium uppercase tracking-wider text-gold-ink group-hover:gap-3 transition-all duration-300">
-                  Read <ArrowRight size={14} />
+                  Read the guide <ArrowRight size={14} />
                 </span>
               </Link>
             )

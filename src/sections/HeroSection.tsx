@@ -5,7 +5,7 @@ import { deferNonCritical } from '../lib/deferNonCritical'
 import { buildWhatsAppLink } from '../lib/whatsapp'
 
 const WHATSAPP_LINK = buildWhatsAppLink(
-  "Hi myCHEF Dubai, I'd like a quote for a private chef or luxury catering in Dubai. Date: __, Guests: __, Area: __ (via mychef.ae/)",
+  "Hi myCHEF, I'd like a quote. My date, guest count and area are:",
   { source: 'mychef.ae', medium: 'cta_button', campaign: 'home_whatsapp' }
 )
 
@@ -236,7 +236,7 @@ export default function HeroSection() {
           ref={headlineRef}
           className="hero-title text-white opacity-0 max-w-[38rem] lg:max-w-[46rem] mx-auto md:mx-0 text-center md:text-left"
         >
-          myCHEF Dubai — a chef for the house, or catering for the event
+          myCHEF Dubai — a chef for your kitchen, catering for your event
         </h1>
 
         {/* Subtext */}
@@ -244,7 +244,7 @@ export default function HeroSection() {
           ref={subtextRef}
           className="hero-copy mt-4 md:mt-5 text-white/90 max-w-[34rem] mx-auto md:mx-0 opacity-0 text-center md:text-left"
         >
-          A household chef cooks in your kitchen. Catering is the event — food, staff, the running order. Start with the page that matches the job.
+          A chef who cooks in your kitchen, or catering for events of any size. The food is designed around you, and every chef is vetted before they cook.
         </p>
 
         {/* CTA Row */}
@@ -273,7 +273,7 @@ export default function HeroSection() {
         </p>
         <p className="mt-4 font-inter text-body-sm text-white/70 flex items-center gap-2 justify-center md:justify-start">
           <span className="inline-block w-1.5 h-1.5 rounded-full bg-gold" aria-hidden="true" />
-          Typical reply within 15 min · No obligation
+          Typical reply within 15 min during business hours, 9am to 11pm · No obligation
         </p>
 
         {/* Stats Row */}

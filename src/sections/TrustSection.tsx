@@ -8,9 +8,9 @@ import { SectionLabel } from '@/components/system'
 // Mechanisms, not adjectives — each line is a fact already stated elsewhere on this page.
 const trustPoints = [
   { title: 'Vetted and background-checked', body: 'Every chef is checked before they cook for a myCHEF client.' },
-  { title: 'Independent chefs with their own food-safety credentials', body: 'The chef who cooks holds the certificate.' },
-  { title: 'One point of contact', body: 'One contact from the first message to the day itself.' },
-  { title: 'Reply within 15 minutes in business hours', body: 'Then a vetted chef and a tailored proposal.' },
+  { title: 'Food-safety credentials, checked before anyone cooks', body: 'We see the certificate before anyone cooks in your kitchen.' },
+  { title: 'One person, start to finish', body: 'The same person from your first message to the moment your chef leaves the kitchen.' },
+  { title: 'Reply within 15 minutes in business hours, 9am to 11pm', body: 'Then a vetted chef and a tailored proposal.' },
 ]
 
 export default function TrustSection() {
@@ -72,7 +72,7 @@ export default function TrustSection() {
             Finding a chef in Dubai is easy. Knowing who you are letting into your home is harder.
           </h2>
           <p className="font-inter text-base text-gray-400 leading-[1.7] mb-10 max-w-lg">
-            myCHEF was founded by a team from hospitality. Every chef is selected against one standard, every event is delivered with discretion, and you deal with one point of contact from the first message to the last plate.
+            myCHEF was built by people who have run kitchens and floors. Every chef is chosen against one standard, then scored by the homes and events they cook in — month after month, for as long as they work with us. One person looks after you from your first message to the last plate.
           </p>
 
           {/* Numbered editorial rows — recognition list, not badges */}

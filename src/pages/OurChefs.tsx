@@ -312,10 +312,10 @@ export default function OurChefs() {
             If you are an experienced, licensed independent chef with a passion for private dining, we&apos;d love to welcome you to our partner network.
           </p>
           <a
-            href="mailto:hallo@mychef.ae"
+            href="mailto:info@mychef.ae"
             className="font-inter text-body text-gold hover:underline"
           >
-            Apply to join our culinary network at hallo@mychef.ae
+            Apply to join our culinary network at info@mychef.ae
           </a>
         </div>
       </section>

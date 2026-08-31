@@ -509,7 +509,7 @@ export default function PrivateChef() {
         <div className="container-custom max-w-[800px] text-center">
           <h3 className="font-playfair text-h3 text-white mb-4">Has this house been running well?</h3>
           <p className="font-inter text-body text-gray-400 leading-relaxed mb-6">
-            We do not publish invented reviews. If this household already runs with myCHEF, leave a review and we credit AED 50 toward the next month of the plan.
+            We do not publish invented reviews. If this household already runs with myCHEF, leave a review — it helps the next household decide.
           </p>
           <Link to="/review" className="btn-primary">Leave a Review</Link>
         </div>

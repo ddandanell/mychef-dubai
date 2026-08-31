@@ -32,7 +32,7 @@ export const ORGANIZATION_SCHEMA = {
   logo: LOGO_URL,
   image: `${SITE_URL}/images/home-hero.webp`,
   description:
-    'Private chef and catering in Dubai. myCHEF designs the experience and matches clients with vetted, licensed independent chefs and catering partners, who cook at the client’s villa, yacht or home. There is no dining room.',
+    'Private chef and catering in Dubai. myCHEF designs the experience and brings vetted chefs and catering partners who cook at the client’s villa, yacht or home. There is no dining room.',
   telephone: '+971 55 174 4849',
   priceRange: '$$$$',
   currenciesAccepted: 'AED',

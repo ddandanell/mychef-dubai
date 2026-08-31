@@ -225,7 +225,7 @@ const sections = [
   {
     title: 'Contact',
     content: (
-      <p>For questions about these terms, please contact us at <a href="mailto:hallo@mychef.ae" className="text-gold hover:underline">hallo@mychef.ae</a> or via WhatsApp.</p>
+      <p>For questions about these terms, please contact us at <a href="mailto:info@mychef.ae" className="text-gold hover:underline">info@mychef.ae</a> or via WhatsApp.</p>
     ),
   },
 ]

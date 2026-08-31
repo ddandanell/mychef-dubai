@@ -1,19 +1,19 @@
 import { useEffect, useRef } from 'react'
 import gsap from 'gsap'
 import { useScrollTrigger } from '@/hooks/useScrollTrigger'
-import { MessageSquare, Gift, ShieldCheck, IdCard, Clock } from 'lucide-react'
-import { Link } from 'react-router'
+import { MessageSquare, IdCard, Clock } from 'lucide-react'
 import { SectionLabel } from '@/components/system'
+import { buildWhatsAppLink } from '@/lib/whatsapp'
 
 const trustPoints = [
-  { icon: ShieldCheck, label: 'AED 5M Liability Insurance' },
-  { icon: IdCard, label: 'Vetted & Background-Checked Chefs' },
+  { icon: IdCard, label: 'Vetted Chefs, Scored Every Visit' },
   { icon: Clock, label: '2-Hour Proposal Response' },
 ]
 
-const WHATSAPP_NUMBER = '971551744849'
-const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I would like to leave a review about my experience')
-const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
+const WHATSAPP_LINK = buildWhatsAppLink(
+  'Hi myCHEF, I would like to leave a review about my experience',
+  { source: 'mychef.ae', medium: 'review', campaign: 'review_page' },
+)
 
 export default function ReviewInviteSection() {
   useScrollTrigger()
@@ -45,7 +45,6 @@ export default function ReviewInviteSection() {
   return (
     <section ref={sectionRef} className="bg-charcoal section-padding">
       <div ref={contentRef} className="container-custom">
-        {/* Two-column editorial: the ask on the left, the action on the right. No stars we have not earned. */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 mb-12">
           <div className="lg:col-span-6">
             <SectionLabel tone="dark">Client Reviews</SectionLabel>
@@ -53,35 +52,20 @@ export default function ReviewInviteSection() {
               Booked with us? Tell the next client what it was actually like.
             </h2>
             <p className="font-inter text-body text-gray-400 leading-relaxed max-w-[58ch]">
-              We are collecting honest reviews from clients across Dubai. If you have booked a chef or caterer through myCHEF, your review helps the next client decide.
+              Honest reviews from clients across Dubai. If a chef has cooked for you or we have catered your event, your review helps the next person decide.
             </p>
           </div>
 
           <div className="lg:col-span-6 lg:pl-16 lg:border-l lg:border-white/10">
-            <p className="font-inter text-body text-gray-300 leading-relaxed mb-8 max-w-[52ch]">
-              Every review helps us improve and helps new clients feel confident about booking myCHEF Dubai.
-            </p>
-            <div className="flex flex-col sm:flex-row sm:flex-wrap gap-4">
-              <Link
-                to="/review"
-                className="btn-primary inline-flex items-center gap-2"
-              >
-                <MessageSquare size={18} />
-                Leave a Review
-              </Link>
-              <a
-                href={WHATSAPP_LINK}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn-secondary inline-flex items-center gap-2"
-              >
-                <Gift size={18} />
-                Get AED 50 Credit for Reviewing
-              </a>
-            </div>
-            <p className="font-inter text-body-sm text-gray-500 mt-5 max-w-[52ch]">
-              Verified clients receive AED 50 credit towards their next booking when they share a review.
-            </p>
+            <a
+              href={WHATSAPP_LINK}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary inline-flex items-center gap-2"
+            >
+              <MessageSquare size={18} />
+              Leave a Review
+            </a>
           </div>
         </div>
 

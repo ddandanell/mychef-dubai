@@ -64,7 +64,7 @@ export default function LocationsSection() {
               Which areas in Dubai does myCHEF serve?
             </h2>
             <p className="font-inter text-body text-gray-400 leading-relaxed max-w-[58ch]">
-              Villas, apartments, yachts and offices across the city. Six areas to start with — the full list of neighbourhoods follows below.
+              Villas, apartments, yachts and offices across the city. Start with the areas below, or see every neighbourhood we cover.
             </p>
           </div>
           <Link

@@ -11,41 +11,47 @@ const coreServices = [
   {
     image: '/images/private-chef-dubai-hero.webp',
     title: 'Private Chef Dubai',
-    description: 'A vetted chef for one evening, a week, or longer. We match the chef to how you eat and design the menu with you — then the chef cooks it in your own kitchen.',
+    description: 'A vetted chef for one evening, a week, or longer. We learn how you like to eat, design the menu with you, and your chef cooks it fresh in your own kitchen.',
     link: '/private-chef-dubai',
+    cta: 'See private chef',
   },
   {
     image: '/images/catering-dubai-hero.webp',
     title: 'Catering Dubai',
-    description: 'Plated dinners to full buffets, for events of any size — designed with you and delivered by experienced, licensed caterers you engage through us.',
+    description: 'Plated dinners to full buffets, for events of any size. We design the menu with you, then bring in the chefs and the service staff to cook and run it on the day.',
     link: '/catering-dubai',
+    cta: 'See catering',
   },
 ]
 
-const builtOnServices: { icon: LucideIcon; title: string; description: string; link: string }[] = [
+const builtOnServices: { icon: LucideIcon; title: string; description: string; link: string; cta: string }[] = [
   {
     icon: Wine,
     title: 'Luxury Dining Experiences',
-    description: 'Fine dining at home, dinners for two, milestone celebrations — every course designed with you and cooked by the chef we selected for you.',
+    description: 'Fine dining at home, dinners for two, milestone celebrations — every course designed with you and cooked in your kitchen by the chef we chose for you.',
     link: '/luxury-dining-experiences',
+    cta: 'Plan a dinner',
   },
   {
     icon: PartyPopper,
     title: 'Events & Celebrations',
-    description: 'Small gatherings to large celebrations — we plan the evening and bring in the chef, service and styling, so you host while the chef delivers.',
+    description: 'Small gatherings to large celebrations — we design the menu, bring the chef, the service staff and the styling, and run the evening so you can host it.',
     link: '/events',
+    cta: 'Plan an event',
   },
   {
     icon: Briefcase,
     title: 'Corporate Dining',
-    description: 'Boardroom dining and corporate events — designed with you and delivered by chefs and caterers who work to corporate standard.',
+    description: 'Boardroom lunches and corporate events — menus designed with you and delivered by chefs who understand what a room like that demands.',
     link: '/corporate',
+    cta: 'Corporate dining',
   },
   {
     icon: House,
     title: 'Villas & Residences',
-    description: 'Villa chef arrangements for holiday homes, long-stay guests and residences across Dubai — a vetted chef you engage, with the dining designed around your home.',
+    description: 'Chefs for villas, holiday homes and long-stay residences across Dubai — a vetted chef in your kitchen, with the dining designed around how your home runs.',
     link: '/villas-private-residences',
+    cta: 'See villa chefs',
   },
 ]
 
@@ -110,10 +116,10 @@ export default function ServicesSection() {
         <div ref={headerRef} className="max-w-[760px] mb-12 md:mb-16">
           <SectionLabel tone="dark">Private Chef & Catering</SectionLabel>
           <h2 className="font-playfair text-fluid-h2 text-white mb-5">
-            myCHEF Dubai does two jobs. A chef for the house, or catering for the event.
+            myCHEF does two things. A chef for your house, or catering for your event. Both start here.
           </h2>
           <p className="font-inter text-body text-gray-400 leading-relaxed max-w-[62ch]">
-            Two core services, four built on them. The same selection standard and the same point of contact run through all six.
+            Two core services, and four more built on them. Whichever you choose, the same standard of chef and the same person looking after you from your first message to the last plate.
           </p>
         </div>
 
@@ -149,7 +155,7 @@ export default function ServicesSection() {
                     {service.description}
                   </p>
                   <span className="inline-flex items-center gap-2 font-inter text-body-sm font-medium uppercase tracking-wider text-gold group-hover:gap-3 transition-all duration-300">
-                    Explore
+                    {service.cta}
                     <ArrowRight size={16} className="transition-transform duration-300 group-hover:translate-x-1" />
                   </span>
                 </div>
@@ -178,7 +184,7 @@ export default function ServicesSection() {
                     {service.description}
                   </p>
                   <span className="inline-flex items-center gap-2 font-inter text-caption font-medium uppercase tracking-wider text-gold group-hover:gap-3 transition-all duration-300">
-                    Explore
+                    {service.cta}
                     <ArrowRight size={14} className="transition-transform duration-300 group-hover:translate-x-1" />
                   </span>
                 </Link>

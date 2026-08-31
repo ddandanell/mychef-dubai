@@ -39,12 +39,12 @@
  },
  "how_to_apply": "Every entry in this file has been checked and is safe to apply as written. 1. replace_in_block: find the block whose heading is 'block_on_your_page' and replace its heading and paragraphs. 2. add_block: insert a new text block at the named position, reusing the SAME section markup this page already uses - text only, no image, no new component, no styling change. 3. leave_untouched: do nothing. There is nothing here that needs your judgement. If a named block is not on the page, skip it and tell us - do not improvise.",
  "head": {
-  "title": "Weekly Meal Prep Dubai | from AED 1,898 per week | myCHEF",
-  "meta_description": "Weekly Meal Prep in Dubai — a private chef cooking a week of fresh meals in your kitchen. From aed 1,898 per week, vetted chefs, full service. Request a proposal from myCHEF.",
+  "title": "Weekly Meal Prep Dubai | from AED 1,900 per week | myCHEF",
+  "meta_description": "Weekly Meal Prep in Dubai — a private chef cooking a week of fresh meals in your kitchen. From aed 1,900 per week, vetted chefs, full service. Request a proposal from myCHEF.",
   "h1": "Weekly Meal Prep in Dubai — What It Costs and How to Book"
  },
  "opening_paragraph": [
-  "Meal prep Dubai from myCHEF is a private chef who shops, cooks and portions a full week of fresh meals in your own kitchen, from AED 1,898 per week. Nothing is frozen and nothing travels the city in a foam box — every dish is shopped that morning, cooked on your worktops, then portioned into labelled glass and dated so Monday's lunch and Thursday's dinner sit one lid away, warm in minutes. Each weekly menu is built around how you eat day to day: the training block you are mid-way through, a household that argues over dinner, an allergy you are tired of re-explaining to a stranger every week. Tell us how your week runs and we typically reply within 15 minutes during business hours, with an itemised proposal to follow."
+  "Meal prep Dubai from myCHEF is a private chef who shops, cooks and portions a full week of fresh meals in your own kitchen, from AED 1,900 per week. Nothing is frozen and nothing travels the city in a foam box — every dish is shopped that morning, cooked on your worktops, then portioned into labelled glass and dated so Monday's lunch and Thursday's dinner sit one lid away, warm in minutes. Each weekly menu is built around how you eat day to day: the training block you are mid-way through, a household that argues over dinner, an allergy you are tired of re-explaining to a stranger every week. Tell us how your week runs and we typically reply within 15 minutes during business hours, with an itemised proposal to follow."
  ],
  "replace_in_block": [
   {
@@ -88,7 +88,7 @@
   {
    "new_heading": "How much does meal prep Dubai cost?",
    "new_paragraphs": [
-    "Weekly meal prep in Dubai starts from AED 1,898 per week, with a larger household or a more ambitious menu from around AED 2,698. The weekly meal prep catering cost moves with three things: how many mouths you are feeding, how far the menu reaches, and whether you want the chef plating on the day or just the week cooked and left ready. There are no hidden weekly meal prep catering packages to decode — the weekly meal prep catering prices are itemised line by line, so an affordable single-person week and a luxury family week are quoted on the same honest basis. For the full picture see our private chef prices and the catering price guide . Weighing it against a one-off booking? Our note on private chef vs catering lays out when each makes sense; and if you are searching weekly meal prep catering near me, the local option worth trusting is usually the one that itemises, not the one that rounds up."
+    "Weekly meal prep in Dubai starts from AED 1,900 per week, with a larger household or a more ambitious menu from around AED 2,700. The weekly meal prep catering cost moves with three things: how many mouths you are feeding, how far the menu reaches, and whether you want the chef plating on the day or just the week cooked and left ready. There are no hidden weekly meal prep catering packages to decode — the weekly meal prep catering prices are itemised line by line, so an affordable single-person week and a luxury family week are quoted on the same honest basis. For the full picture see our private chef prices and the catering price guide . Weighing it against a one-off booking? Our note on private chef vs catering lays out when each makes sense; and if you are searching weekly meal prep catering near me, the local option worth trusting is usually the one that itemises, not the one that rounds up."
    ],
    "insert_after_block": "Weekly Meal Prep Plans",
    "position": "after the block titled 'Weekly Meal Prep Plans'",
@@ -140,7 +140,7 @@
    "new_heading": "Common questions",
    "new_paragraphs": [
     "How much does weekly meal prep cost in Dubai?",
-    "From AED 1,898 per week, quoted by household size, menu reach and service level. Larger or more elaborate weeks run from around AED 2,698, and every quote is itemised line by line so nothing is hidden.",
+    "From AED 1,900 per week, quoted by household size, menu reach and service level. Larger or more elaborate weeks run from around AED 2,700, and every quote is itemised line by line so nothing is hidden.",
     "Is the food cooked fresh or delivered frozen?",
     "Fresh, every time. The chef shops that morning and cooks everything in your own kitchen; nothing is frozen in advance or driven across the city in a box. Cooked meals are then chilled and stored to keep their texture.",
     "Can you cook for a specific diet or training plan?",

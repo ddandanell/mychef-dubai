@@ -13,7 +13,6 @@ import ServicesSection from '@/sections/ServicesSection'
 import TrustSection from '@/sections/TrustSection'
 import HowItWorksSection from '@/sections/HowItWorksSection'
 import LocationsSection from '@/sections/LocationsSection'
-import ReviewInviteSection from '@/sections/ReviewInviteSection'
 import TeamSection from '@/sections/TeamSection'
 import CTASection from '@/sections/CTASection'
 import StarterPackagesSection from '@/sections/StarterPackagesSection'
@@ -25,8 +24,8 @@ export default function Home() {
   return (
     <>
       <SEO
-        title="myCHEF Dubai | A Chef in the House, Catering for the Event"
-        description="myCHEF Dubai: a chef for the household, or catering for the event. One brief, one team. Open the private chef page or the catering page and tell us the job."
+        title="Private Chef Dubai & Event Catering | myCHEF"
+        description="A chef who cooks in your kitchen, or catering for events of any size in Dubai. Every chef is vetted before they cook for you."
         canonicalPath="/"
         ogImage="/images/home-hero.webp"
         preloadHero="/images/home-hero.webp"
@@ -38,15 +37,14 @@ export default function Home() {
       <ServicesSection />
       <StarterPackagesSection
         campaign="home"
-        eyebrow="INDICATIVE PRICING"
+        eyebrow="PRICING"
         title="How much does a private chef or luxury dining package cost in Dubai?"
-        subtitle="Ready-to-book starting points for Dubai's most requested private chef and luxury dining experiences."
+        subtitle="Real starting prices for the evenings we are asked for most. Tell us your date and guest count and we will shape one around you."
       />
       <TrustSection />
       <HowItWorksSection />
       <LocationsSection />
-      <LocationStrip title="Private chef & luxury dining across Dubai" />
-      <ReviewInviteSection />
+      <LocationStrip title="Private chef & luxury dining across Dubai" eyebrow="Areas we cover" />
       <GuidesTeaserSection />
 
       {/* Experience links */}
@@ -61,7 +59,7 @@ export default function Home() {
             <Link to="/events" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">events</Link>
             {' or '}
             <Link to="/weekly-meal-prep-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">weekly meal prep</Link>
-            . Fine dining at home in Dubai is the same house: one brief, one team, one table.
+            . Whichever you choose, it is the same team behind it — one brief, one kitchen, one table.
           </p>
         </div>
       </section>

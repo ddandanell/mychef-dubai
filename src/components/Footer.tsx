@@ -72,7 +72,7 @@ const locationLinks = [
 ]
 
 const WHATSAPP_NUMBER = '971551744849'
-const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF Dubai, I\'d like to request a quote')
+const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF, I\'d like a quote — here is what I am planning:')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
 export default function Footer() {
@@ -92,10 +92,10 @@ export default function Footer() {
               myCHEF
             </Link>
             <p className="mt-4 font-inter text-body-sm text-gray-400 leading-relaxed">
-              Private Dining & Event Design, Dubai
+              Private Chefs & Event Catering, Dubai
             </p>
             <p className="mt-4 font-inter text-body-sm text-gray-500 leading-relaxed">
-              Bespoke dining experiences for villas, yachts, and events across Dubai.
+              Chefs and catering teams for villas, yachts and events across Dubai.
             </p>
             <SocialLinks className="mt-5" />
           </div>
@@ -200,7 +200,7 @@ export default function Footer() {
             <ul className="space-y-3 mb-6">
               <li>
                 <Link to="/how-we-vet-our-chefs" className="font-inter text-body-sm text-gray-400 hover:text-gold transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-black rounded-sm">
-                  How We Vet our chefs
+                  How we vet our chefs
                 </Link>
               </li>
               <li>
@@ -234,11 +234,11 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="mailto:hallo@mychef.ae"
+                  href="mailto:info@mychef.ae"
                   className="flex items-center gap-3 font-inter text-body-sm text-gray-400 hover:text-gold transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-black rounded-sm"
                 >
                   <Mail size={16} className="text-gold flex-shrink-0" aria-hidden="true" />
-                  <span>hallo@mychef.ae</span>
+                  <span>info@mychef.ae</span>
                 </a>
               </li>
               <li>

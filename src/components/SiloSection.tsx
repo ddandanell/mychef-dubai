@@ -73,6 +73,7 @@ const SiloSection = memo(function SiloSection() {
   if (!siblings.length && !children.length && !owners.length && !guides.length) return null
 
   const silo = page.silo || 'myCHEF Dubai'
+  const isHome = pathname === '/'
 
   return (
     <section className="bg-charcoal py-16 print:hidden" aria-label="Related pages">
@@ -108,14 +109,16 @@ const SiloSection = memo(function SiloSection() {
 
         <div className="grid gap-10 lg:grid-cols-[minmax(0,4fr)_minmax(0,8fr)] lg:gap-16">
           <Rail
-            label={page.is_hub ? 'Inside this section' : 'Closest to this page'}
-            title={page.is_hub ? `Everything in ${silo}` : `More in ${silo}`}
+            label={page.is_hub ? 'Inside this section' : isHome ? 'YOU MIGHT ALSO WANT' : 'Closest to this page'}
+            title={page.is_hub ? `Everything in ${silo}` : isHome ? `More from ${silo}` : `More in ${silo}`}
             note={
               page.is_hub
                 ? 'The pages below sit under this hub. Start with the format you already know you want.'
                 : page.uplink
                   ? undefined
-                  : 'Pages chosen by how closely they match this one, not by a fixed list.'
+                  : isHome
+                    ? 'Prices, chefs, and the ways people book us.'
+                    : 'Pages chosen by how closely they match this one, not by a fixed list.'
             }
           />
 

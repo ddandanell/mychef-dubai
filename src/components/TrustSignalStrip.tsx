@@ -12,7 +12,7 @@ const signals = [
   },
   {
     icon: CheckCircle,
-    label: 'Vetted & Background-Checked Chefs',
+    label: 'Vetted Chefs, Scored Every Visit',
   },
   {
     icon: Utensils,
@@ -20,7 +20,7 @@ const signals = [
   },
   {
     icon: Clock,
-    label: 'Typical 15-Min Reply',
+    label: 'Typical 15-Min Reply (business hours)',
   },
 ]
 

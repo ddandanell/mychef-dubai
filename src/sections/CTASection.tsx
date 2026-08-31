@@ -5,7 +5,7 @@ import { useScrollTrigger } from '@/hooks/useScrollTrigger'
 import { buildWhatsAppLink } from '@/lib/whatsapp'
 
 const WHATSAPP_LINK = buildWhatsAppLink(
-  "Hi myCHEF Dubai, I'd like a quote for a private chef or luxury catering in Dubai. Date: __, Guests: __, Area: __ (via mychef.ae/)",
+  "Hi myCHEF, I'd like a quote. My date, guest count and area are:",
   { source: 'mychef.ae', medium: 'cta_button', campaign: 'home_bottom_cta' }
 )
 
@@ -50,7 +50,7 @@ export default function CTASection() {
               Date, guest count and area in Dubai. That is enough to start.
             </h2>
             <p className="font-inter text-body-lg text-gray-400 leading-relaxed max-w-[52ch]">
-              Tell us about your event. We reply within 15 minutes during business hours, then bring you a vetted chef and send a tailored proposal.
+              Tell us what you need — a chef at home, or catering for your event. We reply within 15 minutes in business hours, then bring you a vetted chef and a proposal built around your food, your guests and your kitchen.
             </p>
           </div>
 
@@ -70,7 +70,7 @@ export default function CTASection() {
             </div>
             <p className="mt-5 font-inter text-body-sm text-gray-400 flex items-center gap-2">
               <span className="inline-block w-1.5 h-1.5 rounded-full bg-gold" aria-hidden="true" />
-              Typical reply within 15 min · No obligation
+              Typical reply within 15 min during business hours, 9am to 11pm · No obligation
             </p>
           </div>
         </div>
