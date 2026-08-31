@@ -138,7 +138,7 @@ export default function Yachts() {
           <BodyCopy className="mb-5">
             A private chef yacht Dubai brief is still one day or one evening on the water. It is not a standing household plan. If you want the same chef in a home, week after week, that is{' '}
             <Link to="/private-chef-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
-              Private chef
+              private chef Dubai
             </Link>
             .
           </BodyCopy>

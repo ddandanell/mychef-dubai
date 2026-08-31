@@ -80,18 +80,88 @@ function sanitizeNode(node: Record<string, unknown>, pathname: string): Record<s
     }
   }
 
+  if (types.includes('BreadcrumbList')) {
+    const cleaned = namedBreadcrumbItems(next.itemListElement, pathname)
+    if (!cleaned.length) return null
+    next.itemListElement = cleaned
+  }
+
   return next
+}
+
+function crumbName(el: Record<string, unknown>): string {
+  if (typeof el.name === 'string' && el.name.trim()) return el.name.trim()
+  const item = asRecord(el.item)
+  if (item && typeof item.name === 'string' && item.name.trim()) return item.name.trim()
+  return ''
+}
+
+function crumbUrl(el: Record<string, unknown>): string | undefined {
+  if (typeof el.item === 'string' && el.item.trim()) return el.item.trim()
+  const item = asRecord(el.item)
+  if (!item) return undefined
+  const id = item['@id']
+  if (typeof id === 'string' && id.trim()) return id.trim()
+  if (typeof item.url === 'string' && item.url.trim()) return item.url.trim()
+  return undefined
+}
+
+function pathFromCrumbUrl(url: string | undefined): string | undefined {
+  if (!url) return undefined
+  if (url.startsWith(SITE)) {
+    const path = url.slice(SITE.length) || '/'
+    return path.startsWith('/') ? path : `/${path}`
+  }
+  if (url.startsWith('/')) return url
+  return undefined
+}
+
+function nameFromSilo(pathname: string, url: string | undefined): string {
+  const silo = getSiloPage(pathname)
+  const trail = silo?.breadcrumb ?? []
+  if (!trail.length) return ''
+  const path = pathFromCrumbUrl(url)
+  if (!path) {
+    const last = trail[trail.length - 1]
+    return last?.label?.trim() || ''
+  }
+  const match = trail.find((c) => c.url === path)
+  return match?.label?.trim() || ''
+}
+
+/** Fill missing ListItem names from the contract trail. Only drop a crumb when neither schema nor contract has a name. */
+function namedBreadcrumbItems(raw: unknown, pathname = ''): Record<string, unknown>[] {
+  if (!Array.isArray(raw)) return []
+  const out: Record<string, unknown>[] = []
+  for (const entry of raw) {
+    const el = asRecord(entry)
+    if (!el) continue
+    const item = crumbUrl(el)
+    const name = crumbName(el) || nameFromSilo(pathname, item)
+    if (!name) continue
+    const next: Record<string, unknown> = {
+      '@type': 'ListItem',
+      position: out.length + 1,
+      name,
+    }
+    if (item) next.item = item
+    out.push(next)
+  }
+  return out
 }
 
 function breadcrumbFromSilo(items: { url: string; label: string }[]): Record<string, unknown> {
   return {
     '@type': 'BreadcrumbList',
-    itemListElement: items.map((item, i) => ({
-      '@type': 'ListItem',
-      position: i + 1,
-      name: item.label,
-      item: `${SITE}${item.url === '/' ? '/' : item.url}`,
-    })),
+    itemListElement: namedBreadcrumbItems(
+      items
+        .filter((item) => item.label?.trim())
+        .map((item) => ({
+          '@type': 'ListItem',
+          name: item.label.trim(),
+          item: `${SITE}${item.url === '/' ? '/' : item.url}`,
+        })),
+    ),
   }
 }
 
@@ -130,7 +200,11 @@ export function assemblePageGraph(pathname: string, incoming: unknown): Record<s
 
   if (path !== '/' && !hasType(nodes, 'BreadcrumbList')) {
     const silo = getSiloPage(path)
-    if (silo?.breadcrumb?.length) nodes.push(breadcrumbFromSilo(silo.breadcrumb))
+    if (silo?.breadcrumb?.length) {
+      const crumbs = breadcrumbFromSilo(silo.breadcrumb)
+      const items = crumbs.itemListElement
+      if (Array.isArray(items) && items.length) nodes.push(crumbs)
+    }
   }
 
   if (!nodes.length) return undefined

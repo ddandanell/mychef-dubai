@@ -19,7 +19,7 @@ export default function YachtChartersPartner() {
       eyebrow="FOR YACHT CHARTER COMPANIES"
       subheadline="Elevate every charter with onboard private chef dining, canapés, BBQs, and tailored menus."
       intro="Turn Every Charter Into a Culinary Experience"
-      valueProposition="Guests chartering yachts in Dubai expect world-class service. Partner with myCHEF Dubai to add a private chef or catering package to every voyage, from sunset canapés and deck BBQs to multi-course formal dinners on the water."
+      valueProposition="Guests chartering yachts in Dubai expect the food to match the boat. Partner with myCHEF Dubai to add a private chef or catering package to every voyage — dinner on a yacht, sunset canapés, a deck BBQ, or a multi-course service in the saloon."
       benefits={[
         { icon: Ship, title: 'Onboard Private Chef', description: 'Experienced maritime chefs who understand yacht galleys and deliver restaurant-quality dining at sea.' },
         { icon: TrendingUp, title: 'Premium Upsell', description: 'Add a high-margin culinary experience to your charter packages and increase overall revenue per booking.' },

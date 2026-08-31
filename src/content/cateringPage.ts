@@ -431,7 +431,7 @@ export const cateringFaqs = [
   },
   {
     q: 'Do you cater small parties of 10 to 20 guests at home?',
-    a: 'Yes. Small party catering in Dubai is most of what we do: home catering for a birthday, a dinner for twelve on a villa terrace, a family lunch with one chef and one server. Under about 20 guests you can also book a [private chef](/private-chef-dubai) to cook in your kitchen — often the better fit for a seated dinner. Either way the food is cooked for your date, not pulled from a standing buffet menu.',
+    a: 'Yes. For a party of 10 to 20 at home, home catering Dubai is most of what we do: a birthday, a dinner for twelve on a villa terrace, a family lunch with one chef and one server. Under about 20 guests you can also book a [private chef](/private-chef-dubai) to cook in your kitchen — often the better fit for a seated dinner. Either way the food is cooked for your date, not pulled from a standing buffet menu.',
   },
   {
     q: 'Do you provide grazing tables, live stations, gala dinners and waiters?',

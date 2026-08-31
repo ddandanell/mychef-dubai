@@ -80,7 +80,7 @@ export default function SEO({
       <meta name="description" content={description} />
       <link rel="canonical" href={canonicalUrl} />
       {preloadHero && (
-        <link rel="preload" as="image" type="image/webp" href={`${SITE_URL}${preloadHero}`} imageSizes="100vw" />
+        <link rel="preload" as="image" type="image/webp" href={`${SITE_URL}${preloadHero}`} imageSizes="100vw" fetchPriority="high" />
       )}
       <html lang="en" />
       <meta name="robots" content={hidden ? 'noindex, follow' : 'index, follow'} />

@@ -24,7 +24,7 @@ export default function Home() {
   return (
     <>
       <SEO
-        title="Private Chef Dubai & Event Catering | myCHEF"
+        title="myCHEF Dubai | A Chef for Your Kitchen and Events"
         description="A chef who cooks in your kitchen, or catering for events of any size in Dubai. Every chef is vetted before they cook for you."
         canonicalPath="/"
         ogImage="/images/home-hero.webp"
@@ -52,14 +52,14 @@ export default function Home() {
         <div className="container-custom max-w-[900px] text-center">
           <p className="font-inter text-body text-gray-500 leading-relaxed">
             Start with{' '}
-            <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef</Link>
+            <Link to="/private-chef-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">private chef Dubai</Link>
             {', '}
             <Link to="/catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">catering</Link>
             {', '}
             <Link to="/events" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">events</Link>
             {' or '}
             <Link to="/weekly-meal-prep-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">weekly meal prep</Link>
-            . Whichever you choose, it is the same team behind it — one brief, one kitchen, one table.
+            . Fine dining at home Dubai uses the same team as a villa event — one brief, one kitchen, one table.
           </p>
         </div>
       </section>
