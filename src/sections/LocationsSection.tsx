@@ -8,12 +8,12 @@ import { locationPath } from '@/data/locations'
 import { isParked } from '@/content/parkedUrls'
 
 const locations = [
-  { image: '/loc-palm-jumeirah.webp', name: 'Palm Jumeirah', slug: 'palm-jumeirah' },
-  { image: '/loc-downtown.webp', name: 'Downtown Dubai', slug: 'downtown-dubai' },
-  { image: '/loc-dubai-marina.webp', name: 'Dubai Marina', slug: 'dubai-marina' },
-  { image: '/loc-emirates-hills.webp', name: 'Emirates Hills', slug: 'emirates-hills' },
   { image: '/loc-jbr.webp', name: 'JBR', slug: 'jbr' },
   { image: '/loc-difc.webp', name: 'DIFC', slug: 'difc' },
+  { image: '/loc-dubai-marina.webp', name: 'JLT', slug: 'jlt' },
+  { image: '/loc-downtown.webp', name: 'Al Barsha', slug: 'al-barsha' },
+  { image: '/loc-palm-jumeirah.webp', name: 'Palm Jumeirah', slug: 'palm-jumeirah' },
+  { image: '/loc-emirates-hills.webp', name: 'Emirates Hills', slug: 'emirates-hills' },
 ]
 
 export default function LocationsSection() {
@@ -53,6 +53,14 @@ export default function LocationsSection() {
     return () => ctx.revert()
   }, [])
 
+  const liveLocations = locations.filter((l) => !isParked(locationPath(l.slug)))
+  const gridCols =
+    liveLocations.length <= 2
+      ? 'grid-cols-2'
+      : liveLocations.length <= 4
+        ? 'grid-cols-2 md:grid-cols-4'
+        : 'grid-cols-2 md:grid-cols-3 lg:grid-cols-6'
+
   return (
     <section ref={sectionRef} className="bg-black section-padding">
       <div className="container-custom">
@@ -79,9 +87,9 @@ export default function LocationsSection() {
         {/* Contact sheet — one hairline row at lg, not a card grid */}
         <div
           ref={cardsRef}
-          className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-px bg-white/10 border border-white/10"
+          className={`grid ${gridCols} gap-px bg-white/10 border border-white/10`}
         >
-          {locations.filter((l) => !isParked(locationPath(l.slug))).map((loc) => (
+          {liveLocations.map((loc) => (
             <Link
               key={loc.slug}
               to={locationPath(loc.slug)}
