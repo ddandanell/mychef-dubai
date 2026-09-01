@@ -291,11 +291,11 @@ export default function PrivateChefPrices() {
         <div className="container-custom max-w-[900px]">
           <div className="prices-section opacity-0 translate-y-8 border border-gray-200 bg-white p-6 md:p-10">
             <SectionLabel>September only</SectionLabel>
-            <h2 className="font-playfair text-h2 text-black mb-3">AED 1,500 a day. AED 1,040 this September.</h2>
+            <h2 className="font-playfair text-h2 text-black mb-3">A full-day chef from AED 1,040 a day</h2>
             <p className="font-inter text-body text-gray-600 mb-6 max-w-[760px]">
-              That is a full-day chef — nine hours in your kitchen. AED 1,300 a day through September, and down to AED 1,040 when you book twenty days or more.
+              Nine hours in your kitchen: the planning, the shopping, the cooking and the clearing up. AED 1,300 a day through September, and down to AED 1,040 a day at twenty days or more. Full-day chef only, and the rate moves a little with how far we travel to you.
             </p>
-            <p className="font-inter text-body-sm text-gray-600 mb-3">Every day you book, a chef gives you nine hours in your kitchen. That is:</p>
+            <p className="font-inter text-body-sm text-gray-600 mb-3">A full-day chef is normally AED 1,500 a day. Every day you book, that is:</p>
             <ul className="space-y-2 mb-6">
               {[
                 'Your menu, planned with you',
@@ -318,9 +318,9 @@ export default function PrivateChefPrices() {
             <ul className="space-y-2 mb-6">
               {[
                 '5 to 9 days a month — 5% off — AED 1,235 a day',
-                '10 to 14 days — 10% off — AED 1,170 a day',
-                '15 to 19 days — 15% off — AED 1,105 a day',
-                '20 days or more — 20% off — AED 1,040 a day',
+                '10 to 14 days a month — 10% off — AED 1,170 a day',
+                '15 to 19 days a month — 15% off — AED 1,105 a day',
+                '20 days or more a month — 20% off — AED 1,040 a day',
               ].map((item) => (
                 <li key={item} className="flex items-start gap-3">
                   <Check size={16} className="text-gold flex-shrink-0 mt-1" />
@@ -334,18 +334,18 @@ export default function PrivateChefPrices() {
             <p className="font-inter text-body-sm text-gray-600 mb-6 max-w-[760px]">
               Here is the part worth knowing. You are not subscribing to food — you are reserving one chef's time. A full-day plan takes most of a chef's month, which is why there are six places this September. When those six households are matched, the September rate closes with them.
             </p>
-            <p className="font-inter text-body-sm text-gray-600 mb-6 max-w-[760px]">
-              Agree your plan this month and we hold the rate for three months.
+            <p className="font-inter text-body-sm text-gray-600 max-w-[760px]">
+              Agree your plan this month and we hold the rate for three months.{' '}
+              <a
+                href={WHATSAPP_LINK}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gold-ink underline underline-offset-4 hover:text-gold"
+              >
+                WhatsApp us now for more info
+              </a>
+              {' '}— tell us your days and we will come back with the exact figure for your month, before you commit to anything.
             </p>
-            <a
-              href={WHATSAPP_LINK}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 font-inter text-caption uppercase tracking-wider text-gold-ink hover:text-gold"
-            >
-              WhatsApp us now for more info <ArrowRight size={14} />
-            </a>
-            <p className="font-inter text-caption text-gray-400 mt-3">Tell us your days and we will come back with the exact figure for your month, before you commit to anything.</p>
           </div>
           <div className="prices-section opacity-0 translate-y-8 mt-10">
             <h3 className="font-playfair text-h3 text-black mb-4">How and when you are charged</h3>
