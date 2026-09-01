@@ -15,9 +15,7 @@ import {
   ASSISTANT_RATES,
   CUSTOM_STAFFING_FROM,
   LONG_TERM_MIN_SERVICES,
-  SERVICES,
   OVERTIME,
-  overtimeRate,
   RESCHEDULE_NOTICE_HOURS,
   SPECIALISTS,
   fmt,
@@ -36,6 +34,8 @@ export interface TermItem {
   twoUp?: TermTwoUp
   /** Shown in the digest under the calculator (rules that influence the purchase). */
   decisionRelevant: boolean
+  /** Optional closing paragraph after bullets. */
+  closing?: string
   /** Internal only. Never rendered. */
   legalReview?: string
 }
@@ -76,7 +76,7 @@ export const PLAN_TERMS: TermGroup[] = [
         id: 'food-profile',
         title: 'Your Food Profile is included.',
         paragraphs: [
-          'Every long-term household starts with a Food Profile. It records the practical things your chef should learn over time:',
+          'Every long-term household starts with a Food Profile. It records the practical things your chef should never have to guess:',
         ],
         bullets: ['Preferred cuisines', 'Foods you avoid', 'Allergies and dietary requirements', 'Children’s preferences', 'Portion sizes', 'Meal times', 'Spice level', 'Regular breakfast habits', 'Guest patterns', 'Shopping preferences'],
         decisionRelevant: false,
@@ -85,7 +85,7 @@ export const PLAN_TERMS: TermGroup[] = [
         id: 'food-profile-aim',
         title: 'You should not have to explain the same things every week.',
         paragraphs: [
-          'Your chef uses the Food Profile as the household reference, and your account manager can update it as your preferences change. When a chef changes, the profile stays with the house.',
+          'Your chef works from the Food Profile, and your account manager updates it as your preferences change. When the chef changes, the profile stays with you.',
         ],
         decisionRelevant: false,
       },
@@ -93,10 +93,31 @@ export const PLAN_TERMS: TermGroup[] = [
         id: 'chef-level',
         title: 'One price for the job. The level is what the chef earns.',
         paragraphs: [
-          'There is one word for the person who cooks in your house: a professional chef. Nobody is placed who has not passed identity, right-to-work, a practical cooking assessment and references, so the entry level is a pass rather than a budget option.',
-          'What has three levels is the chef’s own pay. Level 1 is where everyone starts and the price you see is the price. A month scored 4.0 or better reaches Level 2 and the chef earns 10% more; holding 4.0 for three months reaches Level 3 and 20% more. Below 3.5 a chef drops a level, and twice below 2.5 ends the household work.',
-          'The extra is paid to the registered chef, not to the company that sent them — and your figure does not move when they climb. There is no more expensive grade of chef for us to recommend you up to.',
+          'There is one word for the person who cooks in your home: a professional chef. Nobody is placed until we have checked identity and right to work, passed them on a practical cooking assessment, taken references and confirmed food-hygiene awareness. The entry level is a pass, not a budget option.',
+          'Three levels, and they describe the standard a chef is working to — not what you pay. Everyone starts at Level 1, and the price you see is the price. Consistently strong service across a month moves a chef to Level 2, and holding that standard for three months reaches Level 3. A chef whose work slips moves back down, and one who keeps slipping is taken off household work.',
+          'The extra is paid by us, and your figure does not move when they move up. There is no more expensive grade of chef for us to move you up to.',
         ],
+        decisionRelevant: true,
+      },
+      {
+        id: 'how-we-keep-the-standard',
+        title: 'How we keep the standard',
+        paragraphs: [
+          'Our quality process carries on after a chef has been matched to your home.',
+          'We use your feedback, the service history and ongoing performance assessment to understand how each visit is actually going.',
+          'We look at areas such as:',
+        ],
+        bullets: [
+          'Food quality and presentation',
+          'Professionalism and punctuality',
+          'Cleanliness and kitchen care',
+          'Communication',
+          'Understanding of your preferences',
+          'Consistency from one visit to the next',
+          'Your overall satisfaction',
+        ],
+        closing:
+          'Strong performance is recognised and incentivised across the myCHEF network. That is how the standard holds, and it is why the good chefs stay.',
         decisionRelevant: true,
       },
       {
@@ -154,7 +175,7 @@ export const PLAN_TERMS: TermGroup[] = [
           left: { label: 'You manage the groceries', lines: ['Your chef plans the food with you and tells you what is needed. You purchase the ingredients and have them available for the scheduled service.'] },
           right: {
             label: 'Kitchen on Autopilot',
-            lines: ['We take responsibility for the food-management process: planning meals, checking existing stock, building shopping lists, ordering online or shopping in person, organising receipts, tracking purchases, preparing the food, keeping the kitchen organised.'],
+            lines: ['We take responsibility for the food-management process: planning meals, checking existing stock, building shopping lists, ordering online or shopping in person, organising receipts and tracking purchases. Your chef prepares the food and keeps the kitchen organised.'],
           },
         },
         decisionRelevant: true,
@@ -163,7 +184,7 @@ export const PLAN_TERMS: TermGroup[] = [
         id: 'guests',
         title: 'Your household plan covers normal household use.',
         paragraphs: [
-          `Standard chef plans include cooking for up to ${ASSISTANT_BANDS[0].max} people. Having friends or family over occasionally is not a problem, but additional staffing may be required as the guest count increases.`,
+          `Standard chef plans include cooking for up to ${ASSISTANT_BANDS[0].max} people. Having friends or family over occasionally is not a problem, but a bigger table usually needs extra hands — the guide below shows how many.`,
           'If you are planning a larger dinner, birthday, reception or event, your account manager can also move that service into our Catering team where appropriate.',
         ],
         bullets: bands,
@@ -182,7 +203,7 @@ export const PLAN_TERMS: TermGroup[] = [
         id: 'overtime',
         title: 'Need the chef for longer?',
         paragraphs: [
-          `Standard Full-Day Private Chef: ${OVERTIME.standardDayHours} hours. Extra time is the hourly rate of that job plus ${OVERTIME.uplift * 100}% — ${SERVICES.map((s) => `${s.name} ${fmt(overtimeRate(s.id))}`).join(', ')} per hour. Additional assistant time: ${fmt(OVERTIME.assistant)} per hour. The uplift goes to the supplier who employs the chef; the chef stays on their normal rate, so a long day is nobody's incentive.`,
+          `Standard Full-Day Private Chef: ${OVERTIME.standardDayHours} hours. Extra time is quoted at the applicable hourly rate, from AED 150 to AED 500 an hour, agreed with you before anyone stays on. Additional assistant time: ${fmt(OVERTIME.assistant)} per hour.`,
           'Short extensions can often be handled by your regular chef when arranged in advance. Longer coverage may require a second chef or rotating team so service quality and working conditions remain sustainable.',
         ],
         decisionRelevant: true,
@@ -259,10 +280,10 @@ export const PLAN_TERMS: TermGroup[] = [
     items: [
       {
         id: 'rescheduling',
-        title: 'Plans change. Your schedule can too.',
+        title: 'Move or cancel a visit with 24 hours’ notice.',
         paragraphs: [
-          `Give us at least ${RESCHEDULE_NOTICE_HOURS} hours’ notice and we can normally move a scheduled chef service within the same billing period, subject to chef availability.`,
-          `Changes made with less than ${RESCHEDULE_NOTICE_HOURS} hours’ notice remain chargeable because the chef’s time has already been reserved for your household. Rescheduled services should normally be used within the same monthly billing period.`,
+          `Give us at least ${RESCHEDULE_NOTICE_HOURS} hours’ notice and you can move or cancel a scheduled chef service without being charged for it. Moving one depends on chef availability; cancelling one does not. Terms and conditions apply.`,
+          `Inside 24 hours a service stays chargeable, because the chef’s day has already been held for you. Rescheduled services should normally be used within the same monthly billing period.`,
         ],
         decisionRelevant: true,
       },
@@ -287,7 +308,7 @@ export const PLAN_TERMS: TermGroup[] = [
         id: 'leave',
         title: 'Professional chefs need a sustainable schedule too.',
         paragraphs: [
-          'We build recurring schedules around both the household and the chef. Regular rest, leave and sensible working hours help us maintain consistent performance over longer arrangements.',
+          'We build recurring schedules around your home and around the chef. Regular rest, proper leave and sensible hours are how the work stays good over months rather than weeks.',
           'When planned leave affects your schedule, your account manager coordinates the arrangement with you in advance. For higher-frequency households, replacement or rotating chef coverage can be arranged where required.',
         ],
         decisionRelevant: false,
@@ -378,9 +399,9 @@ export const PLAN_TERMS: TermGroup[] = [
       },
       {
         id: 'illness',
-        title: 'Illness in the household.',
+        title: 'If someone at home is ill.',
         paragraphs: [
-          'If somebody in the household has a contagious illness that creates a meaningful risk, please notify myCHEF. Likewise, an ill chef notifies myCHEF. We then decide together whether to continue, reschedule, replace or take additional precautions.',
+          'If somebody in your home has a contagious illness that creates a real risk, please tell us. If the chef is ill, they tell us. We then decide together whether to go ahead, move the visit, send someone else, or take extra precautions.',
         ],
         decisionRelevant: false,
       },
@@ -445,9 +466,9 @@ export const PLAN_TERMS: TermGroup[] = [
       { id: 'pay-record', title: '5. Digital record', paragraphs: ['Every grocery transaction creates a record with, where available, the date, store or supplier, amount, receipt photograph, purchase category and the staff member responsible. Online purchases carry the order confirmation or digital receipt. Both you and myCHEF can trace household food spending.'], decisionRelevant: false },
       { id: 'pay-storage', title: '6. Card and cash storage', paragraphs: ['We agree a designated secure location inside the home for the household card, cash float and physical receipts. After shopping, the card and any remaining cash go back to their agreed location, receipts to the receipt box, and the transaction to the household system. The payment method is not normally taken away from the household outside an authorised purchasing period.'], decisionRelevant: false },
       { id: 'pay-cash', title: '7. Cash purchases', paragraphs: ['Where you provide cash, the same documentation applies: cash received, amount spent, receipts and remaining balance are recorded, and the remaining cash is returned to the agreed location after the purchasing activity.'], decisionRelevant: false },
-      { id: 'pay-transport', title: '8. Transport and delivery', paragraphs: ['myCHEF does not add a markup to grocery transport. If you provide a household driver, the chef may coordinate shopping transport with them. If a taxi or other transport is required, the actual cost is charged to the household and recorded with the related shopping activity. Online delivery charges are handled the same way. You pay only the actual direct cost.'], decisionRelevant: false },
+      { id: 'pay-transport', title: '8. Transport and delivery', paragraphs: ['We do not add a markup to grocery transport. If you have a household driver, the chef can arrange shopping transport with them. If a taxi or other transport is needed, the actual cost is charged to you and recorded against that shopping trip. Online delivery charges work the same way. You pay the actual cost and nothing on top.'], decisionRelevant: false },
       { id: 'pay-no-markup', title: '9. No grocery markup', paragraphs: ['myCHEF does not add a percentage or purchasing commission to groceries. You pay the actual amount charged by the supermarket, supplier or delivery service. The additional cost of grocery management comes from the chef time allocated to planning, stock management, purchasing, communication and kitchen administration.'], decisionRelevant: false },
-      { id: 'pay-planning', title: '10. Grocery planning', paragraphs: ['Grocery management is not limited to visiting a supermarket. The allocated time can include meal planning, reviewing the Food Profile, checking stock, preparing shopping lists, comparing suppliers, ordering online, shopping in person, receiving deliveries, organising purchased food, recording receipts and communicating with the household about food requirements. Some days require substantial shopping time; others none. The service is managed across your recurring schedule rather than charging a separate shopping fee per visit.'], decisionRelevant: false },
+      { id: 'pay-planning', title: '10. Grocery planning', paragraphs: ['Grocery management is not just a trip to the supermarket. The time can go on planning meals, reading the Food Profile, checking what you already have, writing lists and comparing suppliers. It also covers ordering online or shopping in person, taking deliveries, putting the food away, recording receipts, and telling you what the kitchen needs. Some days take a lot of shopping time and some take none. We manage it across your recurring schedule rather than charging a shopping fee every visit.'], decisionRelevant: false },
       { id: 'pay-limits', title: '11. Spending limits', paragraphs: ['You may set a daily, weekly, monthly or per-transaction spending limit. Purchases above an agreed limit require your approval before the transaction is completed. You may also identify products or categories that always require approval.'], decisionRelevant: false },
       { id: 'pay-transparency', title: '12. Transparency', paragraphs: ['Every household purchase handled through myCHEF can be matched to a payment, a receipt, a staff member and a household record. Anything that cannot be reconciled is reported and investigated.'], decisionRelevant: false },
       { id: 'pay-misuse', title: '13. Lost card, cash discrepancy or suspected misuse', paragraphs: ['Any lost card, unexplained cash difference, incorrect purchase or suspected unauthorised use is reported immediately to you and to the responsible myCHEF manager. The staff member cooperates fully with the review and provides all receipts, records and supporting information. You remain responsible for contacting your bank or payment provider where a card needs to be blocked, replaced or disputed.'], decisionRelevant: false },
@@ -462,10 +483,10 @@ export const PLAN_TERMS: TermGroup[] = [
     items: [
       {
         id: 'structured-staffing',
-        title: 'Structured staffing, not casual labour.',
+        title: 'Structured staffing, not a handshake hire.',
         paragraphs: [
-          'Having someone work regularly inside your home requires more than finding a good cook. myCHEF builds its chef arrangements around documented, professionally managed staffing rather than asking clients to source informal labour themselves.',
-          'The exact employment and work-permission structure depends on the chef and arrangement and is managed through the appropriate operating setup.',
+          'Having someone work regularly inside your home takes more than finding a good cook. We build the arrangement around documented, professionally managed staffing, rather than leaving you to find somebody informally and hope it holds.',
+          'We ask to see the visa and the right-to-work document for every chef before they cook in your home — and none of it is yours to arrange, file or sponsor.',
         ],
         decisionRelevant: false,
         legalReview: 'UAE counsel to review before any specific employment/visa claims are published (MOHRE domestic-worker and temporary-employment frameworks).',

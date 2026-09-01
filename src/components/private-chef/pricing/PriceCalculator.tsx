@@ -25,7 +25,7 @@ import {
   type ServiceId,
 } from '@/content/privateChefPricing'
 import { CLUSTER_PATHS } from '@/content/privateChefCluster'
-import { EMPLOYMENT, QUALITY_LEVELS } from '@/content/privateChefStandard'
+import { QUALITY_LEVELS } from '@/content/privateChefStandard'
 import { feedbackFor, type LastChange } from './feedback'
 import PlanForm from './PlanForm'
 import PlanSheet from './PlanSheet'
@@ -125,7 +125,7 @@ export default function PriceCalculator() {
               <Stepper value={input.stayDays} min={SHORT_STAY.minDays} max={SHORT_STAY.maxDays} onChange={(v) => set('stayDays', v)} label="chef days" unit="chef days" />
             </Row>
           ) : (
-            <Row label="How often" hint={`From ${LONG_TERM_MIN_SERVICES} visits a month. Pick the days your house actually needs.`}>
+            <Row label="How often" hint={`From ${LONG_TERM_MIN_SERVICES} visits a month. Pick the days your home actually needs.`}>
               <div className="grid grid-cols-4 sm:grid-cols-7 gap-2">
                 {FREQUENCIES.map((f) => {
                   const on = input.daysPerWeek === f.days
@@ -218,14 +218,14 @@ export default function PriceCalculator() {
                 <div key={level.id} className="border border-gray-200 px-4 py-3">
                   <span className="block font-playfair text-h4 leading-none text-gold-ink">{level.name}</span>
                   <span className="mt-1 block font-inter text-caption uppercase tracking-wider text-gray-400">
-                    {level.label} · {level.extraPct ? `+${level.extraPct * 100}% to the chef` : 'the price is the price'}
+                    {level.label} · {level.earnedBy}
                   </span>
                   <span className="mt-2 block font-inter text-body-sm text-gray-600">{level.meaning}</span>
                 </div>
               ))}
             </div>
             <p className="mt-3 font-inter text-body-sm text-gray-500">
-              {EMPLOYMENT.short} The quality extra is paid to the registered chef, not to the company that sent them.{' '}
+              Recognising a chef is our cost, not yours. Your figure does not change.{' '}
               <Link to={CLUSTER_PATHS.ourChefs} className="text-gold-ink underline underline-offset-4">How we score chefs</Link>
             </p>
           </Row>

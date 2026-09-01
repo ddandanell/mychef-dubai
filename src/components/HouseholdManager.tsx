@@ -12,7 +12,7 @@ const MANAGERS = [
 ] as const
 
 const RESPONSIBILITIES = [
-  { Icon: MessageCircle, title: 'One person for your house', body: 'You always know who to contact. Fast, personal and consistent.' },
+  { Icon: MessageCircle, title: 'One person for your home', body: 'You always know who to contact. Fast, personal and consistent.' },
   { Icon: ChefHat, title: 'Working with the chef', body: 'Your manager knows your Food Profile, your usual chefs and what works.' },
   { Icon: ClipboardCheck, title: 'Accountability & feedback', body: 'They check in, follow up and make sure issues actually get handled.' },
   { Icon: Users, title: 'Experienced & trusted', body: 'Hospitality professionals with 10+ years of experience.' },

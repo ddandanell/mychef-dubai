@@ -29,16 +29,21 @@ export default function SiloChildren() {
   const missing = kids.filter((k) => k.href && !alreadyListed.has(k.href))
   if (!missing.length) return null
 
-  const isHome = pathname === '/'
+  const path = pathname.length > 1 && pathname.endsWith('/') ? pathname.replace(/\/+$/, '') : pathname
+  const isHome = path === '/'
+  const isPrivateChefHub = path === '/private-chef-dubai'
   const sectionLabel = isHome ? 'More about myCHEF' : 'Inside this section'
+  const visibleLabel = isPrivateChefHub ? 'More in this section' : sectionLabel
   const sectionNote = isHome
     ? 'Who we are and how we work.'
-    : 'Everything filed under this page, in one place — so you can see the whole section rather than finding it a page at a time.'
+    : isPrivateChefHub
+      ? 'Everything about the household chef service, in one place.'
+      : 'Everything filed under this page, in one place — so you can see the whole section rather than finding it a page at a time.'
 
   return (
     <section className="border-t border-white/10 bg-black py-12 print:hidden" aria-label={sectionLabel}>
       <div className="container-custom max-w-[1200px]">
-        <SectionLabel tone="dark">{sectionLabel}</SectionLabel>
+        <SectionLabel tone="dark">{visibleLabel}</SectionLabel>
         <p className="mb-6 max-w-[62ch] font-inter text-body-sm leading-relaxed text-white/50">
           {sectionNote}
         </p>

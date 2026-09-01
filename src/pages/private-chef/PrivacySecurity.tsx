@@ -15,7 +15,7 @@ import ClusterCTA from '../../components/private-chef/ClusterCTA'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { plainFaqAnswer } from '../../utils/schema'
 import { clusterHeroes, doPromise, dontPromise, vettingSteps, WHATSAPP_MESSAGE } from '../../content/privateChefPage'
-import { EMPLOYMENT } from '../../content/privateChefStandard'
+
 import { CLUSTER_PATHS, FIND_CHEF_LABEL, INQUIRY_HREF, childSeo, householdConduct, informationBoundaries, privacyFaqs } from '../../content/privateChefCluster'
 
 const PATH = CLUSTER_PATHS.privacy
@@ -23,7 +23,7 @@ const seo = childSeo.privacy
 
 /** Only the entry checks we actually run — not trial bookings or ongoing review. */
 const ENTRY_CHECK_TITLES = new Set([
-  'Identity and right-to-work',
+  'Identity and right to work',
   'Practical cooking assessment',
   'References',
   'Food safety',
@@ -95,26 +95,24 @@ export default function PrivateChefPrivacySecurity() {
           <Eyebrow>Identity & background</Eyebrow>
           <DisplayHeading size="h2" className="text-black mb-4">Only checks we actually run</DisplayHeading>
           <BodyCopy className="mb-5 max-w-[760px]">
-            Someone is entering your private home. We check identity and right-to-work, cook in a practical assessment, take references, and require food-hygiene awareness. That is the list. {EMPLOYMENT.visa}
+            Someone is coming into your home. We check identity and right to work, run a practical cooking assessment, take references, and require food-hygiene awareness. That is the list. We ask to see the visa and the right-to-work document before anyone cooks in your kitchen. Not a tick on a form — the document itself.
           </BodyCopy>
           <BodyCopy className="mb-5 max-w-[760px]">
-            {EMPLOYMENT.notAnAgency} An agency hands over CVs and steps away once someone is hired; we stay in the
-            assignment — the checks below are ours to run, and ours to stand behind for as long as the chef is in your
-            family’s home.
+            We are not an agency. Nobody sends you a stack of CVs and then disappears once someone is hired. We stay in the assignment — the checks below are ours to run, and ours to stand behind for as long as the chef is in your family’s home.
           </BodyCopy>
           <BodyCopy className="mb-5 max-w-[760px]">
-            Said plainly, because it decides who carries the risk: {EMPLOYMENT.full.charAt(0).toLowerCase() + EMPLOYMENT.full.slice(1)}
+            Said plainly, because it decides what lands on you. We match the person to your home, manage the arrangement, score the work, and stand behind the standard. You never put a chef on your payroll, and there is no visa or sponsorship for you to arrange.
           </BodyCopy>
           <BodyCopy className="mb-8 max-w-[760px]">
             We do not publish police certificates we have not seen, licences we cannot show, or absolute safety guarantees. If a check is not below, we do not claim it. The same four steps are described when we{' '}
             <Link to="/how-we-vet-our-chefs" className="text-gold-ink underline underline-offset-4">vet our chefs</Link>
-            . How those chefs are then matched to a house sits on{' '}
+            . How those chefs are then matched to a home sits on{' '}
             <Link to={CLUSTER_PATHS.ourChefs} className="text-gold-ink underline underline-offset-4">Our Chefs</Link>.
           </BodyCopy>
           <ol className="grid sm:grid-cols-2 gap-px bg-gray-200 border border-gray-200">
             {entryChecks.map((step, i) => {
               const Icon = {
-                'Identity and right-to-work': IdCard,
+                'Identity and right to work': IdCard,
                 'Practical cooking assessment': CookingPot,
                 'References': PhoneCall,
                 'Food safety': ShieldCheck,
@@ -160,7 +158,7 @@ export default function PrivateChefPrivacySecurity() {
           <Eyebrow>Discretion</Eyebrow>
           <DisplayHeading size="h2" className="text-black mb-4">Information boundaries</DisplayHeading>
           <BodyCopy className="mb-10 max-w-[760px]">
-            Discretion is not a slogan. It is a split between what the chef must know to cook safely in this house, and what is none of the assignment. The Food Profile holds the former — see{' '}
+            Discretion is not a slogan. It is a line. On one side, what a chef must know to cook safely in your home. On the other, everything that is none of their business. The Food Profile holds the first of those — see{' '}
             <Link to={CLUSTER_PATHS.howItWorks} className="text-gold-ink underline underline-offset-4">how that record is built</Link>.
           </BodyCopy>
           <div className="grid md:grid-cols-2 gap-6">
@@ -186,10 +184,10 @@ export default function PrivateChefPrivacySecurity() {
           <Eyebrow tone="dark">Dedicated contact</Eyebrow>
           <DisplayHeading size="h2" className="text-white mb-4">You should not have to manage every issue directly with the chef</DisplayHeading>
           <BodyCopy tone="dark" className="mb-5 max-w-[760px]">
-            myCHEF sits between operations and the household. Something that was not right, a change of chef, a specialist on Friday, or an absence goes through your household manager.
+            myCHEF stays in the middle of it. Anything that was not right goes to your household manager — a change of chef, a specialist for Friday, a chef who cannot come.
           </BodyCopy>
           <BodyCopy tone="dark-strong" className="max-w-[760px]">
-            When an assignment ends, access ends with it. The Food Profile stays with the household. The next chef is briefed from that record — not from an informal handover at your door. We only describe procedures we actually operate.
+            When an assignment ends, so does the access. Your Food Profile stays with you, and the next chef is briefed from that record — not from a hurried handover at your door. We only describe procedures we actually run.
           </BodyCopy>
         </Container>
       </Section>
@@ -250,7 +248,7 @@ export default function PrivateChefPrivacySecurity() {
         </div>
       </section>
 
-      <ClusterCTA title="A chef in the house, with a standard around them" body="A private chef for family life means guests, children and school-week reality. Tell us about the household. We match, run the checks above, and manage the assignment — you are not left running the operation yourself." />
+      <ClusterCTA title="A chef in your home, with a standard around them" body="A private chef for family life means guests, children and the school week. Tell us about your family. We match the chef, run the checks above, and manage the arrangement — you are not left running it yourself." />
     </div>
   )
 }

@@ -5,7 +5,7 @@ import { SectionLabel, iconForSectionLabel } from '@/components/system'
 
 
 export default function ClusterCTA({
-  eyebrow = 'If this is the house you want',
+  eyebrow = 'If this is what you want at home',
   title = 'Start the household plan',
   body = 'Long-term plans from AED 3,000 a month for a weekly Fresh Meal — up to a full-day chef, seven days a week. Build the plan on the pricing page, send it, and the exact figure arrives in writing before anything starts.',
   inquiryLabel,

@@ -44,30 +44,34 @@ export const QUALITY_LEVELS = [
     name: 'Level 1',
     label: 'Starting',
     extraPct: 0,
-    meaning: 'Every chef starts here. The price the house pays is the price.',
+    /** Client-facing line beside the level. extraPct stays for internal math and must not render. */
+    earnedBy: 'the price is the price',
+    meaning: 'Every chef starts here.',
   },
   {
     id: 2,
     name: 'Level 2',
     label: 'Good work',
     extraPct: 0.1,
-    meaning: 'Scored 4.0 or better across a full month of visits. The cook earns 10% more.',
+    earnedBy: 'a month of strong service',
+    meaning: 'Consistently strong feedback across a full month of service.',
   },
   {
     id: 3,
     name: 'Level 3',
     label: 'Kept good work',
     extraPct: 0.2,
-    meaning: 'Held 4.0 or better for three months. The cook earns 20% more, and catering leads open up.',
+    earnedBy: 'three months of strong service',
+    meaning: 'That standard held for three months. Catering work opens up.',
   },
 ] as const
 
 /** What the score does. Printed identically on Our Chefs, Quality & Training and How it works. */
 export const SCORE_BANDS = [
-  { band: '4.0 and up', effect: 'Climbs a level at the next review.' },
-  { band: '3.5 – 3.9', effect: 'Holds the current level.' },
-  { band: 'Under 3.5', effect: 'Drops a level, and we look at the match before we look at the person.' },
-  { band: 'Under 2.5, twice', effect: 'That person stops working in houses through us.' },
+  { band: 'Consistently strong', effect: 'Climbs a level at the next review.' },
+  { band: 'Steady', effect: 'Holds the current level.' },
+  { band: 'Below the standard', effect: 'Drops a level, and we look at the match before we look at the person.' },
+  { band: 'Well under, twice', effect: 'We stop sending that chef to homes.' },
 ] as const
 
 /** The four questions the house is asked. Same four on the supplier paper. */
@@ -95,8 +99,7 @@ export const CANCEL_NOTICE_HOURS = 24
 export const OVERTIME_UPLIFT = 0.5
 
 export const OVERTIME_RULE =
-  'Extra time is charged at the hourly rate of that job plus 50%. The 50% goes to the supplier; the ' +
-  'cook stays on their normal rate, so nobody has a reason to make a day run long.'
+  'Extra time is quoted at the applicable hourly rate, from AED 150 to AED 500 an hour, agreed with you before anyone stays on. The chef stays on their normal rate, so nobody has a reason to make your day run long.'
 
 /** The month we teach, everywhere: four days a week, Kitchen on Autopilot. */
 const AUTOPILOT = SERVICES.find((s) => s.id === 'autopilot')!

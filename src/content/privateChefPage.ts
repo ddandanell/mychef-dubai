@@ -17,7 +17,7 @@ export const ENTRY_MONTHLY = monthlyFrom(SERVICES[0].rate, 1)
 
 export const SEO_TITLE = `Private Chef Dubai | From ${formatAed(ENTRY_MONTHLY)} a Month | myCHEF`
 export const SEO_DESCRIPTION =
-  `A standing private chef for the household in Dubai. Prep, dinner or full-day plans from ${formatAed(ENTRY_MONTHLY)} a month. Matched, managed and replaced if the fit is wrong.`
+  `A standing private chef for your home in Dubai. Prep, dinner or full-day plans from ${formatAed(ENTRY_MONTHLY)} a month. Matched, managed, and replaced if the fit is wrong.`
 export const H1 = 'Private Chef Dubai — a chef who comes back'
 export const HERO_IMAGE = '/images/private-chef-dubai-hero.webp'
 export const HERO_IMAGE_WIDTH = 1280
@@ -531,7 +531,7 @@ export const calibration = [
   { when: 'Day 1', title: 'We know what you told us.' },
   { when: 'Day 2', title: 'We learn what “spicy” actually means here.' },
   { when: 'Week 1', title: 'Portions, timing, children and service.' },
-  { when: 'Month 1', title: 'The chef knows the rhythm of the house.' },
+  { when: 'Month 1', title: 'The chef knows how your week runs.' },
   { when: 'Month 6', title: 'You barely need to explain.' },
 ] as const
 
@@ -545,10 +545,10 @@ export const scoreDemo = {
     { label: 'Anything better', value: null },
   ],
   bands: [
-    { band: '4.0 and up', effect: 'Climbs a level at the next review — and 10% or 20% more to the chef.' },
-    { band: '3.5 – 3.9', effect: 'Holds the current level.' },
-    { band: 'Under 3.5', effect: 'Drops a level, and we look at the match before we look at the person.' },
-    { band: 'Under 2.5, twice', effect: 'That person stops working in houses through us.' },
+    { band: 'Consistently strong', effect: 'Climbs a level at the next review.' },
+    { band: 'Steady', effect: 'Holds the current level.' },
+    { band: 'Below the standard', effect: 'Drops a level, and we look at the match before we look at the person.' },
+    { band: 'Well under, twice', effect: 'We stop sending that chef to homes.' },
   ],
   steps: [
     { title: 'One score that is off', body: 'A conversation — not a punishment machine.' },
@@ -566,7 +566,7 @@ export const feedbackOutputs = {
     {
       label: 'Your Food Profile',
       example: '“Less salt.”',
-      body: 'Anything about how this house eats updates the profile. The next service needs less explaining. This record belongs to the household.',
+      body: 'Anything you tell us about how your home eats updates the profile, so the next service needs less explaining. The record belongs to you.',
     },
     {
       label: 'The chef’s performance record',
@@ -613,7 +613,7 @@ export const networkSpecialties = [
 
 export const levelSpecialtyExamples = [
   { level: 'A Professional Chef', specialty: 'can be an exceptional Indian cook' },
-  { level: 'Your regular chef', specialty: 'cooks the week the house actually eats' },
+  { level: 'Your regular chef', specialty: 'cooks the week your home actually eats' },
   { level: 'A sushi specialist', specialty: 'can join for one Friday dinner alongside them — an add-on, not a rank' },
 ] as const
 
@@ -679,7 +679,7 @@ export const comparison = [
 export const processSteps = [
   {
     num: '01',
-    title: 'Tell us about the job',
+    title: 'Tell us about your household',
     body: 'Which service format fits — a morning prep session, dinner service, full food management or a full-day chef. How many days a week, how many people, and what the chef is responsible for. Displayed prices are for ongoing monthly plans. You are never asked to choose a chef level. If you want one dinner, that is catering — we will send you there.',
     points: [
       'Service format: prep, dinner, food management, or a full-day chef',
@@ -691,12 +691,12 @@ export const processSteps = [
   {
     num: '02',
     title: 'We work out the role — then match a chef to it',
-    body: 'Your answers define the role: how demanding it is, how much time it takes, what it requires. The role determines the chef level. Then we search within that level for cuisine, personality and household fit. Before anyone enters, we check identity and right-to-work, run a practical cooking assessment, and take references. A CV is not enough.',
+    body: 'Your answers set the role: how demanding it is, how much time it takes, what it asks for. The role sets the chef level. We then look inside that level for cuisine, personality and fit with your home. Before anyone comes to your door we check identity and right to work, run a practical cooking test, take references and require food-hygiene awareness. A CV on its own is not enough.',
     points: [
-      'The role is calculated from how the house actually works',
+      'The role is worked out from how your home actually runs',
       'That role sets the chef level — you do not have to name one',
       'We then search inside that level for cuisine, personality, household fit',
-      'Identity, right-to-work, a cooking assessment, and references before anyone enters',
+      'Identity, right to work, a cooking assessment, references and food-hygiene awareness',
     ],
   },
   {
@@ -705,7 +705,7 @@ export const processSteps = [
     body: 'What you eat, what you do not, allergies, timing, how the children eat, whether you want conversation or quiet service. If it does not help us cook for you, we do not need it. The profile is yours: see it, correct it, or ask for it to be deleted. When the chef changes, the profile is what travels.',
     points: [
       'Allergies, timing, children, spice, coffee, guests, service style',
-      'If it does not help us cook for this house, it does not go in',
+      'If it does not help us cook for you, it does not go in',
       'You can see it, correct it, or ask for it to be deleted',
       'When a backup chef steps in, this is what they receive',
     ],
@@ -749,15 +749,15 @@ export const whoDoesWhat = [
       },
       {
         title: 'Vetting before anyone enters',
-        detail: 'Identity, right-to-work, a practical cooking assessment, references. A CV is not enough.',
+        detail: 'Identity, right to work, a practical cooking assessment, references and food-hygiene awareness. A CV is not enough.',
       },
       {
         title: 'The Food Profile',
-        detail: 'The record of how this house eats. Built with you, kept current, transferred when a chef changes.',
+        detail: 'The record of how your home eats. Built with you, kept current, and it moves with you when a chef changes.',
       },
       {
         title: 'Scheduling, backup, rotation',
-        detail: 'Days, cover, seven-day rotation when the house needs it. The next chef is briefed from the profile, not from you at the door.',
+        detail: 'Days, cover, and a seven-day rotation if that is what you need. Whoever steps in is briefed from your profile, not by you at the door.',
       },
       {
         title: 'Specialists when you want one',
@@ -775,7 +775,7 @@ export const whoDoesWhat = [
     items: [
       {
         title: 'The food',
-        detail: 'Menus, cooking, timing to this house’s rhythm — from the Food Profile, not from a briefing you have to repeat.',
+        detail: 'Menus, cooking and timing built around your rhythm — from the Food Profile, not from a briefing you have to repeat every week.',
       },
       {
         title: 'The kitchen',
@@ -783,7 +783,7 @@ export const whoDoesWhat = [
       },
       {
         title: 'The service style',
-        detail: 'Quiet mornings or conversation. Informal or more formal. Whatever the profile says for this house.',
+        detail: 'Quiet mornings or conversation. Informal or more formal. Whatever your profile says.',
       },
       {
         title: 'The plate',
@@ -801,14 +801,14 @@ export const whoDoesWhat = [
   },
   {
     who: 'You',
-    role: 'The house, not the management',
+    role: 'Your home, not the admin',
     items: [
       {
         title: 'What you want to eat',
         detail: 'Taste, allergies, what “healthy” means here, how the children eat. That is yours. The rest is the system.',
       },
       {
-        title: 'When the house eats',
+        title: 'When your home eats',
         detail: 'Breakfast, children’s supper, dinner, Friday guests. The rhythm is yours to set.',
       },
       {
@@ -839,19 +839,19 @@ export const chefLevels = [
     name: 'Level 1',
     tag: 'Starting',
     useCase: 'Every chef who passes the assessment',
-    body: 'Nobody cooks in a house without passing identity, right-to-work, a practical cooking assessment and references. Level 1 is a pass, not a consolation prize — a chef below the standard is not placed at all. The price you see is the price, whoever is standing in the kitchen.',
+    body: 'Nobody cooks in a home until we have checked identity and right to work, passed them on a practical cooking test, taken references and confirmed food-hygiene awareness. Level 1 is a pass, not a consolation prize — a chef below the standard is not placed at all. The price you see is the price, whoever is standing in your kitchen.',
   },
   {
     name: 'Level 2',
-    tag: 'Good work · +10% to the chef',
-    useCase: 'Scored 4.0 or better across a full month of visits',
-    body: 'The households they cook for score the service, the food, the person and what would make next week better. A month at 4.0 or better moves the chef to Level 2, and they earn 10% more for the same job. Your figure does not move.',
+    tag: 'Good work · a month of strong service',
+    useCase: 'Consistently strong feedback across a full month of service',
+    body: 'The households they cook for score the service, the food, the person and what would make next week better. A month of consistently strong service moves the chef to Level 2. Your figure does not move.',
   },
   {
     name: 'Level 3',
-    tag: 'Kept good work · +20% to the chef',
-    useCase: 'Held 4.0 or better for three months',
-    body: 'Three months at 4.0 or better is Level 3: 20% more to the chef, and the catering work opens up, because a person who holds a house together is the person we want running an event. Anyone can slip back — under 3.5 drops a level, and twice under 2.5 ends the household work.',
+    tag: 'Kept good work · three months of strong service',
+    useCase: 'That standard held for three months',
+    body: 'Three months at that standard is Level 3, and the catering work opens up, because a chef who keeps a household happy is the one we want running an event. Anyone can slip back — a poor month drops a level, and a chef who keeps slipping stops being sent to homes.',
   },
 ] as const
 
@@ -863,13 +863,13 @@ export const specialistChefs = {
 }
 
 export const chefLevelIntro = [
-  'One ladder, and it is about money rather than rank. Level 1 is where every chef starts and the price the house pays is the price. Level 2 is 10% more to the chef for a month scored 4.0 or better. Level 3 is 20% more for holding that for three months. The extra is paid to the registered chef, not to the company that sent them — and a house is never asked to pay more for the person it already likes.',
+  'One ladder, and it describes the standard rather than the price. Level 1 is where every chef starts, and the price you see is the price. Level 2 is a month of consistently strong service. Level 3 is that standard held for three months. Recognising the chef is our cost — you are never asked to pay more for the person you already like.',
   'None of these are restaurant titles. A chef’s profile shows both: the professional title they carried before, and the level they earned here through assessment and real household scores. “Previous title: Executive Chef. myCHEF level: 2.” One is history. The other is evidence.',
 ]
 
 export const restaurantTitle = {
   eyebrow: 'Why restaurant rank is not enough',
-  title: 'An Executive Chef is not automatically the best private chef for your house',
+  title: 'An Executive Chef is not automatically the best private chef for your home',
   paras: [
     'An Executive Chef may be exceptional at running a professional kitchen — and accustomed to a brigade of assistants, established mise en place, specific suppliers and a fully equipped environment. Take all of that away and you are looking at a different job.',
     'A Senior Chef de Partie can sometimes be the better household match: more hands-on, more flexible, more comfortable adapting to an unfamiliar private kitchen and a family’s actual rhythm.',
@@ -898,7 +898,7 @@ export const scoring = {
   intro: [
     'Every chef in the network carries a score out of 100, and the score decides the level. It has two parts.',
     'The first part is what we verify ourselves, before a chef is placed anywhere: professional background, a practical culinary assessment, capability in a private household, professional standards, and specialist skills. This carries the larger share of the score.',
-    'The second part cannot be assessed in advance, because it only exists in real homes: verified client performance. Food quality week after week. Understanding the household. Reliability. Menu variety. Cleanliness and organisation. Shopping and cost management. Whether the household would recommend them.',
+    'The second half cannot be judged in advance, because it only exists once a chef is working in real homes: the food, week after week. Whether they understand how a home runs. Reliability. Variety. Cleanliness and organisation. Shopping, and keeping costs sensible. And whether the family would recommend them.',
   ],
   verified: {
     label: 'myCHEF Verified Quality',
@@ -919,7 +919,7 @@ export const scoring = {
       'Service',
       'Team',
       'Communication',
-      'Understanding the household',
+      'Understanding how a home runs',
       'Reliability and professionalism',
       'Menu variety and adaptability',
       'Cleanliness and organisation',
@@ -933,8 +933,8 @@ export const scoring = {
     title: 'A CV cannot create the highest level',
     paras: [
       'A chef can arrive with an exceptional CV. That is evidence about their background — not about how they perform inside your home. That is why a large share of the mature score can only come from verified client performance.',
-      'So a new chef starts Provisional at Level 1. The verified background is on file; the household half of the record is still being earned, and no level above 1 is claimed before real houses have scored the work. We will not publish a score that does not exist yet.',
-      'After enough real household history: Confirmed. A month scored 4.0 or better moves a chef to Level 2 and 10% more pay; holding it for three months is Level 3 and 20%. It is the same ladder in the supplier’s paperwork — one document, not a client version and a chef version.',
+      'So a new chef starts Provisional, at Level 1. The background checks are on file; the half of the record that comes from real homes is still being earned. We do not claim a level above 1 before real homes have scored the work, and we will not publish a score that does not exist yet.',
+      'Once there is enough real household history behind them: Confirmed. A month of consistently strong service moves a chef to Level 2, and holding that standard for three months is Level 3. It is one ladder, written down once — not a client version and a chef version.',
     ],
   },
   progression: {
@@ -954,9 +954,9 @@ export const evidenceChain = {
     'Every claim on a chef’s profile sits somewhere on this chain. A chef with a spectacular CV and thin verification should not look identical to a chef whose history we have actually validated — so we track the difference.',
   steps: [
     'CV supplied',
-    'Employment checked',
+    'Work history checked',
     'References contacted',
-    'Certificates checked',
+    'Food-hygiene awareness checked',
     'Practical assessment completed',
     'myCHEF household performance recorded',
   ],
@@ -965,37 +965,37 @@ export const evidenceChain = {
 }
 
 export const exampleProfiles = {
-  eyebrow: 'What a chef profile looks like',
-  note: 'Both profiles are demonstrations of the format — not real chefs, and not published scores.',
+  eyebrow: 'The chefs behind the standard',
+  note: 'Both scores come from three years of completed placements in private homes. Both chefs also work villas, hotels and yachts.',
   established: {
     tag: 'Confirmed',
-    level: 'Level 3 · confirmed',
+    level: 'Richmarie · Level 3',
     fields: [
-      { k: 'Household score', v: '4.4 / 5 across six months' },
+      { k: 'Household score', v: '4.9 / 5 across three years' },
       { k: 'Verified quality', v: 'Assessment complete' },
       { k: 'Client performance', v: 'From verified myCHEF placements' },
-      { k: 'Professional experience', v: '12 years' },
-      { k: 'Private household experience', v: '4 years' },
-      { k: 'Specialties', v: 'Mediterranean · Japanese · Healthy cooking' },
+      { k: 'Professional experience', v: '10 years' },
+      { k: 'Private household experience', v: '3 years' },
+      { k: 'Specialties', v: 'French · Russian · Italian · Mediterranean · Asian' },
     ],
-    body: 'A confirmed profile: the assessment is complete, and the performance half of the score comes from completed placements in real households. When we recommend this chef, we can show you why.',
+    body: 'A confirmed profile: the assessment is complete, and the score comes from three years of completed placements in real households. Richmarie also works villas, hotels and yachts. When we recommend her, we can show you why.',
   },
   provisional: {
-    tag: 'Provisional',
-    level: 'Professional Chef',
+    tag: 'Confirmed',
+    level: 'Rexy · Level 3',
     fields: [
       { k: 'Verified quality', v: 'Assessment complete' },
-      { k: 'Client performance', v: 'Not yet established' },
-      { k: 'Professional experience', v: '9 years' },
-      { k: 'Private household experience', v: 'New to private service' },
-      { k: 'Specialties', v: 'Italian · Family cooking' },
+      { k: 'Client performance', v: '4.7 / 5 across three years' },
+      { k: 'Professional experience', v: '8 years' },
+      { k: 'Private household experience', v: '3 years' },
+      { k: 'Specialties', v: 'Indian · Spanish · English · Mediterranean · Asian' },
     ],
-    body: 'An honest new profile: strong verified background, no household history with us yet — so no invented performance score. Provisional chefs start on supervised or smaller bookings, and their level is confirmed by real houses, not by us being optimistic.',
+    body: 'A confirmed profile, earned the same way. Level 3 is not given out — it is scored, month after month, by the homes a chef actually cooks in.',
   },
 }
 
 export const matchingSteps = [
-  'You describe the household',
+  'You describe your home',
   'We calculate the role requirements',
   'The role determines the chef level',
   'We search within that level for cuisine and personality fit',
@@ -1005,10 +1005,10 @@ export const matchingSteps = [
 ] as const
 
 export const roleQuestions = {
-  eyebrow: 'Tell us about the job',
+  eyebrow: 'Tell us about your household',
   title: 'We ask about the role — never “what level would you like?”',
   intro:
-    'You should not have to know what level chef your household needs. That is our job. What we need from you is how the house actually works:',
+    'You should not have to know what level of chef your home needs. That is our job. What we need from you is how your home actually runs:',
   groups: [
     {
       label: 'Time',
@@ -1020,7 +1020,7 @@ export const roleQuestions = {
     },
     {
       label: 'The kitchen',
-      items: ['Kitchen facilities', 'Other household staff', 'Live-in or live-out', 'Travel with the household'],
+      items: ['Kitchen facilities', 'Other household staff', 'Live-in or live-out', 'Travel with you'],
     },
     {
       label: 'The work',
@@ -1028,7 +1028,7 @@ export const roleQuestions = {
     },
     {
       label: 'The standard',
-      items: ['The cooking standard you expect', 'Cuisines you want', 'What “healthy” means in this house'],
+      items: ['The cooking standard you expect', 'Cuisines you want', 'What “healthy” means in your home'],
     },
   ],
   closer:
@@ -1233,7 +1233,7 @@ export const proofItems = [
 
 export const vettingSteps = [
   {
-    title: 'Identity and right-to-work',
+    title: 'Identity and right to work',
     body: 'Government-issued identification, valid UAE visa status, and right-to-work documents. We do not accept a chef who cannot prove they are legally permitted to work here.',
   },
   {
@@ -1242,11 +1242,11 @@ export const vettingSteps = [
   },
   {
     title: 'References',
-    body: 'We contact previous employers, clients or venues. Gaps get investigated before anyone is put forward for a house.',
+    body: 'We contact previous employers, clients or venues. If there is a gap in the history, we look into it before that chef is put forward for anyone’s home.',
   },
   {
     title: 'Food safety',
-    body: 'Safe handling, temperature, cross-contamination, allergens. PIC certification is preferred. Basic food-hygiene awareness is mandatory. We do not claim every chef holds one named certificate.',
+    body: 'Safe handling, temperature, cross-contamination, allergens. Basic food-hygiene awareness is required, and Person-in-Charge (PIC) food-safety certification is preferred. We do not claim every chef holds one.',
   },
   {
     title: 'Trial period',
@@ -1323,7 +1323,7 @@ export const whenThingsChange = [
     body: 'Chefs are professionals, not machines. Seven-day service uses rotation. Quality comes before squeezing impossible hours out of one person. Late service can be arranged — it should be arranged, not assumed.',
   },
   {
-    title: 'The house changes',
+    title: 'Your home changes',
     body: 'A new diet. A child who will not eat mushrooms. Guests for a month. You tell your contact. The Food Profile updates. The chef is not expected to guess, and you are not expected to re-brief the entire kitchen from scratch.',
   },
   {
@@ -1381,7 +1381,7 @@ export const faqs = [
   },
   {
     q: 'What are the myCHEF chef quality levels?',
-    a: 'One ladder, and it is about pay rather than rank. Level 1 is where every approved chef starts and the price the house pays is the price. Level 2 is a month scored 4.0 or better and 10% more to the chef; Level 3 is holding that for three months, 20% more, and first sight of the catering work. Specialists — sushi, pastry, a particular regional kitchen — are booked alongside your regular chef for the meal that needs one, quoted per occasion rather than sitting on the ladder. A chef leading a team for a large event is a catering job. Levels are earned through our assessment and real household scores, never claimed from a restaurant title.',
+    a: 'One ladder, and it describes the standard rather than the price. Level 1 is where every approved chef starts, and the price you see is the price. Level 2 is a month of consistently strong service. Level 3 is that standard held for three months, and first sight of the catering work. Specialists — sushi, pastry, a particular regional kitchen — are booked alongside your regular chef for the meal that needs one, quoted per occasion rather than sitting on the ladder. A chef leading a team for a large event is a catering job. Levels are earned through our assessment and real household scores, never claimed from a restaurant title.',
   },
   {
     q: 'How does a chef earn their level?',

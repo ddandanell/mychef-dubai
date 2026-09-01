@@ -35,9 +35,9 @@ interface ChefThumb {
 const PHASES = ['Understand', 'Match', 'Learn', 'Deliver', 'Improve'] as const
 const PHASE_ICONS = [ClipboardList, UserSearch, BookOpen, CookingPot, MessageCircleHeart] as const
 const BRIEF_ROWS = [
-  { k: 'Meals a week', v: 'How often the house eats with a chef' },
+  { k: 'Meals a week', v: 'How often you want a chef cooking' },
   { k: 'Service days', v: 'Which days, and how long each one is' },
-  { k: 'What “healthy” means here', v: 'This house — not a generic programme' },
+  { k: 'What “healthy” means here', v: 'Your home — not a generic programme' },
 ]
 const PREF_TAGS = ['Breakfast', 'Children', 'No shellfish', '19:30 dinner', 'Quiet service', 'Oat milk']
 
@@ -160,7 +160,7 @@ export default function ProcessJourney({
               />
             </div>
             <figcaption className="mt-4 font-playfair text-h4 text-black">
-              The household does not manage dinner. It simply happens.
+              You do not manage dinner. It simply happens.
             </figcaption>
           </figure>
         )

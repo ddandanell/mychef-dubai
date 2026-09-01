@@ -54,6 +54,9 @@ function TermBody({ item }: { item: TermItem }) {
           ))}
         </ul>
       ) : null}
+      {item.closing ? (
+        <p className="mt-4 font-inter text-body text-gray-600 leading-relaxed">{item.closing}</p>
+      ) : null}
       {item.twoUp ? (
         <div className="mt-5 grid gap-px bg-gray-200 border border-gray-200 sm:grid-cols-2">
           {[item.twoUp.left, item.twoUp.right].map((side, i) => (

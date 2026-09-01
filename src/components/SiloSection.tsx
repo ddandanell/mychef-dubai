@@ -74,6 +74,11 @@ const SiloSection = memo(function SiloSection() {
 
   const silo = page.silo || 'myCHEF Dubai'
   const isHome = pathname === '/'
+  const path = pathname.length > 1 && pathname.endsWith('/') ? pathname.replace(/\/+$/, '') : pathname
+  const privateChefSiloLabel =
+    path === '/private-chef-dubai/how-it-works' ||
+    path === '/private-chef-dubai/our-chefs' ||
+    path === '/private-chef-dubai/pricing'
 
   return (
     <section className="bg-charcoal py-16 print:hidden" aria-label="Related pages">
@@ -109,11 +114,23 @@ const SiloSection = memo(function SiloSection() {
 
         <div className="grid gap-10 lg:grid-cols-[minmax(0,4fr)_minmax(0,8fr)] lg:gap-16">
           <Rail
-            label={page.is_hub ? 'Inside this section' : isHome ? 'YOU MIGHT ALSO WANT' : 'Closest to this page'}
+            label={
+              page.is_hub
+                ? path === '/private-chef-dubai'
+                  ? 'More in this section'
+                  : 'Inside this section'
+                : isHome
+                  ? 'YOU MIGHT ALSO WANT'
+                  : privateChefSiloLabel
+                    ? 'You might also like'
+                    : 'Closest to this page'
+            }
             title={page.is_hub ? `Everything in ${silo}` : isHome ? `More from ${silo}` : `More in ${silo}`}
             note={
               page.is_hub
-                ? 'The pages below sit under this hub. Start with the format you already know you want.'
+                ? path === '/private-chef-dubai'
+                  ? 'Start with the one you already know you want.'
+                  : 'The pages below sit under this hub. Start with the format you already know you want.'
                 : page.uplink
                   ? undefined
                   : isHome

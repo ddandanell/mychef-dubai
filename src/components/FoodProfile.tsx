@@ -24,7 +24,7 @@ import {
 type Row = { k: string; v: string }
 
 const HOUSEHOLD = [
-  { Icon: Users, label: 'Who lives in the house?', lines: ['2 adults', '2 children', '1 dog (Luna)'] },
+  { Icon: Users, label: 'Who lives in your home?', lines: ['2 adults', '2 children', '1 dog (Luna)'] },
   { Icon: ShieldAlert, label: 'Allergies / safety', lines: ['No shellfish', 'No mushrooms', 'Peanut allergy, child'] },
   { Icon: Leaf, label: 'Dietary focus', lines: ['High protein weekdays', 'Balanced weekends'] },
   { Icon: BellRing, label: 'Service style', lines: ['Quiet mornings', 'Informal', 'No unnecessary service staff'] },

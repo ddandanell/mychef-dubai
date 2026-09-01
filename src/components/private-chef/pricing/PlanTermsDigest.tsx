@@ -55,6 +55,9 @@ export default function PlanTermsDigest() {
                             ))}
                           </ul>
                         ) : null}
+                        {item.closing ? (
+                          <p className="mt-3 font-inter text-body-sm text-gray-600 leading-relaxed">{item.closing}</p>
+                        ) : null}
                         {item.twoUp ? (
                           <div className="mt-4 grid gap-px bg-gray-200 border border-gray-200 sm:grid-cols-2">
                             {[item.twoUp.left, item.twoUp.right].map((side, i) => (

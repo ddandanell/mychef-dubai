@@ -31,7 +31,7 @@ export const CLUSTER_NAV = [
   {
     href: CLUSTER_PATHS.howItWorks,
     label: 'How It Works',
-    description: 'How to get a cook — and keep one',
+    description: 'How to get a chef — and keep one',
     owns: 'Managed private chef service',
   },
   {
@@ -73,7 +73,7 @@ const pFull = preview('full-day', 5)
 export const pricingPreview = [
   { id: 'part-time', label: 'Part-time household', rhythm: 'One fresh meal a week', format: pFresh.service.name, days: 1, monthly: pFresh.perMonth, note: 'Same chef, one cooked meal a week — the smallest long-term plan.' },
   { id: 'regular', label: 'Regular household', rhythm: 'Kitchen on Autopilot, five days a week', format: pAuto.service.name, days: 5, monthly: pAuto.perMonth, note: 'Planning, shopping, cooking and cleanup handled — the managed kitchen.' },
-  { id: 'full', label: 'Full household arrangement', rhythm: 'Full-day chef, five days a week', format: pFull.service.name, days: 5, monthly: pFull.perMonth, note: 'The kitchen staffed through the day, in this house’s rhythm.' },
+  { id: 'full', label: 'Full household arrangement', rhythm: 'Full-day chef, five days a week', format: pFull.service.name, days: 5, monthly: pFull.perMonth, note: 'Someone in the kitchen all day, working to your timetable rather than a fixed shift.' },
 ] as const
 
 /**
@@ -220,7 +220,7 @@ export const PRIVATE_CHEF_SIBLING_LINKS = [
 export const hubRouteCards = [
   {
     title: 'Standing household chef',
-    body: 'The same chef most weeks, a Food Profile, and backup if they are off. Hire a private chef in Dubai for the house — this is the page.',
+    body: 'The same chef most weeks, a Food Profile, and cover when your chef is away. Hire a private chef in Dubai for your family rather than for one evening — this is the page for that.',
     href: null as string | null,
     cta: 'You are on the right page',
   },
@@ -237,10 +237,10 @@ export const parentSeo = {
   /** Gold caption above the H1. Do not use PageHero variant="quiet" — that concatenates this into the H1. */
   eyebrow: 'Household chef',
   title: `Private Chef Dubai | From ${fmt(pricingPreview[0].monthly)} a Month | myCHEF`,
-  description: `A standing private chef for the household in Dubai. Prep, dinner or full-day plans from ${fmt(pricingPreview[0].monthly)} a month. Matched, managed and replaced if the fit is wrong.`,
+  description: `A standing private chef for your home in Dubai. Prep, dinner or full-day plans from ${fmt(pricingPreview[0].monthly)} a month. Matched, managed, and replaced if the fit is wrong.`,
   h1: 'Private Chef Dubai — a chef who comes back',
   subtitle:
-    'A private chef Dubai service is a standing chef for the household: usually the same person, a Food Profile of how this house eats, and backup if they are off. A licensed supplier employs your chef on a proper visa; myCHEF matches the person to the house, manages the arrangement, scores the work and pays the quality extra to the cook. You never put a chef on your payroll. A one-night dinner is catering.',
+    'A private chef Dubai service means one chef cooking for your family regularly. Usually the same person each week, a written record of how you like to eat, and cover when your chef is away. We find the chef, agree the menu with you, and manage everything after that. If you only want one dinner cooked, that is catering.',
 }
 
 export const childSeo = {
@@ -281,7 +281,7 @@ export const childSeo = {
       'Hiring a private chef for your family in Dubai: who enters your home, what myCHEF checks, and how discretion and household access are handled.',
     h1: 'Your home changes the standard.',
     subtitle:
-      'A private chef works inside your personal space. That is why identity, references, right-to-work checks and ongoing management are part of the service, not an afterthought.',
+      'A private chef works inside your personal space. That is why identity, right to work, a practical cooking assessment, references and food-hygiene awareness all happen before anyone is placed — and why the checking does not stop there.',
     eyebrow: 'Privacy & Security',
   },
   // LOCKED: "private chef dubai prices" (owner decision 2026-08-25). Secondary: "home chef dubai", "private chef hire", "personal cook dubai", "part time cook in dubai".
@@ -299,14 +299,14 @@ export const childSeo = {
 export const householdProblems = [
   {
     title: 'I want the same chef regularly',
-    body: 'Continuity is the product. We match one chef to this house and keep that person — with a system behind them if the week is not normal.',
+    body: 'The same person, week after week. We match one chef to your home and keep them there, with a team behind them for the weeks that do not go to plan.',
   },
   {
     title: 'I need meals several days a week',
-    body: 'One, three or five days. Whether you want a part time cook in Dubai or a full week covered, the standing plan is built around the days this house actually needs, not a full-time hire you then have to occupy.',
+    body: 'One, three or five days. Whether you want a part time cook in Dubai or the whole week covered, we build the plan around the days you actually need. Not a full-time hire you then have to keep busy.',
   },
   {
-    title: 'I need breakfast, lunch or dinner as the house runs',
+    title: 'I need meals through the day, not one dinner',
     body: 'Choose the meal that matters, or the whole day. Working time is defined before we start, so “daily” never means one thing to you and another to the chef.',
   },
   {
@@ -315,7 +315,7 @@ export const householdProblems = [
   },
   {
     title: 'I need the kitchen to keep running if they are off',
-    body: 'Backup is part of the service. The Food Profile travels with the house, so the next chef is not starting from zero at the door.',
+    body: 'Cover is part of the service. Your Food Profile goes to whoever steps in, so they arrive already knowing how you eat.',
   },
   {
     title: 'I need this for a family, a villa, or a long stay',
@@ -332,7 +332,7 @@ export const systemCards = [
   {
     href: '/our-chefs',
     label: 'Our Chefs',
-    title: 'Who we put forward for this house, and how the match is made.',
+    title: 'Who we send you, and how we choose them.',
   },
   {
     href: CLUSTER_PATHS.quality,
@@ -357,15 +357,15 @@ export const rhythmOptions = [
   { label: 'Every day', href: CLUSTER_PATHS.pricing },
   { label: 'Breakfast only', href: CLUSTER_PATHS.pricing },
   { label: 'Breakfast and dinner', href: CLUSTER_PATHS.pricing },
-  { label: 'Full day in the house', href: CLUSTER_PATHS.pricing },
+  { label: 'Full day at home', href: CLUSTER_PATHS.pricing },
   { label: 'Same chef, specialist when needed', href: CLUSTER_PATHS.howItWorks },
-  { label: 'A schedule for this house', href: CLUSTER_PATHS.pricing },
+  { label: 'A schedule for your home', href: CLUSTER_PATHS.pricing },
 ] as const
 
 export const trustPreview = [
-  { label: 'Identity', body: 'Government-issued ID and right-to-work, before anyone is put forward for the house.' },
+  { label: 'Identity and credentials', body: 'We choose chefs on experience, and we check the skill and the professionalism of every one before we put them forward for your home.' },
   { label: 'Practical assessment', body: 'A cook-off, not a conversation about cooking.' },
-  { label: 'Household fit', body: 'Matched to this kitchen, this rhythm and these people — not the longest CV.' },
+  { label: 'Household fit', body: 'Matched to your kitchen, your routine and your family — not to the longest CV.' },
   { label: 'One contact', body: 'Feedback, absence and replacement go through your household manager, not through you as HR.' },
 ] as const
 
@@ -391,19 +391,19 @@ export const parentFaqs = [
   },
   {
     q: 'What happens if my chef is unavailable?',
-    a: 'Backup is part of the service. The next chef is briefed from the Food Profile, not from a conversation at your door. If an equivalent chef is not available, we tell you and give you the options. We do not fill a slot with whoever is free.',
+    a: 'Cover is part of the service. The next chef is briefed from your Food Profile, not from a conversation at your door. If a replacement is needed, we arrange a suitable available chef as quickly as we reasonably can, taking your household’s requirements, schedule and chef suitability into consideration. If we cannot find an equal match, we tell you and give you the options. We do not fill the slot with whoever is free.',
   },
   {
     q: 'What is the Food Profile?',
-    a: 'The record of how this house eats — timing, children, allergies, spice, coffee, guests, service style. Tell us once. When the chef changes, this is what travels. See [how the Food Profile is built](/private-chef-dubai/how-it-works).',
+    a: 'The record of how you eat — timing, children, allergies, spice, coffee, guests, service style. You tell us once. When the chef changes, this is what gets handed over. See [how the Food Profile is built](/private-chef-dubai/how-it-works).',
   },
   {
     q: 'Can the chef shop, and cook for children?',
-    a: 'Yes. Shopping can be a proper part of the role; groceries are charged at actual receipts. What the children will eat — including refusals and allergies — sits in the Food Profile. Grocery hours and rates are on [Pricing & Plans](/private-chef-dubai/pricing#calculator).',
+    a: 'Yes. Shopping can be part of the job, and we charge groceries at what the receipts say. What the children will eat — including what they refuse, and any allergies — sits in your Food Profile. Groceries and grocery shopping arrangements are agreed before the service begins: chef-only services require the ingredients to be available when the chef arrives, and where grocery shopping is included the quotation states the agreed shopping time or allowance. Groceries, transport and additional shopping time are charged separately unless expressly included in the package. Full detail is on [Pricing & Plans](/private-chef-dubai/pricing#calculator).',
   },
   {
     q: 'Can I change chefs or add a specialist?',
-    a: 'Yes. A wrong match is changed; the Food Profile stays with the house. Keep the weekday chef and add a specialist for the meal that needs one — you should not recruit that person yourself. See [quality and matching](/private-chef-dubai/quality-training) and [how rotation works](/private-chef-dubai/how-it-works).',
+    a: 'Yes. If the match is wrong we change the chef, and your Food Profile stays where it is. You can also keep your weekday chef and add a specialist for the meal that needs one — finding that person is our job, not yours. See [quality and matching](/private-chef-dubai/quality-training) and [how rotation works](/private-chef-dubai/how-it-works).',
   },
   {
     q: 'Can you accommodate allergies?',
@@ -417,8 +417,8 @@ export const parentFaqs = [
 
 export const howItWorksFaqs = [
   {
-    q: 'How do I get a cook in Dubai for my household?',
-    a: 'Describe the household to us: days, meals, people, kitchen. We define the role, match a chef, build your Food Profile, start service, then review. Feedback updates the profile and the chef’s record. When the house changes, the system adapts — you are not rebuilding the kitchen from scratch.',
+    q: 'How do I get a cook in Dubai for my home?',
+    a: 'Tell us about your home: the days, the meals, the people, the kitchen. We work out the role, match a chef, build your Food Profile, start the service, then review it. What you tell us updates the profile and the chef’s record. When your home changes, the service changes with it — you are not starting again from scratch.',
   },
   {
     q: 'Can I get a part time cook in Dubai?',
@@ -426,7 +426,7 @@ export const howItWorksFaqs = [
   },
   {
     q: 'What is the Food Profile?',
-    a: 'The record of how this house eats: timing, allergies, children, spice, coffee, guests, service style. If information does not help us cook for you, we do not need it. The profile is yours — see it, correct it, or ask for it to be deleted. When the chef changes, this is what travels.',
+    a: 'The record of how your home eats: timing, allergies, children, spice, coffee, guests, service style. If it does not help us cook for you, we do not ask for it. The profile is yours — you can see it, correct it, or ask us to delete it. When the chef changes, this is what gets handed over.',
   },
   {
     q: 'Do I have to manage the chef myself?',
@@ -441,19 +441,19 @@ export const howItWorksFaqs = [
 export const ourChefsFaqs = [
   {
     q: 'How do you select a personal chef in Dubai?',
-    a: 'Identity and right-to-work, a practical cooking assessment, references, then a match to this household’s cuisine, rhythm and personality. A restaurant title is history. A myCHEF level is evidence from assessment and verified placements.',
+    a: 'Identity and right to work, a practical cooking test, references and food-hygiene awareness, then a match to your home’s cuisine, rhythm and personality. A restaurant title tells you where someone has been. A myCHEF level tells you how they have actually cooked — in assessment, and in real placements.',
   },
   {
     q: 'What are the chef levels?',
-    a: 'One word for the person who cooks in your house: a professional chef. What has three levels is what they earn. Level 1 is where everyone starts and the price you see is the price. A chef who scores 4.0 or better across a month reaches Level 2 and earns 10% more; holding 4.0 for three months reaches Level 3 and 20% more. The extra is paid to the registered chef, not to the company that sent them, and your figure does not move when they climb. Specialists — sushi, a particular regional kitchen — are booked for the occasion alongside your regular chef; they are an add-on, not a rank.',
+    a: 'One word for the person who cooks in your home: a professional chef. What has three levels is the standard they are working to. Level 1 is where everyone starts, and the price you see is the price. Consistently strong service across a month reaches Level 2; holding that standard for three months reaches Level 3. Your figure does not move when a chef climbs. Specialists — sushi, or one particular regional kitchen — are booked for the occasion alongside your regular chef. They are an add-on, not a rank.',
   },
   {
     q: 'Will I meet the chef before they start?',
-    a: 'You see the chef’s verified profile and approve before anything starts. New chefs start Provisional until real households confirm them. High-stakes evenings are not the first time we see someone work in a real kitchen.',
+    a: 'Yes. You see the chef’s verified profile and approve before anything starts, and before the first meal your household manager arranges a conversation between you and your chef. New chefs stay Provisional until real households confirm them. An important evening is not the first time we watch someone work in a real kitchen.',
   },
   {
     q: 'How do I hire a chef in Dubai through myCHEF?',
-    a: 'Tell us how the house eats and what the role covers. We match within the right level, you see the chef’s verified profile and the full price in writing, and you approve before anyone starts. You are not interviewing strangers, and you are not putting a chef on your payroll.',
+    a: 'Tell us how your home eats and what the role covers. We match within the right level, you see the chef’s verified profile and the full price in writing, and you approve before anyone starts. You are not interviewing strangers, and you are not putting a chef on your payroll.',
   },
   {
     q: 'Do you have Indian, Japanese or Italian chefs in Dubai?',
@@ -472,11 +472,11 @@ export const qualityFaqs = [
   },
   {
     q: 'Can I get a healthy food chef in Dubai?',
-    a: 'Yes — but “healthy” is defined by your house, not by a generic programme. What healthy means here goes into the Food Profile — high-protein weekdays, allergies, what the children eat — and every service is reviewed against it. A nutrition specialist can be added when the brief calls for one.',
+    a: 'Yes — but “healthy” is whatever it means in your home, not a generic programme. We put your version into the Food Profile — high-protein weekdays, allergies, what the children will actually eat — and review every service against it. A nutrition specialist can be added on request.',
   },
   {
     q: 'Do you train chefs after they join?',
-    a: 'Yes. Private-household work is a different job from a restaurant brigade. Chefs go through practical assessment, household onboarding for each house, and ongoing review. Structured modules also sit in our [Chef Training Academy](/chef-training-academy). Training is not a substitute for a bad match.',
+    a: 'Yes — assessment before placement, onboarding for your home, then ongoing review. Structured modules also sit in our [Chef Training Academy](/chef-training-academy). Training is not a substitute for a bad match.',
   },
 ] as const
 
@@ -487,19 +487,19 @@ export const privacyFaqs = [
   },
   {
     q: 'Are you a private chef agency?',
-    a: 'Not in the usual sense. An agency introduces CVs and steps away once someone is hired. Here a licensed supplier employs the chef, on a visa we have asked to see; myCHEF stays in the assignment — the match, the checks, the score, feedback, backup and one contact for the household. You are not the employer, and we are not gone by Monday.',
+    a: 'No. An agency introduces CVs and steps away once someone is hired. myCHEF stays in the assignment — the match, the checks (including the visa we ask to see), the score, feedback, backup and one contact for your household. You do not employ anyone, and we are not gone by Monday.',
   },
   {
     q: 'What checks do you run before a chef enters my home?',
-    a: 'Government-issued identification, valid UAE visa status and right-to-work documents; a practical cooking assessment; references from previous employers, clients or venues; and food-hygiene awareness. PIC certification is preferred, not claimed as universal. We do not publish guarantees we cannot operate.',
+    a: 'Four things, before anyone cooks in your home. Government-issued identification, and a valid UAE visa with the right to work — we ask to see the documents themselves. A practical cooking assessment. References from previous employers, clients or venues. And food-hygiene awareness. Person-in-Charge (PIC) food-safety certification is preferred, but we do not claim every chef holds one. We do not publish guarantees we cannot keep.',
   },
   {
     q: 'How do you handle discretion?',
-    a: 'The chef needs to know how the house eats, who lives there, allergies, timing and how you like to be served. They do not need family business, finances, or anything that is not required to cook and work safely in the kitchen. Issues go through your household manager, not through a confrontation at the stove.',
+    a: 'The chef needs to know how your family eats, who lives in the home, allergies, timing, and how you like to be served. They do not need your family business, your finances, or anything else that is not required to cook and work safely in your kitchen. If something is wrong it goes to your household manager — not to a confrontation at the stove.',
   },
   {
     q: 'What happens when a chef’s assignment ends?',
-    a: 'Access ends with the assignment. The Food Profile stays with the household. The next chef is briefed from that record, not from informal handover at your door. We only describe procedures we actually run.',
+    a: 'Access ends with the assignment. Your Food Profile stays with you, and the next chef is briefed from that record rather than from a handover at your door. We only describe procedures we actually run.',
   },
 ] as const
 
@@ -538,10 +538,10 @@ export const informationBoundaries = [
   {
     need: 'What the chef needs to know',
     items: [
-      'Who lives in the house, and who eats',
+      'Who lives in your home, and who eats there',
       'Allergies and foods that must never appear',
       'Timing, service style, and how the children eat',
-      'Kitchen layout, and who else works in the house',
+      'The kitchen layout, and who else works in your home',
       'Guests when they affect the meal',
     ],
   },
@@ -557,9 +557,9 @@ export const informationBoundaries = [
 ] as const
 
 export const householdConduct = [
-  'Family members are treated as the household — not as an audience.',
+  'Family members are people to cook for — not an audience.',
   'Children are cooked for, not performed at.',
-  'Other household staff are colleagues in the same house, not a hierarchy to exploit.',
+  'Your other staff are colleagues in the same home, not people to be ordered around.',
   'Guests are served to the standard you have set, then the kitchen is handed back.',
   'Personal property stays where it is. The chef’s job is the food and the kitchen.',
 ] as const

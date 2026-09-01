@@ -23,7 +23,7 @@ import {
   WHATSAPP_MESSAGE,
 } from '../../content/privateChefPage'
 import { CLUSTER_PATHS, FIND_CHEF_LABEL, INQUIRY_HREF, childSeo, qualityFaqs } from '../../content/privateChefCluster'
-import { MONTH_SENTENCE, QUALITY_LEVELS, SCORE_BANDS, SCORE_ROUTING } from '../../content/privateChefStandard'
+import { QUALITY_LEVELS, SCORE_BANDS } from '../../content/privateChefStandard'
 
 const PATH = CLUSTER_PATHS.quality
 const seo = childSeo.quality
@@ -34,13 +34,13 @@ const measure = [
   'Organisation — the kitchen handed back in order',
   'Food handling — temperature, allergens, hygiene',
   'Communication — what was asked, what was cooked, what changed',
-  'Service — present or invisible, as this house prefers',
+  'Service — present or invisible, as you prefer',
   'Household fit — children, staff, guests, the actual rhythm',
 ]
 
 const afterRating = [
   { title: 'Menu', body: 'What appears next week, not a generic rotation.' },
-  { title: 'Seasoning', body: 'What “spicy” actually means in this house.' },
+  { title: 'Seasoning', body: 'What “spicy” actually means in your home.' },
   { title: 'Timing', body: 'Breakfast at 8:00 may be coffee at 7:30.' },
   { title: 'Communication', body: 'How much the chef speaks, and when they do not.' },
   { title: 'Organisation', body: 'Where things live, and how the kitchen is left.' },
@@ -109,12 +109,12 @@ export default function PrivateChefQualityTraining() {
       <Section tone="white">
         <Container>
           <Eyebrow id="standards" className="scroll-mt-24">The standard</Eyebrow>
-          <DisplayHeading size="h2" className="text-black mb-4">How household chef standards stay good</DisplayHeading>
+          <DisplayHeading size="h2" className="text-black mb-4">How the standard holds, month after month</DisplayHeading>
           <BodyCopy className="mb-5 max-w-[760px]">
-            A first dinner is easy to get right. Month four is the test. This page is the loop after placement: what we keep measuring, how feedback is used, and when training is not the answer — we change the match.
+            A first dinner is easy to get right. Month four is the test. This page is about what happens once your chef has started: what we keep measuring, what we do with your feedback, and when the answer is not training but a different chef.
           </BodyCopy>
           <BodyCopy className="mb-5 max-w-[760px]">
-            One definition matters more than most: “healthy.” A healthy food chef is only healthy against your version of it — so what healthy means in this house lives in the Food Profile and is measured like everything else.
+            One word matters more than most: “healthy”. It only means anything measured against your version of it — so what healthy means in your home goes into the Food Profile, and is checked like everything else.
           </BodyCopy>
           <BodyCopy className="mb-8 max-w-[760px]">
             How a chef is selected and levelled sits on{' '}
@@ -136,14 +136,14 @@ export default function PrivateChefQualityTraining() {
       <Section tone="ivory">
         <Container>
           <Eyebrow>Training</Eyebrow>
-          <DisplayHeading size="h2" className="text-black mb-4">Stable quality cannot depend on one individual</DisplayHeading>
+          <DisplayHeading size="h2" className="text-black mb-4">Cooking in a home is a different job</DisplayHeading>
           <BodyCopy className="mb-5 max-w-[760px]">
-            Private-household work is a different job from a restaurant brigade. Chefs go through a practical assessment, then household onboarding for each house — kitchens, children, timing, preferences, other staff, privacy.
+            Cooking in a private home is a different job from a restaurant kitchen. Every chef does a practical assessment, then settles into each home separately — the kitchen, the children, the timing, the preferences, the other staff, the privacy.
           </BodyCopy>
           <BodyCopy className="mb-5 max-w-[760px]">
             Structured modules also sit in our{' '}
             <Link to="/chef-training-academy" className="text-gold-ink underline underline-offset-4">Chef Training Academy</Link>
-            : private-dining service, food-safety refresh, plating, and dietary competency including halal. We do not claim a named certificate for every chef. Basic food-hygiene awareness is mandatory; PIC is preferred.
+            : private-dining service, food-safety refresh, plating, and dietary competency including halal. Basic food-hygiene awareness is required, and Person-in-Charge (PIC) food-safety certification is preferred. We do not claim every chef holds one.
           </BodyCopy>
           <BodyCopy muted className="max-w-[760px]">
             Training is how standards stay consistent. It is not a substitute for a bad match.
@@ -195,21 +195,49 @@ export default function PrivateChefQualityTraining() {
                   <div key={level.id} className="grid grid-cols-[auto_1fr] gap-3 items-baseline">
                     <dt className="font-playfair text-h4 text-black whitespace-nowrap">{level.name}</dt>
                     <dd className="font-inter text-body-sm text-gray-600 leading-relaxed">
-                      {level.extraPct ? `+${level.extraPct * 100}% to the chef. ` : 'The price is the price. '}
-                      {level.meaning}
+                      {level.id === 1
+                        ? 'Every chef starts here. The price you pay does not change.'
+                        : `${level.earnedBy}. ${level.meaning}`}
                     </dd>
                   </div>
                 ))}
               </dl>
               <p className="mt-4 font-inter text-body-sm text-gray-600 leading-relaxed">
-                {MONTH_SENTENCE} The extra is paid to the registered chef, not to the company that sent them, and it is
-                the same ladder the supplier signs — a chef at Level 3 also takes catering work, which is why the good
-                ones stay.
+                Four days a week on Kitchen on Autopilot is sixteen visits in four weeks. A chef who works to a consistently high standard is recognised for it, and that recognition comes from us — it is not added to your bill. Chefs who are looked after stay, and a chef who stays is the one who already knows your home.
               </p>
             </div>
           </div>
+          <div className="max-w-[760px] mb-10">
+            <DisplayHeading as="h3" size="h3" className="text-black mb-4">How We Maintain Service Quality</DisplayHeading>
+            <BodyCopy className="mb-4">
+              Our quality process continues after a chef has been selected for an experience.
+            </BodyCopy>
+            <BodyCopy className="mb-4">
+              We use client feedback, service history and ongoing performance assessment to help us understand how each experience is being delivered.
+            </BodyCopy>
+            <BodyCopy className="mb-3">We look at areas such as:</BodyCopy>
+            <ul className="space-y-2 mb-4">
+              {[
+                'Food quality and presentation',
+                'Professionalism and punctuality',
+                'Cleanliness and kitchen care',
+                'Communication',
+                'Understanding of client preferences',
+                'Consistency across repeat bookings',
+                'Overall client satisfaction',
+              ].map((item) => (
+                <li key={item} className="font-inter text-body-sm text-gray-600 leading-relaxed">— {item}</li>
+              ))}
+            </ul>
+            <BodyCopy className="mb-4">
+              Strong performance is always recognised and incentivised throughout the myCHEF network.
+            </BodyCopy>
+            <BodyCopy>
+              The objective is simple: every experience should help us make the next one even better.
+            </BodyCopy>
+          </div>
           <p className="font-inter text-body-sm text-gray-500 mb-10 max-w-[760px]">
-            {SCORE_ROUTING.food} {SCORE_ROUTING.person} {SCORE_ROUTING.safety} {scoreDemo.chefsFeedback}
+            Anything you say about the food comes back to you as a change to the menu, not to the chef as a complaint. Anything about the person is raised with them in private, never in front of your household. Safety is never scored — it stops the work. Chefs can give feedback too. You are allowed to get it wrong as well. Both sides are expected to learn.
           </p>
           <h3 className="font-playfair text-h3 text-black mb-3">{feedbackOutputs.title}</h3>
           <BodyCopy className="mb-6">{feedbackOutputs.intro}</BodyCopy>
@@ -263,7 +291,7 @@ export default function PrivateChefQualityTraining() {
           <Eyebrow tone="dark">When training is not the solution</Eyebrow>
           <DisplayHeading size="h2" className="text-white mb-4">Sometimes the match is simply wrong</DisplayHeading>
           <BodyCopy tone="dark" className="mb-5 max-w-[760px]">
-            Then we change the match. The Food Profile stays with the household — see{' '}
+            Then we change the match. Your Food Profile stays where it is — see{' '}
             <Link to={CLUSTER_PATHS.howItWorks} className="text-gold underline underline-offset-4">how backup uses that record</Link>
             . You are not expected to confront the chef at the stove, and you are not expected to start interviewing again.
           </BodyCopy>
@@ -303,7 +331,7 @@ export default function PrivateChefQualityTraining() {
         </div>
       </section>
 
-      <ClusterCTA title="Quality that still holds in month four" body="Tell us how the house eats. We match, review, and change the chef when the match is wrong." />
+      <ClusterCTA title="Quality that still holds in month four" body="Tell us how your home eats. We match the chef, review the work, and change the chef when the match is wrong." />
     </div>
   )
 }

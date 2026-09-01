@@ -18,7 +18,7 @@ const TRUTHS = [
   {
     Icon: RefreshCw,
     title: 'A chef who comes back',
-    body: 'Not a new person every Monday. The same kitchen, learning this house.',
+    body: 'Not a new person every Monday. The same chef, learning your kitchen.',
   },
   {
     Icon: ShieldCheck,
@@ -50,12 +50,10 @@ export default function HowItWorksProduct() {
         <div>
           <Eyebrow>The product</Eyebrow>
           <DisplayHeading size="h2" className="text-black mb-6">
-            Getting a cook in Dubai is easy. Keeping one is the product.
+            Getting a cook in Dubai is easy. Keeping a good one is the hard part.
           </DisplayHeading>
           <BodyCopy className="mb-6">
-            There are two ways to get a cook in Dubai: find one and manage them yourself, or use a service that keeps
-            working when the person cannot. This page is the second one. You describe how the house eats. We define the
-            role, match the chef, build the Food Profile, and keep one contact when the week is not normal.
+            There are two ways to get a chef in Dubai: find one yourself and manage them, or use a service that keeps working when that person cannot. This page is the second one. You tell us how your home eats. We work out the role, match the chef, build your Food Profile, and stay one point of contact for the weeks that do not go to plan.
           </BodyCopy>
           <BodyCopy className="mb-6">
             Some houses call this a private chef, some a personal cook, some simply “someone who cooks five days a

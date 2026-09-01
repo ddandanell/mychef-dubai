@@ -29,7 +29,7 @@ import {
   WHATSAPP_MESSAGE,
 } from '../../content/privateChefPage'
 import { CLUSTER_PATHS, FIND_CHEF_LABEL, INQUIRY_HREF, childSeo, howItWorksFaqs } from '../../content/privateChefCluster'
-import { QUALITY_LEVELS, SCORE_BANDS, SCORE_ROUTING, WRONG_MATCH } from '../../content/privateChefStandard'
+import { QUALITY_LEVELS, SCORE_BANDS } from '../../content/privateChefStandard'
 
 const PATH = CLUSTER_PATHS.howItWorks
 const seo = childSeo.howItWorks
@@ -132,6 +132,33 @@ export default function PrivateChefHowItWorks() {
               See how chefs are selected and matched →
             </Link>
           </p>
+          <div className="max-w-[760px] mt-16">
+            <Eyebrow>Before the first meal</Eyebrow>
+            <DisplayHeading size="h2" className="text-black mb-5">
+              You meet your chef before they start
+            </DisplayHeading>
+            <BodyCopy className="mb-4">
+              A chef who arrives on the first morning and starts cooking is a stranger holding your knives. So that is not how this begins. Between the match and the first meal there is a proper introduction, a conversation about how you eat, a menu you sign off, and a walk round your kitchen. A lot of what makes the service work is settled there, before anyone cooks.
+            </BodyCopy>
+            <BodyCopy className="mb-4">
+              You are not left to arrange it. When the match is agreed, your household manager sets up the first conversation and sits in on it with you. Nobody turns up at your door unannounced, and you never have to sort terms out with the person who cooks for you.
+            </BodyCopy>
+            <BodyCopy className="mb-4">
+              This is the conversation the Food Profile comes out of — not a questionnaire. What your family loves and what they will not touch. Allergies, and how serious each one is. How the children eat, and how that differs from how you eat. What time dinner actually happens on a Tuesday. Whether you want the chef talking or invisible. What “spicy” means in your home — because it means something different in every home.
+            </BodyCopy>
+            <BodyCopy className="mb-4">
+              Your chef takes you through the food they would cook, and you change it until it is yours. You will know what is coming and why. You will know what happens in a week that turns out busier than usual. You see the menu before it is cooked, not after.
+            </BodyCopy>
+            <BodyCopy className="mb-4">
+              Some households want the chef to do the shopping; others order online themselves or send their own driver. You decide here, rather than finding out later what was assumed. Groceries are charged at what the receipt says, with nothing added — and if the chef does the shopping, that time is built into the service and you see it before you agree.
+            </BodyCopy>
+            <BodyCopy className="mb-4">
+              Your chef walks the kitchen with you: the equipment, the storage, the fridge space, where things live and where they go back. So the first service runs like the tenth, instead of a morning of opening cupboards. If a pan or a probe is missing, you hear it then, not on the day.
+            </BodyCopy>
+            <BodyCopy>
+              How your chef handles raw meat, which board never goes near it, how the kitchen is left at the end of a service — you see all of that before it matters, rather than afterwards. It is the part you never think to ask about, and the part you notice most once somebody is cooking in your kitchen every week.
+            </BodyCopy>
+          </div>
         </Container>
       </Section>
 
@@ -141,12 +168,11 @@ export default function PrivateChefHowItWorks() {
           <div className="max-w-[760px]">
             <Eyebrow>What the review does</Eyebrow>
             <DisplayHeading size="h2" className="text-black mb-5">
-              The score is not a formality. It moves the chef’s pay.
+              The score is not a formality.
             </DisplayHeading>
             <BodyCopy muted>
-              After about two days we call you — separately from the chef — and ask four things: the service, the food,
-              the person, and what would make next week better. {SCORE_ROUTING.food} {SCORE_ROUTING.person}{' '}
-              {SCORE_ROUTING.safety}
+              About two days after a visit we call you — separately from the chef — and ask four things: the service, the food,
+              the person, and what would make next week better. Anything you say about the food comes back to you as a change to the menu, not to the chef as a complaint. Anything about the person is raised with them in private, never in front of your household. Safety is never scored. It stops the work.
             </BodyCopy>
           </div>
           <div className="mt-10 grid gap-6 lg:grid-cols-2">
@@ -168,17 +194,43 @@ export default function PrivateChefHowItWorks() {
                   <div key={level.id} className="grid grid-cols-[auto_1fr] gap-3 items-baseline">
                     <dt className="font-playfair text-h4 text-black whitespace-nowrap">{level.name}</dt>
                     <dd className="font-inter text-body-sm text-gray-600 leading-relaxed">
-                      {level.extraPct ? `+${level.extraPct * 100}% to the chef. ` : 'The price is the price. '}
-                      {level.meaning}
+                      {level.id === 1
+                        ? 'Every chef starts here. The price you pay does not change.'
+                        : `${level.earnedBy}. ${level.meaning}`}
                     </dd>
                   </div>
                 ))}
               </dl>
               <p className="mt-4 font-inter text-body-sm text-gray-500 leading-relaxed">
-                The extra is paid to the registered chef, not to the company that sent them, and your figure does not
-                move when they climb. {WRONG_MATCH}
+                The extra goes to the chef, not onto your bill, and your figure does not move when they move up. If the match is wrong we change the chef, and your Food Profile stays where it is — so the next one does not start from nothing.
               </p>
             </div>
+          </div>
+          <div className="max-w-[760px] mt-12">
+            <DisplayHeading as="h3" size="h3" className="text-black mb-4">How we keep the standard</DisplayHeading>
+            <BodyCopy className="mb-4">
+              Our quality process carries on after a chef has been matched to your home.
+            </BodyCopy>
+            <BodyCopy className="mb-4">
+              We use your feedback, the service history and ongoing performance assessment to understand how each visit is actually going.
+            </BodyCopy>
+            <BodyCopy className="mb-3">We look at areas such as:</BodyCopy>
+            <ul className="space-y-2 mb-4">
+              {[
+                'Food quality and presentation',
+                'Professionalism and punctuality',
+                'Cleanliness and kitchen care',
+                'Communication',
+                'Understanding of your preferences',
+                'Consistency from one visit to the next',
+                'Your overall satisfaction',
+              ].map((item) => (
+                <li key={item} className="font-inter text-body-sm text-gray-600 leading-relaxed">— {item}</li>
+              ))}
+            </ul>
+            <BodyCopy>
+              Strong performance is recognised and incentivised across the myCHEF network. That is how the standard holds, and it is why the good chefs stay.
+            </BodyCopy>
           </div>
         </Container>
       </Section>
@@ -197,9 +249,7 @@ export default function PrivateChefHowItWorks() {
               The Food Profile is what travels when the chef cannot
             </DisplayHeading>
             <BodyCopy>
-              Timing, allergies, children, spice, coffee, guests, service style. If it does not help us cook for this
-              house, we do not need it. The profile is yours — see it, correct it, or ask for it to be deleted. Open the
-              record below the way a chef or manager would.
+              Timing, allergies, children, spice, coffee, guests, service style. If it does not help us cook for you, we do not ask for it. The profile is yours — you can see it, correct it, or ask us to delete it. Open the record below and read it the way your chef or household manager would.
             </BodyCopy>
           </div>
           <FoodProfile />
@@ -215,7 +265,7 @@ export default function PrivateChefHowItWorks() {
       <Section tone="charcoal" rhythm="chapter">
         <Container>
           <div className="max-w-[720px] mb-12 lg:mb-16">
-            <Eyebrow tone="dark">When the house changes</Eyebrow>
+            <Eyebrow tone="dark">When your home changes</Eyebrow>
             <DisplayHeading size="h2" className="text-white">
               The system is for the weeks that are not normal
             </DisplayHeading>
@@ -297,7 +347,7 @@ export default function PrivateChefHowItWorks() {
       </section>
 
       <ClusterCTA
-        title="Tell us how the house eats"
+        title="Tell us how your home eats"
         body="We work out the role, match the chef, and build the Food Profile before the first service. Backup uses that record — you approve the plan in writing."
       />
     </div>

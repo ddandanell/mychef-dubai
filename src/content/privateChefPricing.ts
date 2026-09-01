@@ -250,7 +250,7 @@ export function tierFor(servicesPerMonth: number) {
 
 export function relationshipFor(daysPerWeek: number) {
   return daysPerWeek >= 5
-    ? { label: 'Dedicated household arrangement', body: 'Chef capacity is substantially reserved around the household’s schedule.' }
+    ? { label: 'Dedicated household arrangement', body: 'A dedicated arrangement: most of the chef’s capacity is reserved around your schedule.' }
     : { label: 'Regular assigned chef', body: 'We aim to keep the same chef around your scheduled days.' }
 }
 
