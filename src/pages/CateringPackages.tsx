@@ -132,9 +132,9 @@ export default function CateringPackages() {
           <p className="mt-6 font-inter text-body-sm text-gray-600 max-w-[62ch]">
             This page owns the published packages. They sit inside{' '}
             <Link to={PACKAGE_UPLINK.href} className="text-gold-ink underline underline-offset-4 hover:text-gold">
-              {PACKAGE_UPLINK.label}
+              Catering Dubai
             </Link>
-            . A standing household chef belongs on{' '}
+            — the hub for food-only through to full event support. A standing household chef belongs on{' '}
             <Link to="/private-chef-dubai" className="text-gold-ink underline underline-offset-4 hover:text-gold">
               Private chef
             </Link>

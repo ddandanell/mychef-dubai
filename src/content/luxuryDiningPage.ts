@@ -36,7 +36,7 @@ export const whatItIs: ProseSection = {
   id: 'what-is-a-dining-experience',
   h2: 'What a private dining experience Dubai actually is',
   paragraphs: [
-    'A restaurant gives you a table inside their environment, on their schedule, from their menu. Traditional catering brings food to an event you are already running. A myCHEF dining experience starts somewhere else: with what you want the evening to feel like, and then builds the food, the chef and the service around that.',
+    'A restaurant gives you a table inside their environment, on their schedule, from their menu. Traditional catering brings food to an event you are already running. People looking for unique dining experiences Dubai usually mean this: a night built around one table, not a restaurant slot. A myCHEF dining experience starts with what you want the evening to feel like, then builds the food, the chef and the service around that.',
     'It might happen at home, in a villa, on a yacht, in the desert, at a private venue, or somewhere else that suits what you have in mind. Sometimes the chef stays almost invisible and the evening belongs to your guests. Sometimes the chef introduces every course. Sometimes you are in the kitchen cooking alongside them. Sometimes the location is the whole reason for the evening.',
     'What all of them share is the direction of the planning. You are not fitting into a restaurant\'s normal service. The experience is built around you.',
   ],

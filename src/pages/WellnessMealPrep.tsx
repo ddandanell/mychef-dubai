@@ -203,7 +203,7 @@ export default function WellnessMealPrep() {
       <PageHero
         eyebrow="HEALTH-FOCUSED MEAL PREP"
         title="Healthy Meal Prep Dubai, Nutritionist-Aligned"
-        subtitle="Healthy Meal Prep Dubai by myCHEF — Nutritionist-aligned, macro-calculated meals prepared by a private chef in your own kitchen. Tell us about your household and goals — we wila tailored quote within 24 hours."
+        subtitle="Healthy Meal Prep Dubai by myCHEF — nutritionist-aligned, macro-calculated meals cooked in your kitchen. A healthy meal plan Dubai households actually follow is labelled with macros and left in the fridge. Tell us your household and goals — we send a tailored quote within 24 hours."
         image="/images/healthy-catering-dubai-hero.webp"
         imageAlt="Wellness meal prep in Dubai"
         cta={{ label: 'Plan My Wellness Menu', href: `/inquiry` }}

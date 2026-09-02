@@ -240,7 +240,7 @@ export const parentSeo = {
   description: `A standing private chef for your home in Dubai. Prep, dinner or full-day plans from ${fmt(pricingPreview[0].monthly)} a month. Matched, managed, and replaced if the fit is wrong.`,
   h1: 'Private Chef Dubai — a chef who comes back',
   subtitle:
-    'A private chef Dubai service means one chef cooking for your family regularly. Usually the same person each week, a written record of how you like to eat, and cover when your chef is away. We find the chef, agree the menu with you, and manage everything after that. If you only want one dinner cooked, that is catering.',
+    'A private chef Dubai service means one chef cooking for your family regularly. A personal chef Dubai search is the same job: one named cook, not a new person every week. Usually the same person each week, a written record of how you like to eat, and cover when your chef is away. We find the chef, agree the menu with you, and manage everything after that. If you only want one dinner cooked, that is catering.',
 }
 
 export const childSeo = {

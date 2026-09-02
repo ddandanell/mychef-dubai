@@ -276,6 +276,7 @@ export const unsureLinks = [
   { prompt: 'I am planning a wedding', href: CATERING_PATHS.weddings, label: 'Wedding catering in Dubai' },
   { prompt: 'I am planning a company event', href: CATERING_PATHS.corporateEvents, label: 'Corporate catering for Dubai events' },
   { prompt: 'I am planning a birthday or celebration', href: CATERING_PATHS.birthdays, label: 'Birthday catering in Dubai' },
+  { prompt: 'I am planning festive or holiday catering', href: '/festive-catering-dubai', label: 'Festive catering Dubai' },
   { prompt: 'I am hosting at a villa', href: CATERING_PATHS.villas, label: 'Villa catering in Dubai' },
   { prompt: 'I am hosting on a yacht', href: CATERING_PATHS.yachts, label: 'Yacht catering in Dubai' },
   { prompt: 'I only need food delivered', href: CATERING_PATHS.dropOff, label: 'Food delivery and drop-off catering' },

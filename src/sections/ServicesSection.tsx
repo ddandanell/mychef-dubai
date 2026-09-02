@@ -10,7 +10,7 @@ import { SectionLabel } from '@/components/system'
 const coreServices = [
   {
     image: '/images/private-chef-dubai-hero.webp',
-    title: 'Private Chef Dubai',
+    title: 'A chef for your kitchen',
     description: 'A vetted chef for one evening, a week, or longer. We learn how you like to eat, design the menu with you, and your chef cooks it fresh in your own kitchen.',
     link: '/private-chef-dubai',
     cta: 'See private chef',

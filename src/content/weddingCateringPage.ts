@@ -11,7 +11,7 @@ export const WEDDING_PATH = '/wedding-catering-dubai' as const
 
 export const WEDDING_KEYWORD_LOCK = {
   primary: 'wedding catering dubai',
-  title: 'Wedding Catering Dubai | Villa, Garden & Venue | myCHEF',
+  title: 'Wedding Catering Dubai | From AED 700 a Guest | myCHEF',
   description:
     'Wedding Catering Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.',
 } as const
@@ -290,7 +290,7 @@ export const weddingFaqs = [
   },
   {
     q: 'How far ahead should we book?',
-    a: 'Three to six months is the comfortable window. Peak dates from November to March, and larger weddings, should start earlier. Short notice is sometimes possible — send the date and we will say honestly whether the right team is free.',
+    a: 'Three to six months is the comfortable window. When to book caterer for wedding dates in Dubai, start there, and earlier for November–March peak and larger receptions. Short notice is sometimes possible — send the date and we will say honestly whether the right team is free.',
   },
   {
     q: 'How much does wedding catering cost in Dubai?',

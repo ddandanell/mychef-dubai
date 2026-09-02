@@ -1,6 +1,6 @@
 {
  "generated": "2026-08-26 22:42",
- "rule": "impact = demand × gap × convertibility / risk. Top 15 shown. Agent does not apply.",
+ "rule": "impact = demand × gap × convertibility / risk. Top 15 shown. Applied 2026-09-02: L2 fills/links shipped; L3 retargets resolved without 301; L4 titles only where primary was not already first.",
  "proposals": [
   {
    "id": "2026-08-26-002",
@@ -18,7 +18,9 @@
    "autonomy": "L2",
    "impact": 48.0,
    "demand": "live",
-   "status": "open"
+   "status": "accepted",
+   "resolution": "accepted — placed 'home catering Dubai' in /catering-dubai hero and FAQ",
+   "resolved_at": "2026-09-02"
   },
   {
    "id": "2026-08-26-003",
@@ -36,7 +38,9 @@
    "autonomy": "L2",
    "impact": 11.8,
    "demand": "live",
-   "status": "open"
+   "status": "accepted",
+   "resolution": "accepted — placed 'unique dining experiences Dubai' in hub body",
+   "resolved_at": "2026-09-02"
   },
   {
    "id": "2026-08-26-043",
@@ -54,7 +58,9 @@
    "autonomy": "L2",
    "impact": 8.58,
    "demand": "live",
-   "status": "open"
+   "status": "accepted",
+   "resolution": "accepted — contextual link from /catering-dubai unsureLinks to /festive-catering-dubai",
+   "resolved_at": "2026-09-02"
   },
   {
    "id": "2026-08-26-001",
@@ -74,7 +80,9 @@
    "autonomy": "L3",
    "impact": 8.0,
    "demand": "live",
-   "status": "open"
+   "status": "accepted",
+   "resolution": "accepted without 301 — packages now links to /catering-dubai with 'Catering Dubai' anchor; hub kept as owner",
+   "resolved_at": "2026-09-02"
   },
   {
    "id": "2026-08-26-024",
@@ -92,7 +100,9 @@
    "autonomy": "L2",
    "impact": 7.8,
    "demand": "live",
-   "status": "open"
+   "status": "accepted",
+   "resolution": "accepted — placed 'healthy meal plan Dubai' in wellness hero; fixed truncated 'we wila' typo",
+   "resolved_at": "2026-09-02"
   },
   {
    "id": "2026-08-26-006",
@@ -110,7 +120,9 @@
    "autonomy": "L2",
    "impact": 7.12,
    "demand": "live",
-   "status": "open"
+   "status": "accepted",
+   "resolution": "accepted — placed 'personal chef Dubai' in hub subtitle",
+   "resolved_at": "2026-09-02"
   },
   {
    "id": "2026-08-26-022",
@@ -128,7 +140,9 @@
    "autonomy": "L2",
    "impact": 3.64,
    "demand": "live",
-   "status": "open"
+   "status": "accepted",
+   "resolution": "accepted — placed 'when to book caterer for wedding' in wedding FAQ",
+   "resolved_at": "2026-09-02"
   },
   {
    "id": "2026-08-26-007",
@@ -147,7 +161,9 @@
    "autonomy": "L4",
    "impact": 2.3733,
    "demand": "live",
-   "status": "open"
+   "status": "accepted",
+   "resolution": "accepted already-live — title already primary-at-front with monthly price cue; H1 unchanged",
+   "resolved_at": "2026-09-02"
   },
   {
    "id": "2026-08-26-039",
@@ -165,7 +181,9 @@
    "autonomy": "L2",
    "impact": 2.2,
    "demand": "live",
-   "status": "open"
+   "status": "accepted",
+   "resolution": "accepted already-live — 'dinner on a yacht' already in partner valueProposition",
+   "resolved_at": "2026-09-02"
   },
   {
    "id": "2026-08-26-032",
@@ -183,7 +201,9 @@
    "autonomy": "L2",
    "impact": 1.4,
    "demand": "live",
-   "status": "open"
+   "status": "accepted",
+   "resolution": "accepted — placed 'chef Middle East Dubai' in Layla bio",
+   "resolved_at": "2026-09-02"
   },
   {
    "id": "2026-08-26-023",
@@ -202,7 +222,9 @@
    "autonomy": "L4",
    "impact": 1.2133,
    "demand": "live",
-   "status": "open"
+   "status": "accepted",
+   "resolution": "accepted — title test: price cue 'From AED 700 a Guest'; H1 unchanged",
+   "resolved_at": "2026-09-02"
   },
   {
    "id": "2026-08-26-005",
@@ -222,7 +244,9 @@
    "autonomy": "L3",
    "impact": 1.1867,
    "demand": "live",
-   "status": "open"
+   "status": "accepted",
+   "resolution": "accepted without 301 — hub kept as owner; homepage card no longer exact-matches the primary; one silo link remains",
+   "resolved_at": "2026-09-02"
   },
   {
    "id": "2026-08-26-009",
@@ -241,7 +265,9 @@
    "autonomy": "L4",
    "impact": 1.1333,
    "demand": "live",
-   "status": "open"
+   "status": "accepted",
+   "resolution": "accepted already-live — title already starts with 'Private Dining Dubai'; H1 unchanged",
+   "resolved_at": "2026-09-02"
   },
   {
    "id": "2026-08-26-004",
@@ -261,7 +287,9 @@
    "autonomy": "L3",
    "impact": 1.0667,
    "demand": "live",
-   "status": "open"
+   "status": "accepted",
+   "resolution": "accepted without 301 — /our-chefs kept as owner; homepage CTA now 'Private chefs Dubai'; body places the primary",
+   "resolved_at": "2026-09-02"
   },
   {
    "id": "2026-08-26-015",
@@ -279,7 +307,9 @@
    "autonomy": "L2",
    "impact": 1.0,
    "demand": "live",
-   "status": "open"
+   "status": "accepted",
+   "resolution": "accepted — placed 'birthday party catering Dubai' in birthday hero",
+   "resolved_at": "2026-09-02"
   }
  ],
  "deferred": 36,
@@ -288,5 +318,6 @@
   "experiment": 3,
   "retarget": 8,
   "retire": 8
- }
+ },
+ "applied_at": "2026-09-02 20:46"
 }

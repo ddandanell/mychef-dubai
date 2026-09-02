@@ -77,7 +77,7 @@ export default function TeamSection() {
               We choose the chef. We brief the chef. We stay with you from the first message to the last plate.
             </p>
             <Link to="/our-chefs" className="btn-secondary inline-flex self-start focus-visible:ring-offset-black">
-              Meet our chefs
+              Private chefs Dubai
             </Link>
           </div>
         </div>

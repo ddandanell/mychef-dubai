@@ -105,7 +105,7 @@ export default function Catering() {
       <PageHero
         eyebrow="Catering Dubai"
         title="Catering Dubai, Built Around Your Event"
-        subtitle="From delivered buffet food to chefs, service staff, live cooking and full event support, myCHEF designs catering around the event you are actually hosting. Our catering services in Dubai cover weddings, villa events, yachts, private celebrations, offices and corporate events. Food-only catering starts from AED 90 per person; full service catering with staff, bar and live cooking is priced to the guest count and format."
+        subtitle="From delivered buffet food to chefs, service staff, live cooking and full event support, myCHEF designs catering around the event you are actually hosting. Our catering services in Dubai cover weddings, villa events, yachts, private celebrations, offices and corporate events. Home catering Dubai is the 10–20 guest work at a villa or apartment: one chef, one server, your kitchen. Food-only catering starts from AED 90 per person; full service catering with staff, bar and live cooking is priced to the guest count and format."
         image={cateringHero.src}
         imageAlt={cateringHero.alt}
         imageWidth={cateringHero.width}

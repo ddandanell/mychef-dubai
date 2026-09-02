@@ -27,7 +27,7 @@ export const birthdayHeroCopy = {
   eyebrow: 'Event catering',
   title: 'Birthday Catering Dubai',
   subtitle:
-    'Birthday catering Dubai for a seated dinner, a villa party or a children’s gathering. Menus, chefs, staffing, setup and clear-down — so you stay a guest at your own table.',
+    'Birthday catering Dubai for a seated dinner, a villa party or a children’s gathering. Birthday party catering Dubai is the same brief: the food, the team and the clear-down, so you stay a guest at your own table.',
   priceLine: 'Event buffets from AED 120 per person.',
   replyLine: 'Share your date, venue and guest count. We typically reply within 15 minutes during business hours.',
 } as const
