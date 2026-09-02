@@ -142,78 +142,27 @@
  ],
  "queue": [
   {
-   "type": "place_subkeyword",
-   "status": "open",
+   "type": "fill_subkeyword",
+   "status": "accepted",
    "count": 8
   },
   {
-   "type": "reassign_primary",
-   "status": "open",
+   "type": "retarget",
+   "status": "accepted",
    "count": 3
   },
   {
-   "type": "watch",
-   "status": "open",
+   "type": "experiment",
+   "status": "accepted",
    "count": 3
   },
   {
-   "type": "add_internal_link",
-   "status": "open",
+   "type": "add_link",
+   "status": "accepted",
    "count": 1
   }
  ],
- "top5": [
-  {
-   "id": "2026-08-26-002",
-   "type": "place_subkeyword",
-   "url": "/catering-dubai",
-   "keyword": "home catering dubai",
-   "reason": "assigned to /catering-dubai but the live copy does not say it",
-   "risk": "low",
-   "auto_eligible": false,
-   "status": "open"
-  },
-  {
-   "id": "2026-08-26-003",
-   "type": "place_subkeyword",
-   "url": "/luxury-dining-experiences",
-   "keyword": "unique dining experiences dubai",
-   "reason": "assigned to /luxury-dining-experiences but the live copy does not say it",
-   "risk": "low",
-   "auto_eligible": false,
-   "status": "open"
-  },
-  {
-   "id": "2026-08-26-043",
-   "type": "add_internal_link",
-   "url": "/festive-catering-dubai",
-   "keyword": "festive catering dubai",
-   "reason": "internal-link status Maximum opportunity",
-   "risk": "low",
-   "auto_eligible": false,
-   "status": "open"
-  },
-  {
-   "id": "2026-08-26-001",
-   "type": "reassign_primary",
-   "url": "/catering-dubai",
-   "keyword": "catering dubai",
-   "reason": "GSC ranks /catering-packages-dubai for this phrase, not the contract owner",
-   "risk": "high",
-   "auto_eligible": false,
-   "status": "open"
-  },
-  {
-   "id": "2026-08-26-024",
-   "type": "place_subkeyword",
-   "url": "/wellness-meal-prep-dubai",
-   "keyword": "healthy meal plan dubai",
-   "reason": "assigned to /wellness-meal-prep-dubai but the live copy does not say it",
-   "risk": "low",
-   "auto_eligible": false,
-   "status": "open"
-  }
- ],
+ "top5": [],
  "experiments": {
   "verdicts": {
    "too_soon": 58

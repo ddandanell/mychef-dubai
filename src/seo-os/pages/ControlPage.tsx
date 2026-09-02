@@ -151,9 +151,13 @@ export default function ControlPage() {
             </ShimmerButton>
           </div>
           <div className="flex flex-col gap-2">
-            {(data?.top5 ?? []).map((item) => (
-              <ProposalRow key={item.id} item={item} />
-            ))}
+            {(data?.top5 ?? []).length ? (
+              (data?.top5 ?? []).map((item) => (
+                <ProposalRow key={item.id} item={item} />
+              ))
+            ) : (
+              <p className="text-muted-foreground text-sm">Queue is clear. Last batch is on the Done tab.</p>
+            )}
           </div>
         </section>
 

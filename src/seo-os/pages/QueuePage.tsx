@@ -18,18 +18,26 @@ type Proposal = {
   impact: number
   demand: string
   status: string
+  resolution?: string
+  resolved_at?: string
   evidence?: Record<string, unknown>
 }
 
 type QueueFile = {
   generated?: string
+  applied_at?: string
   rule?: string
   proposals?: Proposal[]
   deferred?: number
   deferred_classes?: Record<string, number>
 }
 
+function isOpen(item: Proposal) {
+  return (item.status || "open") === "open"
+}
+
 const columns: TableColumn<Proposal>[] = [
+  { id: "status", header: "Status", accessor: (r) => r.status || "open", kind: "badge" },
   { id: "impact", header: "Impact", accessor: (r) => r.impact, kind: "number" },
   { id: "class", header: "Class", accessor: (r) => r.class, kind: "badge" },
   { id: "keyword", header: "Keyword", accessor: (r) => r.keyword },
@@ -38,19 +46,23 @@ const columns: TableColumn<Proposal>[] = [
   { id: "risk", header: "Risk", accessor: (r) => r.risk, kind: "badge" },
   { id: "demand", header: "Demand", accessor: (r) => r.demand, kind: "badge" },
   { id: "action", header: "Do", accessor: (r) => r.action },
+  { id: "resolution", header: "Done as", accessor: (r) => r.resolution || "" },
 ]
 
 export default function QueuePage() {
   const { data, error, loading } = useSeoJson<QueueFile>("proposals")
   const [row, setRow] = useState<Proposal | null>(null)
-  const [tab, setTab] = useState("all")
+  const [tab, setTab] = useState("open")
   const proposals = data?.proposals ?? []
+  const open = useMemo(() => proposals.filter(isOpen), [proposals])
+  const done = useMemo(() => proposals.filter((item) => !isOpen(item)), [proposals])
   const filtered = useMemo(() => {
+    if (tab === "open") return open
+    if (tab === "done") return done
     if (tab === "all") return proposals
-    return proposals.filter((item) => item.autonomy === tab)
-  }, [proposals, tab])
-  const live = proposals.filter((item) => item.demand === "live").length
-  const l2 = proposals.filter((item) => item.autonomy === "L2").length
+    return open.filter((item) => item.autonomy === tab)
+  }, [proposals, open, done, tab])
+  const liveOpen = open.filter((item) => item.demand === "live").length
 
   return (
     <PageFrame
@@ -61,15 +73,17 @@ export default function QueuePage() {
       loading={loading}
       error={error}
       metrics={[
-        { label: "On the queue", value: fmtNum(proposals.length) },
+        { label: "Open", value: fmtNum(open.length) },
+        { label: "Done", value: fmtNum(done.length) },
         { label: "Deferred", value: fmtNum(data?.deferred) },
-        { label: "Live demand", value: fmtNum(live) },
-        { label: "Safe for L2 later", value: fmtNum(l2) },
+        { label: "Live demand still open", value: fmtNum(liveOpen) },
       ]}
     >
       <div className="px-4 lg:px-6">
         <Tabs value={tab} onValueChange={setTab}>
           <TabsList>
+            <TabsTrigger value="open">Open</TabsTrigger>
+            <TabsTrigger value="done">Done</TabsTrigger>
             <TabsTrigger value="all">All</TabsTrigger>
             <TabsTrigger value="L2">L2</TabsTrigger>
             <TabsTrigger value="L3">L3</TabsTrigger>
@@ -77,7 +91,18 @@ export default function QueuePage() {
           </TabsList>
         </Tabs>
       </div>
-      <DataTable data={filtered} columns={columns} searchPlaceholder="Filter proposals…" onRowClick={setRow} />
+      <DataTable
+        data={filtered}
+        columns={columns}
+        searchPlaceholder="Filter proposals…"
+        onRowClick={setRow}
+        emptyTitle={tab === "open" ? "Queue is clear" : "No rows"}
+        emptyDescription={
+          tab === "open"
+            ? "Nothing is waiting. Done items are on the Done tab."
+            : "This file has not been published yet, or nothing matches the filter."
+        }
+      />
       <RecordInspector row={row ? asRecord(row) : null} onClose={() => setRow(null)} />
     </PageFrame>
   )
