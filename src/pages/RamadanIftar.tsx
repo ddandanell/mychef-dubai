@@ -381,7 +381,11 @@ export default function RamadanIftar() {
             Iftar catering Dubai price and iftar catering cost per person Dubai depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Iftar buffet Dubai near me is covered across the whole city, because the chef travels to your address rather than the other way round. Iftar catering packages Dubai, best iftar buffet Dubai offers and best iftar buffet Dubai 2026 packages start from a set format and get adjusted to your date rather than sold as a fixed box. If you are weighing up best iftar catering Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients. The iftar catering menu Dubai is drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Iftar catering at home Dubai is run at the address you give us: we bring the equipment, cook on site and leave the space as we found it.
           </p>
           <p className="font-inter text-body-lg text-gray-500 leading-relaxed">
-            Whether you are hosting an intimate family Iftar, a corporate gathering for staff, or a community event at a hotel or event space, chefs in our network bring the menu, staff, and setup to you. Menus can be adapted to guest count, dietary needs, and event style, ensuring each evening feels personal and effortless.
+            Whether you are hosting an intimate family Iftar, a corporate gathering for staff, or a community event at a hotel or event space, chefs in our network bring the menu, staff, and setup to you. Menus can be adapted to guest count, dietary needs, and event style, ensuring each evening feels personal and effortless. Iftar is one night on the{' '}
+            <Link to="/festive-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
+              festive catering Dubai
+            </Link>{' '}
+            calendar, next to Eid, Diwali and Christmas.
           </p>
         </div>
       </section>

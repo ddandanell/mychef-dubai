@@ -161,6 +161,13 @@ export default function Events() {
             <Link to={siloIntro.diningHref} className="text-gold-ink underline underline-offset-4 hover:text-gold">
               {siloIntro.diningLabel}
             </Link>
+            . Christmas, Diwali, Ramadan and National Day sit on{' '}
+            <Link
+              to="/festive-catering-dubai"
+              className="text-gold-ink underline underline-offset-4 hover:text-gold"
+            >
+              festive catering Dubai
+            </Link>
             .
           </p>
         </Container>

@@ -40,7 +40,11 @@ const config: OccasionPageConfig = {
         <Link to="/eid-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           Eid catering
         </Link>{' '}
-        for other cultural celebrations, or explore{' '}
+        and the rest of{' '}
+        <Link to="/festive-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
+          festive catering Dubai
+        </Link>
+        , or explore{' '}
         <Link to="/corporate-event-catering-dubai" className="text-gold hover:text-gold-light underline underline-offset-4 transition-colors">
           corporate event catering
         </Link>{' '}

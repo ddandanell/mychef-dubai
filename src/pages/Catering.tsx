@@ -165,6 +165,16 @@ export default function Catering() {
           <p className="mt-6 max-w-[65ch] font-inter text-body-sm text-gray-500 leading-relaxed">
             {SAME_PARTNERS}
           </p>
+          <p className="mt-4 max-w-[65ch] font-inter text-body-sm text-gray-500 leading-relaxed">
+            Hosts looking for catering services Dubai start here: food only, chefs and waiters, or the whole night from one brief. Christmas, Diwali, Ramadan and National Day sit on{' '}
+            <Link
+              to="/festive-catering-dubai"
+              className="text-gold-ink underline underline-offset-4 hover:text-gold"
+            >
+              festive catering Dubai
+            </Link>
+            .
+          </p>
         </Container>
       </Section>
 

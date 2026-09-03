@@ -348,7 +348,7 @@ export default function WeeklyMealPrep() {
           </h2>
           <div className="wmp-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Tell us about your household — your size, dietary goals, preferred cuisines, and any allergies — and we will reply within 15 minutes during business hours, then bring you a vetted private chef. Our weekly meal prep service puts that chef in your kitchen once or twice a week to prepare fresh, portioned meals designed around your tastes, schedule, and health goals, so you can reclaim your evenings and skip the takeout cycle.
+              Tell us about your household — your size, dietary goals, preferred cuisines, and any allergies — and we will reply within 15 minutes during business hours, then bring you a vetted private chef. The meal prep service Dubai households book puts that chef in your kitchen once or twice a week to cook fresh, portioned meals around your tastes, schedule and diet — so you get the evenings back and skip the takeout cycle.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               If you are weighing up meal prep delivery in Dubai, three things are worth checking: whether a named chef cooks it, whether the quote is itemised, and who buys the ingredients. Whether weekly meal prep is healthy is decided in the first draft of the menu rather than bolted on at the end — a family meal prep service that plans around your diet is a different thing from a batch cooking service that reheats a fixed rotation.

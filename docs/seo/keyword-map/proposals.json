@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-04 02:17",
+ "generated": "2026-09-04 02:27",
  "rule": "impact = demand × gap × convertibility / risk. Top 15 shown. Agent does not apply.",
  "proposals": [
   {
@@ -18,7 +18,7 @@
    "autonomy": "L2",
    "impact": 48.0,
    "demand": "live",
-   "status": "open"
+   "status": "accepted"
   },
   {
    "id": "2026-09-04-003",
@@ -36,7 +36,7 @@
    "autonomy": "L2",
    "impact": 11.8,
    "demand": "live",
-   "status": "open"
+   "status": "accepted"
   },
   {
    "id": "2026-09-04-064",
@@ -54,7 +54,7 @@
    "autonomy": "L2",
    "impact": 10.94,
    "demand": "live",
-   "status": "open"
+   "status": "accepted"
   }
  ],
  "deferred": 69,
@@ -64,5 +64,5 @@
   "retarget": 8,
   "retire": 8
  },
- "note": "2026-09-04 harvest re-opened 12 items already on live HTML, blocked by the experiment lock, or illegal 301s. Those were closed. Remaining: exact-phrase fills that live HTML still lacks, plus festive underlinking."
+ "note": "2026-09-04 applied: catering services dubai, meal prep service dubai, festive inlinks from unlocked silo pages. Open queue empty."
 }
