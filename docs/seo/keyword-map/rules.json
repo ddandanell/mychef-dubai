@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-28 02:59",
+ "generated": "2026-09-04 02:09",
  "intro": "Every rule here exists because something went wrong once. A rule with a gate is checked on every run and fails the build when it breaks; a rule without one is written down and carried by the tooling, with the numbers beside it.",
  "tiles": [
   {
@@ -7,11 +7,11 @@
    "label": "Rules"
   },
   {
-   "value": "7",
+   "value": "5",
    "label": "Enforced by a gate"
   },
   {
-   "value": "7",
+   "value": "5",
    "label": "Holding right now"
   },
   {
@@ -44,8 +44,8 @@
    "why": "The body-sentence optimizer chose the first prose paragraph, which on most templates is the hero subtitle. /bbq-catering-dubai reached 245 words above the fold.",
    "where": "optimize-page.py hero_end() · move-hero-copy.py",
    "needs_build": true,
-   "status": "holds",
-   "evidence": "hero copy OK — 185 pages, median 36 words of hero prose, none over budget",
+   "status": "not checked",
+   "evidence": "",
    "command": "python3 scripts/verify-hero.py"
   },
   {
@@ -104,8 +104,8 @@
    "why": "The unglamorous half of on-page SEO, and the half that silently rots during a redesign.",
    "where": "scripts/audit-onpage.py",
    "needs_build": true,
-   "status": "holds",
-   "evidence": "full report -> /Users/openclaw/Documents/GitHub/mychef-dubai/docs/seo/onpage-audit.txt",
+   "status": "not checked",
+   "evidence": "",
    "command": "python3 scripts/audit-onpage.py"
   },
   {
@@ -130,7 +130,7 @@
    "why": "The optimizer can edit 155 pages in a minute. That is exactly why it does not get to decide.",
    "where": "build-proposals.py never calls the optimizer · apply-safe.py is not built",
    "status": "no gate",
-   "evidence": "15 proposal(s) waiting for a decision"
+   "evidence": "0 proposal(s) waiting for a decision"
   },
   {
    "id": "commit-the-run",
