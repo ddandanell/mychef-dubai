@@ -186,7 +186,7 @@ export default function OurChefs() {
                 The Chefs We Choose
               </h2>
               <p className="font-inter text-body text-gray-500 leading-relaxed mb-4">
-                Private chefs Dubai on this page are the named cooks we actually send — interviewed, tasted and background-checked before they cook in a home. We choose the talent. We hold the standard. The artistry is theirs.
+                Private chefs Dubai on this page are the named cooks we actually send — interviewed, tasted and background-checked before they cook in a home. Hosts who hire chef Dubai through myCHEF pick from this list, not from an open marketplace. We choose the talent. We hold the standard. The artistry is theirs.
               </p>
               <p className="font-inter text-body text-gray-500 leading-relaxed">
                 Every chef is independently vetted and selected not only for technical skill but for something harder to teach: the instinct for genuine hospitality. We believe that a truly exceptional dining experience is about how your guests feel — not just what they eat.

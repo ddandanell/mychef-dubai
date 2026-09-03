@@ -1,6 +1,6 @@
 {
  "generated": "2026-08-26 22:42",
- "rule": "impact = demand × gap × convertibility / risk. Top 15 shown. Applied 2026-09-02: L2 fills/links shipped; L3 retargets resolved without 301; L4 titles only where primary was not already first.",
+ "rule": "impact = demand × gap × convertibility / risk. Applied 2026-09-02 (15) and 2026-09-03 (5 exact-phrase fills). Open is empty.",
  "proposals": [
   {
    "id": "2026-08-26-002",
@@ -310,6 +310,88 @@
    "status": "accepted",
    "resolution": "accepted — placed 'birthday party catering Dubai' in birthday hero",
    "resolved_at": "2026-09-02"
+  },
+  {
+   "id": "2026-09-03-004",
+   "class": "fill_subkeyword",
+   "url": "/become-a-mychef",
+   "keyword": "catering jobs dubai",
+   "reason": "assigned to /become-a-mychef but the live copy did not say it",
+   "evidence": {
+    "sub_volume": null
+   },
+   "action": "insert approved sentence template on the owner page",
+   "risk": "low",
+   "autonomy": "L2",
+   "impact": 6.4,
+   "demand": "live",
+   "status": "accepted",
+   "resolution": "accepted — placed 'catering jobs Dubai' in the opening",
+   "resolved_at": "2026-09-03"
+  },
+  {
+   "id": "2026-09-03-006",
+   "class": "fill_subkeyword",
+   "url": "/our-chefs",
+   "keyword": "hire chef dubai",
+   "reason": "assigned to /our-chefs but the live copy did not say it",
+   "evidence": {},
+   "action": "insert approved sentence template on the owner page",
+   "risk": "low",
+   "autonomy": "L2",
+   "impact": 6.4,
+   "demand": "live",
+   "status": "accepted",
+   "resolution": "accepted — placed 'hire chef Dubai' in the approach section",
+   "resolved_at": "2026-09-03"
+  },
+  {
+   "id": "2026-09-03-010",
+   "class": "fill_subkeyword",
+   "url": "/chef-training-academy",
+   "keyword": "culinary academy dubai",
+   "reason": "assigned to /chef-training-academy but the live copy did not say it",
+   "evidence": {},
+   "action": "insert approved sentence template on the owner page",
+   "risk": "low",
+   "autonomy": "L2",
+   "impact": 3.4,
+   "demand": "live",
+   "status": "accepted",
+   "resolution": "accepted — placed 'culinary academy Dubai' in the opening",
+   "resolved_at": "2026-09-03"
+  },
+  {
+   "id": "2026-09-03-012",
+   "class": "fill_subkeyword",
+   "url": "/guide/private-dining-dubai",
+   "keyword": "romantic private dining dubai",
+   "reason": "assigned to /guide/private-dining-dubai but the live copy did not say it",
+   "evidence": {},
+   "action": "insert approved sentence template on the owner page",
+   "risk": "low",
+   "autonomy": "L2",
+   "impact": 3.4,
+   "demand": "live",
+   "status": "accepted",
+   "resolution": "accepted — placed 'romantic private dining Dubai' in the guide body",
+   "resolved_at": "2026-09-03"
+  },
+  {
+   "id": "2026-09-03-036",
+   "class": "fill_subkeyword",
+   "url": "/apartment-private-dining-dubai",
+   "keyword": "private dinner in dubai",
+   "reason": "assigned to /apartment-private-dining-dubai but the live copy did not say it",
+   "evidence": {},
+   "action": "insert approved sentence template on the owner page",
+   "risk": "low",
+   "autonomy": "L2",
+   "impact": 1.4,
+   "demand": "live",
+   "status": "accepted",
+   "resolution": "accepted — placed 'private dinner in Dubai' in the apartment intro",
+   "resolved_at": "2026-09-03"
   }
  ],
  "deferred": 36,
@@ -319,5 +401,5 @@
   "retarget": 8,
   "retire": 8
  },
- "applied_at": "2026-09-02 20:46"
+ "applied_at": "2026-09-03"
 }

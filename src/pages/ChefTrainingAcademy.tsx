@@ -260,7 +260,7 @@ export default function ChefTrainingAcademy() {
           </h2>
           <div className="ct-intro-text opacity-0 translate-y-8">
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
-              Private dining is a different discipline from restaurant service. Our academy teaches the timing, presentation, and guest-service skills that turn a good cook into a confident private chef. Tell us about your experience and goals, and we will recommend the right programme and help you enrol for the next intake.
+              Private dining is a different discipline from restaurant service. This is the culinary academy Dubai chefs use when they want villa and household training, not a hotel kitchen course. Our academy teaches the timing, presentation, and guest-service skills that turn a good cook into a confident private chef. Tell us about your experience and goals, and we will recommend the right programme and help you enrol for the next intake.
             </p>
             <p className="font-inter text-body-lg text-gray-500 leading-relaxed mb-5">
               If you are weighing up best chef school in Dubai, the things worth checking are the named chef, the itemised quote and who buys the ingredients.
