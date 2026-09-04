@@ -1,46 +1,45 @@
 {
- "generated": "2026-09-04 02:10",
- "run_id": 16,
- "banner": "The last run was 196 hours ago. Anything on this board older than that is stale.",
+ "generated": "2026-09-04 12:33",
+ "run_id": 17,
+ "banner": null,
  "heartbeat": {
-  "id": 2,
-  "ran_at": "2026-08-26T14:42+00:00",
-  "kind": "daily",
+  "id": 4,
+  "ran_at": "2026-09-04T04:32+00:00",
+  "kind": "full",
   "mode": "live",
-  "git_commit": "ff2d69d",
+  "git_commit": "07db376",
   "phase": "idle",
   "sources_ok": [
    "Neon Postgres",
    "DataForSEO",
    "Google Search Console",
+   "Google Analytics 4",
    "Vercel Web Analytics",
    "Vercel project",
+   "First-party tracking",
    "Bing Webmaster",
    "PageSpeed / CrUX",
    "Claude AI visibility",
    "SEO analyst (read-only)",
    "Board build (run-loop)"
   ],
-  "sources_stale": [
-   "Google Analytics 4",
-   "First-party tracking"
-  ],
-  "pages_scored": 177,
-  "keywords_scored": 1712,
+  "sources_stale": [],
+  "pages_scored": 171,
+  "keywords_scored": 1694,
   "proposals_opened": null,
   "edits_applied": null,
   "gates_pass": null,
   "error": null,
-  "age_hours": 195.5
+  "age_hours": 0.0
  },
  "counts": {
-  "locked": 1712,
-  "placed": 1354,
-  "proven": 75,
-  "locked_unproven": 1637,
+  "locked": 1694,
+  "placed": 837,
+  "proven": 95,
+  "locked_unproven": 1599,
   "primaries_locked": 163,
-  "primaries_placed": 149,
-  "primaries_proven": 25
+  "primaries_placed": 138,
+  "primaries_proven": 26
  },
  "sources": [
   {
@@ -49,7 +48,7 @@
    "detail": "https://www.mychef.ae/ · 31 daily rows returned",
    "last_success": null,
    "error": null,
-   "checked_at": "2026-09-04T02:09+00:00"
+   "checked_at": "2026-09-04T12:31+00:00"
   },
   {
    "service": "Board build (run-loop)",
@@ -57,7 +56,7 @@
    "detail": "keyword file, research pages and archive rebuilt on every run",
    "last_success": "2026-08-28T02:59+00:00",
    "error": "runs by hand — no scheduler is configured yet, so freshness depends on someone starting it",
-   "checked_at": "2026-09-04T02:09+00:00"
+   "checked_at": "2026-09-04T12:31+00:00"
   },
   {
    "service": "Claude AI visibility",
@@ -65,7 +64,7 @@
    "detail": "16 buyer prompts, answers stored",
    "last_success": "2026-08-26T10:07+00:00",
    "error": null,
-   "checked_at": "2026-09-04T02:09+00:00"
+   "checked_at": "2026-09-04T12:31+00:00"
   },
   {
    "service": "DataForSEO",
@@ -73,23 +72,23 @@
    "detail": "balance $33.89 · 41,635 SERP rows stored",
    "last_success": "2026-08-26T10:00+00:00",
    "error": null,
-   "checked_at": "2026-09-04T02:09+00:00"
+   "checked_at": "2026-09-04T12:31+00:00"
   },
   {
    "service": "First-party tracking",
    "status": "connected",
-   "detail": "endpoint live · 2,577 events recorded",
-   "last_success": "2026-09-03T16:12+00:00",
+   "detail": "endpoint live · 2,606 events recorded",
+   "last_success": "2026-09-04T00:58+00:00",
    "error": null,
-   "checked_at": "2026-09-04T02:09+00:00"
+   "checked_at": "2026-09-04T12:31+00:00"
   },
   {
    "service": "Google Analytics 4",
    "status": "connected",
-   "detail": "543704202 · 29 landing pages · 59 sessions in 30d · 42 day-rows stored",
-   "last_success": "2026-08-27T12:19+00:00",
+   "detail": "543704202 · 31 landing pages · 70 sessions in 30d · 50 day-rows stored",
+   "last_success": "2026-09-04T12:23+00:00",
    "error": null,
-   "checked_at": "2026-09-04T02:09+00:00"
+   "checked_at": "2026-09-04T12:31+00:00"
   },
   {
    "service": "Google Search Console",
@@ -97,15 +96,15 @@
    "detail": "2 property · 54 clicks in the last 10 days",
    "last_success": "2026-09-01T00:00+00:00",
    "error": null,
-   "checked_at": "2026-09-04T02:09+00:00"
+   "checked_at": "2026-09-04T12:31+00:00"
   },
   {
    "service": "Neon Postgres",
    "status": "connected",
-   "detail": "13 runs · 59 MB · 108,029 rows across 15 tables",
+   "detail": "13 runs · 59 MB · 108,063 rows across 15 tables",
    "last_success": "2026-08-26T11:58+00:00",
    "error": null,
-   "checked_at": "2026-09-04T02:09+00:00"
+   "checked_at": "2026-09-04T12:31+00:00"
   },
   {
    "service": "PageSpeed / CrUX",
@@ -113,7 +112,7 @@
    "detail": "key present · not pulled into the board yet",
    "last_success": null,
    "error": "no collector writes CWV into the archive",
-   "checked_at": "2026-09-04T02:09+00:00"
+   "checked_at": "2026-09-04T12:31+00:00"
   },
   {
    "service": "SEO analyst (read-only)",
@@ -121,15 +120,15 @@
    "detail": "deployed and password-gated · run with --probe-ai to test the answer path",
    "last_success": null,
    "error": null,
-   "checked_at": "2026-09-04T02:09+00:00"
+   "checked_at": "2026-09-04T12:31+00:00"
   },
   {
    "service": "Vercel Web Analytics",
    "status": "connected",
-   "detail": "248 visitors in the last 7 days",
-   "last_success": "2026-09-04T02:09+00:00",
+   "detail": "246 visitors in the last 7 days",
+   "last_success": "2026-09-04T12:22+00:00",
    "error": null,
-   "checked_at": "2026-09-04T02:09+00:00"
+   "checked_at": "2026-09-04T12:31+00:00"
   },
   {
    "service": "Vercel project",
@@ -137,24 +136,14 @@
    "detail": "mychef-dubai-vite · web analytics on · git integration linked",
    "last_success": null,
    "error": null,
-   "checked_at": "2026-09-04T02:09+00:00"
+   "checked_at": "2026-09-04T12:31+00:00"
   }
  ],
  "queue": [
   {
    "type": "place_subkeyword",
    "status": "accepted",
-   "count": 20
-  },
-  {
-   "type": "place_subkeyword",
-   "status": "open",
-   "count": 10
-  },
-  {
-   "type": "reassign_primary",
-   "status": "accepted",
-   "count": 4
+   "count": 28
   },
   {
    "type": "watch",
@@ -163,13 +152,38 @@
   },
   {
    "type": "reassign_primary",
-   "status": "open",
-   "count": 3
+   "status": "accepted",
+   "count": 4
   },
   {
    "type": "add_internal_link",
    "status": "accepted",
+   "count": 3
+  },
+  {
+   "type": "place_subkeyword",
+   "status": "open",
+   "count": 3
+  },
+  {
+   "type": "reassign_primary",
+   "status": "rejected",
+   "count": 3
+  },
+  {
+   "type": "place_subkeyword",
+   "status": "rejected",
    "count": 2
+  },
+  {
+   "type": "watch",
+   "status": "open",
+   "count": 2
+  },
+  {
+   "type": "reassign_primary",
+   "status": "open",
+   "count": 1
   },
   {
    "type": "add_internal_link",
@@ -178,58 +192,58 @@
   },
   {
    "type": "watch",
-   "status": "open",
+   "status": "rejected",
    "count": 1
   }
  ],
  "top5": [
   {
-   "id": "2026-09-04-006",
-   "type": "place_subkeyword",
-   "url": "/our-chefs",
-   "keyword": "hire chef dubai",
-   "reason": "assigned to /our-chefs but the live copy does not say it",
-   "risk": "low",
+   "id": "2026-09-04-016",
+   "type": "watch",
+   "url": "/corporate",
+   "keyword": "corporate catering dubai",
+   "reason": "210 GSC impressions — enough to test a title template",
+   "risk": "medium",
    "auto_eligible": false,
    "status": "open"
   },
   {
-   "id": "2026-09-04-002",
-   "type": "place_subkeyword",
-   "url": "/catering-dubai",
-   "keyword": "catering services dubai",
-   "reason": "assigned to /catering-dubai but the live copy does not say it",
-   "risk": "low",
-   "auto_eligible": false,
-   "status": "open"
-  },
-  {
-   "id": "2026-09-04-005",
-   "type": "reassign_primary",
-   "url": "/our-chefs",
-   "keyword": "private chefs dubai",
-   "reason": "GSC ranks / for this phrase, not the contract owner",
-   "risk": "high",
-   "auto_eligible": false,
-   "status": "open"
-  },
-  {
-   "id": "2026-09-04-003",
-   "type": "place_subkeyword",
-   "url": "/weekly-meal-prep-dubai",
-   "keyword": "meal prep service dubai",
-   "reason": "assigned to /weekly-meal-prep-dubai but the live copy does not say it",
-   "risk": "low",
-   "auto_eligible": false,
-   "status": "open"
-  },
-  {
-   "id": "2026-09-04-064",
+   "id": "2026-09-04-071",
    "type": "add_internal_link",
    "url": "/festive-catering-dubai",
    "keyword": "festive catering dubai",
    "reason": "internal-link status Maximum opportunity",
    "risk": "low",
+   "auto_eligible": false,
+   "status": "open"
+  },
+  {
+   "id": "2026-09-04-066",
+   "type": "place_subkeyword",
+   "url": "/private-cooking-classes-dubai",
+   "keyword": "couples cooking class dubai",
+   "reason": "assigned to /private-cooking-classes-dubai but the live copy does not say it",
+   "risk": "low",
+   "auto_eligible": false,
+   "status": "open"
+  },
+  {
+   "id": "2026-09-04-015",
+   "type": "reassign_primary",
+   "url": "/corporate",
+   "keyword": "corporate catering dubai",
+   "reason": "GSC ranks /blog/corporate-event-catering-ideas-dubai for this phrase, not the contract owner",
+   "risk": "high",
+   "auto_eligible": false,
+   "status": "open"
+  },
+  {
+   "id": "2026-09-04-009",
+   "type": "watch",
+   "url": "/private-chef-dubai",
+   "keyword": "private chef dubai",
+   "reason": "434 GSC impressions — enough to test a title template",
+   "risk": "medium",
    "auto_eligible": false,
    "status": "open"
   }
@@ -425,6 +439,90 @@
  },
  "actions": [
   {
+   "url": "/mystery-dining-dubai",
+   "where": "body",
+   "how": "moved 2 paragraph(s) out of the hero",
+   "after": "Dinner experience for couples Dubai is the same service under another name. Surprise dinner experience Dubai price depends on the same three things: the guest count, the menu, and how much of the work",
+   "at": "2026-08-26T23:48+00:00"
+  },
+  {
+   "url": "/mediterranean-catering-dubai",
+   "where": "body",
+   "how": "moved 1 paragraph(s) out of the hero",
+   "after": "Mediterranean catering Dubai price and Mediterranean catering cost per person Dubai depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Med",
+   "at": "2026-08-26T23:48+00:00"
+  },
+  {
+   "url": "/live-cooking-stations-dubai",
+   "where": "body",
+   "how": "moved 2 paragraph(s) out of the hero",
+   "after": "Live cooking stations Dubai price and live cooking station price per person Dubai depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Live ",
+   "at": "2026-08-26T23:48+00:00"
+  },
+  {
+   "url": "/italian-catering-dubai",
+   "where": "body",
+   "how": "moved 2 paragraph(s) out of the hero",
+   "after": "Italian catering Dubai delivery is the same service under another name. Italian catering Dubai price and Italian catering cost per person Dubai depend on the same three things: the guest count, the me",
+   "at": "2026-08-26T23:48+00:00"
+  },
+  {
+   "url": "/influencer-partnerships",
+   "where": "body",
+   "how": "moved 1 paragraph(s) out of the hero",
+   "after": "Dubai food price list, catering food cost calculator, cat food price in Dubai and veg food in Dubai price depend on the same three things: the guest count, the menu, and how much of the work happens i",
+   "at": "2026-08-26T23:48+00:00"
+  },
+  {
+   "url": "/iftar-catering-dubai",
+   "where": "body",
+   "how": "moved 2 paragraph(s) out of the hero",
+   "after": "Iftar buffet catering Dubai is planned around the room and the running order, with chefs, service staff and clear-down included. Iftar catering Dubai price and iftar catering cost per person Dubai dep",
+   "at": "2026-08-26T23:48+00:00"
+  },
+  {
+   "url": "/how-we-vet-our-chefs",
+   "where": "body",
+   "how": "moved 2 paragraph(s) out of the hero",
+   "after": "Private chef food safety Dubai and are private chefs licensed in Dubai are the same booking: a vetted chef, matched to your kitchen and your menu. Personal chefs on offer in Dubai start from a set for",
+   "at": "2026-08-26T23:48+00:00"
+  },
+  {
+   "url": "/dubai-food-trends-report-2026",
+   "where": "body",
+   "how": "moved 1 paragraph(s) out of the hero",
+   "after": "UAE food trends 2026, Dubai food expo 2026, Dubai food fair 2026, Dubai catering trends 2026 and private dining trends Dubai 2026 are the same service under another name.",
+   "at": "2026-08-26T23:48+00:00"
+  },
+  {
+   "url": "/corporate-retainer-dubai",
+   "where": "body",
+   "how": "moved 1 paragraph(s) out of the hero",
+   "after": "Corporate catering contract Dubai cost depends on the same three things: the guest count, the menu, and how much of the work happens in front of people. Corporate meal prep packages Dubai start from a",
+   "at": "2026-08-26T23:48+00:00"
+  },
+  {
+   "url": "/brunch-catering-dubai",
+   "where": "body",
+   "how": "moved 2 paragraph(s) out of the hero",
+   "after": "Birthday brunch catering Dubai is planned around the room and the running order, with chefs, service staff and clear-down included. Brunch catering Dubai price and brunch catering price per person Dub",
+   "at": "2026-08-26T23:48+00:00"
+  },
+  {
+   "url": "/bbq-catering-dubai",
+   "where": "body",
+   "how": "moved 2 paragraph(s) out of the hero",
+   "after": "BBQ catering Dubai price and BBQ catering price per person Dubai depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. BBQ catering packages ",
+   "at": "2026-08-26T23:48+00:00"
+  },
+  {
+   "url": "/arabic-catering-dubai",
+   "where": "body",
+   "how": "moved 1 paragraph(s) out of the hero",
+   "after": "Arabic catering Dubai price and Arabic catering cost per person Dubai depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Arabic catering p",
+   "at": "2026-08-26T23:48+00:00"
+  },
+  {
    "url": "/blog/vegan-catering-dubai-guide",
    "where": "faq",
    "how": "+1 (blog-vegan-catering-dubai-guide.json)",
@@ -479,115 +577,31 @@
    "how": "+3 (blog-how-to-hire-a-private-chef-dubai.json)",
    "after": "how do i hire a personal chef, how do you hire a private chef, how to find a private chef in dubai",
    "at": "2026-08-26T13:42+00:00"
-  },
-  {
-   "url": "/blog/how-to-hire-a-private-chef-dubai",
-   "where": "body",
-   "how": "+1 sentences (blog-how-to-hire-a-private-chef-dubai.json:add_block)",
-   "after": "do private chefs bring their own equipment dubai",
-   "at": "2026-08-26T13:42+00:00"
-  },
-  {
-   "url": "/blog/how-far-ahead-book-caterer-dubai",
-   "where": "faq",
-   "how": "+4 (blog-how-far-ahead-book-caterer-dubai.json)",
-   "after": "how far ahead book caterer dubai, how far in advance to order catering, how early to book a private chef dubai, how to choose a caterer in dubai",
-   "at": "2026-08-26T13:42+00:00"
-  },
-  {
-   "url": "/blog/how-far-ahead-book-caterer-dubai",
-   "where": "body",
-   "how": "+1 sentences (blog-how-far-ahead-book-caterer-dubai.json:add_block)",
-   "after": "best time to hire meal caterer, best time to hire event caterer, best time to hire cooking caterer, best time to hire catering in advance",
-   "at": "2026-08-26T13:42+00:00"
-  },
-  {
-   "url": "/blog/grazing-table-vs-buffet-dubai",
-   "where": "faq",
-   "how": "+2 (blog-grazing-table-vs-buffet-dubai.json)",
-   "after": "what is buffet catering, what is a grazing table dubai",
-   "at": "2026-08-26T13:42+00:00"
-  },
-  {
-   "url": "/blog/grazing-table-vs-buffet-dubai",
-   "where": "body",
-   "how": "+2 sentences (blog-grazing-table-vs-buffet-dubai.json:add_block)",
-   "after": "average cost of grazing table, cost of grazing table for wedding, grazing table examples, grazing table for 50 guests",
-   "at": "2026-08-26T13:42+00:00"
-  },
-  {
-   "url": "/blog/dinner-party-menu-ideas-dubai",
-   "where": "faq",
-   "how": "+1 (blog-dinner-party-menu-ideas-dubai.json)",
-   "after": "what to serve at a dinner party dubai",
-   "at": "2026-08-26T13:42+00:00"
-  },
-  {
-   "url": "/blog/dinner-party-menu-ideas-dubai",
-   "where": "body",
-   "how": "+1 sentences (blog-dinner-party-menu-ideas-dubai.json:add_block)",
-   "after": "food party dubai menu, casual dinner party menu ideas, 3 course dinner party menu dubai, dinner party menu ideas dubai indian, dinner party menu ideas dubai vegetarian",
-   "at": "2026-08-26T13:42+00:00"
-  },
-  {
-   "url": "/blog/desert-dinner-party-dubai",
-   "where": "faq",
-   "how": "+1 (blog-desert-dinner-party-dubai.json)",
-   "after": "how much is dinner in dubai",
-   "at": "2026-08-26T13:42+00:00"
-  },
-  {
-   "url": "/blog/desert-dinner-party-dubai",
-   "where": "body",
-   "how": "+3 sentences (blog-desert-dinner-party-dubai.json:add_block)",
-   "after": "private chef cost for dinner party, luxury desert dinner dubai, best desert safari dinner dubai, desert dining ideas dubai, private dinner in the desert dubai",
-   "at": "2026-08-26T13:42+00:00"
-  },
-  {
-   "url": "/blog/corporate-event-catering-ideas-dubai",
-   "where": "faq",
-   "how": "+1 (blog-corporate-event-catering-ideas-dubai.json)",
-   "after": "what is event catering",
-   "at": "2026-08-26T13:42+00:00"
-  },
-  {
-   "url": "/blog/corporate-event-catering-ideas-dubai",
-   "where": "body",
-   "how": "+3 sentences (blog-corporate-event-catering-ideas-dubai.json:add_block)",
-   "after": "best catering format for corporate event dubai, event catering menu ideas, office party food ideas dubai, corporate lunch ideas dubai, small corporate event catering ideas dubai",
-   "at": "2026-08-26T13:42+00:00"
-  },
-  {
-   "url": "/blog/brunch-at-home-dubai",
-   "where": "faq",
-   "how": "+2 (blog-brunch-at-home-dubai.json)",
-   "after": "what is a good at home brunch menu, how to host brunch at home dubai",
-   "at": "2026-08-26T13:42+00:00"
   }
  ],
  "tiles": [
   {
-   "value": "1712",
+   "value": "1694",
    "label": "Locked in the contract"
   },
   {
-   "value": "1354",
+   "value": "837",
    "label": "Placed in the built HTML"
   },
   {
-   "value": "75",
+   "value": "95",
    "label": "Proven in Search Console"
   },
   {
-   "value": "1637",
+   "value": "1599",
    "label": "Locked but never seen"
   },
   {
-   "value": "196h",
+   "value": "0h",
    "label": "Since the last run"
   },
   {
-   "value": "15",
+   "value": "7",
    "label": "Proposals waiting"
   }
  ]

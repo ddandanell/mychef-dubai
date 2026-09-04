@@ -1,68 +1,50 @@
 {
- "generated": "2026-09-04 02:27",
+ "generated": "2026-09-04 12:35",
  "rule": "impact = demand × gap × convertibility / risk. Top 15 shown. Agent does not apply.",
  "proposals": [
   {
-   "id": "2026-09-04-002",
+   "id": "2026-09-04-006",
    "class": "fill_subkeyword",
-   "url": "/catering-dubai",
-   "keyword": "catering services dubai",
-   "reason": "assigned to /catering-dubai but the live copy does not say it",
+   "url": "/our-chefs",
+   "keyword": "looking for chef",
+   "reason": "assigned to /our-chefs but the live copy does not say it",
    "evidence": {
-    "impr": 61,
-    "sub_volume": 2400,
-    "conv_28d": 0
+    "impr": 40,
+    "sub_volume": 10,
+    "conv_28d": 1
    },
    "action": "insert approved sentence template on the owner page",
    "risk": "low",
    "autonomy": "L2",
-   "impact": 48.0,
+   "impact": 71.1111,
    "demand": "live",
-   "status": "accepted"
+   "status": "open"
   },
   {
-   "id": "2026-09-04-003",
+   "id": "2026-09-04-058",
    "class": "fill_subkeyword",
-   "url": "/weekly-meal-prep-dubai",
-   "keyword": "meal prep service dubai",
-   "reason": "assigned to /weekly-meal-prep-dubai but the live copy does not say it",
+   "url": "/locations/palm-jumeirah",
+   "keyword": "business lunch palm jumeirah",
+   "reason": "assigned to /locations/palm-jumeirah but the live copy does not say it",
    "evidence": {
     "impr": 0,
-    "sub_volume": 30,
+    "sub_volume": 90,
     "conv_28d": 0
    },
    "action": "insert approved sentence template on the owner page",
    "risk": "low",
    "autonomy": "L2",
-   "impact": 11.8,
+   "impact": 1.8,
    "demand": "live",
-   "status": "accepted"
-  },
-  {
-   "id": "2026-09-04-064",
-   "class": "add_link",
-   "url": "/festive-catering-dubai",
-   "keyword": "festive catering dubai",
-   "reason": "internal-link status Maximum opportunity",
-   "evidence": {
-    "status": "Maximum opportunity",
-    "in_contextual": 3,
-    "conv_28d": 0
-   },
-   "action": "add a contextual link from a same-silo or hub page",
-   "risk": "low",
-   "autonomy": "L2",
-   "impact": 10.94,
-   "demand": "live",
-   "status": "accepted"
+   "status": "open"
   }
  ],
- "deferred": 69,
+ "deferred": 64,
  "deferred_classes": {
-  "fill_subkeyword": 36,
-  "experiment": 5,
+  "experiment": 4,
   "retarget": 8,
+  "fill_subkeyword": 44,
   "retire": 8
  },
- "note": "2026-09-04 applied: catering services dubai, meal prep service dubai, festive inlinks from unlocked silo pages. Open queue empty."
+ "note": "Full live loop 2026-09-04. Analytics refreshed. Queue only lists unlocked fills not already shipped."
 }

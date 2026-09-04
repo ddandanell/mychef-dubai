@@ -1,18 +1,18 @@
 {
- "generated": "2026-08-28 02:59",
+ "generated": "2026-09-04 12:31",
  "window_days": 120,
  "intro": "Everything that happened to the site, newest first: copy the optimizer wrote, commits that changed pages, images or design, and URLs that were retired. The movement view reads this to explain why a number moved.",
  "tiles": [
   {
-   "value": "531",
+   "value": "547",
    "label": "Changes in 120 days"
   },
   {
-   "value": "217",
+   "value": "224",
    "label": "Copy edits"
   },
   {
-   "value": "122",
+   "value": "128",
    "label": "Design & images"
   },
   {
@@ -21,11 +21,11 @@
   }
  ],
  "kinds": {
-  "tooling": 32,
-  "page": 175,
-  "copy": 217,
+  "page": 178,
+  "tooling": 34,
+  "copy": 224,
+  "other": 74,
   "tracking": 7,
-  "other": 70,
   "design": 20,
   "config": 4,
   "structure": 4,
@@ -107,56 +107,88 @@
   {
    "day": "2026-08-27",
    "changes": 10
+  },
+  {
+   "day": "2026-08-28",
+   "changes": 2
+  },
+  {
+   "day": "2026-08-30",
+   "changes": 2
+  },
+  {
+   "day": "2026-08-31",
+   "changes": 5
+  },
+  {
+   "day": "2026-09-01",
+   "changes": 2
+  },
+  {
+   "day": "2026-09-02",
+   "changes": 2
+  },
+  {
+   "day": "2026-09-03",
+   "changes": 1
+  },
+  {
+   "day": "2026-09-04",
+   "changes": 2
   }
  ],
  "busiest_urls": [
   {
    "url": "/corporate",
-   "changes": 51
+   "changes": 53
   },
   {
    "url": "/events",
-   "changes": 43
+   "changes": 45
   },
   {
    "url": "/our-chefs",
-   "changes": 39
+   "changes": 43
   },
   {
    "url": "/yachts",
-   "changes": 37
+   "changes": 39
+  },
+  {
+   "url": "/menus",
+   "changes": 28
   },
   {
    "url": "/how-to-choose-caterer-dubai",
    "changes": 28
   },
   {
-   "url": "/menus",
+   "url": "/how-it-works",
+   "changes": 27
+  },
+  {
+   "url": "/dubai-catering-prices-guide",
    "changes": 27
   },
   {
    "url": "/about",
-   "changes": 26
+   "changes": 27
   },
   {
    "url": "/private-cooking-classes-dubai",
-   "changes": 26
-  },
-  {
-   "url": "/how-it-works",
-   "changes": 26
-  },
-  {
-   "url": "/dubai-catering-prices-guide",
-   "changes": 26
+   "changes": 27
   },
   {
    "url": "/chef-training-academy",
-   "changes": 21
+   "changes": 23
   },
   {
    "url": "/guides",
-   "changes": 21
+   "changes": 22
+  },
+  {
+   "url": "/locations",
+   "changes": 20
   },
   {
    "url": "/gift-cards",
@@ -167,31 +199,401 @@
    "changes": 19
   },
   {
-   "url": "/locations",
-   "changes": 19
+   "url": "/site-map",
+   "changes": 16
   },
   {
-   "url": "/site-map",
-   "changes": 13
+   "url": "/blog/corporate-event-catering-ideas-dubai",
+   "changes": 10
   },
   {
    "url": "/blog/brunch-at-home-dubai",
    "changes": 10
   },
   {
-   "url": "/blog/grazing-table-vs-buffet-dubai",
+   "url": "/blog/how-to-hire-a-private-chef-dubai",
    "changes": 9
   },
   {
-   "url": "/blog/private-chef-date-night-dubai",
-   "changes": 9
-  },
-  {
-   "url": "/blog/corporate-event-catering-ideas-dubai",
+   "url": "/private-chef-dubai",
    "changes": 9
   }
  ],
  "items": [
+  {
+   "at": "2026-09-04T02:28:15+08:00",
+   "day": "2026-09-04",
+   "source": "git",
+   "kind": "page",
+   "label": "Page component",
+   "summary": "fix(seo): place remaining exact-phrase fills and festive inlinks",
+   "who": "David Dandanell",
+   "ref": "07db376",
+   "sha": "07db376a933d3772cd95a235fba72e399b8630c9",
+   "files": 8,
+   "urls": [
+    "/events"
+   ],
+   "detail": "docs/seo/keyword-map/proposals.json, src/pages/Catering.tsx, src/pages/DiwaliCatering.tsx, src/pages/Events.tsx, src/pages/RamadanCatering.tsx, src/pages/RamadanIftar.tsx +2 more",
+   "touched": {
+    "tooling": 1,
+    "page": 7
+   },
+   "site_affecting": true,
+   "id": "git:07db376a933d3772cd95a235fba72e399b8630c9"
+  },
+  {
+   "at": "2026-09-04T02:17:30+08:00",
+   "day": "2026-09-04",
+   "source": "git",
+   "kind": "tooling",
+   "label": "SEO tooling",
+   "summary": "chore(seo): refresh daily harvest and keep only real queue gaps",
+   "who": "David Dandanell",
+   "ref": "aa831d9",
+   "sha": "aa831d94277c5156868f53633c3fcbc7eb562e75",
+   "files": 6,
+   "urls": [],
+   "detail": "docs/seo/keyword-map/control.json, docs/seo/keyword-map/experiments.json, docs/seo/keyword-map/proposals.json, docs/seo/keyword-map/queue.html, docs/seo/keyword-map/rules.json, docs/seo/keyword-map/status.html",
+   "touched": {
+    "tooling": 6
+   },
+   "site_affecting": false,
+   "id": "git:aa831d94277c5156868f53633c3fcbc7eb562e75"
+  },
+  {
+   "at": "2026-09-03T15:23:14+08:00",
+   "day": "2026-09-03",
+   "source": "git",
+   "kind": "page",
+   "label": "Page component",
+   "summary": "fix(seo): place five remaining exact-phrase subkeywords",
+   "who": "David Dandanell",
+   "ref": "fe7230d",
+   "sha": "fe7230d6e331d4f41a3fb78ae43dcc89b61e4cf7",
+   "files": 6,
+   "urls": [
+    "/chef-training-academy",
+    "/our-chefs"
+   ],
+   "detail": "docs/seo/keyword-map/proposals.json, src/pages/ApartmentPrivateDining.tsx, src/pages/BecomeAMyChef.tsx, src/pages/ChefTrainingAcademy.tsx, src/pages/OurChefs.tsx, src/pages/guides/PrivateDiningGuide.tsx",
+   "touched": {
+    "tooling": 1,
+    "page": 5
+   },
+   "site_affecting": true,
+   "id": "git:fe7230d6e331d4f41a3fb78ae43dcc89b61e4cf7"
+  },
+  {
+   "at": "2026-09-02T21:30:11+08:00",
+   "day": "2026-09-02",
+   "source": "git",
+   "kind": "tooling",
+   "label": "SEO tooling",
+   "summary": "fix(seo): mark the queue done so /seo/queue matches the shipped work",
+   "who": "David Dandanell",
+   "ref": "a16a5a3",
+   "sha": "a16a5a38d3a952f22ca42c0ee3f51a7e82c63292",
+   "files": 4,
+   "urls": [],
+   "detail": "docs/seo/keyword-map/control.json, src/seo-os/components/status-pill.tsx, src/seo-os/pages/ControlPage.tsx, src/seo-os/pages/QueuePage.tsx",
+   "touched": {
+    "tooling": 1
+   },
+   "site_affecting": false,
+   "id": "git:a16a5a38d3a952f22ca42c0ee3f51a7e82c63292"
+  },
+  {
+   "at": "2026-09-02T20:47:45+08:00",
+   "day": "2026-09-02",
+   "source": "git",
+   "kind": "copy",
+   "label": "Content module",
+   "summary": "fix(seo): apply the 15 open /seo/queue proposals",
+   "who": "David Dandanell",
+   "ref": "500f13c",
+   "sha": "500f13cf2d813845bc95d215159aea34678fad6f",
+   "files": 14,
+   "urls": [
+    "/our-chefs"
+   ],
+   "detail": "docs/seo/keyword-map/proposals.json, docs/seo/myCHEF-AE-SEO-STANDARD.json, src/content/birthdayPage.ts, src/content/cateringPage.ts, src/content/luxuryDiningPage.ts, src/content/privateChefCluster.ts +8 more",
+   "touched": {
+    "tooling": 1,
+    "structure": 1,
+    "copy": 5,
+    "page": 5
+   },
+   "site_affecting": true,
+   "id": "git:500f13cf2d813845bc95d215159aea34678fad6f"
+  },
+  {
+   "at": "2026-09-01T20:30:17+08:00",
+   "day": "2026-09-01",
+   "source": "git",
+   "kind": "page",
+   "label": "Page component",
+   "summary": "fix: lead September full-day offer with AED 1,040",
+   "who": "David Dandanell",
+   "ref": "6580a78",
+   "sha": "6580a7817d1fc24c6d758410fd21922b8074586c",
+   "files": 1,
+   "urls": [],
+   "detail": "src/pages/PrivateChefPrices.tsx",
+   "touched": {
+    "page": 1
+   },
+   "site_affecting": true,
+   "id": "git:6580a7817d1fc24c6d758410fd21922b8074586c"
+  },
+  {
+   "at": "2026-09-01T18:51:50+08:00",
+   "day": "2026-09-01",
+   "source": "git",
+   "kind": "copy",
+   "label": "Content module",
+   "summary": "feat: rewrite private chef cluster selling copy",
+   "who": "David Dandanell",
+   "ref": "967c739",
+   "sha": "967c739d0ad2e261dc03cdf2dfb74cacdc7c48d0",
+   "files": 21,
+   "urls": [
+    "/how-it-works",
+    "/our-chefs"
+   ],
+   "detail": "src/components/FoodProfile.tsx, src/components/HouseholdManager.tsx, src/components/ProcessJourney.tsx, src/components/SiloChildren.tsx, src/components/SiloSection.tsx, src/components/private-chef/ClusterCTA.tsx +15 more",
+   "touched": {
+    "design": 9,
+    "copy": 5,
+    "page": 7
+   },
+   "site_affecting": true,
+   "id": "git:967c739d0ad2e261dc03cdf2dfb74cacdc7c48d0"
+  },
+  {
+   "at": "2026-08-31T23:18:14+08:00",
+   "day": "2026-08-31",
+   "source": "git",
+   "kind": "copy",
+   "label": "Content module",
+   "summary": "fix(seo): stop homepage ranking for private chef dubai",
+   "who": "David Dandanell",
+   "ref": "5119e88",
+   "sha": "5119e88c74cc8f622decf1b515c2e6ceb135a593",
+   "files": 11,
+   "urls": [
+    "/yachts"
+   ],
+   "detail": "docs/seo/myCHEF-AE-SEO-STANDARD.json, public/email-signature.html, public/llms.txt, public/mychef-email-signature.txt, src/components/SEO.tsx, src/content/cateringPage.ts +5 more",
+   "touched": {
+    "structure": 1,
+    "design": 1,
+    "copy": 1,
+    "page": 3,
+    "config": 1
+   },
+   "site_affecting": true,
+   "id": "git:5119e88c74cc8f622decf1b515c2e6ceb135a593"
+  },
+  {
+   "at": "2026-08-31T14:36:41+08:00",
+   "day": "2026-08-31",
+   "source": "git",
+   "kind": "copy",
+   "label": "Content module",
+   "summary": "fix: one header on load and scroll, no empty homepage guide slot",
+   "who": "David Dandanell",
+   "ref": "51313fe",
+   "sha": "51313feadd9a62affdace57d749676f32e44dbc6",
+   "files": 8,
+   "urls": [],
+   "detail": "scripts/generate-breadcrumbs.py, src/components/Layout.tsx, src/components/Navbar.tsx, src/components/SiloTrail.tsx, src/components/private-chef/ClusterNav.tsx, src/content/breadcrumbTrails.ts +2 more",
+   "touched": {
+    "tooling": 1,
+    "design": 4,
+    "copy": 1
+   },
+   "site_affecting": true,
+   "id": "git:51313feadd9a62affdace57d749676f32e44dbc6"
+  },
+  {
+   "at": "2026-08-31T14:06:36+08:00",
+   "day": "2026-08-31",
+   "source": "git",
+   "kind": "other",
+   "label": "Other",
+   "summary": "fix: drop the empty fourth slot next to the homepage guides",
+   "who": "David Dandanell",
+   "ref": "6d688c7",
+   "sha": "6d688c772209b4eff0c7e4a5e4867f3f73988dba",
+   "files": 1,
+   "urls": [],
+   "detail": "src/sections/GuidesTeaserSection.tsx",
+   "touched": {},
+   "site_affecting": true,
+   "id": "git:6d688c772209b4eff0c7e4a5e4867f3f73988dba"
+  },
+  {
+   "at": "2026-08-31T14:01:44+08:00",
+   "day": "2026-08-31",
+   "source": "git",
+   "kind": "other",
+   "label": "Other",
+   "summary": "fix: fill homepage area photos with the four live neighbourhoods",
+   "who": "David Dandanell",
+   "ref": "47b7d74",
+   "sha": "47b7d74b5d457f0d4ce3ea8668946c98a87564b5",
+   "files": 1,
+   "urls": [],
+   "detail": "src/sections/LocationsSection.tsx",
+   "touched": {},
+   "site_affecting": true,
+   "id": "git:47b7d74b5d457f0d4ce3ea8668946c98a87564b5"
+  },
+  {
+   "at": "2026-08-31T13:44:16+08:00",
+   "day": "2026-08-31",
+   "source": "git",
+   "kind": "copy",
+   "label": "Page content",
+   "summary": "fix: homepage copy, info@ email, rounded prep prices, and paid-review removal",
+   "who": "David Dandanell",
+   "ref": "4d4e02c",
+   "sha": "4d4e02cba6835cdd94cadac45150ff6c41c982c4",
+   "files": 58,
+   "urls": [
+    "/blog/how-much-does-private-chef-cost-dubai",
+    "/blog/how-to-hire-a-private-chef-dubai",
+    "/blog/weekly-meal-prep-vs-full-time-chef-dubai",
+    "/catering-cost-calculator-dubai",
+    "/catering-packages-dubai",
+    "/chef-training-academy",
+    "/corporate",
+    "/corporate-retainer-dubai",
+    "/dubai-catering-prices-guide",
+    "/fitness-meal-prep-dubai",
+    "/full-time-private-chef-dubai",
+    "/locations/emirates-hills",
+    "/locations/jlt",
+    "/menus",
+    "/our-chefs",
+    "/part-time-private-chef-dubai",
+    "/postpartum-meal-prep-dubai",
+    "/private-chef-vs-catering-dubai",
+    "/site-map",
+    "/staff-meals-catering-dubai",
+    "/tourist-villa-chef-dubai",
+    "/vip-club",
+    "/weekly-meal-prep-dubai",
+    "/wellness-meal-prep-dubai"
+   ],
+   "detail": "docs/seo/myCHEF-AE-SEO-STANDARD.json, src/components/Footer.tsx, src/components/LocationStrip.tsx, src/components/Navbar.tsx, src/components/SiloChildren.tsx, src/components/SiloSection.tsx +52 more",
+   "touched": {
+    "structure": 1,
+    "design": 7,
+    "copy": 24,
+    "page": 14
+   },
+   "site_affecting": true,
+   "id": "git:4d4e02cba6835cdd94cadac45150ff6c41c982c4"
+  },
+  {
+   "at": "2026-08-30T20:52:06+08:00",
+   "day": "2026-08-30",
+   "source": "git",
+   "kind": "other",
+   "label": "Other",
+   "summary": "Merge pull request #12 from ddandanell/cursor/web-grower-tracker-e61e",
+   "who": "AI folder",
+   "ref": "cbd2368",
+   "sha": "cbd23683e1c18c1f4b1b4008b07d4b8b3a98576d",
+   "files": 0,
+   "urls": [],
+   "detail": "",
+   "touched": {},
+   "site_affecting": true,
+   "id": "git:cbd23683e1c18c1f4b1b4008b07d4b8b3a98576d"
+  },
+  {
+   "at": "2026-08-30T11:53:19Z",
+   "day": "2026-08-30",
+   "source": "git",
+   "kind": "other",
+   "label": "Other",
+   "summary": "feat: install existing Web Grower first-party tracker",
+   "who": "Cursor Agent",
+   "ref": "d3aeb71",
+   "sha": "d3aeb710eba84bd6451b58585edc27be9eb0b319",
+   "files": 1,
+   "urls": [],
+   "detail": "index.html",
+   "touched": {},
+   "site_affecting": true,
+   "id": "git:d3aeb710eba84bd6451b58585edc27be9eb0b319"
+  },
+  {
+   "at": "2026-08-28T16:52:26+08:00",
+   "day": "2026-08-28",
+   "source": "git",
+   "kind": "copy",
+   "label": "Content module",
+   "summary": "feat(seo): restore nested prices URL, stop homepage stealing hub queries",
+   "who": "David Dandanell",
+   "ref": "f76907c",
+   "sha": "f76907cbe5f67929a6d6e40c91b152225a9382c9",
+   "files": 56,
+   "urls": [
+    "/blog/corporate-event-catering-ideas-dubai",
+    "/private-chef-dubai",
+    "/site-map"
+   ],
+   "detail": "api/e.ts, docs/seo/consolidation-map.json, docs/seo/myCHEF-AE-SEO-STANDARD.json, docs/seo/silo-map.json, public/images/seo-gate.png, public/sitemap.xml +50 more",
+   "touched": {
+    "tracking": 1,
+    "tooling": 5,
+    "structure": 2,
+    "image": 1,
+    "design": 9,
+    "copy": 13,
+    "page": 16,
+    "config": 1
+   },
+   "site_affecting": true,
+   "id": "git:f76907cbe5f67929a6d6e40c91b152225a9382c9"
+  },
+  {
+   "at": "2026-08-28T03:00:40+08:00",
+   "day": "2026-08-28",
+   "source": "git",
+   "kind": "copy",
+   "label": "Content module",
+   "summary": "feat(seo): park 45 pages nobody searched and Google never showed",
+   "who": "David Dandanell",
+   "ref": "efb6a60",
+   "sha": "efb6a609c8ebb882c7b2cd620751b93ea047ea50",
+   "files": 139,
+   "urls": [
+    "/about",
+    "/corporate",
+    "/events",
+    "/guides",
+    "/locations",
+    "/private-cooking-classes-dubai",
+    "/site-map",
+    "/yachts"
+   ],
+   "detail": "docs/seo/consolidation-map.json, docs/seo/keyword-map/architecture.html, docs/seo/keyword-map/architecture.json, docs/seo/keyword-map/build-architecture.py, docs/seo/keyword-map/build-internal-links.py, docs/seo/keyword-map/changelog.json +133 more",
+   "touched": {
+    "tooling": 25,
+    "structure": 2,
+    "design": 6,
+    "copy": 18,
+    "page": 83,
+    "config": 1
+   },
+   "site_affecting": true,
+   "id": "git:efb6a609c8ebb882c7b2cd620751b93ea047ea50"
+  },
   {
    "at": "2026-08-27T22:11:02+08:00",
    "day": "2026-08-27",
@@ -16015,7 +16417,6 @@
     "/part-time-private-chef-dubai",
     "/postpartum-meal-prep-dubai",
     "/private-chef-dubai",
-    "/private-chef-prices-dubai",
     "/private-chef-vs-catering-dubai",
     "/private-cooking-classes-dubai",
     "/private-party-catering-dubai",
