@@ -75,6 +75,13 @@ const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent('Hi myCHEF, I\'d like a quote — here is what I am planning:')
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
+const worldSites = [
+  { place: 'Dubai, UAE', href: 'https://www.mychef.ae/', host: 'mychef.ae' },
+  { place: 'Bali, Indonesia', href: 'https://mychef.id/', host: 'mychef.id' },
+  { place: 'Hawaii, USA', href: 'https://mychef-hawaii.com/', host: 'mychef-hawaii.com' },
+  { place: 'South Africa', href: 'https://www.mychefs.co.za/', host: 'mychefs.co.za' },
+] as const
+
 export default function Footer() {
   const currentYear = new Date().getFullYear()
 
@@ -258,34 +265,31 @@ export default function Footer() {
         <div className="border-t border-charcoal-light mt-8 pt-8">
           <div className="flex flex-col items-center gap-3 text-center">
             <p className="font-inter text-xs text-gray-500 uppercase tracking-wider">
-              myCHEF also operates in Bali
+              myCHEF around the world
             </p>
-            <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6">
-              <div className="text-center">
-                <p className="font-inter text-sm text-gray-400">Bali, Indonesia</p>
-                <a
-                  href="https://mychef.id"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="font-inter text-xs text-gray-500 hover:text-gold transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-black rounded-sm"
-                >
-                  mychef.id
-                </a>
-              </div>
-              <span className="hidden sm:inline text-gray-600" aria-hidden="true">
-                ·
-              </span>
-              <div className="text-center">
-                <p className="font-inter text-sm text-gray-400">Dubai, UAE</p>
-                <a
-                  href="https://www.mychef.ae"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="font-inter text-xs text-gray-500 hover:text-gold transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-black rounded-sm"
-                >
-                  mychef.ae
-                </a>
-              </div>
+            <div className="flex flex-col sm:flex-row sm:flex-wrap items-center justify-center gap-4 sm:gap-6">
+              {worldSites.map((site, index) => (
+                <div key={site.href} className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6">
+                  {index > 0 ? (
+                    <span className="hidden sm:inline text-gray-600" aria-hidden="true">
+                      ·
+                    </span>
+                  ) : null}
+                  <div className="text-center">
+                    <a
+                      href={site.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-block focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-black rounded-sm"
+                    >
+                      <span className="block font-inter text-sm text-gray-400">{site.place}</span>
+                      <span className="block font-inter text-xs text-gray-500 hover:text-gold transition-colors duration-200">
+                        {site.host}
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         </div>
