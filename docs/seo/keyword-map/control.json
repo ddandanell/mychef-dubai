@@ -1,10 +1,10 @@
 {
- "generated": "2026-09-04 12:33",
+ "generated": "2026-09-04 12:41",
  "run_id": 17,
  "banner": null,
  "heartbeat": {
-  "id": 4,
-  "ran_at": "2026-09-04T04:32+00:00",
+  "id": 5,
+  "ran_at": "2026-09-04T04:33+00:00",
   "kind": "full",
   "mode": "live",
   "git_commit": "07db376",
@@ -24,13 +24,13 @@
    "Board build (run-loop)"
   ],
   "sources_stale": [],
-  "pages_scored": 171,
+  "pages_scored": 132,
   "keywords_scored": 1694,
   "proposals_opened": null,
   "edits_applied": null,
-  "gates_pass": null,
+  "gates_pass": true,
   "error": null,
-  "age_hours": 0.0
+  "age_hours": 0.1
  },
  "counts": {
   "locked": 1694,
@@ -48,15 +48,15 @@
    "detail": "https://www.mychef.ae/ · 31 daily rows returned",
    "last_success": null,
    "error": null,
-   "checked_at": "2026-09-04T12:31+00:00"
+   "checked_at": "2026-09-04T12:41+00:00"
   },
   {
    "service": "Board build (run-loop)",
    "status": "connected",
    "detail": "keyword file, research pages and archive rebuilt on every run",
-   "last_success": "2026-08-28T02:59+00:00",
+   "last_success": "2026-09-04T12:32+00:00",
    "error": "runs by hand — no scheduler is configured yet, so freshness depends on someone starting it",
-   "checked_at": "2026-09-04T12:31+00:00"
+   "checked_at": "2026-09-04T12:41+00:00"
   },
   {
    "service": "Claude AI visibility",
@@ -64,7 +64,7 @@
    "detail": "16 buyer prompts, answers stored",
    "last_success": "2026-08-26T10:07+00:00",
    "error": null,
-   "checked_at": "2026-09-04T12:31+00:00"
+   "checked_at": "2026-09-04T12:41+00:00"
   },
   {
    "service": "DataForSEO",
@@ -72,7 +72,7 @@
    "detail": "balance $33.89 · 41,635 SERP rows stored",
    "last_success": "2026-08-26T10:00+00:00",
    "error": null,
-   "checked_at": "2026-09-04T12:31+00:00"
+   "checked_at": "2026-09-04T12:41+00:00"
   },
   {
    "service": "First-party tracking",
@@ -80,7 +80,7 @@
    "detail": "endpoint live · 2,606 events recorded",
    "last_success": "2026-09-04T00:58+00:00",
    "error": null,
-   "checked_at": "2026-09-04T12:31+00:00"
+   "checked_at": "2026-09-04T12:41+00:00"
   },
   {
    "service": "Google Analytics 4",
@@ -88,7 +88,7 @@
    "detail": "543704202 · 31 landing pages · 70 sessions in 30d · 50 day-rows stored",
    "last_success": "2026-09-04T12:23+00:00",
    "error": null,
-   "checked_at": "2026-09-04T12:31+00:00"
+   "checked_at": "2026-09-04T12:41+00:00"
   },
   {
    "service": "Google Search Console",
@@ -96,15 +96,15 @@
    "detail": "2 property · 54 clicks in the last 10 days",
    "last_success": "2026-09-01T00:00+00:00",
    "error": null,
-   "checked_at": "2026-09-04T12:31+00:00"
+   "checked_at": "2026-09-04T12:41+00:00"
   },
   {
    "service": "Neon Postgres",
    "status": "connected",
-   "detail": "13 runs · 59 MB · 108,063 rows across 15 tables",
-   "last_success": "2026-08-26T11:58+00:00",
+   "detail": "14 runs · 64 MB · 116,300 rows across 15 tables",
+   "last_success": "2026-09-04T04:32+00:00",
    "error": null,
-   "checked_at": "2026-09-04T12:31+00:00"
+   "checked_at": "2026-09-04T12:41+00:00"
   },
   {
    "service": "PageSpeed / CrUX",
@@ -112,7 +112,7 @@
    "detail": "key present · not pulled into the board yet",
    "last_success": null,
    "error": "no collector writes CWV into the archive",
-   "checked_at": "2026-09-04T12:31+00:00"
+   "checked_at": "2026-09-04T12:41+00:00"
   },
   {
    "service": "SEO analyst (read-only)",
@@ -120,15 +120,15 @@
    "detail": "deployed and password-gated · run with --probe-ai to test the answer path",
    "last_success": null,
    "error": null,
-   "checked_at": "2026-09-04T12:31+00:00"
+   "checked_at": "2026-09-04T12:41+00:00"
   },
   {
    "service": "Vercel Web Analytics",
    "status": "connected",
-   "detail": "246 visitors in the last 7 days",
+   "detail": "245 visitors in the last 7 days",
    "last_success": "2026-09-04T12:22+00:00",
    "error": null,
-   "checked_at": "2026-09-04T12:31+00:00"
+   "checked_at": "2026-09-04T12:41+00:00"
   },
   {
    "service": "Vercel project",
@@ -136,19 +136,19 @@
    "detail": "mychef-dubai-vite · web analytics on · git integration linked",
    "last_success": null,
    "error": null,
-   "checked_at": "2026-09-04T12:31+00:00"
+   "checked_at": "2026-09-04T12:41+00:00"
   }
  ],
  "queue": [
   {
    "type": "place_subkeyword",
    "status": "accepted",
-   "count": 28
+   "count": 29
   },
   {
    "type": "watch",
    "status": "accepted",
-   "count": 4
+   "count": 5
   },
   {
    "type": "reassign_primary",
@@ -158,92 +158,37 @@
   {
    "type": "add_internal_link",
    "status": "accepted",
-   "count": 3
-  },
-  {
-   "type": "place_subkeyword",
-   "status": "open",
-   "count": 3
+   "count": 4
   },
   {
    "type": "reassign_primary",
    "status": "rejected",
-   "count": 3
+   "count": 4
   },
   {
    "type": "place_subkeyword",
    "status": "rejected",
-   "count": 2
-  },
-  {
-   "type": "watch",
-   "status": "open",
-   "count": 2
-  },
-  {
-   "type": "reassign_primary",
-   "status": "open",
-   "count": 1
-  },
-  {
-   "type": "add_internal_link",
-   "status": "open",
-   "count": 1
+   "count": 3
   },
   {
    "type": "watch",
    "status": "rejected",
+   "count": 2
+  },
+  {
+   "type": "place_subkeyword",
+   "status": "open",
    "count": 1
   }
  ],
  "top5": [
   {
-   "id": "2026-09-04-016",
-   "type": "watch",
-   "url": "/corporate",
-   "keyword": "corporate catering dubai",
-   "reason": "210 GSC impressions — enough to test a title template",
-   "risk": "medium",
-   "auto_eligible": false,
-   "status": "open"
-  },
-  {
-   "id": "2026-09-04-071",
-   "type": "add_internal_link",
-   "url": "/festive-catering-dubai",
-   "keyword": "festive catering dubai",
-   "reason": "internal-link status Maximum opportunity",
-   "risk": "low",
-   "auto_eligible": false,
-   "status": "open"
-  },
-  {
-   "id": "2026-09-04-066",
+   "id": "2026-09-04-058",
    "type": "place_subkeyword",
-   "url": "/private-cooking-classes-dubai",
-   "keyword": "couples cooking class dubai",
-   "reason": "assigned to /private-cooking-classes-dubai but the live copy does not say it",
+   "url": "/locations/palm-jumeirah",
+   "keyword": "business lunch palm jumeirah",
+   "reason": "assigned to /locations/palm-jumeirah but the live copy does not say it",
    "risk": "low",
-   "auto_eligible": false,
-   "status": "open"
-  },
-  {
-   "id": "2026-09-04-015",
-   "type": "reassign_primary",
-   "url": "/corporate",
-   "keyword": "corporate catering dubai",
-   "reason": "GSC ranks /blog/corporate-event-catering-ideas-dubai for this phrase, not the contract owner",
-   "risk": "high",
-   "auto_eligible": false,
-   "status": "open"
-  },
-  {
-   "id": "2026-09-04-009",
-   "type": "watch",
-   "url": "/private-chef-dubai",
-   "keyword": "private chef dubai",
-   "reason": "434 GSC impressions — enough to test a title template",
-   "risk": "medium",
    "auto_eligible": false,
    "status": "open"
   }
@@ -601,7 +546,7 @@
    "label": "Since the last run"
   },
   {
-   "value": "7",
+   "value": "1",
    "label": "Proposals waiting"
   }
  ]
