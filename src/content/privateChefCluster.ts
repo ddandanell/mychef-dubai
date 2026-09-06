@@ -234,7 +234,7 @@ export const hubRouteCards = [
 
 /** LOCKED: "private chef dubai". Title/H1/meta from STANDARD; monthly figure from the pricing engine. */
 export const parentSeo = {
-  /** Gold caption above the H1. Do not use PageHero variant="quiet" — that concatenates this into the H1. */
+  /** Gold caption above the H1. Quiet heroes keep this outside the heading. */
   eyebrow: 'Household chef',
   title: `Private Chef Dubai | From ${fmt(pricingPreview[0].monthly)} a Month | myCHEF`,
   description: `A standing private chef for your home in Dubai. Prep, dinner or full-day plans from ${fmt(pricingPreview[0].monthly)} a month. Matched, managed, and replaced if the fit is wrong.`,

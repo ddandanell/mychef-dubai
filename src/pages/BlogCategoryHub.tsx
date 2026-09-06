@@ -66,6 +66,7 @@ export default function BlogCategoryHub() {
         title={`${hub.title} in Dubai`}
         description={hub.description}
         canonicalPath={path}
+        noindex
         schema={schema}
       />
 

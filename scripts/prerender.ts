@@ -4,6 +4,7 @@ import path from "node:path"
 import { fileURLToPath } from "node:url"
 import express from "express"
 import type { Browser, Page } from "puppeteer"
+import { BLOG_TOPIC_HUB_PATHS } from "../src/content/blogTaxonomy"
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -102,10 +103,12 @@ const PARKED_ROUTES: string[] = (() => {
 /**
  * Return the normalized list of routes to prerender: every URL in sitemap.xml
  * PLUS every static route declared in src/routes.tsx (dynamic expansions such
- * as /locations/:slug only come from the sitemap). The union matters: noindex
- * pages (legal pages, the nested private-chef modules) are correctly absent
- * from the sitemap but must still ship as real HTML, and a sitemap-only source
- * silently turned them into the empty SPA shell.
+ * as /locations/:slug only come from the sitemap; /blog/topic/:hub is added
+ * from BLOG_TOPIC_HUB_PATHS because those URLs are noindex and off the sitemap).
+ * The union matters: noindex pages (legal pages, the nested private-chef
+ * modules, blog topic hubs) are correctly absent from the sitemap but must
+ * still ship as real HTML, and a sitemap-only source silently turned them
+ * into the empty SPA shell.
  * Root route ("/") is always placed last so it does not overwrite
  * dist/index.html while other routes are still being rendered against the
  * SPA shell.
@@ -132,6 +135,10 @@ function readRoutes(): string[] {
   if (extra.length > 0) {
     console.log(`Prerendering ${extra.length} route(s) not in the sitemap (noindex/support pages): ${extra.join(", ")}`)
   }
+  const topicExtra = BLOG_TOPIC_HUB_PATHS.filter((p) => !fromSitemap.includes(p) && !skip.has(p))
+  if (topicExtra.length > 0) {
+    console.log(`Prerendering ${topicExtra.length} noindex blog topic hub(s): ${topicExtra.join(", ")}`)
+  }
   const dropped = fromSitemap.filter((p) => skip.has(p))
   if (dropped.length > 0) {
     console.warn(`WARNING: sitemap still lists redirected path(s), skipping: ${dropped.join(", ")}`)
@@ -141,7 +148,12 @@ function readRoutes(): string[] {
   // purpose, and /locations/:slug expands only from the sitemap, so without this a parked area
   // page would ship as the empty SPA shell and its noindex would never reach a crawler.
   const unique = Array.from(
-    new Set([...fromSitemap.filter((p) => !skip.has(p)), ...extra, ...PARKED_ROUTES.filter((p) => !skip.has(p))]),
+    new Set([
+      ...fromSitemap.filter((p) => !skip.has(p)),
+      ...extra,
+      ...PARKED_ROUTES.filter((p) => !skip.has(p)),
+      ...BLOG_TOPIC_HUB_PATHS.filter((p) => !skip.has(p)),
+    ]),
   )
   return unique.sort((a, b) => (a === "/" ? 1 : b === "/" ? -1 : a.localeCompare(b)))
 }

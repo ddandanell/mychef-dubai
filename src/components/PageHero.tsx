@@ -35,7 +35,7 @@ function HeroAction({
 
 interface PageHeroProps {
   eyebrow?: string
-  /** "quiet": eyebrow inside the H1 (keyword stays in the heading), controlled serif scale, 55% copy column, restrained buttons. */
+  /** "quiet": smaller serif H1, 55% copy column, restrained buttons. Eyebrow stays outside the H1. */
   variant?: 'default' | 'quiet'
   title: React.ReactNode
   subtitle?: string
@@ -289,8 +289,14 @@ export default function PageHero({
         ref={contentRef}
         className={`relative z-10 container-custom flex flex-col justify-center pt-24 pb-16 md:pt-28 md:pb-16 ${alignmentClass}`}
       >
-        {eyebrow && variant !== 'quiet' && (
-          <span className="font-inter text-caption font-medium uppercase tracking-[0.1em] text-gold mb-4 drop-shadow-[0_1px_10px_rgba(0,0,0,0.65)]">
+        {eyebrow && (
+          <span
+            className={
+              variant === 'quiet'
+                ? 'hero-eyebrow--quiet mb-5 block text-gold drop-shadow-[0_1px_10px_rgba(0,0,0,0.65)]'
+                : 'font-inter text-caption font-medium uppercase tracking-[0.1em] text-gold mb-4 drop-shadow-[0_1px_10px_rgba(0,0,0,0.65)]'
+            }
+          >
             {eyebrow}
           </span>
         )}
@@ -299,11 +305,6 @@ export default function PageHero({
 
         {variant === 'quiet' ? (
           <h1 className={cn('hero-title--quiet text-white lg:max-w-[58%]', align === 'center' && 'mx-auto')}>
-            {eyebrow && (
-              <span className="hero-eyebrow--quiet mb-5 block text-gold drop-shadow-[0_1px_10px_rgba(0,0,0,0.65)]">
-                {eyebrow}
-              </span>
-            )}
             {title}
           </h1>
         ) : (

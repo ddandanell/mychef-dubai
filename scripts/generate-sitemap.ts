@@ -10,7 +10,7 @@
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
-import { BLOG_HUBS } from '../src/content/blogTaxonomy'
+import { BLOG_TOPIC_HUB_PATHS } from '../src/content/blogTaxonomy'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const ROUTES_TSX = path.resolve(__dirname, '../src/routes.tsx')
@@ -67,12 +67,14 @@ const EXCLUDED_PATHS = new Set([
   '/university-catering-dubai',
   ...redirectSources(),
   ...PARKED,
+  // Thin spoke indexes: live + noindex,follow, never advertised.
+  ...BLOG_TOPIC_HUB_PATHS,
 ])
 
 // Dynamic route expansions. Values are the slugs substituted for the route's :param.
 const DYNAMIC_SLUGS: Record<string, string[]> = {
-  // Derived from the taxonomy so a new topic hub is never left out of the sitemap.
-  '/blog/topic/:hub': BLOG_HUBS.map((h) => h.slug),
+  // Topic hubs stay on the site (noindex, follow) but are not advertised.
+  // They are thin spoke indexes; the articles they list are the indexable URLs.
   '/locations/:slug': [
     'dubai-marina',
     'downtown-dubai',
@@ -260,6 +262,11 @@ function main() {
   }
   if (!routes.includes('/')) {
     console.error('ERROR: homepage missing from sitemap')
+    process.exit(1)
+  }
+  const leakedHubs = routes.filter((p) => p.startsWith('/blog/topic/'))
+  if (leakedHubs.length > 0) {
+    console.error(`ERROR: thin blog topic hubs must not appear in the sitemap: ${leakedHubs.join(', ')}`)
     process.exit(1)
   }
 }

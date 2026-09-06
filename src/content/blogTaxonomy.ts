@@ -297,6 +297,9 @@ export const BLOG_HUBS: BlogHub[] = [
   }
 ]
 
+/** Live, noindex spoke indexes. Kept off the sitemap; prerender still ships HTML so they do not 404. */
+export const BLOG_TOPIC_HUB_PATHS = BLOG_HUBS.map((h) => `/blog/topic/${h.slug}`)
+
 /** In-body link phrases, sorted longest-first so specific phrases win over generic ones. */
 const ALL_CONTEXTUAL_LINKS: ContextualLink[] = [
   {
