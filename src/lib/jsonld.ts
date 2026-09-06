@@ -22,6 +22,14 @@ const BANNED_TYPES = new Set([
   'LocalBusiness',
 ])
 
+/** FAQPage JSON-LD only on /faq and the three hubs that show a matching accordion. */
+const FAQ_JSONLD_PATHS = new Set([
+  '/faq',
+  '/private-chef-dubai',
+  '/private-chef-dubai/pricing',
+  '/catering-dubai',
+])
+
 function typeList(node: Record<string, unknown>): string[] {
   const t = node['@type']
   if (Array.isArray(t)) return t.filter((x): x is string => typeof x === 'string')
@@ -52,7 +60,11 @@ function incomingNodes(schema: unknown): Record<string, unknown>[] {
 function sanitizeNode(node: Record<string, unknown>, pathname: string): Record<string, unknown> | null {
   const types = typeList(node)
   if (types.some((t) => BANNED_TYPES.has(t))) return null
-  if (types.includes('FAQPage') && pathname !== '/faq') return null
+  if (types.includes('FAQPage')) {
+    if (!FAQ_JSONLD_PATHS.has(pathname)) return null
+    const entities = Array.isArray(node.mainEntity) ? node.mainEntity : []
+    if (!entities.length) return null
+  }
   if (isFullOrg(node) && pathname !== '/' && pathname !== '/about') return null
 
   if (types.includes('AdministrativeArea') && pathname !== '/') return null
@@ -177,7 +189,8 @@ function normalizePath(pathname: string): string {
 
 /**
  * One JSON-LD document per URL.
- * Organisation lives on `/` and `/about` only. FAQPage only on `/faq`.
+ * Organisation lives on `/` and `/about` only. FAQPage only on `/faq` and the
+ * three hubs that render a matching on-page accordion.
  * Breadcrumbs on every indexable URL except `/`.
  */
 export function assemblePageGraph(pathname: string, incoming: unknown): Record<string, unknown> | undefined {

@@ -12658,6 +12658,7 @@
    },
    "schema": [
     "Service",
+    "FAQPage",
     "BreadcrumbList"
    ],
    "internal_linking": {
@@ -13508,7 +13509,7 @@
     "title_max_chars": 65,
     "h1": "Chefs Table Dubai",
     "h1_count": 1,
-    "meta_description": "Chefs Table Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.",
+    "meta_description": "Chefs table Dubai at home: a chef cooks a multi-course tasting or omakase in front of 2–12 guests. From AED 500 per person, with setup, service and clear-down.",
     "meta_description_max_chars": 160,
     "og_title": "Chefs Table Dubai",
     "og_type": "website"
@@ -35917,7 +35918,7 @@
     "title_max_chars": 65,
     "h1": "New Year Catering Dubai",
     "h1_count": 1,
-    "meta_description": "New Year Catering Dubai with a vetted myCHEF team. Menus, service and clear-down handled so you stay a guest at your own table.",
+    "meta_description": "New Year catering Dubai for villa, yacht and rooftop countdown nights: canapés, dinner or buffet, live stations, bar and midnight toast, then we clear down.",
     "meta_description_max_chars": 160,
     "og_title": "New Year Catering Dubai",
     "og_type": "website"

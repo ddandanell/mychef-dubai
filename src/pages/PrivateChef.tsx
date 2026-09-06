@@ -46,6 +46,7 @@ import {
   systemCards,
   trustPreview,
 } from '../content/privateChefCluster'
+import { faqPageSchema } from '../utils/schema'
 
 const managedBeats = [
   {
@@ -61,6 +62,8 @@ const managedBeats = [
     body: 'If the usual chef is off, the Food Profile travels. The next chef is not starting from zero.',
   },
 ] as const
+
+const faqSchema = faqPageSchema(parentFaqs.map((f) => ({ question: f.q, answer: f.a })))
 
 const schema = {
   '@context': 'https://schema.org',
@@ -81,6 +84,7 @@ const schema = {
         'Private chef Dubai for a standing household: same chef, Food Profile, backup if they are off. From a few days a week to a long-term household plan, the chef is matched, assessed and managed.',
       url: 'https://www.mychef.ae/private-chef-dubai',
     },
+    ...(faqSchema ? [faqSchema] : []),
     {
       '@type': 'BreadcrumbList',
       itemListElement: [

@@ -51,6 +51,9 @@ import {
   unsureLinks,
   venuePathways,
 } from '@/content/cateringPage'
+import { faqPageSchema } from '@/utils/schema'
+
+const faqSchema = faqPageSchema(cateringFaqs.map((f) => ({ question: f.q, answer: f.a })))
 
 const schema = {
   '@context': 'https://schema.org',
@@ -77,6 +80,7 @@ const schema = {
         ],
       },
     },
+    ...(faqSchema ? [faqSchema] : []),
     {
       '@type': 'BreadcrumbList',
       itemListElement: [

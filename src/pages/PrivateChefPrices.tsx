@@ -38,6 +38,7 @@ import {
   THE_LINE,
 } from '../content/privateChefStandard'
 import { CLUSTER_PATHS } from '../content/privateChefCluster'
+import { faqPageSchema } from '../utils/schema'
 import { useWhatsAppMessage } from '@/context/WhatsAppMessageContext'
 import { deferNonCritical } from '../lib/deferNonCritical'
 import { SectionLabel } from '../components/system'
@@ -168,14 +169,7 @@ const serviceSchema = {
   url: 'https://www.mychef.ae/private-chef-dubai/pricing',
 }
 
-const faqSchema = {
-  '@type': 'FAQPage',
-  mainEntity: faqs.map((f) => ({
-    '@type': 'Question',
-    name: f.q,
-    acceptedAnswer: { '@type': 'Answer', text: f.a },
-  })),
-}
+const faqSchema = faqPageSchema(faqs.map((f) => ({ question: f.q, answer: f.a })))
 
 const breadcrumbSchema = {
   '@type': 'BreadcrumbList',
@@ -224,7 +218,7 @@ const aggregateOfferSchema = {
 
 const schema = {
   '@context': 'https://schema.org',
-  '@graph': [serviceSchema, aggregateOfferSchema, householdServiceSchema, faqSchema, breadcrumbSchema],
+  '@graph': [serviceSchema, aggregateOfferSchema, householdServiceSchema, ...(faqSchema ? [faqSchema] : []), breadcrumbSchema],
 }
 
 const PAGE_WHATSAPP_MESSAGE = "Hi myCHEF Dubai, I'd like private chef prices for my event in Dubai. Date: __ Guests: __ Area: __"

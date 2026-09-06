@@ -42,7 +42,17 @@ export function plainFaqAnswer(answer: string): string {
 }
 
 export function faqPageSchema(faqs: { question: string; answer: string }[]) {
-  const items = (faqs || []).filter((faq) => faq.question?.trim() && faq.answer?.trim())
+  const seen = new Set<string>()
+  const items: { question: string; answer: string }[] = []
+  for (const faq of faqs || []) {
+    const question = faq.question?.trim()
+    const answer = faq.answer?.trim()
+    if (!question || !answer) continue
+    const key = question.toLowerCase().replace(/\s+/g, ' ')
+    if (seen.has(key)) continue
+    seen.add(key)
+    items.push({ question, answer })
+  }
   if (!items.length) return null
   return {
     '@context': 'https://schema.org',
