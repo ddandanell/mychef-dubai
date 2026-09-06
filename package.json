@@ -18,6 +18,7 @@
     "test:catering-pricing": "tsx scripts/test-catering-pricing.ts",
     "test:seo-g-h": "tsx scripts/test-seo-g-h.ts",
     "test:faq-jsonld": "tsx scripts/test-faq-jsonld.ts",
+    "test:conversion-events": "tsx scripts/test-conversion-events.ts",
     "verify:keyword-locks": "python3 scripts/verify-keyword-locks.py",
     "seo:locks": "python3 scripts/generate-keyword-locks.py",
     "retire:url": "python3 scripts/retire-url.py",

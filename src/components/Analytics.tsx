@@ -3,11 +3,15 @@ import { useLocation } from 'react-router'
 import { initAnalytics, trackPageView, trackEvent } from '../lib/analytics'
 import { initTracking, trackPage, trackConversion } from '../lib/track'
 import { formLabel, placementFromElement } from '../lib/trackVocab'
+import { classifyConversionHref, conversionParams } from '../lib/conversionEvents'
 
 /**
  * Loads GA4, sends a page_view on every client-side route change, and mirrors
  * conversions into the first-party collector. Labels are an allow-list. Renders
  * nothing. GA stays inert until GA_MEASUREMENT_ID is set; first-party runs either way.
+ *
+ * Conversion events (one per click, markable in GA4 Admin → Events):
+ *   whatsapp_click · quote_click · phone_click · email_click · generate_lead (forms)
  */
 export default function Analytics() {
   const location = useLocation()
@@ -38,6 +42,7 @@ export default function Analytics() {
       const ctaText = a.innerText?.trim() || a.getAttribute('aria-label') || ''
       const track = a.getAttribute('data-track') || ''
       const placement = placementFromElement(a)
+      const ctaLocation = a.getAttribute('data-cta-location') || placement
 
       if (track === 'event_card' || track === 'service_card') {
         trackEvent(track === 'service_card' ? 'service_card_click' : 'event_card_click', {
@@ -55,42 +60,19 @@ export default function Analytics() {
         })
       }
 
-      if (/wa\.me|api\.whatsapp|whatsapp/i.test(href)) {
-        trackEvent('whatsapp_click', {
-          link_url: href,
-          page_path: pagePath,
-          cta_text: ctaText,
-        })
-        trackConversion('cta_click', placement)
-        trackConversion('whatsapp_click', placement)
-        return
-      }
-
-      if (href.startsWith('mailto:')) {
-        trackEvent('email_click', {
-          link_url: href,
-          page_path: pagePath,
-        })
-        trackConversion('email_click', placement)
-        return
-      }
-
-      if (href.startsWith('tel:')) {
-        trackEvent('phone_click', {
-          link_url: href,
-          page_path: pagePath,
-        })
-        trackConversion('phone_click', placement)
-        return
-      }
-
-      if (/^\/?inquiry(\?|$)/i.test(href)) {
-        trackEvent('begin_inquiry', {
-          link_url: href,
-          page_path: pagePath,
-          cta_text: ctaText,
-        })
-        trackConversion('cta_click', placement)
+      const conversion = classifyConversionHref(href)
+      if (conversion) {
+        trackEvent(conversion.event, conversionParams(conversion, { page_path: pagePath, cta_location: ctaLocation }))
+        if (conversion.event === 'whatsapp_click') {
+          trackConversion('cta_click', placement)
+          trackConversion('whatsapp_click', placement)
+        } else if (conversion.event === 'email_click') {
+          trackConversion('email_click', placement)
+        } else if (conversion.event === 'phone_click') {
+          trackConversion('phone_click', placement)
+        } else {
+          trackConversion('cta_click', placement)
+        }
         return
       }
 
