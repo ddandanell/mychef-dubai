@@ -570,13 +570,13 @@
   },
   {
    "from": "/event-catering-prices-2026",
-   "to": "/dubai-catering-prices-guide",
+   "to": "/dubai-event-catering-price-guide-2026",
    "type": "301",
    "reason": "Guess-URL returned the empty SPA shell (soft 404). The 2026 event guide is parked/noindex; indexable owner is the prices guide"
   },
   {
    "from": "/guides/event-catering-prices-2026",
-   "to": "/dubai-catering-prices-guide",
+   "to": "/dubai-event-catering-price-guide-2026",
    "type": "301",
    "reason": "Guess-URL returned the empty SPA shell (soft 404). The 2026 event guide is parked/noindex; indexable owner is the prices guide"
   },
@@ -668,8 +668,8 @@
   "/private-chef-prices-dubai": "/private-chef-dubai/pricing",
   "/dubai-catering-prices": "/dubai-catering-prices-guide",
   "/catering-cost-calculator": "/catering-cost-calculator-dubai",
-  "/event-catering-prices-2026": "/dubai-catering-prices-guide",
-  "/guides/event-catering-prices-2026": "/dubai-catering-prices-guide",
+  "/event-catering-prices-2026": "/dubai-event-catering-price-guide-2026",
+  "/guides/event-catering-prices-2026": "/dubai-event-catering-price-guide-2026",
   "/jbr": "/locations/jbr",
   "/luxury-catering-dubai": "/catering-dubai"
  },

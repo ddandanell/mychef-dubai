@@ -22,7 +22,6 @@ import {
   type CalculatorFormatId,
   type StaffLevelId,
   clampGuests,
-  formatEstimate,
   formatFrom,
   formatTypical,
   isCalculatorFormatId,
@@ -201,9 +200,7 @@ export default function CateringCostCalculator() {
               <UtensilsCrossed className="text-gold mx-auto md:mx-0 mb-6" size={32} />
               <h3 className="font-playfair text-h3 text-white mb-2">Estimated Investment</h3>
               <p className="font-inter text-body-sm text-gray-400 mb-8">
-                {selectedFormat.calculatorEstimate != null
-                  ? `${formatEstimate(selectedFormat.calculatorEstimate).replace(' per person', '')} for ${selectedService.label.toLowerCase()} with ${selectedStaff.label.toLowerCase()}`
-                  : `${selectedService.label} is not quoted in the calculator.`}
+                {`${formatFrom(selectedFormat.fromPerPerson).replace(' per person', '')} for ${selectedService.label.toLowerCase()} with ${selectedStaff.label.toLowerCase()}`}
               </p>
 
               {quote.ok ? (
@@ -221,7 +218,7 @@ export default function CateringCostCalculator() {
                       AED {quote.totalLow.toLocaleString()} – {quote.totalHigh.toLocaleString()}
                     </p>
                     <p className="font-inter text-body-xs text-gray-500 mt-2">
-                      For {quote.guests} guests. {formatFrom(selectedFormat.fromPerPerson)}. {formatTypical(selectedFormat.typicalMin, selectedFormat.typicalMax)}. Final quote depends on menu, ingredients, and location.
+                      For {quote.guests} guests. {formatFrom(selectedFormat.fromPerPerson)}. {formatTypical(selectedFormat.typicalMin, selectedFormat.typicalMax)} is indicative market, not a second myCHEF floor. Final quote depends on menu, ingredients, and location.
                     </p>
                   </div>
                 </>
@@ -249,8 +246,8 @@ export default function CateringCostCalculator() {
           <div className="mt-10 flex items-start gap-3 bg-gray-50 p-6">
             <Info className="text-gold flex-shrink-0 mt-0.5" size={18} />
             <p className="font-inter text-body-sm text-gray-500">
-              This is a calculator estimate, not the published floor. Each format also has a “from” figure and a
-              typical range, shown on the catering prices guide. Premium ingredients, custom menus, late-night service,
+              Starts match the Catering hub floors. Staffing can raise the per-person figure. Indicative market
+              bands on the prices guide are not myCHEF starts. Premium ingredients, custom menus, late-night service,
               dietary requirements, and venue logistics move the final price. For an exact proposal, request a quote
               and we will respond within 15 minutes during business hours.
             </p>
@@ -272,7 +269,7 @@ export default function CateringCostCalculator() {
             {[
               {
                 q: 'How much does a private chef cost in Dubai?',
-                a: 'Chef-led plated dining is typically AED 700–950 per person. The calculator estimate for that format is AED 950 per person before staffing. Household chef visit rates are separate, on the private chef pricing page.',
+                a: 'Chef-led plated dining starts from AED 700 per person, the same floor as the Catering hub. Staffing can raise it. Household chef visit rates are separate, on the private chef pricing page.',
               },
               {
                 q: 'Is there a minimum guest count?',

@@ -26,7 +26,6 @@ import FaqAccordion from '../../components/FaqAccordion'
 import { SectionLabel } from '../../components/system'
 import {
   CATERING_FORMATS,
-  formatEstimate,
   formatFrom,
   formatTypical,
 } from '@/content/cateringPricing'
@@ -183,7 +182,7 @@ const breadcrumbSchema = {
 const formatOffers = priceTable.map((row) => ({
   '@type': 'Offer',
   name: `${row.format} — Dubai`,
-  description: `${formatFrom(row.from)}. ${formatTypical(row.typicalMin, row.typicalMax)}${row.estimate != null ? `. ${formatEstimate(row.estimate)}` : ''}. Final quote depends on guest count, menu, venue, and service level.`,
+  description: `${formatFrom(row.from)}. ${formatTypical(row.typicalMin, row.typicalMax)} (indicative market, not a myCHEF floor). Final quote depends on guest count, menu, venue, and service level.`,
   url: 'https://www.mychef.ae/dubai-catering-prices-guide',
   price: String(row.from),
   priceCurrency: 'AED',
@@ -336,7 +335,7 @@ export default function DubaiCateringPricesGuide() {
               Catering Costs Per Person in Dubai
             </h2>
             <p className="font-inter text-body text-gray-400 max-w-[640px] mx-auto mt-4">
-              From = published floor. Typical range = staffed band. Calculator estimate = working figure on Menus and the calculator. Household chef visit rates are not in this table.
+              From = myCHEF published floor (same start on Menus and the calculator). Indicative market = wider Dubai band, not a myCHEF floor. Household chef visit rates are not in this table.
             </p>
           </div>
 
@@ -346,8 +345,7 @@ export default function DubaiCateringPricesGuide() {
                 <tr className="border-b border-[#333]">
                   <th className="text-left font-inter text-sm uppercase tracking-wider text-gold py-4 px-4">Format</th>
                   <th className="text-left font-inter text-sm uppercase tracking-wider text-gold py-4 px-4">From</th>
-                  <th className="text-left font-inter text-sm uppercase tracking-wider text-gold py-4 px-4">Typical range</th>
-                  <th className="text-left font-inter text-sm uppercase tracking-wider text-gold py-4 px-4">Calculator estimate</th>
+                  <th className="text-left font-inter text-sm uppercase tracking-wider text-gold py-4 px-4">Indicative market</th>
                   <th className="text-left font-inter text-sm uppercase tracking-wider text-gold py-4 px-4">Notes</th>
                 </tr>
               </thead>
@@ -357,7 +355,6 @@ export default function DubaiCateringPricesGuide() {
                     <td className="py-4 px-4 font-playfair text-white text-lg">{row.format}</td>
                     <td className="py-4 px-4 font-inter text-gray-400">AED {row.from}</td>
                     <td className="py-4 px-4 font-inter text-gray-400">AED {row.typicalMin}–{row.typicalMax}</td>
-                    <td className="py-4 px-4 font-inter text-gray-400">{row.estimate != null ? `AED ${row.estimate}` : '—'}</td>
                     <td className="py-4 px-4 font-inter text-body-sm text-gray-500">{row.note}</td>
                   </tr>
                 ))}

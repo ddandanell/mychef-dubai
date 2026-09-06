@@ -34,6 +34,7 @@ export const ORGANIZATION_SCHEMA = {
   description:
     'Private chef and catering in Dubai. myCHEF designs the experience and brings vetted chefs and catering partners who cook at the client’s villa, yacht or home. There is no dining room.',
   telephone: '+971 55 174 4849',
+  email: 'info@mychef.ae',
   priceRange: '$$$$',
   currenciesAccepted: 'AED',
   paymentAccepted: 'Cash, Credit Card, Bank Transfer',
@@ -50,6 +51,7 @@ export const ORGANIZATION_SCHEMA = {
     '@type': 'ContactPoint',
     contactType: 'customer service',
     telephone: '+971 55 174 4849',
+    email: 'info@mychef.ae',
     availableLanguage: ['English', 'Arabic'],
     areaServed: { '@id': `${SITE_URL}/#place-dubai` },
   },

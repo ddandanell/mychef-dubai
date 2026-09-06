@@ -40,21 +40,19 @@ const weeklyPrepPackages: StarterPackage[] = [
   },
 ]
 
-const fullExperience: StarterPackage = {
-  name: 'The Full Experience',
-  guests: '6–10 guests',
-  price: '5,500',
-  perPerson: '550–900',
-  included: 'A multi-course tasting menu, a full service team, and plating you would expect from a restaurant — in your own home.',
-  recurring: false,
+const byName = (name: string) => {
+  const pkg = eventStarterPackages.find((row) => row.name === name)
+  if (!pkg) throw new Error(`EVENT_PACKAGES missing ${name}`)
+  return pkg
 }
 
-const corporateDinner = eventStarterPackages.find((pkg) => pkg.name === 'Corporate Dinner')
-if (!corporateDinner) throw new Error('EVENT_PACKAGES missing Corporate Dinner')
-
 export const starterPackages: StarterPackage[] = [
-  ...eventStarterPackages.filter((pkg) => pkg.name !== 'Corporate Dinner'),
+  ...eventStarterPackages.filter(
+    (pkg) => pkg.name !== 'Corporate Dinner' && pkg.name !== 'The Full Experience',
+  ),
   ...weeklyPrepPackages,
-  corporateDinner,
-  fullExperience,
+  byName('Corporate Dinner'),
+  byName('The Full Experience'),
 ]
+
+export const eventStarterPackagesOnly = eventStarterPackages

@@ -12,6 +12,8 @@ interface StarterPackagesSectionProps {
   eyebrow?: string
   title?: string
   subtitle?: string
+  /** Home shows weekly prep too. The packages money page is the five event cards only. */
+  eventOnly?: boolean
 }
 
 export default function StarterPackagesSection({
@@ -19,6 +21,7 @@ export default function StarterPackagesSection({
   eyebrow = 'PRICING & PACKAGES',
   title = 'Starter Packages',
   subtitle = 'Transparent starting prices for our most popular private chef and catering experiences. Every quote is tailored to your event.',
+  eventOnly = false,
 }: StarterPackagesSectionProps) {
   useScrollTrigger()
   const sectionRef = useRef<HTMLDivElement>(null)
@@ -54,7 +57,7 @@ export default function StarterPackagesSection({
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mb-10">
-          {starterPackages.map((pkg) => (
+          {(eventOnly ? starterPackages.filter((pkg) => !pkg.recurring) : starterPackages).map((pkg) => (
             <div
               key={pkg.name}
               className="starter-package-card bg-white p-6 border border-gray-200 flex flex-col"

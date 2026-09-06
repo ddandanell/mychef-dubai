@@ -547,12 +547,12 @@
     },
     {
       "source": "/event-catering-prices-2026",
-      "destination": "/dubai-catering-prices-guide",
+      "destination": "/dubai-event-catering-price-guide-2026",
       "statusCode": 301
     },
     {
       "source": "/guides/event-catering-prices-2026",
-      "destination": "/dubai-catering-prices-guide",
+      "destination": "/dubai-event-catering-price-guide-2026",
       "statusCode": 301
     },
     {

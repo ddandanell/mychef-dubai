@@ -6,7 +6,7 @@
 // END KEYWORD LOCK
 import { useState } from 'react'
 import { Link } from 'react-router'
-import { ArrowRight, Check, Phone } from 'lucide-react'
+import { Check, Phone } from 'lucide-react'
 import SEO from '../components/SEO'
 import PageHero from '../components/PageHero'
 import TrustSignalStrip from '../components/TrustSignalStrip'
@@ -28,6 +28,7 @@ import {
   PRIMARY_PACKAGES,
 } from '@/content/hubPages'
 import { CATERING_INQUIRY_HREF, CATERING_WHATSAPP_NUMBER } from '@/content/cateringCluster'
+import StarterPackagesSection from '@/sections/StarterPackagesSection'
 
 const PATH = PACKAGE_HUB_SEO.canonical
 const HERO = '/images/catering-packages-dubai-hero.webp'
@@ -145,33 +146,26 @@ export default function CateringPackages() {
 
       <Section tone="white" rhythm="chapter">
         <Container>
-          <SectionLabel>THE FOUR PACKAGES</SectionLabel>
+          <SectionLabel>THE FIVE PACKAGES</SectionLabel>
           <DisplayHeading className="text-black mb-5 max-w-[22ch]">
-            Four catering packages Dubai actually publishes
+            Five catering packages Dubai actually publishes
           </DisplayHeading>
           <BodyCopy className="mb-12 max-w-[62ch]">
-            These are starting points, not sealed boxes. Headcount, menu and venue move the quote. The number on the
-            card is the published floor for that typical table.
+            Same cards and AED as Home: Date Night, Family Feast, Birthday, Corporate Dinner and The Full Experience.
+            Headcount, menu and venue move the quote. The number on the card is the published floor for that typical
+            table.
           </BodyCopy>
-          <div className="grid gap-6 md:grid-cols-2">
-            {PRIMARY_PACKAGES.map((pkg) => (
-              <article key={pkg.href} className="flex flex-col border border-gray-200 bg-cream p-6 md:p-8">
-                <h3 className="font-playfair text-h3 text-black">{pkg.title}</h3>
-                <p className="mt-2 font-inter text-body-sm text-gray-500">
-                  {pkg.guests} guests · from AED {pkg.price} · {pkg.perPerson} per person
-                </p>
-                <p className="mt-4 flex-1 font-inter text-body text-gray-600 leading-relaxed">{pkg.description}</p>
-                <p className="mt-4 font-inter text-body-sm text-gray-500 leading-relaxed">{pkg.included}</p>
-                <Link
-                  to={pkg.href}
-                  className="mt-6 inline-flex items-center gap-2 font-inter text-caption uppercase tracking-[0.12em] text-gold-ink hover:text-gold"
-                >
-                  View package
-                  <ArrowRight size={14} aria-hidden />
-                </Link>
-              </article>
-            ))}
-          </div>
+        </Container>
+      </Section>
+      <StarterPackagesSection
+        campaign="catering-packages"
+        eventOnly
+        eyebrow="FROM AED"
+        title="Starter packages"
+        subtitle="Date Night, Family Feast, Birthday Celebration, Corporate Dinner and The Full Experience — the same published floors as Home."
+      />
+      <Section tone="white" rhythm="connected">
+        <Container>
           <ul className="mt-10 flex flex-wrap gap-x-6 gap-y-2">
             {PACKAGE_FEATURED_EXTRAS.map((item) => (
               <li key={item.href}>
@@ -320,6 +314,7 @@ function PackageSelector() {
             <option value="family-dinner">Family Dinner</option>
             <option value="birthday">Birthday</option>
             <option value="corporate">Corporate Dinner</option>
+            <option value="full-experience">The Full Experience</option>
             <option value="other">Something else</option>
           </select>
         </div>

@@ -50,7 +50,7 @@ export const PACKAGE_LOCATION_LINKS = [
 ] as const
 
 export type PrimaryPackage = {
-  occasion: 'date-night' | 'family-dinner' | 'birthday' | 'corporate'
+  occasion: 'date-night' | 'family-dinner' | 'birthday' | 'corporate' | 'full-experience'
   title: string
   href: string
   guests: string

@@ -2,9 +2,9 @@
  * Catering price source of truth for myCHEF.ae.
  *
  * Three labels, never mixed:
- *   from                 — published food-led floor (Catering hub)
- *   typical range        — staffed band used on price guides
- *   calculator estimate  — working per-person figure on Menus + the calculator
+ *   from                 — myCHEF published floor (Catering hub = Menus = Calculator)
+ *   indicative market    — wider Dubai market band on price guides, not a myCHEF floor
+ *   calculator start     — same number as `from` (staff multipliers may raise it)
  *
  * Household chef visit rates live in `privateChefPricing.ts`. Do not import
  * them here and do not print them as catering per-person floors.
@@ -15,8 +15,8 @@
 
 export const PRICE_KIND = {
   from: 'from',
-  typicalRange: 'typical range',
-  calculatorEstimate: 'calculator estimate',
+  typicalRange: 'indicative market',
+  calculatorEstimate: 'from',
 } as const
 
 export type PriceKind = (typeof PRICE_KIND)[keyof typeof PRICE_KIND]
@@ -78,10 +78,10 @@ export const CATERING_FORMATS: readonly CateringFormat[] = [
     fromPerPerson: 120,
     typicalMin: 220,
     typicalMax: 420,
-    calculatorEstimate: 220,
+    calculatorEstimate: 120,
     minGuests: 15,
     hubMinGuests: 20,
-    note: 'Calculator minimum 15 guests; a standard event buffet on the hub starts from 20.',
+    note: 'myCHEF floor from AED 120. Calculator minimum 15 guests; a standard event buffet on the hub starts from 20.',
   },
   {
     id: 'canapes',
@@ -93,9 +93,9 @@ export const CATERING_FORMATS: readonly CateringFormat[] = [
     fromPerPerson: 150,
     typicalMin: 180,
     typicalMax: 350,
-    calculatorEstimate: 280,
+    calculatorEstimate: 150,
     minGuests: 10,
-    note: 'Hub floor is food-led from AED 150. AED 280 is the staffed calculator estimate.',
+    note: 'myCHEF floor from AED 150. Indicative market AED 180–350 is not a myCHEF start.',
   },
   {
     id: 'bbq',
@@ -107,7 +107,7 @@ export const CATERING_FORMATS: readonly CateringFormat[] = [
     fromPerPerson: 150,
     typicalMin: 200,
     typicalMax: 380,
-    calculatorEstimate: 260,
+    calculatorEstimate: 150,
     minGuests: 15,
     note: 'Sits in the hub premium band (from AED 150) with BBQ/live stations.',
   },
@@ -121,7 +121,7 @@ export const CATERING_FORMATS: readonly CateringFormat[] = [
     fromPerPerson: 700,
     typicalMin: 700,
     typicalMax: 950,
-    calculatorEstimate: 950,
+    calculatorEstimate: 700,
     minGuests: 2,
     note: 'Chef-led plated service. Household visit rates are on /private-chef-dubai/pricing.',
   },
@@ -135,7 +135,7 @@ export const CATERING_FORMATS: readonly CateringFormat[] = [
     fromPerPerson: 280,
     typicalMin: 280,
     typicalMax: 550,
-    calculatorEstimate: 320,
+    calculatorEstimate: 280,
     minGuests: 8,
     note: 'Logistics and compact galleys sit above a villa buffet floor.',
   },
@@ -149,9 +149,9 @@ export const CATERING_FORMATS: readonly CateringFormat[] = [
     fromPerPerson: 180,
     typicalMin: 180,
     typicalMax: 350,
-    calculatorEstimate: 450,
+    calculatorEstimate: 180,
     minGuests: 20,
-    note: 'Typical staffed wedding buffet band AED 180–350. Calculator estimate AED 450 is a staffed working figure.',
+    note: 'myCHEF floor from AED 180. Indicative market AED 180–350 is not a second floor.',
   },
 ]
 
@@ -184,8 +184,8 @@ export const STAFF_LEVELS = [
 export type StaffLevelId = (typeof STAFF_LEVELS)[number]['id']
 
 export interface EventPackage {
-  id: 'date-night' | 'family-feast' | 'birthday' | 'corporate-dinner'
-  occasion: 'date-night' | 'family-dinner' | 'birthday' | 'corporate'
+  id: 'date-night' | 'family-feast' | 'birthday' | 'corporate-dinner' | 'full-experience'
+  occasion: 'date-night' | 'family-dinner' | 'birthday' | 'corporate' | 'full-experience'
   title: string
   name: string
   href: string
@@ -245,6 +245,18 @@ export const EVENT_PACKAGES: readonly EventPackage[] = [
     description: 'Professional dinner catering for boardrooms and teams, sized for a smaller senior group.',
     included: 'A multi-course or buffet menu with service staff, presented to the standard the room expects.',
   },
+  {
+    id: 'full-experience',
+    occasion: 'full-experience',
+    title: 'The Full Experience',
+    name: 'The Full Experience',
+    href: '/luxury-dining-experiences',
+    guests: '6–10 guests',
+    priceAed: 5500,
+    perPerson: '550–900',
+    description: 'A multi-course tasting menu with a full service team, plated in your own home.',
+    included: 'A multi-course tasting menu, a full service team, and plating you would expect from a restaurant — in your own home.',
+  },
 ]
 
 export function formatAed(n: number): string {
@@ -256,11 +268,11 @@ export function formatFrom(n: number): string {
 }
 
 export function formatTypical(min: number, max: number): string {
-  return `Typical range ${formatAed(min)}–${max.toLocaleString('en-US')}`
+  return `Indicative market ${formatAed(min)}–${max.toLocaleString('en-US')}`
 }
 
 export function formatEstimate(n: number): string {
-  return `Calculator estimate ${formatAed(n)} per person`
+  return formatFrom(n)
 }
 
 export function formatPriceAed(n: number): string {
@@ -339,7 +351,7 @@ export function quoteCatering(input: {
     }
   }
   const staff = STAFF_LEVELS.find((s) => s.id === input.staffId) ?? STAFF_LEVELS[0]
-  const perPerson = Math.round(format.calculatorEstimate * staff.multiplier)
+  const perPerson = Math.round(format.fromPerPerson * staff.multiplier)
   const counted = Math.floor(guests)
   return {
     ok: true,
@@ -452,7 +464,7 @@ export function cateringPricingNotes(): string[] {
   return [
     `Drop-off: ${drop.minGuests} guests minimum and AED ${drop.minOrderAed ?? 900} minimum order.`,
     `A standard event buffet starts from ${buffet.hubMinGuests ?? buffet.minGuests} guests.`,
-    'From = published floor. Typical range = staffed band. Calculator estimate = working figure on Menus and the calculator.',
+    'From = myCHEF published floor (same start on Menus and the calculator). Indicative market = wider Dubai band, not a myCHEF floor.',
     'All figures are before 5% VAT, which is shown as its own line.',
     'Not every event meets the starting points. Guest count, menu, staffing, venue access, timing and equipment move the total.',
   ]

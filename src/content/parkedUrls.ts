@@ -25,7 +25,6 @@ export const PARKED: readonly string[] = [
  "/corporate-dinner-package-dubai",
  "/corporate-retainer-dubai",
  "/date-night-package-dubai",
- "/dubai-event-catering-price-guide-2026",
  "/exhibition-catering-dubai",
  "/family-feast-package-dubai",
  "/fitness-meal-prep-dubai",

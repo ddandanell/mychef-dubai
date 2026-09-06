@@ -20,8 +20,8 @@ ROOT = Path(__file__).resolve().parents[1]
 REQUIRED_REDIRECTS = {
     "/dubai-catering-prices": "/dubai-catering-prices-guide",
     "/catering-cost-calculator": "/catering-cost-calculator-dubai",
-    "/event-catering-prices-2026": "/dubai-catering-prices-guide",
-    "/guides/event-catering-prices-2026": "/dubai-catering-prices-guide",
+    "/event-catering-prices-2026": "/dubai-event-catering-price-guide-2026",
+    "/guides/event-catering-prices-2026": "/dubai-event-catering-price-guide-2026",
     "/jbr": "/locations/jbr",
     "/luxury-catering-dubai": "/catering-dubai",
 }

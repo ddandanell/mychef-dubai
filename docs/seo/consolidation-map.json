@@ -381,16 +381,16 @@
       "phase": "ad hoc",
       "status": "done",
       "from": "/event-catering-prices-2026",
-      "to": "/dubai-catering-prices-guide",
-      "reason": "Guess-URL returned the empty SPA shell (soft 404). The 2026 event guide is parked/noindex; indexable owner is the prices guide",
+      "to": "/dubai-event-catering-price-guide-2026",
+      "reason": "Guess-URL 301 onto the 2026 event price guide after that URL was unparked as the live owner",
       "executed": "2026-09-06 via scripts/retire-url.py"
     },
     {
       "phase": "ad hoc",
       "status": "done",
       "from": "/guides/event-catering-prices-2026",
-      "to": "/dubai-catering-prices-guide",
-      "reason": "Guess-URL returned the empty SPA shell (soft 404). The 2026 event guide is parked/noindex; indexable owner is the prices guide",
+      "to": "/dubai-event-catering-price-guide-2026",
+      "reason": "Guess-URL 301 onto the 2026 event price guide after that URL was unparked as the live owner",
       "executed": "2026-09-06 via scripts/retire-url.py"
     },
     {

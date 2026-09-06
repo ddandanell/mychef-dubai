@@ -13,8 +13,8 @@
  ],
  "stats": {
   "pages": 179,
-  "linkable": 128,
-  "contextual_edges": 1477,
+  "linkable": 129,
+  "contextual_edges": 1481,
   "orphans": 0,
   "silos": 14
  },
@@ -57,7 +57,6 @@
   "/dessert-cart-dubai",
   "/dessert-table-dubai",
   "/dubai-catering-prices",
-  "/dubai-event-catering-price-guide-2026",
   "/easter-catering-dubai",
   "/event-catering-dubai",
   "/event-catering-prices-2026",
@@ -1713,6 +1712,12 @@
      "silo": "Blog and Guides"
     },
     {
+     "url": "/dubai-event-catering-price-guide-2026",
+     "label": "Dubai Event Catering Price Guide 2026",
+     "keyword": "event catering price guide dubai 2026",
+     "silo": "Blog and Guides"
+    },
+    {
      "url": "/dubai-food-trends-report-2026",
      "label": "Dubai Food Trends Report 2026",
      "keyword": "dubai food trends 2026",
@@ -3295,6 +3300,12 @@
      "silo": "Blog and Guides"
     },
     {
+     "url": "/dubai-event-catering-price-guide-2026",
+     "label": "Dubai Event Catering Price Guide 2026",
+     "keyword": "event catering price guide dubai 2026",
+     "silo": "Blog and Guides"
+    },
+    {
      "url": "/dubai-catering-prices-guide",
      "label": "Dubai Catering Prices Guide",
      "keyword": "catering prices dubai",
@@ -3310,12 +3321,6 @@
      "url": "/blog/corporate-event-catering-ideas-dubai",
      "label": "Corporate Event Catering Ideas",
      "keyword": "corporate event catering ideas dubai",
-     "silo": "Blog and Guides"
-    },
-    {
-     "url": "/blog/wedding-catering-cost-dubai",
-     "label": "Wedding Catering Cost",
-     "keyword": "wedding catering cost dubai",
      "silo": "Blog and Guides"
     }
    ],
@@ -3499,15 +3504,15 @@
      "silo": "Blog and Guides"
     },
     {
-     "url": "/catering-cost-calculator-dubai",
-     "label": "Catering Cost Calculator",
-     "keyword": "catering cost calculator dubai",
+     "url": "/dubai-event-catering-price-guide-2026",
+     "label": "Dubai Event Catering Price Guide 2026",
+     "keyword": "event catering price guide dubai 2026",
      "silo": "Blog and Guides"
     },
     {
-     "url": "/best-catering-companies-dubai",
-     "label": "Best Catering Companies",
-     "keyword": "best catering companies dubai",
+     "url": "/catering-cost-calculator-dubai",
+     "label": "Catering Cost Calculator",
+     "keyword": "catering cost calculator dubai",
      "silo": "Blog and Guides"
     }
    ],
@@ -7036,6 +7041,12 @@
    },
    "siblings": [
     {
+     "url": "/dubai-event-catering-price-guide-2026",
+     "label": "Dubai Event Catering Price Guide 2026",
+     "keyword": "event catering price guide dubai 2026",
+     "silo": "Blog and Guides"
+    },
+    {
      "url": "/blog/wedding-catering-cost-dubai",
      "label": "Wedding Catering Cost",
      "keyword": "wedding catering cost dubai",
@@ -7352,9 +7363,9 @@
      "silo": "Blog and Guides"
     },
     {
-     "url": "/dubai-catering-prices-guide",
-     "label": "Dubai Catering Prices Guide",
-     "keyword": "catering prices dubai",
+     "url": "/dubai-event-catering-price-guide-2026",
+     "label": "Dubai Event Catering Price Guide 2026",
+     "keyword": "event catering price guide dubai 2026",
      "silo": "Blog and Guides"
     }
    ],
@@ -8451,6 +8462,12 @@
      "url": "/dubai-catering-prices-guide",
      "label": "Dubai Catering Prices Guide",
      "keyword": "catering prices dubai",
+     "silo": "Blog and Guides"
+    },
+    {
+     "url": "/dubai-event-catering-price-guide-2026",
+     "label": "Dubai Event Catering Price Guide 2026",
+     "keyword": "event catering price guide dubai 2026",
      "silo": "Blog and Guides"
     },
     {
@@ -13425,6 +13442,12 @@
    },
    "siblings": [
     {
+     "url": "/dubai-event-catering-price-guide-2026",
+     "label": "Dubai Event Catering Price Guide 2026",
+     "keyword": "event catering price guide dubai 2026",
+     "silo": "Blog and Guides"
+    },
+    {
      "url": "/yacht-catering-guide-dubai",
      "label": "Yacht Catering Guide",
      "keyword": "yacht catering guide dubai",
@@ -13446,12 +13469,6 @@
      "url": "/wedding-catering-menu-planning-dubai",
      "label": "Wedding Catering Menu Planning",
      "keyword": "wedding menu planning dubai",
-     "silo": "Blog and Guides"
-    },
-    {
-     "url": "/corporate-catering-checklist-dubai",
-     "label": "Corporate Catering Checklist",
-     "keyword": "corporate catering checklist dubai",
      "silo": "Blog and Guides"
     }
    ],
@@ -15322,6 +15339,12 @@
      "url": "/dubai-catering-prices-guide",
      "label": "Dubai Catering Prices Guide",
      "keyword": "catering prices dubai",
+     "silo": "Blog and Guides"
+    },
+    {
+     "url": "/dubai-event-catering-price-guide-2026",
+     "label": "Dubai Event Catering Price Guide 2026",
+     "keyword": "event catering price guide dubai 2026",
      "silo": "Blog and Guides"
     },
     {

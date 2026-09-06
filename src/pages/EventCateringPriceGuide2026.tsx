@@ -425,7 +425,7 @@ export default function EventCateringPriceGuide2026() {
               Price Ranges by Event Type
             </h2>
             <p className="font-inter text-body text-gray-400 max-w-[640px] mx-auto mt-4">
-              From = published floor. Typical range = staffed band. Calculator estimate = working figure. Same table as the catering prices guide.
+              From = myCHEF published floor. Indicative market = wider Dubai band, not a myCHEF floor. Same table as the catering prices guide.
             </p>
           </div>
 
@@ -435,8 +435,7 @@ export default function EventCateringPriceGuide2026() {
                 <tr className="border-b border-[#333]">
                   <th className="text-left font-inter text-sm uppercase tracking-wider text-gold py-4 px-4">Event Type</th>
                   <th className="text-left font-inter text-sm uppercase tracking-wider text-gold py-4 px-4">From</th>
-                  <th className="text-left font-inter text-sm uppercase tracking-wider text-gold py-4 px-4">Typical range</th>
-                  <th className="text-left font-inter text-sm uppercase tracking-wider text-gold py-4 px-4">Calculator estimate</th>
+                  <th className="text-left font-inter text-sm uppercase tracking-wider text-gold py-4 px-4">Indicative market</th>
                   <th className="text-left font-inter text-sm uppercase tracking-wider text-gold py-4 px-4">Notes</th>
                 </tr>
               </thead>
@@ -446,7 +445,6 @@ export default function EventCateringPriceGuide2026() {
                     <td className="py-4 px-4 font-playfair text-white text-lg">{row.format}</td>
                     <td className="py-4 px-4 font-inter text-gray-400">AED {row.from}</td>
                     <td className="py-4 px-4 font-inter text-gray-400">AED {row.typicalMin}–{row.typicalMax}</td>
-                    <td className="py-4 px-4 font-inter text-gray-400">{row.estimate != null ? `AED ${row.estimate}` : '—'}</td>
                     <td className="py-4 px-4 font-inter text-body-sm text-gray-500">{row.note}</td>
                   </tr>
                 ))}

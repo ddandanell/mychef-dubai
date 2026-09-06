@@ -19,7 +19,6 @@ import { SectionLabel } from '../components/system'
 import {
   CATERING_FORMAT_BY_ID,
   MENU_FORMAT_IDS,
-  formatEstimate,
   formatFrom,
   formatTypical,
 } from '@/content/cateringPricing'
@@ -120,7 +119,7 @@ const pricingTiers = MENU_FORMAT_IDS.map((id) => {
 const pricingFaqs = [
   {
     q: 'How much does a private chef cost in Dubai?',
-    a: 'Chef-led plated dining is typically AED 700–950 per person. The calculator estimate is AED 950 per person. Final pricing depends on guest count, menu, ingredients, and service level. Household chef visit rates are separate.',
+    a: 'Chef-led plated dining starts from AED 700 per person on this page and on the Catering hub. Indicative market for staffed dinners sits around AED 700–950. Household chef visit rates are separate.',
   },
   {
     q: 'Is there a minimum guest count?',
@@ -282,7 +281,7 @@ export default function Menus() {
             <SectionLabel align="center">PER-PERSON STARTING RATES</SectionLabel>
             <h2 className="font-playfair text-h2 text-black mb-4">Service Format Pricing</h2>
             <p className="font-inter text-body text-gray-500 max-w-[640px] mx-auto">
-              Each format has a published floor, a typical staffed range, and a calculator estimate. These sit alongside the fixed starter packages above. Household chef visit rates stay on the private chef pricing page.
+              Starts match the Catering hub floors. Indicative market bands on the prices guide are not myCHEF starts. Household chef visit rates stay on the private chef pricing page.
             </p>
           </div>
 
@@ -300,8 +299,7 @@ export default function Menus() {
                     <span className="font-inter text-sm text-gray-500 ml-1">/ person</span>
                   </p>
                   <p className="mt-2 font-inter text-body-xs text-gray-500 leading-relaxed">
-                    {formatFrom(tier.from)}. {formatTypical(tier.typicalMin, tier.typicalMax)}
-                    {tier.estimate != null ? `. ${formatEstimate(tier.estimate)}` : ''}.
+                    {formatFrom(tier.from)}. {formatTypical(tier.typicalMin, tier.typicalMax)} (indicative market, not the myCHEF floor).
                   </p>
                 </div>
                 <ul className="flex-1 space-y-3 mb-8">

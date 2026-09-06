@@ -77,7 +77,6 @@ const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}
 
 const worldSites = [
   { place: 'Dubai, UAE', href: 'https://www.mychef.ae/', host: 'mychef.ae' },
-  { place: 'Bali, Indonesia', href: 'https://mychef.id/', host: 'mychef.id' },
   { place: 'Hawaii, USA', href: 'https://mychef-hawaii.com/', host: 'mychef-hawaii.com' },
   { place: 'South Africa', href: 'https://www.mychefs.co.za/', host: 'mychefs.co.za' },
 ] as const
