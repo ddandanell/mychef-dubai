@@ -183,7 +183,7 @@ export default function Catering() {
           <SectionLabel tone="dark">PRICING</SectionLabel>
           <DisplayHeading className="text-white mb-6">Catering pricing in Dubai</DisplayHeading>
           <p className="font-inter text-body text-gray-300 leading-relaxed mb-5 max-w-[65ch]">
-            These are the published bands. Format decides most of the figure: the same guests cost different amounts dropped off, as a buffet, or plated.
+            These are the published bands. From is the floor, typical range is the staffed band, calculator estimate is the working figure on Menus and the calculator. Format decides most of the figure: the same guests cost different amounts dropped off, as a buffet, or plated.
           </p>
           <div className="overflow-x-auto mb-8">
             <table className="w-full text-left font-inter text-body-sm text-gray-300">

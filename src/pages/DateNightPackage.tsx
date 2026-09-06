@@ -5,11 +5,14 @@
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
 import PackagePageTemplate from '@/components/PackagePageTemplate'
+import { eventPackageById, formatPriceAed } from '@/content/cateringPricing'
+
+const pkg = eventPackageById('date-night')
 
 export default function DateNightPackage() {
   return (
     <PackagePageTemplate
-      name="Date Night"
+      name={pkg.name}
       seoTitle="Date Night Package Dubai | Private Chef for Two | myCHEF"
       description="Date Night Package Dubai: private chef dinner for two from AED 1,200. Bespoke 3-course menu, elegant plating, and full cleanup. Get a quote in 15 minutes."
       intro="Date night package Dubai price depends on the same three things: the guest count, the menu, and how much of the work happens in front of people. Private dinner package Dubai, couples dinner package Dubai, dinner package for two Dubai and best date night package Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. The date night dinner menu Dubai is drafted around the occasion, the season and the dietary list, and you change it before anything is confirmed. Halal date night Dubai is planned into the first draft of the menu rather than bolted on at the end. Date night at home Dubai is run at the address you give us: we bring the equipment, cook on site and leave the space as we found it."
@@ -18,9 +21,9 @@ export default function DateNightPackage() {
       headline="Date Night Package Dubai: Private Chef Dinner for Two"
       eyebrow="ROMANTIC DINING PACKAGE"
       subheadline="An intimate private chef dinner for two — designed around your tastes and served in the comfort of your own space."
-      price="1,200"
-      guests="2 guests"
-      perPerson="AED 600"
+      price={formatPriceAed(pkg.priceAed)}
+      guests={pkg.guests}
+      perPerson={`AED ${pkg.perPerson}`}
       included={[
         'Bespoke 3-course menu designed for two',
         'Private chef and in-home preparation',

@@ -25,6 +25,7 @@ import SEO from '../components/SEO'
 import TrustSignalStrip from '../components/TrustSignalStrip'
 import FaqAccordion from '../components/FaqAccordion'
 import { SectionLabel } from '../components/system'
+import { CATERING_FORMATS } from '@/content/cateringPricing'
 
 const WHATSAPP_NUMBER = '971551744849'
 const WHATSAPP_MESSAGE = encodeURIComponent("Hi myCHEF Dubai, I read your Dubai event catering price guide and would like a custom quote for my event.")
@@ -32,14 +33,14 @@ const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}
 
 /* ────────────────────── Data ────────────────────── */
 
-const eventPriceTable = [
-  { format: 'Canapé reception', min: 120, max: 250, note: '6–10 bite-sized pieces; premium ingredients increase cost' },
-  { format: 'Buffet catering', min: 180, max: 350, note: 'Popular for weddings and large celebrations' },
-  { format: 'Plated dinner', min: 250, max: 550, note: 'Higher staffing requirements; more formal presentation' },
-  { format: 'BBQ / outdoor dining', min: 200, max: 400, note: 'Grilled meats, seafood, sides; seasonal demand in winter' },
-  { format: 'Yacht catering', min: 300, max: 700, note: 'Logistics, compact galleys, and premium settings add cost' },
-  { format: 'Corporate lunch / boardroom', min: 150, max: 300, note: 'Often package-based with setup and cleanup included' },
-]
+const eventPriceTable = CATERING_FORMATS.map((format) => ({
+  format: format.label,
+  from: format.fromPerPerson,
+  typicalMin: format.typicalMin,
+  typicalMax: format.typicalMax,
+  estimate: format.calculatorEstimate,
+  note: format.note,
+}))
 
 const weddingBudgets = [
   {
@@ -424,7 +425,7 @@ export default function EventCateringPriceGuide2026() {
               Price Ranges by Event Type
             </h2>
             <p className="font-inter text-body text-gray-400 max-w-[640px] mx-auto mt-4">
-              The following ranges are indicative for Dubai in 2026. Final pricing depends on menu selection, group size, venue access, and service level.
+              From = published floor. Typical range = staffed band. Calculator estimate = working figure. Same table as the catering prices guide.
             </p>
           </div>
 
@@ -433,8 +434,9 @@ export default function EventCateringPriceGuide2026() {
               <thead>
                 <tr className="border-b border-[#333]">
                   <th className="text-left font-inter text-sm uppercase tracking-wider text-gold py-4 px-4">Event Type</th>
-                  <th className="text-left font-inter text-sm uppercase tracking-wider text-gold py-4 px-4">From (AED/person)</th>
-                  <th className="text-left font-inter text-sm uppercase tracking-wider text-gold py-4 px-4">To (AED/person)</th>
+                  <th className="text-left font-inter text-sm uppercase tracking-wider text-gold py-4 px-4">From</th>
+                  <th className="text-left font-inter text-sm uppercase tracking-wider text-gold py-4 px-4">Typical range</th>
+                  <th className="text-left font-inter text-sm uppercase tracking-wider text-gold py-4 px-4">Calculator estimate</th>
                   <th className="text-left font-inter text-sm uppercase tracking-wider text-gold py-4 px-4">Notes</th>
                 </tr>
               </thead>
@@ -442,8 +444,9 @@ export default function EventCateringPriceGuide2026() {
                 {eventPriceTable.map((row, i) => (
                   <tr key={i} className="event-price-table-row border-b border-charcoal-light opacity-0 translate-y-4">
                     <td className="py-4 px-4 font-playfair text-white text-lg">{row.format}</td>
-                    <td className="py-4 px-4 font-inter text-gray-400">AED {row.min}</td>
-                    <td className="py-4 px-4 font-inter text-gray-400">AED {row.max}{row.max === 700 ? '+' : ''}</td>
+                    <td className="py-4 px-4 font-inter text-gray-400">AED {row.from}</td>
+                    <td className="py-4 px-4 font-inter text-gray-400">AED {row.typicalMin}–{row.typicalMax}</td>
+                    <td className="py-4 px-4 font-inter text-gray-400">{row.estimate != null ? `AED ${row.estimate}` : '—'}</td>
                     <td className="py-4 px-4 font-inter text-body-sm text-gray-500">{row.note}</td>
                   </tr>
                 ))}

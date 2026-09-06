@@ -15,41 +15,48 @@ import SEO from '@/components/SEO'
 import LocationStrip from '@/components/LocationStrip'
 import PageHero from '@/components/PageHero'
 import { breadcrumbSchema } from '@/utils/schema'
+import {
+  CALCULATOR_FORMAT_IDS,
+  CATERING_FORMAT_BY_ID,
+  STAFF_LEVELS,
+  type CalculatorFormatId,
+  type StaffLevelId,
+  clampGuests,
+  formatEstimate,
+  formatFrom,
+  formatTypical,
+  isCalculatorFormatId,
+  isStaffLevelId,
+  quoteCatering,
+} from '@/content/cateringPricing'
 
 const breadcrumbs = [
   { name: 'Home', path: '/' },
   { name: 'Catering Cost Calculator', path: '/catering-cost-calculator-dubai' },
 ]
 
-const serviceOptions = [
-  { value: 'private-chef', label: 'Private Chef Experience', basePrice: 950, minGuests: 2 },
-  { value: 'canapes', label: 'Canapés & Cocktails', basePrice: 280, minGuests: 10 },
-  { value: 'buffet', label: 'Buffet & Family Style', basePrice: 220, minGuests: 15 },
-  { value: 'bbq', label: 'BBQ & Live Stations', basePrice: 260, minGuests: 15 },
-  { value: 'yacht', label: 'Yacht Catering', basePrice: 320, minGuests: 8 },
-  { value: 'wedding', label: 'Wedding Catering', basePrice: 450, minGuests: 20 },
-]
-
-const staffOptions = [
-  { value: 'none', label: 'Self-service (chef only)', multiplier: 1 },
-  { value: 'basic', label: 'Waiters + basic setup', multiplier: 1.15 },
-  { value: 'full', label: 'Full service staff + bartender', multiplier: 1.3 },
-]
+const serviceOptions = CALCULATOR_FORMAT_IDS.map((id) => {
+  const format = CATERING_FORMAT_BY_ID[id]
+  return {
+    value: id,
+    label: format.calculatorLabel ?? format.label,
+    minGuests: format.minGuests,
+  }
+})
 
 export default function CateringCostCalculator() {
   useScrollTrigger()
   const [guests, setGuests] = useState(10)
-  const [service, setService] = useState(serviceOptions[0].value)
-  const [staffLevel, setStaffLevel] = useState(staffOptions[0].value)
+  const [service, setService] = useState<CalculatorFormatId>(serviceOptions[0].value)
+  const [staffLevel, setStaffLevel] = useState<StaffLevelId>(STAFF_LEVELS[0].id)
   const resultRef = useRef<HTMLDivElement>(null)
   const faqRef = useRef<HTMLDivElement>(null)
 
   const selectedService = serviceOptions.find((s) => s.value === service) || serviceOptions[0]
-  const selectedStaff = staffOptions.find((s) => s.value === staffLevel) || staffOptions[0]
-
-  const perPerson = Math.round(selectedService.basePrice * selectedStaff.multiplier)
-  const totalLow = perPerson * guests
-  const totalHigh = Math.round(perPerson * 1.4 * guests)
+  const selectedStaff = STAFF_LEVELS.find((s) => s.id === staffLevel) || STAFF_LEVELS[0]
+  const selectedFormat = CATERING_FORMAT_BY_ID[service]
+  const countedGuests = clampGuests(service, guests)
+  const quote = quoteCatering({ formatId: service, guests: countedGuests, staffId: staffLevel })
   const calcArmed = useRef(false)
 
   useEffect(() => {
@@ -58,10 +65,10 @@ export default function CateringCostCalculator() {
       return
     }
     const t = window.setTimeout(() => {
-      trackConversion('calc_use', 'link', bucketGuests(guests))
+      trackConversion('calc_use', 'link', bucketGuests(countedGuests))
     }, 800)
     return () => window.clearTimeout(t)
-  }, [guests, service, staffLevel])
+  }, [countedGuests, guests, service, staffLevel])
 
   useEffect(() => {
     const ctx = gsap.context(() => {
@@ -132,7 +139,12 @@ export default function CateringCostCalculator() {
                   </label>
                   <select
                     value={service}
-                    onChange={(e) => setService(e.target.value)}
+                    onChange={(e) => {
+                      if (!isCalculatorFormatId(e.target.value)) return
+                      const next = e.target.value
+                      setService(next)
+                      setGuests((current) => clampGuests(next, current))
+                    }}
                     className="w-full bg-white border border-gray-200 px-4 py-3.5 font-inter text-body text-black focus:border-gold focus:outline-none focus:ring-2 focus:ring-gold/20"
                   >
                     {serviceOptions.map((option) => (
@@ -152,8 +164,8 @@ export default function CateringCostCalculator() {
                     <input
                       type="number"
                       min={selectedService.minGuests}
-                      value={guests}
-                      onChange={(e) => setGuests(Math.max(selectedService.minGuests, Number(e.target.value)))}
+                      value={countedGuests}
+                      onChange={(e) => setGuests(clampGuests(service, Number(e.target.value)))}
                       className="flex-1 bg-white border border-gray-200 px-4 py-3.5 font-inter text-body text-black focus:border-gold focus:outline-none focus:ring-2 focus:ring-gold/20"
                     />
                   </div>
@@ -168,11 +180,14 @@ export default function CateringCostCalculator() {
                   </label>
                   <select
                     value={staffLevel}
-                    onChange={(e) => setStaffLevel(e.target.value)}
+                    onChange={(e) => {
+                      if (!isStaffLevelId(e.target.value)) return
+                      setStaffLevel(e.target.value)
+                    }}
                     className="w-full bg-white border border-gray-200 px-4 py-3.5 font-inter text-body text-black focus:border-gold focus:outline-none focus:ring-2 focus:ring-gold/20"
                   >
-                    {staffOptions.map((option) => (
-                      <option key={option.value} value={option.value}>
+                    {STAFF_LEVELS.map((option) => (
+                      <option key={option.id} value={option.id}>
                         {option.label}
                       </option>
                     ))}
@@ -186,25 +201,40 @@ export default function CateringCostCalculator() {
               <UtensilsCrossed className="text-gold mx-auto md:mx-0 mb-6" size={32} />
               <h3 className="font-playfair text-h3 text-white mb-2">Estimated Investment</h3>
               <p className="font-inter text-body-sm text-gray-400 mb-8">
-                Starting price per person for {selectedService.label.toLowerCase()} with {selectedStaff.label.toLowerCase()}
+                {selectedFormat.calculatorEstimate != null
+                  ? `${formatEstimate(selectedFormat.calculatorEstimate).replace(' per person', '')} for ${selectedService.label.toLowerCase()} with ${selectedStaff.label.toLowerCase()}`
+                  : `${selectedService.label} is not quoted in the calculator.`}
               </p>
 
-              <div className="mb-8">
-                <span className="font-playfair text-fluid-h2 text-gold">AED {perPerson.toLocaleString()}</span>
-                <span className="font-inter text-body text-gray-400 ml-2">/ person</span>
-              </div>
+              {quote.ok ? (
+                <>
+                  <div className="mb-8">
+                    <span className="font-playfair text-fluid-h2 text-gold">AED {quote.perPerson.toLocaleString()}</span>
+                    <span className="font-inter text-body text-gray-400 ml-2">/ person</span>
+                  </div>
 
-              <div className="border-t border-white/10 pt-8 mb-8">
-                <p className="font-inter text-caption uppercase tracking-wider text-gray-500 mb-2">
-                  Total estimated range
-                </p>
-                <p className="font-playfair text-h2 text-white">
-                  AED {totalLow.toLocaleString()} – {totalHigh.toLocaleString()}
-                </p>
-                <p className="font-inter text-body-xs text-gray-500 mt-2">
-                  For {guests} guests. Final quote depends on menu complexity, ingredients, and location.
-                </p>
-              </div>
+                  <div className="border-t border-white/10 pt-8 mb-8">
+                    <p className="font-inter text-caption uppercase tracking-wider text-gray-500 mb-2">
+                      Total estimated range
+                    </p>
+                    <p className="font-playfair text-h2 text-white">
+                      AED {quote.totalLow.toLocaleString()} – {quote.totalHigh.toLocaleString()}
+                    </p>
+                    <p className="font-inter text-body-xs text-gray-500 mt-2">
+                      For {quote.guests} guests. {formatFrom(selectedFormat.fromPerPerson)}. {formatTypical(selectedFormat.typicalMin, selectedFormat.typicalMax)}. Final quote depends on menu, ingredients, and location.
+                    </p>
+                  </div>
+                </>
+              ) : (
+                <div className="mb-8 border-t border-white/10 pt-8">
+                  <p className="font-inter text-body text-white">
+                    This format starts at {selectedService.minGuests} guests. Enter at least {selectedService.minGuests} to see a calculator estimate.
+                  </p>
+                  <p className="font-inter text-body-xs text-gray-500 mt-3">
+                    {formatFrom(selectedFormat.fromPerPerson)}. {formatTypical(selectedFormat.typicalMin, selectedFormat.typicalMax)}.
+                  </p>
+                </div>
+              )}
 
               <Link
                 to="/inquiry"
@@ -219,9 +249,10 @@ export default function CateringCostCalculator() {
           <div className="mt-10 flex items-start gap-3 bg-gray-50 p-6">
             <Info className="text-gold flex-shrink-0 mt-0.5" size={18} />
             <p className="font-inter text-body-sm text-gray-500">
-              This calculator provides a rough estimate only. Premium ingredients, custom menus, late-night service,
-              special dietary requirements, and venue logistics can affect the final price. For an exact bespoke
-              proposal, request a quote and we will respond within 15 minutes during business hours.
+              This is a calculator estimate, not the published floor. Each format also has a “from” figure and a
+              typical range, shown on the catering prices guide. Premium ingredients, custom menus, late-night service,
+              dietary requirements, and venue logistics move the final price. For an exact proposal, request a quote
+              and we will respond within 15 minutes during business hours.
             </p>
             <p className="font-inter text-body-sm text-gray-500">
               Estimate catering cost Dubai, catering calculator per person, small catering cost calculator Dubai, wedding catering cost calculator Dubai and birthday catering cost calculator Dubai depend on the same three things: the guest count, the menu, and how much of the work happens in front of people.
@@ -241,11 +272,11 @@ export default function CateringCostCalculator() {
             {[
               {
                 q: 'How much does a private chef cost in Dubai?',
-                a: 'Private chef experiences in Dubai typically start from AED 950 per person for a multi-course dinner, including the chef, premium ingredients, and basic service. Larger groups and simpler formats can reduce the per-person cost.',
+                a: 'Chef-led plated dining is typically AED 700–950 per person. The calculator estimate for that format is AED 950 per person before staffing. Household chef visit rates are separate, on the private chef pricing page.',
               },
               {
                 q: 'Is there a minimum guest count?',
-                a: 'Yes. Private chef dinners start from 2 guests. Canapé receptions, buffets, and BBQ events usually require a minimum of 10–15 guests to be cost-effective.',
+                a: 'Yes. The calculator will not total a format below its minimum: 2 guests for plated chef dining, 10 for canapés, 15 for buffet and BBQ, 8 for yacht catering, 20 for wedding catering. A standard event buffet on the catering hub starts from 20 guests.',
               },
               {
                 q: 'What is included in the price?',

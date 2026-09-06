@@ -11,6 +11,7 @@
  */
 
 import { CATERING_PATHS } from './cateringCluster'
+import { cateringPricingNotes, hubPriceRows } from './cateringPricing'
 
 export const PRIVATE_PARTY_ROOT = '/private-party-catering-dubai' as const
 
@@ -212,48 +213,14 @@ export const otherUniqueOccasions = [
 ] as const
 
 /** Published event/catering bands. Not a party-only invention. */
-export const priceRows = [
-  {
-    format: 'Drop-off food',
-    what: 'Food delivered ready to serve',
-    staff: 'None',
-    price: 'From AED 90 per person',
-    href: '/drop-off-catering-dubai',
-  },
-  {
-    format: 'Standard event buffet',
-    what: 'Presentation plus a maintained spread',
-    staff: '1–2',
-    price: 'From AED 120 per person',
-    href: '/buffet-catering-dubai',
-  },
-  {
-    format: 'Premium buffet, BBQ, live stations or canapés',
-    what: 'Cooking or passed food in front of guests',
-    staff: '2–4',
-    price: 'From AED 150 per person',
-    href: '/live-cooking-stations-dubai',
-  },
-  {
-    format: 'Chef-led plated dining',
-    what: 'Courses cooked and served at the table',
-    staff: '3 and above',
-    price: 'AED 700–950 per person',
-    href: '/buffet-vs-plated-dubai',
-  },
-] as const
+export const priceRows = hubPriceRows()
 
 export const pricingIntro = [
   'These are the published bands. Format decides most of a private party catering Dubai price: the same guests cost different amounts dropped off, as a buffet, or plated.',
   'A house party catering Dubai night uses the same figures as any other staffed event. Guest count, menu, staffing, access and 5% VAT still move the total. If you want a set menu band rather than a scoped brief, start on catering packages.',
 ] as const
 
-export const pricingNotes = [
-  'Drop-off: 10 guests minimum and AED 900 minimum order.',
-  'A standard event buffet starts from 20 guests.',
-  'All figures are before 5% VAT, which is shown as its own line.',
-  'Not every party meets the starting points. Guest count, menu, staffing, venue access, timing and equipment move the total.',
-] as const
+export const pricingNotes = cateringPricingNotes()
 
 export const includedItems = [
   {

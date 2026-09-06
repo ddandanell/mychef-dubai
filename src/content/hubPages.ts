@@ -10,6 +10,8 @@
  * through their hub only.
  */
 
+import { EVENT_PACKAGES, formatPriceAed } from './cateringPricing'
+
 export interface HubCard {
   title: string
   href: string
@@ -63,8 +65,16 @@ export type PrimaryPackage = {
  * Prices, guest counts and included lines match starterPackages + each package page.
  * Titles use STANDARD featured_children anchors.
  */
-export const PRIMARY_PACKAGES: PrimaryPackage[] = [
-]
+export const PRIMARY_PACKAGES: PrimaryPackage[] = EVENT_PACKAGES.map((pkg) => ({
+  occasion: pkg.occasion,
+  title: pkg.title,
+  href: pkg.href,
+  guests: pkg.guests.replace(/ guests$/, ''),
+  price: formatPriceAed(pkg.priceAed),
+  perPerson: `AED ${pkg.perPerson}`,
+  description: pkg.description,
+  included: pkg.included,
+}))
 
 /** /catering-packages-dubai — the four published packages. */
 export const PACKAGE_CARDS: HubCard[] = PRIMARY_PACKAGES.map((pkg) => ({

@@ -24,6 +24,12 @@ import SEO from '../../components/SEO'
 import TrustSignalStrip from '../../components/TrustSignalStrip'
 import FaqAccordion from '../../components/FaqAccordion'
 import { SectionLabel } from '../../components/system'
+import {
+  CATERING_FORMATS,
+  formatEstimate,
+  formatFrom,
+  formatTypical,
+} from '@/content/cateringPricing'
 
 
 const WHATSAPP_NUMBER = '971551744849'
@@ -32,14 +38,14 @@ const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}
 
 /* ────────────────────── Data ────────────────────── */
 
-const priceTable = [
-  { format: 'Private chef / home dining', min: 350, max: 650, note: 'Per person; chef + service staff' },
-  { format: 'Canapés & cocktail reception', min: 180, max: 350, note: 'Per person; 6–10 bites, service staff' },
-  { format: 'Buffet catering', min: 220, max: 420, note: 'Per person; varied stations, hot & cold' },
-  { format: 'Plated seated dinner', min: 320, max: 620, note: 'Per person; multi-course, fully-coordinated catering' },
-  { format: 'BBQ catering', min: 200, max: 380, note: 'Per person; grill, sides, salads, staff' },
-  { format: 'Yacht catering', min: 280, max: 550, note: 'Per person; compact menus, stable service' },
-]
+const priceTable = CATERING_FORMATS.map((format) => ({
+  format: format.label,
+  from: format.fromPerPerson,
+  typicalMin: format.typicalMin,
+  typicalMax: format.typicalMax,
+  estimate: format.calculatorEstimate,
+  note: format.note,
+}))
 
 const costFactors = [
   {
@@ -103,7 +109,7 @@ const internalLinks = [
 const faqs = [
   {
     q: 'How much does catering cost per person in Dubai?',
-    a: 'Most Dubai catering ranges from AED 180 to AED 650 per person depending on format. Canapés and BBQ start lower, while plated private-chef dinners and yacht catering sit at the higher end. Final pricing depends on guest count, menu, staff, and venue.',
+    a: 'Drop-off food starts from AED 90 per person. Canapés start from AED 150, with a typical staffed range of AED 180–350 and a calculator estimate of AED 280. Buffets start from AED 120 (typical AED 220–420, calculator estimate AED 220). Chef-led plated dining is typically AED 700–950. Household chef visit rates are separate.',
   },
   {
     q: 'What is included in a catering quote?',
@@ -127,7 +133,7 @@ const faqs = [
   },
   {
     q: 'How much does catering cost in Dubai?',
-    a: 'There is no single number for how much does catering cost in Dubai: guest count, menu, service style and staffing move the figure. Our indicative starting point on this page is AED 180. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day. People also search this as how much does catering cost for 50 guests Dubai — same team, same booking.',
+    a: 'There is no single number for how much does catering cost in Dubai: guest count, menu, service style and staffing move the figure. The published floor on this page is drop-off from AED 90; staffed formats typically sit from AED 180. Send the date, headcount and venue and you get an itemised proposal — food, chefs, staff, hire and 5% VAT shown separately — usually within a working day. People also search this as how much does catering cost for 50 guests Dubai — same team, same booking.',
   },
 ]
 
@@ -177,9 +183,9 @@ const breadcrumbSchema = {
 const formatOffers = priceTable.map((row) => ({
   '@type': 'Offer',
   name: `${row.format} — Dubai`,
-  description: `Indicative per-person price range for ${row.format.toLowerCase()} in Dubai: AED ${row.min} – ${row.max}. Final quote depends on guest count, menu, venue, and service level.`,
+  description: `${formatFrom(row.from)}. ${formatTypical(row.typicalMin, row.typicalMax)}${row.estimate != null ? `. ${formatEstimate(row.estimate)}` : ''}. Final quote depends on guest count, menu, venue, and service level.`,
   url: 'https://www.mychef.ae/dubai-catering-prices-guide',
-  price: String(row.min),
+  price: String(row.from),
   priceCurrency: 'AED',
   availability: 'https://schema.org/InStock',
 }))
@@ -190,8 +196,8 @@ const aggregateOfferSchema = {
   description: 'Indicative per-person catering prices in Dubai for private chef, canapés, buffet, plated dinner, BBQ, and yacht catering. Prices are starting points; final quotes are tailored to each event.',
   url: 'https://www.mychef.ae/dubai-catering-prices-guide',
   priceCurrency: 'AED',
-  lowPrice: '180',
-  highPrice: '650',
+  lowPrice: '90',
+  highPrice: '950',
   offers: formatOffers,
 }
 
@@ -330,7 +336,7 @@ export default function DubaiCateringPricesGuide() {
               Catering Costs Per Person in Dubai
             </h2>
             <p className="font-inter text-body text-gray-400 max-w-[640px] mx-auto mt-4">
-              Prices are indicative guides for mid-market to premium catering in Dubai. Final quotes depend on menu choices, staff levels, rentals, and venue logistics.
+              From = published floor. Typical range = staffed band. Calculator estimate = working figure on Menus and the calculator. Household chef visit rates are not in this table.
             </p>
           </div>
 
@@ -339,8 +345,9 @@ export default function DubaiCateringPricesGuide() {
               <thead>
                 <tr className="border-b border-[#333]">
                   <th className="text-left font-inter text-sm uppercase tracking-wider text-gold py-4 px-4">Format</th>
-                  <th className="text-left font-inter text-sm uppercase tracking-wider text-gold py-4 px-4">From (AED)</th>
-                  <th className="text-left font-inter text-sm uppercase tracking-wider text-gold py-4 px-4">To (AED)</th>
+                  <th className="text-left font-inter text-sm uppercase tracking-wider text-gold py-4 px-4">From</th>
+                  <th className="text-left font-inter text-sm uppercase tracking-wider text-gold py-4 px-4">Typical range</th>
+                  <th className="text-left font-inter text-sm uppercase tracking-wider text-gold py-4 px-4">Calculator estimate</th>
                   <th className="text-left font-inter text-sm uppercase tracking-wider text-gold py-4 px-4">Notes</th>
                 </tr>
               </thead>
@@ -348,8 +355,9 @@ export default function DubaiCateringPricesGuide() {
                 {priceTable.map((row, i) => (
                   <tr key={i} className="price-table-row border-b border-charcoal-light opacity-0 translate-y-4">
                     <td className="py-4 px-4 font-playfair text-white text-lg">{row.format}</td>
-                    <td className="py-4 px-4 font-inter text-gray-400">AED {row.min}</td>
-                    <td className="py-4 px-4 font-inter text-gray-400">AED {row.max}</td>
+                    <td className="py-4 px-4 font-inter text-gray-400">AED {row.from}</td>
+                    <td className="py-4 px-4 font-inter text-gray-400">AED {row.typicalMin}–{row.typicalMax}</td>
+                    <td className="py-4 px-4 font-inter text-gray-400">{row.estimate != null ? `AED ${row.estimate}` : '—'}</td>
                     <td className="py-4 px-4 font-inter text-body-sm text-gray-500">{row.note}</td>
                   </tr>
                 ))}

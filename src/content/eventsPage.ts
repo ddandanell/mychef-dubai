@@ -1,4 +1,5 @@
 import { CATERING_PATHS } from './cateringCluster'
+import { cateringCostSummary, cateringPricingNotes, hubPriceRows } from './cateringPricing'
 
 export const EVENTS_ROOT = '/events' as const
 
@@ -148,48 +149,14 @@ export const otherEvents = [
   },
 ] as const
 
-export const priceRows = [
-  {
-    format: 'Drop-off food and working lunches',
-    what: 'Food delivered ready to serve',
-    staff: 'None',
-    price: 'From AED 90 per person',
-    href: '/drop-off-catering-dubai',
-  },
-  {
-    format: 'Standard event buffet',
-    what: 'Presentation plus a maintained spread',
-    staff: '1–2',
-    price: 'From AED 120 per person',
-    href: '/buffet-catering-dubai',
-  },
-  {
-    format: 'Premium buffet, BBQ, live stations or canapés',
-    what: 'Cooking or passed food in front of guests',
-    staff: '2–4',
-    price: 'From AED 150 per person',
-    href: '/live-cooking-stations-dubai',
-  },
-  {
-    format: 'Chef-led plated dining',
-    what: 'Courses cooked and served at the table',
-    staff: '3 and above',
-    price: 'AED 700–950 per person',
-    href: '/buffet-vs-plated-dubai',
-  },
-] as const
+export const priceRows = hubPriceRows({ dropOffLabel: 'Drop-off food and working lunches' })
 
 export const pricingIntro = [
   'These are the published bands. The format decides most of the figure: the same guests cost different amounts dropped off, as a buffet, or plated.',
   'If you want a set menu band rather than a fully scoped brief, event catering packages start on the packages page. Comparing event caterers in Dubai is only useful when each quote itemises food, staff, setup, cleanup and 5% VAT.',
 ] as const
 
-export const pricingNotes = [
-  'Drop-off: 10 guests minimum and AED 900 minimum order.',
-  'A standard event buffet starts from 20 guests.',
-  'All figures are before 5% VAT, which is shown as its own line.',
-  'Not every event meets the starting points. Guest count, menu, staffing, venue access, timing and equipment move the total.',
-] as const
+export const pricingNotes = cateringPricingNotes()
 
 export const includedItems = [
   { title: 'Menu', body: 'Bespoke menu design around guest count, cuisine, dietary needs and how the room should move.' },
@@ -351,7 +318,7 @@ export const eventFaqs = [
   },
   {
     q: 'How much does event catering cost in Dubai?',
-    a: 'Drop-off food starts from AED 90 per person. A standard event buffet starts from AED 120 per person. Premium buffet, BBQ, live stations and canapés start from AED 150. Chef-led plated dining is typically AED 700–950 per person. Guest count, menu, staffing, venue and 5% VAT move the total. Every proposal is itemised. See [event catering packages](/catering-packages-dubai), the [catering prices guide](/dubai-catering-prices-guide) or the event catering price guide 2026.',
+    a: `${cateringCostSummary()} Guest count, menu, staffing, venue and 5% VAT move the total. Every proposal is itemised. From, typical range and calculator estimate are labelled on the [catering prices guide](/dubai-catering-prices-guide). See [event catering packages](/catering-packages-dubai).`,
   },
   {
     q: 'What is the lowest-cost format?',

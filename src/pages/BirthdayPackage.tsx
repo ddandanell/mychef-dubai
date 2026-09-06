@@ -5,11 +5,14 @@
 //   Rule: primary in title, H1, first 100 words and one H2. Subkeywords inside sentences only. Never target another page's primary.
 // END KEYWORD LOCK
 import PackagePageTemplate from '@/components/PackagePageTemplate'
+import { eventPackageById, formatPriceAed } from '@/content/cateringPricing'
+
+const pkg = eventPackageById('birthday')
 
 export default function BirthdayPackage() {
   return (
     <PackagePageTemplate
-      name="Birthday Celebration"
+      name={pkg.name}
       seoTitle="Birthday Catering Packages Dubai | Private Chef for 8–12 | myCHEF"
       description="A fixed birthday catering packages Dubai: a private chef for 8–12 guests from AED 3,600, with menu, cake option and full service. Larger parties quoted separately."
       intro="Birthday catering package Dubai price and birthday catering package cost per person Dubai depend on the same three things: the guest count, the menu, and how much of the work happens in front of people. Kids birthday food package Dubai, best birthday catering package Dubai, halal birthday catering package Dubai, kids birthday catering packages Dubai, birthday party package Dubai catering and catering packages on offer in Dubai start from a set format and get adjusted to your date rather than sold as a fixed box. Birthday catering at home Dubai is run at the address you give us: we bring the equipment, cook on site and leave the space as we found it. Birthday catering blog Dubai is planned around the room and the running order, with chefs, service staff and clear-down included."
@@ -18,9 +21,9 @@ export default function BirthdayPackage() {
       headline="Birthday Catering Packages Dubai for 8–12 Guests"
       eyebrow="BIRTHDAY PARTY PACKAGE"
       subheadline="Celebrate at home or in a private venue with a tailored menu, birthday cake, and full service for you and your guests."
-      price="3,600"
-      guests="8–12 guests"
-      perPerson="AED 300–450"
+      price={formatPriceAed(pkg.priceAed)}
+      guests={pkg.guests}
+      perPerson={`AED ${pkg.perPerson}`}
       included={[
         'Bespoke birthday menu for 8–12 guests',
         'Canapés or starter, main course, and dessert',

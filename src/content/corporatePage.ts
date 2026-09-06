@@ -9,8 +9,11 @@
  * SeoContent as a separate second article; suppressing the duplicate removed the only
  * place these numbers were rendered. They are relocated here so the hub is the single
  * on-page source of corporate pricing. Nothing here is estimated or invented — update
- * this file when the real prices change, and no other file needs touching.
+ * Format floors live in src/content/cateringPricing.ts. Update that file
+ * when the published catering numbers change.
  */
+
+import { hubPriceRows } from './cateringPricing'
 
 export interface FormatRow {
   format: string
@@ -19,13 +22,13 @@ export interface FormatRow {
   price: string
 }
 
-/** The corporate service-format price ladder. */
-export const formatLadder: FormatRow[] = [
-  { format: 'Drop-off', what: 'Food delivered ready to serve', staff: 'None', price: 'From AED 90 per person' },
-  { format: 'Buffet', what: 'Presentation plus a maintained spread', staff: '1–2', price: 'From AED 120 per person' },
-  { format: 'Live stations', what: 'Cooking in front of your guests', staff: '2–4', price: 'From AED 150 per person' },
-  { format: 'Plated', what: 'Every course served together', staff: '3 and above', price: 'AED 700–950 per person' },
-]
+/** The corporate service-format price ladder — same source as Catering hub. */
+export const formatLadder: FormatRow[] = hubPriceRows().map((row) => ({
+  format: row.format,
+  what: row.what,
+  staff: row.staff,
+  price: row.price,
+}))
 
 export const pricingNotes = [
   'Volume formats start at 10 guests, a full buffet at 20.',

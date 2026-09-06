@@ -16,6 +16,13 @@ import TrustSignalStrip from '@/components/TrustSignalStrip'
 import StarterPackagesSection from '@/sections/StarterPackagesSection'
 import { breadcrumbSchema } from '@/utils/schema'
 import { SectionLabel } from '../components/system'
+import {
+  CATERING_FORMAT_BY_ID,
+  MENU_FORMAT_IDS,
+  formatEstimate,
+  formatFrom,
+  formatTypical,
+} from '@/content/cateringPricing'
 
 
 const WHATSAPP_NUMBER = '971551744849'
@@ -70,53 +77,50 @@ const pairings = [
   },
 ]
 
-const pricingTiers = [
-  {
-    name: 'Private Chef Experience',
-    price: '950',
-    features: [
-      'Multi-course bespoke menu designed around your preferences',
-      'Private chef and dedicated service staff',
-      'Premium ingredients and elegant plating',
-      'Ideal for intimate dinners, villas, and celebrations',
-    ],
-  },
-  {
-    name: 'Canapes & Cocktails',
-    price: '280',
-    features: [
-      'Curated selection of hand-passed canapés',
-      'Welcome cocktails and palate cleansers',
-      'Professional service staff included',
-      'Perfect for receptions and networking events',
-    ],
-  },
-  {
-    name: 'Buffet & Family Style',
-    price: '220',
-    features: [
-      'Generous shared dishes and live stations',
-      'Hot and cold options to suit all tastes',
-      'Flexible menu design and dietary coverage',
-      'Great for larger gatherings and celebrations',
-    ],
-  },
-  {
-    name: 'BBQ & Live Stations',
-    price: '260',
-    features: [
-      'Grilled meats, seafood, and vegetable stations',
-      'Live chef cooking and interactive service',
-      'Sides, salads, and condiments included',
-      'Ideal for poolside, garden, and villa events',
-    ],
-  },
-]
+const MENU_FEATURES: Record<string, string[]> = {
+  'plated-chef': [
+    'Multi-course bespoke menu designed around your preferences',
+    'Private chef and dedicated service staff',
+    'Premium ingredients and elegant plating',
+    'Ideal for intimate dinners, villas, and celebrations',
+  ],
+  canapes: [
+    'Curated selection of hand-passed canapés',
+    'Welcome cocktails and palate cleansers',
+    'Professional service staff included',
+    'Perfect for receptions and networking events',
+  ],
+  buffet: [
+    'Generous shared dishes and live stations',
+    'Hot and cold options to suit all tastes',
+    'Flexible menu design and dietary coverage',
+    'Great for larger gatherings and celebrations',
+  ],
+  bbq: [
+    'Grilled meats, seafood, and vegetable stations',
+    'Live chef cooking and interactive service',
+    'Sides, salads, and condiments included',
+    'Ideal for poolside, garden, and villa events',
+  ],
+}
+
+const pricingTiers = MENU_FORMAT_IDS.map((id) => {
+  const format = CATERING_FORMAT_BY_ID[id]
+  return {
+    id,
+    name: format.calculatorLabel ?? format.label,
+    from: format.fromPerPerson,
+    typicalMin: format.typicalMin,
+    typicalMax: format.typicalMax,
+    estimate: format.calculatorEstimate,
+    features: MENU_FEATURES[id] ?? [],
+  }
+})
 
 const pricingFaqs = [
   {
     q: 'How much does a private chef cost in Dubai?',
-    a: 'Private chef experiences in Dubai typically start from AED 950 per person for a bespoke multi-course menu. Final pricing depends on guest count, menu complexity, ingredient selection, and service level.',
+    a: 'Chef-led plated dining is typically AED 700–950 per person. The calculator estimate is AED 950 per person. Final pricing depends on guest count, menu, ingredients, and service level. Household chef visit rates are separate.',
   },
   {
     q: 'Is there a minimum guest count?',
@@ -278,7 +282,7 @@ export default function Menus() {
             <SectionLabel align="center">PER-PERSON STARTING RATES</SectionLabel>
             <h2 className="font-playfair text-h2 text-black mb-4">Service Format Pricing</h2>
             <p className="font-inter text-body text-gray-500 max-w-[640px] mx-auto">
-              Per-person starting rates for bespoke menu formats. These sit alongside our fixed starter packages above.
+              Each format has a published floor, a typical staffed range, and a calculator estimate. These sit alongside the fixed starter packages above. Household chef visit rates stay on the private chef pricing page.
             </p>
           </div>
 
@@ -292,8 +296,12 @@ export default function Menus() {
                 <div className="mb-5">
                   <span className="font-inter text-caption text-gray-500 uppercase tracking-wider">from</span>
                   <p className="font-playfair text-3xl text-gold">
-                    AED {tier.price}
+                    AED {tier.from}
                     <span className="font-inter text-sm text-gray-500 ml-1">/ person</span>
+                  </p>
+                  <p className="mt-2 font-inter text-body-xs text-gray-500 leading-relaxed">
+                    {formatFrom(tier.from)}. {formatTypical(tier.typicalMin, tier.typicalMax)}
+                    {tier.estimate != null ? `. ${formatEstimate(tier.estimate)}` : ''}.
                   </p>
                 </div>
                 <ul className="flex-1 space-y-3 mb-8">
