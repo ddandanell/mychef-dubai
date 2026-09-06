@@ -81,6 +81,28 @@ def static_routes(src: str) -> dict[str, str]:
     return out
 
 
+def sitemap_paths() -> set[str]:
+    sm = ROOT / "public/sitemap.xml"
+    if not sm.exists():
+        return set()
+    out: set[str] = set()
+    for u in re.findall(r"<loc>([^<]+)</loc>", sm.read_text(encoding="utf-8")):
+        p = re.sub(r"^" + re.escape(SITE), "", u).rstrip("/") or "/"
+        out.add(p)
+    return out
+
+
+def parked_urls() -> set[str]:
+    p = ROOT / "docs/seo/parked-urls.json"
+    if not p.exists():
+        return set()
+    data = load_json(p)
+    urls = data.get("urls") if isinstance(data, dict) else None
+    if isinstance(urls, dict):
+        return set(urls)
+    return set()
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--from", dest="src", required=True)
@@ -97,8 +119,11 @@ def main() -> None:
 
     routes_src = ROUTES_TSX.read_text(encoding="utf-8")
     routes = static_routes(routes_src)
-    if dst not in routes:
-        die(f"destination {dst} is not a live static route in src/routes.tsx")
+    parked = parked_urls()
+    if dst in parked:
+        die(f"destination {dst} is parked (noindex, out of sitemap); pick an indexable owner")
+    if dst not in routes and dst not in sitemap_paths():
+        die(f"destination {dst} is not a live static route in src/routes.tsx or public/sitemap.xml")
 
     vercel = load_json(VERCEL)
     redirects = vercel.setdefault("redirects", [])

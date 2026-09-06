@@ -555,6 +555,42 @@
    "to": "/private-chef-dubai/pricing",
    "type": "301",
    "reason": "Google already indexes the nested URL (152 impr, pos ~12, 3 clicks). Flat URL is discovered-not-indexed. One owner on the ranked URL; restore cluster IA."
+  },
+  {
+   "from": "/dubai-catering-prices",
+   "to": "/dubai-catering-prices-guide",
+   "type": "301",
+   "reason": "Guess-URL returned the empty SPA shell (soft 404); live page is the prices guide"
+  },
+  {
+   "from": "/catering-cost-calculator",
+   "to": "/catering-cost-calculator-dubai",
+   "type": "301",
+   "reason": "Guess-URL returned the empty SPA shell (soft 404); live page is the Dubai calculator"
+  },
+  {
+   "from": "/event-catering-prices-2026",
+   "to": "/dubai-catering-prices-guide",
+   "type": "301",
+   "reason": "Guess-URL returned the empty SPA shell (soft 404). The 2026 event guide is parked/noindex; indexable owner is the prices guide"
+  },
+  {
+   "from": "/guides/event-catering-prices-2026",
+   "to": "/dubai-catering-prices-guide",
+   "type": "301",
+   "reason": "Guess-URL returned the empty SPA shell (soft 404). The 2026 event guide is parked/noindex; indexable owner is the prices guide"
+  },
+  {
+   "from": "/jbr",
+   "to": "/locations/jbr",
+   "type": "301",
+   "reason": "Guess-URL returned the empty SPA shell (soft 404); live page is /locations/jbr"
+  },
+  {
+   "from": "/luxury-catering-dubai",
+   "to": "/catering-dubai",
+   "type": "301",
+   "reason": "Guess-URL returned the empty SPA shell (soft 404); best live catering URL is the catering hub"
   }
  ],
  "canonical_overrides": {
@@ -629,7 +665,13 @@
   "/pescatarian-catering-dubai": "/cuisines-dubai",
   "/keto-catering-dubai": "/cuisines-dubai",
   "/corporate-meal-prep-dubai": "/staff-meals-catering-dubai",
-  "/private-chef-prices-dubai": "/private-chef-dubai/pricing"
+  "/private-chef-prices-dubai": "/private-chef-dubai/pricing",
+  "/dubai-catering-prices": "/dubai-catering-prices-guide",
+  "/catering-cost-calculator": "/catering-cost-calculator-dubai",
+  "/event-catering-prices-2026": "/dubai-catering-prices-guide",
+  "/guides/event-catering-prices-2026": "/dubai-catering-prices-guide",
+  "/jbr": "/locations/jbr",
+  "/luxury-catering-dubai": "/catering-dubai"
  },
  "global_nav": {
   "primary_nav": [
@@ -856,7 +898,13 @@
    "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
    "/case-studies/villa-wedding-reception-emirates-hills",
    "/case-studies/yacht-birthday-celebration-dubai-marina",
-   "/private-chef-prices-dubai"
+   "/private-chef-prices-dubai",
+   "/dubai-catering-prices",
+   "/catering-cost-calculator",
+   "/event-catering-prices-2026",
+   "/guides/event-catering-prices-2026",
+   "/jbr",
+   "/luxury-catering-dubai"
   ],
   "footer_trust": [
    {
@@ -1187,7 +1235,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -1390,7 +1444,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -1621,7 +1681,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -1831,7 +1897,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -2047,7 +2119,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -2267,7 +2345,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -2498,7 +2582,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -2719,7 +2809,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -2951,7 +3047,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -3171,7 +3273,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -3386,7 +3494,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -3609,7 +3723,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -3839,7 +3959,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -4057,7 +4183,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -4265,7 +4397,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -4489,7 +4627,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -4722,7 +4866,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -4948,7 +5098,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -5225,7 +5381,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -5453,7 +5615,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -5675,7 +5843,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -5905,7 +6079,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -6127,7 +6307,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -6352,7 +6538,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -6577,7 +6769,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -6810,7 +7008,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -7037,7 +7241,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -7260,7 +7470,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -7497,7 +7713,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -7722,7 +7944,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -7944,7 +8172,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -8166,7 +8400,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -8397,7 +8637,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -8636,7 +8882,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -8862,7 +9114,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -9088,7 +9346,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -9313,7 +9577,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -9539,7 +9809,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -9771,7 +10047,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -9993,7 +10275,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -10211,7 +10499,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -10434,7 +10728,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -10660,7 +10960,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -10892,7 +11198,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -11130,7 +11442,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -11355,7 +11673,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -11581,7 +11905,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -11806,7 +12136,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -11994,7 +12330,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -12209,7 +12551,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -12576,7 +12924,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -12849,7 +13203,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -13062,7 +13422,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -13285,7 +13651,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -13497,7 +13869,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -13725,7 +14103,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -13951,7 +14335,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -14172,7 +14562,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -14387,7 +14783,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -14612,7 +15014,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -14834,7 +15242,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -15045,7 +15459,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -15271,7 +15691,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -15427,7 +15853,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -15735,7 +16167,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -15956,7 +16394,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -16183,7 +16627,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -16414,7 +16864,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -16624,7 +17080,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -16849,7 +17311,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -17169,7 +17637,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -17381,7 +17855,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -17607,7 +18087,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -17839,7 +18325,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -18052,7 +18544,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -18282,7 +18780,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -18509,7 +19013,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -18746,7 +19256,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -18965,7 +19481,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -19195,7 +19717,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -19412,7 +19940,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -19622,7 +20156,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -19840,7 +20380,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -20054,7 +20600,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -20469,7 +21021,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -20687,7 +21245,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -20910,7 +21474,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -21170,7 +21740,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -21385,7 +21961,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -21595,7 +22177,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -21902,7 +22490,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -22110,7 +22704,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -22322,7 +22922,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -22550,7 +23156,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -22762,7 +23374,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -22974,7 +23592,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -23211,7 +23835,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -23438,7 +24068,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -23594,7 +24230,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -23805,7 +24447,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -24020,7 +24668,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -24230,7 +24884,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -24466,7 +25126,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -24687,7 +25353,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -25101,7 +25773,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -25340,7 +26018,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -25571,7 +26255,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -25781,7 +26471,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -25994,7 +26690,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -26208,7 +26910,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -26423,7 +27131,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -26633,7 +27347,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -26858,7 +27578,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -27077,7 +27803,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -27320,7 +28052,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -27551,7 +28289,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -27775,7 +28519,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -27997,7 +28747,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -28219,7 +28975,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -28433,7 +29195,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -28648,7 +29416,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -28876,7 +29650,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -29096,7 +29876,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -29372,7 +30158,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -29589,7 +30381,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -29799,7 +30597,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -30016,7 +30820,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -30240,7 +31050,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -30460,7 +31276,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -30678,7 +31500,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -30892,7 +31720,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -31115,7 +31949,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -31334,7 +32174,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -31549,7 +32395,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -31769,7 +32621,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -31988,7 +32846,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -32200,7 +33064,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -32434,7 +33304,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -32646,7 +33522,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -32853,7 +33735,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -33147,7 +34035,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -33370,7 +34264,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -33596,7 +34496,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -33823,7 +34729,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -34037,7 +34949,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -34252,7 +35170,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -34458,7 +35382,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -34666,7 +35596,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -34894,7 +35830,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -35126,7 +36068,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -35338,7 +36286,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -35579,7 +36533,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -35812,7 +36772,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -36022,7 +36988,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -36248,7 +37220,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -36470,7 +37448,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -36680,7 +37664,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -36887,7 +37877,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -37108,7 +38104,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -37327,7 +38329,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -37546,7 +38554,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -37759,7 +38773,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -37977,7 +38997,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -38192,7 +39218,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -38410,7 +39442,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -38635,7 +39673,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -38791,7 +39835,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -38947,7 +39997,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -39318,7 +40374,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -39544,7 +40606,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -39735,7 +40803,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -39923,7 +40997,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -40132,7 +41212,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -40320,7 +41406,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -40508,7 +41600,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -40740,7 +41838,13 @@
      "/case-studies/family-eid-gathering-arabian-ranches",
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
-     "/case-studies/yacht-birthday-celebration-dubai-marina"
+     "/case-studies/yacht-birthday-celebration-dubai-marina",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -40970,7 +42074,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -41196,7 +42306,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -41409,7 +42525,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -41630,7 +42752,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -41848,7 +42976,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -42058,7 +43192,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -42282,7 +43422,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -42487,7 +43633,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -42722,7 +43874,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -42941,7 +44099,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -43148,7 +44312,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -43364,7 +44534,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -43519,7 +44695,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -43761,7 +44943,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -43974,7 +45162,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -44131,7 +45325,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -44346,7 +45546,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -44559,7 +45765,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -44766,7 +45978,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -44992,7 +46210,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -45218,7 +46442,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -45374,7 +46604,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -45605,7 +46841,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -45782,7 +47024,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -46009,7 +47257,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -46224,7 +47478,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -46461,7 +47721,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -46687,7 +47953,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -46906,7 +48178,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -47135,7 +48413,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -47379,7 +48663,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -47590,7 +48880,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -47808,7 +49104,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -48059,7 +49361,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -48285,7 +49593,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -48524,7 +49838,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -48755,7 +50075,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -48974,7 +50300,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -49193,7 +50525,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {
@@ -49442,7 +50780,13 @@
      "/case-studies/intimate-anniversary-dinner-palm-jumeirah",
      "/case-studies/villa-wedding-reception-emirates-hills",
      "/case-studies/yacht-birthday-celebration-dubai-marina",
-     "/private-chef-prices-dubai"
+     "/private-chef-prices-dubai",
+     "/dubai-catering-prices",
+     "/catering-cost-calculator",
+     "/event-catering-prices-2026",
+     "/guides/event-catering-prices-2026",
+     "/jbr",
+     "/luxury-catering-dubai"
     ]
    },
    "claims": {

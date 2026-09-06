@@ -360,6 +360,54 @@
       "to": "/private-chef-dubai/pricing",
       "reason": "Google already indexes the nested URL (152 impr, pos ~12, 3 clicks). Flat URL is discovered-not-indexed. One owner on the ranked URL; restore cluster IA.",
       "executed": "2026-08-28 via scripts/retire-url.py"
+    },
+    {
+      "phase": "ad hoc",
+      "status": "done",
+      "from": "/dubai-catering-prices",
+      "to": "/dubai-catering-prices-guide",
+      "reason": "Guess-URL returned the empty SPA shell (soft 404); live page is the prices guide",
+      "executed": "2026-09-06 via scripts/retire-url.py"
+    },
+    {
+      "phase": "ad hoc",
+      "status": "done",
+      "from": "/catering-cost-calculator",
+      "to": "/catering-cost-calculator-dubai",
+      "reason": "Guess-URL returned the empty SPA shell (soft 404); live page is the Dubai calculator",
+      "executed": "2026-09-06 via scripts/retire-url.py"
+    },
+    {
+      "phase": "ad hoc",
+      "status": "done",
+      "from": "/event-catering-prices-2026",
+      "to": "/dubai-catering-prices-guide",
+      "reason": "Guess-URL returned the empty SPA shell (soft 404). The 2026 event guide is parked/noindex; indexable owner is the prices guide",
+      "executed": "2026-09-06 via scripts/retire-url.py"
+    },
+    {
+      "phase": "ad hoc",
+      "status": "done",
+      "from": "/guides/event-catering-prices-2026",
+      "to": "/dubai-catering-prices-guide",
+      "reason": "Guess-URL returned the empty SPA shell (soft 404). The 2026 event guide is parked/noindex; indexable owner is the prices guide",
+      "executed": "2026-09-06 via scripts/retire-url.py"
+    },
+    {
+      "phase": "ad hoc",
+      "status": "done",
+      "from": "/jbr",
+      "to": "/locations/jbr",
+      "reason": "Guess-URL returned the empty SPA shell (soft 404); live page is /locations/jbr",
+      "executed": "2026-09-06 via scripts/retire-url.py"
+    },
+    {
+      "phase": "ad hoc",
+      "status": "done",
+      "from": "/luxury-catering-dubai",
+      "to": "/catering-dubai",
+      "reason": "Guess-URL returned the empty SPA shell (soft 404); best live catering URL is the catering hub",
+      "executed": "2026-09-06 via scripts/retire-url.py"
     }
   ]
 }

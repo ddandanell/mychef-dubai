@@ -39,6 +39,22 @@ sitemap_paths = {re.sub(r"^https://www\.mychef\.ae", "", u) or "/" for u in re.f
 html_sitemap = (ROOT / "src/pages/SiteMap.tsx").read_text(encoding="utf-8")
 routed = set(re.findall(r'\{\s*path:\s*"([^"]+)"', routes_src))
 
+
+def dest_is_routed(dst: str) -> bool:
+    """Static route, home, or a sitemap URL served by a parametric route (/locations/:slug)."""
+    if dst in routed or dst == "/":
+        return True
+    if dst not in sitemap_paths:
+        return False
+    for p in routed:
+        if ":" not in p or "*" in p:
+            continue
+        parts = re.split(r":[A-Za-z0-9_]+", p)
+        rx = "^" + "[^/]+".join(re.escape(part) for part in parts) + "$"
+        if re.match(rx, dst):
+            return True
+    return False
+
 # /seo/* is the internal board, not the website. Its convenience redirects (settings.html →
 # settings) are not retirements and have no business in the SEO contract.
 redirects = [r for r in vercel.get("redirects", [])
@@ -79,9 +95,9 @@ for src, dst in sources.items():
             fail(f"INTERNAL_LINK {tag}: {f.relative_to(ROOT)} links {src} x{n}")
     if dst in sources:
         fail(f"CHAIN {tag}: destination is itself redirected to {sources[dst]}")
-    if dst not in routed and dst != "/":
+    if not dest_is_routed(dst):
         fail(f"DEST_NOT_ROUTED {tag}")
-    if dst not in sitemap_paths and dst != "/":
+    if dst not in sitemap_paths and dst != "/" and dst not in routed:
         fail(f"DEST_NOT_IN_SITEMAP {tag}")
     if src not in contract_redirects:
         fail(f"CONTRACT_REDIRECT_MISSING {tag}: not in docs/seo/myCHEF-AE-SEO-STANDARD.json redirects[]")

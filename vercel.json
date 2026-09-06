@@ -52,6 +52,15 @@
       ]
     },
     {
+      "source": "/404.html",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
       "source": "/seo/(.*)",
       "headers": [
         {
@@ -525,11 +534,65 @@
       "source": "/private-chef-prices-dubai",
       "destination": "/private-chef-dubai/pricing",
       "statusCode": 301
+    },
+    {
+      "source": "/dubai-catering-prices",
+      "destination": "/dubai-catering-prices-guide",
+      "statusCode": 301
+    },
+    {
+      "source": "/catering-cost-calculator",
+      "destination": "/catering-cost-calculator-dubai",
+      "statusCode": 301
+    },
+    {
+      "source": "/event-catering-prices-2026",
+      "destination": "/dubai-catering-prices-guide",
+      "statusCode": 301
+    },
+    {
+      "source": "/guides/event-catering-prices-2026",
+      "destination": "/dubai-catering-prices-guide",
+      "statusCode": 301
+    },
+    {
+      "source": "/jbr",
+      "destination": "/locations/jbr",
+      "statusCode": 301
+    },
+    {
+      "source": "/luxury-catering-dubai",
+      "destination": "/catering-dubai",
+      "statusCode": 301
     }
   ],
   "rewrites": [
     {
-      "source": "/((?!.*\\.).*)",
+      "source": "/inquiry",
+      "destination": "/fallback.html"
+    },
+    {
+      "source": "/inquiry/",
+      "destination": "/fallback.html"
+    },
+    {
+      "source": "/thank-you",
+      "destination": "/fallback.html"
+    },
+    {
+      "source": "/thank-you/",
+      "destination": "/fallback.html"
+    },
+    {
+      "source": "/seo",
+      "destination": "/fallback.html"
+    },
+    {
+      "source": "/seo/",
+      "destination": "/fallback.html"
+    },
+    {
+      "source": "/seo/((?!.*\\.).*)",
       "destination": "/fallback.html"
     }
   ]

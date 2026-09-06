@@ -241,11 +241,7 @@ function dedupeHead(html: string): string {
   return out + html.slice(head.length)
 }
 
-async function renderRoute(
-  page: Page,
-  baseUrl: string,
-  route: string,
-): Promise<{ route: string; outPath: string }> {
+async function renderHtml(page: Page, baseUrl: string, route: string): Promise<string> {
   const url = `${baseUrl}${route === "/" ? "/" : route}`
 
   await page.goto(url, {
@@ -298,6 +294,16 @@ async function renderRoute(
   if (seoScript && html.includes("</body>")) {
     html = html.replace("</body>", `${seoScript}</body>`)
   }
+
+  return html
+}
+
+async function renderRoute(
+  page: Page,
+  baseUrl: string,
+  route: string,
+): Promise<{ route: string; outPath: string }> {
+  const html = await renderHtml(page, baseUrl, route)
 
   const outDir = route === "/" ? DIST_DIR : path.join(DIST_DIR, route)
   fs.mkdirSync(outDir, { recursive: true })
@@ -355,12 +361,31 @@ async function main(): Promise<void> {
 
   try {
     await renderRoutes(browser, url, routes)
-    // Catch-all rewrite must NOT serve dist/index.html — that file is the
-    // prerendered homepage. Unknown extensionless paths get the original SPA
-    // shell so React Router can show the real route or NotFound.
+    // SPA shell for the few routes that are deliberately not prerendered
+    // (/inquiry, /thank-you, /seo/*). Unknown URLs must NOT hit this file —
+    // vercel.json no longer catch-all rewrites, so Vercel serves 404.html.
     const fallbackPath = path.join(DIST_DIR, "fallback.html")
     fs.copyFileSync(SHELL_PATH, fallbackPath)
     console.log(`SPA fallback -> ${fallbackPath}`)
+
+    const notFoundPage = await browser.newPage()
+    try {
+      const notFoundHtml = await renderHtml(notFoundPage, url, "/__not-found__")
+      if (!/noindex/i.test(notFoundHtml) || !/page not found/i.test(notFoundHtml)) {
+        throw new Error("404 snapshot missing noindex or Page Not Found")
+      }
+      const notFoundPath = path.join(DIST_DIR, "404.html")
+      const tmpPath = `${notFoundPath}.tmp`
+      fs.writeFileSync(tmpPath, notFoundHtml, "utf-8")
+      fs.renameSync(tmpPath, notFoundPath)
+      console.log(`404.html -> ${notFoundPath}`)
+    } catch (err) {
+      // public/404.html was already copied into dist by Vite. Keep that stub
+      // rather than failing the whole prerender over a missing branded 404.
+      console.warn("404.html prerender failed, keeping public/404.html stub:", err)
+    } finally {
+      await notFoundPage.close()
+    }
     console.log("Prerender complete.")
   } finally {
     await browser.close()
