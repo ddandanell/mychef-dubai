@@ -3,7 +3,7 @@ import { useLocation } from 'react-router'
 import { X } from 'lucide-react'
 import { trackEvent } from '@/lib/analytics'
 import { trackConversion } from '@/lib/track'
-import { conversionParams } from '@/lib/conversionEvents'
+import { classifyConversionHref, conversionParams } from '@/lib/conversionEvents'
 
 const WHATSAPP_NUMBER = '971551744849'
 const EXCLUDED_PATHS = ['/inquiry', '/thank-you']
@@ -60,13 +60,10 @@ export default function FloatingChefChat() {
     const topic = getTopic(pathname)
     const text = encodeURIComponent(`Hi myCHEF Dubai, can you tell me more about ${topic}?`)
     const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${text}&utm_source=mychef.ae&utm_medium=floating_chef_chat&utm_campaign=${encodeURIComponent(pathname.replace(/^\//, '').replace(/\//g, '-') || 'home')}`
-    trackEvent(
-      'whatsapp_click',
-      conversionParams(
-        { event: 'whatsapp_click', link_url: url },
-        { page_path: pathname, cta_location: 'floating_chef' },
-      ),
-    )
+    const hit = classifyConversionHref(url)
+    if (hit) {
+      trackEvent('whatsapp_click', conversionParams(hit, { page_path: pathname, cta_location: 'floating_chef' }))
+    }
     trackConversion('whatsapp_click', 'link')
     window.open(url, '_blank', 'noopener,noreferrer')
   }

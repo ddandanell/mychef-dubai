@@ -47,7 +47,7 @@ export default function PlanForm({ input }: { input: QuoteInput }) {
     )
   }
   return (
-    <form onSubmit={onSubmit} className="grid gap-4 sm:grid-cols-2">
+    <form id="private-chef-plan" onSubmit={onSubmit} className="grid gap-4 sm:grid-cols-2">
       <input required className={field} placeholder="First name" autoComplete="given-name" value={fields.first} onChange={update('first')} />
       <input required className={field} placeholder="Last name" autoComplete="family-name" value={fields.last} onChange={update('last')} />
       <input required type="email" className={field} placeholder="Email" autoComplete="email" value={fields.email} onChange={update('email')} />

@@ -3,7 +3,7 @@ import { useLocation } from 'react-router'
 import { initAnalytics, trackPageView, trackEvent } from '../lib/analytics'
 import { initTracking, trackPage, trackConversion } from '../lib/track'
 import { formLabel, placementFromElement } from '../lib/trackVocab'
-import { classifyConversionHref, conversionParams } from '../lib/conversionEvents'
+import { classifyConversionHref, conversionParams, shouldGenerateLead } from '../lib/conversionEvents'
 
 /**
  * Loads GA4, sends a page_view on every client-side route change, and mirrors
@@ -96,14 +96,17 @@ export default function Analytics() {
     }
 
     const onSubmit = (e: Event) => {
+      const path = window.location.pathname
+      if (path === '/seo' || path.startsWith('/seo/')) return
       const form = e.target as HTMLFormElement | null
-      const formId = (form && form.id) || 'lead_form'
+      const formId = (form && form.id) || ''
+      if (!shouldGenerateLead(path, formId)) return
       const method = formLabel(formId)
 
       trackEvent('generate_lead', {
         form_id: formId,
         method,
-        page_path: window.location.pathname,
+        page_path: path,
       })
       trackConversion('form_submit', method)
     }

@@ -3,7 +3,12 @@
  *
  *   npx tsx scripts/test-conversion-events.ts
  */
-import { classifyConversionHref, conversionParams } from '../src/lib/conversionEvents'
+import {
+  classifyConversionHref,
+  conversionParams,
+  sanitizeConversionUrl,
+  shouldGenerateLead,
+} from '../src/lib/conversionEvents'
 
 let fails = 0
 const eq = (name: string, got: unknown, want: unknown) => {
@@ -36,6 +41,25 @@ eq('params values', params, {
   page_path: '/catering-dubai',
   cta_location: 'hero',
 })
+
+eq(
+  'strips WhatsApp text (PII)',
+  classifyConversionHref(
+    'https://wa.me/971551744849?text=' + encodeURIComponent('Hi myCHEF, Jane Doe, Emirates Hills, AED 3000'),
+  )?.link_url,
+  'https://wa.me/971551744849',
+)
+eq(
+  'keeps api.whatsapp phone, drops text',
+  sanitizeConversionUrl('https://api.whatsapp.com/send?phone=971551744849&text=SecretName'),
+  'https://api.whatsapp.com/send?phone=971551744849',
+)
+eq('strips mailto subject', classifyConversionHref('mailto:info@mychef.ae?subject=Hi%20Jane')?.link_url, 'mailto:info@mychef.ae')
+eq('inquiry query stripped', classifyConversionHref('/inquiry?source=hero')?.link_url, '/inquiry')
+eq('seo gate is not a lead', shouldGenerateLead('/seo', 'lead_form'), false)
+eq('seo analyst is not a lead', shouldGenerateLead('/seo/analyst', 'x'), false)
+eq('unlabelled form is not a lead', shouldGenerateLead('/private-chef-dubai/pricing', ''), false)
+eq('plan form is a lead', shouldGenerateLead('/private-chef-dubai/pricing', 'private-chef-plan'), true)
 
 if (fails > 0) {
   console.error(`\n${fails} failing check(s)`)
